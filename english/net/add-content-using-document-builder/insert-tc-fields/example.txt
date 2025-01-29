@@ -1,0 +1,19 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a Word document and insert a table of contents field using Aspose.Words.
+//ExStepSummary:0: Create a new document and initialize a DocumentBuilder for adding content.
+//ExStepSummary:1: Insert a Table of Contents (TC) field with specified entry text using the DocumentBuilder.
+//ExStepSummary:2: Save the document to the specified output directory.
+//ExStepImage:1:images/tc_field.png
+//ExStep:0-
+// Initialize a new Document instance
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Insert a TC field with the specified entry text
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:2-
+// Save the document to the specified path
+doc.Save("AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

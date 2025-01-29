@@ -1,0 +1,79 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a Word document with a Table of Contents using DocumentBuilder. It includes headings of various levels and saves the document as a .docx file.
+//ExStepSummary:0: This step initializes a new Document object.
+//ExStepSummary:1: This step creates a DocumentBuilder object for the document manipulation.
+//ExStepSummary:2: This step inserts the Table of Contents at the beginning of the document.
+//ExStepSummary:3: This step introduces a page break to start the actual content on a new page.
+//ExStepSummary:4: This step sets the first heading and writes "Heading 1" to the document.
+//ExStepSummary:5: This step sets the second heading level and writes "Heading 1.1" and "Heading 1.2".
+//ExStepSummary:6: This step again sets the first heading level and writes "Heading 2" and "Heading 3".
+//ExStepSummary:7: This step sets the second heading level and writes "Heading 3.1".
+//ExStepSummary:8: This step sets the third heading level and writes subheadings "Heading 3.1.1", "Heading 3.1.2", and "Heading 3.1.3".
+//ExStepSummary:9: This step sets the second heading level once more and writes "Heading 3.2" and "Heading 3.3".
+//ExStepSummary:10: Finally, this step updates the fields in the document and saves it as a .docx file.
+//ExStepImage:1: images/toc_1.png
+//ExStepImage:2: images/toc_2.png
+//ExStepImage:3: images/toc_3.png
+//ExStepImage:4: images/toc_4.png
+//ExStepImage:5: images/toc_5.png
+//ExStepImage:6: images/toc_6.png
+//ExStepImage:7: images/toc_7.png
+//ExStepImage:8: images/toc_8.png
+
+//ExStep:0-
+// Create a new document instance
+Document doc = new Document();
+
+//ExStep:1-
+// Initialize DocumentBuilder for document manipulation
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// Insert a Table of Contents with specified options
+builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
+
+//ExStep:3-
+// Insert a page break to start content on a new page
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:4-
+// Set style to Heading 1
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 1");
+
+//ExStep:5-
+// Set style to Heading 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 1.1");
+builder.Writeln("Heading 1.2");
+
+//ExStep:6-
+// Set style back to Heading 1
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 2");
+builder.Writeln("Heading 3");
+
+//ExStep:7-
+// Set style to Heading 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.1");
+
+//ExStep:8-
+// Set style to Heading 3
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
+builder.Writeln("Heading 3.1.1");
+builder.Writeln("Heading 3.1.2");
+builder.Writeln("Heading 3.1.3");
+
+//ExStep:9-
+// Set style back to Heading 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.2");
+builder.Writeln("Heading 3.3");
+
+//ExStep:10-
+// Update all fields in the document
+doc.UpdateFields();
+// Save the document
+doc.Save("AddContentUsingDocumentBuilder.InsertTableOfContents.docx");
+//ExEnd
