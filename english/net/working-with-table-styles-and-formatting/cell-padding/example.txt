@@ -1,0 +1,40 @@
+// ExStart
+// ExSummary: The following code demonstrates how to create a Word document with a formatted table cell that includes padding around its contents.
+// ExStepSummary:0: The following code initializes a new document and a document builder.
+// ExStepSummary:1: The following code starts a table within the document.
+// ExStepSummary:2: The following code inserts a cell into the table.
+// ExStepSummary:3: The following code sets the padding for the cell contents.
+// ExStepSummary:4: The following code adds text to the cell and finishes the current row.
+// ExStepSummary:5: The following code ends the table and saves the document to a file.
+// ExStepImage:1: images/1.png
+// ExStepImage:2: images/2.png
+// ExStepImage:3: images/3.png
+// ExStepImage:4: images/4.png
+// ExStepImage:5: images/5.png
+// ExStep:0-
+// Initialize a new document
+Document doc = new Document();
+// Create a document builder for manipulating the document
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// ExStep:1-
+// Start creating a table
+builder.StartTable();
+// Insert a new cell into the table
+builder.InsertCell();
+
+// ExStep:2-
+// Set padding with 30 points on top and bottom, 50 points on left and right
+builder.CellFormat.SetPaddings(30, 50, 30, 50);
+
+// ExStep:3-
+builder.Writeln("I'm a wonderful formatted cell.");
+// Finish the current row in the table
+builder.EndRow();
+// End the table
+builder.EndTable();
+
+// ExStep:4-
+// Save the document to a specified file
+doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
+// ExEnd

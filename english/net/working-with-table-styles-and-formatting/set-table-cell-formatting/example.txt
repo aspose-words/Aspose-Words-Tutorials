@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary: The following code demonstrates how to create and format a table in a Word document using the DocumentBuilder class from Aspose.Words.
+//ExStepSummary:0: Initialize a new Document and DocumentBuilder to start building the Word document.
+//ExStepSummary:1: Create a table and insert a cell for formatting.
+//ExStepSummary:2: Set the formatting properties for the cell, including padding and width.
+//ExStepSummary:3: Insert text into the formatted cell.
+//ExStepSummary:4: End the row and table, and save the document to a specified file path.
+//ExStepImage:1: images/1.png
+//ExStepImage:2: images/2.png
+//ExStepImage:3: images/3.png
+//ExStepImage:4: images/4.png
+//ExStep:0-
+// Creating a new Document object
+Document doc = new Document();
+// Initializing DocumentBuilder with the new Document
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Begin creating a table
+builder.StartTable();
+// Insert the first cell into the table
+builder.InsertCell();
+
+//ExStep:2-
+// Accessing the formatting properties of the cell
+CellFormat cellFormat = builder.CellFormat;
+// Setting the cell width
+cellFormat.Width = 250;
+// Set the padding
+cellFormat.LeftPadding = 30;
+cellFormat.RightPadding = 30;
+cellFormat.TopPadding = 30;
+cellFormat.BottomPadding = 30;
+
+//ExStep:3-
+// Inserting text into the cell
+builder.Writeln("I'm a wonderful formatted cell.");
+
+//ExStep:4-
+// Ending the current row of the table
+builder.EndRow();
+// Ending the table creation
+builder.EndTable();
+// Saving the document
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");
+//ExEnd

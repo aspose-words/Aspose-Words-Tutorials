@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: This code demonstrates how to apply an outline border to a table in a Word document using Aspose.Words. It centers the table on the page, sets a green border around the table, clears any existing borders, and fills the table cells with a light green background color. 
+//ExStepSummary:0: The following code initializes the document and retrieves the first table.
+//ExStepSummary:1: This step aligns the table to the center of the page.
+//ExStepSummary:2: This step clears any existing borders from the table.
+//ExStepSummary:3: This step sets a green border around the table but not inside.
+//ExStepSummary:4: This step fills the cells with a light green solid color.
+//ExStepImage:1: images/initial.png
+//ExStepImage:2: images/centered_table.png
+//ExStepImage:3: images/clear_borders.png
+//ExStepImage:4: images/set_green_border.png
+//ExStepImage:5: images/fill_cells_color.png
+
+//ExStep:0-
+// Define the directory of the document
+string dataDir = "Your Document Directory";
+// Load the document
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Retrieve the first table from the document
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+// Align the table to the center of the page
+table.Alignment = TableAlignment.Center;
+
+//ExStep:2-
+// Clear any existing borders from the table
+table.ClearBorders();
+
+//ExStep:3-
+// Set left border
+table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
+// Set right border
+table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
+// Set top border
+table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
+// Set bottom border
+table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
+
+//ExStep:4-
+// Fill the cells with light green color
+table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
+// Save the modified document
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
+//ExEnd
