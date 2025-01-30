@@ -1,0 +1,30 @@
+//ExStart
+//ExSummary: This code demonstrates how to insert a Bubble chart into a Word document using Aspose.Words.
+//ExStepSummary:0: The following code initializes a new Document and DocumentBuilder.
+//ExStepSummary:1: A Bubble chart is created and added to the document using the DocumentBuilder.
+//ExStepSummary:2: The data series for the Bubble chart is added with specific X, Y, and size values.
+//ExStepSummary:3: Finally, the document is saved with the inserted Bubble chart.
+//ExStepImage:1: images/1.png
+//ExStepImage:2: images/2.png
+//ExStepImage:3: images/3.png
+
+//ExStep:0-
+// Initialize a new Document and DocumentBuilder
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Insert a Bubble chart into the document
+Shape shape = builder.InsertChart(ChartType.Bubble, 432, 252);
+
+//ExStep:2-
+// Add data series to the Bubble chart
+Chart chart = shape.Chart;
+chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, // X values
+    new double[] { 2.7, 3.2, 0.8 }, // Y values
+    new double[] { 10, 4, 8 }); // Size values for the bubbles
+
+//ExStep:3-
+// Save the document with the Bubble chart
+doc.Save("WorkingWithCharts.InsertBubbleChart.docx");
+//ExEnd

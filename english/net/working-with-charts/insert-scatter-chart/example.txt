@@ -1,0 +1,30 @@
+//ExStart
+//ExSummary:This code demonstrates how to create a Word document with a scatter chart using Aspose.Words. It initializes a document, builds content, inserts a scatter chart, adds data to it, and saves the document.
+//ExStepSummary:0:Initialization of the Document and DocumentBuilder objects to start working on the document.
+//ExStepSummary:1:Insertion of a scatter chart into the document.
+//ExStepSummary:2:Adding a series of data points to the scatter chart.
+//ExStepSummary:3:Saving the document with the scatter chart to a .docx file.
+//ExStepImage:1:images/scatter_chart_1.png
+//ExStepImage:2:images/scatter_chart_2.png
+//ExStepImage:3:images/scatter_chart_3.png
+
+//ExStep:0-
+// Initialize a new document
+Document doc = new Document();
+// Create a builder to insert content
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Insert a scatter chart into the document
+Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252); 
+
+//ExStep:2-
+// Get the chart object from the inserted shape
+Chart chart = shape.Chart;
+// Add series data to the chart
+chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 });
+
+//ExStep:3-
+// Save the document with the scatter chart
+doc.Save("WorkingWithCharts.InsertScatterChart.docx");
+//ExEnd

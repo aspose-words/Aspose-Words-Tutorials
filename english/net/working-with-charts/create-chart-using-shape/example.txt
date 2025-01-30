@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Please check the following code to find how to create a line chart in a Word document. You can copy this code to your IDE and run it.
+//ExStepSummary:0: The following code shows how to create a new Document and instantiate a DocumentBuilder:
+//ExStepSummary:1: The following code demonstrates how to insert a Line chart into the document:
+//ExStepSummary:2: The following code explains how to set the title for the chart:
+//ExStepSummary:3: The following code shows how to configure the chart legend's position and overlay settings:
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Create a new Document object
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Insert a Line chart into the document at specified dimensions
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+
+//ExStep:2-
+// Access the Chart object from the shape
+Chart chart = shape.Chart;
+// Enable the chart title visibility
+chart.Title.Show = true;
+// Set the title text for the chart
+chart.Title.Text = "Line Chart Title";
+// Ensure the title does not overlay the chart
+chart.Title.Overlay = false;
+
+//ExStep:3-
+// Set the position of the chart legend to the left
+chart.Legend.Position = LegendPosition.Left;
+chart.Legend.Overlay = true;
+
+//ExStep:4-
+// Save the document with the chart to a file
+doc.Save("WorkingWithCharts.CreateChartUsingShape.docx");
+//ExEnd
