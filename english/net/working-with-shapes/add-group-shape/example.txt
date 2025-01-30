@@ -1,0 +1,68 @@
+//ExStart
+// ExSummary: This code demonstrates how to create a group shape within a document using Aspose.Words.
+// It creates an accent border callout shape and an action button, adds them to a group shape, and then inserts the group shape into the document before saving it.
+// ExStepSummary:0: Initializes a new Document and ensures the minimum requirements are met.
+// ExStepSummary:1: Creates a GroupShape that will hold other shapes.
+// ExStepSummary:2: Adds an accent border callout shape to the group shape.
+// ExStepSummary:3: Adds an action button shape to the group shape.
+// ExStepSummary:4: Sets the dimensions and coordinates for the group shape.
+// ExStepSummary:5: Inserts the group shape into the document using a DocumentBuilder.
+// ExStepSummary:6: Saves the document containing the group shape to a specified location.
+// ExStepImage:1:images/addGroupShape1.png
+// ExStepImage:2:images/addGroupShape2.png
+// ExStepImage:3:images/addGroupShape3.png
+// ExStepImage:4:images/addGroupShape4.png
+// ExStepImage:5:images/addGroupShape5.png
+
+// ExStep:0-
+// Create a new Document
+Document doc = new Document();
+// Ensure the document meets minimum requirements
+doc.EnsureMinimum();
+
+// ExStep:1-
+// Create a new GroupShape instance
+GroupShape groupShape = new GroupShape(doc);
+
+// ExStep:2-
+// Create an accent border callout shape
+Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
+{
+    Width = 100, 
+    Height = 100
+};
+// Add the shape to the group shape
+groupShape.AppendChild(accentBorderShape);
+
+// ExStep:3-
+// Create an action button shape
+Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
+{
+	// Set the left position of the shape
+    Left = 100, 
+	// Set width of the shape
+    Width = 100, 
+	// Set height of the shape
+    Height = 200
+};
+// Add the action button to the group shape
+groupShape.AppendChild(actionButtonShape);
+
+// ExStep:4-
+// Set the width of the group shape
+groupShape.Width = 200;
+// Set the height of the group shape
+groupShape.Height = 200;
+// Set the coordinate size for the group shape
+groupShape.CoordSize = new Size(200, 200);
+
+// ExStep:5-
+// Create a DocumentBuilder to manipulate the document
+DocumentBuilder builder = new DocumentBuilder(doc);
+// Insert the group shape into the document
+builder.InsertNode(groupShape);
+
+// ExStep:6-
+// Save the document to a specified location
+doc.Save("WorkingWithShapes.AddGroupShape.docx");
+// ExEnd
