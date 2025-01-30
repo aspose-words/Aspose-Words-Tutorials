@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: This code demonstrates how to add a text watermark with specific options to a Word document using Aspose.Words.
+//ExStepSummary:0: The following code initializes the document path and creates a new Document object.
+//ExStepSummary:1: The following code sets up the options for the text watermark, including font family, size, color, and layout.
+//ExStepSummary:2: The following code applies the text watermark with the specified options to the document.
+//ExStepSummary:3: The following code saves the modified document to a specified directory.
+//ExStepImage:1: images/watermark_setup.png
+//ExStepImage:2: images/watermark_application.png
+//ExStepImage:3: images/document_save.png
+//ExStep:0-
+// Set the directory path for the document
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Load the Word document
+Document doc = new Document(dataDir + "Document.docx");
+
+//ExStep:2-
+// Create watermark options
+TextWatermarkOptions options = new TextWatermarkOptions()
+{
+    FontFamily = "Arial", // Set font family for the watermark text
+    FontSize = 36, // Set font size for the watermark text
+    Color = Color.Black, // Set color of the watermark text
+    Layout = WatermarkLayout.Horizontal, // Specify layout of the watermark
+    IsSemitrasparent = false // Set transparency option
+};
+
+//ExStep:3-
+// Apply the watermark text with options
+doc.Watermark.SetText("Test", options);
+
+//ExStep:4-
+// Save the document with the watermark
+doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
+//ExEnd
