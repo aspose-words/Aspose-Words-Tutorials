@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary:This code demonstrates how to create a Word document using Aspose.Words, formatting the font properties before writing a sample text to it.
+//ExStepSummary:0:The following code initializes a new Document and a DocumentBuilder.
+//ExStepSummary:1:The following code sets various font properties such as size, bold, color, name, and underline style.
+//ExStepSummary:2:The following code writes a sample text to the document using the configured font settings.
+//ExStepSummary:3:The following code saves the document to the specified directory with a given filename.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Create a new document instance
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Access the font property through DocumentBuilder
+Font font = builder.Font;
+// Set the font size to 16
+font.Size = 16;
+// Make the font bold
+font.Bold = true;
+// Change the font color to blue
+font.Color = Color.Blue;
+// Set the font to Arial
+font.Name = "Arial";
+// Apply a dashed underline style to the font
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+builder.Write("Sample text.");
+
+//ExStep:3-
+// Save the document to the artifacts directory
+doc.Save("WorkingWithFonts.FontFormatting.docx");
+//ExEnd

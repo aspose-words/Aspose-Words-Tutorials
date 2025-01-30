@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary:This code demonstrates how to set an emphasis mark in a Word document using Aspose.words.
+//ExStepSummary:0:Creating a new Document instance to work with.
+//ExStepSummary:1:Setting up a DocumentBuilder to manipulate the document.
+//ExStepSummary:2:Applying an emphasis mark to the font of the builder.
+//ExStepSummary:3:Writing emphasis text to the document.
+//ExStepSummary:4:Clearing the formatting of the font for the next line.
+//ExStepSummary:5:Writing a simple text without any emphasis.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStep:0-
+// Create a new Document
+Document document = new Document();
+
+//ExStep:1-
+// Initialize DocumentBuilder for document manipulation
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:2-
+// Set emphasis mark to UnderSolidCircle
+builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
+
+//ExStep:3-
+// Write the emphasis text to the document
+builder.Write("Emphasis text");
+// Move to the next line
+builder.Writeln();
+
+//ExStep:4-
+// Clear the font formatting for the subsequent text
+builder.Font.ClearFormatting();
+
+//ExStep:5-
+// Write simple text without emphasis
+builder.Write("Simple text");
+
+//ExStep:6-
+// Save the document to the specified path
+document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
+//ExEnd

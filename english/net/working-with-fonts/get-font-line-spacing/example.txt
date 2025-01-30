@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a document and get the line spacing of a specified font.
+//ExStepSummary:0: The following code initializes a new Document and DocumentBuilder.
+//ExStepSummary:1: The code sets the font to "Calibri" and adds a line of text.
+//ExStepSummary:2: The code retrieves the line spacing of the first run in the document.
+//ExStepImage:1: images/getFontLineSpacing1.png
+//ExStepImage:2: images/getFontLineSpacing2.png
+//ExStep:0-
+// Create a new document instance
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Set the font name to 'Calibri'
+builder.Font.Name = "Calibri";
+builder.Writeln("qText");
+
+//ExStep:2-
+// Access the font of the first run
+Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
+// Output the line spacing to the console
+Console.WriteLine($"lineSpacing = {font.LineSpacing}");
+//ExEnd
