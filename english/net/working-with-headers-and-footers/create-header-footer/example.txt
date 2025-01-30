@@ -1,0 +1,30 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a Word document with a primary header and footer using Aspose.Words. It initializes a new document, moves to the header and footer sections, and writes custom text. Finally, it saves the document as a DOCX file.
+//ExStepSummary:0: The following code initializes the main Document object and sets up the DocumentBuilder.
+//ExStepSummary:1: The following code moves to the primary header section and writes the header text.
+//ExStepSummary:2: The following code moves to the primary footer section and writes the footer text.
+//ExStepSummary:3: The following code saves the document to a specified file path.
+//ExStepImage:1: images/1.png
+//ExStepImage:2: images/2.png
+//ExStepImage:3: images/3.png
+//ExStepImage:4: images/4.png
+
+//ExStep:0-
+// Initialize a new Document object
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Move to the primary header section
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("Header for page.");
+
+//ExStep:2-
+// Move to the primary footer section
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+builder.Write("Footer for page."); // Write the footer text
+
+//ExStep:3-
+// Save the document with the specified filename
+doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
+//ExEnd
