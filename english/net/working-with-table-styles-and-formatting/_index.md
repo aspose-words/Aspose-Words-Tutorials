@@ -4,7 +4,7 @@ weight: 10
 limit:
 description:
 keywords:
-url: C:/Work/Hugo/Aspose-Words-Tutorials/english/net/working-with-table-styles-and-formatting
+url: /net/working-with-table-styles-and-formatting/
 ---
 {{< tutorial-card link="./apply-outline-border" title="Apply Outline Border to a Table in Word using Aspose.Words" imgSrc="./apply-outline-border/images/thumb.png" >}}
 {{< tutorial-card link="./apply-row-formatting" title="Apply Row Formatting in Word Documents with Aspose.Words for .NET" imgSrc="./apply-row-formatting/images/thumb.png" >}}

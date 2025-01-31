@@ -4,7 +4,7 @@ weight: 10
 limit:
 description:
 keywords:
-url: C:/Work/Hugo/Aspose-Words-Tutorials/english/net/add-content-using-document-builder
+url: /net/add-content-using-document-builder/
 ---
 {{< tutorial-card link="./build-table" title="Create a Word Document with Table Using Aspose.Words" imgSrc="./build-table/images/thumb.png" >}}
 {{< tutorial-card link="./insert-break" title="Create a Multi-Page Word Document with Aspose.Words" imgSrc="./insert-break/images/thumb.png" >}}

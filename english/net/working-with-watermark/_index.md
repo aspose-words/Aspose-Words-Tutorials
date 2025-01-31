@@ -4,6 +4,6 @@ weight: 10
 limit:
 description:
 keywords:
-url: C:/Work/Hugo/Aspose-Words-Tutorials/english/net/working-with-watermark
+url: /net/working-with-watermark/
 ---
 {{< tutorial-card link="./add-text-watermark" title="Add Text Watermark in Word Document Using Aspose.Words for .NET" imgSrc="./add-text-watermark/images/thumb.png" >}}

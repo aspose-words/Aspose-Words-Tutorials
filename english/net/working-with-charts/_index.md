@@ -4,7 +4,7 @@ weight: 10
 limit:
 description:
 keywords:
-url: C:/Work/Hugo/Aspose-Words-Tutorials/english/net/working-with-charts
+url: /net/working-with-charts/
 ---
 {{< tutorial-card link="./bounds-of-axis" title="Create a Document with Charts Using Aspose.Words for .NET" imgSrc="./bounds-of-axis/images/thumb.png" >}}
 {{< tutorial-card link="./create-chart-using-shape" title="Create a Line Chart in Word using Aspose.Words for .NET" imgSrc="./create-chart-using-shape/images/thumb.png" >}}

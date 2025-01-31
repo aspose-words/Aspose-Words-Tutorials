@@ -4,7 +4,7 @@ weight: 10
 limit:
 description:
 keywords:
-url: C:/Work/Hugo/Aspose-Words-Tutorials/english/net
+url: /net/
 ---
 {{< tutorial-card link="./add-content-using-document-builder" title="add-content-using-document-builder" imgSrc="./add-content-using-document-builder/images/thumb.png" >}}
 {{< tutorial-card link="./document-formatting" title="document-formatting" imgSrc="./document-formatting/images/thumb.png" >}}
