@@ -19,5 +19,3 @@ This guide delves into the versatility of the DocumentBuilder class, covering it
 {{< tutorial-card link="./insert-inline-image" title="Insert Inline Image in Word Document using Aspose.Words" imgSrc="./insert-inline-image/images/thumb.png" >}}
 {{< tutorial-card link="./insert-paragraph" title="Create Word Document with Aspose.Words for .NET" imgSrc="./insert-paragraph/images/thumb.png" >}}
 {{< tutorial-card link="./insert-table-contents" title="Create a Word Document with Table of Contents in .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
-{{< tutorial-card link="./insert-tc-fields" title="Create Word Document with Table of Contents in .NET" imgSrc="./insert-tc-fields/images/thumb.png" >}}
-{{< tutorial-card link="./insert-tc-fields-at-text" title="Insert TC Fields in Document Using Aspose.Words" imgSrc="./insert-tc-fields-at-text/images/thumb.png" >}}
