@@ -8,7 +8,7 @@ url: /net/working-with-charts/create-chart-using-shape/
 ---
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Create a Line Chart in Word using Aspose.Words  
 
@@ -17,8 +17,8 @@ Aspose.Words for .NET empowers developers to create visually appealing and profe
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/create-chart-using-shape" >}}
 
-{{< /blocks/products/pf/feature-page-section >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions  
 
 1. Download Aspose.Words for .NET:  
@@ -40,7 +40,7 @@ Aspose.Words for .NET empowers developers to create visually appealing and profe
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
-{{< /blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

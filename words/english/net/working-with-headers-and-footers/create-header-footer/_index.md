@@ -8,7 +8,7 @@ url: /net/working-with-headers-and-footers/create-header-footer/
 ---
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Word Document with Header and Footer Using Aspose.Words
 
@@ -17,8 +17,8 @@ This example demonstrates how to use Aspose.Words for .NET to create a Word docu
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-headers-and-footers/create-header-footer" >}}
 
-{{< /blocks/products/pf/feature-page-section >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions  
 1. Download Aspose.Words for .NET: Get the latest version from the [Aspose releases page](https://releases.aspose.com/words/net/).  
 2. Install Aspose.Words:  
@@ -37,7 +37,7 @@ This example demonstrates how to use Aspose.Words for .NET to create a Word docu
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
-{{< /blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

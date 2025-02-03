@@ -8,7 +8,7 @@ url: /net/working-with-section/add-section/
 ---
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Add a New Section to Word Document
 
@@ -17,8 +17,8 @@ Aspose.Words for .NET makes working with Word documents effortless by providing 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-section/add-section" >}}
 
-{{< /blocks/products/pf/feature-page-section >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions for Aspose.Words for .NET  
 
 1. Download Aspose.Words for .NET:  
@@ -47,7 +47,7 @@ Aspose.Words for .NET makes working with Word documents effortless by providing 
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
-{{< /blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

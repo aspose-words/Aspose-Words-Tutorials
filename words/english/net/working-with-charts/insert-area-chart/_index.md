@@ -8,7 +8,7 @@ url: /working-with-charts/insert_area_chart/
 ---
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Area Chart in Word Document 
 
@@ -17,8 +17,8 @@ Aspose.Words for .NET makes it easy to add dynamic and visually appealing charts
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/bounds-of-axis" >}}
 
-{{< /blocks/products/pf/feature-page-section >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions  
 
 To follow this example, ensure you have Aspose.Words for .NET installed. Here's how to get started:  
@@ -46,7 +46,7 @@ To follow this example, ensure you have Aspose.Words for .NET installed. Here's 
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
-{{< /blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

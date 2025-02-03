@@ -8,7 +8,7 @@ url: /net/working-with-charts/bounds-of-axis/
 ---
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Create a Document with Charts Using Aspose.Words
 
@@ -17,8 +17,8 @@ This tutorial demonstrates how to create a Word document with a chart using Aspo
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/bounds-of-axis" >}}
 
-{{< /blocks/products/pf/feature-page-section >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions  
 
 1. Download Aspose.Words for .NET  
@@ -46,7 +46,7 @@ This tutorial demonstrates how to create a Word document with a chart using Aspo
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
-{{< /blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

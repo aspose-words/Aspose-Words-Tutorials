@@ -8,7 +8,7 @@ url: /net/working-with-shapes/add-group-shape/
 ---
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Group Shape in Word Document Using Aspose.Words
 
@@ -17,8 +17,8 @@ This tutorial demonstrates how to create and manage group shapes in Word documen
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-shapes/add-group-shape" >}}
 
-{{< /blocks/products/pf/feature-page-section >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions  
 
 1. Download Aspose.Words for .NET:  
@@ -44,7 +44,7 @@ This tutorial demonstrates how to create and manage group shapes in Word documen
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
-{{< /blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

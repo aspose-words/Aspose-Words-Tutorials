@@ -8,7 +8,7 @@ url: /net/add-content-using-document-builder/insert-inline-image/
 ---
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Inline Image in Word Document using Aspose.Words
 This example demonstrates how to insert an inline image into a Word document using the Aspose.Words library for .NET. By utilizing the `DocumentBuilder` class, you can easily position and insert images at the current cursor location in your document. This guide provides a straightforward implementation to help you get started with image handling in Word documents.
@@ -16,8 +16,8 @@ This example demonstrates how to insert an inline image into a Word document usi
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-inline-image" >}}
 
-{{< /blocks/products/pf/feature-page-section >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 1. Install Aspose.Words for .NET:
    - Use NuGet Package Manager in Visual Studio.
@@ -41,7 +41,7 @@ This example demonstrates how to insert an inline image into a Word document usi
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
 
-{{< /blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

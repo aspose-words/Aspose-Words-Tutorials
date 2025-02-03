@@ -8,7 +8,7 @@ url: /net/working-with-table-styles-and-formatting/format-table-and-cell/
 ---
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Word Document with Custom Table Borders and Shading
 
@@ -17,8 +17,8 @@ This example demonstrates how to utilize Aspose.Words for .NET to create a Word 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/format-table-and-cell" >}}
 
-{{< /blocks/products/pf/feature-page-section >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 1. Download Aspose.Words for .NET: Visit the [Aspose website](https://www.aspose.com) and download the latest version of Aspose.Words for .NET.
 2. Add Reference: In your .NET project, add a reference to the Aspose.Words DLL file.
@@ -39,7 +39,7 @@ This example demonstrates how to utilize Aspose.Words for .NET to create a Word 
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
-{{< /blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

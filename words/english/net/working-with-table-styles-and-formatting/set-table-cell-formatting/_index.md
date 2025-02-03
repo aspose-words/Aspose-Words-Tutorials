@@ -8,7 +8,7 @@ url: /net/working-with-table-styles-and-formatting/set-table-cell-formatting/
 ---
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Create and Format a Table in Word Document with Aspose.Words
 
@@ -17,8 +17,8 @@ Aspose.Words for .NET simplifies Word document manipulation, making tasks like c
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/set-table-cell-formatting" >}}
 
-{{< /blocks/products/pf/feature-page-section >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions  
 Follow these steps to install and use Aspose.Words for .NET in your project:  
 
@@ -53,7 +53,7 @@ Follow these steps to install and use Aspose.Words for .NET in your project:
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/) 
-{{< /blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

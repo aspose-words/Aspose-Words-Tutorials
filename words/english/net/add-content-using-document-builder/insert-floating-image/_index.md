@@ -8,7 +8,7 @@ url: /net/add-content-using-document-builder/insert-floating-image/
 ---
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Word Document with Floating Image
 
@@ -17,8 +17,8 @@ This example demonstrates how to create a Word document using Aspose.Words for .
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-floating-image" >}}
 
-{{< /blocks/products/pf/feature-page-section >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 1. Install Aspose.Words: Add the Aspose.Words NuGet package to your .NET project. You can do this by running the following command in the Package Manager Console:
    ```
@@ -41,7 +41,7 @@ This example demonstrates how to create a Word document using Aspose.Words for .
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
 
-{{< /blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

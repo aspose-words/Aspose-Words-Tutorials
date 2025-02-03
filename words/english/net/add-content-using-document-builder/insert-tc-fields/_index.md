@@ -8,7 +8,7 @@ url: /net/add-content-using-document-builder/insert-tc-fields/
 ---
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Word Document with Table of Contents
 This example demonstrates the process of creating a Word document using Aspose.Words for .NET. It illustrates how to insert a Table of Contents (TC) field programmatically, allowing for easy navigation within the document. Ideal for developers looking to enhance their document handling capabilities in .NET applications.
@@ -16,8 +16,8 @@ This example demonstrates the process of creating a Word document using Aspose.W
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-tc-fields" >}}
 
-{{< /blocks/products/pf/feature-page-section >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 1. Install the Aspose.Words for .NET Package:
    - Use NuGet Package Manager Console:
@@ -40,7 +40,7 @@ This example demonstrates the process of creating a Word document using Aspose.W
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
-{{< /blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
