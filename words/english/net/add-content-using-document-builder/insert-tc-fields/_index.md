@@ -14,7 +14,7 @@ url: /net/add-content-using-document-builder/insert-tc-fields/
 This example demonstrates the process of creating a Word document using Aspose.Words for .NET. It illustrates how to insert a Table of Contents (TC) field programmatically, allowing for easy navigation within the document. Ideal for developers looking to enhance their document handling capabilities in .NET applications.
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-tc-fields" >}}
+{{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-tc-fields" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

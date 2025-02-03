@@ -15,7 +15,7 @@ url: /working-with-table-styles-and-formatting/buildtable_with_style
 This example demonstrates how to create a Word document that includes a styled table using Aspose.Words for .NET. It walks you through the process of setting up a new document, using a `DocumentBuilder` to manage document structure, and formatting a table with headers and data rows to enhance readability. The resulting document showcases proper styling and formatting techniques that can be applied to tables, making the content clearer and more presentable.
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/apply-outline-border" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/apply-outline-border" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

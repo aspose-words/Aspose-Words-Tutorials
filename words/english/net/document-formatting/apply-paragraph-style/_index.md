@@ -14,7 +14,7 @@ url: /net/document-formatting/apply-paragraph-style/
 Aspose.Words for .NET empowers developers to effortlessly create, modify, and style Word documents programmatically. This example demonstrates a simple yet powerful way to create a Word document, apply a "Title" paragraph style, and save it in the .docx format. Whether you're building a document automation solution or just exploring Aspose.Words features, this guide is a perfect starting point. Follow the steps below to get started with document styling in .NET!  
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/document-formatting/apply-paragraph-style" >}}
+{{< tutorial-widget sourcePath="words/net/document-formatting/apply-paragraph-style" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

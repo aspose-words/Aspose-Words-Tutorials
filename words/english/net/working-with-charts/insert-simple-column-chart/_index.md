@@ -15,7 +15,7 @@ url: /net/working-with-charts/insert-simple-column-chart/
 Aspose.Words for .NET makes it effortless to create professional Word documents with rich content. In this tutorial, you will learn how to insert a simple column chart into a Word document programmatically. We'll cover every step, from initializing the document to customizing chart series and saving the file. Whether you're generating reports or visualizing data, this guide provides all the details you need to master chart insertion using Aspose.Words for .NET.  
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-charts/insert-simple-column-chart" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-charts/insert-simple-column-chart" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

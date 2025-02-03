@@ -15,7 +15,7 @@ url: /net/working-with-table-styles-and-formatting/table-tittle-and-description/
 This guide demonstrates how to enhance your Word documents by adding a title and description to tables using Aspose.Words for .NET. You’ll learn how to manipulate the table properties in an existing Word document, configure save options for the desired compatibility, and ensure optimized formatting for Word 2016. The example code walks you through loading a document, updating its table properties, and saving the file with precise configuration settings.
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/table-tittle-and-description" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/table-tittle-and-description" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

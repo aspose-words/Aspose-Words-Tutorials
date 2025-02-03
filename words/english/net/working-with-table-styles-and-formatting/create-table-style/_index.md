@@ -15,7 +15,7 @@ url: /net/working-with-table-styles-and-formatting/create-table-style/
 In this tutorial, we will walk you through the process of creating a Word document with a customized table using Aspose.Words for .NET. You’ll learn how to initialize a new document, insert table rows and columns, and apply a custom table style with specific border settings and padding. By the end, you’ll be able to save a fully formatted Word document with a styled table that fits your needs.
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/create-table-style" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/create-table-style" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

@@ -15,7 +15,7 @@ url: /net/working-with-section/append-section-content/
 Aspose.Words for .NET is a powerful library for creating, manipulating, and transforming Word documents in .NET applications. This example demonstrates how to append and prepend content from one section to another in a Word document. By using simple and intuitive APIs, you can manipulate sections, merge content, and perform advanced document editing tasks seamlessly. Whether you're building automation workflows or custom document editors, Aspose.Words simplifies your development process.  
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-section/append-section-content" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-section/append-section-content" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

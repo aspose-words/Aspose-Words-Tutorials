@@ -14,7 +14,7 @@ url: /net/working-with-shapes/insert-shape/
 This guide demonstrates how to use Aspose.Words for .NET to insert and manipulate shapes, such as text boxes, in Word documents. You’ll learn how to position shapes absolutely or relatively, set rotation angles, and save the document in ISO 29500:2008 Transitional DOCX format using `OoxmlSaveOptions`. This example simplifies working with shapes in Word documents, enabling developers to create visually appealing content with ease.  
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-shapes/insert-shape" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-shapes/insert-shape" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

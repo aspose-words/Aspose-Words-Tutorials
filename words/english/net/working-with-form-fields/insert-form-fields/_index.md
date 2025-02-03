@@ -15,7 +15,7 @@ url: /net/working-with-form-fields/insert-form-fields/
 Aspose.Words for .NET makes it easy to create and manipulate Word documents programmatically. In this example, you’ll learn how to insert a combo box form field into a Word document. The combo box includes predefined items like "One," "Two," and "Three," with a default selection set. This step-by-step tutorial demonstrates the use of `DocumentBuilder` to create dynamic, interactive Word documents effortlessly. Perfect for developers seeking to enhance their .NET applications with customizable Word forms.  
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-form-fields/insert-form-fields" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-form-fields/insert-form-fields" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

@@ -15,7 +15,7 @@ url: /net/working-with-shapes/add-group-shape/
 This tutorial demonstrates how to create and manage group shapes in Word documents using Aspose.Words for .NET. With this powerful library, you can effortlessly combine multiple shapes, such as an accent border callout and an action button, into a single group shape. The guide covers every step, from initializing the document to adding shapes, customizing dimensions, and inserting the group shape into your Word file. Finally, the example saves the document, showcasing how to seamlessly integrate dynamic shapes into Word documents for visually appealing results.  
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-shapes/add-group-shape" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-shapes/add-group-shape" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

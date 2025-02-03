@@ -15,7 +15,7 @@ url: /net/add-content-using-document-builder/insert-floating-image/
 This example demonstrates how to create a Word document using Aspose.Words for .NET and insert an image with a floating layout. The provided code initializes a Document and DocumentBuilder, inserts an image with specified dimensions and positioning, and finally saves the document. This guide is ideal for developers looking to enhance their document generation capabilities using Aspose.Words.
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-floating-image" >}}
+{{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-floating-image" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

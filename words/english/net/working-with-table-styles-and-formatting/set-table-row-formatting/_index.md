@@ -15,7 +15,7 @@ url: /net/working-with-table-styles-and-formatting/set-table-row-formatting/
 This example demonstrates how to create a Word document containing a formatted table using Aspose.Words for .NET. You will learn to initialize a new document, set up a table with specific row formatting and padding, and save the document to a specified path. This guide is ideal for developers looking to enhance their document generation capabilities with Aspose.Words.
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/set-table-row-formatting" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/set-table-row-formatting" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

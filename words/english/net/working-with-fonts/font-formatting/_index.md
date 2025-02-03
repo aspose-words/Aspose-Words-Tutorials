@@ -15,7 +15,7 @@ url: /net/working-with-fonts/font-formatting/
 This guide provides a simple example of creating and formatting a Word document using Aspose.Words for .NET. You'll learn to customize font properties such as size, style, and color, and then write text into the document. Step-by-step instructions make it easy for both beginners and experienced developers to incorporate Aspose.Words into their applications.
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-fonts/font-formatting" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-fonts/font-formatting" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

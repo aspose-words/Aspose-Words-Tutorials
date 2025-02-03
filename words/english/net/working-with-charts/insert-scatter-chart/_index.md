@@ -15,7 +15,7 @@ url: /net/working-with-charts/insert-scatter-chart/
 Aspose.Words for .NET simplifies creating and manipulating Word documents programmatically. This example demonstrates how to insert a scatter chart into a Word document. By initializing a document, using the `DocumentBuilder` for content creation, and inserting chart data programmatically, you can efficiently add professional-grade scatter charts to your documents. With its intuitive API, Aspose.Words streamlines document automation for .NET developers, saving time and effort.  
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-charts/insert-scatter-chart" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-charts/insert-scatter-chart" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

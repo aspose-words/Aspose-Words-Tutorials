@@ -16,7 +16,7 @@ Aspose.Words for .NET is a powerful library for Word document processing. This e
 
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/apply-outline-border" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/apply-outline-border" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

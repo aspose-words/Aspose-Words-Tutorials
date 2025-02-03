@@ -14,7 +14,7 @@ url: /net/add-content-using-document-builder/insert-paragraph/
 This example demonstrates how to use the Aspose.Words for .NET library to create a Word document programmatically. By utilizing the DocumentBuilder class, you can insert styled paragraphs with customized font settings into your document. This guide will walk you through each step, ensuring you can effectively generate Word documents for your applications.
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-paragraph" >}}
+{{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-paragraph" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}
