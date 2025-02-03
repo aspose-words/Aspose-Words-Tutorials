@@ -8,7 +8,7 @@ url: /net/add-content-using-document-builder/build-table/
 ---
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Create a Word Document with Table Using Aspose.Words
   
@@ -17,8 +17,8 @@ This example demonstrates how to create a Word document with a table using the A
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/build-table" >}}
 
-{{< /blocks/products/pf/feature-page-section >}}
-{{< blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions:  
 1. Install Aspose.Words for .NET:
    - Using NuGet Package Manager:
@@ -44,7 +44,7 @@ This example demonstrates how to create a Word document with a table using the A
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
 
-{{< /blocks/products/pf/feature-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
