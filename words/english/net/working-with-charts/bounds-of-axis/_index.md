@@ -15,7 +15,7 @@ url: /net/working-with-charts/bounds-of-axis/
 This tutorial demonstrates how to create a Word document with a chart using Aspose.Words for .NET. You'll learn to insert a column chart, clear existing series, add new data, and customize the Y-axis bounds. With step-by-step instructions, including initialization, data manipulation, and saving the document as a DOCX file, this guide simplifies working with charts in Aspose.Words for .NET. Whether you're developing professional reports or dynamic data visualizations, this example helps you get started effortlessly.
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-charts/bounds-of-axis" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-charts/bounds-of-axis" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

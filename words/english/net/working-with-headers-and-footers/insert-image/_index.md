@@ -15,7 +15,7 @@ url: /net/working-with-headers-and-footers/insert-image/
 Aspose.Words for .NET simplifies Word document processing by enabling developers to automate tasks like inserting images into headers. This tutorial demonstrates how to use the Document and DocumentBuilder classes to add an image with precise alignment, dimensions, and wrapping options to the primary header of a Word document. The process is straightforward, making it ideal for developers aiming to enhance document templates dynamically. With detailed steps and sample code, you'll be able to integrate this functionality into your .NET applications effortlessly.  
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-headers-and-footers/insert-image" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-headers-and-footers/insert-image" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

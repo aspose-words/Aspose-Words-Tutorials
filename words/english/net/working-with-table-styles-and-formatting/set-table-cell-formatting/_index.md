@@ -15,7 +15,7 @@ url: /net/working-with-table-styles-and-formatting/set-table-cell-formatting/
 Aspose.Words for .NET simplifies Word document manipulation, making tasks like creating and formatting tables straightforward. Using the powerful `DocumentBuilder` class, developers can easily build tables, adjust cell formatting, and insert content programmatically. This tutorial demonstrates step-by-step how to create a table, set cell properties like padding and width, and add text to cells. Whether you're automating reports or generating documents, this guide helps you unlock Aspose.Words' full potential for Word table formatting. Dive in and enhance your Word automation projects today!
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/set-table-cell-formatting" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/set-table-cell-formatting" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

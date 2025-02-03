@@ -15,7 +15,7 @@ url: /working-with-charts/insert_area_chart/
 Aspose.Words for .NET makes it easy to add dynamic and visually appealing charts to Word documents. This tutorial demonstrates how to insert an area chart into a Word document programmatically. The provided step-by-step guide includes initializing the document, inserting an area chart, adding data series with custom data points, and saving the final document. Perfect for developers looking to enhance their document automation workflows with charting capabilities.
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-charts/bounds-of-axis" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-charts/bounds-of-axis" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

@@ -15,7 +15,7 @@ url: /net/working-with-headers-and-footers/create-header-footer/
 This example demonstrates how to use Aspose.Words for .NET to create a Word document with a primary header and footer. The guide walks you through initializing a new document, moving to the header and footer sections, adding custom text, and saving the document in DOCX format. With its powerful DocumentBuilder class, Aspose.Words makes Word document manipulation seamless and efficient. Whether you’re adding branding elements or page numbers, this example provides the foundation for customizing Word documents programmatically.  
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-headers-and-footers/create-header-footer" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-headers-and-footers/create-header-footer" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

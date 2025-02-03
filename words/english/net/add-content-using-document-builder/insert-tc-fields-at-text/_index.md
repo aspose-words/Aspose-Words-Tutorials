@@ -14,7 +14,7 @@ url: /net/add-content-using-document-builder/insert-tc-fields-at-text/
 This guide demonstrates how to insert Table of Content (TC) fields in a document using Aspose.Words for .NET. It focuses on replacing specific text ("The Beginning") with a TC field, enabling chapter numbering, and enhancing document navigation. With clear steps and code snippets, you'll easily implement this functionality in your applications.
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-tc-fields-at-text" >}}
+{{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-tc-fields-at-text" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

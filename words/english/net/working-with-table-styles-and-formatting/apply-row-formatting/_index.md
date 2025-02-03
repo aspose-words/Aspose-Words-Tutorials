@@ -16,7 +16,7 @@ Aspose.Words for .NET offers powerful tools for creating and modifying Word docu
 
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/apply-row-formatting" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/apply-row-formatting" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

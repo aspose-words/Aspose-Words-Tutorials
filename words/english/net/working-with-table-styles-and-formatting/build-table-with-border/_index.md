@@ -15,7 +15,7 @@ url: /net/working-with-table-styles-and-formatting/build-table-with-border/
 Aspose.Words for .NET is a powerful library for creating, editing, and manipulating Word documents programmatically. In this example, you'll learn how to retrieve an existing Word document, modify the borders of the first table, and apply custom formatting using Aspose.Words. This guide walks you through clearing existing borders, applying green borders around and inside the table, and saving the updated document. With this functionality, you can enhance the presentation of tables in Word documents efficiently.
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/build-table-with-border" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/build-table-with-border" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

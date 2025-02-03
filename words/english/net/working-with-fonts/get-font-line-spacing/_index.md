@@ -14,7 +14,7 @@ url: /net/working-with-fonts/get-font-line-spacing/
 Aspose.Words for .NET simplifies Word document creation and manipulation. This example demonstrates how to initialize a Word document, set a custom font, and retrieve the line spacing of a specific font. Whether you're automating document generation or analyzing text styles, this guide provides clear instructions and practical code snippets to achieve your goals efficiently. Aspose.Words for .NET is a powerful library for developers working with Word documents in C# or VB.NET.
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-fonts/get-font-line-spacing" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-fonts/get-font-line-spacing" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

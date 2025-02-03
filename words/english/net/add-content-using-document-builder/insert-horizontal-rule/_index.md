@@ -14,7 +14,7 @@ url: /net/add-content-using-document-builder/insert-horizontal-rule/
 This example demonstrates the use of Aspose.Words for .NET to create a Word document and add a horizontal rule using DocumentBuilder. Follow the steps below to learn how to format your documents effectively.
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-horizontal-rule" >}}
+{{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-horizontal-rule" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

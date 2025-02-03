@@ -15,7 +15,7 @@ url: /net/working-with-section/add-section/
 Aspose.Words for .NET makes working with Word documents effortless by providing powerful APIs to handle complex document structures. This tutorial walks you through adding a new section to a Word document programmatically. Using the `Document` and `DocumentBuilder` classes, you’ll learn to initialize a document, add text, and append a new section. Perfect for developers looking to automate Word document generation and manipulation with precision.  
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-section/add-section" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-section/add-section" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

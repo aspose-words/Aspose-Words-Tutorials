@@ -15,7 +15,7 @@ url: /net/add-content-using-document-builder/build-table/
 This example demonstrates how to create a Word document with a table using the Aspose.Words library for .NET. The code initializes a new document, constructs a table with two rows, and formats the cells with various styles and orientations. You'll learn to manipulate cell content, alignment, and build a structured document programmatically.
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/add-content-using-document-builder/build-table" >}}
+{{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/build-table" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

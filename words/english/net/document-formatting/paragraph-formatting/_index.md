@@ -14,7 +14,7 @@ url: /document-formatting/paragraph_formatting/
 This guide provides an example of how to format paragraphs in a Word document using Aspose.Words for .NET. You will learn how to set various paragraph formatting options such as alignment, indentation, and space after paragraphs. The example illustrates the usage of the Document and DocumentBuilder classes, enabling the creation of well-structured documents programmatically.
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/document-formatting/multilevel-list-formatting" >}}
+{{< tutorial-widget sourcePath="words/net/document-formatting/multilevel-list-formatting" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

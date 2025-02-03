@@ -15,7 +15,7 @@ url: /net/working-with-charts/create-chart-using-shape/
 Aspose.Words for .NET empowers developers to create visually appealing and professional documents with ease. This tutorial walks you through creating a line chart in a Word document step by step using Aspose.Words for .NET. Whether you're building reports, dashboards, or presentations, the ability to embed dynamic charts enhances your documents' impact. Follow the simple code example provided to get started, complete with detailed explanations, images, and tips to ensure seamless integration into your project.
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-charts/create-chart-using-shape" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-charts/create-chart-using-shape" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

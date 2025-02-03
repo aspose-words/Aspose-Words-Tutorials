@@ -15,7 +15,7 @@ url: /net/working-with-table-styles-and-formatting/format-table-and-cell/
 This example demonstrates how to utilize Aspose.Words for .NET to create a Word document that includes a table with customized border and shading styles for its cells. You'll learn to initialize a document, set table borders, apply background colors to individual cells, and save the document in the DOCX format.
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/format-table-and-cell" >}}
+{{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/format-table-and-cell" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}

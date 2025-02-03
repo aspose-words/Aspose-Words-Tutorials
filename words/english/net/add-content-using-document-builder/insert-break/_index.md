@@ -15,7 +15,7 @@ url: /net/add-content-using-document-builder/insert-break/
 This example demonstrates how to create a Word document using Aspose.Words for .NET, allowing you to add content across multiple pages. It shows how to initialize a new document, use the DocumentBuilder to insert text and page breaks, and finally save the document as a .docx file. Perfect for developers looking to automate document generation in their .NET applications.
 
 ---
-{{< psd/tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-break" >}}
+{{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-break" >}}
 
 {{< /blocks/products/pf/feature-page-section >}}
 {{< blocks/products/pf/feature-page-section >}}
