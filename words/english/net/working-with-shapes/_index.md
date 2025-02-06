@@ -6,6 +6,10 @@ description: Learn how to work with shapes in Word documents using Aspose.Words 
 keywords:
 url: /net/working-with-shapes/
 ---
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
  
 Shapes are an essential feature when it comes to designing visually appealing Word documents. With Aspose.Words for .NET, you can seamlessly add, customize, and manipulate shapes, such as lines, rectangles, ovals, and more. Whether you need to create simple diagrams, highlight specific content, or build professional layouts, this powerful library equips you with all the tools necessary to work with shapes programmatically.  
@@ -14,3 +18,9 @@ On this page, you’ll find detailed guides for various shape-related tasks. Fro
 
 {{< tutorial-card link="./add-group-shape" title="Create Group Shape in Word Document Using Aspose.Words for .NET" imgSrc="./add-group-shape/images/thumb.png" >}}
 {{< tutorial-card link="./insert-shape" title="Insert Shapes in Word Documents Using Aspose.Words for .NET" imgSrc="./insert-shape/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
