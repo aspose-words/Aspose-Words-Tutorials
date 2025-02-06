@@ -6,6 +6,10 @@ description: Learn how to create, customize, and manipulate charts in Word docum
 keywords:
 url: /net/working-with-charts/
 ---
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
  
 Aspose.Words for .NET offers a robust set of tools for working with charts in Word documents. Whether you need to create dynamic bar charts, customize pie charts, or manipulate existing data, this library simplifies the entire process. With comprehensive API features, you can programmatically define chart types, data ranges, labels, styles, and formatting.  
@@ -19,3 +23,9 @@ Dive deeper with our nested pages to explore specific functionalities, including
 {{< tutorial-card link="./insert-column-chart" title="Insert Column Chart in Word Using Aspose.Words for .NET" imgSrc="./insert-column-chart/images/thumb.png" >}}
 {{< tutorial-card link="./insert-scatter-chart" title="Create Word Scatter Chart Using Aspose.Words for .NET" imgSrc="./insert-scatter-chart/images/thumb.png" >}}
 {{< tutorial-card link="./insert-simple-column-chart" title="Insert a Simple Column Chart in Word Using Aspose.Words for .NET" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

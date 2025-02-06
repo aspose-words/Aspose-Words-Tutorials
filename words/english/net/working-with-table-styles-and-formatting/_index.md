@@ -6,6 +6,10 @@ description: Learn how to style and format tables in Word documents using Aspose
 keywords:
 url: /net/working-with-table-styles-and-formatting/
 ---
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
  
 Styling and formatting tables are crucial for creating professional-looking Word documents. With Aspose.Words for .NET, you can easily apply predefined table styles or create custom ones to match your document's design. The library allows you to define border styles, cell shading, text alignment, and even manage table width and height properties programmatically. Whether you're generating reports, invoices, or creating complex layouts, Aspose.Words makes table formatting seamless and efficient.  
@@ -22,3 +26,9 @@ Explore advanced features like setting cell margins, merging cells, or applying 
 {{< tutorial-card link="./set-table-cell-formatting" title="Create and Format a Table in Word Document with Aspose.Words" imgSrc="./set-table-cell-formatting/images/thumb.png" >}}
 {{< tutorial-card link="./set-table-row-formatting" title="Create a Formatted Table in Word with Aspose.Words for .NET" imgSrc="./set-table-row-formatting/images/thumb.png" >}}
 {{< tutorial-card link="./table-tittle-and-description" title="Add Title & Description to Table in Word using Aspose.Words" imgSrc="./table-tittle-and-description/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
