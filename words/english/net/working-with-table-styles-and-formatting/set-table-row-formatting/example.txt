@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a Word document with a formatted table using Aspose.
+//ExStepSummary:0: This step initializes a new document and the document builder.
+//ExStepSummary:1: This step starts the table and inserts a cell into it.
+//ExStepSummary:2: This step sets the formatting for the row, including height and height rule.
+//ExStepSummary:3: This step sets padding for the entire table, affecting all rows.
+//ExStepSummary:4: This step adds text to the cell and ends the row.
+//ExStepSummary:5: This step ends the table and saves the document to a specified path.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// Create a new Document instance
+Document doc = new Document();
+// Initialize DocumentBuilder with the document
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Start a new table
+Table table = builder.StartTable();
+// Insert the first cell in the table
+builder.InsertCell();
+
+//ExStep:2-
+// Access the RowFormat property of the builder
+RowFormat rowFormat = builder.RowFormat;
+// Set the height of the row
+rowFormat.Height = 100;
+// Set height rule to exactly
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// Set padding for the table
+table.LeftPadding = 30;
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// Add text to the current cell
+builder.Writeln("I'm a wonderful formatted row.");
+// End the current row
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:5-
+// Save the document to the specified path
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableRowFormatting.docx");
+//ExEnd

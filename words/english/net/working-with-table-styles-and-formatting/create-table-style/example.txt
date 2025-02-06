@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a Word document with a styled table using Aspose.Words. 
+//ExStepSummary:0: Initialize a new Document and DocumentBuilder.
+//ExStepSummary:1: Start a new table and insert header cells for "Name" and "Value".
+//ExStepSummary:2: Create a custom TableStyle with specific border and padding settings.
+//ExStepSummary:3: Save the document with the new table style applied.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Create a new Document object
+Document doc = new Document();
+// Initialize the DocumentBuilder to build the document
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Start a new table
+Table table = builder.StartTable();
+builder.InsertCell();
+builder.Write("Name");
+builder.InsertCell();
+builder.Write("Value");
+builder.EndRow();
+builder.InsertCell();
+builder.InsertCell();
+builder.EndTable();
+
+//ExStep:2-
+// Create a new table style
+TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
+tableStyle.Borders.LineStyle = LineStyle.Double;
+// Set the border width
+tableStyle.Borders.LineWidth = 1;
+// Set the padding
+tableStyle.LeftPadding = 18;
+tableStyle.RightPadding = 18;
+tableStyle.TopPadding = 12;
+tableStyle.BottomPadding = 12;
+// Apply the custom table style to the created table
+table.Style = tableStyle;
+
+//ExStep:3-
+// Save the document with the styled table
+doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
+//ExEnd

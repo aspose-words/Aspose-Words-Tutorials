@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: This code demonstrates how to insert shapes (text boxes) into a Word document using Aspose.Words. The document is saved in DOCX format with specific compliance options for ISO standards.
+//ExStepSummary:0: The code initializes a new document and a document builder for manipulating the document.
+//ExStepSummary:1: A shape (text box) is inserted at an absolute position in the document and rotation of the first shape is set to 30 degrees.
+//ExStepSummary:2: A new shape is inserted at a relative position and rotation of the second shape is also set to 30 degrees.
+//ExStepSummary:3: The document is saved with specific OoxmlSaveOptions.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Creates a new document instance
+Document doc = new Document();
+// Initializes a DocumentBuilder for the document
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Inserts a shape of type TextBox
+Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
+    RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
+// Rotates the shape by 30 degrees
+shape.Rotation = 30.0;
+
+//ExStep:2-
+builder.Writeln();
+// Inserts another shape of type TextBox at a relative position
+shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
+// Rotates the second shape by 30 degrees
+shape.Rotation = 30.0;
+
+//ExStep:3-
+// Prepares save options for the document
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
+{
+    Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
+};
+
+// Saves the document using the specified save options
+doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
+//ExEnd

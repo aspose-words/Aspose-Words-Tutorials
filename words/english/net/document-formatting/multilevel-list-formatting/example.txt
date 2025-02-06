@@ -1,0 +1,56 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a multilevel list in a Word document using Aspose.Words. It initializes a document, applies a numbering format, creates main and sub-items, and finally saves the document as a .docx file.
+//ExStepSummary:0: The following code initializes a new document and DocumentBuilder instance.
+//ExStepSummary:1: The following code applies a default numbering style to the list and adds top-level items.
+//ExStepSummary:2: The following code indents to create sub-items under the second top-level item.
+//ExStepSummary:3: The following code further indents to create sub-sub-items under the second sub-item.
+//ExStepSummary:4: The following code outdents back to the previous level to add another item at the second level.
+//ExStepSummary:5: The following code outdents back to the top level to add the final item in the list.
+//ExStepSummary:6: The following code removes numbering from the list before saving.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStep:0-
+// Initialize a new document
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Apply default numbering format
+builder.ListFormat.ApplyNumberDefault();
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+
+//ExStep:2-
+// Indent for sub-items
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.1");
+builder.Writeln("Item 2.2");
+
+//ExStep:3-
+// Indent for sub-sub-items
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.2.1");
+builder.Writeln("Item 2.2.2");
+
+//ExStep:4-
+// Outdent back to the second level
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 2.3");
+
+//ExStep:5-
+// Outdent back to the top level
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 3");
+
+//ExStep:6-
+// Remove numbering from the list
+builder.ListFormat.RemoveNumbers();
+
+//ExStep:7-
+// Save the document
+doc.Save("DocumentFormatting.MultilevelListFormatting.docx");
+//ExEnd

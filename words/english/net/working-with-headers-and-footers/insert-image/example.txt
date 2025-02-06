@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: This code demonstrates how to insert an image into the header of a Word document using Aspose.Words for .NET.
+//ExStepSummary:0: Create a new Word document using the Aspose.Words Document class.
+//ExStepSummary:1: Move to the primary header of the document using the DocumentBuilder.
+//ExStepSummary:2: Insert an image into the header with specific alignment, dimensions, and wrapping options.
+//ExStepSummary:3: Save the document to a specified file path.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Create a new Word document
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Move the cursor to the primary header of the document
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+// Insert an image into the header with specific alignment and dimensions
+builder.InsertImage(
+    ImagesDir + "Logo.jpg", RelativeHorizontalPosition.RightMargin, 10,
+    RelativeVerticalPosition.Page, 10, 50, 50, 
+    WrapType.Through
+);
+
+//ExStep:3-
+// Save the document to the specified path
+doc.Save("WorkingWithHeadersAndFooters.InsertImage.docx");
+//ExEnd
