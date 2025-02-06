@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a Word document with a table using Aspose.Words. It builds a table with two rows and various cell text orientations and formats.
+//ExStepSummary:0: The following code initializes a new document and document builder.
+//ExStepSummary:1: The following code starts a new table and inserts the first row of cells.
+//ExStepSummary:2: The following code configures the formatting for the second row and its cells.
+//ExStepSummary:3: The following code configures the formatting for the second row and its cells.
+//ExStepSummary:4: The following code ends the table and saves the document to a file.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Initialize a new Document object
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Start a new table
+Table table = builder.StartTable();
+// Begin first cell
+builder.InsertCell();
+// Set vertical alignment for the first cell
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
+builder.Write("This is row 1 cell 1");
+// Insert second cell
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+builder.EndRow();
+
+//ExStep:2-
+// Insert a cell for the second row
+builder.InsertCell();
+// Configure formatting for the second row
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+//ExStep:3-
+// Insert second cell for the second row
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward; 
+builder.Writeln("This is row 2 cell 2");
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:4-
+// Auto-fit the table with fixed column widths
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+// Save the document to a file
+doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

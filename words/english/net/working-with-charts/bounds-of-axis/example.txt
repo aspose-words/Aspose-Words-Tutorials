@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a document with a chart using Aspose.Words, set the bounds for the Y-axis, and save the document as a DOCX file. 
+// Each step is broken down to provide a clear understanding of the process involved in working with charts in Aspose.Words.
+//ExStepSummary:0: Initialize a new document and a DocumentBuilder instance. 
+//ExStepSummary:1: Insert a chart into the document and retrieve the chart object. 
+//ExStepSummary:2: Add a new series to the chart with specified categories and values. 
+//ExStepSummary:3: Set the minimum and maximum bounds for the Y-axis of the chart. 
+//ExStepSummary:4: Save the document to the specified path. 
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Create a new Document instance.
+Document doc = new Document();
+// Initialize DocumentBuilder to build the document.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Insert a column chart into the document.
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+// Retrieve the chart object from the shape.
+Chart chart = shape.Chart;
+// Clear any existing series from the chart for fresh data.
+chart.Series.Clear();
+
+//ExStep:2-
+// Define a new series with the name "Aspose Series 1".
+chart.Series.Add("Aspose Series 1",
+    new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
+    new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
+
+//ExStep:3-
+// Set the minimum bound of the Y-axis.
+chart.AxisY.Scaling.Minimum = new AxisBound(0);
+chart.AxisY.Scaling.Maximum = new AxisBound(6);
+
+//ExStep:4-
+// Save the document with the chart to the specified path.
+doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
+//ExEnd

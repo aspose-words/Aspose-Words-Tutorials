@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: This code demonstrates how to apply row formatting in a Word document using Aspose.Words.
+//ExStepSummary:0: Initializes a new document and starts building a table with formatted rows.
+//ExStepSummary:1: Configures the row format.
+//ExStepSummary:2: Configures the specific height settings.
+//ExStepSummary:3: Sets padding for the entire table affecting all rows.
+//ExStepSummary:4: Writes text into the table cell and ends the row.
+//ExStepSummary:5: Completes the table building process and saves the document.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Create a new document
+Document doc = new Document();
+// Create a DocumentBuilder to modify the document
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Start a new table
+Table table = builder.StartTable();
+// Insert a new cell in the table
+builder.InsertCell();
+//ExStep:2-
+// Access the row formatting properties
+RowFormat rowFormat = builder.RowFormat;
+// Set the height of the row
+rowFormat.Height = 100;
+// Specify that the height is exact
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// Set padding for the table
+table.LeftPadding = 30; 
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// Write text into the cell
+builder.Writeln("I'm a wonderful formatted row.");
+// End the current row
+builder.EndRow();
+// End the table building
+builder.EndTable();
+
+//ExStep:5-
+// Save the document
+doc.Save("WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
+//ExEnd
