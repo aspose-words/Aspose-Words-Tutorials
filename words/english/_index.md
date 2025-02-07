@@ -61,7 +61,7 @@ Understand how to apply various formatting options to paragraphs, lists, and doc
 Learn to insert and customize different types of charts, such as bar, line, and scatter charts, within Word documents.
 {{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="Create a Document with Charts " imgSrc="./net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
 {{< tutorial-card link="./net/working-with-charts/create-chart-using-shape/" title="Create a Line Chart in Word " imgSrc="./net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-charts/insert-area-chart/" title="Insert Area Chart in Word Document | Aspose.Words " imgSrc="./net/working-with-charts/insert-area-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/insert-area-chart/" title="Insert Area Chart in Word Document" imgSrc="./net/working-with-charts/insert-area-chart/images/thumb.png" >}}
 {{< tutorial-card link="./net/working-with-charts/insert-bubble-chart/" title="Insert a Bubble Chart in Word " imgSrc="./net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
 {{< tutorial-card link="./net/working-with-charts/insert-column-chart/" title="Insert Column Chart in Word " imgSrc="./net/working-with-charts/insert-column-chart/images/thumb.png" >}}
 {{< tutorial-card link="./net/working-with-charts/insert-scatter-chart/" title="Create Word Scatter Chart " imgSrc="./net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
@@ -72,7 +72,7 @@ Learn to insert and customize different types of charts, such as bar, line, and 
 Explore font-related features such as font styles, line spacing, emphasis marks, and other typography settings in Word documents.
 
 {{< tutorial-card link="./net/working-with-fonts/font-formatting/" title="Create Font Formatting in Word " imgSrc="./net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/get-font-line-spacing/" title="Get Font Line Spacing in Word Document | Aspose.Words " imgSrc="./net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-fonts/get-font-line-spacing/" title="Get Font Line Spacing in Word Document" imgSrc="./net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
 {{< tutorial-card link="./net/working-with-fonts/set-font-emphasis-mark/" title="Set Emphasis Mark in Word Document " imgSrc="./net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -92,7 +92,7 @@ Learn how to create and manipulate headers and footers, including adding images,
 ### [Working with Sections in Aspose.Words for .NET](./net/working-with-section/)
 Understand how to structure documents into sections, allowing different headers, footers, and formatting styles.
 
-{{< tutorial-card link="./net/working-with-section/add-section/" title="Add a New Section to Word Document | Aspose.Words " imgSrc="./net/working-with-section/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-section/add-section/" title="Add a New Section to Word Document" imgSrc="./net/working-with-section/add-section/images/thumb.png" >}}
 {{< tutorial-card link="./net/working-with-section/append-section-content/" title="Append and Prepend Content in Word Documents" imgSrc="./net/working-with-section/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
