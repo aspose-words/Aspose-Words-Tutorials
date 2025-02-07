@@ -4,7 +4,7 @@ weight: 7700
 limit: 
 description: Learn how to format paragraphs in a Word document with Aspose.Words for .NET, including alignment, indentation, and spacing.
 keywords: [Aspose.Words, .NET, paragraph formatting, Word document, document builder, alignment, indentation, Word API]
-url: /document-formatting/paragraph_formatting/
+url: /document-formatting/paragraph-formatting/
 ---
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

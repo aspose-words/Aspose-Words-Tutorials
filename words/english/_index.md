@@ -21,7 +21,7 @@ Aspose.Words for .NET offers a comprehensive set of visual tutorials to help dev
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Add Content Using Document Builder in Aspose.Words for .NET ](./net/net/add-content-using-document-builder/)
+### [Add Content Using Document Builder in Aspose.Words for .NET ](./net/add-content-using-document-builder/)
 Learn how to insert text, tables, images, and other elements into Word documents programmatically using the Document Builder class.
 
 {{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="Create a Word Document with Table" imgSrc="./net/add-content-using-document-builder/build-table/images/thumb.png" >}}
@@ -37,13 +37,13 @@ Learn how to insert text, tables, images, and other elements into Word documents
 Discover how to create, format, and customize tables in Word documents, including setting borders, styles, and cell padding.
 
 {{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-outline-border/" title="Apply Outline Border to a Table in Word" imgSrc="./net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-row-formatting/" title="Apply Row Formatting in Word Documents with Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-row-formatting/" title="Apply Row Formatting in Word Documents" imgSrc="./net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
 {{< tutorial-card link="./net/working-with-table-styles-and-formatting/build-table-with-border/" title="Modify Table Borders in Word " imgSrc="./net/working-with-table-styles-and-formatting/build-table-with-border/images/thumb.png" >}}
 {{< tutorial-card link="./net/working-with-table-styles-and-formatting/buildtable-with-style/" title="Create Styled Tables in Word with Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/buildtable-with-style/images/thumb.png" >}}
 {{< tutorial-card link="./net/working-with-table-styles-and-formatting/cell-padding/" title="Create Word Table Cell with Padding in Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/cell-padding/images/thumb.png" >}}
 {{< tutorial-card link="./net/working-with-table-styles-and-formatting/create-table-style/" title="Create Styled Table in Word Document " imgSrc="./net/working-with-table-styles-and-formatting/create-table-style/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/format-table-and-cell/" title="Create Word Document with Custom Table Borders and Shading" imgSrc="./net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/" title="Create and Format a Table in Word Document with Aspose.Words" imgSrc="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/format-table-and-cell/" title="Create Word Document with Table Borders & Shading" imgSrc="./net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/" title="Create and Format a Table in Word Document" imgSrc="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
 {{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-row-formatting/" title="Create a Formatted Table in Word with Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/set-table-row-formatting/images/thumb.png" >}}
 {{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="Add Title & Description to Table in Word" imgSrc="./net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -86,7 +86,7 @@ Find out how to insert and manage form fields like text input, drop-down lists, 
 Learn how to create and manipulate headers and footers, including adding images, page numbers, and text.
 
 {{< tutorial-card link="./net/working-with-headers-and-footers/create-header-footer/" title="Create Word Document with Header and Footer" imgSrc="./net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-headers-and-footers/insert-image/" title="Insert an Image into Word Document Header | Aspose.Words " imgSrc="./net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-headers-and-footers/insert-image/" title="Insert an Image into Word Document Header" imgSrc="./net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Working with Sections in Aspose.Words for .NET](./net/working-with-section/)
