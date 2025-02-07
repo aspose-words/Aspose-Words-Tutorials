@@ -16,8 +16,8 @@ Sections are the building blocks of Word documents, allowing you to divide conte
 
 This guide explores various aspects of working with sections in Aspose.Words for .NET. From adding and removing sections to modifying their properties, you'll discover practical examples and step-by-step tutorials to simplify the process. With these tools, you can create dynamic, customized Word documents effortlessly. Dive in and unlock the power of sections!
 
-{{< tutorial-card link="./add-section" title="Add a New Section to Word Document | Aspose.Words for .NET" imgSrc="./add-section/images/thumb.png" >}}
-{{< tutorial-card link="./append-section-content" title="Append and Prepend Content in Word Documents Using Aspose.Words" imgSrc="./append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./add-section/" title="Add a New Section to Word Document | Aspose.Words for .NET" imgSrc="./add-section/images/thumb.png" >}}
+{{< tutorial-card link="./append-section-content/" title="Append and Prepend Content in Word Documents Using Aspose.Words" imgSrc="./append-section-content/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

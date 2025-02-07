@@ -16,7 +16,7 @@ Form fields are essential for creating interactive and fillable Word documents, 
 
 Aspose.Words for .NET supports various form field types, allowing you to design complex forms with precision and flexibility. With its rich API, you can control field properties, populate data, and even process user input with minimal effort. Whether you’re generating surveys, contracts, or custom templates, working with form fields using Aspose.Words ensures a professional and user-friendly experience.
 
-{{< tutorial-card link="./insert-form-fields" title="Insert Combo Box Form Field in Word Document" imgSrc="./insert-form-fields/images/thumb.png" >}}
+{{< tutorial-card link="./insert-form-fields/" title="Insert Combo Box Form Field in Word Document" imgSrc="./insert-form-fields/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
