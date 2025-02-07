@@ -4,7 +4,7 @@ weight: 7700
 limit: 
 description: Learn how to insert an area chart into a Word document using Aspose.Words for .NET. Follow step-by-step instructions with code examples and visuals.
 keywords: [Aspose.Words for .NET, insert area chart, Word document chart, area chart example, C# Word chart tutorial, Aspose.Words charting, Word chart example]
-url: /working-with-charts/insert_area_chart/
+url: /working-with-charts/insert-area-chart/
 ---
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
