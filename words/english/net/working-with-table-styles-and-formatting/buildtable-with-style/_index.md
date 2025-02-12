@@ -4,7 +4,7 @@ weight: 7700
 limit: 
 description: Learn to create a Word document with a styled table using Aspose.Words for .NET, including headers and formatted data rows.
 keywords: [Aspose.Words, .NET, Word document, styled table, table formatting, DocumentBuilder, C# example, document generation]
-url: /working-with-table-styles-and-formatting/buildtable-with-style/
+url: /net/working-with-table-styles-and-formatting/buildtable-with-style/
 ---
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
