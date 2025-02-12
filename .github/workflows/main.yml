@@ -32,4 +32,3 @@ jobs:
         dst_repo_name: tutorials.aspose.com
         dst_branch: main
         src_branch: main
-        clean: true
