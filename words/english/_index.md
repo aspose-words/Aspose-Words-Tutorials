@@ -21,16 +21,15 @@ Aspose.Words for .NET offers a comprehensive set of visual tutorials to help dev
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Add Content Using Document Builder in Aspose.Words for .NET ](./net/add-content-using-document-builder/)
-Learn how to insert text, tables, images, and other elements into Word documents programmatically using the Document Builder class.
-
-{{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="Create a Word Document with Table" imgSrc="./net/add-content-using-document-builder/build-table/images/thumb.png" >}}
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-break/" title="Create a Multi-Page Word Document with Aspose.Words" imgSrc="./net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-floating-image/" title="Create Word Document with Floating Image in .NET" imgSrc="./net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-horizontal-rule/" title="Create Word Document with Horizontal Rule in .NET" imgSrc="./net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-inline-image/" title="Insert Inline Image in Word Document" imgSrc="./net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-paragraph/" title="Create Word Document with Aspose.Words " imgSrc="./net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title="Create a Word Document with Table of Contents in .NET" imgSrc="./net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
+### [Working with Charts in Aspose.Words ](./net/working-with-charts/)
+Learn to insert and customize different types of charts, such as bar, line, and scatter charts, within Word documents.
+{{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="Create a Document with Charts " imgSrc="./net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/create-chart-using-shape/" title="Create a Line Chart in Word " imgSrc="./net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/insert-area-chart/" title="Insert Area Chart in Word Document" imgSrc="./net/working-with-charts/insert-area-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/insert-bubble-chart/" title="Insert a Bubble Chart in Word " imgSrc="./net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/insert-column-chart/" title="Insert Column Chart in Word " imgSrc="./net/working-with-charts/insert-column-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/insert-scatter-chart/" title="Create Word Scatter Chart " imgSrc="./net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="Insert a Simple Column Chart in Word " imgSrc="./net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Working with Table Styles and Formatting in Aspose.Words for .NET](./net/working-with-table-styles-and-formatting/)
@@ -48,6 +47,18 @@ Discover how to create, format, and customize tables in Word documents, includin
 {{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="Add Title & Description to Table in Word" imgSrc="./net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
+### [Add Content Using Document Builder in Aspose.Words for .NET ](./net/add-content-using-document-builder/)
+Learn how to insert text, tables, images, and other elements into Word documents programmatically using the Document Builder class.
+
+{{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="Create a Word Document with Table" imgSrc="./net/add-content-using-document-builder/build-table/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-break/" title="Create a Multi-Page Word Document with Aspose.Words" imgSrc="./net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-floating-image/" title="Create Word Document with Floating Image in .NET" imgSrc="./net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-horizontal-rule/" title="Create Word Document with Horizontal Rule in .NET" imgSrc="./net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-inline-image/" title="Insert Inline Image in Word Document" imgSrc="./net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-paragraph/" title="Create Word Document with Aspose.Words " imgSrc="./net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title="Create a Word Document with Table of Contents in .NET" imgSrc="./net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ### [Document Formatting with Aspose.Words for .NET](./net/document-formatting/)
 Understand how to apply various formatting options to paragraphs, lists, and document elements to enhance the visual appeal of your Word files.
 
@@ -55,17 +66,6 @@ Understand how to apply various formatting options to paragraphs, lists, and doc
 {{< tutorial-card link="./net/document-formatting/apply-paragraph-style/" title="Create and Style a Word Document in Aspose.Words " imgSrc="./net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
 {{< tutorial-card link="./net/document-formatting/multilevel-list-formatting/" title="Create Multilevel Lists in Word with Aspose.Words" imgSrc="./net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
 {{< tutorial-card link="./net/document-formatting/paragraph-formatting/" title="Format Paragraphs " imgSrc="./net/document-formatting/paragraph-formatting/images/thumb.png" >}}
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Working with Charts in Aspose.Words ](./net/working-with-charts/)
-Learn to insert and customize different types of charts, such as bar, line, and scatter charts, within Word documents.
-{{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="Create a Document with Charts " imgSrc="./net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-charts/create-chart-using-shape/" title="Create a Line Chart in Word " imgSrc="./net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-charts/insert-area-chart/" title="Insert Area Chart in Word Document" imgSrc="./net/working-with-charts/insert-area-chart/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-charts/insert-bubble-chart/" title="Insert a Bubble Chart in Word " imgSrc="./net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-charts/insert-column-chart/" title="Insert Column Chart in Word " imgSrc="./net/working-with-charts/insert-column-chart/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-charts/insert-scatter-chart/" title="Create Word Scatter Chart " imgSrc="./net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="Insert a Simple Column Chart in Word " imgSrc="./net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Working with Fonts in Aspose.Words for .NET](./net/working-with-fonts/)
