@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary:本代码显示如何使用 apostion.Words 来对单词文档中的段落应用边框和阴影。
+//ExStepSummary:0: 以下代码初始化了一个新的文档和文档构建实例 。
+//ExStepSummary:1: 以下代码配置段落边框,与文本保持距离。
+//ExStepSummary:2: 以下代码对段落应用带有特定颜色的对角横纹理阴影。
+//ExStepSummary:3: 以下代码写入一个带有应用设置的格式段落。
+//ExStepSummary:4: 以下代码将文档保存到指定的输出路径。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 初始化新文档
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 出入本段边界
+BorderCollection borders = builder.ParagraphFormat.Borders;
+borders.DistanceFromText = 20;
+borders[BorderType.Left].LineStyle = LineStyle.Double;
+borders[BorderType.Right].LineStyle = LineStyle.Double;
+borders[BorderType.Top].LineStyle = LineStyle.Double;
+borders[BorderType.Bottom].LineStyle = LineStyle.Double;
+
+//ExStep:2-
+// 访问段落阴影属性
+Shading shading = builder.ParagraphFormat.Shading;
+shading.Texture = TextureIndex.TextureDiagonalCross;
+shading.BackgroundPatternColor = System.Drawing.Color.LightCoral; 
+shading.ForegroundPatternColor = System.Drawing.Color.LightSalmon;
+
+//ExStep:3-
+// 写入格式化段落内容
+builder.Write("I'm a formatted paragraph with double border and nice shading.");
+
+//ExStep:4-
+// 将文档保存到指定的路径
+doc.Save(ArtifactsDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
+//ExEnd

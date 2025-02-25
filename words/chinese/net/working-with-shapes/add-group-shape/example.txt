@@ -1,0 +1,67 @@
+//ExStart
+//ExSummary:本代码演示如何使用 Apostion.Words 在文档中创建组合形状 。
+// 它会创建口音边框图例形状和一个动作按钮, 将其添加到组合形状中, 然后在保存之前将组合形状插入到文档中 。
+//ExStepSummary:0: 初始化新文件,并确保满足最低要求。
+//ExStepSummary:1: 创建组形状,以保持其他形状。
+//ExStepSummary:2: 在组形状中添加口重边框图例形状。
+//ExStepSummary:3: 将动作按钮形状添加到组形状中。
+//ExStepSummary:4: 设置组合形状的尺寸和坐标。
+//ExStepSummary:5: 使用文档构建器将组合形状插入文档。
+//ExStepSummary:6: 将包含组形状的文档保存到指定位置。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStep:0-
+// 创建新文档
+Document doc = new Document();
+// 确保文件符合最低要求
+doc.EnsureMinimum();
+
+//ExStep:1-
+// 创建新组形状实例
+GroupShape groupShape = new GroupShape(doc);
+
+//ExStep:2-
+// 创建重音边框图例形状
+Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
+{
+    Width = 100, 
+    Height = 100
+};
+// 将形状添加到组形状
+groupShape.AppendChild(accentBorderShape);
+
+//ExStep:3-
+// 创建动作按钮形状
+Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
+{
+	// 设置形状的左方位置
+    Left = 100, 
+	// 设置形状的宽度
+    Width = 100, 
+	// 设置形状的高度
+    Height = 200
+};
+// 将动作按钮添加到组形状
+groupShape.AppendChild(actionButtonShape);
+
+//ExStep:4-
+// 设定组形状的宽度
+groupShape.Width = 200;
+// 设定组合形状的高度
+groupShape.Height = 200;
+// 设定组形状的坐标大小
+groupShape.CoordSize = new Size(200, 200);
+
+//ExStep:5-
+// 创建用于操作文档的文档构建器
+DocumentBuilder builder = new DocumentBuilder(doc);
+// 将组合形状插入文档
+builder.InsertNode(groupShape);
+
+//ExStep:6-
+// 将文档保存到指定位置
+doc.Save("WorkingWithShapes.AddGroupShape.docx");
+//ExEnd

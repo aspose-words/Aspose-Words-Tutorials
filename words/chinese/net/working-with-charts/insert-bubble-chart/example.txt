@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary:本代码演示如何使用 apose. words 将泡泡图插入到单词文档中。
+//ExStepSummary:0: 以下代码初始化了一个新的文档和文档构建器 。
+//ExStepSummary:1: 使用文档构建器创建并添加一个泡泡图表。
+//ExStepSummary:2: 将布布勒图的数据序列加上特定的X、Y和大小值。
+//ExStepSummary:3: 最后,文档用插入的泡泡图表保存。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 初始化新的文档和文档构建器
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 在文档中插入泡泡图表
+Shape shape = builder.InsertChart(ChartType.Bubble, 432, 252);
+
+//ExStep:2-
+// 向泡泡图表添加数据序列
+Chart chart = shape.Chart;
+chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, // X values
+    new double[] { 2.7, 3.2, 0.8 }, // Y values
+    new double[] { 10, 4, 8 }); // Size values for the bubbles
+
+//ExStep:3-
+// 用泡泡图表保存文档
+doc.Save("WorkingWithCharts.InsertBubbleChart.docx");
+//ExEnd

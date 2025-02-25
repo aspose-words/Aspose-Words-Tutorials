@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary:以下代码演示如何创建单词文档,并配有格式化的表格单元格,包括围绕其内容的挂贴。
+//ExStepSummary:0: 以下代码初始化新文档和文档构建器。
+//ExStepSummary:1: 以下代码在文档中起始一个表格。
+//ExStepSummary:2: 以下代码在表格中插入单元格。
+//ExStepSummary:3: 以下代码为单元格内容设置嵌入栏。
+//ExStepSummary:4: 以下代码将文字添加到单元格中,并结束当前行。
+//ExStepSummary:5: 以下代码结束表格,并将文档保存到文件。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 初始化新文档
+Document doc = new Document();
+// 创建用于操控文档的文档构建器
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 开始创建表格
+builder.StartTable();
+// 在表格中插入新单元格
+builder.InsertCell();
+
+//ExStep:2-
+// 设定上下30点、左下50点、右上50点、上上下30点、上下50点
+builder.CellFormat.SetPaddings(30, 50, 30, 50);
+
+//ExStep:3-
+builder.Writeln("I'm a wonderful formatted cell.");
+// 在表格中完成当前行
+builder.EndRow();
+// 表格结尾
+builder.EndTable();
+
+//ExStep:4-
+// 将文档保存到指定的文件
+doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
+//ExEnd

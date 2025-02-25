@@ -1,0 +1,63 @@
+//ExStart
+//ExSummary:本代码演示如何创建单词文档,该文档的表格对单元格有不同的边框和阴影样式。
+//ExStepSummary:0: 初始化文档和文档构建器以创建新 Word 文档 。
+//ExStepSummary:1: 启动新表格并设置整个表格的边框 。
+//ExStepSummary:2: 添加带有红色背景阴影和文字的第一个单元格。
+//ExStepSummary:3: 添加带有绿色背景阴影和文字的第二个单元格。
+//ExStepSummary:4: 结束第一行并清除上一个单元格格式。
+//ExStepSummary:5: 为第一个单元格添加带有自定义较大边框的新行。
+//ExStepSummary:6: 添加新行中带有默认格式化和文字的第二个单元格。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// 创建新文档。
+Document doc = new Document();
+// 创建用于操作文档的文档构建器。
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 开始一个新的表格 。
+Table table = builder.StartTable();
+// 在表格中插入第一个单元格。
+builder.InsertCell();
+// 设置整个表格的边框。
+table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
+
+//ExStep:2-
+// 设置单元格为红色的背景颜色。
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
+builder.Writeln("Cell #1");
+// 插入第二个单元格。
+builder.InsertCell();
+
+//ExStep:3-
+// 设置单元格的背景颜色为绿色。
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
+builder.Writeln("Cell #2");
+// 结束当前行 。
+builder.EndRow();
+
+//ExStep:4-
+// 清除任何单元格格式,以重新开始。
+builder.CellFormat.ClearFormatting();
+// 在下一行插入新单元格。
+builder.InsertCell();
+// 为此行的第一个单元格创建更大的边框 。
+builder.CellFormat.Borders.Left.LineWidth = 4.0;
+builder.CellFormat.Borders.Right.LineWidth = 4.0;
+builder.CellFormat.Borders.Top.LineWidth = 4.0;
+builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
+builder.Writeln("Cell #3");
+//ExStep:5-
+// 插入第四个单元格。
+builder.InsertCell();
+builder.CellFormat.ClearFormatting();
+builder.Writeln("Cell #4");
+//ExStep:6-
+// 保存文档。
+doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
+//ExEnd

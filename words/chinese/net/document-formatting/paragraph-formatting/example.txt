@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary:此代码显示如何使用 Aspose.Words 格式化单词文档中的段落。它显示如何设置段落格式选项,如对齐、缩进和段落后的空格。
+//ExStepSummary:0: 此步骤初始化了用于构建文档的新文档和文档构建器 。
+//ExStepSummary:1: 此步骤设置段落格式选项, 包括对齐、 左缩进、 右缩进和段落后的空格 。
+//ExStepSummary:2: 此步骤为文档写入一个格式清晰的段落, 包含指定的格式选项 。
+//ExStepSummary:3: 此步骤写入了另一个格式化段落, 以显示段落后空间的效果 。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0- 
+// 创建新文档实例 。
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1- 
+// 设置段落格式选项。
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.Alignment = ParagraphAlignment.Center;
+paragraphFormat.LeftIndent = 50;
+paragraphFormat.RightIndent = 50;
+paragraphFormat.SpaceAfter = 25;
+
+//ExStep:2- 
+// 写入第一个格式化段落。
+builder.Writeln(
+	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
+
+//ExStep:3- 
+// 写入第二个格式化段落。
+builder.Writeln(
+	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
+
+//ExStep:4- 
+// 将文档保存到指定的路径。
+doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
+//ExEnd
