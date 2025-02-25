@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary:此代码演示如何使用 Apose. words 创建带有主页眉和页脚的 Word 文档。它初始化了一个新的文档,移动到页眉和页脚部分,并撰写自定义文本。最后,它将文档保存为 DOCX 文件。
+//ExStepSummary:0: 以下代码初始化主文档对象,并设立文档构建器。
+//ExStepSummary:1: 以下代码移到主页眉部分, 并写入页眉文字 。
+//ExStepSummary:2: 以下代码移到主页脚部分, 并写入页脚文字 。
+//ExStepSummary:3: 以下代码将文档保存到指定的文件路径 。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 初始化新的文档对象
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 移动到主标题区域
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("Header for page.");
+
+//ExStep:2-
+// 移动到主页脚部分
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+builder.Write("Footer for page."); // Write the footer text
+
+//ExStep:3-
+// 以指定的文件名保存文档
+doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
+//ExEnd

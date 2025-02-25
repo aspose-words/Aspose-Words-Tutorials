@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary:本代码演示如何使用 Aspose.word 来在 Word 文档中设置一个强调标记 。
+//ExStepSummary:0:创建要使用的新的文档实例 。
+//ExStepSummary:1:设置文档构建器以操作文档 。
+//ExStepSummary:2:对构建器的字体应用强调标记 。
+//ExStepSummary:3:将强调文字写入文档。
+//ExStepSummary:4:撰写简单的文字,不强调任何重点。
+//ExStepSummary:5: 此代码将文档保存到字体上, 并带有强调标记 。
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// 创建新文档
+Document document = new Document();
+
+//ExStep:1-
+// 初始化用于文档操作的文档构建器
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:2-
+// 设置在单环环环圈下的强调标记
+builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
+
+//ExStep:3-
+// 将强调文字写入文档
+builder.Write("Emphasis text");
+// 移动到下一行
+builder.Writeln();
+// 清除后续文本的字体格式格式
+builder.Font.ClearFormatting();
+
+//ExStep:4-
+// 不加强调写入简单文字
+builder.Write("Simple text");
+
+//ExStep:5-
+// 将文档保存到指定的路径
+document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
+//ExEnd

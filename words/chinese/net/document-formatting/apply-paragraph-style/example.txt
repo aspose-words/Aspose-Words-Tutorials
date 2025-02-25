@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary:此代码演示如何使用 Aspose.Words 创建单词文档。应用段落样式,并保存文档。它演示如何为段落设置标题样式,并以.docx 格式保存文档。
+//ExStepSummary:0: 本节初始化了一个新的文档和文档构建实例 。
+//ExStepSummary:1: 本节使用“文档构建器”应用标题段落样式。
+//ExStepSummary:2: 本节在文档中写上“你好”。
+//ExStepSummary:3: 此节将文档保存到指定的文件路径 。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 初始化一个新的文档实例
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 设置段落样式到标题
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Title;
+
+//ExStep:2-
+// 使用指定样式, 使用构建器写“ 你好”
+builder.Write("Hello");
+
+//ExStep:3-
+// 将文档保存到 .docx 文件
+doc.Save("DocumentFormatting.ApplyParagraphStyle.docx");
+//ExEnd

@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary:此代码演示如何使用 Aspect.Words 创建带有样式表格的单词文档。表格包括页眉和数据行,格式根据特定样式选项编排。
+//ExStepSummary:0: 初始化一个新的用于管理文档结构的文档和文档构建器 。
+//ExStepSummary:1: 使用“文档构建器”在文档中启动新表格。
+//ExStepSummary:2: 插入第一个单元格并设置表格样式标识符。
+//ExStepSummary:3: 对表格应用格式化选项并设置自动适应行为。
+//ExStepSummary:4: 将标题行单元格添加到表格中。
+//ExStepSummary:5: 在表格中插入含有项目名称和数量的数据行。
+//ExStepSummary:6: 将集合的文档保存到文件 。
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// 创建新的文档对象。
+Document doc = new Document();
+// 创建构建器, 以方便文档生成 。
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 在文档中开始新表格。
+Table table = builder.StartTable();
+
+//ExStep:2-
+// 在设置格式之前插入第一个单元格。
+builder.InsertCell();
+// 设置表格的样式标识符。
+table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
+
+
+//ExStep:3-
+// 配置样式选项 。
+table.StyleOptions = 
+    TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
+// 设置表格的自动调整行为 。	
+table.AutoFit(AutoFitBehavior.AutoFitToContents);
+
+
+//ExStep:4-
+// 写第一个列的页眉 。
+builder.Writeln("Item");
+// 设置单元格的右键。
+builder.CellFormat.RightPadding = 40;
+// 为下一列插入第二个单元格。
+builder.InsertCell();
+// 写第二列的页眉。
+builder.Writeln("Quantity (kg)");
+// 结束行创建 。
+builder.EndRow();
+
+//ExStep:5-
+// 开始新行并插入第一个单元格。
+builder.InsertCell();
+builder.Writeln("Apples");
+builder.InsertCell();
+builder.Writeln("20");
+builder.EndRow();
+ // 为第二个项插入新行的第一个单元格。
+builder.InsertCell();
+builder.Writeln("Bananas");
+builder.InsertCell();
+builder.Writeln("40");
+builder.EndRow();
+// 开始第三个项目的新行 。
+builder.InsertCell();
+builder.Writeln("Carrots");
+builder.InsertCell(); 
+builder.Writeln("50");
+builder.EndRow();
+
+//ExStep:6-
+// 将文档保存到指定的文件 。
+doc.Save("WorkingWithTableStylesAndFormatting.BuildTableWithStyle.docx");
+//ExEnd

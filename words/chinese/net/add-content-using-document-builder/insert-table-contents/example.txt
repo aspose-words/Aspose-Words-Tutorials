@@ -1,0 +1,78 @@
+//ExStart
+//ExSummary:此代码演示如何使用文档构建器创建含有目录的单词文档。它包含不同级别的标题,并将文档保存为.docx 文件。
+//ExStepSummary:0: 此步骤初始化了一个新的文档对象 。
+//ExStepSummary:1: 此步骤为文档操作创建文档构建器对象 。
+//ExStepSummary:2: 此步骤在文档的开头插入目录。
+//ExStepSummary:3: 此步骤引入一个分页符, 以开始新页面上的实际内容 。
+//ExStepSummary:4: 此步骤设置第一个标题, 并在文档中写上“ 标题 1 ” 。
+//ExStepSummary:5: 此步骤设定第二个标题级别, 并写入“ 头1.1” 和“ 头1.2 ” 。
+//ExStepSummary:6: 此步骤再次设定第一个标题级别, 并写入“ 标题 2 ” 和“ 标题 3 ” 。
+//ExStepSummary:7: 此步骤设定第二个标题级别, 并写入“ 标题3.1 ” 。
+//ExStepSummary:8: 此步骤设定了第三个标题级别,并写了小标题“标题3.1.1”、“标题3.1.2”和“标题3.1.3”。
+//ExStepSummary:9: 此步骤再次设定第二个标题级别, 并写入“ 标题3.2” 和“ 标题3.3 ” 。
+//ExStepSummary:10: 最后,此步骤更新文档中的字段,并将其保存为.docx文件。
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:6:images/4.png
+//ExStepImage:7:images/5.png
+//ExStepImage:8:images/6.png
+//ExStepImage:9:images/7.png
+
+//ExStep:0-
+// 创建新文档实例
+Document doc = new Document();
+
+//ExStep:1-
+// 初始化用于文档操作的文档构建器
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// 插入含有指定选项的目录
+builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
+
+//ExStep:3-
+// 在新页面中插入一个分页符以启动内容
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:4-
+// 样式设置为标题 1
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 1");
+
+//ExStep:5-
+// 设置标题 2 的样式
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 1.1");
+builder.Writeln("Heading 1.2");
+
+//ExStep:6-
+// 将样式设置回到标题 1
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 2");
+builder.Writeln("Heading 3");
+
+//ExStep:7-
+// 设置标题 2 的样式
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.1");
+
+//ExStep:8-
+// 设置标题 3的样式
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
+builder.Writeln("Heading 3.1.1");
+builder.Writeln("Heading 3.1.2");
+builder.Writeln("Heading 3.1.3");
+
+//ExStep:9-
+// 将样式设置回到标题 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.2");
+builder.Writeln("Heading 3.3");
+
+//ExStep:10-
+// 更新文档中的所有字段
+doc.UpdateFields();
+// 保存文档
+doc.Save("AddContentUsingDocumentBuilder.InsertTableOfContents.docx");
+//ExEnd

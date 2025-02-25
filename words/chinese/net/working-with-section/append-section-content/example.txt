@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary:本示例展示了如何使用 Aspose.Words for.NET在单词文档中从一个部分到另一个部分的附加内容和附加内容。
+//ExStepSummary:0: 初始化新的 Word 文档和文档构建器以添加内容 。
+//ExStepSummary:1: 写入文字并插入分节换行符,以便在文档中创建多个部分。
+//ExStepSummary:2: 查阅文件中的第三部分,准备对内容进行操作。
+//ExStepSummary:3: 从第一节到第三节,将内容包含在内。
+//ExStepSummary:4: 第二节内容附于第三节。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// 初始化文档和文档构建
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 写入文字并插入分节换行符以创建三个部分
+builder.Write("Section 1");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// 为第二节添加内容
+builder.Write("Section 2");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// 为第三节添加内容
+builder.Write("Section 3");
+
+//ExStep:2-
+// 从文档中获取第三部分
+Section section = doc.Sections[2];
+
+//ExStep:3-
+// 从第一节到第三节的附加内容
+Section sectionToPrepend = doc.Sections[0];
+section.PrependContent(sectionToPrepend);
+
+//ExStep:4-
+// 第二部分内容附于第三节
+Section sectionToAppend = doc.Sections[1];
+section.AppendContent(sectionToAppend);
+//ExEnd

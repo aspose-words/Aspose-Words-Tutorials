@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary:本代码演示如何使用 apose. words 将标题和描述添加到单词文档的表格中。
+//ExStepSummary:0:此步骤初始化文档, 从指定的目录中装入它 。
+//ExStepSummary:1:此步骤从文档中取回第一个表格, 并设定其标题和描述 。
+//ExStepSummary:2:此步骤配置文档中带有指定合规设置的保存选项 。
+//ExStepSummary:3:此步骤优化了 Word 2016 文档的兼容选项 。
+//ExStepSummary:4:此步骤将修改后的文档保存回指定的目录 。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 初始化文档并将其从数据目录上加载
+string dataDir = "Your Document Directory";
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// 检索第一个表格并设置其标题和描述
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+table.Title = "Test title";
+table.Description = "Test description";
+
+//ExStep:2-
+// 配置文档的保存选项
+OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
+
+//ExStep:3-
+// 优化2016 Word 2016 的兼容选项
+doc.CompatibilityOptions.OptimizeFor(Aspose.Words.Settings.MsWordVersion.Word2016);
+
+//ExStep:4-
+// 将修改后的文档保存回指定的目录
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.TableTitleAndDescription.docx", options);
+//ExEnd

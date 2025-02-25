@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary:此代码显示如何使用 Aspose. words 将大纲边框应用到 Word 文档中的表格中。它将表格置于页面中央,在表格周围设置绿色边框,清除任何现有边框,并以浅绿色背景颜色填充表格单元格。 
+//ExStepSummary:0: 以下代码初始化文档并检索第一个表格。
+//ExStepSummary:1: 此步骤将表格对齐到页面的中心 。
+//ExStepSummary:2: 这一步骤从表中清除了任何现有边界。
+//ExStepSummary:3: 这个步骤在桌子周围设置了一个绿色的边界,但不是内部的边界。
+//ExStepSummary:4: 此步骤以浅绿色固态颜色填充单元格 。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// 定义文档的目录
+string dataDir = "Your Document Directory";
+// 装入文档
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// 从文档中获取第一个表格
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+// 将表格与页面中心对齐
+table.Alignment = TableAlignment.Center;
+
+//ExStep:2-
+// 从表格中清除任何现有边框
+table.ClearBorders();
+
+//ExStep:3-
+// 设置左左边框设置
+table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
+// 设置右边框框
+table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
+// 设定上上边框设置
+table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
+// 设定底边框
+table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
+
+//ExStep:4-
+// 以浅绿色颜色填充单元格
+table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
+// 保存修改后文档
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
+//ExEnd

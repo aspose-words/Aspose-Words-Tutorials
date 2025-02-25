@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary:本代码演示如何使用 apose. words 来在单词文档中添加文本水印,并配有特定选项。
+//ExStepSummary:0: 以下代码初始化文档路径,并创建一个新的文档对象。
+//ExStepSummary:1: 以下代码为文本水印设置选项,包括字体家族、大小、颜色和布局。
+//ExStepSummary:2: 以下代码对文档应用带有指定选项的文本水印。
+//ExStepSummary:3: 下列代码将修改后的文档保存到指定的目录中 。
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+// 设置文档的目录路径
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 装入 Word 文档
+Document doc = new Document(dataDir + "Document.docx");
+
+//ExStep:2-
+// 创建水印选项
+TextWatermarkOptions options = new TextWatermarkOptions()
+{
+    FontFamily = "Arial", // Set font family for the watermark text
+    FontSize = 36, // Set font size for the watermark text
+    Color = Color.Black, // Set color of the watermark text
+    Layout = WatermarkLayout.Horizontal, // Specify layout of the watermark
+    IsSemitrasparent = false // Set transparency option
+};
+
+//ExStep:3-
+// 应用带有选项的水印文本
+doc.Watermark.SetText("Test", options);
+
+//ExStep:4-
+// 用水印保存文档
+doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
+//ExEnd

@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary:此代码演示如何使用 Apostion.Words 创建带有图表的文档。为 Y 轴设置界限,并将文档保存为 DOCX 文件。 
+// 每一步都细分,以明确了解与Apostion.Word.中的图表合作的过程。
+//ExStepSummary:0: 初始化新文档和文档构建实例 。 
+//ExStepSummary:1: 在文档中插入图表并检索图表对象。 
+//ExStepSummary:2: 在图表中添加带有指定类别和值的新序列。 
+//ExStepSummary:3: 设定图表 Y 轴的最小值和最大值界限。 
+//ExStepSummary:4: 将文档保存到指定的路径。 
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 创建新文档实例 。
+Document doc = new Document();
+// 初始化文档构建器以构建此文档 。
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 在文档中插入列图表。
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+// 从形状中获取图表对象。
+Chart chart = shape.Chart;
+// 从图表中清除任何现有序列以获取新数据。
+chart.Series.Clear();
+
+//ExStep:2-
+// 定义名为“应用系列1”的新序列。
+chart.Series.Add("Aspose Series 1",
+    new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
+    new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
+
+//ExStep:3-
+// 设定 Y 轴的最小界限 。
+chart.AxisY.Scaling.Minimum = new AxisBound(0);
+chart.AxisY.Scaling.Maximum = new AxisBound(6);
+
+//ExStep:4-
+// 将带有图表的文档保存到指定的路径。
+doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
+//ExEnd
