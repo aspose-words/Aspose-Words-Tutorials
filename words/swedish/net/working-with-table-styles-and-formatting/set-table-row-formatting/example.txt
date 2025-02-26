@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Denna kod visar hur man skapar ett Word-dokument med en formaterad tabell med Aspose.
+//ExStepSummary:0: Detta steg initierar ett nytt dokument och dokumentbyggaren.
+//ExStepSummary:1: Detta steg startar bordet och sätter in en cell i det.
+//ExStepSummary:2: Detta steg anger formateringen för raden, inklusive höjd- och höjdregeln.
+//ExStepSummary:3: Detta steg sätter stoppning för hela tabellen, som påverkar alla rader.
+//ExStepSummary:4: Detta steg lägger till text i cellen och avslutar raden.
+//ExStepSummary:5: Detta steg avslutar tabellen och sparar dokumentet till en angiven sökväg.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// Skapa en ny dokumentinstans
+Document doc = new Document();
+// Initialisera dokumentbyggaren med dokumentet
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Starta en ny tabell
+Table table = builder.StartTable();
+// Infoga den första cellen i tabellen
+builder.InsertCell();
+
+//ExStep:2-
+// Tillgång till RowFormat egendom av byggherren
+RowFormat rowFormat = builder.RowFormat;
+// Ställ in radens höjd
+rowFormat.Height = 100;
+// Ställ in höjdregeln till exakt
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// Ställ in stoppning till bordet
+table.LeftPadding = 30;
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// Lägg till text i nuvarande cell
+builder.Writeln("I'm a wonderful formatted row.");
+// Avsluta nuvarande rad
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:5-
+// Spara dokumentet till angiven sökväg
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableRowFormatting.docx");
+//ExEnd

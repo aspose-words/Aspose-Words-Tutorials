@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words, προσθέστε περιεχόμενο σε πολλές σελίδες, και να το αποθηκεύσετε ως ένα αρχείο .docx.
+//ExStepSummary:0: Αυτό το βήμα εγκαινιάζει ένα νέο έγγραφο και ένα DocumentBuilder για να χειραγωγήσει το έγγραφο.
+//ExStepSummary:1: Αυτό το βήμα προσθέτει κείμενο στην πρώτη σελίδα.
+//ExStepSummary:2: Αυτό το βήμα εισάγει ένα διάλειμμα σελίδας για να ξεκινήσει μια νέα σελίδα.
+//ExStepSummary:3: Αυτό το βήμα προσθέτει κείμενο στη δεύτερη σελίδα.
+//ExStepSummary:4: Αυτό το βήμα εισάγει ένα άλλο διάλειμμα σελίδας για μια νέα σελίδα.
+//ExStepSummary:5: Αυτό το βήμα προσθέτει κείμενο στην τρίτη σελίδα.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Δημιουργία μιας νέας περίπτωσης εγγράφου
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Προσθήκη κειμένου για την πρώτη σελίδα
+builder.Writeln("This is page 1.");
+
+//ExStep:2-
+// Εισάγετε ένα διάλειμμα σελίδας για να ξεκινήσετε μια νέα σελίδα
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+// Προσθήκη κειμένου για τη δεύτερη σελίδα
+builder.Writeln("This is page 2.");
+
+//ExStep:4-
+// Εισάγετε ένα άλλο διάλειμμα σελίδας για μια νέα σελίδα
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:5-
+// Προσθήκη κειμένου για την τρίτη σελίδα
+builder.Writeln("This is page 3.");
+
+//ExStep:6-
+// Αποθήκευση του εγγράφου στην καθορισμένη διαδρομή
+doc.Save("AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

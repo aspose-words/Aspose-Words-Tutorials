@@ -1,0 +1,44 @@
+//ExStart
+//ExSummaryEste código demonstra como criar um documento do Word usando a classe DocumentBuilder e inserir um parágrafo estilizado nele.
+//ExStepSummary:0: O código a seguir inicializa um Documento e um DocumentBuilder para criação de documentos.
+//ExStepSummary:1: O código a seguir configura as configurações de fonte para o parágrafo.
+//ExStepSummary:2: O código a seguir estabelece as configurações de formato de parágrafo para alinhamento e recuo.
+//ExStepSummary:3: O código a seguir escreve um parágrafo no documento.
+//ExStepSummary:4: O código a seguir salva o documento como um arquivo .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Inicializar um novo objeto Documento
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Acesse as configurações de fonte do DocumentBuilder
+Font font = builder.Font;
+// Defina o tamanho da fonte para 16
+font.Size = 16;
+// Faça a fonte em negrito
+font.Bold = true;
+// Definir a cor da fonte para azul
+font.Color = Color.Blue;
+// Definir o nome da fonte para Arial
+font.Name = "Arial";
+// Adicionar um sublinhado à fonte
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+// Acessar as configurações de formato de parágrafo
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.FirstLineIndent = 8;
+paragraphFormat.Alignment = ParagraphAlignment.Justify;
+paragraphFormat.KeepTogether = true;
+
+//ExStep:3-
+// Escreva um parágrafo de texto no documento
+builder.Writeln("A whole paragraph.");
+
+//ExStep:4-
+// Salve o documento como um arquivo .docx
+doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
+//ExEnd

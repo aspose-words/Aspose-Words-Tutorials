@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryيوضح هذا الرمز كيفية إنشاء مستند Word بجدول مهيأ باستخدام Apose.
+//ExStepSummary:0: تعمل هذه الخطوة على تهيئة مستند جديد ومنشئ المستندات.
+//ExStepSummary:1: تبدأ هذه الخطوة الجدول وتدرج خلية فيه.
+//ExStepSummary:2: تحدد هذه الخطوة تنسيق الصف، بما في ذلك قاعدة الارتفاع والارتفاع.
+//ExStepSummary:3: تحدد هذه الخطوة الحشو للجدول بأكمله ، مما يؤثر على جميع الصفوف.
+//ExStepSummary:4: تضيف هذه الخطوة نصًا إلى الخلية وتنتهي الصف.
+//ExStepSummary:5: تنتهي هذه الخطوة بالجدول وتحفظ المستند في مسار محدد.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// إنشاء مثيل مستند جديد
+Document doc = new Document();
+// تهيئة DocumentBuilder مع الوثيقة
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// ابدأ منضدة جديدة
+Table table = builder.StartTable();
+// أدخل الخلية الأولى في الجدول
+builder.InsertCell();
+
+//ExStep:2-
+// الوصول إلى خاصية RowFormat من باني
+RowFormat rowFormat = builder.RowFormat;
+// اضبط ارتفاع الصف
+rowFormat.Height = 100;
+// اضبط قاعدة الارتفاع إلى بالضبط
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// تعيين الحشو للجدول
+table.LeftPadding = 30;
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// إضافة نص إلى الخلية الحالية
+builder.Writeln("I'm a wonderful formatted row.");
+// أنه الصف الحالي
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:5-
+// احفظ المستند إلى المسار المحدد
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableRowFormatting.docx");
+//ExEnd

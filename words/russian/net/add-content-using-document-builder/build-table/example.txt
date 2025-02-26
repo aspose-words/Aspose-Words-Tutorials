@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать документ Word с таблицей с использованием Aspose.Words. Он создает таблицу с двумя рядами и различными настройками и форматами текста клеток.
+//ExStepSummary:0: Приводимый ниже код инициализирует новый документ и составитель документов.
+//ExStepSummary:1: Следующий код запускает новую таблицу и вставляет первую строку клеток.
+//ExStepSummary:2: Следующий код настраивает форматирование для второй строки и ее ячеек.
+//ExStepSummary:3: Следующий код настраивает форматирование для второй строки и ее ячеек.
+//ExStepSummary:4: Приводимый ниже код заканчивает таблицу и сохраняет документ в файле.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Инициировать новый объект документа
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Запустить новый стол
+Table table = builder.StartTable();
+// Начать первую клетку
+builder.InsertCell();
+// Установить вертикальное направление для первой клетки
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
+builder.Write("This is row 1 cell 1");
+// Вставить вторую ячейку
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+builder.EndRow();
+
+//ExStep:2-
+// Вставить ячейку для второго ряда
+builder.InsertCell();
+// Настроить формат для второй строки
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+//ExStep:3-
+// Вставить вторую ячейку для второй строки
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward; 
+builder.Writeln("This is row 2 cell 2");
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:4-
+// Автоматизировать таблицу с фиксированной шириной колонки
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+// Сохранить документ в файл
+doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

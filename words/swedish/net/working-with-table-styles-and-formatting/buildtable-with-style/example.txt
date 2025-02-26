@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: Den här koden visar hur man skapar ett Word-dokument med en formaterad tabell med Aspose.Words. Tabellen innehåller rubriker och datarader, formaterade enligt specifika stilalternativ.
+//ExStepSummary:0: Initiera ett nytt dokument och dokumentbyggare för att hantera dokumentstrukturen.
+//ExStepSummary:1: Starta en ny tabell i dokumentet med hjälp av DocumentBuilder.
+//ExStepSummary:2: Infoga den första cellen och ställ in tabellstilsidentifieraren.
+//ExStepSummary:3: Tillämpa formateringsalternativ på tabellen och ställa in auto-fit beteende.
+//ExStepSummary:4: Lägg till rubrikradsceller i tabellen.
+//ExStepSummary:5: Lägg till datarader i tabellen med objektnamn och mängder.
+//ExStepSummary:6: Spara det samlade dokumentet till en fil.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// Skapa ett nytt dokumentobjekt.
+Document doc = new Document();
+// Skapa en byggare för att underlätta dokumentgenerering.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Starta en ny tabell i dokumentet.
+Table table = builder.StartTable();
+
+//ExStep:2-
+// Infoga den första cellen innan formatering ställs in.
+builder.InsertCell();
+// Ställ in stilidentifieraren för tabellen.
+table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
+
+
+//ExStep:3-
+// Anpassa stilalternativ.
+table.StyleOptions = 
+    TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
+// Ställ in tabellens auto-fit-beteende.	
+table.AutoFit(AutoFitBehavior.AutoFitToContents);
+
+
+//ExStep:4-
+// Skriv rubriken för den första kolumnen.
+builder.Writeln("Item");
+// Sätt rätt stoppning för cellen.
+builder.CellFormat.RightPadding = 40;
+// Infoga den andra cellen för nästa kolumn.
+builder.InsertCell();
+// Skriv rubriken för den andra kolumnen.
+builder.Writeln("Quantity (kg)");
+// Avsluta radskapelsen.
+builder.EndRow();
+
+//ExStep:5-
+// Starta en ny rad och sätt in den första cellen.
+builder.InsertCell();
+builder.Writeln("Apples");
+builder.InsertCell();
+builder.Writeln("20");
+builder.EndRow();
+ // Infoga en ny rads första cell för den andra punkten.
+builder.InsertCell();
+builder.Writeln("Bananas");
+builder.InsertCell();
+builder.Writeln("40");
+builder.EndRow();
+// Börja en ny rad för den tredje punkten.
+builder.InsertCell();
+builder.Writeln("Carrots");
+builder.InsertCell(); 
+builder.Writeln("50");
+builder.EndRow();
+
+//ExStep:6-
+// Spara dokumentet till en angiven fil.
+doc.Save("WorkingWithTableStylesAndFormatting.BuildTableWithStyle.docx");
+//ExEnd

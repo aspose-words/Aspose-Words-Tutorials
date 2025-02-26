@@ -1,0 +1,33 @@
+//ExStart
+//ExSummaryيوضح هذا الرمز كيفية إضافة عنوان ووصف إلى جدول في مستند Word باستخدام Apose.Words.
+//ExStepSummary:0:تعمل هذه الخطوة على تهيئة المستند وتحميله من دليل محدد.
+//ExStepSummary:1:تسترد هذه الخطوة الجدول الأول من المستند وتحدد عنوانه ووصفه.
+//ExStepSummary:2:تقوم هذه الخطوة بتكوين خيارات الحفظ للمستند مع إعدادات الامتثال المحددة.
+//ExStepSummary:3:تعمل هذه الخطوة على تحسين خيارات التوافق لمستند Word 2016.
+//ExStepSummary:4:تحفظ هذه الخطوة المستند المعدّل إلى الدليل المحدد.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// تهيئة المستند وتحميله من دليل البيانات
+string dataDir = "Your Document Directory";
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// استرجع الجدول الأول وحدد عنوانه ووصفه
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+table.Title = "Test title";
+table.Description = "Test description";
+
+//ExStep:2-
+// اضبط خيارات الحفظ للمستند
+OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
+
+//ExStep:3-
+// خيارات التوافق الأمثل لبرنامج Word 2016
+doc.CompatibilityOptions.OptimizeFor(Aspose.Words.Settings.MsWordVersion.Word2016);
+
+//ExStep:4-
+// احفظ المستند المعدل مرة أخرى إلى الدليل المحدد
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.TableTitleAndDescription.docx", options);
+//ExEnd

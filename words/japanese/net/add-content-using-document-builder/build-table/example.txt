@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryを選択します。 このコードは、Asfo.words を使って Word ドキュメントを作成する方法を示します。 2 行とさまざまなセルのテキスト方向と書式を持つ表を作成します。
+//ExStepSummary:0: 以下のコードにより、新規ドキュメントおよびドキュメント作成者が初期化されます。
+//ExStepSummary:1: 次のコードは、新しい表を開始し、最初のセルの行を挿入します。
+//ExStepSummary:2: 次のコードで、第 2 行とそのセルの書式設定を設定します。
+//ExStepSummary:3: 次のコードで、第 2 行とそのセルの書式設定を設定します。
+//ExStepSummary:4: 以下のコードが表を終了し、ドキュメントをファイルに保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// 新しい文書オブジェクトを初期化
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 新しい表を開始
+Table table = builder.StartTable();
+// 最初のセルを開始
+builder.InsertCell();
+// 最初のセルに垂直配置を設定
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
+builder.Write("This is row 1 cell 1");
+// 2 番目のセルを挿入
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+builder.EndRow();
+
+//ExStep:2-
+// 2 番目の行にセルを挿入
+builder.InsertCell();
+// 2 番目の行の書式設定を設定
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+//ExStep:3-
+// 2 番目の行に 2 番目のセルを挿入
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward; 
+builder.Writeln("This is row 2 cell 2");
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:4-
+// 固定列の幅で表を自動調整
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+// 文書をファイルに保存
+doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

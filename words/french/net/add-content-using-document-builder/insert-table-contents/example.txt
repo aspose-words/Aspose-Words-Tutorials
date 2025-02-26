@@ -1,0 +1,78 @@
+//ExStart
+//ExSummary: Ce code montre comment créer un document Word avec une table des matières à l'aide de DocumentBuilder. Il comprend des en-têtes de différents niveaux et enregistre le document sous forme de fichier .docx.
+//ExStepSummary:0: Cette étape initialise un nouvel objet Document.
+//ExStepSummary:1: Cette étape crée un objet DocumentBuilder pour la manipulation du document.
+//ExStepSummary:2: Cette étape insère la Table des matières au début du document.
+//ExStepSummary:3: Cette étape introduit une pause de page pour démarrer le contenu réel sur une nouvelle page.
+//ExStepSummary:4: Cette étape définit le premier titre et écrit « 1 » au document.
+//ExStepSummary:5: Cette étape fixe le deuxième niveau d'en-tête et écrit « En-tête 1.1 » et « En-tête 1.2 ».
+//ExStepSummary:6: Cette étape fixe à nouveau le premier niveau de cap et écrit « Heading 2 » et « Heading 3 ».
+//ExStepSummary:7: Cette étape fixe le deuxième niveau d'en-tête et écrit "En-tête 3.1".
+//ExStepSummary:8: Cette étape fixe le troisième niveau de la rubrique et écrit les sous-titres "Chaîne 3.1.1", "Chaîne 3.1.2" et "Chaîne 3.1.3".
+//ExStepSummary:9: Cette étape fixe une fois de plus le deuxième niveau de cap et écrit « Heading 3.2 » et « Heading 3.3 ».
+//ExStepSummary:10: Enfin, cette étape met à jour les champs du document et l'enregistre sous forme de fichier .docx.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:6:images/4.png
+//ExStepImage:7:images/5.png
+//ExStepImage:8:images/6.png
+//ExStepImage:9:images/7.png
+
+//ExStep:0-
+// Créer une nouvelle instance de document
+Document doc = new Document();
+
+//ExStep:1-
+// Initialiser DocumentBuilder pour la manipulation de documents
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// Insérer une table des matières avec les options spécifiées
+builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
+
+//ExStep:3-
+// Insérez une pause page pour démarrer le contenu sur une nouvelle page
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:4-
+// Définissez le style de la rubrique 1
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 1");
+
+//ExStep:5-
+// Définissez le style de la rubrique 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 1.1");
+builder.Writeln("Heading 1.2");
+
+//ExStep:6-
+// Régler le style de retour à la rubrique 1
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 2");
+builder.Writeln("Heading 3");
+
+//ExStep:7-
+// Définissez le style de la rubrique 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.1");
+
+//ExStep:8-
+// Définissez le style de la rubrique 3
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
+builder.Writeln("Heading 3.1.1");
+builder.Writeln("Heading 3.1.2");
+builder.Writeln("Heading 3.1.3");
+
+//ExStep:9-
+// Régler le style de retour à la rubrique 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.2");
+builder.Writeln("Heading 3.3");
+
+//ExStep:10-
+// Mettre à jour tous les champs du document
+doc.UpdateFields();
+// Enregistrer le document
+doc.Save("AddContentUsingDocumentBuilder.InsertTableOfContents.docx");
+//ExEnd

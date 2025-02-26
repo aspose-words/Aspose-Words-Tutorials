@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να χειραγωγήσει πίνακες σε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words. Ανακτά ένα υπάρχον έγγραφο, τροποποιεί τα σύνορα του πρώτου πίνακα, και αποθηκεύει τις αλλαγές σε ένα νέο αρχείο.
+//ExStepSummary:0: Ο ακόλουθος κωδικός καθορίζει το έγγραφο και ανακτά τον πρώτο πίνακα από αυτό.
+//ExStepSummary:1: Ο ακόλουθος κώδικας καθαρίζει τα υφιστάμενα σύνορα από τον πίνακα για να προετοιμαστεί για νέα μορφοποίηση.
+//ExStepSummary:2: Ο ακόλουθος κωδικός εφαρμόζει ένα πράσινο σύνορο γύρω και μέσα στον πίνακα.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Ορισμός του καταλόγου για το έγγραφο
+string dataDir = "Your Document Directory";
+// Φόρτωση του εγγράφου
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Πάρε τον πρώτο πίνακα από το έγγραφο.
+Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
+
+//ExStep:2-
+// Καθαρίστε τα υπάρχοντα σύνορα από το τραπέζι
+table.ClearBorders();
+
+//ExStep:3-
+// Θέστε ένα πράσινο σύνορο γύρω και μέσα στο τραπέζι
+table.SetBorders(LineStyle.Single, 1.5, Color.Green);
+// Αποθήκευση του εγγράφου με αλλαγές
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");
+//ExEnd

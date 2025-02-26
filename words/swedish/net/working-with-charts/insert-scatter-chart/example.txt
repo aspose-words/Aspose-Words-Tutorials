@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary:Denna kod visar hur man skapar ett Word-dokument med ett scatterdiagram med hjälp av Aspose.Words. Det initierar ett dokument, bygger innehåll, infogar ett scatter diagram, lägger till data till det, och sparar dokumentet.
+//ExStepSummary:0: Initialisering av dokument- och dokumentbyggnadsobjekt för att börja arbeta med dokumentet.
+//ExStepSummary:1: Infoga ett scatterdiagram i dokumentet.
+//ExStepSummary:2: Lägga till en serie datapunkter till scatter diagrammet.
+//ExStepSummary:3: Spara dokumentet med scatter diagrammet till en .docx-fil.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Initiera ett nytt dokument
+Document doc = new Document();
+// Skapa en byggare för att infoga innehåll
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Infoga ett scatterdiagram i dokumentet
+Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252); 
+
+//ExStep:2-
+// Hämta diagramobjektet från den infogade formen
+Chart chart = shape.Chart;
+// Lägg till seriedata till diagrammet
+chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 });
+
+//ExStep:3-
+// Spara dokumentet med scatterdiagrammet
+doc.Save("WorkingWithCharts.InsertScatterChart.docx");
+//ExEnd

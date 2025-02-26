@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να εφαρμόσει ένα περίγραμμα σύνορα σε έναν πίνακα σε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words. Επικεντρώνει το τραπέζι στη σελίδα, θέτει ένα πράσινο σύνορο γύρω από το τραπέζι, καθαρίζει τυχόν υπάρχοντα σύνορα, και γεμίζει τα κύτταρα πίνακα με ένα ανοιχτό πράσινο χρώμα φόντου. 
+//ExStepSummary:0: Ο ακόλουθος κωδικός αρχικοποιείται το έγγραφο και ανακτά τον πρώτο πίνακα.
+//ExStepSummary:1: Αυτό το βήμα ευθυγραμμίζει τον πίνακα με το κέντρο της σελίδας.
+//ExStepSummary:2: Αυτό το βήμα καθαρίζει τα υφιστάμενα σύνορα από το τραπέζι.
+//ExStepSummary:3: Αυτό το βήμα θέτει ένα πράσινο σύνορο γύρω από το τραπέζι, αλλά όχι μέσα.
+//ExStepSummary:4: Αυτό το βήμα γεμίζει τα κύτταρα με ένα ανοιχτό πράσινο συμπαγές χρώμα.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Ορισμός του καταλόγου του εγγράφου
+string dataDir = "Your Document Directory";
+// Φόρτωση του εγγράφου
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Ανακτήστε τον πρώτο πίνακα από το έγγραφο
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+// Ευθυγράμμιση του πίνακα στο κέντρο της σελίδας
+table.Alignment = TableAlignment.Center;
+
+//ExStep:2-
+// Καθαρίστε τα υπάρχοντα σύνορα από το τραπέζι
+table.ClearBorders();
+
+//ExStep:3-
+// Ορίστε το αριστερό σύνορο
+table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
+// Ορίστε τα δεξιά σύνορα
+table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
+// Ορισμός ανωτάτου ορίου
+table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
+// Ορίστε τα κάτω σύνορα
+table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
+
+//ExStep:4-
+// Γεμίστε τα κελιά με ανοιχτό πράσινο χρώμα
+table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
+// Αποθήκευση του τροποποιημένου εγγράφου
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
+//ExEnd

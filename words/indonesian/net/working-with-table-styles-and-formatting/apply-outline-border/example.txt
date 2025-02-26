@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan bagaimana menerapkan batas garis luar pada tabel dalam dokumen Word menggunakan Aspose.Words. Ini berpusat tabel di halaman, menetapkan batas hijau di sekitar meja, membersihkan batas yang ada, dan mengisi sel-sel tabel dengan warna latar belakang hijau terang. 
+//ExStepSummary:0: Kode berikut menginisialisasi dokumen dan mengambil tabel pertama.
+//ExStepSummary:1: Langkah ini menyelaraskan tabel ke bagian tengah halaman.
+//ExStepSummary:2: Langkah ini membersihkan batas yang ada dari meja.
+//ExStepSummary:3: Langkah ini menetapkan perbatasan hijau di sekitar meja tetapi tidak di dalam.
+//ExStepSummary:4: Langkah ini mengisi sel - sel dengan warna hijau muda.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Tentukan direktori dokumen
+string dataDir = "Your Document Directory";
+// Muat dokumen
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Mengambil tabel pertama dari dokumen
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+// Ratakan tabel ke pusat halaman
+table.Alignment = TableAlignment.Center;
+
+//ExStep:2-
+// Bersihkan batas apapun dari tabel
+table.ClearBorders();
+
+//ExStep:3-
+// Set batas kiri
+table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
+// Tetapkan batas kanan
+table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
+// Tetapkan batas atas
+table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
+// Tetapkan batas bawah
+table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
+
+//ExStep:4-
+// Isi sel dengan warna hijau muda
+table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
+// Simpan dokumen yang diubah
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
+//ExEnd

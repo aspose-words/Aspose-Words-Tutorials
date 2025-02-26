@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Ez a kód azt mutatja be, hogyan lehet alakzatokat (szövegdobozokat) beilleszteni egy Word dokumentumba az Aspose.Words használatával. A dokumentum DOCX formátumban kerül mentésre, az ISO szabványoknak megfelelő speciális megfelelőségi lehetőségekkel.
+//ExStepSummary:0: A kód egy új dokumentumot és egy dokumentumkészítőt inicializál a dokumentum manipulálására.
+//ExStepSummary:1: Egy alakzatot (szövegdobozt) helyezünk be a dokumentumban abszolút pozícióban, és az első alakzat elforgatása 30 fokra van állítva.
+//ExStepSummary:2: Egy új alakzatot helyeznek be relatív helyzetbe, és a második alakzat forgása is 30 fokra van állítva.
+//ExStepSummary:3: A dokumentum mentése speciális OoxmlSaveOptions.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Új dokumentumpéldány létrehozása
+Document doc = new Document();
+// DocumentBuilder inicializálása a dokumentumhoz
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// TextBox típusú alakzat beszúrása
+Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
+    RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
+// 30 fokkal elforgatja az alakzatot
+shape.Rotation = 30.0;
+
+//ExStep:2-
+builder.Writeln();
+// Egy másik TextBox típusú alakzat beszúrása relatív pozícióba
+shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
+// 30 fokkal elforgatja a második alakzatot
+shape.Rotation = 30.0;
+
+//ExStep:3-
+// Készítsen mentési lehetőségeket a dokumentumhoz
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
+{
+    Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
+};
+
+// Menti a dokumentumot a megadott mentési lehetőségekkel
+doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
+//ExEnd

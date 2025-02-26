@@ -1,0 +1,44 @@
+//ExStart
+//ExSummaryيوضح هذا الرمز كيفية إنشاء مستند Word مع جدول على غرار باستخدام Apose.Words. 
+//ExStepSummary:0: تهيئة مستند جديد وDocumentBuilder.
+//ExStepSummary:1: ابدأ جدولًا جديدًا وأدخل خلايا ترويسة لـ "الاسم" و "القيمة".
+//ExStepSummary:2: قم بإنشاء TableStyle مخصص مع حدود محددة وإعدادات الحشو.
+//ExStepSummary:3: احفظ المستند مع تطبيق نمط الجدول الجديد.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// أنشئ كائن مستند جديد
+Document doc = new Document();
+// تهيئة DocumentBuilder لبناء المستند
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// ابدأ منضدة جديدة
+Table table = builder.StartTable();
+builder.InsertCell();
+builder.Write("Name");
+builder.InsertCell();
+builder.Write("Value");
+builder.EndRow();
+builder.InsertCell();
+builder.InsertCell();
+builder.EndTable();
+
+//ExStep:2-
+// أنشئ نمط جدول جديد
+TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
+tableStyle.Borders.LineStyle = LineStyle.Double;
+// اضبط عرض الحدود
+tableStyle.Borders.LineWidth = 1;
+// اضبط الحشوة
+tableStyle.LeftPadding = 18;
+tableStyle.RightPadding = 18;
+tableStyle.TopPadding = 12;
+tableStyle.BottomPadding = 12;
+// تطبيق نمط الجدول المخصص على الجدول الذي تم إنشاؤه
+table.Style = tableStyle;
+
+//ExStep:3-
+// احفظ المستند مع الجدول المصمم
+doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
+//ExEnd

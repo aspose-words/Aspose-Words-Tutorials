@@ -1,0 +1,56 @@
+//ExStart
+//ExSummary: このコードは、単語ドキュメントに Asfof.words を使って複数の階層リストを作成する方法を示します。このコードは、ドキュメントを初期化し、番号付け書式を適用し、メイン項目とサブアイテムを作成し、最後に .docx ファイルとして保存します。
+//ExStepSummary:0: 以下のコードは、新規ドキュメントおよびドキュメントビルダーのインスタンスを初期化します。
+//ExStepSummary:1: 以下のコードは、標準の番号付けスタイルをリストに適用し、上位項目を追加します。
+//ExStepSummary:2: 次のコードは、上段の項目の下にサブアイテムを作成するためにインデントされます。
+//ExStepSummary:3: 以下のコードは、サブサブアイテムを 2 つ目のサブアイテムの下に作成する際のインデントをさらに増します。
+//ExStepSummary:4: 以下の例のコードは、前のレベルに戻ると、第二レベルに他の項目を追加します。
+//ExStepSummary:5: 次のコードは、リストの最終項目を追加します。
+//ExStepSummary:6: 次のコードは、保存する前に、リストから番号付けを解除します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStep:0-
+// 新しい文書を初期化
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// デフォルトの番号付け形式を適用する
+builder.ListFormat.ApplyNumberDefault();
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+
+//ExStep:2-
+// サブアイテムの字下げ
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.1");
+builder.Writeln("Item 2.2");
+
+//ExStep:3-
+// サブサブアイテムの字下げ
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.2.1");
+builder.Writeln("Item 2.2.2");
+
+//ExStep:4-
+// 2 番目のレベルに戻る
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 2.3");
+
+//ExStep:5-
+// 最上位レベルに戻る
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 3");
+
+//ExStep:6-
+// リストから番号付けを削除
+builder.ListFormat.RemoveNumbers();
+
+//ExStep:7-
+// ドキュメントを保存します
+doc.Save("DocumentFormatting.MultilevelListFormatting.docx");
+//ExEnd

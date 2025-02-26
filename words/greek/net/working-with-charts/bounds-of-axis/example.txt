@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο με ένα διάγραμμα χρησιμοποιώντας Aspose.Words, που τα όρια για το άξονα Y, και να αποθηκεύσετε το έγγραφο ως αρχείο DOCX. 
+// Κάθε βήμα είναι κατανεμημένο για να παρέχει μια σαφή κατανόηση της διαδικασίας που εμπλέκεται στην εργασία με διαγράμματα στο Aspose.Words.
+//ExStepSummary:0: Αρχικοποιήστε ένα νέο έγγραφο και ένα παράδειγμα DocumentBuilder. 
+//ExStepSummary:1: Εισάγετε ένα διάγραμμα στο έγγραφο και ανακτήστε το αντικείμενο του χάρτη. 
+//ExStepSummary:2: Προσθέστε μια νέα σειρά στο διάγραμμα με συγκεκριμένες κατηγορίες και τιμές. 
+//ExStepSummary:3: Ορισμός των ελάχιστων και μέγιστων ορίων για τον άξονα Υ του χάρτη. 
+//ExStepSummary:4: Αποθήκευση του εγγράφου στην καθορισμένη διαδρομή. 
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Δημιουργήστε ένα νέο παράδειγμα εγγράφου.
+Document doc = new Document();
+// Αρχικοποίηση DocumentBuilder για την κατασκευή του εγγράφου.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Εισάγετε ένα διάγραμμα στήλης στο έγγραφο.
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+// Ανακτήστε το αντικείμενο του χάρτη από το σχήμα.
+Chart chart = shape.Chart;
+// Καθαρίστε κάθε υπάρχουσα σειρά από το διάγραμμα για νέα δεδομένα.
+chart.Series.Clear();
+
+//ExStep:2-
+// Ορίστε μια νέα σειρά με το όνομα "Aspose Series 1."
+chart.Series.Add("Aspose Series 1",
+    new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
+    new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
+
+//ExStep:3-
+// Ορίστε το ελάχιστο όριο του άξονα Υ.
+chart.AxisY.Scaling.Minimum = new AxisBound(0);
+chart.AxisY.Scaling.Maximum = new AxisBound(6);
+
+//ExStep:4-
+// Αποθήκευση του εγγράφου με το διάγραμμα στην καθορισμένη διαδρομή.
+doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
+//ExEnd

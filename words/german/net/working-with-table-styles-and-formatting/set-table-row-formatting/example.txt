@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Dieser Code zeigt, wie man ein Word-Dokument mit einer formatierten Tabelle mit Aspose erstellt.
+//ExStepSummary:0: Dieser Schritt initialisiert ein neues Dokument und den Dokument-Builder.
+//ExStepSummary:1: Dieser Schritt startet die Tabelle und fügt eine Zelle in sie ein.
+//ExStepSummary:2: In diesem Schritt wird die Formatierung für die Zeile, einschließlich der Höhen- und Höhenregel, festgelegt.
+//ExStepSummary:3: Dieser Schritt setzt die Polsterung für die gesamte Tabelle, die alle Reihen betrifft.
+//ExStepSummary:4: Dieser Schritt fügt Text zur Zelle hinzu und beendet die Zeile.
+//ExStepSummary:5: Dieser Schritt beendet die Tabelle und speichert das Dokument auf einem bestimmten Pfad.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// Eine neue Dokument-Instanz erstellen
+Document doc = new Document();
+// DocumentBuilder mit dem Dokument initialisieren
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Eine neue Tabelle starten
+Table table = builder.StartTable();
+// Die erste Zelle in die Tabelle einfügen
+builder.InsertCell();
+
+//ExStep:2-
+// Zugriff auf die RowFormat-Eigenschaft des Erbauers
+RowFormat rowFormat = builder.RowFormat;
+// Die Höhe der Zeile einstellen
+rowFormat.Height = 100;
+// Höhenregel auf genau einstellen
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// Polsterung für den Tisch einstellen
+table.LeftPadding = 30;
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// Text in die aktuelle Zelle einfügen
+builder.Writeln("I'm a wonderful formatted row.");
+// Beenden Sie die aktuelle Zeile
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:5-
+// Das Dokument in den angegebenen Pfad speichern
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableRowFormatting.docx");
+//ExEnd

@@ -1,0 +1,27 @@
+//ExStart
+//ExSummaryيوضح هذا الكود كيفية إضافة قسم جديد إلى مستند Word باستخدام Apose.Words for .NET. تتضمن العملية تهيئة مستند وكتابة محتوى وإلحاق قسم جديد.
+//ExStepSummary:0: تهيئة مستند Word جديد وكائن DocumentBuilder لإضافة محتوى إلى المستند.
+//ExStepSummary:1: أضف نصًا إلى القسم الأول باستخدام كائن DocumentBuilder.
+//ExStepSummary:2: أضف نصًا إلى القسم الأول باستخدام كائن DocumentBuilder.
+//ExStepSummary:3: إنشاء قسم جديد وإضافته إلى مجموعة أقسام المستند.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// إنشاء مستند Word جديد.
+Document doc = new Document();
+// قم بتهيئة DocumentBuilder للمستند.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// إضافة محتوى إلى القسم الأول
+builder.Writeln("Hello1"); // Write "Hello1" into the document's first section.
+
+//ExStep:2-
+// إضافة محتوى إلى القسم الأول
+builder.Writeln("Hello2"); // Write "Hello2" into the document's first section.
+
+//ExStep:3-
+// أنشئ قسمًا جديدًا في المستند.
+Section sectionToAdd = new Section(doc);
+doc.Sections.Add(sectionToAdd);
+//ExEnd

@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary:Tento kód ukazuje, jak přidat název a popis do tabulky v dokumentu Word pomocí Aspose.Words.
+//ExStepSummary:0:Tento krok inicializuje dokument a načte jej ze zadaného adresáře.
+//ExStepSummary:1:Tento krok získá první tabulku z dokumentu a nastaví její název a popis.
+//ExStepSummary:2:Tento krok nakonfiguruje možnosti uložení dokumentu se zadaným nastavením shody.
+//ExStepSummary:3:Tento krok optimalizuje možnosti kompatibility dokumentu pro Word 2016.
+//ExStepSummary:4:Tento krok uloží upravený dokument zpět do zadaného adresáře.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Inicializovat dokument a načíst jej z datového adresáře
+string dataDir = "Your Document Directory";
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Získejte první tabulku a nastavte její název a popis
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+table.Title = "Test title";
+table.Description = "Test description";
+
+//ExStep:2-
+// Nastavit možnosti uložení dokumentu
+OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
+
+//ExStep:3-
+// Optimalizovat možnosti kompatibility pro Word 2016
+doc.CompatibilityOptions.OptimizeFor(Aspose.Words.Settings.MsWordVersion.Word2016);
+
+//ExStep:4-
+// Uložit upravený dokument zpět do zadaného adresáře
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.TableTitleAndDescription.docx", options);
+//ExEnd

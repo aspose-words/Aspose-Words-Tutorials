@@ -1,0 +1,34 @@
+//ExStart
+//ExSummary:Questo codice dimostra come creare un documento di Word usando Aspose.Words, formattare le proprietà del carattere prima di scrivere un testo di esempio ad esso.
+//ExStepSummary:0: Il seguente codice inizializza un nuovo documento e un DocumentBuilder.
+//ExStepSummary:1: Il seguente codice imposta varie proprietà dei caratteri come dimensione, grassetto, colore, nome e stile di sottolineatura.
+//ExStepSummary:2: Il seguente codice scrive un testo campione al documento usando le impostazioni del carattere configurato.
+//ExStepSummary:3: Il seguente codice salva il documento nella directory specificata con un nome di file dato.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Crea una nuova istanza di documento
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Accedere alla proprietà dei caratteri tramite DocumentBuilder
+Font font = builder.Font;
+// Imposta la dimensione del carattere a 16
+font.Size = 16;
+// Rendi il carattere in grassetto
+font.Bold = true;
+// Cambia il colore del carattere in blu
+font.Color = Color.Blue;
+// Imposta il carattere a Arial
+font.Name = "Arial";
+// Applica uno stile di sottolineatura tratteggiato al carattere
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+builder.Write("Sample text.");
+
+//ExStep:3-
+// Salva il documento nella directory artefatti
+doc.Save("WorkingWithFonts.FontFormatting.docx");
+//ExEnd

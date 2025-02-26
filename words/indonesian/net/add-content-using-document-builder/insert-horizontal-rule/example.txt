@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary:Kode ini menunjukkan bagaimana membuat dokumen Word menggunakan Aspose.Words dan menambahkan aturan horizontal padanya. 
+//ExStepSummary:0: Buat objek Dokumen baru untuk menyimpan isi.
+//ExStepSummary:1: Gunakan Dokumen Builder untuk merancang tata letak dokumen dan masukkan pesan.
+//ExStepSummary:2: Masukkan bentuk aturan horisontal ke dalam dokumen.
+//ExStepSummary:3: Simpan dokumen ke lokasi berkas yang dinyatakan.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Buat objek Dokumen baru untuk menyimpan isi
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc); 
+
+//ExStep:1-
+// Tulis baris di dokumen
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+// Sisipkan bentuk aturan horisontal ke dalam dokumen
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+// Simpan dokumen ke lokasi yang ditentukan
+doc.Save("AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

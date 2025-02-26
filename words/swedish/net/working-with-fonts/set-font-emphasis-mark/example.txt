@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary:Denna kod visar hur man sätter ett betoningstecken i ett Word-dokument med Aspose.words.
+//ExStepSummary:0:Skapa en ny dokumentinstans att arbeta med.
+//ExStepSummary:1:Ställa in en DocumentBuilder för att manipulera dokumentet.
+//ExStepSummary:2:Tillämpar ett betoningstecken på typsnittet för byggmaskinen.
+//ExStepSummary:3:Skriva betoning text till dokumentet.
+//ExStepSummary:4:Skriva en enkel text utan någon betoning.
+//ExStepSummary:5: Denna kod sparar dokumentet med betoningsmarkeringen till teckensnittet.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Skapa ett nytt dokument
+Document document = new Document();
+
+//ExStep:1-
+// Initialisera DocumentBuilder för dokumentmanipulering
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:2-
+// Sätt betoningstecken till UnderSolidCircle
+builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
+
+//ExStep:3-
+// Skriv tyngdpunktstexten till dokumentet
+builder.Write("Emphasis text");
+// Gå till nästa rad
+builder.Writeln();
+// Rensa teckensnittsformateringen för efterföljande text
+builder.Font.ClearFormatting();
+
+//ExStep:4-
+// Skriv enkel text utan betoning
+builder.Write("Simple text");
+
+//ExStep:5-
+// Spara dokumentet till angiven sökväg
+document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
+//ExEnd

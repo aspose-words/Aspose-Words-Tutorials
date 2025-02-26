@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Bu kod, Aspose.Words kullanarak bir Word belgesine şekillerin (metin kutuları) nasıl yerleştirileceğini gösterir. Belge, ISO standartlarına özel uyumluluk seçenekleriyle DOCX formatında kaydedilir.
+//ExStepSummary:0: Kod, belgeyi manipüle etmek için yeni bir belgeyi ve bir belge oluşturucuyu başlatır.
+//ExStepSummary:1: Belgede mutlak bir konuma bir şekil (metin kutusu) yerleştirilir ve ilk şeklin dönüşü 30 dereceye ayarlanır.
+//ExStepSummary:2: Göreceli bir pozisyona yeni bir şekil sokulur ve ikinci şeklin dönüşü de 30 dereceye ayarlanır.
+//ExStepSummary:3: Belge belirli OoxmlSaveOptions ile kaydedilir.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Yeni bir belge örneği oluşturur
+Document doc = new Document();
+// Belge için bir DocumentBuilder başlatılır
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// TextBox türünde bir şekil ekler
+Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
+    RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
+// Şekli 30 derece döndürür
+shape.Rotation = 30.0;
+
+//ExStep:2-
+builder.Writeln();
+// Göreceli bir konuma başka bir TextBox şekli ekler
+shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
+// İkinci şekli 30 derece döndürür
+shape.Rotation = 30.0;
+
+//ExStep:3-
+// Belge için kaydetme seçeneklerini hazırlar
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
+{
+    Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
+};
+
+// Belirtilen kaydetme seçeneklerini kullanarak belgeyi kaydeder
+doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
+//ExEnd

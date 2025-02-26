@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan kell beilleszteni egy képet a Word dokumentum fejlécébe az Aspose.Words for .NET használatával.
+//ExStepSummary:0: Hozzon létre egy új Word dokumentumot az Aspose.Words Document osztály használatával.
+//ExStepSummary:1: Ugrás a dokumentum elsődleges fejlécére a DocumentBuilder segítségével.
+//ExStepSummary:2: Helyezzen be egy képet a fejlécbe konkrét beállításokkal, méretekkel és csomagolási lehetőségekkel.
+//ExStepSummary:3: Mentse a dokumentumot egy megadott fájl elérési útjára.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Új Word dokumentum létrehozása
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// A kurzor áthelyezése a dokumentum elsődleges fejlécébe
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+// Kép beszúrása a fejlécbe speciális beállítással és méretekkel
+builder.InsertImage(
+    ImagesDir + "Logo.jpg", RelativeHorizontalPosition.RightMargin, 10,
+    RelativeVerticalPosition.Page, 10, 50, 50, 
+    WrapType.Through
+);
+
+//ExStep:3-
+// A dokumentum mentése a megadott elérési útra
+doc.Save("WorkingWithHeadersAndFooters.InsertImage.docx");
+//ExEnd

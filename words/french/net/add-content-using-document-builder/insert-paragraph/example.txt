@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Ce code montre comment créer un document Word en utilisant la classe DocumentBuilder et y insérer un paragraphe style.
+//ExStepSummary:0: Le code suivant initialise un Document et un DocumentBuilder pour la création de document.
+//ExStepSummary:1: Le code suivant configure les paramètres de police pour le paragraphe.
+//ExStepSummary:2: Le code suivant établit les paramètres de format de paragraphe pour l'alignement et l'indentation.
+//ExStepSummary:3: Le code suivant écrit un paragraphe dans le document.
+//ExStepSummary:4: Le code suivant enregistre le document sous forme de fichier .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Initialiser un nouvel objet Document
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Accédez aux paramètres de police du DocumentBuilder
+Font font = builder.Font;
+// Définissez la taille de la police à 16
+font.Size = 16;
+// Faire en sorte que la police soit bold
+font.Bold = true;
+// Définissez la couleur de la police en bleu
+font.Color = Color.Blue;
+// Définir le nom de la police à Arial
+font.Name = "Arial";
+// Ajoute un accent pointillé à la police
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+// Accédez aux paramètres de format de paragraphe
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.FirstLineIndent = 8;
+paragraphFormat.Alignment = ParagraphAlignment.Justify;
+paragraphFormat.KeepTogether = true;
+
+//ExStep:3-
+// Écrire un paragraphe de texte dans le document
+builder.Writeln("A whole paragraph.");
+
+//ExStep:4-
+// Enregistrer le document sous forme de fichier .docx
+doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
+//ExEnd

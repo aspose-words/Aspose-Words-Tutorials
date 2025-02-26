@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Este código muestra cómo insertar un gráfico de columnas en un documento usando Aspose.Words. Crea un documento,
+//          agrega un gráfico con categorías y valores definidos y, a continuación, guarda el documento.
+//ExStepSummary:0: El siguiente código inicializa un nuevo documento y un generador de documentos.
+//ExStepSummary:1: Este paso implica insertar un gráfico de columnas con dimensiones especificadas en el documento.
+//ExStepSummary:2: Aquí, los datos de la serie se agregan al gráfico con las categorías y los valores correspondientes.
+//ExStepSummary:3: Este paso guarda el documento con el gráfico insertado en una ubicación de archivo especificada.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Inicializar un nuevo objeto Document
+Document doc = new Document();
+// Cree un DocumentBuilder para facilitar la manipulación de documentos
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Insertar un gráfico de columnas en el tamaño especificado (ancho x alto)
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+// Acceder al objeto gráfico desde la forma insertada
+Chart chart = shape.Chart;
+// Añadir datos de series con categorías y valores
+chart.Series.Add("Aspose Series 1", new string[] { "Category 1", "Category 2" }, new double[] { 1, 2 });
+
+//ExStep:3-
+// Guardar el documento con el gráfico de columnas insertado
+doc.Save("WorkingWithCharts.InsertColumnChart.docx"); 
+//ExEnd

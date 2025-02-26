@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan hozhat létre Word dokumentumot egy stílustáblázattal az Aspose.Words használatával. 
+//ExStepSummary:0: Új dokumentum és DocumentBuilder inicializálása.
+//ExStepSummary:1: Új táblázat indítása és fejléccellák beszúrása a "Név" és az "Érték" mezőbe.
+//ExStepSummary:2: Hozzon létre egy egyéni TableStyle-t konkrét határ- és párnázási beállításokkal.
+//ExStepSummary:3: Mentse a dokumentumot az új táblázatstílus alkalmazásával.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Új dokumentumobjektum létrehozása
+Document doc = new Document();
+// A DocumentBuilder inicializálása a dokumentum létrehozásához
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Új asztal indítása
+Table table = builder.StartTable();
+builder.InsertCell();
+builder.Write("Name");
+builder.InsertCell();
+builder.Write("Value");
+builder.EndRow();
+builder.InsertCell();
+builder.InsertCell();
+builder.EndTable();
+
+//ExStep:2-
+// Új asztalstílus létrehozása
+TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
+tableStyle.Borders.LineStyle = LineStyle.Double;
+// Határszélesség beállítása
+tableStyle.Borders.LineWidth = 1;
+// Állítsa be a párnázást
+tableStyle.LeftPadding = 18;
+tableStyle.RightPadding = 18;
+tableStyle.TopPadding = 12;
+tableStyle.BottomPadding = 12;
+// Az egyéni táblázatstílus alkalmazása a létrehozott táblára
+table.Style = tableStyle;
+
+//ExStep:3-
+// A dokumentum mentése a formázott táblával
+doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
+//ExEnd

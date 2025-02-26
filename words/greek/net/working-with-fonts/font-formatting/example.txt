@@ -1,0 +1,34 @@
+//ExStart
+//ExSummary:Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words, σχηματοποιώντας τις ιδιότητες γραμματοσειράς πριν γράψετε ένα κείμενο δείγμα σε αυτό.
+//ExStepSummary:0: Ο ακόλουθος κώδικας αρχικοποιείται ένα νέο έγγραφο και ένα έγγραφοBuilder.
+//ExStepSummary:1: Ο παρακάτω κώδικας ορίζει διάφορες ιδιότητες γραμματοσειράς, όπως μέγεθος, τολμηρός, χρώμα, όνομα, και το στυλ έμφασης.
+//ExStepSummary:2: Ο παρακάτω κώδικας γράφει ένα κείμενο δείγματος στο έγγραφο χρησιμοποιώντας τις ρυθμισμένες ρυθμίσεις γραμματοσειράς.
+//ExStepSummary:3: Ο παρακάτω κώδικας αποθηκεύει το έγγραφο στον καθορισμένο κατάλογο με ένα δεδομένο όνομα αρχείου.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Δημιουργία μιας νέας περίπτωσης εγγράφου
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Πρόσβαση στο ακίνητο γραμματοσειράς μέσω DocumentBuilder
+Font font = builder.Font;
+// Ορισμός του μεγέθους γραμματοσειράς στο 16
+font.Size = 16;
+// Κάντε τη γραμματοσειρά τολμηρή
+font.Bold = true;
+// Αλλαγή του χρώματος γραμματοσειράς σε μπλε
+font.Color = Color.Blue;
+// Ορισμός της γραμματοσειράς στο Arial
+font.Name = "Arial";
+// Εφαρμόστε ένα stressed στυλ στη γραμματοσειρά
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+builder.Write("Sample text.");
+
+//ExStep:3-
+// Αποθήκευση του εγγράφου στον κατάλογο αντικειμένων
+doc.Save("WorkingWithFonts.FontFormatting.docx");
+//ExEnd

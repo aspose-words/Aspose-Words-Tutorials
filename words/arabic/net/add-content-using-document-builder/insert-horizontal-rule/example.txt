@@ -1,0 +1,25 @@
+//ExStart
+//ExSummaryيوضح هذا الكود كيفية إنشاء مستند Word باستخدام Apose.Words وإضافة قاعدة أفقية إليه. 
+//ExStepSummary:0: أنشئ كائن مستند جديد للاحتفاظ بالمحتوى.
+//ExStepSummary:1: استخدم DocumentBuilder لتصميم تخطيط المستند وإدراج رسالة.
+//ExStepSummary:2: أدخل شكل قاعدة أفقي في المستند.
+//ExStepSummary:3: احفظ المستند إلى مسار الملف المحدد.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// أنشئ كائن مستند جديد للاحتفاظ بالمحتوى
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc); 
+
+//ExStep:1-
+// اكتب سطرًا في المستند
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+// أدرج شكل قاعدة أفقي في المستند
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+// احفظ المستند إلى الموقع المحدد
+doc.Save("AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

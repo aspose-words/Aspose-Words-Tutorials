@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Bu kod, Aspose kullanarak biçimlendirilmiş bir tablo ile bir Word belgesinin nasıl oluşturulacağını gösterir.
+//ExStepSummary:0: Bu adım yeni bir belgeyi ve belge oluşturucuyu başlatır.
+//ExStepSummary:1: Bu adım masayı başlatır ve içine bir hücre yerleştirir.
+//ExStepSummary:2: Bu adım, yükseklik ve yükseklik kuralı da dahil olmak üzere satır için biçimlendirmeyi ayarlar.
+//ExStepSummary:3: Bu adım, tüm satırları etkileyen tüm tablo için doldurmayı ayarlar.
+//ExStepSummary:4: Bu adım hücreye metin ekler ve satırı bitirir.
+//ExStepSummary:5: Bu adım tabloyu sonlandırır ve belgeyi belirtilen bir yola kaydeder.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// Yeni bir Belge örneği oluştur
+Document doc = new Document();
+// DocumentBuilder'ı belge ile başlat
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Yeni bir tablo başlat
+Table table = builder.StartTable();
+// İlk hücreyi tabloya ekle
+builder.InsertCell();
+
+//ExStep:2-
+// Oluşturucunun RowFormat özelliğine erişin
+RowFormat rowFormat = builder.RowFormat;
+// Satırın yüksekliğini ayarla
+rowFormat.Height = 100;
+// Yükseklik kuralını tam olarak ayarla
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// Tablo için doldurmayı ayarla
+table.LeftPadding = 30;
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// Geçerli hücreye metin ekle
+builder.Writeln("I'm a wonderful formatted row.");
+// Geçerli satırı sonlandır
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:5-
+// Belgeyi belirtilen yola kaydet
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableRowFormatting.docx");
+//ExEnd

@@ -1,0 +1,36 @@
+//ExStart
+//ExSummaryيوضح هذا الرمز كيفية تنسيق الفقرات في مستند Word باستخدام Apose.Words. يوضح كيفية تعيين خيارات تنسيق الفقرة مثل المحاذاة والمسافة البادئة والمساحة بعد الفقرة.
+//ExStepSummary:0: تعمل هذه الخطوة على تهيئة مستند جديد وDocumentBuilder لبناء المستند.
+//ExStepSummary:1: تحدد هذه الخطوة خيارات تنسيق الفقرة، بما في ذلك المحاذاة والمسافة البادئة اليسرى والمسافة البادئة اليمنى والمساحة بعد الفقرة.
+//ExStepSummary:2: تكتب هذه الخطوة فقرة جيدة التنسيق مع خيارات التنسيق المحددة للمستند.
+//ExStepSummary:3: تكتب هذه الخطوة فقرة منسقة أخرى توضح تأثير المساحة بعد الفقرة.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0- 
+// إنشاء مثيل مستند جديد.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1- 
+// إعداد خيارات تنسيق الفقرات.
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.Alignment = ParagraphAlignment.Center;
+paragraphFormat.LeftIndent = 50;
+paragraphFormat.RightIndent = 50;
+paragraphFormat.SpaceAfter = 25;
+
+//ExStep:2- 
+// اكتب أول فقرة منسقة.
+builder.Writeln(
+	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
+
+//ExStep:3- 
+// اكتب الفقرة المنسقة الثانية.
+builder.Writeln(
+	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
+
+//ExStep:4- 
+// احفظ المستند إلى المسار المحدد.
+doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
+//ExEnd

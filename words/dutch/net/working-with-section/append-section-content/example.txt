@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary:Dit voorbeeld laat zien hoe je inhoud van de ene sectie naar de andere toevoegt en prependeert in een Word-document met behulp van Aspose.Words voor .NET.
+//ExStepSummary:0: Initialiseer een nieuw Word-document en DocumentBuilder om inhoud toe te voegen.
+//ExStepSummary:1: Schrijf tekst en voeg sectie pauzes toe om meerdere secties in het document aan te maken.
+//ExStepSummary:2: Toegang tot het derde deel van het document om zich voor te bereiden op content manipulatie.
+//ExStepSummary:3: De inhoud van de prepend vanaf de eerste sectie tot de derde sectie.
+//ExStepSummary:4: Inhoud toevoegen van het tweede deel naar het derde deel.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Initialiseer het document en DocumentBuilder
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Tekst schrijven en sectiepauzes invoegen om drie secties aan te maken
+builder.Write("Section 1");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// Inhoud toevoegen voor het tweede deel
+builder.Write("Section 2");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// Inhoud toevoegen voor het derde deel
+builder.Write("Section 3");
+
+//ExStep:2-
+// Het derde deel uit het document ophalen
+Section section = doc.Sections[2];
+
+//ExStep:3-
+// Inhoud prepend vanaf de eerste sectie tot de derde sectie
+Section sectionToPrepend = doc.Sections[0];
+section.PrependContent(sectionToPrepend);
+
+//ExStep:4-
+// Inhoud toevoegen van het tweede deel naar het derde deel
+Section sectionToAppend = doc.Sections[1];
+section.AppendContent(sectionToAppend);
+//ExEnd

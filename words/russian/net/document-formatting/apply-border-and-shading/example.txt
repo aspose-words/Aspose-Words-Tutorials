@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary: Этот код показывает, как применять границы и затенять пункт в документе Word с использованием Aspose.Words.
+//ExStepSummary:0: Приводимый ниже код инициализирует новый экземпляр документа и документа Builder.
+//ExStepSummary:1: Приводимый ниже код настраивает пункт на расстояние от текста.
+//ExStepSummary:2: Приводимый ниже код применяется к диагональной поперечной текстуре, затененной по отношению к данному пункту, с указанием цвета.
+//ExStepSummary:3: Следующий код пишет текст пункта с приложенными настройками.
+//ExStepSummary:4: Приводимый ниже код сохраняет документ на указанном пути вывода.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Инициирование нового документа
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Доступ к границам пункта
+BorderCollection borders = builder.ParagraphFormat.Borders;
+borders.DistanceFromText = 20;
+borders[BorderType.Left].LineStyle = LineStyle.Double;
+borders[BorderType.Right].LineStyle = LineStyle.Double;
+borders[BorderType.Top].LineStyle = LineStyle.Double;
+borders[BorderType.Bottom].LineStyle = LineStyle.Double;
+
+//ExStep:2-
+// Доступ к затеняющим свойствам пункта
+Shading shading = builder.ParagraphFormat.Shading;
+shading.Texture = TextureIndex.TextureDiagonalCross;
+shading.BackgroundPatternColor = System.Drawing.Color.LightCoral; 
+shading.ForegroundPatternColor = System.Drawing.Color.LightSalmon;
+
+//ExStep:3-
+// Написать форматировать содержание абзаца
+builder.Write("I'm a formatted paragraph with double border and nice shading.");
+
+//ExStep:4-
+// Сохранить документ на заданный путь
+doc.Save(ArtifactsDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
+//ExEnd

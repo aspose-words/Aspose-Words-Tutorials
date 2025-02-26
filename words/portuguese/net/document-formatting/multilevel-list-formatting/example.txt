@@ -1,0 +1,56 @@
+//ExStart
+//ExSummary: Este código demonstra como criar uma lista multinível em um documento do Word usando Aspose.Words. Ele inicializa um documento, aplica um formato de numeração, cria principais e sub-itens e, finalmente, salva o documento como um arquivo .docx.
+//ExStepSummary:0: O código a seguir inicializa um novo documento e instância do DocumentBuilder.
+//ExStepSummary:1: O código a seguir aplica um estilo de numeração padrão à lista e adiciona itens de nível superior.
+//ExStepSummary:2: O código a seguir recua para criar sub-itens sob o segundo item de nível superior.
+//ExStepSummary:3: O código a seguir recua ainda mais para criar sub-sub-itens sob o segundo sub- itens.
+//ExStepSummary:4: O código a seguir recua de volta para o nível anterior para adicionar outro item no segundo nível.
+//ExStepSummary:5: O código a seguir recua de volta ao nível superior para adicionar o item final na lista.
+//ExStepSummary:6: O código a seguir remove a numeração da lista antes de salvar.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStep:0-
+// Inicializar um novo documento
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Aplicar formato de numeração predefinido
+builder.ListFormat.ApplyNumberDefault();
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+
+//ExStep:2-
+// Indentação para subitems
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.1");
+builder.Writeln("Item 2.2");
+
+//ExStep:3-
+// Indentação para sub-items
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.2.1");
+builder.Writeln("Item 2.2.2");
+
+//ExStep:4-
+// De volta ao segundo nível
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 2.3");
+
+//ExStep:5-
+// De volta ao nível superior
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 3");
+
+//ExStep:6-
+// Remover a numeração da lista
+builder.ListFormat.RemoveNumbers();
+
+//ExStep:7-
+// Salvar o documento
+doc.Save("DocumentFormatting.MultilevelListFormatting.docx");
+//ExEnd

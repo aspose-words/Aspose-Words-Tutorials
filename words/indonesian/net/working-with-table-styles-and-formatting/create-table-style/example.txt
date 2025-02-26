@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan bagaimana membuat dokumen Word dengan tabel bergaya menggunakan Aspose.Words. 
+//ExStepSummary:0: Inisialisasi Dokumen dan Dokumen Builder baru.
+//ExStepSummary:1: Mulai tabel baru dan masukkan sel header untuk "Nama" dan "Value."
+//ExStepSummary:2: Buat Tablestyle ubahan dengan pengaturan batas tertentu dan padding.
+//ExStepSummary:3: Simpan dokumen dengan gaya tabel baru yang diterapkan.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Buat objek Dokumen baru
+Document doc = new Document();
+// Inisialisasi Dokumen Builder untuk membangun dokumen
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Mulai tabel baru
+Table table = builder.StartTable();
+builder.InsertCell();
+builder.Write("Name");
+builder.InsertCell();
+builder.Write("Value");
+builder.EndRow();
+builder.InsertCell();
+builder.InsertCell();
+builder.EndTable();
+
+//ExStep:2-
+// Buat gaya tabel baru
+TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
+tableStyle.Borders.LineStyle = LineStyle.Double;
+// Menentukan lebar batas
+tableStyle.Borders.LineWidth = 1;
+// Mengatur padding
+tableStyle.LeftPadding = 18;
+tableStyle.RightPadding = 18;
+tableStyle.TopPadding = 12;
+tableStyle.BottomPadding = 12;
+// Terapkan gaya tabel gubahan ke tabel yang dibuat
+table.Style = tableStyle;
+
+//ExStep:3-
+// Simpan dokumen dengan tabel bergaya
+doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
+//ExEnd

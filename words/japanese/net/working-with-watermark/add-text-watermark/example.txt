@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: このコードは、単語ドキュメントに Asfof.words を使用して、特定のオプション付きでテキストウォーターマークをどのように追加するかを示します。
+//ExStepSummary:0: 以下のコードは、ドキュメントのパスを初期化し、新しいドキュメントオブジェクトを作成します。
+//ExStepSummary:1: 次のコードは、フォントファミリ、サイズ、色、レイアウトなど、テキストウォーターマークのオプションを設定します。
+//ExStepSummary:2: 以下のコードは、指定したオプションによるテキストのウォーターマークをドキュメントに適用します。
+//ExStepSummary:3: 以下のコードは、変更したドキュメントを指定したディレクトリに保存します。
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+// 文書のディレクトリパスを設定
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Word ドキュメントを読み込み
+Document doc = new Document(dataDir + "Document.docx");
+
+//ExStep:2-
+// ウォーターマークのオプションを作成
+TextWatermarkOptions options = new TextWatermarkOptions()
+{
+    FontFamily = "Arial", // Set font family for the watermark text
+    FontSize = 36, // Set font size for the watermark text
+    Color = Color.Black, // Set color of the watermark text
+    Layout = WatermarkLayout.Horizontal, // Specify layout of the watermark
+    IsSemitrasparent = false // Set transparency option
+};
+
+//ExStep:3-
+// ウォーターマークテキストをオプションで適用
+doc.Watermark.SetText("Test", options);
+
+//ExStep:4-
+// ドキュメントにウォーターマークを付けて保存
+doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
+//ExEnd

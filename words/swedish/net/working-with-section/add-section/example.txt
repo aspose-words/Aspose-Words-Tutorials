@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary:Denna kod visar hur man lägger till ett nytt avsnitt i ett Word-dokument med hjälp av Aspose.Words för .NET. Processen inkluderar initiering av ett dokument, skriva innehåll, och lägga till ett nytt avsnitt.
+//ExStepSummary:0: Initiera ett nytt Word-dokument och ett DocumentBuilder-objekt för att lägga till innehåll i dokumentet.
+//ExStepSummary:1: Lägg till text i det första avsnittet genom att använda DocumentBuilder- objektet.
+//ExStepSummary:2: Lägg till text i det första avsnittet genom att använda DocumentBuilder- objektet.
+//ExStepSummary:3: Skapa en ny sektion och lägg till den i dokumentets sektionssamling.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Skapa ett nytt Word-dokument.
+Document doc = new Document();
+// Initialisera dokumentbyggaren för dokumentet.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Lägg till innehåll i första avsnittet
+builder.Writeln("Hello1"); // Write "Hello1" into the document's first section.
+
+//ExStep:2-
+// Lägg till innehåll i första avsnittet
+builder.Writeln("Hello2"); // Write "Hello2" into the document's first section.
+
+//ExStep:3-
+// Skapa ett nytt avsnitt i dokumentet.
+Section sectionToAdd = new Section(doc);
+doc.Sections.Add(sectionToAdd);
+//ExEnd

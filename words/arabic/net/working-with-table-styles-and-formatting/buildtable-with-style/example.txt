@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: يوضح هذا الرمز كيفية إنشاء مستند Word مع جدول على غرار باستخدام Apose.Words. يتضمن الجدول رؤوسًا وصفوف بيانات ، تم تنسيقها وفقًا لخيارات الأنماط المحددة.
+//ExStepSummary:0: تهيئة مستند وDocumentBuilder جديد لإدارة بنية المستند.
+//ExStepSummary:1: ابدأ جدولًا جديدًا في المستند باستخدام DocumentBuilder.
+//ExStepSummary:2: أدخل الخلية الأولى واضبط معرّف نمط الجدول.
+//ExStepSummary:3: قم بتطبيق خيارات التنسيق على الجدول وتعيين سلوك الضبط التلقائي.
+//ExStepSummary:4: أضف خلايا صف الرأس إلى الجدول.
+//ExStepSummary:5: إدراج صفوف البيانات في الجدول مع أسماء العناصر والكميات.
+//ExStepSummary:6: احفظ المستند المجمع في ملف.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// أنشئ كائن مستند جديد.
+Document doc = new Document();
+// إنشاء أداة إنشاء لتسهيل إنشاء المستندات.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// ابدأ جدولًا جديدًا في المستند.
+Table table = builder.StartTable();
+
+//ExStep:2-
+// أدخل الخلية الأولى قبل إعداد التنسيق.
+builder.InsertCell();
+// اضبط معرّف النمط للجدول.
+table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
+
+
+//ExStep:3-
+// اضبط خيارات النمط.
+table.StyleOptions = 
+    TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
+// اضبط سلوك الضبط التلقائي للطاولة.	
+table.AutoFit(AutoFitBehavior.AutoFitToContents);
+
+
+//ExStep:4-
+// اكتب رأس العمود الأول.
+builder.Writeln("Item");
+// تعيين الحشو الصحيح للخلية.
+builder.CellFormat.RightPadding = 40;
+// أدخل الخلية الثانية للعمود التالي.
+builder.InsertCell();
+// اكتب رأس العمود الثاني.
+builder.Writeln("Quantity (kg)");
+// إنهاء إنشاء الصف.
+builder.EndRow();
+
+//ExStep:5-
+// ابدأ صفًا جديدًا وأدخل الخلية الأولى.
+builder.InsertCell();
+builder.Writeln("Apples");
+builder.InsertCell();
+builder.Writeln("20");
+builder.EndRow();
+ // أدخل الخلية الأولى لصف جديد للعنصر الثاني.
+builder.InsertCell();
+builder.Writeln("Bananas");
+builder.InsertCell();
+builder.Writeln("40");
+builder.EndRow();
+// ابدأ صفًا جديدًا للبند الثالث.
+builder.InsertCell();
+builder.Writeln("Carrots");
+builder.InsertCell(); 
+builder.Writeln("50");
+builder.EndRow();
+
+//ExStep:6-
+// احفظ المستند في ملف محدد.
+doc.Save("WorkingWithTableStylesAndFormatting.BuildTableWithStyle.docx");
+//ExEnd

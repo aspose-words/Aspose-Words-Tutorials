@@ -1,0 +1,50 @@
+//ExStart
+//ExSummaryを選択します。 このコードは、単語ドキュメントに Asfof.words を使用して行の書式設定を適用する方法を示します。
+//ExStepSummary:0: 新しい文書を初期化し、書式設定された行で表を作成し始めます。
+//ExStepSummary:1: 行の書式を設定します。
+//ExStepSummary:2: 高さの設定を行います。
+//ExStepSummary:3: すべての行に影響する表全体にパディングを設定します。
+//ExStepSummary:4: 表のセルにテキストを書き込み、行を終了します。
+//ExStepSummary:5: テーブルビルディングプロセスを完了し、ドキュメントを保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// 新しい文書を作成
+Document doc = new Document();
+// ドキュメント作成プログラムを作成してドキュメントを編集します
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 新しい表を開始
+Table table = builder.StartTable();
+// テーブルに新しいセルを挿入
+builder.InsertCell();
+//ExStep:2-
+// 行の書式設定のプロパティにアクセス
+RowFormat rowFormat = builder.RowFormat;
+// 行の高さを設定
+rowFormat.Height = 100;
+// 高さを正確に指定
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// テーブルのパディングを設定
+table.LeftPadding = 30; 
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// セルにテキストを書き込み
+builder.Writeln("I'm a wonderful formatted row.");
+// 現在の行を終了
+builder.EndRow();
+// テーブルビルを終了
+builder.EndTable();
+
+//ExStep:5-
+// ドキュメントを保存します
+doc.Save("WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
+//ExEnd

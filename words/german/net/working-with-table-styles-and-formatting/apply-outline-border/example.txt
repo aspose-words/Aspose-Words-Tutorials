@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: Dieser Code zeigt, wie man einen Umrissrand in einem Word-Dokument mit Aspose.Words auf eine Tabelle anwendet. Er zentriert die Tabelle auf der Seite, setzt einen grünen Rand um den Tisch, löscht vorhandene Grenzen und füllt die Tabellenzellen mit einer hellgrünen Hintergrundfarbe. 
+//ExStepSummary:0: Der folgende Code initialisiert das Dokument und ruft die erste Tabelle ab.
+//ExStepSummary:1: Dieser Schritt richtet die Tabelle an die Mitte der Seite an.
+//ExStepSummary:2: Dieser Schritt beseitigt alle bestehenden Grenzen von der Tabelle.
+//ExStepSummary:3: Dieser Schritt setzt eine grüne Grenze um den Tisch, aber nicht innen.
+//ExStepSummary:4: Dieser Schritt füllt die Zellen mit einer hellgrünen festen Farbe.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Definieren Sie das Verzeichnis des Dokuments
+string dataDir = "Your Document Directory";
+// Dokument laden
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Erste Tabelle aus dem Dokument abrufen
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+// Richten Sie die Tabelle an die Mitte der Seite
+table.Alignment = TableAlignment.Center;
+
+//ExStep:2-
+// Alle vorhandenen Grenzen aus der Tabelle entfernen
+table.ClearBorders();
+
+//ExStep:3-
+// Linke Grenze setzen
+table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
+// Rechte Grenze setzen
+table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
+// Top-Grenze setzen
+table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
+// Unteren Rand setzen
+table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
+
+//ExStep:4-
+// Füllen Sie die Zellen mit hellgrüner Farbe
+table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
+// Das geänderte Dokument speichern
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
+//ExEnd

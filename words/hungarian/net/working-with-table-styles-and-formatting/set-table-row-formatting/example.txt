@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan hozhat létre Word dokumentumot formázott táblával az Aspose használatával.
+//ExStepSummary:0: Ez a lépés egy új dokumentumot és a dokumentumkészítőt inicializálja.
+//ExStepSummary:1: Ez a lépés elindítja a táblázatot, és beszúr egy cellát.
+//ExStepSummary:2: Ez a lépés beállítja a sor formázását, beleértve a magassági és magassági szabályt is.
+//ExStepSummary:3: Ez a lépés az egész táblázat kitöltését állítja be, amely minden sort érint.
+//ExStepSummary:4: Ez a lépés hozzáadja a szöveget a cellához, és befejezi a sort.
+//ExStepSummary:5: Ez a lépés befejezi a táblázatot, és elmenti a dokumentumot egy megadott elérési útra.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// Új dokumentumpéldány létrehozása
+Document doc = new Document();
+// DocumentBuilder inicializálása a dokumentummal
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Új asztal indítása
+Table table = builder.StartTable();
+// Az első cella beszúrása a táblázatba
+builder.InsertCell();
+
+//ExStep:2-
+// Hozzáférés az építtető RowFormat tulajdonságához
+RowFormat rowFormat = builder.RowFormat;
+// A sor magasságának beállítása
+rowFormat.Height = 100;
+// Állítsa be a magassági szabályt pontosan
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// Az asztal párnázásának beállítása
+table.LeftPadding = 30;
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// Szöveg hozzáadása az aktuális cellához
+builder.Writeln("I'm a wonderful formatted row.");
+// Az aktuális sor lezárása
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:5-
+// A dokumentum mentése a megadott elérési útra
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableRowFormatting.docx");
+//ExEnd

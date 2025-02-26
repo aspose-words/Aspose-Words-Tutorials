@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary:Αυτός ο κώδικας δείχνει πώς να θέσει ένα σημάδι έμφασης σε ένα έγγραφο Word χρησιμοποιώντας Aspose.words.
+//ExStepSummary:0:Δημιουργία μιας νέας περίπτωσης εγγράφου με την οποία θα συνεργαστούμε.
+//ExStepSummary:1:Δημιουργώντας ένα DocumentBuilder για να χειραγωγήσει το έγγραφο.
+//ExStepSummary:2:Εφαρμόζοντας ένα σημάδι έμφασης στη γραμματοσειρά του κατασκευαστή.
+//ExStepSummary:3:Γράφω κείμενο έμφασης στο έγγραφο.
+//ExStepSummary:4:Γράφω ένα απλό κείμενο χωρίς έμφαση.
+//ExStepSummary:5: Αυτός ο κώδικας αποθηκεύει το έγγραφο με το σήμα έμφασης στη γραμματοσειρά.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Δημιουργία νέου εγγράφου
+Document document = new Document();
+
+//ExStep:1-
+// Αρχικοποίηση κατασκευής εγγράφου για τη χειραγώγηση εγγράφων
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:2-
+// Ορισμός σημείου έμφασης στον UnderSolidCircle
+builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
+
+//ExStep:3-
+// Γράψτε το κείμενο έμφασης στο έγγραφο
+builder.Write("Emphasis text");
+// Μετακίνηση στην επόμενη γραμμή
+builder.Writeln();
+// Καθαρίστε τη σχηματοποίηση γραμματοσειράς για το επόμενο κείμενο
+builder.Font.ClearFormatting();
+
+//ExStep:4-
+// Γράψτε απλό κείμενο χωρίς έμφαση
+builder.Write("Simple text");
+
+//ExStep:5-
+// Αποθήκευση του εγγράφου στην καθορισμένη διαδρομή
+document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
+//ExEnd

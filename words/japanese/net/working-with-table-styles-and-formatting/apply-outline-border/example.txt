@@ -1,0 +1,43 @@
+//ExStart
+//ExSummaryを選択します。 このコードは、単語ドキュメントの asfof.words を使って表に輪郭の境界を適用する方法を示します。このコードは、表を中央に配置し、表の周囲に緑色の境界を設定し、既存の境界を消去し、表のセルを明るい緑色の背景色で塗りつぶします。 
+//ExStepSummary:0: 以下のコードがドキュメントを初期化し、最初の表を取得します。
+//ExStepSummary:1: このステップで表をページ中央に配置します。
+//ExStepSummary:2: このステップは、既存の表の外枠を消去します。
+//ExStepSummary:3: このステップは表の周囲に緑色の境界を設定しますが、内部には設定されません。
+//ExStepSummary:4: この 段階 に よっ て , 細胞 は 明るい 緑色 の 固体 色 で 満たさ れ ます。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// 文書のディレクトリを指定します
+string dataDir = "Your Document Directory";
+// 文書を読み込みます
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// ドキュメントから最初のテーブルを取得
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+// 表をページ中央に配置する
+table.Alignment = TableAlignment.Center;
+
+//ExStep:2-
+// テーブルから既存の境界をクリアします
+table.ClearBorders();
+
+//ExStep:3-
+// 左境界を設定
+table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
+// 右境界を設定
+table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
+// 上境界を設定
+table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
+// 下境界を設定
+table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
+
+//ExStep:4-
+// セルを明るい緑で塗りつぶします
+table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
+// 変更した文書を保存します
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
+//ExEnd

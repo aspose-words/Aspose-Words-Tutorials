@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: Tento kód ukazuje, jak formátovat odstavce v dokumentu Word pomocí Aspose.Words. Ukazuje, jak nastavit možnosti formátování odstavce, jako je zarovnání, odsazení a prostor po odstavci.
+//ExStepSummary:0: Tento krok inicializuje nový dokument a dokumentBuilder pro vytvoření dokumentu.
+//ExStepSummary:1: Tento krok stanoví možnosti formátování odstavce, včetně zarovnání, levé odrážky, pravé odrážky a prostoru za odstavcem.
+//ExStepSummary:2: Tento krok zapíše dobře zformátovaný odstavec se zadanými možnostmi formátování dokumentu.
+//ExStepSummary:3: Tento krok píše další formátovaný odstavec prokazující účinek prostoru po odstavci.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0- 
+// Vytvořit nový příklad dokumentu.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1- 
+// Nastavit možnosti formátování odstavce.
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.Alignment = ParagraphAlignment.Center;
+paragraphFormat.LeftIndent = 50;
+paragraphFormat.RightIndent = 50;
+paragraphFormat.SpaceAfter = 25;
+
+//ExStep:2- 
+// Napište první formátovaný odstavec.
+builder.Writeln(
+	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
+
+//ExStep:3- 
+// Napište druhý formátovaný odstavec.
+builder.Writeln(
+	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
+
+//ExStep:4- 
+// Uložit dokument na zadanou cestu.
+doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
+//ExEnd

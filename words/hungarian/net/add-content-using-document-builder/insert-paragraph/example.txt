@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Ez a kód azt mutatja be, hogyan lehet Word dokumentumot létrehozni a DocumentBuilder osztály segítségével, és beilleszteni egy stílusolt bekezdést.
+//ExStepSummary:0: A következő kód egy Dokumentumot és egy Dokumentumépítőt inicializál a dokumentum létrehozásához.
+//ExStepSummary:1: A következő kód konfigurálja a bekezdés betűtípus-beállításait.
+//ExStepSummary:2: A következő kód határozza meg a bekezdésformátum beállításait az igazításhoz és a behúzáshoz.
+//ExStepSummary:3: A következő kód egy bekezdést ír a dokumentumba.
+//ExStepSummary:4: Az alábbi kód .docx fájlként menti a dokumentumot.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Új dokumentumobjektum inicializálása
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// A DocumentBuilder betűtípus-beállításainak elérése
+Font font = builder.Font;
+// A betűméret beállítása 16
+font.Size = 16;
+// Legyen a betűtípus félkövér
+font.Bold = true;
+// A betűszín beállítása kékre
+font.Color = Color.Blue;
+// A betűtípus nevének beállítása Arialra
+font.Name = "Arial";
+// Dashed aláhúzás hozzáadása a betűtípushoz
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+// A bekezdésformátum beállításainak elérése
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.FirstLineIndent = 8;
+paragraphFormat.Alignment = ParagraphAlignment.Justify;
+paragraphFormat.KeepTogether = true;
+
+//ExStep:3-
+// Írjon be egy bekezdést a dokumentumba
+builder.Writeln("A whole paragraph.");
+
+//ExStep:4-
+// A dokumentum mentése .docx fájlként
+doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
+//ExEnd

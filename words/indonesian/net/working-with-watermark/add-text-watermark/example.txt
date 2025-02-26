@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan bagaimana menambahkan sebuah watermark teks dengan pilihan spesifik ke dokumen Word menggunakan Aspose.Words.
+//ExStepSummary:0: Kode berikut menginisialisasi path dokumen dan membuat objek Dokumen baru.
+//ExStepSummary:1: Kode berikut memberikan pilihan untuk tanda air teks, termasuk keluarga fonta, ukuran, warna, dan tata letak.
+//ExStepSummary:2: Kode berikut menerapkan tanda air teks dengan opsi yang ditentukan untuk dokumen.
+//ExStepSummary:3: Kode berikut menyimpan dokumen yang dimodifikasi ke direktori yang ditentukan.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+// Menentukan lokasi direktori dokumen
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Muat dokumen Word
+Document doc = new Document(dataDir + "Document.docx");
+
+//ExStep:2-
+// Buat pilihan tanda air
+TextWatermarkOptions options = new TextWatermarkOptions()
+{
+    FontFamily = "Arial", // Set font family for the watermark text
+    FontSize = 36, // Set font size for the watermark text
+    Color = Color.Black, // Set color of the watermark text
+    Layout = WatermarkLayout.Horizontal, // Specify layout of the watermark
+    IsSemitrasparent = false // Set transparency option
+};
+
+//ExStep:3-
+// Terapkan teks tanda air dengan pilihan
+doc.Watermark.SetText("Test", options);
+
+//ExStep:4-
+// Simpan dokumen dengan tanda air
+doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
+//ExEnd

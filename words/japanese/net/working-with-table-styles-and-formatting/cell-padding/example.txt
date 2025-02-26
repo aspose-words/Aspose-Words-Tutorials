@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary)の次に掲げるコードは,その内容を包括する内容を含む書式設定された表のセルを備えた Word ドキュメントを作成する方法を示します。
+//ExStepSummary:0: 以下のコードにより、新規ドキュメントおよびドキュメント作成者が初期化されます。
+//ExStepSummary:1: 以下のコードは、ドキュメント内で表を開始します。
+//ExStepSummary:2: 次のコードは、表にセルを挿入します。
+//ExStepSummary:3: セルの内容のパディングを次のコードで設定します。
+//ExStepSummary:4: 以下のコードは、セルにテキストを追加し、現在の行を終了します。
+//ExStepSummary:5: 以下のコードが表を終了し、ドキュメントをファイルに保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 新しい文書を初期化
+Document doc = new Document();
+// ドキュメントを操作するための文書作成ツールを作成
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// テーブルの作成を開始
+builder.StartTable();
+// テーブルに新しいセルを挿入
+builder.InsertCell();
+
+//ExStep:2-
+// 上下に30点,左右に50点のパディングを設定
+builder.CellFormat.SetPaddings(30, 50, 30, 50);
+
+//ExStep:3-
+builder.Writeln("I'm a wonderful formatted cell.");
+// テーブルの現在の行を終了
+builder.EndRow();
+// テーブルを終了
+builder.EndTable();
+
+//ExStep:4-
+// ドキュメントを指定したファイルに保存する
+doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
+//ExEnd

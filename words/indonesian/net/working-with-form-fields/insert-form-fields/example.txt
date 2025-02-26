@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan bagaimana menyisipkan ruas formulir ke dalam dokumen Word menggunakan Aspose.Words untuk .NET. Secara spesifik, kode ini menunjukkan bagaimana menyisipkan suatu ruas kotak kombo dengan item terdefinisi.
+//ExStepSummary:0: Kode berikut menunjukkan cara membuat dokumen Word baru.
+//ExStepSummary:1: Kode berikut menunjukkan bagaimana menginisialisasi sebuah Dokumen Builder untuk menyunting dokumen.
+//ExStepSummary:2: Kode berikut menunjukkan bagaimana mendefinisikan dan menyisipkan ruas formulir kotak kombo dengan item terdefinisi dan pilihan baku.
+//ExStepImage:0:images/1.png
+//ExStepImage:1:images/2.png
+//ExStep:0-
+// Inisialisasi sebuah dokumen Word kosong
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Definisikan dan masukkan suatu ruas formulir kotak kombo
+string[] items = { "One", "Two", "Three" };
+builder.InsertComboBox("DropDown", items, 0);
+//ExEnd

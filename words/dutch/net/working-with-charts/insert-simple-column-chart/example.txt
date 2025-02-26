@@ -1,0 +1,57 @@
+//ExStart
+//ExSummaryControleer de volgende code om te vinden hoe u een eenvoudige kolomdiagram in een Word-document invoegt. U kunt deze code naar uw IDE kopiëren en uitvoeren.
+//ExStepSummary:0: Deze code laat zien hoe je een Word-document maakt met behulp van Aspose.Words en plaats er een kolomdiagram in.
+//ExStepSummary:1: Deze code laat zien hoe je een documentbouwer-object maakt voor het manipuleren van Word-inhoud.
+//ExStepSummary:2: Deze code laat zien hoe u een kolomkaartvorm met gespecificeerde afmetingen in het document invoegt.
+//ExStepSummary:3: Deze code haalt de grafiek object uit de ingevoegde vorm voor verdere aanpassing.
+//ExStepSummary:4: Deze code laat zien hoe je toegang krijgt tot de collectie grafiekseries en het aantal reeksen afdrukt.
+//ExStepSummary:5: Deze code verwijdert elke standaard serie die mogelijk is gemaakt met de grafiek.
+//ExStepSummary:6: Deze code laat zien hoe categorienamen voor de gegevens van de grafiek te definiëren.
+//ExStepSummary:7: Deze code laat zien hoe je series toevoegt aan de grafiek met corresponderende categorienamen en gegevenswaarden.
+//ExStepSummary:8: Deze code slaat het document op met de ingevoegde grafiek in een gespecificeerd bestand.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:7:images/4.png
+//ExStep:0-
+// Een nieuwe Word-document-instantie aanmaken.
+Document doc = new Document();
+
+//ExStep:1-
+// Maak een DocumentBuilder om eenvoudig elementen in het document in te voegen.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// Plaats een kolomkaartvorm met gespecificeerde breedte (432) en hoogte (252).
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:3-
+// Haal het grafiekobject uit de vorm voor verdere manipulatie.
+Chart chart = shape.Chart;
+
+//ExStep:4-
+// Toegang tot de seriecollectie van de kaart.
+ChartSeriesCollection seriesColl = chart.Series;
+// Het aantal series in de grafiek afdrukken op de console.
+Console.WriteLine(seriesColl.Count);
+
+//ExStep:5-
+// Verwijder elke standaard serie die automatisch werd gegenereerd toen de grafiek werd aangemaakt.
+seriesColl.Clear();
+
+//ExStep:6-
+// Definieer een reeks categorienamen voor grafiekgegevens.
+string[] categories = new string[] { "Category 1", "Category 2" };
+
+//ExStep:7-
+// Voeg meerdere reeksen toe aan de grafiek met categorienamen en gegevenswaarden.
+seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
+seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
+seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
+seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
+seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
+
+//ExStep:8-
+// Sla het document op met de ingevoegde grafiek naar het opgegeven bestandspad.
+doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
+//ExEnd

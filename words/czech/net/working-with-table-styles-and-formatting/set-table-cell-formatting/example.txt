@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Následující kód ukazuje, jak vytvořit a formátovat tabulku v dokumentu Word pomocí třídy DocumentBuilder z Aspose.Words.
+//ExStepSummary:0: Inicializovat nový dokument a dokumentBuilder začít budovat dokument Word.
+//ExStepSummary:1: Vytvořit tabulku a vložit buňku pro formátování.
+//ExStepSummary:2: Nastavte vlastnosti formátování pro buňku, včetně polstrování a šířky.
+//ExStepSummary:3: Vložte text do formátované buňky.
+//ExStepSummary:4: Ukončete řádek a tabulku a uložte dokument na zadanou cestu k souboru.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Vytvoření nového objektu Dokumentu
+Document doc = new Document();
+// Inicializace budovy dokumentu s novým dokumentem
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Začněte vytvářet stůl
+builder.StartTable();
+// Vložte první buňku do tabulky
+builder.InsertCell();
+
+//ExStep:2-
+// Přístup k formátovacím vlastnostem buňky
+CellFormat cellFormat = builder.CellFormat;
+// Nastavení šířky buňky
+cellFormat.Width = 250;
+// Nastavte vycpávku.
+cellFormat.LeftPadding = 30;
+cellFormat.RightPadding = 30;
+cellFormat.TopPadding = 30;
+cellFormat.BottomPadding = 30;
+
+//ExStep:3-
+// Vkládání textu do buňky
+builder.Writeln("I'm a wonderful formatted cell.");
+
+//ExStep:4-
+// Ukončení aktuálního řádku tabulky
+builder.EndRow();
+// Ukončení tvorby tabulky
+builder.EndTable();
+// Uložení dokumentu
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");
+//ExEnd

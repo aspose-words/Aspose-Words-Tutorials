@@ -1,0 +1,34 @@
+//ExStart
+//ExSummary: このコードは,例文を書く前にフォントの属性を書式設定する Assoft.words を使ってワード文書を作成する方法を示すものです.
+//ExStepSummary:0: 以下のコードは、新規ドキュメントとドキュメントビルダーを初期化します。
+//ExStepSummary:1: 以下のコードは、サイズ、太字、色、名前、下線スタイルなど、さまざまなフォント属性を設定します。
+//ExStepSummary:2: 次のコードは、設定されたフォントの設定を使用して、サンプルテキストをドキュメントに書き込みます。
+//ExStepSummary:3: 以下のコードは、ドキュメントを指定したディレクトリに保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 新しい文書インスタンスを作成
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// ドキュメントビルダーを通じてフォントのプロパティにアクセスします
+Font font = builder.Font;
+// フォントサイズを 16 にします
+font.Size = 16;
+// フォントを太字にします
+font.Bold = true;
+// フォントの色を青に変更
+font.Color = Color.Blue;
+// フォントをアナルに設定
+font.Name = "Arial";
+// アンダースコアのスタイルをフォントに適用
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+builder.Write("Sample text.");
+
+//ExStep:3-
+// 文書をアーティファクトディレクトリに保存
+doc.Save("WorkingWithFonts.FontFormatting.docx");
+//ExEnd

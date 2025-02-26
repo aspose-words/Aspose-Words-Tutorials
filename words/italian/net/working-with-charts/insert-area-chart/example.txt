@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: Questo codice dimostra come inserire un diagramma di area in un documento di Word usando Aspose.Words.
+//ExStepSummary:0: Il seguente codice inizializza un nuovo documento e un costruttore di documenti.
+//ExStepSummary:1: Il seguente codice inserisce una tabella delle aree nel documento.
+//ExStepSummary:2: Il seguente codice aggiunge una serie al grafico con i punti dati specificati.
+//ExStepSummary:3: Il seguente codice salva il documento con il grafico dell'area inserito.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Crea un nuovo documento
+Document doc = new Document();
+// Inizializza il costruttore di documenti
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Inserisci una tabella di area con dimensioni specifiche
+Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
+
+//ExStep:2-
+// Accedere all'oggetto grafico
+Chart chart = shape.Chart;
+// Aggiunge una nuova serie al grafico
+chart.Series.Add("Aspose Series 1", new [] 
+{
+	// Punto di dati 1
+    new DateTime(2002, 05, 01),
+	// Data point 2
+    new DateTime(2002, 06, 01),
+	// Data point 3
+    new DateTime(2002, 07, 01),
+	// Data point 4
+    new DateTime(2002, 08, 01),
+	// Data point 5
+    new DateTime(2002, 09, 01)
+}, 
+// Valori corrispondenti per i punti dati
+new double[] { 32, 32, 28, 12, 15 });
+
+//ExStep:3-
+// Salva il documento con il grafico inserito
+doc.Save("WorkingWithCharts.InsertAreaChart.docx");
+//ExEnd

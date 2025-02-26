@@ -1,0 +1,19 @@
+//ExStart
+//ExSummary:Kode ini menunjukkan bagaimana menyisipkan gambar inline ke dalam dokumen Word menggunakan Aspose.Words.
+//ExStepSummary:0: Inisialisasi objek Dokumen dan Dokumen Builder untuk membangun dokumen.
+//ExStepSummary:1: Masukkan gambar ke dalam dokumen pada posisi kursor saat ini dengan DokumenBuilder.
+//ExStepSummary:2: Menyimpan dokumen ke nama berkas yang dinyatakan.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+// Inisialisasi Dokumen dan Dokumen Builder baru
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Sisipkan gambar memakai DokumenBuilder
+builder.InsertImage(ImagesDir + "Transparent background logo.png");
+
+//ExStep:2-
+// Simpan dokumen yang diubah ke suatu berkas
+doc.Save("AddContentUsingDocumentBuilder.InsertInlineImage.docx");
+//ExEnd

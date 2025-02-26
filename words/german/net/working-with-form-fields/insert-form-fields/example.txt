@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: Dieser Code zeigt, wie man Formularfelder mit Aspose.Words für .NET in ein Word-Dokument einfügt. Insbesondere zeigt er, wie man ein Combo-Feld mit vordefinierten Elementen einfügt.
+//ExStepSummary:0: Der folgende Code zeigt, wie man ein neues Word-Dokument erstellt.
+//ExStepSummary:1: Der folgende Code zeigt, wie ein DocumentBuilder für die Bearbeitung des Dokuments initialisiert wird.
+//ExStepSummary:2: Der folgende Code zeigt, wie ein Combo-Feld mit vordefinierten Elementen und einer Standardauswahl definiert und eingefügt wird.
+//ExStepImage:0:images/1.png
+//ExStepImage:1:images/2.png
+//ExStep:0-
+// Initialisiert ein leeres Word-Dokument
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Definieren und einfügen Sie ein Combo-Box-Formularfeld
+string[] items = { "One", "Two", "Three" };
+builder.InsertComboBox("DropDown", items, 0);
+//ExEnd

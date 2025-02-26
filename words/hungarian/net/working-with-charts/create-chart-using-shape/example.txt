@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Kérjük, ellenőrizze az alábbi kódot, hogy megtudja, hogyan hozhat létre vonaldiagramot egy Word dokumentumban. Ezt a kódot átmásolhatja az IDE-be, és futtathatja.
+//ExStepSummary:0: A következő kód megmutatja, hogyan hozhat létre új dokumentumot, és hogyan jeleníthet meg egy DocumentBuildert:
+//ExStepSummary:1: A következő kód azt mutatja be, hogyan kell beilleszteni egy vonaldiagramot a dokumentumba:
+//ExStepSummary:2: A következő kód ismerteti a diagram címének beállítását:
+//ExStepSummary:3: A következő kód megmutatja, hogyan konfigurálható a diagramlegenda pozíciója és overlay beállításai:
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Új dokumentumobjektum létrehozása
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Sordiagram beszúrása a dokumentumba meghatározott méretekben
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+
+//ExStep:2-
+// A diagramobjektum elérése az alakzatból
+Chart chart = shape.Chart;
+// A diagram címének láthatóságának engedélyezése
+chart.Title.Show = true;
+// A diagram címszövegének beállítása
+chart.Title.Text = "Line Chart Title";
+// Győződjön meg róla, hogy a cím nem fedi le a diagramot
+chart.Title.Overlay = false;
+
+//ExStep:3-
+// Állítsa be a bal oldalon a diagram legendáját
+chart.Legend.Position = LegendPosition.Left;
+chart.Legend.Overlay = true;
+
+//ExStep:4-
+// A dokumentum mentése a diagrammal egy fájlba
+doc.Save("WorkingWithCharts.CreateChartUsingShape.docx");
+//ExEnd

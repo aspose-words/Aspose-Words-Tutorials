@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary: Этот код показывает, как настроить акцент в документе Word, используя слова Aspose.words.
+//ExStepSummary:0:Создание нового образца документов для работы.
+//ExStepSummary:1:Настрой Бюллетень документов, чтобы манипулировать документом.
+//ExStepSummary:2:Применить отметку акцента к шрифту строителя.
+//ExStepSummary:3:Написание текста, посвященного акцентам, в документе.
+//ExStepSummary:4:Написание простого текста без акцента.
+//ExStepSummary:5: Этот код сохраняет документ с надчеркиванием шрифта.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Создать новый документ
+Document document = new Document();
+
+//ExStep:1-
+// Инициирование создания документа для манипулирования документооборотом
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:2-
+// Установить знак акцента на субсолидную циркуляцию
+builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
+
+//ExStep:3-
+// Написать текст, в котором делается акцент на документе
+builder.Write("Emphasis text");
+// Перейти к следующей строчке
+builder.Writeln();
+// Очистить формат шрифта для следующего текста
+builder.Font.ClearFormatting();
+
+//ExStep:4-
+// Написать простой текст без акцента
+builder.Write("Simple text");
+
+//ExStep:5-
+// Сохранить документ на заданный путь
+document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
+//ExEnd

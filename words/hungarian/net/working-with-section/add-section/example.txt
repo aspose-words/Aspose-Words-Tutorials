@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary:Ez a kód bemutatja, hogyan adhat hozzá egy új szakaszt egy Word dokumentumhoz az Aspose.Words for .NET használatával. A folyamat magában foglalja a dokumentum inicializálását, a tartalom írását és egy új szakasz hozzáadását.
+//ExStepSummary:0: Új Word-dokumentum és DocumentBuilder-objektum inicializálása a dokumentum tartalmának hozzáadásához.
+//ExStepSummary:1: Szöveg hozzáadása az első szakaszhoz a DocumentBuilder objektummal.
+//ExStepSummary:2: Szöveg hozzáadása az első szakaszhoz a DocumentBuilder objektummal.
+//ExStepSummary:3: Hozzon létre egy új szakaszt, és vegye fel a dokumentum szakaszgyűjteményébe.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Új Word-dokumentum létrehozása.
+Document doc = new Document();
+// A DocumentBuilder inicializálása a dokumentumhoz.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Tartalom hozzáadása az első szakaszhoz
+builder.Writeln("Hello1"); // Write "Hello1" into the document's first section.
+
+//ExStep:2-
+// Tartalom hozzáadása az első szakaszhoz
+builder.Writeln("Hello2"); // Write "Hello2" into the document's first section.
+
+//ExStep:3-
+// Új szakasz létrehozása a dokumentumban.
+Section sectionToAdd = new Section(doc);
+doc.Sections.Add(sectionToAdd);
+//ExEnd

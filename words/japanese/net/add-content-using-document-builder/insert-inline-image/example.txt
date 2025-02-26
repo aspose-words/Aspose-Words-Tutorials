@@ -1,0 +1,19 @@
+//ExStart
+//ExSummary: このコードは、単語ドキュメントに Asfof.words を使ってインライン画像を挿入する方法を示します。
+//ExStepSummary:0: ドキュメントオブジェクトとドキュメントビルダーを初期化し、ドキュメントの作成を行います。
+//ExStepSummary:1: 現在のカーソル位置のドキュメントに、ドキュメントビルダーで画像を挿入
+//ExStepSummary:2: ドキュメントを指定したファイル名に保存します。
+//ExStepImage:1:images/1.png
+//ExStep:0-
+// 新しい文書と文書ビルダーを初期化
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// ドキュメントビルダーを使って画像を挿入
+builder.InsertImage(ImagesDir + "Transparent background logo.png");
+
+//ExStep:2-
+// 変更した文書をファイルに保存
+doc.Save("AddContentUsingDocumentBuilder.InsertInlineImage.docx");
+//ExEnd

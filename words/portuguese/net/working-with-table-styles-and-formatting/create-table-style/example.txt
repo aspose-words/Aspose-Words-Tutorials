@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Este código demonstra como criar um documento do Word com uma tabela estilizada usando Aspose.Words. 
+//ExStepSummary:0: Inicialize um novo Document e DocumentBuilder.
+//ExStepSummary:1: Inicie uma nova tabela e insira células de cabeçalho para "Nome" e "Valor".
+//ExStepSummary:2: Crie um TableStyle personalizado com configurações específicas de borda e estofamento.
+//ExStepSummary:3: Salve o documento com o novo estilo de tabela aplicado.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Criar um novo objeto Documento
+Document doc = new Document();
+// Inicialize o DocumentBuilder para construir o documento
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Iniciar uma nova mesa
+Table table = builder.StartTable();
+builder.InsertCell();
+builder.Write("Name");
+builder.InsertCell();
+builder.Write("Value");
+builder.EndRow();
+builder.InsertCell();
+builder.InsertCell();
+builder.EndTable();
+
+//ExStep:2-
+// Criar um novo estilo de mesa
+TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
+tableStyle.Borders.LineStyle = LineStyle.Double;
+// Definir a largura da fronteira
+tableStyle.Borders.LineWidth = 1;
+// Definir o estofamento
+tableStyle.LeftPadding = 18;
+tableStyle.RightPadding = 18;
+tableStyle.TopPadding = 12;
+tableStyle.BottomPadding = 12;
+// Aplique o estilo de tabela personalizado à tabela criada
+table.Style = tableStyle;
+
+//ExStep:3-
+// Salve o documento com a tabela estilizada
+doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
+//ExEnd

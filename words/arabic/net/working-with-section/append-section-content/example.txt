@@ -1,0 +1,40 @@
+//ExStart
+//ExSummaryيوضح هذا المثال كيفية إلحاق المحتوى وإعداده مسبقًا من قسم إلى آخر في مستند Word باستخدام Apose.Words for .NET.
+//ExStepSummary:0: تهيئة مستند Word جديد وDocumentBuilder لإضافة محتوى.
+//ExStepSummary:1: اكتب نصًا وأدخل فواصل أقسام لإنشاء أقسام متعددة في المستند.
+//ExStepSummary:2: الوصول إلى القسم الثالث في المستند للتحضير للتلاعب بالمحتوى.
+//ExStepSummary:3: قم بإعداد المحتوى من القسم الأول إلى القسم الثالث.
+//ExStepSummary:4: قم بإرفاق المحتوى من القسم الثاني إلى القسم الثالث.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// تهيئة المستند وDocumentBuilder
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// اكتب نصًا وأدخل فواصل أقسام لإنشاء ثلاثة أقسام
+builder.Write("Section 1");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// إضافة محتوى للقسم الثاني
+builder.Write("Section 2");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// إضافة محتوى للقسم الثالث
+builder.Write("Section 3");
+
+//ExStep:2-
+// استرجع القسم الثالث من المستند
+Section section = doc.Sections[2];
+
+//ExStep:3-
+// قم بإعداد المحتوى من القسم الأول إلى القسم الثالث.
+Section sectionToPrepend = doc.Sections[0];
+section.PrependContent(sectionToPrepend);
+
+//ExStep:4-
+// تذييل المحتوى من القسم الثاني إلى القسم الثالث
+Section sectionToAppend = doc.Sections[1];
+section.AppendContent(sectionToAppend);
+//ExEnd

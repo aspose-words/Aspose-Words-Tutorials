@@ -1,0 +1,57 @@
+//ExStart
+//ExSummary:Kérjük, ellenőrizze a következő kódot, hogy megtudja, hogyan kell beilleszteni egy egyszerű oszlopdiagramot egy Word dokumentumba. Ezt a kódot átmásolhatja az IDE-be, és futtathatja.
+//ExStepSummary:0: Ez a kód bemutatja, hogyan hozhat létre Word dokumentumot az Aspose.Words használatával, és beilleszthet egy oszlopdiagramot.
+//ExStepSummary:1: Ez a kód megmutatja, hogyan hozhat létre dokumentumkészítő objektumot a Word tartalmának manipulálásához.
+//ExStepSummary:2: Ez a kód azt mutatja be, hogyan kell beilleszteni egy oszlopdiagram alakzatot a dokumentumba a megadott méretekkel.
+//ExStepSummary:3: Ez a kód lekéri a diagram objektumot a beillesztett alakzatból a további testreszabáshoz.
+//ExStepSummary:4: Ez a kód megmutatja, hogyan érheti el a diagramsorozat gyűjteményét, és hogyan nyomtathatja ki a sorozatok számát.
+//ExStepSummary:5: Ez a kód törli a diagrammal létrehozott alapértelmezett sorozatokat.
+//ExStepSummary:6: Ez a kód azt mutatja be, hogyan lehet kategórianeveket definiálni a diagram adataihoz.
+//ExStepSummary:7: Ez a kód azt mutatja, hogyan adhat hozzá sorozatokat a diagramhoz a megfelelő kategórianevekkel és adatértékekkel.
+//ExStepSummary:8: Ez a kód menti a dokumentumot a beillesztett diagrammal egy megadott fájlba.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:7:images/4.png
+//ExStep:0-
+// Hozzon létre egy új Word dokumentumpéldányt.
+Document doc = new Document();
+
+//ExStep:1-
+// Hozzon létre egy DocumentBuilder-t, hogy könnyen beilleszthesse az elemeket a dokumentumba.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// A megadott szélességű (432) és magasságú (252) oszlopdiagram-alakzat beszúrása.
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:3-
+// Töltse le a diagram objektumot az alakzatból a további manipulációhoz.
+Chart chart = shape.Chart;
+
+//ExStep:4-
+// Hozzáférés a diagram sorozatgyűjteményéhez.
+ChartSeriesCollection seriesColl = chart.Series;
+// Nyomtassa ki a diagramban lévő sorozatok számát a konzolra.
+Console.WriteLine(seriesColl.Count);
+
+//ExStep:5-
+// Távolítson el minden olyan alapértelmezett sorozatot, amely automatikusan generálódott a diagram létrehozásakor.
+seriesColl.Clear();
+
+//ExStep:6-
+// Adja meg a diagramadatok kategórianeveit.
+string[] categories = new string[] { "Category 1", "Category 2" };
+
+//ExStep:7-
+// Több sorozat hozzáadása a diagramhoz kategórianevekkel és adatértékekkel.
+seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
+seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
+seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
+seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
+seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
+
+//ExStep:8-
+// Mentse a dokumentumot a beillesztett diagrammal a megadott fájl elérési útjára.
+doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
+//ExEnd

@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Tento kód ukazuje, jak vytvořit dokument Word s primární hlavičkou a zápatí pomocí Aspose.Words. Inicializuje nový dokument, přesune se do sekce záhlaví a zápatí a píše vlastní text. Nakonec uloží dokument jako soubor DOCX.
+//ExStepSummary:0: Následující kód inicializuje hlavní objekt Dokumentu a nastaví budova DokumentBuilder.
+//ExStepSummary:1: Následující kód se přesune do primární sekce záhlaví a napíše text záhlaví.
+//ExStepSummary:2: Následující kód se přesune do primární sekce zápatí a napíše text zápatí.
+//ExStepSummary:3: Následující kód uloží dokument na zadanou cestu k souboru.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Inicializace nového objektu Dokumentu
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Přesunout se do primární části hlavičky
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("Header for page.");
+
+//ExStep:2-
+// Přesunout se do primární části patky
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+builder.Write("Footer for page."); // Write the footer text
+
+//ExStep:3-
+// Uložit dokument se zadaným názvem souboru
+doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
+//ExEnd

@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary:Ez a példa bemutatja, hogyan lehet tartalmat hozzáfűzni és előkészíteni az egyik szakaszból a másikba egy Word dokumentumban az Aspose.Words for .NET használatával.
+//ExStepSummary:0: Új Word-dokumentum és DocumentBuilder inicializálása a tartalom hozzáadásához.
+//ExStepSummary:1: Szöveg írása és szakasztörések beillesztése több szakasz létrehozásához a dokumentumban.
+//ExStepSummary:2: Hozzáférés a dokumentum harmadik részéhez, hogy felkészüljön a tartalom manipulációjára.
+//ExStepSummary:3: A tartalmat az első résztől a harmadik részig helyezze el.
+//ExStepSummary:4: A tartalom hozzáadása a második résztől a harmadik részig.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// A dokumentum és a DocumentBuilder inicializálása
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Szöveg írása és szakasztörések beillesztése három szakasz létrehozásához
+builder.Write("Section 1");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// Tartalom hozzáadása a második részhez
+builder.Write("Section 2");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// Tartalom hozzáadása a harmadik részhez
+builder.Write("Section 3");
+
+//ExStep:2-
+// A harmadik rész letöltése a dokumentumból
+Section section = doc.Sections[2];
+
+//ExStep:3-
+// A tartalom feltöltése az első szakaszból a harmadikba
+Section sectionToPrepend = doc.Sections[0];
+section.PrependContent(sectionToPrepend);
+
+//ExStep:4-
+// Tartalom hozzáadása a második résztől a harmadik részig
+Section sectionToAppend = doc.Sections[1];
+section.AppendContent(sectionToAppend);
+//ExEnd

@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: Deze code laat zien hoe je alinea's in een Word-document formatteert met behulp van Aspose.Words. Het laat zien hoe je alinea-opmaakopties zoals uitlijning, inspringen en spatie na een alinea instelt.
+//ExStepSummary:0: Deze stap initialiseert een nieuw Document en een DocumentBuilder voor het bouwen van het document.
+//ExStepSummary:1: Deze stap stelt de opmaakopties van de alinea in, inclusief uitlijning, linker streepje, rechter streepje en spatie na de alinea.
+//ExStepSummary:2: Deze stap schrijft een goed geformatteerde paragraaf met de opgegeven formatteringsopties naar het document.
+//ExStepSummary:3: Deze stap schrijft een andere geformatteerde paragraaf die het effect van ruimte na de alinea aantoont.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0- 
+// Een nieuwe document-initiatie aanmaken.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1- 
+// Opmaakopties voor alinea's instellen.
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.Alignment = ParagraphAlignment.Center;
+paragraphFormat.LeftIndent = 50;
+paragraphFormat.RightIndent = 50;
+paragraphFormat.SpaceAfter = 25;
+
+//ExStep:2- 
+// Schrijf de eerste geformatteerde paragraaf.
+builder.Writeln(
+	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
+
+//ExStep:3- 
+// Schrijf de tweede geformatteerde paragraaf.
+builder.Writeln(
+	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
+
+//ExStep:4- 
+// Het document opslaan in het opgegeven pad.
+doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
+//ExEnd

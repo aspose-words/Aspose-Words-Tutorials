@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: Denna kod visar hur man skapar ett Word-dokument med Aspose.Words, lägga till innehåll över flera sidor, och spara det som en .docx-fil.
+//ExStepSummary:0: Detta steg initierar ett nytt dokument och en DocumentBuilder för att manipulera dokumentet.
+//ExStepSummary:1: Detta steg lägger till text till första sidan.
+//ExStepSummary:2: Detta steg infogar en sida paus för att starta en ny sida.
+//ExStepSummary:3: Detta steg lägger till text till andra sidan.
+//ExStepSummary:4: Detta steg infogar en annan sida paus för en ny sida.
+//ExStepSummary:5: Detta steg lägger till text till tredje sidan.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Skapa en ny dokumentinstans
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Lägg till text för första sidan
+builder.Writeln("This is page 1.");
+
+//ExStep:2-
+// Infoga en sidbrytning för att starta en ny sida
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+// Lägg till text för den andra sidan
+builder.Writeln("This is page 2.");
+
+//ExStep:4-
+// Infoga en ny sidas paus för en ny sida
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:5-
+// Lägg till text för tredje sidan
+builder.Writeln("This is page 3.");
+
+//ExStep:6-
+// Spara dokumentet till angiven sökväg
+doc.Save("AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

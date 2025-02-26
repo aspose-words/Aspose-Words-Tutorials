@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary:Deze code laat zien hoe je een accentteken in een Word-document plaatst met behulp van Aspose.words.
+//ExStepSummary:0:Een nieuwe document-instantie aanmaken om mee te werken.
+//ExStepSummary:1:Een DocumentBuilder instellen om het document te manipuleren.
+//ExStepSummary:2:Een accentteken toepassen op het lettertype van de bouwer.
+//ExStepSummary:3:Het schrijven van de nadruk tekst naar het document.
+//ExStepSummary:4:Een eenvoudige tekst schrijven zonder enige nadruk.
+//ExStepSummary:5: Deze code slaat het document op met de nadruk op het lettertype.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Een nieuw document aanmaken
+Document document = new Document();
+
+//ExStep:1-
+// DocumentBuilder initialiseren voor documentmanipulatie
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:2-
+// Lastmarkering instellen op UnderSolidCircle
+builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
+
+//ExStep:3-
+// De accenttekst naar het document schrijven
+builder.Write("Emphasis text");
+// Verplaatsen naar de volgende regel
+builder.Writeln();
+// De lettertypeopmaak voor de volgende tekst wissen
+builder.Font.ClearFormatting();
+
+//ExStep:4-
+// Schrijf eenvoudige tekst zonder nadruk
+builder.Write("Simple text");
+
+//ExStep:5-
+// Het document opslaan in het opgegeven pad
+document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
+//ExEnd

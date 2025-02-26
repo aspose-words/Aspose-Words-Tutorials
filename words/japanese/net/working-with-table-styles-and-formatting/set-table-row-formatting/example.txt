@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: このコードは、Asfof を使用して、書式設定された表でワード文書を作成する方法を示すものです。
+//ExStepSummary:0: このステップで、新しいドキュメントとドキュメント作成者を初期化します。
+//ExStepSummary:1: このステップで表が開始され、セルが挿入されます。
+//ExStepSummary:2: このステップで、高さと高さの規則を含む行の書式設定を設定します。
+//ExStepSummary:3: この 段階 で , テーブル 全体 に パディング が 設け られ , すべて の 行 に 影響 が 及び ます。
+//ExStepSummary:4: このステップは、セルにテキストを追加し、行を終了させます。
+//ExStepSummary:5: このステップで表を終了し、ドキュメントを指定したパスに保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// 新しい文書インスタンスを作成
+Document doc = new Document();
+// ドキュメントビルダーをドキュメントで初期化する
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 新しい表を開始
+Table table = builder.StartTable();
+// 表の 1 番目のセルを挿入
+builder.InsertCell();
+
+//ExStep:2-
+// 建築業者の行末表のプロパティーにアクセス
+RowFormat rowFormat = builder.RowFormat;
+// 行の高さを設定
+rowFormat.Height = 100;
+// 高さの規則を正確に設定
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// テーブルのパディングを設定
+table.LeftPadding = 30;
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// 現在のセルにテキストを追加
+builder.Writeln("I'm a wonderful formatted row.");
+// 現在の行を終了
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:5-
+// ドキュメントを指定したパスに保存
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableRowFormatting.docx");
+//ExEnd

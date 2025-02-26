@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary:Αυτός ο κώδικας δείχνει πώς να προσθέσετε έναν τίτλο και την περιγραφή σε έναν πίνακα σε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words.
+//ExStepSummary:0:Αυτό το βήμα αρχικοποιεί το έγγραφο και το φορτώνει από έναν καθορισμένο κατάλογο.
+//ExStepSummary:1:Το βήμα αυτό ανακτά τον πρώτο πίνακα από το έγγραφο και ορίζει τον τίτλο και την περιγραφή του.
+//ExStepSummary:2:Αυτό το βήμα ρυθμίζει τις επιλογές αποθήκευσης για το έγγραφο με καθορισμένες ρυθμίσεις συμμόρφωσης.
+//ExStepSummary:3:Αυτό το βήμα βελτιστοποιεί τις επιλογές συμβατότητας για το έγγραφο για το Word 2016.
+//ExStepSummary:4:Αυτό το βήμα αποθηκεύει το τροποποιημένο έγγραφο πίσω στον καθορισμένο κατάλογο.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Αρχικοποίηση του εγγράφου και φόρτωση του από τον κατάλογο δεδομένων
+string dataDir = "Your Document Directory";
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Ανακτήστε τον πρώτο πίνακα και ορίστε τον τίτλο και την περιγραφή του
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+table.Title = "Test title";
+table.Description = "Test description";
+
+//ExStep:2-
+// Ρύθμιση επιλογών αποθήκευσης για το έγγραφο
+OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
+
+//ExStep:3-
+// Βελτιστοποιήστε τις επιλογές συμβατότητας για το Word 2016
+doc.CompatibilityOptions.OptimizeFor(Aspose.Words.Settings.MsWordVersion.Word2016);
+
+//ExStep:4-
+// Αποθήκευση του τροποποιημένου εγγράφου πίσω στον καθορισμένο κατάλογο
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.TableTitleAndDescription.docx", options);
+//ExEnd

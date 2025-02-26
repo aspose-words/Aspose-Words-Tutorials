@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Denna kod visar hur man tillämpar radformatering i ett Word-dokument med Aspose.Words.
+//ExStepSummary:0: Initialiserar ett nytt dokument och börjar bygga ett bord med formaterade rader.
+//ExStepSummary:1: Anpassar radformatet.
+//ExStepSummary:2: Anpassar de specifika höjdinställningarna.
+//ExStepSummary:3: Ställer in stoppning för hela tabellen som påverkar alla rader.
+//ExStepSummary:4: Skriver text i tabellcellen och avslutar raden.
+//ExStepSummary:5: Fyller i bordsbyggnadsprocessen och sparar dokumentet.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Skapa ett nytt dokument
+Document doc = new Document();
+// Skapa en DocumentBuilder för att ändra dokumentet
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Starta en ny tabell
+Table table = builder.StartTable();
+// Infoga en ny cell i tabellen
+builder.InsertCell();
+//ExStep:2-
+// Få tillgång till radformateringsegenskaperna
+RowFormat rowFormat = builder.RowFormat;
+// Ställ in radens höjd
+rowFormat.Height = 100;
+// Ange att höjden är exakt
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// Ställ in stoppning till bordet
+table.LeftPadding = 30; 
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// Skriv text i cellen
+builder.Writeln("I'm a wonderful formatted row.");
+// Avsluta nuvarande rad
+builder.EndRow();
+// Avsluta bordsbyggnaden
+builder.EndTable();
+
+//ExStep:5-
+// Spara dokumentet
+doc.Save("WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
+//ExEnd

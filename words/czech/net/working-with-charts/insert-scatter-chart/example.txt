@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary:Tento kód ukazuje, jak vytvořit dokument Word s grafem Scatter pomocí aplikace Aspose.Words. Inicializuje dokument, staví obsah, vloží do něj graf Scatter, přidá k němu data a uloží dokument.
+//ExStepSummary:0: Inicializace objektů Dokumentu a DocumentBuilder začít pracovat na dokumentu.
+//ExStepSummary:1: Vložení grafu rozptylu do dokumentu.
+//ExStepSummary:2: Přidání řady datových bodů do grafu Scatter.
+//ExStepSummary:3: Uložení dokumentu s grafem Scatter do souboru .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Inicializace nového dokumentu
+Document doc = new Document();
+// Vytvořit stavitele pro vložení obsahu
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Vložit do dokumentu graf Scatter
+Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252); 
+
+//ExStep:2-
+// Získat objekt grafu z vloženého tvaru
+Chart chart = shape.Chart;
+// Přidat data ze série do grafu
+chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 });
+
+//ExStep:3-
+// Uložit dokument s grafem Scatter
+doc.Save("WorkingWithCharts.InsertScatterChart.docx");
+//ExEnd

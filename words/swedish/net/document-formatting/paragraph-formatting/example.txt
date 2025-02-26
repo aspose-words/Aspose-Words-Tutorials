@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: Denna kod visar hur man formaterar stycken i ett Word-dokument med hjälp av Aspose.Words. Den visar hur man ställer in punktformateringsalternativ som justering, indentering och mellanslag efter ett stycke.
+//ExStepSummary:0: Detta steg initierar ett nytt dokument och en DocumentBuilder för att bygga dokumentet.
+//ExStepSummary:1: I detta steg anges alternativ för formatering av stycket, inklusive inställning, vänster strecksats, höger strecksats och mellanslag efter punkten.
+//ExStepSummary:2: Detta steg skriver ett välformaterat stycke med de angivna formateringsalternativen till dokumentet.
+//ExStepSummary:3: Detta steg skriver en annan formaterad punkt som visar effekten av rymden efter stycket.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0- 
+// Skapa en ny dokumentinstans.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1- 
+// Ställ in alternativ för punktformatering.
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.Alignment = ParagraphAlignment.Center;
+paragraphFormat.LeftIndent = 50;
+paragraphFormat.RightIndent = 50;
+paragraphFormat.SpaceAfter = 25;
+
+//ExStep:2- 
+// Skriv det första formaterade stycket.
+builder.Writeln(
+	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
+
+//ExStep:3- 
+// Skriv det andra formaterade stycket.
+builder.Writeln(
+	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
+
+//ExStep:4- 
+// Spara dokumentet till angiven sökväg.
+doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
+//ExEnd

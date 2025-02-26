@@ -1,0 +1,63 @@
+//ExStart
+//ExSummary:Deze code laat zien hoe je een Word-document maakt met een tabel met verschillende rand- en schaduwstijlen voor de cellen.
+//ExStepSummary:0: Initialiseer het Document en DocumentBuilder om een nieuw Word-document aan te maken.
+//ExStepSummary:1: Start een nieuwe tafel en zet de randen voor de hele tafel.
+//ExStepSummary:2: Voeg de eerste cel toe met rode achtergrondschaduw en tekst.
+//ExStepSummary:3: Voeg de tweede cel toe met groene achtergrondschaduwing en tekst.
+//ExStepSummary:4: Eindig de eerste rij en wis de vorige celopmaak.
+//ExStepSummary:5: Voeg een nieuwe rij toe met aangepaste grotere randen voor de eerste cel.
+//ExStepSummary:6: Voeg de tweede cel van de nieuwe rij toe met standaard opmaak en tekst.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Een nieuw document aanmaken.
+Document doc = new Document();
+// Maak een DocumentBuilder om het document te manipuleren.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Start een nieuwe tafel.
+Table table = builder.StartTable();
+// Plaats de eerste cel in de tabel.
+builder.InsertCell();
+// Stel de randen voor de hele tafel in.
+table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
+
+//ExStep:2-
+// Zet achtergrondkleur van de cel op rood.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
+builder.Writeln("Cell #1");
+// De tweede cel invoegen.
+builder.InsertCell();
+
+//ExStep:3-
+// Zet achtergrondkleur van de cel op groen.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
+builder.Writeln("Cell #2");
+// Beëindig de huidige rij.
+builder.EndRow();
+
+//ExStep:4-
+// Verwijder elke celopmaak om opnieuw te beginnen.
+builder.CellFormat.ClearFormatting();
+// Plaats een nieuwe cel in de volgende rij.
+builder.InsertCell();
+// Maak grotere randen aan voor de eerste cel van deze rij.
+builder.CellFormat.Borders.Left.LineWidth = 4.0;
+builder.CellFormat.Borders.Right.LineWidth = 4.0;
+builder.CellFormat.Borders.Top.LineWidth = 4.0;
+builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
+builder.Writeln("Cell #3");
+//ExStep:5-
+// Plaats de vierde cel.
+builder.InsertCell();
+builder.CellFormat.ClearFormatting();
+builder.Writeln("Cell #4");
+//ExStep:6-
+// Sla het document op.
+doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
+//ExEnd

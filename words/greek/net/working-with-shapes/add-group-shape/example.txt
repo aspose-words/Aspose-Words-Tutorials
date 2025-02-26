@@ -1,0 +1,67 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα σχήμα ομάδας μέσα σε ένα έγγραφο χρησιμοποιώντας Aspose.Words.
+// Δημιουργεί ένα σχήμα κλήσης στα σύνορα προφοράς και ένα κουμπί δράσης, τα προσθέτει σε σχήμα ομάδας, και στη συνέχεια εισάγει το σχήμα της ομάδας στο έγγραφο πριν το αποθηκεύσετε.
+//ExStepSummary:0: Αρχικοποίηση ενός νέου εγγράφου και εξασφάλιση της τήρησης των ελάχιστων απαιτήσεων.
+//ExStepSummary:1: Δημιουργεί ένα σχήμα GroupShape που θα κρατήσει άλλα σχήματα.
+//ExStepSummary:2: Προσθέτει ένα σχήμα κλήσης στα σύνορα προφοράς στο σχήμα της ομάδας.
+//ExStepSummary:3: Προσθέτει ένα σχήμα κουμπιού δράσης στο σχήμα της ομάδας.
+//ExStepSummary:4: Ορίζει τις διαστάσεις και τις συντεταγμένες για το σχήμα της ομάδας.
+//ExStepSummary:5: Εισάγει το σχήμα της ομάδας στο έγγραφο χρησιμοποιώντας ένα DocumentBuilder.
+//ExStepSummary:6: Αποθήκευση του εγγράφου που περιέχει το σχήμα της ομάδας σε συγκεκριμένη θέση.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStep:0-
+// Δημιουργία νέου εγγράφου
+Document doc = new Document();
+// Εξασφαλίστε ότι το έγγραφο πληροί τις ελάχιστες απαιτήσεις
+doc.EnsureMinimum();
+
+//ExStep:1-
+// Δημιουργία μιας νέας περίπτωσης GroupShape
+GroupShape groupShape = new GroupShape(doc);
+
+//ExStep:2-
+// Δημιουργήστε ένα σχήμα κλήσης συνόρων προφοράς
+Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
+{
+    Width = 100, 
+    Height = 100
+};
+// Προσθέστε το σχήμα στο σχήμα της ομάδας
+groupShape.AppendChild(accentBorderShape);
+
+//ExStep:3-
+// Δημιουργία ενός σχήματος κουμπιού δράσης
+Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
+{
+	// Ορισμός της αριστερής θέσης του σχήματος
+    Left = 100, 
+	// Ορισμός του πλάτους του σχήματος
+    Width = 100, 
+	// Ορισμός του ύψους του σχήματος
+    Height = 200
+};
+// Προσθέστε το κουμπί δράσης στο σχήμα της ομάδας
+groupShape.AppendChild(actionButtonShape);
+
+//ExStep:4-
+// Ορισμός του πλάτους του σχήματος ομάδας
+groupShape.Width = 200;
+// Ορισμός του ύψους του σχήματος της ομάδας
+groupShape.Height = 200;
+// Ορισμός του μεγέθους συντεταγμένων για το σχήμα ομάδας
+groupShape.CoordSize = new Size(200, 200);
+
+//ExStep:5-
+// Δημιουργήστε ένα DocumentBuilder για να χειραγωγήσει το έγγραφο
+DocumentBuilder builder = new DocumentBuilder(doc);
+// Εισάγετε το σχήμα της ομάδας στο έγγραφο
+builder.InsertNode(groupShape);
+
+//ExStep:6-
+// Αποθήκευση του εγγράφου σε συγκεκριμένη τοποθεσία
+doc.Save("WorkingWithShapes.AddGroupShape.docx");
+//ExEnd

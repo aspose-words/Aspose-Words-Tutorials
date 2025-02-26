@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: Ce code montre comment créer un document Word avec une table de style en utilisant Aspose.Words. La table comprend des en-têtes et des lignes de données, formatées selon des options de style spécifiques.
+//ExStepSummary:0: Initialiser un nouveau document et documentBuilder pour gérer la structure du document.
+//ExStepSummary:1: Démarrer une nouvelle table dans le document en utilisant le DocumentBuilder.
+//ExStepSummary:2: Insérez la première cellule et définissez l'identificateur de style de table.
+//ExStepSummary:3: Appliquer les options de formatage à la table et définir le comportement d'ajustement automatique.
+//ExStepSummary:4: Ajouter des cellules de ligne d'en-tête à la table.
+//ExStepSummary:5: Insérer des lignes de données dans le tableau avec les noms et les quantités des articles.
+//ExStepSummary:6: Enregistrez le document assemblé dans un fichier.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// Créer un nouvel objet Document.
+Document doc = new Document();
+// Créer un constructeur pour faciliter la génération de documents.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Démarrer un nouveau tableau dans le document.
+Table table = builder.StartTable();
+
+//ExStep:2-
+// Insérez la première cellule avant de définir le formatage.
+builder.InsertCell();
+// Définissez l'identificateur de style pour la table.
+table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
+
+
+//ExStep:3-
+// Configurer les options de style.
+table.StyleOptions = 
+    TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
+// Définissez le comportement d'ajustement automatique de la table.	
+table.AutoFit(AutoFitBehavior.AutoFitToContents);
+
+
+//ExStep:4-
+// Écrivez l'en-tête de la première colonne.
+builder.Writeln("Item");
+// Réglez le rembourrage droit pour la cellule.
+builder.CellFormat.RightPadding = 40;
+// Insérer la deuxième cellule pour la colonne suivante.
+builder.InsertCell();
+// Écrivez l'en-tête de la deuxième colonne.
+builder.Writeln("Quantity (kg)");
+// Fin de la création de la ligne.
+builder.EndRow();
+
+//ExStep:5-
+// Commencez une nouvelle ligne et insérez la première cellule.
+builder.InsertCell();
+builder.Writeln("Apples");
+builder.InsertCell();
+builder.Writeln("20");
+builder.EndRow();
+ // Insérez la première cellule d'une nouvelle ligne pour le deuxième élément.
+builder.InsertCell();
+builder.Writeln("Bananas");
+builder.InsertCell();
+builder.Writeln("40");
+builder.EndRow();
+// Commencez une nouvelle ligne pour le troisième élément.
+builder.InsertCell();
+builder.Writeln("Carrots");
+builder.InsertCell(); 
+builder.Writeln("50");
+builder.EndRow();
+
+//ExStep:6-
+// Enregistrez le document dans un fichier spécifié.
+doc.Save("WorkingWithTableStylesAndFormatting.BuildTableWithStyle.docx");
+//ExEnd

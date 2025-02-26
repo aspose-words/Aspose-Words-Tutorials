@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: このコードは、Asfof.words を使用して、スタイル付きテーブルでワード文書を作成する方法を示すものです。 
+//ExStepSummary:0: 新しい文書と文書ビルダーを初期化します。
+//ExStepSummary:1: 新しい表を起動して、「Name」および「value」にヘッダーセルを挿入します。
+//ExStepSummary:2: 特定の境界とパディングの設定によるテーブルStyle を作成します。
+//ExStepSummary:3: ドキュメントに新しいテーブルスタイルを適用して保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 新しい文書オブジェクトを作成
+Document doc = new Document();
+// ドキュメント作成プログラムを初期化してドキュメントを作成する
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 新しい表を開始
+Table table = builder.StartTable();
+builder.InsertCell();
+builder.Write("Name");
+builder.InsertCell();
+builder.Write("Value");
+builder.EndRow();
+builder.InsertCell();
+builder.InsertCell();
+builder.EndTable();
+
+//ExStep:2-
+// 新しいテーブルスタイルを作成
+TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
+tableStyle.Borders.LineStyle = LineStyle.Double;
+// 縁取りの幅を設定
+tableStyle.Borders.LineWidth = 1;
+// パディングをセットする
+tableStyle.LeftPadding = 18;
+tableStyle.RightPadding = 18;
+tableStyle.TopPadding = 12;
+tableStyle.BottomPadding = 12;
+// 作成したテーブルにカスタムテーブルスタイルを適用する
+table.Style = tableStyle;
+
+//ExStep:3-
+// スタイル付きテーブルでドキュメントを保存します
+doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
+//ExEnd

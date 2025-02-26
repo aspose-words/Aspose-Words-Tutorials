@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan hozhat létre Word dokumentumot egy táblázattal az Aspose.Words segítségével. Egy táblázatot épít két sorral és különböző cellaszöveg-orientációkkal és formátumokkal.
+//ExStepSummary:0: A következő kód egy új dokumentum- és dokumentumkészítőt inicializál.
+//ExStepSummary:1: A következő kód elindít egy új táblát, és beszúrja az első cellasort.
+//ExStepSummary:2: A következő kód konfigurálja a formázást a második sorhoz és celláihoz.
+//ExStepSummary:3: A következő kód konfigurálja a formázást a második sorhoz és celláihoz.
+//ExStepSummary:4: A következő kód befejezi a táblázatot, és a dokumentumot fájlba menti.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Új dokumentumobjektum inicializálása
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Új asztal indítása
+Table table = builder.StartTable();
+// Első cella indítása
+builder.InsertCell();
+// Függőleges beállítás az első cellához
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
+builder.Write("This is row 1 cell 1");
+// Második cella beszúrása
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+builder.EndRow();
+
+//ExStep:2-
+// Cella beszúrása a második sorba
+builder.InsertCell();
+// A második sor formázásának beállítása
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+//ExStep:3-
+// A második sor második cellájának beszúrása
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward; 
+builder.Writeln("This is row 2 cell 2");
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:4-
+// Automatikusan illeszkedik a táblázathoz rögzített oszlopszélességekkel
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+// A dokumentum mentése fájlba
+doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

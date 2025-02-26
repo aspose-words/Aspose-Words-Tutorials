@@ -1,0 +1,23 @@
+//ExStart
+//ExSummaryEste código demonstra como criar um documento e obter o espaçamento de linha de uma fonte especificada.
+//ExStepSummary:0: O código a seguir inicializa um novo Documento e DocumentBuilder.
+//ExStepSummary:1: O código define a fonte como "Calibri" e adiciona uma linha de texto.
+//ExStepSummary:2: O código recupera o espaçamento de linha da primeira execução no documento.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Criar uma nova instância de documento
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Definir o nome da fonte para 'Calibri'
+builder.Font.Name = "Calibri";
+builder.Writeln("qText");
+
+//ExStep:2-
+// Acessar a fonte da primeira execução
+Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
+// Saída do espaçamento da linha para o console
+Console.WriteLine($"lineSpacing = {font.LineSpacing}");
+//ExEnd

@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: このコードは、Asdoct.words を使ってワード文書を作成する方法を示します。複数のページに内容を追加し、 .docx ファイルとして保存します。
+//ExStepSummary:0: このステップは、ドキュメントを操作する新しい文書と文書作成プログラムを初期化します。
+//ExStepSummary:1: このステップは、最初のページにテキストを追加します。
+//ExStepSummary:2: このステップは、ページブレークを挿入して新しいページを開始します。
+//ExStepSummary:3: このステップは、次のページにテキストを追加します。
+//ExStepSummary:4: このステップは、新しいページに別の改ページを挿入します。
+//ExStepSummary:5: このステップでは,3ページ目のテキストが追加されます.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// 新しい文書インスタンスを作成
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 最初のページにテキストを追加
+builder.Writeln("This is page 1.");
+
+//ExStep:2-
+// 改ページを挿入して新しいページを開始します。
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+// 2 ページ目のテキストを追加
+builder.Writeln("This is page 2.");
+
+//ExStep:4-
+// 新しいページに別の改ページを挿入
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:5-
+// 3 ページ目にテキストを追加
+builder.Writeln("This is page 3.");
+
+//ExStep:6-
+// ドキュメントを指定したパスに保存
+doc.Save("AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

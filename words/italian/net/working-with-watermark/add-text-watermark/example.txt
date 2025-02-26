@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: Questo codice dimostra come aggiungere una filigrana di testo con opzioni specifiche a un documento di Word utilizzando Aspose.Words.
+//ExStepSummary:0: Il seguente codice inizializza il percorso del documento e crea un nuovo oggetto del documento.
+//ExStepSummary:1: Il seguente codice imposta le opzioni per la filigrana del testo, tra cui la famiglia di font, le dimensioni, il colore e il layout.
+//ExStepSummary:2: Il seguente codice applica la filigrana del testo con le opzioni specificate al documento.
+//ExStepSummary:3: Il seguente codice salva il documento modificato in una directory specificata.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+// Imposta il percorso della directory per il documento
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Carica il documento Word
+Document doc = new Document(dataDir + "Document.docx");
+
+//ExStep:2-
+// Crea opzioni filigrana
+TextWatermarkOptions options = new TextWatermarkOptions()
+{
+    FontFamily = "Arial", // Set font family for the watermark text
+    FontSize = 36, // Set font size for the watermark text
+    Color = Color.Black, // Set color of the watermark text
+    Layout = WatermarkLayout.Horizontal, // Specify layout of the watermark
+    IsSemitrasparent = false // Set transparency option
+};
+
+//ExStep:3-
+// Applicare il testo della filigrana con le opzioni
+doc.Watermark.SetText("Test", options);
+
+//ExStep:4-
+// Salva il documento con la filigrana
+doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
+//ExEnd

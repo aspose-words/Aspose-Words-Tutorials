@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Denna kod visar hur man infogar en bild i huvudet på ett Word-dokument med Aspose.Words för .NET.
+//ExStepSummary:0: Skapa ett nytt Word-dokument med hjälp av Aspose.Words Dokumentklass.
+//ExStepSummary:1: Flytta till dokumentets huvudhuvud med hjälp av DocumentBuilder.
+//ExStepSummary:2: Infoga en bild i huvudet med specifika inställnings-, mått- och omslagsalternativ.
+//ExStepSummary:3: Spara dokumentet till en angiven filsökväg.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Skapa ett nytt Word-dokument
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Flytta markören till dokumentets primära rubrik
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+// Infoga en bild i huvudet med specifik inställning och mått
+builder.InsertImage(
+    ImagesDir + "Logo.jpg", RelativeHorizontalPosition.RightMargin, 10,
+    RelativeVerticalPosition.Page, 10, 50, 50, 
+    WrapType.Through
+);
+
+//ExStep:3-
+// Spara dokumentet till angiven sökväg
+doc.Save("WorkingWithHeadersAndFooters.InsertImage.docx");
+//ExEnd

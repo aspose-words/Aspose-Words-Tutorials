@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Bu kod Aspose.Words kullanarak bir çizelge ile belgenin nasıl oluşturulacağını gösterir, Y ekseni için sınırları ayarlar ve belgeyi DOCX dosyası olarak kaydeder. 
+// Her adım, Aspose.Words'taki grafiklerle çalışmaya dahil olan sürecin net bir şekilde anlaşılmasını sağlamak için parçalanır.
+//ExStepSummary:0: Yeni bir belge ve bir DocumentBuilder örneğini başlat. 
+//ExStepSummary:1: Belgeye bir grafik ekleyin ve grafik nesnesini alın. 
+//ExStepSummary:2: Belirtilen kategoriler ve değerler ile çizelgeye yeni bir dizi ekleyin. 
+//ExStepSummary:3: Çizelgenin Y ekseni için minimum ve maksimum sınırları ayarlayın. 
+//ExStepSummary:4: Belgeyi belirtilen yola kaydet. 
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Yeni bir Belge örneği oluştur.
+Document doc = new Document();
+// Belgeyi oluşturmak için DocumentBuilder'ı başlat.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Belgeye bir sütun grafiği ekleyin.
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+// Grafik nesnesini formdan geri al.
+Chart chart = shape.Chart;
+// Mevcut tüm serileri taze veriler için grafikten temizle.
+chart.Series.Clear();
+
+//ExStep:2-
+// "Aspose Series 1" adı ile yeni bir seri tanımla.
+chart.Series.Add("Aspose Series 1",
+    new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
+    new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
+
+//ExStep:3-
+// Y ekseninin minimum sınırını ayarlayın.
+chart.AxisY.Scaling.Minimum = new AxisBound(0);
+chart.AxisY.Scaling.Maximum = new AxisBound(6);
+
+//ExStep:4-
+// Belgeyi grafikle birlikte belirtilen yola kaydedin.
+doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
+//ExEnd

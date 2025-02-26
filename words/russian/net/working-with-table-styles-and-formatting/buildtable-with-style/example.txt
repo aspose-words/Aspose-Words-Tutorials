@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать документ Word с стилистической таблицей с использованием Aspose.Words. Эта таблица включает заголовки и строки данных, форматируя их в соответствии с конкретными вариантами стиля.
+//ExStepSummary:0: Инициировать новый документ и документоподготовитель для управления структурой документов.
+//ExStepSummary:1: Начать новую таблицу в документе с использованием Бюллетеня документов.
+//ExStepSummary:2: Вставить первую ячейку и установить идентификатор стиля таблицы.
+//ExStepSummary:3: Примените опции форматирования к таблице и установите автоподходящее поведение.
+//ExStepSummary:4: Добавить в таблицу графы заголовков.
+//ExStepSummary:5: Вставить ряды данных в таблицу с названиями и количествами товаров.
+//ExStepSummary:6: Сохранить собранный документ в файл.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// Создать новый объект документа.
+Document doc = new Document();
+// Создать строитель для облегчения подготовки документов.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Начните новую таблицу в документе.
+Table table = builder.StartTable();
+
+//ExStep:2-
+// Включить первую ячейку перед настройкой форматирования.
+builder.InsertCell();
+// Установите идентификатор стиля для таблицы.
+table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
+
+
+//ExStep:3-
+// Параметры стиля настройки.
+table.StyleOptions = 
+    TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
+// Установите автоподходящее поведение стола.	
+table.AutoFit(AutoFitBehavior.AutoFitToContents);
+
+
+//ExStep:4-
+// Заголовок первой колонки.
+builder.Writeln("Item");
+// Приготовьтесь к клетке.
+builder.CellFormat.RightPadding = 40;
+// Вставить вторую ячейку для следующей колонки.
+builder.InsertCell();
+// Заголовок для второй колонки.
+builder.Writeln("Quantity (kg)");
+// Заканчивай с созданием ряда.
+builder.EndRow();
+
+//ExStep:5-
+// Начинайте новую строчку и вставьте первую ячейку.
+builder.InsertCell();
+builder.Writeln("Apples");
+builder.InsertCell();
+builder.Writeln("20");
+builder.EndRow();
+ // Вставить первую ячейку нового ряда для второго элемента.
+builder.InsertCell();
+builder.Writeln("Bananas");
+builder.InsertCell();
+builder.Writeln("40");
+builder.EndRow();
+// Начните новый ряд для третьего пункта.
+builder.InsertCell();
+builder.Writeln("Carrots");
+builder.InsertCell(); 
+builder.Writeln("50");
+builder.EndRow();
+
+//ExStep:6-
+// Сохранить документ в указанный файл.
+doc.Save("WorkingWithTableStylesAndFormatting.BuildTableWithStyle.docx");
+//ExEnd

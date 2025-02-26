@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Este código demonstra como criar um documento do Word com um cabeçalho primário e rodapé usando Aspose.Words. Ele inicializa um novo documento, move- se para as seções de cabeçalho e rodapé e escreve texto personalizado. Finalmente, ele salva o documento como um arquivo DOCX.
+//ExStepSummary:0: O código a seguir inicializa o objeto principal do Documento e configura o DocumentBuilder.
+//ExStepSummary:1: O código a seguir se move para a seção de cabeçalho principal e escreve o texto do cabeçalho.
+//ExStepSummary:2: O código a seguir se move para a seção de rodapé principal e escreve o texto do rodapé.
+//ExStepSummary:3: O código a seguir salva o documento em um caminho de arquivo especificado.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Inicializar um novo objeto Documento
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Mover para a seção de cabeçalho principal
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("Header for page.");
+
+//ExStep:2-
+// Mover para a seção de rodapé principal
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+builder.Write("Footer for page."); // Write the footer text
+
+//ExStep:3-
+// Salve o documento com o nome de arquivo especificado
+doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
+//ExEnd

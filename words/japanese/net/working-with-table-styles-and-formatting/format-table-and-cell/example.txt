@@ -1,0 +1,63 @@
+//ExStart
+//ExSummary: このコードは、そのセルの境界や形状が異なるテーブルを持つ Word ドキュメントを作成する方法を示すものです。
+//ExStepSummary:0: ドキュメントおよびドキュメント作成プログラムを初期化して、新しい Word ドキュメントを作成します。
+//ExStepSummary:1: 新しい表を起動し、表全体に対して境界を設定します。
+//ExStepSummary:2: 最初のセルに赤背景とテキストを追加します。
+//ExStepSummary:3: 2 番目のセルに緑の背景色とテキストを追加します。
+//ExStepSummary:4: 最初の行を終了し、前のセルの書式設定をクリアします。
+//ExStepSummary:5: 最初のセルに新しい行を追加します。
+//ExStepSummary:6: 新しい行の 2 番目のセルを標準の書式設定とテキストで追加します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// 新しい文書を作成します。
+Document doc = new Document();
+// ドキュメントを操作するための文書ビルダーを作成します。
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 新しいテーブルを開始します。
+Table table = builder.StartTable();
+// 表に最初のセルを挿入します。
+builder.InsertCell();
+// 表全体に対して境界を設定します。
+table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
+
+//ExStep:2-
+// セルの背景色を赤に設定します。
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
+builder.Writeln("Cell #1");
+// 2 番目のセルを挿入します。
+builder.InsertCell();
+
+//ExStep:3-
+// セルの背景色を緑に設定します。
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
+builder.Writeln("Cell #2");
+// 現在の行を終了します。
+builder.EndRow();
+
+//ExStep:4-
+// セルの書式設定をクリアします。
+builder.CellFormat.ClearFormatting();
+// 次の行に新しいセルを挿入します。
+builder.InsertCell();
+// この行の最初のセルに大きな境界を作成します。
+builder.CellFormat.Borders.Left.LineWidth = 4.0;
+builder.CellFormat.Borders.Right.LineWidth = 4.0;
+builder.CellFormat.Borders.Top.LineWidth = 4.0;
+builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
+builder.Writeln("Cell #3");
+//ExStep:5-
+// 4 番目のセルを挿入します。
+builder.InsertCell();
+builder.CellFormat.ClearFormatting();
+builder.Writeln("Cell #4");
+//ExStep:6-
+// ドキュメントを保存します。
+doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
+//ExEnd

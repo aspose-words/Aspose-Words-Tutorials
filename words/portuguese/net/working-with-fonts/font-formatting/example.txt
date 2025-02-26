@@ -1,0 +1,34 @@
+//ExStart
+//ExSummary: Este código demonstra como criar um documento do Word usando Aspose.Words, formatando as propriedades da fonte antes de escrever um texto de amostra para ele.
+//ExStepSummary:0: O código a seguir inicializa um novo Documento e um DocumentBuilder.
+//ExStepSummary:1: O código a seguir define várias propriedades de fonte, como tamanho, negrito, cor, nome e estilo sublinhado.
+//ExStepSummary:2: O código a seguir grava um texto de amostra no documento usando as configurações de fonte configuradas.
+//ExStepSummary:3: O código a seguir salva o documento no diretório especificado com um determinado nome de arquivo.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Criar uma nova instância de documento
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Acesse a propriedade da fonte através do DocumentBuilder
+Font font = builder.Font;
+// Defina o tamanho da fonte para 16
+font.Size = 16;
+// Faça a fonte em negrito
+font.Bold = true;
+// Alterar a cor da fonte para azul
+font.Color = Color.Blue;
+// Definir a fonte para Arial
+font.Name = "Arial";
+// Aplique um estilo sublinhado à fonte
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+builder.Write("Sample text.");
+
+//ExStep:3-
+// Salve o documento no diretório de artefatos
+doc.Save("WorkingWithFonts.FontFormatting.docx");
+//ExEnd

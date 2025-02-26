@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary: Этот код показывает, как манипулировать таблицами в документе Word с использованием Aspose.Words. Он извлекает существующий документ, изменяет границы первой таблицы и сохраняет изменения в новом файле.
+//ExStepSummary:0: Приводимый ниже код устанавливает документ и извлекает из него первую таблицу.
+//ExStepSummary:1: Приводимый ниже код очищает любые существующие границы от таблицы, с тем чтобы подготовиться к новому форматированию.
+//ExStepSummary:2: В нижеследующем коде применяется зеленая граница вокруг и внутри стола.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Определить каталог для документа
+string dataDir = "Your Document Directory";
+// Загрузить документ
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Получите первую таблицу из документа.
+Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
+
+//ExStep:2-
+// Очистить любые существующие границы от стола
+table.ClearBorders();
+
+//ExStep:3-
+// Установите зеленую границу вокруг и внутри стола
+table.SetBorders(LineStyle.Single, 1.5, Color.Green);
+// Сохранить документ с изменениями
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");
+//ExEnd

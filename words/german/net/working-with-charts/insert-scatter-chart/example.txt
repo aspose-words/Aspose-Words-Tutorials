@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary:Dieser Code zeigt, wie man ein Word-Dokument mit einem Scatter-Diagramm mit Aspose.Words erstellt. Es initialisiert ein Dokument, erstellt Inhalte, fügt ein Scatter-Diagramm ein, fügt Daten hinzu und speichert das Dokument.
+//ExStepSummary:0: Initialisierung der Document- und DocumentBuilder-Objekte, um mit der Arbeit am Dokument zu beginnen.
+//ExStepSummary:1: Einfügen eines Streudiagramms in das Dokument.
+//ExStepSummary:2: Hinzufügen einer Reihe von Datenpunkten zum scatter Chart.
+//ExStepSummary:3: Speichern des Dokuments mit dem scatter chart in eine .docx-Datei.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Initialisieren eines neuen Dokuments
+Document doc = new Document();
+// Erstellen Sie einen Builder zum Einfügen von Inhalten
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Fügen Sie ein scatter Chart in das Dokument ein
+Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252); 
+
+//ExStep:2-
+// Holen Sie sich das Diagrammobjekt aus der eingefügten Form
+Chart chart = shape.Chart;
+// Seriendaten zum Diagramm hinzufügen
+chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 });
+
+//ExStep:3-
+// Speichern Sie das Dokument mit dem scatter Chart
+doc.Save("WorkingWithCharts.InsertScatterChart.docx");
+//ExEnd

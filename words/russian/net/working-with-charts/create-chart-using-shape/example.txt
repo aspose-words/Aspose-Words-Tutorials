@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Пожалуйста, проверьте следующий код, чтобы найти, как создать линейную диаграмму в документе Word. Вы можете скопировать этот код в свой IDE и запустить его.
+//ExStepSummary:0: Следующий код показывает, как создать новый документ и мгновенный составитель документа:
+//ExStepSummary:1: Приводимый ниже код показывает, как включить в документ линейную диаграмму:
+//ExStepSummary:2: В нижеследующем коде разъясняется, как определить название диаграммы:
+//ExStepSummary:3: Следующий код показывает, как настроить положение и настройки наложения на карту:
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Создать новый объект документа
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Включить в документ линейную карту на определенных размерах
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+
+//ExStep:2-
+// Доступ к объекту Карты от формы
+Chart chart = shape.Chart;
+// Использовать видимость заголовка карты
+chart.Title.Show = true;
+// Установите заголовок диаграммы
+chart.Title.Text = "Line Chart Title";
+// Обеспечивать, чтобы название не покрывало карту
+chart.Title.Overlay = false;
+
+//ExStep:3-
+// Установите позицию легенды карты слева
+chart.Legend.Position = LegendPosition.Left;
+chart.Legend.Overlay = true;
+
+//ExStep:4-
+// Сохранить документ с рисунком в файл
+doc.Save("WorkingWithCharts.CreateChartUsingShape.docx");
+//ExEnd

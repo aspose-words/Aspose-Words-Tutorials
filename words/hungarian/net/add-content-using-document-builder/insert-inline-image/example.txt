@@ -1,0 +1,19 @@
+//ExStart
+//ExSummary:Ez a kód azt mutatja be, hogyan lehet beilleszteni egy beágyazott képet egy Word dokumentumba az Aspose.Words használatával.
+//ExStepSummary:0: A Document objektum és a DocumentBuilder inicializálása a dokumentum elkészítéséhez.
+//ExStepSummary:1: Kép beillesztése a dokumentumba az aktuális kurzorpozícióban a DocumentBuilder segítségével.
+//ExStepSummary:2: A dokumentum mentése egy megadott fájlnévre.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+// Új dokumentum és DocumentBuilder inicializálása
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// A kép beszúrása a DocumentBuilder segítségével
+builder.InsertImage(ImagesDir + "Transparent background logo.png");
+
+//ExStep:2-
+// A módosított dokumentum fájlba mentése
+doc.Save("AddContentUsingDocumentBuilder.InsertInlineImage.docx");
+//ExEnd

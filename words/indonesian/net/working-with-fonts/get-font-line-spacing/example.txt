@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan bagaimana membuat dokumen dan mendapatkan jarak baris dari fonta yang ditentukan.
+//ExStepSummary:0: Kode berikut menginisialisasi Dokumen dan Dokumen Builder baru.
+//ExStepSummary:1: Kode ini mengatur fonta ke "Calibri" dan menambahkan baris teks.
+//ExStepSummary:2: Kode mengambil jarak baris dari run pertama dalam dokumen.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Buat instansi dokumen baru
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Set nama fonta ke 'Calibri'
+builder.Font.Name = "Calibri";
+builder.Writeln("qText");
+
+//ExStep:2-
+// Mengakses fonta dari run pertama
+Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
+// Keluarkan jarak baris ke konsol
+Console.WriteLine($"lineSpacing = {font.LineSpacing}");
+//ExEnd

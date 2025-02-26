@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Este código muestra cómo crear un documento de Word con la clase DocumentBuilder e insertar un párrafo con estilo en él.
+//ExStepSummary:0: El siguiente código inicializa un documento y un DocumentBuilder para la creación de documentos.
+//ExStepSummary:1: El siguiente código configura la configuración de fuente para el párrafo.
+//ExStepSummary:2: El siguiente código establece los ajustes de formato de párrafo para alineación y sangría.
+//ExStepSummary:3: El siguiente código escribe un párrafo en el documento.
+//ExStepSummary:4: El siguiente código guarda el documento como un archivo .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Inicializar un nuevo objeto Document
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Acceda a la configuración de fuentes de DocumentBuilder
+Font font = builder.Font;
+// Ajuste el tamaño de la fuente a 16
+font.Size = 16;
+// Haz que la fuente sea negrita
+font.Bold = true;
+// Establezca el color de la fuente en azul
+font.Color = Color.Blue;
+// Establezca el nombre de la fuente en Arial
+font.Name = "Arial";
+// Agregar un subrayado discontinuo a la fuente
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+// Acceder a la configuración de formato de párrafo
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.FirstLineIndent = 8;
+paragraphFormat.Alignment = ParagraphAlignment.Justify;
+paragraphFormat.KeepTogether = true;
+
+//ExStep:3-
+// Escribir un párrafo de texto en el documento
+builder.Writeln("A whole paragraph.");
+
+//ExStep:4-
+// Guardar el documento como un archivo .docx
+doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
+//ExEnd

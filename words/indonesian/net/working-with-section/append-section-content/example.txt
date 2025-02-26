@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Contoh ini menunjukkan bagaimana menambahkan dan mempersiapkan isi dari satu bagian ke bagian lain dalam dokumen Word menggunakan Aspose.Words untuk .NET.
+//ExStepSummary:0: Inisialisasi dokumen Word baru dan Dokumen Builder untuk menambah isi.
+//ExStepSummary:1: Tulis teks dan masukkan bagian istirahat untuk membuat beberapa bagian dalam dokumen.
+//ExStepSummary:2: Akses bagian ketiga dalam dokumen untuk mempersiapkan manipulasi konten.
+//ExStepSummary:3: Tambahkan isi dari bagian pertama ke bagian ketiga.
+//ExStepSummary:4: Tambahkan isi dari bagian kedua ke bagian ketiga.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Inisialisasi dokumen dan DokumenBuilder
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Tulis teks dan masukkan daerah istirahat untuk membuat tiga daerah
+builder.Write("Section 1");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// Tambahkan isi untuk daerah kedua
+builder.Write("Section 2");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// Tambahkan isi untuk daerah ketiga
+builder.Write("Section 3");
+
+//ExStep:2-
+// Mengambil bagian ketiga dari dokumen
+Section section = doc.Sections[2];
+
+//ExStep:3-
+// Tambahkan isi dari bagian pertama ke daerah ketiga
+Section sectionToPrepend = doc.Sections[0];
+section.PrependContent(sectionToPrepend);
+
+//ExStep:4-
+// Tambahkan isi dari bagian kedua ke daerah ketiga
+Section sectionToAppend = doc.Sections[1];
+section.AppendContent(sectionToAppend);
+//ExEnd

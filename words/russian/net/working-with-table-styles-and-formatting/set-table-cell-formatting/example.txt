@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Приводимый ниже код показывает, как создать и форматировать таблицу в документе Word с использованием класса документа Builder из Aspose.Words.
+//ExStepSummary:0: Инициировать разработку нового документа и Бюллетеня документов, с тем чтобы начать подготовку документа Word.
+//ExStepSummary:1: Создать таблицу и вставить ячейку для форматирования.
+//ExStepSummary:2: Установите параметры форматирования камеры, включая прокладку и ширину.
+//ExStepSummary:3: Вставить текст в ячейку.
+//ExStepSummary:4: Окончание строки и таблицы и сохранение документа в заданном файле.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Создание нового объекта документа
+Document doc = new Document();
+// Инициирование процесса составления документа с использованием нового документа
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Начать создание стола
+builder.StartTable();
+// Вставить первую ячейку в таблицу
+builder.InsertCell();
+
+//ExStep:2-
+// Доступ к характеристикам форматирования ячейки
+CellFormat cellFormat = builder.CellFormat;
+// Установление ширины камеры
+cellFormat.Width = 250;
+// Установите закладку
+cellFormat.LeftPadding = 30;
+cellFormat.RightPadding = 30;
+cellFormat.TopPadding = 30;
+cellFormat.BottomPadding = 30;
+
+//ExStep:3-
+// Вставить текст в ячейку
+builder.Writeln("I'm a wonderful formatted cell.");
+
+//ExStep:4-
+// Завершение текущей строки таблицы
+builder.EndRow();
+// Окончание создания стола
+builder.EndTable();
+// Сохранение документа
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");
+//ExEnd

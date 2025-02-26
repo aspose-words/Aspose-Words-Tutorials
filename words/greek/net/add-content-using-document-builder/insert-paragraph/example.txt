@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο Word χρησιμοποιώντας την κατηγορία DocumentBuilder και εισάγετε μια παράγραφο στυλ σε αυτό.
+//ExStepSummary:0: Ο ακόλουθος κώδικας αρχικοποιείται ένα έγγραφο και ένα έγγραφοBuilder για τη δημιουργία εγγράφων.
+//ExStepSummary:1: Ο ακόλουθος κώδικας ρυθμίζει τις ρυθμίσεις γραμματοσειράς για την παράγραφο.
+//ExStepSummary:2: Ο ακόλουθος κωδικός καθορίζει τις ρυθμίσεις μορφής παραγράφου για ευθυγράμμιση και εσοχή.
+//ExStepSummary:3: Ο ακόλουθος κώδικας περιέχει μια παράγραφο στο έγγραφο.
+//ExStepSummary:4: Ο παρακάτω κώδικας αποθηκεύει το έγγραφο ως αρχείο .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Αρχικοποίηση ενός νέου αντικειμένου εγγράφου
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Πρόσβαση στις ρυθμίσεις γραμματοσειράς του DocumentBuilder
+Font font = builder.Font;
+// Ορισμός του μεγέθους γραμματοσειράς στο 16
+font.Size = 16;
+// Κάντε τη γραμματοσειρά τολμηρή
+font.Bold = true;
+// Ορισμός του χρώματος γραμματοσειράς στο μπλε
+font.Color = Color.Blue;
+// Ορισμός του ονόματος γραμματοσειράς στο Arial
+font.Name = "Arial";
+// Προσθήκη ενός stressed stress στη γραμματοσειρά
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+// Πρόσβαση στις ρυθμίσεις μορφής παραγράφου
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.FirstLineIndent = 8;
+paragraphFormat.Alignment = ParagraphAlignment.Justify;
+paragraphFormat.KeepTogether = true;
+
+//ExStep:3-
+// Γράψτε μια παράγραφο κειμένου στο έγγραφο
+builder.Writeln("A whole paragraph.");
+
+//ExStep:4-
+// Αποθήκευση του εγγράφου ως αρχείου .docx
+doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
+//ExEnd

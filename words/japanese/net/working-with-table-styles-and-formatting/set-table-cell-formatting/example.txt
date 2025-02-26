@@ -1,0 +1,45 @@
+//ExStart
+//ExSummaryをクリックします。 以下のコードは、ドキュメントビルダークラスを Asdocument.words から使用するワードドキュメント内でのテーブルの作成および書式設定の方法を示します。
+//ExStepSummary:0: Word ドキュメントの作成を開始するための新しい文書と文書ビルダーを初期化します。
+//ExStepSummary:1: テーブルを作成し、書式設定用セルを挿入します。
+//ExStepSummary:2: セルの書式設定属性を設定します。
+//ExStepSummary:3: 書式設定されたセルにテキストを挿入
+//ExStepSummary:4: 行と表を終了し、ドキュメントを指定したファイルパスに保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 新しいドキュメントオブジェクトを作成
+Document doc = new Document();
+// ドキュメント作成を新しいドキュメントで初期化する
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// テーブルの作成を開始
+builder.StartTable();
+// 最初のセルを表に挿入
+builder.InsertCell();
+
+//ExStep:2-
+// セルの書式設定属性にアクセス
+CellFormat cellFormat = builder.CellFormat;
+// セルの幅を設定
+cellFormat.Width = 250;
+// パディングをセットする
+cellFormat.LeftPadding = 30;
+cellFormat.RightPadding = 30;
+cellFormat.TopPadding = 30;
+cellFormat.BottomPadding = 30;
+
+//ExStep:3-
+// セルにテキストを挿入
+builder.Writeln("I'm a wonderful formatted cell.");
+
+//ExStep:4-
+// テーブルの現在の行を終了
+builder.EndRow();
+// テーブルの作成を終了
+builder.EndTable();
+// ドキュメントを保存する
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");
+//ExEnd

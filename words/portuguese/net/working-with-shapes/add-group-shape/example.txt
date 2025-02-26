@@ -1,0 +1,67 @@
+//ExStart
+//ExSummary: Este código demonstra como criar uma forma de grupo dentro de um documento usando Aspose.Words.
+// Ele cria uma forma de chamada de contorno de sotaque e um botão de ação, adiciona-os a uma forma de grupo e, em seguida, insere a forma do grupo no documento antes de salvá-lo.
+//ExStepSummary:0: Inicializa um novo Documento e garante que os requisitos mínimos sejam cumpridos.
+//ExStepSummary:1: Cria uma forma de grupo que irá conter outras formas.
+//ExStepSummary:2: Adiciona uma forma de chamada de contorno de sotaque à forma de grupo.
+//ExStepSummary:3: Adiciona uma forma de botão de ação à forma de grupo.
+//ExStepSummary:4: Define as dimensões e coordenadas para a forma do grupo.
+//ExStepSummary:5: Insere a forma do grupo no documento usando um DocumentBuilder.
+//ExStepSummary:6: Salva o documento que contém a forma do grupo em um local especificado.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStep:0-
+// Criar um novo documento
+Document doc = new Document();
+// Garantir que o documento atenda aos requisitos mínimos
+doc.EnsureMinimum();
+
+//ExStep:1-
+// Criar uma nova instância do GroupShape
+GroupShape groupShape = new GroupShape(doc);
+
+//ExStep:2-
+// Criar uma forma de chamada de contorno de sotaque
+Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
+{
+    Width = 100, 
+    Height = 100
+};
+// Adicione a forma à forma do grupo
+groupShape.AppendChild(accentBorderShape);
+
+//ExStep:3-
+// Criar uma forma de botão de ação
+Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
+{
+	// Definir a posição esquerda da forma
+    Left = 100, 
+	// Definir a largura da forma
+    Width = 100, 
+	// Definir altura da forma
+    Height = 200
+};
+// Adicionar o botão de ação à forma de grupo
+groupShape.AppendChild(actionButtonShape);
+
+//ExStep:4-
+// Definir a largura da forma do grupo
+groupShape.Width = 200;
+// Definir a altura da forma do grupo
+groupShape.Height = 200;
+// Definir o tamanho da coordenada para a forma do grupo
+groupShape.CoordSize = new Size(200, 200);
+
+//ExStep:5-
+// Criar um DocumentBuilder para manipular o documento
+DocumentBuilder builder = new DocumentBuilder(doc);
+// Insira a forma do grupo no documento
+builder.InsertNode(groupShape);
+
+//ExStep:6-
+// Salve o documento em um local especificado
+doc.Save("WorkingWithShapes.AddGroupShape.docx");
+//ExEnd

@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary^ この例は, Asfof.words ^ a b c d e f g h i ^ a b c d e f g h i ^ a b c d e f g h i f g h i ^ a b c d e f g h i f g h i f g h i f g h i ". a b c d e f g h i f g h i ".
+//ExStepSummary:0: 新しい Word ドキュメントとドキュメントビルダーを初期化してコンテンツを追加します。
+//ExStepSummary:1: ドキュメント内で複数のセクションを作成するには、テキストとセクションの区切りを挿入します。
+//ExStepSummary:2: コンテンツの操作に備えるために文書中の第三節にアクセスしてください。
+//ExStepSummary:3: 第1節から第3節までを前項に改める.
+//ExStepSummary:4: 第2節から第3節に内容を追加します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// ドキュメント作成とドキュメント作成の初期化
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 3 つのセクションを作成するには、テキストとセクションの区切りを挿入
+builder.Write("Section 1");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// 第二節に内容を追加
+builder.Write("Section 2");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// 第3節の内容を追加
+builder.Write("Section 3");
+
+//ExStep:2-
+// 文書から第三節を取得
+Section section = doc.Sections[2];
+
+//ExStep:3-
+// 第1節から第3節までを前項に改める
+Section sectionToPrepend = doc.Sections[0];
+section.PrependContent(sectionToPrepend);
+
+//ExStep:4-
+// 第2節から第3節に内容を追加
+Section sectionToAppend = doc.Sections[1];
+section.AppendContent(sectionToAppend);
+//ExEnd

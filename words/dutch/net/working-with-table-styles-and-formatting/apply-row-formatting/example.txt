@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Deze code laat zien hoe rijopmaak toe te passen in een Word-document met behulp van Aspose.Words.
+//ExStepSummary:0: Initialiseert een nieuw document en begint met het bouwen van een tabel met geformatteerde rijen.
+//ExStepSummary:1: Configureert het rijformaat.
+//ExStepSummary:2: Configureert de specifieke hoogte-instellingen.
+//ExStepSummary:3: Stelt opvulling in voor de gehele tabel die alle rijen beïnvloedt.
+//ExStepSummary:4: Schrijft tekst in de tabel cel en eindigt de rij.
+//ExStepSummary:5: Voltooit het tafelbouwproces en slaat het document op.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Een nieuw document aanmaken
+Document doc = new Document();
+// DocumentBuilder aanmaken om het document te wijzigen
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Een nieuwe tabel starten
+Table table = builder.StartTable();
+// Een nieuwe cel in de tabel invoegen
+builder.InsertCell();
+//ExStep:2-
+// Toegang tot de rij-opmaak-eigenschappen
+RowFormat rowFormat = builder.RowFormat;
+// Stel de hoogte van de rij in
+rowFormat.Height = 100;
+// Geef aan dat de hoogte precies is
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// Opvulling instellen voor de tabel
+table.LeftPadding = 30; 
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// Tekst in de cel schrijven
+builder.Writeln("I'm a wonderful formatted row.");
+// De huidige rij beëindigen
+builder.EndRow();
+// Beëindig het tafelgebouw
+builder.EndTable();
+
+//ExStep:5-
+// Het document opslaan
+doc.Save("WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
+//ExEnd

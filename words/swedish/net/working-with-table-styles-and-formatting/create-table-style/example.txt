@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Denna kod visar hur man skapar ett Word-dokument med en stil bord med Aspose.Words. 
+//ExStepSummary:0: Initiera ett nytt dokument och dokumentbyggare.
+//ExStepSummary:1: Starta en ny tabell och infoga huvudceller för namn och värde.
+//ExStepSummary:2: Skapa en anpassad TableStyle med specifika kant- och stoppningsinställningar.
+//ExStepSummary:3: Spara dokumentet med den nya tabellstil som tillämpas.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Skapa ett nytt dokumentobjekt
+Document doc = new Document();
+// Initiera DocumentBuilder för att bygga dokumentet
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Starta en ny tabell
+Table table = builder.StartTable();
+builder.InsertCell();
+builder.Write("Name");
+builder.InsertCell();
+builder.Write("Value");
+builder.EndRow();
+builder.InsertCell();
+builder.InsertCell();
+builder.EndTable();
+
+//ExStep:2-
+// Skapa en ny bordsstil
+TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
+tableStyle.Borders.LineStyle = LineStyle.Double;
+// Ställ in kantbredden
+tableStyle.Borders.LineWidth = 1;
+// Ställ in stoppningen
+tableStyle.LeftPadding = 18;
+tableStyle.RightPadding = 18;
+tableStyle.TopPadding = 12;
+tableStyle.BottomPadding = 12;
+// Tillämpa den anpassade tabellstilen på den skapade tabellen
+table.Style = tableStyle;
+
+//ExStep:3-
+// Spara dokumentet med den stilade tabellen
+doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
+//ExEnd

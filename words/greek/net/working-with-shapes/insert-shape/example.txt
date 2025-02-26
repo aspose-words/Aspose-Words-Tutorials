@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να εισάγετε σχήματα (κιβώτια κειμένου) σε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words. Το έγγραφο αποθηκεύεται σε μορφή DOCX με συγκεκριμένες επιλογές συμμόρφωσης για τα πρότυπα ISO.
+//ExStepSummary:0: Ο κώδικας αρχικοποιείται ένα νέο έγγραφο και ένας κατασκευαστής εγγράφων για τη χειραγώγηση του εγγράφου.
+//ExStepSummary:1: Το σχήμα (κουτί κειμένου) εισάγεται σε απόλυτη θέση στο έγγραφο και η περιστροφή του πρώτου σχήματος ορίζεται στους 30 βαθμούς.
+//ExStepSummary:2: Ένα νέο σχήμα εισάγεται σε σχετική θέση και η περιστροφή του δεύτερου σχήματος ορίζεται επίσης στους 30 βαθμούς.
+//ExStepSummary:3: Το έγγραφο αποθηκεύεται με συγκεκριμένες OoxmlSaveOptions.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Δημιουργεί ένα νέο παράδειγμα εγγράφου
+Document doc = new Document();
+// Αρχικοποίηση ενός εγγράφουBuilder για το έγγραφο
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Εισάγει ένα σχήμα του τύπου TextBox
+Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
+    RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
+// Περιστρέφεται το σχήμα κατά 30 βαθμούς
+shape.Rotation = 30.0;
+
+//ExStep:2-
+builder.Writeln();
+// Εισάγει ένα άλλο σχήμα του τύπου TextBox σε σχετική θέση
+shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
+// Περιστρέφεται το δεύτερο σχήμα κατά 30 μοίρες
+shape.Rotation = 30.0;
+
+//ExStep:3-
+// Προετοιμάζει τις επιλογές αποθήκευσης για το έγγραφο
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
+{
+    Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
+};
+
+// Αποθηκεύει το έγγραφο χρησιμοποιώντας τις καθορισμένες επιλογές αποθήκευσης
+doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
+//ExEnd

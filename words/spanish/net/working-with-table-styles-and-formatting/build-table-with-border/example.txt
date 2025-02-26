@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary: Este código muestra cómo manipular tablas en un documento de Word usando Aspose.Words.Recupera un documento existente, modifica los bordes de la primera tabla y guarda los cambios en un nuevo archivo.
+//ExStepSummary:0: El siguiente código configura el documento y recupera la primera tabla de él.
+//ExStepSummary:1: El siguiente código borra cualquier borde existente de la tabla para prepararse para el nuevo formato.
+//ExStepSummary:2: El siguiente código aplica un borde verde alrededor y dentro de la tabla.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Definir el directorio para el documento
+string dataDir = "Your Document Directory";
+// Cargar el documento
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Obtener la primera tabla del documento
+Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
+
+//ExStep:2-
+// Borrar cualquier frontera existente de la tabla
+table.ClearBorders();
+
+//ExStep:3-
+// Establecer un borde verde alrededor y dentro de la mesa
+table.SetBorders(LineStyle.Single, 1.5, Color.Green);
+// Guardar el documento con cambios
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");
+//ExEnd

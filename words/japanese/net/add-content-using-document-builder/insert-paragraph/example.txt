@@ -1,0 +1,44 @@
+//ExStart
+//ExSummaryを選択します。 このコードは、ドキュメントビルダークラスを使用してワードドキュメントを作成する方法を示し、スタイル付き段落を挿入させます。
+//ExStepSummary:0: 以下のコードにより、ドキュメントの作成用にドキュメントおよびドキュメント作成器が初期化されます。
+//ExStepSummary:1: 段落のフォントの設定は、次のコードで設定できます。
+//ExStepSummary:2: 以下のコードにより、配置と字下げに関する段落書式の設定が確立されます。
+//ExStepSummary:3: 以下のコードは、ドキュメントに段落を書き込みます。
+//ExStepSummary:4: 以下のコードは、ドキュメントを .docx ファイルとして保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 新しい文書オブジェクトを初期化
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 文書ビルダーのフォント設定にアクセス
+Font font = builder.Font;
+// フォントサイズを 16 にします
+font.Size = 16;
+// フォントを太字にします
+font.Bold = true;
+// フォントの色を青に設定
+font.Color = Color.Blue;
+// フォント名をアーナルに設定
+font.Name = "Arial";
+// フォントに点線を付けます
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+// 段落の書式設定にアクセス
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.FirstLineIndent = 8;
+paragraphFormat.Alignment = ParagraphAlignment.Justify;
+paragraphFormat.KeepTogether = true;
+
+//ExStep:3-
+// ドキュメントにテキストの段落を書き込む
+builder.Writeln("A whole paragraph.");
+
+//ExStep:4-
+// ドキュメントを .docx ファイルとして保存します
+doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
+//ExEnd

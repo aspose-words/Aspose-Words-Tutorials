@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Tento kód ukazuje, jak použít formátování řádku v dokumentu Word pomocí Aspose.Words.
+//ExStepSummary:0: Inicializuje nový dokument a začne stavět tabulku s formátovanými řádky.
+//ExStepSummary:1: Nastaví formát řádku.
+//ExStepSummary:2: Nastavuje konkrétní nastavení výšky.
+//ExStepSummary:3: Nastavuje vycpávku pro celou tabulku, která ovlivňuje všechny řádky.
+//ExStepSummary:4: Zapíše text do buňky stolu a ukončí řádek.
+//ExStepSummary:5: Dokončí proces budování tabulky a uloží dokument.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Vytvořit nový dokument
+Document doc = new Document();
+// Vytvořit dokumentBuilder pro úpravu dokumentu
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Spustit nový stůl
+Table table = builder.StartTable();
+// Vložit novou buňku do tabulky
+builder.InsertCell();
+//ExStep:2-
+// Přístup k vlastnosti formátování řádku
+RowFormat rowFormat = builder.RowFormat;
+// Nastavit výšku řady
+rowFormat.Height = 100;
+// Upřesněte, že výška je přesná.
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// Nastavit vycpávku na stůl
+table.LeftPadding = 30; 
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// Zapsat text do buňky
+builder.Writeln("I'm a wonderful formatted row.");
+// Ukončit aktuální řádek
+builder.EndRow();
+// Ukončete budovu stolu.
+builder.EndTable();
+
+//ExStep:5-
+// Uložit dokument
+doc.Save("WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
+//ExEnd

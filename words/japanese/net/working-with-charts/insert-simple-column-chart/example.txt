@@ -1,0 +1,57 @@
+//ExStart
+//ExSummary: シンプルな列グラフをワードドキュメントに挿入する方法を見つけるには、次のコードをチェックしてください。このコードを IDE にコピーして実行してください。
+//ExStepSummary:0: このコードは、Asfof.wordsを使ってワード文書を作成する方法を示します。
+//ExStepSummary:1: このコードは、単語の内容を操作するための文書作成オブジェクトを作成する方法を示します。
+//ExStepSummary:2: このコードは、指定した寸法でドキュメントに列グラフシェイプを挿入する方法を示します。
+//ExStepSummary:3: このコードは、挿入したシェイプからグラフオブジェクトを取得し、さらにカスタマイズします。
+//ExStepSummary:4: このコードは、チャート系列のコレクションにアクセスし、系列のカウントを印刷する方法を示します。
+//ExStepSummary:5: このコードは、グラフで作成されている可能性があります。
+//ExStepSummary:6: このコードは、グラフのデータのカテゴリ名を定義する方法を示すものです。
+//ExStepSummary:7: このコードは、対応するカテゴリ名とデータ値を持つグラフにシリーズを追加する方法を示します。
+//ExStepSummary:8: このコードは、挿入したグラフを指定したファイルに保存します。
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:7:images/4.png
+//ExStep:0-
+// 新しい Word ドキュメントインスタンスを作成します。
+Document doc = new Document();
+
+//ExStep:1-
+// ドキュメントビルダーを作成して、ドキュメントに要素を挿入しやすくします。
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// 一定の幅 (432) と高さ (252) の列グラフシェイプを挿入します。
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:3-
+// グラフオブジェクトを形から取得し、さらに操作します。
+Chart chart = shape.Chart;
+
+//ExStep:4-
+// チャートの連続コレクションにアクセスします。
+ChartSeriesCollection seriesColl = chart.Series;
+// 表内の系列番号をコンソールに出力します。
+Console.WriteLine(seriesColl.Count);
+
+//ExStep:5-
+// グラフが作成されたときに自動的に生成されたデフォルトの系列を削除します。
+seriesColl.Clear();
+
+//ExStep:6-
+// グラフデータにおけるカテゴリ名を指定します。
+string[] categories = new string[] { "Category 1", "Category 2" };
+
+//ExStep:7-
+// グラフに複数の系列を、カテゴリ名とデータ値で追加します。
+seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
+seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
+seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
+seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
+seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
+
+//ExStep:8-
+// ドキュメントに挿入したグラフを指定したファイルパスに保存します。
+doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
+//ExEnd

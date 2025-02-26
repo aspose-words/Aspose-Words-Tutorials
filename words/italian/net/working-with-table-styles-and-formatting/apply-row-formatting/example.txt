@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Questo codice dimostra come applicare la formattazione delle righe in un documento di Word usando Aspose.Words.
+//ExStepSummary:0: Inizializza un nuovo documento e inizia a costruire una tabella con righe formattate.
+//ExStepSummary:1: Configura il formato riga.
+//ExStepSummary:2: Configura le impostazioni specifiche dell'altezza.
+//ExStepSummary:3: Imposta l'imbottitura dell'intera tabella su tutte le righe.
+//ExStepSummary:4: Scrive testo nella cella della tabella e termina la riga.
+//ExStepSummary:5: Completa il processo di costruzione della tabella e salva il documento.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Crea un nuovo documento
+Document doc = new Document();
+// Crea un DocumentBuilder per modificare il documento
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Avvia una nuova tabella
+Table table = builder.StartTable();
+// Inserire una nuova cella nella tabella
+builder.InsertCell();
+//ExStep:2-
+// Accedere alle proprietà di formattazione riga
+RowFormat rowFormat = builder.RowFormat;
+// Imposta l'altezza della riga
+rowFormat.Height = 100;
+// Specifica che l'altezza è esatta
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// Imbottitura set per il tavolo
+table.LeftPadding = 30; 
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// Scrivi testo nella cella
+builder.Writeln("I'm a wonderful formatted row.");
+// Termina la riga corrente
+builder.EndRow();
+// Termina l'edificio della tavola
+builder.EndTable();
+
+//ExStep:5-
+// Salva il documento
+doc.Save("WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
+//ExEnd

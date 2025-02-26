@@ -1,0 +1,40 @@
+//ExStart
+//ExSummaryが表示されます。このコードは、フォーム (テキストボックス) を Assoft.words を使ってワードドキュメントに挿入する方法を示します。ドキュメントは DOCX 形式で、 ISO 標準の固有オプションで保存されます。
+//ExStepSummary:0: コードは、ドキュメントを操作するための新しいドキュメントと文書作成の初期化を行います。
+//ExStepSummary:1: シェイプ (テキストボックス) は、ドキュメント内で絶対位置に挿入され、最初のシェイプの回転が 30 度に設定されます。
+//ExStepSummary:2: 新しい 形 は 相対 的 な 位置 に 挿入 さ れ , 第 二 の 形 の 回転 も 30 度 に セット さ れ ます。
+//ExStepSummary:3: この文書は特定の Oxxml DOOTOptions で保存されます。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// 新しい文書インスタンスを作成
+Document doc = new Document();
+// ドキュメント作成プログラムを初期化
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// テキストブロックのシェイプを挿入します
+Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
+    RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
+// シェイプを 30 度回転
+shape.Rotation = 30.0;
+
+//ExStep:2-
+builder.Writeln();
+// 比較位置にテキストブロックの別のシェイプを挿入します
+shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
+// 2 番目のシェイプを 30 度回転
+shape.Rotation = 30.0;
+
+//ExStep:3-
+// ドキュメントの保存オプションを準備します
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
+{
+    Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
+};
+
+// 指定した保存オプションを使ってドキュメントを保存します
+doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
+//ExEnd

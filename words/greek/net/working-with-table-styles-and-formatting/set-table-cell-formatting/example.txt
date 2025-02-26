@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Ο παρακάτω κώδικας δείχνει πώς να δημιουργήσετε και να διαμορφώσετε έναν πίνακα σε ένα έγγραφο Word χρησιμοποιώντας την κατηγορία DocumentBuilder από Aspose.Words.
+//ExStepSummary:0: Αρχικοποιήστε ένα νέο Document and DocumentBuilder για να ξεκινήσετε την κατασκευή του εγγράφου Word.
+//ExStepSummary:1: Δημιουργήστε έναν πίνακα και εισάγετε ένα κελί για τη μορφοποίηση.
+//ExStepSummary:2: Ορισμός των ιδιοτήτων μορφοποίησης για το κύτταρο, συμπεριλαμβανομένης της συσκευασίας και του πλάτους.
+//ExStepSummary:3: Εισάγετε κείμενο στο σχηματοποιημένο κελί.
+//ExStepSummary:4: Τερματισμός της γραμμής και του πίνακα και αποθήκευση του εγγράφου σε μια καθορισμένη διαδρομή αρχείου.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Δημιουργία ενός νέου αντικειμένου εγγράφου
+Document doc = new Document();
+// Αρχικοποίηση του εγγράφουBuilder με το νέο έγγραφο
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Αρχίστε τη δημιουργία ενός πίνακα
+builder.StartTable();
+// Εισάγετε το πρώτο κελί στον πίνακα
+builder.InsertCell();
+
+//ExStep:2-
+// Πρόσβαση στις ιδιότητες μορφοποίησης του κυττάρου
+CellFormat cellFormat = builder.CellFormat;
+// Ρύθμιση του πλάτους του κυττάρου
+cellFormat.Width = 250;
+// Ρυθμίστε την επένδυση
+cellFormat.LeftPadding = 30;
+cellFormat.RightPadding = 30;
+cellFormat.TopPadding = 30;
+cellFormat.BottomPadding = 30;
+
+//ExStep:3-
+// Εισαγωγή κειμένου στο κελί
+builder.Writeln("I'm a wonderful formatted cell.");
+
+//ExStep:4-
+// Τερματισμός της τρέχουσας γραμμής του πίνακα
+builder.EndRow();
+// Τερματισμός της δημιουργίας πίνακα
+builder.EndTable();
+// Αποθήκευση του εγγράφου
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");
+//ExEnd

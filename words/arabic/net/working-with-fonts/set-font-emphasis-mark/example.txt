@@ -1,0 +1,39 @@
+//ExStart
+//ExSummaryيوضح هذا الرمز كيفية تعيين علامة تركيز في مستند Word باستخدام Apose.words.
+//ExStepSummary:0:إنشاء مثيل مستند جديد للعمل معه.
+//ExStepSummary:1:إعداد DocumentBuilder لمعالجة المستند.
+//ExStepSummary:2:تطبيق علامة التركيز على الخط من باني.
+//ExStepSummary:3:كتابة نص التأكيد على المستند.
+//ExStepSummary:4:كتابة نص بسيط دون أي تركيز.
+//ExStepSummary:5: يحفظ هذا الرمز المستند مع علامة التأكيد على الخط.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// أنشئ مستندًا جديدًا
+Document document = new Document();
+
+//ExStep:1-
+// تهيئة DocumentBuilder لمعالجة المستندات
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:2-
+// وضع علامة التركيز على UnderSolidCircle
+builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
+
+//ExStep:3-
+// اكتب نص التأكيد على المستند
+builder.Write("Emphasis text");
+// انتقل إلى السطر التالي
+builder.Writeln();
+// امسح تنسيق الخط للنص اللاحق
+builder.Font.ClearFormatting();
+
+//ExStep:4-
+// كتابة نص بسيط دون التركيز
+builder.Write("Simple text");
+
+//ExStep:5-
+// احفظ المستند إلى المسار المحدد
+document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
+//ExEnd

@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: Этот код показывает, как применять очертания границы к таблице в документе Word с использованием Aspose.Words. Он центрирует таблицу на странице, устанавливает зеленую границу вокруг стола, очищает любые существующие границы и заполняет таблицы светло-зеленым фоновым цветом. 
+//ExStepSummary:0: Приводимый ниже код инициализирует документ и извлекает первую таблицу.
+//ExStepSummary:1: Этот шаг приводит таблицу в соответствие с центром страницы.
+//ExStepSummary:2: Этот шаг очищает любые существующие границы от столика.
+//ExStepSummary:3: Этот шаг устанавливает зеленую границу вокруг стола, но не внутри.
+//ExStepSummary:4: Этот шаг заполняет клетки светло-зеленым твердым цветом.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Определить каталог документа
+string dataDir = "Your Document Directory";
+// Загрузить документ
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Изъятие первой таблицы из документа
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+// Привязать стол к центру страницы
+table.Alignment = TableAlignment.Center;
+
+//ExStep:2-
+// Очистить любые существующие границы от стола
+table.ClearBorders();
+
+//ExStep:3-
+// Настроить левую границу
+table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
+// Установить правую границу
+table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
+// Установить верхнюю границу
+table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
+// Установить нижнюю границу
+table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
+
+//ExStep:4-
+// Заполните клетки светло-зеленым цветом
+table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
+// Сохранить измененный документ
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
+//ExEnd

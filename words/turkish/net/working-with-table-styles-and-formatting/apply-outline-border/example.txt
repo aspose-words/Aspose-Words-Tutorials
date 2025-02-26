@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: Bu kod, Aspose.Words kullanarak bir Word belgesindeki bir tabloya bir anahat sınırının nasıl uygulanacağını gösterir. Tabloyu sayfada merkezler, tablonun etrafında yeşil bir sınır belirler, mevcut sınırları temizler ve tablo hücrelerini açık yeşil arka plan rengiyle doldurur. 
+//ExStepSummary:0: Aşağıdaki kod belgeyi başlatır ve ilk tabloyu alır.
+//ExStepSummary:1: Bu adım, tabloyu sayfanın merkezine hizalar.
+//ExStepSummary:2: Bu adım, mevcut sınırları masadan temizler.
+//ExStepSummary:3: Bu adım, masanın etrafında yeşil bir sınır oluşturur, ancak içeride değil.
+//ExStepSummary:4: Bu adım hücreleri açık yeşil bir katı renkle doldurur.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Belgenin dizinini tanımla
+string dataDir = "Your Document Directory";
+// Belgeyi yükle
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Belgeden ilk tabloyu al
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+// Tabloyu sayfanın ortasına hizala
+table.Alignment = TableAlignment.Center;
+
+//ExStep:2-
+// Mevcut sınırları tablodan temizle
+table.ClearBorders();
+
+//ExStep:3-
+// Sol sınırı ayarla
+table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
+// Sağ sınırı ayarla
+table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
+// Üst sınırı ayarla
+table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
+// Alt sınırı ayarla
+table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
+
+//ExStep:4-
+// Hücreleri açık yeşil renkle doldurun
+table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
+// Değiştirilen belgeyi kaydet
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
+//ExEnd

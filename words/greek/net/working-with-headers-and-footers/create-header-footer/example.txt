@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο Word με μια κύρια κεφαλίδα και υποσέλιδο χρησιμοποιώντας Aspose.Words. Αρχικοποιήσει ένα νέο έγγραφο, κινείται στην κεφαλίδα και footer τμήματα, και γράφει προσαρμοσμένο κείμενο. Τέλος, αποθηκεύει το έγγραφο ως αρχείο DOCX.
+//ExStepSummary:0: Ο ακόλουθος κώδικας αρχικοποιήσει το κύριο αντικείμενο του εγγράφου και δημιουργεί το DocumentBuilder.
+//ExStepSummary:1: Ο παρακάτω κώδικας κινείται στην κύρια ενότητα κεφαλίδας και γράφει το κείμενο κεφαλίδας.
+//ExStepSummary:2: Ο παρακάτω κώδικας κινείται στην κύρια ενότητα υποσέλιδο και γράφει το κείμενο υποσέλιδο.
+//ExStepSummary:3: Ο ακόλουθος κώδικας αποθηκεύει το έγγραφο σε μια καθορισμένη διαδρομή αρχείου.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Αρχικοποίηση ενός νέου αντικειμένου εγγράφου
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Μετακίνηση στην κύρια ενότητα κεφαλίδας
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("Header for page.");
+
+//ExStep:2-
+// Μετακίνηση στο κύριο τμήμα υποσέλιδο
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+builder.Write("Footer for page."); // Write the footer text
+
+//ExStep:3-
+// Αποθήκευση του εγγράφου με το καθορισμένο όνομα αρχείου
+doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
+//ExEnd

@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Este código muestra cómo insertar una imagen en el encabezado de un documento de Word usando Aspose.Words para .NET.
+//ExStepSummary:0: Cree un nuevo documento de Word con la clase Documento de Aspose.Words.
+//ExStepSummary:1: Mueva a la cabecera principal del documento utilizando el DocumentBuilder.
+//ExStepSummary:2: Inserte una imagen en el encabezado con opciones específicas de alineación, dimensiones y envoltura.
+//ExStepSummary:3: Guarde el documento en una ruta de archivo especificada.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Crear un nuevo documento de Word
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Mueva el cursor al encabezado principal del documento
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+// Insertar una imagen en el encabezado con alineación y dimensiones específicas
+builder.InsertImage(
+    ImagesDir + "Logo.jpg", RelativeHorizontalPosition.RightMargin, 10,
+    RelativeVerticalPosition.Page, 10, 50, 50, 
+    WrapType.Through
+);
+
+//ExStep:3-
+// Guardar el documento en la ruta especificada
+doc.Save("WorkingWithHeadersAndFooters.InsertImage.docx");
+//ExEnd

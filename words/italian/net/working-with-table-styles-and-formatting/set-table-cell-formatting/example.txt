@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Il seguente codice mostra come creare e formattare una tabella in un documento Word utilizzando la classe DocumentBuilder da Aspose.Words.
+//ExStepSummary:0: Inizializzare un nuovo documento e DocumentBuilder per iniziare a costruire il documento Word.
+//ExStepSummary:1: Crea una tabella e inserisci una cella per la formattazione.
+//ExStepSummary:2: Impostare le proprietà di formattazione per la cella, compresa l'imbottitura e la larghezza.
+//ExStepSummary:3: Inserire il testo nella cella formattata.
+//ExStepSummary:4: Termina la riga e la tabella, e salva il documento in un percorso di file specificato.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Creazione di un nuovo oggetto Documento
+Document doc = new Document();
+// Inizializzazione del documentoCostruisci con il nuovo documento
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Iniziare a creare una tabella
+builder.StartTable();
+// Inserisci la prima cella nella tabella
+builder.InsertCell();
+
+//ExStep:2-
+// Accesso alle proprietà di formattazione della cella
+CellFormat cellFormat = builder.CellFormat;
+// Impostazione della larghezza della cella
+cellFormat.Width = 250;
+// Imposta l'imbottitura
+cellFormat.LeftPadding = 30;
+cellFormat.RightPadding = 30;
+cellFormat.TopPadding = 30;
+cellFormat.BottomPadding = 30;
+
+//ExStep:3-
+// Inserimento del testo nella cella
+builder.Writeln("I'm a wonderful formatted cell.");
+
+//ExStep:4-
+// Fine della riga corrente della tabella
+builder.EndRow();
+// Terminare la creazione della tabella
+builder.EndTable();
+// Salvataggio del documento
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");
+//ExEnd

@@ -1,0 +1,26 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan bagaimana membuat dokumen Word dan menyisipkan gambar dengan tata letak mengambang menggunakan Aspose.Words.
+//ExStepSummary:0: Kode berikut menginisialisasi Dokumen dan Dokumen Builder baru.
+//ExStepSummary:1: Kode berikut menyisipkan gambar ke dalam dokumen.
+//ExStepSummary:2: Kode berikut menyimpan dokumen ke lokasi yang ditentukan.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+// Buat instansi Dokumen baru
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Sisipkan gambar dari lokasi yang ditentukan
+builder.InsertImage(ImagesDir + "Transparent background logo.png", 
+    RelativeHorizontalPosition.Margin,
+    100, 
+    RelativeVerticalPosition.Margin, 
+    100, 
+    200, 
+    100, 
+    WrapType.Square); 
+
+//ExStep:2-
+// Simpan dokumen ke berkas yang dinyatakan
+doc.Save("AddContentUsingDocumentBuilder.InsertFloatingImage.docx");
+//ExEnd

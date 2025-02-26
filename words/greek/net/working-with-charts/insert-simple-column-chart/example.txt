@@ -1,0 +1,57 @@
+//ExStart
+//ExSummary:Παρακαλώ ελέγξτε τον παρακάτω κωδικό για να βρείτε πώς να εισάγετε ένα απλό διάγραμμα στήλης σε ένα έγγραφο Word. Μπορείτε να αντιγράψετε αυτόν τον κωδικό στο IDE σας και να τον εκτελέσετε.
+//ExStepSummary:0: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words και εισάγετε ένα διάγραμμα στήλης σε αυτό.
+//ExStepSummary:1: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα αντικείμενο οικοδόμος εγγράφων για τη χειραγώγηση του περιεχομένου του Word.
+//ExStepSummary:2: Ο κωδικός αυτός δείχνει πώς να εισάγετε ένα σχήμα διαγράμματος στήλης με συγκεκριμένες διαστάσεις στο έγγραφο.
+//ExStepSummary:3: Αυτός ο κώδικας ανακτά το αντικείμενο του χάρτη από το εισάγον σχήμα για περαιτέρω προσαρμογή.
+//ExStepSummary:4: Αυτός ο κώδικας δείχνει πώς να αποκτήσετε πρόσβαση στη συλλογή των σειρών διαγραμμάτων και να εκτυπώσετε τον αριθμό των σειρών.
+//ExStepSummary:5: Αυτός ο κώδικας καθαρίζει κάθε προεπιλεγμένη σειρά που μπορεί να έχει δημιουργηθεί με το διάγραμμα.
+//ExStepSummary:6: Αυτός ο κώδικας δείχνει πώς να καθορίσετε τα ονόματα κατηγορίας για τα δεδομένα του χάρτη.
+//ExStepSummary:7: Αυτός ο κώδικας δείχνει πώς να προσθέσετε σειρές στο διάγραμμα με αντίστοιχες ονομασίες κατηγορίας και τιμές δεδομένων.
+//ExStepSummary:8: Αυτός ο κωδικός αποθηκεύει το έγγραφο με το εισάγον διάγραμμα σε ένα συγκεκριμένο αρχείο.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:7:images/4.png
+//ExStep:0-
+// Δημιουργήστε ένα νέο παράδειγμα εγγράφου του Word.
+Document doc = new Document();
+
+//ExStep:1-
+// Δημιουργήστε ένα DocumentBuilder για να εισάγετε εύκολα στοιχεία στο έγγραφο.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// Εισάγετε ένα σχήμα διαγράμματος στήλης με καθορισμένο πλάτος (432) και ύψος (252).
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:3-
+// Ανακτήστε το αντικείμενο του χάρτη από το σχήμα για περαιτέρω χειραγώγηση.
+Chart chart = shape.Chart;
+
+//ExStep:4-
+// Πρόσβαση στη συλλογή σειράς του γραφήματος.
+ChartSeriesCollection seriesColl = chart.Series;
+// Εκτυπώστε τον αριθμό της σειράς στο διάγραμμα στην κονσόλα.
+Console.WriteLine(seriesColl.Count);
+
+//ExStep:5-
+// Απομακρύνετε κάθε προεπιλεγμένη σειρά που δημιουργήθηκε αυτόματα όταν δημιουργήθηκε το διάγραμμα.
+seriesColl.Clear();
+
+//ExStep:6-
+// Ορισμός μιας σειράς ονομάτων κατηγορίας για τα δεδομένα του χάρτη.
+string[] categories = new string[] { "Category 1", "Category 2" };
+
+//ExStep:7-
+// Προσθέστε πολλαπλές σειρές στο διάγραμμα με ονόματα κατηγορίας και τιμές δεδομένων.
+seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
+seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
+seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
+seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
+seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
+
+//ExStep:8-
+// Αποθήκευση του εγγράφου με το παρεμβλημένο διάγραμμα στην καθορισμένη διαδρομή αρχείου.
+doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
+//ExEnd

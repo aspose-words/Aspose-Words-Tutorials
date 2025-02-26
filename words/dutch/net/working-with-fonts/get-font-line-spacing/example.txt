@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: Deze code laat zien hoe je een document aanmaakt en de regelafstand van een opgegeven lettertype krijgt.
+//ExStepSummary:0: De volgende code initialiseert een nieuw Document en DocumentBuilder.
+//ExStepSummary:1: De code stelt het lettertype in op "Calibri" en voegt een regel tekst toe.
+//ExStepSummary:2: De code haalt de regelafstand van de eerste run in het document op.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Een nieuwe document-instantie aanmaken
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Lettertypenaam instellen op 'Calibri'
+builder.Font.Name = "Calibri";
+builder.Writeln("qText");
+
+//ExStep:2-
+// Toegang tot het lettertype van de eerste run
+Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
+// Voer de regelafstand naar de console uit
+Console.WriteLine($"lineSpacing = {font.LineSpacing}");
+//ExEnd

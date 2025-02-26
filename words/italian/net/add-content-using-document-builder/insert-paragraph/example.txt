@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Questo codice dimostra come creare un documento Word utilizzando la classe DocumentBuilder e inserire un paragrafo in stile.
+//ExStepSummary:0: Il seguente codice inizializza un documento e un documentoCostruisci per la creazione di un documento.
+//ExStepSummary:1: Il seguente codice configura le impostazioni del carattere per il paragrafo.
+//ExStepSummary:2: Il seguente codice stabilisce le impostazioni del formato del paragrafo per l'allineamento e l'indentazione.
+//ExStepSummary:3: Il seguente codice scrive un paragrafo nel documento.
+//ExStepSummary:4: Il seguente codice salva il documento come file .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Inizializza un nuovo oggetto documento
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Accedere alle impostazioni del font di DocumentBuilder
+Font font = builder.Font;
+// Imposta la dimensione del carattere a 16
+font.Size = 16;
+// Rendi il carattere in grassetto
+font.Bold = true;
+// Imposta il colore del carattere a blu
+font.Color = Color.Blue;
+// Imposta il nome del carattere a Arial
+font.Name = "Arial";
+// Aggiunge una sottolineatura tratteggiata al carattere
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+// Accedere alle impostazioni del formato del paragrafo
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.FirstLineIndent = 8;
+paragraphFormat.Alignment = ParagraphAlignment.Justify;
+paragraphFormat.KeepTogether = true;
+
+//ExStep:3-
+// Scrivi un paragrafo del testo nel documento
+builder.Writeln("A whole paragraph.");
+
+//ExStep:4-
+// Salva il documento come file .docx
+doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
+//ExEnd

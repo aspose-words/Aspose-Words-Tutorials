@@ -1,0 +1,67 @@
+//ExStart
+//ExSummary: Denna kod visar hur man skapar en gruppform i ett dokument med Aspose.Words.
+// Det skapar en accent kant callout form och en åtgärdsknapp, lägger till dem till en grupp form, och sedan infogar gruppformen i dokumentet innan du sparar den.
+//ExStepSummary:0: Initialiserar ett nytt dokument och säkerställer att minimikraven uppfylls.
+//ExStepSummary:1: Skapar en GroupShape som kommer att hålla andra former.
+//ExStepSummary:2: Lägger till en accent kant callout form till gruppformen.
+//ExStepSummary:3: Lägger till en actionknappsform i gruppformen.
+//ExStepSummary:4: Ställer in mått och koordinater för gruppformen.
+//ExStepSummary:5: Infogar gruppformen i dokumentet med hjälp av en DocumentBuilder.
+//ExStepSummary:6: Sparar dokumentet som innehåller gruppformen till en angiven plats.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStep:0-
+// Skapa ett nytt dokument
+Document doc = new Document();
+// Se till att dokumentet uppfyller minimikraven
+doc.EnsureMinimum();
+
+//ExStep:1-
+// Skapa en ny instans för GroupShape
+GroupShape groupShape = new GroupShape(doc);
+
+//ExStep:2-
+// Skapa en accent kant callout form
+Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
+{
+    Width = 100, 
+    Height = 100
+};
+// Lägg till formen i gruppformen
+groupShape.AppendChild(accentBorderShape);
+
+//ExStep:3-
+// Skapa en åtgärdsknapp form
+Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
+{
+	// Ställ in formens vänstra position
+    Left = 100, 
+	// Ställ in formens bredd
+    Width = 100, 
+	// Ställ in formens höjd
+    Height = 200
+};
+// Lägg till åtgärdsknappen i gruppform
+groupShape.AppendChild(actionButtonShape);
+
+//ExStep:4-
+// Ställ in bredden på gruppformen
+groupShape.Width = 200;
+// Ställ in gruppformens höjd
+groupShape.Height = 200;
+// Ställ in koordinatstorleken för gruppformen
+groupShape.CoordSize = new Size(200, 200);
+
+//ExStep:5-
+// Skapa en DocumentBuilder för att manipulera dokumentet
+DocumentBuilder builder = new DocumentBuilder(doc);
+// Infoga gruppform i dokumentet
+builder.InsertNode(groupShape);
+
+//ExStep:6-
+// Spara dokumentet till en angiven plats
+doc.Save("WorkingWithShapes.AddGroupShape.docx");
+//ExEnd

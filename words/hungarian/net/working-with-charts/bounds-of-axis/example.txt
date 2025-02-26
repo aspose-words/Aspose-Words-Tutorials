@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan hozhat létre egy dokumentumot egy diagrammal az Aspose.Words segítségével, állítsa be az Y tengely határait, és mentse a dokumentumot DOCX fájlként. 
+// Minden lépés le van bontva, hogy világos megértést nyújtson az Aspose.Words diagramjaival való munka folyamatáról.
+//ExStepSummary:0: Új dokumentum és DocumentBuilder példány inicializálása. 
+//ExStepSummary:1: Helyezzen be egy diagramot a dokumentumba, és keresse meg a diagram objektumot. 
+//ExStepSummary:2: Új sorozat hozzáadása a diagramhoz a megadott kategóriákkal és értékekkel. 
+//ExStepSummary:3: Állítsa be a diagram Y tengelyének minimális és maximális határait. 
+//ExStepSummary:4: Mentse a dokumentumot a megadott útvonalra. 
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Új dokumentumpéldány létrehozása.
+Document doc = new Document();
+// A DocumentBuilder inicializálása a dokumentum létrehozásához.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Helyezzen be egy oszlopdiagramot a dokumentumba.
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+// A diagramobjektum lekérése az alakzatról.
+Chart chart = shape.Chart;
+// Törölje a meglévő sorozatokat a diagramból a friss adatokért.
+chart.Series.Clear();
+
+//ExStep:2-
+// Definiáljon egy új sorozatot az "Aspose Series 1" névvel.
+chart.Series.Add("Aspose Series 1",
+    new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
+    new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
+
+//ExStep:3-
+// Állítsa be az Y tengely legkisebb határát.
+chart.AxisY.Scaling.Minimum = new AxisBound(0);
+chart.AxisY.Scaling.Maximum = new AxisBound(6);
+
+//ExStep:4-
+// Mentse a dokumentumot a diagrammal a megadott elérési útra.
+doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
+//ExEnd

@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary:Questo codice dimostra come creare un documento di Word usando Aspose.Words e aggiungere una regola orizzontale ad esso. 
+//ExStepSummary:0: Crea un nuovo oggetto Documento per contenere il contenuto.
+//ExStepSummary:1: Usa DocumentBuilder per progettare il layout del documento e inserire un messaggio.
+//ExStepSummary:2: Inserire una forma di regola orizzontale nel documento.
+//ExStepSummary:3: Salva il documento nel percorso del file specificato.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Crea un nuovo oggetto Documento per contenere il contenuto
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc); 
+
+//ExStep:1-
+// Scrivi una riga nel documento
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+// Inserire una forma di regola orizzontale nel documento
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+// Salva il documento nella posizione specificata
+doc.Save("AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Dieser Code zeigt, wie man ein Word-Dokument mit der DocumentBuilder-Klasse erstellt und einen stilisierten Absatz darin eingefügt.
+//ExStepSummary:0: Der folgende Code initialisiert ein Dokument und einen DocumentBuilder für die Dokumenterstellung.
+//ExStepSummary:1: Der folgende Code konfiguriert die Schrifteinstellungen für den Absatz.
+//ExStepSummary:2: Der folgende Code legt die Absatzformateinstellungen für Ausrichtung und Einrückung fest.
+//ExStepSummary:3: Der folgende Code schreibt einen Absatz in das Dokument.
+//ExStepSummary:4: Der folgende Code speichert das Dokument als .docx-Datei.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Initialisieren eines neuen Dokumentobjekts
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Zugriff auf die Schrifteinstellungen des DocumentBuilders
+Font font = builder.Font;
+// Setzen Sie die Schriftgröße auf 16
+font.Size = 16;
+// Die Schriftart fett machen
+font.Bold = true;
+// Setzen Sie die Schriftfarbe auf blau
+font.Color = Color.Blue;
+// Setzen Sie den Schriftnamen auf Arial
+font.Name = "Arial";
+// Fügen Sie der Schriftart eine gestrichelte Unterstreichung hinzu
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+// Zugriff auf die Absatzformateinstellungen
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.FirstLineIndent = 8;
+paragraphFormat.Alignment = ParagraphAlignment.Justify;
+paragraphFormat.KeepTogether = true;
+
+//ExStep:3-
+// Schreiben Sie einen Textabschnitt in das Dokument
+builder.Writeln("A whole paragraph.");
+
+//ExStep:4-
+// Dokument als .docx-Datei speichern
+doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
+//ExEnd

@@ -1,0 +1,34 @@
+//ExStart
+//ExSummary:Kode ini menunjukkan bagaimana membuat dokumen Word menggunakan Aspose.Words, memformat properti fonta sebelum menulis suatu teks cuplikan ke dalamnya.
+//ExStepSummary:0: Kode berikut menginisialisasi Dokumen baru dan Dokumen Builder.
+//ExStepSummary:1: Kode berikut ini menetapkan berbagai sifat fonta seperti ukuran, tebal, warna, nama, dan gaya garis bawah.
+//ExStepSummary:2: Kode berikut menulis contoh teks ke dokumen menggunakan pengaturan fonta yang dikonfigurasi.
+//ExStepSummary:3: Kode berikut menyimpan dokumen ke direktori yang dinyatakan dengan nama berkas yang diberikan.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Buat instansi dokumen baru
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Akses properti fonta melalui DokumenBuilder
+Font font = builder.Font;
+// Menentukan ukuran fonta menjadi 16
+font.Size = 16;
+// Buat huruf tebal
+font.Bold = true;
+// Ubah warna fonta ke biru
+font.Color = Color.Blue;
+// Tata fonta ke Arial
+font.Name = "Arial";
+// Terapkan gaya garis bawah garis bawah ke fonta
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+builder.Write("Sample text.");
+
+//ExStep:3-
+// Simpan dokumen ke direktori artefak
+doc.Save("WorkingWithFonts.FontFormatting.docx");
+//ExEnd

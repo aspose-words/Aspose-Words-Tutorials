@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: El siguiente código muestra cómo crear un documento de Word con una celda de tabla formateada que incluye relleno alrededor de su contenido.
+//ExStepSummary:0: El siguiente código inicializa un nuevo documento y un generador de documentos.
+//ExStepSummary:1: El siguiente código inicia una tabla dentro del documento.
+//ExStepSummary:2: El siguiente código inserta una celda en la tabla.
+//ExStepSummary:3: El siguiente código establece el relleno para el contenido de la celda.
+//ExStepSummary:4: El siguiente código agrega texto a la celda y termina la fila actual.
+//ExStepSummary:5: El siguiente código finaliza la tabla y guarda el documento en un archivo.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Inicializa un nuevo documento
+Document doc = new Document();
+// Crear un generador de documentos para manipular el documento
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Comience a crear una tabla
+builder.StartTable();
+// Insertar una nueva celda en la tabla
+builder.InsertCell();
+
+//ExStep:2-
+// Establecer relleno con 30 puntos en la parte superior e inferior, 50 puntos en la izquierda y la derecha
+builder.CellFormat.SetPaddings(30, 50, 30, 50);
+
+//ExStep:3-
+builder.Writeln("I'm a wonderful formatted cell.");
+// Finalizar la fila actual en la tabla
+builder.EndRow();
+// Finalizar la mesa
+builder.EndTable();
+
+//ExStep:4-
+// Guardar el documento en un archivo especificado
+doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
+//ExEnd

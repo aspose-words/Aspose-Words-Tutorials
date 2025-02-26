@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan hozhat létre Word-dokumentumot egy stílustáblázattal az Aspose.Words használatával. A táblázat fejléceket és adatsorokat tartalmaz, meghatározott stílusbeállítások szerint formázva.
+//ExStepSummary:0: Inicializáljon egy új Document and DocumentBuilder-t a dokumentumstruktúra kezeléséhez.
+//ExStepSummary:1: Új táblázat indítása a dokumentumban a DocumentBuilder segítségével.
+//ExStepSummary:2: Helyezze be az első cellát, és állítsa be a táblázatstílus-azonosítót.
+//ExStepSummary:3: Alkalmazza a formázási beállításokat a táblára, és állítsa be az automatikus illeszkedési viselkedést.
+//ExStepSummary:4: Fejlécsor cellák hozzáadása a táblázathoz.
+//ExStepSummary:5: Helyezze be az adatsorokat a táblázatba az elem neveivel és mennyiségeivel.
+//ExStepSummary:6: Mentse az összeállított dokumentumot egy fájlba.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// Új dokumentumobjektum létrehozása.
+Document doc = new Document();
+// Hozzon létre egy fejlesztőt a dokumentumgenerálás megkönnyítésére.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Új táblázat indítása a dokumentumban.
+Table table = builder.StartTable();
+
+//ExStep:2-
+// Helyezze be az első cellát a formázás előtt.
+builder.InsertCell();
+// Állítsa be a táblázat stílusazonosítóját.
+table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
+
+
+//ExStep:3-
+// Stílusbeállítások konfigurálása.
+table.StyleOptions = 
+    TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
+// Állítsa be az asztal automatikus illeszkedési viselkedését.	
+table.AutoFit(AutoFitBehavior.AutoFitToContents);
+
+
+//ExStep:4-
+// Írja be az első oszlop fejlécét.
+builder.Writeln("Item");
+// Állítsd be a cellát.
+builder.CellFormat.RightPadding = 40;
+// Helyezze be a második cellát a következő oszlopba.
+builder.InsertCell();
+// Írja be a fejlécet a második oszlophoz.
+builder.Writeln("Quantity (kg)");
+// Vége a sorkészítésnek.
+builder.EndRow();
+
+//ExStep:5-
+// Indítson el egy új sort, és helyezze be az első cellát.
+builder.InsertCell();
+builder.Writeln("Apples");
+builder.InsertCell();
+builder.Writeln("20");
+builder.EndRow();
+ // Helyezze be az új sor első celláját a második elemhez.
+builder.InsertCell();
+builder.Writeln("Bananas");
+builder.InsertCell();
+builder.Writeln("40");
+builder.EndRow();
+// Kezdjen egy új sort a harmadik elemhez.
+builder.InsertCell();
+builder.Writeln("Carrots");
+builder.InsertCell(); 
+builder.Writeln("50");
+builder.EndRow();
+
+//ExStep:6-
+// Mentse a dokumentumot egy megadott fájlba.
+doc.Save("WorkingWithTableStylesAndFormatting.BuildTableWithStyle.docx");
+//ExEnd

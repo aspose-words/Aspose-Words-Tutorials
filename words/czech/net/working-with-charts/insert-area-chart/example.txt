@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: Tento kód ukazuje, jak vložit graf oblasti do dokumentu Word pomocí Aspose.Words.
+//ExStepSummary:0: Následující kód inicializuje nový dokument a stavitel dokumentů.
+//ExStepSummary:1: Následující kód vloží do dokumentu mapu plochy.
+//ExStepSummary:2: Následující kód přidává do grafu řadu se zadanými datovými body.
+//ExStepSummary:3: Následující kód uloží dokument s vloženým grafem plochy.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Vytvořit nový dokument
+Document doc = new Document();
+// Inicializace stavitele dokumentů
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Vložit graf plochy se stanovenými rozměry
+Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
+
+//ExStep:2-
+// Přístup k objektu grafu
+Chart chart = shape.Chart;
+// Přidat novou sérii do grafu
+chart.Series.Add("Aspose Series 1", new [] 
+{
+	// Datový bod 1
+    new DateTime(2002, 05, 01),
+	// Datový bod 2
+    new DateTime(2002, 06, 01),
+	// Datový bod 3
+    new DateTime(2002, 07, 01),
+	// Datový bod 4
+    new DateTime(2002, 08, 01),
+	// Datový bod 5
+    new DateTime(2002, 09, 01)
+}, 
+// Odpovídající hodnoty pro datové body
+new double[] { 32, 32, 28, 12, 15 });
+
+//ExStep:3-
+// Uložit dokument s vloženou mapou
+doc.Save("WorkingWithCharts.InsertAreaChart.docx");
+//ExEnd

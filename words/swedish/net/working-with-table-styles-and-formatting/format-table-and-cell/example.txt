@@ -1,0 +1,63 @@
+//ExStart
+//ExSummary:Denna kod visar hur man skapar ett Word-dokument med en tabell som har olika kant- och skuggstilar för sina celler.
+//ExStepSummary:0: Initiera dokumentet och dokumentbyggaren för att skapa ett nytt Word-dokument.
+//ExStepSummary:1: Starta ett nytt bord och ställ in gränserna för hela bordet.
+//ExStepSummary:2: Lägg till den första cellen med röd bakgrundsskugga och text.
+//ExStepSummary:3: Lägg till den andra cellen med grön bakgrundsskugga och text.
+//ExStepSummary:4: Avsluta den första raden och rensa föregående cellformatering.
+//ExStepSummary:5: Lägg till en ny rad med anpassade större kanter för den första cellen.
+//ExStepSummary:6: Lägg till den andra cellen på den nya raden med standardformatering och text.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Skapa ett nytt dokument.
+Document doc = new Document();
+// Skapa en DocumentBuilder för att manipulera dokumentet.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Starta ett nytt bord.
+Table table = builder.StartTable();
+// Sätt in den första cellen i tabellen.
+builder.InsertCell();
+// Ställ in gränserna för hela bordet.
+table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
+
+//ExStep:2-
+// Ställ in cellens bakgrundsfärg till röd.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
+builder.Writeln("Cell #1");
+// Sätt i den andra cellen.
+builder.InsertCell();
+
+//ExStep:3-
+// Ställ in cellens bakgrundsfärg till grön.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
+builder.Writeln("Cell #2");
+// Avsluta den nuvarande raden.
+builder.EndRow();
+
+//ExStep:4-
+// Rensa alla cellformat för att börja om på nytt.
+builder.CellFormat.ClearFormatting();
+// Sätt in en ny cell i nästa rad.
+builder.InsertCell();
+// Skapa större kanter för den första cellen i denna rad.
+builder.CellFormat.Borders.Left.LineWidth = 4.0;
+builder.CellFormat.Borders.Right.LineWidth = 4.0;
+builder.CellFormat.Borders.Top.LineWidth = 4.0;
+builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
+builder.Writeln("Cell #3");
+//ExStep:5-
+// Sätt in den fjärde cellen.
+builder.InsertCell();
+builder.CellFormat.ClearFormatting();
+builder.Writeln("Cell #4");
+//ExStep:6-
+// Spara dokumentet.
+doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
+//ExEnd

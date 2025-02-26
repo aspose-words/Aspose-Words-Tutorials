@@ -1,0 +1,26 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan hozhat létre Word dokumentumot, és beilleszthet egy lebegő elrendezésű képet az Aspose.Words használatával.
+//ExStepSummary:0: A következő kód egy új Document and DocumentBuilder-t inicializál.
+//ExStepSummary:1: A következő kód beszúr egy képet a dokumentumba.
+//ExStepSummary:2: Az alábbi kód elmenti a dokumentumot egy megadott helyre.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+// Új dokumentumpéldány létrehozása
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Kép beszúrása a megadott útvonalról
+builder.InsertImage(ImagesDir + "Transparent background logo.png", 
+    RelativeHorizontalPosition.Margin,
+    100, 
+    RelativeVerticalPosition.Margin, 
+    100, 
+    200, 
+    100, 
+    WrapType.Square); 
+
+//ExStep:2-
+// A dokumentum mentése a megadott fájlba
+doc.Save("AddContentUsingDocumentBuilder.InsertFloatingImage.docx");
+//ExEnd

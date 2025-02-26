@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Bu kod, DocumentBuilder sınıfını kullanarak bir Word belgesinin nasıl oluşturulacağını ve içine stillendirilmiş bir paragrafın nasıl yerleştirileceğini gösterir.
+//ExStepSummary:0: Aşağıdaki kod, belge oluşturma için bir Belge ve BelgeBuilder'ı başlatır.
+//ExStepSummary:1: Aşağıdaki kod paragraf için yazı tipi ayarlarını yapılandırır.
+//ExStepSummary:2: Aşağıdaki kod, hizalama ve girintileme için paragraf biçimi ayarlarını belirler.
+//ExStepSummary:3: Aşağıdaki kod belgeye bir paragraf yazar.
+//ExStepSummary:4: Aşağıdaki kod belgeyi .docx dosyası olarak kaydeder.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Yeni bir Belge nesnesini başlat
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// DocumentBuilder'ın yazı tipi ayarlarına erişin
+Font font = builder.Font;
+// Yazı tipi boyutunu 16 olarak ayarla
+font.Size = 16;
+// Yazı tipini kalınlaştır
+font.Bold = true;
+// Yazı tipi rengini mavi olarak ayarla
+font.Color = Color.Blue;
+// Yazı tipi adını Arial olarak ayarla
+font.Name = "Arial";
+// Yazı tipine çizgili bir alt çizgi ekle
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+// Paragraf biçimi ayarlarına erişin
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.FirstLineIndent = 8;
+paragraphFormat.Alignment = ParagraphAlignment.Justify;
+paragraphFormat.KeepTogether = true;
+
+//ExStep:3-
+// Belgeye bir metin paragrafı yazın
+builder.Writeln("A whole paragraph.");
+
+//ExStep:4-
+// Belgeyi .docx dosyası olarak kaydet
+doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
+//ExEnd

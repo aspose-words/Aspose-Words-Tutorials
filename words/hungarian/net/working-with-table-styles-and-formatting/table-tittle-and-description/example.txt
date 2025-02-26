@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary:Ez a kód bemutatja, hogyan adhat hozzá egy címet és leírást egy Word- dokumentum táblájához az Aspose.Words használatával.
+//ExStepSummary:0:Ez a lépés inicializálja a dokumentumot, és egy megadott könyvtárból tölti be.
+//ExStepSummary:1:Ez a lépés lekéri az első táblázatot a dokumentumból, és beállítja annak címét és leírását.
+//ExStepSummary:2:Ez a lépés konfigurálja a dokumentum mentési beállításait a megadott megfelelőségi beállításokkal.
+//ExStepSummary:3:Ez a lépés optimalizálja a Word 2016 dokumentum kompatibilitási beállításait.
+//ExStepSummary:4:Ezzel a lépéssel a módosított dokumentum visszakerül a megadott könyvtárba.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Dokumentum inicializálása és betöltése az adatkönyvtárból
+string dataDir = "Your Document Directory";
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Töltse le az első táblázatot, és állítsa be a címet és a leírást
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+table.Title = "Test title";
+table.Description = "Test description";
+
+//ExStep:2-
+// A dokumentum mentési beállításainak konfigurálása
+OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
+
+//ExStep:3-
+// A Word 2016 kompatibilitási lehetőségeinek optimalizálása
+doc.CompatibilityOptions.OptimizeFor(Aspose.Words.Settings.MsWordVersion.Word2016);
+
+//ExStep:4-
+// A módosított dokumentum mentése a megadott könyvtárba
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.TableTitleAndDescription.docx", options);
+//ExEnd

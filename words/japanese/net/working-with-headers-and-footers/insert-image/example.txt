@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: このコードは、Asfof.words.NET を使って、単語ドキュメントのヘッダに画像を挿入する方法を示します。
+//ExStepSummary:0: Assoft.document ドキュメントクラスを使って新しい Word ドキュメントを作成します。
+//ExStepSummary:1: ドキュメント作成プログラムを使用してドキュメントのプライマリヘッダに移動します。
+//ExStepSummary:2: ヘッダーに特定の配置、寸法、折り返しオプションを付けて画像を挿入します。
+//ExStepSummary:3: ドキュメントを指定したファイルパスに保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 新しい Word ドキュメントを作成
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// カーソルをドキュメントのプライマリヘッダに移動
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+// 特定の配置と寸法でヘッダに画像を挿入
+builder.InsertImage(
+    ImagesDir + "Logo.jpg", RelativeHorizontalPosition.RightMargin, 10,
+    RelativeVerticalPosition.Page, 10, 50, 50, 
+    WrapType.Through
+);
+
+//ExStep:3-
+// ドキュメントを指定したパスに保存
+doc.Save("WorkingWithHeadersAndFooters.InsertImage.docx");
+//ExEnd

@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Questo codice dimostra come inserire un'immagine nell'intestazione di un documento Word usando Aspose.Words for .NET.
+//ExStepSummary:0: Crea un nuovo documento Word usando la classe Aspese.Words Document.
+//ExStepSummary:1: Spostare l'intestazione primaria del documento utilizzando DocumentBuilder.
+//ExStepSummary:2: Inserire un'immagine nell'intestazione con specifiche opzioni di allineamento, dimensioni e avvolgimento.
+//ExStepSummary:3: Salva il documento in un percorso di file specificato.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Crea un nuovo documento Word
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Sposta il cursore all'intestazione primaria del documento
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+// Inserire un'immagine nell'intestazione con allineamento e dimensioni specifiche
+builder.InsertImage(
+    ImagesDir + "Logo.jpg", RelativeHorizontalPosition.RightMargin, 10,
+    RelativeVerticalPosition.Page, 10, 50, 50, 
+    WrapType.Through
+);
+
+//ExStep:3-
+// Salva il documento nel percorso specificato
+doc.Save("WorkingWithHeadersAndFooters.InsertImage.docx");
+//ExEnd

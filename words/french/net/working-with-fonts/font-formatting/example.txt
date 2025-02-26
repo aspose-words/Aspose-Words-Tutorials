@@ -1,0 +1,34 @@
+//ExStart
+//ExSummary:Ce code montre comment créer un document Word en utilisant Aspose.Words, formatant les propriétés de la police avant de lui écrire un exemple de texte.
+//ExStepSummary:0: Le code suivant initialise un nouveau Document et un DocumentBuilder.
+//ExStepSummary:1: Le code suivant définit diverses propriétés de police telles que la taille, bold, la couleur, le nom et le style de soulignement.
+//ExStepSummary:2: Le code suivant écrit un exemple de texte dans le document en utilisant les paramètres de police configurés.
+//ExStepSummary:3: Le code suivant enregistre le document dans le répertoire spécifié avec un nom de fichier donné.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Créer une nouvelle instance de document
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Accédez à la propriété de polices via DocumentBuilder
+Font font = builder.Font;
+// Définissez la taille de la police à 16
+font.Size = 16;
+// Faire en sorte que la police soit bold
+font.Bold = true;
+// Changer la couleur de la police en bleu
+font.Color = Color.Blue;
+// Définissez la police à Arial
+font.Name = "Arial";
+// Appliquer un style souligné en tirets à la police
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+builder.Write("Sample text.");
+
+//ExStep:3-
+// Enregistrer le document dans le répertoire des artefacts
+doc.Save("WorkingWithFonts.FontFormatting.docx");
+//ExEnd

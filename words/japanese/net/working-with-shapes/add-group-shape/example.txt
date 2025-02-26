@@ -1,0 +1,67 @@
+//ExStart
+//ExSummaryを選択します。 このコードは、Asfof.words を使ってドキュメント内でグループシェイプを作成する方法を示します。
+// また、アクセント境界の吹き出しやアクションボタンを作成し、それらをグループシェイプに追加し、保存する前にグループシェイプをドキュメントに挿入します。
+//ExStepSummary:0: 新しい文書を初期化し、最低限の要件を確保します。
+//ExStepSummary:1: 他のシェイプを持つグループシェイプを作成します。
+//ExStepSummary:2: グループシェイプにアクセント境界の吹き出しシェイプを追加します。
+//ExStepSummary:3: グループシェイプにアクションボタンシェイプを追加します。
+//ExStepSummary:4: グループシェイプの寸法と座標を設定します。
+//ExStepSummary:5: ドキュメントビルダーを使用してグループシェイプを挿入します。
+//ExStepSummary:6: グループシェイプを含むドキュメントを指定した場所に保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStep:0-
+// 新しい文書を作成
+Document doc = new Document();
+// 文書が最低限の要件を満たすことを確認
+doc.EnsureMinimum();
+
+//ExStep:1-
+// 新しい GroupShape インスタンスを作成
+GroupShape groupShape = new GroupShape(doc);
+
+//ExStep:2-
+// アクセント境界の吹き出しシェイプを作成
+Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
+{
+    Width = 100, 
+    Height = 100
+};
+// シェイプをグループシェイプに追加
+groupShape.AppendChild(accentBorderShape);
+
+//ExStep:3-
+// アクションボタンシェイプを作成
+Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
+{
+	// シェイプの左位置を設定
+    Left = 100, 
+	// シェイプの幅を設定
+    Width = 100, 
+	// シェイプの高さを設定
+    Height = 200
+};
+// アクションボタンをグループシェイプに追加
+groupShape.AppendChild(actionButtonShape);
+
+//ExStep:4-
+// グループシェイプの幅を設定
+groupShape.Width = 200;
+// グループシェイプの高さを設定
+groupShape.Height = 200;
+// グループシェイプの座標のサイズを設定します
+groupShape.CoordSize = new Size(200, 200);
+
+//ExStep:5-
+// ドキュメントを操作するための文書ビルダーを作成
+DocumentBuilder builder = new DocumentBuilder(doc);
+// ドキュメントにグループシェイプを挿入
+builder.InsertNode(groupShape);
+
+//ExStep:6-
+// ドキュメントを指定した場所に保存
+doc.Save("WorkingWithShapes.AddGroupShape.docx");
+//ExEnd

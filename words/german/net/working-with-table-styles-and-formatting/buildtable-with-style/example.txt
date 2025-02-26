@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: Dieser Code zeigt, wie man ein Word-Dokument mit einer stilisierten Tabelle mit Aspose.Words erstellt. Die Tabelle enthält Kopfzeilen und Datenzeilen, die nach bestimmten Stiloptionen formatiert sind.
+//ExStepSummary:0: Initialisieren Sie ein neues Dokument und DocumentBuilder für die Verwaltung der Dokumentenstruktur.
+//ExStepSummary:1: Starten Sie eine neue Tabelle im Dokument mit dem DocumentBuilder.
+//ExStepSummary:2: Fügen Sie die erste Zelle ein und setzen Sie die Tabellenstil-Kennung.
+//ExStepSummary:3: Wenden Sie Formatierungsoptionen auf die Tabelle an und setzen Sie Auto-Fit- Verhalten.
+//ExStepSummary:4: Kopfzeilenzellen zur Tabelle hinzufügen.
+//ExStepSummary:5: Datenzeilen mit Elementnamen und -mengen in die Tabelle einfügen.
+//ExStepSummary:6: Speichern Sie das zusammengestellte Dokument in einer Datei.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// Erstellen Sie ein neues Dokumentobjekt.
+Document doc = new Document();
+// Erstellen Sie einen Builder, um die Erstellung von Dokumenten zu erleichtern.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Starten Sie eine neue Tabelle im Dokument.
+Table table = builder.StartTable();
+
+//ExStep:2-
+// Fügen Sie die erste Zelle vor dem Einstellen der Formatierung ein.
+builder.InsertCell();
+// Legen Sie die Stilkennung für die Tabelle fest.
+table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
+
+
+//ExStep:3-
+// Konfigurieren Sie Stiloptionen.
+table.StyleOptions = 
+    TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
+// Legen Sie das Auto-Fit-Verhalten der Tabelle fest.	
+table.AutoFit(AutoFitBehavior.AutoFitToContents);
+
+
+//ExStep:4-
+// Schreiben Sie den Kopf für die erste Spalte.
+builder.Writeln("Item");
+// Setzen Sie die richtige Polsterung für die Zelle.
+builder.CellFormat.RightPadding = 40;
+// Fügen Sie die zweite Zelle für die nächste Spalte ein.
+builder.InsertCell();
+// Schreiben Sie den Kopf für die zweite Spalte.
+builder.Writeln("Quantity (kg)");
+// Beenden Sie die Zeilenerstellung.
+builder.EndRow();
+
+//ExStep:5-
+// Starten Sie eine neue Zeile und legen Sie die erste Zelle ein.
+builder.InsertCell();
+builder.Writeln("Apples");
+builder.InsertCell();
+builder.Writeln("20");
+builder.EndRow();
+ // Fügen Sie die erste Zelle einer neuen Zeile für den zweiten Eintrag ein.
+builder.InsertCell();
+builder.Writeln("Bananas");
+builder.InsertCell();
+builder.Writeln("40");
+builder.EndRow();
+// Beginnen Sie eine neue Zeile für den dritten Eintrag.
+builder.InsertCell();
+builder.Writeln("Carrots");
+builder.InsertCell(); 
+builder.Writeln("50");
+builder.EndRow();
+
+//ExStep:6-
+// Speichern Sie das Dokument in eine bestimmte Datei.
+doc.Save("WorkingWithTableStylesAndFormatting.BuildTableWithStyle.docx");
+//ExEnd

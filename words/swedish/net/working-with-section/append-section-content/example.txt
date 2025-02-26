@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary:Detta exempel visar hur man lägger till och förbereder innehåll från en sektion till en annan i ett Word-dokument med Aspose.Words för .NET.
+//ExStepSummary:0: Initiera ett nytt Word-dokument och DocumentBuilder för att lägga till innehåll.
+//ExStepSummary:1: Skriv text och infoga avsnitt pauser för att skapa flera avsnitt i dokumentet.
+//ExStepSummary:2: Få tillgång till det tredje avsnittet i dokumentet för att förbereda dig för innehållsmanipulation.
+//ExStepSummary:3: Prepend innehåll från den första delen till den tredje delen.
+//ExStepSummary:4: Lägg till innehåll från det andra avsnittet till det tredje avsnittet.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Initialisera dokumentet och dokumentbyggaren
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Skriv text och infoga avsnitt pauser för att skapa tre sektioner
+builder.Write("Section 1");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// Lägg till innehåll för den andra delen
+builder.Write("Section 2");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// Lägg till innehåll för det tredje avsnittet
+builder.Write("Section 3");
+
+//ExStep:2-
+// Hämta det tredje avsnittet i dokumentet
+Section section = doc.Sections[2];
+
+//ExStep:3-
+// Prepend innehåll från det första avsnittet till det tredje avsnittet
+Section sectionToPrepend = doc.Sections[0];
+section.PrependContent(sectionToPrepend);
+
+//ExStep:4-
+// Lägg till innehåll från det andra avsnittet till det tredje avsnittet
+Section sectionToAppend = doc.Sections[1];
+section.AppendContent(sectionToAppend);
+//ExEnd

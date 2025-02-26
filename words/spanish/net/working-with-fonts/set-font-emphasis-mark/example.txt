@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary:Este código muestra cómo establecer una marca de énfasis en un documento de Word usando Aspose.words.
+//ExStepSummary:0:Crear una nueva instancia de documento con la que trabajar.
+//ExStepSummary:1:Configurar un DocumentBuilder para manipular el documento.
+//ExStepSummary:2:Aplicar una marca de énfasis a la fuente del constructor.
+//ExStepSummary:3:Escribir énfasis en el texto del documento.
+//ExStepSummary:4:Escribir un texto simple sin ningún énfasis.
+//ExStepSummary:5: Este código guarda el documento con la marca de énfasis en la fuente.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Crear un nuevo documento
+Document document = new Document();
+
+//ExStep:1-
+// Inicializar DocumentBuilder para la manipulación de documentos
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:2-
+// Establezca la marca de énfasis en UnderSolidCircle
+builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
+
+//ExStep:3-
+// Escriba el texto de énfasis en el documento
+builder.Write("Emphasis text");
+// Ir a la siguiente línea
+builder.Writeln();
+// Borra el formato de fuente para el texto siguiente
+builder.Font.ClearFormatting();
+
+//ExStep:4-
+// Escribir texto simple sin énfasis
+builder.Write("Simple text");
+
+//ExStep:5-
+// Guardar el documento en la ruta especificada
+document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
+//ExEnd

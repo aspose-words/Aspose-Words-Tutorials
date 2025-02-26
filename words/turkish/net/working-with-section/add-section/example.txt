@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary:Bu kod, .NET için Aspose.Words kullanarak bir Word belgesine yeni bir bölümün nasıl ekleneceğini gösterir. İşlem, bir belgenin başlatılmasını, içeriğin yazılmasını ve yeni bir bölümün eklenmesini içerir.
+//ExStepSummary:0: Belgeye içerik eklemek için yeni bir Word belgesi ve bir DocumentBuilder nesnesi başlatın.
+//ExStepSummary:1: DocumentBuilder nesnesini kullanarak ilk bölüme metin ekleyin.
+//ExStepSummary:2: DocumentBuilder nesnesini kullanarak ilk bölüme metin ekleyin.
+//ExStepSummary:3: Yeni bir bölüm oluşturun ve belgenin bölüm koleksiyonuna ekleyin.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Yeni bir Word belgesi oluşturun.
+Document doc = new Document();
+// Belge için DocumentBuilder'ı başlat.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// İlk bölüme içerik ekle
+builder.Writeln("Hello1"); // Write "Hello1" into the document's first section.
+
+//ExStep:2-
+// İlk bölüme içerik ekle
+builder.Writeln("Hello2"); // Write "Hello2" into the document's first section.
+
+//ExStep:3-
+// Belgede yeni bir bölüm oluşturun.
+Section sectionToAdd = new Section(doc);
+doc.Sections.Add(sectionToAdd);
+//ExEnd

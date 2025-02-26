@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: Este código muestra cómo formatear párrafos en un documento de Word usando Aspose.Words. Muestra cómo establecer opciones de formato de párrafo como alineación, sangría y espacio después de un párrafo.
+//ExStepSummary:0: Este paso inicializa un nuevo documento y un DocumentBuilder para crear el documento.
+//ExStepSummary:1: Este paso establece las opciones de formato de párrafo, incluida la alineación, sangría izquierda, sangría derecha y espacio después del párrafo.
+//ExStepSummary:2: Este paso escribe un párrafo bien formateado con las opciones de formato especificadas en el documento.
+//ExStepSummary:3: Este paso escribe otro párrafo formateado que demuestra el efecto del espacio después del párrafo.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0- 
+// Crear una nueva instancia de documento.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1- 
+// Configure las opciones de formato de párrafo.
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.Alignment = ParagraphAlignment.Center;
+paragraphFormat.LeftIndent = 50;
+paragraphFormat.RightIndent = 50;
+paragraphFormat.SpaceAfter = 25;
+
+//ExStep:2- 
+// Escribe el primer párrafo formateado.
+builder.Writeln(
+	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
+
+//ExStep:3- 
+// Escribe el segundo párrafo formateado.
+builder.Writeln(
+	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
+
+//ExStep:4- 
+// Guarde el documento en la ruta de acceso especificada.
+doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
+//ExEnd

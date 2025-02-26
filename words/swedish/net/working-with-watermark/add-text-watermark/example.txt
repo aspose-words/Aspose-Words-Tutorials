@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: Denna kod visar hur man lägger till en text vattenstämpel med specifika alternativ till ett Word-dokument med Aspose.Words.
+//ExStepSummary:0: Följande kod initierar dokumentsökvägen och skapar ett nytt dokumentobjekt.
+//ExStepSummary:1: Följande kod anger alternativen för textvattenstämpeln, inklusive typsnittsfamilj, storlek, färg och layout.
+//ExStepSummary:2: Följande kod tillämpar textvattenstämpeln med de angivna alternativen för dokumentet.
+//ExStepSummary:3: Följande kod sparar det ändrade dokumentet till en angiven katalog.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+// Ställ in katalogsökväg för dokumentet
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ladda Word-dokumentet
+Document doc = new Document(dataDir + "Document.docx");
+
+//ExStep:2-
+// Skapa vattenstämpelalternativ
+TextWatermarkOptions options = new TextWatermarkOptions()
+{
+    FontFamily = "Arial", // Set font family for the watermark text
+    FontSize = 36, // Set font size for the watermark text
+    Color = Color.Black, // Set color of the watermark text
+    Layout = WatermarkLayout.Horizontal, // Specify layout of the watermark
+    IsSemitrasparent = false // Set transparency option
+};
+
+//ExStep:3-
+// Använd vattenstämpeltexten med alternativ
+doc.Watermark.SetText("Test", options);
+
+//ExStep:4-
+// Spara dokumentet med vattenstämpeln
+doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
+//ExEnd

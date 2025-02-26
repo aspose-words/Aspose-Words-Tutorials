@@ -1,0 +1,34 @@
+//ExStart
+//ExSummary:Denna kod visar hur man skapar ett Word-dokument med hjälp av Aspose.Words, formatering av teckensnitt egenskaper innan du skriver ett exempel text till det.
+//ExStepSummary:0: Följande kod initierar ett nytt dokument och en DocumentBuilder.
+//ExStepSummary:1: Följande kod anger olika teckenegenskaper såsom storlek, fetstil, färg, namn och understrykningsstil.
+//ExStepSummary:2: Följande kod skriver en exempeltext till dokumentet med de inställda teckensnittsinställningarna.
+//ExStepSummary:3: Följande kod sparar dokumentet till den angivna katalogen med ett givet filnamn.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Skapa en ny dokumentinstans
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Få tillgång till teckensnittet via DocumentBuilder
+Font font = builder.Font;
+// Ställ in teckenstorleken till 16
+font.Size = 16;
+// Gör teckensnittet fetstil
+font.Bold = true;
+// Ändra teckenfärgen till blå
+font.Color = Color.Blue;
+// Ställ in teckensnittet till Arial
+font.Name = "Arial";
+// Applicera en markerad understrykningsstil på teckensnittet
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+builder.Write("Sample text.");
+
+//ExStep:3-
+// Spara dokumentet till katalogen artefakter
+doc.Save("WorkingWithFonts.FontFormatting.docx");
+//ExEnd

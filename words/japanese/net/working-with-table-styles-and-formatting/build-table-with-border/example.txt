@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary: このコードは、Asfo.words を使ってワードドキュメント内で表を操作する方法を示します。既存の文書を取得し、最初の表の外枠を修正し、変更を新しいファイルに保存します。
+//ExStepSummary:0: 以下のコードがドキュメントを構成し、最初の表を取得します。
+//ExStepSummary:1: 以下のコードにより、新しい書式設定を準備するための既存の表の外枠を消去します。
+//ExStepSummary:2: 以下のコードは、表の周囲と内部に緑色の境界を適用するものです。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 文書のディレクトリを指定します
+string dataDir = "Your Document Directory";
+// 文書を読み込みます
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// ドキュメントから最初のテーブルを取得します
+Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
+
+//ExStep:2-
+// テーブルから既存の境界をクリアします
+table.ClearBorders();
+
+//ExStep:3-
+// テーブルの周囲と内部に緑色の境界を設定
+table.SetBorders(LineStyle.Single, 1.5, Color.Green);
+// ドキュメントを変更して保存
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");
+//ExEnd

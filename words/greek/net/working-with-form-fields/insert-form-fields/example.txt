@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να εισάγετε πεδία μορφή σε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words για .NET. Συγκεκριμένα, δείχνει πώς να εισάγετε ένα πεδίο combo box μορφή με προκαθορισμένα στοιχεία.
+//ExStepSummary:0: Ο παρακάτω κώδικας δείχνει πώς να δημιουργήσετε ένα νέο έγγραφο Word.
+//ExStepSummary:1: Ο ακόλουθος κώδικας δείχνει πώς να αρχικοποιήσετε ένα DocumentBuilder για την επεξεργασία του εγγράφου.
+//ExStepSummary:2: Ο ακόλουθος κώδικας δείχνει πώς να καθορίσετε και να εισάγετε ένα πεδίο φόρμας combo box με προκαθορισμένα στοιχεία και μια προεπιλεγμένη επιλογή.
+//ExStepImage:0:images/1.png
+//ExStepImage:1:images/2.png
+//ExStep:0-
+// Αρχικοποίηση ενός κενού εγγράφου Word
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Καθορίστε και εισάγετε ένα πεδίο φόρμας κουτιού combo
+string[] items = { "One", "Two", "Three" };
+builder.InsertComboBox("DropDown", items, 0);
+//ExEnd

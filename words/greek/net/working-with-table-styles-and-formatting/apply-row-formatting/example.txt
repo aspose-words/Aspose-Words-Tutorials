@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να εφαρμόσετε τη μορφοποίηση γραμμής σε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words.
+//ExStepSummary:0: Αρχικοποίηση ενός νέου εγγράφου και αρχίζει την κατασκευή ενός πίνακα με μορφοποιημένες σειρές.
+//ExStepSummary:1: Ρύθμιση της μορφής της γραμμής.
+//ExStepSummary:2: Ρυθμίζει τις συγκεκριμένες ρυθμίσεις ύψους.
+//ExStepSummary:3: Ορίζει την επένδυση για ολόκληρο τον πίνακα που επηρεάζει όλες τις σειρές.
+//ExStepSummary:4: Γράφει μήνυμα στο κελί του τραπεζιού και τελειώνει τη σειρά.
+//ExStepSummary:5: Ολοκληρώνει τη διαδικασία κατασκευής τραπεζιού και αποθηκεύει το έγγραφο.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Δημιουργία νέου εγγράφου
+Document doc = new Document();
+// Δημιουργία ενός DocumentBuilder για την τροποποίηση του εγγράφου
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Ξεκινήστε ένα νέο τραπέζι
+Table table = builder.StartTable();
+// Εισάγετε ένα νέο κελί στον πίνακα
+builder.InsertCell();
+//ExStep:2-
+// Πρόσβαση στις ιδιότητες μορφοποίησης σειράς
+RowFormat rowFormat = builder.RowFormat;
+// Ορισμός του ύψους της γραμμής
+rowFormat.Height = 100;
+// Προσδιορίστε ότι το ύψος είναι ακριβές
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// Ρυθμίστε την επένδυση για το τραπέζι
+table.LeftPadding = 30; 
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// Γράψτε κείμενο στο κελί
+builder.Writeln("I'm a wonderful formatted row.");
+// Τέλος της τρέχουσας γραμμής
+builder.EndRow();
+// Τερματίστε το κτίριο του τραπεζιού
+builder.EndTable();
+
+//ExStep:5-
+// Αποθήκευση του εγγράφου
+doc.Save("WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
+//ExEnd

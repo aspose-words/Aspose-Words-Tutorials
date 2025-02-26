@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Этот код показывает, как добавить новый раздел к документу Word с использованием Aspose.Words для .NET. Процесс включает инициализацию документа, его содержание и добавление нового раздела.
+//ExStepSummary:0: Инициировать новый документ Word и объект документа Builder для добавления содержания в документ.
+//ExStepSummary:1: Добавить текст в первый раздел с использованием объекта &quot; Бюллетень документа &quot; .
+//ExStepSummary:2: Добавить текст в первый раздел с использованием объекта &quot; Бюллетень документа &quot; .
+//ExStepSummary:3: Создать новый раздел и добавить его в коллекцию разделов документа.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Создать новый документ из Слова.
+Document doc = new Document();
+// Инициировать процесс подготовки документа.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Добавить содержание в первый раздел
+builder.Writeln("Hello1"); // Write "Hello1" into the document's first section.
+
+//ExStep:2-
+// Добавить содержание в первый раздел
+builder.Writeln("Hello2"); // Write "Hello2" into the document's first section.
+
+//ExStep:3-
+// Создать новый раздел в документе.
+Section sectionToAdd = new Section(doc);
+doc.Sections.Add(sectionToAdd);
+//ExEnd

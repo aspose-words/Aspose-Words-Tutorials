@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Bu kod Aspose.Words kullanarak birincil başlık ve altbilgi ile bir Word belgesinin nasıl oluşturulacağını gösterir. Yeni bir belgeyi başlatır, başlık ve altbilgi bölümlerine geçer ve özel metin yazar. Son olarak belgeyi DOCX dosyası olarak kaydeder.
+//ExStepSummary:0: Aşağıdaki kod, ana Belge nesnesini başlatır ve DocumentBuilder'ı kurar.
+//ExStepSummary:1: Aşağıdaki kod birincil başlık bölümüne geçer ve başlık metnini yazar.
+//ExStepSummary:2: Aşağıdaki kod birincil altbilgi bölümüne geçer ve altbilgi metnini yazar.
+//ExStepSummary:3: Aşağıdaki kod belgeyi belirtilen bir dosya yoluna kaydeder.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Yeni bir Belge nesnesini başlat
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Birincil başlık bölümüne taşı
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("Header for page.");
+
+//ExStep:2-
+// Birincil altbilgi bölümüne taşı
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+builder.Write("Footer for page."); // Write the footer text
+
+//ExStep:3-
+// Belgeyi belirtilen dosya adı ile kaydet
+doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
+//ExEnd

@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Dieser Code zeigt, wie man mit Aspose.Words ein Spaltendiagramm in ein Dokument einfügt. Es erstellt ein Dokument,
+//          fügt ein Diagramm mit definierten Kategorien und Werten hinzu und speichert dann das Dokument.
+//ExStepSummary:0: Der folgende Code initialisiert ein neues Dokument und einen Dokument-Builder.
+//ExStepSummary:1: Dieser Schritt beinhaltet das Einfügen eines Spaltendiagramms mit bestimmten Abmessungen in das Dokument.
+//ExStepSummary:2: Hier werden Reihendaten mit Kategorien und entsprechenden Werten in das Diagramm aufgenommen.
+//ExStepSummary:3: Dieser Schritt speichert das Dokument mit dem eingefügten Diagramm an einen angegebenen Dateiort.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Initialisieren eines neuen Dokumentobjekts
+Document doc = new Document();
+// Erstellen eines DocumentBuilders für einfache Dokumentmanipulation
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Einfügen eines Spaltendiagramms bei der angegebenen Größe (Breite x Höhe)
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+// Zugriff auf das Diagrammobjekt aus der eingefügten Form
+Chart chart = shape.Chart;
+// Seriendaten mit Kategorien und Werten hinzufügen
+chart.Series.Add("Aspose Series 1", new string[] { "Category 1", "Category 2" }, new double[] { 1, 2 });
+
+//ExStep:3-
+// Speichern Sie das Dokument mit dem eingefügten Spaltendiagramm
+doc.Save("WorkingWithCharts.InsertColumnChart.docx"); 
+//ExEnd

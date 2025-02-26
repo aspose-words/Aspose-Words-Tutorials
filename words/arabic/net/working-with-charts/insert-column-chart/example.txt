@@ -1,0 +1,29 @@
+//ExStart
+//ExSummaryيوضح هذا الرمز كيفية إدراج مخطط عمود في مستند باستخدام Apose.Words. يقوم بإنشاء مستند ،
+//          يضيف مخططًا يحتوي على فئات وقيم محددة ، ثم يحفظ المستند.
+//ExStepSummary:0: يؤدي الكود التالي إلى تهيئة مستند جديد ومنشئ مستندات.
+//ExStepSummary:1: تتضمن هذه الخطوة إدراج مخطط عمود بأبعاد محددة في المستند.
+//ExStepSummary:2: هنا، يتم إضافة بيانات السلسلة إلى الرسم البياني مع الفئات والقيم المقابلة.
+//ExStepSummary:3: تقوم هذه الخطوة بحفظ المستند باستخدام المخطط المدرج في موقع ملف محدد.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// تهيئة كائن مستند جديد
+Document doc = new Document();
+// إنشاء DocumentBuilder لسهولة التلاعب وثيقة
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// أدخل مخطط عمود بالحجم المحدد (العرض الارتفاع)
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+// الوصول إلى كائن المخطط من الشكل المدرج
+Chart chart = shape.Chart;
+// إضافة بيانات السلسلة مع الفئات والقيم
+chart.Series.Add("Aspose Series 1", new string[] { "Category 1", "Category 2" }, new double[] { 1, 2 });
+
+//ExStep:3-
+// احفظ المستند باستخدام مخطط العمود المدرج
+doc.Save("WorkingWithCharts.InsertColumnChart.docx"); 
+//ExEnd

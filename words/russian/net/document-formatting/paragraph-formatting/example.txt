@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: Этот код показывает, как форматировать пункты в документе Word с использованием Aspose.Words.
+//ExStepSummary:0: На этом этапе вводятся в действие новый документ и документоподготовитель для подготовки документа.
+//ExStepSummary:1: На этом этапе определяются варианты форматирования пунктов, включая регулировку, левый подпункт, правый подпункт и пространство после пункта.
+//ExStepSummary:2: На этом этапе составляется хорошо сформулированный пункт с указанными вариантами форматирования документа.
+//ExStepSummary:3: Этот шаг представляет собой еще один формализующий пункт, демонстрирующий эффект пространства после этого пункта.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0- 
+// Создать новый пример документа.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1- 
+// Определить варианты форматирования пунктов.
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.Alignment = ParagraphAlignment.Center;
+paragraphFormat.LeftIndent = 50;
+paragraphFormat.RightIndent = 50;
+paragraphFormat.SpaceAfter = 25;
+
+//ExStep:2- 
+// Напиши первый пункт.
+builder.Writeln(
+	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
+
+//ExStep:3- 
+// Напиши второй пункт.
+builder.Writeln(
+	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
+
+//ExStep:4- 
+// Сохранить документ на заданную дорожку.
+doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
+//ExEnd
