@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να εισάγετε ένα διάγραμμα περιοχής σε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words.
+//ExStepSummary:0: Ο ακόλουθος κώδικας εισάγει ένα νέο έγγραφο και έναν κατασκευαστή εγγράφων.
+//ExStepSummary:1: Ο ακόλουθος κωδικός εισάγει ένα διάγραμμα περιοχής στο έγγραφο.
+//ExStepSummary:2: Ο ακόλουθος κωδικός προσθέτει μια σειρά στο διάγραμμα με συγκεκριμένα σημεία δεδομένων.
+//ExStepSummary:3: Ο ακόλουθος κωδικός αποθηκεύει το έγγραφο με το διάγραμμα περιοχής που εισάγεται.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Δημιουργία νέου εγγράφου
+Document doc = new Document();
+// Αρχικοποίηση του κατασκευαστή εγγράφων
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Εισάγετε ένα διάγραμμα περιοχής με καθορισμένες διαστάσεις
+Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
+
+//ExStep:2-
+// Πρόσβαση στο αντικείμενο του χάρτη
+Chart chart = shape.Chart;
+// Προσθήκη μιας νέας σειράς στο διάγραμμα
+chart.Series.Add("Aspose Series 1", new [] 
+{
+	// Σημείο δεδομένων 1
+    new DateTime(2002, 05, 01),
+	// Σημείο δεδομένων 2
+    new DateTime(2002, 06, 01),
+	// Σημείο δεδομένων 3
+    new DateTime(2002, 07, 01),
+	// Σημείο δεδομένων 4
+    new DateTime(2002, 08, 01),
+	// Σημείο δεδομένων 5
+    new DateTime(2002, 09, 01)
+}, 
+// Αντίστοιχες τιμές για τα σημεία δεδομένων
+new double[] { 32, 32, 28, 12, 15 });
+
+//ExStep:3-
+// Αποθήκευση του εγγράφου με το εισάγον διάγραμμα
+doc.Save("WorkingWithCharts.InsertAreaChart.docx");
+//ExEnd

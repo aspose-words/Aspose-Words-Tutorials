@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να προσθέσετε ένα υδατογράφημα κειμένου με συγκεκριμένες επιλογές σε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words.
+//ExStepSummary:0: Ο ακόλουθος κώδικας αρχικοποιείται η διαδρομή του εγγράφου και δημιουργεί ένα νέο αντικείμενο του εγγράφου.
+//ExStepSummary:1: Ο παρακάτω κώδικας καθορίζει τις επιλογές για το υδατογράφημα κειμένου, συμπεριλαμβανομένης της οικογένειας γραμματοσειρών, του μεγέθους, του χρώματος και της διάταξης.
+//ExStepSummary:2: Ο ακόλουθος κωδικός εφαρμόζει το υδατογράφημα κειμένου με τις καθορισμένες επιλογές στο έγγραφο.
+//ExStepSummary:3: Ο ακόλουθος κώδικας αποθηκεύει το τροποποιημένο έγγραφο σε έναν καθορισμένο κατάλογο.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+// Ορισμός της διαδρομής καταλόγου για το έγγραφο
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Φόρτωση του εγγράφου λέξης
+Document doc = new Document(dataDir + "Document.docx");
+
+//ExStep:2-
+// Δημιουργία επιλογών υδατογραφήματος
+TextWatermarkOptions options = new TextWatermarkOptions()
+{
+    FontFamily = "Arial", // Set font family for the watermark text
+    FontSize = 36, // Set font size for the watermark text
+    Color = Color.Black, // Set color of the watermark text
+    Layout = WatermarkLayout.Horizontal, // Specify layout of the watermark
+    IsSemitrasparent = false // Set transparency option
+};
+
+//ExStep:3-
+// Εφαρμόστε το κείμενο υδατογράφημα με επιλογές
+doc.Watermark.SetText("Test", options);
+
+//ExStep:4-
+// Αποθήκευση του εγγράφου με το υδατογράφημα
+doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
+//ExEnd

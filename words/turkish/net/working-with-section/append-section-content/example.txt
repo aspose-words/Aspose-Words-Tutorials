@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary:Bu örnek, .NET için Aspose.Words'u kullanarak bir Word belgesinde bir bölümden diğerine içerik eklemeyi ve hazırlamayı gösterir.
+//ExStepSummary:0: İçerik eklemek için yeni bir Word belgesi ve DocumentBuilder başlatın.
+//ExStepSummary:1: Metin yazın ve belgede birden fazla bölüm oluşturmak için bölüm araları ekleyin.
+//ExStepSummary:2: İçerik manipülasyonuna hazırlanmak için belgedeki üçüncü bölüme erişin.
+//ExStepSummary:3: İlk bölümden üçüncü bölüme kadar önceden hazırlanmış içerik.
+//ExStepSummary:4: İçeriği ikinci bölümden üçüncü bölüme ekleyin.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Belgeyi ve DocumentBuilder'ı başlat
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Üç bölüm oluşturmak için metin yazın ve bölüm araları ekleyin
+builder.Write("Section 1");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// İkinci bölüm için içerik ekle
+builder.Write("Section 2");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// Üçüncü bölüm için içerik ekle
+builder.Write("Section 3");
+
+//ExStep:2-
+// Belgeden üçüncü bölümü geri al
+Section section = doc.Sections[2];
+
+//ExStep:3-
+// İlk bölümden üçüncü bölüme önceden hazırlanmış içerik
+Section sectionToPrepend = doc.Sections[0];
+section.PrependContent(sectionToPrepend);
+
+//ExStep:4-
+// İkinci bölümden üçüncü bölüme içerik ekle
+Section sectionToAppend = doc.Sections[1];
+section.AppendContent(sectionToAppend);
+//ExEnd

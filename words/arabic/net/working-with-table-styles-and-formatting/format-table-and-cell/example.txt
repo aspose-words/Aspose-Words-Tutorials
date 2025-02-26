@@ -1,0 +1,63 @@
+//ExStart
+//ExSummaryيوضح هذا الكود كيفية إنشاء مستند Word مع جدول يحتوي على أنماط حدود وظلال مختلفة لخلاياه.
+//ExStepSummary:0: تهيئة المستند وDocumentBuilder لإنشاء مستند Word جديد.
+//ExStepSummary:1: بدء جدول جديد وتعيين الحدود للجدول بأكمله.
+//ExStepSummary:2: إضافة الخلية الأولى مع التظليل الخلفية الحمراء والنص.
+//ExStepSummary:3: إضافة الخلية الثانية مع التظليل الخلفية الخضراء والنص.
+//ExStepSummary:4: إنهاء الصف الأول ومسح تنسيق الخلية السابقة.
+//ExStepSummary:5: أضف صفًا جديدًا بحدود أكبر مخصصة للخلية الأولى.
+//ExStepSummary:6: إضافة الخلية الثانية من الصف الجديد مع التنسيق الافتراضي والنص.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// أنشئ مستندًا جديدًا.
+Document doc = new Document();
+// إنشاء DocumentBuilder للتلاعب بالمستند.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// ابدأ طاولة جديدة.
+Table table = builder.StartTable();
+// أدخل الخلية الأولى في الجدول.
+builder.InsertCell();
+// ضع حدودًا للمائدة بأكملها.
+table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
+
+//ExStep:2-
+// اضبط لون خلفية الخلية على اللون الأحمر.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
+builder.Writeln("Cell #1");
+// أدخل الخلية الثانية.
+builder.InsertCell();
+
+//ExStep:3-
+// اضبط لون خلفية الخلية على اللون الأخضر.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
+builder.Writeln("Cell #2");
+// إنهاء الصف الحالي.
+builder.EndRow();
+
+//ExStep:4-
+// امسح أي تنسيق خلية للبدء من جديد.
+builder.CellFormat.ClearFormatting();
+// أدخل خلية جديدة في الصف التالي.
+builder.InsertCell();
+// إنشاء حدود أكبر للخلية الأولى من هذا الصف.
+builder.CellFormat.Borders.Left.LineWidth = 4.0;
+builder.CellFormat.Borders.Right.LineWidth = 4.0;
+builder.CellFormat.Borders.Top.LineWidth = 4.0;
+builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
+builder.Writeln("Cell #3");
+//ExStep:5-
+// أدخل الخلية الرابعة.
+builder.InsertCell();
+builder.CellFormat.ClearFormatting();
+builder.Writeln("Cell #4");
+//ExStep:6-
+// احفظ المستند.
+doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
+//ExEnd

@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Questo codice dimostra come creare un documento Word con un'intestazione primaria e un piè di pagina usando Aspose.Words. Inizializza un nuovo documento, si sposta nelle sezioni intestazione e piè di pagina, e scrive testo personalizzato. Infine, salva il documento come file DOCX.
+//ExStepSummary:0: Il seguente codice inizializza l'oggetto principale del documento e imposta il DocumentBuilder.
+//ExStepSummary:1: Il seguente codice si sposta nella sezione principale dell'intestazione e scrive il testo dell'intestazione.
+//ExStepSummary:2: Il seguente codice si sposta nella sezione di piè di pagina primaria e scrive il testo di piè di pagina.
+//ExStepSummary:3: Il seguente codice salva il documento in un percorso di file specificato.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Inizializza un nuovo oggetto documento
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Sposta nella sezione principale dell'intestazione
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("Header for page.");
+
+//ExStep:2-
+// Sposta nella sezione principale del footer
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+builder.Write("Footer for page."); // Write the footer text
+
+//ExStep:3-
+// Salva il documento con il nome del file specificato
+doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
+//ExEnd

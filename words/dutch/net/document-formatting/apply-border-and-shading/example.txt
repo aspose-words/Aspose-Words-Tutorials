@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary: Deze code laat zien hoe je grenzen kunt toepassen en een paragraaf kunt verbergen in een Word-document met behulp van Aspose.Words.
+//ExStepSummary:0: De volgende code initialiseert een nieuwe Document en DocumentBuilder instantie.
+//ExStepSummary:1: De volgende code configureert de alinearanden met een afstand van de tekst.
+//ExStepSummary:2: De volgende code is van toepassing op een diagonale kruis textuur arcering op de paragraaf met gespecificeerde kleuren.
+//ExStepSummary:3: De volgende code schrijft een geformatteerde paragraaf met de toegepaste instellingen.
+//ExStepSummary:4: De volgende code slaat het document op naar het opgegeven uitvoerpad.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Een nieuw document initialiseren
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Toegang tot de grenzen van het lid
+BorderCollection borders = builder.ParagraphFormat.Borders;
+borders.DistanceFromText = 20;
+borders[BorderType.Left].LineStyle = LineStyle.Double;
+borders[BorderType.Right].LineStyle = LineStyle.Double;
+borders[BorderType.Top].LineStyle = LineStyle.Double;
+borders[BorderType.Bottom].LineStyle = LineStyle.Double;
+
+//ExStep:2-
+// Toegang tot de paragraph shading eigenschappen
+Shading shading = builder.ParagraphFormat.Shading;
+shading.Texture = TextureIndex.TextureDiagonalCross;
+shading.BackgroundPatternColor = System.Drawing.Color.LightCoral; 
+shading.ForegroundPatternColor = System.Drawing.Color.LightSalmon;
+
+//ExStep:3-
+// Schrijf de geformatteerde paragraafinhoud
+builder.Write("I'm a formatted paragraph with double border and nice shading.");
+
+//ExStep:4-
+// Het document opslaan in het opgegeven pad
+doc.Save(ArtifactsDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
+//ExEnd

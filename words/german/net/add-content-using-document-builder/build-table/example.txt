@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Dieser Code zeigt, wie man ein Word-Dokument mit einer Tabelle mit Aspose.Words erstellt. Es erstellt eine Tabelle mit zwei Zeilen und verschiedenen Zelltext-Orientierungen und -Formaten.
+//ExStepSummary:0: Der folgende Code initialisiert ein neues Dokument und einen Dokument-Builder.
+//ExStepSummary:1: Der folgende Code startet eine neue Tabelle und fügt die erste Zeile der Zellen ein.
+//ExStepSummary:2: Der folgende Code konfiguriert die Formatierung für die zweite Zeile und ihre Zellen.
+//ExStepSummary:3: Der folgende Code konfiguriert die Formatierung für die zweite Zeile und ihre Zellen.
+//ExStepSummary:4: Der folgende Code beendet die Tabelle und speichert das Dokument in eine Datei.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Initialisieren eines neuen Dokumentobjekts
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Eine neue Tabelle starten
+Table table = builder.StartTable();
+// Erste Zelle beginnen
+builder.InsertCell();
+// Vertikale Ausrichtung für die erste Zelle einstellen
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
+builder.Write("This is row 1 cell 1");
+// Zweite Zelle einfügen
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+builder.EndRow();
+
+//ExStep:2-
+// Eine Zelle für die zweite Zeile einfügen
+builder.InsertCell();
+// Formatierung für die zweite Zeile einrichten
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+//ExStep:3-
+// Zweite Zelle für die zweite Zeile einfügen
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward; 
+builder.Writeln("This is row 2 cell 2");
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:4-
+// Auto-fit der Tabelle mit festen Spaltenbreiten
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+// Das Dokument in eine Datei speichern
+doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

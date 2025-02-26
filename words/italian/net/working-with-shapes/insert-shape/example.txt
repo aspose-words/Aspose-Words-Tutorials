@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Questo codice dimostra come inserire forme (casse di testo) in un documento Word utilizzando Aspose.Words. Il documento viene salvato in formato DOCX con specifiche opzioni di conformità per gli standard ISO.
+//ExStepSummary:0: Il codice inizializza un nuovo documento e un costruttore di documenti per manipolare il documento.
+//ExStepSummary:1: Una forma (cassetta di testo) è inserita in una posizione assoluta nel documento e la rotazione della prima forma è impostata a 30 gradi.
+//ExStepSummary:2: Una nuova forma viene inserita in una posizione relativa e la rotazione della seconda forma è impostata anche a 30 gradi.
+//ExStepSummary:3: Il documento viene salvato con specifiche OoxmlSaveOptions.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Crea una nuova istanza di documento
+Document doc = new Document();
+// Inizializza un documentoCostruisci per il documento
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Inserisce una forma di tipo TextBox
+Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
+    RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
+// Ruota la forma di 30 gradi
+shape.Rotation = 30.0;
+
+//ExStep:2-
+builder.Writeln();
+// Inserisce un'altra forma di tipo TextBox in una posizione relativa
+shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
+// Ruota la seconda forma di 30 gradi
+shape.Rotation = 30.0;
+
+//ExStep:3-
+// Prepara le opzioni di salvataggio per il documento
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
+{
+    Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
+};
+
+// Salva il documento usando le opzioni di salvataggio specificate
+doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
+//ExEnd

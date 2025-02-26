@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать документ Word с основным заголовком и футером с использованием Aspose.Words. Он инициализирует новый документ, перемещается в раздел заголовка и футер и пишет текст по заказу. И наконец, он сохраняет документ как файл DOCX.
+//ExStepSummary:0: Приводимый ниже код инициализирует основной объект документа и устанавливает модуль документа.
+//ExStepSummary:1: Приводимый ниже код переносится в основной заголовок раздела и пишет заголовок текста.
+//ExStepSummary:2: Приводимый ниже код перемещается в основной раздел и пишет текст.
+//ExStepSummary:3: Приводимый ниже код сохраняет документ на заданном маршруте файла.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Инициировать новый объект документа
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Перейти к основному заголовку
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("Header for page.");
+
+//ExStep:2-
+// Перейти к основной секции
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+builder.Write("Footer for page."); // Write the footer text
+
+//ExStep:3-
+// Сохранить документ с указанным именем файла
+doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
+//ExEnd

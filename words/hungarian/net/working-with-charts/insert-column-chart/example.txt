@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Ez a kód azt mutatja be, hogyan kell beilleszteni egy oszlopdiagramot egy dokumentumba az Aspose.Words használatával. Dokumentumot hoz létre,
+//          hozzáad egy diagramot a definiált kategóriákkal és értékekkel, majd elmenti a dokumentumot.
+//ExStepSummary:0: A következő kód egy új dokumentumot és egy dokumentumkészítőt inicializál.
+//ExStepSummary:1: Ez a lépés magában foglalja egy oszlopdiagram beillesztését a dokumentumba meghatározott méretekkel.
+//ExStepSummary:2: Itt a sorozatadatok hozzáadódnak a diagramhoz a kategóriákkal és a megfelelő értékekkel.
+//ExStepSummary:3: Ez a lépés menti a dokumentumot a beillesztett diagrammal egy megadott fájlhelyre.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Új dokumentumobjektum inicializálása
+Document doc = new Document();
+// Hozzon létre egy DocumentBuilder-t az egyszerű dokumentumkezeléshez
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Oszlopdiagram beszúrása a megadott méretben (szélesség x magasság)
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+// A diagramobjektum elérése a beillesztett alakzatból
+Chart chart = shape.Chart;
+// Sorozatadatok hozzáadása kategóriákkal és értékekkel
+chart.Series.Add("Aspose Series 1", new string[] { "Category 1", "Category 2" }, new double[] { 1, 2 });
+
+//ExStep:3-
+// A dokumentum mentése a beillesztett oszlopdiagrammal
+doc.Save("WorkingWithCharts.InsertColumnChart.docx"); 
+//ExEnd

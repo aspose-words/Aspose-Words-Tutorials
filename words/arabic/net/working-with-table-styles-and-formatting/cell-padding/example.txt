@@ -1,0 +1,38 @@
+//ExStart
+//ExSummaryيوضح الكود التالي كيفية إنشاء مستند Word مع خلية جدول منسقة تتضمن الحشو حول محتوياته.
+//ExStepSummary:0: يؤدي الكود التالي إلى تهيئة مستند جديد ومنشئ مستندات.
+//ExStepSummary:1: يبدأ الرمز التالي جدولًا داخل المستند.
+//ExStepSummary:2: الكود التالي يُدخل خلية في الجدول.
+//ExStepSummary:3: الكود التالي يحدد الحشوة لمحتويات الخلية.
+//ExStepSummary:4: يضيف الرمز التالي نصًا إلى الخلية وينهي الصف الحالي.
+//ExStepSummary:5: الكود التالي ينهي الجدول ويحفظ المستند في ملف.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// تهيئة مستند جديد
+Document doc = new Document();
+// أنشئ منشئ مستندات للتلاعب بالمستند
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// ابدأ في إنشاء جدول
+builder.StartTable();
+// أدخل خلية جديدة في الجدول
+builder.InsertCell();
+
+//ExStep:2-
+// وضع الحشو مع 30 نقطة في الأعلى والأسفل ، 50 نقطة على اليسار واليمين
+builder.CellFormat.SetPaddings(30, 50, 30, 50);
+
+//ExStep:3-
+builder.Writeln("I'm a wonderful formatted cell.");
+// أكمل الصف الحالي في الجدول
+builder.EndRow();
+// نهاية الجدول
+builder.EndTable();
+
+//ExStep:4-
+// احفظ المستند في ملف محدد
+doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
+//ExEnd

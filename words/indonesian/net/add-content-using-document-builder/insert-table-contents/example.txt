@@ -1,0 +1,78 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan bagaimana membuat dokumen Word dengan Daftar Isi menggunakan Dokumen Builder. Ini termasuk judul dari berbagai tingkat dan menyimpan dokumen sebagai berkas .docx.
+//ExStepSummary:0: Langkah ini menginisialisasi suatu objek Dokumen baru.
+//ExStepSummary:1: Langkah ini menciptakan objek Dokumen Builder untuk manipulasi dokumen.
+//ExStepSummary:2: Langkah ini memasukkan Daftar Isi di awal dokumen.
+//ExStepSummary:3: Langkah ini memperkenalkan sebuah istirahat halaman untuk memulai konten yang sebenarnya pada halaman yang baru.
+//ExStepSummary:4: Langkah ini menetapkan judul pertama dan menulis "Heading 1" ke dokumen.
+//ExStepSummary:5: Langkah ini menetapkan tingkat judul kedua dan menulis "Kepala 1,1" dan "Kepala 1,2"
+//ExStepSummary:6: Langkah ini lagi menetapkan tingkat heading pertama dan menulis "Heading 2" dan "Heading 3."
+//ExStepSummary:7: Langkah ini menetapkan tingkat judul kedua dan menulis "Kepala 3,1" .
+//ExStepSummary:8: Langkah ini menetapkan tingkat judul ketiga dan menulis subjudul "Kepala 3,1", "Kepala 3,1,2" dan "Kepala 3,1"
+//ExStepSummary:9: Langkah ini menetapkan tingkat kedua sekali lagi dan menulis "Kepala 3,2" dan "Kepala 3.3"
+//ExStepSummary:10: Terakhir, langkah ini memperbarui ruas dalam dokumen dan menyimpannya sebagai berkas .docx.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:6:images/4.png
+//ExStepImage:7:images/5.png
+//ExStepImage:8:images/6.png
+//ExStepImage:9:images/7.png
+
+//ExStep:0-
+// Buat instansi dokumen baru
+Document doc = new Document();
+
+//ExStep:1-
+// Inisialisasi DokumenBuilder untuk manipulasi dokumen
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// Sisipkan Daftar Isi dengan opsi yang dinyatakan
+builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
+
+//ExStep:3-
+// Sisipkan suatu istirahat halaman untuk memulai isi pada halaman baru
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:4-
+// Atur gaya ke Tajuk 1
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 1");
+
+//ExStep:5-
+// Set gaya ke Tajuk 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 1.1");
+builder.Writeln("Heading 1.2");
+
+//ExStep:6-
+// Tata gaya kembali ke Tajuk 1
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 2");
+builder.Writeln("Heading 3");
+
+//ExStep:7-
+// Set gaya ke Tajuk 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.1");
+
+//ExStep:8-
+// Atur gaya ke Tajuk 3
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
+builder.Writeln("Heading 3.1.1");
+builder.Writeln("Heading 3.1.2");
+builder.Writeln("Heading 3.1.3");
+
+//ExStep:9-
+// Atur gaya kembali ke Tajuk 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.2");
+builder.Writeln("Heading 3.3");
+
+//ExStep:10-
+// Mutakhirkan semua ruas dalam dokumen
+doc.UpdateFields();
+// Simpan dokumen
+doc.Save("AddContentUsingDocumentBuilder.InsertTableOfContents.docx");
+//ExEnd

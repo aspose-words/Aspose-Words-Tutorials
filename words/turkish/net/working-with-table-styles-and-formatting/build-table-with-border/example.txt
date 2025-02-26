@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary: Bu kod, Aspose.Words kullanarak bir Word belgesindeki tabloların nasıl manipüle edileceğini gösterir. Mevcut bir belgeyi alır, ilk tablonun sınırlarını değiştirir ve değişiklikleri yeni bir dosyaya kaydeder.
+//ExStepSummary:0: Aşağıdaki kod belgeyi kurar ve ilk tabloyu ondan alır.
+//ExStepSummary:1: Aşağıdaki kod, yeni biçimlendirmeye hazırlanmak için mevcut sınırları tablodan temizler.
+//ExStepSummary:2: Aşağıdaki kod, masanın etrafında ve içinde yeşil bir sınır uygular.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Belgenin dizinini tanımla
+string dataDir = "Your Document Directory";
+// Belgeyi yükle
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Belgeden ilk tabloyu alın
+Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
+
+//ExStep:2-
+// Mevcut sınırları tablodan temizle
+table.ClearBorders();
+
+//ExStep:3-
+// Masanın etrafına ve içine yeşil bir sınır koyun
+table.SetBorders(LineStyle.Single, 1.5, Color.Green);
+// Belgeyi değişikliklerle kaydet
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");
+//ExEnd

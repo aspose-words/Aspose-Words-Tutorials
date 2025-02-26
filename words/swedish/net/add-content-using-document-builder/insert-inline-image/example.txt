@@ -1,0 +1,19 @@
+//ExStart
+//ExSummary:Denna kod visar hur man infogar en inline bild i ett Word-dokument med Aspose.Words.
+//ExStepSummary:0: Initialisering av dokumentets objekt och dokumentbyggare för att konstruera dokumentet.
+//ExStepSummary:1: Infoga en bild i dokumentet vid nuvarande markörposition med DocumentBuilder.
+//ExStepSummary:2: Spara dokumentet till ett angivet filnamn.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+// Initialera ett nytt dokument och dokumentbyggare
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Infoga bilden med hjälp av DocumentBuilder
+builder.InsertImage(ImagesDir + "Transparent background logo.png");
+
+//ExStep:2-
+// Spara det ändrade dokumentet till en fil
+doc.Save("AddContentUsingDocumentBuilder.InsertInlineImage.docx");
+//ExEnd

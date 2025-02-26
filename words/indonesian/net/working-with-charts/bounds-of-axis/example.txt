@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan bagaimana membuat dokumen dengan bagan menggunakan Aspose.Words, mengatur batas untuk sumbu Y, dan menyimpan dokumen sebagai berkas DOCX. 
+// Setiap langkah rusak untuk memberikan pemahaman yang jelas tentang proses yang terlibat dalam bekerja dengan bagan di Aspose.Words.
+//ExStepSummary:0: Inisialisasi dokumen baru dan suatu instansi DokumenBuilder. 
+//ExStepSummary:1: Masukkan bagan ke dalam dokumen dan ambil kembali objek bagan. 
+//ExStepSummary:2: Tambahkan seri baru ke bagan dengan kategori dan nilai yang ditentukan. 
+//ExStepSummary:3: Tata batas minimum dan maksimum bagi sumbu Y dari bagan. 
+//ExStepSummary:4: Simpan dokumen ke lokasi yang ditentukan. 
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Buat instansi Dokumen baru.
+Document doc = new Document();
+// Inisialisasi Dokumen Builder untuk membuat dokumen.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Masukkan bagan kolom ke dalam dokumen.
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+// Ambil objek bagan dari bentuk.
+Chart chart = shape.Chart;
+// Bersihkan semua seri yang ada dari bagan untuk data baru.
+chart.Series.Clear();
+
+//ExStep:2-
+// Definisikan seri baru dengan nama "Aspose Series 1"
+chart.Series.Add("Aspose Series 1",
+    new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
+    new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
+
+//ExStep:3-
+// Atur batas minimum sumbu Y.
+chart.AxisY.Scaling.Minimum = new AxisBound(0);
+chart.AxisY.Scaling.Maximum = new AxisBound(6);
+
+//ExStep:4-
+// Simpan dokumen dengan bagan ke lokasi yang ditentukan.
+doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
+//ExEnd

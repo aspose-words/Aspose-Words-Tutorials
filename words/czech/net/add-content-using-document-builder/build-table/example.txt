@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Tento kód ukazuje, jak vytvořit dokument Word s tabulkou pomocí Aspose.Words. Staví tabulku se dvěma řádky a různými směry a formáty buněčného textu.
+//ExStepSummary:0: Následující kód inicializuje nový dokument a stavitel dokumentů.
+//ExStepSummary:1: Následující kód spustí novou tabulku a vloží první řádek buněk.
+//ExStepSummary:2: Následující kód konfiguruje formátování pro druhý řádek a jeho buňky.
+//ExStepSummary:3: Následující kód konfiguruje formátování pro druhý řádek a jeho buňky.
+//ExStepSummary:4: Následující kód ukončí tabulku a uloží dokument do souboru.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Inicializace nového objektu Dokumentu
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Spustit nový stůl
+Table table = builder.StartTable();
+// Začněte s první buňkou
+builder.InsertCell();
+// Nastavit svislé nastavení pro první buňku
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
+builder.Write("This is row 1 cell 1");
+// Vložit druhou buňku
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+builder.EndRow();
+
+//ExStep:2-
+// Vložit buňku do druhého řádku
+builder.InsertCell();
+// Nastavit formátování pro druhý řádek
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+//ExStep:3-
+// Vložit druhou buňku do druhého řádku
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward; 
+builder.Writeln("This is row 2 cell 2");
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:4-
+// Automaticky upravte tabulku s pevnými šířkami sloupců
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+// Uložit dokument do souboru
+doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

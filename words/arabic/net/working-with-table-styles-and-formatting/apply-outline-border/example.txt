@@ -1,0 +1,43 @@
+//ExStart
+//ExSummaryيوضح هذا الرمز كيفية تطبيق حدود المخطط التفصيلي على جدول في مستند Word باستخدام Apose.Words. يقوم بتنسيق الجدول على الصفحة ، ويضع حدودًا خضراء حول الطاولة ، ويزيل أي حدود موجودة ، ويملأ خلايا الجدول بلون خلفية أخضر فاتح. 
+//ExStepSummary:0: يقوم الكود التالي بتهيئة المستند واسترداد الجدول الأول.
+//ExStepSummary:1: هذه الخطوة محاذاة الجدول إلى وسط الصفحة.
+//ExStepSummary:2: هذه الخطوة تزيل أي حدود قائمة من الطاولة.
+//ExStepSummary:3: تضع هذه الخطوة حدودًا خضراء حول الطاولة ولكن ليس في الداخل.
+//ExStepSummary:4: هذه الخطوة تملأ الخلايا بلون أخضر فاتح.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// حدد دليل المستند
+string dataDir = "Your Document Directory";
+// تحميل المستند
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// استرجع الجدول الأول من المستند
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+// محاذاة الجدول إلى وسط الصفحة
+table.Alignment = TableAlignment.Center;
+
+//ExStep:2-
+// امسح أي حدود موجودة من الطاولة.
+table.ClearBorders();
+
+//ExStep:3-
+// تعيين الحدود اليسرى
+table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
+// تعيين الحدود اليمنى
+table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
+// تعيين الحدود العليا
+table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
+// تعيين الحدود السفلية
+table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
+
+//ExStep:4-
+// ملء الخلايا مع اللون الأخضر الفاتح
+table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
+// احفظ المستند المعدل
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
+//ExEnd

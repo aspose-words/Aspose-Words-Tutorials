@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words, να εφαρμόσετε ένα στυλ παραγράφου, και να αποθηκεύσετε το έγγραφο. Δείχνει πώς να ορίσετε ένα στυλ τίτλου για μια παράγραφο και να αποθηκεύσετε το έγγραφο σε μορφή .docx.
+//ExStepSummary:0: Αυτή η ενότητα αρχικοποιείται μια νέα περίπτωση Document and DocumentBuilder.
+//ExStepSummary:1: Το παρόν τμήμα εφαρμόζει στυλ τίτλου παραγράφου χρησιμοποιώντας το DocumentBuilder.
+//ExStepSummary:2: Αυτή η ενότητα γράφει "Γεια" στο έγγραφο.
+//ExStepSummary:3: Αυτή η ενότητα αποθηκεύει το έγγραφο σε μια καθορισμένη διαδρομή αρχείου.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Αρχικοποίηση μιας νέας περίπτωσης εγγράφου
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Ορισμός του στυλ παραγράφου στον τίτλο
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Title;
+
+//ExStep:2-
+// Γράψτε "Γεια σας" χρησιμοποιώντας τον κατασκευαστή, εφαρμόζοντας το συγκεκριμένο στυλ
+builder.Write("Hello");
+
+//ExStep:3-
+// Αποθήκευση του εγγράφου σε ένα αρχείο .docx
+doc.Save("DocumentFormatting.ApplyParagraphStyle.docx");
+//ExEnd

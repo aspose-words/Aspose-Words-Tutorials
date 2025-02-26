@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Tento kód ukazuje, jak vytvořit dokument s grafem pomocí Aspose.Words, nastavit meze pro osu Y a uložit dokument jako soubor DOCX. 
+// Každý krok je rozdělen tak, aby jasně porozuměl procesu práce s grafy v Aspose.Words.
+//ExStepSummary:0: Inicializace nového dokumentu a instance DocumentBuilder. 
+//ExStepSummary:1: Vložte do dokumentu graf a najděte objekt grafu. 
+//ExStepSummary:2: Do grafu přidejte novou řadu se zadanými kategoriemi a hodnotami. 
+//ExStepSummary:3: Nastavte minimální a maximální meze pro osu Y grafu. 
+//ExStepSummary:4: Uložit dokument na zadanou cestu. 
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Vytvořit nový příklad dokumentu.
+Document doc = new Document();
+// Inicializovat DocumentBuilder pro sestavení dokumentu.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Do dokumentu vložte graf sloupců.
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+// Získejte objekt grafu z tvaru.
+Chart chart = shape.Chart;
+// Z grafu vymažte všechny existující řady pro nová data.
+chart.Series.Clear();
+
+//ExStep:2-
+// Definujte novou sérii se jménem "Aspose Series 1."
+chart.Series.Add("Aspose Series 1",
+    new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
+    new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
+
+//ExStep:3-
+// Nastavte minimální hranici osy Y.
+chart.AxisY.Scaling.Minimum = new AxisBound(0);
+chart.AxisY.Scaling.Maximum = new AxisBound(6);
+
+//ExStep:4-
+// Uložit dokument s grafem na zadanou cestu.
+doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
+//ExEnd

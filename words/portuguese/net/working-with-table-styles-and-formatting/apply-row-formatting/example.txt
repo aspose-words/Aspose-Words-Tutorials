@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Este código demonstra como aplicar a formatação de linha em um documento do Word usando Aspose.Words.
+//ExStepSummary:0: Inicializa um novo documento e começa a construir uma tabela com linhas formatadas.
+//ExStepSummary:1: Configura o formato de linha.
+//ExStepSummary:2: Configura as configurações de altura específicas.
+//ExStepSummary:3: Define o preenchimento de toda a tabela que afeta todas as linhas.
+//ExStepSummary:4: Escreve texto na célula da tabela e termina a linha.
+//ExStepSummary:5: Completa o processo de construção da mesa e salva o documento.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Criar um novo documento
+Document doc = new Document();
+// Criar um DocumentBuilder para modificar o documento
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Iniciar uma nova mesa
+Table table = builder.StartTable();
+// Inserir uma nova célula na tabela
+builder.InsertCell();
+//ExStep:2-
+// Acessar as propriedades de formatação de linha
+RowFormat rowFormat = builder.RowFormat;
+// Definir a altura da linha
+rowFormat.Height = 100;
+// Especifique que a altura é exata
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// Set padding para a mesa
+table.LeftPadding = 30; 
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// Escrever texto na célula
+builder.Writeln("I'm a wonderful formatted row.");
+// Fim da linha atual
+builder.EndRow();
+// Acabar com o edifício da mesa
+builder.EndTable();
+
+//ExStep:5-
+// Salvar o documento
+doc.Save("WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
+//ExEnd

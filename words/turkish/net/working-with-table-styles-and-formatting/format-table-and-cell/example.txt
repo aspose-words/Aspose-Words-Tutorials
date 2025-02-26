@@ -1,0 +1,63 @@
+//ExStart
+//ExSummary:Bu kod, hücreleri için farklı sınır ve gölgeleme stilleri olan bir tablo ile bir Word belgesinin nasıl oluşturulacağını gösterir.
+//ExStepSummary:0: Yeni bir Word belgesi oluşturmak için Belge ve Belge Yapıcısını başlatın.
+//ExStepSummary:1: Yeni bir tablo başlatın ve tüm tablo için sınırları ayarlayın.
+//ExStepSummary:2: Kırmızı arka plan gölgeleme ve metin içeren ilk hücreyi ekleyin.
+//ExStepSummary:3: Yeşil arka plan gölgeleme ve metin içeren ikinci hücreyi ekleyin.
+//ExStepSummary:4: İlk satırı sonlandırın ve önceki hücre biçimlendirmesini temizleyin.
+//ExStepSummary:5: İlk hücre için özel daha büyük sınırlara sahip yeni bir satır ekleyin.
+//ExStepSummary:6: Varsayılan biçimlendirme ve metin ile yeni satırın ikinci hücresini ekleyin.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Yeni bir belge oluştur.
+Document doc = new Document();
+// Belgeyi manipüle etmek için bir DocumentBuilder oluşturun.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Yeni bir masa aç.
+Table table = builder.StartTable();
+// İlk hücreyi masaya yerleştirin.
+builder.InsertCell();
+// Tüm masa için sınırları ayarlayın.
+table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
+
+//ExStep:2-
+// Hücrenin arka plan rengini kırmızıya ayarlayın.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
+builder.Writeln("Cell #1");
+// İkinci hücreyi yerleştirin.
+builder.InsertCell();
+
+//ExStep:3-
+// Hücrenin arka plan rengini yeşile ayarlayın.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
+builder.Writeln("Cell #2");
+// Geçerli satırı bitirin.
+builder.EndRow();
+
+//ExStep:4-
+// Taze başlamak için herhangi bir hücre biçimlendirmesini temizleyin.
+builder.CellFormat.ClearFormatting();
+// Bir sonraki satıra yeni bir hücre ekle.
+builder.InsertCell();
+// Bu satırın ilk hücresi için daha büyük sınırlar oluşturun.
+builder.CellFormat.Borders.Left.LineWidth = 4.0;
+builder.CellFormat.Borders.Right.LineWidth = 4.0;
+builder.CellFormat.Borders.Top.LineWidth = 4.0;
+builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
+builder.Writeln("Cell #3");
+//ExStep:5-
+// Dördüncü hücreyi yerleştir.
+builder.InsertCell();
+builder.CellFormat.ClearFormatting();
+builder.Writeln("Cell #4");
+//ExStep:6-
+// Belgeyi sakla.
+doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
+//ExEnd

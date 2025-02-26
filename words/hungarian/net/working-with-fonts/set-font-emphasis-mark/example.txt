@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary:Ez a kód bemutatja, hogyan lehet kiemelő jelet beállítani egy Word dokumentumban az Aspose.words használatával.
+//ExStepSummary:0:Hozzon létre egy új dokumentumpéldányt, amellyel dolgozhat.
+//ExStepSummary:1:DocumentBuilder beállítása a dokumentum manipulálásához.
+//ExStepSummary:2:Hangsúlyjel alkalmazása az építtető betűtípusára.
+//ExStepSummary:3:A hangsúlyos szöveg írása a dokumentumhoz.
+//ExStepSummary:4:Egyszerű szöveg, hangsúly nélkül.
+//ExStepSummary:5: Ez a kód menti a dokumentumot a hangsúlyjellel a betűtípushoz.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Új dokumentum létrehozása
+Document document = new Document();
+
+//ExStep:1-
+// DocumentBuilder inicializálása dokumentumkezeléshez
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:2-
+// Hangsúlyjel beállítása az UnderSolidCircle értékre
+builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
+
+//ExStep:3-
+// Írja be a kiemelő szöveget a dokumentumba
+builder.Write("Emphasis text");
+// Ugrás a következő sorra
+builder.Writeln();
+// A következő szöveg betűformázásának törlése
+builder.Font.ClearFormatting();
+
+//ExStep:4-
+// Egyszerű szöveg, hangsúly nélkül
+builder.Write("Simple text");
+
+//ExStep:5-
+// A dokumentum mentése a megadott elérési útra
+document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
+//ExEnd

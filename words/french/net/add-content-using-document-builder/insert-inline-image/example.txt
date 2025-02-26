@@ -1,0 +1,19 @@
+//ExStart
+//ExSummary:Ce code montre comment insérer une image en ligne dans un document Word en utilisant Aspose.Words.
+//ExStepSummary:0: Initialisation de l'objet Document et DocumentBuilder pour la construction du document.
+//ExStepSummary:1: Insertion d'une image dans le document à la position actuelle du curseur avec DocumentBuilder.
+//ExStepSummary:2: Enregistrer le document dans un nom de fichier spécifié.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+// Initialiser un nouveau document et documentBuilder
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Insérez l'image en utilisant DocumentBuilder
+builder.InsertImage(ImagesDir + "Transparent background logo.png");
+
+//ExStep:2-
+// Enregistrer le document modifié dans un fichier
+doc.Save("AddContentUsingDocumentBuilder.InsertInlineImage.docx");
+//ExEnd

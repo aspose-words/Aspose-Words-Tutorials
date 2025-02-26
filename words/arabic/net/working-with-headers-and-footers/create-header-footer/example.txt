@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: يوضح هذا الرمز كيفية إنشاء مستند Word مع رأس وتذييل أساسي باستخدام Apose.Words. يقوم بتهيئة مستند جديد ، وينتقل إلى أقسام الرأس والتذييل ، ويكتب نصًا مخصصًا. أخيرًا ، يحفظ المستند كملف DOCX.
+//ExStepSummary:0: يقوم الكود التالي بتهيئة كائن المستند الرئيسي وإعداد DocumentBuilder.
+//ExStepSummary:1: ينتقل الرمز التالي إلى قسم الرأس الأساسي ويكتب نص الرأس.
+//ExStepSummary:2: ينتقل الرمز التالي إلى قسم التذييل الأساسي ويكتب نص التذييل.
+//ExStepSummary:3: يقوم الكود التالي بحفظ المستند في مسار ملف محدد.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// تهيئة كائن مستند جديد
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// انقل إلى قسم الرأس الأساسي
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("Header for page.");
+
+//ExStep:2-
+// انتقل إلى قسم التذييل الأساسي
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+builder.Write("Footer for page."); // Write the footer text
+
+//ExStep:3-
+// احفظ المستند باسم الملف المحدد
+doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
+//ExEnd

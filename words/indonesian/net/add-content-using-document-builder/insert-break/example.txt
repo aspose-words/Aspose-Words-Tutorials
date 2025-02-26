@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan bagaimana membuat dokumen Word menggunakan Aspose.Words, tambahkan isi ke beberapa halaman, dan simpan sebagai berkas .docx.
+//ExStepSummary:0: Langkah ini menginisialisasi Dokumen baru dan Dokumen Builder untuk memanipulasi dokumen.
+//ExStepSummary:1: Langkah ini menambahkan teks ke halaman pertama.
+//ExStepSummary:2: Langkah ini menyisipkan istirahat halaman untuk memulai halaman baru.
+//ExStepSummary:3: Langkah ini menambahkan teks ke halaman kedua.
+//ExStepSummary:4: Langkah ini menyisipkan halaman istirahat lain untuk halaman baru.
+//ExStepSummary:5: Langkah ini menambahkan teks ke halaman ketiga.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Buat instansi Dokumen baru
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Tambah teks untuk halaman pertama
+builder.Writeln("This is page 1.");
+
+//ExStep:2-
+// Sisipkan istirahat halaman untuk memulai halaman baru
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+// Tambah teks bagi halaman kedua
+builder.Writeln("This is page 2.");
+
+//ExStep:4-
+// Masukkan halaman istirahat lain untuk halaman baru
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:5-
+// Tambah teks untuk halaman ketiga
+builder.Writeln("This is page 3.");
+
+//ExStep:6-
+// Menyimpan dokumen pada lokasi yang ditentukan
+doc.Save("AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

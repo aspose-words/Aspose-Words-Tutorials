@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: Questo codice dimostra come inserire i campi form in un documento Word usando Aspose.Words for .NET. In particolare, mostra come inserire un campo form combo con elementi predefiniti.
+//ExStepSummary:0: Il seguente codice dimostra come creare un nuovo documento Word.
+//ExStepSummary:1: Il seguente codice mostra come inizializzare un DocumentBuilder per modificare il documento.
+//ExStepSummary:2: Il seguente codice mostra come definire e inserire un campo di forma a casella combinata con elementi predefiniti e una selezione predefinita.
+//ExStepImage:0:images/1.png
+//ExStepImage:1:images/2.png
+//ExStep:0-
+// Inizializza un documento di Word vuoto
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Definisci e inserisci un campo di forma combinata
+string[] items = { "One", "Two", "Three" };
+builder.InsertComboBox("DropDown", items, 0);
+//ExEnd

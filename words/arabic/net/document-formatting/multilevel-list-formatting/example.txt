@@ -1,0 +1,56 @@
+//ExStart
+//ExSummaryيوضح هذا الرمز كيفية إنشاء قائمة متعددة المستويات في مستند Word باستخدام Apose.Words. يقوم بتهيئة مستند ، وتطبيق تنسيق الترقيم ، وإنشاء العناصر الرئيسية والفرعية ، وأخيراً حفظ المستند كملف .docx.
+//ExStepSummary:0: يقوم الكود التالي بتهيئة مستند جديد ومثيل DocumentBuilder.
+//ExStepSummary:1: يطبق الكود التالي نمط ترقيم افتراضي على القائمة ويضيف عناصر المستوى الأعلى.
+//ExStepSummary:2: المسافات البادئة التالية لإنشاء عناصر فرعية تحت العنصر الثاني من المستوى الأعلى.
+//ExStepSummary:3: الرمز التالي أبعد من ذلك لإنشاء البنود الفرعية الفرعية تحت البند الفرعي الثاني.
+//ExStepSummary:4: يعود الرمز التالي إلى المستوى السابق لإضافة عنصر آخر في المستوى الثاني.
+//ExStepSummary:5: يعود الرمز التالي إلى المستوى الأعلى لإضافة العنصر النهائي في القائمة.
+//ExStepSummary:6: يزيل الرمز التالي الترقيم من القائمة قبل الحفظ.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStep:0-
+// تهيئة مستند جديد
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// طبّق تنسيق الترقيم الافتراضي
+builder.ListFormat.ApplyNumberDefault();
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+
+//ExStep:2-
+// المسافة البادئة للبنود الفرعية
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.1");
+builder.Writeln("Item 2.2");
+
+//ExStep:3-
+// المسافة البادئة للبنود الفرعية الفرعية
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.2.1");
+builder.Writeln("Item 2.2.2");
+
+//ExStep:4-
+// العودة إلى المستوى الثاني Outdent back to the second level
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 2.3");
+
+//ExStep:5-
+// العودة إلى المستوى الأعلى Outdent back to the top level
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 3");
+
+//ExStep:6-
+// إزالة الترقيم من القائمة
+builder.ListFormat.RemoveNumbers();
+
+//ExStep:7-
+// احفظ المستند
+doc.Save("DocumentFormatting.MultilevelListFormatting.docx");
+//ExEnd

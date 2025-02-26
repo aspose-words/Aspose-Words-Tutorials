@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: Dieser Code zeigt, wie man ein Dokument erstellt und den Zeilenabstand einer bestimmten Schriftart erhält.
+//ExStepSummary:0: Der folgende Code initialisiert ein neues Dokument und DocumentBuilder.
+//ExStepSummary:1: Der Code setzt die Schriftart auf "Calibri" und fügt eine Textzeile hinzu.
+//ExStepSummary:2: Der Code ruft den Zeilenabstand des ersten Laufs im Dokument ab.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Eine neue Dokument-Instanz erstellen
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Setzen Sie den Schriftnamen auf 'Calibri'
+builder.Font.Name = "Calibri";
+builder.Writeln("qText");
+
+//ExStep:2-
+// Zugriff auf die Schriftart des ersten Laufs
+Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
+// Ausgabe des Zeilenabstands zur Konsole
+Console.WriteLine($"lineSpacing = {font.LineSpacing}");
+//ExEnd

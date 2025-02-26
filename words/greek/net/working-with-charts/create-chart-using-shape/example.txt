@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Παρακαλώ ελέγξτε τον παρακάτω κώδικα για να βρείτε πώς να δημιουργήσετε ένα διάγραμμα γραμμής σε ένα έγγραφο Word. Μπορείτε να αντιγράψετε αυτόν τον κωδικό στο IDE σας και να τον εκτελέσετε.
+//ExStepSummary:0: Ο ακόλουθος κώδικας δείχνει πώς να δημιουργήσετε ένα νέο έγγραφο και στιγμιαία ένα DocumentBuilder:
+//ExStepSummary:1: Ο ακόλουθος κωδικός δείχνει πώς να εισάγετε ένα διάγραμμα γραμμής στο έγγραφο:
+//ExStepSummary:2: Ο ακόλουθος κώδικας εξηγεί πώς να ορίσετε τον τίτλο για το διάγραμμα:
+//ExStepSummary:3: Ο ακόλουθος κώδικας δείχνει πώς να ρυθμίσετε τη θέση του μύθου του χάρτη και τις ρυθμίσεις επικάλυψης:
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Δημιουργία ενός νέου αντικειμένου εγγράφου
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Εισάγετε ένα διάγραμμα γραμμής στο έγγραφο σε καθορισμένες διαστάσεις
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+
+//ExStep:2-
+// Πρόσβαση στο αντικείμενο Chart από το σχήμα
+Chart chart = shape.Chart;
+// Ενεργοποίηση ορατότητας τίτλου γραφήματος
+chart.Title.Show = true;
+// Ορισμός του κειμένου τίτλου για το διάγραμμα
+chart.Title.Text = "Line Chart Title";
+// Βεβαιωθείτε ότι ο τίτλος δεν επικαλύπτει το διάγραμμα
+chart.Title.Overlay = false;
+
+//ExStep:3-
+// Ορισμός της θέσης του μύθου του χάρτη προς τα αριστερά
+chart.Legend.Position = LegendPosition.Left;
+chart.Legend.Overlay = true;
+
+//ExStep:4-
+// Αποθήκευση του εγγράφου με το διάγραμμα σε ένα αρχείο
+doc.Save("WorkingWithCharts.CreateChartUsingShape.docx");
+//ExEnd

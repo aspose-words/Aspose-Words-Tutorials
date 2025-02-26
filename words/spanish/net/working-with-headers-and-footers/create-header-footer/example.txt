@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Este código muestra cómo crear un documento de Word con un encabezado y pie de página primario usando Aspose.Words. Inicializa un nuevo documento, se mueve a las secciones de encabezado y pie de página y escribe texto personalizado. Finalmente, guarda el documento como un archivo DOCX.
+//ExStepSummary:0: El siguiente código inicializa el objeto Document principal y configura DocumentBuilder.
+//ExStepSummary:1: El siguiente código se mueve a la sección de encabezado principal y escribe el texto del encabezado.
+//ExStepSummary:2: El siguiente código se mueve a la sección de pie de página principal y escribe el texto del pie de página.
+//ExStepSummary:3: El siguiente código guarda el documento en una ruta de archivo especificada.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Inicializar un nuevo objeto Document
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Ir a la sección de encabezado principal
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("Header for page.");
+
+//ExStep:2-
+// Ir a la sección de pie de página principal
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+builder.Write("Footer for page."); // Write the footer text
+
+//ExStep:3-
+// Guardar el documento con el nombre de archivo especificado
+doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
+//ExEnd

@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Veuillez vérifier le code suivant pour trouver comment créer un graphique en ligne dans un document Word. Vous pouvez copier ce code sur votre IDE et l'exécuter.
+//ExStepSummary:0: Le code suivant montre comment créer un nouveau document et actualiser un documentBuilder:
+//ExStepSummary:1: Le code suivant montre comment insérer un diagramme linéaire dans le document :
+//ExStepSummary:2: Le code suivant explique comment définir le titre du graphique :
+//ExStepSummary:3: Le code suivant montre comment configurer la position de la légende du graphique et les paramètres de superposition :
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Créer un nouvel objet Document
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Insérer un diagramme de ligne dans le document aux dimensions spécifiées
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+
+//ExStep:2-
+// Accéder à l'objet Chart depuis la forme
+Chart chart = shape.Chart;
+// Activer la visibilité du titre du graphique
+chart.Title.Show = true;
+// Définir le texte du titre pour le graphique
+chart.Title.Text = "Line Chart Title";
+// S'assurer que le titre ne recouvre pas le graphique
+chart.Title.Overlay = false;
+
+//ExStep:3-
+// Définissez la position de la légende du graphique à gauche
+chart.Legend.Position = LegendPosition.Left;
+chart.Legend.Overlay = true;
+
+//ExStep:4-
+// Enregistrer le document avec le graphique dans un fichier
+doc.Save("WorkingWithCharts.CreateChartUsingShape.docx");
+//ExEnd

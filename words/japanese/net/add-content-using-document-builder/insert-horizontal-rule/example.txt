@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: このコードは、Asfof.words を使ってワード文書を作成する方法を示します。 
+//ExStepSummary:0: コンテンツを保持する新しい文書オブジェクトを作成します。
+//ExStepSummary:1: ドキュメントのレイアウトをデザインし、メッセージを挿入するには、ドキュメントビルダーを使用します。
+//ExStepSummary:2: ドキュメントに横線の形状を挿入します。
+//ExStepSummary:3: ドキュメントを指定したファイルパスに保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// コンテンツを保持する新しい文書オブジェクトを作成します
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc); 
+
+//ExStep:1-
+// 文書に行を書き込む
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+// ドキュメントに横線の形状を挿入
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+// ドキュメントを指定した場所に保存
+doc.Save("AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

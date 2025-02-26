@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Bu kod, Aspose.Words kullanarak bir tablo ile bir Word belgesinin nasıl oluşturulacağını gösterir. İki satır ve çeşitli hücre metni yönelimleri ve biçimleri olan bir tablo oluşturur.
+//ExStepSummary:0: Aşağıdaki kod yeni bir belge ve belge oluşturucuyu başlatır.
+//ExStepSummary:1: Aşağıdaki kod yeni bir tablo başlatır ve ilk hücre sırasını ekler.
+//ExStepSummary:2: Aşağıdaki kod, ikinci satır ve hücreleri için biçimlendirmeyi yapılandırır.
+//ExStepSummary:3: Aşağıdaki kod, ikinci satır ve hücreleri için biçimlendirmeyi yapılandırır.
+//ExStepSummary:4: Aşağıdaki kod tabloyu sonlandırır ve belgeyi bir dosyaya kaydeder.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Yeni bir Belge nesnesini başlat
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Yeni bir tablo başlat
+Table table = builder.StartTable();
+// İlk hücreyi başlat
+builder.InsertCell();
+// İlk hücre için dikey hizalamayı ayarla
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
+builder.Write("This is row 1 cell 1");
+// İkinci hücreyi ekle
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+builder.EndRow();
+
+//ExStep:2-
+// İkinci satır için bir hücre ekle
+builder.InsertCell();
+// İkinci satır için biçimlendirmeyi yapılandır
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+//ExStep:3-
+// İkinci satır için ikinci hücre ekle
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward; 
+builder.Writeln("This is row 2 cell 2");
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:4-
+// Sabit sütun genişlikleri ile tabloyu otomatik olarak ayarlayın
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+// Belgeyi bir dosyaya kaydet
+doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

@@ -1,0 +1,34 @@
+//ExStart
+//ExSummary:Deze code laat zien hoe je een Word-document maakt met behulp van Aspose.Words, het formatteren van de eigenschappen van het lettertype voordat je er een voorbeeldtekst naar schrijft.
+//ExStepSummary:0: De volgende code initialiseert een nieuw Document en een DocumentBuilder.
+//ExStepSummary:1: De volgende code stelt verschillende lettertype eigenschappen zoals grootte, vet, kleur, naam, en onderstreept stijl.
+//ExStepSummary:2: De volgende code schrijft een voorbeeldtekst naar het document met behulp van de geconfigureerde lettertypeinstellingen.
+//ExStepSummary:3: De volgende code slaat het document op in de opgegeven map met een gegeven bestandsnaam.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Een nieuwe document-instantie aanmaken
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Toegang tot het lettertype via DocumentBuilder
+Font font = builder.Font;
+// De lettergrootte instellen op 16
+font.Size = 16;
+// Maak het lettertype vet
+font.Bold = true;
+// Lettertypekleur veranderen naar blauw
+font.Color = Color.Blue;
+// Lettertype instellen op Arial
+font.Name = "Arial";
+// Een gestreepte onderstrepingsstijl toepassen op het lettertype
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+builder.Write("Sample text.");
+
+//ExStep:3-
+// Het document opslaan in de artefactenmap
+doc.Save("WorkingWithFonts.FontFormatting.docx");
+//ExEnd

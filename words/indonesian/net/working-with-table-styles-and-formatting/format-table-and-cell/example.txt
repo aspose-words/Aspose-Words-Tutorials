@@ -1,0 +1,63 @@
+//ExStart
+//ExSummary:Kode ini menunjukkan bagaimana membuat dokumen Word dengan tabel yang memiliki gaya batas dan shading yang berbeda untuk sel-selnya.
+//ExStepSummary:0: Inisialisasi Dokumen dan Dokumen Builder untuk membuat dokumen Word baru.
+//ExStepSummary:1: Buat meja baru dan atur perbatasan untuk seluruh meja.
+//ExStepSummary:2: Tambahkan sel pertama dengan shading latar belakang merah dan teks.
+//ExStepSummary:3: Tambahkan sel kedua dengan shading latar hijau dan teks.
+//ExStepSummary:4: Akhir baris pertama dan bersihkan pemformatan sel sebelumnya.
+//ExStepSummary:5: Tambahkan baris baru dengan batas yang lebih besar gubahan bagi sel pertama.
+//ExStepSummary:6: Tambahkan sel kedua dari baris baru dengan format dan teks baku.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Buat dokumen baru.
+Document doc = new Document();
+// Buat Dokumen Builder untuk memanipulasi dokumen.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Memulai meja baru.
+Table table = builder.StartTable();
+// Masukkan sel pertama ke dalam tabel.
+builder.InsertCell();
+// Mengatur perbatasan untuk seluruh meja.
+table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
+
+//ExStep:2-
+// Ubah warna latar belakang sel menjadi merah.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
+builder.Writeln("Cell #1");
+// Masukkan sel kedua.
+builder.InsertCell();
+
+//ExStep:3-
+// Ubah warna latar belakang sel menjadi hijau.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
+builder.Writeln("Cell #2");
+// Akhir baris ini.
+builder.EndRow();
+
+//ExStep:4-
+// Bersihkan pemformatan sel apapun untuk memulai baru.
+builder.CellFormat.ClearFormatting();
+// Masukkan sel baru di baris berikutnya.
+builder.InsertCell();
+// Buat batas yang lebih besar untuk sel pertama baris ini.
+builder.CellFormat.Borders.Left.LineWidth = 4.0;
+builder.CellFormat.Borders.Right.LineWidth = 4.0;
+builder.CellFormat.Borders.Top.LineWidth = 4.0;
+builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
+builder.Writeln("Cell #3");
+//ExStep:5-
+// Masukkan sel keempat.
+builder.InsertCell();
+builder.CellFormat.ClearFormatting();
+builder.Writeln("Cell #4");
+//ExStep:6-
+// Simpan dokumen.
+doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
+//ExEnd

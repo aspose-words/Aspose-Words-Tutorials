@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan hozhat létre Word dokumentumot az Aspose.Words segítségével, hozzáadhat tartalmat több oldalon keresztül, és mentheti .docx fájlként.
+//ExStepSummary:0: Ez a lépés egy új dokumentumot és egy DocumentBuilder-t inicializál a dokumentum manipulálásához.
+//ExStepSummary:1: Ez a lépés hozzáadja a szöveget az első oldalhoz.
+//ExStepSummary:2: Ez a lépés beszúr egy oldaltörést egy új oldal elindításához.
+//ExStepSummary:3: Ez a lépés hozzáadja a szöveget a második oldalhoz.
+//ExStepSummary:4: Ez a lépés beszúr egy újabb oldaltörést egy új oldalhoz.
+//ExStepSummary:5: Ez a lépés hozzáadja a szöveget a harmadik oldalhoz.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Új dokumentumpéldány létrehozása
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Szöveg hozzáadása az első oldalhoz
+builder.Writeln("This is page 1.");
+
+//ExStep:2-
+// Oldaltörés beszúrása új oldal indításához
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+// Szöveg hozzáadása a második oldalhoz
+builder.Writeln("This is page 2.");
+
+//ExStep:4-
+// Újabb oldaltörés beszúrása egy új oldalhoz
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:5-
+// Szöveg hozzáadása a harmadik oldalhoz
+builder.Writeln("This is page 3.");
+
+//ExStep:6-
+// A dokumentum mentése a megadott elérési útra
+doc.Save("AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Denna kod visar hur man skapar ett Word-dokument med en tabell med Aspose.Words. Det bygger en tabell med två rader och olika celltextorienteringar och format.
+//ExStepSummary:0: Följande kod initierar ett nytt dokument och dokumentbyggare.
+//ExStepSummary:1: Följande kod startar en ny tabell och infogar den första raden av celler.
+//ExStepSummary:2: Följande kod konfigurerar formateringen för den andra raden och dess celler.
+//ExStepSummary:3: Följande kod konfigurerar formateringen för den andra raden och dess celler.
+//ExStepSummary:4: Följande kod avslutar tabellen och sparar dokumentet till en fil.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Initiera ett nytt dokumentobjekt
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Starta en ny tabell
+Table table = builder.StartTable();
+// Börja första cellen
+builder.InsertCell();
+// Ställ in vertikal inställning för den första cellen
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
+builder.Write("This is row 1 cell 1");
+// Infoga andra cellen
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+builder.EndRow();
+
+//ExStep:2-
+// Infoga en cell för den andra raden
+builder.InsertCell();
+// Anpassa formatering för den andra raden
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+//ExStep:3-
+// Infoga andra cellen på andra raden
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward; 
+builder.Writeln("This is row 2 cell 2");
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:4-
+// Anpassa tabellen automatiskt med fasta kolumnbredder
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+// Spara dokumentet till en fil
+doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

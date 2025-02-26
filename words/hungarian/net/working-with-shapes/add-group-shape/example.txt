@@ -1,0 +1,67 @@
+//ExStart
+//ExSummary: Ez a kód azt mutatja be, hogyan hozhat létre csoportalakot egy dokumentumon belül az Aspose.Words használatával.
+// Akcentushatár-kiírási alakzatot és műveletgombot hoz létre, hozzáadja őket egy csoport alakzathoz, majd mentés előtt beilleszti a csoport alakzatot a dokumentumba.
+//ExStepSummary:0: Inicializál egy új dokumentumot, és biztosítja a minimális követelmények teljesülését.
+//ExStepSummary:1: Csoportformát hoz létre, amely más alakzatokat is tartalmaz.
+//ExStepSummary:2: Akcentusos szegélyfelirat- alakzatot ad a csoport alakjához.
+//ExStepSummary:3: Művelet gomb alakzatot ad a csoport alakjához.
+//ExStepSummary:4: Beállítja a csoport alakjának méreteit és koordinátáit.
+//ExStepSummary:5: Beilleszti a csoport alakját a dokumentumba egy DocumentBuilder segítségével.
+//ExStepSummary:6: Menti a csoport alakját tartalmazó dokumentumot egy megadott helyre.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStep:0-
+// Új dokumentum létrehozása
+Document doc = new Document();
+// Győződjön meg róla, hogy a dokumentum megfelel a minimális követelményeknek
+doc.EnsureMinimum();
+
+//ExStep:1-
+// Új GroupShape példány létrehozása
+GroupShape groupShape = new GroupShape(doc);
+
+//ExStep:2-
+// Akcentushatár kiírási alakzat létrehozása
+Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
+{
+    Width = 100, 
+    Height = 100
+};
+// Az alakzat hozzáadása a csoport alakjához
+groupShape.AppendChild(accentBorderShape);
+
+//ExStep:3-
+// Művelet gomb alakzat létrehozása
+Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
+{
+	// Az alakzat bal pozíciójának beállítása
+    Left = 100, 
+	// Állítsa be az alakzat szélességét
+    Width = 100, 
+	// Állítsa be az alakzat magasságát
+    Height = 200
+};
+// A művelet gomb hozzáadása a csoport alakjához
+groupShape.AppendChild(actionButtonShape);
+
+//ExStep:4-
+// A csoport alakzat szélességének beállítása
+groupShape.Width = 200;
+// Állítsa be a csoport alakjának magasságát
+groupShape.Height = 200;
+// A csoportalakzat koordinátaméretének beállítása
+groupShape.CoordSize = new Size(200, 200);
+
+//ExStep:5-
+// DocumentBuilder létrehozása a dokumentum manipulálásához
+DocumentBuilder builder = new DocumentBuilder(doc);
+// A csoport alakjának beillesztése a dokumentumba
+builder.InsertNode(groupShape);
+
+//ExStep:6-
+// A dokumentum mentése egy megadott helyre
+doc.Save("WorkingWithShapes.AddGroupShape.docx");
+//ExEnd

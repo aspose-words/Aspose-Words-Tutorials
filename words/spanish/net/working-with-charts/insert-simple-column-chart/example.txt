@@ -1,0 +1,57 @@
+//ExStart
+//ExSummary:Por favor, compruebe el siguiente código para encontrar cómo insertar un gráfico de columna simple en un documento de Word. Puede copiar este código a su IDE y ejecutarlo.
+//ExStepSummary:0: Este código muestra cómo crear un documento de Word usando Aspose.Words e insertar un gráfico de columna en él.
+//ExStepSummary:1: Este código muestra cómo crear un objeto constructor de documentos para manipular contenido de Word.
+//ExStepSummary:2: Este código muestra cómo insertar una forma de gráfico de columna con dimensiones especificadas en el documento.
+//ExStepSummary:3: Este código recupera el objeto gráfico de la forma insertada para una mayor personalización.
+//ExStepSummary:4: Este código muestra cómo acceder a la colección de series de gráficos e imprimir el recuento de series.
+//ExStepSummary:5: Este código borra cualquier serie predeterminada que se haya creado con el gráfico.
+//ExStepSummary:6: Este código muestra cómo definir los nombres de las categorías para los datos del gráfico.
+//ExStepSummary:7: Este código muestra cómo agregar series al gráfico con los nombres de categoría y valores de datos correspondientes.
+//ExStepSummary:8: Este código guarda el documento con el gráfico insertado en un archivo especificado.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:7:images/4.png
+//ExStep:0-
+// Crear una nueva instancia de documento de Word.
+Document doc = new Document();
+
+//ExStep:1-
+// Cree un DocumentBuilder para insertar fácilmente elementos en el documento.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// Inserte una forma de gráfico de columna con el ancho (432) y la altura (252) especificados.
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:3-
+// Recupera el objeto gráfico de la forma para su posterior manipulación.
+Chart chart = shape.Chart;
+
+//ExStep:4-
+// Acceda a la colección de series del gráfico.
+ChartSeriesCollection seriesColl = chart.Series;
+// Imprima el número de series en el gráfico en la consola.
+Console.WriteLine(seriesColl.Count);
+
+//ExStep:5-
+// Elimine las series predeterminadas que se generaron automáticamente cuando se creó el gráfico.
+seriesColl.Clear();
+
+//ExStep:6-
+// Defina una matriz de nombres de categorías para los datos de gráficos.
+string[] categories = new string[] { "Category 1", "Category 2" };
+
+//ExStep:7-
+// Agregue varias series al gráfico con los nombres de las categorías y los valores de los datos.
+seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
+seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
+seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
+seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
+seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
+
+//ExStep:8-
+// Guarde el documento con el gráfico insertado en la ruta de archivo especificada.
+doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
+//ExEnd

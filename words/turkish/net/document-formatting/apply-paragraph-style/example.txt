@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: Bu kod Aspose.Words kullanarak bir Word belgesinin nasıl oluşturulacağını gösterir, bir paragraf stili uygular ve belgeyi kaydeder. Bir paragraf için başlık stilinin nasıl ayarlanacağını ve belgenin .docx biçiminde nasıl kaydedileceğini gösterir.
+//ExStepSummary:0: Bu bölüm yeni bir Document and DocumentBuilder örneğini başlatır.
+//ExStepSummary:1: Bu bölüm DocumentBuilder'ı kullanarak Başlık paragrafı stilini uygular.
+//ExStepSummary:2: Bu bölüm belgeye "Merhaba" yazıyor.
+//ExStepSummary:3: Bu bölüm belgeyi belirtilen bir dosya yoluna kaydeder.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Yeni bir Belge örneğini başlat
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Paragraf stilini Başlık olarak ayarla
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Title;
+
+//ExStep:2-
+// Oluşturucuyu kullanarak, belirtilen stili uygulayarak "Merhaba" yazın
+builder.Write("Hello");
+
+//ExStep:3-
+// Belgeyi bir .docx dosyasına kaydet
+doc.Save("DocumentFormatting.ApplyParagraphStyle.docx");
+//ExEnd

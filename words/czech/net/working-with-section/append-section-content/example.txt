@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary:Tento příklad ukazuje, jak připojit a prepend obsah z jedné sekce do druhé v dokumentu Word pomocí Aspose.Words pro .NET.
+//ExStepSummary:0: Inicializovat nový Word dokument a DocumentBuilder přidat obsah.
+//ExStepSummary:1: Napsat text a vložit část přestávky vytvořit více sekcí v dokumentu.
+//ExStepSummary:2: Přístup do třetí sekce dokumentu pro přípravu na manipulaci s obsahem.
+//ExStepSummary:3: Předpověď obsahu z první sekce do třetí sekce.
+//ExStepSummary:4: Přidejte obsah z druhé sekce do třetí sekce.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Inicializovat dokument a dokumentBuilder
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Napsat text a vložit část přestávky vytvořit tři sekce
+builder.Write("Section 1");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// Přidat obsah do druhé sekce
+builder.Write("Section 2");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// Přidat obsah do třetí sekce
+builder.Write("Section 3");
+
+//ExStep:2-
+// Získejte třetí část dokumentu
+Section section = doc.Sections[2];
+
+//ExStep:3-
+// Předpovězený obsah z první části do třetí části
+Section sectionToPrepend = doc.Sections[0];
+section.PrependContent(sectionToPrepend);
+
+//ExStep:4-
+// Přidávat obsah z druhé sekce do třetí sekce
+Section sectionToAppend = doc.Sections[1];
+section.AppendContent(sectionToAppend);
+//ExEnd

@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: Bu kod, Aspose.Words kullanarak bir Word belgesine belirli seçenekler içeren bir metin filigranının nasıl ekleneceğini gösterir.
+//ExStepSummary:0: Aşağıdaki kod belge yolunu başlatır ve yeni bir Belge nesnesi oluşturur.
+//ExStepSummary:1: Aşağıdaki kod, yazı tipi ailesi, boyut, renk ve düzen dahil olmak üzere metin filigranı için seçenekleri ayarlar.
+//ExStepSummary:2: Aşağıdaki kod, belgeye belirtilen seçeneklerle metin filigranını uygular.
+//ExStepSummary:3: Aşağıdaki kod değiştirilmiş belgeyi belirtilen bir dizine kaydeder.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+// Belgenin dizin yolunu ayarla
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Word belgesini yükle
+Document doc = new Document(dataDir + "Document.docx");
+
+//ExStep:2-
+// Filigran seçenekleri oluştur
+TextWatermarkOptions options = new TextWatermarkOptions()
+{
+    FontFamily = "Arial", // Set font family for the watermark text
+    FontSize = 36, // Set font size for the watermark text
+    Color = Color.Black, // Set color of the watermark text
+    Layout = WatermarkLayout.Horizontal, // Specify layout of the watermark
+    IsSemitrasparent = false // Set transparency option
+};
+
+//ExStep:3-
+// Filigran metnini seçeneklerle uygulayın
+doc.Watermark.SetText("Test", options);
+
+//ExStep:4-
+// Belgeyi filigranla kaydet
+doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
+//ExEnd

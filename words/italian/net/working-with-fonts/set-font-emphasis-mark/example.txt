@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary:Questo codice dimostra come impostare un segno di enfasi in un documento di Word utilizzando Aspose.words.
+//ExStepSummary:0:Creare una nuova istanza di documento con cui lavorare.
+//ExStepSummary:1:Impostazione di un DocumentBuilder per manipolare il documento.
+//ExStepSummary:2:Applicare un marchio di enfasi al carattere del costruttore.
+//ExStepSummary:3:Scrivere il testo di enfasi al documento.
+//ExStepSummary:4:Scrivere un testo semplice senza enfasi.
+//ExStepSummary:5: Questo codice salva il documento con il segno di enfasi sul carattere.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Crea un nuovo documento
+Document document = new Document();
+
+//ExStep:1-
+// Inizialize DocumentBuilder per la manipolazione dei documenti
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:2-
+// Imposta il segno di enfasi a UnderSolidCircle
+builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
+
+//ExStep:3-
+// Scrivere il testo di enfasi al documento
+builder.Write("Emphasis text");
+// Sposta alla riga successiva
+builder.Writeln();
+// Pulisci la formattazione del carattere per il testo successivo
+builder.Font.ClearFormatting();
+
+//ExStep:4-
+// Scrivi testo semplice senza enfasi
+builder.Write("Simple text");
+
+//ExStep:5-
+// Salva il documento nel percorso specificato
+document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
+//ExEnd

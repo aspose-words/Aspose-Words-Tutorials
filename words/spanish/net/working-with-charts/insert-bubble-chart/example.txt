@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary: Este código muestra cómo insertar un gráfico de Bubble en un documento de Word usando Aspose.Words.
+//ExStepSummary:0: El siguiente código inicializa un nuevo documento y DocumentBuilder.
+//ExStepSummary:1: Se crea un gráfico de Bubble y se agrega al documento usando DocumentBuilder.
+//ExStepSummary:2: La serie de datos para el gráfico de burbujas se agrega con valores específicos de X, Y y tamaño.
+//ExStepSummary:3: Finalmente, el documento se guarda con el gráfico Bubble insertado.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Inicializar un nuevo documento y DocumentBuilder
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Insertar un gráfico de Bubble en el documento
+Shape shape = builder.InsertChart(ChartType.Bubble, 432, 252);
+
+//ExStep:2-
+// Añadir series de datos al gráfico Bubble
+Chart chart = shape.Chart;
+chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, // X values
+    new double[] { 2.7, 3.2, 0.8 }, // Y values
+    new double[] { 10, 4, 8 }); // Size values for the bubbles
+
+//ExStep:3-
+// Guardar el documento con el gráfico de burbujas
+doc.Save("WorkingWithCharts.InsertBubbleChart.docx");
+//ExEnd

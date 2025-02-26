@@ -1,0 +1,56 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε μια πολυεπίπεδη λίστα σε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words. Αρχικοποιήσει ένα έγγραφο, εφαρμόζει μια μορφή αρίθμησης, δημιουργεί κύρια και επιμέρους στοιχεία, και τελικά αποθηκεύει το έγγραφο ως .docx αρχείο.
+//ExStepSummary:0: Ο ακόλουθος κώδικας εγκαινιάζει ένα νέο έγγραφο και παράδειγμα DocumentBuilder.
+//ExStepSummary:1: Ο παρακάτω κωδικός εφαρμόζει ένα προκαθορισμένο στυλ αρίθμησης στη λίστα και προσθέτει top-level στοιχεία.
+//ExStepSummary:2: Οι ακόλουθες περιπτώσεις κώδικα για τη δημιουργία υποθεμάτων στο δεύτερο top- level στοιχείο.
+//ExStepSummary:3: Ο ακόλουθος κωδικός περαιτέρω περιπτώσεις για τη δημιουργία υποθεμάτων στο πλαίσιο του δεύτερου υποστοιχείου.
+//ExStepSummary:4: Ο ακόλουθος κωδικός outdents πίσω στο προηγούμενο επίπεδο για να προσθέσετε ένα άλλο στοιχείο στο δεύτερο επίπεδο.
+//ExStepSummary:5: Ο παρακάτω κωδικός outdents πίσω στο επάνω επίπεδο για να προσθέσετε το τελικό στοιχείο στη λίστα.
+//ExStepSummary:6: Ο ακόλουθος κωδικός αφαιρεί την αρίθμηση από τη λίστα πριν από την αποθήκευση.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStep:0-
+// Αρχικοποίηση ενός νέου εγγράφου
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Εφαρμογή προεπιλεγμένης μορφής αρίθμησης
+builder.ListFormat.ApplyNumberDefault();
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+
+//ExStep:2-
+// Είσοδος για επιμέρους στοιχεία
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.1");
+builder.Writeln("Item 2.2");
+
+//ExStep:3-
+// Είσοδος για επιμέρους αντικείμενα
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.2.1");
+builder.Writeln("Item 2.2.2");
+
+//ExStep:4-
+// Πίσω στο δεύτερο επίπεδο
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 2.3");
+
+//ExStep:5-
+// Πίσω στο πάνω επίπεδο
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 3");
+
+//ExStep:6-
+// Αφαίρεση αρίθμησης από τη λίστα
+builder.ListFormat.RemoveNumbers();
+
+//ExStep:7-
+// Αποθήκευση του εγγράφου
+doc.Save("DocumentFormatting.MultilevelListFormatting.docx");
+//ExEnd

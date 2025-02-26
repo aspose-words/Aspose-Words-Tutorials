@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: Ez a kód azt mutatja be, hogyan lehet létrehozni egy dokumentumot, és megkapni a megadott betűtípus sortávolságát.
+//ExStepSummary:0: A következő kód egy új Document and DocumentBuilder-t inicializál.
+//ExStepSummary:1: A kód beállítja a betűtípust "Calibri" -re, és hozzáad egy szövegsort.
+//ExStepSummary:2: A kód beolvassa a dokumentum első futtatásának sorközét.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Új dokumentumpéldány létrehozása
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// A betűtípus nevének beállítása 'Calibri'-re
+builder.Font.Name = "Calibri";
+builder.Writeln("qText");
+
+//ExStep:2-
+// Az első futtatás betűtípusának elérése
+Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
+// A sortávolság kiírása a konzolra
+Console.WriteLine($"lineSpacing = {font.LineSpacing}");
+//ExEnd

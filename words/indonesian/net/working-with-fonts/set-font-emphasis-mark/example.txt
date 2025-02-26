@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary:Kode ini menunjukkan bagaimana menetapkan tanda penekanan dalam dokumen Word menggunakan Aspose.words.
+//ExStepSummary:0:Membuat instansi Dokumen baru untuk dikerjakan.
+//ExStepSummary:1:Menyiapkan sebuah Dokumen Builder untuk memanipulasi dokumen.
+//ExStepSummary:2:Menerapkan tanda penekanan ke fonta pembangun.
+//ExStepSummary:3:Menulis teks penekanan ke dokumen.
+//ExStepSummary:4:Menulis teks sederhana tanpa penekanan apapun.
+//ExStepSummary:5: Kode ini menyimpan dokumen dengan tanda penekanan pada fonta.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Buat Dokumen baru
+Document document = new Document();
+
+//ExStep:1-
+// Inisialisasi DokumenBuilder untuk manipulasi dokumen
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:2-
+// Set penekanan mark ke UnderSolidCircle
+builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
+
+//ExStep:3-
+// Tulis teks penekanan ke dokumen
+builder.Write("Emphasis text");
+// Pindah ke baris berikutnya
+builder.Writeln();
+// Bersihkan format fonta untuk teks selanjutnya
+builder.Font.ClearFormatting();
+
+//ExStep:4-
+// Tulis teks sederhana tanpa penekanan
+builder.Write("Simple text");
+
+//ExStep:5-
+// Menyimpan dokumen pada lokasi yang ditentukan
+document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
+//ExEnd

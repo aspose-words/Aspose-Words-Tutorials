@@ -1,0 +1,63 @@
+//ExStart
+//ExSummary:Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο Word με έναν πίνακα που έχει διαφορετικά σύνορα και στυλ σκίασης για τα κελιά του.
+//ExStepSummary:0: Αρχικοποιήστε το έγγραφο και DocumentBuilder για να δημιουργήσετε ένα νέο έγγραφο Word.
+//ExStepSummary:1: Ξεκινήστε ένα νέο τραπέζι και βάλτε τα σύνορα για όλο το τραπέζι.
+//ExStepSummary:2: Προσθέστε το πρώτο κύτταρο με κόκκινο φόντο σκίαση και κείμενο.
+//ExStepSummary:3: Προσθέστε το δεύτερο κύτταρο με πράσινο φόντο σκίαση και κείμενο.
+//ExStepSummary:4: Τερματίστε την πρώτη σειρά και καθαρίστε την προηγούμενη σχηματοποίηση κελιών.
+//ExStepSummary:5: Προσθέστε μια νέα σειρά με έθιμα μεγαλύτερα σύνορα για το πρώτο κελί.
+//ExStepSummary:6: Προσθέστε το δεύτερο κελί της νέας σειράς με προεπιλεγμένη μορφοποίηση και κείμενο.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Δημιουργήστε ένα νέο έγγραφο.
+Document doc = new Document();
+// Δημιουργήστε ένα DocumentBuilder για να χειραγωγήσει το έγγραφο.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Ξεκίνα ένα νέο τραπέζι.
+Table table = builder.StartTable();
+// Εισάγετε το πρώτο κελί στο τραπέζι.
+builder.InsertCell();
+// Βάλε τα σύνορα για όλο το τραπέζι.
+table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
+
+//ExStep:2-
+// Ορισμός χρώματος φόντου του κυττάρου σε κόκκινο.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
+builder.Writeln("Cell #1");
+// Εισάγετε το δεύτερο κελί.
+builder.InsertCell();
+
+//ExStep:3-
+// Ορισμός χρώματος φόντου του κυττάρου σε πράσινο.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
+builder.Writeln("Cell #2");
+// Τελείωσε την τρέχουσα σειρά.
+builder.EndRow();
+
+//ExStep:4-
+// Καθαρίστε κάθε σχηματοποίηση κυττάρων για να ξεκινήσετε από την αρχή.
+builder.CellFormat.ClearFormatting();
+// Εισάγετε ένα νέο κελί στην επόμενη σειρά.
+builder.InsertCell();
+// Δημιουργήστε μεγαλύτερα σύνορα για το πρώτο κελί αυτής της σειράς.
+builder.CellFormat.Borders.Left.LineWidth = 4.0;
+builder.CellFormat.Borders.Right.LineWidth = 4.0;
+builder.CellFormat.Borders.Top.LineWidth = 4.0;
+builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
+builder.Writeln("Cell #3");
+//ExStep:5-
+// Εισάγετε το τέταρτο κελί.
+builder.InsertCell();
+builder.CellFormat.ClearFormatting();
+builder.Writeln("Cell #4");
+//ExStep:6-
+// Αποθηκεύστε το έγγραφο.
+doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
+//ExEnd

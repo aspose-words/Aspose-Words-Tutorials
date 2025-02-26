@@ -1,0 +1,43 @@
+//ExStart
+//ExSummaryيوضح هذا الرمز كيفية إنشاء مستند Word باستخدام Apose.Words ، وإضافة محتوى عبر صفحات متعددة ، وحفظه كملف .docx.
+//ExStepSummary:0: تعمل هذه الخطوة على تهيئة مستند جديد وDocumentBuilder لمعالجة المستند.
+//ExStepSummary:1: تضيف هذه الخطوة نصًا إلى الصفحة الأولى.
+//ExStepSummary:2: تدرج هذه الخطوة فاصل صفحة لبدء صفحة جديدة.
+//ExStepSummary:3: تضيف هذه الخطوة نصًا إلى الصفحة الثانية.
+//ExStepSummary:4: تدرج هذه الخطوة فاصل صفحة آخر لصفحة جديدة.
+//ExStepSummary:5: تضيف هذه الخطوة نصًا إلى الصفحة الثالثة.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// إنشاء مثيل مستند جديد
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// إضافة نص للصفحة الأولى
+builder.Writeln("This is page 1.");
+
+//ExStep:2-
+// إدراج فاصل صفحة لبدء صفحة جديدة
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+// إضافة نص للصفحة الثانية
+builder.Writeln("This is page 2.");
+
+//ExStep:4-
+// إدراج فاصل صفحة آخر لصفحة جديدة
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:5-
+// إضافة نص للصفحة الثالثة
+builder.Writeln("This is page 3.");
+
+//ExStep:6-
+// احفظ المستند إلى المسار المحدد
+doc.Save("AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

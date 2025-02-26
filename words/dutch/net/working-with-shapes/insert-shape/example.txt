@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Deze code laat zien hoe je vormen (tekstvakjes) in een Word-document invoegt met behulp van Aspose.Words. Het document wordt opgeslagen in DOCX-formaat met specifieke nalevingsopties voor ISO-normen.
+//ExStepSummary:0: De code initialiseert een nieuw document en een documentbouwer voor het manipuleren van het document.
+//ExStepSummary:1: Een vorm (tekst vak) wordt ingevoegd op een absolute positie in het document en rotatie van de eerste vorm is ingesteld op 30 graden.
+//ExStepSummary:2: Een nieuwe vorm wordt ingevoegd op een relatieve positie en rotatie van de tweede vorm is ook ingesteld op 30 graden.
+//ExStepSummary:3: Het document wordt opgeslagen met specifieke OoxmlSaveOptions.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Maakt een nieuwe document-instantie aan
+Document doc = new Document();
+// Initialiseren van een documentBuilder voor het document
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Voegt een vorm van het type TextBox toe
+Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
+    RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
+// Draait de vorm met 30 graden
+shape.Rotation = 30.0;
+
+//ExStep:2-
+builder.Writeln();
+// Voegt een andere vorm van het type TextBox in op een relatieve positie
+shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
+// Draait de tweede vorm met 30 graden
+shape.Rotation = 30.0;
+
+//ExStep:3-
+// Bereidt opties voor opslaan voor het document
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
+{
+    Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
+};
+
+// Het document opslaan met behulp van de opgegeven opties voor opslaan
+doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
+//ExEnd

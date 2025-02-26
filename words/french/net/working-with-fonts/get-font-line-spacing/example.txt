@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: Ce code montre comment créer un document et obtenir l'espacement des lignes d'une police spécifiée.
+//ExStepSummary:0: Le code suivant initialise un nouveau Document et DocumentBuilder.
+//ExStepSummary:1: Le code définit la police à "Calibri" et ajoute une ligne de texte.
+//ExStepSummary:2: Le code récupère l'espacement des lignes de la première exécution dans le document.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Créer une nouvelle instance de document
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Définissez le nom de la police à 'Calibri'
+builder.Font.Name = "Calibri";
+builder.Writeln("qText");
+
+//ExStep:2-
+// Accédez à la police de la première sortie
+Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
+// Sortie de l'espacement de la ligne vers la console
+Console.WriteLine($"lineSpacing = {font.LineSpacing}");
+//ExEnd

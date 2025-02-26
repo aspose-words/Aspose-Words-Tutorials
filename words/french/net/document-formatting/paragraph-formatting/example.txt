@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: Ce code montre comment formater les paragraphes dans un document Word en utilisant Aspose.Words. Il montre comment définir les options de formatage des paragraphes comme l'alignement, l'indentation et l'espace après un paragraphe.
+//ExStepSummary:0: Cette étape initialise un nouveau document et un documentBuilder pour construire le document.
+//ExStepSummary:1: Cette étape définit les options de formatage du paragraphe, y compris l'alignement, le tiret de gauche, le tiret de droite et l'espace après le paragraphe.
+//ExStepSummary:2: Cette étape écrit un paragraphe bien formaté avec les options de formatage spécifiées pour le document.
+//ExStepSummary:3: Cette étape écrit un autre paragraphe formaté démontrant l'effet de l'espace après le paragraphe.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0- 
+// Créer une nouvelle instance Document.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1- 
+// Configurer les options de formatage des paragraphes.
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.Alignment = ParagraphAlignment.Center;
+paragraphFormat.LeftIndent = 50;
+paragraphFormat.RightIndent = 50;
+paragraphFormat.SpaceAfter = 25;
+
+//ExStep:2- 
+// Rédigez le premier paragraphe formaté.
+builder.Writeln(
+	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
+
+//ExStep:3- 
+// Rédigez le deuxième paragraphe formaté.
+builder.Writeln(
+	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
+
+//ExStep:4- 
+// Enregistrez le document sur le chemin spécifié.
+doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
+//ExEnd

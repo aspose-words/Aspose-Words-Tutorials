@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: Ez a kód azt mutatja be, hogyan kell beilleszteni egy területdiagramot egy Word dokumentumba az Aspose.Words használatával.
+//ExStepSummary:0: A következő kód egy új dokumentumot és egy dokumentumkészítőt inicializál.
+//ExStepSummary:1: A következő kód beszúr egy területdiagramot a dokumentumba.
+//ExStepSummary:2: A következő kód egy sort ad hozzá a diagramhoz a megadott adatpontokkal.
+//ExStepSummary:3: A következő kód menti a dokumentumot a beillesztett területdiagrammal.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Új dokumentum létrehozása
+Document doc = new Document();
+// A dokumentumkészítő inicializálása
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Adjon meg egy területdiagramot a megadott méretekkel
+Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
+
+//ExStep:2-
+// A diagramobjektum elérése
+Chart chart = shape.Chart;
+// Új sorozat hozzáadása a diagramhoz
+chart.Series.Add("Aspose Series 1", new [] 
+{
+	// 1\. adatpont
+    new DateTime(2002, 05, 01),
+	// 2\. adatpont
+    new DateTime(2002, 06, 01),
+	// 3\. adatpont
+    new DateTime(2002, 07, 01),
+	// 4\. adatpont
+    new DateTime(2002, 08, 01),
+	// 5\. adatpont
+    new DateTime(2002, 09, 01)
+}, 
+// Az adatpontok megfelelő értékei
+new double[] { 32, 32, 28, 12, 15 });
+
+//ExStep:3-
+// Mentse a dokumentumot a beillesztett diagrammal
+doc.Save("WorkingWithCharts.InsertAreaChart.docx");
+//ExEnd

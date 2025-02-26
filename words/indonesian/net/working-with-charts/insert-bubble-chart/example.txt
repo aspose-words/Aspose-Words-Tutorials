@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara memasukkan bagan Bubble ke dalam dokumen Word menggunakan Aspose.Words.
+//ExStepSummary:0: Kode berikut menginisialisasi Dokumen dan Dokumen Builder baru.
+//ExStepSummary:1: Tabel Bubble dibuat dan ditambahkan ke dokumen menggunakan Dokumen Builder.
+//ExStepSummary:2: Seri data untuk bagan Bubble ditambahkan dengan nilai X, Y, dan ukuran tertentu.
+//ExStepSummary:3: Akhirnya, dokumen disimpan dengan bagan Bubble yang dimasukkan.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Inisialisasi Dokumen dan Dokumen Builder baru
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Sisipkan bagan Bubble ke dalam dokumen
+Shape shape = builder.InsertChart(ChartType.Bubble, 432, 252);
+
+//ExStep:2-
+// Tambahkan data seri ke bagan Bubble
+Chart chart = shape.Chart;
+chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, // X values
+    new double[] { 2.7, 3.2, 0.8 }, // Y values
+    new double[] { 10, 4, 8 }); // Size values for the bubbles
+
+//ExStep:3-
+// Simpan dokumen dengan bagan Bubble
+doc.Save("WorkingWithCharts.InsertBubbleChart.docx");
+//ExEnd

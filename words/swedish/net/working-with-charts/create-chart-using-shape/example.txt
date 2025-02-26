@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Kontrollera följande kod för att hitta hur du skapar ett linjediagram i ett Word-dokument. Du kan kopiera koden till din IDE och köra den.
+//ExStepSummary:0: Följande kod visar hur man skapar ett nytt dokument och instancerar en DocumentBuilder:
+//ExStepSummary:1: Följande kod visar hur man infogar ett raddiagram i dokumentet:
+//ExStepSummary:2: Följande kod förklarar hur man ställer in titeln på diagrammet:
+//ExStepSummary:3: Följande kod visar hur man konfigurerar diagramlegendens positions- och overlayinställningar:
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Skapa ett nytt dokumentobjekt
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Infoga ett linjediagram i dokumentet vid angivna mått
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+
+//ExStep:2-
+// Få tillgång till diagramobjektet från formen
+Chart chart = shape.Chart;
+// Aktivera diagramrubrikens synlighet
+chart.Title.Show = true;
+// Ställ in titeltexten för diagrammet
+chart.Title.Text = "Line Chart Title";
+// Se till att titeln inte överlagrar diagrammet
+chart.Title.Overlay = false;
+
+//ExStep:3-
+// Ställ in positionen för sjökortslegenden till vänster
+chart.Legend.Position = LegendPosition.Left;
+chart.Legend.Overlay = true;
+
+//ExStep:4-
+// Spara dokumentet med diagrammet till en fil
+doc.Save("WorkingWithCharts.CreateChartUsingShape.docx");
+//ExEnd

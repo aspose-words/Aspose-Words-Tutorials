@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Bu kod, Aspose.Words kullanarak stilize edilmiş bir tablo ile bir Word belgesinin nasıl oluşturulacağını gösterir. 
+//ExStepSummary:0: Yeni bir Belge ve Belge Oluşturucu başlat.
+//ExStepSummary:1: Yeni bir tablo başlatın ve "Name" ve "Value" için başlık hücreleri ekleyin.
+//ExStepSummary:2: Belirli sınır ve doldurma ayarlarına sahip özel bir TableStyle oluşturun.
+//ExStepSummary:3: Belgeyi uygulanan yeni tablo stili ile kaydedin.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Yeni bir Belge nesnesi oluştur
+Document doc = new Document();
+// Belgeyi oluşturmak için DocumentBuilder'ı başlat
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Yeni bir tablo başlat
+Table table = builder.StartTable();
+builder.InsertCell();
+builder.Write("Name");
+builder.InsertCell();
+builder.Write("Value");
+builder.EndRow();
+builder.InsertCell();
+builder.InsertCell();
+builder.EndTable();
+
+//ExStep:2-
+// Yeni bir masa stili oluştur
+TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
+tableStyle.Borders.LineStyle = LineStyle.Double;
+// Sınır genişliğini ayarla
+tableStyle.Borders.LineWidth = 1;
+// Dolguyu ayarla
+tableStyle.LeftPadding = 18;
+tableStyle.RightPadding = 18;
+tableStyle.TopPadding = 12;
+tableStyle.BottomPadding = 12;
+// Oluşturulan tabloya özel tablo stilini uygulayın
+table.Style = tableStyle;
+
+//ExStep:3-
+// Belgeyi stilli tabloyla kaydet
+doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
+//ExEnd

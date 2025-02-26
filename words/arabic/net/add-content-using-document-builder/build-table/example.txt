@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: يوضح هذا الرمز كيفية إنشاء مستند Word باستخدام جدول باستخدام Apose.Words. يبني جدولًا به صفان وتوجهات وأشكال نصية مختلفة للخلية.
+//ExStepSummary:0: يؤدي الكود التالي إلى تهيئة مستند جديد ومنشئ مستندات جديد.
+//ExStepSummary:1: يبدأ الرمز التالي جدولًا جديدًا ويدرج الصف الأول من الخلايا.
+//ExStepSummary:2: يقوم الكود التالي بتكوين التنسيق للصف الثاني وخلاياه.
+//ExStepSummary:3: يقوم الكود التالي بتكوين التنسيق للصف الثاني وخلاياه.
+//ExStepSummary:4: الكود التالي ينهي الجدول ويحفظ المستند في ملف.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// تهيئة كائن مستند جديد
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// ابدأ منضدة جديدة
+Table table = builder.StartTable();
+// ابدأ الخلية الأولى
+builder.InsertCell();
+// اضبط المحاذاة الرأسية للخلية الأولى
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
+builder.Write("This is row 1 cell 1");
+// إدراج الخلية الثانية
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+builder.EndRow();
+
+//ExStep:2-
+// أدخل خلية للصف الثاني
+builder.InsertCell();
+// اضبط التهيئة للصف الثاني
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+//ExStep:3-
+// إدراج خلية ثانية للصف الثاني
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward; 
+builder.Writeln("This is row 2 cell 2");
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:4-
+// اضبط الجدول تلقائيًا بعرض عمود ثابت
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+// احفظ المستند في ملف
+doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

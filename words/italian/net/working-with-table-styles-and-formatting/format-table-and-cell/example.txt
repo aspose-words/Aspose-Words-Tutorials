@@ -1,0 +1,63 @@
+//ExStart
+//ExSummary:Questo codice dimostra come creare un documento di Word con una tabella che ha diversi stili di confine e ombreggiatura per le sue celle.
+//ExStepSummary:0: Inizializzare il documento e DocumentBuilder per creare un nuovo documento Word.
+//ExStepSummary:1: Avviare una nuova tabella e impostare i bordi per l'intera tabella.
+//ExStepSummary:2: Aggiungere la prima cella con sfondo rosso ombreggiante e testo.
+//ExStepSummary:3: Aggiungere la seconda cella con sfondo verde ombreggiante e testo.
+//ExStepSummary:4: Termina la prima riga e cancella la formattazione delle celle precedenti.
+//ExStepSummary:5: Aggiungere una nuova riga con bordi più grandi personalizzati per la prima cella.
+//ExStepSummary:6: Aggiungere la seconda cella della nuova riga con formattazione e testo predefiniti.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Crea un nuovo documento.
+Document doc = new Document();
+// Crea un documentoCostruisci per manipolare il documento.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Inizia un nuovo tavolo.
+Table table = builder.StartTable();
+// Inserire la prima cella nel tavolo.
+builder.InsertCell();
+// Impostare i bordi per l'intera tabella.
+table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
+
+//ExStep:2-
+// Imposta il colore di sfondo della cella a rosso.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
+builder.Writeln("Cell #1");
+// Inserire la seconda cella.
+builder.InsertCell();
+
+//ExStep:3-
+// Imposta il colore di sfondo della cella a verde.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
+builder.Writeln("Cell #2");
+// Termina la riga corrente.
+builder.EndRow();
+
+//ExStep:4-
+// Cancella qualsiasi formattazione delle celle per ricominciare da capo.
+builder.CellFormat.ClearFormatting();
+// Inserire una nuova cella nella riga successiva.
+builder.InsertCell();
+// Crea bordi più grandi per la prima cella di questa riga.
+builder.CellFormat.Borders.Left.LineWidth = 4.0;
+builder.CellFormat.Borders.Right.LineWidth = 4.0;
+builder.CellFormat.Borders.Top.LineWidth = 4.0;
+builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
+builder.Writeln("Cell #3");
+//ExStep:5-
+// Inserire la quarta cella.
+builder.InsertCell();
+builder.CellFormat.ClearFormatting();
+builder.Writeln("Cell #4");
+//ExStep:6-
+// Salva il documento.
+doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
+//ExEnd

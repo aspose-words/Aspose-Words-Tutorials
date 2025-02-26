@@ -1,0 +1,39 @@
+//ExStart
+//ExSummaryيوضح هذا الرمز كيفية تطبيق الحدود والتظليل على فقرة في مستند Word باستخدام Apose.Words.
+//ExStepSummary:0: يقوم الكود التالي بتهيئة مثيل جديد لـ Document and DocumentBuilder.
+//ExStepSummary:1: يقوم الكود التالي بتكوين حدود الفقرة بمسافة من النص.
+//ExStepSummary:2: يطبق الكود التالي تظليلًا قطريًا مائلًا على الفقرة بألوان محددة.
+//ExStepSummary:3: الكود التالي يكتب فقرة منسقة مع الإعدادات المطبقة.
+//ExStepSummary:4: يحفظ الكود التالي المستند إلى مسار الإخراج المحدد.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// تهيئة مستند جديد
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// الوصول إلى حدود الفقرة
+BorderCollection borders = builder.ParagraphFormat.Borders;
+borders.DistanceFromText = 20;
+borders[BorderType.Left].LineStyle = LineStyle.Double;
+borders[BorderType.Right].LineStyle = LineStyle.Double;
+borders[BorderType.Top].LineStyle = LineStyle.Double;
+borders[BorderType.Bottom].LineStyle = LineStyle.Double;
+
+//ExStep:2-
+// الوصول إلى خصائص تظليل الفقرة
+Shading shading = builder.ParagraphFormat.Shading;
+shading.Texture = TextureIndex.TextureDiagonalCross;
+shading.BackgroundPatternColor = System.Drawing.Color.LightCoral; 
+shading.ForegroundPatternColor = System.Drawing.Color.LightSalmon;
+
+//ExStep:3-
+// اكتب محتوى الفقرة المنسق
+builder.Write("I'm a formatted paragraph with double border and nice shading.");
+
+//ExStep:4-
+// احفظ المستند إلى المسار المحدد
+doc.Save(ArtifactsDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
+//ExEnd

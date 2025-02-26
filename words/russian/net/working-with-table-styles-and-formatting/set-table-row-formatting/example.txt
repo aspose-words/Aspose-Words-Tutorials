@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать документ Word с форматированной таблицей с использованием Aspose.
+//ExStepSummary:0: Этот шаг инициирует новый документ и создателя документов.
+//ExStepSummary:1: Этот шаг запускает стол и вставляет в него клетку.
+//ExStepSummary:2: Эта ступень устанавливает форматирование ряда, включая правило высоты и высоты.
+//ExStepSummary:3: Эта ступенька настраивается на всю таблицу, затрагивая все ряды.
+//ExStepSummary:4: Этот шаг добавляет текст в ячейку и заканчивает строку.
+//ExStepSummary:5: Этот шаг заканчивает таблицу и сохраняет документ на определенный путь.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// Создать новый образец документа
+Document doc = new Document();
+// Инициировать документоподготовитель вместе с документом
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Запустить новый стол
+Table table = builder.StartTable();
+// Включить первую ячейку в таблицу
+builder.InsertCell();
+
+//ExStep:2-
+// Доступ к собственности строителя RowFormat
+RowFormat rowFormat = builder.RowFormat;
+// Установить высоту ряда
+rowFormat.Height = 100;
+// Установить правило высоты точно
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// Установите рамку для стола
+table.LeftPadding = 30;
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// Добавить текст в текущую ячейку
+builder.Writeln("I'm a wonderful formatted row.");
+// Окончить текущую строку
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:5-
+// Сохранить документ на заданный путь
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableRowFormatting.docx");
+//ExEnd

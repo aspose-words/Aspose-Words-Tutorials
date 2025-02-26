@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary: このコードは,アスタド.words を使って単語ドキュメントに強調マークをセットする方法を実演します。
+//ExStepSummary:0:使用する新しい文書インスタンスを作成します。
+//ExStepSummary:1:ドキュメントの操作を行う文書ビルダーを設定します。
+//ExStepSummary:2:メーカーのフォントに強調マークを適用します。
+//ExStepSummary:3:文書にテキストを強調します。
+//ExStepSummary:4:強調 する こと なく 簡易 な テキスト を 書き ましょ う。
+//ExStepSummary:5: このコードは、フォントを強調マークしてドキュメントを保存します。
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// 新しい文書を作成
+Document document = new Document();
+
+//ExStep:1-
+// ドキュメント操作用の文書ビルダーを初期化
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:2-
+// 接着 剤 に 強調 の 的 を 置い て ください
+builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
+
+//ExStep:3-
+// 強調テキストをドキュメントに書き込み
+builder.Write("Emphasis text");
+// 次の行に移動
+builder.Writeln();
+// 次のテキストのフォントの書式設定をクリアします
+builder.Font.ClearFormatting();
+
+//ExStep:4-
+// シンプルなテキストを強調せずに書き込み
+builder.Write("Simple text");
+
+//ExStep:5-
+// ドキュメントを指定したパスに保存
+document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
+//ExEnd

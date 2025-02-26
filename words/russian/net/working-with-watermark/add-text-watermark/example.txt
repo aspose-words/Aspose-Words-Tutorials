@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: Этот код показывает, как добавить текстовый водяной знак с конкретными опциями в документ Word с использованием Aspose.Words.
+//ExStepSummary:0: Следующий код инициализирует путь документа и создает новый объект документа.
+//ExStepSummary:1: Следующий код устанавливает параметры текстового водяного знака, включая семейство шрифтов, размер, цвет и макет.
+//ExStepSummary:2: Приводимый ниже код применяется к тексту водяного знака с указанными опциями к документу.
+//ExStepSummary:3: Приводимый ниже код сохраняет измененный документ в указанном каталоге.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+// Указать маршрут каталога для документа
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Загрузить Word документ
+Document doc = new Document(dataDir + "Document.docx");
+
+//ExStep:2-
+// Создать опции водяных знаков
+TextWatermarkOptions options = new TextWatermarkOptions()
+{
+    FontFamily = "Arial", // Set font family for the watermark text
+    FontSize = 36, // Set font size for the watermark text
+    Color = Color.Black, // Set color of the watermark text
+    Layout = WatermarkLayout.Horizontal, // Specify layout of the watermark
+    IsSemitrasparent = false // Set transparency option
+};
+
+//ExStep:3-
+// Применить текст водяного знака с опциями
+doc.Watermark.SetText("Test", options);
+
+//ExStep:4-
+// Сохранить документ с водяным знаком
+doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
+//ExEnd

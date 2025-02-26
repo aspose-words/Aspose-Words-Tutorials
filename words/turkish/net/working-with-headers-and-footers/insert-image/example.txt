@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Bu kod, .NET için Aspose.Words kullanarak bir Word belgesinin başlığına bir resmin nasıl yerleştirileceğini gösterir.
+//ExStepSummary:0: Aspose.Words Belge sınıfını kullanarak yeni bir Word belgesi oluşturun.
+//ExStepSummary:1: DocumentBuilder'ı kullanarak belgenin birincil başlığına geçin.
+//ExStepSummary:2: Belirli hizalama, boyutlar ve sarma seçenekleriyle başlığın içine bir resim ekleyin.
+//ExStepSummary:3: Belgeyi belirtilen bir dosya yoluna kaydedin.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Yeni bir Word belgesi oluştur
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// İmleci belgenin birincil başlığına taşı
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+// Belirli hizalama ve boyutlara sahip başlığın içine bir resim ekleyin
+builder.InsertImage(
+    ImagesDir + "Logo.jpg", RelativeHorizontalPosition.RightMargin, 10,
+    RelativeVerticalPosition.Page, 10, 50, 50, 
+    WrapType.Through
+);
+
+//ExStep:3-
+// Belgeyi belirtilen yola kaydet
+doc.Save("WorkingWithHeadersAndFooters.InsertImage.docx");
+//ExEnd

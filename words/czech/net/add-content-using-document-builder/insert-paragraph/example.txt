@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Tento kód ukazuje, jak vytvořit dokument Word pomocí třídy DocumentBuilder a vložit do něj stylový odstavec.
+//ExStepSummary:0: Následující kód inicializuje dokument a dokumentBuilder pro tvorbu dokumentů.
+//ExStepSummary:1: Následující kód konfiguruje nastavení písma pro odstavec.
+//ExStepSummary:2: Následující kód stanoví nastavení formátu odstavce pro zarovnání a odsazení.
+//ExStepSummary:3: Následující kód do dokumentu zapíše odstavec.
+//ExStepSummary:4: Následující kód uloží dokument jako soubor .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Inicializace nového objektu Dokumentu
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Přístup k nastavení písma budovy DocumentBuilder
+Font font = builder.Font;
+// Nastavte velikost písma na 16
+font.Size = 16;
+// Udělejte písmo tučné
+font.Bold = true;
+// Nastavte barvu písma na modrou
+font.Color = Color.Blue;
+// Nastavte název písma na Arial
+font.Name = "Arial";
+// Přidat do písma pomlčený podtržený podtržík
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+// Přístup k nastavení formátu odstavce
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.FirstLineIndent = 8;
+paragraphFormat.Alignment = ParagraphAlignment.Justify;
+paragraphFormat.KeepTogether = true;
+
+//ExStep:3-
+// Do dokumentu se zapíše odstavec textu
+builder.Writeln("A whole paragraph.");
+
+//ExStep:4-
+// Uložit dokument jako soubor .docx
+doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
+//ExEnd

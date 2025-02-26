@@ -1,0 +1,29 @@
+//ExStart
+//ExSummaryを選択します。 このコードは、 Asfof.words を使って列表をドキュメントに挿入する方法を示します。ドキュメントを作成し、
+//          は、定義済みのカテゴリと値を持つグラフをドラッグして、ドキュメントを保存します。
+//ExStepSummary:0: 以下のコードにより、新規ドキュメントおよびドキュメント作成者が初期化されます。
+//ExStepSummary:1: このステップは、指定した寸法を持つ列グラフをドキュメントに挿入することです。
+//ExStepSummary:2: ここに一連のデータが、カテゴリと対応する値を持つグラフに追加されます。
+//ExStepSummary:3: このステップで、挿入されたグラフを指定したファイルの場所に保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 新しい文書オブジェクトを初期化
+Document doc = new Document();
+// 簡単に文書操作のために文書ビルダーを作成
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 指定したサイズのカラムグラフを挿入 (width x 高さ)
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+// 挿入したシェイプからグラフオブジェクトにアクセスします
+Chart chart = shape.Chart;
+// カテゴリと値に連続データを追加
+chart.Series.Add("Aspose Series 1", new string[] { "Category 1", "Category 2" }, new double[] { 1, 2 });
+
+//ExStep:3-
+// 挿入された列グラフでドキュメントを保存します
+doc.Save("WorkingWithCharts.InsertColumnChart.docx"); 
+//ExEnd

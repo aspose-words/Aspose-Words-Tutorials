@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο Word με έναν πίνακα χρησιμοποιώντας Aspose.Words. Κατασκευάζει έναν πίνακα με δύο σειρές και διάφορους προσανατολισμούς κειμένου κυττάρων και μορφές.
+//ExStepSummary:0: Ο ακόλουθος κώδικας αρχικοποιεί ένα νέο έγγραφο και κατασκευαστή εγγράφων.
+//ExStepSummary:1: Ο ακόλουθος κωδικός ξεκινά έναν νέο πίνακα και εισάγει την πρώτη σειρά κελιών.
+//ExStepSummary:2: Ο ακόλουθος κωδικός διαμορφώνει τη μορφοποίηση για τη δεύτερη σειρά και τα κελιά της.
+//ExStepSummary:3: Ο ακόλουθος κωδικός διαμορφώνει τη μορφοποίηση για τη δεύτερη σειρά και τα κελιά της.
+//ExStepSummary:4: Ο παρακάτω κωδικός τελειώνει τον πίνακα και αποθηκεύει το έγγραφο σε ένα αρχείο.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Αρχικοποίηση ενός νέου αντικειμένου εγγράφου
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Ξεκινήστε ένα νέο τραπέζι
+Table table = builder.StartTable();
+// Ξεκινήστε το πρώτο κελί
+builder.InsertCell();
+// Ορισμός κάθετης ευθυγράμμισης για το πρώτο κύτταρο
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
+builder.Write("This is row 1 cell 1");
+// Εισαγωγή δεύτερου κυττάρου
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+builder.EndRow();
+
+//ExStep:2-
+// Εισάγετε ένα κελί για τη δεύτερη σειρά
+builder.InsertCell();
+// Ρύθμιση σχηματοποίησης για τη δεύτερη σειρά
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+//ExStep:3-
+// Εισάγετε δεύτερο κελί για τη δεύτερη σειρά
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward; 
+builder.Writeln("This is row 2 cell 2");
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:4-
+// Αυτόματη τοποθέτηση του πίνακα με σταθερό πλάτος στήλης
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+// Αποθήκευση του εγγράφου σε ένα αρχείο
+doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

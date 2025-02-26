@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Den här koden visar hur man skapar ett Word-dokument med ett primärt sidhuvud och sidfot med hjälp av Aspose.Words. Den initierar ett nytt dokument, flyttar till sidhuvudet och sidfoten sektioner, och skriver egen text. Slutligen sparar den dokumentet som en DOCX- fil.
+//ExStepSummary:0: Följande kod initierar huvudobjektet i dokumentet och ställer in DocumentBuilder.
+//ExStepSummary:1: Följande kod flyttas till huvudavsnittet och skriver huvudtexten.
+//ExStepSummary:2: Följande kod flyttas till den primära sidfoten sektionen och skriver sidfoten texten.
+//ExStepSummary:3: Följande kod sparar dokumentet till en angiven filsökväg.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Initiera ett nytt dokumentobjekt
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Flytta till huvudavsnittet
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("Header for page.");
+
+//ExStep:2-
+// Flytta till den primära sidfoten
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+builder.Write("Footer for page."); // Write the footer text
+
+//ExStep:3-
+// Spara dokumentet med angivet filnamn
+doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
+//ExEnd

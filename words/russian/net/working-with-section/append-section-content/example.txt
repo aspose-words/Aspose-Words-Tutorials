@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Этот пример показывает, как добавлять и закладывать содержание из одного раздела в другой в документе Word с использованием Aspose.Words для .NET.
+//ExStepSummary:0: Инициировать новый документ Word и документ Builder, чтобы добавить контент.
+//ExStepSummary:1: Напишите текст и вставьте раздел, чтобы создать несколько разделов в документе.
+//ExStepSummary:2: Доступ к третьему разделу документа для подготовки к манипуляциям контентом.
+//ExStepSummary:3: Преобразование содержания из первого раздела в третий.
+//ExStepSummary:4: Добавить содержание из второго раздела в третий раздел.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Инициализировать документ и документоподготовитель
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Написать текст и вставить раздел Разрывы для создания трех разделов
+builder.Write("Section 1");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// Добавить содержание второго раздела
+builder.Write("Section 2");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// Добавить содержание третьего раздела
+builder.Write("Section 3");
+
+//ExStep:2-
+// Изъятие третьего раздела из документа
+Section section = doc.Sections[2];
+
+//ExStep:3-
+// Предварительное содержание из первого раздела в третий раздел
+Section sectionToPrepend = doc.Sections[0];
+section.PrependContent(sectionToPrepend);
+
+//ExStep:4-
+// Добавить содержание из второго раздела в третий раздел
+Section sectionToAppend = doc.Sections[1];
+section.AppendContent(sectionToAppend);
+//ExEnd

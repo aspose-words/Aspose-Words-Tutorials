@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Este código muestra cómo aplicar formato de fila en un documento de Word usando Aspose.Words.
+//ExStepSummary:0: Inicializa un nuevo documento y comienza a crear una tabla con filas con formato.
+//ExStepSummary:1: Configura el formato de fila.
+//ExStepSummary:2: Configura los ajustes de altura específicos.
+//ExStepSummary:3: Establece el relleno para toda la tabla que afecta a todas las filas.
+//ExStepSummary:4: Escribe texto en la celda de la tabla y finaliza la fila.
+//ExStepSummary:5: Completa el proceso de creación de tablas y guarda el documento.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Crear un nuevo documento
+Document doc = new Document();
+// Crear un DocumentBuilder para modificar el documento
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Iniciar una nueva mesa
+Table table = builder.StartTable();
+// Insertar una nueva celda en la tabla
+builder.InsertCell();
+//ExStep:2-
+// Acceder a las propiedades de formato de fila
+RowFormat rowFormat = builder.RowFormat;
+// Fijar la altura de la fila
+rowFormat.Height = 100;
+// Especifique que la altura es exacta
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// Set de relleno para la mesa
+table.LeftPadding = 30; 
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// Escribir texto en la celda
+builder.Writeln("I'm a wonderful formatted row.");
+// Finalizar la fila actual
+builder.EndRow();
+// Terminar el edificio de la mesa
+builder.EndTable();
+
+//ExStep:5-
+// Guardar el documento
+doc.Save("WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
+//ExEnd

@@ -1,0 +1,67 @@
+//ExStart
+//ExSummary: Tento kód ukazuje, jak vytvořit tvar skupiny v dokumentu pomocí Aspose.Words.
+// Vytváří přízvukový tvar a akční tlačítko, přidává je do skupinového tvaru a pak vkládá do dokumentu tvar skupiny, než jej uloží.
+//ExStepSummary:0: Inicializuje nový dokument a zajišťuje splnění minimálních požadavků.
+//ExStepSummary:1: Vytvoří GroupShape, který bude držet jiné tvary.
+//ExStepSummary:2: Do tvaru skupiny přidá přízvukový tvar hraničního volání.
+//ExStepSummary:3: Přidá tvar akčního tlačítka do tvaru skupiny.
+//ExStepSummary:4: Nastavuje rozměry a souřadnice pro tvar skupiny.
+//ExStepSummary:5: Vloží do dokumentu tvar skupiny pomocí nástroje DocumentBuilder.
+//ExStepSummary:6: Uloží dokument obsahující tvar skupiny na určené místo.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStep:0-
+// Vytvořit nový dokument
+Document doc = new Document();
+// Zajistit, aby dokument splňoval minimální požadavky
+doc.EnsureMinimum();
+
+//ExStep:1-
+// Vytvořit novou instanci GroupShape
+GroupShape groupShape = new GroupShape(doc);
+
+//ExStep:2-
+// Vytvořit přízvuk hraniční callout tvar
+Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
+{
+    Width = 100, 
+    Height = 100
+};
+// Přidat tvar do tvaru skupiny
+groupShape.AppendChild(accentBorderShape);
+
+//ExStep:3-
+// Vytvořit tvar akčního tlačítka
+Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
+{
+	// Nastavte levou pozici tvaru
+    Left = 100, 
+	// Nastavit šířku tvaru
+    Width = 100, 
+	// Nastavit výšku tvaru
+    Height = 200
+};
+// Přidat akční tlačítko do tvaru skupiny
+groupShape.AppendChild(actionButtonShape);
+
+//ExStep:4-
+// Nastavte šířku tvaru skupiny
+groupShape.Width = 200;
+// Nastavte výšku tvaru skupiny
+groupShape.Height = 200;
+// Nastavit velikost souřadnic pro tvar skupiny
+groupShape.CoordSize = new Size(200, 200);
+
+//ExStep:5-
+// Vytvořit dokumentBuilder pro manipulaci s dokumentem
+DocumentBuilder builder = new DocumentBuilder(doc);
+// Vložit do dokumentu tvar skupiny
+builder.InsertNode(groupShape);
+
+//ExStep:6-
+// Uložit dokument na určené místo
+doc.Save("WorkingWithShapes.AddGroupShape.docx");
+//ExEnd

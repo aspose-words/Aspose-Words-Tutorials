@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan bagaimana menerapkan format baris dalam dokumen Word menggunakan Aspose.Words.
+//ExStepSummary:0: Inisialisasi dokumen baru dan mulai membangun tabel dengan baris-baris keterangan.
+//ExStepSummary:1: Atur format baris.
+//ExStepSummary:2: Mengatur pengaturan tinggi tertentu.
+//ExStepSummary:3: Mengatur padding untuk seluruh tabel mempengaruhi semua baris.
+//ExStepSummary:4: Menulis teks ke dalam sel tabel dan mengakhiri baris.
+//ExStepSummary:5: Menyelesaikan proses pembangunan tabel dan menyimpan dokumen.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Membuat dokumen baru
+Document doc = new Document();
+// Membuat Dokumen Builder untuk mengubah dokumen
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Mulai tabel baru
+Table table = builder.StartTable();
+// Masukkan sel baru ke dalam tabel
+builder.InsertCell();
+//ExStep:2-
+// Mengakses properti pemformatan baris
+RowFormat rowFormat = builder.RowFormat;
+// Menentukan tinggi baris
+rowFormat.Height = 100;
+// Spesifikasikan bahwa tinggi tepat
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// Atur padding untuk tabel
+table.LeftPadding = 30; 
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// Tulis teks ke dalam sel
+builder.Writeln("I'm a wonderful formatted row.");
+// Akhir baris ini
+builder.EndRow();
+// Akhir bangunan tabel
+builder.EndTable();
+
+//ExStep:5-
+// Simpan dokumen
+doc.Save("WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
+//ExEnd

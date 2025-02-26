@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: Questo codice mostra come formattare i paragrafi in un documento Word usando Aspose.Words. Mostra come impostare le opzioni di formattazione dei paragrafi come allineamento, rientro e spazio dopo un paragrafo.
+//ExStepSummary:0: Questo passaggio inizializza un nuovo documento e un documentoCostruisci per la costruzione del documento.
+//ExStepSummary:1: Questo passaggio imposta le opzioni di formattazione del paragrafo, compreso l'allineamento, il trattino sinistro, il trattino destro e lo spazio dopo il paragrafo.
+//ExStepSummary:2: Questo passaggio scrive un paragrafo ben formattato con le opzioni di formattazione specificate per il documento.
+//ExStepSummary:3: Questo passaggio scrive un altro paragrafo formattato che dimostra l'effetto dello spazio dopo il paragrafo.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0- 
+// Crea una nuova istanza di documento.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1- 
+// Impostare le opzioni di formattazione dei paragrafi.
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.Alignment = ParagraphAlignment.Center;
+paragraphFormat.LeftIndent = 50;
+paragraphFormat.RightIndent = 50;
+paragraphFormat.SpaceAfter = 25;
+
+//ExStep:2- 
+// Scrivi il primo paragrafo formattato.
+builder.Writeln(
+	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
+
+//ExStep:3- 
+// Scrivi il secondo paragrafo formattato.
+builder.Writeln(
+	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
+
+//ExStep:4- 
+// Salva il documento nel percorso specificato.
+doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
+//ExEnd

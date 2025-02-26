@@ -1,0 +1,57 @@
+//ExStart
+//ExSummary:Bitte überprüfen Sie den folgenden Code, um herauszufinden, wie Sie ein einfaches Spaltendiagramm in ein Word-Dokument einfügen können. Sie können diesen Code in Ihre IDE kopieren und ausführen.
+//ExStepSummary:0: Dieser Code zeigt, wie man ein Word-Dokument mit Aspose.Words erstellt und ein Spaltendiagramm hineinlegt.
+//ExStepSummary:1: Dieser Code zeigt, wie man ein Dokument-Builder-Objekt zur Manipulation von Word-Inhalten erstellt.
+//ExStepSummary:2: Dieser Code zeigt, wie man eine Spaltendiagrammform mit bestimmten Abmessungen in das Dokument einfügt.
+//ExStepSummary:3: Dieser Code holt das Diagrammobjekt aus der eingefügten Form für weitere Anpassungen ab.
+//ExStepSummary:4: Dieser Code zeigt, wie man auf die Chart-Seriensammlung zugreift und die Anzahl der Serien ausdruckt.
+//ExStepSummary:5: Dieser Code löscht alle Standardreihen, die möglicherweise mit dem Diagramm erstellt wurden.
+//ExStepSummary:6: Dieser Code zeigt, wie man Kategoriennamen für die Daten des Diagramms definiert.
+//ExStepSummary:7: Dieser Code zeigt, wie man Reihen mit entsprechenden Kategoriennamen und Datenwerten zum Diagramm hinzufügt.
+//ExStepSummary:8: Dieser Code speichert das Dokument mit dem eingefügten Diagramm in eine angegebene Datei.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:7:images/4.png
+//ExStep:0-
+// Erstellen Sie eine neue Word-Dokument-Instanz.
+Document doc = new Document();
+
+//ExStep:1-
+// Erstellen Sie einen DocumentBuilder, um einfach Elemente in das Dokument einzufügen.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// Fügen Sie eine Spaltendiagrammform mit angegebener Breite (432) und Höhe (252) ein.
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:3-
+// Abrufen des Diagrammobjekts aus der Form für weitere Manipulationen.
+Chart chart = shape.Chart;
+
+//ExStep:4-
+// Zugriff auf die Seriensammlung des Diagramms.
+ChartSeriesCollection seriesColl = chart.Series;
+// Drucken Sie die Anzahl der Serien im Diagramm auf die Konsole.
+Console.WriteLine(seriesColl.Count);
+
+//ExStep:5-
+// Entfernen Sie alle Standard-Serien, die beim Erstellen des Diagramms automatisch generiert wurden.
+seriesColl.Clear();
+
+//ExStep:6-
+// Definieren Sie ein Array von Kategoriennamen für Diagrammdaten.
+string[] categories = new string[] { "Category 1", "Category 2" };
+
+//ExStep:7-
+// Fügen Sie mehrere Reihen mit Kategoriennamen und Datenwerten in das Diagramm ein.
+seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
+seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
+seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
+seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
+seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
+
+//ExStep:8-
+// Speichern Sie das Dokument mit dem eingefügten Diagramm in den angegebenen Dateipfad.
+doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
+//ExEnd

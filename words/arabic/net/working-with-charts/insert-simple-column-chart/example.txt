@@ -1,0 +1,57 @@
+//ExStart
+//ExSummary:يرجى التحقق من التعليمات البرمجية التالية للعثور على كيفية إدراج مخطط عمود بسيط في مستند Word. يمكنك نسخ هذا الرمز إلى IDE وتشغيله.
+//ExStepSummary:0: يوضح هذا الرمز كيفية إنشاء مستند Word باستخدام Apose.Words وإدراج مخطط عمود فيه.
+//ExStepSummary:1: يوضح هذا الكود كيفية إنشاء كائن منشئ مستندات لمعالجة محتوى Word.
+//ExStepSummary:2: يوضح هذا الرمز كيفية إدراج شكل مخطط عمود بأبعاد محددة في المستند.
+//ExStepSummary:3: يسترد هذا الرمز كائن المخطط من الشكل المدرج لمزيد من التخصيص.
+//ExStepSummary:4: يوضح هذا الرمز كيفية الوصول إلى مجموعة سلسلة الرسم البياني وطباعة عدد السلسلة.
+//ExStepSummary:5: هذا الرمز يمسح أي سلسلة افتراضية قد تكون قد تم إنشاؤها مع الرسم البياني.
+//ExStepSummary:6: يوضح هذا الرمز كيفية تعريف أسماء الفئات لبيانات المخطط.
+//ExStepSummary:7: يوضح هذا الرمز كيفية إضافة سلسلة إلى المخطط مع أسماء الفئات وقيم البيانات المقابلة.
+//ExStepSummary:8: يحفظ هذا الرمز المستند مع المخطط المدرج إلى ملف محدد.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:7:images/4.png
+//ExStep:0-
+// إنشاء مثيل مستند Word جديد.
+Document doc = new Document();
+
+//ExStep:1-
+// قم بإنشاء DocumentBuilder لإدراج العناصر بسهولة في المستند.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// أدخل شكل مخطط عمود مع عرض محدد (432) وارتفاع (252).
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:3-
+// استرجع كائن المخطط من الشكل لمزيد من التلاعب.
+Chart chart = shape.Chart;
+
+//ExStep:4-
+// الوصول إلى مجموعة سلسلة من الرسم البياني.
+ChartSeriesCollection seriesColl = chart.Series;
+// طباعة عدد من سلسلة في الرسم البياني إلى وحدة التحكم.
+Console.WriteLine(seriesColl.Count);
+
+//ExStep:5-
+// قم بإزالة أي سلسلة افتراضية تم إنشاؤها تلقائيًا عند إنشاء المخطط.
+seriesColl.Clear();
+
+//ExStep:6-
+// حدد مجموعة من أسماء الفئات لبيانات المخطط.
+string[] categories = new string[] { "Category 1", "Category 2" };
+
+//ExStep:7-
+// إضافة سلسلة متعددة إلى الرسم البياني مع أسماء الفئات وقيم البيانات.
+seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
+seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
+seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
+seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
+seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
+
+//ExStep:8-
+// احفظ المستند باستخدام المخطط المدرج إلى مسار الملف المحدد.
+doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
+//ExEnd

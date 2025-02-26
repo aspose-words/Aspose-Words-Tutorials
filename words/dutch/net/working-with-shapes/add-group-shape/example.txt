@@ -1,0 +1,67 @@
+//ExStart
+//ExSummary: Deze code laat zien hoe je een groepsvorm maakt in een document met behulp van Aspose.Words.
+// Het creëert een accent border callout vorm en een actie knop, voegt ze toe aan een groep vorm, en voegt vervolgens de groep vorm in het document voordat het op te slaan.
+//ExStepSummary:0: Initialiseert een nieuw document en zorgt ervoor dat aan de minimumeisen wordt voldaan.
+//ExStepSummary:1: Maakt een GroupShape die andere vormen zal bevatten.
+//ExStepSummary:2: Voegt een accent border callout vorm toe aan de groep vorm.
+//ExStepSummary:3: Voegt een actieknopvorm toe aan de groepsvorm.
+//ExStepSummary:4: Stelt de afmetingen en coördinaten in voor de groepsvorm.
+//ExStepSummary:5: Voegt de groepsvorm in het document toe met behulp van een DocumentBuilder.
+//ExStepSummary:6: Slat het document met de groepsvorm op naar een bepaalde locatie.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStep:0-
+// Een nieuw document aanmaken
+Document doc = new Document();
+// Ervoor zorgen dat het document voldoet aan de minimumeisen
+doc.EnsureMinimum();
+
+//ExStep:1-
+// Een nieuwe GroupShape-instantie aanmaken
+GroupShape groupShape = new GroupShape(doc);
+
+//ExStep:2-
+// Een accentrandafroepvorm aanmaken
+Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
+{
+    Width = 100, 
+    Height = 100
+};
+// Voeg de vorm toe aan de groepsvorm
+groupShape.AppendChild(accentBorderShape);
+
+//ExStep:3-
+// Een actieknopvorm aanmaken
+Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
+{
+	// Stel de linkerpositie van de vorm in
+    Left = 100, 
+	// Breedte van de vorm instellen
+    Width = 100, 
+	// Hoogte van de vorm instellen
+    Height = 200
+};
+// De actieknop toevoegen aan de groepsvorm
+groupShape.AppendChild(actionButtonShape);
+
+//ExStep:4-
+// De breedte van de groepsvorm instellen
+groupShape.Width = 200;
+// De hoogte van de groepsvorm instellen
+groupShape.Height = 200;
+// Coördinaatgrootte instellen voor de groepsvorm
+groupShape.CoordSize = new Size(200, 200);
+
+//ExStep:5-
+// Een documentbouwer aanmaken om het document te manipuleren
+DocumentBuilder builder = new DocumentBuilder(doc);
+// De groepsvorm in het document invoegen
+builder.InsertNode(groupShape);
+
+//ExStep:6-
+// Het document opslaan op een bepaalde locatie
+doc.Save("WorkingWithShapes.AddGroupShape.docx");
+//ExEnd

@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Этот код показывает, как вставить формы (текстовые ящики) в документ Word с использованием Aspose.Words. Этот документ сохранен в формате DOCX с конкретными вариантами соответствия стандартам ИСО.
+//ExStepSummary:0: Код инициализирует новый документ и создателя документов для манипулирования документом.
+//ExStepSummary:1: Форма (текстовый ящик) вводится в абсолютном положении в документе, а вращение первой формы устанавливается на 30 градусов.
+//ExStepSummary:2: Новая форма вводится в относительное положение, а вращение второй формы также устанавливается на 30 градусов.
+//ExStepSummary:3: Документ хранится с конкретными вариантами OoxmlSave.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Создать новый пример документа
+Document doc = new Document();
+// Инициирует документопроизводитель документа
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Вставить форму типа TextBox
+Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
+    RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
+// Поворачивает форму на 30 градусов
+shape.Rotation = 30.0;
+
+//ExStep:2-
+builder.Writeln();
+// Вставить другую форму типа TextBox в относительном положении
+shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
+// Поворачивает вторую форму на 30 градусов
+shape.Rotation = 30.0;
+
+//ExStep:3-
+// Подготовляет варианты для документа
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
+{
+    Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
+};
+
+// Сохранить документ с использованием указанных опций сохранения
+doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
+//ExEnd

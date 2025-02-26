@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать документ Word с использованием Aspose.Words и добавить к нему горизонтальное правило. 
+//ExStepSummary:0: Создать новый объект документа для хранения содержания.
+//ExStepSummary:1: Используйте Бюллетень документа для разработки компоновки документа и вставить сообщение.
+//ExStepSummary:2: Включить в документ форму горизонтального правила.
+//ExStepSummary:3: Сохранить документ к заданному файлу.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Создать новый объект документа для хранения содержания
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc); 
+
+//ExStep:1-
+// Написать строчку в документе
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+// Включить в документ форму горизонтального правила
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+// Сохранить документ в указанном месте
+doc.Save("AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

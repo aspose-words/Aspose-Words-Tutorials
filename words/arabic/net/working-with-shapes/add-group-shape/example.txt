@@ -1,0 +1,67 @@
+//ExStart
+//ExSummaryيوضح هذا الرمز كيفية إنشاء شكل مجموعة داخل مستند باستخدام Apose.Words.
+// يقوم بإنشاء شكل نداء حدودي لهجة وزر عمل ، ويضيفها إلى شكل مجموعة ، ثم يدرج شكل المجموعة في المستند قبل حفظه.
+//ExStepSummary:0: تهيئة وثيقة جديدة وضمان تلبية الحد الأدنى من المتطلبات.
+//ExStepSummary:1: يخلق GroupShape التي سوف تعقد الأشكال الأخرى.
+//ExStepSummary:2: يضيف شكل الحدود اللكنة إلى شكل المجموعة.
+//ExStepSummary:3: يضيف شكل زر إجراء إلى شكل المجموعة.
+//ExStepSummary:4: تعيين الأبعاد والإحداثيات لشكل المجموعة.
+//ExStepSummary:5: إدراج شكل المجموعة في المستند باستخدام DocumentBuilder.
+//ExStepSummary:6: يحفظ المستند الذي يحتوي على شكل المجموعة إلى موقع محدد.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStep:0-
+// أنشئ مستندًا جديدًا
+Document doc = new Document();
+// التأكد من أن الوثيقة تفي بالحد الأدنى من المتطلبات
+doc.EnsureMinimum();
+
+//ExStep:1-
+// أنشئ مثيل GroupShape جديد
+GroupShape groupShape = new GroupShape(doc);
+
+//ExStep:2-
+// إنشاء لهجة الحدود شكل التصفيق
+Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
+{
+    Width = 100, 
+    Height = 100
+};
+// أضف الشكل إلى شكل المجموعة
+groupShape.AppendChild(accentBorderShape);
+
+//ExStep:3-
+// أنشئ شكل زر إجراء
+Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
+{
+	// اضبط الموضع الأيسر للشكل
+    Left = 100, 
+	// عرض مجموعة من الشكل
+    Width = 100, 
+	// تعيين ارتفاع الشكل
+    Height = 200
+};
+// أضف زر الإجراء إلى شكل المجموعة
+groupShape.AppendChild(actionButtonShape);
+
+//ExStep:4-
+// اضبط عرض شكل المجموعة
+groupShape.Width = 200;
+// اضبط ارتفاع شكل المجموعة
+groupShape.Height = 200;
+// اضبط حجم الإحداثيات لشكل المجموعة
+groupShape.CoordSize = new Size(200, 200);
+
+//ExStep:5-
+// إنشاء مستندبناء لمعالجة المستند
+DocumentBuilder builder = new DocumentBuilder(doc);
+// أدرج شكل المجموعة في المستند
+builder.InsertNode(groupShape);
+
+//ExStep:6-
+// احفظ المستند إلى موقع محدد
+doc.Save("WorkingWithShapes.AddGroupShape.docx");
+//ExEnd

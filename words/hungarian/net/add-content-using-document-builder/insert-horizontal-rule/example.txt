@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary:Ez a kód bemutatja, hogyan hozhat létre Word dokumentumot az Aspose.Words használatával, és hozzáadhat egy vízszintes szabályt. 
+//ExStepSummary:0: Új dokumentumobjektum létrehozása a tartalom tárolásához.
+//ExStepSummary:1: A DocumentBuilder segítségével megtervezheti a dokumentum elrendezését, és beszúrhat egy üzenetet.
+//ExStepSummary:2: Helyezzen be egy vízszintes szabályalakot a dokumentumba.
+//ExStepSummary:3: Mentse a dokumentumot a megadott fájl elérési útjára.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Új dokumentumobjektum létrehozása a tartalom tárolásához
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc); 
+
+//ExStep:1-
+// Írjon egy sort a dokumentumba
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+// Vízszintes szabályalak beszúrása a dokumentumba
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+// A dokumentum mentése a megadott helyre
+doc.Save("AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

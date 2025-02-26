@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary:Tento kód ukazuje, jak přidat novou sekci do dokumentu Word pomocí Aspose.Words pro .NET. Proces zahrnuje inicializaci dokumentu, psaní obsahu a doplnění nové sekce.
+//ExStepSummary:0: Inicializovat nový dokument Word a objekt DocumentBuilder přidat obsah do dokumentu.
+//ExStepSummary:1: Přidat text do první sekce pomocí objektu DocumentBuilder.
+//ExStepSummary:2: Přidat text do první sekce pomocí objektu DocumentBuilder.
+//ExStepSummary:3: Vytvořte novou sekci a přidejte ji do sbírky sekcí dokumentu.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Vytvořit nový dokument Word.
+Document doc = new Document();
+// Inicializujte dokumentBuilder pro dokument.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Přidat obsah do první sekce
+builder.Writeln("Hello1"); // Write "Hello1" into the document's first section.
+
+//ExStep:2-
+// Přidat obsah do první sekce
+builder.Writeln("Hello2"); // Write "Hello2" into the document's first section.
+
+//ExStep:3-
+// Vytvořit novou sekci v dokumentu.
+Section sectionToAdd = new Section(doc);
+doc.Sections.Add(sectionToAdd);
+//ExEnd

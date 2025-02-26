@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary: Questo codice mostra come applicare i bordi e l'ombra di un paragrafo in un documento di Word usando Aspose.Words.
+//ExStepSummary:0: Il seguente codice inizializza una nuova istanza Document and DocumentBuilder.
+//ExStepSummary:1: Il seguente codice configura i bordi del paragrafo con una distanza dal testo.
+//ExStepSummary:2: Il seguente codice applica una diagonale texture cross shadding al paragrafo con colori specificati.
+//ExStepSummary:3: Il seguente codice scrive un paragrafo formattato con le impostazioni applicate.
+//ExStepSummary:4: Il seguente codice salva il documento nel percorso di output specificato.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Inizializza un nuovo documento
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Accesso alle frontiere del paragrafo
+BorderCollection borders = builder.ParagraphFormat.Borders;
+borders.DistanceFromText = 20;
+borders[BorderType.Left].LineStyle = LineStyle.Double;
+borders[BorderType.Right].LineStyle = LineStyle.Double;
+borders[BorderType.Top].LineStyle = LineStyle.Double;
+borders[BorderType.Bottom].LineStyle = LineStyle.Double;
+
+//ExStep:2-
+// Accedere alle proprietà di ombreggiatura del paragrafo
+Shading shading = builder.ParagraphFormat.Shading;
+shading.Texture = TextureIndex.TextureDiagonalCross;
+shading.BackgroundPatternColor = System.Drawing.Color.LightCoral; 
+shading.ForegroundPatternColor = System.Drawing.Color.LightSalmon;
+
+//ExStep:3-
+// Scrivi il contenuto del paragrafo formattato
+builder.Write("I'm a formatted paragraph with double border and nice shading.");
+
+//ExStep:4-
+// Salva il documento nel percorso specificato
+doc.Save(ArtifactsDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
+//ExEnd

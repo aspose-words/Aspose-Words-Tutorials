@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Kode berikut menunjukkan cara membuat dokumen Word dengan sel tabel terformat yang mencakup padding di sekeliling isinya.
+//ExStepSummary:0: Kode berikut menginisialisasi dokumen baru dan pembuat dokumen.
+//ExStepSummary:1: Kode berikut memulai tabel dalam dokumen.
+//ExStepSummary:2: Kode berikut memasukkan sel ke dalam tabel.
+//ExStepSummary:3: Kode berikut menetapkan padding untuk isi sel.
+//ExStepSummary:4: Kode berikut menambahkan teks ke sel dan menyelesaikan baris saat ini.
+//ExStepSummary:5: Kode berikut berakhir dengan tabel dan menyimpan dokumen ke berkas.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Inisialisasi dokumen baru
+Document doc = new Document();
+// Buat pembangun dokumen untuk memanipulasi dokumen
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Mulai membuat tabel
+builder.StartTable();
+// Masukkan sel baru ke dalam tabel
+builder.InsertCell();
+
+//ExStep:2-
+// Atur padding dengan 30 poin di atas dan bawah, 50 poin di kiri dan kanan
+builder.CellFormat.SetPaddings(30, 50, 30, 50);
+
+//ExStep:3-
+builder.Writeln("I'm a wonderful formatted cell.");
+// Selesai baris kini di tabel
+builder.EndRow();
+// Akhir tabel
+builder.EndTable();
+
+//ExStep:4-
+// Simpan dokumen ke berkas yang dinyatakan
+doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
+//ExEnd

@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary:Kode ini menunjukkan bagaimana menambahkan judul dan deskripsi ke tabel dalam dokumen Word menggunakan Aspose.Words.
+//ExStepSummary:0:Langkah ini menginisialisasi dokumen dan memuatnya dari direktori yang ditentukan.
+//ExStepSummary:1:Langkah ini mengambil tabel pertama dari dokumen dan menetapkan judul dan deskripsinya.
+//ExStepSummary:2:Langkah ini mengatur opsi penyimpanan dokumen dengan pengaturan kepatuhan yang ditentukan.
+//ExStepSummary:3:Langkah ini mengoptimalkan pilihan kompatibilitas untuk dokumen untuk Word 2016.
+//ExStepSummary:4:Langkah ini menyimpan dokumen yang diubah kembali ke direktori yang ditentukan.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Inisialisasi dokumen dan muat dari direktori data
+string dataDir = "Your Document Directory";
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Ambil tabel pertama dan atur judul dan deskripsinya
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+table.Title = "Test title";
+table.Description = "Test description";
+
+//ExStep:2-
+// Konfigurasikan opsi simpan bagi dokumen
+OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
+
+//ExStep:3-
+// Optimasi pilihan kompatibilitas untuk Word 2016
+doc.CompatibilityOptions.OptimizeFor(Aspose.Words.Settings.MsWordVersion.Word2016);
+
+//ExStep:4-
+// Simpan dokumen yang diubah kembali ke direktori yang dinyatakan
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.TableTitleAndDescription.docx", options);
+//ExEnd

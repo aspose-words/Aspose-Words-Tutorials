@@ -1,0 +1,28 @@
+//ExStart
+//ExSummaryيوضح هذا الرمز كيفية معالجة الجداول في مستند Word باستخدام Apose.Words. يقوم باسترداد مستند موجود ، وتعديل حدود الجدول الأول ، وحفظ التغييرات في ملف جديد.
+//ExStepSummary:0: يقوم الكود التالي بإعداد المستند واسترداد الجدول الأول منه.
+//ExStepSummary:1: يمسح الرمز التالي أي حدود موجودة من الجدول للتحضير لتنسيق جديد.
+//ExStepSummary:2: يطبق الرمز التالي حدودًا خضراء حول الطاولة وداخلها.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// حدد الدليل الخاص بالمستند
+string dataDir = "Your Document Directory";
+// تحميل المستند
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// الحصول على الجدول الأول من الوثيقة
+Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
+
+//ExStep:2-
+// امسح أي حدود موجودة من الطاولة.
+table.ClearBorders();
+
+//ExStep:3-
+// ضع حدودًا خضراء حول الطاولة وداخلها.
+table.SetBorders(LineStyle.Single, 1.5, Color.Green);
+// احفظ المستند مع التغييرات
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");
+//ExEnd

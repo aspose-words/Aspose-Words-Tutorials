@@ -1,0 +1,56 @@
+//ExStart
+//ExSummary: Tento kód ukazuje, jak vytvořit víceúrovňový seznam v dokumentu Word pomocí aplikace Aspose.Words. Inicializuje dokument, použije číslovací formát, vytvoří hlavní a podpoložky a nakonec uloží dokument jako .docx soubor.
+//ExStepSummary:0: Následující kód inicializuje nový dokument a instance DocumentBuilder.
+//ExStepSummary:1: Následující kód používá výchozí číslovací styl v seznamu a přidává položky nejvyšší úrovně.
+//ExStepSummary:2: Následující odrážky kódu pro vytvoření dílčích položek pod druhou položku nejvyšší úrovně.
+//ExStepSummary:3: Následující kód další odrážky pro vytvoření dílčích položek pod druhou položkou.
+//ExStepSummary:4: Následující kód se vrátí zpět na předchozí úroveň přidat další položku na druhé úrovni.
+//ExStepSummary:5: Následující kód se vrátí zpět na nejvyšší úroveň přidat poslední položku v seznamu.
+//ExStepSummary:6: Následující kód odstraní číslování ze seznamu před uložením.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStep:0-
+// Inicializace nového dokumentu
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Použít výchozí formát číslování
+builder.ListFormat.ApplyNumberDefault();
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+
+//ExStep:2-
+// Odsazení dílčích položek
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.1");
+builder.Writeln("Item 2.2");
+
+//ExStep:3-
+// Odsazení dílčích položek
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.2.1");
+builder.Writeln("Item 2.2.2");
+
+//ExStep:4-
+// Přejít zpět na druhou úroveň
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 2.3");
+
+//ExStep:5-
+// Přejít zpět na nejvyšší úroveň
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 3");
+
+//ExStep:6-
+// Odstranit číslování ze seznamu
+builder.ListFormat.RemoveNumbers();
+
+//ExStep:7-
+// Uložit dokument
+doc.Save("DocumentFormatting.MultilevelListFormatting.docx");
+//ExEnd

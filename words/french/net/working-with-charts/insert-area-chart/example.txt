@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: Ce code montre comment insérer un graphique de zone dans un document Word en utilisant Aspose.Words.
+//ExStepSummary:0: Le code suivant initialise un nouveau document et un constructeur de documents.
+//ExStepSummary:1: Le code suivant insère un graphique régional dans le document.
+//ExStepSummary:2: Le code suivant ajoute une série au graphique avec des points de données spécifiés.
+//ExStepSummary:3: Le code suivant enregistre le document avec le graphique de zone inséré.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Créer un nouveau document
+Document doc = new Document();
+// Initialiser le constructeur de documents
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Insérer un diagramme de zone avec des dimensions spécifiées
+Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
+
+//ExStep:2-
+// Accéder à l'objet graphique
+Chart chart = shape.Chart;
+// Ajouter une nouvelle série au graphique
+chart.Series.Add("Aspose Series 1", new [] 
+{
+	// Données n° 1
+    new DateTime(2002, 05, 01),
+	// Données n° 2
+    new DateTime(2002, 06, 01),
+	// Données n° 3
+    new DateTime(2002, 07, 01),
+	// Données n° 4
+    new DateTime(2002, 08, 01),
+	// Données n° 5
+    new DateTime(2002, 09, 01)
+}, 
+// Valeurs correspondantes pour les points de données
+new double[] { 32, 32, 28, 12, 15 });
+
+//ExStep:3-
+// Enregistrer le document avec le graphique inséré
+doc.Save("WorkingWithCharts.InsertAreaChart.docx");
+//ExEnd

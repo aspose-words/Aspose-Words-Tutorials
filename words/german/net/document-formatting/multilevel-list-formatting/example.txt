@@ -1,0 +1,56 @@
+//ExStart
+//ExSummary: Dieser Code zeigt, wie man eine mehrstufige Liste in einem Word-Dokument mit Aspose.Words erstellt. Er initialisiert ein Dokument, wendet ein Numerierungsformat an, erstellt Haupt- und Unterpunkte und speichert das Dokument schließlich als .docx-Datei.
+//ExStepSummary:0: Der folgende Code initialisiert ein neues Dokument und die DocumentBuilder- Instanz.
+//ExStepSummary:1: Der folgende Code wendet einen Standard-Nummernstil auf die Liste an und fügt Elemente auf oberster Ebene hinzu.
+//ExStepSummary:2: Die folgenden Code-Eindrücke, um Unterpunkte unter dem zweiten Top-Level- Element zu erstellen.
+//ExStepSummary:3: Der folgende Code enthält weitere Gedankenstriche, um Unterpunkte unter dem zweiten Unterpunkt zu erstellen.
+//ExStepSummary:4: Der folgende Code geht zurück auf die vorherige Ebene, um einen weiteren Eintrag auf der zweiten Ebene hinzuzufügen.
+//ExStepSummary:5: Der folgende Code geht zurück auf die oberste Ebene, um den letzten Eintrag in der Liste hinzuzufügen.
+//ExStepSummary:6: Der folgende Code entfernt die Nummerierung aus der Liste vor dem Speichern.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStep:0-
+// Initialisieren eines neuen Dokuments
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Standardnummerierungsformat anwenden
+builder.ListFormat.ApplyNumberDefault();
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+
+//ExStep:2-
+// Einrücken für Unterpunkte
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.1");
+builder.Writeln("Item 2.2");
+
+//ExStep:3-
+// Einrücken für Unterpunkte
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.2.1");
+builder.Writeln("Item 2.2.2");
+
+//ExStep:4-
+// Zurück in die zweite Ebene
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 2.3");
+
+//ExStep:5-
+// Zurück auf die oberste Ebene
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 3");
+
+//ExStep:6-
+// Nummerierung aus der Liste entfernen
+builder.ListFormat.RemoveNumbers();
+
+//ExStep:7-
+// Dokument speichern
+doc.Save("DocumentFormatting.MultilevelListFormatting.docx");
+//ExEnd

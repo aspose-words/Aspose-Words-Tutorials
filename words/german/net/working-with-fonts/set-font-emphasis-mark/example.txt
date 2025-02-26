@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary:Dieser Code zeigt, wie man in einem Word-Dokument mit Aspose.words eine Betonungsmarke setzt.
+//ExStepSummary:0:Erstellen einer neuen Dokument-Instanz zum Arbeiten.
+//ExStepSummary:1:Einrichtung eines DocumentBuilders, um das Dokument zu manipulieren.
+//ExStepSummary:2:Anwenden einer Betonungsmarke auf die Schriftart des Builders.
+//ExStepSummary:3:Text mit Schwerpunkt auf das Dokument schreiben.
+//ExStepSummary:4:Schreiben eines einfachen Textes ohne jegliche Betonung.
+//ExStepSummary:5: Dieser Code speichert das Dokument mit dem Betonungszeichen in der Schriftart.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Neues Dokument erstellen
+Document document = new Document();
+
+//ExStep:1-
+// DocumentBuilder für Dokumentmanipulation initialisieren
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:2-
+// Setzen Sie die Betonung auf UnderSolidCircle
+builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
+
+//ExStep:3-
+// Schreiben Sie den Schwerpunkttext in das Dokument
+builder.Write("Emphasis text");
+// Zur nächsten Zeile wechseln
+builder.Writeln();
+// Schriftformatierung für den folgenden Text löschen
+builder.Font.ClearFormatting();
+
+//ExStep:4-
+// Schreiben Sie einfachen Text ohne Betonung
+builder.Write("Simple text");
+
+//ExStep:5-
+// Das Dokument in den angegebenen Pfad speichern
+document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
+//ExEnd

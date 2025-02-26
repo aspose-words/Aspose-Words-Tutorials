@@ -1,0 +1,67 @@
+//ExStart
+//ExSummary: Bu kod, Aspose.Words kullanarak bir belge içinde bir grup şeklinin nasıl oluşturulacağını gösterir.
+// Aksanlı bir sınır çağrı şekli ve bir eylem düğmesi oluşturur, bunları bir grup şekline ekler ve daha sonra kaydetmeden önce grup şeklini belgeye ekler.
+//ExStepSummary:0: Yeni bir Belgeyi başlatır ve minimum gereksinimlerin karşılanmasını sağlar.
+//ExStepSummary:1: Başka şekillere sahip olacak bir GroupShape oluşturur.
+//ExStepSummary:2: Grup şekline aksanlı sınır çağrı şekli ekler.
+//ExStepSummary:3: Grup şekline bir eylem düğmesi şekli ekler.
+//ExStepSummary:4: Grup şeklinin boyutlarını ve koordinatlarını ayarlar.
+//ExStepSummary:5: Bir DocumentBuilder kullanarak grup şeklini belgeye ekler.
+//ExStepSummary:6: Grup şeklini içeren belgeyi belirli bir konuma kaydeder.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStep:0-
+// Yeni bir Belge Oluştur
+Document doc = new Document();
+// Belgenin minimum gereksinimleri karşıladığından emin olun
+doc.EnsureMinimum();
+
+//ExStep:1-
+// Yeni bir GroupShape örneği oluştur
+GroupShape groupShape = new GroupShape(doc);
+
+//ExStep:2-
+// Aksanlı sınır çağrı şekli oluştur
+Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
+{
+    Width = 100, 
+    Height = 100
+};
+// Şekilleri grup şekline ekle
+groupShape.AppendChild(accentBorderShape);
+
+//ExStep:3-
+// Bir eylem düğmesi şekli oluştur
+Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
+{
+	// Şeklin sol konumunu ayarlayın
+    Left = 100, 
+	// Şeklin genişliğini ayarla
+    Width = 100, 
+	// Şeklin yüksekliğini ayarla
+    Height = 200
+};
+// Eylem düğmesini grup şekline ekle
+groupShape.AppendChild(actionButtonShape);
+
+//ExStep:4-
+// Grup şeklinin genişliğini ayarla
+groupShape.Width = 200;
+// Grup şeklinin yüksekliğini ayarla
+groupShape.Height = 200;
+// Grup şekli için koordinat boyutunu ayarla
+groupShape.CoordSize = new Size(200, 200);
+
+//ExStep:5-
+// Belgeyi manipüle etmek için bir DocumentBuilder oluşturun
+DocumentBuilder builder = new DocumentBuilder(doc);
+// Grup şeklini belgeye ekle
+builder.InsertNode(groupShape);
+
+//ExStep:6-
+// Belgeyi belirtilen bir konuma kaydet
+doc.Save("WorkingWithShapes.AddGroupShape.docx");
+//ExEnd

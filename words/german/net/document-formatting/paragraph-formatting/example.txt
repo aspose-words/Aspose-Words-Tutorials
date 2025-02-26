@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: Dieser Code zeigt, wie Absätze in einem Word-Dokument mit Aspose.Words formatiert werden. Er zeigt, wie Absatzformatierungsoptionen wie Ausrichtung, Einrückung und Leerzeichen nach einem Absatz gesetzt werden können.
+//ExStepSummary:0: Dieser Schritt initialisiert ein neues Dokument und einen DocumentBuilder zum Erstellen des Dokuments.
+//ExStepSummary:1: Dieser Schritt setzt die Absatzformatierungsoptionen, einschließlich Ausrichtung, linker Einrückung, rechter Einrückung und Leerzeichen nach dem Absatz.
+//ExStepSummary:2: Dieser Schritt schreibt einen gut formatierten Absatz mit den angegebenen Formatierungsoptionen in das Dokument.
+//ExStepSummary:3: Dieser Schritt schreibt einen anderen formatierten Absatz, der die Wirkung von Leerzeichen nach dem Absatz zeigt.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0- 
+// Erstellen Sie eine neue Dokument-Instanz.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1- 
+// Stellen Sie Absatzformatierungsoptionen ein.
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.Alignment = ParagraphAlignment.Center;
+paragraphFormat.LeftIndent = 50;
+paragraphFormat.RightIndent = 50;
+paragraphFormat.SpaceAfter = 25;
+
+//ExStep:2- 
+// Schreiben Sie den ersten formatierten Absatz.
+builder.Writeln(
+	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
+
+//ExStep:3- 
+// Schreiben Sie den zweiten formatierten Absatz.
+builder.Writeln(
+	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
+
+//ExStep:4- 
+// Speichern Sie das Dokument auf dem angegebenen Pfad.
+doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
+//ExEnd

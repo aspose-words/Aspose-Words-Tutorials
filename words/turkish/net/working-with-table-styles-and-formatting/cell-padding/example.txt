@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Aşağıdaki kod, içeriğinin etrafına dolgu içeren biçimlendirilmiş bir tablo hücresine sahip bir Word belgesinin nasıl oluşturulacağını göstermektedir.
+//ExStepSummary:0: Aşağıdaki kod yeni bir belge ve belge oluşturucuyu başlatır.
+//ExStepSummary:1: Aşağıdaki kod belge içinde bir tablo başlatır.
+//ExStepSummary:2: Aşağıdaki kod, masaya bir hücre yerleştirir.
+//ExStepSummary:3: Aşağıdaki kod, hücre içeriği için doldurmayı ayarlar.
+//ExStepSummary:4: Aşağıdaki kod hücreye metin ekler ve geçerli satırı bitirir.
+//ExStepSummary:5: Aşağıdaki kod tabloyu sonlandırır ve belgeyi bir dosyaya kaydeder.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Yeni bir belgeyi başlat
+Document doc = new Document();
+// Belgeyi manipüle etmek için bir belge oluşturucu oluşturun
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Bir tablo oluşturmaya başla
+builder.StartTable();
+// Tabloya yeni bir hücre ekle
+builder.InsertCell();
+
+//ExStep:2-
+// Üstte ve altta 30 puan, solda ve sağda 50 puan ile doldurmayı ayarla
+builder.CellFormat.SetPaddings(30, 50, 30, 50);
+
+//ExStep:3-
+builder.Writeln("I'm a wonderful formatted cell.");
+// Tablodaki mevcut satırı bitirin
+builder.EndRow();
+// Masayı bitirin
+builder.EndTable();
+
+//ExStep:4-
+// Belgeyi belirtilen bir dosyaya kaydet
+doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
+//ExEnd

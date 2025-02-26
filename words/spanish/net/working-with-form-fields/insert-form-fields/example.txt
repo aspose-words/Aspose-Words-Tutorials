@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: Este código muestra cómo insertar campos de formulario en un documento de Word usando Aspose.Words para .NET. Específicamente, muestra cómo insertar un campo de formulario de cuadro combinado con elementos predefinidos.
+//ExStepSummary:0: El siguiente código muestra cómo crear un nuevo documento de Word.
+//ExStepSummary:1: El siguiente código muestra cómo inicializar un DocumentBuilder para editar el documento.
+//ExStepSummary:2: El siguiente código muestra cómo definir e insertar un campo de formulario de cuadro combinado con elementos predefinidos y una selección predeterminada.
+//ExStepImage:0:images/1.png
+//ExStepImage:1:images/2.png
+//ExStep:0-
+// Inicializa un documento de Word vacío
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Definir e insertar un campo de formulario de cuadro combinado
+string[] items = { "One", "Two", "Three" };
+builder.InsertComboBox("DropDown", items, 0);
+//ExEnd

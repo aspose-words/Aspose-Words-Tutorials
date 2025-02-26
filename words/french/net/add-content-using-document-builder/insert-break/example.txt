@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: Ce code montre comment créer un document Word en utilisant Aspose.Words, ajouter du contenu sur plusieurs pages, et l'enregistrer sous forme de fichier .docx.
+//ExStepSummary:0: Cette étape initialise un nouveau Document et un DocumentBuilder pour manipuler le document.
+//ExStepSummary:1: Cette étape ajoute du texte à la première page.
+//ExStepSummary:2: Cette étape insère une pause page pour démarrer une nouvelle page.
+//ExStepSummary:3: Cette étape ajoute du texte à la deuxième page.
+//ExStepSummary:4: Cette étape insère une autre pause de page pour une nouvelle page.
+//ExStepSummary:5: Cette étape ajoute du texte à la troisième page.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Créer une nouvelle instance Document
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Ajouter du texte pour la première page
+builder.Writeln("This is page 1.");
+
+//ExStep:2-
+// Insérez une pause page pour démarrer une nouvelle page
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+// Ajouter du texte pour la deuxième page
+builder.Writeln("This is page 2.");
+
+//ExStep:4-
+// Insérer une autre pause page pour une nouvelle page
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:5-
+// Ajouter du texte pour la troisième page
+builder.Writeln("This is page 3.");
+
+//ExStep:6-
+// Enregistrer le document sur le chemin spécifié
+doc.Save("AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

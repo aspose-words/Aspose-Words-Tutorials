@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary:Questo codice dimostra come creare un documento di Word con un grafico scatter utilizzando Aspose.Words. Si inizializza un documento, costruisce contenuti, inserisce un grafico scatter, aggiunge dati ad esso, e salva il documento.
+//ExStepSummary:0: Inizializzazione degli oggetti Document and DocumentBuilder per iniziare a lavorare sul documento.
+//ExStepSummary:1: Inserimento di un grafico scatter nel documento.
+//ExStepSummary:2: Aggiunta di una serie di punti di dati al grafico scatter.
+//ExStepSummary:3: Salvare il documento con il grafico scatter in un file .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Inizializza un nuovo documento
+Document doc = new Document();
+// Crea un costruttore per inserire il contenuto
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Inserisci un grafico scatter nel documento
+Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252); 
+
+//ExStep:2-
+// Ottieni l'oggetto grafico dalla forma inserita
+Chart chart = shape.Chart;
+// Aggiungi dati di serie al grafico
+chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 });
+
+//ExStep:3-
+// Salva il documento con il grafico scatter
+doc.Save("WorkingWithCharts.InsertScatterChart.docx");
+//ExEnd

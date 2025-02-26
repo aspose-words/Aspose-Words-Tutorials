@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: このコードは、単語ドキュメントの作成方法を示します。 Assoft.words.、段落のスタイルを適用し、保存します。このコードは、段落のタイトルバーのスタイルを設定し、 .docx 形式でドキュメントを保存します。
+//ExStepSummary:0: このセクションでは、新規ドキュメントとドキュメントビルダーのインスタンスを初期化します。
+//ExStepSummary:1: このセクションでは、ドキュメントビルダーを使用するタイトルの段落スタイルが適用されます。
+//ExStepSummary:2: この節は"ハロー"を文書に書いています.
+//ExStepSummary:3: このセクションは、ドキュメントを指定したファイルパスに保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 新しい文書インスタンスを初期化
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 段落のスタイルをタイトルに設定
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Title;
+
+//ExStep:2-
+// 指定したスタイルを適用して "hello" を書き込みます
+builder.Write("Hello");
+
+//ExStep:3-
+// 文書を .docx ファイルに保存します
+doc.Save("DocumentFormatting.ApplyParagraphStyle.docx");
+//ExEnd

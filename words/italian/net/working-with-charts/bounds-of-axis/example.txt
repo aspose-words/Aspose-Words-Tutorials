@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Questo codice mostra come creare un documento con un grafico usando Aspose.Words, impostare i limiti per l'asse Y e salvare il documento come file DOCX. 
+// Ogni passo è suddiviso per fornire una chiara comprensione del processo coinvolto nel lavorare con i grafici in Aspose.Parole.
+//ExStepSummary:0: Inizializzare un nuovo documento e un'istanza DocumentBuilder. 
+//ExStepSummary:1: Inserire un grafico nel documento e recuperare l'oggetto grafico. 
+//ExStepSummary:2: Aggiungere una nuova serie al grafico con categorie e valori specificati. 
+//ExStepSummary:3: Imposta i limiti minimi e massimi per l'asse Y del grafico. 
+//ExStepSummary:4: Salva il documento nel percorso specificato. 
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Crea una nuova istanza di documento.
+Document doc = new Document();
+// Inizializzare DocumentBuilder per costruire il documento.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Inserire un grafico a colonne nel documento.
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+// Recuperare l'oggetto grafico dalla forma.
+Chart chart = shape.Chart;
+// Cancella tutte le serie esistenti dal grafico per dati nuovi.
+chart.Series.Clear();
+
+//ExStep:2-
+// Definire una nuova serie con il nome "Aspose Series 1" .
+chart.Series.Add("Aspose Series 1",
+    new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
+    new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
+
+//ExStep:3-
+// Impostare il limite minimo dell'asse Y.
+chart.AxisY.Scaling.Minimum = new AxisBound(0);
+chart.AxisY.Scaling.Maximum = new AxisBound(6);
+
+//ExStep:4-
+// Salva il documento con il grafico nel percorso specificato.
+doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
+//ExEnd

@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: Tento kód ukazuje, jak přidat text vodoznak s konkrétními možnostmi do dokumentu Word pomocí Aspose.Words.
+//ExStepSummary:0: Následující kód inicializuje cestu dokumentu a vytvoří nový objekt Dokumentu.
+//ExStepSummary:1: Následující kód nastavuje možnosti pro textové vodoznaky, včetně rodiny písma, velikosti, barvy a rozvržení.
+//ExStepSummary:2: Následující kód se vztahuje na textový vodoznak se stanovenými možnostmi dokumentu.
+//ExStepSummary:3: Následující kód uloží upravený dokument do zadaného adresáře.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+// Nastavit cestu adresáře pro dokument
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Načíst dokument Slovo
+Document doc = new Document(dataDir + "Document.docx");
+
+//ExStep:2-
+// Vytvořit možnosti vodoznaku
+TextWatermarkOptions options = new TextWatermarkOptions()
+{
+    FontFamily = "Arial", // Set font family for the watermark text
+    FontSize = 36, // Set font size for the watermark text
+    Color = Color.Black, // Set color of the watermark text
+    Layout = WatermarkLayout.Horizontal, // Specify layout of the watermark
+    IsSemitrasparent = false // Set transparency option
+};
+
+//ExStep:3-
+// Použít text vodoznaku s možnostmi
+doc.Watermark.SetText("Test", options);
+
+//ExStep:4-
+// Uložit dokument s vodoznakem
+doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
+//ExEnd

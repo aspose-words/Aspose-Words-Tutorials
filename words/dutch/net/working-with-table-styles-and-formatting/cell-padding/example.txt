@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: De volgende code laat zien hoe je een Word-document maakt met een geformatteerde tabelcel die vulling rond de inhoud bevat.
+//ExStepSummary:0: De volgende code initialiseert een nieuw document en een documentbuilder.
+//ExStepSummary:1: De volgende code start een tabel in het document.
+//ExStepSummary:2: De volgende code plaatst een cel in de tabel.
+//ExStepSummary:3: De volgende code stelt de opvulling voor de celinhoud in.
+//ExStepSummary:4: De volgende code voegt tekst toe aan de cel en eindigt de huidige rij.
+//ExStepSummary:5: De volgende code eindigt de tabel en slaat het document op in een bestand.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Een nieuw document initialiseren
+Document doc = new Document();
+// Een documentbuilder aanmaken om het document te manipuleren
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Beginnen met het aanmaken van een tabel
+builder.StartTable();
+// Plaats een nieuwe cel in de tabel
+builder.InsertCell();
+
+//ExStep:2-
+// Stel opvulling in met 30 punten boven en onder, 50 punten links en rechts
+builder.CellFormat.SetPaddings(30, 50, 30, 50);
+
+//ExStep:3-
+builder.Writeln("I'm a wonderful formatted cell.");
+// Voltooi de huidige rij in de tabel
+builder.EndRow();
+// Einde van de tabel
+builder.EndTable();
+
+//ExStep:4-
+// Het document opslaan in een opgegeven bestand
+doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
+//ExEnd

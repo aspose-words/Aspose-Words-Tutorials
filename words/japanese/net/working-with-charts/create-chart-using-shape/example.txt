@@ -1,0 +1,37 @@
+//ExStart
+//ExSummaryを選択します。次のコードをチェックして、単語ドキュメント内の線グラフを作成する方法を調べてください。このコードは IDE にコピーして実行できます。
+//ExStepSummary:0: 以下のコードは、新しいドキュメントを作成し、ドキュメントビルダーを初期化する方法を示します。
+//ExStepSummary:1: 以下のコードは、線グラフをドキュメントに挿入する方法を示します。
+//ExStepSummary:2: 次 の コード は , 表 の 主題 を どの よう に 定める か を 説明 し て い ます。
+//ExStepSummary:3: 次のコードは、グラフの凡例の位置とオーバーレイの設定方法を示します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 新しい文書オブジェクトを作成
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 与えられた寸法で、線グラフをドキュメントに挿入
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+
+//ExStep:2-
+// シェイプからグラフオブジェクトにアクセス
+Chart chart = shape.Chart;
+// グラフのタイトルの表示を有効にする
+chart.Title.Show = true;
+// グラフのタイトルテキストを設定
+chart.Title.Text = "Line Chart Title";
+// タイトルが表をオーバーライドしないようにします
+chart.Title.Overlay = false;
+
+//ExStep:3-
+// グラフの凡例の位置を左に設定
+chart.Legend.Position = LegendPosition.Left;
+chart.Legend.Overlay = true;
+
+//ExStep:4-
+// ドキュメントをグラフでファイルに保存します
+doc.Save("WorkingWithCharts.CreateChartUsingShape.docx");
+//ExEnd

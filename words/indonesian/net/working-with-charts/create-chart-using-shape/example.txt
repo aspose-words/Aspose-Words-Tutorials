@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Silakan periksa kode berikut untuk mencari cara membuat bagan baris dalam dokumen Word. Anda dapat menyalin kode ini ke IDE dan menjalankannya.
+//ExStepSummary:0: Kode berikut menunjukkan bagaimana membuat Dokumen baru dan seketika sebuah Dokumen Builder:
+//ExStepSummary:1: Kode berikut menunjukkan bagaimana menyisipkan bagan Baris ke dalam dokumen:
+//ExStepSummary:2: Kode berikut menjelaskan cara menata judul bagan:
+//ExStepSummary:3: Kode berikut menunjukkan bagaimana mengatur posisi legenda bagan dan pengaturan overlay:
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Buat objek Dokumen baru
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Sisipkan bagan baris ke dalam dokumen pada dimensi yang ditentukan
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+
+//ExStep:2-
+// Mengakses objek Bagan dari bentuk
+Chart chart = shape.Chart;
+// Aktifkan visibility judul bagan
+chart.Title.Show = true;
+// Menentukan teks judul bagi bagan
+chart.Title.Text = "Line Chart Title";
+// Pastikan judul tidak overlay bagan
+chart.Title.Overlay = false;
+
+//ExStep:3-
+// Atur posisi legenda bagan ke kiri
+chart.Legend.Position = LegendPosition.Left;
+chart.Legend.Overlay = true;
+
+//ExStep:4-
+// Simpan dokumen dengan bagan ke berkas
+doc.Save("WorkingWithCharts.CreateChartUsingShape.docx");
+//ExEnd

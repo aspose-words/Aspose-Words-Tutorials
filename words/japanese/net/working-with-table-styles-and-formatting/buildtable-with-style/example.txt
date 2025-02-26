@@ -1,0 +1,74 @@
+//ExStart
+//ExSummaryを選択します。 このコードは、Asfo.words を使って、スタイル付きテーブルでワード文書を作成する方法を示します。テーブルには、特定のスタイルオプションで書式設定されたヘッダーとデータ行を含めます。
+//ExStepSummary:0: ドキュメント構造を管理するための新しい文書と文書ビルダーを初期化します。
+//ExStepSummary:1: ドキュメント作成プログラムを使用して、ドキュメント内で新しい表を開始します。
+//ExStepSummary:2: 最初のセルを挿入し、表のスタイルの識別子を設定します。
+//ExStepSummary:3: テーブルに書式設定オプションを適用し、自動調整の挙動を設定します。
+//ExStepSummary:4: 表にヘッダー行のセルを追加します。
+//ExStepSummary:5: データ行を項目名と量で表に挿入します。
+//ExStepSummary:6: 集めた文書をファイルに保存します。
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// 新しいドキュメントオブジェクトを作成します。
+Document doc = new Document();
+// ドキュメント生成を簡単にするためのビルドを作成します。
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// ドキュメント内で新しい表を開始します。
+Table table = builder.StartTable();
+
+//ExStep:2-
+// 書式設定を設定する前に、最初のセルを挿入します。
+builder.InsertCell();
+// テーブルのスタイルの識別子を設定します。
+table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
+
+
+//ExStep:3-
+// スタイルのオプションを設定します。
+table.StyleOptions = 
+    TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
+// テーブルの自動調整の挙動を設定します。	
+table.AutoFit(AutoFitBehavior.AutoFitToContents);
+
+
+//ExStep:4-
+// 最初の列にヘッダを書き込みます。
+builder.Writeln("Item");
+// 細胞に右のパディングをセットします。
+builder.CellFormat.RightPadding = 40;
+// 次の列の 2 番目のセルを挿入します。
+builder.InsertCell();
+// 2 番目の列にヘッダを書き込みます。
+builder.Writeln("Quantity (kg)");
+// 行の作成を終了します。
+builder.EndRow();
+
+//ExStep:5-
+// 新しい行を開始し、最初のセルを挿入します。
+builder.InsertCell();
+builder.Writeln("Apples");
+builder.InsertCell();
+builder.Writeln("20");
+builder.EndRow();
+ // 2 番目の項目に新しい行の最初のセルを挿入します。
+builder.InsertCell();
+builder.Writeln("Bananas");
+builder.InsertCell();
+builder.Writeln("40");
+builder.EndRow();
+// 3 番目の項目の新規行を開始します。
+builder.InsertCell();
+builder.Writeln("Carrots");
+builder.InsertCell(); 
+builder.Writeln("50");
+builder.EndRow();
+
+//ExStep:6-
+// ドキュメントを指定したファイルに保存します。
+doc.Save("WorkingWithTableStylesAndFormatting.BuildTableWithStyle.docx");
+//ExEnd

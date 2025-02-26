@@ -1,0 +1,56 @@
+//ExStart
+//ExSummary: Den här koden visar hur man skapar en lista på flera nivåer i ett Word- dokument med hjälp av Aspose.Words. Den initierar ett dokument, tillämpar ett numreringsformat, skapar huvud- och underobjekt, och sparar slutligen dokumentet som en .docx-fil.
+//ExStepSummary:0: Följande kod initierar ett nytt dokument och DocumentBuilder instans.
+//ExStepSummary:1: Följande kod tillämpar en förvald numreringsstil i listan och lägger till toppnivåobjekt.
+//ExStepSummary:2: Följande kod strecksatser för att skapa underposter under den andra posten på toppnivå.
+//ExStepSummary:3: Följande kod ytterligare strecksatser för att skapa sub-sub-poster under den andra del-punkt.
+//ExStepSummary:4: Följande kodkoder går tillbaka till föregående nivå för att lägga till en annan post på den andra nivån.
+//ExStepSummary:5: Följande kodkoder går tillbaka till toppnivån för att lägga till det sista objektet i listan.
+//ExStepSummary:6: Följande kod tar bort numrering från listan innan du sparar.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStep:0-
+// Initiera ett nytt dokument
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Tillämpa förvalt numreringsformat
+builder.ListFormat.ApplyNumberDefault();
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+
+//ExStep:2-
+// Indentering för underposter
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.1");
+builder.Writeln("Item 2.2");
+
+//ExStep:3-
+// Indentering för delposter
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.2.1");
+builder.Writeln("Item 2.2.2");
+
+//ExStep:4-
+// Utgående tillbaka till den andra nivån
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 2.3");
+
+//ExStep:5-
+// Utgående tillbaka till den översta nivån
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 3");
+
+//ExStep:6-
+// Ta bort numrering från listan
+builder.ListFormat.RemoveNumbers();
+
+//ExStep:7-
+// Spara dokumentet
+doc.Save("DocumentFormatting.MultilevelListFormatting.docx");
+//ExEnd

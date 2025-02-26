@@ -1,0 +1,57 @@
+//ExStart
+//ExSummary: Пожалуйста, проверьте следующий код, чтобы найти, как вставить простую колонку в документ Word. Вы можете скопировать этот код в свой IDE и запустить его.
+//ExStepSummary:0: Этот код показывает, как создать документ Word с помощью Aspose.Words и вставить в него таблицу.
+//ExStepSummary:1: Этот код показывает, как создать объект для создания документа для манипулирования содержанием Слова.
+//ExStepSummary:2: Этот код показывает, как включить в документ форму колонки с указанными размерами.
+//ExStepSummary:3: Этот код извлекает объект карты из вставленной формы для дальнейшей адаптации.
+//ExStepSummary:4: Этот код показывает, как получить доступ к чартам и распечатать число рядов.
+//ExStepSummary:5: Этот код очищает любые стандартные ряды, которые могли быть созданы с диаграммами.
+//ExStepSummary:6: Этот код показывает, как определить категории для данных карты.
+//ExStepSummary:7: Этот код показывает, как добавить ряды в диаграмму с соответствующими названиями категорий и значениями данных.
+//ExStepSummary:8: Этот код сохраняет документ с вставленной схемой в указанный файл.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:7:images/4.png
+//ExStep:0-
+// Создать новый пример документа Word.
+Document doc = new Document();
+
+//ExStep:1-
+// Создать документоподготовитель для легкого включения элементов в документ.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// Включить форму колонки с заданной шириной (432) и высотой (252).
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:3-
+// Возьмите объект карты из формы для дальнейшего манипулирования.
+Chart chart = shape.Chart;
+
+//ExStep:4-
+// Доступ к коллекции рядов чартов.
+ChartSeriesCollection seriesColl = chart.Series;
+// Напечатайте номер серии в чарте на консоли.
+Console.WriteLine(seriesColl.Count);
+
+//ExStep:5-
+// Удалить любые по умолчанию ряды, которые были автоматически созданы при создании чарта.
+seriesColl.Clear();
+
+//ExStep:6-
+// Определить набор названий категорий для картографических данных.
+string[] categories = new string[] { "Category 1", "Category 2" };
+
+//ExStep:7-
+// Добавить несколько рядов в диаграмму с названиями категорий и значениями данных.
+seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
+seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
+seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
+seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
+seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
+
+//ExStep:8-
+// Сохранить документ с вставленной схемой к заданному файловому пути.
+doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
+//ExEnd

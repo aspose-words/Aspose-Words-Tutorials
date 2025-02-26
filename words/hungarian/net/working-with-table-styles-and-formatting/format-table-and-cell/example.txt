@@ -1,0 +1,63 @@
+//ExStart
+//ExSummary:Ez a kód bemutatja, hogyan hozhat létre Word-dokumentumot egy olyan táblával, amely különböző szegély- és árnyékolási stílusokkal rendelkezik a celláihoz.
+//ExStepSummary:0: Inicializálja a Document and DocumentBuilder programot egy új Word-dokumentum létrehozásához.
+//ExStepSummary:1: Indítson el egy új asztalt, és állítsa be az egész asztal határait.
+//ExStepSummary:2: Adja hozzá az első cellát piros háttér árnyékolással és szöveggel.
+//ExStepSummary:3: Adja hozzá a második cellát zöld háttér árnyékolással és szöveggel.
+//ExStepSummary:4: Fejezze be az első sort, és törölje az előző cellaformázást.
+//ExStepSummary:5: Adjon hozzá egy új sort az első cella egyéni nagyobb szegélyeivel.
+//ExStepSummary:6: Adja hozzá az új sor második celláját az alapértelmezett formázással és szöveggel.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Új dokumentum létrehozása.
+Document doc = new Document();
+// Hozzon létre egy DocumentBuilder-t a dokumentum manipulálásához.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Kezdj új asztalt!
+Table table = builder.StartTable();
+// Helyezze be az első cellát a táblázatba.
+builder.InsertCell();
+// Állítsa be a határokat az egész asztalhoz.
+table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
+
+//ExStep:2-
+// Állítsa a cella háttérszínét pirosra.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
+builder.Writeln("Cell #1");
+// Helyezze be a második cellát.
+builder.InsertCell();
+
+//ExStep:3-
+// Állítsa a cella háttérszínét zöldre.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
+builder.Writeln("Cell #2");
+// Befejezi az aktuális sort.
+builder.EndRow();
+
+//ExStep:4-
+// Töröljön minden cellaformázást az újrakezdéshez.
+builder.CellFormat.ClearFormatting();
+// Helyezzen be egy új cellát a következő sorba.
+builder.InsertCell();
+// Nagyobb határok létrehozása a sor első cellájához.
+builder.CellFormat.Borders.Left.LineWidth = 4.0;
+builder.CellFormat.Borders.Right.LineWidth = 4.0;
+builder.CellFormat.Borders.Top.LineWidth = 4.0;
+builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
+builder.Writeln("Cell #3");
+//ExStep:5-
+// Helyezze be a negyedik cellát.
+builder.InsertCell();
+builder.CellFormat.ClearFormatting();
+builder.Writeln("Cell #4");
+//ExStep:6-
+// Mentse el a dokumentumot.
+doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
+//ExEnd

@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary: Этот код показывает, как добавить заголовок и описание в таблицу в документе Word с использованием Aspose.Words.
+//ExStepSummary:0:Этот этап инициализирует документ и загружает его из указанного каталога.
+//ExStepSummary:1:На этом этапе из документа взята первая таблица, в которой приводится ее название и описание.
+//ExStepSummary:2:Этот шаг настраивает резервные варианты документа с конкретными параметрами соблюдения.
+//ExStepSummary:3:Этот шаг оптимизирует варианты совместимости для документа Word 2016.
+//ExStepSummary:4:Этот этап сохраняет измененный документ обратно в указанный каталог.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Инициализировать документ и загрузить его из каталога данных
+string dataDir = "Your Document Directory";
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Измените первую таблицу и установите ее название и описание
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+table.Title = "Test title";
+table.Description = "Test description";
+
+//ExStep:2-
+// Настроить сохранение опций для документа
+OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
+
+//ExStep:3-
+// Оптимизация вариантов совместимости для Word 2016
+doc.CompatibilityOptions.OptimizeFor(Aspose.Words.Settings.MsWordVersion.Word2016);
+
+//ExStep:4-
+// Сохранить измененный документ обратно в указанный каталог
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.TableTitleAndDescription.docx", options);
+//ExEnd

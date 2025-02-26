@@ -1,0 +1,63 @@
+//ExStart
+//ExSummary:Tento kód ukazuje, jak vytvořit dokument Word s tabulkou, která má různé hraniční a stínovací styly pro své buňky.
+//ExStepSummary:0: Inicializovat dokument a dokumentBuilder vytvořit nový dokument Word.
+//ExStepSummary:1: Spusťte nový stůl a nastavte hranice pro celý stůl.
+//ExStepSummary:2: Přidejte první buňku s červeným pozadím stínování a text.
+//ExStepSummary:3: Přidejte druhou buňku se zeleným pozadím stínování a text.
+//ExStepSummary:4: Ukončete první řádek a vymažte předchozí formátování buňky.
+//ExStepSummary:5: Přidejte nový řádek s vlastními většími hranicemi pro první buňku.
+//ExStepSummary:6: Přidejte druhou buňku nového řádku s výchozím formátováním a textem.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Vytvořit nový dokument.
+Document doc = new Document();
+// Vytvořit dokumentBuilder pro manipulaci s dokumentem.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Začněte s novým stolem.
+Table table = builder.StartTable();
+// Vložte první buňku do tabulky.
+builder.InsertCell();
+// Nastavte hranice na celý stůl.
+table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
+
+//ExStep:2-
+// Nastavte barvu pozadí buňky na červenou.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
+builder.Writeln("Cell #1");
+// Vložte druhou buňku.
+builder.InsertCell();
+
+//ExStep:3-
+// Nastavte barvu pozadí buňky na zelenou.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
+builder.Writeln("Cell #2");
+// Ukončete současnou řadu.
+builder.EndRow();
+
+//ExStep:4-
+// Vyčistěte formátování všech buněk a začněte znovu.
+builder.CellFormat.ClearFormatting();
+// Vložit novou buňku do další řady.
+builder.InsertCell();
+// Vytvořit větší hranice pro první buňku této řady.
+builder.CellFormat.Borders.Left.LineWidth = 4.0;
+builder.CellFormat.Borders.Right.LineWidth = 4.0;
+builder.CellFormat.Borders.Top.LineWidth = 4.0;
+builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
+builder.Writeln("Cell #3");
+//ExStep:5-
+// Vložte čtvrtou buňku.
+builder.InsertCell();
+builder.CellFormat.ClearFormatting();
+builder.Writeln("Cell #4");
+//ExStep:6-
+// Nech si ten dokument.
+doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
+//ExEnd

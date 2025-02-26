@@ -1,0 +1,19 @@
+//ExStart
+//ExSummary:Αυτός ο κώδικας δείχνει πώς να εισάγετε μια εικόνα inline σε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words.
+//ExStepSummary:0: Αρχικοποίηση του αντικειμένου του εγγράφου και του εγγράφουBuilder για την κατασκευή του εγγράφου.
+//ExStepSummary:1: Εισαγωγή μιας εικόνας στο έγγραφο στην τρέχουσα θέση του δρομέα με το DocumentBuilder.
+//ExStepSummary:2: Αποθήκευση του εγγράφου σε συγκεκριμένο όνομα αρχείου.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+// Αρχικοποίηση ενός νέου εγγράφου και εγγράφουBuilder
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Εισάγετε την εικόνα χρησιμοποιώντας DocumentBuilder
+builder.InsertImage(ImagesDir + "Transparent background logo.png");
+
+//ExStep:2-
+// Αποθήκευση του τροποποιημένου εγγράφου σε ένα αρχείο
+doc.Save("AddContentUsingDocumentBuilder.InsertInlineImage.docx");
+//ExEnd

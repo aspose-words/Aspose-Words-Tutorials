@@ -1,0 +1,45 @@
+//ExStart
+//ExSummaryيوضح الرمز التالي كيفية إنشاء جدول وتنسيقه في مستند Word باستخدام فئة DocumentBuilder من Apose.Words.
+//ExStepSummary:0: تهيئة مستند جديد وDocumentBuilder لبدء بناء مستند Word.
+//ExStepSummary:1: إنشاء جدول وإدراج خلية للتنسيق.
+//ExStepSummary:2: اضبط خصائص التنسيق للخلية ، بما في ذلك الحشو والعرض.
+//ExStepSummary:3: أدخل النص في الخلية المنسقة.
+//ExStepSummary:4: إنهاء الصف والجدول، وحفظ المستند في مسار ملف محدد.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// إنشاء كائن مستند جديد
+Document doc = new Document();
+// تهيئة DocumentBuilder مع المستند الجديد
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// ابدأ في إنشاء جدول
+builder.StartTable();
+// أدخل الخلية الأولى في الجدول
+builder.InsertCell();
+
+//ExStep:2-
+// الوصول إلى خصائص تنسيق الخلية
+CellFormat cellFormat = builder.CellFormat;
+// ضبط عرض الخلية
+cellFormat.Width = 250;
+// اضبط الحشوة
+cellFormat.LeftPadding = 30;
+cellFormat.RightPadding = 30;
+cellFormat.TopPadding = 30;
+cellFormat.BottomPadding = 30;
+
+//ExStep:3-
+// إدخال النص في الخلية
+builder.Writeln("I'm a wonderful formatted cell.");
+
+//ExStep:4-
+// إنهاء الصف الحالي من الجدول
+builder.EndRow();
+// إنهاء إنشاء الجدول
+builder.EndTable();
+// حفظ المستند
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");
+//ExEnd

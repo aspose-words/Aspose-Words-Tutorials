@@ -1,0 +1,34 @@
+//ExStart
+//ExSummary:Ez a kód bemutatja, hogyan hozhat létre Word dokumentumot az Aspose.Words használatával, formázva a betűtípus tulajdonságait, mielőtt mintaszöveget írna rá.
+//ExStepSummary:0: A következő kód egy új dokumentumot és egy DocumentBuilder-t inicializál.
+//ExStepSummary:1: A következő kód különböző betűtípus-tulajdonságokat állít be, mint például a méret, a félkövér, a szín, a név és az aláhúzási stílus.
+//ExStepSummary:2: A következő kód egy mintaszöveget ír a dokumentumba a beállított betűkészlet- beállítások segítségével.
+//ExStepSummary:3: A következő kód menti a dokumentumot a megadott könyvtárba egy adott fájlnévvel.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Új dokumentumpéldány létrehozása
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Hozzáférés a betűtípus tulajdonsághoz a DocumentBuilder segítségével
+Font font = builder.Font;
+// A betűméret beállítása 16
+font.Size = 16;
+// Legyen a betűtípus félkövér
+font.Bold = true;
+// A betűtípus színe kékre vált
+font.Color = Color.Blue;
+// A betűtípus beállítása Arialra
+font.Name = "Arial";
+// Dashed aláhúzási stílus alkalmazása a betűtípusra
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+builder.Write("Sample text.");
+
+//ExStep:3-
+// Mentse a dokumentumot a tárgyak könyvtárába
+doc.Save("WorkingWithFonts.FontFormatting.docx");
+//ExEnd

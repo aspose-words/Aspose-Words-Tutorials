@@ -1,0 +1,34 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать документ Word с использованием Aspose.Words, форматируя свойства шрифта перед тем, как написать образец текста.
+//ExStepSummary:0: Приводимый ниже код инициализирует новый документ и модуль документа.
+//ExStepSummary:1: В следующем коде указываются различные свойства шрифта, такие, как размер, жирным, цветным, имя и стиль подчёркивания.
+//ExStepSummary:2: Приведенный ниже код пишет образец текста к документу с использованием конфигурации шрифта.
+//ExStepSummary:3: Приводимый ниже код сохраняет документ в указанном каталоге с указанным именем файла.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Создать новый пример документа
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Доступ к информации шрифта через документоподготовитель
+Font font = builder.Font;
+// Установить размер шрифта на 16
+font.Size = 16;
+// Сделайте шрифт жирным
+font.Bold = true;
+// Изменить цвет шрифта на синий
+font.Color = Color.Blue;
+// Введите шрифт в Arial
+font.Name = "Arial";
+// Применить к шрифту тиреный стиль подчёркивания@ info: whatsthis
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+builder.Write("Sample text.");
+
+//ExStep:3-
+// Сохранить документ в каталог артефактов
+doc.Save("WorkingWithFonts.FontFormatting.docx");
+//ExEnd

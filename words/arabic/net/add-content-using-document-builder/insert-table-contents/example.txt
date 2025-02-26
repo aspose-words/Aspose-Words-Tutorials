@@ -1,0 +1,78 @@
+//ExStart
+//ExSummary: يوضح هذا الرمز كيفية إنشاء مستند Word باستخدام جدول المحتويات باستخدام DocumentBuilder. يتضمن عناوين من مستويات مختلفة ويحفظ المستند كملف .docx.
+//ExStepSummary:0: تعمل هذه الخطوة على تهيئة كائن مستند جديد.
+//ExStepSummary:1: تنشئ هذه الخطوة كائن DocumentBuilder لمعالجة المستند.
+//ExStepSummary:2: تدرج هذه الخطوة جدول المحتويات في بداية المستند.
+//ExStepSummary:3: تقدم هذه الخطوة فاصل صفحة لبدء المحتوى الفعلي على صفحة جديدة.
+//ExStepSummary:4: تحدد هذه الخطوة العنوان الأول وتكتب "العنوان 1" على المستند.
+//ExStepSummary:5: تحدد هذه الخطوة مستوى العنوان الثاني وتكتب "الرأس 1.1" و "الرأس 1.2".
+//ExStepSummary:6: تحدد هذه الخطوة مرة أخرى مستوى العنوان الأول وتكتب "Heading 2" و "Heading 3".
+//ExStepSummary:7: تحدد هذه الخطوة مستوى العنوان الثاني وتكتب "Heading 3.1".
+//ExStepSummary:8: تحدد هذه الخطوة مستوى العنوان الثالث وتكتب العناوين الفرعية "العنوان 3.1.1" و "العنوان 3.1.2" و "العنوان 3.1.3".
+//ExStepSummary:9: تحدد هذه الخطوة مستوى العنوان الثاني مرة أخرى وتكتب "Heading 3.2" و "Heading 3.3".
+//ExStepSummary:10: وأخيرًا ، تقوم هذه الخطوة بتحديث الحقول الموجودة في المستند وحفظها كملف .docx.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:6:images/4.png
+//ExStepImage:7:images/5.png
+//ExStepImage:8:images/6.png
+//ExStepImage:9:images/7.png
+
+//ExStep:0-
+// إنشاء مثيل مستند جديد
+Document doc = new Document();
+
+//ExStep:1-
+// تهيئة DocumentBuilder لمعالجة المستندات
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// إدراج جدول المحتويات مع خيارات محددة
+builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
+
+//ExStep:3-
+// إدراج فاصل صفحة لبدء المحتوى على صفحة جديدة
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:4-
+// تعيين النمط إلى العنوان 1
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 1");
+
+//ExStep:5-
+// تعيين النمط إلى العنوان 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 1.1");
+builder.Writeln("Heading 1.2");
+
+//ExStep:6-
+// وضع النمط مرة أخرى إلى العنوان 1
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 2");
+builder.Writeln("Heading 3");
+
+//ExStep:7-
+// تعيين النمط إلى العنوان 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.1");
+
+//ExStep:8-
+// تعيين النمط إلى العنوان 3
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
+builder.Writeln("Heading 3.1.1");
+builder.Writeln("Heading 3.1.2");
+builder.Writeln("Heading 3.1.3");
+
+//ExStep:9-
+// وضع الاسلوب مرة أخرى إلى العنوان 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.2");
+builder.Writeln("Heading 3.3");
+
+//ExStep:10-
+// تحديث جميع الحقول في المستند
+doc.UpdateFields();
+// احفظ المستند
+doc.Save("AddContentUsingDocumentBuilder.InsertTableOfContents.docx");
+//ExEnd

@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Tento kód ukazuje, jak vložit sloupcový graf do dokumentu pomocí Aspose.Words. Vytváří dokument,
+//          přidá graf s definovanými kategoriemi a hodnotami a pak uloží dokument.
+//ExStepSummary:0: Následující kód inicializuje nový dokument a stavitel dokumentů.
+//ExStepSummary:1: Tento krok zahrnuje vložení grafu sloupců se stanovenými rozměry do dokumentu.
+//ExStepSummary:2: Zde se do grafu přidávají sériová data s kategoriemi a odpovídajícími hodnotami.
+//ExStepSummary:3: Tento krok uloží dokument s vloženou mapou do zadaného umístění souboru.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Inicializace nového objektu Dokumentu
+Document doc = new Document();
+// Vytvořit dokumentBuilder pro snadnou manipulaci s dokumenty
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Vložte graf sloupců ve stanovené velikosti (šířka x výška)
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+// Přístup k objektu grafu z vloženého tvaru
+Chart chart = shape.Chart;
+// Přidat sériová data s kategoriemi a hodnotami
+chart.Series.Add("Aspose Series 1", new string[] { "Category 1", "Category 2" }, new double[] { 1, 2 });
+
+//ExStep:3-
+// Uložit dokument s vloženým grafem sloupců
+doc.Save("WorkingWithCharts.InsertColumnChart.docx"); 
+//ExEnd

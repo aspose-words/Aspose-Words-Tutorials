@@ -1,0 +1,78 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο Word με έναν πίνακα περιεχομένων χρησιμοποιώντας DocumentBuilder. Περιλαμβάνει τίτλους διαφόρων επιπέδων και αποθηκεύει το έγγραφο ως αρχείο .docx.
+//ExStepSummary:0: Αυτό το βήμα εγκαινιάζει ένα νέο αντικείμενο εγγράφου.
+//ExStepSummary:1: Αυτό το βήμα δημιουργεί ένα αντικείμενο DocumentBuilder για τη χειραγώγηση του εγγράφου.
+//ExStepSummary:2: Το βήμα αυτό εισάγει τον πίνακα περιεχομένων στην αρχή του εγγράφου.
+//ExStepSummary:3: Αυτό το βήμα εισάγει ένα διάλειμμα σελίδας για να ξεκινήσει το πραγματικό περιεχόμενο σε μια νέα σελίδα.
+//ExStepSummary:4: Αυτό το βήμα θέτει την πρώτη επικεφαλίδα και γράφει "Κεφάλι 1" στο έγγραφο.
+//ExStepSummary:5: Αυτό το βήμα ορίζει το δεύτερο επίπεδο επικεφαλίδας και γράφει "Κεφάλι 1.1" και "Κεφάλι 1.2."
+//ExStepSummary:6: Αυτό το βήμα θέτει και πάλι το πρώτο επίπεδο και γράφει "Κεφάλι 2" και "Κεφάλι 3."
+//ExStepSummary:7: Αυτό το βήμα ορίζει το δεύτερο επίπεδο επικεφαλίδας και γράφει "Κεφάλι 3.1."
+//ExStepSummary:8: Το βήμα αυτό ορίζει το τρίτο επίπεδο κατεύθυνσης και γράφει τις διακρίσεις "Κεφάλι 3.1.1," "Κεφάλι 3.1.2" και "Κεφάλι 3.1.3."
+//ExStepSummary:9: Αυτό το βήμα καθορίζει το δεύτερο επίπεδο κατεύθυνσης για άλλη μια φορά και γράφει "Κεφάλι 3.2" και "Κεφάλι 3.3."
+//ExStepSummary:10: Τέλος, αυτό το βήμα ενημερώνει τα πεδία του εγγράφου και το αποθηκεύει ως .docx αρχείο.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:6:images/4.png
+//ExStepImage:7:images/5.png
+//ExStepImage:8:images/6.png
+//ExStepImage:9:images/7.png
+
+//ExStep:0-
+// Δημιουργία μιας νέας περίπτωσης εγγράφου
+Document doc = new Document();
+
+//ExStep:1-
+// Αρχικοποίηση κατασκευής εγγράφου για τη χειραγώγηση εγγράφων
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// Εισάγετε έναν πίνακα περιεχομένων με συγκεκριμένες επιλογές
+builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
+
+//ExStep:3-
+// Εισάγετε ένα διάλειμμα σελίδας για να ξεκινήσετε το περιεχόμενο σε μια νέα σελίδα
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:4-
+// Ορισμός στυλ στον τομέα 1
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 1");
+
+//ExStep:5-
+// Ορισμός στυλ στον τομέα 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 1.1");
+builder.Writeln("Heading 1.2");
+
+//ExStep:6-
+// Ορισμός στυλ πίσω στον τομέα 1
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 2");
+builder.Writeln("Heading 3");
+
+//ExStep:7-
+// Ορισμός στυλ στον τομέα 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.1");
+
+//ExStep:8-
+// Ορισμός στυλ στον τομέα 3
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
+builder.Writeln("Heading 3.1.1");
+builder.Writeln("Heading 3.1.2");
+builder.Writeln("Heading 3.1.3");
+
+//ExStep:9-
+// Ορισμός στυλ πίσω στον τομέα 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.2");
+builder.Writeln("Heading 3.3");
+
+//ExStep:10-
+// Ενημέρωση όλων των πεδίων του εγγράφου
+doc.UpdateFields();
+// Αποθήκευση του εγγράφου
+doc.Save("AddContentUsingDocumentBuilder.InsertTableOfContents.docx");
+//ExEnd

@@ -1,0 +1,26 @@
+//ExStart
+//ExSummary: Dieser Code zeigt, wie man ein Word-Dokument erstellt und ein Bild mit einem schwebenden Layout mit Aspose.Words einfügt.
+//ExStepSummary:0: Der folgende Code initialisiert ein neues Dokument und DocumentBuilder.
+//ExStepSummary:1: Der folgende Code fügt ein Bild in das Dokument ein.
+//ExStepSummary:2: Der folgende Code speichert das Dokument an einen bestimmten Ort.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+// Eine neue Dokument-Instanz erstellen
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Bild aus dem angegebenen Pfad einfügen
+builder.InsertImage(ImagesDir + "Transparent background logo.png", 
+    RelativeHorizontalPosition.Margin,
+    100, 
+    RelativeVerticalPosition.Margin, 
+    100, 
+    200, 
+    100, 
+    WrapType.Square); 
+
+//ExStep:2-
+// Das Dokument in der angegebenen Datei speichern
+doc.Save("AddContentUsingDocumentBuilder.InsertFloatingImage.docx");
+//ExEnd

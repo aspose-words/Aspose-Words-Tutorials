@@ -1,0 +1,28 @@
+//ExStart
+//ExSummaryيوضح هذا الرمز كيفية إدراج مخطط فقاعة في مستند Word باستخدام Apose.Words.
+//ExStepSummary:0: يقوم الكود التالي بتهيئة مستند وDocumentBuilder جديد.
+//ExStepSummary:1: يتم إنشاء مخطط فقاعة وإضافته إلى المستند باستخدام DocumentBuilder.
+//ExStepSummary:2: تتم إضافة سلسلة البيانات الخاصة بمخطط الفقاعة مع قيم X و Y وقيم الحجم المحددة.
+//ExStepSummary:3: أخيرًا ، يتم حفظ المستند باستخدام مخطط الفقاعة المدرج.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// تهيئة مستند وDocumentBuilder جديد
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// إدراج مخطط فقاعة في الوثيقة
+Shape shape = builder.InsertChart(ChartType.Bubble, 432, 252);
+
+//ExStep:2-
+// إضافة سلسلة البيانات إلى الرسم البياني فقاعة
+Chart chart = shape.Chart;
+chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, // X values
+    new double[] { 2.7, 3.2, 0.8 }, // Y values
+    new double[] { 10, 4, 8 }); // Size values for the bubbles
+
+//ExStep:3-
+// احفظ المستند باستخدام مخطط الفقاعة
+doc.Save("WorkingWithCharts.InsertBubbleChart.docx");
+//ExEnd

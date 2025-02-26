@@ -1,0 +1,40 @@
+//ExStart
+//ExSummaryيوضح هذا الرمز كيفية إنشاء مستند باستخدام مخطط باستخدام Apose.Words ، وتعيين حدود المحور Y ، وحفظ المستند كملف DOCX. 
+// يتم تقسيم كل خطوة إلى أسفل لتوفير فهم واضح للعملية التي ينطوي عليها العمل مع الرسوم البيانية في Apose.Words.
+//ExStepSummary:0: قم بتهيئة مستند جديد ومثيل DocumentBuilder. 
+//ExStepSummary:1: أدخل مخططًا في المستند واسترجع كائن المخطط. 
+//ExStepSummary:2: إضافة سلسلة جديدة إلى الرسم البياني مع فئات وقيم محددة. 
+//ExStepSummary:3: تعيين الحد الأدنى والحد الأقصى لمحور Y من الرسم البياني. 
+//ExStepSummary:4: احفظ المستند إلى المسار المحدد. 
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// إنشاء مثيل مستند جديد.
+Document doc = new Document();
+// قم بتهيئة DocumentBuilder لبناء المستند.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// أدرج مخطط عمود في الوثيقة.
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+// استرجع كائن المخطط من الشكل.
+Chart chart = shape.Chart;
+// مسح أي سلسلة موجودة من الرسم البياني للحصول على بيانات جديدة.
+chart.Series.Clear();
+
+//ExStep:2-
+// قم بتعريف سلسلة جديدة باسم "Apose Series 1".
+chart.Series.Add("Aspose Series 1",
+    new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
+    new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
+
+//ExStep:3-
+// اضبط الحد الأدنى لمحور Y.
+chart.AxisY.Scaling.Minimum = new AxisBound(0);
+chart.AxisY.Scaling.Maximum = new AxisBound(6);
+
+//ExStep:4-
+// احفظ المستند مع المخطط إلى المسار المحدد.
+doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
+//ExEnd

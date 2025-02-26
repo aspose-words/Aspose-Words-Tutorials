@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Deze code laat zien hoe je een Word-document maakt met een primaire header en footer met Aspose.Words. Het initialiseert een nieuw document, verplaatst naar de header- en footersecties, en schrijft aangepaste tekst. Tot slot slaat het het document op als een DOCX-bestand.
+//ExStepSummary:0: De volgende code initialiseert het belangrijkste Document object en stelt de DocumentBuilder in.
+//ExStepSummary:1: De volgende code beweegt naar de primaire header sectie en schrijft de header tekst.
+//ExStepSummary:2: De volgende code beweegt naar de primaire footer sectie en schrijft de footer tekst.
+//ExStepSummary:3: De volgende code slaat het document op in een opgegeven bestandspad.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Een nieuw document-object initialiseren
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Verplaatsen naar de primaire koptekst
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("Header for page.");
+
+//ExStep:2-
+// Verplaats naar de primaire voettekst
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+builder.Write("Footer for page."); // Write the footer text
+
+//ExStep:3-
+// Het document opslaan met de opgegeven bestandsnaam
+doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
+//ExEnd

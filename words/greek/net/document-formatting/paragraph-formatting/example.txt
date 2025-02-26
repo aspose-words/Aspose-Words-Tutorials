@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να διαμορφώσει παραγράφους σε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words. Δείχνει πώς να ρυθμίσετε επιλογές διαμόρφωσης παραγράφου, όπως ευθυγράμμιση, εσοχή, και χώρο μετά από μια παράγραφο.
+//ExStepSummary:0: Αυτό το βήμα εγκαινιάζει ένα νέο έγγραφο και ένα έγγραφοBuilder για την κατασκευή του εγγράφου.
+//ExStepSummary:1: Αυτό το βήμα καθορίζει τις επιλογές διαμόρφωσης παραγράφου, συμπεριλαμβανομένης της ευθυγράμμισης, της αριστερής περίπτωσης, της δεξιάς περίπτωσης και του χώρου μετά την παράγραφο.
+//ExStepSummary:2: Αυτό το βήμα γράφει μια καλά μορφοποιημένη παράγραφο με τις καθορισμένες επιλογές μορφοποίησης στο έγγραφο.
+//ExStepSummary:3: Αυτό το βήμα γράφει μια άλλη μορφοποιημένη παράγραφο που αποδεικνύει την επίδραση του διαστήματος μετά την παράγραφο.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0- 
+// Δημιουργήστε ένα νέο παράδειγμα εγγράφου.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1- 
+// Ρυθμίστε τις επιλογές διαμόρφωσης παραγράφου.
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.Alignment = ParagraphAlignment.Center;
+paragraphFormat.LeftIndent = 50;
+paragraphFormat.RightIndent = 50;
+paragraphFormat.SpaceAfter = 25;
+
+//ExStep:2- 
+// Γράψτε την πρώτη σχηματοποιημένη παράγραφο.
+builder.Writeln(
+	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
+
+//ExStep:3- 
+// Γράψτε τη δεύτερη μορφοποιημένη παράγραφο.
+builder.Writeln(
+	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
+
+//ExStep:4- 
+// Αποθήκευση του εγγράφου στην καθορισμένη διαδρομή.
+doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
+//ExEnd

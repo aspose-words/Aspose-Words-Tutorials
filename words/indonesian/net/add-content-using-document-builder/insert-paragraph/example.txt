@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan bagaimana membuat dokumen Word menggunakan kelas DocumentBuilder dan menyisipkan paragraf bergaya ke dalamnya.
+//ExStepSummary:0: Kode berikut ini menginisialisasi Dokumen dan Dokumen Builder untuk pembuatan dokumen.
+//ExStepSummary:1: Kode berikut mengatur pengaturan fonta bagi paragraf.
+//ExStepSummary:2: Kode berikut menetapkan pengaturan format paragraf untuk penyelarasan dan indentasi.
+//ExStepSummary:3: Kode berikut menulis paragraf ke dalam dokumen.
+//ExStepSummary:4: Kode berikut menyimpan dokumen sebagai berkas .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Inisialisasikan suatu objek Dokumen baru
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Mengakses pengaturan fonta dari Pengbangun Dokumen
+Font font = builder.Font;
+// Menentukan ukuran fonta menjadi 16
+font.Size = 16;
+// Buat huruf tebal
+font.Bold = true;
+// Ubah warna fonta ke biru
+font.Color = Color.Blue;
+// Tata nama fonta ke Arial
+font.Name = "Arial";
+// Tambahkan garis bawah garis bawah ke fonta
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+// Mengakses pengaturan format paragraf
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.FirstLineIndent = 8;
+paragraphFormat.Alignment = ParagraphAlignment.Justify;
+paragraphFormat.KeepTogether = true;
+
+//ExStep:3-
+// Tulis suatu paragraf teks ke dalam dokumen
+builder.Writeln("A whole paragraph.");
+
+//ExStep:4-
+// Simpan dokumen sebagai berkas .docx
+doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
+//ExEnd

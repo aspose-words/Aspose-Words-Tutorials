@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать документ Word с схемой рассеяния с использованием Aspose.Words. Он инициализирует документ, создает контент, вставляет график рассеяния, добавляет к нему данные и сохраняет документ.
+//ExStepSummary:0: Инициализация объектов документа и Бюллетеня документов для начала работы над этим документом.
+//ExStepSummary:1: Включение в документ диаграммы рассеяния.
+//ExStepSummary:2: Добавление серии точек данных в схему рассеивания.
+//ExStepSummary:3: Сохранить документ с картой рассеяния в файл .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Инициирование нового документа
+Document doc = new Document();
+// Создать строитель, чтобы вставить контент
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Вставить в документ схему рассеивания
+Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252); 
+
+//ExStep:2-
+// Выбрать объект карты из вставленной формы
+Chart chart = shape.Chart;
+// Добавить ряды данных в карту
+chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 });
+
+//ExStep:3-
+// Сохранить документ с схемой рассеивания
+doc.Save("WorkingWithCharts.InsertScatterChart.docx");
+//ExEnd

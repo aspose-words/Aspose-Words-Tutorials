@@ -1,0 +1,56 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan hozhat létre többszintű listát egy Word dokumentumban az Aspose.Words használatával. Ez inicializálja a dokumentumot, számozási formátumot alkalmaz, létrehozza a fő és az altételeket, és végül .docx fájlként menti a dokumentumot.
+//ExStepSummary:0: A következő kód egy új dokumentumot és DocumentBuilder példányt inicializál.
+//ExStepSummary:1: A következő kód egy alapértelmezett számozási stílust alkalmaz a listára, és hozzáadja a legfelső szintű elemeket.
+//ExStepSummary:2: A második legfelső szintű elem alatti altételek létrehozásához a következő kódbehúzások szükségesek.
+//ExStepSummary:3: Az alábbi kód további francia bekezdéseket tartalmaz a második altétel alatti altételek létrehozásához.
+//ExStepSummary:4: A következő kód visszahúzódik az előző szintre, hogy hozzáadjon egy másik elemet a második szinten.
+//ExStepSummary:5: A következő kód visszahúzódik a legfelső szintre, hogy hozzáadja a végső elemet a listához.
+//ExStepSummary:6: A következő kód a mentés előtt eltávolítja a számozást a listáról.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStep:0-
+// Új dokumentum inicializálása
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Alapértelmezett számozási formátum alkalmazása
+builder.ListFormat.ApplyNumberDefault();
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+
+//ExStep:2-
+// Altételek behúzása
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.1");
+builder.Writeln("Item 2.2");
+
+//ExStep:3-
+// Altételek behúzása
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.2.1");
+builder.Writeln("Item 2.2.2");
+
+//ExStep:4-
+// Vissza a második szintre
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 2.3");
+
+//ExStep:5-
+// Vissza a felső szintre
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 3");
+
+//ExStep:6-
+// Számok eltávolítása a listából
+builder.ListFormat.RemoveNumbers();
+
+//ExStep:7-
+// A dokumentum mentése
+doc.Save("DocumentFormatting.MultilevelListFormatting.docx");
+//ExEnd

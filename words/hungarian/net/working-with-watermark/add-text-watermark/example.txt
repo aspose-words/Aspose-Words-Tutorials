@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: Ez a kód azt mutatja be, hogyan lehet hozzáadni egy szöveges vízjelet konkrét beállításokkal egy Word dokumentumhoz az Aspose.Words használatával.
+//ExStepSummary:0: A következő kód inicializálja a dokumentum elérési útját, és létrehoz egy új dokumentum objektumot.
+//ExStepSummary:1: A következő kód beállítja a szöveg vízjelének beállításait, beleértve a betűcsaládot, a méretet, a színt és az elrendezést.
+//ExStepSummary:2: A következő kód a megadott opciókkal rendelkező szöveg vízjelét alkalmazza a dokumentumra.
+//ExStepSummary:3: A következő kód a módosított dokumentumot egy megadott könyvtárba menti.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+// A dokumentum könyvtár elérési útjának beállítása
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// A Word dokumentum betöltése
+Document doc = new Document(dataDir + "Document.docx");
+
+//ExStep:2-
+// Vízjel opciók létrehozása
+TextWatermarkOptions options = new TextWatermarkOptions()
+{
+    FontFamily = "Arial", // Set font family for the watermark text
+    FontSize = 36, // Set font size for the watermark text
+    Color = Color.Black, // Set color of the watermark text
+    Layout = WatermarkLayout.Horizontal, // Specify layout of the watermark
+    IsSemitrasparent = false // Set transparency option
+};
+
+//ExStep:3-
+// Alkalmazza a vízjel szöveget az opciókkal
+doc.Watermark.SetText("Test", options);
+
+//ExStep:4-
+// Mentse a dokumentumot a vízjellel
+doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
+//ExEnd

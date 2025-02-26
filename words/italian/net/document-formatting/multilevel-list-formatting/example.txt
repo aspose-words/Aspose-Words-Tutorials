@@ -1,0 +1,56 @@
+//ExStart
+//ExSummary: Questo codice dimostra come creare una lista multilivello in un documento di Word usando Aspose.Words. Si inizializza un documento, applica un formato di numerazione, crea principali e sotto-voci, e infine salva il documento come un file .docx.
+//ExStepSummary:0: Il seguente codice inizializza un nuovo documento e l'istanza DocumentBuilder.
+//ExStepSummary:1: Il seguente codice applica uno stile di numerazione predefinito alla lista e aggiunge elementi di primo livello.
+//ExStepSummary:2: I seguenti trattini di codice per creare sottovoci sotto la seconda voce di primo livello.
+//ExStepSummary:3: Il seguente codice contiene ulteriori trattini per la creazione di sotto- sotto-sotto-voci sotto la seconda sotto-voce.
+//ExStepSummary:4: Il seguente codice è in ritardo rispetto al livello precedente per aggiungere un altro elemento al secondo livello.
+//ExStepSummary:5: Il seguente codice outdents torna al livello superiore per aggiungere l'elemento finale nella lista.
+//ExStepSummary:6: Il seguente codice rimuove la numerazione dall'elenco prima di salvare.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStep:0-
+// Inizializza un nuovo documento
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Applica il formato predefinito di numerazione
+builder.ListFormat.ApplyNumberDefault();
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+
+//ExStep:2-
+// Indentazione delle sottovoci
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.1");
+builder.Writeln("Item 2.2");
+
+//ExStep:3-
+// Indentazione per sotto-sotto-voci
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.2.1");
+builder.Writeln("Item 2.2.2");
+
+//ExStep:4-
+// Outdent torna al secondo livello
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 2.3");
+
+//ExStep:5-
+// Outdent back to the top level
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 3");
+
+//ExStep:6-
+// Rimuove la numerazione dall'elenco
+builder.ListFormat.RemoveNumbers();
+
+//ExStep:7-
+// Salva il documento
+doc.Save("DocumentFormatting.MultilevelListFormatting.docx");
+//ExEnd

@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary:Este ejemplo muestra cómo anexar y predefinir contenido de una sección a otra en un documento de Word usando Aspose.Words para .NET.
+//ExStepSummary:0: Inicializa un nuevo documento de Word y DocumentBuilder para agregar contenido.
+//ExStepSummary:1: Escriba texto e inserte saltos de sección para crear varias secciones en el documento.
+//ExStepSummary:2: Acceda a la tercera sección del documento para prepararse para la manipulación de contenido.
+//ExStepSummary:3: Prepare el contenido de la primera sección a la tercera sección.
+//ExStepSummary:4: Añadir contenido de la segunda sección a la tercera sección.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Inicializar el documento y DocumentBuilder
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Escribir texto e insertar saltos de sección para crear tres secciones
+builder.Write("Section 1");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// Añadir contenido para la segunda sección
+builder.Write("Section 2");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// Añadir contenido para la tercera sección
+builder.Write("Section 3");
+
+//ExStep:2-
+// Recuperar la tercera sección del documento
+Section section = doc.Sections[2];
+
+//ExStep:3-
+// Prepare el contenido de la primera sección a la tercera sección
+Section sectionToPrepend = doc.Sections[0];
+section.PrependContent(sectionToPrepend);
+
+//ExStep:4-
+// Añadir contenido de la segunda sección a la tercera
+Section sectionToAppend = doc.Sections[1];
+section.AppendContent(sectionToAppend);
+//ExEnd

@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Följande kod visar hur man skapar ett Word-dokument med en formaterad tabellcell som innehåller stoppning runt dess innehåll.
+//ExStepSummary:0: Följande kod initierar ett nytt dokument och en dokumentbyggare.
+//ExStepSummary:1: Följande kod startar en tabell i dokumentet.
+//ExStepSummary:2: Följande kod för in en cell i tabellen.
+//ExStepSummary:3: Följande kod anger vadderingen för cellinnehållet.
+//ExStepSummary:4: Följande kod lägger till text i cellen och avslutar den aktuella raden.
+//ExStepSummary:5: Följande kod avslutar tabellen och sparar dokumentet till en fil.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Initiera ett nytt dokument
+Document doc = new Document();
+// Skapa en dokumentbyggare för att manipulera dokumentet
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Börja skapa en tabell
+builder.StartTable();
+// Sätt in en ny cell i tabellen
+builder.InsertCell();
+
+//ExStep:2-
+// Ställ in stoppning med 30 punkter överst och underst, 50 punkter till vänster och höger
+builder.CellFormat.SetPaddings(30, 50, 30, 50);
+
+//ExStep:3-
+builder.Writeln("I'm a wonderful formatted cell.");
+// Avsluta den aktuella raden i tabellen
+builder.EndRow();
+// Avsluta tabellen
+builder.EndTable();
+
+//ExStep:4-
+// Spara dokumentet till en angiven fil
+doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
+//ExEnd

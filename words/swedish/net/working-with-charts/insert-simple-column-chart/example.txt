@@ -1,0 +1,57 @@
+//ExStart
+//ExSummary:Kontrollera följande kod för att hitta hur du infogar ett enkelt kolumndiagram i ett Word-dokument. Du kan kopiera koden till din IDE och köra den.
+//ExStepSummary:0: Denna kod visar hur man skapar ett Word-dokument med hjälp av Aspose.Words och infoga en kolumn diagram i det.
+//ExStepSummary:1: Denna kod visar hur man skapar ett dokumentbyggarobjekt för att manipulera Word-innehåll.
+//ExStepSummary:2: Denna kod visar hur man infogar en kolumndiagramform med angivna mått i dokumentet.
+//ExStepSummary:3: Denna kod hämtar diagrammet objekt från den införda formen för ytterligare anpassning.
+//ExStepSummary:4: Denna kod visar hur man kommer åt diagramserien insamling och skriva ut antalet serier.
+//ExStepSummary:5: Denna kod rensar alla standardserier som kan ha skapats med diagrammet.
+//ExStepSummary:6: Denna kod visar hur man definierar kategorinamn för sjökortets data.
+//ExStepSummary:7: Denna kod visar hur man lägger till serier i diagrammet med motsvarande kategorinamn och datavärden.
+//ExStepSummary:8: Den här koden sparar dokumentet med det infogade diagrammet till en angiven fil.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:7:images/4.png
+//ExStep:0-
+// Skapa en ny Word-dokumentinstans.
+Document doc = new Document();
+
+//ExStep:1-
+// Skapa en DocumentBuilder för att enkelt infoga element i dokumentet.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// Sätt in en kolumndiagramform med angiven bredd (432) och höjd (252).
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:3-
+// Hämta diagramobjektet från formen för ytterligare manipulation.
+Chart chart = shape.Chart;
+
+//ExStep:4-
+// Få tillgång till diagrammets seriesamling.
+ChartSeriesCollection seriesColl = chart.Series;
+// Skriv ut antalet serier i diagrammet till konsolen.
+Console.WriteLine(seriesColl.Count);
+
+//ExStep:5-
+// Ta bort alla standardserier som genererades automatiskt när diagrammet skapades.
+seriesColl.Clear();
+
+//ExStep:6-
+// Definiera en rad kategorinamn för diagramdata.
+string[] categories = new string[] { "Category 1", "Category 2" };
+
+//ExStep:7-
+// Lägg till flera serier i diagrammet med kategorinamn och datavärden.
+seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
+seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
+seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
+seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
+seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
+
+//ExStep:8-
+// Spara dokumentet med det infogade diagrammet till angiven filsökväg.
+doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
+//ExEnd

@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan kell manipulálni a táblázatokat egy Word dokumentumban az Aspose.Words segítségével. Lekérdezi a meglévő dokumentumot, módosítja az első tábla határait, és elmenti a módosításokat egy új fájlba.
+//ExStepSummary:0: A következő kód beállítja a dokumentumot, és lekéri róla az első táblát.
+//ExStepSummary:1: A következő kód törli a meglévő határokat a táblázatból, hogy felkészüljön az új formázásra.
+//ExStepSummary:2: A következő kód zöld szegélyt alkalmaz a táblázat körül és belsejében.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// A dokumentum könyvtárának megadása
+string dataDir = "Your Document Directory";
+// A dokumentum betöltése
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Szerezd meg az első táblázatot a dokumentumból
+Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
+
+//ExStep:2-
+// Törölje a meglévő határokat az asztalról
+table.ClearBorders();
+
+//ExStep:3-
+// Állítson be egy zöld szegélyt az asztal körül és azon belül
+table.SetBorders(LineStyle.Single, 1.5, Color.Green);
+// A dokumentum mentése módosításokkal
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");
+//ExEnd

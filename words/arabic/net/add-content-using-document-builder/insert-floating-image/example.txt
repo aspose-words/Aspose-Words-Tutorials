@@ -1,0 +1,26 @@
+//ExStart
+//ExSummaryيوضح هذا الرمز كيفية إنشاء مستند Word وإدراج صورة ذات تخطيط عائم باستخدام Apose.Words.
+//ExStepSummary:0: يقوم الكود التالي بتهيئة مستند وDocumentBuilder جديد.
+//ExStepSummary:1: الكود التالي يدرج صورة في المستند.
+//ExStepSummary:2: يحفظ الرمز التالي المستند إلى موقع محدد.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+// إنشاء مثيل مستند جديد
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// إدراج صورة من المسار المحدد
+builder.InsertImage(ImagesDir + "Transparent background logo.png", 
+    RelativeHorizontalPosition.Margin,
+    100, 
+    RelativeVerticalPosition.Margin, 
+    100, 
+    200, 
+    100, 
+    WrapType.Square); 
+
+//ExStep:2-
+// احفظ المستند في الملف المحدد
+doc.Save("AddContentUsingDocumentBuilder.InsertFloatingImage.docx");
+//ExEnd

@@ -1,0 +1,63 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать документ Word с таблицей, которая имеет разные границы и стиль затенения для его клеток.
+//ExStepSummary:0: Инициировать документ и Бюллетень документов для создания нового документа Word.
+//ExStepSummary:1: Начните новый стол и установите границы для всего стола.
+//ExStepSummary:2: Добавить первую ячейку с красным фоновым затенением и текстом.
+//ExStepSummary:3: Добавить вторую ячейку с зеленым фоновым затенением и текстом.
+//ExStepSummary:4: Заканчивайте первый ряд и очистите предыдущий формат.
+//ExStepSummary:5: Добавить новый ряд с заказными более крупными границами для первой клетки.
+//ExStepSummary:6: Добавить вторую ячейку нового ряда с форматированием по умолчанию и текстом.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Создать новый документ.
+Document doc = new Document();
+// Создать документоподготовитель для манипулирования документом.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Начни новый столик.
+Table table = builder.StartTable();
+// Вставить первую ячейку в таблицу.
+builder.InsertCell();
+// Установите границы для всего стола.
+table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
+
+//ExStep:2-
+// Указать цвет фона клетки на красный.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
+builder.Writeln("Cell #1");
+// Вставить вторую ячейку.
+builder.InsertCell();
+
+//ExStep:3-
+// Указать цвет фона клетки на зеленый.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
+builder.Writeln("Cell #2");
+// Конец текущей строки.
+builder.EndRow();
+
+//ExStep:4-
+// Очистить любые форматы клеток, чтобы начать с чистого листа.
+builder.CellFormat.ClearFormatting();
+// Вставить новую ячейку в следующий ряд.
+builder.InsertCell();
+// Создать более крупные границы для первой ячейки этого ряда.
+builder.CellFormat.Borders.Left.LineWidth = 4.0;
+builder.CellFormat.Borders.Right.LineWidth = 4.0;
+builder.CellFormat.Borders.Top.LineWidth = 4.0;
+builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
+builder.Writeln("Cell #3");
+//ExStep:5-
+// Вставить четвёртую ячейку.
+builder.InsertCell();
+builder.CellFormat.ClearFormatting();
+builder.Writeln("Cell #4");
+//ExStep:6-
+// Сохранить документ.
+doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
+//ExEnd

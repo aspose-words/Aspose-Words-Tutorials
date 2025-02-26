@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary:Kode ini menunjukkan bagaimana menambahkan bagian baru ke dokumen Word menggunakan Aspose.Words untuk .NET. Proses ini termasuk menginisialisasi dokumen, menulis, dan menambahkan bagian baru.
+//ExStepSummary:0: Inisialisasi dokumen Word baru dan objek Dokumen Builder untuk menambahkan isi ke dokumen.
+//ExStepSummary:1: Tambahkan teks ke bagian pertama memakai objek Dokumen Builder.
+//ExStepSummary:2: Tambahkan teks ke bagian pertama memakai objek Dokumen Builder.
+//ExStepSummary:3: Buat bagian baru dan tambahkan ke koleksi bagian dokumen.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Buat dokumen Word baru.
+Document doc = new Document();
+// Inisialisasi Dokumen Builder bagi dokumen.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Tambahkan isi ke daerah pertama
+builder.Writeln("Hello1"); // Write "Hello1" into the document's first section.
+
+//ExStep:2-
+// Tambahkan isi ke daerah pertama
+builder.Writeln("Hello2"); // Write "Hello2" into the document's first section.
+
+//ExStep:3-
+// Buat bagian baru dalam dokumen.
+Section sectionToAdd = new Section(doc);
+doc.Sections.Add(sectionToAdd);
+//ExEnd

@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Tento kód ukazuje, jak vložit tvary (textové krabice) do dokumentu Word pomocí Aspose.Words. Dokument je uložen ve formátu DOCX se specifickými možnostmi shody pro normy ISO.
+//ExStepSummary:0: Kód inicializuje nový dokument a stavitel dokumentů pro manipulaci s dokumentem.
+//ExStepSummary:1: Tvar (textový rámeček) se vkládá do dokumentu na absolutní pozici a rotace prvního tvaru je nastavena na 30 stupňů.
+//ExStepSummary:2: Nový tvar se vkládá do relativní polohy a rotace druhého tvaru je také nastavena na 30 stupňů.
+//ExStepSummary:3: Dokument je uložen pomocí specifických OoxmlSaveOptions.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Vytvoří novou instanci dokumentu
+Document doc = new Document();
+// Inicializuje dokumentBuilder pro dokument
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Vloží tvar typu TextBox
+Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
+    RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
+// Otočí tvar o 30 stupňů.
+shape.Rotation = 30.0;
+
+//ExStep:2-
+builder.Writeln();
+// Vloží jiný tvar Type TextBox na relativní pozici
+shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
+// Otočí druhý tvar o 30 stupňů.
+shape.Rotation = 30.0;
+
+//ExStep:3-
+// Připravuje možnost uložení dokumentu
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
+{
+    Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
+};
+
+// Uloží dokument pomocí zadaných možností uložení
+doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
+//ExEnd

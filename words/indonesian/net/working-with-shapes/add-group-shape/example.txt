@@ -1,0 +1,67 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan bagaimana membuat suatu bentuk grup dalam sebuah dokumen menggunakan Aspose.Words.
+// Ini menciptakan bentuk panggilan batas aksen dan tombol aksi, menambahkan mereka ke bentuk kelompok, dan kemudian memasukkan bentuk grup ke dalam dokumen sebelum menyimpannya.
+//ExStepSummary:0: Menginisialisasi dokumen baru dan memastikan persyaratan minimum dipenuhi.
+//ExStepSummary:1: Menciptakan GroupShape yang akan membentuk bentuk lain.
+//ExStepSummary:2: Menambahkan bentuk panggilan keluar perbatasan aksen ke bentuk grup.
+//ExStepSummary:3: Tambahkan bentuk tombol aksi ke bentuk grup.
+//ExStepSummary:4: Mengatur dimensi dan koordinat untuk bentuk kelompok.
+//ExStepSummary:5: Sisipkan bentuk grup ke dalam dokumen memakai DokumenBuilder.
+//ExStepSummary:6: Menyimpan dokumen yang memuat bentuk grup ke lokasi yang ditentukan.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStep:0-
+// Buat Dokumen baru
+Document doc = new Document();
+// Pastikan dokumen memenuhi persyaratan minimum
+doc.EnsureMinimum();
+
+//ExStep:1-
+// Buat suatu Instansi GroupShape baru
+GroupShape groupShape = new GroupShape(doc);
+
+//ExStep:2-
+// Membuat bentuk tanda batas aksen
+Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
+{
+    Width = 100, 
+    Height = 100
+};
+// Tambahkan bentuk ke bentuk grup
+groupShape.AppendChild(accentBorderShape);
+
+//ExStep:3-
+// Buat suatu bentuk tombol aksi
+Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
+{
+	// Tata posisi kiri bentuk
+    Left = 100, 
+	// Menentukan lebar dari bentuk
+    Width = 100, 
+	// Menentukan tinggi dari bentuk
+    Height = 200
+};
+// Tambahkan tombol aksi ke bentuk grup
+groupShape.AppendChild(actionButtonShape);
+
+//ExStep:4-
+// Menentukan lebar dari bentuk grup
+groupShape.Width = 200;
+// Menentukan tinggi dari bentuk grup
+groupShape.Height = 200;
+// Tata ukuran koordinat bagi bentuk grup
+groupShape.CoordSize = new Size(200, 200);
+
+//ExStep:5-
+// Buat Dokumen Builder untuk memanipulasi dokumen
+DocumentBuilder builder = new DocumentBuilder(doc);
+// Sisipkan bentuk grup ke dalam dokumen
+builder.InsertNode(groupShape);
+
+//ExStep:6-
+// Simpan dokumen ke lokasi yang ditentukan
+doc.Save("WorkingWithShapes.AddGroupShape.docx");
+//ExEnd

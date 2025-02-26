@@ -1,0 +1,36 @@
+//ExStart
+//ExSummaryを選択します。 このコードは、単語ドキュメント中の段落の書式設定の方法を示します。このコードは、段落の配置、字下げ、スペースなどの段落の書式設定オプションをどのように設定するかを示します。
+//ExStepSummary:0: このステップは、ドキュメントの作成用に新規ドキュメントと文書作成者を設定します。
+//ExStepSummary:1: このステップで、段落の書式設定オプション (配置、左側のインデント、右のインデント、段落の末尾のスペースを含む) を設定します。
+//ExStepSummary:2: このステップは,指定の書式設定オプションを有するよく書式設定された段落をドキュメントに書き込みます.
+//ExStepSummary:3: このステップは、段落の末尾にスペースの効果を示す別の書式設定された段落を記述します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0- 
+// 新しい文書インスタンスを作成します。
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1- 
+// 段落の書式設定オプションを設定します。
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.Alignment = ParagraphAlignment.Center;
+paragraphFormat.LeftIndent = 50;
+paragraphFormat.RightIndent = 50;
+paragraphFormat.SpaceAfter = 25;
+
+//ExStep:2- 
+// 書式設定された最初の段落を書き込みます。
+builder.Writeln(
+	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
+
+//ExStep:3- 
+// 2 番目の書式設定された段落を書き込みます。
+builder.Writeln(
+	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
+
+//ExStep:4- 
+// ドキュメントを指定したパスに保存します。
+doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
+//ExEnd

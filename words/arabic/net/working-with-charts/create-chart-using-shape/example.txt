@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: يرجى التحقق من التعليمات البرمجية التالية للعثور على كيفية إنشاء مخطط سطر في مستند Word. يمكنك نسخ هذا الرمز إلى IDE وتشغيله.
+//ExStepSummary:0: يوضح الرمز التالي كيفية إنشاء مستند جديد وإنشاء مستند إنشاء مستند:
+//ExStepSummary:1: يوضح الرمز التالي كيفية إدراج مخطط خطي في المستند:
+//ExStepSummary:2: يوضح الرمز التالي كيفية تعيين عنوان المخطط:
+//ExStepSummary:3: يوضح الرمز التالي كيفية تكوين موضع أسطورة المخطط وإعدادات التراكب:
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// أنشئ كائن مستند جديد
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// إدراج مخطط خطي في الوثيقة بأبعاد محددة
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+
+//ExStep:2-
+// الوصول إلى كائن الرسم البياني من الشكل
+Chart chart = shape.Chart;
+// تمكين رؤية عنوان المخطط
+chart.Title.Show = true;
+// اضبط نص العنوان للرسم البياني
+chart.Title.Text = "Line Chart Title";
+// تأكد من عدم تراكب العنوان على الرسم البياني
+chart.Title.Overlay = false;
+
+//ExStep:3-
+// اضبط موضع أسطورة الرسم البياني على اليسار
+chart.Legend.Position = LegendPosition.Left;
+chart.Legend.Overlay = true;
+
+//ExStep:4-
+// احفظ المستند مع المخطط إلى ملف
+doc.Save("WorkingWithCharts.CreateChartUsingShape.docx");
+//ExEnd

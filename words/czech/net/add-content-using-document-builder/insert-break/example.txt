@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: Tento kód ukazuje, jak vytvořit Word dokument pomocí Aspose.Words, přidat obsah přes více stránek, a uložit jej jako .docx soubor.
+//ExStepSummary:0: Tento krok inicializuje nový dokument a dokumentBuilder pro manipulaci s dokumentem.
+//ExStepSummary:1: Tento krok přidává text na první stránku.
+//ExStepSummary:2: Tento krok vloží pauzu stránky pro spuštění nové stránky.
+//ExStepSummary:3: Tento krok přidává text na druhou stránku.
+//ExStepSummary:4: Tento krok vloží další pauzu na novou stránku.
+//ExStepSummary:5: Tento krok přidává text na třetí stránku.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Vytvořit novou instanci dokumentu
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Přidat text pro první stránku
+builder.Writeln("This is page 1.");
+
+//ExStep:2-
+// Vložit pauzu stránky pro spuštění nové stránky
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+// Přidat text pro druhou stránku
+builder.Writeln("This is page 2.");
+
+//ExStep:4-
+// Vložit další pauzu na novou stránku
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:5-
+// Přidat text pro třetí stránku
+builder.Writeln("This is page 3.");
+
+//ExStep:6-
+// Uložit dokument na zadanou cestu
+doc.Save("AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

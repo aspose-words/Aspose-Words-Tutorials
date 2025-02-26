@@ -1,0 +1,17 @@
+//ExStart
+//ExSummaryيوضح هذا الرمز كيفية إدراج حقول النموذج في مستند Word باستخدام Apose.Words for .NET. على وجه التحديد ، يوضح كيفية إدراج حقل نموذج مربع التحرير والسرد مع عناصر محددة مسبقًا.
+//ExStepSummary:0: يوضح الرمز التالي كيفية إنشاء مستند Word جديد.
+//ExStepSummary:1: يوضح الكود التالي كيفية تهيئة DocumentBuilder لتحرير المستند.
+//ExStepSummary:2: يوضح الرمز التالي كيفية تعريف حقل نموذج مربع التحرير والسرد وإدراجه مع عناصر محددة مسبقًا واختيار افتراضي.
+//ExStepImage:0:images/1.png
+//ExStepImage:1:images/2.png
+//ExStep:0-
+// تهيئة مستند Word فارغ
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// تعريف وإدراج حقل شكل مربع التحرير والسرد
+string[] items = { "One", "Two", "Three" };
+builder.InsertComboBox("DropDown", items, 0);
+//ExEnd

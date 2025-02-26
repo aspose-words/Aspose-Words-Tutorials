@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Ce code montre comment appliquer le formatage de ligne dans un document Word en utilisant Aspose.Words.
+//ExStepSummary:0: Initialise un nouveau document et commence à construire une table avec des lignes formatées.
+//ExStepSummary:1: Configure le format de la ligne.
+//ExStepSummary:2: Configure les réglages de hauteur spécifiques.
+//ExStepSummary:3: Sets rembourrage pour toute la table affectant toutes les lignes.
+//ExStepSummary:4: Écrire le texte dans la cellule de table et terminer la ligne.
+//ExStepSummary:5: Compléter le processus de construction de la table et enregistrer le document.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Créer un nouveau document
+Document doc = new Document();
+// Créer un documentBuilder pour modifier le document
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Démarrer une nouvelle table
+Table table = builder.StartTable();
+// Insérer une nouvelle cellule dans le tableau
+builder.InsertCell();
+//ExStep:2-
+// Accéder aux propriétés de formatage de la ligne
+RowFormat rowFormat = builder.RowFormat;
+// Régler la hauteur de la ligne
+rowFormat.Height = 100;
+// Précisez que la hauteur est exacte
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// Set rembourrage pour la table
+table.LeftPadding = 30; 
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// Écrire le texte dans la cellule
+builder.Writeln("I'm a wonderful formatted row.");
+// Fin de la ligne actuelle
+builder.EndRow();
+// Terminer le bâtiment de la table
+builder.EndTable();
+
+//ExStep:5-
+// Enregistrer le document
+doc.Save("WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
+//ExEnd

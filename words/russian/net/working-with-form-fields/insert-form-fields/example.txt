@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: Этот код показывает, как вставить поля формы в документ Word с использованием Aspose.Words для .NET. В частности, он показывает, как вставить поле комбобок с предопределёнными элементами.
+//ExStepSummary:0: Следующий код показывает, как создать новый документ Слова.
+//ExStepSummary:1: Приводимый ниже код показывает, как инициализировать составитель документа для редактирования документа.
+//ExStepSummary:2: Приводимый ниже код показывает, как определить и вставить поле комбобок с предопределёнными элементами и выбором по умолчанию.
+//ExStepImage:0:images/1.png
+//ExStepImage:1:images/2.png
+//ExStep:0-
+// Инициирует пустой документ Word
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Определить и вставить поле комбобок
+string[] items = { "One", "Two", "Three" };
+builder.InsertComboBox("DropDown", items, 0);
+//ExEnd

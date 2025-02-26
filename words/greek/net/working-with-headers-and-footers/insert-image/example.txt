@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να εισάγετε μια εικόνα στην επικεφαλίδα ενός εγγράφου Word χρησιμοποιώντας Aspose.Words για .NET.
+//ExStepSummary:0: Δημιουργήστε ένα νέο έγγραφο Word χρησιμοποιώντας την κατηγορία Aspose.Words Document.
+//ExStepSummary:1: Μετακίνηση στην κύρια επικεφαλίδα του εγγράφου χρησιμοποιώντας το DocumentBuilder.
+//ExStepSummary:2: Εισάγετε μια εικόνα στην κεφαλίδα με συγκεκριμένη ευθυγράμμιση, διαστάσεις και επιλογές περιτύλιξης.
+//ExStepSummary:3: Αποθήκευση του εγγράφου σε μια καθορισμένη διαδρομή αρχείου.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Δημιουργία ενός νέου εγγράφου Word
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Μετακίνηση του δρομέα στην κύρια κεφαλίδα του εγγράφου
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+// Εισάγετε μια εικόνα στην κεφαλίδα με συγκεκριμένη ευθυγράμμιση και διαστάσεις
+builder.InsertImage(
+    ImagesDir + "Logo.jpg", RelativeHorizontalPosition.RightMargin, 10,
+    RelativeVerticalPosition.Page, 10, 50, 50, 
+    WrapType.Through
+);
+
+//ExStep:3-
+// Αποθήκευση του εγγράφου στην καθορισμένη διαδρομή
+doc.Save("WorkingWithHeadersAndFooters.InsertImage.docx");
+//ExEnd

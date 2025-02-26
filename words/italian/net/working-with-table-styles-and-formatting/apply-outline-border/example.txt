@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: Questo codice mostra come applicare un bordo di contorno ad una tabella in un documento di Word usando Aspose.Words. Centra la tabella sulla pagina, imposta un bordo verde intorno alla tabella, cancella tutti i bordi esistenti e riempie le celle della tabella con un colore di sfondo verde chiaro. 
+//ExStepSummary:0: Il seguente codice inizializza il documento e recupera la prima tabella.
+//ExStepSummary:1: Questo passaggio allinea la tabella al centro della pagina.
+//ExStepSummary:2: Questo passaggio cancella tutti i confini esistenti dalla tabella.
+//ExStepSummary:3: Questo passaggio imposta un bordo verde intorno al tavolo, ma non all'interno.
+//ExStepSummary:4: Questo passaggio riempie le celle con un colore verde chiaro solido.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Definire la directory del documento
+string dataDir = "Your Document Directory";
+// Carica il documento
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Recupera la prima tabella dal documento
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+// Allinea la tabella al centro della pagina
+table.Alignment = TableAlignment.Center;
+
+//ExStep:2-
+// Cancella tutti i confini esistenti dalla tabella
+table.ClearBorders();
+
+//ExStep:3-
+// Imposta bordo sinistro
+table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
+// Imposta bordo destro
+table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
+// Imposta bordo superiore
+table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
+// Imposta bordo inferiore
+table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
+
+//ExStep:4-
+// Riempi le celle di colore verde chiaro
+table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
+// Salva il documento modificato
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
+//ExEnd

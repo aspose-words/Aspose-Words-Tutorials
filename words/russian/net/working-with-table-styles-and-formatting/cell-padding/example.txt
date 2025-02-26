@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Приводимый ниже код показывает, как создать документ Word с форматированной графической ячейкой, которая включает в себя плетение вокруг его содержания.
+//ExStepSummary:0: Приводимый ниже код инициализирует новый документ и создателя документов.
+//ExStepSummary:1: Приводимый ниже код начинается с таблицы, содержащейся в документе.
+//ExStepSummary:2: Приводимый ниже код включает ячейку в таблицу.
+//ExStepSummary:3: Ниже приводится код, определяющий состояние содержимого ячеек.
+//ExStepSummary:4: Следующий код добавляет текст в ячейку и заканчивает текущую строку.
+//ExStepSummary:5: Приводимый ниже код заканчивает таблицу и сохраняет документ в файле.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Инициирование нового документа
+Document doc = new Document();
+// Создать создателя документов для манипулирования документом
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Начинайте создавать стол
+builder.StartTable();
+// Включить новую ячейку в таблицу
+builder.InsertCell();
+
+//ExStep:2-
+// Установите накладку с 30 очками сверху и вниз, 50 очками слева и справа
+builder.CellFormat.SetPaddings(30, 50, 30, 50);
+
+//ExStep:3-
+builder.Writeln("I'm a wonderful formatted cell.");
+// Заканчивайте текущую строку в таблице
+builder.EndRow();
+// Конец таблицы
+builder.EndTable();
+
+//ExStep:4-
+// Сохранить документ в указанный файл
+doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
+//ExEnd

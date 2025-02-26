@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary:Deze code laat zien hoe je een nieuwe sectie toevoegt aan een Word-document met behulp van Aspose.Words voor .NET. Het proces omvat het initialiseren van een document, het schrijven van inhoud en het toevoegen van een nieuwe sectie.
+//ExStepSummary:0: Initialiseer een nieuw Word-document en een DocumentBuilder-object om inhoud aan het document toe te voegen.
+//ExStepSummary:1: Voeg tekst toe aan het eerste deel met het DocumentBuilder object.
+//ExStepSummary:2: Voeg tekst toe aan het eerste deel met het DocumentBuilder object.
+//ExStepSummary:3: Maak een nieuwe sectie aan en voeg deze toe aan de verzameling van de secties van het document.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Maak een nieuw Word-document aan.
+Document doc = new Document();
+// Initialiseer de DocumentBuilder voor het document.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Inhoud toevoegen aan de eerste sectie
+builder.Writeln("Hello1"); // Write "Hello1" into the document's first section.
+
+//ExStep:2-
+// Inhoud toevoegen aan de eerste sectie
+builder.Writeln("Hello2"); // Write "Hello2" into the document's first section.
+
+//ExStep:3-
+// Maak een nieuwe sectie aan in het document.
+Section sectionToAdd = new Section(doc);
+doc.Sections.Add(sectionToAdd);
+//ExEnd

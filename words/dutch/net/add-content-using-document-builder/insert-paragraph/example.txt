@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Deze code laat zien hoe je een Word-document maakt met behulp van de DocumentBuilder-klasse en plaatst er een gestileerde paragraaf in.
+//ExStepSummary:0: De volgende code initialiseert een Document en een DocumentBuilder voor het aanmaken van documenten.
+//ExStepSummary:1: De volgende code configureert de lettertypeinstellingen voor de paragraaf.
+//ExStepSummary:2: De volgende code stelt de instellingen voor het alineaformaat voor uitlijning en inspringen vast.
+//ExStepSummary:3: De volgende code schrijft een paragraaf in het document.
+//ExStepSummary:4: De volgende code slaat het document op als een .docx bestand.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Een nieuw document-object initialiseren
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Toegang tot de lettertypeinstellingen van de DocumentBuilder
+Font font = builder.Font;
+// De lettergrootte instellen op 16
+font.Size = 16;
+// Maak het lettertype vet
+font.Bold = true;
+// Zet de lettertypekleur op blauw
+font.Color = Color.Blue;
+// Lettertypenaam instellen op Arial
+font.Name = "Arial";
+// Een streepjesstress toevoegen aan het lettertype
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+// Toegang tot de instellingen van het alineaformaat
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.FirstLineIndent = 8;
+paragraphFormat.Alignment = ParagraphAlignment.Justify;
+paragraphFormat.KeepTogether = true;
+
+//ExStep:3-
+// Schrijf een paragraaf tekst in het document
+builder.Writeln("A whole paragraph.");
+
+//ExStep:4-
+// Het document opslaan als een .docx-bestand
+doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
+//ExEnd

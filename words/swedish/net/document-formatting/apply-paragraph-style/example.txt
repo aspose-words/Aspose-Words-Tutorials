@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: Denna kod visar hur man skapar ett Word-dokument med hjälp av Aspose.Words, tillämpa en styckestil, och spara dokumentet. Det visar hur man ställer in en titelstil för ett stycke och spara dokumentet i .docx-format.
+//ExStepSummary:0: Det här avsnittet initierar en ny instans av dokument och dokumentbyggare.
+//ExStepSummary:1: Detta avsnitt tillämpar en avdelning styckestil med hjälp av DocumentBuilder.
+//ExStepSummary:2: Det här avsnittet skriver "Hej" till dokumentet.
+//ExStepSummary:3: Det här avsnittet sparar dokumentet till en angiven filsökväg.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Initiera en ny dokumentinstans
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Ställ in styckestilen till titel
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Title;
+
+//ExStep:2-
+// Skriv "Hej" med hjälp av byggaren, tillämpa den angivna stilen
+builder.Write("Hello");
+
+//ExStep:3-
+// Spara dokumentet till en .docx-fil
+doc.Save("DocumentFormatting.ApplyParagraphStyle.docx");
+//ExEnd

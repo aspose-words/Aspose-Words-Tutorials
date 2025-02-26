@@ -1,0 +1,34 @@
+//ExStart
+//ExSummary:Bu kod, örnek bir metin yazmadan önce yazı tipi özelliklerini biçimlendiren Aspose.Words kullanarak bir Word belgesinin nasıl oluşturulacağını gösterir.
+//ExStepSummary:0: Aşağıdaki kod yeni bir Belge ve Bir Belge Oluşturucuyu başlatır.
+//ExStepSummary:1: Aşağıdaki kod, boyut, kalın, renk, isim ve altı çizili stil gibi çeşitli yazı tipi özellikleri belirler.
+//ExStepSummary:2: Aşağıdaki kod, yapılandırılmış yazı tipi ayarlarını kullanarak belgeye örnek bir metin yazar.
+//ExStepSummary:3: Aşağıdaki kod, belgeyi belirli bir dosya adı ile belirtilen dizine kaydeder.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Yeni bir belge örneği oluştur
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// DocumentBuilder aracılığıyla yazı tipi özelliğine erişin
+Font font = builder.Font;
+// Yazı tipi boyutunu 16 olarak ayarla
+font.Size = 16;
+// Yazı tipini kalınlaştır
+font.Bold = true;
+// Yazı tipi rengini mavi olarak değiştir
+font.Color = Color.Blue;
+// Yazı tipini Arial olarak ayarla
+font.Name = "Arial";
+// Yazı tipine çizgili bir alt çizgi stili uygula
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+builder.Write("Sample text.");
+
+//ExStep:3-
+// Belgeyi eserler dizinine kaydet
+doc.Save("WorkingWithFonts.FontFormatting.docx");
+//ExEnd

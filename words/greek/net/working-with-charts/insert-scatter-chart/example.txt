@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary:Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο Word με ένα διάγραμμα scatter χρησιμοποιώντας Aspose.Words. Αρχικοποιείται ένα έγγραφο, χτίζει το περιεχόμενο, εισάγει ένα διάγραμμα scatter, προσθέτει τα δεδομένα σε αυτό, και αποθηκεύει το έγγραφο.
+//ExStepSummary:0: Αρχικοποίηση των αντικειμένων Document and DocumentBuilder για την έναρξη της εργασίας πάνω στο έγγραφο.
+//ExStepSummary:1: Εισαγωγή ενός διασκορπισμένου διαγράμματος στο έγγραφο.
+//ExStepSummary:2: Προσθέτοντας μια σειρά από σημεία δεδομένων στο διάγραμμα scatter.
+//ExStepSummary:3: Αποθήκευση του εγγράφου με το διάγραμμα scatter σε ένα .docx αρχείο.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Αρχικοποίηση ενός νέου εγγράφου
+Document doc = new Document();
+// Δημιουργία ενός κατασκευαστή για εισαγωγή περιεχομένου
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Εισάγετε ένα διάγραμμα διασποράς στο έγγραφο
+Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252); 
+
+//ExStep:2-
+// Πάρτε το αντικείμενο διάγραμμα από το εισάγον σχήμα
+Chart chart = shape.Chart;
+// Προσθήκη δεδομένων σειράς στο διάγραμμα
+chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 });
+
+//ExStep:3-
+// Αποθήκευση του εγγράφου με το διάγραμμα scatter
+doc.Save("WorkingWithCharts.InsertScatterChart.docx");
+//ExEnd

@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Deze code laat zien hoe je een kolomdiagram in een document invoegt met behulp van Aspose.Words.
+//          voegt een grafiek toe met gedefinieerde categorieën en waarden, en slaat het document op.
+//ExStepSummary:0: De volgende code initialiseert een nieuw document en een documentbuilder.
+//ExStepSummary:1: Deze stap omvat het invoegen van een kolomdiagram met gespecificeerde afmetingen in het document.
+//ExStepSummary:2: Hier worden reeksgegevens toegevoegd aan de grafiek met categorieën en bijbehorende waarden.
+//ExStepSummary:3: Deze stap slaat het document op met de ingevoegde grafiek naar een opgegeven bestandslocatie.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Een nieuw document-object initialiseren
+Document doc = new Document();
+// Een documentbouwer aanmaken voor eenvoudige documentmanipulatie
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Een kolomdiagram bij de opgegeven grootte invoegen (breedte x hoogte)
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+// Toegang tot het grafiekobject vanaf de ingevoegde vorm
+Chart chart = shape.Chart;
+// Seriegegevens toevoegen met categorieën en waarden
+chart.Series.Add("Aspose Series 1", new string[] { "Category 1", "Category 2" }, new double[] { 1, 2 });
+
+//ExStep:3-
+// Het document opslaan met de ingevoegde kolomdiagram
+doc.Save("WorkingWithCharts.InsertColumnChart.docx"); 
+//ExEnd
