@@ -42,9 +42,6 @@ To use this example, ensure you have Aspose.Words for .NET installed. Follow the
    license.SetLicense("path-to-your-license-file.lic");
    ```  
 
-5. Run the Example:  
-   Copy the provided code, customize it if necessary, and execute it in your development environment. Make sure to include references to `Aspose.Words`.  
-
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)

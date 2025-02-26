@@ -42,9 +42,6 @@ To use the example, you need Aspose.Words for .NET installed in your development
      license.SetLicense("path-to-license-file.lic");  
      ```  
 
-4. Run the Code Example  
-   Copy and paste the provided code into your project, build the solution, and execute it. Your Word document with a combo box form field will be created successfully!  
-
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)

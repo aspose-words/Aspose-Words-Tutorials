@@ -39,9 +39,6 @@ To run the example and use Aspose.Words for .NET, follow these steps:
      license.SetLicense("Aspose.Words.lic");
      ```  
 
-4. Run the Example  
-   Copy the provided code into your project, build the solution, and execute it to generate a Word document with a formatted table cell.  
-
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)

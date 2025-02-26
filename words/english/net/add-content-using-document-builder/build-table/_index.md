@@ -30,15 +30,6 @@ This example demonstrates how to create a Word document with a table using the A
      ```
      Install-Package Aspose.Words
      ```
-
-2. Add References:
-   - Ensure that your project references the Aspose.Words library.
-
-3. Write the Code:
-   - Copy the provided sample code into your project to create a Word document with a table.
-
-4. Run the Application:
-   - Execute your application, and it will generate a Word document named `AddContentUsingDocumentBuilder.BuildTable.docx` in your project folder.
    
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)

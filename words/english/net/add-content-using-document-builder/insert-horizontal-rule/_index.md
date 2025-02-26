@@ -31,7 +31,6 @@ This example demonstrates the use of Aspose.Words for .NET to create a Word docu
    using Aspose.Words.Drawing;
    ```
 
-3. Run Your Application: Execute your project to generate the Word document with the horizontal rule. Check the output path for your created file.
 
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)

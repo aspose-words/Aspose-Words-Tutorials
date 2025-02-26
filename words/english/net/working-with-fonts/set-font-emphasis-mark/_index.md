@@ -43,10 +43,6 @@ To run the provided code example and use Aspose.Words for .NET, follow these ste
      var license = new Aspose.Words.License();
      license.SetLicense("Aspose.Words.lic");
      ```  
-
-4. Run the Example Code:  
-   - Copy the provided example into your C# project.  
-   - Execute the project to generate the Word document with emphasis marks. 
    
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)

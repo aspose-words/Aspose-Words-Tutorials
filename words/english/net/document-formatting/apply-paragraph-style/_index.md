@@ -27,14 +27,9 @@ Aspose.Words for .NET empowers developers to effortlessly create, modify, and st
    - Navigate to the Tools menu, select NuGet Package Manager, and click Manage NuGet Packages for Solution.  
    - Search for `Aspose.Words` in the NuGet package manager and click Install.  
 
-3. Add a Reference to Aspose.Words:  
-   Ensure that your project references the `Aspose.Words` assembly.  
-
-4. Apply a License (Optional):  
+3. Apply a License (Optional):  
    To avoid evaluation limitations, apply a license. You can get a [temporary license here](https://purchase.aspose.com/temporary-license/) or purchase a license from the [Aspose store](https://purchase.aspose.com/buy).  
 
-5. Write Your Code:  
-   Copy and paste the provided code snippet into your project to create and style a Word document.  
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)

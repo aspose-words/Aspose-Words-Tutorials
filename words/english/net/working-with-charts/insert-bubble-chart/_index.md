@@ -39,9 +39,6 @@ Easily add a Bubble chart to your Word document using Aspose.Words for .NET! Thi
 4. Add License  
    For full functionality, apply a license. You can get a temporary license from the [Aspose Temporary License page](https://purchase.aspose.com/temporary-license/).  
 
-5. Start Coding  
-   You're ready to insert a Bubble chart in your Word documents. Follow the example provided in this guide for implementation.  
-
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)

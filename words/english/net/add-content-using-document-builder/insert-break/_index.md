@@ -21,19 +21,10 @@ This example demonstrates how to create a Word document using Aspose.Words for .
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 1. Install Aspose.Words for .NET: Use NuGet Package Manager to install Aspose.Words. Run the following command in the Package Manager Console:
-   ```
-   Install-Package Aspose.Words
-   ```
+```
+Install-Package Aspose.Words
+```
 
-2. Create a New Project: Open Visual Studio and create a new .NET project or open an existing one.
-
-3. Add Reference: Ensure that your project references Aspose.Words DLL after installation.
-
-4. Write the Code: Use the provided code example to create a multi-page Word document.
-
-5. Run the Project: Execute the project to generate the Word document. Check the output directory for the saved .docx file. 
-
-6. Review Output: Open the generated document to verify that text is correctly placed across multiple pages.
 
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)

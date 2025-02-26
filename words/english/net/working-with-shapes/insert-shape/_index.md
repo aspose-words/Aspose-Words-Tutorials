@@ -39,9 +39,6 @@ This guide demonstrates how to use Aspose.Words for .NET to insert and manipulat
 4. Activate the License (Optional):  
    If you have a valid license, apply it in your project to avoid limitations. You can [purchase a license](https://purchase.aspose.com/buy) or get a [temporary license](https://purchase.aspose.com/temporary-license/).  
 
-5. Run the Example:  
-   Copy and paste the provided example code into your .NET project, execute it, and verify the generated Word document.  
-
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)

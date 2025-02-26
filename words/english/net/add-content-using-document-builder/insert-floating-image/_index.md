@@ -31,12 +31,6 @@ This example demonstrates how to create a Word document using Aspose.Words for .
    using Aspose.Words.Drawing;
    ```
 
-3. Prepare Your Images: Place the image file (`Transparent background logo.png`) in the specified directory (e.g., `ImagesDir`) relative to your project.
-
-4. Run the Code: Use the provided code snippet to create a Word document with a floating image. Adjust the image path as necessary, then compile and run your application to see the result.
-
-5. Locate Output: Once executed, the output Word document will be saved in the project directory with the filename `AddContentUsingDocumentBuilder.InsertFloatingImage.docx`.
-
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)

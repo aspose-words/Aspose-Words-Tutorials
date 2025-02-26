@@ -28,19 +28,12 @@ Aspose.Words for .NET empowers developers to create richly formatted Word docume
    - Go to the NuGet Package Manager (`Tools` > `NuGet Package Manager` > `Manage NuGet Packages for Solution...`).  
    - Search for `Aspose.Words` and click `Install`.  
 
-3. Add License (Optional)  
-   - Obtain a [temporary license](https://purchase.aspose.com/temporary-license/) if needed.  
-   - Apply the license in your project to remove evaluation limitations.  
-
-4. Include Namespaces  
+3. Include Namespaces  
    Add the necessary namespaces to your code:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```  
-
-5. Apply License (Optional):  
-   To use the full version, [apply a license](https://purchase.aspose.com/temporary-license/) or use a [free trial](https://releases.aspose.com/words/net/).  
 
 
 ## Also See

@@ -39,9 +39,6 @@ This example demonstrates how to use the Aspose.Words for .NET library to create
      using System.Drawing;
      ```
 
-4. Run the Project:
-   - Execute your program. This will generate a Word document with the specified text and formatting, saved as `AddContentUsingDocumentBuilder.InsertParagraph.docx`.
-
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)

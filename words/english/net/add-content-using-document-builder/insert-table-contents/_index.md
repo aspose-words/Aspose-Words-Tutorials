@@ -26,12 +26,7 @@ This example demonstrates how to use Aspose.Words for .NET to create a Word docu
      Install-Package Aspose.Words
      ```
    - Or, search for "Aspose.Words" in the NuGet Package Manager GUI.
-3. Reference the Library: Ensure your project is referencing the Aspose.Words library.
-4. Copy and Implement Code: 
-   - Use the provided code snippet to initialize a new Document and create a Table of Contents using DocumentBuilder.
-5. Run Your Application: 
-   - Execute your project, and you should see a new Word document created with a functional Table of Contents.
-   
+
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)

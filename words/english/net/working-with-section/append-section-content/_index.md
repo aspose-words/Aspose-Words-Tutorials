@@ -32,7 +32,14 @@ To use Aspose.Words for .NET, follow these steps:
    - Search for "Aspose.Words" in the NuGet Package Manager.  
    - Select the package and click Install.  
 
-3. Add the License:  
+3. Include Required Namespaces:  
+   - Add the necessary `using` directives to your C# file:  
+     ```csharp  
+     using Aspose.Words;  
+     using Aspose.Words.Saving;  
+     ```  
+
+4. Add the License:  
    - If you have purchased a license, apply it using the following code snippet:  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
@@ -40,12 +47,6 @@ To use Aspose.Words for .NET, follow these steps:
      ```  
    - For evaluation or testing, you can request a [free temporary license](https://purchase.aspose.com/temporary-license/).  
 
-4. Include Required Namespaces:  
-   - Add the necessary `using` directives to your C# file:  
-     ```csharp  
-     using Aspose.Words;  
-     using Aspose.Words.Saving;  
-     ```  
 
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)

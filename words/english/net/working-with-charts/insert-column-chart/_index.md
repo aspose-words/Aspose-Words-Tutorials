@@ -40,9 +40,6 @@ Aspose.Words for .NET makes it incredibly easy to create and manipulate Word doc
 4. Set up a Free Trial or License  
    - Start with a [free trial](https://releases.aspose.com/) or apply for a [temporary license](https://purchase.aspose.com/temporary-license/) to unlock the full capabilities of the library.
 
-5. Run the Code Example  
-   - Use the provided code snippet to create a Word document with a column chart.
-
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
