@@ -1,5 +1,5 @@
 ---
-title: Een afbeelding in Word Document Header invoegen: Aspose.Words for .NET
+title: Een afbeelding in Word Document Header invoegen Aspose.Words for .NET
 weight: 7700
 limit: 
 description: Leer hoe u een afbeelding in de header van een Word-document plaatst met behulp van Aspose.Words voor .NET. Stap-voor-stap handleiding met voorbeeldcode en installatie-instructies.
