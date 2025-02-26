@@ -16,10 +16,10 @@ url: /zh/net/document-formatting/
 
 跳入文档格式的更深处,在嵌套主题上提供详细指南,例如与主题合作、管理样式、调整间距和创建动态布局。如果为 .NET 添加 。 您可以提供符合严格标准的文档, 同时在所有产出中保持一致性和优雅性。
 
-{{< tutorial-card link="./apply-border-and-shading/" title="将边框和阴影应用到附件段落。 words" imgSrc="./apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./apply-paragraph-style/" title="创建单词文档, 并样式化此文档。 Words" imgSrc="./apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./multilevel-list-formatting/" title="以单词创建多级别列表, 添加。 words" imgSrc="./multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./paragraph-formatting/" title="使用 apose.words for.NET的格式段落" imgSrc="./paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./apply-border-and-shading/" title="将边框和阴影应用到附件段落。 words" imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./apply-paragraph-style/" title="创建单词文档, 并样式化此文档。 Words" imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./multilevel-list-formatting/" title="以单词创建多级别列表, 添加。 words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./paragraph-formatting/" title="使用 apose.words for.NET的格式段落" imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -16,8 +16,8 @@ url: /zh/net/working-with-headers-and-footers/
 
 设置 . NET 的 words 简化了与信头和脚脚一起工作的过程, 确保了对其格式和位置的完全控制。 无论您在设计公司报告还是编写个性化文件, 图书馆都为管理这些关键元素提供了有效的方法 。 跳进我们的一步步指南中, 并释放您 Word 文件中信头和脚脚脚的全部潜力 !  
 
-{{< tutorial-card link="./create-header-footer/" title="创建带有页眉和页脚的单词文档。 Words" imgSrc="./create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./insert-image/" title="将图像插入到 Word Document Header 中 {}  pose. words for.NET 。" imgSrc="./insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./create-header-footer/" title="创建带有页眉和页脚的单词文档。 Words" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./insert-image/" title="将图像插入到 Word Document Header 中 {}  pose. words for.NET 。" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

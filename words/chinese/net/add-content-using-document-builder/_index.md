@@ -16,13 +16,13 @@ url: /zh/net/add-content-using-document-builder/
 
 此指南深入到文档构建器类的多功能性, 逐步覆盖其关键功能。 学习如何在文档中添加丰富的内容, 应用自定义样式, 甚至管理复杂的布局 。 有了实例和清晰的解释, 您将掌握如何使用文档构建器来快速简化您的文档生成任务 。
 
-{{< tutorial-card link="./build-table/" title="创建单词文档, 带有表格应用。 Words" imgSrc="../net/add-content-using-document-builder/build-table/images/thumb.png" >}}
-{{< tutorial-card link="./insert-break/" title="创建带有附加的多页单词文档。 Words" imgSrc="../net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
-{{< tutorial-card link="./insert-floating-image/" title="创建 Word 文档, 在. NET 中以浮动图像创建 Word 文档" imgSrc="../net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
-{{< tutorial-card link="./insert-horizontal-rule/" title="在 .NET 中以水平规则创建单词文档。" imgSrc="../net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
-{{< tutorial-card link="./insert-inline-image/" title="使用 Apose. words 在单词文档中插入内嵌图像" imgSrc="../net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
-{{< tutorial-card link="./insert-paragraph/" title="创建带有 aspose. words for.NET 的单词文档。" imgSrc="../net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
-{{< tutorial-card link="./insert-table-contents/" title="在.NET中创建含有目录表格的单词文档。" imgSrc="../net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
+{{< tutorial-card link="./build-table/" title="创建单词文档, 带有表格应用。 Words" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}
+{{< tutorial-card link="./insert-break/" title="创建带有附加的多页单词文档。 Words" imgSrc="/words/net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
+{{< tutorial-card link="./insert-floating-image/" title="创建 Word 文档, 在. NET 中以浮动图像创建 Word 文档" imgSrc="/words/net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
+{{< tutorial-card link="./insert-horizontal-rule/" title="在 .NET 中以水平规则创建单词文档。" imgSrc="/words/net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
+{{< tutorial-card link="./insert-inline-image/" title="使用 Apose. words 在单词文档中插入内嵌图像" imgSrc="/words/net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
+{{< tutorial-card link="./insert-paragraph/" title="创建带有 aspose. words for.NET 的单词文档。" imgSrc="/words/net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
+{{< tutorial-card link="./insert-table-contents/" title="在.NET中创建含有目录表格的单词文档。" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

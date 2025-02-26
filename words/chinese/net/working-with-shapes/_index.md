@@ -16,8 +16,8 @@ url: /zh/net/working-with-shapes/
 
 在此页面中, 您会找到各种形状相关任务的详细指南 。 从插入基本形状和样式到管理形状属性( 如大小、 颜色和旋转) , 一切都是逐步覆盖的 。 position. word for.NET 允许开发者创建动态和视觉丰富的文档, 而不需要任何复杂的设计工具 。 探索下面的教程以控制形状操作并提升您的文档创建进程 。  
 
-{{< tutorial-card link="./add-group-shape/" title="在单词文档中创建组形状, 使用 apose. words for. NET" imgSrc="./add-group-shape/images/thumb.png" >}}
-{{< tutorial-card link="./insert-shape/" title="在单词文档中插入形状, 使用 apose. words for. NET" imgSrc="./insert-shape/images/thumb.png" >}}
+{{< tutorial-card link="./add-group-shape/" title="在单词文档中创建组形状, 使用 apose. words for. NET" imgSrc="/words/net/working-with-shapes/add-group-shape/images/thumb.png" >}}
+{{< tutorial-card link="./insert-shape/" title="在单词文档中插入形状, 使用 apose. words for. NET" imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
