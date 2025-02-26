@@ -2,7 +2,7 @@
 title: NET で浮動画像付きのワード文書を作成
 weight: 7700
 limit: 
-description: Asfont.words.NET が Word ドキュメントを作成し、浮動画像を挿入します。 例: step-bystage
+description: Asfont.words.NET が Word ドキュメントを作成し、浮動画像を挿入します。 例 step-bystage
 keywords: [Aspose.Words, .NET, Word document, insert image, floating layout, DocumentBuilder, C# example]
 url: /ja/net/add-content-using-document-builder/insert-floating-image/
 ---
