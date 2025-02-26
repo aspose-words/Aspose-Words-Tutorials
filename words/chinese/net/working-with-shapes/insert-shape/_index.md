@@ -11,7 +11,7 @@ url: /zh/net/working-with-shapes/insert-shape/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 在单词文档中插入形状, 使用设置 。 Words
-本指南演示如何使用 pose.Words 来插入和操作 Word 文档中的形状(如文字框) 。 您可以学习如何定位绝对或相对形状, 设置旋转角度, 并用“ OxmlSaveoptions ” 来保存 ISO 29500: 2008 Translate DOCX 格式的文档。 这个示例简化了 Word 文档中的形状, 使开发者能够轻松地创建有视觉吸引力的内容 。  
+本指南演示如何在 Word 文档中插入和操作形状( 如文本框) 。 您将学习如何定位绝对或相对形状, 设置旋转角度, 并使用 ISO 29500: 2008 过渡 DOCX 格式保存 ISO 29500: 2008 文档`Oxml 保存选项`。此示例简化了Word文档中的形状工作,使开发者能够轻松地创建有视觉吸引力的内容。  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-shapes/insert-shape" >}}
@@ -20,7 +20,7 @@ url: /zh/net/working-with-shapes/insert-shape/
 {{< blocks/products/pf/tutorial-page-section >}}
 ## 安装指示  
 1. 下载位置。 . NET 的文字 :  
-   Get the latest version of Aspose.Words for .NET from the [download page](https://releases.aspose.com/words/net/).  
+   获取最新版本的 Aspostion 。 从 the. NET 获取. Words for . NET 的最新版本 。[下载页面](https://releases.aspose.com/words/net/). .  
 
 2. 通过 NuGet 安装 :  
    在视觉工作室打开您的工程, 并使用 NuGet 软件包管理器安装库 :  
@@ -37,10 +37,7 @@ url: /zh/net/working-with-shapes/insert-shape/
    ```  
 
 4. 激活许可( 可选) :  
-   If you have a valid license, apply it in your project to avoid limitations. You can [purchase a license](https://purchase.aspose.com/buy) or get a [temporary license](https://purchase.aspose.com/temporary-license/).  
-
-5. 运行示例:  
-   将提供的示例代码复制并粘贴到您的.NET 工程中, 执行它, 并校验生成的 Word 文档 。  
+   如果您持有有效许可证,请在您的项目中应用,以避免限制。您可以[购买许可证](https://purchase.aspose.com/buy)或获得a[临时许可证](https://purchase.aspose.com/temporary- license/). .  
 
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)

@@ -44,9 +44,6 @@ To get started with Aspose.Words for .NET, follow these simple steps:
      license.SetLicense("Aspose.Words.lic");
      ```  
 
-4. Start Coding  
-   - You’re ready to use Aspose.Words in your .NET application. Follow the example above to insert images into document headers dynamically.  
-
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)

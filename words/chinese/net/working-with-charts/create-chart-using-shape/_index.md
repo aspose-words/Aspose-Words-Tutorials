@@ -22,7 +22,7 @@ url: /zh/net/working-with-charts/create-chart-using-shape/
 ## 安装指示  
 
 1. 下载位置。 . NET 的文字 :  
-   Get the latest version from the official [Aspose.Words for .NET download page](https://releases.aspose.com/words/net/).  
+   从官方获取最新版本[选择。 . NET 下载页面的 words](https://releases.aspose.com/words/net/). .  
 
 2. 通过 NuGet 安装 :  
    使用 NuGet 软件包管理器将库添加到您的工程中。 在软件包管理器控制器中运行以下命令 :  
@@ -31,11 +31,9 @@ url: /zh/net/working-with-charts/create-chart-using-shape/
    ```  
 
 3. 获得许可证:  
-   - For evaluation, request a [temporary license](https://purchase.aspose.com/temporary-license/).  
-   - Purchase a full license from the [Aspose store](https://purchase.aspose.com/buy).  
+   * 评估,要求a[临时许可证](https://purchase.aspose.com/temporary-license/). .  
+   * 向执行局购买全额执照[应用存储器](https://purchase.aspose.com/buy). .  
 
-4. 添加以下参考资料:  
-   在您的. NET 工程中包含引用 Apostion. words DLL 的引用 。 
 
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)

@@ -25,16 +25,12 @@ url: /zh/net/working-with-table-styles-and-formatting/set-table-row-formatting/
    Install-Package Aspose.Words
    ```
 
-2. 创建一个新工程: 打开视觉工作室, 并创建一个新的 C# 项目( 控制应用程序或您喜欢的任何类型 ) 。
+2. Create a New Project: Open Visual Studio and create a new C# project (Console Application or any type you prefer).
 
 3. 添加引用: 确保在您的工程中引用 Apostion. Words 库 。
 
-4. 执行示例:将提供的代码复制并粘贴到您的项目中。
-
-5. 运行工程: 执行您的应用程序, 用格式化表格生成 Word 文档 。
-
-6. 应用许可( 可选) :  
-   To use the full version, [apply a license](https://purchase.aspose.com/temporary-license/) or use a [free trial](https://releases.aspose.com/words/net/).
+4. 应用许可( 可选) :  
+   要使用完整版本,[申请许可](https://purchase.aspose.com/temporary-license/)或使用 a/[自由审判](https://releases.aspose.com/words/net/). .
    
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)

@@ -34,8 +34,6 @@ Aspose.Words for .NET empowers developers to create visually appealing and profe
    - For evaluation, request a [temporary license](https://purchase.aspose.com/temporary-license/).  
    - Purchase a full license from the [Aspose store](https://purchase.aspose.com/buy).  
 
-4. Add References:  
-   Include references to the Aspose.Words DLL in your .NET project. 
 
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)

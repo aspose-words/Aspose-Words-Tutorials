@@ -40,8 +40,6 @@ This tutorial demonstrates how to create a Word document with a chart using Aspo
    using Aspose.Words.Drawing;
    using Aspose.Words.Drawing.Charts;
    ```
-5. Apply License (Optional):  
-   To use the full version, [apply a license](https://purchase.aspose.com/temporary-license/) or use a [free trial](https://releases.aspose.com/words/net/).  
 
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)

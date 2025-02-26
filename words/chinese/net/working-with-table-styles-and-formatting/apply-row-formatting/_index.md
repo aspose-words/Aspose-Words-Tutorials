@@ -24,23 +24,23 @@ url: /zh/net/working-with-table-styles-and-formatting/apply-row-formatting/
 要在您的工程中使用.NET 的文字, 请遵循这些步骤 :  
 
 1. 下载位置。 . NET 的 words  
-   - Visit the [Aspose.Words for .NET download page](https://releases.aspose.com/words/net/) and download the latest version.
+   * 访问[选择。 . NET 下载页面的 words](https://releases.aspose.com/words/net/)并下载最新版本。
 
 2. 通过 NuGet 安裝  
-   - 在视觉工作室打开您的项目 。  
-   - 转到工具 > Nuget 软件包管理器 > 管理 Nuget 软件包以解决问题 。  
-   - 搜索 `apose. words' 并单击安装 。
+   * 在视觉工作室打开您的项目 。  
+   * 转到工具 > Nuget 软件包管理器 > 管理 Nuget 软件包以解决问题 。  
+   * 搜索搜索`表达式 。`并单击安装。
 
 3. 包含命名空间  
-   - 在代码中添加以下行:  
+   * 在代码中添加以下行:  
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Tables;
      ```
 
 4. 激活许可( 可选)  
-   - To avoid evaluation limitations, apply for a [temporary license](https://purchase.aspose.com/temporary-license/) or purchase a [full license](https://purchase.aspose.com/buy).  
-   - 将驾照装入您的代码 :  
+   * 为了避免评价限制,申请[临时许可证](https://purchase.aspose.com/temporary-license/)或购买a[完全许可证许可证](https://purchase.aspose.com/buy). .  
+   * 将驾照装入您的代码 :  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");

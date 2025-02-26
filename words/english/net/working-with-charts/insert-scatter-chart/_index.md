@@ -42,14 +42,6 @@ To run this example, follow these steps:
      ```  
    - Alternatively, get a [free temporary license](https://purchase.aspose.com/temporary-license/) to test the library.
 
-4. Run the Code  
-   - Copy the provided example code into your project.  
-   - Ensure you have the necessary output directory permissions.  
-   - Build and execute the project.  
-
-5. Explore the Output  
-   - Open the generated `WorkingWithCharts.InsertScatterChart.docx` file to see the scatter chart in action!  
-
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)

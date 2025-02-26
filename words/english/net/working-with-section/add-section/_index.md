@@ -41,9 +41,6 @@ Aspose.Words for .NET makes working with Word documents effortless by providing 
    license.SetLicense("path_to_your_license.lic");
    ```  
 
-5. Start Coding:  
-   Use the example code provided in this tutorial to add a new section to your Word document effortlessly.  
-
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)

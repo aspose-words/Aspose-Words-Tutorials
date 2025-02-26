@@ -29,14 +29,8 @@ url: /zh/net/working-with-table-styles-and-formatting/table-tittle-and-descripti
    Install-Package Aspose.Words
    ```
 
-2. 下载和设置示例:
-   下载示例代码并准备含有表格的 Word 文档。修改代码中的路径以指向文档目录。
-
-3. 运行示例:
-   设置环境后,在您的.NET 工程中运行所提供的示例。文档中的表格将更新标题和描述,文件将用新设置保存。
-
-4. 应用许可( 可选) :  
-   To use the full version, [apply a license](https://purchase.aspose.com/temporary-license/) or use a [free trial](https://releases.aspose.com/words/net/).
+2. 应用许可( 可选) :  
+   要使用完整版本,[申请许可](https://purchase.aspose.com/temporary-license/)或使用 a/[自由审判](https://releases.aspose.com/words/net/). .
    
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)

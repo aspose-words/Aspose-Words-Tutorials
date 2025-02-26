@@ -27,11 +27,11 @@ url: /zh/net/working-with-table-styles-and-formatting/apply-outline-border/
 2. 下载并安装视觉工作室(建议2019年或以后)。  
 
 ### 安装步骤  
-1. Download the Aspose.Words for .NET library from the official website: [Aspose.Words for .NET Download](https://releases.aspose.com/words/net/).  
+1. 从官方网站下载 .NET 库的标签 :[设置。 . NET 下载的文字](https://releases.aspose.com/words/net/). .  
 2. 通过 NuGet 软件包管理器安装库 :  
-   - 在视觉工作室打开您的项目 。  
-   - 转到工具 > Nuget 软件包管理器 > 管理 Nuget 软件包以解决问题 。  
-   - 搜索 `apose. words' 并单击安装 。  
+   * 在视觉工作室打开您的项目 。  
+   * 转到工具 > Nuget 软件包管理器 > 管理 Nuget 软件包以解决问题 。  
+   * 搜索搜索`表达式 。`并单击安装。  
 3. 在您的工程中添加对库的引用 :  
    ```csharp
    using Aspose.Words;
@@ -39,7 +39,7 @@ url: /zh/net/working-with-table-styles-and-formatting/apply-outline-border/
    using System.Drawing;
    ```  
 4. 应用许可( 可选) :  
-   To use the full version, [apply a license](https://purchase.aspose.com/temporary-license/) or use a [free trial](https://releases.aspose.com/words/net/).
+   要使用完整版本,[申请许可](https://purchase.aspose.com/temporary-license/)或使用 a/[自由审判](https://releases.aspose.com/words/net/). .
    
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)

@@ -31,8 +31,7 @@ This example demonstrates how to use Aspose.Words for .NET to create a Word docu
    ```csharp  
    License license = new License();  
    license.SetLicense("Aspose.Words.lic");  
-   ```  
-4. Run the Code: Add the provided code snippet to your .NET project, execute it, and generate a Word document with a header and footer.  
+   ```    
 
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)

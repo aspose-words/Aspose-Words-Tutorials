@@ -29,13 +29,7 @@ To get started with Aspose.Words for .NET and run this example, follow these sim
    Install-Package Aspose.Words
    ```
 
-2. Download and Setup the Example:
-   Download the example code and prepare a Word document that contains a table. Modify the path in the code to point to your document directory.
-
-3. Run the Example:
-   After setting up your environment, run the provided example in your .NET project. The table in the document will have its title and description updated, and the file will be saved with new settings.
-
-4. Apply License (Optional):  
+2. Apply License (Optional):  
    To use the full version, [apply a license](https://purchase.aspose.com/temporary-license/) or use a [free trial](https://releases.aspose.com/words/net/).
    
 ## Also See

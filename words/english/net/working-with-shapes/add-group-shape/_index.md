@@ -34,13 +34,6 @@ This tutorial demonstrates how to create and manage group shapes in Word documen
    - Obtain a license from the [Aspose Purchase page](https://purchase.aspose.com/buy) or apply for a [temporary license](https://purchase.aspose.com/temporary-license/).  
    - Activate the license in your project by using the `Aspose.Words.License` class.
 
-4. Set Up the Environment:  
-   - Ensure your project targets .NET Framework, .NET Core, or .NET 6+ as supported by Aspose.Words.  
-   - Add the required namespaces for working with Word documents and shapes.  
-
-5. Run the Code Example:  
-   Copy the provided code into your application, compile, and execute it. The code will create a group shape, add it to the document, and save it to a specified location.  
-
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)

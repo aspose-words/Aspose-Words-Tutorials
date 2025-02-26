@@ -18,7 +18,7 @@ aspostion. words for.NET 提供广泛的视觉教程库, 旨在帮助开发者�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [在 Apose. words for.NET 中添加使用文档构建器的内容 ](./add-content-using-document-builder/)
+## [在 Apose. words for.NET 中添加使用文档构建器的内容](./add-content-using-document-builder/)
 学习如何使用文档构建器类在 Word 文档中以程序方式插入文本、表格、图像和其他元素。
 
 {{< tutorial-card link="./add-content-using-document-builder/build-table/" title="创建单词文档, 带有表格应用。 Words" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}

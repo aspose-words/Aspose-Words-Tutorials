@@ -29,11 +29,7 @@ This example demonstrates how to create a Word document containing a formatted t
 
 3. Add Reference: Ensure that the Aspose.Words library is referenced in your project.
 
-4. Implement the Example: Copy and paste the provided code into your project.
-
-5. Run the Project: Execute your application to generate the Word document with the formatted table.
-
-6. Apply License (Optional):  
+4. Apply License (Optional):  
    To use the full version, [apply a license](https://purchase.aspose.com/temporary-license/) or use a [free trial](https://releases.aspose.com/words/net/).
    
 ## Also See

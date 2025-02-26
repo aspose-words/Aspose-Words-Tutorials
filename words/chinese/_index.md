@@ -21,7 +21,7 @@ postion. words for .NET 提供一套全面的视觉教程,帮助开发者在应�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [与图表一起工作。 ](./net/working-with-charts/)
+### [与图表一起工作。](./net/working-with-charts/)
 学习在 Word 文档中插入和定制不同种类的图表,如条形图、线形图和散射图。
 {{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="创建带有图表的文档 " imgSrc="/words/net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
 {{< tutorial-card link="./net/working-with-charts/create-chart-using-shape/" title="创建单词行图表 " imgSrc="/words/net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
@@ -47,7 +47,7 @@ postion. words for .NET 提供一套全面的视觉教程,帮助开发者在应�
 {{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="将标题和说明添加到单词表格" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [在 Apose. words for.NET 中添加使用文档构建器的内容 ](./net/add-content-using-document-builder/)
+### [在 Apose. words for.NET 中添加使用文档构建器的内容](./net/add-content-using-document- builder/)
 学习如何使用文档构建器类在 Word 文档中以程序方式插入文本、表格、图像和其他元素。
 
 {{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="用表格创建单词文档" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}

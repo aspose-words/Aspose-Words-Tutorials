@@ -35,9 +35,6 @@ This example demonstrates how to create a Word document that includes a styled t
    using Aspose.Words.Tables;
    ```
 
-5. Implement the Example Code: Copy the provided code sample into your project and adjust as necessary.
-
-6. Run the Project: Execute your project to generate a Word document containing the styled table. The file will be saved as `WorkingWithTableStylesAndFormatting.BuildTableWithStyle.docx` in your project directory. 
 
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)

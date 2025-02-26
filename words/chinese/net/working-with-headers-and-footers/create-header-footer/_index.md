@@ -20,19 +20,18 @@ url: /zh/net/working-with-headers-and-footers/create-header-footer/
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## 安装指示  
-1. Download Aspose.Words for .NET: Get the latest version from the [Aspose releases page](https://releases.aspose.com/words/net/).  
+1. 下载位置。 . NET 的 words 。 NET: 从 The 获取最新版本[显示释放页面](https://releases.aspose.com/words/net/). .  
 2. 安裝套件。 文字 :  
-   - 使用 NuGet 软件包管理器 :  
+   * 使用 NuGet 软件包管理器 :  
      ```bash  
      Install-Package Aspose.Words  
      ```  
-   - 或者从下载的软件包中手动引用 DLL 。  
-3. Apply License (Optional): Obtain a [temporary license](https://purchase.aspose.com/temporary-license/) or a full license from [Aspose Purchase](https://purchase.aspose.com/buy) and apply it in your project:  
+   * 或者从下载的软件包中手动引用 DLL 。  
+3. 应用许可( 可选): 获取 a[临时许可证](https://purchase.aspose.com/temporary- license/)或颁发正式执照[购买](https://purchase.aspose.com/buy)并将其应用到您的项目中 :  
    ```csharp  
    License license = new License();  
    license.SetLicense("Aspose.Words.lic");  
-   ```  
-4. 运行代码 : 在您的.NET 工程中添加提供的代码片断, 执行它, 并用页眉和页脚生成 Word 文档 。  
+   ```    
 
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)

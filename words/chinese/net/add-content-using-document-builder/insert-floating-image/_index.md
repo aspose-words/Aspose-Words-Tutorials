@@ -31,12 +31,6 @@ url: /zh/net/add-content-using-document-builder/insert-floating-image/
    using Aspose.Words.Drawing;
    ```
 
-3. 准备您的图像 : 将图像文件 (`透明背景标识. png' ) 放在与您的工程相关的指定目录( 如 `imagesDir' ) 中 。
-
-4. 运行代码 : 使用所提供的代码片断创建带有浮动图像的 Word 文档。 必要时调整图像路径, 然后编译并运行您的应用程序以查看结果 。
-
-5. 定位输出: 一旦执行, 输出的 Word 文档将保存在项目目录中, 以文件名 `AddContentUsingDocumentBuilder. InsertFloatingImaage.docx' 保存。
-
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)
 [位置。 编辑到. NET 引用](https://reference.aspose.com/words/net/)

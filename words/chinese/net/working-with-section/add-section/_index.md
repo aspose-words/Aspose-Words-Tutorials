@@ -12,7 +12,7 @@ url: /zh/net/working-with-section/add-section/
 
 # 在单词文档中添加新区域
 
-aspostion. words for.NET 使Word文档的工作不费力, 提供强大的 API 来处理复杂的文档结构。 此教义通过在 Word 文档中以程序方式添加新部分来引导您。 使用 `Document ' 和`DocumentBilder ' 课程, 您将学会初始化文档, 添加文字, 并附加新部分 。 开发者非常适合自动生成和精确操作 Word 文档 。  
+设置 .NET 的 words 使 Word 文档与 Word 文档合作不费力, 提供强大的 API 来处理复杂的文档结构。 此教义通过在 Word 文档中以程序方式添加新部分来引导您。 使用`文件 文件 文件 文件 文件 文件 文件 文件 文件 文件 文件 文件 文件 文件`和`文件编织器`类中, 您将学会初始化文档, 添加文本, 并附加新部分 。 开发者非常适合自动生成和精准操作 Word 文档 。  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-section/add-section" >}}
@@ -22,17 +22,17 @@ aspostion. words for.NET 使Word文档的工作不费力, 提供强大的 API �
 ## 用于.NET的装置说明。  
 
 1. 下载位置。 . NET 的文字 :  
-   Visit the [Aspose.Words for .NET download page](https://releases.aspose.com/words/net/) to get the latest version.
+   访问[选择。 . NET 下载页面的 words](https://releases.aspose.com/words/net/)获取最新版本。
 
 2. 通过 NuGet 安装 :  
-   - 打开您的视觉工作室项目 。  
-   - 导航到工具 > Nuget 软件包管理器 > 管理 Nuget 软件包以解决问题 。  
-   - 在 NuGet 软件包管理器中搜索“ 对象. words ” 。  
-   - 选择软件包并单击安装。  
+   * 打开您的视觉工作室项目 。  
+   * 导航到工具 > Nuget 软件包管理器 > 管理 Nuget 软件包以解决问题 。  
+   * 搜索搜索`表达式 。`在 NuGet 软件包管理器中。  
+   * 选择软件包并单击安装。  
 
 3. 手动添加引用( 可选) :  
-   - Download the DLL from the [Aspose releases page](https://releases.aspose.com/).  
-   - 在您的工程中添加 `apose.Words.dll' 文件, 以右键单击“ 解决方案探索者中的引用” 并选择“ 添加引用 ” 。  
+   * 从 DLL 下载[显示释放页面](https://releases.aspose.com/). .  
+   * 添加`表达式。 Words. dll`右键点击“ 解决方案探索者中的引用” 并选择“ 添加引用” 来选择您的工程文件。  
 
 4. 激活许可( 可选) :  
    如果您持有许可证,请使用许可证解锁全部功能:  
@@ -40,9 +40,6 @@ aspostion. words for.NET 使Word文档的工作不费力, 提供强大的 API �
    Aspose.Words.License license = new Aspose.Words.License();
    license.SetLicense("path_to_your_license.lic");
    ```  
-
-5. 开始编码 :  
-   使用此教程中提供的示例代码, 在您的 Word 文档中添加新部分, 不遗余力 。  
 
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)

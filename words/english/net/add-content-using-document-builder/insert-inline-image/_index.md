@@ -33,8 +33,6 @@ This example demonstrates how to insert an inline image into a Word document usi
      using Aspose.Words;
      using Aspose.Words.Drawing;
      ```
-3. Apply License (Optional):  
-   To use the full version, [apply a license](https://purchase.aspose.com/temporary-license/) or use a [free trial](https://releases.aspose.com/words/net/).  
 
 
 ## Also See

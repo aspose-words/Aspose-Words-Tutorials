@@ -22,26 +22,23 @@ url: /zh/net/working-with-charts/insert-column-chart/
 ## 安装指示  
 
 1. 下载位置。 . NET 的 words  
-   - Visit the [Aspose.Words for .NET download page](https://releases.aspose.com/words/net/) and download the latest version.  
+   * 访问[选择。 . NET 下载页面的 words](https://releases.aspose.com/words/net/)并下载最新版本。  
 
 2. 安装库  
-   - 在视觉工作室使用 NuGet 软件包管理器安装 Apose. words for. NET:  
+   * 在视觉工作室使用 NuGet 软件包管理器安装 Apose. words for. NET:  
      ```
      Install-Package Aspose.Words
      ```
 
 3. 包含命名空间  
-   - 在您的工程中添加必需的命名空间 :  
+   * 在您的工程中添加必需的命名空间 :  
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Drawing;
      ```
 
 4. 设立自由审判或许可  
-   - Start with a [free trial](https://releases.aspose.com/) or apply for a [temporary license](https://purchase.aspose.com/temporary-license/) to unlock the full capabilities of the library.
-
-5. 运行代码示例  
-   - 使用所提供的代码片断创建带有列图的 Word 文档 。
+   * 以[自由审判](https://releases.aspose.com/)或申请a[临时许可证](https://purchase.aspose.com/temporary-license/)以释放图书馆的全部能力。
 
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)

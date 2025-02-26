@@ -27,10 +27,7 @@ This guide provides a simple example of creating and formatting a Word document 
      Install-Package Aspose.Words
      ```
    - Or download the DLL directly from the [Aspose website](https://www.aspose.com).
-3. Create a new project: Start a new C# project in your IDE.
-4. Add references: Make sure to reference the Aspose.Words library in your project.
-5. Copy the example code: Replace the template code in your Main method with the provided example.
-6. Apply License (Optional):  
+3. Apply License (Optional):  
    To use the full version, [apply a license](https://purchase.aspose.com/temporary-license/) or use a [free trial](https://releases.aspose.com/words/net/).  
 
 ## Also See

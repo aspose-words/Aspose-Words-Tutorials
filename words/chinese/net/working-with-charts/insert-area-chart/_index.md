@@ -24,7 +24,7 @@ url: /zh/net/working-with-charts/insert-area-chart/
 以此为例, 确保您有 Apostion. words 安装了. NET 。 下面如何开始 :  
 
 1. 下载位置。 . NET 的文字 :  
-   Visit the [Aspose.Words download page](https://releases.aspose.com/words/net/) and download the latest version.  
+   访问[选项。 Words 下载页面](https://releases.aspose.com/words/net/)并下载最新版本。  
 
 2. 通过 NuGet 软件包管理器安装 :  
    在视觉工作室打开您的工程并在软件包管理器控制台运行以下命令 :  
@@ -33,7 +33,7 @@ url: /zh/net/working-with-charts/insert-area-chart/
    ```  
 
 3. 应用许可( 可选) :  
-   For full functionality without evaluation limitations, apply a license. Purchase a license [here](https://purchase.aspose.com/buy) or request a [free temporary license](https://purchase.aspose.com/temporary-license).  
+   对于没有评价限制的全面功能,申请许可证。[在这里](https://purchase.aspose.com/buy)或要求a[免费临时许可证](https://purchase.aspose.com/temporary- license). .  
 
 4. 添加命名空间引用 :  
    确保将下列命名空间包括在您的项目中:  

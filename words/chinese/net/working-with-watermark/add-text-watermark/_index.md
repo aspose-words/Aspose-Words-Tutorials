@@ -20,12 +20,12 @@ url: /zh/net/working-with-watermark/add-text-watermark/
 {{< blocks/products/pf/tutorial-page-section >}}
 ## 安装指示  
 1. 下载位置。 . NET 的文字 :  
-   Get the latest version from the [Aspose Downloads page](https://releases.aspose.com/words/net/).  
+   获取最新版本[应用下载页面](https://releases.aspose.com/words/net/). .  
 
 2. 通过 NuGet 安装 :  
-   - 打开您的视觉工作室项目 。  
-   - 导航到 Nuget 软件包管理器( 工具 > Nuget 软件包管理器 > 管理 Nuget 软件包解决) 。  
-   - 搜索“ 应用. words” 并单击安装 。  
+   * 打开您的视觉工作室项目 。  
+   * 导航到 Nuget 软件包管理器( 工具 > Nuget 软件包管理器 > 管理 Nuget 软件包解决) 。  
+   * 搜索“ 应用. words” 并单击安装 。  
 
 3. 添加命名空间引用 :  
    在您的代码文件顶部添加以下命名空间 :  
@@ -36,7 +36,7 @@ url: /zh/net/working-with-watermark/add-text-watermark/
    ```  
 
 4. 应用许可( 可选) :  
-   To use the full version, [apply a license](https://purchase.aspose.com/temporary-license/) or use a [free trial](https://releases.aspose.com/).  
+   要使用完整版本,[申请许可](https://purchase.aspose.com/temporary-license/)或使用 a/[自由审判](https://releases.aspose.com/). .  
 
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)

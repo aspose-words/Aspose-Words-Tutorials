@@ -22,26 +22,24 @@ url: /zh/net/working-with-charts/bounds-of-axis/
 ## 安装指示  
 
 1. 下载位置。 . NET 的 words  
-   Get the latest version of Aspose.Words for .NET from the [official download page](https://releases.aspose.com/words/net/).  
+   获取最新版本的 Aspostion 。 从 the. NET 获取. Words for . NET 的最新版本 。[官方官方下载页面](https://releases.aspose.com/words/net/). .  
 
 2. 通过 NuGet 软件包管理器安装  
-   - 在视觉工作室打开您的项目 。  
-   - 导航到工具 > Nuget 软件包管理器 > 管理 Nuget 软件包以解决问题 。  
-   - 在浏览标签中搜索 `apose. words' 。  
-   - 选择软件包并单击安装。  
+   * 在视觉工作室打开您的项目 。  
+   * 导航到工具 > Nuget 软件包管理器 > 管理 Nuget 软件包以解决问题 。  
+   * 搜索搜索`表达式 。`在浏览标签中。  
+   * 选择软件包并单击安装。  
 
-3. Add License *(Optional)*  
-   - If you have a license, apply it in your project. For details, visit [how to apply a license](https://purchase.aspose.com/temporary-license/).  
+3. 添加授权 _(备选)_  
+   * 若您持有驾照,请在您的项目中申请。详情请访问InfoFinland[如何申请许可证](https://purchase.aspose.com/temporary-license/). .  
 
 4. 包含命名空间  
-   确保您在 '.cs' 文件中添加必要的命名空间 :  
+   确保您在您的`.cs.cs.cs`文件 :  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    using Aspose.Words.Drawing.Charts;
    ```
-5. 应用许可( 可选) :  
-   To use the full version, [apply a license](https://purchase.aspose.com/temporary-license/) or use a [free trial](https://releases.aspose.com/words/net/).  
 
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)

@@ -22,16 +22,13 @@ url: /zh/net/working-with-fonts/font-formatting/
 ## 安装指示 
 1. 先决条件:确保您在机器上安装了.NET。
 2. 安裝套件。 文字 : 
-   - 在视觉工作室使用 NuGet 软件包管理器 :
+   * 在视觉工作室使用 NuGet 软件包管理器 :
      ```
      Install-Package Aspose.Words
      ```
-   - Or download the DLL directly from the [Aspose website](https://www.aspose.com).
-3. 创建一个新工程: 在您的 IDE 中启动一个新的 C# 项目 。
-4. 添加引用 : 在您的工程中一定要引用 Aspose. words 库 。
-5. 复制示例代码 : 用所提供的示例替换您主要方法中的模板代码 。
-6. 应用许可( 可选) :  
-   To use the full version, [apply a license](https://purchase.aspose.com/temporary-license/) or use a [free trial](https://releases.aspose.com/words/net/).  
+   * 或者直接从 DLL 直接下载 DLL[创建网站](https://www.aspose.com). .
+3. 应用许可( 可选) :  
+   要使用完整版本,[申请许可](https://purchase.aspose.com/temporary-license/)或使用 a/[自由审判](https://releases.aspose.com/words/net/). .  
 
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)

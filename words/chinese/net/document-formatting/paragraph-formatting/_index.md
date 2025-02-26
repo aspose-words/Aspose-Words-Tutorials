@@ -19,7 +19,7 @@ url: /zh/net/document-formatting/paragraph-formatting/
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## 安装指示
-1. Download Aspose.Words for .NET: Visit the [Aspose website](https://www.aspose.com/downloads/words/net) to download the latest version of Aspose.Words for .NET.
+1. 下载位置。 . NET 的 words: 访问[创建网站](https://www.aspose.com/downloads/words/net)要下载最新版本的 Apostion. words for.NET。
 
 2. 添加引用 : 在您的.NET 工程中, 右键单击 解决方案探索器中的工程, 选择 添加 > 引用, 并浏览以添加 Apose. Words DLL 文件 。
 
@@ -35,7 +35,7 @@ url: /zh/net/document-formatting/paragraph-formatting/
    ```
 
 5. 应用许可( 可选) :  
-   To use the full version, [apply a license](https://purchase.aspose.com/temporary-license/) or use a [free trial](https://releases.aspose.com/words/net/).  
+   要使用完整版本,[申请许可](https://purchase.aspose.com/temporary-license/)或使用 a/[自由审判](https://releases.aspose.com/words/net/). .  
 
 
 ## 另见

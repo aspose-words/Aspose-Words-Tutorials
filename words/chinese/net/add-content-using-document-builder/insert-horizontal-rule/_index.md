@@ -20,10 +20,10 @@ url: /zh/net/add-content-using-document-builder/insert-horizontal-rule/
 {{< blocks/products/pf/tutorial-page-section >}}
 ## 安装指示
 1. 安裝套件. Words: 在视觉工作室使用 NuGet 软件包管理器 。
-   - 在视觉工作室打开您的项目 。
-   - 在解决方案探索器中右键点击您的工程 。
-   - 选择管理 NuGet 软件包。
-   - 搜索 `apose. words' 并安装它 。
+   * 在视觉工作室打开您的项目 。
+   * 在解决方案探索器中右键点击您的工程 。
+   * 选择管理 NuGet 软件包。
+   * 搜索搜索`表达式 。`并安装它。
 
 2. 使用指令添加 : 在您的代码文件中, 包含以下使用指令 。 Apostion. Words 类 :
    ```csharp
@@ -31,7 +31,6 @@ url: /zh/net/add-content-using-document-builder/insert-horizontal-rule/
    using Aspose.Words.Drawing;
    ```
 
-3. 运行您的应用程序: 执行您的工程, 用水平规则生成 Word 文档。 请检查您创建的文件的输出路径 。
 
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)
