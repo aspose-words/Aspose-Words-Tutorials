@@ -16,8 +16,8 @@ url: /zh/net/working-with-section/
 
 本指南探索与 Aspose. words for.NET 中的章节合作的各个方面。 从添加和删除章节到修改其属性, 你会发现一些实用的例子和逐步的教程来简化过程。 使用这些工具, 您可以不遗余力地创建动态的、 定制的 Word 文档。 跳进和打开部分的能量 !
 
-{{< tutorial-card link="./add-section/" title="在单词文档中添加新区域" imgSrc="./add-section/images/thumb.png" >}}
-{{< tutorial-card link="./append-section-content/" title="单词文档中的附加和附加内容" imgSrc="./append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./add-section/" title="在单词文档中添加新区域" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./append-section-content/" title="单词文档中的附加和附加内容" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

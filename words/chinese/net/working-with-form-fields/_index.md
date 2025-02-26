@@ -16,7 +16,7 @@ url: /zh/net/working-with-form-fields/
 
 postion. words for .NET 支持多种格式字段类型, 允许您设计精密灵活复杂的格式。 有了丰富的 API, 您可以控制字段属性, 输入数据, 甚至处理用户输入, 尽量不费力。 您是否正在生成调查、 合同或自定义模板, 使用 Aspose 格式字段来工作 。 Words 会确保专业和方便用户的经验 。
 
-{{< tutorial-card link="./insert-form-fields/" title="在单词文档中插入 Combo 框窗体字段" imgSrc="./insert-form-fields/images/thumb.png" >}}
+{{< tutorial-card link="./insert-form-fields/" title="在单词文档中插入 Combo 框窗体字段" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

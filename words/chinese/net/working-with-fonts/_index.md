@@ -16,9 +16,9 @@ url: /zh/net/working-with-fonts/
 
 本节包含一系列教程, 帮助您使用 Aspose. words for.NET 来控制字体操作。 跳到特定的特性中, 如更改字体家族, 应用文本效果, 设置高级打字选项, 如换字和间距 。 这些指南使创建专业的、 擦亮的单词文档变得简单, 适合您的确切要求 。
 
-{{< tutorial-card link="./font-formatting/" title="以单词创建字体格式, 使用 apose. words for. NET" imgSrc="./font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./get-font-line-spacing/" title="在文字文档中获取字体行间距" imgSrc="./get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./set-font-emphasis-mark/" title="在单词文档中设定使用 apose. words for.NET 的强调标记" imgSrc="./set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./font-formatting/" title="以单词创建字体格式, 使用 apose. words for. NET" imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./get-font-line-spacing/" title="在文字文档中获取字体行间距" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./set-font-emphasis-mark/" title="在单词文档中设定使用 apose. words for.NET 的强调标记" imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

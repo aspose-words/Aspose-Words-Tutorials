@@ -16,7 +16,7 @@ url: /zh/net/working-with-watermark/
 
 除了添加水印外, 添加. Net 的 word 。 您可以有效地管理它。 您可以删除现有的水印, 更新其属性, 或根据文档中的具体页面进行修改。 有了详细的例子和分步骤的指导, 这个功能丰富的工具包可以确保水标记成为一个无麻烦的过程。 将文档工作流程转换为 Aspose. words, 并且不遗余力地控制您的水印 。
 
-{{< tutorial-card link="./add-text-watermark/" title="使用 apose. words for.NET 在单词文档中添加文本水标记" imgSrc="./add-text-watermark/images/thumb.png" >}}
+{{< tutorial-card link="./add-text-watermark/" title="使用 apose. words for.NET 在单词文档中添加文本水标记" imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
