@@ -22,24 +22,17 @@ url: /zh/net/working-with-shapes/add-group-shape/
 ## 安装指示  
 
 1. 下载位置。 . NET 的文字 :  
-   Visit the [Aspose Downloads page](https://releases.aspose.com/words/net/) and download the latest version of Aspose.Words for .NET.
+   访问[应用下载页面](https://releases.aspose.com/words/net/)并下载最新版本的 Aspose.Words for.NET。
 
 2. 通过 NuGet 安装 :  
-   - 在视觉工作室打开您的项目 。  
-   - 导航到工具 > Nuget 软件包管理器 > 管理 Nuget 软件包以解决问题 。  
-   - 搜索对象。 NuGet 软件包管理器中的文字 。  
-   - 单击安装将库添加到您的工程中 。
+   * 在视觉工作室打开您的项目 。  
+   * 导航到工具 > Nuget 软件包管理器 > 管理 Nuget 软件包以解决问题 。  
+   * 搜索对象。 NuGet 软件包管理器中的文字 。  
+   * 单击安装将库添加到您的工程中 。
 
 3. 许可激活 :  
-   - Obtain a license from the [Aspose Purchase page](https://purchase.aspose.com/buy) or apply for a [temporary license](https://purchase.aspose.com/temporary-license/).  
-   - 使用`apose.Words.License' 类来激活您的项目许可。
-
-4. 设置环境 :  
-   - 确保您的项目目标.NET框架,.NET核心,或.NET 6+得到Apostion.Words的支持。  
-   - 添加 Word 文档和形状工作所需的命名空间 。  
-
-5. 运行代码示例 :  
-   将所提供的代码复制到您的应用程序、编译和执行中。 代码将创建组合形状, 添加到文档中, 并保存到指定位置 。  
+   * 获得许可证[购买页面](https://purchase.aspose.com/buy)或申请a[临时许可证](https://purchase.aspose.com/temporary-license/). .  
+   * 使用`表达式。 words. License`类。
 
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)

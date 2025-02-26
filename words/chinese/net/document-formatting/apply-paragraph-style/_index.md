@@ -20,21 +20,16 @@ url: /zh/net/document-formatting/apply-paragraph-style/
 {{< blocks/products/pf/tutorial-page-section >}}
 ## 安装指示  
 1. 下载位置。 . NET 的文字 :  
-   Get the latest version from the [Aspose.Words for .NET download page](https://releases.aspose.com/words/net/).  
+   获取最新版本[选择。 . NET 下载页面的 words](https://releases.aspose.com/words/net/). .  
 
 2. 安裝位置。 通过 NuGet 的 words :  
-   - 在视觉工作室打开您的项目 。  
-   - 导航到工具菜单, 选择 NuGet 软件包管理器, 并单击管理 Nuget 软件包以解决问题 。  
-   - 在 NuGet 软件包管理器中搜索“ 应用. words ” 并单击安装 。  
+   * 在视觉工作室打开您的项目 。  
+   * 导航到工具菜单, 选择 NuGet 软件包管理器, 并单击管理 Nuget 软件包以解决问题 。  
+   * 搜索搜索`表达式 。`在 NuGet 软件包管理器中,单击安装。  
 
-3. 添加对备选的参考。  
-   确保您的项目引用`apose.words' 组装。  
+3. 应用许可( 可选) :  
+   为了避免评估限制,申请许可证。您可获得[临时许可证](https://purchase.aspose.com/temporary- license/)或从银行购买许可证[应用存储器](https://purchase.aspose.com/buy). .  
 
-4. 应用许可( 可选) :  
-   To avoid evaluation limitations, apply a license. You can get a [temporary license here](https://purchase.aspose.com/temporary-license/) or purchase a license from the [Aspose store](https://purchase.aspose.com/buy).  
-
-5. 写入您的代码 :  
-   将提供的代码片断复制并粘贴到您的工程中, 以创建和样式 Word 文档 。  
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)
 [位置。 编辑到. NET 引用](https://reference.aspose.com/words/net/)

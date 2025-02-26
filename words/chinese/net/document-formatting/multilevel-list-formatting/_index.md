@@ -20,18 +20,18 @@ url: /zh/net/document-formatting/multilevel-list-formatting/
 {{< blocks/products/pf/tutorial-page-section >}}
 ## 安装指示
 要使用.NET的文字,请遵循这些步骤:
-1. Download the library: Visit the [Aspose.Words for .NET download page](https://www.aspose.com/downloads/words/net).
+1. 下载库:访问[选择。 . NET 下载页面的 words](https://www.aspose.com/downloads/words/net). .
 2. 通过 NuGet 安装 :
-   - 打开您的视觉工作室项目 。
-   - 导航到工具 > Nuget 软件包管理器 > 管理 Nuget 软件包以解决问题 。
-   - 搜索 `apose. words' 并单击安装 。
+   * 打开您的视觉工作室项目 。
+   * 导航到工具 > Nuget 软件包管理器 > 管理 Nuget 软件包以解决问题 。
+   * 搜索搜索`表达式 。`并单击安装。
 3. 在您的代码中引用库 :
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    ```
 4. 应用许可( 可选) :  
-   To use the full version, [apply a license](https://purchase.aspose.com/temporary-license/) or use a [free trial](https://releases.aspose.com/words/net/).  
+   要使用完整版本,[申请许可](https://purchase.aspose.com/temporary-license/)或使用 a/[自由审判](https://releases.aspose.com/words/net/). .  
 
 
 ## 另见

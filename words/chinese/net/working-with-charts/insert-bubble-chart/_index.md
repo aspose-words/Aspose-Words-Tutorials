@@ -22,13 +22,13 @@ url: /zh/net/working-with-charts/insert-bubble-chart/
 ## 安装指示  
 
 1. 下载位置。 . NET 的 words  
-   Get the library from the [Aspose.Words download page](https://releases.aspose.com/words/net/).  
+   将图书馆从[选项。 Words 下载页面](https://releases.aspose.com/words/net/). .  
 
 2. 通过 NuGet 软件包管理器安装  
-   - 打开您的视觉工作室项目 。  
-   - 导航到工具 > Nuget 软件包管理器 > 管理 Nuget 软件包以解决问题 。  
-   - 在浏览标签中搜索 `apose. words' 。  
-   - 选择软件包并单击安装。  
+   * 打开您的视觉工作室项目 。  
+   * 导航到工具 > Nuget 软件包管理器 > 管理 Nuget 软件包以解决问题 。  
+   * 搜索搜索`表达式 。`在浏览标签中。  
+   * 选择软件包并单击安装。  
 
 3. 通过 NuGet 软件包管理器控制台安装  
    在软件包管理器控制台运行以下命令 :  
@@ -37,10 +37,7 @@ url: /zh/net/working-with-charts/insert-bubble-chart/
    ```  
 
 4. 添加授权  
-   For full functionality, apply a license. You can get a temporary license from the [Aspose Temporary License page](https://purchase.aspose.com/temporary-license/).  
-
-5. 开始编码  
-   您准备在 Word 文档中插入一个泡泡图表。 请按本指南中提供的示例执行 。  
+   申请许可后,您可向移民局申请临时许可。您可向移民局申请临时许可。您可向移民局申请临时许可。[使用临时许可页面](https://purchase.aspose.com/temporary- license/). .  
 
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)

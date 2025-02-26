@@ -12,7 +12,7 @@ url: /zh/net/working-with-charts/insert-scatter-chart/
 
 # 创建用于应用的单词散放图表。 Words
 
-应用.NET 简化创建和操作 Word 文档的程序。此示例展示了如何将散射图插入到单词文档中。通过初始化文档,使用“DocumentBilder”创建内容,并按程序插入图表数据,您可以在文档中有效添加专业级散射图。有了直观的 API, Aspose.Words 简化了.NET 开发者的文档自动化,节省了时间和精力。  
+设置 .NET 的 word 。 NAME OF TRANSLATORS 格式化了 Word 文档的简化创建和操作程序。此示例展示了如何将分布图插入到 Word 文档中。通过初始化文档,使用`文件编织器`对于内容创建,并用程序插入图表数据,您可以在文档中有效添加专业级散射图。借助其直观的 API, Aspose.Words 简化了.NET 开发者的文件自动化,节省了时间和精力。  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-scatter-chart" >}}
@@ -23,32 +23,24 @@ url: /zh/net/working-with-charts/insert-scatter-chart/
 举这个例子,遵循这些步骤:  
 
 1. 下载并安装 pose. words for.NET  
-   - Download the library from the official Aspose website: [Aspose.Words for .NET Downloads](https://releases.aspose.com/words/net/).  
-   - 通过 NuGet 软件包管理器安装 :  
+   * 从官方网站下载图书馆[设置。 . NET 下载的文字](https://releases.aspose.com/words/net/). .  
+   * 通过 NuGet 软件包管理器安装 :  
      ```bash  
      Install-Package Aspose.Words  
      ```  
 
 2. 设置您的开发环境  
-   - 打开您的. NET IDE( 如视觉工作室) 。  
-   - 创建新的控制台应用程序或整合到已有的工程中 。  
-   - 添加引用到 Apose. words for.NET 库。  
+   * 打开您的. NET IDE( 如视觉工作室) 。  
+   * 创建新的控制台应用程序或整合到已有的工程中 。  
+   * 添加引用到 Apose. words for.NET 库。  
 
 3. 应用许可  
-   - 如果您持有许可证,请在您的项目中使用:  
+   * 如果您持有许可证,请在您的项目中使用:  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("Your_License_File.lic");  
      ```  
-   - Alternatively, get a [free temporary license](https://purchase.aspose.com/temporary-license/) to test the library.
-
-4. 运行代码  
-   - 将提供的示例代码复制到您的项目中 。  
-   - 确保您有必要的输出目录权限 。  
-   - 构建和执行工程 。  
-
-5. 探索输出  
-   - 打开生成的“与图表一起工作. InsertScatterChart.docx” 文件, 以看到散射图在运行中 !  
+   * 或者,获得[免费临时许可证](https://purchase.aspose.com/temporary-license/)要测试库。
 
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)

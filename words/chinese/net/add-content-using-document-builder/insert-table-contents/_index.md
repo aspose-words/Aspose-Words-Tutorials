@@ -21,17 +21,12 @@ url: /zh/net/add-content-using-document-builder/insert-table-contents/
 ## 安装指示
 1. 先决条件:确保您在机器上安装了.NET。
 2. 安裝套件。 文字 : 
-   - 使用 NuGet 软件包管理器控制台:
+   * 使用 NuGet 软件包管理器控制台:
      ```
      Install-Package Aspose.Words
      ```
-   - 或者,在 NuGet 软件包管理器 GUI 中搜索“ 对象. words ” 。
-3. 参考图书馆:确保您的项目引用 Aspose.Words 库。
-4. 复制和实施代码 : 
-   - 使用所提供的代码片断来初始化新文档, 并使用文档构建器创建目录 。
-5. 运行您的应用程序 : 
-   - 执行您的工程, 您应该看到用功能目录创建的新的 Word 文档 。
-   
+   * 或者,在 NuGet 软件包管理器 GUI 中搜索“ 对象. words ” 。
+
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)
 [位置。 编辑到. NET 引用](https://reference.aspose.com/words/net/)

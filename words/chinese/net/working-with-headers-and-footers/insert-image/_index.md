@@ -1,5 +1,5 @@
 ---
-title: 将图像插入到 Word Document Header 中 {}  pose. words for.NET 。
+title: 将图像插入到 Word Document Header 中 {} pose. words for.NET 。
 weight: 7700
 limit: 
 description: 学习如何使用 Aspose.Words 来将图像插入 Word 文档的页眉。 使用 . NET 的 Words 。 带有样本代码和安装指令的一步步指南 。
@@ -24,12 +24,12 @@ url: /zh/net/working-with-headers-and-footers/insert-image/
 开始使用 Aspose。 . NET 的 words, 遵循这些简单的步骤 :  
 
 1. 下载位置 。 Words  
-   - [Download the latest version](https://releases.aspose.com/words/net/) of Aspose.Words for .NET.  
+   * [下载最新版本](https://releases.aspose.com/words/net/)用于.NET的文字。  
 
 2. 安裝套件。 通过 NuGet 的 words  
-   - 在视觉工作室打开您的项目 。  
-   - 转到工具菜单并选择 NuGet 软件包管理器 > 管理 Nuget 软件包以解决问题 。  
-   - 在 NuGet 软件包管理器中搜索“ 对象. words ” 并安装它 。  
+   * 在视觉工作室打开您的项目 。  
+   * 转到工具菜单并选择 NuGet 软件包管理器 > 管理 Nuget 软件包以解决问题 。  
+   * 搜索搜索`表达式 。`在 NuGet 软件包管理器中安装。  
 
    或者,使用软件包管理器控制台:  
    ```shell
@@ -37,15 +37,12 @@ url: /zh/net/working-with-headers-and-footers/insert-image/
    ```  
 
 3. 申请许可  
-   - Get a [free trial license](https://releases.aspose.com/) or [purchase a license](https://purchase.aspose.com/buy).  
-   - 使用以下代码在您的项目中应用许可证 :  
+   * 获得 a[自由试用许可](https://releases.aspose.com/)或[购买许可证](https://purchase.aspose.com/buy). .  
+   * 使用以下代码在您的项目中应用许可证 :  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```  
-
-4. 开始编码  
-   - 您可以使用 Aspose. words 在您的.NET 应用程序中。 以上述示例为例, 动态地将图像插入文档页眉中 。  
 
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)

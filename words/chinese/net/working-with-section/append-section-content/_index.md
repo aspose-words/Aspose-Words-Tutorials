@@ -24,28 +24,29 @@ url: /zh/net/working-with-section/append-section-content/
 要使用.NET的文字,请遵循这些步骤:  
 
 1. 下载位置 。 Words :  
-   - Visit the [Aspose.Words for .NET download page](https://releases.aspose.com/words/net/) to get the latest version.  
+   * 访问[选择。 . NET 下载页面的 words](https://releases.aspose.com/words/net/)获取最新版本。  
 
 2. 通过 NuGet 软件包管理器安装 :  
-   - 在视觉工作室打开您的. NET 工程 。  
-   - 导航到工具 > Nuget 软件包管理器 > 管理 Nuget 软件包用于解决方案菜单 。  
-   - 在 NuGet 软件包管理器中搜索“ 应用. words ” 。  
-   - 选择软件包并单击安装。  
+   * 在视觉工作室打开您的. NET 工程 。  
+   * 导航到工具 > Nuget 软件包管理器 > 管理 Nuget 软件包用于解决方案菜单 。  
+   * 在 NuGet 软件包管理器中搜索“ 应用. words ” 。  
+   * 选择软件包并单击安装。  
 
-3. 添加许可证 :  
-   - 如果您购买了许可证,请使用以下代码片段使用:  
-     ```csharp  
-     Aspose.Words.License license = new Aspose.Words.License();  
-     license.SetLicense("Aspose.Words.lic");  
-     ```  
-   - For evaluation or testing, you can request a [free temporary license](https://purchase.aspose.com/temporary-license/).  
-
-4. 包含所需的命名空间 :  
-   - 在您的 C# 文档中添加必需的`使用 ' 指令 :  
+3. 包含所需的命名空间 :  
+   - Add the necessary `using` directives to your C# file:  
      ```csharp  
      using Aspose.Words;  
      using Aspose.Words.Saving;  
      ```  
+
+4. 添加许可证 :  
+   * 如果您购买了许可证,请使用以下代码片段使用:  
+     ```csharp  
+     Aspose.Words.License license = new Aspose.Words.License();  
+     license.SetLicense("Aspose.Words.lic");  
+     ```  
+   * 用于评价或测试,您可申请[免费临时许可证](https://purchase.aspose.com/temporary-license/). .  
+
 
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)

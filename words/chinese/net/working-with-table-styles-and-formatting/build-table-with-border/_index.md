@@ -22,13 +22,13 @@ url: /zh/net/working-with-table-styles-and-formatting/build-table-with-border/
 ## 安装指示  
 以Aspostion开始。 . NET的文字, 跟着这些步骤:  
 
-1. Download the Library: Download the latest version of Aspose.Words for .NET from the [official download page](https://releases.aspose.com/words/net/).  
+1. 下载库: 下载最新版本的 Apostion. words for.NET 。[官方官方下载页面](https://releases.aspose.com/words/net/). .  
 2. 通过 NuGet 安装 :  
-   - 在视觉工作室打开您的项目 。  
-   - 转到工具 > Nuget 软件包管理器 > 管理 Nuget 软件包以解决问题 。  
-   - 搜索 `apose. words' 并单击安装 。  
-3. Apply License: Obtain a license from the [Aspose purchase page](https://purchase.aspose.com/buy) or use a [temporary license](https://purchase.aspose.com/temporary-license/) for evaluation purposes.  
-4. 添加命名空间: 在您的代码中添加 `apose. words' 命名空间 :  
+   * 在视觉工作室打开您的项目 。  
+   * 转到工具 > Nuget 软件包管理器 > 管理 Nuget 软件包以解决问题 。  
+   * 搜索搜索`表达式 。`并单击安装。  
+3. 申请许可证:[投放购买页面](https://purchase.aspose.com/buy)或使用 a/[临时许可证](https://purchase.aspose.com/temporary-license/)用于评估目的。  
+4. 添加命名空间: 添加`表达式 。`您代码中的命名空间 :  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;

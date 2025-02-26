@@ -22,7 +22,7 @@ url: /zh/net/working-with-table-styles-and-formatting/create-table-style/
 ## 安装指示:
 以Aspostion开始。 . NET的文字, 跟着这些步骤:
 
-1. Install Aspose.Words: You can download the latest version of Aspose.Words for .NET from the [releases page](https://releases.aspose.com/words/net/).
+1. 安裝套件. words: 您可以从 NAME 下载最新版本的 Asption. words for. NET 。[新闻稿页面](https://releases.aspose.com/words/net/). .
 
 2. 通过 NuGet 安裝 : 您也可以在 NuGet 软件包管理器中为. NuGet 安装 Aspose. Words 。 在 NuGet 软件包管理器中运行以下命令 :
    ```
@@ -34,7 +34,7 @@ url: /zh/net/working-with-table-styles-and-formatting/create-table-style/
    using Aspose.Words;
    ```
 4. 应用许可( 可选) :  
-   To use the full version, [apply a license](https://purchase.aspose.com/temporary-license/) or use a [free trial](https://releases.aspose.com/words/net/).
+   要使用完整版本,[申请许可](https://purchase.aspose.com/temporary-license/)或使用 a/[自由审判](https://releases.aspose.com/words/net/). .
    
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)

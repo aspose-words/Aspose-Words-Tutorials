@@ -20,7 +20,7 @@ url: /zh/net/working-with-table-styles-and-formatting/format-table-and-cell/
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## 安装指示
-1. Download Aspose.Words for .NET: Visit the [Aspose website](https://www.aspose.com) and download the latest version of Aspose.Words for .NET.
+1. 下载位置。 . NET 的 words: 访问[创建网站](https://www.aspose.com)并下载最新版本的 Aspose.Words for.NET。
 2. 添加引用 : 在您的.NET 工程中, 添加引用到 Apose.Words DLL 文件 。
 3. 通过 NuGet 安装 : 或者, 您可以使用 NuGet 软件包管理器安装软件包, 其命令如下 :
    ```
@@ -34,7 +34,7 @@ url: /zh/net/working-with-table-styles-and-formatting/format-table-and-cell/
    ```
 
 4. 应用许可( 可选) :  
-   To use the full version, [apply a license](https://purchase.aspose.com/temporary-license/) or use a [free trial](https://releases.aspose.com/words/net/).
+   要使用完整版本,[申请许可](https://purchase.aspose.com/temporary-license/)或使用 a/[自由审判](https://releases.aspose.com/words/net/). .
    
 ## 另见
 [位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)
