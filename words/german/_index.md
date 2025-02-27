@@ -73,7 +73,7 @@ Erkunden Sie in Word-Dokumenten Schrift-bezogene Funktionen wie Schriftstylen, Z
 
 {{< tutorial-card link="./net/working-with-fonts/font-formatting/" title="Schreiben Sie Schriftformate in Word " imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
 {{< tutorial-card link="./net/working-with-fonts/get-font-line-spacing/" title="Erhalten Sie Schriftzeilen-Austrennungen in Word-Dokument" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/set-font-emphasis-mark/" title="Stellen Sie das Zeichen "Emphasis" in einem Word-Dokument fest " imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-fonts/set-font-emphasis-mark/" title="Stellen Sie das Zeichen Emphasis in einem Word-Dokument fest " imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Arbeiten mit Formularfeldern in Aspose.Words für .NET](./net/working-with- form-fields/)

@@ -62,7 +62,7 @@ url: /ar/
 ### [تنسيق المستندات مع Aspose.Words ل .NET](./net/document-formatting/)
 فهم كيفية تطبيق خيارات التنسيق المختلفة على الفقرات والقوائم وعناصر الوثائق لتعزيز الجمال البصري لملفاتك الكلمة.
 
-{{< tutorial-card link="./net/document-formatting/apply-border-and-shading/" title="تطبيق الحدود والظلال على الفقرة في "تحدث. الكلمات" " imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-formatting/apply-border-and-shading/" title="تطبيق الحدود والظلال على الفقرة في تحدث. الكلمات " imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
 {{< tutorial-card link="./net/document-formatting/apply-paragraph-style/" title="إعداد ورقة الوثيقة الكلمة في Aspose.Words " imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
 {{< tutorial-card link="./net/document-formatting/multilevel-list-formatting/" title="إعداد قوائم متعددة المستويات في الكلمة مع Aspose.Words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
 {{< tutorial-card link="./net/document-formatting/paragraph-formatting/" title="تنسيق الفقرات " imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
