@@ -1,38 +1,38 @@
 //ExStart
-//ExSummary: Kode berikut menunjukkan cara membuat dokumen Word dengan sel tabel terformat yang mencakup padding di sekeliling isinya.
-//ExStepSummary:0: Kode berikut menginisialisasi dokumen baru dan pembuat dokumen.
+//ExSummary: Kode berikut menunjukkan cara membuat dokumen Word dengan sel tabel yang diformat yang mencakup pengisian di sekitar isinya.
+//ExStepSummary:0: Kode berikut ini menginisialisasikan dokumen baru dan pembuat dokumen.
 //ExStepSummary:1: Kode berikut memulai tabel dalam dokumen.
 //ExStepSummary:2: Kode berikut memasukkan sel ke dalam tabel.
 //ExStepSummary:3: Kode berikut menetapkan padding untuk isi sel.
 //ExStepSummary:4: Kode berikut menambahkan teks ke sel dan menyelesaikan baris saat ini.
-//ExStepSummary:5: Kode berikut berakhir dengan tabel dan menyimpan dokumen ke berkas.
+//ExStepSummary:5: Kode berikut mengakhiri tabel dan menyimpan dokumen ke file.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Inisialisasi dokumen baru
+// Mulai dokumen baru
 Document doc = new Document();
-// Buat pembangun dokumen untuk memanipulasi dokumen
+// Buat pembuat dokumen untuk memanipulasi dokumen
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Mulai membuat tabel
+// Mulailah membuat tabel
 builder.StartTable();
 // Masukkan sel baru ke dalam tabel
 builder.InsertCell();
 
 //ExStep:2-
-// Atur padding dengan 30 poin di atas dan bawah, 50 poin di kiri dan kanan
+// Set padding dengan 30 poin di atas dan bawah, 50 poin di kiri dan kanan
 builder.CellFormat.SetPaddings(30, 50, 30, 50);
 
 //ExStep:3-
 builder.Writeln("I'm a wonderful formatted cell.");
-// Selesai baris kini di tabel
+// Selesai baris saat ini di tabel
 builder.EndRow();
-// Akhir tabel
+// Mengakhiri meja
 builder.EndTable();
 
 //ExStep:4-
-// Simpan dokumen ke berkas yang dinyatakan
+// Simpan dokumen ke file yang ditentukan
 doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
 //ExEnd

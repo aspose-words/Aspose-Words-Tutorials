@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary: Deze code laat zien hoe je alinea's in een Word-document formatteert met behulp van Aspose.Words. Het laat zien hoe je alinea-opmaakopties zoals uitlijning, inspringen en spatie na een alinea instelt.
+//ExSummaryDeze code toont hoe paragrafen in een Word-document met behulp van Aspose.Words kunnen worden geformatteerd.
 //ExStepSummary:0: Deze stap initialiseert een nieuw Document en een DocumentBuilder voor het bouwen van het document.
-//ExStepSummary:1: Deze stap stelt de opmaakopties van de alinea in, inclusief uitlijning, linker streepje, rechter streepje en spatie na de alinea.
-//ExStepSummary:2: Deze stap schrijft een goed geformatteerde paragraaf met de opgegeven formatteringsopties naar het document.
-//ExStepSummary:3: Deze stap schrijft een andere geformatteerde paragraaf die het effect van ruimte na de alinea aantoont.
+//ExStepSummary:1: Deze stap stelt de opties voor het formateren van de paragraaf, met inbegrip van afstemming, linker streepje, rechter streepje en ruimte na de paragraaf.
+//ExStepSummary:2: Deze stap schrijft een goed geformatteerde paragraaf met de gespecificeerde opties voor het formateren van het document.
+//ExStepSummary:3: Deze stap schrijft een ander geformatteerd lid dat het effect van ruimte na de paragraaf aantoont.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0- 
-// Een nieuwe document-initiatie aanmaken.
+// Maak een nieuwe Document-instance.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1- 
-// Opmaakopties voor alinea's instellen.
+// Stel paragraafformatingsopties in.
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;
 paragraphFormat.LeftIndent = 50;
@@ -26,11 +26,11 @@ builder.Writeln(
 	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
 
 //ExStep:3- 
-// Schrijf de tweede geformatteerde paragraaf.
+// Schrijf de tweede paragraaf in format.
 builder.Writeln(
 	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
 
 //ExStep:4- 
-// Het document opslaan in het opgegeven pad.
+// Bewaar het document op het gespecificeerde pad.
 doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
 //ExEnd

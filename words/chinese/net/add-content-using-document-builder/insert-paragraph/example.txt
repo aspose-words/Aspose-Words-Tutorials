@@ -1,44 +1,44 @@
 //ExStart
-//ExSummary:本代码演示如何使用文档构建器类创建 Word 文档,并在其中插入一个样式化段落。
-//ExStepSummary:0: 以下代码初始化文档和文档构建器,用于创建文档。
-//ExStepSummary:1: 以下代码为段落配置字体设置。
-//ExStepSummary:2: 以下代码为对齐和缩进设定段落格式设置。
-//ExStepSummary:3: 以下代码在文件中写上一段段落。
-//ExStepSummary:4: 以下代码将文档保存为.docx 文件 。
+//ExSummary: 这个代码显示如何使用 DocumentBuilder 类创建 Word 文档,并将一个风格段子插入其中.
+//ExStepSummary:0: 下面的代码初始化文件和文件构造器.
+//ExStepSummary:1: 下面的代码为段落设置字体设置.
+//ExStepSummary:2: 下面的代码设定了对配线和注入的段格式设置.
+//ExStepSummary:3: 下面的代码将一段落写入文件中.
+//ExStepSummary:4: 下面的代码将文档保存为 .docx文件.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// 初始化新的文档对象
+// 启动一个新的文档对象
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 访问文档构建器的字体设置
+// 访问文档构造器的字体设置
 Font font = builder.Font;
-// 将字体大小设为 16
+// 设置字体大小为16
 font.Size = 16;
-// 使字体以粗体显示
+// 打字体大写
 font.Bold = true;
-// 将字体颜色设置为蓝色
+// 设置字体颜色为蓝色
 font.Color = Color.Blue;
-// 将字体名称设置为 Arial
+// 设置字体名称为Arial
 font.Name = "Arial";
-// 在字体中添加划划线下划划线
+// 添加一个有点点的字体突显
 font.Underline = Underline.Dash;
 
 //ExStep:2-
-// 访问段落格式设置
+// 访问段格式设置
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.FirstLineIndent = 8;
 paragraphFormat.Alignment = ParagraphAlignment.Justify;
 paragraphFormat.KeepTogether = true;
 
 //ExStep:3-
-// 将文字的段落写入文档
+// 写一个文本段落
 builder.Writeln("A whole paragraph.");
 
 //ExStep:4-
-// 将文档另存为.docx 文件
+// 保存文件作为 .docx文件
 doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
 //ExEnd

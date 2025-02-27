@@ -1,50 +1,50 @@
 //ExStart
-//ExSummary:请检查以下代码以找到如何在 Word 文档中插入一个简单的列图表。您可以将该代码复制到您的 IDE 中并运行它。
-//ExStepSummary:0: 此代码演示如何使用 Aspose. word 创建单词文档, 并在其中插入列图 。
-//ExStepSummary:1: 此代码显示如何创建用于调控 Word 内容的文档构建器对象 。
-//ExStepSummary:2: 此代码显示如何在文档中插入带有指定维度的列图表形状 。
-//ExStepSummary:3: 此代码从插入的形状中获取图表对象,以便进一步定制。
-//ExStepSummary:4: 此代码显示如何访问图表序列收藏并打印序列数 。
-//ExStepSummary:5: 此代码清除任何可能与图表一起创建的默认序列 。
-//ExStepSummary:6: 本代码演示如何为图表数据定义类别名称 。
-//ExStepSummary:7: 此代码显示如何在图表中添加包含相应类别名称和数据值的序列 。
-//ExStepSummary:8: 此代码将插入图表的文档保存到指定的文件 。
+//ExSummary查看下面的代码,以找到如何将简单的列表插入Word文档.
+//ExStepSummary:0: 这代码展示如何使用Aspose.Words创建一个Word文档,并将一个列表插入其中.
+//ExStepSummary:1: 这个代码显示如何创建一个文件构建器对象来操纵Word内容.
+//ExStepSummary:2: 文件中将列表形状,有指定尺寸的形状插入.
+//ExStepSummary:3: 通过此代码,将图表对象从插入的形状中获取,以便进一步定制.
+//ExStepSummary:4: 这代码显示如何访问图表系列集合并打印数量.
+//ExStepSummary:5: 通过此代码清除可能与图表创建的默认系列.
+//ExStepSummary:6: 图表数据的类别名称的定义方法.
+//ExStepSummary:7: 本代码显示如何将相应类别名称和数据值添加连串到图表中.
+//ExStepSummary:8: 文件的编码将文件的文件存储到一个特定的文件中.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
 //ExStepImage:7:images/4.png
 //ExStep:0-
-// 创建新 Word 文档实例。
+// 创建一个新的Word文档实例.
 Document doc = new Document();
 
 //ExStep:1-
-// 创建文档构建器,以便于在文档中插入元素。
+// 创建一个文件构造器,以便轻松地插入元素到文档中.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:2-
-// 插入一个带有指定宽度(432)和高度(252)的列图形状。
+// 插入一个列表形状,指定宽度 (432) 和高度 (252).
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 
 //ExStep:3-
-// 从形状中获取图表对象, 以便进一步操作 。
+// 取回图形对象,以便进一步操纵.
 Chart chart = shape.Chart;
 
 //ExStep:4-
-// 访问图表序列收藏。
+// 访问图表的系列集合.
 ChartSeriesCollection seriesColl = chart.Series;
-// 打印到控制台的图表中的序列数 。
+// 打印图中的系列号码到控制台上.
 Console.WriteLine(seriesColl.Count);
 
 //ExStep:5-
-// 删除创建图表时自动生成的任何默认序列。
+// 删除图表创建时自动生成的默认系列.
 seriesColl.Clear();
 
 //ExStep:6-
-// 为图表数据定义一系列类别名称。
+// 定义图表数据类别名称阵列.
 string[] categories = new string[] { "Category 1", "Category 2" };
 
 //ExStep:7-
-// 在图表中添加多个序列,加上类别名称和数据值。
+// 加入多个系列,以类别名称和数据值添加到图表中.
 seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
 seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
 seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
@@ -52,6 +52,6 @@ seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
 seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
 
 //ExStep:8-
-// 将插入的图表中的文档保存到指定的文件路径。
+// 保存附加图表的文件到指定文件路径.
 doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
 //ExEnd

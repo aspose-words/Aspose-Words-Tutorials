@@ -1,12 +1,12 @@
 //ExStart
-//ExSummary:Kode ini menunjukkan bagaimana membuat dokumen Word dengan tabel yang memiliki gaya batas dan shading yang berbeda untuk sel-selnya.
-//ExStepSummary:0: Inisialisasi Dokumen dan Dokumen Builder untuk membuat dokumen Word baru.
-//ExStepSummary:1: Buat meja baru dan atur perbatasan untuk seluruh meja.
-//ExStepSummary:2: Tambahkan sel pertama dengan shading latar belakang merah dan teks.
-//ExStepSummary:3: Tambahkan sel kedua dengan shading latar hijau dan teks.
-//ExStepSummary:4: Akhir baris pertama dan bersihkan pemformatan sel sebelumnya.
-//ExStepSummary:5: Tambahkan baris baru dengan batas yang lebih besar gubahan bagi sel pertama.
-//ExStepSummary:6: Tambahkan sel kedua dari baris baru dengan format dan teks baku.
+//ExSummary:Kode ini menunjukkan cara membuat dokumen Word dengan tabel yang memiliki gaya batas dan bayangan yang berbeda untuk sel-selnya.
+//ExStepSummary:0: Inisialisasikan Document dan DocumentBuilder untuk membuat dokumen Word baru.
+//ExStepSummary:1: Mulailah meja baru dan aturlah batas untuk seluruh meja.
+//ExStepSummary:2: Tambahkan sel pertama dengan warna latar belakang merah dan teks.
+//ExStepSummary:3: Tambahkan sel kedua dengan warna latar belakang hijau dan teks.
+//ExStepSummary:4: Hentikan baris pertama dan hapus format sel sebelumnya.
+//ExStepSummary:5: Tambahkan baris baru dengan batas yang lebih besar untuk sel pertama.
+//ExStepSummary:6: Tambahkan sel kedua baris baru dengan format default dan teks.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -16,33 +16,33 @@
 //ExStep:0-
 // Buat dokumen baru.
 Document doc = new Document();
-// Buat Dokumen Builder untuk memanipulasi dokumen.
+// Buat DocumentBuilder untuk memanipulasi dokumen.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Memulai meja baru.
+// Mulailah meja baru.
 Table table = builder.StartTable();
 // Masukkan sel pertama ke dalam tabel.
 builder.InsertCell();
-// Mengatur perbatasan untuk seluruh meja.
+// Tentukan batas untuk seluruh meja.
 table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
 
 //ExStep:2-
-// Ubah warna latar belakang sel menjadi merah.
+// Set background warna sel ke merah.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
 builder.Writeln("Cell #1");
 // Masukkan sel kedua.
 builder.InsertCell();
 
 //ExStep:3-
-// Ubah warna latar belakang sel menjadi hijau.
+// Set background warna sel ke hijau.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
 builder.Writeln("Cell #2");
-// Akhir baris ini.
+// Mengakhiri baris saat ini.
 builder.EndRow();
 
 //ExStep:4-
-// Bersihkan pemformatan sel apapun untuk memulai baru.
+// Hapus format sel untuk memulai baru.
 builder.CellFormat.ClearFormatting();
 // Masukkan sel baru di baris berikutnya.
 builder.InsertCell();

@@ -1,8 +1,8 @@
 ---
-title: 将图像插入到 Word Document Header 中 {} pose. words for.NET 。
+title: 插入一个图像到Word文档标题里.
 weight: 7700
 limit: 
-description: 学习如何使用 Aspose.Words 来将图像插入 Word 文档的页眉。 使用 . NET 的 Words 。 带有样本代码和安装指令的一步步指南 。
+description: 学习如何将图像插入Word文档的标题,使用 .NET的Aspose.Words. 步骤指南,示例代码和安装说明.
 keywords: [Aspose.Words for .NET, insert image in header, Word document, .NET library, Word automation, header customization, document processing, C# example]
 url: /zh/net/working-with-headers-and-footers/insert-image/
 ---
@@ -10,43 +10,43 @@ url: /zh/net/working-with-headers-and-footers/insert-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Word 文档页眉中插入图像
+# 插入图像到Word文档标题中
 
-用于 .NET 简化 Word 文档处理的文字。 使开发者能够将图像插入信头等任务自动化。 此教程演示了如何使用文档和文档构建器类添加图像, 使其与 Word 文档的主信头有精确的对齐、 尺寸和包页选项 。 此程序直截了当, 使开发者理想地以动态方式增强文档模板。 有了详细的步骤和样本代码, 您可以不遗余力地将此功能整合到您的. NET 应用程序中 。  
+简化了Word文件处理,让开发人员可以自动化插入图像到标题中的任务.本教程展示了如何使用文档和文档构建器类,将一个图像添加到Word文档的主要标题中,并精确的配列,尺寸和包装选项.该过程是简单的,使其理想的,为旨在动态增强文档模板的开发人员.通过详细的步骤和样本代码,您将能够轻松地将此功能集成到您的 .NET应用程序中.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-headers-and-footers/insert-image" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## 安装指示  
+## 装备说明  
 
-开始使用 Aspose。 . NET 的 words, 遵循这些简单的步骤 :  
+为了开始使用 .NET 的Aspose.Words, 按照以下简单的步骤进行:  
 
-1. 下载位置 。 Words  
-   * [下载最新版本](https://releases.aspose.com/words/net/)用于.NET的文字。  
+1. 接下来,我们可以在Aspose.Words中找到一个字符.  
+   * [下载最新版本](https://releases.aspose.com/words/net/)对于 .NET 的Aspose.Words  
 
-2. 安裝套件。 通过 NuGet 的 words  
-   * 在视觉工作室打开您的项目 。  
-   * 转到工具菜单并选择 NuGet 软件包管理器 > 管理 Nuget 软件包以解决问题 。  
-   * 搜索搜索`表达式 。`在 NuGet 软件包管理器中安装。  
+2. 通过 NuGet 安装Aspose.Words  
+   * 在视觉工作室打开你的项目.  
+   * 进入工具菜单,然后选择NuGet包管理器>解决方案管理NuGet包.  
+   * 搜索`"回答. 字"`在 NuGet 包管理器中安装.  
 
-   或者,使用软件包管理器控制台:  
+   或使用包管理器控制台:  
    ```shell
    Install-Package Aspose.Words
    ```  
 
-3. 申请许可  
-   * 获得 a[自由试用许可](https://releases.aspose.com/)或[购买许可证](https://purchase.aspose.com/buy). .  
-   * 使用以下代码在您的项目中应用许可证 :  
+3. 申请许可证  
+   * 拿一个[免费试用许可证](https://releases.aspose.com/)或[购买许可证](https://purchase.aspose.com/buy)现在,我们要去.  
+   * 使用以下代码来应用该许可证在您的项目中:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```  
 
-## 另见
-[位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)
-[位置。 编辑到. NET 引用](https://reference.aspose.com/words/net/)
+## 查看
+[设置.Word为 .NET文档](https://docs.aspose.com/words/net/)
+[标用.NET引用的Word](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

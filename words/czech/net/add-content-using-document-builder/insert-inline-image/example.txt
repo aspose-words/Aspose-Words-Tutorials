@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary:Tento kód ukazuje, jak vložit inline obrázek do dokumentu Word pomocí Aspose.Words.
-//ExStepSummary:0: Inicializace objektu Dokumentu a DocumentBuilder pro sestavení dokumentu.
-//ExStepSummary:1: Vložení obrázku do dokumentu na aktuální pozici kurzoru s DocumentBuilderem.
-//ExStepSummary:2: Uložení dokumentu na zadaný název souboru.
+//ExSummaryTento kód ukazuje, jak vložit vkladový obrázek do dokumentu Word pomocí Aspose.Words.
+//ExStepSummary:0: Initializace objektu Dokument a dokumentbuilder pro konstrukci dokumentu.
+//ExStepSummary:1: Vkládání obrazu do dokumentu v současné poloze kurzora pomocí programu DocumentBuilder.
+//ExStepSummary:2: Uložení dokumentu do konkrétního názvu souboru.
 //ExStepImage:1:images/1.png
 //ExStep:0-
-// Inicializovat nový dokument a dokumentBuilder
+// Začněte nový dokument a dokumentbuilder
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Vložit obrázek pomocí DocumentBuilder
+// Vložte obrázek pomocí dokumentuBuilder
 builder.InsertImage(ImagesDir + "Transparent background logo.png");
 
 //ExStep:2-
-// Uložit upravený dokument do souboru
+// Uložte změněný dokument do souboru
 doc.Save("AddContentUsingDocumentBuilder.InsertInlineImage.docx");
 //ExEnd

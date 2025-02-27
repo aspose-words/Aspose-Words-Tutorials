@@ -1,8 +1,8 @@
 //ExStart
-//ExSummary: Este código demonstra como inserir campos de formulário em um documento do Word usando Aspose.Words for .NET. Especificamente, mostra como inserir um campo de formulário de caixa de combinação com itens predefinidos.
-//ExStepSummary:0: O código a seguir demonstra como criar um novo documento do Word.
+//ExSummaryEste código demonstra como inserir campos de formulário em um documento do Word usando Aspose.Words para .NET. Especificamente, mostra como inserir um campo de formulário com caixa com itens predefinidos.
+//ExStepSummary:0: O código a seguir mostra como criar um novo documento da Palavra.
 //ExStepSummary:1: O código a seguir demonstra como inicializar um DocumentBuilder para editar o documento.
-//ExStepSummary:2: O código a seguir demonstra como definir e inserir um campo de formulário de caixa de combinação com itens predefinidos e uma seleção padrão.
+//ExStepSummary:2: O código a seguir demonstra como definir e inserir um campo de formulário com caixa combinada com itens predefinidos e uma seleção padrão.
 //ExStepImage:0:images/1.png
 //ExStepImage:1:images/2.png
 //ExStep:0-
@@ -11,7 +11,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Definir e inserir um campo de formulário de caixa de combinação
+// Defina e insira um campo de formulário de caixa combinada
 string[] items = { "One", "Two", "Three" };
 builder.InsertComboBox("DropDown", items, 0);
 //ExEnd

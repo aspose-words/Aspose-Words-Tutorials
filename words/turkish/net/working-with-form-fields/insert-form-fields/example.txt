@@ -1,8 +1,8 @@
 //ExStart
-//ExSummary: Bu kod, .NET için Aspose.Words kullanarak bir Word belgesine form alanlarının nasıl yerleştirileceğini gösterir. Özellikle, önceden tanımlanmış öğelerle bir kombo kutu form alanının nasıl yerleştirileceğini gösterir.
-//ExStepSummary:0: Aşağıdaki kod, yeni bir Word belgesinin nasıl oluşturulacağını gösterir.
-//ExStepSummary:1: Aşağıdaki kod, belgeyi düzenlemek için bir DocumentBuilder'ın nasıl başlatılacağını gösterir.
-//ExStepSummary:2: Aşağıdaki kod, önceden tanımlanmış öğeler ve varsayılan bir seçimle bir kombo kutu form alanının nasıl tanımlanacağını ve yerleştirileceğini gösterir.
+//ExSummary: Bu kod .NET için Aspose.Words kullanarak bir Word belgesine form alanlarını nasıl ekleyeceğinizi gösterir. Özellikle, önceden tanımlanmış öğelerle bir kombinasyon kutu form alanını nasıl ekleyeceğinizi gösterir.
+//ExStepSummary:0: Aşağıdaki kod yeni bir Word belgesini nasıl oluşturulacağını gösterir.
+//ExStepSummary:1: Aşağıdaki kod, belge düzenlemesi için bir DocumentBuilder'i nasıl başlatılacağını gösterir.
+//ExStepSummary:2: Aşağıdaki kod, önceden tanımlanmış öğeler ve varsayılan bir seçim ile bir kombinasyon kutu form alanını nasıl tanımlayacağınızı ve ekleyeceğinizi gösterir.
 //ExStepImage:0:images/1.png
 //ExStepImage:1:images/2.png
 //ExStep:0-
@@ -11,7 +11,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Bir kombo kutu form alanını tanımla ve ekle
+// Bir kombinasyon kutu formu alanını tanımlayın ve ekleyin
 string[] items = { "One", "Two", "Three" };
 builder.InsertComboBox("DropDown", items, 0);
 //ExEnd

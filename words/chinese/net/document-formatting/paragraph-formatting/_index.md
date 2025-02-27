@@ -1,8 +1,8 @@
 ---
-title: 使用 apose.words for.NET的格式段落
+title: 使用 .NET 的Aspose.Words来格式化段落
 weight: 7700
 limit: 
-description: 学习如何格式化 Word 文档中的段落, 使用 Apose. words for.NET, 包括对齐、 缩进和间距 。
+description: 了解如何在Word文档中使用 .NET的Aspose.Words格式化段落,包括排列,插入和间隔.
 keywords: [Aspose.Words, .NET, paragraph formatting, Word document, document builder, alignment, indentation, Word API]
 url: /zh/net/document-formatting/paragraph-formatting/
 ---
@@ -10,37 +10,37 @@ url: /zh/net/document-formatting/paragraph-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用引文的格式段落。
-本指南提供了一个如何使用 Aspose. words for.NET来格式化 Word 文档中的段落的例子。 您将学习如何设置段落格式化选项, 如对齐、 缩进和段落后的空格。 该示例说明了文档和文档构建器类的使用情况, 从而能够按程序创建结构完善的文档 。
+# 用Aspose.Words来编写段落
+本指南提供了 Word 文档中的段落格式化方法的一个例子,使用 .NET 的Aspose.Words.您将学习如何设置各种段落格式化选项,如对齐,插入和段落后空间.本例说明了文档和文档构造师类的使用,使得程序性创建结构良好的文档.
 
 ---
 {{< tutorial-widget sourcePath="words/net/document-formatting/multilevel-list-formatting" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## 安装指示
-1. 下载位置。 . NET 的 words: 访问[创建网站](https://www.aspose.com/downloads/words/net)要下载最新版本的 Apostion. words for.NET。
+## 装备说明
+1. 访问网页.[目标网站](https://www.aspose.com/downloads/words/net)为了下载 .NET 的最新版本Aspose.Words.
 
-2. 添加引用 : 在您的.NET 工程中, 右键单击 解决方案探索器中的工程, 选择 添加 > 引用, 并浏览以添加 Apose. Words DLL 文件 。
+2. 在您的 .NET 项目中,右键在Solution Explorer中的项目上,选择添加>引用,然后浏览添加Aspose.Words DLL文件.
 
-3. 使用 Nuget 软件包( 可选择的) : 或者, 您可以通过 Nuget 软件包管理器安装 Aspose.Words , 命令如下 :
+3. 使用NuGet包 (可选): 另有,您可以通过NuGet包管理器安装Aspose.Words下列命令:
    ```
    Install-Package Aspose.Words
    ```
 
-4. 导入命名空间: 在您的代码文件中添加以下使用语句的语句 :
+4. 进口名区:将以下语句添加到代码文件中:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
-5. 应用许可( 可选) :  
-   要使用完整版本,[申请许可](https://purchase.aspose.com/temporary-license/)或使用 a/[自由审判](https://releases.aspose.com/words/net/). .  
+5. 申请许可证 (可选):  
+   为了使用完整版本,[申请许可证](https://purchase.aspose.com/temporary- license/)或使用一个[免费试验](https://releases.aspose.com/words/net/)现在,我们要去.  
 
 
-## 另见
-[位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)
-[位置。 编辑到. NET 引用](https://reference.aspose.com/words/net/)
+## 查看
+[设置.Word为 .NET文档](https://docs.aspose.com/words/net/)
+[标用.NET引用的Word](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

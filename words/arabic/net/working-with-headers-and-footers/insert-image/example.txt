@@ -1,22 +1,22 @@
 //ExStart
-//ExSummaryيوضح هذا الرمز كيفية إدراج صورة في رأس مستند Word باستخدام Apose.Words for .NET.
-//ExStepSummary:0: إنشاء مستند Word جديد باستخدام فئة مستند Apose.Words.
-//ExStepSummary:1: انتقل إلى العنوان الرئيسي للمستند باستخدام DocumentBuilder.
-//ExStepSummary:2: إدراج صورة في الرأس مع محاذاة محددة، والأبعاد، وخيارات التفاف.
-//ExStepSummary:3: احفظ المستند إلى مسار ملف محدد.
+//ExSummary: هذا الرمز يظهر كيفية إدخال صورة في رأس وثيقة Word باستخدام Aspose.Words ل .NET.
+//ExStepSummary:0: قم بإنشاء مستند Word جديد باستخدام فئة Aspose.Words Document.
+//ExStepSummary:1: انتقل إلى العنوان الأساسي للوثيقة باستخدام مُصمم الوثائق.
+//ExStepSummary:2: إدراج صورة في العنوان مع تحديد المواءمة والأبعاد والخيارات الملفوفة.
+//ExStepSummary:3: حفظ الوثيقة إلى مسار ملف محدد.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// إنشاء مستند Word جديد
+// إعداد وثيقة Word الجديدة
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// حرّك المؤشر إلى العنوان الرئيسي للمستند
+// نقل الوسيط إلى العنوان الأساسي للوثيقة
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
 //ExStep:2-
-// إدراج صورة في الرأس مع محاذاة وأبعاد محددة
+// إدراج صورة في العنوان مع التوجه والبعالم المحددة
 builder.InsertImage(
     ImagesDir + "Logo.jpg", RelativeHorizontalPosition.RightMargin, 10,
     RelativeVerticalPosition.Page, 10, 50, 50, 
@@ -24,6 +24,6 @@ builder.InsertImage(
 );
 
 //ExStep:3-
-// احفظ المستند إلى المسار المحدد
+// حفظ الوثيقة إلى المسار المحدد
 doc.Save("WorkingWithHeadersAndFooters.InsertImage.docx");
 //ExEnd

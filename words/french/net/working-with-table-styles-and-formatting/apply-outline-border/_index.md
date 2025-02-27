@@ -1,8 +1,8 @@
 ---
-title: Appliquer la bordure de contour à une table en Word en utilisant Aspose.Words
+title: Appliquer la limite de contour à un tableau en Word à l'aide de Aspose.Words
 weight: 7700
 limit: 
-description: Apprenez comment appliquer une bordure de contour à une table en Word en utilisant Aspose.Words pour .NET. Centrer la table, ajouter une bordure verte, et remplir les cellules avec un fond vert clair.
+description: Apprenez à appliquer une limite de contour à une table dans Word en utilisant Aspose.Words pour .NET. Centrez la table, ajoutez une limite verte et remplissez les cellules avec un fond vert clair.
 keywords: [Aspose.Words for .NET, Word table formatting, outline border, apply table border, table shading, .NET Word library]
 url: /fr/net/working-with-table-styles-and-formatting/apply-outline-border/
 ---
@@ -10,9 +10,9 @@ url: /fr/net/working-with-table-styles-and-formatting/apply-outline-border/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Appliquer la bordure de contour à une table en Word en utilisant Aspose.Words
+# Appliquer la limite de contour à un tableau en Word à l'aide de Aspose.Words
 
-Aspose.Words for .NET est une bibliothèque puissante pour le traitement de documents Word. Cet exemple montre comment formater une table en appliquant une bordure de contour, en centrant la table, et en ajoutant un fond vert clair aux cellules de la table. Que vous travailliez avec des documents Word complexes ou avez besoin d'un contrôle précis sur le formatage, Aspose.Words simplifie le processus.
+Aspose.Words pour .NET est une bibliothèque puissante pour le traitement de documents Word. Cet exemple montre comment formater un tableau en appliquant une limite de contour, en centrant la table et en ajoutant un fond vert clair aux cellules de la table. Que vous travailliez avec des documents Word complexes ou que vous ayez besoin d'un contrôle précis sur le formatage, Aspose.Words simplifie le processus. Améliorez vos documents Word de manière programmatique avec des fonctionnalités robustes et personnalisables fournies par cette bibliothèque.
 
 
 ---
@@ -22,28 +22,28 @@ Aspose.Words for .NET est une bibliothèque puissante pour le traitement de docu
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instructions d'installation  
 
-### Préalables  
-1. Assurez-vous d'avoir .NET Framework 4.7.2 ou une version ultérieure installée sur votre système.  
-2. Téléchargez et installez Visual Studio (2019 ou plus tard est recommandé).  
+### Préalabilités  
+1. Assurez-vous d'avoir .NET Framework 4.7.2 ou version ultérieure installée sur votre système.  
+2. Télécharger et installer Visual Studio (2019 ou ultérieur est recommandé).  
 
-### Étapes d'installation  
-1. Téléchargez la bibliothèque d'Aspose.Words pour .NET à partir du site officiel:[Pose.Words pour .NET Télécharger](https://releases.aspose.com/words/net/)C'est vrai.  
-2. Installez la bibliothèque via NuGet Package Manager :  
+### Les étapes d'installation  
+1. Téléchargez la bibliothèque .NET Aspose.Words sur le site officiel: [Aspose.Words pour .NET téléchargement](https://releases.aspose.com/words/net/)\- Je suis désolé .  
+2. Installez la bibliothèque via le gestionnaire de paquets NuGet:  
    * Ouvrez votre projet dans Visual Studio.  
-   * Allez dans Outils > Gestionnaire de paquets NuGet > Gérer les paquets NuGet pour la solution.  
-   * Rechercher`Pose.Words`et cliquez sur Installer.  
-3. Ajoutez une référence à la bibliothèque de votre projet :  
+   * Allez à Tools > Gestionnaire de paquets NuGet > Gérer les paquets NuGet pour la solution.  
+   * Recherche de `"Aspose. Les mots"`et cliquez sur Installer.  
+3. Ajoutez une référence à la bibliothèque dans votre projet:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    using System.Drawing;
    ```  
-4. Appliquer une licence (facultative) :  
-   Pour utiliser la version complète,[appliquer une licence](https://purchase.aspose.com/temporary-license/)ou d'utiliser[essai gratuit](https://releases.aspose.com/words/net/)C'est vrai.
+4. Pour les personnes ayant une licence de licence (optionnelle):  
+   Pour utiliser la version complète,[appliquer une licence](https://purchase.aspose.com/temporary-license/)ou utiliser un[épreuve gratuite](https://releases.aspose.com/words/net/)\- Je suis désolé .
    
 ## Voir aussi
-[Pose.Word pour .NET Documentation](https://docs.aspose.com/words/net/)
-[Pose.Word pour .NET Références](https://reference.aspose.com/words/net/)
+[Aspose.Word pour la documentation .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word pour les références .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,42 +1,42 @@
 //ExStart
-//ExSummary: Kode ini menunjukkan bagaimana membuat dokumen Word dengan tabel Aspose.Words. Ia membangun tabel dengan dua baris dan berbagai orientasi teks sel dan format.
-//ExStepSummary:0: Kode berikut menginisialisasi dokumen baru dan pembuatan dokumen.
+//ExSummary: Kode ini menunjukkan bagaimana membuat dokumen Word dengan tabel menggunakan Aspose.Words. Ini membangun tabel dengan dua baris dan berbagai orientasi dan format teks sel.
+//ExStepSummary:0: Kode berikut ini menginisialisasikan dokumen baru dan pembuat dokumen.
 //ExStepSummary:1: Kode berikut memulai tabel baru dan memasukkan baris pertama sel.
-//ExStepSummary:2: Kode berikut mengatur format untuk baris kedua dan sel-selnya.
-//ExStepSummary:3: Kode berikut mengatur format untuk baris kedua dan sel-selnya.
-//ExStepSummary:4: Kode berikut berakhir dengan tabel dan menyimpan dokumen ke berkas.
+//ExStepSummary:2: Kode berikut mengkonfigurasi format untuk baris kedua dan sel-selnya.
+//ExStepSummary:3: Kode berikut mengkonfigurasi format untuk baris kedua dan sel-selnya.
+//ExStepSummary:4: Kode berikut mengakhiri tabel dan menyimpan dokumen ke file.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 
 //ExStep:0-
-// Inisialisasikan suatu objek Dokumen baru
+// Mulai menginisialisasikan objek Dokumen baru
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Mulai tabel baru
+// Mulailah meja baru
 Table table = builder.StartTable();
 // Mulai sel pertama
 builder.InsertCell();
-// Atur alignmen vertikal untuk sel pertama
+// Setelan vertikal untuk sel pertama
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
 builder.Write("This is row 1 cell 1");
-// Masukkan sel kedua
+// Masukan sel kedua
 builder.InsertCell();
 builder.Write("This is row 1 cell 2");
 builder.EndRow();
 
 //ExStep:2-
-// Masukkan sebuah sel untuk baris kedua
+// Masukkan sel untuk baris kedua
 builder.InsertCell();
-// Atur format bagi baris kedua
+// Mengkonfigurasi format untuk baris kedua
 builder.RowFormat.Height = 100;
 builder.RowFormat.HeightRule = HeightRule.Exactly;
 builder.CellFormat.Orientation = TextOrientation.Upward;
 builder.Writeln("This is row 2 cell 1");
 //ExStep:3-
-// Masukkan sel kedua untuk baris kedua
+// Masukan sel kedua untuk baris kedua
 builder.InsertCell();
 builder.CellFormat.Orientation = TextOrientation.Downward; 
 builder.Writeln("This is row 2 cell 2");
@@ -44,8 +44,8 @@ builder.EndRow();
 builder.EndTable();
 
 //ExStep:4-
-// Cocok otomatis pada tabel dengan lebar kolom tetap
+// Otomatis menyesuaikan tabel dengan lebar kolom tetap
 table.AutoFit(AutoFitBehavior.FixedColumnWidths);
-// Simpan dokumen ke suatu berkas
+// Simpan dokumen ke file
 doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");
 //ExEnd

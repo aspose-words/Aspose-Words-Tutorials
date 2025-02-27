@@ -1,35 +1,35 @@
 //ExStart
-//ExSummaryO código a seguir demonstra como criar um documento do Word com uma célula de tabela formatada que inclui o preenchimento em torno de seu conteúdo.
-//ExStepSummary:0: O código a seguir inicializa um novo documento e um construtor de documentos.
-//ExStepSummary:1: O código a seguir inicia uma tabela dentro do documento.
-//ExStepSummary:2: O código a seguir insere uma célula na tabela.
-//ExStepSummary:3: O código a seguir define o preenchimento para o conteúdo da célula.
+//ExSummary: O código a seguir demonstra como criar um documento Word com uma célula de tabela formatada que inclui um enchimento em torno do seu conteúdo.
+//ExStepSummary:0: O código a seguir inicializa um novo documento e um criador de documentos.
+//ExStepSummary:1: O código seguinte inicia uma tabela no documento.
+//ExStepSummary:2: O código seguinte inserir uma célula na tabela.
+//ExStepSummary:3: O código a seguir define o revestimento para o conteúdo das células.
 //ExStepSummary:4: O código a seguir adiciona texto à célula e termina a linha atual.
-//ExStepSummary:5: O código a seguir termina a tabela e salva o documento em um arquivo.
+//ExStepSummary:5: O código a seguir termina a tabela e salva o documento num arquivo.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Inicializar um novo documento
+// Iniciar um novo documento
 Document doc = new Document();
-// Criar um construtor de documentos para manipular o documento
+// Criar um criador de documentos para manipular o documento
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Comece a criar uma mesa
+// Comece a criar uma tabela
 builder.StartTable();
-// Inserir uma nova célula na mesa
+// Insira uma nova célula na tabela
 builder.InsertCell();
 
 //ExStep:2-
-// Set estofamento com 30 pontos na parte superior e inferior, 50 pontos na esquerda e direita
+// Coloque um enchimento com 30 pontos em cima e em baixo, 50 pontos em esquerda e direita
 builder.CellFormat.SetPaddings(30, 50, 30, 50);
 
 //ExStep:3-
 builder.Writeln("I'm a wonderful formatted cell.");
-// Termine a linha atual na tabela
+// Conclui a linha atual na tabela
 builder.EndRow();
-// Fim da mesa
+// Acabar a mesa
 builder.EndTable();
 
 //ExStep:4-

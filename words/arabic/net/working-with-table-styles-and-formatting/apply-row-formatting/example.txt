@@ -1,36 +1,36 @@
 //ExStart
-//ExSummaryيوضح هذا الرمز كيفية تطبيق تنسيق الصف في مستند Word باستخدام Apose.Words.
-//ExStepSummary:0: تهيئة مستند جديد والبدء في إنشاء جدول بصفوف مهيأة.
-//ExStepSummary:1: اضبط تنسيق الصف.
-//ExStepSummary:2: يقوم بتكوين إعدادات الارتفاع المحددة.
-//ExStepSummary:3: مجموعات الحشو للجدول بأكمله يؤثر على جميع الصفوف.
-//ExStepSummary:4: يكتب النص في خلية الجدول وينهي الصف.
-//ExStepSummary:5: يكمل عملية بناء الجدول ويحفظ المستند.
+//ExSummary: هذا الرمز يظهر كيفية تطبيق تشكيل الصفوف في مستند Word باستخدام Aspose.Words.
+//ExStepSummary:0: يبدأ في تشغيل وثيقة جديدة و يبدأ بناء جدول مع صفوف مُصممة.
+//ExStepSummary:1: يُعدّل شكل الصف.
+//ExStepSummary:2: يُعدّ إعدادات الارتفاع المحددة.
+//ExStepSummary:3: تعيين ملابس للطاولة بأكملها تؤثر على جميع الصفوف.
+//ExStepSummary:4: يكتب النص في خلية الطاولة و ينتهي الصف.
+//ExStepSummary:5: يكتمل عملية بناء الطاولة ويحفظ الوثيقة.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// أنشئ مستندًا جديدًا
+// إعداد وثيقة جديدة
 Document doc = new Document();
-// إنشاء مستندبناء لتعديل المستند
+// إعداد مُصمم الوثائق لتعديل الوثيقة
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// ابدأ منضدة جديدة
+// ابدأ طاولة جديدة
 Table table = builder.StartTable();
-// إدراج a جديد خلية بوصة جدول
+// إدراج خلية جديدة في الجدول
 builder.InsertCell();
 //ExStep:2-
-// الوصول إلى خصائص تنسيق الصف
+// الوصول إلى خصائص تشكيل الصف
 RowFormat rowFormat = builder.RowFormat;
-// اضبط ارتفاع الصف
+// حدد ارتفاع الصف
 rowFormat.Height = 100;
-// حدد أن الارتفاع دقيق
+// أوضح أن الارتفاع دقيق
 rowFormat.HeightRule = HeightRule.Exactly;
 
 //ExStep:3-
-// تعيين الحشو للجدول
+// وضع ملابس للطاولة
 table.LeftPadding = 30; 
 table.RightPadding = 30;
 table.TopPadding = 30;
@@ -39,12 +39,12 @@ table.BottomPadding = 30;
 //ExStep:4-
 // اكتب النص في الخلية
 builder.Writeln("I'm a wonderful formatted row.");
-// أنه الصف الحالي
+// إنهاء الصف الحالي
 builder.EndRow();
 // إنهاء بناء الطاولة
 builder.EndTable();
 
 //ExStep:5-
-// احفظ المستند
+// حفظ الوثيقة
 doc.Save("WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
 //ExEnd

@@ -1,11 +1,11 @@
 //ExStart
-//ExSummary: Bu kod, Aspose.Words kullanarak bir Word belgesinde satır biçimlendirmesinin nasıl uygulanacağını gösterir.
-//ExStepSummary:0: Yeni bir belgeyi başlatır ve biçimlendirilmiş satırlarla bir tablo oluşturmaya başlar.
+//ExSummary: Bu kod, Aspose.Words kullanarak Word belgesinde satır biçimlendirmeyi nasıl uyguladığını gösterir.
+//ExStepSummary:0: Yeni bir belgeyi initializer ve biçimlendirilmiş satırlar ile bir tablo oluşturmaya başlar.
 //ExStepSummary:1: Satır biçimini yapılandırır.
-//ExStepSummary:2: Belirli yükseklik ayarlarını yapılandırır.
-//ExStepSummary:3: Tüm satırları etkileyen tüm tablo için doldurmayı ayarlar.
-//ExStepSummary:4: Tablo hücresine metin yazar ve satırı bitirir.
-//ExStepSummary:5: Tablo oluşturma işlemini tamamlar ve belgeyi kaydeder.
+//ExStepSummary:2: Özel yükseklik ayarlarını yapılandırır.
+//ExStepSummary:3: Tüm sıraları etkileyen tüm masanın doldurma ayarları.
+//ExStepSummary:4: Masa hücresine metin yazıyor ve satırın sonunu getiriyor.
+//ExStepSummary:5: Masa oluşturma sürecini tamamlar ve belgeyi kaydeder.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -13,35 +13,35 @@
 //ExStep:0-
 // Yeni bir belge oluştur
 Document doc = new Document();
-// Belgeyi değiştirmek için bir DocumentBuilder oluşturun
+// Belgeyi değiştirmek için bir DocumentBuilder oluştur
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Yeni bir tablo başlat
+// Yeni bir masa başlat .
 Table table = builder.StartTable();
 // Tabloya yeni bir hücre ekle
 builder.InsertCell();
 //ExStep:2-
-// Satır biçimlendirme özelliklerine erişin
+// Satır biçimlendirme özelliklerine eriş
 RowFormat rowFormat = builder.RowFormat;
-// Satırın yüksekliğini ayarla
+// Satırın yüksekliğini ayarlayın
 rowFormat.Height = 100;
-// Yüksekliğin kesin olduğunu belirtin
+// Yükseklik tam olduğunu belirtin
 rowFormat.HeightRule = HeightRule.Exactly;
 
 //ExStep:3-
-// Tablo için doldurmayı ayarla
+// Masanın doldurulması
 table.LeftPadding = 30; 
 table.RightPadding = 30;
 table.TopPadding = 30;
 table.BottomPadding = 30;
 
 //ExStep:4-
-// Hücreye metin yazın
+// Hücreye metin yaz
 builder.Writeln("I'm a wonderful formatted row.");
-// Geçerli satırı sonlandır
+// Geçerli satırın sonunu
 builder.EndRow();
-// Masa binasını bitirin
+// Masa binasını bitir .
 builder.EndTable();
 
 //ExStep:5-

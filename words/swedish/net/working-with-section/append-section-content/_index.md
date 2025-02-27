@@ -1,8 +1,8 @@
 ---
-title: Bifoga och prepend innehåll i Word-dokument som använder Aspose.Words
+title: Lägg till och förbereda innehåll i Word-dokument med hjälp av Aspose.Words
 weight: 7700
 limit: 
-description: Lär dig hur man lägger till och förbereder innehåll mellan sektioner i Word- dokument med hjälp av Aspose.Words för .NET. Steg-för-steg guide med tydliga kodexempel.
+description: Lär dig hur du lägger till och förlägger innehåll mellan sektioner i Word- dokument med hjälp av Aspose.Words för .NET.
 keywords: [Aspose.Words for .NET, append content, prepend content, Word document sections, manipulate sections, .NET Word library]
 url: /sv/net/working-with-section/append-section-content/
 ---
@@ -10,29 +10,29 @@ url: /sv/net/working-with-section/append-section-content/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bifoga och prepend innehåll i Word-dokument
+# Lägg till och förlänga innehåll i Word-dokument
 
-Aspose.Words for .NET är ett kraftfullt bibliotek för att skapa, manipulera och omvandla Word-dokument i .NET-program. Det här exemplet visar hur man lägger till och förbereder innehåll från en sektion till en annan i ett Word- dokument. Genom att använda enkla och intuitiva API:er kan du manipulera sektioner, sammanfoga innehåll och utföra avancerade dokumentredigeringsuppgifter sömlöst. Oavsett om du bygger arbetsflöden för automatisering eller anpassade dokumentredigerare, Aspose.Words förenklar din utvecklingsprocess.  
+Aspose.Words för .NET är ett kraftfullt bibliotek för att skapa, manipulera och omvandla Word-dokument i .NET-applikationer. Detta exempel visar hur man lägger till och förlägger innehåll från ett avsnitt till ett annat i ett Word- dokument. Genom att använda enkla och intuitiva API kan du manipulera sektioner, slå samman innehåll och utföra avancerade dokumentredigeringsuppgifter utan problem. Oavsett om du bygger automatiseringsarbeten eller anpassade dokumentredigerare, Aspose.Words förenklar din utvecklingsprocess.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-section/append-section-content" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Monteringsanvisningar  
+## Installationsinstruktioner  
 
-För att använda Aspose.Ord för .NET, följ dessa steg:  
+För att använda Aspose.Words för .NET, följ dessa steg:  
 
-1. Ladda ner Antag.Ord:  
-   * Besök[Aspose.Words för .NET nedladdning sida](https://releases.aspose.com/words/net/)för att få den senaste versionen.  
+1. Ladda ner Aspose.Words:  
+   * Besök[Aspose.Words för .NET- nedladdningssida](https://releases.aspose.com/words/net/)\- För att få den senaste versionen.  
 
-2. Installera via NuGet Package Manager:  
+2. Installa via NuGet Package Manager:  
    * Öppna ditt .NET-projekt i Visual Studio.  
-   * Navigera till verktyg > NuGet Package Manager > Hantera NuGet-paket för lösningsmenyn.  
-   * Sök efter "Aspose.Words" i NuGet Package Manager.  
-   * Välj paketet och klicka på Installera.  
+   * Gå till verktyg > NuGet pakethanterare > Hantera NuGet paketer för lösningsmenyn.  
+   * Sök efter Aspose.Words i NuGet Package Manager.  
+   * Välj paketet och klicka på Installa.  
 
-3. Inkludera obligatoriska namnrymder:  
+3. Inkludera nödvändiga namnesutrymmen:  
    - Add the necessary `using` directives to your C# file:  
      ```csharp  
      using Aspose.Words;  
@@ -40,17 +40,17 @@ För att använda Aspose.Ord för .NET, följ dessa steg:
      ```  
 
 4. Lägg till licensen:  
-   * Om du har köpt en licens ska du använda följande kod:  
+   * Om du har köpt en licens, tillämpa den med följande kodsnitt:  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("Aspose.Words.lic");  
      ```  
-   * För utvärdering eller testning, kan du begära en[gratis tillfällig licens](https://purchase.aspose.com/temporary-license/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+   * För utvärdering eller testning kan du begära en [fri tillfällig licens](https://purchase.aspose.com/temporary-license/)\- Jag är inte rädd.  
 
 
-## Se också
-[Antag.Ord för .NET-dokumentation](https://docs.aspose.com/words/net/)
-[Antaget.Ord för .NET-referenser](https://reference.aspose.com/words/net/)
+## Se även
+[Aspose.Word för .NET-dokumentation](https://docs.aspose.com/words/net/)
+[Aspose.Word för .NET Referenser](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

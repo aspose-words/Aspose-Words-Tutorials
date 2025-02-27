@@ -1,45 +1,45 @@
 //ExStart
-//ExSummary:以下代码演示如何使用 Aspose.Word 中的文档构建器类创建和格式化单词文档中的表格。
-//ExStepSummary:0: 初始化一个新的文档和文档构建器, 以开始构建 Word 文档 。
-//ExStepSummary:1: 创建表格并插入用于格式化的单元格。
-//ExStepSummary:2: 设置单元格的格式属性,包括草坪和宽度。
-//ExStepSummary:3: 在格式化单元格中插入文字。
-//ExStepSummary:4: 结束行和表格,并将文档保存到指定的文件路径。
+//ExSummary: 下面的代码显示如何在Word文档中创建和格式化表格,使用Aspose.Words的文档构建器类.
+//ExStepSummary:0: 启动新的文档和文档构建器,开始构建Word文档.
+//ExStepSummary:1: 创建一个表格,并插入一个格式化的细胞.
+//ExStepSummary:2: 设置细胞格式特性,包括填充和宽度.
+//ExStepSummary:3: 输入文本到格式化的细胞中.
+//ExStepSummary:4: 结束行和表,并将文档保存到指定文件路径.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
 // 创建新的文档对象
 Document doc = new Document();
-// 正在初始化与新文档相连接的文档构建器
+// 使用新的文档初始化文档构建器
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 开始创建表格
+// 开始创建一个桌子
 builder.StartTable();
-// 在表格中插入第一个单元格
+// 插入第一个单元到表中
 builder.InsertCell();
 
 //ExStep:2-
-// 访问单元格格式化属性
+// 访问细胞的格式化特性
 CellFormat cellFormat = builder.CellFormat;
-// 设置单元格宽度
+// 设置细胞宽度
 cellFormat.Width = 250;
-// 设置折叠
+// 设置填充
 cellFormat.LeftPadding = 30;
 cellFormat.RightPadding = 30;
 cellFormat.TopPadding = 30;
 cellFormat.BottomPadding = 30;
 
 //ExStep:3-
-// 将文字插入单元格
+// 插入文本到细胞中
 builder.Writeln("I'm a wonderful formatted cell.");
 
 //ExStep:4-
-// 结束表格当前行
+// 结束表中的当前行
 builder.EndRow();
-// 结束表格创建
+// 结束表的创建
 builder.EndTable();
-// 保存文档
+// 保存文件
 doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");
 //ExEnd

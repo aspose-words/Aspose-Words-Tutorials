@@ -1,21 +1,21 @@
 //ExStart
-//ExSummary:Αυτό το παράδειγμα δείχνει πώς να προσθέσετε και να prepend περιεχόμενο από το ένα τμήμα στο άλλο σε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words για .NET.
-//ExStepSummary:0: Αρχικοποιήστε ένα νέο έγγραφο Word και DocumentBuilder για να προσθέσετε περιεχόμενο.
-//ExStepSummary:1: Γράψτε κείμενο και εισάγετε το τμήμα σπάει για να δημιουργήσετε πολλαπλές ενότητες στο έγγραφο.
-//ExStepSummary:2: Πρόσβαση στο τρίτο τμήμα του εγγράφου για την προετοιμασία της χειραγώγησης περιεχομένου.
-//ExStepSummary:3: Prepend περιεχόμενο από το πρώτο τμήμα στο τρίτο τμήμα.
-//ExStepSummary:4: Προσθήκη περιεχομένου από το δεύτερο τμήμα στο τρίτο τμήμα.
+//ExSummary:Αυτός ο παραδείκτης δείχνει πώς να προσθέσετε και να προετοιμάσετε περιεχόμενο από ένα τμήμα στο άλλο σε ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET.
+//ExStepSummary:0: Αρχιτοποιήστε ένα νέο έγγραφο Word και το DocumentBuilder για να προσθέσετε περιεχόμενο.
+//ExStepSummary:1: Γράψτε κείμενο και εισαγάγετε διακοπές διαδίκτυου για να δημιουργήσετε πολλαπλές διαδίκτυες στο έγγραφο.
+//ExStepSummary:2: Επικοινωνήστε με τον τρίτο τμήμα του εγγράφου για να προετοιμαστείτε για χειραγώγηση περιεχομένου.
+//ExStepSummary:3: Προετοιμάστε το περιεχόμενο από το πρώτο τμήμα στο τρίτο τμήμα.
+//ExStepSummary:4: Εφαρμόστε το περιεχόμενο του δεύτερου τμήματος στο τρίτο.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// Αρχικοποίηση του εγγράφου και του εγγράφουBuilder
+// Αρχιτογραφημάτισε το έγγραφο και το DocumentBuilder
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Γράψτε το κείμενο και εισάγετε το τμήμα σπάει για να δημιουργήσετε τρεις ενότητες
+// Γράψτε κείμενο και εισαγάγετε διακοπές σελίδας για να δημιουργήσετε τρεις ενότητες
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 // Προσθήκη περιεχομένου για το δεύτερο τμήμα
@@ -25,16 +25,16 @@ builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Write("Section 3");
 
 //ExStep:2-
-// Ανακτήστε το τρίτο τμήμα από το έγγραφο
+// Αποκτήστε το τρίτο τμήμα από το έγγραφο
 Section section = doc.Sections[2];
 
 //ExStep:3-
-// Προετοιμάστε το περιεχόμενο από το πρώτο τμήμα στο τρίτο τμήμα
+// Προετοιμασμός περιεχομένου από το πρώτο τμήμα στο τρίτο τμήμα
 Section sectionToPrepend = doc.Sections[0];
 section.PrependContent(sectionToPrepend);
 
 //ExStep:4-
-// Προσθήκη περιεχομένου από το δεύτερο τμήμα στο τρίτο τμήμα
+// Εφαρμόστε το περιεχόμενο του δεύτερου τμήματος στο τρίτο τμήμα
 Section sectionToAppend = doc.Sections[1];
 section.AppendContent(sectionToAppend);
 //ExEnd

@@ -1,11 +1,11 @@
 //ExStart
-//ExSummary: Denna kod visar hur man tillämpar radformatering i ett Word-dokument med Aspose.Words.
-//ExStepSummary:0: Initialiserar ett nytt dokument och börjar bygga ett bord med formaterade rader.
-//ExStepSummary:1: Anpassar radformatet.
-//ExStepSummary:2: Anpassar de specifika höjdinställningarna.
-//ExStepSummary:3: Ställer in stoppning för hela tabellen som påverkar alla rader.
-//ExStepSummary:4: Skriver text i tabellcellen och avslutar raden.
-//ExStepSummary:5: Fyller i bordsbyggnadsprocessen och sparar dokumentet.
+//ExSummary: Denna kod visar hur man tillämpar radformatering i ett Word-dokument med hjälp av Aspose.Words.
+//ExStepSummary:0: Initialiserar ett nytt dokument och börjar bygga ett tabell med formaterade rader.
+//ExStepSummary:1: Konfigurerar radformat.
+//ExStepSummary:2: Konfigurerar specifik höjd inställningar.
+//ExStepSummary:3: Sättar täckning för hela bordet som påverkar alla rader.
+//ExStepSummary:4: Skriv text i tabellcellen och avslutar raden.
+//ExStepSummary:5: Slutför tabellbyggnadsprocessen och sparar dokumentet.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -17,31 +17,31 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Starta en ny tabell
+// Börja ett nytt bord
 Table table = builder.StartTable();
-// Infoga en ny cell i tabellen
+// Lägg in en ny cell i tabellen
 builder.InsertCell();
 //ExStep:2-
-// Få tillgång till radformateringsegenskaperna
+// Tillträde till radformateringsexten
 RowFormat rowFormat = builder.RowFormat;
-// Ställ in radens höjd
+// Ställ höjden på raden
 rowFormat.Height = 100;
 // Ange att höjden är exakt
 rowFormat.HeightRule = HeightRule.Exactly;
 
 //ExStep:3-
-// Ställ in stoppning till bordet
+// Ställ upp täckning för bordet
 table.LeftPadding = 30; 
 table.RightPadding = 30;
 table.TopPadding = 30;
 table.BottomPadding = 30;
 
 //ExStep:4-
-// Skriv text i cellen
+// Skriv in text i cellen
 builder.Writeln("I'm a wonderful formatted row.");
-// Avsluta nuvarande rad
+// Slut på den aktuella raden
 builder.EndRow();
-// Avsluta bordsbyggnaden
+// Slut på bordbyggnaden
 builder.EndTable();
 
 //ExStep:5-

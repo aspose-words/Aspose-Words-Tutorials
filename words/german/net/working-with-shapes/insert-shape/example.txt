@@ -1,21 +1,21 @@
 //ExStart
-//ExSummary: Dieser Code zeigt, wie Formen (Textboxen) in ein Word-Dokument mit Aspose.Words eingefügt werden. Das Dokument wird im DOCX-Format mit spezifischen Compliance-Optionen für ISO-Standards gespeichert.
-//ExStepSummary:0: Der Code initialisiert ein neues Dokument und einen Dokument-Builder zur Manipulation des Dokuments.
-//ExStepSummary:1: Eine Form (Textbox) wird an einer absoluten Position im Dokument eingefügt und die Rotation der ersten Form auf 30 Grad eingestellt.
-//ExStepSummary:2: Eine neue Form wird an einer relativen Position eingefügt und die Rotation der zweiten Form wird ebenfalls auf 30 Grad eingestellt.
-//ExStepSummary:3: Das Dokument wird mit spezifischen OoxmlSaveOptionen gespeichert.
+//ExSummaryDieser Code zeigt, wie man Form (Textboxen) in ein Word-Dokument mit Aspose.Words einfügt. Das Dokument wird im DOCX-Format mit spezifischen Compliance-Optionen für ISO-Standards gespeichert.
+//ExStepSummary:0: Der Code initialisiert ein neues Dokument und einen Dokumenterbauer für die Manipulation des Dokuments.
+//ExStepSummary:1: Eine Form (Textbox) wird in der absoluten Position des Dokuments eingefügt und die Drehung der ersten Form wird auf 30 Grad eingestellt.
+//ExStepSummary:2: Eine neue Form wird in eine relative Position eingeführt und die Drehung der zweiten Form wird ebenfalls auf 30 Grad eingestellt.
+//ExStepSummary:3: Das Dokument wird mit spezifischen OoxmlSaveOptions gespeichert.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 
 //ExStep:0-
-// Erstellt eine neue Dokument-Instanz
+// Erstellt eine neue Dokumentinstance
 Document doc = new Document();
 // Initialisiert einen DocumentBuilder für das Dokument
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Fügt eine Form des Typs TextBox ein
+// Einfügt eine Form des Typs TextBox
 Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
     RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
 // Dreht die Form um 30 Grad
@@ -23,13 +23,13 @@ shape.Rotation = 30.0;
 
 //ExStep:2-
 builder.Writeln();
-// Fügt eine andere Form des Typs TextBox an einer relativen Position ein
+// Einfügt eine andere Form des Typs TextBox in eine relative Position
 shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
 // Dreht die zweite Form um 30 Grad
 shape.Rotation = 30.0;
 
 //ExStep:3-
-// Bereitet Optionen für das Dokument zu speichern
+// Bereitet Speicheroptionen für das Dokument vor
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional

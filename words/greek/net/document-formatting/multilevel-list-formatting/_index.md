@@ -1,8 +1,8 @@
 ---
-title: Δημιουργήστε πολυεπίπεδες λίστες στο Word με το Aspose.Words
+title: Δημιουργήστε κατάλογους πολλαπλών επιπέδων στο Word με το Aspose.Words
 weight: 7700
 limit: 
-description: Μάθετε πώς να δημιουργήσετε μια λίστα πολλαπλών επιπέδων σε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words για .NET σε αυτό το απλό παράδειγμα.
+description: Μάθετε πώς να δημιουργήσετε μια λίστα πολλών επιπέδων σε ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words για το .NET σε αυτό το απλό παράδειγμα.
 keywords: [Aspose.Words, .NET, multilevel list, Word document, document formatting, C#]
 url: /el/net/document-formatting/multilevel-list-formatting/
 ---
@@ -10,33 +10,33 @@ url: /el/net/document-formatting/multilevel-list-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργήστε πολυεπίπεδες λίστες στο Word με το Aspose.Words
-Αυτό το παράδειγμα δείχνει πώς να δημιουργήσετε μια πολυεπίπεδη λίστα σε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words για .NET. Αρχικοποιήσει ένα νέο έγγραφο και μια περίπτωση DocumentBuilder, εφαρμόζει μια μορφή αρίθμησης, δημιουργεί κύρια και επιμέρους στοιχεία, και αποθηκεύει το έγγραφο ως .docx αρχείο. Ακολουθήστε τον βήμα προς βήμα οδηγό για την αποτελεσματική διαμόρφωση του εγγράφου σας με αριθμημένες λίστες.
+# Δημιουργήστε κατάλογους πολλαπλών επιπέδων στο Word με το Aspose.Words
+Αυτό το παράδειγμα δείχνει πώς να δημιουργήσετε μια λίστα πολλών επιπέδων σε ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET. Ξεκινά ένα νέο έγγραφο και μια ενδείξεις DocumentBuilder, εφαρμόζει μια μορφή αριθμητικής, δημιουργεί κύριους και υπο-νυκτάρια, και αποθηκεύει το έγγραφο ως αρχείο .docx. Ακολουθήστε το βήμα-με-βήμα οδηγό για να μορφοποιήσετε αποτελεσματικά το έγγραφο σας με αριθμημένες λίστες.
 
 ---
 {{< tutorial-widget sourcePath="words/net/document-formatting/multilevel-list-formatting" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Οδηγίες εγκατάστασης
-Για να χρησιμοποιήσετε Aspose.Words για .NET, ακολουθήστε αυτά τα βήματα:
-1. Κατεβάστε τη βιβλιοθήκη: Επισκεφθείτε το[Aspose.Words for .NET download page](https://www.aspose.com/downloads/words/net).
+## Διδασκαλίες εγκατάστασης
+Για να χρησιμοποιήσετε το Aspose.Words για το .NET, ακολουθήστε τα παρακάτω βήματα:
+1. Κατεβάστε τη βιβλιοθήκη: Επισκεφτείτε το ["Αποθέστε.Πράξεις" για τη σελίδα λήψης .NET](https://www.aspose.com/downloads/words/net)\- Δεν ξέρω .
 2. Εγκατάσταση μέσω NuGet:
-   * Ανοίξτε το Visual Studio project σας.
-   * Πλοήγηση στα Εργαλεία > NuGet Package Manager > Διαχείριση Πακέτων NuGet για Λύση.
-   * Αναζήτηση`Άσσος. Λέξεις`και κάντε κλικ στην εγκατάσταση.
-3. Αναφορά της βιβλιοθήκης στον κωδικό σας:
+   * Ανοίξτε το έργο Visual Studio σας.
+   * Επιστρέψτε στα εργαλεία > Διαχειριστής πακέτων NuGet > Διαχειρίστε τα πακέτα NuGet για Λύση.
+   * Ψάξε για`"Αποκοινώνεστε.`και κάντε κλικ στην εγκατάσταση.
+3. Ανατρέξτε τη βιβλιοθήκη στον κωδικό σας:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    ```
-4. Εφαρμογή Άδειας (Προαιρετική):  
-   Για να χρησιμοποιήσετε την πλήρη έκδοση,[να εφαρμόσει μια άδεια](https://purchase.aspose.com/temporary-license/)ή να χρησιμοποιείτε α[δωρεάν δοκιμή](https://releases.aspose.com/words/net/).  
+4. Εφαρμογή άδειας (Επιαιρετική):  
+   Για να χρησιμοποιήσεις την πλήρη έκδοση,[να εφαρμόσει άδεια](https://purchase.aspose.com/temporary-license/)ή χρησιμοποιήστε [δωρεάν δοκιμή](https://releases.aspose.com/words/net/)\- Δεν ξέρω .  
 
 
-## Επίσης, δείτε
-[Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
+## Δείτε επίσης
+[Aspose.Word για έγγραφο .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word για .NET References](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

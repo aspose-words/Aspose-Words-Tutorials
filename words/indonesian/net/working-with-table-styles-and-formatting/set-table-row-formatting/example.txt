@@ -1,51 +1,51 @@
 //ExStart
-//ExSummary: Kode ini menunjukkan cara membuat dokumen Word dengan tabel keterangan menggunakan aspose.
-//ExStepSummary:0: Langkah ini menginisialisasi dokumen baru dan pembuat dokumen.
+//ExSummary: Kode ini menunjukkan cara membuat dokumen Word dengan tabel yang diformat menggunakan Aspose.
+//ExStepSummary:0: Langkah ini menginisialisasikan dokumen baru dan pembuat dokumen.
 //ExStepSummary:1: Langkah ini memulai tabel dan memasukkan sel ke dalamnya.
-//ExStepSummary:2: Langkah ini mengatur format untuk baris, termasuk aturan tinggi dan tinggi badan.
-//ExStepSummary:3: Langkah ini mengatur padding untuk seluruh tabel, mempengaruhi semua baris.
+//ExStepSummary:2: Langkah ini menetapkan format untuk baris, termasuk aturan tinggi dan tinggi.
+//ExStepSummary:3: Langkah ini mengatur padding untuk seluruh meja, mempengaruhi semua baris.
 //ExStepSummary:4: Langkah ini menambahkan teks ke sel dan mengakhiri baris.
-//ExStepSummary:5: Langkah ini mengakhiri tabel dan menyimpan dokumen ke lokasi yang ditentukan.
+//ExStepSummary:5: Langkah ini mengakhiri tabel dan menyimpan dokumen ke jalur yang ditentukan.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 
 //ExStep:0-
-// Buat instansi Dokumen baru
+// Buat contoh dokumen baru
 Document doc = new Document();
-// Inisialisasi DokumenBuilder dengan dokumen
+// Mulai DocumentBuilder dengan dokumen
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Mulai tabel baru
+// Mulailah meja baru
 Table table = builder.StartTable();
 // Masukkan sel pertama ke dalam tabel
 builder.InsertCell();
 
 //ExStep:2-
-// Akses properti RowFormat dari pembangun
+// Akses ke properti RowFormat dari pembangun
 RowFormat rowFormat = builder.RowFormat;
-// Menentukan tinggi baris
+// Tentukan ketinggian baris
 rowFormat.Height = 100;
-// Tentukan aturan tinggi dengan tepat
+// Set aturan tinggi untuk persis
 rowFormat.HeightRule = HeightRule.Exactly;
 
 //ExStep:3-
-// Atur padding untuk tabel
+// Set padding untuk meja
 table.LeftPadding = 30;
 table.RightPadding = 30;
 table.TopPadding = 30;
 table.BottomPadding = 30;
 
 //ExStep:4-
-// Tambahkan teks ke sel kini
+// Tambahkan teks ke sel saat ini
 builder.Writeln("I'm a wonderful formatted row.");
-// Akhir baris ini
+// Mengakhiri baris saat ini
 builder.EndRow();
 builder.EndTable();
 
 //ExStep:5-
-// Menyimpan dokumen pada lokasi yang ditentukan
+// Simpan dokumen ke jalur yang ditentukan
 doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableRowFormatting.docx");
 //ExEnd

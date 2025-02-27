@@ -1,8 +1,8 @@
 ---
-title: Format-Absätze Verwendung von Aspose.Words für .NET
+title: Format Paragraphen mit Aspose.Words für .NET
 weight: 7700
 limit: 
-description: Erfahren Sie, wie Sie Absätze in einem Word-Dokument mit Aspose.Words für .NET formatieren, einschließlich Ausrichtung, Einrückung und Abstand.
+description: Lernen Sie, wie Sie Absätze in einem Word-Dokument mit Aspose.Words für .NET formatieren, einschließlich Ausrichtung, Einziehung und Abstand.
 keywords: [Aspose.Words, .NET, paragraph formatting, Word document, document builder, alignment, indentation, Word API]
 url: /de/net/document-formatting/paragraph-formatting/
 ---
@@ -10,32 +10,32 @@ url: /de/net/document-formatting/paragraph-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Format-Absätze Verwendung von Aspose.Words
-Diese Anleitung bietet ein Beispiel dafür, wie Absätze in einem Word-Dokument mit Aspose.Words for .NET formatiert werden können. Sie lernen, wie Sie verschiedene Absatzformatierungsoptionen wie Ausrichtung, Einrückung und Leerzeichen nach Absätzen festlegen können. Das Beispiel veranschaulicht die Verwendung der Dokument- und DocumentBuilder-Klassen und ermöglicht die programmatische Erstellung gut strukturierter Dokumente.
+# Abbildung Aspose.Words
+Dieser Leitfaden bietet ein Beispiel für das Format von Absätzen in einem Word-Dokument mit Aspose.Words für .NET. Sie lernen, wie Sie verschiedene Absätze-Formatierungsoptionen wie Ausrichtung, Einziehung und Raum nach Absätzen festlegen. Das Beispiel illustriert die Verwendung der Dokument- und DocumentBuilder-Klassen, die die Erstellung gut strukturierter Dokumente programmatisch ermöglichen.
 
 ---
 {{< tutorial-widget sourcePath="words/net/document-formatting/multilevel-list-formatting" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Installationshinweise
-1. Aspose.Words für .NET herunterladen: Besuchen Sie die[Webseite aufschlagen](https://www.aspose.com/downloads/words/net)um die neueste Version von Aspose.Words für .NET herunterzuladen.
+## Installationsanweisungen
+1. Download Aspose.Words für .NET: Besuchen Sie den [Webseite zu verfolgen](https://www.aspose.com/downloads/words/net)Um die neueste Version von Aspose.Words für .NET herunterzuladen.
 
-2. Referenz hinzufügen: Klicken Sie in Ihrem .NET-Projekt mit der rechten Maustaste auf das Projekt im Lösungs-Explorer, wählen Sie Hinzufügen > Referenz und durchsuchen Sie, um die DLL-Datei Aspose.Words hinzuzufügen.
+2. Hinzufügen von Referenzen: Klicken Sie in Ihrem .NET-Projekt auf das Projekt in Solution Explorer mit dem rechten Klick, wählen Sie hinzufügen > Referenz und blättern Sie um die DLL-Datei Aspose.Words hinzuzufügen.
 
-3. Verwenden von NuGet Package (optional): Alternativ können Sie Aspose.Words über NuGet Package Manager mit folgendem Befehl installieren:
+3. Nutzung von NuGet Package (Optional): Alternativ können Sie Aspose.Words über NuGet Package Manager mit dem folgenden Befehl installieren:
    ```
    Install-Package Aspose.Words
    ```
 
-4. Namespace importieren: Fügen Sie die folgende Anweisung zu Ihrer Codedatei hinzu:
+4. Importieren Sie Namespace: Fügen Sie die folgenden Anmerkungen mit der Angabe Ihrer Codedatei hinzu:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
-5. Lizenz anwenden (optional):  
-   Um die Vollversion zu verwenden,[eine Lizenz anwenden](https://purchase.aspose.com/temporary-license/)oder verwenden Sie eine[kostenlose Testversion](https://releases.aspose.com/words/net/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+5. Lizenz (optional):  
+   Um die vollständige Version zu verwenden, [eine Lizenz beantragen](https://purchase.aspose.com/temporary-license/)oder eine [Kostenlose Prüfung](https://releases.aspose.com/words/net/)\- Ich weiß .  
 
 
 ## Siehe auch

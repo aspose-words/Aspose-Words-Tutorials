@@ -1,8 +1,8 @@
 ---
-title: Új szakasz hozzáadása a Word dokumentumhoz Aspose.Words for .NET
+title: Adjon egy új részt a Word Dokumentumhoz.
 weight: 7700
 limit: 
-description: Ismerje meg, hogyan adhat hozzá egy új szakaszt egy Word dokumentumhoz az Aspose.Words for .NET használatával. Lépésről lépésre útmutató kódpéldával a Word automatizálási feladatainak egyszerűsítéséhez.
+description: Tanuljon meg, hogyan adjon hozzá egy új szakaszt a Word dokumentumhoz a .NET- hez Aspose.Words segítségével. Csatlakozási útmutató a Word automatizálási feladatok egyszerűsítése érdekében.
 keywords: [Aspose.Words for .NET, add section to Word document, .NET Word automation, create new section, Word document manipulation, Aspose.Words tutorial, .NET examples]
 url: /hu/net/working-with-section/add-section/
 ---
@@ -12,38 +12,38 @@ url: /hu/net/working-with-section/add-section/
 
 # Új szakasz hozzáadása a Word dokumentumhoz
 
-Aspose.Words for .NET teszi dolgozó Word dokumentumok könnyedén azáltal, hogy hatékony API-k kezelésére összetett dokumentum struktúrák. Ez a bemutató végigvezeti Önt hozzá egy új szakaszt a Word dokumentum programmatically. A`Dokumentum`és`DocumentBuilder`osztályok, megtanulod, hogy inicializáljon egy dokumentumot, szöveget adjon hozzá, és új szakaszt fűzzön hozzá. Tökéletes a fejlesztők számára, akik a Word dokumentum generálását és manipulációját pontosan automatizálják.  
+Az Aspose.Words a .NET-hez egyszerűvé teszi a Word dokumentumok használatát, mivel hatékony API-ket biztosít a komplex dokumentumstruktúrák kezelésére. Ez a tanár segít a Word dokumentum új szakaszának programos hozzáadásában.`Dokumentum`és`Dokumentumszervező`A programok a következőkben: a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a programok, a program  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-section/add-section" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Telepítési utasítások az Aspose.Words számára a .NET számára  
+## A .NET-hez használt Aspose.Words telepítési utasításai  
 
-1. Letöltés Aspose.Words .NET:  
-   Látogasson el a[Aspose.Words for .NET letöltési oldal](https://releases.aspose.com/words/net/)hogy megkapja a legújabb verziót.
+1. Letöltsd le az Aspose.Words .NET-hez:  
+   Látogasson el a[Aspose.Words a .NET letöltőoldalhoz](https://releases.aspose.com/words/net/)hogy megkapjuk a legújabb verziót.
 
-2. Telepítés a NuGet-en keresztül:  
-   * Nyissa meg a Visual Studio projektet.  
-   * Navigáljon az Eszközök > NuGet csomagkezelő > NuGet csomagok kezelése megoldás.  
-   * Keresés`Aspose.Words`a NuGet csomagkezelőben.  
-   * Válassza ki a csomagot, majd kattintson a Telepítés gombra.  
+2. A NuGet segítségével telepítse:  
+   * Nyissa ki a Visual Studio projektét.  
+   * Menjen az eszközökhez > NuGet csomagkezelőhez > A megoldáshoz a NuGet csomagok kezelésére.  
+   * Keresd a`Aspose.Words`a NuGet csomagkezelőben.  
+   * Válassza ki a csomagot, és kattintson Installacióra.  
 
-3. Referencia hozzáadása manuálisan (opcionális):  
-   * Töltse le a DLL-t a[Aspose releases oldal](https://releases.aspose.com/)Nem.  
-   * Adja hozzá a`Aspose.Words.dll`kattintson a Referenciák gombra a Solution Explorer programban, és válassza a Referencia hozzáadása lehetőséget.  
+3. Hányszor a referenciát manuálisan (Felhetős):  
+   * Letöltsd le a DLL- t a [A Aspose kiadások oldal](https://releases.aspose.com/)\- Nem.  
+   * Adja hozzá a `Aspose.Words.dll`Adatokat a projekthez a megoldás-kutatóban a hivatkozásokra való jobb kattintással és a hivatkozás hozzáadása kiválasztásával.  
 
-4. A licenc aktiválása (opcionális):  
-   Ha rendelkezik licenccel, alkalmazza azt a teljes funkcionalitás feloldásához:  
+4. Aktívan kell használni a Licenc (Felhetős):  
+   Ha van engedélyed, használd fel, hogy kinyithasd a teljes funkciót:  
    ```csharp
    Aspose.Words.License license = new Aspose.Words.License();
    license.SetLicense("path_to_your_license.lic");
    ```  
 
-## Lásd még
-[Aspose.Word for .NET dokumentáció](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referenciák](https://reference.aspose.com/words/net/)
+## Lásd:
+[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,8 +1,8 @@
 //ExStart
-//ExSummary: Denna kod visar hur man skapar ett dokument och får radavstånd för ett angivet teckensnitt.
-//ExStepSummary:0: Följande kod initierar ett nytt dokument och DocumentBuilder.
-//ExStepSummary:1: Koden anger teckensnittet till "Calibri" och lägger till en textrad.
-//ExStepSummary:2: Koden hämtar radavståndet för den första körningen i dokumentet.
+//ExSummary: Denna kod visar hur man skapar ett dokument och får linjerna mellan en angiven teckensnitt.
+//ExStepSummary:0: Följande kod initialiserar ett nytt Dokument och DocumentBuilder.
+//ExStepSummary:1: Koden sätter tecknet till "Calibri" och lägger till en rad text.
+//ExStepSummary:2: Koden hämtar linjerna mellan den första körningen i dokumentet.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
@@ -11,13 +11,13 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Ställ in teckensnittets namn till "Calibri"
+// Ställ på tecknet namn till "Calibri"
 builder.Font.Name = "Calibri";
 builder.Writeln("qText");
 
 //ExStep:2-
-// Få tillgång till teckensnittet för den första körningen
+// Tillgå till tecknet för första körningen
 Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
-// Utmatning av radavståndet till konsolen
+// Utgå linjen mellan konsolen
 Console.WriteLine($"lineSpacing = {font.LineSpacing}");
 //ExEnd

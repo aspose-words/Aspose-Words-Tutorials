@@ -1,37 +1,37 @@
 //ExStart
-//ExSummary:请检查以下代码以查找如何在 Word 文档中创建行图。您可以将该代码复制到您的 IDE 中并运行它。
-//ExStepSummary:0: 以下代码显示如何创建新文档并即时创建文档构建器 :
-//ExStepSummary:1: 以下代码显示如何在文件中插入一条线图:
-//ExStepSummary:2: 以下代码解释如何为图表设定标题:
-//ExStepSummary:3: 以下代码显示如何配置图表图例的位置和覆盖设置 :
+//ExSummary: 请查看下面的代码,以找到如何在Word文档中创建行图.
+//ExStepSummary:0: 下面的代码显示如何创建新的文档,并实现文档构建器:
+//ExStepSummary:1: 下面的代码说明如何将线图插入文档中:
+//ExStepSummary:2: 下面的代码解释了如何设置图表的标题:
+//ExStepSummary:3: 下面的代码显示了如何配置图表传奇的位置和叠加设置:
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// 创建新的文档对象
+// 创建一个新的文档对象
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 在文档中指定尺寸处插入一行图表
+// 插入一个线图在文件中,在指定尺寸
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
 
 //ExStep:2-
 // 从形状访问图表对象
 Chart chart = shape.Chart;
-// 启用图表标题可见度
+// 启用图标的可见性
 chart.Title.Show = true;
-// 设置图表的标题文本
+// 设置图表标题文本
 chart.Title.Text = "Line Chart Title";
 // 确保标题不覆盖图表
 chart.Title.Overlay = false;
 
 //ExStep:3-
-// 向左设置图表图例的位置
+// 设置图表传奇位置左边
 chart.Legend.Position = LegendPosition.Left;
 chart.Legend.Overlay = true;
 
 //ExStep:4-
-// 将图表中的文档保存到文件
+// 保存文件和图表到文件中
 doc.Save("WorkingWithCharts.CreateChartUsingShape.docx");
 //ExEnd

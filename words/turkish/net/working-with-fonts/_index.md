@@ -1,8 +1,8 @@
 ---
-title: Aspose.Words'ta .NET için Yazı Tipleri ile Çalışmak  
+title: .NET için Aspose.Words'te Yazı Tipi ile Çalışmak  
 weight: 10
 limit:
-description: Aspose.Words for .NET'te yazı tipleriyle çalışmayı öğrenin, yazı tiplerini, boyutlarını, renklerini, efektlerini ve daha fazlasını değiştirin. Word belgelerinizi kolaylıkla geliştirin.
+description: .NET için Aspose.Words yazı tipi ile çalışmayı öğrenin, yazı tipi stillerini, boyutlarını, renkleri, efektlerini ve daha fazlasını değiştirmeyi de dahil edin. Word belgeleri kolayca geliştirin.
 keywords:
 url: /tr/net/working-with-fonts/
 ---
@@ -12,13 +12,13 @@ url: /tr/net/working-with-fonts/
 
 ## Giriş
   
-Yazı tipleri, herhangi bir Word belgesinin kritik bir yönüdür, kişilik, okunabilirlik ve görsel çekicilik ekler. Aspose.Words for .NET ile, belgenizin ihtiyaçlarına uyacak şekilde yazı tipi özelleştirme üzerinde tam kontrol elde edersiniz. Yazı tipi stillerini değiştirmeniz, boyutları ayarlamanız, renkleri değiştirmeniz veya kalın, italik veya altı çizili, Aspose.Words belgenizin tipografisini geliştirmek için kesintisiz bir yol sunar.  
+Fontlar, herhangi bir Word belgesinin kritik bir yönüdür, kişiliği, okunabilmeyi ve görsel çekiciliği ekler. .NET için Aspose.Words ile, belge ihtiyacınıza uygun şekilde yazı tipi özelleştirme üzerinde tam kontrolü kazanırsınız. Ya yazı tipi stillerini değiştirmeniz, boyutlarını ayarlamanız, renkleri değiştirmeniz veya sert, kurşunca veya vurgu gibi efektleri uygulamanız gerekirse, Aspose.Words belgenin tipografisini geliştirmek için sorunsuz bir yol sunar.  
 
-Bu bölüm, Aspose.Words for .NET'i kullanarak yazı tipi manipülasyonunda ustalaşmanıza yardımcı olacak bir dizi öğreticiyi kapsar. Yazı tipi ailesini değiştirmek, metin efektleri uygulamak ve kerning ve boşluk gibi gelişmiş tipografi seçeneklerini ayarlamak gibi belirli özelliklere dalın. Bu kılavuzlar, tam gereksinimlerinize uygun profesyonel, cilalı Word belgeleri oluşturmayı kolaylaştırır.
+Bu bölüm .NET için Aspose.Words kullanarak yazı tipi manipülasyonunu yönetmenize yardımcı olacak bir dizi öğretim kitabı kapsar. yazı tipi ailesini değiştirmek, metin efektlerini uygulamak ve çekirdek ve aralama gibi gelişmiş tipografi seçeneklerini ayarlamak gibi belirli özelliklere dalın. Bu rehberler, tam ihtiyaçlarınıza göre profesyonel, parlatılmış Word belgeleri oluşturmayı kolaylaştırır.
 
-{{< tutorial-card link="./font-formatting/" title=".NET için Aspose.Words kullanarak Word'de Yazı Tipi Biçimlendirme Oluşturun" imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./get-font-line-spacing/" title="Kelime Belgesinde Yazı Tipi Satır Aralığı Al" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./set-font-emphasis-mark/" title=".NET için Aspose.Words kullanarak Word Belgesinde Vurgu İşaretini Ayarla" imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./font-formatting/" title=".NET için Aspose.Words kullanarak Word'de yazı tipi biçimlendirme oluşturun" imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./get-font-line-spacing/" title="Word Belgesinde Font Line Aralıklı Oluştur" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./set-font-emphasis-mark/" title="Word Belgesinde vurgu simgesini .NET için Aspose.Words kullanarak ayarlayın" imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

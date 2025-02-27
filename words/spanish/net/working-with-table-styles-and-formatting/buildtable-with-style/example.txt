@@ -1,67 +1,67 @@
 //ExStart
-//ExSummary: Este código muestra cómo crear un documento de Word con una tabla con estilo usando Aspose.Words.La tabla incluye encabezados y filas de datos, con formato de acuerdo con las opciones de estilo específicas.
-//ExStepSummary:0: Inicializar un nuevo documento y DocumentBuilder para administrar la estructura del documento.
-//ExStepSummary:1: Inicie una nueva tabla en el documento con DocumentBuilder.
-//ExStepSummary:2: Inserte la primera celda y establezca el identificador de estilo de tabla.
-//ExStepSummary:3: Aplicar opciones de formato a la tabla y establecer el comportamiento de ajuste automático.
-//ExStepSummary:4: Agregue celdas de fila de encabezado a la tabla.
-//ExStepSummary:5: Inserte filas de datos en la tabla con nombres y cantidades de elementos.
-//ExStepSummary:6: Guarde el documento ensamblado en un archivo.
+//ExSummaryEste código muestra cómo crear un documento de Word con una tabla de estilo utilizando Aspose.Words. La tabla incluye encabezados y filas de datos, formateados de acuerdo con opciones de estilo específicas.
+//ExStepSummary:0: Iniciar un nuevo Document y DocumentBuilder para administrar la estructura del documento.
+//ExStepSummary:1: Inicie una nueva tabla en el documento utilizando el DocumentBuilder.
+//ExStepSummary:2: Insertar la primera célula y establecer el identificador de estilo de la tabla.
+//ExStepSummary:3: Aplique opciones de formato a la tabla y configure comportamiento de ajuste automático.
+//ExStepSummary:4: Añadir células de fila de encabezado a la mesa.
+//ExStepSummary:5: Insertar las filas de datos en la tabla con nombres y cantidades de los elementos.
+//ExStepSummary:6: Guarde el documento reunido en un archivo.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
 //ExStepImage:5:images/4.png
 //ExStep:0-
-// Crear un nuevo objeto de documento.
+// Crear un nuevo objeto de Documento.
 Document doc = new Document();
-// Cree un constructor para facilitar la generación de documentos.
+// Crear un constructor para facilitar la generación de documentos.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Inicie una nueva tabla en el documento.
+// Comience una nueva tabla en el documento.
 Table table = builder.StartTable();
 
 //ExStep:2-
-// Inserte la primera celda antes de establecer el formato.
+// Insertar la primera célula antes de configurar el formato.
 builder.InsertCell();
-// Establezca el identificador de estilo para la tabla.
+// Establezca el identificador de estilo para la mesa.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
 
 //ExStep:3-
-// Configure las opciones de estilo.
+// Configurar opciones de estilo.
 table.StyleOptions = 
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
-// Establezca el comportamiento de ajuste automático de la tabla.	
+// Establezca el comportamiento de ajuste automático de la mesa.	
 table.AutoFit(AutoFitBehavior.AutoFitToContents);
 
 
 //ExStep:4-
-// Escribe el encabezado de la primera columna.
+// Escriba el encabezado para la primera columna.
 builder.Writeln("Item");
-// Ajuste el relleno adecuado para la celda.
+// Pon el relleno correcto para la celda.
 builder.CellFormat.RightPadding = 40;
-// Inserte la segunda celda para la siguiente columna.
+// Insertar la segunda célula para la siguiente columna.
 builder.InsertCell();
-// Escribe el encabezado de la segunda columna.
+// Escriba el encabezado para la segunda columna.
 builder.Writeln("Quantity (kg)");
-// Finaliza la creación de la fila.
+// Terminemos con la creación de filas.
 builder.EndRow();
 
 //ExStep:5-
-// Inicie una nueva fila e inserte la primera celda.
+// Comience una nueva fila e insertad la primera célula.
 builder.InsertCell();
 builder.Writeln("Apples");
 builder.InsertCell();
 builder.Writeln("20");
 builder.EndRow();
- // Inserte la primera celda de una nueva fila para el segundo elemento.
+ // Insertar la primera célula de una nueva fila para el segundo elemento.
 builder.InsertCell();
 builder.Writeln("Bananas");
 builder.InsertCell();
 builder.Writeln("40");
 builder.EndRow();
-// Comience una nueva fila para el tercer elemento.
+// Comience una nueva fila para el tercer artículo.
 builder.InsertCell();
 builder.Writeln("Carrots");
 builder.InsertCell(); 

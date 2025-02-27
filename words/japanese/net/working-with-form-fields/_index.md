@@ -1,8 +1,8 @@
 ---
-title: アクセシビリティでのフォームフィールドの操作. NET 用の用語
+title: .NET のAspose.Wordsでフォームフィールドを活用する
 weight: 10
 limit:
-description: Assoft.words.NET.special の機能は、テキスト入力、コンボボックス、チェックボックスを簡単に追加し、編集し、管理するためのものです。
+description: .NET のAspose.Wordsでフォームフィールドを操作する方法について学びます.テキスト入力,コンボボックス,チェックボックスフィールドを簡単に追加,編集,管理するための機能を探索します.
 keywords:
 url: /ja/net/working-with-form-fields/
 ---
@@ -10,13 +10,13 @@ url: /ja/net/working-with-form-fields/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## はじめに
+## 紹介
 
-フォームフィールドは、対話型および充填可能な Word ドキュメントの作成に不可欠です。 ^ NET は、プロセスを分割して効率的に作成します。ユーザー情報を集めるためにテキスト入力フィールドを追加する必要があります。 ドロップダウン情報を提供するコンボボックスも、シンプルに「はい」または「いいえ」オプションのチェックボックスも、このライブラリは包括的な機能を提供します。開発者は、フォームフィールドを簡単に追加し、編集し、プログラムで操作できます。
+フォームフィールドはインタラクティブで埋められるWord文書を作成するために不可欠であり, .NETのAspose.Wordsはプロセスを無縫で効率的にします.ユーザ情報を収集するためのテキスト入力フィールド,ドロップダウン選択を提供するコンボボックス,または単純なイエス/ノーオプションのチェックボックスを追加する必要がありますか,このライブラリは包括的な機能を提供しています.開発者は簡単にフォームフィールドをプログラム的に追加,編集,管理することができます.
 
-Association.NET はさまざまなフォームのフィールド型をサポートしており、複雑なフォームを精密かつ柔軟にデザインすることができます。そのリッチなAPI を使って、フィールドのプロパティーをコントロールし、データをプッシュし、ユーザ入力を最小限に処理することもできます。 Assoft を使ってフォームの検索、接続、カスタムテンプレートを作成するかどうか、フォームのフォームの機能を保証します。Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, ServerAdmin, etc.)
+.NETのAspose.Wordsは,さまざまなフォームフィールドタイプをサポートし,複雑なフォームを精度と柔軟性で設計することができます.その豊富なAPIにより,フィールドプロパティを制御し,データを埋め込み,ユーザー入力を最小限の努力で処理することもできます.アンケート,契約,またはカスタムテンプレートを作成しているかどうかにかかわらず, Aspose.Words を使用したフォームフィールドで作業は,プロフェッショナルでユーザーフレンドリーな体験を保証します.
 
-{{< tutorial-card link="./insert-form-fields/" title="ワードドキュメントにコンボボックスフォームフィールドを挿入" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
+{{< tutorial-card link="./insert-form-fields/" title="Word ドキュメントにコンボボックスフォームフィールドを挿入する" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

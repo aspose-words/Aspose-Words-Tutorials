@@ -1,8 +1,8 @@
 ---
-title: Text hinzufügen Wasserzeichen in Word-Dokument mit Aspose.Words für .NET
+title: Hinzufügen von Text-Wasserzeichen in Word-Dokument mit Aspose.Words für .NET
 weight: 7700
 limit: 
-description: Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Text-Wasserzeichen mit bestimmten Optionen zu einem Word-Dokument hinzufügen. Befolgen Sie einfache Schritte, um Ihr Dokument anzupassen und zu speichern.
+description: Erfahren Sie, wie Sie einem Word-Dokument ein Text-Wasserzeichen mit spezifischen Optionen mit Aspose.Words für .NET hinzufügen. Folgen Sie einfachen Schritten, um Ihr Dokument anpassen und zu speichern.
 keywords: [Aspose.Words for .NET, add watermark, text watermark, Word document, watermark customization, .NET example, document processing]
 url: /de/net/working-with-watermark/add-text-watermark/
 ---
@@ -10,33 +10,33 @@ url: /de/net/working-with-watermark/add-text-watermark/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Text hinzufügen Wasserzeichen in Word-Dokument mit Aspose.Words
-Das Hinzufügen eines Text-Wasserzeichens zu einem Word-Dokument ist ein einfacher Prozess mit Aspose.Words für .NET. Dieses Tutorial zeigt, wie Sie ein anpassbares Text-Wasserzeichen auf Ihr Dokument anwenden. Mit Funktionen wie Schriftfamilie, Größe, Farbe, Layout und Transparenzkontrolle können Sie das Wasserzeichen auf Ihre genauen Bedürfnisse anpassen. Ob Branding, Vertraulichkeit oder Ästhetik, Aspose.Words macht es einfach, Ihre Dokumente mit professionellen Wasserzeichen zu verbessern.  
+# Hinzufügen von Text Wasserzeichen in Word-Dokument mit Aspose.Words
+Das Hinzufügen eines Text-Wasserzeichen zu einem Word-Dokument ist ein einfacher Prozess mit Aspose.Words für .NET. Dieses Tutorial zeigt, wie man ein anpassbares Text-Wasserzeichen auf Ihr Dokument anwenden kann. Mit Funktionen wie Schriftzeichenfamilie, Größe, Farbe, Layout und Transparenzkontrolle können Sie das Wasserzeichen an Ihre genauen Bedürfnisse anpassen. Ob es sich um Branding, Vertraulichkeit oder Ästhetik handelt, Aspose.Words macht es einfach, Ihre Dokumente mit professionellen Wasserzeichen zu verbessern.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-watermark/add-text-watermark" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Installationshinweise  
-1. Aspose.Words für .NET herunterladen:  
-   Holen Sie sich die neueste Version von der[Seite Downloads erstellen](https://releases.aspose.com/words/net/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+## Installationsanweisungen  
+1. Laden Sie Aspose.Words für .NET herunter:  
+   Holen Sie sich die neueste Version von der [Veröffentlichen Sie die Seite](https://releases.aspose.com/words/net/)\- Ich weiß .  
 
 2. Installieren Sie über NuGet:  
-   * Öffnen Sie Ihr Visual Studio-Projekt.  
-   * Navigieren Sie zum NuGet Package Manager (Tools > NuGet Package Manager > NuGet Packages für Lösung verwalten).  
+   * Öffnen Sie Ihr Visual Studio Projekt.  
+   * Navigieren Sie zum NuGet-Paketenmanager (Tools > NuGet-Paketenmanager > Manage NuGet-Pakete für Lösung).  
    * Suchen Sie nach "Aspose.Words" und klicken Sie auf Installieren.  
 
-3. Namespace-Referenzen hinzufügen:  
-   Fügen Sie oben in Ihrer Code-Datei den folgenden Namensraum hinzu:  
+3. Hinzufügen von Namespace-Verweisen:  
+   Fügen Sie den folgenden Namensraum oben in Ihrer Codedatei hinzu:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    using System.Drawing;
    ```  
 
-4. Lizenz anwenden (optional):  
-   Um die Vollversion zu verwenden,[eine Lizenz anwenden](https://purchase.aspose.com/temporary-license/)oder verwenden Sie eine[kostenlose Testversion](https://releases.aspose.com/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+4. Lizenz (optional):  
+   Um die vollständige Version zu verwenden, [eine Lizenz beantragen](https://purchase.aspose.com/temporary-license/)oder eine [Kostenlose Prüfung](https://releases.aspose.com/)\- Ich weiß .  
 
 ## Siehe auch
 [Aspose.Word für .NET-Dokumentation](https://docs.aspose.com/words/net/)

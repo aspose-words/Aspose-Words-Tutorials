@@ -1,12 +1,12 @@
 //ExStart
-//ExSummary: Kode ini menunjukkan bagaimana membuat dokumen Word dengan tabel bergaya menggunakan Aspose.Words. Tabel ini mencakup header dan baris data, terformat sesuai dengan pilihan gaya tertentu.
-//ExStepSummary:0: Inisialisasi Dokumen dan Dokumen Builder baru untuk mengelola struktur dokumen.
-//ExStepSummary:1: Mulai tabel baru dalam dokumen menggunakan Dokumen Builder.
+//ExSummary: Kode ini menunjukkan cara membuat dokumen Word dengan tabel bergaya menggunakan Aspose.Words. Tabel ini mencakup header dan baris data, diformat sesuai dengan opsi gaya tertentu.
+//ExStepSummary:0: Inisialisasikan Dokument baru dan DocumentBuilder untuk mengelola struktur dokumen.
+//ExStepSummary:1: Mulai tabel baru di dokumen menggunakan DocumentBuilder.
 //ExStepSummary:2: Masukkan sel pertama dan atur identifier gaya tabel.
-//ExStepSummary:3: Terapkan opsi pemformatan ke tabel dan atur perilaku auto-fit.
-//ExStepSummary:4: Tambahkan sel baris kepala ke tabel.
-//ExStepSummary:5: Sisipkan data baris ke dalam tabel dengan nama butir dan jumlah.
-//ExStepSummary:6: Simpan dokumen yang dirakit ke suatu berkas.
+//ExStepSummary:3: Tuliskan opsi format ke tabel dan atur perilaku auto-fit.
+//ExStepSummary:4: Tambahkan sel baris header ke tabel.
+//ExStepSummary:5: Masukan baris data ke dalam tabel dengan nama item dan jumlah.
+//ExStepSummary:6: Simpan dokumen yang disusun ke file.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
@@ -18,50 +18,50 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Memulai tabel baru di dokumen.
+// Mulailah tabel baru dalam dokumen.
 Table table = builder.StartTable();
 
 //ExStep:2-
-// Masukkan sel pertama sebelum menata format.
+// Masukkan sel pertama sebelum mengatur format.
 builder.InsertCell();
-// Atur identifier gaya bagi tabel.
+// Setel identifier gaya untuk tabel.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
 
 //ExStep:3-
-// Konfigurasikan opsi gaya.
+// Mengkonfigurasi opsi gaya.
 table.StyleOptions = 
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
-// Mengatur perilaku autofit meja.	
+// Setel perilaku auto-fit dari meja.	
 table.AutoFit(AutoFitBehavior.AutoFitToContents);
 
 
 //ExStep:4-
-// Tulis header untuk kolom pertama.
+// Tulis judul untuk kolom pertama.
 builder.Writeln("Item");
-// Atur padding kanan untuk sel.
+// Setel padding yang tepat untuk sel.
 builder.CellFormat.RightPadding = 40;
 // Masukkan sel kedua untuk kolom berikutnya.
 builder.InsertCell();
-// Tulis header untuk kolom kedua.
+// Tulis judul untuk kolom kedua.
 builder.Writeln("Quantity (kg)");
-// Akhiri pembuatan baris.
+// Hentikan pembuatan baris.
 builder.EndRow();
 
 //ExStep:5-
-// Mulai baris baru dan masukkan sel pertama.
+// Mulailah baris baru dan masukkan sel pertama.
 builder.InsertCell();
 builder.Writeln("Apples");
 builder.InsertCell();
 builder.Writeln("20");
 builder.EndRow();
- // Masukkan sel baris pertama untuk item kedua.
+ // Masukkan sel pertama baris baru untuk item kedua.
 builder.InsertCell();
 builder.Writeln("Bananas");
 builder.InsertCell();
 builder.Writeln("40");
 builder.EndRow();
-// Mulai baris baru untuk item ketiga.
+// Mulailah baris baru untuk item ketiga.
 builder.InsertCell();
 builder.Writeln("Carrots");
 builder.InsertCell(); 
@@ -69,6 +69,6 @@ builder.Writeln("50");
 builder.EndRow();
 
 //ExStep:6-
-// Simpan dokumen ke berkas yang dinyatakan.
+// Simpan dokumen ke file tertentu.
 doc.Save("WorkingWithTableStylesAndFormatting.BuildTableWithStyle.docx");
 //ExEnd

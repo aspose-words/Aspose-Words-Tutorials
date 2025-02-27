@@ -1,17 +1,17 @@
 //ExStart
-//ExSummaryが表示されます。このコードは、フォームフィールドを asfof.words.news. 特に、定義済み項目付きのコンボボックスのフィールドをどのように挿入するかを示します。
-//ExStepSummary:0: 以下に掲げるコードは,新しい Word ドキュメントの作成方法を示す.
-//ExStepSummary:1: 以下のコードは、ドキュメントの編集用にドキュメントビルダーを初期化する方法を示します。
-//ExStepSummary:2: 以下のコードは,あらかじめ定義された項目と標準の選択を有するコンボボックスフォームフィールドの指定及び挿入の方法を示します。
+//ExSummary: このコードは, .NET のAspose.Wordsを使用して Word ドキュメントにフォームフィールドを挿入する方法を示します.特に,既定アイテムを持つコンボボックスフォームフィールドを挿入する方法を示します.
+//ExStepSummary:0: 次のコードは,新しい Word 文書を作成する方法を示しています.
+//ExStepSummary:1: 次のコードは,ドキュメント編集のための DocumentBuilder を初期化する方法を示します.
+//ExStepSummary:2: 次のコードは,既定項目のコンボボックスフォームフィールドとデフォルト選択を定義し挿入する方法を示します.
 //ExStepImage:0:images/1.png
 //ExStepImage:1:images/2.png
 //ExStep:0-
-// 空のワード文書を初期化
+// Word ドキュメントを空きで初期化します
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// コンボボックスフィールドの指定と挿入
+// 組み合わせ方塊のフォームフィールドを定義し挿入する
 string[] items = { "One", "Two", "Three" };
 builder.InsertComboBox("DropDown", items, 0);
 //ExEnd

@@ -1,8 +1,8 @@
 ---
-title: Erstellen Sie ein Liniendiagramm in Word mit Aspose.Words für .NET
+title: Erstellen Sie ein Zeilendiagramm in Word mit Aspose.Words für .NET
 weight: 7700
 limit: 
-description: Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Liniendiagramm in einem Word-Dokument erstellen. Schritt für Schritt Anleitung mit Codebeispielen und Bildern für eine einfache Implementierung.
+description: Erfahren Sie, wie Sie ein Zeichentisch in einem Word-Dokument mit Aspose.Words für .NET erstellen. Schritt-für-Schritt-Leitfaden mit Code-Beispielen und Bildern für eine einfache Umsetzung.
 keywords: [Aspose.Words for .NET, create line chart, Word document chart, .NET chart example, Word line chart, chart creation in Word, Aspose tutorial, C# Word chart example]
 url: /de/net/working-with-charts/create-chart-using-shape/
 ---
@@ -10,29 +10,29 @@ url: /de/net/working-with-charts/create-chart-using-shape/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Erstellen Sie ein Liniendiagramm in Word mit Aspose.Words  
+# Erstellen Sie ein Zeichentisch in Word mit Aspose.Words  
 
-Aspose.Words for .NET ermöglicht Entwicklern, visuell ansprechende und professionelle Dokumente mit Leichtigkeit zu erstellen. Dieses Tutorial führt Sie durch die Erstellung eines Liniendiagramms in einem Word-Dokument Schritt für Schritt mithilfe von Aspose.Words for .NET. Ob Sie Berichte, Dashboards oder Präsentationen erstellen, die Fähigkeit, dynamische Diagramme einbetten, erhöht die Wirkung Ihrer Dokumente. Folgen Sie dem einfachen Code-Beispiel, um zu beginnen, komplett mit detaillierten Erklärungen, Bildern und Tipps, um eine nahtlose Integration in Ihr Projekt zu gewährleisten.
+Aspose.Words für .NET ermöglicht es Entwicklern, visuell ansprechende und professionelle Dokumente mit Leichtigkeit zu erstellen. Dieses Tutorial führt Sie durch die Erstellung eines Zeichenschafs in einem Word-Dokument Schritt für Schritt mit Aspose.Words für .NET. Ob Sie Berichte, Dashboards oder Präsentationen erstellen, die Fähigkeit, dynamische Diagramme zu integrieren, verbessert die Wirkung Ihrer Dokumente. Folgen Sie dem einfachen Codebeispiel, das zur Verfügung gestellt wird, um zu beginnen, mit detaillierten Erklärungen, Bildern und Tipps, um eine nahtlose Integration in Ihr Projekt zu gewährleisten.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/create-chart-using-shape" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Installationshinweise  
+## Installationsanweisungen  
 
-1. Aspose.Words für .NET herunterladen:  
-   Holen Sie sich die neueste Version von der offiziellen[Aspose.Words für .NET Download-Seite](https://releases.aspose.com/words/net/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+1. Laden Sie Aspose.Words für .NET herunter:  
+   Holen Sie sich die neueste Version vom Offiziellen .[Aspose.Words für die .NET-Downloadseite](https://releases.aspose.com/words/net/)\- Ich weiß .  
 
 2. Installieren Sie über NuGet:  
-   Fügen Sie die Bibliothek mit NuGet Package Manager zu Ihrem Projekt hinzu. Führen Sie den folgenden Befehl in der Package Manager Console aus:  
+   Fügen Sie die Bibliothek zu Ihrem Projekt mit NuGet Package Manager hinzu. Führen Sie im Package Manager Console folgende Befehl aus:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
 3. Erhalten Sie eine Lizenz:  
-   * Um eine Bewertung zu erhalten, wenden Sie sich bitte an:[befristete Lizenz](https://purchase.aspose.com/temporary-license/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
-   * Erwerb einer vollen Lizenz bei der[Lagerhaltung](https://purchase.aspose.com/buy). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+   * Für die Bewertung ist eine [vorübergehende Lizenz](https://purchase.aspose.com/temporary-license/)\- Ich weiß .  
+   * Kaufen Sie eine vollständige Lizenz bei der [Verpflegung](https://purchase.aspose.com/buy)\- Ich weiß .  
 
 
 ## Siehe auch

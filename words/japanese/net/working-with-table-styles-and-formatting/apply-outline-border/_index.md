@@ -1,8 +1,8 @@
 ---
-title: アクセシビリティを使用して、表に境界線を適用する
+title: Aspose.Wordsを使用して,文字で表に概要境界線を適用する
 weight: 7700
 limit: 
-description: Asfof.words.NET を使って、表に輪郭の境界を適用する方法を学び、表を中央に配置し、緑色の境界を追加し、セルに明るい緑色の背景を塗ります。
+description: .NET のAspose.Wordsを使用して Word のテーブルに概要境界を適用する方法について学びます.テーブルを中心に,緑の境界を追加して,明るい緑の背景を持つセルを埋めます.
 keywords: [Aspose.Words for .NET, Word table formatting, outline border, apply table border, table shading, .NET Word library]
 url: /ja/net/working-with-table-styles-and-formatting/apply-outline-border/
 ---
@@ -10,9 +10,9 @@ url: /ja/net/working-with-table-styles-and-formatting/apply-outline-border/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# アクセシビリティを使用して、表に境界線を適用する
+# Aspose.Wordsを使用して,文字で表に概要境界線を適用する
 
-アクセシビリティ.NET は Word 文書処理のための強力なライブラリです。この例は、輪郭枠を適用し、表を中央に配置し、表のセルに明るい緑色の背景を追加します。複雑な Word ドキュメントで作業しているか、フォーマットに正確なコントロールを必要とするかを反映します。Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, etc.)
+.NET の Aspose.Words は,Word ドキュメント処理のための強力なライブラリです.この例では,概要境界を適用して,テーブルを中心に設定し,テーブルセルに明るい緑色の背景を追加することでテーブルをフォーマットする方法を示します.複雑なWord ドキュメントで作業しているかどうか,またはフォーマットに正確な制御を必要とするかどうか, Aspose.Words はプロセスを簡素化します.このライブラリが提供する堅固でカスタマイズ可能な機能で,Word ドキュメントをプログラム的に強化します.
 
 
 ---
@@ -20,30 +20,30 @@ url: /ja/net/working-with-table-styles-and-formatting/apply-outline-border/
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## インストールインジケータ  
+## 設置指示  
 
-### プリクティスト  
-1. NET フレームワーク 4.7.2 または後であなたのシステムにインストールされていることを確認してください。  
-2. (2019年以降). http://www.oricon.co.jp/news/articles/article/news/articles/article/article/article/article/article/article/articles/article/article/article/article/article/article/article/article/article/article/article/article/article/article/article/article/article/article/article/article/article/article/article/article/art/article/article/article/article/article/article/art/art/art/article/artics/article/artics/articus/articus/articus/articus/arts/arts/arts/artics/arts/articus/articus/art- cu????? ろを ダウンロードを ダウンロードにダウンロードを ダウンロードにダウンロードを送き込んでおてダウンロードおて ますますますきて, て, てててててててててててててて.きて,ごてててててててててててててててててててて.きて,.を御てててててててててててててててて,.けに,.けに,.て,.て,.ててててててててて..............................................................  
+### 必須条件  
+1. システムに .NET Framework 4.7.2 またはそれ以降がインストールされていることを確認してください.  
+2. Visual Studioをダウンロードしてインストール (2019年以降は推奨)  
 
-### ステップのインストール  
-1. 公式ウェブサイトから .NET ライブラリをダウンロードします:[Asfoint. NET ダウンロードのための単語](https://releases.aspose.com/words/net/))をいう.  
-2. NuGet パッケージマネージャ経由でライブラリをインストール:  
-   * プロジェクトをビジュアル・スタジオにオープンします。  
-   * ツール_BAR_NEGE パッケージマネージャで NewGet パッケージの管理を行います。  
-   * 検索対象`Asfords. 言葉`を選択して、インストールをクリックします。  
-3. プロジェクト内のライブラリへの参照を追加します:  
+### 設置手順  
+1. .NETライブラリのためのAspose.Wordsを公式サイトからダウンロードします: [Aspose.Words を .NET でダウンロードする](https://releases.aspose.com/words/net/)やってくれ  
+2. NuGet パッケージ管理者によるライブラリをインストールする:  
+   * プロジェクトをビジュアルスタジオで開け  
+   * ツール > NuGet パッケージ管理者 > ソリューションのための NuGet パッケージ管理へ  
+   * 検索する`"言葉"`インストールをクリックします.  
+3. プロジェクトに図書館の参照を追加する  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    using System.Drawing;
    ```  
-4. ライセンスを適用する (オプション):  
-   2020年3月13日閲覧. ^ "[全版版]全面的に利用". 日本経済新聞 (日本経済新聞社). 日本経済新聞 (日本経済新聞社) (日本経済新聞社).[ライセンスを適用する](https://purchase.aspose.com/temporary- license/)または[フリーの試行](https://releases.aspose.com/words/net/))をいう.
+4. 申請許可 (オプション):  
+   完全なバージョンを使用するために[ライセンス申請](https://purchase.aspose.com/temporary-license/) [無料試験](https://releases.aspose.com/words/net/)やってくれ
    
-## また、参照してください。
-[Asforce. NET ドキュメンテーション用用語](https://docs.aspose.com/words/net/)
-[access. ^ a b c d e f g h i ". NET インフォメーション".](https://reference.aspose.com/words/net/)
+## また見てください
+[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
+[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,28 +1,28 @@
 //ExStart
-//ExSummary: Dieser Code zeigt, wie man ein Flächendiagramm mit Aspose.Words in ein Word- Dokument einfügt.
-//ExStepSummary:0: Der folgende Code initialisiert ein neues Dokument und einen Dokument-Builder.
+//ExSummary: Dieser Code zeigt, wie man ein Flächendiagramm in ein Word-Dokument mit Aspose.Words einfügt.
+//ExStepSummary:0: Der folgende Code initialisiert ein neues Dokument und einen Dokumentersteller.
 //ExStepSummary:1: Der folgende Code fügt ein Flächendiagramm in das Dokument ein.
-//ExStepSummary:2: Der folgende Code fügt dem Diagramm eine Reihe mit angegebenen Datenpunkten hinzu.
+//ExStepSummary:2: Der folgende Code fügt eine Reihe mit spezifizierten Datenpunkten hinzu.
 //ExStepSummary:3: Der folgende Code speichert das Dokument mit dem eingefügten Flächendiagramm.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Ein neues Dokument erstellen
+// Erstellen Sie ein neues Dokument
 Document doc = new Document();
-// Initialisieren des Dokument-Builders
+// Initialisieren Sie den Dokumentenbauer
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Einfügen eines Flächendiagramms mit bestimmten Abmessungen
+// Einfügen Sie eine Flächendiagramm mit angegebenen Abmessungen
 Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
 
 //ExStep:2-
 // Zugriff auf das Diagrammobjekt
 Chart chart = shape.Chart;
-// Eine neue Reihe zum Diagramm hinzufügen
+// Fügen Sie eine neue Reihe zum Diagramm hinzu
 chart.Series.Add("Aspose Series 1", new [] 
 {
-	// Daten Nummer 1
+	// Datenpunkt 1
     new DateTime(2002, 05, 01),
 	// Datenpunkt 2
     new DateTime(2002, 06, 01),
@@ -37,6 +37,6 @@ chart.Series.Add("Aspose Series 1", new []
 new double[] { 32, 32, 28, 12, 15 });
 
 //ExStep:3-
-// Speichern Sie das Dokument mit dem eingefügten Diagramm
+// Speichern Sie das Dokument mit dem eingegebenen Diagramm
 doc.Save("WorkingWithCharts.InsertAreaChart.docx");
 //ExEnd

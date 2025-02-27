@@ -1,8 +1,8 @@
 ---
-title: Aspose.Words Görsel Öğreticiler 
+title: Aspose.Words Görsel Dersleri 
 weight: 10
 limit:
-description: Aspose.Words'u .NET, Java, C++ ve daha fazlası için adım adım görsel öğreticilerle öğrenin. Ana belge oluşturma, düzenleme, dönüştürme ve otomasyonu kolayca yapın.
+description: .NET, Java, C++, ve daha fazlası için adım adım görsel dersler ile Aspose.Words öğrenin.
 keywords:
 url: /tr/
 ---
@@ -10,102 +10,102 @@ url: /tr/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words Görsel Öğreticiler
+# Aspose.Words Görsel Dersleri
 
-Aspose.Words Görsel Öğreticiler, tüm Aspose.Words ürünleri için adım adım kılavuzlar sunar, Aspose.Words .NET, Java, C++ ve daha fazlası için. Bu öğreticiler, Word belgeleri oluşturma, düzenleme, dönüştürme ve biçimlendirme gibi çok çeşitli belge işleme görevlerini kapsar. Açık talimatlar ve görsel gösterimlerle, geliştiriciler bu Aspose.Words'u uygulamalarına nasıl entegre edeceğinizi hızlı bir şekilde öğrenebilirsiniz.
+Aspose.Words Görsel Dersler .NET, Java, C++, ve daha fazlası için Aspose.Words dahil tüm Aspose.Words ürünleri için adım adım rehberler sunar. Bu dersler, Word belgeleri oluşturmak, düzenlemek, dönüştürmek ve biçimlendirme gibi çok çeşitli belge işleme görevlerini kapsar. Açık talimatlar ve görsel gösterilerle, geliştiriciler Aspose.Words i uygulamalarına nasıl entegre edeceğini hızlı bir şekilde öğrenebilirler. .NET, Java veya C++ ile çalışıyorsanız, bu dersler size belge yönetimini verimli bir şekilde otomatikleştirmenize ve iş akışınızı geliştirmenize yardımcı olmak için elden gelen öğrenme sağlar.
 
-## [Aspose.Words for .NET Görsel Öğreticiler](./net/)
+## [.NET Görsel Eğitimleri için Aspose.Words](./net/)
 
-Aspose.NET için Words, geliştiricilerin uygulamalarında belge manipülasyonunda ustalaşmasına yardımcı olmak için kapsamlı bir görsel öğreticiler seti sunar. Bu adım adım kılavuzlar, Word belgelerinin oluşturulmasını, düzenlenmesini ve dönüştürülmesini, ayrıca resim, tablo ve form alanlarını kapsar. Açık talimatlar ve görsel gösterilerle, öğreticiler karmaşık görevleri basitleştirir, otomasyon ve entegrasyon sorunsuz hale getirir. İster Aspose için yeni olun ister yeteneklerinizi geliştirin, bu eller-işlemlerinizi pratik hale getirmek için.
+.NET için Aspose.Words geliştiricilere uygulamalarında belge manipülasyonunu yönetmelerine yardımcı olmak için kapsamlı bir görsel dersler sergilendirir. Bu adım adım rehberler Word belgeleri oluşturmayı, düzenlemeyi ve dönüştürmeyi, ayrıca görüntüler, tablolar ve form alanlarını eklemeyi kapsar. Açık talimatlar ve görsel gösterilerle, dersler karmaşık görevleri basitleştirir, otomasyon ve entegrasyonu sorunsuz hale getirir. Aspose'e yeni başlayan veya becerilerini geliştiren bu pratik dersler, belge işleme yeteneklerini geliştirmek için pratik deneyim sağlar.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Aspose.Words'ta Grafiklerle Çalışmak](./net/working-with-charts/)
-Word belgeleri içinde çubuk, satır ve saçılma çizelgeleri gibi farklı çizelge türlerini eklemeyi ve özelleştirmeyi öğrenin.
-{{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="Grafiklerle Belge Oluşturun " imgSrc="/words/net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-charts/create-chart-using-shape/" title="Word'de bir Çizgi Çizelgesi Oluştur " imgSrc="/words/net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-charts/insert-area-chart/" title="Word Belgesine Alan Çizelgesi Ekle" imgSrc="/words/net/working-with-charts/insert-area-chart/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-charts/insert-bubble-chart/" title="Word'e Bir Kabarcık Çizelgesi Ekle " imgSrc="/words/net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-charts/insert-column-chart/" title="Sütun Çizelgesini Word'e Ekle " imgSrc="/words/net/working-with-charts/insert-column-chart/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-charts/insert-scatter-chart/" title="Word Scatter Grafiği Oluştur " imgSrc="/words/net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="Word'e Basit Bir Sütun Çizelgesi Ekle " imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
+### [Aspose.Wordsdaki tablolarla çalışmak ](./net/working-with-charts/)
+Word belgeleri içinde bar, satır ve dağılım çizelgeleri gibi farklı grafik türlerini ekleme ve özelleştirmeyi öğrenin.
+{{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="Çarşemalar ile Belge Oluştur " imgSrc="/words/net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/create-chart-using-shape/" title="Sözcükler İçin Bir Satır Çarşı Yapın " imgSrc="/words/net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/insert-area-chart/" title="Word Belgesine Alan Çarşısı Ekle" imgSrc="/words/net/working-with-charts/insert-area-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/insert-bubble-chart/" title="Bir Bubble Chart Ekle " imgSrc="/words/net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/insert-column-chart/" title="Word'e sütun çizelgesini ekle " imgSrc="/words/net/working-with-charts/insert-column-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/insert-scatter-chart/" title="Sözcük Yayımlama Çarşı Yap " imgSrc="/words/net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="Sözcük İçin Basit Bir Sütun Çarşı Ekle " imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Tablo Stilleri ile Çalışmak ve Assose.Words'ta .NET için Biçimlendirme](./net/working-with-table-styles-and-formatting/)
-Sınırları, stilleri ve hücre dolgusunu ayarlamak da dahil olmak üzere Word belgelerindeki tabloların nasıl oluşturulacağını, biçimlendirileceğini ve özelleştirileceğini keşfedin.
+### [.NET için Aspose.Words'te Tablo Styles ve Formatting ile çalışmak](./net/working-with-table-styles-and-formatting/)
+Sınırları, stilleri ve hücre dolgulamasını oluşturmak gibi Word belgelerindaki tabloları nasıl oluşturulacağını, biçimleneceğini ve özelleştireceğini öğrenin.
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-outline-border/" title="Anahat Sınırını Word'de Bir Tabloya Uygula" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-row-formatting/" title="Word Belgelerinde Satır Biçimlendirmeyi Uygula" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/build-table-with-border/" title="Word'de Tablo Sınırlarını Değiştir " imgSrc="/words/net/working-with-table-styles-and-formatting/build-table-with-border/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/buildtable-with-style/" title="Word'de Aspose.Words ile Biçimlendirilmiş Tablolar Oluşturun " imgSrc="/words/net/working-with-table-styles-and-formatting/buildtable-with-style/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/cell-padding/" title="Aspose.Words'ta Padding ile Kelime Tablosu Hücresi Oluşturun " imgSrc="/words/net/working-with-table-styles-and-formatting/cell-padding/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/create-table-style/" title="Word Belgesinde Biçimlendirilmiş Tablo Oluşturun " imgSrc="/words/net/working-with-table-styles-and-formatting/create-table-style/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/format-table-and-cell/" title="Tablo Sınırları ve Gölgeleme ile Kelime Belgesi Oluşturun" imgSrc="/words/net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/" title="Word Belgesinde Bir Tablo Oluşturun ve Biçimlendirin" imgSrc="/words/net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-row-formatting/" title="Aspose.Words ile Word'de Biçimlendirilmiş Bir Tablo Oluşturun " imgSrc="/words/net/working-with-table-styles-and-formatting/set-table-row-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="Başlık & Açıklamayı Word'de Tabloya Ekle" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-outline-border/" title="Bir tabloya Sohbet Sınırı Kullan" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-row-formatting/" title="Word Belgelerinde Satır biçimlendirmeyi uygulayın" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/build-table-with-border/" title="Word'de Masa Sınırlarını Değiştir " imgSrc="/words/net/working-with-table-styles-and-formatting/build-table-with-border/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/buildtable-with-style/" title="Aspose.Words ile Sözcük'te Stylised Tablolar Oluştur " imgSrc="/words/net/working-with-table-styles-and-formatting/buildtable-with-style/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/cell-padding/" title="Aspose.Words e ekleyerek Word Table Hücresi oluşturun " imgSrc="/words/net/working-with-table-styles-and-formatting/cell-padding/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/create-table-style/" title="Word Belgesinde Styled Tablo Oluştur " imgSrc="/words/net/working-with-table-styles-and-formatting/create-table-style/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/format-table-and-cell/" title="Masa Sınırları ve Gölgeleme ile Word Belgesi Oluştur" imgSrc="/words/net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/" title="Word Belgesinde Bir Tablo Oluştur ve Formate Et" imgSrc="/words/net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-row-formatting/" title="Aspose.Words ile Word'de biçimlendirilmiş bir tablo oluşturun " imgSrc="/words/net/working-with-table-styles-and-formatting/set-table-row-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="Word'de Tabloya Başlık ve Açıklama Ekle" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NET için Aspose.Words'ta Belge Oluşturucu Kullanarak İçerik Ekle](./net/add- content-using-document-builder/)
-Belge Oluşturucu sınıfını kullanarak Word belgelerine metin, tablo, resim ve diğer öğelerin programatik olarak nasıl ekleneceğini öğrenin.
+### [.NET için Aspose.Words'te Belge Oluşturucu Kullanarak İçerik Ekle ](./net/add-content-using-document-builder/)
+Word belgeleri'ne metin, tablolar, resimler ve diğer öğeleri, Belge Oluşturucu sınıfını kullanarak programsal olarak nasıl ekleneceğini öğrenin.
 
-{{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="Tablo ile Bir Kelime Belgesi Oluşturun" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-break/" title="Aspose.Words ile Çok Sayfalı Kelime Belgesi Oluşturun" imgSrc="/words/net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-floating-image/" title=".NET'te Yüzen Görüntü ile Word Belgesi Oluşturun" imgSrc="/words/net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-horizontal-rule/" title=".NET'te Yatay Kurallı Kelime Belgesi Oluşturun" imgSrc="/words/net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-inline-image/" title="Word Belgesine Inline Görüntü Ekle" imgSrc="/words/net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-paragraph/" title="Aspose.Words ile Word Belgesi Oluşturun " imgSrc="/words/net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title=".NET'te İçerik Tablosu ile Bir Kelime Belgesi Oluşturun" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="Tablo ile Word Belgesi Oluştur" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-break/" title="Aspose.Words ile çok sayfalık bir Word Belgesi oluşturun" imgSrc="/words/net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-floating-image/" title=".NET'de yüzen resim ile Word Belgesi Oluştur" imgSrc="/words/net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-horizontal-rule/" title=".NET'de Uygusal Kural ile Word Belgesi Oluştur" imgSrc="/words/net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-inline-image/" title="Word Belgesine İç Satır Resmini Ekle" imgSrc="/words/net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-paragraph/" title="Aspose.Words ile Word Belgesi oluşturun " imgSrc="/words/net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title=".NET'de İçerik Tablosu ile Word Belgesi Oluştur" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NET için Aspose.Words ile Belge Biçimlendirme](./net/document-formatting/)
-Word dosyalarınızın görsel çekiciliğini artırmak için paragraflara, listelere ve belge öğelerine çeşitli biçimlendirme seçeneklerinin nasıl uygulanacağını anlayın.
+### [.NET için Aspose.Words ile belge biçimlendirme](./net/document-formatting/)
+Word dosyalarınızın görsel çekiciliğini artırmak için paragraflara, listelere ve belge öğelerine çeşitli biçimleme seçeneklerini nasıl uygulayacağınızı öğrenin.
 
-{{< tutorial-card link="./net/document-formatting/apply-border-and-shading/" title="Aspose.Words'da Paragrafa Sınırları & Gölgelemeyi Uygula " imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/apply-paragraph-style/" title="Aspose.Words'ta bir Kelime Belgesi Oluşturun ve Biçimlendirin " imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/multilevel-list-formatting/" title="Aspose.Words ile Word'de Çok Düzeyli Listeler Oluşturun" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/paragraph-formatting/" title="Paragrafları Biçimlendir " imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-formatting/apply-border-and-shading/" title="Aspose.Words bölümünde paragraflara sınırları ve gölgelik uygula " imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-formatting/apply-paragraph-style/" title="Aspose.Words ile Word Belgesini Oluştur ve Şablonla Yap " imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-formatting/multilevel-list-formatting/" title="Aspose.Words ile Word'de Çok Düzeyli Listes Oluşturun" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-formatting/paragraph-formatting/" title="Paragrafların biçimi " imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Aspose.Words'ta .NET için Yazı Tipleri ile Çalışmak](./net/working-with- fonts/)
-Yazı tipi stilleri, satır aralığı, vurgu işaretleri ve Word belgelerindeki diğer tipografi ayarları gibi yazı tipi ile ilgili özellikleri keşfedin.
+### [.NET için Aspose.Words'te Yazı Tipi ile Çalışmak](./net/working-with-fonts/)
+Word belgelerindeki yazı tipi stilleri, satır aralığı, vurgu işaretleri ve diğer tipografi ayarları gibi yazı tipi ile ilgili özellikleri keşfedin.
 
-{{< tutorial-card link="./net/working-with-fonts/font-formatting/" title="Word'de Yazı Tipi Biçimlendirme Oluştur " imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/get-font-line-spacing/" title="Kelime Belgesinde Yazı Tipi Satır Aralığı Al" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/set-font-emphasis-mark/" title="Sözcük Belgesinde Vurgu İşaretini Ayarla " imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-fonts/font-formatting/" title="Word'de Yazı Tipi biçimlendirme oluştur " imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-fonts/get-font-line-spacing/" title="Word Belgesinde Font Line Aralıklı Oluştur" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-fonts/set-font-emphasis-mark/" title="Word Belgesinde Temizlik Markası Yap " imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Aspose.Words ile .NET için Form Alanları ile Çalışmak](./net/working-with- form-fields/)
-Word belgeleri içinde metin girişi, açılır listeler ve onay kutuları gibi form alanlarını nasıl ekleyeceğinizi ve yöneteceğinizi öğrenin.
+### [.NET için Aspose.Words'te Form Alanları ile çalışmak](./net/working-with- form-fields/)
+Word belgeleri içinde metin girimi, düşüş listeleri ve kontrol kutuları gibi form alanlarını nasıl ekleyeceğinizi ve yönetileceğinizi öğrenin.
 
-{{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Combo Box Form Alanını Word Belgesine Ekle" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Word Belgesine Combo Box Form Alanı Ekle" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NET için Aspose.Words'ta Başlıklar ve Altbilgilerle Çalışmak](./net/working- with-headers-and-footers/)
-Resim, sayfa numarası ve metin eklemek de dahil olmak üzere başlıkları ve altbilgileri nasıl oluşturacağınızı ve manipüle edeceğinizi öğrenin.
+### [.NET için Aspose.Words için Başlık ve Ayağa Tıkayıcılar ile çalışmak](./net/working-with-headers-and-footers/)
+Resimleri, sayfa numaralarını ve metni eklemek de dahil olmak üzere başlıkları ve ayakkabıları nasıl oluşturup değiştirmeyi öğrenin.
 
-{{< tutorial-card link="./net/working-with-headers-and-footers/create-header-footer/" title="Başlık ve Altbilgi ile Word Belgesi Oluşturun" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-headers-and-footers/insert-image/" title="Word Belge Başlığına Resim Ekle" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-headers-and-footers/create-header-footer/" title="Başlık ve Altyazılı ile Word Belgesi Oluştur" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-headers-and-footers/insert-image/" title="Word Belge Başlığı'na Bir Resim Ekle" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NET için Aspose.Words'taki Bölümlerle Çalışmak](./net/working-with-section/)
-Belgeleri bölümlere nasıl yapılandıracağınızı anlayın, farklı başlıklara, altbilgilere ve biçimlendirme stillerine izin verin.
+### [.NET için Aspose.Words bölümleri ile çalışmak](./net/working-with-section/)
+Belgeleri farklı başlıklara, ayakkabılara ve biçimlendirme biçimlerine izin veren bölümlere nasıl yapılandırılacağını anlayın.
 
 {{< tutorial-card link="./net/working-with-section/add-section/" title="Word Belgesine Yeni Bir Bölüm Ekle" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-section/append-section-content/" title="Word Belgelerinde İçeriği Ekle ve Hazırla" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-section/append-section-content/" title="Word Belgelerinde İçeriği Ekle ve Öncelendirme" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Aspose.Words'ta .NET için Şekillerle Çalışmak](./net/working-with-shapes/)
-Word belgelerinde gruplandırılmış şekiller ve önceden tanımlanmış çizimler de dahil olmak üzere çeşitli şekillerin nasıl yerleştirileceğini ve manipüle edileceğini keşfedin.
+### [.NET için Aspose.Words'ta Şekiller ile çalışmak](./net/working-with-shapes/)
+Word belgelerinde gruplanmış şekiller ve önceden tanımlanmış çizimler de dahil olmak üzere çeşitli şekilleri nasıl ekleyeceğinizi ve manipüle edeceğinizi öğrenin.
 
-{{< tutorial-card link="./net/working-with-shapes/add-group-shape/" title="Word Belgesinde Grup Şekli Oluştur " imgSrc="/words/net/working-with-shapes/add-group-shape/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-shapes/insert-shape/" title="Word Belgelerine Şekil Ekle " imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-shapes/add-group-shape/" title="Word Belgesinde Grup Şekili Oluştur " imgSrc="/words/net/working-with-shapes/add-group-shape/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-shapes/insert-shape/" title="Şekiller Word Belgelerine Ekle " imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Aspose.Words'ta .NET için Filigran ile çalışmak](./net/working-with- watermark)
-Marka veya güvenlik amacıyla Word belgelerine metin ve resim filigranları eklemeyi öğrenin.
-{{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="Word Belgesine Metin Filigranı Ekle " imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
+### [.NET için Aspose.Words için Watermark ile çalışmak](./net/working-with- watermark)
+Markalama veya güvenlik amaçlı Word belgelere metin ve resim su işaretlerini eklemeyi öğrenin.
+{{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="Word Belgesine Metin Su İşaretini Ekle " imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

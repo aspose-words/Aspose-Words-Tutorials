@@ -1,21 +1,21 @@
 //ExStart
-//ExSummary:Este exemplo demonstra como anexar e prefixar conteúdo de uma seção para outra em um documento do Word usando Aspose.Words for .NET.
-//ExStepSummary:0: Inicialize um novo documento do Word e o DocumentBuilder para adicionar conteúdo.
-//ExStepSummary:1: Escreva quebras de seção de texto e inserção para criar várias seções no documento.
-//ExStepSummary:2: Acesse a terceira seção do documento para se preparar para a manipulação de conteúdo.
-//ExStepSummary:3: Prepend conteúdo da primeira seção para a terceira seção.
-//ExStepSummary:4: Adicione o conteúdo da segunda seção à terceira seção.
+//ExSummary: Este exemplo demonstra como adicionar e pre-apontar conteúdo de uma seção para outra em um documento do Word usando Aspose.Words para .NET.
+//ExStepSummary:0: Iniciar um novo documento do Word e DocumentBuilder para adicionar conteúdo.
+//ExStepSummary:1: Escreva texto e insira interrupções de seção para criar várias seções no documento.
+//ExStepSummary:2: Acesse a terceira secção do documento para se preparar para a manipulação do conteúdo.
+//ExStepSummary:3: Preponder o conteúdo da primeira seção à terceira seção.
+//ExStepSummary:4: Aplicar o conteúdo da segunda seção à terceira.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// Inicialize o documento e o DocumentBuilder
+// Iniciar o documento e DocumentBuilder
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Escreva quebras de seção de texto e inserção para criar três seções
+// Escreva texto e insira interrupções de seção para criar três seções
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 // Adicionar conteúdo para a segunda seção
@@ -25,16 +25,16 @@ builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Write("Section 3");
 
 //ExStep:2-
-// Recupere a terceira seção do documento
+// Retirar a terceira seção do documento
 Section section = doc.Sections[2];
 
 //ExStep:3-
-// Prepend conteúdo da primeira seção para a terceira seção
+// Preponder conteúdo da primeira seção à terceira seção
 Section sectionToPrepend = doc.Sections[0];
 section.PrependContent(sectionToPrepend);
 
 //ExStep:4-
-// Acrescentar conteúdo da segunda seção à terceira seção
+// Aplicar o conteúdo da segunda seção à terceira seção
 Section sectionToAppend = doc.Sections[1];
 section.AppendContent(sectionToAppend);
 //ExEnd

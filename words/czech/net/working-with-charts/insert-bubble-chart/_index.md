@@ -1,8 +1,8 @@
 ---
-title: Vložit bublina graf v používání slova Aspose.Words pro .NET
+title: Vkládání graf bubliny do Word pomocí Aspose.Words pro .NET
 weight: 7700
 limit: 
-description: Naučte se, jak vložit Bubble graf do dokumentu Word pomocí Aspose.Words pro .NET. Krok za krokem pokyny a kódový příklad zahrnuty.
+description: Naučte se, jak vložit graf Bubble do dokumentu Word pomocí Aspose.Words pro .NET.
 keywords: [Aspose.Words for .NET, insert Bubble chart, Word document, .NET Bubble chart example, create Bubble chart Word]
 url: /cs/net/working-with-charts/insert-bubble-chart/
 ---
@@ -10,38 +10,38 @@ url: /cs/net/working-with-charts/insert-bubble-chart/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vložit bublina graf do slova pomocí aspose.Words
+# Vkládejte graf bubliny do slova pomocí Aspose.Words
 
-Snadno přidat bublinový graf do dokumentu Word pomocí Aspose.Words for .NET! Tento průvodce vás provede vytvořením nového dokumentu, vložením bublinového grafu, přidáním datových řad s hodnotami X, Y a velikostí a uložením dokumentu. S Aspose.Words, manipulace Word dokumenty programaticky nikdy nebylo jednodušší.  
+Tento průvodce vám pomůže vytvořit nový dokument, vložit graf Bubble, přidat data série s hodnotami X, Y a velikosti a ukládat dokument. S Aspose.Words je programatické zvládání dokumentů Word nikdy jednodušší.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-bubble-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Návod k instalaci  
+## Příkazy na instalaci  
 
-1. Stáhnout Aspose.Words pro .NET  
-   Získejte knihovnu z[Aspose.Words download page](https://releases.aspose.com/words/net/).  
+1. Snímečku Aspose.Words pro .NET  
+   Vezmi knihovnu z [Aspose.Words stránka pro stažení](https://releases.aspose.com/words/net/)\- Ne , ne .  
 
-2. Nainstalovat přes NuGet správce balíčků  
-   * Otevřete si projekt Visual Studio.  
-   * Navigovat k nástrojům > NuGet Package Manager > Spravovat NuGet balíčky pro řešení.  
-   * Hledat`Aspose. Words`v záložce Prohlížení.  
-   * Vyberte balíček a klikněte na Instalovat.  
+2. Instalace prostřednictvím programu NuGet Package Manager  
+   * Otevři svůj projekt Visual Studio.  
+   * Přejďte do nástrojů > Správce balíček NuGet > Správte balíčky NuGet pro řešení.  
+   * Hledání `"Přesvědčte. Slova"`v tabulce Browse.  
+   * Vyberte balíček a klikněte na Instaliru.  
 
-3. Nainstalovat přes NuGet Package Manager Console  
-   Spusťte následující příkaz v konzoli Správce balíčků:  
+3. Instalace prostřednictvím konzole NuGet Manager  
+   V konzole pro správu balíček spěchejte následující příkaz:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-4. Přidat licenci  
-   Pro plnou funkčnost, použijte licenci. Můžete získat dočasnou licenci od[Upravit dočasnou stránku licence](https://purchase.aspose.com/temporary- license/).  
+4. Přidání licence  
+   Pro plnou funkčnost, použijte licenci.[Stránka dočasné licence](https://purchase.aspose.com/temporary-license/)\- Ne , ne .  
 
-## Také viz
-[Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Reference](https://reference.aspose.com/words/net/)
+## Viz také
+[Aspose.Word pro .NET dokumentaci](https://docs.aspose.com/words/net/)
+[Aspose.Word pro reference .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

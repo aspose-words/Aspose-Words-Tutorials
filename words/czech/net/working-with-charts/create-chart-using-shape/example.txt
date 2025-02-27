@@ -1,37 +1,37 @@
 //ExStart
-//ExSummary: Prosím, zkontrolujte následující kód najít, jak vytvořit řádek graf v dokumentu Word. Můžete zkopírovat tento kód do svého IDE a spustit ho.
-//ExStepSummary:0: Následující kód ukazuje, jak vytvořit nový dokument a instantiate a DocumentBuilder:
-//ExStepSummary:1: Následující kód ukazuje, jak do dokumentu vložit graf řádku:
-//ExStepSummary:2: Následující kód vysvětluje, jak nastavit název grafu:
-//ExStepSummary:3: Následující kód ukazuje, jak nastavit polohu a nastavení překrytí legendy grafu:
+//ExSummaryV dokumentu Word můžete kopírovat tento kód do IDE a spustit ho.
+//ExStepSummary:0: Následující kód ukazuje, jak vytvořit nový dokument a instanciovat dokumentbuilder:
+//ExStepSummary:1: Následující kód ukazuje, jak do dokumentu vložit graf linií:
+//ExStepSummary:2: Následující kód vysvětluje, jak nastavit název tabulky:
+//ExStepSummary:3: Následující kód ukazuje, jak konfigurovat nastavení polohy a přepážek grafu:
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Vytvořit nový objekt Dokumentu
+// Vytvořit nový objekt Dokument
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Vložit do dokumentu graf řádku ve stanovených rozměrech
+// Vložte do dokumentu graf linií ve stanovených rozměrech
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
 
 //ExStep:2-
-// Přístup k objektu Graf z tvaru
+// Přístup k objektu Grafika z tvaru
 Chart chart = shape.Chart;
-// Povolit viditelnost názvu mapy
+// Vypnout viditelnost název tabulky
 chart.Title.Show = true;
-// Nastavit text názvu grafu
+// Nastavte název tabulky
 chart.Title.Text = "Line Chart Title";
-// Ujistěte se, že název není překryv grafu
+// Ujišťujte, že název nezahrnuje graf
 chart.Title.Overlay = false;
 
 //ExStep:3-
-// Nastavte polohu legendy grafu vlevo
+// Nastavte polohu legendy tabulky vlevo
 chart.Legend.Position = LegendPosition.Left;
 chart.Legend.Overlay = true;
 
 //ExStep:4-
-// Uložit dokument s grafem do souboru
+// Uložte dokument s grafem do souboru
 doc.Save("WorkingWithCharts.CreateChartUsingShape.docx");
 //ExEnd

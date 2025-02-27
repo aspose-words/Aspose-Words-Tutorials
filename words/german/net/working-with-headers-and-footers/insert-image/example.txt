@@ -1,22 +1,22 @@
 //ExStart
-//ExSummary: Dieser Code zeigt, wie man ein Bild mit Aspose.Words für .NET in den Header eines Word-Dokuments einfügt.
-//ExStepSummary:0: Erstellen Sie ein neues Word-Dokument mit der Klasse Aspose.Words Document.
-//ExStepSummary:1: Wechseln Sie mit dem DocumentBuilder in den primären Header des Dokuments.
-//ExStepSummary:2: Fügen Sie ein Bild in den Header mit spezifischen Ausrichtungs-, Abmessungen- und Umhüllungsoptionen ein.
-//ExStepSummary:3: Speichern Sie das Dokument in einen bestimmten Dateipfad.
+//ExSummaryDieser Code zeigt, wie man ein Bild in den Header eines Word-Dokumentes mit Aspose.Words für .NET einfügt.
+//ExStepSummary:0: Erstellen Sie ein neues Word-Dokument mit der Dokumentklasse Aspose.Words.
+//ExStepSummary:1: Bewegen Sie sich mit dem Dokumentbuilder zum primären Header des Dokuments.
+//ExStepSummary:2: Ein Bild mit spezifischen Ausrichtung, Abmessungen und Verpackungsoptionen in den Kopf einfügen.
+//ExStepSummary:3: Speichern Sie das Dokument auf einen bestimmten Dateipfad.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Ein neues Word-Dokument erstellen
+// Erstellen Sie ein neues Word-Dokument
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Bewegen Sie den Cursor in den primären Kopf des Dokuments
+// Bewegen Sie den Cursor zum primären Header des Dokuments
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
 //ExStep:2-
-// Ein Bild in den Header mit spezifischer Ausrichtung und Abmessungen einfügen
+// Ein Bild mit einer bestimmten Ausrichtung und Dimensionen in den Kopf einfügen
 builder.InsertImage(
     ImagesDir + "Logo.jpg", RelativeHorizontalPosition.RightMargin, 10,
     RelativeVerticalPosition.Page, 10, 50, 50, 
@@ -24,6 +24,6 @@ builder.InsertImage(
 );
 
 //ExStep:3-
-// Das Dokument in den angegebenen Pfad speichern
+// Speichern Sie das Dokument auf dem angegebenen Pfad
 doc.Save("WorkingWithHeadersAndFooters.InsertImage.docx");
 //ExEnd

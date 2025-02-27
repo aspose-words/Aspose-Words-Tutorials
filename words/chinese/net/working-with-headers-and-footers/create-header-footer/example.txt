@@ -1,27 +1,27 @@
 //ExStart
-//ExSummary:此代码演示如何使用 Apose. words 创建带有主页眉和页脚的 Word 文档。它初始化了一个新的文档,移动到页眉和页脚部分,并撰写自定义文本。最后,它将文档保存为 DOCX 文件。
-//ExStepSummary:0: 以下代码初始化主文档对象,并设立文档构建器。
-//ExStepSummary:1: 以下代码移到主页眉部分, 并写入页眉文字 。
-//ExStepSummary:2: 以下代码移到主页脚部分, 并写入页脚文字 。
-//ExStepSummary:3: 以下代码将文档保存到指定的文件路径 。
+//ExSummary编程:该代码展示了如何使用Aspose.Words创建一个 Word 文档的首页和脚本.它初始化了一个新的文档,移动到标题和脚本部分,并编写自定义文本.最后,它将文档保存为 DOCX 文件.
+//ExStepSummary:0: 下面的代码初始化主文件对象并设置文件构造器.
+//ExStepSummary:1: 下面的代码将转移到首页标题部分,并写出标题文本.
+//ExStepSummary:2: 下面的代码将转移到主要脚本部分,并写出脚本文本.
+//ExStepSummary:3: 下面的代码将文档保存到指定文件路径.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// 初始化新的文档对象
+// 启动一个新的文档对象
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 移动到主标题区域
+// 转到首页部分
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Write("Header for page.");
 
 //ExStep:2-
-// 移动到主页脚部分
+// 转到主要脚本部分
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("Footer for page."); // Write the footer text
 
 //ExStep:3-
-// 以指定的文件名保存文档
+// 保存指定文件名的文件
 doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
 //ExEnd

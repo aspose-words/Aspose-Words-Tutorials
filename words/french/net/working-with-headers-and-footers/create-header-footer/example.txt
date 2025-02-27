@@ -1,27 +1,27 @@
 //ExStart
-//ExSummary: Ce code montre comment créer un document Word avec un en-tête primaire et un pied de page en utilisant Aspose.Words. Il initialise un nouveau document, se déplace vers les sections d'en-tête et de pied de page, et écrit du texte personnalisé. Enfin, il enregistre le document comme un fichier DOCX.
-//ExStepSummary:0: Le code suivant initialise l'objet principal Document et met en place le DocumentBuilder.
-//ExStepSummary:1: Le code suivant se déplace vers la section d'en-tête primaire et écrit le texte d'en-tête.
-//ExStepSummary:2: Le code suivant se déplace vers la section de pied de page primaire et écrit le texte de pied de page.
-//ExStepSummary:3: Le code suivant enregistre le document dans un chemin de fichier spécifié.
+//ExSummaryCe code démontre comment créer un document Word avec une en-tête et un pied de page primaires en utilisant Aspose.Words. Il initie un nouveau document, passe aux sections en-tête et en-tête et écrit du texte personnalisé. Enfin, il enregistre le document sous forme de fichier DOCX.
+//ExStepSummary:0: Le code suivant initiale l'objet principal du document et installe le DocumentBuilder.
+//ExStepSummary:1: Le code suivant passe à la section d'en-tête primaire et écrit le texte de l'en-tête.
+//ExStepSummary:2: Le code suivant passe à la section de pied de page principale et écrit le texte de pied de page.
+//ExStepSummary:3: Le code suivant sauvegarde le document dans un chemin de fichier spécifié.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Initialiser un nouvel objet Document
+// Initialement d' un nouvel objet de document
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Déplacer vers la section d'en-tête primaire
+// Passez à la section d' en-tête principale
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Write("Header for page.");
 
 //ExStep:2-
-// Déplacez-vous vers la section principale du pied de page
+// Passez à la section de pied de page principale
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("Footer for page."); // Write the footer text
 
 //ExStep:3-
-// Enregistrer le document avec le nom de fichier spécifié
+// Enregistrez le document avec le nom de fichier spécifié
 doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
 //ExEnd

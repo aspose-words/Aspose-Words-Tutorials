@@ -1,25 +1,25 @@
 //ExStart
-//ExSummary: Ez a kód bemutatja, hogyan hozhat létre Word dokumentumot az Aspose.Words segítségével, alkalmazhat bekezdésstílust, és mentheti a dokumentumot. Megmutatja, hogyan állíthat be címstílust egy bekezdéshez, és mentheti a dokumentumot .docx formátumban.
-//ExStepSummary:0: Ez a szakasz egy új Document and DocumentBuilder példányt inicializál.
-//ExStepSummary:1: Ez a szakasz a DocumentBuilder használatával alkalmazza a Title paragraph stílust.
-//ExStepSummary:2: Ez a rész "Hello" -t ír a dokumentumhoz.
-//ExStepSummary:3: Ez a szakasz a dokumentumot egy megadott fájl elérési útjára menti.
+//ExSummaryA kód bemutatja, hogyan lehet létrehozni a Word dokumentumot az Aspose.Words segítségével, alkalmazni egy bekezdés stílust, és menteni a dokumentumot.
+//ExStepSummary:0: Ez a szakasz egy új Dokumentum és DocumentBuilder példányt indít.
+//ExStepSummary:1: Ez a szakasz a DocumentBuilder használatával alkalmaz egy cím bekezdés stílusát.
+//ExStepSummary:2: Ez a rész "Szia" ír a dokumentumra.
+//ExStepSummary:3: Ez a szakasz az dokumentumot egy meghatározott fájl útvonalra tárolja.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Új dokumentumpéldány inicializálása
+// Indítsa be egy új Dokumentum példányát
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// A bekezdés stílusának beállítása Cím
+// A bekezdés stílusát a címre állítsa
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Title;
 
 //ExStep:2-
-// Írja be a "Hello" -t az építővel, a megadott stílus alkalmazásával
+// Írd meg "Hello" a "builder" segítségével, a megadott stílus alkalmazásával
 builder.Write("Hello");
 
 //ExStep:3-
-// A dokumentum mentése .docx fájlba
+// Takarítsa meg a dokumentumot egy .docx fájliszámra
 doc.Save("DocumentFormatting.ApplyParagraphStyle.docx");
 //ExEnd

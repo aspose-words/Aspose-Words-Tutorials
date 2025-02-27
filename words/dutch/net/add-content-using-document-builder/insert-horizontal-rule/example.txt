@@ -1,25 +1,25 @@
 //ExStart
-//ExSummary:Deze code laat zien hoe je een Word-document maakt met behulp van Aspose.Words en voeg er een horizontale regel aan toe. 
-//ExStepSummary:0: Een nieuw document-object aanmaken om de inhoud in te houden.
+//ExSummaryDeze code toont hoe een Word document met Aspose.Words wordt gemaakt en er een horizontale regel aan wordt toegevoegd. 
+//ExStepSummary:0: Maak een nieuw Document object om de inhoud te bewaren.
 //ExStepSummary:1: Gebruik DocumentBuilder om de lay-out van het document te ontwerpen en een bericht in te voegen.
-//ExStepSummary:2: Een horizontale regelvorm in het document invoegen.
-//ExStepSummary:3: Sla het document op in het opgegeven bestandspad.
+//ExStepSummary:2: Voeg een horizontale regelvorm in het document.
+//ExStepSummary:3: Bewaar het document op het gespecificeerde bestandpad.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Een nieuw document-object aanmaken om de inhoud vast te houden
+// Een nieuw Document object maken om de inhoud te bewaren
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc); 
 
 //ExStep:1-
-// Schrijf een regel in het document
+// Schrijf een lijn in het document
 builder.Writeln("Insert a horizontal rule shape into the document.");
 
 //ExStep:2-
-// Een horizontale regelvorm in het document invoegen
+// Voeg een horizontale regelvorm in het document in
 builder.InsertHorizontalRule();
 
 //ExStep:3-
-// Het document opslaan naar de opgegeven locatie
+// Het document op de gespecificeerde locatie opslaan
 doc.Save("AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
 //ExEnd

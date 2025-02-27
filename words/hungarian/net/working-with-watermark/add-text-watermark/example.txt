@@ -1,21 +1,21 @@
 //ExStart
-//ExSummary: Ez a kód azt mutatja be, hogyan lehet hozzáadni egy szöveges vízjelet konkrét beállításokkal egy Word dokumentumhoz az Aspose.Words használatával.
-//ExStepSummary:0: A következő kód inicializálja a dokumentum elérési útját, és létrehoz egy új dokumentum objektumot.
-//ExStepSummary:1: A következő kód beállítja a szöveg vízjelének beállításait, beleértve a betűcsaládot, a méretet, a színt és az elrendezést.
-//ExStepSummary:2: A következő kód a megadott opciókkal rendelkező szöveg vízjelét alkalmazza a dokumentumra.
-//ExStepSummary:3: A következő kód a módosított dokumentumot egy megadott könyvtárba menti.
+//ExSummary: Ez a kód bemutatja, hogyan lehet hozzáadni egy szöveges vízjelzőt egy Word dokumentumhoz, amely speciális lehetőségekkel rendelkezik, Aspose.Words segítségével.
+//ExStepSummary:0: A következő kód az dokumentum útvonalot indokolja és új Dokumentum objektumot hoz létre.
+//ExStepSummary:1: A következő kód meghatározza a szöveges vízjelzés lehetőségét, beleértve a betűcsaládot, a méretet, a színt és a beépítést.
+//ExStepSummary:2: A következő kód a dokumentumra a megadott lehetőségekkel ellátott szöveges vízjelzőt alkalmazza.
+//ExStepSummary:3: A következő kód az módosított dokumentumot egy meghatározott könyvtárba tárolja.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStep:0-
-// A dokumentum könyvtár elérési útjának beállítása
+// Beállítsa a dokumentum címlap útját
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// A Word dokumentum betöltése
+// Költse be a Word dokumentumot
 Document doc = new Document(dataDir + "Document.docx");
 
 //ExStep:2-
-// Vízjel opciók létrehozása
+// Tárgyalási lehetőségek létrehozása
 TextWatermarkOptions options = new TextWatermarkOptions()
 {
     FontFamily = "Arial", // Set font family for the watermark text
@@ -26,10 +26,10 @@ TextWatermarkOptions options = new TextWatermarkOptions()
 };
 
 //ExStep:3-
-// Alkalmazza a vízjel szöveget az opciókkal
+// A vízjelző szöveg alkalmazása lehetőségekkel
 doc.Watermark.SetText("Test", options);
 
 //ExStep:4-
-// Mentse a dokumentumot a vízjellel
+// Takarítsa meg a vízjelzővel ellátott dokumentumot
 doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
 //ExEnd

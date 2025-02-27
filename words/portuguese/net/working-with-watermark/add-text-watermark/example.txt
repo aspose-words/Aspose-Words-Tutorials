@@ -1,21 +1,21 @@
 //ExStart
-//ExSummary: Este código demonstra como adicionar uma marca d'água de texto com opções específicas a um documento do Word usando Aspose.Words.
-//ExStepSummary:0: O código a seguir inicializa o caminho do documento e cria um novo objeto Documento.
-//ExStepSummary:1: O código a seguir define as opções para a marca d'água de texto, incluindo família de fontes, tamanho, cor e layout.
-//ExStepSummary:2: O código a seguir aplica a marca d'água de texto com as opções especificadas no documento.
-//ExStepSummary:3: O código a seguir salva o documento modificado em um diretório especificado.
+//ExSummary: Este código demonstra como adicionar um watermark de texto com opções específicas a um documento do Word usando Aspose.Words.
+//ExStepSummary:0: O código a seguir inicializa o caminho do documento e cria um novo objeto do documento.
+//ExStepSummary:1: O código a seguir define as opções para a marca de água do texto, incluindo família de fontes, tamanho, cor e layout.
+//ExStepSummary:2: O código seguinte aplica a marca de água de texto com as opções especificadas ao documento.
+//ExStepSummary:3: O código a seguir salva o documento modificado num diretório especificado.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStep:0-
-// Definir o caminho de diretório para o documento
+// Defina o caminho do diretório para o documento
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Carregar o documento do Word
+// Carregar o documento Word
 Document doc = new Document(dataDir + "Document.docx");
 
 //ExStep:2-
-// Criar opções de marca d'água
+// Criar opções de marca de água
 TextWatermarkOptions options = new TextWatermarkOptions()
 {
     FontFamily = "Arial", // Set font family for the watermark text
@@ -26,10 +26,10 @@ TextWatermarkOptions options = new TextWatermarkOptions()
 };
 
 //ExStep:3-
-// Aplique o texto da marca d'água com opções
+// Aplicar o texto de marca de água com opções
 doc.Watermark.SetText("Test", options);
 
 //ExStep:4-
-// Salve o documento com a marca d'água
+// Salvar o documento com a marca de água
 doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
 //ExEnd

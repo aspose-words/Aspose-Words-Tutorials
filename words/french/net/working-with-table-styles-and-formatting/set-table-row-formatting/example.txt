@@ -1,38 +1,38 @@
 //ExStart
-//ExSummary: Ce code montre comment créer un document Word avec une table formatée à l'aide d'Assocate.
-//ExStepSummary:0: Cette étape initialise un nouveau document et le constructeur de documents.
-//ExStepSummary:1: Cette étape démarre la table et insère une cellule dans celle-ci.
-//ExStepSummary:2: Cette étape définit le formatage de la ligne, y compris la règle de hauteur et de hauteur.
-//ExStepSummary:3: Cette étape définit le rembourrage pour toute la table, affectant toutes les lignes.
-//ExStepSummary:4: Cette étape ajoute du texte à la cellule et termine la ligne.
-//ExStepSummary:5: Cette étape termine la table et enregistre le document sur un chemin spécifié.
+//ExSummary: Ce code montre comment créer un document Word avec une table formatée à l'aide d'Aspose.
+//ExStepSummary:0: Cette étape initie un nouveau document et le constructeur de documents.
+//ExStepSummary:1: Cette étape démarre la table et y insère une cellule.
+//ExStepSummary:2: Cette étape définit le formatage de la rangée, y compris la règle de hauteur et de hauteur.
+//ExStepSummary:3: Cette étape met en place un rembourrage pour toute la table, affectant toutes les rangées.
+//ExStepSummary:4: Cette étape ajoute du texte à la cellule et met fin à la ligne.
+//ExStepSummary:5: Cette étape met fin au tableau et sauve le document dans un chemin spécifié.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 
 //ExStep:0-
-// Créer une nouvelle instance Document
+// Créer une nouvelle instance de document
 Document doc = new Document();
-// Initialiser DocumentBuilder avec le document
+// Initialement DocumentBuilder avec le document
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Démarrer une nouvelle table
+// Commencez une nouvelle table
 Table table = builder.StartTable();
 // Insérer la première cellule dans le tableau
 builder.InsertCell();
 
 //ExStep:2-
-// Accédez à la propriété RowFormat du constructeur
+// Accéder à la propriété RowFormat du constructeur
 RowFormat rowFormat = builder.RowFormat;
-// Régler la hauteur de la ligne
+// Définir la hauteur de la rangée
 rowFormat.Height = 100;
-// Régler la règle de hauteur à exactement
+// Réglementer la hauteur à exactement
 rowFormat.HeightRule = HeightRule.Exactly;
 
 //ExStep:3-
-// Set rembourrage pour la table
+// Remplissez la table
 table.LeftPadding = 30;
 table.RightPadding = 30;
 table.TopPadding = 30;
@@ -41,7 +41,7 @@ table.BottomPadding = 30;
 //ExStep:4-
 // Ajouter du texte à la cellule actuelle
 builder.Writeln("I'm a wonderful formatted row.");
-// Fin de la ligne actuelle
+// Fin de la ligne courante
 builder.EndRow();
 builder.EndTable();
 

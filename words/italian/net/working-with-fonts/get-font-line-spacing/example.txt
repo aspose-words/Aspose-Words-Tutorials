@@ -1,23 +1,23 @@
 //ExStart
-//ExSummary: Questo codice mostra come creare un documento e ottenere la spaziatura di riga di un carattere specificato.
-//ExStepSummary:0: Il seguente codice inizializza un nuovo documento e DocumentBuilder.
-//ExStepSummary:1: Il codice imposta il carattere a "Calibri" e aggiunge una riga di testo.
-//ExStepSummary:2: Il codice recupera la spaziatura di riga della prima esecuzione nel documento.
+//ExSummary: Questo codice mostra come creare un documento e ottenere lo spaziamento tra le linee di un carattere specificato.
+//ExStepSummary:0: Il seguente codice inizializza un nuovo Documento e DocumentBuilder.
+//ExStepSummary:1: Il codice imposta la fonte a "Calibri" e aggiunge una riga di testo.
+//ExStepSummary:2: Il codice recupera l'intervallo tra le linee della prima esecuzione nel documento.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Crea una nuova istanza di documento
+// Crea un nuovo documento
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Imposta il nome del carattere a 'Calibri'
+// Impostare il nome della fonte a "Calibri"
 builder.Font.Name = "Calibri";
 builder.Writeln("qText");
 
 //ExStep:2-
 // Accedere al carattere della prima esecuzione
 Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
-// Inserisci la spaziatura della linea alla console
+// Esporta la linea spaziante alla console
 Console.WriteLine($"lineSpacing = {font.LineSpacing}");
 //ExEnd

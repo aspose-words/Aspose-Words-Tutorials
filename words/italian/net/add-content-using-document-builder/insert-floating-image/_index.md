@@ -1,8 +1,8 @@
 ---
-title: Crea documento Word con immagine fluttuante in .NET
+title: Crea un documento Word con immagine galleggiante in .NET
 weight: 7700
 limit: 
-description: Scopri come usare Aspese.Parole per .NET per creare un documento Word e inserire un'immagine fluttuante. Esempio passo-passo fornito.
+description: Impara come utilizzare Aspose.Words per .NET per creare un documento Word e inserire un'immagine galleggiante.
 keywords: [Aspose.Words, .NET, Word document, insert image, floating layout, DocumentBuilder, C# example]
 url: /it/net/add-content-using-document-builder/insert-floating-image/
 ---
@@ -10,30 +10,30 @@ url: /it/net/add-content-using-document-builder/insert-floating-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crea documento di parola con immagine fluttuante
+# Crea un documento Word con immagine galleggiante
 
-Questo esempio dimostra come creare un documento Word usando Aspose.Words for .NET e inserire un'immagine con un layout fluttuante. Il codice fornito inizializza un documento e DocumentBuilder, inserisce un'immagine con dimensioni e posizionamento specificati e infine salva il documento. Questa guida è ideale per gli sviluppatori che cercano di migliorare le loro capacità di generazione di documenti utilizzando Aspose.Words.
+Questo esempio dimostra come creare un documento Word utilizzando Aspose.Words per .NET e inserire un'immagine con un layout galleggiante. Il codice fornito inizializza un Documento e DocumentBuilder, inserisce un'immagine con dimensioni e posizionamento specificati e infine salva il documento. Questa guida è ideale per gli sviluppatori che desiderano migliorare le loro capacità di generazione di documenti utilizzando Aspose.Words.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-floating-image" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Istruzioni per l'installazione
-1. Installa Aspose.Parole: Aggiungi il pacchetto Aspose.Words NuGet al tuo progetto .NET. Puoi farlo eseguendo il seguente comando nella Console gestore pacchetti:
+## Instruzioni di installazione
+1. Installare Aspose.Words: Aggiungi il pacchetto NuGet Aspose.Words al tuo progetto .NET. Puoi farlo eseguendo il seguente comando nella Console Manager di pacchetti:
    ```
    Install-Package Aspose.Words
    ```
 
-2. Aggiungi Namespace obbligatori: Assicurarsi che il file di codice includa i seguenti namespace:
+2. Aggiungere i nomi necessari: assicurarsi che il file di codice inclua i nomi seguenti:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
-## Vedere anche
-[Aspese.Parola per la documentazione .NET](https://docs.aspose.com/words/net/)
-[Aspese.Parola per riferimenti .NET](https://reference.aspose.com/words/net/)
+## Vedi anche
+[Aspose.Word per Documentazione .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word per i riferimenti .NET](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

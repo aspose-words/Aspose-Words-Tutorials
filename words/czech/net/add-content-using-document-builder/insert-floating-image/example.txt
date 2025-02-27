@@ -1,16 +1,16 @@
 //ExStart
-//ExSummary: Tento kód ukazuje, jak vytvořit dokument Word a vložit obrázek s plovoucím uspořádáním pomocí Aspose.Words.
-//ExStepSummary:0: Následující kód inicializuje nový dokument a dokumentBuilder.
-//ExStepSummary:1: Následující kód vloží obrázek do dokumentu.
-//ExStepSummary:2: Následující kód uloží dokument na určené místo.
+//ExSummaryTento kód ukazuje, jak vytvořit dokument Word a vložit obrázek s plovoucím rozložením pomocí Aspose.Words.
+//ExStepSummary:0: Následující kód iniciuje nový dokument a dokumentbuilder.
+//ExStepSummary:1: Následující kód vloží do dokumentu obrázek.
+//ExStepSummary:2: Následující kód uloží dokument na konkrétní místo.
 //ExStepImage:1:images/1.png
 //ExStep:0-
-// Vytvořit novou instanci dokumentu
+// Vytvořit nový příklad dokumentu
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Vložit obrázek ze zadané cesty
+// Vložte obrázek z vymezeného směru
 builder.InsertImage(ImagesDir + "Transparent background logo.png", 
     RelativeHorizontalPosition.Margin,
     100, 
@@ -21,6 +21,6 @@ builder.InsertImage(ImagesDir + "Transparent background logo.png",
     WrapType.Square); 
 
 //ExStep:2-
-// Uložit dokument do zadaného souboru
+// Uložte dokument do specifikovaného souboru
 doc.Save("AddContentUsingDocumentBuilder.InsertFloatingImage.docx");
 //ExEnd

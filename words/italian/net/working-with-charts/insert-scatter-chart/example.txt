@@ -1,28 +1,28 @@
 //ExStart
-//ExSummary:Questo codice dimostra come creare un documento di Word con un grafico scatter utilizzando Aspose.Words. Si inizializza un documento, costruisce contenuti, inserisce un grafico scatter, aggiunge dati ad esso, e salva il documento.
-//ExStepSummary:0: Inizializzazione degli oggetti Document and DocumentBuilder per iniziare a lavorare sul documento.
-//ExStepSummary:1: Inserimento di un grafico scatter nel documento.
-//ExStepSummary:2: Aggiunta di una serie di punti di dati al grafico scatter.
-//ExStepSummary:3: Salvare il documento con il grafico scatter in un file .docx.
+//ExSummaryQuesto codice mostra come creare un documento Word con un grafico di scatter utilizzando Aspose.Words. Inizializza un documento, crea contenuti, inserisce un grafico di scatter, aggiunge dati e salva il documento.
+//ExStepSummary:0: Inizializzazione del Documento e DocumentoBuilder obietti per iniziare a lavorare sul documento.
+//ExStepSummary:1: Inserimento di una tabella di dispersione nel documento.
+//ExStepSummary:2: Aggiungere una serie di punti dati al grafico di dispersione.
+//ExStepSummary:3: Salvare il documento con la tabella di dispersione in un file .docx.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Inizializza un nuovo documento
+// Inizia un nuovo documento
 Document doc = new Document();
-// Crea un costruttore per inserire il contenuto
+// Crea un costruttore per inserire contenuti
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Inserisci un grafico scatter nel documento
+// Inserire un grafico di dispersione nel documento
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252); 
 
 //ExStep:2-
-// Ottieni l'oggetto grafico dalla forma inserita
+// Ottieni l'oggetto della grafica dalla forma inserita
 Chart chart = shape.Chart;
-// Aggiungi dati di serie al grafico
+// Aggiungere i dati della serie al grafico
 chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 });
 
 //ExStep:3-
-// Salva il documento con il grafico scatter
+// Salvare il documento con la tabella di dispersione
 doc.Save("WorkingWithCharts.InsertScatterChart.docx");
 //ExEnd

@@ -1,9 +1,9 @@
 //ExStart
-//ExSummary: Denna kod visar hur man formaterar stycken i ett Word-dokument med hjälp av Aspose.Words. Den visar hur man ställer in punktformateringsalternativ som justering, indentering och mellanslag efter ett stycke.
-//ExStepSummary:0: Detta steg initierar ett nytt dokument och en DocumentBuilder för att bygga dokumentet.
-//ExStepSummary:1: I detta steg anges alternativ för formatering av stycket, inklusive inställning, vänster strecksats, höger strecksats och mellanslag efter punkten.
-//ExStepSummary:2: Detta steg skriver ett välformaterat stycke med de angivna formateringsalternativen till dokumentet.
-//ExStepSummary:3: Detta steg skriver en annan formaterad punkt som visar effekten av rymden efter stycket.
+//ExSummaryDenna kod visar hur man formaterar paragrafer i ett Word-dokument med hjälp av Aspose.Words. Den visar hur man sätter in paragrafer som anpassning, intag och utrymme efter ett avsnitt.
+//ExStepSummary:0: Detta steg initialiserar ett nytt Dokument och en DocumentBuilder för att bygga dokumentet.
+//ExStepSummary:1: I detta steg anges de alternativ som finns för formatering av avsnittet, inklusive justering, vänster slott, höger slott och utrymme efter avsnittet.
+//ExStepSummary:2: I detta steg skrivs ett välformaterat stycke med de angivna formateringsalternativen till dokumentet.
+//ExStepSummary:3: I detta steg skrivs ett annat formaterat stycke som visar hur rymden påverkar det efter stycket.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -13,7 +13,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1- 
-// Ställ in alternativ för punktformatering.
+// Ställ in formateringsalternativ för paragraf.
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;
 paragraphFormat.LeftIndent = 50;
@@ -31,6 +31,6 @@ builder.Writeln(
 	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
 
 //ExStep:4- 
-// Spara dokumentet till angiven sökväg.
+// Spara dokumentet på den angivna vägen.
 doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
 //ExEnd

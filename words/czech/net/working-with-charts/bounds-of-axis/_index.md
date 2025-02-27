@@ -1,8 +1,8 @@
 ---
-title: Vytvořit dokument s grafy pomocí Aspose.Slova pro .NET
+title: Vytvořte dokument s grafemi pomocí Aspose.Words pro .NET
 weight: 7700
 limit: 
-description: Naučte se, jak vytvořit dokument Word s grafy, přizpůsobit osy Y a uložit jako DOCX pomocí Aspose.Words pro .NET s instrukcemi krok za krokem.
+description: Naučte se vytvářet dokument Word s grafickými tabulkami, přizpůsobit hranice osi Y a ušetřit jako DOCX pomocí Aspose.Words pro .NET s krok za krokem pokyny.
 keywords: [Aspose.Words for .NET, create chart in Word, customize Y-axis, DOCX chart creation, Word document chart tutorial, .NET Word chart example]
 url: /cs/net/working-with-charts/bounds-of-axis/
 ---
@@ -10,40 +10,40 @@ url: /cs/net/working-with-charts/bounds-of-axis/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořit dokument s grafy pomocí Aspose.Words
+# Vytvořte dokument s grafikami pomocí Aspose.Words
 
-Tento návod ukazuje, jak vytvořit Word dokument s grafem pomocí Aspose.Slova pro .NET. Naučíte se vkládat sloupcový graf, jasné existující řady, přidat nová data a přizpůsobit osy Y. S instrukcemi krok za krokem, včetně inicializace, manipulace s daty a uložení dokumentu jako DOCX souboru, tento průvodce zjednodušuje práci s grafy v Aspose.Slova pro .NET. Ať už vyvíjíte odborné zprávy nebo dynamické vizualizace dat, tento příklad vám pomůže začít bez námahy.
+Tento příruční program ukazuje, jak vytvořit dokument Word s grafickou pomocí Aspose.Words pro .NET. Naučíte se vložit kolónový grafický plán, vymazat existující sérii, přidat nové údaje a přizpůsobit hranice osi Y. S krokem po kroku pokyny, včetně inicializace, manipulace s daty a ukládání dokumentu jako soubor DOCX, tento průvodce zjednodušuje práci s grafickými údaji v Aspose.Words pro .NET. Ať už vyvíjíte profesionální zprávy nebo dynamické vizualizace dat, tento příklad vám pomůže začít bez námahy.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/bounds-of-axis" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Návod k instalaci  
+## Příkazy na instalaci  
 
-1. Stáhnout Aspose.Words pro .NET  
-   Získejte nejnovější verzi Aspose.Words pro .NET z[oficiální stránka ke stažení](https://releases.aspose.com/words/net/).  
+1. Snímečku Aspose.Words pro .NET  
+   Získáte nejnovější verzi Aspose.Words pro .NET z [oficiální stránka pro stažení](https://releases.aspose.com/words/net/)\- Ne , ne .  
 
-2. Nainstalovat přes NuGet správce balíčků  
-   * Otevřít projekt ve Visual Studio.  
-   * Navigovat k nástrojům > NuGet Package Manager > Spravovat NuGet balíčky pro řešení.  
-   * Hledat`Aspose. Words`v záložce Prohlížení.  
-   * Vyberte balíček a klikněte na Instalovat.  
+2. Instalace prostřednictvím programu NuGet Package Manager  
+   * Otevři svůj projekt v Visual Studio.  
+   * Přejďte do nástrojů > Správce balíček NuGet > Správte balíčky NuGet pro řešení.  
+   * Hledání `"Přesvědčte. Slova"`v tabulce Browse.  
+   * Vyberte balíček a klikněte na Instaliru.  
 
-3. Přidat licenci _(nepovinně)_  
-   * Pokud máte licenci, použijte ji ve svém projektu. Pro podrobnosti, navštivte[jak uplatnit licenci](https://purchase.aspose.com/temporary-license/).  
+3. Přidání licence _(Souhlasně)_  
+   * Pokud máte licenci, použijte ji ve svém projektu.[jak uplatnit licenci](https://purchase.aspose.com/temporary-license/)\- Ne , ne .  
 
-4. Zahrnout jmenné prostory  
-   Ujistěte se, že přidáte potřebné jmenné prostory do svého`.cs`soubor:  
+4. Vkládejte názevové prostory  
+   Ujistěte se , že přidáte potřebné názevové prostory do vašeho `.cs`soubor:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    using Aspose.Words.Drawing.Charts;
    ```
 
-## Také viz
-[Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Reference](https://reference.aspose.com/words/net/)
+## Viz také
+[Aspose.Word pro .NET dokumentaci](https://docs.aspose.com/words/net/)
+[Aspose.Word pro reference .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

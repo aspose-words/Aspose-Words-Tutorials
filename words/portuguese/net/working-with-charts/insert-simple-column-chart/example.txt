@@ -1,14 +1,14 @@
 //ExStart
-//ExSummary:Por favor, verifique o código a seguir para encontrar como inserir um gráfico de coluna simples em um documento do Word. Você pode copiar esse código para o seu IDE e executá-lo.
+//ExSummaryPor favor, verifique o seguinte código para encontrar como inserir um gráfico de coluna simples em um documento do Word.
 //ExStepSummary:0: Este código demonstra como criar um documento do Word usando Aspose.Words e inserir um gráfico de coluna nele.
-//ExStepSummary:1: Este código mostra como criar um objeto de construtor de documentos para manipular o conteúdo do Word.
+//ExStepSummary:1: Este código mostra como criar um objeto de construção de documentos para manipular o conteúdo do Word.
 //ExStepSummary:2: Este código mostra como inserir uma forma de gráfico de coluna com dimensões especificadas no documento.
-//ExStepSummary:3: Este código recupera o objeto gráfico da forma inserida para maior personalização.
+//ExStepSummary:3: Este código recupera o objeto do gráfico da forma inserida para maior personalização.
 //ExStepSummary:4: Este código mostra como acessar a coleção de séries de gráficos e imprimir a contagem de séries.
 //ExStepSummary:5: Este código limpa qualquer série padrão que possa ter sido criada com o gráfico.
-//ExStepSummary:6: Este código demonstra como definir nomes de categorias para os dados do gráfico.
-//ExStepSummary:7: Este código mostra como adicionar séries ao gráfico com os nomes de categorias e valores de dados correspondentes.
-//ExStepSummary:8: Este código salva o documento com o gráfico inserido em um arquivo especificado.
+//ExStepSummary:6: Este código demonstra como definir os nomes de categorias dos dados do gráfico.
+//ExStepSummary:7: Este código mostra como adicionar séries ao gráfico com nomes de categorias e valores de dados correspondentes.
+//ExStepSummary:8: Este código guarda o documento com o gráfico inserido num ficheiro especificado.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
@@ -22,21 +22,21 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:2-
-// Insira uma forma de gráfico de coluna com largura especificada (432) e altura (252).
+// Insira uma forma de gráfico de coluna com largura (432) e altura (252) especificadas.
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 
 //ExStep:3-
-// Recupere o objeto do gráfico da forma para posterior manipulação.
+// Retirar o objeto do gráfico da forma para maior manipulação.
 Chart chart = shape.Chart;
 
 //ExStep:4-
 // Acesse a coleção de séries do gráfico.
 ChartSeriesCollection seriesColl = chart.Series;
-// Imprima o número de séries no gráfico para o console.
+// Imprimir o número de séries no gráfico para o console.
 Console.WriteLine(seriesColl.Count);
 
 //ExStep:5-
-// Remova qualquer série padrão que foi gerada automaticamente quando o gráfico foi criado.
+// Remova todas as séries padrão que foram geradas automaticamente quando o gráfico foi criado.
 seriesColl.Clear();
 
 //ExStep:6-
@@ -44,7 +44,7 @@ seriesColl.Clear();
 string[] categories = new string[] { "Category 1", "Category 2" };
 
 //ExStep:7-
-// Adicione várias séries ao gráfico com nomes de categorias e valores de dados.
+// Adicionar múltiplas séries ao gráfico com nomes de categorias e valores de dados.
 seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
 seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
 seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
@@ -52,6 +52,6 @@ seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
 seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
 
 //ExStep:8-
-// Salve o documento com o gráfico inserido no caminho do arquivo especificado.
+// Salvar o documento com o gráfico inserido no caminho do arquivo especificado.
 doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
 //ExEnd

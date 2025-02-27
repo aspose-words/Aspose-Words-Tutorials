@@ -1,12 +1,12 @@
 //ExStart
-//ExSummary: Bu kod, Aspose.Words kullanarak bir Word belgesinde çok seviyeli bir listenin nasıl oluşturulacağını gösterir. Bir belgeyi başlatır, bir numaralandırma formatı uygular, ana ve alt öğeler oluşturur ve sonunda belgeyi bir .docx dosyası olarak kaydeder.
+//ExSummaryBu kod, bir Word belgesinde Aspose.Words kullanarak bir çok seviye listesi oluşturmanın nasıl yapılacağını gösterir. Bir belgeyi initialize eder, bir numaralandırma biçimini uygulaır, ana ve alt öğeleri oluşturur ve sonunda belgeyi .docx dosyası olarak kaydeder.
 //ExStepSummary:0: Aşağıdaki kod yeni bir belge ve DocumentBuilder örneğini başlatır.
-//ExStepSummary:1: Aşağıdaki kod, listeye varsayılan numaralandırma stili uygular ve üst düzey öğeler ekler.
-//ExStepSummary:2: Aşağıdaki kod, ikinci üst düzey öğenin altında alt öğeler oluşturmak için girintiler.
-//ExStepSummary:3: Aşağıdaki kod, ikinci alt-tem altında alt-temler oluşturmak için daha da girintilenir.
-//ExStepSummary:4: Aşağıdaki kod, ikinci seviyeye başka bir öğe eklemek için bir önceki seviyeye geri gider.
-//ExStepSummary:5: Aşağıdaki kod, listedeki son öğeyi eklemek için en üst seviyeye geri gider.
-//ExStepSummary:6: Aşağıdaki kod, kaydetmeden önce numaralandırmayı listeden kaldırır.
+//ExStepSummary:1: Aşağıdaki kod listede varsayılan bir numaralandırma tarzını uyguluyor ve üst düzey öğeleri ekliyor.
+//ExStepSummary:2: İkinci üst düzey madde alt kısımları oluşturmak için aşağıdaki kod zarfları.
+//ExStepSummary:3: Aşağıdaki kod ikinci alt nokta altında alt alt kısımlar oluşturmak için daha fazla ihtar.
+//ExStepSummary:4: Aşağıdaki kod, ikinci seviyeye bir başka madde eklemek için önceki seviyeye geri döner.
+//ExStepSummary:5: Aşağıdaki kod, listede son maddeyi eklemek için en üst seviyeye geri döner.
+//ExStepSummary:6: Aşağıdaki kod, kaydetmeden önce listeye sayımı kaldırır.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -14,40 +14,40 @@
 //ExStepImage:5:images/5.png
 //ExStepImage:6:images/6.png
 //ExStep:0-
-// Yeni bir belgeyi başlat
+// Yeni belgeyi başlat
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Varsayılan numaralandırma biçimini uygula
+// Öntanımlı numaralandırma biçimini uygulayın
 builder.ListFormat.ApplyNumberDefault();
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 
 //ExStep:2-
-// Alt itemler için girinti
+// Alt öğeler için indirim
 builder.ListFormat.ListIndent();
 builder.Writeln("Item 2.1");
 builder.Writeln("Item 2.2");
 
 //ExStep:3-
-// Sub-sub-items için girinti
+// Alt Alt Alt Ürünler için indirim
 builder.ListFormat.ListIndent();
 builder.Writeln("Item 2.2.1");
 builder.Writeln("Item 2.2.2");
 
 //ExStep:4-
-// İkinci seviyeye geri döndü
+// \- İkinci seviyeye geri döndü .
 builder.ListFormat.ListOutdent();
 builder.Writeln("Item 2.3");
 
 //ExStep:5-
-// En üst seviyeye geri dön
+// Çılgınlık , en üst seviyeye geri döndü .
 builder.ListFormat.ListOutdent();
 builder.Writeln("Item 3");
 
 //ExStep:6-
-// Listeden numaralandırmayı kaldır
+// Sayıyı listeden kaldır
 builder.ListFormat.RemoveNumbers();
 
 //ExStep:7-

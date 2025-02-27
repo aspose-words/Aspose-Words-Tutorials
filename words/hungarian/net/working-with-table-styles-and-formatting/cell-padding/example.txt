@@ -1,38 +1,38 @@
 //ExStart
-//ExSummary: A következő kód azt mutatja be, hogyan hozhat létre Word dokumentumot formázott táblázatcellával, amely tartalmazza a tartalma körüli kitöltést.
-//ExStepSummary:0: A következő kód egy új dokumentumot és egy dokumentumkészítőt inicializál.
-//ExStepSummary:1: A következő kód elindít egy táblázatot a dokumentumon belül.
-//ExStepSummary:2: A következő kód beszúr egy cellát a táblázatba.
-//ExStepSummary:3: A következő kód határozza meg a cella tartalmának kitöltését.
-//ExStepSummary:4: A következő kód szöveget ad a cellához, és befejezi az aktuális sort.
-//ExStepSummary:5: A következő kód befejezi a táblázatot, és a dokumentumot fájlba menti.
+//ExSummary: A következő kód bemutatja, hogyan lehet egy Word dokumentumot létrehozni egy formátált táblázatos cellával, amely tartalmazza a tartalmát.
+//ExStepSummary:0: Az alábbi kód egy új dokumentumot és egy dokumentumkészítőt indít.
+//ExStepSummary:1: A következő kód a dokumentumban található táblázat kezdetét jelenti.
+//ExStepSummary:2: A következő kódot a táblázatba kell beilleszteni.
+//ExStepSummary:3: A következő kód határozza meg a sejt tartalmának betöltését.
+//ExStepSummary:4: A következő kód szöveget ad a sejthez és befejezi a jelenlegi sorot.
+//ExStepSummary:5: A következő kód a táblázat végén és egy fájlokba tárolja a dokumentumot.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Új dokumentum inicializálása
+// Új dokumentum indításához
 Document doc = new Document();
-// Dokumentumszerkesztő létrehozása a dokumentum manipulálásához
+// Készíts egy dokumentumkészítőt a dokumentum manipulálására
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Hozzon létre egy táblázatot
+// Kezdje létrehozni egy asztalt
 builder.StartTable();
-// Új cella beszúrása a táblázatba
+// Új sejt beilleszteni az asztalba
 builder.InsertCell();
 
 //ExStep:2-
-// Állítsa be a párnázást 30 ponttal a tetején és az alján, 50 ponttal a bal és a jobb oldalon
+// A felső és alsó 30 pontos, bal és jobb 50 pontos padding
 builder.CellFormat.SetPaddings(30, 50, 30, 50);
 
 //ExStep:3-
 builder.Writeln("I'm a wonderful formatted cell.");
-// Az aktuális sor befejezése a táblázatban
+// A táblázatban a jelenlegi sor befejeződjön
 builder.EndRow();
-// Fejezd be az asztalt
+// A táblázat befejezése
 builder.EndTable();
 
 //ExStep:4-
-// A dokumentum mentése egy megadott fájlba
+// A dokumentumot egy meghatározott fájlokba mentse meg
 doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
 //ExEnd

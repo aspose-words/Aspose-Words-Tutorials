@@ -1,44 +1,44 @@
 //ExStart
-//ExSummary: De volgende code laat zien hoe je een tabel kunt maken en formatteren in een Word-document met behulp van de DocumentBuilder-klasse van Aspose.Words.
-//ExStepSummary:0: Initialiseer een nieuw document en DocumentBuilder om het Word-document te beginnen bouwen.
-//ExStepSummary:1: Maak een tabel en plaats een cel voor het formatteren.
-//ExStepSummary:2: Stel de opmaakeigenschappen in voor de cel, inclusief opvulling en breedte.
-//ExStepSummary:3: Tekst in de geformatteerde cel invoegen.
-//ExStepSummary:4: Eindig de rij en tabel, en sla het document op in een opgegeven bestandspad.
+//ExSummaryDe volgende code toont aan hoe een tabel in een Word-document te maken en te formateren met behulp van de DocumentBuilder-klasse van Aspose.Words.
+//ExStepSummary:0: Initieel een nieuw Document en DocumentBuilder om het Word-document te bouwen.
+//ExStepSummary:1: Maak een tabel en voeg een cel in voor het formateren.
+//ExStepSummary:2: Stel de formaterings eigenschappen voor de cel, met inbegrip van het opvulling en de breedte.
+//ExStepSummary:3: Voeg tekst in de geformatteerde cel.
+//ExStepSummary:4: Beëindigen van de rij en tabel en het document opslaan op een bepaald bestandpad.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Een nieuw document-object aanmaken
+// Het maken van een nieuw Document object
 Document doc = new Document();
-// DocumentBuilder initialiseren met het nieuwe document
+// DocumentBuilder initiaaliseren met het nieuwe document
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Beginnen met het aanmaken van een tabel
+// Begin met het maken van een tafel
 builder.StartTable();
-// Plaats de eerste cel in de tabel
+// Voeg de eerste cel in de tabel
 builder.InsertCell();
 
 //ExStep:2-
-// Toegang tot de opmaakeigenschappen van de cel
+// Toegang tot de formaterigenschappen van de cel
 CellFormat cellFormat = builder.CellFormat;
-// De celbreedte instellen
+// Het instellen van de celbreedte
 cellFormat.Width = 250;
-// Opvulling instellen
+// Stel de vulling op
 cellFormat.LeftPadding = 30;
 cellFormat.RightPadding = 30;
 cellFormat.TopPadding = 30;
 cellFormat.BottomPadding = 30;
 
 //ExStep:3-
-// Tekst in de cel invoegen
+// Invoeging van tekst in de cel
 builder.Writeln("I'm a wonderful formatted cell.");
 
 //ExStep:4-
-// Het beëindigen van de huidige rij van de tabel
+// Beëindiging van de huidige rij van de tabel
 builder.EndRow();
-// Aanmaken van de tabel beëindigen
+// Beëindiging van het maken van de tabel
 builder.EndTable();
 // Het document opslaan
 doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");

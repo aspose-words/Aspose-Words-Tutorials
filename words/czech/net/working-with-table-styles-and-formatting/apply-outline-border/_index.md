@@ -1,8 +1,8 @@
 ---
-title: Aplikovat okrajovou hranici na tabulku ve slově pomocí Aspose.Words
+title: Použijte Aspose.Words na použití Aspose.Words
 weight: 7700
 limit: 
-description: Naučte se, jak aplikovat obrysové hranice na tabulku v aplikaci Word pomocí Aspose.Words pro .NET. Centrum stolu, přidat zelenou hranici, a vyplnit buňky s světle zelené pozadí.
+description: Naučte se aplikovat okrajovou hranici na tabulku v Word pomocí Aspose.Words pro .NET. Centrujte tabulku, přidělejte zelenou hranici a vyplňte buňky světle zeleným pozadím.
 keywords: [Aspose.Words for .NET, Word table formatting, outline border, apply table border, table shading, .NET Word library]
 url: /cs/net/working-with-table-styles-and-formatting/apply-outline-border/
 ---
@@ -10,9 +10,9 @@ url: /cs/net/working-with-table-styles-and-formatting/apply-outline-border/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aplikovat okrajovou hranici na tabulku ve slově pomocí Aspose.Words
+# Použijte Aspose.Words na použití Aspose.Words
 
-Aspose.Words pro .NET je silná knihovna pro zpracování dokumentů Word. Tento příklad ukazuje, jak formátovat tabulku použitím obrysu hranice, centrování tabulky, a přidání světle zelené pozadí do stolních buněk. Ať už pracujete se složitými dokumenty Word nebo potřebujete přesnou kontrolu nad formátování, Aspose.Slova zjednodušuje proces. Vylepšete své dokumenty Word programově s robustními a přizpůsobitelné funkce poskytované touto knihovnou.
+Aspose.Words pro .NET je výkonná knihovna pro zpracování dokumentů Word. Tento příklad ukazuje, jak formátovat tabulku použitím okrajového hranice, centrály tabulky a přidáním světle zeleného pozadí k buňkám tabulky. Ať už pracujete s složitými dokumenty Word nebo potřebujete přesnou kontrolu formátování, Aspose.Words zjednodušuje proces. Programmaticky zlepšit své dokumenty Word s robustními a přizpůsobitelnými funkcemi poskytovanými touto knihovnou.
 
 
 ---
@@ -20,30 +20,30 @@ Aspose.Words pro .NET je silná knihovna pro zpracování dokumentů Word. Tento
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Návod k instalaci  
+## Příkazy na instalaci  
 
 ### Předpoklady  
-1. Ujistěte se, že máte .NET Framework 4.7.2 nebo později nainstalován ve vašem systému.  
-2. Doporučuje se stáhnout a nainstalovat Visual Studio (2019 nebo novější).  
+1. Ujistěte se, že máte instalovaný .NET Framework 4.7.2 nebo novější na vašem systému.  
+2. Stáhněte si a instalujte Visual Studio (doporučuje se v roce 2019 nebo později).  
 
-### Montážní kroky  
-1. Stáhněte si Aspose.Words pro .NET knihovnu z oficiálních internetových stránek:[Aspose.Words for .NET Download](https://releases.aspose.com/words/net/).  
-2. Nainstalujte knihovnu přes NuGet Package Manager:  
-   * Otevřít projekt ve Visual Studio.  
-   * Přejděte na nástroje > NuGet Package Manager > Spravovat NuGet balíčky pro řešení.  
-   * Hledat`Aspose. Words`a klikněte na Install.  
-3. Přidat odkaz na knihovnu ve vašem projektu:  
+### Instalace  
+1. Stáhněte si Aspose.Words pro knihovnu .NET z oficiální webové stránky: [Aspose.Words pro .NET Download](https://releases.aspose.com/words/net/)\- Ne , ne .  
+2. Instalujte knihovnu prostřednictvím programu NuGet Package Manager:  
+   * Otevři svůj projekt v Visual Studio.  
+   * Jděte do nástrojů > Správce balíček NuGet > Správte balíčky NuGet pro řešení.  
+   * Hledání `"Přesvědčte. Slova"`a klikněte na Instali.  
+3. Přidejte odkaz na knihovnu do projektu:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    using System.Drawing;
    ```  
-4. Použít licenci (volitelné):  
-   Chcete-li použít plnou verzi,[požádat o licenci](https://purchase.aspose.com/temporary-license/)nebo[zkušební verze zdarma](https://releases.aspose.com/words/net/).
+4. Žádost o licenci (nezveřejněná):  
+   Chcete-li použít plnou verzi, [uplatnit licenci](https://purchase.aspose.com/temporary-license/)nebo použít [bezplatná zkouška](https://releases.aspose.com/words/net/)\- Ne , ne .
    
-## Také viz
-[Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Reference](https://reference.aspose.com/words/net/)
+## Viz také
+[Aspose.Word pro .NET dokumentaci](https://docs.aspose.com/words/net/)
+[Aspose.Word pro reference .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

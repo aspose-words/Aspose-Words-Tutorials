@@ -1,8 +1,8 @@
 ---
-title: Alkalmazza a vázlatos szegélyt egy táblázatra a Wordben az Aspose.Words használatával
+title: A Aspose.Words segítségével alkalmazza a körvonalas határot a Wordben található táblázatra
 weight: 7700
 limit: 
-description: Ismerje meg, hogyan alkalmazhat egy vázlatos szegélyt egy táblázatra a Wordben az Aspose.Words for .NET használatával. Középre helyezze a táblázatot, adjon hozzá egy zöld szegélyt, és töltse ki a cellákat világos zöld háttérrel.
+description: Tanuljon meg, hogyan kell egy Wordben található táblázatra egy körvonalas határot alkalmazni a .NET-hez használt Aspose.Words segítségével. Középítsék a táblázatot, hozzanak hozzá egy zöld határot, és töltsék be a fényzöld háttérrel rendelkező sejteket.
 keywords: [Aspose.Words for .NET, Word table formatting, outline border, apply table border, table shading, .NET Word library]
 url: /hu/net/working-with-table-styles-and-formatting/apply-outline-border/
 ---
@@ -10,9 +10,9 @@ url: /hu/net/working-with-table-styles-and-formatting/apply-outline-border/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Alkalmazza a vázlatos szegélyt egy táblázatra a Wordben az Aspose.Words használatával
+# A Aspose.Words segítségével alkalmazza a körvonalas határot a Wordben található táblázatra
 
-Aspose.Words for .NET egy erőteljes könyvtár Word dokumentum feldolgozás. Ez a példa bemutatja, hogyan kell formázni egy táblázat alkalmazásával vázlatos határ, központosítva a táblázatot, és hozzá egy világos zöld háttér a táblázatcellák. Akár dolgozik összetett Word dokumentumokat, vagy szükség van pontos ellenőrzése a formázás, Aspose.Words egyszerűsíti a folyamatot. Fokozza a Word dokumentumok programozottan robusztus és testreszabható funkciók által nyújtott könyvtár.
+Az Aspose.Words a .NET-hez képest egy erős Word dokumentumfeldolgozási könyvtár. Ez a példa bemutatja, hogyan formázhat egy táblázat egy körvonalas határ alkalmazásával, a táblázat központjában, és egy fényzöld háttér hozzáadásával a táblázat sejtjeinek. Akár a komplex Word dokumentumokkal dolgozol, vagy pontos formátálásra van szükséged, az Aspose.Words egyszerűsíti a folyamatot.
 
 
 ---
@@ -20,30 +20,30 @@ Aspose.Words for .NET egy erőteljes könyvtár Word dokumentum feldolgozás. Ez
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Telepítési útmutató  
+## A telepítési utasítások  
 
 ### Előfeltételek  
-1. Győződjön meg róla, hogy a .NET-keretrendszer 4.7.2 vagy újabb verziója telepítve van a rendszerére.  
-2. Töltse le és telepítse a Visual Studio-t (2019 vagy újabb ajánlott).  
+1. Győződjön meg róla, hogy a .NET Framework 4.7.2 vagy újabb rendszerrel van telepítve.  
+2. Letöltsük és telepítsük a Visual Studio-t (2019 vagy újabb ajánlott).  
 
-### Telepítési lépések  
-1. Töltse le az Aspose.Words for .NET könyvtárat a hivatalos weboldalról:[Aspose.Words for .NET Letöltés](https://releases.aspose.com/words/net/)Nem.  
-2. Telepítse a könyvtárat a NuGet Package Manager segítségével:  
-   * Nyissa meg a projektet a Visual Studio-ban.  
-   * Ugrás Eszközök > NuGet Package Manager > NuGet csomagok kezelése a megoldáshoz.  
-   * Keresés`Aspose.Words`és kattintson a Telepítés gombra.  
-3. Adjon hozzá egy hivatkozást a projekt könyvtárához:  
+### A telepítés lépései  
+1. Letöltsd le az .NET könyvtár Aspose.Words című könyvtárát a hivatalos honlapról: [Aspose.Words a .NET letöltéshez](https://releases.aspose.com/words/net/)\- Nem.  
+2. A könyvtár telepítése a NuGet csomagkezelő segítségével:  
+   * Nyissa ki a projektét a Visual Studio-ban.  
+   * Menjen az eszközök > NuGet csomagkezelő > A megoldáshoz szükséges NuGet csomagok kezelése.  
+   * Keresd a`Aspose.Words`és kattintsa a telepítésre.  
+3. Adjon hozzá egy hivatkozást a könyvtárra a projektedben:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    using System.Drawing;
    ```  
-4. Licenc alkalmazása (opcionális):  
-   A teljes verzió használata,[licensz alkalmazása](https://purchase.aspose.com/temporary-license/)vagy használja a[ingyenes próbaverzió](https://releases.aspose.com/words/net/)Nem.
+4. A licenc alkalmazása (Felhetős):  
+   Hogy a teljes verziót használhassuk,[engedélyt kell alkalmazni](https://purchase.aspose.com/temporary-license/)vagy használjon egy [ingyenes próba](https://releases.aspose.com/words/net/)\- Nem.
    
-## Lásd még
-[Aspose.Word for .NET dokumentáció](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referenciák](https://reference.aspose.com/words/net/)
+## Lásd:
+[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

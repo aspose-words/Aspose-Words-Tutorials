@@ -1,17 +1,17 @@
 //ExStart
-//ExSummary: Ez a kód azt mutatja be, hogyan kell beilleszteni az űrlapmezőket egy Word dokumentumba az Aspose.Words for .NET használatával. Pontosabban azt mutatja be, hogyan kell beilleszteni egy kombinált mezőt előre meghatározott elemekkel.
-//ExStepSummary:0: Az alábbi kód azt mutatja be, hogyan hozhat létre új Word-dokumentumot.
-//ExStepSummary:1: A következő kód azt mutatja be, hogyan kell inicializálni egy DocumentBuilder-t a dokumentum szerkesztéséhez.
-//ExStepSummary:2: A következő kód azt mutatja be, hogyan lehet definiálni és beilleszteni egy kombinált mezőt az előre definiált elemekkel és az alapértelmezett kiválasztással.
+//ExSummary: Ez a kód bemutatja, hogyan kell beilleszteni a formák mezőit egy Word dokumentumban a .NET-hez Aspose.Words használatával.
+//ExStepSummary:0: Az alábbi kód bemutatja, hogyan lehet létrehozni egy új Word dokumentumot.
+//ExStepSummary:1: A következő kód bemutatja, hogyan indítson be a DocumentBuilder-t a dokumentum szerkesztésére.
+//ExStepSummary:2: A következő kód bemutatja, hogyan kell meghatározni és beilleszteni egy kombinált mező formáját előre meghatározott elemekkel és alapértelmezett kiválasztással.
 //ExStepImage:0:images/1.png
 //ExStepImage:1:images/2.png
 //ExStep:0-
-// Üres Word- dokumentum inicializálása
+// Elindítja egy üres Word dokumentumot
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Kombó doboz űrlapmező meghatározása és beszúrása
+// Be kell határozni és be kell tüntetni a kombinált mező formáját
 string[] items = { "One", "Two", "Three" };
 builder.InsertComboBox("DropDown", items, 0);
 //ExEnd

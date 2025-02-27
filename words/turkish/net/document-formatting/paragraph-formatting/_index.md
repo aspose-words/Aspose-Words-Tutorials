@@ -1,8 +1,8 @@
 ---
-title: .NET için Aspose.Words Kullanarak Paragrafları Biçimlendirin
+title: .NET için Aspose.Words kullanarak paragrafları biçimlendirin
 weight: 7700
 limit: 
-description: Bir Word belgesindeki paragrafları hizalama, girinti ve aralık dahil olmak üzere .NET için Aspose.Words ile nasıl biçimlendireceğinizi öğrenin.
+description: Bir Word belgesinde paragrafları düzeltme, indentasyon ve aralama dahil olmak üzere .NET için Aspose.Words ile nasıl biçimlendirileceğini öğrenin.
 keywords: [Aspose.Words, .NET, paragraph formatting, Word document, document builder, alignment, indentation, Word API]
 url: /tr/net/document-formatting/paragraph-formatting/
 ---
@@ -10,37 +10,37 @@ url: /tr/net/document-formatting/paragraph-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words Kullanarak Paragrafları Biçimlendirin
-Bu kılavuz, bir Word belgesindeki paragrafların Aspose.Words for .NET kullanılarak nasıl biçimlendirileceğine dair bir örnek sunar. Paragraflardan sonra hizalama, girinti ve boşluk gibi çeşitli paragraf biçimlendirme seçeneklerinin nasıl ayarlanacağını öğreneceksiniz. Örnek, iyi yapılandırılmış belgelerin programlı olarak oluşturulmasını sağlayan Belge ve Belge Oluşturucu sınıflarının kullanımını gösterir.
+# Aspose.Words kullanarak paragrafları biçimlendirin
+Bu rehber, .NET için Aspose.Words kullanarak Word belgesinde paragrafları nasıl biçimlendirileceğine bir örnek sunar. Ayarların sıralanması, indentasyon ve alan gibi çeşitli paragraf biçimlendirme seçeneklerini nasıl ayarlayacağınızı öğreneceksiniz. Örnek, iyi yapılandırılmış belgelerin programsal olarak oluşturulmasını sağlayan Document ve DocumentBuilder sınıflarının kullanımını gösterir.
 
 ---
 {{< tutorial-widget sourcePath="words/net/document-formatting/multilevel-list-formatting" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum Talimatları
-1. .NET için Aspose.Words İndir: Ziyaret edin[Web sitesi kabul et](https://www.aspose.com/downloads/words/net).NET için Aspose.Words'un en son sürümünü indirmek için.
+## Kurulum talimatları
+1. .NET için Aspose.Words indir:[Web sitesini hedefleme](https://www.aspose.com/downloads/words/net).NET için Aspose.Words en son sürümünü indirmek için.
 
-2. Referans Ekle: .NET projenizde, Çözüm Gezgini'ndeki projeye sağ tıklayın, Ekle > Referans'ı seçin ve Aspose.Words DLL dosyasını eklemek için göz atın.
+2. Referans Ekle: .NET projenizdeki, Solution Explorer'daki projede sağ tıklayın, Ekle > Referans seçin ve Aspose.Words DLL dosyasını eklemek için tarayın.
 
-3. NuGet Paketini (İsteğe Bağlı): Alternatif olarak, aşağıdaki komutla NuGet Paket Yöneticisi aracılığıyla Aspose.Words'u yükleyebilirsiniz:
+3. NuGet Paketi Kullanmak (Önlü): Alternatif olarak, Aspose.Words'u şu komutla NuGet Paket Yöneticisi üzerinden yükleyebilirsiniz:
    ```
    Install-Package Aspose.Words
    ```
 
-4. İsim Alanını İçe Aktar: Kod dosyanıza aşağıdaki ifadeyi kullanarak ekleyin:
+4. İçe Aktarma Ad Alanı: Şifre dosyanıza ifade kullanarak aşağıdaki ifadeleri ekleyin:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
-5. Lisans Uygula (İsteğe Bağlı):  
-   Tam versiyonu kullanmak için,[bir lisans uygulamak](https://purchase.aspose.com/temporary-license/)ya da kullanmak a[ücretsiz deneme](https://releases.aspose.com/words/net/).  
+5. İzn Verme Lisansı (Önemli):  
+   Tam versiyonu kullanmak için,[lisans uygulamak](https://purchase.aspose.com/temporary-license/)veya bir [ücretsiz deneme](https://releases.aspose.com/words/net/)\- Evet .  
 
 
-## Ayrıca Bakınız
-[.NET Dokümantasyonu için Aspose.Word](https://docs.aspose.com/words/net/)
-[.NET Referansları için Aspose.Word](https://reference.aspose.com/words/net/)
+## Ayrıca bakın
+[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

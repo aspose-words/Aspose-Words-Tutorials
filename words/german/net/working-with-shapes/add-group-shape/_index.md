@@ -1,8 +1,8 @@
 ---
-title: Erstellen Sie Gruppenform in Word-Dokument mit Aspose.Words für .NET
+title: Erstellen Sie Gruppenform in Word-Dokumenten mit Aspose.Words für .NET
 weight: 7700
 limit: 
-description: Erfahren Sie, wie Sie mit Aspose.Words für .NET eine Gruppenform in einem Word-Dokument erstellen. Fügen Sie mehrere Formen hinzu, passen Sie die Abmessungen an und speichern Sie Ihr Dokument mühelos.
+description: Erfahren Sie, wie Sie eine Gruppenform in einem Word-Dokument mit Aspose.Words für .NET erstellen. Fügen Sie mehrere Formen hinzu, passen Sie Dimensionen an und speichern Sie Ihr Dokument mühelos.
 keywords: [Aspose.Words for .NET, group shape in Word, add shapes to document, .NET Word library, create shapes in Word, Word group shapes, shape customization, .NET example]
 url: /de/net/working-with-shapes/add-group-shape/
 ---
@@ -10,29 +10,29 @@ url: /de/net/working-with-shapes/add-group-shape/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Erstellen Sie Gruppenform in Word-Dokument mit Aspose.Words
+# Erstellen Sie Gruppenform in Word-Dokumenten mit Aspose.Words
 
-Dieses Tutorial zeigt, wie Gruppenformen in Word-Dokumenten mithilfe von Aspose.Words for .NET erstellt und verwaltet werden können. Mit dieser leistungsstarken Bibliothek können Sie mühelos mehrere Formen, wie z.B. einen Akzentrand-Aufruf und eine Aktionstaste, in eine einzelne Gruppenform kombinieren. Die Anleitung umfasst jeden Schritt, von der Initialisierung des Dokuments über das Hinzufügen von Formen, die Anpassung der Dimensionen und das Einfügen der Gruppenform in Ihre Word-Datei. Schließlich speichert das Beispiel das Dokument und zeigt, wie dynamische Formen nahtlos in Word- Dokumente integriert werden können, um visuell ansprechende Ergebnisse zu erzielen.  
+Dieses Tutorial zeigt, wie man Gruppenformen in Word-Dokumenten mit Hilfe von Aspose.Words für .NET erstellt und verwaltet. Mit dieser leistungsstarken Bibliothek können Sie mehrere Formen, wie einen Akzent-Border-Callout und einen Aktionsknopf, mühelos in eine einzige Gruppenform kombinieren. Das Handbuch behandelt jeden Schritt, von der Initialisierung des Dokuments bis zum Hinzufügen von Formen, der Anpassung von Dimensionen und dem Eingeben der Gruppenform in Ihre Word-Datei. Schließlich speichert das Beispiel das Dokument und zeigt, wie man dynamische Formen nahtlos in Word-Dokumenten integriert, um visuell ansprechende Ergebnisse zu erzielen.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-shapes/add-group-shape" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Installationshinweise  
+## Installationsanweisungen  
 
-1. Aspose.Words für .NET herunterladen:  
-   Besuchen Sie die[Seite Downloads erstellen](https://releases.aspose.com/words/net/)und laden Sie die neueste Version von Aspose.Words für .NET herunter.
+1. Laden Sie Aspose.Words für .NET herunter:  
+   Besuchen Sie die [Veröffentlichen Sie die Seite](https://releases.aspose.com/words/net/)und die neueste Version von Aspose.Words für .NET herunterladen.
 
 2. Installieren Sie über NuGet:  
    * Öffnen Sie Ihr Projekt in Visual Studio.  
-   * Navigieren Sie zu Tools > NuGet Package Manager > Verwalten Sie NuGet Packages für Lösung.  
-   * Suche nach Aspose.Words im NuGet Package Manager.  
+   * Navigieren Sie zu Tools > NuGet Package Manager > Manage NuGet Packages for Solution.  
+   * Suchen Sie nach Aspose.Words im NuGet-Paketenmanager.  
    * Klicken Sie auf Installieren, um die Bibliothek zu Ihrem Projekt hinzuzufügen.
 
-3. Aktivierung der Lizenz:  
-   * Erhalten Sie eine Lizenz von der[Bestellseite erstellen](https://purchase.aspose.com/buy)oder einen Antrag auf[befristete Lizenz](https://purchase.aspose.com/temporary-license/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
-   * Aktivieren Sie die Lizenz in Ihrem Projekt, indem Sie die`Aspose.Words.License`Unterricht.
+3. Lizenzaktivierung:  
+   * Erhalten Sie eine Lizenz von der [Vergabe von Kaufseiten](https://purchase.aspose.com/buy)oder eine[vorübergehende Lizenz](https://purchase.aspose.com/temporary-license/)\- Ich weiß .  
+   * Aktivieren Sie die Lizenz in Ihrem Projekt mit der `"Aspose.Wörter". Lizenz`Der Klasse.
 
 ## Siehe auch
 [Aspose.Word für .NET-Dokumentation](https://docs.aspose.com/words/net/)

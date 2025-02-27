@@ -1,51 +1,51 @@
 //ExStart
 //ExSummary: Dieser Code zeigt, wie man ein Word-Dokument mit einer formatierten Tabelle mit Aspose erstellt.
-//ExStepSummary:0: Dieser Schritt initialisiert ein neues Dokument und den Dokument-Builder.
-//ExStepSummary:1: Dieser Schritt startet die Tabelle und fügt eine Zelle in sie ein.
-//ExStepSummary:2: In diesem Schritt wird die Formatierung für die Zeile, einschließlich der Höhen- und Höhenregel, festgelegt.
-//ExStepSummary:3: Dieser Schritt setzt die Polsterung für die gesamte Tabelle, die alle Reihen betrifft.
+//ExStepSummary:0: Dieser Schritt initialisiert ein neues Dokument und den Dokumentersteller.
+//ExStepSummary:1: Dieser Schritt startet den Tisch und fügt eine Zelle in ihn ein.
+//ExStepSummary:2: Dieser Schritt legt die Formatierung der Zeile fest, einschließlich der Regel für Höhe und Höhe.
+//ExStepSummary:3: Dieser Schritt setzt die Polsterung für den gesamten Tisch und wirkt sich auf alle Reihen aus.
 //ExStepSummary:4: Dieser Schritt fügt Text zur Zelle hinzu und beendet die Zeile.
-//ExStepSummary:5: Dieser Schritt beendet die Tabelle und speichert das Dokument auf einem bestimmten Pfad.
+//ExStepSummary:5: Dieser Schritt beendet die Tabelle und speichert das Dokument auf einen bestimmten Weg.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 
 //ExStep:0-
-// Eine neue Dokument-Instanz erstellen
+// Erstellen Sie eine neue Dokumentinstance
 Document doc = new Document();
-// DocumentBuilder mit dem Dokument initialisieren
+// Initialisieren Sie DocumentBuilder mit dem Dokument
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Eine neue Tabelle starten
+// Beginnen Sie einen neuen Tisch
 Table table = builder.StartTable();
-// Die erste Zelle in die Tabelle einfügen
+// Fügen Sie die erste Zelle in die Tabelle ein
 builder.InsertCell();
 
 //ExStep:2-
-// Zugriff auf die RowFormat-Eigenschaft des Erbauers
+// Zugriff auf die RowFormat-Eigenschaft des Builders
 RowFormat rowFormat = builder.RowFormat;
-// Die Höhe der Zeile einstellen
+// Setzen Sie die Höhe der Zeile
 rowFormat.Height = 100;
-// Höhenregel auf genau einstellen
+// Setzen Sie die Höhenregel auf genau
 rowFormat.HeightRule = HeightRule.Exactly;
 
 //ExStep:3-
-// Polsterung für den Tisch einstellen
+// Setz die Polsterung für den Tisch
 table.LeftPadding = 30;
 table.RightPadding = 30;
 table.TopPadding = 30;
 table.BottomPadding = 30;
 
 //ExStep:4-
-// Text in die aktuelle Zelle einfügen
+// Hinzufügen von Text in die aktuelle Zelle
 builder.Writeln("I'm a wonderful formatted row.");
-// Beenden Sie die aktuelle Zeile
+// Ende der aktuellen Zeile
 builder.EndRow();
 builder.EndTable();
 
 //ExStep:5-
-// Das Dokument in den angegebenen Pfad speichern
+// Speichern Sie das Dokument auf dem angegebenen Pfad
 doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableRowFormatting.docx");
 //ExEnd

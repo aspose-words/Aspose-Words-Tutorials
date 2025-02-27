@@ -1,8 +1,8 @@
 ---
-title: .NET'te Yatay Kurallı Kelime Belgesi Oluşturun
+title: .NET'de Uygusal Kural ile Word Belgesi Oluştur
 weight: 7700
 limit: 
-description: Aspose.Words kullanarak .NET'te bir Word belgesi oluşturmayı ve basit kod örnekleriyle yatay bir kural eklemeyi öğrenin.
+description: Aspose.Words kullanarak .NET'te bir Word belgesini nasıl oluşturulacağını ve basit kod örnekleriyle yatay bir kural ekleyeceğini öğrenin.
 keywords: [Aspose.Words, .NET, Word document, horizontal rule, DocumentBuilder, example, code snippet]
 url: /tr/net/add-content-using-document-builder/insert-horizontal-rule/
 ---
@@ -10,31 +10,31 @@ url: /tr/net/add-content-using-document-builder/insert-horizontal-rule/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Yatay Kuralla Kelime Belgesi Oluşturun
-Bu örnek, Word belgesi oluşturmak ve DocumentBuilder kullanarak yatay bir kural eklemek için .NET için Aspose.Words kullanımını gösterir. Belgelerinizi etkili bir şekilde biçimlendirmeyi öğrenmek için aşağıdaki adımları izleyin.
+# Uygusal Kural ile Word Belgesi Oluştur
+Bu örnek, .NET için bir Word belgesini oluşturmak ve DocumentBuilder kullanarak yatay kural eklemek için Aspose.Words kullanımı gösterir. Belgeleri etkin bir şekilde nasıl biçimlendireceğinizi öğrenmek için aşağıdaki adımları takip edin.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-horizontal-rule" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum Talimatları
-1. Aspose.Words'u yükleyin: Visual Studio'da NuGet Paket Yöneticisi'ni kullanın.
-   * Projenizi Visual Studio'da açın.
-   * Çözüm Gezgini'ndeki projenize sağ tıklayın.
-   * NuGet Paketlerini Yönet'i seçin.
-   * Ara`Aspose.Words`ve yükle.
+## Kurulum talimatları
+1. Aspose.Words yükleyin: Visual Studio'da NuGet Paket Yöneticisini kullanın.
+   * Projeyi Visual Studio'da aç.
+   * Çözüm Eksploröründe projenize sağ tıklayın.
+   * NuGet Paketlerini Yönet seçin.
+   * Arama`"Sözler. Sözler"`\- Ve yükle.
 
-2. Yönergeyi Kullanmayı Ekle: Kod dosyanızda, Aspose.Words sınıflarını kullanmak için aşağıdaki yönergeyi ekleyin:
+2. Kullanım Yöntemini Ekle: Kod dosyanıza Aspose.Words sınıflarını kullanmak için aşağıdaki yöntemi ekleyin:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
 
-## Ayrıca Bakınız
-[.NET Dokümantasyonu için Aspose.Word](https://docs.aspose.com/words/net/)
-[.NET Referansları için Aspose.Word](https://reference.aspose.com/words/net/)
+## Ayrıca bakın
+[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

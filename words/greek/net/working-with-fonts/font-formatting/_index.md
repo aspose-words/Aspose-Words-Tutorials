@@ -1,8 +1,8 @@
 ---
-title: Δημιουργία σχηματοποίησης γραμματοσειρών στο Word χρησιμοποιώντας το Aspose.Words για .NET
+title: Δημιουργήστε μορφοποίηση γραμματοσειρών στο Word χρησιμοποιώντας Aspose.Words για .NET
 weight: 7700
 limit: 
-description: Μάθετε πώς να δημιουργήσετε ένα έγγραφο Word με προσαρμοσμένη μορφή γραμματοσειράς σε .NET χρησιμοποιώντας Aspose.Words. Εύκολο βήμα-βήμα παράδειγμα περιλαμβάνονται.
+description: Μάθετε πώς να δημιουργήσετε ένα έγγραφο Word με εξατομικευμένη μορφοποίηση γραμματοσειρών στο .NET χρησιμοποιώντας το Aspose.Words. Εύκολο βήμα-βάθμα παράδειγμα περιλαμβάνεται.
 keywords: [Aspose.Words, .NET, Word document, font formatting, programming example, DocumentBuilder, font properties]
 url: /el/net/working-with-fonts/font-formatting/
 ---
@@ -10,29 +10,29 @@ url: /el/net/working-with-fonts/font-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργία σχηματοποίησης γραμματοσειρών στο Word Using Aspose.Words
+# Δημιουργήστε μορφοποίηση γραμματοσειρών στο Word χρησιμοποιώντας Aspose.Words
 
-Αυτός ο οδηγός παρέχει ένα απλό παράδειγμα δημιουργίας και μορφοποίησης ενός εγγράφου Word χρησιμοποιώντας Aspose.Words για .NET. Θα μάθετε να προσαρμόσετε τις ιδιότητες γραμματοσειράς, όπως το μέγεθος, το στυλ, και το χρώμα, και στη συνέχεια να γράψετε κείμενο στο έγγραφο. Βήμα-βήμα οδηγίες καθιστούν εύκολο τόσο για αρχάριους και έμπειρους προγραμματιστές να ενσωματώσει Aspose.Words στις εφαρμογές τους.
+Αυτό το οδηγό παρέχει ένα απλό παράδειγμα δημιουργίας και μορφοποίησης ενός εγγράφου Word χρησιμοποιώντας το Aspose.Words για το .NET. Θα μάθετε να προσαρμόζετε τις ιδιότητες γραμματοσειράς όπως το μέγεθος, το στυλ και το χρώμα, και στη συνέχεια να γράφετε κείμενο στο έγγραφο. Οι οδηγίες βήμα-βήμα διευκολύνουν τόσο τους αρχάριους όσο και τους έμπειρους προγραμματιστές να ενσωματώσουν το Aspose.Words στις εφαρμογές τους.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-fonts/font-formatting" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Οδηγίες εγκατάστασης 
-1. Προαπαιτούμενα: Βεβαιωθείτε ότι έχετε .NET εγκατασταθεί στο μηχάνημα σας.
-2. Εγκαταστήστε το Aspose.Words: 
-   * Χρήση του NuGet Package Manager στο Visual Studio:
+## Διδασκαλίες εγκατάστασης 
+1. Προϋποθέσεις: Βεβαιωθείτε ότι έχετε εγκατεστημένο .NET στον υπολογιστή σας.
+2. Εγκαταστήστε Aspose.Words: 
+   * Χρησιμοποιήστε το Διαχειριστή πακέτων NuGet στο Visual Studio:
      ```
      Install-Package Aspose.Words
      ```
-   * Ή κατεβάστε το DLL απευθείας από το[Aspose website](https://www.aspose.com).
-3. Εφαρμογή Άδειας (Προαιρετική):  
-   Για να χρησιμοποιήσετε την πλήρη έκδοση,[να εφαρμόσει μια άδεια](https://purchase.aspose.com/temporary-license/)ή να χρησιμοποιείτε α[δωρεάν δοκιμή](https://releases.aspose.com/words/net/).  
+   * Ή κατεβάστε το DLL απευθείας από το [Στόχος ιστοσελίδα](https://www.aspose.com)\- Δεν ξέρω .
+3. Εφαρμογή άδειας (Επιαιρετική):  
+   Για να χρησιμοποιήσεις την πλήρη έκδοση,[να εφαρμόσει άδεια](https://purchase.aspose.com/temporary-license/)ή χρησιμοποιήστε [δωρεάν δοκιμή](https://releases.aspose.com/words/net/)\- Δεν ξέρω .  
 
-## Επίσης, δείτε
-[Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
+## Δείτε επίσης
+[Aspose.Word για έγγραφο .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word για .NET References](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

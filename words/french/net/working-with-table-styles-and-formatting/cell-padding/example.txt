@@ -1,35 +1,35 @@
 //ExStart
 //ExSummary: Le code suivant montre comment créer un document Word avec une cellule de table formatée qui inclut un rembourrage autour de son contenu.
-//ExStepSummary:0: Le code suivant initialise un nouveau document et un constructeur de documents.
-//ExStepSummary:1: Le code suivant démarre une table dans le document.
+//ExStepSummary:0: Le code suivant initie un nouveau document et un constructeur de documents.
+//ExStepSummary:1: Le code suivant commence une table dans le document.
 //ExStepSummary:2: Le code suivant insère une cellule dans le tableau.
 //ExStepSummary:3: Le code suivant définit le rembourrage du contenu de la cellule.
 //ExStepSummary:4: Le code suivant ajoute du texte à la cellule et termine la ligne actuelle.
-//ExStepSummary:5: Le code suivant termine la table et enregistre le document dans un fichier.
+//ExStepSummary:5: Le code suivant termine le tableau et enregistre le document dans un fichier.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Initialiser un nouveau document
+// Initialement d'un nouveau document
 Document doc = new Document();
 // Créer un constructeur de documents pour manipuler le document
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Démarrer la création d'une table
+// Commencez à créer une table
 builder.StartTable();
-// Insérer une nouvelle cellule dans le tableau
+// Insérer une nouvelle cellule dans la table
 builder.InsertCell();
 
 //ExStep:2-
-// Régler le rembourrage avec 30 points en haut et en bas, 50 points à gauche et à droite
+// Réglage de rembourrage avec 30 points en haut et en bas, 50 points à gauche et à droite
 builder.CellFormat.SetPaddings(30, 50, 30, 50);
 
 //ExStep:3-
 builder.Writeln("I'm a wonderful formatted cell.");
-// Terminer la ligne actuelle dans le tableau
+// Finissez la ligne actuelle dans le tableau
 builder.EndRow();
-// Fin du tableau
+// Fin de la table
 builder.EndTable();
 
 //ExStep:4-

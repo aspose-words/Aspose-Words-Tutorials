@@ -1,23 +1,23 @@
 //ExStart
-//ExSummary: Denna kod visar hur man infogar ett område diagram i ett Word-dokument med Aspose.Words.
-//ExStepSummary:0: Följande kod initierar ett nytt dokument och en dokumentbyggare.
-//ExStepSummary:1: Följande kod för in ett områdesdiagram i dokumentet.
-//ExStepSummary:2: Följande kod lägger till en serie till diagrammet med angivna datapunkter.
-//ExStepSummary:3: Följande kod sparar dokumentet med det införda områdesschemat.
+//ExSummary: Denna kod visar hur man lägger in ett område diagram i ett Word-dokument med hjälp av Aspose.Words.
+//ExStepSummary:0: Följande kod initialiserar ett nytt dokument och en dokumentbyggare.
+//ExStepSummary:1: Följande kod lägger ett område diagram i dokumentet.
+//ExStepSummary:2: Följande kod lägger till en serie i diagrammet med angivna datapunkter.
+//ExStepSummary:3: Följande kod sparar dokumentet med det inlagda områdeshartan.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
 // Skapa ett nytt dokument
 Document doc = new Document();
-// Initiera dokumentbyggaren
+// Initializera dokumentbyggaren
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Infoga ett områdesdiagram med angivna mått
+// Lägg in ett område diagram med angivna dimensioner
 Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
 
 //ExStep:2-
-// Åtkomst till diagramobjektet
+// Tillträde till diagramobjektet
 Chart chart = shape.Chart;
 // Lägg till en ny serie i diagrammet
 chart.Series.Add("Aspose Series 1", new [] 
@@ -33,10 +33,10 @@ chart.Series.Add("Aspose Series 1", new []
 	// Uppgiftspunkt 5
     new DateTime(2002, 09, 01)
 }, 
-// Motsvarande värden för datapunkterna
+// Korresponderande värden för datapunkterna
 new double[] { 32, 32, 28, 12, 15 });
 
 //ExStep:3-
-// Spara dokumentet med det infogade diagrammet
+// Spara dokumentet med den inlagda diagrammen
 doc.Save("WorkingWithCharts.InsertAreaChart.docx");
 //ExEnd

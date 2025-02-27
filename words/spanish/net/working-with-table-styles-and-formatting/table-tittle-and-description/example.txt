@@ -1,30 +1,30 @@
 //ExStart
-//ExSummary:Este código muestra cómo agregar un título y una descripción a una tabla en un documento de Word usando Aspose.Words.
+//ExSummary: Este código muestra cómo añadir un título y una descripción a una tabla en un documento de Word utilizando Aspose.Words.
 //ExStepSummary:0:Este paso inicializa el documento y lo carga desde un directorio especificado.
-//ExStepSummary:1:Este paso recupera la primera tabla del documento y establece su título y descripción.
-//ExStepSummary:2:En este paso se configuran las opciones de guardado del documento con los ajustes de conformidad especificados.
-//ExStepSummary:3:Este paso optimiza las opciones de compatibilidad para el documento de Word 2016.
+//ExStepSummary:1:En este paso se extrae la primera tabla del documento y se fijan su título y descripción.
+//ExStepSummary:2:Este paso configura las opciones de almacenamiento para el documento con configuraciones de cumplimiento especificadas.
+//ExStepSummary:3:Este paso optimiza las opciones de compatibilidad del documento para Word 2016.
 //ExStepSummary:4:Este paso guarda el documento modificado de nuevo en el directorio especificado.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Inicializa el documento y cárgalo desde el directorio de datos
+// Inicializa el documento y cargue desde el directorio de datos
 string dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// Recuperar la primera tabla y establecer su título y descripción
+// Recoger la primera tabla y establecer su título y descripción
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 table.Title = "Test title";
 table.Description = "Test description";
 
 //ExStep:2-
-// Configurar las opciones de guardado para el documento
+// Configurar opciones de guardar para el documento
 OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 //ExStep:3-
-// Optimizar las opciones de compatibilidad para Word 2016
+// Optimiza las opciones de compatibilidad para Word 2016
 doc.CompatibilityOptions.OptimizeFor(Aspose.Words.Settings.MsWordVersion.Word2016);
 
 //ExStep:4-

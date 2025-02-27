@@ -1,16 +1,16 @@
 //ExStart
 //ExSummary: Ce code montre comment créer un document Word et insérer une image avec une mise en page flottante en utilisant Aspose.Words.
-//ExStepSummary:0: Le code suivant initialise un nouveau Document et DocumentBuilder.
+//ExStepSummary:0: Le code suivant initie un nouveau Document et DocumentBuilder.
 //ExStepSummary:1: Le code suivant insère une image dans le document.
-//ExStepSummary:2: Le code suivant enregistre le document à un endroit spécifié.
+//ExStepSummary:2: Le code suivant sauvegarde le document à un emplacement spécifié.
 //ExStepImage:1:images/1.png
 //ExStep:0-
-// Créer une nouvelle instance Document
+// Créer une nouvelle instance de document
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Insérer l'image à partir du chemin spécifié
+// Insérer une image à partir du chemin spécifié
 builder.InsertImage(ImagesDir + "Transparent background logo.png", 
     RelativeHorizontalPosition.Margin,
     100, 

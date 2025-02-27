@@ -1,40 +1,40 @@
 //ExStart
-//ExSummary: Kode ini menunjukkan bagaimana menyisipkan bentuk (kotak-kotak teks) ke dalam dokumen Word menggunakan Aspose.Words. Dokumen disimpan dalam format DOCX dengan pilihan kepatuhan spesifik untuk standar ISO.
-//ExStepSummary:0: Kode inisialisasi dokumen baru dan sebuah pembuat dokumen untuk memanipulasi dokumen.
-//ExStepSummary:1: Bentuk (kotak teks) disisipkan pada posisi absolut dalam dokumen dan rotasi dari bentuk pertama diatur ke 30 derajat.
-//ExStepSummary:2: Bentuk baru dimasukkan pada posisi relatif dan rotasi bentuk kedua juga diatur ke 30 derajat.
-//ExStepSummary:3: Dokumen disimpan dengan spesifik OoxmlSaveOptions.
+//ExSummary: Kode ini menunjukkan cara memasukkan bentuk (kotak teks) ke dalam dokumen Word menggunakan Aspose.Words. Dokumen disimpan dalam format DOCX dengan opsi kepatuhan khusus untuk standar ISO.
+//ExStepSummary:0: Kode ini menginisialisasikan dokumen baru dan pembuat dokumen untuk memanipulasi dokumen.
+//ExStepSummary:1: Sebuah bentuk (kotak teks) dimasukkan di posisi mutlak dalam dokumen dan putaran bentuk pertama ditetapkan pada 30 derajat.
+//ExStepSummary:2: Bentuk baru dimasukkan di posisi relatif dan putaran bentuk kedua juga diatur ke 30 derajat.
+//ExStepSummary:3: Dokumen disimpan dengan OoxmlSaveOptions tertentu.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 
 //ExStep:0-
-// Membuat suatu instansi dokumen baru
+// Membuat contoh dokumen baru
 Document doc = new Document();
-// Menginisialisasi Dokumen Builder bagi dokumen
+// Inisialkan DocumentBuilder untuk dokumen
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Sisipkan suatu bentuk dari tipe Kotak Teks
+// Masukan bentuk jenis TextBox
 Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
     RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
-// Putar bentuk dengan 30 derajat
+// Mengputar bentuknya 30 derajat
 shape.Rotation = 30.0;
 
 //ExStep:2-
 builder.Writeln();
-// Sisipkan bentuk lain dari tipe Kotak Teks pada posisi relatif
+// Masukkan bentuk lain dari jenis TextBox di posisi relatif
 shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
-// Putar bentuk kedua dengan 30 derajat
+// Mengputar bentuk kedua dengan 30 derajat
 shape.Rotation = 30.0;
 
 //ExStep:3-
-// Mempersiapkan opsi penyimpanan dokumen
+// Menyiapkan opsi menyimpan untuk dokumen
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
 };
 
-// Simpan dokumen menggunakan opsi simpan yang dinyatakan
+// Menyimpan dokumen menggunakan opsi menyimpan yang ditentukan
 doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
 //ExEnd

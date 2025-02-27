@@ -1,8 +1,8 @@
 ---
-title: Masukkan Tabel Kolom Sederhana dalam Kata Menggunakan Aspose.Words untuk .NET
+title: Masukkan grafik kolom sederhana dalam Word menggunakan Aspose.Words untuk .NET
 weight: 7700
 limit: 
-description: Pelajari bagaimana menyisipkan bagan kolom sederhana dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti instruksi langkah-demi-langkah untuk membuat dan menyesuaikan bagan Anda.
+description: Pelajari cara memasukkan grafik kolom sederhana ke dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti instruksi langkah demi langkah untuk membuat dan menyesuaikan grafik Anda.
 keywords: [Aspose.Words for .NET, insert column chart, create Word chart, .NET Word chart example, Word document chart, Aspose chart example]
 url: /id/net/working-with-charts/insert-simple-column-chart/
 ---
@@ -10,9 +10,9 @@ url: /id/net/working-with-charts/insert-simple-column-chart/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Masukkan Tabel Kolom Sederhana dalam Kata Menggunakan aspose.Words
+# Masukkan grafik kolom sederhana dalam Word menggunakan Aspose.Words
 
-aspose.Words untuk .NET membuatnya tanpa upaya untuk membuat dokumen profesional Word dengan konten yang kaya. Dalam tutorial ini, Anda akan belajar bagaimana menyisipkan kolom sederhana ke dalam sebuah program dokumen Word. Kami akan menutupi setiap langkah, dari menginisialisasi dokumen untuk mengubah seri bagan dan menyimpan berkas. Apakah Anda membuat laporan atau visualisasi data, panduan ini menyediakan semua rincian master bagan menggunakan Asposes.Words untuk .NET.  
+Aspose.Words untuk .NET membuat mudah untuk membuat dokumen Word profesional dengan konten yang kaya. Dalam tutorial ini, Anda akan belajar bagaimana memasukkan grafik kolom sederhana ke dalam dokumen Word secara programatik. Kami akan membahas setiap langkah, dari menginisialisasi dokumen hingga menyesuaikan seri grafik dan menyimpan file. Apakah Anda menghasilkan laporan atau memvisualisasikan data, panduan ini memberikan semua rincian yang Anda butuhkan untuk menguasai penempatan grafik menggunakan Aspose.Words untuk .NET.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-simple-column-chart" >}}
@@ -20,31 +20,31 @@ aspose.Words untuk .NET membuatnya tanpa upaya untuk membuat dokumen profesional
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instruksi Instalasi  
-Untuk menggunakan contoh ini, pastikan Anda memiliki Aspose.Words untuk .NET terpasang. Ikuti langkah-langkah ini:  
+Untuk menggunakan contoh ini, pastikan Anda memiliki Aspose.Words untuk .NET dipasang. Ikuti langkah-langkah ini:  
 
-1. Unduh aspose.Words untuk .NET:  
-   Kunjungi[aspose.Words untuk .NET Unduh](https://releases.aspose.com/words/net/)dan download versi terbaru.  
+1. Unduh Aspose.Words untuk .NET:  
+   Kunjungi[Aspose.Words untuk .NET Download](https://releases.aspose.com/words/net/)dan download versi terbaru.  
 
-2. Pasang Perpustakaan:  
-   * Tambahkan paket aspose.Words NuGet ke projek Anda. Jalankan perintah berikut dalam Konsol Manajer Paket NuGet:  
+2. Instal Perpustakaan:  
+   * Tambahkan paket NuGet Aspose.Words ke proyek Anda. Luncurkan perintah berikut di NuGet Package Manager Console:  
      ```sh
      Install-Package Aspose.Words
      ```  
-   * Atau, tambahkan`.dll`berkas ke referensi projek Anda secara manual.  
+   * Sebagai alternatif, tambahkan `.dll`file untuk referensi proyek Anda secara manual.  
 
 3. Dapatkan Lisensi:  
-   * Mendapatkan lisensi dari[aspose Pembelian](https://purchase.aspose.com/buy)atau meminta percobaan bebas dari[Tetapkan Cobaan dengan Bebas](https://releases.aspose.com/).  
+   * Dapatkan lisensi dari [Berharap Membeli](https://purchase.aspose.com/buy)atau meminta uji coba gratis dari [Tentukan Percobaan Bebas](https://releases.aspose.com/)Aku tidak tahu.  
 
-4. Terapkan Lisensi:  
-   Tambahkan kode berikut ke projek Anda untuk mengaktifkan lisensi:  
+4. Minta Lisensi:  
+   Tambahkan kode berikut ke proyek Anda untuk mengaktifkan lisensi:  
    ```csharp
    License license = new License();
    license.SetLicense("path-to-your-license-file.lic");
    ```  
 
-## Juga Lihat
-[aspose.Word untuk .NET Dokumentasi](https://docs.aspose.com/words/net/)
-[aspose.Word untuk referensi .NET](https://reference.aspose.com/words/net/)
+## Lihat juga
+[Aspose.Word untuk Dokumen .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word untuk Referensi .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

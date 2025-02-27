@@ -1,8 +1,8 @@
 ---
-title: Vytvořit slovní dokument s plovoucím obrazem v .NET
+title: Vytvořit Word dokument s plovoucím obrázkem v .NET
 weight: 7700
 limit: 
-description: Naučte se, jak používat Aspose.Words pro .NET vytvořit dokument Word a vložit plovoucí obrázek. Krok-za-krok příklad uveden.
+description: Naučte se používat Aspose.Words pro .NET k vytvoření dokumentu Word a vložit plovoucí obrázek.
 keywords: [Aspose.Words, .NET, Word document, insert image, floating layout, DocumentBuilder, C# example]
 url: /cs/net/add-content-using-document-builder/insert-floating-image/
 ---
@@ -10,30 +10,30 @@ url: /cs/net/add-content-using-document-builder/insert-floating-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořit slovní dokument s plovoucím obrazem
+# Vytvořte dokument Word s plovoucím obrázkem
 
-Tento příklad ukazuje, jak vytvořit dokument Word pomocí aplikace Aspose.Words pro .NET a vložit obrázek s plovoucím rozvržením. Zadaný kód inicializuje dokument a dokumentBuilder, vloží obraz se stanovenými rozměry a umístěním, a nakonec uloží dokument. Tato příručka je ideální pro vývojáře, kteří chtějí zlepšit své schopnosti generování dokumentů pomocí aplikace Aspose.Words.
+Tento příklad ukazuje, jak vytvořit dokument Word pomocí Aspose.Words pro .NET a vložit obrázek s plovoucím rozložením. Poskytnutý kód iniciuje dokument a DocumentBuilder, vloží obrázek s specifikovanými rozměry a umístění a nakonec ukládá dokument. Tento průvodce je ideální pro vývojáře, kteří chtějí zvýšit své schopnosti vytváření dokumentů pomocí Aspose.Words.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-floating-image" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Návod k instalaci
-1. Nainstalujte Aspose.Words: Přidat Aspose.Words NuGet balíček do vašeho projektu .NET. Můžete to udělat spuštěním následujícího příkazu v konzoli Správce balíčků:
+## Příkazy na instalaci
+1. Instalujte Aspose.Words: Přidejte balíček NuGet Aspose.Words do projektu .NET. Můžete to udělat spuštěním následujícího příkazu v konzole pro správu balíček:
    ```
    Install-Package Aspose.Words
    ```
 
-2. Přidat požadované jmenné prostory: Ujistěte se, že váš kód soubor obsahuje následující jmenné prostory:
+2. Přidání požadovaných jmenovních prostor: Ujistěte se, že váš soubor kódu obsahuje následující jmenovní prostor:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
-## Také viz
-[Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Reference](https://reference.aspose.com/words/net/)
+## Viz také
+[Aspose.Word pro .NET dokumentaci](https://docs.aspose.com/words/net/)
+[Aspose.Word pro reference .NET](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

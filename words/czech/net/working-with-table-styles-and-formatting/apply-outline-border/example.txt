@@ -1,43 +1,43 @@
 //ExStart
-//ExSummary: Tento kód ukazuje, jak aplikovat obrysu hranice na tabulku v dokumentu Word pomocí Aspose.Slova. Soustředí tabulku na stránce, nastaví zelenou hranici kolem tabulky, vyčistí všechny existující hranice, a vyplní buňky tabulky s světle zelenou barvu pozadí. 
-//ExStepSummary:0: Následující kód inicializuje dokument a získá první tabulku.
-//ExStepSummary:1: Tento krok sladí tabulku se středem stránky.
-//ExStepSummary:2: Tento krok vymaže všechny existující hranice od tabulky.
-//ExStepSummary:3: Tento krok stanoví zelenou hranici kolem stolu, ale ne uvnitř.
-//ExStepSummary:4: Tento krok naplní buňky světle zelenou pevnou barvou.
+//ExSummaryTento kód ukazuje, jak na tabulku v dokumentu Word použít Aspose.Words. Zprostředkuje tabulku na stránce, nastaví zelenou hranici kolem tabulky, vyčistí všechny stávající hranice a vyplní buňky tabulky světle zelenou barvou pozadí. 
+//ExStepSummary:0: Následující kód iniciální dokument a získává první tabulku.
+//ExStepSummary:1: Tento krok vyrovnávají tabulku k centru stránky.
+//ExStepSummary:2: Tento krok odstraní všechny stávající hranice z tabulky.
+//ExStepSummary:3: Tento krok umístí zelenou hranici kolem stolu, ale ne uvnitř.
+//ExStepSummary:4: Tento krok naplňuje buňky jasně zelenou barvou.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// Definovat adresář dokumentu
+// Definice adresáře dokumentu
 string dataDir = "Your Document Directory";
-// Načíst dokument
+// Nabírejte dokument
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// Získejte první tabulku z dokumentu
+// Vytáhnout první tabulku z dokumentu
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
-// Zarovnat stůl do středu stránky
+// Přizpůsobit tabulku do středu stránky
 table.Alignment = TableAlignment.Center;
 
 //ExStep:2-
-// Vyčistit všechny existující hranice od tabulky
+// Vymažte všechny stávající hranice z tabulky
 table.ClearBorders();
 
 //ExStep:3-
-// Nastavit levou hranici
+// Vyměňte levé hranice
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
-// Nastavit pravou hranici
+// Nastavte pravou hranici
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
-// Nastavit horní hranici
+// Nastavte horní hranici
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
-// Nastavit dolní hranici
+// Uložte dolní hranici
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
 //ExStep:4-
-// Naplňte buňky světle zelenou barvou
+// Vyplňte buňky světle zelenou barvou
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
-// Uložit upravený dokument
+// Uložení změněného dokumentu
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
 //ExEnd

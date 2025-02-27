@@ -1,26 +1,26 @@
 //ExStart
-//ExSummary:Denna kod visar hur man lägger till en titel och beskrivning till en tabell i ett Word-dokument med Aspose.Words.
-//ExStepSummary:0:Detta steg initierar dokumentet och laddar det från en angiven katalog.
-//ExStepSummary:1:Detta steg hämtar den första tabellen från dokumentet och anger dess titel och beskrivning.
-//ExStepSummary:2:Detta steg konfigurerar spara alternativ för dokumentet med angivna efterlevnadsinställningar.
+//ExSummary: Denna kod visar hur man lägger till en titel och beskrivning till en tabell i ett Word-dokument med hjälp av Aspose.Words.
+//ExStepSummary:0:Detta steg initialiserar dokumentet och laddar det från ett specifikt katalog.
+//ExStepSummary:1:I detta steg hämtas den första tabellen från dokumentet och anges titeln och beskrivningen.
+//ExStepSummary:2:I detta steg konfigureras sparaalternativ för dokumentet med angivna överensstämmelseinställningar.
 //ExStepSummary:3:Detta steg optimerar kompatibilitetsalternativen för dokumentet för Word 2016.
-//ExStepSummary:4:Det här steget sparar det ändrade dokumentet tillbaka till den angivna katalogen.
+//ExStepSummary:4:Detta steg sparar det ändrade dokumentet tillbaka till det angivna kataloget.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Starta dokumentet och ladda det från datakatalogen
+// Initializera dokumentet och ladda det från dataförteckningen
 string dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// Hämta den första tabellen och ange dess titel och beskrivning
+// Ta fram den första tabellen och ange titeln och beskrivningen
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 table.Title = "Test title";
 table.Description = "Test description";
 
 //ExStep:2-
-// Anpassa spara alternativ för dokumentet
+// Konfigurera spara alternativ för dokumentet
 OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 //ExStep:3-
@@ -28,6 +28,6 @@ OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.I
 doc.CompatibilityOptions.OptimizeFor(Aspose.Words.Settings.MsWordVersion.Word2016);
 
 //ExStep:4-
-// Spara det ändrade dokumentet tillbaka till den angivna katalogen
+// Spara det ändrade dokumentet tillbaka till det angivna kataloget
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.TableTitleAndDescription.docx", options);
 //ExEnd

@@ -1,9 +1,9 @@
 //ExStart
-//ExSummary: Compruebe el siguiente código para encontrar cómo crear un gráfico de líneas en un documento de Word. Puede copiar este código a su IDE y ejecutarlo.
+//ExSummary: Consulte el siguiente código para encontrar cómo crear un gráfico de líneas en un documento de Word. Puede copiar este código en su IDE y ejecutarlo.
 //ExStepSummary:0: El siguiente código muestra cómo crear un nuevo documento e instanciar un DocumentBuilder:
 //ExStepSummary:1: El siguiente código muestra cómo insertar un gráfico de líneas en el documento:
-//ExStepSummary:2: El siguiente código explica cómo establecer el título para el gráfico:
-//ExStepSummary:3: El siguiente código muestra cómo configurar la posición de la leyenda del gráfico y la configuración de superposición:
+//ExStepSummary:2: El siguiente código explica cómo establecer el título del gráfico:
+//ExStepSummary:3: El siguiente código muestra cómo configurar la posición y la configuración de superposición de la leyenda de gráficos:
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -13,17 +13,17 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Insertar un gráfico de líneas en el documento a las dimensiones especificadas
+// Insertar un gráfico de línea en el documento en dimensiones especificadas
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
 
 //ExStep:2-
-// Acceda al objeto Gráfico desde la forma
+// Accede al objeto del gráfico desde la forma
 Chart chart = shape.Chart;
 // Habilitar la visibilidad del título del gráfico
 chart.Title.Show = true;
-// Establecer el texto del título para el gráfico
+// Establezca el texto del título del gráfico
 chart.Title.Text = "Line Chart Title";
-// Asegúrese de que el título no superponga el gráfico
+// Asegúrese de que el título no se superpone a la tabla
 chart.Title.Overlay = false;
 
 //ExStep:3-

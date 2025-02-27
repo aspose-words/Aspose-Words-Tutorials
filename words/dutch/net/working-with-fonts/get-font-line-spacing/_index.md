@@ -1,8 +1,8 @@
 ---
-title: Lettertypelijnruimte in Word-document verkrijgen .Words for .NET
+title:$1$2
 weight: 7700
 limit: 
-description: Leer hoe u een Word-document maakt en regelafstand ophaalt met behulp van Aspose.Words voor .NET. Stap-voor-stap instructies met codevoorbeelden.
+description: Leer hoe je een Word-document kunt maken en letterlijnspacing kunt vinden met behulp van Aspose.Words voor .NET. Stap-voor-stap instructies met code voorbeelden inbegrepen.
 keywords: [Aspose.Words for .NET, get font line spacing, create Word document, .NET Word library, font properties, .NET document creation, line spacing example]
 url: /nl/net/working-with-fonts/get-font-line-spacing/
 ---
@@ -10,7 +10,7 @@ url: /nl/net/working-with-fonts/get-font-line-spacing/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lettertypelijnruimte in Word-document ophalen
+# Word document in Word
 Aspose.Words for .NET simplifies Word document creation and manipulation. This example demonstrates how to initialize a Word document, set a custom font, and retrieve the line spacing of a specific font. Whether you're automating document generation or analyzing text styles, this guide provides clear instructions and practical code snippets to achieve your goals efficiently. Aspose.Words for .NET is a powerful library for developers working with Word documents in C# or VB.NET.
 
 ---
@@ -19,28 +19,28 @@ Aspose.Words for .NET simplifies Word document creation and manipulation. This e
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installatie-instructies  
-Volg om dit voorbeeld te gebruiken de volgende stappen:  
+Om dit voorbeeld te gebruiken, volg deze stappen:  
 1. Download en installeer Aspose.Words voor .NET  
-   * Bezoek aan de[Aspose.Words voor .NET download pagina](https://releases.aspose.com/words/net/)en download de nieuwste versie.  
-   * Uitpakken van het gedownloade pakket en verwijzing naar de`Aspose.Words.dll`bestand in uw project.  
+   * Bezoek de [Aspose.Words voor .NET downloadpagina](https://releases.aspose.com/words/net/)en download de nieuwste versie.  
+   * Haal het gedownload pakket uit en verwijzen naar de `Aspose.Words.`\- Dat is een project.  
 
-2. Installeren via NuGet  
-   * Open uw project in Visual Studio.  
-   * Ga naar Tools > NuGet Package Manager > NuGet Packages for Solution beheren.  
-   * Zoeken naar`Words aspose.words`in de NuGet Package Manager en installeer het pakket.  
+2. Installeer via NuGet  
+   * Open je project in Visual Studio.  
+   * Ga naar Tools > NuGet Pakket Manager > NuGet Pakketten beheren voor oplossing.  
+   * Zoek naar `Aspose.Words`In de NuGet Package Manager en installeer het pakket.  
 
-3. Een licentie toepassen (facultatief maar aanbevolen)  
-   * Verkrijgen van een licentie van de[Afwezigheid van de aankooppagina](https://purchase.aspose.com/buy).  
-   * Gebruik a[tijdelijke licentie](https://purchase.aspose.com/temporary-license/)voor evaluatie indien nodig.  
-   * Voeg de volgende code toe aan het begin van uw aanvraag om de licentie toe te passen:  
+3. Een licentie aanvragen (optioneel maar aanbevolen)  
+   * Verkoop een vergunning van de .[Aansporing Aankooppagina](https://purchase.aspose.com/buy)\- Ik heb het niet gedaan .  
+   * Gebruik een [tijdelijke vergunning](https://purchase.aspose.com/temporary-license/)voor evaluatie indien nodig.  
+   * Voeg aan het begin van uw aanvraag de volgende code toe om de licentie aan te vragen:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```
 	 
 ## Zie ook
-[Aspose.Word voor .NET Documentatie](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referenties](https://reference.aspose.com/words/net/)
+[Aspose.Word voor .NET-documentatie](https://docs.aspose.com/words/net/)
+[Aspose.Word voor .NET Referenties](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

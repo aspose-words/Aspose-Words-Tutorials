@@ -1,8 +1,8 @@
 ---
-title: 在单词中插入泡泡图 。 用于. NET 的文字。 words for. NET
+title: 插入一个"泡图"在 Word 中使用 .NET 的Aspose.Words
 weight: 7700
 limit: 
-description: 学习如何使用 Aspose. words 将泡泡图表插入 Word 文档, 包括. NET 的 Words。 一步步指令和代码示例 。
+description: 了解如何将一个泡图插入Word文档,使用 .NET的Aspose.Words. 步骤说明和代码示例包括.
 keywords: [Aspose.Words for .NET, insert Bubble chart, Word document, .NET Bubble chart example, create Bubble chart Word]
 url: /zh/net/working-with-charts/insert-bubble-chart/
 ---
@@ -10,38 +10,38 @@ url: /zh/net/working-with-charts/insert-bubble-chart/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在单词中插入泡泡图 。
+# 用Aspose.Words插入一个泡图
 
-使用 Aspose. words for.NET 很容易在您的 Word 文档中添加一个 bubble 图表 。 此指南通过创建新文档, 插入一个 bubble 图表, 添加 X、 Y 和大小值的数据序列, 并保存文档, 很容易在您的 Word 文档中添加一个 bubbble 图表 。 用 Aspose. words, 程序化地处理 Word 文档从来没有那么容易过 。  
+简单地将一个泡图添加到Word文档中,使用 .NET的Aspose.Words!本指南将您介绍创建一个新文档,插入一个泡图,添加X,Y和尺寸值的数据系列,并保存文档.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-bubble-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## 安装指示  
+## 装备说明  
 
-1. 下载位置。 . NET 的 words  
-   将图书馆从[选项。 Words 下载页面](https://releases.aspose.com/words/net/). .  
+1. 为了 .NET,下载Aspose.Words  
+   拿出图书馆[关于Aspose.Words的下载页面](https://releases.aspose.com/words/net/)现在,我们要去.  
 
-2. 通过 NuGet 软件包管理器安装  
-   * 打开您的视觉工作室项目 。  
-   * 导航到工具 > Nuget 软件包管理器 > 管理 Nuget 软件包以解决问题 。  
-   * 搜索搜索`表达式 。`在浏览标签中。  
-   * 选择软件包并单击安装。  
+2. 通过 NuGet 包管理器安装  
+   * 打开你的视觉工作室项目.  
+   * 导航到工具> NuGet 包管理器> 解决方案管理 NuGet 包.  
+   * 搜索`"回答. 字"`在浏览表格中.  
+   * 选择包,然后单击安装.  
 
-3. 通过 NuGet 软件包管理器控制台安装  
-   在软件包管理器控制台运行以下命令 :  
+3. 通过 NuGet 包管理器控制台安装  
+   在包管理器控制台中执行下列命令:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-4. 添加授权  
-   申请许可后,您可向移民局申请临时许可。您可向移民局申请临时许可。您可向移民局申请临时许可。[使用临时许可页面](https://purchase.aspose.com/temporary- license/). .  
+4. 添加许可证  
+   您可以从该公司获得临时许可.[设置临时许可证页面](https://purchase.aspose.com/temporary- license/)现在,我们要去.  
 
-## 另见
-[位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)
-[位置。 编辑到. NET 引用](https://reference.aspose.com/words/net/)
+## 查看
+[设置.Word为 .NET文档](https://docs.aspose.com/words/net/)
+[标用.NET引用的Word](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

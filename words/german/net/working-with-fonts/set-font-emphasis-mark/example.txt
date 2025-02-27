@@ -1,39 +1,39 @@
 //ExStart
-//ExSummary:Dieser Code zeigt, wie man in einem Word-Dokument mit Aspose.words eine Betonungsmarke setzt.
-//ExStepSummary:0:Erstellen einer neuen Dokument-Instanz zum Arbeiten.
-//ExStepSummary:1:Einrichtung eines DocumentBuilders, um das Dokument zu manipulieren.
-//ExStepSummary:2:Anwenden einer Betonungsmarke auf die Schriftart des Builders.
-//ExStepSummary:3:Text mit Schwerpunkt auf das Dokument schreiben.
-//ExStepSummary:4:Schreiben eines einfachen Textes ohne jegliche Betonung.
-//ExStepSummary:5: Dieser Code speichert das Dokument mit dem Betonungszeichen in der Schriftart.
+//ExSummary:Dieser Code zeigt, wie man ein Akzentzeichen in einem Word-Dokument mit Aspose.words einstellt.
+//ExStepSummary:0:Erstellen einer neuen Dokumentinstanz, mit der man arbeiten kann.
+//ExStepSummary:1:Ein Dokumentbuilder eingerichtet, um das Dokument zu manipulieren.
+//ExStepSummary:2:Die Anwendung eines Schwerpunktzeichen auf die Schrift des Bauherrschers.
+//ExStepSummary:3:Schreiben von Schwerpunkttext zum Dokument.
+//ExStepSummary:4:Ein einfacher Text ohne Betonung zu schreiben.
+//ExStepSummary:5: Dieser Code speichert das Dokument mit dem Schwerpunktzeichen auf die Schrift.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
 //ExStep:0-
-// Neues Dokument erstellen
+// Erstellen Sie ein neues Dokument
 Document document = new Document();
 
 //ExStep:1-
-// DocumentBuilder für Dokumentmanipulation initialisieren
+// Initialisieren Sie DocumentBuilder für die Dokumentmanipulation
 DocumentBuilder builder = new DocumentBuilder(document);
 
 //ExStep:2-
-// Setzen Sie die Betonung auf UnderSolidCircle
+// Setzen Sie das Schwerpunktzeichen auf UnderSolidCircle
 builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
 
 //ExStep:3-
-// Schreiben Sie den Schwerpunkttext in das Dokument
+// Schreiben Sie den Schwerpunkttext auf das Dokument
 builder.Write("Emphasis text");
-// Zur nächsten Zeile wechseln
+// \- Geht zur nächsten Zeile.
 builder.Writeln();
-// Schriftformatierung für den folgenden Text löschen
+// Löschen Sie die Schriftformatierung für den folgenden Text
 builder.Font.ClearFormatting();
 
 //ExStep:4-
-// Schreiben Sie einfachen Text ohne Betonung
+// Schreiben Sie einen einfachen Text ohne Betonung
 builder.Write("Simple text");
 
 //ExStep:5-
-// Das Dokument in den angegebenen Pfad speichern
+// Speichern Sie das Dokument auf dem angegebenen Pfad
 document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
 //ExEnd

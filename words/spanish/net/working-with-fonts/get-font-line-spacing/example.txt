@@ -1,8 +1,8 @@
 //ExStart
-//ExSummary: Este código muestra cómo crear un documento y obtener el espaciado entre líneas de una fuente especificada.
-//ExStepSummary:0: El siguiente código inicializa un nuevo documento y DocumentBuilder.
+//ExSummary: Este código muestra cómo crear un documento y obtener el espacio entre líneas de una fuente especificada.
+//ExStepSummary:0: El siguiente código inicia un nuevo Document y DocumentBuilder.
 //ExStepSummary:1: El código establece la fuente en "Calibri" y agrega una línea de texto.
-//ExStepSummary:2: El código recupera el espaciado entre líneas de la primera ejecución del documento.
+//ExStepSummary:2: El código recupera el espacio entre líneas de la primera ejecución en el documento.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
@@ -11,13 +11,13 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Establezca el nombre de la fuente en 'Calibri'
+// Establezca el nombre de la fuente en "Calibri"
 builder.Font.Name = "Calibri";
 builder.Writeln("qText");
 
 //ExStep:2-
-// Acceda a la fuente de la primera ejecución
+// Accede a la fuente de la primera ejecución
 Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
-// Salida del espaciado de líneas a la consola
+// Saque la línea que se separa a la consola
 Console.WriteLine($"lineSpacing = {font.LineSpacing}");
 //ExEnd

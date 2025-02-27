@@ -1,11 +1,11 @@
 //ExStart
-//ExSummary: Denna kod visar hur man skapar ett Word-dokument med Aspose.Words, lägga till innehåll över flera sidor, och spara det som en .docx-fil.
-//ExStepSummary:0: Detta steg initierar ett nytt dokument och en DocumentBuilder för att manipulera dokumentet.
-//ExStepSummary:1: Detta steg lägger till text till första sidan.
-//ExStepSummary:2: Detta steg infogar en sida paus för att starta en ny sida.
-//ExStepSummary:3: Detta steg lägger till text till andra sidan.
-//ExStepSummary:4: Detta steg infogar en annan sida paus för en ny sida.
-//ExStepSummary:5: Detta steg lägger till text till tredje sidan.
+//ExSummary: Denna kod visar hur man skapar ett Word-dokument med hjälp av Aspose.Words, lägger till innehåll på flera sidor och sparar det som en .docx-fil.
+//ExStepSummary:0: Detta steg initialiserar ett nytt Dokument och en DocumentBuilder för att manipulera dokumentet.
+//ExStepSummary:1: Detta steg lägger till text på den första sidan.
+//ExStepSummary:2: Detta steg sätter in en sidbrist för att starta en ny sida.
+//ExStepSummary:3: Detta steg lägger till text på den andra sidan.
+//ExStepSummary:4: Detta steg sätter in ytterligare en sidbrist för en ny sida.
+//ExStepSummary:5: Detta steg lägger till text på tredje sidan.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -18,11 +18,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Lägg till text för första sidan
+// Lägg till text för den första sidan
 builder.Writeln("This is page 1.");
 
 //ExStep:2-
-// Infoga en sidbrytning för att starta en ny sida
+// Lägg in en sidbrist för att starta en ny sida
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:3-
@@ -30,7 +30,7 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("This is page 2.");
 
 //ExStep:4-
-// Infoga en ny sidas paus för en ny sida
+// Lägg in en ny sidbrist för en ny sida
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:5-
@@ -38,6 +38,6 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("This is page 3.");
 
 //ExStep:6-
-// Spara dokumentet till angiven sökväg
+// Spara dokumentet på den angivna vägen
 doc.Save("AddContentUsingDocumentBuilder.InsertBreak.docx");
 //ExEnd

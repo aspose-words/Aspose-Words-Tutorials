@@ -1,10 +1,10 @@
 //ExStart
-//ExSummary: Ce code montre comment appliquer une bordure de contour à une table dans un document Word en utilisant Aspose.Words. Il centre la table sur la page, fixe une bordure verte autour de la table, efface toutes les bordures existantes, et remplit les cellules de table d'une couleur de fond vert clair. 
+//ExSummaryCe code montre comment appliquer une limite de contour à une table dans un document Word en utilisant Aspose.Words. Il centre la table sur la page, définit une limite verte autour de la table, efface les limites existantes et remplit les cellules de la table d'une couleur de fond verte claire. 
 //ExStepSummary:0: Le code suivant initialise le document et récupère le premier tableau.
-//ExStepSummary:1: Cette étape aligne la table sur le centre de la page.
-//ExStepSummary:2: Cette étape efface les frontières existantes de la table.
-//ExStepSummary:3: Cette étape établit une bordure verte autour de la table mais pas à l'intérieur.
-//ExStepSummary:4: Cette étape remplit les cellules d'une couleur solide vert clair.
+//ExStepSummary:1: Cette étape aligne le tableau au centre de la page.
+//ExStepSummary:2: Cette étape élimine les frontières existantes.
+//ExStepSummary:3: Cette étape définit une limite verte autour de la table, mais pas à l'intérieur.
+//ExStepSummary:4: Cette étape remplit les cellules d'une couleur verte claire.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -12,13 +12,13 @@
 //ExStep:0-
 // Définir le répertoire du document
 string dataDir = "Your Document Directory";
-// Chargez le document
+// Charger le document
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// Récupérer le premier tableau du document
+// Retirer la première table du document
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
-// Alignez la table au centre de la page
+// Allier la table au centre de la page
 table.Alignment = TableAlignment.Center;
 
 //ExStep:2-
@@ -26,17 +26,17 @@ table.Alignment = TableAlignment.Center;
 table.ClearBorders();
 
 //ExStep:3-
-// Régler la frontière gauche
+// Définition de la limite gauche
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
-// Régler la frontière droite
+// Définir la limite droite
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
-// Définir la bordure supérieure
+// Définir la limite supérieure
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
-// Définir la limite inférieure
+// Définition de la limite inférieure
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
 //ExStep:4-
-// Remplir les cellules de couleur vert clair
+// Remplissez les cellules de couleur verte claire
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 // Enregistrer le document modifié
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");

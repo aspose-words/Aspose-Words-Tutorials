@@ -1,27 +1,27 @@
 //ExStart
-//ExSummary:本代码演示如何使用 Aspose. words for.NET在 Word 文档中添加一个新部分。该过程包括初始化文档、写入内容和附加新部分。
-//ExStepSummary:0: 初始化新 Word 文档和文档构建器对象以添加文档内容。
-//ExStepSummary:1: 使用“文档构建器”对象将文字添加到第一节。
-//ExStepSummary:2: 使用“文档构建器”对象将文字添加到第一节。
-//ExStepSummary:3: 创建新区域, 并将其添加到文档的章节收藏中 。
+//ExSummary: 这个代码显示如何将一个新的部分添加到Word文档中,使用 .NET的Aspose.Words. 这个过程包括初始化文档,写内容,并添加一个新的部分.
+//ExStepSummary:0: 启动一个新的 Word 文档和一个 DocumentBuilder 对象,以添加内容到文档中.
+//ExStepSummary:1: 使用 DocumentBuilder 对象添加文本到第一个部分.
+//ExStepSummary:2: 使用 DocumentBuilder 对象添加文本到第一个部分.
+//ExStepSummary:3: 创建一个新的部分并将其添加到文件的部分集合中.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// 创建新 Word 文档。
+// 创建一个新的 Word 文档.
 Document doc = new Document();
-// 初始化文档的文档构建器 。
+// 启动文件构建器.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 将内容添加到第一节
+// 添加内容到第一个部分
 builder.Writeln("Hello1"); // Write "Hello1" into the document's first section.
 
 //ExStep:2-
-// 将内容添加到第一节
+// 添加内容到第一个部分
 builder.Writeln("Hello2"); // Write "Hello2" into the document's first section.
 
 //ExStep:3-
-// 在文档中创建新区域。
+// 在文件中创建一个新的部分.
 Section sectionToAdd = new Section(doc);
 doc.Sections.Add(sectionToAdd);
 //ExEnd

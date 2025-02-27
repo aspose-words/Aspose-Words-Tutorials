@@ -1,31 +1,31 @@
 //ExStart
-//ExSummary: Ο παρακάτω κώδικας δείχνει πώς να δημιουργήσετε και να διαμορφώσετε έναν πίνακα σε ένα έγγραφο Word χρησιμοποιώντας την κατηγορία DocumentBuilder από Aspose.Words.
-//ExStepSummary:0: Αρχικοποιήστε ένα νέο Document and DocumentBuilder για να ξεκινήσετε την κατασκευή του εγγράφου Word.
-//ExStepSummary:1: Δημιουργήστε έναν πίνακα και εισάγετε ένα κελί για τη μορφοποίηση.
-//ExStepSummary:2: Ορισμός των ιδιοτήτων μορφοποίησης για το κύτταρο, συμπεριλαμβανομένης της συσκευασίας και του πλάτους.
-//ExStepSummary:3: Εισάγετε κείμενο στο σχηματοποιημένο κελί.
-//ExStepSummary:4: Τερματισμός της γραμμής και του πίνακα και αποθήκευση του εγγράφου σε μια καθορισμένη διαδρομή αρχείου.
+//ExSummary: Ο ακόλουθος κώδικας δείχνει πώς να δημιουργήσετε και να μορφοποιήσετε έναν πίνακα σε ένα έγγραφο Word χρησιμοποιώντας την τάξη DocumentBuilder από το Aspose.Words.
+//ExStepSummary:0: Ξεκινήστε ένα νέο έγγραφο και DocumentBuilder για να ξεκινήσετε την κατασκευή του εγγράφου Word.
+//ExStepSummary:1: Δημιουργήστε έναν πίνακα και εισαγάγετε ένα κελί για μορφοποίηση.
+//ExStepSummary:2: Εναρτώντας τις ιδιότητες μορφοποίησης για το κελί, συμπεριλαμβανομένης της επένδυσης και του πλάτους.
+//ExStepSummary:3: Εισαγωγή κειμένου στο μορφοποιημένο κελί.
+//ExStepSummary:4: Τελειώστε τη σειρά και τον πίνακα και αποθηκεύστε το έγγραφο σε μια καθορισμένη διαδρομή αρχείου.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Δημιουργία ενός νέου αντικειμένου εγγράφου
+// Δημιουργία νέου αντικειμένου εγγράφου
 Document doc = new Document();
-// Αρχικοποίηση του εγγράφουBuilder με το νέο έγγραφο
+// Αρχική χρήση του DocumentBuilder με το νέο έγγραφο
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Αρχίστε τη δημιουργία ενός πίνακα
+// Ξεκινήστε να δημιουργείτε έναν τραπέζι
 builder.StartTable();
-// Εισάγετε το πρώτο κελί στον πίνακα
+// Εισαγωγή της πρώτης κυττάρης στο τραπέζι
 builder.InsertCell();
 
 //ExStep:2-
-// Πρόσβαση στις ιδιότητες μορφοποίησης του κυττάρου
+// Πρόσβαση στις ιδιότητες μορφοποίησης του κελίου
 CellFormat cellFormat = builder.CellFormat;
-// Ρύθμιση του πλάτους του κυττάρου
+// Εναρμόνιση του πλάτους κελιάς
 cellFormat.Width = 250;
-// Ρυθμίστε την επένδυση
+// Ετοιμάστε το θήκημα
 cellFormat.LeftPadding = 30;
 cellFormat.RightPadding = 30;
 cellFormat.TopPadding = 30;
@@ -36,9 +36,9 @@ cellFormat.BottomPadding = 30;
 builder.Writeln("I'm a wonderful formatted cell.");
 
 //ExStep:4-
-// Τερματισμός της τρέχουσας γραμμής του πίνακα
+// Τελείωση της τρέχουσας σειράς του πίνακα
 builder.EndRow();
-// Τερματισμός της δημιουργίας πίνακα
+// Τερματισμός της δημιουργίας του πίνακα
 builder.EndTable();
 // Αποθήκευση του εγγράφου
 doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");

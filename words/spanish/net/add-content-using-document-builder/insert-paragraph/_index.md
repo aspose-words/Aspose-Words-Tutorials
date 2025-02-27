@@ -2,7 +2,7 @@
 title: Crear un documento de Word con Aspose.Words para .NET
 weight: 7700
 limit: 
-description: Aprenda a crear un documento de Word con estilo usando Aspose.Words para la clase .NET y DocumentBuilder.
+description: Aprende a crear un documento Word con estilo utilizando Aspose.Words para la clase .NET y DocumentBuilder.
 keywords: [Aspose.Words, .NET, DocumentBuilder, Word document, styling, programming, example]
 url: /es/net/add-content-using-document-builder/insert-paragraph/
 ---
@@ -11,7 +11,7 @@ url: /es/net/add-content-using-document-builder/insert-paragraph/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Crear un documento de Word con Aspose.Words
-Este ejemplo muestra cómo usar la biblioteca Aspose.Words para .NET para crear un documento de Word de forma programática. Al utilizar la clase DocumentBuilder, puede insertar párrafos de estilo con configuraciones de fuente personalizadas en el documento. Esta guía lo guiará en cada paso, asegurándose de que puede generar efectivamente documentos de Word para sus aplicaciones.
+Este ejemplo muestra cómo usar el Aspose.Words para la biblioteca .NET para crear un documento Word de manera programática. Al utilizar la clase DocumentBuilder, puede insertar párrafos con estilo con configuraciones de fuente personalizadas en su documento. Esta guía le guiará a través de cada paso, asegurándose de que puede generar documentos Word de manera efectiva para sus aplicaciones.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-paragraph" >}}
@@ -19,19 +19,19 @@ Este ejemplo muestra cómo usar la biblioteca Aspose.Words para .NET para crear 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instrucciones de instalación
-1. Instale la biblioteca de Aspose.Words:
+1. Instale la biblioteca Aspose.Words:
    * Puede instalar Aspose.Words para .NET a través de NuGet Package Manager en Visual Studio:
      ```
      Install-Package Aspose.Words
      ```
 
-2. Configura tu proyecto:
-   * Cree un nuevo proyecto .NET en Visual Studio.
-   * Añade una referencia a la biblioteca de Aspose.Words.
+2. Establezca su proyecto:
+   * Crear un nuevo proyecto .NET en Visual Studio.
+   * Añadir una referencia a la biblioteca Aspose.Words.
 
-3. Agregue el código de ejemplo:
+3. Añadir el código de ejemplo:
    * Copie el ejemplo de código proporcionado en su proyecto.
-   * Asegúrese de incluir lo necesario`usando`directivas en la parte superior:
+   * Asegúrese de incluir los necesarios `el uso`Directivas en la parte superior:
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Drawing;
@@ -39,9 +39,9 @@ Este ejemplo muestra cómo usar la biblioteca Aspose.Words para .NET para crear 
      using System.Drawing;
      ```
 
-## Véase también
-[Aspose.Word para la documentación de .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word para las referencias de .NET](https://reference.aspose.com/words/net/)
+## También véase
+[Aspose.Word para Documentación .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word para las referencias .NET](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

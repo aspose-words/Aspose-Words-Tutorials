@@ -1,29 +1,29 @@
 //ExStart
-//ExSummary: Questo codice dimostra come inserire un grafico a colonne in un documento usando Aspose.Words. Crea un documento,
-//          aggiunge un grafico con categorie e valori definiti e salva il documento.
-//ExStepSummary:0: Il seguente codice inizializza un nuovo documento e un costruttore di documenti.
-//ExStepSummary:1: Questo passaggio comporta l'inserimento di un grafico a colonne con dimensioni specificate nel documento.
-//ExStepSummary:2: Qui, i dati di serie sono aggiunti al grafico con le categorie e i corrispondenti valori.
-//ExStepSummary:3: Questo passaggio salva il documento con il grafico inserito in una posizione specificata del file.
+//ExSummaryQuesto codice mostra come inserire un grafico di colonne in un documento utilizzando Aspose.Words. Crea un documento,
+//          aggiunge un grafico con categorie e valori definiti e quindi salva il documento.
+//ExStepSummary:0: Il codice seguente inizializza un nuovo documento e un costruttore di documenti.
+//ExStepSummary:1: Questa fase prevede l'inserimento nel documento di una tabella di colonne con dimensioni specificate.
+//ExStepSummary:2: Qui, i dati della serie sono aggiunti al grafico con categorie e valori corrispondenti.
+//ExStepSummary:3: Questo passo salva il documento con la tabella inserita in una posizione del file specificata.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Inizializza un nuovo oggetto documento
+// Inizia un nuovo oggetto Documento
 Document doc = new Document();
-// Crea un documentoCostruisci per una facile manipolazione del documento
+// Crea un DocumentBuilder per una facile manipolazione dei documenti
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Inserire un grafico a colonne alla dimensione specificata (larghezza x altezza)
+// Inserire un grafico di colonne nella dimensione specificata (larghezza x altezza)
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 
 //ExStep:2-
-// Accedi all'oggetto grafico dalla forma inserita
+// Accedere all'oggetto grafico dalla forma inserita
 Chart chart = shape.Chart;
-// Aggiungi dati di serie con categorie e valori
+// Aggiungere i dati delle serie con categorie e valori
 chart.Series.Add("Aspose Series 1", new string[] { "Category 1", "Category 2" }, new double[] { 1, 2 });
 
 //ExStep:3-
-// Salva il documento con il grafico delle colonne inserito
+// Salvare il documento con la tabella di colonne inserita
 doc.Save("WorkingWithCharts.InsertColumnChart.docx"); 
 //ExEnd

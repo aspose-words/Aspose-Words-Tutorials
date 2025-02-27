@@ -1,37 +1,37 @@
 //ExStart
-//ExSummary: يرجى التحقق من التعليمات البرمجية التالية للعثور على كيفية إنشاء مخطط سطر في مستند Word. يمكنك نسخ هذا الرمز إلى IDE وتشغيله.
-//ExStepSummary:0: يوضح الرمز التالي كيفية إنشاء مستند جديد وإنشاء مستند إنشاء مستند:
-//ExStepSummary:1: يوضح الرمز التالي كيفية إدراج مخطط خطي في المستند:
-//ExStepSummary:2: يوضح الرمز التالي كيفية تعيين عنوان المخطط:
-//ExStepSummary:3: يوضح الرمز التالي كيفية تكوين موضع أسطورة المخطط وإعدادات التراكب:
+//ExSummary: يرجى مراجعة الرمز التالي للعثور على كيفية إنشاء جدول خطوط في مستند Word. يمكنك نسخ هذا الرمز إلى IDE الخاص بك وتشغيله.
+//ExStepSummary:0: يظهر الرمز التالي كيفية إنشاء وثيقة جديدة وتثبيت مُصنع وثائق:
+//ExStepSummary:1: يظهر الرمز التالي كيفية إدراج مخطط الخط في الوثيقة:
+//ExStepSummary:2: يشرح الرمز التالي كيفية تحديد عنوان الرسم البياني:
+//ExStepSummary:3: يظهر الرمز التالي كيفية تكوين وضع أسطورة الرسم البياني وإعدادات التغطية:
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// أنشئ كائن مستند جديد
+// إعداد كائن وثيقة جديد
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// إدراج مخطط خطي في الوثيقة بأبعاد محددة
+// إدراج مخطط خط في الوثيقة في الأبعاد المحددة
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
 
 //ExStep:2-
-// الوصول إلى كائن الرسم البياني من الشكل
+// الوصول إلى جسم الرسم البياني من الشكل
 Chart chart = shape.Chart;
-// تمكين رؤية عنوان المخطط
+// تمكين رؤية عنوان الرسم البياني
 chart.Title.Show = true;
-// اضبط نص العنوان للرسم البياني
+// حدد نص العنوان للجدول
 chart.Title.Text = "Line Chart Title";
-// تأكد من عدم تراكب العنوان على الرسم البياني
+// تأكد من أن العنوان لا يغطى الرسم البياني
 chart.Title.Overlay = false;
 
 //ExStep:3-
-// اضبط موضع أسطورة الرسم البياني على اليسار
+// حدد موقع أسطورة الرسم البياني إلى اليسار
 chart.Legend.Position = LegendPosition.Left;
 chart.Legend.Overlay = true;
 
 //ExStep:4-
-// احفظ المستند مع المخطط إلى ملف
+// حفظ الوثيقة مع الرسم البياني إلى ملف
 doc.Save("WorkingWithCharts.CreateChartUsingShape.docx");
 //ExEnd

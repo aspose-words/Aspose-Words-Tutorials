@@ -1,33 +1,33 @@
 //ExStart
-//ExSummary:Este código demonstra como adicionar um título e descrição a uma tabela em um documento do Word usando Aspose.Words.
-//ExStepSummary:0:Esta etapa inicializa o documento e o carrega de um diretório especificado.
-//ExStepSummary:1:Esta etapa recupera a primeira tabela do documento e define seu título e descrição.
-//ExStepSummary:2:Esta etapa configura as opções de salvamento para o documento com configurações de conformidade especificadas.
-//ExStepSummary:3:Esta etapa otimiza as opções de compatibilidade do documento para o Word 2016.
-//ExStepSummary:4:Esta etapa salva o documento modificado de volta para o diretório especificado.
+//ExSummary: Este código demonstra como adicionar um título e descrição a uma tabela em um documento do Word usando Aspose.Words.
+//ExStepSummary:0:Esta etapa inicializa o documento e carrega-o a partir de um diretório especificado.
+//ExStepSummary:1:Esta etapa permite obter a primeira tabela do documento e definir o seu título e descrição.
+//ExStepSummary:2:Esta etapa configura as opções de armazenamento para o documento com configurações de conformidade especificadas.
+//ExStepSummary:3:Este passo otimiza as opções de compatibilidade para o documento para o Word 2016.
+//ExStepSummary:4:Esta etapa salva o documento modificado de volta ao diretório especificado.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Inicializar documento e carregá-lo a partir do diretório de dados
+// Iniciar o documento e carregá-lo do diretório de dados
 string dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// Recupere a primeira mesa e defina seu título e descrição
+// Retirando a primeira tabela e definindo o seu título e descrição
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 table.Title = "Test title";
 table.Description = "Test description";
 
 //ExStep:2-
-// Configurar opções de salvamento para o documento
+// Configurar opções de armazenamento para o documento
 OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 //ExStep:3-
-// Otimize as opções de compatibilidade para o Word 2016
+// Optimize as opções de compatibilidade para o Word 2016
 doc.CompatibilityOptions.OptimizeFor(Aspose.Words.Settings.MsWordVersion.Word2016);
 
 //ExStep:4-
-// Salve o documento modificado de volta para o diretório especificado
+// Salvar o documento modificado de volta ao diretório especificado
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.TableTitleAndDescription.docx", options);
 //ExEnd

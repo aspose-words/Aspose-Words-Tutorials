@@ -1,11 +1,11 @@
 //ExStart
-//ExSummaryيوضح هذا الرمز كيفية إدراج صورة مضمنة في مستند Word باستخدام Apose.Words.
-//ExStepSummary:0: تهيئة كائن المستند وDocumentBuilder لإنشاء المستند.
-//ExStepSummary:1: إدراج صورة في المستند في موضع المؤشر الحالي باستخدام DocumentBuilder.
-//ExStepSummary:2: حفظ المستند إلى اسم ملف محدد.
+//ExSummary: هذا الرمز يظهر كيفية إدخال صورة داخل الصفحة في مستند كلمات باستخدام Aspose.Words.
+//ExStepSummary:0: إعادة تشكيل جسم الوثيقة ومصنع الوثيقة لبناء الوثيقة.
+//ExStepSummary:1: إدراج صورة في الوثيقة في وضع السيطرة الحالي مع DocumentBuilder.
+//ExStepSummary:2: حفظ الوثيقة إلى اسم ملف محدد.
 //ExStepImage:1:images/1.png
 //ExStep:0-
-// تهيئة مستند وDocumentBuilder جديد
+// إعداد وثيقة جديدة ومصنع وثائق
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -14,6 +14,6 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertImage(ImagesDir + "Transparent background logo.png");
 
 //ExStep:2-
-// احفظ المستند المعدل في ملف
+// حفظ الوثيقة المعدلة في ملف
 doc.Save("AddContentUsingDocumentBuilder.InsertInlineImage.docx");
 //ExEnd

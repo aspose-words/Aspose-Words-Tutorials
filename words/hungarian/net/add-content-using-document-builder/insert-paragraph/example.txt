@@ -1,44 +1,44 @@
 //ExStart
-//ExSummary: Ez a kód azt mutatja be, hogyan lehet Word dokumentumot létrehozni a DocumentBuilder osztály segítségével, és beilleszteni egy stílusolt bekezdést.
-//ExStepSummary:0: A következő kód egy Dokumentumot és egy Dokumentumépítőt inicializál a dokumentum létrehozásához.
-//ExStepSummary:1: A következő kód konfigurálja a bekezdés betűtípus-beállításait.
-//ExStepSummary:2: A következő kód határozza meg a bekezdésformátum beállításait az igazításhoz és a behúzáshoz.
-//ExStepSummary:3: A következő kód egy bekezdést ír a dokumentumba.
-//ExStepSummary:4: Az alábbi kód .docx fájlként menti a dokumentumot.
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni a Word dokumentumot a DocumentBuilder osztály segítségével, és beilleszteni egy stílusú bekezdésbe.
+//ExStepSummary:0: A következő kód egy dokumentumot és egy dokumentumépítőt indít létre dokumentum létrehozásához.
+//ExStepSummary:1: A következő kód konfigurálja a bekezdés font beállításait.
+//ExStepSummary:2: A következő kód meghatározza a páratformátum beállítását a kiigazítás és a bevonás tekintetében.
+//ExStepSummary:3: A következő kód a dokumentumban egy bekezdéset ír.
+//ExStepSummary:4: A következő kód .docx fájlként mentheti meg a dokumentumot.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Új dokumentumobjektum inicializálása
+// Indítsa be az új Dokumentum objektumot
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// A DocumentBuilder betűtípus-beállításainak elérése
+// A DocumentBuilder betűállításaihoz hozzáférés
 Font font = builder.Font;
-// A betűméret beállítása 16
+// A betűméret 16
 font.Size = 16;
-// Legyen a betűtípus félkövér
+// Tömeges fontot
 font.Bold = true;
-// A betűszín beállítása kékre
+// Állítsa be a betűszínt kékre
 font.Color = Color.Blue;
-// A betűtípus nevének beállítása Arialra
+// A betű neve Arial
 font.Name = "Arial";
-// Dashed aláhúzás hozzáadása a betűtípushoz
+// Tedd hozzá egy vonal aláhúzott fontot
 font.Underline = Underline.Dash;
 
 //ExStep:2-
-// A bekezdésformátum beállításainak elérése
+// A bekezdés formátum beállításaihoz
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.FirstLineIndent = 8;
 paragraphFormat.Alignment = ParagraphAlignment.Justify;
 paragraphFormat.KeepTogether = true;
 
 //ExStep:3-
-// Írjon be egy bekezdést a dokumentumba
+// Írja be a szöveg egy bekezdését a dokumentumba
 builder.Writeln("A whole paragraph.");
 
 //ExStep:4-
-// A dokumentum mentése .docx fájlként
+// Takarítsa meg a dokumentumot .docx fájlokként
 doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
 //ExEnd

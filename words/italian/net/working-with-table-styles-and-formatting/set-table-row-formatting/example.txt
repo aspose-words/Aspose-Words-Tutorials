@@ -1,10 +1,10 @@
 //ExStart
-//ExSummary: Questo codice dimostra come creare un documento Word con una tabella formattata utilizzando Aspose.
-//ExStepSummary:0: Questo passaggio inizializza un nuovo documento e il costruttore di documenti.
-//ExStepSummary:1: Questo passo inizia la tabella e inserisce una cella in esso.
-//ExStepSummary:2: Questo passaggio imposta la formattazione per la riga, compresa la regola altezza e altezza.
-//ExStepSummary:3: Questo passaggio imposta l'imbottitura per l'intera tabella, influenzando tutte le righe.
-//ExStepSummary:4: Questo passaggio aggiunge testo alla cella e termina la riga.
+//ExSummary: Questo codice mostra come creare un documento Word con una tabella formattata utilizzando Aspose.
+//ExStepSummary:0: Questo passo inizia un nuovo documento e il costruttore di documenti.
+//ExStepSummary:1: Questo passo inizia la tabella e inserisce una cella in essa.
+//ExStepSummary:2: Questo passo imposta il formato della riga, compresa la regola di altezza e altezza.
+//ExStepSummary:3: Questo passo imposta il riempimento dell'intero tavolo, influenzando tutte le righe.
+//ExStepSummary:4: Questo passo aggiunge testo alla cella e termina la riga.
 //ExStepSummary:5: Questo passaggio termina la tabella e salva il documento in un percorso specificato.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
@@ -12,40 +12,40 @@
 //ExStepImage:4:images/4.png
 
 //ExStep:0-
-// Crea una nuova istanza di documento
+// Crea un nuovo documento
 Document doc = new Document();
-// Inizializza documentoCostruisci con il documento
+// Inizia DocumentBuilder con il documento
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Avvia una nuova tabella
+// Inizia un nuovo tavolo
 Table table = builder.StartTable();
-// Inserisci la prima cella nella tabella
+// Inserire la prima cella nella tabella
 builder.InsertCell();
 
 //ExStep:2-
-// Accesso alla proprietà RowFormat del costruttore
+// Accedere alla proprietà RowFormat del costruttore
 RowFormat rowFormat = builder.RowFormat;
-// Imposta l'altezza della riga
+// Impostare l'altezza della riga
 rowFormat.Height = 100;
-// Imposta la regola dell'altezza a esattamente
+// Impostare la regola di altezza a esattamente
 rowFormat.HeightRule = HeightRule.Exactly;
 
 //ExStep:3-
-// Imbottitura set per il tavolo
+// Impostazione di rivestimenti per il tavolo
 table.LeftPadding = 30;
 table.RightPadding = 30;
 table.TopPadding = 30;
 table.BottomPadding = 30;
 
 //ExStep:4-
-// Aggiungi testo alla cella corrente
+// Aggiungere testo alla cella corrente
 builder.Writeln("I'm a wonderful formatted row.");
-// Termina la riga corrente
+// Finire la riga corrente
 builder.EndRow();
 builder.EndTable();
 
 //ExStep:5-
-// Salva il documento nel percorso specificato
+// Salvare il documento nel percorso specificato
 doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableRowFormatting.docx");
 //ExEnd

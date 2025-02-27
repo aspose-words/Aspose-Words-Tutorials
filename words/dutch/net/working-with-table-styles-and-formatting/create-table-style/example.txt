@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary: Deze code laat zien hoe je een Word-document maakt met een gestyleerde tabel met behulp van Aspose.Words. 
-//ExStepSummary:0: Initialiseer een nieuw Document en DocumentBuilder.
-//ExStepSummary:1: Start een nieuwe tabel en plaats header cellen voor "Name" en "Value."
-//ExStepSummary:2: Maak een aangepaste TableStyle met specifieke rand- en padding-instellingen.
-//ExStepSummary:3: Het document opslaan met de nieuwe tabelstijl toegepast.
+//ExSummaryDeze code toont hoe u een Word-document met een stijltabel kunt maken met behulp van Aspose.Words. 
+//ExStepSummary:0: Initieel een nieuw Document en DocumentBuilder.
+//ExStepSummary:1: Start een nieuwe tabel en voeg hoofdcellen in voor "Name" en "Wert".
+//ExStepSummary:2: Maak een aangepaste TableStyle met specifieke grenzen- en vullingsinstellingen.
+//ExStepSummary:3: Bewaar het document met de nieuwe tabelstijl die wordt toegepast.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Een nieuw document-object aanmaken
+// Een nieuw Document object maken
 Document doc = new Document();
-// Initialiseer de DocumentBuilder om het document te bouwen
+// Initieel het document bouwen
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Een nieuwe tabel starten
+// Start een nieuwe tafel
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Name");
@@ -25,20 +25,20 @@ builder.InsertCell();
 builder.EndTable();
 
 //ExStep:2-
-// Een nieuwe tabelstijl aanmaken
+// Creëer een nieuwe tafelstijl
 TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Borders.LineStyle = LineStyle.Double;
-// Randbreedte instellen
+// Stel de grensbreedte in
 tableStyle.Borders.LineWidth = 1;
-// Opvulling instellen
+// Stel de vulling op
 tableStyle.LeftPadding = 18;
 tableStyle.RightPadding = 18;
 tableStyle.TopPadding = 12;
 tableStyle.BottomPadding = 12;
-// Pas de aangepaste tabelstijl toe op de aangemaakte tabel
+// Toepassen van de aangepaste tabelstijl op de gecreëerde tabel
 table.Style = tableStyle;
 
 //ExStep:3-
-// Het document opslaan met de gestileerde tabel
+// Het document bewaren met de stijltabel
 doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
 //ExEnd

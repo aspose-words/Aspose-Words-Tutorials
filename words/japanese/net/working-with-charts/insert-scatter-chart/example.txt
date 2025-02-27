@@ -1,28 +1,28 @@
 //ExStart
-//ExSummary: このコードは、Asfo.words を使って、Word ドキュメントを作成する方法を示します。このコードは、ドキュメントを初期化し、コンテンツを作成し、散布図を挿入し、データを追加し、ドキュメントを保存します。
-//ExStepSummary:0: ドキュメントおよびドキュメントビルダーオブジェクトを初期化し、ドキュメントの作業を開始します。
-//ExStepSummary:1: 散布図をドキュメントに挿入します。
-//ExStepSummary:2: 散布図に一連のデータポイントを追加します。
-//ExStepSummary:3: 散布図で文書を .docx ファイルに保存します。
+//ExSummary: このコードはAspose.Wordsを使用して散布表でWord文書を作成する方法を示します. 文書を初期化し,コンテンツを作成し,散布表を挿入し,データを追加し,文書を保存します.
+//ExStepSummary:0: 文書の初期化とドキュメントビルダーが文書の作業を開始する.
+//ExStepSummary:1: 文書に散布図を挿入する.
+//ExStepSummary:2: 分散図に一連のデータポイントを追加する
+//ExStepSummary:3: 散布チャートを .docx ファイルに保存する.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// 新しい文書を初期化
+// 新しい文書を初期化する
 Document doc = new Document();
-// コンテンツを挿入するビルドを作成
+// コンテンツを挿入するビルダーを作成する
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 散布図をドキュメントに挿入
+// 文書に散布図を挿入する
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252); 
 
 //ExStep:2-
-// 挿入したシェイプからグラフオブジェクトを取得します
+// 挿入した形から図のオブジェクトを取得
 Chart chart = shape.Chart;
-// グラフに連続データを追加
+// 図にシリーズデータを追加する
 chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 });
 
 //ExStep:3-
-// 散布図でドキュメントを保存します
+// 文書を分散図で保存する
 doc.Save("WorkingWithCharts.InsertScatterChart.docx");
 //ExEnd

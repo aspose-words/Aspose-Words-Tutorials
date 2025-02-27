@@ -1,16 +1,16 @@
 //ExStart
-//ExSummary: Dieser Code zeigt, wie man ein Word-Dokument mit einem Inhaltsverzeichnis mit DocumentBuilder erstellt. Er enthält Überschriften verschiedener Ebenen und speichert das Dokument als .docx-Datei.
+//ExSummaryDieser Code zeigt, wie man ein Word-Dokument mit einer Inhaltstabelle mit Hilfe von DocumentBuilder erstellt. Es enthält Überschriften verschiedener Ebenen und speichert das Dokument als .docx-Datei.
 //ExStepSummary:0: Dieser Schritt initialisiert ein neues Dokumentobjekt.
-//ExStepSummary:1: Dieser Schritt erzeugt ein DocumentBuilder-Objekt für die Dokumentmanipulation.
-//ExStepSummary:2: Dieser Schritt fügt das Inhaltsverzeichnis am Anfang des Dokuments ein.
-//ExStepSummary:3: Dieser Schritt führt eine Seitenunterbrechung ein, um den eigentlichen Inhalt auf einer neuen Seite zu starten.
-//ExStepSummary:4: Dieser Schritt setzt die erste Überschrift und schreibt "Heading 1" auf das Dokument.
-//ExStepSummary:5: Dieser Schritt setzt die zweite Überschrift und schreibt "Heading 1.1" und "Heading 1.2".
-//ExStepSummary:6: Dieser Schritt setzt wieder die erste Überschrift und schreibt "Heading 2" und "Heading 3".
-//ExStepSummary:7: Dieser Schritt setzt die zweite Überschrift und schreibt "Heading 3.1".
-//ExStepSummary:8: Dieser Schritt setzt die dritte Überschrift und schreibt die Unterpositionen "Position 3.1.1", "Position 3.1.2" und "Position 3.1.3".
-//ExStepSummary:9: Dieser Schritt setzt die zweite Überschrift noch einmal und schreibt "Heading 3.2" und "Heading 3.3".
-//ExStepSummary:10: Schließlich aktualisiert dieser Schritt die Felder im Dokument und speichert es als .docx-Datei.
+//ExStepSummary:1: Dieser Schritt erstellt ein DocumentBuilder-Objekt für die Dokumentmanipulation.
+//ExStepSummary:2: In diesem Schritt wird die Inhaltsliste zu Beginn des Dokuments eingefügt.
+//ExStepSummary:3: Dieser Schritt führt einen Seitenpause ein, um den tatsächlichen Inhalt auf einer neuen Seite zu starten.
+//ExStepSummary:4: In diesem Schritt wird die erste Überschrift festgelegt und "Überschrift 1" auf das Dokument geschrieben.
+//ExStepSummary:5: Dieser Schritt setzt die zweite Rubrikstufe und schreibt "Richtlinie 1.1" und "Richtlinie 1.2".
+//ExStepSummary:6: Dieser Schritt setzt erneut die erste Rubriksebene und schreibt "Richtlinie 2" und "Richtlinie 3".
+//ExStepSummary:7: Dieser Schritt setzt die zweite Rubrikstufe und schreibt "Richtlinie 3.1".
+//ExStepSummary:8: In diesem Schritt wird die dritte Position festgelegt und die Unterpositionen "Position 3.1.1", "Position 3.1.2" und "Position 3.1.3" eingeschrieben.
+//ExStepSummary:9: Dieser Schritt setzt die zweite Rubrik noch einmal auf und schreibt "Richtlinie 3.2" und "Richtlinie 3.3".
+//ExStepSummary:10: Schließlich aktualisiert dieser Schritt die Felder im Dokument und speichert sie als .docx-Datei.
 //ExStepImage:3:images/1.png
 //ExStepImage:4:images/2.png
 //ExStepImage:5:images/3.png
@@ -20,59 +20,59 @@
 //ExStepImage:9:images/7.png
 
 //ExStep:0-
-// Eine neue Dokument-Instanz erstellen
+// Erstellen Sie eine neue Dokumentinstance
 Document doc = new Document();
 
 //ExStep:1-
-// DocumentBuilder für Dokumentmanipulation initialisieren
+// Initialisieren Sie DocumentBuilder für die Dokumentmanipulation
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:2-
-// Einfügen eines Inhaltsverzeichnisses mit spezifizierten Optionen
+// Einfügen Sie eine Inhaltstabelle mit angegebenen Optionen
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
 //ExStep:3-
-// Einfügen einer Seitenunterbrechung, um Inhalte auf einer neuen Seite zu starten
+// Fügen Sie eine Seitenpause ein , um Inhalte auf einer neuen Seite zu starten
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:4-
-// Stil auf Überschrift 1 setzen
+// Stil auf Rubrik 1
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
 //ExStep:5-
-// Stil auf Rubrik 2 setzen
+// Stil auf Rubrik 2
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 1.1");
 builder.Writeln("Heading 1.2");
 
 //ExStep:6-
-// Stil zurücksetzen auf Überschrift 1
+// Stil wieder auf Rubrik 1
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 2");
 builder.Writeln("Heading 3");
 
 //ExStep:7-
-// Stil auf Rubrik 2 setzen
+// Stil auf Rubrik 2
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.1");
 
 //ExStep:8-
-// Stil auf Überschrift 3 setzen
+// Stil auf Rubrik 3
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
 builder.Writeln("Heading 3.1.1");
 builder.Writeln("Heading 3.1.2");
 builder.Writeln("Heading 3.1.3");
 
 //ExStep:9-
-// Stil zurück zu Rubrik 2 setzen
+// Stil wieder auf Rubrik 2
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
 //ExStep:10-
-// Alle Felder im Dokument aktualisieren
+// Aktualisieren Sie alle Felder im Dokument
 doc.UpdateFields();
-// Dokument speichern
+// Speichern Sie das Dokument
 doc.Save("AddContentUsingDocumentBuilder.InsertTableOfContents.docx");
 //ExEnd

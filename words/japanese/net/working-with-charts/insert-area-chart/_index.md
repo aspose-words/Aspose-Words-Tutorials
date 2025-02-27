@@ -1,8 +1,8 @@
 ---
-title: ワード文書のエリアチャート %1 Asfof. NET 用の用語を挿入
+title: Word ドキュメントにエリアチャートを挿入する.
 weight: 7700
 limit: 
-description: Asfof.words.NET を使ってエリアチャートを単語ドキュメントに挿入する方法を学びます。コードの例とビジュアルを使って、ステップごとに指示に従ってください。
+description: .NET の Aspose.Words を使用して Word ドキュメントにエリアチャートを挿入する方法について学びましょう. コード例やビジュアルでステップバイト指示に従ってください.
 keywords: [Aspose.Words for .NET, insert area chart, Word document chart, area chart example, C# Word chart tutorial, Aspose.Words charting, Word chart example]
 url: /ja/net/working-with-charts/insert-area-chart/
 ---
@@ -10,42 +10,42 @@ url: /ja/net/working-with-charts/insert-area-chart/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ワードドキュメントにエリアグラフを挿入 
+# Word ドキュメントにエリアチャートを挿入する 
 
-アクセシビリティ.NET は、動的かつ視覚的に魅力的なグラフをワードドキュメントに追加します。このチュートリアルは、単語ドキュメントに領域グラフをどのように挿入するかを示します。提供のステップガイドには、ドキュメントの初期化、領域グラフの追加、カスタムデータポイントの追加、最終ドキュメントの保存などが含まれています。文書のリファクタリング機能を強化しようとする開発者に適しています。
+.NET の Aspose.Words は,Word 文書に動的で視覚的に魅力的なチャートを追加することを簡単にする.このチュートリアルでは,Word 文書にエリアチャートをプログラム的に挿入する方法を示します.提供されたステップ・バイ・ステップガイドには,ドキュメントを初期化し,エリアチャートを挿入し,カスタムデータポイントを持つデータシリーズを追加し,最終文書を保存します.チャート機能でドキュメント自動化ワークフローを向上させたい開発者にとって最適です.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/bounds-of-axis" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## インストールインジケータ  
+## 設置指示  
 
-この例に従うには Asfofo.wordsがインストールされていることを確認してください。開始する方法は次のとおりです。  
+インストールされていることを確認してください.NETのAspose.Wordsです.  
 
-1. ダウンロード Asfoint. ^ a b c d e f g h i f g h i ". NET: a b c d e f g h i ".  
-   訪問[Asfof. Words ダウンロードページ](https://releases.aspose.com/words/net/)を選択して、最新バージョンをダウンロードします。  
+1. .NET のためのAspose.Wordsをダウンロードする  
+   訪問する[Aspose.Wordsダウンロードページ](https://releases.aspose.com/words/net/)ダウンロードする  
 
-2. NuGet パッケージマネージャをインストール:  
-   プロジェクトをビジュアル映像化して、パッケージマネージャ コンソールで以下のコマンドを実行します。  
+2. NuGet パッケージ管理者によるインストール:  
+   Visual Studio でプロジェクトを開いて,パッケージ管理者コンソールで次のコマンドを実行します.  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-3. ライセンスを適用する (オプション):  
-   評価制限なしの完全機能については,免許を申請する.[ここ](https://purchase.aspose.com/buy)または[フリーの一時ライセンス](https://purchase.aspose.com/temporary- license))をいう.  
+3. ライセンス申請 (オプション):  
+   評価制限のない完全な機能のために,ライセンスを取得してください.ライセンスを購入してください.[やってみよう](https://purchase.aspose.com/buy)申請する[免許 臨時許可](https://purchase.aspose.com/temporary-license)やってくれ  
 
-4. 名前空間参照を追加:  
-   プロジェクトに次の名前空間が含まれていることを確認:  
+4. 名前空間参照を追加する  
+   プロジェクトには以下の名前空間が含まれていることを確認してください.  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    using Aspose.Words.Drawing.Charts;
    ```  
 
-## また、参照してください。
-[Asforce. NET ドキュメンテーション用用語](https://docs.aspose.com/words/net/)
-[access. ^ a b c d e f g h i ". NET インフォメーション".](https://reference.aspose.com/words/net/)
+## また見てください
+[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
+[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

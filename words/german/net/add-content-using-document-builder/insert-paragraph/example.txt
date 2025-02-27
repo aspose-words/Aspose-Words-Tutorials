@@ -1,44 +1,44 @@
 //ExStart
-//ExSummary: Dieser Code zeigt, wie man ein Word-Dokument mit der DocumentBuilder-Klasse erstellt und einen stilisierten Absatz darin eingefügt.
-//ExStepSummary:0: Der folgende Code initialisiert ein Dokument und einen DocumentBuilder für die Dokumenterstellung.
-//ExStepSummary:1: Der folgende Code konfiguriert die Schrifteinstellungen für den Absatz.
-//ExStepSummary:2: Der folgende Code legt die Absatzformateinstellungen für Ausrichtung und Einrückung fest.
+//ExSummary: Dieser Code zeigt, wie man ein Word-Dokument mit der Dokumentbauklasse erstellt und einen gestylten Absatz in ihn einfügt.
+//ExStepSummary:0: Der folgende Code initialisiert ein Dokument und einen Dokumentbauer für die Dokumenterstellung.
+//ExStepSummary:1: Der folgende Code konfiguriert die Schriftinstellungen für den Absatz.
+//ExStepSummary:2: Der folgende Code legt die Einstellungen für Absätze für Ausrichtung und Einziehung fest.
 //ExStepSummary:3: Der folgende Code schreibt einen Absatz in das Dokument.
 //ExStepSummary:4: Der folgende Code speichert das Dokument als .docx-Datei.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Initialisieren eines neuen Dokumentobjekts
+// Ein neues Dokumentobjekt initialisieren
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Zugriff auf die Schrifteinstellungen des DocumentBuilders
+// Zugriff auf die Schriftinstellungen des DocumentBuilder
 Font font = builder.Font;
 // Setzen Sie die Schriftgröße auf 16
 font.Size = 16;
-// Die Schriftart fett machen
+// Schriftzeichen in Fettform
 font.Bold = true;
 // Setzen Sie die Schriftfarbe auf blau
 font.Color = Color.Blue;
 // Setzen Sie den Schriftnamen auf Arial
 font.Name = "Arial";
-// Fügen Sie der Schriftart eine gestrichelte Unterstreichung hinzu
+// Fügen Sie eine gestrichelte Unterzeichnung zur Schrift hinzu
 font.Underline = Underline.Dash;
 
 //ExStep:2-
-// Zugriff auf die Absatzformateinstellungen
+// Zugriff auf die Einstellungen zum Absätzeformat
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.FirstLineIndent = 8;
 paragraphFormat.Alignment = ParagraphAlignment.Justify;
 paragraphFormat.KeepTogether = true;
 
 //ExStep:3-
-// Schreiben Sie einen Textabschnitt in das Dokument
+// Schreiben Sie einen Textparagraph in das Dokument
 builder.Writeln("A whole paragraph.");
 
 //ExStep:4-
-// Dokument als .docx-Datei speichern
+// Speichern Sie das Dokument als .docx-Datei
 doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
 //ExEnd

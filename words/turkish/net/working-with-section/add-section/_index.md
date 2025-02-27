@@ -1,8 +1,8 @@
 ---
-title: Word Belgesine Yeni Bir Bölüm Ekle Aspose.Words for .NET
+title: Word Belgesine Yeni Bir Bölüm Ekle .NET için Aspose.Words
 weight: 7700
 limit: 
-description: .NET için Aspose.Words kullanarak bir Word belgesine yeni bir bölüm nasıl ekleyeceğinizi öğrenin. Word otomasyon görevlerinizi kolaylaştırmak için kod örneği ile adım adım kılavuz.
+description: Word belgesine yeni bir bölüm eklemeyi öğrenin .NET için Aspose.Words kullanarak. Word otomasyon görevlerinizi kolaylaştırmak için kod örneği ile adım adım rehber.
 keywords: [Aspose.Words for .NET, add section to Word document, .NET Word automation, create new section, Word document manipulation, Aspose.Words tutorial, .NET examples]
 url: /tr/net/working-with-section/add-section/
 ---
@@ -12,38 +12,38 @@ url: /tr/net/working-with-section/add-section/
 
 # Word Belgesine Yeni Bir Bölüm Ekle
 
-Aspose.Words for .NET, karmaşık belge yapılarını işlemek için güçlü API'ler sağlayarak Word belgeleriyle çalışmayı zahmetsiz hale getirir. Bu öğretici, bir Word belgesine programatik olarak yeni bir bölüm ekleyerek size rehberlik eder.`Belge`ve`DocumentBuilder`sınıflar, bir belgeyi başlatmayı, metin eklemeyi ve yeni bir bölüm eklemeyi öğreneceksiniz. Word belge üretimini ve manipülasyonunu hassas bir şekilde otomatikleştirmek isteyen geliştiriciler için mükemmeldir.  
+Word belgelerinin çalışmasını kolaylaştırır. Bu eğitim, karmaşık belge yapıları ile başa çıkmak için güçlü API'ler sağlayarak.`Belge`ve `DocumentBuilder`Bu programlar, Word'un bir belgesini oluşturmayı ve manipülasyonunu doğru bir şekilde otomatikleştirmek isteyen geliştiriciler için mükemmel.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-section/add-section" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Aspose.Words için Kurulum Talimatları .NET için  
+## .NET için Aspose.Words için kurulum talimatları  
 
-1. .NET için Aspose.Words İndir:  
-   Ziyaret edin[.NET indirme sayfası için Aspose.Words](https://releases.aspose.com/words/net/)En son versiyonu almak için.
+1. .NET için Aspose.Words indir:  
+   Ziyaret edin .[.NET indirme sayfası için Aspose.Words](https://releases.aspose.com/words/net/)En son versiyonu almak için.
 
-2. NuGet üzerinden yükleyin:  
+2. NuGet üzerinden yükle:  
    * Visual Studio projenizi açın.  
-   * Araçlara Git > NuGet Paket Yöneticisi > Çözüm için NuGet Paketlerini Yönet.  
-   * Ara`Aspose.Words`NuGet Paket Yöneticisi.  
-   * Paketi seçin ve Install'ı tıklayın.  
+   * Araçlara > NuGet Paket Yöneticisi > Çözüm için NuGet Paketleri Yönetin.  
+   * Arama`"Sözler. Sözler"`NuGet Paket Yöneticisi' nde.  
+   * Paketi seçin ve Kurulum düğmesine tıklayın.  
 
-3. Referansı Elle Ekle (İsteğe Bağlı):  
-   * DLL'yi DLL'den indirin[Sürümleri kabul et sayfası](https://releases.aspose.com/).  
-   * Ekle`Varsayım.Words.dll`Çözüm Gezgini'ndeki Referanslar'a sağ tıklayarak ve Referans Ekle'yi seçerek projenize dosyalayın.  
+3. İpucu Ekle (Önlü):  
+   * DLL'i [Aspose yayımlama sayfası](https://releases.aspose.com/)\- Evet .  
+   * Ekle `"Sözler. Sözler".`Solution Explorer'daki Referansları sağ tıklayarak ve Referans Ekle seçerek projeye dosya gönderin.  
 
-4. Lisansı Etkinleştirin (İsteğe Bağlı):  
-   Lisansınız varsa, tam işlevselliğin kilidini açmak için uygulayın:  
+4. Lisansı etkinleştir (Önemli):  
+   Eğer bir lisansınız varsa, tüm işlevselliği açmak için uygulayın:  
    ```csharp
    Aspose.Words.License license = new Aspose.Words.License();
    license.SetLicense("path_to_your_license.lic");
    ```  
 
-## Ayrıca Bakınız
-[.NET Dokümantasyonu için Aspose.Word](https://docs.aspose.com/words/net/)
-[.NET Referansları için Aspose.Word](https://reference.aspose.com/words/net/)
+## Ayrıca bakın
+[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

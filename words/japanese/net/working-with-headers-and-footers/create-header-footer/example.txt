@@ -1,27 +1,27 @@
 //ExStart
-//ExSummary: このコードは、Asfo.words を使って主なヘッダーとフッターを使ってワード文書を作成する方法を示します。新しい文書を初期化し、ヘッダーとフッターのセクションに移動し、カスタムテキストを作成します。最後に、ドキュメントを DOCX ファイルとして保存します。
-//ExStepSummary:0: 以下のコードは、メインドキュメントオブジェクトを初期化し、ドキュメントビルダーを設定します。
-//ExStepSummary:1: 以下のコードは,主ヘッダセクションに移動し,ヘッダーテキストを書いてください.
-//ExStepSummary:2: 以下のコードは、主なフッタセクションに移動し、フッタテキストを書き込みます。
-//ExStepSummary:3: 以下のコードは、ドキュメントを指定したファイルパスに保存します。
+//ExSummary: このコードはAspose.Wordsを使用して,主要なヘッダーとフーダーでWord文書を作成する方法を示します.新しいドキュメントを初期化し,ヘッダーとフーダーセクションに移り,カスタムテキストを書きます.最後に,ドキュメントをDOCXファイルとして保存します.
+//ExStepSummary:0: 次のコードは,主文書オブジェクトを初期化して,ドキュメントビルダーを設定します.
+//ExStepSummary:1: 次のコードは,主要なヘッダセクションに移動し,ヘッダテキストを書きます.
+//ExStepSummary:2: 次のコードは,主要な足跡部分に移り,足跡テキストを書きます.
+//ExStepSummary:3: 次のコードは,文書を指定されたファイルパスに保存します.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// 新しい文書オブジェクトを初期化
+// 新しいドキュメントオブジェクトを初期化する
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// プライマリヘッダセクションに移動
+// 首標の部分へ移動
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Write("Header for page.");
 
 //ExStep:2-
-// プライマリのフッタセクションに移動
+// 基本足の部分へ移動
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("Footer for page."); // Write the footer text
 
 //ExStep:3-
-// ドキュメントを指定したファイル名で保存
+// 指定されたファイル名で文書を保存する
 doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
 //ExEnd

@@ -1,8 +1,8 @@
 ---
-title: Inserir gráfico de coluna no Word usando aspose.Words for .NET
+title: Insira o gráfico de coluna no Word usando Aspose.Words para .NET
 weight: 7700
 limit: 
-description: Aprenda a inserir um gráfico de colunas em um documento do Word usando o Aspose.Words for .NET. Guia passo a passo com código, criando gráficos e salvando seu documento.
+description: Aprenda a insertar um gráfico de coluna em um documento do Word usando Aspose.Words para .NET. Guia passo a passo com código, criando gráficos e salvando seu documento.
 keywords: [Aspose.Words for .NET, insert column chart, Word document, .NET charts, Aspose chart example, document builder, chart insertion tutorial]
 url: /pt/net/working-with-charts/insert-column-chart/
 ---
@@ -10,9 +10,9 @@ url: /pt/net/working-with-charts/insert-column-chart/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Inserir gráfico de coluna no Word usando aspose.Words
+# Insira o gráfico de coluna em Word usando Aspose.Words
 
-Aspose.Words for .NET torna incrivelmente fácil criar e manipular documentos do Word de forma programática. Este exemplo demonstra como inserir um gráfico de coluna em um documento do Word com apenas algumas linhas de código. Usando a poderosa API, você pode adicionar gráficos, definir categorias e valores e salvar o documento no formato desejado. Siga este guia para ver como é simples gerar gráficos profissionais diretamente de seus aplicativos .NET.
+Aspose.Words para .NET torna incrivelmente fácil criar e manipular documentos do Word programaticamente. Este exemplo demonstra como inserir um gráfico de coluna em um documento do Word com apenas algumas linhas de código. Usando a poderosa API, você pode adicionar gráficos, definir categorias e valores e salvar o documento no formato desejado. Siga este guia para ver como é simples gerar gráficos profissionais diretamente a partir de seus aplicativos .NET.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-column-chart" >}}
@@ -21,28 +21,28 @@ Aspose.Words for .NET torna incrivelmente fácil criar e manipular documentos do
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instruções de instalação  
 
-1. Baixar Aspose.Words for .NET  
-   * Visitar o[Página de download do Aspose.Words for .NET](https://releases.aspose.com/words/net/)e baixe a versão mais recente.  
+1. Descarregue Aspose.Words para .NET  
+   * Visite o[Aspose.Words para página de download .NET](https://releases.aspose.com/words/net/)e baixar a versão mais recente.  
 
-2. Instale a Biblioteca  
-   * Use o NuGet Package Manager no Visual Studio para instalar o Aspose.Words for .NET:  
+2. Instalar a Biblioteca  
+   * Use o NuGet Package Manager no Visual Studio para instalar Aspose.Words para .NET:  
      ```
      Install-Package Aspose.Words
      ```
 
-3. Incluir o Namespace  
-   * Adicione o namespace necessário ao seu projeto:  
+3. Incluir o espaço de nomes  
+   * Adicionar o espaço de nomes necessário ao seu projeto:  
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Drawing;
      ```
 
-4. Configurar uma avaliação gratuita ou licença  
-   * Comece com a[Teste grátis](https://releases.aspose.com/)ou solicitar a[Licença temporária](https://purchase.aspose.com/temporary-license/)para desbloquear todas as capacidades da biblioteca.
+4. Configure um teste gratuito ou uma licença  
+   * Comece com um[A prova gratuita](https://releases.aspose.com/)ou solicitar um[licença temporária](https://purchase.aspose.com/temporary-license/)Para desbloquear todas as capacidades da biblioteca.
 
-## Ver também
-[Aspose.Word for .NET Documentação](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referências](https://reference.aspose.com/words/net/)
+## Veja também
+[Aspose.Word para Documentação .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word para Referências .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

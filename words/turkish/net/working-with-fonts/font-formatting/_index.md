@@ -1,8 +1,8 @@
 ---
-title: .NET için Aspose.Words kullanarak Word'de Yazı Tipi Biçimlendirme Oluşturun
+title: .NET için Aspose.Words kullanarak Word'de yazı tipi biçimlendirme oluşturun
 weight: 7700
 limit: 
-description: Aspose.Words kullanarak .NET'te özelleştirilmiş yazı tipi biçimlendirmesi olan bir Word belgesinin nasıl oluşturulacağını öğrenin. Kolay adım adım örnek dahil.
+description: .NET'de Aspose.Words kullanarak özel yazı tipi biçimlendirme ile bir Word belgesini nasıl oluşturulacağını öğrenin.
 keywords: [Aspose.Words, .NET, Word document, font formatting, programming example, DocumentBuilder, font properties]
 url: /tr/net/working-with-fonts/font-formatting/
 ---
@@ -10,29 +10,29 @@ url: /tr/net/working-with-fonts/font-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words kullanarak Word'de Yazı Tipi Biçimlendirmesi Oluşturun
+# Aspose.Words kullanarak Word'de yazı tipi biçimlendirme oluşturun
 
-Bu kılavuz, Aspose.Words for .NET'i kullanarak bir Word belgesi oluşturma ve biçimlendirmenin basit bir örneğini sunar. Boyut, stil ve renk gibi yazı tipi özelliklerini özelleştirmeyi ve ardından belgeye metin yazmayı öğreneceksiniz. Adım adım talimatlar, hem yeni başlayanlar hem de deneyimli geliştiricilerin Aspose.Words'u uygulamalarına dahil etmelerini kolaylaştırır.
+Bu rehber .NET için Aspose.Words kullanarak bir Word belgesini oluşturmanın ve biçimlendirmeyin basit bir örneğini sunar. Boyut, stil ve renk gibi yazı tipi özelliklerini özelleştirmeyi öğreneceksiniz ve ardından belgeye metin yazacaksınız.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-fonts/font-formatting" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum Talimatları 
-1. Önkoşullar: Makinenize .NET yüklediğinizden emin olun.
-2. Aspose.Words'u yükleyin: 
-   * Visual Studio'da NuGet Paket Yöneticisi'ni kullanın:
+## Kurulum talimatları 
+1. Ön koşullar: Makinenizde .NET'in kurulduğunuza emin olun.
+2. Aspose.Words yükle: 
+   * Visual Studio' da NuGet Paket Yöneticisi kullanın:
      ```
      Install-Package Aspose.Words
      ```
-   * Veya doğrudan DLL'yi indir[Web sitesi kabul et](https://www.aspose.com).
-3. Lisans Uygula (İsteğe Bağlı):  
-   Tam versiyonu kullanmak için,[bir lisans uygulamak](https://purchase.aspose.com/temporary-license/)ya da kullanmak a[ücretsiz deneme](https://releases.aspose.com/words/net/).  
+   * Ya da DLL'i doğrudan [Web sitesini hedefleme](https://www.aspose.com)\- Evet .
+3. İzn Verme Lisansı (Önemli):  
+   Tam versiyonu kullanmak için,[lisans uygulamak](https://purchase.aspose.com/temporary-license/)veya bir [ücretsiz deneme](https://releases.aspose.com/words/net/)\- Evet .  
 
-## Ayrıca Bakınız
-[.NET Dokümantasyonu için Aspose.Word](https://docs.aspose.com/words/net/)
-[.NET Referansları için Aspose.Word](https://reference.aspose.com/words/net/)
+## Ayrıca bakın
+[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

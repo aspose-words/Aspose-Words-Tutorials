@@ -1,28 +1,28 @@
 //ExStart
-//ExSummary: Ez a kód bemutatja, hogyan kell beilleszteni egy buborékdiagramot egy Word dokumentumba az Aspose.Words használatával.
-//ExStepSummary:0: A következő kód egy új Document and DocumentBuilder-t inicializál.
-//ExStepSummary:1: Bubble chart jön létre, és hozzáadódik a dokumentumhoz a DocumentBuilder segítségével.
-//ExStepSummary:2: A Bubble chart adatsorai speciális X, Y és méretértékekkel egészülnek ki.
-//ExStepSummary:3: Végül a dokumentum mentésre kerül a beillesztett Bubble chart segítségével.
+//ExSummary: Ez a kód bemutatja, hogyan kell beilleszteni egy Bubble diagramot a Word dokumentumba Aspose.Words segítségével.
+//ExStepSummary:0: Az alábbi kód egy új Dokumentum és Dokumentumépítő indítványa.
+//ExStepSummary:1: A dokumentumfejlesztő segítségével egy buborék-diagramot hoznak létre és hozzáadnak a dokumentumhoz.
+//ExStepSummary:2: A Bubble diagram adatszériáját X, Y és méretértékekkel kell hozzáadni.
+//ExStepSummary:3: Végül a dokumentumot a beillesztett Bubble diagrammal tárolják.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Új dokumentum és DocumentBuilder inicializálása
+// Indítsa be az új dokumentum és dokumentumépítő
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Buborékdiagram beillesztése a dokumentumba
+// Beilleszteni egy buborék-diagramot a dokumentumba
 Shape shape = builder.InsertChart(ChartType.Bubble, 432, 252);
 
 //ExStep:2-
-// Adatsorok hozzáadása a buborékdiagramhoz
+// Adatszériákat adjon a Bubble diagramhoz
 Chart chart = shape.Chart;
 chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, // X values
     new double[] { 2.7, 3.2, 0.8 }, // Y values
     new double[] { 10, 4, 8 }); // Size values for the bubbles
 
 //ExStep:3-
-// A dokumentum mentése a Bubble chart segítségével
+// Takarítsa meg a dokumentumot a Bubble diagrammal
 doc.Save("WorkingWithCharts.InsertBubbleChart.docx");
 //ExEnd

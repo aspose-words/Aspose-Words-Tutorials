@@ -1,8 +1,8 @@
 ---
-title: Aspose.Words'ta .NET için Şekillerle Çalışmak 
+title: .NET için Aspose.Words'ta Şekiller ile çalışmak 
 weight: 10
 limit:
-description: .NET için Aspose.Words kullanarak Word belgelerindeki şekillerle nasıl çalışılacağını öğrenin. Kolayca şekilleri eklemeyi, özelleştirmeyi ve manipüle etmeyi keşfedin.
+description: .NET için Aspose.Words kullanarak Word belgelerindeki şekillerle nasıl çalışılacağını öğrenin. Şekiller eklemeyi, özelleştirmeyi ve kolayca manipüle etmeyi keşfedin.
 keywords:
 url: /tr/net/working-with-shapes/
 ---
@@ -12,12 +12,12 @@ url: /tr/net/working-with-shapes/
 
 ## Giriş
  
-Şekiller, görsel olarak çekici Word belgeleri tasarlama konusunda önemli bir özelliktir. Aspose.Words for .NET ile, çizgiler, dikdörtgenler, ovaller ve daha fazlası gibi şekilleri sorunsuz bir şekilde ekleyebilir, özelleştirebilir ve manipüle edebilirsiniz. Basit diyagramlar oluşturmanız, belirli içeriği vurgulamanız veya profesyonel düzenler oluşturmanız gereksin, bu güçlü kütüphane sizi şekillerle programlı olarak çalışmak için gerekli tüm araçlarla donatır.  
+Şekiller görsel olarak çekici Word belgeleri tasarlama konusunda önemli bir özelliktir. .NET için Aspose.Words ile, çizgiler, dikdörtgenler, ovallar ve daha fazlası gibi şekillerle sorunsuz bir şekilde eklenebilir, özelleştirilebilir ve manipüle edilebilir. Basit şekahatlar oluşturmanız, belirli içeriği vurgulamanız veya profesyonel düzenler oluşturmanız gerekirse, bu güçlü kütüphane size şekillerle programsal olarak çalışmak için gerekli tüm araçlarla donatılır.  
 
-Bu sayfada, çeşitli şekille ilgili görevler için ayrıntılı kılavuzlar bulacaksınız. Temel şekillerin yerleştirilmesinden ve stillerin uygulanmasından boyut, renk ve rotasyon gibi şekil özelliklerini yönetmeye kadar her şey adım adım kaplıdır. Aspose.Words for .NET, geliştiricilerin herhangi bir karmaşık tasarım aracı gerektirmeden dinamik ve görsel olarak zengin belgeler oluşturmalarını sağlar. Şekil manipülasyonunda ustalaşmak ve belge oluşturma sürecinizi yükseltmek için aşağıdaki öğreticileri keşfedin!  
+Bu sayfada çeşitli şekil ile ilgili görevler için ayrıntılı rehberler bulacaksınız. Temel şekiller eklemek ve stiller uygulamak gibi şekil özelliklerini yönetmek için, her şey adım adım kapsamaktadır. .NET için Aspose.Words geliştiricilerin herhangi bir karmaşık tasarım araçlarına ihtiyaç duymadan dinamik ve görsel olarak zengin belgeleri oluşturmasına olanak sağlar. Şekil manipülasyonunu kontrol etmek ve belge oluşturma sürecini yükseltmek için aşağıdaki öğretimsel bilgileri keşfedin!  
 
-{{< tutorial-card link="./add-group-shape/" title=".NET için Aspose.Words kullanarak Word Belgesinde Grup Şekli Oluşturun" imgSrc="/words/net/working-with-shapes/add-group-shape/images/thumb.png" >}}
-{{< tutorial-card link="./insert-shape/" title=".NET için Aspose.Words kullanarak Word Belgelerine Şekiller Ekle" imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
+{{< tutorial-card link="./add-group-shape/" title=".NET için Aspose.Words kullanarak Word Belgesinde Grup Şekili Oluştur" imgSrc="/words/net/working-with-shapes/add-group-shape/images/thumb.png" >}}
+{{< tutorial-card link="./insert-shape/" title=".NET için Aspose.Words kullanan Word belgeleri şekillerini ekle" imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

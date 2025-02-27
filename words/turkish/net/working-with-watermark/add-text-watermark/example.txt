@@ -1,13 +1,13 @@
 //ExStart
-//ExSummary: Bu kod, Aspose.Words kullanarak bir Word belgesine belirli seçenekler içeren bir metin filigranının nasıl ekleneceğini gösterir.
-//ExStepSummary:0: Aşağıdaki kod belge yolunu başlatır ve yeni bir Belge nesnesi oluşturur.
-//ExStepSummary:1: Aşağıdaki kod, yazı tipi ailesi, boyut, renk ve düzen dahil olmak üzere metin filigranı için seçenekleri ayarlar.
-//ExStepSummary:2: Aşağıdaki kod, belgeye belirtilen seçeneklerle metin filigranını uygular.
-//ExStepSummary:3: Aşağıdaki kod değiştirilmiş belgeyi belirtilen bir dizine kaydeder.
+//ExSummary: Bu kod, Aspose.Words kullanarak bir Word belgesine belirli seçeneklerle bir metin su işaretini nasıl ekleyeceğinizi gösterir.
+//ExStepSummary:0: Aşağıdaki kod, belge yolunu initialize eder ve yeni bir belge nesnesini oluşturur.
+//ExStepSummary:1: Aşağıdaki kod, metin su işaretinin seçeneklerini, şrift ailesi, boyut, renk ve düzen dahil olmak üzere belirler.
+//ExStepSummary:2: Aşağıdaki kod, belgede belirtilen seçeneklerle birlikte metin su işaretini uyguluyor.
+//ExStepSummary:3: Aşağıdaki kod, değiştirilmiş belgeyi belirli bir dizinle kaydetir.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStep:0-
-// Belgenin dizin yolunu ayarla
+// Belge için dizin yolu ayarlayın
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
@@ -15,7 +15,7 @@ string dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Document.docx");
 
 //ExStep:2-
-// Filigran seçenekleri oluştur
+// Su işaretleri seçenekleri oluştur
 TextWatermarkOptions options = new TextWatermarkOptions()
 {
     FontFamily = "Arial", // Set font family for the watermark text
@@ -26,10 +26,10 @@ TextWatermarkOptions options = new TextWatermarkOptions()
 };
 
 //ExStep:3-
-// Filigran metnini seçeneklerle uygulayın
+// Seçeneklerle su işaretleme metnini uygulayın
 doc.Watermark.SetText("Test", options);
 
 //ExStep:4-
-// Belgeyi filigranla kaydet
+// Su işaretli belgeyi kaydet
 doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
 //ExEnd

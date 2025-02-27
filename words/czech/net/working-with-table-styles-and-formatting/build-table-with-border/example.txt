@@ -1,28 +1,28 @@
 //ExStart
-//ExSummary: Tento kód ukazuje, jak manipulovat s tabulkami v dokumentu Word pomocí Aspose.Words. Získává existující dokument, modifikuje hranice první tabulky a ukládá změny do nového souboru.
-//ExStepSummary:0: Následující kód nastaví dokument a získá z něj první tabulku.
-//ExStepSummary:1: Následující kód vymaže všechny existující hranice z tabulky, aby se připravil na nové formátování.
-//ExStepSummary:2: Následující kód se vztahuje na zelenou hranici kolem stolu a uvnitř stolu.
+//ExSummaryTento kód ukazuje, jak manipulovat s tabulkami v dokumentu Word pomocí Aspose.Words. Vytáčí existující dokument, mění hranice první tabulky a ukládá změny do nového souboru.
+//ExStepSummary:0: Následující kód vytváří dokument a získává z něj první tabulku.
+//ExStepSummary:1: Následující kód vymaže všechny stávající hranice z tabulky, aby se připravilo na nové formátování.
+//ExStepSummary:2: Následující kód se vztahuje na zelenou hranici kolem a uvnitř stolu.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Definovat adresář pro dokument
+// Definice adresáře dokumentu
 string dataDir = "Your Document Directory";
-// Načíst dokument
+// Nabírejte dokument
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// Získejte první tabulku z dokumentu
+// Vezměte první stůl z dokumentu
 Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 
 //ExStep:2-
-// Vyčistit všechny existující hranice od tabulky
+// Vymažte všechny stávající hranice z tabulky
 table.ClearBorders();
 
 //ExStep:3-
-// Nastavit zelenou hranici kolem a uvnitř stolu
+// Uveďte zelenou hranici kolem stolu a uvnitř.
 table.SetBorders(LineStyle.Single, 1.5, Color.Green);
-// Uložit dokument se změnami
+// Uložte dokument s změnami
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");
 //ExEnd

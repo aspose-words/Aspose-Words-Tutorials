@@ -1,9 +1,9 @@
 //ExStart
-//ExSummary: Tento kód ukazuje, jak vložit obrázek do hlavičky dokumentu Word pomocí Aspose.Words pro .NET.
-//ExStepSummary:0: Vytvořit nový dokument Word pomocí třídy Aspose.Words Document class.
-//ExStepSummary:1: Přesuňte se do hlavní hlavičky dokumentu pomocí DocumentBuilder.
-//ExStepSummary:2: Vložte obrázek do hlavičky se specifickými možnostmi seřízení, rozměrů a balení.
-//ExStepSummary:3: Uložit dokument na zadanou cestu k souboru.
+//ExSummaryTento kód ukazuje, jak vložit obrázek do hlavičky dokumentu Word pomocí Aspose.Words pro .NET.
+//ExStepSummary:0: Vytvořte nový dokument Word pomocí třídy Dokumentů Aspose.Words.
+//ExStepSummary:1: Přepněte se na hlavní hlavičku dokumentu pomocí nástroje DocumentBuilder.
+//ExStepSummary:2: Vkládejte do hlavičky obrázek s specifickým vyrovnáváním, rozměry a možnosti obalu.
+//ExStepSummary:3: Uložte dokument na určitou složku.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
@@ -12,11 +12,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Přesunout kurzor do hlavní hlavičky dokumentu
+// Přemístěte kurzor do hlavního návodu dokumentu
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
 //ExStep:2-
-// Vložte obrázek do hlavičky se specifickým nastavením a rozměry
+// Vkládání obrazu do hlavičky s specifickou vyrovnání a rozměry
 builder.InsertImage(
     ImagesDir + "Logo.jpg", RelativeHorizontalPosition.RightMargin, 10,
     RelativeVerticalPosition.Page, 10, 50, 50, 
@@ -24,6 +24,6 @@ builder.InsertImage(
 );
 
 //ExStep:3-
-// Uložit dokument na zadanou cestu
+// Uložte dokument na uvedenou cestu
 doc.Save("WorkingWithHeadersAndFooters.InsertImage.docx");
 //ExEnd

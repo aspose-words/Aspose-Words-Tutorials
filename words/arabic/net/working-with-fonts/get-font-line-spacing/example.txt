@@ -1,23 +1,23 @@
 //ExStart
-//ExSummaryيوضح هذا الرمز كيفية إنشاء مستند والحصول على تباعد الأسطر لخط محدد.
-//ExStepSummary:0: يقوم الكود التالي بتهيئة مستند وDocumentBuilder جديد.
-//ExStepSummary:1: يحدد الرمز الخط إلى "Calibri" ويضيف سطرًا من النص.
-//ExStepSummary:2: يسترد الرمز تباعد الأسطر لأول تشغيل في المستند.
+//ExSummary: هذا الرمز يظهر كيفية إنشاء وثيقة والحصول على مسافة الخط من الخط المحدد.
+//ExStepSummary:0: الرمز التالي يبدأ برنامج وثيقة ومدفع وثائق جديد.
+//ExStepSummary:1: يضع الرمز الخط إلى "Calibri" ويضيف سطر من النص.
+//ExStepSummary:2: يجمع الرمز مسافة الخط من أول تشغيل في الوثيقة.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// إنشاء مثيل مستند جديد
+// إعداد مثال وثيقة جديدة
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// اضبط اسم الخط على 'Calibri'
+// حدد اسم الخط إلى "Calibri"
 builder.Font.Name = "Calibri";
 builder.Writeln("qText");
 
 //ExStep:2-
-// الوصول إلى خط التشغيل الأول
+// الوصول إلى الخط في الركض الأول
 Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
-// إخراج تباعد الخط إلى وحدة التحكم
+// أخرج الخط المتراوح إلى الجهاز
 Console.WriteLine($"lineSpacing = {font.LineSpacing}");
 //ExEnd

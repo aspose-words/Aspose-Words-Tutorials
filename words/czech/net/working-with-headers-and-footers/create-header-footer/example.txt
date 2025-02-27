@@ -1,27 +1,27 @@
 //ExStart
-//ExSummary: Tento kód ukazuje, jak vytvořit dokument Word s primární hlavičkou a zápatí pomocí Aspose.Words. Inicializuje nový dokument, přesune se do sekce záhlaví a zápatí a píše vlastní text. Nakonec uloží dokument jako soubor DOCX.
-//ExStepSummary:0: Následující kód inicializuje hlavní objekt Dokumentu a nastaví budova DokumentBuilder.
-//ExStepSummary:1: Následující kód se přesune do primární sekce záhlaví a napíše text záhlaví.
-//ExStepSummary:2: Následující kód se přesune do primární sekce zápatí a napíše text zápatí.
-//ExStepSummary:3: Následující kód uloží dokument na zadanou cestu k souboru.
+//ExSummaryTento kód ukazuje, jak vytvořit dokument Word s primárním hlavicem a podložkou pomocí Aspose.Words. Inicializuje nový dokument, přechází do sekcí hlavičky a podložky a píše vlastní text. Nakonec dokument uloží jako soubor DOCX.
+//ExStepSummary:0: Následující kód iniciální hlavní objekt Dokument a nastaví DocumentBuilder.
+//ExStepSummary:1: Následující kód se přenáší do prvotního oddílu hlavičky a píšou text hlavičky.
+//ExStepSummary:2: Následující kód se přenáší do prvotní části podstavky a píše text podstavky.
+//ExStepSummary:3: Následující kód ukládá dokument na specifikovanou složku.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Inicializace nového objektu Dokumentu
+// Začněte nový objekt dokumentu
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Přesunout se do primární části hlavičky
+// Přepněte se do prvotního hlaví
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Write("Header for page.");
 
 //ExStep:2-
-// Přesunout se do primární části patky
+// Přepněte se na hlavní podložku
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("Footer for page."); // Write the footer text
 
 //ExStep:3-
-// Uložit dokument se zadaným názvem souboru
+// Uložte dokument s uvedeným názvem souboru
 doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
 //ExEnd

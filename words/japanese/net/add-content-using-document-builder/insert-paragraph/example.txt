@@ -1,44 +1,44 @@
 //ExStart
-//ExSummaryを選択します。 このコードは、ドキュメントビルダークラスを使用してワードドキュメントを作成する方法を示し、スタイル付き段落を挿入させます。
-//ExStepSummary:0: 以下のコードにより、ドキュメントの作成用にドキュメントおよびドキュメント作成器が初期化されます。
-//ExStepSummary:1: 段落のフォントの設定は、次のコードで設定できます。
-//ExStepSummary:2: 以下のコードにより、配置と字下げに関する段落書式の設定が確立されます。
-//ExStepSummary:3: 以下のコードは、ドキュメントに段落を書き込みます。
-//ExStepSummary:4: 以下のコードは、ドキュメントを .docx ファイルとして保存します。
+//ExSummary: このコードは, DocumentBuilder クラスを使用して Word ドキュメントを作成し,スタイリングされた段落を挿入する方法を示します.
+//ExStepSummary:0: 次のコードは,ドキュメント作成のためのドキュメントとドキュメントビルダーを初期化します.
+//ExStepSummary:1: 次のコードは,段落のフォント設定を構成します.
+//ExStepSummary:2: 次のコードは,配線およびインデントの段落形式設定を設定する.
+//ExStepSummary:3: 次のコードは,文書に段落を書き込む.
+//ExStepSummary:4: 次のコードは,ドキュメントを .docxファイルとして保存します.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// 新しい文書オブジェクトを初期化
+// 新しいドキュメントオブジェクトを初期化する
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 文書ビルダーのフォント設定にアクセス
+// ドキュメントビルダーのフォント設定にアクセスする
 Font font = builder.Font;
-// フォントサイズを 16 にします
+// フォントサイズを16に設定する
 font.Size = 16;
-// フォントを太字にします
+// フォントを大体にする
 font.Bold = true;
-// フォントの色を青に設定
+// フォントの色を青に設定する
 font.Color = Color.Blue;
-// フォント名をアーナルに設定
+// フォント名を Arial に設定する
 font.Name = "Arial";
-// フォントに点線を付けます
+// フォントに点点点点点点点を追加する
 font.Underline = Underline.Dash;
 
 //ExStep:2-
-// 段落の書式設定にアクセス
+// 段落形式設定にアクセスする
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.FirstLineIndent = 8;
 paragraphFormat.Alignment = ParagraphAlignment.Justify;
 paragraphFormat.KeepTogether = true;
 
 //ExStep:3-
-// ドキュメントにテキストの段落を書き込む
+// 文書に文献の段落を書き込み
 builder.Writeln("A whole paragraph.");
 
 //ExStep:4-
-// ドキュメントを .docx ファイルとして保存します
+// 文書を .docxファイルとして保存する
 doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
 //ExEnd

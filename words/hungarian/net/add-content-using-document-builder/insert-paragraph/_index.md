@@ -1,8 +1,8 @@
 ---
-title: Word dokumentum létrehozása az Aspose.Words programmal a .NET-hez
+title: Word Dokumentum létrehozása az Aspose.Words segítségével .NET-hez
 weight: 7700
 limit: 
-description: Ismerje meg, hogyan hozhat létre stílusalapú Word-dokumentumot az Aspose.Words használatával a .NET és a DocumentBuilder osztály számára.
+description: Tanuljon meg, hogyan készítsen egy stílusú Word dokumentumot a .NET és a DocumentBuilder osztály Aspose.Words használatával.
 keywords: [Aspose.Words, .NET, DocumentBuilder, Word document, styling, programming, example]
 url: /hu/net/add-content-using-document-builder/insert-paragraph/
 ---
@@ -10,28 +10,28 @@ url: /hu/net/add-content-using-document-builder/insert-paragraph/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word dokumentum létrehozása az Aspose.Words programmal
-Ez a példa bemutatja, hogyan használhatja az Aspose.Words for .NET könyvtárat Word dokumentum programozott létrehozásához. A DocumentBuilder osztály használatával stílusolt bekezdéseket illeszthet be a dokumentumba testreszabott betűtípus-beállításokkal. Ez az útmutató végigvezeti Önt minden lépésen, biztosítva, hogy hatékonyan hozhat létre Word dokumentumokat az alkalmazásokhoz.
+# Készíts Word dokumentumot Aspose.Words segítségével
+Ez a példa bemutatja, hogyan használhatja a .NET könyvtár Aspose.Words -t a Word dokumentum programos létrehozásához. A DocumentBuilder osztály használatával stílusú bekezdéseket lehet beilleszteni a dokumentumba, a személyre szabott betűállításokkal. Ez a útmutató minden lépésen keresztül vezet, biztosítva, hogy hatékonyan generálhatod a Word dokumentumokat az alkalmazásokhoz.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-paragraph" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Telepítési útmutató
-1. Telepítse az Aspose.Words könyvtárat:
-   * Az Aspose.Words for .NET programot a NuGet Package Manager segítségével telepítheti a Visual Studio-ban:
+## A telepítési utasítások
+1. telepítse a Aspose.Words könyvtárat:
+   * A .NET-hez az Aspose.Words telepítését a NuGet Package Manager segítségével a Visual Studio-ban lehet elérni:
      ```
      Install-Package Aspose.Words
      ```
 
-2. A projekt beállítása:
-   * Hozzon létre egy új .NET projektet a Visual Studio-ban.
-   * Adjon hozzá egy hivatkozást az Aspose.Words könyvtárhoz.
+2. Készítsd ki a terved:
+   * Új .NET projektet készíts a Visual Studio-ban.
+   * Adjon hozzá egy hivatkozást az Aspose.Words könyvtárra.
 
-3. Adja hozzá a példakódot:
-   * Másolja be a megadott kódot a projektbe.
-   * Biztosítani kell, hogy tartalmazza a szükséges`használata`Iránymutatások a csúcson:
+3. Adja be a példa kódot:
+   * Képzeld a megadott kód példáját a projektedbe.
+   * Biztosítsák, hogy szükségszerűek is szerepelnek.`az alkalmazás`A felső irányelvek:
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Drawing;
@@ -39,9 +39,9 @@ Ez a példa bemutatja, hogyan használhatja az Aspose.Words for .NET könyvtára
      using System.Drawing;
      ```
 
-## Lásd még
-[Aspose.Word for .NET dokumentáció](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referenciák](https://reference.aspose.com/words/net/)
+## Lásd:
+[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

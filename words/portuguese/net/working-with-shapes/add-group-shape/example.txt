@@ -1,13 +1,13 @@
 //ExStart
-//ExSummary: Este código demonstra como criar uma forma de grupo dentro de um documento usando Aspose.Words.
-// Ele cria uma forma de chamada de contorno de sotaque e um botão de ação, adiciona-os a uma forma de grupo e, em seguida, insere a forma do grupo no documento antes de salvá-lo.
-//ExStepSummary:0: Inicializa um novo Documento e garante que os requisitos mínimos sejam cumpridos.
-//ExStepSummary:1: Cria uma forma de grupo que irá conter outras formas.
-//ExStepSummary:2: Adiciona uma forma de chamada de contorno de sotaque à forma de grupo.
-//ExStepSummary:3: Adiciona uma forma de botão de ação à forma de grupo.
-//ExStepSummary:4: Define as dimensões e coordenadas para a forma do grupo.
+//ExSummaryEste código demonstra como criar uma forma de grupo dentro de um documento usando Aspose.Words.
+// Ele cria uma forma de chamada de bordas de acento e um botão de ação, adiciona-os a uma forma de grupo e, em seguida, inserir a forma de grupo no documento antes de salvá-lo.
+//ExStepSummary:0: Inicializa um novo documento e garante o cumprimento dos requisitos mínimos.
+//ExStepSummary:1: Cria um GroupShape que vai manter outras formas.
+//ExStepSummary:2: Adiciona uma forma de convite de acento à forma de grupo.
+//ExStepSummary:3: Adiciona uma forma de botão de ação para a forma de grupo.
+//ExStepSummary:4: Estabelece as dimensões e as coordenadas da forma do grupo.
 //ExStepSummary:5: Insere a forma do grupo no documento usando um DocumentBuilder.
-//ExStepSummary:6: Salva o documento que contém a forma do grupo em um local especificado.
+//ExStepSummary:6: Salva o documento que contém a forma do grupo para um local especificado.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -16,43 +16,43 @@
 //ExStep:0-
 // Criar um novo documento
 Document doc = new Document();
-// Garantir que o documento atenda aos requisitos mínimos
+// Assegurar que o documento cumpre os requisitos mínimos
 doc.EnsureMinimum();
 
 //ExStep:1-
-// Criar uma nova instância do GroupShape
+// Criar uma nova instância de GroupShape
 GroupShape groupShape = new GroupShape(doc);
 
 //ExStep:2-
-// Criar uma forma de chamada de contorno de sotaque
+// Criar uma forma de contagem de bordas de acento
 Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
 {
     Width = 100, 
     Height = 100
 };
-// Adicione a forma à forma do grupo
+// Adicionar a forma ao grupo
 groupShape.AppendChild(accentBorderShape);
 
 //ExStep:3-
-// Criar uma forma de botão de ação
+// Criar um botão de ação
 Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
 {
-	// Definir a posição esquerda da forma
+	// Defina a posição esquerda da forma
     Left = 100, 
-	// Definir a largura da forma
+	// Ampliação do formato definida
     Width = 100, 
-	// Definir altura da forma
+	// Estabelecer a altura da forma
     Height = 200
 };
-// Adicionar o botão de ação à forma de grupo
+// Adicionar o botão de ação para o formato do grupo
 groupShape.AppendChild(actionButtonShape);
 
 //ExStep:4-
-// Definir a largura da forma do grupo
+// Defina a largura da forma do grupo
 groupShape.Width = 200;
-// Definir a altura da forma do grupo
+// Defina a altura da forma do grupo
 groupShape.Height = 200;
-// Definir o tamanho da coordenada para a forma do grupo
+// Defina o tamanho das coordenadas para a forma do grupo
 groupShape.CoordSize = new Size(200, 200);
 
 //ExStep:5-
@@ -62,6 +62,6 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertNode(groupShape);
 
 //ExStep:6-
-// Salve o documento em um local especificado
+// Salvar o documento em um local especificado
 doc.Save("WorkingWithShapes.AddGroupShape.docx");
 //ExEnd

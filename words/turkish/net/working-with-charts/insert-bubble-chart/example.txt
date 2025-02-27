@@ -1,28 +1,28 @@
 //ExStart
-//ExSummary: Bu kod, Aspose.Words kullanarak bir Word belgesine bir Bubble grafiğinin nasıl yerleştirileceğini gösterir.
-//ExStepSummary:0: Aşağıdaki kod yeni bir Document ve DocumentBuilder'ı başlatır.
-//ExStepSummary:1: DocumentBuilder kullanılarak belgeye bir Bubble grafiği oluşturulur ve eklenir.
-//ExStepSummary:2: Bubble grafiği için veri serisi belirli X, Y ve boyut değerleri ile eklenir.
-//ExStepSummary:3: Son olarak, belge eklenen Bubble grafiği ile kaydedilir.
+//ExSummaryBu kod, Aspose.Words kullanarak bir Bubble tablosunu Word belgesine nasıl ekleyeceğinizi gösterir.
+//ExStepSummary:0: Aşağıdaki kod yeni bir Belge ve Belge Oluşturucu'nu başlatır.
+//ExStepSummary:1: Bir Bubble grafiği oluşturulur ve DocumentBuilder kullanarak belgeye eklenir.
+//ExStepSummary:2: Bubble grafiği için veri dizisi, belirli X, Y ve boyut değerleri ile eklenir.
+//ExStepSummary:3: Son olarak belge, eklenen Bubble grafiği ile kaydedilmiştir.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Yeni bir Belge ve Belge Oluşturucuyu Başlat
+// Yeni Belge ve Belge Oluşturucu'nu başlat
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Belgeye bir Bubble grafiği ekle
+// Belgeye bir Bubble tablosunu ekle
 Shape shape = builder.InsertChart(ChartType.Bubble, 432, 252);
 
 //ExStep:2-
-// Bubble tablosuna veri serisi ekle
+// Bubble tablosuna veri dizini ekle
 Chart chart = shape.Chart;
 chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, // X values
     new double[] { 2.7, 3.2, 0.8 }, // Y values
     new double[] { 10, 4, 8 }); // Size values for the bubbles
 
 //ExStep:3-
-// Belgeyi Bubble grafiğiyle kaydet
+// Belgeyi Bubble grafikle kaydet
 doc.Save("WorkingWithCharts.InsertBubbleChart.docx");
 //ExEnd

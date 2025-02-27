@@ -1,28 +1,28 @@
 //ExStart
-//ExSummaryيوضح هذا الرمز كيفية إنشاء مستند Word باستخدام مخطط مبعثر باستخدام Apose.Words. يقوم بتهيئة مستند ، ويبني محتوى ، ويدرج مخططًا مبعثرًا ، ويضيف بيانات إليه ، ويحفظ المستند.
-//ExStepSummary:0: تهيئة الوثيقة وDocumentBuilder كائنات لبدء العمل على الوثيقة.
-//ExStepSummary:1: إدراج مخطط مبعثر في الوثيقة.
-//ExStepSummary:2: إضافة سلسلة من نقاط البيانات إلى المخطط المبعثر.
-//ExStepSummary:3: حفظ المستند مع المخطط المبعثر إلى ملف .docx.
+//ExSummary: يظهر هذا الرمز كيفية إنشاء مستند Word مع جدول التشتت باستخدام Aspose.Words. يبدأ الوثيقة، و يُنشئ المحتوى، و يُدخل جدول التشتت، و يضيف البيانات إليه، و يُخزن الوثيقة.
+//ExStepSummary:0: إعادة تشكيل الوثيقة و اعتراضات مُصمم الوثائق لبدء العمل على الوثيقة.
+//ExStepSummary:1: إدراج مخطط التشتت في الوثيقة.
+//ExStepSummary:2: إضافة سلسلة من نقاط البيانات إلى الرسم البياني للتشتت
+//ExStepSummary:3: حفظ الوثيقة مع الرسم البياني للتشتت إلى ملف .docx.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// تهيئة مستند جديد
+// إعداد وثيقة جديدة
 Document doc = new Document();
-// إنشاء منشئ لإدراج المحتوى
+// إعداد مبدع لإدراج المحتوى
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// أدرج مخططاً مبعثراً في المستند
+// إدراج جدول التشتت في الوثيقة
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252); 
 
 //ExStep:2-
-// احصل على كائن المخطط من الشكل المدرج
+// الحصول على جسم الرسم البياني من الشكل المضمن
 Chart chart = shape.Chart;
 // إضافة بيانات السلسلة إلى الرسم البياني
 chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 });
 
 //ExStep:3-
-// احفظ المستند باستخدام المخطط المبعثر
+// حفظ الوثيقة مع الرسم البياني للتشتت
 doc.Save("WorkingWithCharts.InsertScatterChart.docx");
 //ExEnd

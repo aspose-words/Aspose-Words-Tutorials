@@ -1,19 +1,19 @@
 //ExStart
-//ExSummaryを選択します。 このコードは、単語ドキュメント中の段落の書式設定の方法を示します。このコードは、段落の配置、字下げ、スペースなどの段落の書式設定オプションをどのように設定するかを示します。
-//ExStepSummary:0: このステップは、ドキュメントの作成用に新規ドキュメントと文書作成者を設定します。
-//ExStepSummary:1: このステップで、段落の書式設定オプション (配置、左側のインデント、右のインデント、段落の末尾のスペースを含む) を設定します。
-//ExStepSummary:2: このステップは,指定の書式設定オプションを有するよく書式設定された段落をドキュメントに書き込みます.
-//ExStepSummary:3: このステップは、段落の末尾にスペースの効果を示す別の書式設定された段落を記述します。
+//ExSummary: このコードは, Aspose.Wordsを使用して,Word ドキュメントの段落をフォーマットする方法を示します. 段落の並列,インデント,スペースなどの段落フォーマットオプションを設定する方法を示します.
+//ExStepSummary:0: このステップでは,ドキュメントを作成するための新しいドキュメントとドキュメントビルダーを初期化します.
+//ExStepSummary:1: このステップでは,配列,左行,右行,および段落の後にスペースを含む段落のフォーマットオプションを設定します.
+//ExStepSummary:2: このステップでは,文書に指定されたフォーマットオプションを備えた格式化された段落を書き込みます.
+//ExStepSummary:3: このステップでは,段落の後ろの空間の効果を示す別のフォーマットされた段落が書かれます.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0- 
-// 新しい文書インスタンスを作成します。
+// 新しいドキュメントインスタンスを作成する.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1- 
-// 段落の書式設定オプションを設定します。
+// 項式格式設定を設定する.
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;
 paragraphFormat.LeftIndent = 50;
@@ -21,16 +21,16 @@ paragraphFormat.RightIndent = 50;
 paragraphFormat.SpaceAfter = 25;
 
 //ExStep:2- 
-// 書式設定された最初の段落を書き込みます。
+// 最初のフォーマットされた段落を書きなさい.
 builder.Writeln(
 	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
 
 //ExStep:3- 
-// 2 番目の書式設定された段落を書き込みます。
+// 2番目のフォーマットされた段落を書きなさい.
 builder.Writeln(
 	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
 
 //ExStep:4- 
-// ドキュメントを指定したパスに保存します。
+// 文書を指定されたパスに保存する.
 doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
 //ExEnd

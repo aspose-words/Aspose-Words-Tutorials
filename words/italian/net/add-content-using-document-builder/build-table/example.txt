@@ -1,7 +1,7 @@
 //ExStart
-//ExSummary: Questo codice dimostra come creare un documento di Word con una tabella usando Aspose.Words. Costruisce una tabella con due righe e vari orientamenti di testo delle celle e formati.
-//ExStepSummary:0: Il seguente codice inizializza un nuovo costruttore di documenti e documenti.
-//ExStepSummary:1: Il seguente codice avvia una nuova tabella e inserisce la prima riga di celle.
+//ExSummary: Questo codice mostra come creare un documento Word con una tabella utilizzando Aspose.Words.
+//ExStepSummary:0: Il seguente codice inizializza un nuovo document e document builder.
+//ExStepSummary:1: Il seguente codice inizia una nuova tabella e inserisce la prima riga di celle.
 //ExStepSummary:2: Il seguente codice configura la formattazione della seconda riga e delle sue celle.
 //ExStepSummary:3: Il seguente codice configura la formattazione della seconda riga e delle sue celle.
 //ExStepSummary:4: Il seguente codice termina la tabella e salva il documento in un file.
@@ -10,33 +10,33 @@
 //ExStepImage:3:images/3.png
 
 //ExStep:0-
-// Inizializza un nuovo oggetto documento
+// Inizia un nuovo oggetto Documento
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Avvia una nuova tabella
+// Inizia un nuovo tavolo
 Table table = builder.StartTable();
 // Inizia la prima cella
 builder.InsertCell();
-// Imposta l'allineamento verticale per la prima cella
+// Imposta allineamento verticale per la prima cella
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
 builder.Write("This is row 1 cell 1");
-// Inserisci seconda cella
+// Inserire seconda cella
 builder.InsertCell();
 builder.Write("This is row 1 cell 2");
 builder.EndRow();
 
 //ExStep:2-
-// Inserisci una cella per la seconda riga
+// Inserire una cella per la seconda riga
 builder.InsertCell();
-// Configura la formattazione per la seconda riga
+// Configurazione di formattazione per la seconda riga
 builder.RowFormat.Height = 100;
 builder.RowFormat.HeightRule = HeightRule.Exactly;
 builder.CellFormat.Orientation = TextOrientation.Upward;
 builder.Writeln("This is row 2 cell 1");
 //ExStep:3-
-// Inserisci la seconda cella per la seconda riga
+// Inserire la seconda cella per la seconda riga
 builder.InsertCell();
 builder.CellFormat.Orientation = TextOrientation.Downward; 
 builder.Writeln("This is row 2 cell 2");
@@ -44,8 +44,8 @@ builder.EndRow();
 builder.EndTable();
 
 //ExStep:4-
-// Montaggio automatico del tavolo con larghezze fisse delle colonne
+// Fittura automatica della tabella con larghezze di colonna fisse
 table.AutoFit(AutoFitBehavior.FixedColumnWidths);
-// Salva il documento in un file
+// Salvare il documento in un file
 doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");
 //ExEnd

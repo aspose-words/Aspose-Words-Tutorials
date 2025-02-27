@@ -1,42 +1,42 @@
 //ExStart
-//ExSummaryを選択します。 このコードは、エリアチャートを Asfof.words を使ってワードドキュメントに挿入する方法を示します。
-//ExStepSummary:0: 以下のコードにより、新規ドキュメントおよびドキュメント作成者が初期化されます。
-//ExStepSummary:1: 以下のコードが、ドキュメントにエリアチャートを挿入します。
-//ExStepSummary:2: 次のコードは、特定のデータポイントを有するグラフに連続データを追加します。
-//ExStepSummary:3: 次のコードは、挿入したエリアチャートでドキュメントを保存します。
+//ExSummary: このコードではAspose.Wordsを使用して Word ドキュメントにエリアチャートを挿入する方法を示します.
+//ExStepSummary:0: 次のコードは新しいドキュメントとドキュメントビルダーを初期化します.
+//ExStepSummary:1: 次のコードは,文書に面積表を挿入します.
+//ExStepSummary:2: 次のコードは,指定されたデータポイントを持つ一連の図を追加します.
+//ExStepSummary:3: 次のコードは,挿入された面積表を含む文書を保存します.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// 新しい文書を作成
+// 新しい文書を作成する
 Document doc = new Document();
-// ドキュメント作成の初期化
+// ドキュメント作成を初期化する
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// エリアチャートを指定した寸法で挿入
+// 指定された次元を持つ面積図を挿入する
 Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
 
 //ExStep:2-
-// グラフオブジェクトにアクセス
+// 図形オブジェクトにアクセスする
 Chart chart = shape.Chart;
-// グラフに新しいシリーズを追加
+// 図に新しいシリーズを追加する
 chart.Series.Add("Aspose Series 1", new [] 
 {
 	// データポイント 1
     new DateTime(2002, 05, 01),
-	// データポイント 2
+	// データポイント2
     new DateTime(2002, 06, 01),
-	// データポイント 3
+	// データポイント3
     new DateTime(2002, 07, 01),
-	// データポイント 4
+	// データポイント4
     new DateTime(2002, 08, 01),
-	// データポイント 5
+	// データポイント5
     new DateTime(2002, 09, 01)
 }, 
-// データポイントの対応する値
+// データポイントの対応値
 new double[] { 32, 32, 28, 12, 15 });
 
 //ExStep:3-
-// 挿入したグラフでドキュメントを保存します
+// 挿入したチャートで文書を保存する
 doc.Save("WorkingWithCharts.InsertAreaChart.docx");
 //ExEnd

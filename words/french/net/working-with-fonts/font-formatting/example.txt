@@ -1,9 +1,9 @@
 //ExStart
-//ExSummary:Ce code montre comment créer un document Word en utilisant Aspose.Words, formatant les propriétés de la police avant de lui écrire un exemple de texte.
-//ExStepSummary:0: Le code suivant initialise un nouveau Document et un DocumentBuilder.
-//ExStepSummary:1: Le code suivant définit diverses propriétés de police telles que la taille, bold, la couleur, le nom et le style de soulignement.
-//ExStepSummary:2: Le code suivant écrit un exemple de texte dans le document en utilisant les paramètres de police configurés.
-//ExStepSummary:3: Le code suivant enregistre le document dans le répertoire spécifié avec un nom de fichier donné.
+//ExSummary: Ce code montre comment créer un document Word à l'aide de Aspose.Words, formatant les propriétés de la police avant de lui écrire un texte d'échantillon.
+//ExStepSummary:0: Le code suivant initiale un nouveau Document et un DocumentBuilder.
+//ExStepSummary:1: Le code suivant définit diverses propriétés de police telles que la taille, le gras, la couleur, le nom et le style de soulignement.
+//ExStepSummary:2: Le code suivant écrit un texte d'échantillon dans le document en utilisant les paramètres de police configurés.
+//ExStepSummary:3: Le code suivant sauvegarde le document dans le répertoire spécifié avec un nom de fichier donné.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
@@ -12,23 +12,23 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Accédez à la propriété de polices via DocumentBuilder
+// Accédez à la propriété de police par l'intermédiaire de DocumentBuilder
 Font font = builder.Font;
-// Définissez la taille de la police à 16
+// Réglez la taille de la police à 16
 font.Size = 16;
-// Faire en sorte que la police soit bold
+// Faites en gros
 font.Bold = true;
-// Changer la couleur de la police en bleu
+// Changez la couleur de la police en bleu
 font.Color = Color.Blue;
-// Définissez la police à Arial
+// Réglez la police à Arial
 font.Name = "Arial";
-// Appliquer un style souligné en tirets à la police
+// Appliquer un style de sous-titre à la police
 font.Underline = Underline.Dash;
 
 //ExStep:2-
 builder.Write("Sample text.");
 
 //ExStep:3-
-// Enregistrer le document dans le répertoire des artefacts
+// Enregistrer le document dans le répertoire des objets
 doc.Save("WorkingWithFonts.FontFormatting.docx");
 //ExEnd

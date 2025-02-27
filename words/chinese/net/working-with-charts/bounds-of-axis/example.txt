@@ -1,40 +1,40 @@
 //ExStart
-//ExSummary:此代码演示如何使用 Apostion.Words 创建带有图表的文档。为 Y 轴设置界限,并将文档保存为 DOCX 文件。 
-// 每一步都细分,以明确了解与Apostion.Word.中的图表合作的过程。
-//ExStepSummary:0: 初始化新文档和文档构建实例 。 
-//ExStepSummary:1: 在文档中插入图表并检索图表对象。 
-//ExStepSummary:2: 在图表中添加带有指定类别和值的新序列。 
-//ExStepSummary:3: 设定图表 Y 轴的最小值和最大值界限。 
-//ExStepSummary:4: 将文档保存到指定的路径。 
+//ExSummary: 本代码展示如何使用Aspose.Words创建一个图表的文档,设置Y轴的界限,并将文档保存为DOCX文件. 
+// 每一步都被分为Aspose.Words中的图表工作过程的清晰理解.
+//ExStepSummary:0: 启动一个新的文档和一个文档构建器实例. 
+//ExStepSummary:1: 插入图表到文档中,然后检索图表对象. 
+//ExStepSummary:2: 加入一个新的系列,包含指定类别和值. 
+//ExStepSummary:3: 设置图表的Y轴的最低和最高限度. 
+//ExStepSummary:4: 保存文件到指定的路径. 
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// 创建新文档实例 。
+// 创建一个新的文档实例.
 Document doc = new Document();
-// 初始化文档构建器以构建此文档 。
+// 启动文档构建器来构建文档.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 在文档中插入列图表。
+// 插入文件中列表.
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
-// 从形状中获取图表对象。
+// 取出图形对象的形状.
 Chart chart = shape.Chart;
-// 从图表中清除任何现有序列以获取新数据。
+// 清除所有现有系列从图表中,以获得新数据.
 chart.Series.Clear();
 
 //ExStep:2-
-// 定义名为“应用系列1”的新序列。
+// 定义一个名为"Aspose Series 1"的新系列.
 chart.Series.Add("Aspose Series 1",
     new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
     new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
 
 //ExStep:3-
-// 设定 Y 轴的最小界限 。
+// 设置Y轴的最小限.
 chart.AxisY.Scaling.Minimum = new AxisBound(0);
 chart.AxisY.Scaling.Maximum = new AxisBound(6);
 
 //ExStep:4-
-// 将带有图表的文档保存到指定的路径。
+// 保存文件和图表到指定路径.
 doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
 //ExEnd

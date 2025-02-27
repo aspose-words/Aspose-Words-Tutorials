@@ -1,16 +1,16 @@
 //ExStart
-//ExSummary: Tento kód ukazuje, jak vytvořit dokument Word s Obsahovou tabulkou pomocí DocumentBuilder. Obsahuje nadpisy různých úrovní a ukládá dokument jako .docx soubor.
-//ExStepSummary:0: Tento krok inicializuje nový objekt Dokumentu.
+//ExSummaryTento kód ukazuje, jak vytvořit dokument Word s Tabulkou obsahu pomocí DocumentBuilder. Obsahuje název různých úrovní a ukládá dokument jako soubor .docx.
+//ExStepSummary:0: Tento krok iniciuje nový objekt dokumentu.
 //ExStepSummary:1: Tento krok vytváří objekt DocumentBuilder pro manipulaci s dokumenty.
-//ExStepSummary:2: Tento krok vkládá Obsah na začátek dokumentu.
-//ExStepSummary:3: Tento krok přináší pauzu na stránku pro spuštění aktuálního obsahu na nové stránce.
-//ExStepSummary:4: Tento krok nastaví první nadpis a do dokumentu napíše "Míření 1."
-//ExStepSummary:5: Tento krok stanoví úroveň druhého čísla a píše "Hlava 1.1" a "Hlava 1.2."
-//ExStepSummary:6: Tento krok opět nastavuje první úroveň záhlaví a píše "Hlava 2" a "Hlava 3."
-//ExStepSummary:7: Tento krok stanoví úroveň druhého čísla a píše "Hlava 3.1."
-//ExStepSummary:8: Tento krok stanoví úroveň třetího čísla a píše položky "Hlavní 3.1.1," "Hlavní 3.1.2" a "Hlavní 3.1.3."
-//ExStepSummary:9: Tento krok znovu nastavuje druhou úroveň a píše "Hlava 3.2" a "Hlava 3.3."
-//ExStepSummary:10: Konečně tento krok aktualizuje pole v dokumentu a ukládá jej jako soubor .docx.
+//ExStepSummary:2: V tomto kroku je v začátku dokumentu vložena obsahová tabulka.
+//ExStepSummary:3: Tento krok představuje přestávku stránky, aby byl skutečný obsah na nové stránce zahájen.
+//ExStepSummary:4: Tento krok nastaví první název a píše "název 1" do dokumentu.
+//ExStepSummary:5: Tento krok stanoví druhou úroveň hlavy a píše "položka 1.1" a "položka 1.2".
+//ExStepSummary:6: Tento krok znovu nastavuje první úroveň hlavy a píše "položka 2" a "položka 3".
+//ExStepSummary:7: Tento krok nastavuje druhou úroveň hlavy a píše se "Projta 3.1".
+//ExStepSummary:8: Tento krok stanoví úroveň třetí hlavy a napíše podpoložky "položka 3.1.1", "položka 3.1.2" a "položka 3.1.3".
+//ExStepSummary:9: Tento krok znovu nastaví druhou úroveň hlavy a napíše "položka 3.2" a "položka 3.3".
+//ExStepSummary:10: Konečně tento krok aktualizuje pole v dokumentu a ukládá je jako soubor .docx.
 //ExStepImage:3:images/1.png
 //ExStepImage:4:images/2.png
 //ExStepImage:5:images/3.png
@@ -20,59 +20,59 @@
 //ExStepImage:9:images/7.png
 
 //ExStep:0-
-// Vytvořit novou instanci dokumentu
+// Vytvořit nový příklad dokumentu
 Document doc = new Document();
 
 //ExStep:1-
-// Inicializovat DocumentBuilder pro manipulaci s dokumenty
+// Začněte program DokumentBuilder pro manipulaci s dokumenty
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:2-
-// Vložit obsahovou tabulku se stanovenými možnostmi
+// Vložte obsahovou tabulku s uvedenými možnostmi
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
 //ExStep:3-
-// Vložit pauzu stránky ke spuštění obsahu na novou stránku
+// Vkládání přestávky na stránce k zahájení obsahu na nové stránce
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:4-
-// Nastavit styl do čísla 1
+// Nastavení stylu na položku 1
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
 //ExStep:5-
-// Nastavit styl do čísla 2
+// Nastavení stylu na položku 2
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 1.1");
 builder.Writeln("Heading 1.2");
 
 //ExStep:6-
-// Nastavit styl zpět do okruhu 1
+// Nastavte styl zpět na položku 1
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 2");
 builder.Writeln("Heading 3");
 
 //ExStep:7-
-// Nastavit styl do čísla 2
+// Nastavení stylu na položku 2
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.1");
 
 //ExStep:8-
-// Nastavit styl do čísla 3
+// Nastavte styl na položku 3
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
 builder.Writeln("Heading 3.1.1");
 builder.Writeln("Heading 3.1.2");
 builder.Writeln("Heading 3.1.3");
 
 //ExStep:9-
-// Nastavit styl zpět do čísla 2
+// Nastavte styl zpět na položku 2
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
 //ExStep:10-
-// Aktualizovat všechna pole v dokumentu
+// Aktualizujte všechny pole v dokumentu
 doc.UpdateFields();
-// Uložit dokument
+// Uložte dokument
 doc.Save("AddContentUsingDocumentBuilder.InsertTableOfContents.docx");
 //ExEnd

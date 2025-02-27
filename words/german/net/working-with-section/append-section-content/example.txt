@@ -1,40 +1,40 @@
 //ExStart
-//ExSummary:Dieses Beispiel zeigt, wie Inhalte von einem Abschnitt zum anderen in einem Word-Dokument mit Aspose.Words für .NET angehängt und vorbereitet werden können.
-//ExStepSummary:0: Initialisieren Sie ein neues Word-Dokument und DocumentBuilder, um Inhalte hinzuzufügen.
-//ExStepSummary:1: Schreiben Sie Text und fügen Sie Abschnittsbrüche ein, um mehrere Abschnitte im Dokument zu erstellen.
-//ExStepSummary:2: Zugriff auf den dritten Abschnitt des Dokuments zur Vorbereitung auf Content- Manipulation.
-//ExStepSummary:3: Inhalte vom ersten Abschnitt bis zum dritten Abschnitt vorbereiten.
-//ExStepSummary:4: Inhalte vom zweiten Abschnitt an den dritten Abschnitt anhängen.
+//ExSummary:Dieses Beispiel zeigt, wie man Inhalte von einem Abschnitt zum anderen in einem Word-Dokument mit Aspose.Words für .NET hinzufügt und vorbereitet.
+//ExStepSummary:0: Ein neues Word-Dokument und DocumentBuilder initialisieren, um Inhalte hinzuzufügen.
+//ExStepSummary:1: Schreiben Sie Text und geben Sie Abschnittspannen ein, um mehrere Abschnitte im Dokument zu erstellen.
+//ExStepSummary:2: Zugriff auf den dritten Abschnitt des Dokuments, um sich auf die Manipulation von Inhalten vorzubereiten.
+//ExStepSummary:3: Veröffentlichen Sie den Inhalt vom ersten Abschnitt zum dritten Abschnitt.
+//ExStepSummary:4: Inhalt des zweiten Abschnitts zum dritten Abschnitt hinzufügen.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// Initialisieren Sie das Dokument und DocumentBuilder
+// Initialisieren Sie das Dokument und den Dokumentbuilder
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Text schreiben und Abschnittsbrüche einfügen, um drei Abschnitte zu erstellen
+// Schreiben Sie Text und geben Sie Abschnitt Pausen ein, um drei Abschnitte zu erstellen
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
-// Inhalte für den zweiten Abschnitt hinzufügen
+// Hinzufügen von Inhalten für den zweiten Abschnitt
 builder.Write("Section 2");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
-// Inhalte für den dritten Abschnitt hinzufügen
+// Hinzufügen von Inhalten für den dritten Abschnitt
 builder.Write("Section 3");
 
 //ExStep:2-
-// Den dritten Abschnitt aus dem Dokument abrufen
+// Erhalten Sie den dritten Abschnitt aus dem Dokument
 Section section = doc.Sections[2];
 
 //ExStep:3-
-// Inhalte vom ersten Abschnitt bis zum dritten Abschnitt vorbereiten
+// Veröffentlichen Sie den Inhalt vom ersten Abschnitt zum dritten Abschnitt
 Section sectionToPrepend = doc.Sections[0];
 section.PrependContent(sectionToPrepend);
 
 //ExStep:4-
-// Inhalte vom zweiten Abschnitt an den dritten Abschnitt anhängen
+// Inhalt des zweiten Abschnitts zum dritten Abschnitt
 Section sectionToAppend = doc.Sections[1];
 section.AppendContent(sectionToAppend);
 //ExEnd

@@ -1,8 +1,8 @@
 ---
-title: Helyezze be az Inline képet a Word dokumentumba az Aspose.Words használatával
+title: Beillesztse a Word dokumentumban a bejegyzett képeket az Aspose.Words segítségével
 weight: 7700
 limit: 
-description: Ismerje meg, hogyan szúrhat be egy inline képet egy Word dokumentumba az Aspose.Words for .NET segítségével ebben a lépésről-lépésre történő példában.
+description: Tanuljon meg, hogyan kell beilleszteni egy inline képet a Word dokumentumban az Aspose.Words a .NET-hez ebben a lépésről lépésre példa.
 keywords: [Aspose.Words, .NET, inline image, Word document, DocumentBuilder, image insertion, code example]
 url: /hu/net/add-content-using-document-builder/insert-inline-image/
 ---
@@ -10,34 +10,34 @@ url: /hu/net/add-content-using-document-builder/insert-inline-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Helyezze be az Inline képet a Word dokumentumba az Aspose.Words használatával
-Ez a példa bemutatja, hogyan lehet beilleszteni egy inline képet egy Word dokumentumba az Aspose.Words könyvtár segítségével a .NET számára.`DocumentBuilder`osztály, könnyen elhelyezheti és beillesztheti a képeket a dokumentum aktuális kurzor helyére. Ez az útmutató egyszerű megvalósítást biztosít, amely segít a Word dokumentumokban a képkezelés megkezdésében.
+# Beillesztse a Word dokumentumban a bejegyzett képeket az Aspose.Words segítségével
+Ez a példa bemutatja, hogyan lehet beilleszteni egy inline képet egy Word dokumentumba a .NET Aspose.Words könyvtár segítségével.`Dokumentumszervező`A következő útmutató egy egyszerű végrehajtást nyújt, amely segít a Word dokumentumok képi kezelésében.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-inline-image" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Telepítési útmutató
-1. Telepítse az Aspose.Words alkalmazást a .NET-hez:
-   * Használja a NuGet csomagkezelőt a Visual Studio programban.
-   * Futtassa a következő parancsot a Csomagkezelő konzolban:
+## A telepítési utasítások
+1. A .NET-re telepítse az Aspose.Words-t:
+   * Használja a NuGet csomagkezelőt a Visual Studio-ban.
+   * A csomagkezelő konzoltól futtassa ki a következő parancsot:
      ```
      Install-Package Aspose.Words
      ```
 
-2. A projekt beállítása:
-   * Hozzon létre egy új .NET-projektet, vagy nyisson meg egy meglévőt.
-   * Adja hozzá a szükséges irányelveket a kódfájl tetején:
+2. Készítsd ki a terved:
+   * Új .NET projektet készíts vagy nyitj meg egy meglévő projektet.
+   * A kódfájl tetején a szükséges utasításokat használva adjuk hozzá:
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Drawing;
      ```
 
 
-## Lásd még
-[Aspose.Word for .NET dokumentáció](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referenciák](https://reference.aspose.com/words/net/)
+## Lásd:
+[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,30 +1,30 @@
 //ExStart
-//ExSummary: Este código demonstra como criar um documento do Word com uma tabela estilizada usando Aspose.Words. A tabela inclui cabeçalhos e linhas de dados, formatados de acordo com opções de estilo específicas.
-//ExStepSummary:0: Inicialize um novo Document and DocumentBuilder para gerenciar a estrutura do documento.
+//ExSummaryEste código demonstra como criar um documento do Word com uma tabela de estilo usando Aspose.Words. A tabela inclui cabeçalhos e linhas de dados, formatadas de acordo com opções de estilo específicas.
+//ExStepSummary:0: Iniciar um novo Document e DocumentBuilder para gerenciar a estrutura do documento.
 //ExStepSummary:1: Inicie uma nova tabela no documento usando o DocumentBuilder.
-//ExStepSummary:2: Insira a primeira célula e defina o identificador de estilo de tabela.
-//ExStepSummary:3: Aplique opções de formatação à tabela e defina o comportamento de ajuste automático.
-//ExStepSummary:4: Adicione células de linha de cabeçalho à tabela.
-//ExStepSummary:5: Insira linhas de dados na tabela com nomes de itens e quantidades.
+//ExStepSummary:2: Insira a primeira célula e define o identificador de estilo da tabela.
+//ExStepSummary:3: Aplique as opções de formatação na tabela e configure o comportamento de ajuste automático.
+//ExStepSummary:4: Adicionar células de fila de cabeçalho à mesa.
+//ExStepSummary:5: Insira linhas de dados na tabela com nomes e quantidades dos itens.
 //ExStepSummary:6: Salve o documento montado em um arquivo.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
 //ExStepImage:5:images/4.png
 //ExStep:0-
-// Crie um novo objeto Documento.
+// Crie um novo objeto de documento.
 Document doc = new Document();
-// Crie um construtor para facilitar a geração de documentos.
+// Criar um construtor para facilitar a geração de documentos.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Inicie uma nova tabela no documento.
+// Comece uma nova tabela no documento.
 Table table = builder.StartTable();
 
 //ExStep:2-
 // Insira a primeira célula antes de definir a formatação.
 builder.InsertCell();
-// Defina o identificador de estilo para a tabela.
+// Defina o identificador de estilo para a mesa.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
 
@@ -32,24 +32,24 @@ table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 // Configurar opções de estilo.
 table.StyleOptions = 
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
-// Defina o comportamento de ajuste automático da mesa.	
+// Configure o comportamento automático da mesa.	
 table.AutoFit(AutoFitBehavior.AutoFitToContents);
 
 
 //ExStep:4-
-// Escreva o cabeçalho da primeira coluna.
+// Escreva o cabeçalho para a primeira coluna.
 builder.Writeln("Item");
-// Ajuste o estofamento certo para a célula.
+// Coloque o revestimento direito para a célula.
 builder.CellFormat.RightPadding = 40;
 // Insira a segunda célula para a próxima coluna.
 builder.InsertCell();
-// Escreva o cabeçalho da segunda coluna.
+// Escreva o cabeçalho para a segunda coluna.
 builder.Writeln("Quantity (kg)");
-// Acabar com a criação da linha.
+// Acaba com a criação de filas.
 builder.EndRow();
 
 //ExStep:5-
-// Inicie uma nova linha e insira a primeira célula.
+// Comece uma nova fila e insira a primeira célula.
 builder.InsertCell();
 builder.Writeln("Apples");
 builder.InsertCell();
@@ -61,7 +61,7 @@ builder.Writeln("Bananas");
 builder.InsertCell();
 builder.Writeln("40");
 builder.EndRow();
-// Comece uma nova linha para o terceiro item.
+// Comece uma nova fila para o terceiro item.
 builder.InsertCell();
 builder.Writeln("Carrots");
 builder.InsertCell(); 
@@ -69,6 +69,6 @@ builder.Writeln("50");
 builder.EndRow();
 
 //ExStep:6-
-// Salve o documento em um arquivo especificado.
+// Salvar o documento em um arquivo especificado.
 doc.Save("WorkingWithTableStylesAndFormatting.BuildTableWithStyle.docx");
 //ExEnd

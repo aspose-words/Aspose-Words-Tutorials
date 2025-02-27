@@ -1,20 +1,20 @@
 //ExStart
-//ExSummary: このコードは、単語ドキュメントの asfof.words を使って、単語ドキュメントの段落に外枠線と影をどのように適用するかを示します。
-//ExStepSummary:0: 以下のコードは、新規ドキュメントおよびドキュメントビルダーのインスタンスを初期化します。
-//ExStepSummary:1: 以下のコードで、段落の境界をテキストからの距離で設定します。
-//ExStepSummary:2: 以下のコードは、指定した色の段落に対角線のテクスチャーを適用します。
-//ExStepSummary:3: 以下のコードは,適用される設定で書式設定された段落を記述します.
-//ExStepSummary:4: 以下のコードは、ドキュメントを指定した出力パスに保存します。
+//ExSummary: このコードではAspose.Wordsを使用して,Word文書の段落に境界とシェイディングを適用する方法を示します.
+//ExStepSummary:0: 次のコードは新しいドキュメントとドキュメントビルダーインスタンスを初期化します.
+//ExStepSummary:1: 次のコードは,文本から距離を置くように段落の境界を設定します.
+//ExStepSummary:2: 次のコードは,指定された色で段落に横向横断質感の遮光を適用します.
+//ExStepSummary:3: 次のコードは,適用された設定を記入するフォーマットされた段落を書きます.
+//ExStepSummary:4: 次のコードは,文書を指定された出力パスに保存します.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// 新しい文書を初期化
+// 新しい文書を初期化する
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 段落の外枠にアクセス
+// 段落の境界線へのアクセス
 BorderCollection borders = builder.ParagraphFormat.Borders;
 borders.DistanceFromText = 20;
 borders[BorderType.Left].LineStyle = LineStyle.Double;
@@ -23,17 +23,17 @@ borders[BorderType.Top].LineStyle = LineStyle.Double;
 borders[BorderType.Bottom].LineStyle = LineStyle.Double;
 
 //ExStep:2-
-// 段落のシャドウのプロパティにアクセス
+// 段落のシェイディングプロパティにアクセスする
 Shading shading = builder.ParagraphFormat.Shading;
 shading.Texture = TextureIndex.TextureDiagonalCross;
 shading.BackgroundPatternColor = System.Drawing.Color.LightCoral; 
 shading.ForegroundPatternColor = System.Drawing.Color.LightSalmon;
 
 //ExStep:3-
-// 書式設定された段落の内容を書き込み
+// フォーマットされた段落の内容を書き
 builder.Write("I'm a formatted paragraph with double border and nice shading.");
 
 //ExStep:4-
-// ドキュメントを指定したパスに保存
+// 文書を指定されたパスに保存する
 doc.Save(ArtifactsDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
 //ExEnd

@@ -1,8 +1,8 @@
 ---
-title: Oszlopdiagram beillesztése a Wordbe az Aspose.Words for .NET használatával
+title: Beilleszteni a oszlopok diagramját a Word-be a .NET-hez Aspose.Words használatával
 weight: 7700
 limit: 
-description: Ismerje meg, hogyan szúrhat be oszlopdiagramot egy Word dokumentumba az Aspose.Words for .NET használatával. Lépésről lépésre útmutató kóddal, diagramok létrehozása és a dokumentum mentése.
+description: Tanuljon meg, hogyan kell beilleszteni egy oszlop-diagramot egy Word dokumentumban a .NET-hez Aspose.Words segítségével. Csatlakozó útmutató kódtal, a diagramok létrehozásával és a dokumentum mentésével.
 keywords: [Aspose.Words for .NET, insert column chart, Word document, .NET charts, Aspose chart example, document builder, chart insertion tutorial]
 url: /hu/net/working-with-charts/insert-column-chart/
 ---
@@ -10,39 +10,39 @@ url: /hu/net/working-with-charts/insert-column-chart/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Oszlopdiagram beillesztése a Wordbe az Aspose.Words használatával
+# Beillesztse a szöveg-tárgyat a Word-be Aspose.Words használatával
 
-Aspose.Words for .NET teszi hihetetlenül könnyű létrehozni és manipulálni Word dokumentumokat programmatically. Ez a példa azt mutatja be, hogyan kell beilleszteni egy oszlopdiagramot egy Word dokumentumba néhány sornyi kóddal. Az erőteljes API használatával diagramokat adhat hozzá, meghatározhatja a kategóriákat és értékeket, és mentheti a dokumentumot a kívánt formátumban. Kövesse ezt az útmutatót, hogy lássa, milyen egyszerű a professzionális diagramok létrehozása közvetlenül a .NET alkalmazásokból.
+A .NET-hez használt Aspose.Words hihetetlenül egyszerűvé teszi a Word dokumentumok programozási létrehozását és manipulálását. Ez a példa bemutatja, hogyan lehet egy oszlopra sorolni egy Word dokumentumba néhány kódvonalral. Az erős API segítségével grafikonokat hozzáadhat, kategóriákat és értékeket határozhat meg, és a dokumentumot a kívánt formátumban mentheti meg. Kövesse ezt a útmutatót, hogy lássa, milyen egyszerű a professzionális grafikonokat közvetlenül a .NET alkalmazásaitól generálni.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-column-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Telepítési útmutató  
+## A telepítési utasítások  
 
-1. Letöltés Aspose.Words .NET  
-   * Látogasson el a[Aspose.Words for .NET letöltési oldal](https://releases.aspose.com/words/net/)Töltse le a legújabb verziót.  
+1. Letöltsd le az Aspose.Words .NET-re  
+   * Látogasson el a[Aspose.Words a .NET letöltőoldalhoz](https://releases.aspose.com/words/net/)és letöltsük az utolsó verziót.  
 
-2. Telepítse a könyvtárat  
-   * Használja a NuGet csomagkezelőt a Visual Studio alkalmazásban az Aspose.Words for .NET telepítéséhez:  
+2. A könyvtár telepítése  
+   * A NuGet csomagkezelő használatával a Visual Studio-ban telepítse az Aspose.Words a .NET-hez:  
      ```
      Install-Package Aspose.Words
      ```
 
-3. Tartalmazza a névteret  
-   * Adja hozzá a szükséges névteret a projekthez:  
+3. Be kell foglalni a névterületet  
+   * Adja meg a szükséges névterületet a projekthez:  
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Drawing;
      ```
 
-4. Ingyenes próbaverzió vagy licenc beállítása  
-   * Kezdje a[ingyenes próbaverzió](https://releases.aspose.com/)vagy kérvényezze a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/)A könyvtár teljes kapacitásának kihasználása.
+4. Készítsenek ingyenes tesztelést vagy engedélyt  
+   * Kezdjük egy [ingyenes próba](https://releases.aspose.com/)vagy kérelmezik a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/)hogy kioldja a könyvtár teljes kapacitását.
 
-## Lásd még
-[Aspose.Word for .NET dokumentáció](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referenciák](https://reference.aspose.com/words/net/)
+## Lásd:
+[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

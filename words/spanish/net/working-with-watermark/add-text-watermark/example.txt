@@ -1,21 +1,21 @@
 //ExStart
-//ExSummary: Este código muestra cómo agregar una marca de agua de texto con opciones específicas a un documento de Word usando Aspose.Words.
-//ExStepSummary:0: El siguiente código inicializa la ruta del documento y crea un nuevo objeto Documento.
-//ExStepSummary:1: El siguiente código establece las opciones para la marca de agua de texto, incluida la familia de fuentes, el tamaño, el color y el diseño.
+//ExSummary: Este código muestra cómo añadir un marcador de agua de texto con opciones específicas a un documento de Word utilizando Aspose.Words.
+//ExStepSummary:0: El siguiente código inicializa el camino del documento y crea un nuevo objeto de documento.
+//ExStepSummary:1: El siguiente código establece las opciones para la marca de agua de texto, incluyendo la familia de fuentes, el tamaño, el color y el diseño.
 //ExStepSummary:2: El siguiente código aplica la marca de agua de texto con las opciones especificadas al documento.
 //ExStepSummary:3: El siguiente código guarda el documento modificado en un directorio especificado.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStep:0-
-// Establezca la ruta de directorio para el documento
+// Establezca el camino del directorio para el documento
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Cargar el documento de Word
+// Cargar el documento de la palabra
 Document doc = new Document(dataDir + "Document.docx");
 
 //ExStep:2-
-// Crear opciones de marca de agua
+// Crear opciones de marcas de agua
 TextWatermarkOptions options = new TextWatermarkOptions()
 {
     FontFamily = "Arial", // Set font family for the watermark text
@@ -30,6 +30,6 @@ TextWatermarkOptions options = new TextWatermarkOptions()
 doc.Watermark.SetText("Test", options);
 
 //ExStep:4-
-// Guardar el documento con la marca de agua
+// Guardar el documento con el marcador de agua
 doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
 //ExEnd

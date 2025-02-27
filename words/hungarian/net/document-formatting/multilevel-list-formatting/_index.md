@@ -1,8 +1,8 @@
 ---
-title: Többszintű listák létrehozása a Wordben az Aspose.Words segítségével
+title: Számosszintű listákat készítsen a Word-ben Aspose.Words segítségével
 weight: 7700
 limit: 
-description: Ismerje meg, hogyan hozhat létre többszintű listát egy Word dokumentumban az Aspose.Words for .NET használatával ebben az egyszerű példában.
+description: Tanuljon meg, hogyan készítsen többszintű listát a Word dokumentumban az .NET- hez Aspose.Words segítségével ebben a egyszerű példaban.
 keywords: [Aspose.Words, .NET, multilevel list, Word document, document formatting, C#]
 url: /hu/net/document-formatting/multilevel-list-formatting/
 ---
@@ -10,33 +10,33 @@ url: /hu/net/document-formatting/multilevel-list-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Többszintű listák létrehozása a Wordben az Aspose.Words segítségével
-Ez a példa bemutatja, hogyan hozhat létre többszintű listát egy Word dokumentumban az Aspose.Words for .NET használatával. Új dokumentumot és DocumentBuilder példányt inicializál, számozási formátumot alkalmaz, fő és altételeket hoz létre, és .docx fájlként menti a dokumentumot. Kövesse a lépésről lépésre szóló útmutatót, hogy hatékonyan formázza a dokumentumot számozott listákkal.
+# Számosszintű listákat készítsen a Word-ben Aspose.Words segítségével
+Ez a példa bemutatja, hogyan lehet egy Word dokumentumban többszintű listát létrehozni az .NET-hez használt Aspose.Words segítségével. Ez egy új dokumentumot és egy DocumentBuilder példányt indít, számolási formátumot alkalmaz, fő és alpontokat hoz létre, és .docx fájlként mentheti meg a dokumentumot. Kövesse a lépésről lépésre vezető útmutatót, hogy hatékonyan formátálja a dokumentumot számolt listákkal.
 
 ---
 {{< tutorial-widget sourcePath="words/net/document-formatting/multilevel-list-formatting" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Telepítési útmutató
-Az Aspose.Words for .NET használatához kövesse az alábbi lépéseket:
-1. Töltse le a könyvtárat: Látogasson el a[Aspose.Words for .NET letöltési oldal](https://www.aspose.com/downloads/words/net)Nem.
-2. Telepítés a NuGet-en keresztül:
-   * Nyissa meg a Visual Studio projektet.
-   * Navigáljon az Eszközök > NuGet csomagkezelő > NuGet csomagok kezelése megoldás.
-   * Keresés`Aspose.Words`és kattintson a Telepítés gombra.
-3. Hivatkozás a könyvtárra a kódban:
+## A telepítési utasítások
+A .NET-ben az Aspose.Words használatához kövesse ezeket a lépéseket:
+1. Letöltsük le a könyvtárat:[Aspose.Words a .NET letöltőoldalhoz](https://www.aspose.com/downloads/words/net)\- Nem.
+2. A NuGet segítségével telepítse:
+   * Nyissa ki a Visual Studio projektét.
+   * Menjen az eszközökhez > NuGet csomagkezelőhez > A megoldáshoz a NuGet csomagok kezelésére.
+   * Keresd a`Aspose.Words`és kattintsa a telepítésre.
+3. A könyvtárra hivatkozz a kódban:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    ```
-4. Licenc alkalmazása (opcionális):  
-   A teljes verzió használata,[licensz alkalmazása](https://purchase.aspose.com/temporary-license/)vagy használja a[ingyenes próbaverzió](https://releases.aspose.com/words/net/)Nem.  
+4. A licenc alkalmazása (Felhetős):  
+   Hogy a teljes verziót használhassuk,[engedélyt kell alkalmazni](https://purchase.aspose.com/temporary-license/)vagy használjon egy [ingyenes próba](https://releases.aspose.com/words/net/)\- Nem.  
 
 
-## Lásd még
-[Aspose.Word for .NET dokumentáció](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referenciák](https://reference.aspose.com/words/net/)
+## Lásd:
+[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

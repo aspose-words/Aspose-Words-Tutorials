@@ -1,8 +1,8 @@
 ---
-title: .NET için Aspose.Words'taki Grafiklerle Çalışmak  
+title: .NET için Aspose.Wordsdaki Çarşemalarla çalışmak  
 weight: 10
 limit:
-description: .NET için Aspose.Words kullanarak Word belgelerinde grafikler oluşturmayı, özelleştirmeyi ve yönlendirmeyi öğrenin. Veri görselleştirmesini güçlü özelliklerle basitleştirin.
+description: .NET için Aspose.Words kullanarak Word belgeleri içindeki tabloları nasıl oluşturulacağını, özelleştireceğini ve manipüle edeceğini öğrenin. Güçlü özelliklerle veri görselleştirmesini basitleştirin.
 keywords:
 url: /tr/net/working-with-charts/
 ---
@@ -12,17 +12,17 @@ url: /tr/net/working-with-charts/
 
 ## Giriş
  
-Aspose.Words for .NET, Word belgelerinde grafiklerle çalışmak için sağlam bir araç seti sunar. Dinamik çubuk çizelgeleri oluşturmanız, pasta çizelgelerini özelleştirmeniz veya mevcut verileri manipüle etmeniz gereksin, bu kitaplık tüm süreci basitleştirir. Kapsamlı API özellikleriyle, grafik türlerini, veri aralıklarını, etiketleri, stilleri ve biçimlendirmeyi programatik olarak tanımlayabilirsiniz.  
+.NET için Aspose.Words Word belgeleri içindeki grafiklerle çalışmak için sağlam bir araç kümesi sunar. Dinamik çubuk çizelgeleri oluşturmanız, pasta çizelgeleri özelleştirmeniz veya mevcut verileri manipüle etmeniz gerekirse, bu kitaplık tüm süreci basitleştirir.  
 
-Grafik eklemek, veri güncellemek ve grafik görünümünü özelleştirmek de dahil olmak üzere belirli işlevleri keşfetmek için iç içe geçmiş sayfalarımızla daha derine dalın. Raporlar, gösterge tabloları veya akademik belgeler oluşturuyorsanız, Aspose.Words for .NET sorunsuz grafik entegrasyonu ve özelleştirme sağlar, profesyonel sonuçlar sunarken zamandan tasarruf sağlar.  
+Çarşema ekleme, verileri güncelleme ve çarşema görünümünü özelleştirme gibi belirli işlevsellikleri keşfetmek için yuva sayfalarımızla daha derinlemesine dalın. Raporlar, araç tablosu veya akademik belgeleri oluşturursanız da, .NET için Aspose.Words sorunsuz çarşema entegrasyonu ve özelleştirmeyi sağlar, böylece profesyonel sonuçlar sağlayarak zaman tasarruf eder.  
 
-{{< tutorial-card link="./bounds-of-axis/" title=".NET için Aspose.Words Kullanarak Grafiklerle Belge Oluşturun" imgSrc="/words/net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
-{{< tutorial-card link="./create-chart-using-shape/" title=".NET için Aspose.Words kullanarak Word'de bir Çizgi Çizelgesi oluşturun" imgSrc="/words/net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
-{{< tutorial-card link="./insert-area-chart/" title="Word Belgesine Alan Çizelgesi Ekle" imgSrc="/words/net/working-with-charts/insert-area-chart/images/thumb.png" >}}
-{{< tutorial-card link="./insert-bubble-chart/" title=".NET için Aspose.Words'u Kullanarak Word'e Bir Kabarcık Çizelgesi Ekle" imgSrc="/words/net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
-{{< tutorial-card link="./insert-column-chart/" title=".NET için Aspose.Words kullanarak Word'e Sütun Çizelgesi Ekle" imgSrc="/words/net/working-with-charts/insert-column-chart/images/thumb.png" >}}
-{{< tutorial-card link="./insert-scatter-chart/" title=".NET için Aspose.Words kullanarak Word Scatter Grafiği Oluşturun" imgSrc="/words/net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
-{{< tutorial-card link="./insert-simple-column-chart/" title=".NET için Aspose.Words Kullanarak Word'e Basit Bir Sütun Çizelgesi Ekle" imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
+{{< tutorial-card link="./bounds-of-axis/" title=".NET için Aspose.Words kullanarak tablolar ile bir belge oluşturun" imgSrc="/words/net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
+{{< tutorial-card link="./create-chart-using-shape/" title=".NET için Aspose.Words kullanarak Word'de Bir Satır Çarşı Oluştur" imgSrc="/words/net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
+{{< tutorial-card link="./insert-area-chart/" title="Word Belgesine Alan Çarşısı Ekle" imgSrc="/words/net/working-with-charts/insert-area-chart/images/thumb.png" >}}
+{{< tutorial-card link="./insert-bubble-chart/" title=".NET için Aspose.Words kullanarak Word'a bir balonlu tablo ekle" imgSrc="/words/net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
+{{< tutorial-card link="./insert-column-chart/" title=".NET için Aspose.Words kullanarak Word'e sütun tablosunu ekle" imgSrc="/words/net/working-with-charts/insert-column-chart/images/thumb.png" >}}
+{{< tutorial-card link="./insert-scatter-chart/" title=".NET için Aspose.Words kullanarak Word Scatter Çarşı oluşturun" imgSrc="/words/net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
+{{< tutorial-card link="./insert-simple-column-chart/" title=".NET için Aspose.Words kullanarak Word'e basit bir sütun tablosunu ekle" imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

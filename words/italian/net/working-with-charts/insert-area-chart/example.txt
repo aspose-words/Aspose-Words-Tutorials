@@ -1,42 +1,42 @@
 //ExStart
-//ExSummary: Questo codice dimostra come inserire un diagramma di area in un documento di Word usando Aspose.Words.
-//ExStepSummary:0: Il seguente codice inizializza un nuovo documento e un costruttore di documenti.
-//ExStepSummary:1: Il seguente codice inserisce una tabella delle aree nel documento.
-//ExStepSummary:2: Il seguente codice aggiunge una serie al grafico con i punti dati specificati.
-//ExStepSummary:3: Il seguente codice salva il documento con il grafico dell'area inserito.
+//ExSummary: Questo codice mostra come inserire un grafico di area in un documento Word utilizzando Aspose.Words.
+//ExStepSummary:0: Il codice seguente inizializza un nuovo documento e un costruttore di documenti.
+//ExStepSummary:1: Il seguente codice inserisce un grafico di superficie nel documento.
+//ExStepSummary:2: Il seguente codice aggiunge una serie al grafico con punti di dati specificati.
+//ExStepSummary:3: Il seguente codice salva il documento con la tabella di superficie inserita.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
 // Crea un nuovo documento
 Document doc = new Document();
-// Inizializza il costruttore di documenti
+// Inizia la creazione di documenti
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Inserisci una tabella di area con dimensioni specifiche
+// Inserire un grafico di superficie con le dimensioni specificate
 Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
 
 //ExStep:2-
 // Accedere all'oggetto grafico
 Chart chart = shape.Chart;
-// Aggiunge una nuova serie al grafico
+// Aggiungere una nuova serie al grafico
 chart.Series.Add("Aspose Series 1", new [] 
 {
 	// Punto di dati 1
     new DateTime(2002, 05, 01),
-	// Data point 2
+	// Punto di dati 2
     new DateTime(2002, 06, 01),
-	// Data point 3
+	// Punto di dati 3
     new DateTime(2002, 07, 01),
-	// Data point 4
+	// Punto di dati 4
     new DateTime(2002, 08, 01),
-	// Data point 5
+	// Punto di dati 5
     new DateTime(2002, 09, 01)
 }, 
 // Valori corrispondenti per i punti dati
 new double[] { 32, 32, 28, 12, 15 });
 
 //ExStep:3-
-// Salva il documento con il grafico inserito
+// Salvare il documento con la tabella inserita
 doc.Save("WorkingWithCharts.InsertAreaChart.docx");
 //ExEnd

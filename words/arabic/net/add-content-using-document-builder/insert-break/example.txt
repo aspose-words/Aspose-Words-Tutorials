@@ -1,11 +1,11 @@
 //ExStart
-//ExSummaryيوضح هذا الرمز كيفية إنشاء مستند Word باستخدام Apose.Words ، وإضافة محتوى عبر صفحات متعددة ، وحفظه كملف .docx.
-//ExStepSummary:0: تعمل هذه الخطوة على تهيئة مستند جديد وDocumentBuilder لمعالجة المستند.
-//ExStepSummary:1: تضيف هذه الخطوة نصًا إلى الصفحة الأولى.
-//ExStepSummary:2: تدرج هذه الخطوة فاصل صفحة لبدء صفحة جديدة.
-//ExStepSummary:3: تضيف هذه الخطوة نصًا إلى الصفحة الثانية.
-//ExStepSummary:4: تدرج هذه الخطوة فاصل صفحة آخر لصفحة جديدة.
-//ExStepSummary:5: تضيف هذه الخطوة نصًا إلى الصفحة الثالثة.
+//ExSummary: هذا الرمز يظهر كيفية إنشاء مستند كورد باستخدام Aspose.Words، وإضافة المحتوى عبر صفحات متعددة، والإنقاذ به كملف .docx.
+//ExStepSummary:0: هذه الخطوة تبدأ في تشغيل وثيقة جديدة ومصنع وثائق للتلاعب بالوثيقة.
+//ExStepSummary:1: هذه الخطوة تضيف النص إلى الصفحة الأولى.
+//ExStepSummary:2: هذه الخطوة تضع فترة توقف صفحة لبدء صفحة جديدة.
+//ExStepSummary:3: هذه الخطوة تضيف النص إلى الصفحة الثانية.
+//ExStepSummary:4: هذه الخطوة تضع وقف آخر للصفحة الجديدة.
+//ExStepSummary:5: هذه الخطوة تضيف النص إلى الصفحة الثالثة.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -13,31 +13,31 @@
 //ExStepImage:5:images/5.png
 
 //ExStep:0-
-// إنشاء مثيل مستند جديد
+// إعداد مثال وثيقة جديد
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// إضافة نص للصفحة الأولى
+// إضافة النص للصفحة الأولى
 builder.Writeln("This is page 1.");
 
 //ExStep:2-
-// إدراج فاصل صفحة لبدء صفحة جديدة
+// إدراج فترة توقف صفحة لبدء صفحة جديدة
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:3-
-// إضافة نص للصفحة الثانية
+// إضافة النص للصفحة الثانية
 builder.Writeln("This is page 2.");
 
 //ExStep:4-
-// إدراج فاصل صفحة آخر لصفحة جديدة
+// إضافة آخر وقف صفحة جديدة
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:5-
-// إضافة نص للصفحة الثالثة
+// إضافة النص للصفحة الثالثة
 builder.Writeln("This is page 3.");
 
 //ExStep:6-
-// احفظ المستند إلى المسار المحدد
+// حفظ الوثيقة إلى المسار المحدد
 doc.Save("AddContentUsingDocumentBuilder.InsertBreak.docx");
 //ExEnd

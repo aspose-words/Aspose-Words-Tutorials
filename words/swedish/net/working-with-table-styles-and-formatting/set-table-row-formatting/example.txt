@@ -1,11 +1,11 @@
 //ExStart
-//ExSummary: Denna kod visar hur man skapar ett Word-dokument med en formaterad tabell med Aspose.
-//ExStepSummary:0: Detta steg initierar ett nytt dokument och dokumentbyggaren.
+//ExSummary: Denna kod visar hur man skapar ett Word-dokument med en formaterad tabell med hjälp av Aspose.
+//ExStepSummary:0: Detta steg initialiserar ett nytt dokument och dokumentbyggaren.
 //ExStepSummary:1: Detta steg startar bordet och sätter in en cell i det.
-//ExStepSummary:2: Detta steg anger formateringen för raden, inklusive höjd- och höjdregeln.
-//ExStepSummary:3: Detta steg sätter stoppning för hela tabellen, som påverkar alla rader.
+//ExStepSummary:2: Detta steg anger formateringen för raden, inklusive höjd och höjd regel.
+//ExStepSummary:3: Detta steg sätter upp täckning för hela bordet och påverkar alla rader.
 //ExStepSummary:4: Detta steg lägger till text i cellen och avslutar raden.
-//ExStepSummary:5: Detta steg avslutar tabellen och sparar dokumentet till en angiven sökväg.
+//ExStepSummary:5: Detta steg avslutar tabellen och sparar dokumentet till en viss väg.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -14,38 +14,38 @@
 //ExStep:0-
 // Skapa en ny dokumentinstans
 Document doc = new Document();
-// Initialisera dokumentbyggaren med dokumentet
+// Initializera DocumentBuilder med dokumentet
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Starta en ny tabell
+// Börja ett nytt bord
 Table table = builder.StartTable();
-// Infoga den första cellen i tabellen
+// Lägg in den första cellen i tabellen
 builder.InsertCell();
 
 //ExStep:2-
-// Tillgång till RowFormat egendom av byggherren
+// Tillträde till RowFormat- egendomen för byggaren
 RowFormat rowFormat = builder.RowFormat;
-// Ställ in radens höjd
+// Ställ höjden på raden
 rowFormat.Height = 100;
-// Ställ in höjdregeln till exakt
+// Ställ höjdregeln till exakt
 rowFormat.HeightRule = HeightRule.Exactly;
 
 //ExStep:3-
-// Ställ in stoppning till bordet
+// Ställ upp täckning för bordet
 table.LeftPadding = 30;
 table.RightPadding = 30;
 table.TopPadding = 30;
 table.BottomPadding = 30;
 
 //ExStep:4-
-// Lägg till text i nuvarande cell
+// Lägg till text i den aktuella cellen
 builder.Writeln("I'm a wonderful formatted row.");
-// Avsluta nuvarande rad
+// Slut på den aktuella raden
 builder.EndRow();
 builder.EndTable();
 
 //ExStep:5-
-// Spara dokumentet till angiven sökväg
+// Spara dokumentet på den angivna vägen
 doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableRowFormatting.docx");
 //ExEnd

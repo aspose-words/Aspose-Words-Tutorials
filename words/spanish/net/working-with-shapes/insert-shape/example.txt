@@ -1,9 +1,9 @@
 //ExStart
-//ExSummary: Este código muestra cómo insertar formas (cuadros de texto) en un documento de Word usando Aspose.Words. El documento se guarda en formato DOCX con opciones de cumplimiento específicas para las normas ISO.
+//ExSummaryEste código muestra cómo insertar formas (cajas de texto) en un documento de Word utilizando Aspose.Words. El documento se guarda en formato DOCX con opciones específicas de cumplimiento para las normas ISO.
 //ExStepSummary:0: El código inicializa un nuevo documento y un constructor de documentos para manipular el documento.
-//ExStepSummary:1: Una forma (caja de texto) se inserta en una posición absoluta en el documento y la rotación de la primera forma se establece en 30 grados.
-//ExStepSummary:2: Una nueva forma se inserta en una posición relativa y la rotación de la segunda forma también se establece en 30 grados.
-//ExStepSummary:3: El documento se guarda con OoxmlSaveOptions específico.
+//ExStepSummary:1: Se inserta una forma (caja de texto) en una posición absoluta en el documento y se establece la rotación de la primera forma a 30 grados.
+//ExStepSummary:2: Se inserta una nueva forma en una posición relativa y también se establece la rotación de la segunda forma a 30 grados.
+//ExStepSummary:3: El documento se guarda con OoxmlSaveOptions específicos.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -15,26 +15,26 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Inserta una forma de tipo TextBox
+// Insere una forma de tipo TextBox
 Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
     RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
-// Rota la forma 30 grados
+// Rota la forma en 30 grados
 shape.Rotation = 30.0;
 
 //ExStep:2-
 builder.Writeln();
-// Inserta otra forma de tipo TextBox en una posición relativa
+// Insere otra forma de tipo TextBox en una posición relativa
 shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
-// Rota la segunda forma 30 grados
+// Rota la segunda forma en 30 grados
 shape.Rotation = 30.0;
 
 //ExStep:3-
-// Prepara opciones de guardado para el documento
+// Preparar opciones de guardar para el documento
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
 };
 
-// Guarda el documento utilizando las opciones de guardado especificadas
+// Guardar el documento utilizando las opciones de guardar especificadas
 doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
 //ExEnd

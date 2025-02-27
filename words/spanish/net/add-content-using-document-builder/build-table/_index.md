@@ -1,8 +1,8 @@
 ---
-title: Crear un documento de Word con tabla usando Aspose.Words
+title: Crea un documento de Word con tabla usando Aspose.Words
 weight: 7700
 limit: 
-description: Aprenda a crear un documento de Word con una tabla con estilo usando Aspose.Words para .NET, incluyendo formato de celda y orientación de texto.
+description: Aprende a crear un documento de Word con una tabla de estilo utilizando Aspose.Words para .NET, incluyendo el formato de células y la orientación de texto.
 keywords: [Aspose.Words, .NET, Word document, table, document builder, cell formatting, text orientation, code example]
 url: /es/net/add-content-using-document-builder/build-table/
 ---
@@ -10,9 +10,9 @@ url: /es/net/add-content-using-document-builder/build-table/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crear un documento de Word con tabla usando Aspose.Words
+# Crea un documento de Word con tabla usando Aspose.Words
   
-Este ejemplo muestra cómo crear un documento de Word con una tabla usando la biblioteca Aspose.Words para .NET. El código inicializa un nuevo documento, construye una tabla con dos filas y formatea las celdas con varios estilos y orientaciones. Aprenderá a manipular el contenido de la celda, la alineación y construir un documento estructurado mediante programación.
+Este ejemplo muestra cómo crear un documento de Word con una tabla utilizando la biblioteca Aspose.Words para .NET. El código inicializa un nuevo documento, construye una tabla con dos filas y formato las celdas con varios estilos y orientaciones. Aprenderá a manipular el contenido de la célula, la alineación y construir un documento estructurado de manera programática.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/build-table" >}}
@@ -21,19 +21,19 @@ Este ejemplo muestra cómo crear un documento de Word con una tabla usando la bi
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instrucciones de instalación:  
 1. Instalar Aspose.Words para .NET:
-   * Uso de NuGet Package Manager:
-     * Abra su proyecto en Visual Studio.
-     * Haga clic con el botón derecho en el proyecto en el Explorador de soluciones y seleccione "Administrar paquetes NuGet".
-     * Busca "Aspose.Words" y haz clic en "Instalar".
+   * Utilizando el administrador de paquetes NuGet:
+     * Abre tu proyecto en Visual Studio.
+     * Haga clic derecho en el proyecto en Solution Explorer y seleccione "Gestionar paquetes NuGet".
+     * Busque en Aspose.Words y haga clic en "Installar".
 
-   * O bien, utilice la Consola del administrador de paquetes:
+   * O, utiliza la consola de gestión de paquetes:
      ```
      Install-Package Aspose.Words
      ```
    
-## Véase también
-[Aspose.Word para la documentación de .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word para las referencias de .NET](https://reference.aspose.com/words/net/)
+## También véase
+[Aspose.Word para Documentación .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word para las referencias .NET](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,8 +1,8 @@
 ---
-title: 使用 aspose 创建单词散放图。 . NET 的 words
+title: 创建 Word 散布图,使用 .NET 的Aspose.Words
 weight: 7700
 limit: 
-description: 学习如何使用 Apose. words 创建含有散射图的 Word 文档。 包括代码和指令的. NET 的 Words。 一步步指南 。
+description: 学习如何使用 .NET 的Aspose.Words来创建一个 Word 文档,使用一个散布图表.
 keywords: [Aspose.Words for .NET, scatter chart, Word scatter chart, create scatter chart, insert chart in Word, .NET Word document, document builder]
 url: /zh/net/working-with-charts/insert-scatter-chart/
 ---
@@ -10,41 +10,41 @@ url: /zh/net/working-with-charts/insert-scatter-chart/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 创建用于应用的单词散放图表。 Words
+# 使用Aspose.Words创建字面散布图
 
-设置 .NET 的 word 。 NAME OF TRANSLATORS 格式化了 Word 文档的简化创建和操作程序。此示例展示了如何将分布图插入到 Word 文档中。通过初始化文档,使用`文件编织器`对于内容创建,并用程序插入图表数据,您可以在文档中有效添加专业级散射图。借助其直观的 API, Aspose.Words 简化了.NET 开发者的文件自动化,节省了时间和精力。  
+简化创建和操作Word文档程序. 这篇例子展示了如何将散布图插入Word文档中.`文件构建器`通过简单的API, Aspose.Words 简化了 .NET开发人员的文档自动化,节省了时间和精力.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-scatter-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## 安装指示  
-举这个例子,遵循这些步骤:  
+## 装备说明  
+运行这个例子,请按照以下步骤:  
 
-1. 下载并安装 pose. words for.NET  
-   * 从官方网站下载图书馆[设置。 . NET 下载的文字](https://releases.aspose.com/words/net/). .  
-   * 通过 NuGet 软件包管理器安装 :  
+1. 下载和安装Aspose.Words为 .NET  
+   * 从官方的Aspose网站下载图书馆: [对于 .NET 下载的Aspose.Words](https://releases.aspose.com/words/net/)现在,我们要去.  
+   * 通过 NuGet 包管理器安装:  
      ```bash  
      Install-Package Aspose.Words  
      ```  
 
-2. 设置您的开发环境  
-   * 打开您的. NET IDE( 如视觉工作室) 。  
-   * 创建新的控制台应用程序或整合到已有的工程中 。  
-   * 添加引用到 Apose. words for.NET 库。  
+2. 建立一个发展环境  
+   * 打开您的 .NET IDE (例如,视觉工作室).  
+   * 创建一个新的控制台应用程序或集成到现有项目中.  
+   * 添加一个引用.NET库的Aspose.Words.  
 
-3. 应用许可  
-   * 如果您持有许可证,请在您的项目中使用:  
+3. 申请许可证  
+   * 如果您有许可证,请使用以下方法在您的项目中应用:  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("Your_License_File.lic");  
      ```  
-   * 或者,获得[免费临时许可证](https://purchase.aspose.com/temporary-license/)要测试库。
+   * 另一个方法是:[免费临时许可证](https://purchase.aspose.com/temporary-license/)为了测试图书馆.
 
-## 另见
-[位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)
-[位置。 编辑到. NET 引用](https://reference.aspose.com/words/net/)
+## 查看
+[设置.Word为 .NET文档](https://docs.aspose.com/words/net/)
+[标用.NET引用的Word](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

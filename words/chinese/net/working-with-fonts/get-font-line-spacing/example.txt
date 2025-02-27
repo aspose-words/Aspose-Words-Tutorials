@@ -1,23 +1,23 @@
 //ExStart
-//ExSummary:此代码显示如何创建文档并获取指定字体的行距。
-//ExStepSummary:0: 以下代码初始化了一个新的文档和文档构建器 。
-//ExStepSummary:1: 代码将字体设置为“ Calibri” , 并添加一行文字 。
-//ExStepSummary:2: 代码获取文档中第一个运行的行距 。
+//ExSummary: 这个代码显示如何创建一个文档,并获得指定字体的线条间隔.
+//ExStepSummary:0: 下面的代码启动了新的文档和文档构建器.
+//ExStepSummary:1: 代码将字体设置为"卡利布里",并添加一行文字.
+//ExStepSummary:2: 代码检索文件中的第一次运行的线条间隔.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// 创建新文档实例
+// 创建一个新的文档实例
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 将字体名称设为“ Calibri”
+// 设置字体名称为"Calibri"
 builder.Font.Name = "Calibri";
 builder.Writeln("qText");
 
 //ExStep:2-
 // 访问第一个运行的字体
 Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
-// 将行间距输出到控制台
+// 输出线距离到控制台
 Console.WriteLine($"lineSpacing = {font.LineSpacing}");
 //ExEnd

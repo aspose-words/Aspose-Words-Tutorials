@@ -1,8 +1,8 @@
 ---
-title: تطبيق الحدود المخطط إلى جدول في كلمة باستخدام Aspose.Words
+title: تطبيق الحدود الخطوط المخططية على جدول في Word باستخدام Aspose.Words
 weight: 7700
 limit: 
-description: تعلم كيفية تطبيق حدود المخطط التفصيلي على جدول في Word باستخدام Aspose.Words for .NET. قم بوسط الجدول وإضافة حدود خضراء وملء الخلايا بخلفية خضراء فاتحة.
+description: تعلم كيفية تطبيق الحدود الخطوطية على جدول في Word باستخدام Aspose.Words ل .NET. مركز الجدول، إضافة الحدود الخضراء، وملأ الخلايا مع خلفية خضراء خفيفة.
 keywords: [Aspose.Words for .NET, Word table formatting, outline border, apply table border, table shading, .NET Word library]
 url: /ar/net/working-with-table-styles-and-formatting/apply-outline-border/
 ---
@@ -10,9 +10,9 @@ url: /ar/net/working-with-table-styles-and-formatting/apply-outline-border/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تطبيق الحدود المخطط إلى جدول في كلمة باستخدام Aspose.Words
+# تطبيق الحدود الخطوط المخططية على جدول في Word باستخدام Aspose.Words
 
-Apose.Words for .NET هي مكتبة قوية لمعالجة مستندات Word. يوضح هذا المثال كيفية تنسيق جدول من خلال تطبيق حدود المخطط التفصيلي ، وتركيز الجدول ، وإضافة خلفية خضراء فاتحة إلى خلايا الجدول. سواء كنت تعمل مع مستندات Word المعقدة أو تحتاج إلى تحكم دقيق في التنسيق ، فإن Apose.Words يبسط العملية. قم بتحسين مستندات Word برمجيًا باستخدام ميزات قوية وقابلة للتخصيص توفرها هذه المكتبة.
+Aspose.Words لـ .NET هي مكتبة قوية لمعالجة وثائق Word. يوضح هذا المثال كيفية تنسيق جدول من خلال تطبيق حدود الخطوط المخططة ، وتركيز الجدول ، وإضافة خلفية خضراء خفيفة إلى خلايا الجدول. سواء كنت تعمل مع وثائق Word المعقدة أو تحتاج إلى سيطرة دقيقة على تنسيقها ، Aspose.Words تبسط العملية. تعزز وثائق Word برنامجيا مع ميزات قوية ويمكن تخصيصها التي توفرها هذه المكتبة.
 
 
 ---
@@ -22,28 +22,28 @@ Apose.Words for .NET هي مكتبة قوية لمعالجة مستندات Word
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت  
 
-### المتطلبات الأساسية:  
-1. تأكد من تثبيت .NET Framework 4.7.2 أو أحدث على نظامك.  
-2. قم بتنزيل Visual Studio وتثبيته (يوصى 2019 أو أحدث).  
+### الشروط المسبقة  
+1. تأكد من أن لديك .NET Framework 4.7.2 أو أحدث مستثمرة على نظامك.  
+2. تحميل وتثبيت Visual Studio (يتم توصية 2019 أو أحدث).  
 
 ### خطوات التثبيت  
-1. قم بتنزيل Aspose.Words لمكتبة .NET من الموقع الرسمي:[Aspose.Words لتنزيل .NET](https://releases.aspose.com/words/net/)...  
-2. قم بتثبيت المكتبة عبر NuGet Package Manager:  
-   * افتح مشروعك في Visual Studio.  
-   * انتقل إلى أدوات > NuGet Package Manager > إدارة حزم NuGet للحل.  
-   * البحث عن`أبوس.كلمات`ثم انقر فوق Install.  
-3. أضف مرجعًا إلى المكتبة في مشروعك:  
+1. قم بتنزيل Aspose.Words لمكتبة .NET من الموقع الرسمي: [Aspose.Words ل .NET تنزيل](https://releases.aspose.com/words/net/). . .  
+2. قم بتثبيت المكتبة عبر مدير الحزمات NuGet:  
+   * افتح مشروعك في (بيزوال ستوديو)  
+   * إذهب إلى أدوات > مدير حزم NuGet > إدارة حزم NuGet للحصول على الحل.  
+   * البحث عن`"تحدثوا. الكلمات"`ثم انقر فوق " إرسال "  
+3. إضافة إشارة إلى المكتبة في مشروعك:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    using System.Drawing;
    ```  
-4. تطبيق الترخيص (اختياري):  
-   لاستخدام النسخة الكاملة،[تطبيق ترخيص](https://purchase.aspose.com/temporary- license/)أو استخدام أ[تجربة مجانية](https://releases.aspose.com/words/net/)...
+4. التقدم بطلب للحصول على الترخيص (اختياري):  
+   لاستخدام النسخة الكاملة[تطبيق رخصة](https://purchase.aspose.com/temporary- license/)أو استخدام[المحاكمة المجانية](https://releases.aspose.com/words/net/). . .
    
-## انظر أيضا
-[Aspose.Word لوثائق .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word لمراجع .NET](https://reference.aspose.com/words/net/)
+## انظر أيضاً
+[Aspose.Word للمستندات .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word للمراجع .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

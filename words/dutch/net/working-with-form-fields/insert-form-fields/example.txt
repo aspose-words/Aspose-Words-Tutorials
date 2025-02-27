@@ -1,17 +1,17 @@
 //ExStart
-//ExSummary: Deze code laat zien hoe je formuliervelden invoegt in een Word-document met behulp van Aspose.Words voor .NET. In het bijzonder laat het zien hoe je een combo-vakformulierveld invoegt met vooraf gedefinieerde items.
-//ExStepSummary:0: De volgende code laat zien hoe je een nieuw Word-document aanmaakt.
-//ExStepSummary:1: De volgende code laat zien hoe je een DocumentBuilder initialiseert voor het bewerken van het document.
-//ExStepSummary:2: De volgende code laat zien hoe je een combo box formulierveld kunt definiëren en invoegen met vooraf gedefinieerde items en een standaard selectie.
+//ExSummaryDeze code toont hoe formuliervelden in een Word document te plaatsen met behulp van Aspose.Words voor .NET. Speciaal, laat het zien hoe een combo box formulierveld met vooraf gedefinieerde items te plaatsen.
+//ExStepSummary:0: De volgende code toont hoe een nieuw Word-document wordt gemaakt.
+//ExStepSummary:1: De volgende code toont aan hoe een DocumentBuilder voor het bewerken van het document moet worden geïnitieerd.
+//ExStepSummary:2: De volgende code toont aan hoe een combo box formulierveld met vooraf gedefinieerde items en een standaardselectie moet worden gedefinieerd en ingevoegd.
 //ExStepImage:0:images/1.png
 //ExStepImage:1:images/2.png
 //ExStep:0-
-// Initialiseer een leeg Word-document
+// Initiaal een leeg Word document
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Definieer en plaats een combo box formulierveld
+// Definieer en voeg een combo box formulierveld in
 string[] items = { "One", "Two", "Three" };
 builder.InsertComboBox("DropDown", items, 0);
 //ExEnd

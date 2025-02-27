@@ -1,25 +1,25 @@
 //ExStart
-//ExSummary: Ce code montre comment créer un document Word en utilisant Aspose.Words, appliquer un style de paragraphe, et enregistrer le document. Il montre comment définir un style de titre pour un paragraphe et enregistrer le document au format .docx.
-//ExStepSummary:0: Cette section initialise une nouvelle instance Document et DocumentBuilder.
-//ExStepSummary:1: Cette section applique un style de paragraphe Titre en utilisant le DocumentBuilder.
-//ExStepSummary:2: Cette section écrit "Bonjour" au document.
-//ExStepSummary:3: Cette section enregistre le document dans un chemin de fichier spécifié.
+//ExSummaryCe code montre comment créer un document Word à l'aide de Aspose.Words, appliquer un style de paragraphe et enregistrer le document. Il montre comment définir un style de titre pour un paragraphe et enregistrer le document au format .docx.
+//ExStepSummary:0: Cette section initie une nouvelle instance de Document et DocumentBuilder.
+//ExStepSummary:1: Cette section applique un style de paragraphe titre à l'aide du DocumentBuilder.
+//ExStepSummary:2: Cette section écrit "bonjour" au document.
+//ExStepSummary:3: Cette section sauvegarde le document dans un chemin de fichier spécifié.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Initialiser une nouvelle instance Document
+// Initialement d' une nouvelle instance de document
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Définissez le style du paragraphe au titre
+// Régler le style du paragraphe au titre
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Title;
 
 //ExStep:2-
-// Écrivez "Bonjour" en utilisant le constructeur, en appliquant le style spécifié
+// Écrivez "Hello" en utilisant le constructeur, en appliquant le style spécifié
 builder.Write("Hello");
 
 //ExStep:3-
-// Enregistrer le document dans un fichier .docx
+// Enregistrez le document dans un fichier .docx
 doc.Save("DocumentFormatting.ApplyParagraphStyle.docx");
 //ExEnd

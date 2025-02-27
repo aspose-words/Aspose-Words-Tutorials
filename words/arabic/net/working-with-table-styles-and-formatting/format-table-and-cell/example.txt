@@ -1,12 +1,12 @@
 //ExStart
-//ExSummaryيوضح هذا الكود كيفية إنشاء مستند Word مع جدول يحتوي على أنماط حدود وظلال مختلفة لخلاياه.
-//ExStepSummary:0: تهيئة المستند وDocumentBuilder لإنشاء مستند Word جديد.
-//ExStepSummary:1: بدء جدول جديد وتعيين الحدود للجدول بأكمله.
-//ExStepSummary:2: إضافة الخلية الأولى مع التظليل الخلفية الحمراء والنص.
-//ExStepSummary:3: إضافة الخلية الثانية مع التظليل الخلفية الخضراء والنص.
-//ExStepSummary:4: إنهاء الصف الأول ومسح تنسيق الخلية السابقة.
-//ExStepSummary:5: أضف صفًا جديدًا بحدود أكبر مخصصة للخلية الأولى.
-//ExStepSummary:6: إضافة الخلية الثانية من الصف الجديد مع التنسيق الافتراضي والنص.
+//ExSummary: هذا الرمز يظهر كيفية إنشاء مستند Word مع جدول لديه أنماط مختلفة للخلايا.
+//ExStepSummary:0: قم بتشغيل المستند والمدير المستند لإنشاء مستند Word الجديد.
+//ExStepSummary:1: ابدأ طاولة جديدة ووضع الحدود للوجه كله
+//ExStepSummary:2: أضف الخلية الأولى مع ظل الخلفية الحمراء والنص.
+//ExStepSummary:3: إضافة الخلية الثانية مع ظل الخلفية الخضراء والنص.
+//ExStepSummary:4: إنهاء الصف الأول و مسح تشكيل الخلية السابقة.
+//ExStepSummary:5: إضافة صف جديد مع الحدود المخصصة أكبر للخلية الأولى.
+//ExStepSummary:6: إضافة الخلية الثانية من الصف الجديد مع تنسيق افتراضي والنص.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -14,50 +14,50 @@
 //ExStepImage:5:images/5.png
 
 //ExStep:0-
-// أنشئ مستندًا جديدًا.
+// إعداد وثيقة جديدة.
 Document doc = new Document();
-// إنشاء DocumentBuilder للتلاعب بالمستند.
+// قم بإنشاء مُصنع وثائق للتلاعب بالوثيقة.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// ابدأ طاولة جديدة.
+// ابدأ طاولة جديدة
 Table table = builder.StartTable();
-// أدخل الخلية الأولى في الجدول.
+// ادخل الخلية الأولى في الطاولة
 builder.InsertCell();
-// ضع حدودًا للمائدة بأكملها.
+// حدد الحدود للوضع الكامل
 table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
 
 //ExStep:2-
-// اضبط لون خلفية الخلية على اللون الأحمر.
+// حدد لون الخلفية للخلية إلى الأحمر.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
 builder.Writeln("Cell #1");
-// أدخل الخلية الثانية.
+// ادخل الخلية الثانية
 builder.InsertCell();
 
 //ExStep:3-
-// اضبط لون خلفية الخلية على اللون الأخضر.
+// حدد لون الخلفية للخلية إلى الأخضر.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
 builder.Writeln("Cell #2");
-// إنهاء الصف الحالي.
+// إنهاء الصف الحالي
 builder.EndRow();
 
 //ExStep:4-
-// امسح أي تنسيق خلية للبدء من جديد.
+// إزالة أي تشكيل الخلية للبدء من جديد.
 builder.CellFormat.ClearFormatting();
-// أدخل خلية جديدة في الصف التالي.
+// إدخل خلية جديدة في الصف التالي
 builder.InsertCell();
-// إنشاء حدود أكبر للخلية الأولى من هذا الصف.
+// قم بإنشاء حدود أكبر للخلية الأولى من هذا الصف.
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;
 builder.CellFormat.Borders.Top.LineWidth = 4.0;
 builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
 builder.Writeln("Cell #3");
 //ExStep:5-
-// أدخل الخلية الرابعة.
+// أدخل الخلية الرابعة
 builder.InsertCell();
 builder.CellFormat.ClearFormatting();
 builder.Writeln("Cell #4");
 //ExStep:6-
-// احفظ المستند.
+// احتفظ بالوثيقة
 doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
 //ExEnd

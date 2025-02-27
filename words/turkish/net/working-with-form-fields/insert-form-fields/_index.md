@@ -1,8 +1,8 @@
 ---
-title: Combo Box Form Alanını Word Belgesine Ekle
+title: Word Belgesine Combo Box Form Alanı Ekle
 weight: 7700
 limit: 
-description: Bir Word belgesine .NET için Aspose.Words kullanarak bir combo kutu form alanını nasıl yerleştireceğinizi öğrenin. Kod örnekleri ve önceden tanımlanmış öğelerle adım adım kılavuz.
+description: Word belgesine bir kombinasyon kutu formu alanını .NET için Aspose.Words kullanarak nasıl ekleyeceğini öğrenin.
 keywords: [Aspose.Words for .NET, insert combo box, form field, Word document, .NET example, combo box predefined items, C# code example, Word form fields]
 url: /tr/net/working-with-form-fields/insert-form-fields/
 ---
@@ -10,41 +10,41 @@ url: /tr/net/working-with-form-fields/insert-form-fields/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Combo Box Form Alanını Word Belgesine Ekle
+# Word Belgesine Combo Box Form Alanı Ekle
 
-Aspose.NET için Words, Word belgelerini programlı olarak oluşturmayı ve yönlendirmeyi kolaylaştırır. Bu örnekte, bir Word belgesine bir combo kutusu form alanı nasıl ekleyeceğinizi öğreneceksiniz. Combo kutusu, varsayılan bir seçim seti ile "Bir", "İki" ve "Üç" gibi önceden tanımlanmış öğeleri içerir. Bu adım adım öğretici, kullanımı gösterir`DocumentBuilder`dinamik, etkileşimli Word belgeleri zahmetsizce oluşturmak için. Özelleştirilebilir Word formları ile .NET uygulamalarını geliştirmek isteyen geliştiriciler için mükemmel.  
+.NET için Aspose.Words programsal olarak Word belgeleri oluşturmayı ve manipüle etmeyi kolaylaştırır. Bu örnekte, Word belgesine bir kombinasyon kutu formu alanını nasıl ekleyeceğinizi öğreneceksiniz.`DocumentBuilder`Dinamik, etkileşimli Word belgeleri çalışmadan oluşturmak için.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-form-fields/insert-form-fields" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum Talimatları  
+## Kurulum talimatları  
 
-Örneği kullanmak için, geliştirme ortamınıza yüklenen .NET için Aspose.Words'a ihtiyacınız var. Şu adımları izleyin:  
+Örnek kullanmak için, geliştirme ortamınızda .NET için Aspose.Words kurulması gerekir. Bu adımları izleyin:  
 
-1. .NET için Aspose.Words İndir  
-   En son sürümü alın[İndirmeleri Kabul Et](https://releases.aspose.com/words/net/)sayfa.  
+1. .NET için Aspose.Words indir  
+   [İndirmelerini Göster](https://releases.aspose.com/words/net/)Sayfa.  
 
-2. NuGet üzerinden yükleyin  
-   Projenizi Visual Studio'da açın ve NuGet Paket Yöneticisi'ni kullanarak kütüphaneyi kurun:  
-   * Paket Yöneticisi Konsolunda, tip:  
+2. NuGet üzerinden yükle  
+   Projeyi Visual Studio'da açın ve NuGet Paket Yöneticisi kullanarak kütüphaneni yükleyin:  
+   * Paket Yöneticisi Konsolu'nda:  
      ```bash  
      Install-Package Aspose.Words  
      ```  
 
-3. Lisans Uygula (İsteğe Bağlı)  
-   Tam işlevsellik için, bir lisans uygulayın:  
-   * Bir lisans satın almak için[Aspose Satın Al](https://purchase.aspose.com/buy)sayfa veya istek a[Geçici Lisans](https://purchase.aspose.com/temporary-license/).  
-   * Lisansı kodunuza yükleyin:  
+3. Lisans başvurusu (Önlü)  
+   Tam fonksiyonellik için lisans uygulayın:  
+   * Lisansı satın alın .[Almayı Arzu Et](https://purchase.aspose.com/buy)sayfa veya bir [Geçici İzin](https://purchase.aspose.com/temporary-license/)\- Evet .  
+   * Lisansı koduna yükle:  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("path-to-license-file.lic");  
      ```  
 
-## Ayrıca Bakınız
-[.NET Dokümantasyonu için Aspose.Word](https://docs.aspose.com/words/net/)
-[.NET Referansları için Aspose.Word](https://reference.aspose.com/words/net/)
+## Ayrıca bakın
+[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

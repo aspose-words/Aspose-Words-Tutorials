@@ -1,8 +1,8 @@
 ---
-title: تعيين علامة التأكيد في مستند Word باستخدام Apose.Words لـ .NET 
+title: حدد علامة التركيز في مستند الكلمة باستخدام Aspose.Words ل .NET 
 weight: 7700
 limit: 
-description: تعلم كيفية تعيين علامة تركيز في مستندات Word باستخدام Apose.Words for .NET. يتضمن هذا الدليل خطوة بخطوة تعليمات التثبيت ورمز المثال.
+description: تعلم كيفية تعيين علامة التركيز في مستندات Word باستخدام Aspose.Words ل .NET. هذا الدليل خطوة بخطوة يتضمن تعليمات التثبيت ومثالية الرمز.
 keywords: [Aspose.Words for .NET, set emphasis mark, Word document, .NET library, document formatting, Word automation, C# examples]
 url: /ar/net/working-with-fonts/set-font-emphasis-mark/
 ---
@@ -10,9 +10,9 @@ url: /ar/net/working-with-fonts/set-font-emphasis-mark/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تعيين علامة التركيز في مستند Word باستخدام Apose.Words
+# حدد علامة التأكيد في وثيقة الكلمة باستخدام Aspose.Words
 
-يعد وضع علامة تركيز في مستندات Word طريقة ممتازة لتسليط الضوء على نص معين ، مما يضمن بروزه في المحتوى الخاص بك. مع Apose.Words for .NET ، يمكنك تطبيق علامات التركيز دون عناء ، مثل دائرة صلبة ، باستخدام بضعة أسطر من التعليمات البرمجية. يوضح هذا المثال كيفية استخدام`بناء المستندBuilder`فئة لمعالجة مستندات Word ، وتنسيق النص مع علامات التركيز ، وحفظ النتيجة بتنسيق DOCX. اتبع هذا الدليل لتبسيط مهام تنسيق المستند بدقة احترافية.
+إن وضع علامة التركيز في مستندات Word هو وسيلة ممتازة لتسليط الضوء على نص محدد، وضمان أن يبرز في المحتوى الخاص بك. مع Aspose.Words ل .NET، يمكنك بسهولة تطبيق علامات التركيز، مثل تحت دائرة صلبة، باستخدام عدد قليل من خطوط الكود. هذا المثال يوضح كيفية استخدام `المستخدم`طبقة للتلاعب في مستندات Word، وتصميم النص مع علامات التركيز، وتحفظ النتيجة في شكل DOCX. اتبع هذا الدليل لتبسيط مهام تصميم المستندات الخاصة بك بدقة مهنية.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-fonts/set-font-emphasis-mark" >}}
@@ -20,33 +20,33 @@ url: /ar/net/working-with-fonts/set-font-emphasis-mark/
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت  
-لتشغيل مثال التعليمات البرمجية المقدم واستخدام Apose.Words for .NET ، اتبع الخطوات التالية:  
+لتشغيل مثال الرمز المقدم واستخدام Aspose.Words ل .NET، اتبع هذه الخطوات:  
 
-1. قم بتنزيل Apose.Words لـ .NET:  
-   * الحصول على المكتبة من[فرض الإفراجات](https://releases.aspose.com/words/net/)صفحة.  
+1. قم بتنزيل Aspose.Words لـ .NET:  
+   * احصل على المكتبة من[إطلاقات التفريغ](https://releases.aspose.com/words/net/)الصفحة  
 
-2. تثبيت المكتبة:  
-   * تثبيته عبر مدير حزمة NuGet في Visual Studio:  
-     * افتح Visual Studio.  
-     * انتقل إلى أدوات > مدير حزمة NuGet > إدارة حزم NuGet للحل.  
-     * البحث عن`أبوس.كلمات`ثم انقر فوق Install.  
+2. قم بتثبيت المكتبة:  
+   * قم بتثبيته عبر مدير الحزمات NuGet في Visual Studio:  
+     * افتح استوديو "بيزيوال".  
+     * الملاحة إلى أدوات > مدير حزم NuGet > إدارة حزم NuGet للحصول على الحل.  
+     * البحث عن`"تحدثوا. الكلمات"`ثم انقر فوق " إرسال "  
 
-   * بدلاً من ذلك ، استخدم وحدة التحكم NuGet Package Manager:  
+   * بدلاً من ذلك، استخدم جهاز إدارة الحزم NuGet:  
      ```shell
      Install-Package Aspose.Words
      ```  
 
-3. قم بإعداد ترخيص مؤقت (اختياري):  
-   * للاستخدام غير المقيد ، احصل على[رخصة حرة مؤقتة](https://purchase.aspose.com/temporary-license/)...  
-   * قم بتطبيق الترخيص في مشروعك:  
+3. إعداد رخصة مؤقتة (اختيارية):  
+   * لاستخدام غير مقيد، احصل على[رخصة مؤقتة مجانية](https://purchase.aspose.com/temporary-license/). . .  
+   * تطبيق الترخيص في مشروعك:  
      ```csharp
      var license = new Aspose.Words.License();
      license.SetLicense("Aspose.Words.lic");
      ```  
    
-## انظر أيضا
-[Aspose.Word لوثائق .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word لمراجع .NET](https://reference.aspose.com/words/net/)
+## انظر أيضاً
+[Aspose.Word للمستندات .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word للمراجع .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

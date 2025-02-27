@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary: Questo codice dimostra come creare un documento di Word con una tabella in stile usando Aspose.Words. 
-//ExStepSummary:0: Inizializzare un nuovo documento e DocumentBuilder.
-//ExStepSummary:1: Avviare una nuova tabella e inserire le celle di intestazione per "Nome" e "Valore."
-//ExStepSummary:2: Crea uno stile TableStyle personalizzato con specifiche impostazioni di bordo e imbottitura.
-//ExStepSummary:3: Salva il documento con il nuovo stile della tabella applicato.
+//ExSummary: Questo codice mostra come creare un documento Word con una tabella con stile utilizzando Aspose.Words. 
+//ExStepSummary:0: Inizia un nuovo Documento e DocumentBuilder.
+//ExStepSummary:1: Inizia una nuova tabella e inserisci le celle di intestazione per "Nome" e "Vale".
+//ExStepSummary:2: Crea un TableStyle personalizzato con impostazioni specifiche di confine e rivestimento.
+//ExStepSummary:3: Salvare il documento con il nuovo stile di tabella applicato.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
 // Crea un nuovo oggetto Documento
 Document doc = new Document();
-// Inizializza la compilazione del documento per creare il documento
+// Inizia la documentazione per creare il documento
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Avvia una nuova tabella
+// Inizia un nuovo tavolo
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Name");
@@ -25,20 +25,20 @@ builder.InsertCell();
 builder.EndTable();
 
 //ExStep:2-
-// Crea un nuovo stile di tabella
+// Crea un nuovo stile di tavolo
 TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Borders.LineStyle = LineStyle.Double;
-// Imposta la larghezza del bordo
+// Impostare la larghezza del confine
 tableStyle.Borders.LineWidth = 1;
-// Imposta l'imbottitura
+// Imposta la cuscinetta
 tableStyle.LeftPadding = 18;
 tableStyle.RightPadding = 18;
 tableStyle.TopPadding = 12;
 tableStyle.BottomPadding = 12;
-// Applica lo stile personalizzato della tabella alla tabella creata
+// Applicare lo stile di tabella personalizzato alla tabella creata
 table.Style = tableStyle;
 
 //ExStep:3-
-// Salva il documento con la tabella in stile
+// Salvare il documento con la tabella di stile
 doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
 //ExEnd

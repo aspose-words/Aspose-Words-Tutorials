@@ -1,42 +1,42 @@
 //ExStart
-//ExSummary: Dieser Code zeigt, wie man ein Word-Dokument mit einer Tabelle mit Aspose.Words erstellt. Es erstellt eine Tabelle mit zwei Zeilen und verschiedenen Zelltext-Orientierungen und -Formaten.
-//ExStepSummary:0: Der folgende Code initialisiert ein neues Dokument und einen Dokument-Builder.
-//ExStepSummary:1: Der folgende Code startet eine neue Tabelle und fügt die erste Zeile der Zellen ein.
-//ExStepSummary:2: Der folgende Code konfiguriert die Formatierung für die zweite Zeile und ihre Zellen.
-//ExStepSummary:3: Der folgende Code konfiguriert die Formatierung für die zweite Zeile und ihre Zellen.
+//ExSummaryDieser Code zeigt, wie man ein Word-Dokument mit einer Tabelle mit Aspose.Words erstellt. Es erstellt eine Tabelle mit zwei Zeilen und verschiedenen Zelltextorientierungen und -formaten.
+//ExStepSummary:0: Der folgende Code initialisiert einen neuen Dokument- und Dokumentenbauer.
+//ExStepSummary:1: Der folgende Code startet eine neue Tabelle und fügt die erste Zeile ein.
+//ExStepSummary:2: Der folgende Code konfiguriert die Formatierung der zweiten Zeile und ihrer Zellen.
+//ExStepSummary:3: Der folgende Code konfiguriert die Formatierung der zweiten Zeile und ihrer Zellen.
 //ExStepSummary:4: Der folgende Code beendet die Tabelle und speichert das Dokument in eine Datei.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 
 //ExStep:0-
-// Initialisieren eines neuen Dokumentobjekts
+// Ein neues Dokumentobjekt initialisieren
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Eine neue Tabelle starten
+// Beginnen Sie einen neuen Tisch
 Table table = builder.StartTable();
-// Erste Zelle beginnen
+// Beginnen Sie die erste Zelle
 builder.InsertCell();
-// Vertikale Ausrichtung für die erste Zelle einstellen
+// Einstellung der vertikalen Ausrichtung für die erste Zelle
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
 builder.Write("This is row 1 cell 1");
-// Zweite Zelle einfügen
+// Zwei Zellen einfügen
 builder.InsertCell();
 builder.Write("This is row 1 cell 2");
 builder.EndRow();
 
 //ExStep:2-
-// Eine Zelle für die zweite Zeile einfügen
+// Einzug einer Zelle für die zweite Zeile
 builder.InsertCell();
-// Formatierung für die zweite Zeile einrichten
+// Konfiguration der Formatierung für die zweite Zeile
 builder.RowFormat.Height = 100;
 builder.RowFormat.HeightRule = HeightRule.Exactly;
 builder.CellFormat.Orientation = TextOrientation.Upward;
 builder.Writeln("This is row 2 cell 1");
 //ExStep:3-
-// Zweite Zelle für die zweite Zeile einfügen
+// Fügen Sie die zweite Zelle für die zweite Zeile ein
 builder.InsertCell();
 builder.CellFormat.Orientation = TextOrientation.Downward; 
 builder.Writeln("This is row 2 cell 2");
@@ -44,8 +44,8 @@ builder.EndRow();
 builder.EndTable();
 
 //ExStep:4-
-// Auto-fit der Tabelle mit festen Spaltenbreiten
+// Automatische Anpassung der Tabelle mit festen Spaltenbreiten
 table.AutoFit(AutoFitBehavior.FixedColumnWidths);
-// Das Dokument in eine Datei speichern
+// Speichern Sie das Dokument in eine Datei
 doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");
 //ExEnd

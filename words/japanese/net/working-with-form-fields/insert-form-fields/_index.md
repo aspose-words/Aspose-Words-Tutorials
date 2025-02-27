@@ -1,8 +1,8 @@
 ---
-title: ワードドキュメントにコンボボックスフォームフィールドを挿入
+title: Word ドキュメントにコンボボックスフォームフィールドを挿入する
 weight: 7700
 limit: 
-description: コンボボックスのフィールドを、単語ドキュメントに Asfof.words.NET を使って挿入する方法を学びます。
+description: Word ドキュメントにコンボボックスフォームフィールドを挿入する方法について.NETのAspose.Wordsを使用して学びます. コード例と事前に定義されたアイテムをステップバイ・ステップガイド.
 keywords: [Aspose.Words for .NET, insert combo box, form field, Word document, .NET example, combo box predefined items, C# code example, Word form fields]
 url: /ja/net/working-with-form-fields/insert-form-fields/
 ---
@@ -10,41 +10,41 @@ url: /ja/net/working-with-form-fields/insert-form-fields/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ワードドキュメントにコンボボックスフォームフィールドを挿入
+# Word ドキュメントにコンボボックスフォームフィールドを挿入する
 
-アクセシビリティ.NET の用語は、Word ドキュメントの作成や操作を容易にします。この例では、コンボボックスのフィールドをワードドキュメントに挿入する方法を学びます。コンボボックスには「1」、「2」、「3」など、あらかじめ定義されている項目を含むものです。このステップを踏まえると、Word ドキュメントの活用が簡単にできます。`ドキュメントビルダー`をクリックして、動的かつ対話的なワードドキュメントを作成します。 カスタマイズ可能なワードフォームで NET アプリケーションを拡張しようとする開発者に適しています。  
+.NET の Aspose.Words は,Word 文書をプログラム的に作成し操作することを簡単にする.この例では,Word 文書にコンボ ボックス フォームフィールドを挿入する方法について学びます.コンボ ボックスは,デフォルト選択セット付きの"One","Two,"と"Three",などの既定項目を含む.このステップバイ・ステップ・チュートリアルでは,`ドキュメントビルダー`動的でインタラクティブな Word 文書を effortlessly作成する. 開発者向けに最適です.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-form-fields/insert-form-fields" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## インストールインジケータ  
+## 設置指示  
 
-この例を使用するには、開発環境にインストールされている .NET 用の asfox.words が必要です。次の手順に従ってください。  
+開発環境でインストールされている .NET のAspose.Wordsが必要です.  
 
-1. Asfof.words for NET をダウンロード  
-   このページから最新バージョンを取得[アクセシビリティダウンロード](https://releases.aspose.com/words/net/)を参照してください。  
+1. .NET のためのAspose.Wordsをダウンロードする  
+   最新バージョンを入手してください[ダウンロードを目的とする](https://releases.aspose.com/words/net/)ページ  
 
-2. NuGet によるインストール  
-   プロジェクトをビジュアルスタジオにオープンし、NuGet パッケージマネージャを使ってライブラリをインストールします:  
-   * パッケージマネージャのコンソールに次のタイプがあります:  
+2. NuGet を介してインストール  
+   プロジェクトをVisual Studioで開き,NuGet パッケージ管理器を使用してライブラリをインストールします.  
+   * パッケージ管理コンソールで,入力します:  
      ```bash  
      Install-Package Aspose.Words  
      ```  
 
-3. ライセンスを適用する (オプション)  
-   完全な機能については、ライセンスを適用する:  
-   * )から免許を取得し,[買い入れ を する](https://purchase.aspose.com/buy)ページまたは[一時ライセンス](https://purchase.aspose.com/temporary-license/))をいう.  
-   * コードのライセンスを読み込みます:  
+3. ライセンス申請 (オプション)  
+   完全な機能のために,ライセンスを適用してください.  
+   * ライセンスを購入する[購入する目標](https://purchase.aspose.com/buy)ページまたは要求する[暫定許可証](https://purchase.aspose.com/temporary-license/)やってくれ  
+   * ライセンスコードに載せ  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("path-to-license-file.lic");  
      ```  
 
-## また、参照してください。
-[Asforce. NET ドキュメンテーション用用語](https://docs.aspose.com/words/net/)
-[access. ^ a b c d e f g h i ". NET インフォメーション".](https://reference.aspose.com/words/net/)
+## また見てください
+[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
+[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

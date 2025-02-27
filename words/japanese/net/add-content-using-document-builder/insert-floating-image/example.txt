@@ -1,16 +1,16 @@
 //ExStart
-//ExSummary: このコードは、単語ドキュメントを作成し、 asfof.words を使って浮動小数点配列でイメージを挿入する方法を示します。
-//ExStepSummary:0: 以下のコードが、新しいドキュメントとドキュメントビルダーを初期化します。
-//ExStepSummary:1: 以下のコードがドキュメントに画像を挿入します。
-//ExStepSummary:2: 以下のコードは、ドキュメントを指定した場所に保存します。
+//ExSummary: このコードでは,Word文書を作成し, Aspose.Wordsを使用して浮動レイアウトの画像を挿入する方法を示します.
+//ExStepSummary:0: 次のコードは新しいドキュメントとドキュメントビルダーを初期化します.
+//ExStepSummary:1: 次のコードは,文書に画像を挿入します.
+//ExStepSummary:2: 次のコードは,文書を指定された場所に保存します.
 //ExStepImage:1:images/1.png
 //ExStep:0-
-// 新しい文書インスタンスを作成
+// 新しいドキュメントインスタンスを作成
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 指定したパスから画像を挿入
+// 指定されたパスから画像を挿入する
 builder.InsertImage(ImagesDir + "Transparent background logo.png", 
     RelativeHorizontalPosition.Margin,
     100, 
@@ -21,6 +21,6 @@ builder.InsertImage(ImagesDir + "Transparent background logo.png",
     WrapType.Square); 
 
 //ExStep:2-
-// ドキュメントを指定したファイルに保存
+// 文書を指定したファイルに保存する
 doc.Save("AddContentUsingDocumentBuilder.InsertFloatingImage.docx");
 //ExEnd

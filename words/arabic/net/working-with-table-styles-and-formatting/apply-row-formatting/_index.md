@@ -1,8 +1,8 @@
 ---
-title: تطبيق تنسيق الصف في مستندات Word باستخدام Apose.Words for .NET
+title: تطبيق تشكيل الصفوف في مستندات الكلمة مع Aspose.Words ل .NET
 weight: 7700
 limit: 
-description: تعلم كيفية تطبيق تنسيق الصف في مستند Word باستخدام Apose.Words for .NET. دليل خطوة بخطوة مع مثال التعليمات البرمجية والتعليمات التفصيلية.
+description: تعلم كيفية تطبيق تنسيق الصفوف في مستند Word باستخدام Aspose.Words ل .NET. دليل خطوة بخطوة مع مثال على الشفرة وال تعليمات مفصلة.
 keywords: [Aspose.Words for .NET, row formatting Word, apply row format, Word document table styling, .NET Word document example, Aspose.Words tutorial, table row padding, Word document programming]
 url: /ar/net/working-with-table-styles-and-formatting/apply-row-formatting/
 ---
@@ -10,9 +10,9 @@ url: /ar/net/working-with-table-styles-and-formatting/apply-row-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تطبيق تنسيق الصف في مستندات Word باستخدام Apose.Words
+# تطبيق تشكيل الصفوف في مستندات الكلمة مع Aspose.Words
 
-تقدم Apose.Words for .NET أدوات قوية لإنشاء مستندات Word وتعديلها برمجيًا. في هذا المثال ، نوضح كيفية تطبيق تنسيق الصف في مستند Word باستخدام Apose.Words. سوف تتعلم ضبط ارتفاعات الصف وتكوين الحشو وتطبيق التنسيق الدقيق لإنشاء جداول جيدة التنظيم. يتضمن هذا الدليل خطوة بخطوة مقتطفات التعليمات البرمجية والتعليمات لمساعدتك على تنفيذ هذه الميزات بسرعة في تطبيقات .NET الخاصة بك.
+Aspose.Words لـ .NET يوفر أدوات قوية لإنشاء وتعديل وثائق Word برنامجيا. في هذا المثال، نظهر كيفية تطبيق تنسيق الصف في مستند Word باستخدام Aspose.Words. سوف تتعلم كيفية تحديد ارتفاع الصف، وتكوين التشبيه، وتطبيق تنسيق دقيق لإنشاء جداول بنية جيدة. هذا الدليل خطوة بخطوة يتضمن اقتباسات رمزية وتعليمات لمساعدتك على تنفيذ هذه الميزات بسرعة في تطبيقات .NET الخاصة بك.
 
 
 ---
@@ -21,34 +21,34 @@ url: /ar/net/working-with-table-styles-and-formatting/apply-row-formatting/
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت  
-لاستخدام Apose.Words لـ .NET في مشروعك ، اتبع الخطوات التالية:  
+لاستخدام Aspose.Words ل .NET في مشروعك، اتبع هذه الخطوات:  
 
-1. قم بتنزيل Apose.Words لـ .NET  
-   * زيارة الموقع[Apose.Words لصفحة تنزيل .NET](https://releases.aspose.com/words/net/)قم بتنزيل أحدث إصدار.
+1. قم بتنزيل Aspose.Words لـ .NET  
+   * زيارة[Aspose.Words لصفحة تنزيل .NET](https://releases.aspose.com/words/net/)و تنزيل أحدث النسخة
 
-2. تثبيت عبر NuGet  
-   * افتح مشروعك في Visual Studio.  
-   * انتقل إلى أدوات > NuGet Package Manager > إدارة حزم NuGet للحل.  
-   * البحث عن`أبوس.كلمات`ثم انقر فوق Install.
+2. إثباط عبر NuGet  
+   * افتح مشروعك في (بيزوال ستوديو)  
+   * إذهب إلى أدوات > مدير حزم NuGet > إدارة حزم NuGet للحصول على الحل.  
+   * البحث عن`"تحدثوا. الكلمات"`ثم انقر فوق " إرسال "
 
-3. تضمين مساحة الاسم  
-   * أضف السطر التالي إلى الكود الخاص بك:  
+3. إدراج مساحة الأسماء  
+   * إضافة الخط التالي إلى رمزك:  
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Tables;
      ```
 
-4. تفعيل الترخيص (اختياري)  
-   * لتجنب قيود التقييم ، تقدم بطلب للحصول على[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)أو شراء أ[الترخيص الكامل](https://purchase.aspose.com/buy)...  
-   * قم بتحميل الترخيص في الكود الخاص بك:  
+4. تنشيط الترخيص (اختياري)  
+   * لتجنب قيود التقييم، اطلب طلب[رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)أو شراء[رخصة كاملة](https://purchase.aspose.com/buy). . .  
+   * قم بتحميل الترخيص في رمزك:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```
 	 
-## انظر أيضا
-[Aspose.Word لوثائق .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word لمراجع .NET](https://reference.aspose.com/words/net/)
+## انظر أيضاً
+[Aspose.Word للمستندات .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word للمراجع .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

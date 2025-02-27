@@ -1,25 +1,25 @@
 //ExStart
-//ExSummary: يوضح هذا الرمز كيفية إنشاء مستند Word باستخدام جدول باستخدام Apose.Words. يبني جدولًا به صفان وتوجهات وأشكال نصية مختلفة للخلية.
-//ExStepSummary:0: يؤدي الكود التالي إلى تهيئة مستند جديد ومنشئ مستندات جديد.
-//ExStepSummary:1: يبدأ الرمز التالي جدولًا جديدًا ويدرج الصف الأول من الخلايا.
-//ExStepSummary:2: يقوم الكود التالي بتكوين التنسيق للصف الثاني وخلاياه.
-//ExStepSummary:3: يقوم الكود التالي بتكوين التنسيق للصف الثاني وخلاياه.
-//ExStepSummary:4: الكود التالي ينهي الجدول ويحفظ المستند في ملف.
+//ExSummary: هذا الرمز يظهر كيفية إنشاء مستند Word مع جدول باستخدام Aspose.Words. يُنشئ جدولًا يضم صفين ومختلفة توجيهات نص الخلية ومصيغها.
+//ExStepSummary:0: الرمز التالي يبدأ صانع وثيقة جديدة ومصنع وثائق.
+//ExStepSummary:1: يبدأ الرمز التالي جدولًا جديدًا ويضع الصف الأول من الخلايا.
+//ExStepSummary:2: يحدد الرمز التالي تنسيق الصف الثاني وخلاياها.
+//ExStepSummary:3: يحدد الرمز التالي تنسيق الصف الثاني وخلاياها.
+//ExStepSummary:4: الرمز التالي ينتهي الجدول ويحفظ الوثيقة في ملف.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 
 //ExStep:0-
-// تهيئة كائن مستند جديد
+// إعادة تشغيل كائن وثيقة جديد
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// ابدأ منضدة جديدة
+// ابدأ طاولة جديدة
 Table table = builder.StartTable();
 // ابدأ الخلية الأولى
 builder.InsertCell();
-// اضبط المحاذاة الرأسية للخلية الأولى
+// حدد التوجه الرقمي للخلية الأولى
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
 builder.Write("This is row 1 cell 1");
 // إدراج الخلية الثانية
@@ -28,15 +28,15 @@ builder.Write("This is row 1 cell 2");
 builder.EndRow();
 
 //ExStep:2-
-// أدخل خلية للصف الثاني
+// إدراج خلية للسلسلة الثانية
 builder.InsertCell();
-// اضبط التهيئة للصف الثاني
+// إعداد تنسيق الصف الثاني
 builder.RowFormat.Height = 100;
 builder.RowFormat.HeightRule = HeightRule.Exactly;
 builder.CellFormat.Orientation = TextOrientation.Upward;
 builder.Writeln("This is row 2 cell 1");
 //ExStep:3-
-// إدراج خلية ثانية للصف الثاني
+// إدراج الخلية الثانية للسلسلة الثانية
 builder.InsertCell();
 builder.CellFormat.Orientation = TextOrientation.Downward; 
 builder.Writeln("This is row 2 cell 2");
@@ -44,8 +44,8 @@ builder.EndRow();
 builder.EndTable();
 
 //ExStep:4-
-// اضبط الجدول تلقائيًا بعرض عمود ثابت
+// التثبيت التلقائي للجدول مع عرض العمود الثابت
 table.AutoFit(AutoFitBehavior.FixedColumnWidths);
-// احفظ المستند في ملف
+// حفظ الوثيقة في ملف
 doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");
 //ExEnd

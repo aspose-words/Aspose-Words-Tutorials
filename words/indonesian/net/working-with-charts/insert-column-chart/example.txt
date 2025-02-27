@@ -1,29 +1,29 @@
 //ExStart
-//ExSummary: Kode ini menunjukkan bagaimana memasukkan bagan kolom ke dalam dokumen menggunakan Aspose.Words. Ini menciptakan dokumen,
-//          tambah bagan dengan kategori dan nilai yang didefinisikan, lalu simpan dokumen.
-//ExStepSummary:0: Kode berikut menginisialisasi dokumen baru dan pembuat dokumen.
-//ExStepSummary:1: Langkah ini mencakup memasukkan bagan kolom dengan dimensi yang ditentukan ke dalam dokumen.
-//ExStepSummary:2: Di sini, data seri ditambahkan ke bagan dengan kategori dan nilai-nilai yang berhubungan.
-//ExStepSummary:3: Langkah ini menyimpan dokumen dengan bagan yang dimasukkan ke lokasi berkas yang ditentukan.
+//ExSummary: Kode ini menunjukkan bagaimana memasukkan grafik kolom ke dalam dokumen menggunakan Aspose.Words. Ini membuat dokumen,
+//          menambahkan grafik dengan kategori dan nilai yang ditentukan, dan kemudian menyimpan dokumen.
+//ExStepSummary:0: Kode berikut ini menginisialisasikan dokumen baru dan pembuat dokumen.
+//ExStepSummary:1: Langkah ini melibatkan memasukkan grafik kolom dengan dimensi yang ditentukan ke dalam dokumen.
+//ExStepSummary:2: Di sini, data seri ditambahkan ke grafik dengan kategori dan nilai yang sesuai.
+//ExStepSummary:3: Langkah ini menyimpan dokumen dengan grafik yang dimasukkan ke lokasi file yang ditentukan.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Inisialisasikan suatu objek Dokumen baru
+// Mulai menginisialisasikan objek Dokumen baru
 Document doc = new Document();
-// Buat Dokumen Builder untuk manipulasi dokumen yang mudah
+// Buat DocumentBuilder untuk mudah memanipulasi dokumen
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Sisipkan bagan kolom pada ukuran yang dinyatakan (tinggi lebar x)
+// Masukan grafik kolom pada ukuran yang ditentukan (luhur x tinggi)
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 
 //ExStep:2-
-// Mengakses objek bagan dari bentuk yang disisipkan
+// Akses objek grafik dari bentuk yang dimasukkan
 Chart chart = shape.Chart;
 // Tambahkan data seri dengan kategori dan nilai
 chart.Series.Add("Aspose Series 1", new string[] { "Category 1", "Category 2" }, new double[] { 1, 2 });
 
 //ExStep:3-
-// Simpan dokumen dengan bagan kolom yang disisipkan
+// Simpan dokumen dengan grafik kolom yang dimasukkan
 doc.Save("WorkingWithCharts.InsertColumnChart.docx"); 
 //ExEnd

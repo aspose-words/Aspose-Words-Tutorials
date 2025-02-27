@@ -1,50 +1,50 @@
 //ExStart
-//ExSummary: Dieser Code zeigt, wie man Zeilenformatierung in einem Word-Dokument mit Aspose.Words anwendet.
-//ExStepSummary:0: Initialisiert ein neues Dokument und beginnt mit dem Aufbau einer Tabelle mit formatierten Zeilen.
-//ExStepSummary:1: Konfiguriert das Zeilenformat.
-//ExStepSummary:2: Konfiguriert die spezifischen Höheneinstellungen.
-//ExStepSummary:3: Setzt die Polsterung für die gesamte Tabelle, die alle Zeilen betrifft.
-//ExStepSummary:4: Schreibt Text in die Tabellenzelle und beendet die Zeile.
-//ExStepSummary:5: Ergänzt den Tabellenaufbau und speichert das Dokument.
+//ExSummary: Dieser Code zeigt, wie man die Zeilenformatierung in einem Word-Dokument mit Aspose.Words anwenden kann.
+//ExStepSummary:0: Ein neues Dokument initialisiert und beginnt mit dem Aufbau einer Tabelle mit formatisierten Zeilen.
+//ExStepSummary:1: Konfiguration des Zeilenformats.
+//ExStepSummary:2: Konfiguration der spezifischen Höhenanforderungen.
+//ExStepSummary:3: Setz die Polsterung für den gesamten Tisch, die alle Reihen betrifft.
+//ExStepSummary:4: Schreibt Text in die Tischzelle und beendet die Zeile.
+//ExStepSummary:5: Er beendet den Tischbauprozess und speichert das Dokument.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// Ein neues Dokument erstellen
+// Erstellen Sie ein neues Dokument
 Document doc = new Document();
-// Erstellen eines DocumentBuilders zur Änderung des Dokuments
+// Erstellen Sie einen Dokumentersteller, um das Dokument zu ändern
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Eine neue Tabelle starten
+// Beginnen Sie einen neuen Tisch
 Table table = builder.StartTable();
-// Eine neue Zelle in die Tabelle einfügen
+// Einfügen Sie eine neue Zelle in die Tabelle
 builder.InsertCell();
 //ExStep:2-
-// Zugriff auf die Zeilenformatierungseigenschaften
+// Zugriff auf die Zeilenformatungs-Eigenschaften
 RowFormat rowFormat = builder.RowFormat;
-// Die Höhe der Zeile einstellen
+// Setzen Sie die Höhe der Zeile
 rowFormat.Height = 100;
 // Geben Sie an, dass die Höhe genau ist
 rowFormat.HeightRule = HeightRule.Exactly;
 
 //ExStep:3-
-// Polsterung für den Tisch einstellen
+// Setz die Polsterung für den Tisch
 table.LeftPadding = 30; 
 table.RightPadding = 30;
 table.TopPadding = 30;
 table.BottomPadding = 30;
 
 //ExStep:4-
-// Text in die Zelle schreiben
+// Schreiben Sie Text in die Zelle
 builder.Writeln("I'm a wonderful formatted row.");
-// Beenden Sie die aktuelle Zeile
+// Ende der aktuellen Zeile
 builder.EndRow();
-// Beenden Sie das Tischgebäude
+// End das Tischgebäude
 builder.EndTable();
 
 //ExStep:5-
-// Dokument speichern
+// Speichern Sie das Dokument
 doc.Save("WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
 //ExEnd

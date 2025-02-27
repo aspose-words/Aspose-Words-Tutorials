@@ -1,8 +1,8 @@
 //ExStart
 //ExSummary: Ce code montre comment insérer une image dans l'en-tête d'un document Word en utilisant Aspose.Words pour .NET.
-//ExStepSummary:0: Créez un nouveau document Word en utilisant la classe Aspose.Words Document.
-//ExStepSummary:1: Déplacez-vous dans l'en-tête principal du document en utilisant le DocumentBuilder.
-//ExStepSummary:2: Insérez une image dans l'en-tête avec des options d'alignement, de dimensions et d'emballage spécifiques.
+//ExStepSummary:0: Créez un nouveau document Word à l'aide de la classe Document Aspose.Words.
+//ExStepSummary:1: Passez à l'en-tête principal du document en utilisant le DocumentBuilder.
+//ExStepSummary:2: Insérer une image dans l'en-tête avec des options d'alignement, de dimensions et d'emballage spécifiques.
 //ExStepSummary:3: Enregistrez le document dans un chemin de fichier spécifié.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
@@ -12,11 +12,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Déplacez le curseur vers l'en-tête principal du document
+// déplacer le curseur vers l'en-tête principal du document
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
 //ExStep:2-
-// Insérez une image dans l'en-tête avec un alignement et des dimensions spécifiques
+// Insérer une image dans l'en-tête avec un alignement et des dimensions spécifiques
 builder.InsertImage(
     ImagesDir + "Logo.jpg", RelativeHorizontalPosition.RightMargin, 10,
     RelativeVerticalPosition.Page, 10, 50, 50, 

@@ -1,21 +1,21 @@
 //ExStart
-//ExSummary: Kode ini menunjukkan bagaimana menambahkan sebuah watermark teks dengan pilihan spesifik ke dokumen Word menggunakan Aspose.Words.
-//ExStepSummary:0: Kode berikut menginisialisasi path dokumen dan membuat objek Dokumen baru.
-//ExStepSummary:1: Kode berikut memberikan pilihan untuk tanda air teks, termasuk keluarga fonta, ukuran, warna, dan tata letak.
-//ExStepSummary:2: Kode berikut menerapkan tanda air teks dengan opsi yang ditentukan untuk dokumen.
-//ExStepSummary:3: Kode berikut menyimpan dokumen yang dimodifikasi ke direktori yang ditentukan.
+//ExSummary: Kode ini menunjukkan cara menambahkan watermark teks dengan opsi tertentu ke dokumen Word menggunakan Aspose.Words.
+//ExStepSummary:0: Kode berikut ini menginisialisasi jalur dokumen dan membuat objek dokumen baru.
+//ExStepSummary:1: Kode berikut menetapkan opsi untuk watermark teks, termasuk keluarga font, ukuran, warna, dan tata letak.
+//ExStepSummary:2: Kode berikut menerapkan tanda air teks dengan opsi yang ditentukan pada dokumen.
+//ExStepSummary:3: Kode berikut menyimpan dokumen yang dimodifikasi ke direktori tertentu.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStep:0-
-// Menentukan lokasi direktori dokumen
+// Tentukan jalur direktori untuk dokumen
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Muat dokumen Word
+// Mengunggah dokumen Word
 Document doc = new Document(dataDir + "Document.docx");
 
 //ExStep:2-
-// Buat pilihan tanda air
+// Buat opsi watermark
 TextWatermarkOptions options = new TextWatermarkOptions()
 {
     FontFamily = "Arial", // Set font family for the watermark text
@@ -26,10 +26,10 @@ TextWatermarkOptions options = new TextWatermarkOptions()
 };
 
 //ExStep:3-
-// Terapkan teks tanda air dengan pilihan
+// Menggunakan teks watermark dengan opsi
 doc.Watermark.SetText("Test", options);
 
 //ExStep:4-
-// Simpan dokumen dengan tanda air
+// Simpan dokumen dengan watermark
 doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
 //ExEnd

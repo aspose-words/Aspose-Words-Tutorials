@@ -1,8 +1,8 @@
 //ExStart
-//ExSummary: Bu kod, bir belgenin nasıl oluşturulacağını ve belirtilen bir yazı tipinin satır aralığını nasıl elde edeceğini gösterir.
-//ExStepSummary:0: Aşağıdaki kod yeni bir Document ve DocumentBuilder'ı başlatır.
-//ExStepSummary:1: Kod, yazı tipini "Calibri" olarak ayarlar ve bir metin satırı ekler.
-//ExStepSummary:2: Kod, belgedeki ilk çalıştırmanın satır aralığını alır.
+//ExSummaryBu kod bir belgeyi nasıl oluşturulacağını ve belirtilen bir yazı tipi çizgi aralığını nasıl elde edileceğini gösterir.
+//ExStepSummary:0: Aşağıdaki kod yeni bir Belge ve Belge Oluşturucu'nu başlatır.
+//ExStepSummary:1: Kod şifreyi "Calibri" olarak ayarlar ve bir metin satırı ekler.
+//ExStepSummary:2: Kod, belgedeki ilk çalışmanın çizgi aralarını alır.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
@@ -11,13 +11,13 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Yazı tipi adını 'Calibri' olarak ayarlayın
+// Yazı tipi adını 'Calibri'ye ayarlayın
 builder.Font.Name = "Calibri";
 builder.Writeln("qText");
 
 //ExStep:2-
-// İlk çalıştırmanın yazı tipine erişin
+// İlk çalışmanın fontına eriş
 Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
-// Satır aralığını konsola aktar
+// Konsol için çizgi boşluğu çıkart
 Console.WriteLine($"lineSpacing = {font.LineSpacing}");
 //ExEnd

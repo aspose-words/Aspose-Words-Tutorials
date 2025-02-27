@@ -1,8 +1,8 @@
 ---
-title: 在单词文档中应用行格式, 附加. NET 的文字文件。 words for. NET
+title: 在 Word 文档中使用 .NET 用Aspose.Words应用行格式化
 weight: 7700
 limit: 
-description: 学习如何在 Word 文档中应用行格式格式, 使用 Apose. words for. NET. 逐步指南, 配有代码示例和详细说明。
+description: 学习如何在Word文档中应用行格式化,使用 .NET的Aspose.Words. 步骤指南,包含代码示例和详细指令.
 keywords: [Aspose.Words for .NET, row formatting Word, apply row format, Word document table styling, .NET Word document example, Aspose.Words tutorial, table row padding, Word document programming]
 url: /zh/net/working-with-table-styles-and-formatting/apply-row-formatting/
 ---
@@ -10,9 +10,9 @@ url: /zh/net/working-with-table-styles-and-formatting/apply-row-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 应用行格式在单词文档中应用附加的行格式。 Words
+# 在 Word 文档中使用Aspose.Words应用行格式化
 
-用于 .NET 的 words 为编程创建和修改 Word 文档提供了强大的工具。 在此示例中, 我们演示了如何使用 Aspose. words 在 Word 文档中应用行格式 。 您将学会设置行高、 配置布局, 并应用精确的格式来创建结构完善的表格 。 此分步指南包含代码片断和指示, 以帮助您在您的. NET 应用程序中快速执行这些特性 。
+对于 .NET 提供了创建和编辑Word文档的强大的工具. 在本例中,我们将展示如何使用Aspose.Words来应用Word文档中的行格式化.您将学习设置行高度,配置填充,并应用精确的格式化,以创建结构良好的表格.本步骤指南包括代码摘录和说明,以帮助您快速实现这些功能在您的 .NET 应用中.
 
 
 ---
@@ -20,35 +20,35 @@ url: /zh/net/working-with-table-styles-and-formatting/apply-row-formatting/
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## 安装指示  
-要在您的工程中使用.NET 的文字, 请遵循这些步骤 :  
+## 装备说明  
+为了在项目中使用 .NET 的Aspose.Words,请按照以下步骤进行:  
 
-1. 下载位置。 . NET 的 words  
-   * 访问[选择。 . NET 下载页面的 words](https://releases.aspose.com/words/net/)并下载最新版本。
+1. 为了 .NET,下载Aspose.Words  
+   * 访问[对于 .NET 下载页面的Aspose.Words](https://releases.aspose.com/words/net/)接下来,我们可以下载最新版本.
 
-2. 通过 NuGet 安裝  
-   * 在视觉工作室打开您的项目 。  
-   * 转到工具 > Nuget 软件包管理器 > 管理 Nuget 软件包以解决问题 。  
-   * 搜索搜索`表达式 。`并单击安装。
+2. 通过 NuGet 安装  
+   * 在视觉工作室打开你的项目.  
+   * 进入工具> NuGet 包管理器> 管理 NuGet 包解决方案.  
+   * 搜索`"回答. 字"`然后点击安装.
 
-3. 包含命名空间  
-   * 在代码中添加以下行:  
+3. 包含名字空间  
+   * 加入以下行在代码中:  
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Tables;
      ```
 
-4. 激活许可( 可选)  
-   * 为了避免评价限制,申请[临时许可证](https://purchase.aspose.com/temporary-license/)或购买a[完全许可证许可证](https://purchase.aspose.com/buy). .  
-   * 将驾照装入您的代码 :  
+4. 激活许可证 (可选)  
+   * 为了避免评估限制,请申请[临时许可证](https://purchase.aspose.com/temporary-license/)或购买一个[完整的许可证](https://purchase.aspose.com/buy)现在,我们要去.  
+   * 装载许可证在你的代码:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```
 	 
-## 另见
-[位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)
-[位置。 编辑到. NET 引用](https://reference.aspose.com/words/net/)
+## 查看
+[设置.Word为 .NET文档](https://docs.aspose.com/words/net/)
+[标用.NET引用的Word](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,8 +1,8 @@
 ---
-title: Word Belgesine Alan Çizelgesi Ekle Aspose.Words for .NET
+title: Word Belgesine Bölge Çarşı Ekle .NET için Aspose.Words
 weight: 7700
 limit: 
-description: .NET için Aspose.Words kullanarak bir Word belgesine bir alan grafiğinin nasıl yerleştirileceğini öğrenin. Kod örnekleri ve görsellerle adım adım talimatları izleyin.
+description: .NET için Aspose.Words kullanarak bir Word belgesine bir alan çizelgesini nasıl ekleyeceğinizi öğrenin.
 keywords: [Aspose.Words for .NET, insert area chart, Word document chart, area chart example, C# Word chart tutorial, Aspose.Words charting, Word chart example]
 url: /tr/net/working-with-charts/insert-area-chart/
 ---
@@ -10,42 +10,42 @@ url: /tr/net/working-with-charts/insert-area-chart/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word Belgesine Alan Çizelgesi Ekle 
+# Word Belgesine Alan Çarşısı Ekle 
 
-Aspose.NET için Word'ler, Word belgelerine dinamik ve görsel olarak çekici grafikler eklemeyi kolaylaştırır. Bu öğretici, bir alan çizelgesinin bir Word belgesine programatik olarak nasıl yerleştirileceğini gösterir. Verilen adım adım kılavuz, belgenin başlatılmasını, bir alan çizelgesinin eklenmesini, özel veri noktalarıyla veri dizisi eklenmesini ve nihai belgenin kaydedilmesini içerir. Belge otomasyon iş akışlarını grafik yetenekleriyle geliştirmek isteyen geliştiriciler için mükemmeldir.
+.NET için Aspose.Words dinamik ve görsel olarak çekici tablolar eklemeni kolaylaştırır. Bu öğretim kitabı bir Word belgesine bir alan çizelgesini programsal olarak nasıl ekleyeceğinizi gösterir. Verilen adım adım rehberinde belge başlangıç yapılması, bir alan çizelgesi eklemesi, özel veri noktaları ile veri dizisi eklemesi ve son belgeyi kaydetmek içerir.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/bounds-of-axis" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum Talimatları  
+## Kurulum talimatları  
 
-Bu örneği takip etmek için, Aspose.Words for .NET yüklü olduğundan emin olun. İşte nasıl başlanacağı:  
+Bu örneği takip etmek için .NET için Aspose.Words yüklendiğinden emin olun.  
 
-1. .NET için Aspose.Words İndir:  
-   Ziyaret edin[Aspose.Words indirme sayfası](https://releases.aspose.com/words/net/)ve en son sürümü indirin.  
+1. .NET için Aspose.Words indir:  
+   Ziyaret edin .[Aspose.Words indirme sayfası](https://releases.aspose.com/words/net/)Ve en son versiyonu indir.  
 
-2. NuGet Paket Yöneticisi aracılığıyla yükleyin:  
-   Projenizi Visual Studio'da açın ve Paket Yöneticisi Konsolu'nda aşağıdaki komutu çalıştırın:  
+2. NuGet Paket Yöneticisi üzerinden yükle:  
+   Projeyi Visual Studio'da açın ve Paket Yöneticisi Konsolu'nda aşağıdaki komutu çalıştırın:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-3. Lisans Başvurusu (İsteğe Bağlı):  
-   Değerlendirme sınırlamaları olmadan tam işlevsellik için, bir lisans uygulayın. Lisans satın al[İşte.](https://purchase.aspose.com/buy)veya talep a[ücretsiz geçici lisans](https://purchase.aspose.com/temporary-license).  
+3. Lisans başvurusu (Önemli):  
+   Değerlendirme sınırlamaları olmadan tam işlevsellik için lisans başvurun.[\- Evet.](https://purchase.aspose.com/buy)veya bir [ücretsiz geçici lisans](https://purchase.aspose.com/temporary-license)\- Evet .  
 
-4. İsim Alanı Ekle Referanslar:  
-   Projenize aşağıdaki ad alanlarının dahil edildiğinden emin olun:  
+4. Ad Alanı İpuçlarını Ekle:  
+   Projenize aşağıdaki isim alanlarının dahil edildiğinden emin olun:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    using Aspose.Words.Drawing.Charts;
    ```  
 
-## Ayrıca Bakınız
-[.NET Dokümantasyonu için Aspose.Word](https://docs.aspose.com/words/net/)
-[.NET Referansları için Aspose.Word](https://reference.aspose.com/words/net/)
+## Ayrıca bakın
+[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

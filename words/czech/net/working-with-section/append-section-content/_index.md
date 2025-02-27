@@ -1,8 +1,8 @@
 ---
-title: Přidávat a prepend obsah v textových dokumentech pomocí Aspose.Words
+title: Přidání a předkládání obsahu do dokumentů Word pomocí Aspose.Words
 weight: 7700
 limit: 
-description: Naučte se, jak připojit a prepend obsah mezi sekcemi v dokumentech Word pomocí Aspose.Words pro .NET. Průvodce krok za krokem s jasnými ukázkami kódu.
+description: Naučte se přidávat a předkládat obsah mezi sekcemi v dokumentech Word pomocí Aspose.Words pro .NET.
 keywords: [Aspose.Words for .NET, append content, prepend content, Word document sections, manipulate sections, .NET Word library]
 url: /cs/net/working-with-section/append-section-content/
 ---
@@ -10,47 +10,47 @@ url: /cs/net/working-with-section/append-section-content/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidávat a prepend obsah v textových dokumentech
+# Přidání a přepínání obsahu do dokumentů Word
 
-Aspose.Words for .NET je silná knihovna pro vytváření, manipulaci a transformaci Word dokumentů v .NET aplikacích. Tento příklad ukazuje, jak připojit a prepend obsah z jedné sekce do druhé v dokumentu Word. Použitím jednoduchých a intuitivních API, můžete manipulovat úseky, sloučit obsah, a provádět pokročilé úkoly editace dokumentů hladce. Ať už stavíte automatizační pracovní postupy nebo vlastní editory dokumentů, Aspose.Words zjednodušuje váš vývojový proces.  
+Aspose.Words pro .NET je výkonná knihovna pro vytváření, manipulaci a transformaci dokumentů Word v aplikacích .NET. Tento příklad ukazuje, jak přidat a předkládat obsah z jednoho oddílu do druhého v dokumentu Word. Použitím jednoduchých a intuitivních API můžete manipulovat s oddíly, sloučit obsah a bezproblémově provádět pokročilé úkoly úpravy dokumentů. Ať už vytváříte automatické pracovní toky nebo přizpůsobené editory dokumentů, Aspose.Words zjednodušuje váš vývojový proces.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-section/append-section-content" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Návod k instalaci  
+## Příkazy na instalaci  
 
 Chcete-li použít Aspose.Words pro .NET, postupujte podle těchto kroků:  
 
-1. Stáhnout Aspose.Words:  
-   * Navštivte[Aspose.Words pro .NET stáhnout stránku](https://releases.aspose.com/words/net/)získat nejnovější verzi.  
+1. Sundejte Aspose.Words:  
+   * Navštivte [Aspose.Words pro stránku s stažením .NET](https://releases.aspose.com/words/net/)\- Aby se dostala nejnovější verze.  
 
-2. Nainstalujte přes NuGet správce balíčků:  
-   * Otevřete si svůj projekt .NET ve Visual Studio.  
-   * Navigovat do menu Nástroje > NuGet Package Manager > Spravovat NuGet balíčky pro řešení.  
+2. Instalace prostřednictvím programu NuGet Package Manager:  
+   * Otevři svůj projekt .NET v Visual Studio.  
+   * Přejďte do menu nástroje > Správce balíček NuGet > Správte balíčky NuGet pro řešení.  
    * Hledat "Aspose.Words" v NuGet Package Manager.  
-   * Vyberte balíček a klikněte na Instalovat.  
+   * Vyberte balíček a klikněte na Instaliru.  
 
-3. Zahrnout požadované jmenné prostory:  
+3. Zahrnout požadované názevové prostory:  
    - Add the necessary `using` directives to your C# file:  
      ```csharp  
      using Aspose.Words;  
      using Aspose.Words.Saving;  
      ```  
 
-4. Přidat licenci:  
-   * Pokud jste si zakoupili licenci, použijte ji pomocí následujícího kódu:  
+4. Přidejte licenci:  
+   * Pokud jste si zakoupili licenci, použijte ji pomocí následujícího snipetu kódu:  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("Aspose.Words.lic");  
      ```  
-   * Pro hodnocení nebo testování, můžete požádat o[bezplatná dočasná licence](https://purchase.aspose.com/temporary-license/).  
+   * Pro hodnocení nebo testování můžete požádat o [bezplatné dočasné povolení](https://purchase.aspose.com/temporary-license/)\- Ne , ne .  
 
 
-## Také viz
-[Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Reference](https://reference.aspose.com/words/net/)
+## Viz také
+[Aspose.Word pro .NET dokumentaci](https://docs.aspose.com/words/net/)
+[Aspose.Word pro reference .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

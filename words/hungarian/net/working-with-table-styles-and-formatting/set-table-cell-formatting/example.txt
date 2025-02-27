@@ -1,44 +1,44 @@
 //ExStart
-//ExSummary: A következő kód bemutatja, hogyan hozhat létre és formázhat táblázatot egy Word dokumentumban a DocumentBuilder osztály használatával az Aspose.Words- ból.
-//ExStepSummary:0: Új dokumentum és DocumentBuilder inicializálása a Word-dokumentum felépítésének megkezdéséhez.
-//ExStepSummary:1: Hozzon létre egy táblázatot, és helyezzen be egy cellát a formázáshoz.
-//ExStepSummary:2: Állítsa be a cella formázási tulajdonságait, beleértve a párnázást és a szélességet.
-//ExStepSummary:3: Helyezzen be szöveget a formázott cellába.
-//ExStepSummary:4: Zárja be a sort és a táblázatot, és mentse a dokumentumot egy megadott fájl elérési útjára.
+//ExSummary: A következő kód bemutatja, hogyan lehet létrehozni és formázni egy táblázatot a Word dokumentumban a DocumentBuilder osztályt használva a Aspose.Words programból.
+//ExStepSummary:0: Indítsa be egy új Dokumentumot és DocumentBuilder-t, hogy elkezdje a Word dokumentum építését.
+//ExStepSummary:1: Készítsen egy táblázatot és adja be egy sejtet a formázásra.
+//ExStepSummary:2: A sejt formátum tulajdonságait, beleértve a paddlinget és a szélességet.
+//ExStepSummary:3: Beillesztse a szöveget a formázott cellába.
+//ExStepSummary:4: A sor és a táblázat befejezése, és a dokumentumot egy meghatározott fájl útvonalra menteni.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Új dokumentumobjektum létrehozása
+// Új Dokumentum- objektum létrehozása
 Document doc = new Document();
-// A DocumentBuilder inicializálása az új dokumentummal
+// A dokumentumszervező új dokumentummal kezdődik
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Hozzon létre egy táblázatot
+// Kezdje létrehozni egy asztalt
 builder.StartTable();
-// Az első cella beszúrása a táblázatba
+// Beillesztjük az első sejtet a táblázatba
 builder.InsertCell();
 
 //ExStep:2-
-// A cella formázási tulajdonságainak elérése
+// A sejt formátum tulajdonságainak elérése
 CellFormat cellFormat = builder.CellFormat;
-// A cella szélességének beállítása
+// A cellák szélességének beállítás
 cellFormat.Width = 250;
-// Állítsa be a párnázást
+// Állítsd be a paddlinget.
 cellFormat.LeftPadding = 30;
 cellFormat.RightPadding = 30;
 cellFormat.TopPadding = 30;
 cellFormat.BottomPadding = 30;
 
 //ExStep:3-
-// Szöveg beillesztése a cellába
+// szöveg behelyezése a cellába
 builder.Writeln("I'm a wonderful formatted cell.");
 
 //ExStep:4-
-// A táblázat aktuális sorának befejezése
+// A táblázat jelenlegi sorának befejezése
 builder.EndRow();
-// Az asztal létrehozásának befejezése
+// A táblázat létrehozásának befejezése
 builder.EndTable();
 // A dokumentum mentése
 doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");

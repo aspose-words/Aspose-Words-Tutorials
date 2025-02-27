@@ -1,21 +1,21 @@
 //ExStart
-//ExSummary: Questo codice dimostra come aggiungere una filigrana di testo con opzioni specifiche a un documento di Word utilizzando Aspose.Words.
-//ExStepSummary:0: Il seguente codice inizializza il percorso del documento e crea un nuovo oggetto del documento.
-//ExStepSummary:1: Il seguente codice imposta le opzioni per la filigrana del testo, tra cui la famiglia di font, le dimensioni, il colore e il layout.
-//ExStepSummary:2: Il seguente codice applica la filigrana del testo con le opzioni specificate al documento.
+//ExSummary: Questo codice mostra come aggiungere un watermark di testo con specifiche opzioni a un documento Word utilizzando Aspose.Words.
+//ExStepSummary:0: Il seguente codice inizializza il percorso del documento e crea un nuovo oggetto Documento.
+//ExStepSummary:1: Il seguente codice imposta le opzioni per il watermark di testo, inclusa la famiglia di caratteri, la dimensione, il colore e il layout.
+//ExStepSummary:2: Il seguente codice applica il segnale d'acqua di testo con le opzioni specificate al documento.
 //ExStepSummary:3: Il seguente codice salva il documento modificato in una directory specificata.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStep:0-
-// Imposta il percorso della directory per il documento
+// Imposta il percorso della directory del documento
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Carica il documento Word
+// Caricare il documento Word
 Document doc = new Document(dataDir + "Document.docx");
 
 //ExStep:2-
-// Crea opzioni filigrana
+// Crea le opzioni di watermark
 TextWatermarkOptions options = new TextWatermarkOptions()
 {
     FontFamily = "Arial", // Set font family for the watermark text
@@ -26,10 +26,10 @@ TextWatermarkOptions options = new TextWatermarkOptions()
 };
 
 //ExStep:3-
-// Applicare il testo della filigrana con le opzioni
+// Applicare il testo del watermark con opzioni
 doc.Watermark.SetText("Test", options);
 
 //ExStep:4-
-// Salva il documento con la filigrana
+// Salvare il documento con il watermark
 doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
 //ExEnd

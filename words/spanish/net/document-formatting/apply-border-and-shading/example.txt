@@ -1,20 +1,20 @@
 //ExStart
-//ExSummary: Este código muestra cómo aplicar bordes y sombreado a un párrafo en un documento de Word usando Aspose.Words.
-//ExStepSummary:0: El siguiente código inicializa una nueva instancia de DocumentBuilder y DocumentBuilder.
-//ExStepSummary:1: El siguiente código configura los bordes del párrafo con una distancia desde el texto.
-//ExStepSummary:2: El siguiente código aplica un sombreado diagonal de textura cruzada al párrafo con colores especificados.
-//ExStepSummary:3: El siguiente código escribe un párrafo formateado con la configuración aplicada.
-//ExStepSummary:4: El siguiente código guarda el documento en la ruta de salida especificada.
+//ExSummary: Este código muestra cómo aplicar límites y sombras a un párrafo en un documento de Word utilizando Aspose.Words.
+//ExStepSummary:0: El siguiente código inicia una nueva instancia de Document y DocumentBuilder.
+//ExStepSummary:1: El siguiente código configura los límites del párrafo con una distancia del texto.
+//ExStepSummary:2: El siguiente código aplica un sombreado de textura transversal diagonal al párrafo con colores especificados.
+//ExStepSummary:3: El siguiente código escribe un párrafo formateado con las configuraciones aplicadas.
+//ExStepSummary:4: El siguiente código guarda el documento en el camino de salida especificado.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Inicializa un nuevo documento
+// Iniciar un nuevo documento
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Acceso a las fronteras del párrafo
+// Acceso a las fronteras del apartado
 BorderCollection borders = builder.ParagraphFormat.Borders;
 borders.DistanceFromText = 20;
 borders[BorderType.Left].LineStyle = LineStyle.Double;
@@ -23,17 +23,17 @@ borders[BorderType.Top].LineStyle = LineStyle.Double;
 borders[BorderType.Bottom].LineStyle = LineStyle.Double;
 
 //ExStep:2-
-// Acceda a las propiedades de sombreado de párrafos
+// Acceso a las propiedades de sombreado de párrafo
 Shading shading = builder.ParagraphFormat.Shading;
 shading.Texture = TextureIndex.TextureDiagonalCross;
 shading.BackgroundPatternColor = System.Drawing.Color.LightCoral; 
 shading.ForegroundPatternColor = System.Drawing.Color.LightSalmon;
 
 //ExStep:3-
-// Escribe el contenido del párrafo formateado
+// Escriba el contenido del párrafo en formato
 builder.Write("I'm a formatted paragraph with double border and nice shading.");
 
 //ExStep:4-
-// Guardar el documento en la ruta especificada
+// Guardar el documento en el camino especificado
 doc.Save(ArtifactsDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
 //ExEnd

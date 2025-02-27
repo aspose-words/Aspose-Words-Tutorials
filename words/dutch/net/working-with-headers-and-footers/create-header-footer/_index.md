@@ -1,8 +1,8 @@
 ---
-title: Word-document aanmaken met Header en Footer met behulp van Aspose.Words
+title: Creëer een Word Document met kop en voetstuk met behulp van Aspose.Words
 weight: 7700
 limit: 
-description: Leer hoe je een Word-document maakt met een primaire header en footer met behulp van Aspose.Words voor .NET. Stap-voor-stap handleiding met code en uitleg.
+description: Leer hoe je een Word-document met een primaire kop en voetstuk kunt maken met behulp van Aspose.Words voor .NET. Stap-voor-stap gids met code en uitleg.
 keywords: [Aspose.Words for .NET, create Word document, add header in Word, add footer in Word, Word document header and footer, .NET Word processing, Aspose.Words examples]
 url: /nl/net/working-with-headers-and-footers/create-header-footer/
 ---
@@ -10,9 +10,9 @@ url: /nl/net/working-with-headers-and-footers/create-header-footer/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word-document aanmaken met Header en Footer met behulp van Aspose.Words
+# Creëer een Word Document met kop en voetstuk met behulp van Aspose.Words
 
-Dit voorbeeld laat zien hoe u Aspose.Words voor .NET gebruikt om een Word- document te maken met een primaire header en footer. De gids voert u door middel van het initialiseren van een nieuw document, verplaatsen naar de header en footer secties, het toevoegen van aangepaste tekst, en het opslaan van het document in DOCX-formaat. Met zijn krachtige DocumentBuilder klasse, Aspose.Words maakt Word document manipulatie naadloos en efficiënt. Of u nu het toevoegen van branding elementen of paginanummers, dit voorbeeld biedt de basis voor het aanpassen van Word-documenten programmatisch.  
+Dit voorbeeld toont hoe u Aspose.Words voor .NET gebruikt om een Word-document te maken met een primaire kop en voet. De gids begeleidt u door het initialiseren van een nieuw document, het verplaatsen naar de hoofd- en voetgedeelten, het toevoegen van aangepaste tekst en het opslaan van het document in DOCX-formaat. Met zijn krachtige DocumentBuilder-klasse maakt Aspose.Words de Word-documentmanipulatie naadloos en efficiënt. Of u nu branding-elementen of pagina-nummers toevoegt, dit voorbeeld biedt de basis voor het programma-matig aanpassen van Word-documenten.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-headers-and-footers/create-header-footer" >}}
@@ -20,22 +20,22 @@ Dit voorbeeld laat zien hoe u Aspose.Words voor .NET gebruikt om een Word- docum
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installatie-instructies  
-1. Download Aspose.Words voor .NET: Krijg de nieuwste versie van de[Afwezigheid van releases pagina](https://releases.aspose.com/words/net/).  
+1. Download Aspose.Words voor .NET: haal de nieuwste versie van de [Aspose releases pagina](https://releases.aspose.com/words/net/)\- Ik heb het niet gedaan .  
 2. Installeer Aspose.Words:  
-   * Pakketbeheer NuGet gebruiken:  
+   * Gebruik NuGet Package Manager:  
      ```bash  
      Install-Package Aspose.Words  
      ```  
-   * Of de DLL handmatig verwijzen van het gedownloade pakket.  
-3. Toepassen Licentie (facultatief): Verkrijgen van een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/)of een volledige licentie van[Aanschaf mogelijk maken](https://purchase.aspose.com/buy)en pas het toe in uw project:  
+   * Of handmatig verwijzen naar de DLL uit het gedownloade pakket.  
+3. Aanvragen van een licentie (optioneel): Verzamelen van een [tijdelijke vergunning](https://purchase.aspose.com/temporary-license/)of een volledige licentie van [Koop een doelwit](https://purchase.aspose.com/buy)en het toepassen in uw project:  
    ```csharp  
    License license = new License();  
    license.SetLicense("Aspose.Words.lic");  
    ```    
 
 ## Zie ook
-[Aspose.Word voor .NET Documentatie](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referenties](https://reference.aspose.com/words/net/)
+[Aspose.Word voor .NET-documentatie](https://docs.aspose.com/words/net/)
+[Aspose.Word voor .NET Referenties](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

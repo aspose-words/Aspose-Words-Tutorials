@@ -1,8 +1,8 @@
 ---
-title: Infoga formulärfält för kombinationsruta i Word- dokument
+title: Lägg in ett formulärfält i Word- dokumentet
 weight: 7700
 limit: 
-description: Lär dig hur man infogar en kombinationsruta formulärfält i ett Word-dokument med Aspose.Words för .NET. Steg-för-steg guide med kodexempel och fördefinierade objekt.
+description: Lär dig hur man lägger in ett kombinationsfält i ett Word-dokument med hjälp av Aspose.Words för .NET. Steg för steg guide med kodexempel och fördefinierade objekt.
 keywords: [Aspose.Words for .NET, insert combo box, form field, Word document, .NET example, combo box predefined items, C# code example, Word form fields]
 url: /sv/net/working-with-form-fields/insert-form-fields/
 ---
@@ -10,41 +10,41 @@ url: /sv/net/working-with-form-fields/insert-form-fields/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Infoga formulärfält för kombinationsruta i Word- dokument
+# Lägg in ett formulärfält i Word- dokumentet
 
-Apose.Words for .NET gör det enkelt att skapa och manipulera Word-dokument programmatiskt. I det här exemplet lär du dig hur man infogar en kombinationsruta formulärfält i ett Word-dokument. Kombinationsrutan innehåller fördefinierade objekt som "En", "Två", och "Tre", med en förvald markering. Denna steg-för-steg handledning visar användningen av`Dokumentuppbyggnad`för att skapa dynamiska, interaktiva Word-dokument utan ansträngning. Perfekt för utvecklare som vill förbättra sina .NET-program med anpassningsbara Word-formulär.  
+Aspose.Words för .NET gör det enkelt att skapa och manipulera Word-dokument programmatiskt. I detta exempel lär du dig hur man lägger in ett kombinationsfält i ett Word-dokument.`Dokumentbyggare`Perfekt för utvecklare som vill förbättra sina .NET-applikationer med anpassningsbara Word-formulär.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-form-fields/insert-form-fields" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Monteringsanvisningar  
+## Installationsinstruktioner  
 
-För att använda exemplet behöver du Aspose.Words för .NET installerat i din utvecklingsmiljö. Följ dessa steg:  
+För att använda exemplet behöver du Aspose.Words för .NET installerad i din utvecklingsmiljö. Följ dessa steg:  
 
 1. Ladda ner Aspose.Words för .NET  
-   Få den senaste versionen från[Upprätthålla nerladdningar](https://releases.aspose.com/words/net/)sida.  
+   Få den senaste versionen från [Sätt nedladdningar](https://releases.aspose.com/words/net/)\- På sidan.  
 
-2. Installera via NuGet  
+2. Installa via NuGet  
    Öppna ditt projekt i Visual Studio och installera biblioteket med NuGet Package Manager:  
-   * I pakethanterarens konsol, skriv:  
+   * I paketet förvaltarkonsolen skriv in:  
      ```bash  
      Install-Package Aspose.Words  
      ```  
 
-3. Verkställ licens (valfritt)  
-   För full funktionalitet, tillämpa en licens:  
-   * Köp en licens från[Antaget köp](https://purchase.aspose.com/buy)sida eller begära en[Tillfällig licens](https://purchase.aspose.com/temporary-license/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
-   * Ladda licensen i din kod:  
+3. Ansökning om licens (alternativ)  
+   För full funktionssätt ska du ansöka om en licens:  
+   * Köpa licens från [Försök att köpa](https://purchase.aspose.com/buy)webbplats eller begära en [Tillfälligt tillstånd](https://purchase.aspose.com/temporary-license/)\- Jag är inte rädd.  
+   * Lädd licensen i din kod:  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("path-to-license-file.lic");  
      ```  
 
-## Se också
-[Antag.Ord för .NET-dokumentation](https://docs.aspose.com/words/net/)
-[Antaget.Ord för .NET-referenser](https://reference.aspose.com/words/net/)
+## Se även
+[Aspose.Word för .NET-dokumentation](https://docs.aspose.com/words/net/)
+[Aspose.Word för .NET Referenser](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

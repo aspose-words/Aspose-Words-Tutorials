@@ -1,27 +1,27 @@
 //ExStart
-//ExSummary: Dieser Code zeigt, wie man ein Word-Dokument mit einem primären Header und Footer mit Aspose.Words erstellt. Es initialisiert ein neues Dokument, bewegt sich zu den Header- und Footer-Abschnitten und schreibt benutzerdefinierten Text. Schließlich speichert es das Dokument als DOCX-Datei.
-//ExStepSummary:0: Der folgende Code initialisiert das Hauptobjekt Dokument und setzt den DocumentBuilder ein.
-//ExStepSummary:1: Der folgende Code bewegt sich in den primären Header-Abschnitt und schreibt den Header-Text.
-//ExStepSummary:2: Der folgende Code bewegt sich in den primären Fußzeilenbereich und schreibt den Fußzeilentext.
-//ExStepSummary:3: Der folgende Code speichert das Dokument in einem angegebenen Dateipfad.
+//ExSummaryDieser Code zeigt, wie man ein Word-Dokument mit einem primären Header und Fußboden mit Aspose.Words erstellt. Es initialisiert ein neues Dokument, bewegt sich in die Header- und Fußboden-Abschnitte und schreibt benutzerdefiniert Text. Schließlich speichert es das Dokument als DOCX-Datei.
+//ExStepSummary:0: Der folgende Code initialisiert das Hauptdokumentobjekt und setzt den DocumentBuilder ein.
+//ExStepSummary:1: Der folgende Code bewegt sich zum ersten Header-Abschnitt und schreibt den Header-Text.
+//ExStepSummary:2: Der folgende Code bewegt sich zum primären Fußabschnitt und schreibt den Fußabschnitt.
+//ExStepSummary:3: Der folgende Code speichert das Dokument auf einen bestimmten Dateipfad.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Initialisieren eines neuen Dokumentobjekts
+// Ein neues Dokumentobjekt initialisieren
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Zum primären Header-Abschnitt verschieben
+// Bewegen Sie sich zum Hauptext
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Write("Header for page.");
 
 //ExStep:2-
-// Auf den primären Fußbereich verschieben
+// Bewegen Sie sich zum ersten Fußbodenbereich
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("Footer for page."); // Write the footer text
 
 //ExStep:3-
-// Das Dokument mit dem angegebenen Dateinamen speichern
+// Speichern Sie das Dokument mit dem angegebenen Dateinamen
 doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
 //ExEnd

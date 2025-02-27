@@ -1,12 +1,12 @@
 //ExStart
-//ExSummary:Bu kod, hücreleri için farklı sınır ve gölgeleme stilleri olan bir tablo ile bir Word belgesinin nasıl oluşturulacağını gösterir.
-//ExStepSummary:0: Yeni bir Word belgesi oluşturmak için Belge ve Belge Yapıcısını başlatın.
-//ExStepSummary:1: Yeni bir tablo başlatın ve tüm tablo için sınırları ayarlayın.
-//ExStepSummary:2: Kırmızı arka plan gölgeleme ve metin içeren ilk hücreyi ekleyin.
-//ExStepSummary:3: Yeşil arka plan gölgeleme ve metin içeren ikinci hücreyi ekleyin.
-//ExStepSummary:4: İlk satırı sonlandırın ve önceki hücre biçimlendirmesini temizleyin.
-//ExStepSummary:5: İlk hücre için özel daha büyük sınırlara sahip yeni bir satır ekleyin.
-//ExStepSummary:6: Varsayılan biçimlendirme ve metin ile yeni satırın ikinci hücresini ekleyin.
+//ExSummary:Bu kod, hücrelerinin farklı sınır ve gölge biçimlerine sahip bir tablo ile Word belgesini nasıl oluşturulacağını gösterir.
+//ExStepSummary:0: Yeni bir Word belgesini oluşturmak için Belge ve Belge Oluşturucu'nu başlatın.
+//ExStepSummary:1: Yeni bir masa başlatın ve tüm masa için sınırları belirleyin.
+//ExStepSummary:2: İlk hücreyi kırmızı arka plan gölgesini ve metni ekleyin.
+//ExStepSummary:3: Yeşil arka plan gölgesini ve metni ile ikinci hücreyi ekleyin.
+//ExStepSummary:4: İlk satırı bitir ve önceki hücre biçimlendirmeyi temizle.
+//ExStepSummary:5: İlk hücre için özel daha büyük sınırlarla yeni bir satır ekleyin.
+//ExStepSummary:6: Öntanımlı biçimlendirme ve metin ile yeni satırın ikinci hücresini ekleyin.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -14,39 +14,39 @@
 //ExStepImage:5:images/5.png
 
 //ExStep:0-
-// Yeni bir belge oluştur.
+// Yeni bir belge oluşturun.
 Document doc = new Document();
 // Belgeyi manipüle etmek için bir DocumentBuilder oluşturun.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Yeni bir masa aç.
+// Yeni bir masa başlat.
 Table table = builder.StartTable();
-// İlk hücreyi masaya yerleştirin.
+// Masanın içine ilk hücreyi yerleştir.
 builder.InsertCell();
-// Tüm masa için sınırları ayarlayın.
+// Bütün masanın sınırlarını belirle.
 table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
 
 //ExStep:2-
-// Hücrenin arka plan rengini kırmızıya ayarlayın.
+// Hücreyi kırmızıya ayarlayın.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
 builder.Writeln("Cell #1");
-// İkinci hücreyi yerleştirin.
+// İkinci hücreyi yerleştir.
 builder.InsertCell();
 
 //ExStep:3-
-// Hücrenin arka plan rengini yeşile ayarlayın.
+// Hücrenin arka plan rengi yeşil ayarlayın.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
 builder.Writeln("Cell #2");
-// Geçerli satırı bitirin.
+// Şu anki sırayı bitir.
 builder.EndRow();
 
 //ExStep:4-
-// Taze başlamak için herhangi bir hücre biçimlendirmesini temizleyin.
+// Yeni başlamak için herhangi bir hücre biçimlendirmeyi temizleyin.
 builder.CellFormat.ClearFormatting();
-// Bir sonraki satıra yeni bir hücre ekle.
+// Bir sonraki sırada yeni bir hücre ekleyin.
 builder.InsertCell();
-// Bu satırın ilk hücresi için daha büyük sınırlar oluşturun.
+// Bu satırın ilk hücre için daha büyük sınırlar oluşturun.
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;
 builder.CellFormat.Borders.Top.LineWidth = 4.0;

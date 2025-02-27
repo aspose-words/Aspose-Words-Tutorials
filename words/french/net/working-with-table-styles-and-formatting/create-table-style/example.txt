@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary: Ce code montre comment créer un document Word avec une table de style en utilisant Aspose.Words. 
-//ExStepSummary:0: Initialiser un nouveau document et documentBuilder.
-//ExStepSummary:1: Démarrer une nouvelle table et insérer des cellules d'en-tête pour "Nom" et "Valeur".
-//ExStepSummary:2: Créez un tableau personnalisé avec des paramètres de bordure et de rembourrage spécifiques.
-//ExStepSummary:3: Enregistrer le document avec le nouveau style de table appliqué.
+//ExSummary: Ce code montre comment créer un document Word avec une table stylée à l'aide de Aspose.Words. 
+//ExStepSummary:0: Initialement un nouveau Document et DocumentBuilder.
+//ExStepSummary:1: Démarrez une nouvelle table et insérez les cellules d'en-tête pour "Nom" et "Valeur".
+//ExStepSummary:2: Créez un TableStyle personnalisé avec des paramètres spécifiques de bord et de rembourrage.
+//ExStepSummary:3: Enregistrez le document avec le nouveau style de table appliqué.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Créer un nouvel objet Document
+// Créer un nouvel objet de document
 Document doc = new Document();
-// Initialiser le documentBuilder pour construire le document
+// Initialement le constructeur de documents pour créer le document
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Démarrer une nouvelle table
+// Commencez une nouvelle table
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Name");
@@ -28,9 +28,9 @@ builder.EndTable();
 // Créer un nouveau style de table
 TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Borders.LineStyle = LineStyle.Double;
-// Régler la largeur de la bordure
+// Définir la largeur de la frontière
 tableStyle.Borders.LineWidth = 1;
-// Régler le rembourrage
+// Réglez le rembourrage
 tableStyle.LeftPadding = 18;
 tableStyle.RightPadding = 18;
 tableStyle.TopPadding = 12;
@@ -39,6 +39,6 @@ tableStyle.BottomPadding = 12;
 table.Style = tableStyle;
 
 //ExStep:3-
-// Enregistrer le document avec la table de style
+// Enregistrez le document avec la table de style
 doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
 //ExEnd

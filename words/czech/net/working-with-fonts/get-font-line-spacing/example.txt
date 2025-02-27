@@ -1,23 +1,23 @@
 //ExStart
-//ExSummary: Tento kód ukazuje, jak vytvořit dokument a získat mezeru v řádku zadaného písma.
-//ExStepSummary:0: Následující kód inicializuje nový dokument a dokumentBuilder.
+//ExSummaryTento kód ukazuje, jak vytvořit dokument a získat rozchod mezi řádky v konkrétní písmeni.
+//ExStepSummary:0: Následující kód iniciuje nový dokument a dokumentbuilder.
 //ExStepSummary:1: Kód nastaví písmo na "Calibri" a přidá řádek textu.
-//ExStepSummary:2: Kód získá vzdálenost řádků prvního chodu v dokumentu.
+//ExStepSummary:2: Kód získává rozmezí řádků prvního běhu v dokumentu.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Vytvořit novou instanci dokumentu
+// Vytvořit nový příklad dokumentu
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Nastavte název písma na 'Calibri'
+// Nastavte název písma na "Calibri"
 builder.Font.Name = "Calibri";
 builder.Writeln("qText");
 
 //ExStep:2-
-// Přístup k písmu prvního spuštění
+// Přístup k písmu prvního běhu
 Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
-// Výstupní rozestup linky do konzole
+// Vypustit odstup od konzole
 Console.WriteLine($"lineSpacing = {font.LineSpacing}");
 //ExEnd

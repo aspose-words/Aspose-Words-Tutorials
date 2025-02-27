@@ -1,8 +1,8 @@
 ---
-title: ワードアフェクトを使用してフォントの書式設定を作成. NET 用の用語
+title: .NET のAspose.Wordsを使用して,Word でフォントフォーマットを作成する
 weight: 7700
 limit: 
-description: Public domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainfalsefalsefalsefalsefalse.
+description: Aspose.Wordsを使用して .NET でカスタマイズされたフォントフォーマットでWordドキュメントを作成する方法について学びます.簡単なステップバイ・ステップ例が含まれています.
 keywords: [Aspose.Words, .NET, Word document, font formatting, programming example, DocumentBuilder, font properties]
 url: /ja/net/working-with-fonts/font-formatting/
 ---
@@ -10,29 +10,29 @@ url: /ja/net/working-with-fonts/font-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ワードアクセシビリティを使ってフォントの書式設定を作成Name
+# Aspose.Wordsを使ってWordでフォントフォーマットを作成する
 
-このガイドは、Asfof.words.NET を使ってワード文書を作成し、フォーマットする簡単な例です。サイズ、スタイル、色などのフォントの属性をカスタマイズし、ドキュメントにテキストを書くことを学びます。ステップごとのマニュアルは、アプリケーションに Asfofication.or.com を統合する開発者と経験豊富な開発者の両方を簡単に行うことができます。
+このガイドは,NETのAspose.Wordsを使用してWord文書を作成しフォーマットする方法の一例を提供します. サイズ,スタイル,色などのフォント属性をカスタマイズし,文書にテキストを書くことなど,学びます. ステップバイ・ステップ指示は,初心者や経験豊富な開発者の両方にとってAspose.Wordsをアプリケーションに組み込むことが容易になります.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-fonts/font-formatting" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## インストールインジケータ 
-1. プレキサイト: NET があなたのマシンにインストールされていることを確認してください。
-2. Asfoint.words: インストール a b c d e f g h i c d e f g h i 
-   * ビジュアルスタジオで NuGet パッケージマネージャを使う:
+## 設置指示 
+1. 必須条件: コンピュータに .NET がインストールされていることを確認します.
+2. Aspose.Wordsをインストールする 
+   * Visual Studio で NuGet パッケージマネージャーを使用します:
      ```
      Install-Package Aspose.Words
      ```
-   * または、DLLを直接ダウンロードします。[アクセシビリティサイト](https://www.aspose.com))をいう.
-3. ライセンスを適用する (オプション):  
-   2020年3月13日閲覧. ^ "[全版版]全面的に利用". 日本経済新聞 (日本経済新聞社). 日本経済新聞 (日本経済新聞社) (日本経済新聞社).[ライセンスを適用する](https://purchase.aspose.com/temporary- license/)または[フリーの試行](https://releases.aspose.com/words/net/))をいう.  
+   * ダウンロードする[目標サイト](https://www.aspose.com)やってくれ
+3. 申請許可 (オプション):  
+   完全なバージョンを使用するために[ライセンス申請](https://purchase.aspose.com/temporary-license/) [無料試験](https://releases.aspose.com/words/net/)やってくれ  
 
-## また、参照してください。
-[Asforce. NET ドキュメンテーション用用語](https://docs.aspose.com/words/net/)
-[access. ^ a b c d e f g h i ". NET インフォメーション".](https://reference.aspose.com/words/net/)
+## また見てください
+[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
+[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

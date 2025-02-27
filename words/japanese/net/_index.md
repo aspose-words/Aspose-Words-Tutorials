@@ -1,8 +1,8 @@
 ---
-title: Asford. ^ NET ビジュアルチュートリアルの用語 
+title: .NET ビジュアル・チュートリアルのためのAspose.Words 
 weight: 10
 limit:
-description: Project Asfoint. ^ a b c d e f g h i j k h i c d e f g h i c d e f g h i c d e f g h i c d e f g h i c d e f g h i c d e f g h i c d e f g h i e f g h i e f g h i c d e f g h i e f g h i e f g h i " 文書の操作の操作と統合の修繕を手動的なアプローチ".
+description: .NETの視覚チュートリアルで文書操作と .NETアプリケーションの統合をマスターするための実践的なアプローチを Aspose.Words で探求します.
 keywords:
 url: /ja/net/
 ---
@@ -10,99 +10,99 @@ url: /ja/net/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Asford. ^ NET ビジュアルチュートリアルの用語
+# .NET ビジュアル・チュートリアルのためのAspose.Words
  
-アクセシビリティ.NET の用語は,開発者がドキュメント操作を & NET アプリケーションで最も効果的に行うよう設計する視覚チュートリアルの広域なライブラリを提供しています。新しいものであれ、あなたのスキルを改善しようとするものであれ、これらのステップステップはさまざまなトピックをカバーします。単語ドキュメントを作成したり編集したり、他のフォーマットに変換したりすることで、複雑な処理を簡単に理解できるようにします。
+Aspose.Wordsは,開発者が .NETアプリケーションで文書操作を最大限に活用できるように設計された視覚的チュートリアルの大幅なライブラリを提供しています.アスページに新規に入った方であれ,スキルを向上させたい方であれ,これらのステップバイ・ステップチュートリアルでは,Word文書を作成し編集するなど,他のフォーマットに変換する様々なトピックをカバーしています.視覚ガイドは,簡単な,簡単に実行可能なステップに分割して複雑なプロセスを理解することを容易にする.各チュートリアルでは,プロジェクトで文書管理を効率的に実装するために必要な知識を獲得します.
  
-Association. NET ビジュアルチュートリアルは、画像、テーブル、フォームフィールド、さまざまなソースのライセンスの適用など、幅広い利用事例をカバーします。これらのチュートリアルに従うと、これらのチュートリアルによって、単語のタスクを自動化し、アプリケーションに統合する方法を簡単に学びます。各チュートリアルは、あなたが理論を理解するだけでなく、実用的な経験を身に付けるように設計されています。明示的なインタフェースとビジュアルについては、これらのチュートリアルは、開発者がドキュメントの機能を向上するための貴重なリソースです。
+.NETのビジュアル・チュートリアルでは,画像,テーブル,フォームフィールドを挿入し,さまざまなソースからライセンスを使用するなど,幅広い使用事例をカバーしています.これらのチュートリアルに従って,Word文書タスクを自動化してアプリケーションにシームレスに統合する方法を迅速に学びます.各チュートリアルは,理論を理解するだけでなく,実用的な経験も獲得することを保証する実践的な学習を提供するために設計されています.明確な指示とビジュアル示範により,これらのチュートリアルはドキュメント処理能力を向上させたい開発者にとって貴重なリソースです.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [ドキュメントビルドを使用するコンテンツを追加 Assoft.words for NET](./add-content-using-document- builder/)
-ドキュメント作成クラスを使って、テキスト、表、画像、その他の要素をワードドキュメントにどのように挿入するかをプログラミングします。
+## [.NET のAspose.Wordsでドキュメントビルダーを使用してコンテンツを追加する ](./add-content-using-document- builder/)
+文書作成者 クラスを使用して,Word ドキュメントにテキスト,テーブル,画像,その他の要素をプログラム的に挿入する方法について学びましょう.
 
-{{< tutorial-card link="./add-content-using-document-builder/build-table/" title="テーブルのアクセシビリティを備えたワード文書を作成Name" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}
-{{< tutorial-card link="./add-content-using-document-builder/insert-break/" title="アクセシビリティ付きのマルチペアワードドキュメントを作成します。Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, etc.)" imgSrc="/words/net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
-{{< tutorial-card link="./add-content-using-document-builder/insert-floating-image/" title="NET で浮動画像付きのワード文書を作成" imgSrc="/words/net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
-{{< tutorial-card link="./add-content-using-document-builder/insert-horizontal-rule/" title="NET で横方向のワード文書を作成" imgSrc="/words/net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
-{{< tutorial-card link="./add-content-using-document-builder/insert-inline-image/" title="ワードドキュメントにインライン画像を挿入" imgSrc="/words/net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
-{{< tutorial-card link="./add-content-using-document-builder/insert-paragraph/" title="アクセシビリティでワード文書を作成. NET 用の単語" imgSrc="/words/net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
-{{< tutorial-card link="./add-content-using-document-builder/insert-table-contents/" title="目次のあるワード文書を作成 (NET)" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
+{{< tutorial-card link="./add-content-using-document-builder/build-table/" title="Aspose.Wordsを使って表でWordドキュメントを作成する" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}
+{{< tutorial-card link="./add-content-using-document-builder/insert-break/" title="Aspose.Wordsで複数のページのWordドキュメントを作成する" imgSrc="/words/net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
+{{< tutorial-card link="./add-content-using-document-builder/insert-floating-image/" title=".NETで浮動画像でWordドキュメントを作成する" imgSrc="/words/net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
+{{< tutorial-card link="./add-content-using-document-builder/insert-horizontal-rule/" title=".NETで水平ルールでWordドキュメントを作成する" imgSrc="/words/net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
+{{< tutorial-card link="./add-content-using-document-builder/insert-inline-image/" title="Word ドキュメントにインライン画像を挿入する" imgSrc="/words/net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
+{{< tutorial-card link="./add-content-using-document-builder/insert-paragraph/" title=".NET のためのAspose.WordsでWord ドキュメントを作成する" imgSrc="/words/net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
+{{< tutorial-card link="./add-content-using-document-builder/insert-table-contents/" title=".NETでコンテンツ表を備えたWordドキュメントを作成する" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [表のスタイルと書式設定を Astrpost で行うこと. NET 用の用語](./working-with-table-styles-and- formatting/)
-ワードドキュメント内の表の作成、書式設定、カスタマイズの方法 (境界の設定、スタイル、セルのパディングを含む) を検出します。
+## [.NET のAspose.Wordsでテーブルスタイルとフォーマットを使用する](./working-with-table-styles-and- formatting/)
+境界やスタイル,セルパディングなどを含む,Word ドキュメントのテーブルを作成し,フォーマットし,カスタマイズする方法について学びましょう.
 
-{{< tutorial-card link="./working-with-table-styles-and-formatting/apply-outline-border/" title="見出しの境界を単語内で表に適用する" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-table-styles-and-formatting/apply-row-formatting/" title="ワードドキュメントに行の書式設定を適用する" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-table-styles-and-formatting/build-table-with-border/" title="NET の単語内の表の外枠を変更" imgSrc="/words/net/working-with-table-styles-and-formatting/build-table-with-border/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-table-styles-and-formatting/buildtable-with-style/" title="アクセシビリティ付きの単語にスタイル付きの表を作成Name" imgSrc="/words/net/working-with-table-styles-and-formatting/buildtable-with-style/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-table-styles-and-formatting/cell-padding/" title="アクセシビリティ付きのワードテーブルセルを作成Name" imgSrc="/words/net/working-with-table-styles-and-formatting/cell-padding/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-table-styles-and-formatting/create-table-style/" title="NET 用のワードドキュメントにスタイル付きテーブルを作成" imgSrc="/words/net/working-with-table-styles-and-formatting/create-table-style/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-table-styles-and-formatting/format-table-and-cell/" title="テーブル枠でワード文書を作成(S)" imgSrc="/words/net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-table-styles-and-formatting/set-table-cell-formatting/" title="ワードドキュメントに表を作成・書式設定する" imgSrc="/words/net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-table-styles-and-formatting/set-table-row-formatting/" title="アクセシビリティ付きの単語に書式設定された表を作成Name" imgSrc="/words/net/working-with-table-styles-and-formatting/set-table-row-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-table-styles-and-formatting/table-tittle-and-description/" title="タイトルを単語で表に追加(D)" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-table-styles-and-formatting/apply-outline-border/" title="図表 に 概要 境界 を 適用 する" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-table-styles-and-formatting/apply-row-formatting/" title="ワード文書に行格式化を使用する" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-table-styles-and-formatting/build-table-with-border/" title="Word で .NET のテーブル境界を変更する" imgSrc="/words/net/working-with-table-styles-and-formatting/build-table-with-border/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-table-styles-and-formatting/buildtable-with-style/" title="Aspose.Wordsで文字のスタイリッシュなテーブルを作成する" imgSrc="/words/net/working-with-table-styles-and-formatting/buildtable-with-style/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-table-styles-and-formatting/cell-padding/" title="Aspose.Wordsにパッドを入れることでWord Table Cellを作成する" imgSrc="/words/net/working-with-table-styles-and-formatting/cell-padding/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-table-styles-and-formatting/create-table-style/" title=".NET のWord ドキュメントでスタイリングテーブルを作成する" imgSrc="/words/net/working-with-table-styles-and-formatting/create-table-style/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-table-styles-and-formatting/format-table-and-cell/" title="テーブル境界とシェイディングでWordドキュメントを作成する" imgSrc="/words/net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-table-styles-and-formatting/set-table-cell-formatting/" title="Word ドキュメントでテーブルを作成しフォーマットする" imgSrc="/words/net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-table-styles-and-formatting/set-table-row-formatting/" title="Aspose.Wordsで文字に格式化された表を作成する" imgSrc="/words/net/working-with-table-styles-and-formatting/set-table-row-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-table-styles-and-formatting/table-tittle-and-description/" title="Word で表にタイトルと説明を追加する" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [ドキュメントの書式設定を Aspost で行う. NET 用の用語](./document-formatting/)
-段落、リスト、ドキュメント要素にさまざまな書式設定オプションを適用する方法を理解して、単語ファイルのビジュアルなアクセシビリティを強化します。
+## [.NET のための Aspose.Words で文書フォーマット](./document-formatting/)
+テキスト・メッセージの 形式を 改善するために 段落,リスト,ドキュメントに フォーマットする 方法を理解する
 
-{{< tutorial-card link="./document-formatting/apply-border-and-shading/" title="段落に境界を適用する(S)" imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/apply-paragraph-style/" title="ドキュメントの作成とスタイルをアクセシビリティで行う" imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/multilevel-list-formatting/" title="アクセシビリティで単語中の多レベルリストを作成Name" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/paragraph-formatting/" title="段落の書式設定" imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./document-formatting/apply-border-and-shading/" title="Aspose.Words の 段落 に 境界 と 影 を 適用 する" imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./document-formatting/apply-paragraph-style/" title="Aspose.WordsでWordドキュメントを作成し,スタイリングする" imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./document-formatting/multilevel-list-formatting/" title="Aspose.WordsでWordで多層次リストを作成する" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./document-formatting/paragraph-formatting/" title="形式の段落" imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [et in access charts with access at access for the News. NET](./working-with- charts/)
-ワードドキュメント内で、バー、線、散布図など、さまざまな種類のグラフを挿入し、カスタマイズすることを学習します。
-{{< tutorial-card link="./working-with-charts/bounds-of-axis/" title="グラフ付きドキュメントを作成" imgSrc="/words/net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-charts/create-chart-using-shape/" title="行グラフを単語に作成" imgSrc="/words/net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-charts/insert-area-chart/" title="ワードドキュメントにエリアグラフを挿入" imgSrc="/words/net/working-with-charts/insert-area-chart/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-charts/insert-bubble-chart/" title="バブルチャートを単語に挿入" imgSrc="/words/net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-charts/insert-column-chart/" title="列グラフを単語に挿入" imgSrc="/words/net/working-with-charts/insert-column-chart/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-charts/insert-scatter-chart/" title="ワードフィールドチャートを作成" imgSrc="/words/net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-charts/insert-simple-column-chart/" title="シンプルな列グラフを単語に挿入" imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
+## [.NETのAspose.Wordsでチャートで作業](./working-with-charts/)
+Word ドキュメントにバー,ライン,スキャッターなど様々な種類のチャートを挿入し,カスタマイズする方法を学びましょう.
+{{< tutorial-card link="./working-with-charts/bounds-of-axis/" title="図表を備えた文書を作成する" imgSrc="/words/net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-charts/create-chart-using-shape/" title="文字 で 線図 を 作る" imgSrc="/words/net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-charts/insert-area-chart/" title="Word ドキュメントにエリアチャートを挿入する" imgSrc="/words/net/working-with-charts/insert-area-chart/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-charts/insert-bubble-chart/" title="単語 に 泡 の 図 を 挿入 する" imgSrc="/words/net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-charts/insert-column-chart/" title="Word に 列表 を 挿入 する" imgSrc="/words/net/working-with-charts/insert-column-chart/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-charts/insert-scatter-chart/" title="単語 散布 図 を 作る" imgSrc="/words/net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-charts/insert-simple-column-chart/" title="単語の シンプル な 列表 を 挿入 する" imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [アクセシビリティでフォントを扱う. NET 用の用語](./working-with-fonts/)
-フォント関連の機能を検索します。フォントスタイル、行間隔、強調マークなど、ワードドキュメントのタイピングの設定など。
+## [.NET のAspose.Wordsのフォントで作業](./working-with-fonts/)
+フォントスタイル,ラインの間隔,強調マーク,およびWord文書の他のタイプ設定などのフォント関連機能を調べる.
 
-{{< tutorial-card link="./working-with-fonts/font-formatting/" title="ワード内でフォントの書式設定を作成" imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-fonts/get-font-line-spacing/" title="ワード文書のフォント行間隔を取得" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-fonts/set-font-emphasis-mark/" title="ワード文書の強調マークを設定" imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-fonts/font-formatting/" title="Word でフォントフォーマットを作成する" imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-fonts/get-font-line-spacing/" title="文字文書でフォントラインの間隔を取得" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-fonts/set-font-emphasis-mark/" title="Word ドキュメント に 強調 マーク を 設定 する" imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [アクセシビリティでのフォームフィールドの操作. NET 用の用語](./working-with-form-fields/)
-テキスト入力、ドロップダウンリスト、および Word ドキュメント内のチェックボックスなど、フォームフィールドの挿入および管理の方法を調べます。
+## [.NET のAspose.Wordsでフォームフィールドを活用する](./working-with-form-fields/)
+Word ドキュメント内のテキスト入力,ドロップダウンリスト,チェックボックスのようなフォームフィールドを挿入し管理する方法について学びましょう.
 
-{{< tutorial-card link="./working-with-form-fields/insert-form-fields/" title="ワードドキュメントにコンボボックスフォームフィールドを挿入" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-form-fields/insert-form-fields/" title="Word ドキュメントにコンボボックスフォームフィールドを挿入する" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Asfof でのヘッダーとフッターの操作. NET のための用語](./working-with-headers-and-footers/)
-画像、ページ番号、テキストの追加など、ヘッダーやフッターの作成や操作方法を学びます。
+## [.NETのAspose.Wordsでヘッダとフーダーと作業](./working-with-headers-and-footers/)
+画像,ページ番号,テキストを追加し,ヘッダーや足記を作成し操作する方法を学びましょう.
 
-{{< tutorial-card link="./working-with-headers-and-footers/create-header-footer/" title="ヘッダーとフッターでワード文書を作成" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-headers-and-footers/insert-image/" title="ワード文書のヘッダに画像を挿入" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-headers-and-footers/create-header-footer/" title="ヘッダーとフーターでWord ドキュメントを作成する" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-headers-and-footers/insert-image/" title="画像をWord ドキュメントヘッダーに挿入する" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [アクセシビリティにおけるセクションの作業. NET 用の用語](./working-with-section/)
-ドキュメントをセクションに構成する方法を理解し、異なるヘッダー、フッター、書式設定スタイルを許可します。
+## [.NET のAspose.Wordsのセクションで作業](./working-with-section/)
+文書をセクションに並べて,異なるヘッダー,足記,フォーマットスタイルを可能にする方法を理解します.
 
-{{< tutorial-card link="./working-with-section/add-section/" title="ワード文書に新しいセクションを追加" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-section/append-section-content/" title="ワードドキュメントに内容を追加・編集する" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-section/add-section/" title="ワード文書に新しいセクションを追加する" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-section/append-section-content/" title="ワード文書にコンテンツを追加し,プリペンする" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [アクセシビリティでシェイプを扱う. NET 用の用語](./working-with-shapes/)
-ワードドキュメントにグループ化されたシェイプや定義済みの図など、さまざまなシェイプの挿入および操作の方法を調べます。
+## [.NET のAspose.Wordsで Shapes を 活用する](./working-with-shapes/)
+Word ドキュメントにグループ化された形や事前に定義された図を描きを含む様々な形を挿入し操作する方法について学びましょう
 
-{{< tutorial-card link="./working-with-shapes/add-group-shape/" title="ワードドキュメントにグループ化シェイプを作成" imgSrc="/words/net/working-with-shapes/add-group-shape/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-shapes/insert-shape/" title="ワードドキュメントにシェイプを挿入" imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-shapes/add-group-shape/" title="Word ドキュメントでグループ形を作成する" imgSrc="/words/net/working-with-shapes/add-group-shape/images/thumb.png" >}}
+{{< tutorial-card link="./working-with-shapes/insert-shape/" title="文字文書にフォームを挿入する" imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Asfof でウォーターマークの作業. NET のための用語](./working-with-watermark)
-添付やセキュリティの目的のために Word ドキュメントにテキストおよび画像ウォーターマークを追加できるようにします。
-{{< tutorial-card link="./working-with-watermark/add-text-watermark/" title="ワードドキュメントにテキストウォーターマークを付ける" imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
+## [.NETのAspose.Wordsでウォーターマークで作業](./working-with-watermark)
+ブランドやセキュリティのために,Word文書にテキストと画像のウォーターマークを追加することを学びましょう.
+{{< tutorial-card link="./working-with-watermark/add-text-watermark/" title="文字のウォーターマークをWord ドキュメントに追加する" imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

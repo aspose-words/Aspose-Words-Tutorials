@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary: Ce code montre comment manipuler des tables dans un document Word en utilisant Aspose.Words. Il récupère un document existant, modifie les bordures de la première table et enregistre les modifications à un nouveau fichier.
-//ExStepSummary:0: Le code suivant définit le document et récupère le premier tableau de celui- ci.
-//ExStepSummary:1: Le code suivant efface les frontières existantes du tableau pour se préparer à un nouveau formatage.
-//ExStepSummary:2: Le code suivant applique une bordure verte autour et à l'intérieur de la table.
+//ExSummaryCe code montre comment manipuler des tables dans un document Word en utilisant Aspose.Words. Il récupère un document existant, modifie les limites de la première table et enregistre les modifications dans un nouveau fichier.
+//ExStepSummary:0: Le code suivant établit le document et en tire la première table.
+//ExStepSummary:1: Le code suivant efface les limites existantes du tableau pour préparer la mise en forme.
+//ExStepSummary:2: Le code suivant s'applique à une limite verte autour et à l'intérieur de la table.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
 // Définir le répertoire du document
 string dataDir = "Your Document Directory";
-// Chargez le document
+// Charger le document
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// Obtenez le premier tableau du document
+// Prenez la première table du document
 Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 
 //ExStep:2-
@@ -21,7 +21,7 @@ Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 table.ClearBorders();
 
 //ExStep:3-
-// Réglez une bordure verte autour et à l'intérieur de la table
+// Fixez une limite verte autour et à l'intérieur de la table
 table.SetBorders(LineStyle.Single, 1.5, Color.Green);
 // Enregistrer le document avec les modifications
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");

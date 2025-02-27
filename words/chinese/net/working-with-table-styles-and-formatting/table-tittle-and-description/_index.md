@@ -1,8 +1,8 @@
 ---
-title: 使用 apose. words 将标题和说明添加到单词表格
+title: 在 Word 中添加标题和描述,使用Aspose.Words
 weight: 7700
 limit: 
-description: 学习如何将标题和描述添加到 Word 文档中的表格中, 上面有 Aspose. words for.NET 的文字, 在这个简单易懂的示例中 。
+description: 在这个简单的例子中,学习如何在Word文档中添加标题和描述,
 keywords: [Aspose.Words, Word document, table title, table description, .NET example, table formatting, Aspose, OoxmlSaveOptions, document processing]
 url: /zh/net/working-with-table-styles-and-formatting/table-tittle-and-description/
 ---
@@ -10,31 +10,31 @@ url: /zh/net/working-with-table-styles-and-formatting/table-tittle-and-descripti
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 apose. words 将标题和说明添加到单词表格
+# 在 Word 中添加标题和描述,使用Aspose.Words
 
-本指南展示了如何通过在表格中添加标题和描述来强化您的 Word 文档, 使用 Aspect. words for.NET。 您可以在已有的 Word 文档中学习如何操作表格属性, 为理想的兼容性配置保存选项, 并确保为 Word 2016 优化格式 。 示例代码通过装入文档、 更新其表格属性以及以精确配置设置保存文件来引导您。
+本指南展示了如何通过使用 .NET 的Aspose.Words来添加标题和描述来增强Word文档.您将学习如何操纵现有Word文档中的表格属性,配置保存选项以实现所需兼容性,并确保Word 2016的优化格式化.示例代码将引导您通过加载文档,更新表格属性,并通过精确的配置设置保存文件.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/table-tittle-and-description" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## 安装指示:
+## 装备说明:
 
-使用 Aspostion.Words for.NET 并运行此示例, 遵循这些简单步骤 :
+为了开始使用 .NET 的Aspose.Words并运行这个例子,
 
-1. 安裝套件。 net: 的 words:
-   您可以很容易地通过 NuGet 为 .NET 安装 Apose.Words 。 在您的软件包管理器控制台运行以下命令 :
+1. 安装 .NET 的Aspose.Words:
+   通过 NuGet 轻松安装 .NET 的 Aspose.Words. 在您的包管理器控制台中运行下列命令:
    ```
    Install-Package Aspose.Words
    ```
 
-2. 应用许可( 可选) :  
-   要使用完整版本,[申请许可](https://purchase.aspose.com/temporary-license/)或使用 a/[自由审判](https://releases.aspose.com/words/net/). .
+2. 申请许可证 (可选):  
+   为了使用完整版本,[申请许可证](https://purchase.aspose.com/temporary- license/)或使用一个[免费试验](https://releases.aspose.com/words/net/)现在,我们要去.
    
-## 另见
-[位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)
-[位置。 编辑到. NET 引用](https://reference.aspose.com/words/net/)
+## 查看
+[设置.Word为 .NET文档](https://docs.aspose.com/words/net/)
+[标用.NET引用的Word](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

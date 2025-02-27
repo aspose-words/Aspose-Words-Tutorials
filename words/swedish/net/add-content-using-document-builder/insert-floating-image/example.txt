@@ -1,8 +1,8 @@
 //ExStart
-//ExSummary: Denna kod visar hur man skapar ett Word-dokument och infogar en bild med en flytande layout med Aspose.Words.
-//ExStepSummary:0: Följande kod initierar ett nytt dokument och DocumentBuilder.
-//ExStepSummary:1: Följande kod för in en bild i dokumentet.
-//ExStepSummary:2: Följande kod sparar dokumentet till en angiven plats.
+//ExSummary: Denna kod visar hur man skapar ett Word-dokument och lägger in en bild med en flytande layout med hjälp av Aspose.Words.
+//ExStepSummary:0: Följande kod initialiserar ett nytt Dokument och DocumentBuilder.
+//ExStepSummary:1: Följande kod lägger in en bild i dokumentet.
+//ExStepSummary:2: Följande kod sparar dokumentet till en viss plats.
 //ExStepImage:1:images/1.png
 //ExStep:0-
 // Skapa en ny dokumentinstans
@@ -10,7 +10,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Infoga bild från angiven sökväg
+// Lägg in bild från den angivna vägen
 builder.InsertImage(ImagesDir + "Transparent background logo.png", 
     RelativeHorizontalPosition.Margin,
     100, 
@@ -21,6 +21,6 @@ builder.InsertImage(ImagesDir + "Transparent background logo.png",
     WrapType.Square); 
 
 //ExStep:2-
-// Spara dokumentet till angiven fil
+// Spara dokumentet till den angivna filen
 doc.Save("AddContentUsingDocumentBuilder.InsertFloatingImage.docx");
 //ExEnd

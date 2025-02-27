@@ -1,30 +1,30 @@
 //ExStart
-//ExSummary: Tento kód ukazuje, jak vytvořit dokument Word pomocí třídy DocumentBuilder a vložit do něj stylový odstavec.
-//ExStepSummary:0: Následující kód inicializuje dokument a dokumentBuilder pro tvorbu dokumentů.
-//ExStepSummary:1: Následující kód konfiguruje nastavení písma pro odstavec.
-//ExStepSummary:2: Následující kód stanoví nastavení formátu odstavce pro zarovnání a odsazení.
-//ExStepSummary:3: Následující kód do dokumentu zapíše odstavec.
-//ExStepSummary:4: Následující kód uloží dokument jako soubor .docx.
+//ExSummaryTento kód ukazuje, jak vytvořit dokument Word pomocí třídy DocumentBuilder a vložit do něj stylený odstavec.
+//ExStepSummary:0: Následující kód iniciuje dokument a dokumentbuilder pro vytváření dokumentů.
+//ExStepSummary:1: Následující kód konfiguruje nastavení písmen pro odstavec.
+//ExStepSummary:2: V následujícím kódu se stanoví nastavení formátu odstavce pro vyrovnání a odklon.
+//ExStepSummary:3: Následující kód zapisuje do dokumentu odstavec.
+//ExStepSummary:4: Následující kód ukládá dokument jako soubor .docx.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Inicializace nového objektu Dokumentu
+// Začněte nový objekt dokumentu
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Přístup k nastavení písma budovy DocumentBuilder
+// Přístup k nastavení písmen v programě DocumentBuilder
 Font font = builder.Font;
-// Nastavte velikost písma na 16
+// Nastav velikost písma na 16
 font.Size = 16;
-// Udělejte písmo tučné
+// Zde je písmeno
 font.Bold = true;
-// Nastavte barvu písma na modrou
+// Nastavte barvu písma na modré
 font.Color = Color.Blue;
 // Nastavte název písma na Arial
 font.Name = "Arial";
-// Přidat do písma pomlčený podtržený podtržík
+// Přidejte do písmene pruhový podtržek
 font.Underline = Underline.Dash;
 
 //ExStep:2-
@@ -35,10 +35,10 @@ paragraphFormat.Alignment = ParagraphAlignment.Justify;
 paragraphFormat.KeepTogether = true;
 
 //ExStep:3-
-// Do dokumentu se zapíše odstavec textu
+// Napíšejte do dokumentu odstavec textu
 builder.Writeln("A whole paragraph.");
 
 //ExStep:4-
-// Uložit dokument jako soubor .docx
+// Zachránit dokument jako soubor .docx
 doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
 //ExEnd

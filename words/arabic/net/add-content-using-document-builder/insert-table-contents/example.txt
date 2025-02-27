@@ -1,16 +1,16 @@
 //ExStart
-//ExSummary: يوضح هذا الرمز كيفية إنشاء مستند Word باستخدام جدول المحتويات باستخدام DocumentBuilder. يتضمن عناوين من مستويات مختلفة ويحفظ المستند كملف .docx.
-//ExStepSummary:0: تعمل هذه الخطوة على تهيئة كائن مستند جديد.
-//ExStepSummary:1: تنشئ هذه الخطوة كائن DocumentBuilder لمعالجة المستند.
-//ExStepSummary:2: تدرج هذه الخطوة جدول المحتويات في بداية المستند.
-//ExStepSummary:3: تقدم هذه الخطوة فاصل صفحة لبدء المحتوى الفعلي على صفحة جديدة.
-//ExStepSummary:4: تحدد هذه الخطوة العنوان الأول وتكتب "العنوان 1" على المستند.
-//ExStepSummary:5: تحدد هذه الخطوة مستوى العنوان الثاني وتكتب "الرأس 1.1" و "الرأس 1.2".
-//ExStepSummary:6: تحدد هذه الخطوة مرة أخرى مستوى العنوان الأول وتكتب "Heading 2" و "Heading 3".
-//ExStepSummary:7: تحدد هذه الخطوة مستوى العنوان الثاني وتكتب "Heading 3.1".
-//ExStepSummary:8: تحدد هذه الخطوة مستوى العنوان الثالث وتكتب العناوين الفرعية "العنوان 3.1.1" و "العنوان 3.1.2" و "العنوان 3.1.3".
-//ExStepSummary:9: تحدد هذه الخطوة مستوى العنوان الثاني مرة أخرى وتكتب "Heading 3.2" و "Heading 3.3".
-//ExStepSummary:10: وأخيرًا ، تقوم هذه الخطوة بتحديث الحقول الموجودة في المستند وحفظها كملف .docx.
+//ExSummary: هذا الرمز يظهر كيفية إنشاء مستند Word مع جدول المحتوى باستخدام DocumentBuilder. يحتوي على عناوين من مختلف المستويات ويخزن الوثيقة كملف .docx.
+//ExStepSummary:0: هذه الخطوة تبدأ في تشغيل كائن وثيقة جديد.
+//ExStepSummary:1: هذه الخطوة تخلق كائن DocumentBuilder للتلاعب بالوثائق.
+//ExStepSummary:2: هذه الخطوة تضع جدول المحتوى في بداية الوثيقة.
+//ExStepSummary:3: هذه الخطوة تعرض لقطعة صفحة لبدء المحتوى الفعلي على صفحة جديدة.
+//ExStepSummary:4: هذه الخطوة تحدد العنوان الأول وتكتب "العنوان 1" إلى الوثيقة.
+//ExStepSummary:5: هذه الخطوة تحدد مستوى الرأس الثاني وتكتب "الرأس 1.1" و"الرأس 1.2".
+//ExStepSummary:6: هذه الخطوة تعيين مرة أخرى مستوى العنوان الأول وتكتب "العنوان 2" و"العنوان 3".
+//ExStepSummary:7: هذه الخطوة تحدد مستوى الرأس الثاني وتكتب "الرأس 3.1".
+//ExStepSummary:8: هذه الخطوة تحدد مستوى الرقعة الثالثة وتكتب الفرع الفرعية "الرقعة 3.1.1" و"الرقعة 3.1.2" و"الرقعة 3.1.3".
+//ExStepSummary:9: هذه الخطوة تحدد مرة أخرى مستوى الرأس الثاني وتكتب "الرأس 3.2" و"الرأس 3.3".
+//ExStepSummary:10: أخيراً، هذه الخطوة تحديث الحقول في الوثيقة وتحفظها كملف .docx.
 //ExStepImage:3:images/1.png
 //ExStepImage:4:images/2.png
 //ExStepImage:5:images/3.png
@@ -20,23 +20,23 @@
 //ExStepImage:9:images/7.png
 
 //ExStep:0-
-// إنشاء مثيل مستند جديد
+// إعداد مثال وثيقة جديدة
 Document doc = new Document();
 
 //ExStep:1-
-// تهيئة DocumentBuilder لمعالجة المستندات
+// إعادة تشغيل DocumentBuilder للتلاعب بالوثائق
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:2-
-// إدراج جدول المحتويات مع خيارات محددة
+// إدراج جدول محتويات مع خيارات محددة
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
 //ExStep:3-
-// إدراج فاصل صفحة لبدء المحتوى على صفحة جديدة
+// إضافة فترة توقف صفحة لبدء المحتوى على صفحة جديدة
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:4-
-// تعيين النمط إلى العنوان 1
+// تعيين النمط إلى البند 1
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -47,7 +47,7 @@ builder.Writeln("Heading 1.1");
 builder.Writeln("Heading 1.2");
 
 //ExStep:6-
-// وضع النمط مرة أخرى إلى العنوان 1
+// تعيد النمط إلى العنوان 1
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 2");
 builder.Writeln("Heading 3");
@@ -65,14 +65,14 @@ builder.Writeln("Heading 3.1.2");
 builder.Writeln("Heading 3.1.3");
 
 //ExStep:9-
-// وضع الاسلوب مرة أخرى إلى العنوان 2
+// تعيد النمط إلى العنوان 2
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
 //ExStep:10-
-// تحديث جميع الحقول في المستند
+// تحديث جميع الحقول في الوثيقة
 doc.UpdateFields();
-// احفظ المستند
+// حفظ الوثيقة
 doc.Save("AddContentUsingDocumentBuilder.InsertTableOfContents.docx");
 //ExEnd

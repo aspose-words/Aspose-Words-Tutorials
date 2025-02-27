@@ -1,8 +1,8 @@
 ---
-title: إنشاء كلمة خلية الجدول مع الحشو في Apose.Words ل.NET 
+title: قم بإنشاء خلية جدول الكلمات مع إضافة Aspose.Words لـ .NET 
 weight: 7700
 limit: 
-description: تعلم كيفية إنشاء مستند Word باستخدام خلية جدول منسقة بما في ذلك الحشو المخصص باستخدام Apose.Words for .NET. اتبع خطوات التثبيت السهلة.
+description: تعلم كيفية إنشاء مستند Word مع خلية جدول ملفقة بما في ذلك ملء مخصص باستخدام Aspose.Words ل .NET. اتبع خطوات التثبيت السهلة.
 keywords: [Aspose.Words for .NET, table cell padding, formatted cell, Word document, .NET Word API, create Word table, table formatting, document builder, .NET example]
 url: /ar/net/working-with-table-styles-and-formatting/cell-padding/
 ---
@@ -10,9 +10,9 @@ url: /ar/net/working-with-table-styles-and-formatting/cell-padding/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء كلمة خلية الجدول مع الحشو في Apose.Words
+# قم بإنشاء خلية جدول الكلمات مع إدراج Aspose.Words
 
-يجعل Apose.Words for .NET العمل مع مستندات Word نسيمًا! يوضح هذا البرنامج التعليمي كيفية إنشاء جدول Word مع خلية منسقة تتضمن حشوًا مخصصًا. باستخدام قوية`بناء المستندBuilder`فئة ، يمكنك بسهولة تحديد الحشو لخلايا الجدول وإضافة محتوى بتنسيق احترافي. سواء كنت تقوم بأتمتة إنشاء التقارير أو إنشاء جداول معقدة أو إنشاء قوالب Word ، يضمن Apose.Words for .NET أن تكون مهامك فعالة ومباشرة.  
+Aspose.Words ل .NET يجعل العمل مع مستندات Word a breas! هذا التعليم يوضح كيفية إنشاء جدول Word مع خلية محورية تتضمن ملابس مخصصة. باستخدام القوة `المستخدم`إذا كنت تقوم بتلقيح إنتاج التقارير أو بناء الجداول المعقدة أو إنشاء نماذج Word ، فإن Aspose.Words ل .NET يضمن لك أن مهامك فعالة وسهلة.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/cell-padding" >}}
@@ -20,28 +20,28 @@ url: /ar/net/working-with-table-styles-and-formatting/cell-padding/
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت  
-لتشغيل المثال واستخدام Apose.Words for .NET، اتبع الخطوات التالية:  
+لتشغيل المثال واستخدام Aspose.Words ل .NET، اتبع هذه الخطوات:  
 
-1. قم بتنزيل Apose.Words لـ .NET  
-   احصل على أحدث إصدار من Apose.Words من[افرض صفحة النشرات](https://releases.aspose.com/words/net/)...  
+1. قم بتنزيل Aspose.Words لـ .NET  
+   احصل على أحدث نسخة من Aspose.Words من الموقع[الصفحة الإفراجات](https://releases.aspose.com/words/net/). . .  
 
-2. تثبيت عبر NuGet Package Manager  
-   افتح مشروعك .NET في Visual Studio وقم بتشغيل الأمر التالي في وحدة التحكم NuGet Package Manager:  
+2. قم بتثبيتها عبر مدير الحزمات NuGet  
+   افتح مشروع .NET الخاص بك في Visual Studio وإجراء الأمر التالي في NuGet Manager Console:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-3. قم بإعداد نسخة مؤقتة أو مرخصة  
-   * الحصول على أ[رخصة حرة مؤقتة](https://purchase.aspose.com/temporary-license/)أو شراء ترخيص كامل من[أبوس شراء الصفحة](https://purchase.aspose.com/buy)...  
-   * قم بتطبيق الترخيص في الكود الخاص بك:  
+3. إعداد نسخة مؤقتة أو مرخصة  
+   * الحصول على[رخصة مؤقتة مجانية](https://purchase.aspose.com/temporary-license/)أو شراء رخصة كاملة من الـ[ارجوا الصفحة](https://purchase.aspose.com/buy). . .  
+   * اطلب الترخيص في رمزك:  
      ```csharp
      var license = new Aspose.Words.License();
      license.SetLicense("Aspose.Words.lic");
      ```  
 
-## انظر أيضا
-[Aspose.Word لوثائق .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word لمراجع .NET](https://reference.aspose.com/words/net/)
+## انظر أيضاً
+[Aspose.Word للمستندات .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word للمراجع .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

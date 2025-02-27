@@ -1,28 +1,28 @@
 //ExStart
-//ExSummary: Ez a kód bemutatja, hogyan kell manipulálni a táblázatokat egy Word dokumentumban az Aspose.Words segítségével. Lekérdezi a meglévő dokumentumot, módosítja az első tábla határait, és elmenti a módosításokat egy új fájlba.
-//ExStepSummary:0: A következő kód beállítja a dokumentumot, és lekéri róla az első táblát.
-//ExStepSummary:1: A következő kód törli a meglévő határokat a táblázatból, hogy felkészüljön az új formázásra.
-//ExStepSummary:2: A következő kód zöld szegélyt alkalmaz a táblázat körül és belsejében.
+//ExSummaryA kód bemutatja, hogyan kell manipulálni a Word dokumentum táblázatait az Aspose.Words segítségével.
+//ExStepSummary:0: A következő kód állítja össze a dokumentumot, és az első táblázatot is kihozza belőle.
+//ExStepSummary:1: A következő kód a táblázaton minden meglévő határot eltávolítja az új formázásra való felkészülés céljából.
+//ExStepSummary:2: A következő kód zöld határot alkalmaz a táblázat körül és belül.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// A dokumentum könyvtárának megadása
+// A dokumentum címlapjának meghatározása
 string dataDir = "Your Document Directory";
-// A dokumentum betöltése
+// Töltse be a dokumentumot
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// Szerezd meg az első táblázatot a dokumentumból
+// Vedd az első asztalot a dokumentumból
 Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 
 //ExStep:2-
-// Törölje a meglévő határokat az asztalról
+// Takarítson ki a táblázaton a meglévő határokat.
 table.ClearBorders();
 
 //ExStep:3-
-// Állítson be egy zöld szegélyt az asztal körül és azon belül
+// Állítson zöld határot a táblá körül és belül
 table.SetBorders(LineStyle.Single, 1.5, Color.Green);
-// A dokumentum mentése módosításokkal
+// A módosításokkal tárolja a dokumentumot
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");
 //ExEnd

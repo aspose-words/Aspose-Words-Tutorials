@@ -1,28 +1,28 @@
 //ExStart
-//ExSummary:Bu kod, Aspose.Words kullanarak bir saçılma tablosu ile bir Word belgesinin nasıl oluşturulacağını gösterir. Bir belgeyi başlatır, içerik oluşturur, bir saçılma grafiği ekler, ona veri ekler ve belgeyi kaydeder.
-//ExStepSummary:0: Belge ve DocumentBuilder nesnelerinin başlatılarak belge üzerinde çalışmaya başlanması.
-//ExStepSummary:1: Belgeye bir scatter grafiğinin eklenmesi.
-//ExStepSummary:2: Bir dizi veri ekleme, saçılma tablosuna işaret eder.
-//ExStepSummary:3: Belgeyi scatter chart ile .docx dosyasına kaydetmek.
+//ExSummaryBu kod, Aspose.Words kullanarak bir Word belgesi ile bir dağılım tablosu oluşturmanın nasıl yapılacağını gösterir.
+//ExStepSummary:0: Belge ve DocumentBuilder'in başlangıç yapılması belge üzerinde çalışmaya başlamak için itiraz eder.
+//ExStepSummary:1: Belgeye bir dağılım tablosunun eklenmesi.
+//ExStepSummary:2: Çarşılama grafikine bir dizi veri noktası eklenir.
+//ExStepSummary:3: Çıkış tablosu ile birlikte belgeyi .docx dosyasına kaydetmek.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Yeni bir belgeyi başlat
+// Yeni belgeyi başlat
 Document doc = new Document();
-// İçerik eklemek için bir oluşturucu oluşturun
+// İçeriği eklemek için bir yapılandırıcı oluştur
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Belgeye bir scatter grafiği ekle
+// Belgeye bir dağılım tablosunu ekle
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252); 
 
 //ExStep:2-
-// Girilen şekilden grafik nesnesini alın
+// Çizgi nesnesini yerleştirilen şekilden alın
 Chart chart = shape.Chart;
-// Dizi verilerini çizelgeye ekle
+// Grafiklere seri verilerini ekle
 chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 });
 
 //ExStep:3-
-// Belgeyi scatter chart ile kaydet
+// Belgeyi dağıtım tablosu ile kaydet
 doc.Save("WorkingWithCharts.InsertScatterChart.docx");
 //ExEnd

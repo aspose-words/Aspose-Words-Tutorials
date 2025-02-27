@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary: Bu kod, Aspose.Words kullanarak bir Word belgesindeki paragrafların nasıl biçimlendirileceğini gösterir. Bir paragraftan sonra hizalama, girinti ve boşluk gibi paragraf biçimlendirme seçeneklerinin nasıl ayarlanacağını gösterir.
-//ExStepSummary:0: Bu adım, belgeyi oluşturmak için yeni bir Belge ve Belge Oluşturucuyu başlatır.
-//ExStepSummary:1: Bu adım, paragraf biçimlendirme seçeneklerini, hizalama, sol girinti, sağ girinti ve paragraftan sonra boşluk da dahil olmak üzere ayarlar.
-//ExStepSummary:2: Bu adım, belgeye belirtilen biçimlendirme seçenekleriyle iyi biçimlendirilmiş bir paragraf yazar.
-//ExStepSummary:3: Bu adım, paragraftan sonra uzayın etkisini gösteren başka bir biçimlendirilmiş paragraf yazar.
+//ExSummaryBu kod, bir paragrafın ardından düzeltme, indentasyon ve boşluk gibi paragraf biçimlendirme seçeneklerini nasıl ayarlayacağınızı gösterir.
+//ExStepSummary:0: Bu adım, belgeyi oluşturmak için yeni bir Belge ve bir Belge Oluşturucu'nu başlatır.
+//ExStepSummary:1: Bu adım, paragrafın düzeltme seçeneklerini, hatta düzeltme, sol eylemi, sağ eylemi ve paragrafın ardından boşlukları belirler.
+//ExStepSummary:2: Bu adım belgeye belirtilen biçimleme seçenekleri ile iyi biçimlendirilmiş bir paragraf yazar.
+//ExStepSummary:3: Bu adım, paragrafın ardından alanın etkisini gösteren başka bir biçimlendirilmiş paragraf yazıyor.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0- 
-// Yeni bir Belge örneği oluştur.
+// Yeni bir Belge örneği oluşturun.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1- 
-// Paragraf biçimlendirme seçeneklerini ayarlayın.
+// paragraf biçimlendirme seçeneklerini ayarlayın.
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;
 paragraphFormat.LeftIndent = 50;
@@ -21,16 +21,16 @@ paragraphFormat.RightIndent = 50;
 paragraphFormat.SpaceAfter = 25;
 
 //ExStep:2- 
-// İlk biçimlendirilmiş paragrafı yazın.
+// İlk paragrafı yaz.
 builder.Writeln(
 	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
 
 //ExStep:3- 
-// İkinci biçimlendirilmiş paragrafı yazın.
+// İkinci paragrafı yaz.
 builder.Writeln(
 	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
 
 //ExStep:4- 
-// Belgeyi belirtilen yola kaydet.
+// Belgeyi belirtilen yolda kaydet.
 doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
 //ExEnd

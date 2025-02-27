@@ -1,11 +1,11 @@
 //ExStart
-//ExSummary:Denna kod visar hur man sätter ett betoningstecken i ett Word-dokument med Aspose.words.
+//ExSummary:Denna kod visar hur man sätter ett betoning i ett Word-dokument med hjälp av Aspose.words.
 //ExStepSummary:0:Skapa en ny dokumentinstans att arbeta med.
-//ExStepSummary:1:Ställa in en DocumentBuilder för att manipulera dokumentet.
-//ExStepSummary:2:Tillämpar ett betoningstecken på typsnittet för byggmaskinen.
-//ExStepSummary:3:Skriva betoning text till dokumentet.
+//ExStepSummary:1:Sätt upp en DocumentBuilder för att manipulera dokumentet.
+//ExStepSummary:2:Att använda ett betoningsteckning på byggnadsförfattaren.
+//ExStepSummary:3:Skriv en text med betoning till dokumentet.
 //ExStepSummary:4:Skriva en enkel text utan någon betoning.
-//ExStepSummary:5: Denna kod sparar dokumentet med betoningsmarkeringen till teckensnittet.
+//ExStepSummary:5: Denna kod sparar dokumentet med betoningskärmen till tecknet.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
@@ -14,26 +14,26 @@
 Document document = new Document();
 
 //ExStep:1-
-// Initialisera DocumentBuilder för dokumentmanipulering
+// Initialisera DocumentBuilder för dokumentmanipulation
 DocumentBuilder builder = new DocumentBuilder(document);
 
 //ExStep:2-
-// Sätt betoningstecken till UnderSolidCircle
+// Ställ betoning på UnderSolidCircle
 builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
 
 //ExStep:3-
-// Skriv tyngdpunktstexten till dokumentet
+// Skriv den betoningstext till dokumentet
 builder.Write("Emphasis text");
-// Gå till nästa rad
+// Flytta till nästa rad.
 builder.Writeln();
-// Rensa teckensnittsformateringen för efterföljande text
+// Rengör typsnittet för följande text
 builder.Font.ClearFormatting();
 
 //ExStep:4-
-// Skriv enkel text utan betoning
+// Skriv en enkel text utan betoning
 builder.Write("Simple text");
 
 //ExStep:5-
-// Spara dokumentet till angiven sökväg
+// Spara dokumentet på den angivna vägen
 document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
 //ExEnd

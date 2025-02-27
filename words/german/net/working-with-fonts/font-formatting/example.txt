@@ -1,34 +1,34 @@
 //ExStart
-//ExSummary:Dieser Code zeigt, wie man ein Word-Dokument mit Aspose.Words erstellt, die Schrifteigenschaften formatiert, bevor man einen Beispieltext darauf schreibt.
-//ExStepSummary:0: Der folgende Code initialisiert ein neues Dokument und einen DocumentBuilder.
-//ExStepSummary:1: Der folgende Code setzt verschiedene Schrifteigenschaften wie Größe, Fett, Farbe, Name und unterstreichen Stil.
-//ExStepSummary:2: Der folgende Code schreibt einen Beispieltext mit den konfigurierten Schrifteinstellungen in das Dokument.
-//ExStepSummary:3: Der folgende Code speichert das Dokument in das angegebene Verzeichnis mit einem angegebenen Dateinamen.
+//ExSummary: Dieser Code zeigt, wie man ein Word-Dokument mit Aspose.Words erstellt und die Schriftmerkmale formatiert, bevor man einen Beispieltekster zu ihm schreibt.
+//ExStepSummary:0: Der folgende Code initialisiert ein neues Dokument und einen Dokumentbauer.
+//ExStepSummary:1: Der folgende Code setzt verschiedene Schriftmerkmale wie Größe, Fett, Farbe, Name und Unterstrichungsstil fest.
+//ExStepSummary:2: Der folgende Code schreibt eine Mustertext zu dem Dokument mit den konfigurierten Schriftart Einstellungen.
+//ExStepSummary:3: Der folgende Code speichert das Dokument in das angegebene Verzeichnis mit einem bestimmten Dateinamen.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Eine neue Dokument-Instanz erstellen
+// Erstellen Sie eine neue Dokumentinstance
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Zugriff auf die Schrifteigenschaft über DocumentBuilder
+// Zugriff auf die Schriftart-Eigenschaft über DocumentBuilder
 Font font = builder.Font;
 // Setzen Sie die Schriftgröße auf 16
 font.Size = 16;
-// Die Schriftart fett machen
+// Schriftzeichen in Fettform
 font.Bold = true;
 // Ändern Sie die Schriftfarbe in blau
 font.Color = Color.Blue;
-// Setzen Sie die Schriftart auf Arial
+// Setzen Sie die Schrift auf Arial
 font.Name = "Arial";
-// Bewerben Sie einen gestrichelten unterstrichenen Stil auf die Schriftart
+// Anwendet einen gestrichelten Unterstrichenstil auf die Schriftart
 font.Underline = Underline.Dash;
 
 //ExStep:2-
 builder.Write("Sample text.");
 
 //ExStep:3-
-// Das Dokument in das Verzeichnis der Artefakte speichern
+// Speichern Sie das Dokument in das Verzeichnis der Artefakte
 doc.Save("WorkingWithFonts.FontFormatting.docx");
 //ExEnd

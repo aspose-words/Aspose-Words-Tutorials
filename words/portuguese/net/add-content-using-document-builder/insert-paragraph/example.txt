@@ -1,15 +1,15 @@
 //ExStart
-//ExSummaryEste código demonstra como criar um documento do Word usando a classe DocumentBuilder e inserir um parágrafo estilizado nele.
-//ExStepSummary:0: O código a seguir inicializa um Documento e um DocumentBuilder para criação de documentos.
+//ExSummary: Este código demonstra como criar um documento do Word usando a classe DocumentBuilder e inserir um parágrafo com estilo nele.
+//ExStepSummary:0: O código a seguir inicializa um documento e um DocumentBuilder para criação de documentos.
 //ExStepSummary:1: O código a seguir configura as configurações de fonte para o parágrafo.
-//ExStepSummary:2: O código a seguir estabelece as configurações de formato de parágrafo para alinhamento e recuo.
-//ExStepSummary:3: O código a seguir escreve um parágrafo no documento.
+//ExStepSummary:2: O código seguinte estabelece as configurações de formato de parágrafo para alinhamento e indentamento.
+//ExStepSummary:3: O código seguinte escreve um parágrafo no documento.
 //ExStepSummary:4: O código a seguir salva o documento como um arquivo .docx.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Inicializar um novo objeto Documento
+// Iniciar um novo objeto de documento
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -20,15 +20,15 @@ Font font = builder.Font;
 font.Size = 16;
 // Faça a fonte em negrito
 font.Bold = true;
-// Definir a cor da fonte para azul
+// Configurar a cor da fonte para azul
 font.Color = Color.Blue;
-// Definir o nome da fonte para Arial
+// Configurar o nome da fonte para Arial
 font.Name = "Arial";
-// Adicionar um sublinhado à fonte
+// Adicionar um sublinhação marcada para a fonte
 font.Underline = Underline.Dash;
 
 //ExStep:2-
-// Acessar as configurações de formato de parágrafo
+// Acesse as configurações de formato de parágrafo
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.FirstLineIndent = 8;
 paragraphFormat.Alignment = ParagraphAlignment.Justify;
@@ -39,6 +39,6 @@ paragraphFormat.KeepTogether = true;
 builder.Writeln("A whole paragraph.");
 
 //ExStep:4-
-// Salve o documento como um arquivo .docx
+// Salvar o documento como um arquivo .docx
 doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
 //ExEnd

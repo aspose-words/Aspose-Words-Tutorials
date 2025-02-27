@@ -1,9 +1,9 @@
 //ExStart
-//ExSummary: このコードは,例文を書く前にフォントの属性を書式設定する Assoft.words を使ってワード文書を作成する方法を示すものです.
-//ExStepSummary:0: 以下のコードは、新規ドキュメントとドキュメントビルダーを初期化します。
-//ExStepSummary:1: 以下のコードは、サイズ、太字、色、名前、下線スタイルなど、さまざまなフォント属性を設定します。
-//ExStepSummary:2: 次のコードは、設定されたフォントの設定を使用して、サンプルテキストをドキュメントに書き込みます。
-//ExStepSummary:3: 以下のコードは、ドキュメントを指定したディレクトリに保存します。
+//ExSummary: このコードは,文字のサンプルテキストを書く前に,フォントのプロパティをフォーマットするAspose.Wordsを使用してWord文書を作成する方法を示します.
+//ExStepSummary:0: 次のコードは新しいドキュメントとドキュメントビルダーを初期化します.
+//ExStepSummary:1: 次のコードは,サイズ,大体,色,名前,強調スタイルなどの様々なフォント属性を設定します.
+//ExStepSummary:2: 次のコードは,設定されたフォント設定を使用して文書にサンプルテキストを書きます.
+//ExStepSummary:3: 次のコードは,指定されたファイル名を持つ指定されたディレクトリに文書を保存します.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
@@ -12,23 +12,23 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// ドキュメントビルダーを通じてフォントのプロパティにアクセスします
+// DocumentBuilder を通してフォントプロパティにアクセスする
 Font font = builder.Font;
-// フォントサイズを 16 にします
+// フォントサイズを16に設定する
 font.Size = 16;
-// フォントを太字にします
+// フォントを大体にする
 font.Bold = true;
-// フォントの色を青に変更
+// フォントの色を青に変更する
 font.Color = Color.Blue;
-// フォントをアナルに設定
+// フォントを Arial に設定する
 font.Name = "Arial";
-// アンダースコアのスタイルをフォントに適用
+// フォントに点点点点点点式を適用する
 font.Underline = Underline.Dash;
 
 //ExStep:2-
 builder.Write("Sample text.");
 
 //ExStep:3-
-// 文書をアーティファクトディレクトリに保存
+// 文書をアーテファクトディレクトリに保存する
 doc.Save("WorkingWithFonts.FontFormatting.docx");
 //ExEnd

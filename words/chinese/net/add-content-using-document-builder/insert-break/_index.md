@@ -1,8 +1,8 @@
 ---
-title: 创建带有附加的多页单词文档。 Words
+title: 创建一个多页的 Word 文档,使用Aspose.Words
 weight: 7700
 limit: 
-description: 学习如何使用 Aspose. words 创建多页单词文档, 使用.NET 的文字, 并使用一步步指令 。
+description: 学习如何创建多页的Word文档,使用 .NET的Aspose.Words步骤指令.
 keywords: [Aspose.Words, .NET, Word document, DocumentBuilder, page break, create document, programming example]
 url: /zh/net/add-content-using-document-builder/insert-break/
 ---
@@ -10,25 +10,25 @@ url: /zh/net/add-content-using-document-builder/insert-break/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 创建带有附加的多页单词文档。 Words
+# 创建一个多页的 Word 文档,使用Aspose.Words
 
-此示例展示了如何使用 Aspose. words for.NET 创建单词文档, 允许您在多个页面中添加内容。 它展示了如何初始化新文档, 使用“ 文档构建器” 插入文本和分页符, 最后将文档保存为.docx 文件。 开发者在. NET 应用程序中寻求自动生成文档的完美 。
+这篇例子展示了如何使用Aspose.Words为 .NET创建Word文档,允许您在多页面上添加内容.它显示了如何初始化新文档,使用DocumentBuilder插入文本和页面间歇,最后保存文档为 .docx文件.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-break" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## 安装指示
-1. 安裝套件. NET 的 words: 使用 NuGet 软件包管理器安装 Apose. words。 在软件包管理器控制台运行以下命令 :
+## 装备说明
+1. 安装 .NET 的Aspose.Words:使用 NuGet 包管理器安装Aspose.Words. 在包管理器控制台中运行下列命令:
 ```
 Install-Package Aspose.Words
 ```
 
 
-## 另见
-[位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)
-[位置。 编辑到. NET 引用](https://reference.aspose.com/words/net/)
+## 查看
+[设置.Word为 .NET文档](https://docs.aspose.com/words/net/)
+[标用.NET引用的Word](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

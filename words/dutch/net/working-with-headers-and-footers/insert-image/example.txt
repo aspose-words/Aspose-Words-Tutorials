@@ -1,22 +1,22 @@
 //ExStart
-//ExSummary: Deze code laat zien hoe je een afbeelding in de header van een Word-document plaatst met behulp van Aspose.Words voor .NET.
-//ExStepSummary:0: Maak een nieuw Word-document aan met behulp van de Aspose.Words- documentklasse.
-//ExStepSummary:1: Verplaats naar de hoofdkop van het document met de DocumentBuilder.
-//ExStepSummary:2: Plaats een afbeelding in de header met specifieke uitlijning, afmetingen en wikkelopties.
-//ExStepSummary:3: Het document opslaan in een opgegeven bestandspad.
+//ExSummaryDeze code toont hoe een afbeelding in de kop van een Word document te plaatsen met behulp van Aspose.Words voor .NET.
+//ExStepSummary:0: Maak een nieuw Word-document met de documentklasse Aspose.Words.
+//ExStepSummary:1: Verplaats naar de primaire kop van het document met de DocumentBuilder.
+//ExStepSummary:2: Voeg een afbeelding in de kop met specifieke afstemming, afmetingen en wikkels.
+//ExStepSummary:3: Bewaar het document op een bepaald bestandspad.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Een nieuw Word-document aanmaken
+// Creëer een nieuw Word document
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Verplaats de cursor naar de primaire header van het document
+// Verplaats de cursor naar de primaire kop van het document
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
 //ExStep:2-
-// Plaats een afbeelding in de kop met specifieke uitlijning en afmetingen
+// Invoeg een afbeelding in de kop met specifieke afstemming en afmetingen
 builder.InsertImage(
     ImagesDir + "Logo.jpg", RelativeHorizontalPosition.RightMargin, 10,
     RelativeVerticalPosition.Page, 10, 50, 50, 
@@ -24,6 +24,6 @@ builder.InsertImage(
 );
 
 //ExStep:3-
-// Het document opslaan in het opgegeven pad
+// Het document opslaan op het gespecificeerde pad
 doc.Save("WorkingWithHeadersAndFooters.InsertImage.docx");
 //ExEnd

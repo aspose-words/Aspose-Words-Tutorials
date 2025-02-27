@@ -2,7 +2,7 @@
 title: Crea un documento con grafici utilizzando Aspose.Words per .NET
 weight: 7700
 limit: 
-description: Scopri come creare un documento Word con i grafici, personalizzare i limiti dell'asse Y e salvare come DOCX usando Aspose.Words for .NET con istruzioni passo-passo.
+description: Impara come creare un documento Word con grafici, personalizzare i limiti dell'asse Y e salvare come DOCX utilizzando Aspose.Words per .NET con istruzioni passo dopo passo.
 keywords: [Aspose.Words for .NET, create chart in Word, customize Y-axis, DOCX chart creation, Word document chart tutorial, .NET Word chart example]
 url: /it/net/working-with-charts/bounds-of-axis/
 ---
@@ -10,40 +10,40 @@ url: /it/net/working-with-charts/bounds-of-axis/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crea un documento con grafici utilizzando Aspese.Words
+# Crea un documento con grafici utilizzando Aspose.Words
 
-Questo tutorial dimostra come creare un documento Word con un grafico usando Aspose.Parole per .NET. Imparerai a inserire un grafico a colonne, cancellare serie esistenti, aggiungere nuovi dati e personalizzare i limiti dell'asse Y. Con istruzioni passo-passo, tra cui l'inizializzazione, la manipolazione dei dati e il salvataggio del documento come file DOCX, questa guida semplifica il lavoro con i grafici in Aspose.Parole per .NET. Sia che tu stia sviluppando report professionali o visualizzazioni dinamiche dei dati, questo esempio ti aiuta a iniziare senza sforzo.
+Questo tutorial mostra come creare un documento Word con un grafico utilizzando Aspose.Words per .NET. Imparerai ad inserire un grafico di colonne, eliminare le serie esistenti, aggiungere nuovi dati e personalizzare i confini dell'asse Y. Con istruzioni passo dopo passo, tra cui inizializzazione, manipolazione dei dati e salvare il documento come file DOCX, questa guida semplifica il lavoro con i grafici in Aspose.Words per .NET. Che tu stia sviluppando rapporti professionali o visualizzazioni di dati dinamici, questo esempio ti aiuta a iniziare senza sforzo.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/bounds-of-axis" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Istruzioni per l'installazione  
+## Instruzioni di installazione  
 
-1. Scarica Aspese.Parole per .NET  
-   Ricevi l'ultima versione di Aspese.Parole per .NET dal[pagina di download ufficiale](https://releases.aspose.com/words/net/).  
+1. Scarica Aspose.Words per .NET  
+   Ottieni l'ultima versione di Aspose.Words per .NET dal [pagina ufficiale di download](https://releases.aspose.com/words/net/)\- Non è vero .  
 
-2. Installa tramite NuGet Package Manager  
-   * Apri il tuo progetto in Visual Studio.  
-   * Vai agli strumenti > NuGet Package Manager > Gestisci i pacchetti NuGet per la soluzione.  
-   * Cerca`Aspese.Parole`nella scheda Sfoglia.  
-   * Selezionare il pacchetto e fare clic su Installa.  
+2. Installare tramite NuGet Package Manager  
+   * Aprire il tuo progetto in Visual Studio.  
+   * Navigare verso Strumenti > NuGet Package Manager > Gestione NuGet Packages for Solution.  
+   * Cerca`"Aspose. Parole"`nella scheda Browse.  
+   * Selezionare il pacchetto e fare clic su Installare.  
 
-3. Aggiungi licenza _(facoltativo)_  
-   * Se hai una licenza, applicala nel tuo progetto. Per maggiori dettagli, visita[come applicare una licenza](https://purchase.aspose.com/temporary-license/).  
+3. Aggiungi la licenza _(Fatto facoltativo)_  
+   * Se avete una licenza, applicatela al vostro progetto.[come applicare una licenza](https://purchase.aspose.com/temporary-license/)\- Non è vero .  
 
-4. Includi spazi dei nomi  
-   Assicurarsi di aggiungere i namespace necessari nel vostro`.csCity name (optional, probably does not need a translation)`file:  
+4. Includere gli spazi di nome  
+   Assicurati di aggiungere gli spazi di nome necessari nella tua `.cs`Archivio:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    using Aspose.Words.Drawing.Charts;
    ```
 
-## Vedere anche
-[Aspese.Parola per la documentazione .NET](https://docs.aspose.com/words/net/)
-[Aspese.Parola per riferimenti .NET](https://reference.aspose.com/words/net/)
+## Vedi anche
+[Aspose.Word per Documentazione .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word per i riferimenti .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

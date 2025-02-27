@@ -1,38 +1,38 @@
 //ExStart
-//ExSummary: Der folgende Code zeigt, wie man ein Word-Dokument mit einer formatierten Tabellenzelle erstellt, die die Polsterung um seinen Inhalt einschließt.
-//ExStepSummary:0: Der folgende Code initialisiert ein neues Dokument und einen Dokument-Builder.
-//ExStepSummary:1: Der folgende Code startet eine Tabelle innerhalb des Dokuments.
+//ExSummary: Der folgende Code zeigt, wie man ein Word-Dokument mit einer formatierten Tabelle-Zelle erstellt, die das Polster um seinen Inhalt beinhaltet.
+//ExStepSummary:0: Der folgende Code initialisiert ein neues Dokument und einen Dokumentersteller.
+//ExStepSummary:1: Der folgende Code beginnt mit einer Tabelle im Dokument.
 //ExStepSummary:2: Der folgende Code fügt eine Zelle in die Tabelle ein.
-//ExStepSummary:3: Der folgende Code setzt die Polsterung für den Zellinhalt.
+//ExStepSummary:3: Der folgende Code legt die Polsterung für den Zellgehalt fest.
 //ExStepSummary:4: Der folgende Code fügt Text zur Zelle hinzu und beendet die aktuelle Zeile.
 //ExStepSummary:5: Der folgende Code beendet die Tabelle und speichert das Dokument in eine Datei.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Initialisieren eines neuen Dokuments
+// Ein neues Dokument initialisieren
 Document doc = new Document();
-// Erstellen eines Dokument-Builders zur Manipulation des Dokuments
+// Erstellen Sie einen Dokumentenbauer für die Manipulation des Dokuments
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Starten Sie mit dem Erstellen einer Tabelle
+// Beginnen Sie mit der Erstellung eines Tabels
 builder.StartTable();
-// Eine neue Zelle in die Tabelle einfügen
+// Einfügen Sie eine neue Zelle in den Tisch
 builder.InsertCell();
 
 //ExStep:2-
-// Set Polsterung mit 30 Punkten oben und unten, 50 Punkten links und rechts
+// Setz eine Polsterung mit 30 Punkten oben und unten, 50 Punkten links und rechts
 builder.CellFormat.SetPaddings(30, 50, 30, 50);
 
 //ExStep:3-
 builder.Writeln("I'm a wonderful formatted cell.");
-// Beenden Sie die aktuelle Zeile in der Tabelle
+// Abschließen Sie die aktuelle Zeile in der Tabelle
 builder.EndRow();
-// Tabelle beenden
+// Endet den Tisch
 builder.EndTable();
 
 //ExStep:4-
-// Das Dokument in eine bestimmte Datei speichern
+// Speichern Sie das Dokument in eine bestimmte Datei
 doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
 //ExEnd

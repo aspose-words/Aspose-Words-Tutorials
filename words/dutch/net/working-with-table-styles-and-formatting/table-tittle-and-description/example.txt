@@ -1,33 +1,33 @@
 //ExStart
-//ExSummary:Deze code laat zien hoe je een titel en beschrijving toevoegt aan een tabel in een Word-document met behulp van Aspose.Words.
-//ExStepSummary:0:Deze stap initialiseert het document en laadt het vanuit een opgegeven map.
-//ExStepSummary:1:Deze stap haalt de eerste tabel uit het document en stelt zijn titel en beschrijving.
-//ExStepSummary:2:Deze stap configureert de opties voor het opslaan van het document met gespecificeerde nalevingsinstellingen.
+//ExSummaryDeze code toont hoe een titel en beschrijving aan een tabel in een Word- document te voegen met behulp van Aspose.Words.
+//ExStepSummary:0:Deze stap initialiseert het document en laadt het uit een bepaald directory.
+//ExStepSummary:1:In deze stap wordt de eerste tabel uit het document gehaald en wordt de titel en de beschrijving ervan ingesteld.
+//ExStepSummary:2:Deze stap configureert de opslagopties voor het document met gespecificeerde conformiteitsinstellingen.
 //ExStepSummary:3:Deze stap optimaliseert de compatibiliteitsopties voor het document voor Word 2016.
-//ExStepSummary:4:Deze stap slaat het gewijzigde document terug naar de opgegeven map.
+//ExStepSummary:4:Deze stap slaat het gewijzigde document terug in het opgegeven directory.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Initialiseer het document en laad het vanuit de datamap
+// Initiaal document en laden uit de gegevens directory
 string dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// De eerste tabel ophalen en de titel en beschrijving ervan instellen
+// De eerste tabel terughalen en de titel en beschrijving ervan instellen
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 table.Title = "Test title";
 table.Description = "Test description";
 
 //ExStep:2-
-// Opslaan opties voor het document configureren
+// Configureer opties voor het document
 OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 //ExStep:3-
-// Compatibiliteitsopties voor Word 2016 optimaliseren
+// Optimaliseren van compatibiliteitsopties voor Word 2016
 doc.CompatibilityOptions.OptimizeFor(Aspose.Words.Settings.MsWordVersion.Word2016);
 
 //ExStep:4-
-// Het gewijzigde document terug naar de opgegeven map opslaan
+// Het gewijzigde document terug te slaan in het opgegeven directory
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.TableTitleAndDescription.docx", options);
 //ExEnd

@@ -1,22 +1,22 @@
 //ExStart
-//ExSummary:本代码演示如何使用 apose.Words for.NET在 Word 文档页眉中插入图像。
-//ExStepSummary:0: 使用 Apose. words 文档类创建新的 Word 文档 。
-//ExStepSummary:1: 使用“文档构建器”移动到文档主页眉。
-//ExStepSummary:2: 在页眉中插入图像, 包含特定的对齐、 尺寸和包包选项 。
-//ExStepSummary:3: 将文档保存到指定的文件路径 。
+//ExSummary: 这个代码展示了如何将图像插入Word文档的标题,使用 .NET的Aspose.Words.
+//ExStepSummary:0: 使用Aspose.Words文档类创建一个新的Word文档.
+//ExStepSummary:1: 使用文件构造器,移动到文件的主要标题.
+//ExStepSummary:2: 插入一个图像,并设置特定的配线,尺寸和包装选项.
+//ExStepSummary:3: 保存文件到指定文件路径.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// 创建新 Word 文档
+// 创建一个新的 Word 文档
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 将光标移动到文档的主标题
+// 将导向器移动到文档的主要标题
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
 //ExStep:2-
-// 将图像插入带有特定对齐和尺寸的页眉中的图像
+// 插入一个图像,以特定的对齐和尺寸
 builder.InsertImage(
     ImagesDir + "Logo.jpg", RelativeHorizontalPosition.RightMargin, 10,
     RelativeVerticalPosition.Page, 10, 50, 50, 
@@ -24,6 +24,6 @@ builder.InsertImage(
 );
 
 //ExStep:3-
-// 将文档保存到指定的路径
+// 保存文件到指定的路径
 doc.Save("WorkingWithHeadersAndFooters.InsertImage.docx");
 //ExEnd

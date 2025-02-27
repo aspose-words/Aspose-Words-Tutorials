@@ -1,38 +1,38 @@
 //ExStart
-//ExSummary:以下代码演示如何创建单词文档,并配有格式化的表格单元格,包括围绕其内容的挂贴。
-//ExStepSummary:0: 以下代码初始化新文档和文档构建器。
-//ExStepSummary:1: 以下代码在文档中起始一个表格。
-//ExStepSummary:2: 以下代码在表格中插入单元格。
-//ExStepSummary:3: 以下代码为单元格内容设置嵌入栏。
-//ExStepSummary:4: 以下代码将文字添加到单元格中,并结束当前行。
-//ExStepSummary:5: 以下代码结束表格,并将文档保存到文件。
+//ExSummary: 下面的代码说明如何创建一个 Word 文档,以格式化的表格单元,包括其内容的填充.
+//ExStepSummary:0: 下面的代码初始化了一个新的文档和一个文档构建器.
+//ExStepSummary:1: 下面的代码开始了文件中的表.
+//ExStepSummary:2: 下面的代码将一个单元插入表中.
+//ExStepSummary:3: 下面的代码设置了细胞内容的填充.
+//ExStepSummary:4: 下面的代码将文字添加到细胞中,并完成当前行.
+//ExStepSummary:5: 下面的代码结束表,并将文档存储在文件中.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// 初始化新文档
+// 启动一个新的文件
 Document doc = new Document();
-// 创建用于操控文档的文档构建器
+// 创建一个文件构建器来操纵文件
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 开始创建表格
+// 开始创建表
 builder.StartTable();
-// 在表格中插入新单元格
+// 插入一个新的细胞到表中
 builder.InsertCell();
 
 //ExStep:2-
-// 设定上下30点、左下50点、右上50点、上上下30点、上下50点
+// 设置填充,上面和下面有30点,左边和右边有50点
 builder.CellFormat.SetPaddings(30, 50, 30, 50);
 
 //ExStep:3-
 builder.Writeln("I'm a wonderful formatted cell.");
-// 在表格中完成当前行
+// 完成表中的当前行
 builder.EndRow();
-// 表格结尾
+// 结束桌子
 builder.EndTable();
 
 //ExStep:4-
-// 将文档保存到指定的文件
+// 保存文件到指定文件中
 doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
 //ExEnd

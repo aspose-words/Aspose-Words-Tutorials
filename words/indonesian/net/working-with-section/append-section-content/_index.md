@@ -1,8 +1,8 @@
 ---
-title: Tambahkan dan Tambah Isi dalam Dokumen Word Menggunakan aspose.Words
+title: Tambahkan dan Prepend Konten dalam Dokumen Word Menggunakan Aspose.Words
 weight: 7700
 limit: 
-description: Pelajari bagaimana menambahkan dan mempersiapkan isi antara bagian dalam dokumen Word menggunakan Aspose.Words untuk .NET. Langkah-demi-langkah panduan dengan contoh kode yang jelas.
+description: Pelajari cara menambahkan dan menyiapkan konten antara bagian dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah dengan contoh kode yang jelas.
 keywords: [Aspose.Words for .NET, append content, prepend content, Word document sections, manipulate sections, .NET Word library]
 url: /id/net/working-with-section/append-section-content/
 ---
@@ -10,9 +10,9 @@ url: /id/net/working-with-section/append-section-content/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tambahkan dan Tambah Isi dalam Dokumen Kata
+# Tambahkan dan Prepend Konten dalam dokumen Word
 
-aspose.Words untuk .NET adalah perpustakaan yang kuat untuk membuat, memanipulasi, dan mengubah dokumen Word dalam aplikasi .NET. Contoh ini menunjukkan bagaimana untuk menambahkan dan mempersiapkan konten dari satu bagian ke bagian lain dalam dokumen Word. Dengan menggunakan API sederhana dan intuitive, Anda dapat memanipulasi bagian, menggabungkan konten, dan melakukan proses penyuntingan dokumen canggih dengan mulus. Apakah Anda sedang membangun aliran kerja otomatis atau penyunting dokumen gubahan, asposid menyederhanakan proses pengembangan Anda.Word.  
+Aspose.Words untuk .NET adalah perpustakaan yang kuat untuk membuat, memanipulasi, dan mengubah dokumen Word dalam aplikasi .NET. Contoh ini menunjukkan bagaimana menambahkan dan menyiapkan konten dari satu bagian ke bagian lain dalam dokumen Word. Dengan menggunakan API sederhana dan intuitif, Anda dapat memanipulasi bagian, menggabungkan konten, dan melakukan tugas pengeditan dokumen lanjutan dengan lancar. Apakah Anda membangun alur kerja otomatisasi atau editor dokumen kustom, Aspose.Words menyederhanakan proses pengembangan Anda.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-section/append-section-content" >}}
@@ -21,36 +21,36 @@ aspose.Words untuk .NET adalah perpustakaan yang kuat untuk membuat, memanipulas
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instruksi Instalasi  
 
-Untuk menggunakan Apose.Words untuk .NET, ikuti langkah-langkah ini:  
+Untuk menggunakan Aspose.Words untuk .NET, ikuti langkah-langkah ini:  
 
-1. Unduh aspose.Words:  
-   * Kunjungi[Sebagaipose.Words untuk halaman unduh .NET](https://releases.aspose.com/words/net/)untuk mendapatkan versi terbaru.  
+1. Unduh Aspose.Words:  
+   * Kunjungi [Aspose.Words untuk halaman download .NET](https://releases.aspose.com/words/net/)Untuk mendapatkan versi terbaru.  
 
-2. Pasang melalui Manajer Paket NuGet:  
-   * Buka proyek .NET Anda di Studio Visual.  
-   * Navigasi ke Perkakas > Manajer Paket NuGet > Kelola Paket NuGet untuk menu Solusi.  
-   * Cari "Aspose.Words" di Manajer Paket NuGet.  
+2. Instal melalui NuGet Package Manager:  
+   * Buka proyek .NET Anda di Visual Studio.  
+   * Pindah ke menu Alat > NuGet Package Manager > Manage NuGet Packages for Solution.  
+   * Carilah untuk "Aspose.Words" di NuGet Package Manager.  
    * Pilih paket dan klik Install.  
 
-3. Sertakan Namespace yang Diperlukan:  
+3. Tambahkan Nama Ruang yang Dibutuhkan:  
    - Add the necessary `using` directives to your C# file:  
      ```csharp  
      using Aspose.Words;  
      using Aspose.Words.Saving;  
      ```  
 
-4. Tambah Lisensi:  
-   * Bila Anda telah membeli lisensi, terapkanlah dengan snippet kode berikut:  
+4. Tambahkan Lisensi:  
+   * Jika Anda telah membeli lisensi, gunakan kode berikut:  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("Aspose.Words.lic");  
      ```  
-   * Untuk evaluasi atau pengujian, Anda dapat meminta[lisensi sementara bebas](https://purchase.aspose.com/temporary-license/).  
+   * Untuk evaluasi atau pengujian, Anda dapat meminta[lisensi sementara gratis](https://purchase.aspose.com/temporary-license/)Aku tidak tahu.  
 
 
-## Juga Lihat
-[aspose.Word untuk .NET Dokumentasi](https://docs.aspose.com/words/net/)
-[aspose.Word untuk referensi .NET](https://reference.aspose.com/words/net/)
+## Lihat juga
+[Aspose.Word untuk Dokumen .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word untuk Referensi .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

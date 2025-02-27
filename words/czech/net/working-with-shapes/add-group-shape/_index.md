@@ -1,8 +1,8 @@
 ---
-title: Vytvořit skupinu tvar ve Word Document Using Aspose.Words for .NET
+title: Vytvořte formát skupiny v dokumentu Word pomocí Aspose.Words pro .NET
 weight: 7700
 limit: 
-description: Naučte se, jak vytvořit tvar skupiny v dokumentu Word pomocí Aspose.Words pro .NET. Přidejte více tvarů, přizpůsobit rozměry, a šetřit svůj dokument bez námahy.
+description: Naučte se vytvářet formou skupiny v dokumentu Word pomocí Aspose.Words pro .NET. Přidejte více tvarů, přizpůsobte rozměry a ušetřte dokument bez námahy.
 keywords: [Aspose.Words for .NET, group shape in Word, add shapes to document, .NET Word library, create shapes in Word, Word group shapes, shape customization, .NET example]
 url: /cs/net/working-with-shapes/add-group-shape/
 ---
@@ -10,33 +10,33 @@ url: /cs/net/working-with-shapes/add-group-shape/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořit tvar skupiny ve Word Document Using Aspose.Words
+# Vytvořte formát skupiny v dokumentu Word pomocí Aspose.Words
 
-Tento tutoriál ukazuje, jak vytvářet a spravovat tvary skupin v dokumentech Word pomocí Aspose.Slova pro .NET. S touto silnou knihovnou, můžete bez námahy kombinovat více tvarů, jako je přízvuk hraniční callout a akční tlačítko, do jednoho skupinového tvaru. Průvodce pokrývá každý krok, od inicializace dokumentu až po přidání tvarů, přizpůsobení rozměrů, a vložení skupinový tvar do vašeho souboru Word. Konečně, příklad ukládá dokument, ukazuje, jak plynule integrovat dynamické tvary do Word dokumentů pro vizuálně atraktivní výsledky.  
+Tento příruční program ukazuje, jak vytvořit a spravovat skupinové tvary v dokumentech Word pomocí Aspose.Words pro .NET. S touto výkonnou knihovnou můžete snadno kombinovat více tvarů, jako je například přízvukový obvod a tlačítko akce, do jednoho typu skupiny. Správce pokrývají každý krok, od inicializace dokumentu až po přidání tvarů, přizpůsobení rozměrů a vložení tvaru skupiny do souboru Word. Nakonec příklad uloží dokument, který ukazuje, jak plynulě integrovat dynamické tvary do dokumentů Word pro vizuálně atraktivní výsledky.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-shapes/add-group-shape" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Návod k instalaci  
+## Příkazy na instalaci  
 
-1. Stáhnout Aspose.Words pro .NET:  
-   Navštivte[Upravit stránku ke stažení](https://releases.aspose.com/words/net/)a stáhnout nejnovější verzi Aspose.Words pro .NET.
+1. Stáhněte si Aspose.Words pro .NET:  
+   Navštivte [Stránka sběratelů](https://releases.aspose.com/words/net/)a stáhnout nejnovější verzi Aspose.Words pro .NET.
 
-2. Nainstalovat prostřednictvím NuGet:  
-   * Otevřít projekt ve Visual Studio.  
-   * Navigovat k nástrojům > NuGet Package Manager > Spravovat NuGet balíčky pro řešení.  
-   * Hledat Aspose.Words in the NuGet Package Manager.  
-   * Klikněte na Install pro přidání knihovny do vašeho projektu.
+2. Instalace prostřednictvím NuGet:  
+   * Otevři svůj projekt v Visual Studio.  
+   * Přejďte do nástrojů > Správce balíček NuGet > Správte balíčky NuGet pro řešení.  
+   * Hledejte Aspose.Words v manažerovi balíčků NuGet.  
+   * Klikněte na položku Instalit, abyste k projektu přidali knihovnu.
 
-3. Aktivace licencí:  
-   * Získání licence od[Upravit nákupní stránku](https://purchase.aspose.com/buy)nebo požádat o[dočasná licence](https://purchase.aspose.com/temporary-license/).  
-   * Aktivovat licenci ve vašem projektu pomocí`Aspose.Words.Licence`třída.
+3. Aktivování licence:  
+   * Získejte licenci od [Stránka nákupu](https://purchase.aspose.com/buy)nebo požádat o[dočasná licence](https://purchase.aspose.com/temporary-license/)\- Ne , ne .  
+   * Aktivujte licenci ve svém projektu pomocí `Aspose.Words. Licence`třídu.
 
-## Také viz
-[Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Reference](https://reference.aspose.com/words/net/)
+## Viz také
+[Aspose.Word pro .NET dokumentaci](https://docs.aspose.com/words/net/)
+[Aspose.Word pro reference .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

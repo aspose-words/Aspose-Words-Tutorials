@@ -1,40 +1,40 @@
 //ExStart
-//ExSummary: Dieser Code zeigt, wie man ein Dokument mit einem Diagramm mit Aspose.Words erstellt, die Grenzen für die Y-Achse setzt und das Dokument als DOCX-Datei speichert. 
-// Jeder Schritt ist nach unten gebrochen, um ein klares Verständnis des Prozesses in der Arbeit mit Diagrammen in Aspose.Words.
-//ExStepSummary:0: Initialisieren Sie ein neues Dokument und eine DocumentBuilder-Instanz. 
+//ExSummaryDieser Code zeigt, wie man ein Dokument mit einem Diagramm mit Aspose.Words erstellt, die Grenzen für die Y-Achse festlegt und das Dokument als DOCX-Datei speichert. 
+// Jeder Schritt wird aufgeteilt, um ein klares Verständnis für den Prozess zu bieten, der bei der Arbeit mit Diagrammen in Aspose.Words einhergeht.
+//ExStepSummary:0: Initialisieren Sie ein neues Dokument und eine Dokumentbuilder-Instanz. 
 //ExStepSummary:1: Fügen Sie ein Diagramm in das Dokument ein und holen Sie das Diagrammobjekt ab. 
-//ExStepSummary:2: Fügen Sie dem Diagramm eine neue Reihe mit bestimmten Kategorien und Werten hinzu. 
-//ExStepSummary:3: Legen Sie die Mindest- und Maximalgrenzen für die Y-Achse des Diagramms fest. 
+//ExStepSummary:2: Fügen Sie eine neue Reihe mit spezifizierten Kategorien und Werten hinzu. 
+//ExStepSummary:3: Stellen Sie die Mindest- und Höchstgrenzen für die Y-Achse des Diagramms fest. 
 //ExStepSummary:4: Speichern Sie das Dokument auf dem angegebenen Pfad. 
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Erstellen Sie eine neue Dokument-Instanz.
+// Erstellen Sie eine neue Dokumentinstance.
 Document doc = new Document();
 // Initialisieren Sie DocumentBuilder, um das Dokument zu erstellen.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Fügen Sie ein Spaltendiagramm in das Dokument ein.
+// Einholen Sie einen Spaltendiagramm in das Dokument.
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
-// Abrufen des Diagrammobjekts aus der Form.
+// Erholen Sie das Grafikobjekt aus der Form.
 Chart chart = shape.Chart;
-// Löschen Sie vorhandene Serien aus dem Diagramm für neue Daten.
+// Löschen Sie alle vorhandenen Serien aus dem Diagramm für frische Daten.
 chart.Series.Clear();
 
 //ExStep:2-
-// Definieren Sie eine neue Serie mit dem Namen "Aspose Series 1".
+// Definition einer neuen Serie mit dem Namen "Aspose Series 1".
 chart.Series.Add("Aspose Series 1",
     new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
     new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
 
 //ExStep:3-
-// Legen Sie die Mindestgrenze der Y-Achse fest.
+// Setzen Sie die Mindestgrenze der Y-Achse.
 chart.AxisY.Scaling.Minimum = new AxisBound(0);
 chart.AxisY.Scaling.Maximum = new AxisBound(6);
 
 //ExStep:4-
-// Speichern Sie das Dokument mit dem Diagramm in den angegebenen Pfad.
+// Speichern Sie das Dokument mit dem Diagramm auf den angegebenen Weg.
 doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
 //ExEnd

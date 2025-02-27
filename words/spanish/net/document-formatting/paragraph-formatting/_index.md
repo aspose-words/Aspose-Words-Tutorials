@@ -1,8 +1,8 @@
 ---
-title: Formatear párrafos usando Aspose.Words para .NET
+title: Formatar los párrafos utilizando Aspose.Words para .NET
 weight: 7700
 limit: 
-description: Aprenda a dar formato a los párrafos de un documento de Word con Aspose.Words para .NET, incluida la alineación, la sangría y el espaciado.
+description: Aprende a formatar párrafos en un documento de Word con Aspose.Words para .NET, incluyendo alineación, inserción y espaciamiento.
 keywords: [Aspose.Words, .NET, paragraph formatting, Word document, document builder, alignment, indentation, Word API]
 url: /es/net/document-formatting/paragraph-formatting/
 ---
@@ -10,8 +10,8 @@ url: /es/net/document-formatting/paragraph-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Formatear párrafos usando aspose.Words
-Esta guía proporciona un ejemplo de cómo formatear párrafos en un documento de Word usando Aspose.Words for .NET. Aprenderá cómo establecer varias opciones de formato de párrafos, como alineación, sangría y espacio después de párrafos. El ejemplo ilustra el uso de las clases Document y DocumentBuilder, lo que permite la creación de documentos bien estructurados mediante programación.
+# Formatear los párrafos usando Aspose.Words
+Esta guía proporciona un ejemplo de cómo formatar párrafos en un documento de Word utilizando Aspose.Words para .NET. Aprenderá cómo configurar varias opciones de formato de párrafo como alineación, inserción y espacio después de párrafos. El ejemplo ilustra el uso de las clases Document y DocumentBuilder, lo que permite la creación de documentos bien estructurados de manera programática.
 
 ---
 {{< tutorial-widget sourcePath="words/net/document-formatting/multilevel-list-formatting" >}}
@@ -19,28 +19,28 @@ Esta guía proporciona un ejemplo de cómo formatear párrafos en un documento d
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instrucciones de instalación
-1. Descargar Aspose.Words para .NET: Visitar el sitio[Sitio web Aspose](https://www.aspose.com/downloads/words/net)para descargar la última versión de Aspose.Words for .NET.
+1. Descarga Aspose.Words para .NET: Visite el [Aspose el sitio web](https://www.aspose.com/downloads/words/net)Para descargar la última versión de Aspose.Words para .NET.
 
-2. Agregar referencia: en su proyecto .NET, haga clic con el botón derecho en el proyecto en el Explorador de soluciones, seleccione Agregar Referencia y busque para agregar el archivo DLL de Aspose.Words.
+2. Añadir Referencia: En su proyecto .NET, haga clic derecho en el proyecto en Solution Explorer, seleccione Añadir > Referencia y navegue para agregar el archivo DLL Aspose.Words.
 
 3. Usando NuGet Package (Opcional): Alternativamente, puede instalar Aspose.Words a través de NuGet Package Manager con el siguiente comando:
    ```
    Install-Package Aspose.Words
    ```
 
-4. Importar espacio de nombres: Agregue la siguiente instrucción a su archivo de código:
+4. Importar espacio de nombres: añadir el siguiente usando la instrucción a su archivo de código:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
-5. Aplicar Licencia (Opcional):  
-   Para utilizar la versión completa,[aplicar una licencia](https://purchase.aspose.com/temporary-license/)o usar un[prueba gratuita](https://releases.aspose.com/words/net/).  
+5. Licencia de solicitud (opcional):  
+   Para usar la versión completa,[aplicar una licencia](https://purchase.aspose.com/temporary-license/)o utilizar una[prueba gratuita](https://releases.aspose.com/words/net/)¿ Qué ?  
 
 
-## Véase también
-[Aspose.Word para la documentación de .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word para las referencias de .NET](https://reference.aspose.com/words/net/)
+## También véase
+[Aspose.Word para Documentación .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word para las referencias .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

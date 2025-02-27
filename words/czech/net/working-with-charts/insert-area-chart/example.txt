@@ -1,42 +1,42 @@
 //ExStart
-//ExSummary: Tento kód ukazuje, jak vložit graf oblasti do dokumentu Word pomocí Aspose.Words.
-//ExStepSummary:0: Následující kód inicializuje nový dokument a stavitel dokumentů.
-//ExStepSummary:1: Následující kód vloží do dokumentu mapu plochy.
-//ExStepSummary:2: Následující kód přidává do grafu řadu se zadanými datovými body.
+//ExSummaryTento kód ukazuje, jak vložit graf oblasti do dokumentu Word pomocí Aspose.Words.
+//ExStepSummary:0: Následující kód iniciuje nový dokument a konstruktor dokumentů.
+//ExStepSummary:1: Následující kód vkládá do dokumentu graf oblasti.
+//ExStepSummary:2: Následující kód přidává do grafu sérii s specifikovanými datovými body.
 //ExStepSummary:3: Následující kód uloží dokument s vloženým grafem plochy.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
 // Vytvořit nový dokument
 Document doc = new Document();
-// Inicializace stavitele dokumentů
+// Vypředujte program pro vytváření dokumentů
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Vložit graf plochy se stanovenými rozměry
+// Vložte graf plochy s uvedenými rozměry
 Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
 
 //ExStep:2-
 // Přístup k objektu grafu
 Chart chart = shape.Chart;
-// Přidat novou sérii do grafu
+// Přidejte do grafu novou sérii
 chart.Series.Add("Aspose Series 1", new [] 
 {
-	// Datový bod 1
+	// Údaje bodu 1
     new DateTime(2002, 05, 01),
-	// Datový bod 2
+	// Údaje bodu 2
     new DateTime(2002, 06, 01),
-	// Datový bod 3
+	// Údaje bodu 3
     new DateTime(2002, 07, 01),
-	// Datový bod 4
+	// Údaje bodu 4
     new DateTime(2002, 08, 01),
-	// Datový bod 5
+	// Údaje bodu 5
     new DateTime(2002, 09, 01)
 }, 
-// Odpovídající hodnoty pro datové body
+// Odpovídající hodnoty pro data body
 new double[] { 32, 32, 28, 12, 15 });
 
 //ExStep:3-
-// Uložit dokument s vloženou mapou
+// Uložte dokument s vloženým grafem
 doc.Save("WorkingWithCharts.InsertAreaChart.docx");
 //ExEnd

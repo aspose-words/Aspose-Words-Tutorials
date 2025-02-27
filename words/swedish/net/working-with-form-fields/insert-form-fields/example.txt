@@ -1,17 +1,17 @@
 //ExStart
-//ExSummary: Denna kod visar hur man infogar formulärfält i ett Word-dokument med hjälp av Aspose.Words för .NET. Speciellt visar det hur man infogar en kombinationsruta formulärfält med fördefinierade objekt.
+//ExSummaryDenna kod visar hur man lägger in formulärfält i ett Word-dokument med hjälp av Aspose.Words för .NET. Speciellt visar den hur man lägger in ett kombinationsfält med fördefinierade objekt.
 //ExStepSummary:0: Följande kod visar hur man skapar ett nytt Word-dokument.
-//ExStepSummary:1: Följande kod visar hur man initierar en DocumentBuilder för att redigera dokumentet.
-//ExStepSummary:2: Följande kod visar hur man definierar och infogar en kombinationsruta formulärfält med fördefinierade objekt och ett standardval.
+//ExStepSummary:1: Följande kod visar hur man initialiserar en DocumentBuilder för redigering av dokumentet.
+//ExStepSummary:2: Följande kod visar hur man definierar och lägger in ett kombinationsfält med fördefinierade element och ett standardutval.
 //ExStepImage:0:images/1.png
 //ExStepImage:1:images/2.png
 //ExStep:0-
-// Initierar ett tomt Word- dokument
+// Initialiserar ett tomt Word-dokument
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Definiera och infoga en kombinationsruta formulärfält
+// Definera och lägg in ett kombinationsfält
 string[] items = { "One", "Two", "Three" };
 builder.InsertComboBox("DropDown", items, 0);
 //ExEnd

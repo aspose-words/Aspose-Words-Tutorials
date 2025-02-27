@@ -1,21 +1,21 @@
 //ExStart
-//ExSummary: Deze code laat zien hoe je een tekst watermerk met specifieke opties toevoegt aan een Word-document met behulp van Aspose.Words.
-//ExStepSummary:0: De volgende code initialiseert het documentpad en maakt een nieuw documentobject aan.
-//ExStepSummary:1: De volgende code stelt de opties voor de tekst watermerk, met inbegrip van lettertype familie, grootte, kleur en lay-out.
-//ExStepSummary:2: De volgende code is van toepassing op de tekst watermerk met de opgegeven opties op het document.
-//ExStepSummary:3: De volgende code slaat het gewijzigde document op in een opgegeven map.
+//ExSummaryDeze code toont hoe een tekstwatermerk met specifieke opties aan een Word- document te voegen met behulp van Aspose.Words.
+//ExStepSummary:0: De volgende code initialiseert het documentpad en creëert een nieuw Document object.
+//ExStepSummary:1: De volgende code stelt de opties voor het tekstwatermerk vast, inclusief lettertypefamilie, grootte, kleur en lay-out.
+//ExStepSummary:2: De volgende code is van toepassing op het tekstwatermerk met de gespecificeerde opties op het document.
+//ExStepSummary:3: De volgende code slaat het gewijzigde document op in een specifieke directory.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStep:0-
-// Het mappad voor het document instellen
+// Stel het directorypad voor het document in
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Het Word-document laden
+// Laad het Word-document
 Document doc = new Document(dataDir + "Document.docx");
 
 //ExStep:2-
-// Opties voor watermerk aanmaken
+// Opties voor watermerken maken
 TextWatermarkOptions options = new TextWatermarkOptions()
 {
     FontFamily = "Arial", // Set font family for the watermark text
@@ -26,10 +26,10 @@ TextWatermarkOptions options = new TextWatermarkOptions()
 };
 
 //ExStep:3-
-// De watermerktekst met opties toepassen
+// Toepassen van het watermerk met opties
 doc.Watermark.SetText("Test", options);
 
 //ExStep:4-
-// Het document opslaan met het watermerk
+// Bewaar het document met het watermerk
 doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
 //ExEnd

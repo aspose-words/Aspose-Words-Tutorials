@@ -1,51 +1,51 @@
 //ExStart
-//ExSummary: Deze code laat zien hoe je een Word-document maakt met een geformatteerde tabel met behulp van Aspose.
+//ExSummaryDeze code toont aan hoe een Word-document met een geformatteerde tabel met Aspose kan worden gemaakt.
 //ExStepSummary:0: Deze stap initialiseert een nieuw document en de documentbouwer.
-//ExStepSummary:1: Deze stap start de tabel en plaatst er een cel in.
-//ExStepSummary:2: Deze stap stelt de opmaak voor de rij, inclusief hoogte en hoogte regel.
-//ExStepSummary:3: Deze stap stelt opvulling in voor de gehele tabel, die alle rijen beïnvloedt.
-//ExStepSummary:4: Deze stap voegt tekst toe aan de cel en eindigt de rij.
-//ExStepSummary:5: Deze stap eindigt de tabel en slaat het document op naar een opgegeven pad.
+//ExStepSummary:1: Deze stap start de tafel en voert een cel erin in.
+//ExStepSummary:2: Deze stap bepaalt de formatering van de rij, met inbegrip van de hoogte- en hoogteregel.
+//ExStepSummary:3: Deze stap geeft een verpakking voor de hele tafel, waardoor alle rijen worden beïnvloed.
+//ExStepSummary:4: Deze stap voegt tekst toe aan de cel en beëindigt de rij.
+//ExStepSummary:5: Deze stap beëindigt de tabel en slaat het document op een bepaald pad.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 
 //ExStep:0-
-// Een nieuwe document-instantie aanmaken
+// Een nieuw documentinstantie maken
 Document doc = new Document();
-// DocumentBuilder initialiseren met het document
+// Initiaal DocumentBuilder met het document
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Een nieuwe tabel starten
+// Start een nieuwe tafel
 Table table = builder.StartTable();
-// Plaats de eerste cel in de tabel
+// Voeg de eerste cel in de tabel
 builder.InsertCell();
 
 //ExStep:2-
-// Toegang tot de RowFormat eigendom van de bouwer
+// Toegang tot de RowFormat-eigenschap van de bouwer
 RowFormat rowFormat = builder.RowFormat;
-// Stel de hoogte van de rij in
+// Stel de hoogte van de rij
 rowFormat.Height = 100;
-// Stel de hoogteregel precies in
+// Stel de hoogte regel op precies
 rowFormat.HeightRule = HeightRule.Exactly;
 
 //ExStep:3-
-// Opvulling instellen voor de tabel
+// Verpakking voor tafel
 table.LeftPadding = 30;
 table.RightPadding = 30;
 table.TopPadding = 30;
 table.BottomPadding = 30;
 
 //ExStep:4-
-// Tekst toevoegen aan de huidige cel
+// Voeg tekst toe aan de huidige cel
 builder.Writeln("I'm a wonderful formatted row.");
-// De huidige rij beëindigen
+// Beëindigen van de huidige rij
 builder.EndRow();
 builder.EndTable();
 
 //ExStep:5-
-// Het document opslaan in het opgegeven pad
+// Het document opslaan op het gespecificeerde pad
 doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableRowFormatting.docx");
 //ExEnd

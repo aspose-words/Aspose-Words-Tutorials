@@ -1,30 +1,30 @@
 //ExStart
-//ExSummaryيوضح هذا الرمز كيفية إنشاء مستند Word باستخدام فئة DocumentBuilder وإدراج فقرة نمطية فيه.
-//ExStepSummary:0: يقوم الكود التالي بتهيئة مستند وDocumentBuilder لإنشاء مستند.
-//ExStepSummary:1: يقوم الكود التالي بتكوين إعدادات الخط للفقرة.
-//ExStepSummary:2: يحدد الرمز التالي إعدادات تنسيق الفقرة للمحاذاة والمسافة البادئة.
-//ExStepSummary:3: الرمز التالي يكتب فقرة في الوثيقة.
-//ExStepSummary:4: يحفظ الكود التالي المستند كملف .docx.
+//ExSummary: هذا الرمز يظهر كيفية إنشاء مستند Word باستخدام فئة DocumentBuilder وإدراج فقرة مصممة في ذلك.
+//ExStepSummary:0: يبدأ الرمز التالي وثيقة ومصمم وثائق لإنشاء وثائق.
+//ExStepSummary:1: يُحدد الرمز التالي إعدادات الخط للفقرة.
+//ExStepSummary:2: يحدد الرمز التالي إعدادات شكل الفقرات للتحديد والإدخال.
+//ExStepSummary:3: يكتب الرمز التالي فقرة في الوثيقة.
+//ExStepSummary:4: الترميز التالي يحفظ الوثيقة كملف .docx.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// تهيئة كائن مستند جديد
+// إعادة تشغيل كائن وثيقة جديد
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// الوصول إلى إعدادات الخط من DocumentBuilder
+// الوصول إلى إعدادات الخطوط في DocumentBuilder
 Font font = builder.Font;
-// اضبط حجم الخط على 16
+// حدد حجم الخط إلى 16
 font.Size = 16;
-// اجعل الخط غامقًا
+// قم بتحديد الخط
 font.Bold = true;
-// اضبط لون الخط على الأزرق
+// حدد لون الخط إلى الأزرق
 font.Color = Color.Blue;
-// اضبط اسم الخط على Arial
+// حدد اسم الخط إلى Arial
 font.Name = "Arial";
-// أضف سطرًا سفليًا متقطعًا إلى الخط
+// إضافة خط خطاطاً مطروحة إلى الخط
 font.Underline = Underline.Dash;
 
 //ExStep:2-
@@ -35,10 +35,10 @@ paragraphFormat.Alignment = ParagraphAlignment.Justify;
 paragraphFormat.KeepTogether = true;
 
 //ExStep:3-
-// اكتب فقرة من النص في المستند
+// اكتب فقرة من النص في الوثيقة
 builder.Writeln("A whole paragraph.");
 
 //ExStep:4-
-// احفظ المستند كملف .docx
+// حفظ الوثيقة كملف .docx
 doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
 //ExEnd

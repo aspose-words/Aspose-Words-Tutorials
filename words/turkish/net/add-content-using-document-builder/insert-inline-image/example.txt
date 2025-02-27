@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary:Bu kod, Aspose.Words kullanarak bir Word belgesine satır içi resmin nasıl yerleştirileceğini gösterir.
-//ExStepSummary:0: Belge nesnesinin ve Belge Oluşturucusunun belgenin inşası için başlatılması.
-//ExStepSummary:1: DocumentBuilder ile mevcut imleç konumunda bir resmin belgeye eklenmesi.
-//ExStepSummary:2: Belgeyi belirli bir dosya adına kaydetmek.
+//ExSummary:Bu kod, Aspose.Words kullanarak bir Word belgesine bir iç çizgi görüntüsü nasıl ekleneceğini gösterir.
+//ExStepSummary:0: Belge nesnesinin ve belgeyi oluşturmak için DocumentBuilder'in başlangıcı.
+//ExStepSummary:1: DocumentBuilder ile mevcut kursor pozisyonunda bir resmin belgeye eklenmesi.
+//ExStepSummary:2: Belgeyi belirtilen bir dosya adına kaydetmek.
 //ExStepImage:1:images/1.png
 //ExStep:0-
-// Yeni bir Belge ve Belge Oluşturucuyu Başlat
+// Yeni Belge ve Belge Oluşturucu'nu başlat
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// DocumentBuilder kullanarak resmi ekle
+// Resimi DocumentBuilder kullanarak ekle
 builder.InsertImage(ImagesDir + "Transparent background logo.png");
 
 //ExStep:2-
-// Değiştirilen belgeyi bir dosyaya kaydet
+// Değiştirilmiş belgeyi bir dosyaya kaydet
 doc.Save("AddContentUsingDocumentBuilder.InsertInlineImage.docx");
 //ExEnd

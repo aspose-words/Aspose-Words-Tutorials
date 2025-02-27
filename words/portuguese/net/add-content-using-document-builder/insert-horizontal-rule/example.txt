@@ -1,13 +1,13 @@
 //ExStart
-//ExSummary: Este código demonstra como criar um documento do Word usando Aspose.Words e adicionar uma regra horizontal a ele. 
-//ExStepSummary:0: Crie um novo objeto Documento para manter o conteúdo.
+//ExSummaryEste código demonstra como criar um documento do Word usando Aspose.Words e adicionar uma regra horizontal para ele. 
+//ExStepSummary:0: Crie um novo objeto de documento para conter o conteúdo.
 //ExStepSummary:1: Use o DocumentBuilder para projetar o layout do documento e inserir uma mensagem.
-//ExStepSummary:2: Insira uma forma de regra horizontal no documento.
-//ExStepSummary:3: Salve o documento no caminho do arquivo especificado.
+//ExStepSummary:2: Insira uma forma horizontal de regra no documento.
+//ExStepSummary:3: Salvar o documento no caminho do arquivo especificado.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Criar um novo objeto Documento para manter o conteúdo
+// Criar um novo objeto de documento para conter o conteúdo
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc); 
 
@@ -16,10 +16,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Insert a horizontal rule shape into the document.");
 
 //ExStep:2-
-// Inserir uma forma de regra horizontal no documento
+// Insira uma forma de regra horizontal no documento
 builder.InsertHorizontalRule();
 
 //ExStep:3-
-// Salve o documento no local especificado
+// Salvar o documento no local especificado
 doc.Save("AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
 //ExEnd

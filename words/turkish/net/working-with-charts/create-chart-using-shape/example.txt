@@ -1,37 +1,37 @@
 //ExStart
-//ExSummary: Word belgesinde bir satır çizelgesinin nasıl oluşturulacağını bulmak için lütfen aşağıdaki kodu kontrol edin. Bu kodu IDE'nize kopyalayabilir ve çalıştırabilirsiniz.
-//ExStepSummary:0: Aşağıdaki kod, yeni bir Belgenin nasıl oluşturulacağını ve bir DocumentBuilder'ın nasıl hazırlanacağını gösterir:
-//ExStepSummary:1: Aşağıdaki kod, belgeye bir Satır grafiğinin nasıl yerleştirileceğini gösterir:
-//ExStepSummary:2: Aşağıdaki kod, grafik için başlığın nasıl ayarlanacağını açıklar:
-//ExStepSummary:3: Aşağıdaki kod, grafik efsanesinin konumunu ve bindirme ayarlarının nasıl yapılandırılacağını gösterir:
+//ExSummary: Lütfen Word belgesinde bir satır çizelgesini nasıl oluşturulacağını bulmak için aşağıdaki kodu kontrol edin. Bu kodu IDE'nize kopyalayıp çalıştırın.
+//ExStepSummary:0: Aşağıdaki kod yeni bir belge oluşturmanın ve bir DocumentBuilder'i anımsatmanın yolunu gösterir:
+//ExStepSummary:1: Aşağıdaki kod, belgeye bir çizgi çizgisinin nasıl ekleneceğini gösterir:
+//ExStepSummary:2: Aşağıdaki kod, tablo başlığını nasıl ayarlanacağını açıklar:
+//ExStepSummary:3: Aşağıdaki kod, grafik efsanesinin konum ve üstlenme ayarlarını nasıl yapılandırılacağını gösterir:
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Yeni bir Belge nesnesi oluştur
+// Yeni Belge nesnesini oluştur
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Belgeye belirtilen boyutlarda bir Satır grafiği ekle
+// Belgeye belirtilen boyutlarda bir çizgi çizgisi ekle
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
 
 //ExStep:2-
-// Grafik nesnesine formdan erişin
+// Şekilde Çizgi nesneye eriş
 Chart chart = shape.Chart;
-// Grafik başlığı görünürlüğünü etkinleştir
+// Çarşın başlıklarının görünürlüğünü etkinleştir
 chart.Title.Show = true;
-// Grafik için başlık metnini ayarla
+// Çarşın başlık metnini ayarlayın
 chart.Title.Text = "Line Chart Title";
-// Başlığın grafiği kaplamadığından emin olun
+// Başlık tabloyu örtmez
 chart.Title.Overlay = false;
 
 //ExStep:3-
-// Grafik efsanesinin konumunu sola ayarla
+// Çarşiv efsanesinin pozisyonunu sol tarafta ayarlayın
 chart.Legend.Position = LegendPosition.Left;
 chart.Legend.Overlay = true;
 
 //ExStep:4-
-// Belgeyi grafikle bir dosyaya kaydet
+// Çarşivle birlikte belgeyi bir dosyaya kaydet
 doc.Save("WorkingWithCharts.CreateChartUsingShape.docx");
 //ExEnd

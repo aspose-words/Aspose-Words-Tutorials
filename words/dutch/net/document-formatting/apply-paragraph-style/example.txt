@@ -1,22 +1,22 @@
 //ExStart
-//ExSummary: Deze code laat zien hoe je een Word-document maakt met behulp van Aspose.Words, een alinea-stijl toepast en het document opslaat. Het laat zien hoe je een titel-stijl voor een alinea instelt en het document opslaat in .docx-formaat.
-//ExStepSummary:0: Deze sectie initialiseert een nieuwe Document en DocumentBuilder instantie.
-//ExStepSummary:1: Deze sectie past een titel paragraafstijl toe met behulp van de DocumentBuilder.
-//ExStepSummary:2: Deze sectie schrijft "Hallo" naar het document.
-//ExStepSummary:3: Deze sectie slaat het document op in een opgegeven bestandspad.
+//ExSummaryDeze code toont hoe je een Word-document met behulp van Aspose.Words kunt maken, een paragraafstijl kunt toepassen en het document kunt opslaan.
+//ExStepSummary:0: Dit gedeelte initialiseert een nieuwe document- en documentbuilder-instance.
+//ExStepSummary:1: Dit gedeelte is een titel-paragraafstyl met behulp van de DocumentBuilder.
+//ExStepSummary:2: Dit gedeelte schrijft "Hallo" aan het document.
+//ExStepSummary:3: Dit gedeelte slaat het document op een bepaald bestandspad.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Initialiseren van een nieuwe document-instantie
+// Een nieuw documentinstantie initieel
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// De paragraafstijl instellen op titel
+// Stel de paragraafstijl op titel
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Title;
 
 //ExStep:2-
-// Schrijf "Hallo" met behulp van de bouwer, het toepassen van de opgegeven stijl
+// Schrijf "Hello" met de bouwer, met de gespecificeerde stijl
 builder.Write("Hello");
 
 //ExStep:3-

@@ -1,37 +1,37 @@
 //ExStart
-//ExSummary: Bitte überprüfen Sie den folgenden Code, um zu finden, wie Sie ein Liniendiagramm in einem Word-Dokument erstellen. Sie können diesen Code in Ihre IDE kopieren und ausführen.
-//ExStepSummary:0: Der folgende Code zeigt, wie man ein neues Dokument erstellt und einen DocumentBuilder instantiiert:
-//ExStepSummary:1: Der folgende Code zeigt, wie man ein Liniendiagramm in das Dokument einfügt:
-//ExStepSummary:2: Der folgende Code erklärt, wie man den Titel für das Diagramm setzt:
-//ExStepSummary:3: Der folgende Code zeigt, wie die Position und Overlay-Einstellungen der Kartenlegende konfiguriert werden:
+//ExSummarySie können diesen Code in Ihr IDE kopieren und ausführen.
+//ExStepSummary:0: Der folgende Code zeigt, wie man ein neues Dokument erstellt und einen DocumentBuilder instanziert:
+//ExStepSummary:1: Der folgende Code zeigt, wie ein Liniendiagramm in das Dokument eingefügt wird:
+//ExStepSummary:2: Der folgende Code erklärt, wie der Titel für den Diagramm festgelegt wird:
+//ExStepSummary:3: Der folgende Code zeigt, wie die Position und die Einstellungen der Überlagerung der Chartlegende konfiguriert werden:
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Ein neues Dokumentobjekt erstellen
+// Erstellen Sie ein neues Dokumentobjekt
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Einfügen eines Liniendiagramms in das Dokument bei vorgegebenen Abmessungen
+// Ein Liniendiagramm in das Dokument in angegebenen Abmessungen einfügen
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
 
 //ExStep:2-
-// Zugriff auf das Chart-Objekt aus der Form
+// Zugriff auf das Chartobjekt aus der Form
 Chart chart = shape.Chart;
-// Die Sichtbarkeit des Diagrammtitels aktivieren
+// Aktivieren Sie die Sichtbarkeit der Tabelle Titel
 chart.Title.Show = true;
-// Stellen Sie den Titeltext für das Diagramm
+// Setzen Sie den Titeltext für das Diagramm
 chart.Title.Text = "Line Chart Title";
-// Stellen Sie sicher, dass der Titel das Diagramm nicht überlagert
+// Stellen Sie sicher , dass der Titel nicht das Diagramm überlagert
 chart.Title.Overlay = false;
 
 //ExStep:3-
-// Legen Sie die Position der Chartlegende nach links
+// Setzen Sie die Position der Chart Legende links
 chart.Legend.Position = LegendPosition.Left;
 chart.Legend.Overlay = true;
 
 //ExStep:4-
-// Das Dokument mit dem Diagramm in eine Datei speichern
+// Speichern Sie das Dokument mit dem Diagramm in eine Datei
 doc.Save("WorkingWithCharts.CreateChartUsingShape.docx");
 //ExEnd

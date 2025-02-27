@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary: Este código demonstra como formatar parágrafos em um documento do Word usando Aspose.Words. Ele mostra como definir opções de formatação de parágrafo, como alinhamento, recuo e espaço após um parágrafo.
-//ExStepSummary:0: Esta etapa inicializa um novo Documento e um DocumentBuilder para a construção do documento.
-//ExStepSummary:1: Esta etapa define as opções de formatação do parágrafo, incluindo alinhamento, recuo esquerdo, recuo direito e espaço após o parágrafo.
-//ExStepSummary:2: Esta etapa escreve um parágrafo bem formatado com as opções de formatação especificadas no documento.
-//ExStepSummary:3: Esta etapa escreve outro parágrafo formatado demonstrando o efeito do espaço após o parágrafo.
+//ExSummaryEste código mostra como formatar parágrafos em um documento do Word usando Aspose.Words. Ele mostra como definir opções de formatagem do parágrafo, como alinhamento, indentamento e espaço após um parágrafo.
+//ExStepSummary:0: Esta etapa inicializa um novo documento e um DocumentBuilder para a construção do documento.
+//ExStepSummary:1: Esta etapa define as opções de formatação do parágrafo, incluindo alinhamento, tiragem esquerda, tiragem direita e espaço após o parágrafo.
+//ExStepSummary:2: Esta etapa escreve um parágrafo bem formatado com as opções de formatagem especificadas para o documento.
+//ExStepSummary:3: Este passo escreve outro parágrafo formateado demonstrando o efeito do espaço após o parágrafo.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0- 
-// Crie uma nova instância do documento.
+// Crie uma nova instância de documento.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1- 
-// Configure as opções de formatação de parágrafo.
+// Configure opções de formatamento de parágrafos.
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;
 paragraphFormat.LeftIndent = 50;
@@ -21,16 +21,16 @@ paragraphFormat.RightIndent = 50;
 paragraphFormat.SpaceAfter = 25;
 
 //ExStep:2- 
-// Escreva o primeiro parágrafo formatado.
+// Escreva o primeiro parágrafo em formato.
 builder.Writeln(
 	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
 
 //ExStep:3- 
-// Escreva o segundo parágrafo formatado.
+// Escreva o segundo parágrafo em formato.
 builder.Writeln(
 	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
 
 //ExStep:4- 
-// Salve o documento no caminho especificado.
+// Salvar o documento no caminho especificado.
 doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
 //ExEnd

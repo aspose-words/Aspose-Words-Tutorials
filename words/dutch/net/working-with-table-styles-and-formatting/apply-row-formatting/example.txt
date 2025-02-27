@@ -1,47 +1,47 @@
 //ExStart
-//ExSummary: Deze code laat zien hoe rijopmaak toe te passen in een Word-document met behulp van Aspose.Words.
-//ExStepSummary:0: Initialiseert een nieuw document en begint met het bouwen van een tabel met geformatteerde rijen.
+//ExSummaryDeze code toont hoe rijformatting in een Word document wordt toegepast met behulp van Aspose.Words.
+//ExStepSummary:0: Initieelt een nieuw document en begint met het bouwen van een tabel met geformatteerde rijden.
 //ExStepSummary:1: Configureert het rijformaat.
-//ExStepSummary:2: Configureert de specifieke hoogte-instellingen.
-//ExStepSummary:3: Stelt opvulling in voor de gehele tabel die alle rijen beïnvloedt.
-//ExStepSummary:4: Schrijft tekst in de tabel cel en eindigt de rij.
-//ExStepSummary:5: Voltooit het tafelbouwproces en slaat het document op.
+//ExStepSummary:2: Configureert de specifieke hoogteinstellingen.
+//ExStepSummary:3: De verpakking van de hele tafel, die alle rijen beïnvloedt.
+//ExStepSummary:4: Schrijft tekst in de tafelcel en eindigt de rij.
+//ExStepSummary:5: Voltooit het tafelaarbouwproces en slaat het document op.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// Een nieuw document aanmaken
+// Een nieuw document maken
 Document doc = new Document();
-// DocumentBuilder aanmaken om het document te wijzigen
+// Een DocumentBuilder maken om het document te wijzigen
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Een nieuwe tabel starten
+// Start een nieuwe tafel
 Table table = builder.StartTable();
-// Een nieuwe cel in de tabel invoegen
+// Een nieuwe cel in de tabel plaatsen
 builder.InsertCell();
 //ExStep:2-
-// Toegang tot de rij-opmaak-eigenschappen
+// Toegang tot de rijenformatering eigenschappen
 RowFormat rowFormat = builder.RowFormat;
-// Stel de hoogte van de rij in
+// Stel de hoogte van de rij
 rowFormat.Height = 100;
-// Geef aan dat de hoogte precies is
+// Specificeer dat de hoogte precies is
 rowFormat.HeightRule = HeightRule.Exactly;
 
 //ExStep:3-
-// Opvulling instellen voor de tabel
+// Verpakking voor tafel
 table.LeftPadding = 30; 
 table.RightPadding = 30;
 table.TopPadding = 30;
 table.BottomPadding = 30;
 
 //ExStep:4-
-// Tekst in de cel schrijven
+// Schrijf tekst in de cel
 builder.Writeln("I'm a wonderful formatted row.");
-// De huidige rij beëindigen
+// Beëindigen van de huidige rij
 builder.EndRow();
-// Beëindig het tafelgebouw
+// Einde van het tafeltje
 builder.EndTable();
 
 //ExStep:5-

@@ -1,64 +1,64 @@
 //ExStart
-//ExSummary: Kode ini menunjukkan bagaimana membuat suatu bentuk grup dalam sebuah dokumen menggunakan Aspose.Words.
-// Ini menciptakan bentuk panggilan batas aksen dan tombol aksi, menambahkan mereka ke bentuk kelompok, dan kemudian memasukkan bentuk grup ke dalam dokumen sebelum menyimpannya.
-//ExStepSummary:0: Menginisialisasi dokumen baru dan memastikan persyaratan minimum dipenuhi.
-//ExStepSummary:1: Menciptakan GroupShape yang akan membentuk bentuk lain.
-//ExStepSummary:2: Menambahkan bentuk panggilan keluar perbatasan aksen ke bentuk grup.
-//ExStepSummary:3: Tambahkan bentuk tombol aksi ke bentuk grup.
-//ExStepSummary:4: Mengatur dimensi dan koordinat untuk bentuk kelompok.
-//ExStepSummary:5: Sisipkan bentuk grup ke dalam dokumen memakai DokumenBuilder.
-//ExStepSummary:6: Menyimpan dokumen yang memuat bentuk grup ke lokasi yang ditentukan.
+//ExSummary: Kode ini menunjukkan bagaimana membuat bentuk kelompok dalam dokumen menggunakan Aspose.Words.
+// Ini membuat bentuk panggilan border aksen dan tombol aksi, menambahkannya ke bentuk kelompok, dan kemudian memasukkan bentuk kelompok ke dalam dokumen sebelum menyimpannya.
+//ExStepSummary:0: Inisialkan dokumen baru dan memastikan persyaratan minimum dipenuhi.
+//ExStepSummary:1: Membuat GroupShape yang akan menyimpan bentuk lain.
+//ExStepSummary:2: Menambahkan bentuk panggilan aksen perbatasan ke bentuk kelompok.
+//ExStepSummary:3: Menambahkan bentuk tombol aksi ke bentuk kelompok.
+//ExStepSummary:4: Menentukan dimensi dan koordinat untuk bentuk kelompok.
+//ExStepSummary:5: Masukkan bentuk kelompok ke dalam dokumen menggunakan DocumentBuilder.
+//ExStepSummary:6: Menyimpan dokumen yang berisi bentuk kelompok ke lokasi yang ditentukan.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStepImage:5:images/5.png
 //ExStep:0-
-// Buat Dokumen baru
+// Buat Dokumen Baru
 Document doc = new Document();
-// Pastikan dokumen memenuhi persyaratan minimum
+// Memastikan dokumen memenuhi persyaratan minimum
 doc.EnsureMinimum();
 
 //ExStep:1-
-// Buat suatu Instansi GroupShape baru
+// Buat contoh GroupShape baru
 GroupShape groupShape = new GroupShape(doc);
 
 //ExStep:2-
-// Membuat bentuk tanda batas aksen
+// Buat bentuk penelpon aksen
 Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
 {
     Width = 100, 
     Height = 100
 };
-// Tambahkan bentuk ke bentuk grup
+// Tambahkan bentuk ke bentuk kelompok
 groupShape.AppendChild(accentBorderShape);
 
 //ExStep:3-
-// Buat suatu bentuk tombol aksi
+// Buat bentuk tombol aksi
 Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
 {
-	// Tata posisi kiri bentuk
+	// Tentukan posisi kiri bentuk
     Left = 100, 
-	// Menentukan lebar dari bentuk
+	// Set lebar bentuk
     Width = 100, 
-	// Menentukan tinggi dari bentuk
+	// Set tinggi bentuk
     Height = 200
 };
-// Tambahkan tombol aksi ke bentuk grup
+// Tambahkan tombol aksi ke bentuk kelompok
 groupShape.AppendChild(actionButtonShape);
 
 //ExStep:4-
-// Menentukan lebar dari bentuk grup
+// Tentukan lebar bentuk kelompok
 groupShape.Width = 200;
-// Menentukan tinggi dari bentuk grup
+// Tentukan ketinggian bentuk kelompok
 groupShape.Height = 200;
-// Tata ukuran koordinat bagi bentuk grup
+// Tentukan ukuran koordinat untuk bentuk kelompok
 groupShape.CoordSize = new Size(200, 200);
 
 //ExStep:5-
-// Buat Dokumen Builder untuk memanipulasi dokumen
+// Buat DocumentBuilder untuk memanipulasi dokumen
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Sisipkan bentuk grup ke dalam dokumen
+// Masukkan bentuk kelompok ke dalam dokumen
 builder.InsertNode(groupShape);
 
 //ExStep:6-

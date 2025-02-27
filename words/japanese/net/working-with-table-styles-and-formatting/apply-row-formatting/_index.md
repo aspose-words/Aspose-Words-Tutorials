@@ -1,8 +1,8 @@
 ---
-title: ドキュメント中の行の書式設定を Astrpost.NET に適用します
+title: .NET のAspose.WordsでWord ドキュメントに Row Format を適用する
 weight: 7700
 limit: 
-description: Assoft.words.net で行の書式設定を適用する方法を学びます。コードの例と詳細説明で、ステップごとのガイドを参照してください。
+description: .NET のAspose.Wordsを使用してWord ドキュメントに行格式化を行う方法を学びます. コード例と詳細な指示を付いたステップ・バイ・ステップガイド.
 keywords: [Aspose.Words for .NET, row formatting Word, apply row format, Word document table styling, .NET Word document example, Aspose.Words tutorial, table row padding, Word document programming]
 url: /ja/net/working-with-table-styles-and-formatting/apply-row-formatting/
 ---
@@ -10,9 +10,9 @@ url: /ja/net/working-with-table-styles-and-formatting/apply-row-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ドキュメント内での行の書式設定をアクセシビリティで適用します。Do not translate the keyword between brackets (e.g. ServerName)
+# Aspose.WordsでWord ドキュメントに行格式化を適用する
 
-アクセシビリティ.NET は、言語ドキュメントの作成及び編集のための強力なツールを提供します。この例では、単語ドキュメントの行の書式設定を Asfofo.words を使ってどのように適用するかを示します。行の高さを設定し、パディングを設定し、正確なフォーマットを適用して円滑な表を作成することができます。このステップのガイドには、これらの機能を素早く実装するためのコードや命令が含まれています。
+.NET の Aspose.Words は,Word 文書をプログラム的に作成・修正するための強力なツールを提供しています.この例では",Aspose.Words"を使用してWord 文書に行格式化を行う方法を説明します. 列の高さを設定し,パッディングを設定し,正確な格式化を使用して,構造的なテーブルを作成します.このステップバイ・ステップガイドには,コードスニペットと指示が含まれます.
 
 
 ---
@@ -20,35 +20,35 @@ url: /ja/net/working-with-table-styles-and-formatting/apply-row-formatting/
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## インストールインジケータ  
-Public domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainfalsefalsefalsefalsefalse.  
+## 設置指示  
+プロジェクトで .NET のAspose.Wordsを使用するには,次の手順を実行してください.  
 
-1. Asfof.words for NET をダウンロード  
-   * 訪問[Asfoint. ^ a b "NET ダウンロードページ". NET ダウンロードページ.](https://releases.aspose.com/words/net/)を選択して、最新バージョンをダウンロードします。
+1. .NET のためのAspose.Wordsをダウンロードする  
+   * 訪問する[Aspose.Wordsは.NETダウンロードページ](https://releases.aspose.com/words/net/)ダウンロードする
 
-2. NuGet によるインストール  
-   * プロジェクトをビジュアル・スタジオにオープンします。  
-   * ツール_BAR_NEGE パッケージマネージャで NewGet パッケージの管理を行います。  
-   * 検索対象`Asfords. 言葉`を選択して、インストールをクリックします。
+2. NuGet を介してインストール  
+   * プロジェクトをビジュアルスタジオで開け  
+   * ツール > NuGet パッケージ管理者 > ソリューションのための NuGet パッケージ管理へ  
+   * 検索する`"言葉"`インストールをクリックします.
 
-3. 名前空間を含める  
-   * コードに次の行を追加します:  
+3. 名前空間を入力する  
+   * コードに次の行を追加する  
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Tables;
      ```
 
-4. ライセンスをアクティブに (オプション)  
-   * 評価制限を回避するには[一時ライセンス](https://purchase.aspose.com/temporary-license/)または[フルライセンス](https://purchase.aspose.com/buy))をいう.  
-   * コードのライセンスを読み込みます:  
+4. ライセンスを有効にする (オプション)  
+   * 評価制限を避けるために,[派遣許可証](https://purchase.aspose.com/temporary-license/)購入する[完全ライセンスの](https://purchase.aspose.com/buy)やってくれ  
+   * ライセンスコードに載せ  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```
 	 
-## また、参照してください。
-[Asforce. NET ドキュメンテーション用用語](https://docs.aspose.com/words/net/)
-[access. ^ a b c d e f g h i ". NET インフォメーション".](https://reference.aspose.com/words/net/)
+## また見てください
+[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
+[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,16 +1,16 @@
 //ExStart
-//ExSummary: Deze code laat zien hoe je een Word-document kunt maken met een Inhoudsopgave met behulp van DocumentBuilder. Het bevat rubrieken van verschillende niveaus en slaat het document op als een .docx-bestand.
-//ExStepSummary:0: Deze stap initialiseert een nieuw documentobject.
-//ExStepSummary:1: Deze stap maakt een DocumentBuilder object aan voor het document manipuleren.
-//ExStepSummary:2: Deze stap plaatst de Inhoudsopgave aan het begin van het document.
-//ExStepSummary:3: Deze stap introduceert een paginapauze om de werkelijke inhoud op een nieuwe pagina te starten.
-//ExStepSummary:4: Deze stap stelt de eerste kop in en schrijft "Rubriek 1" naar het document.
-//ExStepSummary:5: Deze stap stelt het niveau van de tweede rubriek in en schrijft "Rubriek 1.1" en "Rubriek 1.2."
-//ExStepSummary:6: Deze stap stelt opnieuw het niveau van de eerste rubriek in en schrijft "Rubriek 2" en "Rubriek 3."
-//ExStepSummary:7: Deze stap stelt het niveau van de tweede rubriek in en schrijft "Rubriek 3.1."
-//ExStepSummary:8: Deze stap stelt het niveau van de derde rubriek vast en schrijft de onderverdelingen "Rubriek 3.1.1," "Rubriek 3.1.2" en "Rubriek 3.1.3."
-//ExStepSummary:9: Deze stap stelt het niveau van de tweede rubriek opnieuw in en schrijft "Rubriek 3.2" en "Rubriek 3.3."
-//ExStepSummary:10: Tot slot, deze stap update de velden in het document en slaat het op als een .docx bestand.
+//ExSummaryDeze code toont hoe u een Word-document met een Inhoudtabel met behulp van DocumentBuilder kunt maken. Het bevat koppen van verschillende niveaus en slaat het document op als een .docx-bestand.
+//ExStepSummary:0: Deze stap initialiseert een nieuw Document object.
+//ExStepSummary:1: Deze stap creëert een DocumentBuilder-object voor de documentmanipulatie.
+//ExStepSummary:2: In deze stap wordt aan het begin van het document de Inhoudstabel ingevoegd.
+//ExStepSummary:3: Deze stap introduceert een pagina-pauze om de werkelijke inhoud op een nieuwe pagina te starten.
+//ExStepSummary:4: Deze stap geeft de eerste titel en schrijft "Punt 1" aan het document.
+//ExStepSummary:5: Deze stap stelt het tweede hoofdstuk niveau vast en schrijft "Hoofdstuk 1.1" en "Hoofdstuk 1.2".
+//ExStepSummary:6: Deze stap stelt opnieuw het eerste hoofdniveau en schrijft "Hoofdstuk 2" en "Hoofdstuk 3".
+//ExStepSummary:7: Deze stap stelt het tweede hoofdniveau vast en schrijft "Hoofdstuk 3.1".
+//ExStepSummary:8: In deze stap wordt het derde onderdeel van de rubriek vastgesteld en worden de onderverdelingen "Band 3.1.1", "Band 3.1.2" en "Band 3.1.3" geschreven.
+//ExStepSummary:9: Deze stap stelt het tweede hoofdstuk opnieuw op en schrijft "Hoofdstuk 3.2" en "Hoofdstuk 3.3".
+//ExStepSummary:10: Ten slotte wordt met deze stap de velden in het document bijgewerkt en als .docx-bestand opgeslagen.
 //ExStepImage:3:images/1.png
 //ExStepImage:4:images/2.png
 //ExStepImage:5:images/3.png
@@ -20,52 +20,52 @@
 //ExStepImage:9:images/7.png
 
 //ExStep:0-
-// Een nieuwe document-instantie aanmaken
+// Creëer een nieuw document-instance
 Document doc = new Document();
 
 //ExStep:1-
-// DocumentBuilder initialiseren voor documentmanipulatie
+// DocumentBuilder in initialisering voor documentmanipulatie
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:2-
-// Inhoudsopgave met gespecificeerde opties invoegen
+// Een Inhoudstabel met gespecificeerde opties invoeren
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
 //ExStep:3-
-// Een paginapauze invoegen om inhoud op een nieuwe pagina te starten
+// Voeg een pagina-pauze in om inhoud op een nieuwe pagina te starten
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:4-
-// Stijl instellen op rubriek 1
+// Styling ingesteld op rubriek 1
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
 //ExStep:5-
-// Stijl instellen op rubriek 2
+// Styling in rubriek 2
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 1.1");
 builder.Writeln("Heading 1.2");
 
 //ExStep:6-
-// Stijl terugzetten naar rubriek 1
+// Styling terug naar hoofdstuk 1
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 2");
 builder.Writeln("Heading 3");
 
 //ExStep:7-
-// Stijl instellen op rubriek 2
+// Styling in rubriek 2
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.1");
 
 //ExStep:8-
-// Stijl instellen op rubriek 3
+// Styling in rubriek 3
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
 builder.Writeln("Heading 3.1.1");
 builder.Writeln("Heading 3.1.2");
 builder.Writeln("Heading 3.1.3");
 
 //ExStep:9-
-// Stijl terugzetten naar rubriek 2
+// Styling terug naar hoofdstuk 2
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");

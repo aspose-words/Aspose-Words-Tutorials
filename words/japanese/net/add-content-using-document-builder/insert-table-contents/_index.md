@@ -1,8 +1,8 @@
 ---
-title: 目次のあるワード文書を作成 (NET)
+title: .NETでコンテンツ表を備えたWordドキュメントを作成する
 weight: 7700
 limit: 
-description: Public domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainfalse domainfalsefalsefalse.
+description: .NET のAspose.Wordsを使用して,内容表でWord文書を作成する方法を学びます.
 keywords: [Aspose.Words, .NET, Word document, Table of Contents, DocumentBuilder, example, code snippet]
 url: /ja/net/add-content-using-document-builder/insert-table-contents/
 ---
@@ -10,26 +10,26 @@ url: /ja/net/add-content-using-document-builder/insert-table-contents/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 目次付きのワード文書を作成
-この例は、ドキュメントビルダークラスで生成された対話型テーブル (TOC) を含むワード文書を作成するための Asfox. Words の使用方法を示します。コードは、さまざまなレベルの見出しを挿入し、フォーマットし、その結果のドキュメントを .dox ファイルとして保存する方法を示します。
+# 内容表 を 持つ ワード 文書 を 作成 する
+この例では,ドキュメントビルダークラスを使用して生成されたインタラクティブなコンテンツ表 (TOC) を含むWord文書を作成するために .NETのAspose.Wordsを使用する方法を示しています.コードは,さまざまなレベルの見出しを挿入し,フォーマットし,結果となるドキュメントを .docxファイルとして保存する方法を示しています.簡単な実装のために,以下の手順に従ってください.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-table-contents" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## インストールインジケータ
-1. プレキサイト: NET があなたのマシンにインストールされていることを確認してください。
-2. Asfoint.words: インストール a b c d e f g h i c d e f g h i 
-   * NuGet パッケージマネージャを使う:
+## 設置指示
+1. 必須条件: コンピュータに .NET がインストールされていることを確認します.
+2. Aspose.Wordsをインストールする 
+   * NuGet パッケージ管理コンソールを使用します:
      ```
      Install-Package Aspose.Words
      ```
-   * NuGetパッケージマネージャ GUI で"access.words"を検索します。
+   * または NuGet パッケージマネージャー GUI で "Aspose.Words" を検索してください.
 
-## また、参照してください。
-[Asforce. NET ドキュメンテーション用用語](https://docs.aspose.com/words/net/)
-[access. ^ a b c d e f g h i ". NET インフォメーション".](https://reference.aspose.com/words/net/)
+## また見てください
+[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
+[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

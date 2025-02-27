@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary: Denna kod visar hur man skapar ett Word-dokument med en stil bord med Aspose.Words. 
-//ExStepSummary:0: Initiera ett nytt dokument och dokumentbyggare.
-//ExStepSummary:1: Starta en ny tabell och infoga huvudceller för namn och värde.
-//ExStepSummary:2: Skapa en anpassad TableStyle med specifika kant- och stoppningsinställningar.
-//ExStepSummary:3: Spara dokumentet med den nya tabellstil som tillämpas.
+//ExSummary: Denna kod visar hur man skapar ett Word-dokument med en stilbord med hjälp av Aspose.Words. 
+//ExStepSummary:0: Initializera ett nytt dokument och dokumentbuilder.
+//ExStepSummary:1: Börja en ny tabell och lägg in headerceller för "Name" och "Value".
+//ExStepSummary:2: Skapa en anpassad TableStyle med specifika gränser och täckning inställningar.
+//ExStepSummary:3: Spara dokumentet med den nya tabellstilen.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
 // Skapa ett nytt dokumentobjekt
 Document doc = new Document();
-// Initiera DocumentBuilder för att bygga dokumentet
+// Initialisera DocumentBuilder för att skapa dokumentet
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Starta en ny tabell
+// Börja ett nytt bord
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Name");
@@ -25,20 +25,20 @@ builder.InsertCell();
 builder.EndTable();
 
 //ExStep:2-
-// Skapa en ny bordsstil
+// Skapa en ny tabell stil
 TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Borders.LineStyle = LineStyle.Double;
-// Ställ in kantbredden
+// Ställ gränssnittets bredd
 tableStyle.Borders.LineWidth = 1;
-// Ställ in stoppningen
+// Ställ upp täckningen.
 tableStyle.LeftPadding = 18;
 tableStyle.RightPadding = 18;
 tableStyle.TopPadding = 12;
 tableStyle.BottomPadding = 12;
-// Tillämpa den anpassade tabellstilen på den skapade tabellen
+// Använd den anpassade tabellstilen till den skapade tabellen
 table.Style = tableStyle;
 
 //ExStep:3-
-// Spara dokumentet med den stilade tabellen
+// Spara dokumentet med stiltabellet
 doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
 //ExEnd

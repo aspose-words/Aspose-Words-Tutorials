@@ -1,8 +1,8 @@
 ---
-title: Ein Bild in Word Document Header einfügen.Words für .NET
+title: Einfügen Sie ein Bild in den Word-Dokumentheader.
 weight: 7700
 limit: 
-description: Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Bild in den Header eines Word-Dokuments einfügen. Schritt für Schritt Anleitung mit Beispielcode und Installationsanweisungen.
+description: Erfahren Sie, wie Sie ein Bild in den Header eines Word-Dokumentes mit Aspose.Words für .NET einfügen. Schritt-für-Schritt-Leitfaden mit Beispielkode und Installationsanweisungen.
 keywords: [Aspose.Words for .NET, insert image in header, Word document, .NET library, Word automation, header customization, document processing, C# example]
 url: /de/net/working-with-headers-and-footers/insert-image/
 ---
@@ -10,34 +10,34 @@ url: /de/net/working-with-headers-and-footers/insert-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ein Bild in Word Document Header einfügen
+# Ein Bild in den Word-Dokumentheader einfügen
 
-Aspose.Words for .NET vereinfacht die Word-Dokumentverarbeitung, indem es Entwicklern ermöglicht, Aufgaben wie das Einfügen von Bildern in Header zu automatisieren. Dieses Tutorial zeigt, wie Sie die Dokument- und DocumentBuilder-Klassen verwenden, um ein Bild mit präziser Ausrichtung, Abmessungen und Umhüllungsoptionen in den primären Header eines Word-Dokuments hinzuzufügen. Der Prozess ist einfach und ideal für Entwickler, die Dokumentenvorlagen dynamisch verbessern möchten. Mit detaillierten Schritten und Beispielcode können Sie diese Funktionalität mühelos in Ihre .NET- Anwendungen integrieren.  
+Aspose.Words für .NET vereinfacht die Word-Dokumentverarbeitung, indem es Entwicklern ermöglicht, Aufgaben wie das Einfügen von Bildern in Kopfbedeckungen zu automatisieren. Dieses Tutorial zeigt, wie Sie die Dokument- und DocumentBuilder-Klassen verwenden, um ein Bild mit präziser Ausrichtung, Abmessungen und Wickeloptionen in den primären Kopfbedeckung eines Word-Dokumentes hinzuzufügen. Der Prozess ist einfach, so dass er ideal für Entwickler ist, die Dokumentenvorlagen dynamisch verbessern möchten. Mit detaillierten Schritten und Beispielkode können Sie diese Funktionalität mühelos in Ihre .NET-Anwendungen integrieren.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-headers-and-footers/insert-image" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Installationshinweise  
+## Installationsanweisungen  
 
 Um mit Aspose.Words für .NET zu beginnen, folgen Sie diesen einfachen Schritten:  
 
-1. Aspose.Words herunterladen  
-   * [Die neueste Version herunterladen](https://releases.aspose.com/words/net/)von Aspose.Words für .NET.  
+1. Download Aspose.Words  
+   * [Laden Sie die neueste Version herunter](https://releases.aspose.com/words/net/)von Aspose.Words für .NET.  
 
-2. Installieren Sie Aspose.Words via NuGet  
+2. Installieren Sie Aspose.Words über NuGet  
    * Öffnen Sie Ihr Projekt in Visual Studio.  
-   * Gehen Sie zum Menü Extras und wählen Sie NuGet Package Manager > NuGet Packages for Solution verwalten.  
-   * Suchen nach`Aspose.Words`im NuGet Paketmanager installieren und installieren.  
+   * Gehen Sie in das Menü Tools und wählen Sie NuGet Package Manager > Manage NuGet Packages for Solution aus.  
+   * Suchen Sie nach `"Aspose.Wörter"`Sie können es im NuGet-Paketmanager installieren.  
 
    Oder verwenden Sie die Package Manager Console:  
    ```shell
    Install-Package Aspose.Words
    ```  
 
-3. Die Lizenz anwenden  
-   * Holen Sie sich eine[kostenlose Testlizenz](https://releases.aspose.com/)oder[Kauf einer Lizenz](https://purchase.aspose.com/buy). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+3. Bewerben Sie die Lizenz  
+   * Holen Sie sich eine[kostenlose Testlizenz](https://releases.aspose.com/)oder [Erwerb einer Lizenz](https://purchase.aspose.com/buy)\- Ich weiß .  
    * Verwenden Sie den folgenden Code, um die Lizenz in Ihrem Projekt anzuwenden:  
      ```csharp
      License license = new License();

@@ -1,23 +1,23 @@
 //ExStart
-//ExSummary: Este código muestra cómo insertar un gráfico de área en un documento de Word usando Aspose.Words.
-//ExStepSummary:0: El siguiente código inicializa un nuevo documento y un generador de documentos.
-//ExStepSummary:1: El siguiente código inserta un gráfico de área en el documento.
-//ExStepSummary:2: El siguiente código agrega una serie al gráfico con puntos de datos especificados.
-//ExStepSummary:3: El siguiente código guarda el documento con el gráfico de área insertado.
+//ExSummary: Este código muestra cómo insertar un mapa de área en un documento de Word utilizando Aspose.Words.
+//ExStepSummary:0: El siguiente código inicializa un nuevo documento y un creador de documentos.
+//ExStepSummary:1: El siguiente código inserta un mapa de área en el documento.
+//ExStepSummary:2: El siguiente código añade una serie al gráfico con puntos de datos especificados.
+//ExStepSummary:3: El siguiente código guarda el documento con el mapa de área insertado.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
 // Crear un nuevo documento
 Document doc = new Document();
-// Inicializa el generador de documentos
+// Inicializa el constructor de documentos
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Insertar un gráfico de área con las dimensiones especificadas
+// Insertar un gráfico de superficie con dimensiones especificadas
 Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
 
 //ExStep:2-
-// Acceder al objeto chart
+// Accede al objeto del gráfico
 Chart chart = shape.Chart;
 // Añadir una nueva serie al gráfico
 chart.Series.Add("Aspose Series 1", new [] 

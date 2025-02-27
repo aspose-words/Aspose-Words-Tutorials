@@ -1,8 +1,8 @@
 ---
-title: Přidat obsah Pomocí nástroje Builder v Aspose.Words pro .NET 
+title: Přidejte obsah pomocí stavitel dokumentu v Aspose.Words pro .NET 
 weight: 10
 limit:
-description: Naučte se, jak přidat obsah pomocí DocumentBuilder v Aspose.Slova pro .NET. Přidat text, obrázky, tabulky a tvary do dokumentů Word hladce s krok za krokem navádění.
+description: Naučte se přidat obsah pomocí DocumentBuilder v Aspose.Words pro .NET. Přidejte text, obrázky, tabulky a tvary do dokumentů Word bezproblémově s krokem za krokem.
 keywords:
 url: /cs/net/add-content-using-document-builder/
 ---
@@ -12,17 +12,17 @@ url: /cs/net/add-content-using-document-builder/
 
 ## Úvod
  
-Aspose.Slova pro .NET umožňuje vývojářům bez námahy vytvářet a manipulovat Word dokumenty programaticky. Pomocí výkonného DocumentBuilder třídy, můžete přidat různé typy obsahu, včetně textu, obrázků, tabulek a tvarů, s přesností a flexibilitou. Ať už jste budova zprávy, generování faktur, nebo řemeslné šablony, DocumentBuilder poskytuje intuitivní způsob, jak dynamicky formátovat a strukturovat své dokumenty.  
+Aspose.Words pro .NET umožňuje vývojářům bez námahy vytvářet a programmaticky manipulovat s dokumenty Word. Pomocí výkonné třídy DocumentBuilder můžete přidat různé typy obsahu, včetně textu, obrázků, tabulek a tvarů, s přesností a flexibilitou. Ať už vytváříte zprávy, vytváříte faktury nebo vytváříte šablony, DocumentBuilder poskytuje intuitivní způsob, jak formátovat a strukturovat vaše dokumenty dynamicky.  
 
-Tento průvodce se ponořuje do všestrannosti třídy DocumentBuilder, která zahrnuje jeho klíčové funkce krok za krokem. Naučte se, jak přidat bohatý obsah do vašich dokumentů, aplikovat vlastní styly, a dokonce spravovat komplexní rozvržení. S praktickými příklady a jasnými vysvětleními, budete řídit, jak používat DokumentBuilder zefektivnit své úkoly vytváření dokumentů v žádném okamžiku.
+Tento průvodce se zabývá všestranností třídy DocumentBuilder, která pokrývají její klíčové funkce krok za krokem. Naučte se přidat bohatý obsah do dokumentů, aplikovat vlastní styly a dokonce spravovat složitá uspořádání. Pomocí praktických příkladů a jasných vysvětlení se naučíte zvládnout, jak používat DocumentBuilder k zjednodušení úkolů vytváření dokumentů v žádném okamžiku.
 
-{{< tutorial-card link="./build-table/" title="Vytvořit slovní dokument s použitím tabulky Aspose.Words" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}
-{{< tutorial-card link="./insert-break/" title="Vytvořit multi-Page Word dokument s Aspose.Words" imgSrc="/words/net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
-{{< tutorial-card link="./insert-floating-image/" title="Vytvořit slovní dokument s plovoucím obrazem v .NET" imgSrc="/words/net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
-{{< tutorial-card link="./insert-horizontal-rule/" title="Vytvořit slovní dokument s horizontálním pravidlem v .NET" imgSrc="/words/net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
-{{< tutorial-card link="./insert-inline-image/" title="Vložit inline obrázek do Word Document pomocí Aspose.Words" imgSrc="/words/net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
-{{< tutorial-card link="./insert-paragraph/" title="Vytvořit Word Document s Aspose.Words pro .NET" imgSrc="/words/net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
-{{< tutorial-card link="./insert-table-contents/" title="Vytvořit slovní dokument s obsahem v .NET" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
+{{< tutorial-card link="./build-table/" title="Vytvořte dokument Word s tabulkou pomocí Aspose.Words" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}
+{{< tutorial-card link="./insert-break/" title="Vytvořte dokument Word s více stránkami s názvem Aspose.Words" imgSrc="/words/net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
+{{< tutorial-card link="./insert-floating-image/" title="Vytvořit Word dokument s plovoucím obrázkem v .NET" imgSrc="/words/net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
+{{< tutorial-card link="./insert-horizontal-rule/" title="Vytvořit Word dokument s horizontálním pravidlem v .NET" imgSrc="/words/net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
+{{< tutorial-card link="./insert-inline-image/" title="Vložte v Word dokumentu v lince obrázek pomocí Aspose.Words" imgSrc="/words/net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
+{{< tutorial-card link="./insert-paragraph/" title="Vytvořte Word dokument s Aspose.Words pro .NET" imgSrc="/words/net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
+{{< tutorial-card link="./insert-table-contents/" title="Vytvořit Word dokument s tabulkou obsahu v .NET" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

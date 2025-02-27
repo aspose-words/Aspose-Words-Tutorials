@@ -1,40 +1,40 @@
 //ExStart
-//ExSummary: يوضح هذا الرمز كيفية إدراج الأشكال (مربعات النص) في مستند Word باستخدام Apose.Words. يتم حفظ المستند بتنسيق DOCX مع خيارات امتثال محددة لمعايير ISO.
-//ExStepSummary:0: يقوم الكود بتهيئة مستند جديد ومنشئ مستندات لمعالجة المستند.
-//ExStepSummary:1: يتم إدخال شكل (مربع النص) في موضع مطلق في المستند ويتم تعيين دوران الشكل الأول إلى 30 درجة.
-//ExStepSummary:2: يتم إدخال شكل جديد في موضع نسبي ويتم تعيين دوران الشكل الثاني أيضًا إلى 30 درجة.
-//ExStepSummary:3: يتم حفظ المستند مع OoxmlSaveOptions محددة.
+//ExSummary: هذا الرمز يوضح كيفية إدخال الأشكال (صناديق النص) في مستند Word باستخدام Aspose.Words. يتم حفظ الوثيقة في شكل DOCX مع خيارات الامتثال المحددة لمعايير ISO.
+//ExStepSummary:0: يبدأ الرمز وثيقة جديدة ومصمم وثائق للتلاعب بالوثيقة.
+//ExStepSummary:1: يتم إدخال شكل (صندوق نص) في وضع مطلق في الوثيقة وتحديد دوران الشكل الأول إلى 30 درجة.
+//ExStepSummary:2: يتم إدخال شكل جديد في وضع نسبي وتحويل الشكل الثاني أيضاً إلى 30 درجة.
+//ExStepSummary:3: يتم حفظ الوثيقة مع OoxmlSaveOptions المحددة.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 
 //ExStep:0-
-// ينشئ مثيل مستند جديد
+// يخلق مثال وثيقة جديدة
 Document doc = new Document();
-// تهيئة مستندبناء المستند للمستند
+// يبدأ بإنشاء مستند للمستند
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// إدراج شكل من نوع TextBox
+// يضيف شكل من نوع TextBox
 Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
     RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
-// تدوير الشكل بمقدار 30 درجة
+// يدور الشكل بـ 30 درجة
 shape.Rotation = 30.0;
 
 //ExStep:2-
 builder.Writeln();
-// يدرج شكلًا آخر من نوع TextBox في موضع نسبي
+// يضيف شكل آخر من نوع TextBox في موقع نسبي
 shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
-// تدوير الشكل الثاني بمقدار 30 درجة
+// يدور الشكل الثاني بـ 30 درجة
 shape.Rotation = 30.0;
 
 //ExStep:3-
-// يعد خيارات الحفظ للمستند
+// إعداد خيارات حفظ للوثيقة
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
 };
 
-// يحفظ المستند باستخدام خيارات الحفظ المحددة
+// حفظ الوثيقة باستخدام خيارات حفظ المحددة
 doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
 //ExEnd

@@ -1,25 +1,25 @@
 //ExStart
-//ExSummary:本代码演示如何使用 apostion.Word 将区域图表插入 Word 文档。
-//ExStepSummary:0: 以下代码初始化新文档和文档构建器。
-//ExStepSummary:1: 以下代码在文档中插入一个区域图表。
-//ExStepSummary:2: 以下代码在图表中添加一个带有指定数据点的序列。
-//ExStepSummary:3: 以下代码以插入的区域图表保存文档。
+//ExSummary: 这个代码显示如何将区域图插入Word文档,使用Aspose.Words.
+//ExStepSummary:0: 下面的代码初始化了一个新的文档和一个文档构建器.
+//ExStepSummary:1: 下面的代码将区域图插入文件中.
+//ExStepSummary:2: 下面的代码将一个连续数据点添加到图表中.
+//ExStepSummary:3: 下面的代码保存了附加的区域图表的文件.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// 创建新文档
+// 创建一个新的文件
 Document doc = new Document();
-// 初始化文档构建器
+// 启动文档构建器
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 插入带有指定尺寸的区域图表
+// 插入指定尺寸的区域图表
 Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
 
 //ExStep:2-
 // 访问图表对象
 Chart chart = shape.Chart;
-// 在图表中添加新的序列
+// 加入一个新的系列
 chart.Series.Add("Aspose Series 1", new [] 
 {
 	// 数据点1
@@ -33,10 +33,10 @@ chart.Series.Add("Aspose Series 1", new []
 	// 数据点5
     new DateTime(2002, 09, 01)
 }, 
-// 数据点对应对应值
+// 数据点的相应值
 new double[] { 32, 32, 28, 12, 15 });
 
 //ExStep:3-
-// 用插入的图表保存文档
+// 保存文件,并附加图表
 doc.Save("WorkingWithCharts.InsertAreaChart.docx");
 //ExEnd

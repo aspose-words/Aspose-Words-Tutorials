@@ -1,8 +1,8 @@
 ---
-title: 创建单词文档, 并样式化此文档。 为. NET 创建 words for. NET
+title: 在 .NET 中创建和样式化一个 Word 文档
 weight: 7700
 limit: 
-description: 学习如何创建 Word 文档, 应用段落样式, 并使用 Aspose. words 保存为.docx 文件。 在此一步步教程中为. NET 创建 words 。
+description: 在本步骤教程中学习如何创建Word文档,应用段落风格,并将其保存为 .docx文件,使用 .NET的Aspose.Words.
 keywords: [Aspose.Words for .NET, create Word document, paragraph style, save .docx, C# Word example, apply styles in Word, document builder, Aspose tutorial]
 url: /zh/net/document-formatting/apply-paragraph-style/
 ---
@@ -10,29 +10,29 @@ url: /zh/net/document-formatting/apply-paragraph-style/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 创建单词文档, 并样式化此文档。 Words
-用于 . NET 的文字授权开发者不遗余力地以程序方式创建、修改和样式 Word 文档。 这个示例展示了创建 Word 文档的简单而有力的方法, 应用“ title” 段落样式, 将其保存在 .docx 格式中 。 无论您正在构建文档自动化解决方案, 还是只是探索 appose 。 Word 特性, 此指南是一个完美的起点。 遵循下面的步骤, 开始使用. NET 中的文档样式 !  
+# 在Aspose.Words中创建和格式化Word文档
+对于 .NET 的Aspose.Words使开发人员能够轻松地编写,修改和编程Word文档.本例展示了一个简单但强大的方法来创建Word文档,应用"Title"段落风格,并将其保存在 .docx格式中.无论您正在构建文档自动化解决方案还是只是探索Aspose.Words功能,这本指南是完美的起点. 按照下面的步骤开始在 .NET 中编写文档!  
 
 ---
 {{< tutorial-widget sourcePath="words/net/document-formatting/apply-paragraph-style" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## 安装指示  
-1. 下载位置。 . NET 的文字 :  
-   获取最新版本[选择。 . NET 下载页面的 words](https://releases.aspose.com/words/net/). .  
+## 装备说明  
+1. 为了 .NET,下载Aspose.Words:  
+   获取最新版本[对于 .NET 下载页面的Aspose.Words](https://releases.aspose.com/words/net/)现在,我们要去.  
 
-2. 安裝位置。 通过 NuGet 的 words :  
-   * 在视觉工作室打开您的项目 。  
-   * 导航到工具菜单, 选择 NuGet 软件包管理器, 并单击管理 Nuget 软件包以解决问题 。  
-   * 搜索搜索`表达式 。`在 NuGet 软件包管理器中,单击安装。  
+2. 通过 NuGet 安装Aspose.Words:  
+   * 在视觉工作室打开你的项目.  
+   * 导航到工具菜单,选择NuGet包管理器,然后单击管理NuGet包解决方案.  
+   * 搜索`"回答. 字"`在NuGet包管理器中,然后单击安装.  
 
-3. 应用许可( 可选) :  
-   为了避免评估限制,申请许可证。您可获得[临时许可证](https://purchase.aspose.com/temporary- license/)或从银行购买许可证[应用存储器](https://purchase.aspose.com/buy). .  
+3. 申请许可证 (可选):  
+   为了避免评估限制,请申请许可证.[在这里获得临时许可证](https://purchase.aspose.com/temporary-license/)或从 [置店](https://purchase.aspose.com/buy)现在,我们要去.  
 
-## 另见
-[位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)
-[位置。 编辑到. NET 引用](https://reference.aspose.com/words/net/)
+## 查看
+[设置.Word为 .NET文档](https://docs.aspose.com/words/net/)
+[标用.NET引用的Word](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

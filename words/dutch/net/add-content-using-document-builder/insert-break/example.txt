@@ -1,10 +1,10 @@
 //ExStart
-//ExSummary: Deze code laat zien hoe je een Word-document maakt met behulp van Aspose.Words, voeg inhoud toe op meerdere pagina's en sla het op als een .docx-bestand.
+//ExSummaryDeze code toont hoe je een Word-document met Aspose.Words kunt maken, inhoud op meerdere pagina's kunt toevoegen en als .docx-bestand kunt opslaan.
 //ExStepSummary:0: Deze stap initialiseert een nieuw Document en een DocumentBuilder om het document te manipuleren.
 //ExStepSummary:1: Deze stap voegt tekst toe aan de eerste pagina.
-//ExStepSummary:2: Deze stap voegt een paginapauze toe om een nieuwe pagina te starten.
+//ExStepSummary:2: Deze stap geeft een paginabreuk in om een nieuwe pagina te starten.
 //ExStepSummary:3: Deze stap voegt tekst toe aan de tweede pagina.
-//ExStepSummary:4: Deze stap plaatst een andere pagina pauze voor een nieuwe pagina.
+//ExStepSummary:4: Deze stap geeft een nieuwe pagina een nieuwe pagina.
 //ExStepSummary:5: Deze stap voegt tekst toe aan de derde pagina.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
@@ -13,31 +13,31 @@
 //ExStepImage:5:images/5.png
 
 //ExStep:0-
-// Een nieuwe document-instantie aanmaken
+// Een nieuw documentinstantie maken
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Tekst toevoegen voor de eerste pagina
+// Voeg tekst toe voor de eerste pagina
 builder.Writeln("This is page 1.");
 
 //ExStep:2-
-// Een paginapauze invoegen om een nieuwe pagina te starten
+// Voeg een pagina-pauze in om een nieuwe pagina te starten
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:3-
-// Tekst toevoegen voor de tweede pagina
+// Voeg tekst toe voor de tweede pagina
 builder.Writeln("This is page 2.");
 
 //ExStep:4-
-// Een nieuwe pagina-afbreking invoegen voor een nieuwe pagina
+// Voeg een nieuwe pagina in
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:5-
-// Tekst toevoegen voor de derde pagina
+// Voeg tekst toe voor de derde pagina
 builder.Writeln("This is page 3.");
 
 //ExStep:6-
-// Het document opslaan in het opgegeven pad
+// Het document opslaan op het gespecificeerde pad
 doc.Save("AddContentUsingDocumentBuilder.InsertBreak.docx");
 //ExEnd

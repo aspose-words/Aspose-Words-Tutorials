@@ -1,8 +1,8 @@
 ---
-title: Helyezzen be egy buborékdiagramot a Wordbe az Aspose.Words for .NET használatával
+title: Beilleszteni egy buborék-diagramot a Word-be a .NET-hez Aspose.Words használatával
 weight: 7700
 limit: 
-description: Ismerje meg, hogyan illeszthet be egy buborékdiagramot egy Word dokumentumba az Aspose.Words for .NET használatával. A lépésenkénti utasításokat és a kódpéldát tartalmazza.
+description: Tanuljon meg, hogyan kell beilleszteni egy Bubble diagramot a Word dokumentumba a .NET-hez Aspose.Words segítségével.
 keywords: [Aspose.Words for .NET, insert Bubble chart, Word document, .NET Bubble chart example, create Bubble chart Word]
 url: /hu/net/working-with-charts/insert-bubble-chart/
 ---
@@ -10,38 +10,38 @@ url: /hu/net/working-with-charts/insert-bubble-chart/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Helyezzen be egy buborékdiagramot a Wordbe az Aspose.Words használatával
+# Beillesztse a buborékra a szavakba Aspose.Words használatával
 
-Könnyedén hozzáadhat egy buborékdiagramot a Word dokumentumhoz az Aspose.Words for .NET használatával! Ez az útmutató egy új dokumentum létrehozásával, egy buborékdiagram beillesztésével, X, Y és méretértékek hozzáadásával és a dokumentum mentésével jár. Az Aspose.Words segítségével a Word dokumentumok programozott kezelése soha nem volt könnyebb.  
+A .NET-hez használt Aspose.Words segítségével könnyedén hozzáadjon egy buborék-diagramot a Word dokumentumhoz! Ez a útmutató átvezet egy új dokumentum létrehozását, buborék-diagram behelyezését, az X, Y és méretértékekkel ellátott adatsorok hozzáadását és a dokumentum mentését.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-bubble-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Telepítési útmutató  
+## A telepítési utasítások  
 
-1. Letöltés Aspose.Words .NET  
-   Szerezd meg a könyvtárat a[Aspose.Words letöltési oldal](https://releases.aspose.com/words/net/)Nem.  
+1. Letöltsd le az Aspose.Words .NET-re  
+   Vedd a könyvtárat a [Aspose.Words letöltőoldal](https://releases.aspose.com/words/net/)\- Nem.  
 
-2. Telepítés a NuGet csomagkezelőn keresztül  
-   * Nyissa meg a Visual Studio projektet.  
-   * Navigáljon az Eszközök > NuGet csomagkezelő > NuGet csomagok kezelése megoldás.  
-   * Keresés`Aspose.Words`a Tallózás lapon.  
-   * Válassza ki a csomagot, majd kattintson a Telepítés gombra.  
+2. A NuGet csomagkezelő segítségével telepítse  
+   * Nyissa ki a Visual Studio projektét.  
+   * Menjen az eszközökhez > NuGet csomagkezelőhez > A megoldáshoz a NuGet csomagok kezelésére.  
+   * Keresd a`Aspose.Words`A böngésző táblázatban.  
+   * Válassza ki a csomagot, és kattintson Installacióra.  
 
-3. Telepítés a NuGet csomagkezelő konzolon keresztül  
-   Futtassa a következő parancsot a Csomagkezelő konzolban:  
+3. A NuGet csomagkezelő konzolt használva telepítse  
+   A csomagkezelő konzoltól futtassa ki a következő parancsot:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-4. Licenc hozzáadása  
-   A teljes funkcionalitás érdekében alkalmazzon licencet. Ideiglenes licencet kaphat a[Ideiglenes licencelési oldal](https://purchase.aspose.com/temporary- license/)Nem.  
+4. Adjon engedélyt  
+   A teljes funkcionalitás érdekében kérjen engedélyt.[A ideiglenes engedély oldalát](https://purchase.aspose.com/temporary-license/)\- Nem.  
 
-## Lásd még
-[Aspose.Word for .NET dokumentáció](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referenciák](https://reference.aspose.com/words/net/)
+## Lásd:
+[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
