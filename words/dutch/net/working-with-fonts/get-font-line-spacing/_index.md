@@ -1,5 +1,5 @@
 ---
-title:$1$2
+title: Regelafstand lettertype in Word-document ophalen
 weight: 7700
 limit: 
 description: Leer hoe je een Word-document kunt maken en letterlijnspacing kunt vinden met behulp van Aspose.Words voor .NET. Stap-voor-stap instructies met code voorbeelden inbegrepen.
