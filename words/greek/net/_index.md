@@ -48,7 +48,7 @@ url: /el/net/
 ## [Τροποποίηση εγγράφων με Aspose.Words για .NET](./document-formatting/)
 Κατανοήστε πώς να εφαρμόσετε διάφορες επιλογές μορφοποίησης σε παραγράφους, λίστες και στοιχεία εγγράφου για να βελτιώσετε την οπτική ελκυστικότητα των αρχείων Word σας.
 
-{{< tutorial-card link="./document-formatting/apply-border-and-shading/" title="Εφαρμόστε τα όρια και τις σκιά στις παραγράφους στο "Αποθέστε λέξεις"" imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./document-formatting/apply-border-and-shading/" title="Εφαρμόστε τα όρια και τις σκιά στις παραγράφους στο Αποθέστε λέξεις" imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
 {{< tutorial-card link="./document-formatting/apply-paragraph-style/" title="Δημιουργήστε και στυλ ένα έγγραφο λέξεων στο Aspose.Words" imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
 {{< tutorial-card link="./document-formatting/multilevel-list-formatting/" title="Δημιουργήστε κατάλογους πολλαπλών επιπέδων στο Word με το Aspose.Words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
 {{< tutorial-card link="./document-formatting/paragraph-formatting/" title="Τροποποίηση των παραγράφων" imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}

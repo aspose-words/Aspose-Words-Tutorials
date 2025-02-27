@@ -16,7 +16,7 @@ url: /el/net/document-formatting/
 
 Βάλτε βαθύτερα στη διαμόρφωση εγγράφων με λεπτομερείς οδηγίες για τα θεματικά θέματα, όπως η διαχείριση των στυλ, η προσαρμογή των διαχωρισμών και η δημιουργία δυναμικών διαρθρωμάτων. Με το Aspose.Words για το .NET, μπορείτε να παράσχετε έγγραφα που πληρούν απαιτητικά πρότυπα, διατηρώντας τη συνέπεια και την κομψότητα σε όλες τις εξόδους.
 
-{{< tutorial-card link="./apply-border-and-shading/" title="Εφαρμόστε τα όρια και τις σκιά στις παραγράφους στο "Αποθέστε λέξεις"" imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./apply-border-and-shading/" title="Εφαρμόστε τα όρια και τις σκιά στις παραγράφους στο Αποθέστε λέξεις" imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
 {{< tutorial-card link="./apply-paragraph-style/" title="Δημιουργήστε και στυλ ένα έγγραφο λέξεων στο Aspose.Words" imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
 {{< tutorial-card link="./multilevel-list-formatting/" title="Δημιουργήστε κατάλογους πολλαπλών επιπέδων στο Word με το Aspose.Words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
 {{< tutorial-card link="./paragraph-formatting/" title="Τροποποίηση Παραγράφων Χρησιμοποιώντας Aspose.Words για .NET" imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}

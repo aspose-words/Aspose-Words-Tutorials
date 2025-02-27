@@ -16,7 +16,7 @@ url: /ar/net/document-formatting/
 
 إغوص عميقًا في تنسيق الوثائق مع أدلة مفصلة حول مواضيع متضمنة مثل العمل مع الموضوعات وإدارة الأساليب وتعديل الفاصل وإنشاء ترتيبات ديناميكية. مع Aspose.Words لـ .NET ، يمكنك تسليم الوثائق التي تلبي المعايير المحددة مع الحفاظ على الاتساق والنيقة عبر جميع المخرجات.
 
-{{< tutorial-card link="./apply-border-and-shading/" title="تطبيق الحدود والظلال على الفقرة في "تحدث. الكلمات"" imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./apply-border-and-shading/" title="تطبيق الحدود والظلال على الفقرة في تحدث. الكلمات" imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
 {{< tutorial-card link="./apply-paragraph-style/" title="إعداد ورقة الوثيقة الكلمة في Aspose.Words" imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
 {{< tutorial-card link="./multilevel-list-formatting/" title="إعداد قوائم متعددة المستويات في الكلمة مع Aspose.Words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
 {{< tutorial-card link="./paragraph-formatting/" title="تنسيق الفقرات باستخدام Aspose.Words ل .NET" imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}

@@ -19,7 +19,7 @@ url: /zh/net/working-with-charts/
 {{< tutorial-card link="./bounds-of-axis/" title="使用 .NET 的 Aspose.Words 来创建一个图表的文档" imgSrc="/words/net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
 {{< tutorial-card link="./create-chart-using-shape/" title="在 Word 中创建一个线图,使用 .NET 的 Aspose.Words" imgSrc="/words/net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
 {{< tutorial-card link="./insert-area-chart/" title="插入区域图文档中" imgSrc="/words/net/working-with-charts/insert-area-chart/images/thumb.png" >}}
-{{< tutorial-card link="./insert-bubble-chart/" title="插入一个"泡图"在 Word 中使用 .NET 的Aspose.Words" imgSrc="/words/net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
+{{< tutorial-card link="./insert-bubble-chart/" title="插入一个泡图在 Word 中使用 .NET 的Aspose.Words" imgSrc="/words/net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
 {{< tutorial-card link="./insert-column-chart/" title="插入 Word 中的列表,使用 .NET 的Aspose.Words" imgSrc="/words/net/working-with-charts/insert-column-chart/images/thumb.png" >}}
 {{< tutorial-card link="./insert-scatter-chart/" title="创建 Word 散布图,使用 .NET 的Aspose.Words" imgSrc="/words/net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
 {{< tutorial-card link="./insert-simple-column-chart/" title="在 Word 中插入一个简单的列表,使用 .NET 的Aspose.Words" imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
