@@ -1,11 +1,11 @@
 //ExStart
-//ExSummary:本代码演示如何使用 Aspose.Words 创建 Word 文档,在多个页面中添加内容,并保存为.docx 文件。
-//ExStepSummary:0: 此步骤初始化了一个新的文档和一个用于操作文档的文档构建器 。
-//ExStepSummary:1: 此步骤将文字添加到首页 。
-//ExStepSummary:2: 此步骤插入一个分页符以启动新页面 。
-//ExStepSummary:3: 此步骤将文字添加到第二页。
-//ExStepSummary:4: 此步骤为新页面插入另一个分页符。
-//ExStepSummary:5: 此步骤将文字添加到第三页。
+//ExSummary: 这个代码显示如何使用Aspose.Words创建一个Word文档,在多个页面上添加内容,并将其保存为 .docx文件.
+//ExStepSummary:0: 这个步骤将启动一个新的文档和一个文档构造器来操纵文档.
+//ExStepSummary:1: 这一步将添加文字到第一页.
+//ExStepSummary:2: 这个步骤将页面中断插入,以启动新页面.
+//ExStepSummary:3: 这一步将添加文本到第二页.
+//ExStepSummary:4: 这个步骤将另一个页面的休息插入到一个新的页面.
+//ExStepSummary:5: 这一步将添加文本到第三页.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -13,24 +13,24 @@
 //ExStepImage:5:images/5.png
 
 //ExStep:0-
-// 创建新文档实例
+// 创建一个新的文档实例
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 添加首页文本
+// 添加第一个页面的文字
 builder.Writeln("This is page 1.");
 
 //ExStep:2-
-// 插入分页符以开始新页面
+// 插入一个页面休息,开始一个新的页面
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:3-
-// 添加第二页的案文
+// 添加第二页的文字
 builder.Writeln("This is page 2.");
 
 //ExStep:4-
-// 为新页面插入另一个分页符
+// 插入另一个页面休息
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:5-
@@ -38,6 +38,6 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("This is page 3.");
 
 //ExStep:6-
-// 将文档保存到指定的路径
+// 保存文件到指定的路径
 doc.Save("AddContentUsingDocumentBuilder.InsertBreak.docx");
 //ExEnd

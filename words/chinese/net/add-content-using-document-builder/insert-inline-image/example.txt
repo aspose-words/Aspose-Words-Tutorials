@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary:本代码演示如何使用 Aspose. words 将内嵌图像插入 Word 文档。
-//ExStepSummary:0: 文件对象的初始化和建造文件的建筑。
-//ExStepSummary:1: 将图像插入到文档构建器当前光标位置的文档中。
-//ExStepSummary:2: 将文档保存到指定的文件名 。
+//ExSummary: 这个代码显示如何将内线图像插入Word文档,使用Aspose.Words.
+//ExStepSummary:0: 文件构建的文件对象和文件构建器初始化.
+//ExStepSummary:1: 文件的图像插入在当前的导向位置,使用 DocumentBuilder.
+//ExStepSummary:2: 保存文件到指定文件名.
 //ExStepImage:1:images/1.png
 //ExStep:0-
-// 初始化新的文档和文档构建器
+// 启动新的文档和文档构建器
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 使用文档建筑插入图像
+// 使用 DocumentBuilder 插入图像
 builder.InsertImage(ImagesDir + "Transparent background logo.png");
 
 //ExStep:2-
-// 将修改后的文档保存到文件
+// 保存已修改的文件到文件中
 doc.Save("AddContentUsingDocumentBuilder.InsertInlineImage.docx");
 //ExEnd

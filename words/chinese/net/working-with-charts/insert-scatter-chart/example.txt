@@ -1,28 +1,28 @@
 //ExStart
-//ExSummary:本代码演示如何使用 Aspose. words 创建带有散射图的 Word 文档。它初始化文档,构建内容,插入散射图,为其添加数据,并保存文档。
-//ExStepSummary:0: 启动文档和文档构建器对象的初始化,以便开始文档工作。
-//ExStepSummary:1: 在文档中插入散射图。
-//ExStepSummary:2: 将一系列数据点添加到散射图中。
-//ExStepSummary:3: 以散射图保存文档到.docx文件。
+//ExSummary通过Aspose.Words来创建一个 Word 文档,该代码展示了如何使用散布图创建 Word 文档.它初始化文档,构建内容,插入散布图,添加数据,保存文档.
+//ExStepSummary:0: 文件和文件构造器的初始化反对开始工作.
+//ExStepSummary:1: 文件中插入散布图.
+//ExStepSummary:2: 增加一系列数据点到散射图.
+//ExStepSummary:3: 保存文件的分布图到 .docx文件.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// 初始化新文档
+// 启动一个新的文件
 Document doc = new Document();
-// 创建用于插入内容的构建器
+// 创建一个构建器插入内容
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 在文档中插入散点图表
+// 插入散布图文档中
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252); 
 
 //ExStep:2-
-// 从插入的形状中获取图表对象
+// 从插入的形状中取图对象
 Chart chart = shape.Chart;
-// 将序列数据添加到图表
+// 添加系列数据到图表中
 chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 });
 
 //ExStep:3-
-// 将文档保存为散点图表
+// 保存文件与散布图
 doc.Save("WorkingWithCharts.InsertScatterChart.docx");
 //ExEnd

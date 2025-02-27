@@ -1,40 +1,40 @@
 //ExStart
-//ExSummary:本代码演示如何使用 aspect.Words 将形状(文字框)插入 Word 文档。文档以 DOCX 格式保存,并附有ISO 标准的具体合规选项。
-//ExStepSummary:0: 代码初始化新文档和用于操作文档的文档构建器。
-//ExStepSummary:1: 在文档中的绝对位置插入形状(文字框),第一个形状的旋转设定为30度。
-//ExStepSummary:2: 在相对位置插入新形状,第二个形状的旋转也设定为30度。
-//ExStepSummary:3: 文档以特定的 OoxmlSaveOptions 保存 。
+//ExSummary文件是保存在DOCX格式,并提供了ISO标准的特定合规选择.
+//ExStepSummary:0: 代码初始化一个新的文档和一个文件构建器来操纵文档.
+//ExStepSummary:1: 在文件中,将一个形状 (文字框) 插入在绝对位置,并设置第一个形状的旋转为30度.
+//ExStepSummary:2: 插入一个新的形状在相对位置,第二个形状的旋转也设置为30度.
+//ExStepSummary:3: 文件是通过特定的OoxmlSaveOptions保存的.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 
 //ExStep:0-
-// 创建新文档实例
+// 创建一个新的文档实例
 Document doc = new Document();
-// 初始化文档的文档构建器
+// 启动文件构建器
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 插入类型 TextBox 的形状
+// 插入类型的形式 TextBox
 Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
     RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
-// 将形状旋转30度
+// 旋转形状30度
 shape.Rotation = 30.0;
 
 //ExStep:2-
 builder.Writeln();
-// 在相对位置插入另一种类型 TextBox 的形状
+// 插入另一种类型的文字盒在相对位置
 shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
-// 将第二个形状旋转 30 度
+// 旋转第二个形状30度
 shape.Rotation = 30.0;
 
 //ExStep:3-
-// 为文档准备保存选项
+// 准备文件保存选项
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
 };
 
-// 使用指定的保存选项保存文档
+// 使用指定保存选项保存文件
 doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
 //ExEnd

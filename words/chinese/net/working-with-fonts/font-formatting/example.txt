@@ -1,34 +1,34 @@
 //ExStart
-//ExSummary:本代码演示如何使用 Aspose. words 创建单词文档 。
-//ExStepSummary:0: 以下代码初始化了一个新的文档和一个文档构建器 。
-//ExStepSummary:1: 以下代码设置各种字体属性,如大小、粗体、颜色、名称和下划线样式。
-//ExStepSummary:2: 以下代码使用已配置的字体设置,将样本文本写入文档。
-//ExStepSummary:3: 以下代码将文档保存到指定的目录中, 并使用给定的文件名 。
+//ExSummary: 这个代码显示如何使用Aspose.Words创建Word文档,在写一个样本文本之前格式化字体属性.
+//ExStepSummary:0: 下面的代码初始化了新的文档和文档构造器.
+//ExStepSummary:1: 下面的代码设定了各种字体属性,如尺寸,大 bold,颜色,名称和突显风格.
+//ExStepSummary:2: 下面的代码使用配置字体设置写出文件的样本文本.
+//ExStepSummary:3: 下面的代码将文件存储在指定文件名目录中.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// 创建新文档实例
+// 创建一个新的文档实例
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 通过文档构建访问字体属性
+// 通过 DocumentBuilder 访问字体属性
 Font font = builder.Font;
-// 将字体大小设为 16
+// 设置字体大小为16
 font.Size = 16;
-// 使字体以粗体显示
+// 打字体大写
 font.Bold = true;
-// 将字体颜色更改为蓝色
+// 改变字体颜色为蓝色
 font.Color = Color.Blue;
-// 将字体设为 Arial 字体
+// 设置字体为Arial
 font.Name = "Arial";
-// 对字体应用破折的下划线样式
+// 应用一个纹的字体字体
 font.Underline = Underline.Dash;
 
 //ExStep:2-
 builder.Write("Sample text.");
 
 //ExStep:3-
-// 将文档保存到文物目录
+// 保存文件到文物目录中
 doc.Save("WorkingWithFonts.FontFormatting.docx");
 //ExEnd

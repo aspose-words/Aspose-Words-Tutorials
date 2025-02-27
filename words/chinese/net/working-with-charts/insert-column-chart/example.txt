@@ -1,29 +1,29 @@
 //ExStart
-//ExSummary:本代码演示如何使用 Aspose.Words 将列图插入文档。它创建文档,
-//          添加带有定义类别和值的图表,然后保存文档。
-//ExStepSummary:0: 以下代码初始化新文档和文档构建器。
-//ExStepSummary:1: 此步骤包括在文档中插入带有指定尺寸的列图。
-//ExStepSummary:2: 在此,将系列数据添加到图表中,并配有类别和相应的数值。
-//ExStepSummary:3: 此步骤将插入的图表中的文档保存到指定的文件位置 。
+//ExSummary通过使用Aspose.Words将列表插入到文档中.
+//          添加一个包含定义类别和值的图表,然后保存文件.
+//ExStepSummary:0: 下面的代码初始化了一个新的文档和一个文档构建器.
+//ExStepSummary:1: 文件中将有指定尺寸的列表插入.
+//ExStepSummary:2: 在此,将系列数据添加到表中,包含类别和相应值.
+//ExStepSummary:3: 文件的位置是指文件的位置.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// 初始化新的文档对象
+// 启动一个新的文档对象
 Document doc = new Document();
-// 创建用于轻松操作文档的文档构建器
+// 创建一个文件构建器,以便轻松操作文件
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 在指定大小(宽x高度)插入列图表
+// 插入指定尺寸 (宽 x 高) 的列图表
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 
 //ExStep:2-
-// 从插入的形状中访问图表对象
+// 从插入的形状访问图表对象
 Chart chart = shape.Chart;
-// 添加包含类别和值的序列数据
+// 添加类别和值的系列数据
 chart.Series.Add("Aspose Series 1", new string[] { "Category 1", "Category 2" }, new double[] { 1, 2 });
 
 //ExStep:3-
-// 将文档保存在插入的列图表中
+// 保存文件,并附列表
 doc.Save("WorkingWithCharts.InsertColumnChart.docx"); 
 //ExEnd

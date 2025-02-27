@@ -1,8 +1,8 @@
 ---
-title: 创建单词表单元格, 以斜体内加斜体。 为. NET 创建 words for. NET 
+title: 创建 Word Table 单元,用在 .NET 中Aspose.Words中插入 
 weight: 7700
 limit: 
-description: 学习如何用格式化的表格单元格创建 Word 文档,包括使用 Aspose. words for.NET. foolly 安装步骤的自定义标签。
+description: 了解如何使用 .NET 用Aspose.Words创建一个 Word 文档,包括自定义填充.
 keywords: [Aspose.Words for .NET, table cell padding, formatted cell, Word document, .NET Word API, create Word table, table formatting, document builder, .NET example]
 url: /zh/net/working-with-table-styles-and-formatting/cell-padding/
 ---
@@ -10,38 +10,38 @@ url: /zh/net/working-with-table-styles-and-formatting/cell-padding/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 创建单词表格单元格, 以斜体中划线 。 Words
+# 创建一个字面表单单元,用Aspose.Words中插入
 
-设置 .NET 的 words 使 Word 文档的工作为微风 。 此教程演示如何创建 Word 表格, 格式化的单元格包括自定义的挂贴 。`文件编织器`类中,您可以不费力地定义表格单元格的布局,并添加专业格式化的内容。无论是自动生成报表、构建复杂表格,还是创建Word模板, Aspose.Words for .NET确保您的任务既高效又直截了当。  
+通过使用强大的 文件,我们可以使用 Word 文件,并将 Word 文件编写到一个文件.`文件构建器`无论是自动化报告生成,构建复杂表格,或者创建Word模板, .NET的Aspose.Words确保您的任务是高效和简单的.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/cell-padding" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## 安装指示  
-运行此示例并使用 Apostion.Words for.NET, 遵循这些步骤 :  
+## 装备说明  
+运行这个例子并使用Aspose.Words为 .NET,请遵循以下步骤:  
 
-1. 下载位置。 . NET 的 words  
-   获取最新版本的 Apostion 。[设置释放页面](https://releases.aspose.com/words/net/). .  
+1. 为了 .NET,下载Aspose.Words  
+   获取最新版本的Aspose.Words[目标发布页面](https://releases.aspose.com/words/net/)现在,我们要去.  
 
-2. 通过 NuGet 软件包管理器安装  
-   在视觉工作室打开您的. NET 工程, 在 NuGet 软件包管理器控制台运行以下命令 :  
+2. 通过 NuGet 包管理器安装  
+   在Visual Studio中打开.NET项目,并在 NuGet包管理器控制台中运行下列命令:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
 3. 设置临时版本或许可版本  
-   * 获得a[免费临时许可证](https://purchase.aspose.com/temporary-license/)或从本组织获得正式执照。[添加购买页面](https://purchase.aspose.com/buy). .  
-   * 在您的代码中应用许可证 :  
+   * 获得一个[免费临时许可证](https://purchase.aspose.com/temporary-license/)或从公司购买完整的许可证.[目标购买页面](https://purchase.aspose.com/buy)现在,我们要去.  
+   * 申请许可证的代码:  
      ```csharp
      var license = new Aspose.Words.License();
      license.SetLicense("Aspose.Words.lic");
      ```  
 
-## 另见
-[位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)
-[位置。 编辑到. NET 引用](https://reference.aspose.com/words/net/)
+## 查看
+[设置.Word为 .NET文档](https://docs.aspose.com/words/net/)
+[标用.NET引用的Word](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

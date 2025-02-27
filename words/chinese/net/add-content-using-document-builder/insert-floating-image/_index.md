@@ -1,8 +1,8 @@
 ---
-title: 创建 Word 文档, 在. NET 中以浮动图像创建 Word 文档
+title: 在 .NET 中创建浮动图像的Word文档
 weight: 7700
 limit: 
-description: 学习如何使用 Apose. words for.NET 创建 Word 文档并插入浮动图像。 提供了一步步示例 。
+description: 了解如何使用 .NET 的 Aspose.Words 来创建一个 Word 文档并插入一个浮动图像.
 keywords: [Aspose.Words, .NET, Word document, insert image, floating layout, DocumentBuilder, C# example]
 url: /zh/net/add-content-using-document-builder/insert-floating-image/
 ---
@@ -10,30 +10,30 @@ url: /zh/net/add-content-using-document-builder/insert-floating-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 以浮动图像创建单词文档
+# 创建一个浮动图像的Word文档
 
-此示例展示了如何使用 Aspose. words for.NET 创建 Word 文档, 并插入带有浮动版式的图像。 提供的代码初始化文档和文档构建器, 插入带有指定尺寸和定位的图像, 最后保存文档。 此指南对于开发者来说是理想的, 用于使用 Aspection.Words 来提高文件生成能力。
+这篇例子展示了如何使用 .NET 创建一个 Word 文档,并插入一个浮动布局的图像.所提供的代码初始化了文档和文档构造器,插入了一个具有指定尺寸和定位的图像,最后保存了文档.这本指南是希望通过 Aspose.Words 增强其文档生成能力的开发人员的理想选择.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-floating-image" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## 安装指示
-1. 安装pose. words: 将 Apose. Words Nuget 软件包添加到您的. NET 工程中。 您可以在软件包管理器控制台运行以下命令来做到这一点 :
+## 装备说明
+1. 安装Aspose.Words: 将Aspose.Words NuGet 包添加到您的 .NET 项目中.您可以通过在包管理器控制台中运行下列命令来实现这一目标:
    ```
    Install-Package Aspose.Words
    ```
 
-2. 添加需要的命名空间 : 确保您的代码文件包含以下命名空间 :
+2. 添加所需的名字空间:确保代码文件包含以下名字空间:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
-## 另见
-[位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)
-[位置。 编辑到. NET 引用](https://reference.aspose.com/words/net/)
+## 查看
+[设置.Word为 .NET文档](https://docs.aspose.com/words/net/)
+[标用.NET引用的Word](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

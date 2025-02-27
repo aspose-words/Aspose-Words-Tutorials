@@ -1,50 +1,50 @@
 //ExStart
-//ExSummary:本代码演示如何在单词文档中使用 Aspose.Words 格式化。
-//ExStepSummary:0: 初始化新文档,并开始用格式化行构建表格。
-//ExStepSummary:1: 配置行格式。
-//ExStepSummary:2: 配置特定的高度设置。
-//ExStepSummary:3: 为影响所有行的整张表格设置套接板。
-//ExStepSummary:4: 将文字写入表格单元格,以行结尾。
-//ExStepSummary:5: 完成表格构建进程并保存文档。
+//ExSummary: 本代码显示如何在Word文档中使用Aspose.Words应用行格式化.
+//ExStepSummary:0: 启动一个新的文档,开始构建一个有格式列的表.
+//ExStepSummary:1: 设置行格式.
+//ExStepSummary:2: 设置特定的高度设置.
+//ExStepSummary:3: 设置对整个桌子的填充,影响所有行.
+//ExStepSummary:4: 写入桌子细胞中文字,结束行.
+//ExStepSummary:5: 完成表构建过程并保存文件.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// 创建新文档
+// 创建一个新的文件
 Document doc = new Document();
-// 创建用于修改文档的文档构建器
+// 创建文件构建器来修改文件
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 开始新表格
+// 开始一个新的桌子
 Table table = builder.StartTable();
-// 在表格中插入新单元格
+// 插入一个新的单元
 builder.InsertCell();
 //ExStep:2-
 // 访问行格式化属性
 RowFormat rowFormat = builder.RowFormat;
-// 设置行的高度
+// 设置排列的高度
 rowFormat.Height = 100;
-// 指定精确的高度
+// 指定高度是准确的
 rowFormat.HeightRule = HeightRule.Exactly;
 
 //ExStep:3-
-// 设置表格的铺布
+// 设置餐桌填充
 table.LeftPadding = 30; 
 table.RightPadding = 30;
 table.TopPadding = 30;
 table.BottomPadding = 30;
 
 //ExStep:4-
-// 将文字写入单元格
+// 写入到细胞中
 builder.Writeln("I'm a wonderful formatted row.");
 // 结束当前行
 builder.EndRow();
-// 结束表楼
+// 结束桌子的建筑
 builder.EndTable();
 
 //ExStep:5-
-// 保存文档
+// 保存文件
 doc.Save("WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
 //ExEnd

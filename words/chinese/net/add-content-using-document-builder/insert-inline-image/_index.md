@@ -1,8 +1,8 @@
 ---
-title: 使用 Apose. words 在单词文档中插入内嵌图像
+title: 在 Word 文档中插入内线图像,使用Aspose.Words
 weight: 7700
 limit: 
-description: 学习如何将内嵌图像插入含有 Apose. words 的 Word 文档中。 在此一步步示例中为.NET 创建 words 。
+description: 在此步骤的例子中,学习如何将一个内线图像插入Word文档中,使用 .NET的Aspose.Words.
 keywords: [Aspose.Words, .NET, inline image, Word document, DocumentBuilder, image insertion, code example]
 url: /zh/net/add-content-using-document-builder/insert-inline-image/
 ---
@@ -10,34 +10,34 @@ url: /zh/net/add-content-using-document-builder/insert-inline-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Apose. words 在单词文档中插入内嵌图像
-此示例展示了如何使用 Aspose. words 库为. NET 在 Word 文档中插入内嵌图像 。`文件编织器`类中,您可以很容易地在文档中当前光标位置的位置定位和插入图像。此指南提供直接的操作,帮助您在 Word 文档中开始图像处理。
+# 在 Word 文档中插入内线图像,使用Aspose.Words
+通过使用Aspose.Words库,将一个内线图像插入Word文档.`文件构建器`在Word文档中,您可以轻松地将图像定位和插入您的文档中的当前的线索位置.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-inline-image" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## 安装指示
-1. 安裝套件。 net: 的 words:
-   * 在视觉工作室使用 NuGet 软件包管理器 。
-   * 在软件包管理器控制台运行以下命令 :
+## 装备说明
+1. 安装 .NET 的Aspose.Words:
+   * 在视觉工作室中使用NuGet包管理器.
+   * 在包管理器控制台中执行下列命令:
      ```
      Install-Package Aspose.Words
      ```
 
-2. 设置您的工程 :
-   * 创建新的.NET 工程或打开已有的工程 。
-   * 在代码文件顶部添加使用指令的必要命令 :
+2. 设置自己的项目:
+   * 创建一个新的.NET项目或打开一个现有项目.
+   * 在代码文件顶部添加必要的指令:
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Drawing;
      ```
 
 
-## 另见
-[位置。 编辑到. NET 文档](https://docs.aspose.com/words/net/)
-[位置。 编辑到. NET 引用](https://reference.aspose.com/words/net/)
+## 查看
+[设置.Word为 .NET文档](https://docs.aspose.com/words/net/)
+[标用.NET引用的Word](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

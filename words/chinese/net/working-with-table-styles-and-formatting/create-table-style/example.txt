@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary:本代码演示如何使用 Aspect.Words 创建带有样式表格的单词文档。 
-//ExStepSummary:0: 初始化一个新的文档和文档构建器 。
-//ExStepSummary:1: 开始新表格, 插入“ Name” 和“ value” 的标题单元格。
-//ExStepSummary:2: 创建带有特定边框和布局设置的自定义表单Style 。
-//ExStepSummary:3: 用应用的新表格样式保存文档。
+//ExSummary: 这个代码显示如何使用Aspose.Words创建一个字体文件, 
+//ExStepSummary:0: 启动一个新的文档和文档构建器.
+//ExStepSummary:1: 启动一个新的表格,并插入"名称"和"值"的标题单元.
+//ExStepSummary:2: 创建一个定制的 TableStyle,设置特定的边框和填充设置.
+//ExStepSummary:3: 保存文件,使用新的表格格.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// 创建新的文档对象
+// 创建一个新的文档对象
 Document doc = new Document();
-// 初始化用于构建文档的文档构建器
+// 启动文档构建器
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 开始新表格
+// 开始一个新的桌子
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Name");
@@ -25,20 +25,20 @@ builder.InsertCell();
 builder.EndTable();
 
 //ExStep:2-
-// 创建新表格样式
+// 创建一个新的桌面风格
 TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Borders.LineStyle = LineStyle.Double;
-// 设置边框宽度
+// 设置边界宽度
 tableStyle.Borders.LineWidth = 1;
-// 设置折叠
+// 设置填充
 tableStyle.LeftPadding = 18;
 tableStyle.RightPadding = 18;
 tableStyle.TopPadding = 12;
 tableStyle.BottomPadding = 12;
-// 对创建的表格应用自定义表格样式
+// 应用自定义表格式到创建表格
 table.Style = tableStyle;
 
 //ExStep:3-
-// 用样式化表格保存文档
+// 保存文件的样式表
 doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
 //ExEnd
