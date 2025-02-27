@@ -1,5 +1,5 @@
 ---
-title: 插入一个"泡图"在 Word 中使用 .NET 的Aspose.Words
+title: 插入一个泡图在 Word 中使用 .NET 的Aspose.Words
 weight: 7700
 limit: 
 description: 了解如何将一个泡图插入Word文档,使用 .NET的Aspose.Words. 步骤说明和代码示例包括.
