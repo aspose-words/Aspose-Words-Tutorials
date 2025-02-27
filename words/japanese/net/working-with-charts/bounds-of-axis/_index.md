@@ -1,8 +1,8 @@
 ---
-title: グラフを使って文書を作成 NET 用の用語
+title: .NET のAspose.Wordsを使用してチャートを持つドキュメントを作成する
 weight: 7700
 limit: 
-description: Public domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainfalse domainfalse domainfalse domainfalse domain.
+description: 図表でWord文書を作成し,Y軸の境界線をカスタマイズし,ステップバイ・ステップ指示で.NETのAspose.Wordsを使用して DOCXとして保存する方法について学びます.
 keywords: [Aspose.Words for .NET, create chart in Word, customize Y-axis, DOCX chart creation, Word document chart tutorial, .NET Word chart example]
 url: /ja/net/working-with-charts/bounds-of-axis/
 ---
@@ -10,40 +10,40 @@ url: /ja/net/working-with-charts/bounds-of-axis/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# グラフを使って文書を作成Name
+# Aspose.Wordsを使ってチャートを備えたドキュメントを作成する
 
-このチュートリアルは、Asfo.NET を使ってワード文書を作成する方法を示します。カラム表のクリア、既存の系列を挿入し、 Y 軸境界のカスタマイズを行います。 初期化、データ操作、ドキュメントを DOCX ファイルとして保存するなどのステップごとの指示で、このガイドは Acture.Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, etc.)
+このチュートリアルでは, .NET のAspose.Wordsを使用したチャートでWord ドキュメントを作成する方法を示します. コラムチャートを挿入し,既存のシリーズをクリアし,新しいデータを追加し,Y軸の境界をカスタマイズすることを学びます.初期化,データ操作,DOCX ファイルとしてドキュメントを保存する手順による,このガイドは, .NET のAspose.Wordsのチャートで作業を簡素化します. プロのレポートやダイナミックなデータビジュアライゼーションを開発しているかどうかにかかわらず,この例は,簡単に開始するのに役立ちます.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/bounds-of-axis" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## インストールインジケータ  
+## 設置指示  
 
-1. Asfof.words for NET をダウンロード  
-   ^ a b c d e f g h i f g h i f g h i j k l e f g h i j k l e f g h i n l e f g h i j k l e f g h i j k l e f g h i n l e f g h i j k l e f g h i j k l e f g h i n l e f g h i l e f g h i o f g h i o f g h i o f g h i c d e f g h i " j k l e f g h ".[公式ダウンロードページ](https://releases.aspose.com/words/net/))をいう.  
+1. .NET のためのAspose.Wordsをダウンロードする  
+   ウェブの最新バージョンの Aspose.Words を入手してください[公式ダウンロードページ](https://releases.aspose.com/words/net/)やってくれ  
 
-2. NuGet パッケージマネージャ経由でインストール  
-   * プロジェクトをビジュアル・スタジオにオープンします。  
-   * ツール_BAR_ Numgetパッケージマネージャで「解決のための NuGet パッケージ」の管理を行います。  
-   * 検索対象`Asfords. 言葉`の「ブラウズ」タブに表示されます。  
-   * パッケージを選択してインストールをクリックします。  
+2. NuGet パッケージ管理者でインストールする  
+   * プロジェクトをビジュアルスタジオで開け  
+   * ツール > NuGet パッケージ管理者 > ソリューションのための NuGet パッケージ管理へ移動します.  
+   * 検索する`"言葉"`ブラウズタブに  
+   * パッケージを選択し,インストールをクリックします.  
 
-3. ライセンスを追加 _(オプション)_  
-   * 免許 を 持っ て おら れる なら , それ を 自分 の プロジェクト に 適用 し て ください。[ライセンスの適用方法](https://purchase.aspose.com/temporary-license/))をいう.  
+3. ライセンス追加 _(オプション)_  
+   * ライセンスがあれば,プロジェクトに適用してください.詳細については,訪問してください[ライセンス申請方法](https://purchase.aspose.com/temporary-license/)やってくれ  
 
 4. 名前空間を含める  
-   必要な名前空間を追加します。`. cs.`ファイル:  
+   必要な名前空間の追加を確認してください `.cs`ファイル:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    using Aspose.Words.Drawing.Charts;
    ```
 
-## また、参照してください。
-[Asforce. NET ドキュメンテーション用用語](https://docs.aspose.com/words/net/)
-[access. ^ a b c d e f g h i ". NET インフォメーション".](https://reference.aspose.com/words/net/)
+## また見てください
+[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
+[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

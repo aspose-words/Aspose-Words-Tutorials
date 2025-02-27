@@ -1,8 +1,8 @@
 ---
-title: Betűtípusok használata az Aspose.Words alkalmazásban a .NET számára  
+title: A fontokkal a .NET-ben Aspose.Words  
 weight: 10
 limit:
-description: Ismerje meg a betűtípusok használatát az Aspose.Words for .NET alkalmazásban, beleértve a betűtípusok, méretek, színek, effektusok és egyebek megváltoztatását.
+description: Tanuljon meg, hogyan kell dolgozni a .NET-ben használt Aspose.Words betűszöveggel, beleértve a betűstílusok, méretek, színek, effektusok és más módosítását.
 keywords:
 url: /hu/net/working-with-fonts/
 ---
@@ -10,15 +10,15 @@ url: /hu/net/working-with-fonts/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Bevezetés
+## Bevezető
   
-Betűtípusok kritikus eleme minden Word dokumentum, hozzátéve, személyiség, olvashatóság, és a vizuális fellebbezést. Az Aspose.Words for .NET, akkor kapnak teljes ellenőrzése font testreszabási, hogy megfeleljen a dokumentum igényeinek. Akár meg kell változtatni a betűtípusok, méretének módosítása, színének megváltoztatása, vagy alkalmazni hatások, mint a merész, dőlt, vagy aláhúzás, Aspose.Words kínál zökkenőmentes módja annak, hogy fokozza a dokumentum tipográfia.  
+A fontok minden Word dokumentum kritikus része, amely személyiséget, olvashatóságot és vizuális vonzót hozza hozzá. Az Aspose.Words a .NET-hez, teljes ellenőrzést nyer a fontok személyre szabására, hogy megfeleljen a dokumentum igényeinek. Akár font stílusokat kell módosítani, méreteket kell módosítani, színeket kell változtatni, vagy olyan hatásokat kell alkalmazni, mint a nagybetű, a kurzus vagy az aláhúzás, az Aspose.Words egy sima módja annak, hogy javítsa a dokumentum tipográfiáját.  
 
-Ez a rész számos oktatóanyagot tartalmaz, amelyek segítenek a betűkészlet- manipuláció elsajátításában az Aspose.Words for .NET segítségével. Merüljön el olyan speciális funkciókba, mint a betűtípus-család megváltoztatása, a szöveges hatások alkalmazása és a fejlett tipográfiai beállítások, mint a kerning és a térköz. Ezek az útmutatók egyszerűvé teszik a professzionális, csiszolt Word dokumentumok létrehozását az Ön pontos igényeihez igazítva.
+Ez a rész számos tankönyvet tartalmaz, amelyek segítenek a .NET-hez használt Aspose.Words használatával a betűkezelést megtanulni. A betűcsoportok változása, a szöveghatások alkalmazása, valamint a fejlett tipográfia lehetőségek, mint a kerning és a távolság beállítás. Ezek a útmutatók egyszerűvé teszik a szakmai, puffált Word dokumentumok létrehozását, amelyek a pontos igényekre egyaránt egyaránt igazolhatók.
 
-{{< tutorial-card link="./font-formatting/" title="Betűtípus formázása a Wordben az Aspose.Words for .NET használatával" imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./get-font-line-spacing/" title="Betűsor-távolság beszerzése Word dokumentumban" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./set-font-emphasis-mark/" title="A hangsúly beállítása a Word dokumentumban az Aspose.Words for .NET használatával" imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./font-formatting/" title="Tőlejtés font formátum Word-ben Aspose.Words használatával .NET" imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./get-font-line-spacing/" title="Szerezzen fontvonal-távolítást a Word dokumentumban" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./set-font-emphasis-mark/" title="A Word dokumentumban hangsúlyjelzés jelét állítsa be .NET-hez Aspose.Words használatával" imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

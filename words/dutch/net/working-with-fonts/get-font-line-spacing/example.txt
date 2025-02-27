@@ -1,23 +1,23 @@
 //ExStart
-//ExSummary: Deze code laat zien hoe je een document aanmaakt en de regelafstand van een opgegeven lettertype krijgt.
+//ExSummaryDeze code toont aan hoe een document wordt gemaakt en de lijnspacing van een bepaald lettertype wordt verkregen.
 //ExStepSummary:0: De volgende code initialiseert een nieuw Document en DocumentBuilder.
-//ExStepSummary:1: De code stelt het lettertype in op "Calibri" en voegt een regel tekst toe.
-//ExStepSummary:2: De code haalt de regelafstand van de eerste run in het document op.
+//ExStepSummary:1: De code zet het lettertype in op "Calibri" en voegt een lijn tekst toe.
+//ExStepSummary:2: De code haalt de lijninterval van de eerste run in het document.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Een nieuwe document-instantie aanmaken
+// Creëer een nieuw document-instance
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Lettertypenaam instellen op 'Calibri'
+// Stel de letternaam in op 'Calibri'
 builder.Font.Name = "Calibri";
 builder.Writeln("qText");
 
 //ExStep:2-
 // Toegang tot het lettertype van de eerste run
 Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
-// Voer de regelafstand naar de console uit
+// Uitvoeren van de lijn tussen de console
 Console.WriteLine($"lineSpacing = {font.LineSpacing}");
 //ExEnd

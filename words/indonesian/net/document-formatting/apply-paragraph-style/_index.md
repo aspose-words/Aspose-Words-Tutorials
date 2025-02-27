@@ -1,8 +1,8 @@
 ---
-title: Buat dan Gaya Sebuah Dokumen Kata dalam Aspose.Words untuk .NET
+title: Buat dan Gaya Dokumen Word di Aspose.Words untuk .NET
 weight: 7700
 limit: 
-description: Pelajari bagaimana membuat dokumen Word, menerapkan gaya paragraf, dan menyimpannya sebagai berkas .docx menggunakan Aspose.Words untuk .NET dalam tutorial step-by-step.
+description: Pelajari cara membuat dokumen Word, menerapkan gaya paragraf, dan menyimpannya sebagai file .docx menggunakan Aspose.Words untuk .NET di tutorial langkah demi langkah ini.
 keywords: [Aspose.Words for .NET, create Word document, paragraph style, save .docx, C# Word example, apply styles in Word, document builder, Aspose tutorial]
 url: /id/net/document-formatting/apply-paragraph-style/
 ---
@@ -10,8 +10,8 @@ url: /id/net/document-formatting/apply-paragraph-style/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buat dan Gaya Sebuah Dokumen Kata dalam Aspose.Words
-aspose.Words untuk .NET memberdayakan pengembang untuk membuat tanpa upaya, memodifikasi, dan gaya dokumen Word programmatically. Contoh ini menunjukkan cara sederhana namun ampuh untuk membuat dokumen Word, menerapkan gaya paragraf "Title," dan menyimpannya dalam format .dox. Apakah Anda sedang membangun solusi automasi dokumen atau hanya mengeksplorasi fitur Aspose.Words, panduan ini adalah titik awal yang sempurna. Ikuti langkah- langkah di bawah untuk memulai dengan styling dalam .NET!  
+# Buat dan Gaya Dokumen Word di Aspose.Words
+Aspose.Words untuk .NET memungkinkan pengembang untuk membuat, memodifikasi, dan gaya dokumen Word secara programatik tanpa usaha. Contoh ini menunjukkan cara sederhana namun kuat untuk membuat dokumen Word, menerapkan gaya paragraf "Title", dan menyimpannya dalam format .docx. Apakah Anda membangun solusi otomatisasi dokumen atau hanya mengeksplorasi fitur Aspose.Words, panduan ini adalah titik awal yang sempurna. Ikuti langkah-langkah di bawah untuk memulai dengan gaya dokumen di .NET!  
 
 ---
 {{< tutorial-widget sourcePath="words/net/document-formatting/apply-paragraph-style" >}}
@@ -19,20 +19,20 @@ aspose.Words untuk .NET memberdayakan pengembang untuk membuat tanpa upaya, memo
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instruksi Instalasi  
-1. Unduh aspose.Words untuk .NET:  
-   Dapatkan versi terbaru dari[Sebagaipose.Words untuk halaman unduh .NET](https://releases.aspose.com/words/net/).  
+1. Unduh Aspose.Words untuk .NET:  
+   Dapatkan versi terbaru dari [Aspose.Words untuk halaman download .NET](https://releases.aspose.com/words/net/)Aku tidak tahu.  
 
-2. Pasang aspose.Words via NuGet:  
-   * Buka proyekmu di Studio Visual.  
-   * Navigasi ke menu Perkakas, pilih NuGet Package Manager, dan klik Manage NuGet Package untuk Solusi.  
-   * Cari`Sebagaipose.Words`di manajer paket NuGet dan klik Install.  
+2. Instal Aspose.Words melalui NuGet:  
+   * Buka proyekmu di Visual Studio.  
+   * Navigasi ke menu Alat, pilih Manajer Paket NuGet, dan klik Manajemen Paket NuGet untuk Solusi.  
+   * Carilah`"Aspose. Kata-kata"`di NuGet package manager dan klik Install.  
 
-3. Terapkan suatu Lisensi (Opsional):  
-   Untuk menghindari keterbatasan evaluasi, gunakan SIM.[lisensi sementara di sini](https://purchase.aspose.com/temporary-license/)atau membeli lisensi dari[Toko aspose](https://purchase.aspose.com/buy).  
+3. Minta Lisensi (Pilih):  
+   Untuk menghindari keterbatasan evaluasi, aplikasi lisensi.[lisensi sementara di sini](https://purchase.aspose.com/temporary-license/)atau membeli lisensi dari [Toko Aspose](https://purchase.aspose.com/buy)Aku tidak tahu.  
 
-## Juga Lihat
-[aspose.Word untuk .NET Dokumentasi](https://docs.aspose.com/words/net/)
-[aspose.Word untuk referensi .NET](https://reference.aspose.com/words/net/)
+## Lihat juga
+[Aspose.Word untuk Dokumen .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word untuk Referensi .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

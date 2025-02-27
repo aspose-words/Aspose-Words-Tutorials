@@ -1,40 +1,40 @@
 //ExStart
-//ExSummary: このコードは、Asfo.words を使用してグラフを使ってドキュメントを作成する方法を示します。 Y 軸の境界を設定し、ドキュメントを DOCX ファイルとして保存します。 
-// 各ステップは、Astrpostのチャートを操作する作業に係る工程について明確に理解できるように分割されます。
-//ExStepSummary:0: 新しい文書と文書ビルダーのインスタンスを初期化します。 
-//ExStepSummary:1: ドキュメントにグラフを挿入し、グラフオブジェクトを取得します。 
-//ExStepSummary:2: カテゴリと値を指定して、グラフに新しいシリーズを追加します。 
-//ExStepSummary:3: グラフの Y 軸の最小値と最大値を設定します。 
-//ExStepSummary:4: ドキュメントを指定したパスに保存します。 
+//ExSummary: このコードではAspose.Wordsを使用してチャートを持つドキュメントを作成し,Y軸の境界を設定し,DOCXファイルとしてドキュメントを保存する方法を示します. 
+// Aspose.Wordsのチャートで作業する過程を明確に理解するために,各ステップは分解されています.
+//ExStepSummary:0: 新しいドキュメントとドキュメントビルダーインスタンスを初期化します. 
+//ExStepSummary:1: 文書にチャートを挿入してチャートのオブジェクトを取得します 
+//ExStepSummary:2: 指定されたカテゴリーと値を持つ新しいシリーズを図に追加します. 
+//ExStepSummary:3: グラフのY軸の最小と最大限を設定する. 
+//ExStepSummary:4: 文書を指定されたパスに保存する. 
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// 新しい文書インスタンスを作成します。
+// 新しいドキュメントインスタンスを作成する.
 Document doc = new Document();
-// ドキュメント作成を初期化します。
+// ドキュメントを作成するには DocumentBuilder を初期化します.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// ドキュメントに列グラフを挿入します。
+// 文書に列表を挿入する.
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
-// シェイプからグラフオブジェクトを取得します。
+// 形から図物を取り出す.
 Chart chart = shape.Chart;
-// グラフから既存の系列をクリアします。
+// 新たにデータを得るため,チャートから既存のシリーズを削除します.
 chart.Series.Clear();
 
 //ExStep:2-
-// 2020年1月15日閲覧. ^ a b c d e f g h i "アスキーシリーズ1"を新シリーズに指定".
+// "アスページシリーズ1"という新シリーズを定義する
 chart.Series.Add("Aspose Series 1",
     new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
     new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
 
 //ExStep:3-
-// Y 軸の最小境界を設定します。
+// Y軸の最小限を設定する
 chart.AxisY.Scaling.Minimum = new AxisBound(0);
 chart.AxisY.Scaling.Maximum = new AxisBound(6);
 
 //ExStep:4-
-// ドキュメントを、グラフで指定したパスに保存します。
+// 図のドキュメントを指定されたパスに保存します.
 doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
 //ExEnd

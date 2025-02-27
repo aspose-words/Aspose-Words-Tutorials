@@ -1,15 +1,15 @@
 //ExStart
-//ExSummary: Ce code montre comment appliquer les bordures et l'ombrage à un paragraphe d'un document Word utilisant Aspose.Words.
-//ExStepSummary:0: Le code suivant initialise une nouvelle instance Document et DocumentBuilder.
-//ExStepSummary:1: Le code suivant configure les bordures du paragraphe à une distance du texte.
-//ExStepSummary:2: Le code suivant applique une ombrage diagonale de texture croisée au paragraphe avec des couleurs spécifiées.
+//ExSummary: Ce code montre comment appliquer des limites et des ombres à un paragraphe dans un document Word en utilisant Aspose.Words.
+//ExStepSummary:0: Le code suivant initie une nouvelle instance de Document et DocumentBuilder.
+//ExStepSummary:1: Le code suivant configure les limites du paragraphe avec une distance du texte.
+//ExStepSummary:2: Le code suivant applique une teinture transversale diagonale à l'alinéa avec des couleurs spécifiées.
 //ExStepSummary:3: Le code suivant écrit un paragraphe formaté avec les paramètres appliqués.
-//ExStepSummary:4: Le code suivant enregistre le document sur le chemin de sortie spécifié.
+//ExStepSummary:4: Le code suivant sauvegarde le document sur le chemin de sortie spécifié.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Initialiser un nouveau document
+// Initialement d'un nouveau document
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 

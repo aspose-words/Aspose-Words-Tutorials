@@ -1,10 +1,10 @@
 //ExStart
-//ExSummary: Este código muestra cómo aplicar un borde de contorno a una tabla en un documento de Word usando Aspose.Words. Centra la tabla en la página, establece un borde verde alrededor de la tabla, borra cualquier borde existente y llena las celdas de la tabla con un color de fondo verde claro. 
+//ExSummary: Este código muestra cómo aplicar un límite de contorno a una tabla en un documento Word utilizando Aspose.Words. Centra la tabla en la página, establece un límite verde alrededor de la tabla, despeja cualquier límite existente y llena las celdas de la tabla con un color de fondo verde claro. 
 //ExStepSummary:0: El siguiente código inicializa el documento y recupera la primera tabla.
-//ExStepSummary:1: Este paso alinea la tabla al centro de la página.
-//ExStepSummary:2: Este paso elimina cualquier frontera existente de la tabla.
-//ExStepSummary:3: Este paso establece un borde verde alrededor de la mesa, pero no dentro.
-//ExStepSummary:4: Este paso llena las células con un color sólido verde claro.
+//ExStepSummary:1: Este paso alineará la tabla con el centro de la página.
+//ExStepSummary:2: Este paso elimina las fronteras existentes de la mesa.
+//ExStepSummary:3: Este paso establece un límite verde alrededor de la mesa pero no dentro.
+//ExStepSummary:4: Este paso llena las células con un color verde claro sólido.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -16,27 +16,27 @@ string dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// Recuperar la primera tabla del documento
+// Recoger la primera tabla del documento
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
-// Alinear la tabla al centro de la página
+// Alinea la tabla al centro de la página
 table.Alignment = TableAlignment.Center;
 
 //ExStep:2-
-// Borrar cualquier frontera existente de la tabla
+// Eliminar las fronteras existentes de la tabla
 table.ClearBorders();
 
 //ExStep:3-
-// Establecer borde izquierdo
+// Establecer el límite izquierdo
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
-// Establecer borde derecho
+// Establezca el límite derecho
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
-// Establecer borde superior
+// Establezca el límite superior
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
-// Establecer borde inferior
+// Establecer el límite inferior
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
 //ExStep:4-
-// Llena las celdas de color verde claro
+// Llena las celdas con color verde claro
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 // Guardar el documento modificado
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");

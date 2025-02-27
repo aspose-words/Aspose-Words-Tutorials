@@ -1,8 +1,8 @@
 ---
-title: Buat Bentuk Grup dalam Dokumen Word Menggunakan aspose.Words untuk .NET
+title: Buat bentuk kelompok dalam dokumen Word menggunakan Aspose.Words untuk .NET
 weight: 7700
 limit: 
-description: Pelajari bagaimana membuat suatu grup bentuk dalam dokumen Word menggunakan Aspose.Words untuk .NET. Tambahkan berbagai bentuk, dimensi disesuaikan, dan simpan dokumen Anda dengan mudah.
+description: Pelajari cara membuat bentuk kelompok dalam dokumen Word menggunakan Aspose.Words untuk .NET. Tambahkan beberapa bentuk, menyesuaikan dimensi, dan menyimpan dokumen Anda dengan mudah.
 keywords: [Aspose.Words for .NET, group shape in Word, add shapes to document, .NET Word library, create shapes in Word, Word group shapes, shape customization, .NET example]
 url: /id/net/working-with-shapes/add-group-shape/
 ---
@@ -10,9 +10,9 @@ url: /id/net/working-with-shapes/add-group-shape/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buat Bentuk Grup dalam Dokumen Word Menggunakan aspose.Words
+# Buat bentuk kelompok dalam dokumen Word menggunakan Aspose.Words
 
-Tutorial ini menunjukkan bagaimana membuat dan mengatur bentuk kelompok dalam dokumen Word menggunakan Aspose.Words untuk .NET. Dengan perpustakaan yang kuat ini, Anda dapat dengan mudah menggabungkan berbagai bentuk, seperti aksen panggilan perbatasan dan tombol aksi, ke dalam bentuk grup tunggal. Pemandu mencakup setiap langkah, dari menginisialisasi dokumen untuk menambahkan bentuk, mengubah bentuk, dan menyisipkan bentuk grup ke dalam berkas Firman Anda. Akhirnya, contoh menyelamatkan dokumen, menunjukkan bagaimana untuk menyatukan bentuk dinamis ke dalam dokumen secara visual untuk hasil yang menarik.  
+Tutorial ini menunjukkan cara membuat dan mengelola bentuk kelompok dalam dokumen Word menggunakan Aspose.Words untuk .NET. Dengan perpustakaan yang kuat ini, Anda dapat dengan mudah menggabungkan beberapa bentuk, seperti panggilan border aksen dan tombol aksi, menjadi satu bentuk kelompok. Panduan mencakup setiap langkah, dari menginisialisasi dokumen untuk menambahkan bentuk, menyesuaikan dimensi, dan memasukkan bentuk kelompok ke dalam file Word Anda. Akhirnya, contoh menyimpan dokumen, menunjukkan bagaimana untuk mengintegrasikan bentuk dinamis ke dalam dokumen Word untuk hasil yang menarik secara visual.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-shapes/add-group-shape" >}}
@@ -21,22 +21,22 @@ Tutorial ini menunjukkan bagaimana membuat dan mengatur bentuk kelompok dalam do
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instruksi Instalasi  
 
-1. Unduh aspose.Words untuk .NET:  
-   Kunjungi[aspose Halaman Unduhan](https://releases.aspose.com/words/net/)dan download versi terbaru dari Aspose.Words untuk .NET.
+1. Unduh Aspose.Words untuk .NET:  
+   Kunjungi [Aspose Downloads halaman](https://releases.aspose.com/words/net/)dan download versi terbaru dari Aspose.Words untuk .NET.
 
-2. Pasang via NuGet:  
-   * Buka proyekmu di Studio Visual.  
-   * Navigasi ke Perkakas > Manajer Paket NuGet > Kelola Paket NuGet untuk Solusi.  
-   * Cari aspose.Words di Manajer Paket NuGet.  
-   * Klik Pasang untuk menambahkan pustaka ke projek Anda.
+2. Instal melalui NuGet:  
+   * Buka proyekmu di Visual Studio.  
+   * Pindah ke Alat > NuGet Package Manager > Manage NuGet Packages for Solution.  
+   * Cari Aspose.Words di NuGet Package Manager.  
+   * Klik Install untuk menambahkan perpustakaan ke proyek Anda.
 
-3. Aktivasi Lisensi:  
-   * Mendapatkan lisensi dari[aspose Pembelian page](https://purchase.aspose.com/buy)atau aplikasi untuk[lisensi sementara](https://purchase.aspose.com/temporary-license/).  
-   * Aktifkan lisensi proyek Anda dengan memakai`Sebagaipose.Words.Lisense`Kelas.
+3. Aktifasi Lisensi:  
+   * Dapatkan lisensi dari [Aspose halaman pembelian](https://purchase.aspose.com/buy)atau mengajukan permohonan[lisensi sementara](https://purchase.aspose.com/temporary-license/)Aku tidak tahu.  
+   * Aktifkan lisensi dalam proyek Anda dengan menggunakan `Aspose.Words. Lisensi`kelas.
 
-## Juga Lihat
-[aspose.Word untuk .NET Dokumentasi](https://docs.aspose.com/words/net/)
-[aspose.Word untuk referensi .NET](https://reference.aspose.com/words/net/)
+## Lihat juga
+[Aspose.Word untuk Dokumen .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word untuk Referensi .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

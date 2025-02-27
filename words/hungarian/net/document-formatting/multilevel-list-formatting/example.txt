@@ -1,12 +1,12 @@
 //ExStart
-//ExSummary: Ez a kód bemutatja, hogyan hozhat létre többszintű listát egy Word dokumentumban az Aspose.Words használatával. Ez inicializálja a dokumentumot, számozási formátumot alkalmaz, létrehozza a fő és az altételeket, és végül .docx fájlként menti a dokumentumot.
-//ExStepSummary:0: A következő kód egy új dokumentumot és DocumentBuilder példányt inicializál.
-//ExStepSummary:1: A következő kód egy alapértelmezett számozási stílust alkalmaz a listára, és hozzáadja a legfelső szintű elemeket.
-//ExStepSummary:2: A második legfelső szintű elem alatti altételek létrehozásához a következő kódbehúzások szükségesek.
-//ExStepSummary:3: Az alábbi kód további francia bekezdéseket tartalmaz a második altétel alatti altételek létrehozásához.
-//ExStepSummary:4: A következő kód visszahúzódik az előző szintre, hogy hozzáadjon egy másik elemet a második szinten.
-//ExStepSummary:5: A következő kód visszahúzódik a legfelső szintre, hogy hozzáadja a végső elemet a listához.
-//ExStepSummary:6: A következő kód a mentés előtt eltávolítja a számozást a listáról.
+//ExSummaryA kód bemutatja, hogyan lehet egy többszintű listát létrehozni egy Word dokumentumban az Aspose.Words segítségével.
+//ExStepSummary:0: Az alábbi kód egy új dokumentumot és a DocumentBuilder példányt indít.
+//ExStepSummary:1: A következő kód alapértelmezett számolási stílust alkalmaz a listára, és felső szintű elemeket ad hozzá.
+//ExStepSummary:2: A következő kódjelzőket a második felső szintű pont alá tartozó alpontok létrehozására.
+//ExStepSummary:3: A következő kód további francia bekezdés a második alpont alá tartozó alpontok létrehozására.
+//ExStepSummary:4: A következő kód visszavonul az előző szintre, hogy egy másik tétel a második szintre kerüljön.
+//ExStepSummary:5: A következő kód visszavonul a felső szintre, hogy a listába a végső pontot hozzák hozzá.
+//ExStepSummary:6: A következő kód eltávolítja a számlálást a listából a mentés előtt.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -14,43 +14,43 @@
 //ExStepImage:5:images/5.png
 //ExStepImage:6:images/6.png
 //ExStep:0-
-// Új dokumentum inicializálása
+// Új dokumentum indításához
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Alapértelmezett számozási formátum alkalmazása
+// A szabvány szerinti számláló formátum alkalmazása
 builder.ListFormat.ApplyNumberDefault();
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 
 //ExStep:2-
-// Altételek behúzása
+// A részegységekre vonatkozó díj
 builder.ListFormat.ListIndent();
 builder.Writeln("Item 2.1");
 builder.Writeln("Item 2.2");
 
 //ExStep:3-
-// Altételek behúzása
+// A részegységekre vonatkozó díj
 builder.ListFormat.ListIndent();
 builder.Writeln("Item 2.2.1");
 builder.Writeln("Item 2.2.2");
 
 //ExStep:4-
-// Vissza a második szintre
+// A második szintre.
 builder.ListFormat.ListOutdent();
 builder.Writeln("Item 2.3");
 
 //ExStep:5-
-// Vissza a felső szintre
+// A legmagasabb szintre.
 builder.ListFormat.ListOutdent();
 builder.Writeln("Item 3");
 
 //ExStep:6-
-// Számok eltávolítása a listából
+// A számlálást a listából távolítsa el
 builder.ListFormat.RemoveNumbers();
 
 //ExStep:7-
-// A dokumentum mentése
+// Takarítsa meg a dokumentumot
 doc.Save("DocumentFormatting.MultilevelListFormatting.docx");
 //ExEnd

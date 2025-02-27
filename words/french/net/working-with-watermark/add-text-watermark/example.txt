@@ -1,21 +1,21 @@
 //ExStart
-//ExSummary: Ce code montre comment ajouter un filigrane texte avec des options spécifiques à un document Word en utilisant Aspose.Words.
-//ExStepSummary:0: Le code suivant initialise le chemin du document et crée un nouvel objet Document.
-//ExStepSummary:1: Le code suivant définit les options pour le filigrane de texte, y compris la famille de polices, la taille, la couleur et la mise en page.
+//ExSummary: Ce code montre comment ajouter un code d'eau texte avec des options spécifiques à un document Word en utilisant Aspose.Words.
+//ExStepSummary:0: Le code suivant initiale le chemin du document et crée un nouvel objet de document.
+//ExStepSummary:1: Le code suivant définit les options pour le watermark texte, y compris la famille de polices, la taille, la couleur et la disposition.
 //ExStepSummary:2: Le code suivant applique le filigrane texte avec les options spécifiées au document.
-//ExStepSummary:3: Le code suivant enregistre le document modifié dans un répertoire spécifié.
+//ExStepSummary:3: Le code suivant sauvegarde le document modifié dans un répertoire spécifié.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStep:0-
-// Définir le chemin du répertoire pour le document
+// Définir le chemin de l' annuaire du document
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Chargez le document Word
+// Charger le document Word
 Document doc = new Document(dataDir + "Document.docx");
 
 //ExStep:2-
-// Créer des options de filigrane
+// Créer des options de marque d'eau
 TextWatermarkOptions options = new TextWatermarkOptions()
 {
     FontFamily = "Arial", // Set font family for the watermark text
@@ -26,10 +26,10 @@ TextWatermarkOptions options = new TextWatermarkOptions()
 };
 
 //ExStep:3-
-// Appliquer le texte filigrane avec les options
+// Appliquer le texte du filigrane avec des options
 doc.Watermark.SetText("Test", options);
 
 //ExStep:4-
-// Enregistrer le document avec le filigrane
+// Enregistrez le document avec la marque d'eau
 doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
 //ExEnd

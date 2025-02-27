@@ -1,17 +1,17 @@
 //ExStart
-//ExSummary: Tento kód ukazuje, jak vložit pole formuláře do Word dokumentu pomocí Aspose.Words pro .NET. Konkrétně ukazuje, jak vložit combo pole formuláře s předdefinovanými položkami.
+//ExSummaryTento kód ukazuje, jak vložit pole formulářů do dokumentu Word pomocí Aspose.Words pro .NET. Konkrétně ukazuje, jak vložit pole formulářů s předdefinovanými položkami.
 //ExStepSummary:0: Následující kód ukazuje, jak vytvořit nový dokument Word.
-//ExStepSummary:1: Následující kód ukazuje, jak inicializovat dokumentBuilder pro editaci dokumentu.
-//ExStepSummary:2: Následující kód ukazuje, jak definovat a vložit pole formuláře combo s předdefinovanými položkami a výchozím výběrem.
+//ExStepSummary:1: Následující kód ukazuje, jak iniciativizovat program DocumentBuilder pro úpravu dokumentu.
+//ExStepSummary:2: Následující kód ukazuje, jak definovat a vložit pole formuláře v kombinovaném pole s předem definovanými položkami a výběrem podle předchozího nastavení.
 //ExStepImage:0:images/1.png
 //ExStepImage:1:images/2.png
 //ExStep:0-
-// Inicializuje prázdný dokument Word
+// Zahajuje prázdný dokument Word
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Definovat a vložit pole formuláře combo box
+// Definice a vložení pole formuláře v kombinačním políčku
 string[] items = { "One", "Two", "Three" };
 builder.InsertComboBox("DropDown", items, 0);
 //ExEnd

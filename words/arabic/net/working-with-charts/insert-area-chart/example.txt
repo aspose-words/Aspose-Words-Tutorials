@@ -1,23 +1,23 @@
 //ExStart
-//ExSummaryيوضح هذا الرمز كيفية إدراج مخطط منطقة في مستند Word باستخدام Apose.Words.
-//ExStepSummary:0: يؤدي الكود التالي إلى تهيئة مستند جديد ومنشئ مستندات.
-//ExStepSummary:1: الرمز التالي يدرج مخطط منطقة في الوثيقة.
-//ExStepSummary:2: يضيف الرمز التالي سلسلة إلى المخطط مع نقاط بيانات محددة.
-//ExStepSummary:3: يحفظ الرمز التالي المستند مع مخطط المنطقة المدرج.
+//ExSummary: هذا الرمز يظهر كيفية إدراج جدول المناطق في مستند Word باستخدام Aspose.Words.
+//ExStepSummary:0: الرمز التالي يبدأ وثيقة جديدة ومصنع وثائق.
+//ExStepSummary:1: يضيف الرمز التالي مخططًا للمناطق في الوثيقة.
+//ExStepSummary:2: يضيف الرمز التالي سلسلة إلى الرسم البياني مع نقاط البيانات المحددة.
+//ExStepSummary:3: الترميز التالي يحفظ الوثيقة مع الرسم البياني للمساحة المضافة.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// أنشئ مستندًا جديدًا
+// إعداد وثيقة جديدة
 Document doc = new Document();
-// تهيئة منشئ المستندات
+// إعادة تشغيل مبدع الوثائق
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// أدرج مخطط منطقة بأبعاد محددة
+// إدراج مخطط مساحة مع الأبعاد المحددة
 Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
 
 //ExStep:2-
-// الوصول إلى كائن المخطط
+// الوصول إلى جسم الرسم البياني
 Chart chart = shape.Chart;
 // إضافة سلسلة جديدة إلى الرسم البياني
 chart.Series.Add("Aspose Series 1", new [] 
@@ -33,10 +33,10 @@ chart.Series.Add("Aspose Series 1", new []
 	// نقطة البيانات 5
     new DateTime(2002, 09, 01)
 }, 
-// القيم المقابلة لنقاط البيانات
+// القيم المقابلة لمواقع البيانات
 new double[] { 32, 32, 28, 12, 15 });
 
 //ExStep:3-
-// احفظ المستند باستخدام المخطط المدرج
+// حفظ الوثيقة مع الرسم البياني المضمن
 doc.Save("WorkingWithCharts.InsertAreaChart.docx");
 //ExEnd

@@ -1,50 +1,50 @@
 //ExStart
-//ExSummary: Ez a kód bemutatja, hogyan kell alkalmazni a sorformázást egy Word dokumentumban az Aspose.Words használatával.
-//ExStepSummary:0: Inicializál egy új dokumentumot, és elkezdi formázott sorokat tartalmazó táblázat létrehozását.
-//ExStepSummary:1: Beállítja a sor formátumát.
-//ExStepSummary:2: Beállítja az adott magassági beállításokat.
-//ExStepSummary:3: Beállítja az egész táblázat kitöltését, amely az összes sort érinti.
-//ExStepSummary:4: Szöveget ír a táblázat cellájába, és befejezi a sort.
-//ExStepSummary:5: Befejezi a táblázatkészítési folyamatot, és elmenti a dokumentumot.
+//ExSummary: Ez a kód bemutatja, hogyan kell alkalmazni a sor formázását a Word dokumentumban Aspose.Words segítségével.
+//ExStepSummary:0: Új dokumentumot indít és kezd egy formátált sorokból álló táblázat építését.
+//ExStepSummary:1: A sor formátumokat beállítja.
+//ExStepSummary:2: A specifikus magasság beállításait beállítja.
+//ExStepSummary:3: A táblázat egészére felhelyezkedő felpakolás, amely minden sorra hat.
+//ExStepSummary:4: Írja a szöveget az asztal cellába és befejezi a sorot.
+//ExStepSummary:5: Készíti a táblázat-építési folyamatot, és mentheti meg a dokumentumot.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// Új dokumentum létrehozása
+// Új dokumentumot készítsen
 Document doc = new Document();
-// DocumentBuilder létrehozása a dokumentum módosításához
+// Készítsen egy Dokumentum-építőt a dokumentum módosítására
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Új asztal indítása
+// Új asztalhoz kezdjünk.
 Table table = builder.StartTable();
-// Új cella beszúrása a táblázatba
+// Beilleszteni egy új cellát a táblázatba
 builder.InsertCell();
 //ExStep:2-
-// A sor formázási tulajdonságainak elérése
+// A sor formátálás tulajdonságaira hozzáférés
 RowFormat rowFormat = builder.RowFormat;
-// A sor magasságának beállítása
+// Beállítsa a sor magasságát
 rowFormat.Height = 100;
-// Adja meg, hogy a magasság pontos
+// Be kell írnia, hogy a magasság pontos
 rowFormat.HeightRule = HeightRule.Exactly;
 
 //ExStep:3-
-// Az asztal párnázásának beállítása
+// A táblázatra való feltöltés
 table.LeftPadding = 30; 
 table.RightPadding = 30;
 table.TopPadding = 30;
 table.BottomPadding = 30;
 
 //ExStep:4-
-// Szöveg írása a cellába
+// Írd be szöveget a cellába
 builder.Writeln("I'm a wonderful formatted row.");
-// Az aktuális sor lezárása
+// A jelenlegi sor befejezése
 builder.EndRow();
-// Vége az asztalépítésnek
+// A táblázat befejezése
 builder.EndTable();
 
 //ExStep:5-
-// A dokumentum mentése
+// Takarítsa meg a dokumentumot
 doc.Save("WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
 //ExEnd

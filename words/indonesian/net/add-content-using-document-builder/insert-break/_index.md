@@ -1,8 +1,8 @@
 ---
-title: Buat Dokumen Kata Multi-Page dengan Aspose.Words
+title: Buat dokumen Word multi-page dengan Aspose.Words
 weight: 7700
 limit: 
-description: Pelajari bagaimana membuat dokumen multi-halaman Word menggunakan Aspose.Words untuk .NET dengan instruksi langkah-by-step.
+description: Pelajari cara membuat dokumen Word multi-halaman menggunakan Aspose.Words untuk .NET dengan instruksi langkah demi langkah.
 keywords: [Aspose.Words, .NET, Word document, DocumentBuilder, page break, create document, programming example]
 url: /id/net/add-content-using-document-builder/insert-break/
 ---
@@ -10,9 +10,9 @@ url: /id/net/add-content-using-document-builder/insert-break/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buat Dokumen Kata Multi-Page dengan Aspose.Words
+# Buat dokumen Word multi-page dengan Aspose.Words
 
-Contoh ini menunjukkan cara membuat dokumen Word dengan menggunakan Aspose.Words untuk .NET, memungkinkan Anda menambahkan konten ke beberapa halaman. Ini menunjukkan bagaimana menginisialisasi dokumen baru, gunakan Pengubah Dokumen untuk menyisipkan teks dan halaman istirahat, dan akhirnya menyimpan dokumen sebagai berkas .doks. Sempurna bagi pengembang yang mencari pembuatan dokumen otomatis dalam aplikasi NET mereka.
+Contoh ini menunjukkan cara membuat dokumen Word menggunakan Aspose.Words untuk .NET, memungkinkan Anda menambahkan konten di beberapa halaman. Ini menunjukkan cara menginisialisasi dokumen baru, menggunakan DocumentBuilder untuk memasukkan teks dan istirahat halaman, dan akhirnya menyimpan dokumen sebagai file .docx. Sampurna untuk pengembang yang ingin mengotomatiskan pembuatan dokumen dalam aplikasi .NET mereka.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-break" >}}
@@ -20,15 +20,15 @@ Contoh ini menunjukkan cara membuat dokumen Word dengan menggunakan Aspose.Words
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instruksi Instalasi
-1. Pasang aspose.Words untuk .NET: Gunakan Manajer Paket NuGet untuk memasang aspose.Words. Jalankan perintah berikut dalam Konsol Manajer Paket:
+1. Instal Aspose.Words untuk .NET: Gunakan NuGet Package Manager untuk menginstal Aspose.Words. Jalankan perintah berikut di Konsole Manager Package:
 ```
 Install-Package Aspose.Words
 ```
 
 
-## Juga Lihat
-[aspose.Word untuk .NET Dokumentasi](https://docs.aspose.com/words/net/)
-[aspose.Word untuk referensi .NET](https://reference.aspose.com/words/net/)
+## Lihat juga
+[Aspose.Word untuk Dokumen .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word untuk Referensi .NET](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,8 +1,8 @@
 ---
-title: .NET için Aspose.Words ile Word'de Biçimlendirilmiş Tablolar Oluşturun
+title: .NET için Aspose.Words ile Word'de Styled Tablolar oluşturun
 weight: 7700
 limit: 
-description: Başlıklar ve biçimlendirilmiş veri satırları da dahil olmak üzere .NET için Aspose.Words kullanarak biçimlendirilmiş bir tablo ile bir Word belgesi oluşturmayı öğrenin.
+description: Başlıkları ve biçimlendirilmiş veri satırlarını da dahil olmak üzere .NET için Aspose.Words kullanarak bir biçimlendirilmiş tablo ile bir Word belgesini oluşturmayı öğrenin.
 keywords: [Aspose.Words, .NET, Word document, styled table, table formatting, DocumentBuilder, C# example, document generation]
 url: /tr/net/working-with-table-styles-and-formatting/buildtable-with-style/
 ---
@@ -10,35 +10,35 @@ url: /tr/net/working-with-table-styles-and-formatting/buildtable-with-style/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word'de Aspose.Words ile Biçimlendirilmiş Tablolar Oluşturun
+# Aspose.Words ile Sözcük'te Stylised Tablolar Oluştur
 
-Bu örnek, Aspose.Words for .NET'i kullanarak biçimlendirilmiş bir tablo içeren bir Word belgesinin nasıl oluşturulacağını gösterir. Yeni bir belge kurma sürecinde size yol gösterir, bir`DocumentBuilder`belge yapısını yönetmek ve okunabilirliği artırmak için başlıkları ve veri satırlarını içeren bir tabloyu biçimlendirmek. Ortaya çıkan belge, tablolara uygulanabilecek uygun şekillendirme ve biçimlendirme tekniklerini gösterir ve içeriği daha net ve daha sunulabilir hale getirir.
+Bu örnek, .NET için Aspose.Words kullanarak bir stilli tablo içeren bir Word belgesini nasıl oluşturulacağını gösterir.`DocumentBuilder`Bu sayede tablolar üzerinde uygulanabilecek uygun stilleme ve biçimlendirme teknikleri sergileniyor ve içeriği daha net ve daha gösterici hale getiriyor.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/apply-outline-border" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum Talimatları
-1. Aspose.Words İndir: Ziyaret edin[.NET için Aspose.Words](https://www.nuget.org/packages/Aspose.Words/)NuGet'teki sayfa ve en son sürümü indirin.
+## Kurulum talimatları
+1. Aspose.Words indir: Ziyaret edin [.NET için Aspose.Words](https://www.nuget.org/packages/Aspose.Words/)NuGet sayfasını okuyun ve en son versiyonu indiriniz.
 
-2. Bir .NET Projesi Oluşturun: Visual Studio'yu açın ve yeni bir Konsol veya Sınıf Kitaplığı projesi oluşturun.
+2. .NET Projesi Oluştur: Visual Studio Aç ve yeni bir Konsol veya Sınıf Kütüphanesi projesi oluştur.
 
 3. NuGet Paketi Ekle:
-   * Çözüm Gezgini'ndeki projenize sağ tıklayın.
-   * "NuGet Paketlerini Yönet" i seçin.
-   * "Aspose.Words" için arama yapın ve "Install" a tıklayın.
+   * Çözüm Eksploröründe projenize sağ tıklayın.
+   * "NuGet Paketleri Yönet" seçeneğini seçin.
+   * "Aspose.Words" için arama yapın ve "Kartın".
 
-4. İfadeleri Kullanarak Gerekli Ekle: Kod dosyanızda direktifleri kullanarak gerekli olanları dahil edin:
+4. Gerekli Kullanım Açıklamalarını Ekleyin: Kod dosyanıza gerekli kullanım talimatlarını ekleyin:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    ```
 
 
-## Ayrıca Bakınız
-[.NET Dokümantasyonu için Aspose.Word](https://docs.aspose.com/words/net/)
-[.NET Referansları için Aspose.Word](https://reference.aspose.com/words/net/)
+## Ayrıca bakın
+[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

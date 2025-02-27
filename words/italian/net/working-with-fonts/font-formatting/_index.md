@@ -1,8 +1,8 @@
 ---
-title: Crea formattazione del carattere in Word utilizzando Aspese.Words per .NET
+title: Creazione di formattazione di caratteri in Word utilizzando Aspose.Words per .NET
 weight: 7700
 limit: 
-description: Scopri come creare un documento Word con formattazione personalizzata dei font in .NET usando Aspose.Words. Esempio semplice passo-passo incluso.
+description: Impara come creare un documento Word con formato di carattere personalizzato in .NET utilizzando Aspose.Words. Esempio semplice passo-passo incluso.
 keywords: [Aspose.Words, .NET, Word document, font formatting, programming example, DocumentBuilder, font properties]
 url: /it/net/working-with-fonts/font-formatting/
 ---
@@ -10,29 +10,29 @@ url: /it/net/working-with-fonts/font-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crea formattazione del carattere in Word utilizzando Aspese.Words
+# Creazione di formattazione di caratteri in Word utilizzando Aspose.Words
 
-Questa guida fornisce un semplice esempio di creazione e formattazione di un documento Word utilizzando Aspose.Words per .NET. Imparerai a personalizzare le proprietà dei font come dimensioni, stile e colore, e poi scrivere testo nel documento. Le istruzioni passo-passo rendono facile sia per i principianti che per gli sviluppatori esperti integrare Aspose.Words nelle loro applicazioni.
+Questa guida fornisce un semplice esempio di creazione e formattazione di un documento Word utilizzando Aspose.Words per .NET. Imparerai a personalizzare le proprietà del carattere come dimensioni, stile e colore, e quindi scrivere testo nel documento. Le istruzioni passo-passo rendono facile sia per i principianti che per gli sviluppatori esperti di incorporare Aspose.Words nelle loro applicazioni.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-fonts/font-formatting" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Istruzioni per l'installazione 
-1. Prerequisiti: Assicurarsi di avere .NET installato sulla vostra macchina.
-2. Installa Aspose.Parole: 
+## Instruzioni di installazione 
+1. Prequisit: assicurarsi di avere installato .NET sulla macchina.
+2. Installare Aspose.Words: 
    * Utilizzare NuGet Package Manager in Visual Studio:
      ```
      Install-Package Aspose.Words
      ```
-   * Oppure scaricare la DLL direttamente dal[Sito web Aspese](https://www.aspose.com).
-3. Applica licenza (opzionale):  
-   Per utilizzare la versione completa,[applicare una licenza](https://purchase.aspose.com/temporary-license/)o usare una[prova gratuita](https://releases.aspose.com/words/net/).  
+   * O scaricare il DLL direttamente dal [Sito Web di destinazione](https://www.aspose.com)\- Non è vero .
+3. Applicare la licenza (opzionale):  
+   Per usare la versione completa,[applicare una licenza](https://purchase.aspose.com/temporary-license/)o utilizzare un [prova gratuita](https://releases.aspose.com/words/net/)\- Non è vero .  
 
-## Vedere anche
-[Aspese.Parola per la documentazione .NET](https://docs.aspose.com/words/net/)
-[Aspese.Parola per riferimenti .NET](https://reference.aspose.com/words/net/)
+## Vedi anche
+[Aspose.Word per Documentazione .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word per i riferimenti .NET](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

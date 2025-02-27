@@ -1,14 +1,14 @@
 //ExStart
-//ExSummary: Silakan periksa kode berikut untuk menemukan bagaimana memasukkan bagan kolom sederhana ke dalam dokumen Word. Anda dapat menyalin kode ini ke IDE dan menjalankannya.
-//ExStepSummary:0: Kode ini menunjukkan bagaimana membuat dokumen Word menggunakan Aspose.Words dan memasukkan bagan kolom ke dalamnya.
-//ExStepSummary:1: Kode ini menunjukkan bagaimana membuat objek pembuatan dokumen untuk memanipulasi konten Word.
-//ExStepSummary:2: Kode ini menunjukkan bagaimana memasukkan bentuk bagan kolom dengan dimensi yang ditentukan ke dalam dokumen.
-//ExStepSummary:3: Kode ini mengambil objek bagan dari bentuk yang dimasukkan untuk penyesuaian lebih lanjut.
-//ExStepSummary:4: Kode ini menunjukkan bagaimana mengakses koleksi seri bagan dan mencetak hitungan seri.
-//ExStepSummary:5: Kode ini membersihkan setiap default seri yang mungkin telah dibuat dengan bagan.
-//ExStepSummary:6: Kode ini menunjukkan bagaimana mendefinisikan nama kategori untuk data bagan.
-//ExStepSummary:7: Kode ini menunjukkan bagaimana menambahkan seri ke bagan dengan nama kategori yang sesuai dan nilai data.
-//ExStepSummary:8: Kode ini menyimpan dokumen dengan bagan yang dimasukkan ke berkas yang dinyatakan.
+//ExSummary: Silakan periksa kode berikut untuk menemukan cara memasukkan grafik kolom sederhana ke dalam dokumen Word. Anda dapat menyalin kode ini ke IDE Anda dan mengeksekusi.
+//ExStepSummary:0: Kode ini menunjukkan cara membuat dokumen Word menggunakan Aspose.Words dan memasukkan grafik kolom ke dalamnya.
+//ExStepSummary:1: Kode ini menunjukkan cara membuat objek pembuat dokumen untuk memanipulasi konten Word.
+//ExStepSummary:2: Kode ini menunjukkan cara memasukkan bentuk grafik kolom dengan dimensi yang ditentukan ke dalam dokumen.
+//ExStepSummary:3: Kode ini mengambil objek grafik dari bentuk yang dimasukkan untuk kustomisasi lebih lanjut.
+//ExStepSummary:4: Kode ini menunjukkan cara mengakses koleksi seri grafik dan mencetak jumlah seri.
+//ExStepSummary:5: Kode ini menghapus semua seri default yang mungkin dibuat dengan grafik.
+//ExStepSummary:6: Kode ini menunjukkan bagaimana mendefinisikan nama kategori untuk data grafik.
+//ExStepSummary:7: Kode ini menunjukkan cara menambahkan seri ke grafik dengan nama kategori dan nilai data yang sesuai.
+//ExStepSummary:8: Kode ini menyimpan dokumen dengan grafik yang dimasukkan ke file tertentu.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
@@ -18,33 +18,33 @@
 Document doc = new Document();
 
 //ExStep:1-
-// Buat sebuah Docuter Builder untuk dengan mudah menyisipkan elemen ke dalam dokumen.
+// Buat DocumentBuilder untuk memasukkan elemen ke dalam dokumen dengan mudah.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:2-
-// Sisipkan suatu bentuk bagan kolom dengan lebar yang dinyatakan (432) dan tinggi (252).
+// Masukan bentuk grafik kolom dengan lebar yang ditentukan (432) dan tinggi (252).
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 
 //ExStep:3-
-// Ambil objek bagan dari bentuk untuk manipulasi lebih lanjut.
+// Dapatkan objek grafik dari bentuk untuk manipulasi lebih lanjut.
 Chart chart = shape.Chart;
 
 //ExStep:4-
-// Akses koleksi seri bagan tersebut.
+// Akses koleksi seri dari grafik.
 ChartSeriesCollection seriesColl = chart.Series;
-// Cetak jumlah seri dalam bagan ke konsol.
+// Cetak nomor seri dalam grafik ke konsol.
 Console.WriteLine(seriesColl.Count);
 
 //ExStep:5-
-// Hapus setiap default seri yang secara otomatis dihasilkan ketika bagan dibuat.
+// Hapus semua seri default yang dihasilkan secara otomatis saat grafik dibuat.
 seriesColl.Clear();
 
 //ExStep:6-
-// Definisikan sebuah array dari nama kategori untuk data bagan.
+// Tentukan array nama kategori untuk data grafik.
 string[] categories = new string[] { "Category 1", "Category 2" };
 
 //ExStep:7-
-// Tambahkan beberapa seri ke bagan dengan nama kategori dan nilai data.
+// Tambahkan beberapa seri ke grafik dengan nama kategori dan nilai data.
 seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
 seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
 seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
@@ -52,6 +52,6 @@ seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
 seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
 
 //ExStep:8-
-// Simpan dokumen dengan bagan yang dimasukkan ke lokasi berkas yang ditentukan.
+// Simpan dokumen dengan grafik yang dimasukkan ke jalur file yang ditentukan.
 doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
 //ExEnd

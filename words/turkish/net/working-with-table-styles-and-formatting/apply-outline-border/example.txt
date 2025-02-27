@@ -1,43 +1,43 @@
 //ExStart
-//ExSummary: Bu kod, Aspose.Words kullanarak bir Word belgesindeki bir tabloya bir anahat sınırının nasıl uygulanacağını gösterir. Tabloyu sayfada merkezler, tablonun etrafında yeşil bir sınır belirler, mevcut sınırları temizler ve tablo hücrelerini açık yeşil arka plan rengiyle doldurur. 
-//ExStepSummary:0: Aşağıdaki kod belgeyi başlatır ve ilk tabloyu alır.
-//ExStepSummary:1: Bu adım, tabloyu sayfanın merkezine hizalar.
+//ExSummaryBu kod, bir Word belgesinde bir tabloya Aspose.Words kullanarak bir çizgi sınırını nasıl uyguladığını gösterir. Sayfadaki tabloyu merkezine yerleştirir, tablo etrafında yeşil bir sınır belirler, mevcut sınırları temizler ve tablo hücrelerini açık yeşil arka plan rengiyle doldurur. 
+//ExStepSummary:0: Aşağıdaki kod belgeyi initialize eder ve ilk tabloyu alır.
+//ExStepSummary:1: Bu adım, tabloyu sayfanın merkezine doğru ayarlar.
 //ExStepSummary:2: Bu adım, mevcut sınırları masadan temizler.
-//ExStepSummary:3: Bu adım, masanın etrafında yeşil bir sınır oluşturur, ancak içeride değil.
-//ExStepSummary:4: Bu adım hücreleri açık yeşil bir katı renkle doldurur.
+//ExStepSummary:3: Bu adım masanın etrafında yeşil bir sınır oluşturur ama içeride değil.
+//ExStepSummary:4: Bu adım hücreleri açık yeşil bir katı renk ile dolduruyor.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// Belgenin dizinini tanımla
+// Belgenin dizinini tanımlayın
 string dataDir = "Your Document Directory";
 // Belgeyi yükle
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// Belgeden ilk tabloyu al
+// Belgeden ilk tabloyu çıkar
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
-// Tabloyu sayfanın ortasına hizala
+// Tabloyu sayfanın merkezine doğru ayarlayın
 table.Alignment = TableAlignment.Center;
 
 //ExStep:2-
-// Mevcut sınırları tablodan temizle
+// Tabloda bulunan sınırları temizle
 table.ClearBorders();
 
 //ExStep:3-
-// Sol sınırı ayarla
+// Sol sınır belirle
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
-// Sağ sınırı ayarla
+// Sağ sınır ayarlayın
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
-// Üst sınırı ayarla
+// Üst sınır belirle
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
-// Alt sınırı ayarla
+// Alt sınır belirlenir
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
 //ExStep:4-
-// Hücreleri açık yeşil renkle doldurun
+// Hücreleri yeşil renklerle doldurun
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
-// Değiştirilen belgeyi kaydet
+// Değiştirilmiş belgeyi kaydet
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
 //ExEnd

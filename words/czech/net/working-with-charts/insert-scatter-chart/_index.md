@@ -1,8 +1,8 @@
 ---
-title: Vytvořit graf Scatter pomocí Aspose.Slova pro .NET
+title: Vytvořte graf rozptylování slov pomocí Aspose.Words pro .NET
 weight: 7700
 limit: 
-description: Naučte se, jak vytvořit dokument Word s grafem Scatter pomocí Aspose.Words pro .NET. Průvodce krok za krokem s kódem a pokyny zahrnuty.
+description: Naučte se vytvářet dokument Word s rozptylovým tabulkou pomocí Aspose.Words pro .NET.
 keywords: [Aspose.Words for .NET, scatter chart, Word scatter chart, create scatter chart, insert chart in Word, .NET Word document, document builder]
 url: /cs/net/working-with-charts/insert-scatter-chart/
 ---
@@ -10,41 +10,41 @@ url: /cs/net/working-with-charts/insert-scatter-chart/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořit graf rozptýlení slov pomocí Aspose.Words
+# Vytvořte graf rozptýlení slov pomocí Aspose.Words
 
-Aspose.Words pro .NET zjednodušuje tvorbu a manipulaci Word dokumentů programově. Tento příklad ukazuje, jak vložit Scatter graf do Word dokumentu. Inicializací dokumentu, pomocí`Stavba dokumentů`pro tvorbu obsahu, a vložení graf dat programově, můžete efektivně přidat profesionální-grade Scatter grafy do dokumentů. Se svým intuitivním API, Aspose.Slova zefektivňuje automatizaci dokumentů pro .NET vývojáři, šetří čas a úsilí.  
+Aspose.Words pro .NET zjednodušuje programatické vytváření a manipulaci s dokumenty Word. Tento příklad ukazuje, jak vložit rozptylový graf do dokumentu Word.`Dokument Builder`Pro vytváření obsahu a programatické vkládání dat grafů můžete efektivně přidat profesionální rozptylové grafy do svých dokumentů. Díky intuitivnímu API Aspose.Words streamlines dokumentační automatizaci pro vývojáře .NET, což šetří čas a úsilí.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-scatter-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Návod k instalaci  
-Proveďte tento příklad, postupujte podle těchto kroků:  
+## Příkazy na instalaci  
+Pro tento příklad postupujte následujícími krokmi:  
 
-1. Stáhnout a nainstalovat Aspose.Words pro .NET  
-   * Stáhněte si knihovnu z oficiálních stránek Aspose:[Aspose.Words for .NET Downloads](https://releases.aspose.com/words/net/).  
-   * Nainstalujte přes NuGet správce balíčků:  
+1. Stáhněte a instalujte Aspose.Words pro .NET  
+   * Stáhněte si knihovnu z oficiálního webu Aspose: [Aspose.Words pro stahování .NET](https://releases.aspose.com/words/net/)\- Ne , ne .  
+   * Instalace prostřednictvím programu NuGet Package Manager:  
      ```bash  
      Install-Package Aspose.Words  
      ```  
 
-2. Nastavte si své vývojové prostředí  
-   * Otevřete svůj .NET IDE (např. Visual Studio).  
-   * Vytvořit novou Console Application nebo integrovat do stávajícího projektu.  
-   * Přidejte odkaz na Aspose.Words pro .NET knihovnu.  
+2. Nastavte prostředí pro rozvoj  
+   * Otevřete svůj IDE .NET (např. Visual Studio).  
+   * Vytvořte novou aplikaci konzole nebo ji integrujte do stávajícího projektu.  
+   * Přidejte odkaz na Aspose.Words pro knihovnu .NET.  
 
-3. Použít licenci  
+3. Žádost o licenci  
    * Pokud máte licenci, použijte ji ve svém projektu pomocí:  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("Your_License_File.lic");  
      ```  
-   * Eventuelně, získejte[bezplatná dočasná licence](https://purchase.aspose.com/temporary-license/)otestovat knihovnu.
+   * Alternativně, získat [bezplatné dočasné povolení](https://purchase.aspose.com/temporary-license/)\- Zkoušet knihovnu.
 
-## Také viz
-[Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Reference](https://reference.aspose.com/words/net/)
+## Viz také
+[Aspose.Word pro .NET dokumentaci](https://docs.aspose.com/words/net/)
+[Aspose.Word pro reference .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

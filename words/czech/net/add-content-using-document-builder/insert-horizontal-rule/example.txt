@@ -1,25 +1,25 @@
 //ExStart
-//ExSummary:Tento kód ukazuje, jak vytvořit Word dokument pomocí Aspose.Slova a přidat horizontální pravidlo k němu. 
-//ExStepSummary:0: Vytvořit nový objekt Dokumentu pro držení obsahu.
-//ExStepSummary:1: Pomocí DocumentBuilder navrhnout rozvržení dokumentu a vložit zprávu.
-//ExStepSummary:2: Vložte do dokumentu vodorovný tvar pravidla.
-//ExStepSummary:3: Uložit dokument na zadanou cestu souboru.
+//ExSummaryTento kód ukazuje, jak vytvořit dokument Word pomocí Aspose.Words a přidat k němu horizontální pravidlo. 
+//ExStepSummary:0: Vytvořte nový objekt Dokument, který bude obsahovat.
+//ExStepSummary:1: Použijte program DocumentBuilder k návrhu rozložení dokumentu a vložíte zprávu.
+//ExStepSummary:2: Vkládejte do dokumentu horizontální tvar pravidla.
+//ExStepSummary:3: Uložte dokument na uvedenou složku.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Vytvořit nový objekt Dokumentu pro držení obsahu
+// Vytvořit nový objekt Dokument pro obsah
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc); 
 
 //ExStep:1-
-// Napište řádek v dokumentu
+// Napíšejte řádek v dokumentu
 builder.Writeln("Insert a horizontal rule shape into the document.");
 
 //ExStep:2-
-// Vložte do dokumentu vodorovný tvar pravidla
+// Vložte do dokumentu tvar horizontálního pravidla
 builder.InsertHorizontalRule();
 
 //ExStep:3-
-// Uložit dokument na zadané místo
+// Uložte dokument na uvedeném místě
 doc.Save("AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
 //ExEnd

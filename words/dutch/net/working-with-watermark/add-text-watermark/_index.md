@@ -1,8 +1,8 @@
 ---
-title: Tekst Watermerk toevoegen in Word-document met behulp van Aspose.Words voor .NET
+title: Voeg tekst watermerk toe in Word-document met behulp van Aspose.Words voor .NET
 weight: 7700
 limit: 
-description: Leer hoe u een tekst watermerk met specifieke opties toevoegt aan een Word- document met behulp van Aspose.Words voor .NET. Volg eenvoudige stappen om uw document aan te passen en op te slaan.
+description: Leer hoe je een tekstwatermerk met specifieke opties toevoegt aan een Word- document met behulp van Aspose.Words voor .NET. Volg eenvoudige stappen om je document aan te passen en te bewaren.
 keywords: [Aspose.Words for .NET, add watermark, text watermark, Word document, watermark customization, .NET example, document processing]
 url: /nl/net/working-with-watermark/add-text-watermark/
 ---
@@ -10,8 +10,8 @@ url: /nl/net/working-with-watermark/add-text-watermark/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tekst Watermerk toevoegen in Word-document met behulp van Aspose.Words
-Het toevoegen van een tekst watermerk aan een Word-document is een eenvoudig proces met behulp van Aspose.Words voor .NET. Deze tutorial laat zien hoe u een aanpasbare tekst watermerk toe te passen op uw document. Met functies zoals lettertype familie, grootte, kleur, lay-out en transparantie controle, kunt u het watermerk aanpassen aan uw exacte behoeften. Of het nu branding, vertrouwelijkheid, of esthetiek, Aspose.Words maakt het eenvoudig om uw documenten te verbeteren met professionele watermerken.  
+# Voeg tekst watermerk toe in Word-document met behulp van Aspose.Words
+Het toevoegen van een tekstwatermerk aan een Word-document is een eenvoudig proces met behulp van Aspose.Words voor .NET. Deze handleiding toont aan hoe u een aanpasbaar tekstwatermerk op uw document toevoegt. Met functies zoals lettertypenfamilie, grootte, kleur, lay-out en transparantiebeheer kunt u het watermerk aanpassen aan uw exacte behoeften. Of het nu gaat om branding, vertrouwelijkheid of esthetiek, Aspose.Words maakt het eenvoudig om uw documenten te verbeteren met professionele watermerken.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-watermark/add-text-watermark" >}}
@@ -20,27 +20,27 @@ Het toevoegen van een tekst watermerk aan een Word-document is een eenvoudig pro
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installatie-instructies  
 1. Download Aspose.Words voor .NET:  
-   Krijg de nieuwste versie van de[Downloads-pagina instellen](https://releases.aspose.com/words/net/).  
+   Haal de nieuwste versie van de [Plaats pagina Downloads](https://releases.aspose.com/words/net/)\- Ik heb het niet gedaan .  
 
-2. Installeren via NuGet:  
-   * Open uw Visual Studio project.  
-   * Navigeer naar de NuGet Package Manager (gereedschappen > NuGet Package Manager > NuGet Packages for Solution beheren).  
-   * Zoek naar "Aspose.Words" en klik op Installeren.  
+2. Installeer via NuGet:  
+   * Open je Visual Studio project.  
+   * Ga naar de NuGet Pakket Manager (Tools > NuGet Pakket Manager > NuGet Pakketbeheer voor Solution).  
+   * Zoek naar "Aspose.Words" en klik op Installeer.  
 
-3. Namespace-referenties toevoegen:  
-   Voeg de volgende namespace aan de bovenkant van uw codebestand toe:  
+3. Voeg Naamruimteverwijzen toe:  
+   Voeg het volgende naamruimte bovenaan uw codebestand toe:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    using System.Drawing;
    ```  
 
-4. Licentie (facultatief) toepassen:  
-   Om de volledige versie te gebruiken,[een licentie toepassen](https://purchase.aspose.com/temporary-license/)of gebruik a[gratis proefversie](https://releases.aspose.com/).  
+4. Verzoek licentie (optioneel):  
+   Om de volledige versie te gebruiken, [een vergunning aanvragen](https://purchase.aspose.com/temporary-license/)of gebruik van een [gratis proefproef](https://releases.aspose.com/)\- Ik heb het niet gedaan .  
 
 ## Zie ook
-[Aspose.Word voor .NET Documentatie](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referenties](https://reference.aspose.com/words/net/)
+[Aspose.Word voor .NET-documentatie](https://docs.aspose.com/words/net/)
+[Aspose.Word voor .NET Referenties](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

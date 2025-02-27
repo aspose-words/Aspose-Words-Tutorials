@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary: このコードは、Asfof.words を使用して、スタイル付きテーブルでワード文書を作成する方法を示すものです。 
-//ExStepSummary:0: 新しい文書と文書ビルダーを初期化します。
-//ExStepSummary:1: 新しい表を起動して、「Name」および「value」にヘッダーセルを挿入します。
-//ExStepSummary:2: 特定の境界とパディングの設定によるテーブルStyle を作成します。
-//ExStepSummary:3: ドキュメントに新しいテーブルスタイルを適用して保存します。
+//ExSummary: このコードはAspose.Wordsを使用してスタイリングテーブルでWordドキュメントを作成する方法を示します. 
+//ExStepSummary:0: 新しいドキュメントとドキュメントビルダーを初期化します.
+//ExStepSummary:1: 新しいテーブルを開き, "名前"と"値"のヘッダーセルを挿入します.
+//ExStepSummary:2: 特定の境界と詰め込み設定を持つカスタマイズされた TableStyle を作成します.
+//ExStepSummary:3: 新しいテーブルスタイルで文書を保存します.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// 新しい文書オブジェクトを作成
+// 新しいドキュメントオブジェクトを作成
 Document doc = new Document();
-// ドキュメント作成プログラムを初期化してドキュメントを作成する
+// ドキュメント作成を初期化する
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 新しい表を開始
+// 新しいテーブルを開く
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Name");
@@ -25,20 +25,20 @@ builder.InsertCell();
 builder.EndTable();
 
 //ExStep:2-
-// 新しいテーブルスタイルを作成
+// 新しいテーブルスタイルを作成する
 TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Borders.LineStyle = LineStyle.Double;
-// 縁取りの幅を設定
+// 境界幅を設定する
 tableStyle.Borders.LineWidth = 1;
-// パディングをセットする
+// 補給を設定する
 tableStyle.LeftPadding = 18;
 tableStyle.RightPadding = 18;
 tableStyle.TopPadding = 12;
 tableStyle.BottomPadding = 12;
-// 作成したテーブルにカスタムテーブルスタイルを適用する
+// 作成されたテーブルにカスタムテーブルスタイルを適用する
 table.Style = tableStyle;
 
 //ExStep:3-
-// スタイル付きテーブルでドキュメントを保存します
+// スタイリングテーブルで文書を保存する
 doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
 //ExEnd

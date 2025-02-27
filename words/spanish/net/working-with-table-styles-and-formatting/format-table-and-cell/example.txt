@@ -1,12 +1,12 @@
 //ExStart
-//ExSummary:Este código muestra cómo crear un documento de Word con una tabla que tiene diferentes estilos de borde y sombreado para sus celdas.
-//ExStepSummary:0: Inicializar el documento y DocumentBuilder para crear un nuevo documento de Word.
-//ExStepSummary:1: Inicie una nueva tabla y establezca los bordes para toda la tabla.
-//ExStepSummary:2: Agregue la primera celda con sombreado de fondo rojo y texto.
-//ExStepSummary:3: Agregue la segunda celda con sombreado de fondo verde y texto.
-//ExStepSummary:4: Finalizar la primera fila y borrar el formato de celda anterior.
-//ExStepSummary:5: Agregue una nueva fila con bordes más grandes personalizados para la primera celda.
-//ExStepSummary:6: Agregue la segunda celda de la nueva fila con formato y texto predeterminados.
+//ExSummary: Este código muestra cómo crear un documento de Word con una tabla que tiene diferentes estilos de borde y sombreado para sus celdas.
+//ExStepSummary:0: Inicia el Documento y DocumentBuilder para crear un nuevo documento de Word.
+//ExStepSummary:1: Comience una nueva mesa y establezca los límites para toda la mesa.
+//ExStepSummary:2: Añadir la primera célula con sombra de fondo rojo y texto.
+//ExStepSummary:3: Añadir la segunda célula con sombra de fondo verde y texto.
+//ExStepSummary:4: Terminar la primera fila y limpiar el formato de la célula anterior.
+//ExStepSummary:5: Añadir una nueva fila con límites personalizados más grandes para la primera célula.
+//ExStepSummary:6: Añadir la segunda célula de la nueva fila con formato predeterminado y texto.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -16,44 +16,44 @@
 //ExStep:0-
 // Crear un nuevo documento.
 Document doc = new Document();
-// Cree un DocumentBuilder para manipular el documento.
+// Crear un DocumentBuilder para manipular el documento.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Inicie una nueva mesa.
+// Empieza una nueva mesa.
 Table table = builder.StartTable();
-// Inserte la primera celda en la tabla.
+// Insertar la primera célula en la mesa.
 builder.InsertCell();
 // Establezca los límites para toda la mesa.
 table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
 
 //ExStep:2-
-// Establezca el color de fondo de la celda en rojo.
+// Establezca el color de fondo de la célula en rojo.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
 builder.Writeln("Cell #1");
-// Inserte la segunda celda.
+// Insertar la segunda celda.
 builder.InsertCell();
 
 //ExStep:3-
-// Establezca el color de fondo de la celda en verde.
+// Configure el color de fondo de la célula en verde.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
 builder.Writeln("Cell #2");
-// Termina la fila actual.
+// Acaba con la fila actual.
 builder.EndRow();
 
 //ExStep:4-
-// Borre cualquier formato de celda para comenzar de nuevo.
+// Elimine cualquier formato de celular para empezar de nuevo.
 builder.CellFormat.ClearFormatting();
-// Inserte una nueva celda en la siguiente fila.
+// Insertar una nueva célula en la siguiente fila.
 builder.InsertCell();
-// Cree bordes más grandes para la primera celda de esta fila.
+// Crear fronteras más grandes para la primera célula de esta fila.
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;
 builder.CellFormat.Borders.Top.LineWidth = 4.0;
 builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
 builder.Writeln("Cell #3");
 //ExStep:5-
-// Inserte la cuarta celda.
+// Insertar la cuarta célula.
 builder.InsertCell();
 builder.CellFormat.ClearFormatting();
 builder.Writeln("Cell #4");

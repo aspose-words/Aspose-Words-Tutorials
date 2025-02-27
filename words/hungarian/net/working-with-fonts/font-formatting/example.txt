@@ -1,34 +1,34 @@
 //ExStart
-//ExSummary:Ez a kód bemutatja, hogyan hozhat létre Word dokumentumot az Aspose.Words használatával, formázva a betűtípus tulajdonságait, mielőtt mintaszöveget írna rá.
-//ExStepSummary:0: A következő kód egy új dokumentumot és egy DocumentBuilder-t inicializál.
-//ExStepSummary:1: A következő kód különböző betűtípus-tulajdonságokat állít be, mint például a méret, a félkövér, a szín, a név és az aláhúzási stílus.
-//ExStepSummary:2: A következő kód egy mintaszöveget ír a dokumentumba a beállított betűkészlet- beállítások segítségével.
-//ExStepSummary:3: A következő kód menti a dokumentumot a megadott könyvtárba egy adott fájlnévvel.
+//ExSummary:Ez a kód bemutatja, hogyan lehet létrehozni egy Word dokumentumot Aspose.Words segítségével, formázva a betű tulajdonságait, mielőtt mintát írni fog a szövegre.
+//ExStepSummary:0: Az alábbi kód egy új Dokumentumot és egy DocumentBuilder-t indít.
+//ExStepSummary:1: A következő kód különböző betű tulajdonságait határozza meg, mint például a méret, a nagy, a szín, a név és a hangsúly stílus.
+//ExStepSummary:2: A következő kód a beállított betű beállításait használva minta szöveget ír a dokumentumra.
+//ExStepSummary:3: A következő kód az adott fájlnevet tartalmazó dokumentumot az adott címlapba tárolja.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Új dokumentumpéldány létrehozása
+// Új dokumentum-eseményt készít
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Hozzáférés a betűtípus tulajdonsághoz a DocumentBuilder segítségével
+// A font tulajdonsághoz hozzáférés a DocumentBuilder segítségével
 Font font = builder.Font;
-// A betűméret beállítása 16
+// A betűméret 16
 font.Size = 16;
-// Legyen a betűtípus félkövér
+// Tömeges fontot
 font.Bold = true;
-// A betűtípus színe kékre vált
+// Átváltoztassa a betűszín színét kékre
 font.Color = Color.Blue;
-// A betűtípus beállítása Arialra
+// Állítsa be a betűt Arial-ra
 font.Name = "Arial";
-// Dashed aláhúzási stílus alkalmazása a betűtípusra
+// A betűre egy darabszintes aláhúzó stílus alkalmazása
 font.Underline = Underline.Dash;
 
 //ExStep:2-
 builder.Write("Sample text.");
 
 //ExStep:3-
-// Mentse a dokumentumot a tárgyak könyvtárába
+// A dokumentumot az artefaktus-könyvbe mentse meg
 doc.Save("WorkingWithFonts.FontFormatting.docx");
 //ExEnd

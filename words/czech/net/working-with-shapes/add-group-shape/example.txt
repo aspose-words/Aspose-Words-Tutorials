@@ -1,50 +1,50 @@
 //ExStart
-//ExSummary: Tento kód ukazuje, jak vytvořit tvar skupiny v dokumentu pomocí Aspose.Words.
-// Vytváří přízvukový tvar a akční tlačítko, přidává je do skupinového tvaru a pak vkládá do dokumentu tvar skupiny, než jej uloží.
-//ExStepSummary:0: Inicializuje nový dokument a zajišťuje splnění minimálních požadavků.
-//ExStepSummary:1: Vytvoří GroupShape, který bude držet jiné tvary.
-//ExStepSummary:2: Do tvaru skupiny přidá přízvukový tvar hraničního volání.
-//ExStepSummary:3: Přidá tvar akčního tlačítka do tvaru skupiny.
+//ExSummaryTento kód ukazuje, jak vytvořit formou skupiny v dokumentu pomocí Aspose.Words.
+// Vytváří akcentní hraniční volání a tlačítko akce, přidá je do skupiny a pak do dokumentu vloží tvar skupiny, než ho uloží.
+//ExStepSummary:0: Zahajuje nový dokument a zajistí splnění minimálních požadavků.
+//ExStepSummary:1: Vytváří GroupShape, který bude mít jiné tvary.
+//ExStepSummary:2: Přidává k skupinovému tvaru akcentní hraniční tvar.
+//ExStepSummary:3: Přidává tvar tlačítka akce k tvaru skupiny.
 //ExStepSummary:4: Nastavuje rozměry a souřadnice pro tvar skupiny.
-//ExStepSummary:5: Vloží do dokumentu tvar skupiny pomocí nástroje DocumentBuilder.
-//ExStepSummary:6: Uloží dokument obsahující tvar skupiny na určené místo.
+//ExStepSummary:5: Vkládá formou skupiny do dokumentu pomocí dokumentu Builder.
+//ExStepSummary:6: Uloží dokument obsahující tvar skupiny na konkrétní místo.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStepImage:5:images/5.png
 //ExStep:0-
-// Vytvořit nový dokument
+// Vytvořte nový dokument
 Document doc = new Document();
-// Zajistit, aby dokument splňoval minimální požadavky
+// Zabezpečení, že dokument splňuje minimální požadavky
 doc.EnsureMinimum();
 
 //ExStep:1-
-// Vytvořit novou instanci GroupShape
+// Vytvořit nový případ GroupShape
 GroupShape groupShape = new GroupShape(doc);
 
 //ExStep:2-
-// Vytvořit přízvuk hraniční callout tvar
+// Vytvořit přízvukový obvod
 Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
 {
     Width = 100, 
     Height = 100
 };
-// Přidat tvar do tvaru skupiny
+// Přidejte tvar do tvaru skupiny
 groupShape.AppendChild(accentBorderShape);
 
 //ExStep:3-
-// Vytvořit tvar akčního tlačítka
+// Vytvořit tvar tlačítka akce
 Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
 {
-	// Nastavte levou pozici tvaru
+	// Nastavte levé polohy tvaru
     Left = 100, 
-	// Nastavit šířku tvaru
+	// Nastavení šířky tvaru
     Width = 100, 
-	// Nastavit výšku tvaru
+	// Nastavená výška tvaru
     Height = 200
 };
-// Přidat akční tlačítko do tvaru skupiny
+// Přidejte tlačítko akce do tvaru skupiny
 groupShape.AppendChild(actionButtonShape);
 
 //ExStep:4-
@@ -52,16 +52,16 @@ groupShape.AppendChild(actionButtonShape);
 groupShape.Width = 200;
 // Nastavte výšku tvaru skupiny
 groupShape.Height = 200;
-// Nastavit velikost souřadnic pro tvar skupiny
+// Nastavte velikost souřadnic pro tvar skupiny
 groupShape.CoordSize = new Size(200, 200);
 
 //ExStep:5-
-// Vytvořit dokumentBuilder pro manipulaci s dokumentem
+// Vytvořte program Dokument Builder pro manipulaci s dokumentem
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Vložit do dokumentu tvar skupiny
+// Vložte formou skupiny do dokumentu
 builder.InsertNode(groupShape);
 
 //ExStep:6-
-// Uložit dokument na určené místo
+// Uložte dokument na konkrétní místo
 doc.Save("WorkingWithShapes.AddGroupShape.docx");
 //ExEnd

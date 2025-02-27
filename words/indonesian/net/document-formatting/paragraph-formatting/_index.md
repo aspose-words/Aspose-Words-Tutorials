@@ -2,7 +2,7 @@
 title: Format Paragraf Menggunakan Aspose.Words untuk .NET
 weight: 7700
 limit: 
-description: Pelajari bagaimana format paragraf dalam dokumen Word dengan Aspose.Words untuk .NET, termasuk penyelarasan, indentasi, dan jarak.
+description: Pelajari cara memformat paragraf dalam dokumen Word dengan Aspose.Words untuk .NET, termasuk penyelarasan, indentasi, dan spasi.
 keywords: [Aspose.Words, .NET, paragraph formatting, Word document, document builder, alignment, indentation, Word API]
 url: /id/net/document-formatting/paragraph-formatting/
 ---
@@ -10,8 +10,8 @@ url: /id/net/document-formatting/paragraph-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Format Paragraf Menggunakan aspose.Words
-Panduan ini memberikan contoh bagaimana format paragraf dalam dokumen Word menggunakan Aspose.Words untuk .NET. Anda akan belajar bagaimana mengatur berbagai pilihan format paragraf seperti penyelarasan, indentasi, dan ruang demi paragraf. Contoh menggambarkan penggunaan dari kelas Dokumen dan Document Builder, yang memungkinkan pembuatan dokumen yang terstruktur dengan baik.
+# Format Paragraf Dengan Menggunakan Aspose.Words
+Panduan ini memberikan contoh cara memformat paragraf dalam dokumen Word menggunakan Aspose.Words untuk .NET. Anda akan belajar cara mengatur berbagai opsi pemformatan paragraf seperti penyelarasan, indentasi, dan ruang setelah paragraf. Contoh ini menggambarkan penggunaan kelas Document dan DocumentBuilder, memungkinkan pembuatan dokumen terstruktur dengan baik secara programatik.
 
 ---
 {{< tutorial-widget sourcePath="words/net/document-formatting/multilevel-list-formatting" >}}
@@ -19,28 +19,28 @@ Panduan ini memberikan contoh bagaimana format paragraf dalam dokumen Word mengg
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instruksi Instalasi
-1. Unduh aspose.Words untuk .NET: Kunjungi[aspose website](https://www.aspose.com/downloads/words/net)untuk mengunduh versi terbaru dari Aspose.Words untuk .NET.
+1. Unduh Aspose.Words untuk .NET: Kunjungi [Aspose situs web](https://www.aspose.com/downloads/words/net)Untuk mengunduh versi terbaru dari Aspose.Words untuk .NET.
 
-2. Tambahkan Referensi: Dalam projek .NET Anda, klik kanan projek di Solusi Explorer, pilih Add > Reference, dan ramban untuk menambahkan berkas Aspos.Words DLL.
+2. Tambahkan Referensi: Dalam proyek .NET Anda, klik kanan pada proyek di Solution Explorer, pilih Tambahkan > Referensi, dan menelusuri untuk menambahkan file DLL Aspose.Words.
 
-3. Menggunakan NuGet Package (Opsional): Alternatif, Anda dapat memasang aspose.Words melalui Manajer Paket NuGet dengan perintah berikut:
+3. Menggunakan NuGet Package (Optional): Sebagai alternatif, Anda dapat menginstal Aspose.Words melalui NuGet Package Manager dengan perintah berikut:
    ```
    Install-Package Aspose.Words
    ```
 
-4. Impor Namespace: Tambahkan berikut menggunakan pernyataan ke berkas kode anda:
+4. Import Namespace: Tambahkan berikut menggunakan statement ke file kode Anda:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
-5. Terapkan Lisensi (Opsional):  
-   Untuk menggunakan versi lengkap,[menerapkan lisensi](https://purchase.aspose.com/temporary-license/)atau gunakan[percobaan bebas](https://releases.aspose.com/words/net/).  
+5. Permohonan Lisensi (Pilih):  
+   Untuk menggunakan versi lengkap, [menerapkan lisensi](https://purchase.aspose.com/temporary-license/)atau menggunakan [uji coba gratis](https://releases.aspose.com/words/net/)Aku tidak tahu.  
 
 
-## Juga Lihat
-[aspose.Word untuk .NET Dokumentasi](https://docs.aspose.com/words/net/)
-[aspose.Word untuk referensi .NET](https://reference.aspose.com/words/net/)
+## Lihat juga
+[Aspose.Word untuk Dokumen .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word untuk Referensi .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

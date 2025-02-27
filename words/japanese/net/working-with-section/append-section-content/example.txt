@@ -1,40 +1,40 @@
 //ExStart
-//ExSummary^ この例は, Asfof.words ^ a b c d e f g h i ^ a b c d e f g h i ^ a b c d e f g h i f g h i ^ a b c d e f g h i f g h i f g h i f g h i ". a b c d e f g h i f g h i ".
-//ExStepSummary:0: 新しい Word ドキュメントとドキュメントビルダーを初期化してコンテンツを追加します。
-//ExStepSummary:1: ドキュメント内で複数のセクションを作成するには、テキストとセクションの区切りを挿入します。
-//ExStepSummary:2: コンテンツの操作に備えるために文書中の第三節にアクセスしてください。
-//ExStepSummary:3: 第1節から第3節までを前項に改める.
-//ExStepSummary:4: 第2節から第3節に内容を追加します。
+//ExSummary: この例では, .NET のAspose.Wordsを使用して Word ドキュメントのセクションからセクションにコンテンツを添加し,プリペンドする方法を示しています.
+//ExStepSummary:0: コンテンツを追加するには,新しい Word ドキュメントと DocumentBuilder を初期化します.
+//ExStepSummary:1: テキストを書き込み,セクションの休憩を挿入してドキュメントに複数のセクションを作成します.
+//ExStepSummary:2: 文書の第3節にアクセスして,コンテンツ操作を準備します.
+//ExStepSummary:3: 第1節から第3節までの内容を予備する.
+//ExStepSummary:4: 第2節から第3節に内容を追加する.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// ドキュメント作成とドキュメント作成の初期化
+// ドキュメントとドキュメントビルダーを初期化する
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 3 つのセクションを作成するには、テキストとセクションの区切りを挿入
+// テキストを書き込み,セクションの休憩を挿入して3つのセクションを作成します
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
-// 第二節に内容を追加
+// 2 節の内容を追加する
 builder.Write("Section 2");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
-// 第3節の内容を追加
+// 第三節の内容を追加する
 builder.Write("Section 3");
 
 //ExStep:2-
-// 文書から第三節を取得
+// 文書から第3節を取得する
 Section section = doc.Sections[2];
 
 //ExStep:3-
-// 第1節から第3節までを前項に改める
+// 第1節から第3節までの内容をプリペンドする
 Section sectionToPrepend = doc.Sections[0];
 section.PrependContent(sectionToPrepend);
 
 //ExStep:4-
-// 第2節から第3節に内容を追加
+// 第2節から第3節への内容を追加する
 Section sectionToAppend = doc.Sections[1];
 section.AppendContent(sectionToAppend);
 //ExEnd

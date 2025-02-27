@@ -1,21 +1,21 @@
 //ExStart
-//ExSummary: Kode berikut menunjukkan bagaimana membuat dan format tabel dalam dokumen Word menggunakan kelas Dokumen Builder dari Aspose.Words.
-//ExStepSummary:0: Inisialisasi Dokumen dan Dokumen Builder baru untuk mulai membangun dokumen Word.
-//ExStepSummary:1: Buat tabel dan masukkan sel untuk pemformatan.
-//ExStepSummary:2: Tata properti pemformatan bagi sel, termasuk padding dan lebar.
-//ExStepSummary:3: Masukkan teks ke dalam sel keterangan.
-//ExStepSummary:4: Akhir baris dan tabel, dan simpan dokumen ke path berkas yang dinyatakan.
+//ExSummary: Kode berikut menunjukkan cara membuat dan memformat tabel dalam dokumen Word menggunakan kelas DocumentBuilder dari Aspose.Words.
+//ExStepSummary:0: Inisialisasikan Dokument baru dan DocumentBuilder untuk mulai membangun dokumen Word.
+//ExStepSummary:1: Buat tabel dan masukkan sel untuk format.
+//ExStepSummary:2: Tentukan sifat format untuk sel, termasuk padding dan lebar.
+//ExStepSummary:3: Masukkan teks ke dalam sel yang diformat.
+//ExStepSummary:4: Usahakan untuk mengakhiri baris dan tabel, dan simpan dokumen ke jalur file yang ditentukan.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
 // Membuat objek Dokumen baru
 Document doc = new Document();
-// Menginisialisasi Dokumen Builder dengan Dokumen Baru
+// Memulai DocumentBuilder dengan Dokument baru
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Mulai membuat tabel
+// Mulailah membuat meja
 builder.StartTable();
 // Masukkan sel pertama ke dalam tabel
 builder.InsertCell();
@@ -23,22 +23,22 @@ builder.InsertCell();
 //ExStep:2-
 // Mengakses properti pemformatan sel
 CellFormat cellFormat = builder.CellFormat;
-// Menata lebar sel
+// Mengaturan lebar sel
 cellFormat.Width = 250;
-// Mengatur padding
+// Set padding
 cellFormat.LeftPadding = 30;
 cellFormat.RightPadding = 30;
 cellFormat.TopPadding = 30;
 cellFormat.BottomPadding = 30;
 
 //ExStep:3-
-// Memasukkan teks ke dalam sel
+// Menanamkan teks ke dalam sel
 builder.Writeln("I'm a wonderful formatted cell.");
 
 //ExStep:4-
-// Akhir baris kini dari tabel
+// Mengakhiri baris tabel saat ini
 builder.EndRow();
-// Mengakhiri pembuatan tabel
+// Mengakhiri penciptaan tabel
 builder.EndTable();
 // Menyimpan dokumen
 doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");

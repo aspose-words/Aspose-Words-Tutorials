@@ -1,16 +1,16 @@
 //ExStart
-//ExSummary: Deze code laat zien hoe je een Word-document maakt en plaatst een afbeelding met een zwevende lay-out met behulp van Aspose.Words.
+//ExSummaryDeze code toont hoe u een Word-document kunt maken en een afbeelding met een drijvende lay-out kunt inslaan met behulp van Aspose.Words.
 //ExStepSummary:0: De volgende code initialiseert een nieuw Document en DocumentBuilder.
-//ExStepSummary:1: De volgende code voegt een afbeelding in het document.
-//ExStepSummary:2: De volgende code slaat het document op naar een bepaalde locatie.
+//ExStepSummary:1: De volgende code voegt een afbeelding in het document in.
+//ExStepSummary:2: De volgende code slaat het document op een bepaalde locatie op.
 //ExStepImage:1:images/1.png
 //ExStep:0-
-// Een nieuwe document-instantie aanmaken
+// Een nieuw documentinstantie maken
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Afbeelding van het opgegeven pad invoegen
+// Beeld van het gespecificeerde pad invoeren
 builder.InsertImage(ImagesDir + "Transparent background logo.png", 
     RelativeHorizontalPosition.Margin,
     100, 

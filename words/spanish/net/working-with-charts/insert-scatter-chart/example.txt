@@ -1,13 +1,13 @@
 //ExStart
-//ExSummary:Este código muestra cómo crear un documento de Word con un gráfico de dispersión usando Aspose.Words. Inicializa un documento, construye contenido, inserta un gráfico de dispersión, agrega datos y guarda el documento.
-//ExStepSummary:0: Inicialización de los objetos Document y DocumentBuilder para comenzar a trabajar en el documento.
-//ExStepSummary:1: Inserción de un gráfico de dispersión en el documento.
-//ExStepSummary:2: Añadir una serie de puntos de datos al gráfico de dispersión.
-//ExStepSummary:3: Guardar el documento con el gráfico de dispersión en un archivo .docx.
+//ExSummaryEste código muestra cómo crear un documento de Word con un gráfico de dispersión utilizando Aspose.Words. Inicializa un documento, crea contenido, inserta un gráfico de dispersión, añade datos y guarda el documento.
+//ExStepSummary:0: Inicialización del documento y objetos de DocumentBuilder para comenzar a trabajar en el documento.
+//ExStepSummary:1: Insertar una tabla de dispersión en el documento.
+//ExStepSummary:2: Añadir una serie de puntos de datos a la tabla de dispersión.
+//ExStepSummary:3: Salvando el documento con la tabla de dispersión en un archivo .docx.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Inicializa un nuevo documento
+// Iniciar un nuevo documento
 Document doc = new Document();
 // Crear un constructor para insertar contenido
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -17,9 +17,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252); 
 
 //ExStep:2-
-// Obtener el objeto gráfico de la forma insertada
+// Obtenga el objeto del gráfico de la forma insertada
 Chart chart = shape.Chart;
-// Añadir datos de series al gráfico
+// Añadir datos de serie al gráfico
 chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 });
 
 //ExStep:3-

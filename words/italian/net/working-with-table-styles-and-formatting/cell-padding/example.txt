@@ -1,16 +1,16 @@
 //ExStart
-//ExSummary: Il seguente codice mostra come creare un documento Word con una cella di tabella formattata che include l'imbottitura intorno al suo contenuto.
-//ExStepSummary:0: Il seguente codice inizializza un nuovo documento e un costruttore di documenti.
-//ExStepSummary:1: Il seguente codice inizia una tabella all'interno del documento.
+//ExSummary: Il seguente codice mostra come creare un documento Word con una cella di tabella formattata che include il riempimento intorno al suo contenuto.
+//ExStepSummary:0: Il codice seguente inizializza un nuovo documento e un costruttore di documenti.
+//ExStepSummary:1: Il seguente codice inizia una tabella nel documento.
 //ExStepSummary:2: Il seguente codice inserisce una cella nella tabella.
-//ExStepSummary:3: Il seguente codice imposta l'imbottitura per il contenuto della cella.
+//ExStepSummary:3: Il seguente codice imposta il rivestimento per il contenuto delle celle.
 //ExStepSummary:4: Il seguente codice aggiunge testo alla cella e termina la riga corrente.
 //ExStepSummary:5: Il seguente codice termina la tabella e salva il documento in un file.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Inizializza un nuovo documento
+// Inizia un nuovo documento
 Document doc = new Document();
 // Crea un costruttore di documenti per manipolare il documento
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -18,21 +18,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 //ExStep:1-
 // Inizia a creare una tabella
 builder.StartTable();
-// Inserisci una nuova cella nella tabella
+// Inserire una nuova cella nella tabella
 builder.InsertCell();
 
 //ExStep:2-
-// Imbottitura con 30 punti sopra e sotto, 50 punti a sinistra e a destra
+// Impostazione di rivestimenti con 30 punti in alto e in basso, 50 punti a sinistra e a destra
 builder.CellFormat.SetPaddings(30, 50, 30, 50);
 
 //ExStep:3-
 builder.Writeln("I'm a wonderful formatted cell.");
-// Termina la riga corrente nella tabella
+// Finire la riga corrente nella tabella
 builder.EndRow();
-// Termina la tabella
+// Finire il tavolo
 builder.EndTable();
 
 //ExStep:4-
-// Salva il documento in un file specificato
+// Salvare il documento in un file specificato
 doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
 //ExEnd

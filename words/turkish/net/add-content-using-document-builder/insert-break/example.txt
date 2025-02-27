@@ -1,10 +1,10 @@
 //ExStart
-//ExSummary: Bu kod, Aspose.Words kullanarak bir Word belgesinin nasıl oluşturulacağını, birden fazla sayfaya içerik eklemeyi ve bir .docx dosyası olarak kaydetmeyi gösterir.
-//ExStepSummary:0: Bu adım, belgeyi manipüle etmek için yeni bir Belge ve bir Belge Oluşturucuyu başlatır.
+//ExSummary: Bu kod, Aspose.Words kullanarak bir Word belgesini nasıl oluşturulacağını, birden fazla sayfada içeriği nasıl ekleneceğini ve .docx dosyası olarak nasıl kaydedileceğini gösterir.
+//ExStepSummary:0: Bu adım, belgeyi manipüle etmek için yeni bir Belge ve bir Belge Oluşturucu'nu başlatır.
 //ExStepSummary:1: Bu adım ilk sayfaya metin ekler.
-//ExStepSummary:2: Bu adım, yeni bir sayfa başlatmak için bir sayfa molası ekler.
+//ExStepSummary:2: Bu adım yeni bir sayfayı başlatmak için bir sayfa molalarını ekler.
 //ExStepSummary:3: Bu adım ikinci sayfaya metin ekler.
-//ExStepSummary:4: Bu adım, yeni bir sayfa için başka bir sayfa molası ekler.
+//ExStepSummary:4: Bu adım yeni bir sayfaya başka bir sayfa molalarını ekler.
 //ExStepSummary:5: Bu adım üçüncü sayfaya metin ekler.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
@@ -13,31 +13,31 @@
 //ExStepImage:5:images/5.png
 
 //ExStep:0-
-// Yeni bir Belge örneği oluştur
+// Yeni Belge örneği oluştur
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// İlk sayfa için metin ekle
+// İlk sayfaya metin ekle
 builder.Writeln("This is page 1.");
 
 //ExStep:2-
-// Yeni bir sayfa başlatmak için bir sayfa molası ekleyin
+// Yeni bir sayfa başlatmak için bir sayfa mola ekle
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:3-
-// İkinci sayfa için metin ekle
+// İkinci sayfaya metin ekle
 builder.Writeln("This is page 2.");
 
 //ExStep:4-
-// Yeni bir sayfa için başka bir sayfa molası ekle
+// Yeni bir sayfa için başka bir sayfa mola ekle
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:5-
-// Üçüncü sayfa için metin ekle
+// Üçüncü sayfaya metin ekle
 builder.Writeln("This is page 3.");
 
 //ExStep:6-
-// Belgeyi belirtilen yola kaydet
+// Belgeyi belirtilen yolda kaydet
 doc.Save("AddContentUsingDocumentBuilder.InsertBreak.docx");
 //ExEnd

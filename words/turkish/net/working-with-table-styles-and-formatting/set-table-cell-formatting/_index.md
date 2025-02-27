@@ -1,8 +1,8 @@
 ---
-title: Word Belgesinde Bir Tablo Oluşturun ve Biçimlendirin Aspose.Words
+title: Word Belgesinde Aspose.Words ile bir tablo oluşturun ve biçimlendirin
 weight: 7700
 limit: 
-description: Aspose.Words DocumentBuilder sınıfını kullanarak bir Word belgesinde bir tablonun nasıl oluşturulacağını ve biçimlendirileceğini öğrenin. Adım adım talimatlar ve örnek kod içerir.
+description: Word belgesinde bir tablo oluşturmayı ve biçimlendirmeyi öğrenin. Aspose.Words DocumentBuilder sınıfını kullanarak.
 keywords: [Aspose.Words for .NET, create table in Word, format table cell, DocumentBuilder example, Word automation .NET, table formatting, Aspose.Words tutorial, .NET library for Word]
 url: /tr/net/working-with-table-styles-and-formatting/set-table-cell-formatting/
 ---
@@ -10,49 +10,49 @@ url: /tr/net/working-with-table-styles-and-formatting/set-table-cell-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word Belgesinde Bir Tablo Oluşturun ve Biçimlendirin Aspose.Words
+# Word Belgesinde Aspose.Words ile bir tablo oluşturun ve biçimlendirin
 
-Aspose.Words for .NET, Word belge manipülasyonunu basitleştirir, tabloları oluşturma ve biçimlendirme gibi görevleri basitleştirir. Güçlüyü kullanmak`DocumentBuilder`sınıf, geliştiriciler kolayca tablolar oluşturabilir, hücre biçimlendirmesini ayarlayabilir ve içeriği programatik olarak ekleyebilir. Bu öğretici, bir tablonun nasıl oluşturulacağını adım adım gösterir, doldurma ve genişlik gibi hücre özelliklerini ayarlar ve hücrelere metin ekler. Raporları otomatikleştirseniz veya belge üretseniz de, bu kılavuz Aspose.Words'un Word tablo biçimlendirmesi için tam potansiyelinin kilidini açmanıza yardımcı olur. Bugün Word otomasyon projelerinize dalın ve geliştirin!
+.NET için Aspose.Words Word belgeleri manipülasyonunu basitleştirir.`DocumentBuilder`Bu eğitim, bir tablo oluşturmanın, dolgu ve genişlik gibi hücre özelliklerini belirlemenin ve hücrelere metin eklemenin nasıl yapılacağını adım adım gösterir. Raporları otomatikleştirirseniz veya belgeleri oluşturursunuzsa, bu rehber Word tablo biçimlendirme için Aspose.Words tüm potansiyelini açmanıza yardımcı olur. Word otomasyon projelerinizi bugün dalın ve geliştirin!
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/set-table-cell-formatting" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum Talimatları  
-Projenizde .NET için Aspose.Words'u yüklemek ve kullanmak için şu adımları izleyin:  
+## Kurulum talimatları  
+Projeinizde .NET için Aspose.Words i yüklemek ve kullanmak için bu adımları takip edin:  
 
-1. Aspose.Words İndir:  
-   Ziyaret edin[.NET indirme sayfası için Aspose.Words](https://releases.aspose.com/words/net/)ve kütüphanenin en son sürümünü indirin.  
+1. Aspose.Words indir:  
+   Ziyaret edin .[.NET indirme sayfası için Aspose.Words](https://releases.aspose.com/words/net/)Ve kütüphanenin en son versiyonunu indir.  
 
-2. NuGet üzerinden yükleyin:  
-   Visual Studio'da .NET projenizi açın, NuGet Paket Yöneticisi'ne gidin (Araçlar > NuGet Paket Yöneticisi > Çözüm için NuGet Paketlerini Yönetin), "Aspose.Words" için arama yapın ve paketi yükleyin.  
+2. NuGet üzerinden yükle:  
+   Visual Studio'da .NET projenizi açın, NuGet Paket Yöneticisine gidin (Açıntılar > NuGet Paket Yöneticisi > Çözüm için NuGet Paketleri Yönetin), "Aspose.Words arayın ve paketi yükleyin.  
 
-   Alternatif olarak, Paket Yöneticisi Konsolunda aşağıdaki komutu çalıştırın:  
+   Alternatif olarak, Paket Yöneticisi Konsolu'nda aşağıdaki komutu çalıştırın:  
    ```shell
    Install-Package Aspose.Words
    ```  
 
-3. Lisansı Uygula (İsteğe Bağlı):  
-   Değerlendirme sınırlamalarını kaldırmak için bir lisans uygulayın. Lisans satın al[İşte.](https://purchase.aspose.com/buy)ya da a[geçici lisans](https://purchase.aspose.com/temporary-license/). Daha sonra, lisansı uygulamak için aşağıdaki kodu kullanın:  
+3. Lisansı başvurun (Önemli):  
+   Değerlendirme sınırlarını kaldırmak için lisans uygulayın.[\- Evet.](https://purchase.aspose.com/buy)veya bir tane al .[Geçici lisans](https://purchase.aspose.com/temporary-license/)Sonra lisansı uygulamak için aşağıdaki kod kullanın:  
    ```csharp
    License license = new License();
    license.SetLicense("Aspose.Words.lic");
    ```  
 
-4. Referans Ekle:  
-   Emin olun`Aspose.Words`namespace projenize aşağıdakilerle aktarılır:  
+4. İpuçları Ekle:  
+   `"Sözler. Sözler"`isim alanı projenize:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    ```  
 
-4. Lisans Uygula (İsteğe Bağlı):  
-   Tam versiyonu kullanmak için,[bir lisans uygulamak](https://purchase.aspose.com/temporary-license/)ya da kullanmak a[ücretsiz deneme](https://releases.aspose.com/words/net/).
+4. İzn Verme Lisansı (Önemli):  
+   Tam versiyonu kullanmak için,[lisans uygulamak](https://purchase.aspose.com/temporary-license/)veya bir [ücretsiz deneme](https://releases.aspose.com/words/net/)\- Evet .
    
-## Ayrıca Bakınız
-[.NET Dokümantasyonu için Aspose.Word](https://docs.aspose.com/words/net/)
-[.NET Referansları için Aspose.Word](https://reference.aspose.com/words/net/) 
+## Ayrıca bakın
+[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/) 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

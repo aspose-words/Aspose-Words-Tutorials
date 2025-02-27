@@ -1,8 +1,8 @@
 ---
-title: Word Belge Başlığına Resim Ekle Aspose.Words for .NET
+title: Word Doküman Başlığı'na Bir Resim Ekle. .NET için Aspose.Words
 weight: 7700
 limit: 
-description: .NET için Aspose.Words kullanarak bir Word belgesinin başlığına bir resmin nasıl yerleştirileceğini öğrenin. Örnek kod ve kurulum talimatları ile adım adım kılavuz.
+description: .NET için Aspose.Words kullanarak Word belgesinin başlığına bir resim eklemeyi öğrenin. Örnek kod ve kurulum talimatları ile adım adım rehber.
 keywords: [Aspose.Words for .NET, insert image in header, Word document, .NET library, Word automation, header customization, document processing, C# example]
 url: /tr/net/working-with-headers-and-footers/insert-image/
 ---
@@ -10,43 +10,43 @@ url: /tr/net/working-with-headers-and-footers/insert-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word Belge Başlığına Resim Ekle
+# Word Belge Başlığı'na Bir Resim Ekle
 
-Aspose.Words for .NET, geliştiricilerin başlıkların içine resim ekleme gibi görevleri otomatikleştirmesini sağlayarak Word belge işlemesini basitleştirir. Bu öğretici, Belge ve Belge Oluşturucu sınıflarının, bir Word belgesinin birincil başlığına hassas hizalama, boyutlar ve sarma seçenekleri içeren bir görüntü eklemek için nasıl kullanılacağını gösterir. Süreç basittir, belge şablonlarını dinamik olarak geliştirmeyi amaçlayan geliştiriciler için idealdir. Ayrıntılı adımlar ve örnek koduyla, bu işlevselliği kolayca uygulamalarınıza entegre edebileceksiniz.  
+.NET için Aspose.Words , geliştiricilerin başlıklara görüntüler ekleme gibi görevleri otomatikleştirmelerini sağlayarak Word belge işlemeyi basitleştirir. Bu öğretim kitabı, bir Word belgesinin ana başlığına doğru bir ayarlama, boyut ve sarma seçenekleri ile bir görüntü eklemek için Document ve DocumentBuilder sınıflarını nasıl kullanacağınızı gösterir. Bu süreç basit, bu nedenle belge şablonlarını dinamik olarak geliştirmeyi amaçlayan geliştiriciler için idealdir. Detaylı adımlar ve örnek kodu ile, bu işlevselliği .NET uygulamalarınızda çabadan olmadan entegre edebilirsiniz.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-headers-and-footers/insert-image" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum Talimatları  
+## Kurulum talimatları  
 
-Aspose.Words for .NET ile başlamak için şu basit adımları izleyin:  
+.NET için Aspose.Words ile başlamak için, bu basit adımları izleyin:  
 
-1. Aspose.Words İndir  
-   * [En son sürümü indirin](https://releases.aspose.com/words/net/)Aspose.Words for .NET (İngilizce).  
+1. Aspose.Words indir  
+   * [En son sürümü indir](https://releases.aspose.com/words/net/).NET için Aspose.Words  
 
-2. Aspose.Words'u NuGet üzerinden yükleyin  
-   * Projenizi Visual Studio'da açın.  
-   * Araçlar menüsüne gidin ve NuGet Paket Yöneticisi'ni seçin> Çözüm için NuGet Paketlerini Yönetin.  
-   * Ara`Aspose.Words`NuGet paket yöneticisinde ve yükleyin.  
+2. NuGet üzerinden Aspose.Words yükle  
+   * Projeyi Visual Studio'da aç.  
+   * Araçlar menüsüne gidin ve NuGet Paket Yöneticisi > Çözüm için NuGet Paketleri Yönetin seçin.  
+   * Arama`"Sözler. Sözler"`NuGet paket yöneticisine girerek yükleyin.  
 
-   Veya Paket Yöneticisi Konsolunu kullanın:  
+   Ya da Paket Yöneticisi Konsolu kullanın:  
    ```shell
    Install-Package Aspose.Words
    ```  
 
-3. Lisansı Uygula  
-   * Bir tane al.[ücretsiz deneme lisansı](https://releases.aspose.com/)veya[lisans satın almak](https://purchase.aspose.com/buy).  
-   * Projenizdeki lisansı uygulamak için aşağıdaki kodu kullanın:  
+3. Lisansı Başvurun  
+   * Bir tane al .[Ücretsiz deneme lisansı](https://releases.aspose.com/)veya [lisans satın almak](https://purchase.aspose.com/buy)\- Evet .  
+   * Projeinizde lisans uygulamak için aşağıdaki kodu kullanın:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```  
 
-## Ayrıca Bakınız
-[.NET Dokümantasyonu için Aspose.Word](https://docs.aspose.com/words/net/)
-[.NET Referansları için Aspose.Word](https://reference.aspose.com/words/net/)
+## Ayrıca bakın
+[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

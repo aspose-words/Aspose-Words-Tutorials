@@ -1,16 +1,16 @@
 //ExStart
-//ExSummary: Bu kod, bir Word belgesinin nasıl oluşturulacağını ve Aspose.Words kullanarak yüzen bir düzenle bir görüntünün nasıl yerleştirileceğini gösterir.
-//ExStepSummary:0: Aşağıdaki kod yeni bir Document ve DocumentBuilder'ı başlatır.
-//ExStepSummary:1: Aşağıdaki kod belgeye bir resim ekler.
-//ExStepSummary:2: Aşağıdaki kod belgeyi belirli bir konuma kaydeder.
+//ExSummary: Bu kod bir Word belgesini nasıl oluşturulacağını ve Aspose.Words kullanarak yüzen bir düzenle bir görüntü ekleyeceğini gösterir.
+//ExStepSummary:0: Aşağıdaki kod yeni bir Belge ve Belge Oluşturucu'nu başlatır.
+//ExStepSummary:1: Aşağıdaki kod bir görüntüyi belgeye ekler.
+//ExStepSummary:2: Aşağıdaki kod belgeyi belirli bir yere kaydetir.
 //ExStepImage:1:images/1.png
 //ExStep:0-
-// Yeni bir Belge örneği oluştur
+// Yeni Belge örneği oluştur
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Belirtilen yoldan resim ekle
+// Belirtilen yoldan görüntü ekle
 builder.InsertImage(ImagesDir + "Transparent background logo.png", 
     RelativeHorizontalPosition.Margin,
     100, 
@@ -21,6 +21,6 @@ builder.InsertImage(ImagesDir + "Transparent background logo.png",
     WrapType.Square); 
 
 //ExStep:2-
-// Belgeyi belirtilen dosyaya kaydet
+// Belgeyi belirtilen dosyayaya kaydet
 doc.Save("AddContentUsingDocumentBuilder.InsertFloatingImage.docx");
 //ExEnd

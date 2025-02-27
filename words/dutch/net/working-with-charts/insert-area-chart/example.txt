@@ -1,42 +1,42 @@
 //ExStart
-//ExSummary: Deze code laat zien hoe je een gebiedsgrafiek in een Word-document invoegt met behulp van Aspose.Words.
-//ExStepSummary:0: De volgende code initialiseert een nieuw document en een documentbuilder.
-//ExStepSummary:1: De volgende code plaatst een gebiedskaart in het document.
-//ExStepSummary:2: De volgende code voegt een serie toe aan de grafiek met gespecificeerde datapunten.
-//ExStepSummary:3: De volgende code slaat het document op met de ingevoegde gebiedskaart.
+//ExSummaryDeze code toont hoe een gebiedshart in een Word-document te plaatsen met behulp van Aspose.Words.
+//ExStepSummary:0: De volgende code initialiseert een nieuw document en een documentbouwer.
+//ExStepSummary:1: De volgende code voegt een gebiedskaart in het document in.
+//ExStepSummary:2: De volgende code voegt een reeks aan de grafiek toe met gespecificeerde gegevenspunten.
+//ExStepSummary:3: De volgende code slaat het document met de ingebouwde oppervlaktelijst op.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Een nieuw document aanmaken
+// Een nieuw document maken
 Document doc = new Document();
-// Initialiseer de documentbuilder
+// Initieel de documentbouwer
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Een gebiedskaart met gespecificeerde afmetingen invoegen
+// Voeg een oppervlaktegrafiek met gespecificeerde afmetingen in
 Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
 
 //ExStep:2-
 // Toegang tot het grafiekobject
 Chart chart = shape.Chart;
-// Voeg een nieuwe serie toe aan de grafiek
+// Voeg een nieuwe reeks toe aan de grafiek
 chart.Series.Add("Aspose Series 1", new [] 
 {
 	// Gegevenspunt 1
     new DateTime(2002, 05, 01),
 	// Gegevenspunt 2
     new DateTime(2002, 06, 01),
-	// Gegevenspunt 3
+	// Gegevens punt 3
     new DateTime(2002, 07, 01),
-	// Gegevenspunt 4
+	// Gegevens punt 4
     new DateTime(2002, 08, 01),
 	// Gegevenspunt 5
     new DateTime(2002, 09, 01)
 }, 
-// Overeenkomstige waarden voor de gegevenspunten
+// De gegevenspunten worden gecorrigeerd met de volgende waarden:
 new double[] { 32, 32, 28, 12, 15 });
 
 //ExStep:3-
-// Het document opslaan met de ingevoegde grafiek
+// Het document opslaan met het ingevoegde schema
 doc.Save("WorkingWithCharts.InsertAreaChart.docx");
 //ExEnd

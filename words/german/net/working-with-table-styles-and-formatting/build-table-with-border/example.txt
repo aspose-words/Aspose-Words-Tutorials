@@ -1,28 +1,28 @@
 //ExStart
-//ExSummary: Dieser Code zeigt, wie man Tabellen in einem Word-Dokument mit Aspose.Words manipulieren kann. Er ruft ein vorhandenes Dokument ab, ändert die Grenzen der ersten Tabelle und speichert die Änderungen in einer neuen Datei.
-//ExStepSummary:0: Der folgende Code stellt das Dokument auf und holt die erste Tabelle daraus ab.
-//ExStepSummary:1: Der folgende Code löscht alle vorhandenen Grenzen aus der Tabelle, um sich auf eine neue Formatierung vorzubereiten.
-//ExStepSummary:2: Der folgende Code bezieht sich auf eine grüne Grenze um und innerhalb der Tabelle.
+//ExSummaryDieser Code zeigt, wie man Tabellen in einem Word-Dokument mit Aspose.Words manipuliert. Er holt ein vorhandenes Dokument ab, ändert die Grenzen der ersten Tabelle und speichert die Änderungen in eine neue Datei.
+//ExStepSummary:0: Der folgende Code stellt das Dokument zusammen und erhält die erste Tabelle daraus.
+//ExStepSummary:1: Der folgende Code löscht alle bestehenden Grenzen aus der Tabelle, um sich auf eine neue Formatierung vorzubereiten.
+//ExStepSummary:2: Der folgende Code gilt für eine grüne Grenze um und innerhalb des Tisches.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Definieren Sie das Verzeichnis für das Dokument
+// Definition des Verzeichnisses für das Dokument
 string dataDir = "Your Document Directory";
-// Dokument laden
+// Lade das Dokument
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// Holen Sie sich die erste Tabelle aus dem Dokument
+// Holen Sie den ersten Tisch aus dem Dokument
 Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 
 //ExStep:2-
-// Alle vorhandenen Grenzen aus der Tabelle entfernen
+// Alle bestehenden Grenzen von der Tabelle zu löschen
 table.ClearBorders();
 
 //ExStep:3-
-// Setzen Sie eine grüne Grenze um und innerhalb des Tisches
+// Setzen Sie eine grüne Grenze um und in den Tisch
 table.SetBorders(LineStyle.Single, 1.5, Color.Green);
-// Das Dokument mit Änderungen speichern
+// Speichern Sie das Dokument mit Änderungen
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");
 //ExEnd

@@ -1,8 +1,8 @@
 ---
-title: Word dokumentum létrehozása lebegő képpel a .NET-ben
+title: Word dokumentumot készítsek lebegő képekkel .NET-ben
 weight: 7700
 limit: 
-description: Megtanulják, hogyan kell használni Aspose.Words for .NET létrehozni egy Word dokumentumot, és helyezzen be egy lebegő képet.
+description: Tanuljon meg, hogyan használhatja az Aspose.Words .NET-t a Word dokumentum létrehozásához és egy lebegő kép beillesztéséhez.
 keywords: [Aspose.Words, .NET, Word document, insert image, floating layout, DocumentBuilder, C# example]
 url: /hu/net/add-content-using-document-builder/insert-floating-image/
 ---
@@ -10,30 +10,30 @@ url: /hu/net/add-content-using-document-builder/insert-floating-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word dokumentum létrehozása lebegő képpel
+# Word dokumentum létrehozása a lebegő képekkel
 
-Ez a példa bemutatja, hogyan lehet Word dokumentumot létrehozni az Aspose.Words for .NET programmal, és beilleszteni egy képet lebegő elrendezéssel. A megadott kód inicializálja a dokumentumot és a DocumentBuildert, beilleszt egy képet a megadott méretekkel és pozicionálással, és végül elmenti a dokumentumot. Ez az útmutató ideális azoknak a fejlesztőknek, akik az Aspose.Words használatával szeretnék javítani a dokumentumgenerálási képességeiket.
+Ez a példa bemutatja, hogyan lehet létrehozni egy Word dokumentumot a .NET-hez Aspose.Words használatával, és behelyezni egy átszállító beépítéssel rendelkező képet. A megadott kód kezdeményezi a Document és a DocumentBuilder-t, behelyezi egy meghatározott dimenziókkal és pozícióval rendelkező képet, és végül megőrzi a dokumentumot. Ez az útmutató ideális a fejlesztők számára, akik a Aspose.Words használatával szeretnék növelni a dokumentumgyártási képességüket.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-floating-image" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Telepítési útmutató
-1. Aspose.Words telepítése: Adja hozzá az Aspose.Words NuGet csomagot a .NET projekthez. Ezt a következő parancs futtatásával teheti meg a Package Manager Console-ban:
+## A telepítési utasítások
+1. Aspose.Words telepítés: Adja hozzá a Aspose.Words NuGet csomagot a .NET projekthez. Ezt a csomagkezelő konzoltól a következő parancsot futtatva teheted:
    ```
    Install-Package Aspose.Words
    ```
 
-2. Adja hozzá a szükséges névtereket: Győződjön meg róla, hogy a kódfájl a következő névtereket tartalmazza:
+2. Adjon meg a szükséges névhelyeket: A kódfájl tartalmazza a következő névhelyeket:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
-## Lásd még
-[Aspose.Word for .NET dokumentáció](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referenciák](https://reference.aspose.com/words/net/)
+## Lásd:
+[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

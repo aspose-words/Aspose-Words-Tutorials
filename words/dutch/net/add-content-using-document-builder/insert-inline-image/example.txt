@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary:Deze code laat zien hoe je een inline-afbeelding in een Word-document invoegt met behulp van Aspose.Words.
-//ExStepSummary:0: Initialisatie van het documentobject en DocumentBuilder voor het maken van het document.
-//ExStepSummary:1: Het invoegen van een afbeelding in het document op de huidige cursorpositie met DocumentBuilder.
-//ExStepSummary:2: Het document opslaan naar een opgegeven bestandsnaam.
+//ExSummaryDeze code toont hoe een inline afbeelding in een Word document te plaatsen met behulp van Aspose.Words.
+//ExStepSummary:0: Initiaal van het Document object en DocumentBuilder voor het bouwen van het document.
+//ExStepSummary:1: Invoeging van een afbeelding in het document in de huidige cursorpositie met DocumentBuilder.
+//ExStepSummary:2: Het document opslaan naar een bepaalde bestandsnaam.
 //ExStepImage:1:images/1.png
 //ExStep:0-
-// Initialiseer een nieuw document en documentbouwer
+// Een nieuw document en documentbuilder initieel maken
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// De afbeelding invoegen met DocumentBuilder
+// Voeg het beeld in met behulp van DocumentBuilder
 builder.InsertImage(ImagesDir + "Transparent background logo.png");
 
 //ExStep:2-
-// Het gewijzigde document opslaan in een bestand
+// Het gewijzigde document op een bestand slaan
 doc.Save("AddContentUsingDocumentBuilder.InsertInlineImage.docx");
 //ExEnd

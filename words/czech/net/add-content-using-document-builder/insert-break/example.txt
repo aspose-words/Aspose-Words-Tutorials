@@ -1,10 +1,10 @@
 //ExStart
-//ExSummary: Tento kód ukazuje, jak vytvořit Word dokument pomocí Aspose.Words, přidat obsah přes více stránek, a uložit jej jako .docx soubor.
-//ExStepSummary:0: Tento krok inicializuje nový dokument a dokumentBuilder pro manipulaci s dokumentem.
+//ExSummaryTento kód ukazuje, jak vytvořit dokument Word pomocí Aspose.Words, přidat obsah na více stránkách a ukládat ho jako soubor .docx.
+//ExStepSummary:0: Tento krok iniciuje nový dokument a dokumentový stavitel pro manipulaci s dokumentem.
 //ExStepSummary:1: Tento krok přidává text na první stránku.
-//ExStepSummary:2: Tento krok vloží pauzu stránky pro spuštění nové stránky.
+//ExStepSummary:2: Tento krok vloží přestávku stránky k zahájení nové stránky.
 //ExStepSummary:3: Tento krok přidává text na druhou stránku.
-//ExStepSummary:4: Tento krok vloží další pauzu na novou stránku.
+//ExStepSummary:4: Tento krok vloží další přestávku stránky pro novou stránku.
 //ExStepSummary:5: Tento krok přidává text na třetí stránku.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
@@ -13,31 +13,31 @@
 //ExStepImage:5:images/5.png
 
 //ExStep:0-
-// Vytvořit novou instanci dokumentu
+// Vytvořit nový příklad dokumentu
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Přidat text pro první stránku
+// Přidejte text na první stránku
 builder.Writeln("This is page 1.");
 
 //ExStep:2-
-// Vložit pauzu stránky pro spuštění nové stránky
+// Vkládání přestávky na stránce k zahájení nové stránky
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:3-
-// Přidat text pro druhou stránku
+// Přidejte text na druhou stránku
 builder.Writeln("This is page 2.");
 
 //ExStep:4-
-// Vložit další pauzu na novou stránku
+// Vkládání další přestávky na nové stránky
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:5-
-// Přidat text pro třetí stránku
+// Přidejte text na třetí stránku
 builder.Writeln("This is page 3.");
 
 //ExStep:6-
-// Uložit dokument na zadanou cestu
+// Uložte dokument na uvedenou cestu
 doc.Save("AddContentUsingDocumentBuilder.InsertBreak.docx");
 //ExEnd

@@ -1,22 +1,22 @@
 //ExStart
-//ExSummary: Bu kod, Aspose.Words kullanarak bir belge içinde bir grup şeklinin nasıl oluşturulacağını gösterir.
-// Aksanlı bir sınır çağrı şekli ve bir eylem düğmesi oluşturur, bunları bir grup şekline ekler ve daha sonra kaydetmeden önce grup şeklini belgeye ekler.
-//ExStepSummary:0: Yeni bir Belgeyi başlatır ve minimum gereksinimlerin karşılanmasını sağlar.
-//ExStepSummary:1: Başka şekillere sahip olacak bir GroupShape oluşturur.
-//ExStepSummary:2: Grup şekline aksanlı sınır çağrı şekli ekler.
+//ExSummary: Bu kod, Aspose.Words kullanarak bir belge içinde grup şeklini nasıl oluşturulacağını gösterir.
+// Aksan sınır çağrı şekli ve bir eylem düğmesi oluşturur, onları bir grup şekli içine ekler ve sonra grup şeklini belgeye kaydetmeden önce ekler.
+//ExStepSummary:0: Yeni bir belgeyi başlatır ve minimum gerekliliklerin yerine getirilmesini sağlar.
+//ExStepSummary:1: Diğer şekilleri tutacak bir GroupShape oluşturur.
+//ExStepSummary:2: Grup şekline bir aksan sınır çığlık şekli ekler.
 //ExStepSummary:3: Grup şekline bir eylem düğmesi şekli ekler.
-//ExStepSummary:4: Grup şeklinin boyutlarını ve koordinatlarını ayarlar.
+//ExStepSummary:4: Grup şekli için boyutları ve koordinatları belirler.
 //ExStepSummary:5: Bir DocumentBuilder kullanarak grup şeklini belgeye ekler.
-//ExStepSummary:6: Grup şeklini içeren belgeyi belirli bir konuma kaydeder.
+//ExStepSummary:6: Grup şeklini içeren belgeyi belirtilen bir yere kaydeder.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStepImage:5:images/5.png
 //ExStep:0-
-// Yeni bir Belge Oluştur
+// Yeni Belge Oluştur
 Document doc = new Document();
-// Belgenin minimum gereksinimleri karşıladığından emin olun
+// Belge'nin en az gerekliliklere uygun olmasını sağlamak
 doc.EnsureMinimum();
 
 //ExStep:1-
@@ -24,44 +24,44 @@ doc.EnsureMinimum();
 GroupShape groupShape = new GroupShape(doc);
 
 //ExStep:2-
-// Aksanlı sınır çağrı şekli oluştur
+// Aksan sınırı çığlık şekli oluştur
 Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
 {
     Width = 100, 
     Height = 100
 };
-// Şekilleri grup şekline ekle
+// Grup şekline şekli ekle
 groupShape.AppendChild(accentBorderShape);
 
 //ExStep:3-
-// Bir eylem düğmesi şekli oluştur
+// Eylem düğmesi şeklini oluştur
 Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
 {
-	// Şeklin sol konumunu ayarlayın
+	// Şekilin sol pozisyonunu ayarlayın
     Left = 100, 
-	// Şeklin genişliğini ayarla
+	// Şekilin genişliği
     Width = 100, 
-	// Şeklin yüksekliğini ayarla
+	// Şekilin yüksekliği ayarlandı
     Height = 200
 };
-// Eylem düğmesini grup şekline ekle
+// Grup şekline eylem düğmesini ekle
 groupShape.AppendChild(actionButtonShape);
 
 //ExStep:4-
-// Grup şeklinin genişliğini ayarla
+// Grup şeklinin genişliğini ayarlayın
 groupShape.Width = 200;
-// Grup şeklinin yüksekliğini ayarla
+// Grup şeklinin yüksekliğini ayarlayın
 groupShape.Height = 200;
-// Grup şekli için koordinat boyutunu ayarla
+// Grup şekli için koordinat boyutunu ayarlayın
 groupShape.CoordSize = new Size(200, 200);
 
 //ExStep:5-
-// Belgeyi manipüle etmek için bir DocumentBuilder oluşturun
+// Belgeyi manipüle etmek için bir DocumentBuilder oluştur
 DocumentBuilder builder = new DocumentBuilder(doc);
 // Grup şeklini belgeye ekle
 builder.InsertNode(groupShape);
 
 //ExStep:6-
-// Belgeyi belirtilen bir konuma kaydet
+// Belgeyi belirtilen bir yere kaydet
 doc.Save("WorkingWithShapes.AddGroupShape.docx");
 //ExEnd

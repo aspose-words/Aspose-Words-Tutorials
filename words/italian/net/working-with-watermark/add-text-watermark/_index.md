@@ -1,8 +1,8 @@
 ---
-title: Aggiungi filigrana di testo nel documento di Word utilizzando Aspese.Words per .NET
+title: Aggiungere il segnale d'acqua di testo nel documento Word Utilizzando Aspose.Words per .NET
 weight: 7700
 limit: 
-description: Scopri come aggiungere una filigrana di testo con opzioni specifiche a un documento di Word utilizzando Aspose.Words per .NET. Seguire semplici passi per personalizzare e salvare il documento.
+description: Impara come aggiungere un watermark di testo con specifiche opzioni a un documento Word utilizzando Aspose.Words per .NET. Segui semplici passaggi per personalizzare e salvare il tuo documento.
 keywords: [Aspose.Words for .NET, add watermark, text watermark, Word document, watermark customization, .NET example, document processing]
 url: /it/net/working-with-watermark/add-text-watermark/
 ---
@@ -10,37 +10,37 @@ url: /it/net/working-with-watermark/add-text-watermark/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aggiungi filigrana di testo nel documento di Word utilizzando Aspose.Words
-L'aggiunta di una filigrana di testo a un documento di Word è un processo semplice utilizzando Aspose.Words per .NET. Questo tutorial dimostra come applicare una filigrana di testo personalizzabile al documento. Con caratteristiche come famiglia di caratteri, dimensioni, colore, layout e controllo della trasparenza, è possibile adattare la filigrana alle vostre esigenze esatte. Che si tratti di branding, riservatezza, o estetica, Aspose.Words rende semplice migliorare i documenti con filigrane professionali.  
+# Aggiungere il segnale d'acqua al documento di Word utilizzando Aspose.Words
+Aggiungere un watermark di testo a un documento Word è un processo semplice utilizzando Aspose.Words per .NET. Questo tutorial dimostra come applicare un watermark di testo personalizzabile al documento. Con funzionalità come famiglia di caratteri, dimensioni, colore, layout e controllo della trasparenza, è possibile adattare l'acquacchia alle proprie esigenze esatte. Che si tratti di branding, confidenzialità o estetica, Aspose.Words rende semplice migliorare i documenti con watermark professionali.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-watermark/add-text-watermark" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Istruzioni per l'installazione  
-1. Scarica Aspese.Parole per .NET:  
-   Ottieni l'ultima versione dal[Aspesare la pagina Download](https://releases.aspose.com/words/net/).  
+## Instruzioni di installazione  
+1. Scarica Aspose.Words per .NET:  
+   Prendi l' ultima versione del [Aspose Pagina download](https://releases.aspose.com/words/net/)\- Non è vero .  
 
-2. Installare via NuGet:  
-   * Apri il tuo progetto Visual Studio.  
-   * Vai al gestore dei pacchetti NuGet (Strumenti > NuGet Package Manager > Gestisci pacchetti NuGet per la soluzione).  
-   * Cercare "Aspose.Words" e fare clic su Installa.  
+2. Installazione tramite NuGet:  
+   * Aprire il tuo progetto Visual Studio.  
+   * Navigare al NuGet Package Manager (Tuti > NuGet Package Manager > Gestione NuGet Packages for Solution).  
+   * Cerca Aspose.Words e fai clic su Installare.  
 
-3. Aggiungi riferimenti allo spazio dei nomi:  
-   Aggiungere il seguente namespace nella parte superiore del file di codice:  
+3. Aggiungere i riferimenti di spazio di nome:  
+   Aggiungi il seguente spazio di nome in cima al tuo file di codice:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    using System.Drawing;
    ```  
 
-4. Applica licenza (opzionale):  
-   Per utilizzare la versione completa,[applicare una licenza](https://purchase.aspose.com/temporary-license/)o usare una[prova gratuita](https://releases.aspose.com/).  
+4. Applicare la licenza (opzionale):  
+   Per usare la versione completa,[applicare una licenza](https://purchase.aspose.com/temporary-license/)o utilizzare un [prova gratuita](https://releases.aspose.com/)\- Non è vero .  
 
-## Vedere anche
-[Aspese.Parola per la documentazione .NET](https://docs.aspose.com/words/net/)
-[Aspese.Parola per riferimenti .NET](https://reference.aspose.com/words/net/)
+## Vedi anche
+[Aspose.Word per Documentazione .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word per i riferimenti .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

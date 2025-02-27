@@ -1,39 +1,39 @@
 //ExStart
-//ExSummary:Bu kod, Aspose.words kullanarak bir Word belgesinde vurgu işaretinin nasıl ayarlanacağını gösterir.
-//ExStepSummary:0:Birlikte çalışmak için yeni bir Belge örneği oluşturma.
+//ExSummary:Bu kod Aspose.words kullanarak Word belgesinde bir vurgu işaretini nasıl ayarlayacağınızı gösterir.
+//ExStepSummary:0:Çalışmak için yeni bir Belge örneği oluşturmak.
 //ExStepSummary:1:Belgeyi manipüle etmek için bir DocumentBuilder kurmak.
-//ExStepSummary:2:Yapıcının yazı tipine bir vurgu işareti uygulamak.
+//ExStepSummary:2:Yapıcının yazı tipleri üzerinde vurgu işaretini uygulayarak.
 //ExStepSummary:3:Belgeye vurgu metni yazmak.
-//ExStepSummary:4:Herhangi bir vurgu olmadan basit bir metin yazmak.
-//ExStepSummary:5: Bu kod, yazı tipine vurgu işareti ile belgeyi kaydeder.
+//ExStepSummary:4:Hiçbir vurgu olmadan basit bir metin yazmak.
+//ExStepSummary:5: Bu kod, vurgu işaretini yazıya taşıyan belgeyi kaydeder.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
 //ExStep:0-
-// Yeni bir Belge Oluştur
+// Yeni Belge Oluştur
 Document document = new Document();
 
 //ExStep:1-
-// Belge manipülasyonu için DocumentBuilder'ı başlat
+// Belge manipülasyonu için DocumentBuilder'i başlat
 DocumentBuilder builder = new DocumentBuilder(document);
 
 //ExStep:2-
-// Vurgu işaretini UnderSolidCircle olarak ayarla
+// UnderSolidCircle'e vurgu işaretini koy
 builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
 
 //ExStep:3-
-// Vurgu metnini belgeye yazın
+// Belgeye vurgu metnini yaz
 builder.Write("Emphasis text");
-// Bir sonraki satıra geç
+// Bir sonraki satıra geç .
 builder.Writeln();
-// Sonraki metin için yazı tipi biçimlendirmesini temizle
+// Sonraki metin için yazı tipi biçimlendirmeyi temizle
 builder.Font.ClearFormatting();
 
 //ExStep:4-
-// Vurgulamadan basit metin yazın
+// Basit bir metni vurgulamadan yaz
 builder.Write("Simple text");
 
 //ExStep:5-
-// Belgeyi belirtilen yola kaydet
+// Belgeyi belirtilen yolda kaydet
 document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
 //ExEnd

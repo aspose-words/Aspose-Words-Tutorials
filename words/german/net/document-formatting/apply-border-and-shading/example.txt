@@ -1,15 +1,15 @@
 //ExStart
-//ExSummary: Dieser Code zeigt, wie man mit Aspose.Words Grenzen und Schattierungen auf einen Absatz in einem Word-Dokument anwendet.
-//ExStepSummary:0: Der folgende Code initialisiert eine neue Document- und DocumentBuilder- Instanz.
-//ExStepSummary:1: Der folgende Code konfiguriert die Absatzgrenzen mit einem Abstand vom Text.
-//ExStepSummary:2: Der folgende Code bezieht eine diagonale Kreuzstruktur-Schattierung auf den Absatz mit spezifizierten Farben.
-//ExStepSummary:3: Der folgende Code schreibt einen formatierten Absatz mit den angewendeten Einstellungen.
-//ExStepSummary:4: Der folgende Code speichert das Dokument auf den angegebenen Ausgabepfad.
+//ExSummary: Dieser Code zeigt, wie Grenzen und Schattierungen auf einen Absatz in einem Word-Dokument mit Aspose.Words angewendet werden.
+//ExStepSummary:0: Der folgende Code initialisiert eine neue Dokument- und Dokumentbauerinstanz.
+//ExStepSummary:1: Der folgende Code konfiguriert die Grenzen des Absatzes mit einer Entfernung vom Text.
+//ExStepSummary:2: Der folgende Code bezieht eine diagonale Querschnittstücke auf den Absatz mit spezifizierten Farben an.
+//ExStepSummary:3: Der folgende Code schreibt einen formatierten Absatz mit den angewandten Einstellungen.
+//ExStepSummary:4: Der folgende Code speichert das Dokument auf den angegebenen Ausgangsweg.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Initialisieren eines neuen Dokuments
+// Ein neues Dokument initialisieren
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -23,17 +23,17 @@ borders[BorderType.Top].LineStyle = LineStyle.Double;
 borders[BorderType.Bottom].LineStyle = LineStyle.Double;
 
 //ExStep:2-
-// Zugriff auf die Absatz-Schatteneigenschaften
+// Zugriff auf die Schattierungseigenschaften des Absatzes
 Shading shading = builder.ParagraphFormat.Shading;
 shading.Texture = TextureIndex.TextureDiagonalCross;
 shading.BackgroundPatternColor = System.Drawing.Color.LightCoral; 
 shading.ForegroundPatternColor = System.Drawing.Color.LightSalmon;
 
 //ExStep:3-
-// Schreiben Sie den formatierten Absatzinhalt
+// Schreiben Sie den Format-Punkt
 builder.Write("I'm a formatted paragraph with double border and nice shading.");
 
 //ExStep:4-
-// Das Dokument in den angegebenen Pfad speichern
+// Speichern Sie das Dokument auf dem angegebenen Pfad
 doc.Save(ArtifactsDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
 //ExEnd

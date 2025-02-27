@@ -1,8 +1,8 @@
 ---
-title: Appliquer Borders & Shading au paragraphe dans Aspose.Words pour .NET  
+title: Appliquer les limites et l'ombrage au paragraphe dans Aspose.Words pour .NET  
 weight: 7700
 limit: 
-description: Apprenez comment appliquer les bordures et l'ombrage à un paragraphe dans les documents Word en utilisant Aspose.Words pour .NET. Guide étape par étape avec exemple de code inclus.
+description: Apprenez à appliquer des limites et des ombres à un paragraphe dans des documents Word en utilisant Aspose.Words pour .NET. Guide étape par étape avec exemple de code inclus.
 keywords: [Aspose.Words for .NET, paragraph formatting, borders, shading, Word documents, C# tutorial, document formatting]
 url: /fr/net/document-formatting/apply-border-and-shading/
 ---
@@ -10,7 +10,7 @@ url: /fr/net/document-formatting/apply-border-and-shading/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Appliquer les bordures et l'ombrage au paragraphe dans l'ensemble.
+# Appliquer les limites et l'ombre au paragraphe dans Aspose.Words
 Aspose.Words for .NET empowers developers to create richly formatted Word documents programmatically. This example demonstrates how to apply borders and shading to a paragraph in a Word document using Aspose.Words. You’ll learn to set double-line borders and diagonal cross shading with custom colors for an elegant and professional look. The provided C# code snippet simplifies the implementation process, making it an ideal solution for developers looking to enhance document aesthetics programmatically.  
 
 ---
@@ -21,15 +21,15 @@ Aspose.Words for .NET empowers developers to create richly formatted Word docume
 ## Instructions d'installation  
 
 1. Télécharger Aspose.Words pour .NET  
-   Obtenez la dernière version de la[Pose.Words pour .NET page de téléchargement](https://releases.aspose.com/words/net/)C'est vrai.  
+   Obtenez la dernière version de la [Aspose.Words pour la page de téléchargement .NET](https://releases.aspose.com/words/net/)\- Je suis désolé .  
 
-2. Installer via NuGet  
+2. Installez par NuGet  
    * Ouvrez votre projet dans Visual Studio.  
-   * Allez dans le gestionnaire de paquets NuGet (`Outils`Autres produits de la pêche, y compris les produits de la pêche, de la pêche, de la pêche, de la pêche, de la pêche, de la pêche, de la pêche, de la pêche, de la pêche, de la pêche, de la pêche, de la pêche, de la pêche, de l'aquaculture, de la pêche, de la pêche, de la pêche, de la pêche et de l'aquaculture`Gestionnaire de paquets NuGet`Autres produits de la pêche, y compris les produits de la pêche, de la pêche, de la pêche, de la pêche, de la pêche, de la pêche, de la pêche, de la pêche, de la pêche, de la pêche, de la pêche, de la pêche, de la pêche, de l'aquaculture, de la pêche, de la pêche, de la pêche, de la pêche et de l'aquaculture`Gérer les paquets NuGet pour la solution..`) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
-   * Rechercher`Pose.Words`et cliquez sur`Installer`C'est vrai.  
+   * Allez à la carte de gestion de paquets NuGet (`Les outils`> `Gestionnaire de paquets NuGet`> `Gérer les paquets NuGet pour la solution..`)  
+   * Recherche de `"Aspose. Les mots"`et cliquez `Installation`\- Je suis désolé .  
 
-3. Inclure des espaces de noms  
-   Ajoutez les espaces de noms nécessaires à votre code :  
+3. Inclure les espaces de nom  
+   Ajoutez les espaces de noms nécessaires à votre code:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
@@ -37,8 +37,8 @@ Aspose.Words for .NET empowers developers to create richly formatted Word docume
 
 
 ## Voir aussi
-[Pose.Word pour .NET Documentation](https://docs.aspose.com/words/net/)
-[Pose.Word pour .NET Références](https://reference.aspose.com/words/net/)
+[Aspose.Word pour la documentation .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word pour les références .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

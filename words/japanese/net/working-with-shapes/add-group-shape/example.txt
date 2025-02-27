@@ -1,22 +1,22 @@
 //ExStart
-//ExSummaryを選択します。 このコードは、Asfof.words を使ってドキュメント内でグループシェイプを作成する方法を示します。
-// また、アクセント境界の吹き出しやアクションボタンを作成し、それらをグループシェイプに追加し、保存する前にグループシェイプをドキュメントに挿入します。
-//ExStepSummary:0: 新しい文書を初期化し、最低限の要件を確保します。
-//ExStepSummary:1: 他のシェイプを持つグループシェイプを作成します。
-//ExStepSummary:2: グループシェイプにアクセント境界の吹き出しシェイプを追加します。
-//ExStepSummary:3: グループシェイプにアクションボタンシェイプを追加します。
-//ExStepSummary:4: グループシェイプの寸法と座標を設定します。
-//ExStepSummary:5: ドキュメントビルダーを使用してグループシェイプを挿入します。
-//ExStepSummary:6: グループシェイプを含むドキュメントを指定した場所に保存します。
+//ExSummary: このコードはAspose.Wordsを使用してドキュメント内でグループ形状を作成する方法を示します.
+// グループ形に追加して グループ形を文書に挿入して保存します
+//ExStepSummary:0: 新しい文書を初期化し,最低要件を満たす.
+//ExStepSummary:1: 他の形を保持する GroupShape を作成します
+//ExStepSummary:2: グループ形にアクセントの境界の呼び出し形を追加します.
+//ExStepSummary:3: グループ形にアクションボタンの形を追加します.
+//ExStepSummary:4: グループ形の次元と座標を設定する.
+//ExStepSummary:5: ドキュメントビルダーを使用してグループ形状をドキュメントに挿入します.
+//ExStepSummary:6: グループ形を含む文書を指定された場所に保存します.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStepImage:5:images/5.png
 //ExStep:0-
-// 新しい文書を作成
+// 新しい文書を作成する
 Document doc = new Document();
-// 文書が最低限の要件を満たすことを確認
+// 文書が最低限の要件を満たすことを確認する
 doc.EnsureMinimum();
 
 //ExStep:1-
@@ -24,44 +24,44 @@ doc.EnsureMinimum();
 GroupShape groupShape = new GroupShape(doc);
 
 //ExStep:2-
-// アクセント境界の吹き出しシェイプを作成
+// アクセントの境界の呼び出し形を作成する
 Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
 {
     Width = 100, 
     Height = 100
 };
-// シェイプをグループシェイプに追加
+// グループ形に形を追加する
 groupShape.AppendChild(accentBorderShape);
 
 //ExStep:3-
-// アクションボタンシェイプを作成
+// アクションボタンの形を作成する
 Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
 {
-	// シェイプの左位置を設定
+	// 形状の左位置を設定する
     Left = 100, 
-	// シェイプの幅を設定
+	// 形状の幅をセットする
     Width = 100, 
-	// シェイプの高さを設定
+	// 形の高さを設定する
     Height = 200
 };
-// アクションボタンをグループシェイプに追加
+// グループ形にアクションボタンを追加する
 groupShape.AppendChild(actionButtonShape);
 
 //ExStep:4-
-// グループシェイプの幅を設定
+// グループ形の幅を設定
 groupShape.Width = 200;
-// グループシェイプの高さを設定
+// グループ形の高さを設定する
 groupShape.Height = 200;
-// グループシェイプの座標のサイズを設定します
+// グループ形の座標サイズを設定
 groupShape.CoordSize = new Size(200, 200);
 
 //ExStep:5-
-// ドキュメントを操作するための文書ビルダーを作成
+// ドキュメントを操作するドキュメントビルダーを作成する
 DocumentBuilder builder = new DocumentBuilder(doc);
-// ドキュメントにグループシェイプを挿入
+// グループ形を文書に挿入する
 builder.InsertNode(groupShape);
 
 //ExStep:6-
-// ドキュメントを指定した場所に保存
+// 文書を指定された場所に保存する
 doc.Save("WorkingWithShapes.AddGroupShape.docx");
 //ExEnd

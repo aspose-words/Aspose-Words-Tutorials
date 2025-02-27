@@ -1,8 +1,8 @@
 ---
-title: .NET için Aspose.Words'da Paragrafa Sınırlar ve Gölgeleme Uygula  
+title: .NET için Aspose.Words'te paragraflara Sınırlar ve Gölgeleme uygulayın  
 weight: 7700
 limit: 
-description: Sınırların nasıl uygulanacağını ve .NET için Aspose.Words kullanarak Word belgelerindeki bir paragrafa gölgelendirme yapmayı öğrenin. Kod örneği içeren adım adım kılavuz.
+description: Word belgelerinde bir paragrafın sınırlarını ve gölgelendirilmesini .NET için Aspose.Words kullanarak öğrenin. Kod örneği dahil olan adım adım rehber.
 keywords: [Aspose.Words for .NET, paragraph formatting, borders, shading, Word documents, C# tutorial, document formatting]
 url: /tr/net/document-formatting/apply-border-and-shading/
 ---
@@ -10,7 +10,7 @@ url: /tr/net/document-formatting/apply-border-and-shading/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words'da Paragrafa Sınırları & Gölgelemeyi Uygula
+# Aspose.Words bölümünde paragraflara sınırları ve gölgelik uygula
 Aspose.Words for .NET empowers developers to create richly formatted Word documents programmatically. This example demonstrates how to apply borders and shading to a paragraph in a Word document using Aspose.Words. You’ll learn to set double-line borders and diagonal cross shading with custom colors for an elegant and professional look. The provided C# code snippet simplifies the implementation process, making it an ideal solution for developers looking to enhance document aesthetics programmatically.  
 
 ---
@@ -18,27 +18,27 @@ Aspose.Words for .NET empowers developers to create richly formatted Word docume
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum Talimatları  
+## Kurulum talimatları  
 
-1. .NET için Aspose.Words İndir  
-   En son sürümü alın[.NET indirme sayfası için Aspose.Words](https://releases.aspose.com/words/net/).  
+1. .NET için Aspose.Words indir  
+   [.NET indirme sayfası için Aspose.Words](https://releases.aspose.com/words/net/)\- Evet .  
 
-2. NuGet üzerinden yükleyin  
-   * Projenizi Visual Studio'da açın.  
-   * NuGet Paket Yöneticisine Git (`Araçlar``NuGet Paket Yöneticisi``Çözüm için NuGet Paketlerini Yönet..`).  
-   * Ara`Aspose.Words`ve tıklayın`Yükle`.  
+2. NuGet üzerinden yükle  
+   * Projeyi Visual Studio'da aç.  
+   * NuGet Paket Yöneticisine gidin (`Araçlar`> `NuGet Paket Yöneticisi`> `Çözüm için NuGet Paketleri Yönet..`)  
+   * Arama`"Sözler. Sözler"`Ve tıklat `Kurulum`\- Evet .  
 
-3. İsim boşluklarını dahil et  
-   Kodunuza gerekli ad boşluklarını ekleyin:  
+3. Ad alanları ekle  
+   Kodunuza gerekli isim alanlarını ekleyin:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```  
 
 
-## Ayrıca Bakınız
-[.NET Dokümantasyonu için Aspose.Word](https://docs.aspose.com/words/net/)
-[.NET Referansları için Aspose.Word](https://reference.aspose.com/words/net/)
+## Ayrıca bakın
+[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

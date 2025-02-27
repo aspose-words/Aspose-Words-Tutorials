@@ -1,8 +1,8 @@
 ---
-title: Práce s hlavičkami a zápatky v Aspose.Slova pro .NET 
+title: Práce s hlavičkami a chodidly v Aspose.Words pro .NET 
 weight: 10
 limit:
-description: Naučte se vytvářet, upravovat, a formátovat hlavičky a zápatí v dokumentech Word pomocí Aspose.Words pro .NET. Krok za krokem průvodce pro bezproblémové přizpůsobení.
+description: Naučte se vytvářet, upravovat a formátovat hlavičky a podložky v dokumentech Word pomocí Aspose.Words pro .NET.
 keywords:
 url: /cs/net/working-with-headers-and-footers/
 ---
@@ -12,12 +12,12 @@ url: /cs/net/working-with-headers-and-footers/
 
 ## Úvod
   
-Hlavičky a zápatí jsou nezbytné pro přidání profesionálního dotyku do vašich dokumentů Word, ať už je to pro čísla stránek, loga, nebo vlastní text. S Aspose.Slova pro .NET, můžete hladce vytvořit, upravit, a přizpůsobit hlavičky a zápatí tak, aby vyhovovaly vašim potřebám dokumentů. Knihovna nabízí výkonné API, které vám umožní nastavit různé hlavičky a zápatí pro liché a dokonce stránky, definovat jedinečné části, a zahrnují dynamické prvky, jako jsou pole nebo obrázky.  
+Název a podložky jsou nezbytné pro přidání profesionálního doteku do dokumentů Word, ať už jsou to čísla stránek, logotipy nebo vlastně vytvořený text. S Aspose.Words pro .NET můžete bezproblémově vytvářet, upravovat a přizpůsobit název a podložky podle potřeb dokumentu. Knihovna nabízí výkonné API, které vám umožňují nastavit různé název a podložky pro pár a pár stránek, definovat jedinečné oddíly a zahrnout dynamické prvky jako pole nebo obrázky.  
 
-Aspose.Slova pro .NET zjednodušuje proces práce s hlavičkami a zápatí, zajišťuje plnou kontrolu nad jejich formátování a umístění. Ať už navrhujete korporátní report nebo vytváření personalizovaného dokumentu, knihovna poskytuje efektivní způsob, jak spravovat tyto klíčové prvky. Ponořte se do našich krok za krokem průvodců a odemknout plný potenciál hlaviček a zápatí ve svých souborech Word!  
+Aspose.Words pro .NET zjednodušuje proces práce s hlavičkami a podstavkami, což zajišťuje plnou kontrolu nad jejich formátováním a umístěním. Ať už navrhujete firemní zprávu nebo vytváříte personalizovaný dokument, knižnice poskytuje účinný způsob, jak tyto klíčové prvky spravovat. Zkuste se podívat na naše krok za krokem průvodce a odemknítte plný potenciál hlavičků a podstavek ve vašich souborech Word!  
 
-{{< tutorial-card link="./create-header-footer/" title="Vytvořit slovní dokument s hlavičkou a zápatí pomocí Aspose.Words" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./insert-image/" title="Vložte obrázek do Word Document Header Aspose.Words for .NET" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./create-header-footer/" title="Vytvořte dokument Word s názevem a podstavkou pomocí Aspose.Words" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./insert-image/" title="Vkládáme obrázek do nadpisového dokumentu Word." imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

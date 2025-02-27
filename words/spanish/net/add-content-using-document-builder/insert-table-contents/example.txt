@@ -1,15 +1,15 @@
 //ExStart
-//ExSummary: Este código muestra cómo crear un documento de Word con una tabla de contenido usando DocumentBuilder. Incluye encabezados de varios niveles y guarda el documento como un archivo .docx.
-//ExStepSummary:0: Este paso inicializa un nuevo objeto Document.
-//ExStepSummary:1: Este paso crea un objeto DocumentBuilder para la manipulación del documento.
-//ExStepSummary:2: Este paso inserta la Tabla de contenido al principio del documento.
-//ExStepSummary:3: Este paso introduce un salto de página para iniciar el contenido real en una nueva página.
-//ExStepSummary:4: Este paso establece el primer encabezado y escribe "Heading 1" en el documento.
-//ExStepSummary:5: Este paso establece el segundo nivel de encabezado y escribe "Cabeza 1.1" y "Cabeza 1.2".
-//ExStepSummary:6: Este paso vuelve a establecer el primer nivel de encabezado y escribe "Cabeza 2" y "Cabeza 3".
-//ExStepSummary:7: Este paso establece el segundo nivel de encabezado y escribe "Cabeza 3.1".
-//ExStepSummary:8: Este paso establece el tercer nivel de encabezado y escribe los subtítulos "Cabeza 3.1.1", "Cabeza 3.1.2" y "Cabeza 3.1.3".
-//ExStepSummary:9: Este paso establece el segundo nivel de encabezado una vez más y escribe "Cabeza 3.2" y "Cabeza 3.3".
+//ExSummaryEste código muestra cómo crear un documento de Word con una tabla de contenidos utilizando DocumentBuilder. Incluye encabezados de varios niveles y guarda el documento como un archivo .docx.
+//ExStepSummary:0: Este paso inicializa un nuevo objeto de Documento.
+//ExStepSummary:1: Este paso crea un objeto de DocumentBuilder para la manipulación de documentos.
+//ExStepSummary:2: En este paso se inserta la tabla de contenidos al principio del documento.
+//ExStepSummary:3: Este paso introduce un intervalo de página para iniciar el contenido real en una nueva página.
+//ExStepSummary:4: Este paso establece el primer encabezado y escribe "Capitalización 1" en el documento.
+//ExStepSummary:5: Este paso establece el segundo nivel de la partida y escribe "La partida 1.1" y "La partida 1.2".
+//ExStepSummary:6: Este paso establece nuevamente el primer nivel de la sección y escribe "La sección 2" y "La sección 3".
+//ExStepSummary:7: Este paso establece el segundo nivel de la sección y escribe "La sección 3.1".
+//ExStepSummary:8: En este paso se establece el tercer nivel de la partida y se escriben las subposiciones "Posición 3.1.1", "Posición 3.1.2" y "Posición 3.1.3".
+//ExStepSummary:9: Este paso establece el segundo nivel de la sección una vez más y escribe "La sección 3.2" y "La sección 3.3".
 //ExStepSummary:10: Finalmente, este paso actualiza los campos en el documento y lo guarda como un archivo .docx.
 //ExStepImage:3:images/1.png
 //ExStepImage:4:images/2.png
@@ -24,54 +24,54 @@
 Document doc = new Document();
 
 //ExStep:1-
-// Inicializar DocumentBuilder para la manipulación de documentos
+// Inicialización de DocumentBuilder para la manipulación de documentos
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:2-
-// Insertar una tabla de contenido con las opciones especificadas
+// Insertar una tabla de contenido con opciones especificadas
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
 //ExStep:3-
-// Insertar un salto de página para iniciar contenido en una nueva página
+// Insertar un intervalo de página para iniciar el contenido en una nueva página
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:4-
-// Establecer estilo en el encabezado 1
+// Establecer el estilo de la partida 1
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
 //ExStep:5-
-// Ajustar estilo al título 2
+// Establecer el estilo de la sección 2
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 1.1");
 builder.Writeln("Heading 1.2");
 
 //ExStep:6-
-// Establecer estilo volver al título 1
+// Retomar el estilo a la sección 1
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 2");
 builder.Writeln("Heading 3");
 
 //ExStep:7-
-// Ajustar estilo al título 2
+// Establecer el estilo de la sección 2
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.1");
 
 //ExStep:8-
-// Establecer estilo para el encabezado 3
+// Establecer el estilo en la sección 3
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
 builder.Writeln("Heading 3.1.1");
 builder.Writeln("Heading 3.1.2");
 builder.Writeln("Heading 3.1.3");
 
 //ExStep:9-
-// Regresa el estilo al título 2
+// Retomar el estilo a la sección 2
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
 //ExStep:10-
-// Actualizar todos los campos del documento
+// Actualizar todos los campos en el documento
 doc.UpdateFields();
 // Guardar el documento
 doc.Save("AddContentUsingDocumentBuilder.InsertTableOfContents.docx");

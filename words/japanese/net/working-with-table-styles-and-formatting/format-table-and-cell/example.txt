@@ -1,12 +1,12 @@
 //ExStart
-//ExSummary: このコードは、そのセルの境界や形状が異なるテーブルを持つ Word ドキュメントを作成する方法を示すものです。
-//ExStepSummary:0: ドキュメントおよびドキュメント作成プログラムを初期化して、新しい Word ドキュメントを作成します。
-//ExStepSummary:1: 新しい表を起動し、表全体に対して境界を設定します。
-//ExStepSummary:2: 最初のセルに赤背景とテキストを追加します。
-//ExStepSummary:3: 2 番目のセルに緑の背景色とテキストを追加します。
-//ExStepSummary:4: 最初の行を終了し、前のセルの書式設定をクリアします。
-//ExStepSummary:5: 最初のセルに新しい行を追加します。
-//ExStepSummary:6: 新しい行の 2 番目のセルを標準の書式設定とテキストで追加します。
+//ExSummary: このコードは,各細胞の境界とシェイディングスタイルを異なるテーブルでWordドキュメントを作成する方法を示します.
+//ExStepSummary:0: 新しい Word 文書を作成するために,ドキュメントとドキュメントビルダーを初期化します.
+//ExStepSummary:1: 新しいテーブルを開いて,テーブル全体に境界線を設定する.
+//ExStepSummary:2: 赤い背景の色とテキストを表示する最初のセルを追加します
+//ExStepSummary:3: 緑色の背景のシェイディングとテキストを添加する.
+//ExStepSummary:4: 最初の行を終了し,以前のセルフォーマットをクリアします.
+//ExStepSummary:5: 最初のセルにカスタムより大きな境界を持つ新しい行を追加する.
+//ExStepSummary:6: 既定フォーマットとテキストで新しい行の第2のセルを追加します.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -14,50 +14,50 @@
 //ExStepImage:5:images/5.png
 
 //ExStep:0-
-// 新しい文書を作成します。
+// 新しい文書を作成する.
 Document doc = new Document();
-// ドキュメントを操作するための文書ビルダーを作成します。
+// ドキュメントを操作するドキュメントビルダーを作成します.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 新しいテーブルを開始します。
+// 新しいテーブルを 始めよう
 Table table = builder.StartTable();
-// 表に最初のセルを挿入します。
+// テーブルに最初のセルを挿入する
 builder.InsertCell();
-// 表全体に対して境界を設定します。
+// テーブル全体に境界線を設定する.
 table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
 
 //ExStep:2-
-// セルの背景色を赤に設定します。
+// 細胞の背景色を赤に設定します
 builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
 builder.Writeln("Cell #1");
-// 2 番目のセルを挿入します。
+// 2番目のセルを挿入する
 builder.InsertCell();
 
 //ExStep:3-
-// セルの背景色を緑に設定します。
+// 細胞の背景色を緑に設定します
 builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
 builder.Writeln("Cell #2");
-// 現在の行を終了します。
+// 終止符を打つ
 builder.EndRow();
 
 //ExStep:4-
-// セルの書式設定をクリアします。
+// セルをフォーマットして 新たに開始します
 builder.CellFormat.ClearFormatting();
-// 次の行に新しいセルを挿入します。
+// 次の列に新しいセルを挿入します.
 builder.InsertCell();
-// この行の最初のセルに大きな境界を作成します。
+// この行の最初のセルに大きな境界を設定します
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;
 builder.CellFormat.Borders.Top.LineWidth = 4.0;
 builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
 builder.Writeln("Cell #3");
 //ExStep:5-
-// 4 番目のセルを挿入します。
+// 第4のセルを挿入する
 builder.InsertCell();
 builder.CellFormat.ClearFormatting();
 builder.Writeln("Cell #4");
 //ExStep:6-
-// ドキュメントを保存します。
+// 文書を保存する
 doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
 //ExEnd

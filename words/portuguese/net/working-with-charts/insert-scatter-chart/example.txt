@@ -1,28 +1,28 @@
 //ExStart
-//ExSummary: Este código demonstra como criar um documento do Word com um gráfico de dispersão usando Aspose.Words. Ele inicializa um documento, constrói conteúdo, insere um gráfico de dispersão, adiciona dados a ele e salva o documento.
-//ExStepSummary:0: Inicialização dos objetos Document e DocumentBuilder para começar a trabalhar no documento.
-//ExStepSummary:1: Inserção de um gráfico de dispersão no documento.
-//ExStepSummary:2: Adicionando uma série de pontos de dados ao gráfico de dispersão.
-//ExStepSummary:3: Salvando o documento com o gráfico de dispersão em um arquivo .docx.
+//ExSummaryEste código demonstra como criar um documento Word com um gráfico de disperso usando Aspose.Words. Inicializa um documento, cria conteúdo, inserir um gráfico de disperso, adiciona dados e salva o documento.
+//ExStepSummary:0: Inicialização do Document e DocumentBuilder objetos para começar a trabalhar no documento.
+//ExStepSummary:1: Inscrição de um gráfico de disperso no documento.
+//ExStepSummary:2: Adicionar uma série de pontos de dados ao gráfico de disperso.
+//ExStepSummary:3: Salvar o documento com o gráfico de disperso para um arquivo .docx.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Inicializar um novo documento
+// Iniciar um novo documento
 Document doc = new Document();
 // Criar um construtor para inserir conteúdo
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Insira um gráfico de dispersão no documento
+// Insira um gráfico de disperso no documento
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252); 
 
 //ExStep:2-
-// Obter o objeto gráfico da forma inserida
+// Obtenha o objeto do gráfico da forma inserida
 Chart chart = shape.Chart;
-// Adicionar dados da série ao gráfico
+// Adicionar dados de série ao gráfico
 chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 });
 
 //ExStep:3-
-// Salve o documento com o gráfico de dispersão
+// Salvar o documento com o gráfico de disperso
 doc.Save("WorkingWithCharts.InsertScatterChart.docx");
 //ExEnd

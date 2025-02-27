@@ -1,27 +1,27 @@
 //ExStart
-//ExSummary:Αυτός ο κώδικας δείχνει πώς να προσθέσετε ένα νέο τμήμα σε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words για .NET. Η διαδικασία περιλαμβάνει την αρχικοποίηση ενός εγγράφου, το περιεχόμενο γραφής, και την προσθήκη ενός νέου τμήματος.
-//ExStepSummary:0: Αρχικοποιήστε ένα νέο έγγραφο Word και ένα αντικείμενο DocumentBuilder για να προσθέσετε περιεχόμενο στο έγγραφο.
+//ExSummaryΟ κώδικας αυτός δείχνει πώς να προσθέσετε ένα νέο τμήμα σε ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words για το .NET. Η διαδικασία περιλαμβάνει την αρχική δημιουργία ενός εγγράφου, την σύνταξη περιεχομένου και την προσθήκη ενός νέου τμήματος.
+//ExStepSummary:0: Αρχιτοποιήστε ένα νέο έγγραφο Word και ένα αντικείμενο DocumentBuilder για να προσθέσετε περιεχόμενο στο έγγραφο.
 //ExStepSummary:1: Προσθέστε κείμενο στο πρώτο τμήμα χρησιμοποιώντας το αντικείμενο DocumentBuilder.
 //ExStepSummary:2: Προσθέστε κείμενο στο πρώτο τμήμα χρησιμοποιώντας το αντικείμενο DocumentBuilder.
-//ExStepSummary:3: Δημιουργήστε ένα νέο τμήμα και προσθέστε το στη συλλογή τμημάτων του εγγράφου.
+//ExStepSummary:3: Δημιουργήστε ένα νέο τμήμα και προσθέστε το στη συλλογή των ενότητες του εγγράφου.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
 // Δημιουργήστε ένα νέο έγγραφο Word.
 Document doc = new Document();
-// Αρχικοποιήστε το DocumentBuilder για το έγγραφο.
+// Αρχιτοποιήστε το DocumentBuilder για το έγγραφο.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Προσθήκη περιεχομένου στο πρώτο τμήμα
+// Προσθέστε περιεχόμενο στο πρώτο τμήμα
 builder.Writeln("Hello1"); // Write "Hello1" into the document's first section.
 
 //ExStep:2-
-// Προσθήκη περιεχομένου στο πρώτο τμήμα
+// Προσθέστε περιεχόμενο στο πρώτο τμήμα
 builder.Writeln("Hello2"); // Write "Hello2" into the document's first section.
 
 //ExStep:3-
-// Δημιουργία ενός νέου τμήματος στο έγγραφο.
+// Δημιουργήστε ένα νέο τμήμα στο έγγραφο.
 Section sectionToAdd = new Section(doc);
 doc.Sections.Add(sectionToAdd);
 //ExEnd

@@ -1,50 +1,50 @@
 //ExStart
-//ExSummaryを選択します。 このコードは、単語ドキュメントに Asfof.words を使用して行の書式設定を適用する方法を示します。
-//ExStepSummary:0: 新しい文書を初期化し、書式設定された行で表を作成し始めます。
-//ExStepSummary:1: 行の書式を設定します。
-//ExStepSummary:2: 高さの設定を行います。
-//ExStepSummary:3: すべての行に影響する表全体にパディングを設定します。
-//ExStepSummary:4: 表のセルにテキストを書き込み、行を終了します。
-//ExStepSummary:5: テーブルビルディングプロセスを完了し、ドキュメントを保存します。
+//ExSummary: このコードはAspose.Wordsを使用してWord文書に行格式化を行う方法を示します.
+//ExStepSummary:0: 新しい文書を初期化して,フォーマットされた行を持つテーブルを構築します.
+//ExStepSummary:1: 列のフォーマットを設定します
+//ExStepSummary:2: 特定の高度設定を設定します
+//ExStepSummary:3: テーブル全体に包装をセットし,すべての行に影響を与える.
+//ExStepSummary:4: テーブルセルにテキストを書き込み,行を終了します.
+//ExStepSummary:5: テーブル作成プロセスを完了し,文書を保存します.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// 新しい文書を作成
+// 新しい文書を作成する
 Document doc = new Document();
-// ドキュメント作成プログラムを作成してドキュメントを編集します
+// ドキュメントを変更するドキュメントビルダーを作成
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 新しい表を開始
+// 新しいテーブルを開く
 Table table = builder.StartTable();
-// テーブルに新しいセルを挿入
+// テーブルに新しいセルを挿入する
 builder.InsertCell();
 //ExStep:2-
-// 行の書式設定のプロパティにアクセス
+// 行格式化属性へのアクセス
 RowFormat rowFormat = builder.RowFormat;
-// 行の高さを設定
+// 列の高度を設定する
 rowFormat.Height = 100;
-// 高さを正確に指定
+// 標高が正確であることを指定する
 rowFormat.HeightRule = HeightRule.Exactly;
 
 //ExStep:3-
-// テーブルのパディングを設定
+// テーブルに敷き詰め物をセット
 table.LeftPadding = 30; 
 table.RightPadding = 30;
 table.TopPadding = 30;
 table.BottomPadding = 30;
 
 //ExStep:4-
-// セルにテキストを書き込み
+// テキストをセルに書き込み
 builder.Writeln("I'm a wonderful formatted row.");
-// 現在の行を終了
+// 実行行を終了する
 builder.EndRow();
-// テーブルビルを終了
+// テーブルの建物を終了
 builder.EndTable();
 
 //ExStep:5-
-// ドキュメントを保存します
+// 文書を保存する
 doc.Save("WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
 //ExEnd

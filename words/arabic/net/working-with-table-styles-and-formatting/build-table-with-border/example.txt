@@ -1,28 +1,28 @@
 //ExStart
-//ExSummaryيوضح هذا الرمز كيفية معالجة الجداول في مستند Word باستخدام Apose.Words. يقوم باسترداد مستند موجود ، وتعديل حدود الجدول الأول ، وحفظ التغييرات في ملف جديد.
-//ExStepSummary:0: يقوم الكود التالي بإعداد المستند واسترداد الجدول الأول منه.
-//ExStepSummary:1: يمسح الرمز التالي أي حدود موجودة من الجدول للتحضير لتنسيق جديد.
-//ExStepSummary:2: يطبق الرمز التالي حدودًا خضراء حول الطاولة وداخلها.
+//ExSummary: هذا الرمز يظهر كيفية التعامل مع الجداول في مستند Word باستخدام Aspose.Words. فإنه يستعيد وثيقة موجودة، وتعديل حدود الجدول الأول، وتحفظ التغييرات إلى ملف جديد.
+//ExStepSummary:0: يضع الرمز التالي الوثيقة ويسترد الجدول الأول منه.
+//ExStepSummary:1: يزيل الرمز التالي أي حدود موجودة من الجدول لإعداد التنسيق الجديد.
+//ExStepSummary:2: يطبق الرمز التالي حدود خضراء حول الطاولة و بداخلها.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// حدد الدليل الخاص بالمستند
+// تحديد الإداري للوثيقة
 string dataDir = "Your Document Directory";
-// تحميل المستند
+// تحميل الوثيقة
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// الحصول على الجدول الأول من الوثيقة
+// احصل على الطاولة الأولى من الوثيقة
 Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 
 //ExStep:2-
-// امسح أي حدود موجودة من الطاولة.
+// إزالة أي حدود موجودة من الجدول
 table.ClearBorders();
 
 //ExStep:3-
-// ضع حدودًا خضراء حول الطاولة وداخلها.
+// ضع حدود خضراء حول الطاولة و بداخلها
 table.SetBorders(LineStyle.Single, 1.5, Color.Green);
-// احفظ المستند مع التغييرات
+// حفظ الوثيقة مع التغييرات
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");
 //ExEnd

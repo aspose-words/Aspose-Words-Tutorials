@@ -1,29 +1,29 @@
 //ExStart
-//ExSummary: Bu kod, Aspose.Words kullanarak bir Word belgesine şekillerin (metin kutuları) nasıl yerleştirileceğini gösterir. Belge, ISO standartlarına özel uyumluluk seçenekleriyle DOCX formatında kaydedilir.
-//ExStepSummary:0: Kod, belgeyi manipüle etmek için yeni bir belgeyi ve bir belge oluşturucuyu başlatır.
-//ExStepSummary:1: Belgede mutlak bir konuma bir şekil (metin kutusu) yerleştirilir ve ilk şeklin dönüşü 30 dereceye ayarlanır.
-//ExStepSummary:2: Göreceli bir pozisyona yeni bir şekil sokulur ve ikinci şeklin dönüşü de 30 dereceye ayarlanır.
-//ExStepSummary:3: Belge belirli OoxmlSaveOptions ile kaydedilir.
+//ExSummaryBu kod, Aspose.Words kullanarak bir Word belgesine şekiller (metin kutuları) nasıl ekleneceğini gösterir. Belge ISO standartlarına uygun özel seçeneklerle DOCX biçiminde kaydedilir.
+//ExStepSummary:0: Kod yeni bir belgeyi ve belgeyi manipüle etmek için bir belge yapıcısını initializer.
+//ExStepSummary:1: Belgede bir şekil (metin kutusu) mutlak bir konumda yerleştirilir ve ilk şeklin dönüşü 30 dereceye ayarlanır.
+//ExStepSummary:2: Yeni bir şekil görevi bir konumda yerleştirilir ve ikinci şeklin dönüşü de 30 derece ayarlanır.
+//ExStepSummary:3: Belge belirli OoxmlSaveOptions ile kaydedilmiştir.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 
 //ExStep:0-
-// Yeni bir belge örneği oluşturur
+// Yeni bir belge instance oluşturur
 Document doc = new Document();
-// Belge için bir DocumentBuilder başlatılır
+// Belge için bir DocumentBuilder başlatır
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// TextBox türünde bir şekil ekler
+// TextBox tipi şeklini ekler
 Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
     RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
-// Şekli 30 derece döndürür
+// Şeklini 30 derece döndürür
 shape.Rotation = 30.0;
 
 //ExStep:2-
 builder.Writeln();
-// Göreceli bir konuma başka bir TextBox şekli ekler
+// TextBox tipinin başka bir şeklini görevi bir konumda ekler
 shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
 // İkinci şekli 30 derece döndürür
 shape.Rotation = 30.0;
@@ -35,6 +35,6 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
 };
 
-// Belirtilen kaydetme seçeneklerini kullanarak belgeyi kaydeder
+// Belgeyi belirtilen kaydetme seçeneklerini kullanarak kaydetir
 doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
 //ExEnd

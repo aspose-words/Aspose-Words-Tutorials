@@ -1,9 +1,9 @@
 //ExStart
-//ExSummary:Bu kod, örnek bir metin yazmadan önce yazı tipi özelliklerini biçimlendiren Aspose.Words kullanarak bir Word belgesinin nasıl oluşturulacağını gösterir.
-//ExStepSummary:0: Aşağıdaki kod yeni bir Belge ve Bir Belge Oluşturucuyu başlatır.
-//ExStepSummary:1: Aşağıdaki kod, boyut, kalın, renk, isim ve altı çizili stil gibi çeşitli yazı tipi özellikleri belirler.
-//ExStepSummary:2: Aşağıdaki kod, yapılandırılmış yazı tipi ayarlarını kullanarak belgeye örnek bir metin yazar.
-//ExStepSummary:3: Aşağıdaki kod, belgeyi belirli bir dosya adı ile belirtilen dizine kaydeder.
+//ExSummary:Bu kod, Aspose.Words kullanarak bir Word belgesini nasıl oluşturulacağını, şifre özelliklerini bir örnek metin yazmadan önce biçimlendireceğini gösterir.
+//ExStepSummary:0: Aşağıdaki kod yeni bir Belge ve bir Belge Oluşturucu'nu başlatır.
+//ExStepSummary:1: Aşağıdaki kod, boyut, büyüklük, renk, isim ve vurgu biçimi gibi çeşitli yazı tipi özelliklerini belirler.
+//ExStepSummary:2: Aşağıdaki kod, yapılandırılmış yazı tipi ayarlarını kullanarak belgeye bir örnek metin yazar.
+//ExStepSummary:3: Aşağıdaki kod, belgeyi belirli bir dosya adı ile belirtilen dizinine kaydeder.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
@@ -12,23 +12,23 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// DocumentBuilder aracılığıyla yazı tipi özelliğine erişin
+// DocumentBuilder üzerinden yazı tipi özelliğine eriş
 Font font = builder.Font;
-// Yazı tipi boyutunu 16 olarak ayarla
+// Yazı tipi boyutunu 16 olarak ayarlayın
 font.Size = 16;
-// Yazı tipini kalınlaştır
+// Yazı tipi büyük olsun
 font.Bold = true;
-// Yazı tipi rengini mavi olarak değiştir
+// Yazı tipi rengi maviye değiştir
 font.Color = Color.Blue;
-// Yazı tipini Arial olarak ayarla
+// Yazı tipi Arial'e ayarlayın
 font.Name = "Arial";
-// Yazı tipine çizgili bir alt çizgi stili uygula
+// Yazı tipiye çizilen alt çizgi biçimi uygulayın
 font.Underline = Underline.Dash;
 
 //ExStep:2-
 builder.Write("Sample text.");
 
 //ExStep:3-
-// Belgeyi eserler dizinine kaydet
+// Belgeyi eser dizisine kaydet
 doc.Save("WorkingWithFonts.FontFormatting.docx");
 //ExEnd

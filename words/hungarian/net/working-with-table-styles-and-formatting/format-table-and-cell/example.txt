@@ -1,12 +1,12 @@
 //ExStart
-//ExSummary:Ez a kód bemutatja, hogyan hozhat létre Word-dokumentumot egy olyan táblával, amely különböző szegély- és árnyékolási stílusokkal rendelkezik a celláihoz.
-//ExStepSummary:0: Inicializálja a Document and DocumentBuilder programot egy új Word-dokumentum létrehozásához.
-//ExStepSummary:1: Indítson el egy új asztalt, és állítsa be az egész asztal határait.
-//ExStepSummary:2: Adja hozzá az első cellát piros háttér árnyékolással és szöveggel.
-//ExStepSummary:3: Adja hozzá a második cellát zöld háttér árnyékolással és szöveggel.
-//ExStepSummary:4: Fejezze be az első sort, és törölje az előző cellaformázást.
-//ExStepSummary:5: Adjon hozzá egy új sort az első cella egyéni nagyobb szegélyeivel.
-//ExStepSummary:6: Adja hozzá az új sor második celláját az alapértelmezett formázással és szöveggel.
+//ExSummary:Ez a kód bemutatja, hogyan lehet egy Word dokumentumot létrehozni egy táblázatral, amely különböző határ- és árnyékos stílusokkal rendelkezik a sejtjeinek.
+//ExStepSummary:0: Indítsa be a Dokumentumot és a DocumentBuilder-t, hogy új Word dokumentumot hozzon létre.
+//ExStepSummary:1: Kezdj egy új asztalt és állítsd meg az egész asztalt.
+//ExStepSummary:2: Adja hozzá az első sejtet a piros háttér árnyalatával és a szöveggel.
+//ExStepSummary:3: Adja hozzá a második sejtet zöld háttér árnyalatokkal és szöveggel.
+//ExStepSummary:4: Végezz az első sornak és törölje ki az előző sejt formátumot.
+//ExStepSummary:5: Adjon hozzá egy új sorot a első sejthez, amelyhez egyedi nagyobb határok vannak.
+//ExStepSummary:6: Adja hozzá az új sor második sejtét a alapértelmezett formázással és szöveggel.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -14,50 +14,50 @@
 //ExStepImage:5:images/5.png
 
 //ExStep:0-
-// Új dokumentum létrehozása.
+// Készíts egy új dokumentumot.
 Document doc = new Document();
-// Hozzon létre egy DocumentBuilder-t a dokumentum manipulálásához.
+// Készítsen egy DocumentBuilder-t a dokumentum manipulálására.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Kezdj új asztalt!
+// Kezdj egy új asztalt.
 Table table = builder.StartTable();
-// Helyezze be az első cellát a táblázatba.
+// Tedd be az első cellát az asztalba.
 builder.InsertCell();
-// Állítsa be a határokat az egész asztalhoz.
+// Tedd meg a határokat az egész asztalnak.
 table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
 
 //ExStep:2-
-// Állítsa a cella háttérszínét pirosra.
+// A sejt háttérszínét vörösre állítsa.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
 builder.Writeln("Cell #1");
-// Helyezze be a második cellát.
+// Be kell helyezni a második cellát.
 builder.InsertCell();
 
 //ExStep:3-
-// Állítsa a cella háttérszínét zöldre.
+// A sejt háttérszínét zöldre állítsa.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
 builder.Writeln("Cell #2");
-// Befejezi az aktuális sort.
+// Végezz a jelenlegi sornak.
 builder.EndRow();
 
 //ExStep:4-
-// Töröljön minden cellaformázást az újrakezdéshez.
+// Takarítson ki a cellák formátumát, hogy újból kezdjünk.
 builder.CellFormat.ClearFormatting();
-// Helyezzen be egy új cellát a következő sorba.
+// Beillesztse egy új cellát a következő sorba.
 builder.InsertCell();
-// Nagyobb határok létrehozása a sor első cellájához.
+// Tegyünk nagyobb határokat az első sejtnek.
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;
 builder.CellFormat.Borders.Top.LineWidth = 4.0;
 builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
 builder.Writeln("Cell #3");
 //ExStep:5-
-// Helyezze be a negyedik cellát.
+// Be kell helyezni a negyedik cellát.
 builder.InsertCell();
 builder.CellFormat.ClearFormatting();
 builder.Writeln("Cell #4");
 //ExStep:6-
-// Mentse el a dokumentumot.
+// \- Takarodja meg a dokumentumot.
 doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
 //ExEnd

@@ -1,40 +1,40 @@
 //ExStart
-//ExSummary:Ez a példa bemutatja, hogyan lehet tartalmat hozzáfűzni és előkészíteni az egyik szakaszból a másikba egy Word dokumentumban az Aspose.Words for .NET használatával.
-//ExStepSummary:0: Új Word-dokumentum és DocumentBuilder inicializálása a tartalom hozzáadásához.
-//ExStepSummary:1: Szöveg írása és szakasztörések beillesztése több szakasz létrehozásához a dokumentumban.
-//ExStepSummary:2: Hozzáférés a dokumentum harmadik részéhez, hogy felkészüljön a tartalom manipulációjára.
-//ExStepSummary:3: A tartalmat az első résztől a harmadik részig helyezze el.
-//ExStepSummary:4: A tartalom hozzáadása a második résztől a harmadik részig.
+//ExSummary:Ez a példa bemutatja, hogyan kell hozzáadni és előkészíteni a tartalmat egy szakaszból a másikba a Word dokumentumban a .NET-hez Aspose.Words használatával.
+//ExStepSummary:0: Indítsa be egy új Word dokumentumot és a DocumentBuilder-t tartalom hozzáadásához.
+//ExStepSummary:1: Írja be a szöveget és adja be a szakasz szüneteket, hogy több szakaszot hozzon létre a dokumentumban.
+//ExStepSummary:2: A dokumentum harmadik szakaszához lépjen be, hogy felkészüljön a tartalom manipulálására.
+//ExStepSummary:3: Az első szakaszból a harmadik részre előkészítse a tartalmat.
+//ExStepSummary:4: A második szakaszból a harmadik részre csatoljuk a tartalmat.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// A dokumentum és a DocumentBuilder inicializálása
+// Indítsa be a dokumentumot és a DocumentBuilder- t
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Szöveg írása és szakasztörések beillesztése három szakasz létrehozásához
+// Írja be a szöveget és adja be a szakasz szünetét három szakasz létrehozásához
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
-// Tartalom hozzáadása a második részhez
+// Adjon tartalmat a második részre
 builder.Write("Section 2");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
-// Tartalom hozzáadása a harmadik részhez
+// Adjon tartalmat a harmadik részre
 builder.Write("Section 3");
 
 //ExStep:2-
-// A harmadik rész letöltése a dokumentumból
+// A dokumentum harmadik szakasza
 Section section = doc.Sections[2];
 
 //ExStep:3-
-// A tartalom feltöltése az első szakaszból a harmadikba
+// Az első szakaszból a harmadik részre előkészítse a tartalmat
 Section sectionToPrepend = doc.Sections[0];
 section.PrependContent(sectionToPrepend);
 
 //ExStep:4-
-// Tartalom hozzáadása a második résztől a harmadik részig
+// A második szakaszból a harmadik részre való tartalom hozzáadása
 Section sectionToAppend = doc.Sections[1];
 section.AppendContent(sectionToAppend);
 //ExEnd

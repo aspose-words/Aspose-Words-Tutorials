@@ -1,8 +1,8 @@
 ---
-title: Cím és leírás hozzáadása a Word táblázatához az Aspose.Words használatával
+title: Tűz és leírás a Wordben található táblázathoz Aspose.Words segítségével
 weight: 7700
 limit: 
-description: Ismerje meg, hogyan adhat hozzá egy címet és leírást egy Word dokumentumban lévő táblához az Aspose.Words for .NET programmal ebben a könnyen követhető példában.
+description: Tanuljon meg, hogyan adjon meg címet és leírást egy Word dokumentumban a .NET- hez Aspose.Words segítségével.
 keywords: [Aspose.Words, Word document, table title, table description, .NET example, table formatting, Aspose, OoxmlSaveOptions, document processing]
 url: /hu/net/working-with-table-styles-and-formatting/table-tittle-and-description/
 ---
@@ -10,31 +10,31 @@ url: /hu/net/working-with-table-styles-and-formatting/table-tittle-and-descripti
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cím és leírás hozzáadása a Word táblázatához az Aspose.Words használatával
+# Tűz és leírás a Wordben található táblázathoz Aspose.Words segítségével
 
-Ez az útmutató bemutatja, hogyan javíthatja a Word dokumentumait azáltal, hogy hozzáad egy címet és leírást a táblázatokhoz az Aspose.Words for .NET használatával. Megtanulja, hogyan manipulálhatja a táblázat tulajdonságait egy meglévő Word dokumentumban, konfigurálhatja a mentési beállításokat a kívánt kompatibilitáshoz, és biztosíthatja a Word 2016 optimalizált formázását. A példakód végigvezeti a dokumentum betöltésén, a táblázat tulajdonságainak frissítésén és a fájl pontos konfigurációs beállításainak mentésén.
+Ez a útmutató bemutatja, hogyan lehet javítani a Word dokumentumait egy cím és leírás hozzáadásával a táblázatokhoz a .NET-hez Aspose.Words segítségével. Megtanulja, hogyan manipulálja a táblázat tulajdonságait egy meglévő Word dokumentumban, konfigurálja a kívánt kompatibilitás mentésére vonatkozó lehetőségeket, és biztosítja a Word 2016 optimalizált formátálását. A példakód útmutatást nyújt egy dokumentum feltöltésével, a táblázat tulajdonságainak frissítésével és a fájl pontos konfigurációs beállításaival történő mentésével.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/table-tittle-and-description" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Telepítési utasítások:
+## A telepítési utasítás:
 
-Az Aspose.Words for .NET használatának megkezdéséhez és az alábbi példa futtatásához kövesse az alábbi egyszerű lépéseket:
+A .NET-hez Aspose.Words segítségével kezdeni, és futtatni ezt a példát, kövesse ezeket a egyszerű lépéseket:
 
-1. Telepítse az Aspose.Words alkalmazást a .NET-hez:
-   A NuGet segítségével egyszerűen telepítheti az Aspose.Words for .NET programot. Futtassa a következő parancsot a csomagkezelő konzolon:
+1. A .NET-re telepítse az Aspose.Words-t:
+   Az Aspose.Words-ot a .NET-re könnyen telepítheti a NuGet-en keresztül. A csomagkezelő konzolon a következő parancsot futtassa:
    ```
    Install-Package Aspose.Words
    ```
 
-2. Licenc alkalmazása (opcionális):  
-   A teljes verzió használata,[licensz alkalmazása](https://purchase.aspose.com/temporary-license/)vagy használja a[ingyenes próbaverzió](https://releases.aspose.com/words/net/)Nem.
+2. A licenc alkalmazása (Felhetős):  
+   Hogy a teljes verziót használhassuk,[engedélyt kell alkalmazni](https://purchase.aspose.com/temporary-license/)vagy használjon egy [ingyenes próba](https://releases.aspose.com/words/net/)\- Nem.
    
-## Lásd még
-[Aspose.Word for .NET dokumentáció](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referenciák](https://reference.aspose.com/words/net/)
+## Lásd:
+[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,8 +1,8 @@
 ---
-title: Δημιουργία εγγράφου Word με πλωτή εικόνα σε .NET
+title: Δημιουργήστε έγγραφο Word με πλωτή εικόνα στο .NET
 weight: 7700
 limit: 
-description: Μάθετε πώς να χρησιμοποιήσετε Aspose.Words για .NET για να δημιουργήσετε ένα έγγραφο Word και εισάγετε μια πλωτή εικόνα.
+description: Μάθετε πώς να χρησιμοποιείτε το Aspose.Words για το .NET για να δημιουργήσετε ένα έγγραφο Word και να εισαγάγετε μια αιωρούμενη εικόνα. Παρέχεται βήμα-βάθμα παράδειγμα.
 keywords: [Aspose.Words, .NET, Word document, insert image, floating layout, DocumentBuilder, C# example]
 url: /el/net/add-content-using-document-builder/insert-floating-image/
 ---
@@ -10,30 +10,30 @@ url: /el/net/add-content-using-document-builder/insert-floating-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργία εγγράφου λέξεων με πλωτή εικόνα
+# Δημιουργήστε έγγραφο Word με πλωτή εικόνα
 
-Αυτό το παράδειγμα δείχνει πώς να δημιουργήσετε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words για .NET και εισάγετε μια εικόνα με μια πλωτή διάταξη. Ο παρεχόμενος κώδικας αρχικοποιήσει ένα έγγραφο και DocumentBuilder, εισάγει μια εικόνα με συγκεκριμένες διαστάσεις και τοποθέτηση, και τελικά αποθηκεύει το έγγραφο. Αυτός ο οδηγός είναι ιδανικός για τους προγραμματιστές που ψάχνουν να ενισχύσουν τις δυνατότητες παραγωγής εγγράφων τους χρησιμοποιώντας Aspose.Words.
+Αυτό το παράδειγμα δείχνει πώς να δημιουργήσετε ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words για το .NET και να εισαγάγετε μια εικόνα με μια επιπλέουσα διάταξη. Ο προωθημένος κώδικας αρχικά δημιουργεί ένα έγγραφο και ένα DocumentBuilder, εισάγει μια εικόνα με καθορισμένες διαστάσεις και τοποθεσία, και τελικά αποθηκεύει το έγγραφο. Αυτό το οδηγό είναι ιδανικό για τους προγραμματιστές που θέλουν να ενισχύσουν τις δυνατότητες δημιουργίας εγγράφων χρησιμοποιώντας το Aspose.Words.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-floating-image" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Οδηγίες εγκατάστασης
-1. Εγκαταστήστε το Aspose.Words: Προσθέστε το πακέτο Aspose.Words NuGet στο έργο σας .NET. Μπορείτε να το κάνετε αυτό εκτελώντας την ακόλουθη εντολή στην κονσόλα διαχειριστή πακέτων:
+## Διδασκαλίες εγκατάστασης
+1. Εγκαταστήστε Aspose.Words: Προσθέστε το πακέτο NuGet Aspose.Words στο έργο .NET σας. Μπορείτε να το κάνετε εκτελώντας την ακόλουθη εντολή στην κονσόλα διαχειριστή πακέτων:
    ```
    Install-Package Aspose.Words
    ```
 
-2. Προσθήκη απαιτούμενων χώρων ονομάτων: Βεβαιωθείτε ότι το αρχείο κώδικα σας περιλαμβάνει τους ακόλουθους χώρους ονομάτων:
+2. Προσθέστε Απαιτούμενα Χώρα ονομάτων: Βεβαιωθείτε ότι το αρχείο κωδικού σας περιλαμβάνει τα ακόλουθα Χώρα ονομάτων:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
-## Επίσης, δείτε
-[Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
+## Δείτε επίσης
+[Aspose.Word για έγγραφο .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word για .NET References](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

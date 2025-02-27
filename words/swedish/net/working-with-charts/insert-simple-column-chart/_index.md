@@ -1,8 +1,8 @@
 ---
-title: Infoga ett enkelt kolumndiagram i Word Using Aspose.Words for .NET
+title: Lägg in en enkel kolumn diagram i Word med hjälp av Aspose.Words för .NET
 weight: 7700
 limit: 
-description: Lär dig hur du infogar ett enkelt kolumndiagram i ett Word-dokument med Aspose.Words för .NET. Följ steg-för-steg-instruktioner för att skapa och anpassa diagrammet.
+description: Lär dig hur man lägger in en enkel kolumn diagram i ett Word-dokument med hjälp av Aspose.Words för .NET. Följ stegvis instruktioner för att skapa och anpassa ditt diagram.
 keywords: [Aspose.Words for .NET, insert column chart, create Word chart, .NET Word chart example, Word document chart, Aspose chart example]
 url: /sv/net/working-with-charts/insert-simple-column-chart/
 ---
@@ -10,41 +10,41 @@ url: /sv/net/working-with-charts/insert-simple-column-chart/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Infoga ett enkelt kolumndiagram i ord med användning av aspose.Words
+# Lägg in en enkel kolumn i Word med hjälp av Aspose.Words
 
-Aspose.Words for .NET gör det enkelt att skapa professionella Word-dokument med rikt innehåll. I den här handledningen kommer du att lära dig hur man infogar en enkel kolumn diagram i ett Word-dokument programmatiskt. Vi täcker varje steg, från att initiera dokumentet till att anpassa diagramserien och spara filen. Oavsett om du genererar rapporter eller visualiserar data, denna guide ger alla detaljer du behöver för att bemästra diagram insättning med Aspose.Words för .NET.  
+Aspose.Words för .NET gör det enkelt att skapa professionella Word-dokument med rikt innehåll. I denna handledning lär du dig hur man lägger in ett enkelt kolumn diagram i ett Word-dokument programmatiskt. Vi kommer att täcka varje steg, från initialisera dokumentet till anpassning av diagramserien och spara filen. Oavsett om du genererar rapporter eller visualiserar data, ger denna guide alla detaljer du behöver för att behärska diagraminsättning med Aspose.Words för .NET.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-simple-column-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Monteringsanvisningar  
-För att använda detta exempel, se till att du har Aspose.Words för .NET installerat. Följ dessa steg:  
+## Installationsinstruktioner  
+För att använda detta exempel, se till att du har Aspose.Words för .NET installerad. Följ dessa steg:  
 
 1. Ladda ner Aspose.Words för .NET:  
-   Besök[Antag.Ord för .NET Download](https://releases.aspose.com/words/net/)och ladda ner den senaste versionen.  
+   Besök[Aspose.Words för .NET Download](https://releases.aspose.com/words/net/)och ladda ner den senaste versionen.  
 
-2. Installera biblioteket:  
-   * Lägg till paketet Aspose.Words NuGet till ditt projekt. Kör följande kommando i NuGet Package Manager Console:  
+2. Installa Library:  
+   * Lägg till NuGet-paketet Aspose.Words i ditt projekt. Kör följande kommandon i NuGet-pakethanteringskonsolen:  
      ```sh
      Install-Package Aspose.Words
      ```  
-   * Alternativt, lägg till`.dll`filer till dina projektreferenser manuellt.  
+   * Alternativt lägg till `.dll`Du kan använda en del av den här informationen för att få information om projektets referens.  
 
-3. Skaffa en licens:  
-   * Skaffa en licens från[Överför inköp](https://purchase.aspose.com/buy)eller begära en kostnadsfri rättegång från[Upprätthålla en fri rättegång](https://releases.aspose.com/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+3. Få en licens:  
+   * Få en licens från [Att ha ett mål att köpa](https://purchase.aspose.com/buy)eller begära en gratis prövning från [Ställ dig ett fria försök](https://releases.aspose.com/)\- Jag är inte rädd.  
 
-4. Verkställ licensen:  
-   Lägg till följande kod till ditt projekt för att aktivera licensen:  
+4. Ansök om licensen:  
+   Lägg till följande kod i ditt projekt för att aktivera licensen:  
    ```csharp
    License license = new License();
    license.SetLicense("path-to-your-license-file.lic");
    ```  
 
-## Se också
-[Antag.Ord för .NET-dokumentation](https://docs.aspose.com/words/net/)
-[Antaget.Ord för .NET-referenser](https://reference.aspose.com/words/net/)
+## Se även
+[Aspose.Word för .NET-dokumentation](https://docs.aspose.com/words/net/)
+[Aspose.Word för .NET Referenser](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,16 +1,16 @@
 //ExStart
-//ExSummaryをクリックします。 このコードは、ドキュメントビルダーを使用して、 Word ドキュメントを作成する方法を示します。さまざまなレベルの見出しを含めて、ドキュメントを .docx ファイルとして保存します。
-//ExStepSummary:0: このステップは、新しいドキュメントオブジェクトを初期化します。
-//ExStepSummary:1: このステップによって、ドキュメント操作のためのドキュメントビルダーオブジェクトが作成されます。
-//ExStepSummary:2: このステップは、ドキュメントの先頭に目次を挿入します。
-//ExStepSummary:3: このステップは、新しいページ上の実際のコンテンツの開始時に、ページブレークを導入します。
-//ExStepSummary:4: このステップは、最初の見出しを設定し、ドキュメントに「ハイジ 1」を書き込みます。
-//ExStepSummary:5: このステップは,2番目の見出しレベルを設定し,"heading 1."と"heading 1.2"を書き込みます.
-//ExStepSummary:6: このステップは、最初の見出しレベルを再び設定し、"heading 2"と"heading 3"を書き込みます。
-//ExStepSummary:7: このステップは、2番目の見出しレベルを設定し、"heading 3.1"を書き込みます。
-//ExStepSummary:8: このステップは,第三十一条の見出しレベルを設定し,同条の見出しレベルを"Heading 3.1","heading 3.1.2","heading 3.1.3"と表記する.
-//ExStepSummary:9: このステップは、2番目の見出しレベルをもう一度設定し、"heading 3.2"と"heading 3.3"を書き込みます。
-//ExStepSummary:10: 最後に、このステップはドキュメント中のフィールドを更新し、.docx ファイルとして保存します。
+//ExSummary: このコードは, DocumentBuilder を使用して,コンテンツ表でWord ドキュメントを作成する方法を示します. 様々なレベルの頭文字を含んで,ドキュメントを .docx ファイルとして保存します.
+//ExStepSummary:0: このステップでは新しいドキュメントオブジェクトを初期化します.
+//ExStepSummary:1: このステップでは,ドキュメント操作のための DocumentBuilder オブジェクトを作成します.
+//ExStepSummary:2: このステップでは,文書の初めに内容表を挿入します.
+//ExStepSummary:3: このステップでは,新しいページの実際のコンテンツを起動するためにページの休憩を導入します.
+//ExStepSummary:4: このステップで最初の頭が設定され,文書に"頭1"を書き込む.
+//ExStepSummary:5: このステップでは第2項のレベルを設定し",項1.1"と"項1.2"と記します.
+//ExStepSummary:6: このステップでは,再び最初のタイトルレベルを設定し",タイトル2"と"タイトル3"と書き込む.
+//ExStepSummary:7: このステップでは第2項のレベルを設定し"第3.1項"と記します.
+//ExStepSummary:8: このステップでは第3項レベルを設定し,サブ項目"3.1.1項",3.1.2項",および"3.3項"を書き込む.
+//ExStepSummary:9: このステップでは,第2項レベルを再び設定し",3.2"と"3.3項"と記します.
+//ExStepSummary:10: 最後に,このステップはドキュメント内のフィールドを更新し, .docxファイルとして保存します.
 //ExStepImage:3:images/1.png
 //ExStepImage:4:images/2.png
 //ExStepImage:5:images/3.png
@@ -24,55 +24,55 @@
 Document doc = new Document();
 
 //ExStep:1-
-// ドキュメント操作用の文書ビルダーを初期化
+// ドキュメント操作のドキュメントビルダーを初期化する
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:2-
-// 目次を指定したオプションで挿入
+// 指定したオプションを表示する内容表を挿入する
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
 //ExStep:3-
-// ページブレークを挿入し、新しいページ上でコンテンツを起動する
+// 新しいページのコンテンツを起動するにはページの休憩を挿入する
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:4-
-// スタイルを見出し 1 に設定
+// スタイルを第1項に設定する
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
 //ExStep:5-
-// スタイルを見出し 2 に設定
+// スタイルを第2項に設定する
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 1.1");
 builder.Writeln("Heading 1.2");
 
 //ExStep:6-
-// スタイルを見出し 1 に戻します
+// スタイルを1項に戻す
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 2");
 builder.Writeln("Heading 3");
 
 //ExStep:7-
-// スタイルを見出し 2 に設定
+// スタイルを第2項に設定する
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.1");
 
 //ExStep:8-
-// スタイルを見出し 3 に設定
+// スタイルを第3項に設定する
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
 builder.Writeln("Heading 3.1.1");
 builder.Writeln("Heading 3.1.2");
 builder.Writeln("Heading 3.1.3");
 
 //ExStep:9-
-// スタイルを見出し 2 に戻します
+// スタイルを2項に戻す
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
 //ExStep:10-
-// ドキュメントのすべてのフィールドを更新します
+// 文書のすべてのフィールドを更新する
 doc.UpdateFields();
-// ドキュメントを保存します
+// 文書を保存する
 doc.Save("AddContentUsingDocumentBuilder.InsertTableOfContents.docx");
 //ExEnd

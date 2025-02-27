@@ -1,34 +1,34 @@
 //ExStart
-//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο Word χρησιμοποιώντας την κατηγορία DocumentBuilder και εισάγετε μια παράγραφο στυλ σε αυτό.
-//ExStepSummary:0: Ο ακόλουθος κώδικας αρχικοποιείται ένα έγγραφο και ένα έγγραφοBuilder για τη δημιουργία εγγράφων.
-//ExStepSummary:1: Ο ακόλουθος κώδικας ρυθμίζει τις ρυθμίσεις γραμματοσειράς για την παράγραφο.
-//ExStepSummary:2: Ο ακόλουθος κωδικός καθορίζει τις ρυθμίσεις μορφής παραγράφου για ευθυγράμμιση και εσοχή.
-//ExStepSummary:3: Ο ακόλουθος κώδικας περιέχει μια παράγραφο στο έγγραφο.
-//ExStepSummary:4: Ο παρακάτω κώδικας αποθηκεύει το έγγραφο ως αρχείο .docx.
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο Word χρησιμοποιώντας την τάξη DocumentBuilder και να εισαγάγετε μια στυλ παραγράφου σε αυτό.
+//ExStepSummary:0: Ο ακόλουθος κωδικός αρχιτοποιεί ένα έγγραφο και ένα DocumentBuilder για τη δημιουργία εγγράφων.
+//ExStepSummary:1: Ο ακόλουθος κωδικός ρυθμίζει τις ρυθμίσεις γραμματοσειράς για την παράγραφο.
+//ExStepSummary:2: Ο ακόλουθος κώδικας καθορίζει τις ρυθμίσεις μορφοποίησης παραγράφου για την ευθυγράμμιση και την καταχώριση.
+//ExStepSummary:3: Ο ακόλουθος κώδικας γράφει μια παράγραφο στο έγγραφο.
+//ExStepSummary:4: Ο ακόλουθος κωδικός αποθηκεύει το έγγραφο ως αρχείο .docx.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Αρχικοποίηση ενός νέου αντικειμένου εγγράφου
+// Αρχιτοκτονήστε ένα νέο αντικείμενο εγγράφου
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Πρόσβαση στις ρυθμίσεις γραμματοσειράς του DocumentBuilder
+// Πρόσβαση στις ρυθμίσεις γραμματοσειρών του DocumentBuilder
 Font font = builder.Font;
-// Ορισμός του μεγέθους γραμματοσειράς στο 16
+// Εγκαταστήστε το μέγεθος γραμματοσειράς σε 16
 font.Size = 16;
-// Κάντε τη γραμματοσειρά τολμηρή
+// Κάντε τη γραμματοσειρά έντονη
 font.Bold = true;
-// Ορισμός του χρώματος γραμματοσειράς στο μπλε
+// Ρυθμίστε το χρώμα γραμματοσειράς στο μπλε
 font.Color = Color.Blue;
-// Ορισμός του ονόματος γραμματοσειράς στο Arial
+// Εγκαταστήστε το όνομα γραμματοσειράς σε Arial
 font.Name = "Arial";
-// Προσθήκη ενός stressed stress στη γραμματοσειρά
+// Προσθέστε μια υπογραμμισμένη γραμμή στη γραμματοσειρά
 font.Underline = Underline.Dash;
 
 //ExStep:2-
-// Πρόσβαση στις ρυθμίσεις μορφής παραγράφου
+// Πρόσβαση στις ρυθμίσεις μορφοποίησης παραγράφου
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.FirstLineIndent = 8;
 paragraphFormat.Alignment = ParagraphAlignment.Justify;
@@ -39,6 +39,6 @@ paragraphFormat.KeepTogether = true;
 builder.Writeln("A whole paragraph.");
 
 //ExStep:4-
-// Αποθήκευση του εγγράφου ως αρχείου .docx
+// Αποθηκεύστε το έγγραφο ως αρχείο .docx
 doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
 //ExEnd

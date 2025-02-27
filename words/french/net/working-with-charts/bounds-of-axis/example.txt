@@ -1,40 +1,40 @@
 //ExStart
-//ExSummary: Ce code montre comment créer un document avec un graphique en utilisant Aspose.Words, définir les limites pour l'axe Y, et enregistrer le document en tant que fichier DOCX. 
-// Chaque étape est ventilée de manière à fournir une compréhension claire du processus impliqué dans la collaboration avec les graphiques dans Aspose.Words.
-//ExStepSummary:0: Initialiser un nouveau document et une instance DocumentBuilder. 
-//ExStepSummary:1: Insérez un graphique dans le document et récupérer l'objet du graphique. 
-//ExStepSummary:2: Ajouter une nouvelle série au graphique avec des catégories et des valeurs spécifiées. 
-//ExStepSummary:3: Définissez les limites minimales et maximales pour l'axe Y du graphique. 
+//ExSummary: Ce code montre comment créer un document avec un graphique à l'aide de Aspose.Words, définir les limites de l'axe Y et enregistrer le document en tant que fichier DOCX. 
+// Chaque étape est décomposée pour fournir une compréhension claire du processus impliqué dans le travail avec des graphiques dans Aspose.Words.
+//ExStepSummary:0: Initialement un nouveau document et une instance de DocumentBuilder. 
+//ExStepSummary:1: Insérer un graphique dans le document et récupérer l'objet du graphique. 
+//ExStepSummary:2: Ajouter une nouvelle série au tableau avec des catégories et des valeurs spécifiées. 
+//ExStepSummary:3: Définir les limites minimales et maximales pour l'axe Y du graphique. 
 //ExStepSummary:4: Enregistrez le document sur le chemin spécifié. 
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Créer une nouvelle instance Document.
+// Créez une nouvelle instance de document.
 Document doc = new Document();
-// Initialiser DocumentBuilder pour construire le document.
+// Initialement DocumentBuilder pour créer le document.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Insérez un tableau de colonnes dans le document.
+// Insérer un tableau de colonne dans le document.
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
-// Récupérer l'objet graphique de la forme.
+// Retirer l'objet du graphique de la forme.
 Chart chart = shape.Chart;
-// Effacer toute série existante du graphique pour obtenir des données nouvelles.
+// Effacer les séries existantes du graphique pour obtenir de nouvelles données.
 chart.Series.Clear();
 
 //ExStep:2-
-// Définir une nouvelle série avec le nom "Assocate Series 1".
+// Définir une nouvelle série avec le nom "Aspose Series 1".
 chart.Series.Add("Aspose Series 1",
     new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
     new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
 
 //ExStep:3-
-// Définissez la limite minimale de l'axe des Y.
+// Définir la limite minimale de l'axe Y.
 chart.AxisY.Scaling.Minimum = new AxisBound(0);
 chart.AxisY.Scaling.Maximum = new AxisBound(6);
 
 //ExStep:4-
-// Enregistrez le document avec le graphique sur le chemin spécifié.
+// Enregistrez le document avec le graphique sur le chemin indiqué.
 doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
 //ExEnd

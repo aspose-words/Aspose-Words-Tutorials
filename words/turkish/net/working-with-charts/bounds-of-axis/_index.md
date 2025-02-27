@@ -1,8 +1,8 @@
 ---
-title: .NET için Aspose.Words Kullanarak Grafiklerle Belge Oluşturun
+title: .NET için Aspose.Words kullanarak tablolar ile bir belge oluşturun
 weight: 7700
 limit: 
-description: Grafiklerle bir Word belgesi oluşturmayı, Y ekseni sınırlarını özelleştirmeyi ve adım adım talimatlarla .NET için Aspose.Words kullanarak DOCX olarak kaydetmeyi öğrenin.
+description: Word belgesi grafiklerle nasıl oluşturulduğunu, Y-öksü sınırlarını nasıl özelleştirildiğini ve adım adım talimatlar ile .NET için Aspose.Words kullanarak DOCX olarak nasıl kaydedildiğini öğrenin.
 keywords: [Aspose.Words for .NET, create chart in Word, customize Y-axis, DOCX chart creation, Word document chart tutorial, .NET Word chart example]
 url: /tr/net/working-with-charts/bounds-of-axis/
 ---
@@ -10,40 +10,40 @@ url: /tr/net/working-with-charts/bounds-of-axis/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words Kullanarak Grafikli Belge Oluşturun
+# Aspose.Words kullanarak tablolar ile bir belge oluşturun
 
-Bu öğretici, Aspose.NET'i kullanarak bir grafikle bir Word belgesi oluşturmayı gösterir. Bir sütun grafiği eklemeyi, mevcut serileri temizlemeyi, yeni veriler eklemeyi ve Y ekseni sınırlarını özelleştirmeyi öğreneceksiniz. Başlatma, veri manipülasyonu ve belgeyi DOCX dosyası olarak kaydetme dahil olmak üzere adım adım talimatlarla, bu kılavuz Aspose.Words for .NET'teki grafiklerle çalışmayı kolaylaştırır.
+Bu öğretim kitabı .NET için Aspose.Words kullanarak bir tablo ile bir Word belgesini nasıl oluşturulacağını gösterir. Bir sütun tabloyu eklemeyi, mevcut serileri temizlemeyi, yeni verileri eklemeyi ve Y-ötesinin sınırlarını özelleştirmeyi öğreneceksiniz. Başlatma, veri manipülasyonu ve belgeyi DOCX dosyası olarak kaydetmeyi içeren adım adım talimatlar ile bu rehber .NET için Aspose.Words içindeki tablolarla çalışmayı basitleştirir. Profesyonel raporlar veya dinamik veri görselleştirmeleri geliştirirken bu örnek, zorlanmadan başlamanıza yardımcı olur.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/bounds-of-axis" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum Talimatları  
+## Kurulum talimatları  
 
-1. .NET için Aspose.Words İndir  
-   Aspose.Words'un en son sürümünü .NET'ten alın[resmi indirme sayfası](https://releases.aspose.com/words/net/).  
+1. .NET için Aspose.Words indir  
+   .NET için Aspose.Words en son versiyonunu alın.[resmi indirme sayfası](https://releases.aspose.com/words/net/)\- Evet .  
 
-2. NuGet Paket Yöneticisi aracılığıyla yükleyin  
-   * Projenizi Visual Studio'da açın.  
-   * Araçlara Git > NuGet Paket Yöneticisi > Çözüm için NuGet Paketlerini Yönet.  
-   * Ara`Aspose.Words`Browse sekmesinde.  
-   * Paketi seçin ve Install'ı tıklayın.  
+2. NuGet Paket Yöneticisi üzerinden yükle  
+   * Projeyi Visual Studio'da aç.  
+   * Araçlara > NuGet Paket Yöneticisi > Çözüm için NuGet Paketleri Yönetin.  
+   * Arama`"Sözler. Sözler"`Browse sekmesinde.  
+   * Paketi seçin ve Kurulum düğmesine tıklayın.  
 
-3. Lisans Ekle _(İsteğe bağlı)_  
-   * Lisansınız varsa, projenize uygulayın. Ayrıntılar için, ziyaret edin[Bir lisans nasıl uygulanır](https://purchase.aspose.com/temporary-license/).  
+3. Lisans Ekle _(Önlü)_  
+   * Eğer lisansınız varsa, projeye uygulayın.[lisans nasıl başvuruda bulunabilir](https://purchase.aspose.com/temporary-license/)\- Evet .  
 
-4. İsim boşluklarını dahil et  
-   Gerekli ad alanlarını eklediğinizden emin olun`.cs`dosya:  
+4. Ad alanları ekle  
+   İsim alanlarını eklemenize emin olun `.cs`Dosya:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    using Aspose.Words.Drawing.Charts;
    ```
 
-## Ayrıca Bakınız
-[.NET Dokümantasyonu için Aspose.Word](https://docs.aspose.com/words/net/)
-[.NET Referansları için Aspose.Word](https://reference.aspose.com/words/net/)
+## Ayrıca bakın
+[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

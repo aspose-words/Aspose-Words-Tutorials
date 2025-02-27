@@ -1,38 +1,38 @@
 //ExStart
-//ExSummary: Denna kod visar hur man applicerar en kontur kant på en tabell i ett Word- dokument med hjälp av Aspose.Words. Det centrerar tabellen på sidan, sätter en grön kant runt bordet, rensar eventuella befintliga gränser, och fyller bordscellerna med en ljusgrön bakgrundsfärg. 
-//ExStepSummary:0: Följande kod initierar dokumentet och hämtar den första tabellen.
-//ExStepSummary:1: Detta steg anpassar tabellen till mitten av sidan.
-//ExStepSummary:2: Detta steg undanröjer alla befintliga gränser från bordet.
-//ExStepSummary:3: Detta steg sätter en grön kant runt bordet men inte inuti.
-//ExStepSummary:4: Detta steg fyller cellerna med en ljusgrön fast färg.
+//ExSummaryDenna kod visar hur man använder en linjergränse på en tabell i ett Word- dokument med hjälp av Aspose.Words. Den centrerar tabellen på sidan, sätter en grön gräns runt tabellen, renar alla befintliga gränser och fyller tabellcellerna med en ljusgrön bakgrundsfärg. 
+//ExStepSummary:0: Följande kod initialiserar dokumentet och hämtar den första tabellen.
+//ExStepSummary:1: Detta steg anordnar tabellen till sidanens centrum.
+//ExStepSummary:2: Detta steg tar bort alla befintliga gränser från bordet.
+//ExStepSummary:3: Detta steg sätter en grön gräns runt bordet men inte inuti.
+//ExStepSummary:4: Detta steg fyller cellerna med en ljusgrön solidfärg.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// Definiera dokumentets katalog
+// Definera dokumentets katalog
 string dataDir = "Your Document Directory";
-// Ladda dokumentet
+// Ladda in dokumentet
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// Hämta den första tabellen från dokumentet
+// Ta fram den första tabellen från dokumentet
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
-// Anpassa tabellen till mitten av sidan
+// Ljussa tabellen i mitten av sidan
 table.Alignment = TableAlignment.Center;
 
 //ExStep:2-
-// Rensa alla befintliga gränser från tabellen
+// Rengör alla befintliga gränser från tabellen
 table.ClearBorders();
 
 //ExStep:3-
-// Ställ in vänster kant
+// Ställ in vänster gräns
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
-// Ställ in höger gräns
+// Ställ in rätt gräns
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
-// Ställ in övre kant
+// Ställ upp gränsen
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
-// Ställ in nedre kant
+// Bestäm nedre gränsen
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
 //ExStep:4-

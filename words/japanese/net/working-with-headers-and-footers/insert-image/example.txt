@@ -1,22 +1,22 @@
 //ExStart
-//ExSummary: このコードは、Asfof.words.NET を使って、単語ドキュメントのヘッダに画像を挿入する方法を示します。
-//ExStepSummary:0: Assoft.document ドキュメントクラスを使って新しい Word ドキュメントを作成します。
-//ExStepSummary:1: ドキュメント作成プログラムを使用してドキュメントのプライマリヘッダに移動します。
-//ExStepSummary:2: ヘッダーに特定の配置、寸法、折り返しオプションを付けて画像を挿入します。
-//ExStepSummary:3: ドキュメントを指定したファイルパスに保存します。
+//ExSummary: このコードは, .NET のAspose.Wordsを使用して,Word ドキュメントのヘッダーに画像を挿入する方法を示します.
+//ExStepSummary:0: Aspose.Words ドキュメントクラスを使用して新しいWordドキュメントを作成します.
+//ExStepSummary:1: ドキュメントビルダーを使用してドキュメントのメインヘッダーに移動します.
+//ExStepSummary:2: 標題に特定の配列,次元,包装オプションを表示する画像を挿入します.
+//ExStepSummary:3: 文書を指定したファイルパスに保存します.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// 新しい Word ドキュメントを作成
+// 新しい Word 文書を作成する
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// カーソルをドキュメントのプライマリヘッダに移動
+// カーソルを文書の主要なヘッダーに移動する
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
 //ExStep:2-
-// 特定の配置と寸法でヘッダに画像を挿入
+// 標題に特定の配列と次元を持つ画像を挿入する
 builder.InsertImage(
     ImagesDir + "Logo.jpg", RelativeHorizontalPosition.RightMargin, 10,
     RelativeVerticalPosition.Page, 10, 50, 50, 
@@ -24,6 +24,6 @@ builder.InsertImage(
 );
 
 //ExStep:3-
-// ドキュメントを指定したパスに保存
+// 文書を指定されたパスに保存する
 doc.Save("WorkingWithHeadersAndFooters.InsertImage.docx");
 //ExEnd

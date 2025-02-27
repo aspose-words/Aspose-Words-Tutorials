@@ -1,8 +1,8 @@
 ---
-title: Styled Table in Word Document mit Aspose.Words für .NET erstellen
+title: Erstellen Sie eine gestylte Tabelle in Word-Dokument mit Aspose.Words für .NET
 weight: 7700
 limit: 
-description: Erfahren Sie, wie Sie ein Word-Dokument mit einer stilisierten Tabelle mit Aspose.Words für .NET erstellen.
+description: Erfahren Sie, wie Sie ein Word-Dokument mit einem gestylten Tisch mit Aspose.Words für .NET erstellen. Einige benutzerdefinierte Tisch-Styling, Grenzen und Polsterung sind enthalten.
 keywords: [Aspose.Words for .NET, styled table, Word document, table style, table formatting, document creation, borders, padding, .NET tutorial]
 url: /de/net/working-with-table-styles-and-formatting/create-table-style/
 ---
@@ -10,31 +10,31 @@ url: /de/net/working-with-table-styles-and-formatting/create-table-style/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Styled Table in Word Document mit Aspose.Words erstellen
+# Erstellen Sie eine gestylte Tabelle in Word-Dokument mit Aspose.Words
 
-In diesem Tutorial führen wir Sie durch den Prozess der Erstellung eines Word- Dokuments mit einer angepassten Tabelle mit Aspose.Words für .NET. Sie lernen, wie Sie ein neues Dokument initialisieren, Tabellenzeilen und Spalten einfügen und einen benutzerdefinierten Tabellenstil mit spezifischen Randeinstellungen und Polsterung anwenden. Am Ende können Sie ein vollständig formatiertes Word- Dokument mit einer stilisierten Tabelle speichern, die Ihren Bedürfnissen entspricht.
+In diesem Tutorial führen wir Sie durch den Prozess der Erstellung eines Word- Dokumentes mit einem benutzerdefinierten Tisch mit Aspose.Words für .NET. Sie lernen, wie Sie ein neues Dokument initialisieren, Tabellenreihen und Spalten einfügen und einen benutzerdefinierten Tabellenstil mit spezifischen Grenzinstellungen und Polsterungen anwenden. Am Ende können Sie ein vollständig formatiertes Word-Dokument mit einem stilisierten Tisch speichern, der Ihren Bedürfnissen entspricht.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/create-table-style" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Installationshinweise:
+## Installationsanweisungen:
 Um mit Aspose.Words für .NET zu beginnen, folgen Sie diesen Schritten:
 
-1. Installieren Sie Aspose.Words: Sie können die neueste Version von Aspose.Words für .NET von der[Veröffentlichungen Seite](https://releases.aspose.com/words/net/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1. Installieren Sie Aspose.Words: Sie können die neueste Version von Aspose.Words für .NET von der [veröffentlicht Seite](https://releases.aspose.com/words/net/)\- Ich weiß .
 
-2. Installieren Sie über NuGet: Sie können auch Aspose.Words für .NET über NuGet installieren. Führen Sie den folgenden Befehl in Ihrem NuGet Package Manager aus:
+2. Installieren Sie über NuGet: Sie können auch Aspose.Words für .NET über NuGet installieren. Führen Sie im NuGet Package Manager den folgenden Befehl aus:
    ```
    Install-Package Aspose.Words
    ```
 
-3. Projekt einrichten: Sobald die Bibliothek installiert ist, können Sie mit der Verwendung in Ihrem Projekt beginnen, indem Sie die notwendigen Namensräume hinzufügen:
+3. Setzen Sie Ihr Projekt ein: Sobald die Bibliothek installiert ist, können Sie sie in Ihrem Projekt verwenden, indem Sie die erforderlichen Namensräume hinzufügen:
    ```csharp
    using Aspose.Words;
    ```
-4. Lizenz anwenden (optional):  
-   Um die Vollversion zu verwenden,[eine Lizenz anwenden](https://purchase.aspose.com/temporary-license/)oder verwenden Sie eine[kostenlose Testversion](https://releases.aspose.com/words/net/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4. Lizenz (optional):  
+   Um die vollständige Version zu verwenden, [eine Lizenz beantragen](https://purchase.aspose.com/temporary-license/)oder eine [Kostenlose Prüfung](https://releases.aspose.com/words/net/)\- Ich weiß .
    
 ## Siehe auch
 [Aspose.Word für .NET-Dokumentation](https://docs.aspose.com/words/net/)

@@ -1,15 +1,15 @@
 //ExStart
-//ExSummary: Kode ini menunjukkan bagaimana memanipulasi tabel dalam dokumen Word menggunakan Aspose.Words. Ini mengambil dokumen yang ada, mengubah batas tabel pertama, dan menyimpan perubahan ke berkas baru.
+//ExSummary: Kode ini menunjukkan cara memanipulasi tabel dalam dokumen Word menggunakan Aspose.Words. Ini mengambil dokumen yang ada, memodifikasi batas tabel pertama, dan menyimpan perubahan ke file baru.
 //ExStepSummary:0: Kode berikut mengatur dokumen dan mengambil tabel pertama dari itu.
-//ExStepSummary:1: Kode berikut membersihkan batas yang ada dari tabel untuk mempersiapkan format baru.
-//ExStepSummary:2: Kode berikut menerapkan batas hijau sekitar dan di dalam meja.
+//ExStepSummary:1: Kode berikut menghapus semua perbatasan yang ada dari tabel untuk mempersiapkan format baru.
+//ExStepSummary:2: Kode berikut berlaku untuk batas hijau di sekitar dan di dalam meja.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Definisikan direktori untuk dokumen
+// Menentukan direktori untuk dokumen
 string dataDir = "Your Document Directory";
-// Muat dokumen
+// Mengunggah dokumen
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
@@ -17,11 +17,11 @@ Document doc = new Document(dataDir + "Tables.docx");
 Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 
 //ExStep:2-
-// Bersihkan batas apapun dari tabel
+// Hapus semua perbatasan yang ada dari tabel
 table.ClearBorders();
 
 //ExStep:3-
-// Mengatur perbatasan hijau sekitar dan di dalam meja
+// Tentukan batas hijau di sekitar dan di dalam meja
 table.SetBorders(LineStyle.Single, 1.5, Color.Green);
 // Simpan dokumen dengan perubahan
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");

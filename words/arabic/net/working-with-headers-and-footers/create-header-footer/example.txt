@@ -1,27 +1,27 @@
 //ExStart
-//ExSummary: يوضح هذا الرمز كيفية إنشاء مستند Word مع رأس وتذييل أساسي باستخدام Apose.Words. يقوم بتهيئة مستند جديد ، وينتقل إلى أقسام الرأس والتذييل ، ويكتب نصًا مخصصًا. أخيرًا ، يحفظ المستند كملف DOCX.
-//ExStepSummary:0: يقوم الكود التالي بتهيئة كائن المستند الرئيسي وإعداد DocumentBuilder.
-//ExStepSummary:1: ينتقل الرمز التالي إلى قسم الرأس الأساسي ويكتب نص الرأس.
-//ExStepSummary:2: ينتقل الرمز التالي إلى قسم التذييل الأساسي ويكتب نص التذييل.
-//ExStepSummary:3: يقوم الكود التالي بحفظ المستند في مسار ملف محدد.
+//ExSummary: هذا البرنامج يوضح كيفية إنشاء مستند Word مع عنوان وقدم أساسي باستخدام Aspose.Words. يبدأ مستند جديد، ينتقل إلى أقسام الرأس وقدم، ويكتب نصًا مخصصًا. أخيرًا، يحفظ الوثيقة كملف DOCX.
+//ExStepSummary:0: يبدأ الرمز التالي كائن الوثيقة الرئيسي ويقوم بتعيين مُصنع الوثيقة.
+//ExStepSummary:1: يذهب الرمز التالي إلى قسم العنوان الأساسي ويكتب نص العنوان.
+//ExStepSummary:2: يذهب الرمز التالي إلى قسم أساسي أساسي ويكتب نص أساسي.
+//ExStepSummary:3: الترميز التالي يحفظ الوثيقة إلى مسار ملف محدد.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// تهيئة كائن مستند جديد
+// إعادة تشغيل كائن وثيقة جديد
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// انقل إلى قسم الرأس الأساسي
+// انتقل إلى القسم الرئيسي
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Write("Header for page.");
 
 //ExStep:2-
-// انتقل إلى قسم التذييل الأساسي
+// انتقل إلى الجزء الأساسي
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("Footer for page."); // Write the footer text
 
 //ExStep:3-
-// احفظ المستند باسم الملف المحدد
+// حفظ الوثيقة مع اسم الملف المحدد
 doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
 //ExEnd

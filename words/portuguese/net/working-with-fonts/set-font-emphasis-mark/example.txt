@@ -1,11 +1,11 @@
 //ExStart
-//ExSummaryEste código demonstra como definir uma marca de ênfase em um documento do Word usando Aspose.words.
+//ExSummaryEste código demonstra como definir um sinal de ênfase em um documento do Word usando Aspose.words.
 //ExStepSummary:0:Criando uma nova instância de documento para trabalhar.
 //ExStepSummary:1:Configurar um DocumentBuilder para manipular o documento.
-//ExStepSummary:2:Aplicando uma marca de ênfase à fonte do construtor.
-//ExStepSummary:3:Escrevendo texto de ênfase para o documento.
+//ExStepSummary:2:Aplicar uma marca de ênfase na fonte do construtor.
+//ExStepSummary:3:Escrever texto de ênfase para o documento.
 //ExStepSummary:4:Escrever um texto simples sem qualquer ênfase.
-//ExStepSummary:5: Este código salva o documento com a marca de ênfase na fonte.
+//ExStepSummary:5: Este código salva o documento com a marca de ênfase para a fonte.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
@@ -14,26 +14,26 @@
 Document document = new Document();
 
 //ExStep:1-
-// Inicialize o DocumentBuilder para manipulação de documentos
+// Iniciar o DocumentBuilder para manipulação de documentos
 DocumentBuilder builder = new DocumentBuilder(document);
 
 //ExStep:2-
-// Definir marca de ênfase para UnderSolidCircle
+// Coloque um sinal de ênfase no UnderSolidCircle
 builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
 
 //ExStep:3-
-// Escreva o texto de ênfase para o documento
+// Escreva o texto de ênfase no documento
 builder.Write("Emphasis text");
-// Mover para a próxima linha
+// Passe para a linha seguinte .
 builder.Writeln();
-// Limpar a formatação da fonte para o texto subsequente
+// Limpar a forma de fonte para o texto subsequente
 builder.Font.ClearFormatting();
 
 //ExStep:4-
-// Escrever texto simples sem ênfase
+// Escreva texto simples sem ênfase
 builder.Write("Simple text");
 
 //ExStep:5-
-// Salve o documento no caminho especificado
+// Salvar o documento no caminho especificado
 document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
 //ExEnd

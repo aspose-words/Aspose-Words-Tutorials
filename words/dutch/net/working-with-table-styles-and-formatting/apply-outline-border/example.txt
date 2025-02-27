@@ -1,38 +1,38 @@
 //ExStart
-//ExSummary: Deze code laat zien hoe je een omtrekrand aan een tabel in een Word-document toe te passen met behulp van Aspose.Words. Het centreert de tabel op de pagina, zet een groene rand rond de tabel, verwijdert eventuele bestaande randen, en vult de tafelcellen met een lichtgroene achtergrondkleur. 
+//ExSummaryDeze code toont hoe een schets grens op een tabel in een Word-document wordt toegepast met behulp van Aspose.Words. Het richt de tabel op de pagina in het midden, stelt een groene grens rond de tafel, maakt alle bestaande grenzen vrij en vult de tabellencel met een lichtgroene achtergrondkleur. 
 //ExStepSummary:0: De volgende code initialiseert het document en haalt de eerste tabel.
-//ExStepSummary:1: Deze stap brengt de tabel naar het midden van de pagina.
-//ExStepSummary:2: Deze stap verwijdert alle bestaande grenzen van de tabel.
-//ExStepSummary:3: Deze stap zet een groene rand rond de tafel maar niet binnen.
-//ExStepSummary:4: Deze stap vult de cellen met een lichtgroene effen kleur.
+//ExStepSummary:1: Deze stap brengt de tabel in het midden van de pagina.
+//ExStepSummary:2: Deze stap maakt alle bestaande grenzen vrij.
+//ExStepSummary:3: Deze stap zet een groene grens rond de tafel, maar niet binnen.
+//ExStepSummary:4: Deze stap vult de cellen met een lichtgroene vaste kleur.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// De map van het document definiëren
+// Definieer de lijst van het document
 string dataDir = "Your Document Directory";
 // Het document laden
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// De eerste tabel uit het document ophalen
+// Het eerste tabel in het document te vinden
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
-// De tabel uitlijnen naar het midden van de pagina
+// Verwijder de tabel naar het midden van de pagina
 table.Alignment = TableAlignment.Center;
 
 //ExStep:2-
-// Alle bestaande randen uit de tabel wissen
+// Maak alle bestaande grenzen vrij van de tafel
 table.ClearBorders();
 
 //ExStep:3-
-// Linkerrand instellen
+// Links grenzen
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
-// Rechterrand instellen
+// Registreer de rechtergrens
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
-// Bovenrand instellen
+// Bepaal bovengrens
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
-// Onderrand instellen
+// Bepaalde bodemgrens
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
 //ExStep:4-

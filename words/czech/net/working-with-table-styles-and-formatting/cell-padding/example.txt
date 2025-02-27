@@ -1,38 +1,38 @@
 //ExStart
-//ExSummary: Následující kód ukazuje, jak vytvořit dokument Word s formátovanou stolní buňkou, která zahrnuje polstrování kolem jeho obsahu.
-//ExStepSummary:0: Následující kód inicializuje nový dokument a stavitel dokumentů.
-//ExStepSummary:1: Následující kód spouští tabulku uvnitř dokumentu.
-//ExStepSummary:2: Následující kód vkládá buňku do tabulky.
-//ExStepSummary:3: Následující kód nastaví vycpávku pro obsah buňky.
-//ExStepSummary:4: Následující kód doplňuje text do buňky a dokončí aktuální řádek.
-//ExStepSummary:5: Následující kód ukončí tabulku a uloží dokument do souboru.
+//ExSummary: Následující kód ukazuje, jak vytvořit dokument Word s formátovanou buňkou tabulky, která obsahuje náplň kolem obsahu.
+//ExStepSummary:0: Následující kód iniciuje nový dokument a konstruktor dokumentů.
+//ExStepSummary:1: Následující kód začíná tabulkou v dokumentu.
+//ExStepSummary:2: Následující kód vloží buňku do tabulky.
+//ExStepSummary:3: Následující kód stanoví náplň pro obsah buňky.
+//ExStepSummary:4: Následující kód přidává text do buňky a dokončí současný řádek.
+//ExStepSummary:5: Následující kód končí tabulku a ukládá dokument do souboru.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Inicializace nového dokumentu
+// Vypředujte nový dokument
 Document doc = new Document();
-// Vytvořit tvůrce dokumentů pro manipulaci s dokumentem
+// Vytvořit program pro manipulaci s dokumentem
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Začněte vytvářet tabulku
+// Začít vytvářet tabulku
 builder.StartTable();
-// Vložit novou buňku do tabulky
+// Vkládání nové buňky do tabulky
 builder.InsertCell();
 
 //ExStep:2-
-// Nastavit polstrování s 30 body nahoře a dole, 50 bodů vlevo a vpravo
+// Nastavení náplně s 30 body nahoře a dolů, 50 bodů vlevo a vpravo
 builder.CellFormat.SetPaddings(30, 50, 30, 50);
 
 //ExStep:3-
 builder.Writeln("I'm a wonderful formatted cell.");
-// Dokončit aktuální řádek v tabulce
+// Začněte současný řádek v tabulce
 builder.EndRow();
-// Ukončete stůl.
+// Zastavte stůl.
 builder.EndTable();
 
 //ExStep:4-
-// Uložit dokument do zadaného souboru
+// Uložte dokument do specifikovaného souboru
 doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
 //ExEnd

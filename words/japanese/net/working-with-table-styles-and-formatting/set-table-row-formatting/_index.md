@@ -1,8 +1,8 @@
 ---
-title: アクセシビリティ付きの単語に書式設定された表を作成. NET 用の用語
+title: .NET のAspose.WordsでWord でフォーマットされたテーブルを作成する
 weight: 7700
 limit: 
-description: Public domainPublic domainPublic domainPublic domainfalse.
+description: このステップバイ・ステップ例で .NET のAspose.Wordsを使用してフォーマットされたテーブルでWordドキュメントを作成することを学びましょう.
 keywords: [Aspose.Words, .NET, Word document, formatted table, DocumentBuilder, table formatting, C# example]
 url: /ja/net/working-with-table-styles-and-formatting/set-table-row-formatting/
 ---
@@ -10,31 +10,31 @@ url: /ja/net/working-with-table-styles-and-formatting/set-table-row-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# アクセシビリティ付きの単語に書式設定された表を作成Name
+# Aspose.Wordsで文字に格式化された表を作成する
 
-この例は、Asdom.NET を使って書式設定された表を含むワード文書を作成する方法を示します。新しい文書の初期化を学び、特定の行の書式設定とパディングを備えたテーブルを設定し、特定のパスに保存します。 このガイドは、ドキュメントの生成能力を Asfof.programs で改善することを目指す開発者に適しています。
+この例では,NETのAspose.Wordsを使用してフォーマットされたテーブルを含むWord文書を作成する方法を示します.新しいドキュメントを初期化し,特定の行フォーマットとパッディングのテーブルを設定し,ドキュメントを指定されたパスに保存します.このガイドは",Aspose.Words"でドキュメント生成能力を強化したい開発者にとって理想的です.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/set-table-row-formatting" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## インストールインジケータ
-1. Assoft.NET: Asfof.wordsをインストールするには NuGetパッケージマネージャを使用します。パッケージマネージャで以下のコマンドを実行できます。
+## 設置指示
+1. .NET のAspose.Wordsをインストールする. Aspose.Wordsをインストールするには NuGet パッケージマネージャーを使用する. パッケージマネージャー コンソールで次のコマンドを実行できます.
    ```
    Install-Package Aspose.Words
    ```
 
 2. Create a New Project: Open Visual Studio and create a new C# project (Console Application or any type you prefer).
 
-3. 参照を追加: プロジェクトで Assoft.word ライブラリが参照されていることを確認します。
+3. 参照を追加する:プロジェクトでAspose.Wordsライブラリが参照されていることを確認します.
 
-4. ライセンスを適用する (オプション):  
-   2020年3月13日閲覧. ^ "[全版版]全面的に利用". 日本経済新聞 (日本経済新聞社). 日本経済新聞 (日本経済新聞社) (日本経済新聞社).[ライセンスを適用する](https://purchase.aspose.com/temporary- license/)または[フリーの試行](https://releases.aspose.com/words/net/))をいう.
+4. 申請許可 (オプション):  
+   完全なバージョンを使用するために[ライセンス申請](https://purchase.aspose.com/temporary-license/) [無料試験](https://releases.aspose.com/words/net/)やってくれ
    
-## また、参照してください。
-[Asforce. NET ドキュメンテーション用用語](https://docs.aspose.com/words/net/)
-[access. ^ a b c d e f g h i ". NET インフォメーション".](https://reference.aspose.com/words/net/)
+## また見てください
+[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
+[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

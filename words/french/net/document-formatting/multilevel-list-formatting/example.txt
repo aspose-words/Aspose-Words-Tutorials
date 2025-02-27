@@ -1,12 +1,12 @@
 //ExStart
-//ExSummary: Ce code montre comment créer une liste multiniveaux dans un document Word en utilisant Aspose.Words. Il initialise un document, applique un format de numérotation, crée des éléments principaux et des sous-éléments, et finalement enregistre le document comme un fichier .docx.
-//ExStepSummary:0: Le code suivant initialise un nouveau document et une instance DocumentBuilder.
-//ExStepSummary:1: Le code suivant applique un style de numérotation par défaut à la liste et ajoute des éléments de haut niveau.
-//ExStepSummary:2: Les tirets de code suivants pour créer des sous-éléments dans le deuxième élément de niveau supérieur.
-//ExStepSummary:3: Les sous-alinéas suivants visent à créer des sous-alinéas au titre du deuxième sous-alinéa.
-//ExStepSummary:4: Le code qui suit renvoie au niveau précédent pour ajouter un autre élément au deuxième niveau.
-//ExStepSummary:5: Le code qui suit retourne au niveau supérieur pour ajouter l'élément final dans la liste.
-//ExStepSummary:6: Le code suivant supprime la numérotation de la liste avant d'enregistrer.
+//ExSummaryCe code démontre comment créer une liste à plusieurs niveaux dans un document Word à l'aide de Aspose.Words. Il initie un document, applique un format de numérotation, crée des éléments principaux et sous-éléments, et sauvegarde finalement le document en tant que fichier .docx.
+//ExStepSummary:0: Le code suivant initie un nouveau document et l'instance DocumentBuilder.
+//ExStepSummary:1: Le code suivant applique un style de numérotation par défaut à la liste et ajoute des éléments de premier niveau.
+//ExStepSummary:2: Les tirets suivants du code pour créer des sous-articles dans le deuxième élément de niveau supérieur.
+//ExStepSummary:3: Le code suivant donne des tirets supplémentaires pour créer des sous-éléments au titre du deuxième sous-élément.
+//ExStepSummary:4: Le code suivant est renvoyé au niveau précédent pour ajouter un autre élément au deuxième niveau.
+//ExStepSummary:5: Le code suivant est redescendu au niveau supérieur pour ajouter le point final à la liste.
+//ExStepSummary:6: Le code suivant supprime les numéros de la liste avant de les enregistrer.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -14,7 +14,7 @@
 //ExStepImage:5:images/5.png
 //ExStepImage:6:images/6.png
 //ExStep:0-
-// Initialiser un nouveau document
+// Initialement d'un nouveau document
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -25,29 +25,29 @@ builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 
 //ExStep:2-
-// Indicatif pour les sous-points
+// Indemnité pour les sous-articles
 builder.ListFormat.ListIndent();
 builder.Writeln("Item 2.1");
 builder.Writeln("Item 2.2");
 
 //ExStep:3-
-// Indique pour les sous-sous-points
+// Indemnité pour les sous-subitems
 builder.ListFormat.ListIndent();
 builder.Writeln("Item 2.2.1");
 builder.Writeln("Item 2.2.2");
 
 //ExStep:4-
-// Retour au deuxième niveau
+// \- Il est de retour au deuxième niveau.
 builder.ListFormat.ListOutdent();
 builder.Writeln("Item 2.3");
 
 //ExStep:5-
-// Retour au niveau supérieur
+// Le dément est de retour au niveau supérieur.
 builder.ListFormat.ListOutdent();
 builder.Writeln("Item 3");
 
 //ExStep:6-
-// Supprimer la numérotation de la liste
+// Supprimer le numérotation de la liste
 builder.ListFormat.RemoveNumbers();
 
 //ExStep:7-

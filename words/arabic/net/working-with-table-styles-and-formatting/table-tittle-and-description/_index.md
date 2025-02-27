@@ -1,8 +1,8 @@
 ---
-title: أضف العنوان والوصف إلى الجدول في Word باستخدام Aspose.Words
+title: إضافة العنوان والوصف إلى الجدول في Word باستخدام Aspose.Words
 weight: 7700
 limit: 
-description: تعرّف على كيفية إضافة عنوان ووصف إلى جدول في مستند Word باستخدام Apose.Words for .NET في هذا المثال السهل المتابعة.
+description: تعلم كيفية إضافة عنوان وصف إلى جدول في مستند Word مع Aspose.Words ل .NET في هذا المثال السهل التابعة.
 keywords: [Aspose.Words, Word document, table title, table description, .NET example, table formatting, Aspose, OoxmlSaveOptions, document processing]
 url: /ar/net/working-with-table-styles-and-formatting/table-tittle-and-description/
 ---
@@ -10,9 +10,9 @@ url: /ar/net/working-with-table-styles-and-formatting/table-tittle-and-descripti
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# أضف العنوان والوصف إلى الجدول في Word باستخدام Aspose.Words
+# إضافة العنوان والوصف إلى الجدول في Word باستخدام Aspose.Words
 
-يوضح هذا الدليل كيفية تحسين مستندات Word الخاصة بك عن طريق إضافة عنوان ووصف إلى الجداول باستخدام Apose.Words for .NET. ستتعلم كيفية معالجة خصائص الجدول في مستند Word موجود ، وتكوين خيارات الحفظ للتوافق المطلوب ، وضمان التنسيق الأمثل لـ Word 2016. يرشدك رمز المثال من خلال تحميل مستند ، وتحديث خصائص الجدول الخاصة به ، وحفظ الملف مع إعدادات التكوين الدقيقة.
+يوضح هذا الدليل كيفية تعزيز مستندات Word من خلال إضافة عنوان وصف إلى الجداول باستخدام Aspose.Words ل .NET. سوف تتعلم كيفية التعامل مع خصائص الجدول في مستند Word موجود، وتكوين خيارات حفظ للموافقة المرغوبة، وضمان تنسيق محسن لـ Word 2016. يشير لك رمز المثال عبر تحميل مستند، وتحديث خصائص الجدول، وتخزين الملف مع إعدادات التكوين الدقيقة.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/table-tittle-and-description" >}}
@@ -21,20 +21,20 @@ url: /ar/net/working-with-table-styles-and-formatting/table-tittle-and-descripti
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت:
 
-للبدء باستخدام Apose.Words for .NET وتشغيل هذا المثال، اتبع الخطوات البسيطة التالية:
+لبدء Aspose.Words ل .NET وتشغيل هذا المثال، اتبع هذه الخطوات البسيطة:
 
-1. تثبيت Apose.Words ل.NET:
-   يمكنك بسهولة تثبيت Apose.Words لـ .NET عبر NuGet. قم بتشغيل الأمر التالي في وحدة تحكم إدارة الحزمة:
+1. قم بتثبيت Aspose.Words لـ .NET:
+   يمكنك بسهولة تثبيت Aspose.Words ل .NET عبر NuGet. قم بتشغيل الأمر التالي في جهاز إدارة الحزم:
    ```
    Install-Package Aspose.Words
    ```
 
-2. تطبيق الترخيص (اختياري):  
-   لاستخدام النسخة الكاملة،[تطبيق ترخيص](https://purchase.aspose.com/temporary- license/)أو استخدام أ[تجربة مجانية](https://releases.aspose.com/words/net/)...
+2. التقدم بطلب للحصول على الترخيص (اختياري):  
+   لاستخدام النسخة الكاملة[تطبيق رخصة](https://purchase.aspose.com/temporary- license/)أو استخدام[المحاكمة المجانية](https://releases.aspose.com/words/net/). . .
    
-## انظر أيضا
-[Aspose.Word لوثائق .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word لمراجع .NET](https://reference.aspose.com/words/net/)
+## انظر أيضاً
+[Aspose.Word للمستندات .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word للمراجع .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

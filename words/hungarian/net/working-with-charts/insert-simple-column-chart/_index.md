@@ -1,8 +1,8 @@
 ---
-title: Helyezzen be egy egyszerű oszlopdiagramot a Wordbe az Aspose.Words for .NET használatával
+title: Adjon be egy egyszerű oszlop-kártyát a Word-be .NET-hez Aspose.Words használatával
 weight: 7700
 limit: 
-description: Ismerje meg, hogyan szúrhat be egy egyszerű oszlopdiagramot egy Word dokumentumba az Aspose.Words for .NET használatával. Kövesse a diagram létrehozásához és testreszabásához szükséges részletes utasításokat.
+description: Tanuljon meg, hogyan kell egy egyszerű oszlop-tervet beilleszteni egy Word dokumentumba a .NET-hez használt Aspose.Words segítségével. Kövesse a lépésről lépésre vonatkozó utasításokat a térkép létrehozásához és személyre szabásához.
 keywords: [Aspose.Words for .NET, insert column chart, create Word chart, .NET Word chart example, Word document chart, Aspose chart example]
 url: /hu/net/working-with-charts/insert-simple-column-chart/
 ---
@@ -10,41 +10,41 @@ url: /hu/net/working-with-charts/insert-simple-column-chart/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Egyszerű oszlopdiagram beillesztése a Wordbe az Aspose.Words használatával
+# A Aspose.Words használatával a Word-ban egy egyszerű oszlopra soroljon
 
-Az Aspose.Words for .NET megkönnyíti a professzionális Word dokumentumok létrehozását gazdag tartalommal. Ebben a bemutatóban megtudhatja, hogyan kell egy egyszerű oszlopdiagramot beilleszteni egy Word dokumentumba programmatikusan. Minden lépést lefedünk, a dokumentum inicializálásától a diagramsorozat testreszabásáig és a fájl mentéséhez. Akár jelentéseket készít, akár adatokat jelenít meg, ez az útmutató minden részletet megad, amire szüksége van a diagram beillesztéséhez az Aspose segítségével.Words for .  
+Az .NET-hez használt Aspose.Words egyszerűen teszi lehetővé a gazdag tartalommal rendelkező professzionális Word dokumentumok létrehozását. Ebben a tankönyvben megtanulja, hogyan kell programosan beilleszteni egy egyszerű oszlop-tervet egy Word dokumentumba. Minden lépést lefedünk, a dokumentum kezdeményezésétől kezdve a diagram sorozatának személyre szabására és a fájl mentésére. Akár jelentéseket generál vagy adatot látványosít, ez a útmutató minden olyan részletet nyújt, amire szüksége van a .NET-hez használt Aspose.Words segítségével a diagram beillesztésére.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-simple-column-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Telepítési útmutató  
-A példa használatához győződjön meg róla, hogy telepítve van az Aspose.Words for .NET. Kövesse az alábbi lépéseket:  
+## A telepítési utasítások  
+A példát használhatod, ha van telepített .NET-es Aspose.Words.  
 
-1. Letöltés Aspose.Words .NET:  
-   Látogatás[Aspose.Words for .NET Letöltés](https://releases.aspose.com/words/net/)Töltse le a legújabb verziót.  
+1. Letöltsd le az Aspose.Words .NET-hez:  
+   Látogatás[Aspose.Words a .NET letöltéshez](https://releases.aspose.com/words/net/)és letöltsük az utolsó verziót.  
 
-2. Telepítse a könyvtárat:  
-   * Adja hozzá az Aspose.Words NuGet csomagot a projekthez. Futtassa a következő parancsot a NuGet csomagkezelő konzolon:  
+2. Beállítsa a Könyvtárat:  
+   * Adja hozzá a Aspose.Words NuGet csomagot a projekthez.  
      ```sh
      Install-Package Aspose.Words
      ```  
-   * Alternatív megoldásként adja hozzá a`.dll`a projektre mutató hivatkozásokat manuálisan.  
+   * Alternatív módon, adjuk hozzá a `.dll`kézilag a projektjogi hivatkozásokhoz.  
 
-3. Szerezzen licencet:  
-   * Szerezzen licencet a[Aspose Vásárlás](https://purchase.aspose.com/buy)vagy kérjen ingyenes próbaverziót[Aspose Ingyenes próbaverzió](https://releases.aspose.com/)Nem.  
+3. Szerezzenek engedélyt!  
+   * Szerezz engedélyt![Célszerű vásárolni](https://purchase.aspose.com/buy)vagy kérjük a ingyenes próba vizsgálatot a [Képzelj ingyenes próbázást](https://releases.aspose.com/)\- Nem.  
 
-4. Alkalmazza a licencet:  
-   A licenc aktiválásához adja hozzá a következő kódot a projekthez:  
+4. A Licenc alkalmazása:  
+   A licenc aktiválásához a következő kódot adja a projekthez:  
    ```csharp
    License license = new License();
    license.SetLicense("path-to-your-license-file.lic");
    ```  
 
-## Lásd még
-[Aspose.Word for .NET dokumentáció](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referenciák](https://reference.aspose.com/words/net/)
+## Lásd:
+[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

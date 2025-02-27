@@ -1,8 +1,8 @@
 ---
-title: Területi diagram beszúrása a Word dokumentumba Aspose.Words for .NET
+title: Beillesztse a térképet a Word dokumentumba.
 weight: 7700
 limit: 
-description: Ismerje meg, hogyan szúrhat be területdiagramot egy Word dokumentumba az Aspose.Words for .NET használatával. Kövesse a lépésről lépésre szóló utasításokat kódpéldákkal és képekkel.
+description: Tanuljon meg, hogyan kell beilleszteni egy térképet a Word dokumentumba a .NET-hez Aspose.Words segítségével. Kövesse a lépésről lépésre adott utasításokat kód példákkal és vizuális képekkel.
 keywords: [Aspose.Words for .NET, insert area chart, Word document chart, area chart example, C# Word chart tutorial, Aspose.Words charting, Word chart example]
 url: /hu/net/working-with-charts/insert-area-chart/
 ---
@@ -10,42 +10,42 @@ url: /hu/net/working-with-charts/insert-area-chart/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Területdiagram beszúrása Word dokumentumba 
+# Beilleszteni a térképet a Word dokumentumba 
 
-Aspose.Words for .NET megkönnyíti a dinamikus és vizuálisan vonzó diagramok hozzáadását a Word dokumentumokhoz. Ez a bemutató bemutatja, hogyan lehet egy területdiagramot programozottan beilleszteni egy Word dokumentumba. A megadott lépésenkénti útmutató magában foglalja a dokumentum inicializálását, a területdiagram beillesztését, adatsorok hozzáadását egyéni adatpontokkal, és a végső dokumentum mentését. Tökéletes a fejlesztők számára, akik a dokumentumautomatizálási munkafolyamataikat térképezési képességekkel kívánják bővíteni.
+A .NET-hez használt Aspose.Words egyszerűvé teszi a Word dokumentumokra dinamikus és vizuálisan vonzó grafikonok hozzáadását. Ez a tanár bemutatja, hogyan kell programosan beilleszteni egy térségdiagramot a Word dokumentumba. A megadott lépésről lépésre szolgáló útmutató magában foglalja a dokumentum initializálását, a térségdiagram beillesztését, az adat adatpontokkal rendelkező adat sorozatok hozzáadását és a végső dokumentum megőrzését. Teljes a fejlesztők számára, akik a dokumentum automatizálási munkafolyamaikat a diagramképképképek segítségével szeretnék növelni.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/bounds-of-axis" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Telepítési útmutató  
+## A telepítési utasítások  
 
-Ha követni szeretné ezt a példát, győződjön meg róla, hogy telepítve van az Aspose.Words for .NET. Itt van, hogyan kell elkezdeni:  
+A következő példa követése érdekében győződjön meg róla, hogy van telepített Aspose.Words a .NET-hez.  
 
-1. Letöltés Aspose.Words .NET:  
-   Látogasson el a[Aspose.Words letöltési oldal](https://releases.aspose.com/words/net/)Töltse le a legújabb verziót.  
+1. Letöltsd le az Aspose.Words .NET-hez:  
+   Látogasson el a[Aspose.Words letöltőoldal](https://releases.aspose.com/words/net/)és letöltsük az utolsó verziót.  
 
-2. Telepítés a NuGet csomagkezelőn keresztül:  
-   Nyissa meg a projektet a Visual Studio-ban, és futtassa a következő parancsot a Csomagkezelő konzolon:  
+2. A NuGet csomagkezelő segítségével telepítse:  
+   Nyissa ki a projektét a Visual Studio-ban, és futtassa ki a következő parancsot a csomagkezelő konzoltól:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-3. Licenc alkalmazása (opcionális):  
-   A teljes funkcionalitáshoz értékelési korlátozások nélkül, alkalmazzon licencet.[itt](https://purchase.aspose.com/buy)vagy kérjen a[Ingyenes ideiglenes licenc](https://purchase.aspose.com/temporary-license)Nem.  
+3. A licenc alkalmazása (Felhetős):  
+   A teljes funkcionalitás, értékelés korlátai nélkül, engedélyt kérjen.[Itt van.](https://purchase.aspose.com/buy)vagy kérje a[ingyenes ideiglenes engedély](https://purchase.aspose.com/temporary-license)\- Nem.  
 
-4. Névtérhivatkozások hozzáadása:  
-   Győződjön meg róla, hogy a következő névterek szerepelnek a projektben:  
+4. Adjon névhely hivatkozásokat:  
+   A projekthez a következő névterületek tartoznak:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    using Aspose.Words.Drawing.Charts;
    ```  
 
-## Lásd még
-[Aspose.Word for .NET dokumentáció](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referenciák](https://reference.aspose.com/words/net/)
+## Lásd:
+[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

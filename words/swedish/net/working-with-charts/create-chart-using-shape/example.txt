@@ -1,9 +1,9 @@
 //ExStart
-//ExSummary: Kontrollera följande kod för att hitta hur du skapar ett linjediagram i ett Word-dokument. Du kan kopiera koden till din IDE och köra den.
-//ExStepSummary:0: Följande kod visar hur man skapar ett nytt dokument och instancerar en DocumentBuilder:
-//ExStepSummary:1: Följande kod visar hur man infogar ett raddiagram i dokumentet:
-//ExStepSummary:2: Följande kod förklarar hur man ställer in titeln på diagrammet:
-//ExStepSummary:3: Följande kod visar hur man konfigurerar diagramlegendens positions- och overlayinställningar:
+//ExSummarySe följande kod för att hitta hur man skapar en rad diagram i ett Word- dokument.
+//ExStepSummary:0: Följande kod visar hur man skapar ett nytt dokument och instansierar en DocumentBuilder:
+//ExStepSummary:1: Följande kod visar hur man lägger in en linje i dokumentet:
+//ExStepSummary:2: Följande kod förklarar hur titeln för diagrammet ska anges:
+//ExStepSummary:3: Följande kod visar hur du konfigurerar diagramlegendens position och överlagningsinställningar:
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -13,21 +13,21 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Infoga ett linjediagram i dokumentet vid angivna mått
+// Lägg in en linjekart i dokumentet vid angivna dimensioner
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
 
 //ExStep:2-
-// Få tillgång till diagramobjektet från formen
+// Tillträde till objektet diagram från formen
 Chart chart = shape.Chart;
-// Aktivera diagramrubrikens synlighet
+// Aktivera synligheten av diagramtiteln
 chart.Title.Show = true;
-// Ställ in titeltexten för diagrammet
+// Ange titelteksten för diagrammet
 chart.Title.Text = "Line Chart Title";
-// Se till att titeln inte överlagrar diagrammet
+// Se till att titeln inte överlappar diagrammet
 chart.Title.Overlay = false;
 
 //ExStep:3-
-// Ställ in positionen för sjökortslegenden till vänster
+// Ställ platsen för diagrammet legend till vänster
 chart.Legend.Position = LegendPosition.Left;
 chart.Legend.Overlay = true;
 

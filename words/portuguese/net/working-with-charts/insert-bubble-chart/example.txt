@@ -1,28 +1,28 @@
 //ExStart
-//ExSummary: Este código demonstra como inserir um gráfico de bolha em um documento do Word usando Aspose.Words.
-//ExStepSummary:0: O código a seguir inicializa um novo Documento e DocumentBuilder.
+//ExSummary: Este código demonstra como inserir um gráfico de bolhas em um documento do Word usando Aspose.Words.
+//ExStepSummary:0: O código a seguir inicializa um novo Document e DocumentBuilder.
 //ExStepSummary:1: Um gráfico de bolhas é criado e adicionado ao documento usando o DocumentBuilder.
-//ExStepSummary:2: A série de dados para o gráfico Bubble é adicionada com valores específicos de X, Y e tamanho.
-//ExStepSummary:3: Finalmente, o documento é salvo com o gráfico de bolhas inserido.
+//ExStepSummary:2: A série de dados para o gráfico de bolhas é adicionada com valores específicos de X, Y e tamanho.
+//ExStepSummary:3: Finalmente, o documento é salvo com o gráfico Bubble inserido.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Inicializar um novo Documento e DocumentBuilder
+// Iniciar um novo Document e DocumentBuilder
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Inserir um gráfico de bolha no documento
+// Insira um gráfico de bolhas no documento
 Shape shape = builder.InsertChart(ChartType.Bubble, 432, 252);
 
 //ExStep:2-
-// Adicionar série de dados ao gráfico Bubble
+// Adicionar séries de dados ao gráfico Bubble
 Chart chart = shape.Chart;
 chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, // X values
     new double[] { 2.7, 3.2, 0.8 }, // Y values
     new double[] { 10, 4, 8 }); // Size values for the bubbles
 
 //ExStep:3-
-// Salve o documento com o gráfico Bubble
+// Salvar o documento com o gráfico Bubble
 doc.Save("WorkingWithCharts.InsertBubbleChart.docx");
 //ExEnd

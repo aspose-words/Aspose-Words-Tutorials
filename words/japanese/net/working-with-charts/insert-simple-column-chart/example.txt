@@ -1,50 +1,50 @@
 //ExStart
-//ExSummary: シンプルな列グラフをワードドキュメントに挿入する方法を見つけるには、次のコードをチェックしてください。このコードを IDE にコピーして実行してください。
-//ExStepSummary:0: このコードは、Asfof.wordsを使ってワード文書を作成する方法を示します。
-//ExStepSummary:1: このコードは、単語の内容を操作するための文書作成オブジェクトを作成する方法を示します。
-//ExStepSummary:2: このコードは、指定した寸法でドキュメントに列グラフシェイプを挿入する方法を示します。
-//ExStepSummary:3: このコードは、挿入したシェイプからグラフオブジェクトを取得し、さらにカスタマイズします。
-//ExStepSummary:4: このコードは、チャート系列のコレクションにアクセスし、系列のカウントを印刷する方法を示します。
-//ExStepSummary:5: このコードは、グラフで作成されている可能性があります。
-//ExStepSummary:6: このコードは、グラフのデータのカテゴリ名を定義する方法を示すものです。
-//ExStepSummary:7: このコードは、対応するカテゴリ名とデータ値を持つグラフにシリーズを追加する方法を示します。
-//ExStepSummary:8: このコードは、挿入したグラフを指定したファイルに保存します。
+//ExSummary:Word文書に簡単な列表を挿入する方法については,次のコードを確認してください.このコードをIDEにコピーして実行できます.
+//ExStepSummary:0: このコードではAspose.Wordsを使用してWord文書を作成し,その中に列表を挿入する方法を示します.
+//ExStepSummary:1: このコードでは,Wordコンテンツを操作するためのドキュメントビルダーオブジェクトを作成する方法を示します.
+//ExStepSummary:2: このコードでは,文書に指定された次元を持つ列表形状を挿入する方法を示します.
+//ExStepSummary:3: このコードは,追加カスタマイズのために挿入された形からチャートオブジェクトを回収します.
+//ExStepSummary:4: このコードでは,チャートシリーズコレクションにアクセスし,シリーズ数を印刷する方法を示します.
+//ExStepSummary:5: このコードは,チャートで作成された任意のデフォルトシリーズをクリアします.
+//ExStepSummary:6: このコードは,チャートのデータのためのカテゴリー名を定義する方法を示します.
+//ExStepSummary:7: このコードでは,該当するカテゴリー名とデータ値を持つチャートにシリーズを追加する方法を示します.
+//ExStepSummary:8: このコードは,挿入したチャートを含む文書を指定されたファイルに保存します.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
 //ExStepImage:7:images/4.png
 //ExStep:0-
-// 新しい Word ドキュメントインスタンスを作成します。
+// 新しい Word 文書インスタンスを作成する.
 Document doc = new Document();
 
 //ExStep:1-
-// ドキュメントビルダーを作成して、ドキュメントに要素を挿入しやすくします。
+// ドキュメントビルダーを作成して,ドキュメントに簡単に要素を挿入します.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:2-
-// 一定の幅 (432) と高さ (252) の列グラフシェイプを挿入します。
+// 列表形状を指定した幅 (432) と高度 (252) に挿入する.
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 
 //ExStep:3-
-// グラフオブジェクトを形から取得し、さらに操作します。
+// 図形から図形を回収し,さらに操作する.
 Chart chart = shape.Chart;
 
 //ExStep:4-
-// チャートの連続コレクションにアクセスします。
+// 図のシリーズコレクションにアクセスしてください.
 ChartSeriesCollection seriesColl = chart.Series;
-// 表内の系列番号をコンソールに出力します。
+// グラフのシリーズ番号をコンソールに印刷する.
 Console.WriteLine(seriesColl.Count);
 
 //ExStep:5-
-// グラフが作成されたときに自動的に生成されたデフォルトの系列を削除します。
+// 図が作成されたときに自動的に生成されたデフォルト列を削除します.
 seriesColl.Clear();
 
 //ExStep:6-
-// グラフデータにおけるカテゴリ名を指定します。
+// グラフデータのためのカテゴリー名列を定義する.
 string[] categories = new string[] { "Category 1", "Category 2" };
 
 //ExStep:7-
-// グラフに複数の系列を、カテゴリ名とデータ値で追加します。
+// カテゴリー名とデータ値を持つグラフに複数のシリーズを追加する.
 seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
 seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
 seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
@@ -52,6 +52,6 @@ seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
 seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
 
 //ExStep:8-
-// ドキュメントに挿入したグラフを指定したファイルパスに保存します。
+// 挿入したチャートを含むドキュメントを指定されたファイルパスに保存します.
 doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
 //ExEnd

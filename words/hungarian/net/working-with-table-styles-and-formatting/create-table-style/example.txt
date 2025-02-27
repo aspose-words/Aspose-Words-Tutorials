@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary: Ez a kód bemutatja, hogyan hozhat létre Word dokumentumot egy stílustáblázattal az Aspose.Words használatával. 
-//ExStepSummary:0: Új dokumentum és DocumentBuilder inicializálása.
-//ExStepSummary:1: Új táblázat indítása és fejléccellák beszúrása a "Név" és az "Érték" mezőbe.
-//ExStepSummary:2: Hozzon létre egy egyéni TableStyle-t konkrét határ- és párnázási beállításokkal.
-//ExStepSummary:3: Mentse a dokumentumot az új táblázatstílus alkalmazásával.
+//ExSummary: Ez a kód bemutatja, hogyan lehet egy Word dokumentumot létrehozni egy stílusú táblázatkal a Aspose.Words használatával. 
+//ExStepSummary:0: Indítsa be egy új Dokumentum és Dokumentumépítő.
+//ExStepSummary:1: Indítson egy új táblázatot és adja be a "Name" és "Value" címlapot.
+//ExStepSummary:2: Készíts egy egyedi TableStyle-t, amely specifikus határ- és tömlesztési beállításokkal rendelkezik.
+//ExStepSummary:3: Takarítsa meg a dokumentumot az új táblázat stílusával.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Új dokumentumobjektum létrehozása
+// Új Dokumentum objektum létrehozása
 Document doc = new Document();
-// A DocumentBuilder inicializálása a dokumentum létrehozásához
+// Indítsa be a DocumentBuilder-t a dokumentum elkészítéséhez
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Új asztal indítása
+// Új asztalhoz kezdjünk.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Name");
@@ -25,20 +25,20 @@ builder.InsertCell();
 builder.EndTable();
 
 //ExStep:2-
-// Új asztalstílus létrehozása
+// Új asztal stílus
 TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Borders.LineStyle = LineStyle.Double;
-// Határszélesség beállítása
+// Beállítsa a határ szélességét
 tableStyle.Borders.LineWidth = 1;
-// Állítsa be a párnázást
+// Állítsd be a paddlinget.
 tableStyle.LeftPadding = 18;
 tableStyle.RightPadding = 18;
 tableStyle.TopPadding = 12;
 tableStyle.BottomPadding = 12;
-// Az egyéni táblázatstílus alkalmazása a létrehozott táblára
+// A létrehozott táblázathoz alkalmazza a szabványos táblázat stílusát
 table.Style = tableStyle;
 
 //ExStep:3-
-// A dokumentum mentése a formázott táblával
+// A dokumentumot a stílusú táblázat segítségével mentse meg
 doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
 //ExEnd

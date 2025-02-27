@@ -1,39 +1,39 @@
 //ExStart
-//ExSummaryيوضح هذا الرمز كيفية تعيين علامة تركيز في مستند Word باستخدام Apose.words.
-//ExStepSummary:0:إنشاء مثيل مستند جديد للعمل معه.
-//ExStepSummary:1:إعداد DocumentBuilder لمعالجة المستند.
-//ExStepSummary:2:تطبيق علامة التركيز على الخط من باني.
-//ExStepSummary:3:كتابة نص التأكيد على المستند.
-//ExStepSummary:4:كتابة نص بسيط دون أي تركيز.
-//ExStepSummary:5: يحفظ هذا الرمز المستند مع علامة التأكيد على الخط.
+//ExSummary:هذا الرمز يوضح كيفية تعيين علامة التركيز في مستند Word باستخدام Aspose.words.
+//ExStepSummary:0:إنشاء مثال وثيقة جديدة للعمل معها.
+//ExStepSummary:1:إعداد مُصنع وثائق للتلاعب بالوثيقة.
+//ExStepSummary:2:تطبيق علامة التأكيد على خط البناء
+//ExStepSummary:3:كتابة نص تأكيد على الوثيقة.
+//ExStepSummary:4:كتابة نص بسيط دون أي تأكيد
+//ExStepSummary:5: هذا الرمز يحفظ الوثيقة مع علامة التركيز على الخط.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
 //ExStep:0-
-// أنشئ مستندًا جديدًا
+// إعداد وثيقة جديدة
 Document document = new Document();
 
 //ExStep:1-
-// تهيئة DocumentBuilder لمعالجة المستندات
+// إعادة تشغيل DocumentBuilder للتلاعب بالوثائق
 DocumentBuilder builder = new DocumentBuilder(document);
 
 //ExStep:2-
-// وضع علامة التركيز على UnderSolidCircle
+// ضع علامة التركيز على "أندرو سوليد سيركل"
 builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
 
 //ExStep:3-
-// اكتب نص التأكيد على المستند
+// اكتب النص الضروري على الوثيقة
 builder.Write("Emphasis text");
-// انتقل إلى السطر التالي
+// انتقل إلى الخط التالي
 builder.Writeln();
-// امسح تنسيق الخط للنص اللاحق
+// إزالة تنسيق الخط للنص التالي
 builder.Font.ClearFormatting();
 
 //ExStep:4-
-// كتابة نص بسيط دون التركيز
+// اكتب نص بسيط دون تأكيد
 builder.Write("Simple text");
 
 //ExStep:5-
-// احفظ المستند إلى المسار المحدد
+// حفظ الوثيقة إلى المسار المحدد
 document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
 //ExEnd

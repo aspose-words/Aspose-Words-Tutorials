@@ -1,41 +1,41 @@
 //ExStart
-//ExSummary: Denna kod visar hur man skapar ett Word-dokument med DocumentBuilder-klassen och infogar ett formaterat stycke i det.
-//ExStepSummary:0: Följande kod initierar ett dokument och en DocumentBuilder för att skapa ett dokument.
-//ExStepSummary:1: Följande kod konfigurerar teckensnittsinställningarna för stycket.
-//ExStepSummary:2: Följande kod fastställer inställningarna för punktformat för anpassning och indentering.
-//ExStepSummary:3: Följande kod skriver in ett stycke i dokumentet.
+//ExSummary: Denna kod visar hur man skapar ett Word-dokument med hjälp av klassen DocumentBuilder och lägger in ett stylat avsnitt i det.
+//ExStepSummary:0: Följande kod initialiserar ett Dokument och en DocumentBuilder för dokumentskapande.
+//ExStepSummary:1: Följande kod konfigurerar skrifttypen för stycket.
+//ExStepSummary:2: I följande kod fastställs inställningarna för paragrafformat för justering och intag.
+//ExStepSummary:3: Följande kod skriver ett stycke i dokumentet.
 //ExStepSummary:4: Följande kod sparar dokumentet som en .docx-fil.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Initiera ett nytt dokumentobjekt
+// Initializera ett nytt dokumentobjekt
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Få tillgång till teckensnittsinställningarna för DocumentBuilder
+// Få tillgång till skrifttyper i DocumentBuilder
 Font font = builder.Font;
-// Ställ in teckenstorleken till 16
+// Ställ upp teckensnittstorleken till 16
 font.Size = 16;
-// Gör teckensnittet fetstil
+// Skriv i stort
 font.Bold = true;
-// Ställ in teckensnittsfärgen till blå
+// Ställ på teckningskärnan till blå
 font.Color = Color.Blue;
-// Ställ in teckensnittets namn till Arial
+// Ställ typsnamnet på Arial
 font.Name = "Arial";
-// Lägg till ett blankt understreck i teckensnittet
+// Lägg till en markad underteckning i tecknet
 font.Underline = Underline.Dash;
 
 //ExStep:2-
-// Få tillgång till inställningarna för punktformat
+// Tillträde till inställningarna för format av stycke
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.FirstLineIndent = 8;
 paragraphFormat.Alignment = ParagraphAlignment.Justify;
 paragraphFormat.KeepTogether = true;
 
 //ExStep:3-
-// Skriv in en textpunkt i dokumentet
+// Skriv ett avsnitt av texten i dokumentet
 builder.Writeln("A whole paragraph.");
 
 //ExStep:4-

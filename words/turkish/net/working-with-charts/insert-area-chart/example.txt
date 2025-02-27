@@ -1,42 +1,42 @@
 //ExStart
-//ExSummary: Bu kod, Aspose.Words kullanarak bir Word belgesine bir alan grafiğinin nasıl yerleştirileceğini gösterir.
-//ExStepSummary:0: Aşağıdaki kod yeni bir belge ve belge oluşturucuyu başlatır.
-//ExStepSummary:1: Aşağıdaki kod belgeye bir alan grafiği ekler.
-//ExStepSummary:2: Aşağıdaki kod, belirtilen veri noktalarına sahip çizelgeye bir dizi ekler.
-//ExStepSummary:3: Aşağıdaki kod, eklenen alan grafiği ile belgeyi kaydeder.
+//ExSummary: Bu kod, Aspose.Words kullanarak bir Word belgesine bir bölge çizelgesini nasıl ekleneceğini gösterir.
+//ExStepSummary:0: Aşağıdaki kod yeni bir belge ve bir belge oluşturıcısını initializer.
+//ExStepSummary:1: Aşağıdaki kod belgeye bir alan çizelgesi ekler.
+//ExStepSummary:2: Aşağıdaki kod, çizelgeye belirli veri noktaları olan bir dizi ekler.
+//ExStepSummary:3: Aşağıdaki kod, eklenen alan çizelgesi ile birlikte belgeyi kaydeder.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
 // Yeni bir belge oluştur
 Document doc = new Document();
-// Belge oluşturucuyu başlat
+// Belge oluşturucusunu başlat
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Belirtilen boyutlara sahip bir alan grafiği ekle
+// Belirtilen boyutlarla bir alan çizelgesi ekle
 Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
 
 //ExStep:2-
-// Grafik nesnesine eriş
+// Grafik nesneye eriş
 Chart chart = shape.Chart;
-// Çizelgeye yeni bir dizi ekle
+// Çaraya yeni bir dizi ekle
 chart.Series.Add("Aspose Series 1", new [] 
 {
 	// Veri noktası 1
     new DateTime(2002, 05, 01),
-	// Veri noktası 2
+	// Veri Noktası 2
     new DateTime(2002, 06, 01),
 	// Veri noktası 3
     new DateTime(2002, 07, 01),
-	// Veri noktası 4
+	// Veri Noktası 4
     new DateTime(2002, 08, 01),
 	// Veri noktası 5
     new DateTime(2002, 09, 01)
 }, 
-// Veri noktaları için karşılık gelen değerler
+// Veri noktaları için karşılıklı değerler
 new double[] { 32, 32, 28, 12, 15 });
 
 //ExStep:3-
-// Belgeyi eklenen grafikle kaydet
+// Eklenmiş tablo ile belgeyi kaydet
 doc.Save("WorkingWithCharts.InsertAreaChart.docx");
 //ExEnd

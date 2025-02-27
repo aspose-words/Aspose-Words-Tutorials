@@ -1,28 +1,28 @@
 //ExStart
-//ExSummary: このコードは、Asfo.words を使ってワードドキュメント内で表を操作する方法を示します。既存の文書を取得し、最初の表の外枠を修正し、変更を新しいファイルに保存します。
-//ExStepSummary:0: 以下のコードがドキュメントを構成し、最初の表を取得します。
-//ExStepSummary:1: 以下のコードにより、新しい書式設定を準備するための既存の表の外枠を消去します。
-//ExStepSummary:2: 以下のコードは、表の周囲と内部に緑色の境界を適用するものです。
+//ExSummary: このコードはAspose.Wordsを使用してWord文書のテーブルを操作する方法を示します.既存の文書を回収し,最初のテーブルの境界を変更し,新しいファイルに変更を保存します.
+//ExStepSummary:0: 次のコードは,文書を構成し,その最初の表を取得します.
+//ExStepSummary:1: 次のコードは,新しいフォーマットのための準備のために,既存の境界を表からクリアします.
+//ExStepSummary:2: 次のコードは,テーブルの周りにおよび内部に緑の境界線を適用します.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// 文書のディレクトリを指定します
+// 文書のディレクトリを定義する
 string dataDir = "Your Document Directory";
-// 文書を読み込みます
+// 文書を読み込み
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// ドキュメントから最初のテーブルを取得します
+// 文書から最初のテーブルを入手
 Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 
 //ExStep:2-
-// テーブルから既存の境界をクリアします
+// テーブルから既存の国境を削除
 table.ClearBorders();
 
 //ExStep:3-
-// テーブルの周囲と内部に緑色の境界を設定
+// テーブルの周りに緑の境界を設定する
 table.SetBorders(LineStyle.Single, 1.5, Color.Green);
-// ドキュメントを変更して保存
+// 変更を含むドキュメントを保存する
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");
 //ExEnd

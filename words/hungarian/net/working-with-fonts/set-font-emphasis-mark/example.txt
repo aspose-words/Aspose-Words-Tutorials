@@ -1,11 +1,11 @@
 //ExStart
-//ExSummary:Ez a kód bemutatja, hogyan lehet kiemelő jelet beállítani egy Word dokumentumban az Aspose.words használatával.
-//ExStepSummary:0:Hozzon létre egy új dokumentumpéldányt, amellyel dolgozhat.
-//ExStepSummary:1:DocumentBuilder beállítása a dokumentum manipulálásához.
-//ExStepSummary:2:Hangsúlyjel alkalmazása az építtető betűtípusára.
-//ExStepSummary:3:A hangsúlyos szöveg írása a dokumentumhoz.
-//ExStepSummary:4:Egyszerű szöveg, hangsúly nélkül.
-//ExStepSummary:5: Ez a kód menti a dokumentumot a hangsúlyjellel a betűtípushoz.
+//ExSummary:Ez a kód bemutatja, hogyan kell Aspose.words segítségével hangsúlyozni a Word dokumentumban.
+//ExStepSummary:0:Új dokumentum-eseményt készítek.
+//ExStepSummary:1:Dokumentumszervező beállítása a dokumentum manipulálására.
+//ExStepSummary:2:A építő fontjára hangsúlyos jelzéssel.
+//ExStepSummary:3:A dokumentumnak a hangsúlyos szöveg írása.
+//ExStepSummary:4:Egy egyszerű szöveget írni, hangsúlyozás nélkül.
+//ExStepSummary:5: Ez a kód az aláírásra a hangsúlyjelzéssel ellátott dokumentumot tárolja.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
@@ -14,26 +14,26 @@
 Document document = new Document();
 
 //ExStep:1-
-// DocumentBuilder inicializálása dokumentumkezeléshez
+// Dokumentumkezeléshez indítsa be a DocumentBuilder-t
 DocumentBuilder builder = new DocumentBuilder(document);
 
 //ExStep:2-
-// Hangsúlyjel beállítása az UnderSolidCircle értékre
+// Tűzpontot kell adnunk az UnderSolidCircle-re.
 builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
 
 //ExStep:3-
-// Írja be a kiemelő szöveget a dokumentumba
+// Írd le a hangsúlyos szöveget a dokumentumra
 builder.Write("Emphasis text");
-// Ugrás a következő sorra
+// Átjutj a következő sorra.
 builder.Writeln();
-// A következő szöveg betűformázásának törlése
+// Takarítsa ki a betűformátumot a következő szöveghez
 builder.Font.ClearFormatting();
 
 //ExStep:4-
-// Egyszerű szöveg, hangsúly nélkül
+// Írj egyszerű szöveget hangsúlyozás nélkül
 builder.Write("Simple text");
 
 //ExStep:5-
-// A dokumentum mentése a megadott elérési útra
+// A dokumentumot a megadott útvonalra mentse meg
 document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
 //ExEnd

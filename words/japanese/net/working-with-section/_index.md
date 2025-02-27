@@ -1,8 +1,8 @@
 ---
-title: アクセシビリティにおけるセクションの作業. NET 用の用語
+title: .NET のAspose.Wordsのセクションで作業
 weight: 10
 limit:
-description: Public domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainfalsefalsefalsefalsefalsefalse.
+description: .NET の Aspose.Words のセクションで作業をマスターする. プロのWord ドキュメントレイアウトのためのセクションを作成し,変更し,管理する方法を学ぶ.
 keywords:
 url: /ja/net/working-with-section/
 ---
@@ -10,14 +10,14 @@ url: /ja/net/working-with-section/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## はじめに
+## 紹介
   
-セクションは Word ドキュメントのビルドブロックで、内容を個別に書式設定やレイアウトで区分できます。 Association. ^ access ^ a b c d e f g h i c d e f g h i c d e f g h i c d e f g h i c d e f g h i f g h i c d e f g h i f g h i f g h i f g h i f g h i f g h i f g h i f g h i f g h i c d e f g h i c d e f g h i c d e f g h i f g h e f e f g h i f g h i f g h i f g h " 専門文書"
+セクションはWord文書の構成要素であり,コンテンツを独自のフォーマットとレイアウトで異なる部分に分割することができます.NETのAspose.Wordsで,セクションを完全にコントロールすることができ,複雑な文書構造を無縫に作成できます.ヘッダー,足跡,ページの方向性,またはコンテンツフローを設計しているかどうかにかかわらず,セクション管理はプロの文書を作成するために不可欠です.
 
-このガイドは Access.NET 用のセクションで作業する様々な側面を探索します。単語を追加/削除してそのプロパティを変更すると、プロセスをシンプルにするための実例とステップステップステップのチュートリアルが見つかります。これらのツールを使って、動的でカスタマイズされたワード文書を簡単に作成できます。 セクションの強度を除去し、ロックします!
+このガイドでは,NETのAspose.Wordsのセクションで作業する様々な側面を調査します.セクションを追加して削除し,その属性を変更するまでの間,プロセスを簡素化するための実用的な例やステップ・バイ・ステップ・チュートリアルを発見します.これらのツールを使用して,動的でカスタマイズされたWord文書を簡単に作成できます.セクションの力を深く浸透して解鎖してください!
 
-{{< tutorial-card link="./add-section/" title="ワード文書に新しいセクションを追加" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./append-section-content/" title="ワードドキュメントに内容を追加・編集する" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./add-section/" title="ワード文書に新しいセクションを追加する" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./append-section-content/" title="ワード文書にコンテンツを追加し,プリペンする" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

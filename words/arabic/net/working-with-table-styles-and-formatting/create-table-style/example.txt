@@ -1,19 +1,19 @@
 //ExStart
-//ExSummaryيوضح هذا الرمز كيفية إنشاء مستند Word مع جدول على غرار باستخدام Apose.Words. 
-//ExStepSummary:0: تهيئة مستند جديد وDocumentBuilder.
-//ExStepSummary:1: ابدأ جدولًا جديدًا وأدخل خلايا ترويسة لـ "الاسم" و "القيمة".
-//ExStepSummary:2: قم بإنشاء TableStyle مخصص مع حدود محددة وإعدادات الحشو.
-//ExStepSummary:3: احفظ المستند مع تطبيق نمط الجدول الجديد.
+//ExSummary: هذا الرمز يظهر كيفية إنشاء مستند كلمات مع جدول مصطلح باستخدام Aspose.Words. 
+//ExStepSummary:0: إعادة تشغيل وثيقة جديدة ومصنع وثائق.
+//ExStepSummary:1: ابدأ جدول جديد وإدراج خلايات العنوان لـ "اسم" و "قيمة".
+//ExStepSummary:2: قم بإنشاء طراز جدول مخصص مع إعدادات محددة للحدود والإطارات.
+//ExStepSummary:3: حفظ الوثيقة مع نمط الجدول الجديد المطبق.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// أنشئ كائن مستند جديد
+// إعداد كائن وثيقة جديد
 Document doc = new Document();
-// تهيئة DocumentBuilder لبناء المستند
+// إعادة تشغيل مبدع الوثائق لبناء الوثيقة
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// ابدأ منضدة جديدة
+// ابدأ طاولة جديدة
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Name");
@@ -25,20 +25,20 @@ builder.InsertCell();
 builder.EndTable();
 
 //ExStep:2-
-// أنشئ نمط جدول جديد
+// إعداد طراز طاولة جديد
 TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Borders.LineStyle = LineStyle.Double;
-// اضبط عرض الحدود
+// حدد عرض الحدود
 tableStyle.Borders.LineWidth = 1;
-// اضبط الحشوة
+// أضع التدليك
 tableStyle.LeftPadding = 18;
 tableStyle.RightPadding = 18;
 tableStyle.TopPadding = 12;
 tableStyle.BottomPadding = 12;
-// تطبيق نمط الجدول المخصص على الجدول الذي تم إنشاؤه
+// تطبيق أسلوب الجدول المخصص على الجدول المُنشئ
 table.Style = tableStyle;
 
 //ExStep:3-
-// احفظ المستند مع الجدول المصمم
+// حفظ الوثيقة مع الجدول الموضح
 doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
 //ExEnd

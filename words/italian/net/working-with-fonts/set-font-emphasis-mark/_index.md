@@ -1,8 +1,8 @@
 ---
-title: Imposta il segno di enfasi nel documento di Word utilizzando Aspose.Words per .NET 
+title: Impostare il segno di enfasi nel documento Word utilizzando Aspose.Words per .NET 
 weight: 7700
 limit: 
-description: Scopri come impostare un marchio di enfasi nei documenti Word utilizzando Aspose.Words per .NET. Questa guida passo-passo include istruzioni di installazione e codice di esempio.
+description: Impara come impostare un segno di enfasi nei documenti Word utilizzando Aspose.Words per .NET. Questa guida passo-passo include istruzioni di installazione e codice di esempio.
 keywords: [Aspose.Words for .NET, set emphasis mark, Word document, .NET library, document formatting, Word automation, C# examples]
 url: /it/net/working-with-fonts/set-font-emphasis-mark/
 ---
@@ -10,43 +10,43 @@ url: /it/net/working-with-fonts/set-font-emphasis-mark/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Imposta il segno di enfasi nel documento di Word utilizzando Aspese.Words
+# Impostare il segno di enfasi nel documento di Word utilizzando Aspose.Words
 
-Impostare un marchio di enfasi nei documenti Word è un ottimo modo per evidenziare il testo specifico, assicurando che si distingue nel contenuto. Con Aspose.Words per .NET, è possibile applicare facilmente i segni di enfasi, come un cerchio solido, utilizzando alcune linee di codice. Questo esempio dimostra come utilizzare il`Costruisci documenti`classe per manipolare i documenti Word, il formato del testo con i segni di enfasi, e salvare il risultato in formato DOCX. Seguire questa guida per semplificare le attività di formattazione dei documenti con precisione professionale.
+Impostare un segno di enfasi nei documenti Word è un ottimo modo per evidenziare un testo specifico, assicurandosi che si distingua nel tuo contenuto. Con Aspose.Words per .NET, puoi applicare senza sforzo segni di enfasi, come un sotto cerchio solido, utilizzando poche righe di codice. Questo esempio dimostra come utilizzare il `DocumentBuilder`Per gestire i documenti Word, formattare il testo con segni di enfasi e salvare il risultato in formato DOCX, seguire questa guida per semplificare i vostri compiti di formattazione dei documenti con precisione professionale.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-fonts/set-font-emphasis-mark" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Istruzioni per l'installazione  
+## Instruzioni di installazione  
 Per eseguire l'esempio di codice fornito e utilizzare Aspose.Words per .NET, seguire questi passaggi:  
 
-1. Scarica Aspese.Parole per .NET:  
-   * Prendi la libreria dal[Rilascia l'opzione](https://releases.aspose.com/words/net/)pagina.  
+1. Scarica Aspose.Words per .NET:  
+   * Prendi la biblioteca dalla biblioteca .[Aspose rilasci](https://releases.aspose.com/words/net/)pagina.  
 
 2. Installare la Biblioteca:  
    * Installare tramite NuGet Package Manager in Visual Studio:  
      * Apri Visual Studio.  
-     * Vai agli strumenti > NuGet Package Manager > Gestisci i pacchetti NuGet per la soluzione.  
-     * Cerca`Aspese.Parole`e fare clic su Installa.  
+     * Navigare verso Strumenti > NuGet Package Manager > Gestione NuGet Packages for Solution.  
+     * Cerca`"Aspose. Parole"`e clicca su Installare.  
 
-   * In alternativa, utilizzare la console NuGet Package Manager:  
+   * In alternativa, utilizzare la Console NuGet Package Manager:  
      ```shell
      Install-Package Aspose.Words
      ```  
 
-3. Impostare una licenza temporanea (opzionale):  
-   * Per l'uso illimitato, ottenere un[licenza temporanea gratuita](https://purchase.aspose.com/temporary-license/).  
-   * Applica la licenza nel tuo progetto:  
+3. Configurazione di una licenza temporanea (opzionale):  
+   * Per uso illimitato, ottenere un [licenza temporanea gratuita](https://purchase.aspose.com/temporary-license/)\- Non è vero .  
+   * Applicare la licenza nel tuo progetto:  
      ```csharp
      var license = new Aspose.Words.License();
      license.SetLicense("Aspose.Words.lic");
      ```  
    
-## Vedere anche
-[Aspese.Parola per la documentazione .NET](https://docs.aspose.com/words/net/)
-[Aspese.Parola per riferimenti .NET](https://reference.aspose.com/words/net/)
+## Vedi anche
+[Aspose.Word per Documentazione .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word per i riferimenti .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

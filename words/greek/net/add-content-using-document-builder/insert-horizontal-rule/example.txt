@@ -1,13 +1,13 @@
 //ExStart
-//ExSummary:Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words και να προσθέσετε έναν οριζόντιο κανόνα σε αυτό. 
-//ExStepSummary:0: Δημιουργήστε ένα νέο αντικείμενο εγγράφου για να κρατήσετε το περιεχόμενο.
-//ExStepSummary:1: Χρησιμοποιήστε το DocumentBuilder για να σχεδιάσετε τη διάταξη του εγγράφου και εισάγετε ένα μήνυμα.
-//ExStepSummary:2: Εισάγετε ένα οριζόντιο σχήμα κανόνα στο έγγραφο.
-//ExStepSummary:3: Αποθήκευση του εγγράφου στην καθορισμένη διαδρομή αρχείου.
+//ExSummary:Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words και να προσθέσετε ένα οριζόντιο κανόνα σε αυτό. 
+//ExStepSummary:0: Δημιουργήστε ένα νέο αντικείμενο εγγράφου για να περιέχει το περιεχόμενο.
+//ExStepSummary:1: Χρησιμοποιήστε το DocumentBuilder για να σχεδιάσετε τη διάταξη του εγγράφου και να εισαγάγετε ένα μήνυμα.
+//ExStepSummary:2: Εισαγωγή οριζόντιας σχήματος κανόνας στο έγγραφο.
+//ExStepSummary:3: Κράτα το έγγραφο στην καθορισμένη διαδρομή αρχείου.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Δημιουργήστε ένα νέο αντικείμενο εγγράφου για να κρατήσετε το περιεχόμενο
+// Δημιουργήστε ένα νέο αντικείμενο εγγράφου για να περιέχει το περιεχόμενο
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc); 
 
@@ -16,10 +16,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Insert a horizontal rule shape into the document.");
 
 //ExStep:2-
-// Εισάγετε ένα οριζόντιο σχήμα κανόνα στο έγγραφο
+// Εισαγωγή οριζόντιας σχήματος κανόνας στο έγγραφο
 builder.InsertHorizontalRule();
 
 //ExStep:3-
-// Αποθήκευση του εγγράφου στην καθορισμένη τοποθεσία
+// Αποθηκεύστε το έγγραφο στην καθορισμένη θέση
 doc.Save("AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
 //ExEnd

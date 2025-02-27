@@ -1,8 +1,8 @@
 ---
-title: Gestileerde tabellen in Word aanmaken met Aspose.Words voor .NET
+title: Maak gestylde tabellen in Word met Aspose.Words voor .NET
 weight: 7700
 limit: 
-description: Leer een Word-document aan te maken met een gestileerde tabel met behulp van Aspose.Words voor .NET, inclusief headers en geformatteerde gegevensrijen.
+description: Leer een Word-document met een stijltabel te maken met behulp van Aspose.Words voor .NET, met inbegrip van koppen en geformatteerde data rijen.
 keywords: [Aspose.Words, .NET, Word document, styled table, table formatting, DocumentBuilder, C# example, document generation]
 url: /nl/net/working-with-table-styles-and-formatting/buildtable-with-style/
 ---
@@ -10,9 +10,9 @@ url: /nl/net/working-with-table-styles-and-formatting/buildtable-with-style/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gestileerde tabellen in Word aanmaken met Aspose.Words
+# Maak stijlvolle tafels in Word met Aspose.Words
 
-Dit voorbeeld toont hoe u een Word-document kunt maken dat een gestileerde tabel bevat met behulp van Aspose.Words voor .NET. Het begeleidt u door het proces van het opzetten van een nieuw document, met behulp van een`Documentbouwer`het beheren van documentstructuur, en het formatteren van een tabel met headers en gegevensrijen om de leesbaarheid te verbeteren. Het resulterende document toont de juiste styling- en formatteringstechnieken die kunnen worden toegepast op tabellen, waardoor de inhoud duidelijker en presentatiever wordt.
+Dit voorbeeld toont aan hoe je een Word-document kunt maken met een stijltabel met behulp van Aspose.Words voor .NET. Het begeleidt je door het proces van het opzetten van een nieuw document, met behulp van een `DocumentBuilder`Het resultaat van het document is een toelichting op de juiste stijl- en formateringstechnieken die op tabellen kunnen worden toegepast, waardoor de inhoud duidelijker en voordeliger wordt gepresenteerd.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/apply-outline-border" >}}
@@ -20,16 +20,16 @@ Dit voorbeeld toont hoe u een Word-document kunt maken dat een gestileerde tabel
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installatie-instructies
-1. Download Aspose.Words: Bezoek de[Aspose.Words for .NET](https://www.nuget.org/packages/Aspose.Words/)pagina op NuGet en download de nieuwste versie.
+1. Download Aspose.Words: Bezoek de [Aspose.Words voor .NET](https://www.nuget.org/packages/Aspose.Words/)pagina NuGet en download de nieuwste versie.
 
-2. Maak een .NET project: Open Visual Studio en maak een nieuw Console of Class Library project.
+2. Maak een .NET Project: Open Visual Studio en maak een nieuw Console- of Klassebibliotheekproject.
 
-3. NuGet-pakket toevoegen:
-   * Klik met de rechtermuisknop op uw project in de Solution Explorer.
-   * Selecteer "Manage NuGet Packages."
-   * Zoek naar "Aspose.Words" en klik op "Installeren."
+3. Voeg NuGet Pakket toe:
+   * Klik met de rechterkant op je project in de Solution Explorer.
+   * Selecteer "NuGet pakketten beheren".
+   * Zoek naar "Aspose.Words" en klik op "Installeer".
 
-4. Vereiste toevoegen met behulp van verklaringen: Inclusief de nodige met behulp van richtlijnen in uw codebestand:
+4. Voeg vereiste gebruiksaanwijzingen toe: Voeg de vereiste gebruiksaanwijzingen in uw codebestand op:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
@@ -37,8 +37,8 @@ Dit voorbeeld toont hoe u een Word-document kunt maken dat een gestileerde tabel
 
 
 ## Zie ook
-[Aspose.Word voor .NET Documentatie](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referenties](https://reference.aspose.com/words/net/)
+[Aspose.Word voor .NET-documentatie](https://docs.aspose.com/words/net/)
+[Aspose.Word voor .NET Referenties](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,11 +1,11 @@
 //ExStart
-//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο Word και εισάγετε μια εικόνα με μια πλωτή διάταξη χρησιμοποιώντας Aspose.Words.
-//ExStepSummary:0: Ο ακόλουθος κώδικας αρχικοποιείται ένα νέο έγγραφο και έγγραφοBuilder.
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο Word και να εισαγάγετε μια εικόνα με μια επιπλέουσα διάταξη χρησιμοποιώντας το Aspose.Words.
+//ExStepSummary:0: Ο ακόλουθος κωδικός αρχίζει ένα νέο Document και DocumentBuilder.
 //ExStepSummary:1: Ο ακόλουθος κωδικός εισάγει μια εικόνα στο έγγραφο.
-//ExStepSummary:2: Ο ακόλουθος κωδικός αποθηκεύει το έγγραφο σε συγκεκριμένη τοποθεσία.
+//ExStepSummary:2: Ο ακόλουθος κωδικός αποθηκεύει το έγγραφο σε μια συγκεκριμένη τοποθεσία.
 //ExStepImage:1:images/1.png
 //ExStep:0-
-// Δημιουργία μιας νέας περίπτωσης εγγράφου
+// Δημιουργήστε μια νέα περίπτωση εγγράφου
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -21,6 +21,6 @@ builder.InsertImage(ImagesDir + "Transparent background logo.png",
     WrapType.Square); 
 
 //ExStep:2-
-// Αποθήκευση του εγγράφου στο καθορισμένο αρχείο
+// Αποθηκεύστε το έγγραφο στο καθορισμένο αρχείο
 doc.Save("AddContentUsingDocumentBuilder.InsertFloatingImage.docx");
 //ExEnd

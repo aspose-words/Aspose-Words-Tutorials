@@ -1,8 +1,8 @@
 ---
-title: إنشاء جداول مصممة في Word مع Apose.Words لـ .NET
+title: إنشاء الجداول الموسيقية في Word باستخدام Aspose.Words ل .NET
 weight: 7700
 limit: 
-description: تعلم كيفية إنشاء مستند Word باستخدام جدول منقوش باستخدام Aspose.Words for .NET، بما في ذلك الرؤوس وصفوف البيانات المنسقة.
+description: تعلم كيفية إنشاء مستند كلمات مع جدول مصطلح باستخدام Aspose.Words ل .NET، بما في ذلك العناوين والسلسلة المعلومات المنسجة.
 keywords: [Aspose.Words, .NET, Word document, styled table, table formatting, DocumentBuilder, C# example, document generation]
 url: /ar/net/working-with-table-styles-and-formatting/buildtable-with-style/
 ---
@@ -10,9 +10,9 @@ url: /ar/net/working-with-table-styles-and-formatting/buildtable-with-style/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء جداول مصممة في Word مع Apose.Words
+# قم بإنشاء طاولات مصممة في الكلمة باستخدام Aspose.Words
 
-يوضح هذا المثال كيفية إنشاء مستند Word يتضمن جدولًا مصممًا باستخدام Apose.Words for .NET. إنه يرشدك خلال عملية إعداد مستند جديد ، باستخدام a`بناء المستندBuilder`لإدارة بنية المستند ، وتنسيق جدول مع رؤوس وصفوف البيانات لتعزيز سهولة القراءة. تعرض الوثيقة الناتجة تقنيات التصميم والتنسيق المناسبة التي يمكن تطبيقها على الجداول ، مما يجعل المحتوى أكثر وضوحًا وأكثر أناقة.
+هذا المثال يوضح كيفية إنشاء مستند كورد يتضمن جدولًا مصطلحًا باستخدام Aspose.Words لـ .NET. يمركزك في عملية إعداد مستند جديد ، باستخدام `المستخدم`لإدارة هيكل الوثائق، وتصميم جدول مع عناوين وسلسلة بيانات لتعزيز القراءة. يظهر الوثيقة الناتجة تقنيات التصميم والصيغة المناسبة التي يمكن تطبيقها على الجداول، مما يجعل المحتوى أكثر وضوحاً وسهولة تقديمها.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/apply-outline-border" >}}
@@ -20,25 +20,25 @@ url: /ar/net/working-with-table-styles-and-formatting/buildtable-with-style/
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت
-1. تحميل Apose.Words: زيارة[Aspose.Words ل دوت نت](https://www.nuget.org/packages/Aspose.Words/)صفحة على NuGet وتحميل أحدث إصدار.
+1. قم بتنزيل Aspose.Words: زيارة [Aspose.Words لـ .NET](https://www.nuget.org/packages/Aspose.Words/)الصفحة على NuGet وتنزيل أحدث النسخة.
 
-2. إنشاء مشروع .NET: افتح Visual Studio وقم بإنشاء مشروع جديد لـ Console أو Class Library.
+2. إنشاء مشروع .NET: افتح استوديو Visual و إنشاء مشروع Console أو Class Library الجديد.
 
 3. إضافة حزمة NuGet:
-   * انقر بزر الماوس الأيمن فوق مشروعك في مستكشف الحلول.
-   * اختر "إدارة حزم NuGet".
-   * ابحث عن "Apose.Words" وانقر على "Install".
+   * اضغط على النقر الأيمن على مشروعك في متصفح الحلول
+   * حدد " إدارة حزم NuGet ".
+   * ابحث عن "Aspose.Words" وانقر على "تثبيت".
 
-4. إضافة البيانات المطلوبة باستخدام: تضمين التوجيهات اللازمة باستخدام التعليمات في ملف التعليمات البرمجية الخاص بك:
+4. إضافة بيانات الاستخدام المطلوبة: ضعي الإرشادات المطلوبة باستخدام في ملف الرمز الخاص بك:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    ```
 
 
-## انظر أيضا
-[Aspose.Word لوثائق .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word لمراجع .NET](https://reference.aspose.com/words/net/)
+## انظر أيضاً
+[Aspose.Word للمستندات .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word للمراجع .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

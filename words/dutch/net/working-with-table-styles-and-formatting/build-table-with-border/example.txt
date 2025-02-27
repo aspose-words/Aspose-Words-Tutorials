@@ -1,28 +1,28 @@
 //ExStart
-//ExSummary: Deze code laat zien hoe je tabellen kunt manipuleren in een Word-document met behulp van Aspose.Words. Het haalt een bestaand document op, wijzigt de grenzen van de eerste tabel en slaat de wijzigingen op in een nieuw bestand.
-//ExStepSummary:0: De volgende code stelt het document in en haalt de eerste tabel eruit.
-//ExStepSummary:1: De volgende code ontruimt eventuele bestaande grenzen uit de tabel om zich voor te bereiden op nieuwe opmaak.
-//ExStepSummary:2: De volgende code is van toepassing op een groene rand rond en binnen de tabel.
+//ExSummaryDeze code toont hoe tabellen in een Word-document met behulp van Aspose.Words kunnen worden gemanipuleerd. Het haalt een bestaand document, wijzigt de grenzen van de eerste tabel en slaat de wijzigingen op in een nieuw bestand.
+//ExStepSummary:0: De volgende code stelt het document op en neemt de eerste tabel ervan in.
+//ExStepSummary:1: De volgende code verwijdert alle bestaande grenzen van de tabel om voor te bereiden op een nieuwe opmaak.
+//ExStepSummary:2: De volgende code is van toepassing op een groene grens rond en binnen de tafel.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// De map voor het document definiëren
+// Definieer de directory voor het document
 string dataDir = "Your Document Directory";
 // Het document laden
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// De eerste tabel uit het document ophalen
+// Pak de eerste tafel uit het document.
 Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 
 //ExStep:2-
-// Alle bestaande randen uit de tabel wissen
+// Maak alle bestaande grenzen vrij van de tafel
 table.ClearBorders();
 
 //ExStep:3-
-// Zet een groene rand rond en binnenin de tafel
+// Stel een groene grens rond en binnen de tafel
 table.SetBorders(LineStyle.Single, 1.5, Color.Green);
-// Het document opslaan met wijzigingen
+// Het document met wijzigingen opslaan
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");
 //ExEnd

@@ -1,45 +1,45 @@
 //ExStart
-//ExSummaryをクリックします。 以下のコードは、ドキュメントビルダークラスを Asdocument.words から使用するワードドキュメント内でのテーブルの作成および書式設定の方法を示します。
-//ExStepSummary:0: Word ドキュメントの作成を開始するための新しい文書と文書ビルダーを初期化します。
-//ExStepSummary:1: テーブルを作成し、書式設定用セルを挿入します。
-//ExStepSummary:2: セルの書式設定属性を設定します。
-//ExStepSummary:3: 書式設定されたセルにテキストを挿入
-//ExStepSummary:4: 行と表を終了し、ドキュメントを指定したファイルパスに保存します。
+//ExSummary: 次のコードは, Aspose.Wordsから DocumentBuilder クラスを使って,Word ドキュメントの表を作成しフォーマットする方法を示します.
+//ExStepSummary:0: Word ドキュメントの作成を開始するには,新しいドキュメントとドキュメントビルダーを初期化します.
+//ExStepSummary:1: テーブルを作成してフォーマットするためのセルを挿入します.
+//ExStepSummary:2: と幅を含むセルのフォーマットプロパティを設定する.
+//ExStepSummary:3: フォーマットされたセルにテキストを挿入する.
+//ExStepSummary:4: 列と表を終了し,文書を指定したファイルパスに保存します.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
 // 新しいドキュメントオブジェクトを作成
 Document doc = new Document();
-// ドキュメント作成を新しいドキュメントで初期化する
+// 新しいドキュメントでドキュメントビルダーを初期化する
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// テーブルの作成を開始
+// テーブルを作ること
 builder.StartTable();
-// 最初のセルを表に挿入
+// 表に最初のセルを挿入する
 builder.InsertCell();
 
 //ExStep:2-
-// セルの書式設定属性にアクセス
+// セルのフォーマットプロパティにアクセスする
 CellFormat cellFormat = builder.CellFormat;
-// セルの幅を設定
+// セル幅を設定する
 cellFormat.Width = 250;
-// パディングをセットする
+// 補給を設定する
 cellFormat.LeftPadding = 30;
 cellFormat.RightPadding = 30;
 cellFormat.TopPadding = 30;
 cellFormat.BottomPadding = 30;
 
 //ExStep:3-
-// セルにテキストを挿入
+// セルにテキストを挿入する
 builder.Writeln("I'm a wonderful formatted cell.");
 
 //ExStep:4-
-// テーブルの現在の行を終了
+// テーブルの現在の行を終了する
 builder.EndRow();
-// テーブルの作成を終了
+// テーブル作成を終了する
 builder.EndTable();
-// ドキュメントを保存する
+// 文書を保存する
 doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");
 //ExEnd

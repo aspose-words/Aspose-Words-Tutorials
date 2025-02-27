@@ -1,8 +1,8 @@
 ---
-title: Inserir um gráfico de bolhas no Word Usando Aspose.Words for .NET
+title: Insira um gráfico de bolhas no Word usando Aspose.Words para .NET
 weight: 7700
 limit: 
-description: Aprenda a inserir um gráfico de bolha em um documento do Word usando Aspose.Words for .NET. Instruções passo a passo e exemplo de código incluído.
+description: Aprenda a insertar um gráfico Bubble em um documento do Word usando Aspose.Words para .NET. Instruções passo a passo e exemplo de código incluídos.
 keywords: [Aspose.Words for .NET, insert Bubble chart, Word document, .NET Bubble chart example, create Bubble chart Word]
 url: /pt/net/working-with-charts/insert-bubble-chart/
 ---
@@ -10,9 +10,9 @@ url: /pt/net/working-with-charts/insert-bubble-chart/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Inserir um gráfico de bolhas no Word Usando Aspose.Words
+# Insira um gráfico de bolhas em palavras usando Aspose.Words
 
-Adicione facilmente um gráfico de bolha ao seu documento do Word usando Aspose.Words para .NET! Este guia orienta você através da criação de um novo documento, inserindo um gráfico de bolha, adicionando séries de dados com X, Y e valores de tamanho e salvando o documento. Com Aspose.Words, lidar com documentos do Word de forma programática nunca foi tão fácil.  
+Adicione facilmente um gráfico de bolhas ao seu documento Word usando Aspose.Words para .NET! Este guia o guia através da criação de um novo documento, inserindo um gráfico de bolhas, adicionando séries de dados com valores de X, Y e tamanho e salvando o documento. Com Aspose.Words, o tratamento de documentos Word programaticamente nunca foi mais fácil.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-bubble-chart" >}}
@@ -21,27 +21,27 @@ Adicione facilmente um gráfico de bolha ao seu documento do Word usando Aspose.
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instruções de instalação  
 
-1. Baixar Aspose.Words for .NET  
-   Obter a biblioteca do[Página de download do Aspose.Words](https://releases.aspose.com/words/net/).  
+1. Descarregue Aspose.Words para .NET  
+   \- Tire a biblioteca da biblioteca .[Página de download Aspose.Words](https://releases.aspose.com/words/net/)\- Não .  
 
-2. Instalar via NuGet Package Manager  
-   * Abra seu projeto do Visual Studio.  
-   * Navegue até Ferramentas > NuGet Package Manager > Gerenciar pacotes NuGet para solução.  
-   * Pesquisar por`Aspose.Words`Na guia Navegar.  
+2. Instalar através do Gerente de Pacotes NuGet  
+   * Abre o teu projeto Visual Studio.  
+   * Navegação para Ferramentas > Gerente de Pacotes NuGet > Gerenciar Pacotes NuGet para Solução.  
+   * Procura por`Aspose.Words`na guia Browse.  
    * Selecione o pacote e clique em Instalar.  
 
-3. Instalar via NuGet Package Manager Console  
-   Execute o seguinte comando no Console do Gerenciador de Pacotes:  
+3. Instalar através da Consola de Gestor de Pacotes NuGet  
+   Execute o seguinte comando no Console do Gestor de Pacotes:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
 4. Adicionar Licença  
-   Para a funcionalidade completa, aplique uma licença. Você pode obter uma licença temporária do[Aspose Página de Licença Temporária](https://purchase.aspose.com/temporary-license/).  
+   Para obter a funcionalidade completa, pode solicitar uma licença.[Aspose página Licença Temporal](https://purchase.aspose.com/temporary-license/)\- Não .  
 
-## Ver também
-[Aspose.Word for .NET Documentação](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referências](https://reference.aspose.com/words/net/)
+## Veja também
+[Aspose.Word para Documentação .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word para Referências .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

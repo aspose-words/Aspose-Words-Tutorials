@@ -1,8 +1,8 @@
 ---
-title: 単語のアクセシビリティ (単語の概要) を使って、円グラフを挿入します。 NET 用の用語
+title: .NET のAspose.Wordsを使用して Word に バブルチャートを挿入する
 weight: 7700
 limit: 
-description: Public domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainfalsefalsefalsefalsefalse.
+description: .NET のAspose.Wordsを使用して,BubbleチャートをWord文書に挿入する方法について学びます.ステップバイ・ステップ指示とコード例が含まれています.
 keywords: [Aspose.Words for .NET, insert Bubble chart, Word document, .NET Bubble chart example, create Bubble chart Word]
 url: /ja/net/working-with-charts/insert-bubble-chart/
 ---
@@ -10,38 +10,38 @@ url: /ja/net/working-with-charts/insert-bubble-chart/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 単語のアクセシビリティを使用するバブルグラフを挿入します。
+# Aspose.Words を使って,Word に バブル チャート を 挿入 する
 
-Asdom.NET を使って単語ドキュメントにバブルチャートを簡単に追加します。このガイドは、新しいドキュメントを作成し、バブルチャートを挿入し、 X, Y, サイズのデータ系列を追加し、ドキュメントを保存します。  
+このガイドは,新しい文書を作成し,バブルチャートを挿入し,X,Y,サイズ値を含むデータシリーズを追加し,ドキュメントを保存する方法を案内します. Aspose.Wordsで,Word文書をプログラム的に処理することはこれまでずっと簡単でした.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-bubble-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## インストールインジケータ  
+## 設置指示  
 
-1. Asfof.words for NET をダウンロード  
-   ライブラリを[Asfof. Words ダウンロードページ](https://releases.aspose.com/words/net/))をいう.  
+1. .NET のためのAspose.Wordsをダウンロードする  
+   図書館から 取れ[Aspose.Wordsダウンロードページ](https://releases.aspose.com/words/net/)やってくれ  
 
-2. NuGet パッケージマネージャ経由でインストール  
-   * ビジュアル・スタジオ・プロジェクトを開く.  
-   * ツール_BAR_ Numgetパッケージマネージャで「解決のための NuGet パッケージ」の管理を行います。  
-   * 検索対象`Asfords. 言葉`の「ブラウズ」タブに表示されます。  
-   * パッケージを選択してインストールをクリックします。  
+2. NuGet パッケージ管理者でインストールする  
+   * ビジュアルスタジオを 開け  
+   * ツール > NuGet パッケージ管理者 > ソリューションのための NuGet パッケージ管理へ移動します.  
+   * 検索する`"言葉"`ブラウズタブに  
+   * パッケージを選択し,インストールをクリックします.  
 
-3. NuGetパッケージマネージャのコンソール経由でインストール  
-   パッケージマネージャで次のコマンドを実行:  
+3. NuGet パッケージ管理器コンソールでインストールする  
+   パッケージ管理コンソールで次のコマンドを実行します.  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-4. ライセンスを追加  
-   このページ"GAE"は,書きかけですので,書きかけです. ^ a b c d e f g h i c d e f g h i c d e f g h i c d e f g h i c d e f g h i c d e f g h i c d e f g h i c d e f g h i c d e f g h i c d e f g h i c d e f g h i ".[一時的なライセンスページ](https://purchase.aspose.com/temporary-license/))をいう.  
+4. ライセンスを追加する  
+   ライセンスを取得し 許可証を取得し 許可証を取得し 許可証を取得し[暫定ライセンスページを設定する](https://purchase.aspose.com/temporary-license/)やってくれ  
 
-## また、参照してください。
-[Asforce. NET ドキュメンテーション用用語](https://docs.aspose.com/words/net/)
-[access. ^ a b c d e f g h i ". NET インフォメーション".](https://reference.aspose.com/words/net/)
+## また見てください
+[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
+[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

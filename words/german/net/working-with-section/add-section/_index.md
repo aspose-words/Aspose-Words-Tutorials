@@ -1,8 +1,8 @@
 ---
-title: Fügen Sie eine neue Sektion zu Word Document.Aspose.Words für .NET hinzu
+title: Fügen Sie ein neues Abschnitt zu Word-Dokument hinzu.
 weight: 7700
 limit: 
-description: Erfahren Sie, wie Sie einen neuen Abschnitt zu einem Word-Dokument hinzufügen, indem Sie Aspose.Words für .NET verwenden. Schritt für Schritt Anleitung mit Codebeispiel, um Ihre Word-Automatisierungsaufgaben zu optimieren.
+description: Erfahren Sie, wie Sie einen neuen Abschnitt zu einem Word-Dokument mit Aspose.Words für .NET hinzufügen. Schritt-für-Schritt-Leitfaden mit Code- Beispiel, um Ihre Word-Automatisierungsarbeiten zu optimieren.
 keywords: [Aspose.Words for .NET, add section to Word document, .NET Word automation, create new section, Word document manipulation, Aspose.Words tutorial, .NET examples]
 url: /de/net/working-with-section/add-section/
 ---
@@ -10,32 +10,32 @@ url: /de/net/working-with-section/add-section/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Neuen Abschnitt zum Word-Dokument hinzufügen
+# Fügen Sie ein neues Abschnitt zu Word-Dokument hinzu
 
-Aspose.Words for .NET macht die Arbeit mit Word-Dokumenten mühelos, indem Sie leistungsfähige APIs für komplexe Dokumentenstrukturen zur Verfügung stellen. Dieses Tutorial führt Sie durch das Hinzufügen eines neuen Abschnitts zu einem Word-Dokument programmatisch.`Dokument`und`DocumentBuilder`classes lernen Sie, ein Dokument zu initialisieren, Text hinzuzufügen und einen neuen Abschnitt anhängen. Perfekt für Entwickler, die Word-Dokumentgenerierung und -Manipulation mit Präzision automatisieren möchten.  
+Aspose.Words für .NET macht die Arbeit mit Word-Dokumenten mühelos, indem sie leistungsstarke API-Programme zur Bearbeitung komplexer Dokumentstrukturen bereitstellt.`Dokument`und`Dokumenten-Builder`Sie können ein Dokument initialisieren, Text hinzufügen und einen neuen Abschnitt hinzufügen.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-section/add-section" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Installationshinweise für Aspose.Words für .NET  
+## Installationsanweisungen für Aspose.Words für .NET  
 
-1. Aspose.Words für .NET herunterladen:  
-   Besuchen Sie die[Aspose.Words für .NET Download- Seite](https://releases.aspose.com/words/net/)um die neueste Version zu erhalten.
+1. Laden Sie Aspose.Words für .NET herunter:  
+   Besuchen Sie die [Aspose.Words für die .NET- Downloadseite](https://releases.aspose.com/words/net/)Um die neueste Version zu bekommen.
 
 2. Installieren Sie über NuGet:  
-   * Öffnen Sie Ihr Visual Studio-Projekt.  
-   * Navigieren Sie zu Tools > NuGet Package Manager > Verwalten Sie NuGet Packages für Lösung.  
-   * Suchen nach`Aspose.Words`im NuGet Package Manager.  
+   * Öffnen Sie Ihr Visual Studio Projekt.  
+   * Navigieren Sie zu Tools > NuGet Package Manager > Manage NuGet Packages for Solution.  
+   * Suchen Sie nach `"Aspose.Wörter"`in der NuGet Package Manager.  
    * Wählen Sie das Paket aus und klicken Sie auf Installieren.  
 
-3. Referenz manuell hinzufügen (optional):  
-   * Laden Sie die DLL von der[Seite Veröffentlichungen vorschlagen](https://releases.aspose.com/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
-   * Fügen Sie die`Aspose.Words.dll`Datei zu Ihrem Projekt, indem Sie mit der rechten Maustaste auf Referenzen im Solution Explorer klicken und Reference hinzufügen auswählen.  
+3. Hinzufügen von Referenz manuell (optional):  
+   * Laden Sie die DLL von der [Aspose veröffentlicht Seite](https://releases.aspose.com/)\- Ich weiß .  
+   * Fügen Sie die `Aspose.Words.`Sie können die Daten in Ihrem Projekt archivieren, indem Sie mit dem rechten Klick auf Referenzen im Solution Explorer klicken und Referenz hinzufügen.  
 
 4. Aktivieren Sie die Lizenz (optional):  
-   Wenn Sie eine Lizenz haben, wenden Sie sie an, um die volle Funktionalität freizuschalten:  
+   Wenn Sie eine Lizenz haben, wenden Sie sie an, um die volle Funktionalität zu entsperren:  
    ```csharp
    Aspose.Words.License license = new Aspose.Words.License();
    license.SetLicense("path_to_your_license.lic");

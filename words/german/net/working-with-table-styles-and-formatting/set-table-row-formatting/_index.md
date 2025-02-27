@@ -12,25 +12,25 @@ url: /de/net/working-with-table-styles-and-formatting/set-table-row-formatting/
 
 # Erstellen Sie eine formatierte Tabelle in Word mit Aspose.Words
 
-Dieses Beispiel zeigt, wie man ein Word-Dokument mit einer formatierten Tabelle mit Aspose.Words für .NET erstellt. Sie lernen, ein neues Dokument zu initialisieren, eine Tabelle mit einer bestimmten Zeilenformatierung und -polsterung einzurichten und das Dokument auf einen bestimmten Pfad zu speichern. Diese Anleitung ist ideal für Entwickler, die ihre Möglichkeiten zur Dokumentgenerierung mit Aspose.Words verbessern möchten.
+Dieses Beispiel zeigt, wie man ein Word-Dokument mit einer formatierten Tabelle mit Aspose.Words für .NET erstellt. Sie lernen, ein neues Dokument zu initialisieren, eine Tabelle mit spezieller Zeilenformatierung und -polsterung einzurichten und das Dokument auf einen bestimmten Weg zu speichern. Dieser Leitfaden ist ideal für Entwickler, die ihre Dokumentengenerierungskapazitäten mit Aspose.Words verbessern möchten.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/set-table-row-formatting" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Installationshinweise
-1. Installieren Sie Aspose.Words für .NET: Verwenden Sie NuGet Package Manager, um Aspose.Words zu installieren. Sie können den folgenden Befehl in der Package Manager Console ausführen:
+## Installationsanweisungen
+1. Installieren Sie Aspose.Words für .NET: Nutzen Sie NuGet Package Manager, um Aspose.Words zu installieren. Sie können im Package Manager Console den folgenden Befehl ausführen:
    ```
    Install-Package Aspose.Words
    ```
 
 2. Create a New Project: Open Visual Studio and create a new C# project (Console Application or any type you prefer).
 
-3. Referenz hinzufügen: Stellen Sie sicher, dass die Aspose.Words-Bibliothek in Ihrem Projekt referenziert wird.
+3. Hinzufügen von Referenzen: Stellen Sie sicher, dass die Bibliothek Aspose.Words in Ihrem Projekt verwiesen wird.
 
-4. Lizenz anwenden (optional):  
-   Um die Vollversion zu verwenden,[eine Lizenz anwenden](https://purchase.aspose.com/temporary-license/)oder verwenden Sie eine[kostenlose Testversion](https://releases.aspose.com/words/net/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4. Lizenz (optional):  
+   Um die vollständige Version zu verwenden, [eine Lizenz beantragen](https://purchase.aspose.com/temporary-license/)oder eine [Kostenlose Prüfung](https://releases.aspose.com/words/net/)\- Ich weiß .
    
 ## Siehe auch
 [Aspose.Word für .NET-Dokumentation](https://docs.aspose.com/words/net/)

@@ -1,8 +1,8 @@
 ---
-title: 表にタイトルと説明を追加します。Assoft.words
+title: Aspose.Wordsを使用して,Wordで表にタイトルと説明を追加する
 weight: 7700
 limit: 
-description: Public domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainfalsefalsefalsefalsefalsefalsefalsefalsefalse.
+description: この簡単な例で,Word文書の表にタイトルと説明を追加する方法について.NETのAspose.Wordsで学びましょう.
 keywords: [Aspose.Words, Word document, table title, table description, .NET example, table formatting, Aspose, OoxmlSaveOptions, document processing]
 url: /ja/net/working-with-table-styles-and-formatting/table-tittle-and-description/
 ---
@@ -10,31 +10,31 @@ url: /ja/net/working-with-table-styles-and-formatting/table-tittle-and-descripti
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 表にタイトルと説明を追加します。Assoft.words
+# Aspose.Wordsを使用して,Wordで表にタイトルと説明を追加する
 
-このガイドは、Access (Access) を使って表にタイトルと説明を追加します。Words.NET は既存の Word ドキュメントでテーブルのプロパティーを操作する方法を学び、必要な互換に関するオプションを保存し、Word 2016 のフォーマットを最適化します。 例のコードは、ドキュメントの読み込み、テーブルのプロパティーの調整、ファイルを保存する、正確な設定で保存します。
+このガイドでは,既存の Word ドキュメントのテーブルプロパティを操作する方法を学び,既知のコンパティビリティのために保存オプションを設定し,Word 2016 の最適化されたフォーマットを確保します.例コードは,ドキュメントをロードし,テーブルプロパティを更新し,正確な設定設定でファイルを保存する方法を説明します.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/table-tittle-and-description" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## インストール方法:
+## 設置指示:
 
-Public domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainfalsefalsefalse.
+この例を実行するには,以下の簡単な手順を実行します.
 
-1. Asfoint. ^ a b c d e f g h i ^ a b c d e f g h i d e f g h i ". NET: a b c d e f g h i ".
-   NuGet 経由で .NET ワードを簡単にインストールできます。パッケージマネージャのコンソールで以下のコマンドを実行してください。
+1. .NET に Aspose.Words をインストールする
+   NuGet を通して .NET のAspose.Wordsを簡単にインストールできます. パッケージ管理者コンソールで次のコマンドを実行します:
    ```
    Install-Package Aspose.Words
    ```
 
-2. ライセンスを適用する (オプション):  
-   2020年3月13日閲覧. ^ "[全版版]全面的に利用". 日本経済新聞 (日本経済新聞社). 日本経済新聞 (日本経済新聞社) (日本経済新聞社).[ライセンスを適用する](https://purchase.aspose.com/temporary- license/)または[フリーの試行](https://releases.aspose.com/words/net/))をいう.
+2. 申請許可 (オプション):  
+   完全なバージョンを使用するために[ライセンス申請](https://purchase.aspose.com/temporary-license/) [無料試験](https://releases.aspose.com/words/net/)やってくれ
    
-## また、参照してください。
-[Asforce. NET ドキュメンテーション用用語](https://docs.aspose.com/words/net/)
-[access. ^ a b c d e f g h i ". NET インフォメーション".](https://reference.aspose.com/words/net/)
+## また見てください
+[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
+[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

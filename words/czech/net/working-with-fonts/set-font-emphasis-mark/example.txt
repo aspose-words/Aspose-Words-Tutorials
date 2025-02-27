@@ -1,39 +1,39 @@
 //ExStart
-//ExSummary:Tento kód ukazuje, jak nastavit značku důrazu v dokumentu Word pomocí Aspose.words.
-//ExStepSummary:0:Vytvoření nové instance dokumentu pro práci.
-//ExStepSummary:1:Připravit dokumentový stavitel, aby zmanipuloval dokument.
-//ExStepSummary:2:Použití znaménka důrazu na písmo stavitele.
-//ExStepSummary:3:Psaní textu důrazu na dokument.
-//ExStepSummary:4:Psaní jednoduchého textu bez jakéhokoliv důrazu.
-//ExStepSummary:5: Tento kód uloží dokument se značkou důrazu na písmo.
+//ExSummaryTento kód ukazuje, jak nastavit značku důrazu v dokumentu Word pomocí Aspose.words.
+//ExStepSummary:0:Vytváření nového dokumentu pro práci.
+//ExStepSummary:1:Nastavení DocumentBuilder pro manipulaci s dokumentem.
+//ExStepSummary:2:Použití značky důrazu na písmo stavitele.
+//ExStepSummary:3:Psaní textu na důraz k dokumentu.
+//ExStepSummary:4:Píšeš jednoduchý text bez důrazu.
+//ExStepSummary:5: Tento kód uloží dokument s důrazným znakem do písmene.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
 //ExStep:0-
-// Vytvořit nový dokument
+// Vytvořte nový dokument
 Document document = new Document();
 
 //ExStep:1-
-// Inicializovat DocumentBuilder pro manipulaci s dokumenty
+// Začněte program DokumentBuilder pro manipulaci s dokumenty
 DocumentBuilder builder = new DocumentBuilder(document);
 
 //ExStep:2-
-// Nastavte důrazní značku na UnderSolidCircle
+// Nastavte důrazový znak na UnderSolidCircle
 builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
 
 //ExStep:3-
-// Napište text důrazu do dokumentu
+// Napíšejte text na důraz do dokumentu
 builder.Write("Emphasis text");
-// Přesunout na další řádek
+// Přejdi na další řádek.
 builder.Writeln();
-// Vymazat formátování písma pro následující text
+// Vymažte formátování písmene pro následující text
 builder.Font.ClearFormatting();
 
 //ExStep:4-
-// Napsat jednoduchý text bez důrazu
+// Napište jednoduchý text bez důrazu
 builder.Write("Simple text");
 
 //ExStep:5-
-// Uložit dokument na zadanou cestu
+// Uložte dokument na uvedenou cestu
 document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
 //ExEnd

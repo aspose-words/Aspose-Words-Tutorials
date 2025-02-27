@@ -1,8 +1,8 @@
 ---
-title: .NET için Aspose.Words kullanarak Word'deki Tablo Sınırlarını Değiştir
+title: Word'de Tablo Sınırlarını .NET için Aspose.Words kullanarak değiştir
 weight: 7700
 limit: 
-description: Word belgelerindeki tablo sınırlarını Aspose.Words for .NET ile nasıl manipüle edeceğinizi öğrenin. Özel tablo stilleri ve biçimlendirme uygulamak için adım adım örnek.
+description: Word belgelerinde tablo sınırlarını .NET için Aspose.Words ile nasıl manipüle edeceğinizi öğrenin. Özel tablo stillerini ve biçimlendirmeyi uygulamak için adım adım örnek.
 keywords: [Aspose.Words for .NET, table borders Word, Word document table formatting, modify Word table, .NET Word processing, Aspose.Words tutorial]
 url: /tr/net/working-with-table-styles-and-formatting/build-table-with-border/
 ---
@@ -10,34 +10,34 @@ url: /tr/net/working-with-table-styles-and-formatting/build-table-with-border/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words kullanarak Word'de Tablo Sınırlarını Değiştir
+# Word'de Tablo Sınırlarını Aspose.Words kullanarak değiştir
  
-Aspose.NET için Words, Word belgelerini programlı olarak oluşturmak, düzenlemek ve manipüle etmek için güçlü bir kütüphanedir. Bu örnekte, mevcut bir Word belgesini nasıl alacağınızı, ilk tablonun sınırlarını nasıl değiştireceğinizi ve Aspose.Words kullanarak özel biçimlendirme uygulayacağınızı öğreneceksiniz. Bu kılavuz, mevcut sınırları temizleyerek, tablonun etrafında ve içinde yeşil sınırlar uygulayarak ve belgeyi güncelleyerek sizi gezdirir. Bu işlevsellikle, Word belgelerinin sunumunu verimli bir şekilde artırabilirsiniz.
+.NET için Aspose.Words programsal olarak Word belgeleri oluşturmak, düzenlemek ve manipüle etmek için güçlü bir kütüphane. Bu örnekte mevcut bir Word belgesini nasıl geri alacağınızı, ilk tablo sınırlarını değiştirdiğinizi ve Aspose.Words kullanarak özel biçimlendirme uyguladığınızı öğreneceksiniz. Bu rehber mevcut sınırları temizlemek, tablo etrafında ve içinde yeşil sınırlar uygulayarak ve güncelleştirilmiş belgeyi kaydetmekle ilgilenir. Bu işlevle, Word belgelerindaki tabloların sunumunu verimli bir şekilde artırabilirsiniz.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/build-table-with-border" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum Talimatları  
-Aspose.Words for .NET ile başlamak için şu adımları izleyin:  
+## Kurulum talimatları  
+.NET için Aspose.Words ile başlamak için, bu adımları izleyin:  
 
-1. Kütüphaneyi İndir: Aspose.Words'un en son sürümünü .NET'ten indirin.[resmi indirme sayfası](https://releases.aspose.com/words/net/).  
-2. NuGet üzerinden yükleyin:  
-   * Projenizi Visual Studio'da açın.  
-   * Araçlara git > NuGet Paket Yöneticisi > Çözüm için NuGet Paketlerini Yönet.  
-   * Ara`Aspose.Words`ve Install'ı tıklayın.  
-3. Lisans Başvurusu: Lisanstan bir lisans alın[Satın alma sayfasını kabul et](https://purchase.aspose.com/buy)ya da kullanmak a[geçici lisans](https://purchase.aspose.com/temporary-license/)Değerlendirme amaçları için.  
-4. İsim Alanı Ekle: Add the`Aspose.Words`kodunuzda isim alanı:  
+1. Kitaplık indir: .NET için Aspose.Words en son sürümünü indir [resmi indirme sayfası](https://releases.aspose.com/words/net/)\- Evet .  
+2. NuGet üzerinden yükle:  
+   * Projeyi Visual Studio'da aç.  
+   * Araçlara > NuGet Paket Yöneticisi > Çözüm için NuGet Paketleri Yönetin.  
+   * Arama`"Sözler. Sözler"`ve kurulum düğmesine tıklayın.  
+3. Lisans başvurusu: Lisans almak için[Satın alma sayfasını hedef edin](https://purchase.aspose.com/buy)veya bir [Geçici lisans](https://purchase.aspose.com/temporary-license/)değerlendirme amaçlı.  
+4. Ad Alanı Ekle: Ekle`"Sözler. Sözler"`Kodunuzdaki isim alanı:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    using System.Drawing;
    ```  
 
-## Ayrıca Bakınız
-[.NET Dokümantasyonu için Aspose.Word](https://docs.aspose.com/words/net/)
-[.NET Referansları için Aspose.Word](https://reference.aspose.com/words/net/)
+## Ayrıca bakın
+[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

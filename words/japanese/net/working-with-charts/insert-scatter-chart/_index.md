@@ -1,8 +1,8 @@
 ---
-title: アクセシビリティを使用した単語グラフを作成. NET 用の単語
+title: .NET のAspose.Wordsを使用してWord Scatter Chartを作成する
 weight: 7700
 limit: 
-description: Public domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainfalsefalse.
+description: .NET のAspose.Wordsを使用して散布表でWord ドキュメントを作成する方法について学びます.コードと指示を含むステップバイ・ステップガイド.
 keywords: [Aspose.Words for .NET, scatter chart, Word scatter chart, create scatter chart, insert chart in Word, .NET Word document, document builder]
 url: /ja/net/working-with-charts/insert-scatter-chart/
 ---
@@ -10,41 +10,41 @@ url: /ja/net/working-with-charts/insert-scatter-chart/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# アクセシビリティを使って単語グラフを作成Name
+# Aspose.Words を使って語彙分布図を作成する
 
-アクセシビリティ.NET ^ ワードドキュメントの作成及び操作に関する用語です。この例は、散布図をワードドキュメントに挿入する方法を示すものです。`ドキュメントビルダー`には、コンテンツを作成し、グラフデータを挿入することで、プロレベルの散布図をドキュメントに効率的に追加することができます。 API の直感により、Words stagelines は .NET 開発者のための文書を拡張し、時間と労力を節約します。  
+.NET の Aspose.Words は,Word ドキュメントをプログラム的に作成し操作することを簡素化します.この例では,Word ドキュメントに分散チャートを挿入する方法を示します.`ドキュメントビルダー`コンテンツ作成やチャートデータをプログラム的に挿入するには,プロのグレードの分散チャートをドキュメントに効率的に追加できます. 直感的なAPIで, ".Aspose.Words"は .NET開発者向けにドキュメント自動化を効率化させ,時間と労力を節約します.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-scatter-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## インストールインジケータ  
-この 例 を 実行 する に は , 次 の 段階 を 踏ま なけれ ば なり ませ ん。  
+## 設置指示  
+この例を実行するには,次の手順に従ってください.  
 
-1. Asfofo.words for.NET  
-   * ASfoの公式サイトからライブラリをダウンロードします:[Asfoint. NET ダウンロード用単語](https://releases.aspose.com/words/net/))をいう.  
-   * NuGet パッケージマネージャをインストール:  
+1. .NET のためのAspose.Wordsをダウンロードしてインストールする  
+   * 図書館を公式Aposeウェブサイトからダウンロードする: [.NETダウンロードのAspose.Words](https://releases.aspose.com/words/net/)やってくれ  
+   * NuGet パッケージ管理者によるインストール:  
      ```bash  
      Install-Package Aspose.Words  
      ```  
 
-2. 開発 環境 を 設定 する  
-   * NET IDE (例,ビジュアルスタジオ) を開く.  
-   * 新しいコンソールアプリケーションを作成し、既存のプロジェクトに統合します。  
-   * Asfool.write for .NET ライブラリへの参照を追加します。  
+2. 成長 環境 を 設定 する  
+   * .NET IDE (例:ビジュアル・スタジオ) を開く.  
+   * 新しいコンソールアプリケーションを作成するか,既存のプロジェクトに統合します.  
+   * .NET ライブラリのAspose.Wordsへの参照を追加する.  
 
-3. ライセンスを適用する(A)  
-   * ライセンスがある場合は,プロジェクトに次のように適用する.  
+3. ライセンス申請  
+   * ライセンスを持っている場合は,以下のようなものを利用してプロジェクトに適用してください.  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("Your_License_File.lic");  
      ```  
-   * 逆に、[フリーの一時ライセンス](https://purchase.aspose.com/temporary-license/)を選択して、ライブラリをテストします。
+   * 代替として [免許 臨時許可](https://purchase.aspose.com/temporary-license/)図書館をテストする
 
-## また、参照してください。
-[Asforce. NET ドキュメンテーション用用語](https://docs.aspose.com/words/net/)
-[access. ^ a b c d e f g h i ". NET インフォメーション".](https://reference.aspose.com/words/net/)
+## また見てください
+[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
+[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

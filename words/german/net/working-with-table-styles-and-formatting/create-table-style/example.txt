@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary: Dieser Code zeigt, wie man ein Word-Dokument mit einer stilisierten Tabelle mit Aspose.Words erstellt. 
-//ExStepSummary:0: Initialisieren Sie ein neues Dokument und DocumentBuilder.
-//ExStepSummary:1: Starten Sie eine neue Tabelle und fügen Sie Headerzellen für "Name" und "Value" ein.
-//ExStepSummary:2: Erstellen Sie ein benutzerdefiniertes TableStyle mit spezifischen Rand- und Polstereinstellungen.
-//ExStepSummary:3: Speichern Sie das Dokument mit dem neuen Tabellenstil angewendet.
+//ExSummary: Dieser Code zeigt, wie man ein Word-Dokument mit einer Stilentabelle mit Aspose.Words erstellt. 
+//ExStepSummary:0: Ein neues Dokument und Dokumentbuilder initialisieren.
+//ExStepSummary:1: Starten Sie eine neue Tabelle und geben Sie die Header-Zellen für "Name" und "Wert" ein.
+//ExStepSummary:2: Erstellen Sie einen benutzerdefinierten TableStyle mit spezifischen Grenz- und Polsterinstellungen.
+//ExStepSummary:3: Speichern Sie das Dokument mit dem neuen Tabellenstil.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Ein neues Dokumentobjekt erstellen
+// Erstellen Sie ein neues Dokumentobjekt
 Document doc = new Document();
-// Initialisieren Sie den DocumentBuilder, um das Dokument zu erstellen
+// Initialisieren Sie den Dokumentenbuilder, um das Dokument zu erstellen
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Eine neue Tabelle starten
+// Beginnen Sie einen neuen Tisch
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Name");
@@ -25,20 +25,20 @@ builder.InsertCell();
 builder.EndTable();
 
 //ExStep:2-
-// Einen neuen Tabellenstil erstellen
+// Erstellen Sie einen neuen Tisch Stil
 TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Borders.LineStyle = LineStyle.Double;
-// Breite des Rahmens einstellen
+// Festlegen Sie die Grenzbreite
 tableStyle.Borders.LineWidth = 1;
-// Die Polsterung einstellen
+// Setzen Sie die Polsterung
 tableStyle.LeftPadding = 18;
 tableStyle.RightPadding = 18;
 tableStyle.TopPadding = 12;
 tableStyle.BottomPadding = 12;
-// Anwenden des benutzerdefinierten Tabellenstils auf die erstellte Tabelle
+// Anwendbarkeit des benutzerdefinierten Tabellen-Stils auf die erstellte Tabelle
 table.Style = tableStyle;
 
 //ExStep:3-
-// Das Dokument mit der gestylten Tabelle speichern
+// Speichern Sie das Dokument mit der Stilentabelle
 doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
 //ExEnd

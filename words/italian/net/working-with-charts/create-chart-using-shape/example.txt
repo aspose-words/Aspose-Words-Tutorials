@@ -1,9 +1,9 @@
 //ExStart
-//ExSummary: Si prega di controllare il seguente codice per trovare come creare un grafico a riga in un documento Word. È possibile copiare questo codice sul proprio IDE ed eseguirlo.
-//ExStepSummary:0: Il seguente codice mostra come creare un nuovo documento e istalliare un DocumentBuilder:
-//ExStepSummary:1: Il seguente codice mostra come inserire nel documento un grafico a righe:
+//ExSummary: Per trovare un modo di creare un grafico di linee in un documento Word, controlla il seguente codice.
+//ExStepSummary:0: Il seguente codice mostra come creare un nuovo Documento e istantanizzare un DocumentBuilder:
+//ExStepSummary:1: Il seguente codice mostra come inserire un grafico di linea nel documento:
 //ExStepSummary:2: Il seguente codice spiega come impostare il titolo del grafico:
-//ExStepSummary:3: Il seguente codice mostra come configurare la posizione della legenda del grafico e le impostazioni di sovrapposizione:
+//ExStepSummary:3: Il seguente codice mostra come configurare la posizione e le impostazioni di sovrapposizione della leggenda del grafico:
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -13,25 +13,25 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Inserisci un grafico a righe nel documento alle dimensioni specificate
+// Inserire un grafico di linea nel documento alle dimensioni specificate
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
 
 //ExStep:2-
-// Accedere all'oggetto Grafico dalla forma
+// Accedere all'oggetto Grafica dalla forma
 Chart chart = shape.Chart;
-// Abilita la visibilità del titolo del grafico
+// Abilitare la visibilità del titolo del grafico
 chart.Title.Show = true;
-// Imposta il testo del titolo per il grafico
+// Impostare il testo del titolo per il grafico
 chart.Title.Text = "Line Chart Title";
-// Assicurati che il titolo non sovrapponga il grafico
+// Assicurarsi che il titolo non sovrapponga il grafico
 chart.Title.Overlay = false;
 
 //ExStep:3-
-// Imposta la posizione della legenda del grafico a sinistra
+// Impostare la posizione della leggenda della carta a sinistra
 chart.Legend.Position = LegendPosition.Left;
 chart.Legend.Overlay = true;
 
 //ExStep:4-
-// Salva il documento con il grafico in un file
+// Salvare il documento con il grafico in un file
 doc.Save("WorkingWithCharts.CreateChartUsingShape.docx");
 //ExEnd

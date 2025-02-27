@@ -1,27 +1,27 @@
 //ExStart
-//ExSummary: このコードは、Assoft.words.NET を使って新しいセクションをワードドキュメントに追加する方法を示します。プロセスには、ドキュメントの初期化、書き込み、新しいセクションの追加などが含まれています。
-//ExStepSummary:0: ドキュメントの内容を追加するための新しい Word ドキュメントと文書作成オブジェクトを初期化します。
-//ExStepSummary:1: ドキュメント作成オブジェクトを使用して、最初のセクションにテキストを追加します。
-//ExStepSummary:2: ドキュメント作成オブジェクトを使用して、最初のセクションにテキストを追加します。
-//ExStepSummary:3: 新しいセクションを作成し、ドキュメントセクションのコレクションに追加します。
+//ExSummary: このコードは, .NET のAspose.Wordsを使用して Word ドキュメントに新しいセクションを追加する方法を示します. このプロセスには,ドキュメントの初期化,コンテンツの書き込み,新しいセクションの添付が含まれます.
+//ExStepSummary:0: 新しい Word 文書と DocumentBuilder オブジェクトを初期化して,ドキュメントにコンテンツを追加します.
+//ExStepSummary:1: 文書作成者オブジェクトを使用して最初のセクションにテキストを追加します.
+//ExStepSummary:2: 文書作成者オブジェクトを使用して最初のセクションにテキストを追加します.
+//ExStepSummary:3: 新しいセクションを作成して,ドキュメントのセクションコレクションに追加します.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// 新しい Word ドキュメントを作成します。
+// 新しい Word 文書を作成する.
 Document doc = new Document();
-// ドキュメント作成プログラムを初期化します。
+// ドキュメントのドキュメントビルダーを初期化します.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// 最初の節に内容を追加
+// 第1節にコンテンツを追加する
 builder.Writeln("Hello1"); // Write "Hello1" into the document's first section.
 
 //ExStep:2-
-// 最初の節に内容を追加
+// 第1節にコンテンツを追加する
 builder.Writeln("Hello2"); // Write "Hello2" into the document's first section.
 
 //ExStep:3-
-// ドキュメントに新しいセクションを作成します。
+// 文書に新しいセクションを作成します.
 Section sectionToAdd = new Section(doc);
 doc.Sections.Add(sectionToAdd);
 //ExEnd

@@ -1,29 +1,29 @@
 //ExStart
-//ExSummary: Denna kod visar hur man infogar ett kolumndiagram i ett dokument med Aspose.Words. Det skapar ett dokument,
-//          lägger till ett diagram med definierade kategorier och värden, och sparar sedan dokumentet.
-//ExStepSummary:0: Följande kod initierar ett nytt dokument och en dokumentbyggare.
-//ExStepSummary:1: Detta steg innebär att man infogar ett kolumndiagram med angivna mått i dokumentet.
-//ExStepSummary:2: Här läggs seriedata till diagrammet med kategorier och motsvarande värden.
-//ExStepSummary:3: Det här steget sparar dokumentet med det infogade diagrammet till en angiven filplats.
+//ExSummaryDenna kod visar hur man sätter in en kolumn diagram i ett dokument med hjälp av Aspose.Words.
+//          lägger till ett diagram med definierade kategorier och värden och sparar sedan dokumentet.
+//ExStepSummary:0: Följande kod initialiserar ett nytt dokument och en dokumentbyggare.
+//ExStepSummary:1: Detta steg innebär att ett kolumnsdiagram med angivna dimensioner införs i dokumentet.
+//ExStepSummary:2: Här läggs serieuppgifter till diagrammet med kategorier och motsvarande värden.
+//ExStepSummary:3: Detta steg sparar dokumentet med det inlagda diagrammet till en specifik filplats.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Initiera ett nytt dokumentobjekt
+// Initializera ett nytt dokumentobjekt
 Document doc = new Document();
-// Skapa en DocumentBuilder för enkel dokumentmanipulering
+// Skapa en DocumentBuilder för enkel dokumentmanipulation
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Infoga ett kolumndiagram i angiven storlek (bredd x höjd)
+// Insyta en kolumntabell i den angivna storleken (bredd x höjd)
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 
 //ExStep:2-
-// Få tillgång till diagramobjektet från den infogade formen
+// Tillgå till diagramobjektet från den insatta formen
 Chart chart = shape.Chart;
 // Lägg till seriedata med kategorier och värden
 chart.Series.Add("Aspose Series 1", new string[] { "Category 1", "Category 2" }, new double[] { 1, 2 });
 
 //ExStep:3-
-// Spara dokumentet med det infogade kolumndiagrammet
+// Spara dokumentet med inledande kolumnsdiagram
 doc.Save("WorkingWithCharts.InsertColumnChart.docx"); 
 //ExEnd

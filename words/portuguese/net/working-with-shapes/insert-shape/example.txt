@@ -1,9 +1,9 @@
 //ExStart
-//ExSummary: Este código demonstra como inserir formas (caixas de texto) em um documento do Word usando Aspose.Words. O documento é salvo em formato DOCX com opções de conformidade específicas para padrões ISO.
-//ExStepSummary:0: O código inicializa um novo documento e um construtor de documentos para manipular o documento.
-//ExStepSummary:1: Uma forma (caixa de texto) é inserida em uma posição absoluta no documento e a rotação da primeira forma é definida em 30 graus.
+//ExSummaryEste código demonstra como inserir formas (caixas de texto) num documento do Word usando Aspose.Words. O documento é guardado em formato DOCX com opções específicas de conformidade para as normas ISO.
+//ExStepSummary:0: O código inicializa um novo documento e um criador de documentos para manipular o documento.
+//ExStepSummary:1: Uma forma (quadro de texto) é inserida numa posição absoluta no documento e a rotação da primeira forma é definida em 30 graus.
 //ExStepSummary:2: Uma nova forma é inserida em uma posição relativa e a rotação da segunda forma também é definida em 30 graus.
-//ExStepSummary:3: O documento é salvo com OoxmlSaveOptions específicos.
+//ExStepSummary:3: O documento é salvo com especificações OoxmlSaveOptions.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -15,26 +15,26 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Insere uma forma do tipo TextBox
+// Insere uma forma de tipo TextBox
 Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
     RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
-// Gira a forma em 30 graus
+// Rotar a forma em 30 graus
 shape.Rotation = 30.0;
 
 //ExStep:2-
 builder.Writeln();
 // Insere outra forma do tipo TextBox em uma posição relativa
 shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
-// Rota a segunda forma em 30 graus
+// Rotar a segunda forma em 30 graus
 shape.Rotation = 30.0;
 
 //ExStep:3-
-// Prepara opções de salvar para o documento
+// Prepara opções de armazenamento para o documento
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
 };
 
-// Salva o documento usando as opções de salvamento especificadas
+// Salva o documento usando as opções de salva especificadas
 doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
 //ExEnd

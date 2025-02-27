@@ -1,22 +1,22 @@
 //ExStart
-//ExSummary:Bu kod Aspose.Words kullanarak bir Word belgesinin nasıl oluşturulacağını gösterir ve buna yatay bir kural ekler. 
+//ExSummary:Bu kod, Aspose.Words kullanarak bir Word belgesini nasıl oluşturulacağını ve ona yatay bir kural ekleyeceğini gösterir. 
 //ExStepSummary:0: İçeriği tutmak için yeni bir Belge nesnesi oluşturun.
-//ExStepSummary:1: Belgenin düzenini tasarlamak ve bir mesaj eklemek için DocumentBuilder'ı kullanın.
-//ExStepSummary:2: Belgeye yatay bir kural şekli ekleyin.
-//ExStepSummary:3: Belgeyi belirtilen dosya yoluna kaydedin.
+//ExStepSummary:1: Belgenin düzenini tasarlamak ve bir mesaj eklemek için DocumentBuilder kullanın.
+//ExStepSummary:2: Belgeye yatay kural şeklini ekleyin.
+//ExStepSummary:3: Belgeyi belirtilen dosya yoluna kaydet.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// İçeriği tutmak için yeni bir Belge nesnesi oluşturun
+// İçeriği tutmak için yeni bir Belge nesnesi oluştur
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc); 
 
 //ExStep:1-
-// Belgeye bir satır yazın
+// Belgeye bir satır yaz
 builder.Writeln("Insert a horizontal rule shape into the document.");
 
 //ExStep:2-
-// Belgeye yatay bir kural şekli ekle
+// Belgeye yatay kural şeklini ekle
 builder.InsertHorizontalRule();
 
 //ExStep:3-

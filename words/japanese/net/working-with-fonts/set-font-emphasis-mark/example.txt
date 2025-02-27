@@ -1,39 +1,39 @@
 //ExStart
-//ExSummary: このコードは,アスタド.words を使って単語ドキュメントに強調マークをセットする方法を実演します。
-//ExStepSummary:0:使用する新しい文書インスタンスを作成します。
-//ExStepSummary:1:ドキュメントの操作を行う文書ビルダーを設定します。
-//ExStepSummary:2:メーカーのフォントに強調マークを適用します。
-//ExStepSummary:3:文書にテキストを強調します。
-//ExStepSummary:4:強調 する こと なく 簡易 な テキスト を 書き ましょ う。
-//ExStepSummary:5: このコードは、フォントを強調マークしてドキュメントを保存します。
+//ExSummary: このコードは,Aspose.wordsを使用してWord文書に強調マークを設定する方法を示します.
+//ExStepSummary:0:新しいドキュメントインスタンスを作成する.
+//ExStepSummary:1:文書を操作するドキュメントビルダーを設定します.
+//ExStepSummary:2:建築家のフォントに強調マークを適用する
+//ExStepSummary:3:文書に強調文本を書くこと
+//ExStepSummary:4:強調せずに簡単な文を書く
+//ExStepSummary:5: このコードは,フォントに強調マークを記入した文書を保存します.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
 //ExStep:0-
-// 新しい文書を作成
+// 新しい文書を作成する
 Document document = new Document();
 
 //ExStep:1-
-// ドキュメント操作用の文書ビルダーを初期化
+// ドキュメント操作のドキュメントビルダーを初期化する
 DocumentBuilder builder = new DocumentBuilder(document);
 
 //ExStep:2-
-// 接着 剤 に 強調 の 的 を 置い て ください
+// 強調マークをアンダーソリッド・サーキルに設定
 builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
 
 //ExStep:3-
-// 強調テキストをドキュメントに書き込み
+// 文書に強調したテキストを書きなさい
 builder.Write("Emphasis text");
-// 次の行に移動
+// 次の行へ移動
 builder.Writeln();
-// 次のテキストのフォントの書式設定をクリアします
+// 次回のテキストのフォントフォーマットを削除
 builder.Font.ClearFormatting();
 
 //ExStep:4-
-// シンプルなテキストを強調せずに書き込み
+// 強調せずにシンプルな文を書く
 builder.Write("Simple text");
 
 //ExStep:5-
-// ドキュメントを指定したパスに保存
+// 文書を指定されたパスに保存する
 document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
 //ExEnd

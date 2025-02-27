@@ -1,8 +1,8 @@
 //ExStart
-//ExSummaryを選択します。 このコードは、ドキュメントの作成や、指定したフォントの行間隔を取得する方法を示すものです。
-//ExStepSummary:0: 以下のコードが、新しいドキュメントとドキュメントビルダーを初期化します。
-//ExStepSummary:1: コードはフォントを「Calibr」に設定し、テキスト行を追加します。
-//ExStepSummary:2: コードは、ドキュメント内での最初の実行の行間隔を取得します。
+//ExSummary: このコードは,ドキュメントを作成し,指定されたフォントの行間隔を入手する方法を示します.
+//ExStepSummary:0: 次のコードは新しいドキュメントとドキュメントビルダーを初期化します.
+//ExStepSummary:1: コードはフォントを"カリブリ"に設定し,文字列を追加します.
+//ExStepSummary:2: コードは,ドキュメントの最初の実行の行間を回収します.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
@@ -11,13 +11,13 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// フォント名を「カリブリ」に設定
+// フォント名を"Calibri"に設定する
 builder.Font.Name = "Calibri";
 builder.Writeln("qText");
 
 //ExStep:2-
-// 最初の実行のフォントにアクセス
+// 最初のランのフォントにアクセスする
 Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
-// コンソールに行間隔を出力
+// コンソールへの線間を入力する
 Console.WriteLine($"lineSpacing = {font.LineSpacing}");
 //ExEnd

@@ -1,30 +1,30 @@
 //ExStart
-//ExSummary: Este código muestra cómo crear un documento con un gráfico usando Aspose.Words, establecer los límites para el eje Y y guardar el documento como un archivo DOCX. 
-// Cada paso se desglosa para proporcionar una comprensión clara del proceso involucrado en el trabajo con gráficos en Aspose.Words.
-//ExStepSummary:0: Inicializa un nuevo documento y una instancia de DocumentBuilder. 
-//ExStepSummary:1: Inserte un gráfico en el documento y recupere el objeto gráfico. 
-//ExStepSummary:2: Agregue una nueva serie al gráfico con las categorías y los valores especificados. 
-//ExStepSummary:3: Establezca los límites mínimo y máximo para el eje Y del gráfico. 
-//ExStepSummary:4: Guarde el documento en la ruta de acceso especificada. 
+//ExSummary: Este código muestra cómo crear un documento con un gráfico utilizando Aspose.Words, establecer los límites para el eje Y y guardar el documento como un archivo DOCX. 
+// Cada paso se desglosará para proporcionar una comprensión clara del proceso involucrado en el trabajo con gráficos en Aspose.Words.
+//ExStepSummary:0: Iniciar un nuevo documento y una instancia de DocumentBuilder. 
+//ExStepSummary:1: Insertar un gráfico en el documento y recuperar el objeto del gráfico. 
+//ExStepSummary:2: Añadir una nueva serie al gráfico con categorías y valores especificados. 
+//ExStepSummary:3: Establezca los límites mínimos y máximos para el eje Y del gráfico. 
+//ExStepSummary:4: Guarde el documento en el camino especificado. 
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Crear una nueva instancia de documento.
+// Crear una nueva instancia de Documento.
 Document doc = new Document();
-// Inicialice DocumentBuilder para crear el documento.
+// Inicia DocumentBuilder para construir el documento.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Inserte un gráfico de columnas en el documento.
+// Insertar un gráfico de columnas en el documento.
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
-// Recupere el objeto gráfico de la forma.
+// Recupera el objeto del gráfico de la forma.
 Chart chart = shape.Chart;
-// Borre cualquier serie existente del gráfico para obtener datos recientes.
+// Eliminar las series existentes del gráfico para obtener datos nuevos.
 chart.Series.Clear();
 
 //ExStep:2-
-// Defina una nueva serie con el nombre "Aspose Series 1".
+// Definir una nueva serie con el nombre "Aspose Series 1".
 chart.Series.Add("Aspose Series 1",
     new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
     new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
@@ -35,6 +35,6 @@ chart.AxisY.Scaling.Minimum = new AxisBound(0);
 chart.AxisY.Scaling.Maximum = new AxisBound(6);
 
 //ExStep:4-
-// Guarde el documento con el gráfico en la ruta de acceso especificada.
+// Guarde el documento con la tabla en el camino especificado.
 doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
 //ExEnd

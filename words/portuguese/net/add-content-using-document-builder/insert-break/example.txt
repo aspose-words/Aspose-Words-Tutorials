@@ -1,10 +1,10 @@
 //ExStart
 //ExSummary: Este código demonstra como criar um documento do Word usando Aspose.Words, adicionar conteúdo em várias páginas e salvá-lo como um arquivo .docx.
-//ExStepSummary:0: Esta etapa inicializa um novo Documento e um DocumentBuilder para manipular o documento.
+//ExStepSummary:0: Esta etapa inicializa um novo documento e um DocumentBuilder para manipular o documento.
 //ExStepSummary:1: Esta etapa adiciona texto à primeira página.
-//ExStepSummary:2: Esta etapa insere uma quebra de página para iniciar uma nova página.
-//ExStepSummary:3: Esta etapa adiciona texto à segunda página.
-//ExStepSummary:4: Esta etapa insere outra quebra de página para uma nova página.
+//ExStepSummary:2: Esta etapa inserir um intervalo de página para iniciar uma nova página.
+//ExStepSummary:3: Este passo adiciona texto à segunda página.
+//ExStepSummary:4: Esta etapa inserir outra pausa de página para uma nova página.
 //ExStepSummary:5: Esta etapa adiciona texto à terceira página.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
@@ -22,7 +22,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("This is page 1.");
 
 //ExStep:2-
-// Inserir uma quebra de página para iniciar uma nova página
+// Insira um intervalo de página para iniciar uma nova página
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:3-
@@ -30,7 +30,7 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("This is page 2.");
 
 //ExStep:4-
-// Inserir outra quebra de página para uma nova página
+// Insira outra pausa de página para uma nova página
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:5-
@@ -38,6 +38,6 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("This is page 3.");
 
 //ExStep:6-
-// Salve o documento no caminho especificado
+// Salvar o documento no caminho especificado
 doc.Save("AddContentUsingDocumentBuilder.InsertBreak.docx");
 //ExEnd

@@ -1,50 +1,50 @@
 //ExStart
-//ExSummary:Veuillez vérifier le code suivant pour trouver comment insérer un simple diagramme de colonne dans un document Word. Vous pouvez copier ce code sur votre IDE et l'exécuter.
-//ExStepSummary:0: Ce code montre comment créer un document Word en utilisant Aspose.Words et insérez un diagramme de colonnes dans celui-ci.
-//ExStepSummary:1: Ce code montre comment créer un objet de constructeur de documents pour manipuler le contenu Word.
-//ExStepSummary:2: Ce code montre comment insérer une forme de diagramme de colonnes avec des dimensions spécifiées dans le document.
-//ExStepSummary:3: Ce code récupère l'objet graphique de la forme insérée pour une personnalisation plus poussée.
-//ExStepSummary:4: Ce code montre comment accéder à la collection de séries de cartes et d'imprimer le nombre de séries.
-//ExStepSummary:5: Ce code efface toute série par défaut qui peut avoir été créée avec le graphique.
-//ExStepSummary:6: Ce code montre comment définir les noms de catégorie pour les données du graphique.
-//ExStepSummary:7: Ce code montre comment ajouter des séries au graphique avec les noms de catégorie et les valeurs de données correspondantes.
-//ExStepSummary:8: Ce code enregistre le document avec le graphique inséré dans un fichier spécifié.
+//ExSummary:Veuillez consulter le code suivant pour trouver comment insérer un simple graphique de colonnes dans un document Word. Vous pouvez copier ce code dans votre IDE et l'exécuter.
+//ExStepSummary:0: Ce code montre comment créer un document Word à l'aide de Aspose.Words et y insérer un tableau de colonne.
+//ExStepSummary:1: Ce code montre comment créer un objet de création de documents pour manipuler le contenu de Word.
+//ExStepSummary:2: Ce code montre comment insérer une forme de tableau de colonne avec des dimensions spécifiées dans le document.
+//ExStepSummary:3: Ce code récupère l'objet du graphique de la forme insérée pour une personnalisation ultérieure.
+//ExStepSummary:4: Ce code montre comment accéder à la collection de séries de graphiques et imprimer le nombre de séries.
+//ExStepSummary:5: Ce code supprime toute série par défaut qui a pu être créée avec le graphique.
+//ExStepSummary:6: Ce code démontre comment définir les noms de catégories pour les données du graphique.
+//ExStepSummary:7: Ce code montre comment ajouter des séries au tableau avec les noms de catégories et les valeurs de données correspondantes.
+//ExStepSummary:8: Ce code sauvegarde le document avec le graphique inséré dans un fichier spécifié.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
 //ExStepImage:7:images/4.png
 //ExStep:0-
-// Créez une nouvelle instance de document Word.
+// Créer une nouvelle instance de document Word.
 Document doc = new Document();
 
 //ExStep:1-
-// Créer un documentBuilder pour insérer facilement des éléments dans le document.
+// Créer un DocumentBuilder pour insérer facilement des éléments dans le document.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:2-
-// Insérez une forme de diagramme de colonne avec la largeur spécifiée (432) et la hauteur (252).
+// Insérer une forme de graphique de colonne avec une largeur (432) et une hauteur (252) spécifiées.
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 
 //ExStep:3-
-// Récupérer l'objet graphique de la forme pour d'autres manipulations.
+// Retirer l'objet du graphique de la forme pour une manipulation ultérieure.
 Chart chart = shape.Chart;
 
 //ExStep:4-
 // Accédez à la collection de séries du graphique.
 ChartSeriesCollection seriesColl = chart.Series;
-// Imprimez le nombre de séries dans le tableau sur la console.
+// Imprimez le numéro de série dans le graphique sur la console.
 Console.WriteLine(seriesColl.Count);
 
 //ExStep:5-
-// Supprimez toute série par défaut générée automatiquement lors de la création du graphique.
+// Supprimer les séries par défaut générées automatiquement lors de la création du graphique.
 seriesColl.Clear();
 
 //ExStep:6-
-// Définir un tableau de noms de catégories pour les données du graphique.
+// Définir un ensemble de noms de catégories pour les données des graphiques.
 string[] categories = new string[] { "Category 1", "Category 2" };
 
 //ExStep:7-
-// Ajoutez plusieurs séries au graphique avec les noms de catégorie et les valeurs de données.
+// Ajouter plusieurs séries au tableau avec les noms de catégories et les valeurs de données.
 seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
 seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
 seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
@@ -52,6 +52,6 @@ seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
 seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
 
 //ExStep:8-
-// Enregistrer le document avec le graphique inséré dans le chemin de fichier spécifié.
+// Enregistrez le document avec le graphique inséré dans le chemin du fichier spécifié.
 doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
 //ExEnd

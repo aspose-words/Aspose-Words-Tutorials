@@ -1,8 +1,8 @@
 ---
-title: Lavorare con filigrana in Aspose.Parole per .NET
+title: Lavorare con Watermark in Aspose.Words per .NET
 weight: 10
 limit:
-description: Scopri come aggiungere, rimuovere e gestire le filigrane nei documenti di Word con Aspese.Parole per .NET. Semplificare le attività di filigrana con guida passo-passo.
+description: Impara come aggiungere, rimuovere e gestire i watermark nei documenti Word con Aspose.Words per .NET. semplifica i compiti di watermarking con una guida passo-passo.
 keywords:
 url: /it/net/working-with-watermark/
 ---
@@ -12,11 +12,11 @@ url: /it/net/working-with-watermark/
 
 ## Introduzione
  
-Le filigrane sono un modo fantastico per aggiungere branding, marchi di riservatezza, o appello visivo ai vostri documenti Word. Con Aspose.Words per .NET, lavorare con filigrane diventa incredibilmente semplice ed efficiente. Se si desidera aggiungere una filigrana di testo, come "Confidential," o inserire una filigrana di immagine per un look professionale, questa libreria completa offre funzionalità robuste per soddisfare le vostre esigenze. È possibile personalizzare facilmente la posizione, le dimensioni, il colore e la trasparenza delle filigrane per soddisfare le esigenze del documento.  
+I watermark sono un modo fantastico per aggiungere un branding, segni di riservatezza o un'appello visivo ai documenti Word. Con Aspose.Words per .NET, lavorare con i watermark diventa incredibilmente semplice ed efficiente. Che tu voglia aggiungere un watermark di testo, come "Confidentiale", o inserire un watermark di immagine per un aspetto professionale, questa completa libreria offre funzionalità robuste per soddisfare le tue esigenze. Puoi personalizzare facilmente la posizione, la dimensione, il colore e la trasparenza dei watermark per soddisfare i requisiti del tuo documento.  
 
-Oltre ad aggiungere filigrane, Aspose.Words for .NET ti permette di gestirle in modo efficace. Puoi rimuovere le filigrane esistenti, aggiornarne le proprietà o adattarle a pagine specifiche nel tuo documento. Con esempi dettagliati e una guida passo-passo, questo toolkit ricco di funzionalità assicura che la filigrana diventi un processo senza problemi. Trasforma il flusso di lavoro del documento con Aspose.Parole e prendi il controllo delle filigrane senza sforzo.
+Oltre ad aggiungere i watermark, Aspose.Words per .NET consente di gestirli in modo efficace. È possibile rimuovere i watermark esistenti, aggiornare le loro proprietà o adattarli a pagine specifiche del documento. Con esempi dettagliati e guida passo-a-passo, questo kit di strumenti ricco di funzionalità assicura che il watermarking diventi un processo senza problemi. Trasforma il flusso di lavoro del documento con Aspose.Words e prenda il controllo dei tuoi watermark senza sforzo.
 
-{{< tutorial-card link="./add-text-watermark/" title="Aggiungi filigrana di testo nel documento di Word utilizzando Aspese.Words per .NET" imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
+{{< tutorial-card link="./add-text-watermark/" title="Aggiungere il segnale d'acqua di testo nel documento Word Utilizzando Aspose.Words per .NET" imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

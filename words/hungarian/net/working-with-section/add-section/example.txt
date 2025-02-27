@@ -1,27 +1,27 @@
 //ExStart
-//ExSummary:Ez a kód bemutatja, hogyan adhat hozzá egy új szakaszt egy Word dokumentumhoz az Aspose.Words for .NET használatával. A folyamat magában foglalja a dokumentum inicializálását, a tartalom írását és egy új szakasz hozzáadását.
-//ExStepSummary:0: Új Word-dokumentum és DocumentBuilder-objektum inicializálása a dokumentum tartalmának hozzáadásához.
-//ExStepSummary:1: Szöveg hozzáadása az első szakaszhoz a DocumentBuilder objektummal.
-//ExStepSummary:2: Szöveg hozzáadása az első szakaszhoz a DocumentBuilder objektummal.
-//ExStepSummary:3: Hozzon létre egy új szakaszt, és vegye fel a dokumentum szakaszgyűjteményébe.
+//ExSummaryA kód bemutatja, hogyan lehet egy új szakasz hozzáadni a Word dokumentumhoz a .NET-hez használt Aspose.Words használatával. A folyamat magában foglalja a dokumentum initializálását, a tartalom írását és az új szakasz hozzáadását.
+//ExStepSummary:0: Indítsa be egy új Word dokumentumot és egy DocumentBuilder objektumot, hogy tartalmat hozzon hozzá a dokumentumhoz.
+//ExStepSummary:1: Tölts szöveget az első szakaszba a DocumentBuilder objektum segítségével.
+//ExStepSummary:2: Tölts szöveget az első szakaszba a DocumentBuilder objektum segítségével.
+//ExStepSummary:3: Készítsen egy új szakaszt és adja hozzá a dokumentum szakaszainak gyűjteményéhez.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Új Word-dokumentum létrehozása.
+// Készíts egy új Word dokumentumot.
 Document doc = new Document();
-// A DocumentBuilder inicializálása a dokumentumhoz.
+// Indítsa be a dokumentum dokumentumépítőjét.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Tartalom hozzáadása az első szakaszhoz
+// Adjon tartalmat az első részben
 builder.Writeln("Hello1"); // Write "Hello1" into the document's first section.
 
 //ExStep:2-
-// Tartalom hozzáadása az első szakaszhoz
+// Adjon tartalmat az első részben
 builder.Writeln("Hello2"); // Write "Hello2" into the document's first section.
 
 //ExStep:3-
-// Új szakasz létrehozása a dokumentumban.
+// Új szakaszt hozz létre a dokumentumban.
 Section sectionToAdd = new Section(doc);
 doc.Sections.Add(sectionToAdd);
 //ExEnd

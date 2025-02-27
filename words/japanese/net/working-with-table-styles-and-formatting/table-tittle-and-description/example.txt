@@ -1,33 +1,33 @@
 //ExStart
-//ExSummary: このコードは、単語ドキュメントに Asfof.words を使用して表にタイトルと説明を追加する方法を示します。
-//ExStepSummary:0:このステップで文書を初期化し、指定したディレクトリから読み込みます。
-//ExStepSummary:1:このステップは、ドキュメントから最初の表を取得し、そのタイトルと説明を設定します。
-//ExStepSummary:2:このステップで、ドキュメントの保存オプションを指定した準用設定で設定します。
-//ExStepSummary:3:このステップは、Word 2016 の文書の互換性オプションを最適化します。
-//ExStepSummary:4:このステップで変更した文書を指定したディレクトリに保存します。
+//ExSummary: このコードはAspose.Wordsを使用して,Word文書のテーブルにタイトルと説明を追加する方法を示します.
+//ExStepSummary:0:このステップでは,ドキュメントを初期化して指定されたディレクトリから読み込みします.
+//ExStepSummary:1:このステップでは,文書から最初の表を取り出し,そのタイトルと説明を設定します.
+//ExStepSummary:2:このステップでは,指定されたコンプライアンス設定を持つドキュメントの保存オプションを設定します.
+//ExStepSummary:3:このステップは,Word 2016のドキュメントの互換性オプションを最適化します.
+//ExStepSummary:4:このステップでは,変更された文書を指定されたディレクトリに戻します.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// ドキュメントを初期化し、データディレクトリから読み込みます
+// 文書を初期化してデータディレクトリから読み込み
 string dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// 最初のテーブルを取得し、タイトルと説明を設定します
+// 最初の表を検索し,そのタイトルと説明を設定する
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 table.Title = "Test title";
 table.Description = "Test description";
 
 //ExStep:2-
-// 文書の保存オプションを設定します
+// 文書の保存オプションを設定する
 OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 //ExStep:3-
-// ワード 2016 の互換オプションを最適化する
+// Word 2016 の互換性オプションを最適化する
 doc.CompatibilityOptions.OptimizeFor(Aspose.Words.Settings.MsWordVersion.Word2016);
 
 //ExStep:4-
-// 変更した文書を指定したディレクトリに保存する
+// 変更されたドキュメントを指定されたディレクトリに保存します
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.TableTitleAndDescription.docx", options);
 //ExEnd

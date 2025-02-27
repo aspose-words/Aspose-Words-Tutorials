@@ -1,50 +1,50 @@
 //ExStart
-//ExSummary:Lütfen Word belgesine basit bir sütun grafiğinin nasıl yerleştirileceğini bulmak için aşağıdaki kodu kontrol edin. Bu kodu IDE'nize kopyalayabilir ve çalıştırabilirsiniz.
-//ExStepSummary:0: Bu kod, Aspose.Words kullanarak bir Word belgesinin nasıl oluşturulacağını ve içine bir sütun grafiğinin nasıl yerleştirileceğini gösterir.
-//ExStepSummary:1: Bu kod, Word içeriğini manipüle etmek için bir belge oluşturucu nesnesinin nasıl oluşturulacağını gösterir.
-//ExStepSummary:2: Bu kod, belgenin içine belirli boyutlara sahip bir sütun grafiği şeklinin nasıl yerleştirileceğini gösterir.
-//ExStepSummary:3: Bu kod, daha fazla özelleştirme için eklenen formdan grafik nesnesini alır.
-//ExStepSummary:4: Bu kod, grafik serisi koleksiyonuna nasıl erişileceğini ve seri sayısını nasıl yazdırılacağını gösterir.
-//ExStepSummary:5: Bu kod, grafikle oluşturulmuş olabilecek varsayılan serileri temizler.
-//ExStepSummary:6: Bu kod, grafik verileri için kategori adlarının nasıl tanımlanacağını gösterir.
-//ExStepSummary:7: Bu kod, ilgili kategori adları ve veri değerleri ile çizelgeye serilerin nasıl ekleneceğini gösterir.
-//ExStepSummary:8: Bu kod, eklenen grafikle belgeyi belirli bir dosyaya kaydeder.
+//ExSummary: Lütfen aşağıdaki kodu kontrol edin. Word belgesine basit bir sütun tablosunu nasıl ekleyeceğinizi öğrenin. Bu kodu IDE'nize kopyalayıp çalıştırın.
+//ExStepSummary:0: Bu kod, Aspose.Words kullanarak bir Word belgesini nasıl oluşturulacağını ve sütun çizelgesini içine yerleştireceğini gösterir.
+//ExStepSummary:1: Bu kod, Word içeriğini manipüle etmek için bir belge oluşturma nesnesini nasıl oluşturulacağını gösterir.
+//ExStepSummary:2: Bu kod, belgeye belirtilen boyutlarla sütun grafik şeklini nasıl ekleneceğini gösterir.
+//ExStepSummary:3: Bu kod, daha fazla özelleştirme için yerleştirilen şekilden tablo nesnesini alır.
+//ExStepSummary:4: Bu kod, grafik serisi koleksiyonuna erişmenin ve serilerin sayısını basmanın yolunu gösterir.
+//ExStepSummary:5: Bu kod, tablo ile oluşturulmuş olabilecek tüm varsayılan serileri temizler.
+//ExStepSummary:6: Bu kod, tablo verileri için kategorilerin isimlerini nasıl tanımlanacağını gösterir.
+//ExStepSummary:7: Bu kod, ilgili kategoriler ve veri değerleri ile tabloya seriler ekleme yöntemini gösterir.
+//ExStepSummary:8: Bu kod, eklenen tablo ile birlikte belgeyi belirli bir dosyayayaya kaydetir.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
 //ExStepImage:7:images/4.png
 //ExStep:0-
-// Yeni bir Word belgesi örneği oluşturun.
+// Yeni bir Word belge örneği oluşturun.
 Document doc = new Document();
 
 //ExStep:1-
-// Öğeleri belgeye kolayca eklemek için bir DocumentBuilder oluşturun.
+// Belgeye kolayca öğeler eklemek için bir DocumentBuilder oluşturun.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:2-
-// Belirtilen genişlik (432) ve yükseklik (252) ile bir sütun grafik şekli ekleyin.
+// Bir sütun grafik şeklini, genişliği (432) ve yüksekliği (252) belirtilen bir şekilde ekleyin.
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 
 //ExStep:3-
-// Daha fazla manipülasyon için grafik nesnesini formdan alın.
+// Grafik nesnesini daha fazla manipülasyon için şekilden alın.
 Chart chart = shape.Chart;
 
 //ExStep:4-
-// Çizelgenin seri koleksiyonuna erişin.
+// Haritada seriler koleksiyonuna eriş.
 ChartSeriesCollection seriesColl = chart.Series;
-// Grafikteki seri sayısını konsola yazdır.
+// Konsol'a grafikteki seriler sayısını basın.
 Console.WriteLine(seriesColl.Count);
 
 //ExStep:5-
-// Grafik oluşturulduğunda otomatik olarak oluşturulan varsayılan serileri kaldırın.
+// Tablo oluşturulduğunda otomatik olarak oluşturulan varsayılan diziler kaldırın.
 seriesColl.Clear();
 
 //ExStep:6-
-// Grafik verileri için bir dizi kategori adı tanımla.
+// Çarşın verileri için kategorilerin isimleri dizisini tanımlayın.
 string[] categories = new string[] { "Category 1", "Category 2" };
 
 //ExStep:7-
-// Kategori adları ve veri değerleri ile tabloya birden fazla dizi ekleyin.
+// Kategori isimleri ve veri değerleri ile grafikte birden fazla dizini ekleyin.
 seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
 seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
 seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
@@ -52,6 +52,6 @@ seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
 seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
 
 //ExStep:8-
-// Eklenen grafikle belgeyi belirtilen dosya yoluna kaydedin.
+// Eklenmiş tablo ile birlikte belgeyi belirtilen dosya yoluna kaydet.
 doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
 //ExEnd

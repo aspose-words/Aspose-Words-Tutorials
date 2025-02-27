@@ -1,8 +1,8 @@
 ---
-title: Formát Odstavce Použití Aspose.Words for .NET
+title: Formátovat odstavce pomocí Aspose.Words pro .NET
 weight: 7700
 limit: 
-description: Naučte se, jak formátovat odstavce v dokumentu Word s Aspose.Words pro .NET, včetně zarovnání, odsazení a rozestupu.
+description: Naučte se formátovat odstavce v dokumentu Word pomocí Aspose.Words pro .NET, včetně vyrovnání, odklonování a rozptylování.
 keywords: [Aspose.Words, .NET, paragraph formatting, Word document, document builder, alignment, indentation, Word API]
 url: /cs/net/document-formatting/paragraph-formatting/
 ---
@@ -10,37 +10,37 @@ url: /cs/net/document-formatting/paragraph-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Formátování odstavců pomocí Aspose.Words
-Tato příručka poskytuje příklad, jak formátovat odstavce v dokumentu Word pomocí Aspose.Slova pro .NET. Naučíte se, jak nastavit různé možnosti formátování odstavců, jako je zarovnání, odsazení, a prostor za odstavci. Příklad ilustruje použití tříd Dokumentu a DokumentuStavitel, což umožňuje vytvoření dobře strukturovaných dokumentů programově.
+# Formátovat odstavce pomocí Aspose.Words
+Tento průvodce poskytuje příklad, jak formátovat odstavce v dokumentu Word pomocí Aspose.Words pro .NET. Naučíte se nastavit různé možnosti formátování odstavce, jako je vyrovnání, odklon a prostor po odstavcích. Příklad ilustruje použití tříd Dokument a DocumentBuilder, což umožňuje vytváření dobře strukturovaných dokumentů programaticky.
 
 ---
 {{< tutorial-widget sourcePath="words/net/document-formatting/multilevel-list-formatting" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Návod k instalaci
-1. Stáhnout Aspose.Words pro .NET: Navštivte[Aspose website](https://www.aspose.com/downloads/words/net)stáhnout nejnovější verzi Aspose.Words pro .NET.
+## Příkazy na instalaci
+1. Stáhněte si Aspose.Words pro .NET: Navštivte [Webové stránky](https://www.aspose.com/downloads/words/net)k stažení nejnovější verze Aspose.Words pro .NET.
 
-2. Přidat odkaz: Ve vašem projektu .NET klikněte pravým tlačítkem myši na projekt v Solution Explorer, vyberte Přidat > Reference a prohlédněte si přidání souboru Aspose.Words DLL.
+2. Přidání odkazu: V projektu .NET klikněte pravým tlačítkem na projekt v průzkumníku řešení, vyberte Přidání > Odkaz a procházejte, abyste přidali soubor DLL Aspose.Words.
 
-3. Pomocí NuGet Package (Optional): Alternativně můžete nainstalovat Aspose.Words prostřednictvím NuGet Package Manager s následujícím příkazem:
+3. Používání NuGet Package (Optional): Alternativně můžete instalovat Aspose.Words prostřednictvím NuGet Package Manager s následujícím příkazem:
    ```
    Install-Package Aspose.Words
    ```
 
-4. Import Namespace: Přidat následující příkaz pomocí příkazu do souboru kódu:
+4. Import NameSpace: Přidejte do souboru kódu následující údaje pomocí výrazu:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
-5. Použít licenci (volitelné):  
-   Chcete-li použít plnou verzi,[požádat o licenci](https://purchase.aspose.com/temporary-license/)nebo[zkušební verze zdarma](https://releases.aspose.com/words/net/).  
+5. Žádost o licenci (nezveřejněná):  
+   Chcete-li použít plnou verzi, [uplatnit licenci](https://purchase.aspose.com/temporary-license/)nebo použít [bezplatná zkouška](https://releases.aspose.com/words/net/)\- Ne , ne .  
 
 
-## Také viz
-[Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Reference](https://reference.aspose.com/words/net/)
+## Viz také
+[Aspose.Word pro .NET dokumentaci](https://docs.aspose.com/words/net/)
+[Aspose.Word pro reference .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

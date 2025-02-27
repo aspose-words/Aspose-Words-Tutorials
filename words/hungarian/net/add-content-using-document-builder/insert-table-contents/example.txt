@@ -1,16 +1,16 @@
 //ExStart
-//ExSummary: Ez a kód bemutatja, hogyan hozhat létre Word dokumentumot tartalomjegyzékkel a DocumentBuilder segítségével. Különböző szintű címsorokat tartalmaz, és .docx fájlként menti a dokumentumot.
-//ExStepSummary:0: Ez a lépés egy új dokumentumobjektumot inicializál.
-//ExStepSummary:1: Ez a lépés létrehoz egy DocumentBuilder objektumot a dokumentum manipulációjához.
-//ExStepSummary:2: Ez a lépés beszúrja a tartalomjegyzéket a dokumentum elején.
-//ExStepSummary:3: Ez a lépés egy oldaltörést vezet be, hogy elindítsa a tényleges tartalmat egy új oldalon.
-//ExStepSummary:4: Ez a lépés beállítja az első fejlécet, és a "Heading 1" -et írja a dokumentumra.
-//ExStepSummary:5: Ez a lépés a második címsorszintet állítja be, és a "Heading 1.1" és a "Heading 1.2" szöveget írja.
-//ExStepSummary:6: Ez a lépés ismét az első fejlécszintet állítja be, és a "Heading 2" és a "Heading 3" szöveget írja.
-//ExStepSummary:7: Ez a lépés a második címsorszintet állítja be, és a "Fejléc 3.1" szöveget írja.
-//ExStepSummary:8: Ez a lépés meghatározza a harmadik címzési szintet, és a "Fejléc 3.1.1", "Fejléc 3.1.2" és "Fejléc 3.1.3" alszámokat írja.
-//ExStepSummary:9: Ez a lépés még egyszer beállítja a második címzési szintet, és azt írja, hogy "Fejléc 3.2" és "Fejléc 3.3".
-//ExStepSummary:10: Végül ez a lépés frissíti a dokumentum mezőit, és .docx fájlként menti.
+//ExSummaryA kód bemutatja, hogyan lehet létrehozni egy Word dokumentumot a DocumentBuilder segítségével.
+//ExStepSummary:0: Ez a lépés egy új Dokumentum objektumot indít.
+//ExStepSummary:1: Ez a lépés létrehoz egy DocumentBuilder objektumot a dokumentum manipulációja céljából.
+//ExStepSummary:2: A dokumentum elején a tartalomra vonatkozó táblázat kerül be.
+//ExStepSummary:3: Ez a lépés egy oldalsó szünetet vezet be, hogy az új oldalon a tényleges tartalmat kezdjük el.
+//ExStepSummary:4: Ez a lépés az első címet állítja meg, és "A 1. címet" írja a dokumentumra.
+//ExStepSummary:5: Ez a lépés a második címszintet határozza meg, és "1.1.1." és "1.2." címet ír.
+//ExStepSummary:6: Ez a lépés ismét meghatározza az első címszintet, és írja "A 2. cím" és "A 3. cím".
+//ExStepSummary:7: Ez a lépés a második címszintet határozza meg, és "3.1. cím" írta.
+//ExStepSummary:8: Ez a lépés meghatározza a harmadik cím szintjét, és írja a "3.1.1. cím", "3.1.2. cím" és "3.1.3. cím" alszámokat.
+//ExStepSummary:9: Ez a lépés ismét beállítja a második címszintet, és írja "3.2. cím" és "3.3. cím".
+//ExStepSummary:10: Végül ez a lépés frissíti a dokumentum mezőit és .docx fájloként mentheti meg.
 //ExStepImage:3:images/1.png
 //ExStepImage:4:images/2.png
 //ExStepImage:5:images/3.png
@@ -20,59 +20,59 @@
 //ExStepImage:9:images/7.png
 
 //ExStep:0-
-// Új dokumentumpéldány létrehozása
+// Új dokumentum-eseményt készít
 Document doc = new Document();
 
 //ExStep:1-
-// DocumentBuilder inicializálása dokumentumkezeléshez
+// Dokumentumkezeléshez indítsa be a DocumentBuilder-t
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:2-
-// Tartalomjegyzék beszúrása a megadott beállításokkal
+// Beilleszteni egy tartalomra vonatkozó táblázatot, ahol megadott lehetőségek vannak
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
 //ExStep:3-
-// Oldaltörés beszúrása a tartalom elindításához egy új oldalon
+// Beilleszteni egy oldalszervet egy új oldalon a tartalom megkezdéséhez
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:4-
-// Stílus beállítása Címsor 1
+// A 1. címre beállított stílus
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
 //ExStep:5-
-// Stílus beállítása a Címsor 2-re
+// A 2. címre beállított stílus
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 1.1");
 builder.Writeln("Heading 1.2");
 
 //ExStep:6-
-// A stílus visszaállítása az 1. fejlécre
+// Visszaállítjuk a stílusot az 1. címre.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 2");
 builder.Writeln("Heading 3");
 
 //ExStep:7-
-// Stílus beállítása a Címsor 2-re
+// A 2. címre beállított stílus
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.1");
 
 //ExStep:8-
-// Stílus beállítása a Címsor 3-ra
+// A 3. címre szabott stílus
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
 builder.Writeln("Heading 3.1.1");
 builder.Writeln("Heading 3.1.2");
 builder.Writeln("Heading 3.1.3");
 
 //ExStep:9-
-// Állítsa vissza a stílust a Címsor 2-re
+// Visszaállítjuk a 2. címet.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
 //ExStep:10-
-// A dokumentum összes mezőjének frissítése
+// Az dokumentum összes mezőjét frissítse
 doc.UpdateFields();
-// A dokumentum mentése
+// Takarítsa meg a dokumentumot
 doc.Save("AddContentUsingDocumentBuilder.InsertTableOfContents.docx");
 //ExEnd

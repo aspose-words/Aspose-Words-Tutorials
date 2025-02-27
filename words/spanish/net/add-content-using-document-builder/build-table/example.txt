@@ -1,25 +1,25 @@
 //ExStart
-//ExSummary: Este código muestra cómo crear un documento de Word con una tabla usando Aspose.Words. Construye una tabla con dos filas y varias orientaciones y formatos de texto de celda.
-//ExStepSummary:0: El siguiente código inicializa un nuevo documento y constructor de documentos.
+//ExSummaryEste código muestra cómo crear un documento Word con una tabla utilizando Aspose.Words. Construye una tabla con dos filas y diferentes orientaciones y formatos de texto de células.
+//ExStepSummary:0: El siguiente código inicia un nuevo documento y el creador de documentos.
 //ExStepSummary:1: El siguiente código inicia una nueva tabla e inserta la primera fila de celdas.
-//ExStepSummary:2: El siguiente código configura el formato para la segunda fila y sus celdas.
-//ExStepSummary:3: El siguiente código configura el formato para la segunda fila y sus celdas.
-//ExStepSummary:4: El siguiente código finaliza la tabla y guarda el documento en un archivo.
+//ExStepSummary:2: El siguiente código configura el formato de la segunda fila y sus celdas.
+//ExStepSummary:3: El siguiente código configura el formato de la segunda fila y sus celdas.
+//ExStepSummary:4: El siguiente código termina la tabla y guarda el documento en un archivo.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 
 //ExStep:0-
-// Inicializar un nuevo objeto Document
+// Iniciar un nuevo objeto de documento
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Iniciar una nueva mesa
+// Comience una nueva mesa
 Table table = builder.StartTable();
-// Comienza la primera celda
+// Comience la primera celda
 builder.InsertCell();
-// Establecer la alineación vertical para la primera celda
+// Establezca la alineación vertical para la primera celda
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
 builder.Write("This is row 1 cell 1");
 // Insertar la segunda celda
@@ -28,7 +28,7 @@ builder.Write("This is row 1 cell 2");
 builder.EndRow();
 
 //ExStep:2-
-// Insertar una celda para la segunda fila
+// Insertar una célula para la segunda fila
 builder.InsertCell();
 // Configurar el formato para la segunda fila
 builder.RowFormat.Height = 100;
@@ -44,7 +44,7 @@ builder.EndRow();
 builder.EndTable();
 
 //ExStep:4-
-// Ajuste automático de la mesa con anchos de columna fijos
+// Ajuste automático la tabla con anchos fijos de columnas
 table.AutoFit(AutoFitBehavior.FixedColumnWidths);
 // Guardar el documento en un archivo
 doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");

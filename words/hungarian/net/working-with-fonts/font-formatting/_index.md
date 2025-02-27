@@ -1,8 +1,8 @@
 ---
-title: Betűtípus formázása a Wordben az Aspose.Words for .NET használatával
+title: Tőlejtés font formátum Word-ben Aspose.Words használatával .NET
 weight: 7700
 limit: 
-description: Ismerje meg, hogyan hozhat létre Word-dokumentumot testreszabott betűformázással a .NET-ben az Aspose.Words használatával. Egyszerű lépésről- lépésre példa.
+description: Tanuljon meg, hogyan készítsen egy Word dokumentumot a .NET-ben a Aspose.Words segítségével. Könnyű lépésről lépésre példa.
 keywords: [Aspose.Words, .NET, Word document, font formatting, programming example, DocumentBuilder, font properties]
 url: /hu/net/working-with-fonts/font-formatting/
 ---
@@ -10,29 +10,29 @@ url: /hu/net/working-with-fonts/font-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Betűtípus formázása a Wordben az Aspose.Words használatával
+# Szerezzen írólap formázását a Word-ben Aspose.Words használatával
 
-Ez az útmutató egy egyszerű példa a Word dokumentum létrehozására és formázására az Aspose.Words for .NET használatával. Megtanulja testreszabni a betűtípusi tulajdonságokat, például a méretet, a stílust és a színt, majd szöveget ír a dokumentumba. A lépésenkénti utasítások megkönnyítik mind a kezdők, mind a tapasztalt fejlesztők számára, hogy beépítsék az Aspose.Words alkalmazást alkalmazásukba.
+Ez a útmutató egy egyszerű példát mutat a Word dokumentum létrehozására és formázására a .NET-hez Aspose.Words használatával. Megtanulhatja a betű tulajdonságait, mint például a méret, a stílust és a színt, majd írta a szöveget a dokumentumba. A lépésről lépésre vonatkozó utasítások megkönnyítik a kezdők és a tapasztalt fejlesztők számára, hogy Aspose.Words alkalmazásaikba integrálják.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-fonts/font-formatting" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Telepítési útmutató 
-1. Előfeltételek: Győződjön meg róla, hogy a .NET telepítve van a gépen.
-2. Telepítse az Aspose.Words fájlt: 
-   * A NuGet csomagkezelő használata a Visual Studio programban:
+## A telepítési utasítások 
+1. Előfeltételek: Győződjön meg arról, hogy a gépén .NET van telepítve.
+2. A Aspose.Words beállítása: 
+   * Használja a NuGet csomagkezelőt a Visual Studio-ban:
      ```
      Install-Package Aspose.Words
      ```
-   * Vagy töltse le a DLL közvetlenül a[Aspose weboldal](https://www.aspose.com)Nem.
-3. Licenc alkalmazása (opcionális):  
-   A teljes verzió használata,[licensz alkalmazása](https://purchase.aspose.com/temporary-license/)vagy használja a[ingyenes próbaverzió](https://releases.aspose.com/words/net/)Nem.  
+   * Vagy a DLL-t közvetlenül a [Célszerű weboldal](https://www.aspose.com)\- Nem.
+3. A licenc alkalmazása (Felhetős):  
+   Hogy a teljes verziót használhassuk,[engedélyt kell alkalmazni](https://purchase.aspose.com/temporary-license/)vagy használjon egy [ingyenes próba](https://releases.aspose.com/words/net/)\- Nem.  
 
-## Lásd még
-[Aspose.Word for .NET dokumentáció](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referenciák](https://reference.aspose.com/words/net/)
+## Lásd:
+[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,25 +1,25 @@
 //ExStart
-//ExSummary: Este código demonstra como criar um documento do Word usando Aspose.Words, aplicar um estilo de parágrafo e salvar o documento. Ele mostra como definir um estilo de título para um parágrafo e salvar o documento no formato .docx.
-//ExStepSummary:0: Esta seção inicializa uma nova instância do Document and DocumentBuilder.
+//ExSummaryEste código mostra como criar um documento do Word usando Aspose.Words, aplicar um estilo de parágrafo e salvar o documento.
+//ExStepSummary:0: Esta seção inicia uma nova instância do Document e DocumentBuilder.
 //ExStepSummary:1: Esta seção aplica um estilo de parágrafo de título usando o DocumentBuilder.
-//ExStepSummary:2: Esta seção escreve "Olá" para o documento.
-//ExStepSummary:3: Esta seção salva o documento em um caminho de arquivo especificado.
+//ExStepSummary:2: Esta secção escreve "olá" ao documento.
+//ExStepSummary:3: Esta seção salva o documento para um caminho de arquivo especificado.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Inicializar uma nova instância do Documento
+// Iniciar uma nova instância de documento
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Definir o estilo de parágrafo para Título
+// Defina o estilo do parágrafo para Título
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Title;
 
 //ExStep:2-
-// Escreva "Hello" usando o construtor, aplicando o estilo especificado
+// Escreva "Hello" usando o constructor, aplicando o estilo especificado
 builder.Write("Hello");
 
 //ExStep:3-
-// Salve o documento em um arquivo .docx
+// Salvar o documento em um arquivo .docx
 doc.Save("DocumentFormatting.ApplyParagraphStyle.docx");
 //ExEnd

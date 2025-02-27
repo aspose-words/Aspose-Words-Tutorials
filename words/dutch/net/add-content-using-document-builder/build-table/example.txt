@@ -1,42 +1,42 @@
 //ExStart
-//ExSummary: Deze code laat zien hoe je een Word-document maakt met een tabel met behulp van Aspose.Words. Het bouwt een tabel met twee rijen en verschillende celtekstoriëntaties en -formaten.
-//ExStepSummary:0: De volgende code initialiseert een nieuw document en document bouwer.
-//ExStepSummary:1: De volgende code start een nieuwe tabel en plaatst de eerste rij cellen.
-//ExStepSummary:2: De volgende code configureert de opmaak voor de tweede rij en de cellen.
-//ExStepSummary:3: De volgende code configureert de opmaak voor de tweede rij en de cellen.
+//ExSummaryDeze code toont hoe een Word-document met een tabel wordt gemaakt met behulp van Aspose.Words. Het bouwt een tabel met twee rijen en verschillende cellen- textoriëntatie en -formaten.
+//ExStepSummary:0: De volgende code initialiseert een nieuw document en documentbouwer.
+//ExStepSummary:1: De volgende code start een nieuwe tabel en voegt de eerste rij cellen in.
+//ExStepSummary:2: De volgende code configureert de formatering van de tweede rij en de cellen ervan.
+//ExStepSummary:3: De volgende code configureert de formatering van de tweede rij en de cellen ervan.
 //ExStepSummary:4: De volgende code eindigt de tabel en slaat het document op in een bestand.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 
 //ExStep:0-
-// Een nieuw document-object initialiseren
+// Een nieuw Document object initiaal
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Een nieuwe tabel starten
+// Start een nieuwe tafel
 Table table = builder.StartTable();
-// Eerste cel beginnen
+// Begin de eerste cel
 builder.InsertCell();
-// Vertikale uitlijning instellen voor de eerste cel
+// Vertikal afstemming van de eerste cel
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
 builder.Write("This is row 1 cell 1");
-// Tweede cel invoegen
+// Invoeg tweede cel
 builder.InsertCell();
 builder.Write("This is row 1 cell 2");
 builder.EndRow();
 
 //ExStep:2-
-// Een cel invoegen voor de tweede rij
+// Voeg een cel in voor de tweede rij
 builder.InsertCell();
-// Opmaak instellen voor de tweede rij
+// Configureer de formattering voor de tweede rij
 builder.RowFormat.Height = 100;
 builder.RowFormat.HeightRule = HeightRule.Exactly;
 builder.CellFormat.Orientation = TextOrientation.Upward;
 builder.Writeln("This is row 2 cell 1");
 //ExStep:3-
-// Tweede cel invoegen voor de tweede rij
+// Voeg de tweede cel voor de tweede rij in
 builder.InsertCell();
 builder.CellFormat.Orientation = TextOrientation.Downward; 
 builder.Writeln("This is row 2 cell 2");
@@ -44,8 +44,8 @@ builder.EndRow();
 builder.EndTable();
 
 //ExStep:4-
-// De tabel automatisch aanpassen met vaste kolombreedtes
+// Automatische instandhouding van de tabel met vaste kolombreedte
 table.AutoFit(AutoFitBehavior.FixedColumnWidths);
-// Het document opslaan in een bestand
+// Bewaar het document in een bestand
 doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");
 //ExEnd

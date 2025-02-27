@@ -1,11 +1,11 @@
 //ExStart
-//ExSummary: Questo codice dimostra come creare un documento di Word utilizzando Aspose.Words, aggiungere contenuti in più pagine, e salvarlo come un file .docx.
-//ExStepSummary:0: Questo passaggio inizializza un nuovo documento e un DocumentBuilder per manipolare il documento.
-//ExStepSummary:1: Questo passaggio aggiunge testo alla prima pagina.
-//ExStepSummary:2: Questo passaggio inserisce una interruzione di pagina per avviare una nuova pagina.
-//ExStepSummary:3: Questo passaggio aggiunge testo alla seconda pagina.
-//ExStepSummary:4: Questo passaggio inserisce un'altra pausa pagina per una nuova pagina.
-//ExStepSummary:5: Questo passaggio aggiunge testo alla terza pagina.
+//ExSummary: Questo codice mostra come creare un documento Word utilizzando Aspose.Words, aggiungere contenuti su più pagine e salvare come file .docx.
+//ExStepSummary:0: Questo passo inizia un nuovo Documento e un DocumentBuilder per manipolare il documento.
+//ExStepSummary:1: Questo passo aggiunge testo alla prima pagina.
+//ExStepSummary:2: Questo passo inserisce una pausa di pagina per iniziare una nuova pagina.
+//ExStepSummary:3: Questo passo aggiunge testo alla seconda pagina.
+//ExStepSummary:4: Questo passo inserisce un'altra pausa di pagina per una nuova pagina.
+//ExStepSummary:5: Questo passo aggiunge testo alla terza pagina.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -13,31 +13,31 @@
 //ExStepImage:5:images/5.png
 
 //ExStep:0-
-// Crea una nuova istanza di documento
+// Crea un nuovo documento
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Aggiungi testo per la prima pagina
+// Aggiungere testo per la prima pagina
 builder.Writeln("This is page 1.");
 
 //ExStep:2-
-// Inserisci una interruzione di pagina per avviare una nuova pagina
+// Inserire una pausa di pagina per iniziare una nuova pagina
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:3-
-// Aggiungi testo per la seconda pagina
+// Aggiungere testo per la seconda pagina
 builder.Writeln("This is page 2.");
 
 //ExStep:4-
-// Inserisci un'altra pausa pagina per una nuova pagina
+// Inserire un'altra pagina di pause per una nuova pagina
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:5-
-// Aggiungi testo per la terza pagina
+// Aggiungere testo per la terza pagina
 builder.Writeln("This is page 3.");
 
 //ExStep:6-
-// Salva il documento nel percorso specificato
+// Salvare il documento nel percorso specificato
 doc.Save("AddContentUsingDocumentBuilder.InsertBreak.docx");
 //ExEnd

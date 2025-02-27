@@ -1,11 +1,11 @@
 //ExStart
-//ExSummary: Denna kod visar hur man skapar ett dokument med ett diagram med hjälp av Aspose.Words, ange gränserna för Y-axeln, och spara dokumentet som en DOCX- fil. 
-// Varje steg bryts ned för att ge en tydlig förståelse för den process som är involverad i arbetet med diagram i Aspose.Words.
-//ExStepSummary:0: Initiera ett nytt dokument och en instans för DocumentBuilder. 
-//ExStepSummary:1: Infoga ett diagram i dokumentet och hämta diagramobjektet. 
+//ExSummary: Denna kod visar hur man skapar ett dokument med ett diagram med hjälp av Aspose.Words, anger gränserna för Y-axeln och sparar dokumentet som en DOCX- fil. 
+// Varje steg är uppdelad för att ge en tydlig förståelse för processen som involverar att arbeta med diagram i Aspose.Words.
+//ExStepSummary:0: Initializera ett nytt dokument och en DocumentBuilder-instans. 
+//ExStepSummary:1: Lägg in ett diagram i dokumentet och hämta objektet. 
 //ExStepSummary:2: Lägg till en ny serie i diagrammet med angivna kategorier och värden. 
-//ExStepSummary:3: Ställ in minsta och högsta gräns för y-axeln i diagrammet. 
-//ExStepSummary:4: Spara dokumentet till angiven sökväg. 
+//ExStepSummary:3: Bestäm de minsta och största gränserna för Y-axeln i diagrammet. 
+//ExStepSummary:4: Spara dokumentet på den angivna vägen. 
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -16,25 +16,25 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Infoga ett kolumndiagram i dokumentet.
+// Lägg in en kolumn i dokumentet.
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
-// Hämta diagramobjektet från formen.
+// Ta tillbaka kartobjektet från formen.
 Chart chart = shape.Chart;
-// Rensa alla befintliga serier från diagrammet för nya data.
+// Rengör alla befintliga serier från diagrammet för nya uppgifter.
 chart.Series.Clear();
 
 //ExStep:2-
-// Definiera en ny serie med namnet "Aspose Serie 1".
+// Definera en ny serie med namnet "Aspose Series 1".
 chart.Series.Add("Aspose Series 1",
     new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
     new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
 
 //ExStep:3-
-// Ställ in minsta gräns för Y- axeln.
+// Ställ in den minsta gränsen för Y-axeln.
 chart.AxisY.Scaling.Minimum = new AxisBound(0);
 chart.AxisY.Scaling.Maximum = new AxisBound(6);
 
 //ExStep:4-
-// Spara dokumentet med diagrammet till angiven sökväg.
+// Spara dokumentet med diagrammet till den angivna vägen.
 doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
 //ExEnd

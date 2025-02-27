@@ -1,51 +1,51 @@
 //ExStart
-//ExSummary: Ez a kód bemutatja, hogyan hozhat létre Word dokumentumot formázott táblával az Aspose használatával.
-//ExStepSummary:0: Ez a lépés egy új dokumentumot és a dokumentumkészítőt inicializálja.
-//ExStepSummary:1: Ez a lépés elindítja a táblázatot, és beszúr egy cellát.
-//ExStepSummary:2: Ez a lépés beállítja a sor formázását, beleértve a magassági és magassági szabályt is.
-//ExStepSummary:3: Ez a lépés az egész táblázat kitöltését állítja be, amely minden sort érint.
-//ExStepSummary:4: Ez a lépés hozzáadja a szöveget a cellához, és befejezi a sort.
-//ExStepSummary:5: Ez a lépés befejezi a táblázatot, és elmenti a dokumentumot egy megadott elérési útra.
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy Word dokumentumot egy formázott táblázzal az Aspose segítségével.
+//ExStepSummary:0: Ez a lépés egy új dokumentumot és a dokumentumkészítőt indít.
+//ExStepSummary:1: Ez a lépés az asztal kezdetét jelenti, és egy sejtet beilleszti.
+//ExStepSummary:2: Ez a lépés meghatározza a sor formátumát, beleértve a magasság és a magasság szabályát.
+//ExStepSummary:3: Ez a lépés az egész asztalra kiterjedő betöltést állít, ami minden sorra hat.
+//ExStepSummary:4: Ez a lépés szöveget ad a sejthez és véget vet a sornak.
+//ExStepSummary:5: Ez a lépés a táblázat végét jelenti, és az dokumentumot egy meghatározott útvonalra mentheti meg.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 
 //ExStep:0-
-// Új dokumentumpéldány létrehozása
+// Új Dokumentum- példányt készítsen
 Document doc = new Document();
-// DocumentBuilder inicializálása a dokumentummal
+// A dokumentummal kezdőbe kell lépni a DocumentBuilder-et
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Új asztal indítása
+// Új asztalhoz kezdjünk.
 Table table = builder.StartTable();
-// Az első cella beszúrása a táblázatba
+// Beillesztse az első sejtet a táblázatba
 builder.InsertCell();
 
 //ExStep:2-
-// Hozzáférés az építtető RowFormat tulajdonságához
+// A szerelő RowFormat tulajdonsága
 RowFormat rowFormat = builder.RowFormat;
-// A sor magasságának beállítása
+// Beállítsa a sor magasságát
 rowFormat.Height = 100;
-// Állítsa be a magassági szabályt pontosan
+// A magasság szabályt pontosan
 rowFormat.HeightRule = HeightRule.Exactly;
 
 //ExStep:3-
-// Az asztal párnázásának beállítása
+// A táblázatra való feltöltés
 table.LeftPadding = 30;
 table.RightPadding = 30;
 table.TopPadding = 30;
 table.BottomPadding = 30;
 
 //ExStep:4-
-// Szöveg hozzáadása az aktuális cellához
+// Töltse be szöveget a jelenlegi cellába
 builder.Writeln("I'm a wonderful formatted row.");
-// Az aktuális sor lezárása
+// A jelenlegi sor befejezése
 builder.EndRow();
 builder.EndTable();
 
 //ExStep:5-
-// A dokumentum mentése a megadott elérési útra
+// A dokumentumot a megadott útvonalra mentse meg
 doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableRowFormatting.docx");
 //ExEnd

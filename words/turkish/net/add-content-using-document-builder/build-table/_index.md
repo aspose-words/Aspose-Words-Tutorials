@@ -1,8 +1,8 @@
 ---
-title: Aspose.Words kullanarak Tablo ile bir Kelime Belgesi oluşturun
+title: Aspose.Words kullanarak bir Word Belgesi oluşturun
 weight: 7700
 limit: 
-description: Hücre biçimlendirmesi ve metin yönelimi de dahil olmak üzere .NET için Aspose.Words kullanarak biçimlendirilmiş bir tablo ile bir Word belgesi oluşturmayı öğrenin.
+description: Hücre biçimlendirme ve metin yönelimini de dahil olmak üzere .NET için Aspose.Words kullanarak bir biçimlendirilmiş tablo ile bir Word belgesini nasıl oluşturulacağını öğrenin.
 keywords: [Aspose.Words, .NET, Word document, table, document builder, cell formatting, text orientation, code example]
 url: /tr/net/add-content-using-document-builder/build-table/
 ---
@@ -10,30 +10,30 @@ url: /tr/net/add-content-using-document-builder/build-table/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words kullanarak Tablo ile bir Kelime Belgesi oluşturun
+# Aspose.Words kullanarak bir Word Belgesi oluşturun
   
-Bu örnek, .NET için Aspose.Words kütüphanesini kullanarak bir tablo ile bir Word belgesinin nasıl oluşturulacağını gösterir. Kod, yeni bir belgeyi başlatır, iki satırlı bir tablo oluşturur ve hücreleri çeşitli stil ve yönelimlerle biçimlendirir. Hücre içeriğini yönlendirmeyi, hizalamayı ve yapılandırılmış bir belgeyi programlı olarak oluşturmayı öğreneceksiniz.
+Bu örnek .NET için Aspose.Words kütüphanesi kullanarak bir tablo ile bir Word belgesini nasıl oluşturulacağını gösterir. Kod yeni bir belgeyi initialize eder, iki satırla bir tablo oluşturur ve hücreleri çeşitli stiller ve yönelimlerle biçimlendirir. Hücre içeriğini, hizalamayı ve yapılandırılmış bir belgeyi programsal olarak oluşturmayı öğreneceksiniz.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/build-table" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum Talimatları:  
-1. .NET için Aspose.Words'u yükleyin:
-   * NuGet Paket Yöneticisini Kullanma:
-     * Projenizi Visual Studio'da açın.
-     * Çözüm Gezgini'ndeki projeye sağ tıklayın ve "NuGet Paketlerini Yönet" i seçin.
-     * "Aspose.Words" için arama yapın ve "Install" a tıklayın.
+## Kurulum talimatları:  
+1. .NET için Aspose.Words yükle:
+   * NuGet Paket Yöneticisi kullanılarak:
+     * Projeyi Visual Studio'da aç.
+     * Solution Explorer'da projeye sağ tıklayın ve "NuGet Paketleri Yönet" seçimini seçin.
+     * "Aspose.Words" için arama yapın ve "Kartın".
 
-   * Veya Paket Yöneticisi Konsolunu kullanın:
+   * Ya da Paket Yöneticisi Konsolu kullanın:
      ```
      Install-Package Aspose.Words
      ```
    
-## Ayrıca Bakınız
-[.NET Dokümantasyonu için Aspose.Word](https://docs.aspose.com/words/net/)
-[.NET Referansları için Aspose.Word](https://reference.aspose.com/words/net/)
+## Ayrıca bakın
+[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

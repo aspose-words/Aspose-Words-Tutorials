@@ -1,12 +1,12 @@
 //ExStart
-//ExSummary: このコードは、単語ドキュメントに Asfof.words を使って複数の階層リストを作成する方法を示します。このコードは、ドキュメントを初期化し、番号付け書式を適用し、メイン項目とサブアイテムを作成し、最後に .docx ファイルとして保存します。
-//ExStepSummary:0: 以下のコードは、新規ドキュメントおよびドキュメントビルダーのインスタンスを初期化します。
-//ExStepSummary:1: 以下のコードは、標準の番号付けスタイルをリストに適用し、上位項目を追加します。
-//ExStepSummary:2: 次のコードは、上段の項目の下にサブアイテムを作成するためにインデントされます。
-//ExStepSummary:3: 以下のコードは、サブサブアイテムを 2 つ目のサブアイテムの下に作成する際のインデントをさらに増します。
-//ExStepSummary:4: 以下の例のコードは、前のレベルに戻ると、第二レベルに他の項目を追加します。
-//ExStepSummary:5: 次のコードは、リストの最終項目を追加します。
-//ExStepSummary:6: 次のコードは、保存する前に、リストから番号付けを解除します。
+//ExSummary: このコードはAspose.Wordsを使用してWord文書で多層次リストを作成する方法を示します. 文書を初期化し,番号形式を適用し,主項およびサブ項を作成し,最終的に .docxファイルとして文書を保存します.
+//ExStepSummary:0: 次のコードは新しいドキュメントとドキュメントビルダーインスタンスを初期化します.
+//ExStepSummary:1: 次のコードはリストにデフォルト番号付けスタイルを適用し,トップレベルアイテムを追加します.
+//ExStepSummary:2: 次のコードスインドルは,第2のトップレベル項目の下のサブ項目を作成します.
+//ExStepSummary:3: 次のコードは,第2項の下項目に該当する子項目の作成の次の印記.
+//ExStepSummary:4: 次のコードは,次のレベルに戻り,次のレベルに別の項目を追加します.
+//ExStepSummary:5: 次のコードは,リストに最終項目を追加するために,上位に戻ります.
+//ExStepSummary:6: 次のコードは保存前に番号をリストから削除します.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -14,43 +14,43 @@
 //ExStepImage:5:images/5.png
 //ExStepImage:6:images/6.png
 //ExStep:0-
-// 新しい文書を初期化
+// 新しい文書を初期化する
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// デフォルトの番号付け形式を適用する
+// デフォルト番号格式を適用する
 builder.ListFormat.ApplyNumberDefault();
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 
 //ExStep:2-
-// サブアイテムの字下げ
+// 副項目へのインデント
 builder.ListFormat.ListIndent();
 builder.Writeln("Item 2.1");
 builder.Writeln("Item 2.2");
 
 //ExStep:3-
-// サブサブアイテムの字下げ
+// 副項目へのインデント
 builder.ListFormat.ListIndent();
 builder.Writeln("Item 2.2.1");
 builder.Writeln("Item 2.2.2");
 
 //ExStep:4-
-// 2 番目のレベルに戻る
+// 狂ったまま2階へ
 builder.ListFormat.ListOutdent();
 builder.Writeln("Item 2.3");
 
 //ExStep:5-
-// 最上位レベルに戻る
+// 背骨が上層へ戻った
 builder.ListFormat.ListOutdent();
 builder.Writeln("Item 3");
 
 //ExStep:6-
-// リストから番号付けを削除
+// 番号をリストから削除する
 builder.ListFormat.RemoveNumbers();
 
 //ExStep:7-
-// ドキュメントを保存します
+// 文書を保存する
 doc.Save("DocumentFormatting.MultilevelListFormatting.docx");
 //ExEnd

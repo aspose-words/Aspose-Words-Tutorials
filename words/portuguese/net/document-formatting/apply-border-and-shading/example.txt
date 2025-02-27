@@ -1,15 +1,15 @@
 //ExStart
-//ExSummary: Este código demonstra como aplicar fronteiras e sombreamento a um parágrafo em um documento do Word usando Aspose.Words.
-//ExStepSummary:0: O código a seguir inicializa uma nova instância do Document and DocumentBuilder.
-//ExStepSummary:1: O código a seguir configura as fronteiras do parágrafo a uma distância do texto.
-//ExStepSummary:2: O código a seguir aplica um sombreamento de textura transversal diagonal ao parágrafo com cores especificadas.
-//ExStepSummary:3: O código a seguir escreve um parágrafo formatado com as configurações aplicadas.
-//ExStepSummary:4: O código a seguir salva o documento no caminho de saída especificado.
+//ExSummary: Este código demonstra como aplicar limites e sombras a um parágrafo num documento do Word usando Aspose.Words.
+//ExStepSummary:0: O código a seguir inicia uma nova instância do Document e DocumentBuilder.
+//ExStepSummary:1: O código a seguir configura as fronteiras do parágrafo com uma distância do texto.
+//ExStepSummary:2: O código seguinte aplica um sombreamento de textura transversal diagonal ao parágrafo com cores especificadas.
+//ExStepSummary:3: O código a seguir escreve um parágrafo formateado com as configurações aplicadas.
+//ExStepSummary:4: O código a seguir salva o documento para o caminho de saída especificado.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Inicializar um novo documento
+// Iniciar um novo documento
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -23,17 +23,17 @@ borders[BorderType.Top].LineStyle = LineStyle.Double;
 borders[BorderType.Bottom].LineStyle = LineStyle.Double;
 
 //ExStep:2-
-// Acesse as propriedades de sombreamento de parágrafo
+// Acesso às propriedades de sombreamento do parágrafo
 Shading shading = builder.ParagraphFormat.Shading;
 shading.Texture = TextureIndex.TextureDiagonalCross;
 shading.BackgroundPatternColor = System.Drawing.Color.LightCoral; 
 shading.ForegroundPatternColor = System.Drawing.Color.LightSalmon;
 
 //ExStep:3-
-// Escreva o conteúdo formatado do parágrafo
+// Escreva o conteúdo do parágrafo formatado
 builder.Write("I'm a formatted paragraph with double border and nice shading.");
 
 //ExStep:4-
-// Salve o documento no caminho especificado
+// Salvar o documento no caminho especificado
 doc.Save(ArtifactsDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
 //ExEnd

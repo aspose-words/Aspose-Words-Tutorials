@@ -1,20 +1,20 @@
 //ExStart
-//ExSummary:Ce code montre comment ajouter un titre et une description à une table dans un document Word en utilisant Aspose.Words.
+//ExSummary: Ce code montre comment ajouter un titre et une description à une table dans un document Word en utilisant Aspose.Words.
 //ExStepSummary:0:Cette étape initialise le document et le charge à partir d'un répertoire spécifié.
-//ExStepSummary:1:Cette étape récupère le premier tableau du document et définit son titre et sa description.
+//ExStepSummary:1:Cette étape permet de récupérer le premier tableau du document et de définir son titre et sa description.
 //ExStepSummary:2:Cette étape configure les options de sauvegarde pour le document avec des paramètres de conformité spécifiés.
-//ExStepSummary:3:Cette étape optimise les options de compatibilité pour le document Word 2016.
-//ExStepSummary:4:Cette étape permet de sauvegarder le document modifié dans le répertoire spécifié.
+//ExStepSummary:3:Cette étape optimise les options de compatibilité du document pour Word 2016.
+//ExStepSummary:4:Cette étape sauvegarde le document modifié dans le répertoire spécifié.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Initialiser le document et le charger à partir du répertoire de données
+// Initialement le document et le charger à partir du répertoire de données
 string dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// Récupérer le premier tableau et définir son titre et sa description
+// Retirer le premier tableau et définir son titre et sa description
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 table.Title = "Test title";
 table.Description = "Test description";
@@ -28,6 +28,6 @@ OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.I
 doc.CompatibilityOptions.OptimizeFor(Aspose.Words.Settings.MsWordVersion.Word2016);
 
 //ExStep:4-
-// Sauvegarder le document modifié dans le répertoire spécifié
+// Enregistrez le document modifié dans le répertoire spécifié
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.TableTitleAndDescription.docx", options);
 //ExEnd

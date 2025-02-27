@@ -1,8 +1,8 @@
 ---
-title: Práce s polemi formuláře v Aspose.Slova pro .NET
+title: Pracujeme s polemi formulářů v Aspose.Words pro .NET
 weight: 10
 limit:
-description: Přečtěte si, jak pracovat s polemi formulářů v Aspose.Slova pro .NET. Prozkoumejte funkce pro přidání, editaci a správu textových vstupů, combo box a zaškrtávací pole snadno.
+description: Naučte se pracovat s polemi formulářů v Aspose.Words pro .NET. Prozkoumejte funkce pro snadné přidávání, úpravy a správu vstupního textu, kombinované políčky a políček.
 keywords:
 url: /cs/net/working-with-form-fields/
 ---
@@ -12,11 +12,11 @@ url: /cs/net/working-with-form-fields/
 
 ## Úvod
 
-Forma pole jsou nezbytná pro vytvoření interaktivních a zaplněných Word dokumentů, a Aspose.Slova pro .NET dělá proces bezproblémový a efektivní. Ať už potřebujete přidat text vstupní pole pro shromažďování uživatelských informací, combo box pro poskytování výběr dropdown, nebo zaškrtávací políčko pro jednoduché ano/ne možnosti, tato knihovna nabízí komplexní funkčnost. Vývojáři mohou snadno přidat, editovat a spravovat formulářová pole programaticky, což z něj dělá dokonalý nástroj pro automatizaci dokumentů pracovní postupy.
+Polem formuláře jsou nezbytné pro vytváření interaktivních a vyplňovatelných dokumentů Word a Aspose.Words pro .NET umožňuje proces bezproblémový a efektivní. Ať už potřebujete přidat textové vstupní pole pro sběr uživatelských informací, kombinované pole pro poskytování odrazového výběru nebo kontrolní pole pro jednoduché možnosti ano / ne, tato knihovna nabízí komplexní funkčnost. Vývojníci mohou snadno přidat, upravovat a spravovat pole formulářů programaticky, což je dokonalý nástroj pro automatizaci pracovních toků dokumentů.
 
-Aspose.Slova pro .NET podporuje různé typy tvarových polí, což vám umožní navrhnout komplexní formy s přesností a flexibilitou. S bohatým API, můžete ovládat vlastnosti polí, opulate data, a dokonce zpracovávat uživatelský vstup s minimálním úsilím. Ať už budete vytvářet průzkumy, smlouvy, nebo vlastní šablony, práce s tvarovými poli pomocí Aspose.Slova zajišťuje profesionální a uživatelsky přívětivý zážitek.
+Aspose.Words pro .NET podporuje různé typy polí formulářů, což vám umožňuje navrhnout složitá formuláře s přesností a flexibilitou. Díky jeho bohatému API můžete řídit vlastnosti polí, naplňovat data a dokonce zpracovávat vstupy uživatele s minimálním úsilím. Ať už vytváříte průzkumy, smlouvy nebo vlastně upravené šablony, práce s poly formulářů pomocí Aspose.Words zajišťuje profesionální a uživatelsky příjemný zážitek.
 
-{{< tutorial-card link="./insert-form-fields/" title="Vložit formulář Combo do Word Document" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
+{{< tutorial-card link="./insert-form-fields/" title="Vložte pole formuláře do dokumentu Word" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

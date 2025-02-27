@@ -1,21 +1,21 @@
 //ExStart
-//ExSummary: Dieser Code zeigt, wie man mit Aspose.Words ein Text-Wasserzeichen mit bestimmten Optionen zu einem Word-Dokument hinzufügt.
-//ExStepSummary:0: Der folgende Code initialisiert den Dokumentpfad und erzeugt ein neues Dokumentobjekt.
+//ExSummary: Dieser Code zeigt, wie man ein Text-Wasserzeichen mit spezifischen Optionen zu einem Word-Dokument mit Aspose.Words hinzufügt.
+//ExStepSummary:0: Der folgende Code initialisiert den Dokumentweg und erstellt ein neues Dokumentobjekt.
 //ExStepSummary:1: Der folgende Code legt die Optionen für das Text-Wasserzeichen fest, einschließlich Schriftfamilie, Größe, Farbe und Layout.
-//ExStepSummary:2: Der folgende Code wendet das Text-Wasserzeichen mit den angegebenen Optionen auf das Dokument an.
-//ExStepSummary:3: Der folgende Code speichert das geänderte Dokument in einem angegebenen Verzeichnis.
+//ExStepSummary:2: Der folgende Code gilt für das Text-Wasserzeichen mit den angegebenen Optionen.
+//ExStepSummary:3: Der folgende Code speichert das modifizierte Dokument in ein spezifiziertes Verzeichnis.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStep:0-
-// Stellen Sie den Verzeichnispfad für das Dokument
+// Setzen Sie den Verzeichnisweg für das Dokument
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Das Word-Dokument laden
+// Lade das Word-Dokument
 Document doc = new Document(dataDir + "Document.docx");
 
 //ExStep:2-
-// Wasserzeichen-Optionen erstellen
+// Erstellen von Wasserzeichenoptionen
 TextWatermarkOptions options = new TextWatermarkOptions()
 {
     FontFamily = "Arial", // Set font family for the watermark text
@@ -26,10 +26,10 @@ TextWatermarkOptions options = new TextWatermarkOptions()
 };
 
 //ExStep:3-
-// Den Wasserzeichentext mit Optionen anwenden
+// Wachezeichen mit Optionen anzuwenden
 doc.Watermark.SetText("Test", options);
 
 //ExStep:4-
-// Das Dokument mit dem Wasserzeichen speichern
+// Speichern Sie das Dokument mit dem Wasserzeichen
 doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
 //ExEnd

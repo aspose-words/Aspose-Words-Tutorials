@@ -1,12 +1,12 @@
 //ExStart
-//ExSummary: Dieser Code zeigt, wie man eine Gruppenform innerhalb eines Dokuments mit Aspose.Words erstellt.
-// Es erzeugt eine akzentuierte Umrandungsform und einen Aktionsknopf, fügt sie einer Gruppenform hinzu und fügt dann die Gruppenform vor dem Speichern in das Dokument ein.
+//ExSummaryDieser Code zeigt, wie man eine Gruppenform in einem Dokument mit Aspose.Words erstellt.
+// Es erstellt eine Akzent-Border-Aufrufform und eine Aktions-Taste, fügt sie zu einer Gruppenform hinzu und fügt dann die Gruppenform in das Dokument ein, bevor es gespeichert wird.
 //ExStepSummary:0: Initialisiert ein neues Dokument und stellt sicher, dass die Mindestanforderungen erfüllt werden.
-//ExStepSummary:1: Erstellt eine Gruppenform, die andere Formen enthält.
-//ExStepSummary:2: Fügt der Gruppenform eine akzentuierte Border Callout-Form hinzu.
-//ExStepSummary:3: Fügt der Gruppenform eine Aktionstaste hinzu.
-//ExStepSummary:4: Setzt die Abmessungen und Koordinaten für die Gruppenform.
-//ExStepSummary:5: Fügt die Gruppenform mit einem DocumentBuilder in das Dokument ein.
+//ExStepSummary:1: Erstellt eine GroupShape, die andere Formen hält.
+//ExStepSummary:2: Fügt eine Akzent-Border-Call-Form zur Gruppenform hinzu.
+//ExStepSummary:3: Fügt eine Aktionsknopfform zur Gruppenform hinzu.
+//ExStepSummary:4: Die Größen und Koordinaten für die Gruppenschale.
+//ExStepSummary:5: Das Format der Gruppe wird mit einem DocumentBuilder in das Dokument eingefügt.
 //ExStepSummary:6: Speichert das Dokument, das die Gruppenform enthält, an einen bestimmten Ort.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
@@ -14,45 +14,45 @@
 //ExStepImage:4:images/4.png
 //ExStepImage:5:images/5.png
 //ExStep:0-
-// Neues Dokument erstellen
+// Erstellen Sie ein neues Dokument
 Document doc = new Document();
-// Sicherstellen, dass das Dokument Mindestanforderungen erfüllt
+// Sicherstellung, dass das Dokument den Mindestanforderungen entspricht
 doc.EnsureMinimum();
 
 //ExStep:1-
-// Eine neue GroupShape-Instanz erstellen
+// Erstellen Sie eine neue GroupShape-Instanz
 GroupShape groupShape = new GroupShape(doc);
 
 //ExStep:2-
-// Erstellen Sie einen Akzent Grenze Callout-Form
+// Erstellen Sie eine Akzent-Behrbürgs-Aufrufsform
 Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
 {
     Width = 100, 
     Height = 100
 };
-// Fügen Sie die Form der Gruppenform hinzu
+// Fügen Sie die Form zur Gruppenform hinzu
 groupShape.AppendChild(accentBorderShape);
 
 //ExStep:3-
-// Erstellen Sie eine Aktion Knopfform
+// Erstellen Sie eine Aktionsknopfform
 Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
 {
-	// Stellen Sie die linke Position der Form
+	// Setzen Sie die linke Position der Form
     Left = 100, 
-	// Breite der Form einstellen
+	// Setze Breite der Form
     Width = 100, 
-	// Höhe der Form einstellen
+	// Setze die Höhe der Form
     Height = 200
 };
-// Fügen Sie den Aktionsknopf zur Gruppenform hinzu
+// Fügen Sie die Aktions-Taste zur Gruppenform hinzu
 groupShape.AppendChild(actionButtonShape);
 
 //ExStep:4-
-// Legen Sie die Breite der Gruppenform fest
+// Setzen Sie die Breite der Gruppenform
 groupShape.Width = 200;
-// Legen Sie die Höhe der Gruppenform fest
+// Setzen Sie die Höhe der Gruppenform
 groupShape.Height = 200;
-// Legen Sie die Koordinatengröße für die Gruppenform fest
+// Setzen Sie die Koordinatengröße für die Gruppenform
 groupShape.CoordSize = new Size(200, 200);
 
 //ExStep:5-
@@ -62,6 +62,6 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertNode(groupShape);
 
 //ExStep:6-
-// Das Dokument an einen bestimmten Ort speichern
+// Speichern Sie das Dokument an einem bestimmten Ort
 doc.Save("WorkingWithShapes.AddGroupShape.docx");
 //ExEnd

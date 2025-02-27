@@ -1,28 +1,28 @@
 //ExStart
-//ExSummaryを選択します。 このコードは、Style チャートを Assoft.words を使ってワードドキュメントに挿入する方法を示します。
-//ExStepSummary:0: 以下のコードが、新しいドキュメントとドキュメントビルダーを初期化します。
-//ExStepSummary:1: ドキュメント作成プログラムを使用して、バブルチャートを作成し、ドキュメントに追加します。
-//ExStepSummary:2: バブルチャートのデータ系列は、特定の X, Y, サイズ値で追加されます。
-//ExStepSummary:3: 最後に、挿入したバブルチャートでドキュメントを保存します。
+//ExSummary: このコードはAspose.Wordsを使用して,BubbleチャートをWord文書に挿入する方法を示します.
+//ExStepSummary:0: 次のコードは新しいドキュメントとドキュメントビルダーを初期化します.
+//ExStepSummary:1: 文書ビルダーを使用してバブルチャートを作成してドキュメントに追加します.
+//ExStepSummary:2: バブルチャートに関するデータシリーズは,特定のX,Y,サイズ値で追加されます.
+//ExStepSummary:3: 最後に,文書は挿入されたバブルチャートで保存されます.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// 新しい文書と文書ビルダーを初期化
+// 新しいドキュメントとドキュメントビルダーを初期化する
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// バブルチャートをドキュメントに挿入
+// 文書にバブルチャートを挿入する
 Shape shape = builder.InsertChart(ChartType.Bubble, 432, 252);
 
 //ExStep:2-
-// バブルチャートにデータ系列を追加
+// バブルチャートにデータシリーズを追加する
 Chart chart = shape.Chart;
 chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, // X values
     new double[] { 2.7, 3.2, 0.8 }, // Y values
     new double[] { 10, 4, 8 }); // Size values for the bubbles
 
 //ExStep:3-
-// バブルチャートでドキュメントを保存します
+// 文書をバブルチャートで保存する
 doc.Save("WorkingWithCharts.InsertBubbleChart.docx");
 //ExEnd

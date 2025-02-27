@@ -1,8 +1,8 @@
 ---
-title: Anahat Sınırını Aspose.Words kullanarak Word'de Bir Tabloya Uygula
+title: Aspose.Words kullanarak bir tabloya Özet Sınırı'nı Word'de uygulayın
 weight: 7700
 limit: 
-description: .NET için Aspose.Words kullanarak Word'deki bir tabloya bir anahat sınırının nasıl uygulanacağını öğrenin. Tabloyu merkezleyin, yeşil bir sınır ekleyin ve hücreleri açık yeşil bir arka planla doldurun.
+description: Word'de bir tabloya bir çizgi sınırını .NET için Aspose.Words kullanarak nasıl uygulayacağınızı öğrenin. Tabloyu merkeze edin, yeşil bir sınır ekleyin ve açık yeşil bir arka planlı hücreler doldurun.
 keywords: [Aspose.Words for .NET, Word table formatting, outline border, apply table border, table shading, .NET Word library]
 url: /tr/net/working-with-table-styles-and-formatting/apply-outline-border/
 ---
@@ -10,9 +10,9 @@ url: /tr/net/working-with-table-styles-and-formatting/apply-outline-border/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Anahat Sınırını Aspose.Words kullanarak Word'de Bir Tabloya Uygula
+# Aspose.Words kullanarak bir tabloya Özet Sınırı'nı Word'de uygulayın
 
-.NET için Aspose.Words Word belge işleme için güçlü bir kütüphanedir. Bu örnek, bir anahat sınırı uygulayarak, tabloyu merkezleyerek ve tablo hücrelerine açık yeşil bir arka plan ekleyerek bir tablonun nasıl biçimlendirileceğini gösterir. Karmaşık Word belgeleriyle çalışıyorsanız veya biçimlendirme üzerinde kesin kontrole ihtiyacınız varsa, Aspose.Words işlemi basitleştirir. Word belgelerinizi bu kütüphane tarafından sağlanan sağlam ve özelleştirilebilir özelliklerle programlı olarak geliştirin.
+.NET için Aspose.Words Word belge işleme için güçlü bir kütüphanedir. Bu örnek bir tabloyu bir çizgi sınırını uygulayarak, tabloyu merkezleyerek ve tablo hücrelerine açık yeşil bir arka plan ekleyerek nasıl biçimlendireceğinizi gösterir. Karmaşık Word belgeleri ile çalışıyorsanız veya biçimlendirme üzerinde kesin bir kontrol gerektiriyorsanız, Aspose.Words süreci basitleştirir. Bu kütüphaneden sağlanan sağlam ve özelleştirilebilir özelliklerle Word belgeleri programsal olarak geliştirin.
 
 
 ---
@@ -20,30 +20,30 @@ url: /tr/net/working-with-table-styles-and-formatting/apply-outline-border/
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum Talimatları  
+## Kurulum talimatları  
 
-### Önkoşullar  
-1. Sisteminizde .NET Framework 4.7.2 veya daha sonra yüklü olduğundan emin olun.  
-2. Visual Studio'yu indirin ve yükleyin (2019 veya sonrası önerilir).  
+### Ön koşullar  
+1. Sisteminizde .NET Framework 4.7.2 veya daha sonraki bir sistem kurduğundan emin olun.  
+2. Visual Studio'yu indirin ve yükleyin (2019 veya daha sonraki önerilmektedir).  
 
-### Kurulum Adımları  
-1. Resmi web sitesinden .NET kütüphanesi için Aspose.Words dosyasını indirin:[.NET İndirme için Aspose.Words](https://releases.aspose.com/words/net/).  
-2. Kütüphaneyi NuGet Paket Yöneticisi aracılığıyla yükleyin:  
-   * Projenizi Visual Studio'da açın.  
-   * Araçlara git > NuGet Paket Yöneticisi > Çözüm için NuGet Paketlerini Yönet.  
-   * Ara`Aspose.Words`ve Install'ı tıklayın.  
-3. Projenizdeki kütüphaneye bir referans ekleyin:  
+### Kurulum adımları  
+1. .NET kütüphanesi için Aspose.Words'i resmi web sitesinden indir: [.NET için Aspose.Words indir](https://releases.aspose.com/words/net/)\- Evet .  
+2. Kitaptaki kitapçığı NuGet Paket Yöneticisi üzerinden yükleyin:  
+   * Projeyi Visual Studio'da aç.  
+   * Araçlara > NuGet Paket Yöneticisi > Çözüm için NuGet Paketleri Yönetin.  
+   * Arama`"Sözler. Sözler"`ve kurulum düğmesine tıklayın.  
+3. Projenize kütüphanenin referansını ekleyin:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    using System.Drawing;
    ```  
-4. Lisans Uygula (İsteğe Bağlı):  
-   Tam versiyonu kullanmak için,[bir lisans uygulamak](https://purchase.aspose.com/temporary-license/)ya da kullanmak a[ücretsiz deneme](https://releases.aspose.com/words/net/).
+4. İzn Verme Lisansı (Önemli):  
+   Tam versiyonu kullanmak için,[lisans uygulamak](https://purchase.aspose.com/temporary-license/)veya bir [ücretsiz deneme](https://releases.aspose.com/words/net/)\- Evet .
    
-## Ayrıca Bakınız
-[.NET Dokümantasyonu için Aspose.Word](https://docs.aspose.com/words/net/)
-[.NET Referansları için Aspose.Word](https://reference.aspose.com/words/net/)
+## Ayrıca bakın
+[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

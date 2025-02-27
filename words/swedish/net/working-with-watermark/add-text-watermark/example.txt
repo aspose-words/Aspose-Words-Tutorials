@@ -1,21 +1,21 @@
 //ExStart
-//ExSummary: Denna kod visar hur man lägger till en text vattenstämpel med specifika alternativ till ett Word-dokument med Aspose.Words.
-//ExStepSummary:0: Följande kod initierar dokumentsökvägen och skapar ett nytt dokumentobjekt.
-//ExStepSummary:1: Följande kod anger alternativen för textvattenstämpeln, inklusive typsnittsfamilj, storlek, färg och layout.
-//ExStepSummary:2: Följande kod tillämpar textvattenstämpeln med de angivna alternativen för dokumentet.
-//ExStepSummary:3: Följande kod sparar det ändrade dokumentet till en angiven katalog.
+//ExSummary: Denna kod visar hur man lägger till ett textvattenmärke med specifika alternativ till ett Word-dokument med hjälp av Aspose.Words.
+//ExStepSummary:0: Följande kod initialiserar dokumentets väg och skapar ett nytt dokumentobjekt.
+//ExStepSummary:1: Följande kod anger alternativen för textvattenmärket, inklusive teckensamma, storlek, färg och layout.
+//ExStepSummary:2: Följande kod tillämpas på textvattenmärket med de angivna alternativen på dokumentet.
+//ExStepSummary:3: Följande kod sparar det ändrade dokumentet till ett specifikt katalog.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStep:0-
-// Ställ in katalogsökväg för dokumentet
+// Ställ in katalogväg för dokumentet
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Ladda Word-dokumentet
+// Ladda in Word-dokumentet
 Document doc = new Document(dataDir + "Document.docx");
 
 //ExStep:2-
-// Skapa vattenstämpelalternativ
+// Skapa vattenmärkesalternativ
 TextWatermarkOptions options = new TextWatermarkOptions()
 {
     FontFamily = "Arial", // Set font family for the watermark text
@@ -26,10 +26,10 @@ TextWatermarkOptions options = new TextWatermarkOptions()
 };
 
 //ExStep:3-
-// Använd vattenstämpeltexten med alternativ
+// Använd vattenmärken med alternativ
 doc.Watermark.SetText("Test", options);
 
 //ExStep:4-
-// Spara dokumentet med vattenstämpeln
+// Spara dokumentet med vattenmärket
 doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
 //ExEnd

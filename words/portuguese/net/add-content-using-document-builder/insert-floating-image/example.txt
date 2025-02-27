@@ -1,7 +1,7 @@
 //ExStart
-//ExSummary: Este código demonstra como criar um documento do Word e inserir uma imagem com um layout flutuante usando Aspose.Words.
-//ExStepSummary:0: O código a seguir inicializa um novo Documento e DocumentBuilder.
-//ExStepSummary:1: O código a seguir insere uma imagem no documento.
+//ExSummary: Este código demonstra como criar um documento Word e inserir uma imagem com um layout flutuante usando Aspose.Words.
+//ExStepSummary:0: O código a seguir inicializa um novo Document e DocumentBuilder.
+//ExStepSummary:1: O código seguinte inserirá uma imagem no documento.
 //ExStepSummary:2: O código a seguir salva o documento em um local especificado.
 //ExStepImage:1:images/1.png
 //ExStep:0-
@@ -10,7 +10,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Inserir imagem a partir do caminho especificado
+// Insira imagem do caminho especificado
 builder.InsertImage(ImagesDir + "Transparent background logo.png", 
     RelativeHorizontalPosition.Margin,
     100, 
@@ -21,6 +21,6 @@ builder.InsertImage(ImagesDir + "Transparent background logo.png",
     WrapType.Square); 
 
 //ExStep:2-
-// Salve o documento no arquivo especificado
+// Salvar o documento no arquivo especificado
 doc.Save("AddContentUsingDocumentBuilder.InsertFloatingImage.docx");
 //ExEnd

@@ -1,28 +1,28 @@
 //ExStart
-//ExSummary:Kode ini menunjukkan bagaimana membuat dokumen Word menggunakan Aspose.Words, memformat properti fonta sebelum menulis suatu teks cuplikan ke dalamnya.
-//ExStepSummary:0: Kode berikut menginisialisasi Dokumen baru dan Dokumen Builder.
-//ExStepSummary:1: Kode berikut ini menetapkan berbagai sifat fonta seperti ukuran, tebal, warna, nama, dan gaya garis bawah.
-//ExStepSummary:2: Kode berikut menulis contoh teks ke dokumen menggunakan pengaturan fonta yang dikonfigurasi.
-//ExStepSummary:3: Kode berikut menyimpan dokumen ke direktori yang dinyatakan dengan nama berkas yang diberikan.
+//ExSummary:Kode ini menunjukkan cara membuat dokumen Word menggunakan Aspose.Words, memformat properti font sebelum menulis teks sampel ke dalamnya.
+//ExStepSummary:0: Kode berikut ini menginisialisasikan Dokument baru dan DocumentBuilder.
+//ExStepSummary:1: Kode berikut menetapkan berbagai sifat font seperti ukuran, tebal, warna, nama, dan gaya penanda.
+//ExStepSummary:2: Kode berikut menulis teks sampel ke dokumen menggunakan pengaturan font yang dikonfigurasi.
+//ExStepSummary:3: Kode berikut menyimpan dokumen ke direktori yang ditentukan dengan nama file tertentu.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Buat instansi dokumen baru
+// Buat contoh dokumen baru
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Akses properti fonta melalui DokumenBuilder
+// Akses ke properti font melalui DocumentBuilder
 Font font = builder.Font;
-// Menentukan ukuran fonta menjadi 16
+// Setelan ukuran font menjadi 16
 font.Size = 16;
-// Buat huruf tebal
+// Buat font tebal
 font.Bold = true;
-// Ubah warna fonta ke biru
+// Mengubah warna font menjadi biru
 font.Color = Color.Blue;
-// Tata fonta ke Arial
+// Set font ke Arial
 font.Name = "Arial";
-// Terapkan gaya garis bawah garis bawah ke fonta
+// Tuliskan gaya garis bawah bergaris pada font
 font.Underline = Underline.Dash;
 
 //ExStep:2-

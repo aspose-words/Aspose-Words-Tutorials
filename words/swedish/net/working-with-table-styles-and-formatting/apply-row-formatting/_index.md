@@ -1,8 +1,8 @@
 ---
-title: Tillämpa radformatering i Word-dokument med Aspose.Words for .NET
+title: Använd radformatering i Word-dokument med Aspose.Words för .NET
 weight: 7700
 limit: 
-description: Lär dig att använda radformatering i ett Word-dokument med Aspose.Words för .NET. Steg-för-steg-guide med kodexempel och detaljerade instruktioner.
+description: Lär dig hur man tillämpar radformatering i ett Word-dokument med hjälp av Aspose.Words för .NET. Steg för steg guide med kod exempel och detaljerade instruktioner.
 keywords: [Aspose.Words for .NET, row formatting Word, apply row format, Word document table styling, .NET Word document example, Aspose.Words tutorial, table row padding, Word document programming]
 url: /sv/net/working-with-table-styles-and-formatting/apply-row-formatting/
 ---
@@ -10,9 +10,9 @@ url: /sv/net/working-with-table-styles-and-formatting/apply-row-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tillämpa radformatering i Word-dokument med Asspose.Words
+# Använd radformatering i Word-dokument med Aspose.Words
 
-Apose.Words for .NET erbjuder kraftfulla verktyg för att skapa och ändra Word- dokument programmatiskt. I det här exemplet visar vi hur man använder radformatering i ett Word-dokument med Aspose.Words. Du lär dig att ställa in radhöjder, konfigurera stoppning och tillämpa exakt formatering för att skapa välstrukturerade tabeller. Denna steg-för-steg-guide innehåller kodslippar och instruktioner för att hjälpa dig att snabbt implementera dessa funktioner i dina .NET-program.
+Aspose.Words för .NET erbjuder kraftfulla verktyg för att skapa och ändra Word-dokument programmatiskt. I detta exempel visar vi hur man tillämpar radformatering i ett Word-dokument med hjälp av Aspose.Words. Du kommer att lära dig att ställa in radhöjder, konfigurera täckning och tillämpa exakt formatering för att skapa väl strukturerade tabeller. Denna steg för steg guide innehåller kodsnitt och instruktioner för att hjälpa dig att snabbt implementera dessa funktioner i dina .NET-applikationer.
 
 
 ---
@@ -20,35 +20,35 @@ Apose.Words for .NET erbjuder kraftfulla verktyg för att skapa och ändra Word-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Monteringsanvisningar  
-För att använda Aspose.Ord för .NET i ditt projekt, följ dessa steg:  
+## Installationsinstruktioner  
+För att använda Aspose.Words för .NET i ditt projekt, följ dessa steg:  
 
 1. Ladda ner Aspose.Words för .NET  
-   * Besök[Aspose.Words för .NET nedladdning sida](https://releases.aspose.com/words/net/)och ladda ner den senaste versionen.
+   * Besök[Aspose.Words för .NET- nedladdningssida](https://releases.aspose.com/words/net/)och ladda ner den senaste versionen.
 
-2. Installera via NuGet  
+2. Installa via NuGet  
    * Öppna ditt projekt i Visual Studio.  
-   * Gå till verktyg > NuGet pakethanterare > Hantera NuGet paket för lösning.  
-   * Sök efter`- Jag antar det.`och klicka på Installera.
+   * Gå till Verktyg > NuGet pakethanterare > Hantera NuGet paketer för lösning.  
+   * Sök efter`"Svar. Ord"`och klicka på Installa.
 
-3. Inkludera namnrymden  
-   * Lägg till följande rad i din kod:  
+3. Inkludera Namnutrymmet  
+   * Lägg till följande rad i koden:  
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Tables;
      ```
 
-4. Aktivera licensen (valfritt)  
-   * För att undvika utvärderingsbegränsningar ska du ansöka om[tillfällig licens](https://purchase.aspose.com/temporary-license/)eller köp en[Fullständig licens](https://purchase.aspose.com/buy). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
-   * Ladda licensen i din kod:  
+4. Aktivera licensen (alternativt)  
+   * För att undvika begränsningar i utvärderingen ska du ansöka om en[Tillfälligt tillstånd](https://purchase.aspose.com/temporary-license/)eller köpa en [Full licens](https://purchase.aspose.com/buy)\- Jag är inte rädd.  
+   * Lädd licensen i din kod:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```
 	 
-## Se också
-[Antag.Ord för .NET-dokumentation](https://docs.aspose.com/words/net/)
-[Antaget.Ord för .NET-referenser](https://reference.aspose.com/words/net/)
+## Se även
+[Aspose.Word för .NET-dokumentation](https://docs.aspose.com/words/net/)
+[Aspose.Word för .NET Referenser](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

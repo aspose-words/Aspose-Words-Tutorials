@@ -1,12 +1,12 @@
 //ExStart
-//ExSummary: Ce code montre comment insérer des champs de formulaire dans un document Word en utilisant Aspose.Words pour .NET. Spécifiquement, il montre comment insérer un champ de formulaire de boîte combo avec des éléments prédéfinis.
+//ExSummaryCe code montre comment insérer des champs de formulaire dans un document Word en utilisant Aspose.Words pour .NET. Plus précisément, il montre comment insérer un champ de formulaire en boîte combo avec des éléments prédéfinis.
 //ExStepSummary:0: Le code suivant montre comment créer un nouveau document Word.
-//ExStepSummary:1: Le code suivant montre comment initialiser un DocumentBuilder pour l'édition du document.
-//ExStepSummary:2: Le code suivant montre comment définir et insérer un champ de formulaire de boîte combo avec des éléments prédéfinis et une sélection par défaut.
+//ExStepSummary:1: Le code suivant montre comment initialement un DocumentBuilder pour modifier le document.
+//ExStepSummary:2: Le code suivant montre comment définir et insérer un champ de formulaire de boîte combinée avec des éléments prédéfinis et une sélection par défaut.
 //ExStepImage:0:images/1.png
 //ExStepImage:1:images/2.png
 //ExStep:0-
-// Initialise un document Word vide
+// Initialité d' un document Word vide
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 

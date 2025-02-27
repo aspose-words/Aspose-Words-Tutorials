@@ -1,8 +1,8 @@
 ---
-title: Ορισμός σημειώματος έμφασης στο έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET 
+title: Εγκαταστήστε το σημάδι έμφασης στο έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET 
 weight: 7700
 limit: 
-description: Μάθετε πώς να ορίσετε ένα σημάδι έμφασης στα έγγραφα του Word χρησιμοποιώντας Aspose.Words για .NET. Αυτός ο οδηγός βήμα προς βήμα περιλαμβάνει οδηγίες εγκατάστασης και κώδικα παραδείγματος.
+description: Μάθετε πώς να ρυθμίσετε ένα σημάδι έμφασης σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET. Αυτό το βήμα-με-βήμα οδηγός περιλαμβάνει οδηγίες εγκατάστασης και παράδειγμα κώδικα.
 keywords: [Aspose.Words for .NET, set emphasis mark, Word document, .NET library, document formatting, Word automation, C# examples]
 url: /el/net/working-with-fonts/set-font-emphasis-mark/
 ---
@@ -10,43 +10,43 @@ url: /el/net/working-with-fonts/set-font-emphasis-mark/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ορισμός σημείου έμφασης στο έγγραφο Word χρησιμοποιώντας το Aspose.Words
+# Βάλτε το σημάδι έμφασης στο έγγραφο λέξης χρησιμοποιώντας το Aspose.Words
 
-Θέτοντας ένα σημάδι έμφασης στα έγγραφα Word είναι ένας εξαιρετικός τρόπος για να τονίσει συγκεκριμένο κείμενο, εξασφαλίζοντας ότι ξεχωρίζει στο περιεχόμενό σας. Με Aspose.Words για .NET, μπορείτε να εφαρμόσετε χωρίς κόπο σημάδια έμφασης, όπως ένα κάτω από συμπαγή κύκλο, χρησιμοποιώντας μερικές γραμμές κώδικα.`Κατασκευαστής εγγράφωνName`τάξη για να χειραγωγήσει τα έγγραφα Word, μορφή κειμένου με σημάδια έμφασης, και να αποθηκεύσετε το αποτέλεσμα σε μορφή DOCX. Ακολουθήστε αυτόν τον οδηγό για τον εξορθολογισμό των εργασιών μορφοποίησης εγγράφων σας με επαγγελματική ακρίβεια.
+Η θέσπιση σημάτων έμφασης σε έγγραφα Word είναι ένας εξαιρετικός τρόπος για να τονιστείς συγκεκριμένος κείμενο, διασφαλίζοντας ότι ξεχωρίζει στο περιεχόμενό σου. Με το Aspose.Words για το .NET, μπορείτε εύκολα να εφαρμόσετε σημάδια έμφασης, όπως ένα υπό στερεό κύκλο, χρησιμοποιώντας μερικές γραμμές κώδικα.`Κατασκευαστής εγγράφων`Κλασές για να χειριστείτε έγγραφα Word, να μορφοποιείτε κείμενο με σημεία έμφασης και να αποθηκεύετε το αποτέλεσμα σε μορφή DOCX. Ακολουθήστε αυτό το οδηγό για να εξορθολογήσετε τις εργασίες μορφοποίησης εγγράφων με επαγγελματική ακρίβεια.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-fonts/set-font-emphasis-mark" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Οδηγίες εγκατάστασης  
-Για να εκτελέσετε το παρεχόμενο παράδειγμα κώδικα και να χρησιμοποιήσετε Aspose.Words για .NET, ακολουθήστε αυτά τα βήματα:  
+## Διδασκαλίες εγκατάστασης  
+Για να εκτελέσετε το παραδείγμα του προωθούμενου κώδικα και να χρησιμοποιήσετε το Aspose.Words για το .NET, ακολουθήστε τα παρακάτω βήματα:  
 
 1. Κατεβάστε Aspose.Words για .NET:  
-   * Πάρτε τη βιβλιοθήκη από το[Εκδόσεις Appose](https://releases.aspose.com/words/net/)Πέιτζ.  
+   * Πάρτε τη βιβλιοθήκη από την [Απελευθερώσεις](https://releases.aspose.com/words/net/)σελίδα.  
 
-2. Εγκαταστήστε τη Βιβλιοθήκη:  
-   * Εγκαταστήστε το μέσω NuGet Package Manager στο Visual Studio:  
-     * Open Visual Studio.  
-     * Πλοήγηση στα Εργαλεία > NuGet Package Manager > Διαχείριση Πακέτων NuGet για Λύση.  
-     * Αναζήτηση`Άσσος. Λέξεις`και κάντε κλικ στην εγκατάσταση.  
+2. Εγκατάσταση της Βιβλιοθήκης:  
+   * Εγκαταστήστε το μέσω του διαχειριστή πακέτων NuGet στο Visual Studio:  
+     * Ανοίξτε το Visual Studio.  
+     * Επιστρέψτε στα εργαλεία > Διαχειριστής πακέτων NuGet > Διαχειρίστε τα πακέτα NuGet για Λύση.  
+     * Ψάξε για`"Αποκοινώνεστε.`και κάντε κλικ στην εγκατάσταση.  
 
-   * Εναλλακτικά, χρησιμοποιήστε την κονσόλα NuGet Package Manager:  
+   * Εναλλακτικά, χρησιμοποιήστε τη κονσόλα διαχειριστή πακέτων NuGet:  
      ```shell
      Install-Package Aspose.Words
      ```  
 
-3. Ρυθμίστε μια προσωρινή άδεια (προαιρετική):  
-   * Για απεριόριστη χρήση, πάρτε ένα[δωρεάν προσωρινή άδεια](https://purchase.aspose.com/temporary-license/).  
+3. Εγκαταστήστε προσωρινή άδεια (επιαιρετική):  
+   * Για μη περιορισμένη χρήση, πάρε [δωρεάν προσωρινή άδεια](https://purchase.aspose.com/temporary-license/)\- Δεν ξέρω .  
    * Εφαρμόστε την άδεια στο έργο σας:  
      ```csharp
      var license = new Aspose.Words.License();
      license.SetLicense("Aspose.Words.lic");
      ```  
    
-## Επίσης, δείτε
-[Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
+## Δείτε επίσης
+[Aspose.Word για έγγραφο .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word για .NET References](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

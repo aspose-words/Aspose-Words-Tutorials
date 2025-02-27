@@ -1,18 +1,18 @@
 //ExStart
-//ExSummary: Kode ini menunjukkan bagaimana membuat dokumen Word menggunakan Aspose.Words, menerapkan gaya paragraf, dan menyimpan dokumen. Ini menunjukkan bagaimana menata gaya judul untuk paragraf dan menyimpan dokumen dalam format .dox.
-//ExStepSummary:0: Bagian ini menginisialisasi suatu instansi Dokumen dan Dokumen Builder baru.
-//ExStepSummary:1: Bagian ini menerapkan gaya paragraf judul menggunakan Dokumen Builder.
+//ExSummary: Kode ini menunjukkan cara membuat dokumen Word menggunakan Aspose.Words, menerapkan gaya paragraf, dan menyimpan dokumen. Ini menunjukkan cara mengatur gaya judul untuk paragraf dan menyimpan dokumen dalam format .docx.
+//ExStepSummary:0: Bagian ini menginisialisasikan contoh Document dan DocumentBuilder baru.
+//ExStepSummary:1: Bagian ini menerapkan gaya paragraf Judul menggunakan DocumentBuilder.
 //ExStepSummary:2: Bagian ini menulis "Hello" ke dokumen.
-//ExStepSummary:3: Bagian ini menyimpan dokumen ke lokasi berkas yang ditentukan.
+//ExStepSummary:3: Bagian ini menyimpan dokumen ke jalur file yang ditentukan.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Inisialisasi suatu instansi Dokumen baru
+// Mulai Instansi Dokumen Baru
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Tata gaya paragraf ke Judul
+// Setelan gaya paragraf ke Judul
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Title;
 
 //ExStep:2-
@@ -20,6 +20,6 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Title;
 builder.Write("Hello");
 
 //ExStep:3-
-// Simpan dokumen ke berkas .docx
+// Simpan dokumen ke file .docx
 doc.Save("DocumentFormatting.ApplyParagraphStyle.docx");
 //ExEnd

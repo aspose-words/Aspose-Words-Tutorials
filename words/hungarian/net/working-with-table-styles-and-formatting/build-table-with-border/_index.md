@@ -1,8 +1,8 @@
 ---
-title: Táblázatszegélyek módosítása a Wordben az Aspose.Words for .NET használatával
+title: A Word-ben a .NET-hez használt Aspose.Words segítségével módosítsa a táblázathatárokat
 weight: 7700
 limit: 
-description: Ismerje meg, hogyan manipulálhatja a táblázathatárokat a Word dokumentumokban az Aspose.Words for .NET segítségével. Lépésről lépésre példa az egyéni táblázatstílusok és formázás alkalmazására.
+description: Tanuljon meg, hogyan kell manipulálni a Word dokumentumokban a táblázat határát az .NET-hez használt Aspose.Words segítségével.
 keywords: [Aspose.Words for .NET, table borders Word, Word document table formatting, modify Word table, .NET Word processing, Aspose.Words tutorial]
 url: /hu/net/working-with-table-styles-and-formatting/build-table-with-border/
 ---
@@ -10,34 +10,34 @@ url: /hu/net/working-with-table-styles-and-formatting/build-table-with-border/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Táblázatszegélyek módosítása a Wordben az Aspose.Words használatával
+# A Word-ben a táblázat határait Aspose.Words segítségével módosítani
  
-Aspose.Words for .NET egy hatékony könyvtár létrehozása, szerkesztése és manipulálása Word dokumentumokat programozottan. Ebben a példában megtudhatja, hogyan lehet letölteni egy meglévő Word dokumentumot, módosíthatja a határait az első táblázat, és alkalmazza az egyéni formázás segítségével Aspose.Words. Ez az útmutató végigvezeti Önt a meglévő határok törlése, alkalmazása zöld határok körül és az asztalon belül, és mentse a frissített dokumentumot. Ezzel a funkcióval növelheti a dokumentumok megjelenítését.
+Az Aspose.Words .NET-hez egy hatékony könyvtár a Word dokumentumok programozási létrehozására, szerkesztésére és manipulálására. Ebben a példa megtanulja, hogyan kell visszaszerezni egy meglévő Word dokumentumot, módosítani az első táblázat határait, és alkalmazni a saját szabvány formázását az Aspose.Words segítségével. Ez a útmutató átvezet az átlévő határok tisztítását, a zöld határok alkalmazását a táblázat körül és belül, és az aktualizált dokumentum mentését. Ezzel a funkcionalitással hatékonyan növelheti a Word dokumentumok táblázatának bemutatását.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/build-table-with-border" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Telepítési útmutató  
-Az Aspose.Words for .NET használatának megkezdéséhez kövesse az alábbi lépéseket:  
+## A telepítési utasítások  
+A .NET-hez Aspose.Words használatával kezdeni, kövesse ezeket a lépéseket:  
 
-1. Töltse le a Library: Töltse le a legújabb verzióját Aspose.Words .NET a[hivatalos letöltési oldal](https://releases.aspose.com/words/net/)Nem.  
-2. Telepítés a NuGet-en keresztül:  
-   * Nyissa meg a projektet a Visual Studio-ban.  
-   * Ugrás Eszközök > NuGet Package Manager > NuGet csomagok kezelése a megoldáshoz.  
-   * Keresés`Aspose.Words`és kattintson a Telepítés gombra.  
-3. Licenc alkalmazása: Szerezzen licencet a[Aspose vásárlási oldal](https://purchase.aspose.com/buy)vagy használja a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/)értékelési célokra.  
-4. Névtér hozzáadása: Add the`Aspose.Words`névtér az Ön kódjában:  
+1. Letöltsd le a Könyvtárat: Letöltsd le az Aspose.Words legújabb verzióját a .NET-hez a [hivatalos letöltőlap](https://releases.aspose.com/words/net/)\- Nem.  
+2. A NuGet segítségével telepítse:  
+   * Nyissa ki a projektét a Visual Studio-ban.  
+   * Menjen az eszközök > NuGet csomagkezelő > A megoldáshoz szükséges NuGet csomagok kezelése.  
+   * Keresd a`Aspose.Words`és kattintsa a telepítésre.  
+3. A licenchez való felkérés: A licenc a [Célszerű vásárlási oldal](https://purchase.aspose.com/buy)vagy használjon egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/)értékelés céljából.  
+4. Adjon be névterületet: Adjon be a `Aspose.Words`névterület a kódjában:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    using System.Drawing;
    ```  
 
-## Lásd még
-[Aspose.Word for .NET dokumentáció](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referenciák](https://reference.aspose.com/words/net/)
+## Lásd:
+[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

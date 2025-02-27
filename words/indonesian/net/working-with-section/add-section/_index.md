@@ -1,8 +1,8 @@
 ---
-title: Tambahkan Seksi Baru ke Word Document aspose.Words untuk .NET
+title: Tambahkan Bagian Baru ke Word Document Aspose.Words untuk .NET
 weight: 7700
 limit: 
-description: Pelajari bagaimana menambahkan bagian baru ke dokumen Word menggunakan Aspose.Words untuk .NET. Step-by-step guide dengan contoh kode untuk mengarahkan tugas otomatisisasi Word Anda.
+description: Pelajari cara menambahkan bagian baru ke dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah dengan contoh kode untuk merampingkan tugas otomatisasi Word Anda.
 keywords: [Aspose.Words for .NET, add section to Word document, .NET Word automation, create new section, Word document manipulation, Aspose.Words tutorial, .NET examples]
 url: /id/net/working-with-section/add-section/
 ---
@@ -10,40 +10,40 @@ url: /id/net/working-with-section/add-section/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tambahkan Seksi Baru ke Dokumen Word
+# Tambahkan Bagian Baru ke Dokumen Word
 
-Sebagaipose.Words untuk .NET membuat bekerja dengan dokumen Word tanpa upaya dengan menyediakan API yang kuat untuk menangani struktur dokumen yang kompleks. Tutorial ini berjalan Anda melalui menambahkan bagian baru ke Word dokumen programmatik. Menggunakan`Dokumen`dan`Pembangun Dokumen`Kelas, Anda akan belajar untuk menginisialisasi dokumen, menambahkan teks, dan menambahkan bagian baru.  
+Aspose.Words untuk .NET membuat bekerja dengan dokumen Word mudah dengan menyediakan API yang kuat untuk menangani struktur dokumen yang kompleks. Tutorial ini akan membantu Anda menambahkan bagian baru ke dokumen Word secara programatik.`Dokumen`dan`DocumentBuilder`kelas, Anda akan belajar untuk menginisialisasikan dokumen, menambahkan teks, dan menambahkan bagian baru. Sampurna untuk pengembang yang ingin mengotomatiskan pembuatan dokumen Word dan manipulasi dengan presisi.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-section/add-section" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Instruksi Instal untuk Aspose.Words untuk .NET  
+## Instruksi instalasi untuk Aspose.Words untuk .NET  
 
-1. Unduh aspose.Words untuk .NET:  
-   Kunjungi[Sebagaipose.Words untuk halaman unduh .NET](https://releases.aspose.com/words/net/)untuk mendapatkan versi terbaru.
+1. Unduh Aspose.Words untuk .NET:  
+   Kunjungi [Aspose.Words untuk halaman download .NET](https://releases.aspose.com/words/net/)Untuk mendapatkan versi terbaru.
 
-2. Pasang via NuGet:  
-   * Buka proyek Studio Visual Anda.  
-   * Navigasi ke Perkakas > Manajer Paket NuGet > Kelola Paket NuGet untuk Solusi.  
-   * Cari`Sebagaipose.Words`di NuGet Package Manager.  
+2. Instal melalui NuGet:  
+   * Buka proyek Visual Studio Anda.  
+   * Pindah ke Alat > NuGet Package Manager > Manage NuGet Packages for Solution.  
+   * Carilah`"Aspose. Kata-kata"`di NuGet Package Manager.  
    * Pilih paket dan klik Install.  
 
-3. Tambahkan Referensi Secara Manual (Opsional):  
-   * Unduh DLL dari[aspose rilis halaman](https://releases.aspose.com/).  
-   * Tambahkan`Sebagaipose.Words.dll`file ke projek Anda dengan klik kanan pada Referensi di Solusi Explorer dan memilih Add Reference.  
+3. Tambahkan Referensi Secara Manual (Pilih):  
+   * Unduh DLL dari [Aspose releases halaman](https://releases.aspose.com/)Aku tidak tahu.  
+   * Tambahkan `"Aspose. Words".`file ke proyek Anda dengan mengklik kanan Referensi di Solution Explorer dan memilih Tambahkan Referensi.  
 
-4. Aktifkan Lisensi (Opsional):  
-   Jika Anda memiliki lisensi, menerapkannya untuk membuka fungsionalitas penuh:  
+4. Aktifkan Lisensi (Pilih):  
+   Jika Anda memiliki lisensi, gunakan untuk membuka fungsi penuh:  
    ```csharp
    Aspose.Words.License license = new Aspose.Words.License();
    license.SetLicense("path_to_your_license.lic");
    ```  
 
-## Juga Lihat
-[aspose.Word untuk .NET Dokumentasi](https://docs.aspose.com/words/net/)
-[aspose.Word untuk referensi .NET](https://reference.aspose.com/words/net/)
+## Lihat juga
+[Aspose.Word untuk Dokumen .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word untuk Referensi .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,15 +1,15 @@
 //ExStart
-//ExSummary: Αυτός ο κώδικας δείχνει πώς να εφαρμόσει τα σύνορα και σκίαση σε μια παράγραφο σε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words.
-//ExStepSummary:0: Ο ακόλουθος κώδικας εγκαινιάζει μια νέα περίπτωση Document and DocumentBuilder.
-//ExStepSummary:1: Ο ακόλουθος κώδικας διαμορφώνει τα σύνορα της παραγράφου με απόσταση από το κείμενο.
-//ExStepSummary:2: Ο ακόλουθος κωδικός εφαρμόζει διαγώνιο σκίαση της υφής στην παράγραφο με συγκεκριμένα χρώματα.
-//ExStepSummary:3: Ο ακόλουθος κώδικας γράφει μια σχηματοποιημένη παράγραφο με τις εφαρμοζόμενες ρυθμίσεις.
-//ExStepSummary:4: Ο ακόλουθος κώδικας αποθηκεύει το έγγραφο στην καθορισμένη διαδρομή εξόδου.
+//ExSummary: Ο κωδικός αυτός δείχνει πώς εφαρμόζονται τα όρια και η σκιά σε μια παράγραφο σε ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words.
+//ExStepSummary:0: Ο ακόλουθος κωδικός αρχίζει μια νέα περίπτωση Documents και DocumentBuilder.
+//ExStepSummary:1: Ο ακόλουθος κωδικός ρυθμίζει τα σύνορα της παραγράφου με απόσταση από το κείμενο.
+//ExStepSummary:2: Ο ακόλουθος κωδικός εφαρμόζει διαγώνια διασταυρωμένη αποχρωματική διασταυρωτική υφή στην παράγραφο με καθορισμένα χρώματα.
+//ExStepSummary:3: Ο ακόλουθος κώδικας γράφει μια παραγράφου με τη μορφή με τις εφαρμοζόμενες ρυθμίσεις.
+//ExStepSummary:4: Ο ακόλουθος κωδικός αποθηκεύει το έγγραφο στην καθορισμένη διαδρομή εξόδου.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Αρχικοποίηση ενός νέου εγγράφου
+// Αρχική ένα νέο έγγραφο
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -23,17 +23,17 @@ borders[BorderType.Top].LineStyle = LineStyle.Double;
 borders[BorderType.Bottom].LineStyle = LineStyle.Double;
 
 //ExStep:2-
-// Πρόσβαση στις ιδιότητες σκίασης παραγράφου
+// Πρόσβαση στις ιδιότητες αποχρωματισμού παραγράφου
 Shading shading = builder.ParagraphFormat.Shading;
 shading.Texture = TextureIndex.TextureDiagonalCross;
 shading.BackgroundPatternColor = System.Drawing.Color.LightCoral; 
 shading.ForegroundPatternColor = System.Drawing.Color.LightSalmon;
 
 //ExStep:3-
-// Γράψτε το μορφοποιημένο περιεχόμενο παραγράφου
+// Γράψτε το περιεχόμενο της παραγράφου που έχει μορφοποιηθεί
 builder.Write("I'm a formatted paragraph with double border and nice shading.");
 
 //ExStep:4-
-// Αποθήκευση του εγγράφου στην καθορισμένη διαδρομή
+// Κράτησε το έγγραφο στην καθορισμένη διαδρομή
 doc.Save(ArtifactsDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
 //ExEnd

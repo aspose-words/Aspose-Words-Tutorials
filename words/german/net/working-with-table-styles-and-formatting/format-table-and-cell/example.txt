@@ -1,12 +1,12 @@
 //ExStart
-//ExSummary:Dieser Code zeigt, wie man ein Word-Dokument mit einer Tabelle erstellt, die unterschiedliche Rand- und Schattierungsstile für seine Zellen hat.
-//ExStepSummary:0: Initialisieren Sie das Dokument und DocumentBuilder, um ein neues Word- Dokument zu erstellen.
-//ExStepSummary:1: Starten Sie einen neuen Tisch und legen Sie die Grenzen für den gesamten Tisch fest.
-//ExStepSummary:2: Fügen Sie die erste Zelle mit roten Hintergrund-Schatten und Text hinzu.
-//ExStepSummary:3: Fügen Sie die zweite Zelle mit grüner Hintergrund-Schattierung und Text hinzu.
-//ExStepSummary:4: Beenden Sie die erste Zeile und löschen Sie die vorherige Zellenformatierung.
+//ExSummaryDieser Code zeigt, wie man ein Word-Dokument mit einer Tabelle erstellt, die verschiedene Grenz- und Schattierungsstile für ihre Zellen hat.
+//ExStepSummary:0: Initialisieren Sie das Dokument und den Dokumentersteller, um ein neues Word- Dokument zu erstellen.
+//ExStepSummary:1: Beginnen Sie einen neuen Tisch und legen Sie die Grenzen für den ganzen Tisch fest.
+//ExStepSummary:2: Fügen Sie die erste Zelle mit rotem Hintergrund und Text hinzu.
+//ExStepSummary:3: Fügen Sie die zweite Zelle mit grünem Hintergrund und Text hinzu.
+//ExStepSummary:4: Beenden Sie die erste Zeile und löschen Sie die vorherige Zellformatierung.
 //ExStepSummary:5: Fügen Sie eine neue Zeile mit benutzerdefinierten größeren Grenzen für die erste Zelle hinzu.
-//ExStepSummary:6: Fügen Sie die zweite Zelle der neuen Zeile mit Standardformatierung und Text hinzu.
+//ExStepSummary:6: Fügen Sie die zweite Zelle der neuen Zeile mit Standardformatting und Text hinzu.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -20,40 +20,40 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Starten Sie einen neuen Tisch.
+// Beginnen Sie einen neuen Tisch.
 Table table = builder.StartTable();
-// Legen Sie die erste Zelle in die Tabelle ein.
+// Fügen Sie die erste Zelle in den Tisch ein.
 builder.InsertCell();
-// Stellen Sie die Grenzen für den gesamten Tisch.
+// Setzen Sie die Grenzen für den ganzen Tisch.
 table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
 
 //ExStep:2-
 // Setzen Sie die Hintergrundfarbe der Zelle auf rot.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
 builder.Writeln("Cell #1");
-// Legen Sie die zweite Zelle ein.
+// Fügen Sie die zweite Zelle ein.
 builder.InsertCell();
 
 //ExStep:3-
 // Setzen Sie die Hintergrundfarbe der Zelle auf grün.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
 builder.Writeln("Cell #2");
-// Beenden Sie die aktuelle Zeile.
+// Beenden Sie die aktuelle Reihe.
 builder.EndRow();
 
 //ExStep:4-
-// Löschen Sie jede Zelle Formatierung, um neu zu starten.
+// Entfernen Sie die Formatierung, um neu zu beginnen.
 builder.CellFormat.ClearFormatting();
-// Fügen Sie eine neue Zelle in der nächsten Zeile ein.
+// Fügen Sie eine neue Zelle in die nächste Reihe ein.
 builder.InsertCell();
-// Erstellen Sie größere Ränder für die erste Zelle dieser Zeile.
+// Erstellen Sie größere Grenzen für die erste Zelle dieser Zeile.
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;
 builder.CellFormat.Borders.Top.LineWidth = 4.0;
 builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
 builder.Writeln("Cell #3");
 //ExStep:5-
-// Legen Sie die vierte Zelle ein.
+// Fügen Sie die vierte Zelle ein.
 builder.InsertCell();
 builder.CellFormat.ClearFormatting();
 builder.Writeln("Cell #4");

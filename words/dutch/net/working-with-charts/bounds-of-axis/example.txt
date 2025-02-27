@@ -1,40 +1,40 @@
 //ExStart
-//ExSummary: Deze code laat zien hoe je een document maakt met een grafiek met behulp van Aspose.Words, stel de grenzen voor de Y-as in en sla het document op als een DOCX-bestand. 
-// Elke stap wordt afgebroken om een duidelijk begrip te bieden van het proces dat betrokken is bij het werken met grafieken in Aspose.Words.
-//ExStepSummary:0: Initialiseer een nieuw document en een DocumentBuilder instantie. 
-//ExStepSummary:1: Plaats een grafiek in het document en haal het grafiekobject op. 
-//ExStepSummary:2: Voeg een nieuwe serie toe aan de grafiek met gespecificeerde categorieën en waarden. 
-//ExStepSummary:3: Stel de minimum- en maximumgrenzen in voor de Y-as van de kaart. 
-//ExStepSummary:4: Het document opslaan in het opgegeven pad. 
+//ExSummaryDeze code toont aan hoe een document met een grafiek met behulp van Aspose.Words wordt gemaakt, de grenzen voor de Y-as worden ingesteld en het document als DOCX-bestand wordt opgeslagen. 
+// Elke stap wordt uiteengezet om een duidelijk begrip te geven van het proces dat wordt betrokken bij het werken met grafieken in Aspose.Words.
+//ExStepSummary:0: Initieel een nieuw document en een DocumentBuilder-instance. 
+//ExStepSummary:1: Voeg een grafiek in het document en haal het grafiekobject terug. 
+//ExStepSummary:2: Voeg een nieuwe reeks toe aan de grafiek met gespecificeerde categorieën en waarden. 
+//ExStepSummary:3: Stel de minimale en maximale grenzen voor de Y-as van de grafiek. 
+//ExStepSummary:4: Bewaar het document op het gespecificeerde pad. 
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Een nieuwe document-initiatie aanmaken.
+// Maak een nieuwe Document-instance.
 Document doc = new Document();
-// Initialiseer DocumentBuilder om het document te bouwen.
+// Initieel DocumentBuilder om het document te bouwen.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Voeg een kolomdiagram in het document.
+// Voeg een kolomgrafiek in het document in.
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
-// Haal het grafiekobject uit de vorm.
+// Haal het grafiek object terug van de vorm.
 Chart chart = shape.Chart;
-// Verwijder alle bestaande reeksen uit de grafiek voor nieuwe gegevens.
+// Alle bestaande series uit de grafiek verwijderen voor nieuwe gegevens.
 chart.Series.Clear();
 
 //ExStep:2-
-// Definieer een nieuwe serie met de naam "Aspose Series 1."
+// Definieer een nieuwe serie met de naam "Aspose Series 1".
 chart.Series.Add("Aspose Series 1",
     new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
     new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
 
 //ExStep:3-
-// Stel de minimumgrens van de Y-as in.
+// Stel de minimale grens van de Y-as.
 chart.AxisY.Scaling.Minimum = new AxisBound(0);
 chart.AxisY.Scaling.Maximum = new AxisBound(6);
 
 //ExStep:4-
-// Sla het document met de grafiek op naar het opgegeven pad.
+// Bewaar het document met de grafiek op het gespecificeerde pad.
 doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
 //ExEnd

@@ -1,9 +1,9 @@
 //ExStart
-//ExSummary: Kode ini menunjukkan bagaimana memasukkan gambar ke dalam header dokumen Word menggunakan Aspose.Words untuk .NET.
+//ExSummary: Kode ini menunjukkan cara memasukkan gambar ke header dokumen Word menggunakan Aspose.Words untuk .NET.
 //ExStepSummary:0: Buat dokumen Word baru menggunakan kelas Dokumen Aspose.Words.
-//ExStepSummary:1: Pindah ke tajuk utama dokumen menggunakan DokumenBuilder.
-//ExStepSummary:2: Masukkan suatu gambar ke dalam header dengan pilihan penyelarasan, dimensi, dan pembungkus yang spesifik.
-//ExStepSummary:3: Simpan dokumen ke lokasi berkas yang dinyatakan.
+//ExStepSummary:1: Pindah ke header utama dokumen menggunakan DocumentBuilder.
+//ExStepSummary:2: Masukkan gambar ke header dengan penyesuaian, dimensi, dan pilihan bungkus tertentu.
+//ExStepSummary:3: Simpan dokumen ke jalur file yang ditentukan.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
@@ -12,11 +12,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Pindahkan kursor ke tajuk utama dokumen
+// Pindahkan kursor ke header utama dokumen
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
 //ExStep:2-
-// Sisipkan gambar ke header dengan alignmen dan dimensi spesifik
+// Masukkan gambar ke header dengan penyelarasan dan dimensi tertentu
 builder.InsertImage(
     ImagesDir + "Logo.jpg", RelativeHorizontalPosition.RightMargin, 10,
     RelativeVerticalPosition.Page, 10, 50, 50, 
@@ -24,6 +24,6 @@ builder.InsertImage(
 );
 
 //ExStep:3-
-// Menyimpan dokumen pada lokasi yang ditentukan
+// Simpan dokumen ke jalur yang ditentukan
 doc.Save("WorkingWithHeadersAndFooters.InsertImage.docx");
 //ExEnd

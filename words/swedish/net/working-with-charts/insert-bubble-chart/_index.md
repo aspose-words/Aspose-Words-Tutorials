@@ -1,8 +1,8 @@
 ---
-title: Infoga ett bubbla diagram i Word Använda Aspose.Words för .NET
+title: Lägg in en bubbeldiagram i Word med hjälp av Aspose.Words för .NET
 weight: 7700
 limit: 
-description: Lär dig hur man infogar ett Bubble diagram i ett Word-dokument med hjälp av Aspose.Words för .NET. Steg-för-steg instruktioner och kodexempel ingår.
+description: Lär dig hur man lägger in en Bubble-diagram i ett Word-dokument med hjälp av Aspose.Words för .NET. Steg för steg instruktioner och kod exempel ingår.
 keywords: [Aspose.Words for .NET, insert Bubble chart, Word document, .NET Bubble chart example, create Bubble chart Word]
 url: /sv/net/working-with-charts/insert-bubble-chart/
 ---
@@ -10,38 +10,38 @@ url: /sv/net/working-with-charts/insert-bubble-chart/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Infoga ett bubbla diagram i ord med hjälp av aspose.Words
+# Lägg in ett bubbeldiagram i Word med hjälp av Aspose.Words
 
-Lägg enkelt till ett Bubble diagram till ditt Word-dokument med hjälp av Aspose.Words for .NET! Denna guide guidar dig genom att skapa ett nytt dokument, infoga ett Bubble diagram, lägga till dataserie med X, Y, och storleksvärden, och spara dokumentet. Med Aspose.Words, hantera Word-dokument programmatiskt har aldrig varit enklare.  
+Lätt lägga till ett Bubble-diagram till ditt Word-dokument med hjälp av Aspose.Words för .NET! Denna guide går dig igenom att skapa ett nytt dokument, sätta in ett Bubble-diagram, lägga till dataskärmar med X, Y och storlekvärden och spara dokumentet. Med Aspose.Words har hanteringen av Word-dokument programmatiskt aldrig varit lättare.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-bubble-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Monteringsanvisningar  
+## Installationsinstruktioner  
 
 1. Ladda ner Aspose.Words för .NET  
-   Hämta biblioteket från[Antag.Words nedladdningssida](https://releases.aspose.com/words/net/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+   Ta biblioteket från [Aspose.Words nedladdningssida](https://releases.aspose.com/words/net/)\- Jag är inte rädd.  
 
-2. Installera via NuGet Package Manager  
+2. Installa via NuGet Package Manager  
    * Öppna ditt Visual Studio-projekt.  
-   * Navigera till verktyg > NuGet Package Manager > Hantera NuGet-paket för lösning.  
-   * Sök efter`- Jag antar det.`under fliken Bläddra.  
-   * Välj paketet och klicka på Installera.  
+   * Navigera till Verktyg > NuGet Pakethanterare > Hantera NuGet Paket för lösning.  
+   * Sök efter`"Svar. Ord"`i fliken "Browse".  
+   * Välj paketet och klicka på Installa.  
 
-3. Installera via NuGet pakethanteringskonsolen  
-   Kör följande kommando i pakethanterarens konsol:  
+3. Installa via NuGet Package Manager Console  
+   Rör följande kommandon i paketetjänstkonsolen:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
 4. Lägg till licens  
-   För full funktionalitet, ansöka en licens. Du kan få en tillfällig licens från[Ange tillfällig licenssida](https://purchase.aspose.com/temporary- license/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+   För full funktionssätt kan du ansöka om en licens.[Tillfällig licens](https://purchase.aspose.com/temporary-license/)\- Jag är inte rädd.  
 
-## Se också
-[Antag.Ord för .NET-dokumentation](https://docs.aspose.com/words/net/)
-[Antaget.Ord för .NET-referenser](https://reference.aspose.com/words/net/)
+## Se även
+[Aspose.Word för .NET-dokumentation](https://docs.aspose.com/words/net/)
+[Aspose.Word för .NET Referenser](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

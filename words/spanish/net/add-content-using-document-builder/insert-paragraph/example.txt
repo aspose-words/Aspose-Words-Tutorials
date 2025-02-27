@@ -1,41 +1,41 @@
 //ExStart
-//ExSummary: Este código muestra cómo crear un documento de Word con la clase DocumentBuilder e insertar un párrafo con estilo en él.
+//ExSummary: Este código muestra cómo crear un documento de Word utilizando la clase DocumentBuilder e insertar un párrafo con estilo en él.
 //ExStepSummary:0: El siguiente código inicializa un documento y un DocumentBuilder para la creación de documentos.
-//ExStepSummary:1: El siguiente código configura la configuración de fuente para el párrafo.
-//ExStepSummary:2: El siguiente código establece los ajustes de formato de párrafo para alineación y sangría.
+//ExStepSummary:1: El siguiente código configura las configuraciones de fuente para el párrafo.
+//ExStepSummary:2: El siguiente código establece las configuraciones del formato de párrafo para la alineación y la incisión.
 //ExStepSummary:3: El siguiente código escribe un párrafo en el documento.
 //ExStepSummary:4: El siguiente código guarda el documento como un archivo .docx.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Inicializar un nuevo objeto Document
+// Iniciar un nuevo objeto de documento
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Acceda a la configuración de fuentes de DocumentBuilder
+// Accede a las configuraciones de fuente del DocumentBuilder
 Font font = builder.Font;
-// Ajuste el tamaño de la fuente a 16
+// Establezca el tamaño de la fuente a 16
 font.Size = 16;
-// Haz que la fuente sea negrita
+// Haga que la fuente sea en negrita
 font.Bold = true;
-// Establezca el color de la fuente en azul
+// Ajuste el color de la fuente a azul
 font.Color = Color.Blue;
 // Establezca el nombre de la fuente en Arial
 font.Name = "Arial";
-// Agregar un subrayado discontinuo a la fuente
+// Añadir un subtítulo con puntos a la fuente
 font.Underline = Underline.Dash;
 
 //ExStep:2-
-// Acceder a la configuración de formato de párrafo
+// Accede a la configuración de formato de párrafo
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.FirstLineIndent = 8;
 paragraphFormat.Alignment = ParagraphAlignment.Justify;
 paragraphFormat.KeepTogether = true;
 
 //ExStep:3-
-// Escribir un párrafo de texto en el documento
+// Escriba un párrafo de texto en el documento
 builder.Writeln("A whole paragraph.");
 
 //ExStep:4-

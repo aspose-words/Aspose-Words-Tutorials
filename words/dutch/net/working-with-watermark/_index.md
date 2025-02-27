@@ -2,7 +2,7 @@
 title: Werken met Watermark in Aspose.Words voor .NET
 weight: 10
 limit:
-description: Leer hoe watermerken toe te voegen, te verwijderen en te beheren in Word- documenten met Aspose.Words voor .NET. Vereenvoudig watermerken taken met stap-voor-stap begeleiding.
+description: Leer hoe je watermerken in Word-documenten kunt toevoegen, verwijderen en beheren met Aspose.Words voor .NET. Vergemakkelijk watermarking taken met stapsgewijze begeleiding.
 keywords:
 url: /nl/net/working-with-watermark/
 ---
@@ -12,11 +12,11 @@ url: /nl/net/working-with-watermark/
 
 ## Inleiding
  
-Watermerken zijn een fantastische manier om branding, vertrouwelijkheid markeringen of visuele aantrekkingskracht toe te voegen aan uw Word- documenten. Met Aspose.Words voor .NET wordt werken met watermerken ongelooflijk eenvoudig en efficiënt. Of u nu een tekst watermerk wilt toevoegen, zoals "Vertrouwelijk," of een afbeelding watermerk voor een professionele look invoegen, deze uitgebreide bibliotheek biedt robuuste functionaliteit om aan uw behoeften te voldoen. U kunt eenvoudig de positie, grootte, kleur en transparantie van watermerken aanpassen aan de eisen van uw document.  
+Watermerken zijn een fantastische manier om branding, vertrouwelijkheid of visuele aantrekkingskracht aan uw Word documenten toe te voegen. Met Aspose.Words voor .NET wordt het werken met watermerken ongelooflijk eenvoudig en efficiënt. Of u nu een tekstwatermerk wilt toevoegen, zoals "Confidentieel", of een beeldwatermerk wilt inslaan voor een professionele uitstraling, deze uitgebreide bibliotheek biedt robuuste functionaliteit om aan uw behoeften te voldoen.  
 
-Naast het toevoegen van watermerken, Aspose.Words voor .NET kunt u ze effectief beheren. U kunt bestaande watermerken verwijderen, hun eigenschappen bijwerken, of ze aanpassen aan specifieke pagina's in uw document. Met gedetailleerde voorbeelden en stap-voor-stap begeleiding, deze functie-rijke toolkit zorgt ervoor dat watermerken wordt een probleemloos proces. Transformeer uw document workflow met Aspose.Words en neem de controle over uw watermerken moeiteloos.
+Naast het toevoegen van watermerken, kan je de watermerken effectief beheren. Je kunt bestaande watermerken verwijderen, hun eigenschappen bijwerken of aanpassen aan specifieke pagina's in je document. Met gedetailleerde voorbeelden en stappen-voor-stappen-gids zorgt deze feature-rijke toolkit ervoor dat watermarking een probleemloos proces wordt. Verander je documentworkflow met Aspose.Words en neem gemakkelijk controle over je watermerken.
 
-{{< tutorial-card link="./add-text-watermark/" title="Tekst Watermerk toevoegen in Word-document met behulp van Aspose.Words voor .NET" imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
+{{< tutorial-card link="./add-text-watermark/" title="Voeg tekst watermerk toe in Word-document met behulp van Aspose.Words voor .NET" imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

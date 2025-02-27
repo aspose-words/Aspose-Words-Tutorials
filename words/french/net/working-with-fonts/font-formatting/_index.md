@@ -1,8 +1,8 @@
 ---
-title: Créer le formatage des polices en Word en utilisant Aspose.Words pour .NET
+title: Créer un formatage de police dans Word à l'aide d' Aspose.Words pour .NET
 weight: 7700
 limit: 
-description: Apprenez comment créer un document Word avec formatage de police personnalisé dans .NET en utilisant Aspose.Words. Exemple simple étape par étape inclus.
+description: Apprenez à créer un document Word avec un formatage de police personnalisé dans .NET en utilisant Aspose.Words.
 keywords: [Aspose.Words, .NET, Word document, font formatting, programming example, DocumentBuilder, font properties]
 url: /fr/net/working-with-fonts/font-formatting/
 ---
@@ -10,9 +10,9 @@ url: /fr/net/working-with-fonts/font-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Créer le formatage des polices en Word en utilisant Aspose.Words
+# Créer un formatage de police dans Word à l'aide de Aspose.Words
 
-Ce guide fournit un exemple simple de création et de formatage d'un document Word en utilisant Aspose.Words pour .NET. Vous apprendrez à personnaliser les propriétés de police telles que la taille, le style et la couleur, puis à écrire du texte dans le document. Instructions étape par étape rendent facile pour les débutants et les développeurs expérimentés d'intégrer Aspose.Words dans leurs applications.
+Ce guide fournit un exemple simple de création et de formatage d'un document Word à l'aide d'Aspose.Words pour .NET. Vous apprendrez à personnaliser les propriétés de police telles que la taille, le style et la couleur, puis à écrire du texte dans le document. Les instructions étape par étape facilitent l'intégration de Aspose.Words dans leurs applications.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-fonts/font-formatting" >}}
@@ -20,19 +20,19 @@ Ce guide fournit un exemple simple de création et de formatage d'un document Wo
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instructions d'installation 
-1. Prérequis : Assurez-vous que le .NET est installé sur votre machine.
-2. Installez Pose.Words: 
-   * Utilisez NuGet Package Manager dans Visual Studio :
+1. Pré-requis: Assurez-vous d'avoir .NET installé sur votre machine.
+2. Installez Aspose.Words: 
+   * Utilisez le gestionnaire de paquets NuGet dans Visual Studio:
      ```
      Install-Package Aspose.Words
      ```
-   * Ou téléchargez la DLL directement à partir de la[Poser un site Web](https://www.aspose.com)C'est vrai.
-3. Appliquer une licence (facultative) :  
-   Pour utiliser la version complète,[appliquer une licence](https://purchase.aspose.com/temporary-license/)ou d'utiliser[essai gratuit](https://releases.aspose.com/words/net/)C'est vrai.  
+   * Ou télécharger le DLL directement à partir de [Site web à viser](https://www.aspose.com)\- Je suis désolé .
+3. Pour les personnes ayant une licence de licence (optionnelle):  
+   Pour utiliser la version complète,[appliquer une licence](https://purchase.aspose.com/temporary-license/)ou utiliser un[épreuve gratuite](https://releases.aspose.com/words/net/)\- Je suis désolé .  
 
 ## Voir aussi
-[Pose.Word pour .NET Documentation](https://docs.aspose.com/words/net/)
-[Pose.Word pour .NET Références](https://reference.aspose.com/words/net/)
+[Aspose.Word pour la documentation .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word pour les références .NET](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

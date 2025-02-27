@@ -1,8 +1,8 @@
 ---
-title: Εισάγετε μια εικόνα στο Word Document Header □ Aspose.Words για .NET
+title: Εισαγωγή εικόνας στο αρχείο εγγράφων Word.
 weight: 7700
 limit: 
-description: Μάθετε πώς να εισάγετε μια εικόνα στην κεφαλίδα ενός εγγράφου Word χρησιμοποιώντας Aspose.Words για .NET. Step-by-step οδηγός με κωδικό δείγματος και οδηγίες εγκατάστασης.
+description: Μάθετε πώς να εισαγάγετε μια εικόνα στην κεφαλίδα ενός εγγράφου Word χρησιμοποιώντας το Aspose.Words για το .NET. Σχετικό οδηγό βήμα-βήμα με δείγμα κώδικα και οδηγίες εγκατάστασης.
 keywords: [Aspose.Words for .NET, insert image in header, Word document, .NET library, Word automation, header customization, document processing, C# example]
 url: /el/net/working-with-headers-and-footers/insert-image/
 ---
@@ -10,43 +10,43 @@ url: /el/net/working-with-headers-and-footers/insert-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Εισάγετε μια εικόνα στην κεφαλίδα του εγγράφου Word
+# Εισαγωγή εικόνας στο αρχείο εγγράφων Word
 
-Το Aspose.Words για .NET απλοποιεί την επεξεργασία εγγράφων Word, επιτρέποντας στους προγραμματιστές να αυτοματοποιούν εργασίες όπως η εισαγωγή εικόνων σε κεφαλίδες. Αυτό το φροντιστήριο αποδεικνύει πώς να χρησιμοποιήσετε τις τάξεις Document and DocumentBuilder για να προσθέσετε μια εικόνα με ακριβή ευθυγράμμιση, διαστάσεις και επιλογές περιτυλίγματος στην κύρια κεφαλίδα ενός εγγράφου Word. Η διαδικασία είναι απλή, καθιστώντας ιδανική για προγραμματιστές με στόχο την ενίσχυση των προτύπων εγγράφων δυναμικά. Με λεπτομερή βήματα και κωδικό δείγματος, θα είστε σε θέση να ενσωματώσετε αυτή τη λειτουργικότητα σε .NET εφαρμογές σας χωρίς κόπο.  
+Το Aspose.Words για το .NET απλοποιεί την επεξεργασία εγγράφων Word επιτρέποντας στους προγραμματιστές να αυτοματοποιούν εργασίες όπως η εισαγωγή εικόνων σε αρχεία. Αυτό το εγχειρίδιο δείχνει πώς να χρησιμοποιήσετε τις κατηγορίες Document και DocumentBuilder για να προσθέσετε μια εικόνα με ακριβή ευθυγράμμιση, διαστάσεις και επιλογές τυλίξης στην κύρια αρχεία ενός εγγράφου Word. Η διαδικασία είναι απλή, καθιστώντας την ιδανική για τους προγραμματιστές που στοχεύουν στην δυναμική βελτίωση των προτύπων εγγράφων. Με λεπτομερή βήματα και δείγμα κώδικα, θα μπορείτε να ενσωματώσετε αυτή τη λειτουργία στις εφαρμογές .NET χωρίς προσπάθεια.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-headers-and-footers/insert-image" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Οδηγίες εγκατάστασης  
+## Διδασκαλίες εγκατάστασης  
 
-Για να ξεκινήσετε με Aspose.Words για .NET, ακολουθήστε αυτά τα απλά βήματα:  
+Για να ξεκινήσετε με το Aspose.Words για το .NET, ακολουθήστε αυτά τα απλά βήματα:  
 
-1. Κατεβάστε Aspose.Words  
-   * [Κατεβάστε την τελευταία έκδοση](https://releases.aspose.com/words/net/)του Aspose.Words for .NET.  
+1. Κατεβάστε "Αποθέστε.Παράξεις"  
+   * [Κατεβάστε την τελευταία έκδοση](https://releases.aspose.com/words/net/)Aspose.Words για το .NET.  
 
-2. Εγκαταστήστε το Aspose.Words μέσω NuGet  
-   * Ανοίξτε την εργασία σας στο Visual Studio.  
-   * Πηγαίνετε στο μενού Εργαλεία και επιλέξτε NuGet Package Manager > Διαχείριση NuGet Πακέτων για Λύση.  
-   * Αναζήτηση`Άσσος. Λέξεις`στον διαχειριστή του πακέτου NuGet και να το εγκαταστήσετε.  
+2. Εγκατάσταση Aspose.Words μέσω NuGet  
+   * Ανοίξτε το έργο σας στο Visual Studio.  
+   * Πηγαίνετε στο μενού εργαλεία και επιλέξτε Διαχειριστή πακέτων NuGet > Διαχειρίστε τα πακέτα NuGet για Λύση.  
+   * Ψάξε για`"Αποκοινώνεστε.`στο διαχειριστή πακέτων NuGet και να το εγκαταστήσετε.  
 
-   Ή, χρησιμοποιήστε την κονσόλα Package Manager:  
+   Ή, χρησιμοποιήστε την κονσόλα διαχειριστή πακέτων:  
    ```shell
    Install-Package Aspose.Words
    ```  
 
-3. Εφαρμογή της Άδειας  
-   * Φέρε ένα..[δωρεάν δοκιμαστική άδεια](https://releases.aspose.com/)ή[αγοράστε μια άδεια](https://purchase.aspose.com/buy).  
-   * Χρησιμοποιήστε τον παρακάτω κωδικό για να εφαρμόσετε την άδεια στο έργο σας:  
+3. Εφαρμόστε την άδεια  
+   * Πάρτε ένα .[άδεια δοκιμής δωρεάν](https://releases.aspose.com/)ή [αγοράζοντας άδεια](https://purchase.aspose.com/buy)\- Δεν ξέρω .  
+   * Χρησιμοποιήστε τον ακόλουθο κώδικα για να εφαρμόσετε την άδεια στο έργο σας:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```  
 
-## Επίσης, δείτε
-[Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
+## Δείτε επίσης
+[Aspose.Word για έγγραφο .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word για .NET References](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

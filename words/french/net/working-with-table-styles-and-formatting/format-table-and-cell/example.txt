@@ -1,12 +1,12 @@
 //ExStart
-//ExSummary:Ce code montre comment créer un document Word avec une table qui a des bordures et des styles d'ombrage différents pour ses cellules.
-//ExStepSummary:0: Initialiser le Document et DocumentBuilder pour créer un nouveau document Word.
-//ExStepSummary:1: Démarrez une nouvelle table et définissez les bordures pour toute la table.
-//ExStepSummary:2: Ajouter la première cellule avec le fond rouge et le texte.
-//ExStepSummary:3: Ajouter la deuxième cellule avec fond vert et le texte.
-//ExStepSummary:4: Terminer la première ligne et effacer le formatage cellulaire précédent.
-//ExStepSummary:5: Ajouter une nouvelle ligne avec des bordures plus grandes personnalisées pour la première cellule.
-//ExStepSummary:6: Ajouter la deuxième cellule de la nouvelle ligne avec formatage et texte par défaut.
+//ExSummary: Ce code montre comment créer un document Word avec une table qui a différents styles de bord et d'ombrage pour ses cellules.
+//ExStepSummary:0: Initialement le Document et le DocumentBuilder pour créer un nouveau document Word.
+//ExStepSummary:1: Commencez une nouvelle table et définissez les limites de l'ensemble de la table.
+//ExStepSummary:2: Ajoutez la première cellule avec l'ombre de fond rouge et le texte.
+//ExStepSummary:3: Ajoutez la deuxième cellule avec l'ombre de fond vert et le texte.
+//ExStepSummary:4: Finissez la première ligne et effacez la mise en forme de cellule précédente.
+//ExStepSummary:5: Ajoutez une nouvelle rangée avec des limites plus grandes personnalisées pour la première cellule.
+//ExStepSummary:6: Ajoutez la deuxième cellule de la nouvelle rangée avec formatage par défaut et texte.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -16,37 +16,37 @@
 //ExStep:0-
 // Créer un nouveau document.
 Document doc = new Document();
-// Créer un documentBuilder pour manipuler le document.
+// Créer un DocumentBuilder pour manipuler le document.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
 // Commencez une nouvelle table.
 Table table = builder.StartTable();
-// Insérez la première cellule dans le tableau.
+// Insérez la première cellule dans la table.
 builder.InsertCell();
-// Réglez les bordures pour toute la table.
+// Fixez les limites de la table.
 table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
 
 //ExStep:2-
-// Définissez la couleur de fond de la cellule en rouge.
+// Réglez la couleur de fond de la cellule à rouge.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
 builder.Writeln("Cell #1");
 // Insérez la deuxième cellule.
 builder.InsertCell();
 
 //ExStep:3-
-// Définissez la couleur de fond de la cellule en vert.
+// Réglez la couleur de fond de la cellule au vert.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
 builder.Writeln("Cell #2");
-// Fin de la ligne actuelle.
+// Cessez la ligne actuelle.
 builder.EndRow();
 
 //ExStep:4-
-// Effacer tout formatage cellulaire pour commencer à neuf.
+// Effacer toute mise en forme de cellule pour recommencer.
 builder.CellFormat.ClearFormatting();
-// Insérez une nouvelle cellule dans la rangée suivante.
+// Insérez une nouvelle cellule dans la ligne suivante.
 builder.InsertCell();
-// Créer des bordures plus grandes pour la première cellule de cette ligne.
+// Créez des limites plus grandes pour la première cellule de cette rangée.
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;
 builder.CellFormat.Borders.Top.LineWidth = 4.0;
@@ -58,6 +58,6 @@ builder.InsertCell();
 builder.CellFormat.ClearFormatting();
 builder.Writeln("Cell #4");
 //ExStep:6-
-// Enregistrez le document.
+// Gardez le document.
 doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
 //ExEnd

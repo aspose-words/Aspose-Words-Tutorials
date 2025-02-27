@@ -1,5 +1,5 @@
 ---
-title: Erstellen Sie Word-Dokument mit schwimmendem Bild in .NET
+title: Erstellen Sie ein Word-Dokument mit schwebendem Bild in .NET
 weight: 7700
 limit: 
 description: Erfahren Sie, wie Sie Aspose.Words für .NET verwenden, um ein Word-Dokument zu erstellen und ein schwebendes Bild einzufügen.
@@ -10,22 +10,22 @@ url: /de/net/add-content-using-document-builder/insert-floating-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word-Dokument mit schwimmendem Bild erstellen
+# Erstellen Sie ein Word-Dokument mit schwebendem Bild
 
-Dieses Beispiel zeigt, wie man ein Word-Dokument mit Aspose.Words für .NET erstellt und ein Bild mit einem schwebenden Layout einfügt.Der mitgelieferte Code initialisiert ein Dokument und einen DocumentBuilder, fügt ein Bild mit bestimmten Abmessungen und Positionierung ein und speichert das Dokument schließlich. Diese Anleitung ist ideal für Entwickler, die ihre Dokumentgenerierungsfunktionen mithilfe von Aspose.Words verbessern möchten.
+Dieses Beispiel zeigt, wie man ein Word-Dokument mit Aspose.Words für .NET erstellt und ein Bild mit einem schwimmenden Layout einfügt. Der angebotene Code initialisiert einen Document und DocumentBuilder, fügt ein Bild mit spezifizierten Abmessungen und Positionierung ein und speichert schließlich das Dokument. Dieser Leitfaden ist ideal für Entwickler, die ihre Dokumentengenerierungskapazitäten mit Aspose.Words verbessern möchten.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-floating-image" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Installationshinweise
-1. Installieren Sie Aspose.Words: Fügen Sie das Paket Aspose.Words NuGet zu Ihrem .NET Projekt hinzu. Sie können dies tun, indem Sie den folgenden Befehl in der Package Manager Console ausführen:
+## Installationsanweisungen
+1. Installieren Sie Aspose.Words: Fügen Sie das NuGet-Paket Aspose.Words zu Ihrem .NET-Projekt hinzu.
    ```
    Install-Package Aspose.Words
    ```
 
-2. Erforderliche Namespaces hinzufügen: Stellen Sie sicher, dass Ihre Codedatei die folgenden Namespaces enthält:
+2. Fügen Sie erforderliche Namenspaces hinzu: Stellen Sie sicher, dass Ihre Codedatei folgende Namenspaces enthält:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;

@@ -1,28 +1,28 @@
 //ExStart
-//ExSummary: Denna kod visar hur man infogar ett Bubble diagram i ett Word-dokument med Aspose.Words.
-//ExStepSummary:0: Följande kod initierar ett nytt dokument och DocumentBuilder.
-//ExStepSummary:1: Ett Bubble diagram skapas och läggs till dokumentet med hjälp av DocumentBuilder.
-//ExStepSummary:2: Dataserien för Bubble diagrammet läggs till med specifika X, Y, och storleksvärden.
-//ExStepSummary:3: Slutligen sparas dokumentet med det infogade Bubble diagrammet.
+//ExSummary: Denna kod visar hur man lägger in en Bubble-diagram i ett Word-dokument med hjälp av Aspose.Words.
+//ExStepSummary:0: Följande kod initialiserar ett nytt Dokument och DocumentBuilder.
+//ExStepSummary:1: Ett Bubble-diagram skapas och läggs till dokumentet med hjälp av DocumentBuilder.
+//ExStepSummary:2: Data-serien för bubbeldiagrammet läggs till med specifika X-, Y- och storlekvärden.
+//ExStepSummary:3: Slutligen sparas dokumentet med det inlagda bubbeldiagrammet.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Initialera ett nytt dokument och dokumentbyggare
+// Initializera ett nytt dokument och dokumentbuilder
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Infoga ett bubblar diagram i dokumentet
+// Lägg in en bubbel diagram i dokumentet
 Shape shape = builder.InsertChart(ChartType.Bubble, 432, 252);
 
 //ExStep:2-
-// Lägg till dataserie till Bubble- diagrammet
+// Lägg till dataskärmar i bubbeldiagrammet
 Chart chart = shape.Chart;
 chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, // X values
     new double[] { 2.7, 3.2, 0.8 }, // Y values
     new double[] { 10, 4, 8 }); // Size values for the bubbles
 
 //ExStep:3-
-// Spara dokumentet med Bubble diagrammet
+// Spara dokumentet med Bubble diagram
 doc.Save("WorkingWithCharts.InsertBubbleChart.docx");
 //ExEnd

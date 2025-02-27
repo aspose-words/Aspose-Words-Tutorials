@@ -1,8 +1,8 @@
 ---
-title: Criar documento Word com cabeçalho e rodapé usando Aspose.Words
+title: Crie um documento de Word com cabeçalho e rodapé usando Aspose.Words
 weight: 7700
 limit: 
-description: Aprenda a criar um documento do Word com um cabeçalho e rodapé primário usando o Aspose.Words for .NET. Guia passo a passo com código e explicações.
+description: Aprenda a criar um documento do Word com um cabeçalho e pé de página primários usando Aspose.Words para .NET. Guia passo a passo com código e explicações.
 keywords: [Aspose.Words for .NET, create Word document, add header in Word, add footer in Word, Word document header and footer, .NET Word processing, Aspose.Words examples]
 url: /pt/net/working-with-headers-and-footers/create-header-footer/
 ---
@@ -10,9 +10,9 @@ url: /pt/net/working-with-headers-and-footers/create-header-footer/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Criar documento Word com cabeçalho e rodapé usando Aspose.Words
+# Crie um documento de Word com cabeçalho e rodapé usando Aspose.Words
 
-Este exemplo demonstra como usar o Aspose.Words for .NET para criar um documento do Word com um cabeçalho e rodapé primário. O guia orienta você através da inicialização de um novo documento, movendo-se para as seções de cabeçalho e rodapé, adicionando texto personalizado e salvando o documento no formato DOCX. Com sua poderosa classe DocumentBuilder, o Aspose.Words torna a manipulação do documento do Word perfeita e eficiente. Se você está adicionando elementos de marca ou números de página, este exemplo fornece a base personalizada do Word.  
+Este exemplo demonstra como usar Aspose.Words para .NET para criar um documento Word com um cabeçalho e um rodapé primários. O guia o guia passa por inicializar um novo documento, passar para as seções cabeçalho e rodapé, adicionar texto personalizado e salvar o documento em formato DOCX. Com sua classe DocumentBuilder poderosa, Aspose.Words torna a manipulação de documentos Word fácil e e eficiente. Se você está adicionando elementos de marca ou números de página, este exemplo fornece a base para personalizar documentos Word programaticamente.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-headers-and-footers/create-header-footer" >}}
@@ -20,22 +20,22 @@ Este exemplo demonstra como usar o Aspose.Words for .NET para criar um documento
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instruções de instalação  
-1. Download Aspose.Words for .NET: Obtenha a última versão do[Página de releases da Aspose](https://releases.aspose.com/words/net/).  
-2. Instale Aspose.Words:  
-   * Use o Gerenciador de Pacotes NuGet:  
+1. Baixe Aspose.Words para .NET: Obtenha a versão mais recente do [Aspose libertações página](https://releases.aspose.com/words/net/)\- Não .  
+2. Instalar Aspose.Words:  
+   * Use o Gerente de Pacotes NuGet:  
      ```bash  
      Install-Package Aspose.Words  
      ```  
-   * Ou faça uma referência manual à DLL a partir do pacote baixado.  
-3. Licença (Opcional): Obter uma[Licença temporária](https://purchase.aspose.com/temporary-license/)ou uma licença completa de[Aspossar Compra](https://purchase.aspose.com/buy)e aplicá-lo em seu projeto:  
+   * Ou referir manualmente o DLL do pacote baixado.  
+3. Licença de Inscrição (opcional): Obter um[licença temporária](https://purchase.aspose.com/temporary-license/)ou uma licença completa de [Aspire a compra](https://purchase.aspose.com/buy)e aplicá-lo no seu projecto:  
    ```csharp  
    License license = new License();  
    license.SetLicense("Aspose.Words.lic");  
    ```    
 
-## Ver também
-[Aspose.Word for .NET Documentação](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referências](https://reference.aspose.com/words/net/)
+## Veja também
+[Aspose.Word para Documentação .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word para Referências .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

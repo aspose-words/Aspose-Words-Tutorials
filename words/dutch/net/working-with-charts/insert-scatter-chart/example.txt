@@ -1,28 +1,28 @@
 //ExStart
-//ExSummary:Deze code toont hoe je een Word-document met een scatter grafiek met behulp van Aspose.Words. Het initialiseert een document, bouwt inhoud, voegt een scatter grafiek, voegt gegevens toe aan het, en slaat het document.
-//ExStepSummary:0: Initialisatie van de objecten DocumentBuilder en DocumentBuilder om aan het document te beginnen.
-//ExStepSummary:1: Invoegen van een scatterdiagram in het document.
-//ExStepSummary:2: Het toevoegen van een reeks van gegevens punten aan de scatter grafiek.
-//ExStepSummary:3: Het document opslaan met de scatter grafiek naar een .docx bestand.
+//ExSummaryDeze code toont hoe een Word-document met een spreidingsdiagram te maken met behulp van Aspose.Words. Het initialiseert een document, bouwt content, voegt een spreidingsdiagram in, voegt gegevens eraan toe en slaat het document op.
+//ExStepSummary:0: Initiaalisatie van het document en DocumentBuilder objecteert om aan het document te beginnen.
+//ExStepSummary:1: Invoeging van een spreidingsdiagram in het document.
+//ExStepSummary:2: Een reeks gegevenspunten toevoegen aan de spreidingsgrafiek.
+//ExStepSummary:3: Het opslaan van het document met de spreidingsdiagram naar een .docx-bestand.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Een nieuw document initialiseren
+// Een nieuw document initiaaleren
 Document doc = new Document();
-// Een bouwer aanmaken om inhoud in te voegen
+// Creëer een constructeur om inhoud in te voegen
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Een scatterdiagram in het document invoegen
+// Voeg een spreidingsdiagram in het document in
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252); 
 
 //ExStep:2-
-// Het kaartobject uit de ingevoegde vorm halen
+// Haal het grafiek voorwerp van de ingebracht vorm
 Chart chart = shape.Chart;
-// Seriegegevens toevoegen aan de grafiek
+// Toevoegen van seriegegevens aan de grafiek
 chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 });
 
 //ExStep:3-
-// Het document opslaan met de scattergrafiek
+// Bewaar het document met het spreiddiagram
 doc.Save("WorkingWithCharts.InsertScatterChart.docx");
 //ExEnd

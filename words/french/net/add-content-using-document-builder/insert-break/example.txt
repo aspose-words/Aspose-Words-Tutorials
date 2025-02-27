@@ -1,8 +1,8 @@
 //ExStart
-//ExSummary: Ce code montre comment créer un document Word en utilisant Aspose.Words, ajouter du contenu sur plusieurs pages, et l'enregistrer sous forme de fichier .docx.
-//ExStepSummary:0: Cette étape initialise un nouveau Document et un DocumentBuilder pour manipuler le document.
+//ExSummaryCe code montre comment créer un document Word à l'aide de Aspose.Words, ajouter du contenu sur plusieurs pages et le sauvegarder sous forme de fichier .docx.
+//ExStepSummary:0: Cette étape initie un nouveau Document et un DocumentBuilder pour manipuler le document.
 //ExStepSummary:1: Cette étape ajoute du texte à la première page.
-//ExStepSummary:2: Cette étape insère une pause page pour démarrer une nouvelle page.
+//ExStepSummary:2: Cette étape insère une pause de page pour démarrer une nouvelle page.
 //ExStepSummary:3: Cette étape ajoute du texte à la deuxième page.
 //ExStepSummary:4: Cette étape insère une autre pause de page pour une nouvelle page.
 //ExStepSummary:5: Cette étape ajoute du texte à la troisième page.
@@ -13,7 +13,7 @@
 //ExStepImage:5:images/5.png
 
 //ExStep:0-
-// Créer une nouvelle instance Document
+// Créer une nouvelle instance de document
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -22,7 +22,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("This is page 1.");
 
 //ExStep:2-
-// Insérez une pause page pour démarrer une nouvelle page
+// Insérer une pause de page pour démarrer une nouvelle page
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:3-
@@ -30,7 +30,7 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("This is page 2.");
 
 //ExStep:4-
-// Insérer une autre pause page pour une nouvelle page
+// Insérer une autre pause de page pour une nouvelle page
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:5-

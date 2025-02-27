@@ -1,25 +1,25 @@
 //ExStart
-//ExSummary: يوضح هذا الرمز كيفية إنشاء مستند Word باستخدام Apose.Words ، وتطبيق نمط فقرة ، وحفظ المستند. يوضح كيفية تعيين نمط عنوان لفقرة وحفظ المستند بتنسيق .docx.
-//ExStepSummary:0: يقوم هذا القسم بتهيئة مثيل جديد لـ Document and DocumentBuilder.
-//ExStepSummary:1: يطبق هذا القسم نمط فقرة العنوان باستخدام DocumentBuilder.
-//ExStepSummary:2: هذا القسم يكتب "مرحبًا" على المستند.
-//ExStepSummary:3: يحفظ هذا القسم المستند إلى مسار ملف محدد.
+//ExSummary: هذا الرمز يظهر كيفية إنشاء مستند Word باستخدام Aspose.Words، وتطبيق نمط الفقرة، والإنقاذ من الوثيقة. يظهر كيفية تعيين نمط عنوان للفقرة والإنقاذ من الوثيقة في شكل .docx.
+//ExStepSummary:0: هذا القسم يبدأ مثال جديد للدليل ومدمج الوثائق.
+//ExStepSummary:1: يطبق هذا القسم نمط الفقرة عن عنوان باستخدام مُصمم الوثائق.
+//ExStepSummary:2: هذا القسم يكتب "مرحبا" للوثيقة.
+//ExStepSummary:3: هذا القسم يحفظ الوثيقة إلى مسار ملف محدد.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// تهيئة مثيل مستند جديد
+// إعداد مثال وثيقة جديدة
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// اضبط نمط الفقرة على العنوان
+// تعديل نمط الفقرة إلى عنوان
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Title;
 
 //ExStep:2-
-// اكتب "Hello" باستخدام منشئ ، وتطبيق النمط المحدد
+// اكتب "مرحبا" باستخدام المُبني، وتطبيق النمط المحدد
 builder.Write("Hello");
 
 //ExStep:3-
-// احفظ المستند في ملف .docx
+// حفظ الوثيقة في ملف .docx
 doc.Save("DocumentFormatting.ApplyParagraphStyle.docx");
 //ExEnd

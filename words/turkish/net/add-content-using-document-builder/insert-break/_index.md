@@ -1,8 +1,8 @@
 ---
-title: Aspose.Words ile Çok Sayfalı Kelime Belgesi Oluşturun
+title: Aspose.Words ile çok sayfalık bir Word Belgesi oluşturun
 weight: 7700
 limit: 
-description: Adım adım talimatlarla .NET için Aspose.Words kullanarak çok sayfalı bir Word belgesi oluşturmayı öğrenin.
+description: .NET için adım adım talimatlar ile Aspose.Words kullanarak çok sayfalık bir Word belgesini nasıl oluşturulacağını öğrenin.
 keywords: [Aspose.Words, .NET, Word document, DocumentBuilder, page break, create document, programming example]
 url: /tr/net/add-content-using-document-builder/insert-break/
 ---
@@ -10,25 +10,25 @@ url: /tr/net/add-content-using-document-builder/insert-break/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words ile Çok Sayfalı Kelime Belgesi Oluşturun
+# Aspose.Words ile çok sayfalık bir Word Belgesi oluşturun
 
-Bu örnek, Aspose.Words for .NET'i kullanarak bir Word belgesinin nasıl oluşturulacağını gösterir ve birden fazla sayfaya içerik eklemenizi sağlar. Yeni bir belgenin nasıl başlatılacağını, metin ve sayfa araları eklemek için DocumentBuilder'ı nasıl kullanacağınızı ve son olarak belgeyi bir .docx dosyası olarak kaydettiğinizi gösterir. .NET uygulamalarında belge üretimini otomatikleştirmek isteyen geliştiriciler için mükemmeldir.
+Bu örnek, .NET için Aspose.Words kullanarak bir Word belgesini nasıl oluşturulacağını gösterir. Bu, birden fazla sayfada içeriği eklemenizi sağlar. Yeni bir belgeyi nasıl başlatılacağını, metin ve sayfa kesimlerini eklemek için DocumentBuilder'i nasıl kullanacağını ve sonunda belgeyi .docx dosyası olarak kaydettiğini gösterir. .NET uygulamalarında belge üretimini otomatik hale getirmek isteyen geliştiriciler için mükemmel.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-break" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum Talimatları
-1. .NET için Aspose.Words'u yükleyin: Aspose.Words'u yüklemek için NuGet Paket Yöneticisi'ni kullanın. Paket Yöneticisi Konsolunda aşağıdaki komutu çalıştırın:
+## Kurulum talimatları
+1. .NET için Aspose.Words yükleyin: Aspose.Words yüklemek için NuGet Paket Yöneticisi kullanın. Paket Yöneticisi Konsolu'nda aşağıdaki komutu çalıştırın:
 ```
 Install-Package Aspose.Words
 ```
 
 
-## Ayrıca Bakınız
-[.NET Dokümantasyonu için Aspose.Word](https://docs.aspose.com/words/net/)
-[.NET Referansları için Aspose.Word](https://reference.aspose.com/words/net/)
+## Ayrıca bakın
+[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

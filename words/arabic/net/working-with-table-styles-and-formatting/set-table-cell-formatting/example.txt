@@ -1,38 +1,38 @@
 //ExStart
-//ExSummaryيوضح الرمز التالي كيفية إنشاء جدول وتنسيقه في مستند Word باستخدام فئة DocumentBuilder من Apose.Words.
-//ExStepSummary:0: تهيئة مستند جديد وDocumentBuilder لبدء بناء مستند Word.
-//ExStepSummary:1: إنشاء جدول وإدراج خلية للتنسيق.
-//ExStepSummary:2: اضبط خصائص التنسيق للخلية ، بما في ذلك الحشو والعرض.
-//ExStepSummary:3: أدخل النص في الخلية المنسقة.
-//ExStepSummary:4: إنهاء الصف والجدول، وحفظ المستند في مسار ملف محدد.
+//ExSummary: يظهر الرمز التالي كيفية إنشاء جدول وتصميمه في مستند Word باستخدام فئة DocumentBuilder من Aspose.Words.
+//ExStepSummary:0: قم بتشغيل مستند جديد ومصمم الوثائق للبدء في بناء مستند Word.
+//ExStepSummary:1: قم بإنشاء جدول وإدخال خلية لتصميمها.
+//ExStepSummary:2: حدد خصائص التنسيق للخلية، بما في ذلك التغطية والعرض.
+//ExStepSummary:3: إدراج النص في الخلية المنسقة.
+//ExStepSummary:4: إنهاء الصف والجدول، و حفظ الوثيقة إلى مسار الملف المحدد.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// إنشاء كائن مستند جديد
+// إنشاء كائن وثيقة جديد
 Document doc = new Document();
-// تهيئة DocumentBuilder مع المستند الجديد
+// إعداد الملفات المستندية باستخدام الوثيقة الجديدة
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// ابدأ في إنشاء جدول
+// ابدأي بإنشاء طاولة
 builder.StartTable();
-// أدخل الخلية الأولى في الجدول
+// إدراج الخلية الأولى في الجدول
 builder.InsertCell();
 
 //ExStep:2-
-// الوصول إلى خصائص تنسيق الخلية
+// الوصول إلى خصائص تشكيل الخلية
 CellFormat cellFormat = builder.CellFormat;
-// ضبط عرض الخلية
+// إعداد عرض الخلية
 cellFormat.Width = 250;
-// اضبط الحشوة
+// أضع التدليك
 cellFormat.LeftPadding = 30;
 cellFormat.RightPadding = 30;
 cellFormat.TopPadding = 30;
 cellFormat.BottomPadding = 30;
 
 //ExStep:3-
-// إدخال النص في الخلية
+// إدراج النص في الخلية
 builder.Writeln("I'm a wonderful formatted cell.");
 
 //ExStep:4-
@@ -40,6 +40,6 @@ builder.Writeln("I'm a wonderful formatted cell.");
 builder.EndRow();
 // إنهاء إنشاء الجدول
 builder.EndTable();
-// حفظ المستند
+// حفظ الوثيقة
 doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");
 //ExEnd

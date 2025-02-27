@@ -1,16 +1,16 @@
 //ExStart
-//ExSummary: Bu kod, DocumentBuilder kullanarak bir İçerik Tablosu ile bir Word belgesinin nasıl oluşturulacağını gösterir. Çeşitli düzeylerdeki başlıkları içerir ve belgeyi bir .docx dosyası olarak kaydeder.
-//ExStepSummary:0: Bu adım yeni bir Belge nesnesini başlatır.
-//ExStepSummary:1: Bu adım, belge manipülasyonu için bir DocumentBuilder nesnesi oluşturur.
-//ExStepSummary:2: Bu adım, belgenin başında İçerik Tablosu'nu ekler.
-//ExStepSummary:3: Bu adım, gerçek içeriği yeni bir sayfada başlatmak için bir sayfa molası sunar.
-//ExStepSummary:4: Bu adım ilk başlığı belirler ve belgeye "Başlık 1" yazar.
-//ExStepSummary:5: Bu adım ikinci başlık seviyesini belirler ve "Başlık 1.1" ve "Başlık 1.2" yazar.
-//ExStepSummary:6: Bu adım yine ilk başlık seviyesini belirler ve "Kafa 2" ve "Kafa 3" yazar.
-//ExStepSummary:7: Bu adım ikinci başlık seviyesini belirler ve "Heading 3.1" yazar.
-//ExStepSummary:8: Bu adım üçüncü başlık seviyesini belirler ve "Başlık 3.1.1", "Başlık 3.1.2" ve "Başlık 3.1.3" alt başlıkları yazar.
-//ExStepSummary:9: Bu adım ikinci başlık seviyesini bir kez daha belirler ve "Heading 3.2" ve "Heading 3.3" yazar.
-//ExStepSummary:10: Son olarak, bu adım belgedeki alanları günceller ve bir .docx dosyası olarak kaydeder.
+//ExSummaryBu kod, DocumentBuilder kullanarak bir İçerik Tablosu ile Word belgesini nasıl oluşturulacağını gösterir.
+//ExStepSummary:0: Bu adım yeni bir Belge nesnesini initialize eder.
+//ExStepSummary:1: Bu adım, belge manipülasyonu için bir DocumentBuilder nesnesini oluşturur.
+//ExStepSummary:2: Bu adım, belgenin başında içeriği tablosu yerleştirir.
+//ExStepSummary:3: Bu adım, yeni bir sayfada gerçek içeriği başlatmak için bir sayfa kesimi başlatır.
+//ExStepSummary:4: Bu adım ilk başlığı belirler ve belgeye "Börev 1" yazılır.
+//ExStepSummary:5: Bu adım ikinci başlık seviyesini belirler ve "Börev 1.1" ve "Börev 1.2" yazılır.
+//ExStepSummary:6: Bu adım, ilk başlık seviyesini tekrar belirler ve "Başlık 2" ve "Başlık 3" yazılır.
+//ExStepSummary:7: Bu adım ikinci başlık seviyesini belirler ve "Börev 3.1" yazılır.
+//ExStepSummary:8: Bu adım üçüncü başlık seviyesini belirler ve alt başlıklar "3.1.1. başlık", "3.1.2. başlık" ve "3.1.3. başlık" yazılır.
+//ExStepSummary:9: Bu adım ikinci başlık seviyesini bir kez daha belirler ve "Böyüklük 3.2" ve "Böyüklük 3.3" yazılır.
+//ExStepSummary:10: Son olarak, bu adım belgedeki alanları güncelleyecek ve .docx dosyası olarak kaydetir.
 //ExStepImage:3:images/1.png
 //ExStepImage:4:images/2.png
 //ExStepImage:5:images/3.png
@@ -24,48 +24,48 @@
 Document doc = new Document();
 
 //ExStep:1-
-// Belge manipülasyonu için DocumentBuilder'ı başlat
+// Belge manipülasyonu için DocumentBuilder'i başlat
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:2-
-// Belirtilen seçeneklerle bir İçerik Tablosu Ekle
+// Belirtilen seçeneklerle bir İçerik Tablosu ekle
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
 //ExStep:3-
-// Yeni bir sayfada içerik başlatmak için bir sayfa molası ekleyin
+// Yeni bir sayfada içeriği başlatmak için bir sayfa mola ekle
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:4-
-// Biçimi Başlık 1'e ayarla
+// 1 başlığındaki stil ayarlayın
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
 //ExStep:5-
-// Stili Başlık 2'ye ayarla
+// 2 başlığındaki stil ayarlayın
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 1.1");
 builder.Writeln("Heading 1.2");
 
 //ExStep:6-
-// Stili Başlık 1'e geri ayarla
+// Stylo 1 başlığına geri ayarlayın
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 2");
 builder.Writeln("Heading 3");
 
 //ExStep:7-
-// Stili Başlık 2'ye ayarla
+// 2 başlığındaki stil ayarlayın
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.1");
 
 //ExStep:8-
-// Stili Başlık 3'e ayarla
+// 3 Başlık stilini ayarlayın
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
 builder.Writeln("Heading 3.1.1");
 builder.Writeln("Heading 3.1.2");
 builder.Writeln("Heading 3.1.3");
 
 //ExStep:9-
-// Stili Başlık 2'ye geri ayarla
+// Stil 2 başlıklarına geri ayarlan
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");

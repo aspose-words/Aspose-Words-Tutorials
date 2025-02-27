@@ -1,34 +1,34 @@
 //ExStart
-//ExSummary:Tento kód ukazuje, jak vytvořit Word dokument pomocí Aspose.Words, formátování vlastnosti písma před napsáním vzor text na něj.
-//ExStepSummary:0: Následující kód inicializuje nový dokument a dokumentBuilder.
-//ExStepSummary:1: Následující kód nastavuje různé vlastnosti písma, jako je velikost, tučné, barva, název a podtržení stylu.
-//ExStepSummary:2: Následující kód zapíše vzorový text do dokumentu pomocí nakonfigurovaného nastavení písma.
-//ExStepSummary:3: Následující kód uloží dokument do zadaného adresáře s daným názvem souboru.
+//ExSummaryTento kód ukazuje, jak vytvořit dokument Word pomocí Aspose.Words, formátování vlastností písma před psaním vzorového textu.
+//ExStepSummary:0: Následující kód iniciuje nový Dokument a Dokument Builder.
+//ExStepSummary:1: Následující kód stanoví různé vlastnosti písma, jako jsou velikost, tlustý, barva, jméno a podtržený styl.
+//ExStepSummary:2: Následující kód píše vzorový text do dokumentu pomocí nastavení nastavených písmen.
+//ExStepSummary:3: Následující kód uloží dokument do uvedeného adresáře s daným názvem souboru.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Vytvořit novou instanci dokumentu
+// Vytvořit nový příklad dokumentu
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Přístup k vlastnosti písma prostřednictvím DocumentBuilder
+// Přístup k vlastnostem písma prostřednictvím dokumentuBuilder
 Font font = builder.Font;
-// Nastavte velikost písma na 16
+// Nastav velikost písma na 16
 font.Size = 16;
-// Udělejte písmo tučné
+// Zde je písmeno
 font.Bold = true;
-// Změnit barvu písma na modrou
+// Změňte barvu písma na modré
 font.Color = Color.Blue;
-// Nastavte písmo na Arial
+// Nastav písmo na Arial
 font.Name = "Arial";
-// Na písmo naneste styl ztlumeného podtržení
+// Použijte písmeno stylu podtrženého písmene
 font.Underline = Underline.Dash;
 
 //ExStep:2-
 builder.Write("Sample text.");
 
 //ExStep:3-
-// Uložit dokument do adresáře artefaktů
+// Zachovávejte dokument do seznamu artefaktů
 doc.Save("WorkingWithFonts.FontFormatting.docx");
 //ExEnd

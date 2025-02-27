@@ -1,8 +1,8 @@
 ---
-title: Word dokumentum létrehozása táblázattal az Aspose.Words használatával
+title: Készítsen egy Word dokumentumot a táblázat segítségével Aspose.Words
 weight: 7700
 limit: 
-description: Ismerje meg, hogyan hozhat létre Word-dokumentumot stílustáblázattal az Aspose.Words for .NET használatával, beleértve a cellaformázást és a szövegorientációt.
+description: Tanuljon meg, hogyan készítsen egy Word dokumentumot egy stílusú táblázzal a .NET-hez Aspose.Words használatával, beleértve a sejt formázását és a szövegorientációt.
 keywords: [Aspose.Words, .NET, Word document, table, document builder, cell formatting, text orientation, code example]
 url: /hu/net/add-content-using-document-builder/build-table/
 ---
@@ -10,30 +10,30 @@ url: /hu/net/add-content-using-document-builder/build-table/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word dokumentum létrehozása táblázattal az Aspose.Words használatával
+# Készítsen egy Word dokumentumot a táblázat segítségével Aspose.Words
   
-Ez a példa bemutatja, hogyan hozhat létre Word dokumentumot egy táblázattal az Aspose.Words könyvtár segítségével. A kód inicializál egy új dokumentumot, létrehoz egy táblázatot két sorral, és formázza a cellákat különböző stílusokkal és irányokkal. Megtanulja manipulálni a cellatartalmat, az összehangolást és a strukturált dokumentum felépítését programmatikusan.
+Ez a példa bemutatja, hogyan lehet egy Word dokumentumot létrehozni egy táblázzal a .NET Aspose.Words könyvtár segítségével. A kód egy új dokumentumot kezdeményezi, két sorral épít egy táblázatot, és különböző stílusokkal és irányítással formázja a sejteket. Megtanulhatja a sejt tartalmának manipulálását, az összehangolást, és egy strukturált dokumentumot programozással épít.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/build-table" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Telepítési utasítások:  
-1. Telepítse az Aspose.Words alkalmazást a .NET-hez:
-   * A NuGet csomagkezelő használata:
-     * Nyissa meg a projektet a Visual Studio-ban.
-     * Kattintson a jobb gombbal a projektre a Solution Explorer programban, és válassza a "Nuget csomagok kezelése" lehetőséget.
-     * Keresse meg az "Aspose.Words" kifejezést, és kattintson a "Telepítés" gombra.
+## A telepítési utasítás:  
+1. A .NET-re telepítse az Aspose.Words-t:
+   * A NuGet csomagkezelő használatával:
+     * Nyissa ki a projektét a Visual Studio-ban.
+     * Jobbra kattintva a projektre a megoldás-kutatóban, és válassza ki "Manage NuGet Packages".
+     * Keresd a "Aspose.Words" és kattintson "Install. "
 
-   * Vagy használja a Csomagkezelő konzolt:
+   * Vagy használja a csomagkezelő konzolt:
      ```
      Install-Package Aspose.Words
      ```
    
-## Lásd még
-[Aspose.Word for .NET dokumentáció](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referenciák](https://reference.aspose.com/words/net/)
+## Lásd:
+[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

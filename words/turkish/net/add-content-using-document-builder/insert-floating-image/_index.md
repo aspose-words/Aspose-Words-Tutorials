@@ -1,8 +1,8 @@
 ---
-title: .NET'te Yüzen Görüntü ile Word Belgesi Oluşturun
+title: .NET'de yüzen resim ile Word Belgesi Oluştur
 weight: 7700
 limit: 
-description: Bir Word belgesi oluşturmak ve yüzen bir resim eklemek için Aspose.Words for .NET'i nasıl kullanacağınızı öğrenin. Adım adım örnek verilir.
+description: Word belgesini oluşturmak ve yüzen bir görüntü eklemek için .NET için Aspose.Words nasıl kullanılacağını öğrenin.
 keywords: [Aspose.Words, .NET, Word document, insert image, floating layout, DocumentBuilder, C# example]
 url: /tr/net/add-content-using-document-builder/insert-floating-image/
 ---
@@ -10,30 +10,30 @@ url: /tr/net/add-content-using-document-builder/insert-floating-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Yüzer Resim ile Word Belgesi Oluşturun
+# Kaynaklı Görüntü ile Word Belgesi Oluştur
 
-Bu örnek, Aspose.NET'i kullanarak bir Word belgesinin nasıl oluşturulacağını ve yüzen bir düzenle bir görüntü yerleştirileceğini gösterir. Verilen kod, bir Belge ve Belge Oluşturucusu'nu başlatır, belirtilen boyutlara ve konumlandırmaya sahip bir görüntü ekler ve sonunda belgeyi kaydeder. Bu kılavuz, Aspose.Words'u kullanarak belge oluşturma yeteneklerini geliştirmek isteyen geliştiriciler için idealdir.
+Bu örnek .NET için Aspose.Words kullanarak bir Word belgesini nasıl oluşturulacağını ve yüzen bir düzenle bir görüntü ekleneceğini gösterir. Verilen kod bir Document ve DocumentBuilder'i başlangıçta başlatır, belirtilen boyutlar ve konumlandırma ile bir görüntü ekler ve sonunda belgeyi kaydeder. Bu rehber, Aspose.Words kullanarak belge oluşturma yeteneklerini geliştirmek isteyen geliştiriciler için idealdir.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-floating-image" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum Talimatları
-1. Aspose.Words'u yükleyin: Aspose.Words NuGet paketini .NET projenize ekleyin. Bunu Paket Yöneticisi Konsolu'nda aşağıdaki komutu çalıştırarak yapabilirsiniz:
+## Kurulum talimatları
+1. Aspose.Words yükleyin: .NET projenize Aspose.Words NuGet paketi ekleyin. Bunu paket yöneticisi konsolosunda aşağıdaki komutu çalıştırarak yapabilirsiniz:
    ```
    Install-Package Aspose.Words
    ```
 
-2. Gerekli İsim Alanlarını Ekle: Kod dosyanızın aşağıdaki ad alanlarını içerdiğinden emin olun:
+2. Gerekli Ad Alanları Ekle: Kod dosyanızın aşağıdaki ad alanları içerdiğinden emin olun:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
-## Ayrıca Bakınız
-[.NET Dokümantasyonu için Aspose.Word](https://docs.aspose.com/words/net/)
-[.NET Referansları için Aspose.Word](https://reference.aspose.com/words/net/)
+## Ayrıca bakın
+[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

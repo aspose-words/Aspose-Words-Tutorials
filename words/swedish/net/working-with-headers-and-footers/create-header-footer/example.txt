@@ -1,27 +1,27 @@
 //ExStart
-//ExSummary: Den här koden visar hur man skapar ett Word-dokument med ett primärt sidhuvud och sidfot med hjälp av Aspose.Words. Den initierar ett nytt dokument, flyttar till sidhuvudet och sidfoten sektioner, och skriver egen text. Slutligen sparar den dokumentet som en DOCX- fil.
-//ExStepSummary:0: Följande kod initierar huvudobjektet i dokumentet och ställer in DocumentBuilder.
-//ExStepSummary:1: Följande kod flyttas till huvudavsnittet och skriver huvudtexten.
-//ExStepSummary:2: Följande kod flyttas till den primära sidfoten sektionen och skriver sidfoten texten.
-//ExStepSummary:3: Följande kod sparar dokumentet till en angiven filsökväg.
+//ExSummaryDenna kod visar hur man skapar ett Word-dokument med en primär höjdpunkt och fotfält med hjälp av Aspose.Words. Den initialiserar ett nytt dokument, går till höjdpunkten och fotfält sektioner och skriver anpassad text. Slutligen sparar den dokumentet som en DOCX-fil.
+//ExStepSummary:0: Följande kod initialiserar huvuddokumentobjektet och sätter in DocumentBuilder.
+//ExStepSummary:1: Följande kod går till huvudsektionen och skriver huvudtexten.
+//ExStepSummary:2: Följande kod går till den primära fototeksdelen och skriver fototeksten.
+//ExStepSummary:3: Följande kod sparar dokumentet till en specifik filväg.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Initiera ett nytt dokumentobjekt
+// Initializera ett nytt dokumentobjekt
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Flytta till huvudavsnittet
+// Flytta till huvudsektionen
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Write("Header for page.");
 
 //ExStep:2-
-// Flytta till den primära sidfoten
+// Flytta till den primära fotdelen
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("Footer for page."); // Write the footer text
 
 //ExStep:3-
-// Spara dokumentet med angivet filnamn
+// Spara dokumentet med det angivna filnamnet
 doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
 //ExEnd

@@ -1,8 +1,8 @@
 ---
-title: Vytvořit slovní dokument s obsahem v .NET
+title: Vytvořit Word dokument s tabulkou obsahu v .NET
 weight: 7700
 limit: 
-description: Naučte se vytvořit dokument Word s Obsahem pomocí Aspose.Words pro .NET. Včetně průvodce krok za krokem.
+description: Naučte se vytvářet dokument Word s Tabulkou obsahu pomocí Aspose.Words pro .NET. Včetně krok-za-krokového průvodce.
 keywords: [Aspose.Words, .NET, Word document, Table of Contents, DocumentBuilder, example, code snippet]
 url: /cs/net/add-content-using-document-builder/insert-table-contents/
 ---
@@ -10,26 +10,26 @@ url: /cs/net/add-content-using-document-builder/insert-table-contents/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořit slovní dokument s obsahem
-Tento příklad ukazuje, jak používat Aspose.Slova pro .NET vytvořit dokument Word, který obsahuje interaktivní tabulku obsahu (TOC) generovaný pomocí třídy DocumentBuilder. Kód ilustruje, jak vložit nadpisy různých úrovní, formátovat je a uložit výsledný dokument jako .docx soubor. Postupujte podle níže uvedených kroků pro snadnou implementaci.
+# Vytvořte dokument Word s obsahem
+Tento příklad ukazuje, jak používat Aspose.Words pro .NET k vytvoření dokumentu Word, který obsahuje interaktivní tabulku obsahu (TOC) generovanou pomocí třídy DocumentBuilder. Kód ilustruje, jak vložit titulky různých úrovní, formátovat je a uložit výsledný dokument jako soubor .docx. Pro snadné implementaci postupujte podle níže uvedených kroků.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-table-contents" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Návod k instalaci
-1. Předpoklady: Ujistěte se, že máte .NET nainstalován na stroji.
-2. Nainstalujte Aspose.Words: 
-   * Použít NuGet Package Manager Console:
+## Příkazy na instalaci
+1. Předpoklady: Ujistěte se, že máte na počítači nainstalovaný .NET.
+2. Instalujte Aspose.Words: 
+   * Použijte konzole NuGet Manager:
      ```
      Install-Package Aspose.Words
      ```
-   * Nebo, hledat "Aspose.Words" v počítači NuGet Package Manager GUI.
+   * Nebo vyhledat Aspose.Words v GUI pro správu balíčků NuGet.
 
-## Také viz
-[Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Reference](https://reference.aspose.com/words/net/)
+## Viz také
+[Aspose.Word pro .NET dokumentaci](https://docs.aspose.com/words/net/)
+[Aspose.Word pro reference .NET](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

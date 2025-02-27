@@ -1,11 +1,11 @@
 //ExStart
-//ExSummary: Questo codice dimostra come applicare la formattazione delle righe in un documento di Word usando Aspose.Words.
-//ExStepSummary:0: Inizializza un nuovo documento e inizia a costruire una tabella con righe formattate.
-//ExStepSummary:1: Configura il formato riga.
-//ExStepSummary:2: Configura le impostazioni specifiche dell'altezza.
-//ExStepSummary:3: Imposta l'imbottitura dell'intera tabella su tutte le righe.
-//ExStepSummary:4: Scrive testo nella cella della tabella e termina la riga.
-//ExStepSummary:5: Completa il processo di costruzione della tabella e salva il documento.
+//ExSummary: Questo codice mostra come applicare la formattazione delle righe in un documento Word utilizzando Aspose.Words.
+//ExStepSummary:0: Inizia un nuovo documento e inizia a costruire una tabella con file formattati.
+//ExStepSummary:1: Configura il formato della riga.
+//ExStepSummary:2: Configura le impostazioni specifiche di altezza.
+//ExStepSummary:3: Sette di rivestimento per l'intero tavolo che colpisce tutte le righe.
+//ExStepSummary:4: Scrive un testo nella cella della tavola e termina la riga.
+//ExStepSummary:5: Completare il processo di costruzione del tavolo e salvare il documento.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -17,34 +17,34 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Avvia una nuova tabella
+// Inizia un nuovo tavolo
 Table table = builder.StartTable();
 // Inserire una nuova cella nella tabella
 builder.InsertCell();
 //ExStep:2-
-// Accedere alle proprietà di formattazione riga
+// Accedere alle proprietà di formattazione della riga
 RowFormat rowFormat = builder.RowFormat;
-// Imposta l'altezza della riga
+// Impostare l'altezza della riga
 rowFormat.Height = 100;
-// Specifica che l'altezza è esatta
+// Indicare che l'altezza è esatta
 rowFormat.HeightRule = HeightRule.Exactly;
 
 //ExStep:3-
-// Imbottitura set per il tavolo
+// Impostazione di rivestimenti per il tavolo
 table.LeftPadding = 30; 
 table.RightPadding = 30;
 table.TopPadding = 30;
 table.BottomPadding = 30;
 
 //ExStep:4-
-// Scrivi testo nella cella
+// Scrivere il testo nella cella
 builder.Writeln("I'm a wonderful formatted row.");
-// Termina la riga corrente
+// Finire la riga corrente
 builder.EndRow();
-// Termina l'edificio della tavola
+// Finire il tavolo
 builder.EndTable();
 
 //ExStep:5-
-// Salva il documento
+// Salvare il documento
 doc.Save("WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
 //ExEnd

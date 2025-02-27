@@ -1,40 +1,40 @@
 //ExStart
-//ExSummary: Ez a kód azt mutatja be, hogyan lehet alakzatokat (szövegdobozokat) beilleszteni egy Word dokumentumba az Aspose.Words használatával. A dokumentum DOCX formátumban kerül mentésre, az ISO szabványoknak megfelelő speciális megfelelőségi lehetőségekkel.
-//ExStepSummary:0: A kód egy új dokumentumot és egy dokumentumkészítőt inicializál a dokumentum manipulálására.
-//ExStepSummary:1: Egy alakzatot (szövegdobozt) helyezünk be a dokumentumban abszolút pozícióban, és az első alakzat elforgatása 30 fokra van állítva.
-//ExStepSummary:2: Egy új alakzatot helyeznek be relatív helyzetbe, és a második alakzat forgása is 30 fokra van állítva.
-//ExStepSummary:3: A dokumentum mentése speciális OoxmlSaveOptions.
+//ExSummaryA dokumentumot a DOCX formátumban tárolják, az ISO szabványokhoz való megfeleléshez kapcsolódó egyedi lehetőségekkel.
+//ExStepSummary:0: A kód egy új dokumentumot és egy dokumentumkészítőt indít be a dokumentum manipulálására.
+//ExStepSummary:1: A dokumentumban egy formát (textbox) be kell helyezni egy abszolút helyről, és az első formát 30 fokra kell forgatni.
+//ExStepSummary:2: Az új alakot egy viszonylagos helyzetben helyezik be, a második alakot pedig 30 fokra fordítják.
+//ExStepSummary:3: A dokumentumot speciális OoxmlSaveOptions segítségével tárolják.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 
 //ExStep:0-
-// Új dokumentumpéldány létrehozása
+// Új dokumentum-eseményt hoz létre
 Document doc = new Document();
-// DocumentBuilder inicializálása a dokumentumhoz
+// Initializálja a dokumentum dokumentumépítőjét
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// TextBox típusú alakzat beszúrása
+// Beilleszt egy textbox típusú formát
 Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
     RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
-// 30 fokkal elforgatja az alakzatot
+// 30 fokkal forgatja a formát.
 shape.Rotation = 30.0;
 
 //ExStep:2-
 builder.Writeln();
-// Egy másik TextBox típusú alakzat beszúrása relatív pozícióba
+// Más formát tesz be a TextBox típushoz viszonylagos helyzettel
 shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
-// 30 fokkal elforgatja a második alakzatot
+// A második formát 30 fokkal forgatja
 shape.Rotation = 30.0;
 
 //ExStep:3-
-// Készítsen mentési lehetőségeket a dokumentumhoz
+// Készíti a dokumentum mentési lehetőségét
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
 };
 
-// Menti a dokumentumot a megadott mentési lehetőségekkel
+// A dokumentumot a megadott mentési lehetőségek segítségével mentheti meg
 doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
 //ExEnd

@@ -1,13 +1,13 @@
 //ExStart
-//ExSummary: Ez a kód azt mutatja be, hogyan hozhat létre csoportalakot egy dokumentumon belül az Aspose.Words használatával.
-// Akcentushatár-kiírási alakzatot és műveletgombot hoz létre, hozzáadja őket egy csoport alakzathoz, majd mentés előtt beilleszti a csoport alakzatot a dokumentumba.
-//ExStepSummary:0: Inicializál egy új dokumentumot, és biztosítja a minimális követelmények teljesülését.
-//ExStepSummary:1: Csoportformát hoz létre, amely más alakzatokat is tartalmaz.
-//ExStepSummary:2: Akcentusos szegélyfelirat- alakzatot ad a csoport alakjához.
-//ExStepSummary:3: Művelet gomb alakzatot ad a csoport alakjához.
-//ExStepSummary:4: Beállítja a csoport alakjának méreteit és koordinátáit.
-//ExStepSummary:5: Beilleszti a csoport alakját a dokumentumba egy DocumentBuilder segítségével.
-//ExStepSummary:6: Menti a csoport alakját tartalmazó dokumentumot egy megadott helyre.
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy csoportformát egy dokumentumban az Aspose.Words segítségével.
+// A program egy akcentus határ-hívó formát és egy cselekvés gombot hoz létre, a csoport formába adja őket, majd a csoport formát behelyezi a dokumentumba, mielőtt megtartja.
+//ExStepSummary:0: Új dokumentumot indít és biztosítja a minimális követelményeknek való megfelelését.
+//ExStepSummary:1: Egy csoportformát hoz létre, amely más formákat tart.
+//ExStepSummary:2: A csoport formájához egy akcentus határos hívás formát ad.
+//ExStepSummary:3: Ad egy akció gomb alakját a csoport alakjához.
+//ExStepSummary:4: A csoport formájának méreteit és koordinátáit határozza meg.
+//ExStepSummary:5: A dokumentumhoz beilleszt a csoport formáját a DocumentBuilder segítségével.
+//ExStepSummary:6: A csoportformát tartalmazó dokumentumot egy meghatározott helyre tárol.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -16,52 +16,52 @@
 //ExStep:0-
 // Új dokumentum létrehozása
 Document doc = new Document();
-// Győződjön meg róla, hogy a dokumentum megfelel a minimális követelményeknek
+// A dokumentum minimális követelményeknek való megfelelés
 doc.EnsureMinimum();
 
 //ExStep:1-
-// Új GroupShape példány létrehozása
+// Új GroupShape példányt készítsen
 GroupShape groupShape = new GroupShape(doc);
 
 //ExStep:2-
-// Akcentushatár kiírási alakzat létrehozása
+// Készítsen egy hangsúlyú határos hangsúlyozási formát
 Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
 {
     Width = 100, 
     Height = 100
 };
-// Az alakzat hozzáadása a csoport alakjához
+// Adja be a formát a csoport formájához
 groupShape.AppendChild(accentBorderShape);
 
 //ExStep:3-
-// Művelet gomb alakzat létrehozása
+// Készítsen egy akció gomb formát
 Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
 {
-	// Az alakzat bal pozíciójának beállítása
+	// A bal oldalon a formát
     Left = 100, 
-	// Állítsa be az alakzat szélességét
+	// A formának beállított szélessége
     Width = 100, 
-	// Állítsa be az alakzat magasságát
+	// A formának a magasságának beállítása
     Height = 200
 };
-// A művelet gomb hozzáadása a csoport alakjához
+// Adja be a cselekvési gombot a csoport formába
 groupShape.AppendChild(actionButtonShape);
 
 //ExStep:4-
-// A csoport alakzat szélességének beállítása
+// Beállítsa a csoport formájának szélességét
 groupShape.Width = 200;
-// Állítsa be a csoport alakjának magasságát
+// Beállítsa a csoport formájának magasságát
 groupShape.Height = 200;
-// A csoportalakzat koordinátaméretének beállítása
+// Beállítsa a koordinátás méretét a csoport formája
 groupShape.CoordSize = new Size(200, 200);
 
 //ExStep:5-
-// DocumentBuilder létrehozása a dokumentum manipulálásához
+// Készítsen egy DocumentBuilder-t a dokumentum kezelésére
 DocumentBuilder builder = new DocumentBuilder(doc);
-// A csoport alakjának beillesztése a dokumentumba
+// Beillesztse a csoport formáját a dokumentumba
 builder.InsertNode(groupShape);
 
 //ExStep:6-
-// A dokumentum mentése egy megadott helyre
+// A dokumentumot egy meghatározott helyre tárolja
 doc.Save("WorkingWithShapes.AddGroupShape.docx");
 //ExEnd

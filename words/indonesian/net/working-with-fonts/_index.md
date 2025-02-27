@@ -1,8 +1,8 @@
 ---
-title: Bekerja dengan Fonta dalam Aspose.Words untuk .NET  
+title: Bekerja dengan Font di Aspose.Words untuk .NET  
 weight: 10
 limit:
-description: Belajarlah bekerja dengan fonta di Aspose.Words untuk .NET, termasuk mengubah gaya fonta, ukuran, warna, efek, dan lebih. Tingkatkan dokumen Word Anda dengan mudah.
+description: Pelajari cara menggunakan font dalam Aspose.Words untuk .NET, termasuk mengubah gaya font, ukuran, warna, efek, dan banyak lagi. Perbaiki dokumen Word Anda dengan mudah.
 keywords:
 url: /id/net/working-with-fonts/
 ---
@@ -10,15 +10,15 @@ url: /id/net/working-with-fonts/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Perkenalan
+## Pambuka
   
-Fonta adalah aspek kritis dari dokumen Word mana pun, menambahkan kepribadian, kemampuan baca, dan daya tarik visual. Dengan Aspose.Words untuk .NET, Anda memperoleh kendali penuh terhadap kustomisasi fonta untuk sesuai dengan kebutuhan dokumen Anda. Apakah Anda perlu mengubah gaya fonta, menyesuaikan ukuran, mengubah warna, atau menerapkan efek seperti tebal, miring, atau garis bawah, Aspose.Words menawarkan cara mulus untuk meningkatkan tipografi dokumen Anda.  
+Font adalah aspek penting dari setiap dokumen Word, menambahkan kepribadian, kebacakan, dan daya tarik visual. Dengan Aspose.Words untuk .NET, Anda mendapatkan kendali penuh atas kustomisasi font untuk memenuhi kebutuhan dokumen Anda. Apakah Anda perlu memodifikasi gaya font, menyesuaikan ukuran, mengubah warna, atau menerapkan efek seperti tebal, kurikulum, atau penindasan, Aspose.Words menawarkan cara yang lancar untuk meningkatkan tipografi dokumen Anda.  
 
-Bagian ini mencakup berbagai tutorial untuk membantu Anda menguasai manipulasi fonta menggunakan aspose.Words untuk .NET. Dive ke fitur spesifik seperti mengubah keluarga fonta, menerapkan efek teks, dan pengaturan pilihan tipografi canggih seperti kerning dan jarak. Panduan ini membuatnya sederhana untuk membuat dokumen Word profesional, dipoles disesuaikan dengan persyaratan yang tepat.
+Bagian ini mencakup berbagai tutorial untuk membantu Anda menguasai manipulasi font menggunakan Aspose.Words untuk .NET. Semak ke fitur-fitur tertentu seperti mengubah keluarga font, menerapkan efek teks, dan mengatur opsi tipografi lanjutan seperti kerning dan spacing. Panduan ini memudahkan Anda membuat dokumen Word profesional, halus yang disesuaikan dengan kebutuhan Anda.
 
-{{< tutorial-card link="./font-formatting/" title="Buat Pemformatan Fonta dalam Kata Menggunakan aspose.Words untuk .NET" imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./get-font-line-spacing/" title="Dapatkan Jarak Baris Fonta dalam Dokumen Word" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./set-font-emphasis-mark/" title="Set Tanda Penekanan dalam Dokumen Word Menggunakan aspose.Words untuk .NET" imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./font-formatting/" title="Buat Format Font di Word Menggunakan Aspose.Words untuk .NET" imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./get-font-line-spacing/" title="Dapatkan Spasi Font Line di Word Document" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./set-font-emphasis-mark/" title="Setekan Tanda Penekanan di Dokumen Word Menggunakan Aspose.Words untuk .NET" imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

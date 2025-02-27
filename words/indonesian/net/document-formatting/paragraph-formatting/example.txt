@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary: Kode ini menunjukkan bagaimana format paragraf dalam dokumen Word menggunakan Aspose.Words. Ini menunjukkan bagaimana mengatur pilihan format paragraf seperti penyelarasan, indentasi, dan spasi setelah paragraf.
-//ExStepSummary:0: Langkah ini menginisialisasi Dokumen baru dan Dokumen Builder untuk membuat dokumen.
-//ExStepSummary:1: Langkah ini menetapkan opsi pemformatan paragraf, termasuk penyelarasan, indentasi kiri, indentasi kanan, dan ruang setelah paragraf.
-//ExStepSummary:2: Langkah ini menulis paragraf yang dibentuk dengan baik dengan opsi pemformatan yang ditentukan pada dokumen.
-//ExStepSummary:3: Langkah ini menulis paragraf keterangan lain yang memperlihatkan pengaruh ruang setelah paragraf.
+//ExSummary: Kode ini menunjukkan cara memformat paragraf dalam dokumen Word menggunakan Aspose.Words. Ini menunjukkan cara mengatur opsi pemformat paragraf seperti penyelarasan, indentasi, dan ruang setelah paragraf.
+//ExStepSummary:0: Langkah ini menginisialisasikan Dokumen baru dan DocumentBuilder untuk membangun dokumen.
+//ExStepSummary:1: Langkah ini menetapkan opsi pemformatan paragraf, termasuk penyelarasan, tiruan kiri, tiruan kanan, dan ruang setelah paragraf.
+//ExStepSummary:2: Langkah ini menulis paragraf yang diformat dengan baik dengan opsi format yang ditentukan ke dokumen.
+//ExStepSummary:3: Langkah ini menulis paragraf lain yang diformat menunjukkan efek ruang setelah paragraf.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0- 
-// Buat instansi Dokumen baru.
+// Buat contoh dokumen baru.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1- 
-// Atur opsi pemformatan paragraf.
+// Setup opsi format paragraf.
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;
 paragraphFormat.LeftIndent = 50;
@@ -21,16 +21,16 @@ paragraphFormat.RightIndent = 50;
 paragraphFormat.SpaceAfter = 25;
 
 //ExStep:2- 
-// Tulis paragraf pertama.
+// Tuliskan paragraf pertama yang diformat.
 builder.Writeln(
 	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
 
 //ExStep:3- 
-// Tulis paragraf kedua.
+// Tuliskan paragraf kedua yang diformat.
 builder.Writeln(
 	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
 
 //ExStep:4- 
-// Simpan dokumen ke lokasi yang ditentukan.
+// Simpan dokumen ke jalur yang ditentukan.
 doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
 //ExEnd

@@ -1,5 +1,5 @@
 ---
-title: Créer une table formatée en Word avec Aspose.Words pour .NET
+title: Créer une table formatée dans Word avec Aspose.Words pour .NET
 weight: 7700
 limit: 
 description: Apprenez à créer un document Word avec une table formatée en utilisant Aspose.Words pour .NET avec cet exemple étape par étape.
@@ -10,9 +10,9 @@ url: /fr/net/working-with-table-styles-and-formatting/set-table-row-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Créer une table formatée en Word avec Aspose.Words
+# Créer un tableau formaté dans Word avec Aspose.Words
 
-Cet exemple montre comment créer un document Word contenant une table formatée en utilisant Aspose.Words pour .NET. Vous apprendrez à initialiser un nouveau document, à configurer une table avec formatage et rembourrage de lignes spécifiques, et à enregistrer le document sur un chemin spécifié. Ce guide est idéal pour les développeurs cherchant à améliorer leurs capacités de génération de documents avec Aspose.Words.
+Cet exemple montre comment créer un document Word contenant une table formatée à l'aide de Aspose.Words pour .NET. Vous apprendrez à initialiser un nouveau document, à configurer une table avec un formatage et un rembourrage de ligne spécifiques et à enregistrer le document sur un chemin spécifié. Ce guide est idéal pour les développeurs qui souhaitent améliorer leurs capacités de génération de documents avec Aspose.Words.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/set-table-row-formatting" >}}
@@ -20,21 +20,21 @@ Cet exemple montre comment créer un document Word contenant une table formatée
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instructions d'installation
-1. Installer Aspose.Words pour .NET : Utilisez NuGet Package Manager pour installer Aspose.Words. Vous pouvez exécuter la commande suivante dans la console de gestion de paquets :
+1. Installez Aspose.Words pour .NET: Utilisez NuGet Package Manager pour installer Aspose.Words. Vous pouvez exécuter la commande suivante dans la console de gestion de paquets:
    ```
    Install-Package Aspose.Words
    ```
 
 2. Create a New Project: Open Visual Studio and create a new C# project (Console Application or any type you prefer).
 
-3. Ajouter une référence : Assurez-vous que la bibliothèque Aspose.Words est référencée dans votre projet.
+3. Ajouter une référence: Assurez-vous que la bibliothèque Aspose.Words est référencée dans votre projet.
 
-4. Appliquer une licence (facultative) :  
-   Pour utiliser la version complète,[appliquer une licence](https://purchase.aspose.com/temporary-license/)ou d'utiliser[essai gratuit](https://releases.aspose.com/words/net/)C'est vrai.
+4. Pour les personnes ayant une licence de licence (optionnelle):  
+   Pour utiliser la version complète,[appliquer une licence](https://purchase.aspose.com/temporary-license/)ou utiliser un[épreuve gratuite](https://releases.aspose.com/words/net/)\- Je suis désolé .
    
 ## Voir aussi
-[Pose.Word pour .NET Documentation](https://docs.aspose.com/words/net/)
-[Pose.Word pour .NET Références](https://reference.aspose.com/words/net/)
+[Aspose.Word pour la documentation .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word pour les références .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,31 +1,31 @@
 //ExStart
 //ExSummary: Le code suivant montre comment créer et formater une table dans un document Word en utilisant la classe DocumentBuilder de Aspose.Words.
-//ExStepSummary:0: Initialiser un nouveau document et documentBuilder pour commencer à construire le document Word.
-//ExStepSummary:1: Créez une table et insérez une cellule pour le formatage.
-//ExStepSummary:2: Définir les propriétés de formatage pour la cellule, y compris le rembourrage et la largeur.
+//ExStepSummary:0: Initialement d'un nouveau Document et DocumentBuilder pour commencer à construire le document Word.
+//ExStepSummary:1: Créer une table et insérer une cellule pour le formatage.
+//ExStepSummary:2: Définir les propriétés de formatage de la cellule, y compris le rembourrage et la largeur.
 //ExStepSummary:3: Insérer du texte dans la cellule formatée.
-//ExStepSummary:4: Terminez la ligne et la table, et enregistrez le document sur un chemin de fichier spécifié.
+//ExStepSummary:4: Finissez la rangée et le tableau, et sauvegardez le document dans un chemin de fichier spécifié.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Création d'un nouvel objet Document
+// Créer un nouvel objet de document
 Document doc = new Document();
-// Initialiser DocumentBuilder avec le nouveau Document
+// Initialisation du constructeur de documents avec le nouveau document
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
 // Commencez à créer une table
 builder.StartTable();
-// Insérer la première cellule dans le tableau
+// Insérer la première cellule dans la table
 builder.InsertCell();
 
 //ExStep:2-
-// Accès aux propriétés de formatage de la cellule
+// Accéder aux propriétés de formatage de la cellule
 CellFormat cellFormat = builder.CellFormat;
 // Réglage de la largeur de la cellule
 cellFormat.Width = 250;
-// Régler le rembourrage
+// Réglez le rembourrage
 cellFormat.LeftPadding = 30;
 cellFormat.RightPadding = 30;
 cellFormat.TopPadding = 30;
@@ -38,8 +38,8 @@ builder.Writeln("I'm a wonderful formatted cell.");
 //ExStep:4-
 // Fin de la ligne actuelle du tableau
 builder.EndRow();
-// Fin de la création de la table
+// Fin de la création de table
 builder.EndTable();
-// Sauver le document
+// Enregistrement du document
 doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");
 //ExEnd

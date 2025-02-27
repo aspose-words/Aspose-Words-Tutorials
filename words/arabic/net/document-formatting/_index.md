@@ -1,8 +1,8 @@
 ---
-title: تنسيق المستند مع Apose.Words لـ .NET
+title: تنسيق المستندات مع Aspose.Words ل .NET
 weight: 10
 limit:
-description: تعلم تقنيات تنسيق المستندات المتقدمة باستخدام Aposo.Words for .NET. استكشف تخطيطات الصفحات والأنماط والمواضيع وأتمتة التنسيق بسلاسة.
+description: تعلم تقنيات تنسيق الوثائق المتقدمة مع Aspose.Words ل .NET. استكشف ترتيبات الصفحات وأساليبها ومواضيعها وتلقيحة تنسيقها بسهولة.
 keywords:
 url: /ar/net/document-formatting/
 ---
@@ -12,13 +12,13 @@ url: /ar/net/document-formatting/
 
 ## مقدمة
  
-تنسيق المستند أمر بالغ الأهمية لإنشاء مستندات Word احترافية وجذابة بصريًا. Apose.Words for .NET تمكن المطورين مع مجموعة واسعة من الميزات لتعزيز تخطيطات المستند والتصميم. من إعداد تخطيطات الصفحات المخصصة والهوامش إلى تطبيق مواضيع وأنماط متسقة ، Apose.Words يبسط مهام التنسيق مع واجهات برمجة التطبيقات القوية. سواء كنت تقوم بأتمتة الرؤوس والتذييلات ، أو ضبط محاذاة الفقرات ، أو جداول التصميم ، فإن Apose.Words تضمن الدقة  
+إن تنسيق الوثائق أمر بالغ الأهمية لإنشاء وثائق Word المهنية والرائعة بصرياً. Aspose.Words لـ .NET تمكن المطورين من مجموعة واسعة من الميزات لتعزيز ترتيبات الوثائق وتصفيقها. من إعداد ترتيبات الصفحات المخصصة والحوافز إلى تطبيق مواضيع وأساليب متسقة، Aspose.Words يسهل تنسيق المهام مع APIs قوية. سواء كنت تلقائي العناوين والأقاعد الأرضية، وتعديل تحديد الترتيب الفقرة، أو جدولات التصميم، Aspose.Words يضمن الدقة والمرونة، وتوفير الوقت والجهد.  
 
-الغوص أعمق في تنسيق المستند مع أدلة مفصلة حول الموضوعات المتداخلة مثل العمل مع المواضيع ، وإدارة الأنماط ، وتعديل التباعد ، وإنشاء تخطيطات ديناميكية. مع Apose.Words for .NET ، يمكنك تقديم المستندات التي تلبي المعايير الصارمة مع الحفاظ على الاتساق والأناقة في جميع المخرجات.
+إغوص عميقًا في تنسيق الوثائق مع أدلة مفصلة حول مواضيع متضمنة مثل العمل مع الموضوعات وإدارة الأساليب وتعديل الفاصل وإنشاء ترتيبات ديناميكية. مع Aspose.Words لـ .NET ، يمكنك تسليم الوثائق التي تلبي المعايير المحددة مع الحفاظ على الاتساق والنيقة عبر جميع المخرجات.
 
-{{< tutorial-card link="./apply-border-and-shading/" title="تطبيق الحدود والتظليل على الفقرة في Aspose.Words" imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./apply-paragraph-style/" title="إنشاء وتصميم مستند Word في Apose.Words" imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./multilevel-list-formatting/" title="إنشاء قوائم متعددة المستويات في Word باستخدام Apose.Words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./apply-border-and-shading/" title="تطبيق الحدود والظلال على الفقرة في "تحدث. الكلمات"" imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./apply-paragraph-style/" title="إعداد ورقة الوثيقة الكلمة في Aspose.Words" imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./multilevel-list-formatting/" title="إعداد قوائم متعددة المستويات في الكلمة مع Aspose.Words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
 {{< tutorial-card link="./paragraph-formatting/" title="تنسيق الفقرات باستخدام Aspose.Words ل .NET" imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}

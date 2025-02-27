@@ -1,11 +1,11 @@
 //ExStart
-//ExSummary: Este código demonstra como aplicar a formatação de linha em um documento do Word usando Aspose.Words.
-//ExStepSummary:0: Inicializa um novo documento e começa a construir uma tabela com linhas formatadas.
+//ExSummary: Este código demonstra como aplicar a formatação de fila em um documento do Word usando Aspose.Words.
+//ExStepSummary:0: Inicializa um novo documento e começa a construir uma tabela com linhas formateadas.
 //ExStepSummary:1: Configura o formato de linha.
 //ExStepSummary:2: Configura as configurações de altura específicas.
-//ExStepSummary:3: Define o preenchimento de toda a tabela que afeta todas as linhas.
-//ExStepSummary:4: Escreve texto na célula da tabela e termina a linha.
-//ExStepSummary:5: Completa o processo de construção da mesa e salva o documento.
+//ExStepSummary:3: Seti de enchimento para toda a mesa que afeta todas as fileiras.
+//ExStepSummary:4: Escreve texto na célula da mesa e termina a linha.
+//ExStepSummary:5: Completar o processo de construção da mesa e salvar o documento.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -17,31 +17,31 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Iniciar uma nova mesa
+// Comece uma nova mesa
 Table table = builder.StartTable();
-// Inserir uma nova célula na tabela
+// Insira uma nova célula na tabela
 builder.InsertCell();
 //ExStep:2-
-// Acessar as propriedades de formatação de linha
+// Acesse as propriedades de formatamento de linha
 RowFormat rowFormat = builder.RowFormat;
-// Definir a altura da linha
+// Defina a altura da fila
 rowFormat.Height = 100;
 // Especifique que a altura é exata
 rowFormat.HeightRule = HeightRule.Exactly;
 
 //ExStep:3-
-// Set padding para a mesa
+// Coloque um pavimento para a mesa
 table.LeftPadding = 30; 
 table.RightPadding = 30;
 table.TopPadding = 30;
 table.BottomPadding = 30;
 
 //ExStep:4-
-// Escrever texto na célula
+// Escreva texto na célula
 builder.Writeln("I'm a wonderful formatted row.");
-// Fim da linha atual
+// Acabar a linha atual
 builder.EndRow();
-// Acabar com o edifício da mesa
+// Acabar com a mesa .
 builder.EndTable();
 
 //ExStep:5-

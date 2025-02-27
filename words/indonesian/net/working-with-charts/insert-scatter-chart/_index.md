@@ -1,8 +1,8 @@
 ---
-title: Buat Pepecahan Word Chart Menggunakan Aspose.Words untuk .NET
+title: Buat Chart Scatter Word menggunakan Aspose.Words untuk .NET
 weight: 7700
 limit: 
-description: Pelajari bagaimana membuat dokumen Word dengan bagan sebar menggunakan Aspose.Words untuk .NET. Step-by-step guide dengan kode dan instruksi disertakan.
+description: Pelajari cara membuat dokumen Word dengan grafik penyebaran menggunakan Aspose.Words untuk .NET. panduan langkah demi langkah dengan kode dan instruksi yang termasuk.
 keywords: [Aspose.Words for .NET, scatter chart, Word scatter chart, create scatter chart, insert chart in Word, .NET Word document, document builder]
 url: /id/net/working-with-charts/insert-scatter-chart/
 ---
@@ -10,9 +10,9 @@ url: /id/net/working-with-charts/insert-scatter-chart/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buat Pepecahan Word Chart Menggunakan Aspose.Words
+# Buat Chart Scatter Word dengan menggunakan Aspose.Words
 
-aspose.Words untuk .NET menyederhanakan pembuatan dan memanipulasi dokumen Word programmatically. Contoh ini menunjukkan bagaimana menyisipkan sebuah bagan tersebar ke dalam dokumen Word. Dengan menginisialisasi sebuah dokumen, menggunakan`Pembangun Dokumen`untuk pembuatan konten, dan menyisipkan bagan data programmatik, Anda dapat secara efisien menambahkan grafik penyebar profesional ke dokumen Anda. Dengan API intuitif, Aspose.Words streamlines dokumen otomatisasi untuk .NET, menghemat waktu dan upaya.  
+Aspose.Words untuk .NET mempermudah pembuatan dan manipulasi dokumen Word secara programatik. Contoh ini menunjukkan bagaimana memasukkan grafik penyebaran ke dalam dokumen Word. Dengan menginisialisasi dokumen, menggunakan `DocumentBuilder`untuk pembuatan konten, dan memasukkan data grafik secara programatik, Anda dapat secara efisien menambahkan grafik penyebaran kelas profesional ke dokumen Anda. Dengan API intuitifnya, Aspose.Words mempermudah otomatisasi dokumen untuk pengembang .NET, menghemat waktu dan usaha.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-scatter-chart" >}}
@@ -20,31 +20,31 @@ aspose.Words untuk .NET menyederhanakan pembuatan dan memanipulasi dokumen Word 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instruksi Instalasi  
-Untuk menjalankan contoh ini, ikutilah langkah-langkah ini:  
+Untuk menjalankan contoh ini, ikuti langkah-langkah ini:  
 
-1. Unduh dan Instal Apose.Words untuk .NET  
-   * Unduh pustaka dari situs web aspose resmi:[aspose.Words untuk .NET Unduhan](https://releases.aspose.com/words/net/).  
-   * Pasang melalui Manajer Paket NuGet:  
+1. Unduh dan Instal Aspose.Words untuk .NET  
+   * Unduh perpustakaan dari situs resmi Aspose: [Aspose.Words untuk Download .NET](https://releases.aspose.com/words/net/)Aku tidak tahu.  
+   * Instal melalui NuGet Package Manager:  
      ```bash  
      Install-Package Aspose.Words  
      ```  
 
-2. Persiapkan Lingkungan Pengembangan Anda  
-   * Buka IDE .NET Anda (misalnya, Studio Visual).  
-   * Buat Aplikasi Konsol baru atau gabungkan ke dalam projek yang telah ada.  
-   * Tambahkan referensi ke Apose.Words untuk .NET library.  
+2. Buatlah Lingkungan Perkembangan Anda  
+   * Buka IDE .NET Anda (misalnya, Visual Studio).  
+   * Buat Aplikasi Konsol baru atau integrasikan ke dalam proyek yang ada.  
+   * Tambahkan referensi ke Aspose.Words untuk perpustakaan .NET.  
 
-3. Terapkan Lisensi  
-   * Jika Anda memiliki lisensi, terapkan dalam proyek Anda menggunakan:  
+3. Minta Izin  
+   * Jika Anda memiliki lisensi, gunakan untuk proyek Anda menggunakan:  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("Your_License_File.lic");  
      ```  
-   * Atau, mendapatkan[lisensi sementara bebas](https://purchase.aspose.com/temporary-license/)untuk menguji perpustakaan.
+   * Atau, dapatkan [lisensi sementara gratis](https://purchase.aspose.com/temporary-license/)untuk menguji perpustakaan.
 
-## Juga Lihat
-[aspose.Word untuk .NET Dokumentasi](https://docs.aspose.com/words/net/)
-[aspose.Word untuk referensi .NET](https://reference.aspose.com/words/net/)
+## Lihat juga
+[Aspose.Word untuk Dokumen .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word untuk Referensi .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

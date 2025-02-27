@@ -1,25 +1,25 @@
 //ExStart
-//ExSummary: このコードは、Asfof.words を使ってワード文書を作成する方法を示します。 
-//ExStepSummary:0: コンテンツを保持する新しい文書オブジェクトを作成します。
-//ExStepSummary:1: ドキュメントのレイアウトをデザインし、メッセージを挿入するには、ドキュメントビルダーを使用します。
-//ExStepSummary:2: ドキュメントに横線の形状を挿入します。
-//ExStepSummary:3: ドキュメントを指定したファイルパスに保存します。
+//ExSummary: このコードではAspose.Wordsを使用してWord文書を作成し,水平ルールを追加する方法を示します. 
+//ExStepSummary:0: コンテンツを保持するために新しいドキュメントオブジェクトを作成します.
+//ExStepSummary:1: ドキュメントのレイアウトを設計してメッセージを挿入するには DocumentBuilder を使用します.
+//ExStepSummary:2: 文書に水平規則形を挿入する.
+//ExStepSummary:3: 文書を指定したファイルパスに保存します.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// コンテンツを保持する新しい文書オブジェクトを作成します
+// コンテンツを保持するために新しいドキュメントオブジェクトを作成する
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc); 
 
 //ExStep:1-
-// 文書に行を書き込む
+// 文書に一行を書いてください
 builder.Writeln("Insert a horizontal rule shape into the document.");
 
 //ExStep:2-
-// ドキュメントに横線の形状を挿入
+// 文書に水平規則形を挿入する
 builder.InsertHorizontalRule();
 
 //ExStep:3-
-// ドキュメントを指定した場所に保存
+// 文書を指定された場所に保存する
 doc.Save("AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
 //ExEnd

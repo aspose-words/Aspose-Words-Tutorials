@@ -1,8 +1,8 @@
 ---
-title: Fügen Sie ein einfaches Spaltendiagramm in Word Aspose.Words für .NET ein
+title: Ein einfaches Spaltendiagramm in Word mit Aspose.Words für .NET einfügen
 weight: 7700
 limit: 
-description: Erfahren Sie, wie Sie ein einfaches Spaltendiagramm mit Aspose.Words für .NET in ein Word-Dokument einfügen. Folgen Sie Schritt für Schritt Anweisungen, um Ihr Diagramm zu erstellen und anzupassen.
+description: Erfahren Sie, wie Sie ein einfaches Spaltendiagramm in ein Word-Dokument mit Aspose.Words für .NET einfügen. Folgen Sie Schritt-für-Schritt-Anweisungen, um Ihr Diagramm zu erstellen und anzupassen.
 keywords: [Aspose.Words for .NET, insert column chart, create Word chart, .NET Word chart example, Word document chart, Aspose chart example]
 url: /de/net/working-with-charts/insert-simple-column-chart/
 ---
@@ -10,32 +10,32 @@ url: /de/net/working-with-charts/insert-simple-column-chart/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Fügen Sie ein einfaches Spaltendiagramm in Word Aspose.Words ein
+# Ein einfaches Spaltendiagramm in Word mit Aspose.Words einfügen
 
-Aspose.Words für .NET macht es mühelos, professionelle Word-Dokumente mit reichhaltigen Inhalten zu erstellen. In diesem Tutorial lernen Sie, wie Sie ein einfaches Spaltendiagramm in ein Word-Dokument programmatisch einfügen. Wir decken jeden Schritt ab, von der Initialisierung des Dokuments bis zur Anpassung der Diagrammreihen und dem Speichern der Datei. Ob Sie Berichte generieren oder Daten visualisieren, diese Anleitung bietet alle Details, die Sie benötigen, um Diagrammeinfügung mit Aspose.Words für .NET zu meistern.  
+Aspose.Words für .NET macht es mühelos, professionelle Word-Dokumente mit reichhaltigem Inhalt zu erstellen. In diesem Tutorial lernen Sie, wie Sie ein einfaches Spaltendiagramm programmatisch in ein Word-Dokument einfügen. Wir behandeln jeden Schritt, von der Initialisierung des Dokuments über die Anpassung der Diagrammserien bis hin zur Speicherung der Datei. Ob Sie Berichte erstellen oder Daten visualisieren, dieser Leitfaden bietet alle Details, die Sie benötigen, um die Diagramminsetzung mit Aspose.Words für .NET zu meistern.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-simple-column-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Installationshinweise  
-Um dieses Beispiel zu verwenden, stellen Sie sicher, dass Aspose.Words für .NET installiert ist. Folgen Sie diesen Schritten:  
+## Installationsanweisungen  
+Um dieses Beispiel zu verwenden, stellen Sie sicher, dass Sie Aspose.Words für .NET installiert haben. Folgen Sie diesen Schritten:  
 
-1. Aspose.Words für .NET herunterladen:  
-   Besuch[Aspose.Words für .NET herunterladen](https://releases.aspose.com/words/net/)und laden Sie die neueste Version herunter.  
+1. Laden Sie Aspose.Words für .NET herunter:  
+   Besuch[Aspose.Words für .NET Download](https://releases.aspose.com/words/net/)und die neueste Version herunterladen.  
 
 2. Installieren Sie die Bibliothek:  
-   * Fügen Sie das Aspose.Words NuGet Paket zu Ihrem Projekt hinzu. Führen Sie den folgenden Befehl in der NuGet Package Manager Console aus:  
+   * Fügen Sie das NuGet-Paket Aspose.Words zu Ihrem Projekt hinzu. Fügen Sie im NuGet-Paketmanager-Konsole folgende Befehl aus:  
      ```sh
      Install-Package Aspose.Words
      ```  
-   * Alternativ fügen Sie die`.dll .dll .dll .dll .dll .dll .dll .dll .dll .dll .dll .dll .dll .dll .dll .dll .dll .dll .dll .dll .dll .dll .dll .dll .dll .dll .dll .dll .dll`Dateien zu Ihren Projektreferenzen manuell.  
+   * Alternativ hinzufügen `.dll`Sie können die Daten manuell an Ihre Projektreferenzen weiterleiten.  
 
-3. Erhalten Sie eine Lizenz:  
-   * Erhalten Sie eine Lizenz von[Kauf anordnen](https://purchase.aspose.com/buy)oder fordern Sie einen kostenlosen Test an[Freie Prüfung beantragen](https://releases.aspose.com/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+3. Holen Sie sich eine Lizenz:  
+   * Holen Sie sich eine Lizenz von [Kauf in Absicht](https://purchase.aspose.com/buy)oder eine kostenlose Prüfung von [Werfen Sie sich eine kostenlose Prüfung vor](https://releases.aspose.com/)\- Ich weiß .  
 
-4. Die Lizenz anwenden:  
+4. Anmeldung der Lizenz:  
    Fügen Sie den folgenden Code zu Ihrem Projekt hinzu, um die Lizenz zu aktivieren:  
    ```csharp
    License license = new License();

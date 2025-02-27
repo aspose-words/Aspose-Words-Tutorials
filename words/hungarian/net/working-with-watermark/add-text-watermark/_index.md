@@ -1,8 +1,8 @@
 ---
-title: Szöveges vízjel hozzáadása a Word dokumentumban az Aspose.Words for .NET használatával
+title: Töltse hozzá a szöveg vízjelzőt a Word dokumentumhoz Az Aspose.Words használatával a .NET-hez
 weight: 7700
 limit: 
-description: Ismerje meg, hogyan adhat hozzá egy szöveges vízjelet a Word dokumentumhoz az Aspose.Words for .NET használatával. Kövesse az egyszerű lépéseket a dokumentum testreszabásához és mentéséhez.
+description: Tanuljon meg, hogyan adjon hozzá egy szöveges vízjelzőt egy Word dokumentumhoz, a .NET-hez használt Aspose.Words segítségével. Kövesse az egyszerű lépéseket a dokumentum személyre szabásához és mentéséhez.
 keywords: [Aspose.Words for .NET, add watermark, text watermark, Word document, watermark customization, .NET example, document processing]
 url: /hu/net/working-with-watermark/add-text-watermark/
 ---
@@ -10,37 +10,37 @@ url: /hu/net/working-with-watermark/add-text-watermark/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szöveg vízjel hozzáadása a Word dokumentumban az Aspose.Words használatával
-Szöveges vízjel hozzáadása a Word dokumentumhoz egy egyszerű folyamat az Aspose.Words for .NET használatával. Ez a bemutató bemutatja, hogyan kell testreszabható szöveges vízjelet alkalmazni a dokumentumra. Olyan funkciókkal, mint a betűcsalád, a méret, a szín, az elrendezés és az átláthatóság ellenőrzése, testreszabhatja a vízjelet a pontos igényekhez. Legyen szó márkaépítésről, titoktartásról vagy esztétikáról, az Aspose.Words egyszerűvé teszi a dokumentumok professzionális vízzel történő javítását.  
+# A szöveg vízjelét a Word dokumentumhoz Aspose.Words segítségével adjuk hozzá
+A szöveges vízjelző hozzáadása a Word dokumentumhoz egy egyszerű folyamat a .NET-hez Aspose.Words használatával. Ez a tanár bemutatja, hogyan lehet egy személyre szabható szöveges vízjelzőt alkalmazni a dokumentumra. A betűcsalád, mérete, szín, elrendezés és átláthatósági ellenőrzésehez hasonló funkciók segítségével a vízjelzőt a saját igényeihez szabhatja.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-watermark/add-text-watermark" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Telepítési útmutató  
-1. Letöltés Aspose.Words .NET:  
-   Szerezd meg a legújabb verziót a[Aspose Letöltések oldal](https://releases.aspose.com/words/net/)Nem.  
+## A telepítési utasítások  
+1. Letöltsd le az Aspose.Words .NET-hez:  
+   Kapd a legújabb verziót a [Célrahelyezd a letöltések oldalt](https://releases.aspose.com/words/net/)\- Nem.  
 
-2. Telepítés a NuGet-en keresztül:  
-   * Nyissa meg a Visual Studio projektet.  
-   * Keresse meg a NuGet csomagkezelőt (Eszközök > NuGet csomagkezelő > NuGet csomagok kezelése megoldáshoz).  
-   * Keresse meg az "Aspose.Words" kifejezést, majd kattintson a Telepítés gombra.  
+2. A NuGet segítségével telepítse:  
+   * Nyissa ki a Visual Studio projektét.  
+   * Menjen át a NuGet csomagkezelőhez (felszerelések > NuGet csomagkezelő > A NuGet csomagok kezelése megoldás).  
+   * Keresd a "Aspose.Words" és kattintson Install.  
 
-3. Névtérhivatkozások hozzáadása:  
-   Adja hozzá a következő névteret a kódfájl tetején:  
+3. Adjon névhely hivatkozásokat:  
+   Adja be a következő névterületet a kódfájl tetején:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    using System.Drawing;
    ```  
 
-4. Licenc alkalmazása (opcionális):  
-   A teljes verzió használata,[licensz alkalmazása](https://purchase.aspose.com/temporary-license/)vagy használja a[ingyenes próbaverzió](https://releases.aspose.com/)Nem.  
+4. A licenc alkalmazása (Felhetős):  
+   Hogy a teljes verziót használhassuk,[engedélyt kell alkalmazni](https://purchase.aspose.com/temporary-license/)vagy használjon egy [ingyenes próba](https://releases.aspose.com/)\- Nem.  
 
-## Lásd még
-[Aspose.Word for .NET dokumentáció](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referenciák](https://reference.aspose.com/words/net/)
+## Lásd:
+[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

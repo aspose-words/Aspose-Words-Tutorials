@@ -1,20 +1,20 @@
 //ExStart
-//ExSummary: Deze code laat zien hoe je een Word-document kunt maken met een gestyleerde tabel met behulp van Aspose.Words. De tabel bevat headers en gegevensrijen, geformatteerd volgens specifieke stijlopties.
-//ExStepSummary:0: Initialiseer een nieuw Document en DocumentBuilder voor het beheren van de documentstructuur.
+//ExSummaryDeze code toont hoe een Word-document met een stijltabel met behulp van Aspose.Words kan worden gemaakt.
+//ExStepSummary:0: Initieel een nieuw Document en DocumentBuilder voor het beheren van de documentstructuur.
 //ExStepSummary:1: Start een nieuwe tabel in het document met de DocumentBuilder.
-//ExStepSummary:2: Voer de eerste cel in en stel de tabelstijl-identificatie in.
-//ExStepSummary:3: Opmaakopties toepassen op de tabel en auto-fit gedrag instellen.
-//ExStepSummary:4: Voeg header rij cellen aan de tabel.
-//ExStepSummary:5: Gegevensrijen in de tabel met itemnamen en -hoeveelheden invoegen.
-//ExStepSummary:6: Het samengevoegde document opslaan in een bestand.
+//ExStepSummary:2: Voer de eerste cel in en stel de tabelstijl-identificator in.
+//ExStepSummary:3: Toepassen van opmaak opties op de tabel en instellen van auto-fit gedrag.
+//ExStepSummary:4: Voeg hoofdlijncellen toe aan de tabel.
+//ExStepSummary:5: Voeg gegevensreeksjes in de tabel met itemnamen en hoeveelheden.
+//ExStepSummary:6: Bewaar het samengestelde document in een bestand.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
 //ExStepImage:5:images/4.png
 //ExStep:0-
-// Een nieuw document-object aanmaken.
+// Maak een nieuw Document object.
 Document doc = new Document();
-// Maak een bouwer aan om het genereren van documenten te vergemakkelijken.
+// Creëer een constructeur om documenten te genereren.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
@@ -24,38 +24,38 @@ Table table = builder.StartTable();
 //ExStep:2-
 // Voer de eerste cel in voordat u de opmaak instelt.
 builder.InsertCell();
-// Stel de stijl-identifier in voor de tabel.
+// Stel de stijl-identificatie voor de tafel in.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
 
 //ExStep:3-
-// Stijlopties configureren.
+// Configureer stijlopties.
 table.StyleOptions = 
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
-// Stel het automatische gedrag van de tafel in.	
+// Stel het auto-fit gedrag van de tafel.	
 table.AutoFit(AutoFitBehavior.AutoFitToContents);
 
 
 //ExStep:4-
-// Schrijf de koptekst voor de eerste kolom.
+// Schrijf de kop voor de eerste kolom.
 builder.Writeln("Item");
-// Zet rechts opvulling voor de cel.
+// Stel de cel goed op.
 builder.CellFormat.RightPadding = 40;
-// De tweede cel invoegen voor de volgende kolom.
+// Voeg de tweede cel in voor de volgende kolom.
 builder.InsertCell();
-// Schrijf de koptekst voor de tweede kolom.
+// Schrijf de kop voor de tweede kolom.
 builder.Writeln("Quantity (kg)");
-// Beëindig de rij aanmaak.
+// Beëindigen van de rij creatie.
 builder.EndRow();
 
 //ExStep:5-
-// Start een nieuwe rij en plaats de eerste cel.
+// Start een nieuwe rij en voeg de eerste cel in.
 builder.InsertCell();
 builder.Writeln("Apples");
 builder.InsertCell();
 builder.Writeln("20");
 builder.EndRow();
- // Plaats de eerste cel van een nieuwe rij voor het tweede item.
+ // Voeg de eerste cel van een nieuwe rij in voor het tweede item.
 builder.InsertCell();
 builder.Writeln("Bananas");
 builder.InsertCell();
@@ -69,6 +69,6 @@ builder.Writeln("50");
 builder.EndRow();
 
 //ExStep:6-
-// Het document opslaan in een opgegeven bestand.
+// Bewaar het document in een bepaald bestand.
 doc.Save("WorkingWithTableStylesAndFormatting.BuildTableWithStyle.docx");
 //ExEnd

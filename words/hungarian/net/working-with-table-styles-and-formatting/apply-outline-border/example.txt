@@ -1,43 +1,43 @@
 //ExStart
-//ExSummary: Ez a kód azt mutatja be, hogyan kell alkalmazni egy vázlatos szegélyt egy Word dokumentumban lévő táblára az Aspose.Words használatával. A táblázatot az oldalra helyezi, zöld szegélyt állít be az asztal körül, törli a meglévő határokat, és kitölti a táblázatcellákat világos zöld háttérszínnel. 
-//ExStepSummary:0: A következő kód inicializálja a dokumentumot, és beolvassa az első táblát.
-//ExStepSummary:1: Ez a lépés a táblázatot az oldal közepére igazítja.
-//ExStepSummary:2: Ez a lépés törli a meglévő határokat az asztalról.
-//ExStepSummary:3: Ez a lépés zöld határt állít fel az asztal körül, de nem belül.
-//ExStepSummary:4: Ez a lépés világoszöld, szilárd színnel tölti ki a sejteket.
+//ExSummary: Ez a kód bemutatja, hogyan kell egy Word dokumentumban a táblázatra egy körvonalas határot alkalmazni az Aspose.Words segítségével. Ez a táblázatot a oldalra szentrálja, zöld határot állít a táblázat körül, tisztítja a meglévő határokat, és a táblázat sejtjeit egy világos zöld háttérszínrel töltötte be. 
+//ExStepSummary:0: A következő kód az első táblázatot is előkészíti.
+//ExStepSummary:1: Ez a lépés az asztalot a oldal közepébe igazítja.
+//ExStepSummary:2: Ez a lépés minden meglévő határot eltávolítja a táblázatból.
+//ExStepSummary:3: Ez a lépés zöld határot állít a asztal körül, de nem belülről.
+//ExStepSummary:4: Ez a lépés egy fényzöld szilárd színrel töltötte be a sejteket.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// A dokumentum könyvtárának megadása
+// A dokumentum címlapjának meghatározása
 string dataDir = "Your Document Directory";
-// A dokumentum betöltése
+// Töltse be a dokumentumot
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// Az első táblázat letöltése a dokumentumból
+// Az első táblázat a dokumentumból
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
-// A táblázat igazítása az oldal közepére
+// A táblázat a oldal közepén álljon
 table.Alignment = TableAlignment.Center;
 
 //ExStep:2-
-// Törölje a meglévő határokat az asztalról
+// Takarítson ki a táblázaton a meglévő határokat.
 table.ClearBorders();
 
 //ExStep:3-
-// Bal oldali szegély beállítása
+// A bal határ
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
-// Jobb oldali szegély beállítása
+// A jobb határ
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
-// Felső határ beállítása
+// A felső határ
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
-// Alsó szegély beállítása
+// Beállított alsó határ
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
 //ExStep:4-
-// Töltse fel a sejteket világos zöld színnel
+// Töltsük a cellákat fényzöld színben
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
-// A módosított dokumentum mentése
+// A módosított dokumentumot mentse meg
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
 //ExEnd

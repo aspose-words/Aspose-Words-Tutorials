@@ -1,45 +1,45 @@
 //ExStart
-//ExSummary: Aşağıdaki kod, Aspose.Words'tan DocumentBuilder sınıfını kullanarak bir Word belgesinde bir tablonun nasıl oluşturulacağını ve biçimlendirileceğini gösterir.
-//ExStepSummary:0: Word belgesini oluşturmaya başlamak için yeni bir Belge ve Belge Oluşturucuyu başlatın.
+//ExSummary: Aşağıdaki kod, Aspose.Words den DocumentBuilder sınıfını kullanarak Word belgesinde bir tablo oluşturmanın ve biçimlendirme yapmanın nasıl olduğunu gösterir.
+//ExStepSummary:0: Word belgesini oluşturmaya başlamak için yeni bir Belge ve Belge Oluşturucu'nu başlatın.
 //ExStepSummary:1: Bir tablo oluşturun ve biçimlendirme için bir hücre ekleyin.
-//ExStepSummary:2: Dolgu ve genişlik dahil olmak üzere hücrenin biçimlendirme özelliklerini ayarlayın.
-//ExStepSummary:3: Biçimlendirilmiş hücreye metin ekle.
-//ExStepSummary:4: Satır ve tabloyu sonlandırın ve belgeyi belirtilen bir dosya yoluna kaydedin.
+//ExStepSummary:2: Hücre için formatlama özelliklerini, dolgu ve genişliği de dahil olarak ayarlayın.
+//ExStepSummary:3: Formate edilen hücreye metin ekle.
+//ExStepSummary:4: Satır ve tabloyu bitirin ve belgeyi belirtilen bir dosya yoluna kaydetin.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Yeni bir Belge nesnesi oluşturma
+// Yeni Belge nesnesini oluşturmak
 Document doc = new Document();
-// DocumentBuilder yeni Document ile başlatılıyor
+// Yeni Belge ile DocumentBuilder'i başlatmak
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Bir tablo oluşturmaya başla
+// Bir masa oluşturmaya başlayın
 builder.StartTable();
-// İlk hücreyi tabloya ekle
+// İlk hücreyi masaya yerleştir
 builder.InsertCell();
 
 //ExStep:2-
-// Hücrenin biçimlendirme özelliklerine erişme
+// Hücre biçimlendirme özelliklerine erişmek
 CellFormat cellFormat = builder.CellFormat;
-// Hücre genişliğinin ayarlanması
+// Hücre genişliğini ayarlamak
 cellFormat.Width = 250;
-// Dolguyu ayarla
+// Doldurma ayarlayın .
 cellFormat.LeftPadding = 30;
 cellFormat.RightPadding = 30;
 cellFormat.TopPadding = 30;
 cellFormat.BottomPadding = 30;
 
 //ExStep:3-
-// Hücreye metin ekleme
+// Hücreye metin ekle
 builder.Writeln("I'm a wonderful formatted cell.");
 
 //ExStep:4-
-// Tablonun geçerli sırasını sonlandırmak
+// Tablonun mevcut satırının sonunu
 builder.EndRow();
-// Tablo oluşturulmasının sona ermesi
+// Tablo oluşturulmasını sonlandırmak
 builder.EndTable();
-// Belge kaydediliyor
+// Belgeyi kaydetmek
 doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");
 //ExEnd

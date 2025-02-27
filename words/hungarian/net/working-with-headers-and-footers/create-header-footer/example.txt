@@ -1,27 +1,27 @@
 //ExStart
-//ExSummary: Ez a kód bemutatja, hogyan hozhat létre Word dokumentumot elsődleges fejléc és lábléc segítségével Aspose.Words. Ez inicializálja az új dokumentumot, mozog a fejléc és a lábléc szakaszok, és írja az egyéni szöveget. Végül menti a dokumentumot DOCX fájlként.
-//ExStepSummary:0: A következő kód inicializálja a fő dokumentum objektumot, és beállítja a DocumentBuildert.
-//ExStepSummary:1: A következő kód az elsődleges fejléc szakaszba lép, és megírja a fejléc szövegét.
-//ExStepSummary:2: A következő kód az elsődleges láblécre lép, és megírja a lábléc szövegét.
-//ExStepSummary:3: A következő kód a dokumentumot egy megadott fájl elérési útjára menti.
+//ExSummaryA kód bemutatja, hogyan lehet létrehozni egy Word dokumentumot az Aspose.Words használatával elsődleges fejleten és lábjegyen. Új dokumentumot indít, a fejleten és lábjegyen, valamint a személyre szabott szöveget ír. Végül a dokumentumot DOCX fájlként mentheti meg.
+//ExStepSummary:0: A következő kód az elsődleges dokumentum objektumot indítja és beállítja a DocumentBuilder-t.
+//ExStepSummary:1: A következő kód a fő főcímcsoportra költöz és írja a cím szövegét.
+//ExStepSummary:2: A következő kód a fő lábjegyzet részére lép és a lábjegyzet szövegét írja.
+//ExStepSummary:3: A következő kód az adott fájl útvonalba tárolja a dokumentumot.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Új dokumentumobjektum inicializálása
+// Indítsa be az új Dokumentum objektumot
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Ugrás az elsődleges fejléc szakaszra
+// Átjutjon az elsődleges fejlettségre
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Write("Header for page.");
 
 //ExStep:2-
-// Ugrás az elsődleges lábléc szakaszra
+// Átjutjon a fő lábjegyző részre
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("Footer for page."); // Write the footer text
 
 //ExStep:3-
-// A dokumentum mentése a megadott fájlnévvel
+// A dokumentumot a megadott fájlnevet tartalmazó tárolása
 doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
 //ExEnd

@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο Word με ένα στυλ πίνακα χρησιμοποιώντας Aspose.Words. 
-//ExStepSummary:0: Αρχικοποιήστε ένα νέο Document and DocumentBuilder.
-//ExStepSummary:1: Ξεκινήστε ένα νέο πίνακα και εισάγετε κελιά κεφαλίδας για "Όνομα" και "Αξία."
-//ExStepSummary:2: Δημιουργήστε ένα προσαρμοσμένο TableStyle με συγκεκριμένα σύνορα και padding ρυθμίσεις.
-//ExStepSummary:3: Αποθήκευση του εγγράφου με το νέο στυλ πίνακα που εφαρμόζεται.
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο Word με έναν πίνακα με στυλ χρησιμοποιώντας το Aspose.Words. 
+//ExStepSummary:0: Ξεκινήστε ένα νέο Document και DocumentBuilder.
+//ExStepSummary:1: Ξεκινήστε ένα νέο πίνακα και εισαγάγετε κελιά κεφαλής για "Ναμ" και "Αξία".
+//ExStepSummary:2: Δημιουργήστε ένα προσαρμοσμένο TableStyle με συγκεκριμένες ρυθμίσεις περιθωρίου και συμπλήρωσης.
+//ExStepSummary:3: Αποθηκεύστε το έγγραφο με το νέο στυλ του πίνακα που εφαρμόζεται.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Δημιουργία ενός νέου αντικειμένου εγγράφου
+// Δημιουργήστε ένα νέο αντικείμενο εγγράφου
 Document doc = new Document();
-// Αρχικοποίηση του DocumentBuilder για την κατασκευή του εγγράφου
+// Αρχιτοποιήστε το DocumentBuilder για να δημιουργήσετε το έγγραφο
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Ξεκινήστε ένα νέο τραπέζι
+// Ξεκινήστε ένα νέο τραπέζι .
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Name");
@@ -25,20 +25,20 @@ builder.InsertCell();
 builder.EndTable();
 
 //ExStep:2-
-// Δημιουργία νέου στυλ τραπεζιού
+// Δημιουργήστε ένα νέο στυλ τραπεζιού
 TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Borders.LineStyle = LineStyle.Double;
-// Ορισμός του πλάτους των συνόρων
+// Εναρμηνεύστε το πλάτος της συνοχής
 tableStyle.Borders.LineWidth = 1;
-// Ρυθμίστε την επένδυση
+// Ετοιμάστε το θήκημα
 tableStyle.LeftPadding = 18;
 tableStyle.RightPadding = 18;
 tableStyle.TopPadding = 12;
 tableStyle.BottomPadding = 12;
-// Εφαρμόστε το προσαρμοσμένο στυλ πίνακα στο δημιουργημένο πίνακα
+// Εφαρμόστε το δίσκο του πίνακα στο δημιουργημένο πίνακα
 table.Style = tableStyle;
 
 //ExStep:3-
-// Αποθήκευση του εγγράφου με το στυλ τραπέζι
+// Αποθηκεύστε το έγγραφο με τον πίνακα με στυλ
 doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
 //ExEnd

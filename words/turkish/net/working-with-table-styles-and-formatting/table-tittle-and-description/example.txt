@@ -1,20 +1,20 @@
 //ExStart
-//ExSummary:Bu kod, Aspose.Words kullanarak bir Word belgesindeki bir tabloya başlık ve açıklamanın nasıl ekleneceğini gösterir.
-//ExStepSummary:0:Bu adım belgeyi başlatır ve belirtilen bir dizinden yükler.
-//ExStepSummary:1:Bu adım belgeden ilk tabloyu alır ve başlığını ve açıklamasını ayarlar.
-//ExStepSummary:2:Bu adım, belge için kaydedilen seçenekleri belirtilen uyumluluk ayarlarıyla yapılandırır.
-//ExStepSummary:3:Bu adım Word 2016 için belge için uyumluluk seçeneklerini optimize eder.
-//ExStepSummary:4:Bu adım değiştirilmiş belgeyi belirtilen dizine geri kaydeder.
+//ExSummary:Bu kod, Aspose.Words kullanarak Word belgesinde bir tabloya bir başlık ve açıklama nasıl ekleneceğini gösterir.
+//ExStepSummary:0:Bu adım belgeyi initialize eder ve belirtilen bir dizinden yükler.
+//ExStepSummary:1:Bu adım, belgedeki ilk tabloyu çıkarır ve başlık ve açıklamasını belirler.
+//ExStepSummary:2:Bu adım, belirtilen uyumluluk ayarları ile belge için kaydetme seçeneklerini yapılandırır.
+//ExStepSummary:3:Bu adım, Word 2016 için belgenin uyumluluk seçeneklerini optimize eder.
+//ExStepSummary:4:Bu adım değiştirilmiş belgeyi belirtilen dizinine geri kaydeder.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Belgeyi başlat ve veri dizininden yükle
+// Belgeyi başlatın ve veriler dizininden yükleyin
 string dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// İlk tabloyu alın ve başlığını ve açıklamasını ayarlayın
+// İlk tabloyu alın ve başlık ve açıklama ayarlayın
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 table.Title = "Test title";
 table.Description = "Test description";
@@ -28,6 +28,6 @@ OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.I
 doc.CompatibilityOptions.OptimizeFor(Aspose.Words.Settings.MsWordVersion.Word2016);
 
 //ExStep:4-
-// Değiştirilen belgeyi belirtilen dizine geri kaydet
+// Değiştirilmiş belgeyi belirtilen dizinine geri kaydet
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.TableTitleAndDescription.docx", options);
 //ExEnd

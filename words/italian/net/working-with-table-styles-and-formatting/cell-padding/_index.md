@@ -1,8 +1,8 @@
 ---
-title: Crea la cella della tabella di parole con l'imbottitura in Aspose.Words per .NET 
+title: Crea una cellula di tabella di parole con il padding in Aspose.Words per .NET 
 weight: 7700
 limit: 
-description: Imparare a creare un documento Word con una cella di tabella formattata compreso l'imbottitura personalizzata usando Aspose.Words per .NET. Seguire i passaggi di installazione facili.
+description: Impara come creare un documento Word con una cella di tabella formattata, inclusa la rivestimento personalizzato utilizzando Aspose.Words per .NET. Segui semplici passaggi di installazione.
 keywords: [Aspose.Words for .NET, table cell padding, formatted cell, Word document, .NET Word API, create Word table, table formatting, document builder, .NET example]
 url: /it/net/working-with-table-styles-and-formatting/cell-padding/
 ---
@@ -10,38 +10,38 @@ url: /it/net/working-with-table-styles-and-formatting/cell-padding/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crea la cella della tabella di parole con l'imbottitura in Aspese.Words
+# Crea la cellula di tabella di parole con l'inserimento di Aspose.Words
 
-Parole per .NET rende lavorare con documenti Word una brezza! Questo tutorial dimostra come creare una tabella di Word con una cella formattata che include imbottitura personalizzata. Utilizzando il potente`Costruisci documenti`classe, è possibile definire senza sforzo l'imbottitura per le celle da tavolo e aggiungere contenuti professionalmente formattati. Se si sta automatizzando la generazione di report, la costruzione di tabelle complesse, o la creazione di modelli di Word, Aspose.Words per .NET assicura che i vostri compiti sono efficienti e semplici.  
+Aspose.Words per .NET rende il lavoro con i documenti Word una brezza! Questo tutorial mostra come creare una tabella Word con una cella formattata che include rivestimenti personalizzati.`DocumentBuilder`Se si sta automatizzando la generazione di report, costruendo tabelle complesse o creando modelli Word, Aspose.Words per .NET assicura che i vostri compiti siano efficienti e semplici.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/cell-padding" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Istruzioni per l'installazione  
+## Instruzioni di installazione  
 Per eseguire l'esempio e utilizzare Aspose.Words per .NET, seguire questi passaggi:  
 
-1. Scarica Aspese.Parole per .NET  
-   Ricevi l'ultima versione di Aspese.Parole dal[Assume la pagina delle uscite](https://releases.aspose.com/words/net/).  
+1. Scarica Aspose.Words per .NET  
+   Scopri l'ultima versione di Aspose.Words dal sito [Aspose rilascia pagina](https://releases.aspose.com/words/net/)\- Non è vero .  
 
-2. Installa tramite NuGet Package Manager  
-   Aprire il progetto .NET in Visual Studio ed eseguire il seguente comando nella console di gestione dei pacchetti NuGet:  
+2. Installare tramite NuGet Package Manager  
+   Aprire il progetto .NET in Visual Studio e eseguire il seguente comando nella NuGet Package Manager Console:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-3. Imposta una versione temporanea o licenza  
-   * Ottenere una[licenza temporanea gratuita](https://purchase.aspose.com/temporary-license/)o acquistare una licenza completa dal[Sospendere la pagina di acquisto](https://purchase.aspose.com/buy).  
-   * Applicare la licenza nel vostro codice:  
+3. Crea una versione temporanea o con licenza  
+   * Ottenere un [licenza temporanea gratuita](https://purchase.aspose.com/temporary-license/)o acquistare una licenza completa presso il [Spetta Acquistare pagina](https://purchase.aspose.com/buy)\- Non è vero .  
+   * Applicare la licenza nel codice:  
      ```csharp
      var license = new Aspose.Words.License();
      license.SetLicense("Aspose.Words.lic");
      ```  
 
-## Vedere anche
-[Aspese.Parola per la documentazione .NET](https://docs.aspose.com/words/net/)
-[Aspese.Parola per riferimenti .NET](https://reference.aspose.com/words/net/)
+## Vedi anche
+[Aspose.Word per Documentazione .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word per i riferimenti .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

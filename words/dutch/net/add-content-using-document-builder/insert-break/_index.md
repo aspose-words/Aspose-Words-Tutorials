@@ -1,8 +1,8 @@
 ---
-title: Een Multi-Page Word-document aanmaken met Aspose.Words
+title: Maak een multi-pagina Word-document met Aspose.Words
 weight: 7700
 limit: 
-description: Leer hoe u een multi-pagina Word-document maakt met behulp van Aspose.Words voor .NET met stap-voor-stap instructies.
+description: Leer hoe je een multi-pagina Word-document kunt maken met behulp van Aspose.Words voor .NET met stapsgewijze instructies.
 keywords: [Aspose.Words, .NET, Word document, DocumentBuilder, page break, create document, programming example]
 url: /nl/net/add-content-using-document-builder/insert-break/
 ---
@@ -10,9 +10,9 @@ url: /nl/net/add-content-using-document-builder/insert-break/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Een Multi-Page Word-document aanmaken met Aspose.Words
+# Maak een multi-pagina Word-document met Aspose.Words
 
-Dit voorbeeld toont hoe u een Word-document kunt maken met behulp van Aspose.Words voor .NET, zodat u inhoud kunt toevoegen over meerdere pagina's. Het laat zien hoe u een nieuw document initialiseert, gebruik de DocumentBuilder om tekst en paginapauzes in te voegen, en tenslotte het document op te slaan als een .docx-bestand. Perfect voor ontwikkelaars die documentgeneratie willen automatiseren in hun .NET-toepassingen.
+Dit voorbeeld toont aan hoe u een Word-document kunt maken met behulp van Aspose.Words voor .NET, waarmee u inhoud kunt toevoegen over meerdere pagina's. Het toont aan hoe u een nieuw document kunt initialiseren, met behulp van de DocumentBuilder tekst en paginabreuken kunt inslaan en het document uiteindelijk als een .docx-bestand kunt opslaan. Perfect voor ontwikkelaars die documentgeneratie willen automatiseren in hun .NET- toepassingen.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-break" >}}
@@ -20,15 +20,15 @@ Dit voorbeeld toont hoe u een Word-document kunt maken met behulp van Aspose.Wor
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installatie-instructies
-1. Installeer Aspose.Words voor .NET: Gebruik NuGet Package Manager om Aspose.Words te installeren. Voer het volgende commando uit in de Package Manager Console:
+1. Installeer Aspose.Words voor .NET: Gebruik NuGet Package Manager om Aspose.Words te installeren.
 ```
 Install-Package Aspose.Words
 ```
 
 
 ## Zie ook
-[Aspose.Word voor .NET Documentatie](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referenties](https://reference.aspose.com/words/net/)
+[Aspose.Word voor .NET-documentatie](https://docs.aspose.com/words/net/)
+[Aspose.Word voor .NET Referenties](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

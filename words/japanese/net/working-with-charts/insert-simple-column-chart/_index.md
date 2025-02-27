@@ -1,8 +1,8 @@
 ---
-title: ワードアフェクトを使用する単純な列グラフを挿入. NET 用の用語
+title: .NET のAspose.Wordsを使用して Word に簡単な列表を挿入する
 weight: 7700
 limit: 
-description: Public domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainfalse domainfalse domainfalse domainfalse.
+description: .NET の Aspose.Words を使用して,Word ドキュメントに簡単な列表を挿入する方法について学びましょう.チャートを作成し,カスタマイズするにはステップバイ・ステップ指示に従ってください.
 keywords: [Aspose.Words for .NET, insert column chart, create Word chart, .NET Word chart example, Word document chart, Aspose chart example]
 url: /ja/net/working-with-charts/insert-simple-column-chart/
 ---
@@ -10,41 +10,41 @@ url: /ja/net/working-with-charts/insert-simple-column-chart/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ワードアフェクトを使用する単純な列グラフを挿入します。Do not translate the keyword between brackets (e.g. ServerName)
+# Aspose.Words を使って,単語の簡単な列表を挿入する
 
-アクセシビリティ.NET は、多くのコンテンツを持つプロのワードドキュメントを作成するのに手間を要します。このチュートリアルでは、単純な列グラフをプログラム的に挿入する方法を学びます。文書の初期化から、グラフ系列のカスタマイズやファイル保存まで、すべてのステップをカバーします。レポートを作成したり、データをビジュアルしたりするには、このガイドは Association を使って、グラフのマスターインタフェースのすべての詳細を提供します。  
+.NET の Aspose.Words は,豊富なコンテンツを持つプロのWord文書を作成する努力を無難にします.このチュートリアルでは,簡単なコラムチャートをWord文書にプログラム的に挿入する方法について学びます.ドキュメントの初期化からチャートのシリーズをカスタマイズし,ファイルを保存するまでのすべてのステップをカバーします.レポートを作成するかどうか,データ視覚化するかどうか,このガイドは .NET の Aspose.Words を使用してチャートの挿入をマスターするために必要なすべての詳細を提供します.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-simple-column-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## インストールインジケータ  
-この例を使用するには、 Asdom.NET 用の単語がインストールされていることを確認してください。次の手順に従ってください。  
+## 設置指示  
+この例を使用するには,NETのAspose.Wordsをインストールされていることを確認してください.  
 
-1. ダウンロード Asfoint. ^ a b c d e f g h i f g h i ". NET: a b c d e f g h i ".  
-   訪問[Asfoint. NET ダウンロードのための単語](https://releases.aspose.com/words/net/)を選択して、最新バージョンをダウンロードします。  
+1. .NET のためのAspose.Wordsをダウンロードする  
+   訪問[Aspose.Words を .NET でダウンロードする](https://releases.aspose.com/words/net/)ダウンロードする  
 
-2. ライブラリをインストール:  
-   * Asdom.nugetパッケージをプロジェクトに追加します。NuGet パッケージマネージャで以下のコマンドを実行:  
+2. 図書館をインストールする:  
+   * プロジェクトにAspose.Words NuGet パッケージを追加する. NuGet パッケージ管理コンソールで次のコマンドを実行する:  
      ```sh
      Install-Package Aspose.Words
      ```  
-   * または、`^ a b c d e f g h i c d e f g h i c d e f g h i c d e f g h e f g h i c d e f g h i c d e f g h e f g h i c d e f g h i c d e f g h i c d e f g h i c d e f g h i c d e f g h i c d e f g h i c d e f g h i c d e f g h "`ファイルを手動でプロジェクト参照します。  
+   * 代替的に, `ドル`プロジェクト参照のファイルを手動で  
 
-3. ライセンスを取得:  
-   * ライセンスを取得[買い入れ を する こと を 目的 と し た もの](https://purchase.aspose.com/buy))から無料の審理を求める[自由 な 裁判 を 行なう](https://releases.aspose.com/))をいう.  
+3. 免許を取得する  
+   * 免許を取得する[購入を目標に](https://purchase.aspose.com/buy)免費試行を依頼する[無料 な 試行 を 目指す](https://releases.aspose.com/)やってくれ  
 
-4. ライセンスを適用する:  
-   ライセンスを有効化するためのプロジェクトに次のコードを追加します:  
+4. ライセンス申請:  
+   ライセンスを有効にするには,次のコードをプロジェクトに追加します.  
    ```csharp
    License license = new License();
    license.SetLicense("path-to-your-license-file.lic");
    ```  
 
-## また、参照してください。
-[Asforce. NET ドキュメンテーション用用語](https://docs.aspose.com/words/net/)
-[access. ^ a b c d e f g h i ". NET インフォメーション".](https://reference.aspose.com/words/net/)
+## また見てください
+[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
+[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

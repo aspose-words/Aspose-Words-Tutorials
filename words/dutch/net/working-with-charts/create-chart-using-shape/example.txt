@@ -1,37 +1,37 @@
 //ExStart
-//ExSummary: Controleer de volgende code om te vinden hoe u een regeltabel in een Word- document maakt. U kunt deze code naar uw IDE kopiëren en uitvoeren.
-//ExStepSummary:0: De volgende code laat zien hoe je een nieuw Document aanmaakt en een DocumentBuilder initieert:
-//ExStepSummary:1: De volgende code laat zien hoe je een regeldiagram in het document invoegt:
-//ExStepSummary:2: De volgende code legt uit hoe de titel voor de grafiek moet worden ingesteld:
-//ExStepSummary:3: De volgende code laat zien hoe u de positie en overlay instellingen van de legende kunt configureren:
+//ExSummaryAls u een lijngrafiek in een Word-document wilt maken, kunt u deze code naar uw IDE kopiëren en uitvoeren.
+//ExStepSummary:0: De volgende code toont hoe een nieuw Document wordt gemaakt en een DocumentBuilder wordt geinstanceerd:
+//ExStepSummary:1: De volgende code toont aan hoe een lijngrafiek in het document wordt ingevoegd:
+//ExStepSummary:2: De volgende code geeft uitleg over de titel van de grafiek:
+//ExStepSummary:3: De volgende code toont hoe de positie en overlaaiinstellingen van de grafieklegende kunnen worden geconfigureerd:
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Een nieuw document-object aanmaken
+// Een nieuw Document object maken
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Plaats een lijndiagram in het document bij gespecificeerde afmetingen
+// Voeg een lijngrafiek in het document in bij de gespecificeerde afmetingen
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
 
 //ExStep:2-
-// Bekijk het grafiek-object vanuit de vorm
+// Toegang tot het Chart-object vanuit de vorm
 Chart chart = shape.Chart;
-// De titelweergave van de kaart inschakelen
+// De zichtbaarheid van de grafiektitels in staat stellen
 chart.Title.Show = true;
-// De titeltekst voor de grafiek instellen
+// Stel de titel van de grafiek in
 chart.Title.Text = "Line Chart Title";
 // Zorg ervoor dat de titel de grafiek niet overlapt
 chart.Title.Overlay = false;
 
 //ExStep:3-
-// Stel de positie van de legende in naar links
+// Stel de positie van de grafieklegende links
 chart.Legend.Position = LegendPosition.Left;
 chart.Legend.Overlay = true;
 
 //ExStep:4-
-// Het document met de grafiek opslaan in een bestand
+// Bewaar het document met de grafiek in een bestand
 doc.Save("WorkingWithCharts.CreateChartUsingShape.docx");
 //ExEnd

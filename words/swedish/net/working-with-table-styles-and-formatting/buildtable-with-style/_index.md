@@ -1,8 +1,8 @@
 ---
-title: Skapa stylade tabeller i ord med Aspose.Words för .NET
+title: Skapa stiltabbeller i Word med Aspose.Words för .NET
 weight: 7700
 limit: 
-description: Lär dig att skapa ett Word-dokument med en stilad tabell med Aspose.Words för .NET, inklusive rubriker och formaterade datarader.
+description: Lär dig att skapa ett Word-dokument med en stilbord med hjälp av Aspose.Words för .NET, inklusive rubriker och formaterade datar.
 keywords: [Aspose.Words, .NET, Word document, styled table, table formatting, DocumentBuilder, C# example, document generation]
 url: /sv/net/working-with-table-styles-and-formatting/buildtable-with-style/
 ---
@@ -10,35 +10,35 @@ url: /sv/net/working-with-table-styles-and-formatting/buildtable-with-style/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skapa stylade tabeller i ord med aspose.Words
+# Skapa stilgjorda tabeller i Word med Aspose.Words
 
-Detta exempel visar hur man skapar ett Word-dokument som innehåller ett formaterat bord med Aspose.Words för .NET. Det går igenom processen att ställa in ett nytt dokument, med hjälp av en`Dokumentuppbyggnad`för att hantera dokumentstruktur, och formatera en tabell med rubriker och datarader för att förbättra läsbarheten. Det resulterande dokumentet visar korrekt styling och formatering tekniker som kan tillämpas på tabeller, vilket gör innehållet tydligare och mer presentabelt.
+Detta exempel visar hur man skapar ett Word-dokument som innehåller en stilbord med hjälp av Aspose.Words för .NET.`Dokumentbyggare`För att förbättra läsbarheten, kan man hantera dokumentstrukturen och formatera en tabell med rubriker och data rader.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/apply-outline-border" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Monteringsanvisningar
-1. Ladda ner aspose.Words: Besök[Antaget.Ord för .NET](https://www.nuget.org/packages/Aspose.Words/)sida på NuGet och ladda ner den senaste versionen.
+## Installationsinstruktioner
+1. Ladda ner Aspose.Words: Besök webbplatsen [Aspose.Words för .NET](https://www.nuget.org/packages/Aspose.Words/)Se nuGet och ladda ner den senaste versionen.
 
-2. Skapa ett .NET-projekt: Öppna Visual Studio och skapa ett nytt konsol- eller klassbiblioteksprojekt.
+2. Skapa ett .NET-projekt: Öppna Visual Studio och skapa ett nytt Console- eller klassbibliotekprojekt.
 
 3. Lägg till NuGet- paket:
-   * Högerklicka på ditt projekt i Solution Explorer.
-   * Välj "Hantera NuGet-paket".
-   * Sök efter "Apose.Words" och klicka på "Install".
+   * Rättklicka på ditt projekt i lösningsexplorern.
+   * Välj "Manage NuGet Packages".
+   * Sök efter Aspose.Words och klicka på "Installa".
 
-4. Lägg till Obligatoriskt Använda Uttalanden: Inkludera de nödvändiga med hjälp av direktiv i din kodfil:
+4. Lägga till nödvändiga användarförklaringar: Inkludera de nödvändiga användardirektiven i kodfilen:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    ```
 
 
-## Se också
-[Antag.Ord för .NET-dokumentation](https://docs.aspose.com/words/net/)
-[Antaget.Ord för .NET-referenser](https://reference.aspose.com/words/net/)
+## Se även
+[Aspose.Word för .NET-dokumentation](https://docs.aspose.com/words/net/)
+[Aspose.Word för .NET Referenser](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

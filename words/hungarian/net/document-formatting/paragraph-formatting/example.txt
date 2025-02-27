@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary: Ez a kód bemutatja, hogyan formázhatja a bekezdéseket egy Word dokumentumban az Aspose.Words használatával. Megmutatja, hogyan állíthatja be a bekezdés formázási beállításait, például az igazítást, a behúzást és a szóközt egy bekezdés után.
-//ExStepSummary:0: Ez a lépés egy új dokumentumot és egy DocumentBuilder-t inicializál a dokumentum létrehozásához.
-//ExStepSummary:1: Ez a lépés beállítja a bekezdés formázási beállításait, beleértve az igazítást, a bal oldali behúzást, a jobb oldali behúzást és a bekezdés utáni szóközt.
-//ExStepSummary:2: Ez a lépés egy jól formázott bekezdést ír a megadott formázási beállításokkal a dokumentumhoz.
-//ExStepSummary:3: Ez a lépés egy másik formázott bekezdést ír, amely bemutatja a bekezdés utáni tér hatását.
+//ExSummaryA kód bemutatja, hogyan kell formátálni a bekezdéseket egy Word dokumentumban Aspose.Words segítségével.
+//ExStepSummary:0: Ez a lépés egy új dokumentumot és egy dokumentumépítőt indít a dokumentum létrehozásához.
+//ExStepSummary:1: Ez a lépés a bekezdés formázási lehetőségeket határozza meg, beleértve az összehangolásot, a bal, a jobb és a bekezdés után lévő helyet.
+//ExStepSummary:2: Ez a lépés egy jól formázott bekezdéset ír a dokumentumra a megadott formázási lehetőségekkel.
+//ExStepSummary:3: Ez a lépés egy másik formázott bekezdéset ír, amely a bekezdés után mutatja a tér hatását.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0- 
-// Új dokumentumpéldány létrehozása.
+// Készíts egy új Dokumentum példányt.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1- 
-// Állítsa be a bekezdésformázási beállításokat.
+// Beállítsa a bekezdés formázási lehetőségeket.
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;
 paragraphFormat.LeftIndent = 50;
@@ -21,16 +21,16 @@ paragraphFormat.RightIndent = 50;
 paragraphFormat.SpaceAfter = 25;
 
 //ExStep:2- 
-// Írja be az első formázott bekezdést.
+// Írd le az első formátumú bekezdést.
 builder.Writeln(
 	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
 
 //ExStep:3- 
-// Írja be a második formázott bekezdést.
+// Írd le a második formátumú bekezdést.
 builder.Writeln(
 	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
 
 //ExStep:4- 
-// Mentse a dokumentumot a megadott útvonalra.
+// A dokumentumot a megadott útvonalra mentse meg.
 doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
 //ExEnd

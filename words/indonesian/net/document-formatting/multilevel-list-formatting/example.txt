@@ -1,12 +1,12 @@
 //ExStart
-//ExSummary: Kode ini menunjukkan bagaimana membuat daftar multilevel dalam dokumen Word menggunakan Aspose.Words. Ini menginisialisasi sebuah dokumen, menerapkan format angka, menciptakan main dan sub-item, dan akhirnya menyimpan dokumen sebagai berkas .dox.
-//ExStepSummary:0: Kode berikut menginisialisasi sebuah dokumen baru dan Instansi Dokumen Builder.
-//ExStepSummary:1: Kode berikut menerapkan gaya bilangan baku pada daftar dan menambah butir tingkat atas.
-//ExStepSummary:2: Inden kode berikut untuk membuat sub-item di bawah item tingkat atas kedua.
-//ExStepSummary:3: Kode berikut lebih lanjut indentasi untuk membuat sub-sub-item dibawah sub- item kedua.
-//ExStepSummary:4: Outdents kode berikut kembali ke tingkat sebelumnya untuk menambahkan item lain pada tingkat kedua.
-//ExStepSummary:5: Kode berikut outdents kembali ke tingkat atas untuk menambahkan item akhir dalam daftar.
-//ExStepSummary:6: Kode berikut menghapus nomor dari daftar sebelum menyimpan.
+//ExSummaryKode ini menunjukkan cara membuat daftar multi-level dalam dokumen Word menggunakan Aspose.Words. Ini menginisialisasi dokumen, menerapkan format penumeran, membuat item utama dan sub, dan akhirnya menyimpan dokumen sebagai file .docx.
+//ExStepSummary:0: Kode berikut ini menginisialisasikan dokumen baru dan contoh DocumentBuilder.
+//ExStepSummary:1: Kode berikut menerapkan gaya penumeran standar ke daftar dan menambahkan item tingkat atas.
+//ExStepSummary:2: Indikator kode berikut untuk membuat subitem di bawah item tingkat atas kedua.
+//ExStepSummary:3: Kode berikut ini lebih lanjut tiruan untuk membuat sub-sub-item di bawah sub- item kedua.
+//ExStepSummary:4: Kode berikut kembali ke tingkat sebelumnya untuk menambahkan item lain di tingkat kedua.
+//ExStepSummary:5: Kode berikut kembali ke tingkat atas untuk menambahkan item akhir dalam daftar.
+//ExStepSummary:6: Kode berikut menghapus penumeran dari daftar sebelum disimpan.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -14,12 +14,12 @@
 //ExStepImage:5:images/5.png
 //ExStepImage:6:images/6.png
 //ExStep:0-
-// Inisialisasi dokumen baru
+// Mulai dokumen baru
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Terapkan format bilangan baku
+// Menggunakan format penumbar standar
 builder.ListFormat.ApplyNumberDefault();
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
@@ -31,23 +31,23 @@ builder.Writeln("Item 2.1");
 builder.Writeln("Item 2.2");
 
 //ExStep:3-
-// Inden untuk sub-sub-item
+// Indentasi untuk sub-sub-item
 builder.ListFormat.ListIndent();
 builder.Writeln("Item 2.2.1");
 builder.Writeln("Item 2.2.2");
 
 //ExStep:4-
-// Outdent kembali ke tingkat kedua
+// Terbalik ke tingkat kedua
 builder.ListFormat.ListOutdent();
 builder.Writeln("Item 2.3");
 
 //ExStep:5-
-// Outdent kembali ke level paling atas
+// Terbalik ke tingkat atas
 builder.ListFormat.ListOutdent();
 builder.Writeln("Item 3");
 
 //ExStep:6-
-// Hapus bilangan dari daftar
+// Hapus nomor dari daftar
 builder.ListFormat.RemoveNumbers();
 
 //ExStep:7-

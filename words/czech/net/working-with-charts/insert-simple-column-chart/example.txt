@@ -1,50 +1,50 @@
 //ExStart
-//ExSummary:Prosím, zaškrtněte následující kód najít, jak vložit jednoduchý sloupcový graf do dokumentu Word. Můžete zkopírovat tento kód do svého IDE a spustit ho.
-//ExStepSummary:0: Tento kód ukazuje, jak vytvořit dokument Word pomocí aplikace Aspose.Words a vložit do něj graf sloupců.
-//ExStepSummary:1: Tento kód ukazuje, jak vytvořit objekt stavitele dokumentů pro manipulaci s obsahem Word.
-//ExStepSummary:2: Tento kód ukazuje, jak do dokumentu vložit tvar sloupcového grafu se stanovenými rozměry.
-//ExStepSummary:3: Tento kód získá objekt grafu z vloženého tvaru pro další přizpůsobení.
-//ExStepSummary:4: Tento kód ukazuje, jak se dostat k kolekci řady grafů a vytisknout počet řad.
-//ExStepSummary:5: Tento kód vymaže všechny defaultní řady, které mohly být vytvořeny s grafem.
-//ExStepSummary:6: Tento kód ukazuje, jak definovat názvy kategorií údajů grafu.
-//ExStepSummary:7: Tento kód ukazuje, jak přidat řady do grafu s odpovídajícími názvy kategorií a hodnotami dat.
-//ExStepSummary:8: Tento kód uloží dokument s vloženou mapou do zadaného souboru.
+//ExSummaryZkontrolujte následující kód, abyste zjistili, jak vložit jednoduchý graf sloupců do dokumentu Word.
+//ExStepSummary:0: Tento kód ukazuje, jak vytvořit dokument Word pomocí Aspose.Words a vložit do něj kolónkový graf.
+//ExStepSummary:1: Tento kód ukazuje, jak vytvořit objekt pro vytváření dokumentů pro manipulaci s obsahem Word.
+//ExStepSummary:2: Tento kód ukazuje, jak do dokumentu vložit tvar kolónového grafu s specifikovanými rozměry.
+//ExStepSummary:3: Tento kód získává objekt grafu z vloženého tvaru pro další přizpůsobení.
+//ExStepSummary:4: Tento kód ukazuje, jak získat přístup k sbírce grafových řad a tisknout počet řad.
+//ExStepSummary:5: Tento kód vymaže všechny výchozí řady, které mohly být vytvořeny s grafem.
+//ExStepSummary:6: Tento kód ukazuje, jak definovat názvy kategorií pro údaje tabulky.
+//ExStepSummary:7: Tento kód ukazuje, jak do tabulky přidat řady s odpovídajícími názvy kategorií a hodnotami dat.
+//ExStepSummary:8: Tento kód uloží dokument s vloženým grafem do specifikovaného souboru.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
 //ExStepImage:7:images/4.png
 //ExStep:0-
-// Vytvořit nový příklad dokumentu Word.
+// Vytvořte nový příklad dokumentu Word.
 Document doc = new Document();
 
 //ExStep:1-
-// Vytvořit DocumentBuilder pro snadné vložení prvků do dokumentu.
+// Vytvořte program Dokument Builder, který snadno vloží prvky do dokumentu.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:2-
-// Vložte tvar sloupcového grafu se zadanou šířkou (432) a výškou (252).
+// Vkládání tvaru sloupce s specifikovanou šířkou (432) a výškou (252).
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 
 //ExStep:3-
-// Získejte objekt grafu z tvaru pro další manipulaci.
+// Objekt grafu z tvaru získáte pro další manipulaci.
 Chart chart = shape.Chart;
 
 //ExStep:4-
-// Přístup k sérii kolekci grafu.
+// Přístup k sériové sbírce tabulky.
 ChartSeriesCollection seriesColl = chart.Series;
-// Počet řad v grafu vytiskněte do konzole.
+// Na konzolu vytiskněte číslo sérii v tabulce.
 Console.WriteLine(seriesColl.Count);
 
 //ExStep:5-
-// Odstraňte všechny defaultní řady, které byly automaticky generovány při vytvoření grafu.
+// Odstraňte všechny výchozí řady, které byly automaticky generovány při vytvoření grafu.
 seriesColl.Clear();
 
 //ExStep:6-
-// Definujte řadu jmen kategorií pro data grafu.
+// Definiovat řadu kategorií pro údaje z diagramů.
 string[] categories = new string[] { "Category 1", "Category 2" };
 
 //ExStep:7-
-// Do grafu přidejte více sérií s názvy kategorií a hodnotami dat.
+// Přidejte do tabulky více řad s názvem kategorií a hodnotami dat.
 seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
 seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
 seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
@@ -52,6 +52,6 @@ seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
 seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
 
 //ExStep:8-
-// Uložit dokument s vloženou mapou na zadanou cestu souboru.
+// Uložte dokument s vloženým grafem na uvedenou složku.
 doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
 //ExEnd

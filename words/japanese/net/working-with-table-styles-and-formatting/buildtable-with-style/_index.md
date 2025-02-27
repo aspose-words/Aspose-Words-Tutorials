@@ -1,8 +1,8 @@
 ---
-title: アクセシビリティ付きの単語にスタイル付き表を作成. NET 用の用語
+title: .NET のAspose.WordsでWord でスタイリングテーブルを作成する
 weight: 7700
 limit: 
-description: ヘッダーや書式設定されたデータ行を含めて、Asdom.NET を使用して、スタイル付き表のある Word ドキュメントを作成することを学習します。
+description: .NET のAspose.Wordsを使用して,ヘッダやフォーマットされたデータ行を含むスタイリングテーブルでWord ドキュメントを作成することを学びます.
 keywords: [Aspose.Words, .NET, Word document, styled table, table formatting, DocumentBuilder, C# example, document generation]
 url: /ja/net/working-with-table-styles-and-formatting/buildtable-with-style/
 ---
@@ -10,35 +10,35 @@ url: /ja/net/working-with-table-styles-and-formatting/buildtable-with-style/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# アクセシビリティ付きの単語にスタイル付きの表を作成Name
+# Aspose.Wordsで文字のスタイリッシュなテーブルを作成する
 
-この例は、Asfof.words.NET を使ってスタイル付きテーブルを含むワード文書を作成する方法を示します。`ドキュメントビルダー`を使って、ドキュメント構造を管理し、ヘッダとデータ行で表を書式設定し、読みやすさを高めることができます。結果のドキュメントは、表に適用可能な適切なスタティックと書式設定の方法を表示し、内容を明示的に表示しやすくします。
+この例では, .NET のAspose.Wordsを使用してスタイリングテーブルを含む Word ドキュメントを作成する方法を示しています.`ドキュメントビルダー`文書構造を管理し,読みやすくするためにヘッダーやデータ行を掲げる表のフォーマットを行う. その結果,表に適用できる適切なスタイリングとフォーマット技術が展示され,コンテンツがより明確で表現可能になります.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/apply-outline-border" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## インストールインジケータ
-1. ダウンロード Assoft.words: The Documents[Asponse. NET の単語](https://www.nuget.org/packages/Aspose.Words/)(2019年2月25日). http://www.nikkansports.com/news/news/2017/2017/ 2019年9月26日閲覧. ^ "NuGet"で最新版をダウンロード".
+## 設置指示
+1. Aspose.Wordsをダウンロードする: 訪問する[Aspose.Wordsは.NET](https://www.nuget.org/packages/Aspose.Words/)NuGet のページで最新バージョンをダウンロードします
 
-2. NET プロジェクトを作成: ビジュアルスタジオを開き、新しいコンソールやクラスライブラリプロジェクトを作成します。
+2. .NET プロジェクトを作成します. ビジュアル・スタジオを開いて新しいコンソールまたはクラスライブラリプロジェクトを作成します.
 
-3. NuGet パッケージを追加:
-   * あなたのプロジェクトを右クリックして ソル・エクスプローラーで
-   * 2020年1月25日閲覧. ^ ""マンガニューGet Packs"を選択". 株式会社ナターシャ.
-   * "access.words"を検索して"install"をクリックします。
+3. NuGet パッケージを追加する:
+   * 解決法探査機でプロジェクトを右クリックします
+   * "NuGet パッケージを管理する"を選択します.
+   * "Aspose.Words"を検索し",インストール"をクリックします.
 
-4. 必須の引数を追加: コードファイルに必要な命令を含める:
+4. 必要な使用説明書を追加する:コードファイルに必要な使用指示を入力します.
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    ```
 
 
-## また、参照してください。
-[Asforce. NET ドキュメンテーション用用語](https://docs.aspose.com/words/net/)
-[access. ^ a b c d e f g h i ". NET インフォメーション".](https://reference.aspose.com/words/net/)
+## また見てください
+[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
+[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,21 +1,21 @@
 //ExStart
-//ExSummaryيوضح هذا الرمز كيفية إضافة علامة مائية نصية مع خيارات محددة لمستند Word باستخدام Apose.Words.
-//ExStepSummary:0: يؤدي الكود التالي إلى تهيئة مسار المستند وإنشاء كائن مستند جديد.
-//ExStepSummary:1: يقوم الكود التالي بإعداد خيارات العلامة المائية للنص ، بما في ذلك عائلة الخط والحجم واللون والتخطيط.
-//ExStepSummary:2: يطبق الرمز التالي العلامة المائية للنص مع الخيارات المحددة للمستند.
-//ExStepSummary:3: يقوم الكود التالي بحفظ المستند المعدل في دليل محدد.
+//ExSummary: هذا الرمز يظهر كيفية إضافة علامة مائية نصية مع خيارات محددة إلى وثيقة كلمات باستخدام Aspose.Words.
+//ExStepSummary:0: يبدأ الرمز التالي مسار الوثيقة ويخلق كائن الوثيقة الجديد.
+//ExStepSummary:1: يحدد الرمز التالي خيارات علامة المياه النصية، بما في ذلك عائلة الخطوط والحجم واللون والتخطيط.
+//ExStepSummary:2: يطبق الرمز التالي علامة المياه النصية مع الخيارات المحددة على الوثيقة.
+//ExStepSummary:3: الترميز التالي يحفظ الوثيقة المعدلة إلى دليل محدد.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStep:0-
-// اضبط مسار الدليل للمستند
+// حدد مسار الإداري للوثيقة
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// تحميل مستند Word
+// تحميل الوثيقة الكلمة
 Document doc = new Document(dataDir + "Document.docx");
 
 //ExStep:2-
-// إنشاء خيارات العلامة المائية
+// إعداد خيارات علامة المائية
 TextWatermarkOptions options = new TextWatermarkOptions()
 {
     FontFamily = "Arial", // Set font family for the watermark text
@@ -26,10 +26,10 @@ TextWatermarkOptions options = new TextWatermarkOptions()
 };
 
 //ExStep:3-
-// تطبيق نص العلامة المائية مع خيارات
+// تطبيق نص علامة المياه مع خيارات
 doc.Watermark.SetText("Test", options);
 
 //ExStep:4-
-// احفظ المستند مع العلامة المائية
+// حفظ الوثيقة مع علامة المائية
 doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
 //ExEnd

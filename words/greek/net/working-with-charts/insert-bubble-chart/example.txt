@@ -1,28 +1,28 @@
 //ExStart
-//ExSummary: Αυτός ο κώδικας δείχνει πώς να εισάγετε ένα διάγραμμα φυσαλίδα σε ένα έγγραφο Word χρησιμοποιώντας Aspose.Words.
-//ExStepSummary:0: Ο ακόλουθος κώδικας αρχικοποιείται ένα νέο έγγραφο και έγγραφοBuilder.
-//ExStepSummary:1: Δημιουργείται ένας χάρτης φυσαλίδας και προστίθεται στο έγγραφο χρησιμοποιώντας το DocumentBuilder.
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να εισαγάγετε ένα διάγραμμα Bubble σε ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words.
+//ExStepSummary:0: Ο ακόλουθος κωδικός αρχίζει ένα νέο Document και DocumentBuilder.
+//ExStepSummary:1: Δημιουργείται ένα διάγραμμα Bubble και προστίθεται στο έγγραφο χρησιμοποιώντας το DocumentBuilder.
 //ExStepSummary:2: Η σειρά δεδομένων για το διάγραμμα Bubble προστίθεται με συγκεκριμένες τιμές X, Y και μεγέθους.
-//ExStepSummary:3: Τέλος, το έγγραφο σώζεται με το εισάγον διάγραμμα Bubble.
+//ExStepSummary:3: Τέλος, το έγγραφο αποθηκεύεται με το εισαγόμενο πίνακα Bubble.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Αρχικοποίηση ενός νέου εγγράφου και εγγράφουBuilder
+// Αρχική λειτουργία ενός νέου εγγράφου και DocumentBuilder
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Εισάγετε ένα διάγραμμα φυσαλίδας στο έγγραφο
+// Εισαγωγή πίνακα Bubble στο έγγραφο
 Shape shape = builder.InsertChart(ChartType.Bubble, 432, 252);
 
 //ExStep:2-
-// Προσθήκη σειράς δεδομένων στο διάγραμμα Bubble
+// Προσθήκη σειρών δεδομένων στο διάγραμμα Bubble
 Chart chart = shape.Chart;
 chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, // X values
     new double[] { 2.7, 3.2, 0.8 }, // Y values
     new double[] { 10, 4, 8 }); // Size values for the bubbles
 
 //ExStep:3-
-// Αποθήκευση του εγγράφου με το διάγραμμα Bubble
+// Κράτα το έγγραφο με το διάγραμμα Bubble
 doc.Save("WorkingWithCharts.InsertBubbleChart.docx");
 //ExEnd

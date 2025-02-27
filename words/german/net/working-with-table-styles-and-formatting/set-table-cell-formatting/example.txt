@@ -1,23 +1,23 @@
 //ExStart
-//ExSummary: Der folgende Code zeigt, wie man eine Tabelle in einem Word-Dokument mit der DocumentBuilder-Klasse von Aspose.Words erstellt und formatiert.
-//ExStepSummary:0: Initialisieren Sie ein neues Dokument und DocumentBuilder, um mit dem Bau des Word-Dokuments zu beginnen.
-//ExStepSummary:1: Erstellen Sie eine Tabelle und fügen Sie eine Zelle für die Formatierung ein.
-//ExStepSummary:2: Legen Sie die Formatierungseigenschaften für die Zelle, einschließlich Polsterung und Breite, fest.
-//ExStepSummary:3: Text in die formatierte Zelle einfügen.
-//ExStepSummary:4: Beenden Sie die Zeile und Tabelle und speichern Sie das Dokument in einem angegebenen Dateipfad.
+//ExSummary: Der folgende Code zeigt, wie man eine Tabelle in einem Word-Dokument mit der Dokumentbauklasse aus Aspose.Words erstellt und formatiert.
+//ExStepSummary:0: Initialisieren Sie einen neuen Dokument und einen neuen Dokumentbauer, um das Word-Dokument zu erstellen.
+//ExStepSummary:1: Erstellen Sie eine Tabelle und fügen Sie eine Zelle zum Formatieren ein.
+//ExStepSummary:2: Setzen Sie die Formatierungseigenschaften für die Zelle, einschließlich Polsterung und Breite.
+//ExStepSummary:3: Fügen Sie Text in die formatierte Zelle ein.
+//ExStepSummary:4: Beenden Sie die Zeile und Tabelle und speichern Sie das Dokument auf einen bestimmten Dateipfad.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Ein neues Dokumentobjekt erstellen
+// Erstellen eines neuen Dokumentobjekts
 Document doc = new Document();
-// Initialisieren von DocumentBuilder mit dem neuen Dokument
+// Dokumentenbuilder mit dem neuen Dokument zu initialisieren
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Beginnen Sie mit der Erstellung einer Tabelle
+// Beginnen Sie mit der Erstellung eines Tisches
 builder.StartTable();
-// Die erste Zelle in die Tabelle einfügen
+// Fügen Sie die erste Zelle in die Tabelle ein
 builder.InsertCell();
 
 //ExStep:2-
@@ -25,7 +25,7 @@ builder.InsertCell();
 CellFormat cellFormat = builder.CellFormat;
 // Einstellung der Zellbreite
 cellFormat.Width = 250;
-// Die Polsterung einstellen
+// Setzen Sie die Polsterung
 cellFormat.LeftPadding = 30;
 cellFormat.RightPadding = 30;
 cellFormat.TopPadding = 30;
@@ -36,10 +36,10 @@ cellFormat.BottomPadding = 30;
 builder.Writeln("I'm a wonderful formatted cell.");
 
 //ExStep:4-
-// Beenden der aktuellen Zeile der Tabelle
+// Endung der aktuellen Zeile der Tabelle
 builder.EndRow();
-// Ende der Tabellenerstellung
+// Beendet der Tabellenbildung
 builder.EndTable();
-// Das Dokument speichern
+// Speicherung des Dokuments
 doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");
 //ExEnd

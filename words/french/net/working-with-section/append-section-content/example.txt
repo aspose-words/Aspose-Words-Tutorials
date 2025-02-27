@@ -1,21 +1,21 @@
 //ExStart
-//ExSummary:Cet exemple montre comment ajouter et prépendre du contenu d'une section à une autre dans un document Word utilisant Aspose.Words pour .NET.
-//ExStepSummary:0: Initialiser un nouveau document Word et DocumentBuilder pour ajouter du contenu.
-//ExStepSummary:1: Écrivez du texte et insérez des pauses de section pour créer plusieurs sections dans le document.
-//ExStepSummary:2: Accédez à la troisième section du document pour vous préparer à la manipulation du contenu.
-//ExStepSummary:3: Préparation du contenu de la première section à la troisième section.
+//ExSummary: Cet exemple montre comment ajouter et pré-ajouter du contenu d'une section à l'autre dans un document Word en utilisant Aspose.Words pour .NET.
+//ExStepSummary:0: Initializer un nouveau document Word et DocumentBuilder pour ajouter du contenu.
+//ExStepSummary:1: Écrire du texte et insérer des pauses de section pour créer plusieurs sections dans le document.
+//ExStepSummary:2: Accéder à la troisième section du document pour préparer la manipulation du contenu.
+//ExStepSummary:3: Préparez le contenu de la première section à la troisième section.
 //ExStepSummary:4: Ajouter le contenu de la deuxième section à la troisième section.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// Initialiser le document et DocumentBuilder
+// Initialement le document et DocumentBuilder
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Écrire le texte et insérer les pauses de section pour créer trois sections
+// Écrire du texte et insérer des pauses de section pour créer trois sections
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 // Ajouter du contenu pour la deuxième section
@@ -25,11 +25,11 @@ builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Write("Section 3");
 
 //ExStep:2-
-// Récupérer la troisième section du document
+// Retirer la troisième section du document
 Section section = doc.Sections[2];
 
 //ExStep:3-
-// Préparation du contenu de la première section à la troisième section
+// Préparez le contenu de la première section à la troisième section
 Section sectionToPrepend = doc.Sections[0];
 section.PrependContent(sectionToPrepend);
 

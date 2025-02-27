@@ -1,25 +1,25 @@
 //ExStart
-//ExSummary: Tento kód ukazuje, jak vytvořit dokument Word pomocí aplikace Aspose.Words, použít odstavec styl, a uložit dokument. Ukazuje, jak nastavit styl názvu pro odstavec a uložit dokument ve formátu .docx.
-//ExStepSummary:0: Tato sekce inicializuje novou instanci Dokumentu a DocumentBuilder.
-//ExStepSummary:1: Tento oddíl se používá ve stylu "Title paragraph" pomocí "DocumentBuilder."
-//ExStepSummary:2: V této sekci se píše "Ahoj" do dokumentu.
-//ExStepSummary:3: Tato sekce uloží dokument na zadanou cestu k souboru.
+//ExSummaryTento kód ukazuje, jak vytvořit dokument Word pomocí Aspose.Words, použít styl odstavce a uložit dokument. Ukazuje, jak nastavit styl názvu odstavce a uložit dokument v formátu .docx.
+//ExStepSummary:0: Tato oddíl iniciuje nový příklad dokumentu a dokumentu Builder.
+//ExStepSummary:1: Tato část použije styl odstavce Title pomocí dokumentuBuilder.
+//ExStepSummary:2: Tato část píše "Pozdrav" dokumentu.
+//ExStepSummary:3: Tato část ukládá dokument na specifikovanou složku.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Inicializace nové instance dokumentu
+// Začněte nový příklad dokumentu
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Nastavit styl odstavce na název
+// Nastavte styl odstavce na název
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Title;
 
 //ExStep:2-
-// Napsat "Ahoj" pomocí stavitele, použití zadaného stylu
+// Napíšejte "Hello" pomocí konstruktoru, použijte stanovený styl
 builder.Write("Hello");
 
 //ExStep:3-
-// Uložit dokument do souboru .docx
+// Zachránit dokument do souboru .docx
 doc.Save("DocumentFormatting.ApplyParagraphStyle.docx");
 //ExEnd

@@ -1,8 +1,8 @@
 ---
-title: العمل مع الترويسات والتذييلات في Apose.Words for .NET 
+title: العمل مع الرأس والرجل في Aspose.Words ل .NET 
 weight: 10
 limit:
-description: تعلم كيفية إنشاء وتعديل وتنسيق الرؤوس والتذييلات في مستندات Word باستخدام Apose.Words for .NET. دليل خطوة بخطوة للتخصيص السلس.
+description: تعلم كيفية إنشاء وتعديل وتصميم العناوين الرئيسية والرجلة في مستندات Word باستخدام Aspose.Words ل .NET. دليل خطوة بخطوة للتخصيص السلس.
 keywords:
 url: /ar/net/working-with-headers-and-footers/
 ---
@@ -12,12 +12,12 @@ url: /ar/net/working-with-headers-and-footers/
 
 ## مقدمة
   
-تعد الرؤوس والتذييلات ضرورية لإضافة لمسة احترافية إلى مستندات Word الخاصة بك ، سواء كان ذلك لأرقام الصفحات أو الشعارات أو النص المخصص. مع Apose.Words for .NET ، يمكنك بسهولة إنشاء وتعديل وتخصيص الرؤوس والتذييلات لتناسب احتياجات المستند الخاص بك. توفر المكتبة واجهات برمجة تطبيقات قوية تسمح لك بتعيين رؤوس وتذييلات مختلفة للصفحات الفردية وحتى الصفحات ، وتحديد أقسام فريدة ، وتضمين عناصر ديناميكية مثل الحقول أو الصور.  
+العناوين الرئيسية والرجلات أساسية لإضافة لمسة مهنية إلى مستندات Word الخاصة بك، سواء كان ذلك لأرقام الصفحات أو الشعارات أو النص المخصص. مع Aspose.Words ل .NET، يمكنك بسهولة إنشاء وتعديل وتخصيص العناوين الرئيسية والرجلات لتتناسب مع احتياجات الوثيقة. يقدم المكتبة APIs قوية التي تسمح لك بتعيين عناوين الرئيسية والرجلات المختلفة للصفحات العشوائية والحائطية، وتحديد القسمات الفريدة، وتشمل عناصر ديناميكية مثل الحقول أو الصور.  
 
-Apose.Words for .NET يبسط عملية العمل مع الرؤوس والتذييلات، وضمان السيطرة الكاملة على التنسيق والتنسيب. سواء كنت تصميم تقرير الشركة أو صياغة وثيقة شخصية، وتوفر المكتبة وسيلة فعالة لإدارة هذه العناصر الحاسمة. الغوص في أدلة خطوة بخطوة لدينا وفتح الإمكانات الكاملة للرؤوس والتذييلات في ملفات وورد الخاص بك!  
+Aspose.Words لـ .NET يسهل عملية العمل مع العناوين الرئيسية والرجلات الأساسية، مما يضمن السيطرة الكاملة على تنسيقها وتوضعها. سواء كنت تصمم تقريرًا للشركة أو تصميم وثيقة مخصصة، توفر المكتبة طريقة فعالة لإدارة هذه العناصر الحاسمة. انزل في دليلنا خطوة بخطوة وفتح كامل إمكانات العناوين الرئيسية والرجلات في ملفاتك Word!  
 
-{{< tutorial-card link="./create-header-footer/" title="إنشاء مستند Word مع رأس وتذييل باستخدام Aspose.Words" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./insert-image/" title="أدرج صورة في رأس مستند Word Apose.Words for .NET" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./create-header-footer/" title="قم بإنشاء مستند كلمة باستخدام العنوان والرجل تحت الصفحة باستخدام Aspose.Words" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./insert-image/" title="إدراج صورة في عنوان وثيقة الكلمة Aspose.Words لـ .NET" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

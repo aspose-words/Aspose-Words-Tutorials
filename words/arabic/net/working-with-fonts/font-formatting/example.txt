@@ -1,34 +1,34 @@
 //ExStart
-//ExSummaryيوضح هذا الرمز كيفية إنشاء مستند Word باستخدام Apose.Words ، وتنسيق خصائص الخط قبل كتابة نص عينة إليه.
-//ExStepSummary:0: يؤدي الكود التالي إلى تهيئة مستند جديد وDocumentBuilder.
-//ExStepSummary:1: يحدد الكود التالي خصائص الخط المختلفة مثل الحجم واللون واللون والاسم وأسلوب التسطير.
-//ExStepSummary:2: يقوم الكود التالي بكتابة نص عينة إلى المستند باستخدام إعدادات الخط التي تم تكوينها.
-//ExStepSummary:3: يقوم الكود التالي بحفظ المستند في الدليل المحدد باسم ملف معين.
+//ExSummary: يظهر هذا الرمز كيفية إنشاء مستند كورد باستخدام Aspose.Words، وتصميم خصائص الخط قبل كتابة نص نموذجي عليه.
+//ExStepSummary:0: الرمز التالي يبدأ وثيقة جديدة ومصنع وثائق.
+//ExStepSummary:1: يحدد الرمز التالي خصائص الخط المختلفة مثل الحجم والجمال واللون والاسم ونمط التأكيد.
+//ExStepSummary:2: يكتب الرمز التالي نموذج نص إلى الوثيقة باستخدام إعدادات الخط المثبتة.
+//ExStepSummary:3: الترميز التالي يحفظ الوثيقة إلى الإداري المحدد مع اسم ملف معين.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// إنشاء مثيل مستند جديد
+// إعداد مثال وثيقة جديدة
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// الوصول إلى خاصية الخط من خلال DocumentBuilder
+// الوصول إلى خصائص الخط من خلال DocumentBuilder
 Font font = builder.Font;
-// اضبط حجم الخط على 16
+// حدد حجم الخط إلى 16
 font.Size = 16;
-// اجعل الخط غامقًا
+// قم بتحديد الخط
 font.Bold = true;
 // تغيير لون الخط إلى الأزرق
 font.Color = Color.Blue;
-// اضبط الخط على Arial
+// إعداد الخط إلى أريال
 font.Name = "Arial";
-// تطبيق نمط التسطير المتقطع على الخط
+// تطبيق نمط التوقيع المقطوع على الخط
 font.Underline = Underline.Dash;
 
 //ExStep:2-
 builder.Write("Sample text.");
 
 //ExStep:3-
-// احفظ المستند في دليل القطع الأثرية
+// حفظ الوثيقة في دليل الأثرية
 doc.Save("WorkingWithFonts.FontFormatting.docx");
 //ExEnd

@@ -1,8 +1,8 @@
 ---
-title: アクセシビリティでシェイプを扱う. NET 用の用語 
+title: .NET のAspose.Wordsで Shapes を 活用する 
 weight: 10
 limit:
-description: Assoft.words.news.search は,形を簡単に追加し,カスタマイズし,操作します.
+description: .NET の Aspose.Words を使用して Word ドキュメントの形状で作業する方法について学び. 形状を簡単に追加,カスタマイズ,操作する方法を探求します.
 keywords:
 url: /ja/net/working-with-shapes/
 ---
@@ -10,14 +10,14 @@ url: /ja/net/working-with-shapes/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## はじめに
+## 紹介
  
-シェイプは、視覚的に魅力的な Word ドキュメントをデザインするときの重要な機能です。Access.NET を使って、線、長方形、長方形などのシェイプを追加し、操作することができます。シンプルな図の作成、特定の内容の強調表示、プロフェッショナルなレイアウトの構築など、必要な場合は、この強力なライブラリは、シェイプをプログラム的に動作させるために必要なすべてのツールを備えています。  
+形は視覚的に魅力的な Word 文書をデザインする上で不可欠な特徴です. .NET のAspose.Wordsで,線,四角形,卵形,その他のような形を無縫に追加,カスタマイズ,操作できます.シンプルな図形を作成し,特定のコンテンツを強調したり,専門的なレイアウトを構築したりするかどうか,この強力なライブラリは,形をプログラム的に操作するために必要なすべてのツールと備えています.  
 
-このページでは、さまざまなシェイプ関連タスクの詳細なガイドを見つけることができます。基本的なシェイプを挿入したり、スタイルを適用したり、サイズ、色、回転などのシェイプのプロパティを管理したりするには、すべてがステップごとにカバーされます。 アクセシビリティ: NET については、開発者が複雑なデザインツールを必要とせずに、動的かつ視覚的に豊かな文書を作成することができます。 下のチュートリアルは、フォームをマスターし、ドキュメント作成プロセスを改善します!  
+このページでは,形に関する様々な作業のための詳細なガイドが表示されます. 基本的な形状を挿入し,スタイルを適用し,サイズ,色,回転などの形状の性質を管理するまでのすべてのことは,ステップバイスでカバーされています. .NETのAspose.Wordsは,開発者が複雑なデザインツールを必要とせずに動的で視覚的に豊かな文書を作成することができます. 形状操作をマスターし,ドキュメント作成プロセスを向上させるために,以下のチュートリアルを探求してください!  
 
-{{< tutorial-card link="./add-group-shape/" title="ワードドキュメントで「アクセシビリティ」を使ってグループ化シェイプを作成. NET 用の用語" imgSrc="/words/net/working-with-shapes/add-group-shape/images/thumb.png" >}}
-{{< tutorial-card link="./insert-shape/" title="ワードドキュメントにシェイプを挿入 Asfofing.words for .NET" imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
+{{< tutorial-card link="./add-group-shape/" title=".NET のAspose.Wordsを使用して Word ドキュメントでグループ形を作ります" imgSrc="/words/net/working-with-shapes/add-group-shape/images/thumb.png" >}}
+{{< tutorial-card link="./insert-shape/" title=".NET のAspose.Wordsを使用したWord ドキュメントにフォームを挿入する" imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

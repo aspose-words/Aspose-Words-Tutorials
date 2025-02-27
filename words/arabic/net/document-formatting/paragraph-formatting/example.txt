@@ -1,19 +1,19 @@
 //ExStart
-//ExSummaryيوضح هذا الرمز كيفية تنسيق الفقرات في مستند Word باستخدام Apose.Words. يوضح كيفية تعيين خيارات تنسيق الفقرة مثل المحاذاة والمسافة البادئة والمساحة بعد الفقرة.
-//ExStepSummary:0: تعمل هذه الخطوة على تهيئة مستند جديد وDocumentBuilder لبناء المستند.
-//ExStepSummary:1: تحدد هذه الخطوة خيارات تنسيق الفقرة، بما في ذلك المحاذاة والمسافة البادئة اليسرى والمسافة البادئة اليمنى والمساحة بعد الفقرة.
-//ExStepSummary:2: تكتب هذه الخطوة فقرة جيدة التنسيق مع خيارات التنسيق المحددة للمستند.
-//ExStepSummary:3: تكتب هذه الخطوة فقرة منسقة أخرى توضح تأثير المساحة بعد الفقرة.
+//ExSummary: هذا الرمز يظهر كيفية تنسيق الفقرات في مستند Word باستخدام Aspose.Words. يظهر كيفية تعيين خيارات تنسيق الفقرة مثل المواءمة، التخفيض، والمساحة بعد الفقرة.
+//ExStepSummary:0: هذه الخطوة تبدأ في تشغيل وثيقة جديدة ومصنع وثائق لبناء الوثيقة.
+//ExStepSummary:1: هذه الخطوة تحدد خيارات تنسيق الفقرة، بما في ذلك التوجه، والقطعة اليسرى، والقطعة اليمنى، والمساحة بعد الفقرة.
+//ExStepSummary:2: هذه الخطوة تكتب فقرة مُصممة بشكل جيد مع خيارات التنسيق المحددة للوثيقة.
+//ExStepSummary:3: هذه الخطوة تكتب فقرة أخرى مقبولة تظهر تأثير الفضاء بعد الفقرة.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0- 
-// إنشاء مثيل مستند جديد.
+// إعداد مثال وثيقة جديدة.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1- 
-// إعداد خيارات تنسيق الفقرات.
+// قم بتعيين خيارات تنسيق الفقرة.
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;
 paragraphFormat.LeftIndent = 50;
@@ -21,16 +21,16 @@ paragraphFormat.RightIndent = 50;
 paragraphFormat.SpaceAfter = 25;
 
 //ExStep:2- 
-// اكتب أول فقرة منسقة.
+// اكتب الفقرة الأولى المنسقة
 builder.Writeln(
 	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
 
 //ExStep:3- 
-// اكتب الفقرة المنسقة الثانية.
+// اكتب الفقرة الثانية المنسقة.
 builder.Writeln(
 	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
 
 //ExStep:4- 
-// احفظ المستند إلى المسار المحدد.
+// حفظ الوثيقة إلى المسار المحدد.
 doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
 //ExEnd

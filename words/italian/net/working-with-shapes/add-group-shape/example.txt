@@ -1,12 +1,12 @@
 //ExStart
-//ExSummary: Questo codice mostra come creare una forma di gruppo all'interno di un documento usando Aspose.Words.
-// Crea una forma di callout del bordo dell'accento e un pulsante di azione, li aggiunge a una forma di gruppo, e poi inserisce la forma di gruppo nel documento prima di salvarlo.
-//ExStepSummary:0: Inizializza un nuovo documento e garantisce il rispetto dei requisiti minimi.
-//ExStepSummary:1: Crea una forma di gruppo che terrà altre forme.
-//ExStepSummary:2: Aggiunge una forma di callout al bordo dell'accento alla forma del gruppo.
-//ExStepSummary:3: Aggiunge una forma pulsante azione alla forma di gruppo.
-//ExStepSummary:4: Imposta le dimensioni e le coordinate per la forma del gruppo.
-//ExStepSummary:5: Inserisce la forma del gruppo nel documento usando un DocumentBuilder.
+//ExSummary: Questo codice mostra come creare una forma di gruppo all'interno di un documento utilizzando Aspose.Words.
+// Crea una forma di chiamata di confine accento e un pulsante di azione, le aggiunge a una forma di gruppo e inserisce la forma di gruppo nel documento prima di salvarla.
+//ExStepSummary:0: Inizia un nuovo documento e garantisce il rispetto dei requisiti minimi.
+//ExStepSummary:1: Crea una GroupShape che conserverà altre forme.
+//ExStepSummary:2: Aggiunge una forma di accento di confine alla forma di gruppo.
+//ExStepSummary:3: Aggiunge una forma di pulsante d'azione alla forma di gruppo.
+//ExStepSummary:4: Imposta le dimensioni e le coordinate della forma del gruppo.
+//ExStepSummary:5: Inserisce la forma del gruppo nel documento utilizzando un DocumentBuilder.
 //ExStepSummary:6: Salva il documento contenente la forma del gruppo in una posizione specificata.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
@@ -14,54 +14,54 @@
 //ExStepImage:4:images/4.png
 //ExStepImage:5:images/5.png
 //ExStep:0-
-// Crea un nuovo documento
+// Creazione di un nuovo documento
 Document doc = new Document();
-// Assicurare che il documento soddisfi i requisiti minimi
+// Assicurarsi che il documento soddisfi i requisiti minimi
 doc.EnsureMinimum();
 
 //ExStep:1-
-// Crea una nuova istanza di GroupShape
+// Crea un' istanza di GroupShape
 GroupShape groupShape = new GroupShape(doc);
 
 //ExStep:2-
-// Crea una forma di callout al bordo dell'accento
+// Crea una forma di callout di accento
 Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
 {
     Width = 100, 
     Height = 100
 };
-// Aggiungi la forma alla forma del gruppo
+// Aggiungere la forma alla forma del gruppo
 groupShape.AppendChild(accentBorderShape);
 
 //ExStep:3-
-// Crea una forma pulsante di azione
+// Crea una forma di pulsante di azione
 Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
 {
-	// Imposta la posizione sinistra della forma
+	// Impostare la posizione sinistra della forma
     Left = 100, 
-	// Imposta la larghezza della forma
+	// Larghezza di forma impostata
     Width = 100, 
-	// Imposta l'altezza della forma
+	// Altezze impostate della forma
     Height = 200
 };
-// Aggiungi il pulsante azione alla forma del gruppo
+// Aggiungere il pulsante azione alla forma di gruppo
 groupShape.AppendChild(actionButtonShape);
 
 //ExStep:4-
-// Imposta la larghezza della forma del gruppo
+// Impostare la larghezza della forma del gruppo
 groupShape.Width = 200;
-// Imposta l'altezza della forma del gruppo
+// Impostare l'altezza della forma del gruppo
 groupShape.Height = 200;
-// Imposta la dimensione delle coordinate per la forma del gruppo
+// Impostare la dimensione delle coordinate per la forma del gruppo
 groupShape.CoordSize = new Size(200, 200);
 
 //ExStep:5-
-// Crea un documentoCostruisci per manipolare il documento
+// Crea un DocumentBuilder per manipolare il documento
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Inserisci la forma del gruppo nel documento
+// Inserire la forma del gruppo nel documento
 builder.InsertNode(groupShape);
 
 //ExStep:6-
-// Salva il documento in una posizione specificata
+// Salvare il documento in una posizione specifica
 doc.Save("WorkingWithShapes.AddGroupShape.docx");
 //ExEnd

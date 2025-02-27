@@ -1,8 +1,8 @@
 ---
-title: Inserisci immagine in linea nel documento di Word usando Aspose.Words
+title: Inserire immagine in linea nel documento Word utilizzando Aspose.Words
 weight: 7700
 limit: 
-description: Scopri come inserire un'immagine in linea in un documento Word con Aspose.Words for .NET in questo esempio passo-passo.
+description: Impara come inserire un'immagine inline in un documento Word con Aspose.Words per .NET in questo esempio passo a passo.
 keywords: [Aspose.Words, .NET, inline image, Word document, DocumentBuilder, image insertion, code example]
 url: /it/net/add-content-using-document-builder/insert-inline-image/
 ---
@@ -10,34 +10,34 @@ url: /it/net/add-content-using-document-builder/insert-inline-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Inserisci immagine in linea nel documento di Word usando Aspose.Words
-Questo esempio dimostra come inserire un'immagine in linea in un documento di Word usando la libreria Aspese.Words per .NET. Utilizzando il`Costruisci documenti`classe, è possibile posizionare e inserire facilmente le immagini nella posizione attuale del cursore nel documento. Questa guida fornisce una implementazione semplice per aiutarti a iniziare con la gestione delle immagini nei documenti Word.
+# Inserire immagine in linea nel documento Word utilizzando Aspose.Words
+Questo esempio dimostra come inserire un'immagine inline in un documento Word utilizzando la libreria Aspose.Words per .NET.`DocumentBuilder`Questa guida fornisce una semplice implementazione per aiutarti a iniziare con la gestione delle immagini nei documenti Word.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-inline-image" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Istruzioni per l'installazione
-1. Installa Aspose.Parole per .NET:
+## Instruzioni di installazione
+1. Installare Aspose.Words per .NET:
    * Utilizzare NuGet Package Manager in Visual Studio.
-   * Eseguire il seguente comando nella console gestore pacchetti:
+   * Eseguire il seguente comando nella console di gestione dei pacchetti:
      ```
      Install-Package Aspose.Words
      ```
 
 2. Imposta il tuo progetto:
-   * Creare un nuovo progetto .NET o aprirne uno esistente.
-   * Aggiungere le direttive necessarie utilizzando nella parte superiore del file di codice:
+   * Crea un nuovo progetto .NET o apri uno esistente.
+   * Aggiungi le direttive necessarie nella parte superiore del tuo file di codice:
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Drawing;
      ```
 
 
-## Vedere anche
-[Aspese.Parola per la documentazione .NET](https://docs.aspose.com/words/net/)
-[Aspese.Parola per riferimenti .NET](https://reference.aspose.com/words/net/)
+## Vedi anche
+[Aspose.Word per Documentazione .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word per i riferimenti .NET](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

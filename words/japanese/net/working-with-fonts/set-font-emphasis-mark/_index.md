@@ -1,8 +1,8 @@
 ---
-title: ワードドキュメントの強調マークをアクセシビリティで設定します。 NET 用の単語 
+title: Word ドキュメントに強調マークを設定する.NETのAspose.Wordsを使用する 
 weight: 7700
 limit: 
-description: Public domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainfalsefalsefalsefalsefalsefalsefalsef.
+description: Word ドキュメントに .NET のAspose.Wordsを使用して強調マークを設定する方法について学びましょう.このステップバイ・ステップガイドにはインストール説明書と例コードが含まれています.
 keywords: [Aspose.Words for .NET, set emphasis mark, Word document, .NET library, document formatting, Word automation, C# examples]
 url: /ja/net/working-with-fonts/set-font-emphasis-mark/
 ---
@@ -10,43 +10,43 @@ url: /ja/net/working-with-fonts/set-font-emphasis-mark/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ドキュメントの強調マークをアクセシビリティで設定します。
+# Word ドキュメント に 強調 マーク を 付け て Aspose.Words を 使う
 
-ワード文書に強調マークを付けることは、特定のテキストを強調表示する際の優れた方法です。Access.Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, News).`ドキュメントビルダー`ワード文書の操作、強調マーク付きのテキストをフォーマットし、結果の DOCX 形式で保存します。このガイドに従って、ドキュメントの書式設定作業をプロの精度でリロードします。
+Word ドキュメントに強調マークを設定することは,特定のテキストを強調するための優れた方法であり,コンテンツに突出を保ちます.NETのAspose.Wordsでは,いくつかのコードラインを使用して,固いサークルのような強調マークを簡単に適用できます.この例では,`ドキュメントビルダー`テキストを強調するマークでフォーマットし,結果を DOCX 形式で保存する.このガイドに従って,専門的な精度で文書フォーマット作業を簡素化します.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-fonts/set-font-emphasis-mark" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## インストールインジケータ  
-^ a b c d e f g h i d e f g h i f g h i f g h i f g h i f g h i h i h i h i j k h i k h i j k h i k h i j k k h i j k h i j k h i j k h i j k h i j k h i j k h i j k h i j k k h i j k h i j k k h i j k h i j k h i j k h i j k h i j k k k h i j k h k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k h i h i h k k k k k h i j k h i j k k k k k k k k h i j k k k k k k k k k k h i " h i " h i " f " t " t " t e e e e e e e e e e e e e e e f " .  
+## 設置指示  
+提供されたコード例を実行して .NET のAspose.Wordsを使用するには,次の手順を実行してください.  
 
-1. ダウンロード Asfoint. ^ a b c d e f g h i f g h i ". NET: a b c d e f g h i ".  
-   * ライブラリを[包括 的 な 発表](https://releases.aspose.com/words/net/)を参照してください。  
+1. .NET のためのAspose.Wordsをダウンロードする  
+   * 図書館から 取れ[放出する物](https://releases.aspose.com/words/net/)ページ  
 
-2. ライブラリをインストール:  
-   * ビジュアルスタジオでNuGetパッケージマネージャを経由してインストールします:  
-     * オープンビジュアル・スタジオ.  
-     * ツール_BAR_ Numgetパッケージマネージャで「解決のための NuGet パッケージ」の管理を行います。  
-     * 検索対象`Asfords. 言葉`を選択して、インストールをクリックします。  
+2. 図書館をインストールする:  
+   * Visual Studio で NuGet パッケージマネージャー を介してインストールします:  
+     * ビジュアル・スタジオを開け  
+     * ツール > NuGet パッケージ管理者 > ソリューションのための NuGet パッケージ管理へ移動します.  
+     * 検索する`"言葉"`インストールをクリックします.  
 
-   * NuGetパッケージマネージャのコンソールを使うには、下記の手順で操作します。  
+   * 代替として,NuGet パッケージ管理コンソールを使用してください.  
      ```shell
      Install-Package Aspose.Words
      ```  
 
-3. 暫定的なライセンスを設定 (オプション):  
-   * 無制限使用のために a[フリーの一時ライセンス](https://purchase.aspose.com/temporary-license/))をいう.  
-   * プロジェクトにライセンスを適用する:  
+3. 暫定ライセンス設定 (オプション):  
+   * 制限のない使用のために,[免許 臨時許可](https://purchase.aspose.com/temporary-license/)やってくれ  
+   * プロジェクトにライセンス申請する  
      ```csharp
      var license = new Aspose.Words.License();
      license.SetLicense("Aspose.Words.lic");
      ```  
    
-## また、参照してください。
-[Asforce. NET ドキュメンテーション用用語](https://docs.aspose.com/words/net/)
-[access. ^ a b c d e f g h i ". NET インフォメーション".](https://reference.aspose.com/words/net/)
+## また見てください
+[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
+[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

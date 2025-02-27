@@ -1,8 +1,8 @@
 ---
-title: Fejlécek és láblécek használata az Aspose.Words for .NET alkalmazásban 
+title: A .NET-hez használt Aspose.Words címlapjaival és lábjegyzőivel dolgozom 
 weight: 10
 limit:
-description: Ismerje meg, hogyan hozhat létre, módosíthat és formázhat fejléceket és lábléceket a Word dokumentumokban az Aspose.Words for .NET használatával. Lépésről lépésre útmutató a zökkenőmentes testreszabáshoz.
+description: Tanuljon meg, hogyan lehet létrehozni, módosítani és formátálni a Word dokumentumokban található fejletenket és lábjegyeket a .NET-hez használt Aspose.Words segítségével.
 keywords:
 url: /hu/net/working-with-headers-and-footers/
 ---
@@ -10,14 +10,14 @@ url: /hu/net/working-with-headers-and-footers/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Bevezetés
+## Bevezető
   
-A fejlécek és láblécek elengedhetetlenek a Word dokumentumok professzionális megjelenítéséhez, legyen szó oldalszámokról, logókról vagy egyedi szövegekről. Az Aspose.Words for .NET segítségével zökkenőmentesen hozhat létre, módosíthat és testreszabhat fejléceket és lábléceket a dokumentum igényeinek megfelelően. A könyvtár erőteljes API-kat kínál, amelyek lehetővé teszik, hogy különböző fejléceket és lábléceket állítson be páratlan és egyenletes oldalakhoz, egyedi szakaszokat és dinamikus elemeket, például mezőket.  
+A címke és lábjegyzet alapvető fontosságú a Word dokumentumok professzionális érintése, legyen szó oldalszámokról, logókról vagy egyedi szövegről. Az Aspose.Words segítségével a .NET-hez könnyedén létrehozhatja, módosíthatja és személyre szabhatja a címke és lábjegyzeteket a dokumentum igényeinek megfelelően. A könyvtár hatékony API-ket kínál, amelyek lehetővé teszik a különböző címke és lábjegyzetet a páros és egyenletes oldalakra, az egyedi szakaszok meghatározását, valamint a dinamikus elemeket, mint a mezőket vagy képeket.  
 
-Aspose.Words for .NET leegyszerűsíti a fejlécekkel és láblécekkel való munka folyamatát, biztosítva a teljes ellenőrzést a formázásuk és elhelyezésük felett. Akár vállalati jelentést tervez, akár személyre szabott dokumentumot készít, a könyvtár hatékony módszert kínál ezeknek a kulcsfontosságú elemeknek a kezelésére. Merüljön el lépésről-lépésre útmutatóinkba, és szabadítsa fel a fejlécek és láblécek teljes potenciálját a Word fájlokban!  
+Az Aspose.Words .NET egyszerűsíti a fejletenek és lábfejekkel való munkát, biztosítva a teljes ellenőrzést a formázásuk és elhelyezkedésük felett. Akár egy vállalati jelentést tervez vagy egy személyre szabott dokumentumot készít, a könyvtár hatékony módját biztosít ezekre a kulcsfontosságú elemekre. Útba merüljön az egyes lépésről a másikra vezető útmutatókba, és kinyitja a teljes potenciálját a fejletenek és lábfejek a Word fájlokban!  
 
-{{< tutorial-card link="./create-header-footer/" title="Word dokumentum létrehozása a fejléc és a lábléc segítségével Aspose.Words" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./insert-image/" title="Helyezzen be egy képet a Word dokumentum fejlécébe Aspose.Words for .NET" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./create-header-footer/" title="Tegyék létre a Word dokumentumot a Feather és a Feather segítségével, Aspose.Words segítségével" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./insert-image/" title="Beilleszteni egy képet a Word Document Headerbe." imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

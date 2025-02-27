@@ -1,18 +1,18 @@
 //ExStart
-//ExSummary: Kode ini menunjukkan bagaimana membuat dokumen Word dengan header dan footer primer menggunakan Aspose.Words. Ini menginisialisasi dokumen baru, bergerak ke bagian header dan footer, dan menulis teks gubahan. Akhirnya, ini menyimpan dokumen sebagai berkas DOCX.
-//ExStepSummary:0: Kode berikut menginisialisasi objek Dokumen utama dan mendirikan Dokumen Builder.
-//ExStepSummary:1: Kode berikut bergerak ke bagian header utama dan menulis teks header.
-//ExStepSummary:2: Kode berikut bergerak ke bagian kaki utama dan menulis teks footer.
-//ExStepSummary:3: Kode berikut menyimpan dokumen ke lokasi berkas yang ditentukan.
+//ExSummaryKode ini menunjukkan cara membuat dokumen Word dengan header dan footer utama menggunakan Aspose.Words. Ini menginisialisasikan dokumen baru, pindah ke bagian header dan footer, dan menulis teks kustom. Akhirnya, itu menyimpan dokumen sebagai file DOCX.
+//ExStepSummary:0: Kode berikut ini menginisialisasikan objek dokumen utama dan mengatur DocumentBuilder.
+//ExStepSummary:1: Kode berikut pindah ke bagian header utama dan menulis teks header.
+//ExStepSummary:2: Kode berikut bergerak ke bagian kaki utama dan menulis teks kaki.
+//ExStepSummary:3: Kode berikut menyimpan dokumen ke jalur file yang ditentukan.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Inisialisasikan suatu objek Dokumen baru
+// Mulai menginisialisasikan objek Dokumen baru
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Pindah ke daerah header utama
+// Pindah ke bagian header utama
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Write("Header for page.");
 
@@ -22,6 +22,6 @@ builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("Footer for page."); // Write the footer text
 
 //ExStep:3-
-// Simpan dokumen dengan nama berkas yang dinyatakan
+// Simpan dokumen dengan nama file yang ditentukan
 doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
 //ExEnd

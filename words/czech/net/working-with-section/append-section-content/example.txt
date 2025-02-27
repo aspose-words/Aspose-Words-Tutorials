@@ -1,40 +1,40 @@
 //ExStart
-//ExSummary:Tento příklad ukazuje, jak připojit a prepend obsah z jedné sekce do druhé v dokumentu Word pomocí Aspose.Words pro .NET.
-//ExStepSummary:0: Inicializovat nový Word dokument a DocumentBuilder přidat obsah.
-//ExStepSummary:1: Napsat text a vložit část přestávky vytvořit více sekcí v dokumentu.
-//ExStepSummary:2: Přístup do třetí sekce dokumentu pro přípravu na manipulaci s obsahem.
-//ExStepSummary:3: Předpověď obsahu z první sekce do třetí sekce.
-//ExStepSummary:4: Přidejte obsah z druhé sekce do třetí sekce.
+//ExSummaryTento příklad ukazuje, jak přidat a předkládat obsah z jednoho oddílu do druhého v dokumentu Word pomocí Aspose.Words pro .NET.
+//ExStepSummary:0: Začněte nový dokument Word a DocumentBuilder pro přidání obsahu.
+//ExStepSummary:1: Napíšejte text a vložte přestávky oddílu, abyste vytvořili v dokumentu více oddílů.
+//ExStepSummary:2: Přístup k třetí části dokumentu, aby se připravil na manipulaci s obsahem.
+//ExStepSummary:3: Předkládejte obsah z první části do třetí části.
+//ExStepSummary:4: Přidání obsahu z druhé části do třetí části.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// Inicializovat dokument a dokumentBuilder
+// Initializovat dokument a DocumentBuilder
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Napsat text a vložit část přestávky vytvořit tři sekce
+// Napíšejte text a vložíte přestávky oddílu vytvořit tři oddíly
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
-// Přidat obsah do druhé sekce
+// Přidejte obsah pro druhý oddíl
 builder.Write("Section 2");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
-// Přidat obsah do třetí sekce
+// Přidejte obsah třetí části
 builder.Write("Section 3");
 
 //ExStep:2-
-// Získejte třetí část dokumentu
+// Vytáhnout třetí oddíl z dokumentu
 Section section = doc.Sections[2];
 
 //ExStep:3-
-// Předpovězený obsah z první části do třetí části
+// Předběžné obsah z prvního oddílu do třetího oddílu
 Section sectionToPrepend = doc.Sections[0];
 section.PrependContent(sectionToPrepend);
 
 //ExStep:4-
-// Přidávat obsah z druhé sekce do třetí sekce
+// Přidání obsahu z druhé části do třetí části
 Section sectionToAppend = doc.Sections[1];
 section.AppendContent(sectionToAppend);
 //ExEnd

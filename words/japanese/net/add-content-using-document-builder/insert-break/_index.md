@@ -1,8 +1,8 @@
 ---
-title: アクセシビリティ付きのマルチペアワードドキュメントを作成します。Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, etc.)
+title: Aspose.Wordsで複数のページのWordドキュメントを作成する
 weight: 7700
 limit: 
-description: Asfof.document. ^ a b c d e f g h i ^ a b c d e f g h i e f g h i c d e f g h i h i j k l e f g h i j k l e f g h i j k l e f g h i j k l e f g h i ".
+description: ステップバイ・ステップ指示で .NET のAspose.Wordsを使用して複数のページのWordドキュメントを作成する方法について学びましょう.
 keywords: [Aspose.Words, .NET, Word document, DocumentBuilder, page break, create document, programming example]
 url: /ja/net/add-content-using-document-builder/insert-break/
 ---
@@ -10,25 +10,25 @@ url: /ja/net/add-content-using-document-builder/insert-break/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# アクセシビリティ付きのマルチペアワードドキュメントを作成します。Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, etc.)
+# Aspose.Wordsで複数のページのWordドキュメントを作成する
 
-この例は Asdom.NET を使ってワード文書を作成する方法を示します。 NET を使用すると、新しい文書を初期化し、テキストとページブレークを挿入し、最後に .docx ファイルとして保存します。
+この例では, .NET のためのAspose.Wordsを使用してWord ドキュメントを作成する方法を示し,複数のページにコンテンツを追加することができます. 新しい ドキュメントを初期化する方法,ドキュメントビルダーを使用してテキストとページの休憩を挿入し,最終的にドキュメントを .docx ファイルとして保存する方法を示します. .NET アプリケーションでドキュメント生成を自動化したい開発者にとって最適です.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-break" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## インストールインジケータ
-1. Assoft.NET: Asfof.wordsをインストールするために NuGetパッケージマネージャを使用します。パッケージマネージャで以下のコマンドを実行してください。
+## 設置指示
+1. .NET のAspose.Wordsをインストールする. Aspose.Wordsをインストールするには NuGet パッケージマネージャーを使用する. パッケージマネージャー コンソールで次のコマンドを実行する.
 ```
 Install-Package Aspose.Words
 ```
 
 
-## また、参照してください。
-[Asforce. NET ドキュメンテーション用用語](https://docs.aspose.com/words/net/)
-[access. ^ a b c d e f g h i ". NET インフォメーション".](https://reference.aspose.com/words/net/)
+## また見てください
+[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
+[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

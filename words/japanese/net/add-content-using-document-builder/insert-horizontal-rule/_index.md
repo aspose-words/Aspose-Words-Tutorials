@@ -1,8 +1,8 @@
 ---
-title: NET で横方向のワード文書を作成
+title: .NETで水平ルールでWordドキュメントを作成する
 weight: 7700
 limit: 
-description: Public domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainfalsefalsefalsefalsefalsefalse.
+description: Aspose.Wordsを使用して .NET でWord ドキュメントを作成し,簡単なコード例で水平ルールを挿入する方法について学びましょう.
 keywords: [Aspose.Words, .NET, Word document, horizontal rule, DocumentBuilder, example, code snippet]
 url: /ja/net/add-content-using-document-builder/insert-horizontal-rule/
 ---
@@ -10,31 +10,31 @@ url: /ja/net/add-content-using-document-builder/insert-horizontal-rule/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ワード文書を横方向で作成
-この例は、Document.Document.words. ^ a b c d e f g h i f g h i f g h i f g h i c d e f g h i f g h i f g h i f g h i f g h i h i j k h i j k h i j k h i j k h i j k h i j k h i j k h i j k h i j k h i j k h i j k h i j k h i j k l e f g h i j k j k j k j k h i j k k j k j k l j k j k j k j k j k j k j k j k j k j k j k j k k j k j k j k j k j k k j k j k " j k j k h " j k " on h " u " ". " ". " ". " ". " . " . . . . . . . " . " . " . " . ". ". ". . . . . . . . . . . . . . . . . . . . . . . . . . . .
+# 横向規則でWordドキュメントを作成する
+この例では,Word文書を作成するために .NET のAspose.Wordsを使用し,DocumentBuilder を使用して水平規則を追加することを示しています.文書を効果的にフォーマットする方法を知るには,以下の手順に従ってください.
 
 ---
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-horizontal-rule" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## インストールインジケータ
-1. Asfof.words: ビジュアルスタジオで NuGet パッケージマネージャを使う
-   * プロジェクトをビジュアル・スタジオにオープンします。
-   * あなたのプロジェクトを右クリックして ソル・エクスプローラーで
-   * NuGet パッケージの管理を選択してください。
-   * 検索対象`Asfords. 言葉`)を導入し,設置する.
+## 設置指示
+1. Aspose.Wordsをインストールする. Visual Studio で NuGet パッケージマネージャーを使用する.
+   * プロジェクトをビジュアルスタジオで開け
+   * 解決法探査機でプロジェクトを右クリックします
+   * NuGet パッケージを管理するを選択します.
+   * 検索する`"言葉"`設置して
 
-2. 使用命令を追加: コードファイルには Assoft.words クラスを使用するための以下の命令が含まれています:
+2. 使用指令を追加する:コードファイルにAspose.Wordsクラスを使用する次の指令を入力してください.
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
 
-## また、参照してください。
-[Asforce. NET ドキュメンテーション用用語](https://docs.aspose.com/words/net/)
-[access. ^ a b c d e f g h i ". NET インフォメーション".](https://reference.aspose.com/words/net/)
+## また見てください
+[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
+[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

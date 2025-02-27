@@ -1,10 +1,10 @@
 //ExStart
-//ExSummary: El siguiente código muestra cómo crear y formatear una tabla en un documento de Word usando la clase DocumentBuilder de Aspose.Words.
-//ExStepSummary:0: Inicializa un nuevo documento y DocumentBuilder para comenzar a crear el documento de Word.
-//ExStepSummary:1: Cree una tabla e inserte una celda para formatear.
-//ExStepSummary:2: Establezca las propiedades de formato para la celda, incluido el relleno y el ancho.
-//ExStepSummary:3: Insertar texto en la celda formateada.
-//ExStepSummary:4: Finalice la fila y la tabla y guarde el documento en una ruta de archivo especificada.
+//ExSummary: El siguiente código muestra cómo crear y formatar una tabla en un documento de Word utilizando la clase DocumentBuilder de Aspose.Words.
+//ExStepSummary:0: Iniciar un nuevo Document y DocumentBuilder para comenzar a construir el documento de Word.
+//ExStepSummary:1: Crea una tabla e inserta una célula para su formato.
+//ExStepSummary:2: Establezca las propiedades de formato para la célula, incluido el relleno y el ancho.
+//ExStepSummary:3: Insertar texto en la célula formateada.
+//ExStepSummary:4: Terminar la fila y la tabla, y guardar el documento en un camino de archivo especificado.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -17,29 +17,29 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 //ExStep:1-
 // Comience a crear una mesa
 builder.StartTable();
-// Insertar la primera celda en la tabla
+// Insertar la primera célula en la tabla
 builder.InsertCell();
 
 //ExStep:2-
-// Acceso a las propiedades de formato de la celda
+// Accediendo a las propiedades de formato de la célula
 CellFormat cellFormat = builder.CellFormat;
-// Ajuste del ancho de la celda
+// Establecimiento del ancho de la célula
 cellFormat.Width = 250;
-// Establecer el relleno
+// Establezca el relleno
 cellFormat.LeftPadding = 30;
 cellFormat.RightPadding = 30;
 cellFormat.TopPadding = 30;
 cellFormat.BottomPadding = 30;
 
 //ExStep:3-
-// Insertar texto en la celda
+// Insertar texto en la célula
 builder.Writeln("I'm a wonderful formatted cell.");
 
 //ExStep:4-
-// Finalización de la fila actual de la tabla
+// Terminando la fila actual de la tabla
 builder.EndRow();
-// Finalización de la creación de la mesa
+// Terminando la creación de la tabla
 builder.EndTable();
-// Guardar el documento
+// Salvando el documento
 doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");
 //ExEnd

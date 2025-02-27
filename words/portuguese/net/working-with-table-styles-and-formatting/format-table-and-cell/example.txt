@@ -1,12 +1,12 @@
 //ExStart
 //ExSummaryEste código demonstra como criar um documento do Word com uma tabela que tem diferentes estilos de borda e sombreamento para suas células.
-//ExStepSummary:0: Inicialize o Documento e o DocumentBuilder para criar um novo documento do Word.
-//ExStepSummary:1: Inicie uma nova mesa e defina as fronteiras para toda a mesa.
-//ExStepSummary:2: Adicione a primeira célula com sombreamento de fundo vermelho e texto.
-//ExStepSummary:3: Adicione a segunda célula com sombreamento de fundo verde e texto.
-//ExStepSummary:4: Terminar a primeira linha e limpar a formatação celular anterior.
+//ExStepSummary:0: Iniciar o Document e DocumentBuilder para criar um novo documento do Word.
+//ExStepSummary:1: Comece uma nova mesa e defina os limites para toda a mesa.
+//ExStepSummary:2: Adicione a primeira célula com sombras de fundo vermelho e texto.
+//ExStepSummary:3: Adicionar a segunda célula com sombreamento de fundo verde e texto.
+//ExStepSummary:4: Termina a primeira linha e limpa a formatagem anterior da célula.
 //ExStepSummary:5: Adicione uma nova linha com bordas maiores personalizadas para a primeira célula.
-//ExStepSummary:6: Adicione a segunda célula da nova linha com formatação padrão e texto.
+//ExStepSummary:6: Adicione a segunda célula da nova linha com formatamento padrão e texto.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -14,7 +14,7 @@
 //ExStepImage:5:images/5.png
 
 //ExStep:0-
-// Crie um novo documento.
+// Criar um novo documento.
 Document doc = new Document();
 // Crie um DocumentBuilder para manipular o documento.
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -22,42 +22,42 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 //ExStep:1-
 // Comece uma nova mesa.
 Table table = builder.StartTable();
-// Insira a primeira célula na tabela.
+// Insira a primeira célula na mesa.
 builder.InsertCell();
 // Defina as fronteiras para toda a mesa.
 table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
 
 //ExStep:2-
-// Definir a cor de fundo da célula para vermelho.
+// Coloque a cor de fundo da célula em vermelho.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
 builder.Writeln("Cell #1");
 // Insira a segunda célula.
 builder.InsertCell();
 
 //ExStep:3-
-// Definir a cor de fundo da célula para verde.
+// Coloque a cor de fundo da célula em verde.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
 builder.Writeln("Cell #2");
-// Fim da linha atual.
+// Acaba com a linha atual.
 builder.EndRow();
 
 //ExStep:4-
-// Limpe qualquer formatação de célula para começar de novo.
+// Desliga qualquer formato de célula para começar de novo.
 builder.CellFormat.ClearFormatting();
-// Insira uma nova célula na próxima linha.
+// Insira uma nova célula na linha seguinte.
 builder.InsertCell();
-// Crie fronteiras maiores para a primeira célula desta linha.
+// Criar fronteiras maiores para a primeira célula desta linha.
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;
 builder.CellFormat.Borders.Top.LineWidth = 4.0;
 builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
 builder.Writeln("Cell #3");
 //ExStep:5-
-// Inserir a quarta célula.
+// Insira a quarta célula.
 builder.InsertCell();
 builder.CellFormat.ClearFormatting();
 builder.Writeln("Cell #4");
 //ExStep:6-
-// Salve o documento.
+// Salva o documento.
 doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
 //ExEnd

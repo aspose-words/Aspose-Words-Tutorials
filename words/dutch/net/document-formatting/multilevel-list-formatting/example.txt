@@ -1,12 +1,12 @@
 //ExStart
-//ExSummary: Deze code laat zien hoe je een multilevel lijst aanmaakt in een Word- document met behulp van Aspose.Words. Het initialiseert een document, past een nummeringsformaat toe, maakt hoofd- en sub-items aan, en slaat het document uiteindelijk op als een .docx-bestand.
-//ExStepSummary:0: De volgende code initialiseert een nieuw document en DocumentBuilder instantie.
-//ExStepSummary:1: De volgende code past een standaard nummeringsstijl toe op de lijst en voegt top-level items toe.
-//ExStepSummary:2: De volgende code streepjes om sub-items te maken onder het tweede top-level item.
-//ExStepSummary:3: De volgende code extra streepjes om subsubposten te creëren onder de tweede subpost.
-//ExStepSummary:4: De volgende code gaat terug naar het vorige niveau om een ander item toe te voegen op het tweede niveau.
-//ExStepSummary:5: De volgende code gaat terug naar het bovenste niveau om het laatste item in de lijst toe te voegen.
-//ExStepSummary:6: De volgende code verwijdert nummering uit de lijst voordat u opslaat.
+//ExSummaryDeze code toont hoe een multi-level lijst in een Word-document met behulp van Aspose.Words te maken. Het initialiseert een document, past een nummering formaat toe, creëert hoofd- en sub-item, en slaat het document uiteindelijk op als een .docx-bestand.
+//ExStepSummary:0: De volgende code initialiseert een nieuw document en DocumentBuilder-instance.
+//ExStepSummary:1: De volgende code is een standaardnummeringsstijl die de lijst toevoegt en top- level items toevoegt.
+//ExStepSummary:2: De volgende code-indelingen om onderdelen te maken onder het tweede punt van het hoogste niveau.
+//ExStepSummary:3: De volgende code bevat verdere streepjes om onderdelen in het tweede onderdeel te maken.
+//ExStepSummary:4: De volgende code wordt teruggezet naar het vorige niveau om een ander item toe te voegen aan het tweede niveau.
+//ExStepSummary:5: De volgende code gaat terug naar het bovenste niveau om het laatste item toe te voegen aan de lijst.
+//ExStepSummary:6: De volgende code verwijdert nummering uit de lijst voordat het wordt opgeslagen.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -14,40 +14,40 @@
 //ExStepImage:5:images/5.png
 //ExStepImage:6:images/6.png
 //ExStep:0-
-// Een nieuw document initialiseren
+// Een nieuw document initiaaleren
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Standaard nummeringsformaat toepassen
+// De standaardnummering wordt toegepast
 builder.ListFormat.ApplyNumberDefault();
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 
 //ExStep:2-
-// Inspringen voor subitems
+// Indentiek voor onderdelen
 builder.ListFormat.ListIndent();
 builder.Writeln("Item 2.1");
 builder.Writeln("Item 2.2");
 
 //ExStep:3-
-// Inspringen voor sub-sub-items
+// Indentiek voor onder-onder-posten
 builder.ListFormat.ListIndent();
 builder.Writeln("Item 2.2.1");
 builder.Writeln("Item 2.2.2");
 
 //ExStep:4-
-// Terugspringen naar het tweede niveau
+// De verdomde is terug naar het tweede niveau .
 builder.ListFormat.ListOutdent();
 builder.Writeln("Item 2.3");
 
 //ExStep:5-
-// Terugspringen naar het bovenste niveau
+// De verdomde is terug naar het hoogste niveau .
 builder.ListFormat.ListOutdent();
 builder.Writeln("Item 3");
 
 //ExStep:6-
-// Nummering uit de lijst verwijderen
+// Verwijder nummering uit de lijst
 builder.ListFormat.RemoveNumbers();
 
 //ExStep:7-

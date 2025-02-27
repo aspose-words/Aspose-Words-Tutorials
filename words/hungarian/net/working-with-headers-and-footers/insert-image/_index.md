@@ -1,8 +1,8 @@
 ---
-title: Helyezzen be egy képet a Word dokumentum fejlécébe Aspose.Words for .NET
+title: Beilleszteni egy képet a Word Document Headerbe.
 weight: 7700
 limit: 
-description: Ismerje meg, hogyan szúrhat be egy képet egy Word dokumentum fejlécébe az Aspose.Words for .NET használatával. Lépésről lépésre útmutató mintakóddal és telepítési utasításokkal.
+description: Tanuljon meg, hogyan kell beilleszteni egy képet a Word dokumentum fejletébe a .NET-hez használt Aspose.Words segítségével.
 keywords: [Aspose.Words for .NET, insert image in header, Word document, .NET library, Word automation, header customization, document processing, C# example]
 url: /hu/net/working-with-headers-and-footers/insert-image/
 ---
@@ -10,43 +10,43 @@ url: /hu/net/working-with-headers-and-footers/insert-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kép beszúrása a Word dokumentum fejlécébe
+# Beilleszteni egy képet a Word Dokumentum Felsőcímbe
 
-Az Aspose.Words for .NET leegyszerűsíti a Word dokumentumfeldolgozást azáltal, hogy lehetővé teszi a fejlesztők számára, hogy automatizálják a feladatokat, például a képek beillesztését a fejlécekbe. Ez a bemutató bemutatja, hogyan kell használni a Document és a DocumentBuilder osztályokat, hogy pontos igazítást, méreteket és csomagolási lehetőségeket adjon a Word dokumentum elsődleges fejlécéhez. A folyamat egyszerű, így ideális a fejlesztők számára, akik dinamikusan szeretnék javítani a dokumentumsablonokat.  
+Az Aspose.Words a .NET-hez egyszerűsíti a Word dokumentumfeldolgozást, lehetővé téve a fejlesztők számára, hogy automatizálják a feladatokat, mint például a képek behelyezésének fejlemezekbe. Ez a tanár bemutatja, hogyan használhatja a Document és DocumentBuilder osztályokat, hogy pontos összehangolás, méretek és csomagolási lehetőségekkel hozzon hozzá egy kép a Word dokumentum elsődleges fejlemeze. A folyamat egyszerű, így ideális a fejlesztők számára, akik a dokumentummintákat dinamikus módon fejleszteni akarnak. A részletes lépések és minta kód segítségével, könnyedén integrálhatja ezt a funkcionalitást a .NET alkalmazásokba.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-headers-and-footers/insert-image" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Telepítési útmutató  
+## A telepítési utasítások  
 
-Az Aspose.Words for .NET használatának megkezdéséhez kövesse az alábbi egyszerű lépéseket:  
+A .NET-hez Aspose.Words használatával kezdeni, kövesse ezeket a egyszerű lépéseket:  
 
-1. Letöltés Aspose.Words  
-   * [Töltse le a legújabb verziót](https://releases.aspose.com/words/net/)Aspose.Words for .NET (angol nyelven).  
+1. Letöltsd le Aspose.Words  
+   * [Letöltsük le a legújabb verziót](https://releases.aspose.com/words/net/)Az Aspose.Words .NET-re.  
 
-2. Telepítse az Aspose.Words alkalmazást a NuGet segítségével  
-   * Nyissa meg a projektet a Visual Studio-ban.  
-   * Menjen az Eszközök menübe, és válassza a NuGet Package Manager > NuGet csomagok kezelése megoldást.  
-   * Keresés`Aspose.Words`a NuGet csomagkezelőben és telepítse azt.  
+2. A Aspose.Words telepítése a NuGet segítségével  
+   * Nyissa ki a projektét a Visual Studio-ban.  
+   * Menjére Menü, és válassza ki NuGet csomagkezelő > Kezdje kezelni NuGet csomagokat megoldás.  
+   * Keresd a`Aspose.Words`a NuGet csomagkezelőbe, és telepítse.  
 
-   Vagy használja a Csomagkezelő konzolt:  
+   Vagy használja a csomagkezelő konzolt:  
    ```shell
    Install-Package Aspose.Words
    ```  
 
-3. Alkalmazza a licencet  
-   * Kapd el![ingyenes próba licenc](https://releases.aspose.com/)vagy[licenc vásárlása](https://purchase.aspose.com/buy)Nem.  
-   * Használja az alábbi kódot a licenc alkalmazásához a projektben:  
+3. Kérje meg a engedélyt  
+   * \- Hozz egy..[ingyenes vizsgálati engedély](https://releases.aspose.com/)vagy[engedély megvásárlása](https://purchase.aspose.com/buy)\- Nem.  
+   * Használja a következő kódot a projekthez való licenc alkalmazásához:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```  
 
-## Lásd még
-[Aspose.Word for .NET dokumentáció](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET Referenciák](https://reference.aspose.com/words/net/)
+## Lásd:
+[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

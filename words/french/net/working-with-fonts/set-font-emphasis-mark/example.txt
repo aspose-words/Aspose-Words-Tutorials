@@ -1,11 +1,11 @@
 //ExStart
-//ExSummary:Ce code montre comment mettre une marque d'accent dans un document Word en utilisant Aspose.words.
-//ExStepSummary:0:Création d'une nouvelle instance Document avec laquelle travailler.
-//ExStepSummary:1:Configuration d'un documentBuilder pour manipuler le document.
-//ExStepSummary:2:Appliquer une marque d'accent à la police du constructeur.
+//ExSummary: Ce code montre comment définir un signe d'accent dans un document Word à l'aide d'Aspose.words.
+//ExStepSummary:0:Créer une nouvelle instance de document avec laquelle travailler.
+//ExStepSummary:1:Configurer un DocumentBuilder pour manipuler le document.
+//ExStepSummary:2:Appliquer un signe d'accent sur la police du constructeur.
 //ExStepSummary:3:Écrire un texte d'accent sur le document.
-//ExStepSummary:4:Écrire un texte simple sans aucun accent.
-//ExStepSummary:5: Ce code enregistre le document avec la marque de mise en évidence de la police.
+//ExStepSummary:4:Écrire un texte simple sans aucune mise en avant.
+//ExStepSummary:5: Ce code sauvegarde le document avec le signe d'accent sur la police.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
@@ -14,23 +14,23 @@
 Document document = new Document();
 
 //ExStep:1-
-// Initialiser DocumentBuilder pour la manipulation de documents
+// Initialement DocumentBuilder pour la manipulation de documents
 DocumentBuilder builder = new DocumentBuilder(document);
 
 //ExStep:2-
-// Mettre l'accent sur UnderSolidCircle
+// Fixez une marque d'accent sur le cycle sous-solid
 builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
 
 //ExStep:3-
 // Écrire le texte de l'accent sur le document
 builder.Write("Emphasis text");
-// Déplacez-vous vers la ligne suivante
+// Passez à la ligne suivante
 builder.Writeln();
-// Effacer le formatage de la police pour le texte suivant
+// Effacer la mise en forme de la police pour le texte suivant
 builder.Font.ClearFormatting();
 
 //ExStep:4-
-// Écrire un texte simple sans mise en évidence
+// Écrivez un texte simple sans mettre l'accent.
 builder.Write("Simple text");
 
 //ExStep:5-

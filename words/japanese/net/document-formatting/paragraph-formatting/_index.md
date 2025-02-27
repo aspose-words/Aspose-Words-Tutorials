@@ -1,8 +1,8 @@
 ---
-title: アクセシビリティを使用した段落の書式設定. NET 用の用語
+title: .NET のAspose.Wordsを使用したパラグラフをフォーマットする
 weight: 7700
 limit: 
-description: 段落を単語ドキュメントの「アスタリスク」で書式設定する方法を学びます。Public domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainPublic domainfalse domainfalse domain.
+description: Word ドキュメントの段落を .NET のAspose.Wordsで格式化する方法について学び,並行,インデント,およびスペースを含む.
 keywords: [Aspose.Words, .NET, paragraph formatting, Word document, document builder, alignment, indentation, Word API]
 url: /ja/net/document-formatting/paragraph-formatting/
 ---
@@ -10,37 +10,37 @@ url: /ja/net/document-formatting/paragraph-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# アクセシビリティを使用する段落を書式設定します。Words
-このガイドは、単語ドキュメント内の段落を Assoft.words.NET を使ってどのようにフォーマットするかを示します。 段落の後に配置、字下げ、スペースなどのさまざまな段落の書式設定オプションを設定することができます。例は、ドキュメントと文書コンストラクタの利用法を例に挙げます。
+# Aspose.Words を使って段落を格式化する
+このガイドは,NETのAspose.Wordsを使用してWord文書の段落をフォーマットする方法の一例を提供します. 配列,インデントメント,段落の後にスペースなどのさまざまな段落フォーマットオプションを設定する方法を学びます.例は,ドキュメントとドキュメントビルダークラスの使用を図示し,プログラム的に構造化された文書を作成することができます.
 
 ---
 {{< tutorial-widget sourcePath="words/net/document-formatting/multilevel-list-formatting" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## インストールインジケータ
-1. ダウンロード Asfoint. ^ a b c d e f g h i ^ a b c d e f g h i c d e f g h i d e f g h i f g h i f g h i j k l e f g h i f g h i j k l e f g h i ".[アクセシビリティサイト](https://www.aspose.com/downloads/words/net)をクリックして、最新のバージョンの Asfof.words.NET をダウンロードします。
+## 設置指示
+1. ダウンロードする.NETのAspose.Words[目標サイト](https://www.aspose.com/downloads/words/net).NET の最新バージョンの Aspose.Words をダウンロードする
 
-2. 参照を追加: NET プロジェクトで、ソリューションエクスプローラでプロジェクトを右クリックし、 追加_BAR_参照を選択し、ブラウズして Assoft.Words DL ファイルを追加します。
+2. 参照を追加: .NET プロジェクトでは,Solution Explorer でプロジェクトを右クリックし,追加 >参照を選択し,DLL ファイルAspose.Wordsを追加する場合はブラウジングします.
 
-3. NuGet パッケージを使用する (オプション): 代わりに Asdomument.words は、次のコマンドでインストールできます。
+3. NuGet パッケージを使用 (オプション):代替的には,次のコマンドでNuGet パッケージマネージャーでAspose.Wordsをインストールできます:
    ```
    Install-Package Aspose.Words
    ```
 
-4. 名前空間をインポート: 次の文をコードファイルに追加します。
+4. 輸入名区: コードファイルに次の項目を追加します
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
-5. ライセンスを適用する (オプション):  
-   2020年3月13日閲覧. ^ "[全版版]全面的に利用". 日本経済新聞 (日本経済新聞社). 日本経済新聞 (日本経済新聞社) (日本経済新聞社).[ライセンスを適用する](https://purchase.aspose.com/temporary- license/)または[フリーの試行](https://releases.aspose.com/words/net/))をいう.  
+5. 申請許可 (オプション):  
+   完全なバージョンを使用するために[ライセンス申請](https://purchase.aspose.com/temporary-license/) [無料試験](https://releases.aspose.com/words/net/)やってくれ  
 
 
-## また、参照してください。
-[Asforce. NET ドキュメンテーション用用語](https://docs.aspose.com/words/net/)
-[access. ^ a b c d e f g h i ". NET インフォメーション".](https://reference.aspose.com/words/net/)
+## また見てください
+[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
+[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

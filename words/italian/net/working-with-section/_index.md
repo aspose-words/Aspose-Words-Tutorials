@@ -1,8 +1,8 @@
 ---
-title: Lavorare con sezioni in Aspese.Parole per .NET
+title: Lavorare con sezioni in Aspose.Words per .NET
 weight: 10
 limit:
-description: Master lavorando con sezioni in Aspese.Parole per .NET. Impara a creare, modificare e gestire sezioni per layout di documenti Word professionali.
+description: Maestri di lavorare con sezioni in Aspose.Words per .NET. Impara a creare, modificare e gestire sezioni per layout di documenti Word professionali.
 keywords:
 url: /it/net/working-with-section/
 ---
@@ -12,12 +12,12 @@ url: /it/net/working-with-section/
 
 ## Introduzione
   
-Sezioni sono i blocchi di costruzione di documenti di Word, che consente di dividere i contenuti in parti distinte con formattazione e layout unici. Con Aspose.Words per .NET, è possibile prendere il controllo completo sulle sezioni, consentendo la creazione senza soluzione di continuità di strutture di documenti complesse. Se si disegnare intestazioni, piè di pagina, orientamento pagina, o flusso di contenuti, la gestione delle sezioni è fondamentale per la creazione di documenti professionali.
+Le sezioni sono i blocchi di costruzione dei documenti Word, che consentono di dividere il contenuto in parti distinte con formato e layout unici. Con Aspose.Words per .NET, puoi prendere il controllo completo delle sezioni, consentendo la creazione senza soluzione di continuità di strutture di documento complesse. Che tu stia progettando intestazioni, calciato, orientamento delle pagine o flusso di contenuti, la gestione delle sezioni è cruciale per la creazione di documenti professionali.
 
-Questa guida esplora vari aspetti del lavoro con le sezioni in Aspose.Parole per .NET. Dall'aggiunta e rimozione di sezioni per modificare le loro proprietà, scoprirete esempi pratici e tutorial passo-passo per semplificare il processo. Con questi strumenti, è possibile creare documenti di Word dinamici e personalizzati senza sforzo. Immergetevi e sbloccare la potenza delle sezioni!
+Questa guida esplora vari aspetti del lavoro con sezioni in Aspose.Words per .NET. Dalla aggiunta e rimozione di sezioni alla modifica delle loro proprietà, scoprirete esempi pratici e tutorial passo-passo per semplificare il processo. Con questi strumenti, è possibile creare documenti Word dinamici e personalizzati senza sforzo. Immergetevi e sbloccate il potere delle sezioni!
 
-{{< tutorial-card link="./add-section/" title="Aggiungi una nuova sezione al documento Word" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./append-section-content/" title="Aggiungi e prependi il contenuto nei documenti di Word" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./add-section/" title="Aggiungere una nuova sezione al documento Word" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./append-section-content/" title="Aggiungere e pre-appendiere contenuti nei documenti Word" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
