@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách thêm tiêu đề và mô tả vào một bảng trong tài liệu Word bằng cách sử dụng Aspose.Words.
+//ExStepSummary:0:Bước này khởi tạo tài liệu và tải nó từ một thư mục được chỉ định.
+//ExStepSummary:1:Bước này lấy bảng đầu tiên từ tài liệu và đặt tiêu đề và mô tả của nó.
+//ExStepSummary:2:Bước này cấu hình các tùy chọn lưu cho tài liệu với cài đặt tuân thủ được xác định.
+//ExStepSummary:3:Bước này tối ưu hóa các tùy chọn tương thích cho tài liệu cho Word 2016.
+//ExStepSummary:4:Bước này lưu tài liệu đã sửa đổi trở lại thư mục được chỉ định.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Tạo ra tài liệu và tải nó từ thư mục dữ liệu
+string dataDir = "Your Document Directory";
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Nhận bảng đầu tiên và đặt tiêu đề và mô tả của nó
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+table.Title = "Test title";
+table.Description = "Test description";
+
+//ExStep:2-
+// Thiết lập tùy chọn lưu cho tài liệu
+OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
+
+//ExStep:3-
+// Tối ưu hóa các tùy chọn tương thích cho Word 2016
+doc.CompatibilityOptions.OptimizeFor(Aspose.Words.Settings.MsWordVersion.Word2016);
+
+//ExStep:4-
+// Cung cấp tài liệu đã sửa đổi trở lại thư mục được chỉ định
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.TableTitleAndDescription.docx", options);
+//ExEnd

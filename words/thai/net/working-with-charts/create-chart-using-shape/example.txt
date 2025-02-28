@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: กรุณาตรวจสอบโค้ดต่อไปนี้เพื่อหาวิธีการสร้างตารางเส้นในเอกสาร Word คุณสามารถเลียนโค้ดนี้ไป IDE ของคุณและใช้มัน
+//ExStepSummary:0: คódต่อไปนี้แสดงวิธีการสร้างเอกสารใหม่และฉากเอกสารเอกสาร:
+//ExStepSummary:1: คódต่อไปนี้แสดงวิธีการใส่แผนที่ Line เข้าในเอกสาร
+//ExStepSummary:2: คódต่อไปนี้อธิบายวิธีการตั้งชื่อสําหรับแผนที่:
+//ExStepSummary:3: คódต่อไปนี้แสดงให้เห็นวิธีการตั้งค่าตําแหน่งและการตั้งค่าการวางโครงการของตํานานแผนที่
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// สร้างวัตถุเอกสารใหม่
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// เก็บแผนที่เส้นในเอกสารในมิติที่กําหนด
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+
+//ExStep:2-
+// เข้าถึงวัตถุ Chart จากรูป
+Chart chart = shape.Chart;
+// เปิดให้เห็นหัวข้อแผนที่
+chart.Title.Show = true;
+// กําหนดข้อความหัวข้อสําหรับแผนที่
+chart.Title.Text = "Line Chart Title";
+// รับรองว่าหัวข้อไม่ผูกผิวผิวผิว
+chart.Title.Overlay = false;
+
+//ExStep:3-
+// ตั้งตําแหน่งของตํานานแผนที่ทางซ้าย
+chart.Legend.Position = LegendPosition.Left;
+chart.Legend.Overlay = true;
+
+//ExStep:4-
+// เก็บเอกสารพร้อมกับแผนที่ไปยังไฟล์
+doc.Save("WorkingWithCharts.CreateChartUsingShape.docx");
+//ExEnd

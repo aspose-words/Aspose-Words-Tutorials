@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo ra một tài liệu và lấy khoảng cách hàng của một phông chữ được chỉ định.
+//ExStepSummary:0: Mã sau đây khởi tạo một Document và DocumentBuilder mới.
+//ExStepSummary:1: Mã đặt font vào "Calibri" và thêm một dòng văn bản.
+//ExStepSummary:2: Mã lấy khoảng cách đường của lần chạy đầu tiên trong tài liệu.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Tạo một bản sao tài liệu mới
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Đặt tên phông chữ cho "Calibri"
+builder.Font.Name = "Calibri";
+builder.Writeln("qText");
+
+//ExStep:2-
+// Nhập vào phông chữ của lần chạy đầu tiên
+Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
+// Khởi ra đường cách nhau đến máy điều khiển
+Console.WriteLine($"lineSpacing = {font.LineSpacing}");
+//ExEnd

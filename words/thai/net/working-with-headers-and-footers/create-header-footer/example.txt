@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างเอกสาร Word ด้วยหัวข้อและรองเท้าหลัก โดยใช้ Aspose.Words มันเริ่มต้นเอกสารใหม่ กลับไปที่ส่วนหัวข้อและรองเท้า และเขียนบทความที่ต้องการ และสุดท้าย มันบันทึกเอกสารเป็นไฟล์ DOCX
+//ExStepSummary:0: คódต่อไปนี้เริ่มต้นของวัตถุเอกสารหลักและตั้ง DocumentBuilder
+//ExStepSummary:1: คódต่อไปนี้ย้ายไปยังส่วนหัวข้อหลัก และเขียนบทความหัวข้อ
+//ExStepSummary:2: คódต่อไปนี้ย้ายไปยังส่วนข้นเท้าหลัก และเขียนบทความข้นเท้า
+//ExStepSummary:3: คódต่อไปนี้บันทึกเอกสารไปยังเส้นทางไฟล์ที่กําหนด
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// การเริ่มต้นของวัตถุเอกสารใหม่
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// ย้ายไปยังส่วนหัวข้อหลัก
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("Header for page.");
+
+//ExStep:2-
+// ย้ายไปยังส่วนขั้นต้นหลัก
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+builder.Write("Footer for page."); // Write the footer text
+
+//ExStep:3-
+// กรอกสารที่มีชื่อไฟล์ที่กําหนดไว้
+doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
+//ExEnd

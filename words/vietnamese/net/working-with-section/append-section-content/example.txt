@@ -1,0 +1,40 @@
+//ExStart
+//ExSummaryVí dụ này cho thấy cách thêm và prepend nội dung từ một phần đến một phần khác trong tài liệu Word bằng cách sử dụng Aspose.Words cho .NET.
+//ExStepSummary:0: Tạo ra một tài liệu Word mới và DocumentBuilder để thêm nội dung.
+//ExStepSummary:1: Viết văn bản và chèn phần nghỉ để tạo nhiều phần trong tài liệu.
+//ExStepSummary:2: Nhập vào phần thứ ba trong tài liệu để chuẩn bị cho việc thao túng nội dung.
+//ExStepSummary:3: Đưa nội dung từ phần đầu tiên đến phần ba.
+//ExStepSummary:4: Thêm nội dung từ phần hai vào phần ba.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Tạo ra tài liệu và DocumentBuilder
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Viết văn bản và chèn phần nghỉ để tạo ra ba phần
+builder.Write("Section 1");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// Thêm nội dung cho phần thứ hai
+builder.Write("Section 2");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// Thêm nội dung cho phần thứ ba
+builder.Write("Section 3");
+
+//ExStep:2-
+// Nhận phần thứ ba từ tài liệu
+Section section = doc.Sections[2];
+
+//ExStep:3-
+// Tạo nội dung từ phần đầu tiên đến phần ba
+Section sectionToPrepend = doc.Sections[0];
+section.PrependContent(sectionToPrepend);
+
+//ExStep:4-
+// Thêm nội dung từ phần hai đến phần ba
+Section sectionToAppend = doc.Sections[1];
+section.AppendContent(sectionToAppend);
+//ExEnd

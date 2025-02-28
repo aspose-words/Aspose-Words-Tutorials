@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: คódต่อไปนี้แสดงให้เห็นวิธีการสร้างเอกสาร Word ด้วยเซลล์ตารางแบบฟอร์เมต ซึ่งรวมถึงการเติมรอบเนื้อหาของมัน
+//ExStepSummary:0: คódต่อไปนี้เริ่มต้นเอกสารใหม่และผู้สร้างเอกสาร
+//ExStepSummary:1: คódต่อไปนี้เริ่มต้นตารางในเอกสาร
+//ExStepSummary:2: คódต่อไปนี้ใส่เซลล์ในตาราง
+//ExStepSummary:3: คódต่อไปนี้กําหนดการบรรจุของเซลล์
+//ExStepSummary:4: คódต่อไปนี้เพิ่มเติมข้อความในเซลล์และเสร็จแถวปัจจุบัน
+//ExStepSummary:5: คódต่อไปนี้จบตารางและบันทึกเอกสารไปยังไฟล์
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// เริ่มต้นเอกสารใหม่
+Document doc = new Document();
+// สร้างเอกสารสร้างเพื่อการควบคุมเอกสาร
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// เริ่มสร้างตาราง
+builder.StartTable();
+// ใส่เซลล์ใหม่ในตาราง
+builder.InsertCell();
+
+//ExStep:2-
+// เติมปะทะด้วย 30 จุดบนและล่าง, 50 จุดทางซ้ายและขวา
+builder.CellFormat.SetPaddings(30, 50, 30, 50);
+
+//ExStep:3-
+builder.Writeln("I'm a wonderful formatted cell.");
+// จบแถวที่อยู่ในตาราง
+builder.EndRow();
+// จบโต๊ะ
+builder.EndTable();
+
+//ExStep:4-
+// เก็บเอกสารไว้ในไฟล์ที่กําหนด
+doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
+//ExEnd

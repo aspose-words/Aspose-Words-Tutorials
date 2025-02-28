@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách thao tác bảng trong tài liệu Word bằng cách sử dụng Aspose.Words. Nó lấy lại một tài liệu hiện có, sửa đổi các biên giới của bảng đầu tiên và lưu các thay đổi vào một tệp mới.
+//ExStepSummary:0: Mã sau đây thiết lập tài liệu và lấy bảng đầu tiên từ nó.
+//ExStepSummary:1: Mã sau đây xóa các biên giới hiện có khỏi bảng để chuẩn bị cho định dạng mới.
+//ExStepSummary:2: Mã sau đây áp dụng một ranh giới màu xanh lá cây xung quanh và bên trong bàn.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Định nghĩa thư mục cho tài liệu
+string dataDir = "Your Document Directory";
+// Lắp các tài liệu
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Nhận bảng đầu tiên từ tài liệu
+Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
+
+//ExStep:2-
+// Xóa ra bất kỳ ranh giới hiện có nào khỏi bảng
+table.ClearBorders();
+
+//ExStep:3-
+// Đặt một ranh giới xanh xung quanh và bên trong bàn
+table.SetBorders(LineStyle.Single, 1.5, Color.Green);
+// Cung cấp tài liệu với các thay đổi
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");
+//ExEnd

@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo tài liệu Word với tiêu đề và chân chính chính bằng cách sử dụng Aspose.Words. Nó khởi tạo tài liệu mới, di chuyển đến các phần tiêu đề và chân, và viết văn bản tùy chỉnh. Cuối cùng, nó lưu tài liệu như một tệp DOCX.
+//ExStepSummary:0: Mã sau đây khởi tạo đối tượng Document chính và thiết lập DocumentBuilder.
+//ExStepSummary:1: Mã sau chuyển sang phần tiêu đề chính và viết văn bản tiêu đề.
+//ExStepSummary:2: Mã sau chuyển sang phần chân chính chính và viết văn bản chân.
+//ExStepSummary:3: Mã sau lưu tài liệu vào một con đường tập tin được chỉ định.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Tạo ra một đối tượng Document mới
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Chuyển đến phần tiêu đề chính
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("Header for page.");
+
+//ExStep:2-
+// Di chuyển đến phần chân chính
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+builder.Write("Footer for page."); // Write the footer text
+
+//ExStep:3-
+// Cung cấp tài liệu với tên tệp được chỉ định
+doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
+//ExEnd

@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo tài liệu Word với bảng định dạng bằng cách sử dụng Aspose.
+//ExStepSummary:0: Bước này khởi tạo một tài liệu mới và trình tạo tài liệu.
+//ExStepSummary:1: Bước này bắt đầu bảng và đưa một tế bào vào nó.
+//ExStepSummary:2: Bước này thiết lập định dạng cho hàng, bao gồm cả quy tắc chiều cao và chiều cao.
+//ExStepSummary:3: Bước này đặt bộ đệm cho toàn bộ bàn, ảnh hưởng đến tất cả các hàng.
+//ExStepSummary:4: Bước này thêm văn bản vào tế bào và kết thúc hàng.
+//ExStepSummary:5: Bước này kết thúc bảng và lưu tài liệu vào một con đường được chỉ định.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// Tạo một bản sao mới của tài liệu
+Document doc = new Document();
+// Tạo ra DocumentBuilder với tài liệu
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Bắt đầu một bàn mới
+Table table = builder.StartTable();
+// Nhập tế bào đầu tiên vào bảng
+builder.InsertCell();
+
+//ExStep:2-
+// Nhập vào thuộc tính RowFormat của người xây dựng
+RowFormat rowFormat = builder.RowFormat;
+// Đặt chiều cao của hàng
+rowFormat.Height = 100;
+// Đặt quy tắc độ cao chính xác
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// Đặt đệm cho bàn
+table.LeftPadding = 30;
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// Thêm văn bản vào tế bào hiện tại
+builder.Writeln("I'm a wonderful formatted row.");
+// Kết thúc dòng hiện tại
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:5-
+// Cung cấp tài liệu cho đường dẫn được chỉ định
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableRowFormatting.docx");
+//ExEnd

@@ -1,0 +1,34 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างเอกสาร Word โดยใช้ Aspose.Words การฟอร์เมทคุณสมบัติลาย before writing a sample text to it.
+//ExStepSummary:0: คódต่อไปนี้เริ่มต้นเอกสารใหม่และเอกสารBuilder
+//ExStepSummary:1: คódต่อไปนี้ตั้งค่าคุณสมบัติลายอักษรต่างๆ เช่น ขนาด, bold, สี, ชื่อ, และสไตล์การอเนกประสงค์
+//ExStepSummary:2: คódต่อไปนี้เขียนข้อความตัวอย่างต่อเอกสาร โดยใช้การตั้งค่าลายเขียนที่ตั้ง
+//ExStepSummary:3: คódต่อไปนี้บันทึกเอกสารไปยังบันทึกที่กําหนดไว้พร้อมชื่อไฟล์ที่กําหนด
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// สร้างเอกสารใหม่
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// เข้าถึงคุณสมบัติ font ผ่าน DocumentBuilder
+Font font = builder.Font;
+// ปรับขนาด font เป็น 16
+font.Size = 16;
+// ทํา font เป็น bold
+font.Bold = true;
+// เปลี่ยนสีลายเป็นสีฟ้า
+font.Color = Color.Blue;
+// กําหนด font เป็น Arial
+font.Name = "Arial";
+// ใช้รูปแบบการอเนกประสงค์ที่มีเส้นตรง
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+builder.Write("Sample text.");
+
+//ExStep:3-
+// เก็บเอกสารไว้ในบันทึกวัตถุประกอบ
+doc.Save("WorkingWithFonts.FontFormatting.docx");
+//ExEnd

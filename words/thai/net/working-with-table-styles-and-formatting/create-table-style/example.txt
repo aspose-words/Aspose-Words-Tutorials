@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: คódนี้แสดงให้เห็นวิธีการสร้างเอกสาร Word ด้วยตารางแบบใช้ Aspose.Words. 
+//ExStepSummary:0: เริ่มต้นเอกสารใหม่และ DocumentBuilder
+//ExStepSummary:1: เริ่มตารางใหม่และใส่เซลล์หัวข้อสําหรับ "นาม" และ "ค่า".
+//ExStepSummary:2: สร้าง TableStyle ที่เป็นมาตามความต้องการ โดยมีการตั้งค่าขอบและการบรรจุที่เฉพาะเจาะจง
+//ExStepSummary:3: กรอกสารด้วยรูปแบบตารางใหม่ที่ใช้
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// สร้างวัตถุเอกสารใหม่
+Document doc = new Document();
+// การเริ่มต้น DocumentBuilder เพื่อสร้างเอกสาร
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// เริ่มโต๊ะใหม่
+Table table = builder.StartTable();
+builder.InsertCell();
+builder.Write("Name");
+builder.InsertCell();
+builder.Write("Value");
+builder.EndRow();
+builder.InsertCell();
+builder.InsertCell();
+builder.EndTable();
+
+//ExStep:2-
+// สร้างแบบโต๊ะใหม่
+TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
+tableStyle.Borders.LineStyle = LineStyle.Double;
+// กําหนดความกว้างของขอบ
+tableStyle.Borders.LineWidth = 1;
+// เตรียมการปรับ
+tableStyle.LeftPadding = 18;
+tableStyle.RightPadding = 18;
+tableStyle.TopPadding = 12;
+tableStyle.BottomPadding = 12;
+// ใช้รูปแบบตารางที่ต้องการให้ตารางที่สร้างขึ้น
+table.Style = tableStyle;
+
+//ExStep:3-
+// เก็บเอกสารด้วยตารางแบบ
+doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
+//ExEnd

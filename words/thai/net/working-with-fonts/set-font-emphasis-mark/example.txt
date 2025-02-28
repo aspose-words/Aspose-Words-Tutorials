@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการตั้งตราการเน้นในเอกสาร Word โดยใช้ Aspose.words
+//ExStepSummary:0:การสร้างตัวอย่างเอกสารใหม่เพื่อทํางาน
+//ExStepSummary:1:การตั้งระบบ DocumentBuilder เพื่อการควบคุมเอกสาร
+//ExStepSummary:2:การใช้เครื่องหมายการเน้นต่อตัวอักษรของผู้สร้าง
+//ExStepSummary:3:เขียนข้อความเน้นต่อเอกสาร
+//ExStepSummary:4:เขียนข้อความง่ายๆ โดยไม่มีการเน้น
+//ExStepSummary:5: คódนี้บันทึกเอกสารที่มีเครื่องหมายการเน้นให้กับ font
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// สร้างเอกสารใหม่
+Document document = new Document();
+
+//ExStep:1-
+// การเริ่มต้น DocumentBuilder สําหรับการ thao tácเอกสาร
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:2-
+// ตั้งจุดสําคัญให้ UnderSolidCircle
+builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
+
+//ExStep:3-
+// เขียนข้อความสําคัญให้เอกสาร
+builder.Write("Emphasis text");
+// ไปต่อแถวต่อไป
+builder.Writeln();
+// กวาดรูปแบบลายลายลาย เพื่อข้อความต่อมา
+builder.Font.ClearFormatting();
+
+//ExStep:4-
+// เขียนข้อความง่ายๆ โดยไม่เน้น
+builder.Write("Simple text");
+
+//ExStep:5-
+// กรอกสารไว้ในเส้นทางที่กําหนด
+document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
+//ExEnd

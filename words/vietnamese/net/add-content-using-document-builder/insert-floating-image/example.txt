@@ -1,0 +1,26 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo tài liệu Word và chèn một hình ảnh với bố cục nổi bằng cách sử dụng Aspose.Words.
+//ExStepSummary:0: Mã sau đây khởi tạo một Document và DocumentBuilder mới.
+//ExStepSummary:1: Mã sau đây đưa một hình ảnh vào tài liệu.
+//ExStepSummary:2: Mã sau lưu tài liệu đến một vị trí được chỉ định.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+// Tạo một bản sao mới của tài liệu
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Nhập hình ảnh từ đường dẫn được chỉ định
+builder.InsertImage(ImagesDir + "Transparent background logo.png", 
+    RelativeHorizontalPosition.Margin,
+    100, 
+    RelativeVerticalPosition.Margin, 
+    100, 
+    200, 
+    100, 
+    WrapType.Square); 
+
+//ExStep:2-
+// Cung cấp tài liệu vào tệp được chỉ định
+doc.Save("AddContentUsingDocumentBuilder.InsertFloatingImage.docx");
+//ExEnd

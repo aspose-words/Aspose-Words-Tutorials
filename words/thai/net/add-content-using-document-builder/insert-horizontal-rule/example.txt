@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างเอกสาร Word โดยใช้ Aspose.Words และเพิ่มกฎแนวราบให้มัน 
+//ExStepSummary:0: สร้างวัตถุเอกสารใหม่เพื่อเก็บเนื้อหา
+//ExStepSummary:1: ใช้ DocumentBuilder เพื่อออกแบบการวางแผนของเอกสารและใส่ข้อความ
+//ExStepSummary:2: ใส่รูปกฎแนวราบในเอกสาร
+//ExStepSummary:3: กรอกสารไว้ในเส้นทางไฟล์ที่กําหนด
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// สร้างวัตถุเอกสารใหม่เพื่อเก็บเนื้อหา
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc); 
+
+//ExStep:1-
+// เขียนแถวในเอกสาร
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+// ใส่รูปกฎแนวราบในเอกสาร
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+// เก็บเอกสารที่ที่กําหนด
+doc.Save("AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

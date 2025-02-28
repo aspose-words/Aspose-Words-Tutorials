@@ -1,0 +1,57 @@
+//ExStart
+//ExSummary:Vui lòng kiểm tra mã sau đây để tìm cách chèn biểu đồ cột đơn giản vào tài liệu Word. Bạn có thể sao chép mã này vào IDE của bạn và chạy nó.
+//ExStepSummary:0: Mã này cho thấy cách tạo tài liệu Word bằng cách sử dụng Aspose.Words và chèn biểu đồ cột vào đó.
+//ExStepSummary:1: Mã này cho thấy cách tạo một đối tượng xây dựng tài liệu để thao túng nội dung Word.
+//ExStepSummary:2: Mã này cho thấy cách chèn hình dạng biểu đồ cột với kích thước được xác định vào tài liệu.
+//ExStepSummary:3: Mã này lấy lại đối tượng biểu đồ từ hình dạng được đưa vào để tùy chỉnh hơn nữa.
+//ExStepSummary:4: Mã này cho thấy cách truy cập vào bộ sưu tập các biểu đồ và in số lượng các chuỗi.
+//ExStepSummary:5: Mã này xóa bất kỳ chuỗi mặc định nào có thể đã được tạo với biểu đồ.
+//ExStepSummary:6: Mã này cho thấy cách xác định tên danh mục cho dữ liệu biểu đồ.
+//ExStepSummary:7: Mã này cho thấy cách thêm các chuỗi vào biểu đồ với tên danh mục tương ứng và giá trị dữ liệu.
+//ExStepSummary:8: Mã này lưu tài liệu với biểu đồ được chèn vào vào một tệp được chỉ định.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:7:images/4.png
+//ExStep:0-
+// Tạo một bản sao tài liệu Word mới.
+Document doc = new Document();
+
+//ExStep:1-
+// Tạo trình tạo tài liệu để dễ dàng chèn các yếu tố vào tài liệu.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// Nhập hình dạng biểu đồ cột với chiều rộng (432) và chiều cao (252) được chỉ định.
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:3-
+// Khôi phục đối tượng biểu đồ từ hình dạng để thao tác thêm.
+Chart chart = shape.Chart;
+
+//ExStep:4-
+// Nhập vào bộ sưu tập chuỗi của biểu đồ.
+ChartSeriesCollection seriesColl = chart.Series;
+// Bác in số series trong biểu đồ lên máy điều khiển.
+Console.WriteLine(seriesColl.Count);
+
+//ExStep:5-
+// Xóa bất kỳ chuỗi mặc định nào được tạo tự động khi biểu đồ được tạo.
+seriesColl.Clear();
+
+//ExStep:6-
+// Định nghĩa một mảng tên danh mục cho dữ liệu biểu đồ.
+string[] categories = new string[] { "Category 1", "Category 2" };
+
+//ExStep:7-
+// Thêm nhiều chuỗi vào biểu đồ với tên danh mục và giá trị dữ liệu.
+seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
+seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
+seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
+seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
+seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
+
+//ExStep:8-
+// Cung cấp tài liệu với biểu đồ được chèn vào đường dẫn tập tin được chỉ định.
+doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
+//ExEnd

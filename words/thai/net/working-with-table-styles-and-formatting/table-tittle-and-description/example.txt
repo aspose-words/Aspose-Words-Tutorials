@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary:โค้ดนี้แสดงวิธีการเพิ่มชื่อและคําอธิบายต่อตารางในเอกสาร Word โดยใช้ Aspose.Words
+//ExStepSummary:0:ขั้นตอนนี้เริ่มต้นเอกสารและโหลดมันจากบันทึกที่กําหนด
+//ExStepSummary:1:ขั้นตอนนี้จะเอาตารางแรกจากเอกสาร และตั้งชื่อและคําอธิบายของมัน
+//ExStepSummary:2:ขั้นตอนนี้ตั้งค่าตัวเลือกเก็บข้อมูลสําหรับเอกสารที่มีการตั้งค่าความเป็นจริงที่กําหนด
+//ExStepSummary:3:ขั้นตอนนี้อป্টিมิสเตอร์ตัวเลือกความเข้ากันของเอกสารสําหรับ Word 2016.
+//ExStepSummary:4:ขั้นตอนนี้จะบันทึกเอกสารที่ปรับเปลี่ยนกลับมาในบันทึกที่กําหนด
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// การเริ่มต้นเอกสารและโหลดมันจากบันทึกข้อมูล
+string dataDir = "Your Document Directory";
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// ค้นหาตารางแรก และตั้งชื่อและการอธิบายของมัน
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+table.Title = "Test title";
+table.Description = "Test description";
+
+//ExStep:2-
+// ปรับเปลี่ยนตัวเลือกบันทึกเอกสาร
+OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
+
+//ExStep:3-
+// ปรับปรุงความเข้ากันของ Word 2016
+doc.CompatibilityOptions.OptimizeFor(Aspose.Words.Settings.MsWordVersion.Word2016);
+
+//ExStep:4-
+// เก็บเอกสารที่ปรับเปลี่ยนกลับมาในบันทึกที่กําหนด
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.TableTitleAndDescription.docx", options);
+//ExEnd

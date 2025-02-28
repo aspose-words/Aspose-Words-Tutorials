@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách chèn biểu đồ Bubble vào tài liệu Word bằng cách sử dụng Aspose.Words.
+//ExStepSummary:0: Mã sau đây khởi tạo một Document và DocumentBuilder mới.
+//ExStepSummary:1: Một biểu đồ Bubble được tạo và thêm vào tài liệu bằng cách sử dụng DocumentBuilder.
+//ExStepSummary:2: Dòng dữ liệu cho biểu đồ Bubble được thêm vào với các giá trị X, Y và kích thước cụ thể.
+//ExStepSummary:3: Cuối cùng, tài liệu được lưu với biểu đồ Bubble được chèn vào.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Tạo ra một Document và DocumentBuilder mới
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Nhập biểu đồ Bubble vào tài liệu
+Shape shape = builder.InsertChart(ChartType.Bubble, 432, 252);
+
+//ExStep:2-
+// Thêm chuỗi dữ liệu vào biểu đồ Bubble
+Chart chart = shape.Chart;
+chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, // X values
+    new double[] { 2.7, 3.2, 0.8 }, // Y values
+    new double[] { 10, 4, 8 }); // Size values for the bubbles
+
+//ExStep:3-
+// Cung cấp tài liệu với biểu đồ Bubble
+doc.Save("WorkingWithCharts.InsertBubbleChart.docx");
+//ExEnd

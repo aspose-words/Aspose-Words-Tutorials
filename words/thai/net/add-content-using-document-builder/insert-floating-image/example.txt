@@ -1,0 +1,26 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างเอกสาร Word และใส่ภาพที่มีการวางแผนที่ระจาย โดยใช้ Aspose.Words.
+//ExStepSummary:0: คódต่อไปนี้เริ่มต้นเอกสารและเอกสารBuilder ใหม่
+//ExStepSummary:1: คódต่อไปนี้ใส่ภาพในเอกสาร
+//ExStepSummary:2: คódต่อไปนี้บันทึกเอกสารไปที่ที่กําหนด
+//ExStepImage:1:images/1.png
+//ExStep:0-
+// สร้างเอกสารใหม่
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// ใส่ภาพจากเส้นทางที่กําหนด
+builder.InsertImage(ImagesDir + "Transparent background logo.png", 
+    RelativeHorizontalPosition.Margin,
+    100, 
+    RelativeVerticalPosition.Margin, 
+    100, 
+    200, 
+    100, 
+    WrapType.Square); 
+
+//ExStep:2-
+// เก็บเอกสารไว้ในไฟล์ที่กําหนด
+doc.Save("AddContentUsingDocumentBuilder.InsertFloatingImage.docx");
+//ExEnd

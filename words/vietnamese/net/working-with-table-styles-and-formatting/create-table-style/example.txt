@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo tài liệu Word với bảng kiểu bằng cách sử dụng Aspose.Words. 
+//ExStepSummary:0: Tạo ra một Document và DocumentBuilder mới.
+//ExStepSummary:1: Bắt đầu một bảng mới và chèn các ô tiêu đề cho "Name" và "Value".
+//ExStepSummary:2: Tạo một TableStyle tùy chỉnh với các thiết lập biên giới và lấp đầy cụ thể.
+//ExStepSummary:3: Cung cấp tài liệu với kiểu bảng mới được áp dụng.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Tạo một đối tượng tài liệu mới
+Document doc = new Document();
+// Tạo ra trình tạo DocumentBuilder để xây dựng tài liệu
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Bắt đầu một bàn mới
+Table table = builder.StartTable();
+builder.InsertCell();
+builder.Write("Name");
+builder.InsertCell();
+builder.Write("Value");
+builder.EndRow();
+builder.InsertCell();
+builder.InsertCell();
+builder.EndTable();
+
+//ExStep:2-
+// Tạo một kiểu bàn mới
+TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
+tableStyle.Borders.LineStyle = LineStyle.Double;
+// Đặt chiều rộng biên giới
+tableStyle.Borders.LineWidth = 1;
+// Đặt đệm
+tableStyle.LeftPadding = 18;
+tableStyle.RightPadding = 18;
+tableStyle.TopPadding = 12;
+tableStyle.BottomPadding = 12;
+// Sử dụng kiểu bảng tùy chỉnh cho bảng được tạo
+table.Style = tableStyle;
+
+//ExStep:3-
+// Cung cấp tài liệu với bảng kiểu
+doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
+//ExEnd

@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo tài liệu Word bằng cách sử dụng lớp DocumentBuilder và chèn một đoạn văn phong cách vào nó.
+//ExStepSummary:0: Mã sau đây khởi tạo một Document và một DocumentBuilder để tạo tài liệu.
+//ExStepSummary:1: Mã sau đây cấu hình các cài đặt phông chữ cho đoạn văn.
+//ExStepSummary:2: Mã sau đây thiết lập các cài đặt định dạng đoạn để sắp xếp và ghi dấu.
+//ExStepSummary:3: Mã sau đây viết một đoạn văn vào tài liệu.
+//ExStepSummary:4: Mã sau lưu tài liệu như một tệp .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Tạo ra một đối tượng Document mới
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Nhập vào cài đặt phông chữ của DocumentBuilder
+Font font = builder.Font;
+// Đặt kích thước phông chữ lên 16
+font.Size = 16;
+// Làm cho phông chữ đậm
+font.Bold = true;
+// Đặt màu phông chữ lên màu xanh
+font.Color = Color.Blue;
+// Đặt tên phông chữ vào Arial
+font.Name = "Arial";
+// Thêm một dấu phím dưới chân vào phông chữ
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+// Nhập vào cài đặt định dạng đoạn văn
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.FirstLineIndent = 8;
+paragraphFormat.Alignment = ParagraphAlignment.Justify;
+paragraphFormat.KeepTogether = true;
+
+//ExStep:3-
+// Viết một đoạn văn trong tài liệu
+builder.Writeln("A whole paragraph.");
+
+//ExStep:4-
+// Cung cấp tài liệu như một tệp .docx
+doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
+//ExEnd

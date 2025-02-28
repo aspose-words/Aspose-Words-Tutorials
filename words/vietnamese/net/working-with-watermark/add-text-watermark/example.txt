@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách thêm một dấu nước văn bản với các tùy chọn cụ thể vào tài liệu Word bằng cách sử dụng Aspose.Words.
+//ExStepSummary:0: Mã sau này khởi tạo con đường tài liệu và tạo ra một đối tượng Tài liệu mới.
+//ExStepSummary:1: Mã sau đây thiết lập các tùy chọn cho dấu nước văn bản, bao gồm gia đình phông chữ, kích thước, màu sắc và bố cục.
+//ExStepSummary:2: Mã sau đây áp dụng dấu nước văn bản với các tùy chọn được chỉ định cho tài liệu.
+//ExStepSummary:3: Mã sau lưu tài liệu được sửa đổi vào một thư mục được chỉ định.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+// Đặt đường dẫn thư mục cho tài liệu
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Lắp đặt Word tài liệu
+Document doc = new Document(dataDir + "Document.docx");
+
+//ExStep:2-
+// Tạo các tùy chọn watermark
+TextWatermarkOptions options = new TextWatermarkOptions()
+{
+    FontFamily = "Arial", // Set font family for the watermark text
+    FontSize = 36, // Set font size for the watermark text
+    Color = Color.Black, // Set color of the watermark text
+    Layout = WatermarkLayout.Horizontal, // Specify layout of the watermark
+    IsSemitrasparent = false // Set transparency option
+};
+
+//ExStep:3-
+// Sử dụng văn bản watermark với các tùy chọn
+doc.Watermark.SetText("Test", options);
+
+//ExStep:4-
+// Cung cấp tài liệu với dấu nước
+doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
+//ExEnd

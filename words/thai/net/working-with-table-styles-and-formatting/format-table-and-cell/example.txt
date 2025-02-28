@@ -1,0 +1,63 @@
+//ExStart
+//ExSummary: คódนี้แสดงให้เห็นวิธีการสร้างเอกสาร Word ด้วยตารางที่มีแนวขอบและรูปแบบเงาต่าง ๆ สําหรับเซลล์ของมัน
+//ExStepSummary:0: เปิดตั้งเอกสารและเอกสารBuilder เพื่อสร้างเอกสาร Word ใหม่
+//ExStepSummary:1: เริ่มโต๊ะใหม่ และกําหนดขอบเขตสําหรับโต๊ะทั้งหมด
+//ExStepSummary:2: เพิ่มเซลล์แรกด้วยสีแดงหลัง และข้อความ
+//ExStepSummary:3: เพิ่มเซลล์ที่สองด้วยเงาหลังสีเขียวและข้อความ
+//ExStepSummary:4: จบแถวแรกและลบการฟอร์เมทเซลล์ก่อนหน้านี้
+//ExStepSummary:5: เพิ่มแถวใหม่ที่มีขอบใหญ่ตามที่ต้องการสําหรับเซลล์แรก
+//ExStepSummary:6: เพิ่มเซลล์ที่สองของแถวใหม่ด้วยการฟอร์มเททและข้อความโดย मुलभूत
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// สร้างเอกสารใหม่
+Document doc = new Document();
+// สร้าง DocumentBuilder เพื่อการควบคุมเอกสาร
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// เริ่มโต๊ะใหม่
+Table table = builder.StartTable();
+// ใส่เซลล์แรกในตาราง
+builder.InsertCell();
+// กําหนดขอบเขตให้โต๊ะทั้งหมด
+table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
+
+//ExStep:2-
+// ปรับสีหลังของเซลล์เป็นสีแดง
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
+builder.Writeln("Cell #1");
+// ใส่เซลล์ที่สอง
+builder.InsertCell();
+
+//ExStep:3-
+// ปรับสีหลังของเซลล์เป็นสีเขียว
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
+builder.Writeln("Cell #2");
+// จบการพูดกันในตอนนี้
+builder.EndRow();
+
+//ExStep:4-
+// ทําให้ฟอร์มเมทเซลล์หมด เพื่อเริ่มใหม่
+builder.CellFormat.ClearFormatting();
+// ใส่เซลล์ใหม่ในแถวต่อไป
+builder.InsertCell();
+// สร้างขอบเขตที่ใหญ่สําหรับเซลล์แรกของแถวนี้
+builder.CellFormat.Borders.Left.LineWidth = 4.0;
+builder.CellFormat.Borders.Right.LineWidth = 4.0;
+builder.CellFormat.Borders.Top.LineWidth = 4.0;
+builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
+builder.Writeln("Cell #3");
+//ExStep:5-
+// ใส่เซลล์ที่ 4
+builder.InsertCell();
+builder.CellFormat.ClearFormatting();
+builder.Writeln("Cell #4");
+//ExStep:6-
+// เก็บเอกสารไว้
+doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
+//ExEnd

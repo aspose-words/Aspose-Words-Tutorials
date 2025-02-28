@@ -1,0 +1,19 @@
+//ExStart
+//ExSummary:โค้ดนี้แสดงวิธีการใส่รูปในเส้นในเอกสาร Word โดยใช้ Aspose.Words
+//ExStepSummary:0: การเริ่มต้นของ object Document และ DocumentBuilder สําหรับการสร้างเอกสาร
+//ExStepSummary:1: การใส่ภาพในเอกสารที่ตําแหน่งคอร์สอร์ปัจจุบันกับ DocumentBuilder
+//ExStepSummary:2: การบันทึกเอกสารไปยังชื่อไฟล์ที่กําหนด
+//ExStepImage:1:images/1.png
+//ExStep:0-
+// เริ่มต้นเอกสารและเอกสารใหม่
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// ใส่ภาพโดยใช้ DocumentBuilder
+builder.InsertImage(ImagesDir + "Transparent background logo.png");
+
+//ExStep:2-
+// เก็บเอกสารที่ปรับเปลี่ยนไว้ในไฟล์
+doc.Save("AddContentUsingDocumentBuilder.InsertInlineImage.docx");
+//ExEnd

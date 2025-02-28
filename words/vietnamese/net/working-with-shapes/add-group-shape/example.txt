@@ -1,0 +1,67 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo hình dạng nhóm trong tài liệu bằng cách sử dụng Aspose.Words.
+// Nó tạo ra một hình dạng gọi biên giới nhấn và một nút hành động, thêm chúng vào hình dạng nhóm, và sau đó chèn hình dạng nhóm vào tài liệu trước khi lưu nó.
+//ExStepSummary:0: Tạo ra một Tài liệu mới và đảm bảo các yêu cầu tối thiểu được đáp ứng.
+//ExStepSummary:1: Tạo một GroupShape sẽ giữ các hình dạng khác.
+//ExStepSummary:2: Thêm một hình dạng ngoại ngữ ngoại vi cho hình dạng nhóm.
+//ExStepSummary:3: Thêm hình nút hành động vào hình nhóm.
+//ExStepSummary:4: Đặt kích thước và tọa độ cho hình dạng nhóm.
+//ExStepSummary:5: Nhập hình dạng nhóm vào tài liệu bằng cách sử dụng DocumentBuilder.
+//ExStepSummary:6: Chất lưu tài liệu chứa hình dạng nhóm đến một vị trí được chỉ định.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStep:0-
+// Tạo tài liệu mới
+Document doc = new Document();
+// Đảm bảo tài liệu đáp ứng các yêu cầu tối thiểu
+doc.EnsureMinimum();
+
+//ExStep:1-
+// Tạo một phiên bản GroupShape mới
+GroupShape groupShape = new GroupShape(doc);
+
+//ExStep:2-
+// Tạo hình dạng gọi ngoại ngữ
+Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
+{
+    Width = 100, 
+    Height = 100
+};
+// Thêm hình thành vào hình dạng nhóm
+groupShape.AppendChild(accentBorderShape);
+
+//ExStep:3-
+// Tạo hình nút hành động
+Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
+{
+	// Đặt vị trí bên trái của hình dạng
+    Left = 100, 
+	// Đặt chiều rộng hình dạng
+    Width = 100, 
+	// Đặt chiều cao của hình dạng
+    Height = 200
+};
+// Thêm nút hành động vào hình dạng nhóm
+groupShape.AppendChild(actionButtonShape);
+
+//ExStep:4-
+// Thiết lập chiều rộng của hình dạng nhóm
+groupShape.Width = 200;
+// Đặt chiều cao của hình dạng nhóm
+groupShape.Height = 200;
+// Đặt kích thước liên kết cho hình dạng nhóm
+groupShape.CoordSize = new Size(200, 200);
+
+//ExStep:5-
+// Tạo trình tạo tài liệu để thao tác tài liệu
+DocumentBuilder builder = new DocumentBuilder(doc);
+// Nhập hình dạng nhóm vào tài liệu
+builder.InsertNode(groupShape);
+
+//ExStep:6-
+// Cung cấp tài liệu ở một vị trí được chỉ định
+doc.Save("WorkingWithShapes.AddGroupShape.docx");
+//ExEnd

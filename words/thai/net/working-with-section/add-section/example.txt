@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการเพิ่มส่วนใหม่ในเอกสาร Word โดยใช้ Aspose.Words สําหรับ .NET. กระบวนการนี้รวมถึงการเริ่มต้นเอกสาร, เขียนเนื้อหา, และการเพิ่มส่วนใหม่.
+//ExStepSummary:0: เริ่มต้นเอกสาร Word ใหม่ และ object DocumentBuilder เพื่อเพิ่มเนื้อหาให้เอกสาร
+//ExStepSummary:1: เพิ่มข้อความในส่วนแรก โดยใช้วัตถุ DocumentBuilder
+//ExStepSummary:2: เพิ่มข้อความในส่วนแรก โดยใช้วัตถุ DocumentBuilder
+//ExStepSummary:3: สร้างส่วนใหม่และเพิ่มมันในกลุ่มส่วนของเอกสาร
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// สร้างเอกสาร Word ใหม่
+Document doc = new Document();
+// เริ่มต้น DocumentBuilder สําหรับเอกสาร
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// เพิ่มเนื้อหาในส่วนแรก
+builder.Writeln("Hello1"); // Write "Hello1" into the document's first section.
+
+//ExStep:2-
+// เพิ่มเนื้อหาในส่วนแรก
+builder.Writeln("Hello2"); // Write "Hello2" into the document's first section.
+
+//ExStep:3-
+// สร้างส่วนใหม่ในเอกสาร
+Section sectionToAdd = new Section(doc);
+doc.Sections.Add(sectionToAdd);
+//ExEnd

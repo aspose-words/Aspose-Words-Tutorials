@@ -1,0 +1,78 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo tài liệu Word với bảng nội dung bằng cách sử dụng DocumentBuilder. Nó bao gồm tiêu đề của các cấp độ khác nhau và lưu tài liệu như một tệp .docx.
+//ExStepSummary:0: Bước này khởi tạo một đối tượng Tài liệu mới.
+//ExStepSummary:1: Bước này tạo ra một đối tượng DocumentBuilder cho thao tác tài liệu.
+//ExStepSummary:2: Bước này sẽ đưa bảng nội dung vào đầu tài liệu.
+//ExStepSummary:3: Bước này giới thiệu một đoạn khe trang để bắt đầu nội dung thực tế trên một trang mới.
+//ExStepSummary:4: Bước này đặt tiêu đề đầu tiên và viết "T tiêu đề 1" vào tài liệu.
+//ExStepSummary:5: Bước này đặt mức tiêu đề thứ hai và viết "T tiêu đề 1.1" và "T tiêu đề 1.2".
+//ExStepSummary:6: Bước này một lần nữa đặt mức tiêu đề đầu tiên và viết "T tiêu đề 2" và "T tiêu đề 3".
+//ExStepSummary:7: Bước này đặt mức tiêu đề thứ hai và viết " tiêu đề 3.1".
+//ExStepSummary:8: Bước này đặt mức tiêu đề thứ ba và viết các phụ đề "Tên 3.1.1", "Tên 3.1.2" và "Tên 3.1.3".
+//ExStepSummary:9: Bước này đặt cấp độ tiêu đề thứ hai một lần nữa và viết "T tiêu đề 3.2" và "T tiêu đề 3.3".
+//ExStepSummary:10: Cuối cùng, bước này cập nhật các trường trong tài liệu và lưu nó như một tệp .docx.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:6:images/4.png
+//ExStepImage:7:images/5.png
+//ExStepImage:8:images/6.png
+//ExStepImage:9:images/7.png
+
+//ExStep:0-
+// Tạo một bản sao tài liệu mới
+Document doc = new Document();
+
+//ExStep:1-
+// Tạo ra DocumentBuilder để thao tác tài liệu
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// Nhập bảng nội dung với các tùy chọn được chỉ định
+builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
+
+//ExStep:3-
+// Nhập một đoạn thư để bắt đầu nội dung trên một trang mới
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:4-
+// Thiết lập phong cách cho tiêu đề 1
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 1");
+
+//ExStep:5-
+// Thiết lập phong cách cho tiêu đề 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 1.1");
+builder.Writeln("Heading 1.2");
+
+//ExStep:6-
+// Đặt phong cách trở lại tiêu đề 1
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 2");
+builder.Writeln("Heading 3");
+
+//ExStep:7-
+// Thiết lập phong cách cho tiêu đề 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.1");
+
+//ExStep:8-
+// Thiết lập phong cách cho tiêu đề 3
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
+builder.Writeln("Heading 3.1.1");
+builder.Writeln("Heading 3.1.2");
+builder.Writeln("Heading 3.1.3");
+
+//ExStep:9-
+// Đặt phong cách trở lại tiêu đề 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.2");
+builder.Writeln("Heading 3.3");
+
+//ExStep:10-
+// Tắc cập tất cả các trường trong tài liệu
+doc.UpdateFields();
+// Cung cấp tài liệu
+doc.Save("AddContentUsingDocumentBuilder.InsertTableOfContents.docx");
+//ExEnd

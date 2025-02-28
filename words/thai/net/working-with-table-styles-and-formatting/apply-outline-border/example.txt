@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: คód นี้ แสดง วิธี การ ใช้ ขอบ สี ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ ภาพ 
+//ExStepSummary:0: คódต่อไปนี้เริ่มต้นเอกสารและหาตารางแรก
+//ExStepSummary:1: ขั้นตอนนี้ทําให้ตารางตรงตรงกลางหน้า
+//ExStepSummary:2: ขั้นตอนนี้ ทําให้ขอบเขตที่มีอยู่หมด
+//ExStepSummary:3: ขั้นนี้ตั้งขอบเขียวรอบโต๊ะ แต่ไม่ใช่ภายใน
+//ExStepSummary:4: ขั้นตอนนี้เต็มเซลล์ด้วยสีเขียวสดใส
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// กําหนดเอกสารของเอกสาร
+string dataDir = "Your Document Directory";
+// โหลดเอกสาร
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// รับตารางแรกจากเอกสาร
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+// สะดุตตารางไปยังศูนย์กลางหน้า
+table.Alignment = TableAlignment.Center;
+
+//ExStep:2-
+// สูญเสียแดนที่มีอยู่
+table.ClearBorders();
+
+//ExStep:3-
+// กําหนดขอบซ้าย
+table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
+// กําหนดขอบขวา
+table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
+// กําหนดขอบบน
+table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
+// กําหนดขอบล่าง
+table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
+
+//ExStep:4-
+// เติมเซลล์ด้วยสีเขียวใส
+table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
+// เก็บเอกสารที่ปรับเปลี่ยน
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
+//ExEnd

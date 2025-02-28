@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: ตัวอย่างนี้แสดงให้เห็นวิธีการเติมและเตรียมเติมเนื้อหาจากส่วนหนึ่งไปอีกส่วนหนึ่งในเอกสาร Word โดยใช้ Aspose.Words สําหรับ .NET
+//ExStepSummary:0: เริ่มต้นเอกสาร Word และ DocumentBuilder ใหม่เพื่อเพิ่มเนื้อหา
+//ExStepSummary:1: เขียนข้อความและใส่ช่องว่างส่วนเพื่อสร้างช่องหลายส่วนในเอกสาร
+//ExStepSummary:2: เข้าสู่ส่วนที่สามในเอกสาร เพื่อเตรียมความพร้อมสําหรับการ thao tácเนื้อหา
+//ExStepSummary:3: เผยความในส่วนแรกถึงส่วนที่สาม
+//ExStepSummary:4: เพิ่มเนื้อหาจากส่วนที่สองไปยังส่วนที่สาม
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// การเริ่มต้นเอกสารและ DocumentBuilder
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// เขียนข้อความและใส่ช่องว่างส่วนเพื่อสร้างสามส่วน
+builder.Write("Section 1");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// เพิ่มเนื้อหาสําหรับส่วนที่สอง
+builder.Write("Section 2");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// เพิ่มเนื้อหาสําหรับส่วนที่ 3
+builder.Write("Section 3");
+
+//ExStep:2-
+// รับบทความที่ 3 จากเอกสาร
+Section section = doc.Sections[2];
+
+//ExStep:3-
+// เผยสารจากส่วนแรกไปถึงส่วนที่สาม
+Section sectionToPrepend = doc.Sections[0];
+section.PrependContent(sectionToPrepend);
+
+//ExStep:4-
+// เพิ่มเนื้อหาจากส่วนที่ 2 ไปยังส่วนที่ 3
+Section sectionToAppend = doc.Sections[1];
+section.AppendContent(sectionToAppend);
+//ExEnd

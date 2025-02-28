@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการฟอร์เมทข้อความในเอกสาร Word โดยใช้ Aspose.Words มันแสดงวิธีการตั้งตัวเลือกการฟอร์เมทข้อ เช่น การจัดตรง, การถอดขั้นต่ํา, และช่องว่างหลังจากข้อความ
+//ExStepSummary:0: ขั้นตอนนี้เริ่มต้นเอกสารใหม่ และ DocumentBuilder เพื่อสร้างเอกสาร
+//ExStepSummary:1: ขั้นตอนนี้กําหนดตัวเลือกการฟอร์เมทข้อ, รวมถึงการจัดตรง, รูปแบบซ้าย, รูปแบบขวา, และช่องว่างหลังจากข้อ
+//ExStepSummary:2: ขั้นตอนนี้เขียนข้อที่ออกแบบดี พร้อมกับตัวเลือกการออกแบบที่กําหนดไว้ในเอกสาร
+//ExStepSummary:3: ขั้นตอนนี้เขียนข้อที่ออกแบบอีกหนึ่ง แสดงผลของพื้นที่หลังจากข้อ
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0- 
+// สร้างตัวอย่างเอกสารใหม่
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1- 
+// กําหนดตัวเลือกการฟอร์เมทข้อ
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.Alignment = ParagraphAlignment.Center;
+paragraphFormat.LeftIndent = 50;
+paragraphFormat.RightIndent = 50;
+paragraphFormat.SpaceAfter = 25;
+
+//ExStep:2- 
+// เขียนข้อแรกที่ออกแบบ
+builder.Writeln(
+	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
+
+//ExStep:3- 
+// เขียนข้อที่ 2 แบบรูปแบบ
+builder.Writeln(
+	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
+
+//ExStep:4- 
+// กรอกสารไว้ที่เส้นทางที่กําหนดไว้
+doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
+//ExEnd

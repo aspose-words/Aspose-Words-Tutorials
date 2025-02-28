@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างเอกสาร Word โดยใช้ Aspose.Words, เพิ่มเนื้อหาผ่านหลายหน้า, และบันทึกเป็นไฟล์ .docx
+//ExStepSummary:0: ขั้นตอนนี้เริ่มต้นเอกสารใหม่ และ DocumentBuilder เพื่อการควบคุมเอกสาร
+//ExStepSummary:1: ขั้นตอนนี้เพิ่มเติมข้อความกับหน้าแรก
+//ExStepSummary:2: ขั้นตอนนี้ใส่ช่องว่างหน้าเพื่อเริ่มหน้าใหม่
+//ExStepSummary:3: ขั้นตอนนี้เพิ่มเติมข้อความต่อหน้าที่สอง
+//ExStepSummary:4: ขั้นตอนนี้จะใส่หน้าแตกอีกหนึ่งสําหรับหน้าใหม่
+//ExStepSummary:5: ขั้นตอนนี้เพิ่มเติมข้อความในหน้าที่สาม
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// สร้างเอกสารใหม่
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// เพิ่มข้อความสําหรับหน้าแรก
+builder.Writeln("This is page 1.");
+
+//ExStep:2-
+// เผยช่องว่างหน้าเพื่อเริ่มหน้าใหม่
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+// เพิ่มข้อความสําหรับหน้าที่สอง
+builder.Writeln("This is page 2.");
+
+//ExStep:4-
+// ใส่หน้าใหม่ใหม่
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:5-
+// เพิ่มข้อความสําหรับหน้าที่ 3
+builder.Writeln("This is page 3.");
+
+//ExStep:6-
+// กรอกสารไว้ในเส้นทางที่กําหนด
+doc.Save("AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

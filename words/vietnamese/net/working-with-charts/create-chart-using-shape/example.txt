@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Xin vui lòng kiểm tra mã sau để tìm cách tạo biểu đồ đường trong tài liệu Word. Bạn có thể sao chép mã này vào IDE của bạn và chạy nó.
+//ExStepSummary:0: Mã sau đây cho thấy cách tạo một tài liệu mới và lập trình trình lập trình DocumentBuilder:
+//ExStepSummary:1: Mã sau đây cho thấy cách chèn biểu đồ đường vào tài liệu:
+//ExStepSummary:2: Mã sau đây giải thích cách thiết lập tiêu đề cho biểu đồ:
+//ExStepSummary:3: Mã sau đây cho thấy cách cấu hình vị trí và cài đặt chồng chéo của biểu đồ:
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Tạo một đối tượng tài liệu mới
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Đưa biểu đồ đường vào tài liệu ở kích thước được chỉ định
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+
+//ExStep:2-
+// Nhập vào đối tượng Chart từ hình dạng
+Chart chart = shape.Chart;
+// Khả năng hiển thị tiêu đề biểu đồ
+chart.Title.Show = true;
+// Đặt tiêu đề cho biểu đồ
+chart.Title.Text = "Line Chart Title";
+// Đảm bảo tiêu đề không phủ lên biểu đồ
+chart.Title.Overlay = false;
+
+//ExStep:3-
+// Đặt vị trí của biểu đồ truyền thuyết bên trái
+chart.Legend.Position = LegendPosition.Left;
+chart.Legend.Overlay = true;
+
+//ExStep:4-
+// Cung cấp tài liệu với biểu đồ vào một tệp
+doc.Save("WorkingWithCharts.CreateChartUsingShape.docx");
+//ExEnd

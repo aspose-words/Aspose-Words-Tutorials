@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการใส่ฟอร์มในเอกสาร Word โดยใช้ Aspose.Words สําหรับ .NET โดยเฉพาะอย่างยิ่ง มันแสดงวิธีการใส่ฟอร์ม Combo box กับไอเทมที่กําหนดก่อน
+//ExStepSummary:0: คód ต่อไป แสดงวิธีการสร้างเอกสาร Word ใหม่
+//ExStepSummary:1: คódต่อไปนี้แสดงให้เห็นวิธีการเริ่มต้น DocumentBuilder เพื่อการแก้ไขเอกสาร
+//ExStepSummary:2: คódต่อไปนี้แสดงวิธีการกําหนดและใส่กรอบแบบตกรอบ combo box ใส่รายการที่กําหนดก่อนและการเลือกโดย मुलभूत
+//ExStepImage:0:images/1.png
+//ExStepImage:1:images/2.png
+//ExStep:0-
+// การเริ่มต้นเอกสาร Word ที่ว่าง
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// กําหนดและใส่กรอบแบบตัวกองประกอบ
+string[] items = { "One", "Two", "Three" };
+builder.InsertComboBox("DropDown", items, 0);
+//ExEnd

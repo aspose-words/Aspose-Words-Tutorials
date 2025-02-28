@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างเอกสาร Word โดยใช้ Aspose.Words, ใช้สไตล์ข้อ และบันทึกเอกสาร. มันแสดงวิธีการตั้งสไตล์หัวข้อสําหรับข้อและบันทึกเอกสารในรูปแบบ .docx.
+//ExStepSummary:0: ส่วนนี้เริ่มต้นตัวอย่างเอกสารและเอกสารBuilder ใหม่
+//ExStepSummary:1: ส่วนนี้ใช้สไตล์ข้อ Title โดยใช้ DocumentBuilder
+//ExStepSummary:2: ส่วนนี้เขียน "ฮาโล" ต่อเอกสาร
+//ExStepSummary:3: ส่วนนี้บันทึกเอกสารไปยังเส้นทางไฟล์ที่กําหนด
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// การเริ่มต้นตัวอย่างเอกสารใหม่
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// กําหนดรูปแบบข้อเป็น Title
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Title;
+
+//ExStep:2-
+// เขียน "Hello" โดยใช้ตัวสร้าง โดยใช้สไตล์ที่กําหนด
+builder.Write("Hello");
+
+//ExStep:3-
+// เก็บเอกสารไปยังไฟล์ .docx
+doc.Save("DocumentFormatting.ApplyParagraphStyle.docx");
+//ExEnd

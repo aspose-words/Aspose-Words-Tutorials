@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary: โค้ดนี้แสดงวิธีการใส่แผนที่ Bubble ในเอกสาร Word โดยใช้ Aspose.Words.
+//ExStepSummary:0: คódต่อไปนี้เริ่มต้นเอกสารและเอกสารBuilder ใหม่
+//ExStepSummary:1: การสร้างแผนที่ Bubble และเพิ่มเติมเอกสารโดยใช้ DocumentBuilder
+//ExStepSummary:2: การเพิ่มเรียงข้อมูลสําหรับแผนภูมิ Bubble ด้วยค่า X, Y และขนาดเฉพาะเจาะจง
+//ExStepSummary:3: สุดท้าย, เอกสารถูกบันทึกด้วยแผนที่ Bubble
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// เริ่มต้นเอกสารและเอกสารใหม่
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// ใส่แผนที่ Bubble ในเอกสาร
+Shape shape = builder.InsertChart(ChartType.Bubble, 432, 252);
+
+//ExStep:2-
+// เพิ่มเรียงข้อมูลไปยังตาราง Bubble
+Chart chart = shape.Chart;
+chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, // X values
+    new double[] { 2.7, 3.2, 0.8 }, // Y values
+    new double[] { 10, 4, 8 }); // Size values for the bubbles
+
+//ExStep:3-
+// เก็บเอกสารด้วยแผนที่ Bubble
+doc.Save("WorkingWithCharts.InsertBubbleChart.docx");
+//ExEnd
