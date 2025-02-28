@@ -1,0 +1,28 @@
+//ExStart
+//ExSummaryKod ten pokazuje, jak manipulować tabelami w dokumencie Word za pomocą Aspose.Words. Odbiera istniejący dokument, modyfikuje granice pierwszej tabeli i zapisuje zmiany w nowym pliku.
+//ExStepSummary:0: Następujący kod tworzy dokument i odbiera z niego pierwszą tabelę.
+//ExStepSummary:1: Następujący kod usuwa wszystkie istniejące granice z tabeli w celu przygotowania do nowego formatowania.
+//ExStepSummary:2: Następujący kod stosuje zielony granicę wokół i wewnątrz stołu.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Definicja katalogu dokumentu
+string dataDir = "Your Document Directory";
+// Władowanie dokumentu
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// /Zajmij pierwszy stół z dokumentu.
+Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
+
+//ExStep:2-
+// Wyczyść istniejące granice z tabeli
+table.ClearBorders();
+
+//ExStep:3-
+// Ustaw zielony granicę wokół i wewnątrz stołu
+table.SetBorders(LineStyle.Single, 1.5, Color.Green);
+// Zapisz dokument z zmianami
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");
+//ExEnd

@@ -1,15 +1,15 @@
 //ExStart
-//ExSummary: Этот код показывает, как применять границы и затенять пункт в документе Word с использованием Aspose.Words.
-//ExStepSummary:0: Приводимый ниже код инициализирует новый экземпляр документа и документа Builder.
-//ExStepSummary:1: Приводимый ниже код настраивает пункт на расстояние от текста.
-//ExStepSummary:2: Приводимый ниже код применяется к диагональной поперечной текстуре, затененной по отношению к данному пункту, с указанием цвета.
-//ExStepSummary:3: Следующий код пишет текст пункта с приложенными настройками.
-//ExStepSummary:4: Приводимый ниже код сохраняет документ на указанном пути вывода.
+//ExSummary: Этот код показывает, как применять границы и оттенки к абзацу в документе Word с использованием Aspose.Words.
+//ExStepSummary:0: Следующий код инициирует новый документ и документBuilder.
+//ExStepSummary:1: Следующий код конфигурирует границы абзаца с расстоянием от текста.
+//ExStepSummary:2: Следующий код применяет диагональное перекрестное оттенение текстуры к пункту с указанием цвета.
+//ExStepSummary:3: Следующий код пишет форматированный абзац с примененными настройками.
+//ExStepSummary:4: Следующий код сохраняет документ на указанном выходном пути.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Инициирование нового документа
+// Инициализировать новый документ
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -23,17 +23,17 @@ borders[BorderType.Top].LineStyle = LineStyle.Double;
 borders[BorderType.Bottom].LineStyle = LineStyle.Double;
 
 //ExStep:2-
-// Доступ к затеняющим свойствам пункта
+// Доступ к свойствам оттенка параграфа
 Shading shading = builder.ParagraphFormat.Shading;
 shading.Texture = TextureIndex.TextureDiagonalCross;
 shading.BackgroundPatternColor = System.Drawing.Color.LightCoral; 
 shading.ForegroundPatternColor = System.Drawing.Color.LightSalmon;
 
 //ExStep:3-
-// Написать форматировать содержание абзаца
+// Напишите форматированный текст абзаца
 builder.Write("I'm a formatted paragraph with double border and nice shading.");
 
 //ExStep:4-
-// Сохранить документ на заданный путь
+// Сохранить документ на указанном пути
 doc.Save(ArtifactsDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
 //ExEnd

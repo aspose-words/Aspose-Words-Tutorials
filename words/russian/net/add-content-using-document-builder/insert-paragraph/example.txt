@@ -1,44 +1,44 @@
 //ExStart
-//ExSummary: Этот код показывает, как создать документ Word с использованием класса Бюллетеня документов и включить в него стильный пункт.
-//ExStepSummary:0: Приводимый ниже код инициализирует документ и Бюллетень документации для создания документов.
-//ExStepSummary:1: Следующий код настраивает настройки шрифта для этого пункта.
-//ExStepSummary:2: Приводимый ниже код устанавливает параметры формата пунктов для приведения их в соответствие с установленными требованиями.
-//ExStepSummary:3: Приводимый ниже код записывает в документ пункт.
-//ExStepSummary:4: Следующий код сохраняет документ как файл .docx.
+//ExSummary: Этот код показывает, как создать документ Word с помощью класса DocumentBuilder и вставить в него стилизованный абзац.
+//ExStepSummary:0: Следующий код инициирует документ и DocumentBuilder для создания документов.
+//ExStepSummary:1: Следующий код настраивает настройки шрифта для параграфа.
+//ExStepSummary:2: В следующем коде устанавливаются параметры формата параграфа для выравнивания и зачеркивания.
+//ExStepSummary:3: Следующий код записывает абзац в документ.
+//ExStepSummary:4: Следующий код сохраняет документ в виде файла .docx.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
-// Инициировать новый объект документа
+// Инициализировать новый объект документа
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Доступ к шрифтам Бюллетеня документов
+// Доступ к настройкам шрифтов DocumentBuilder
 Font font = builder.Font;
-// Установить размер шрифта на 16
+// Установка размера шрифта до 16
 font.Size = 16;
-// Сделайте шрифт жирным
+// Сделайте шрифт вживую
 font.Bold = true;
-// Указать цвет шрифта на синий
+// Настроить цвет шрифта на синий
 font.Color = Color.Blue;
-// Введите имя шрифта в Arial
+// Назначить имя шрифта на Arial
 font.Name = "Arial";
-// Добавить тирее подчеркивание к шрифту
+// Добавить в шрифт подчеркнутый букв
 font.Underline = Underline.Dash;
 
 //ExStep:2-
-// Доступ к настройкам формата пунктов
+// Доступ к параграфным параметрам
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.FirstLineIndent = 8;
 paragraphFormat.Alignment = ParagraphAlignment.Justify;
 paragraphFormat.KeepTogether = true;
 
 //ExStep:3-
-// Вставить в документ пункт текста
+// Напишите в документ абзац текста
 builder.Writeln("A whole paragraph.");
 
 //ExStep:4-
-// Сохранить документ как файл .docx
+// Сохранить документ в виде файла .docx
 doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
 //ExEnd

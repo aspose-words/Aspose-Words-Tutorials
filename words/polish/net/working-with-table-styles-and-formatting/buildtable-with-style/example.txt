@@ -1,0 +1,74 @@
+//ExStart
+//ExSummaryKod ten pokazuje, jak tworzyć dokument Word z tabelą stylową za pomocą Aspose.Words. Tabela zawiera nagłówki i wiersze danych, sformatowane zgodnie z określonymi opcjami stylu.
+//ExStepSummary:0: Zainicjować nowy dokument i dokumentBuilder do zarządzania strukturą dokumentu.
+//ExStepSummary:1: Uruchomić nową tabelę w dokumencie za pomocą programów DocumentBuilder.
+//ExStepSummary:2: Wprowadź pierwszą komórkę i ustaw identyfikator stylu tabeli.
+//ExStepSummary:3: Wpływ opcji formatowania do tabeli i ustawić zachowanie automatycznego dopasowania.
+//ExStepSummary:4: Dodaj do tabeli komórki z wiersza nagłówka.
+//ExStepSummary:5: Wprowadź wiersze danych w tabeli z nazwami i ilościami pozycji.
+//ExStepSummary:6: Zapisz złożony dokument do pliku.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// Tworzyć nowy obiekt Dokument.
+Document doc = new Document();
+// Tworzyć twórcę, aby ułatwić generowanie dokumentów.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Zacznij nowy stół w dokumencie.
+Table table = builder.StartTable();
+
+//ExStep:2-
+// Wprowadź pierwszą komórkę przed ustawieniem formatowania.
+builder.InsertCell();
+// Ustaw identyfikator stylu dla stołu.
+table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
+
+
+//ExStep:3-
+// Konfiguracja opcji stylu.
+table.StyleOptions = 
+    TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
+// Ustaw automatyczne zachowanie stołu.	
+table.AutoFit(AutoFitBehavior.AutoFitToContents);
+
+
+//ExStep:4-
+// Napisz nagłówek dla pierwszej kolumny.
+builder.Writeln("Item");
+// Ustaw odpowiednie wypełnienie do komórki.
+builder.CellFormat.RightPadding = 40;
+// Wkładaj drugą komórkę do następnej kolumny.
+builder.InsertCell();
+// Napisz nagłówek dla drugiej kolumny.
+builder.Writeln("Quantity (kg)");
+// Zakończ tworzenie rzędu.
+builder.EndRow();
+
+//ExStep:5-
+// Zacznij nowy wiersz i wstaw pierwszą komórkę.
+builder.InsertCell();
+builder.Writeln("Apples");
+builder.InsertCell();
+builder.Writeln("20");
+builder.EndRow();
+ // Wprowadź pierwszą komórkę nowego rzędu do drugiego elementu.
+builder.InsertCell();
+builder.Writeln("Bananas");
+builder.InsertCell();
+builder.Writeln("40");
+builder.EndRow();
+// Zacznij kolejkę na trzeci element.
+builder.InsertCell();
+builder.Writeln("Carrots");
+builder.InsertCell(); 
+builder.Writeln("50");
+builder.EndRow();
+
+//ExStep:6-
+// Zapisz dokument do określonego pliku.
+doc.Save("WorkingWithTableStylesAndFormatting.BuildTableWithStyle.docx");
+//ExEnd

@@ -1,42 +1,42 @@
 //ExStart
-//ExSummary: Этот код показывает, как создать документ Word с таблицей с использованием Aspose.Words. Он создает таблицу с двумя рядами и различными настройками и форматами текста клеток.
-//ExStepSummary:0: Приводимый ниже код инициализирует новый документ и составитель документов.
-//ExStepSummary:1: Следующий код запускает новую таблицу и вставляет первую строку клеток.
-//ExStepSummary:2: Следующий код настраивает форматирование для второй строки и ее ячеек.
-//ExStepSummary:3: Следующий код настраивает форматирование для второй строки и ее ячеек.
-//ExStepSummary:4: Приводимый ниже код заканчивает таблицу и сохраняет документ в файле.
+//ExSummary: Этот код показывает, как создать документ Word с таблицей с использованием Aspose.Words. Он создает таблицу с двумя строками и различными направлениями и форматами ячейки текста.
+//ExStepSummary:0: Следующий код инициирует новый документ и конструктор документов.
+//ExStepSummary:1: Следующий код запускает новую таблицу и вставляет первый ряд ячеек.
+//ExStepSummary:2: Следующий код конфигурирует форматирование для второго ряда и его ячеек.
+//ExStepSummary:3: Следующий код конфигурирует форматирование для второго ряда и его ячеек.
+//ExStepSummary:4: Следующий код заканчивает таблицу и сохраняет документ в файле.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 
 //ExStep:0-
-// Инициировать новый объект документа
+// Инициализировать новый объект документа
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Запустить новый стол
+// Начните новый стол
 Table table = builder.StartTable();
-// Начать первую клетку
+// Начните первую ячейку
 builder.InsertCell();
-// Установить вертикальное направление для первой клетки
+// Установка вертикального выравнивания для первой ячейки
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
 builder.Write("This is row 1 cell 1");
-// Вставить вторую ячейку
+// Введите вторую ячейку
 builder.InsertCell();
 builder.Write("This is row 1 cell 2");
 builder.EndRow();
 
 //ExStep:2-
-// Вставить ячейку для второго ряда
+// Введите ячейку для второго ряда
 builder.InsertCell();
-// Настроить формат для второй строки
+// Настройка форматирования для второго ряда
 builder.RowFormat.Height = 100;
 builder.RowFormat.HeightRule = HeightRule.Exactly;
 builder.CellFormat.Orientation = TextOrientation.Upward;
 builder.Writeln("This is row 2 cell 1");
 //ExStep:3-
-// Вставить вторую ячейку для второй строки
+// Введите вторую ячейку для второго ряда
 builder.InsertCell();
 builder.CellFormat.Orientation = TextOrientation.Downward; 
 builder.Writeln("This is row 2 cell 2");
@@ -44,8 +44,8 @@ builder.EndRow();
 builder.EndTable();
 
 //ExStep:4-
-// Автоматизировать таблицу с фиксированной шириной колонки
+// Автоматическое подключение таблицы с фиксированными ширами столбцов
 table.AutoFit(AutoFitBehavior.FixedColumnWidths);
-// Сохранить документ в файл
+// Сохранить документ в файле
 doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");
 //ExEnd

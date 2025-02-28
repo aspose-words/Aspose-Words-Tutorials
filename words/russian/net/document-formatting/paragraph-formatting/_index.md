@@ -1,8 +1,8 @@
 ---
-title: Формат Пункты с использованием посылок. Заголовки для .NET
+title: Форматирование параграфов с использованием Aspose.Words для .NET
 weight: 7700
 limit: 
-description: Учитесь форматировать пункты в документе Word with Aspose.Words for .NET, включая гармонию, втяжку и интервалы.
+description: Узнайте, как форматировать абзацы в документе Word с помощью Aspose.Words для .NET, включая выравнивание, вводы и расстояние.
 keywords: [Aspose.Words, .NET, paragraph formatting, Word document, document builder, alignment, indentation, Word API]
 url: /ru/net/document-formatting/paragraph-formatting/
 ---
@@ -10,8 +10,8 @@ url: /ru/net/document-formatting/paragraph-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Формат Пункты с использованием посылок.
-Это руководство представляет собой пример того, как форматировать пункты в документе Word с использованием Aspose.Words for .NET. Вы научитесь устанавливать различные варианты форматирования пунктов, такие, как согласование, втяжка и пространство после пунктов. Этот пример иллюстрирует использование классов документа и документа Builder, что позволяет создавать хорошо структурированные документы программно.
+# Форматирование абзацев с использованием "Аспози.Words"
+В этом руководстве приведен пример, как форматировать абзацы в документе Word с использованием Aspose.Words для .NET. Вы узнаете, как настроить различные параграфические варианты форматирования, такие как выравнивание, зачеркление и пространство после абзацев. Пример иллюстрирует использование классов Document и DocumentBuilder, позволяющих создавать хорошо структурированные документы программируемо.
 
 ---
 {{< tutorial-widget sourcePath="words/net/document-formatting/multilevel-list-formatting" >}}
@@ -19,28 +19,28 @@ url: /ru/net/document-formatting/paragraph-formatting/
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Инструкции по установке
-1. Загрузка Позиции. Установки для .NET:[Предложить веб- сайт](https://www.aspose.com/downloads/words/net)для загрузки последней версии Aspose.Words для .NET.
+1. Скачать Aspose.Words для .NET: Посетите [Назначить сайт](https://www.aspose.com/downloads/words/net)Загрузить последнюю версию Aspose.Words для .NET.
 
-2. Добавить ссылку: в вашем проекте .NET, правый щелчок по проекту в Solution Explorer, выбрать Add > Reference и просмотр для добавления файла Aspose.Words DLL.
+2. Добавить ссылки: В проекте .NET, правой клик на проект в Explorer решения, выберите Добавить > Ссылка, и просматривать, чтобы добавить файл DLL Aspose.Words.
 
-3. С помощью пакета NuGet (вариант): В качестве альтернативы вы можете установить Aspose.Words через менеджер пакета NuGet со следующей командой:
+3. Используя пакет NuGet (Вопционально): В качестве альтернативы, вы можете установить Aspose.Words через менеджер пакетов NuGet с помощью следующей команды:
    ```
    Install-Package Aspose.Words
    ```
 
-4. Импортировать пространство имени: Добавить в файл кода следующее заявление:
+4. Импорт именного пространства: Добавьте следующее с помощью заявления к файлу кода:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
-5. Применить лицензию (факультативную):  
-   Для использования полной версии,[:: применение лицензии](https://purchase.aspose.com/temporary-license/)или использовать a[свободное судебное разбирательство](https://releases.aspose.com/words/net/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+5. Заявление на лицензию (необязательно):  
+   Чтобы использовать полную версию, [подать заявку на выдачу лицензии](https://purchase.aspose.com/temporary-license/)или использовать [бесплатная пробная версия](https://releases.aspose.com/words/net/)\- Я не знаю .  
 
 
-## См.
-[Позиция. Условие для .NET Documentation](https://docs.aspose.com/words/net/)
-[Предпосылки. Условные обозначения для .NET](https://reference.aspose.com/words/net/)
+## См. также
+[Aspose.Word для документации .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word для ссылок .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

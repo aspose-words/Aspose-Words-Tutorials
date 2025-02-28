@@ -1,0 +1,57 @@
+//ExStart
+//ExSummary:Word 문서에 간단한 기둥 표를 삽입하는 방법을 찾기 위해 다음 코드를 확인하세요. 이 코드를 IDE에 복사하여 실행할 수 있습니다.
+//ExStepSummary:0: 이 코드는 Aspose.Words를 사용하여 워드 문서를 생성하고 기둥 표를 삽입하는 방법을 보여줍니다.
+//ExStepSummary:1: 이 코드는 워드 콘텐츠를 조작하기 위해 문서 제작자 객체를 만드는 방법을 보여줍니다.
+//ExStepSummary:2: 이 코드는 문서에 지정된 크기의 기둥 차트 모양을 삽입하는 방법을 보여줍니다.
+//ExStepSummary:3: 이 코드는 추가 사용자 정의를 위해 삽입된 모양에서 차트 객체를 검색합니다.
+//ExStepSummary:4: 이 코드는 차트 시리즈 컬렉션에 액세스하고 시리즈의 수를 인쇄하는 방법을 보여줍니다.
+//ExStepSummary:5: 이 코드는 차트와 함께 생성된 모든 기본 시리즈를 제거합니다.
+//ExStepSummary:6: 이 코드는 차트의 데이터에 대한 카테고리 이름을 정의하는 방법을 보여줍니다.
+//ExStepSummary:7: 이 코드는 해당 카테고리 이름과 데이터 값으로 차트에 일련을 추가하는 방법을 보여줍니다.
+//ExStepSummary:8: 이 코드는 삽입된 차트를 포함하고 있는 문서를 특정 파일로 저장합니다.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:7:images/4.png
+//ExStep:0-
+// 새로운 워드 문서 인스턴스를 생성하십시오.
+Document doc = new Document();
+
+//ExStep:1-
+// 문서에 쉽게 요소를 삽입하기 위해 문서 제작자를 생성하십시오.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// 기둥 표 모양을 지정 너비 (432) 및 높이가 (252) 로 삽입한다.
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:3-
+// 더 많은 조작을 위해 차트 객체를 모양에서 가져옵니다.
+Chart chart = shape.Chart;
+
+//ExStep:4-
+// 차트의 일련 컬렉션에 액세스하십시오.
+ChartSeriesCollection seriesColl = chart.Series;
+// 기하에 있는 일련 번호를 콘솔에 인쇄하십시오.
+Console.WriteLine(seriesColl.Count);
+
+//ExStep:5-
+// 차트가 생성되었을 때 자동으로 생성된 기본 시리즈를 제거하십시오.
+seriesColl.Clear();
+
+//ExStep:6-
+// 차트 데이터에 대한 카테고리 이름의 배열을 정의하십시오.
+string[] categories = new string[] { "Category 1", "Category 2" };
+
+//ExStep:7-
+// 카테고리 이름과 데이터 값이 있는 차트에 여러 일련을 추가합니다.
+seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
+seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
+seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
+seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
+seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
+
+//ExStep:8-
+// 삽입된 차트를 포함한 문서를 지정된 파일 경로로 저장합니다.
+doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
+//ExEnd

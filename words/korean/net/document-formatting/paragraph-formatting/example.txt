@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: 이 코드 는 Aspose.Words을 사용하여 워드 문서 의 문장 을 어떻게 형식화 하는지를 보여줍니다.
+//ExStepSummary:0: 이 단계에서는 문서를 만드는 새로운 문서와 문서 제작자를 초기화합니다.
+//ExStepSummary:1: 이 단계에서는 문항의 포맷 옵션, 조렬, 왼쪽 선제, 오른쪽 선제, 그리고 문항 이후의 공간을 설정합니다.
+//ExStepSummary:2: 이 단계에서는 문서에 지정된 형식 옵션과 함께 잘 포맷된 문장을 작성합니다.
+//ExStepSummary:3: 이 단계에서는 문항이 끝난 후 공간의 효과를 보여주는 또 다른 형식으로 된 문장을 작성합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0- 
+// 새로운 문서 인스턴스를 생성하십시오.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1- 
+// 문장 형식 옵션을 설정하십시오.
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.Alignment = ParagraphAlignment.Center;
+paragraphFormat.LeftIndent = 50;
+paragraphFormat.RightIndent = 50;
+paragraphFormat.SpaceAfter = 25;
+
+//ExStep:2- 
+// 첫 번째 문장 을 작성 하십시오.
+builder.Writeln(
+	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
+
+//ExStep:3- 
+// 두 번째 문장을 작성하세요.
+builder.Writeln(
+	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
+
+//ExStep:4- 
+// 문서가 지정된 경로로 저장합니다.
+doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
+//ExEnd

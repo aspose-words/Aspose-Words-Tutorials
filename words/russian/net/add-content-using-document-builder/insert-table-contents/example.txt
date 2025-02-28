@@ -1,16 +1,16 @@
 //ExStart
-//ExSummary: Этот код показывает, как создать документ Word с таблицей содержания с использованием документа Builder. Он включает заголовки различных уровней и сохраняет документ как файл .docx.
-//ExStepSummary:0: Этот шаг инициирует новый объект документа.
-//ExStepSummary:1: Этот шаг создает объект для манипулирования документооборотом.
-//ExStepSummary:2: На этом этапе в начале документа вставить содержание.
-//ExStepSummary:3: Этот шаг вводит разбивку страницы, чтобы начать фактический контент на новой странице.
-//ExStepSummary:4: На этом этапе устанавливается первый заголовок и пишется "заголовок 1" к документу.
-//ExStepSummary:5: Эта ступень устанавливает второй уровень заголовка и пишет "заголовок 1.1" и "заголовок 1.2".
-//ExStepSummary:6: Этот шаг вновь устанавливает уровень первого заголовка и пишет «заголовок 2» и «заголовок 3».
-//ExStepSummary:7: На этом этапе устанавливается второй уровень заголовка и пишется "заголовок 3.1".
-//ExStepSummary:8: На этом этапе устанавливается третий уровень заголовков и указываются подзаголовки "заголовок 3.1.1, "заголовок 3.1.2" и "заголовок 3.1.3".
-//ExStepSummary:9: На этом этапе вновь устанавливается второй уровень заголовка и пишут "заголовок 3.2" и "заголовок 3.3".
-//ExStepSummary:10: Наконец, этот шаг обновляет поля документа и сохраняет его как файл .docx.
+//ExSummary: Этот код демонстрирует, как создать документ Word с помощью таблицы содержимого с помощью DocumentBuilder. Он включает заголовки различных уровней и сохраняет документ в виде файла .docx.
+//ExStepSummary:0: Этот шаг инициирует новый объект Документа.
+//ExStepSummary:1: Этот шаг создает объект DocumentBuilder для манипуляции документами.
+//ExStepSummary:2: В этом шаге в начале документа вводится таблица содержания.
+//ExStepSummary:3: Этот шаг вводит перерыв страницы для запуска фактического контента на новой странице.
+//ExStepSummary:4: В этом шаге устанавливается первая заголовка и на данный документ пишется "заголовка 1".
+//ExStepSummary:5: Этот шаг устанавливает второй уровень заголовка и пишет "заголовка 1.1" и "заголовка 1.2".
+//ExStepSummary:6: Этот шаг снова устанавливает первый уровень заголовка и пишет "заголовка 2" и "заголовка 3".
+//ExStepSummary:7: Этот шаг устанавливает второй уровень заголовка и пишет "Заголовка 3.1".
+//ExStepSummary:8: В этом шаге устанавливается уровень третьей позиции и записываются подпозиции "позиция 3.1.1", "позиция 3.1.2" и "позиция 3.1.3".
+//ExStepSummary:9: Этот шаг вновь устанавливает второй уровень заголовка и пишет "заголовка 3.2" и "заголовка 3.3".
+//ExStepSummary:10: Наконец, этот шаг обновляет поля в документе и сохраняет его в виде файла .docx.
 //ExStepImage:3:images/1.png
 //ExStepImage:4:images/2.png
 //ExStepImage:5:images/3.png
@@ -20,58 +20,58 @@
 //ExStepImage:9:images/7.png
 
 //ExStep:0-
-// Создать новый пример документа
+// Создать новый экземпляр документа
 Document doc = new Document();
 
 //ExStep:1-
-// Инициирование создания документа для манипулирования документооборотом
+// Запустить DocumentBuilder для манипуляции документами
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:2-
-// Вставить содержание с указанием конкретных вариантов
+// Вставьте таблицу содержимого с указанием опций
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
 //ExStep:3-
-// Вставить разбивку страницы для начала контента на новой странице
+// Вставить перерыв страницы для начала контента на новой странице
 builder.InsertBreak(BreakType.PageBreak);
 
 //ExStep:4-
-// Установка стиля в раздел 1
+// Настройка стиля к разделу 1
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
 //ExStep:5-
-// Установка стиля в раздел 2
+// Настройка стиля к разделу 2
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 1.1");
 builder.Writeln("Heading 1.2");
 
 //ExStep:6-
-// Вставить стиль в раздел 1
+// Настройка стиля на заголовок 1
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 2");
 builder.Writeln("Heading 3");
 
 //ExStep:7-
-// Установка стиля в раздел 2
+// Настройка стиля к разделу 2
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.1");
 
 //ExStep:8-
-// Установка стиля в раздел 3
+// Настройка стиля на заголовок 3
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
 builder.Writeln("Heading 3.1.1");
 builder.Writeln("Heading 3.1.2");
 builder.Writeln("Heading 3.1.3");
 
 //ExStep:9-
-// Вернуть стиль назад в раздел 2
+// Настройка стиля на заголовок 2
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
 //ExStep:10-
-// Обновить все поля документа
+// Обновление всех полей в документе
 doc.UpdateFields();
 // Сохранить документ
 doc.Save("AddContentUsingDocumentBuilder.InsertTableOfContents.docx");

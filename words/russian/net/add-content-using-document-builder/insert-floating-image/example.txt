@@ -1,16 +1,16 @@
 //ExStart
-//ExSummary: Этот код показывает, как создать документ Word и вставить изображение с плавающей компоновкой с использованием Aspose.Words.
-//ExStepSummary:0: Приводимый ниже код инициализирует новый документ и документоподготовитель.
-//ExStepSummary:1: Приводимый ниже код включает изображение в документ.
-//ExStepSummary:2: Приводимый ниже код сохраняет документ в указанном месте.
+//ExSummary: Этот код показывает, как создать документ Word и вставить изображение с плавающим макетом с использованием Aspose.Words.
+//ExStepSummary:0: Следующий код инициирует новый Документ и DocumentBuilder.
+//ExStepSummary:1: Следующий код вставляет изображение в документ.
+//ExStepSummary:2: Следующий код сохраняет документ в определенном месте.
 //ExStepImage:1:images/1.png
 //ExStep:0-
-// Создать новый образец документа
+// Создать новый экземпляр документа
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Вставить изображение с указанного пути
+// Вставьте изображение из указанного пути
 builder.InsertImage(ImagesDir + "Transparent background logo.png", 
     RelativeHorizontalPosition.Margin,
     100, 
@@ -21,6 +21,6 @@ builder.InsertImage(ImagesDir + "Transparent background logo.png",
     WrapType.Square); 
 
 //ExStep:2-
-// Сохранить документ в указанный файл
+// Сохранить документ в указанном файле
 doc.Save("AddContentUsingDocumentBuilder.InsertFloatingImage.docx");
 //ExEnd

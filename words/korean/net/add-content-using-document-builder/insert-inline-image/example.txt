@@ -1,0 +1,19 @@
+//ExStart
+//ExSummary:이 코드는 Aspose.Words를 사용하여 Word 문서에 인라인 이미지를 삽입하는 방법을 보여줍니다.
+//ExStepSummary:0: 문서 객체 및 문서 제작자를 초기화하여 문서를 구성합니다.
+//ExStepSummary:1: 문서 빌더로 현재 커서 위치에서 문서에 이미지를 삽입합니다.
+//ExStepSummary:2: 문서의 이름을 지정된 파일 이름에 저장합니다.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+// 새로운 문서 및 문서 제작자를 초기화
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 문서 제작자를 사용하여 이미지를 삽입
+builder.InsertImage(ImagesDir + "Transparent background logo.png");
+
+//ExStep:2-
+// 수정된 문서를 파일로 저장
+doc.Save("AddContentUsingDocumentBuilder.InsertInlineImage.docx");
+//ExEnd

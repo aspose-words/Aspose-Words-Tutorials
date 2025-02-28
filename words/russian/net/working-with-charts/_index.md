@@ -1,8 +1,8 @@
 ---
-title: Работа с картами в Азоте. Уорды для .NET  
+title: Работа с диаграммами в Aspose.Words для .NET  
 weight: 10
 limit:
-description: Учитесь создавать, адаптировать и манипулировать картами в документах Word с использованием Aspose.Words для .NET. Упрощение визуализации данных с мощными характеристиками.
+description: Узнайте, как создавать, настраивать и манипулировать диаграммами в документах Word с использованием Aspose.Words для .NET. Упростите визуализацию данных мощными функциями.
 keywords:
 url: /ru/net/working-with-charts/
 ---
@@ -12,17 +12,17 @@ url: /ru/net/working-with-charts/
 
 ## Введение
  
-Поставьте. Уорды для .NET предлагает надежный набор инструментов для работы с картами в документах Word. Независимо от того, нужно ли создавать динамические графики, индивидуализированные карты пирогов или манипулировать существующими данными, эта библиотека упрощает весь процесс. С всеобъемлющими элементами API вы можете программно определить типы карт, диапазоны данных, метки, стильы и форматирование.  
+Aspose.Words для .NET предлагает надежный набор инструментов для работы с диаграммами в документах Word. Независимо от того, нужно ли создавать динамические диаграммы панелей, настраивать диаграммы пирожных карт или манипулировать существующими данными, эта библиотека упрощает весь процесс. С комплексными функциями API вы можете программирующе определить типы диаграмм, диапазоны данных, этикетки, стили и форматирование.  
 
-Погружайтесь глубже с нашими встроенными страницами для изучения конкретных функциональных возможностей, включая добавление карт, обновление данных и индивидуализацию внешности карт. Независимо от того, будете ли вы строить отчеты, панели данных или академические документы, Aspose.Words for .NET обеспечивает бесперебойную интеграцию и адаптацию карт, экономию времени при достижении профессиональных результатов.  
+Погрузитесь в глубину наших встроенных страниц, чтобы исследовать конкретные функции, включая добавление графиков, обновление данных и настройку внешнего вида графиков.  
 
-{{< tutorial-card link="./bounds-of-axis/" title="Создать документ с картами с использованием азбуки." imgSrc="/words/net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
-{{< tutorial-card link="./create-chart-using-shape/" title="Создать линейную диаграмму в Word с использованием Aspose.Words для .NET" imgSrc="/words/net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
-{{< tutorial-card link="./insert-area-chart/" title="Вставить тематическую карту в Word документ" imgSrc="/words/net/working-with-charts/insert-area-chart/images/thumb.png" >}}
-{{< tutorial-card link="./insert-bubble-chart/" title="Вставить Баббл-карту в Word Use Aspose.Words для .NET" imgSrc="/words/net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
-{{< tutorial-card link="./insert-column-chart/" title="Вставить строку в слово &quot; Позиции. &quot; Для .NET" imgSrc="/words/net/working-with-charts/insert-column-chart/images/thumb.png" >}}
-{{< tutorial-card link="./insert-scatter-chart/" title="Создать график WordScatter с использованием позитивов. Words для .NET" imgSrc="/words/net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
-{{< tutorial-card link="./insert-simple-column-chart/" title="Вставить простую таблицу колонки в слово &quot; Позиция. &quot; для .NET" imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
+{{< tutorial-card link="./bounds-of-axis/" title="Создать документ с графиками с использованием Aspose.Words для .NET" imgSrc="/words/net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
+{{< tutorial-card link="./create-chart-using-shape/" title="Создать диаграмму строк в Word с помощью Aspose.Words для .NET" imgSrc="/words/net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
+{{< tutorial-card link="./insert-area-chart/" title="Вставьте диаграмму площади в документ Word" imgSrc="/words/net/working-with-charts/insert-area-chart/images/thumb.png" >}}
+{{< tutorial-card link="./insert-bubble-chart/" title="Вставьте диаграмму пузыря в Word с использованием Aspose.Words для .NET" imgSrc="/words/net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
+{{< tutorial-card link="./insert-column-chart/" title="Вставьте графика столбцов в Word с использованием Aspose.Words для .NET" imgSrc="/words/net/working-with-charts/insert-column-chart/images/thumb.png" >}}
+{{< tutorial-card link="./insert-scatter-chart/" title="Создать диаграмму рассеивания слов с использованием Aspose.Words для .NET" imgSrc="/words/net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
+{{< tutorial-card link="./insert-simple-column-chart/" title="Вставьте простую графу столбцов в Word с использованием Aspose.Words для .NET" imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

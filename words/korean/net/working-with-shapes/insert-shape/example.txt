@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: 이 코드 는 Aspose.Words을 사용하여 모양 ( 텍스트 상자) 을 워드 문서 에 삽입 하는 방법을 알려 준다. 문서 는 ISO 표준 에 대한 특정 준수 옵션 을 가지고 DOCX 형식으로 저장 됩니다.
+//ExStepSummary:0: 코드는 새로운 문서와 문서 제작자를 기획하여 문서 조작을 시작합니다.
+//ExStepSummary:1: 문서에 절대적인 위치에서 모양 ( 텍스트 박스) 을 삽입하고 첫 번째 모양의 회전도 30도로 설정합니다.
+//ExStepSummary:2: 새로운 모양은 상대적인 위치에 삽입되며 두 번째 모양의 회전도 30도로 설정됩니다.
+//ExStepSummary:3: 문서는 특정 OoxmlSaveOptions로 저장됩니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// 새로운 문서 인스턴스를 생성합니다
+Document doc = new Document();
+// 문서의 문서 제작자를 초기화
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 텍스트박스 타입의 모양을 삽입
+Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
+    RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
+// 30도로 모양을 회전합니다
+shape.Rotation = 30.0;
+
+//ExStep:2-
+builder.Writeln();
+// 상대적인 위치에서 다른 형태의 텍스트박스를 삽입합니다
+shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
+// 두 번째 모양을 30도로 회전합니다
+shape.Rotation = 30.0;
+
+//ExStep:3-
+// 문서에 저장 옵션을 준비합니다
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
+{
+    Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
+};
+
+// 지정된 저장 옵션을 사용하여 문서를 저장합니다
+doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
+//ExEnd

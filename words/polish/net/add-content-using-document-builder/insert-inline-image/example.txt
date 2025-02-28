@@ -1,0 +1,19 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak wstawić obraz w linii w dokumencie Word za pomocą Aspose.Words.
+//ExStepSummary:0: Inicjalizacja obiektu Dokument i DocumentBuilder do budowy dokumentu.
+//ExStepSummary:1: Wkładanie obrazu do dokumentu w obecnej pozycji kursoru z programem DocumentBuilder.
+//ExStepSummary:2: Zapisywanie dokumentu do określonego nazwy pliku.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+// Wprowadzenie nowego dokumentu i budowniczki dokumentów
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Wkładać obraz za pomocą DocumentBuilder
+builder.InsertImage(ImagesDir + "Transparent background logo.png");
+
+//ExStep:2-
+// Zapisz zmieniony dokument w pliku
+doc.Save("AddContentUsingDocumentBuilder.InsertInlineImage.docx");
+//ExEnd

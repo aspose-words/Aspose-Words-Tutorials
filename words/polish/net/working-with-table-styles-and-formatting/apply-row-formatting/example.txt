@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak stosować formatowanie wiersza w dokumencie Word za pomocą Aspose.Words.
+//ExStepSummary:0: Inicjalizuje nowy dokument i zaczyna budować tabelę z formatowanymi wierszami.
+//ExStepSummary:1: Konfiguracja formatu wiersza.
+//ExStepSummary:2: Konfiguracja ustawień wysokości.
+//ExStepSummary:3: Ustawione pole wypełniania całego stołu, wpływające na wszystkie rzędy.
+//ExStepSummary:4: Napisa tekst w komórce stołu i kończy wiersz.
+//ExStepSummary:5: Dokona procesu budowy stołu i zapisuje dokument.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Tworzenie nowego dokumentu
+Document doc = new Document();
+// Utworz program DokumentBuilder do modyfikacji dokumentu
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Zacznij nowy stół
+Table table = builder.StartTable();
+// Wprowadź nową komórkę w tabeli
+builder.InsertCell();
+//ExStep:2-
+// Dostęp do właściwości formatowania wiersza
+RowFormat rowFormat = builder.RowFormat;
+// Ustaw wysokość rzędu
+rowFormat.Height = 100;
+// Wyznacz, że wysokość jest dokładna
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// Zestaw wypełnienia do stołu
+table.LeftPadding = 30; 
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// Napisz tekst do komórki
+builder.Writeln("I'm a wonderful formatted row.");
+// zakończenie bieżącej wierszy
+builder.EndRow();
+// Skończ budowę stołu
+builder.EndTable();
+
+//ExStep:5-
+// Zapisz dokument
+doc.Save("WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
+//ExEnd

@@ -1,0 +1,63 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak tworzyć dokument Word z tabeli, która ma różne style granicy i odcienia dla komórek.
+//ExStepSummary:0: Inicjalizuj dokument i dokumentBuilder, aby utworzyć nowy dokument Word.
+//ExStepSummary:1: Zacznij nowy stół i ustaw granice całego stołu.
+//ExStepSummary:2: Dodaj pierwszą komórkę z czerwonym odcieniem tła i tekstem.
+//ExStepSummary:3: Dodaj drugą komórkę z zielonymi odcieniami tła i tekstem.
+//ExStepSummary:4: Zakończenie pierwszego rzędu i usuwanie poprzedniego formatowania komórki.
+//ExStepSummary:5: Dodaj nowy wiersz z dostosowanymi większymi granicami dla pierwszej komórki.
+//ExStepSummary:6: Dodaj drugą komórkę nowego wiersza z domyślnym formatowaniem i tekstem.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Tworzyć nowy dokument.
+Document doc = new Document();
+// Tworzyć twórcę dokumentów do manipulowania dokumentem.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Zacznij nowy stół.
+Table table = builder.StartTable();
+// Wkładaj pierwszą komórkę do tabeli.
+builder.InsertCell();
+// Ustaw granice dla całego stołu.
+table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
+
+//ExStep:2-
+// Ustaw kolor tła komórki na czerwony.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
+builder.Writeln("Cell #1");
+// Wprowadź drugą komórkę.
+builder.InsertCell();
+
+//ExStep:3-
+// Ustaw kolor tła komórki na zielony.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
+builder.Writeln("Cell #2");
+// Zakończ tę obecną linię.
+builder.EndRow();
+
+//ExStep:4-
+// Wyczyść formaty komórkowe, aby zacząć od nowa.
+builder.CellFormat.ClearFormatting();
+// Wkładaj nową komórkę w następnym rzędzie.
+builder.InsertCell();
+// Stwórz większe granice dla pierwszej komórki tego rzędu.
+builder.CellFormat.Borders.Left.LineWidth = 4.0;
+builder.CellFormat.Borders.Right.LineWidth = 4.0;
+builder.CellFormat.Borders.Top.LineWidth = 4.0;
+builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
+builder.Writeln("Cell #3");
+//ExStep:5-
+// Wprowadź czwartą komórkę.
+builder.InsertCell();
+builder.CellFormat.ClearFormatting();
+builder.Writeln("Cell #4");
+//ExStep:6-
+// Zapisz dokument.
+doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
+//ExEnd

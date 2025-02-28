@@ -1,22 +1,22 @@
 //ExStart
 //ExSummary: Этот код показывает, как вставить изображение в заголовок документа Word с использованием Aspose.Words для .NET.
-//ExStepSummary:0: Создать новый документ Word с использованием класса документа Aspose.Words.
-//ExStepSummary:1: Перейти к основному заголовку документа с использованием Бюллетеня документа.
-//ExStepSummary:2: Включить изображение в заголовок с конкретными вариантами регулировки, размеров и упаковки.
-//ExStepSummary:3: Сохранить документ в заданном файловом дорожке.
+//ExStepSummary:0: Создать новый документ Word с помощью класса "Аспозиция.Слово" Документ.
+//ExStepSummary:1: Перейти к первичному заголовку документа с помощью DocumentBuilder.
+//ExStepSummary:2: Введите изображение в заголовок с конкретными параметрами выравнивания, размерами и вариантами упаковки.
+//ExStepSummary:3: Запишите документ на указанный путь файла.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Создать новый документ Слова
+// Создать новый документ в Word
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Переместить курсор в основной заголовок документа
+// Переместить курсор в первичный заголовок документа
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
 //ExStep:2-
-// Включить изображение в заголовок с конкретным расположением и размерами
+// Введите изображение в заголовок с определенным выравниванием и размерами
 builder.InsertImage(
     ImagesDir + "Logo.jpg", RelativeHorizontalPosition.RightMargin, 10,
     RelativeVerticalPosition.Page, 10, 50, 50, 
@@ -24,6 +24,6 @@ builder.InsertImage(
 );
 
 //ExStep:3-
-// Сохранить документ на заданный путь
+// Сохранить документ на указанном пути
 doc.Save("WorkingWithHeadersAndFooters.InsertImage.docx");
 //ExEnd

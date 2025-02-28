@@ -1,0 +1,56 @@
+//ExStart
+//ExSummaryKod ten pokazuje, jak tworzyć listę wielowymiarową w dokumencie Word za pomocą Aspose.Words. Inicjalizuje dokument, stosuje format numeracyjny, tworzy główne i podelementy i wreszcie zapisuje dokument jako plik .docx.
+//ExStepSummary:0: Następujący kod inicjuje nowy dokument i instancję DocumentBuilder.
+//ExStepSummary:1: Następujący kod stosuje domyślny styl numeracji do listy i doda elementy najwyższego poziomu.
+//ExStepSummary:2: Następujące tiretki kodu do tworzenia podpunktu w ramach drugiego punktu najwyższego poziomu.
+//ExStepSummary:3: W przypadku, gdy wprowadzone są podpunkty, wprowadzone są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które są podpunkty, które podpunkty, które podpunkty, które podpunkty, podpunkty, które są podpunkty, które są pod
+//ExStepSummary:4: Następujący kod odchodzi z poprzedniego poziomu, aby dodać kolejny punkt na drugim poziomie.
+//ExStepSummary:5: Następujący kod odchodzi na najwyższy poziom, aby dodać ostateczny element do listy.
+//ExStepSummary:6: Następujący kod usuwa numeryzację z listy przed zapisem.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStep:0-
+// Wprowadzenie nowego dokumentu
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Wykorzystanie domyślnego formatu numeracji
+builder.ListFormat.ApplyNumberDefault();
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+
+//ExStep:2-
+// Odpłatę na podpunkty
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.1");
+builder.Writeln("Item 2.2");
+
+//ExStep:3-
+// Odpłatę na podpozycje
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.2.1");
+builder.Writeln("Item 2.2.2");
+
+//ExStep:4-
+// Z powrotem do drugiego poziomu.
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 2.3");
+
+//ExStep:5-
+// Z powrotem do najwyższego poziomu
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 3");
+
+//ExStep:6-
+// Usunięcie numerów z listy
+builder.ListFormat.RemoveNumbers();
+
+//ExStep:7-
+// Zapisz dokument
+doc.Save("DocumentFormatting.MultilevelListFormatting.docx");
+//ExEnd

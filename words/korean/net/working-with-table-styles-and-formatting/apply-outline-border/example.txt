@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: 이 코드 는 Aspose.Words 를 사용하여 워드 문서 의 테이블 에 윤곽 경계 를 적용 하는 방법 을 보여 줍니다. 이 코드 는 페이지 에 있는 테이블 을 중앙 에 두고, 테이블 을 둘러싼 녹색 경계 를 설정 하고, 기존의 경계 를 제거 하고, 테이블 세포 를 밝은 녹색 배경 색 으로 채우게 합니다. 
+//ExStepSummary:0: 다음 코드에서 문서를 초기화하고 첫 번째 표를 검색합니다.
+//ExStepSummary:1: 이 단계로 테이블이 페이지 중부에 배치됩니다.
+//ExStepSummary:2: 이 단계로 기존의 국경이 테이블에서 사라집니다.
+//ExStepSummary:3: 이 단계로 테이블 주변은 녹색의 경계선이 설정되지만 내부는 아닙니다.
+//ExStepSummary:4: 이 단계로 세포는 밝은 녹색의 탄탄한 색으로 채워집니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// 문서의 디렉토리를 정의
+string dataDir = "Your Document Directory";
+// 문서 로드
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// 문서에서 첫 번째 테이블을 검색
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+// 표를 페이지 중간에 배치
+table.Alignment = TableAlignment.Center;
+
+//ExStep:2-
+// 기존의 국경들을 테이블에서 제거
+table.ClearBorders();
+
+//ExStep:3-
+// 좌측 경계 설정
+table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
+// 오른쪽 경계 설정
+table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
+// 상위 경계 설정
+table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
+// 아래 경계 를 설정
+table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
+
+//ExStep:4-
+// 세포를 밝은 녹색으로 채우세요
+table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
+// 수정된 문서를 저장
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
+//ExEnd

@@ -1,0 +1,40 @@
+//ExStart
+//ExSummaryKod ten pokazuje, jak wstawić kształty (pustki tekstowe) do dokumentu Word za pomocą Aspose.Words. Dokument jest zapisywany w formie DOCX z konkretnymi opcjami zgodności z normami ISO.
+//ExStepSummary:0: Kod inicjuje nowy dokument i twórcę dokumentu do manipulowania dokumentem.
+//ExStepSummary:1: W dokumencie wprowadzono kształt (pustek tekstowy) w pozycji absolutnej, a obrót pierwszego kształtu ustawiono na 30 stopni.
+//ExStepSummary:2: Wprowadza się nowy kształt w stosunkowej pozycji, a obrót drugiego kształtu jest również ustawiony na 30 stopni.
+//ExStepSummary:3: Dokument jest zapisywany w ramach określonych opcji OoxmlSaveOptions.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Tworzy nowy przykład dokumentu
+Document doc = new Document();
+// Inicjalizuje program DocumentBuilder dla dokumentu
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Wprowadza kształt typu TextBox
+Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
+    RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
+// Obrotuje kształt o 30 stopni
+shape.Rotation = 30.0;
+
+//ExStep:2-
+builder.Writeln();
+// Wprowadza inny kształt typu TextBox w pozycji względnej
+shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
+// /Wróci drugi kształt o 30 stopni
+shape.Rotation = 30.0;
+
+//ExStep:3-
+// Przygotowuje opcje zapisywania dokumentu
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
+{
+    Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
+};
+
+// Zapisywanie dokumentu za pomocą określonych opcji zapisywania
+doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
+//ExEnd

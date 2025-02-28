@@ -1,0 +1,57 @@
+//ExStart
+//ExSummary:Proszę sprawdzić następujący kod, aby znaleźć sposób wstawienia prosty wykres kolumn w dokumencie Word.
+//ExStepSummary:0: Kod ten pokazuje, jak tworzyć dokument Word za pomocą Aspose.Words i wstawić w niego wykres kolumny.
+//ExStepSummary:1: Kod ten pokazuje, jak tworzyć obiekt twórcy dokumentów do manipulowania treścią Word.
+//ExStepSummary:2: Kod ten pokazuje, jak wstawić kształt wykresu kolumny o określonych wymiarach do dokumentu.
+//ExStepSummary:3: Kod ten odbiera obiekt wykresu z wprowadzonego kształtu do dalszej dostosowania.
+//ExStepSummary:4: Kod ten pokazuje, jak uzyskać dostęp do zbioru serii wykresów i drukować liczbę serii.
+//ExStepSummary:5: Kod ten usuwa wszystkie domyślne serii, które mogły zostać utworzone z wykresem.
+//ExStepSummary:6: Kod ten pokazuje, jak zdefiniować nazwy kategorii dla danych wykresu.
+//ExStepSummary:7: Kod ten pokazuje, jak dodać serię do wykresu z odpowiednimi nazwami kategorii i wartościami danych.
+//ExStepSummary:8: Kod ten zapisuje dokument z wprowadzonym wykresem do określonego pliku.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:7:images/4.png
+//ExStep:0-
+// Tworzyć nową instancję dokumentu Word.
+Document doc = new Document();
+
+//ExStep:1-
+// Tworzyć twórcę dokumentów, aby łatwo wstawić elementy do dokumentu.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// Wprowadź kształt wykresu kolumny o określonej szerokości (432) i wysokości (252).
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:3-
+// Odzyskać obiekt wykresu z kształtu do dalszej manipulacji.
+Chart chart = shape.Chart;
+
+//ExStep:4-
+// Dostęp do zbioru serii wykresu.
+ChartSeriesCollection seriesColl = chart.Series;
+// Wyślij numer serii w wykresie na konsoli.
+Console.WriteLine(seriesColl.Count);
+
+//ExStep:5-
+// Usuń domyślne serii, które zostały automatycznie generowane podczas tworzenia wykresu.
+seriesColl.Clear();
+
+//ExStep:6-
+// Definiuj szereg nazw kategorii dla danych wykresu.
+string[] categories = new string[] { "Category 1", "Category 2" };
+
+//ExStep:7-
+// Dodaj do wykresu wiele serii z nazwami kategorii i wartościami danych.
+seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
+seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
+seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
+seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
+seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
+
+//ExStep:8-
+// Zapisz dokument z wprowadzonym wykresem na określonej ścieżce pliku.
+doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
+//ExEnd

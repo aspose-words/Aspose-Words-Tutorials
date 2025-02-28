@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak dodać tytuł i opis do tabeli w dokumencie Word za pomocą Aspose.Words.
+//ExStepSummary:0:W tym kroku inicjalizuje się dokument i ładuje go z określonego katalogu.
+//ExStepSummary:1:W tym kroku znajduje się pierwsza tabela z dokumentu i ustawia tytuł i opis.
+//ExStepSummary:2:W tym kroku konfigurowane są opcje zapisywania dokumentu z określonymi ustawieniami zgodności.
+//ExStepSummary:3:Ten krok optymalizuje opcje zgodności dokumentu dla Word 2016.
+//ExStepSummary:4:W tym kroku zmieniony dokument zostaje zapisane w wypełnionym katalogu.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Inicjalizuj dokument i włóż go z katalogu danych
+string dataDir = "Your Document Directory";
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Odzyskać pierwszą tabelę i ustawić jej tytuł i opis
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+table.Title = "Test title";
+table.Description = "Test description";
+
+//ExStep:2-
+// Konfiguracja opcji zapisywania dokumentu
+OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
+
+//ExStep:3-
+// Optymalizuj opcje zgodności dla Word 2016
+doc.CompatibilityOptions.OptimizeFor(Aspose.Words.Settings.MsWordVersion.Word2016);
+
+//ExStep:4-
+// Zapisz zmieniony dokument w wypełnionym katalogu
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.TableTitleAndDescription.docx", options);
+//ExEnd

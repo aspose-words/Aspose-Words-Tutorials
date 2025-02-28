@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary: 이 코드는 Aspose.Words를 사용하여 버블 차트를 워드 문서에 삽입하는 방법을 보여줍니다.
+//ExStepSummary:0: 다음 코드는 새로운 문서 및 문서 제작자를 초기화합니다.
+//ExStepSummary:1: 문서 제작자를 사용하여 버블 차트를 생성하고 문서에 추가합니다.
+//ExStepSummary:2: 버블 차트의 데이터 시리즈는 특정 X, Y 및 크기의 값으로 추가됩니다.
+//ExStepSummary:3: 마지막으로, 문서는 삽입된 거품 차트와 함께 저장됩니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 새로운 문서 및 문서 제작자를 초기화
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 문서에 버블 차트를 삽입
+Shape shape = builder.InsertChart(ChartType.Bubble, 432, 252);
+
+//ExStep:2-
+// 거품 차트에 데이터 시리즈를 추가
+Chart chart = shape.Chart;
+chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, // X values
+    new double[] { 2.7, 3.2, 0.8 }, // Y values
+    new double[] { 10, 4, 8 }); // Size values for the bubbles
+
+//ExStep:3-
+// 문서를 거품 차트로 저장
+doc.Save("WorkingWithCharts.InsertBubbleChart.docx");
+//ExEnd

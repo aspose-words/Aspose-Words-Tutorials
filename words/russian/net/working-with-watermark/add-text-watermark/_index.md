@@ -1,8 +1,8 @@
 ---
-title: Добавить текст Watermark в Word Document Use Aspose.Words для .NET
+title: Добавить водный знак текста в документ Word с использованием Aspose.Words для .NET
 weight: 7700
 limit: 
-description: Узнайте, как добавить текстовый водяной знак с конкретными опциями к документу Word с использованием Aspose.Words for .NET. Следуйте простым шагам, чтобы сориентировать и сохранить ваш документ.
+description: Узнайте, как добавить текстовую водную марку с конкретными опциями в документ Word с помощью Aspose.Words для .NET. Следуйте простым шагам для настройки и сохранения документа.
 keywords: [Aspose.Words for .NET, add watermark, text watermark, Word document, watermark customization, .NET example, document processing]
 url: /ru/net/working-with-watermark/add-text-watermark/
 ---
@@ -10,8 +10,8 @@ url: /ru/net/working-with-watermark/add-text-watermark/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Добавить текст водного знака в Word document with Use Aspose.Words
-Добавление текстового водяного знака в документ Word - это простой процесс с использованием Aspose.Words for .NET. Этот урок показывает, как применять адаптированный текстовый водяной знак к вашему документу. С такими характеристиками, как семейство шрифтов, размер, цвет, компоновка и транспарентность, вы можете настроить водяной знак с учетом своих конкретных потребностей. Независимо от того, является ли он брендированием, конфиденциальностью или эстетикой, Aspose.Words делает проще улучшить ваши документы профессиональными водяными знаками.  
+# Добавьте текст к водяной знаке в документе Word с помощью Aspose.Words
+Добавление текстовой водяной марки к документу Word - это простой процесс с использованием Aspose.Words для .NET. Этот учебный план демонстрирует, как применить настраиваемый текстовый водяный знак к документу. С такими функциями, как семья шрифтов, размер, цвет, макеты и контроль прозрачности, вы можете адаптировать водяный знак к вашим точным потребностям.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-watermark/add-text-watermark" >}}
@@ -19,28 +19,28 @@ url: /ru/net/working-with-watermark/add-text-watermark/
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Инструкции по установке  
-1. Загрузить позитив. Заголовки для .NET:  
-   Получите последнюю версию из[Загрузить страницу@ info: whatsthis](https://releases.aspose.com/words/net/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+1. Скачать Aspose.Words для .NET:  
+   Получите новейшую версию из [Страница загрузки](https://releases.aspose.com/words/net/)\- Я не знаю .  
 
-2. Установите через NuGet:  
-   * Открой свой проект Visual Studio.  
-   * Навигировать менеджеру пакета &quot; NuGet &quot; ( &quot; Туалы &quot; > Менеджер пакета &quot; NuGet &quot; > Управление пакетами &quot; NuGet &quot; для решения).  
-   * Ищите "Позиции. Заголовки" и нажмите "Install".  
+2. Установка через NuGet:  
+   * Откройте свой проект Visual Studio.  
+   * Перейти к управляющему пакетом NuGet (Инструменты > Управляющий пакетом NuGet > Управление пакетами NuGet для решения).  
+   * Поиск "Аспозиция.Слово" и нажмите на Установку.  
 
-3. Добавить ссылки на имя пространства:  
-   Добавить в верхнюю часть файла кода следующее имя:  
+3. Добавить ссылки на пространство имен:  
+   Добавьте следующее пространство имен в верхней части файла кода:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    using System.Drawing;
    ```  
 
-4. Применить лицензию (факультативную):  
-   Для использования полной версии,[:: применение лицензии](https://purchase.aspose.com/temporary-license/)или использовать a[свободное судебное разбирательство](https://releases.aspose.com/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+4. Заявление на лицензию (необязательно):  
+   Чтобы использовать полную версию, [подать заявку на выдачу лицензии](https://purchase.aspose.com/temporary-license/)или использовать [бесплатная пробная версия](https://releases.aspose.com/)\- Я не знаю .  
 
-## См.
-[Позиция. Условие для .NET Documentation](https://docs.aspose.com/words/net/)
-[Предпосылки. Условные обозначения для .NET](https://reference.aspose.com/words/net/)
+## См. также
+[Aspose.Word для документации .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word для ссылок .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

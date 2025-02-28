@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary: 이 코드는 Aspose.Words를 사용하여 워드 문서의 테이블을 조작하는 방법을 보여줍니다. 기존 문서를 검색하고 첫 번째 테이블의 경계를 수정하고 변경 사항을 새로운 파일로 저장합니다.
+//ExStepSummary:0: 다음 코드에서 문서를 구성하고 그로부터 첫 번째 표를 검색합니다.
+//ExStepSummary:1: 다음 코드에서는 새로운 포맷을 준비하기 위해 기존의 경계를 표에서 제거합니다.
+//ExStepSummary:2: 다음 코드에는 테이블 주변과 내부에 녹색 경계선이 적용됩니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 문서의 디렉토리를 정의
+string dataDir = "Your Document Directory";
+// 문서 로드
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// 문서에서 첫 번째 테이블을 가져오십시오
+Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
+
+//ExStep:2-
+// 기존의 국경들을 테이블에서 제거
+table.ClearBorders();
+
+//ExStep:3-
+// 테이블 주변과 내부에 녹색 경계 를 설정
+table.SetBorders(LineStyle.Single, 1.5, Color.Green);
+// 변경사항을 포함하여 문서를 저장
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");
+//ExEnd

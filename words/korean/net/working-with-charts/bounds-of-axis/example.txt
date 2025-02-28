@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: 이 코드에서는 Aspose.Words를 사용하여 차트를 가진 문서를 생성하고 Y 축의 한계를 설정하고 DOCX 파일로 문서를 저장하는 방법을 보여줍니다. 
+// 각 단계는 Aspose.Words에서 차트와 작업하는 과정에 대한 명확한 이해를 제공하기 위해 분해됩니다.
+//ExStepSummary:0: 새로운 문서와 문서 제작자 인스턴스를 초기화하십시오. 
+//ExStepSummary:1: 문서에 차트를 삽입하고 차트 객체를 검색합니다. 
+//ExStepSummary:2: 특정 카테고리와 값들을 가진 새로운 시리즈를 차트에 추가합니다. 
+//ExStepSummary:3: 차트의 Y축에 대한 최소 및 최대 한계를 설정하십시오. 
+//ExStepSummary:4: 문서가 지정된 경로로 저장합니다. 
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 새로운 문서 인스턴스를 생성하십시오.
+Document doc = new Document();
+// 문서 제작을 위해 DocumentBuilder를 초기화하십시오.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 문서에 기둥 표를 삽입하십시오.
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+// 그래프 객체를 모양에서 검색합니다.
+Chart chart = shape.Chart;
+// 신선한 데이터를 위해 차트에서 기존 시리즈를 삭제하십시오.
+chart.Series.Clear();
+
+//ExStep:2-
+// 새로운 시리즈를 정의해 주세요. "Aspose Series 1"라는 이름으로
+chart.Series.Add("Aspose Series 1",
+    new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
+    new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
+
+//ExStep:3-
+// Y축의 최소 경계를 설정합니다.
+chart.AxisY.Scaling.Minimum = new AxisBound(0);
+chart.AxisY.Scaling.Maximum = new AxisBound(6);
+
+//ExStep:4-
+// 표와 함께 있는 문서를 지정된 경로로 저장합니다.
+doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
+//ExEnd

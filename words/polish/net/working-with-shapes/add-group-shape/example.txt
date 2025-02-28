@@ -1,0 +1,67 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak tworzyć kształt grupy w dokumencie za pomocą Aspose.Words.
+// Tworzy kształt wzywania akcentów i przycisk działania, doda je do kształtu grupy, a następnie wprowadza kształt grupy do dokumentu przed zapisem.
+//ExStepSummary:0: Inicjalizuje nowy dokument i zapewnia spełnienie minimalnych wymogów.
+//ExStepSummary:1: Tworzy GroupShape, który będzie obsługiwał inne kształty.
+//ExStepSummary:2: Dodaje kształt akcenty na kształt grupy.
+//ExStepSummary:3: Dodaje kształt przycisku akcji do kształtu grupy.
+//ExStepSummary:4: Ustawia wymiary i współrzędne kształtu grupy.
+//ExStepSummary:5: Wprowadza kształt grupy do dokumentu za pomocą dokumentBuilder.
+//ExStepSummary:6: Zapisuje dokument zawierający kształt grupy na określoną lokalizację.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStep:0-
+// Tworzenie nowego dokumentu
+Document doc = new Document();
+// Zapewnienie, że dokument spełnia wymogi minimalne
+doc.EnsureMinimum();
+
+//ExStep:1-
+// Tworzenie nowego przykładu Grupy
+GroupShape groupShape = new GroupShape(doc);
+
+//ExStep:2-
+// Utworz kształt akcenty
+Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
+{
+    Width = 100, 
+    Height = 100
+};
+// Dodaj kształt do kształtu grupy
+groupShape.AppendChild(accentBorderShape);
+
+//ExStep:3-
+// Utworzyć kształt przycisku działania
+Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
+{
+	// Ustaw pozycję w lewo
+    Left = 100, 
+	// Ustawiona szerokość kształtu
+    Width = 100, 
+	// Ustawiona wysokość kształtu
+    Height = 200
+};
+// Dodaj przycisk działania do kształtu grupy
+groupShape.AppendChild(actionButtonShape);
+
+//ExStep:4-
+// Ustaw szerokość kształtu grupy
+groupShape.Width = 200;
+// Ustaw wysokość kształtu grupy
+groupShape.Height = 200;
+// Ustaw rozmiar współrzędnych dla kształtu grupy
+groupShape.CoordSize = new Size(200, 200);
+
+//ExStep:5-
+// Tworzenie twórcy dokumentów do manipulowania dokumentem
+DocumentBuilder builder = new DocumentBuilder(doc);
+// Wkładać kształt grupy do dokumentu
+builder.InsertNode(groupShape);
+
+//ExStep:6-
+// Zapisz dokument na określonym miejscu
+doc.Save("WorkingWithShapes.AddGroupShape.docx");
+//ExEnd

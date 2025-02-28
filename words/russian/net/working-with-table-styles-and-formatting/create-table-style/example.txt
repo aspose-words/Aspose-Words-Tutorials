@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary: Этот код показывает, как создать документ Word с стилистической таблицей с использованием Aspose.Words. 
-//ExStepSummary:0: Инициировать новый документ и документоподготовитель.
-//ExStepSummary:1: Начните новую таблицу и вставьте заголовки для "Название" и "Валю".
-//ExStepSummary:2: Создать заказный столик с конкретными пограничными и прокладочными настройками.
-//ExStepSummary:3: Сохранить документ с использованием нового стиля таблицы.
+//ExSummary: Этот код показывает, как создать документ Word с таблицей с стилем с использованием Aspose.Words. 
+//ExStepSummary:0: Запустить новый Документ и ДокументСтроитель.
+//ExStepSummary:1: Запустите новую таблицу и вставьте ячейки заголовка для "Имя" и "Сценка".
+//ExStepSummary:2: Создать настройку TableStyle с конкретными настройками границы и накладки.
+//ExStepSummary:3: Сохранить документ с применением нового стиля таблицы.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Создать новый объект документа
+// Создать новый объект Документа
 Document doc = new Document();
-// Инициировать сборку документов для построения документа
+// Инициализировать конструктор документов для создания документа
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Запустить новый стол
+// Начните новый стол
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Name");
@@ -25,20 +25,20 @@ builder.InsertCell();
 builder.EndTable();
 
 //ExStep:2-
-// Создать новый стиль таблицы
+// Создать новый стиль стола
 TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Borders.LineStyle = LineStyle.Double;
-// Установить ширину границы
+// Установка ширины границы
 tableStyle.Borders.LineWidth = 1;
-// Установите закладку
+// Настройка накладки
 tableStyle.LeftPadding = 18;
 tableStyle.RightPadding = 18;
 tableStyle.TopPadding = 12;
 tableStyle.BottomPadding = 12;
-// Применить стиль заказной таблицы к созданной таблице
+// Применить стиль таблицы на создаваемый стол
 table.Style = tableStyle;
 
 //ExStep:3-
-// Сохранить документ с таблицей в стиле
+// Сохранить документ с таблицей с стилем
 doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
 //ExEnd

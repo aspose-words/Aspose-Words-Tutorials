@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: 다음 코드에서는 Aspose.Words에서 문서 제작자 클래스를 사용하여 워드 문서에서 테이블을 생성하고 포맷하는 방법을 보여줍니다.
+//ExStepSummary:0: 새로운 문서 및 문서 제작자를 초기화하여 Word 문서의 구축을 시작하십시오.
+//ExStepSummary:1: 테이블을 만들고 포맷을 위한 셀을 삽입하십시오.
+//ExStepSummary:2: 포맷 및 너비를 포함한 셀의 포맷 특성을 설정하십시오.
+//ExStepSummary:3: 형식화된 셀에 텍스트를 삽입합니다.
+//ExStepSummary:4: 행과 테이블을 끝내고, 문서를 지정된 파일 경로로 저장합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 새로운 문서 객체를 생성
+Document doc = new Document();
+// 새로운 문서로 문서 제작자를 초기화
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 테이블을 만들기 시작
+builder.StartTable();
+// 테이블에 첫 번째 셀을 삽입
+builder.InsertCell();
+
+//ExStep:2-
+// 셀의 형식 속성을 액세스
+CellFormat cellFormat = builder.CellFormat;
+// 셀 너비 설정
+cellFormat.Width = 250;
+// 을 설정
+cellFormat.LeftPadding = 30;
+cellFormat.RightPadding = 30;
+cellFormat.TopPadding = 30;
+cellFormat.BottomPadding = 30;
+
+//ExStep:3-
+// 셀에 텍스트를 삽입
+builder.Writeln("I'm a wonderful formatted cell.");
+
+//ExStep:4-
+// 테이블의 현재 행을 종료
+builder.EndRow();
+// 테이블 생성 종료
+builder.EndTable();
+// 문서 저장
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");
+//ExEnd

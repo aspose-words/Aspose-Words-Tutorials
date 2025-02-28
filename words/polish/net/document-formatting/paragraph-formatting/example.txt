@@ -1,0 +1,36 @@
+//ExStart
+//ExSummaryKod ten pokazuje, jak formatować paragrafy w dokumencie Word za pomocą Aspose.Words. Pokazuje, jak ustawić opcje formatowania paragrafu, takie jak wyrównanie, wciąganie i przestrzeni po paragrafie.
+//ExStepSummary:0: W tym kroku inicjuje się nowy dokument i budownicz dokumentów do budowy dokumentu.
+//ExStepSummary:1: W tym kroku ustawione są opcje formatowania ustępu, w tym wyrównanie, lewy tiret, prawy tiret i przestrzeń po ustępie.
+//ExStepSummary:2: W tym kroku do dokumentu zostaje napisany dobrze formatowany paragraf z określonymi opcjami formatowania.
+//ExStepSummary:3: W tym kroku napisze się kolejny ustęp w formatowaniu, który pokazuje wpływ przestrzeni po ustępie.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0- 
+// Tworzyć nową instancję dokumentu.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1- 
+// Ustaw opcje formatowania ustępu.
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.Alignment = ParagraphAlignment.Center;
+paragraphFormat.LeftIndent = 50;
+paragraphFormat.RightIndent = 50;
+paragraphFormat.SpaceAfter = 25;
+
+//ExStep:2- 
+// Napisz pierwszy ustęp w formatowanym formie.
+builder.Writeln(
+	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
+
+//ExStep:3- 
+// Napisz drugi ustęp w formatowanym formie.
+builder.Writeln(
+	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
+
+//ExStep:4- 
+// Zapisz dokument na określonej ścieżce.
+doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
+//ExEnd

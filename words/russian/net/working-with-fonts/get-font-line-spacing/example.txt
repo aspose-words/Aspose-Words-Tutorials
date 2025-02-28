@@ -1,23 +1,23 @@
 //ExStart
-//ExSummary: Этот код показывает, как создать документ и установить промежутки между линиями указанного шрифта.
-//ExStepSummary:0: Приводимый ниже код инициализирует новый документ и документоподготовитель.
-//ExStepSummary:1: Код устанавливает шрифт на "Calibri" и добавляет строчку текста.
-//ExStepSummary:2: В этом коде фиксируются промежутки между линиями первого прогона в документе.
+//ExSummary: Этот код показывает, как создать документ и получить разрыв между строками указанного шрифта.
+//ExStepSummary:0: Следующий код инициирует новый Документ и DocumentBuilder.
+//ExStepSummary:1: Код устанавливает шрифт на "Калибри" и добавляет строку текста.
+//ExStepSummary:2: Код восстанавливает расстояние между строками первого запуска в документе.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Создать новый пример документа
+// Создать новый экземпляр документа
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Введите имя шрифта на 'Calibri'
+// Назначить имя шрифта на "Calibri"
 builder.Font.Name = "Calibri";
 builder.Writeln("qText");
 
 //ExStep:2-
-// Доступ к шрифту первого прогона
+// Доступ к шрифту первого запуска
 Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
-// Вывести расстояние линии до консоли
+// Вывод линии расстояния на консоль
 Console.WriteLine($"lineSpacing = {font.LineSpacing}");
 //ExEnd

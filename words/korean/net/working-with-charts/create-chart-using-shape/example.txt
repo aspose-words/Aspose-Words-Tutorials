@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: 다음 코드를 확인하여 Word 문서에서 라인 차트를 만드는 방법을 알아보십시오. 이 코드를 IDE에 복사하여 실행할 수 있습니다.
+//ExStepSummary:0: 다음 코드에서는 새로운 문서를 생성하고 문서 제작자를 인스턴트하는 방법을 보여줍니다.
+//ExStepSummary:1: 다음 코드에서 문서에 라인 차트를 삽입하는 방법을 보여줍니다.
+//ExStepSummary:2: 다음 코드에서는 차트의 제목을 설정하는 방법을 설명합니다.
+//ExStepSummary:3: 다음 코드에서는 차트 레전드의 위치 및 오버레이 설정을 구성하는 방법을 보여줍니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 새로운 문서 객체를 생성
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 문서에 선 표를 지정된 크기로 삽입
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+
+//ExStep:2-
+// 모양에서 차트 객체에 액세스
+Chart chart = shape.Chart;
+// 차트 제목의 표시를 활성화
+chart.Title.Show = true;
+// 표의 제목 텍스트를 설정
+chart.Title.Text = "Line Chart Title";
+// 제목이 차트를 덮지 않도록 하십시오
+chart.Title.Overlay = false;
+
+//ExStep:3-
+// 좌측에 있는 차트 전설의 위치를 설정
+chart.Legend.Position = LegendPosition.Left;
+chart.Legend.Overlay = true;
+
+//ExStep:4-
+// 그래프와 함께 문서를 파일로 저장
+doc.Save("WorkingWithCharts.CreateChartUsingShape.docx");
+//ExEnd

@@ -1,0 +1,27 @@
+//ExStart
+//ExSummaryKod ten pokazuje, jak tworzyć dokument Word z głównym nagłówkiem i podnóżkiem przy użyciu Aspose.Words. Inicjalizuje nowy dokument, przechodzi do sekcji nagłówka i podnóża i pisze tekst na zamówienie.
+//ExStepSummary:0: Następujący kod inicjalizuje główny obiekt dokumentu i ustawia program DocumentBuilder.
+//ExStepSummary:1: Następujący kod przechodzi do sekcji głównej nagłówki i pisze tekst nagłówka.
+//ExStepSummary:2: Następujący kod przechodzi do sekcji głównej podnóżki i napisuje tekst podnóżki.
+//ExStepSummary:3: Następujący kod zapisuje dokument na określonej ścieżce pliku.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Inicjalizowanie nowego obiektu dokumentu
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Przejdź do sekcji głównej nagłówki
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("Header for page.");
+
+//ExStep:2-
+// Przejdź do sekcji głównej podnóżki
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+builder.Write("Footer for page."); // Write the footer text
+
+//ExStep:3-
+// Zapisz dokument z określonym nazwą pliku
+doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
+//ExEnd

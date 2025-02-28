@@ -1,38 +1,38 @@
 //ExStart
-//ExSummary: Этот код показывает, как создать документ Word с форматированной таблицей с использованием Aspose.
-//ExStepSummary:0: Этот шаг инициирует новый документ и создателя документов.
-//ExStepSummary:1: Этот шаг запускает стол и вставляет в него клетку.
-//ExStepSummary:2: Эта ступень устанавливает форматирование ряда, включая правило высоты и высоты.
-//ExStepSummary:3: Эта ступенька настраивается на всю таблицу, затрагивая все ряды.
+//ExSummary: Этот код показывает, как создать документ Word с форматированной таблицей с помощью Aspose.
+//ExStepSummary:0: Этот шаг инициирует новый документ и конструктор документов.
+//ExStepSummary:1: Этот шаг запускает таблицу и вставляет в нее ячейку.
+//ExStepSummary:2: Этот шаг устанавливает форматирование строки, включая правило высоты и высоты.
+//ExStepSummary:3: Этот шаг устанавливает накладку на весь стол, влияя на все ряды.
 //ExStepSummary:4: Этот шаг добавляет текст в ячейку и заканчивает строку.
-//ExStepSummary:5: Этот шаг заканчивает таблицу и сохраняет документ на определенный путь.
+//ExStepSummary:5: Этот шаг заканчивает таблицу и сохраняет документ на определенном пути.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 
 //ExStep:0-
-// Создать новый образец документа
+// Создать новый экземпляр документа
 Document doc = new Document();
-// Инициировать документоподготовитель вместе с документом
+// Инициализировать DocumentBuilder с помощью документа
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Запустить новый стол
+// Начните новый стол
 Table table = builder.StartTable();
-// Включить первую ячейку в таблицу
+// Вставьте первую ячейку в таблицу
 builder.InsertCell();
 
 //ExStep:2-
-// Доступ к собственности строителя RowFormat
+// Доступ к свойству RowFormat конструктора
 RowFormat rowFormat = builder.RowFormat;
-// Установить высоту ряда
+// Установка высоты ряда
 rowFormat.Height = 100;
-// Установить правило высоты точно
+// Установите правило высоты на точно
 rowFormat.HeightRule = HeightRule.Exactly;
 
 //ExStep:3-
-// Установите рамку для стола
+// Настройка накладки для стола
 table.LeftPadding = 30;
 table.RightPadding = 30;
 table.TopPadding = 30;
@@ -41,11 +41,11 @@ table.BottomPadding = 30;
 //ExStep:4-
 // Добавить текст в текущую ячейку
 builder.Writeln("I'm a wonderful formatted row.");
-// Окончить текущую строку
+// Завершить текущий ряд
 builder.EndRow();
 builder.EndTable();
 
 //ExStep:5-
-// Сохранить документ на заданный путь
+// Сохранить документ на указанном пути
 doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableRowFormatting.docx");
 //ExEnd

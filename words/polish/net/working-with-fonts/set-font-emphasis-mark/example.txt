@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary:Ten kod pokazuje, jak ustawić znak nacisku w dokumencie Word za pomocą Aspose.words.
+//ExStepSummary:0:Tworzenie nowej instancji dokumentu do pracy.
+//ExStepSummary:1:Ustawienie DocumentBuilder do manipulowania dokumentem.
+//ExStepSummary:2:Wykorzystanie znaku akcentu na czcionek konstruktoru.
+//ExStepSummary:3:Napisanie tekstu nacisku do dokumentu.
+//ExStepSummary:4:Napisanie prostego tekstu bez żadnego nacisku.
+//ExStepSummary:5: Kod ten zapisuje dokument z znakem nacisku do czcionki.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Tworzenie nowego dokumentu
+Document document = new Document();
+
+//ExStep:1-
+// Wpisanie inicjału DocumentBuilder do manipulacji dokumentami
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:2-
+// Ustaw znacznik nacisku na UnderSolidCircle
+builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
+
+//ExStep:3-
+// Napisz tekst nacisku do dokumentu
+builder.Write("Emphasis text");
+// Przejdź do następnej linii .
+builder.Writeln();
+// Wyczyszczenie formatowania czcionki do następnego tekstu
+builder.Font.ClearFormatting();
+
+//ExStep:4-
+// Napisz prosty tekst bez podkreślenia
+builder.Write("Simple text");
+
+//ExStep:5-
+// Zapisz dokument na określonej ścieżce
+document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
+//ExEnd

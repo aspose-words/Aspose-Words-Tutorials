@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak wstawić wykres obszarów w dokumencie Word za pomocą Aspose.Words.
+//ExStepSummary:0: Następujący kod inicjuje nowy dokument i twórcę dokumentów.
+//ExStepSummary:1: W dokumencie wprowadza się w następujący kod wykres obszarów.
+//ExStepSummary:2: Następujący kod doda do wykresu serię z określonymi punktami danych.
+//ExStepSummary:3: Kod poniższy zapisuje dokument z wprowadzonym wykresem obszarów.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Tworzenie nowego dokumentu
+Document doc = new Document();
+// Wprowadzenie inicjału twórcy dokumentów
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Wkładać wykres powierzchni o określonych wymiarach
+Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
+
+//ExStep:2-
+// Dostęp do obiektu wykresu
+Chart chart = shape.Chart;
+// Dodaj nowy numer do wykresu
+chart.Series.Add("Aspose Series 1", new [] 
+{
+	// Punkt danych 1
+    new DateTime(2002, 05, 01),
+	// Punkt danych 2
+    new DateTime(2002, 06, 01),
+	// Punkt danych 3
+    new DateTime(2002, 07, 01),
+	// Punkt danych 4
+    new DateTime(2002, 08, 01),
+	// Punkt danych 5
+    new DateTime(2002, 09, 01)
+}, 
+// Wskaźniki dotyczące danych
+new double[] { 32, 32, 28, 12, 15 });
+
+//ExStep:3-
+// Zapisz dokument z wprowadzonym wykresem
+doc.Save("WorkingWithCharts.InsertAreaChart.docx");
+//ExEnd

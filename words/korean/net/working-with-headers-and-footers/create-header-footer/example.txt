@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: 이 코드는 Aspose.Words를 사용하여 기본 헤더와 파지 문서를 만드는 방법을 보여줍니다. 새로운 문서를 초기화하고 헤더와 파지 섹션으로 이동하고 사용자 지정 텍스트를 작성합니다. 마지막으로, 문서를 DOCX 파일로 저장합니다.
+//ExStepSummary:0: 다음 코드는 주요 문서 객체를 초기화하고 문서 제작자를 설정합니다.
+//ExStepSummary:1: 다음 코드는 주요 헤더 섹션으로 이동하여 헤더 텍스트를 작성합니다.
+//ExStepSummary:2: 다음 코드는 기본 발자국 섹션으로 이동하여 발자국 텍스트를 작성합니다.
+//ExStepSummary:3: 다음 코드에서 문서가 지정된 파일 경로로 저장됩니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 새로운 문서 객체를 초기화
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 주요 헤더 섹션으로 이동
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("Header for page.");
+
+//ExStep:2-
+// 기본 발자국 섹션으로 이동
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+builder.Write("Footer for page."); // Write the footer text
+
+//ExStep:3-
+// 지정된 파일 이름과 함께 문서를 저장
+doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
+//ExEnd

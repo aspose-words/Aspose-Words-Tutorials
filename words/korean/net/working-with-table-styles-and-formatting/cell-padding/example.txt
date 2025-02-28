@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: 다음 코드에서는 내용에 대한 을 포함하는 포맷 된 테이블 셀로 워드 문서를 만드는 방법을 보여줍니다.
+//ExStepSummary:0: 다음 코드에서는 새로운 문서와 문서 제작자를 초기화합니다.
+//ExStepSummary:1: 다음 코드에서 문서의 테이블을 시작합니다.
+//ExStepSummary:2: 다음 코드에서는 테이블에 셀을 삽입합니다.
+//ExStepSummary:3: 다음 코드에서 세포 내용에 대한 포장지가 설정됩니다.
+//ExStepSummary:4: 다음 코드에서 셀에 텍스트를 추가하고 현재 줄을 끝낸다.
+//ExStepSummary:5: 다음 코드로 표가 끝나는 다음 문서가 파일로 저장됩니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 새로운 문서를 초기화
+Document doc = new Document();
+// 문서 조작을 위한 문서 제작자
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 테이블을 만들기 시작
+builder.StartTable();
+// 테이블에 새로운 셀을 삽입
+builder.InsertCell();
+
+//ExStep:2-
+// 위와 아래 30점, 왼쪽과 오른쪽에 50점의 이 있는 이 설정
+builder.CellFormat.SetPaddings(30, 50, 30, 50);
+
+//ExStep:3-
+builder.Writeln("I'm a wonderful formatted cell.");
+// 테이블의 현재 행을 완료
+builder.EndRow();
+// 테이블을 끝내는
+builder.EndTable();
+
+//ExStep:4-
+// 문서를 지정된 파일로 저장
+doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
+//ExEnd

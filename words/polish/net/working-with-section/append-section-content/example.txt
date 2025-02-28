@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary:W tym przykładzie pokazano, jak dodawać i wstępnie dodawać treści z jednego sekcji do drugiego w dokumencie Word za pomocą Aspose.Words dla .NET.
+//ExStepSummary:0: Wprowadź nowy dokument Word i DocumentBuilder do dodawania treści.
+//ExStepSummary:1: Napisz tekst i wstaw przerwy sekcji, aby utworzyć wiele sekcji w dokumencie.
+//ExStepSummary:2: Dostęp do trzeciego sekcji dokumentu, aby przygotować się do manipulacji treścią.
+//ExStepSummary:3: Wystarczy przeczytać treść z pierwszego rozdziału do trzeciego.
+//ExStepSummary:4: Dołącz treść z drugiej sekcji do trzeciej sekcji.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Inicjalizuj dokument i DocumentBuilder
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Napisz tekst i wstaw przerwy sekcji , aby stworzyć trzy sekcje
+builder.Write("Section 1");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// Dodaj treść drugiego sekcji
+builder.Write("Section 2");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// Dodaj treść do trzeciego sekcji
+builder.Write("Section 3");
+
+//ExStep:2-
+// Odzyskać trzeci sekcja z dokumentu
+Section section = doc.Sections[2];
+
+//ExStep:3-
+// Wystarczy przeczytać treść od pierwszego do trzeciego sekcji
+Section sectionToPrepend = doc.Sections[0];
+section.PrependContent(sectionToPrepend);
+
+//ExStep:4-
+// Dołącz treść z drugiej sekcji do trzeciej sekcji
+Section sectionToAppend = doc.Sections[1];
+section.AppendContent(sectionToAppend);
+//ExEnd

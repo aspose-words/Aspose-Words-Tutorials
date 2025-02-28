@@ -1,28 +1,28 @@
 //ExStart
-//ExSummary: Этот код показывает, как вставить карту Bubble в документ Word с использованием Aspose.Words.
-//ExStepSummary:0: Приводимый ниже код инициализирует новый документ и документоподготовитель.
-//ExStepSummary:1: Карта Bubble создается и добавляется к документу с использованием Бюллетеня документов.
-//ExStepSummary:2: Ряды данных для диаграммы Bubble добавляются с конкретными значениями X, Y и размера.
-//ExStepSummary:3: Наконец, документ сохранён с вставленной диаграммами Bubble.
+//ExSummary: Этот код показывает, как вставить диаграмму Bubble в документ Word с помощью Aspose.Words.
+//ExStepSummary:0: Следующий код инициирует новый Документ и DocumentBuilder.
+//ExStepSummary:1: С помощью DocumentBuilder создается и добавляется в документ диаграмма Bubble.
+//ExStepSummary:2: Серия данных для диаграммы "Баблы" добавляется с конкретными значениями X, Y и размера.
+//ExStepSummary:3: Наконец, документ сохраняется с вставленной диаграммой Bubble.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStep:0-
-// Инициировать новый документ и документоподготовитель
+// Начать новый Документ и ДокументСтроитель
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Вставить в документ диаграмму Bubble
+// Вставить диаграмму "Болка" в документ
 Shape shape = builder.InsertChart(ChartType.Bubble, 432, 252);
 
 //ExStep:2-
-// Добавить ряды данных в карту Bubble
+// Добавить серии данных в диаграмму "Болка"
 Chart chart = shape.Chart;
 chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, // X values
     new double[] { 2.7, 3.2, 0.8 }, // Y values
     new double[] { 10, 4, 8 }); // Size values for the bubbles
 
 //ExStep:3-
-// Сохранить документ с диаграммами Bubble
+// Сохранить документ с диаграммой "Болка"
 doc.Save("WorkingWithCharts.InsertBubbleChart.docx");
 //ExEnd

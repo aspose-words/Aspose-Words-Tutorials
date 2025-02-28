@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: 이 코드는 Aspose.Words를 사용하여 특정 옵션으로 텍스트 워터마크를 워드 문서에 추가하는 방법을 보여줍니다.
+//ExStepSummary:0: 다음 코드는 문서 경로를 초기화하고 새로운 문서 객체를 생성합니다.
+//ExStepSummary:1: 다음 코드에서는 글꼴 가족, 크기와 색상, 레이아웃 등 텍스트 워터마크의 옵션을 설정합니다.
+//ExStepSummary:2: 다음 코드에서는 문서에 명시된 옵션과 함께 텍스트 워터마크를 적용합니다.
+//ExStepSummary:3: 다음 코드에서 변경된 문서를 지정된 디렉토리에 저장합니다.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+// 문서의 디렉토리 경로를 설정
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 워드 문서를 로드
+Document doc = new Document(dataDir + "Document.docx");
+
+//ExStep:2-
+// 워터마크 옵션을 생성
+TextWatermarkOptions options = new TextWatermarkOptions()
+{
+    FontFamily = "Arial", // Set font family for the watermark text
+    FontSize = 36, // Set font size for the watermark text
+    Color = Color.Black, // Set color of the watermark text
+    Layout = WatermarkLayout.Horizontal, // Specify layout of the watermark
+    IsSemitrasparent = false // Set transparency option
+};
+
+//ExStep:3-
+// 선택 사항으로 워터마크 텍스트를 적용
+doc.Watermark.SetText("Test", options);
+
+//ExStep:4-
+// 워터마크를 가진 문서를 저장
+doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
+//ExEnd

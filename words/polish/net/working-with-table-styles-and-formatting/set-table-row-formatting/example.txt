@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak tworzyć dokument Word z formatowaną tablicą za pomocą programu Aspose.
+//ExStepSummary:0: W tym kroku inicjujemy nowy dokument i twórcę dokumentu.
+//ExStepSummary:1: Ten krok uruchamia tabelę i wprowadza do niej komórkę.
+//ExStepSummary:2: W tym kroku ustalone jest formatowanie wiersza, w tym reguła wysokości i wysokości.
+//ExStepSummary:3: Ten krok ustawia wypełnienie całego stołu, wpływając na wszystkie rzędy.
+//ExStepSummary:4: Ten krok doda tekst do komórki i kończy wiersz.
+//ExStepSummary:5: Ten krok kończy tabelę i zapisuje dokument na określony ścieżkę.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// Tworzenie nowego dokumentu
+Document doc = new Document();
+// Wprowadzenie inicjału DocumentBuilder z dokumentem
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Zacznij nowy stół
+Table table = builder.StartTable();
+// Wprowadź pierwszą komórkę w tabeli
+builder.InsertCell();
+
+//ExStep:2-
+// Uzyskanie dostępu do właściwości RowFormat budowniczego
+RowFormat rowFormat = builder.RowFormat;
+// Ustaw wysokość rzędu
+rowFormat.Height = 100;
+// Ustaw zasadę wysokości dokładnie
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// Zestaw wypełnienia do stołu
+table.LeftPadding = 30;
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// Dodaj tekst do bieżącej komórki
+builder.Writeln("I'm a wonderful formatted row.");
+// zakończenie bieżącej wierszy
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:5-
+// Zapisz dokument na określonej ścieżce
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableRowFormatting.docx");
+//ExEnd

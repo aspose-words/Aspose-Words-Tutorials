@@ -1,0 +1,43 @@
+//ExStart
+//ExSummaryKod ten pokazuje, jak zastosować obrzeżę schematów do tabeli w dokumencie Word za pomocą Aspose.Words. Pośrodkuje tabeli na stronie, ustawia zielony obrzeż wokół tabeli, wyczyści wszelkie istniejące granice i wypełnia komórki tabeli jasnowzielnym kolorem tła. 
+//ExStepSummary:0: Następujący kod inicjalizuje dokument i odbiera pierwszą tabelę.
+//ExStepSummary:1: Ten krok wyrówna tabelę do środka strony.
+//ExStepSummary:2: Ten krok usuwa wszystkie istniejące granice z tabeli.
+//ExStepSummary:3: Ten krok wyznacza zielony granicę wokół stołu, ale nie wewnątrz.
+//ExStepSummary:4: Ten krok napełnia komórki jasnowzielonym kolorem.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Definicja katalogu dokumentu
+string dataDir = "Your Document Directory";
+// Władowanie dokumentu
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Odzyskać pierwszą tabelę z dokumentu
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+// Przystosowanie tabeli do środka strony
+table.Alignment = TableAlignment.Center;
+
+//ExStep:2-
+// Wyczyść istniejące granice z tabeli
+table.ClearBorders();
+
+//ExStep:3-
+// Ustaw lewy granicę
+table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
+// Ustaw prawy granicę
+table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
+// Ustaw górną granicę
+table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
+// Ustaw granicę dolną
+table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
+
+//ExStep:4-
+// Wypełnić komórki jasnym zielonym kolorem
+table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
+// Zapisz zmieniony dokument
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
+//ExEnd

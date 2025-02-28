@@ -1,8 +1,8 @@
 ---
-title: Работа с Фонтсом в Азоте. Уорды для .NET  
+title: Работа с шрифтами в Aspose.Words для .NET  
 weight: 10
 limit:
-description: Учитесь работать с шрифтами в Aspose.Words для .NET, включая изменения шрифтов, размеров, цветов, эффектов и т.д.
+description: Научитесь работать с шрифтами в Aspose.Words для .NET, включая изменение стилей шрифтов, размеров, цветов, эффектов и многое другое. Улучшайте ваши документы Word с легкостью.
 keywords:
 url: /ru/net/working-with-fonts/
 ---
@@ -12,13 +12,13 @@ url: /ru/net/working-with-fonts/
 
 ## Введение
   
-Шрифты — это важный аспект любого документа Word, добавляющий личность, удобочитаемость и визуальное привлекательность. С подсказкой: Words for .NET, вы получаете полный контроль над настройкой шрифта в соответствии с потребностями документа. Нужно ли изменять шрифты, корректировать размеры, менять цвета или применять эффекты, такие как жирным, курсивным или подчеркнутым, Apose.Words предлагает бесперебойный способ усовершенствовать типографию вашего документа.  
+Фонты являются важным аспектом любого документа Word, добавляя личность, читаемость и визуальную привлекательность. С помощью Aspose.Words для .NET вы получаете полный контроль над настройкой шрифтов для удовлетворения потребностей вашего документа.  
 
-Этот раздел охватывает целый ряд учебных пособий, которые помогут вам манипулировать шрифтами с помощью Aspose.Words for .NET. Перейти к таким особенностям, как изменение семейства шрифтов, применение текстовых эффектов и установка усовершенствованных опций типографии, таких как kerning и интервалы. Эти руководства упрощают создание профессиональных, полированных документов Word, адаптированных к вашим точным требованиям.
+В этом разделе представлены ряд учебных пособий, которые помогут вам овладеть манипуляцией шрифтом с помощью Aspose.Words для .NET. Погрузитесь в конкретные функции, такие как изменение семейства шрифтов, применение текстовых эффектов и установка передовых вариантов типографии, таких как закладка и расстояние. Эти руководства упрощают создание профессиональных, полированных документов Word, адаптированных к вашим конкретным требованиям.
 
-{{< tutorial-card link="./font-formatting/" title="Создать форматирование шрифта в слове, использующем позы." imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./get-font-line-spacing/" title="Получить текстовую линию в слововом документе" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./set-font-emphasis-mark/" title="Указать акцент в слововом документе, использующем позы. Заголовки для .NET" imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./font-formatting/" title="Создать форматирование шрифтов в Word с использованием Aspose.Words для .NET" imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./get-font-line-spacing/" title="Получить расстояние между строками шрифтов в документе Word" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./set-font-emphasis-mark/" title="Установка знака акцента в документе Word с использованием Aspose.Words для .NET" imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

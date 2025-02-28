@@ -1,0 +1,34 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak tworzyć dokument Word za pomocą Aspose.Words, formatując właściwości czcionki przed napisanie wzoru tekstu do niego.
+//ExStepSummary:0: Następujący kod inicjuje nowy dokument i dokumentbuilder.
+//ExStepSummary:1: Następujący kod określa różne właściwości czcionki, takie jak wielkość, tłuszcz, kolor, nazwa i styl podkreślenia.
+//ExStepSummary:2: Następujący kod pisze wzorek tekstu do dokumentu za pomocą ustawień konfigurowanych czcionek.
+//ExStepSummary:3: Następujący kod zapisuje dokument w określonym katalogu z określonym nazwą pliku.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Tworzenie nowego dokumentu
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Dostęp do właściwości czcionki za pośrednictwem DocumentBuilder
+Font font = builder.Font;
+// Ustaw rozmiar czcionki na 16
+font.Size = 16;
+// Wykorzystajcie ślad
+font.Bold = true;
+// Zmieniać kolor czcionki na niebieski
+font.Color = Color.Blue;
+// Ustaw czcionek na Arial
+font.Name = "Arial";
+// Wpisanie stylu podkreślenia w kolumnie
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+builder.Write("Sample text.");
+
+//ExStep:3-
+// Zapisz dokument w katalogu artefaktów
+doc.Save("WorkingWithFonts.FontFormatting.docx");
+//ExEnd

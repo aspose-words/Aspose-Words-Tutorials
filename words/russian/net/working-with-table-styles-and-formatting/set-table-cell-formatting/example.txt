@@ -1,44 +1,44 @@
 //ExStart
-//ExSummary: Приводимый ниже код показывает, как создать и форматировать таблицу в документе Word с использованием класса документа Builder из Aspose.Words.
-//ExStepSummary:0: Инициировать разработку нового документа и Бюллетеня документов, с тем чтобы начать подготовку документа Word.
-//ExStepSummary:1: Создать таблицу и вставить ячейку для форматирования.
-//ExStepSummary:2: Установите параметры форматирования камеры, включая прокладку и ширину.
-//ExStepSummary:3: Вставить текст в ячейку.
-//ExStepSummary:4: Окончание строки и таблицы и сохранение документа в заданном файле.
+//ExSummary: Следующий код показывает, как создать и форматировать таблицу в документе Word с использованием класса DocumentBuilder из Aspose.Words.
+//ExStepSummary:0: Запустить новый Документ и DocumentBuilder, чтобы начать создание документа Word.
+//ExStepSummary:1: Создайте таблицу и вставьте ячейку для форматирования.
+//ExStepSummary:2: Установите свойства форматирования для ячейки, включая накладку и ширину.
+//ExStepSummary:3: Вставьте текст в форматированную ячейку.
+//ExStepSummary:4: Завершить строку и таблицу, и сохранить документ на указанном пути файла.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0-
 // Создание нового объекта документа
 Document doc = new Document();
-// Инициирование процесса составления документа с использованием нового документа
+// Инициализация DocumentBuilder с новым документом
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Начать создание стола
+// Начните создавать стол
 builder.StartTable();
-// Вставить первую ячейку в таблицу
+// Вставьте первую ячейку в таблицу
 builder.InsertCell();
 
 //ExStep:2-
-// Доступ к характеристикам форматирования ячейки
+// Доступ к форматирующим свойствам ячейки
 CellFormat cellFormat = builder.CellFormat;
-// Установление ширины камеры
+// Установка ширины ячейки
 cellFormat.Width = 250;
-// Установите закладку
+// Настройка накладки
 cellFormat.LeftPadding = 30;
 cellFormat.RightPadding = 30;
 cellFormat.TopPadding = 30;
 cellFormat.BottomPadding = 30;
 
 //ExStep:3-
-// Вставить текст в ячейку
+// Вставка текста в ячейку
 builder.Writeln("I'm a wonderful formatted cell.");
 
 //ExStep:4-
-// Завершение текущей строки таблицы
+// Завершение текущего ряда таблицы
 builder.EndRow();
-// Окончание создания стола
+// Завершение создания таблицы
 builder.EndTable();
 // Сохранение документа
 doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");

@@ -1,0 +1,67 @@
+//ExStart
+//ExSummary: 이 코드는 Aspose.Words를 사용하여 문서 내에서 그룹 모양을 만드는 방법을 보여줍니다.
+// 이 프로그램은 억양 경계 호출 모양과 행동 버튼을 생성하고 그룹 모양에 추가하고, 그룹 모양을 문서에 저장하기 전에 삽입합니다.
+//ExStepSummary:0: 새로운 문서를 초기화하고 최소한의 요구사항을 충족시키는 것을 보장합니다.
+//ExStepSummary:1: 다른 형태를 유지할 GroupShape를 만듭니다.
+//ExStepSummary:2: 그룹 모양에 억양 경계 호출 모양을 추가합니다.
+//ExStepSummary:3: 그룹 모양에 액션 버튼 모양을 추가합니다.
+//ExStepSummary:4: 그룹 모양의 차원과 좌표를 설정합니다.
+//ExStepSummary:5: 문서 제작자를 사용하여 문서에 그룹 모양을 삽입합니다.
+//ExStepSummary:6: 그룹 모양을 포함하는 문서를 지정된 위치에 저장합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStep:0-
+// 새로운 문서를 작성
+Document doc = new Document();
+// 문서가 최소한의 요구 사항을 충족하도록 보장
+doc.EnsureMinimum();
+
+//ExStep:1-
+// 새로운 GroupShape 인스턴스를 생성
+GroupShape groupShape = new GroupShape(doc);
+
+//ExStep:2-
+// 억양 경계 호출 모양을 생성
+Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
+{
+    Width = 100, 
+    Height = 100
+};
+// 그룹 모양에 모양을 추가
+groupShape.AppendChild(accentBorderShape);
+
+//ExStep:3-
+// 액션 버튼 모양을 생성
+Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
+{
+	// 좌측 모양의 위치를 설정
+    Left = 100, 
+	// 모양의 폭을 설정
+    Width = 100, 
+	// 모양의 높이를 설정
+    Height = 200
+};
+// 그룹 모양에 액션 버튼을 추가
+groupShape.AppendChild(actionButtonShape);
+
+//ExStep:4-
+// 그룹 모양의 너비를 설정
+groupShape.Width = 200;
+// 그룹 모양의 높이를 설정
+groupShape.Height = 200;
+// 그룹 모양의 좌표 크기를 설정
+groupShape.CoordSize = new Size(200, 200);
+
+//ExStep:5-
+// 문서 조작을 위해 문서 제작자를 생성
+DocumentBuilder builder = new DocumentBuilder(doc);
+// 문서에 그룹 모양을 삽입
+builder.InsertNode(groupShape);
+
+//ExStep:6-
+// 문서를 지정된 위치에 저장
+doc.Save("WorkingWithShapes.AddGroupShape.docx");
+//ExEnd

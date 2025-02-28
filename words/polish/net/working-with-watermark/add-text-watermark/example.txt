@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak dodać znak wodny tekstu z konkretnymi opcjami do dokumentu Word za pomocą Aspose.Words.
+//ExStepSummary:0: Następujący kod inicjalizuje ścieżkę dokumentu i tworzy nowy obiekt dokumentu.
+//ExStepSummary:1: Następujący kod określa opcje dla znaków wodnych tekstu, w tym rodzina czcionek, rozmiar, kolor i układ.
+//ExStepSummary:2: Kod poniższy stosuje znak wodny tekstu z określonymi opcjami do dokumentu.
+//ExStepSummary:3: Kod poniższy zapisuje zmieniony dokument w określonym katalogu.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+// Ustaw ścieżkę katalogów dla dokumentu
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Włóż dokument Word
+Document doc = new Document(dataDir + "Document.docx");
+
+//ExStep:2-
+// Tworzenie opcji znaków wodnych
+TextWatermarkOptions options = new TextWatermarkOptions()
+{
+    FontFamily = "Arial", // Set font family for the watermark text
+    FontSize = 36, // Set font size for the watermark text
+    Color = Color.Black, // Set color of the watermark text
+    Layout = WatermarkLayout.Horizontal, // Specify layout of the watermark
+    IsSemitrasparent = false // Set transparency option
+};
+
+//ExStep:3-
+// Wykorzystaj tekst znaku wodnego z opcjami
+doc.Watermark.SetText("Test", options);
+
+//ExStep:4-
+// Zapisz dokument z znakiem wodnym
+doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
+//ExEnd

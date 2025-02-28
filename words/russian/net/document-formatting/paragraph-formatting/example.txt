@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary: Этот код показывает, как форматировать пункты в документе Word с использованием Aspose.Words.
-//ExStepSummary:0: На этом этапе вводятся в действие новый документ и документоподготовитель для подготовки документа.
-//ExStepSummary:1: На этом этапе определяются варианты форматирования пунктов, включая регулировку, левый подпункт, правый подпункт и пространство после пункта.
-//ExStepSummary:2: На этом этапе составляется хорошо сформулированный пункт с указанными вариантами форматирования документа.
-//ExStepSummary:3: Этот шаг представляет собой еще один формализующий пункт, демонстрирующий эффект пространства после этого пункта.
+//ExSummary: Этот код показывает, как форматировать абзацы в документе Word с использованием Aspose.Words. Он показывает, как установить параметры форматирования абзаца, такие как выравнивание, зачерк и пространство после параграфа.
+//ExStepSummary:0: Этот шаг инициирует новый документ и DocumentBuilder для создания документа.
+//ExStepSummary:1: В этом шаге устанавливаются параметры форматирования параграфа, включая выравнивание, левый, правый и пространство после параграфа.
+//ExStepSummary:2: Этот шаг создает хорошо форматированный абзац с указанием вариантов форматирования документа.
+//ExStepSummary:3: В этом шаге написан другой форматный абзац, демонстрирующий эффект пространства после параграфа.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStep:0- 
-// Создать новый пример документа.
+// Создать новый экземпляр Документа.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1- 
-// Определить варианты форматирования пунктов.
+// Настройка параграфа форматирования.
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;
 paragraphFormat.LeftIndent = 50;
@@ -21,16 +21,16 @@ paragraphFormat.RightIndent = 50;
 paragraphFormat.SpaceAfter = 25;
 
 //ExStep:2- 
-// Напиши первый пункт.
+// Напиши первый форматный абзац.
 builder.Writeln(
 	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
 
 //ExStep:3- 
-// Напиши второй пункт.
+// Напиши второй абзац.
 builder.Writeln(
 	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
 
 //ExStep:4- 
-// Сохранить документ на заданную дорожку.
+// Запишите документ на указанный путь.
 doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
 //ExEnd

@@ -1,0 +1,37 @@
+//ExStart
+//ExSummaryUwaga: Sprawdź następujący kod, aby dowiedzieć się, jak utworzyć wykres linii w dokumencie Word.
+//ExStepSummary:0: Następujący kod pokazuje, jak utworzyć nowy dokument i wprowadzić w wizerunek dokument-builder:
+//ExStepSummary:1: W następującym kodzie jest przedstawiony sposób wprowadzenia w dokument wykresu linii:
+//ExStepSummary:2: Następujący kod wyjaśnia, jak ustawić tytuł wykresu:
+//ExStepSummary:3: Następujący kod pokazuje, jak skonfigurować ustawienia pozycji i nakładów legend wykresu:
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Tworzenie nowego obiektu dokumentu
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Wkładać w dokument wykres linii w określonych wymiarach
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+
+//ExStep:2-
+// Dostęp do obiektu wykresu z kształtu
+Chart chart = shape.Chart;
+// Włącz widoczność tytułu wykresu
+chart.Title.Show = true;
+// Ustaw tekst tytułu wykresu
+chart.Title.Text = "Line Chart Title";
+// Upewnij się , że tytuł nie pokrywa wykresu
+chart.Title.Overlay = false;
+
+//ExStep:3-
+// Ustaw pozycję karty legend na lewo
+chart.Legend.Position = LegendPosition.Left;
+chart.Legend.Overlay = true;
+
+//ExStep:4-
+// Zapisz dokument z wykresem do pliku
+doc.Save("WorkingWithCharts.CreateChartUsingShape.docx");
+//ExEnd
