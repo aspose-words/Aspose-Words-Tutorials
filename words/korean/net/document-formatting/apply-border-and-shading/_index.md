@@ -11,7 +11,7 @@ url: /ko/net/document-formatting/apply-border-and-shading/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # "어스포스.워즈"의 문장 에 경계 와 그림자 를 적용 하십시오
-Aspose.Words for .NET empowers developers to create richly formatted Word documents programmatically. This example demonstrates how to apply borders and shading to a paragraph in a Word document using Aspose.Words. You’ll learn to set double-line borders and diagonal cross shading with custom colors for an elegant and professional look. The provided C# code snippet simplifies the implementation process, making it an ideal solution for developers looking to enhance document aesthetics programmatically.  
+.NET용 Aspose.Words는 개발자들에게 풍부한 형식으로 Word 문서를 프로그래밍 방식으로 만들 수 있도록 한다. 이 예는 Aspose.Words을 사용하여 Word 문서의 문장에 경계를 적용하고 그림자를 표시하는 방법을 보여줍니다. 당신은 우아하고 전문적인 외관을 위해 사용자 지정 색상으로 두 줄의 경계를 설정하고 다이아곤럴 크로스 그림자를 설정하는 것을 배우게 될 것입니다. 제공된 C # 코드 조각은 구현 프로세스를 단순화하여 문서 미술을 프로그래밍적으로 향상시키고자 하는 개발자들에게 이상적인 솔루션으로 만듭니다.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/document-formatting/apply-border-and-shading" >}}

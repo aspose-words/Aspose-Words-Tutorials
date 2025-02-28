@@ -11,7 +11,7 @@ url: /zh/net/working-with-fonts/get-font-line-spacing/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 在 Word 文档中获取字体行间隔
-Aspose.Words for .NET simplifies Word document creation and manipulation. This example demonstrates how to initialize a Word document, set a custom font, and retrieve the line spacing of a specific font. Whether you're automating document generation or analyzing text styles, this guide provides clear instructions and practical code snippets to achieve your goals efficiently. Aspose.Words for .NET is a powerful library for developers working with Word documents in C# or VB.NET.
+简化 Word 文档创建和操作.本例展示了如何初始化 Word 文档,设置自定义字体,并检索特定字体的行间隔.无论您是自动化文档生成还是分析文本风格,本指南提供了明确的指令和实用代码摘录,以有效地实现您的目标. .NET 的Aspose.Words是开发人员使用C#或VB.NET的 Word 文档工作的强大的库.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-fonts/get-font-line-spacing" >}}

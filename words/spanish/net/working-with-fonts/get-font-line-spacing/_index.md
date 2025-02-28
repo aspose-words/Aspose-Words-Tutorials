@@ -11,7 +11,7 @@ url: /es/net/working-with-fonts/get-font-line-spacing/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Obtenga espaciado de línea de fuente en documento de Word
-Aspose.Words for .NET simplifies Word document creation and manipulation. This example demonstrates how to initialize a Word document, set a custom font, and retrieve the line spacing of a specific font. Whether you're automating document generation or analyzing text styles, this guide provides clear instructions and practical code snippets to achieve your goals efficiently. Aspose.Words for .NET is a powerful library for developers working with Word documents in C# or VB.NET.
+Aspose.Words para .NET simplifica la creación y manipulación de documentos de Word. Este ejemplo demuestra cómo iniciar un documento de Word, configurar una fuente personalizada y recuperar el espacio entre líneas de una fuente específica. Ya sea que esté automatizando la generación de documentos o analizando estilos de texto, esta guía proporciona instrucciones claras y fragmentos de código prácticos para lograr sus objetivos de manera eficiente. Aspose.Words para .NET es una poderosa biblioteca para desarrolladores que trabajan con documentos de Word en C # o VB.NET.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-fonts/get-font-line-spacing" >}}

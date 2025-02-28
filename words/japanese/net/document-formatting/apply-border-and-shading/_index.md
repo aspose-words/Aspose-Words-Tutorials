@@ -11,7 +11,7 @@ url: /ja/net/document-formatting/apply-border-and-shading/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Words の 段落 に 境界 と 影 を 適用 する
-Aspose.Words for .NET empowers developers to create richly formatted Word documents programmatically. This example demonstrates how to apply borders and shading to a paragraph in a Word document using Aspose.Words. You’ll learn to set double-line borders and diagonal cross shading with custom colors for an elegant and professional look. The provided C# code snippet simplifies the implementation process, making it an ideal solution for developers looking to enhance document aesthetics programmatically.  
+.NETのAspose.Wordsは,開発者がプログラム的に豊かなフォーマットされたWord文書を作成できるようにします.この例では",Aspose.Words"を使用してWord文書の段落に境界とシェーディングを適用する方法を示します. 優雅で専門的な外観のためにカスタマイズされた色で双行境界と横断横断シェーディングを設定することを学びます.提供されたC#コードスニペットでは実装プロセスを簡素化し,ドキュメントの美学をプログラム的に向上させたい開発者にとって理想的なソリューションとなっています.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/document-formatting/apply-border-and-shading" >}}

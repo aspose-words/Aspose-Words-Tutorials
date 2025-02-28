@@ -11,7 +11,7 @@ url: /vi/net/working-with-fonts/get-font-line-spacing/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận khoảng cách dòng phông chữ trong Word Document
-Aspose.Words for .NET simplifies Word document creation and manipulation. This example demonstrates how to initialize a Word document, set a custom font, and retrieve the line spacing of a specific font. Whether you're automating document generation or analyzing text styles, this guide provides clear instructions and practical code snippets to achieve your goals efficiently. Aspose.Words for .NET is a powerful library for developers working with Word documents in C# or VB.NET.
+Aspose.Words cho .NET đơn giản hóa việc tạo ra và thao tác tài liệu Word. Ví dụ này cho thấy cách khởi tạo tài liệu Word, thiết lập phông chữ tùy chỉnh và lấy khoảng cách hàng xét của một phông chữ cụ thể. Cho dù bạn tự động tạo tài liệu hoặc phân tích các phong cách văn bản, hướng dẫn này cung cấp hướng dẫn rõ ràng và đoạn mã thực tế để đạt được mục tiêu của bạn hiệu quả. Aspose.Words cho .NET là một thư viện mạnh mẽ cho các nhà phát triển làm việc với tài liệu Word trong C # hoặc VB.NET.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-fonts/get-font-line-spacing" >}}

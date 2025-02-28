@@ -11,7 +11,7 @@ url: /de/net/working-with-fonts/get-font-line-spacing/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Erhalten Sie Schriftzeilen-Austrennungen in Word-Dokument
-Aspose.Words for .NET simplifies Word document creation and manipulation. This example demonstrates how to initialize a Word document, set a custom font, and retrieve the line spacing of a specific font. Whether you're automating document generation or analyzing text styles, this guide provides clear instructions and practical code snippets to achieve your goals efficiently. Aspose.Words for .NET is a powerful library for developers working with Word documents in C# or VB.NET.
+Aspose.Words für .NET vereinfacht die Erstellung und Manipulation von Word- Dokumenten. Dieses Beispiel zeigt, wie man ein Word-Dokument initialisiert, eine benutzerdefinierte Schriftart festlegt und die Zeilenräume einer bestimmten Schriftart abruft. Ob Sie die Dokumentenerstellung automatisieren oder Textstile analysieren, dieser Leitfaden bietet klare Anweisungen und praktische Code-Snippets, um Ihre Ziele effizient zu erreichen. Aspose.Words für .NET ist eine leistungsstarke Bibliothek für Entwickler, die mit Word- Dokumenten in C # oder VB.NET arbeiten.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-fonts/get-font-line-spacing" >}}

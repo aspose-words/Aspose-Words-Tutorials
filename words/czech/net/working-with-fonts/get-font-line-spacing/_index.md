@@ -11,7 +11,7 @@ url: /cs/net/working-with-fonts/get-font-line-spacing/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Získání rozmezí písmen v dokumentu Word
-Aspose.Words for .NET simplifies Word document creation and manipulation. This example demonstrates how to initialize a Word document, set a custom font, and retrieve the line spacing of a specific font. Whether you're automating document generation or analyzing text styles, this guide provides clear instructions and practical code snippets to achieve your goals efficiently. Aspose.Words for .NET is a powerful library for developers working with Word documents in C# or VB.NET.
+Aspose.Words pro .NET zjednodušuje tvorbu a manipulaci s Word dokumenty. Tento příklad ukazuje, jak iniciovat Word dokument, nastavit vlastní písmo a získat rozchod mezi řádky konkrétního písma. Ať už automatizujete tvorbu dokumentů nebo analyzujete textové styly, tento průvodce poskytuje jasné pokyny a praktické code snippets k efektivnímu dosažení vašich cílů. Aspose.Words pro .NET je výkonná knihovna pro vývojáře pracující s Word dokumenty v C # nebo VB.NET.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-fonts/get-font-line-spacing" >}}

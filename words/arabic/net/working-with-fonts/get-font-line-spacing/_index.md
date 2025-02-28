@@ -11,7 +11,7 @@ url: /ar/net/working-with-fonts/get-font-line-spacing/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # الحصول على مساحة خط الخط في مستند Word
-Aspose.Words for .NET simplifies Word document creation and manipulation. This example demonstrates how to initialize a Word document, set a custom font, and retrieve the line spacing of a specific font. Whether you're automating document generation or analyzing text styles, this guide provides clear instructions and practical code snippets to achieve your goals efficiently. Aspose.Words for .NET is a powerful library for developers working with Word documents in C# or VB.NET.
+Aspose.Words لـ .NET يسهل إنشاء وثائق Word والتلاعب بها. يوضح هذا المثال كيفية إطلاق وثيقة Word ، وتعيين فونت مخصصة ، واسترداد مسافة الخط من فونت محددة. سواء كنت تقوم بتلقائية إنتاج وثائق أو تحليل أساليب النص ، يوفر هذا الدليل تعليمات واضحة ومقاطع رمز عملية لتحقيق أهدافك بكفاءة. Aspose.Words لـ .NET هي مكتبة قوية للمطورين الذين يعملون مع وثائق Word في C # أو VB.NET.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-fonts/get-font-line-spacing" >}}

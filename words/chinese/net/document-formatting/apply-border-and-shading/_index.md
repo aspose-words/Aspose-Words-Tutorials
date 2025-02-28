@@ -11,7 +11,7 @@ url: /zh/net/document-formatting/apply-border-and-shading/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 适用Aspose.Words中的边界和阴影
-Aspose.Words for .NET empowers developers to create richly formatted Word documents programmatically. This example demonstrates how to apply borders and shading to a paragraph in a Word document using Aspose.Words. You’ll learn to set double-line borders and diagonal cross shading with custom colors for an elegant and professional look. The provided C# code snippet simplifies the implementation process, making it an ideal solution for developers looking to enhance document aesthetics programmatically.  
+对于 .NET, Aspose.Words 允许开发人员编程创建丰富格式的Word文档.本例展示了如何使用Aspose.Words来将边界和阴影应用于Word文档中的段落.您将学习设置双线边界和横向横向横色阴影,以定制色彩以优雅和专业的外观.提供的C#代码摘录简化了实现过程,使其成为希望编程增强文档美学的开发人员的理想解决方案.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/document-formatting/apply-border-and-shading" >}}

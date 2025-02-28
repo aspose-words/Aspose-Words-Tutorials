@@ -11,7 +11,7 @@ url: /pl/net/working-with-fonts/get-font-line-spacing/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Uzyskaj rozmiar linii czcionek w dokumencie Word
-Aspose.Words for .NET simplifies Word document creation and manipulation. This example demonstrates how to initialize a Word document, set a custom font, and retrieve the line spacing of a specific font. Whether you're automating document generation or analyzing text styles, this guide provides clear instructions and practical code snippets to achieve your goals efficiently. Aspose.Words for .NET is a powerful library for developers working with Word documents in C# or VB.NET.
+Aspose.Words dla .NET ułatwia tworzenie i manipulowanie dokumentami Word. W tym przykładzie pokazano, jak inicjować dokument Word, ustawić spersonalizowany czcionek i odzyskać odstęp linii określonego czcionka. Niezależnie od tego, czy automatyzujesz generowanie dokumentów lub analizujesz style tekstu, w tym przewodniku są jasne instrukcje i praktyczne fragmenty kodu, aby osiągnąć swoje cele skutecznie. Aspose.Words dla .NET jest potężną biblioteką dla programistów pracujących z dokumentami Word w C # lub VB.NET.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-fonts/get-font-line-spacing" >}}

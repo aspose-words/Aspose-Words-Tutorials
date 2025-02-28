@@ -11,7 +11,7 @@ url: /ru/net/document-formatting/apply-border-and-shading/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Применить границы и оттенки к абзацу в "Аспози.Слово"
-Aspose.Words for .NET empowers developers to create richly formatted Word documents programmatically. This example demonstrates how to apply borders and shading to a paragraph in a Word document using Aspose.Words. You’ll learn to set double-line borders and diagonal cross shading with custom colors for an elegant and professional look. The provided C# code snippet simplifies the implementation process, making it an ideal solution for developers looking to enhance document aesthetics programmatically.  
+Aspose.Words для .NET позволяет разработчикам программировать богатые форматные документы Word. Этот пример демонстрирует, как применять границы и оттенки к абзацу в документе Word с использованием Aspose.Words. Вы научитесь устанавливать двустрочные границы и диагональное перекрестное оттенки с пользовательскими цветами для элегантного и профессионального внешнего вида. Предоставленный вырывок кода C# упрощает процесс реализации, что делает его идеальным решением для разработчиков, которые хотят улучшить эстетику документа программически.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/document-formatting/apply-border-and-shading" >}}
