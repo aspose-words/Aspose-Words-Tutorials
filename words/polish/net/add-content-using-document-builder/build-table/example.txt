@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryKod ten pokazuje, jak tworzyć dokument Word z tabelą za pomocą Aspose.Words. Tworzy tabelę z dwoma rzędami i różnymi orientacjami i formatami tekstu komórkowego.
+//ExStepSummary:0: Następujący kod inicjuje nowy budujący dokument i dokument.
+//ExStepSummary:1: Następujący kod uruchamia nową tabelę i wprowadza pierwszy rząd komórek.
+//ExStepSummary:2: Kod poniższy konfigurował formatowanie drugiego rzędu i jego komórek.
+//ExStepSummary:3: Kod poniższy konfigurował formatowanie drugiego rzędu i jego komórek.
+//ExStepSummary:4: Następujący kod kończy tabelę i zapisuje dokument w pliku.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Inicjalizowanie nowego obiektu dokumentu
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Zacznij nowy stół
+Table table = builder.StartTable();
+// Zacznij pierwszą komórkę
+builder.InsertCell();
+// Ustaw poziom pionowy dla pierwszej komórki
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
+builder.Write("This is row 1 cell 1");
+// Wkładać drugą komórkę
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+builder.EndRow();
+
+//ExStep:2-
+// Wprowadzenie komórki na drugi wiersz
+builder.InsertCell();
+// Konfiguracja formatowania drugiego rzędu
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+//ExStep:3-
+// Wprowadź drugą komórkę drugiego rzędu
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward; 
+builder.Writeln("This is row 2 cell 2");
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:4-
+// Automatyczne dopasowanie tabeli z stałą szerokością kolumn
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+// Zapisz dokument w plik
+doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

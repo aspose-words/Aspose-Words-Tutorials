@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách áp dụng biên giới và bóng cho một đoạn văn trong tài liệu Word bằng cách sử dụng Aspose.Words.
+//ExStepSummary:0: Mã sau này khởi tạo một bản sao mới của Document và DocumentBuilder.
+//ExStepSummary:1: Mã sau đây cấu hình ranh giới đoạn với khoảng cách từ văn bản.
+//ExStepSummary:2: Mã sau đây áp dụng một sắc thái sắc thái chéo đường vạch cho đoạn với màu sắc được chỉ định.
+//ExStepSummary:3: Mã sau đây viết một đoạn văn được định dạng với các cài đặt được áp dụng.
+//ExStepSummary:4: Mã sau lưu tài liệu vào đường dẫn đầu ra được chỉ định.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Tạo ra một tài liệu mới
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Nhận quyền truy cập các biên giới của đoạn
+BorderCollection borders = builder.ParagraphFormat.Borders;
+borders.DistanceFromText = 20;
+borders[BorderType.Left].LineStyle = LineStyle.Double;
+borders[BorderType.Right].LineStyle = LineStyle.Double;
+borders[BorderType.Top].LineStyle = LineStyle.Double;
+borders[BorderType.Bottom].LineStyle = LineStyle.Double;
+
+//ExStep:2-
+// Nhập vào các tính năng bóng của đoạn
+Shading shading = builder.ParagraphFormat.Shading;
+shading.Texture = TextureIndex.TextureDiagonalCross;
+shading.BackgroundPatternColor = System.Drawing.Color.LightCoral; 
+shading.ForegroundPatternColor = System.Drawing.Color.LightSalmon;
+
+//ExStep:3-
+// Viết nội dung đoạn văn được định dạng
+builder.Write("I'm a formatted paragraph with double border and nice shading.");
+
+//ExStep:4-
+// Cung cấp tài liệu cho đường dẫn được chỉ định
+doc.Save(ArtifactsDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
+//ExEnd

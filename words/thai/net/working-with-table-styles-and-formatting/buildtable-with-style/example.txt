@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างเอกสาร Word ด้วยตารางแบบแบบแบบแบบโดยใช้ Aspose.Words ตารางนี้มีหัวข้อและแถวข้อมูล, โฟร์เมทตามตัวเลือกแบบเฉพาะเจาะจง
+//ExStepSummary:0: เริ่มต้นเอกสารใหม่และ DocumentBuilder เพื่อจัดการโครงสร้างเอกสาร
+//ExStepSummary:1: เริ่มตารางใหม่ในเอกสารโดยใช้ DocumentBuilder
+//ExStepSummary:2: ใส่เซลล์แรกและตั้งตัวประชานางแบบ
+//ExStepSummary:3: ใช้ตัวเลือกการฟอร์เมทให้กับตารางและตั้งพฤติกรรมการปรับอัตโนมัติ
+//ExStepSummary:4: เพิ่มเซลล์แถวหัวข้อไปตาราง
+//ExStepSummary:5: ใส่แถวข้อมูลในตารางที่มีชื่อของสินค้าและจํานวน
+//ExStepSummary:6: กรอกสารที่รวบรวมไว้ไว้ในไฟล์
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// สร้างวัตถุเอกสารใหม่
+Document doc = new Document();
+// สร้างตัวสร้าง เพื่ออํานวยความสะดวกในการสร้างเอกสาร
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// เริ่มตารางใหม่ในเอกสาร
+Table table = builder.StartTable();
+
+//ExStep:2-
+// ใส่เซลล์แรกก่อนตั้งรูปแบบ
+builder.InsertCell();
+// กําหนดตัวประชานีชี้ช่างสําหรับตาราง
+table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
+
+
+//ExStep:3-
+// ปรับตัวเลือกสไตล์
+table.StyleOptions = 
+    TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
+// กําหนดการทําการอัตโนมัติของโต๊ะ	
+table.AutoFit(AutoFitBehavior.AutoFitToContents);
+
+
+//ExStep:4-
+// เขียนหัวข้อสําหรับคอลัมน์แรก
+builder.Writeln("Item");
+// ตั้งกระจกขวาให้กับเซลล์
+builder.CellFormat.RightPadding = 40;
+// ใส่เซลล์ที่สองสําหรับคอลัมน์ต่อไป
+builder.InsertCell();
+// เขียนหัวข้อสําหรับคอลัมน์ที่สอง
+builder.Writeln("Quantity (kg)");
+// จบการสร้างแถว
+builder.EndRow();
+
+//ExStep:5-
+// เริ่มแถวใหม่ และใส่เซลล์แรก
+builder.InsertCell();
+builder.Writeln("Apples");
+builder.InsertCell();
+builder.Writeln("20");
+builder.EndRow();
+ // ใส่เซลล์แรกของแถวใหม่สําหรับข้อที่สอง
+builder.InsertCell();
+builder.Writeln("Bananas");
+builder.InsertCell();
+builder.Writeln("40");
+builder.EndRow();
+// เริ่มแถวใหม่สําหรับข้อที่สาม
+builder.InsertCell();
+builder.Writeln("Carrots");
+builder.InsertCell(); 
+builder.Writeln("50");
+builder.EndRow();
+
+//ExStep:6-
+// เก็บเอกสารไว้ในไฟล์ที่กําหนดไว้
+doc.Save("WorkingWithTableStylesAndFormatting.BuildTableWithStyle.docx");
+//ExEnd

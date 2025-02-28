@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการควบคุมตารางในเอกสาร Word โดยใช้ Aspose.Words มันนําเอกสารที่มีอยู่คืน ปรับแดนของตารางแรก และบันทึกการเปลี่ยนแปลงไปยังไฟล์ใหม่
+//ExStepSummary:0: คódต่อไปนี้จัดตั้งเอกสารและหาตารางแรกจากมัน
+//ExStepSummary:1: คódต่อไปนี้ลบขอบเขตที่มีอยู่ทั้งหมดจากตาราง เพื่อเตรียมการจัดรูปใหม่
+//ExStepSummary:2: คódต่อไปนี้ใช้ขอบเขียวรอบและภายในตาราง
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// กําหนดเอกสารบันทึก
+string dataDir = "Your Document Directory";
+// โหลดเอกสาร
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// รับตารางแรกจากเอกสาร
+Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
+
+//ExStep:2-
+// สูญเสียแดนที่มีอยู่
+table.ClearBorders();
+
+//ExStep:3-
+// ตั้งขอบเขียวรอบและภายในโต๊ะ
+table.SetBorders(LineStyle.Single, 1.5, Color.Green);
+// เก็บเอกสารที่มีการเปลี่ยนแปลง
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");
+//ExEnd

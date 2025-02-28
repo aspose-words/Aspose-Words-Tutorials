@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างเอกสารและได้รับระยะเส้นของ font ที่กําหนด
+//ExStepSummary:0: คódต่อไปนี้เริ่มต้นเอกสารและเอกสารBuilder ใหม่
+//ExStepSummary:1: โค้ดตั้งตัวอักษรเป็น "Calibri" และเพิ่มแถวข้อความ
+//ExStepSummary:2: คódจะหาเส้นที่แยกกันจากการใช้งานครั้งแรกในเอกสาร
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// สร้างเอกสารใหม่
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// กําหนดชื่อ font เป็น 'Calibri'
+builder.Font.Name = "Calibri";
+builder.Writeln("qText");
+
+//ExStep:2-
+// เข้าถึง font ของการทํางานครั้งแรก
+Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
+// ออกเส้นที่แยกไปยังเครื่อง
+Console.WriteLine($"lineSpacing = {font.LineSpacing}");
+//ExEnd

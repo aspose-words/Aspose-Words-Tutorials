@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างเอกสาร Word กับตารางโดยใช้ Aspose.Words มันสร้างตารางที่มีสองแถวและทิศทางและรูปแบบเอกสารเซลล์ต่าง ๆ
+//ExStepSummary:0: คódต่อไปนี้เริ่มต้นเอกสารใหม่และผู้สร้างเอกสาร
+//ExStepSummary:1: คódต่อไปนี้เริ่มตารางใหม่และใส่แถวเซลล์แรก
+//ExStepSummary:2: คódต่อไปนี้ตั้งค่าการฟอร์เมทสําหรับแถวที่สองและเซลล์ของมัน
+//ExStepSummary:3: คódต่อไปนี้ตั้งค่าการฟอร์เมทสําหรับแถวที่สองและเซลล์ของมัน
+//ExStepSummary:4: คódต่อไปนี้จบตารางและบันทึกเอกสารไปยังไฟล์
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// การเริ่มต้นของวัตถุเอกสารใหม่
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// เริ่มโต๊ะใหม่
+Table table = builder.StartTable();
+// เริ่มเซลล์แรก
+builder.InsertCell();
+// กําหนดการตั้งแนวตั้งสําหรับเซลล์แรก
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
+builder.Write("This is row 1 cell 1");
+// ใส่เซลล์ที่สอง
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+builder.EndRow();
+
+//ExStep:2-
+// ใส่เซลล์สําหรับแถวที่สอง
+builder.InsertCell();
+// ปรับปรุงการฟอร์เมทสําหรับแถวที่สอง
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+//ExStep:3-
+// ใส่เซลล์ที่สองสําหรับแถวที่สอง
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward; 
+builder.Writeln("This is row 2 cell 2");
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:4-
+// ตารางปรับอัตโนมัติกับความกว้างคอลัมน์คง
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+// เก็บเอกสารไว้ในไฟล์
+doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

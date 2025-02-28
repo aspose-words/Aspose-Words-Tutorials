@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách chèn một hình ảnh vào tiêu đề của tài liệu Word bằng cách sử dụng Aspose.Words cho .NET.
+//ExStepSummary:0: Tạo tài liệu Word mới bằng cách sử dụng lớp tài liệu Aspose.Words.
+//ExStepSummary:1: Di chuyển đến tiêu đề chính của tài liệu bằng cách sử dụng DocumentBuilder.
+//ExStepSummary:2: Nhập một hình ảnh vào tiêu đề với sự sắp xếp, kích thước và tùy chọn gói cụ thể.
+//ExStepSummary:3: Cung cấp tài liệu cho một con đường tập tin được chỉ định.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Tạo tài liệu Word mới
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Di chuyển trình chiếu đến tiêu đề chính của tài liệu
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+// Nhập một hình ảnh vào tiêu đề với sự sắp xếp và kích thước cụ thể
+builder.InsertImage(
+    ImagesDir + "Logo.jpg", RelativeHorizontalPosition.RightMargin, 10,
+    RelativeVerticalPosition.Page, 10, 50, 50, 
+    WrapType.Through
+);
+
+//ExStep:3-
+// Cung cấp tài liệu cho đường dẫn được chỉ định
+doc.Save("WorkingWithHeadersAndFooters.InsertImage.docx");
+//ExEnd

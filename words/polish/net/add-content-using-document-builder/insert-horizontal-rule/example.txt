@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak tworzyć dokument Word za pomocą Aspose.Words i dodać do niego regułę poziomą. 
+//ExStepSummary:0: Tworzyć nowy obiekt Dokument, aby przechowywać treść.
+//ExStepSummary:1: Użyj programu DocumentBuilder do projektowania układu dokumentu i wstawienia wiadomości.
+//ExStepSummary:2: Wkładać w dokument kształt reguły poziomej.
+//ExStepSummary:3: Zapisz dokument na określonej ścieżce pliku.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Tworzenie nowego obiektu dokumentu do przechowywania treści
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc); 
+
+//ExStep:1-
+// Napisz w dokumencie linię
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+// Wkładać w dokument kształt reguły poziomej
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+// Zapisz dokument na określonym miejscu
+doc.Save("AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

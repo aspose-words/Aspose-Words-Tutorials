@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการใส่รูปแบบ (กล่องข้อความ) ในเอกสาร Word โดยใช้ Aspose.Words เอกสารถูกบันทึกในรูปแบบ DOCX โดยมีตัวเลือกการปฏิบัติตามมาตรฐาน ISO ละเอียด
+//ExStepSummary:0: คódเริ่มต้นเอกสารใหม่และผู้สร้างเอกสารเพื่อการควบคุมเอกสาร
+//ExStepSummary:1: การใส่รูป (กรอบข้อความ) ในตําแหน่งที่สมบูรณ์ในเอกสาร และการหมุนของรูปแรกถูกตั้งให้เป็น 30 องศา
+//ExStepSummary:2: การใส่รูปร่างใหม่ในตําแหน่งสัมพันธ์ และการหมุนรูปร่างที่สองก็ตั้งให้ 30 องศา
+//ExStepSummary:3: เอกสารถูกบันทึกด้วย OoxmlSaveOptions รายละเอียด
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// สร้างตัวอย่างเอกสารใหม่
+Document doc = new Document();
+// การเริ่มต้น DocumentBuilder สําหรับเอกสาร
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// บันทึกรูปแบบของชนิด TextBox
+Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
+    RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
+// แหมวนรูปร่าง 30 องศา
+shape.Rotation = 30.0;
+
+//ExStep:2-
+builder.Writeln();
+// ใส่รูปแบบอื่นของชนิด TextBox ในตําแหน่งสัมพันธ์
+shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
+// แหมวนรูปร่างที่สอง 30 องศา
+shape.Rotation = 30.0;
+
+//ExStep:3-
+// เตรียมตัวเลือกบันทึกเอกสาร
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
+{
+    Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
+};
+
+// เก็บเอกสารโดยใช้ตัวเลือกการเก็บที่กําหนด
+doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
+//ExEnd

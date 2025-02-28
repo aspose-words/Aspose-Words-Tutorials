@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary: Этот код показывает, как вставить линейное изображение в документ Word с использованием Aspose.Words.
-//ExStepSummary:0: Инициализация объекта документа и Бюллетеня документа для построения документа.
-//ExStepSummary:1: Вставить изображение в документ в текущей позиции курсора вместе с Document Builder.
-//ExStepSummary:2: Сохранить документ на конкретное имя файла.
+//ExSummary:Этот код показывает, как вставить вкладку изображения в документ Word с помощью Aspose.Words.
+//ExStepSummary:0: Инициализация объекта Документа и DocumentBuilder для создания документа.
+//ExStepSummary:1: Вставка изображения в документ на текущем положении курсора с помощью DocumentBuilder.
+//ExStepSummary:2: Запись документа в указанное имя файла.
 //ExStepImage:1:images/1.png
 //ExStep:0-
-// Инициировать новый документ и документоподготовитель
+// Начать новый Документ и ДокументСтроитель
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 //ExStep:1-
-// Вставить изображение с помощью Бюллетеня документа
+// Вставлять изображение с помощью DocumentBuilder
 builder.InsertImage(ImagesDir + "Transparent background logo.png");
 
 //ExStep:2-
-// Сохранить измененный документ в файл
+// Сохранить измененный документ в файле
 doc.Save("AddContentUsingDocumentBuilder.InsertInlineImage.docx");
 //ExEnd

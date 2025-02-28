@@ -1,0 +1,34 @@
+//ExStart
+//ExSummary:Công mã này cho thấy cách tạo tài liệu Word bằng cách sử dụng Aspose.Words, định dạng các thuộc tính phông chữ trước khi viết một mẫu văn bản cho nó.
+//ExStepSummary:0: Mã sau đây khởi tạo một Document mới và một DocumentBuilder.
+//ExStepSummary:1: Mã sau đây đặt ra các thuộc tính phông chữ khác nhau như kích thước, mã béo, màu sắc, tên và phong cách nhấn mạnh.
+//ExStepSummary:2: Mã sau đây viết một mẫu văn bản vào tài liệu bằng cách sử dụng cài đặt phông chữ được cấu hình.
+//ExStepSummary:3: Mã sau lưu tài liệu vào thư mục được chỉ định với tên tệp nhất định.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Tạo một bản sao tài liệu mới
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Nhập vào thuộc tính phông chữ thông qua DocumentBuilder
+Font font = builder.Font;
+// Đặt kích thước phông chữ lên 16
+font.Size = 16;
+// Làm cho phông chữ đậm
+font.Bold = true;
+// Thay đổi màu phông chữ sang màu xanh
+font.Color = Color.Blue;
+// Đặt font vào Arial
+font.Name = "Arial";
+// Lấy kiểu chữ nhấn dấu vào phông chữ
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+builder.Write("Sample text.");
+
+//ExStep:3-
+// Cung cấp tài liệu vào thư mục đồ tạo
+doc.Save("WorkingWithFonts.FontFormatting.docx");
+//ExEnd

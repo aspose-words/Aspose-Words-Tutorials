@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách định dạng các đoạn văn trong tài liệu Word bằng cách sử dụng Aspose.Words. Nó cho thấy cách đặt các tùy chọn định dạng đoạn văn như sắp xếp, nhấp và không gian sau một đoạn văn.
+//ExStepSummary:0: Bước này khởi tạo một tài liệu mới và một DocumentBuilder để xây dựng tài liệu.
+//ExStepSummary:1: Bước này thiết lập các tùy chọn định dạng đoạn, bao gồm sắp xếp, đoạn đường trái, đoạn đường phải và không gian sau đoạn.
+//ExStepSummary:2: Bước này viết một đoạn văn được định dạng tốt với các tùy chọn định dạng được chỉ định cho tài liệu.
+//ExStepSummary:3: Bước này viết một đoạn văn khác được định dạng cho thấy tác động của không gian sau đoạn văn.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0- 
+// Tạo một bản sao mới của Document.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1- 
+// Thiết lập tùy chọn định dạng đoạn văn.
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.Alignment = ParagraphAlignment.Center;
+paragraphFormat.LeftIndent = 50;
+paragraphFormat.RightIndent = 50;
+paragraphFormat.SpaceAfter = 25;
+
+//ExStep:2- 
+// Viết đoạn văn đầu tiên được định dạng.
+builder.Writeln(
+	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
+
+//ExStep:3- 
+// Viết đoạn thứ hai được định dạng.
+builder.Writeln(
+	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
+
+//ExStep:4- 
+// Cung cấp tài liệu cho đường dẫn được chỉ định.
+doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
+//ExEnd

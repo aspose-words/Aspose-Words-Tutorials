@@ -1,0 +1,19 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách chèn một hình ảnh trong dòng vào tài liệu Word bằng cách sử dụng Aspose.Words.
+//ExStepSummary:0: Tạo ra đối tượng Document và DocumentBuilder để xây dựng tài liệu.
+//ExStepSummary:1: Lấy vào một hình ảnh vào tài liệu ở vị trí trình chiếu hiện tại với DocumentBuilder.
+//ExStepSummary:2: Cung cấp tài liệu cho tên tệp được chỉ định.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+// Tạo ra một Document và DocumentBuilder mới
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Nhập hình ảnh bằng cách sử dụng DocumentBuilder
+builder.InsertImage(ImagesDir + "Transparent background logo.png");
+
+//ExStep:2-
+// Cung cấp tài liệu đã sửa đổi vào một tệp
+doc.Save("AddContentUsingDocumentBuilder.InsertInlineImage.docx");
+//ExEnd

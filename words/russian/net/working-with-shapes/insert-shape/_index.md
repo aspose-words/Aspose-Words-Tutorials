@@ -1,8 +1,8 @@
 ---
-title: Вставить форматы в Word Documents с использованием посылок.Words для .NET
+title: Вставлять формы в документы Word с использованием Aspose.Words для .NET
 weight: 7700
 limit: 
-description: Учитесь вводить и поворачивать формы, включая текстовые ящики, в Word documents с использованием Aspose.Words для .NET. Сохранить файлы с соответствующими ИСО опциями DOCX.
+description: Узнайте, как вставлять и вращаться формы, включая текстовые ящики, в документах Word с использованием Aspose.Words для .NET. Сохраняйте файлы с опциями DOCX, соответствующими стандарту ISO.
 keywords: [Aspose.Words for .NET, insert shapes, text box, Word documents, DOCX, ISO compliance, OoxmlSaveOptions, .NET example, shape rotation]
 url: /ru/net/working-with-shapes/insert-shape/
 ---
@@ -10,8 +10,8 @@ url: /ru/net/working-with-shapes/insert-shape/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Вставить форматы в Word Documents с использованием посылок.
-В этом руководстве показано, как использовать Aspose.Words для .NET для вставки и манипулирования формами, такими, как текстовые ящики, в Word documents. Вы научитесь позиционировать фигуры абсолютно или относительно, установите углы вращения и сохраните документ в формате ISO 29500:2008 Переходного DOCX с использованием формата ISO 29500:2008`Вариации OoxmlSave`Этот пример упрощает работу с фигурами в документах Word, позволяя разработчикам легко создавать визуально привлекательный контент.  
+# Вставьте формы в документы с помощью Aspose.Words
+В этом руководстве показано, как использовать Aspose.Words для .NET для вставки и манипуляции формами, такими как текстовые ящики, в документах Word. Вы узнаете, как позиционировать формы абсолютно или относительно, устанавливать угла вращения и сохранять документ в формате ISO 29500:2008 Transitional DOCX с использованием `OoxmlSaveOptions`. Этот пример упрощает работу с формами в документах Word, позволяя разработчикам легко создавать визуально привлекательный контент.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-shapes/insert-shape" >}}
@@ -19,29 +19,29 @@ url: /ru/net/working-with-shapes/insert-shape/
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Инструкции по установке  
-1. Загрузить позитив. Заголовки для .NET:  
-   Получите последнюю версию Aspose.Words для .NET от[загрузить страницу@ info: whatsthis](https://releases.aspose.com/words/net/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+1. Скачать Aspose.Words для .NET:  
+   Получите последнюю версию Aspose.Words для .NET с [страница загрузки](https://releases.aspose.com/words/net/)\- Я не знаю .  
 
-2. Установите через NuGet:  
-   Открыть свой проект в Visual Studio и установить библиотеку с помощью менеджера пакета NuGet:  
+2. Установка через NuGet:  
+   Откройте проект в Visual Studio и установить библиотеку с помощью NuGet Package Manager:  
    ```bash  
    Install-Package Aspose.Words  
    ```  
 
-3. Добавить ссылку на пространство имени:  
-   Включите в свой код пространство имени для Aspose.Words:  
+3. Добавить ссылку на пространство имен:  
+   В код включите пространство имен для Aspose.Words:  
    ```csharp  
    using Aspose.Words;  
    using Aspose.Words.Saving;  
    using Aspose.Words.Drawing;  
    ```  
 
-4. Активировать лицензию (факультативную):  
-   Если у вас есть действительные права, используйте их в вашем проекте, чтобы избежать ограничений.[приобрести лицензию](https://purchase.aspose.com/buy)или получить[временная лицензия](https://purchase.aspose.com/temporary-license/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+4. Активация лицензии (необязательная):  
+   Если у вас есть действительная лицензия, примените ее в своем проекте, чтобы избежать ограничений.[приобретение лицензии](https://purchase.aspose.com/buy)или получить [временная лицензия](https://purchase.aspose.com/temporary-license/)\- Я не знаю .  
 
-## См.
-[Позиция. Условие для .NET Documentation](https://docs.aspose.com/words/net/)
-[Предпосылки. Условные обозначения для .NET](https://reference.aspose.com/words/net/)
+## См. также
+[Aspose.Word для документации .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word для ссылок .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

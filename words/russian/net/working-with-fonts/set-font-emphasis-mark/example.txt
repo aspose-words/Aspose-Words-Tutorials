@@ -1,11 +1,11 @@
 //ExStart
-//ExSummary: Этот код показывает, как настроить акцент в документе Word, используя слова Aspose.words.
-//ExStepSummary:0:Создание нового образца документов для работы.
-//ExStepSummary:1:Настрой Бюллетень документов, чтобы манипулировать документом.
-//ExStepSummary:2:Применить отметку акцента к шрифту строителя.
-//ExStepSummary:3:Написание текста, посвященного акцентам, в документе.
-//ExStepSummary:4:Написание простого текста без акцента.
-//ExStepSummary:5: Этот код сохраняет документ с надчеркиванием шрифта.
+//ExSummary:Этот код показывает, как установить знак акцента в документе Word с использованием Aspose.words.
+//ExStepSummary:0:Создание нового документа для работы.
+//ExStepSummary:1:Настройка DocumentBuilder для манипулирования документом.
+//ExStepSummary:2:Применение знака акцента на шрифте конструктора.
+//ExStepSummary:3:Написание на документ текста подчеркивания.
+//ExStepSummary:4:Пишу простый текст без особого акцента.
+//ExStepSummary:5: Этот код сохраняет документ с отметкой акцента на шрифте.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
@@ -14,26 +14,26 @@
 Document document = new Document();
 
 //ExStep:1-
-// Инициирование создания документа для манипулирования документооборотом
+// Запустить DocumentBuilder для манипуляции документами
 DocumentBuilder builder = new DocumentBuilder(document);
 
 //ExStep:2-
-// Установить знак акцента на субсолидную циркуляцию
+// Назначить знак акцента на UnderSolidCircle
 builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
 
 //ExStep:3-
-// Написать текст, в котором делается акцент на документе
+// Напишите текст подчеркивания на документ
 builder.Write("Emphasis text");
-// Перейти к следующей строчке
+// Перейти на следующую строку
 builder.Writeln();
-// Очистить формат шрифта для следующего текста
+// Удалить форматирование шрифта для следующего текста
 builder.Font.ClearFormatting();
 
 //ExStep:4-
-// Написать простой текст без акцента
+// Напиши простый текст без акцента
 builder.Write("Simple text");
 
 //ExStep:5-
-// Сохранить документ на заданный путь
+// Сохранить документ на указанном пути
 document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
 //ExEnd

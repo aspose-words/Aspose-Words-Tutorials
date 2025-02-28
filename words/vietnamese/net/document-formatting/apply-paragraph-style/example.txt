@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo tài liệu Word bằng cách sử dụng Aspose.Words, áp dụng phong cách đoạn văn, và lưu tài liệu. Nó cho thấy cách thiết lập phong cách tiêu đề cho một đoạn văn và lưu tài liệu trong định dạng .docx.
+//ExStepSummary:0: Phần này khởi tạo một bản sao mới của Document và DocumentBuilder.
+//ExStepSummary:1: Phần này áp dụng kiểu đoạn tiêu đề sử dụng DocumentBuilder.
+//ExStepSummary:2: Phần này viết "Hello" cho tài liệu.
+//ExStepSummary:3: Phần này lưu tài liệu vào một con đường tập tin được chỉ định.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Tạo ra một bản sao mới của Document
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Đặt phong cách đoạn văn thành Title
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Title;
+
+//ExStep:2-
+// Viết "Hello" bằng cách sử dụng trình tạo, áp dụng phong cách được chỉ định
+builder.Write("Hello");
+
+//ExStep:3-
+// Cung cấp tài liệu vào tệp .docx
+doc.Save("DocumentFormatting.ApplyParagraphStyle.docx");
+//ExEnd

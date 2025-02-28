@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak tworzyć dokument z wykresem używając Aspose.Words, ustawić granice dla osi Y i zapisać dokument jako plik DOCX. 
+// Każdy krok jest rozkładany w celu zapewnienia jasnego zrozumienia procesu pracy z wykresami w Aspose.Words.
+//ExStepSummary:0: Inicjalizuj nowy dokument i instansę DocumentBuilder. 
+//ExStepSummary:1: Wkładaj wykres do dokumentu i odzyskaj obiekt wykresu. 
+//ExStepSummary:2: Dodaje się do wykresu nowy z określonymi kategoriami i wartościami. 
+//ExStepSummary:3: Ustaw minimalne i maksymalne granice osi Y wykresu. 
+//ExStepSummary:4: Zapisz dokument na określonej ścieżce. 
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Tworzyć nową instancję dokumentu.
+Document doc = new Document();
+// Wprowadź inicjację DocumentBuilder, aby zbudować dokument.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Wkładać w dokument wykres kolumn.
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+// Odzyskaj obiekt wykresu z kształtu.
+Chart chart = shape.Chart;
+// Wyczyszcz wszystkie istniejące serii z wykresu w celu uzyskania nowych danych.
+chart.Series.Clear();
+
+//ExStep:2-
+// Definiuj nową serię o nazwie "Aspose Series 1".
+chart.Series.Add("Aspose Series 1",
+    new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
+    new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
+
+//ExStep:3-
+// Ustaw minimalny limit osi Y.
+chart.AxisY.Scaling.Minimum = new AxisBound(0);
+chart.AxisY.Scaling.Maximum = new AxisBound(6);
+
+//ExStep:4-
+// Zapisz dokument z wykresem na określonej ścieżce.
+doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
+//ExEnd

@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách áp dụng một đường biên đường thẳng vào một bảng trong tài liệu Word bằng cách sử dụng Aspose.Words. Nó tập trung bảng trên trang, đặt một đường biên xanh xung quanh bảng, xóa các đường biên hiện có, và lấp đầy các tế bào bảng với màu nền xanh lá cây sáng. 
+//ExStepSummary:0: Mã sau đây khởi tạo tài liệu và lấy bảng đầu tiên.
+//ExStepSummary:1: Bước này sắp xếp bảng vào trung tâm trang.
+//ExStepSummary:2: Bước này làm sạch bất kỳ ranh giới hiện có nào khỏi bàn.
+//ExStepSummary:3: Bước này đặt một ranh giới xanh xung quanh bàn nhưng không phải bên trong.
+//ExStepSummary:4: Bước này làm đầy các tế bào với một màu xanh lá cây sáng.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Định nghĩa thư mục của tài liệu
+string dataDir = "Your Document Directory";
+// Lắp các tài liệu
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// Nhận bảng đầu tiên từ tài liệu
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+// Thích bảng vào trung tâm trang
+table.Alignment = TableAlignment.Center;
+
+//ExStep:2-
+// Xóa ra bất kỳ ranh giới hiện có nào khỏi bảng
+table.ClearBorders();
+
+//ExStep:3-
+// Đặt ranh giới bên trái
+table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
+// Đặt ranh giới bên phải
+table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
+// Đặt giới hạn trên
+table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
+// Đặt ranh giới dưới
+table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
+
+//ExStep:4-
+// Đấp đầy các tế bào với màu xanh lá cây sáng
+table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
+// Cung cấp tài liệu đã sửa đổi
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
+//ExEnd

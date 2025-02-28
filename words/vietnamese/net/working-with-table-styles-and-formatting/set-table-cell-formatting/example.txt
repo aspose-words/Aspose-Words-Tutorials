@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Mã sau đây cho thấy cách tạo và định dạng bảng trong tài liệu Word bằng cách sử dụng lớp DocumentBuilder từ Aspose.Words.
+//ExStepSummary:0: Tạo ra một Document và DocumentBuilder mới để bắt đầu xây dựng tài liệu Word.
+//ExStepSummary:1: Tạo một bảng và chèn một tế bào để định dạng.
+//ExStepSummary:2: Đặt các tính chất định dạng cho tế bào, bao gồm lấp và chiều rộng.
+//ExStepSummary:3: Nhập văn bản vào tế bào được định dạng.
+//ExStepSummary:4: Kết thúc hàng và bảng, và lưu tài liệu vào một con đường tập tin được chỉ định.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Tạo một đối tượng tài liệu mới
+Document doc = new Document();
+// Tạo ra DocumentBuilder với tài liệu mới
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Bắt đầu tạo ra một bàn
+builder.StartTable();
+// Đưa tế bào đầu tiên vào bảng
+builder.InsertCell();
+
+//ExStep:2-
+// Truy cập các tính năng định dạng của tế bào
+CellFormat cellFormat = builder.CellFormat;
+// Đặt chiều rộng của tế bào
+cellFormat.Width = 250;
+// Đặt đệm
+cellFormat.LeftPadding = 30;
+cellFormat.RightPadding = 30;
+cellFormat.TopPadding = 30;
+cellFormat.BottomPadding = 30;
+
+//ExStep:3-
+// Đan nhập văn bản vào tế bào
+builder.Writeln("I'm a wonderful formatted cell.");
+
+//ExStep:4-
+// Kết thúc hàng hiện tại của bảng
+builder.EndRow();
+// Kết thúc việc tạo bảng
+builder.EndTable();
+// Cung cấp tài liệu
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");
+//ExEnd

@@ -1,0 +1,78 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างเอกสาร Word กับตารางเนื้อหา โดยใช้ DocumentBuilder. มันรวมถึงหัวข้อระดับต่าง ๆ และบันทึกเอกสารเป็นไฟล์ .docx.
+//ExStepSummary:0: ขั้นตอนนี้เริ่มต้นของวัตถุเอกสารใหม่
+//ExStepSummary:1: ขั้นตอนนี้สร้าง object DocumentBuilder สําหรับการ thao tácเอกสาร
+//ExStepSummary:2: ขั้นตอนนี้ใส่ตารางเนื้อหาในตอนต้นของเอกสาร
+//ExStepSummary:3: ขั้นตอนนี้นําเสนอการหยุดหน้า เพื่อเริ่มเนื้อหาจริงบนหน้าใหม่
+//ExStepSummary:4: ขั้นตอนนี้ตั้งหัวข้อแรก และเขียน "หัวข้อ 1" ต่อเอกสาร
+//ExStepSummary:5: ขั้นตอนนี้กําหนดระดับหัวข้อที่สอง และเขียนว่า "หัวข้อ 1.1" และ "หัวข้อ 1.2".
+//ExStepSummary:6: ขั้นตอนนี้อีกครั้งตั้งระดับหัวข้อแรกและเขียน "หัวข้อ 2" และ "หัวข้อ 3".
+//ExStepSummary:7: ขั้นตอนนี้ตั้งระดับหัวข้อที่สอง และเขียนว่า "หัวข้อ 3.1".
+//ExStepSummary:8: ขั้นตอนนี้กําหนดระดับหัวข้อที่สาม และเขียนบทความ "หัวข้อ 3.1.1", "หัวข้อ 3.1.2" และ "หัวข้อ 3.1.3".
+//ExStepSummary:9: ขั้นตอนนี้ตั้งระดับหัวข้อที่สองอีกครั้ง และเขียน "หัวข้อ 3.2" และ "หัวข้อ 3.3".
+//ExStepSummary:10: สุดท้าย ขั้นตอนนี้จะอัพเดทสนามในเอกสาร และบันทึกเป็นไฟล์ .docx
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:6:images/4.png
+//ExStepImage:7:images/5.png
+//ExStepImage:8:images/6.png
+//ExStepImage:9:images/7.png
+
+//ExStep:0-
+// สร้างเอกสารใหม่
+Document doc = new Document();
+
+//ExStep:1-
+// การเริ่มต้น DocumentBuilder สําหรับการ thao tácเอกสาร
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// ใส่ตารางเนื้อหาที่มีตัวเลือกที่กําหนด
+builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
+
+//ExStep:3-
+// เคลื่อนเวลาในการเริ่มต้นเนื้อหาในหน้าใหม่
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:4-
+// ชนิดตั้งค่าที่หัวข้อ 1
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 1");
+
+//ExStep:5-
+// ชนิดตั้งตามหัวข้อ 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 1.1");
+builder.Writeln("Heading 1.2");
+
+//ExStep:6-
+// ปรับรูปแบบกลับไปที่หัวข้อ 1
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 2");
+builder.Writeln("Heading 3");
+
+//ExStep:7-
+// ชนิดตั้งตามหัวข้อ 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.1");
+
+//ExStep:8-
+// ชนิดตั้งตามหัวข้อ 3
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
+builder.Writeln("Heading 3.1.1");
+builder.Writeln("Heading 3.1.2");
+builder.Writeln("Heading 3.1.3");
+
+//ExStep:9-
+// ปรับรูปแบบกลับไปที่หัวข้อ 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.2");
+builder.Writeln("Heading 3.3");
+
+//ExStep:10-
+// ปรับปรุงสนามทั้งหมดในเอกสาร
+doc.UpdateFields();
+// เก็บเอกสาร
+doc.Save("AddContentUsingDocumentBuilder.InsertTableOfContents.docx");
+//ExEnd

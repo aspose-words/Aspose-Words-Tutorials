@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak tworzyć dokument Word za pomocą klasy DocumentBuilder i wstawić do niego stylowy paragraf.
+//ExStepSummary:0: Następujący kod inicjuje dokument i dokumentBuilder do tworzenia dokumentów.
+//ExStepSummary:1: Następujący kod konfigurował ustawienia czcionek dla ustępu.
+//ExStepSummary:2: Kod poniższy określa ustawienia formatów ustępów dla wyrównania i wciągania.
+//ExStepSummary:3: Następujący kod wpisuje do dokumentu paragraf.
+//ExStepSummary:4: Następujący kod zapisuje dokument jako plik .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Inicjalizowanie nowego obiektu dokumentu
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Uzyskanie dostępu do ustawień czcionek w programie DocumentBuilder
+Font font = builder.Font;
+// Ustaw rozmiar czcionki na 16
+font.Size = 16;
+// Wykorzystajcie ślad
+font.Bold = true;
+// Ustaw kolor czcionki na niebieski
+font.Color = Color.Blue;
+// Ustaw nazwę czcionki na Arial
+font.Name = "Arial";
+// Dodaj podkreślenie o kolorach do czcionki
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+// Dostęp do ustawień formatu ustępu
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.FirstLineIndent = 8;
+paragraphFormat.Alignment = ParagraphAlignment.Justify;
+paragraphFormat.KeepTogether = true;
+
+//ExStep:3-
+// Napisz w dokumencie paragraf tekstu
+builder.Writeln("A whole paragraph.");
+
+//ExStep:4-
+// Zapisz dokument jako plik .docx
+doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
+//ExEnd

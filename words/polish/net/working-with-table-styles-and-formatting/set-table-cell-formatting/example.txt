@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Następujący kod pokazuje, jak tworzyć i formatować tabelę w dokumencie Word za pomocą klasy DocumentBuilder z Aspose.Words.
+//ExStepSummary:0: Wprowadź nowy dokument i budownicz dokumentów, aby rozpocząć budowę dokumentu Word.
+//ExStepSummary:1: Tworzyć tabelę i wstawić komórkę do formatowania.
+//ExStepSummary:2: Ustaw właściwości formatowania komórki, w tym wypełnienie i szerokość.
+//ExStepSummary:3: Wkładać tekst do formatowanej komórki.
+//ExStepSummary:4: Zakończenie wiersza i tabeli, a zapisywanie dokumentu na określonej ścieżce pliku.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Tworzenie nowego obiektu dokumentu
+Document doc = new Document();
+// Inicjalizacja DocumentBuilder z nowym dokumentem
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Zacznij tworzyć stół
+builder.StartTable();
+// Wprowadź pierwszą komórkę do tabeli
+builder.InsertCell();
+
+//ExStep:2-
+// Dostęp do właściwości formatowania komórki
+CellFormat cellFormat = builder.CellFormat;
+// Ustawienie szerokości komórki
+cellFormat.Width = 250;
+// Ustaw wypełnienie
+cellFormat.LeftPadding = 30;
+cellFormat.RightPadding = 30;
+cellFormat.TopPadding = 30;
+cellFormat.BottomPadding = 30;
+
+//ExStep:3-
+// Wprowadzenie tekstu do komórki
+builder.Writeln("I'm a wonderful formatted cell.");
+
+//ExStep:4-
+// Koniec bieżącego wiersza tabeli
+builder.EndRow();
+// Zakończenie tworzenia tabeli
+builder.EndTable();
+// Zapisywanie dokumentu
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");
+//ExEnd

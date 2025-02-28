@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Następujący kod pokazuje, jak tworzyć dokument Word z formatowaną komórką tabeli zawierającą wypełnienie jego treści.
+//ExStepSummary:0: Następujący kod inicjuje nowy dokument i twórcę dokumentów.
+//ExStepSummary:1: Następujący kod rozpoczyna tabelę w dokumencie.
+//ExStepSummary:2: Następujący kod wprowadza komórkę do tabeli.
+//ExStepSummary:3: Następujący kod określa wypełnienie zawartości komórki.
+//ExStepSummary:4: Następujący kod doda tekst do komórki i kończy bieżący wiersz.
+//ExStepSummary:5: Następujący kod kończy tabelę i zapisuje dokument w pliku.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Wprowadzenie nowego dokumentu
+Document doc = new Document();
+// Tworzenie twórcy dokumentów do manipulowania dokumentem
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Zacznij tworzyć tabelę
+builder.StartTable();
+// Wprowadź nową komórkę do tabeli
+builder.InsertCell();
+
+//ExStep:2-
+// Ustawienie wypełnienia z 30 punktami na górze i dolnej, 50 punktami na lewo i prawo
+builder.CellFormat.SetPaddings(30, 50, 30, 50);
+
+//ExStep:3-
+builder.Writeln("I'm a wonderful formatted cell.");
+// Skończ bieżący wiersz w tabeli
+builder.EndRow();
+// Zawiń stolik .
+builder.EndTable();
+
+//ExStep:4-
+// Zapisz dokument do określonego pliku
+doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
+//ExEnd

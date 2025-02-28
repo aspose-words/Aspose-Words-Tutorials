@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo tài liệu Word với một bảng bằng cách sử dụng Aspose.Words. Nó xây dựng một bảng với hai hàng và các định hướng văn bản tế bào khác nhau và định dạng.
+//ExStepSummary:0: Mã sau đây khởi tạo một tài liệu mới và trình tạo tài liệu.
+//ExStepSummary:1: Mã sau bắt đầu một bảng mới và chèn hàng đầu tiên của các tế bào.
+//ExStepSummary:2: Mã sau đây cấu hình định dạng cho hàng thứ hai và các tế bào của nó.
+//ExStepSummary:3: Mã sau đây cấu hình định dạng cho hàng thứ hai và các tế bào của nó.
+//ExStepSummary:4: Mã sau kết thúc bảng và lưu tài liệu vào một tệp.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Tạo ra một đối tượng Document mới
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Bắt đầu một bàn mới
+Table table = builder.StartTable();
+// Bắt đầu đầu tế bào đầu tiên
+builder.InsertCell();
+// Đặt đường thẳng đứng cho ô đầu tiên
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
+builder.Write("This is row 1 cell 1");
+// Đan vào ô thứ hai
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+builder.EndRow();
+
+//ExStep:2-
+// Nhập một ô cho hàng thứ hai
+builder.InsertCell();
+// Thiết lập định dạng cho hàng thứ hai
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+//ExStep:3-
+// Đưa vào ô thứ hai cho hàng thứ hai
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward; 
+builder.Writeln("This is row 2 cell 2");
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:4-
+// Tự động gắn bảng với chiều rộng cột cố định
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+// Cung cấp tài liệu vào tệp
+doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

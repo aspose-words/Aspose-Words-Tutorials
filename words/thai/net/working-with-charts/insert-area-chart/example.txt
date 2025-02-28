@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการใส่แผนที่พื้นที่ในเอกสาร Word โดยใช้ Aspose.Words.
+//ExStepSummary:0: คódต่อไปนี้เริ่มต้นเอกสารใหม่และผู้สร้างเอกสาร
+//ExStepSummary:1: คódต่อไปนี้ใส่แผนภูมิในเอกสาร
+//ExStepSummary:2: คódต่อไปนี้เพิ่มเติมเรียงต่อตารางที่มีจุดข้อมูลที่ระบุ
+//ExStepSummary:3: คódต่อไปนี้จะบันทึกเอกสารที่มีแผนที่พื้นที่ที่ใส่
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// สร้างเอกสารใหม่
+Document doc = new Document();
+// เริ่มต้นการสร้างเอกสาร
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// ใส่แผนภูมิที่มีความวัดที่กําหนด
+Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
+
+//ExStep:2-
+// เข้าถึงวัตถุแผนที่
+Chart chart = shape.Chart;
+// เพิ่มเรียงใหม่ในตาราง
+chart.Series.Add("Aspose Series 1", new [] 
+{
+	// จุดข้อมูล 1
+    new DateTime(2002, 05, 01),
+	// จุดข้อมูล 2
+    new DateTime(2002, 06, 01),
+	// จุดข้อมูล 3
+    new DateTime(2002, 07, 01),
+	// จุดข้อมูล 4
+    new DateTime(2002, 08, 01),
+	// จุดข้อมูล 5
+    new DateTime(2002, 09, 01)
+}, 
+// ค่าที่ตรงกันสําหรับจุดข้อมูล
+new double[] { 32, 32, 28, 12, 15 });
+
+//ExStep:3-
+// เก็บเอกสารพร้อมกับแผนที่ที่ใส่
+doc.Save("WorkingWithCharts.InsertAreaChart.docx");
+//ExEnd

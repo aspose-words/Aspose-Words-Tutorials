@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách chèn các trường hình thức vào tài liệu Word bằng cách sử dụng Aspose.Words cho .NET. Cụ thể, nó cho thấy cách chèn một trường hình thức hộp combo với các mục được xác định trước.
+//ExStepSummary:0: Mã sau đây cho thấy cách tạo tài liệu Word mới.
+//ExStepSummary:1: Mã sau đây cho thấy cách khởi tạo DocumentBuilder để chỉnh sửa tài liệu.
+//ExStepSummary:2: Mã sau đây cho thấy cách xác định và chèn một trường biểu mẫu hộp combo với các mục được xác định trước và chọn mặc định.
+//ExStepImage:0:images/1.png
+//ExStepImage:1:images/2.png
+//ExStep:0-
+// Tạo ra một tài liệu Word trống
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Định nghĩa và chèn một trường biểu mẫu hộp combo
+string[] items = { "One", "Two", "Three" };
+builder.InsertComboBox("DropDown", items, 0);
+//ExEnd

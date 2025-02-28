@@ -1,0 +1,57 @@
+//ExStart
+//ExSummary: กรุณาตรวจสอบโค้ดต่อไปนี้เพื่อหาวิธีการใส่ตารางคอลัมน์ง่าย ๆ เข้าสู่เอกสาร Word คุณสามารถเลียนโค้ดนี้ไปยัง IDE ของคุณและใช้มัน
+//ExStepSummary:0: คódนี้แสดงให้เห็นวิธีการสร้างเอกสาร Word โดยใช้ Aspose.Words และใส่ตารางคอลัมน์ในนั้น
+//ExStepSummary:1: คódนี้แสดงวิธีการสร้าง object ของผู้สร้างเอกสารเพื่อการ thao tácเนื้อหาของ Word
+//ExStepSummary:2: คódนี้แสดงวิธีการใส่รูปแบบแผนกคอลัมน์ที่มีขนาดที่กําหนดไว้ในเอกสาร
+//ExStepSummary:3: คódนี้จะเอาตัวประกอบแผนที่จากรูปแบบที่ใส่ไว้ เพื่อการปรับแต่งเพิ่มเติม
+//ExStepSummary:4: คódนี้แสดงวิธีการเข้าถึงการรวบรวมแผนที่และพิมพ์จํานวนของลําดับ
+//ExStepSummary:5: คódนี้ลบเรียงตามที่อาจถูกสร้างพร้อมกับแผนที่
+//ExStepSummary:6: คódนี้แสดงวิธีการกําหนดชื่อหมวดหมู่สําหรับข้อมูลของตาราง
+//ExStepSummary:7: คódนี้แสดงวิธีการเพิ่มเรียงต่อตารางที่มีชื่อหมวดหมู่ที่ตรงกันและค่าข้อมูล
+//ExStepSummary:8: คódนี้เก็บเอกสารที่มีแผนที่ใส่ไว้ในไฟล์ที่กําหนดไว้
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:7:images/4.png
+//ExStep:0-
+// สร้างเอกสาร Word ตัวอย่างใหม่
+Document doc = new Document();
+
+//ExStep:1-
+// สร้าง DocumentBuilder เพื่อใส่วัสดุในเอกสารได้ง่ายๆ
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// ใส่รูปแผนกคอลัมน์ที่มีความกว้าง 432 และความสูง 252 รายละเอียด
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:3-
+// ค้นหาตัวของแผนที่จากรูป เพื่อการควบคุมต่อไป
+Chart chart = shape.Chart;
+
+//ExStep:4-
+// เข้าสู่การรวบรวมของแผนที่
+ChartSeriesCollection seriesColl = chart.Series;
+// พิมพ์เลขของชุดในแผนที่ที่เครื่องมือ
+Console.WriteLine(seriesColl.Count);
+
+//ExStep:5-
+// ยกออกเรียงตามที่เกิดขึ้นโดยอัตโนมัติเมื่อการสร้างแผนที่
+seriesColl.Clear();
+
+//ExStep:6-
+// กําหนด array ของชื่อหมวดหมู่สําหรับข้อมูลแผนที่
+string[] categories = new string[] { "Category 1", "Category 2" };
+
+//ExStep:7-
+// เพิ่มหลายเรียงต่อตารางที่มีชื่อหมวดหมู่และค่าข้อมูล
+seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
+seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
+seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
+seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
+seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
+
+//ExStep:8-
+// กรอกสารที่มีแผนที่ใส่ไว้ไว้ไว้ในเส้นทางไฟล์ที่กําหนดไว้
+doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
+//ExEnd

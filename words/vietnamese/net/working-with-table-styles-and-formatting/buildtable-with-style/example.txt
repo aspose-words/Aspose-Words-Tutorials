@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo tài liệu Word với một bảng kiểu bằng cách sử dụng Aspose.Words.
+//ExStepSummary:0: Tạo ra một Document và DocumentBuilder mới để quản lý cấu trúc tài liệu.
+//ExStepSummary:1: Bắt đầu một bảng mới trong tài liệu bằng cách sử dụng DocumentBuilder.
+//ExStepSummary:2: Nhập ô đầu tiên và đặt định dạng kiểu bảng.
+//ExStepSummary:3: Sử dụng tùy chọn định dạng cho bảng và thiết lập hành vi tự động phù hợp.
+//ExStepSummary:4: Thêm các ô hàng tiêu đề vào bảng.
+//ExStepSummary:5: Nhập các hàng dữ liệu vào bảng với tên và số lượng các mục.
+//ExStepSummary:6: Cung cấp tài liệu được lắp ráp vào một tệp.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// Tạo một đối tượng Tài liệu mới.
+Document doc = new Document();
+// Tạo một trình tạo để tạo ra tài liệu dễ dàng hơn.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Bắt đầu một bảng mới trong tài liệu.
+Table table = builder.StartTable();
+
+//ExStep:2-
+// Nhập tế bào đầu tiên trước khi thiết lập định dạng.
+builder.InsertCell();
+// Đặt định dạng phong cách cho bàn.
+table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
+
+
+//ExStep:3-
+// Thiết lập các tùy chọn phong cách.
+table.StyleOptions = 
+    TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
+// Đặt hành vi tự động phù hợp của bàn.	
+table.AutoFit(AutoFitBehavior.AutoFitToContents);
+
+
+//ExStep:4-
+// Viết tiêu đề cho cột đầu tiên.
+builder.Writeln("Item");
+// Đặt đúng đắn cho cục.
+builder.CellFormat.RightPadding = 40;
+// Nhập tế bào thứ hai cho cột tiếp theo.
+builder.InsertCell();
+// Viết tiêu đề cho cột thứ hai.
+builder.Writeln("Quantity (kg)");
+// Kết thúc việc tạo ra hàng.
+builder.EndRow();
+
+//ExStep:5-
+// Bắt đầu một hàng mới và chèn vào tế bào đầu tiên.
+builder.InsertCell();
+builder.Writeln("Apples");
+builder.InsertCell();
+builder.Writeln("20");
+builder.EndRow();
+ // Nhập tế bào đầu tiên của một hàng mới cho mục thứ hai.
+builder.InsertCell();
+builder.Writeln("Bananas");
+builder.InsertCell();
+builder.Writeln("40");
+builder.EndRow();
+// Bắt đầu một hàng mới cho mục thứ ba.
+builder.InsertCell();
+builder.Writeln("Carrots");
+builder.InsertCell(); 
+builder.Writeln("50");
+builder.EndRow();
+
+//ExStep:6-
+// Cung cấp tài liệu vào một tệp được chỉ định.
+doc.Save("WorkingWithTableStylesAndFormatting.BuildTableWithStyle.docx");
+//ExEnd

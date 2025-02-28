@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างเอกสาร Word โดยใช้คลาส DocumentBuilder และใส่ข้อที่มีสไตล์ในนั้น
+//ExStepSummary:0: คódต่อไปนี้เริ่มต้นเอกสารและเอกสารBuilder สําหรับการสร้างเอกสาร
+//ExStepSummary:1: คódต่อไปนี้ตั้งค่าการตั้งค่าตัวอักษรสําหรับข้อ
+//ExStepSummary:2: คოდიต่อไปนี้กําหนดการตั้งค่ารูปแบบข้อสําหรับการจัดตรงและการฉีด
+//ExStepSummary:3: คódต่อไปนี้เขียนข้อหนึ่งในเอกสาร
+//ExStepSummary:4: โค้ดต่อไปนี้บันทึกเอกสารเป็นไฟล์ .docx
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// การเริ่มต้นของวัตถุเอกสารใหม่
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// เข้าถึงการตั้งค่า font ของ DocumentBuilder
+Font font = builder.Font;
+// ปรับขนาด font เป็น 16
+font.Size = 16;
+// ทํา font เป็น bold
+font.Bold = true;
+// ปรับสี font เป็นสีฟ้า
+font.Color = Color.Blue;
+// กําหนดชื่อ font เป็น Arial
+font.Name = "Arial";
+// เพิ่มเส้นเบาะแสใน font
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+// เข้าถึงการตั้งค่ารูปแบบข้อ
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.FirstLineIndent = 8;
+paragraphFormat.Alignment = ParagraphAlignment.Justify;
+paragraphFormat.KeepTogether = true;
+
+//ExStep:3-
+// เขียนข้อความในเอกสาร
+builder.Writeln("A whole paragraph.");
+
+//ExStep:4-
+// เก็บเอกสารเป็นไฟล์ .docx
+doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
+//ExEnd

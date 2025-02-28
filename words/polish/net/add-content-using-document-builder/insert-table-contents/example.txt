@@ -1,0 +1,78 @@
+//ExStart
+//ExSummaryKod ten pokazuje, jak tworzyć dokument Word z tabelą treści za pomocą DocumentBuilder.
+//ExStepSummary:0: Ten krok inicjuje nowy obiekt dokumentu.
+//ExStepSummary:1: Ten krok tworzy obiekt DocumentBuilder do manipulacji dokumentami.
+//ExStepSummary:2: W tym kroku wprowadza się tabelę treści na początku dokumentu.
+//ExStepSummary:3: Ten krok wprowadza przerwę na stronie, aby rozpocząć rzeczywistą treść na nowej stronie.
+//ExStepSummary:4: W tym kroku ustawiono pierwszą pozycję i w dokumencie napisano "pozycję 1".
+//ExStepSummary:5: W tym kroku ustalone jest poziom drugiej pozycji i napisane jest " pozycja 1.1" i " pozycja 1.2".
+//ExStepSummary:6: Ten krok ponownie wyznacza pierwszy poziom tytułu i pisze "Pisy 2" i "Pisy 3".
+//ExStepSummary:7: W tym kroku ustawiono drugi poziom tytułu i napisano "Pisy 3.1".
+//ExStepSummary:8: W tym kroku ustalono trzeci poziom pozycji i napisano podpozycje "pozycja 3.1.1", "pozycja 3.1.2" i "pozycja 3.1.3".
+//ExStepSummary:9: W tym kroku ponownie ustawiono drugi poziom tytułu i napisano "Pisy 3.2" i "Pisy 3.3".
+//ExStepSummary:10: Wreszcie ten krok aktualizuje pola w dokumencie i zapisuje je jako plik .docx.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:6:images/4.png
+//ExStepImage:7:images/5.png
+//ExStepImage:8:images/6.png
+//ExStepImage:9:images/7.png
+
+//ExStep:0-
+// Tworzenie nowego dokumentu
+Document doc = new Document();
+
+//ExStep:1-
+// Wpisanie inicjału DocumentBuilder do manipulacji dokumentami
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// Wkładać tabelę treści z określonymi opcjami
+builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
+
+//ExStep:3-
+// Wstawić przerwę w stronie , aby rozpocząć treść na nowym stronie
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:4-
+// Ustawić styl na pozycję 1
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 1");
+
+//ExStep:5-
+// Ustawić styl na pozycję 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 1.1");
+builder.Writeln("Heading 1.2");
+
+//ExStep:6-
+// /Sztyl /przywrócony do pozycji 1
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 2");
+builder.Writeln("Heading 3");
+
+//ExStep:7-
+// Ustawić styl na pozycję 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.1");
+
+//ExStep:8-
+// Ustawić styl na pozycję 3
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
+builder.Writeln("Heading 3.1.1");
+builder.Writeln("Heading 3.1.2");
+builder.Writeln("Heading 3.1.3");
+
+//ExStep:9-
+// /Sztyl /przywrócony do pozycji 2
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.2");
+builder.Writeln("Heading 3.3");
+
+//ExStep:10-
+// Aktualizowanie wszystkich pól w dokumencie
+doc.UpdateFields();
+// Zapisz dokument
+doc.Save("AddContentUsingDocumentBuilder.InsertTableOfContents.docx");
+//ExEnd

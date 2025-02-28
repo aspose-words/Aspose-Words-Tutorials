@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak tworzyć dokument Word z tablicą stylowaną za pomocą Aspose.Words. 
+//ExStepSummary:0: Wprowadź nowy program Dokument i DokumentBuilder.
+//ExStepSummary:1: Uruchomić nową tabelę i wstawić komórki nagłówki "Nazwa" i "Wartość".
+//ExStepSummary:2: Tworzyć spersonalizowany Style Tabeli z określonymi ustawami granicy i wypełniania.
+//ExStepSummary:3: Zapisz dokument w nowy styl tabeli.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Tworzenie nowego obiektu dokumentu
+Document doc = new Document();
+// Wprowadzenie inicjału w programie DocumentBuilder
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Zacznij nowy stół
+Table table = builder.StartTable();
+builder.InsertCell();
+builder.Write("Name");
+builder.InsertCell();
+builder.Write("Value");
+builder.EndRow();
+builder.InsertCell();
+builder.InsertCell();
+builder.EndTable();
+
+//ExStep:2-
+// Tworzyć nowy styl stołu
+TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
+tableStyle.Borders.LineStyle = LineStyle.Double;
+// Ustaw szerokość granicy
+tableStyle.Borders.LineWidth = 1;
+// Ustaw wypełnienie
+tableStyle.LeftPadding = 18;
+tableStyle.RightPadding = 18;
+tableStyle.TopPadding = 12;
+tableStyle.BottomPadding = 12;
+// Wpisanie stylu tabeli na podstawie ustawienia
+table.Style = tableStyle;
+
+//ExStep:3-
+// Zapisz dokument w tabeli stylowanej
+doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
+//ExEnd

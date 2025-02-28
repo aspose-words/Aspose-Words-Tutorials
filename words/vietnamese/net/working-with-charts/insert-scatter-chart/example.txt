@@ -1,0 +1,28 @@
+//ExStart
+//ExSummaryMã này cho thấy cách tạo ra một tài liệu Word với biểu đồ phân tán bằng cách sử dụng Aspose.Words. Nó khởi tạo tài liệu, xây dựng nội dung, chèn biểu đồ phân tán, thêm dữ liệu vào nó và lưu tài liệu.
+//ExStepSummary:0: Lập trình khởi tạo và DocumentBuilder đối lập để bắt đầu làm việc trên tài liệu.
+//ExStepSummary:1: Lấy vào biểu đồ phân tán vào tài liệu.
+//ExStepSummary:2: Thêm một loạt các điểm dữ liệu vào biểu đồ phân tán.
+//ExStepSummary:3: Chữ lưu tài liệu với biểu đồ phân tán vào tệp .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Tạo ra một tài liệu mới
+Document doc = new Document();
+// Tạo một trình tạo để chèn nội dung
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Nhập biểu đồ phân tán vào tài liệu
+Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252); 
+
+//ExStep:2-
+// Nhận đồ thị đối tượng từ hình dạng được đưa vào
+Chart chart = shape.Chart;
+// Thêm dữ liệu chuỗi vào biểu đồ
+chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 });
+
+//ExStep:3-
+// Cung cấp tài liệu với biểu đồ phân tán
+doc.Save("WorkingWithCharts.InsertScatterChart.docx");
+//ExEnd

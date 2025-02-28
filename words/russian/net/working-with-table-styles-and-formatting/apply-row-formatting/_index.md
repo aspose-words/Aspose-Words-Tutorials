@@ -1,8 +1,8 @@
 ---
-title: Применить форматирование строк в Word Documents with Aspose.Words для .NET
+title: Применение форматирования рядов в документах Word с помощью Aspose.Words для .NET
 weight: 7700
 limit: 
-description: Узнайте, как применять форматирование строк в документе Word с использованием Aspose.Words для .NET. Поэтапное руководство с примером кода и подробными инструкциями.
+description: Узнайте, как применять форматирование строков в документе Word с использованием Aspose.Words для .NET. Пошаговое руководство с примером кода и подробными инструкциями.
 keywords: [Aspose.Words for .NET, row formatting Word, apply row format, Word document table styling, .NET Word document example, Aspose.Words tutorial, table row padding, Word document programming]
 url: /ru/net/working-with-table-styles-and-formatting/apply-row-formatting/
 ---
@@ -10,9 +10,9 @@ url: /ru/net/working-with-table-styles-and-formatting/apply-row-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Применить форматирование строк в Word Documents with Aspose.Words
+# Применить форматирование ряда в документах Word с помощью Aspose.Words
 
-В этом примере мы показываем, как применять форматирование строк в документе Word с использованием Aspose.Words. Вы научитесь устанавливать высоту строк, настройки и применять точные форматы для создания хорошо структурированных таблиц. Это поэтапное руководство включает коды и инструкции, чтобы помочь вам быстро реализовать эти функции в ваших приложениях .NET.
+Aspose.Words для .NET предлагает мощные инструменты для создания и программирования документов Word. В этом примере мы покажем, как применять форматирование рядов в документе Word с использованием Aspose.Words. Вы научитесь устанавливать высоты рядов, настраивать накладку и применять точную форматировку для создания хорошо структурированных таблиц.
 
 
 ---
@@ -21,34 +21,34 @@ url: /ru/net/working-with-table-styles-and-formatting/apply-row-formatting/
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Инструкции по установке  
-Чтобы использовать Aspose.Words для .NET в вашем проекте, следуйте следующим шагам:  
+Чтобы использовать Aspose.Words для .NET в вашем проекте, следуйте этим шагам:  
 
-1. Загрузка Позиции. Заголовки для .NET  
-   * Посещение[Позиции. Установки для .NET скачивания страницы](https://releases.aspose.com/words/net/)и загрузить последнюю версию.
+1. Скачать Aspose.Words для .NET  
+   * Посетите [Aspose.Words для страницы загрузки .NET](https://releases.aspose.com/words/net/)и загрузить последнюю версию.
 
-2. Установить через NuGet  
+2. Установка через NuGet  
    * Откройте свой проект в Visual Studio.  
-   * Перейти к инструментам > Менеджер пакета nuGet > Управление пакетами NuGet для решения.  
-   * Поиск`Предположительно.`и нажмите на кнопку Install.
+   * Перейти к Инструменты > Управляющий пакетами NuGet > Управление пакетами NuGet для решения.  
+   * Поиск`"Ответить. Слова"`и нажмите на Установите.
 
-3. Включите пространство имени  
-   * Добавить следующую строчку в ваш код:  
+3. Включить пространство имен  
+   * Добавьте следующую строку к коду:  
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Tables;
      ```
 
-4. Активировать лицензию (факультативную)  
-   * Во избежание ограничений, связанных с оценкой, подать заявку на:[временная лицензия](https://purchase.aspose.com/temporary-license/)или покупка a[полная лицензия](https://purchase.aspose.com/buy). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
-   * Загрузите лицензию в свой код:  
+4. Активация лицензии (необязательная)  
+   * Чтобы избежать ограничений в оценке, обратитесь за заявлением о предоставлении[временная лицензия](https://purchase.aspose.com/temporary-license/)или приобрести [полная лицензия](https://purchase.aspose.com/buy)\- Я не знаю .  
+   * Загрузить лицензию в свой код:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```
 	 
-## См.
-[Позиция. Условие для .NET Documentation](https://docs.aspose.com/words/net/)
-[Предпосылки. Условные обозначения для .NET](https://reference.aspose.com/words/net/)
+## См. также
+[Aspose.Word для документации .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word для ссылок .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

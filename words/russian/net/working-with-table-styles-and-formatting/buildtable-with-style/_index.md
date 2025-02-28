@@ -1,8 +1,8 @@
 ---
-title: Создать Styled Tables word with Aspose.Words для .NET
+title: Создать стилизованные таблицы в Word с помощью Aspose.Words для .NET
 weight: 7700
 limit: 
-description: Научитесь создавать документ Word со стильной таблицей с использованием Aspose.Words для .NET, включая заголовки и форматирование строк данных.
+description: Научитесь создавать документ Word с таблицей с стилем с использованием Aspose.Words для .NET, включая заголовки и форматированные строки данных.
 keywords: [Aspose.Words, .NET, Word document, styled table, table formatting, DocumentBuilder, C# example, document generation]
 url: /ru/net/working-with-table-styles-and-formatting/buildtable-with-style/
 ---
@@ -10,9 +10,9 @@ url: /ru/net/working-with-table-styles-and-formatting/buildtable-with-style/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Создать стильные столы в слове с позитивом.
+# Создать стильные таблицы в слове с помощью Aspose.Words
 
-Этот пример показывает, как создать документ Word, который включает стильную таблицу с использованием Aspose.Words для .NET. Он проводит вас через процесс создания нового документа с использованием Aspose.`Бюллетень документации`В итоговом документе показаны надлежащие методы стиля и форматирования, которые могут применяться к таблицам, что делает содержание более ясным и более презентабельным.
+Этот пример показывает, как создать документ Word, который включает в себя таблицу с стилем с использованием Aspose.Words для .NET. Он проходит через процесс создания нового документа, используя `ДокументBuilder`В результате документа выявлены правильные методы стилирования и форматирования, которые могут быть применены к таблицам, делая содержание более ясным и презентабельным.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/apply-outline-border" >}}
@@ -20,25 +20,25 @@ url: /ru/net/working-with-table-styles-and-formatting/buildtable-with-style/
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Инструкции по установке
-1. Загрузка Позиции.[Позиции.](https://www.nuget.org/packages/Aspose.Words/)страница на NuGet и загрузить последнюю версию.
+1. Скачать Aspose.Words: Посетите [Aspose.Words для .NET](https://www.nuget.org/packages/Aspose.Words/)страницы на NuGet и загрузить новейшую версию.
 
-2. Создать проект .NET: Открыть Visual Studio и создать новый проект Console или Class Library.
+2. Создать проект .NET: Откройте Visual Studio и создать новый проект Консоль или Классическая библиотека.
 
-3. Добавить упаковку:
-   * Правый щелчок по вашему проекту в Исследователе решений.
-   * Выбрать "Управлять пакетами "Нугата".
-   * Ищите "Позиции. Заголовки" и нажмите "Установите".
+3. Добавить пакет NuGet:
+   * Правый клик на ваш проект в Explorer.
+   * Выберите "Управлять пакетами NuGet".
+   * Поиск "Аспозиция.Слово" и нажмите "Установка".
 
-4. Добавить требуемые записи с использованием: включить необходимые указания в файл кода:
+4. Добавьте необходимые указания использования: Включите необходимые указания использования в файл кода:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    ```
 
 
-## См.
-[Позиция. Условие для .NET Documentation](https://docs.aspose.com/words/net/)
-[Предпосылки. Условные обозначения для .NET](https://reference.aspose.com/words/net/)
+## См. также
+[Aspose.Word для документации .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word для ссылок .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

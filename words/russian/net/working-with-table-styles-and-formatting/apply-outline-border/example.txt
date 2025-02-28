@@ -1,42 +1,42 @@
 //ExStart
-//ExSummary: Этот код показывает, как применять очертания границы к таблице в документе Word с использованием Aspose.Words. Он центрирует таблицу на странице, устанавливает зеленую границу вокруг стола, очищает любые существующие границы и заполняет таблицы светло-зеленым фоновым цветом. 
-//ExStepSummary:0: Приводимый ниже код инициализирует документ и извлекает первую таблицу.
-//ExStepSummary:1: Этот шаг приводит таблицу в соответствие с центром страницы.
-//ExStepSummary:2: Этот шаг очищает любые существующие границы от столика.
-//ExStepSummary:3: Этот шаг устанавливает зеленую границу вокруг стола, но не внутри.
-//ExStepSummary:4: Этот шаг заполняет клетки светло-зеленым твердым цветом.
+//ExSummary: Этот код показывает, как применить границу очертания к таблице в документе Word с использованием Aspose.Words. Он сосредоточивает таблицу на странице, устанавливает зеленую границу вокруг таблицы, очищает любые существующие границы и заполняет ячейки таблицы светло-зеленым цветом фона. 
+//ExStepSummary:0: Следующий код инициирует документ и получает первую таблицу.
+//ExStepSummary:1: Этот шаг выровняет таблицу в центре страницы.
+//ExStepSummary:2: Этот шаг очищает все существующие границы от таблицы.
+//ExStepSummary:3: Эта ступень устанавливает зеленую границу вокруг стола, но не внутри.
+//ExStepSummary:4: Этот шаг заполняет клетки светло-зеленым цветным цветком.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// Определить каталог документа
+// Определять каталог документа
 string dataDir = "Your Document Directory";
-// Загрузить документ
+// Загрузка документа
 Document doc = new Document(dataDir + "Tables.docx");
 
 //ExStep:1-
-// Изъятие первой таблицы из документа
+// Возобрать первую таблицу из документа
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
-// Привязать стол к центру страницы
+// Свернуть таблицу в центр страницы
 table.Alignment = TableAlignment.Center;
 
 //ExStep:2-
-// Очистить любые существующие границы от стола
+// Убрать любые существующие границы с таблицы
 table.ClearBorders();
 
 //ExStep:3-
-// Настроить левую границу
+// Установка левой границы
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
-// Установить правую границу
+// Установка правой границы
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
-// Установить верхнюю границу
+// Установка верхней границы
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
-// Установить нижнюю границу
+// Установка нижней границы
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
 //ExStep:4-
-// Заполните клетки светло-зеленым цветом
+// Наполните клетки светло-зеленым цветом
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 // Сохранить измененный документ
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");

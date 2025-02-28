@@ -1,8 +1,8 @@
 ---
-title: Применить и прецизионное содержание в Word Documents с использованием посылок.
+title: Добавить и предварительно приложить контент в документах Word с использованием Aspose.Words
 weight: 7700
 limit: 
-description: Учитесь приобщать и закладывать содержание между разделами в документах Word с использованием Aspose.Words для .NET. Поэтапное руководство с четкими примерами кодов.
+description: Узнайте, как добавлять и предварительно добавлять контент между разделами в документах Word с помощью Aspose.Words для .NET. Пошаговое руководство с четкими примерами кода.
 keywords: [Aspose.Words for .NET, append content, prepend content, Word document sections, manipulate sections, .NET Word library]
 url: /ru/net/working-with-section/append-section-content/
 ---
@@ -10,9 +10,9 @@ url: /ru/net/working-with-section/append-section-content/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Применить и ограничить содержание в Word Documents
+# Добавить и предварительно приложить контент в документах Word
 
-Позиция.Words for .NET — мощная библиотека для создания, манипулирования и преобразования документов Word в .NET приложений. Этот пример показывает, как прикреплять и закладывать контент из одного раздела в другой. Используя простые и интуитивные API, вы можете манипулировать разделами, объединять контент и выполнять усовершенствованные задачи редактирования документов без труда. Создаёте ли вы автоматизированные рабочие процессы или заказные редакторы документов, Aspose.Words упрощает ваш процесс разработки.  
+Aspose.Words для .NET - мощная библиотека для создания, манипуляции и преобразования документов Word в приложениях .NET. Этот пример демонстрирует, как присоединять и предварительно переложить контент из одного раздела в другой в документе Word. Используя простые и интуитивные API, вы можете манипулировать секциями, объединять контент и выполнять передовые задачи редактирования документов бесперебойно.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-section/append-section-content" >}}
@@ -21,36 +21,36 @@ url: /ru/net/working-with-section/append-section-content/
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Инструкции по установке  
 
-Чтобы использовать Aspose.Words для .NET, следуйте этим шагам:  
+Чтобы использовать Aspose.Words для .NET, выполните следующие шаги:  
 
-1. Загрузить позитив. Заголовки:  
-   * Посещение[Позиции. Установки для .NET скачивания страницы](https://releases.aspose.com/words/net/)чтобы получить последнюю версию.  
+1. Скачать Aspose.Words:  
+   * Посетите [Aspose.Words для страницы загрузки .NET](https://releases.aspose.com/words/net/)Чтобы получить новейшую версию.  
 
-2. Установить через менеджер пакета NuGet:  
+2. Установка через управляющий пакетами NuGet:  
    * Откройте свой проект .NET в Visual Studio.  
-   * Навигировать в инструменты > Менеджер пакета NuGet > Управление пакетами NuGet для меню урегулирования.  
-   * Поиск "Позиции. Заголовки" в менеджере пакета NuGet.  
-   * Выберите пакет и нажмите кнопку Install.  
+   * Перейти в меню Инструменты > Управляющий пакетами NuGet > Управление пакетами NuGet для решения.  
+   * Поиск "Аспозиции.Слово" в управляющем пакетом NuGet.  
+   * Выберите пакет и нажмите на Установите.  
 
-3. Включать требуемые пространства для названий:  
+3. Включить требуемые пространства имен:  
    - Add the necessary `using` directives to your C# file:  
      ```csharp  
      using Aspose.Words;  
      using Aspose.Words.Saving;  
      ```  
 
-4. Добавить лицензию:  
-   * Если вы купили лицензию, используйте ее с помощью следующего кода:  
+4. Добавьте лицензию:  
+   * Если вы приобрели лицензию, примените ее с помощью следующего отрывка кода:  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("Aspose.Words.lic");  
      ```  
-   * Для оценки или проверки вы можете запросить[бесплатная временная лицензия](https://purchase.aspose.com/temporary-license/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+   * Для оценки или тестирования вы можете запросить[бесплатная временная лицензия](https://purchase.aspose.com/temporary-license/)\- Я не знаю .  
 
 
-## См.
-[Позиция. Условие для .NET Documentation](https://docs.aspose.com/words/net/)
-[Предпосылки. Условные обозначения для .NET](https://reference.aspose.com/words/net/)
+## См. также
+[Aspose.Word для документации .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word для ссылок .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

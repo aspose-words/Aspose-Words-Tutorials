@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการนํารูปแถวในเอกสาร Word โดยใช้ Aspose.Words
+//ExStepSummary:0: เริ่มต้นเอกสารใหม่ และเริ่มสร้างตารางที่มีแถวรูปแบบ
+//ExStepSummary:1: ปรับรูปแบบแถว
+//ExStepSummary:2: ปรับค่าความสูงที่ชัดเจน
+//ExStepSummary:3: เซตของบ่อสําหรับโต๊ะทั้งหมดที่ส่งผลต่อทุกแถว
+//ExStepSummary:4: เขียนข้อความในเซลล์โต๊ะและจบแถว
+//ExStepSummary:5: จบการสร้างตารางและบันทึกเอกสาร
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// สร้างเอกสารใหม่
+Document doc = new Document();
+// สร้าง DocumentBuilder เพื่อปรับเปลี่ยนเอกสาร
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// เริ่มโต๊ะใหม่
+Table table = builder.StartTable();
+// ใส่เซลล์ใหม่ในตาราง
+builder.InsertCell();
+//ExStep:2-
+// เข้าถึงคุณสมบัติการฟอร์เมทแถว
+RowFormat rowFormat = builder.RowFormat;
+// กําหนดความสูงของแถว
+rowFormat.Height = 100;
+// กําหนดความสูงที่แม่นยํา
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// เติมผ้าใส่โต๊ะ
+table.LeftPadding = 30; 
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// เขียนข้อความในเซลล์
+builder.Writeln("I'm a wonderful formatted row.");
+// จบแถวที่ใช้อยู่
+builder.EndRow();
+// จบการสร้างโต๊ะ
+builder.EndTable();
+
+//ExStep:5-
+// เก็บเอกสาร
+doc.Save("WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
+//ExEnd

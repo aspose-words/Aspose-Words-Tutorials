@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Mã sau đây cho thấy cách tạo tài liệu Word với một ô bảng định dạng bao gồm nạp xung quanh nội dung của nó.
+//ExStepSummary:0: Mã sau đây khởi tạo một tài liệu mới và một trình tạo tài liệu.
+//ExStepSummary:1: Mã sau bắt đầu một bảng trong tài liệu.
+//ExStepSummary:2: Mã sau đây đưa một tế bào vào bảng.
+//ExStepSummary:3: Mã sau đây đặt các chất đệm cho nội dung của tế bào.
+//ExStepSummary:4: Mã sau này thêm văn bản vào tế bào và hoàn thành hàng hiện tại.
+//ExStepSummary:5: Mã sau kết thúc bảng và lưu tài liệu vào một tệp.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Tạo ra một tài liệu mới
+Document doc = new Document();
+// Tạo trình tạo tài liệu để thao tác tài liệu
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Bắt đầu tạo một bảng
+builder.StartTable();
+// Đưa một tế bào mới vào bảng
+builder.InsertCell();
+
+//ExStep:2-
+// Đặt đệm với 30 điểm ở phía trên và dưới, 50 điểm ở phía trái và phải
+builder.CellFormat.SetPaddings(30, 50, 30, 50);
+
+//ExStep:3-
+builder.Writeln("I'm a wonderful formatted cell.");
+// Kết thúc dòng hiện tại trong bảng
+builder.EndRow();
+// Kết thúc bàn
+builder.EndTable();
+
+//ExStep:4-
+// Cung cấp tài liệu vào một tệp được chỉ định
+doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
+//ExEnd

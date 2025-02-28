@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างเอกสาร Word ด้วยตารางสแชร์ โดยใช้ Aspose.Words มันเริ่มต้นเอกสาร สร้างเนื้อหา ใส่ตารางสแชร์ เพิ่มข้อมูลในนั้น และบันทึกเอกสาร
+//ExStepSummary:0: การเริ่มต้นของเอกสารและเอกสารBuilder ชนจะเริ่มทํางานบนเอกสาร
+//ExStepSummary:1: การใส่แผนที่กระจายในเอกสาร
+//ExStepSummary:2: การเพิ่มจํานวนจุดข้อมูลต่อตารางการแพร่
+//ExStepSummary:3: การบันทึกเอกสารพร้อมกับแผนที่สแชร์ไปยังไฟล์ .docx
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// เริ่มต้นเอกสารใหม่
+Document doc = new Document();
+// สร้างตัวสร้างเพื่อใส่เนื้อหา
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// ใส่แผนที่สแชร์ในเอกสาร
+Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252); 
+
+//ExStep:2-
+// รับโครงการแผนที่จากรูปที่ใส่
+Chart chart = shape.Chart;
+// เพิ่มข้อมูลลําดับไปยังแผนที่
+chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 });
+
+//ExStep:3-
+// เก็บเอกสารด้วยแผนที่กระจาย
+doc.Save("WorkingWithCharts.InsertScatterChart.docx");
+//ExEnd

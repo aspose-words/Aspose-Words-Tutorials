@@ -1,0 +1,17 @@
+//ExStart
+//ExSummaryKod ten pokazuje, jak wstawić pola formularza do dokumentu Word za pomocą Aspose.Words dla .NET. Specjalnie pokazuje, jak wstawić pole formularza z wstępnie zdefiniowanymi elementami.
+//ExStepSummary:0: Następujący kod pokazuje, jak tworzyć nowy dokument Word.
+//ExStepSummary:1: Następujący kod pokazuje, jak inicjować program DocumentBuilder do edycji dokumentu.
+//ExStepSummary:2: W poniższym kodzie przedstawiono sposób zdefiniowania i wprowadzenia pola formularza z polemi kombinacyjnymi z wstępnie zdefiniowanymi elementami i domyślnym wyborem.
+//ExStepImage:0:images/1.png
+//ExStepImage:1:images/2.png
+//ExStep:0-
+// Inicjalizacja pusty dokument Word
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Definicja i wprowadzenie pola formularza z pudełka kombinowego
+string[] items = { "One", "Two", "Three" };
+builder.InsertComboBox("DropDown", items, 0);
+//ExEnd

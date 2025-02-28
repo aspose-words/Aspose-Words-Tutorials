@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างเอกสาร Word ด้วยตารางแบบฟอร์มาตการใช้ Aspose
+//ExStepSummary:0: ขั้นตอนนี้เริ่มต้นเอกสารใหม่และผู้สร้างเอกสาร
+//ExStepSummary:1: ขั้นตอนนี้เริ่มต้นตารางและใส่เซลล์เข้าไปในตาราง
+//ExStepSummary:2: ขั้นตอนนี้กําหนดการฟอร์เมทของแถว รวมถึงกฎความสูงและความสูง
+//ExStepSummary:3: ขั้นตอนนี้ตั้งค่าการเติมเต็มของตารางทั้งหมด ซึ่งมีผลกระทบต่อทุกแถว
+//ExStepSummary:4: ขั้นตอนนี้เพิ่มเติมข้อความในเซลล์และจบแถว
+//ExStepSummary:5: ขั้นตอนนี้จบตารางและบันทึกเอกสารไปยังเส้นทางที่กําหนด
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// สร้างเอกสารใหม่
+Document doc = new Document();
+// เริ่มต้น DocumentBuilder กับเอกสาร
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// เริ่มโต๊ะใหม่
+Table table = builder.StartTable();
+// ใส่เซลล์แรกในตาราง
+builder.InsertCell();
+
+//ExStep:2-
+// เข้าถึงคุณสมบัติ RowFormat ของผู้สร้าง
+RowFormat rowFormat = builder.RowFormat;
+// กําหนดความสูงของแถว
+rowFormat.Height = 100;
+// กําหนดกฎความสูงให้ถูกต้อง
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// เติมผ้าใส่โต๊ะ
+table.LeftPadding = 30;
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// เพิ่มข้อความต่อเซลล์ปัจจุบัน
+builder.Writeln("I'm a wonderful formatted row.");
+// จบแถวที่ใช้อยู่
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:5-
+// กรอกสารไว้ในเส้นทางที่กําหนด
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableRowFormatting.docx");
+//ExEnd

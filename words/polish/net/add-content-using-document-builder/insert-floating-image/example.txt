@@ -1,0 +1,26 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak tworzyć dokument Word i wstawić obraz z pływającym układem za pomocą Aspose.Words.
+//ExStepSummary:0: Następujący kod inicjuje nowy dokument i dokumentBuilder.
+//ExStepSummary:1: Następujący kod wprowadza obraz do dokumentu.
+//ExStepSummary:2: Następujący kod zapisuje dokument w określonym miejscu.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+// Tworzenie nowego dokumentu
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Wkładać obraz z określonego ścieżki
+builder.InsertImage(ImagesDir + "Transparent background logo.png", 
+    RelativeHorizontalPosition.Margin,
+    100, 
+    RelativeVerticalPosition.Margin, 
+    100, 
+    200, 
+    100, 
+    WrapType.Square); 
+
+//ExStep:2-
+// Zapisz dokument do określonego pliku
+doc.Save("AddContentUsingDocumentBuilder.InsertFloatingImage.docx");
+//ExEnd

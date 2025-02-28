@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary:Công mã này cho thấy cách đặt dấu nhấn mạnh trong tài liệu Word bằng cách sử dụng Aspose.words.
+//ExStepSummary:0:Tạo một bản sao tài liệu mới để làm việc với.
+//ExStepSummary:1:Thiết lập một DocumentBuilder để thao tác tài liệu.
+//ExStepSummary:2:Đưa dấu nhấn mạnh vào phông chữ của người xây dựng.
+//ExStepSummary:3:Viết văn bản nhấn mạnh vào tài liệu.
+//ExStepSummary:4:Viết một văn bản đơn giản mà không nhấn mạnh.
+//ExStepSummary:5: Mã này lưu tài liệu với dấu nhấn mạnh vào phông chữ.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Tạo tài liệu mới
+Document document = new Document();
+
+//ExStep:1-
+// Tạo ra DocumentBuilder để thao tác tài liệu
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:2-
+// Đặt dấu nhấn mạnh cho UnderSolidCircle
+builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
+
+//ExStep:3-
+// Viết văn bản nhấn mạnh vào tài liệu
+builder.Write("Emphasis text");
+// Chuyển sang dòng tiếp theo
+builder.Writeln();
+// Xóa định dạng phông chữ cho văn bản tiếp theo
+builder.Font.ClearFormatting();
+
+//ExStep:4-
+// Viết văn bản đơn giản mà không nhấn mạnh
+builder.Write("Simple text");
+
+//ExStep:5-
+// Cung cấp tài liệu cho đường dẫn được chỉ định
+document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
+//ExEnd

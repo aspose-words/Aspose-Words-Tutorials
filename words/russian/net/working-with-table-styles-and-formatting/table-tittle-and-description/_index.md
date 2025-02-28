@@ -1,8 +1,8 @@
 ---
-title: Добавить заголовок & описание в таблицу в слове с использованием посылок.
+title: Добавить название и описание в таблицу в Word с помощью Aspose.Words
 weight: 7700
 limit: 
-description: Узнайте, как добавить заголовок и описание в таблицу в документе Word вместе с Aspose.Words для .NET в этом простом примере.
+description: Узнайте, как добавить название и описание к таблице в документе Word с помощью Aspose.Words для .NET в этом простом примере.
 keywords: [Aspose.Words, Word document, table title, table description, .NET example, table formatting, Aspose, OoxmlSaveOptions, document processing]
 url: /ru/net/working-with-table-styles-and-formatting/table-tittle-and-description/
 ---
@@ -10,31 +10,31 @@ url: /ru/net/working-with-table-styles-and-formatting/table-tittle-and-descripti
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Добавить заголовок & описание в таблицу в слове с использованием посылок.
+# Добавить название и описание в таблицу в Word с помощью Aspose.Words
 
-В этом руководстве показано, как усовершенствовать ваши документы Word, добавив заголовок и описание в таблицы с использованием Aspose.Words для .NET. Вы научитесь манипулировать свойствами таблиц в существующем документе Word, настроить параметры для желаемой совместимости и обеспечить оптимизацию форматирования для Word 2016. Примерный код проходит через загрузку документа, обновление его свойств таблиц и сохранение файла с точными настройками конфигурации.
+В этом руководстве показано, как улучшить ваши документы Word, добавляя название и описание к таблицам с помощью Aspose.Words для .NET. Вы узнаете, как манипулировать свойствами таблицы в существующем документе Word, настраивать варианты сохранения для желаемой совместимости и обеспечить оптимизированное форматирование для Word 2016. Примерный код поможет вам загрузить документ, обновить свойства таблицы и сохранить файл с точной настройкой настройки.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/table-tittle-and-description" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Инструкции по установке:
+## Инструкция по установке:
 
-Чтобы начать с Aspose.Words для .NET и запустить этот пример, следуйте простым шагам:
+Чтобы начать с Aspose.Words для .NET и запустить этот пример, следуйте этим простым шагам:
 
-1. Установите азбуку. Заголовки для .NET:
-   Вы можете легко установить Aspose.Words для .NET через NuGet. Запустить следующую команду в вашей консоле менеджера пакета:
+1. Установите Aspose.Words для .NET:
+   Вы можете легко установить Aspose.Words для .NET через NuGet. Запустите следующую команду в консоли Package Manager:
    ```
    Install-Package Aspose.Words
    ```
 
-2. Применить лицензию (факультативную):  
-   Для использования полной версии,[:: применение лицензии](https://purchase.aspose.com/temporary-license/)или использовать a[свободное судебное разбирательство](https://releases.aspose.com/words/net/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2. Заявление на лицензию (необязательно):  
+   Чтобы использовать полную версию, [подать заявку на выдачу лицензии](https://purchase.aspose.com/temporary-license/)или использовать [бесплатная пробная версия](https://releases.aspose.com/words/net/)\- Я не знаю .
    
-## См.
-[Позиция. Условие для .NET Documentation](https://docs.aspose.com/words/net/)
-[Предпосылки. Условные обозначения для .NET](https://reference.aspose.com/words/net/)
+## См. также
+[Aspose.Word для документации .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word для ссылок .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

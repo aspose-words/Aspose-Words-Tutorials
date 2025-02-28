@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo ra một tài liệu với một biểu đồ bằng cách sử dụng Aspose.Words, đặt ranh giới cho trục Y, và lưu tài liệu như một tệp DOCX. 
+// Mỗi bước được phân chia để cung cấp một sự hiểu biết rõ ràng về quá trình liên quan đến việc làm việc với biểu đồ trong Aspose.Words.
+//ExStepSummary:0: Tạo ra một tài liệu mới và một bản thể chế DocumentBuilder. 
+//ExStepSummary:1: Nhập một biểu đồ vào tài liệu và lấy đối tượng biểu đồ. 
+//ExStepSummary:2: Thêm một chuỗi mới vào biểu đồ với các loại và giá trị được chỉ định. 
+//ExStepSummary:3: Đặt giới hạn tối thiểu và tối đa cho trục Y của biểu đồ. 
+//ExStepSummary:4: Cung cấp tài liệu cho đường dẫn được chỉ định. 
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// Tạo một bản sao mới của Document.
+Document doc = new Document();
+// Tạo ra DocumentBuilder để xây dựng tài liệu.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Nhập biểu đồ cột vào tài liệu.
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+// Khôi phục đối tượng biểu đồ từ hình dạng.
+Chart chart = shape.Chart;
+// Xóa bất kỳ chuỗi hiện có nào từ biểu đồ để có dữ liệu mới.
+chart.Series.Clear();
+
+//ExStep:2-
+// Định nghĩa một loạt phim mới với tên "Aspose Series 1".
+chart.Series.Add("Aspose Series 1",
+    new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
+    new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
+
+//ExStep:3-
+// Đặt giới hạn tối thiểu của trục Y.
+chart.AxisY.Scaling.Minimum = new AxisBound(0);
+chart.AxisY.Scaling.Maximum = new AxisBound(6);
+
+//ExStep:4-
+// Cung cấp tài liệu với biểu đồ cho đường dẫn được chỉ định.
+doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
+//ExEnd

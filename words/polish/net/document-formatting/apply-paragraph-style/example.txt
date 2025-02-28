@@ -1,0 +1,25 @@
+//ExStart
+//ExSummaryKod ten pokazuje, jak tworzyć dokument Word za pomocą Aspose.Words, zastosować styl paragrafu i zapisać dokument. Pokazuje, jak ustawić styl tytułu dla paragrafu i zapisać dokument w formie .docx.
+//ExStepSummary:0: W tej sekcji inicjowane jest nowe przykładowy dokument i dokumentBuilder.
+//ExStepSummary:1: W niniejszej sekcji stosuje styl paragrafu tytułu za pomocą programu DocumentBuilder.
+//ExStepSummary:2: W tej sekcji pisze się "Hello" do dokumentu.
+//ExStepSummary:3: W tej sekcji zapisany jest dokument na określonej ścieżce pliku.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// Wprowadzenie nowej instancji dokumentu
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Ustaw styl ustępu na tytuł
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Title;
+
+//ExStep:2-
+// Napisz "Hello" za pomocą konstruktoru, stosując określony styl
+builder.Write("Hello");
+
+//ExStep:3-
+// Zapisz dokument w pliku .docx
+doc.Save("DocumentFormatting.ApplyParagraphStyle.docx");
+//ExEnd

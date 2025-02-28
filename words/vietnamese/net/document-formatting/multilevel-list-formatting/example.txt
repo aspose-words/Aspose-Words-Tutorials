@@ -1,0 +1,56 @@
+//ExStart
+//ExSummaryMã này cho thấy cách tạo danh sách nhiều cấp trong tài liệu Word bằng cách sử dụng Aspose.Words. Nó khởi tạo tài liệu, áp dụng định dạng số hóa, tạo các mục chính và phụ, và cuối cùng lưu tài liệu như một tệp .docx.
+//ExStepSummary:0: Mã sau đây khởi tạo một tài liệu mới và trình trình tạo tài liệu.
+//ExStepSummary:1: Mã sau áp dụng kiểu số mặc định cho danh sách và thêm các mục cấp cao.
+//ExStepSummary:2: Các đoạn mã sau đây để tạo các mục dưới mục cấp cao thứ hai.
+//ExStepSummary:3: Mã sau đây là những ký hiệu tiếp theo để tạo các phụ điểm dưới phụ điểm thứ hai.
+//ExStepSummary:4: Mã sau này trở lại cấp độ trước để thêm một mục khác ở cấp độ thứ hai.
+//ExStepSummary:5: Mã sau này được đưa trở lại cấp độ đầu để thêm mục cuối cùng vào danh sách.
+//ExStepSummary:6: Mã sau này loại bỏ số hóa khỏi danh sách trước khi lưu.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStep:0-
+// Tạo ra một tài liệu mới
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Sử dụng định dạng số mặc định
+builder.ListFormat.ApplyNumberDefault();
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+
+//ExStep:2-
+// Số tiền đỗ cho các mục phụ
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.1");
+builder.Writeln("Item 2.2");
+
+//ExStep:3-
+// Thuế cho các mục phụ
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.2.1");
+builder.Writeln("Item 2.2.2");
+
+//ExStep:4-
+// Tội rồi quay lại tầng hai.
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 2.3");
+
+//ExStep:5-
+// Tội rồi quay lại cấp độ cao nhất
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 3");
+
+//ExStep:6-
+// Xóa số từ danh sách
+builder.ListFormat.RemoveNumbers();
+
+//ExStep:7-
+// Cung cấp tài liệu
+doc.Save("DocumentFormatting.MultilevelListFormatting.docx");
+//ExEnd

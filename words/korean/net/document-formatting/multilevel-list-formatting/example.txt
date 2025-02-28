@@ -1,0 +1,56 @@
+//ExStart
+//ExSummary: 이 코드는 Aspose.Words를 사용하여 워드 문서에서 다단계 목록을 만드는 방법을 보여줍니다. 문서의 초기화, 번호 형식을 적용, 주요 및 하위 항목을 생성하고, 마지막으로 .docx 파일로 문서를 저장합니다.
+//ExStepSummary:0: 다음 코드는 새로운 문서와 문서 제작자 인스턴스를 초기화합니다.
+//ExStepSummary:1: 다음 코드는 목록에 기본 번호 방식을 적용하고 최고 수준의 항목을 추가합니다.
+//ExStepSummary:2: 다음 코드 실은 두 번째 최고 수준의 항목에 대한 하위 항목을 생성합니다.
+//ExStepSummary:3: 다음 코드에서는 두 번째 하위 항목에 따라 하위 항목을 생성하는 추가 단서입니다.
+//ExStepSummary:4: 다음 코드는 이전 레벨로 다시 튀어나와 두 번째 레벨에 또 다른 항목을 추가합니다.
+//ExStepSummary:5: 다음 코드는 마지막 항목을 목록에 추가하기 위해 상위 레벨로 다시 튀어나간다.
+//ExStepSummary:6: 다음 코드에서는 저장하기 전에 번호를 목록에서 삭제합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStep:0-
+// 새로운 문서를 초기화
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 기본 번호 형식을 적용
+builder.ListFormat.ApplyNumberDefault();
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+
+//ExStep:2-
+// 부 항목에 대한 인센스
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.1");
+builder.Writeln("Item 2.2");
+
+//ExStep:3-
+// 부 부 항목에 대한 인센스
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.2.1");
+builder.Writeln("Item 2.2.2");
+
+//ExStep:4-
+// 두 번째 층으로 돌아간
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 2.3");
+
+//ExStep:5-
+// 든트 다시 최고 수준으로
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 3");
+
+//ExStep:6-
+// 목록에서 번호를 제거
+builder.ListFormat.RemoveNumbers();
+
+//ExStep:7-
+// 문서 를 저장
+doc.Save("DocumentFormatting.MultilevelListFormatting.docx");
+//ExEnd

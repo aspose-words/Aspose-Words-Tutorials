@@ -1,8 +1,8 @@
 ---
-title: Работа с таблицами и форматирование в азбуке.
+title: Работа с табличными стилями и форматированием в Aspose.Words для .NET
 weight: 10
 limit:
-description: Учитесь стилизировать и форматировать таблицы в Word documents используя Aspose.Words для .NET.
+description: Узнайте, как стилировать и форматировать таблицы в документах Word с помощью Aspose.Words для .NET. Устроить стили таблиц, границы, оттенки и выравнивание без труда.
 keywords:
 url: /ru/net/working-with-table-styles-and-formatting/
 ---
@@ -12,20 +12,20 @@ url: /ru/net/working-with-table-styles-and-formatting/
 
 ## Введение
  
-Стиль и форматирование таблиц имеют важнейшее значение для создания профессиональных документов Word. В рамках программы Aspose.Words for .NET вы можете легко применять предопределённые стили таблиц или создавать заказные таблицы, чтобы соответствовать дизайну документа. Библиотека позволяет вам определять стиль границ, затенение клеток, текстовое соединение и даже управлять программными свойствами по ширине и высоте таблиц. Независимо от того, составляете ли вы отчеты, счета-фактуры или создаете сложные макеты, Aspose.Words обеспечивает бесперебойное и эффективное форматирование таблиц.  
+С помощью Aspose.Words для .NET вы можете легко применять заранее определенные стили таблиц или создавать пользовательские стили, чтобы соответствовать дизайну вашего документа. Библиотека позволяет вам определить граничные стили, оттенки ячеек, текстовое выравнивание и даже программировать свойства ширины и высоты таблицы.  
 
-Изучите такие передовые характеристики, как установление полярных полярий клеток, слияние клеток или использование чередующихся цветов рядов для лучшего чтения. Позиции. Устройства для .NET дают разработчикам возможность иметь полный контроль над показом таблиц при сохранении последовательности документов. С несколькими строк кода вы можете обеспечить, чтобы ваши таблицы выглядели полированными и профессиональными, экономив как время, так и усилия.  
+Исследуйте передовые функции, такие как установка маржи клеток, слияние клеток или применение альтернативных цветов рядов для лучшего чтения. Aspose.Words для .NET позволяет разработчикам иметь полный контроль над внешним видом таблицы, поддерживая согласованность документа.  
 
-{{< tutorial-card link="./apply-outline-border/" title="Применить контурную границу к таблице в слове с помощью посылок." imgSrc="/words/net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
-{{< tutorial-card link="./apply-row-formatting/" title="Применить форматирование строк в Word Documents" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./build-table-with-border/" title="Изменить границы таблиц в слове с использованием азпозы." imgSrc="/words/net/working-with-table-styles-and-formatting/build-table-with-border/images/thumb.png" >}}
-{{< tutorial-card link="./buildtable-with-style/" title="Создать стильные столы в слове с позитивом." imgSrc="/words/net/working-with-table-styles-and-formatting/buildtable-with-style/images/thumb.png" >}}
-{{< tutorial-card link="./cell-padding/" title="Создать ячейку Word Table с паддингом в позитиве." imgSrc="/words/net/working-with-table-styles-and-formatting/cell-padding/images/thumb.png" >}}
-{{< tutorial-card link="./create-table-style/" title="Создать Styled Table в Word Document с помощью Aspose.Words для .NET" imgSrc="/words/net/working-with-table-styles-and-formatting/create-table-style/images/thumb.png" >}}
-{{< tutorial-card link="./format-table-and-cell/" title="Создать Word document with services & shading" imgSrc="/words/net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
-{{< tutorial-card link="./set-table-cell-formatting/" title="Создать и форматировать таблицу в слововом документе" imgSrc="/words/net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./set-table-row-formatting/" title="Создать форматированную таблицу в слове с позитивом." imgSrc="/words/net/working-with-table-styles-and-formatting/set-table-row-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./table-tittle-and-description/" title="Добавить заголовок & описание в таблицу в слове с использованием посылок." imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
+{{< tutorial-card link="./apply-outline-border/" title="Применить границу контуры к таблице в слове с помощью Aspose.Words" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
+{{< tutorial-card link="./apply-row-formatting/" title="Применить форматирование рядов в документах Word" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./build-table-with-border/" title="Изменить границы таблиц в Word с помощью Aspose.Words для .NET" imgSrc="/words/net/working-with-table-styles-and-formatting/build-table-with-border/images/thumb.png" >}}
+{{< tutorial-card link="./buildtable-with-style/" title="Создать стильные таблицы в слове с помощью Aspose.Words" imgSrc="/words/net/working-with-table-styles-and-formatting/buildtable-with-style/images/thumb.png" >}}
+{{< tutorial-card link="./cell-padding/" title="Создать ячейку таблицы слов с помощью подкладки в Aspose.Words" imgSrc="/words/net/working-with-table-styles-and-formatting/cell-padding/images/thumb.png" >}}
+{{< tutorial-card link="./create-table-style/" title="Создать таблицу стиля в документе Word с использованием Aspose.Words для .NET" imgSrc="/words/net/working-with-table-styles-and-formatting/create-table-style/images/thumb.png" >}}
+{{< tutorial-card link="./format-table-and-cell/" title="Создать документ в слове с помощью табличных границ и оттенков" imgSrc="/words/net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
+{{< tutorial-card link="./set-table-cell-formatting/" title="Создание и форматирование таблицы в документе Word" imgSrc="/words/net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./set-table-row-formatting/" title="Создать форматированную таблицу в слове с помощью Aspose.Words" imgSrc="/words/net/working-with-table-styles-and-formatting/set-table-row-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./table-tittle-and-description/" title="Добавить название и описание в таблицу в Word с помощью Aspose.Words" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

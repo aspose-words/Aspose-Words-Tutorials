@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách chèn hình dạng (bhokisi văn bản) vào tài liệu Word bằng cách sử dụng Aspose.Words. Tài liệu được lưu trong định dạng DOCX với các tùy chọn tuân thủ cụ thể cho các tiêu chuẩn ISO.
+//ExStepSummary:0: Mã khởi tạo một tài liệu mới và một trình tạo tài liệu để thao túng tài liệu.
+//ExStepSummary:1: Một hình dạng ( hộp văn bản) được đưa vào vị trí tuyệt đối trong tài liệu và xoay vòng hình dạng đầu tiên được đặt ở độ 30.
+//ExStepSummary:2: Một hình dạng mới được đưa vào một vị trí tương đối và quay hình dạng thứ hai cũng được đặt ở độ 30.
+//ExStepSummary:3: Tài liệu được lưu bằng OoxmlSaveOptions cụ thể.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Tạo một bản sao tài liệu mới
+Document doc = new Document();
+// Tạo ra một DocumentBuilder cho tài liệu
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Nhập hình dạng kiểu TextBox
+Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
+    RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
+// Chuyển hình hình bằng 30 độ
+shape.Rotation = 30.0;
+
+//ExStep:2-
+builder.Writeln();
+// Chèn một hình dạng khác của loại TextBox ở vị trí tương đối
+shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
+// Chuyển hình thứ hai bằng 30 độ
+shape.Rotation = 30.0;
+
+//ExStep:3-
+// Chuẩn bị các tùy chọn lưu cho tài liệu
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
+{
+    Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
+};
+
+// Cung cấp tài liệu bằng cách sử dụng các tùy chọn lưu được chỉ định
+doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
+//ExEnd

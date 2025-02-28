@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: 이 코드는 .NET에 대한 Aspose.Words를 사용하여 워드 문서의 헤더에 이미지를 삽입하는 방법을 보여줍니다.
+//ExStepSummary:0: Aspose.Words 문서 클래스를 사용하여 새로운 워드 문서를 생성하십시오.
+//ExStepSummary:1: 문서 제작자를 사용하여 문서의 주요 헤더로 이동합니다.
+//ExStepSummary:2: 특정 조렬, 크기와 포장 옵션을 가진 헤더에 이미지를 삽입하십시오.
+//ExStepSummary:3: 문서를 지정된 파일 경로로 저장합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 새로운 워드 문서를 작성
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 커서 를 문서의 주요 헤더로 이동
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+// 특정 조율과 크기를 가진 화면을 헤더에 삽입
+builder.InsertImage(
+    ImagesDir + "Logo.jpg", RelativeHorizontalPosition.RightMargin, 10,
+    RelativeVerticalPosition.Page, 10, 50, 50, 
+    WrapType.Through
+);
+
+//ExStep:3-
+// 문서가 지정된 경로로 저장
+doc.Save("WorkingWithHeadersAndFooters.InsertImage.docx");
+//ExEnd

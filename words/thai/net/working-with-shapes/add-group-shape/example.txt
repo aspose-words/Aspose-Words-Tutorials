@@ -1,0 +1,67 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างรูปกลุ่มในเอกสาร โดยใช้ Aspose.Words
+// มันสร้างรูปแบบการเรียกริมเส้นอักษร และปุ่มการกระทํา เพิ่มมันไปยังรูปแบบกลุ่ม แล้วใส่รูปกลุ่มในเอกสาร ก่อนจะบันทึกมัน
+//ExStepSummary:0: เปิดเอกสารใหม่ และทําให้แน่ใจว่าความต้องการขั้นต่ําถูกตอบสนอง
+//ExStepSummary:1: สร้าง GroupShape ที่จะเก็บรูปอื่นๆ
+//ExStepSummary:2: เพิ่มรูปแบบการเรียกริมเขตอักษรเข้ารูปแบบกลุ่ม
+//ExStepSummary:3: เพิ่มรูปปุ่มการกระทํากับรูปกลุ่ม
+//ExStepSummary:4: กําหนดขนาดและสมาธิสําหรับรูปร่างกลุ่ม
+//ExStepSummary:5: เก็บรูปกลุ่มเข้าในเอกสาร โดยใช้ DocumentBuilder
+//ExStepSummary:6: เก็บเอกสารที่มีรูปกลุ่มไว้ที่สถานที่ที่กําหนด
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStep:0-
+// สร้างเอกสารใหม่
+Document doc = new Document();
+// รับรองว่าเอกสารตอบสนองกับข้อจํากัดขั้นต่ํา
+doc.EnsureMinimum();
+
+//ExStep:1-
+// สร้างตัวอย่าง GroupShape ใหม่
+GroupShape groupShape = new GroupShape(doc);
+
+//ExStep:2-
+// สร้างรูปแบบการเรียกริมโน้ต
+Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
+{
+    Width = 100, 
+    Height = 100
+};
+// เพิ่มรูปเป็นรูปกลุ่ม
+groupShape.AppendChild(accentBorderShape);
+
+//ExStep:3-
+// สร้างรูปปุ่มการกระทํา
+Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
+{
+	// กําหนดตําแหน่งซ้ายของรูป
+    Left = 100, 
+	// กําหนดความกว้างของรูปร่าง
+    Width = 100, 
+	// สัดความสูงของรูปร่าง
+    Height = 200
+};
+// เพิ่มปุ่มการกระทําเข้ารูปกลุ่ม
+groupShape.AppendChild(actionButtonShape);
+
+//ExStep:4-
+// กําหนดความกว้างของรูปกลุ่ม
+groupShape.Width = 200;
+// กําหนดความสูงของรูปกลุ่ม
+groupShape.Height = 200;
+// กําหนดขนาดสอดคอนโดสําหรับรูปร่างกลุ่ม
+groupShape.CoordSize = new Size(200, 200);
+
+//ExStep:5-
+// สร้าง DocumentBuilder เพื่อการควบคุมเอกสาร
+DocumentBuilder builder = new DocumentBuilder(doc);
+// ใส่รูปกลุ่มในเอกสาร
+builder.InsertNode(groupShape);
+
+//ExStep:6-
+// เก็บเอกสารไว้ที่ที่กําหนด
+doc.Save("WorkingWithShapes.AddGroupShape.docx");
+//ExEnd

@@ -1,0 +1,56 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างรายการหลายระดับในเอกสาร Word โดยใช้ Aspose.Words มันเริ่มต้นเอกสาร, ใช้รูปแบบหมายเลข, สร้างประเภทหลักและรอง และสุดท้ายบันทึกเอกสารเป็นไฟล์ .docx
+//ExStepSummary:0: คódต่อไปนี้เริ่มต้นเอกสารใหม่และเอกสารBuilder ตัวอย่าง
+//ExStepSummary:1: คódต่อไปนี้ใช้สไตล์การหมายเลขตามปกติในรายการและเพิ่มประเภทระดับสูงสุด
+//ExStepSummary:2: ข้อเบื้องต้นที่ติดตามนี้ เพื่อสร้างข้อเบื้องต้นในข้อที่ 2 ระดับสูงสุด
+//ExStepSummary:3: คოდიต่อไปนี้เป็นหลักสูตรเพิ่มเติม เพื่อสร้างข้อเบื้องต้นตามข้อเบื้องต้นที่สอง
+//ExStepSummary:4: โค้ดต่อไปนี้ถูกย้อนกลับไปสู่ระดับที่แล้ว เพื่อเพิ่มข้อหนึ่งในระดับที่สอง
+//ExStepSummary:5: คódต่อไปนี้กลับไปที่ระดับบน เพื่อเพิ่มรายการสุดท้ายในรายการ
+//ExStepSummary:6: คódต่อไปนี้ลบการหมายเลขจากรายการก่อนการบันทึก
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStep:0-
+// เริ่มต้นเอกสารใหม่
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// ใช้รูปแบบการหมายเลขตามปกติ
+builder.ListFormat.ApplyNumberDefault();
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+
+//ExStep:2-
+// ราคาถอนสําหรับส่วนประกอบ
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.1");
+builder.Writeln("Item 2.2");
+
+//ExStep:3-
+// ราคาถอนสําหรับตัวส่วน
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.2.1");
+builder.Writeln("Item 2.2.2");
+
+//ExStep:4-
+// ผู้นํากลับสู่ระดับที่สอง
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 2.3");
+
+//ExStep:5-
+// ผู้นํากลับสู่ระดับสูงสุด
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 3");
+
+//ExStep:6-
+// ยกออกหมายเลขจากรายการ
+builder.ListFormat.RemoveNumbers();
+
+//ExStep:7-
+// เก็บเอกสาร
+doc.Save("DocumentFormatting.MultilevelListFormatting.docx");
+//ExEnd

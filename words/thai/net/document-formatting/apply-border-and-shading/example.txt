@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการใช้ขอบและเงาให้กับข้อความในเอกสาร Word โดยใช้ Aspose.Words
+//ExStepSummary:0: คódต่อไปนี้เริ่มต้นตัวอย่างเอกสารและเอกสารเอกสารใหม่
+//ExStepSummary:1: คódต่อไปนี้ตั้งแดนข้อความให้ห่างจากข้อความ
+//ExStepSummary:2: คódต่อไปนี้ใช้การเงาสติกเส้นทางข้ามกับข้อความที่มีสีที่กําหนด
+//ExStepSummary:3: คódต่อไปนี้เขียนข้อที่ออกแบบพร้อมกับการตั้งค่าที่ใช้
+//ExStepSummary:4: คódต่อไปนี้บันทึกเอกสารไปยังเส้นทางการออกที่กําหนด
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// เริ่มต้นเอกสารใหม่
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// เข้าถึงขอบเขตของข้อ
+BorderCollection borders = builder.ParagraphFormat.Borders;
+borders.DistanceFromText = 20;
+borders[BorderType.Left].LineStyle = LineStyle.Double;
+borders[BorderType.Right].LineStyle = LineStyle.Double;
+borders[BorderType.Top].LineStyle = LineStyle.Double;
+borders[BorderType.Bottom].LineStyle = LineStyle.Double;
+
+//ExStep:2-
+// เข้าถึงคุณสมบัติการเงาของข้อ
+Shading shading = builder.ParagraphFormat.Shading;
+shading.Texture = TextureIndex.TextureDiagonalCross;
+shading.BackgroundPatternColor = System.Drawing.Color.LightCoral; 
+shading.ForegroundPatternColor = System.Drawing.Color.LightSalmon;
+
+//ExStep:3-
+// เขียนเนื้อหาข้อที่ออกแบบ
+builder.Write("I'm a formatted paragraph with double border and nice shading.");
+
+//ExStep:4-
+// กรอกสารไว้ในเส้นทางที่กําหนด
+doc.Save(ArtifactsDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
+//ExEnd

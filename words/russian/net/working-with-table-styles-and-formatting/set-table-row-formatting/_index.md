@@ -1,8 +1,8 @@
 ---
-title: Создать форматированную таблицу в Word with Aspose.Words для .NET
+title: Создать форматированную таблицу в Word с помощью Aspose.Words для .NET
 weight: 7700
 limit: 
-description: Научитесь создавать документ Word с форматированной таблицей с использованием Aspose.Words для .NET с этим поэтапным примером.
+description: Научитесь создавать документ Word с форматированной таблицей с помощью Aspose.Words для .NET с помощью этого примерного этапа.
 keywords: [Aspose.Words, .NET, Word document, formatted table, DocumentBuilder, table formatting, C# example]
 url: /ru/net/working-with-table-styles-and-formatting/set-table-row-formatting/
 ---
@@ -10,9 +10,9 @@ url: /ru/net/working-with-table-styles-and-formatting/set-table-row-formatting/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Создать форматированную таблицу в слове с позитивом.
+# Создать форматированную таблицу в слове с помощью Aspose.Words
 
-Этот пример показывает, как создать документ Word, содержащий форматированную таблицу с использованием Aspose.Words for .NET. Вы научитесь инициализировать новый документ, установить таблицу с конкретным форматированием строк и наклеиванием, а также сохранить документ на заданном пути. Это руководство идеально для разработчиков, которые стремятся расширить свои возможности для подготовки документов с Aspose.Words.
+Этот пример показывает, как создать документ Word, содержащий форматированную таблицу с использованием Aspose.Words для .NET. Вы научитесь инициировать новый документ, настроить таблицу с конкретной форматированием строки и заполнением, и сохранить документ на определенном пути.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/set-table-row-formatting" >}}
@@ -20,21 +20,21 @@ url: /ru/net/working-with-table-styles-and-formatting/set-table-row-formatting/
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Инструкции по установке
-1. Установите Aspose.Words для .NET: Использовать менеджер пакета NuGet для установки Aspose.Words. Вы можете запустить следующую команду в консоле менеджера пакета:
+1. Установка Aspose.Words для .NET: Используйте NuGet Package Manager для установки Aspose.Words. Вы можете запустить следующую команду в консоли Package Manager:
    ```
    Install-Package Aspose.Words
    ```
 
 2. Create a New Project: Open Visual Studio and create a new C# project (Console Application or any type you prefer).
 
-3. Добавить ссылку на библиотеку Aspose.Words в вашем проекте.
+3. Добавить ссылку: убедитесь, что библиотека Aspose.Words ссылается на ваш проект.
 
-4. Применить лицензию (факультативную):  
-   Для использования полной версии,[:: применение лицензии](https://purchase.aspose.com/temporary-license/)или использовать a[свободное судебное разбирательство](https://releases.aspose.com/words/net/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4. Заявление на лицензию (необязательно):  
+   Чтобы использовать полную версию, [подать заявку на выдачу лицензии](https://purchase.aspose.com/temporary-license/)или использовать [бесплатная пробная версия](https://releases.aspose.com/words/net/)\- Я не знаю .
    
-## См.
-[Позиция. Условие для .NET Documentation](https://docs.aspose.com/words/net/)
-[Предпосылки. Условные обозначения для .NET](https://reference.aspose.com/words/net/)
+## См. также
+[Aspose.Word для документации .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word для ссылок .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary:이 예제에서는 .NET에 대한 Aspose.Words를 사용하여 Word 문서의 한 섹션에서 다른 섹션에 콘텐츠를 추가하고 미리 추가하는 방법을 보여줍니다.
+//ExStepSummary:0: 새로운 워드 문서와 문서 제작자를 초기화하여 콘텐츠를 추가합니다.
+//ExStepSummary:1: 문서를 작성하고 문서에 여러 섹션을 생성하기 위해 섹션 휴식을 삽입하십시오.
+//ExStepSummary:2: 문서의 세 번째 섹션에 접속하여 콘텐츠 조작을 준비하십시오.
+//ExStepSummary:3: 첫 번째 섹션부터 세 번째 섹션까지의 내용을 미리 작성하십시오.
+//ExStepSummary:4: 두 번째 섹션에서 세 번째 섹션에 내용을 추가합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// 문서 및 문서 제작자를 초기화
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 텍스트를 작성하고 세 개의 섹션을 생성하기 위해 섹션 휴식을 삽입
+builder.Write("Section 1");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// 두 번째 섹션에 내용을 추가
+builder.Write("Section 2");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// 제3부에 내용물을 추가
+builder.Write("Section 3");
+
+//ExStep:2-
+// 문서에서 세 번째 섹션을 검색
+Section section = doc.Sections[2];
+
+//ExStep:3-
+// 첫 번째 섹션에서 세 번째 섹션에 대한 내용의 사전 작성
+Section sectionToPrepend = doc.Sections[0];
+section.PrependContent(sectionToPrepend);
+
+//ExStep:4-
+// 제2부에서 제3부에 포함된 내용을 추가
+Section sectionToAppend = doc.Sections[1];
+section.AppendContent(sectionToAppend);
+//ExEnd

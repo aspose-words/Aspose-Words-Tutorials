@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary:이 코드는 Aspose.Words를 사용하여 스캐더 차트를 사용하여 워드 문서를 만드는 방법을 보여줍니다. 문서를 초기화하고 콘텐츠를 만들고 스캐더 차트를 삽입하고 데이터들을 추가하고 문서를 저장합니다.
+//ExStepSummary:0: 문서의 초기화 및 문서 제작자는 문서 작업에 시작하기 위해 반대합니다.
+//ExStepSummary:1: 문서에 스캐더 차트를 삽입한다.
+//ExStepSummary:2: 스캐더 차트에 일련의 데이터 포인트를 추가합니다.
+//ExStepSummary:3: 스캐터 차트와 함께 문서를 .docx 파일에 저장합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 새로운 문서를 초기화
+Document doc = new Document();
+// 콘텐츠를 삽입하기 위해 빌더를 생성
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 문서에 스캐더 차트를 삽입
+Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252); 
+
+//ExStep:2-
+// 삽입된 모양에서 차트 객체를 얻으십시오
+Chart chart = shape.Chart;
+// 차트에 일련 데이터를 추가
+chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 });
+
+//ExStep:3-
+// 스캐더 차트와 함께 문서를 저장
+doc.Save("WorkingWithCharts.InsertScatterChart.docx");
+//ExEnd

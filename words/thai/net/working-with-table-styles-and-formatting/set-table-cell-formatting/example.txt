@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: คódต่อไปนี้แสดงให้เห็นวิธีการสร้างและรูปแบบตารางในเอกสาร Word โดยใช้คลาส DocumentBuilder จาก Aspose.Words.
+//ExStepSummary:0: เริ่มต้นเอกสารใหม่และ DocumentBuilder เพื่อเริ่มสร้างเอกสาร Word
+//ExStepSummary:1: สร้างตารางและใส่เซลล์เพื่อการฟอร์มเทอร์
+//ExStepSummary:2: กําหนดคุณสมบัติการฟอร์เมทสําหรับเซลล์, รวมถึงการเติมและความกว้าง.
+//ExStepSummary:3: ใส่ข้อความในเซลล์ที่ฟอร์มาต
+//ExStepSummary:4: จบแถวและตาราง และบันทึกเอกสารไปยังเส้นทางไฟล์ที่กําหนด
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// การสร้างวัตถุเอกสารใหม่
+Document doc = new Document();
+// การเริ่มต้น DocumentBuilder กับเอกสารใหม่
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// เริ่มสร้างโต๊ะ
+builder.StartTable();
+// ใส่เซลล์แรกในตาราง
+builder.InsertCell();
+
+//ExStep:2-
+// การเข้าถึงคุณสมบัติการฟอร์เมทเซลล์
+CellFormat cellFormat = builder.CellFormat;
+// การตั้งความกว้างเซลล์
+cellFormat.Width = 250;
+// เตรียมการปรับ
+cellFormat.LeftPadding = 30;
+cellFormat.RightPadding = 30;
+cellFormat.TopPadding = 30;
+cellFormat.BottomPadding = 30;
+
+//ExStep:3-
+// การใส่ข้อความในเซลล์
+builder.Writeln("I'm a wonderful formatted cell.");
+
+//ExStep:4-
+// จบแถวของตารางนี้
+builder.EndRow();
+// จบการสร้างตาราง
+builder.EndTable();
+// การบันทึกเอกสาร
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");
+//ExEnd

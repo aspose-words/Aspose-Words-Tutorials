@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างเอกสารที่มีตารางโดยใช้ Aspose.Words, ตั้งขอบเขตสําหรับแกน Y และบันทึกเอกสารเป็นไฟล์ DOCX. 
+// ขั้นตอนแต่ละขั้นตอนถูกแยกแยกให้มีความเข้าใจชัดเจนเกี่ยวกับกระบวนการที่เกี่ยวข้องกับการทํางานกับตารางใน Aspose.Words.
+//ExStepSummary:0: เริ่มต้นเอกสารใหม่และตัวอย่าง DocumentBuilder 
+//ExStepSummary:1: ใส่แผนที่ในเอกสารและหาวัตถุแผนที่ 
+//ExStepSummary:2: เพิ่มเรียงใหม่ในตารางที่มีประเภทและค่าที่กําหนด 
+//ExStepSummary:3: กําหนดขอบขั้นต่ําและขอบสูงสุดสําหรับแกน Y ของแผนที่ 
+//ExStepSummary:4: กรอกสารไว้ที่เส้นทางที่กําหนดไว้ 
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// สร้างตัวอย่างเอกสารใหม่
+Document doc = new Document();
+// เริ่มต้น DocumentBuilder เพื่อสร้างเอกสาร
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// ใส่แผนที่คอลัมน์ในเอกสาร
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+// ค้นหาตัวของแผนที่จากรูป
+Chart chart = shape.Chart;
+// ยกออกเรียงรายที่มีอยู่จากแผนที่เพื่อข้อมูลใหม่
+chart.Series.Clear();
+
+//ExStep:2-
+// กําหนดรายการใหม่ชื่อ "Aspose Series 1"
+chart.Series.Add("Aspose Series 1",
+    new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
+    new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
+
+//ExStep:3-
+// กําหนดขอบเขตขั้นต่ําของแกน Y
+chart.AxisY.Scaling.Minimum = new AxisBound(0);
+chart.AxisY.Scaling.Maximum = new AxisBound(6);
+
+//ExStep:4-
+// กรอกสารพร้อมกับแผนที่ไว้ที่เส้นทางที่กําหนด
+doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
+//ExEnd

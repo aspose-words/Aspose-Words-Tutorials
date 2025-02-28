@@ -1,8 +1,8 @@
 ---
-title: Создать график WordScatter с использованием позитивов. Words для .NET
+title: Создать диаграмму рассеивания слов с использованием Aspose.Words для .NET
 weight: 7700
 limit: 
-description: Узнайте, как создать документ Word с схемой рассеивания с использованием Aspose.Words для .NET. Поэтапное руководство с кодом и инструкциями.
+description: Узнайте, как создать документ Word с диаграммой рассеивания с использованием Aspose.Words для .NET. Пошаговое руководство с кодом и инструкциями.
 keywords: [Aspose.Words for .NET, scatter chart, Word scatter chart, create scatter chart, insert chart in Word, .NET Word document, document builder]
 url: /ru/net/working-with-charts/insert-scatter-chart/
 ---
@@ -10,9 +10,9 @@ url: /ru/net/working-with-charts/insert-scatter-chart/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Создать скриншот с использованием позитива.
+# Создайте диаграмму рассеивания слов с помощью Aspose.Words
 
-Поставьте. Условия для .NET упрощают создание и манипулирование программными документами Word. Этот пример показывает, как вставить график рассеяния в документ Word.`Бюллетень документации`Для создания контента, а также для программирования ввода данных карты вы можете эффективно добавлять в ваши документы графики рассеяния профессиональных классов. С его интуитивной API, Apose.Words упрощает автоматизацию документов для .NET разработчиков, экономивая время и усилия.  
+Aspose.Words для .NET упрощает программирование создания и манипулирования документами Word.`ДокументBuilder`Для создания контента и программирования графических данных вы можете эффективно добавлять профессиональные диаграммы для рассеивания в свои документы. С помощью интуитивного API Aspose.Words упрощает автоматизацию документов для разработчиков .NET, экономия времени и усилий.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-scatter-chart" >}}
@@ -20,31 +20,31 @@ url: /ru/net/working-with-charts/insert-scatter-chart/
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Инструкции по установке  
-В качестве примера можно привести следующие шаги:  
+Чтобы запустить этот пример, следуйте следующим шагам:  
 
-1. Загрузка и загрузка азбуки. Установки для .NET  
-   * Загрузить библиотеку с официального сайта Aspose:[Позиция. Загрузка .NET](https://releases.aspose.com/words/net/). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
-   * Установить через менеджер пакета NuGet:  
+1. Скачать и установить Aspose.Words для .NET  
+   * Скачать библиотеку с официального сайта Aspose: [Aspose.Words для скачивания .NET](https://releases.aspose.com/words/net/)\- Я не знаю .  
+   * Установка через управляющий пакетами NuGet:  
      ```bash  
      Install-Package Aspose.Words  
      ```  
 
-2. Установите условия для развития  
-   * Откройте .NET IDE (например, Visual Studio).  
-   * Создать новое приложение Console или интегрироваться в существующий проект.  
-   * Добавить ссылку на Aspose.Words для библиотеки .NET.  
+2. Создавайте условия для развития  
+   * Откройте свой .NET IDE (например, Visual Studio).  
+   * Создать новое приложение консоли или интегрировать его в существующий проект.  
+   * Добавьте ссылку на Aspose.Words для библиотеки .NET.  
 
-3. Применить лицензию  
-   * Если у вас есть лицензия, используйте ее в вашем проекте, используя:  
+3. Заявление на выдачу лицензии  
+   * Если у вас есть лицензия, примените ее в своем проекте, используя:  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("Your_License_File.lic");  
      ```  
-   * В качестве альтернативы, получить[бесплатная временная лицензия](https://purchase.aspose.com/temporary-license/)чтобы проверить библиотеку.
+   * В качестве альтернативы, получите [бесплатная временная лицензия](https://purchase.aspose.com/temporary-license/)чтобы проверить библиотеку.
 
-## См.
-[Позиция. Условие для .NET Documentation](https://docs.aspose.com/words/net/)
-[Предпосылки. Условные обозначения для .NET](https://reference.aspose.com/words/net/)
+## См. также
+[Aspose.Word для документации .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word для ссылок .NET](https://reference.aspose.com/words/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

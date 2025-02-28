@@ -1,0 +1,63 @@
+//ExStart
+//ExSummary:Công mã này cho thấy cách tạo tài liệu Word với bảng có các phong cách biên giới và bóng khác nhau cho các tế bào của nó.
+//ExStepSummary:0: Tạo ra Document và DocumentBuilder để tạo ra một tài liệu Word mới.
+//ExStepSummary:1: Bắt đầu một bàn mới và đặt ranh giới cho toàn bộ bàn.
+//ExStepSummary:2: Thêm tế bào đầu tiên với màu sắc nền đỏ và văn bản.
+//ExStepSummary:3: Thêm tế bào thứ hai với màu xanh lá cây nền và văn bản.
+//ExStepSummary:4: Kết thúc hàng đầu và xóa định dạng tế bào trước đó.
+//ExStepSummary:5: Thêm một hàng mới với các ranh giới lớn hơn tùy chỉnh cho tế bào đầu tiên.
+//ExStepSummary:6: Thêm ô thứ hai của hàng mới với định dạng mặc định và văn bản.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Tạo một tài liệu mới.
+Document doc = new Document();
+// Tạo một DocumentBuilder để thao tác tài liệu.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// Bắt đầu một bàn mới.
+Table table = builder.StartTable();
+// Đưa tế bào đầu tiên vào bàn.
+builder.InsertCell();
+// Đặt ranh giới cho toàn bộ bàn.
+table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
+
+//ExStep:2-
+// Đặt màu nền của tế bào lên màu đỏ.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
+builder.Writeln("Cell #1");
+// Đưa vào tế bào thứ hai.
+builder.InsertCell();
+
+//ExStep:3-
+// Đặt màu nền của tế bào lên màu xanh lá cây.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
+builder.Writeln("Cell #2");
+// Kết thúc dòng dòng hiện tại.
+builder.EndRow();
+
+//ExStep:4-
+// Xóa bất kỳ định dạng tế bào nào để bắt đầu mới.
+builder.CellFormat.ClearFormatting();
+// Nhập một tế bào mới vào hàng tiếp theo.
+builder.InsertCell();
+// Tạo ranh giới lớn hơn cho tế bào đầu tiên của hàng này.
+builder.CellFormat.Borders.Left.LineWidth = 4.0;
+builder.CellFormat.Borders.Right.LineWidth = 4.0;
+builder.CellFormat.Borders.Top.LineWidth = 4.0;
+builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
+builder.Writeln("Cell #3");
+//ExStep:5-
+// Đưa vào tế bào thứ tư.
+builder.InsertCell();
+builder.CellFormat.ClearFormatting();
+builder.Writeln("Cell #4");
+//ExStep:6-
+// \- Cứ lưu tài liệu.
+doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
+//ExEnd

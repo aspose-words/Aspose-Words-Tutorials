@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: 이 코드는 .NET에 대한 Aspose.Words를 사용하여 Word 문서에 양식 필드를 삽입하는 방법을 보여줍니다. 구체적으로, 미리 정의된 항목을 가진 컴보 Box 양식 필드를 삽입하는 방법을 보여줍니다.
+//ExStepSummary:0: 다음 코드에서는 새로운 워드 문서를 만드는 방법을 보여줍니다.
+//ExStepSummary:1: 다음 코드에서는 문서 편집을 위한 문서 빌더를 초기화하는 방법을 보여줍니다.
+//ExStepSummary:2: 다음 코드에서는 미리 정의된 항목과 기본 선택이 있는 컴보 Box 양식 필드를 정의하고 삽입하는 방법을 보여줍니다.
+//ExStepImage:0:images/1.png
+//ExStepImage:1:images/2.png
+//ExStep:0-
+// 빈 워드 문서를 초기화
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 컴보 박스 양식 필드를 정의하고 삽입
+string[] items = { "One", "Two", "Three" };
+builder.InsertComboBox("DropDown", items, 0);
+//ExEnd
