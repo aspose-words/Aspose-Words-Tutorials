@@ -11,7 +11,7 @@ url: /it/net/document-formatting/apply-border-and-shading/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Applicare i confini e l'ombra al paragrafo di Aspose.Words
-Aspose.Words for .NET empowers developers to create richly formatted Word documents programmatically. This example demonstrates how to apply borders and shading to a paragraph in a Word document using Aspose.Words. You’ll learn to set double-line borders and diagonal cross shading with custom colors for an elegant and professional look. The provided C# code snippet simplifies the implementation process, making it an ideal solution for developers looking to enhance document aesthetics programmatically.  
+Aspose.Words per .NET consente agli sviluppatori di creare document Word riccamente formattati programmaticamente. Questo esempio dimostra come applicare confini e ombraggi a un paragrafo in un documento Word utilizzando Aspose.Words. Imparerai a impostare confini a doppia linea e ombraggiamento croce diagonale con colori personalizzati per un look elegante e professionale. Il snippet di codice C# fornito semplifica il processo di implementazione, rendendolo una soluzione ideale per gli sviluppatori che desiderano migliorare l'estetica del documento programmaticamente.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/document-formatting/apply-border-and-shading" >}}

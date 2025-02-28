@@ -11,7 +11,7 @@ url: /ko/net/working-with-fonts/get-font-line-spacing/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 워드 문서에서 글꼴 라인 간격을 얻으십시오
-Aspose.Words for .NET simplifies Word document creation and manipulation. This example demonstrates how to initialize a Word document, set a custom font, and retrieve the line spacing of a specific font. Whether you're automating document generation or analyzing text styles, this guide provides clear instructions and practical code snippets to achieve your goals efficiently. Aspose.Words for .NET is a powerful library for developers working with Word documents in C# or VB.NET.
+.NET용 Aspose.Words는 워드 문서 제작 및 조작을 단순화합니다. 이 예는 워드 문서 초기화, 사용자 지정 글꼴 설정 및 특정 글꼴의 라인 거리를 검색하는 방법을 보여줍니다. 문서 생성 자동화 또는 텍스트 스타일을 분석하는 경우도 불구하고, 이 가이드에는 목표를 효율적으로 달성하기 위해 명확한 지침과 실용적인 코드 단편이 제공됩니다. .NET용 Aspose.Words는 C# 또는 VB.NET에서 워드 문서와 작업하는 개발자를위한 강력한 라이브러리입니다.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-fonts/get-font-line-spacing" >}}

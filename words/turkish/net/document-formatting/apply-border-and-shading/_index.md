@@ -11,7 +11,7 @@ url: /tr/net/document-formatting/apply-border-and-shading/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Words bölümünde paragraflara sınırları ve gölgelik uygula
-Aspose.Words for .NET empowers developers to create richly formatted Word documents programmatically. This example demonstrates how to apply borders and shading to a paragraph in a Word document using Aspose.Words. You’ll learn to set double-line borders and diagonal cross shading with custom colors for an elegant and professional look. The provided C# code snippet simplifies the implementation process, making it an ideal solution for developers looking to enhance document aesthetics programmatically.  
+.NET için Aspose.Words geliştiricilere programsal olarak zengin biçimlendirilmiş Word belgeleri oluşturma yeteneğini sağlar. Bu örnek, Aspose.Words kullanarak Word belgesindeki bir paragrafa sınırlar ve gölgelik nasıl uygulanacağını gösterir.  
 
 ---
 {{< tutorial-widget sourcePath="words/net/document-formatting/apply-border-and-shading" >}}

@@ -11,7 +11,7 @@ url: /sv/net/working-with-fonts/get-font-line-spacing/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Få skriftlinje mellanrum i Word-dokument
-Aspose.Words for .NET simplifies Word document creation and manipulation. This example demonstrates how to initialize a Word document, set a custom font, and retrieve the line spacing of a specific font. Whether you're automating document generation or analyzing text styles, this guide provides clear instructions and practical code snippets to achieve your goals efficiently. Aspose.Words for .NET is a powerful library for developers working with Word documents in C# or VB.NET.
+Aspose.Words för .NET förenklar skapandet och manipuleringen av Word-dokument. Detta exempel visar hur man initialiserar ett Word-dokument, ställer in ett anpassat teckensnitt och hämtar linjerna i en viss teckensnitt. Oavsett om du automatiserar dokumentgenerering eller analyserar textstilar, ger denna guide tydliga instruktioner och praktiska kodstryck för att uppnå dina mål effektivt. Aspose.Words för .NET är ett kraftfullt bibliotek för utvecklare som arbetar med Word-dokument i C # eller VB.NET.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-fonts/get-font-line-spacing" >}}

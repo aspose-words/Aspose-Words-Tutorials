@@ -11,7 +11,7 @@ url: /tr/net/working-with-fonts/get-font-line-spacing/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Font Line Aralıklı Oluştur
-Aspose.Words for .NET simplifies Word document creation and manipulation. This example demonstrates how to initialize a Word document, set a custom font, and retrieve the line spacing of a specific font. Whether you're automating document generation or analyzing text styles, this guide provides clear instructions and practical code snippets to achieve your goals efficiently. Aspose.Words for .NET is a powerful library for developers working with Word documents in C# or VB.NET.
+.NET için Aspose.Words Word belge oluşturmayı ve manipülasyonunu basitleştirir. Bu örnek bir Word belgesini nasıl başlatılacağını, özel bir yazı tipi ayarlanacağını ve belirli bir yazı tipi çizgi boşluğunu nasıl geri alacağını gösterir. Belge üretimini otomatikleştirirseniz veya metin stillerini analiz ederseniz, bu rehber hedeflerinize verimli bir şekilde ulaşmak için net talimatlar ve pratik kod kopyalar sağlar. .NET için Aspose.Words C # veya VB.NET'teki Word belgeleri ile çalışan geliştiriciler için güçlü bir kütüphanedir.
 
 ---
 {{< tutorial-widget sourcePath="words/net/working-with-fonts/get-font-line-spacing" >}}
