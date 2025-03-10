@@ -45,13 +45,13 @@ url: /ar/net/
 {{< tutorial-card link="./working-with-table-styles-and-formatting/table-tittle-and-description/" title="إضافة العنوان والوصف إلى الجدول في Word" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [تنسيق المستندات مع Aspose.Words ل .NET](./document-formatting/)
+## [تنسيق المستندات مع Aspose.Words ل .NET](./document-styling/)
 فهم كيفية تطبيق خيارات التنسيق المختلفة على الفقرات والقوائم وعناصر الوثائق لتعزيز الجمال البصري لملفاتك الكلمة.
 
-{{< tutorial-card link="./document-formatting/apply-border-and-shading/" title="تطبيق الحدود والظلال على الفقرة في تحدث. الكلمات" imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/apply-paragraph-style/" title="إعداد ورقة الوثيقة الكلمة في Aspose.Words" imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/multilevel-list-formatting/" title="إعداد قوائم متعددة المستويات في الكلمة مع Aspose.Words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/paragraph-formatting/" title="تنسيق الفقرات" imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/apply-border-and-shading/" title="تطبيق الحدود والظلال على الفقرة في تحدث. الكلمات" imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/apply-paragraph-style/" title="إعداد ورقة الوثيقة الكلمة في Aspose.Words" imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/multilevel-list-formatting/" title="إعداد قوائم متعددة المستويات في الكلمة مع Aspose.Words" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/paragraph-formatting/" title="تنسيق الفقرات" imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [العمل مع الرسوم البيانية في Aspose.Words ل .NET](./working-with-charts/)
@@ -65,12 +65,12 @@ url: /ar/net/
 {{< tutorial-card link="./working-with-charts/insert-simple-column-chart/" title="إضافة مخطط عمود بسيط في كلمة" imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [العمل مع الخطوط في Aspose.Words ل .NET](./working-with-fonts/)
+## [العمل مع الخطوط في Aspose.Words ل .NET](./font-styling/)
 استكشاف ميزات ذات الصلة بالخطوط مثل أساليب الخطوط، فضاء الخطوط، علامات التركيز، وإعدادات النصوص الأخرى في وثائق Word.
 
-{{< tutorial-card link="./working-with-fonts/font-formatting/" title="إعداد تصميم الخط في Word" imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-fonts/get-font-line-spacing/" title="الحصول على مساحة خط الخط في مستند Word" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-fonts/set-font-emphasis-mark/" title="ضع علامة الضوء في ورقة الكلمة" imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/font-formatting/" title="إعداد تصميم الخط في Word" imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/get-font-line-spacing/" title="الحصول على مساحة خط الخط في مستند Word" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/set-font-emphasis-mark/" title="ضع علامة الضوء في ورقة الكلمة" imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [العمل مع حقل النموذج في Aspose.Words ل .NET](./working-with-form-fields/)
@@ -82,15 +82,15 @@ url: /ar/net/
 ## [العمل مع الرأس والرجل في Aspose.Words ل .NET](./working-with-headers-and- footers/)
 تعلم كيفية إنشاء وتلاعب بالعناوين الرئيسية والأسفل، بما في ذلك إضافة الصور وأرقام الصفحات والنص.
 
-{{< tutorial-card link="./working-with-headers-and-footers/create-header-footer/" title="إعداد مستند كلمات باستخدام العنوان والرجل" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-headers-and-footers/insert-image/" title="إدراج صورة في عنوان وثيقة Word" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./header-footer-formatting/create-header-footer/" title="إعداد مستند كلمات باستخدام العنوان والرجل" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./header-footer-formatting/insert-image/" title="إدراج صورة في عنوان وثيقة Word" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [العمل مع القسمات في Aspose.Words ل .NET](./working-with-section/)
+## [العمل مع القسمات في Aspose.Words ل .NET](./document-sections/)
 فهم كيفية هيكل المستندات إلى أقسام، مما يسمح لخطوط مختلفة، أقدام قدم، وأساليب تنسيق.
 
-{{< tutorial-card link="./working-with-section/add-section/" title="إضافة قسم جديد إلى مستند Word" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-section/append-section-content/" title="إضافة ومضافة المحتوى في وثائق الكلمة" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./document-sections/add-section/" title="إضافة قسم جديد إلى مستند Word" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./document-sections/append-section-content/" title="إضافة ومضافة المحتوى في وثائق الكلمة" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [العمل مع الشكل في Aspose.Words ل .NET](./working-with-shapes/)

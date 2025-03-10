@@ -45,13 +45,13 @@ Discover how to create, format, and customize tables in Word documents, includin
 {{< tutorial-card link="./working-with-table-styles-and-formatting/table-tittle-and-description/" title="Add Title & Description to Table in Word" imgSrc="./working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Document Formatting with Aspose.Words for .NET](./document-formatting/)
+## [Document Formatting with Aspose.Words for .NET](./document-styling/)
 Understand how to apply various formatting options to paragraphs, lists, and document elements to enhance the visual appeal of your Word files.
 
-{{< tutorial-card link="./document-formatting/apply-border-and-shading/" title="Apply Borders & Shading to Paragraph in Aspose.Words" imgSrc="./document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/apply-paragraph-style/" title="Create and Style a Word Document in Aspose.Words" imgSrc="./document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/multilevel-list-formatting/" title="Create Multilevel Lists in Word with Aspose.Words" imgSrc="./document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/paragraph-formatting/" title="Format Paragraphs" imgSrc="./document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/apply-border-and-shading/" title="Apply Borders & Shading to Paragraph in Aspose.Words" imgSrc="./document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/apply-paragraph-style/" title="Create and Style a Word Document in Aspose.Words" imgSrc="./document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/multilevel-list-formatting/" title="Create Multilevel Lists in Word with Aspose.Words" imgSrc="./document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/paragraph-formatting/" title="Format Paragraphs" imgSrc="./document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Working with Charts in Aspose.Words for .NET](./working-with-charts/)
@@ -65,12 +65,12 @@ Learn to insert and customize different types of charts, such as bar, line, and 
 {{< tutorial-card link="./working-with-charts/insert-simple-column-chart/" title="Insert a Simple Column Chart in Word" imgSrc="./working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Working with Fonts in Aspose.Words for .NET](./working-with-fonts/)
+## [Working with Fonts in Aspose.Words for .NET](./font-styling/)
 Explore font-related features such as font styles, line spacing, emphasis marks, and other typography settings in Word documents.
 
-{{< tutorial-card link="./working-with-fonts/font-formatting/" title="Create Font Formatting in Word" imgSrc="./working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-fonts/get-font-line-spacing/" title="Get Font Line Spacing in Word Document" imgSrc="./working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-fonts/set-font-emphasis-mark/" title="Set Emphasis Mark in Word Document" imgSrc="./working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/font-formatting/" title="Create Font Formatting in Word" imgSrc="./font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/get-font-line-spacing/" title="Get Font Line Spacing in Word Document" imgSrc="./font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/set-font-emphasis-mark/" title="Set Emphasis Mark in Word Document" imgSrc="./font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Working with Form Fields in Aspose.Words for .NET](./working-with-form-fields/)
@@ -79,18 +79,18 @@ Find out how to insert and manage form fields like text input, drop-down lists, 
 {{< tutorial-card link="./working-with-form-fields/insert-form-fields/" title="Insert Combo Box Form Field in Word Document" imgSrc="./working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Working with Headers and Footers in Aspose.Words for .NET](./working-with-headers-and-footers/)
+## [Working with Headers and Footers in Aspose.Words for .NET](./header-footer-formatting/)
 Learn how to create and manipulate headers and footers, including adding images, page numbers, and text.
 
-{{< tutorial-card link="./working-with-headers-and-footers/create-header-footer/" title="Create Word Document with Header and Footer" imgSrc="./working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-headers-and-footers/insert-image/" title="Insert an Image into Word Document Header" imgSrc="./working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./header-footer-formatting/create-header-footer/" title="Create Word Document with Header and Footer" imgSrc="./header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./header-footer-formatting/insert-image/" title="Insert an Image into Word Document Header" imgSrc="./header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Working with Sections in Aspose.Words for .NET](./working-with-section/)
+## [Working with Sections in Aspose.Words for .NET](./document-sections/)
 Understand how to structure documents into sections, allowing different headers, footers, and formatting styles.
 
-{{< tutorial-card link="./working-with-section/add-section/" title="Add a New Section to Word Document" imgSrc="./working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-section/append-section-content/" title="Append and Prepend Content in Word Documents" imgSrc="./working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./document-sections/add-section/" title="Add a New Section to Word Document" imgSrc="./document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./document-sections/append-section-content/" title="Append and Prepend Content in Word Documents" imgSrc="./document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Working with Shapes in Aspose.Words for .NET](./working-with-shapes/)

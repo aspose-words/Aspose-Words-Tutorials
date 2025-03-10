@@ -62,18 +62,18 @@ Tanuljon meg, hogyan kell programosan beilleszteni szöveget, táblázatokat, k�
 ### [Dokumentumformátálás az Aspose.Words segítségével .NET-hez](./net/document- formatting/)
 Megtudom, hogyan lehet különböző formátációs lehetőségeket alkalmazni a bekezdésekre, listákra és dokumentumelemekre, hogy a Word fájlok vizuális vonzóssága javuljon.
 
-{{< tutorial-card link="./net/document-formatting/apply-border-and-shading/" title="A Aspose.Words című cikkben a határok és árnyékok alkalmazása " imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/apply-paragraph-style/" title="Készítsen és stílusolja a Word dokumentumot az Aspose.Words " imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/multilevel-list-formatting/" title="Számosszintű listákat készítsen a Word-ben Aspose.Words segítségével" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/paragraph-formatting/" title="A formátum A bekezdés " imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="A Aspose.Words című cikkben a határok és árnyékok alkalmazása " imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="Készítsen és stílusolja a Word dokumentumot az Aspose.Words " imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="Számosszintű listákat készítsen a Word-ben Aspose.Words segítségével" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="A formátum A bekezdés " imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [A fontokkal a .NET-ben Aspose.Words](./net/working-with-fonts/)
+### [A fontokkal a .NET-ben Aspose.Words](./net/font-styling/)
 Kutatsa a fonthoz kapcsolódó funkciókat, mint például a font stílusokat, a vonalát, a hangsúlyt jelző jeleket és más tipográfiai beállítások a Word dokumentumokban.
 
-{{< tutorial-card link="./net/working-with-fonts/font-formatting/" title="Szerezzen írólap formázását a Word-ben " imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/get-font-line-spacing/" title="Szerezzen fontvonal-távolítást a Word dokumentumban" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/set-font-emphasis-mark/" title="Fontosnak kell lennie a Word dokumentumban " imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/font-formatting/" title="Szerezzen írólap formázását a Word-ben " imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="Szerezzen fontvonal-távolítást a Word dokumentumban" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Fontosnak kell lennie a Word dokumentumban " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [A formák mezőivel a .NET-ben Aspose.Words](./net/working-with-form-fields/)
@@ -82,18 +82,18 @@ Tudjon meg, hogyan kell beilleszteni és kezelni a formák mezőit, mint példá
 {{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Beilleszteni a kombinált mező formát a Word dokumentumban" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [A .NET-hez használt Aspose.Words címlapjaival és lábjegyzőivel dolgozom](./net/working-with-headers-and-footers/)
+### [A .NET-hez használt Aspose.Words címlapjaival és lábjegyzőivel dolgozom](./net/header-footer-formatting/)
 Tanuljon meg, hogyan kell létrehozni és manipulálni a fejlevet és lábjegyzeteket, beleértve a képek, a oldalszámok és a szöveg hozzáadását.
 
-{{< tutorial-card link="./net/working-with-headers-and-footers/create-header-footer/" title="Word dokumentum létrehozása fejleírással és lábjegyzővel" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-headers-and-footers/insert-image/" title="Beilleszteni egy képet a Word Dokumentum Felsőcímbe" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Word dokumentum létrehozása fejleírással és lábjegyzővel" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Beilleszteni egy képet a Word Dokumentum Felsőcímbe" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [A .NET-hez használt Aspose.Words szakaszokkal való munka](./net/working-with- section/)
 Megtudom, hogyan kell dokumentumokat részekbe szerkezten, így különböző fejlevetés, lábnyomok és formázási stílusok.
 
-{{< tutorial-card link="./net/working-with-section/add-section/" title="Új szakasz hozzáadása a Word dokumentumhoz" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-section/append-section-content/" title="A Word dokumentumok tartalmát hozzáadja és előkészíti" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/add-section/" title="Új szakasz hozzáadása a Word dokumentumhoz" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/append-section-content/" title="A Word dokumentumok tartalmát hozzáadja és előkészíti" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [A formákkal a .NET-ben dolgozom az Aspose.Words programban](./net/working- with-shapes/)

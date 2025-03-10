@@ -45,13 +45,13 @@ Zjistěte, jak vytvářet, formátovat a přizpůsobit tabulky v dokumentech Wor
 {{< tutorial-card link="./working-with-table-styles-and-formatting/table-tittle-and-description/" title="Přidejte název a popis do tabulky v Word" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Formátování dokumentu s Aspose.Words pro .NET](./document-formatting/)
+## [Formátování dokumentu s Aspose.Words pro .NET](./document-styling/)
 Zjistěte, jak aplikovat různé možnosti formátování na odstavce, seznamy a prvky dokumentu, aby vaše soubory Word byly vizuálně atraktivnější.
 
-{{< tutorial-card link="./document-formatting/apply-border-and-shading/" title="Použijte hranice a stínování v odstavci Aspose.Words" imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/apply-paragraph-style/" title="Vytvořte a nastaví dokument Word v Aspose.Words" imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/multilevel-list-formatting/" title="Vytvořte v Word řádky na více úrovních pomocí Aspose.Words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/paragraph-formatting/" title="Formátování odstavců" imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/apply-border-and-shading/" title="Použijte hranice a stínování v odstavci Aspose.Words" imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/apply-paragraph-style/" title="Vytvořte a nastaví dokument Word v Aspose.Words" imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/multilevel-list-formatting/" title="Vytvořte v Word řádky na více úrovních pomocí Aspose.Words" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/paragraph-formatting/" title="Formátování odstavců" imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Pracujeme s grafami v Aspose.Words pro .NET](./working-with-charts/)
@@ -65,12 +65,12 @@ Naučte se do dokumentů Word vložit a upravit různé typy grafů, jako jsou t
 {{< tutorial-card link="./working-with-charts/insert-simple-column-chart/" title="Vkládejte do slova jednoduchý graf sloupců" imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Práce s písmeny v Aspose.Words pro .NET](./working-with-fonts/)
+## [Práce s písmeny v Aspose.Words pro .NET](./font-styling/)
 Prozkoumejte funkce související s písmenami, jako jsou styly písmen, rozchod mezi řádky, značky důrazu a další typografie v dokumentech Word.
 
-{{< tutorial-card link="./working-with-fonts/font-formatting/" title="Vytvořte formátování písmen ve slovu" imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-fonts/get-font-line-spacing/" title="Získání rozmezí písmen v dokumentu Word" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-fonts/set-font-emphasis-mark/" title="Uveďte důrazný znak v dokumentu Word" imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/font-formatting/" title="Vytvořte formátování písmen ve slovu" imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/get-font-line-spacing/" title="Získání rozmezí písmen v dokumentu Word" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/set-font-emphasis-mark/" title="Uveďte důrazný znak v dokumentu Word" imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Pracujeme s polemi formulářů v Aspose.Words pro .NET](./working-with-form- fields/)
@@ -82,15 +82,15 @@ Zjistěte, jak vložit a spravovat pole formulářů, jako jsou vstupní text, o
 ## [Práce s hlavičkami a chodidly v Aspose.Words pro .NET](./working-with- headers-and-footers/)
 Naučte se vytvářet a upravovat nadpisy a podpisy, včetně přidávání obrázků, čísel stránek a textu.
 
-{{< tutorial-card link="./working-with-headers-and-footers/create-header-footer/" title="Vytvořte dokument Word pomocí hlavy a podstavky" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-headers-and-footers/insert-image/" title="Vložte obrázek do hlavičky dokumentu Word" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./header-footer-formatting/create-header-footer/" title="Vytvořte dokument Word pomocí hlavy a podstavky" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./header-footer-formatting/insert-image/" title="Vložte obrázek do hlavičky dokumentu Word" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Práce s sekcemi v Aspose.Words pro .NET](./working-with-section/)
+## [Práce s sekcemi v Aspose.Words pro .NET](./document-sections/)
 Zjistěte, jak strukturovat dokumenty do sekcí, což umožňuje různé názevové, podstavní a formátovací styly.
 
-{{< tutorial-card link="./working-with-section/add-section/" title="Přidejte nový oddíl do dokumentu Word" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-section/append-section-content/" title="Přidání a přepínání obsahu do dokumentů Word" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./document-sections/add-section/" title="Přidejte nový oddíl do dokumentu Word" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./document-sections/append-section-content/" title="Přidání a přepínání obsahu do dokumentů Word" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Pracujeme s tvary v Aspose.Words pro .NET](./working-with-shapes/)

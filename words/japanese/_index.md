@@ -59,21 +59,21 @@ Word ドキュメントにバー,ライン,スキャッターなど様々な種�
 {{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title=".NETでコンテンツ表を備えたWordドキュメントを作成する" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NET のための Aspose.Words で文書フォーマット](./net/document-formatting/)
+### [.NET のための Aspose.Words で文書フォーマット](./net/document-styling/)
 テキスト・メッセージの 形式を 改善するために 段落,リスト,ドキュメントに フォーマットする 方法を理解する
 
-{{< tutorial-card link="./net/document-formatting/apply-border-and-shading/" title="Aspose.Words の 段落 に 境界 と 影 を 適用 する " imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/apply-paragraph-style/" title="Aspose.WordsでWordドキュメントを作成し,スタイリングする " imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/multilevel-list-formatting/" title="Aspose.WordsでWordで多層次リストを作成する" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/paragraph-formatting/" title="形式の段落 " imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Aspose.Words の 段落 に 境界 と 影 を 適用 する " imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="Aspose.WordsでWordドキュメントを作成し,スタイリングする " imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="Aspose.WordsでWordで多層次リストを作成する" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="形式の段落 " imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NET のAspose.Wordsのフォントで作業](./net/working-with-fonts/)
+### [.NET のAspose.Wordsのフォントで作業](./net/font-styling/)
 フォントスタイル,ラインの間隔,強調マーク,およびWord文書の他のタイプ設定などのフォント関連機能を調べる.
 
-{{< tutorial-card link="./net/working-with-fonts/font-formatting/" title="Word でフォントフォーマットを作成する " imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/get-font-line-spacing/" title="文字文書でフォントラインの間隔を取得" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/set-font-emphasis-mark/" title="Word ドキュメント に 強調 マーク を 設定 する " imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/font-formatting/" title="Word でフォントフォーマットを作成する " imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="文字文書でフォントラインの間隔を取得" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Word ドキュメント に 強調 マーク を 設定 する " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [.NET のAspose.Wordsでフォームフィールドを活用する](./net/working-with-form-fields/)
@@ -82,18 +82,18 @@ Word ドキュメント内のテキスト入力,ドロップダウンリスト,�
 {{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Word ドキュメントにコンボボックスフォームフィールドを挿入する" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NETのAspose.Wordsでヘッダとフーダーと作業](./net/working-with-headers-and-footers/)
+### [.NETのAspose.Wordsでヘッダとフーダーと作業](./net/header-footer-formatting/)
 画像,ページ番号,テキストを追加し,ヘッダーや足記を作成し操作する方法を学びましょう.
 
-{{< tutorial-card link="./net/working-with-headers-and-footers/create-header-footer/" title="ヘッダーとフーターでWord ドキュメントを作成する" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-headers-and-footers/insert-image/" title="画像をWord ドキュメントヘッダーに挿入する" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="ヘッダーとフーターでWord ドキュメントを作成する" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="画像をWord ドキュメントヘッダーに挿入する" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NET のAspose.Wordsのセクションで作業](./net/working-with-section/)
+### [.NET のAspose.Wordsのセクションで作業](./net/document-sections/)
 文書をセクションに並べて,異なるヘッダー,足記,フォーマットスタイルを可能にする方法を理解します.
 
-{{< tutorial-card link="./net/working-with-section/add-section/" title="ワード文書に新しいセクションを追加する" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-section/append-section-content/" title="ワード文書にコンテンツを追加し,プリペンする" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/add-section/" title="ワード文書に新しいセクションを追加する" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/append-section-content/" title="ワード文書にコンテンツを追加し,プリペンする" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [.NET のAspose.Wordsで Shapes を 活用する](./net/working-with-shapes/)

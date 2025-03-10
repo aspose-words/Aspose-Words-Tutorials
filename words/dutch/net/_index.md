@@ -45,13 +45,13 @@ Ontdek hoe je tabellen in Word-documenten kunt maken, formateren en aanpassen, i
 {{< tutorial-card link="./working-with-table-styles-and-formatting/table-tittle-and-description/" title="Tempel en beschrijving toevoegen aan tabel in Word" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Documentformatting met Aspose.Words voor .NET](./document-formatting/)
+## [Documentformatting met Aspose.Words voor .NET](./document-styling/)
 Begrijp hoe je verschillende opties voor het opmaken van paragrafen, lijsten en documentelementen kunt toepassen om de visuele aantrekkingskracht van je Word-bestanden te verbeteren.
 
-{{< tutorial-card link="./document-formatting/apply-border-and-shading/" title="Grenzen en schaduw toepassen op paragraaf in Aspose.Words" imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/apply-paragraph-style/" title="Creëer en vorm een Word Document in Aspose.Words" imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/multilevel-list-formatting/" title="Maak een lijst met meer niveaus in Word met Aspose.Words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/paragraph-formatting/" title="Format van de paragrafen" imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/apply-border-and-shading/" title="Grenzen en schaduw toepassen op paragraaf in Aspose.Words" imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/apply-paragraph-style/" title="Creëer en vorm een Word Document in Aspose.Words" imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/multilevel-list-formatting/" title="Maak een lijst met meer niveaus in Word met Aspose.Words" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/paragraph-formatting/" title="Format van de paragrafen" imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Werken met Charts in Aspose.Words voor .NET](./working-with-charts/)
@@ -65,12 +65,12 @@ Leer verschillende soorten grafieken, zoals bar-, lijn- en verspreidingsgrafieke
 {{< tutorial-card link="./working-with-charts/insert-simple-column-chart/" title="Een eenvoudige kolomgrafiek in Word" imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Werken met lettertypen in Aspose.Words voor .NET](./working-with-fonts/)
+## [Werken met lettertypen in Aspose.Words voor .NET](./font-styling/)
 Ontdek lettertypen, lijnspacing, nadrukken en andere typografie-instellingen in Word-documenten.
 
-{{< tutorial-card link="./working-with-fonts/font-formatting/" title="Schrijf lettertypen op in Word" imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-fonts/get-font-line-spacing/" title="Word document in Word" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-fonts/set-font-emphasis-mark/" title="Leg nadruk op het Word-document" imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/font-formatting/" title="Schrijf lettertypen op in Word" imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/get-font-line-spacing/" title="Word document in Word" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/set-font-emphasis-mark/" title="Leg nadruk op het Word-document" imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Werken met formuliervelden in Aspose.Words voor .NET](./working-with-form- fields/)
@@ -82,15 +82,15 @@ Ontdek hoe u formuliervelden zoals tekstinvoer, drop-downlijsten en checkboxen i
 ## [Werk met Headers en Footers in Aspose.Words voor .NET](./working-with- headers-and-footers/)
 Leer hoe je koppen en voetstukken kunt maken en manipuleren, met inbegrip van het toevoegen van beelden, pagina's en tekst.
 
-{{< tutorial-card link="./working-with-headers-and-footers/create-header-footer/" title="Word Document maken met kop en voet" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-headers-and-footers/insert-image/" title="Een afbeelding in het Word Document Header plaatsen" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./header-footer-formatting/create-header-footer/" title="Word Document maken met kop en voet" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./header-footer-formatting/insert-image/" title="Een afbeelding in het Word Document Header plaatsen" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Werken met secties in Aspose.Words voor .NET](./working-with-section/)
+## [Werken met secties in Aspose.Words voor .NET](./document-sections/)
 Begrijp hoe je documenten in secties kunt opzetten, zodat er verschillende koppen, voetstukken en formateringsstijlen mogelijk zijn.
 
-{{< tutorial-card link="./working-with-section/add-section/" title="Een nieuw gedeelte toevoegen aan het Word-document" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-section/append-section-content/" title="Inhoud toevoegen en voorschrijven in Word-documenten" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./document-sections/add-section/" title="Een nieuw gedeelte toevoegen aan het Word-document" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./document-sections/append-section-content/" title="Inhoud toevoegen en voorschrijven in Word-documenten" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Werken met Forms in Aspose.Words voor .NET](./working-with-shapes/)

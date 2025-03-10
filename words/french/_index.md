@@ -62,18 +62,18 @@ Apprenez à insérer du texte, des tableaux, des images et d'autres éléments d
 ### [Formattement de document avec Aspose.Words pour .NET](./net/document- formatting/)
 Comprenez comment appliquer différentes options de formatage aux paragraphes, aux listes et aux éléments de document pour améliorer l'attrait visuel de vos fichiers Word.
 
-{{< tutorial-card link="./net/document-formatting/apply-border-and-shading/" title="Appliquer les limites et l'ombre au paragraphe dans Aspose.Words " imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/apply-paragraph-style/" title="Créer et modeler un document Word dans Aspose.Words " imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/multilevel-list-formatting/" title="Créer des listes à plusieurs niveaux dans Word avec Aspose.Words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/paragraph-formatting/" title="Formats de paragraphes " imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Appliquer les limites et l'ombre au paragraphe dans Aspose.Words " imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="Créer et modeler un document Word dans Aspose.Words " imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="Créer des listes à plusieurs niveaux dans Word avec Aspose.Words" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="Formats de paragraphes " imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Travailler avec des polices dans Aspose.Words pour .NET](./net/working-with- fonts/)
 Explorez les fonctionnalités liées aux polices telles que les styles de polices, l'espacement entre les lignes, les marques d'accent et d'autres paramètres de typographie dans les documents Word.
 
-{{< tutorial-card link="./net/working-with-fonts/font-formatting/" title="Créer une mise en forme de polices dans Word " imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/get-font-line-spacing/" title="Obtenez l' espacement des lignes de police dans le document Word" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/set-font-emphasis-mark/" title="Définir une marque d'accent dans un document Word " imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/font-formatting/" title="Créer une mise en forme de polices dans Word " imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="Obtenez l' espacement des lignes de police dans le document Word" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Définir une marque d'accent dans un document Word " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Travailler avec des champs de formulaire dans Aspose.Words pour .NET](./net/working-with-form-fields/)
@@ -82,18 +82,18 @@ Découvrez comment insérer et gérer des champs de formulaire tels que les entr
 {{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Insérer le champ de formulaire de boîte combo dans le document Word" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Travailler avec les en-têtes et les pieds dans Aspose.Words pour .NET](./net/working-with-headers-and-footers/)
+### [Travailler avec les en-têtes et les pieds dans Aspose.Words pour .NET](./net/header-footer-formatting/)
 Apprenez à créer et à manipuler les en-têtes et les pieds de page, y compris en ajoutant des images, des numéros de pages et du texte.
 
-{{< tutorial-card link="./net/working-with-headers-and-footers/create-header-footer/" title="Créer un document Word avec en-tête et en-sous" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-headers-and-footers/insert-image/" title="Insérer une image dans l' en-tête de document Word" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Créer un document Word avec en-tête et en-sous" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Insérer une image dans l' en-tête de document Word" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Travailler avec des sections dans Aspose.Words pour .NET](./net/working-with- section/)
 Comprenez comment structurer les documents en sections, en permettant de créer différentes en-têtes, pieds de page et styles de formatage.
 
-{{< tutorial-card link="./net/working-with-section/add-section/" title="Ajouter une nouvelle section au document Word" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-section/append-section-content/" title="Ajouter et pré-ajouter du contenu dans les documents Word" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/add-section/" title="Ajouter une nouvelle section au document Word" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/append-section-content/" title="Ajouter et pré-ajouter du contenu dans les documents Word" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Travailler avec des formes dans Aspose.Words pour .NET](./net/working-with- shapes/)

@@ -59,21 +59,21 @@ Pelajari cara memasukkan teks, tabel, gambar, dan elemen lain ke dalam dokumen W
 {{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title="Buat dokumen Word dengan tabel isi di .NET" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Format dokumen dengan Aspose.Words untuk .NET](./net/document-formatting/)
+### [Format dokumen dengan Aspose.Words untuk .NET](./net/document-styling/)
 Ketahui cara menerapkan berbagai opsi format pada paragraf, daftar, dan elemen dokumen untuk meningkatkan daya tarik visual dari file Word Anda.
 
-{{< tutorial-card link="./net/document-formatting/apply-border-and-shading/" title="Menggunakan Perbatasan dan Bayangan untuk Paragraf dalam Aspose.Words " imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/apply-paragraph-style/" title="Buat dan Gaya Dokumen Word di Aspose.Words " imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/multilevel-list-formatting/" title="Buat Daftar Bertingkat Di Word Dengan Aspose.Words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/paragraph-formatting/" title="Format Paragraf " imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Menggunakan Perbatasan dan Bayangan untuk Paragraf dalam Aspose.Words " imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="Buat dan Gaya Dokumen Word di Aspose.Words " imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="Buat Daftar Bertingkat Di Word Dengan Aspose.Words" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="Format Paragraf " imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Bekerja dengan Font di Aspose.Words untuk .NET](./net/working-with-fonts/)
+### [Bekerja dengan Font di Aspose.Words untuk .NET](./net/font-styling/)
 Menjelajahi fitur yang terkait dengan font seperti gaya font, jarak baris, tanda penekanan, dan pengaturan tipografi lainnya dalam dokumen Word.
 
-{{< tutorial-card link="./net/working-with-fonts/font-formatting/" title="Buat Format Font di Word " imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/get-font-line-spacing/" title="Dapatkan Spasi Font Line di Word Document" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/set-font-emphasis-mark/" title="Tentukan Tanda Penekanan dalam Dokumen Word " imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/font-formatting/" title="Buat Format Font di Word " imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="Dapatkan Spasi Font Line di Word Document" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Tentukan Tanda Penekanan dalam Dokumen Word " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Bekerja dengan Bidang Formulir di Aspose.Words untuk .NET](./net/working- with-form-fields/)
@@ -85,15 +85,15 @@ Cari tahu cara memasukkan dan mengelola bidang formulir seperti input teks, daft
 ### [Bekerja dengan Headers dan Footers di Aspose.Words untuk .NET](./net/working- with-headers-and-footers/)
 Pelajari cara membuat dan memanipulasi header dan footer, termasuk menambahkan gambar, nomor halaman, dan teks.
 
-{{< tutorial-card link="./net/working-with-headers-and-footers/create-header-footer/" title="Buat Word Document dengan Header dan Footer" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-headers-and-footers/insert-image/" title="Masukkan Gambar ke Header Dokumen Word" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Buat Word Document dengan Header dan Footer" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Masukkan Gambar ke Header Dokumen Word" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Bekerja dengan Bagian di Aspose.Words untuk .NET](./net/working-with- section/)
 Memahami cara mengatur dokumen menjadi bagian, memungkinkan judul, kaki, dan gaya format yang berbeda.
 
-{{< tutorial-card link="./net/working-with-section/add-section/" title="Tambahkan Bagian Baru ke Dokumen Word" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-section/append-section-content/" title="Tambahkan dan Prepend Konten dalam dokumen Word" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/add-section/" title="Tambahkan Bagian Baru ke Dokumen Word" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/append-section-content/" title="Tambahkan dan Prepend Konten dalam dokumen Word" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Bekerja dengan Shapes di Aspose.Words untuk .NET](./net/working-with-shapes/)

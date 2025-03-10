@@ -59,21 +59,21 @@ url: /el/
 {{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title="Δημιουργήστε ένα έγγραφο Word με πίνακα περιεχομένου στο .NET" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Τροποποίηση εγγράφων με Aspose.Words για .NET](./net/document-formatting/)
+### [Τροποποίηση εγγράφων με Aspose.Words για .NET](./net/document-styling/)
 Κατανοήστε πώς να εφαρμόσετε διάφορες επιλογές μορφοποίησης σε παραγράφους, λίστες και στοιχεία εγγράφου για να βελτιώσετε την οπτική ελκυστικότητα των αρχείων Word σας.
 
-{{< tutorial-card link="./net/document-formatting/apply-border-and-shading/" title="Εφαρμόστε τα όρια και τις σκιά στις παραγράφους στο Αποθέστε λέξεις " imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/apply-paragraph-style/" title="Δημιουργήστε και στυλ ένα έγγραφο λέξεων στο Aspose.Words " imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/multilevel-list-formatting/" title="Δημιουργήστε κατάλογους πολλαπλών επιπέδων στο Word με το Aspose.Words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/paragraph-formatting/" title="Τροποποίηση των παραγράφων " imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Εφαρμόστε τα όρια και τις σκιά στις παραγράφους στο Αποθέστε λέξεις " imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="Δημιουργήστε και στυλ ένα έγγραφο λέξεων στο Aspose.Words " imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="Δημιουργήστε κατάλογους πολλαπλών επιπέδων στο Word με το Aspose.Words" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="Τροποποίηση των παραγράφων " imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Δουλεύοντας με τις γραμματοσειρές στο Aspose.Words για το .NET](./net/working-with-fonts/)
+### [Δουλεύοντας με τις γραμματοσειρές στο Aspose.Words για το .NET](./net/font-styling/)
 Εξερευνήστε χαρακτηριστικά που σχετίζονται με τη γραμματοσειρά, όπως στυλ γραμματοσειρών, διαχωρισμός γραμμών, σημεία έμφασης και άλλες ρυθμίσεις τυπογραφίας στα έγγραφα του Word.
 
-{{< tutorial-card link="./net/working-with-fonts/font-formatting/" title="Δημιουργία μορφοποίησης γραμματοσειρών στο Word " imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/get-font-line-spacing/" title="Βρείτε διαχωρισμό γραμμών γραμματοσειρών στο έγγραφο Word" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/set-font-emphasis-mark/" title="Βάλε τον τόνο στην εγγραφή Word " imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/font-formatting/" title="Δημιουργία μορφοποίησης γραμματοσειρών στο Word " imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="Βρείτε διαχωρισμό γραμμών γραμματοσειρών στο έγγραφο Word" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Βάλε τον τόνο στην εγγραφή Word " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Δουλεύοντας με τα πεδία φόρμας στο Aspose.Words για .NET](./net/working-with- form-fields/)
@@ -82,18 +82,18 @@ url: /el/
 {{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Εισαγωγή πεδίου φόρμας σε κείμενο Word" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Δουλεύοντας με τους επικεφαλής και τα υποπόδαρα στο Aspose.Words για το .NET](./net/working-with-headers-and-footers/)
+### [Δουλεύοντας με τους επικεφαλής και τα υποπόδαρα στο Aspose.Words για το .NET](./net/header-footer-formatting/)
 Μάθετε πώς να δημιουργείτε και να χειρίζεστε τα αρχεία και τα υποσημεία, συμπεριλαμβανομένης της προσθήκης εικόνων, αριθμών σελίδων και κειμένου.
 
-{{< tutorial-card link="./net/working-with-headers-and-footers/create-header-footer/" title="Δημιουργήστε έγγραφο Word με τίτλο και υποσημείωση" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-headers-and-footers/insert-image/" title="Εισαγωγή εικόνας στο αρχείο εγγράφων Word" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Δημιουργήστε έγγραφο Word με τίτλο και υποσημείωση" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Εισαγωγή εικόνας στο αρχείο εγγράφων Word" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Δουλεύοντας με Τμήματα στο Aspose.Words για .NET](./net/working-with- section/)
 Κατανοήστε πώς να διαρθρώσετε τα έγγραφα σε τμήματα, επιτρέποντας διαφορετικές επικεφαλίδες, υποσημειώσεις και στυλ μορφοποίησης.
 
-{{< tutorial-card link="./net/working-with-section/add-section/" title="Προσθήκη νέου τμήματος στο έγγραφο Word" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-section/append-section-content/" title="Προσθήκη και προετοιμασία περιεχομένου σε έγγραφα Word" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/add-section/" title="Προσθήκη νέου τμήματος στο έγγραφο Word" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/append-section-content/" title="Προσθήκη και προετοιμασία περιεχομένου σε έγγραφα Word" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Δουλεύοντας με σχήματα στο Aspose.Words για το .NET](./net/working-with- shapes/)

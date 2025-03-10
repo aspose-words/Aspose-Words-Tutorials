@@ -45,13 +45,13 @@ url: /hi/net/
 {{< tutorial-card link="./working-with-table-styles-and-formatting/table-tittle-and-description/" title="Word में तालिका में शीर्षक और विवरण जोड़ें" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [.NET के लिए Aspose.Words के साथ दस्तावेज़ स्वरूपण](./document-formatting/)
+## [.NET के लिए Aspose.Words के साथ दस्तावेज़ स्वरूपण](./document-styling/)
 अपने Word फ़ाइलों की दृश्य अपील को बढ़ाने के लिए पैराग्राफ, सूचियों और दस्तावेज़ तत्वों पर विभिन्न स्वरूपण विकल्पों को कैसे लागू करें, यह समझें।
 
-{{< tutorial-card link="./document-formatting/apply-border-and-shading/" title="Aspose.Words में पैराग्राफ पर सीमाओं और छायांकन का प्रयोग करें" imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/apply-paragraph-style/" title="Aspose.Words में Word दस्तावेज़ बनाएं और Style करें" imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/multilevel-list-formatting/" title="Aspose.Words के साथ Word में मल्टी लेवल लिस्ट बनाएं" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/paragraph-formatting/" title="अनुच्छेदों का प्रारूपण" imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/apply-border-and-shading/" title="Aspose.Words में पैराग्राफ पर सीमाओं और छायांकन का प्रयोग करें" imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/apply-paragraph-style/" title="Aspose.Words में Word दस्तावेज़ बनाएं और Style करें" imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/multilevel-list-formatting/" title="Aspose.Words के साथ Word में मल्टी लेवल लिस्ट बनाएं" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/paragraph-formatting/" title="अनुच्छेदों का प्रारूपण" imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [.NET के लिए "एस्पोज.वर्ड्स" में चार्ट्स के साथ काम करना](./working-with- charts/)
@@ -68,9 +68,9 @@ Word दस्तावेज़ों में विभिन्न प्र
 ## [.NET के लिए Aspose.Words में फ़ॉन्ट के साथ काम करना](./working-with- fonts/)
 वर्ड दस्तावेज़ों में फ़ॉन्ट से संबंधित सुविधाओं जैसे फ़ॉन्ट शैलियों, लाइन अंतर, जोर के निशान और अन्य टाइपोग्राफी सेटिंग्स का पता लगाएं।
 
-{{< tutorial-card link="./working-with-fonts/font-formatting/" title="Word में फ़ॉन्ट स्वरूपण बनाएं" imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-fonts/get-font-line-spacing/" title="Word दस्तावेज़ में फ़ॉन्ट लाइन स्पेसिंग प्राप्त करें" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-fonts/set-font-emphasis-mark/" title="Word दस्तावेज़ में महत्व चिह्न सेट करें" imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/font-formatting/" title="Word में फ़ॉन्ट स्वरूपण बनाएं" imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/get-font-line-spacing/" title="Word दस्तावेज़ में फ़ॉन्ट लाइन स्पेसिंग प्राप्त करें" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/set-font-emphasis-mark/" title="Word दस्तावेज़ में महत्व चिह्न सेट करें" imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [.NET के लिए "एस्पोज.वर्ड्स" में फॉर्म फ़ील्ड्स के साथ काम करना](./working- with-form-fields/)
@@ -82,15 +82,15 @@ Word दस्तावेज़ों में पाठ इनपुट, ड�
 ## [.NET के लिए "एस्पोज.वर्ड्स" में हेडर और फुटर्स के साथ काम करना](./working- with-headers-and-footers/)
 चित्र, पृष्ठ संख्या और पाठ जोड़ने सहित हेडर और फ़ुटर कैसे बनाएं और उन्हें कैसे संचालित करें, जानें।
 
-{{< tutorial-card link="./working-with-headers-and-footers/create-header-footer/" title="हेडर और फ़ुटर के साथ वर्ड दस्तावेज़ बनाएं" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-headers-and-footers/insert-image/" title="Word दस्तावेज़ हेडर में छवि डालें" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./header-footer-formatting/create-header-footer/" title="हेडर और फ़ुटर के साथ वर्ड दस्तावेज़ बनाएं" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./header-footer-formatting/insert-image/" title="Word दस्तावेज़ हेडर में छवि डालें" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [.NET के लिए Aspose.Words में अनुभागों के साथ काम करना](./working-with- section/)
 दस्तावेज़ों को अलग-अलग अनुभागों में कैसे व्यवस्थित किया जाए, जिससे विभिन्न हेडर, फ़ुटर और स्वरूपण शैली की अनुमति मिल सके।
 
-{{< tutorial-card link="./working-with-section/add-section/" title="Word दस्तावेज़ में एक नया अनुभाग जोड़ें" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-section/append-section-content/" title="वर्ड दस्तावेज़ों में सामग्री जोड़ें और प्रिपेड करें" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./document-sections/add-section/" title="Word दस्तावेज़ में एक नया अनुभाग जोड़ें" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./document-sections/append-section-content/" title="वर्ड दस्तावेज़ों में सामग्री जोड़ें और प्रिपेड करें" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [.NET के लिए "एस्पोज.वर्ड्स" में आकारों के साथ काम करना](./working-with- shapes/)

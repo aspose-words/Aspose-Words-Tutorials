@@ -45,13 +45,13 @@ Aspose.Words สําหรับบทเรียนวิวชาการ 
 {{< tutorial-card link="./working-with-table-styles-and-formatting/table-tittle-and-description/" title="เพิ่มชื่อและอธิบายในตารางใน Word" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [การฟอร์เมทเอกสารด้วย Aspose.Words สําหรับ .NET](./document-formatting/)
+## [การฟอร์เมทเอกสารด้วย Aspose.Words สําหรับ .NET](./document-styling/)
 เข้าใจวิธีการนํารูปแบบต่างๆ มาใช้กับข้อ, รายการ และเอกสาร เพื่อเพิ่มความน่าสนใจในภาพของไฟล์ Word ของคุณ
 
-{{< tutorial-card link="./document-formatting/apply-border-and-shading/" title="ใช้ ขอบเขต และ ภาพเงา ให้ กับ ข้อ ใน Aspose.Words" imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/apply-paragraph-style/" title="สร้างและแบบเอกสาร Word ใน Aspose.Words" imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/multilevel-list-formatting/" title="สร้างรายการระดับหลายระดับใน Word ด้วย Aspose.Words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/paragraph-formatting/" title="รูปแบบข้อ" imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/apply-border-and-shading/" title="ใช้ ขอบเขต และ ภาพเงา ให้ กับ ข้อ ใน Aspose.Words" imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/apply-paragraph-style/" title="สร้างและแบบเอกสาร Word ใน Aspose.Words" imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/multilevel-list-formatting/" title="สร้างรายการระดับหลายระดับใน Word ด้วย Aspose.Words" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/paragraph-formatting/" title="รูปแบบข้อ" imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [การทํางานกับตารางใน Aspose.Words สําหรับ .NET](./working-with-charts/)
@@ -65,12 +65,12 @@ Aspose.Words สําหรับบทเรียนวิวชาการ 
 {{< tutorial-card link="./working-with-charts/insert-simple-column-chart/" title="ใส่ ตาราง สะดวก ง่าย ใน Word" imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [การทํางานกับ Font ใน Aspose.Words สําหรับ .NET](./working-with-fonts/)
+## [การทํางานกับ Font ใน Aspose.Words สําหรับ .NET](./font-styling/)
 ค้นหาคุณสมบัติที่เกี่ยวข้องกับ font เช่น สไตล์ font, ระยะเส้น, แท็กความสําคัญ, และการตั้งค่าการเขียนแบบอื่น ๆ ในเอกสาร Word
 
-{{< tutorial-card link="./working-with-fonts/font-formatting/" title="สร้างรูปแบบลายอักษรใน Word" imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-fonts/get-font-line-spacing/" title="รับการแยกเส้น Font ในเอกสาร Word" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-fonts/set-font-emphasis-mark/" title="การ ใส่ หมาย ความ ย้ํา ใน หลักสูตร Word" imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/font-formatting/" title="สร้างรูปแบบลายอักษรใน Word" imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/get-font-line-spacing/" title="รับการแยกเส้น Font ในเอกสาร Word" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/set-font-emphasis-mark/" title="การ ใส่ หมาย ความ ย้ํา ใน หลักสูตร Word" imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [การทํางานกับฟอร์มฟิลด์ใน Aspose.Words สําหรับ .NET](./working-with-form- fields/)
@@ -82,15 +82,15 @@ Aspose.Words สําหรับบทเรียนวิวชาการ 
 ## [การทํางานกับหัวข้อและรองเท้าใน Aspose.Words สําหรับ .NET](./working-with- headers-and-footers/)
 เรียนรู้วิธีสร้างและการควบคุมหัวข้อและรองเท้า
 
-{{< tutorial-card link="./working-with-headers-and-footers/create-header-footer/" title="สร้างเอกสาร Word ด้วย Header และ Footer" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-headers-and-footers/insert-image/" title="ใส่ภาพในหัวข้อเอกสาร Word" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./header-footer-formatting/create-header-footer/" title="สร้างเอกสาร Word ด้วย Header และ Footer" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./header-footer-formatting/insert-image/" title="ใส่ภาพในหัวข้อเอกสาร Word" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [การทํางานกับส่วนใน Aspose.Words สําหรับ .NET](./working-with-section/)
+## [การทํางานกับส่วนใน Aspose.Words สําหรับ .NET](./document-sections/)
 เข้าใจวิธีการจัดเอกสารเป็นส่วน โดยให้มีหัวข้อ, ต้นเท้า และรูปแบบการจัดรูปแบบต่าง ๆ
 
-{{< tutorial-card link="./working-with-section/add-section/" title="เพิ่มส่วนใหม่ต่อเอกสาร Word" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-section/append-section-content/" title="เพิ่มและเตรียมเนื้อหาในเอกสาร Word" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./document-sections/add-section/" title="เพิ่มส่วนใหม่ต่อเอกสาร Word" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./document-sections/append-section-content/" title="เพิ่มและเตรียมเนื้อหาในเอกสาร Word" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [การทํางานกับ Shapes ใน Aspose.Words สําหรับ .NET](./working-with-shapes/)

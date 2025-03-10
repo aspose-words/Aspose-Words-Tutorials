@@ -62,18 +62,18 @@ Tìm hiểu cách chèn văn bản, bảng, hình ảnh và các yếu tố khá
 ### [Phương thức định dạng tài liệu với Aspose.Words cho .NET](./net/document- formatting/)
 Hiểu cách áp dụng các tùy chọn định dạng khác nhau cho các đoạn văn, danh sách và các yếu tố tài liệu để tăng cường sự hấp dẫn trực quan của các tệp Word của bạn.
 
-{{< tutorial-card link="./net/document-formatting/apply-border-and-shading/" title="Sử dụng biên giới và bóng cho đoạn trong Aspose.Words " imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/apply-paragraph-style/" title="Tạo và kiểu dáng một tài liệu Word trong Aspose.Words " imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/multilevel-list-formatting/" title="Tạo danh sách đa cấp trong Word với Aspose.Words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/paragraph-formatting/" title="Phụ thể các đoạn " imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Sử dụng biên giới và bóng cho đoạn trong Aspose.Words " imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="Tạo và kiểu dáng một tài liệu Word trong Aspose.Words " imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="Tạo danh sách đa cấp trong Word với Aspose.Words" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="Phụ thể các đoạn " imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Làm việc với Font trong Aspose.Words cho .NET](./net/working-with-fonts/)
+### [Làm việc với Font trong Aspose.Words cho .NET](./net/font-styling/)
 Khám phá các tính năng liên quan đến phông chữ như phong cách phông chữ, khoảng cách đường, dấu nhấn mạnh và cài đặt kiểu chữ khác trong tài liệu Word.
 
-{{< tutorial-card link="./net/working-with-fonts/font-formatting/" title="Tạo định dạng phông chữ trong Word " imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/get-font-line-spacing/" title="Nhận khoảng cách dòng phông chữ trong Word Document" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/set-font-emphasis-mark/" title="Đặt dấu nhấn mạnh trong Word Document " imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/font-formatting/" title="Tạo định dạng phông chữ trong Word " imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="Nhận khoảng cách dòng phông chữ trong Word Document" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Đặt dấu nhấn mạnh trong Word Document " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Làm việc với các trường biểu mẫu trong Aspose.Words cho .NET](./net/working- with-form-fields/)
@@ -82,18 +82,18 @@ Tìm hiểu cách chèn và quản lý các trường biểu mẫu như nhập v
 {{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Nhập trường biểu mẫu hộp combo vào Word Document" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Làm việc với các tiêu đề và chân chân trong Aspose.Words cho .NET](./net/working-with-headers-and-footers/)
+### [Làm việc với các tiêu đề và chân chân trong Aspose.Words cho .NET](./net/header-footer-formatting/)
 Học cách tạo và điều khiển tiêu đề và chân chữ, bao gồm thêm hình ảnh, số trang và văn bản.
 
-{{< tutorial-card link="./net/working-with-headers-and-footers/create-header-footer/" title="Tạo Word Document với Header và Footer" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-headers-and-footers/insert-image/" title="Nhập một hình ảnh vào Word Document Header" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Tạo Word Document với Header và Footer" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Nhập một hình ảnh vào Word Document Header" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Làm việc với các phần trong Aspose.Words cho .NET](./net/working-with- section/)
 Hiểu cách cấu trúc tài liệu thành các phần, cho phép tiêu đề, chân chân và kiểu định dạng khác nhau.
 
-{{< tutorial-card link="./net/working-with-section/add-section/" title="Thêm một phần mới vào Word Document" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-section/append-section-content/" title="Thêm và Prepend nội dung trong Word Documents" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/add-section/" title="Thêm một phần mới vào Word Document" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/append-section-content/" title="Thêm và Prepend nội dung trong Word Documents" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Làm việc với Shapes trong Aspose.Words cho .NET](./net/working-with-shapes/)

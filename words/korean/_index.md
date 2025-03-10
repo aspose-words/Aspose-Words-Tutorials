@@ -59,21 +59,21 @@ Aspose.Words 시각적 튜토리얼은 .NET, Java, C++ 등 모든 Aspose.Words �
 {{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title=".NET에서 컨텐츠 테이블을 가진 워드 문서를 생성" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NET에 대한 Aspose.Words로 문서 형식](./net/document-formatting/)
+### [.NET에 대한 Aspose.Words로 문서 형식](./net/document-styling/)
 워드 파일의 시각적 매력을 높이기 위해 문장, 목록, 문서 요소에 다양한 형식 옵션을 적용하는 방법을 이해하십시오.
 
-{{< tutorial-card link="./net/document-formatting/apply-border-and-shading/" title="Aspose.Words의 문장 에 경계 와 그림자 를 적용 하십시오 " imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/apply-paragraph-style/" title="Aspose.Words에서 워드 문서를 작성하고 스타일링 " imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/multilevel-list-formatting/" title="Aspose.Words로 Word에서 다중 레벨 리스트를 생성하십시오" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/paragraph-formatting/" title="문장 형식 " imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Aspose.Words의 문장 에 경계 와 그림자 를 적용 하십시오 " imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="Aspose.Words에서 워드 문서를 작성하고 스타일링 " imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="Aspose.Words로 Word에서 다중 레벨 리스트를 생성하십시오" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="문장 형식 " imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NET에서 Aspose.Words에서 폰트와 작업](./net/working-with-fonts/)
+### [.NET에서 Aspose.Words에서 폰트와 작업](./net/font-styling/)
 워드 문서에서 글꼴 스타일, 라인 사이즈, 강조 표시 및 기타 타이포그래피 설정을 포함한 글꼴 관련 기능을 탐구하십시오.
 
-{{< tutorial-card link="./net/working-with-fonts/font-formatting/" title="워드에서 글꼴 형식을 만드는 것 " imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/get-font-line-spacing/" title="워드 문서에서 글꼴 라인 간격을 얻으십시오" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/set-font-emphasis-mark/" title="워드 문서 에 강조 표시 를 설정 " imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/font-formatting/" title="워드에서 글꼴 형식을 만드는 것 " imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="워드 문서에서 글꼴 라인 간격을 얻으십시오" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="워드 문서 에 강조 표시 를 설정 " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [.NET에서 Aspose.Words에서 양식 필드와 작업](./net/working-with-form-fields/)
@@ -82,18 +82,18 @@ Aspose.Words 시각적 튜토리얼은 .NET, Java, C++ 등 모든 Aspose.Words �
 {{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="콤보 박스 양식 필드를 워드 문서에 삽입" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NET에서 Aspose.Words에서 헤더와 발자국자와 작업](./net/working-with-headers-and-footers/)
+### [.NET에서 Aspose.Words에서 헤더와 발자국자와 작업](./net/header-footer-formatting/)
 사진, 페이지 번호, 텍스트를 추가하는 등 헤더와 피터를 만들고 조작하는 방법을 배우십시오.
 
-{{< tutorial-card link="./net/working-with-headers-and-footers/create-header-footer/" title="헤더와 파터로 워드 문서 작성" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-headers-and-footers/insert-image/" title="워드 문서 헤더에 이미지를 삽입" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="헤더와 파터로 워드 문서 작성" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="워드 문서 헤더에 이미지를 삽입" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NET에서 Aspose.Words의 섹션과 작업](./net/working-with-section/)
+### [.NET에서 Aspose.Words의 섹션과 작업](./net/document-sections/)
 문서들을 섹션으로 구성하는 방법을 이해하여 다른 헤더, 피터, 포맷 스타일을 허용합니다.
 
-{{< tutorial-card link="./net/working-with-section/add-section/" title="워드 문서에 새로운 섹션을 추가" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-section/append-section-content/" title="워드 문서에 내용을 추가하고 미리 추가" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/add-section/" title="워드 문서에 새로운 섹션을 추가" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/append-section-content/" title="워드 문서에 내용을 추가하고 미리 추가" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [.NET에서 Aspose.Words에서 Shapes와 작업](./net/working-with-shapes/)

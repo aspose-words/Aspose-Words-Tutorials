@@ -45,13 +45,13 @@ Lär dig hur man skapar, formaterar och anpassar tabeller i Word-dokument, inklu
 {{< tutorial-card link="./working-with-table-styles-and-formatting/table-tittle-and-description/" title="Lägg till titel och beskrivning i tabell i Word" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Dokumentformatering med Aspose.Words för .NET](./document-formatting/)
+## [Dokumentformatering med Aspose.Words för .NET](./document-styling/)
 Förstå hur du kan tillämpa olika formateringsalternativ på stycken, listor och dokumentelement för att förbättra den visuella attraktionen i dina Word-filer.
 
-{{< tutorial-card link="./document-formatting/apply-border-and-shading/" title="Använd gränser och skugga på avsnittet i Aspose.Words" imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/apply-paragraph-style/" title="Skapa och stilla ett Word-dokument i Aspose.Words" imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/multilevel-list-formatting/" title="Skapa flernivålistor i Word med Aspose.Words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/paragraph-formatting/" title="Formatera paragraferna" imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/apply-border-and-shading/" title="Använd gränser och skugga på avsnittet i Aspose.Words" imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/apply-paragraph-style/" title="Skapa och stilla ett Word-dokument i Aspose.Words" imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/multilevel-list-formatting/" title="Skapa flernivålistor i Word med Aspose.Words" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/paragraph-formatting/" title="Formatera paragraferna" imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Arbeta med diagram i Aspose.Words för .NET](./working-with-charts/)
@@ -65,12 +65,12 @@ Lär dig att lägga in och anpassa olika typer av diagram, såsom spets, rad och
 {{< tutorial-card link="./working-with-charts/insert-simple-column-chart/" title="Lägg in en enkel kolumnsdiagram i Word" imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Arbeta med teckensnitt i Aspose.Words för .NET](./working-with-fonts/)
+## [Arbeta med teckensnitt i Aspose.Words för .NET](./font-styling/)
 Utforska fontrelaterade funktioner som typstilar, linjeutrymme, betoning och andra typografiinställningar i Word-dokument.
 
-{{< tutorial-card link="./working-with-fonts/font-formatting/" title="Skapa teckensnitt i Word" imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-fonts/get-font-line-spacing/" title="Få skriftlinje mellanrum i Word-dokument" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-fonts/set-font-emphasis-mark/" title="Ställ betoning i Word-dokumentet" imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/font-formatting/" title="Skapa teckensnitt i Word" imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/get-font-line-spacing/" title="Få skriftlinje mellanrum i Word-dokument" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/set-font-emphasis-mark/" title="Ställ betoning i Word-dokumentet" imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Arbeta med formulärfält i Aspose.Words för .NET](./working-with-form-fields/)
@@ -82,15 +82,15 @@ Ta reda på hur man lägger in och hanterar formulärfält som textinmatning, ne
 ## [Arbeta med header och fotare i Aspose.Words för .NET](./working-with-headers- and-footers/)
 Lär dig hur man skapar och manipulerar rubriker och fotor, inklusive att lägga till bilder, sidnumrar och text.
 
-{{< tutorial-card link="./working-with-headers-and-footers/create-header-footer/" title="Skapa Word-dokument med höjd och fot" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-headers-and-footers/insert-image/" title="Lägg in en bild i Word Document Header" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./header-footer-formatting/create-header-footer/" title="Skapa Word-dokument med höjd och fot" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./header-footer-formatting/insert-image/" title="Lägg in en bild i Word Document Header" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Arbeta med avsnitt i Aspose.Words för .NET](./working-with-section/)
+## [Arbeta med avsnitt i Aspose.Words för .NET](./document-sections/)
 Förstå hur man strukturerar dokument i sektioner, vilket gör det möjligt att ha olika rubriker, fotor och formateringsstilar.
 
-{{< tutorial-card link="./working-with-section/add-section/" title="Lägg till ett nytt avsnitt i Word-dokumentet" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-section/append-section-content/" title="Lägg till och förlänga innehåll i Word-dokument" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./document-sections/add-section/" title="Lägg till ett nytt avsnitt i Word-dokumentet" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./document-sections/append-section-content/" title="Lägg till och förlänga innehåll i Word-dokument" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Arbeta med Shapes i Aspose.Words för .NET](./working-with-shapes/)

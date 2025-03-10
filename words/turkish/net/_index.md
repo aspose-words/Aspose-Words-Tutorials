@@ -45,13 +45,13 @@ Sınırları, stilleri ve hücre dolgulamasını oluşturmak gibi Word belgeleri
 {{< tutorial-card link="./working-with-table-styles-and-formatting/table-tittle-and-description/" title="Word'de Tabloya Başlık ve Açıklama Ekle" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [.NET için Aspose.Words ile belge biçimlendirme](./document-formatting/)
+## [.NET için Aspose.Words ile belge biçimlendirme](./document-styling/)
 Word dosyalarınızın görsel çekiciliğini artırmak için paragraflara, listelere ve belge öğelerine çeşitli biçimleme seçeneklerini nasıl uygulayacağınızı öğrenin.
 
-{{< tutorial-card link="./document-formatting/apply-border-and-shading/" title="Aspose.Words bölümünde paragraflara sınırları ve gölgelik uygula" imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/apply-paragraph-style/" title="Aspose.Words ile Word Belgesini Oluştur ve Şablonla Yap" imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/multilevel-list-formatting/" title="Aspose.Words ile Word'de Çok Düzeyli Listes Oluşturun" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./document-formatting/paragraph-formatting/" title="Paragrafların biçimi" imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/apply-border-and-shading/" title="Aspose.Words bölümünde paragraflara sınırları ve gölgelik uygula" imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/apply-paragraph-style/" title="Aspose.Words ile Word Belgesini Oluştur ve Şablonla Yap" imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/multilevel-list-formatting/" title="Aspose.Words ile Word'de Çok Düzeyli Listes Oluşturun" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./document-styling/paragraph-formatting/" title="Paragrafların biçimi" imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [.NET için Aspose.Wordsdaki Çarşemalarla çalışmak](./working-with-charts/)
@@ -65,12 +65,12 @@ Word belgeleri içinde bar, satır ve dağılım çizelgeleri gibi farklı grafi
 {{< tutorial-card link="./working-with-charts/insert-simple-column-chart/" title="Sözcük İçin Basit Bir Sütun Çarşı Ekle" imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [.NET için Aspose.Words'te Yazı Tipi ile Çalışmak](./working-with-fonts/)
+## [.NET için Aspose.Words'te Yazı Tipi ile Çalışmak](./font-styling/)
 Word belgelerindeki yazı tipi stilleri, satır aralığı, vurgu işaretleri ve diğer tipografi ayarları gibi yazı tipi ile ilgili özellikleri keşfedin.
 
-{{< tutorial-card link="./working-with-fonts/font-formatting/" title="Word'de Yazı Tipi biçimlendirme oluştur" imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-fonts/get-font-line-spacing/" title="Word Belgesinde Font Line Aralıklı Oluştur" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-fonts/set-font-emphasis-mark/" title="Word Belgesinde Temizlik Markası Yap" imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/font-formatting/" title="Word'de Yazı Tipi biçimlendirme oluştur" imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/get-font-line-spacing/" title="Word Belgesinde Font Line Aralıklı Oluştur" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./font-styling/set-font-emphasis-mark/" title="Word Belgesinde Temizlik Markası Yap" imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [.NET için Aspose.Words'te Form Alanları ile çalışmak](./working-with-form- fields/)
@@ -79,18 +79,18 @@ Word belgeleri içinde metin girimi, düşüş listeleri ve kontrol kutuları gi
 {{< tutorial-card link="./working-with-form-fields/insert-form-fields/" title="Word Belgesine Combo Box Form Alanı Ekle" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [.NET için Aspose.Words için Başlık ve Ayağa Tıkayıcılar ile çalışmak](./working-with-headers-and-footers/)
+## [.NET için Aspose.Words için Başlık ve Ayağa Tıkayıcılar ile çalışmak](./header-footer-formatting/)
 Resimleri, sayfa numaralarını ve metni eklemek de dahil olmak üzere başlıkları ve ayakkabıları nasıl oluşturup değiştirmeyi öğrenin.
 
-{{< tutorial-card link="./working-with-headers-and-footers/create-header-footer/" title="Başlık ve Altyazılı ile Word Belgesi Oluştur" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-headers-and-footers/insert-image/" title="Word Belge Başlığı'na Bir Resim Ekle" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./header-footer-formatting/create-header-footer/" title="Başlık ve Altyazılı ile Word Belgesi Oluştur" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./header-footer-formatting/insert-image/" title="Word Belge Başlığı'na Bir Resim Ekle" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [.NET için Aspose.Words bölümleri ile çalışmak](./working-with-section/)
+## [.NET için Aspose.Words bölümleri ile çalışmak](./document-sections/)
 Belgeleri farklı başlıklara, ayakkabılara ve biçimlendirme biçimlerine izin veren bölümlere nasıl yapılandırılacağını anlayın.
 
-{{< tutorial-card link="./working-with-section/add-section/" title="Word Belgesine Yeni Bir Bölüm Ekle" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./working-with-section/append-section-content/" title="Word Belgelerinde İçeriği Ekle ve Öncelendirme" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./document-sections/add-section/" title="Word Belgesine Yeni Bir Bölüm Ekle" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./document-sections/append-section-content/" title="Word Belgelerinde İçeriği Ekle ve Öncelendirme" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [.NET için Aspose.Words'ta Şekiller ile çalışmak](./working-with-shapes/)

@@ -59,21 +59,21 @@ Aspose.Words视觉教程为所有Aspose.Words产品提供了步骤指南,包括 
 {{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title="在 .NET 中创建一个包含表的 Word 文档" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [文件格式化用Aspose.Words为 .NET](./net/document-formatting/)
+### [文件格式化用Aspose.Words为 .NET](./net/document-styling/)
 了解如何将各种格式选项应用于段落,列表和文档元素,以提高Word文件的视觉吸引力.
 
-{{< tutorial-card link="./net/document-formatting/apply-border-and-shading/" title="适用Aspose.Words中的边界和阴影 " imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/apply-paragraph-style/" title="在Aspose.Words中创建和格式化Word文档 " imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/multilevel-list-formatting/" title="用Aspose.Words在 Word 中创建多层次列表" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/paragraph-formatting/" title="格式段 " imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="适用Aspose.Words中的边界和阴影 " imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="在Aspose.Words中创建和格式化Word文档 " imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="用Aspose.Words在 Word 中创建多层次列表" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="格式段 " imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [在 .NET 中使用Aspose.Words中的字体](./net/working-with-fonts/)
+### [在 .NET 中使用Aspose.Words中的字体](./net/font-styling/)
 探索Word文档中字体相关的功能,如字体风格,行间隔,重点标记和其他类型类型设置.
 
-{{< tutorial-card link="./net/working-with-fonts/font-formatting/" title="在 Word 中创建字体格式 " imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/get-font-line-spacing/" title="在 Word 文档中获取字体行间隔" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/set-font-emphasis-mark/" title="在 Word 文档中设置重点标记 " imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/font-formatting/" title="在 Word 中创建字体格式 " imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="在 Word 文档中获取字体行间隔" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="在 Word 文档中设置重点标记 " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [在 .NET 中使用Aspose.Words中的表格字段](./net/working-with-form-fields/)
@@ -82,18 +82,18 @@ Aspose.Words视觉教程为所有Aspose.Words产品提供了步骤指南,包括 
 {{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="插入 Word 文档中组合框表格字段" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [在 .NET 版的Aspose.Words中与标题和脚本合作](./net/working-with-headers-and-footers/)
+### [在 .NET 版的Aspose.Words中与标题和脚本合作](./net/header-footer-formatting/)
 了解如何创建和操作标题和脚本,包括添加图像,页面号码和文字.
 
-{{< tutorial-card link="./net/working-with-headers-and-footers/create-header-footer/" title="使用头条和脚本创建Word文档" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-headers-and-footers/insert-image/" title="插入图像到Word文档标题中" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="使用头条和脚本创建Word文档" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="插入图像到Word文档标题中" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [对于 .NET 应用程序,使用Aspose.Words中的部分](./net/working-with-section/)
+### [对于 .NET 应用程序,使用Aspose.Words中的部分](./net/document-sections/)
 了解如何将文档组建成部分,允许不同的标题,脚本和格式.
 
-{{< tutorial-card link="./net/working-with-section/add-section/" title="添加一个新的部分到Word文档" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-section/append-section-content/" title="添加和预备内容在Word文档中" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/add-section/" title="添加一个新的部分到Word文档" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/append-section-content/" title="添加和预备内容在Word文档中" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [在 .NET 中使用Aspose.Words中的Shapes](./net/working-with-shapes/)
