@@ -2,7 +2,7 @@
 title: .NET के लिए Aspose.Words का उपयोग करके चार्ट के साथ एक दस्तावेज़ बनाएं
 weight: 7700
 limit: 
-description: चार्ट के साथ वर्ड दस्तावेज़ बनाने, वाई-अक्ष सीमाओं को अनुकूलित करने और चरण-दर- चरण निर्देशों के साथ .NET के लिए "एस्पोज.वर्ड्स" का उपयोग करके DOCX के रूप में सहेजने का तरीका जानें।
+description: चार्ट के साथ वर्ड दस्तावेज़ बनाने, वाई-अक्ष सीमाओं को अनुकूलित करने और चरण-दर- चरण निर्देशों के साथ .NET के लिए Aspose.Words का उपयोग करके DOCX के रूप में सहेजने का तरीका जानें।
 keywords: [Aspose.Words for .NET, create chart in Word, customize Y-axis, DOCX chart creation, Word document chart tutorial, .NET Word chart example]
 url: /hi/net/working-with-charts/bounds-of-axis/
 ---

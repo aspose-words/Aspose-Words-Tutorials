@@ -16,7 +16,7 @@ url: /hi/net/document-formatting/
 
 विषयों के साथ काम करने, शैलियों का प्रबंधन, अंतराल समायोजित करने और गतिशील लेआउट बनाने जैसे घोंसले हुए विषयों पर विस्तृत मार्गदर्शिकाओं के साथ दस्तावेज़ स्वरूपण में गहराई से गोता लगाएं। .NET के लिए Aspose.Words के साथ, आप सभी आउटपुटों में स्थिरता और सुरुचिपूर्ण बनाए रखते हुए, दस्तावेजों को वितरित कर सकते हैं जो कठोर मानकों को पूरा करते हैं।
 
-{{< tutorial-card link="./apply-border-and-shading/" title=""अस्पोज.वर्ड्स" में पैराग्राफ पर सीमाओं और छायांकन का प्रयोग करें" imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./apply-border-and-shading/" title="Aspose.Words में पैराग्राफ पर सीमाओं और छायांकन का प्रयोग करें" imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
 {{< tutorial-card link="./apply-paragraph-style/" title="Aspose.Words में Word दस्तावेज़ बनाएं और Style करें" imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
 {{< tutorial-card link="./multilevel-list-formatting/" title="Aspose.Words के साथ Word में मल्टी लेवल लिस्ट बनाएं" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
 {{< tutorial-card link="./paragraph-formatting/" title=".NET के लिए Aspose.Words का उपयोग करके पैराग्राफ प्रारूपित करें" imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}

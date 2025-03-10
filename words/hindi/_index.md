@@ -1,8 +1,8 @@
 ---
-title: "एस्पोज.वर्ड" विज़ुअल ट्यूटोरियल 
+title: Aspose.Words विज़ुअल ट्यूटोरियल 
 weight: 10
 limit:
-description: .NET, जावा, C++, और अधिक के लिए चरण-दर-चरण दृश्य ट्यूटोरियल के साथ "एस्पोज.वर्ड्स" सीखें। दस्तावेज़ निर्माण, संपादन, रूपांतरण और स्वचालन को आसानी से मास्टर करें।
+description: .NET, जावा, C++, और अधिक के लिए चरण-दर-चरण दृश्य ट्यूटोरियल के साथ Aspose.Words सीखें। दस्तावेज़ निर्माण, संपादन, रूपांतरण और स्वचालन को आसानी से मास्टर करें।
 keywords:
 url: /hi/
 ---
@@ -62,7 +62,7 @@ Word दस्तावेज़ों में विभिन्न प्र
 ### [.NET के लिए Aspose.Words के साथ दस्तावेज़ स्वरूपण](./net/document- formatting/)
 अपने Word फ़ाइलों की दृश्य अपील को बढ़ाने के लिए पैराग्राफ, सूचियों और दस्तावेज़ तत्वों पर विभिन्न स्वरूपण विकल्पों को कैसे लागू करें, यह समझें।
 
-{{< tutorial-card link="./net/document-formatting/apply-border-and-shading/" title=""अस्पोज.वर्ड्स" में पैराग्राफ पर सीमाओं और छायांकन का प्रयोग करें " imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-formatting/apply-border-and-shading/" title="Aspose.Words में पैराग्राफ पर सीमाओं और छायांकन का प्रयोग करें " imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
 {{< tutorial-card link="./net/document-formatting/apply-paragraph-style/" title="Aspose.Words में Word दस्तावेज़ बनाएं और Style करें " imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
 {{< tutorial-card link="./net/document-formatting/multilevel-list-formatting/" title="Aspose.Words के साथ Word में मल्टी लेवल लिस्ट बनाएं" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
 {{< tutorial-card link="./net/document-formatting/paragraph-formatting/" title="अनुच्छेदों का प्रारूपण " imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
