@@ -1,0 +1,67 @@
+//ExStart
+//ExSummary: यह कोड Aspose.Words का उपयोग करके एक दस्तावेज़ के भीतर समूह आकार बनाने का तरीका प्रदर्शित करता है।
+// यह एक आकृति सीमा कॉलआउट आकार और एक कार्रवाई बटन बनाता है, उन्हें एक समूह आकार में जोड़ता है, और फिर इसे सहेजने से पहले दस्तावेज़ में समूह आकार सम्मिलित करता है।
+//ExStepSummary:0: एक नया दस्तावेज़ शुरू करता है और यह सुनिश्चित करता है कि न्यूनतम आवश्यकताओं को पूरा किया जाए।
+//ExStepSummary:1: एक समूह आकार बनाता है जो अन्य आकारों को बनाए रखेगा।
+//ExStepSummary:2: समूह आकार में एक उच्चारण सीमा कॉलआउट आकार जोड़ता है।
+//ExStepSummary:3: समूह आकार में एक कार्रवाई बटन आकार जोड़ता है.
+//ExStepSummary:4: समूह आकार के लिए आयाम और निर्देशांक निर्धारित करता है।
+//ExStepSummary:5: दस्तावेज़निर्माता का उपयोग करके दस्तावेज़ में समूह आकार सम्मिलित करता है.
+//ExStepSummary:6: समूह आकार युक्त दस्तावेज़ को निर्दिष्ट स्थान पर सहेजता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStep:0-
+// एक नया दस्तावेज़ बनाएं
+Document doc = new Document();
+// दस्तावेज न्यूनतम आवश्यकताओं को पूरा करने का सुनिश्चित करें
+doc.EnsureMinimum();
+
+//ExStep:1-
+// एक नया समूह आकार उदाहरण बनाएं
+GroupShape groupShape = new GroupShape(doc);
+
+//ExStep:2-
+// एक उच्चारण सीमा कॉलआउट आकार बनाएं
+Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
+{
+    Width = 100, 
+    Height = 100
+};
+// समूह आकार में आकार जोड़ें
+groupShape.AppendChild(accentBorderShape);
+
+//ExStep:3-
+// एक्शन बटन आकार बनाएं
+Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
+{
+	// आकार की बाईं स्थिति निर्धारित करें
+    Left = 100, 
+	// आकार की चौड़ाई सेट करें
+    Width = 100, 
+	// आकार की ऊंचाई निर्धारित करें
+    Height = 200
+};
+// समूह आकार में कार्रवाई बटन जोड़ें
+groupShape.AppendChild(actionButtonShape);
+
+//ExStep:4-
+// समूह आकार की चौड़ाई सेट करें
+groupShape.Width = 200;
+// समूह आकार की ऊंचाई निर्धारित करें
+groupShape.Height = 200;
+// समूह आकार के लिए निर्देशांक आकार सेट करें
+groupShape.CoordSize = new Size(200, 200);
+
+//ExStep:5-
+// दस्तावेज़ को हेरफेर करने के लिए एक दस्तावेज़निर्माता बनाएँ
+DocumentBuilder builder = new DocumentBuilder(doc);
+// दस्तावेज़ में समूह आकार डालें
+builder.InsertNode(groupShape);
+
+//ExStep:6-
+// दस्तावेज़ को निर्दिष्ट स्थान पर सहेजें
+doc.Save("WorkingWithShapes.AddGroupShape.docx");
+//ExEnd

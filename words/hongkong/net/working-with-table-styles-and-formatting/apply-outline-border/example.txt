@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary該代碼顯示如何使用Aspose.Words在Word文檔中的表格上使用概要邊界. 它將表格放在頁面上的中心, 圍繞表格設定綠色邊界, 清除任何現有的邊界, 并以淡綠色背景色填滿表格細胞. 
+//ExStepSummary:0: 接下來代碼將文檔初始化,
+//ExStepSummary:1: 這一步將表排在頁面中部.
+//ExStepSummary:2: 這一步將所有現有的邊界從桌面清除.
+//ExStepSummary:3: 這一步將桌子周圍設綠色邊界,
+//ExStepSummary:4: 這一步將細胞充滿亮綠色的固體顏色.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// 定義文件目錄
+string dataDir = "Your Document Directory";
+// 載入文件
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// 請從文件中查找第一個表
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+// 排列表與頁面中部
+table.Alignment = TableAlignment.Center;
+
+//ExStep:2-
+// 清除任何現有的邊界
+table.ClearBorders();
+
+//ExStep:3-
+// 設定左邊界
+table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
+// 設定右邊邊界
+table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
+// 設定上限
+table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
+// 設定底邊界
+table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
+
+//ExStep:4-
+// 填充子的綠色
+table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
+// 保存已修改的文件
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
+//ExEnd

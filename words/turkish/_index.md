@@ -59,21 +59,21 @@ Word belgeleri'ne metin, tablolar, resimler ve diğer öğeleri, Belge Oluşturu
 {{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title=".NET'de İçerik Tablosu ile Word Belgesi Oluştur" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NET için Aspose.Words ile belge biçimlendirme](./net/document-formatting/)
+### [.NET için Aspose.Words ile belge biçimlendirme](./net/document-styling/)
 Word dosyalarınızın görsel çekiciliğini artırmak için paragraflara, listelere ve belge öğelerine çeşitli biçimleme seçeneklerini nasıl uygulayacağınızı öğrenin.
 
-{{< tutorial-card link="./net/document-formatting/apply-border-and-shading/" title="Aspose.Words bölümünde paragraflara sınırları ve gölgelik uygula " imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/apply-paragraph-style/" title="Aspose.Words ile Word Belgesini Oluştur ve Şablonla Yap " imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/multilevel-list-formatting/" title="Aspose.Words ile Word'de Çok Düzeyli Listes Oluşturun" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/paragraph-formatting/" title="Paragrafların biçimi " imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Aspose.Words bölümünde paragraflara sınırları ve gölgelik uygula " imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="Aspose.Words ile Word Belgesini Oluştur ve Şablonla Yap " imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="Aspose.Words ile Word'de Çok Düzeyli Listes Oluşturun" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="Paragrafların biçimi " imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NET için Aspose.Words'te Yazı Tipi ile Çalışmak](./net/working-with-fonts/)
+### [.NET için Aspose.Words'te Yazı Tipi ile Çalışmak](./net/font-styling/)
 Word belgelerindeki yazı tipi stilleri, satır aralığı, vurgu işaretleri ve diğer tipografi ayarları gibi yazı tipi ile ilgili özellikleri keşfedin.
 
-{{< tutorial-card link="./net/working-with-fonts/font-formatting/" title="Word'de Yazı Tipi biçimlendirme oluştur " imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/get-font-line-spacing/" title="Word Belgesinde Font Line Aralıklı Oluştur" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/set-font-emphasis-mark/" title="Word Belgesinde Temizlik Markası Yap " imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/font-formatting/" title="Word'de Yazı Tipi biçimlendirme oluştur " imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="Word Belgesinde Font Line Aralıklı Oluştur" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Word Belgesinde Temizlik Markası Yap " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [.NET için Aspose.Words'te Form Alanları ile çalışmak](./net/working-with- form-fields/)
@@ -82,18 +82,18 @@ Word belgeleri içinde metin girimi, düşüş listeleri ve kontrol kutuları gi
 {{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Word Belgesine Combo Box Form Alanı Ekle" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NET için Aspose.Words için Başlık ve Ayağa Tıkayıcılar ile çalışmak](./net/working-with-headers-and-footers/)
+### [.NET için Aspose.Words için Başlık ve Ayağa Tıkayıcılar ile çalışmak](./net/header-footer-formatting/)
 Resimleri, sayfa numaralarını ve metni eklemek de dahil olmak üzere başlıkları ve ayakkabıları nasıl oluşturup değiştirmeyi öğrenin.
 
-{{< tutorial-card link="./net/working-with-headers-and-footers/create-header-footer/" title="Başlık ve Altyazılı ile Word Belgesi Oluştur" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-headers-and-footers/insert-image/" title="Word Belge Başlığı'na Bir Resim Ekle" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Başlık ve Altyazılı ile Word Belgesi Oluştur" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Word Belge Başlığı'na Bir Resim Ekle" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NET için Aspose.Words bölümleri ile çalışmak](./net/working-with-section/)
+### [.NET için Aspose.Words bölümleri ile çalışmak](./net/document-sections/)
 Belgeleri farklı başlıklara, ayakkabılara ve biçimlendirme biçimlerine izin veren bölümlere nasıl yapılandırılacağını anlayın.
 
-{{< tutorial-card link="./net/working-with-section/add-section/" title="Word Belgesine Yeni Bir Bölüm Ekle" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-section/append-section-content/" title="Word Belgelerinde İçeriği Ekle ve Öncelendirme" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/add-section/" title="Word Belgesine Yeni Bir Bölüm Ekle" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/append-section-content/" title="Word Belgelerinde İçeriği Ekle ve Öncelendirme" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [.NET için Aspose.Words'ta Şekiller ile çalışmak](./net/working-with-shapes/)
@@ -107,7 +107,76 @@ Word belgelerinde gruplanmış şekiller ve önceden tanımlanmış çizimler de
 Markalama veya güvenlik amaçlı Word belgelere metin ve resim su işaretlerini eklemeyi öğrenin.
 {{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="Word Belgesine Metin Su İşaretini Ekle " imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose.Words Eğitimleri
+
+
+## .NET için Aspose.Words Belge İşleme Eğitimleri
+{{% alert color="primary" %}}
+Bu eğitimler, Microsoft Word belgeleriyle programatik olarak nasıl çalışılacağına dair net ve ayrıntılı talimatlar sunarak geniş bir işlevsellik yelpazesini kapsar. Belge oluşturma ve düzenleme gibi basit görevlerden posta birleştirme, belge dönüştürme ve belge şifreleme gibi daha gelişmiş özelliklere kadar, geliştiriciler projelerinde uygulayabilecekleri pratik örnekler ve kod parçacıkları bulabilirler. Bu eğitimleri izleyerek, .NET geliştiricileri uygulamalarını güçlü belge işleme yetenekleriyle geliştirebilir ve yazılım çözümlerinde Word belgelerinin verimli ve sorunsuz bir şekilde işlenmesini sağlayabilirler. 
+{{% /alert %}}
+
+İşte bazı yararlı kaynaklara bağlantılar:
+- [AI Destekli Belge İşleme](./net/ai-powered-document-processing/)
+- [Lisans Uygula](./net/apply-license/)   
+- [OpenType özelliklerini etkinleştir](./net/enable-opentype-features/)   
+- [Yorumlarla Çalışma](./net/working-with-comments/)   
+- [Alanlarla Çalışma](./net/working-with-fields/)   
+- [Dipnot ve Sonnot ile Çalışma](./net/working-with-footnote-and-endnote/)   
+- [FormFields ile Çalışma](./net/working-with-formfields/)   
+- [Üstbilgiler ve Altbilgilerle Çalışma](./net/working-with-headers-and-footers/)   
+- [Tireleme ile Çalışma](./net/working-with-hyphenation/)   
+- [Liste ile Çalışma](./net/working-with-list/)   
+- [Markdown ile Çalışma](./net/working-with-markdown/)   
+- [Node ile Çalışma](./net/working-with-node/)   
+- [Revizyonlarla Çalışma](./net/working-with-revisions/)   
+- [Metin Kutularıyla Çalışma](./net/working-with-textboxes/)   
+- [Belgeyi Böl](./net/split-document/)   
+- [Documentbuilder Kullanarak İçerik Ekleme](./net/add-content-using-documentbuilder/)
+- [Belgeleri Klonla ve Birleştir](./net/clone-and-combine-documents/) 
+- [Belgeleri Karşılaştır](./net/compare-documents/) 
+- [Belge Biçimlendirme](./net/document-formatting/)      
+- [Filigranla Programlama](./net/programming-with-watermark/)    
+- [Markdownsaveoptions ile Programlama](./net/programming-with-markdownsaveoptions/)   
+- [Temel Dönüşümler](./net/basic-conversions/)   
+
+## Java için Aspose.Words Belge İşleme Eğitimleri
+{{% alert color="primary" %}}
+Bu kapsamlı öğretici koleksiyonu, Microsoft Word belgeleriyle programatik olarak etkili bir şekilde nasıl çalışılacağına dair adım adım rehberlik sağlar. Belge oluşturma ve düzenlemeden posta birleştirme, tablo biçimlendirme ve belge şifreleme gibi gelişmiş özelliklere kadar, bu öğreticiler çok çeşitli işlevleri kapsar. Geliştiriciler bu öğreticileri izleyerek Aspose.Words'ü Java projelerine sorunsuz bir şekilde entegre edebilir, verimli belge işlemeyi etkinleştirebilir ve uygulamalarını profesyonel düzeyde belge yönetimi yetenekleriyle geliştirebilirler. 
+{{% /alert %}}
+
+İşte bazı yararlı kaynaklara bağlantılar:
+- [Kelime İşleme](./java/word-processing/)  
+- [Tablo İşleme](./java/table-processing/)
+- [Belge Stili](./java/document-styling/)
+- [Belge Birleştirme](./java/document-merging/)
+- [Belge Dönüştürme](./java/document-converting/)
+- [Belge Yazdırma](./java/document-printing/)
+- [Belge İşleme](./java/document-rendering/)
+- [Belge Güvenliği](./java/document-security/)
+- [Belge Bölme](./java/document-splitting/)
+- [Belge Revizyonu](./java/document-revision/)
+- [Belge Yükleme ve Kaydetme](./java/document-loading-and-saving/)
+- [Belge Manipülasyonu](./java/document-manipulation/)
+- [Belge Dönüştürme ve Dışa Aktarma](./java/document-conversion-and-export/)
+- [Lisanslama ve Yapılandırma](./java/licensing-and-configuration/)
+- [Belge Öğelerini Kullanma](./java/using-document-elements/)
+- [Belgeleri Yazdırma](./java/printing-documents/)
+- [Belgelerin İşlenmesi](./java/rendering-documents/)
+
+## Python için Aspose.Words Belge Yönetimi Eğitimleri
+{{% alert color="primary" %}}
+Bu eğitimler, belge oluşturma, düzenleme ve şifreleme ve parola koruması gibi çeşitli güvenlik özellikleri dahil olmak üzere Microsoft Word belgeleriyle programatik olarak nasıl çalışılacağına dair adım adım rehberlik sunar. Bu kaynağın yardımıyla, geliştiriciler Python uygulamalarında Aspose.Words kullanarak belge işleme işlevlerini verimli bir şekilde uygulayabilir, üretkenliği artırabilir ve belge güvenliğini sağlayabilir. 
+{{% /alert %}}
+
+İşte bazı yararlı kaynaklara bağlantılar:
+- [Belge Oluşturma](./python-net/document-creation/)  
+- [Kelime Otomasyonu](./python-net/word-automation/)
+- [Belge Zekası](./python-net/document-intelligence/)
+- [Belge Dönüştürme](./python-net/document-conversion/)
+- [Belge Koruması](./python-net/document-protection/)
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

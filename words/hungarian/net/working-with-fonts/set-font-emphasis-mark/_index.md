@@ -1,53 +1,117 @@
 ---
-title: A Word dokumentumban hangsúlyjelzés jelét állítsa be .NET-hez Aspose.Words használatával 
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan kell hangsúlyozni a Word dokumentumokban a .NET-hez használt Aspose.Words használatával. Ez az lépésről lépésre szóló útmutató tartalmazza a telepítési utasításokat és a példakódot.
-keywords: [Aspose.Words for .NET, set emphasis mark, Word document, .NET library, document formatting, Word automation, C# examples]
+title: Állítsa be a Font Emphasis Mark
+linktitle: Állítsa be a Font Emphasis Mark
+second_title: Aspose.Words Document Processing API
+description: Ebből a részletes, lépésenkénti útmutatóból megtudhatja, hogyan állíthat be betűtípus-kiemeléseket a Word dokumentumokban az Aspose.Words for .NET használatával. Tökéletes .NET fejlesztőknek.
+weight: 10
 url: /hu/net/working-with-fonts/set-font-emphasis-mark/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A Aspose.Words használatával hangsúlyozza a szöveget
+# Állítsa be a Font Emphasis Mark
 
-A Word dokumentumokban a hangsúlyjelzés kiállításának kiváló módja a konkrét szöveg kiemelésének, és annak biztosítása, hogy a tartalmakban kiemelkedjen. A .NET-hez használt Aspose.Words segítségével könnyedén hangsúlyjelzéseket alkalmazhat, például egy szilárd kör alatt, néhány kódvonal segítségével. Ez a példa bemutatja, hogyan lehet használni a `Dokumentumszervező`A dokumentumok formátumának egyszerűsítése érdekében kövesse ezt a útmutatót.
+## Bevezetés
 
----
-{{< tutorial-widget sourcePath="words/net/working-with-fonts/set-font-emphasis-mark" >}}
+mai oktatóanyagban azt mutatjuk be, hogyan állíthatunk be betűtípus-kiemeléseket egy Word-dokumentumban az Aspose.Words for .NET használatával. Akár konkrét szöveget szeretne egyedi jelöléssel aláhúzni, akár egyszerűen csak kiemelni szeretne bizonyos szavakat, ez az útmutató segít Önnek. Szóval, csatt, és kezdjük!
 
+## Előfeltételek
+
+Mielőtt belemerülnénk a finom részletekbe, győződjön meg arról, hogy bejelölte a következő előfeltételeket:
+
+-  Aspose.Words for .NET Library: Győződjön meg arról, hogy telepítve van az Aspose.Words for .NET könyvtár. Letöltheti innen[itt](https://releases.aspose.com/words/net/).
+- Fejlesztési környezet: működő fejlesztői környezet, például a Visual Studio.
+- .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer telepítve van.
+
+## Névterek importálása
+
+Az Aspose.Words for .NET használatához importálnia kell a szükséges névtereket. Adja hozzá ezeket a kódfájl tetejéhez:
+
+```csharp
+using Aspose.Words;
+using Aspose.Words.Fonts;
+```
+
+Most bontsuk le a folyamatot egyszerű lépésekre. Gondosan kövesse az egyes lépéseket a betűk kiemelésének beállításához a Word-dokumentumban.
+
+## 1. lépés: Inicializálja a Dokumentumot és a DocumentBuilder-t
+
+Először is inicializálnia kell egy új dokumentumot és egy DocumentBuildert. A DocumentBuilder osztály módszereket biztosít a szöveg és más elemek dokumentumba való beillesztésére.
+
+```csharp
+// A dokumentumkönyvtár elérési útja
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+// Inicializáljon egy új dokumentumot
+Document document = new Document();
+
+// Inicializálja a DocumentBuilder programot a dokumentummal
+DocumentBuilder builder = new DocumentBuilder(document);
+```
+
+## 2. lépés: Állítsa be a Font Emphasis Mark
+
+Ha a DocumentBuilder készen áll, beállíthatja a betűk kiemelését. Ebben a példában az "UnderSolidCircle" hangsúlyjelet fogjuk használni.
+
+```csharp
+// Állítsa be a betűk kiemelését
+builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
+
+// Írjon szöveget a hangsúlyjellel
+builder.Write("Emphasis text");
+builder.Writeln();
+```
+
+## 3. lépés: Törölje a formázást és adjon hozzá normál szöveget
+
+A hangsúlyjel beállítása után érdemes lehet normál szöveget kiemelés nélkül hozzáadni. Ehhez törölnie kell a formázást.
+
+```csharp
+// Törölje a betűtípus formázását
+builder.Font.ClearFormatting();
+
+// Írj rendes szöveget
+builder.Write("Simple text");
+```
+
+## 4. lépés: Mentse el a dokumentumot
+
+Miután hozzáadta az összes szükséges szöveget és formázást, az utolsó lépés a dokumentum mentése. Adja meg az elérési utat és a fájlnevet, ahová menteni szeretné a dokumentumot.
+
+```csharp
+// Mentse el a dokumentumot
+document.Save(dataDir + "WorkingWithFonts.SetFontEmphasisMark.docx");
+```
+
+## Következtetés
+
+És megvan! A betűtípus-kiemelések beállítása Word-dokumentumban az Aspose.Words for .NET használatával ilyen egyszerű. Csak néhány sornyi kóddal kiemelheti a szöveget, és professzionális hatást varázsolhat dokumentumaiba. Ne habozzon kísérletezni a különböző hangsúlyjelekkel és stílusokkal, hogy megfeleljen igényeinek.
+
+## GYIK
+
+### Mik azok a betűk kiemelő jelei?
+
+A betűk kiemelő jelei speciális szimbólumok, amelyeket a szöveghez adnak, hogy kiemeljék azt. Pontokat, köröket és egyéb díszítő jeleket tartalmazhatnak.
+
+### Használhatok más kiemelő jeleket az Aspose.Words for .NET-hez?
+
+ Igen, az Aspose.Words for .NET támogatja a különböző kiemeléseket. Különböző lehetőségeket fedezhet fel a[dokumentáció](https://reference.aspose.com/words/net/).
+
+### Ingyenesen használható az Aspose.Words for .NET?
+
+ Az Aspose.Words for .NET használatához licenc szükséges a teljes funkcionalitáshoz. Ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/) vagy vásároljon licencet[itt](https://purchase.aspose.com/buy).
+
+### Hogyan kaphatok támogatást az Aspose.Words for .NET-hez?
+
+ Támogatást kaphat az Aspose közösségtől és a támogató csapattól, ha felkeresi őket[támogatási fórum](https://forum.aspose.com/c/words/8).
+
+### Használhatom az Aspose.Words for .NET-et más .NET-keretrendszerekkel?
+
+Igen, az Aspose.Words for .NET kompatibilis különféle .NET-keretrendszerekkel, beleértve a .NET Core-t és a .NET 5/6-ot.
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítások  
-A megadott kód példáját futtatni és a .NET-hez Aspose.Words használatát követően kövesse ezeket a lépéseket:  
 
-1. Letöltsd le az Aspose.Words .NET-hez:  
-   * Vedd a könyvtárat a [A felszabadulások](https://releases.aspose.com/words/net/)A lap.  
-
-2. Beállítsa a Könyvtárat:  
-   * A NuGet csomagkezelő segítségével telepítse a Visual Studio-ban:  
-     * Nyissa ki a Visual Studio-t.  
-     * Menjen az eszközökhez > NuGet csomagkezelőhez > A megoldáshoz a NuGet csomagok kezelésére.  
-     * Keresd a`Aspose.Words`és kattintsa a telepítésre.  
-
-   * Alternatív módon használja a NuGet csomagkezelő konzolt:  
-     ```shell
-     Install-Package Aspose.Words
-     ```  
-
-3. Beállítson egy ideiglenes licencet (Felhetőséges):  
-   * Korlátozatlan használatra [ingyenes ideiglenes engedély](https://purchase.aspose.com/temporary-license/)\- Nem.  
-   * A projekthez a licenc alkalmazása:  
-     ```csharp
-     var license = new Aspose.Words.License();
-     license.SetLicense("Aspose.Words.lic");
-     ```  
-   
-## Lásd:
-[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
-[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

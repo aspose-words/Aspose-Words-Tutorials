@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary該代碼顯示如何使用Aspose.Words建立圖表的文件,設定Y軸的界限,並儲存文件為DOCX檔案. 
+// 提供清晰了解Aspose.Words中使用圖表的過程.
+//ExStepSummary:0: 啟動新的文檔和文檔建設器例. 
+//ExStepSummary:1: 輸入圖表,並尋找圖表對象. 
+//ExStepSummary:2: 加入一個新的系列, 
+//ExStepSummary:3: 設定圖表的Y軸的最低和最高限制. 
+//ExStepSummary:4: 保存文件到指定的路徑上. 
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 建立新的文檔案例.
+Document doc = new Document();
+// 啟動文件建構器,
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 在文件中插入列表.
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+// 取出圖表對象的形狀.
+Chart chart = shape.Chart;
+// 清除所有現有系列,
+chart.Series.Clear();
+
+//ExStep:2-
+// 定義一個名為"Aspose Series 1"的新系列.
+chart.Series.Add("Aspose Series 1",
+    new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
+    new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
+
+//ExStep:3-
+// 設定Y軸的最低限度.
+chart.AxisY.Scaling.Minimum = new AxisBound(0);
+chart.AxisY.Scaling.Maximum = new AxisBound(6);
+
+//ExStep:4-
+// 保存文件與圖片在指定路徑上.
+doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
+//ExEnd

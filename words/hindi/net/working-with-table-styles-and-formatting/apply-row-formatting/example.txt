@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: यह कोड Aspose.Words का उपयोग करके एक Word दस्तावेज़ में पंक्ति स्वरूपण कैसे लागू किया जाए, यह दिखाता है।
+//ExStepSummary:0: एक नया दस्तावेज़ शुरू करता है और प्रारूपित पंक्तियों के साथ एक तालिका का निर्माण शुरू करता है।
+//ExStepSummary:1: पंक्ति प्रारूप को कॉन्फ़िगर करता है।
+//ExStepSummary:2: विशिष्ट ऊंचाई सेटिंग्स को कॉन्फ़िगर करता है।
+//ExStepSummary:3: सभी पंक्तियों को प्रभावित करने वाली पूरी मेज के लिए पैडिंग सेट।
+//ExStepSummary:4: टेबल सेल में पाठ लिखता है और पंक्ति समाप्त करता है।
+//ExStepSummary:5: तालिका निर्माण प्रक्रिया को पूरा करता है और दस्तावेज़ को सहेजता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// एक नया दस्तावेज़ बनाएं
+Document doc = new Document();
+// दस्तावेज़ को संशोधित करने के लिए एक दस्तावेज़निर्माता बनाएँ
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// एक नई मेज शुरू करें
+Table table = builder.StartTable();
+// तालिका में एक नई सेल डालें
+builder.InsertCell();
+//ExStep:2-
+// पंक्ति स्वरूपण गुणों तक पहुँचें
+RowFormat rowFormat = builder.RowFormat;
+// पंक्ति की ऊंचाई निर्धारित करें
+rowFormat.Height = 100;
+// निर्दिष्ट करें कि ऊंचाई सटीक है
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// टेबल के लिए पैडिंग सेट करें
+table.LeftPadding = 30; 
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// सेल में पाठ लिखें
+builder.Writeln("I'm a wonderful formatted row.");
+// वर्तमान पंक्ति को समाप्त करें
+builder.EndRow();
+// टेबल बिल्डिंग को समाप्त करें
+builder.EndTable();
+
+//ExStep:5-
+// दस्तावेज़ को सहेजें
+doc.Save("WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
+//ExEnd

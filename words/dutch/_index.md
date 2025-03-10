@@ -59,21 +59,21 @@ Leer hoe je tekst, tabellen, afbeeldingen en andere elementen in Word- documente
 {{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title="Creëer een Word-document met een inhoudstabel in .NET" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Documentformatting met Aspose.Words voor .NET](./net/document-formatting/)
+### [Documentformatting met Aspose.Words voor .NET](./net/document-styling/)
 Begrijp hoe je verschillende opties voor het opmaken van paragrafen, lijsten en documentelementen kunt toepassen om de visuele aantrekkingskracht van je Word-bestanden te verbeteren.
 
-{{< tutorial-card link="./net/document-formatting/apply-border-and-shading/" title="Grenzen en schaduw toepassen op paragraaf in Aspose.Words " imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/apply-paragraph-style/" title="Creëer en vorm een Word Document in Aspose.Words " imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/multilevel-list-formatting/" title="Maak een lijst met meer niveaus in Word met Aspose.Words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/paragraph-formatting/" title="Format van de paragrafen " imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Grenzen en schaduw toepassen op paragraaf in Aspose.Words " imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="Creëer en vorm een Word Document in Aspose.Words " imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="Maak een lijst met meer niveaus in Word met Aspose.Words" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="Format van de paragrafen " imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Werken met lettertypen in Aspose.Words voor .NET](./net/working-with-fonts/)
+### [Werken met lettertypen in Aspose.Words voor .NET](./net/font-styling/)
 Ontdek lettertypen, lijnspacing, nadrukken en andere typografie-instellingen in Word-documenten.
 
-{{< tutorial-card link="./net/working-with-fonts/font-formatting/" title="Schrijf lettertypen op in Word " imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/get-font-line-spacing/" title="Word document in Word" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/set-font-emphasis-mark/" title="Leg nadruk op het Word-document " imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/font-formatting/" title="Schrijf lettertypen op in Word " imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="Word document in Word" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Leg nadruk op het Word-document " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Werken met formuliervelden in Aspose.Words voor .NET](./net/working-with- form-fields/)
@@ -85,15 +85,15 @@ Ontdek hoe u formuliervelden zoals tekstinvoer, drop-downlijsten en checkboxen i
 ### [Werk met Headers en Footers in Aspose.Words voor .NET](./net/working-with- headers-and-footers/)
 Leer hoe je koppen en voetstukken kunt maken en manipuleren, met inbegrip van het toevoegen van beelden, pagina's en tekst.
 
-{{< tutorial-card link="./net/working-with-headers-and-footers/create-header-footer/" title="Word Document maken met kop en voet" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-headers-and-footers/insert-image/" title="Een afbeelding in het Word Document Header plaatsen" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Word Document maken met kop en voet" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Een afbeelding in het Word Document Header plaatsen" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Werken met secties in Aspose.Words voor .NET](./net/working-with-section/)
+### [Werken met secties in Aspose.Words voor .NET](./net/document-sections/)
 Begrijp hoe je documenten in secties kunt opzetten, zodat er verschillende koppen, voetstukken en formateringsstijlen mogelijk zijn.
 
-{{< tutorial-card link="./net/working-with-section/add-section/" title="Een nieuw gedeelte toevoegen aan het Word-document" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-section/append-section-content/" title="Inhoud toevoegen en voorschrijven in Word-documenten" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/add-section/" title="Een nieuw gedeelte toevoegen aan het Word-document" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/append-section-content/" title="Inhoud toevoegen en voorschrijven in Word-documenten" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Werken met Forms in Aspose.Words voor .NET](./net/working-with-shapes/)
@@ -107,7 +107,76 @@ Ontdek hoe u verschillende vormen, waaronder groeperde vormen en vooraf gedefini
 Leer om tekst- en afbeeldingswatermerken toe te voegen aan Word-documenten voor branding- of beveiligingsdoeleinden.
 {{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="Voeg tekst watermerk toe in Word Document " imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose.Words-zelfstudies
+
+
+## Aspose.Words Documentverwerking Tutorials voor .NET
+{{% alert color="primary" %}}
+Deze tutorials bieden duidelijke en gedetailleerde instructies over hoe u programmatisch met Microsoft Word-documenten kunt werken, waarbij een breed scala aan functionaliteiten wordt behandeld. Van eenvoudige taken zoals het maken en bewerken van documenten tot meer geavanceerde functies zoals mail merge, documentconversie en documentversleuteling, ontwikkelaars kunnen praktische voorbeelden en codefragmenten vinden om in hun projecten te implementeren. Door deze tutorials te volgen, kunnen .NET-ontwikkelaars hun applicaties verbeteren met krachtige documentverwerkingsmogelijkheden, wat zorgt voor een efficiënte en naadloze verwerking van Word-documenten in hun softwareoplossingen. 
+{{% /alert %}}
+
+Hieronder vindt u links naar nuttige bronnen:
+- [AI-aangedreven documentverwerking](./net/ai-powered-document-processing/)
+- [Licentie aanvragen](./net/apply-license/)   
+- [OpenType-functies inschakelen](./net/enable-opentype-features/)   
+- [Werken met opmerkingen](./net/working-with-comments/)   
+- [Werken met velden](./net/working-with-fields/)   
+- [Werken met voetnoten en eindnoten](./net/working-with-footnote-and-endnote/)   
+- [Werken met FormFields](./net/working-with-formfields/)   
+- [Werken met kop- en voetteksten](./net/working-with-headers-and-footers/)   
+- [Werken met afbrekingen](./net/working-with-hyphenation/)   
+- [Werken met lijst](./net/working-with-list/)   
+- [Werken met Markdown](./net/working-with-markdown/)   
+- [Werken met Node](./net/working-with-node/)   
+- [Werken met revisies](./net/working-with-revisions/)   
+- [Werken met tekstvakken](./net/working-with-textboxes/)   
+- [Document splitsen](./net/split-document/)   
+- [Inhoud toevoegen met Documentbuilder](./net/add-content-using-documentbuilder/)
+- [Documenten klonen en combineren](./net/clone-and-combine-documents/) 
+- [Documenten vergelijken](./net/compare-documents/) 
+- [Documentopmaak](./net/document-formatting/)      
+- [Programmeren met watermerk](./net/programming-with-watermark/)    
+- [Programmeren met Markdownsaveoptions](./net/programming-with-markdownsaveoptions/)   
+- [Basisconversies](./net/basic-conversions/)   
+
+## Aspose.Words Documentverwerking Tutorials voor Java
+{{% alert color="primary" %}}
+Deze uitgebreide verzameling tutorials biedt stapsgewijze begeleiding over hoe u effectief met Microsoft Word-documenten programmatisch kunt werken. Van het maken en bewerken van documenten tot geavanceerde functies zoals mail merge, tabelopmaak en documentversleuteling, deze tutorials bestrijken een breed scala aan functionaliteiten. Door deze tutorials te volgen, kunnen ontwikkelaars Aspose.Words naadloos integreren in hun Java-projecten, wat efficiënte documentverwerking mogelijk maakt en hun applicaties verbetert met professionele documentbeheermogelijkheden. 
+{{% /alert %}}
+
+Hieronder vindt u links naar nuttige bronnen:
+- [Tekstverwerking](./java/word-processing/)  
+- [Tabelverwerking](./java/table-processing/)
+- [Documentstijl](./java/document-styling/)
+- [Document samenvoegen](./java/document-merging/)
+- [Document converteren](./java/document-converting/)
+- [Documenten afdrukken](./java/document-printing/)
+- [Documentweergave](./java/document-rendering/)
+- [Documentbeveiliging](./java/document-security/)
+- [Documenten splitsen](./java/document-splitting/)
+- [Documentherziening](./java/document-revision/)
+- [Documenten laden en opslaan](./java/document-loading-and-saving/)
+- [Documentmanipulatie](./java/document-manipulation/)
+- [Documentconversie en export](./java/document-conversion-and-export/)
+- [Licenties en configuratie](./java/licensing-and-configuration/)
+- [Documentelementen gebruiken](./java/using-document-elements/)
+- [Documenten afdrukken](./java/printing-documents/)
+- [Documenten weergeven](./java/rendering-documents/)
+
+## Aspose.Words Documentbeheer Tutorials voor Python
+{{% alert color="primary" %}}
+Deze tutorials bieden stapsgewijze begeleiding over hoe u programmatisch met Microsoft Word-documenten kunt werken, inclusief het maken en bewerken van documenten en verschillende beveiligingsfuncties zoals encryptie en wachtwoordbeveiliging. Met behulp van deze bron kunnen ontwikkelaars efficiënt documentverwerkingsfuncties implementeren in hun Python-applicaties met Aspose.Words, wat de productiviteit verbetert en de beveiliging van documenten waarborgt. 
+{{% /alert %}}
+
+Hieronder vindt u links naar nuttige bronnen:
+- [Documentcreatie](./python-net/document-creation/)  
+- [Woordautomatisering](./python-net/word-automation/)
+- [Documentintelligentie](./python-net/document-intelligence/)
+- [Documentconversie](./python-net/document-conversion/)
+- [Documentbeveiliging](./python-net/document-protection/)
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

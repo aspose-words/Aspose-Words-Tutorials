@@ -1,25 +1,29 @@
 ---
-title: Werk met Headers en Footers in Aspose.Words voor .NET 
-weight: 10
-limit:
-description: Leer hoe je koppen en voetstukken in Word-documenten kunt maken, wijzigen en formateren met behulp van Aspose.Words voor .NET. Stap-voor-stap gids voor naadloze aanpassing.
-keywords:
+title: Tekstverwerking met kop- en voetteksten
+linktitle: Tekstverwerking met kop- en voetteksten
+second_title: Aspose.Words API voor documentverwerking
+description: Leer hoe u met kop- en voetteksten in Word-documenten werkt met Aspose.Words voor .NET. Volledige tutorials en praktische voorbeelden.
+weight: 730
 url: /nl/net/working-with-headers-and-footers/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Inleiding
-  
-Headers en voeters zijn essentieel voor het toevoegen van een professionele aanraking aan uw Word documenten, of het nu gaat om pagina'snummers, logo's of aangepaste tekst. Met Aspose.Words voor .NET kunt u naadloos koppen en voeters maken, wijzigen en aanpassen aan uw document. De bibliotheek biedt krachtige API's waarmee u verschillende koppen en voeters kunt instellen voor vreemde en even pagina's, unieke secties kunt definiëren en dynamische elementen zoals velden of afbeeldingen kunt bevatten.  
+# Tekstverwerking met kop- en voetteksten
 
-Aspose.Words voor .NET vereenvoudigt het proces van werken met koppen en voetstukken, waardoor volledige controle over hun opmaak en plaatsing wordt gewaarborgd. Of u nu een bedrijfsrapport ontwerpt of een gepersonaliseerd document opzet, de bibliotheek biedt een efficiënte manier om deze cruciale elementen te beheren.  
 
-{{< tutorial-card link="./create-header-footer/" title="Creëer een Word Document met kop en voetstuk met behulp van Aspose.Words" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./insert-image/" title="Voeg een afbeelding in Word Document Header." imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+Words Processing with Headers and Footers is een uitgebreide bron voor het leren hoe u kop- en voetteksten in Word-documenten kunt manipuleren en aanpassen met behulp van de Aspose.Words-bibliotheek voor .NET. Tutorials bieden gedetailleerde uitleg, codevoorbeelden en stapsgewijze instructies voor het toevoegen, wijzigen en verwijderen van kop- en voetteksten, het instellen van verschillende kop- en voetteksten voor verschillende secties van een document, het invoegen van afbeeldingen, tabellen, dynamische velden en nog veel meer. Deze bron is essentieel voor ontwikkelaars die professionele, aangepaste Word-documenten willen maken met kop- en voetteksten die zijn afgestemd op hun specifieke behoeften.
 
+
+ ## Zelfstudies
+| Titel | Beschrijving |
+| --- | --- |
+| [Koptekst/voettekst maken](./create-header-footer/) | Leer hoe u kop- en voetteksten in uw Word-documenten maakt met Aspose.Words voor .NET. Pas kop- en voetteksten voor elke pagina aan. |
+| [Kopteksten en voetteksten kopiëren van vorige sectie](./copy-headers-footers-from-previous-section/) | Leer hoe u kop- en voetteksten uit de vorige sectie kopieert in Word-documenten met behulp van Aspose.Words voor .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

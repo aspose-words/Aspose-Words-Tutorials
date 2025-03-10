@@ -1,25 +1,29 @@
 ---
-title: .NETのAspose.Wordsでヘッダとフーダーと作業 
-weight: 10
-limit:
-description: Word ドキュメントのヘッダーとフーダーを作成し,変更し,フォーマットする方法について.NETのAspose.Wordsを使用して学びます. 順調なカスタマイズのためのステップ・バイ・ステップガイド.
-keywords:
+title: ヘッダーとフッター付きのワード処理
+linktitle: ヘッダーとフッター付きのワード処理
+second_title: Aspose.Words ドキュメント処理 API
+description: Aspose.Words for .NET を使用して Word 文書のヘッダーとフッターを操作する方法を学習します。完全なチュートリアルと実用的な例。
+weight: 730
 url: /ja/net/working-with-headers-and-footers/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## 紹介
-  
-ページ番号,ロゴ,カスタムテキストなど,Word文書にプロフェッショナルなタッチを追加するにはヘッダやフーダーが不可欠です.NETのAspose.Wordsで,ドキュメントのニーズに合わせてヘッダやフーダーを無事に作成,変更,カスタマイズできます.図書館は奇数および偶数ページのための異なるヘッダやフーダーを設定し,ユニークなセクションを定義し,フィールドや画像などのダイナミックな要素を含む強力なAPIを提供しています.  
+# ヘッダーとフッター付きのワード処理
 
-.NET の Aspose.Words は ヘッダとフーダーとの作業を簡素化し,そのフォーマットと配置を完全に制御します.企業レポートを設計するか,個人化された文書を作成するかどうかにかかわらず,図書館はこれらの重要な要素を管理するための効率的な方法を提供します.私たちのステップバイ・ステップガイドに潜り込み,Wordファイル内のヘッダとフーダーの完全な可能性を解き放します!  
 
-{{< tutorial-card link="./create-header-footer/" title="Aspose.Wordsを使ってヘッダーと足跡でWordドキュメントを作成する" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./insert-image/" title="Word ドキュメント ヘッダーに画像を挿入する." imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+Words Processing with Headers and Footers は、.NET 用の Aspose.Words ライブラリを使用して Word 文書のヘッダーとフッターを操作およびカスタマイズする方法を学習するための包括的なリソースです。チュートリアルでは、ヘッダーとフッターの追加、変更、削除、文書のセクションごとに異なるヘッダーとフッターの設定、画像、表、動的フィールドの挿入などについて、詳細な説明、コード例、手順が説明されています。このリソースは、特定のニーズに合わせてヘッダーとフッターを調整したプロフェッショナルなカスタム Word 文書を作成したい開発者にとって不可欠です。
 
+
+ ## チュートリアル
+| タイトル | 説明 |
+| --- | --- |
+| [ヘッダーフッターを作成](./create-header-footer/) | Aspose.Words for .NET を使用して Word 文書にヘッダーとフッターを作成する方法を学習します。各ページのヘッダーとフッターをカスタマイズします。 |
+| [前のセクションからヘッダーとフッターをコピー](./copy-headers-footers-from-previous-section/) | Aspose.Words for .NET を使用して、Word 文書の前のセクションからヘッダーとフッターをコピーする方法を学習します。 |
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

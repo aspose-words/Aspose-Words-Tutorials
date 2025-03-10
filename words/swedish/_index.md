@@ -59,21 +59,21 @@ Lär dig hur man lägger in text, tabeller, bilder och andra element i Word- dok
 {{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title="Skapa ett Word-dokument med innehållstabell i .NET" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Dokumentformatering med Aspose.Words för .NET](./net/document-formatting/)
+### [Dokumentformatering med Aspose.Words för .NET](./net/document-styling/)
 Förstå hur du kan tillämpa olika formateringsalternativ på stycken, listor och dokumentelement för att förbättra den visuella attraktionen i dina Word-filer.
 
-{{< tutorial-card link="./net/document-formatting/apply-border-and-shading/" title="Använd gränser och skugga på avsnittet i Aspose.Words " imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/apply-paragraph-style/" title="Skapa och stilla ett Word-dokument i Aspose.Words " imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/multilevel-list-formatting/" title="Skapa flernivålistor i Word med Aspose.Words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/paragraph-formatting/" title="Formatera paragraferna " imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Använd gränser och skugga på avsnittet i Aspose.Words " imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="Skapa och stilla ett Word-dokument i Aspose.Words " imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="Skapa flernivålistor i Word med Aspose.Words" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="Formatera paragraferna " imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Arbeta med teckensnitt i Aspose.Words för .NET](./net/working-with-fonts/)
+### [Arbeta med teckensnitt i Aspose.Words för .NET](./net/font-styling/)
 Utforska fontrelaterade funktioner som typstilar, linjeutrymme, betoning och andra typografiinställningar i Word-dokument.
 
-{{< tutorial-card link="./net/working-with-fonts/font-formatting/" title="Skapa teckensnitt i Word " imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/get-font-line-spacing/" title="Få skriftlinje mellanrum i Word-dokument" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/set-font-emphasis-mark/" title="Ställ betoning i Word-dokumentet " imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/font-formatting/" title="Skapa teckensnitt i Word " imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="Få skriftlinje mellanrum i Word-dokument" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Ställ betoning i Word-dokumentet " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Arbeta med formulärfält i Aspose.Words för .NET](./net/working-with-form- fields/)
@@ -85,15 +85,15 @@ Ta reda på hur man lägger in och hanterar formulärfält som textinmatning, ne
 ### [Arbeta med header och fotare i Aspose.Words för .NET](./net/working-with- headers-and-footers/)
 Lär dig hur man skapar och manipulerar rubriker och fotor, inklusive att lägga till bilder, sidnumrar och text.
 
-{{< tutorial-card link="./net/working-with-headers-and-footers/create-header-footer/" title="Skapa Word-dokument med höjd och fot" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-headers-and-footers/insert-image/" title="Lägg in en bild i Word Document Header" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Skapa Word-dokument med höjd och fot" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Lägg in en bild i Word Document Header" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Arbeta med avsnitt i Aspose.Words för .NET](./net/working-with-section/)
+### [Arbeta med avsnitt i Aspose.Words för .NET](./net/document-sections/)
 Förstå hur man strukturerar dokument i sektioner, vilket gör det möjligt att ha olika rubriker, fotor och formateringsstilar.
 
-{{< tutorial-card link="./net/working-with-section/add-section/" title="Lägg till ett nytt avsnitt i Word-dokumentet" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-section/append-section-content/" title="Lägg till och förlänga innehåll i Word-dokument" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/add-section/" title="Lägg till ett nytt avsnitt i Word-dokumentet" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/append-section-content/" title="Lägg till och förlänga innehåll i Word-dokument" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Arbeta med Shapes i Aspose.Words för .NET](./net/working-with-shapes/)
@@ -107,7 +107,76 @@ Upptäck hur man sätter in och manipulerar olika former, inklusive grupperade f
 Lär dig att lägga till text- och bildvattenmärken till Word-dokument för att skapa varumärken eller säkerhet.
 {{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="Lägg till vattenmärke i Word-dokumentet " imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose.Words Tutorials
+
+
+## Handledning för Aspose.Words-dokumentbearbetning för .NET
+{{% alert color="primary" %}}
+Dessa handledningar erbjuder tydliga och detaljerade instruktioner om hur du arbetar med Microsoft Word-dokument programmatiskt, och täcker ett brett utbud av funktioner. Från enkla uppgifter som att skapa och redigera dokument till mer avancerade funktioner som sammanslagning, dokumentkonvertering och dokumentkryptering, kan utvecklare hitta praktiska exempel och kodavsnitt att implementera i sina projekt. Genom att följa dessa tutorials kan .NET-utvecklare förbättra sina applikationer med kraftfulla dokumentbehandlingsmöjligheter, vilket säkerställer effektiv och sömlös hantering av Word-dokument i sina mjukvarulösningar. 
+{{% /alert %}}
+
+Det här är länkar till några användbara resurser:
+- [AI-driven dokumentbearbetning](./net/ai-powered-document-processing/)
+- [Tillämpa licens](./net/apply-license/)   
+- [Aktivera OpenType-funktioner](./net/enable-opentype-features/)   
+- [Arbeta med kommentarer](./net/working-with-comments/)   
+- [Arbeta med Fields](./net/working-with-fields/)   
+- [Arbeta med fotnot och slutnot](./net/working-with-footnote-and-endnote/)   
+- [Arbeta med FormFields](./net/working-with-formfields/)   
+- [Arbeta med sidhuvuden och sidfötter](./net/working-with-headers-and-footers/)   
+- [Arbeta med avstavning](./net/working-with-hyphenation/)   
+- [Arbeta med List](./net/working-with-list/)   
+- [Jobbar med Markdown](./net/working-with-markdown/)   
+- [Arbeta med Node](./net/working-with-node/)   
+- [Arbeta med revisioner](./net/working-with-revisions/)   
+- [Arbeta med textboxar](./net/working-with-textboxes/)   
+- [Dela dokument](./net/split-document/)   
+- [Lägg till innehåll med Documentbuilder](./net/add-content-using-documentbuilder/)
+- [Klona och kombinera dokument](./net/clone-and-combine-documents/) 
+- [Jämför dokument](./net/compare-documents/) 
+- [Dokumentformatering](./net/document-formatting/)      
+- [Programmering med vattenstämpel](./net/programming-with-watermark/)    
+- [Programmering med Markdownsave-alternativ](./net/programming-with-markdownsaveoptions/)   
+- [Grundläggande omvandlingar](./net/basic-conversions/)   
+
+## Handledning för Aspose.Words-dokumentbearbetning för Java
+{{% alert color="primary" %}}
+Den här omfattande samlingen av självstudiekurser ger steg-för-steg-vägledning om hur du effektivt arbetar med Microsoft Word-dokument programmatiskt. Från skapande och manipulering av dokument till avancerade funktioner som sammanslagning, tabellformatering och dokumentkryptering, dessa handledningar täcker ett brett utbud av funktioner. Genom att följa dessa handledningar kan utvecklare sömlöst integrera Aspose.Words i sina Java-projekt, vilket möjliggör effektiv dokumentbearbetning och förbättrar sina applikationer med dokumenthanteringsfunktioner av professionell kvalitet. 
+{{% /alert %}}
+
+Det här är länkar till några användbara resurser:
+- [Ordbehandling](./java/word-processing/)  
+- [Tabellbearbetning](./java/table-processing/)
+- [Dokumentstyling](./java/document-styling/)
+- [Sammanfoga dokument](./java/document-merging/)
+- [Dokumentkonvertering](./java/document-converting/)
+- [Dokumentutskrift](./java/document-printing/)
+- [Dokumentåtergivning](./java/document-rendering/)
+- [Dokumentsäkerhet](./java/document-security/)
+- [Dokumentdelning](./java/document-splitting/)
+- [Dokumentrevision](./java/document-revision/)
+- [Laddar och sparar dokument](./java/document-loading-and-saving/)
+- [Dokumentmanipulation](./java/document-manipulation/)
+- [Dokumentkonvertering och export](./java/document-conversion-and-export/)
+- [Licensiering och konfiguration](./java/licensing-and-configuration/)
+- [Använda dokumentelement](./java/using-document-elements/)
+- [Skriva ut dokument](./java/printing-documents/)
+- [Återgivning av dokument](./java/rendering-documents/)
+
+## Handledning för Aspose.Words Dokumenthantering för Python
+{{% alert color="primary" %}}
+Dessa handledningar erbjuder steg-för-steg-vägledning om hur du arbetar med Microsoft Word-dokument programmatiskt, inklusive skapande av dokument, manipulering och olika säkerhetsfunktioner som kryptering och lösenordsskydd. Med hjälp av denna resurs kan utvecklare effektivt implementera dokumentbehandlingsfunktioner i sina Python-applikationer med Aspose.Words, vilket ökar produktiviteten och säkerställer dokumentsäkerhet. 
+{{% /alert %}}
+
+Det här är länkar till några användbara resurser:
+- [Skapande av dokument](./python-net/document-creation/)  
+- [Ordautomatisering](./python-net/word-automation/)
+- [Dokumentintelligens](./python-net/document-intelligence/)
+- [Dokumentkonvertering](./python-net/document-conversion/)
+- [Dokumentskydd](./python-net/document-protection/)
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

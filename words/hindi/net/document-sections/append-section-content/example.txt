@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary:यह उदाहरण दिखाता है कि कैसे एक वर्ड दस्तावेज़ में एक सेक्शन से दूसरे से सामग्री को जोड़ना और प्रीपेन्ड करना है .NET के लिए Aspose.Words का उपयोग करके।
+//ExStepSummary:0: सामग्री जोड़ने के लिए एक नया वर्ड दस्तावेज़ और दस्तावेज़निर्माता को प्रारंभ करें.
+//ExStepSummary:1: दस्तावेज़ में कई खंड बनाने के लिए पाठ लिखें और खंड ब्रेक डालें।
+//ExStepSummary:2: सामग्री हेरफेर के लिए तैयार करने के लिए दस्तावेज़ के तीसरे अनुभाग तक पहुँचें।
+//ExStepSummary:3: पहले से तीसरे खंड तक सामग्री को पूर्व-प्रकाशित करें।
+//ExStepSummary:4: दूसरे सेक्शन से तीसरे सेक्शन में सामग्री जोड़ें।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// दस्तावेज़ और दस्तावेज़निर्माता को प्रारंभ करें
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// पाठ लिखें और तीन अनुभाग बनाने के लिए अनुभाग ब्रेक डालें
+builder.Write("Section 1");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// दूसरे खंड के लिए सामग्री जोड़ें
+builder.Write("Section 2");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// तीसरे खंड के लिए सामग्री जोड़ें
+builder.Write("Section 3");
+
+//ExStep:2-
+// दस्तावेज़ से तीसरा खंड निकालें
+Section section = doc.Sections[2];
+
+//ExStep:3-
+// पहले से तीसरे खंड तक सामग्री को पूर्व-प्रकाशित करें
+Section sectionToPrepend = doc.Sections[0];
+section.PrependContent(sectionToPrepend);
+
+//ExStep:4-
+// दूसरे सेक्शन से तीसरे सेक्शन तक सामग्री जोड़ें
+Section sectionToAppend = doc.Sections[1];
+section.AppendContent(sectionToAppend);
+//ExEnd

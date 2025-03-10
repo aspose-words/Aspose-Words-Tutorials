@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary該代碼顯示如何使用文檔製作器類型创建Word文檔,並插入一個有樣式的段落.
+//ExStepSummary:0: 文件的建立程序.
+//ExStepSummary:1: 該段落的字體設定由下列代碼設定.
+//ExStepSummary:2: 列表中,必須使用:
+//ExStepSummary:3: 該文件的下列代碼寫出一段落.
+//ExStepSummary:4: 文件的檔案是 .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 啟動新的文檔對象
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 访问文檔製作器的字體設定
+Font font = builder.Font;
+// 設定字體大小為 16
+font.Size = 16;
+// 打字母大字體
+font.Bold = true;
+// 設定字體顏色為藍色
+font.Color = Color.Blue;
+// 設定字體名為 Arial
+font.Name = "Arial";
+// 加入字體中一條有點突顯的字符
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+// 進入段格式設定
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.FirstLineIndent = 8;
+paragraphFormat.Alignment = ParagraphAlignment.Justify;
+paragraphFormat.KeepTogether = true;
+
+//ExStep:3-
+// 寫一段文字在文件中
+builder.Writeln("A whole paragraph.");
+
+//ExStep:4-
+// 保存文件為 .docx檔案
+doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
+//ExEnd

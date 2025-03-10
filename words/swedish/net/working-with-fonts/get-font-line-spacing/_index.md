@@ -1,47 +1,112 @@
 ---
-title: Få fontlinje mellanrum i Word-dokument .
-weight: 7700
-limit: 
-description: Lär dig hur du skapar ett Word-dokument och hämtar skriftlinjeutrymme med hjälp av Aspose.Words för .NET. Steg för steg instruktioner med kodexemplar inkluderade.
-keywords: [Aspose.Words for .NET, get font line spacing, create Word document, .NET Word library, font properties, .NET document creation, line spacing example]
+title: Hämta teckensnittsradavstånd
+linktitle: Hämta teckensnittsradavstånd
+second_title: Aspose.Words Document Processing API
+description: Lär dig hur du får teckensnitt radavstånd med Aspose.Words för .NET med denna steg-för-steg handledning. Perfekt för utvecklare.
+weight: 10
 url: /sv/net/working-with-fonts/get-font-line-spacing/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Få skriftlinje mellanrum i Word-dokument
-Aspose.Words för .NET förenklar skapandet och manipuleringen av Word-dokument. Detta exempel visar hur man initialiserar ett Word-dokument, ställer in ett anpassat teckensnitt och hämtar linjerna i en viss teckensnitt. Oavsett om du automatiserar dokumentgenerering eller analyserar textstilar, ger denna guide tydliga instruktioner och praktiska kodstryck för att uppnå dina mål effektivt. Aspose.Words för .NET är ett kraftfullt bibliotek för utvecklare som arbetar med Word-dokument i C # eller VB.NET.
+# Hämta teckensnittsradavstånd
 
----
-{{< tutorial-widget sourcePath="words/net/working-with-fonts/get-font-line-spacing" >}}
+## Introduktion
 
+Aspose.Words för .NET är ett kraftfullt bibliotek som låter dig skapa, manipulera och konvertera Word-dokument programmatiskt. En vanlig uppgift du kan behöva utföra är att hämta radavståndet för ett specifikt teckensnitt i ett dokument. I den här handledningen går vi igenom processen steg-för-steg, och säkerställer att du enkelt kan få teckensnittsradavstånd med Aspose.Words för .NET. 
+
+## Förutsättningar
+
+Innan vi dyker in i koden, se till att du har följande förutsättningar på plats:
+
+1.  Aspose.Words för .NET Library: Ladda ner och installera den senaste versionen från[här](https://releases.aspose.com/words/net/).
+2. Utvecklingsmiljö: Se till att du har en IDE som Visual Studio inställd.
+3. Grundläggande kunskaper om C#: Denna handledning förutsätter att du har en grundläggande förståelse för C#-programmering.
+
+## Importera namnområden
+
+Först måste du importera de nödvändiga namnrymden i ditt C#-projekt. Dessa namnrymder ger dig tillgång till Aspose.Words-funktionerna.
+
+```csharp
+using System;
+using Aspose.Words;
+using Aspose.Words.Fonts;
+```
+
+Låt oss dela upp processen att få teckensnittsradavstånd i enkla, hanterbara steg.
+
+## Steg 1: Skapa ett nytt dokument
+
+Det första steget är att skapa en ny Word-dokumentinstans med Aspose.Words för .NET.
+
+```csharp
+Document doc = new Document();
+```
+
+## Steg 2: Initiera DocumentBuilder
+
+Därefter måste vi initiera`DocumentBuilder` objekt. Detta objekt hjälper oss att konstruera och manipulera dokumentinnehållet.
+
+```csharp
+DocumentBuilder builder = new DocumentBuilder(doc);
+```
+
+## Steg 3: Ställ in teckensnittsegenskaper
+
+Nu ställer vi in teckensnittsegenskaperna för texten som vi vill infoga. För det här exemplet kommer vi att använda typsnittet "Calibri".
+
+```csharp
+builder.Font.Name = "Calibri";
+```
+
+## Steg 4: Skriv text till dokumentet
+
+ Med hjälp av`DocumentBuilder` objekt, skriv lite text i dokumentet. Den här texten kommer att använda de teckensnittsegenskaper vi ställde in i föregående steg.
+
+```csharp
+builder.Writeln("Sample Text");
+```
+
+## Steg 5: Hämta teckensnittsobjektet
+
+För att få radavståndet måste vi komma åt teckensnittsobjektet för texten vi just lade till. Detta kan göras genom att navigera genom dokumentstrukturen till första styckekörningen.
+
+```csharp
+Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
+```
+
+## Steg 6: Få radavståndet
+
+Slutligen hämtar vi radavståndet från teckensnittsobjektet och skriver ut det till konsolen.
+
+```csharp
+Console.WriteLine($"lineSpacing = {font.LineSpacing}");
+```
+
+## Slutsats
+
+Och där har du det! Att hämta teckensnittets radavstånd med Aspose.Words för .NET är enkelt när du delar upp det i dessa enkla steg. Oavsett om du skapar ett nytt dokument eller arbetar med ett befintligt, tillhandahåller Aspose.Words alla verktyg du behöver för att hantera teckensnittsegenskaper effektivt.
+
+## FAQ's
+
+### Vad är Aspose.Words för .NET?
+Aspose.Words för .NET är ett kraftfullt bibliotek som låter utvecklare skapa, manipulera och konvertera Word-dokument programmatiskt med C#.
+
+### Kan jag använda Aspose.Words för .NET på andra .NET-språk?
+Ja, du kan använda Aspose.Words för .NET med vilket .NET-språk som helst, inklusive VB.NET och F#.
+
+### Hur kan jag ladda ner Aspose.Words för .NET?
+ Du kan ladda ner den senaste versionen av Aspose.Words för .NET från[här](https://releases.aspose.com/words/net/).
+
+### Finns det en gratis testversion tillgänglig för Aspose.Words för .NET?
+ Ja, du kan få en gratis provperiod från[här](https://releases.aspose.com/).
+
+### Var kan jag hitta dokumentationen för Aspose.Words för .NET?
+ Dokumentationen för Aspose.Words för .NET finns tillgänglig[här](https://reference.aspose.com/words/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## Installationsinstruktioner  
-För att använda detta exempel, följ följande steg:  
-1. Ladda ner och installera Aspose.Words för .NET  
-   * Besök[Aspose.Words för .NET- nedladdningssida](https://releases.aspose.com/words/net/)och ladda ner den senaste versionen.  
-   * Ta ut den nedladdningspaket och hänvisa till `Aspose.Words.`\- Du har en fil i ditt projekt.  
 
-2. Installa via NuGet  
-   * Öppna ditt projekt i Visual Studio.  
-   * Gå till Verktyg > NuGet pakethanterare > Hantera NuGet paketer för lösning.  
-   * Sök efter`"Svar. Ord"`i NuGet Package Manager och installera paketet.  
-
-3. Ansök om licens (Förvalsmässigt men rekommenderat)  
-   * Få en licens från[Sätt in köpsidorna](https://purchase.aspose.com/buy)\- Jag är inte rädd.  
-   * Använd en [Tillfälligt tillstånd](https://purchase.aspose.com/temporary-license/)för utvärdering om det behövs.  
-   * Lägg till följande kod i början av ansökan om att ansöka om licensen:  
-     ```csharp
-     License license = new License();
-     license.SetLicense("Aspose.Words.lic");
-     ```
-	 
-## Se även
-[Aspose.Word för .NET-dokumentation](https://docs.aspose.com/words/net/)
-[Aspose.Word för .NET Referenser](https://reference.aspose.com/words/net/)
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

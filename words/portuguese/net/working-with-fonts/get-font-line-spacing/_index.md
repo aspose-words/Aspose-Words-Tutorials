@@ -1,47 +1,112 @@
 ---
-title: Obtenha espaçamento de linha de fonte no documento de Word .
-weight: 7700
-limit: 
-description: Aprenda como criar um documento do Word e recuperar espaços de linha de fonte usando Aspose.Words para .NET. Instruções passo a passo com exemplos de código incluídos.
-keywords: [Aspose.Words for .NET, get font line spacing, create Word document, .NET Word library, font properties, .NET document creation, line spacing example]
+title: Obter espaçamento de linha de fonte
+linktitle: Obter espaçamento de linha de fonte
+second_title: API de processamento de documentos Aspose.Words
+description: Aprenda como obter espaçamento de linha de fonte usando Aspose.Words para .NET com este tutorial passo a passo. Perfeito para desenvolvedores.
+weight: 10
 url: /pt/net/working-with-fonts/get-font-line-spacing/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obter espaçamento de linha de fonte no documento do Word
-Aspose.Words para .NET simplifica a criação e manipulação de documentos do Word. Este exemplo demonstra como inicializar um documento do Word, definir uma fonte personalizada e recuperar o espaço entre as linhas de uma fonte específica. Se você está automatizando a geração de documentos ou analisando estilos de texto, este guia fornece instruções claras e trechos de código práticos para alcançar seus objetivos de forma eficiente. Aspose.Words para .NET é uma biblioteca poderosa para desenvolvedores que trabalham com documentos do Word em C # ou VB.NET.
+# Obter espaçamento de linha de fonte
 
----
-{{< tutorial-widget sourcePath="words/net/working-with-fonts/get-font-line-spacing" >}}
+## Introdução
 
+Aspose.Words para .NET é uma biblioteca poderosa que permite criar, manipular e converter documentos do Word programaticamente. Uma tarefa comum que você pode precisar executar é recuperar o espaçamento de linha de uma fonte específica em um documento. Neste tutorial, nós o guiaremos pelo processo passo a passo, garantindo que você possa obter facilmente o espaçamento de linha da fonte usando o Aspose.Words para .NET. 
+
+## Pré-requisitos
+
+Antes de mergulharmos no código, certifique-se de ter os seguintes pré-requisitos em vigor:
+
+1.  Biblioteca Aspose.Words para .NET: Baixe e instale a versão mais recente em[aqui](https://releases.aspose.com/words/net/).
+2. Ambiente de desenvolvimento: certifique-se de ter um IDE como o Visual Studio configurado.
+3. Conhecimento básico de C#: Este tutorial pressupõe que você tenha um conhecimento básico de programação em C#.
+
+## Importar namespaces
+
+Primeiro, você precisa importar os namespaces necessários no seu projeto C#. Esses namespaces permitirão que você acesse as funcionalidades do Aspose.Words.
+
+```csharp
+using System;
+using Aspose.Words;
+using Aspose.Words.Fonts;
+```
+
+Vamos dividir o processo de obtenção do espaçamento entre linhas da fonte em etapas simples e gerenciáveis.
+
+## Etapa 1: Crie um novo documento
+
+O primeiro passo é criar uma nova instância de documento do Word usando o Aspose.Words para .NET.
+
+```csharp
+Document doc = new Document();
+```
+
+## Etapa 2: Inicializar o DocumentBuilder
+
+Em seguida, precisamos inicializar o`DocumentBuilder` objeto. Este objeto nos ajudará a construir e manipular o conteúdo do documento.
+
+```csharp
+DocumentBuilder builder = new DocumentBuilder(doc);
+```
+
+## Etapa 3: Defina as propriedades da fonte
+
+Agora, definimos as propriedades da fonte para o texto que queremos inserir. Para este exemplo, usaremos a fonte "Calibri".
+
+```csharp
+builder.Font.Name = "Calibri";
+```
+
+## Etapa 4: Escreva o texto no documento
+
+ Usando o`DocumentBuilder` objeto, escreva algum texto no documento. Esse texto usará as propriedades de fonte que definimos na etapa anterior.
+
+```csharp
+builder.Writeln("Sample Text");
+```
+
+## Etapa 5: recuperar o objeto de fonte
+
+Para obter o espaçamento de linha, precisamos acessar o objeto de fonte do texto que acabamos de adicionar. Isso pode ser feito navegando pela estrutura do documento até a primeira execução de parágrafo.
+
+```csharp
+Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
+```
+
+## Etapa 6: Obtenha o espaçamento entre linhas
+
+Por fim, recuperamos o espaçamento entre linhas do objeto de fonte e o imprimimos no console.
+
+```csharp
+Console.WriteLine($"lineSpacing = {font.LineSpacing}");
+```
+
+## Conclusão
+
+aí está! Recuperar o espaçamento de linha da fonte usando o Aspose.Words para .NET é direto quando você o divide nessas etapas simples. Não importa se você está criando um novo documento ou trabalhando com um existente, o Aspose.Words fornece todas as ferramentas necessárias para gerenciar as propriedades da fonte de forma eficiente.
+
+## Perguntas frequentes
+
+### O que é Aspose.Words para .NET?
+Aspose.Words para .NET é uma biblioteca poderosa que permite aos desenvolvedores criar, manipular e converter documentos do Word programaticamente usando C#.
+
+### Posso usar o Aspose.Words for .NET em outras linguagens .NET?
+Sim, você pode usar o Aspose.Words para .NET com qualquer linguagem .NET, incluindo VB.NET e F#.
+
+### Como posso baixar o Aspose.Words para .NET?
+ Você pode baixar a versão mais recente do Aspose.Words para .NET em[aqui](https://releases.aspose.com/words/net/).
+
+### Existe uma versão de avaliação gratuita disponível para o Aspose.Words para .NET?
+ Sim, você pode obter uma avaliação gratuita em[aqui](https://releases.aspose.com/).
+
+### Onde posso encontrar a documentação do Aspose.Words para .NET?
+ A documentação do Aspose.Words para .NET está disponível[aqui](https://reference.aspose.com/words/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## Instruções de instalação  
-Para usar este exemplo, siga estes passos:  
-1. Descarregar e instalar Aspose.Words para .NET  
-   * Visite o[Aspose.Words para página de download .NET](https://releases.aspose.com/words/net/)e baixar a versão mais recente.  
-   * Extrair o pacote baixado e referir o `Aspose.Words.`\- Faça o teu projeto.  
 
-2. Instalação através de NuGet  
-   * Abre o teu projeto no Visual Studio.  
-   * Vá para Ferramentas > Gerente de Pacotes NuGet > Gerencie Pacotes NuGet para Solução.  
-   * Procura por`Aspose.Words`no Gerente de Pacotes NuGet e instale o pacote.  
-
-3. Aplicar uma Licença (opcional, mas recomendado)  
-   * Obter uma licença do [Aspire página de compra](https://purchase.aspose.com/buy)\- Não .  
-   * Use um[licença temporária](https://purchase.aspose.com/temporary-license/)para avaliação, se necessário.  
-   * Para aplicar a licença, adicione o seguinte código no início do pedido:  
-     ```csharp
-     License license = new License();
-     license.SetLicense("Aspose.Words.lic");
-     ```
-	 
-## Veja também
-[Aspose.Word para Documentação .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word para Referências .NET](https://reference.aspose.com/words/net/)
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

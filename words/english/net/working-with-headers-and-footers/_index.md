@@ -1,25 +1,30 @@
 ---
-title: Working with Headers and Footers in Aspose.Words for .NET 
-weight: 10
-limit:
-description: Learn how to create, modify, and format headers and footers in Word documents using Aspose.Words for .NET. Step-by-step guide for seamless customization.
-keywords:
+title: Words Processing with Headers and Footers
+linktitle: Words Processing with Headers and Footers
+second_title: Aspose.Words Document Processing API
+description: Learn how to work with headers and footers in Word documents using Aspose.Words for .NET. Complete tutorials and practical examples.
+weight: 730
 url: /net/working-with-headers-and-footers/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Introduction
-  
-Headers and footers are essential for adding a professional touch to your Word documents, whether it’s for page numbers, logos, or custom text. With Aspose.Words for .NET, you can seamlessly create, modify, and customize headers and footers to fit your document’s needs. The library offers powerful APIs that allow you to set different headers and footers for odd and even pages, define unique sections, and include dynamic elements like fields or images.  
+# Words Processing with Headers and Footers
 
-Aspose.Words for .NET simplifies the process of working with headers and footers, ensuring full control over their formatting and placement. Whether you're designing a corporate report or crafting a personalized document, the library provides an efficient way to manage these crucial elements. Dive into our step-by-step guides and unlock the full potential of headers and footers in your Word files!  
 
-{{< tutorial-card link="./create-header-footer/" title="Create Word Document with Header and Footer Using Aspose.Words" imgSrc="./create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./insert-image/" title="Insert an Image into Word Document Header | Aspose.Words for .NET" imgSrc="./insert-image/images/thumb.png" >}}
+Words Processing with Headers and Footers is a comprehensive resource for learning how to manipulate and customize headers and footers in Word documents by using the Aspose.Words library for .NET. Tutorials provide detailed explanations, code examples and step-by-step instructions for adding, modifying and removing headers and footers, setting different headers and footers for different sections of a document , insert images, tables, dynamic fields and much more. This resource is essential for developers wanting to create professional, custom Word documents with headers and footers tailored to their specific needs.
+
+
+ ## Tutorials
+| Title | Description |
+| --- | --- |
+| [Create Header Footer](./create-header-footer/) | Learn how to create headers and footers in your Word documents with Aspose.Words for .NET. Customize headers and footers for each page. |
+| [Copy Headers Footers From Previous Section](./copy-headers-footers-from-previous-section/) | Learn how to copy headers and footers from the previous section in Word documents using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

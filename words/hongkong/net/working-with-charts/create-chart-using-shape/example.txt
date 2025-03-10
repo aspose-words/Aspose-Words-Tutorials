@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary請查看下列代碼,以找到如何在Word文檔中建立行列圖表.
+//ExStepSummary:0: 下面的代碼顯示如何創建新的文檔,並即時化文檔製作器:
+//ExStepSummary:1: 該圖表的圖表是如何在文件中插入的:
+//ExStepSummary:2: 該圖表的標題如何設定,
+//ExStepSummary:3: 圖表傳奇位置和覆蓋設定的設定方式如下:
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 建立新的文檔對象
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 在指定尺寸中插入圖表
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+
+//ExStep:2-
+// 透過形狀進入圖表對象
+Chart chart = shape.Chart;
+// 啟用圖表標題可視性
+chart.Title.Show = true;
+// 設定圖表的標題文字
+chart.Title.Text = "Line Chart Title";
+// 確保標題不會覆蓋圖表
+chart.Title.Overlay = false;
+
+//ExStep:3-
+// 設定圖表傳奇位置左邊
+chart.Legend.Position = LegendPosition.Left;
+chart.Legend.Overlay = true;
+
+//ExStep:4-
+// 保存文件和圖表在檔案中
+doc.Save("WorkingWithCharts.CreateChartUsingShape.docx");
+//ExEnd

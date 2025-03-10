@@ -1,25 +1,29 @@
 ---
-title: Bekerja dengan Headers dan Footers di Aspose.Words untuk .NET 
-weight: 10
-limit:
-description: Pelajari cara membuat, memodifikasi, dan format header dan footer dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah untuk kustomisasi yang mulus.
-keywords:
+title: Pengolahan Kata dengan Header dan Footer
+linktitle: Pengolahan Kata dengan Header dan Footer
+second_title: API Pemrosesan Dokumen Aspose.Words
+description: Pelajari cara bekerja dengan header dan footer dalam dokumen Word menggunakan Aspose.Words untuk .NET. Tutorial lengkap dan contoh praktis.
+weight: 730
 url: /id/net/working-with-headers-and-footers/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Pambuka
-  
-Header dan footer sangat penting untuk menambahkan sentuhan profesional ke dokumen Word Anda, apakah itu untuk nomor halaman, logo, atau teks kustom. Dengan Aspose.Words untuk .NET, Anda dapat membuat, memodifikasi, dan menyesuaikan header dan footer dengan lancar untuk memenuhi kebutuhan dokumen Anda. Perpustakaan ini menawarkan API yang kuat yang memungkinkan Anda mengatur headers dan footer yang berbeda untuk halaman ganjil dan genap, mendefinisikan bagian unik, dan memasukkan elemen dinamis seperti bidang atau gambar.  
+# Pengolahan Kata dengan Header dan Footer
 
-Aspose.Words untuk .NET mempermudah proses bekerja dengan header dan footer, memastikan kontrol penuh atas format dan penempatan mereka. Apakah Anda merancang laporan perusahaan atau membuat dokumen yang dipersonalisasi, perpustakaan menyediakan cara yang efisien untuk mengelola elemen penting ini. Semak ke panduan langkah demi langkah kami dan membuka potensi penuh header dan footer dalam file Word Anda!  
 
-{{< tutorial-card link="./create-header-footer/" title="Buat dokumen Word dengan Header dan Footer menggunakan Aspose.Words" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./insert-image/" title="Masukkan Gambar ke Word Document Header Aspose.Words untuk .NET" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+Words Processing with Headers and Footers merupakan sumber daya komprehensif untuk mempelajari cara memanipulasi dan menyesuaikan header dan footer dalam dokumen Word dengan menggunakan pustaka Aspose.Words untuk .NET. Tutorial menyediakan penjelasan terperinci, contoh kode, dan petunjuk langkah demi langkah untuk menambahkan, memodifikasi, dan menghapus header dan footer, mengatur header dan footer yang berbeda untuk bagian dokumen yang berbeda, menyisipkan gambar, tabel, bidang dinamis, dan banyak lagi. Sumber daya ini penting bagi pengembang yang ingin membuat dokumen Word profesional dan kustom dengan header dan footer yang disesuaikan dengan kebutuhan spesifik mereka.
 
+
+ ## Tutorial
+| Judul | Keterangan |
+| --- | --- |
+| [Buat Header dan Footer](./create-header-footer/) | Pelajari cara membuat header dan footer di dokumen Word Anda dengan Aspose.Words untuk .NET. Sesuaikan header dan footer untuk setiap halaman. |
+| [Salin Header dan Footer dari Bagian Sebelumnya](./copy-headers-footers-from-previous-section/) | Pelajari cara menyalin header dan footer dari bagian sebelumnya dalam dokumen Word menggunakan Aspose.Words untuk .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

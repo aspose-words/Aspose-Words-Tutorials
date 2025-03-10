@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary如何使用Aspose.Words创建Word文档,使用段落式,保存文档.
+//ExStepSummary:0: 這部分啟動新的文檔和文檔建設器例.
+//ExStepSummary:1: 這個部分使用文件建構器使用標題段式.
+//ExStepSummary:2: 這部分寫"你好"給文件.
+//ExStepSummary:3: 這部分將文件儲存到指定檔案路徑上.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 啟動新的文檔例
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 設定段落的樣式為標題
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Title;
+
+//ExStep:2-
+// 使用"建構器"寫"你好",使用指定的風格
+builder.Write("Hello");
+
+//ExStep:3-
+// 保存文件到 .docx檔案中
+doc.Save("DocumentFormatting.ApplyParagraphStyle.docx");
+//ExEnd

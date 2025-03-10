@@ -1,53 +1,117 @@
 ---
-title: กําหนดตราเน้นในเอกสาร Word โดยใช้ Aspose.Words สําหรับ .NET 
-weight: 7700
-limit: 
-description: เรียนรู้วิธีการตั้งตราการเน้นในเอกสาร Word โดยใช้ Aspose.Words สําหรับ .NET
-keywords: [Aspose.Words for .NET, set emphasis mark, Word document, .NET library, document formatting, Word automation, C# examples]
+title: ตั้งค่าเครื่องหมายเน้นตัวอักษร
+linktitle: ตั้งค่าเครื่องหมายเน้นตัวอักษร
+second_title: API การประมวลผลเอกสาร Aspose.Words
+description: เรียนรู้วิธีตั้งค่าเครื่องหมายเน้นแบบอักษรในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้ เหมาะสำหรับนักพัฒนา .NET
+weight: 10
 url: /th/net/working-with-fonts/set-font-emphasis-mark/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การ ตก แรก แรก ใน วอร์ด ดอกเม้นต์ โดย ใช้ Aspose.Words
+# ตั้งค่าเครื่องหมายเน้นตัวอักษร
 
-การตั้งเครื่องหมายการเน้นในเอกสาร Word เป็นวิธีที่ดีที่สุดในการเน้นข้อความเฉพาะเจาะจง เพื่อให้มันโดดเด่นในเนื้อหาของคุณ. ด้วย Aspose.Words สําหรับ .NET คุณสามารถนําเครื่องหมายการเน้นอย่างง่ายดาย เช่น วงกลมแบบแข็งแรง โดยใช้เส้นโค้ดไม่กี่เส้น`DocumentBuilder`คลาส เพื่อการควบคุมเอกสาร Word, การฟอร์เมทข้อความที่มีเครื่องหมายการเน้น และการบันทึกผลในรูปแบบ DOCX. ติดตามแนวทางนี้เพื่อกระบวนการฟอร์เมทเอกสารของคุณอย่างแม่นยําอย่างมืออาชีพ.
+## การแนะนำ
 
----
-{{< tutorial-widget sourcePath="words/net/working-with-fonts/set-font-emphasis-mark" >}}
+ในบทช่วยสอนของวันนี้ เราจะมาเจาะลึกถึงวิธีการตั้งค่าเครื่องหมายเน้นแบบอักษรในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ไม่ว่าคุณจะต้องการขีดเส้นใต้ข้อความเฉพาะด้วยเครื่องหมายเฉพาะหรือเพียงแค่ทำให้คำบางคำโดดเด่นขึ้นมา คู่มือนี้จะช่วยคุณได้ ดังนั้น เตรียมตัวให้พร้อมแล้วเริ่มกันเลย!
 
+## ข้อกำหนดเบื้องต้น
+
+ก่อนที่เราจะเจาะลึกรายละเอียดที่สำคัญ โปรดตรวจสอบให้แน่ใจว่าคุณได้ตรวจสอบข้อกำหนดเบื้องต้นต่อไปนี้แล้ว:
+
+-  ไลบรารี Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+- สภาพแวดล้อมการพัฒนา: สภาพแวดล้อมการพัฒนาการทำงาน เช่น Visual Studio
+- .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework แล้ว
+
+## นำเข้าเนมสเปซ
+
+หากต้องการทำงานกับ Aspose.Words สำหรับ .NET คุณจะต้องนำเข้าเนมสเปซที่จำเป็น เพิ่มสิ่งเหล่านี้ไว้ที่ด้านบนของไฟล์โค้ดของคุณ:
+
+```csharp
+using Aspose.Words;
+using Aspose.Words.Fonts;
+```
+
+ตอนนี้เรามาแบ่งกระบวนการออกเป็นขั้นตอนง่ายๆ ปฏิบัติตามแต่ละขั้นตอนอย่างระมัดระวังเพื่อกำหนดเครื่องหมายเน้นแบบอักษรในเอกสาร Word ของคุณ
+
+## ขั้นตอนที่ 1: เริ่มต้นใช้งาน Document และ DocumentBuilder
+
+สิ่งแรกที่ต้องทำคือสร้างเอกสารใหม่และ DocumentBuilder ก่อน คลาส DocumentBuilder จะให้วิธีการแทรกข้อความและองค์ประกอบอื่นๆ ลงในเอกสาร
+
+```csharp
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+// เริ่มต้นเอกสารใหม่
+Document document = new Document();
+
+// เริ่มต้น DocumentBuilder ด้วยเอกสาร
+DocumentBuilder builder = new DocumentBuilder(document);
+```
+
+## ขั้นตอนที่ 2: ตั้งค่าเครื่องหมายเน้นแบบอักษร
+
+เมื่อ DocumentBuilder พร้อมแล้ว คุณสามารถตั้งค่าเครื่องหมายเน้นตัวอักษรได้ ในตัวอย่างนี้ เราจะใช้เครื่องหมายเน้น "UnderSolidCircle"
+
+```csharp
+// ตั้งค่าเครื่องหมายเน้นตัวอักษร
+builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
+
+// เขียนข้อความโดยมีเครื่องหมายเน้น
+builder.Write("Emphasis text");
+builder.Writeln();
+```
+
+## ขั้นตอนที่ 3: ล้างการจัดรูปแบบและเพิ่มข้อความปกติ
+
+หลังจากตั้งค่าเครื่องหมายเน้นข้อความแล้ว คุณอาจต้องการเพิ่มข้อความปกติโดยไม่เน้นข้อความใดๆ หากต้องการทำเช่นนั้น คุณต้องล้างการจัดรูปแบบ
+
+```csharp
+// ล้างการจัดรูปแบบแบบอักษร
+builder.Font.ClearFormatting();
+
+// เขียนข้อความปกติ
+builder.Write("Simple text");
+```
+
+## ขั้นตอนที่ 4: บันทึกเอกสาร
+
+เมื่อคุณเพิ่มข้อความและการจัดรูปแบบที่จำเป็นทั้งหมดแล้ว ขั้นตอนสุดท้ายคือการบันทึกเอกสาร ระบุเส้นทางและชื่อไฟล์ที่คุณต้องการบันทึกเอกสาร
+
+```csharp
+// บันทึกเอกสาร
+document.Save(dataDir + "WorkingWithFonts.SetFontEmphasisMark.docx");
+```
+
+## บทสรุป
+
+และแล้วคุณก็ทำได้! การตั้งค่าเครื่องหมายเน้นข้อความในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET นั้นง่ายมาก เพียงแค่เขียนโค้ดไม่กี่บรรทัด คุณก็สามารถทำให้ข้อความของคุณโดดเด่นขึ้นและเพิ่มสัมผัสแห่งความเป็นมืออาชีพให้กับเอกสารของคุณได้ อย่าลังเลที่จะทดลองใช้เครื่องหมายเน้นข้อความและรูปแบบต่างๆ เพื่อให้เหมาะกับความต้องการของคุณ
+
+## คำถามที่พบบ่อย
+
+### เครื่องหมายเน้นแบบอักษรคืออะไร?
+
+เครื่องหมายเน้นข้อความเป็นสัญลักษณ์พิเศษที่เพิ่มลงในข้อความเพื่อให้ข้อความโดดเด่น เครื่องหมายเน้นข้อความอาจรวมถึงจุด วงกลม และเครื่องหมายตกแต่งอื่นๆ
+
+### ฉันสามารถใช้เครื่องหมายเน้นเสียงอื่นๆ กับ Aspose.Words สำหรับ .NET ได้หรือไม่
+
+ ใช่ Aspose.Words สำหรับ .NET รองรับเครื่องหมายเน้นข้อความต่างๆ คุณสามารถสำรวจตัวเลือกต่างๆ ได้โดยอ้างอิง[เอกสารประกอบ](https://reference.aspose.com/words/net/).
+
+### Aspose.Words สำหรับ .NET ใช้ได้ฟรีหรือไม่?
+
+ Aspose.Words สำหรับ .NET ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/) หรือซื้อใบอนุญาต[ที่นี่](https://purchase.aspose.com/buy).
+
+### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ได้อย่างไร
+
+ คุณสามารถรับการสนับสนุนจากชุมชนและทีมสนับสนุน Aspose ได้โดยไปที่[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8).
+
+### ฉันสามารถใช้ Aspose.Words สำหรับ .NET ร่วมกับเฟรมเวิร์ก .NET อื่นๆ ได้หรือไม่
+
+ใช่ Aspose.Words สำหรับ .NET เข้ากันได้กับเฟรมเวิร์ก .NET ต่างๆ รวมถึง .NET Core และ .NET 5/6
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## คําแนะนําการติดตั้ง  
-เพื่อใช้ตัวอย่างรหัสที่ให้มาและใช้ Aspose.Words สําหรับ .NET ติดตามขั้นตอนนี้  
 
-1. ดาวน์โหลด Aspose.Words สําหรับ .NET:  
-   * เอาห้องสมุดจากห้อง[การปล่อยตัว](https://releases.aspose.com/words/net/)หน้า  
-
-2. โกตั้งห้องสมุด:  
-   * โกตั้งมันผ่าน NuGet Package Manager ใน Visual Studio:  
-     * เปิด Visual Studio  
-     * ไปยัง Tools > NuGet Package Manager > การจัดการ NuGet Packages for Solution  
-     * ค้นหา`"พูดคําพูด"`แล้วคลิกติดตั้ง  
-
-   * แทนอื่น ใช้ คอนโซลผู้จัดการแพ็คเกจ NuGet:  
-     ```shell
-     Install-Package Aspose.Words
-     ```  
-
-3. ก่อใบอนุญาตชั่วคราว (เป็นทางเลือก):  
-   * สําหรับการใช้งานที่ไม่จํากัด[เอกสารอัตราการ](https://purchase.aspose.com/temporary-license/). .  
-   * ใช้ใบอนุญาตในโครงการของคุณ  
-     ```csharp
-     var license = new Aspose.Words.License();
-     license.SetLicense("Aspose.Words.lic");
-     ```  
-   
-## ดูอีกด้วย
-[Aspose.Word สําหรับเอกสาร .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word สําหรับ .NET References](https://reference.aspose.com/words/net/)
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary文件的文件是如何使用文件建構器從Aspose.Words的類別.
+//ExStepSummary:0: 啟動新的文檔和文檔建設器,
+//ExStepSummary:1: 建立一個表格,並插入一個格式化細胞.
+//ExStepSummary:2: 設定細胞格式化特性,包括填充和寬度.
+//ExStepSummary:3: 輸入文本,
+//ExStepSummary:4: 結束行和表格,並將文檔保存到指定檔案路徑上.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 建立新的文檔對象
+Document doc = new Document();
+// 使用新的文檔啟動文檔架構器
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 開始建立一個桌子
+builder.StartTable();
+// 插入第一個細胞
+builder.InsertCell();
+
+//ExStep:2-
+// 進入細胞格式化特性
+CellFormat cellFormat = builder.CellFormat;
+// 設定細胞寬度
+cellFormat.Width = 250;
+// 設置料
+cellFormat.LeftPadding = 30;
+cellFormat.RightPadding = 30;
+cellFormat.TopPadding = 30;
+cellFormat.BottomPadding = 30;
+
+//ExStep:3-
+// 插入文本到細胞中
+builder.Writeln("I'm a wonderful formatted cell.");
+
+//ExStep:4-
+// 結束表中的現在行
+builder.EndRow();
+// 結束表格的建立
+builder.EndTable();
+// 保存文件
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");
+//ExEnd

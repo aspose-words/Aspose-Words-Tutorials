@@ -1,25 +1,29 @@
 ---
-title: Práce s hlavičkami a chodidly v Aspose.Words pro .NET 
-weight: 10
-limit:
-description: Naučte se vytvářet, upravovat a formátovat hlavičky a podložky v dokumentech Word pomocí Aspose.Words pro .NET.
-keywords:
+title: Zpracování textu se záhlavím a zápatím
+linktitle: Zpracování textu se záhlavím a zápatím
+second_title: Aspose.Words API pro zpracování dokumentů
+description: Naučte se pracovat se záhlavím a zápatím v dokumentech aplikace Word pomocí Aspose.Words for .NET. Kompletní návody a praktické příklady.
+weight: 730
 url: /cs/net/working-with-headers-and-footers/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Úvod
-  
-Název a podložky jsou nezbytné pro přidání profesionálního doteku do dokumentů Word, ať už jsou to čísla stránek, logotipy nebo vlastně vytvořený text. S Aspose.Words pro .NET můžete bezproblémově vytvářet, upravovat a přizpůsobit název a podložky podle potřeb dokumentu. Knihovna nabízí výkonné API, které vám umožňují nastavit různé název a podložky pro pár a pár stránek, definovat jedinečné oddíly a zahrnout dynamické prvky jako pole nebo obrázky.  
+# Zpracování textu se záhlavím a zápatím
 
-Aspose.Words pro .NET zjednodušuje proces práce s hlavičkami a podstavkami, což zajišťuje plnou kontrolu nad jejich formátováním a umístěním. Ať už navrhujete firemní zprávu nebo vytváříte personalizovaný dokument, knižnice poskytuje účinný způsob, jak tyto klíčové prvky spravovat. Zkuste se podívat na naše krok za krokem průvodce a odemknítte plný potenciál hlavičků a podstavek ve vašich souborech Word!  
 
-{{< tutorial-card link="./create-header-footer/" title="Vytvořte dokument Word s názevem a podstavkou pomocí Aspose.Words" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./insert-image/" title="Vkládáme obrázek do nadpisového dokumentu Word." imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+Words Processing with Headers and Footers je komplexní zdroj pro výuku, jak manipulovat a přizpůsobovat záhlaví a zápatí v dokumentech Word pomocí knihovny Aspose.Words pro .NET. Výukové programy poskytují podrobná vysvětlení, příklady kódu a podrobné pokyny pro přidávání, úpravu a odstraňování záhlaví a zápatí, nastavení různých záhlaví a zápatí pro různé části dokumentu, vkládání obrázků, tabulek, dynamických polí a mnoho dalšího. Tento zdroj je nezbytný pro vývojáře, kteří chtějí vytvářet profesionální, vlastní dokumenty Wordu se záhlavími a zápatími přizpůsobenými jejich specifickým potřebám.
 
+
+ ## Tutoriály
+| Titul | Popis |
+| --- | --- |
+| [Vytvořit záhlaví zápatí](./create-header-footer/) | Naučte se vytvářet záhlaví a zápatí v dokumentech aplikace Word pomocí Aspose.Words for .NET. Upravte záhlaví a zápatí pro každou stránku. |
+| [Zkopírujte záhlaví zápatí z předchozí sekce](./copy-headers-footers-from-previous-section/) | Naučte se kopírovat záhlaví a zápatí z předchozí části v dokumentech aplikace Word pomocí Aspose.Words for .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

@@ -1,27 +1,35 @@
 ---
-title: تنسيق المستندات مع Aspose.Words ل .NET
-weight: 10
-limit:
-description: تعلم تقنيات تنسيق الوثائق المتقدمة مع Aspose.Words ل .NET. استكشف ترتيبات الصفحات وأساليبها ومواضيعها وتلقيحة تنسيقها بسهولة.
-keywords:
+title: تنسيق المستندات
+linktitle: تنسيق المستندات
+second_title: واجهة برمجة تطبيقات معالجة المستندات Aspose.Words
+description: تعرف على كيفية تنسيق مستندات Word باستخدام Aspose.Words for .NET. سترشدك الدروس التعليمية خلال تقنيات التخطيط المختلفة، والأسلوب، والترقيم، والتقسيم إلى فقرات، والخطوط، والمزيد.
+weight: 1490
 url: /ar/net/document-formatting/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## مقدمة
- 
-إن تنسيق الوثائق أمر بالغ الأهمية لإنشاء وثائق Word المهنية والرائعة بصرياً. Aspose.Words لـ .NET تمكن المطورين من مجموعة واسعة من الميزات لتعزيز ترتيبات الوثائق وتصفيقها. من إعداد ترتيبات الصفحات المخصصة والحوافز إلى تطبيق مواضيع وأساليب متسقة، Aspose.Words يسهل تنسيق المهام مع APIs قوية. سواء كنت تلقائي العناوين والأقاعد الأرضية، وتعديل تحديد الترتيب الفقرة، أو جدولات التصميم، Aspose.Words يضمن الدقة والمرونة، وتوفير الوقت والجهد.  
+# تنسيق المستندات
 
-إغوص عميقًا في تنسيق الوثائق مع أدلة مفصلة حول مواضيع متضمنة مثل العمل مع الموضوعات وإدارة الأساليب وتعديل الفاصل وإنشاء ترتيبات ديناميكية. مع Aspose.Words لـ .NET ، يمكنك تسليم الوثائق التي تلبي المعايير المحددة مع الحفاظ على الاتساق والنيقة عبر جميع المخرجات.
 
-{{< tutorial-card link="./apply-border-and-shading/" title="تطبيق الحدود والظلال على الفقرة في تحدث. الكلمات" imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./apply-paragraph-style/" title="إعداد ورقة الوثيقة الكلمة في Aspose.Words" imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./multilevel-list-formatting/" title="إعداد قوائم متعددة المستويات في الكلمة مع Aspose.Words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./paragraph-formatting/" title="تنسيق الفقرات باستخدام Aspose.Words ل .NET" imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+يغطي البرنامج التعليمي جوانب مختلفة مثل تنسيق النصوص والفقرات والجداول والصور وغير ذلك الكثير. كما يوفر أمثلة واضحة للكود وشروحات خطوة بخطوة لإرشادك خلال عملية تنسيق المستندات باستخدام Aspose.Words. سواء كنت مبتدئًا أو مطورًا متمرسًا، فإن هذا البرنامج التعليمي سيكون موردًا قيمًا لتحسين مهارات تنسيق المستندات باستخدام Aspose.Words لـ .NET.
 
+ ## دروس تعليمية
+| عنوان | وصف |
+| --- | --- |
+| [المسافة بين النص الآسيوي واللاتيني في مستند Word](./space-between-asian-and-latin-text/) | تعرف على كيفية ضبط المسافة تلقائيًا بين النص الآسيوي واللاتيني في مستندات Word باستخدام Aspose.Words for .NET من خلال دليلنا المفصل خطوة بخطوة. |
+| [مجموعة فواصل الأسطر في الخط الآسيوي في مستند Word](./asian-typography-line-break-group/) | إتقان فواصل الأسطر في مستندات Word باستخدام Aspose.Words for .NET. يوفر هذا الدليل برنامجًا تعليميًا خطوة بخطوة للتنسيق الدقيق. |
+| [تنسيق الفقرات في مستند Word](./paragraph-formatting/) | تعرف على كيفية تنسيق الفقرات في مستندات Word بسهولة باستخدام Aspose.Words for .NET من خلال دليلنا خطوة بخطوة. |
+| [تنسيق القائمة متعددة المستويات في مستند Word](./multilevel-list-formatting/) | تعرف على كيفية إتقان تنسيق القائمة متعددة المستويات في مستندات Word باستخدام Aspose.Words for .NET من خلال دليلنا خطوة بخطوة. قم بتحسين بنية المستند دون عناء. |
+| [تطبيق نمط الفقرة في مستند Word](./apply-paragraph-style/) | تعرف على كيفية تطبيق أنماط الفقرات في مستند Word باستخدام Aspose.Words for .NET. اتبع دليلنا خطوة بخطوة للحصول على مستند مصقول واحترافي. |
+| [تطبيق الحدود والتظليل على الفقرة في مستند Word](./apply-borders-and-shading-to-paragraph/) | قم بتطبيق الحدود والتظليل على الفقرات في مستندات Word باستخدام Aspose.Words for .NET. اتبع دليلنا خطوة بخطوة لتحسين تنسيق مستندك. |
+| [تغيير المسافات البادئة للفقرات الآسيوية في مستند Word](./change-asian-paragraph-spacing-and-indents/) | تعرف على كيفية تغيير المسافات البادئة للفقرات باللغة الآسيوية في مستندات Word باستخدام Aspose.Words لـ .NET من خلال هذا الدليل الشامل خطوة بخطوة. |
+| [الالتقاط إلى الشبكة في مستند Word](./snap-to-grid/) | تعرف على كيفية تمكين ميزة Snap to Grid في مستندات Word باستخدام Aspose.Words for .NET. يغطي هذا البرنامج التعليمي التفصيلي المتطلبات الأساسية ودليل خطوة بخطوة والأسئلة الشائعة. |
+| [الحصول على فاصل نمط الفقرة في مستند Word](./get-paragraph-style-separator/) | تعرف على كيفية تحديد فواصل أنماط الفقرات والتعامل معها في مستندات Word باستخدام Aspose.Words for .NET من خلال هذا البرنامج التعليمي الشامل خطوة بخطوة. |
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

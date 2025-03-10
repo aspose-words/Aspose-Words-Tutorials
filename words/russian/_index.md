@@ -62,18 +62,18 @@ Aspose.Words для .NET предлагает комплекс визуальн�
 ### [Форматирование документов с помощью Aspose.Words для .NET](./net/document- formatting/)
 Поймите, как применить различные варианты форматирования к параграфам, спискам и документам, чтобы улучшить визуальную привлекательность ваших файлов Word.
 
-{{< tutorial-card link="./net/document-formatting/apply-border-and-shading/" title="Применить границы и оттенки к абзацу в Aspose.Words " imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/apply-paragraph-style/" title="Создать и стилировать документ по слову в Aspose.Words " imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/multilevel-list-formatting/" title="Создать многоуровневые списки в Word с помощью Aspose.Words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/paragraph-formatting/" title="Форматные параграфы " imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Применить границы и оттенки к абзацу в Aspose.Words " imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="Создать и стилировать документ по слову в Aspose.Words " imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="Создать многоуровневые списки в Word с помощью Aspose.Words" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="Форматные параграфы " imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Работа с шрифтами в Aspose.Words для .NET](./net/working-with-fonts/)
+### [Работа с шрифтами в Aspose.Words для .NET](./net/font-styling/)
 Исследуйте функции, связанные с шрифтом, такие как стили шрифтов, расстояние между строками, знаки акцента и другие настройки типографии в документах Word.
 
-{{< tutorial-card link="./net/working-with-fonts/font-formatting/" title="Создать форматирование шрифтов в Word " imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/get-font-line-spacing/" title="Получить расстояние между строками шрифтов в документе Word" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/set-font-emphasis-mark/" title="Укажите начертание в документе Word " imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/font-formatting/" title="Создать форматирование шрифтов в Word " imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="Получить расстояние между строками шрифтов в документе Word" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Укажите начертание в документе Word " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Работа с полями формы в Aspose.Words для .NET](./net/working-with-form- fields/)
@@ -85,15 +85,15 @@ Aspose.Words для .NET предлагает комплекс визуальн�
 ### [Работа с заголовками и стопниками в Aspose.Words для .NET](./net/working- with-headers-and-footers/)
 Узнайте, как создавать и управлять заголовками и подголовками, включая добавление изображений, номеров страниц и текста.
 
-{{< tutorial-card link="./net/working-with-headers-and-footers/create-header-footer/" title="Создать документ в слове с помощью заголовка и подопчасти" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-headers-and-footers/insert-image/" title="Вставлять изображение в заголовок документа Word" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Создать документ в слове с помощью заголовка и подопчасти" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Вставлять изображение в заголовок документа Word" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Работа с разделами в Aspose.Words для .NET](./net/working-with-section/)
+### [Работа с разделами в Aspose.Words для .NET](./net/document-sections/)
 Понимать, как структурировать документы в разделы, позволяя различные заголовки, футеры и форматирование стилей.
 
-{{< tutorial-card link="./net/working-with-section/add-section/" title="Добавить новый раздел в документ Word" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-section/append-section-content/" title="Добавить и предварительно приложить контент в документах Word" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/add-section/" title="Добавить новый раздел в документ Word" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/append-section-content/" title="Добавить и предварительно приложить контент в документах Word" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Работа с формой в Aspose.Words для .NET](./net/working-with-shapes/)
@@ -107,7 +107,76 @@ Aspose.Words для .NET предлагает комплекс визуальн�
 Научитесь добавлять текстовые и изобразительные водные знаки в документы Word для брендинга или целей безопасности.
 {{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="Добавить текст в документ Word " imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
+# Учебники Aspose.Words
+
+
+## Учебники по обработке документов Aspose.Words для .NET
+{{% alert color="primary" %}}
+Эти руководства предлагают четкие и подробные инструкции по программной работе с документами Microsoft Word, охватывающие широкий спектр функций. От простых задач, таких как создание и редактирование документов, до более сложных функций, таких как слияние почты, преобразование документов и шифрование документов, разработчики могут найти практические примеры и фрагменты кода для внедрения в свои проекты. Следуя этим руководствам, разработчики .NET могут улучшить свои приложения мощными возможностями обработки документов, гарантируя эффективную и бесперебойную обработку документов Word в своих программных решениях. 
+{{% /alert %}}
+
+Вот ссылки на некоторые полезные ресурсы:
+- [Обработка документов с использованием искусственного интеллекта](./net/ai-powered-document-processing/)
+- [Применить лицензию](./net/apply-license/)   
+- [Включить функции OpenType](./net/enable-opentype-features/)   
+- [Работа с комментариями](./net/working-with-comments/)   
+- [Работа с полями](./net/working-with-fields/)   
+- [Работа со сносками и концевыми сносками](./net/working-with-footnote-and-endnote/)   
+- [Работа с полями форм](./net/working-with-formfields/)   
+- [Работа с верхними и нижними колонтитулами](./net/working-with-headers-and-footers/)   
+- [Работа с переносами](./net/working-with-hyphenation/)   
+- [Работа со списком](./net/working-with-list/)   
+- [Работа с Markdown](./net/working-with-markdown/)   
+- [Работа с узлом](./net/working-with-node/)   
+- [Работа с изменениями](./net/working-with-revisions/)   
+- [Работа с текстовыми полями](./net/working-with-textboxes/)   
+- [Разделить документ](./net/split-document/)   
+- [Добавить контент с помощью Documentbuilder](./net/add-content-using-documentbuilder/)
+- [Клонировать и объединять документы](./net/clone-and-combine-documents/) 
+- [Сравнить документы](./net/compare-documents/) 
+- [Форматирование документа](./net/document-formatting/)      
+- [Программирование с водяным знаком](./net/programming-with-watermark/)    
+- [Программирование с помощью Markdownsaveoptions](./net/programming-with-markdownsaveoptions/)   
+- [Базовые преобразования](./net/basic-conversions/)   
+
+## Учебники по обработке документов Aspose.Words для Java
+{{% alert color="primary" %}}
+Эта всеобъемлющая коллекция руководств содержит пошаговые инструкции по эффективной работе с документами Microsoft Word программным способом. От создания и обработки документов до расширенных функций, таких как слияние почты, форматирование таблиц и шифрование документов, эти руководства охватывают широкий спектр функций. Следуя этим руководствам, разработчики могут легко интегрировать Aspose.Words в свои проекты Java, обеспечивая эффективную обработку документов и улучшая свои приложения с помощью профессиональных возможностей управления документами. 
+{{% /alert %}}
+
+Вот ссылки на некоторые полезные ресурсы:
+- [Обработка текстов](./java/word-processing/)  
+- [Обработка таблиц](./java/table-processing/)
+- [Оформление документа](./java/document-styling/)
+- [Объединение документов](./java/document-merging/)
+- [Конвертация документов](./java/document-converting/)
+- [Печать документов](./java/document-printing/)
+- [Рендеринг документа](./java/document-rendering/)
+- [Безопасность документов](./java/document-security/)
+- [Разделение документа](./java/document-splitting/)
+- [Пересмотр документа](./java/document-revision/)
+- [Загрузка и сохранение документа](./java/document-loading-and-saving/)
+- [Манипуляции с документами](./java/document-manipulation/)
+- [Преобразование и экспорт документов](./java/document-conversion-and-export/)
+- [Лицензирование и конфигурация](./java/licensing-and-configuration/)
+- [Использование элементов документа](./java/using-document-elements/)
+- [Печать документов](./java/printing-documents/)
+- [Оформление документов](./java/rendering-documents/)
+
+## Учебники по управлению документами Aspose.Words для Python
+{{% alert color="primary" %}}
+Эти руководства предлагают пошаговые инструкции по программной работе с документами Microsoft Word, включая создание документов, манипуляции с ними и различные функции безопасности, такие как шифрование и защита паролем. С помощью этого ресурса разработчики могут эффективно реализовать функции обработки документов в своих приложениях Python с помощью Aspose.Words, повышая производительность и обеспечивая безопасность документов. 
+{{% /alert %}}
+
+Вот ссылки на некоторые полезные ресурсы:
+- [Создание документа](./python-net/document-creation/)  
+- [Автоматизация слова](./python-net/word-automation/)
+- [Документальная разведка](./python-net/document-intelligence/)
+- [Преобразование документов](./python-net/document-conversion/)
+- [Защита документов](./python-net/document-protection/)
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

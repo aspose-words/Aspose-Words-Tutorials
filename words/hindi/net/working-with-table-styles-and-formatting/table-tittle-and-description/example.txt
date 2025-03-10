@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary:यह कोड दिखाता है कि कैसे एक शब्द दस्तावेज़ में एक तालिका में एक शीर्षक और विवरण जोड़ने के लिए Aspose.Words का उपयोग कर.
+//ExStepSummary:0:इस चरण में दस्तावेज़ को प्रारंभ किया जाता है और इसे निर्दिष्ट निर्देशिका से लोड किया जाता है।
+//ExStepSummary:1:इस चरण में दस्तावेज़ से पहला तालिका निकाला जाता है और उसका शीर्षक और विवरण निर्धारित किया जाता है।
+//ExStepSummary:2:इस चरण में निर्दिष्ट अनुपालन सेटिंग्स के साथ दस्तावेज़ के लिए सहेजने के विकल्पों को कॉन्फ़िगर किया जाता है।
+//ExStepSummary:3:यह कदम Word 2016 के लिए दस्तावेज़ के लिए संगतता विकल्पों को अनुकूलित करता है।
+//ExStepSummary:4:इस चरण में संशोधित दस्तावेज़ को निर्दिष्ट निर्देशिका में वापस सहेजा जाता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// दस्तावेज़ को प्रारंभ करें और उसे डेटा निर्देशिका से लोड करें
+string dataDir = "Your Document Directory";
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// पहली तालिका को प्राप्त करें और उसका शीर्षक और विवरण सेट करें
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+table.Title = "Test title";
+table.Description = "Test description";
+
+//ExStep:2-
+// दस्तावेज़ के लिए सहेजें विकल्पों को कॉन्फ़िगर करें
+OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
+
+//ExStep:3-
+// Word 2016 के लिए अनुकूलता विकल्पों का अनुकूलन करें
+doc.CompatibilityOptions.OptimizeFor(Aspose.Words.Settings.MsWordVersion.Word2016);
+
+//ExStep:4-
+// संशोधित दस्तावेज़ को निर्दिष्ट निर्देशिका में वापस सहेजें
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.TableTitleAndDescription.docx", options);
+//ExEnd

@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: यह कोड Aspose.Words का उपयोग करके वर्ड दस्तावेज़ में पैराग्राफों को कैसे प्रारूपित किया जाए, यह दिखाता है। यह दिखाता है कि पैराग्राफ प्रारूपण विकल्पों जैसे संरेखण, इंडेंट और एक पैराग्राफ के बाद स्थान कैसे सेट करें।
+//ExStepSummary:0: इस चरण में दस्तावेज़ बनाने के लिए एक नया दस्तावेज़ और एक दस्तावेज़निर्माता को प्रारंभ किया जाता है।
+//ExStepSummary:1: इस चरण में अनुच्छेद के स्वरूपण विकल्प, जिसमें संरेखण, बाएं अनुच्छेद, दाएं अनुच्छेद और अनुच्छेद के बाद स्थान शामिल हैं, निर्धारित किए जाते हैं।
+//ExStepSummary:2: इस चरण में दस्तावेज़ में निर्दिष्ट स्वरूपण विकल्पों के साथ एक अच्छी तरह से स्वरूपित पैराग्राफ लिखा जाता है।
+//ExStepSummary:3: इस चरण में अनुच्छेद के बाद स्थान के प्रभाव को दर्शाने के लिए एक और प्रारूपित अनुच्छेद लिखा जाता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0- 
+// एक नया दस्तावेज़ उदाहरण बनाएं.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1- 
+// अनुच्छेद स्वरूपण विकल्प सेट करें।
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.Alignment = ParagraphAlignment.Center;
+paragraphFormat.LeftIndent = 50;
+paragraphFormat.RightIndent = 50;
+paragraphFormat.SpaceAfter = 25;
+
+//ExStep:2- 
+// पहला प्रारूपित पैराग्राफ लिखें।
+builder.Writeln(
+	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
+
+//ExStep:3- 
+// दूसरे पैराग्राफ को प्रारूपित लिखें।
+builder.Writeln(
+	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
+
+//ExStep:4- 
+// दस्तावेज़ को निर्दिष्ट पथ पर सहेजें।
+doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
+//ExEnd

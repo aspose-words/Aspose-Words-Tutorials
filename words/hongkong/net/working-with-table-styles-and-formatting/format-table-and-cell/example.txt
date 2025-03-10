@@ -1,0 +1,63 @@
+//ExStart
+//ExSummary圖表的邊緣和影像方式不同.
+//ExStepSummary:0: 啟動文檔和文檔建設器,
+//ExStepSummary:1: 開始新的桌子,並設定整個桌子的界限.
+//ExStepSummary:2: 加入第一個紅色背景圖片和文字.
+//ExStepSummary:3: 加入第二個細胞, 綠色背景影和文字.
+//ExStepSummary:4: 完成第一行,並清除之前的細胞格式化.
+//ExStepSummary:5: 加入一個新的行, 適用於第一個細胞的定制更大的邊界.
+//ExStepSummary:6: 加入新行的第二個細胞,
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// 建立一個新的文件.
+Document doc = new Document();
+// 建立文件建構器,
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 開始新的桌子.
+Table table = builder.StartTable();
+// 請將第一個細胞插入桌子中.
+builder.InsertCell();
+// 預定整個桌子的邊界.
+table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
+
+//ExStep:2-
+// 設定細胞背景顏色為紅色.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
+builder.Writeln("Cell #1");
+// 請輸入第二個細胞.
+builder.InsertCell();
+
+//ExStep:3-
+// 設定細胞背景顏色為綠色.
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
+builder.Writeln("Cell #2");
+// 終結目前的行列.
+builder.EndRow();
+
+//ExStep:4-
+// 清除任何細胞格式化,
+builder.CellFormat.ClearFormatting();
+// 在下一行插入新的細胞.
+builder.InsertCell();
+// 這一行的第一個細胞要建立更大的邊界.
+builder.CellFormat.Borders.Left.LineWidth = 4.0;
+builder.CellFormat.Borders.Right.LineWidth = 4.0;
+builder.CellFormat.Borders.Top.LineWidth = 4.0;
+builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
+builder.Writeln("Cell #3");
+//ExStep:5-
+// 請將第四個細胞插入.
+builder.InsertCell();
+builder.CellFormat.ClearFormatting();
+builder.Writeln("Cell #4");
+//ExStep:6-
+// 保存文件.
+doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
+//ExEnd

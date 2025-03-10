@@ -1,25 +1,29 @@
 ---
-title: Trabajar con los cabeceras y los pies en Aspose.Words para .NET 
-weight: 10
-limit:
-description: Aprende a crear, modificar y formato de encabezados y piezas en documentos de Word utilizando Aspose.Words para .NET. Guía paso a paso para personalización perfecta.
-keywords:
+title: Procesamiento de palabras con encabezados y pies de página
+linktitle: Procesamiento de palabras con encabezados y pies de página
+second_title: API de procesamiento de documentos Aspose.Words
+description: Aprenda a trabajar con encabezados y pies de página en documentos de Word utilizando Aspose.Words para .NET. Tutoriales completos y ejemplos prácticos.
+weight: 730
 url: /es/net/working-with-headers-and-footers/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Introducción
-  
-Los encabezados y los pieles de página son esenciales para añadir un toque profesional a sus documentos de Word, ya sea para números de página, logotipos o texto personalizado. Con Aspose.Words para .NET, puede crear, modificar y personalizar los encabezados y pieles de página de manera perfecta para que se adapten a las necesidades de sus documentos. La biblioteca ofrece poderosas API que le permiten configurar diferentes encabezados y pieles de página para páginas impares e iguales, definir secciones únicas e incluir elementos dinámicos como campos o imágenes.  
+# Procesamiento de palabras con encabezados y pies de página
 
-Aspose.Words para .NET simplifica el proceso de trabajo con encabezados y piezas de página, asegurando el control total sobre su formato y ubicación. Ya sea que esté diseñando un informe corporativo o elaborando un documento personalizado, la biblioteca proporciona una manera eficiente de administrar estos elementos cruciales. ¡Encuentre en nuestras guías paso a paso y desbloquee todo el potencial de encabezados y piezas de página en sus archivos Word!  
 
-{{< tutorial-card link="./create-header-footer/" title="Crea un documento de Word con encabezado y pie de página usando Aspose.Words" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./insert-image/" title="Insertar una imagen en el encabezado de documento de Word." imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+Words Processing with Headers and Footers es un recurso completo para aprender a manipular y personalizar encabezados y pies de página en documentos de Word mediante la biblioteca Aspose.Words para .NET. Los tutoriales proporcionan explicaciones detalladas, ejemplos de código e instrucciones paso a paso para agregar, modificar y eliminar encabezados y pies de página, configurar diferentes encabezados y pies de página para diferentes secciones de un documento, insertar imágenes, tablas, campos dinámicos y mucho más. Este recurso es esencial para los desarrolladores que desean crear documentos de Word profesionales y personalizados con encabezados y pies de página adaptados a sus necesidades específicas.
 
+
+ ## Tutoriales
+| Título | Descripción |
+| --- | --- |
+| [Crear encabezado y pie de página](./create-header-footer/) | Aprenda a crear encabezados y pies de página en sus documentos de Word con Aspose.Words para .NET. Personalice encabezados y pies de página para cada página. |
+| [Copiar encabezados y pies de página de la sección anterior](./copy-headers-footers-from-previous-section/) | Aprenda a copiar encabezados y pies de página de la sección anterior en documentos de Word usando Aspose.Words para .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

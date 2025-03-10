@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary該代碼顯示如何使用Aspose.Words插入形狀 (文字框) 在Word文檔中.
+//ExStepSummary:0: 該代碼啟動了新的文檔,
+//ExStepSummary:1: 在文件中,將一個形狀 (文字框) 插入在絕對位置,
+//ExStepSummary:2: 另一種形狀也會在相對位置上插入新形狀,
+//ExStepSummary:3: 文件是使用特定的OoxmlSaveOptions保存的.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// 建立新的文檔案例
+Document doc = new Document();
+// 啟動文件的文件建構器
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 插入字體的形狀
+Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
+    RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
+// 旋轉形狀 30 度
+shape.Rotation = 30.0;
+
+//ExStep:2-
+builder.Writeln();
+// 在相對位置輸入另一種字體的形式
+shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
+// 旋轉第二個形狀 30 度
+shape.Rotation = 30.0;
+
+//ExStep:3-
+// 準備文件存儲選項
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
+{
+    Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
+};
+
+// 使用指定保存選項保存文件
+doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
+//ExEnd

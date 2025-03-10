@@ -1,0 +1,19 @@
+//ExStart
+//ExSummary:यह कोड दिखाता है कि कैसे एक इनलाइन छवि डालने के लिए एक शब्द दस्तावेज़ में Aspose.Words का उपयोग कर.
+//ExStepSummary:0: दस्तावेज़ वस्तु और दस्तावेज़ निर्माण के लिए दस्तावेज़निर्माता को प्रारंभ करना।
+//ExStepSummary:1: दस्तावेज़ बिल्डर के साथ वर्तमान कर्सर स्थिति पर दस्तावेज़ में एक छवि डालना।
+//ExStepSummary:2: दस्तावेज़ को एक निर्दिष्ट फ़ाइल नाम में सहेजना।
+//ExStepImage:1:images/1.png
+//ExStep:0-
+// एक नया दस्तावेज़ और दस्तावेज़निर्माता प्रारंभ करें
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// दस्तावेज़निर्माता का उपयोग करके छवि डालें
+builder.InsertImage(ImagesDir + "Transparent background logo.png");
+
+//ExStep:2-
+// संशोधित दस्तावेज़ को फ़ाइल में सहेजें
+doc.Save("AddContentUsingDocumentBuilder.InsertInlineImage.docx");
+//ExEnd

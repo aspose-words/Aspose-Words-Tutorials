@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary如何使用Aspose.Words在Word文檔中添加一個有特定選項的文本水印.
+//ExStepSummary:0: 文件的開啟方式是:
+//ExStepSummary:1: 該代碼為文本水印設定的選項, 包括字體家族,尺寸,顏色和布局.
+//ExStepSummary:2: 該代碼將包含指定選項的文字水印應用于文件.
+//ExStepSummary:3: 該文件的編碼將其保存在指定目錄中.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+// 設定文件目錄路徑
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 載入 Word 文件
+Document doc = new Document(dataDir + "Document.docx");
+
+//ExStep:2-
+// 創建水印選項
+TextWatermarkOptions options = new TextWatermarkOptions()
+{
+    FontFamily = "Arial", // Set font family for the watermark text
+    FontSize = 36, // Set font size for the watermark text
+    Color = Color.Black, // Set color of the watermark text
+    Layout = WatermarkLayout.Horizontal, // Specify layout of the watermark
+    IsSemitrasparent = false // Set transparency option
+};
+
+//ExStep:3-
+// 使用選項使用水印文本
+doc.Watermark.SetText("Test", options);
+
+//ExStep:4-
+// 保存使用水印的文件
+doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
+//ExEnd

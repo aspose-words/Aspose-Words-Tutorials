@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary: यह कोड Aspose.Words का उपयोग करके वर्ड दस्तावेज़ में तालिकाओं को कैसे संसाधित किया जाए, यह दिखाता है। यह एक मौजूदा दस्तावेज़ को पुनर्प्राप्त करता है, पहली तालिका की सीमाओं को संशोधित करता है, और परिवर्तनों को एक नई फ़ाइल में सहेजता है।
+//ExStepSummary:0: निम्नलिखित कोड दस्तावेज़ को सेट करता है और इससे पहला तालिका प्राप्त करता है।
+//ExStepSummary:1: निम्नलिखित कोड नए स्वरूपण के लिए तैयारी के लिए तालिका से किसी भी मौजूदा सीमाओं को साफ करता है।
+//ExStepSummary:2: निम्नलिखित कोड मेज के चारों ओर और अंदर एक हरे रंग की सीमा लागू करता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// दस्तावेज़ के लिए निर्देशिका परिभाषित करें
+string dataDir = "Your Document Directory";
+// दस्तावेज़ लोड करें
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// दस्तावेज़ से पहली मेज प्राप्त करें
+Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
+
+//ExStep:2-
+// तालिका से किसी भी मौजूदा सीमाओं को साफ करें
+table.ClearBorders();
+
+//ExStep:3-
+// मेज के चारों ओर और अंदर एक हरे रंग की सीमा निर्धारित करें
+table.SetBorders(LineStyle.Single, 1.5, Color.Green);
+// परिवर्तनों के साथ दस्तावेज़ सहेजें
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");
+//ExEnd

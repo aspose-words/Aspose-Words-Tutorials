@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary如何將圖像插入Word文檔的標題,
+//ExStepSummary:0: 使用Aspose.Words文件類別創建新的Word文檔.
+//ExStepSummary:1: 使用文檔製作器移動到文檔的主要標題.
+//ExStepSummary:2: 插入一個圖像,
+//ExStepSummary:3: 保存文件到指定檔案路徑上.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 建立新的 Word 文檔
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 移動導覽器到文檔的主要標題
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+// 插入一個圖像,
+builder.InsertImage(
+    ImagesDir + "Logo.jpg", RelativeHorizontalPosition.RightMargin, 10,
+    RelativeVerticalPosition.Page, 10, 50, 50, 
+    WrapType.Through
+);
+
+//ExStep:3-
+// 保存文件到指定的路徑
+doc.Save("WorkingWithHeadersAndFooters.InsertImage.docx");
+//ExEnd

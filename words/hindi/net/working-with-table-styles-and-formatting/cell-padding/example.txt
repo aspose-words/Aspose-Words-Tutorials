@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: निम्नलिखित कोड एक स्वरूपित तालिका सेल के साथ वर्ड दस्तावेज़ बनाने का तरीका दिखाता है जिसमें इसकी सामग्री के चारों ओर पैडिंग शामिल है।
+//ExStepSummary:0: निम्नलिखित कोड एक नया दस्तावेज़ और एक दस्तावेज़ बिल्डर को प्रारंभ करता है।
+//ExStepSummary:1: निम्नलिखित कोड दस्तावेज़ के भीतर एक तालिका शुरू करता है।
+//ExStepSummary:2: निम्नलिखित कोड तालिका में एक सेल डालेगा।
+//ExStepSummary:3: निम्नलिखित कोड सेल सामग्री के लिए पैडिंग सेट करता है।
+//ExStepSummary:4: निम्नलिखित कोड सेल में पाठ जोड़ता है और वर्तमान पंक्ति को समाप्त करता है।
+//ExStepSummary:5: निम्नलिखित कोड तालिका को समाप्त करता है और दस्तावेज़ को फ़ाइल में सहेजता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// एक नया दस्तावेज़ प्रारंभ करें
+Document doc = new Document();
+// दस्तावेज़ को हेरफेर करने के लिए एक दस्तावेज़ बिल्डर बनाएं
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// तालिका बनाना शुरू करें
+builder.StartTable();
+// तालिका में एक नई सेल डालें
+builder.InsertCell();
+
+//ExStep:2-
+// ऊपर और नीचे 30 अंक, बाएं और दाएं 50 अंक के साथ पैडिंग सेट करें
+builder.CellFormat.SetPaddings(30, 50, 30, 50);
+
+//ExStep:3-
+builder.Writeln("I'm a wonderful formatted cell.");
+// तालिका में वर्तमान पंक्ति को समाप्त करें
+builder.EndRow();
+// मेज को समाप्त करें
+builder.EndTable();
+
+//ExStep:4-
+// दस्तावेज़ को निर्दिष्ट फ़ाइल में सहेजें
+doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
+//ExEnd

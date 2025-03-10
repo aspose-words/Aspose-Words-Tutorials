@@ -1,25 +1,29 @@
 ---
-title: Arbeta med header och fotare i Aspose.Words för .NET 
-weight: 10
-limit:
-description: Lär dig hur du skapar, ändrar och formaterar huvud- och fotfiler i Word- dokument med hjälp av Aspose.Words för .NET.
-keywords:
+title: Ordbehandling med sidhuvuden och sidfötter
+linktitle: Ordbehandling med sidhuvuden och sidfötter
+second_title: Aspose.Words Document Processing API
+description: Lär dig hur du arbetar med sidhuvuden och sidfötter i Word-dokument med Aspose.Words för .NET. Kompletta handledningar och praktiska exempel.
+weight: 730
 url: /sv/net/working-with-headers-and-footers/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Inledning
-  
-Huvudskrifter och fotor är viktiga för att lägga till en professionell beröring till dina Word-dokument, oavsett om det är för sidnumrar, logotyper eller anpassad text. Med Aspose.Words för .NET kan du problemlöst skapa, ändra och anpassa huvudskrifter och fotor för att passa dina dokument behov. Biblioteket erbjuder kraftfulla API som gör det möjligt för dig att ställa in olika huvudskrifter och fotor för par och par sidor, definiera unika avsnitt och inkludera dynamiska element som fält eller bilder.  
+# Ordbehandling med sidhuvuden och sidfötter
 
-Aspose.Words för .NET förenklar processen att arbeta med rubriker och fotor, vilket säkerställer full kontroll över deras formatering och placering. Oavsett om du utformar en företagsrapport eller skapar ett personligt dokument, erbjuder biblioteket ett effektivt sätt att hantera dessa viktiga element. Ta dig in i våra steg för steg guider och låsa upp hela potentialen av rubriker och fotor i dina Word-filer!  
 
-{{< tutorial-card link="./create-header-footer/" title="Skapa Word-dokument med rubrik och fotboll med hjälp av Aspose.Words" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./insert-image/" title="Lägg in en bild i Word Document Header." imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+Ordbehandling med sidhuvuden och sidfötter är en omfattande resurs för att lära sig hur man manipulerar och anpassar sidhuvuden och sidfötter i Word-dokument genom att använda Aspose.Words-biblioteket för .NET. Handledningar ger detaljerade förklaringar, kodexempel och steg-för-steg-instruktioner för att lägga till, ändra och ta bort sidhuvuden och sidfötter, ställa in olika sidhuvuden och sidfötter för olika delar av ett dokument, infoga bilder, tabeller, dynamiska fält och mycket mer. Den här resursen är viktig för utvecklare som vill skapa professionella, anpassade Word-dokument med sidhuvuden och sidfötter skräddarsydda för deras specifika behov.
 
+
+ ## Handledningar
+| Titel | Beskrivning |
+| --- | --- |
+| [Skapa sidhuvud](./create-header-footer/) | Lär dig hur du skapar sidhuvuden och sidfötter i dina Word-dokument med Aspose.Words för .NET. Anpassa sidhuvuden och sidfötter för varje sida. |
+| [Kopiera sidhuvuden sidfötter från föregående avsnitt](./copy-headers-footers-from-previous-section/) | Lär dig hur du kopierar sidhuvuden och sidfötter från föregående avsnitt i Word-dokument med Aspose.Words för .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

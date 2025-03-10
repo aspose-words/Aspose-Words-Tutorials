@@ -1,0 +1,67 @@
+//ExStart
+//ExSummary該代碼顯示如何使用Aspose.Words在文档中建立群組形狀.
+// 加入集體形狀,然後在保存之前將集體形狀插入文檔中.
+//ExStepSummary:0: 啟動新文件,並確保滿足最低要求.
+//ExStepSummary:1: 建立一個會保留其他形狀的組型.
+//ExStepSummary:2: 加入一個口音邊緣呼叫形狀.
+//ExStepSummary:3: 加入行動按形狀.
+//ExStepSummary:4: 設定組形狀的尺寸和坐標.
+//ExStepSummary:5: 使用文件建構器插入組格式.
+//ExStepSummary:6: 保存包含集體形狀的文件到指定位置.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStep:0-
+// 建立新的文件
+Document doc = new Document();
+// 確保文件符合最低要求
+doc.EnsureMinimum();
+
+//ExStep:1-
+// 建立一個新的 GroupShape 範例
+GroupShape groupShape = new GroupShape(doc);
+
+//ExStep:2-
+// 建立一個口音邊緣呼叫形狀
+Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1) 
+{
+    Width = 100, 
+    Height = 100
+};
+// 加入組形狀
+groupShape.AppendChild(accentBorderShape);
+
+//ExStep:3-
+// 打造行動按形狀
+Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
+{
+	// 設定形狀的左位置
+    Left = 100, 
+	// 設定形狀寬度
+    Width = 100, 
+	// 設定形狀的高度
+    Height = 200
+};
+// 加入行動按
+groupShape.AppendChild(actionButtonShape);
+
+//ExStep:4-
+// 設定組形狀的寬度
+groupShape.Width = 200;
+// 設定組形狀的高度
+groupShape.Height = 200;
+// 設定組形狀的坐標尺寸
+groupShape.CoordSize = new Size(200, 200);
+
+//ExStep:5-
+// 建立文件建構器,
+DocumentBuilder builder = new DocumentBuilder(doc);
+// 插入集體形狀在文檔中
+builder.InsertNode(groupShape);
+
+//ExStep:6-
+// 保存文件到指定位置
+doc.Save("WorkingWithShapes.AddGroupShape.docx");
+//ExEnd

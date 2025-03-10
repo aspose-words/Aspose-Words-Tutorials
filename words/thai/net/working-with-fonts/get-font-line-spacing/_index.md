@@ -1,47 +1,112 @@
 ---
-title: รับการแยกเส้นลายในเอกสาร Word
-weight: 7700
-limit: 
-description: เรียนรู้วิธีการสร้างเอกสาร Word และหาช่องเส้นลายอักษร โดยใช้ Aspose.Words สําหรับ .NET. คําแนะนําขั้นตอนขั้นตอน พร้อมตัวอย่างรหัสรวม
-keywords: [Aspose.Words for .NET, get font line spacing, create Word document, .NET Word library, font properties, .NET document creation, line spacing example]
+title: รับระยะห่างระหว่างบรรทัดแบบอักษร
+linktitle: รับระยะห่างระหว่างบรรทัดแบบอักษร
+second_title: API การประมวลผลเอกสาร Aspose.Words
+description: เรียนรู้วิธีการกำหนดระยะห่างระหว่างบรรทัดของแบบอักษรโดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนา
+weight: 10
 url: /th/net/working-with-fonts/get-font-line-spacing/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# รับการแยกเส้น Font ในเอกสาร Word
-Aspose.Words สําหรับ .NET ทําให้การสร้างเอกสาร Word และการ thao tácง่ายขึ้น ตัวอย่างนี้แสดงให้เห็นวิธีการเริ่มต้นเอกสาร Word, ตั้งตัวอักษรที่เหมาะสม และหาช่องว่างแถวของตัวอักษรที่特定 ไม่ว่าคุณกําลังอัตโนมัติการสร้างเอกสารหรือวิเคราะห์รูปแบบเอกสาร, คู่มือนี้จะให้คําแนะนําชัดเจนและ snippets คódปฏิบัติในการบรรลุเป้าหมายของคุณได้อย่างมีประสิทธิภาพ. Aspose.Words สําหรับ .NET เป็นห้องสมุดที่แข็งแรงสําหรับผู้พัฒนาที่ทํางานกับเอกสาร Word ใน C # หรือ VB.NET
+# รับระยะห่างระหว่างบรรทัดแบบอักษร
 
----
-{{< tutorial-widget sourcePath="words/net/working-with-fonts/get-font-line-spacing" >}}
+## การแนะนำ
 
+Aspose.Words สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพที่ช่วยให้คุณสร้าง จัดการ และแปลงเอกสาร Word ได้ด้วยโปรแกรม งานทั่วไปอย่างหนึ่งที่คุณอาจต้องทำคือการดึงระยะห่างระหว่างบรรทัดของแบบอักษรเฉพาะในเอกสาร ในบทช่วยสอนนี้ เราจะแนะนำคุณทีละขั้นตอนเพื่อให้แน่ใจว่าคุณสามารถรับระยะห่างระหว่างบรรทัดของแบบอักษรได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET 
+
+## ข้อกำหนดเบื้องต้น
+
+ก่อนที่จะเจาะลึกโค้ด โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
+
+1.  Aspose.Words สำหรับไลบรารี .NET: ดาวน์โหลดและติดตั้งเวอร์ชันล่าสุดจาก[ที่นี่](https://releases.aspose.com/words/net/).
+2. สภาพแวดล้อมการพัฒนา: ตรวจสอบให้แน่ใจว่าคุณมีการตั้งค่า IDE เช่น Visual Studio
+3. ความรู้พื้นฐานเกี่ยวกับ C#: บทช่วยสอนนี้ถือว่าคุณมีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C#
+
+## นำเข้าเนมสเปซ
+
+ขั้นแรก คุณต้องนำเข้าเนมสเปซที่จำเป็นในโปรเจ็กต์ C# ของคุณ เนมสเปซเหล่านี้จะช่วยให้คุณสามารถเข้าถึงฟังก์ชันการทำงานของ Aspose.Words ได้
+
+```csharp
+using System;
+using Aspose.Words;
+using Aspose.Words.Fonts;
+```
+
+มาแบ่งกระบวนการในการเว้นระยะห่างระหว่างบรรทัดของแบบอักษรออกเป็นขั้นตอนง่าย ๆ ที่จัดการได้
+
+## ขั้นตอนที่ 1: สร้างเอกสารใหม่
+
+ขั้นตอนแรกคือการสร้างอินสแตนซ์เอกสาร Word ใหม่โดยใช้ Aspose.Words สำหรับ .NET
+
+```csharp
+Document doc = new Document();
+```
+
+## ขั้นตอนที่ 2: เริ่มต้น DocumentBuilder
+
+ต่อไปเราต้องเริ่มต้น`DocumentBuilder` วัตถุ วัตถุนี้จะช่วยให้เราสร้างและจัดการเนื้อหาเอกสารได้
+
+```csharp
+DocumentBuilder builder = new DocumentBuilder(doc);
+```
+
+## ขั้นตอนที่ 3: ตั้งค่าคุณสมบัติแบบอักษร
+
+ตอนนี้เราตั้งค่าคุณสมบัติแบบอักษรสำหรับข้อความที่เราต้องการแทรก สำหรับตัวอย่างนี้ เราจะใช้แบบอักษร "Calibri"
+
+```csharp
+builder.Font.Name = "Calibri";
+```
+
+## ขั้นตอนที่ 4: เขียนข้อความลงในเอกสาร
+
+ การใช้`DocumentBuilder` วัตถุ เขียนข้อความบางอย่างลงในเอกสาร ข้อความนี้จะใช้คุณสมบัติแบบอักษรที่เรากำหนดไว้ในขั้นตอนก่อนหน้านี้
+
+```csharp
+builder.Writeln("Sample Text");
+```
+
+## ขั้นตอนที่ 5: ดึงวัตถุแบบอักษร
+
+หากต้องการทราบระยะห่างระหว่างบรรทัด เราต้องเข้าถึงวัตถุแบบอักษรของข้อความที่เราเพิ่งเพิ่มเข้าไป ซึ่งสามารถทำได้โดยไปที่โครงสร้างเอกสารเพื่ออ่านย่อหน้าแรก
+
+```csharp
+Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
+```
+
+## ขั้นตอนที่ 6: กำหนดระยะห่างระหว่างบรรทัด
+
+ในที่สุดเราดึงระยะห่างระหว่างบรรทัดจากวัตถุแบบอักษรและพิมพ์ไปที่คอนโซล
+
+```csharp
+Console.WriteLine($"lineSpacing = {font.LineSpacing}");
+```
+
+## บทสรุป
+
+และแล้วคุณก็ทำได้! การดึงระยะห่างระหว่างบรรทัดของแบบอักษรโดยใช้ Aspose.Words สำหรับ .NET เป็นเรื่องง่ายเมื่อคุณแบ่งขั้นตอนเหล่านี้ออกเป็นขั้นตอนง่ายๆ ไม่ว่าคุณจะกำลังสร้างเอกสารใหม่หรือทำงานกับเอกสารที่มีอยู่แล้ว Aspose.Words ก็มีเครื่องมือทั้งหมดที่คุณต้องการเพื่อจัดการคุณสมบัติของแบบอักษรอย่างมีประสิทธิภาพ
+
+## คำถามที่พบบ่อย
+
+### Aspose.Words สำหรับ .NET คืออะไร?
+Aspose.Words สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร Word ด้วยโปรแกรมโดยใช้ C#
+
+### ฉันสามารถใช้ Aspose.Words สำหรับ .NET ในภาษา .NET อื่นๆ ได้หรือไม่
+ใช่ คุณสามารถใช้ Aspose.Words สำหรับ .NET กับภาษา .NET ใดๆ ก็ได้ รวมถึง VB.NET และ F#
+
+### ฉันจะดาวน์โหลด Aspose.Words สำหรับ .NET ได้อย่างไร?
+ คุณสามารถดาวน์โหลด Aspose.Words เวอร์ชันล่าสุดสำหรับ .NET ได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+
+### มี Aspose.Words สำหรับ .NET ให้ทดลองใช้งานฟรีหรือไม่
+ ใช่ คุณสามารถรับการทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+
+### ฉันสามารถค้นหาเอกสารสำหรับ Aspose.Words สำหรับ .NET ได้ที่ไหน
+ เอกสารประกอบสำหรับ Aspose.Words สำหรับ .NET พร้อมใช้งานแล้ว[ที่นี่](https://reference.aspose.com/words/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## คําแนะนําการติดตั้ง  
-เพื่อใช้ตัวอย่างนี้ ติดตามขั้นตอนต่อไปนี้  
-1. ดาวน์โหลดและติดตั้ง Aspose.Words สําหรับ .NET  
-   * ไปเยี่ยม [Aspose.Words สําหรับหน้าดาวน์โหลด .NET](https://releases.aspose.com/words/net/)และดาวน์โหลดฉบับล่าสุด  
-   * ถอนแพ็คเกจที่ดาวน์โหลด และดู `"ตอบสนอง คําพูด"`แฟ้มในโครงการของคุณ  
 
-2. โครงการผ่าน NuGet  
-   * เปิดโครงการของคุณใน Visual Studio  
-   * ไปยัง Tools > NuGet Package Manager > การจัดการ NuGet Packages for Solution  
-   * ค้นหา`"พูดคําพูด"`ใน NuGet Package Manager และติดตั้งแพ็คเกจ  
-
-3. สมัครใบอนุญาต (เป็นทางเลือก แต่แนะนํา)  
-   * รับใบอนุญาตจาก [เป้าหมาย หน้าซื้อ](https://purchase.aspose.com/buy). .  
-   * ใช้ [เอกสารชั่วคราว](https://purchase.aspose.com/temporary-license/)เพื่อการประเมินถ้าจําเป็น  
-   * เพิ่มรหัสต่อไปนี้ตอนต้นการสมัครเพื่อใช้ใบอนุญาต  
-     ```csharp
-     License license = new License();
-     license.SetLicense("Aspose.Words.lic");
-     ```
-	 
-## ดูอีกด้วย
-[Aspose.Word สําหรับเอกสาร .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word สําหรับ .NET References](https://reference.aspose.com/words/net/)
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

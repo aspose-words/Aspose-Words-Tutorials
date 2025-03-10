@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary該代碼顯示如何使用Aspose.Words插入一個區域圖片.
+//ExStepSummary:0: 該代碼初始化了新的文檔和文檔製作器.
+//ExStepSummary:1: 該文件中包含一個區域圖表.
+//ExStepSummary:2: 列表中包含數據點的連串.
+//ExStepSummary:3: 該文件的位置圖包含在下列代碼中.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 建立新的文件
+Document doc = new Document();
+// 啟動文件製作器
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 插入指定尺寸的面積圖表
+Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
+
+//ExStep:2-
+// 访问圖表對象
+Chart chart = shape.Chart;
+// 加入新的系列
+chart.Series.Add("Aspose Series 1", new [] 
+{
+	// 數據點 1
+    new DateTime(2002, 05, 01),
+	// 數據點 2
+    new DateTime(2002, 06, 01),
+	// 數據點 3
+    new DateTime(2002, 07, 01),
+	// 數據點 4
+    new DateTime(2002, 08, 01),
+	// 數據點 5
+    new DateTime(2002, 09, 01)
+}, 
+// 數據點的相應值
+new double[] { 32, 32, 28, 12, 15 });
+
+//ExStep:3-
+// 保存文件,並附加圖表
+doc.Save("WorkingWithCharts.InsertAreaChart.docx");
+//ExEnd

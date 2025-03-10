@@ -62,18 +62,18 @@ Apprenez à insérer du texte, des tableaux, des images et d'autres éléments d
 ### [Formattement de document avec Aspose.Words pour .NET](./net/document- formatting/)
 Comprenez comment appliquer différentes options de formatage aux paragraphes, aux listes et aux éléments de document pour améliorer l'attrait visuel de vos fichiers Word.
 
-{{< tutorial-card link="./net/document-formatting/apply-border-and-shading/" title="Appliquer les limites et l'ombre au paragraphe dans Aspose.Words " imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/apply-paragraph-style/" title="Créer et modeler un document Word dans Aspose.Words " imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/multilevel-list-formatting/" title="Créer des listes à plusieurs niveaux dans Word avec Aspose.Words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/paragraph-formatting/" title="Formats de paragraphes " imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Appliquer les limites et l'ombre au paragraphe dans Aspose.Words " imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="Créer et modeler un document Word dans Aspose.Words " imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="Créer des listes à plusieurs niveaux dans Word avec Aspose.Words" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="Formats de paragraphes " imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Travailler avec des polices dans Aspose.Words pour .NET](./net/working-with- fonts/)
 Explorez les fonctionnalités liées aux polices telles que les styles de polices, l'espacement entre les lignes, les marques d'accent et d'autres paramètres de typographie dans les documents Word.
 
-{{< tutorial-card link="./net/working-with-fonts/font-formatting/" title="Créer une mise en forme de polices dans Word " imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/get-font-line-spacing/" title="Obtenez l' espacement des lignes de police dans le document Word" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/set-font-emphasis-mark/" title="Définir une marque d'accent dans un document Word " imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/font-formatting/" title="Créer une mise en forme de polices dans Word " imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="Obtenez l' espacement des lignes de police dans le document Word" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Définir une marque d'accent dans un document Word " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Travailler avec des champs de formulaire dans Aspose.Words pour .NET](./net/working-with-form-fields/)
@@ -82,18 +82,18 @@ Découvrez comment insérer et gérer des champs de formulaire tels que les entr
 {{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Insérer le champ de formulaire de boîte combo dans le document Word" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Travailler avec les en-têtes et les pieds dans Aspose.Words pour .NET](./net/working-with-headers-and-footers/)
+### [Travailler avec les en-têtes et les pieds dans Aspose.Words pour .NET](./net/header-footer-formatting/)
 Apprenez à créer et à manipuler les en-têtes et les pieds de page, y compris en ajoutant des images, des numéros de pages et du texte.
 
-{{< tutorial-card link="./net/working-with-headers-and-footers/create-header-footer/" title="Créer un document Word avec en-tête et en-sous" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-headers-and-footers/insert-image/" title="Insérer une image dans l' en-tête de document Word" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Créer un document Word avec en-tête et en-sous" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Insérer une image dans l' en-tête de document Word" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Travailler avec des sections dans Aspose.Words pour .NET](./net/working-with- section/)
 Comprenez comment structurer les documents en sections, en permettant de créer différentes en-têtes, pieds de page et styles de formatage.
 
-{{< tutorial-card link="./net/working-with-section/add-section/" title="Ajouter une nouvelle section au document Word" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-section/append-section-content/" title="Ajouter et pré-ajouter du contenu dans les documents Word" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/add-section/" title="Ajouter une nouvelle section au document Word" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/append-section-content/" title="Ajouter et pré-ajouter du contenu dans les documents Word" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [Travailler avec des formes dans Aspose.Words pour .NET](./net/working-with- shapes/)
@@ -107,7 +107,76 @@ Découvrez comment insérer et manipuler diverses formes, y compris les formes r
 Apprenez à ajouter des balises d'eau de texte et d'image aux documents Word à des fins de marque ou de sécurité.
 {{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="Ajouter un code d'eau dans le document Word " imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
+# Tutoriels Aspose.Words
+
+
+## Tutoriels de traitement de documents Aspose.Words pour .NET
+{{% alert color="primary" %}}
+Ces didacticiels proposent des instructions claires et détaillées sur la manière de travailler avec des documents Microsoft Word par programmation, couvrant un large éventail de fonctionnalités. Des tâches simples comme la création et l'édition de documents aux fonctionnalités plus avancées telles que le publipostage, la conversion de documents et le chiffrement de documents, les développeurs peuvent trouver des exemples pratiques et des extraits de code à mettre en œuvre dans leurs projets. En suivant ces didacticiels, les développeurs .NET peuvent améliorer leurs applications avec de puissantes capacités de traitement de documents, garantissant une gestion efficace et transparente des documents Word dans leurs solutions logicielles. 
+{{% /alert %}}
+
+Voici des liens vers des ressources utiles :
+- [Traitement de documents alimenté par l'IA](./net/ai-powered-document-processing/)
+- [Demander une licence](./net/apply-license/)   
+- [Activer les fonctionnalités OpenType](./net/enable-opentype-features/)   
+- [Travailler avec les commentaires](./net/working-with-comments/)   
+- [Travailler avec les champs](./net/working-with-fields/)   
+- [Travailler avec les notes de bas de page et les notes de fin](./net/working-with-footnote-and-endnote/)   
+- [Travailler avec les champs de formulaire](./net/working-with-formfields/)   
+- [Travailler avec les en-têtes et les pieds de page](./net/working-with-headers-and-footers/)   
+- [Travailler avec la césure](./net/working-with-hyphenation/)   
+- [Travailler avec une liste](./net/working-with-list/)   
+- [Travailler avec Markdown](./net/working-with-markdown/)   
+- [Travailler avec Node](./net/working-with-node/)   
+- [Travailler avec les révisions](./net/working-with-revisions/)   
+- [Travailler avec des zones de texte](./net/working-with-textboxes/)   
+- [Diviser le document](./net/split-document/)   
+- [Ajouter du contenu à l'aide de Documentbuilder](./net/add-content-using-documentbuilder/)
+- [Cloner et combiner des documents](./net/clone-and-combine-documents/) 
+- [Comparer les documents](./net/compare-documents/) 
+- [Formatage de documents](./net/document-formatting/)      
+- [Programmation avec filigrane](./net/programming-with-watermark/)    
+- [Programmation avec Markdownsaveoptions](./net/programming-with-markdownsaveoptions/)   
+- [Conversions de base](./net/basic-conversions/)   
+
+## Tutoriels de traitement de documents Aspose.Words pour Java
+{{% alert color="primary" %}}
+Cette collection complète de didacticiels fournit des conseils étape par étape sur la manière de travailler efficacement avec des documents Microsoft Word par programmation. De la création et de la manipulation de documents aux fonctionnalités avancées telles que le publipostage, la mise en forme de tableaux et le chiffrement de documents, ces didacticiels couvrent un large éventail de fonctionnalités. En suivant ces didacticiels, les développeurs peuvent intégrer de manière transparente Aspose.Words dans leurs projets Java, permettant ainsi un traitement efficace des documents et améliorant leurs applications avec des fonctionnalités de gestion de documents de niveau professionnel. 
+{{% /alert %}}
+
+Voici des liens vers des ressources utiles :
+- [Traitement de texte](./java/word-processing/)  
+- [Traitement des tables](./java/table-processing/)
+- [Style de document](./java/document-styling/)
+- [Fusion de documents](./java/document-merging/)
+- [Conversion de documents](./java/document-converting/)
+- [Impression de documents](./java/document-printing/)
+- [Rendu de documents](./java/document-rendering/)
+- [Sécurité des documents](./java/document-security/)
+- [Fractionnement de documents](./java/document-splitting/)
+- [Révision du document](./java/document-revision/)
+- [Chargement et enregistrement de documents](./java/document-loading-and-saving/)
+- [Manipulation de documents](./java/document-manipulation/)
+- [Conversion et exportation de documents](./java/document-conversion-and-export/)
+- [Licences et configuration](./java/licensing-and-configuration/)
+- [Utilisation des éléments du document](./java/using-document-elements/)
+- [Impression de documents](./java/printing-documents/)
+- [Documents de rendu](./java/rendering-documents/)
+
+## Tutoriels de gestion de documents Aspose.Words pour Python
+{{% alert color="primary" %}}
+Ces didacticiels proposent des instructions étape par étape sur la façon de travailler avec des documents Microsoft Word par programmation, notamment la création et la manipulation de documents, ainsi que diverses fonctionnalités de sécurité telles que le chiffrement et la protection par mot de passe. Grâce à cette ressource, les développeurs peuvent implémenter efficacement des fonctionnalités de traitement de documents dans leurs applications Python à l'aide d'Aspose.Words, améliorant ainsi la productivité et garantissant la sécurité des documents. 
+{{% /alert %}}
+
+Voici des liens vers des ressources utiles :
+- [Création de documents](./python-net/document-creation/)  
+- [Automatisation des mots](./python-net/word-automation/)
+- [Renseignements sur les documents](./python-net/document-intelligence/)
+- [Conversion de documents](./python-net/document-conversion/)
+- [Protection des documents](./python-net/document-protection/)
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

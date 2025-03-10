@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि Aspose.Words का उपयोग करके एक वर्ड दस्तावेज़ कैसे बनाया जाए, पैराग्राफ शैली लागू करें और दस्तावेज़ को सहेजें। यह दिखाता है कि पैराग्राफ के लिए शीर्षक शैली कैसे सेट की जाए और दस्तावेज़ को .docx प्रारूप में कैसे सहेजा जाए।
+//ExStepSummary:0: इस अनुभाग में एक नया दस्तावेज़ और दस्तावेज़निर्माता उदाहरण शुरू होता है.
+//ExStepSummary:1: इस अनुभाग में दस्तावेज़निर्माता का उपयोग करके शीर्षक अनुच्छेद शैली लागू की जाती है।
+//ExStepSummary:2: इस खंड में दस्तावेज़ को "हैलो" लिखा गया है।
+//ExStepSummary:3: यह खंड दस्तावेज़ को एक निर्दिष्ट फ़ाइल पथ पर सहेजता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// एक नई दस्तावेज़ उदाहरण को प्रारंभ करें
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// अनुच्छेद शैली को शीर्षक पर सेट करें
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Title;
+
+//ExStep:2-
+// निर्दिष्ट शैली का उपयोग करके बिल्डर का उपयोग करके "हैलो" लिखें
+builder.Write("Hello");
+
+//ExStep:3-
+// दस्तावेज़ को .docx फ़ाइल में सहेजें
+doc.Save("DocumentFormatting.ApplyParagraphStyle.docx");
+//ExEnd

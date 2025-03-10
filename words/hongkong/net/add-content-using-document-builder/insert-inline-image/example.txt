@@ -1,0 +1,19 @@
+//ExStart
+//ExSummary如何將內行圖像插入Word文檔使用Aspose.Words.
+//ExStepSummary:0: 文件的建構工具和文件建構工具.
+//ExStepSummary:1: 透過 DocumentBuilder 插入圖像在當前的導向位置上進入文檔.
+//ExStepSummary:2: 保存文件到指定檔案名稱.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+// 啟動新的文檔和文檔建設器
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 使用 DocumentBuilder 插入圖像
+builder.InsertImage(ImagesDir + "Transparent background logo.png");
+
+//ExStep:2-
+// 保存已修改的文件
+doc.Save("AddContentUsingDocumentBuilder.InsertInlineImage.docx");
+//ExEnd

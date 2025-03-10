@@ -59,21 +59,21 @@ url: /ar/
 {{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title="إعداد مستند كلمات مع جدول المحتوى في .NET" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [تنسيق المستندات مع Aspose.Words ل .NET](./net/document-formatting/)
+### [تنسيق المستندات مع Aspose.Words ل .NET](./net/document-styling/)
 فهم كيفية تطبيق خيارات التنسيق المختلفة على الفقرات والقوائم وعناصر الوثائق لتعزيز الجمال البصري لملفاتك الكلمة.
 
-{{< tutorial-card link="./net/document-formatting/apply-border-and-shading/" title="تطبيق الحدود والظلال على الفقرة في تحدث. الكلمات " imgSrc="/words/net/document-formatting/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/apply-paragraph-style/" title="إعداد ورقة الوثيقة الكلمة في Aspose.Words " imgSrc="/words/net/document-formatting/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/multilevel-list-formatting/" title="إعداد قوائم متعددة المستويات في الكلمة مع Aspose.Words" imgSrc="/words/net/document-formatting/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/document-formatting/paragraph-formatting/" title="تنسيق الفقرات " imgSrc="/words/net/document-formatting/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="تطبيق الحدود والظلال على الفقرة في تحدث. الكلمات " imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="إعداد ورقة الوثيقة الكلمة في Aspose.Words " imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="إعداد قوائم متعددة المستويات في الكلمة مع Aspose.Words" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="تنسيق الفقرات " imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [العمل مع الخطوط في Aspose.Words ل .NET](./net/working-with-fonts/)
+### [العمل مع الخطوط في Aspose.Words ل .NET](./net/font-styling/)
 استكشاف ميزات ذات الصلة بالخطوط مثل أساليب الخطوط، فضاء الخطوط، علامات التركيز، وإعدادات النصوص الأخرى في وثائق Word.
 
-{{< tutorial-card link="./net/working-with-fonts/font-formatting/" title="إعداد تصميم الخط في Word " imgSrc="/words/net/working-with-fonts/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/get-font-line-spacing/" title="الحصول على مساحة خط الخط في مستند Word" imgSrc="/words/net/working-with-fonts/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-fonts/set-font-emphasis-mark/" title="ضع علامة الضوء في ورقة الكلمة " imgSrc="/words/net/working-with-fonts/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/font-formatting/" title="إعداد تصميم الخط في Word " imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="الحصول على مساحة خط الخط في مستند Word" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="ضع علامة الضوء في ورقة الكلمة " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [العمل مع حقل النموذج في Aspose.Words ل .NET](./net/working-with-form-fields/)
@@ -85,15 +85,15 @@ url: /ar/
 ### [العمل مع الرأس والرجل في Aspose.Words ل .NET](./net/working-with-headers-and- footers/)
 تعلم كيفية إنشاء وتلاعب بالعناوين الرئيسية والأسفل، بما في ذلك إضافة الصور وأرقام الصفحات والنص.
 
-{{< tutorial-card link="./net/working-with-headers-and-footers/create-header-footer/" title="إعداد مستند كلمات باستخدام العنوان والرجل" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-headers-and-footers/insert-image/" title="إدراج صورة في عنوان وثيقة Word" imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="إعداد مستند كلمات باستخدام العنوان والرجل" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="إدراج صورة في عنوان وثيقة Word" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [العمل مع القسمات في Aspose.Words ل .NET](./net/working-with-section/)
+### [العمل مع القسمات في Aspose.Words ل .NET](./net/document-sections/)
 فهم كيفية هيكل المستندات إلى أقسام، مما يسمح لخطوط مختلفة، أقدام قدم، وأساليب تنسيق.
 
-{{< tutorial-card link="./net/working-with-section/add-section/" title="إضافة قسم جديد إلى مستند Word" imgSrc="/words/net/working-with-section/add-section/images/thumb.png" >}}
-{{< tutorial-card link="./net/working-with-section/append-section-content/" title="إضافة ومضافة المحتوى في وثائق الكلمة" imgSrc="/words/net/working-with-section/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/add-section/" title="إضافة قسم جديد إلى مستند Word" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-sections/append-section-content/" title="إضافة ومضافة المحتوى في وثائق الكلمة" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ### [العمل مع الشكل في Aspose.Words ل .NET](./net/working-with-shapes/)
@@ -107,7 +107,76 @@ url: /ar/
 تعلم إضافة علامات مياه نصية وصورة إلى مستندات Word لأغراض العلامة التجارية أو الأمن.
 {{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="إضافة علامة مائية في ورد الوثيقة " imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
+# دروس تعليمية حول Aspose.Words
+
+
+## دروس تعليمية حول معالجة المستندات باستخدام Aspose.Words لـ .NET
+{{% alert color="primary" %}}
+تقدم هذه الدروس التعليمية تعليمات واضحة ومفصلة حول كيفية العمل مع مستندات Microsoft Word برمجيًا، وتغطي مجموعة واسعة من الوظائف. من المهام البسيطة مثل إنشاء المستندات وتحريرها إلى الميزات الأكثر تقدمًا مثل دمج البريد وتحويل المستندات وتشفير المستندات، يمكن للمطورين العثور على أمثلة عملية ومقاطع تعليمات برمجية لتنفيذها في مشاريعهم. باتباع هذه الدروس التعليمية، يمكن لمطوري .NET تحسين تطبيقاتهم بإمكانيات معالجة المستندات القوية، مما يضمن التعامل الفعال والسلس مع مستندات Word في حلول البرامج الخاصة بهم. 
+{{% /alert %}}
+
+وفيما يلي روابط لبعض الموارد المفيدة:
+- [معالجة المستندات باستخدام الذكاء الاصطناعي](./net/ai-powered-document-processing/)
+- [تطبيق الترخيص](./net/apply-license/)   
+- [تمكين ميزات OpenType](./net/enable-opentype-features/)   
+- [العمل مع التعليقات](./net/working-with-comments/)   
+- [العمل مع الحقول](./net/working-with-fields/)   
+- [العمل مع الحواشي السفلية والحواشي الختامية](./net/working-with-footnote-and-endnote/)   
+- [العمل مع FormFields](./net/working-with-formfields/)   
+- [العمل مع الرؤوس والتذييلات](./net/working-with-headers-and-footers/)   
+- [العمل مع علامات الترقيم](./net/working-with-hyphenation/)   
+- [العمل مع القائمة](./net/working-with-list/)   
+- [العمل مع Markdown](./net/working-with-markdown/)   
+- [العمل مع العقدة](./net/working-with-node/)   
+- [العمل مع المراجعات](./net/working-with-revisions/)   
+- [العمل مع مربعات النص](./net/working-with-textboxes/)   
+- [تقسيم المستند](./net/split-document/)   
+- [إضافة محتوى باستخدام Documentbuilder](./net/add-content-using-documentbuilder/)
+- [استنساخ ودمج المستندات](./net/clone-and-combine-documents/) 
+- [مقارنة المستندات](./net/compare-documents/) 
+- [تنسيق المستندات](./net/document-formatting/)      
+- [البرمجة باستخدام العلامة المائية](./net/programming-with-watermark/)    
+- [البرمجة باستخدام Markdownsaveoptions](./net/programming-with-markdownsaveoptions/)   
+- [التحويلات الأساسية](./net/basic-conversions/)   
+
+## دروس معالجة المستندات باستخدام Aspose.Words للغة Java
+{{% alert color="primary" %}}
+توفر هذه المجموعة الشاملة من البرامج التعليمية إرشادات خطوة بخطوة حول كيفية العمل بفعالية مع مستندات Microsoft Word برمجيًا. بدءًا من إنشاء المستندات ومعالجتها إلى الميزات المتقدمة مثل دمج البريد وتنسيق الجدول وتشفير المستندات، تغطي هذه البرامج التعليمية مجموعة واسعة من الوظائف. باتباع هذه البرامج التعليمية، يمكن للمطورين دمج Aspose.Words بسلاسة في مشاريع Java الخاصة بهم، مما يتيح معالجة المستندات بكفاءة وتعزيز تطبيقاتهم بإمكانيات إدارة المستندات ذات المستوى الاحترافي. 
+{{% /alert %}}
+
+وفيما يلي روابط لبعض الموارد المفيدة:
+- [معالجة نصوص](./java/word-processing/)  
+- [معالجة الجدول](./java/table-processing/)
+- [تنسيق المستندات](./java/document-styling/)
+- [دمج المستندات](./java/document-merging/)
+- [تحويل المستندات](./java/document-converting/)
+- [طباعة المستندات](./java/document-printing/)
+- [تقديم المستندات](./java/document-rendering/)
+- [أمن المستندات](./java/document-security/)
+- [تقسيم المستندات](./java/document-splitting/)
+- [مراجعة الوثيقة](./java/document-revision/)
+- [تحميل المستندات وحفظها](./java/document-loading-and-saving/)
+- [معالجة المستندات](./java/document-manipulation/)
+- [تحويل المستندات وتصديرها](./java/document-conversion-and-export/)
+- [الترخيص والتكوين](./java/licensing-and-configuration/)
+- [استخدام عناصر المستند](./java/using-document-elements/)
+- [طباعة المستندات](./java/printing-documents/)
+- [تقديم المستندات](./java/rendering-documents/)
+
+## دروس تعليمية حول إدارة المستندات باستخدام Aspose.Words للغة Python
+{{% alert color="primary" %}}
+تقدم هذه الدروس التعليمية إرشادات خطوة بخطوة حول كيفية العمل مع مستندات Microsoft Word برمجيًا، بما في ذلك إنشاء المستندات ومعالجتها وميزات الأمان المختلفة مثل التشفير وحماية كلمة المرور. بمساعدة هذا المورد، يمكن للمطورين تنفيذ وظائف معالجة المستندات بكفاءة في تطبيقات Python الخاصة بهم باستخدام Aspose.Words، مما يعزز الإنتاجية ويضمن أمان المستندات. 
+{{% /alert %}}
+
+وفيما يلي روابط لبعض الموارد المفيدة:
+- [إنشاء المستندات](./python-net/document-creation/)  
+- [أتمتة الكلمات](./python-net/word-automation/)
+- [استخبارات المستندات](./python-net/document-intelligence/)
+- [تحويل المستندات](./python-net/document-conversion/)
+- [حماية المستندات](./python-net/document-protection/)
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

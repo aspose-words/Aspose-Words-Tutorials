@@ -1,47 +1,112 @@
 ---
-title: الحصول على الفاصل الخطوط في ورد مستند
-weight: 7700
-limit: 
-description: تعلم كيفية إنشاء مستند Word واسترداد فاصل الخط من الخط باستخدام Aspose.Words ل .NET. تعليمات خطوة بخطوة مع أمثلة رمز تضمنها.
-keywords: [Aspose.Words for .NET, get font line spacing, create Word document, .NET Word library, font properties, .NET document creation, line spacing example]
+title: الحصول على تباعد أسطر الخط
+linktitle: الحصول على تباعد أسطر الخط
+second_title: واجهة برمجة تطبيقات معالجة المستندات Aspose.Words
+description: تعرف على كيفية الحصول على مسافات بين أسطر الخطوط باستخدام Aspose.Words for .NET من خلال هذا البرنامج التعليمي خطوة بخطوة. مثالي للمطورين.
+weight: 10
 url: /ar/net/working-with-fonts/get-font-line-spacing/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# الحصول على مساحة خط الخط في مستند Word
-Aspose.Words لـ .NET يسهل إنشاء وثائق Word والتلاعب بها. يوضح هذا المثال كيفية إطلاق وثيقة Word ، وتعيين فونت مخصصة ، واسترداد مسافة الخط من فونت محددة. سواء كنت تقوم بتلقائية إنتاج وثائق أو تحليل أساليب النص ، يوفر هذا الدليل تعليمات واضحة ومقاطع رمز عملية لتحقيق أهدافك بكفاءة. Aspose.Words لـ .NET هي مكتبة قوية للمطورين الذين يعملون مع وثائق Word في C # أو VB.NET.
+# الحصول على تباعد أسطر الخط
 
----
-{{< tutorial-widget sourcePath="words/net/working-with-fonts/get-font-line-spacing" >}}
+## مقدمة
 
+Aspose.Words for .NET هي مكتبة قوية تتيح لك إنشاء مستندات Word ومعالجتها وتحويلها برمجيًا. إحدى المهام الشائعة التي قد تحتاج إلى القيام بها هي استرداد المسافة بين السطور لخط معين في مستند. في هذا البرنامج التعليمي، سنوضح لك العملية خطوة بخطوة، مما يضمن لك إمكانية الحصول بسهولة على المسافة بين السطور للخط باستخدام Aspose.Words for .NET. 
+
+## المتطلبات الأساسية
+
+قبل أن نتعمق في الكود، تأكد من توفر المتطلبات الأساسية التالية:
+
+1.  Aspose.Words for .NET Library: قم بتنزيل أحدث إصدار وتثبيته من[هنا](https://releases.aspose.com/words/net/).
+2. بيئة التطوير: تأكد من أن لديك بيئة تطوير متكاملة مثل Visual Studio.
+3. المعرفة الأساسية بلغة C#: يفترض هذا البرنامج التعليمي أن لديك فهمًا أساسيًا لبرمجة C#.
+
+## استيراد مساحات الأسماء
+
+أولاً، تحتاج إلى استيراد المساحات الأساسية اللازمة في مشروع C# الخاص بك. ستتيح لك هذه المساحات الأساسية الوصول إلى وظائف Aspose.Words.
+
+```csharp
+using System;
+using Aspose.Words;
+using Aspose.Words.Fonts;
+```
+
+دعونا نقوم بتقسيم عملية الحصول على تباعد أسطر الخط إلى خطوات بسيطة يمكن التحكم فيها.
+
+## الخطوة 1: إنشاء مستند جديد
+
+الخطوة الأولى هي إنشاء مثيل جديد لمستند Word باستخدام Aspose.Words لـ .NET.
+
+```csharp
+Document doc = new Document();
+```
+
+## الخطوة 2: تهيئة DocumentBuilder
+
+بعد ذلك، نحتاج إلى تهيئة`DocumentBuilder` هذا الكائن سيساعدنا في إنشاء محتوى المستند ومعالجته.
+
+```csharp
+DocumentBuilder builder = new DocumentBuilder(doc);
+```
+
+## الخطوة 3: تعيين خصائص الخط
+
+الآن، نقوم بتعيين خصائص الخط للنص الذي نريد إدراجه. في هذا المثال، سنستخدم الخط "Calibri".
+
+```csharp
+builder.Font.Name = "Calibri";
+```
+
+## الخطوة 4: كتابة نص في المستند
+
+ استخدام`DocumentBuilder` الكائن، اكتب نصًا في المستند. سيستخدم هذا النص خصائص الخط التي حددناها في الخطوة السابقة.
+
+```csharp
+builder.Writeln("Sample Text");
+```
+
+## الخطوة 5: استرداد كائن الخط
+
+للحصول على مسافة السطور، نحتاج إلى الوصول إلى كائن الخط للنص الذي أضفناه للتو. ويمكن القيام بذلك من خلال التنقل عبر بنية المستند إلى الفقرة الأولى.
+
+```csharp
+Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
+```
+
+## الخطوة 6: الحصول على تباعد الأسطر
+
+وأخيرًا، نستعيد مسافة السطور من كائن الخط ونطبعها في وحدة التحكم.
+
+```csharp
+Console.WriteLine($"lineSpacing = {font.LineSpacing}");
+```
+
+## خاتمة
+
+والآن لديك كل ما تحتاج إليه! إن استرداد مسافات الخطوط باستخدام Aspose.Words لـ .NET أمر سهل عندما تقسمه إلى هذه الخطوات البسيطة. سواء كنت تقوم بإنشاء مستند جديد أو تعمل على مستند موجود، فإن Aspose.Words يوفر لك كل الأدوات التي تحتاجها لإدارة خصائص الخط بكفاءة.
+
+## الأسئلة الشائعة
+
+### ما هو Aspose.Words لـ .NET؟
+Aspose.Words for .NET هي مكتبة قوية تسمح للمطورين بإنشاء مستندات Word ومعالجتها وتحويلها برمجيًا باستخدام C#.
+
+### هل يمكنني استخدام Aspose.Words لـ .NET في لغات .NET الأخرى؟
+نعم، يمكنك استخدام Aspose.Words لـ .NET مع أي لغة .NET، بما في ذلك VB.NET وF#.
+
+### كيف يمكنني تنزيل Aspose.Words لـ .NET؟
+ يمكنك تنزيل أحدث إصدار من Aspose.Words لـ .NET من[هنا](https://releases.aspose.com/words/net/).
+
+### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Words لـ .NET؟
+ نعم، يمكنك الحصول على نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+
+### أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Words لـ .NET؟
+ الوثائق الخاصة بـ Aspose.Words لـ .NET متاحة[هنا](https://reference.aspose.com/words/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## تعليمات التثبيت  
-للاستخدام لهذه المثال، اتبع هذه الخطوات:  
-1. تحميل وتثبيت Aspose.Words ل .NET  
-   * زيارة[Aspose.Words لصفحة تنزيل .NET](https://releases.aspose.com/words/net/)و تنزيل أحدث النسخة  
-   * استخراج الحزمة المنزولة و إشارة إلى `"تحدثوا. الكلمات".`الملف في مشروعك.  
 
-2. إثباط عبر NuGet  
-   * افتح مشروعك في (بيزوال ستوديو)  
-   * إذهب إلى أدوات > مدير حزم NuGet > إدارة حزم NuGet للحصول على الحل.  
-   * البحث عن`"تحدثوا. الكلمات"`في مدير الحزمة NuGet ووضع الحزمة.  
-
-3. تطبيق الترخيص (اختياري ولكن يوصى به)  
-   * الحصول على رخصة من[صفحة الشراء](https://purchase.aspose.com/buy). . .  
-   * استخدم[رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)للتقييم إذا لزم الأمر.  
-   * إضافة الرمز التالي في بداية طلبك لتطبيق الترخيص:  
-     ```csharp
-     License license = new License();
-     license.SetLicense("Aspose.Words.lic");
-     ```
-	 
-## انظر أيضاً
-[Aspose.Word للمستندات .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word للمراجع .NET](https://reference.aspose.com/words/net/)
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

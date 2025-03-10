@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि कैसे Aspose.Words का उपयोग करके एक वर्ड दस्तावेज़ में विशिष्ट विकल्पों के साथ एक पाठ वॉटरमार्क जोड़ने के लिए.
+//ExStepSummary:0: निम्नलिखित कोड दस्तावेज़ पथ को आरंभ करता है और एक नया दस्तावेज़ वस्तु बनाता है।
+//ExStepSummary:1: निम्नलिखित कोड में पाठ वॉटरमार्क के लिए विकल्प निर्धारित किए गए हैं, जिसमें फ़ॉन्ट परिवार, आकार, रंग और लेआउट शामिल हैं।
+//ExStepSummary:2: निम्नलिखित कोड दस्तावेज़ पर निर्दिष्ट विकल्पों के साथ पाठ वॉटरमार्क लागू करता है।
+//ExStepSummary:3: निम्नलिखित कोड संशोधित दस्तावेज़ को एक निर्दिष्ट निर्देशिका में सहेजता है।
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+// दस्तावेज़ के लिए निर्देशिका पथ सेट करें
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Word दस्तावेज़ लोड करें
+Document doc = new Document(dataDir + "Document.docx");
+
+//ExStep:2-
+// वॉटरमार्क विकल्प बनाएं
+TextWatermarkOptions options = new TextWatermarkOptions()
+{
+    FontFamily = "Arial", // Set font family for the watermark text
+    FontSize = 36, // Set font size for the watermark text
+    Color = Color.Black, // Set color of the watermark text
+    Layout = WatermarkLayout.Horizontal, // Specify layout of the watermark
+    IsSemitrasparent = false // Set transparency option
+};
+
+//ExStep:3-
+// विकल्पों के साथ वॉटरमार्क पाठ लागू करें
+doc.Watermark.SetText("Test", options);
+
+//ExStep:4-
+// वॉटरमार्क के साथ दस्तावेज़ सहेजें
+doc.Save(dataDir + "WorkWithWatermark.AddTextWatermarkWithSpecificOptions.docx");
+//ExEnd

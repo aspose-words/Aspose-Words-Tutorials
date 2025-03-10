@@ -1,0 +1,63 @@
+//ExStart
+//ExSummary:यह कोड दिखाता है कि कैसे एक तालिका के साथ एक शब्द दस्तावेज़ बनाने के लिए है कि अलग सीमा और छायांकन शैलियों के लिए अपनी कोशिकाओं.
+//ExStepSummary:0: एक नया वर्ड दस्तावेज़ बनाने के लिए दस्तावेज़ और दस्तावेज़निर्माता को प्रारंभ करें.
+//ExStepSummary:1: एक नई मेज शुरू करें और पूरे मेज के लिए सीमाएं निर्धारित करें।
+//ExStepSummary:2: लाल पृष्ठभूमि छायांकन और पाठ के साथ पहला सेल जोड़ें।
+//ExStepSummary:3: हरे रंग की पृष्ठभूमि छायांकन और पाठ के साथ दूसरी सेल जोड़ें।
+//ExStepSummary:4: पहली पंक्ति को समाप्त करें और पिछले सेल स्वरूपण को साफ़ करें।
+//ExStepSummary:5: पहली सेल के लिए कस्टम बड़ी सीमाओं के साथ एक नई पंक्ति जोड़ें।
+//ExStepSummary:6: डिफ़ॉल्ट स्वरूपण और पाठ के साथ नई पंक्ति की दूसरी सेल जोड़ें.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// एक नया दस्तावेज बनाएं।
+Document doc = new Document();
+// दस्तावेज़ को हेरफेर करने के लिए एक दस्तावेज़निर्माता बनाएँ.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// एक नई मेज शुरू करें।
+Table table = builder.StartTable();
+// तालिका में पहला सेल डालें।
+builder.InsertCell();
+// सारी मेज के लिए सीमाएँ निर्धारित करें।
+table.SetBorders(LineStyle.Single, 2.0, Color.Black); 
+
+//ExStep:2-
+// सेल के पृष्ठभूमि रंग को लाल में सेट करें।
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Red;
+builder.Writeln("Cell #1");
+// दूसरी सेल डालें।
+builder.InsertCell();
+
+//ExStep:3-
+// सेल के पृष्ठभूमि रंग को हरे रंग में सेट करें।
+builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
+builder.Writeln("Cell #2");
+// वर्तमान पंक्ति को समाप्त करें।
+builder.EndRow();
+
+//ExStep:4-
+// नए सिरे से शुरू करने के लिए किसी भी सेल स्वरूपण को साफ करें।
+builder.CellFormat.ClearFormatting();
+// अगले पंक्ति में एक नया सेल डालें।
+builder.InsertCell();
+// इस पंक्ति की पहली सेल के लिए बड़ी सीमाएँ बनाएं।
+builder.CellFormat.Borders.Left.LineWidth = 4.0;
+builder.CellFormat.Borders.Right.LineWidth = 4.0;
+builder.CellFormat.Borders.Top.LineWidth = 4.0;
+builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
+builder.Writeln("Cell #3");
+//ExStep:5-
+// चौथी सेल डालें।
+builder.InsertCell();
+builder.CellFormat.ClearFormatting();
+builder.Writeln("Cell #4");
+//ExStep:6-
+// दस्तावेज़ को सहेजें।
+doc.Save("WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx"); 
+//ExEnd

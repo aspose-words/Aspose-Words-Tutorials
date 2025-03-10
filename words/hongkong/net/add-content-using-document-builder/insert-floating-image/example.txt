@@ -1,0 +1,26 @@
+//ExStart
+//ExSummary該代碼顯示如何使用Aspose.Words創建Word文檔,並插入浮動布局的圖像.
+//ExStepSummary:0: 該代碼啟動了新的文檔和文檔建設器.
+//ExStepSummary:1: 該文件的圖像在下列代碼中插入.
+//ExStepSummary:2: 該文件的代碼將保存到指定位置.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+// 建立新的文檔例
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 輸入從指定路徑中的圖像
+builder.InsertImage(ImagesDir + "Transparent background logo.png", 
+    RelativeHorizontalPosition.Margin,
+    100, 
+    RelativeVerticalPosition.Margin, 
+    100, 
+    200, 
+    100, 
+    WrapType.Square); 
+
+//ExStep:2-
+// 保存文件到指定檔案中
+doc.Save("AddContentUsingDocumentBuilder.InsertFloatingImage.docx");
+//ExEnd

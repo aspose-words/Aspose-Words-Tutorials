@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: यह कोड Aspose.Words का उपयोग करके एक शैली तालिका के साथ एक वर्ड दस्तावेज़ बनाने के लिए कैसे दिखाता है। 
+//ExStepSummary:0: एक नया दस्तावेज़ और दस्तावेज़निर्माता प्रारंभ करें.
+//ExStepSummary:1: एक नई तालिका शुरू करें और "नाम" और "मूल्य" के लिए हेडर कोशिकाओं को सम्मिलित करें.
+//ExStepSummary:2: सीमा और पैडिंग सेटिंग्स के साथ एक कस्टम टेबलस्टाइल बनाएं।
+//ExStepSummary:3: तालिका शैली के साथ दस्तावेज़ को सहेजें।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// एक नई दस्तावेज़ वस्तु बनाएं
+Document doc = new Document();
+// दस्तावेज़ बनाने के लिए दस्तावेज़निर्माता को प्रारंभ करें
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// एक नई मेज शुरू करें
+Table table = builder.StartTable();
+builder.InsertCell();
+builder.Write("Name");
+builder.InsertCell();
+builder.Write("Value");
+builder.EndRow();
+builder.InsertCell();
+builder.InsertCell();
+builder.EndTable();
+
+//ExStep:2-
+// एक नई तालिका शैली बनाएं
+TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
+tableStyle.Borders.LineStyle = LineStyle.Double;
+// सीमा चौड़ाई सेट करें
+tableStyle.Borders.LineWidth = 1;
+// पैडिंग सेट करें
+tableStyle.LeftPadding = 18;
+tableStyle.RightPadding = 18;
+tableStyle.TopPadding = 12;
+tableStyle.BottomPadding = 12;
+// बनाए गए तालिका पर कस्टम तालिका शैली लागू करें
+table.Style = tableStyle;
+
+//ExStep:3-
+// स्टाइल तालिका के साथ दस्तावेज़ सहेजें
+doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
+//ExEnd

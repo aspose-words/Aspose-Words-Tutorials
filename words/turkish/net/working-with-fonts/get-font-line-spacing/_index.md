@@ -1,47 +1,112 @@
 ---
-title: Word Dokümanında Font Line Spacing alın .NET için Aspose.Words
-weight: 7700
-limit: 
-description: Word belgesini nasıl oluşturulacağını ve .NET için Aspose.Words kullanarak yazı tipi satır aralığını nasıl geri alacağını öğrenin. Kod örnekleri dahil olan adım adım talimatlar.
-keywords: [Aspose.Words for .NET, get font line spacing, create Word document, .NET Word library, font properties, .NET document creation, line spacing example]
+title: Yazı Tipi Satır Aralığını Al
+linktitle: Yazı Tipi Satır Aralığını Al
+second_title: Aspose.Words Belge İşleme API'si
+description: Bu adım adım eğitimle Aspose.Words for .NET kullanarak yazı tipi satır aralığını nasıl elde edeceğinizi öğrenin. Geliştiriciler için mükemmel.
+weight: 10
 url: /tr/net/working-with-fonts/get-font-line-spacing/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word Belgesinde Font Line Aralıklı Oluştur
-.NET için Aspose.Words Word belge oluşturmayı ve manipülasyonunu basitleştirir. Bu örnek bir Word belgesini nasıl başlatılacağını, özel bir yazı tipi ayarlanacağını ve belirli bir yazı tipi çizgi boşluğunu nasıl geri alacağını gösterir. Belge üretimini otomatikleştirirseniz veya metin stillerini analiz ederseniz, bu rehber hedeflerinize verimli bir şekilde ulaşmak için net talimatlar ve pratik kod kopyalar sağlar. .NET için Aspose.Words C # veya VB.NET'teki Word belgeleri ile çalışan geliştiriciler için güçlü bir kütüphanedir.
+# Yazı Tipi Satır Aralığını Al
 
----
-{{< tutorial-widget sourcePath="words/net/working-with-fonts/get-font-line-spacing" >}}
+## giriiş
 
+Aspose.Words for .NET, Word belgelerini programatik olarak oluşturmanıza, düzenlemenize ve dönüştürmenize olanak tanıyan güçlü bir kütüphanedir. Gerçekleştirmeniz gereken yaygın görevlerden biri, bir belgedeki belirli bir yazı tipinin satır aralığını almaktır. Bu eğitimde, Aspose.Words for .NET kullanarak yazı tipi satır aralığını kolayca elde edebilmenizi sağlayarak sizi adım adım süreçte yönlendireceğiz. 
+
+## Ön koşullar
+
+Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
+
+1.  Aspose.Words for .NET Kütüphanesi: En son sürümü buradan indirin ve kurun[Burada](https://releases.aspose.com/words/net/).
+2. Geliştirme Ortamı: Visual Studio gibi bir IDE'nin kurulu olduğundan emin olun.
+3. Temel C# Bilgisi: Bu eğitimde C# programlama hakkında temel bir anlayışa sahip olduğunuzu varsayıyoruz.
+
+## Ad Alanlarını İçe Aktar
+
+Öncelikle, C# projenize gerekli ad alanlarını içe aktarmanız gerekir. Bu ad alanları, Aspose.Words işlevlerine erişmenizi sağlayacaktır.
+
+```csharp
+using System;
+using Aspose.Words;
+using Aspose.Words.Fonts;
+```
+
+Yazı tipi satır aralığını ayarlama sürecini basit ve yönetilebilir adımlara bölelim.
+
+## Adım 1: Yeni Bir Belge Oluşturun
+
+İlk adım, Aspose.Words for .NET kullanarak yeni bir Word belgesi örneği oluşturmaktır.
+
+```csharp
+Document doc = new Document();
+```
+
+## Adım 2: DocumentBuilder'ı Başlatın
+
+Daha sonra, başlatmamız gerekiyor`DocumentBuilder` nesne. Bu nesne, belge içeriğini oluşturmamıza ve düzenlememize yardımcı olacaktır.
+
+```csharp
+DocumentBuilder builder = new DocumentBuilder(doc);
+```
+
+## Adım 3: Yazı Tipi Özelliklerini Ayarlayın
+
+Şimdi, eklemek istediğimiz metin için font özelliklerini ayarlıyoruz. Bu örnek için "Calibri" fontunu kullanacağız.
+
+```csharp
+builder.Font.Name = "Calibri";
+```
+
+## Adım 4: Belgeye Metin Yazın
+
+ Kullanımı`DocumentBuilder` nesne, belgeye biraz metin yazın. Bu metin, önceki adımda ayarladığımız yazı tipi özelliklerini kullanacaktır.
+
+```csharp
+builder.Writeln("Sample Text");
+```
+
+## Adım 5: Font Nesnesini Alın
+
+Satır aralığını elde etmek için, az önce eklediğimiz metnin font nesnesine erişmemiz gerekir. Bu, belge yapısı boyunca ilk paragraf çalışmasına giderek yapılabilir.
+
+```csharp
+Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
+```
+
+## Adım 6: Satır Aralığını Alın
+
+Son olarak font nesnesinden satır aralığını alıp konsola yazdırıyoruz.
+
+```csharp
+Console.WriteLine($"lineSpacing = {font.LineSpacing}");
+```
+
+## Çözüm
+
+Ve işte karşınızda! Aspose.Words for .NET kullanarak yazı tipi satır aralığını almak, bunu bu basit adımlara böldüğünüzde basittir. Yeni bir belge oluşturuyor veya mevcut bir belgeyle çalışıyor olun, Aspose.Words yazı tipi özelliklerini etkili bir şekilde yönetmeniz için gereken tüm araçları sağlar.
+
+## SSS
+
+### Aspose.Words for .NET nedir?
+Aspose.Words for .NET, geliştiricilerin C# kullanarak Word belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan güçlü bir kütüphanedir.
+
+### Aspose.Words for .NET'i diğer .NET dillerinde kullanabilir miyim?
+Evet, Aspose.Words for .NET'i VB.NET ve F# dahil olmak üzere herhangi bir .NET diliyle kullanabilirsiniz.
+
+### Aspose.Words for .NET'i nasıl indirebilirim?
+ Aspose.Words for .NET'in en son sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/).
+
+### Aspose.Words for .NET için ücretsiz deneme sürümü mevcut mu?
+ Evet, ücretsiz deneme sürümünü şu adresten alabilirsiniz:[Burada](https://releases.aspose.com/).
+
+### Aspose.Words for .NET'in belgelerini nerede bulabilirim?
+ Aspose.Words for .NET'e ilişkin belgeler mevcuttur[Burada](https://reference.aspose.com/words/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum talimatları  
-Bu örneği kullanmak için şu adımları takip edin:  
-1. .NET için Aspose.Words indirin ve yükleyin  
-   * Ziyaret edin .[.NET indirme sayfası için Aspose.Words](https://releases.aspose.com/words/net/)Ve en son versiyonu indir.  
-   * İndirilen paketleri çıkarın ve `"Sözler. Sözler".`Projeye kayıtlı.  
 
-2. NuGet üzerinden yükle  
-   * Projeyi Visual Studio'da aç.  
-   * Araçlara > NuGet Paket Yöneticisi > Çözüm için NuGet Paketleri Yönetin.  
-   * Arama`"Sözler. Sözler"`NuGet Paket Yöneticisi' ne girerek paket yükleyin.  
-
-3. Lisans başvurusu (Önceltilmeli ama önerilmektedir)  
-   * İzn al .[Aspose Satın alma sayfası](https://purchase.aspose.com/buy)\- Evet .  
-   * Bir [Geçici lisans](https://purchase.aspose.com/temporary-license/)Gerekirse değerlendirme için.  
-   * Lisansı başlatmak için başlık başlarında aşağıdaki kod ekleyin:  
-     ```csharp
-     License license = new License();
-     license.SetLicense("Aspose.Words.lic");
-     ```
-	 
-## Ayrıca bakın
-[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

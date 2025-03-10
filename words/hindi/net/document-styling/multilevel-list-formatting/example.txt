@@ -1,0 +1,56 @@
+//ExStart
+//ExSummary: यह कोड Aspose.Words का उपयोग करके वर्ड दस्तावेज़ में एक बहुस्तरीय सूची बनाने का तरीका प्रदर्शित करता है। यह एक दस्तावेज़ को आरंभ करता है, एक संख्यात्मक प्रारूप लागू करता है, मुख्य और उप-आइटम बनाता है, और अंत में दस्तावेज़ को .docx फ़ाइल के रूप में सहेजता है।
+//ExStepSummary:0: निम्नलिखित कोड एक नया दस्तावेज़ और दस्तावेज़निर्माता उदाहरण को प्रारंभ करता है।
+//ExStepSummary:1: निम्नलिखित कोड सूची में डिफ़ॉल्ट संख्यात्मक शैली लागू करता है और शीर्ष स्तर के आइटम जोड़ता है।
+//ExStepSummary:2: दूसरे शीर्ष स्तर के आइटम के अंतर्गत उप-वस्तुओं के निर्माण के लिए निम्नलिखित कोड अनुभाग।
+//ExStepSummary:3: निम्नलिखित कोड के उप-सूची के अंतर्गत उप-सूची बनाने के लिए आगे की छंद।
+//ExStepSummary:4: निम्नलिखित कोड दूसरे स्तर पर एक और आइटम जोड़ने के लिए पिछले स्तर पर वापस आ जाता है।
+//ExStepSummary:5: निम्नलिखित कोड सूची में अंतिम वस्तु को जोड़ने के लिए शीर्ष स्तर पर वापस जाता है।
+//ExStepSummary:6: निम्नलिखित कोड से सहेजने से पहले संख्याकरण को सूची से हटा दिया जाता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStep:0-
+// एक नया दस्तावेज़ प्रारंभ करें
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// डिफ़ॉल्ट संख्याकरण प्रारूप लागू करें
+builder.ListFormat.ApplyNumberDefault();
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+
+//ExStep:2-
+// उप-वस्तुओं के लिए इंप्रेशन
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.1");
+builder.Writeln("Item 2.2");
+
+//ExStep:3-
+// उप-उप-वस्तुओं के लिए इंप्रेशन
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.2.1");
+builder.Writeln("Item 2.2.2");
+
+//ExStep:4-
+// दूसरे स्तर पर वापस आधे
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 2.3");
+
+//ExStep:5-
+// शीर्ष स्तर पर वापस आधे
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 3");
+
+//ExStep:6-
+// सूची से अंकन हटाएँ
+builder.ListFormat.RemoveNumbers();
+
+//ExStep:7-
+// दस्तावेज़ को सहेजें
+doc.Save("DocumentFormatting.MultilevelListFormatting.docx");
+//ExEnd

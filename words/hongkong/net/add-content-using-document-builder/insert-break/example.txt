@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary該代碼顯示如何使用Aspose.Words创建Word文檔,在多頁面上添加內容,並儲存它為 .docx檔案.
+//ExStepSummary:0: 這一步啟動新的文檔和文檔建設器來操作文檔.
+//ExStepSummary:1: 這一步將文字添加到第一頁.
+//ExStepSummary:2: 這一步將頁面的休息插入,
+//ExStepSummary:3: 這一步將文字添加到第二頁.
+//ExStepSummary:4: 這一步將另一個頁面的休息插入到新頁面.
+//ExStepSummary:5: 這一步將第三頁添加文本.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// 建立新的文檔例
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 添加第一頁的文字
+builder.Writeln("This is page 1.");
+
+//ExStep:2-
+// 插入頁面休息,以啟動新頁面
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+// 添加第二頁的文字
+builder.Writeln("This is page 2.");
+
+//ExStep:4-
+// 插入另一個頁面的休息
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:5-
+// 添加第三頁的文字
+builder.Writeln("This is page 3.");
+
+//ExStep:6-
+// 保存文件到指定的路徑
+doc.Save("AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

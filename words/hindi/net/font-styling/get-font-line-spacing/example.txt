@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: यह कोड एक दस्तावेज़ बनाने और निर्दिष्ट फ़ॉन्ट के लाइन अंतर प्राप्त करने का तरीका दिखाता है।
+//ExStepSummary:0: निम्नलिखित कोड एक नया दस्तावेज़ और दस्तावेज़निर्माता शुरू करता है।
+//ExStepSummary:1: कोड फ़ॉन्ट को "कैलिब्रि" पर सेट करता है और पाठ की एक पंक्ति जोड़ता है।
+//ExStepSummary:2: कोड दस्तावेज़ में पहले रन के लाइन अंतर को प्राप्त करता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// एक नया दस्तावेज़ उदाहरण बनाएं
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// फ़ॉन्ट नाम को 'कैलिब्रि' पर सेट करें
+builder.Font.Name = "Calibri";
+builder.Writeln("qText");
+
+//ExStep:2-
+// पहले रन के फ़ॉन्ट तक पहुँचें
+Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
+// कंसोल के लिए लाइन अंतर आउटपुट
+Console.WriteLine($"lineSpacing = {font.LineSpacing}");
+//ExEnd

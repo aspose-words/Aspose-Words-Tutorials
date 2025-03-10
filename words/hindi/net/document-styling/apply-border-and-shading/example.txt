@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary: यह कोड Aspose.Words का उपयोग करके वर्ड दस्तावेज़ में पैराग्राफ पर सीमाओं और छायांकन को कैसे लागू किया जाए, यह दिखाता है।
+//ExStepSummary:0: निम्नलिखित कोड एक नया दस्तावेज़ और दस्तावेज़निर्माता उदाहरण शुरू करता है।
+//ExStepSummary:1: निम्नलिखित कोड अनुच्छेद की सीमाओं को पाठ से दूरी के साथ कॉन्फ़िगर करता है।
+//ExStepSummary:2: निम्नलिखित कोड अनुच्छेद पर निर्दिष्ट रंगों के साथ एक विकर्ण क्रॉस बनावट छायांकन लागू करता है।
+//ExStepSummary:3: निम्नलिखित कोड लागू सेटिंग्स के साथ एक स्वरूपित पैराग्राफ लिखता है।
+//ExStepSummary:4: निम्नलिखित कोड दस्तावेज़ को निर्दिष्ट आउटपुट पथ पर सहेजता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// एक नया दस्तावेज़ प्रारंभ करें
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// अनुच्छेद की सीमाओं तक पहुँच
+BorderCollection borders = builder.ParagraphFormat.Borders;
+borders.DistanceFromText = 20;
+borders[BorderType.Left].LineStyle = LineStyle.Double;
+borders[BorderType.Right].LineStyle = LineStyle.Double;
+borders[BorderType.Top].LineStyle = LineStyle.Double;
+borders[BorderType.Bottom].LineStyle = LineStyle.Double;
+
+//ExStep:2-
+// अनुच्छेद छाया गुणों तक पहुँचें
+Shading shading = builder.ParagraphFormat.Shading;
+shading.Texture = TextureIndex.TextureDiagonalCross;
+shading.BackgroundPatternColor = System.Drawing.Color.LightCoral; 
+shading.ForegroundPatternColor = System.Drawing.Color.LightSalmon;
+
+//ExStep:3-
+// प्रारूपित अनुच्छेद सामग्री लिखें
+builder.Write("I'm a formatted paragraph with double border and nice shading.");
+
+//ExStep:4-
+// दस्तावेज़ को निर्दिष्ट पथ पर सहेजें
+doc.Save(ArtifactsDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
+//ExEnd

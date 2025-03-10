@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary該代碼顯示如何使用Aspose.Words创建Word文檔,並添加一條水平規則. 
+//ExStepSummary:0: 建立新的文檔對象,
+//ExStepSummary:1: 使用 DocumentBuilder 設計文件的布局,並插入訊息.
+//ExStepSummary:2: 在文件中插入水平規則形狀.
+//ExStepSummary:3: 保存文件到指定檔案路徑上.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 建立新的文檔對象,
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc); 
+
+//ExStep:1-
+// 在文件中寫一行
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+// 插入一個水平規則形狀在文檔中
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+// 保存文件到指定位置
+doc.Save("AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

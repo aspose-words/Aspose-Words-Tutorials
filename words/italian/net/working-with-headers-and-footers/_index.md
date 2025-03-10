@@ -1,25 +1,29 @@
 ---
-title: Lavorare con Headers e Footers in Aspose.Words per .NET 
-weight: 10
-limit:
-description: Impara come creare, modificare e formattare intestazioni e calciatoie nei documenti Word utilizzando Aspose.Words per .NET. Guida passo-passo per la personalizzazione senza soluzione di continuità.
-keywords:
+title: Elaborazione di testi con intestazioni e piè di pagina
+linktitle: Elaborazione di testi con intestazioni e piè di pagina
+second_title: API di elaborazione dei documenti Aspose.Words
+description: Scopri come lavorare con intestazioni e piè di pagina nei documenti Word usando Aspose.Words per .NET. Esercitazioni complete ed esempi pratici.
+weight: 730
 url: /it/net/working-with-headers-and-footers/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Introduzione
-  
-Inseritori e calciatoie sono essenziali per aggiungere un tocco professionale ai documenti Word, che si tratti di numeri di pagina, loghi o testo personalizzato. Con Aspose.Words per .NET, è possibile creare, modificare e personalizzare senza soluzione di continuità inseritori e calciatoie per soddisfare le esigenze del documento. La biblioteca offre potenti API che consentono di impostare diversi calciatoie e calciatoie per pagine odd e pari, definire sezioni uniche e includere elementi dinamici come campi o immagini.  
+# Elaborazione di testi con intestazioni e piè di pagina
 
-Aspose.Words per .NET semplifica il processo di lavoro con intestazioni e calciveto, assicurando il pieno controllo sulla loro formattazione e posizionamento. Che si stia progettando un rapporto aziendale o realizzando un documento personalizzato, la biblioteca fornisce un modo efficiente per gestire questi elementi cruciali. Immergiti nelle nostre guide passo dopo passo e sblocca il pieno potenziale di intestazioni e calciveto nei tuoi file Word!  
 
-{{< tutorial-card link="./create-header-footer/" title="Crea un documento Word con intestazione e calce utilizzando Aspose.Words" imgSrc="/words/net/working-with-headers-and-footers/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./insert-image/" title="Inserire un'immagine nel titolo di documento Word ." imgSrc="/words/net/working-with-headers-and-footers/insert-image/images/thumb.png" >}}
+Words Processing with Headers and Footers è una risorsa completa per imparare a manipolare e personalizzare intestazioni e piè di pagina nei documenti Word utilizzando la libreria Aspose.Words per .NET. I tutorial forniscono spiegazioni dettagliate, esempi di codice e istruzioni dettagliate per aggiungere, modificare e rimuovere intestazioni e piè di pagina, impostare intestazioni e piè di pagina diversi per sezioni diverse di un documento, inserire immagini, tabelle, campi dinamici e molto altro. Questa risorsa è essenziale per gli sviluppatori che desiderano creare documenti Word professionali e personalizzati con intestazioni e piè di pagina adattati alle loro esigenze specifiche.
 
+
+ ## Esercitazioni
+| Titolo | Descrizione |
+| --- | --- |
+| [Crea intestazione piè di pagina](./create-header-footer/) | Scopri come creare intestazioni e piè di pagina nei tuoi documenti Word con Aspose.Words per .NET. Personalizza intestazioni e piè di pagina per ogni pagina. |
+| [Copia intestazioni piè di pagina dalla sezione precedente](./copy-headers-footers-from-previous-section/) | Scopri come copiare intestazioni e piè di pagina dalla sezione precedente nei documenti Word utilizzando Aspose.Words per .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

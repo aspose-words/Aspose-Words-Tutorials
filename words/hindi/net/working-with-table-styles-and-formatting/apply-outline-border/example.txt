@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: यह कोड Aspose.Words का उपयोग करके वर्ड दस्तावेज़ में तालिका पर एक रूपरेखा सीमा कैसे लागू करें, यह दिखाता है। यह पृष्ठ पर तालिका को केंद्र में रखता है, तालिका के चारों ओर एक हरे रंग की सीमा निर्धारित करता है, किसी भी मौजूदा सीमा को साफ करता है, और तालिका कोशिकाओं को हल्के हरे रंग के पृष्ठभूमि रंग से भरता है। 
+//ExStepSummary:0: निम्नलिखित कोड दस्तावेज़ को आरंभ करता है और पहली तालिका प्राप्त करता है।
+//ExStepSummary:1: यह चरण तालिका को पृष्ठ के केंद्र में संरेखित करता है।
+//ExStepSummary:2: इस कदम से किसी भी मौजूदा सीमा को तालिका से हटा दिया जाता है।
+//ExStepSummary:3: इस कदम से टेबल के चारों ओर एक हरी सीमा होती है लेकिन अंदर नहीं।
+//ExStepSummary:4: यह कदम कोशिकाओं को हल्का हरे रंग के ठोस रंग से भर देता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// दस्तावेज़ की निर्देशिका को परिभाषित करें
+string dataDir = "Your Document Directory";
+// दस्तावेज़ लोड करें
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// दस्तावेज़ से पहली तालिका निकालें
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+// तालिका को पृष्ठ के मध्य में संरेखित करें
+table.Alignment = TableAlignment.Center;
+
+//ExStep:2-
+// तालिका से किसी भी मौजूदा सीमाओं को साफ करें
+table.ClearBorders();
+
+//ExStep:3-
+// बायीं सीमा निर्धारित करें
+table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
+// दाईं ओर सीमा निर्धारित करें
+table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
+// ऊपरी सीमा निर्धारित करें
+table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
+// निचली सीमा निर्धारित करें
+table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
+
+//ExStep:4-
+// कोशिकाओं को हल्का हरे रंग से भरें
+table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
+// संशोधित दस्तावेज़ को सहेजें
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
+//ExEnd

@@ -1,0 +1,34 @@
+//ExStart
+//ExSummary該代碼顯示如何使用Aspose.Words创建Word文檔,
+//ExStepSummary:0: 該代碼啟動了新的文檔和文檔建設器.
+//ExStepSummary:1: 接下來代碼設定了各種字體特性, 例如尺寸,大體,顏色,名稱和突顯式.
+//ExStepSummary:2: 透過設定的字體設定,
+//ExStepSummary:3: 文件的檔案名稱在下列代碼中保存到指定目錄中.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 建立新的文檔案例
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 透過 DocumentBuilder 访问字體屬性
+Font font = builder.Font;
+// 設定字體大小為 16
+font.Size = 16;
+// 打字母大字體
+font.Bold = true;
+// 改變字體顏色為藍色
+font.Color = Color.Blue;
+// 設定字體為 Arial
+font.Name = "Arial";
+// 請將分點的突顯字體方式應用在字體上
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+builder.Write("Sample text.");
+
+//ExStep:3-
+// 保存文件到文物目錄中
+doc.Save("WorkingWithFonts.FontFormatting.docx");
+//ExEnd

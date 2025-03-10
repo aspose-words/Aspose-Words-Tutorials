@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि कैसे एक स्वरूपित तालिका के साथ एक शब्द दस्तावेज़ बनाने के लिए Aspose का उपयोग कर.
+//ExStepSummary:0: इस चरण में एक नया दस्तावेज़ और दस्तावेज़ बिल्डर को प्रारंभ किया जाता है।
+//ExStepSummary:1: यह चरण तालिका को शुरू करता है और इसमें एक सेल डालता है।
+//ExStepSummary:2: यह चरण ऊंचाई और ऊंचाई नियम सहित पंक्ति के लिए स्वरूपण निर्धारित करता है।
+//ExStepSummary:3: इस चरण में पूरी मेज पर पैडिंग सेट होती है, जिससे सभी पंक्तियों को प्रभावित होता है।
+//ExStepSummary:4: इस चरण में सेल में पाठ जोड़कर पंक्ति समाप्त होती है।
+//ExStepSummary:5: यह चरण तालिका को समाप्त करता है और दस्तावेज़ को एक निर्दिष्ट पथ पर सहेजता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// एक नया दस्तावेज़ उदाहरण बनाएं
+Document doc = new Document();
+// दस्तावेज़ के साथ दस्तावेज़निर्माता को प्रारंभ करें
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// एक नई मेज शुरू करें
+Table table = builder.StartTable();
+// तालिका में पहली सेल डालें
+builder.InsertCell();
+
+//ExStep:2-
+// बिल्डर की RowFormat संपत्ति तक पहुँचें
+RowFormat rowFormat = builder.RowFormat;
+// पंक्ति की ऊंचाई निर्धारित करें
+rowFormat.Height = 100;
+// सटीक करने के लिए ऊंचाई नियम सेट करें
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// टेबल के लिए पैडिंग सेट करें
+table.LeftPadding = 30;
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// वर्तमान सेल में पाठ जोड़ें
+builder.Writeln("I'm a wonderful formatted row.");
+// वर्तमान पंक्ति को समाप्त करें
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:5-
+// दस्तावेज़ को निर्दिष्ट पथ पर सहेजें
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableRowFormatting.docx");
+//ExEnd
