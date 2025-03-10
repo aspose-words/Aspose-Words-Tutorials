@@ -109,14 +109,6 @@ url: /zh-hant/
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words 教學課程
-
-
-## .NET 的 Aspose.Words 文件處理教學課程
-{{% alert color="primary" %}}
-這些教學課程提供了有關如何以程式設計方式使用 Microsoft Word 文件的清晰詳細的說明，涵蓋了廣泛的功能。從文件建立和編輯等簡單任務到郵件合併、文件轉換和文件加密等更高級的功能，開發人員可以找到實際範例和程式碼片段以在其專案中實現。透過遵循這些教程，.NET 開發人員可以透過強大的文件處理功能增強其應用程序，確保在其軟體解決方案中高效、無縫地處理 Word 文件。 
-{{% /alert %}}
-
 這些是一些有用資源的連結：
 - [人工智慧驅動的文檔處理](./net/ai-powered-document-processing/)
 - [申請許可證](./net/apply-license/)   

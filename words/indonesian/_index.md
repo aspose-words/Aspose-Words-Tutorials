@@ -109,14 +109,6 @@ Pelajari cara menambahkan tanda air teks dan gambar ke dokumen Word untuk tujuan
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tutorial Aspose.Words
-
-
-## Tutorial Pemrosesan Dokumen Aspose.Words untuk .NET
-{{% alert color="primary" %}}
-Tutorial ini menawarkan petunjuk yang jelas dan terperinci tentang cara bekerja dengan dokumen Microsoft Word secara terprogram, yang mencakup berbagai fungsi. Dari tugas sederhana seperti pembuatan dan penyuntingan dokumen hingga fitur yang lebih canggih seperti penggabungan surat, konversi dokumen, dan enkripsi dokumen, pengembang dapat menemukan contoh praktis dan cuplikan kode untuk diterapkan dalam proyek mereka. Dengan mengikuti tutorial ini, pengembang .NET dapat menyempurnakan aplikasi mereka dengan kemampuan pemrosesan dokumen yang canggih, memastikan penanganan dokumen Word yang efisien dan lancar dalam solusi perangkat lunak mereka. 
-{{% /alert %}}
-
 Berikut ini adalah tautan ke beberapa sumber daya yang bermanfaat:
 - [Pemrosesan Dokumen Bertenaga AI](./net/ai-powered-document-processing/)
 - [Terapkan Lisensi](./net/apply-license/)   

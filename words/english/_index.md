@@ -109,14 +109,6 @@ Learn to add text and image watermarks to Word documents for branding or securit
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words Tutorials
-
-
-## Aspose.Words Document Processing Tutorials for .NET
-{{% alert color="primary" %}}
-These tutorials offer clear and detailed instructions on how to work with Microsoft Word documents programmatically, covering a wide range of functionalities. From simple tasks like document creation and editing to more advanced features such as mail merge, document conversion, and document encryption, developers can find practical examples and code snippets to implement in their projects. By following these tutorials, .NET developers can enhance their applications with powerful document processing capabilities, ensuring efficient and seamless handling of Word documents in their software solutions. 
-{{% /alert %}}
-
 These are links to some useful resources:
 - [AI Powered Document Processing](./net/ai-powered-document-processing/)
 - [Apply License](./net/apply-license/)   

@@ -109,14 +109,6 @@ Học cách thêm dấu nước văn bản và hình ảnh vào tài liệu Word
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hướng dẫn Aspose.Words
-
-
-## Hướng dẫn xử lý tài liệu Aspose.Words cho .NET
-{{% alert color="primary" %}}
-Các hướng dẫn này cung cấp hướng dẫn rõ ràng và chi tiết về cách làm việc với các tài liệu Microsoft Word theo chương trình, bao gồm nhiều chức năng. Từ các tác vụ đơn giản như tạo và chỉnh sửa tài liệu đến các tính năng nâng cao hơn như trộn thư, chuyển đổi tài liệu và mã hóa tài liệu, các nhà phát triển có thể tìm thấy các ví dụ thực tế và đoạn mã để triển khai trong các dự án của họ. Bằng cách làm theo các hướng dẫn này, các nhà phát triển .NET có thể nâng cao ứng dụng của họ bằng các khả năng xử lý tài liệu mạnh mẽ, đảm bảo xử lý hiệu quả và liền mạch các tài liệu Word trong các giải pháp phần mềm của họ. 
-{{% /alert %}}
-
 Sau đây là những liên kết tới một số tài nguyên hữu ích:
 - [Xử lý tài liệu bằng AI](./net/ai-powered-document-processing/)
 - [Áp dụng giấy phép](./net/apply-license/)   

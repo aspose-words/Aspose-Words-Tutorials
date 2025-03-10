@@ -109,14 +109,6 @@ Impara ad aggiungere segni d'acqua di testo e immagini ai documenti Word per mot
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tutorial di Aspose.Words
-
-
-## Tutorial sull'elaborazione dei documenti Aspose.Words per .NET
-{{% alert color="primary" %}}
-Questi tutorial offrono istruzioni chiare e dettagliate su come lavorare con i documenti Microsoft Word a livello di programmazione, coprendo un'ampia gamma di funzionalità. Da semplici attività come la creazione e la modifica di documenti a funzionalità più avanzate come la stampa unione, la conversione di documenti e la crittografia di documenti, gli sviluppatori possono trovare esempi pratici e frammenti di codice da implementare nei loro progetti. Seguendo questi tutorial, gli sviluppatori .NET possono migliorare le loro applicazioni con potenti capacità di elaborazione dei documenti, garantendo una gestione efficiente e senza interruzioni dei documenti Word nelle loro soluzioni software. 
-{{% /alert %}}
-
 Ecco alcuni link ad alcune risorse utili:
 - [Elaborazione dei documenti basata sull'intelligenza artificiale](./net/ai-powered-document-processing/)
 - [Applica licenza](./net/apply-license/)   

@@ -109,14 +109,6 @@ Naučte se přidat textové a obrázkové vodní značky do dokumentů Word pro 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Výukové programy Aspose.Words
-
-
-## Aspose.Words Návody na zpracování dokumentů pro .NET
-{{% alert color="primary" %}}
-Tyto výukové programy nabízejí jasné a podrobné pokyny, jak programově pracovat s dokumenty Microsoft Word a pokrývají širokou škálu funkcí. Od jednoduchých úkolů, jako je vytváření a úpravy dokumentů, až po pokročilejší funkce, jako je hromadná korespondence, konverze dokumentů a šifrování dokumentů, mohou vývojáři najít praktické příklady a úryvky kódu, které mohou implementovat do svých projektů. Pomocí těchto výukových programů mohou vývojáři .NET vylepšit své aplikace o výkonné možnosti zpracování dokumentů, což zajistí efektivní a bezproblémovou manipulaci s dokumenty Wordu v jejich softwarových řešeních. 
-{{% /alert %}}
-
 Zde jsou odkazy na některé užitečné zdroje:
 - [Zpracování dokumentů s technologií AI](./net/ai-powered-document-processing/)
 - [Použít licenci](./net/apply-license/)   

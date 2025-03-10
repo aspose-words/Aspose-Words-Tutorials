@@ -109,14 +109,6 @@ Lär dig att lägga till text- och bildvattenmärken till Word-dokument för att
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words Tutorials
-
-
-## Handledning för Aspose.Words-dokumentbearbetning för .NET
-{{% alert color="primary" %}}
-Dessa handledningar erbjuder tydliga och detaljerade instruktioner om hur du arbetar med Microsoft Word-dokument programmatiskt, och täcker ett brett utbud av funktioner. Från enkla uppgifter som att skapa och redigera dokument till mer avancerade funktioner som sammanslagning, dokumentkonvertering och dokumentkryptering, kan utvecklare hitta praktiska exempel och kodavsnitt att implementera i sina projekt. Genom att följa dessa tutorials kan .NET-utvecklare förbättra sina applikationer med kraftfulla dokumentbehandlingsmöjligheter, vilket säkerställer effektiv och sömlös hantering av Word-dokument i sina mjukvarulösningar. 
-{{% /alert %}}
-
 Det här är länkar till några användbara resurser:
 - [AI-driven dokumentbearbetning](./net/ai-powered-document-processing/)
 - [Tillämpa licens](./net/apply-license/)   
