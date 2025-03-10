@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: निम्नलिखित कोड Aspose.Words से DocumentBuilder वर्ग का उपयोग करके एक Word दस्तावेज़ में तालिका बनाने और स्वरूपित करने का तरीका दिखाता है।
+//ExStepSummary:0: Word दस्तावेज़ बनाने के लिए एक नया दस्तावेज़ और दस्तावेज़निर्माता प्रारंभ करें.
+//ExStepSummary:1: एक तालिका बनाएं और स्वरूपण के लिए एक सेल डालें।
+//ExStepSummary:2: सेल के लिए स्वरूपण गुणों को सेट करें, जिसमें पैडिंग और चौड़ाई शामिल है।
+//ExStepSummary:3: प्रारूपित सेल में पाठ डालें।
+//ExStepSummary:4: पंक्ति और तालिका को समाप्त करें, और दस्तावेज़ को निर्दिष्ट फ़ाइल पथ पर सहेजें।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// एक नई दस्तावेज़ वस्तु बनाना
+Document doc = new Document();
+// नए दस्तावेज़ के साथ दस्तावेज़निर्माता को प्रारंभ करना
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// एक तालिका बनाना शुरू करें
+builder.StartTable();
+// तालिका में पहली सेल डालें
+builder.InsertCell();
+
+//ExStep:2-
+// सेल के स्वरूपण गुणों तक पहुँचना
+CellFormat cellFormat = builder.CellFormat;
+// सेल चौड़ाई सेट करना
+cellFormat.Width = 250;
+// पैडिंग सेट करें
+cellFormat.LeftPadding = 30;
+cellFormat.RightPadding = 30;
+cellFormat.TopPadding = 30;
+cellFormat.BottomPadding = 30;
+
+//ExStep:3-
+// सेल में पाठ डालना
+builder.Writeln("I'm a wonderful formatted cell.");
+
+//ExStep:4-
+// तालिका की वर्तमान पंक्ति का अंत
+builder.EndRow();
+// तालिका निर्माण को समाप्त करना
+builder.EndTable();
+// दस्तावेज़ को सहेजना
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableCellFormatting.docx");
+//ExEnd

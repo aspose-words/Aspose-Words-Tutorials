@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary該代碼顯示如何使用 .NET 的 Aspose.Words 添加新部分.
+//ExStepSummary:0: 啟動新的 Word 文檔和 DocumentBuilder 對象,
+//ExStepSummary:1: 使用文本建構器對象添加文本.
+//ExStepSummary:2: 使用文本建構器對象添加文本.
+//ExStepSummary:3: 建立一個新的部分,並將它添加到文件的部分集合中.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 建立一個新的 Word 文檔.
+Document doc = new Document();
+// 啟動文件的文件建構器.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 加入第一部分內容
+builder.Writeln("Hello1"); // Write "Hello1" into the document's first section.
+
+//ExStep:2-
+// 加入第一部分內容
+builder.Writeln("Hello2"); // Write "Hello2" into the document's first section.
+
+//ExStep:3-
+// 在文件中建立新的部分.
+Section sectionToAdd = new Section(doc);
+doc.Sections.Add(sectionToAdd);
+//ExEnd

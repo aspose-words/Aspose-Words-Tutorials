@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: यह कोड Aspose.Words का उपयोग करके प्राथमिक हेडर और फ़ुटर के साथ वर्ड दस्तावेज़ बनाने का तरीका प्रदर्शित करता है। यह एक नया दस्तावेज़ शुरू करता है, हेडर और फ़ुटर अनुभागों में जाता है, और कस्टम पाठ लिखता है। अंत में, यह दस्तावेज़ को एक DOCX फ़ाइल के रूप में सहेजता है।
+//ExStepSummary:0: निम्नलिखित कोड मुख्य दस्तावेज़ वस्तु को आरंभ करता है और दस्तावेज़निर्माता सेट करता है।
+//ExStepSummary:1: निम्नलिखित कोड प्राथमिक हेडर अनुभाग में जाता है और हेडर पाठ लिखता है।
+//ExStepSummary:2: निम्नलिखित कोड प्राथमिक पाद लेख अनुभाग में जाता है और पाद लेख लिखता है।
+//ExStepSummary:3: निम्नलिखित कोड दस्तावेज़ को एक निर्दिष्ट फ़ाइल पथ पर सहेजता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// एक नई दस्तावेज़ वस्तु को प्रारंभ करें
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// प्राथमिक हेडर अनुभाग पर जाएं
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("Header for page.");
+
+//ExStep:2-
+// प्राथमिक पाद अनुभाग पर जाएँ
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+builder.Write("Footer for page."); // Write the footer text
+
+//ExStep:3-
+// निर्दिष्ट फ़ाइल नाम के साथ दस्तावेज़ सहेजें
+doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
+//ExEnd

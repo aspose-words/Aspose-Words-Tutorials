@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary包含包含其內容的填充.
+//ExStepSummary:0: 該代碼初始化了新的文檔和文檔製作器.
+//ExStepSummary:1: 文件內的表格由下列代碼開始.
+//ExStepSummary:2: 該代碼將一個細胞插入表格中.
+//ExStepSummary:3: 該細胞的填充方式是以下代碼所設定的.
+//ExStepSummary:4: 該代碼將文字添加到細胞中,
+//ExStepSummary:5: 結束表,並將文件儲存在檔案中.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 啟動新的文件
+Document doc = new Document();
+// 建立文件製作器,
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 開始建立表
+builder.StartTable();
+// 插入新的細胞
+builder.InsertCell();
+
+//ExStep:2-
+// 上和下面有30點,左和右邊有50點
+builder.CellFormat.SetPaddings(30, 50, 30, 50);
+
+//ExStep:3-
+builder.Writeln("I'm a wonderful formatted cell.");
+// 在表中完成目前的行
+builder.EndRow();
+// 終結桌子
+builder.EndTable();
+
+//ExStep:4-
+// 保存文件到指定檔案中
+doc.Save("WorkingWithTableStylesAndFormatting.CellPadding.docx");
+//ExEnd

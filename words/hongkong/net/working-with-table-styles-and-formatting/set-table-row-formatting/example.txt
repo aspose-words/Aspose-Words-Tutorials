@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary如何使用 Aspose 創建 Word 文檔,
+//ExStepSummary:0: 這一步啟動了新的文檔和文檔製作者.
+//ExStepSummary:1: 這一步開始桌子,
+//ExStepSummary:2: 這一步設定了列的格式化,包括高度和高度規則.
+//ExStepSummary:3: 這一步將整個桌子鋪滿,
+//ExStepSummary:4: 這一步將文字添加到細胞中,
+//ExStepSummary:5: 這一步將表結束, 將文件保存到指定的路徑上.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// 建立新的文檔例
+Document doc = new Document();
+// 使用文檔啟動文檔架構器
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 開始新的桌子
+Table table = builder.StartTable();
+// 插入第一個細胞
+builder.InsertCell();
+
+//ExStep:2-
+// 访问建立者的 RowFormat 属性
+RowFormat rowFormat = builder.RowFormat;
+// 設定排列的高度
+rowFormat.Height = 100;
+// 設定高度規則為
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// 準備桌子的填充
+table.LeftPadding = 30;
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// 加入現在的細胞
+builder.Writeln("I'm a wonderful formatted row.");
+// 結束現在的行
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:5-
+// 保存文件到指定的路徑
+doc.Save("WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableRowFormatting.docx");
+//ExEnd

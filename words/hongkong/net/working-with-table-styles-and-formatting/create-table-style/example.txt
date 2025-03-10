@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary如何使用Aspose.Words來建立一個字體文件. 
+//ExStepSummary:0: 啟動新的文檔和文檔建設器.
+//ExStepSummary:1: 啟動新的表格,並插入"名稱"和"值"的頭細胞.
+//ExStepSummary:2: 建立一個定制的 TableStyle,
+//ExStepSummary:3: 保存文件,使用新的表格格.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 建立新的文檔對象
+Document doc = new Document();
+// 啟動文檔建設器
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 開始新的桌子
+Table table = builder.StartTable();
+builder.InsertCell();
+builder.Write("Name");
+builder.InsertCell();
+builder.Write("Value");
+builder.EndRow();
+builder.InsertCell();
+builder.InsertCell();
+builder.EndTable();
+
+//ExStep:2-
+// 建立新的桌面風格
+TableStyle tableStyle = (TableStyle) doc.Styles.Add(StyleType.Table, "MyTableStyle1");
+tableStyle.Borders.LineStyle = LineStyle.Double;
+// 設定邊界寬度
+tableStyle.Borders.LineWidth = 1;
+// 設置料
+tableStyle.LeftPadding = 18;
+tableStyle.RightPadding = 18;
+tableStyle.TopPadding = 12;
+tableStyle.BottomPadding = 12;
+// 適用於建立表的定制表格
+table.Style = tableStyle;
+
+//ExStep:3-
+// 保存文件的表格
+doc.Save("WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
+//ExEnd

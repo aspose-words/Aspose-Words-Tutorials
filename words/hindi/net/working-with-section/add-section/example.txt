@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary:यह कोड .NET के लिए Aspose.Words का उपयोग करके वर्ड दस्तावेज़ में एक नया अनुभाग कैसे जोड़ें, यह दिखाता है। इस प्रक्रिया में एक दस्तावेज़ को आरंभ करना, सामग्री लिखना और एक नया अनुभाग जोड़ना शामिल है।
+//ExStepSummary:0: दस्तावेज़ में सामग्री जोड़ने के लिए एक नया वर्ड दस्तावेज़ और एक दस्तावेज़निर्माता ऑब्जेक्ट को प्रारंभ करें.
+//ExStepSummary:1: दस्तावेज़निर्माता ऑब्जेक्ट का उपयोग करके पहले अनुभाग में पाठ जोड़ें.
+//ExStepSummary:2: दस्तावेज़निर्माता ऑब्जेक्ट का उपयोग करके पहले अनुभाग में पाठ जोड़ें.
+//ExStepSummary:3: एक नया अनुभाग बनाएं और इसे दस्तावेज़ के अनुभाग संग्रह में जोड़ें।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// एक नया वर्ड दस्तावेज़ बनाएं।
+Document doc = new Document();
+// दस्तावेज़ के लिए दस्तावेज़निर्माता को प्रारंभ करें.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// पहले अनुभाग में सामग्री जोड़ें
+builder.Writeln("Hello1"); // Write "Hello1" into the document's first section.
+
+//ExStep:2-
+// पहले अनुभाग में सामग्री जोड़ें
+builder.Writeln("Hello2"); // Write "Hello2" into the document's first section.
+
+//ExStep:3-
+// दस्तावेज़ में एक नया अनुभाग बनाएं।
+Section sectionToAdd = new Section(doc);
+doc.Sections.Add(sectionToAdd);
+//ExEnd

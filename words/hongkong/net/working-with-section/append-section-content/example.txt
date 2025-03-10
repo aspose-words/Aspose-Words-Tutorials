@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary請參考以下項目:
+//ExStepSummary:0: 啟動新的 Word 文檔和 DocumentBuilder,
+//ExStepSummary:1: 寫文字並插入部分休息,
+//ExStepSummary:2: 準備對內容的操作.
+//ExStepSummary:3: 預覽第一節到第三節的內容.
+//ExStepSummary:4: 加入第二部分的內容.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// 啟動文件和文件建構器
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 寫文字並插入部分休息,以創建三部分
+builder.Write("Section 1");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// 加入第二部分內容
+builder.Write("Section 2");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+// 加入第三部分內容
+builder.Write("Section 3");
+
+//ExStep:2-
+// 請從文件中查取第三部分
+Section section = doc.Sections[2];
+
+//ExStep:3-
+// 預覽第一節到第三節的內容
+Section sectionToPrepend = doc.Sections[0];
+section.PrependContent(sectionToPrepend);
+
+//ExStep:4-
+// 加入第二部分到第三部分的內容
+Section sectionToAppend = doc.Sections[1];
+section.AppendContent(sectionToAppend);
+//ExEnd

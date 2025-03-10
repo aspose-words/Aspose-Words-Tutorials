@@ -1,0 +1,57 @@
+//ExStart
+//ExSummary請查看下列代碼,以找到如何將簡單的列表插入Word文檔.
+//ExStepSummary:0: 這代碼顯示如何使用Aspose.Words创建Word文檔,並插入列表.
+//ExStepSummary:1: 這代碼顯示如何創建文件製作器對象,
+//ExStepSummary:2: 該代碼顯示如何將指定尺寸的列表形狀插入文檔中.
+//ExStepSummary:3: 這代碼將圖表對象從插入的形狀中取得,
+//ExStepSummary:4: 這代碼顯示如何進入圖表系列集合,
+//ExStepSummary:5: 這代碼清除了可能與圖表建立的預設系列.
+//ExStepSummary:6: 這代碼顯示如何定義圖表數據的類別名稱.
+//ExStepSummary:7: 這代碼顯示如何將相應類別名稱和數據值添加序列到圖表中.
+//ExStepSummary:8: 這代碼將附加的圖表的文件存入指定檔案中.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:7:images/4.png
+//ExStep:0-
+// 建立一個新的 Word 文檔案例.
+Document doc = new Document();
+
+//ExStep:1-
+// 建立文件建構器,以便輕鬆插入文件中的元素.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// 插入列表形狀,指定寬度 (432) 和高度 (252).
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:3-
+// 請將圖表對象從形狀中取回,
+Chart chart = shape.Chart;
+
+//ExStep:4-
+// 進入圖表的系列集合.
+ChartSeriesCollection seriesColl = chart.Series;
+// 打印圖表中的序列數字在控制台上.
+Console.WriteLine(seriesColl.Count);
+
+//ExStep:5-
+// 移除圖表創建時自動生成的預設列表.
+seriesColl.Clear();
+
+//ExStep:6-
+// 定義為圖表數據的類別名稱陣列.
+string[] categories = new string[] { "Category 1", "Category 2" };
+
+//ExStep:7-
+// 加入多個列表,包含類別名稱和數據值.
+seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
+seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
+seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
+seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
+seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
+
+//ExStep:8-
+// 保存附加圖表的文件到指定檔案路徑上.
+doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
+//ExEnd

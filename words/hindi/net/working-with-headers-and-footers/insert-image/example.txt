@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि कैसे एक छवि डालने के लिए एक शब्द दस्तावेज़ के हेडर में उपयोग Aspose.Words के लिए .NET.
+//ExStepSummary:0: Aspose.Words दस्तावेज़ वर्ग का उपयोग करके एक नया वर्ड दस्तावेज़ बनाएं।
+//ExStepSummary:1: दस्तावेज़ बिल्डर का उपयोग करके दस्तावेज़ के प्राथमिक हेडर पर जाएं।
+//ExStepSummary:2: विशिष्ट संरेखण, आयामों और पैकेजिंग विकल्पों के साथ हेडर में एक छवि डालें।
+//ExStepSummary:3: दस्तावेज़ को एक निर्दिष्ट फ़ाइल पथ पर सहेजें।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// एक नया वर्ड दस्तावेज़ बनाएं
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// दस्तावेज़ के प्राथमिक हेडर पर कर्सर को स्थानांतरित करें
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+// विशिष्ट संरेखण और आयामों के साथ हेडर में एक छवि डालें
+builder.InsertImage(
+    ImagesDir + "Logo.jpg", RelativeHorizontalPosition.RightMargin, 10,
+    RelativeVerticalPosition.Page, 10, 50, 50, 
+    WrapType.Through
+);
+
+//ExStep:3-
+// दस्तावेज़ को निर्दिष्ट पथ पर सहेजें
+doc.Save("WorkingWithHeadersAndFooters.InsertImage.docx");
+//ExEnd

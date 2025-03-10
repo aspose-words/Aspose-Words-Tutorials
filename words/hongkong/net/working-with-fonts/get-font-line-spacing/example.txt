@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary如何建立文件,並獲得指定字體的行間隔.
+//ExStepSummary:0: 該代碼啟動了新的文檔和文檔建設器.
+//ExStepSummary:1: 這項代碼將字體設定為"Calibri",
+//ExStepSummary:2: 該代碼會在文檔中第一次執行的行間隔.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 建立新的文檔案例
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 設定字體名稱為"Calibri"
+builder.Font.Name = "Calibri";
+builder.Writeln("qText");
+
+//ExStep:2-
+// 進入第一個執行字體
+Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
+// 输出線距離到控制台
+Console.WriteLine($"lineSpacing = {font.LineSpacing}");
+//ExEnd

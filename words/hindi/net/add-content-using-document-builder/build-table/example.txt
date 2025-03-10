@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: यह कोड Aspose.Words का उपयोग करके एक तालिका के साथ एक वर्ड दस्तावेज़ बनाने का तरीका दिखाता है। यह दो पंक्तियों और विभिन्न सेल पाठ अभिविन्यास और प्रारूपों के साथ एक तालिका बनाता है।
+//ExStepSummary:0: निम्नलिखित कोड एक नया दस्तावेज़ और दस्तावेज़ बिल्डर को प्रारंभ करता है।
+//ExStepSummary:1: निम्नलिखित कोड एक नई तालिका शुरू करता है और कोशिकाओं की पहली पंक्ति डालेगा।
+//ExStepSummary:2: निम्नलिखित कोड दूसरे पंक्ति और उसके कोशिकाओं के लिए प्रारूपण को कॉन्फ़िगर करता है।
+//ExStepSummary:3: निम्नलिखित कोड दूसरे पंक्ति और उसके कोशिकाओं के लिए प्रारूपण को कॉन्फ़िगर करता है।
+//ExStepSummary:4: निम्नलिखित कोड तालिका को समाप्त करता है और दस्तावेज़ को फ़ाइल में सहेजता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// एक नई दस्तावेज़ वस्तु को प्रारंभ करें
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// एक नई मेज शुरू करें
+Table table = builder.StartTable();
+// पहली सेल शुरू करें
+builder.InsertCell();
+// पहली सेल के लिए ऊर्ध्वाधर संरेखण सेट करें
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
+builder.Write("This is row 1 cell 1");
+// दूसरी सेल डालें
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+builder.EndRow();
+
+//ExStep:2-
+// दूसरी पंक्ति के लिए एक सेल डालें
+builder.InsertCell();
+// दूसरी पंक्ति के लिए प्रारूपण विन्यस्त करें
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+//ExStep:3-
+// दूसरी पंक्ति के लिए दूसरी सेल डालें
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward; 
+builder.Writeln("This is row 2 cell 2");
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:4-
+// निश्चित स्तंभ चौड़ाई के साथ तालिका को स्वचालित रूप से फिट करें
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+// दस्तावेज़ को फ़ाइल में सहेजें
+doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

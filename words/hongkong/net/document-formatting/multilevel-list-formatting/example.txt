@@ -1,0 +1,56 @@
+//ExStart
+//ExSummary該代碼顯示如何使用Aspose.Words在Word文檔中建立多層次列表. 它啟動文檔,應用編號格式,創建主和子項,最後保存文檔為 .docx檔.
+//ExStepSummary:0: 該代碼初始化了新的文檔和文檔建設器例.
+//ExStepSummary:1: 列表中使用默認編號方式,
+//ExStepSummary:2: 建立第二層次項目下列代碼分數.
+//ExStepSummary:3: 該代碼的下列部分, 建立第二項子項下的子項.
+//ExStepSummary:4: 下列代碼將重返上一層,
+//ExStepSummary:5: 列表中最後一項的數字將會被重新列出.
+//ExStepSummary:6: 在保存前,下列代碼將編號從列表中移除.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStep:0-
+// 啟動新的文件
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 適用預設編號格式
+builder.ListFormat.ApplyNumberDefault();
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+
+//ExStep:2-
+// 部分項目的扣除金
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.1");
+builder.Writeln("Item 2.2");
+
+//ExStep:3-
+// 部分項目的扣除金
+builder.ListFormat.ListIndent();
+builder.Writeln("Item 2.2.1");
+builder.Writeln("Item 2.2.2");
+
+//ExStep:4-
+// ,我們還是要去第二層.
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 2.3");
+
+//ExStep:5-
+// 身又回到最高層面
+builder.ListFormat.ListOutdent();
+builder.Writeln("Item 3");
+
+//ExStep:6-
+// 取消數字列表
+builder.ListFormat.RemoveNumbers();
+
+//ExStep:7-
+// 保存文件
+doc.Save("DocumentFormatting.MultilevelListFormatting.docx");
+//ExEnd

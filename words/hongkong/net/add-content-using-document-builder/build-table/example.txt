@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary該代碼顯示如何使用Aspose.Words建立一個表格的Word文檔. 它建立了兩個行,不同細胞文字方向和格式的表格.
+//ExStepSummary:0: 該代碼啟動新的文檔和文檔製作器.
+//ExStepSummary:1: 該代碼開始新的表格,並插入第一個列的細胞.
+//ExStepSummary:2: 列表中, 列表中,
+//ExStepSummary:3: 列表中, 列表中,
+//ExStepSummary:4: 結束表,並將文件儲存在檔案中.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// 啟動新的文檔對象
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 開始新的桌子
+Table table = builder.StartTable();
+// 開始第一個細胞
+builder.InsertCell();
+// 設定第一個細胞的垂直對齊
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center; 
+builder.Write("This is row 1 cell 1");
+// 插入第二個細胞
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+builder.EndRow();
+
+//ExStep:2-
+// 插入第二行的細胞
+builder.InsertCell();
+// 設定第二行格式
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+//ExStep:3-
+// 插入第二行的第二個細胞
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward; 
+builder.Writeln("This is row 2 cell 2");
+builder.EndRow();
+builder.EndTable();
+
+//ExStep:4-
+// 自動調整固定列寬的表格
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+// 保存文件到檔案中
+doc.Save("AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

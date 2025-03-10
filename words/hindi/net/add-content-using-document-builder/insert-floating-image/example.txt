@@ -1,0 +1,26 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि कैसे एक शब्द दस्तावेज़ बनाने के लिए और एक छवि के साथ एक तैरता लेआउट Aspose.Words का उपयोग कर डालने के लिए.
+//ExStepSummary:0: निम्नलिखित कोड एक नया दस्तावेज़ और दस्तावेज़निर्माता शुरू करता है।
+//ExStepSummary:1: निम्नलिखित कोड दस्तावेज़ में एक छवि सम्मिलित करता है।
+//ExStepSummary:2: निम्नलिखित कोड दस्तावेज़ को एक निर्दिष्ट स्थान पर सहेजता है।
+//ExStepImage:1:images/1.png
+//ExStep:0-
+// एक नया दस्तावेज़ उदाहरण बनाएं
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// निर्दिष्ट पथ से छवि सम्मिलित करें
+builder.InsertImage(ImagesDir + "Transparent background logo.png", 
+    RelativeHorizontalPosition.Margin,
+    100, 
+    RelativeVerticalPosition.Margin, 
+    100, 
+    200, 
+    100, 
+    WrapType.Square); 
+
+//ExStep:2-
+// दस्तावेज़ को निर्दिष्ट फ़ाइल में सहेजें
+doc.Save("AddContentUsingDocumentBuilder.InsertFloatingImage.docx");
+//ExEnd

@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि Aspose.Words का उपयोग करके एक वर्ड दस्तावेज़ में एक क्षेत्र चार्ट कैसे डाला जाए।
+//ExStepSummary:0: निम्नलिखित कोड एक नया दस्तावेज़ और एक दस्तावेज़ बिल्डर को प्रारंभ करता है।
+//ExStepSummary:1: निम्नलिखित कोड में दस्तावेज़ में क्षेत्र चार्ट डाला गया है।
+//ExStepSummary:2: निम्नलिखित कोड में डेटा बिंदुओं के साथ चार्ट में एक श्रृंखला जोड़ी गई है।
+//ExStepSummary:3: निम्नलिखित कोड में क्षेत्र चार्ट जोड़ा गया है, उसके साथ दस्तावेज़ को सहेजा जाता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// एक नया दस्तावेज़ बनाएं
+Document doc = new Document();
+// दस्तावेज़ बिल्डर को प्रारंभ करें
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// निर्दिष्ट आयामों के साथ क्षेत्र चार्ट डालें
+Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
+
+//ExStep:2-
+// चार्ट ऑब्जेक्ट तक पहुँचें
+Chart chart = shape.Chart;
+// चार्ट में एक नई श्रृंखला जोड़ें
+chart.Series.Add("Aspose Series 1", new [] 
+{
+	// डेटा बिंदु 1
+    new DateTime(2002, 05, 01),
+	// डेटा बिंदु 2
+    new DateTime(2002, 06, 01),
+	// डेटा बिंदु 3
+    new DateTime(2002, 07, 01),
+	// डेटा बिंदु 4
+    new DateTime(2002, 08, 01),
+	// डेटा बिंदु 5
+    new DateTime(2002, 09, 01)
+}, 
+// डेटा बिंदुओं के लिए संबंधित मान
+new double[] { 32, 32, 28, 12, 15 });
+
+//ExStep:3-
+// डाले गए चार्ट के साथ दस्तावेज़ को सहेजें
+doc.Save("WorkingWithCharts.InsertAreaChart.docx");
+//ExEnd

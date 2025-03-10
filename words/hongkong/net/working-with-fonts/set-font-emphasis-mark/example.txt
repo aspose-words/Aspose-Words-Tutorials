@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary如何在 Word 文档中使用 Aspose.words 設定重點標籤.
+//ExStepSummary:0:建立一個新的文件實例,
+//ExStepSummary:1:設定文件建構器來操控文件.
+//ExStepSummary:2:施工者使用字體的重點標記.
+//ExStepSummary:3:寫著強調文本.
+//ExStepSummary:4:沒有任何強調的文字.
+//ExStepSummary:5: 這代碼將強調標籤的文件保存到字體上.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// 建立新的文件
+Document document = new Document();
+
+//ExStep:1-
+// 啟動文件製作器進行文件操作
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:2-
+// 強調"低穩定循環"的標籤
+builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
+
+//ExStep:3-
+// 寫下強調文本
+builder.Write("Emphasis text");
+// 移動到下一行
+builder.Writeln();
+// 清除接下來的文字字體格式
+builder.Font.ClearFormatting();
+
+//ExStep:4-
+// 寫簡單的文字,沒有強調
+builder.Write("Simple text");
+
+//ExStep:5-
+// 保存文件到指定的路徑
+document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
+//ExEnd

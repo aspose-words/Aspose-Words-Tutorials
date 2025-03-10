@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: 這個代碼顯示如何使用Aspose.Words在Word文檔中應用行格式化.
+//ExStepSummary:0: 開始建立一個有格式列表的表格.
+//ExStepSummary:1: 設定排列格式.
+//ExStepSummary:2: 設定特定的高度設定.
+//ExStepSummary:3: 整個桌子的填充套件,
+//ExStepSummary:4: 寫入桌子細胞,並結束行.
+//ExStepSummary:5: 完成桌面的建立過程,
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// 建立新的文件
+Document doc = new Document();
+// 建立文件建議器,
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 開始新的桌子
+Table table = builder.StartTable();
+// 插入一個新的細胞
+builder.InsertCell();
+//ExStep:2-
+// 访问行格式化特性
+RowFormat rowFormat = builder.RowFormat;
+// 設定排列的高度
+rowFormat.Height = 100;
+// 指定高度是正確的
+rowFormat.HeightRule = HeightRule.Exactly;
+
+//ExStep:3-
+// 準備桌子的填充
+table.LeftPadding = 30; 
+table.RightPadding = 30;
+table.TopPadding = 30;
+table.BottomPadding = 30;
+
+//ExStep:4-
+// 輸入到細胞中
+builder.Writeln("I'm a wonderful formatted row.");
+// 結束現在的行
+builder.EndRow();
+// 完成桌子的建築
+builder.EndTable();
+
+//ExStep:5-
+// 保存文件
+doc.Save("WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
+//ExEnd

@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: यह कोड Aspose.Words का उपयोग करके वर्ड दस्तावेज़ में आकार (पाठ बॉक्स) कैसे सम्मिलित करें, यह दिखाता है। दस्तावेज़ को आईएसओ मानकों के लिए विशिष्ट अनुपालन विकल्पों के साथ DOCX प्रारूप में सहेजा जाता है।
+//ExStepSummary:0: कोड एक नए दस्तावेज़ और दस्तावेज़ के हेरफेर के लिए एक दस्तावेज़ बिल्डर को प्रारंभ करता है।
+//ExStepSummary:1: दस्तावेज़ में एक आकृति (पाठ बॉक्स) को निरपेक्ष स्थिति में डाला जाता है और पहले आकृति का घूर्णन 30 डिग्री पर सेट किया जाता है।
+//ExStepSummary:2: एक नए आकार को सापेक्ष स्थिति में डाला जाता है और दूसरे आकार का घूर्णन भी 30 डिग्री पर सेट किया जाता है।
+//ExStepSummary:3: दस्तावेज़ को विशिष्ट OoxmlSaveOptions के साथ सहेजा जाता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// एक नया दस्तावेज़ उदाहरण बनाता है
+Document doc = new Document();
+// दस्तावेज़ के लिए एक दस्तावेज़निर्माता को प्रारंभ करता है
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// टाइप TextBox का आकार डालना
+Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, 
+    RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None); // Sets the position and size of the shape
+// आकार को 30 डिग्री से घुमाता है
+shape.Rotation = 30.0;
+
+//ExStep:2-
+builder.Writeln();
+// सापेक्ष स्थिति में TextBox प्रकार के एक अन्य आकार सम्मिलित करता है
+shape = builder.InsertShape(ShapeType.TextBox, 50, 50); 
+// दूसरे आकार को 30 डिग्री से घुमाता है
+shape.Rotation = 30.0;
+
+//ExStep:3-
+// दस्तावेज़ के लिए सहेजने के विकल्प तैयार करता है
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
+{
+    Compliance = OoxmlCompliance.Iso29500_2008_Transitional // Sets compliance to ISO 29500:2008 Transitional
+};
+
+// निर्दिष्ट सहेजें विकल्पों का उपयोग करके दस्तावेज़ सहेजता है
+doc.Save("WorkingWithShapes.InsertShape.docx", saveOptions); 
+//ExEnd

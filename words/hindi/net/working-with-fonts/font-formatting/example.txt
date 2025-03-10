@@ -1,0 +1,34 @@
+//ExStart
+//ExSummary:यह कोड दिखाता है कि कैसे एक शब्द दस्तावेज़ बनाने के लिए Aspose.Words का उपयोग कर, स्वरूपण फ़ॉन्ट गुणों से पहले यह लिखने के लिए एक नमूना पाठ.
+//ExStepSummary:0: निम्नलिखित कोड एक नया दस्तावेज़ और एक दस्तावेज़निर्माता को प्रारंभ करता है।
+//ExStepSummary:1: निम्नलिखित कोड विभिन्न फ़ॉन्ट गुण जैसे आकार, बोल्ड, रंग, नाम और रेखांकित शैली सेट करता है।
+//ExStepSummary:2: निम्नलिखित कोड कॉन्फ़िगर फ़ॉन्ट सेटिंग्स का उपयोग करके दस्तावेज़ में एक नमूना पाठ लिखता है।
+//ExStepSummary:3: निम्नलिखित कोड दस्तावेज़ को एक दिए गए फ़ाइल नाम के साथ निर्दिष्ट निर्देशिका में सहेजता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// एक नया दस्तावेज़ उदाहरण बनाएं
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// दस्तावेज़निर्माता के माध्यम से फ़ॉन्ट गुण तक पहुँचें
+Font font = builder.Font;
+// फ़ॉन्ट आकार 16 पर सेट करें
+font.Size = 16;
+// फ़ॉन्ट को बोल्ड करें
+font.Bold = true;
+// फ़ॉन्ट रंग को नीले रंग में बदलें
+font.Color = Color.Blue;
+// फ़ॉन्ट को Arial पर सेट करें
+font.Name = "Arial";
+// फ़ॉन्ट पर एक धब्बेदार रेखांकन शैली लागू करें
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+builder.Write("Sample text.");
+
+//ExStep:3-
+// दस्तावेज़ को कलाकृतियों की निर्देशिका में सहेजें
+doc.Save("WorkingWithFonts.FontFormatting.docx");
+//ExEnd

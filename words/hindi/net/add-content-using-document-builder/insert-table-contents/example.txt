@@ -1,0 +1,78 @@
+//ExStart
+//ExSummary: यह कोड दस्तावेज़निर्माता का उपयोग करके सामग्री तालिका के साथ वर्ड दस्तावेज़ बनाने का तरीका प्रदर्शित करता है। इसमें विभिन्न स्तरों के शीर्षक शामिल हैं और दस्तावेज़ को .docx फ़ाइल के रूप में सहेजता है।
+//ExStepSummary:0: इस चरण में एक नया दस्तावेज़ वस्तु को प्रारंभ किया जाता है.
+//ExStepSummary:1: इस चरण में दस्तावेज़ हेरफेर के लिए एक दस्तावेज़निर्माता वस्तु बनाई जाती है।
+//ExStepSummary:2: इस चरण में दस्तावेज़ की शुरुआत में सामग्री तालिका डाली जाती है।
+//ExStepSummary:3: इस चरण में एक नए पृष्ठ पर वास्तविक सामग्री शुरू करने के लिए एक पृष्ठ ब्रेक पेश किया जाता है।
+//ExStepSummary:4: इस चरण में पहला शीर्षक निर्धारित किया गया है और दस्तावेज़ में "Heading 1" लिखा गया है।
+//ExStepSummary:5: इस चरण में दूसरे शीर्षक स्तर को निर्धारित किया गया है और "श्रेणी 1.1" और "श्रेणी 1.2" लिखा गया है।
+//ExStepSummary:6: इस चरण में एक बार फिर पहला शीर्षक स्तर निर्धारित किया गया है और "शीर्षक 2" और "शीर्षक 3" लिखा गया है।
+//ExStepSummary:7: इस चरण में दूसरे शीर्षक स्तर को निर्धारित किया गया है और "श्रेणी 3.1" लिखा गया है।
+//ExStepSummary:8: इस चरण में तीसरे heading level को सेट किया गया है और "Heading 3.1.1", "Heading 3.1.2" और "Heading 3.1.3" उप-heading लिखे गए हैं।
+//ExStepSummary:9: इस चरण में दूसरी शीर्षक स्तर एक बार फिर सेट किया गया है और "शीर्षक 3.2" और "शीर्षक 3.3" लिखा गया है।
+//ExStepSummary:10: अंत में, यह चरण दस्तावेज़ में क्षेत्रों को अद्यतन करता है और इसे .docx फ़ाइल के रूप में सहेजता है।
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:6:images/4.png
+//ExStepImage:7:images/5.png
+//ExStepImage:8:images/6.png
+//ExStepImage:9:images/7.png
+
+//ExStep:0-
+// एक नया दस्तावेज़ उदाहरण बनाएं
+Document doc = new Document();
+
+//ExStep:1-
+// दस्तावेज़ हेरफेर के लिए दस्तावेज़निर्माता को प्रारंभ करें
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// निर्दिष्ट विकल्पों के साथ एक सामग्री तालिका डालें
+builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
+
+//ExStep:3-
+// एक नए पृष्ठ पर सामग्री शुरू करने के लिए पृष्ठ ब्रेक डालें
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:4-
+// शीर्षक 1 पर शैली सेट करें
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 1");
+
+//ExStep:5-
+// शीर्षक 2 में शैली सेट करें
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 1.1");
+builder.Writeln("Heading 1.2");
+
+//ExStep:6-
+// शैली को शीर्ष 1 पर वापस सेट करें
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 2");
+builder.Writeln("Heading 3");
+
+//ExStep:7-
+// शीर्षक 2 में शैली सेट करें
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.1");
+
+//ExStep:8-
+// शीर्षक 3 के लिए शैली सेट करें
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
+builder.Writeln("Heading 3.1.1");
+builder.Writeln("Heading 3.1.2");
+builder.Writeln("Heading 3.1.3");
+
+//ExStep:9-
+// शैली को शीर्ष 2 पर वापस सेट करें
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.2");
+builder.Writeln("Heading 3.3");
+
+//ExStep:10-
+// दस्तावेज़ में सभी फ़ील्ड अपडेट करें
+doc.UpdateFields();
+// दस्तावेज़ को सहेजें
+doc.Save("AddContentUsingDocumentBuilder.InsertTableOfContents.docx");
+//ExEnd

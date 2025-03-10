@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary該代碼顯示如何使用Aspose.Words來操作Word文檔中的表格. 它會尋找現有文檔,修改第一表的邊界,並將變更保存在新的檔案中.
+//ExStepSummary:0: 該文件的編碼是以下列編碼為例,
+//ExStepSummary:1: 清除所有現有的邊界,以便準備新的格式化.
+//ExStepSummary:2: 該表內及周圍使用綠色邊界.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 定義文件目錄
+string dataDir = "Your Document Directory";
+// 載入文件
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// 請從文件中拿出第一張桌子
+Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
+
+//ExStep:2-
+// 清除任何現有的邊界
+table.ClearBorders();
+
+//ExStep:3-
+// 擺設桌子周圍和內部的綠色邊界
+table.SetBorders(LineStyle.Single, 1.5, Color.Green);
+// 保存文件與變更
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");
+//ExEnd

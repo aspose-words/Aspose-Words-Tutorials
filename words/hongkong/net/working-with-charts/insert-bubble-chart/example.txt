@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary如何將"Bubble chart"插入Word文檔,
+//ExStepSummary:0: 該代碼啟動了新的文檔和文檔建設器.
+//ExStepSummary:1: 使用文件建構器, 建立和添加到文件中一個泡圖表.
+//ExStepSummary:2: 氣圖的數據系列是添加的,
+//ExStepSummary:3: 文件將存儲在插入的泡圖表上.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 啟動新的文檔和文檔建設器
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 插入文件中的泡圖表
+Shape shape = builder.InsertChart(ChartType.Bubble, 432, 252);
+
+//ExStep:2-
+// 加入數據系列到泡圖表
+Chart chart = shape.Chart;
+chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, // X values
+    new double[] { 2.7, 3.2, 0.8 }, // Y values
+    new double[] { 10, 4, 8 }); // Size values for the bubbles
+
+//ExStep:3-
+// 保存文件在泡圖表中
+doc.Save("WorkingWithCharts.InsertBubbleChart.docx");
+//ExEnd

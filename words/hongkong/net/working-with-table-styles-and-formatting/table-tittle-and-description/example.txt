@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary該代碼顯示如何使用Aspose.Words在Word文檔中添加標題和描述.
+//ExStepSummary:0:這一步將文件初始化並從指定目錄中加載.
+//ExStepSummary:1:這一步將文件中的第一表取回,並設定其標題和描述.
+//ExStepSummary:2:設定文件存儲選項,
+//ExStepSummary:3:這一步將 Word 2016 文件的兼容性選項優化.
+//ExStepSummary:4:這一步將修改的文件保存回到指定目錄中.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 啟動文件並從資料目錄中加載
+string dataDir = "Your Document Directory";
+Document doc = new Document(dataDir + "Tables.docx");
+
+//ExStep:1-
+// 取回第一張表,並設定其標題和描述
+Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
+table.Title = "Test title";
+table.Description = "Test description";
+
+//ExStep:2-
+// 設定文件保存選項
+OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
+
+//ExStep:3-
+// 優化Word 2016的兼容性選項
+doc.CompatibilityOptions.OptimizeFor(Aspose.Words.Settings.MsWordVersion.Word2016);
+
+//ExStep:4-
+// 保存已修改的文件回到指定目錄中
+doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.TableTitleAndDescription.docx", options);
+//ExEnd

@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary:यह कोड दिखाता है कि कैसे एक शब्द दस्तावेज़ बनाने के लिए Aspose.Words का उपयोग करें और इसके लिए एक क्षैतिज नियम जोड़ें. 
+//ExStepSummary:0: सामग्री को रखने के लिए एक नया दस्तावेज़ वस्तु बनाएं.
+//ExStepSummary:1: दस्तावेज़ के लेआउट को डिजाइन करने और संदेश डालने के लिए दस्तावेज़निर्माता का उपयोग करें.
+//ExStepSummary:2: दस्तावेज़ में क्षैतिज नियम का आकार डालें।
+//ExStepSummary:3: दस्तावेज़ को निर्दिष्ट फ़ाइल पथ पर सहेजें।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// सामग्री को रखने के लिए एक नई दस्तावेज़ वस्तु बनाएं
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc); 
+
+//ExStep:1-
+// दस्तावेज़ में एक पंक्ति लिखें
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+// दस्तावेज़ में क्षैतिज नियम आकार डालें
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+// दस्तावेज़ को निर्दिष्ट स्थान पर सहेजें
+doc.Save("AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

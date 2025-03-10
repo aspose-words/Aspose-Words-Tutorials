@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि Aspose.Words का उपयोग करके एक दस्तावेज़ में स्तंभ चार्ट कैसे डाला जाए। यह एक दस्तावेज़ बनाता है,
+//          परिभाषित श्रेणियों और मानों के साथ एक चार्ट जोड़ता है, और फिर दस्तावेज़ को सहेजता है।
+//ExStepSummary:0: निम्नलिखित कोड एक नया दस्तावेज़ और एक दस्तावेज़ बिल्डर को प्रारंभ करता है।
+//ExStepSummary:1: इस चरण में दस्तावेज़ में निर्दिष्ट आयामों के साथ एक स्तंभ चार्ट डालना शामिल है।
+//ExStepSummary:2: यहां, श्रेणियों और संबंधित मानों के साथ श्रृंखला डेटा चार्ट में जोड़ा जाता है।
+//ExStepSummary:3: इस चरण में डाले गए चार्ट के साथ दस्तावेज़ को एक निर्दिष्ट फ़ाइल स्थान पर सहेजा जाता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// एक नई दस्तावेज़ वस्तु को प्रारंभ करें
+Document doc = new Document();
+// दस्तावेज़ के आसान हेरफेर के लिए एक दस्तावेज़निर्माता बनाएं
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// निर्दिष्ट आकार (चौड़ाई x ऊंचाई) पर स्तंभ चार्ट डालें
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+// सम्मिलित आकार से चार्ट ऑब्जेक्ट तक पहुँचें
+Chart chart = shape.Chart;
+// श्रेणियों और मानों के साथ श्रृंखला डेटा जोड़ें
+chart.Series.Add("Aspose Series 1", new string[] { "Category 1", "Category 2" }, new double[] { 1, 2 });
+
+//ExStep:3-
+// डाले गए स्तंभ चार्ट के साथ दस्तावेज़ सहेजें
+doc.Save("WorkingWithCharts.InsertColumnChart.docx"); 
+//ExEnd

@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary該代碼顯示如何將表格欄位插入Word文檔,使用 .NET的Aspose.Words. 具体而言,它顯示如何插入包含預定項目的組合框表格欄位.
+//ExStepSummary:0: 下面的代碼顯示如何創建新的Word文檔.
+//ExStepSummary:1: 下面的代碼顯示如何初始化文件建構器來編輯文件.
+//ExStepSummary:2: 該代碼顯示如何定義和插入包含預定項目的組合框表格欄位,
+//ExStepImage:0:images/1.png
+//ExStepImage:1:images/2.png
+//ExStep:0-
+// 啟動一個空白的 Word 文檔
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 定義和插入組合框表格欄位
+string[] items = { "One", "Two", "Three" };
+builder.InsertComboBox("DropDown", items, 0);
+//ExEnd

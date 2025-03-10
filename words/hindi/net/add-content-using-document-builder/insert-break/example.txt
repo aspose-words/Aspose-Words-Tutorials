@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: यह कोड Aspose.Words का उपयोग करके एक वर्ड दस्तावेज़ बनाने, कई पृष्ठों पर सामग्री जोड़ने और इसे .docx फ़ाइल के रूप में सहेजने का तरीका प्रदर्शित करता है।
+//ExStepSummary:0: इस चरण में दस्तावेज़ को संभालने के लिए एक नया दस्तावेज़ और एक दस्तावेज़निर्माता को प्रारंभ किया जाता है।
+//ExStepSummary:1: यह चरण पहले पृष्ठ पर पाठ जोड़ता है।
+//ExStepSummary:2: इस चरण में एक नया पृष्ठ शुरू करने के लिए एक पृष्ठ ब्रेक डाला जाता है।
+//ExStepSummary:3: इस चरण में दूसरे पृष्ठ पर पाठ जोड़ दिया जाता है।
+//ExStepSummary:4: इस चरण में एक नए पृष्ठ के लिए एक और पृष्ठ ब्रेक डाला जाता है।
+//ExStepSummary:5: इस चरण में तीसरे पृष्ठ पर पाठ जोड़ा जाता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// एक नया दस्तावेज़ उदाहरण बनाएं
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// पहले पृष्ठ के लिए पाठ जोड़ें
+builder.Writeln("This is page 1.");
+
+//ExStep:2-
+// एक नया पृष्ठ शुरू करने के लिए पृष्ठ ब्रेक डालें
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+// दूसरे पृष्ठ के लिए पाठ जोड़ें
+builder.Writeln("This is page 2.");
+
+//ExStep:4-
+// एक नए पृष्ठ के लिए एक और पृष्ठ ब्रेक डालें
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:5-
+// तीसरे पृष्ठ के लिए पाठ जोड़ें
+builder.Writeln("This is page 3.");
+
+//ExStep:6-
+// दस्तावेज़ को निर्दिष्ट पथ पर सहेजें
+doc.Save("AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

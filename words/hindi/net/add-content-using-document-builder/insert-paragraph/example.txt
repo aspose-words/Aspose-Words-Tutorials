@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: यह कोड दस्तावेज़निर्माता वर्ग का उपयोग करके वर्ड दस्तावेज़ कैसे बनाएं और इसमें एक शैली वाला पैराग्राफ कैसे डालें, यह दिखाता है।
+//ExStepSummary:0: निम्नलिखित कोड दस्तावेज़ निर्माण के लिए एक दस्तावेज़ और एक दस्तावेज़निर्माता को प्रारंभ करता है।
+//ExStepSummary:1: निम्नलिखित कोड अनुच्छेद के लिए फ़ॉन्ट सेटिंग्स को कॉन्फ़िगर करता है।
+//ExStepSummary:2: निम्नलिखित कोड में संरेखण और निलंबन के लिए पैराग्राफ प्रारूप सेटिंग्स निर्धारित की गई हैं।
+//ExStepSummary:3: निम्नलिखित कोड दस्तावेज़ में एक पैराग्राफ लिखता है।
+//ExStepSummary:4: निम्नलिखित कोड दस्तावेज़ को .docx फ़ाइल के रूप में सहेजता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// एक नई दस्तावेज़ वस्तु को प्रारंभ करें
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// दस्तावेज़निर्माता के फ़ॉन्ट सेटिंग्स तक पहुँचें
+Font font = builder.Font;
+// फ़ॉन्ट आकार 16 पर सेट करें
+font.Size = 16;
+// फ़ॉन्ट को बोल्ड करें
+font.Bold = true;
+// फ़ॉन्ट रंग को नीला पर सेट करें
+font.Color = Color.Blue;
+// फ़ॉन्ट नाम को Arial पर सेट करें
+font.Name = "Arial";
+// फ़ॉन्ट में एक धब्बा रेखांकित जोड़ें
+font.Underline = Underline.Dash;
+
+//ExStep:2-
+// अनुच्छेद प्रारूप सेटिंग्स तक पहुँचें
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.FirstLineIndent = 8;
+paragraphFormat.Alignment = ParagraphAlignment.Justify;
+paragraphFormat.KeepTogether = true;
+
+//ExStep:3-
+// दस्तावेज़ में पाठ का एक पैराग्राफ लिखें
+builder.Writeln("A whole paragraph.");
+
+//ExStep:4-
+// दस्तावेज़ को .docx फ़ाइल के रूप में सहेजें
+doc.Save("AddContentUsingDocumentBuilder.InsertParagraph.docx");
+//ExEnd

@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि Aspose.Words का उपयोग करके एक चार्ट के साथ एक दस्तावेज़ कैसे बनाया जाए, वाई-अक्ष के लिए सीमाएं निर्धारित करें, और दस्तावेज़ को DOCX फ़ाइल के रूप में सहेजें। 
+// "एस्पोज.वर्ड्स" में चार्ट के साथ काम करने की प्रक्रिया की स्पष्ट समझ प्रदान करने के लिए प्रत्येक चरण को विभाजित किया गया है।
+//ExStepSummary:0: एक नया दस्तावेज़ और एक दस्तावेज़निर्माता उदाहरण को प्रारंभ करें. 
+//ExStepSummary:1: दस्तावेज़ में एक चार्ट डालें और चार्ट ऑब्जेक्ट प्राप्त करें। 
+//ExStepSummary:2: चार्ट में निर्दिष्ट श्रेणियों और मानों के साथ एक नई श्रृंखला जोड़ें। 
+//ExStepSummary:3: चार्ट के Y-अक्ष के लिए न्यूनतम और अधिकतम सीमाएँ निर्धारित करें। 
+//ExStepSummary:4: दस्तावेज़ को निर्दिष्ट पथ पर सहेजें। 
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// एक नया दस्तावेज़ उदाहरण बनाएं.
+Document doc = new Document();
+// दस्तावेज़ बनाने के लिए दस्तावेज़निर्माता को प्रारंभ करें.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// दस्तावेज़ में स्तंभ चार्ट डालें।
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+// आकार से चार्ट वस्तु को पुनर्प्राप्त करें।
+Chart chart = shape.Chart;
+// ताजा डेटा के लिए चार्ट से किसी भी मौजूदा श्रृंखला को हटा दें।
+chart.Series.Clear();
+
+//ExStep:2-
+// "एस्पोज सीरीज 1" नाम से एक नई श्रृंखला को परिभाषित करें।
+chart.Series.Add("Aspose Series 1",
+    new string[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }, // Set categories for the series.
+    new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
+
+//ExStep:3-
+// Y अक्ष की न्यूनतम सीमा निर्धारित करें।
+chart.AxisY.Scaling.Minimum = new AxisBound(0);
+chart.AxisY.Scaling.Maximum = new AxisBound(6);
+
+//ExStep:4-
+// चार्ट के साथ दस्तावेज़ को निर्दिष्ट पथ पर सहेजें।
+doc.Save("WorkingWithCharts.BoundsOfAxis.docx");
+//ExEnd

@@ -1,0 +1,28 @@
+//ExStart
+//ExSummary該代碼顯示如何使用Aspose.Words建立一個 Word 文檔,使用散布圖表. 它啟動文檔,建立內容,插入散布圖表,添加數據,並儲存文檔.
+//ExStepSummary:0: 文件建構器的初始化對立於開始工作.
+//ExStepSummary:1: 在文件中插入散射圖表.
+//ExStepSummary:2: 增加數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據數據
+//ExStepSummary:3: 保存文件與散射圖表到 .docx檔案中.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 啟動新的文件
+Document doc = new Document();
+// 建立一個建構器,
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 在文件中插入散射圖表
+Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252); 
+
+//ExStep:2-
+// 取出插入的形狀
+Chart chart = shape.Chart;
+// 加入數據系列圖表
+chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 });
+
+//ExStep:3-
+// 保存文件與散射圖
+doc.Save("WorkingWithCharts.InsertScatterChart.docx");
+//ExEnd

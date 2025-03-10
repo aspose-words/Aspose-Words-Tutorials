@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary如何設定段落格式化選項,如對準,插入和段落後空間.
+//ExStepSummary:0: 這一步啟動新的文檔和文檔建設器.
+//ExStepSummary:1: 這一步設定了段落格式化選項,包括對齊,左段,右段以及段落後的空間.
+//ExStepSummary:2: 這一步將寫入文件的格式列表,
+//ExStepSummary:3: 這一步寫下另一個格式段落,
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0- 
+// 建立新的文檔案例.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1- 
+// 設定段落格式選擇.
+ParagraphFormat paragraphFormat = builder.ParagraphFormat;
+paragraphFormat.Alignment = ParagraphAlignment.Center;
+paragraphFormat.LeftIndent = 50;
+paragraphFormat.RightIndent = 50;
+paragraphFormat.SpaceAfter = 25;
+
+//ExStep:2- 
+// 寫上第一段格式.
+builder.Writeln(
+	"I'm a very nice formatted paragraph. I'm intended to demonstrate how the left and right indents affect word wrapping.");
+
+//ExStep:3- 
+// 寫下第二段的格式.
+builder.Writeln(
+	"I'm another nice formatted paragraph. I'm intended to demonstrate how the space after paragraph looks like.");
+
+//ExStep:4- 
+// 保存文件到指定的路徑上.
+doc.Save(ArtifactsDir + "DocumentFormatting.ParagraphFormatting.docx");
+//ExEnd

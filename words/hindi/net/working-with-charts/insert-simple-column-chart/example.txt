@@ -1,0 +1,57 @@
+//ExStart
+//ExSummary:कृपया निम्न कोड की जाँच करें कि वर्ड दस्तावेज़ में एक सरल स्तंभ चार्ट कैसे डाला जाए। आप इस कोड को अपने आईडीई में कॉपी कर सकते हैं और इसे चला सकते हैं।
+//ExStepSummary:0: यह कोड Aspose.Words का उपयोग करके एक वर्ड दस्तावेज़ कैसे बनाया जाए और इसमें एक स्तंभ चार्ट कैसे डाला जाए, यह दिखाता है।
+//ExStepSummary:1: यह कोड वर्ड सामग्री को हेरफेर करने के लिए दस्तावेज़ बिल्डर ऑब्जेक्ट कैसे बनाया जाए, यह दिखाता है।
+//ExStepSummary:2: इस कोड में बताया गया है कि दस्तावेज़ में निर्दिष्ट आयामों के साथ स्तंभ चार्ट के आकार को कैसे डाला जाए।
+//ExStepSummary:3: यह कोड आगे अनुकूलन के लिए डाले गए आकार से चार्ट ऑब्जेक्ट को प्राप्त करता है।
+//ExStepSummary:4: यह कोड दिखाता है कि चार्ट श्रृंखला संग्रह तक कैसे पहुंचें और श्रृंखलाओं की संख्या प्रिंट करें।
+//ExStepSummary:5: यह कोड किसी भी डिफ़ॉल्ट श्रृंखला को साफ करता है जो चार्ट के साथ बनाई गई हो सकती है।
+//ExStepSummary:6: यह कोड दिखाता है कि चार्ट के डेटा के लिए श्रेणी नामों को कैसे परिभाषित किया जाए।
+//ExStepSummary:7: इस कोड में दिखाया गया है कि संबंधित श्रेणी नामों और डेटा मानों के साथ चार्ट में श्रृंखला कैसे जोड़ें।
+//ExStepSummary:8: यह कोड दस्तावेज़ को जोड़ा गया चार्ट के साथ एक निर्दिष्ट फ़ाइल में सहेजता है।
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:7:images/4.png
+//ExStep:0-
+// एक नया वर्ड दस्तावेज़ उदाहरण बनाएं।
+Document doc = new Document();
+
+//ExStep:1-
+// दस्तावेज़ में तत्वों को आसानी से सम्मिलित करने के लिए एक दस्तावेज़निर्माता बनाएं.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+// चौड़ाई (432) और ऊंचाई (252) निर्दिष्ट करने वाले स्तंभ चार्ट के आकार को सम्मिलित करें।
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:3-
+// आगे के हेरफेर के लिए आकार से चार्ट ऑब्जेक्ट को पुनर्प्राप्त करें।
+Chart chart = shape.Chart;
+
+//ExStep:4-
+// चार्ट के श्रृंखला संग्रह तक पहुँचें।
+ChartSeriesCollection seriesColl = chart.Series;
+// चार्ट में श्रृंखला संख्या को कंसोल पर प्रिंट करें।
+Console.WriteLine(seriesColl.Count);
+
+//ExStep:5-
+// किसी भी डिफ़ॉल्ट सरणी को हटा दें जो चार्ट के निर्माण के समय स्वचालित रूप से उत्पन्न हुई थी।
+seriesColl.Clear();
+
+//ExStep:6-
+// चार्ट डेटा के लिए श्रेणी नामों की सरणी को परिभाषित करें।
+string[] categories = new string[] { "Category 1", "Category 2" };
+
+//ExStep:7-
+// श्रेणी नाम और डेटा मानों के साथ चार्ट में कई श्रृंखलाएँ जोड़ें।
+seriesColl.Add("Aspose Series 1", categories, new double[] { 1, 2 });
+seriesColl.Add("Aspose Series 2", categories, new double[] { 3, 4 });
+seriesColl.Add("Aspose Series 3", categories, new double[] { 5, 6 });
+seriesColl.Add("Aspose Series 4", categories, new double[] { 7, 8 });
+seriesColl.Add("Aspose Series 5", categories, new double[] { 9, 10 });
+
+//ExStep:8-
+// डाले गए चार्ट के साथ दस्तावेज़ को निर्दिष्ट फ़ाइल पथ पर सहेजें।
+doc.Save("WorkingWithCharts.InsertSimpleColumnChart.docx");
+//ExEnd

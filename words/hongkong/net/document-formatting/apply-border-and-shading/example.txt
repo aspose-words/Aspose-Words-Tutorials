@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary該代碼顯示如何使用Aspose.Words在Word文檔中的段落上應用邊界和遮蔽.
+//ExStepSummary:0: 下列代碼啟動新的文檔和文檔建設器實例.
+//ExStepSummary:1: 列表的代碼將段落界限設定在與文字相距的地方.
+//ExStepSummary:2: 該代碼將對段子使用指定的顏色的截面交叉質感遮光.
+//ExStepSummary:3: 該代碼寫出一個格式式的段落,
+//ExStepSummary:4: 該文件的输出路徑是以下列代碼保存的.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+// 啟動新的文件
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 進入第1項的邊界
+BorderCollection borders = builder.ParagraphFormat.Borders;
+borders.DistanceFromText = 20;
+borders[BorderType.Left].LineStyle = LineStyle.Double;
+borders[BorderType.Right].LineStyle = LineStyle.Double;
+borders[BorderType.Top].LineStyle = LineStyle.Double;
+borders[BorderType.Bottom].LineStyle = LineStyle.Double;
+
+//ExStep:2-
+// 進入第 遮蔽特性
+Shading shading = builder.ParagraphFormat.Shading;
+shading.Texture = TextureIndex.TextureDiagonalCross;
+shading.BackgroundPatternColor = System.Drawing.Color.LightCoral; 
+shading.ForegroundPatternColor = System.Drawing.Color.LightSalmon;
+
+//ExStep:3-
+// 寫寫編碼的段落內容
+builder.Write("I'm a formatted paragraph with double border and nice shading.");
+
+//ExStep:4-
+// 保存文件到指定的路徑
+doc.Save(ArtifactsDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
+//ExEnd

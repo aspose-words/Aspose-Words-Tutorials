@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary:यह कोड दिखाता है कि कैसे Aspose.words का उपयोग कर एक वर्ड दस्तावेज़ में एक जोर चिह्न सेट करने के लिए.
+//ExStepSummary:0:काम करने के लिए एक नया दस्तावेज़ उदाहरण बनाना.
+//ExStepSummary:1:दस्तावेज़ को हेरफेर करने के लिए एक दस्तावेज़निर्माता स्थापित करना।
+//ExStepSummary:2:बिल्डर के फ़ॉन्ट पर एक जोरदार चिह्न लगाकर।
+//ExStepSummary:3:दस्तावेज़ में जोरदार पाठ लिखना।
+//ExStepSummary:4:बिना किसी जोर के सरल पाठ लिखना।
+//ExStepSummary:5: यह कोड फ़ॉन्ट पर जोर के निशान के साथ दस्तावेज़ को सहेजता है।
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// एक नया दस्तावेज़ बनाएं
+Document document = new Document();
+
+//ExStep:1-
+// दस्तावेज़ हेरफेर के लिए दस्तावेज़निर्माता को प्रारंभ करें
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:2-
+// अंडरसोलिड सर्कल पर जोर दें
+builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
+
+//ExStep:3-
+// दस्तावेज़ में जोर देने वाला पाठ लिखें
+builder.Write("Emphasis text");
+// अगली पंक्ति पर आगे बढ़ें
+builder.Writeln();
+// बाद के पाठ के लिए फ़ॉन्ट स्वरूपण को साफ़ करें
+builder.Font.ClearFormatting();
+
+//ExStep:4-
+// बिना जोर दिए सरल पाठ लिखें
+builder.Write("Simple text");
+
+//ExStep:5-
+// दस्तावेज़ को निर्दिष्ट पथ पर सहेजें
+document.Save("WorkingWithFonts.SetFontEmphasisMark.docx");
+//ExEnd

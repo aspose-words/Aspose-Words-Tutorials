@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary該代碼顯示如何使用Aspose.Words创建一個 Word 文檔的首頁和腳本. 它啟動了新的文檔,移動到標題和腳本部分,並寫定制文本.
+//ExStepSummary:0: 下列代碼將主文件對象初始化並設定文件建構器.
+//ExStepSummary:1: 接下來代碼將移動到首頁標題部分,
+//ExStepSummary:2: 下面的代碼將移動到主要脚本部分,並寫出脚本文本.
+//ExStepSummary:3: 文件的位置:
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+// 啟動新的文檔對象
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+// 移動到主題標題部分
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("Header for page.");
+
+//ExStep:2-
+// 移動到主要腳本部分
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+builder.Write("Footer for page."); // Write the footer text
+
+//ExStep:3-
+// 保存指定檔案名稱的文件
+doc.Save("WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
+//ExEnd
