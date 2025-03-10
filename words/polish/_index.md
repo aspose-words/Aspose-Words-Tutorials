@@ -109,14 +109,6 @@ Dodaj znaków wodnych tekstów i obrazów do dokumentów Word w celach marki lub
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Samouczki Aspose.Words
-
-
-## Samouczki przetwarzania dokumentów Aspose.Words dla platformy .NET
-{{% alert color="primary" %}}
-Te samouczki oferują jasne i szczegółowe instrukcje dotyczące pracy z dokumentami Microsoft Word programowo, obejmując szeroki zakres funkcjonalności. Od prostych zadań, takich jak tworzenie i edytowanie dokumentów, po bardziej zaawansowane funkcje, takie jak korespondencja seryjna, konwersja dokumentów i szyfrowanie dokumentów, programiści mogą znaleźć praktyczne przykłady i fragmenty kodu do wdrożenia w swoich projektach. Postępując zgodnie z tymi samouczkami, programiści .NET mogą ulepszyć swoje aplikacje o potężne możliwości przetwarzania dokumentów, zapewniając wydajną i bezproblemową obsługę dokumentów Word w swoich rozwiązaniach programowych. 
-{{% /alert %}}
-
 Oto linki do przydatnych źródeł:
 - [Przetwarzanie dokumentów wspomagane sztuczną inteligencją](./net/ai-powered-document-processing/)
 - [Zastosuj licencję](./net/apply-license/)   

@@ -109,14 +109,6 @@ Lernen Sie, Text- und Bild-Wasserzeichen zu Word-Dokumenten für Marken- oder Si
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words-Tutorials
-
-
-## Aspose.Words-Tutorials zur Dokumentverarbeitung für .NET
-{{% alert color="primary" %}}
-Diese Tutorials bieten klare und detaillierte Anweisungen zum programmgesteuerten Arbeiten mit Microsoft Word-Dokumenten und decken ein breites Spektrum an Funktionen ab. Von einfachen Aufgaben wie dem Erstellen und Bearbeiten von Dokumenten bis hin zu erweiterten Funktionen wie Seriendruck, Dokumentkonvertierung und Dokumentverschlüsselung finden Entwickler praktische Beispiele und Codeausschnitte, die sie in ihre Projekte implementieren können. Durch das Befolgen dieser Tutorials können .NET-Entwickler ihre Anwendungen mit leistungsstarken Dokumentverarbeitungsfunktionen erweitern und so eine effiziente und nahtlose Verarbeitung von Word-Dokumenten in ihren Softwarelösungen sicherstellen. 
-{{% /alert %}}
-
 Dies sind Links zu einigen nützlichen Ressourcen:
 - [KI-gestützte Dokumentenverarbeitung](./net/ai-powered-document-processing/)
 - [Lizenz beantragen](./net/apply-license/)   

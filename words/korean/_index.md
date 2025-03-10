@@ -109,14 +109,6 @@ Word 문서에 그룹형과 미리 정의된 도표를 포함하여 다양한 �
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words 튜토리얼
-
-
-## .NET을 위한 Aspose.Words 문서 처리 튜토리얼
-{{% alert color="primary" %}}
-이 튜토리얼은 Microsoft Word 문서를 프로그래밍 방식으로 사용하는 방법에 대한 명확하고 자세한 지침을 제공하며, 광범위한 기능을 다룹니다. 문서 생성 및 편집과 같은 간단한 작업에서 메일 병합, 문서 변환, 문서 암호화와 같은 고급 기능에 이르기까지 개발자는 프로젝트에 구현할 수 있는 실용적인 예제와 코드 조각을 찾을 수 있습니다. 이 튜토리얼을 따르면 .NET 개발자는 강력한 문서 처리 기능으로 애플리케이션을 향상시켜 소프트웨어 솔루션에서 Word 문서를 효율적이고 원활하게 처리할 수 있습니다. 
-{{% /alert %}}
-
 다음은 유용한 자료에 대한 링크입니다.
 - [AI 기반 문서 처리](./net/ai-powered-document-processing/)
 - [라이센스 적용](./net/apply-license/)   

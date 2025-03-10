@@ -109,14 +109,6 @@ Leer om tekst- en afbeeldingswatermerken toe te voegen aan Word-documenten voor 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words-zelfstudies
-
-
-## Aspose.Words Documentverwerking Tutorials voor .NET
-{{% alert color="primary" %}}
-Deze tutorials bieden duidelijke en gedetailleerde instructies over hoe u programmatisch met Microsoft Word-documenten kunt werken, waarbij een breed scala aan functionaliteiten wordt behandeld. Van eenvoudige taken zoals het maken en bewerken van documenten tot meer geavanceerde functies zoals mail merge, documentconversie en documentversleuteling, ontwikkelaars kunnen praktische voorbeelden en codefragmenten vinden om in hun projecten te implementeren. Door deze tutorials te volgen, kunnen .NET-ontwikkelaars hun applicaties verbeteren met krachtige documentverwerkingsmogelijkheden, wat zorgt voor een efficiënte en naadloze verwerking van Word-documenten in hun softwareoplossingen. 
-{{% /alert %}}
-
 Hieronder vindt u links naar nuttige bronnen:
 - [AI-aangedreven documentverwerking](./net/ai-powered-document-processing/)
 - [Licentie aanvragen](./net/apply-license/)   

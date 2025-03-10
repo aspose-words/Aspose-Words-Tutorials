@@ -109,14 +109,6 @@ Apprenez à ajouter des balises d'eau de texte et d'image aux documents Word à 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tutoriels Aspose.Words
-
-
-## Tutoriels de traitement de documents Aspose.Words pour .NET
-{{% alert color="primary" %}}
-Ces didacticiels proposent des instructions claires et détaillées sur la manière de travailler avec des documents Microsoft Word par programmation, couvrant un large éventail de fonctionnalités. Des tâches simples comme la création et l'édition de documents aux fonctionnalités plus avancées telles que le publipostage, la conversion de documents et le chiffrement de documents, les développeurs peuvent trouver des exemples pratiques et des extraits de code à mettre en œuvre dans leurs projets. En suivant ces didacticiels, les développeurs .NET peuvent améliorer leurs applications avec de puissantes capacités de traitement de documents, garantissant une gestion efficace et transparente des documents Word dans leurs solutions logicielles. 
-{{% /alert %}}
-
 Voici des liens vers des ressources utiles :
 - [Traitement de documents alimenté par l'IA](./net/ai-powered-document-processing/)
 - [Demander une licence](./net/apply-license/)   

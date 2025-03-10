@@ -109,14 +109,6 @@ Tanuljon hozzáadni szöveges és képes vízjelzőket a Word dokumentumokra má
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words oktatóanyagok
-
-
-## Aspose.Words dokumentumfeldolgozási oktatóanyagok .NET-hez
-{{% alert color="primary" %}}
-Ezek az oktatóanyagok világos és részletes útmutatást adnak a Microsoft Word-dokumentumok programozott használatához, és a funkciók széles skáláját lefedik. A fejlesztők gyakorlati példákat és kódrészleteket találhatnak az olyan egyszerű feladatoktól kezdve, mint a dokumentumok létrehozása és szerkesztése, egészen a fejlettebb funkciókig, például a körlevél-egyesítésig, a dokumentumkonverzióig és a dokumentumtitkosításig. Ezen oktatóanyagok követésével a .NET-fejlesztők hatékony dokumentumfeldolgozási képességekkel bővíthetik alkalmazásaikat, biztosítva a Word-dokumentumok hatékony és zökkenőmentes kezelését szoftvermegoldásaikban. 
-{{% /alert %}}
-
 Ezek a linkek néhány hasznos forráshoz:
 - [AI-alapú dokumentumfeldolgozás](./net/ai-powered-document-processing/)
 - [Licenc alkalmazása](./net/apply-license/)   

@@ -109,14 +109,6 @@ Markalama veya güvenlik amaçlı Word belgelere metin ve resim su işaretlerini
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words Eğitimleri
-
-
-## .NET için Aspose.Words Belge İşleme Eğitimleri
-{{% alert color="primary" %}}
-Bu eğitimler, Microsoft Word belgeleriyle programatik olarak nasıl çalışılacağına dair net ve ayrıntılı talimatlar sunarak geniş bir işlevsellik yelpazesini kapsar. Belge oluşturma ve düzenleme gibi basit görevlerden posta birleştirme, belge dönüştürme ve belge şifreleme gibi daha gelişmiş özelliklere kadar, geliştiriciler projelerinde uygulayabilecekleri pratik örnekler ve kod parçacıkları bulabilirler. Bu eğitimleri izleyerek, .NET geliştiricileri uygulamalarını güçlü belge işleme yetenekleriyle geliştirebilir ve yazılım çözümlerinde Word belgelerinin verimli ve sorunsuz bir şekilde işlenmesini sağlayabilirler. 
-{{% /alert %}}
-
 İşte bazı yararlı kaynaklara bağlantılar:
 - [AI Destekli Belge İşleme](./net/ai-powered-document-processing/)
 - [Lisans Uygula](./net/apply-license/)   
