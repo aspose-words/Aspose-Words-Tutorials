@@ -32,7 +32,7 @@ Aspose.Words 시각적 튜토리얼은 .NET, Java, C++ 등 모든 Aspose.Words �
 {{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="단어 에 간단한 기둥 표 를 삽입 " imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NET에서 Aspose.Words에서 테이블 스타일과 포맷을 작업](./net/working-with-table-styles-and- formatting/)
+### [.NET에서 Aspose.Words에서 테이블 스타일과 포맷을 작업](./net/working-with-table-styles-and-formatting/)
 경계, 스타일, 셀 팩팅 등으로 워드 문서에서 테이블을 생성하고, 포맷하고 사용자 정의하는 방법을 알아보십시오.
 
 {{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-outline-border/" title="스케치 경계 를 단어 로 표 에 적용 하십시오" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
@@ -47,7 +47,7 @@ Aspose.Words 시각적 튜토리얼은 .NET, Java, C++ 등 모든 Aspose.Words �
 {{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="워드에서 표에 제목과 설명을 추가" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NET에서 Aspose.Words에 문서 제작자를 사용하여 콘텐츠를 추가합니다 ](./net/add-content-using- document-builder/)
+### [.NET에서 Aspose.Words에 문서 제작자를 사용하여 콘텐츠를 추가합니다 ](./net/add-content-using-document-builder/)
 문서 제작자 클래스를 사용하여 워드 문서에 텍스트, 테이블, 이미지 및 기타 요소를 프로그래밍 방식으로 삽입하는 방법을 배우십시오.
 
 {{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="테이블을 사용하여 워드 문서를 작성" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}

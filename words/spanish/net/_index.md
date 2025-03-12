@@ -30,7 +30,7 @@ Aprenda cómo insertar texto, tablas, imágenes y otros elementos en documentos 
 {{< tutorial-card link="./add-content-using-document-builder/insert-table-contents/" title="Crear un documento de Word con tabla de contenido en .NET" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Trabajar con estilos de tabla y formato en Aspose.Words para .NET](./working- with-table-styles-and-formatting/)
+## [Trabajar con estilos de tabla y formato en Aspose.Words para .NET](./working-with-table-styles-and-formatting/)
 Descubra cómo crear, formato y personalizar tablas en documentos de Word, incluyendo establecer límites, estilos y relleno de células.
 
 {{< tutorial-card link="./working-with-table-styles-and-formatting/apply-outline-border/" title="Aplicar el límite del esquema a una tabla en la palabra" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
@@ -73,13 +73,13 @@ Explore características relacionadas con las fuentes, como estilos de fuentes, 
 {{< tutorial-card link="./font-styling/set-font-emphasis-mark/" title="Pon marcas de énfasis en el documento de Word" imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Trabajar con campos de formulario en Aspose.Words para .NET](./working-with- form-fields/)
+## [Trabajar con campos de formulario en Aspose.Words para .NET](./working-with-form-fields/)
 Descubra cómo insertar y administrar campos de formulario como entrada de texto, listas desplegables y casillas de verificación dentro de documentos de Word.
 
 {{< tutorial-card link="./working-with-form-fields/insert-form-fields/" title="Insertar el campo de formulario en el documento de Word" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Trabajar con los cabeceras y los pies en Aspose.Words para .NET](./working- with-headers-and-footers/)
+## [Trabajar con los cabeceras y los pies en Aspose.Words para .NET](./working-with-headers-and-footers/)
 Aprenda a crear y manipular encabezados y piezas, incluyendo añadir imágenes, números de páginas y texto.
 
 {{< tutorial-card link="./header-footer-formatting/create-header-footer/" title="Crea un documento de Word con encabezado y pie de página" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}

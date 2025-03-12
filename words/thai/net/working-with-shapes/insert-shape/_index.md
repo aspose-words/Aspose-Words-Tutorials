@@ -37,7 +37,7 @@ url: /th/net/working-with-shapes/insert-shape/
    ```  
 
 4. ปรับประกาศ (เป็นทางเลือก):  
-   ถ้าคุณมีใบอนุญาตที่มีสิทธิใช้ ใช้มันในโครงการของคุณ เพื่อหลีกเลี่ยงข้อจํากัด[ซื้อใบอนุญาต](https://purchase.aspose.com/buy)หรือรับ[เอกสารชั่วคราว](https://purchase.aspose.com/temporary- license/). .  
+   ถ้าคุณมีใบอนุญาตที่มีสิทธิใช้ ใช้มันในโครงการของคุณ เพื่อหลีกเลี่ยงข้อจํากัด[ซื้อใบอนุญาต](https://purchase.aspose.com/buy)หรือรับ[เอกสารชั่วคราว](https://purchase.aspose.com/temporary-license/). .  
 
 ## ดูอีกด้วย
 [Aspose.Word สําหรับเอกสาร .NET](https://docs.aspose.com/words/net/)

@@ -35,7 +35,7 @@ url: /ar/net/document-styling/paragraph-formatting/
    ```
 
 5. التقدم بطلب للحصول على الترخيص (اختياري):  
-   لاستخدام النسخة الكاملة[تطبيق رخصة](https://purchase.aspose.com/temporary- license/)أو استخدام[المحاكمة المجانية](https://releases.aspose.com/words/net/). . .  
+   لاستخدام النسخة الكاملة[تطبيق رخصة](https://purchase.aspose.com/temporary-license/)أو استخدام[المحاكمة المجانية](https://releases.aspose.com/words/net/). . .  
 
 
 ## انظر أيضاً

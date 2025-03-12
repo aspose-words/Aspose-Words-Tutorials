@@ -73,13 +73,13 @@ Menjelajahi fitur yang terkait dengan font seperti gaya font, jarak baris, tanda
 {{< tutorial-card link="./font-styling/set-font-emphasis-mark/" title="Tentukan Tanda Penekanan dalam Dokumen Word" imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Bekerja dengan Bidang Formulir di Aspose.Words untuk .NET](./working-with- form-fields/)
+## [Bekerja dengan Bidang Formulir di Aspose.Words untuk .NET](./working-with-form-fields/)
 Cari tahu cara memasukkan dan mengelola bidang formulir seperti input teks, daftar drop-down, dan kotak cek dalam dokumen Word.
 
 {{< tutorial-card link="./working-with-form-fields/insert-form-fields/" title="Masukkan kolom formulir kotak kombo ke dalam dokumen Word" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Bekerja dengan Headers dan Footers di Aspose.Words untuk .NET](./working- with-headers-and-footers/)
+## [Bekerja dengan Headers dan Footers di Aspose.Words untuk .NET](./working-with-headers-and-footers/)
 Pelajari cara membuat dan memanipulasi header dan footer, termasuk menambahkan gambar, nomor halaman, dan teks.
 
 {{< tutorial-card link="./header-footer-formatting/create-header-footer/" title="Buat Word Document dengan Header dan Footer" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
@@ -100,7 +100,7 @@ Temukan cara memasukkan dan memanipulasi berbagai bentuk, termasuk bentuk dikelo
 {{< tutorial-card link="./working-with-shapes/insert-shape/" title="Masukkan Bentuk dalam Dokumen Word" imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Bekerja dengan Watermark di Aspose.Words untuk .NET](./working-with- watermark)
+## [Bekerja dengan Watermark di Aspose.Words untuk .NET](./working-with-watermark)
 Pelajari cara menambahkan tanda air teks dan gambar ke dokumen Word untuk tujuan branding atau keamanan.
 {{< tutorial-card link="./working-with-watermark/add-text-watermark/" title="Tambahkan Tanda Air Teks ke Dokumen Word" imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}

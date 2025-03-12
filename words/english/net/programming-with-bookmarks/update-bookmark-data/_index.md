@@ -21,7 +21,7 @@ Have you ever encountered a situation where you needed to dynamically update spe
 
 Before we dive into the code, let's ensure you have the necessary tools at your disposal:
 
-- Aspose.Words for .NET: This is the powerhouse library that empowers you to work with Word documents programmatically. Head over to the download section on the Aspose website [Download link](https://releases.aspose.com/words/net/) to grab your copy. - You can opt for a free trial or explore their various licensing options [link](https://purchase.aspose.com/buy).
+- Aspose.Words for .NET: This is the powerhouse library that empowers you to work with Word documents programmatically. Head over to the download section on the Aspose website [Download link](https://releases.aspose.com/words/net/) to grab your copy. -You can opt for a free trial or explore their various licensing options [link](https://purchase.aspose.com/buy).
 - A .NET Development Environment: Visual Studio, Visual Studio Code, or any other .NET IDE of your choice will serve as your development playground.
 - A Sample Word Document: Create a simple Word document (like "Bookmarks.docx") containing some text and insert a bookmark (we'll cover how to do this later) to practice with.
 

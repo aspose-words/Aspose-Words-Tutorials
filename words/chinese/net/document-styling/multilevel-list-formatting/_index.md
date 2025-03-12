@@ -31,7 +31,7 @@ url: /zh/net/document-styling/multilevel-list-formatting/
    using Aspose.Words.Tables;
    ```
 4. 申请许可证 (可选):  
-   为了使用完整版本,[申请许可证](https://purchase.aspose.com/temporary- license/)或使用一个[免费试验](https://releases.aspose.com/words/net/)现在,我们要去.  
+   为了使用完整版本,[申请许可证](https://purchase.aspose.com/temporary-license/)或使用一个[免费试验](https://releases.aspose.com/words/net/)现在,我们要去.  
 
 
 ## 查看

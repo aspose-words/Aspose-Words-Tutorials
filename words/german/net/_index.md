@@ -73,13 +73,13 @@ Erkunden Sie in Word-Dokumenten Schrift-bezogene Funktionen wie Schriftstylen, Z
 {{< tutorial-card link="./font-styling/set-font-emphasis-mark/" title="Stellen Sie das Zeichen Emphasis in einem Word-Dokument fest" imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Arbeiten mit Formularfeldern in Aspose.Words für .NET](./working-with-form- fields/)
+## [Arbeiten mit Formularfeldern in Aspose.Words für .NET](./working-with-form-fields/)
 Erfahren Sie, wie Sie Formularfelder wie Textingabe, Dropdownlisten und Kontrollkästen in Word-Dokumente einfügen und verwalten können.
 
 {{< tutorial-card link="./working-with-form-fields/insert-form-fields/" title="Fügen Sie das Formularfeld in das Word-Dokument ein" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Arbeit mit Header und Fußgänger in Aspose.Words für .NET](./working-with- headers-and-footers/)
+## [Arbeit mit Header und Fußgänger in Aspose.Words für .NET](./working-with-headers-and-footers/)
 Erfahren Sie, wie Sie Header und Fußabschnitte erstellen und manipulieren, einschließlich der Hinzufügung von Bildern, Seitennummern und Text.
 
 {{< tutorial-card link="./header-footer-formatting/create-header-footer/" title="Erstellen Sie ein Word-Dokument mit Header und Fußnote" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}

@@ -68,7 +68,7 @@ Erfahren Sie, wie Sie verschiedene Formatierungsmöglichkeiten für Absätze, Li
 {{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="Formate der Absätze " imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Arbeiten mit Schriftzellen in Aspose.Words für .NET](./net/working-with- fonts/)
+### [Arbeiten mit Schriftzellen in Aspose.Words für .NET](./net/working-with-fonts/)
 Erkunden Sie in Word-Dokumenten Schrift-bezogene Funktionen wie Schriftstylen, Zeilenpausen, Schwerpunktmarken und andere Typografie-Einstellungen.
 
 {{< tutorial-card link="./net/font-styling/font-formatting/" title="Schreiben Sie Schriftformate in Word " imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
@@ -76,20 +76,20 @@ Erkunden Sie in Word-Dokumenten Schrift-bezogene Funktionen wie Schriftstylen, Z
 {{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Stellen Sie das Zeichen Emphasis in einem Word-Dokument fest " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Arbeiten mit Formularfeldern in Aspose.Words für .NET](./net/working-with- form-fields/)
+### [Arbeiten mit Formularfeldern in Aspose.Words für .NET](./net/working-with-form-fields/)
 Erfahren Sie, wie Sie Formularfelder wie Textingabe, Dropdownlisten und Kontrollkästen in Word-Dokumente einfügen und verwalten können.
 
 {{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Fügen Sie das Formularfeld in das Word-Dokument ein" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Arbeit mit Header und Fußgänger in Aspose.Words für .NET](./net/working-with- headers-and-footers/)
+### [Arbeit mit Header und Fußgänger in Aspose.Words für .NET](./net/working-with-headers-and-footers/)
 Erfahren Sie, wie Sie Header und Fußabschnitte erstellen und manipulieren, einschließlich der Hinzufügung von Bildern, Seitennummern und Text.
 
 {{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Erstellen Sie ein Word-Dokument mit Header und Fußnote" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
 {{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Ein Bild in den Word-Dokumentheader einfügen" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Arbeiten mit Abschnitten in Aspose.Words für .NET](./net/working-with- section/)
+### [Arbeiten mit Abschnitten in Aspose.Words für .NET](./net/working-with-section/)
 Verständlich, wie man Dokumente in Abschnitte aufbaut, um verschiedene Überschriften, Fußnote und Formatierungsstile zu ermöglichen.
 
 {{< tutorial-card link="./net/document-sections/add-section/" title="Fügen Sie ein neues Abschnitt zu Word-Dokument hinzu" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
@@ -103,7 +103,7 @@ Entdecken Sie, wie Sie verschiedene Formen, einschließlich gruppierter Formen u
 {{< tutorial-card link="./net/working-with-shapes/insert-shape/" title="Formen in Word-Dokumenten einfügen " imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Arbeiten mit Watermark in Aspose.Words für .NET](./net/working-with- watermark)
+### [Arbeiten mit Watermark in Aspose.Words für .NET](./net/working-with-watermark)
 Lernen Sie, Text- und Bild-Wasserzeichen zu Word-Dokumenten für Marken- oder Sicherheitszwecke hinzuzufügen.
 {{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="Text Wasserzeichen in Word-Dokument hinzufügen " imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}

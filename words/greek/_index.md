@@ -76,7 +76,7 @@ url: /el/
 {{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Βάλε τον τόνο στην εγγραφή Word " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Δουλεύοντας με τα πεδία φόρμας στο Aspose.Words για .NET](./net/working-with- form-fields/)
+### [Δουλεύοντας με τα πεδία φόρμας στο Aspose.Words για .NET](./net/working-with-form-fields/)
 Μάθετε πώς να εισαγάγετε και να διαχειρίζεστε πεδία φόρμας όπως εισαγωγή κειμένου, καταχωρητικές λίστες και κουτιά ελέγχου μέσα στα έγγραφα του Word.
 
 {{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Εισαγωγή πεδίου φόρμας σε κείμενο Word" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
@@ -89,21 +89,21 @@ url: /el/
 {{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Εισαγωγή εικόνας στο αρχείο εγγράφων Word" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Δουλεύοντας με Τμήματα στο Aspose.Words για .NET](./net/working-with- section/)
+### [Δουλεύοντας με Τμήματα στο Aspose.Words για .NET](./net/working-with-section/)
 Κατανοήστε πώς να διαρθρώσετε τα έγγραφα σε τμήματα, επιτρέποντας διαφορετικές επικεφαλίδες, υποσημειώσεις και στυλ μορφοποίησης.
 
 {{< tutorial-card link="./net/document-sections/add-section/" title="Προσθήκη νέου τμήματος στο έγγραφο Word" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
 {{< tutorial-card link="./net/document-sections/append-section-content/" title="Προσθήκη και προετοιμασία περιεχομένου σε έγγραφα Word" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Δουλεύοντας με σχήματα στο Aspose.Words για το .NET](./net/working-with- shapes/)
+### [Δουλεύοντας με σχήματα στο Aspose.Words για το .NET](./net/working-with-shapes/)
 Ανακαλύψτε πώς να εισαγάγετε και να χειρίζεστε διάφορα σχήματα, συμπεριλαμβανομένων των ομαδικών σχημάτων και των προκαθορισμένων σχεδίων, σε έγγραφα Word.
 
 {{< tutorial-card link="./net/working-with-shapes/add-group-shape/" title="Δημιουργήστε σχήμα ομάδας στο έγγραφο Word " imgSrc="/words/net/working-with-shapes/add-group-shape/images/thumb.png" >}}
 {{< tutorial-card link="./net/working-with-shapes/insert-shape/" title="Εισαγωγή μορφών σε έγγραφα Word " imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Δουλεύοντας με το Watermark στο Aspose.Words για το .NET](./net/working-with- watermark)
+### [Δουλεύοντας με το Watermark στο Aspose.Words για το .NET](./net/working-with-watermark)
 Μάθετε να προσθέτετετε σημεία ύδρευσης κειμένου και εικόνας στα έγγραφα του Word για σκοπούς εμπορικής σημασίας ή ασφάλειας.
 {{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="Προσθήκη κειμένου σημάδι νερού στο έγγραφο Word " imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}

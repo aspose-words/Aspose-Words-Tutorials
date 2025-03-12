@@ -73,13 +73,13 @@ Explore recursos relacionados à fonte, como estilos de fonte, espaçamento de l
 {{< tutorial-card link="./font-styling/set-font-emphasis-mark/" title="Coloque o sinal de ênfase no documento de Word" imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Trabalhando com campos de formulário em Aspose.Words para .NET](./working- with-form-fields/)
+## [Trabalhando com campos de formulário em Aspose.Words para .NET](./working-with-form-fields/)
 Descubra como inserir e gerenciar campos de formulário, como entrada de texto, listas descontraídas e caixas de verificação em documentos do Word.
 
 {{< tutorial-card link="./working-with-form-fields/insert-form-fields/" title="Insira um campo de formulário combo em documento de texto" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Trabalhando com cabeçalhos e calçados em Aspose.Words para .NET](./working- with-headers-and-footers/)
+## [Trabalhando com cabeçalhos e calçados em Aspose.Words para .NET](./working-with-headers-and-footers/)
 Aprenda a criar e manipular cabeçalhos e rodapé, incluindo adicionar imagens, números de páginas e texto.
 
 {{< tutorial-card link="./header-footer-formatting/create-header-footer/" title="Crie documento de texto com cabeçalho e rodapé" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
@@ -100,7 +100,7 @@ Descubra como inserir e manipular várias formas, incluindo formas agrupadas e d
 {{< tutorial-card link="./working-with-shapes/insert-shape/" title="Insira formas em documentos de texto" imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Trabalhando com Watermark em Aspose.Words para .NET](./working-with- watermark)
+## [Trabalhando com Watermark em Aspose.Words para .NET](./working-with-watermark)
 Aprenda a adicionar marcas de água de texto e imagem aos documentos do Word para fins de marca ou segurança.
 {{< tutorial-card link="./working-with-watermark/add-text-watermark/" title="Adicionar um watermark de texto no documento do Word" imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}

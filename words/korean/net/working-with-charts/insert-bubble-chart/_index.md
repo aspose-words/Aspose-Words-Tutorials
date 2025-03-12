@@ -37,7 +37,7 @@ url: /ko/net/working-with-charts/insert-bubble-chart/
    ```  
 
 4. 라이센스를 추가  
-   전체 기능을 위해 라이선스를 신청하세요.[임시 라이센스 페이지를 설정](https://purchase.aspose.com/temporary- license/)\- 그래  
+   전체 기능을 위해 라이선스를 신청하세요.[임시 라이센스 페이지를 설정](https://purchase.aspose.com/temporary-license/)\- 그래  
 
 ## 또한 참조
 [Aspose.Word for .NET 문서](https://docs.aspose.com/words/net/)

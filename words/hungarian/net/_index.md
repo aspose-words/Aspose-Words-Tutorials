@@ -45,7 +45,7 @@ Ismerje meg, hogyan lehet létrehozni, formátálni és személyre szabni a Word
 {{< tutorial-card link="./working-with-table-styles-and-formatting/table-tittle-and-description/" title="Tűv és leírás Wordben" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Dokumentumformátálás az Aspose.Words segítségével .NET-hez](./document- formatting/)
+## [Dokumentumformátálás az Aspose.Words segítségével .NET-hez](./document-formatting/)
 Megtudom, hogyan lehet különböző formátációs lehetőségeket alkalmazni a bekezdésekre, listákra és dokumentumelemekre, hogy a Word fájlok vizuális vonzóssága javuljon.
 
 {{< tutorial-card link="./document-styling/apply-border-and-shading/" title="A Aspose.Words című cikkben a határok és árnyékok alkalmazása" imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
@@ -54,7 +54,7 @@ Megtudom, hogyan lehet különböző formátációs lehetőségeket alkalmazni a
 {{< tutorial-card link="./document-styling/paragraph-formatting/" title="A formátum A bekezdés" imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [A .NET-hez használt Aspose.Words-ben dolgozunk a Charts-szel](./working-with- charts/)
+## [A .NET-hez használt Aspose.Words-ben dolgozunk a Charts-szel](./working-with-charts/)
 Tanuljon behelyezni és személyre szabni a különböző típusú grafikonokhoz, mint például a sáv, sor és szétszóró grafikonokhoz a Word dokumentumokban.
 {{< tutorial-card link="./working-with-charts/bounds-of-axis/" title="Készíts egy dokumentumot a térképekkel" imgSrc="/words/net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
 {{< tutorial-card link="./working-with-charts/create-chart-using-shape/" title="Készítsen egy vonalkeretet a Szövegben" imgSrc="/words/net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
@@ -86,21 +86,21 @@ Tanuljon meg, hogyan kell létrehozni és manipulálni a fejlevet és lábjegyze
 {{< tutorial-card link="./header-footer-formatting/insert-image/" title="Beilleszteni egy képet a Word Dokumentum Felsőcímbe" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [A .NET-hez használt Aspose.Words szakaszokkal való munka](./working-with- section/)
+## [A .NET-hez használt Aspose.Words szakaszokkal való munka](./working-with-section/)
 Megtudom, hogyan kell dokumentumokat részekbe szerkezten, így különböző fejlevetés, lábnyomok és formázási stílusok.
 
 {{< tutorial-card link="./document-sections/add-section/" title="Új szakasz hozzáadása a Word dokumentumhoz" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
 {{< tutorial-card link="./document-sections/append-section-content/" title="A Word dokumentumok tartalmát hozzáadja és előkészíti" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [A formákkal a .NET-ben dolgozom az Aspose.Words programban](./working-with- shapes/)
+## [A formákkal a .NET-ben dolgozom az Aspose.Words programban](./working-with-shapes/)
 Kiderítse, hogyan lehet különböző formákat, beleértve a csoportosított formákat és előre meghatározott rajzokat, behelyezni és manipulálni a Word dokumentumokban.
 
 {{< tutorial-card link="./working-with-shapes/add-group-shape/" title="Tárgyformát készíts a Word dokumentumban" imgSrc="/words/net/working-with-shapes/add-group-shape/images/thumb.png" >}}
 {{< tutorial-card link="./working-with-shapes/insert-shape/" title="Készítők a Word dokumentumokban" imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [A Watermark-tal dolgozom az Aspose.Words-ben a .NET-nél](./working-with- watermark)
+## [A Watermark-tal dolgozom az Aspose.Words-ben a .NET-nél](./working-with-watermark)
 Tanuljon hozzáadni szöveges és képes vízjelzőket a Word dokumentumokra márka vagy biztonsági célokra.
 {{< tutorial-card link="./working-with-watermark/add-text-watermark/" title="Töltse hozzá a szöveget a Word dokumentumhoz" imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}

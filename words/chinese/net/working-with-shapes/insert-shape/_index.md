@@ -37,7 +37,7 @@ url: /zh/net/working-with-shapes/insert-shape/
    ```  
 
 4. 激活许可证 (可选):  
-   如果您有有效的许可证,请将其应用到您的项目中,以避免限制.[购买许可证](https://purchase.aspose.com/buy)或是得到一个[临时许可证](https://purchase.aspose.com/temporary- license/)现在,我们要去.  
+   如果您有有效的许可证,请将其应用到您的项目中,以避免限制.[购买许可证](https://purchase.aspose.com/buy)或是得到一个[临时许可证](https://purchase.aspose.com/temporary-license/)现在,我们要去.  
 
 ## 查看
 [设置.Word为 .NET文档](https://docs.aspose.com/words/net/)

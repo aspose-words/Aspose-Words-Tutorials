@@ -73,13 +73,13 @@ Esplora le funzionalità relative ai caratteri come stili di caratteri, spaziame
 {{< tutorial-card link="./font-styling/set-font-emphasis-mark/" title="Impostare il segno di enfasi nel documento Word" imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Lavorare con campi di modulo in Aspose.Words per .NET](./working-with-form- fields/)
+## [Lavorare con campi di modulo in Aspose.Words per .NET](./working-with-form-fields/)
 Scopri come inserire e gestire campi di modulo come input di testo, elenchi a discesa e caselle di controllo nei documenti di Word.
 
 {{< tutorial-card link="./working-with-form-fields/insert-form-fields/" title="Inserire il campo di modulo nella casella combo nel documento Word" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Lavorare con Headers e Footers in Aspose.Words per .NET](./working-with- headers-and-footers/)
+## [Lavorare con Headers e Footers in Aspose.Words per .NET](./working-with-headers-and-footers/)
 Impara come creare e manipolare intestazioni e calcoli, inclusi l'aggiunta di immagini, numeri di pagina e testo.
 
 {{< tutorial-card link="./header-footer-formatting/create-header-footer/" title="Crea un documento Word con intestazione e calce" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}

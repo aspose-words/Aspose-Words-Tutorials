@@ -34,7 +34,7 @@ url: /zh-hant/net/working-with-table-styles-and-formatting/create-table-style/
    using Aspose.Words;
    ```
 4. 申請許可證 (可選):  
-   沒有任何樓盤符合您的搜尋結果[申請許可證](https://purchase.aspose.com/temporary- license/)或使用[免費試用](https://releases.aspose.com/words/net/)這就是我想要的.
+   沒有任何樓盤符合您的搜尋結果[申請許可證](https://purchase.aspose.com/temporary-license/)或使用[免費試用](https://releases.aspose.com/words/net/)這就是我想要的.
    
 ## 請見此文
 [標籤.Word為 .NET文档](https://docs.aspose.com/words/net/)

@@ -27,7 +27,7 @@ url: /th/net/header-footer-formatting/create-header-footer/
      Install-Package Aspose.Words  
      ```  
    * หรือมาแนะนํา DLL จากแพ็คเกจที่ดาวน์โหลด  
-3. สมัครใบอนุญาต (ทางเลือก): รับใบอนุญาต[เอกสารชั่วคราว](https://purchase.aspose.com/temporary- license/)หรือใบอนุญาตเต็ม[เป้าหมายซื้อ](https://purchase.aspose.com/buy)และนําไปใช้ในโครงการของคุณ  
+3. สมัครใบอนุญาต (ทางเลือก): รับใบอนุญาต[เอกสารชั่วคราว](https://purchase.aspose.com/temporary-license/)หรือใบอนุญาตเต็ม[เป้าหมายซื้อ](https://purchase.aspose.com/buy)และนําไปใช้ในโครงการของคุณ  
    ```csharp  
    License license = new License();  
    license.SetLicense("Aspose.Words.lic");  

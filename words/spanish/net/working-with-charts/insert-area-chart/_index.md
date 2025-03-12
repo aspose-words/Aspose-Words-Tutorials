@@ -33,7 +33,7 @@ Para seguir este ejemplo, asegúrese de que tiene Aspose.Words para .NET instala
    ```  
 
 3. Aplicar una licencia (opcional):  
-   Para obtener toda la funcionalidad sin limitaciones de evaluación, solicite una licencia.[¿Qué quieres decir?](https://purchase.aspose.com/buy)o solicitar una [licencia temporal gratuita](https://purchase.aspose.com/temporary- license)¿ Qué ?  
+   Para obtener toda la funcionalidad sin limitaciones de evaluación, solicite una licencia.[¿Qué quieres decir?](https://purchase.aspose.com/buy)o solicitar una [licencia temporal gratuita](https://purchase.aspose.com/temporary-license)¿ Qué ?  
 
 4. Añadir referencias del espacio de nombres:  
    Asegúrese de que los siguientes espacios de nombres estén incluidos en su proyecto:  

@@ -31,7 +31,7 @@ url: /ar/net/document-styling/multilevel-list-formatting/
    using Aspose.Words.Tables;
    ```
 4. التقدم بطلب للحصول على الترخيص (اختياري):  
-   لاستخدام النسخة الكاملة[تطبيق رخصة](https://purchase.aspose.com/temporary- license/)أو استخدام[المحاكمة المجانية](https://releases.aspose.com/words/net/). . .  
+   لاستخدام النسخة الكاملة[تطبيق رخصة](https://purchase.aspose.com/temporary-license/)أو استخدام[المحاكمة المجانية](https://releases.aspose.com/words/net/). . .  
 
 
 ## انظر أيضاً

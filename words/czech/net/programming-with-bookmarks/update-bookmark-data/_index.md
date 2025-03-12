@@ -21,7 +21,7 @@ Už jste se někdy setkali se situací, kdy jste potřebovali dynamicky aktualiz
 
 Než se ponoříme do kódu, ujistěte se, že máte k dispozici potřebné nástroje:
 
--  Aspose.Words for .NET: Toto je výkonná knihovna, která vám umožňuje pracovat s dokumenty Wordu programově. Přejděte do sekce stahování na webu Aspose[Odkaz ke stažení](https://releases.aspose.com/words/net/) získat vaši kopii. - Můžete se rozhodnout pro bezplatnou zkušební verzi nebo prozkoumat různé možnosti licencování[odkaz](https://purchase.aspose.com/buy).
+-  Aspose.Words for .NET: Toto je výkonná knihovna, která vám umožňuje pracovat s dokumenty Wordu programově. Přejděte do sekce stahování na webu Aspose[Odkaz ke stažení](https://releases.aspose.com/words/net/) získat vaši kopii. -Můžete se rozhodnout pro bezplatnou zkušební verzi nebo prozkoumat různé možnosti licencování[odkaz](https://purchase.aspose.com/buy).
 - Vývojové prostředí .NET: Visual Studio, Visual Studio Code nebo jakékoli jiné .NET IDE dle vašeho výběru poslouží jako vaše vývojové hřiště.
 - Ukázkový dokument aplikace Word: Vytvořte jednoduchý dokument aplikace Word (např. "Bookmarks.docx") obsahující nějaký text a vložte do něj záložku (jak to udělat později), kterou si procvičíte.
 

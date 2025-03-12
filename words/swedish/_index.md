@@ -76,13 +76,13 @@ Utforska fontrelaterade funktioner som typstilar, linjeutrymme, betoning och and
 {{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Ställ betoning i Word-dokumentet " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Arbeta med formulärfält i Aspose.Words för .NET](./net/working-with-form- fields/)
+### [Arbeta med formulärfält i Aspose.Words för .NET](./net/working-with-form-fields/)
 Ta reda på hur man lägger in och hanterar formulärfält som textinmatning, nedkastade listor och kontrollfält i Word-dokument.
 
 {{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Lägg in ett formulärfält i Word- dokumentet" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Arbeta med header och fotare i Aspose.Words för .NET](./net/working-with- headers-and-footers/)
+### [Arbeta med header och fotare i Aspose.Words för .NET](./net/working-with-headers-and-footers/)
 Lär dig hur man skapar och manipulerar rubriker och fotor, inklusive att lägga till bilder, sidnumrar och text.
 
 {{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Skapa Word-dokument med höjd och fot" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}

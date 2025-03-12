@@ -28,7 +28,7 @@ url: /th/net/font-styling/font-formatting/
      ```
    * หรือดาวน์โหลด DLL ได้โดยตรงจาก [การตั้งเป้าเว็บไซต์](https://www.aspose.com). .
 3. การสมัครใบอนุญาต (ทางเลือก):  
-   เพื่อใช้ฉบับเต็ม[ใช้ใบอนุญาต](https://purchase.aspose.com/temporary- license/)หรือใช้ [ทดลองใช้ฟรี](https://releases.aspose.com/words/net/). .  
+   เพื่อใช้ฉบับเต็ม[ใช้ใบอนุญาต](https://purchase.aspose.com/temporary-license/)หรือใช้ [ทดลองใช้ฟรี](https://releases.aspose.com/words/net/). .  
 
 ## ดูอีกด้วย
 [Aspose.Word สําหรับเอกสาร .NET](https://docs.aspose.com/words/net/)

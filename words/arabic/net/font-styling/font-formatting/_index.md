@@ -28,7 +28,7 @@ url: /ar/net/font-styling/font-formatting/
      ```
    * أو تنزيل DLL مباشرة من [الموقع الإلكتروني](https://www.aspose.com). . .
 3. التقدم بطلب للحصول على الترخيص (اختياري):  
-   لاستخدام النسخة الكاملة[تطبيق رخصة](https://purchase.aspose.com/temporary- license/)أو استخدام[المحاكمة المجانية](https://releases.aspose.com/words/net/). . .  
+   لاستخدام النسخة الكاملة[تطبيق رخصة](https://purchase.aspose.com/temporary-license/)أو استخدام[المحاكمة المجانية](https://releases.aspose.com/words/net/). . .  
 
 ## انظر أيضاً
 [Aspose.Word للمستندات .NET](https://docs.aspose.com/words/net/)

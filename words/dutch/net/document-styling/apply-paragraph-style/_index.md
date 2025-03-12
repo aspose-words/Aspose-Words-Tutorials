@@ -28,7 +28,7 @@ Aspose.Words voor .NET stelt ontwikkelaars in staat om Word-documenten programma
    * Zoek naar `Aspose.Words`In de NuGet pakketmanager klik op Installeer.  
 
 3. Verzoek een licentie (optioneel):  
-   Om de beoordelingsbeperkingen te voorkomen, moet u een vergunning aanvragen.[Tijdelijke licentie hier](https://purchase.aspose.com/temporary- license/)of een licentie kopen bij de [Verkoop van de producten](https://purchase.aspose.com/buy)\- Ik heb het niet gedaan .  
+   Om de beoordelingsbeperkingen te voorkomen, moet u een vergunning aanvragen.[Tijdelijke licentie hier](https://purchase.aspose.com/temporary-license/)of een licentie kopen bij de [Verkoop van de producten](https://purchase.aspose.com/buy)\- Ik heb het niet gedaan .  
 
 ## Zie ook
 [Aspose.Word voor .NET-documentatie](https://docs.aspose.com/words/net/)

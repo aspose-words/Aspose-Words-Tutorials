@@ -21,7 +21,7 @@ Czy kiedykolwiek spotkałeś się z sytuacją, w której musiałeś dynamicznie 
 
 Zanim zagłębimy się w kod, upewnijmy się, że masz do dyspozycji niezbędne narzędzia:
 
--  Aspose.Words dla .NET: To potężna biblioteka, która umożliwia programową pracę z dokumentami Word. Przejdź do sekcji pobierania na stronie internetowej Aspose[Link do pobrania](https://releases.aspose.com/words/net/) aby pobrać swoją kopię. - Możesz zdecydować się na bezpłatną wersję próbną lub zapoznać się z różnymi opcjami licencjonowania[połączyć](https://purchase.aspose.com/buy).
+-  Aspose.Words dla .NET: To potężna biblioteka, która umożliwia programową pracę z dokumentami Word. Przejdź do sekcji pobierania na stronie internetowej Aspose[Link do pobrania](https://releases.aspose.com/words/net/) aby pobrać swoją kopię. -Możesz zdecydować się na bezpłatną wersję próbną lub zapoznać się z różnymi opcjami licencjonowania[połączyć](https://purchase.aspose.com/buy).
 - Środowisko programistyczne .NET: Visual Studio, Visual Studio Code lub inne dowolne środowisko IDE .NET będzie stanowić plac zabaw dla Twoich potrzeb programistycznych.
 - Przykładowy dokument Word: Utwórz prosty dokument Word (np. „Zakładki.docx”) zawierający tekst i wstaw zakładkę (później pokażemy, jak to zrobić), aby poćwiczyć.
 

@@ -18,7 +18,7 @@ Aspose.Wordsは,開発者が .NETアプリケーションで文書操作を最�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [.NET のAspose.Wordsでドキュメントビルダーを使用してコンテンツを追加する ](./add-content-using-document- builder/)
+## [.NET のAspose.Wordsでドキュメントビルダーを使用してコンテンツを追加する ](./add-content-using-document-builder/)
 文書作成者 クラスを使用して,Word ドキュメントにテキスト,テーブル,画像,その他の要素をプログラム的に挿入する方法について学びましょう.
 
 {{< tutorial-card link="./add-content-using-document-builder/build-table/" title="Aspose.Wordsを使って表でWordドキュメントを作成する" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}
@@ -30,7 +30,7 @@ Aspose.Wordsは,開発者が .NETアプリケーションで文書操作を最�
 {{< tutorial-card link="./add-content-using-document-builder/insert-table-contents/" title=".NETでコンテンツ表を備えたWordドキュメントを作成する" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [.NET のAspose.Wordsでテーブルスタイルとフォーマットを使用する](./working-with-table-styles-and- formatting/)
+## [.NET のAspose.Wordsでテーブルスタイルとフォーマットを使用する](./working-with-table-styles-and-formatting/)
 境界やスタイル,セルパディングなどを含む,Word ドキュメントのテーブルを作成し,フォーマットし,カスタマイズする方法について学びましょう.
 
 {{< tutorial-card link="./working-with-table-styles-and-formatting/apply-outline-border/" title="図表 に 概要 境界 を 適用 する" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}

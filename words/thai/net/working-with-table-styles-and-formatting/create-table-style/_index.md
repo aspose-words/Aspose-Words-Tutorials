@@ -34,7 +34,7 @@ url: /th/net/working-with-table-styles-and-formatting/create-table-style/
    using Aspose.Words;
    ```
 4. การสมัครใบอนุญาต (ทางเลือก):  
-   เพื่อใช้ฉบับเต็ม[ใช้ใบอนุญาต](https://purchase.aspose.com/temporary- license/)หรือใช้ [ทดลองใช้ฟรี](https://releases.aspose.com/words/net/). .
+   เพื่อใช้ฉบับเต็ม[ใช้ใบอนุญาต](https://purchase.aspose.com/temporary-license/)หรือใช้ [ทดลองใช้ฟรี](https://releases.aspose.com/words/net/). .
    
 ## ดูอีกด้วย
 [Aspose.Word สําหรับเอกสาร .NET](https://docs.aspose.com/words/net/)

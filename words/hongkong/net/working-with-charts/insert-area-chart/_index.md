@@ -33,7 +33,7 @@ url: /zh-hant/net/working-with-charts/insert-area-chart/
    ```  
 
 3. 申請許可證 (可選擇):  
-   請申請許可證, 請購買許可證.[這裡](https://purchase.aspose.com/buy)或要求提供[免費的暫時許可證](https://purchase.aspose.com/temporary- license)這就是我想要的.  
+   請申請許可證, 請購買許可證.[這裡](https://purchase.aspose.com/buy)或要求提供[免費的暫時許可證](https://purchase.aspose.com/temporary-license)這就是我想要的.  
 
 4. 添加名稱空間參考:  
    確保您的項目包含以下名稱空間:  

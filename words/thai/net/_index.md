@@ -18,7 +18,7 @@ Aspose.Words สําหรับบทเรียนวิวชาการ 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [เพิ่มเนื้อหาโดยใช้เอกสาร Builder ใน Aspose.Words สําหรับ .NET ](./add- content-using-document-builder/)
+## [เพิ่มเนื้อหาโดยใช้เอกสาร Builder ใน Aspose.Words สําหรับ .NET ](./add-content-using-document-builder/)
 เรียนรู้วิธีการใส่ข้อความ ตารางภาพ และองค์ประกอบอื่นๆ ในเอกสาร Word โดยใช้โปรแกรม โดยใช้ คลาส Document Builder
 
 {{< tutorial-card link="./add-content-using-document-builder/build-table/" title="สร้างเอกสาร Word กับตาราง โดยใช้ Aspose.Words" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}
@@ -73,13 +73,13 @@ Aspose.Words สําหรับบทเรียนวิวชาการ 
 {{< tutorial-card link="./font-styling/set-font-emphasis-mark/" title="การ ใส่ หมาย ความ ย้ํา ใน หลักสูตร Word" imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [การทํางานกับฟอร์มฟิลด์ใน Aspose.Words สําหรับ .NET](./working-with-form- fields/)
+## [การทํางานกับฟอร์มฟิลด์ใน Aspose.Words สําหรับ .NET](./working-with-form-fields/)
 ค้นหาวิธีการใส่และจัดการตัวกลางแบบ เช่น การใส่เอกสาร, รายการถอดลง, และกล่องตรวจสอบในเอกสาร Word
 
 {{< tutorial-card link="./working-with-form-fields/insert-form-fields/" title="ใส่กรอบแบบเมล์ Combo ในเอกสาร Word" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [การทํางานกับหัวข้อและรองเท้าใน Aspose.Words สําหรับ .NET](./working-with- headers-and-footers/)
+## [การทํางานกับหัวข้อและรองเท้าใน Aspose.Words สําหรับ .NET](./working-with-headers-and-footers/)
 เรียนรู้วิธีสร้างและการควบคุมหัวข้อและรองเท้า
 
 {{< tutorial-card link="./header-footer-formatting/create-header-footer/" title="สร้างเอกสาร Word ด้วย Header และ Footer" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
@@ -100,7 +100,7 @@ Aspose.Words สําหรับบทเรียนวิวชาการ 
 {{< tutorial-card link="./working-with-shapes/insert-shape/" title="ใส่รูปแบบในเอกสาร Word" imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [การทํางานกับ Watermark ใน Aspose.Words สําหรับ .NET](./working-with- watermark)
+## [การทํางานกับ Watermark ใน Aspose.Words สําหรับ .NET](./working-with-watermark)
 เรียนรู้การเพิ่ม watermark ข้อความและภาพในเอกสาร Word เพื่อความหมายประจําสินค้าหรือความปลอดภัย
 {{< tutorial-card link="./working-with-watermark/add-text-watermark/" title="เพิ่มข้อความ watermark ในเอกสาร Word" imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}

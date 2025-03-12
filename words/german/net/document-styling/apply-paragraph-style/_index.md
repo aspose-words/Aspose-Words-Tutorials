@@ -28,7 +28,7 @@ Aspose.Words für .NET ermöglicht Entwicklern, Word-Dokumenten programmatisch m
    * Suchen Sie nach `"Aspose.Wörter"`klicken Sie auf Installieren.  
 
 3. Anmeldung einer Lizenz (optional):  
-   Um Einschränkungen bei der Bewertung zu vermeiden, kann man eine Lizenz beantragen.[\- Ein temporärer Lizenz .](https://purchase.aspose.com/temporary- license/)oder eine Lizenz bei der [Verpflegung](https://purchase.aspose.com/buy)\- Ich weiß .  
+   Um Einschränkungen bei der Bewertung zu vermeiden, kann man eine Lizenz beantragen.[\- Ein temporärer Lizenz .](https://purchase.aspose.com/temporary-license/)oder eine Lizenz bei der [Verpflegung](https://purchase.aspose.com/buy)\- Ich weiß .  
 
 ## Siehe auch
 [Aspose.Word für .NET-Dokumentation](https://docs.aspose.com/words/net/)

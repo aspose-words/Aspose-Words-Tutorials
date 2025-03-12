@@ -34,7 +34,7 @@ url: /zh-hant/net/working-with-table-styles-and-formatting/set-table-cell-format
    ```  
 
 3. 申請許可證 (可選擇):  
-   請申請許可證,[這裡](https://purchase.aspose.com/buy)或是獲得[暫時許可證](https://purchase.aspose.com/temporary- license/)請使用以下代碼申請許可證:  
+   請申請許可證,[這裡](https://purchase.aspose.com/buy)或是獲得[暫時許可證](https://purchase.aspose.com/temporary-license/)請使用以下代碼申請許可證:  
    ```csharp
    License license = new License();
    license.SetLicense("Aspose.Words.lic");
@@ -48,7 +48,7 @@ url: /zh-hant/net/working-with-table-styles-and-formatting/set-table-cell-format
    ```  
 
 4. 申請許可證 (可選):  
-   沒有任何樓盤符合您的搜尋結果[申請許可證](https://purchase.aspose.com/temporary- license/)或使用[免費試用](https://releases.aspose.com/words/net/)這就是我想要的.
+   沒有任何樓盤符合您的搜尋結果[申請許可證](https://purchase.aspose.com/temporary-license/)或使用[免費試用](https://releases.aspose.com/words/net/)這就是我想要的.
    
 ## 請見此文
 [標籤.Word為 .NET文档](https://docs.aspose.com/words/net/)

@@ -21,7 +21,7 @@ Word 文書内の特定のセクションを動的に更新する必要がある
 
 コードに進む前に、必要なツールが揃っていることを確認しましょう。
 
--  Aspose.Words for .NET: これは、Word 文書をプログラムで操作できるようにする強力なライブラリです。Aspose Web サイトのダウンロード セクションにアクセスしてください。[ダウンロードリンク](https://releases.aspose.com/words/net/)コピーを入手してください。 - 無料トライアルを選択するか、さまざまなライセンスオプションを調べることができます[リンク](https://purchase.aspose.com/buy).
+-  Aspose.Words for .NET: これは、Word 文書をプログラムで操作できるようにする強力なライブラリです。Aspose Web サイトのダウンロード セクションにアクセスしてください。[ダウンロードリンク](https://releases.aspose.com/words/net/)コピーを入手してください。 -無料トライアルを選択するか、さまざまなライセンスオプションを調べることができます[リンク](https://purchase.aspose.com/buy).
 - .NET 開発環境: Visual Studio、Visual Studio Code、または任意の他の .NET IDE が開発のプレイグラウンドとして機能します。
 - サンプル Word 文書: テキストを含む簡単な Word 文書 (「Bookmarks.docx」など) を作成し、ブックマークを挿入して (この方法については後で説明します)、練習します。
 

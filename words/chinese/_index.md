@@ -32,7 +32,7 @@ Aspose.Words视觉教程为所有Aspose.Words产品提供了步骤指南,包括 
 {{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="插入一个简单的列表 " imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [在 .NET 中使用Aspose.Words中的表格风格和格式化](./net/working-with-table-styles-and- formatting/)
+### [在 .NET 中使用Aspose.Words中的表格风格和格式化](./net/working-with-table-styles-and-formatting/)
 了解如何创建,格式化和定制Word文档中的表格,包括设置边界,风格和细胞填充.
 
 {{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-outline-border/" title="用字面上表格的概要边界" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
@@ -47,7 +47,7 @@ Aspose.Words视觉教程为所有Aspose.Words产品提供了步骤指南,包括 
 {{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="在Word中添加标题和描述" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [在 .NET 版本中的Aspose.Words中使用文件构建器添加内容](./net/add-content-using-document- builder/)
+### [在 .NET 版本中的Aspose.Words中使用文件构建器添加内容](./net/add-content-using-document-builder/)
 通过使用文件构建器类,学习如何编程地插入文本,表格,图像和其他元素到Word文档中.
 
 {{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="创建一个 Word 文档" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}

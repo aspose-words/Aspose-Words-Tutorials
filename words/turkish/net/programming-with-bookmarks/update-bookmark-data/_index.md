@@ -21,7 +21,7 @@ Word belgesinde belirli bölümleri dinamik olarak güncellemeniz gereken bir du
 
 Koda dalmadan önce, gerekli araçların elinizde olduğundan emin olalım:
 
--  Aspose.Words for .NET: Bu, Word belgeleriyle programatik olarak çalışmanızı sağlayan güçlü bir kütüphanedir. Aspose web sitesindeki indirme bölümüne gidin[İndirme bağlantısı](https://releases.aspose.com/words/net/) Kopyanızı almak için. - Ücretsiz denemeyi seçebilir veya çeşitli lisanslama seçeneklerini inceleyebilirsiniz[bağlantı](https://purchase.aspose.com/buy).
+-  Aspose.Words for .NET: Bu, Word belgeleriyle programatik olarak çalışmanızı sağlayan güçlü bir kütüphanedir. Aspose web sitesindeki indirme bölümüne gidin[İndirme bağlantısı](https://releases.aspose.com/words/net/) Kopyanızı almak için. -Ücretsiz denemeyi seçebilir veya çeşitli lisanslama seçeneklerini inceleyebilirsiniz[bağlantı](https://purchase.aspose.com/buy).
 - .NET Geliştirme Ortamı: Visual Studio, Visual Studio Code veya seçtiğiniz herhangi bir .NET IDE, geliştirme alanınız olarak hizmet edecektir.
 - Örnek Bir Word Belgesi: Biraz metin içeren basit bir Word belgesi (örneğin "Bookmarks.docx") oluşturun ve içine pratik yapmak için bir yer imi ekleyin (bunu nasıl yapacağınızı daha sonra ele alacağız).
 

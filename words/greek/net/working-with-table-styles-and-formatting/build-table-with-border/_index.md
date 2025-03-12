@@ -27,7 +27,7 @@ url: /el/net/working-with-table-styles-and-formatting/build-table-with-border/
    * Ανοίξτε το έργο σας στο Visual Studio.  
    * Πηγαίνετε στα εργαλεία > Διαχειριστής πακέτων NuGet > Διαχειρίστε τα πακέτα NuGet για Λύση.  
    * Ψάξε για`"Αποκοινώνεστε.`και κάντε κλικ στην εγκατάσταση.  
-3. Εφαρμογή άδειας:[Σχεδιάστε σελίδα αγοράς](https://purchase.aspose.com/buy)ή χρησιμοποιήστε [προσωρινή άδεια](https://purchase.aspose.com/temporary- license/)για σκοπούς αξιολόγησης.  
+3. Εφαρμογή άδειας:[Σχεδιάστε σελίδα αγοράς](https://purchase.aspose.com/buy)ή χρησιμοποιήστε [προσωρινή άδεια](https://purchase.aspose.com/temporary-license/)για σκοπούς αξιολόγησης.  
 4. Προσθήκη Χώρου ονομάτων: Προσθήκη `"Αποκοινώνεστε.`Χώρος ονομάτων στον κωδικό σας:  
    ```csharp
    using Aspose.Words;

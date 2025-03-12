@@ -37,7 +37,7 @@ url: /th/net/working-with-charts/insert-bubble-chart/
    ```  
 
 4. เพิ่มใบอนุญาต  
-   สําหรับการทํางานอย่างเต็มที่ คุณสามารถขอใบอนุญาตได้[เปิดหน้าใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary- license/). .  
+   สําหรับการทํางานอย่างเต็มที่ คุณสามารถขอใบอนุญาตได้[เปิดหน้าใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/). .  
 
 ## ดูอีกด้วย
 [Aspose.Word สําหรับเอกสาร .NET](https://docs.aspose.com/words/net/)

@@ -18,7 +18,7 @@ Aspose.Words .NET için geliştiricilerin .NET uygulamalarında belge manipülas
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [.NET için Aspose.Words'te Belge Oluşturucu Kullanarak İçerik Ekle ](./add- content-using-document-builder/)
+## [.NET için Aspose.Words'te Belge Oluşturucu Kullanarak İçerik Ekle ](./add-content-using-document-builder/)
 Word belgeleri'ne metin, tablolar, resimler ve diğer öğeleri, Belge Oluşturucu sınıfını kullanarak programsal olarak nasıl ekleneceğini öğrenin.
 
 {{< tutorial-card link="./add-content-using-document-builder/build-table/" title="Aspose.Words kullanarak bir Word Belgesi oluşturun" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}
@@ -30,7 +30,7 @@ Word belgeleri'ne metin, tablolar, resimler ve diğer öğeleri, Belge Oluşturu
 {{< tutorial-card link="./add-content-using-document-builder/insert-table-contents/" title=".NET'de İçerik Tablosu ile Word Belgesi Oluştur" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [.NET için Aspose.Words'te Tablo Styles ve Formatting ile çalışmak](./working- with-table-styles-and-formatting/)
+## [.NET için Aspose.Words'te Tablo Styles ve Formatting ile çalışmak](./working-with-table-styles-and-formatting/)
 Sınırları, stilleri ve hücre dolgulamasını oluşturmak gibi Word belgelerindaki tabloları nasıl oluşturulacağını, biçimleneceğini ve özelleştireceğini öğrenin.
 
 {{< tutorial-card link="./working-with-table-styles-and-formatting/apply-outline-border/" title="Bir tabloya Sohbet Sınırı Kullan" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
@@ -73,7 +73,7 @@ Word belgelerindeki yazı tipi stilleri, satır aralığı, vurgu işaretleri ve
 {{< tutorial-card link="./font-styling/set-font-emphasis-mark/" title="Word Belgesinde Temizlik Markası Yap" imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [.NET için Aspose.Words'te Form Alanları ile çalışmak](./working-with-form- fields/)
+## [.NET için Aspose.Words'te Form Alanları ile çalışmak](./working-with-form-fields/)
 Word belgeleri içinde metin girimi, düşüş listeleri ve kontrol kutuları gibi form alanlarını nasıl ekleyeceğinizi ve yönetileceğinizi öğrenin.
 
 {{< tutorial-card link="./working-with-form-fields/insert-form-fields/" title="Word Belgesine Combo Box Form Alanı Ekle" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}

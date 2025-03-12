@@ -18,7 +18,7 @@ Aspose.Words pro vizuální tutoriály .NET pokrývají širokou škálu přípa
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Přidejte obsah pomocí stavitel dokumentu v Aspose.Words pro .NET ](./add- content-using-document-builder/)
+## [Přidejte obsah pomocí stavitel dokumentu v Aspose.Words pro .NET ](./add-content-using-document-builder/)
 Naučte se programaticky vložit text, tabulky, obrázky a další prvky do dokumentů Word pomocí třídy Builder.
 
 {{< tutorial-card link="./add-content-using-document-builder/build-table/" title="Vytvořte dokument Word s tabulkou pomocí Aspose.Words" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}
@@ -30,7 +30,7 @@ Naučte se programaticky vložit text, tabulky, obrázky a další prvky do doku
 {{< tutorial-card link="./add-content-using-document-builder/insert-table-contents/" title="Vytvořit Word dokument s tabulkou obsahu v .NET" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Práce s stolními styly a formátováním v Aspose.Words pro .NET](./working- with-table-styles-and-formatting/)
+## [Práce s stolními styly a formátováním v Aspose.Words pro .NET](./working-with-table-styles-and-formatting/)
 Zjistěte, jak vytvářet, formátovat a přizpůsobit tabulky v dokumentech Word, včetně nastavení hranic, stylů a plnění buněk.
 
 {{< tutorial-card link="./working-with-table-styles-and-formatting/apply-outline-border/" title="Použijte v slově hranice nápisu na stůl" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
@@ -73,13 +73,13 @@ Prozkoumejte funkce související s písmenami, jako jsou styly písmen, rozchod
 {{< tutorial-card link="./font-styling/set-font-emphasis-mark/" title="Uveďte důrazný znak v dokumentu Word" imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Pracujeme s polemi formulářů v Aspose.Words pro .NET](./working-with-form- fields/)
+## [Pracujeme s polemi formulářů v Aspose.Words pro .NET](./working-with-form-fields/)
 Zjistěte, jak vložit a spravovat pole formulářů, jako jsou vstupní text, odrazové seznamy a kontrolní krabice v dokumentech Word.
 
 {{< tutorial-card link="./working-with-form-fields/insert-form-fields/" title="Vložte pole formuláře do dokumentu Word" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Práce s hlavičkami a chodidly v Aspose.Words pro .NET](./working-with- headers-and-footers/)
+## [Práce s hlavičkami a chodidly v Aspose.Words pro .NET](./working-with-headers-and-footers/)
 Naučte se vytvářet a upravovat nadpisy a podpisy, včetně přidávání obrázků, čísel stránek a textu.
 
 {{< tutorial-card link="./header-footer-formatting/create-header-footer/" title="Vytvořte dokument Word pomocí hlavy a podstavky" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}

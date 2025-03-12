@@ -59,7 +59,7 @@ Tìm hiểu cách chèn văn bản, bảng, hình ảnh và các yếu tố khá
 {{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title="Tạo tài liệu Word với bảng nội dung trong .NET" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Phương thức định dạng tài liệu với Aspose.Words cho .NET](./net/document- formatting/)
+### [Phương thức định dạng tài liệu với Aspose.Words cho .NET](./net/document-formatting/)
 Hiểu cách áp dụng các tùy chọn định dạng khác nhau cho các đoạn văn, danh sách và các yếu tố tài liệu để tăng cường sự hấp dẫn trực quan của các tệp Word của bạn.
 
 {{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Sử dụng biên giới và bóng cho đoạn trong Aspose.Words " imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
@@ -76,7 +76,7 @@ Khám phá các tính năng liên quan đến phông chữ như phong cách phô
 {{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Đặt dấu nhấn mạnh trong Word Document " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Làm việc với các trường biểu mẫu trong Aspose.Words cho .NET](./net/working- with-form-fields/)
+### [Làm việc với các trường biểu mẫu trong Aspose.Words cho .NET](./net/working-with-form-fields/)
 Tìm hiểu cách chèn và quản lý các trường biểu mẫu như nhập văn bản, danh sách thả xuống và hộp kiểm trong tài liệu Word.
 
 {{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Nhập trường biểu mẫu hộp combo vào Word Document" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
@@ -89,7 +89,7 @@ Học cách tạo và điều khiển tiêu đề và chân chữ, bao gồm th�
 {{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Nhập một hình ảnh vào Word Document Header" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Làm việc với các phần trong Aspose.Words cho .NET](./net/working-with- section/)
+### [Làm việc với các phần trong Aspose.Words cho .NET](./net/working-with-section/)
 Hiểu cách cấu trúc tài liệu thành các phần, cho phép tiêu đề, chân chân và kiểu định dạng khác nhau.
 
 {{< tutorial-card link="./net/document-sections/add-section/" title="Thêm một phần mới vào Word Document" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
@@ -103,7 +103,7 @@ Tìm hiểu cách chèn và thao tác các hình dạng khác nhau, bao gồm h�
 {{< tutorial-card link="./net/working-with-shapes/insert-shape/" title="Thêm hình dạng vào Word Documents " imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Làm việc với Watermark trong Aspose.Words cho .NET](./net/working-with- watermark)
+### [Làm việc với Watermark trong Aspose.Words cho .NET](./net/working-with-watermark)
 Học cách thêm dấu nước văn bản và hình ảnh vào tài liệu Word để mục đích thương hiệu hoặc bảo mật.
 {{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="Thêm văn bản dấu nước vào Word Document " imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}

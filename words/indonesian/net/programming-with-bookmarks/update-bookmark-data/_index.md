@@ -21,7 +21,7 @@ Pernahkah Anda menghadapi situasi di mana Anda perlu memperbarui bagian tertentu
 
 Sebelum kita menyelami kodenya, mari pastikan Anda memiliki alat yang diperlukan:
 
--  Aspose.Words untuk .NET: Ini adalah pustaka andalan yang memungkinkan Anda bekerja dengan dokumen Word secara terprogram. Kunjungi bagian unduhan di situs web Aspose[Tautan unduhan](https://releases.aspose.com/words/net/) untuk mendapatkan salinan Anda. - Anda dapat memilih uji coba gratis atau menjelajahi berbagai opsi lisensi mereka[link](https://purchase.aspose.com/buy).
+-  Aspose.Words untuk .NET: Ini adalah pustaka andalan yang memungkinkan Anda bekerja dengan dokumen Word secara terprogram. Kunjungi bagian unduhan di situs web Aspose[Tautan unduhan](https://releases.aspose.com/words/net/) untuk mendapatkan salinan Anda. -Anda dapat memilih uji coba gratis atau menjelajahi berbagai opsi lisensi mereka[link](https://purchase.aspose.com/buy).
 - Lingkungan Pengembangan .NET: Visual Studio, Visual Studio Code, atau IDE .NET lain pilihan Anda akan berfungsi sebagai taman bermain pengembangan Anda.
 - Contoh Dokumen Word: Buat dokumen Word sederhana (seperti "Bookmarks.docx") yang berisi beberapa teks dan sisipkan bookmark (kami akan membahas cara melakukannya nanti) untuk berlatih.
 

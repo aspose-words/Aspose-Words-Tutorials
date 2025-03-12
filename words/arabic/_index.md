@@ -32,7 +32,7 @@ url: /ar/
 {{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="إضافة مخطط عمود بسيط في كلمة " imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [العمل مع أساليب الجدول وتصميم في Aspose.Words ل .NET](./net/working-with- table-styles-and-formatting/)
+### [العمل مع أساليب الجدول وتصميم في Aspose.Words ل .NET](./net/working-with-table-styles-and-formatting/)
 اكتشف كيفية إنشاء الجداول وتصميمها وتخصيصها في وثائق Word ، بما في ذلك تحديد الحدود والأساليب وتعبئة الخلايا.
 
 {{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-outline-border/" title="تطبيق الحدود المخططية على الجدول في الكلمة" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
@@ -47,7 +47,7 @@ url: /ar/
 {{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="إضافة العنوان والوصف إلى الجدول في Word" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [إضافة المحتوى باستخدام مبدع الوثائق في Aspose.Words ل .NET ](./net/add- content-using-document-builder/)
+### [إضافة المحتوى باستخدام مبدع الوثائق في Aspose.Words ل .NET ](./net/add-content-using-document-builder/)
 تعلم كيفية إدراج النص والجدوليات والصور والعناصر الأخرى في مستندات Word بشكل برمجي باستخدام فئة صانع الوثائق.
 
 {{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="إعداد وثيقة كلمات مع الجدول" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}
@@ -82,7 +82,7 @@ url: /ar/
 {{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="إدراج مربع شكل مشترك في ورقة الوثيقة" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [العمل مع الرأس والرجل في Aspose.Words ل .NET](./net/working-with-headers-and- footers/)
+### [العمل مع الرأس والرجل في Aspose.Words ل .NET](./net/working-with-headers-and-footers/)
 تعلم كيفية إنشاء وتلاعب بالعناوين الرئيسية والأسفل، بما في ذلك إضافة الصور وأرقام الصفحات والنص.
 
 {{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="إعداد مستند كلمات باستخدام العنوان والرجل" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}

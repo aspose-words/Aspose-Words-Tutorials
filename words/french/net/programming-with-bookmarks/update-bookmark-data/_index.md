@@ -21,7 +21,7 @@ Avez-vous déjà rencontré une situation dans laquelle vous deviez mettre à jo
 
 Avant de plonger dans le code, assurons-nous que vous disposez des outils nécessaires :
 
--  Aspose.Words pour .NET : il s'agit de la puissante bibliothèque qui vous permet de travailler avec des documents Word par programmation. Rendez-vous dans la section de téléchargement sur le site Web d'Aspose[Lien de téléchargement](https://releases.aspose.com/words/net/) pour récupérer votre exemplaire. - Vous pouvez opter pour un essai gratuit ou explorer leurs différentes options de licence[lien](https://purchase.aspose.com/buy).
+-  Aspose.Words pour .NET : il s'agit de la puissante bibliothèque qui vous permet de travailler avec des documents Word par programmation. Rendez-vous dans la section de téléchargement sur le site Web d'Aspose[Lien de téléchargement](https://releases.aspose.com/words/net/) pour récupérer votre exemplaire. -Vous pouvez opter pour un essai gratuit ou explorer leurs différentes options de licence[lien](https://purchase.aspose.com/buy).
 - Un environnement de développement .NET : Visual Studio, Visual Studio Code ou tout autre IDE .NET de votre choix servira de terrain de jeu de développement.
 - Un exemple de document Word : créez un document Word simple (comme « Bookmarks.docx ») contenant du texte et insérez un signet (nous verrons comment procéder plus tard) pour vous entraîner.
 
