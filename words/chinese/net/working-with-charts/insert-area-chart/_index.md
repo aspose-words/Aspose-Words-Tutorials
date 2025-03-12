@@ -33,7 +33,7 @@ url: /zh/net/working-with-charts/insert-area-chart/
    ```  
 
 3. 申请许可证 (可选):  
-   申请许可证,购买许可证[在这里](https://purchase.aspose.com/buy)或要求[免费临时许可证](https://purchase.aspose.com/temporary- license)现在,我们要去.  
+   申请许可证,购买许可证[在这里](https://purchase.aspose.com/buy)或要求[免费临时许可证](https://purchase.aspose.com/temporary-license)现在,我们要去.  
 
 4. 添加名区引用:  
    确保您的项目包含以下名字空间:  

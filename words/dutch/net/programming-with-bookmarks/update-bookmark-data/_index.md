@@ -21,7 +21,7 @@ Hebt u ooit een situatie meegemaakt waarin u specifieke secties in een Word-docu
 
 Voordat we in de code duiken, willen we ervoor zorgen dat u over de benodigde hulpmiddelen beschikt:
 
--  Aspose.Words voor .NET: Dit is de krachtige bibliotheek waarmee u programmatisch met Word-documenten kunt werken. Ga naar de downloadsectie op de Aspose-website[Downloadlink](https://releases.aspose.com/words/net/) om uw exemplaar te bemachtigen. - U kunt kiezen voor een gratis proefperiode of hun verschillende licentieopties verkennen[link](https://purchase.aspose.com/buy).
+-  Aspose.Words voor .NET: Dit is de krachtige bibliotheek waarmee u programmatisch met Word-documenten kunt werken. Ga naar de downloadsectie op de Aspose-website[Downloadlink](https://releases.aspose.com/words/net/) om uw exemplaar te bemachtigen. -U kunt kiezen voor een gratis proefperiode of hun verschillende licentieopties verkennen[link](https://purchase.aspose.com/buy).
 - Een .NET-ontwikkelomgeving: Visual Studio, Visual Studio Code of een andere .NET IDE naar keuze fungeert als uw ontwikkelingsomgeving.
 - Een voorbeeld van een Word-document: maak een eenvoudig Word-document (zoals 'Bladwijzers.docx') met wat tekst en voeg een bladwijzer toe (we leggen later uit hoe je dit doet) om mee te oefenen.
 

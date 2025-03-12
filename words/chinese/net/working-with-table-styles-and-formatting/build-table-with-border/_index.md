@@ -27,7 +27,7 @@ url: /zh/net/working-with-table-styles-and-formatting/build-table-with-border/
    * 在视觉工作室打开你的项目.  
    * 进入工具> NuGet 包管理器> 管理 NuGet 包解决方案.  
    * 搜索`"回答. 字"`然后点击安装.  
-3. 申请许可证:从 [设置购买页面](https://purchase.aspose.com/buy)或使用一个[临时许可证](https://purchase.aspose.com/temporary- license/)进行评估.  
+3. 申请许可证:从 [设置购买页面](https://purchase.aspose.com/buy)或使用一个[临时许可证](https://purchase.aspose.com/temporary-license/)进行评估.  
 4. 添加名区:添加 `"回答. 字"`在你的代码中命名空间:  
    ```csharp
    using Aspose.Words;

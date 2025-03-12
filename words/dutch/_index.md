@@ -76,13 +76,13 @@ Ontdek lettertypen, lijnspacing, nadrukken en andere typografie-instellingen in 
 {{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Leg nadruk op het Word-document " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Werken met formuliervelden in Aspose.Words voor .NET](./net/working-with- form-fields/)
+### [Werken met formuliervelden in Aspose.Words voor .NET](./net/working-with-form-fields/)
 Ontdek hoe u formuliervelden zoals tekstinvoer, drop-downlijsten en checkboxen in Word-documenten kunt insetten en beheren.
 
 {{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Voeg het formulierveld in het Word-document in" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Werk met Headers en Footers in Aspose.Words voor .NET](./net/working-with- headers-and-footers/)
+### [Werk met Headers en Footers in Aspose.Words voor .NET](./net/working-with-headers-and-footers/)
 Leer hoe je koppen en voetstukken kunt maken en manipuleren, met inbegrip van het toevoegen van beelden, pagina's en tekst.
 
 {{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Word Document maken met kop en voet" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}

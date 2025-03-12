@@ -34,7 +34,7 @@ url: /zh/net/working-with-table-styles-and-formatting/set-table-cell-formatting/
    ```  
 
 3. 申请许可证 (可选):  
-   为了消除评估限制,请申请许可证.[在这里](https://purchase.aspose.com/buy)或是得到一个[临时许可证](https://purchase.aspose.com/temporary- license/)然后,使用以下代码申请许可证:  
+   为了消除评估限制,请申请许可证.[在这里](https://purchase.aspose.com/buy)或是得到一个[临时许可证](https://purchase.aspose.com/temporary-license/)然后,使用以下代码申请许可证:  
    ```csharp
    License license = new License();
    license.SetLicense("Aspose.Words.lic");
@@ -48,7 +48,7 @@ url: /zh/net/working-with-table-styles-and-formatting/set-table-cell-formatting/
    ```  
 
 4. 申请许可证 (可选):  
-   为了使用完整版本,[申请许可证](https://purchase.aspose.com/temporary- license/)或使用一个[免费试验](https://releases.aspose.com/words/net/)现在,我们要去.
+   为了使用完整版本,[申请许可证](https://purchase.aspose.com/temporary-license/)或使用一个[免费试验](https://releases.aspose.com/words/net/)现在,我们要去.
    
 ## 查看
 [设置.Word为 .NET文档](https://docs.aspose.com/words/net/)

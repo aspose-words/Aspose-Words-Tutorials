@@ -30,7 +30,7 @@ url: /zh/net/working-with-table-styles-and-formatting/table-tittle-and-descripti
    ```
 
 2. 申请许可证 (可选):  
-   为了使用完整版本,[申请许可证](https://purchase.aspose.com/temporary- license/)或使用一个[免费试验](https://releases.aspose.com/words/net/)现在,我们要去.
+   为了使用完整版本,[申请许可证](https://purchase.aspose.com/temporary-license/)或使用一个[免费试验](https://releases.aspose.com/words/net/)现在,我们要去.
    
 ## 查看
 [设置.Word为 .NET文档](https://docs.aspose.com/words/net/)

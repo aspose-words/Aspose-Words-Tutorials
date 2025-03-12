@@ -30,7 +30,7 @@ url: /zh/net/
 {{< tutorial-card link="./add-content-using-document-builder/insert-table-contents/" title="在 .NET 中创建一个包含表的 Word 文档" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [在 .NET 中使用Aspose.Words中的表格风格和格式化](./working-with-table-styles-and- formatting/)
+## [在 .NET 中使用Aspose.Words中的表格风格和格式化](./working-with-table-styles-and-formatting/)
 了解如何创建,格式化和定制Word文档中的表格,包括设置边界,风格和细胞填充.
 
 {{< tutorial-card link="./working-with-table-styles-and-formatting/apply-outline-border/" title="用字面上表格的概要边界" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}

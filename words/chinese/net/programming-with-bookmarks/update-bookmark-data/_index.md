@@ -21,7 +21,7 @@ url: /zh/net/programming-with-bookmarks/update-bookmark-data/
 
 在深入研究代码之前，请确保您拥有必要的工具：
 
--  Aspose.Words for .NET：这是一个强大的库，可让您以编程方式处理 Word 文档。前往 Aspose 网站上的下载部分[下载链接](https://releases.aspose.com/words/net/)获取您的副本。- 您可以选择免费试用或探索其各种许可选项[关联](https://purchase.aspose.com/buy).
+-  Aspose.Words for .NET：这是一个强大的库，可让您以编程方式处理 Word 文档。前往 Aspose 网站上的下载部分[下载链接](https://releases.aspose.com/words/net/)获取您的副本。-您可以选择免费试用或探索其各种许可选项[关联](https://purchase.aspose.com/buy).
 - .NET 开发环境：Visual Studio、Visual Studio Code 或您选择的任何其他 .NET IDE 将作为您的开发平台。
 - 示例 Word 文档：创建一个包含一些文本的简单 Word 文档（如“Bookmarks.docx”）并插入书签（我们将在稍后介绍如何执行此操作）以供练习。
 

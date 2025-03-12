@@ -30,7 +30,7 @@ url: /ar/net/working-with-table-styles-and-formatting/table-tittle-and-descripti
    ```
 
 2. التقدم بطلب للحصول على الترخيص (اختياري):  
-   لاستخدام النسخة الكاملة[تطبيق رخصة](https://purchase.aspose.com/temporary- license/)أو استخدام[المحاكمة المجانية](https://releases.aspose.com/words/net/). . .
+   لاستخدام النسخة الكاملة[تطبيق رخصة](https://purchase.aspose.com/temporary-license/)أو استخدام[المحاكمة المجانية](https://releases.aspose.com/words/net/). . .
    
 ## انظر أيضاً
 [Aspose.Word للمستندات .NET](https://docs.aspose.com/words/net/)

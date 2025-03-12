@@ -37,7 +37,7 @@ url: /zh/net/working-with-charts/insert-bubble-chart/
    ```  
 
 4. 添加许可证  
-   您可以从该公司获得临时许可.[设置临时许可证页面](https://purchase.aspose.com/temporary- license/)现在,我们要去.  
+   您可以从该公司获得临时许可.[设置临时许可证页面](https://purchase.aspose.com/temporary-license/)现在,我们要去.  
 
 ## 查看
 [设置.Word为 .NET文档](https://docs.aspose.com/words/net/)
