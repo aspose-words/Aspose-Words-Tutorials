@@ -30,7 +30,7 @@ Lär dig hur man lägger in text, tabeller, bilder och andra element i Word- dok
 {{< tutorial-card link="./add-content-using-document-builder/insert-table-contents/" title="Skapa ett Word-dokument med innehållstabell i .NET" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Arbeta med tabellstilar och formatering i Aspose.Words för .NET](./working- with-table-styles-and-formatting/)
+## [Arbeta med tabellstilar och formatering i Aspose.Words för .NET](./working-with-table-styles-and-formatting/)
 Lär dig hur man skapar, formaterar och anpassar tabeller i Word-dokument, inklusive att sätta gränser, stilar och cellpolering.
 
 {{< tutorial-card link="./working-with-table-styles-and-formatting/apply-outline-border/" title="Använd en ram i ord" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
@@ -79,7 +79,7 @@ Ta reda på hur man lägger in och hanterar formulärfält som textinmatning, ne
 {{< tutorial-card link="./working-with-form-fields/insert-form-fields/" title="Lägg in ett formulärfält i Word- dokumentet" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Arbeta med header och fotare i Aspose.Words för .NET](./working-with-headers- and-footers/)
+## [Arbeta med header och fotare i Aspose.Words för .NET](./working-with-headers-and-footers/)
 Lär dig hur man skapar och manipulerar rubriker och fotor, inklusive att lägga till bilder, sidnumrar och text.
 
 {{< tutorial-card link="./header-footer-formatting/create-header-footer/" title="Skapa Word-dokument med höjd och fot" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}

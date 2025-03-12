@@ -65,7 +65,7 @@ url: /el/net/
 {{< tutorial-card link="./working-with-charts/insert-simple-column-chart/" title="Εισαγωγή ενός απλού διαγράμματος στη λέξη" imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Δουλεύοντας με τις γραμματοσειρές στο Aspose.Words για το .NET](./working- with-fonts/)
+## [Δουλεύοντας με τις γραμματοσειρές στο Aspose.Words για το .NET](./working-with-fonts/)
 Εξερευνήστε χαρακτηριστικά που σχετίζονται με τη γραμματοσειρά, όπως στυλ γραμματοσειρών, διαχωρισμός γραμμών, σημεία έμφασης και άλλες ρυθμίσεις τυπογραφίας στα έγγραφα του Word.
 
 {{< tutorial-card link="./font-styling/font-formatting/" title="Δημιουργία μορφοποίησης γραμματοσειρών στο Word" imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
@@ -73,7 +73,7 @@ url: /el/net/
 {{< tutorial-card link="./font-styling/set-font-emphasis-mark/" title="Βάλε τον τόνο στην εγγραφή Word" imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Δουλεύοντας με τα πεδία φόρμας στο Aspose.Words για .NET](./working-with- form-fields/)
+## [Δουλεύοντας με τα πεδία φόρμας στο Aspose.Words για .NET](./working-with-form-fields/)
 Μάθετε πώς να εισαγάγετε και να διαχειρίζεστε πεδία φόρμας όπως εισαγωγή κειμένου, καταχωρητικές λίστες και κουτιά ελέγχου μέσα στα έγγραφα του Word.
 
 {{< tutorial-card link="./working-with-form-fields/insert-form-fields/" title="Εισαγωγή πεδίου φόρμας σε κείμενο Word" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
@@ -100,7 +100,7 @@ url: /el/net/
 {{< tutorial-card link="./working-with-shapes/insert-shape/" title="Εισαγωγή μορφών σε έγγραφα Word" imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Δουλεύοντας με το Watermark στο Aspose.Words για το .NET](./working-with- watermark)
+## [Δουλεύοντας με το Watermark στο Aspose.Words για το .NET](./working-with-watermark)
 Μάθετε να προσθέτετετε σημεία ύδρευσης κειμένου και εικόνας στα έγγραφα του Word για σκοπούς εμπορικής σημασίας ή ασφάλειας.
 {{< tutorial-card link="./working-with-watermark/add-text-watermark/" title="Προσθήκη κειμένου σημάδι νερού στο έγγραφο Word" imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -21,7 +21,7 @@ Waren Sie schon einmal in einer Situation, in der Sie bestimmte Abschnitte in ei
 
 Bevor wir uns in den Code vertiefen, stellen wir sicher, dass Sie über die erforderlichen Tools verfügen:
 
--  Aspose.Words für .NET: Dies ist die leistungsstarke Bibliothek, mit der Sie programmgesteuert mit Word-Dokumenten arbeiten können. Gehen Sie zum Download-Bereich auf der Aspose-Website[Download-Link](https://releases.aspose.com/words/net/) um Ihr Exemplar zu erhalten. - Sie können sich für eine kostenlose Testversion entscheiden oder die verschiedenen Lizenzierungsoptionen erkunden[Link](https://purchase.aspose.com/buy).
+-  Aspose.Words für .NET: Dies ist die leistungsstarke Bibliothek, mit der Sie programmgesteuert mit Word-Dokumenten arbeiten können. Gehen Sie zum Download-Bereich auf der Aspose-Website[Download-Link](https://releases.aspose.com/words/net/) um Ihr Exemplar zu erhalten. -Sie können sich für eine kostenlose Testversion entscheiden oder die verschiedenen Lizenzierungsoptionen erkunden[Link](https://purchase.aspose.com/buy).
 - Eine .NET-Entwicklungsumgebung: Visual Studio, Visual Studio Code oder eine andere .NET-IDE Ihrer Wahl dient als Ihr Entwicklungsspielplatz.
 - Ein Beispiel für ein Word-Dokument: Erstellen Sie ein einfaches Word-Dokument (z. B. „Bookmarks.docx“) mit etwas Text und fügen Sie zum Üben ein Lesezeichen ein (wie das geht, erfahren Sie später).
 

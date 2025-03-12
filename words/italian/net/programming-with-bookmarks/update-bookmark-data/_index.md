@@ -21,7 +21,7 @@ Ti è mai capitato di dover aggiornare dinamicamente sezioni specifiche all'inte
 
 Prima di immergerci nel codice, assicuriamoci di avere a disposizione gli strumenti necessari:
 
--  Aspose.Words per .NET: questa è la potente libreria che ti consente di lavorare con i documenti Word in modo programmatico. Vai alla sezione download sul sito web di Aspose[Link per scaricare](https://releases.aspose.com/words/net/) per ottenere la tua copia. - Puoi optare per una prova gratuita o esplorare le loro varie opzioni di licenza[collegamento](https://purchase.aspose.com/buy).
+-  Aspose.Words per .NET: questa è la potente libreria che ti consente di lavorare con i documenti Word in modo programmatico. Vai alla sezione download sul sito web di Aspose[Link per scaricare](https://releases.aspose.com/words/net/) per ottenere la tua copia. -Puoi optare per una prova gratuita o esplorare le loro varie opzioni di licenza[collegamento](https://purchase.aspose.com/buy).
 - Un ambiente di sviluppo .NET: Visual Studio, Visual Studio Code o qualsiasi altro IDE .NET di tua scelta fungeranno da ambiente di sviluppo.
 - Un esempio di documento Word: crea un semplice documento Word (ad esempio "Bookmarks.docx") contenente del testo e inserisci un segnalibro (più avanti spiegheremo come fare) per esercitarti.
 

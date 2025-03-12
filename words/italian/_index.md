@@ -59,7 +59,7 @@ Impara come inserire testo, tabelle, immagini e altri elementi in documenti Word
 {{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title="Crea un documento Word con tabella di contenuti in .NET" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Formattazione di documenti con Aspose.Words per .NET](./net/document- formatting/)
+### [Formattazione di documenti con Aspose.Words per .NET](./net/document-formatting/)
 Comprendi come applicare varie opzioni di formattazione ai paragrafi, alle liste e agli elementi del documento per migliorare l'attrazione visiva dei tuoi file Word.
 
 {{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Applicare i confini e l'ombra al paragrafo di Aspose.Words " imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
@@ -76,13 +76,13 @@ Esplora le funzionalità relative ai caratteri come stili di caratteri, spaziame
 {{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Impostare il segno di enfasi nel documento Word " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Lavorare con campi di modulo in Aspose.Words per .NET](./net/working-with- form-fields/)
+### [Lavorare con campi di modulo in Aspose.Words per .NET](./net/working-with-form-fields/)
 Scopri come inserire e gestire campi di modulo come input di testo, elenchi a discesa e caselle di controllo nei documenti di Word.
 
 {{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Inserire il campo di modulo nella casella combo nel documento Word" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Lavorare con Headers e Footers in Aspose.Words per .NET](./net/working-with- headers-and-footers/)
+### [Lavorare con Headers e Footers in Aspose.Words per .NET](./net/working-with-headers-and-footers/)
 Impara come creare e manipolare intestazioni e calcoli, inclusi l'aggiunta di immagini, numeri di pagina e testo.
 
 {{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Crea un documento Word con intestazione e calce" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
@@ -103,7 +103,7 @@ Scopri come inserire e manipolare varie forme, comprese forme raggruppate e dise
 {{< tutorial-card link="./net/working-with-shapes/insert-shape/" title="Inserire le forme nei documenti Word " imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Lavorare con Watermark in Aspose.Words per .NET](./net/working-with- watermark)
+### [Lavorare con Watermark in Aspose.Words per .NET](./net/working-with-watermark)
 Impara ad aggiungere segni d'acqua di testo e immagini ai documenti Word per motivi di marchio o di sicurezza.
 {{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="Aggiungere il segnale d'acqua di testo nel documento Word " imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}

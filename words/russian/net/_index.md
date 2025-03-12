@@ -45,7 +45,7 @@ Aspose.Words для визуальных учебников .NET охватыв�
 {{< tutorial-card link="./working-with-table-styles-and-formatting/table-tittle-and-description/" title="Добавить название и описание в таблицу в Word" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Форматирование документов с помощью Aspose.Words для .NET](./document- formatting/)
+## [Форматирование документов с помощью Aspose.Words для .NET](./document-formatting/)
 Поймите, как применить различные варианты форматирования к параграфам, спискам и документам, чтобы улучшить визуальную привлекательность ваших файлов Word.
 
 {{< tutorial-card link="./document-styling/apply-border-and-shading/" title="Применить границы и оттенки к абзацу в Aspose.Words" imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
@@ -79,7 +79,7 @@ Aspose.Words для визуальных учебников .NET охватыв�
 {{< tutorial-card link="./working-with-form-fields/insert-form-fields/" title="Вставьте поле формы в ящик комбо в документ Word" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Работа с заголовками и стопниками в Aspose.Words для .NET](./working-with- headers-and-footers/)
+## [Работа с заголовками и стопниками в Aspose.Words для .NET](./working-with-headers-and-footers/)
 Узнайте, как создавать и управлять заголовками и подголовками, включая добавление изображений, номеров страниц и текста.
 
 {{< tutorial-card link="./header-footer-formatting/create-header-footer/" title="Создать документ в слове с помощью заголовка и подопчасти" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}

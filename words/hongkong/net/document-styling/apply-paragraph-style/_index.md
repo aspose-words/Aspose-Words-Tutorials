@@ -28,7 +28,7 @@ url: /zh-hant/net/document-styling/apply-paragraph-style/
    * 搜尋`"說話. 字"`在 NuGet 包管理器中,然後點擊安裝.  
 
 3. 申請許可證 (可選擇):  
-   請申請許可證,[在此提供暫時許可證](https://purchase.aspose.com/temporary- license/)或從該公司購買許可證.[預購物](https://purchase.aspose.com/buy)這就是我想要的.  
+   請申請許可證,[在此提供暫時許可證](https://purchase.aspose.com/temporary-license/)或從該公司購買許可證.[預購物](https://purchase.aspose.com/buy)這就是我想要的.  
 
 ## 請見此文
 [標籤.Word為 .NET文档](https://docs.aspose.com/words/net/)

@@ -28,7 +28,7 @@ Aspose.Words för .NET ger utvecklare möjlighet att enkelt skapa, ändra och st
    * Sök efter`"Svar. Ord"`I NuGet- pakethanteraren klicka på Installa.  
 
 3. Ansök om licens (Förval):  
-   För att undvika begränsningar i utvärderingen, ansöka om en licens.[Tillfälligt tillstånd här](https://purchase.aspose.com/temporary- license/)eller köpa en licens från [Aspose butik](https://purchase.aspose.com/buy)\- Jag är inte rädd.  
+   För att undvika begränsningar i utvärderingen, ansöka om en licens.[Tillfälligt tillstånd här](https://purchase.aspose.com/temporary-license/)eller köpa en licens från [Aspose butik](https://purchase.aspose.com/buy)\- Jag är inte rädd.  
 
 ## Se även
 [Aspose.Word för .NET-dokumentation](https://docs.aspose.com/words/net/)

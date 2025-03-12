@@ -54,7 +54,7 @@ Comprenez comment appliquer différentes options de formatage aux paragraphes, a
 {{< tutorial-card link="./document-styling/paragraph-formatting/" title="Formats de paragraphes" imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Travailler avec des graphiques dans Aspose.Words pour .NET](./working-with- charts/)
+## [Travailler avec des graphiques dans Aspose.Words pour .NET](./working-with-charts/)
 Apprenez à insérer et à personnaliser différents types de graphiques, tels que les graphiques à barres, à lignes et à dispersion, dans les documents Word.
 {{< tutorial-card link="./working-with-charts/bounds-of-axis/" title="Créer un document avec des graphiques" imgSrc="/words/net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
 {{< tutorial-card link="./working-with-charts/create-chart-using-shape/" title="Faites un graphique de lignes dans le mot" imgSrc="/words/net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
@@ -65,7 +65,7 @@ Apprenez à insérer et à personnaliser différents types de graphiques, tels q
 {{< tutorial-card link="./working-with-charts/insert-simple-column-chart/" title="Insérez un graphique de colonnes simple dans Word" imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Travailler avec des polices dans Aspose.Words pour .NET](./working-with- fonts/)
+## [Travailler avec des polices dans Aspose.Words pour .NET](./working-with-fonts/)
 Explorez les fonctionnalités liées aux polices telles que les styles de polices, l'espacement entre les lignes, les marques d'accent et d'autres paramètres de typographie dans les documents Word.
 
 {{< tutorial-card link="./font-styling/font-formatting/" title="Créer une mise en forme de polices dans Word" imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
@@ -86,21 +86,21 @@ Apprenez à créer et à manipuler les en-têtes et les pieds de page, y compris
 {{< tutorial-card link="./header-footer-formatting/insert-image/" title="Insérer une image dans l' en-tête de document Word" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Travailler avec des sections dans Aspose.Words pour .NET](./working-with- section/)
+## [Travailler avec des sections dans Aspose.Words pour .NET](./working-with-section/)
 Comprenez comment structurer les documents en sections, en permettant de créer différentes en-têtes, pieds de page et styles de formatage.
 
 {{< tutorial-card link="./document-sections/add-section/" title="Ajouter une nouvelle section au document Word" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
 {{< tutorial-card link="./document-sections/append-section-content/" title="Ajouter et pré-ajouter du contenu dans les documents Word" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Travailler avec des formes dans Aspose.Words pour .NET](./working-with- shapes/)
+## [Travailler avec des formes dans Aspose.Words pour .NET](./working-with-shapes/)
 Découvrez comment insérer et manipuler diverses formes, y compris les formes regroupées et les dessins prédéfinis, dans les documents Word.
 
 {{< tutorial-card link="./working-with-shapes/add-group-shape/" title="Créer une forme de groupe dans un document Word" imgSrc="/words/net/working-with-shapes/add-group-shape/images/thumb.png" >}}
 {{< tutorial-card link="./working-with-shapes/insert-shape/" title="Insérer des formes dans les documents Word" imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Travailler avec Watermark dans Aspose.Words pour .NET](./working-with- watermark)
+## [Travailler avec Watermark dans Aspose.Words pour .NET](./working-with-watermark)
 Apprenez à ajouter des balises d'eau de texte et d'image aux documents Word à des fins de marque ou de sécurité.
 {{< tutorial-card link="./working-with-watermark/add-text-watermark/" title="Ajouter un code d'eau dans le document Word" imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}

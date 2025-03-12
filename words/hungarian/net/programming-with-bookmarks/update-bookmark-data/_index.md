@@ -21,7 +21,7 @@ Találkozott már olyan helyzettel, amikor dinamikusan kellett frissítenie egy 
 
 Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy rendelkezésére állnak a szükséges eszközök:
 
--  Aspose.Words for .NET: Ez az a nagy teljesítményű könyvtár, amely lehetővé teszi a Word-dokumentumok programozott kezelését. Nyissa meg az Aspose webhely letöltési szakaszát[Letöltési link](https://releases.aspose.com/words/net/) hogy megragadja a példányát. - Választhat ingyenes próbaverziót, vagy felfedezheti a különféle licencelési lehetőségeket[link](https://purchase.aspose.com/buy).
+-  Aspose.Words for .NET: Ez az a nagy teljesítményű könyvtár, amely lehetővé teszi a Word-dokumentumok programozott kezelését. Nyissa meg az Aspose webhely letöltési szakaszát[Letöltési link](https://releases.aspose.com/words/net/) hogy megragadja a példányát. -Választhat ingyenes próbaverziót, vagy felfedezheti a különféle licencelési lehetőségeket[link](https://purchase.aspose.com/buy).
 - Egy .NET fejlesztői környezet: a Visual Studio, a Visual Studio Code vagy bármely más választott .NET IDE szolgál majd a fejlesztői játszótérként.
 - Word-dokumentum minta: Hozzon létre egy egyszerű Word-dokumentumot (például "Bookmarks.docx"), amely szöveget tartalmaz, és illesszen be egy könyvjelzőt (a későbbiekben ismertetjük, hogyan kell csinálni), hogy gyakorolhassa.
 

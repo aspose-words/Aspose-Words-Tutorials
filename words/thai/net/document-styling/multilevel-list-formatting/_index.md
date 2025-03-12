@@ -31,7 +31,7 @@ url: /th/net/document-styling/multilevel-list-formatting/
    using Aspose.Words.Tables;
    ```
 4. การสมัครใบอนุญาต (ทางเลือก):  
-   เพื่อใช้ฉบับเต็ม[ใช้ใบอนุญาต](https://purchase.aspose.com/temporary- license/)หรือใช้ [ทดลองใช้ฟรี](https://releases.aspose.com/words/net/). .  
+   เพื่อใช้ฉบับเต็ม[ใช้ใบอนุญาต](https://purchase.aspose.com/temporary-license/)หรือใช้ [ทดลองใช้ฟรี](https://releases.aspose.com/words/net/). .  
 
 
 ## ดูอีกด้วย

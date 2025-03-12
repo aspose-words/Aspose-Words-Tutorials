@@ -27,7 +27,7 @@ url: /ja/net/header-footer-formatting/create-header-footer/
      Install-Package Aspose.Words  
      ```  
    * ダウンロードされたパッケージから DLL を手動で参照してください.  
-3. 申請許可証 (オプション): 取得[派遣許可証](https://purchase.aspose.com/temporary- license/)ライセンスを取得した[購入を目標に](https://purchase.aspose.com/buy)プロジェクトに応用する  
+3. 申請許可証 (オプション): 取得[派遣許可証](https://purchase.aspose.com/temporary-license/)ライセンスを取得した[購入を目標に](https://purchase.aspose.com/buy)プロジェクトに応用する  
    ```csharp  
    License license = new License();  
    license.SetLicense("Aspose.Words.lic");  

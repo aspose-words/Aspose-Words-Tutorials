@@ -37,7 +37,7 @@ Questa guida mostra come utilizzare Aspose.Words per .NET per inserire e manipol
    ```  
 
 4. Attivare la licenza (opzionale):  
-   Se avete una licenza valida, applicatela nel vostro progetto per evitare limitazioni.[acquisto di una licenza](https://purchase.aspose.com/buy)o ottenere un [licenza temporanea](https://purchase.aspose.com/temporary- license/)\- Non è vero .  
+   Se avete una licenza valida, applicatela nel vostro progetto per evitare limitazioni.[acquisto di una licenza](https://purchase.aspose.com/buy)o ottenere un [licenza temporanea](https://purchase.aspose.com/temporary-license/)\- Non è vero .  
 
 ## Vedi anche
 [Aspose.Word per Documentazione .NET](https://docs.aspose.com/words/net/)

@@ -37,7 +37,7 @@ Ez a útmutató bemutatja, hogyan használhatja az Aspose.Words a .NET-hez a for
    ```  
 
 4. Aktívan kell használni a Licenc (Felhetős):  
-   Ha van érvényes engedélyed, alkalmazza a projektedben, hogy elkerülje a korlátozásokat.[engedély megvásárlása](https://purchase.aspose.com/buy)vagy kap egy [ideiglenes engedély](https://purchase.aspose.com/temporary- license/)\- Nem.  
+   Ha van érvényes engedélyed, alkalmazza a projektedben, hogy elkerülje a korlátozásokat.[engedély megvásárlása](https://purchase.aspose.com/buy)vagy kap egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/)\- Nem.  
 
 ## Lásd:
 [Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)

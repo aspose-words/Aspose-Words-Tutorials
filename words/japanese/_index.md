@@ -32,7 +32,7 @@ Word ドキュメントにバー,ライン,スキャッターなど様々な種�
 {{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="単語の シンプル な 列表 を 挿入 する " imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NET のAspose.Wordsでテーブルスタイルとフォーマットを使用する](./net/working-with-table-styles-and- formatting/)
+### [.NET のAspose.Wordsでテーブルスタイルとフォーマットを使用する](./net/working-with-table-styles-and-formatting/)
 境界やスタイル,セルパディングなどを含む,Word ドキュメントのテーブルを作成し,フォーマットし,カスタマイズする方法について学びましょう.
 
 {{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-outline-border/" title="図表 に 概要 境界 を 適用 する" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
@@ -47,7 +47,7 @@ Word ドキュメントにバー,ライン,スキャッターなど様々な種�
 {{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="Word で表にタイトルと説明を追加する" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NET のAspose.Wordsでドキュメントビルダーを使用してコンテンツを追加する ](./net/add-content-using- document-builder/)
+### [.NET のAspose.Wordsでドキュメントビルダーを使用してコンテンツを追加する ](./net/add-content-using-document-builder/)
 文書作成者 クラスを使用して,Word ドキュメントにテキスト,テーブル,画像,その他の要素をプログラム的に挿入する方法について学びましょう.
 
 {{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="テーブルでWordドキュメントを作成する" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}

@@ -34,7 +34,7 @@ Aspose.Words สําหรับ .NET ทําให้การ thao tácเ
    ```  
 
 3. สมัครใบอนุญาต (เป็นทางเลือก)  
-   เพื่อกําจัดข้อจํากัดการประเมิน, ใช้ใบอนุญาต ซื้อใบอนุญาตจาก [นี่](https://purchase.aspose.com/buy)หรือรับ[เอกสารชั่วคราว](https://purchase.aspose.com/temporary- license/)จากนั้น ใช้รหัสต่อไปนี้เพื่อใช้ใบอนุญาต  
+   เพื่อกําจัดข้อจํากัดการประเมิน, ใช้ใบอนุญาต ซื้อใบอนุญาตจาก [นี่](https://purchase.aspose.com/buy)หรือรับ[เอกสารชั่วคราว](https://purchase.aspose.com/temporary-license/)จากนั้น ใช้รหัสต่อไปนี้เพื่อใช้ใบอนุญาต  
    ```csharp
    License license = new License();
    license.SetLicense("Aspose.Words.lic");
@@ -48,7 +48,7 @@ Aspose.Words สําหรับ .NET ทําให้การ thao tácเ
    ```  
 
 4. การสมัครใบอนุญาต (ทางเลือก):  
-   เพื่อใช้ฉบับเต็ม[ใช้ใบอนุญาต](https://purchase.aspose.com/temporary- license/)หรือใช้ [ทดลองใช้ฟรี](https://releases.aspose.com/words/net/). .
+   เพื่อใช้ฉบับเต็ม[ใช้ใบอนุญาต](https://purchase.aspose.com/temporary-license/)หรือใช้ [ทดลองใช้ฟรี](https://releases.aspose.com/words/net/). .
    
 ## ดูอีกด้วย
 [Aspose.Word สําหรับเอกสาร .NET](https://docs.aspose.com/words/net/)

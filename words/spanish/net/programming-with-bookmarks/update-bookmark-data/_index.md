@@ -21,7 +21,7 @@ url: /es/net/programming-with-bookmarks/update-bookmark-data/
 
 Antes de sumergirnos en el código, asegurémonos de que tienes las herramientas necesarias a tu disposición:
 
--  Aspose.Words para .NET: esta es la biblioteca más potente que le permite trabajar con documentos de Word de manera programada. Visite la sección de descargas en el sitio web de Aspose.[Enlace de descarga](https://releases.aspose.com/words/net/) Para obtener tu copia. - Puedes optar por una prueba gratuita o explorar sus distintas opciones de licencia.[enlace](https://purchase.aspose.com/buy).
+-  Aspose.Words para .NET: esta es la biblioteca más potente que le permite trabajar con documentos de Word de manera programada. Visite la sección de descargas en el sitio web de Aspose.[Enlace de descarga](https://releases.aspose.com/words/net/) Para obtener tu copia. -Puedes optar por una prueba gratuita o explorar sus distintas opciones de licencia.[enlace](https://purchase.aspose.com/buy).
 - Un entorno de desarrollo .NET: Visual Studio, Visual Studio Code o cualquier otro IDE .NET de su elección servirá como su campo de desarrollo.
 - Un documento de Word de muestra: cree un documento de Word simple (como "Bookmarks.docx") que contenga algo de texto e inserte un marcador (explicaremos cómo hacerlo más adelante) para practicar.
 

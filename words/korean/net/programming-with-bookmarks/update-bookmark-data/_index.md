@@ -21,7 +21,7 @@ Word 문서 내에서 특정 섹션을 동적으로 업데이트해야 하는 �
 
 코드를 자세히 살펴보기 전에 먼저 필요한 도구가 있는지 확인해 보겠습니다.
 
--  Aspose.Words for .NET: 이것은 Word 문서를 프로그래밍 방식으로 작업할 수 있도록 하는 강력한 라이브러리입니다. Aspose 웹사이트의 다운로드 섹션으로 이동하세요.[다운로드 링크](https://releases.aspose.com/words/net/) 사본을 받으세요. - 무료 평가판을 선택하거나 다양한 라이선스 옵션을 탐색할 수 있습니다.[링크](https://purchase.aspose.com/buy).
+-  Aspose.Words for .NET: 이것은 Word 문서를 프로그래밍 방식으로 작업할 수 있도록 하는 강력한 라이브러리입니다. Aspose 웹사이트의 다운로드 섹션으로 이동하세요.[다운로드 링크](https://releases.aspose.com/words/net/) 사본을 받으세요. -무료 평가판을 선택하거나 다양한 라이선스 옵션을 탐색할 수 있습니다.[링크](https://purchase.aspose.com/buy).
 - .NET 개발 환경: Visual Studio, Visual Studio Code 또는 귀하가 선택한 다른 .NET IDE가 귀하의 개발 놀이터가 될 것입니다.
 - 샘플 Word 문서: 텍스트가 포함된 간단한 Word 문서(예: "Bookmarks.docx")를 만들고 연습용으로 책갈피를 삽입합니다(나중에 방법을 설명하겠습니다).
 

@@ -18,7 +18,7 @@ Các hướng dẫn trực quan .NET bao gồm một loạt các trường hợp
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Thêm nội dung sử dụng trình tạo tài liệu trong Aspose.Words cho .NET ](./add- content-using-document-builder/)
+## [Thêm nội dung sử dụng trình tạo tài liệu trong Aspose.Words cho .NET ](./add-content-using-document-builder/)
 Tìm hiểu cách chèn văn bản, bảng, hình ảnh và các yếu tố khác vào tài liệu Word bằng cách lập trình bằng cách sử dụng lớp xây dựng tài liệu.
 
 {{< tutorial-card link="./add-content-using-document-builder/build-table/" title="Tạo tài liệu Word với bảng sử dụng Aspose.Words" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}
@@ -45,7 +45,7 @@ Tìm hiểu cách tạo, định dạng và tùy chỉnh bảng trong tài liệ
 {{< tutorial-card link="./working-with-table-styles-and-formatting/table-tittle-and-description/" title="Thêm tiêu đề và mô tả vào bảng trong Word" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Phương thức định dạng tài liệu với Aspose.Words cho .NET](./document- formatting/)
+## [Phương thức định dạng tài liệu với Aspose.Words cho .NET](./document-formatting/)
 Hiểu cách áp dụng các tùy chọn định dạng khác nhau cho các đoạn văn, danh sách và các yếu tố tài liệu để tăng cường sự hấp dẫn trực quan của các tệp Word của bạn.
 
 {{< tutorial-card link="./document-styling/apply-border-and-shading/" title="Sử dụng biên giới và bóng cho đoạn trong Aspose.Words" imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
@@ -73,13 +73,13 @@ Khám phá các tính năng liên quan đến phông chữ như phong cách phô
 {{< tutorial-card link="./font-styling/set-font-emphasis-mark/" title="Đặt dấu nhấn mạnh trong Word Document" imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Làm việc với các trường biểu mẫu trong Aspose.Words cho .NET](./working-with- form-fields/)
+## [Làm việc với các trường biểu mẫu trong Aspose.Words cho .NET](./working-with-form-fields/)
 Tìm hiểu cách chèn và quản lý các trường biểu mẫu như nhập văn bản, danh sách thả xuống và hộp kiểm trong tài liệu Word.
 
 {{< tutorial-card link="./working-with-form-fields/insert-form-fields/" title="Nhập trường biểu mẫu hộp combo vào Word Document" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Làm việc với các tiêu đề và chân chân trong Aspose.Words cho .NET](./working- with-headers-and-footers/)
+## [Làm việc với các tiêu đề và chân chân trong Aspose.Words cho .NET](./working-with-headers-and-footers/)
 Học cách tạo và điều khiển tiêu đề và chân chữ, bao gồm thêm hình ảnh, số trang và văn bản.
 
 {{< tutorial-card link="./header-footer-formatting/create-header-footer/" title="Tạo Word Document với Header và Footer" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}

@@ -28,7 +28,7 @@ url: /ja/net/document-styling/apply-paragraph-style/
    * 検索する`"言葉"`NuGet パッケージ管理器にインストールをクリックします.  
 
 3. ライセンス申請 (オプション):  
-   評価制限を避けるために ライセンス申請してください[派遣許可証](https://purchase.aspose.com/temporary- license/)ライセンスを取得する[貯蔵庫](https://purchase.aspose.com/buy)やってくれ  
+   評価制限を避けるために ライセンス申請してください[派遣許可証](https://purchase.aspose.com/temporary-license/)ライセンスを取得する[貯蔵庫](https://purchase.aspose.com/buy)やってくれ  
 
 ## また見てください
 [Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)

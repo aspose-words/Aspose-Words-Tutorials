@@ -34,7 +34,7 @@ Folgen Sie diesen Schritten, um Aspose.Words für .NET in Ihrem Projekt zu insta
    ```  
 
 3. Anwendbarkeit der Lizenz (optional):  
-   Um die Einschränkungen der Bewertung zu beseitigen, sollten Sie eine Lizenz anwenden.[Hier ist es.](https://purchase.aspose.com/buy)oder einen[vorübergehende Lizenz](https://purchase.aspose.com/temporary- license/)Dann benutzen Sie den folgenden Code, um die Lizenz anzuwenden:  
+   Um die Einschränkungen der Bewertung zu beseitigen, sollten Sie eine Lizenz anwenden.[Hier ist es.](https://purchase.aspose.com/buy)oder einen[vorübergehende Lizenz](https://purchase.aspose.com/temporary-license/)Dann benutzen Sie den folgenden Code, um die Lizenz anzuwenden:  
    ```csharp
    License license = new License();
    license.SetLicense("Aspose.Words.lic");

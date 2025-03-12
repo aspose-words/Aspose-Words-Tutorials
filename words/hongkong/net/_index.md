@@ -18,7 +18,7 @@ url: /zh-hant/net/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [在 .NET 版本中的Aspose.Words中使用文件构建器添加內容](./add-content-using-document- builder/)
+## [在 .NET 版本中的Aspose.Words中使用文件构建器添加內容](./add-content-using-document-builder/)
 使用文檔製作者班子,學習如何將文字,表格,圖像和其他元素插入Word文檔.
 
 {{< tutorial-card link="./add-content-using-document-builder/build-table/" title="使用Aspose.Words建立一個字體文檔," imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}
@@ -30,7 +30,7 @@ url: /zh-hant/net/
 {{< tutorial-card link="./add-content-using-document-builder/insert-table-contents/" title="在 .NET 中建立包含表的Word文档" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [在 .NET 版本中使用Aspose.Words的表格式和格式化](./working-with-table-styles-and- formatting/)
+## [在 .NET 版本中使用Aspose.Words的表格式和格式化](./working-with-table-styles-and-formatting/)
 了解如何在 Word 文件中建立,格式化和定制表表格, 包括設定界限,風格和細胞填充.
 
 {{< tutorial-card link="./working-with-table-styles-and-formatting/apply-outline-border/" title="如何將概要界限應用在文字中" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}

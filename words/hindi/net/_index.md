@@ -54,7 +54,7 @@ url: /hi/net/
 {{< tutorial-card link="./document-styling/paragraph-formatting/" title="अनुच्छेदों का प्रारूपण" imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [.NET के लिए "एस्पोज.वर्ड्स" में चार्ट्स के साथ काम करना](./working-with- charts/)
+## [.NET के लिए "एस्पोज.वर्ड्स" में चार्ट्स के साथ काम करना](./working-with-charts/)
 Word दस्तावेज़ों में विभिन्न प्रकार के चार्ट जैसे बार, लाइन और स्केटर चार्ट डालना और उन्हें अनुकूलित करना सीखें।
 {{< tutorial-card link="./working-with-charts/bounds-of-axis/" title="चार्ट के साथ एक दस्तावेज़ बनाएं" imgSrc="/words/net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
 {{< tutorial-card link="./working-with-charts/create-chart-using-shape/" title="शब्द में रेखाचित्र बनाएं" imgSrc="/words/net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
@@ -65,7 +65,7 @@ Word दस्तावेज़ों में विभिन्न प्र
 {{< tutorial-card link="./working-with-charts/insert-simple-column-chart/" title="Word में एक सरल स्तंभ चार्ट डालें" imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [.NET के लिए Aspose.Words में फ़ॉन्ट के साथ काम करना](./working-with- fonts/)
+## [.NET के लिए Aspose.Words में फ़ॉन्ट के साथ काम करना](./working-with-fonts/)
 वर्ड दस्तावेज़ों में फ़ॉन्ट से संबंधित सुविधाओं जैसे फ़ॉन्ट शैलियों, लाइन अंतर, जोर के निशान और अन्य टाइपोग्राफी सेटिंग्स का पता लगाएं।
 
 {{< tutorial-card link="./font-styling/font-formatting/" title="Word में फ़ॉन्ट स्वरूपण बनाएं" imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
@@ -73,34 +73,34 @@ Word दस्तावेज़ों में विभिन्न प्र
 {{< tutorial-card link="./font-styling/set-font-emphasis-mark/" title="Word दस्तावेज़ में महत्व चिह्न सेट करें" imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [.NET के लिए "एस्पोज.वर्ड्स" में फॉर्म फ़ील्ड्स के साथ काम करना](./working- with-form-fields/)
+## [.NET के लिए "एस्पोज.वर्ड्स" में फॉर्म फ़ील्ड्स के साथ काम करना](./working-with-form-fields/)
 Word दस्तावेज़ों में पाठ इनपुट, ड्रॉप-डाउन सूचियों और चेकबॉक्स जैसे फ़ॉर्म फ़ील्ड कैसे डालें और प्रबंधित करें, जानें।
 
 {{< tutorial-card link="./working-with-form-fields/insert-form-fields/" title="Word दस्तावेज़ में Combo Box Form Field डालें" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [.NET के लिए "एस्पोज.वर्ड्स" में हेडर और फुटर्स के साथ काम करना](./working- with-headers-and-footers/)
+## [.NET के लिए "एस्पोज.वर्ड्स" में हेडर और फुटर्स के साथ काम करना](./working-with-headers-and-footers/)
 चित्र, पृष्ठ संख्या और पाठ जोड़ने सहित हेडर और फ़ुटर कैसे बनाएं और उन्हें कैसे संचालित करें, जानें।
 
 {{< tutorial-card link="./header-footer-formatting/create-header-footer/" title="हेडर और फ़ुटर के साथ वर्ड दस्तावेज़ बनाएं" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
 {{< tutorial-card link="./header-footer-formatting/insert-image/" title="Word दस्तावेज़ हेडर में छवि डालें" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [.NET के लिए Aspose.Words में अनुभागों के साथ काम करना](./working-with- section/)
+## [.NET के लिए Aspose.Words में अनुभागों के साथ काम करना](./working-with-section/)
 दस्तावेज़ों को अलग-अलग अनुभागों में कैसे व्यवस्थित किया जाए, जिससे विभिन्न हेडर, फ़ुटर और स्वरूपण शैली की अनुमति मिल सके।
 
 {{< tutorial-card link="./document-sections/add-section/" title="Word दस्तावेज़ में एक नया अनुभाग जोड़ें" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
 {{< tutorial-card link="./document-sections/append-section-content/" title="वर्ड दस्तावेज़ों में सामग्री जोड़ें और प्रिपेड करें" imgSrc="/words/net/document-sections/append-section-content/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [.NET के लिए "एस्पोज.वर्ड्स" में आकारों के साथ काम करना](./working-with- shapes/)
+## [.NET के लिए "एस्पोज.वर्ड्स" में आकारों के साथ काम करना](./working-with-shapes/)
 वर्ड दस्तावेज़ों में समूहबद्ध आकारों और पूर्वनिर्धारित चित्रों सहित विभिन्न आकारों को कैसे सम्मिलित और हेरफेर किया जाए, इसकी जानकारी प्राप्त करें।
 
 {{< tutorial-card link="./working-with-shapes/add-group-shape/" title="Word दस्तावेज़ में समूह आकार बनाएं" imgSrc="/words/net/working-with-shapes/add-group-shape/images/thumb.png" >}}
 {{< tutorial-card link="./working-with-shapes/insert-shape/" title="वर्ड दस्तावेज़ों में आकृति डालें" imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [.NET के लिए Aspose.Words में वाटरमार्क के साथ काम करना](./working-with- watermark)
+## [.NET के लिए Aspose.Words में वाटरमार्क के साथ काम करना](./working-with-watermark)
 ब्रांडिंग या सुरक्षा उद्देश्यों के लिए वर्ड दस्तावेज़ों में पाठ और छवि वॉटरमार्क जोड़ना सीखें।
 {{< tutorial-card link="./working-with-watermark/add-text-watermark/" title="Word दस्तावेज़ में पाठ वाटरमार्क जोड़ें" imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}

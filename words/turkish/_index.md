@@ -76,7 +76,7 @@ Word belgelerindeki yazı tipi stilleri, satır aralığı, vurgu işaretleri ve
 {{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Word Belgesinde Temizlik Markası Yap " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NET için Aspose.Words'te Form Alanları ile çalışmak](./net/working-with- form-fields/)
+### [.NET için Aspose.Words'te Form Alanları ile çalışmak](./net/working-with-form-fields/)
 Word belgeleri içinde metin girimi, düşüş listeleri ve kontrol kutuları gibi form alanlarını nasıl ekleyeceğinizi ve yönetileceğinizi öğrenin.
 
 {{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Word Belgesine Combo Box Form Alanı Ekle" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
@@ -103,7 +103,7 @@ Word belgelerinde gruplanmış şekiller ve önceden tanımlanmış çizimler de
 {{< tutorial-card link="./net/working-with-shapes/insert-shape/" title="Şekiller Word Belgelerine Ekle " imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [.NET için Aspose.Words için Watermark ile çalışmak](./net/working-with- watermark)
+### [.NET için Aspose.Words için Watermark ile çalışmak](./net/working-with-watermark)
 Markalama veya güvenlik amaçlı Word belgelere metin ve resim su işaretlerini eklemeyi öğrenin.
 {{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="Word Belgesine Metin Su İşaretini Ekle " imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}

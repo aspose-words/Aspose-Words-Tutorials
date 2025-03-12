@@ -37,7 +37,7 @@ url: /zh-hant/net/working-with-shapes/insert-shape/
    ```  
 
 4. 啟動授權 (可選):  
-   請在您的項目中使用有效的許可證,[購買許可證](https://purchase.aspose.com/buy)或是獲得[暫時許可證](https://purchase.aspose.com/temporary- license/)這就是我想要的.  
+   請在您的項目中使用有效的許可證,[購買許可證](https://purchase.aspose.com/buy)或是獲得[暫時許可證](https://purchase.aspose.com/temporary-license/)這就是我想要的.  
 
 ## 請見此文
 [標籤.Word為 .NET文档](https://docs.aspose.com/words/net/)

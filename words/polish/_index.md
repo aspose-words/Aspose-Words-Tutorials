@@ -47,7 +47,7 @@ Dowiedz się, jak tworzyć, formatować i dostosowywać tabele w dokumentach Wor
 {{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="Dodaj tytuł i opis do tabeli w Word" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Dodaj treść za pomocą twórcy dokumentów w Aspose.Words dla .NET ](./net/add- content-using-document-builder/)
+### [Dodaj treść za pomocą twórcy dokumentów w Aspose.Words dla .NET ](./net/add-content-using-document-builder/)
 Dowiedz się, jak wstawić tekst, tabele, obrazy i inne elementy w dokumentach Word programatycznie za pomocą klasy Twórcy Dokumentów.
 
 {{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="Tworzenie dokumentu Word z tablicą" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}
@@ -76,13 +76,13 @@ Sprawdź funkcje związane z czcionkami, takie jak styły czcionek, odstępstwo 
 {{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Ustaw znak nacisku w dokumencie Word " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Praca z polami formularza w Aspose.Words dla .NET](./net/working-with-form- fields/)
+### [Praca z polami formularza w Aspose.Words dla .NET](./net/working-with-form-fields/)
 Dowiedz się, jak wstawić i zarządzać polami formularza, takimi jak wprowadzanie tekstu, listy oddalone i skrzynki kontrolne w dokumentach Word.
 
 {{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Wkładać pole formularza w dokumentie Word" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Praca z nadpisami i stopnikami w Aspose.Words dla .NET](./net/working-with- headers-and-footers/)
+### [Praca z nadpisami i stopnikami w Aspose.Words dla .NET](./net/working-with-headers-and-footers/)
 Dowiedz się, jak tworzyć i manipulować nadpisami i podpisami, w tym dodawać obrazy, numery stron i tekst.
 
 {{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Tworzenie dokumentu Word z tytułem i podnóżką" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}

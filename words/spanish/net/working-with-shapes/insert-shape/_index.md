@@ -37,7 +37,7 @@ Esta guía muestra cómo usar Aspose.Words para .NET para insertar y manipular f
    ```  
 
 4. Activar la licencia (opcional):  
-   Si usted tiene una licencia válida, la puede aplicar en su proyecto para evitar limitaciones.[compra de una licencia](https://purchase.aspose.com/buy)o obtener un [licencia temporal](https://purchase.aspose.com/temporary- license/)¿ Qué ?  
+   Si usted tiene una licencia válida, la puede aplicar en su proyecto para evitar limitaciones.[compra de una licencia](https://purchase.aspose.com/buy)o obtener un [licencia temporal](https://purchase.aspose.com/temporary-license/)¿ Qué ?  
 
 ## También véase
 [Aspose.Word para Documentación .NET](https://docs.aspose.com/words/net/)

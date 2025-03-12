@@ -76,7 +76,7 @@ Explore características relacionadas con las fuentes, como estilos de fuentes, 
 {{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Pon marcas de énfasis en el documento de Word " imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Trabajar con campos de formulario en Aspose.Words para .NET](./net/working- with-form-fields/)
+### [Trabajar con campos de formulario en Aspose.Words para .NET](./net/working-with-form-fields/)
 Descubra cómo insertar y administrar campos de formulario como entrada de texto, listas desplegables y casillas de verificación dentro de documentos de Word.
 
 {{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Insertar el campo de formulario en el documento de Word" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
@@ -89,7 +89,7 @@ Aprenda a crear y manipular encabezados y piezas, incluyendo añadir imágenes, 
 {{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Insertar una imagen en el encabezado de documento de Word" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Trabajar con Secciones en Aspose.Words para .NET](./net/working-with- section/)
+### [Trabajar con Secciones en Aspose.Words para .NET](./net/working-with-section/)
 Comprender cómo estructurar documentos en secciones, permitiendo diferentes encabezados, piezas de página y estilos de formato.
 
 {{< tutorial-card link="./net/document-sections/add-section/" title="Añadir una nueva sección al documento de Word" imgSrc="/words/net/document-sections/add-section/images/thumb.png" >}}
@@ -103,7 +103,7 @@ Descubra cómo insertar y manipular varias formas, incluidas formas agrupadas y 
 {{< tutorial-card link="./net/working-with-shapes/insert-shape/" title="Insertar formas en documentos de Word " imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Trabajar con Watermark en Aspose.Words para .NET](./net/working-with- watermark)
+### [Trabajar con Watermark en Aspose.Words para .NET](./net/working-with-watermark)
 Aprenda a añadir marcas de agua de texto e imágenes a documentos de Word para fines de marca o seguridad.
 {{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="Añadir texto marcas de agua en el documento de Word " imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
