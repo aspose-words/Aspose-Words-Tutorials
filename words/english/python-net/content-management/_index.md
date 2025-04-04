@@ -36,9 +36,9 @@ A code tutorial for Aspose.Words Python-net
 
 ## Additional Resources
 
-- [Aspose.Words for Python-net Documentation](https://docs.aspose.com/aspose.words/python-net/)
-- [Aspose.Words for Python-net API Reference](https://reference.aspose.com/aspose.words/python-net/)
-- [Download Aspose.Words for Python-net](https://releases.aspose.com/aspose.words/python-net/)
-- [Aspose.Words Forum](https://forum.aspose.com/c/aspose.words)
+- [Aspose.Words for Python-net Documentation](https://docs.aspose.com/words/python-net/)
+- [Aspose.Words for Python-net API Reference](https://reference.aspose.com/words/python-net/)
+- [Download Aspose.Words for Python-net](https://releases.aspose.com/words/python-net/)
+- [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)

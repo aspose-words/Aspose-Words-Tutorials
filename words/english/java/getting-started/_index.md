@@ -34,10 +34,10 @@ Learn how to retrieve and display the version info of Aspose.Words for Java. Ens
 
 ## Additional Resources
 
-- [Aspose.Words for Java Documentation](https://reference.aspose.com/aspose.words/java/)
-- [Aspose.Words for Java API Reference](https://reference.aspose.com/aspose.words/java/api/)
-- [Download Aspose.Words for Java](https://releases.aspose.com/aspose.words/java/)
-- [Aspose.Words Forum](https://forum.aspose.com/c/aspose.words)
+- [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)
+- [Aspose.Words for Java API Reference](https://reference.aspose.com/words/java/)
+- [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
+- [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 {{< /blocks/products/pf/tutorial-page-section >}}
