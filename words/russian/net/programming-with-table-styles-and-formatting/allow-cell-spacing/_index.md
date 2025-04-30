@@ -1,14 +1,16 @@
 ---
-title: Разрешить интервал между ячейками
-linktitle: Разрешить интервал между ячейками
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как разрешить интервал между ячейками в таблице с помощью Aspose.Words для .NET с нашим подробным руководством. Идеально подходит для разработчиков, желающих улучшить форматирование документов Word.
-weight: 10
-url: /ru/net/programming-with-table-styles-and-formatting/allow-cell-spacing/
+"description": "Узнайте, как разрешить интервал между ячейками в таблице с помощью Aspose.Words для .NET с нашим подробным руководством. Идеально подходит для разработчиков, желающих улучшить форматирование документов Word."
+"linktitle": "Разрешить интервал между ячейками"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Разрешить интервал между ячейками"
+"url": "/ru/net/programming-with-table-styles-and-formatting/allow-cell-spacing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Разрешить интервал между ячейками
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-table-styles-and-formatting/allow-cell-spacing/
 
 Прежде чем начать, давайте убедимся, что у вас есть все необходимое:
 
-- Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Вы можете загрузить его с[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Вы можете загрузить его с [здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: среда разработки, подобная Visual Studio.
 - Базовые знания C#: знакомство с программированием на C# обязательно.
 
@@ -65,7 +67,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ### Шаг 2.2: Загрузите документ
 
- Теперь загрузите документ с помощью`Document` класс из Aspose.Words.
+Теперь загрузите документ с помощью `Document` класс из Aspose.Words.
 
 ```csharp
 Document doc = new Document(dataDir + "Tables.docx");
@@ -87,7 +89,7 @@ Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 
 ### Шаг 4.1: Разрешить интервал между ячейками
 
- Установите`AllowCellSpacing` свойство таблицы`true`.
+Установите `AllowCellSpacing` свойство таблицы `true`.
 
 ```csharp
 table.AllowCellSpacing = true;
@@ -105,7 +107,7 @@ table.CellSpacing = 2;
 
 Наконец, сохраните измененный документ в указанном вами каталоге.
 
- Используйте`Save` метод сохранения вашего документа.
+Используйте `Save` метод сохранения вашего документа.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.AllowCellSpacing.docx");
@@ -131,14 +133,19 @@ Aspose.Words для .NET специально разработан для язы
 
 ### Существует ли бесплатная пробная версия Aspose.Words для .NET?
 
- Да, вы можете загрузить бесплатную пробную версию с сайта[здесь](https://releases.aspose.com/).
+Да, вы можете загрузить бесплатную пробную версию с сайта [здесь](https://releases.aspose.com/).
 
 ### Где я могу найти дополнительную документацию по Aspose.Words для .NET?
 
- Вы можете найти полную документацию[здесь](https://reference.aspose.com/words/net/).
+Вы можете найти полную документацию [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

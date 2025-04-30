@@ -1,14 +1,16 @@
 ---
-title: รับตัวคั่นรูปแบบย่อหน้าในเอกสาร Word
-linktitle: รับตัวคั่นรูปแบบย่อหน้าในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการระบุและจัดการตัวคั่นรูปแบบย่อหน้าในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนที่ครอบคลุมนี้
-weight: 10
-url: /th/net/document-formatting/get-paragraph-style-separator/
+"description": "เรียนรู้วิธีการระบุและจัดการตัวคั่นรูปแบบย่อหน้าในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนที่ครอบคลุมนี้"
+"linktitle": "รับตัวคั่นรูปแบบย่อหน้าในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "รับตัวคั่นรูปแบบย่อหน้าในเอกสาร Word"
+"url": "/th/net/document-formatting/get-paragraph-style-separator/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับตัวคั่นรูปแบบย่อหน้าในเอกสาร Word
@@ -20,10 +22,10 @@ url: /th/net/document-formatting/get-paragraph-style-separator/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มต้นเขียนโค้ด เรามาตรวจสอบกันก่อนว่าคุณมีเครื่องมือทั้งหมดที่คุณต้องการแล้ว:
+ก่อนที่จะเริ่มเขียนโค้ด เรามาตรวจสอบกันก่อนว่าคุณมีเครื่องมือทั้งหมดที่คุณต้องการแล้ว:
 
 - Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งแล้ว หากยังไม่ได้ติดตั้ง ให้ดาวน์โหลดและติดตั้งจากเว็บไซต์ของ Microsoft
-- Aspose.Words สำหรับ .NET: หากคุณยังไม่มี ให้ดาวน์โหลดเวอร์ชันล่าสุด[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: หากคุณยังไม่มี ให้ดาวน์โหลดเวอร์ชันล่าสุด [ที่นี่](https://releases-aspose.com/words/net/).
 - ตัวอย่างเอกสาร Word: ควรมีตัวคั่นรูปแบบย่อหน้าเพื่อให้เราใช้งานได้ คุณสามารถสร้างตัวคั่นรูปแบบย่อหน้าหรือใช้เอกสารที่มีอยู่แล้วก็ได้
 
 ## นำเข้าเนมสเปซ
@@ -43,7 +45,7 @@ using System;
 ก่อนที่เราจะเจาะลึกโค้ด เรามาตั้งค่าโปรเจ็กต์ของคุณใน Visual Studio กันก่อน
 
 1. สร้างโปรเจ็กต์ใหม่: เปิด Visual Studio และสร้างโปรเจ็กต์ Console App (.NET Framework) ใหม่
-2.  ติดตั้ง Aspose.Words สำหรับ .NET: ใช้ตัวจัดการแพ็กเกจ NuGet เพื่อติดตั้งไลบรารี Aspose.Words สำหรับ .NET เพียงค้นหา`Aspose.Words` และคลิก 'ติดตั้ง'
+2. ติดตั้ง Aspose.Words สำหรับ .NET: ใช้ตัวจัดการแพ็กเกจ NuGet เพื่อติดตั้งไลบรารี Aspose.Words สำหรับ .NET เพียงค้นหา `Aspose.Words` และคลิก 'ติดตั้ง'
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร Word ของคุณ
 
@@ -55,7 +57,7 @@ using System;
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
 
-2.  โหลดเอกสาร: ใช้`Document` คลาสจาก Aspose.Words เพื่อโหลดเอกสารของคุณ
+2. โหลดเอกสาร: ใช้ `Document` คลาสจาก Aspose.Words เพื่อโหลดเอกสารของคุณ
 
     ```csharp
     Document doc = new Document(dataDir + "Document.docx");
@@ -65,7 +67,7 @@ using System;
 
 เมื่อคุณโหลดเอกสารเสร็จเรียบร้อยแล้ว ก็ถึงเวลาตรวจสอบในแต่ละย่อหน้าและระบุตัวคั่นรูปแบบ
 
-1.  รับย่อหน้าทั้งหมด: ดึงย่อหน้าทั้งหมดในเอกสารโดยใช้`GetChildNodes` วิธี.
+1. รับย่อหน้าทั้งหมด: ดึงย่อหน้าทั้งหมดในเอกสารโดยใช้ `GetChildNodes` วิธี.
 
     ```csharp
     foreach (Paragraph paragraph in doc.GetChildNodes(NodeType.Paragraph, true))
@@ -84,7 +86,7 @@ using System;
 
 ตอนนี้เรามารันโค้ดของคุณและดูการใช้งานกัน
 
-1. สร้างและรัน: สร้างโปรเจ็กต์ของคุณและรันมัน หากทุกอย่างตั้งค่าอย่างถูกต้อง คุณควรเห็นข้อความ "Separator Found!" พิมพ์อยู่ในคอนโซลของคุณสำหรับตัวคั่นรูปแบบแต่ละตัวในเอกสารของคุณ
+1. สร้างและรัน: สร้างโปรเจ็กต์ของคุณและรัน หากตั้งค่าทุกอย่างอย่างถูกต้อง คุณควรเห็นข้อความ "Separator Found!" พิมพ์อยู่ในคอนโซลของคุณสำหรับตัวคั่นรูปแบบแต่ละตัวในเอกสารของคุณ
 
 ## บทสรุป
 
@@ -102,13 +104,18 @@ using System;
 ใช่ Aspose.Words สำหรับ .NET เข้ากันได้กับทั้ง .NET Framework และ .NET Core
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words ได้จากที่ไหน
- คุณสามารถรับการสนับสนุนได้จาก[ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8).
+คุณสามารถรับการสนับสนุนได้จาก [ฟอรั่ม Aspose.Words](https://forum-aspose.com/c/words/8).
 
 ### ฉันสามารถใช้ Aspose.Words ได้ฟรีหรือไม่?
- Aspose.Words เสนอ[ทดลองใช้งานฟรี](https://releases.aspose.com/) และยังให้บริการ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินผล
+Aspose.Words เสนอ [ทดลองใช้งานฟรี](https://releases.aspose.com/) และยังให้บริการ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินผล
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

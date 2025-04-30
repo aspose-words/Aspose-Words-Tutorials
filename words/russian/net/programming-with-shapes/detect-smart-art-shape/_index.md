@@ -1,14 +1,16 @@
 ---
-title: Определить форму интеллектуального искусства
-linktitle: Определить форму интеллектуального искусства
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как обнаружить фигуры SmartArt в документах Word с помощью Aspose.Words для .NET с помощью этого всеобъемлющего руководства. Идеально подходит для автоматизации вашего документооборота.
-weight: 10
-url: /ru/net/programming-with-shapes/detect-smart-art-shape/
+"description": "Узнайте, как обнаружить фигуры SmartArt в документах Word с помощью Aspose.Words для .NET с помощью этого всеобъемлющего руководства. Идеально подходит для автоматизации вашего документооборота."
+"linktitle": "Определить форму интеллектуального искусства"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Определить форму интеллектуального искусства"
+"url": "/ru/net/programming-with-shapes/detect-smart-art-shape/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Определить форму интеллектуального искусства
@@ -23,7 +25,7 @@ url: /ru/net/programming-with-shapes/detect-smart-art-shape/
 Прежде чем углубляться в детали, давайте убедимся, что у вас все настроено:
 
 1. Базовые знания C#: вы должны хорошо знать синтаксис и концепции C#.
-2.  Aspose.Words для .NET: Загрузить[здесь](https://releases.aspose.com/words/net/) . Если вы только изучаете, вы можете начать с[бесплатная пробная версия](https://releases.aspose.com/).
+2. Aspose.Words для .NET: Загрузить [здесь](https://releases.aspose.com/words/net/). Если вы только изучаете, вы можете начать с [бесплатная пробная версия](https://releases.aspose.com/).
 3. Visual Studio: подойдет любая последняя версия, но рекомендуется последняя версия.
 4. .NET Framework: убедитесь, что он установлен в вашей системе.
 
@@ -50,7 +52,7 @@ using Aspose.Words.Drawing;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашим документам.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашим документам.
 
 ## Шаг 2: Загрузка документа
 
@@ -60,7 +62,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Smart Art.docx");
 ```
 
- Здесь мы инициализируем`Document` объект с путем к нашему файлу Word.
+Здесь мы инициализируем `Document` объект с путем к нашему файлу Word.
 
 ## Шаг 3: Обнаружение фигур SmartArt
 
@@ -72,7 +74,7 @@ int count = doc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Count(shape =>
 Console.WriteLine("The document has {0} shapes with SmartArt.", count);
 ```
 
- На этом этапе мы используем LINQ для фильтрации и подсчета фигур, имеющих SmartArt.`GetChildNodes` метод извлекает все фигуры, и`HasSmartArt` Свойство проверяет, содержит ли фигура элемент SmartArt.
+На этом этапе мы используем LINQ для фильтрации и подсчета фигур, имеющих SmartArt. `GetChildNodes` метод извлекает все фигуры, и `HasSmartArt` Свойство проверяет, содержит ли фигура элемент SmartArt.
 
 ## Шаг 4: Запуск кода
 
@@ -86,32 +88,37 @@ The document has X shapes with SmartArt.
 
 ## Заключение
 
-И вот оно! Вы успешно научились определять фигуры SmartArt в документах Word с помощью Aspose.Words для .NET. В этом руководстве рассматривается настройка среды, загрузка документов, определение фигур SmartArt и запуск кода. Aspose.Words предлагает широкий спектр функций, поэтому обязательно изучите[API-документация](https://reference.aspose.com/words/net/) чтобы раскрыть весь его потенциал.
+И вот оно! Вы успешно научились определять фигуры SmartArt в документах Word с помощью Aspose.Words для .NET. В этом руководстве рассматривается настройка среды, загрузка документов, определение фигур SmartArt и запуск кода. Aspose.Words предлагает широкий спектр функций, поэтому обязательно изучите [API-документация](https://reference.aspose.com/words/net/) чтобы раскрыть весь его потенциал.
 
 ## Часто задаваемые вопросы
 
 ### 1. Что такое Aspose.Words для .NET?
 
-Aspose.Words for .NET — мощная библиотека, которая позволяет разработчикам программно создавать, изменять и преобразовывать документы Word. Она идеально подходит для автоматизации задач, связанных с документами.
+Aspose.Words for .NET — мощная библиотека, которая позволяет разработчикам программно создавать, изменять и конвертировать документы Word. Идеально подходит для автоматизации задач, связанных с документами.
 
 ### 2. Могу ли я использовать Aspose.Words для .NET бесплатно?
 
- Вы можете попробовать Aspose.Words для .NET, используя[бесплатная пробная версия](https://releases.aspose.com/). Для долгосрочного использования вам необходимо приобрести лицензию.
+Вы можете попробовать Aspose.Words для .NET, используя [бесплатная пробная версия](https://releases.aspose.com/). Для долгосрочного использования вам необходимо приобрести лицензию.
 
 ### 3. Как обнаружить другие типы фигур в документе?
 
- Вы можете изменить запрос LINQ для проверки других свойств или типов фигур. Обратитесь к[документация](https://reference.aspose.com/words/net/) для более подробной информации.
+Вы можете изменить запрос LINQ для проверки других свойств или типов фигур. Обратитесь к [документация](https://reference.aspose.com/words/net/) для более подробной информации.
 
 ### 4. Как получить поддержку по Aspose.Words для .NET?
 
- Вы можете получить поддержку, посетив[Форум поддержки Aspose](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку, посетив [Форум поддержки Aspose](https://forum.aspose.com/c/words/8).
 
 ### 5. Можно ли программно манипулировать фигурами SmartArt?
 
- Да, Aspose.Words позволяет программно манипулировать фигурами SmartArt. Проверьте[документация](https://reference.aspose.com/words/net/) для получения подробных инструкций.
+Да, Aspose.Words позволяет программно манипулировать фигурами SmartArt. Проверьте [документация](https://reference.aspose.com/words/net/) для получения подробных инструкций.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

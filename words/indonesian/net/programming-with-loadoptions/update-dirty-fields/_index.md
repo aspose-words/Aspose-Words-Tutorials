@@ -1,14 +1,16 @@
 ---
-title: Memperbarui Bidang Kotor di Dokumen Word
-linktitle: Memperbarui Bidang Kotor di Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Perbarui bidang kotor dalam dokumen Word Anda dengan mudah menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini.
-weight: 10
-url: /id/net/programming-with-loadoptions/update-dirty-fields/
+"description": "Perbarui bidang kotor dalam dokumen Word Anda dengan mudah menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini."
+"linktitle": "Memperbarui Bidang Kotor di Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Memperbarui Bidang Kotor di Dokumen Word"
+"url": "/id/net/programming-with-loadoptions/update-dirty-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Memperbarui Bidang Kotor di Dokumen Word
@@ -22,7 +24,7 @@ Pernahkah Anda berada dalam situasi di mana Anda memiliki dokumen Word yang penu
 
 Sebelum kita masuk ke inti pembahasan, mari pastikan Anda memiliki semua yang dibutuhkan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru. Jika tidak, Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru. Jika tidak, Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 2. .NET Framework: Versi apa pun yang kompatibel dengan Aspose.Words.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan bermanfaat.
 4. Contoh Dokumen Word: Dokumen dengan bidang-bidang kotor yang perlu diperbarui.
@@ -61,7 +63,7 @@ Di sini, kami menentukan bahwa dokumen harus memperbarui bidang yang kotor saat 
 
 ## Langkah 3: Muat Dokumen
 
-Selanjutnya, muat dokumen menggunakan opsi muat yang telah dikonfigurasi. Bayangkan ini seperti mengemasi tas dan masuk ke dalam mobil.
+Selanjutnya, muat dokumen menggunakan opsi muat yang telah dikonfigurasi. Bayangkan ini seperti mengemasi tas dan masuk ke mobil.
 
 ```csharp
 // Muat dokumen dengan memperbarui bidang yang kotor
@@ -98,11 +100,16 @@ Ya, Aspose.Words memberikan fleksibilitas untuk memperbarui bidang tertentu, tet
 Ya, Aspose.Words adalah pustaka hebat yang menyederhanakan proses manipulasi dokumen Word secara terprogram.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Words?
- Lihat di sini[dokumentasi](https://reference.aspose.com/words/net/) untuk panduan dan contoh terperinci.
+Lihat di sini [dokumentasi](https://reference.aspose.com/words/net/) untuk panduan dan contoh terperinci.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

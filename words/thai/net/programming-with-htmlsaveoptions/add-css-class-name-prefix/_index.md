@@ -1,14 +1,16 @@
 ---
-title: เพิ่มคำนำหน้าชื่อคลาส CSS
-linktitle: เพิ่มคำนำหน้าชื่อคลาส CSS
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีเพิ่มคำนำหน้าชื่อคลาส CSS เมื่อบันทึกเอกสาร Word เป็น HTML โดยใช้ Aspose.Words สำหรับ .NET มีคำแนะนำทีละขั้นตอน สนิปเป็ตโค้ด และคำถามที่พบบ่อยรวมอยู่ด้วย
-weight: 10
-url: /th/net/programming-with-htmlsaveoptions/add-css-class-name-prefix/
+"description": "เรียนรู้วิธีเพิ่มคำนำหน้าชื่อคลาส CSS เมื่อบันทึกเอกสาร Word เป็น HTML โดยใช้ Aspose.Words สำหรับ .NET มีคำแนะนำทีละขั้นตอน สนิปเป็ตโค้ด และคำถามที่พบบ่อยรวมอยู่ด้วย"
+"linktitle": "เพิ่มคำนำหน้าชื่อคลาส CSS"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "เพิ่มคำนำหน้าชื่อคลาส CSS"
+"url": "/th/net/programming-with-htmlsaveoptions/add-css-class-name-prefix/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มคำนำหน้าชื่อคลาส CSS
@@ -21,9 +23,9 @@ url: /th/net/programming-with-htmlsaveoptions/add-css-class-name-prefix/
 
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
--  Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ติดตั้ง[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ติดตั้ง [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE C# อื่นๆ
--  เอกสาร Word: เราจะใช้เอกสารชื่อ`Rendering.docx`. วางไว้ในไดเร็กทอรีโครงการของคุณ
+- เอกสาร Word: เราจะใช้เอกสารชื่อ `Rendering.docx`. วางไว้ในไดเร็กทอรีโครงการของคุณ
 
 ## นำเข้าเนมสเปซ
 
@@ -43,7 +45,7 @@ using Aspose.Words.Saving;
 
 ### ขั้นตอนที่ 1.1: สร้างโครงการใหม่
 
- เปิด Visual Studio ของคุณและสร้างโปรเจ็กต์ Console App ใหม่ ตั้งชื่อให้น่าสนใจ เช่น`AsposeCssPrefixExample`.
+เปิด Visual Studio ของคุณและสร้างโปรเจ็กต์ Console App ใหม่ ตั้งชื่อให้น่าสนใจ เช่น `AsposeCssPrefixExample`-
 
 ### ขั้นตอนที่ 1.2: เพิ่ม Aspose.Words สำหรับ .NET
 
@@ -61,7 +63,7 @@ Install-Package Aspose.Words
 
 ### ขั้นตอนที่ 2.1: กำหนดเส้นทางเอกสาร
 
- ตั้งค่าเส้นทางไปยังไดเรกทอรีเอกสารของคุณ เพื่อประโยชน์ของบทช่วยสอนนี้ สมมติว่าเอกสารของคุณอยู่ในโฟลเดอร์ที่มีชื่อว่า`Documents` ภายในไดเร็กทอรีโครงการของคุณ
+ตั้งค่าเส้นทางไปยังไดเรกทอรีเอกสารของคุณ เพื่อประโยชน์ของบทช่วยสอนนี้ สมมติว่าเอกสารของคุณอยู่ในโฟลเดอร์ที่มีชื่อว่า `Documents` ภายในไดเร็กทอรีโครงการของคุณ
 
 ```csharp
 string dataDir = @"C:\YourProject\Documents\";
@@ -81,7 +83,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ### ขั้นตอนที่ 3.1: สร้างตัวเลือกการบันทึก HTML
 
- สร้างตัวอย่าง`HtmlSaveOptions` วัตถุและตั้งค่าประเภทแผ่นสไตล์ CSS เป็น`External`.
+สร้างตัวอย่าง `HtmlSaveOptions` วัตถุและตั้งค่าประเภทแผ่นสไตล์ CSS เป็น `External`-
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions
@@ -92,7 +94,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions
 
 ### ขั้นตอนที่ 3.2: ตั้งค่าคำนำหน้าชื่อคลาส CSS
 
- ตอนนี้เรามาตั้งค่ากัน`CssClassNamePrefix` คุณสมบัติตามคำนำหน้าที่คุณต้องการ สำหรับตัวอย่างนี้ เราจะใช้`"pfx_"`.
+ตอนนี้เรามาตั้งค่ากัน `CssClassNamePrefix` คุณสมบัติตามคำนำหน้าที่คุณต้องการ สำหรับตัวอย่างนี้ เราจะใช้ `"pfx_"`-
 
 ```csharp
 saveOptions.CssClassNamePrefix = "pfx_";
@@ -100,7 +102,7 @@ saveOptions.CssClassNamePrefix = "pfx_";
 
 ## ขั้นตอนที่ 4: บันทึกเอกสารเป็น HTML
 
-สุดท้ายเรามาบันทึกเอกสารเป็นไฟล์ HTML พร้อมตัวเลือกที่เรากำหนดค่าไว้
+สุดท้ายเรามาบันทึกเอกสารเป็นไฟล์ HTML ด้วยตัวเลือกที่เราได้กำหนดค่าไว้
 
 
 ระบุเส้นทางไฟล์ HTML ผลลัพธ์และบันทึกเอกสาร
@@ -111,7 +113,7 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.AddCssClassNamePrefix.html", save
 
 ## ขั้นตอนที่ 5: ตรวจสอบผลลัพธ์
 
- หลังจากรันโครงการของคุณแล้ว ให้ไปที่`Documents` โฟลเดอร์ คุณควรพบไฟล์ HTML ชื่อ`WorkingWithHtmlSaveOptions.AddCssClassNamePrefix.html` เปิดไฟล์นี้ในโปรแกรมแก้ไขข้อความหรือเบราว์เซอร์เพื่อตรวจสอบว่าคลาส CSS มีคำนำหน้า`pfx_`.
+หลังจากรันโครงการของคุณแล้ว ให้ไปที่ `Documents` โฟลเดอร์ คุณควรพบไฟล์ HTML ชื่อ `WorkingWithHtmlSaveOptions.AddCssClassNamePrefix.html`เปิดไฟล์นี้ในโปรแกรมแก้ไขข้อความหรือเบราว์เซอร์เพื่อตรวจสอบว่าคลาส CSS มีคำนำหน้า `pfx_`-
 
 ## บทสรุป
 
@@ -120,22 +122,27 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.AddCssClassNamePrefix.html", save
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถใช้คำนำหน้าที่แตกต่างกันสำหรับการบันทึกแต่ละครั้งได้หรือไม่
- ใช่ คุณสามารถปรับแต่งคำนำหน้าได้ทุกครั้งที่คุณบันทึกเอกสารโดยการเปลี่ยนแปลง`CssClassNamePrefix` คุณสมบัติ.
+ใช่ คุณสามารถปรับแต่งคำนำหน้าได้ทุกครั้งที่คุณบันทึกเอกสารโดยการเปลี่ยนแปลง `CssClassNamePrefix` คุณสมบัติ.
 
 ### วิธีการนี้รองรับ CSS แบบอินไลน์หรือไม่?
- การ`CssClassNamePrefix`คุณสมบัตินี้ทำงานร่วมกับ CSS ภายนอกได้ สำหรับ CSS แบบอินไลน์ คุณจะต้องใช้วิธีการอื่น
+การ `CssClassNamePrefix` คุณสมบัตินี้ทำงานร่วมกับ CSS ภายนอกได้ สำหรับ CSS แบบอินไลน์ คุณจะต้องใช้วิธีการอื่น
 
 ### ฉันจะรวมตัวเลือกการบันทึก HTML อื่น ๆ ได้อย่างไร
- คุณสามารถกำหนดค่าคุณสมบัติต่างๆ ของ`HtmlSaveOptions` เพื่อปรับแต่งผลลัพธ์ HTML ของคุณ ตรวจสอบ[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายละเอียดเพิ่มเติม
+คุณสามารถกำหนดค่าคุณสมบัติต่างๆ ของ `HtmlSaveOptions` เพื่อปรับแต่งผลลัพธ์ HTML ของคุณ ตรวจสอบ [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายละเอียดเพิ่มเติม
 
 ### สามารถบันทึก HTML ลงในสตรีมได้หรือไม่?
- แน่นอน! คุณสามารถบันทึกเอกสารลงในสตรีมได้โดยส่งวัตถุสตรีมไปยัง`Save` วิธี.
+แน่นอน! คุณสามารถบันทึกเอกสารลงในสตรีมได้โดยส่งวัตถุสตรีมไปยัง `Save` วิธี.
 
 ### ฉันจะได้รับการสนับสนุนได้อย่างไรหากประสบปัญหา?
- คุณสามารถรับการสนับสนุนได้จาก[ฟอรั่ม Aspose](https://forum.aspose.com/c/words/8).
+คุณสามารถรับการสนับสนุนได้จาก [ฟอรั่ม Aspose](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

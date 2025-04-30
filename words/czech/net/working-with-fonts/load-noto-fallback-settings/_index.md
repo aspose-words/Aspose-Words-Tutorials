@@ -1,81 +1,83 @@
 ---
-title: Načtěte záložní nastavení Noto
-linktitle: Načtěte záložní nastavení Noto
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Přečtěte si, jak načíst záložní nastavení Noto v dokumentu aplikace Word pomocí Aspose.Words for .NET. Postupujte podle našeho podrobného průvodce, abyste zajistili správné zobrazení všech znaků.
-weight: 10
-url: /cs/net/working-with-fonts/load-noto-fallback-settings/
+"description": "Naučte se, jak načíst záložní nastavení Noto do dokumentu Word pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu, abyste zajistili správné zobrazení všech znaků."
+"linktitle": "Načíst záložní nastavení Noto"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Načíst záložní nastavení Noto"
+"url": "/cs/net/working-with-fonts/load-noto-fallback-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Načtěte záložní nastavení Noto
+# Načíst záložní nastavení Noto
 
 ## Zavedení
 
-V tomto tutoriálu prozkoumáme, jak načíst záložní nastavení Noto v dokumentu aplikace Word pomocí Aspose.Words for .NET. Tento proces zajišťuje, že se písma vašeho dokumentu zobrazí správně, i když některé znaky v původních písmech chybí. Ať už pracujete s vícejazyčnými dokumenty nebo speciálními znaky, záložní nastavení Noto vám může zachránit život.
+tomto tutoriálu se podíváme na to, jak načíst záložní nastavení Noto do dokumentu Word pomocí Aspose.Words pro .NET. Tento proces zajistí, že se písma v dokumentu zobrazí správně, i když v původních písmech chybí některé znaky. Ať už pracujete s vícejazyčnými dokumenty nebo se speciálními znaky, záložní nastavení Noto vám může zachránit život.
 
 ## Předpoklady
 
-Než se ponoříme do podrobného průvodce, pojďme si projít předpoklady, které budete potřebovat:
+Než se pustíme do podrobného návodu, pojďme si projít předpoklady, které budete potřebovat:
 
-1.  Aspose.Words for .NET Library: Ujistěte se, že máte nejnovější verzi Aspose.Words for .NET. Můžete si jej stáhnout[zde](https://releases.aspose.com/words/net/).
+1. Knihovna Aspose.Words pro .NET: Ujistěte se, že máte nejnovější verzi Aspose.Words pro .NET. Můžete si ji stáhnout [zde](https://releases.aspose.com/words/net/).
 2. Vývojové prostředí: Visual Studio nebo jakékoli jiné kompatibilní vývojové prostředí .NET.
 3. Základní znalost C#: Znalost programování v C# je nezbytná.
-4. Dokument aplikace Word: Ukázkový dokument aplikace Word pro použití záložních nastavení Noto.
+4. Dokument Word: Ukázkový dokument Word pro použití záložního nastavení Noto.
 
 ## Importovat jmenné prostory
 
-Chcete-li začít, musíte do projektu importovat potřebné jmenné prostory. Tyto jmenné prostory poskytují přístup ke třídám a metodám potřebným pro manipulaci s dokumenty aplikace Word pomocí Aspose.Words for .NET.
+Pro začátek je potřeba do projektu importovat potřebné jmenné prostory. Tyto jmenné prostory poskytují přístup ke třídám a metodám potřebným pro manipulaci s dokumenty Wordu pomocí Aspose.Words pro .NET.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Fonts;
 ```
 
-Nyní si tento proces rozdělíme do jednoduchých, zvládnutelných kroků. Postupujte podle pokynů a načtěte záložní nastavení Noto do dokumentu aplikace Word.
+Nyní si celý proces rozdělme na jednoduché a snadno zvládnutelné kroky. Postupujte podle pokynů a načtěte záložní nastavení Noto do dokumentu Word.
 
-## Krok 1: Nastavte svůj projekt
+## Krok 1: Nastavení projektu
 
-Nejprve musíte nastavit svůj projekt. Otevřete své vývojové prostředí a vytvořte nový projekt nebo otevřete existující.
+Nejprve je třeba nastavit projekt. Otevřete vývojové prostředí a vytvořte nový projekt nebo otevřete existující.
 
-1. Vytvoření nového projektu: Pokud nemáte projekt, vytvořte nový v sadě Visual Studio výběrem 'Vytvořit nový projekt'.
-2. Přidat Aspose.Words for .NET: Přidejte knihovnu Aspose.Words for .NET do svého projektu pomocí Správce balíčků NuGet. Vyhledejte 'Apose.Words' a nainstalujte nejnovější verzi.
+1. Vytvoření nového projektu: Pokud nemáte projekt, vytvořte si nový ve Visual Studiu výběrem možnosti „Vytvořit nový projekt“.
+2. Přidání knihovny Aspose.Words pro .NET: Přidejte knihovnu Aspose.Words pro .NET do svého projektu pomocí Správce balíčků NuGet. Vyhledejte „Aspose.Words“ a nainstalujte nejnovější verzi.
 
-## Krok 2: Definujte svůj adresář dokumentů
+## Krok 2: Definujte adresář dokumentů
 
-Dále definujte cestu k adresáři dokumentů. Zde jsou uloženy vaše dokumenty aplikace Word.
+Dále definujte cestu k adresáři s dokumenty. Zde jsou uloženy vaše dokumenty aplikace Word.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou ke složce dokumentů.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou ke složce s dokumenty.
 
-## Krok 3: Vložte svůj dokument
+## Krok 3: Vložte dokument
 
-Načtěte dokument aplikace Word, na který chcete použít záložní nastavení Noto. Použijte`Document` třídy z oboru názvů Aspose.Words.
+Načtěte dokument Wordu, na který chcete použít záložní nastavení Noto. Použijte `Document` třída z oboru názvů Aspose.Words.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
-Ujistěte se, že se váš dokument jmenuje „Rendering.docx“, nebo podle toho změňte název souboru.
+Ujistěte se, že váš dokument má název „Rendering.docx“, nebo název souboru odpovídajícím způsobem změňte.
 
-## Krok 4: Nakonfigurujte nastavení písma
+## Krok 4: Konfigurace nastavení písma
 
- Vytvořte instanci souboru`FontSettings` třídy a načtěte záložní nastavení Noto. Tento krok nakonfiguruje nastavení písma tak, aby používala písma Noto jako záložní.
+Vytvořte instanci `FontSettings` třídu a načtěte záložní nastavení Noto. Tento krok nakonfiguruje nastavení písma tak, aby se jako záložní písma používala písma Noto.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
 fontSettings.FallbackSettings.LoadNotoFallbackSettings();
 ```
 
-## Krok 5: Použijte nastavení písma na dokument
+## Krok 5: Použití nastavení písma v dokumentu
 
-Přiřaďte dokumentu nakonfigurovaná nastavení písma. Tím zajistíte, že dokument bude používat záložní nastavení Noto.
+Přiřaďte nakonfigurované nastavení písma k dokumentu. Tím zajistíte, že dokument bude používat záložní nastavení písma Noto.
 
 ```csharp
 doc.FontSettings = fontSettings;
@@ -83,7 +85,7 @@ doc.FontSettings = fontSettings;
 
 ## Krok 6: Uložte dokument
 
-Nakonec upravený dokument uložte. Můžete jej uložit v jakémkoli formátu podporovaném Aspose.Words. V tomto případě jej uložíme jako PDF.
+Nakonec upravený dokument uložte. Můžete jej uložit v libovolném formátu podporovaném aplikací Aspose.Words. V tomto případě jej uložíme jako PDF.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithFonts.NotoFallbackSettings.pdf");
@@ -91,27 +93,32 @@ doc.Save(dataDir + "WorkingWithFonts.NotoFallbackSettings.pdf");
 
 ## Závěr
 
-Gratuluji! Úspěšně jste načetli záložní nastavení Noto do dokumentu aplikace Word pomocí Aspose.Words for .NET. Tento tutoriál pokryl vše od nastavení projektu až po uložení konečného dokumentu. Pomocí těchto kroků můžete zajistit, že vaše dokumenty zobrazí všechny znaky správně, i když v původních fontech chybí některé glyfy.
+Gratulujeme! Úspěšně jste načetli záložní nastavení Noto do dokumentu Word pomocí Aspose.Words pro .NET. Tento tutoriál pokrýval vše od nastavení projektu až po uložení finálního dokumentu. Dodržením těchto kroků zajistíte, že se ve vašich dokumentech budou všechny znaky zobrazovat správně, i když v původních písmech některé glyfy chybí.
 
-## FAQ
+## Často kladené otázky
 
 ### Jaká jsou záložní nastavení Noto?
-Záložní nastavení Noto poskytují komplexní sadu záložních písem, která zajistí správné zobrazení všech znaků v dokumentu.
+Záložní nastavení Noto poskytují komplexní sadu záložních písem, která zajišťují správné zobrazení všech znaků v dokumentu.
 
-### Proč bych měl používat záložní nastavení Noto?
-Použití záložních nastavení Noto zajišťuje, že váš dokument může zobrazovat širokou škálu znaků, zejména ve vícejazyčných dokumentech.
+### Proč bych měl/a používat záložní nastavení Noto?
+Použití záložního nastavení Noto zajistí, že váš dokument bude moci zobrazit širokou škálu znaků, zejména ve vícejazyčných dokumentech.
 
-### Mohu použít jiná záložní nastavení kromě Noto?
+### Mohu použít i jiná záložní nastavení kromě Noto?
 Ano, Aspose.Words vám umožňuje konfigurovat další záložní nastavení na základě vašich požadavků.
 
-### Jak nainstaluji Aspose.Words for .NET?
-Aspose.Words for .NET můžete nainstalovat prostřednictvím Správce balíčků NuGet v sadě Visual Studio.
+### Jak nainstaluji Aspose.Words pro .NET?
+Aspose.Words pro .NET můžete nainstalovat pomocí Správce balíčků NuGet ve Visual Studiu.
 
 ### Existuje bezplatná zkušební verze pro Aspose.Words pro .NET?
- Ano, můžete si stáhnout bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
+Ano, můžete si stáhnout bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

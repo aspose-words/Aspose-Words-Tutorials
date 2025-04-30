@@ -1,59 +1,61 @@
 ---
-title: Využití funkcí komentářů v dokumentech aplikace Word
-linktitle: Využití funkcí komentářů v dokumentech aplikace Word
-second_title: Aspose.Words Python Document Management API
-description: Naučte se používat funkce komentářů v dokumentech Word pomocí Aspose.Words pro Python. Průvodce krok za krokem se zdrojovým kódem. Vylepšete spolupráci a zjednodušte kontroly v dokumentech.
-weight: 11
-url: /cs/python-net/document-structure-and-content-manipulation/document-comments/
+"description": "Naučte se, jak používat funkce komentářů v dokumentech Word pomocí Aspose.Words pro Python. Podrobný návod se zdrojovým kódem. Vylepšete spolupráci a zefektivnite revize v dokumentech."
+"linktitle": "Využití funkcí komentářů v dokumentech Word"
+"second_title": "API pro správu dokumentů Aspose.Words v Pythonu"
+"title": "Využití funkcí komentářů v dokumentech Word"
+"url": "/cs/python-net/document-structure-and-content-manipulation/document-comments/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Využití funkcí komentářů v dokumentech aplikace Word
+# Využití funkcí komentářů v dokumentech Word
 
 
-Komentáře hrají klíčovou roli při spolupráci a kontrole dokumentů a umožňují více jednotlivcům sdílet své myšlenky a návrhy v rámci dokumentu aplikace Word. Aspose.Words for Python poskytuje výkonné rozhraní API, které umožňuje vývojářům bez námahy pracovat s komentáři v dokumentech aplikace Word. V tomto článku prozkoumáme, jak využít funkce komentářů v dokumentech aplikace Word pomocí Aspose.Words pro Python.
+Komentáře hrají klíčovou roli ve spolupráci a revizi dokumentů, což umožňuje více lidem sdílet své myšlenky a návrhy v rámci dokumentu Word. Aspose.Words pro Python poskytuje výkonné API, které umožňuje vývojářům snadno pracovat s komentáři v dokumentech Word. V tomto článku se podíváme na to, jak využít funkce komentářů v dokumentech Word pomocí Aspose.Words pro Python.
 
 ## Zavedení
 
-Spolupráce je základním aspektem tvorby dokumentů a komentáře poskytují bezproblémový způsob, jak může více uživatelů sdílet svou zpětnou vazbu a myšlenky v rámci dokumentu. Aspose.Words for Python, výkonná knihovna pro manipulaci s dokumenty, umožňuje vývojářům programově pracovat s dokumenty Wordu, včetně přidávání, úprav a načítání komentářů.
+Spolupráce je základním aspektem tvorby dokumentů a komentáře poskytují více uživatelům bezproblémový způsob, jak sdílet zpětnou vazbu a myšlenky v rámci dokumentu. Aspose.Words pro Python, výkonná knihovna pro manipulaci s dokumenty, umožňuje vývojářům programově pracovat s dokumenty Wordu, včetně přidávání, úprav a načítání komentářů.
 
 ## Nastavení Aspose.Words pro Python
 
- Chcete-li začít, musíte nainstalovat Aspose.Words pro Python. Knihovnu si můžete stáhnout z[Aspose.Words pro Python](https://releases.aspose.com/words/python/) odkaz ke stažení. Po stažení jej můžete nainstalovat pomocí pip:
+Pro začátek je potřeba nainstalovat Aspose.Words pro Python. Knihovnu si můžete stáhnout z  [Aspose.Words pro Python](https://releases.aspose.com/words/python/) odkaz ke stažení. Po stažení jej můžete nainstalovat pomocí pipu:
 
 ```python
 pip install aspose-words
 ```
 
-## Přidání komentářů k dokumentu
+## Přidávání komentářů do dokumentu
 
-Přidání komentáře k dokumentu aplikace Word pomocí Aspose.Words pro Python je jednoduché. Zde je jednoduchý příklad:
+Přidání komentáře do dokumentu Wordu pomocí Aspose.Words pro Python je jednoduché. Zde je jednoduchý příklad:
 
 ```python
 import aspose.words as aw
 
-# Load the document
+# Načíst dokument
 doc = aw.Document("example.docx")
 
-# Add a comment
+# Přidat komentář
 comment = aw.Comment(doc, "John Doe", "This is a valuable insight.")
 comment.author = "John Doe"
 comment.text = "This is a valuable insight."
 comment_date = aw.DateTime.now()
 comment.date_time = comment_date
 
-# Insert the comment
+# Vložte komentář
 paragraph = doc.first_section.body.first_paragraph
 run = paragraph.runs[0]
 run.insert_comment(comment)
 ```
 
-## Načítání komentářů z dokumentu
+## Načtení komentářů z dokumentu
 
-Načítání komentářů z dokumentu je stejně snadné. Komentáře v dokumentu můžete iterovat a přistupovat k jejich vlastnostem:
+Načtení komentářů z dokumentu je stejně snadné. Můžete procházet komentáře v dokumentu a přistupovat k jejich vlastnostem:
 
 ```python
 for comment in doc.comments:
@@ -64,33 +66,33 @@ for comment in doc.comments:
 
 ## Úprava a řešení komentářů
 
-Komentáře často podléhají změnám. Aspose.Words pro Python vám umožňuje upravit existující komentáře a označit je jako vyřešené:
+Komentáře se často mohou změnit. Aspose.Words pro Python umožňuje upravovat existující komentáře a označovat je jako vyřešené:
 
 ```python
-# Modify a comment's text
+# Úprava textu komentáře
 comment = doc.comments[0]
 comment.text = "Updated insight: " + comment.text
 
-# Resolve a comment
+# Vyřešit komentář
 comments = doc.get_child_nodes(aw.NodeType.COMMENT, True)
 
 parent_comment = comments[0].as_comment()
 for child in parent_comment.replies:
 	child_comment = child.as_comment()
-	# Get comment parent and status.
+	# Získat nadřazený prvek a stav komentáře.
 	print(child_comment.ancestor.id)
 	print(child_comment.done)
 
-	# And update comment Done mark.
+	# A označte komentář jako Hotovo.
 	child_comment.done = True
 ```
 
-## Formátování a styling komentářů
+## Formátování a stylování komentářů
 
-Formátování komentářů zlepšuje jejich viditelnost. Na komentáře můžete použít formátování pomocí Aspose.Words pro Python:
+Formátování komentářů zlepšuje jejich viditelnost. Formátování komentářů můžete použít pomocí Aspose.Words pro Python:
 
 ```python
-# Apply formatting to a comment
+# Použití formátování na komentář
 comment = doc.comments[0]
 comment.runs[0].font.bold = True
 comment.runs[0].font.color = aw.Color.red
@@ -98,10 +100,10 @@ comment.runs[0].font.color = aw.Color.red
 
 ## Správa autorů komentářů
 
-Komentáře jsou přiřazeny autorům. Aspose.Words pro Python vám umožňuje spravovat autory komentářů:
+Komentáře jsou přiřazeny autorům. Aspose.Words pro Python umožňuje spravovat autory komentářů:
 
 ```python
-# Change the author's name
+# Změnit jméno autora
 comment = doc.comments[0]
 comment.author = "Jane Doe"
 ```
@@ -111,51 +113,55 @@ comment.author = "Jane Doe"
 Komentáře lze exportovat a importovat pro usnadnění externí spolupráce:
 
 ```python
-# Export comments to a file
+# Export komentářů do souboru
 doc.save_comments("comments.xml")
 
-# Import comments from a file
+# Import komentářů ze souboru
 doc.import_comments("comments.xml")
 ```
 
 ## Nejlepší postupy pro používání komentářů
 
-- Pomocí komentářů poskytněte kontext, vysvětlení a návrhy.
-- Udržujte komentáře stručné a relevantní k obsahu.
-- Vyřešte komentáře, když byly vyřešeny jejich body.
+- Používejte komentáře k poskytnutí kontextu, vysvětlení a návrhů.
+- Komentáře udržujte stručné a relevantní k obsahu.
+- Vyřešte komentáře, jakmile byly jejich body vyřešeny.
 - Využijte odpovědi k podpoře podrobných diskusí.
 
 ## Závěr
 
-Aspose.Words for Python zjednodušuje práci s komentáři v dokumentech aplikace Word a nabízí komplexní API pro přidávání, načítání, úpravy a správu komentářů. Integrací Aspose.Words pro Python do vašich projektů můžete zlepšit spolupráci a zefektivnit proces recenzování vašich dokumentů.
+Aspose.Words pro Python zjednodušuje práci s komentáři v dokumentech Wordu a nabízí komplexní API pro přidávání, načítání, úpravu a správu komentářů. Integrací Aspose.Words pro Python do vašich projektů můžete vylepšit spolupráci a zefektivnit proces kontroly v rámci vašich dokumentů.
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.Words pro Python?
 
-Aspose.Words for Python je výkonná knihovna pro manipulaci s dokumenty, která umožňuje vývojářům programově vytvářet, upravovat a zpracovávat dokumenty Word pomocí Pythonu.
+Aspose.Words pro Python je výkonná knihovna pro manipulaci s dokumenty, která umožňuje vývojářům programově vytvářet, upravovat a zpracovávat dokumenty Wordu pomocí Pythonu.
 
 ### Jak nainstaluji Aspose.Words pro Python?
 
-Aspose.Words pro Python můžete nainstalovat pomocí pip:
+Aspose.Words pro Python můžete nainstalovat pomocí pipu:
 ```python
 pip install aspose-words
 ```
 
-### Mohu použít Aspose.Words pro Python k extrahování existujících komentářů z dokumentu aplikace Word?
+### Mohu použít Aspose.Words pro Python k extrahování existujících komentářů z dokumentu Word?
 
-Ano, můžete iterovat komentáře v dokumentu a načíst jejich vlastnosti pomocí Aspose.Words pro Python.
+Ano, můžete iterovat komentáři v dokumentu a načítat jejich vlastnosti pomocí Aspose.Words pro Python.
 
 ### Je možné skrýt nebo zobrazit komentáře programově pomocí API?
 
- Ano, viditelnost komentářů můžete ovládat pomocí`comment.visible` vlastnost v Aspose.Words pro Python.
+Ano, viditelnost komentářů můžete ovládat pomocí `comment.visible` vlastnost v Aspose.Words pro Python.
 
-### Podporuje Aspose.Words pro Python přidávání komentářů ke konkrétním rozsahům textu?
+### Podporuje Aspose.Words pro Python přidávání komentářů do konkrétních oblastí textu?
 
-Samozřejmě můžete přidávat komentáře ke konkrétním rozsahům textu v dokumentu pomocí Aspose.Words for Python API.
+Rozhodně můžete přidávat komentáře k určitým oblastem textu v dokumentu pomocí bohatého API Aspose.Words pro Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

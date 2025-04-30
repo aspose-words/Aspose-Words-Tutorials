@@ -1,34 +1,36 @@
 ---
-title: Přidat text se záložkou v dokumentu aplikace Word
-linktitle: Přidat text se záložkou v dokumentu aplikace Word
-second_title: Aspose.Words API pro zpracování dokumentů
-description: V tomto podrobném průvodci se dozvíte, jak přidat text se záložkou do dokumentu aplikace Word pomocí Aspose.Words for .NET. Ideální pro vývojáře.
-weight: 10
-url: /cs/net/programming-with-bookmarks/append-bookmarked-text/
+"description": "Naučte se, jak přidat text označený záložkou do dokumentu Wordu pomocí Aspose.Words pro .NET v tomto podrobném návodu. Ideální pro vývojáře."
+"linktitle": "Přidat text označený záložkou v dokumentu Word"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Přidat text označený záložkou v dokumentu Word"
+"url": "/cs/net/programming-with-bookmarks/append-bookmarked-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidat text se záložkou v dokumentu aplikace Word
+# Přidat text označený záložkou v dokumentu Word
 
 ## Zavedení
 
-Ahoj! Zkoušeli jste někdy přidat text z části označené záložkou v dokumentu aplikace Word a přišlo vám to složité? Máte štěstí! Tento tutoriál vás provede procesem pomocí Aspose.Words pro .NET. Rozdělíme to do jednoduchých kroků, abyste je mohli snadno sledovat. Ponořme se do toho a připojme tento text se záložkou jako profesionál!
+Ahoj! Už jste někdy zkoušeli přidat text ze záložky v dokumentu Word a zjistili jste, že je to složité? Máte štěstí! Tento tutoriál vás provede celým procesem s Aspose.Words pro .NET. Rozdělíme si ho do jednoduchých kroků, abyste se v něm snadno orientovali. Pojďme se do toho pustit a přidat text ze záložek jako profesionál!
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte vše, co potřebujete:
 
--  Aspose.Words for .NET: Ujistěte se, že jej máte nainstalovaný. Pokud ne, můžete[stáhněte si to zde](https://releases.aspose.com/words/net/).
-- Vývojové prostředí: Jakékoli vývojové prostředí .NET, jako je Visual Studio.
-- Základní znalost C#: Pomůže vám pochopení základních pojmů programování v C#.
-- Dokument aplikace Word se záložkami: Dokument aplikace Word s nastavenými záložkami, které použijeme k připojení textu.
+- Aspose.Words pro .NET: Ujistěte se, že jej máte nainstalovaný. Pokud ne, můžete [stáhněte si to zde](https://releases.aspose.com/words/net/).
+- Vývojové prostředí: Jakékoli vývojové prostředí pro .NET, například Visual Studio.
+- Základní znalost C#: Pochopení základních konceptů programování v C# bude užitečné.
+- Dokument Wordu se záložkami: Dokument Wordu s nastavenými záložkami, ze kterých budeme přidávat text.
 
 ## Importovat jmenné prostory
 
-Nejprve importujme potřebné jmenné prostory. Díky tomu budeme mít všechny nástroje, které potřebujeme, na dosah ruky.
+Nejdříve si importujme potřebné jmenné prostory. Tím zajistíme, že budeme mít všechny potřebné nástroje po ruce.
 
 ```csharp
 using System;
@@ -36,9 +38,9 @@ using Aspose.Words;
 using Aspose.Words.Importing;
 ```
 
-Rozdělme si příklad na podrobné kroky.
+Rozeberme si příklad na podrobné kroky.
 
-## Krok 1: Načtěte dokument a inicializujte proměnné
+## Krok 1: Načtení dokumentu a inicializace proměnných
 
 Dobře, začněme načtením našeho dokumentu Word a inicializací proměnných, které budeme potřebovat.
 
@@ -50,13 +52,13 @@ Document dstDoc = new Document("destination.docx");
 // Inicializujte importér dokumentů.
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting);
 
-// Najděte záložku ve zdrojovém dokumentu.
+// Vyhledejte záložku ve zdrojovém dokumentu.
 Bookmark srcBookmark = srcDoc.Range.Bookmarks["YourBookmarkName"];
 ```
 
-## Krok 2: Identifikujte počáteční a koncový odstavec
+## Krok 2: Určete počáteční a koncový odstavec
 
-Nyní najdeme odstavce, kde začíná a končí záložka. To je zásadní, protože musíme s textem zacházet v těchto mezích.
+Nyní si vyhledejme odstavce, kde záložka začíná a končí. To je klíčové, protože musíme s textem manipulovat v rámci těchto hranic.
 
 ```csharp
 // Toto je odstavec, který obsahuje začátek záložky.
@@ -69,35 +71,35 @@ if (startPara == null || endPara == null)
     throw new InvalidOperationException("Parent of the bookmark start or end is not a paragraph, cannot handle this scenario yet.");
 ```
 
-## Krok 3: Ověřte rodiče odstavce
+## Krok 3: Ověření rodičů odstavců
 
-Musíme zajistit, aby počáteční a koncové odstavce měly stejného rodiče. Toto je jednoduchý scénář, aby věci zůstaly přímočaré.
+Musíme zajistit, aby počáteční a koncový odstavec měly stejného nadřazeného odstavce. Toto je jednoduchý scénář, který vše zjednoduší.
 
 ```csharp
-// Omezte se na přiměřeně jednoduchý scénář.
+// Omezme se na poměrně jednoduchý scénář.
 if (startPara.ParentNode != endPara.ParentNode)
     throw new InvalidOperationException("Start and end paragraphs have different parents, cannot handle this scenario yet.");
 ```
 
-## Krok 4: Identifikujte uzel, který chcete zastavit
+## Krok 4: Identifikace uzlu k zastavení
 
-Dále musíme určit uzel, kde přestaneme kopírovat text. Toto bude uzel bezprostředně za koncovým odstavcem.
+Dále musíme určit uzel, kde ukončíme kopírování textu. Bude to uzel bezprostředně za koncovým odstavcem.
 
 ```csharp
-// Chceme zkopírovat všechny odstavce od počátečního odstavce až po (včetně) koncového odstavce,
-// proto uzel, u kterého zastavíme, je jeden za koncovým odstavcem.
+// Chceme zkopírovat všechny odstavce od úvodního odstavce až po koncový odstavec (včetně).
+// proto uzel, u kterého se zastavíme, je jeden za koncem odstavce.
 Node endNode = endPara.NextSibling;
 ```
 
-## Krok 5: Přidejte text označený záložkou k cílovému dokumentu
+## Krok 5: Přidání textu záložkou do cílového dokumentu
 
-Nakonec projdeme uzly od počátečního odstavce k uzlu za koncovým odstavcem a připojíme je k cílovému dokumentu.
+Nakonec projdeme uzly od počátečního odstavce k uzlu za koncovým odstavcem a připojíme je do cílového dokumentu.
 
 ```csharp
 for (Node curNode = startPara; curNode != endNode; curNode = curNode.NextSibling)
 {
-    // Tím se vytvoří kopie aktuálního uzlu a importuje se (učiní se platným) v kontextu
-    // cílového dokumentu. Import znamená správnou úpravu stylů a identifikátorů seznamu.
+    // Tím se vytvoří kopie aktuálního uzlu a importuje se (učiní se platnou) v kontextu.
+    // cílového dokumentu. Import znamená správné nastavení stylů a identifikátorů seznamů.
     Node newNode = importer.ImportNode(curNode, true);
 
     // Připojte importovaný uzel k cílovému dokumentu.
@@ -110,27 +112,32 @@ dstDoc.Save("appended_document.docx");
 
 ## Závěr
 
-A tady to máte! Úspěšně jste přidali text ze sekce se záložkou v dokumentu aplikace Word pomocí Aspose.Words for .NET. Díky tomuto mocnému nástroji je manipulace s dokumenty hračkou a nyní máte v rukávu ještě jeden trik. Šťastné kódování!
+tady to máte! Úspěšně jste přidali text ze záložky v dokumentu Wordu pomocí Aspose.Words pro .NET. Tento výkonný nástroj usnadňuje manipulaci s dokumenty a teď máte v rukávu další trik. Hodně štěstí s programováním!
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu přidat text z více záložek najednou?
-Ano, postup můžete opakovat pro každou záložku a podle toho přidat text.
+Ano, postup můžete opakovat pro každou záložku a podle toho doplnit text.
 
-### Co když mají počáteční a koncové odstavce různé rodiče?
-Aktuální příklad předpokládá, že mají stejného rodiče. U různých rodičů je nutná složitější manipulace.
+### Co když mají počáteční a koncový odstavec různé nadřazené odstavce?
+V tomto příkladu se předpokládá, že mají stejného rodiče. Pro různé rodiče je vyžadována složitější manipulace.
 
 ### Mohu zachovat původní formátování připojeného textu?
- Absolutně! The`ImportFormatMode.KeepSourceFormatting` zajišťuje zachování původního formátování.
+Rozhodně! `ImportFormatMode.KeepSourceFormatting` zajišťuje zachování původního formátování.
 
-### Je možné připojit text na konkrétní pozici v cílovém dokumentu?
-Ano, text můžete připojit na libovolné místo tak, že přejdete na požadovaný uzel v cílovém dokumentu.
+### Je možné přidat text na určitou pozici v cílovém dokumentu?
+Ano, text můžete přidat na libovolnou pozici tak, že přejdete na požadovaný uzel v cílovém dokumentu.
 
 ### Co když potřebuji přidat text ze záložky do nové sekce?
-V cílovém dokumentu můžete vytvořit novou sekci a přidat tam text.
+cílovém dokumentu můžete vytvořit novou sekci a text tam přidat.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

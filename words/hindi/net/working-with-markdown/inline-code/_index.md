@@ -1,14 +1,16 @@
 ---
-title: इनलाइन कोड
-linktitle: इनलाइन कोड
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में इनलाइन कोड शैलियों को लागू करना सीखें। यह ट्यूटोरियल कोड फ़ॉर्मेटिंग के लिए एकल और एकाधिक बैकटिक्स को कवर करता है।
-weight: 10
-url: /hi/net/working-with-markdown/inline-code/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में इनलाइन कोड शैलियों को लागू करना सीखें। यह ट्यूटोरियल कोड फ़ॉर्मेटिंग के लिए एकल और एकाधिक बैकटिक्स को कवर करता है।"
+"linktitle": "इनलाइन कोड"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "इनलाइन कोड"
+"url": "/hi/net/working-with-markdown/inline-code/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # इनलाइन कोड
@@ -21,7 +23,7 @@ url: /hi/net/working-with-markdown/inline-code/
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1.  .NET लाइब्रेरी के लिए Aspose.Words: सुनिश्चित करें कि आपके .NET वातावरण में Aspose.Words स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[.NET रिलीज़ पृष्ठ के लिए Aspose.Words](https://releases.aspose.com/words/net/).
+1. .NET लाइब्रेरी के लिए Aspose.Words: सुनिश्चित करें कि आपके .NET वातावरण में Aspose.Words स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [.NET रिलीज़ पृष्ठ के लिए Aspose.Words](https://releases.aspose.com/words/net/).
 
 2. .NET प्रोग्रामिंग का बुनियादी ज्ञान: यह मार्गदर्शिका मानती है कि आपको C# और .NET प्रोग्रामिंग की बुनियादी समझ है।
 
@@ -40,7 +42,7 @@ using Aspose.Words.Drawing;
 
 ## चरण 1: दस्तावेज़ और दस्तावेज़बिल्डर को आरंभ करें
 
- सबसे पहले, आपको एक नया दस्तावेज़ बनाना होगा और`DocumentBuilder` उदाहरण.`DocumentBuilder`क्लास आपको वर्ड दस्तावेज़ में सामग्री जोड़ने और उसे प्रारूपित करने में मदद करता है।
+सबसे पहले, आपको एक नया दस्तावेज़ बनाना होगा और `DocumentBuilder` उदाहरण. `DocumentBuilder` क्लास आपको वर्ड दस्तावेज़ में सामग्री जोड़ने और उसे प्रारूपित करने में मदद करता है।
 
 ```csharp
 // नए दस्तावेज़ के साथ DocumentBuilder को आरंभ करें.
@@ -83,7 +85,7 @@ builder.Writeln("Text with InlineCode style with 1 backtick");
 Style inlineCode3BackTicks = builder.Document.Styles.Add(StyleType.Character, "InlineCode.3");
 inlineCode3BackTicks.Font.Name = "Courier New"; // कोड के लिए सुसंगत फ़ॉन्ट.
 inlineCode3BackTicks.Font.Size = 10.5; // कोड ब्लॉक के लिए फ़ॉन्ट आकार.
-inlineCode3BackTicks.Font.Color = System.Drawing.Color.Green; //दृश्यता के लिए अलग रंग.
+inlineCode3BackTicks.Font.Color = System.Drawing.Color.Green; // दृश्यता के लिए अलग रंग.
 inlineCode3BackTicks.Font.Bold = true; // ज़ोर देने के लिए इसे बोल्ड रखें।
 ```
 
@@ -105,23 +107,28 @@ builder.Writeln("Text with InlineCode style with 3 backticks");
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### क्या मैं इनलाइन कोड शैलियों के लिए अलग-अलग फ़ॉन्ट का उपयोग कर सकता हूँ?
+### क्या मैं इनलाइन कोड शैलियों के लिए अलग फ़ॉन्ट का उपयोग कर सकता हूँ?
 हां, आप अपनी ज़रूरत के हिसाब से कोई भी फ़ॉन्ट इस्तेमाल कर सकते हैं। "कूरियर न्यू" जैसे फ़ॉन्ट आमतौर पर उनके मोनोस्पेस्ड नेचर के कारण कोड के लिए इस्तेमाल किए जाते हैं।
 
 ### मैं इनलाइन कोड टेक्स्ट का रंग कैसे बदलूं?
- आप सेटिंग करके रंग बदल सकते हैं`Font.Color` शैली की संपत्ति किसी भी`System.Drawing.Color`.
+आप सेटिंग करके रंग बदल सकते हैं `Font.Color` शैली की संपत्ति किसी भी `System.Drawing.Color`.
 
 ### क्या मैं एक ही पाठ पर एकाधिक शैलियाँ लागू कर सकता हूँ?
 Aspose.Words में, आप एक समय में केवल एक ही स्टाइल लागू कर सकते हैं। यदि आपको स्टाइल को संयोजित करने की आवश्यकता है, तो एक नई स्टाइल बनाने पर विचार करें जिसमें सभी वांछित फ़ॉर्मेटिंग शामिल हों।
 
 ### मैं किसी दस्तावेज़ में मौजूदा पाठ पर शैलियाँ कैसे लागू करूँ?
- मौजूदा टेक्स्ट पर शैलियाँ लागू करने के लिए, आपको पहले टेक्स्ट का चयन करना होगा और फिर वांछित शैली को लागू करना होगा`Font.Style` संपत्ति।
+मौजूदा टेक्स्ट पर शैलियाँ लागू करने के लिए, आपको पहले टेक्स्ट का चयन करना होगा और फिर वांछित शैली को लागू करना होगा `Font.Style` संपत्ति।
 
 ### क्या मैं अन्य दस्तावेज़ प्रारूपों के लिए Aspose.Words का उपयोग कर सकता हूँ?
 Aspose.Words को खास तौर पर Word दस्तावेज़ों के लिए डिज़ाइन किया गया है। अन्य फ़ॉर्मेट के लिए, आपको अलग-अलग लाइब्रेरी का इस्तेमाल करना पड़ सकता है या दस्तावेज़ों को संगत फ़ॉर्मेट में बदलना पड़ सकता है।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

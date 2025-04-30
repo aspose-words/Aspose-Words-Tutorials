@@ -1,14 +1,16 @@
 ---
-title: Atur Bantalan Sel
-linktitle: Atur Bantalan Sel
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengatur cell padding dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Sempurnakan format tabel dokumen Anda dengan mudah.
-weight: 10
-url: /id/net/programming-with-table-styles-and-formatting/set-cell-padding/
+"description": "Pelajari cara mengatur cell padding dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Sempurnakan format tabel dokumen Anda dengan mudah."
+"linktitle": "Atur Bantalan Sel"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Atur Bantalan Sel"
+"url": "/id/net/programming-with-table-styles-and-formatting/set-cell-padding/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Atur Bantalan Sel
@@ -21,7 +23,7 @@ Pernahkah Anda bertanya-tanya bagaimana cara menambahkan sedikit ruang ekstra di
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1. Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduh dan instal Aspose.Words untuk .NET dari[Aspose merilis halaman](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduh dan instal Aspose.Words untuk .NET dari [Aspose merilis halaman](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Anda memerlukan IDE seperti Visual Studio yang disiapkan di komputer Anda.
 3. Pengetahuan Dasar C#: Meskipun kami akan menjelaskan semuanya, pemahaman dasar tentang C# akan membantu Anda mengikutinya.
 
@@ -51,7 +53,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Langkah 2: Mulai Membangun Tabel Anda
 
- Sekarang setelah kita memiliki dokumen kita, mari kita mulai membuat tabel. Kita akan menggunakan`DocumentBuilder` untuk menyisipkan sel dan baris.
+Sekarang setelah kita memiliki dokumen kita, mari kita mulai membuat tabel. Kita akan menggunakan `DocumentBuilder` untuk menyisipkan sel dan baris.
 
 ```csharp
 // Mulai membangun tabel
@@ -94,7 +96,7 @@ Nah, itu dia! Anda telah berhasil mengatur cell padding dalam dokumen Word mengg
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya mengatur nilai padding yang berbeda untuk setiap sel dalam tabel?
- Ya, Anda dapat mengatur nilai padding yang berbeda untuk setiap sel dengan menerapkan`SetPaddings` metode untuk setiap sel secara individual.
+Ya, Anda dapat mengatur nilai padding yang berbeda untuk setiap sel dengan menerapkan `SetPaddings` metode untuk setiap sel secara individual.
 
 ### Satuan apa yang digunakan untuk mengisi nilai di Aspose.Words?
 Nilai padding ditentukan dalam poin. Ada 72 poin dalam satu inci.
@@ -107,9 +109,14 @@ Tidak ada batasan khusus, tetapi bantalan yang berlebihan dapat memengaruhi tata
 
 ### Bisakah saya mengatur pengisi sel menggunakan Microsoft Word?
 Ya, Anda dapat mengatur pengisi sel di Microsoft Word, tetapi menggunakan Aspose.Words untuk .NET memungkinkan manipulasi dokumen secara otomatis dan terprogram.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Utwórz nową linię podpisu i ustaw identyfikator dostawcy
-linktitle: Utwórz nową linię podpisu i ustaw identyfikator dostawcy
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak utworzyć nową linię podpisu i ustawić identyfikator dostawcy w dokumentach Word przy użyciu Aspose.Words dla .NET. Przewodnik krok po kroku.
-weight: 10
-url: /pl/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/
+"description": "Dowiedz się, jak utworzyć nową linię podpisu i ustawić identyfikator dostawcy w dokumentach Word przy użyciu Aspose.Words dla .NET. Przewodnik krok po kroku."
+"linktitle": "Utwórz nową linię podpisu i ustaw identyfikator dostawcy"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Utwórz nową linię podpisu i ustaw identyfikator dostawcy"
+"url": "/pl/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz nową linię podpisu i ustaw identyfikator dostawcy
@@ -21,7 +23,7 @@ Hej, entuzjaści technologii! Czy kiedykolwiek zastanawiałeś się, jak program
 
 Zanim zaczniemy działać, upewnijmy się, że mamy wszystko, czego potrzebujemy:
 
-1.  Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub inne środowisko programistyczne C#.
 3. .NET Framework: Upewnij się, że masz zainstalowany .NET Framework.
 4. Certyfikat PFX: Do podpisywania dokumentów potrzebny jest certyfikat PFX. Możesz go uzyskać od zaufanego urzędu certyfikacji.
@@ -50,7 +52,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- W tym fragmencie kodu inicjujemy nowy`Document` i`DocumentBuilder` . Ten`DocumentBuilder` pomaga nam dodawać elementy do naszego dokumentu.
+W tym fragmencie kodu inicjujemy nowy `Document` i `DocumentBuilder`. Ten `DocumentBuilder` pomaga nam dodawać elementy do naszego dokumentu.
 
 ## Krok 2: Zdefiniuj opcje wiersza podpisu
 
@@ -80,7 +82,7 @@ SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).
 signatureLine.ProviderId = Guid.Parse("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2");
 ```
 
- Tutaj,`InsertSignatureLine` Metoda dodaje linię podpisu i przypisujemy jej unikalny identyfikator dostawcy.
+Tutaj, `InsertSignatureLine` Metoda dodaje linię podpisu i przypisujemy jej unikalny identyfikator dostawcy.
 
 ## Krok 4: Zapisz dokument
 
@@ -116,7 +118,7 @@ Aby podpisać dokument, użyjemy certyfikatu PFX. Utwórzmy dla niego posiadacza
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
 ```
 
- Pamiętaj o wymianie`"morzal.pfx"` z Twoim aktualnym plikiem certyfikatu i`"aw"` z hasłem certyfikatu.
+Pamiętaj o wymianie `"morzal.pfx"` z Twoim aktualnym plikiem certyfikatu i `"aw"` z hasłem certyfikatu.
 
 ## Krok 7: Podpisz dokument
 
@@ -131,14 +133,14 @@ Dokument zostaje podpisany i zapisany jako nowy plik.
 
 ## Wniosek
 
-I masz to! Udało Ci się utworzyć nową linię podpisu i ustawić identyfikator dostawcy w dokumencie Word za pomocą Aspose.Words dla .NET. Ta potężna biblioteka sprawia, że zarządzanie zadaniami przetwarzania dokumentów i ich automatyzacja są niezwykle łatwe. Wypróbuj ją i zobacz, jak może usprawnić Twój przepływ pracy.
+masz to! Udało Ci się utworzyć nową linię podpisu i ustawić identyfikator dostawcy w dokumencie Word za pomocą Aspose.Words dla .NET. Ta potężna biblioteka sprawia, że zarządzanie zadaniami przetwarzania dokumentów i ich automatyzacja są niezwykle łatwe. Wypróbuj ją i zobacz, jak może usprawnić Twój przepływ pracy.
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę dostosować wygląd linii podpisu?
- Oczywiście! Możesz modyfikować różne opcje w`SignatureLineOptions`aby spełnić Twoje potrzeby.
+Oczywiście! Możesz modyfikować różne opcje w `SignatureLineOptions` aby spełnić Twoje potrzeby.
 
-### Co zrobić, jeśli nie mam certyfikatu PFX?
+### A co jeśli nie mam certyfikatu PFX?
 Będziesz musiał uzyskać jeden od zaufanego urzędu certyfikacji. Jest on niezbędny do cyfrowego podpisywania dokumentów.
 
 ### Czy mogę dodać do dokumentu wiele wierszy podpisu?
@@ -149,9 +151,14 @@ Tak, Aspose.Words for .NET obsługuje platformę .NET Core, co czyni go wszechst
 
 ### Jak bezpieczne są podpisy cyfrowe?
 Podpisy cyfrowe tworzone za pomocą Aspose.Words są bardzo bezpieczne, pod warunkiem, że używasz ważnego i zaufanego certyfikatu.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: दस्तावेज़ में परिवर्तन स्वीकार करना और अस्वीकार करना
-linktitle: दस्तावेज़ में परिवर्तन स्वीकार करना और अस्वीकार करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Aspose.Words for Java के साथ दस्तावेज़ परिवर्तनों को आसानी से प्रबंधित करना सीखें। संशोधनों को सहजता से स्वीकार और अस्वीकार करें।
-weight: 12
-url: /hi/java/document-revision/accepting-rejecting-document-changes/
+"description": "Aspose.Words for Java के साथ दस्तावेज़ परिवर्तनों को आसानी से प्रबंधित करना सीखें। संशोधनों को सहजता से स्वीकार और अस्वीकार करें।"
+"linktitle": "दस्तावेज़ में परिवर्तन स्वीकार करना और अस्वीकार करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "दस्तावेज़ में परिवर्तन स्वीकार करना और अस्वीकार करना"
+"url": "/hi/java/document-revision/accepting-rejecting-document-changes/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # दस्तावेज़ में परिवर्तन स्वीकार करना और अस्वीकार करना
@@ -55,7 +57,7 @@ doc.getRevisions().get(0).accept();
 
 ## परिवर्तनों को अस्वीकार करना
 
-कुछ मामलों में, आपको कुछ बदलावों को अस्वीकार करने की आवश्यकता हो सकती है। Aspose.Words for Java आवश्यकतानुसार संशोधनों को अस्वीकार करने की सुविधा प्रदान करता है:
+कुछ मामलों में, आपको कुछ परिवर्तनों को अस्वीकार करने की आवश्यकता हो सकती है। Aspose.Words for Java आवश्यकतानुसार संशोधनों को अस्वीकार करने की सुविधा प्रदान करता है:
 
 ```java
 // सभी संशोधन अस्वीकार करें
@@ -83,7 +85,7 @@ doc.save("document_with_accepted_changes.docx");
 
 ### मैं कैसे पता लगा सकता हूं कि दस्तावेज़ में विशिष्ट परिवर्तन किसने किया है?
 
- आप प्रत्येक संशोधन के लिए लेखक की जानकारी तक पहुंच सकते हैं`getAuthor` विधि पर`Revision` वस्तु।
+आप प्रत्येक संशोधन के लिए लेखक की जानकारी तक पहुंच सकते हैं `getAuthor` विधि पर `Revision` वस्तु।
 
 ### क्या मैं दस्तावेज़ में ट्रैक किए गए परिवर्तनों के स्वरूप को अनुकूलित कर सकता हूँ?
 
@@ -99,10 +101,15 @@ doc.save("document_with_accepted_changes.docx");
 
 ### मैं Aspose.Words for Java के लिए अधिक जानकारी और दस्तावेज़ कहां पा सकता हूं?
 
- विस्तृत दस्तावेज़ीकरण और उदाहरणों के लिए, यहां जाएं[Aspose.Words for Java API संदर्भ](https://reference.aspose.com/words/java/).
+विस्तृत दस्तावेज़ीकरण और उदाहरणों के लिए, यहां जाएं [Aspose.Words for Java API संदर्भ](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

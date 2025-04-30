@@ -1,118 +1,125 @@
 ---
-title: Nastavte značku zvýraznění písma
-linktitle: Nastavte značku zvýraznění písma
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak nastavit značky zvýraznění písma v dokumentech aplikace Word pomocí Aspose.Words for .NET pomocí tohoto podrobného průvodce krok za krokem. Ideální pro .NET vývojáře.
-weight: 10
-url: /cs/net/working-with-fonts/set-font-emphasis-mark/
+"description": "Naučte se, jak nastavit zvýraznění písma v dokumentech Word pomocí Aspose.Words pro .NET v tomto podrobném návodu krok za krokem. Ideální pro vývojáře .NET."
+"linktitle": "Nastavit zvýraznění písma"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Nastavit zvýraznění písma"
+"url": "/cs/net/working-with-fonts/set-font-emphasis-mark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavte značku zvýraznění písma
+# Nastavit zvýraznění písma
 
 ## Zavedení
 
-dnešním tutoriálu se ponoříme do toho, jak nastavit značky zvýraznění písma v dokumentu aplikace Word pomocí Aspose.Words pro .NET. Ať už chcete podtrhnout konkrétní text jedinečným označením nebo jednoduše nechat vyniknout určitá slova, tento průvodce vám pomůže. Tak se připoutejte a můžeme začít!
+dnešním tutoriálu se ponoříme do toho, jak nastavit zvýraznění písma v dokumentu Word pomocí Aspose.Words pro .NET. Ať už chcete podtrhnout konkrétní text jedinečným znakem, nebo jen zvýraznit určitá slova, tento návod vám pomůže. Takže se připoutejte a pojďme na to!
 
 ## Předpoklady
 
-Než se ponoříme do hrubších detailů, ujistěte se, že máte zaškrtnuté následující předpoklady:
+Než se ponoříme do detailů, ujistěte se, že máte splněny následující předpoklady:
 
--  Knihovna Aspose.Words for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words for .NET. Můžete si jej stáhnout z[zde](https://releases.aspose.com/words/net/).
-- Vývojové prostředí: Pracovní vývojové prostředí, jako je Visual Studio.
-- .NET Framework: Ujistěte se, že máte nainstalované rozhraní .NET Framework.
+- Knihovna Aspose.Words pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words pro .NET. Můžete si ji stáhnout z [zde](https://releases.aspose.com/words/net/).
+- Vývojové prostředí: Funkční vývojové prostředí, jako je Visual Studio.
+- .NET Framework: Ujistěte se, že máte nainstalovaný .NET Framework.
 
 ## Importovat jmenné prostory
 
-Chcete-li pracovat s Aspose.Words pro .NET, budete muset importovat potřebné jmenné prostory. Přidejte tyto v horní části souboru kódu:
+Pro práci s Aspose.Words pro .NET budete muset importovat potřebné jmenné prostory. Přidejte je na začátek souboru s kódem:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Fonts;
 ```
 
-Nyní si celý proces rozdělíme do jednoduchých kroků. Pečlivě proveďte každý krok a nastavte značky zvýraznění písma v dokumentu aplikace Word.
+Nyní si celý proces rozdělme na jednoduché kroky. Pečlivě dodržujte každý krok, abyste v dokumentu Word nastavili zvýraznění písma.
 
-## Krok 1: Inicializujte Document a DocumentBuilder
+## Krok 1: Inicializace dokumentu a DocumentBuilderu
 
-Nejprve musíte inicializovat nový dokument a DocumentBuilder. Třída DocumentBuilder poskytuje metody pro vkládání textu a dalších prvků do dokumentu.
+Nejdříve je potřeba inicializovat nový dokument a třídu DocumentBuilder. Třída DocumentBuilder poskytuje metody pro vkládání textu a dalších prvků do dokumentu.
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Inicializujte nový dokument
+// Inicializovat nový dokument
 Document document = new Document();
 
 // Inicializujte DocumentBuilder s dokumentem
 DocumentBuilder builder = new DocumentBuilder(document);
 ```
 
-## Krok 2: Nastavte značku zvýraznění písma
+## Krok 2: Nastavení zvýraznění písma
 
-S připraveným DocumentBuilderem můžete nyní nastavit značku zvýraznění písma. V tomto příkladu použijeme zvýrazněnou značku "UnderSolidCircle".
+S připraveným DocumentBuilderem můžete nyní nastavit zvýraznění písma. V tomto příkladu použijeme zvýraznění „UnderSolidCircle“.
 
 ```csharp
-// Nastavte značku zvýraznění písma
+// Nastavení zvýraznění písma
 builder.Font.EmphasisMark = EmphasisMark.UnderSolidCircle;
 
-// Napište text se značkou důrazu
+// Pište text s důrazem
 builder.Write("Emphasis text");
 builder.Writeln();
 ```
 
-## Krok 3: Vymažte formátování a přidejte běžný text
+## Krok 3: Vymazání formátování a přidání běžného textu
 
-Po nastavení značky zvýraznění možná budete chtít přidat nějaký běžný text bez jakéhokoli zvýraznění. K tomu je potřeba vymazat formátování.
+Po nastavení znaku zvýraznění můžete chtít přidat běžný text bez zvýraznění. K tomu je třeba vymazat formátování.
 
 ```csharp
-// Vymažte formátování písma
+// Vymazat formátování písma
 builder.Font.ClearFormatting();
 
-// Napište běžný text
+// Pište běžný text
 builder.Write("Simple text");
 ```
 
 ## Krok 4: Uložte dokument
 
-Po přidání veškerého textu a formátování, které potřebujete, je posledním krokem uložení dokumentu. Zadejte cestu a název souboru, kam chcete dokument uložit.
+Jakmile přidáte veškerý potřebný text a formátování, posledním krokem je uložení dokumentu. Zadejte cestu a název souboru, kam chcete dokument uložit.
 
 ```csharp
-// Uložte dokument
+// Uložit dokument
 document.Save(dataDir + "WorkingWithFonts.SetFontEmphasisMark.docx");
 ```
 
 ## Závěr
 
-tady to máte! Nastavení značek zvýraznění písma v dokumentu aplikace Word pomocí Aspose.Words pro .NET je tak jednoduché. Pomocí několika řádků kódu můžete nechat svůj text vyniknout a dodat dokumentům profesionální vzhled. Neváhejte experimentovat s různými zdůrazňovacími značkami a styly, aby vyhovovaly vašim potřebám.
+A tady to máte! Nastavení zvýraznění písma v dokumentu Word pomocí Aspose.Words pro .NET je tak jednoduché. S několika řádky kódu můžete nechat svůj text vyniknout a dodat svým dokumentům profesionální nádech. Nebojte se experimentovat s různými zvýrazněními a styly, které vyhovují vašim potřebám.
 
-## FAQ
+## Často kladené otázky
 
-### Co jsou značky zvýraznění písma?
+### Co jsou to značky zvýraznění písma?
 
-Značky zvýraznění písma jsou speciální symboly přidané do textu, aby vynikl. Mohou obsahovat tečky, kolečka a další dekorativní značky.
+Značky zvýraznění písma jsou speciální symboly přidávané do textu, aby vynikl. Mohou zahrnovat tečky, kruhy a další ozdobné znaky.
 
-### Mohu s Aspose.Words pro .NET používat jiné zvýrazněné značky?
+### Mohu s Aspose.Words pro .NET použít i jiné zvýrazněné znaky?
 
- Ano, Aspose.Words for .NET podporuje různé značky důrazu. Různé možnosti můžete prozkoumat odkazem na[dokumentace](https://reference.aspose.com/words/net/).
+Ano, Aspose.Words pro .NET podporuje různé druhy zvýraznění. Různé možnosti si můžete prohlédnout v [dokumentace](https://reference.aspose.com/words/net/).
 
-### Je Aspose.Words for .NET zdarma k použití?
+### Je Aspose.Words pro .NET zdarma k použití?
 
- Aspose.Words for .NET vyžaduje licenci pro plnou funkčnost. Můžete získat bezplatnou zkušební verzi[zde](https://releases.aspose.com/) nebo zakoupit licenci[zde](https://purchase.aspose.com/buy).
+Aspose.Words pro .NET vyžaduje pro plnou funkčnost licenci. Můžete získat bezplatnou zkušební verzi. [zde](https://releases.aspose.com/) nebo si zakoupit licenci [zde](https://purchase.aspose.com/buy).
 
 ### Jak mohu získat podporu pro Aspose.Words pro .NET?
 
- Můžete získat podporu od komunity Aspose a týmu podpory tím, že navštívíte jejich[fórum podpory](https://forum.aspose.com/c/words/8).
+Podporu od komunity a týmu podpory Aspose můžete získat na jejich webových stránkách. [fórum podpory](https://forum.aspose.com/c/words/8).
 
-### Mohu používat Aspose.Words pro .NET s jinými frameworky .NET?
+### Mohu používat Aspose.Words pro .NET s jinými .NET frameworky?
 
-Ano, Aspose.Words for .NET je kompatibilní s různými .NET frameworky, včetně .NET Core a .NET 5/6.
+Ano, Aspose.Words pro .NET je kompatibilní s různými frameworky .NET, včetně .NET Core a .NET 5/6.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

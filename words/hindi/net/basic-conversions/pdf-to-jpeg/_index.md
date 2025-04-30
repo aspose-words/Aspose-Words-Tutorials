@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ को जेपीईजी के रूप में सहेजें
-linktitle: पीडीएफ को जेपीईजी के रूप में सहेजें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके PDF को JPEG में आसानी से बदलें। उदाहरणों और FAQ के साथ हमारी विस्तृत मार्गदर्शिका का पालन करें। डेवलपर्स और उत्साही लोगों के लिए बिल्कुल सही।
-weight: 10
-url: /hi/net/basic-conversions/pdf-to-jpeg/
+"description": ".NET के लिए Aspose.Words का उपयोग करके PDF को JPEG में आसानी से बदलें। उदाहरणों और FAQ के साथ हमारी विस्तृत मार्गदर्शिका का पालन करें। डेवलपर्स और उत्साही लोगों के लिए बिल्कुल सही।"
+"linktitle": "पीडीएफ को जेपीईजी के रूप में सहेजें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "पीडीएफ को जेपीईजी के रूप में सहेजें"
+"url": "/hi/net/basic-conversions/pdf-to-jpeg/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ को जेपीईजी के रूप में सहेजें
@@ -21,10 +23,10 @@ url: /hi/net/basic-conversions/pdf-to-jpeg/
 
 इससे पहले कि हम बारीकियों में जाएं, आइए सुनिश्चित करें कि हमारे पास सभी चीजें व्यवस्थित हैं। आपको ये चीजें चाहिए:
 
-1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास यह शक्तिशाली लाइब्रेरी स्थापित है। यदि नहीं, तो आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास यह शक्तिशाली लाइब्रेरी स्थापित है। यदि नहीं, तो आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. .NET फ्रेमवर्क: सुनिश्चित करें कि आपके मशीन पर .NET वातावरण स्थापित है।
 3. विजुअल स्टूडियो: कोई भी संस्करण चलेगा, बशर्ते आप उसमें नेविगेट करने में सहज हों।
-4.  एक पीडीएफ फाइल: अपनी पीडीएफ फाइल को कन्वर्ट करने के लिए तैयार रखें। इस ट्यूटोरियल के लिए, हम नाम की एक फाइल का उपयोग करेंगे`Pdf Document.pdf`.
+4. एक पीडीएफ फाइल: अपनी पीडीएफ फाइल को कन्वर्ट करने के लिए तैयार रखें। इस ट्यूटोरियल के लिए, हम नाम की एक फाइल का उपयोग करेंगे `Pdf Document.pdf`.
 
 ## नामस्थान आयात करें
 
@@ -42,7 +44,7 @@ using Aspose.Words;
 कोड में गोता लगाने से पहले, आपको अपना प्रोजेक्ट सेट करना होगा। यहाँ बताया गया है कि कैसे:
 
 1. विज़ुअल स्टूडियो खोलें: विज़ुअल स्टूडियो लॉन्च करके और एक नया C# प्रोजेक्ट बनाकर आरंभ करें।
-2.  Aspose.Words स्थापित करें: .NET के लिए Aspose.Words स्थापित करने के लिए NuGet पैकेज मैनेजर का उपयोग करें। आप इसे पा सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+2. Aspose.Words स्थापित करें: .NET के लिए Aspose.Words स्थापित करने के लिए NuGet पैकेज मैनेजर का उपयोग करें। आप इसे पा सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 
 ```shell
 Install-Package Aspose.Words
@@ -60,7 +62,7 @@ Install-Package Aspose.Words
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
 
-2.  पीडीएफ लोड करें: का उपयोग करें`Document` अपने पीडीएफ को लोड करने के लिए Aspose.Words से क्लास का उपयोग करें।
+2. पीडीएफ लोड करें: का उपयोग करें `Document` अपने पीडीएफ को लोड करने के लिए Aspose.Words से क्लास का उपयोग करें।
 
     ```csharp
     Document doc = new Document(dataDir + "Pdf Document.pdf");
@@ -70,13 +72,13 @@ Install-Package Aspose.Words
 
 हमारी पीडीएफ फाइल लोड हो जाने के बाद, अब रूपांतरण करने का समय है। यह कदम आश्चर्यजनक रूप से सरल है।
 
-1.  JPEG के रूप में सहेजें: उपयोग करें`Save` पीडीएफ को जेपीईजी छवि में परिवर्तित करने की विधि।
+1. JPEG के रूप में सहेजें: उपयोग करें `Save` पीडीएफ को जेपीईजी छवि में परिवर्तित करने की विधि।
 
     ```csharp
     doc.Save(dataDir + "BaseConversions.PdfToJpeg.jpeg");
     ```
 
-2. कोड चलाएँ: अपना प्रोजेक्ट निष्पादित करें, और देखिए! अब आपकी PDF एक चमकदार नई JPEG बन गई है।
+2. कोड चलाएँ: अपना प्रोजेक्ट निष्पादित करें, और देखिए! आपका PDF अब एक चमकदार नई JPEG है।
 
 ## निष्कर्ष
 
@@ -88,20 +90,25 @@ Install-Package Aspose.Words
 बिल्कुल! आप PDF की एक डायरेक्टरी में जाकर प्रत्येक को JPEG में परिवर्तित कर सकते हैं।
 
 ### क्या Aspose.Words अन्य छवि प्रारूपों का समर्थन करता है?
-हाँ, यह करता है! आप अपने PDF को PNG, BMP, और अन्य रूपों में सहेज सकते हैं।
+हाँ, यह संभव है! आप अपनी PDF को PNG, BMP और अन्य रूपों में सहेज सकते हैं।
 
 ### क्या Aspose.Words .NET कोर के साथ संगत है?
 हां, यह सच है। Aspose.Words .NET Framework और .NET Core दोनों का समर्थन करता है।
 
 ### क्या मुझे Aspose.Words का उपयोग करने के लिए लाइसेंस की आवश्यकता है?
- आप निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/) या लाइसेंस खरीदें[यहाँ](https://purchase.aspose.com/buy).
+आप निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/) या लाइसेंस खरीदें [यहाँ](https://purchase.aspose.com/buy).
 
 ### मैं Aspose.Words पर और अधिक ट्यूटोरियल कहां पा सकता हूं?
- इसकी जाँच पड़ताल करो[प्रलेखन](https://reference.aspose.com/words/net/) ढेर सारे ट्यूटोरियल और गाइड के लिए.
+इसकी जाँच पड़ताल करो [प्रलेखन](https://reference.aspose.com/words/net/) ढेर सारे ट्यूटोरियल और गाइड के लिए.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

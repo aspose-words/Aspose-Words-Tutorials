@@ -1,14 +1,16 @@
 ---
-title: Tercih Edilen Genişlik Türünü Al
-linktitle: Tercih Edilen Genişlik Türünü Al
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'i kullanarak Word belgelerindeki tablo hücrelerinin tercih edilen genişlik türünü nasıl alacağınızı adım adım kılavuzumuzla öğrenin.
-weight: 10
-url: /tr/net/programming-with-tables/retrieve-preferred-width-type/
+"description": "Aspose.Words for .NET'i kullanarak Word belgelerindeki tablo hücrelerinin tercih edilen genişlik türünü nasıl alacağınızı adım adım kılavuzumuzla öğrenin."
+"linktitle": "Tercih Edilen Genişlik Türünü Al"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Tercih Edilen Genişlik Türünü Al"
+"url": "/tr/net/programming-with-tables/retrieve-preferred-width-type/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tercih Edilen Genişlik Türünü Al
@@ -21,10 +23,10 @@ Aspose.Words for .NET kullanarak Word belgelerinizdeki tablo hücrelerinin terci
 
 Başlamadan önce ihtiyacınız olacak birkaç şey var:
 
-1.  Aspose.Words for .NET: En son sürümün yüklü olduğundan emin olun. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: En son sürümün yüklü olduğundan emin olun. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi bir IDE'ye ihtiyacınız olacak.
-3. Temel C# Bilgisi: C# temellerini anlamak, konuyu takip etmenize yardımcı olacaktır.
-4.  Örnek Belge: Üzerinde çalışabileceğiniz tabloların bulunduğu hazır bir Word belgesi bulundurun. Herhangi bir belgeyi kullanabilirsiniz, ancak biz buna`Tables.docx` Bu eğitimde.
+3. C# Temel Bilgisi: C# temellerini anlamak, konuyu takip etmenize yardımcı olacaktır.
+4. Örnek Belge: Üzerinde çalışabileceğiniz tabloların bulunduğu hazır bir Word belgesi bulundurun. Herhangi bir belgeyi kullanabilirsiniz, ancak biz buna `Tables.docx` Bu eğitimde.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -41,11 +43,11 @@ using Aspose.Words.Tables;
 Belgemizi düzenlemeden önce, bulunduğu dizini belirtmemiz gerekir. Bu basit ama önemli bir adımdır.
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` belge dizininize giden gerçek yol ile. Bu, programımıza çalışmak istediğimiz dosyanın nerede bulunacağını söyler.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` belge dizininize giden gerçek yol ile. Bu, programımıza çalışmak istediğimiz dosyanın nerede bulunacağını söyler.
 
 ## Adım 2: Belgeyi Yükleyin
 
@@ -55,7 +57,7 @@ Sonra, Word belgesini uygulamamıza yükleriz. Bu, içeriğiyle programatik olar
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- Bu kod satırı şunu açar:`Tables.docx` belirtilen dizinden belge. Şimdi, belgemiz daha ileri işlemler için hazır.
+Bu kod satırı şunu açar: `Tables.docx` belirtilen dizinden belge. Şimdi, belgemiz daha ileri işlemler için hazır.
 
 ## Adım 3: Tabloya Erişim
 
@@ -75,11 +77,11 @@ Tablonun sütunlarını otomatik olarak ayarlamasını sağlamak için AutoFit �
 table.AllowAutoFit = true;
 ```
 
- Ayar`AllowAutoFit` ile`true` Tablo sütunlarının içeriklerine göre yeniden boyutlandırılmasını sağlayarak tablomuza dinamik bir hava kazandırır.
+Ayar `AllowAuileFit` to `true` tablo sütunlarının içeriklerine göre yeniden boyutlandırılmasını sağlayarak tablomuza dinamik bir hava kazandırır.
 
 ## Adım 5: İlk Hücrenin Tercih Edilen Genişlik Türünü Alın
 
-Şimdi dersimizin en önemli noktasına geliyoruz: Tablodaki ilk hücrenin tercih edilen genişlik türünü almak.
+Şimdi dersimizin can alıcı noktasına geliyoruz: Tablodaki ilk hücrenin tercih edilen genişlik türünü almak.
 
 ```csharp
 Cell firstCell = table.FirstRow.FirstCell;
@@ -87,7 +89,7 @@ PreferredWidthType type = firstCell.CellFormat.PreferredWidth.Type;
 double value = firstCell.CellFormat.PreferredWidth.Value;
 ```
 
- Bu kod satırları tablonun ilk satırındaki ilk hücreye erişir ve tercih edilen genişlik türünü ve değerini alır.`PreferredWidthType` olabilir`Auto`, `Percent` , veya`Point`Genişliğin nasıl belirlendiğini gösteren
+Bu kod satırları tablonun ilk satırındaki ilk hücreye erişir ve tercih edilen genişlik türünü ve değerini alır. `PreferredWidthType` olabilir `Auto`, `Percent`, veya `Point`Genişliğin nasıl belirlendiğini gösteren
 
 ## Adım 6: Sonuçları Göster
 
@@ -110,13 +112,13 @@ Ve işte karşınızda! Aspose.Words for .NET kullanarak Word belgelerindeki tab
 
 Evet, tablodaki her hücrede dolaşıp her birinin tercih edilen genişlik türlerini ayrı ayrı alabilirsiniz.
 
-###  Olası değerler nelerdir?`PreferredWidthType`?
+### Olası değerler nelerdir? `PreferredWidthType`?
 
-`PreferredWidthType` olabilir`Auto`, `Percent` , veya`Point`.
+`PreferredWidthType` olabilir `Auto`, `Percent`, veya `Point`.
 
 ### Tercih edilen genişlik türünü programlı olarak ayarlamak mümkün müdür?
 
- Kesinlikle! Tercih edilen genişlik türünü ve değerini kullanarak ayarlayabilirsiniz.`PreferredWidth` mülkiyeti`CellFormat` sınıf.
+Kesinlikle! Tercih edilen genişlik türünü ve değerini kullanarak ayarlayabilirsiniz. `PreferredWidth` mülkiyeti `CellFormat` sınıf.
 
 ### Word dışındaki belgelerdeki tablolar için bu yöntemi kullanabilir miyim?
 
@@ -124,10 +126,15 @@ Bu eğitim özellikle Word belgelerini kapsar. Diğer belge türleri için uygun
 
 ### Aspose.Words for .NET'i kullanmak için lisansa ihtiyacım var mı?
 
- Evet, Aspose.Words for .NET lisanslı bir üründür. Ücretsiz deneme alabilirsiniz[Burada](https://releases.aspose.com/) veya geçici bir lisans[Burada](https://purchase.aspose.com/temporary-license/).
+Evet, Aspose.Words for .NET lisanslı bir üründür. Ücretsiz deneme alabilirsiniz [Burada](https://releases.aspose.com/) veya geçici bir lisans [Burada](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

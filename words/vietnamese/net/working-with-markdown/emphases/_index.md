@@ -1,14 +1,16 @@
 ---
-title: Nhấn mạnh
-linktitle: Nhấn mạnh
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tạo văn bản nhấn mạnh trong Markdown bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm các kiểu in đậm, in nghiêng và kết hợp với hướng dẫn từng bước.
-weight: 10
-url: /vi/net/working-with-markdown/emphases/
+"description": "Tìm hiểu cách tạo văn bản nhấn mạnh trong Markdown bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm các kiểu in đậm, in nghiêng và kết hợp với hướng dẫn từng bước."
+"linktitle": "Nhấn mạnh"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Nhấn mạnh"
+"url": "/vi/net/working-with-markdown/emphases/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhấn mạnh
@@ -21,7 +23,7 @@ Markdown là một ngôn ngữ đánh dấu nhẹ mà bạn có thể sử dụn
 
 Trước khi bắt đầu viết mã, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết để bắt đầu:
 
-1.  Thư viện Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất của Aspose.Words cho .NET. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Thư viện Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất của Aspose.Words cho .NET. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Môi trường phát triển .NET phù hợp, chẳng hạn như Visual Studio.
 3. Kiến thức cơ bản về C#: Hiểu được những kiến thức cơ bản về lập trình C# sẽ rất có lợi.
 4. Kiến thức cơ bản về Markdown: Việc quen thuộc với cú pháp Markdown sẽ giúp bạn hiểu ngữ cảnh tốt hơn.
@@ -37,7 +39,7 @@ using Aspose.Words.Saving;
 
 ## Bước 1: Thiết lập Document và DocumentBuilder
 
-Trước tiên, chúng ta cần tạo một tài liệu Word mới và khởi tạo một`DocumentBuilder` để bắt đầu thêm nội dung.
+Trước tiên, chúng ta cần tạo một tài liệu Word mới và khởi tạo một `DocumentBuilder` để bắt đầu thêm nội dung.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -45,7 +47,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Các`dataDir` biến là trình giữ chỗ cho thư mục nơi bạn sẽ lưu tệp Markdown của mình. Đảm bảo thay thế "YOUR DOCUMENT DIRECTORY" bằng đường dẫn thực tế.
+Các `dataDir` biến là trình giữ chỗ cho thư mục nơi bạn sẽ lưu tệp Markdown của mình. Đảm bảo thay thế "YOUR DOCUMENT DIRECTORY" bằng đường dẫn thực tế.
 
 ## Bước 2: Viết văn bản thường
 
@@ -56,11 +58,11 @@ builder.Writeln("Markdown treats asterisks (*) and underscores (_) as indicators
 builder.Write("You can write ");
 ```
 
- Đây,`Writeln` thêm một dòng mới sau văn bản, trong khi`Write` tiếp tục theo cùng một dòng.
+Đây, `Writeln` thêm một dòng mới sau văn bản, trong khi `Write` tiếp tục theo cùng một dòng.
 
 ## Bước 3: Thêm chữ in đậm
 
- Để thêm văn bản in đậm trong Markdown, hãy bao quanh văn bản mong muốn bằng dấu sao đôi (``). Trong Aspose.Words cho .NET, bạn có thể thực hiện điều này bằng cách đặt`Bold` tài sản của`Font` phản đối`true`.
+Để thêm văn bản in đậm trong Markdown, hãy bao quanh văn bản mong muốn bằng dấu sao đôi (``). Trong Aspose.Words cho .NET, bạn có thể thực hiện điều này bằng cách đặt `Bold` tài sản của `Font` phản đối `true`.
 
 ```csharp
 builder.Font.Bold = true;
@@ -73,7 +75,7 @@ builder.Write(" or ");
 
 ## Bước 4: Thêm văn bản in nghiêng
 
-Văn bản in nghiêng trong Markdown được bao quanh bởi các dấu hoa thị đơn (`*` ). Tương tự như vậy, thiết lập`Italic` tài sản của`Font` phản đối`true`.
+Văn bản in nghiêng trong Markdown được bao quanh bởi các dấu hoa thị đơn (`*`). Tương tự như vậy, thiết lập `Italic` tài sản của `Font` phản đối `true`.
 
 ```csharp
 builder.Font.Italic = true;
@@ -86,7 +88,7 @@ Thao tác này sẽ hiển thị chữ "nghiêng" theo kiểu nghiêng, theo sau
 
 ## Bước 5: Kết hợp văn bản in đậm và in nghiêng
 
-Bạn có thể kết hợp các kiểu in đậm và in nghiêng bằng cách bao quanh văn bản bằng ba dấu hoa thị (`*` ). Đặt cả hai`Bold` Và`Italic` thuộc tính để`true`.
+Bạn có thể kết hợp các kiểu in đậm và in nghiêng bằng cách bao quanh văn bản bằng ba dấu hoa thị (`*`). Đặt cả hai `Bold` Và `Italic` thuộc tính để `true`.
 
 ```csharp
 builder.Write("You can also write ");
@@ -120,19 +122,24 @@ Và thế là xong! Bây giờ bạn đã thành thạo cách tạo văn bản n
 Có, bạn có thể sử dụng các kiểu khác như tiêu đề, danh sách và khối mã. Aspose.Words for .NET hỗ trợ nhiều tùy chọn định dạng Markdown.
 
 ### Làm thế nào để cài đặt Aspose.Words cho .NET?
- Bạn có thể tải xuống thư viện từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/)và làm theo hướng dẫn cài đặt được cung cấp.
+Bạn có thể tải xuống thư viện từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/) và làm theo hướng dẫn cài đặt được cung cấp.
 
 ### Có bản dùng thử miễn phí Aspose.Words dành cho .NET không?
- Có, bạn có thể tải xuống[dùng thử miễn phí](https://releases.aspose.com/) để kiểm tra các tính năng của Aspose.Words cho .NET.
+Có, bạn có thể tải xuống [dùng thử miễn phí](https://releases.aspose.com/) để kiểm tra các tính năng của Aspose.Words cho .NET.
 
 ### Tôi có thể nhận được hỗ trợ nếu gặp vấn đề không?
- Chắc chắn rồi! Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8) để nhận được sự giúp đỡ từ cộng đồng và nhóm Aspose.
+Chắc chắn rồi! Bạn có thể ghé thăm [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8) để nhận được sự giúp đỡ từ cộng đồng và nhóm Aspose.
 
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Words dành cho .NET?
- Bạn có thể có được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá toàn bộ năng lực của thư viện.
+Bạn có thể có được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá toàn bộ năng lực của thư viện.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

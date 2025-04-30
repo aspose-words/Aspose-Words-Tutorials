@@ -1,14 +1,16 @@
 ---
-title: Разделить таблицу
-linktitle: Разделить таблицу
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как разделить таблицы в документах Word с помощью Aspose.Words для .NET. Наше пошаговое руководство делает управление таблицами простым и эффективным.
-weight: 10
-url: /ru/net/programming-with-tables/split-table/
+"description": "Узнайте, как разделить таблицы в документах Word с помощью Aspose.Words для .NET. Наше пошаговое руководство делает управление таблицами простым и эффективным."
+"linktitle": "Разделить таблицу"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Разделить таблицу"
+"url": "/ru/net/programming-with-tables/split-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Разделить таблицу
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-tables/split-table/
 
 Прежде чем приступить к обучению, убедитесь, что у вас есть следующее:
 
-1.  Библиотека Aspose.Words for .NET: Убедитесь, что вы загрузили и установили библиотеку Aspose.Words for .NET. Вы можете получить ее из[Страница релизов Aspose](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words for .NET: Убедитесь, что вы загрузили и установили библиотеку Aspose.Words for .NET. Вы можете получить ее из [Страница релизов Aspose](https://releases.aspose.com/words/net/).
 2. Среда разработки: настройте среду разработки с поддержкой .NET Framework, например Visual Studio.
 3. Образец документа: Подготовьте документ Word (`Tables.docx`) с как минимум одной таблицей для применения операции разделения.
 
@@ -126,9 +128,14 @@ doc.Save(dataDir + "WorkingWithTables.SplitTable.docx");
 
 ### Могу ли я автоматизировать этот процесс для нескольких документов?
 Конечно! Вы можете создать скрипт или приложение для автоматизации процесса разделения таблицы для нескольких документов.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

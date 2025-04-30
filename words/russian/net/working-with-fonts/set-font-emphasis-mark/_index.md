@@ -1,14 +1,16 @@
 ---
-title: Установить знак выделения шрифта
-linktitle: Установить знак выделения шрифта
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как устанавливать знаки акцента шрифта в документах Word с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства. Идеально подходит для разработчиков .NET.
-weight: 10
-url: /ru/net/working-with-fonts/set-font-emphasis-mark/
+"description": "Узнайте, как устанавливать знаки акцента шрифта в документах Word с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства. Идеально подходит для разработчиков .NET."
+"linktitle": "Установить знак выделения шрифта"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Установить знак выделения шрифта"
+"url": "/ru/net/working-with-fonts/set-font-emphasis-mark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Установить знак выделения шрифта
@@ -21,7 +23,7 @@ url: /ru/net/working-with-fonts/set-font-emphasis-mark/
 
 Прежде чем мы углубимся в подробности, убедитесь, что выполнены следующие предварительные условия:
 
--  Библиотека Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words for .NET. Вы можете загрузить ее с[здесь](https://releases.aspose.com/words/net/).
+- Библиотека Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words for .NET. Вы можете загрузить ее с [здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: рабочая среда разработки, например Visual Studio.
 - .NET Framework: Убедитесь, что у вас установлен .NET Framework.
 
@@ -41,7 +43,7 @@ using Aspose.Words.Fonts;
 Первым делом вам нужно инициализировать новый документ и DocumentBuilder. Класс DocumentBuilder предоставляет методы для вставки текста и других элементов в документ.
 
 ```csharp
-// Путь к каталогу ваших документов
+// Путь к каталогу ваших документов 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Инициализировать новый документ
@@ -53,7 +55,7 @@ DocumentBuilder builder = new DocumentBuilder(document);
 
 ## Шаг 2: Установка знака выделения шрифта
 
-С готовым DocumentBuilder вы можете теперь установить знак акцента шрифта. В этом примере мы будем использовать знак акцента "UnderSolidCircle".
+С готовым DocumentBuilder вы можете установить знак акцента шрифта. В этом примере мы будем использовать знак акцента "UnderSolidCircle".
 
 ```csharp
 // Установить знак выделения шрифта
@@ -97,22 +99,27 @@ document.Save(dataDir + "WorkingWithFonts.SetFontEmphasisMark.docx");
 
 ### Могу ли я использовать другие знаки ударения в Aspose.Words для .NET?
 
- Да, Aspose.Words for .NET поддерживает различные знаки ударения. Вы можете изучить различные варианты, обратившись к[документация](https://reference.aspose.com/words/net/).
+Да, Aspose.Words for .NET поддерживает различные знаки ударения. Вы можете изучить различные варианты, обратившись к [документация](https://reference.aspose.com/words/net/).
 
 ### Является ли Aspose.Words для .NET бесплатным для использования?
 
- Aspose.Words for .NET требует лицензию для полной функциональности. Вы можете получить бесплатную пробную версию[здесь](https://releases.aspose.com/) или приобрести лицензию[здесь](https://purchase.aspose.com/buy).
+Aspose.Words for .NET требует лицензию для полной функциональности. Вы можете получить бесплатную пробную версию [здесь](https://releases.aspose.com/) или приобрести лицензию [здесь](https://purchase.aspose.com/buy).
 
 ### Как я могу получить поддержку по Aspose.Words для .NET?
 
- Вы можете получить поддержку от сообщества и команды поддержки Aspose, посетив их сайт[форум поддержки](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от сообщества Aspose и службы поддержки, посетив их сайт [форум поддержки](https://forum.aspose.com/c/words/8).
 
 ### Могу ли я использовать Aspose.Words для .NET с другими фреймворками .NET?
 
 Да, Aspose.Words для .NET совместим с различными фреймворками .NET, включая .NET Core и .NET 5/6.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

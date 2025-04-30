@@ -1,14 +1,16 @@
 ---
-title: Контроль версий документов и история
-linktitle: Контроль версий документов и история
-second_title: API обработки документов Java Aspose.Words
-description: Изучите эффективный контроль версий документов с помощью Aspose.Words для Java. Управляйте изменениями, сотрудничайте без проблем и отслеживайте изменения без усилий.
-weight: 13
-url: /ru/java/document-revision/document-version-control-history/
+"description": "Изучите эффективный контроль версий документов с помощью Aspose.Words для Java. Управляйте изменениями, сотрудничайте без проблем и отслеживайте изменения без усилий."
+"linktitle": "Контроль версий документов и история"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Контроль версий документов и история"
+"url": "/ru/java/document-revision/document-version-control-history/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Контроль версий документов и история
@@ -67,7 +69,7 @@ builder.writeln("Updated content goes here.");
 doc.acceptAllRevisions();
 ```
 
-## Шаг 6: Сохраните документ
+## Шаг 6: Сохраните документ.
 
 Сохраните документ с новым номером версии или временной меткой, чтобы сохранить историю изменений.
 
@@ -100,10 +102,15 @@ doc.save("sample_v2.docx");
 
 ### Где я могу найти больше ресурсов и документации?
 
- Вы можете получить доступ к полной документации и дополнительным ресурсам для Aspose.Words для Java по адресу[здесь](https://reference.aspose.com/words/java/).
+Вы можете получить доступ к полной документации и дополнительным ресурсам по Aspose.Words для Java по адресу [здесь](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

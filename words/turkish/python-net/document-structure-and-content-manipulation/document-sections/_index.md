@@ -1,14 +1,16 @@
 ---
-title: Belge Bölümlerini ve Düzenini Yönetme
-linktitle: Belge Bölümlerini ve Düzenini Yönetme
-second_title: Aspose.Words Python Belge Yönetim API'si
-description: Aspose.Words for Python ile belge bölümlerini ve düzenlerini nasıl yöneteceğinizi öğrenin. Bölümler oluşturun, değiştirin, düzenleri özelleştirin ve daha fazlasını yapın. Hemen başlayın!
-weight: 24
-url: /tr/python-net/document-structure-and-content-manipulation/document-sections/
+"description": "Aspose.Words for Python ile belge bölümlerini ve düzenlerini nasıl yöneteceğinizi öğrenin. Bölümler oluşturun, değiştirin, düzenleri özelleştirin ve daha fazlasını yapın. Hemen başlayın!"
+"linktitle": "Belge Bölümlerini ve Düzenini Yönetme"
+"second_title": "Aspose.Words Python Belge Yönetim API'si"
+"title": "Belge Bölümlerini ve Düzenini Yönetme"
+"url": "/tr/python-net/document-structure-and-content-manipulation/document-sections/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Bölümlerini ve Düzenini Yönetme
@@ -26,10 +28,10 @@ Python için Aspose.Words kullanarak yeni bir Word belgesi oluşturarak başlaya
 ```python
 import aspose.words as aw
 
-# Create a new document
+# Yeni bir belge oluştur
 doc = aw.Document()
 
-# Save the document
+# Belgeyi kaydet
 doc.save("new_document.docx")
 ```
 
@@ -38,10 +40,10 @@ doc.save("new_document.docx")
 Bölümler, bir belgeyi her biri kendi düzen özelliklerine sahip farklı parçalara bölmenize olanak tanır. Belgenize yeni bir bölüm eklemenin yolu şöyledir:
 
 ```python
-# Add a new section
+# Yeni bir bölüm ekle
 section = doc.sections.add()
 
-# Modify section properties
+# Bölüm özelliklerini değiştir
 section.page_setup.orientation = aw.Orientation.LANDSCAPE
 section.page_setup.left_margin = aw.ConvertUtil.inch_to_point(1)
 ```
@@ -51,7 +53,7 @@ section.page_setup.left_margin = aw.ConvertUtil.inch_to_point(1)
 Python için Aspose.Words, sayfa düzenini gereksinimlerinize göre uyarlamanızı sağlar. Kenar boşluklarını, sayfa boyutunu, yönlendirmeyi ve daha fazlasını ayarlayabilirsiniz. Örneğin:
 
 ```python
-# Customize page layout
+# Sayfa düzenini özelleştir
 page_setup = doc.sections[0].page_setup
 page_setup.orientation = aw.Orientation.PORTRAIT
 page_setup.paper_size = aw.PaperSize.A4
@@ -64,7 +66,7 @@ page_setup.right_margin = aw.ConvertUtil.inch_to_point(1)
 Başlıklar ve altbilgiler, her sayfanın en üstünde ve en altında tutarlı içerik eklemenin bir yolunu sunar. Başlıklara ve altbilgilere metin, resim ve alanlar ekleyebilirsiniz:
 
 ```python
-# Add header and footer
+# Üstbilgi ve altbilgi ekle
 header = section.headers_footers[aw.HeaderFooterType.HEADER_PRIMARY]
 header.paragraphs.add_run("Header Text")
 
@@ -77,7 +79,7 @@ footer.paragraphs.add_run("Footer Text")
 Sayfa sonları, içeriğin bölümler arasında sorunsuz bir şekilde akmasını sağlar. Belgenizde belirli noktalara sayfa sonları ekleyebilirsiniz:
 
 ```python
-# Insert page break
+# Sayfa sonu ekle
 doc_builder = aw.DocumentBuilder(doc)
 doc_builder.move_to_section(0)
 doc_builder.insert_break(aw.BreakType.PAGE_BREAK)
@@ -88,12 +90,12 @@ doc_builder.write("Content after page break.")
 
 Sonuç olarak, Python için Aspose.Words geliştiricilerin belge bölümlerini, düzenlerini ve biçimlendirmesini sorunsuz bir şekilde yönetmesini sağlar. Bu eğitim, bölümler oluşturma, değiştirme, sayfa düzenini özelleştirme, başlıklar ve altbilgilerle çalışma ve sayfa sonlarını yönetme konusunda içgörüler sağladı.
 
-Daha fazla bilgi ve ayrıntılı API referansları için şu adresi ziyaret edin:[Aspose.Words for Python belgeleri](https://reference.aspose.com/words/python-net/).
+Daha fazla bilgi ve ayrıntılı API referansları için şu adresi ziyaret edin: [Aspose.Words for Python belgeleri](https://reference.aspose.com/words/python-net/).
 
 ## SSS
 
 ### Python için Aspose.Words'ü nasıl kurabilirim?
- Pip kullanarak Python için Aspose.Words'ü yükleyebilirsiniz. Basitçe çalıştırın`pip install aspose-words` terminalinizde.
+Pip kullanarak Python için Aspose.Words'ü yükleyebilirsiniz. Basitçe çalıştırın `pip install aspose-words` terminalinizde.
 
 ### Tek bir belge içerisinde farklı düzenler uygulayabilir miyim?
 Evet, bir belgede her biri kendi düzen ayarlarına sahip birden fazla bölümünüz olabilir. Bu, ihtiyaç duyduğunuzda çeşitli düzenler uygulamanıza olanak tanır.
@@ -102,13 +104,18 @@ Evet, bir belgede her biri kendi düzen ayarlarına sahip birden fazla bölümü
 Evet, Aspose.Words DOC, DOCX, RTF ve daha fazlası dahil olmak üzere çeşitli Word formatlarını destekler.
 
 ### Başlıklara veya altbilgilere nasıl resim eklerim?
- Kullanabilirsiniz`Shape` Başlıklara veya altbilgilere resim eklemek için sınıf. Ayrıntılı rehberlik için API belgelerine bakın.
+Kullanabilirsiniz `Shape` Başlıklara veya altbilgilere resim eklemek için sınıf. Ayrıntılı rehberlik için API belgelerine bakın.
 
 ### Aspose.Words for Python'ın son sürümünü nereden indirebilirim?
- Aspose.Words for Python'ın en son sürümünü şu adresten indirebilirsiniz:[Aspose.Words sürüm sayfası](https://releases.aspose.com/words/python/).
+Aspose.Words for Python'ın en son sürümünü şu adresten indirebilirsiniz: [Aspose.Words sürüm sayfası](https://releases.aspose.com/words/python/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

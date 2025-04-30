@@ -1,22 +1,24 @@
 ---
-title: Utilizzo dei dati XML in Aspose.Words per Java
-linktitle: Utilizzo dei dati XML
-second_title: API di elaborazione dei documenti Java Aspose.Words
-description: Sblocca la potenza di Aspose.Words per Java. Impara la gestione dei dati XML, la stampa unione e la sintassi Mustache con tutorial passo dopo passo.
-weight: 12
-url: /it/java/document-manipulation/using-xml-data/
+"description": "Sfrutta la potenza di Aspose.Words per Java. Impara la gestione dei dati XML, la stampa unione e la sintassi Mustache con tutorial passo passo."
+"linktitle": "Utilizzo di dati XML"
+"second_title": "API di elaborazione dei documenti Java Aspose.Words"
+"title": "Utilizzo di dati XML in Aspose.Words per Java"
+"url": "/it/java/document-manipulation/using-xml-data/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utilizzo dei dati XML in Aspose.Words per Java
+# Utilizzo di dati XML in Aspose.Words per Java
 
 
 ## Introduzione all'utilizzo dei dati XML in Aspose.Words per Java
 
-In questa guida, esploreremo come lavorare con i dati XML usando Aspose.Words per Java. Imparerai come eseguire operazioni di unione di posta, incluse le unioni di posta nidificate, e utilizzare la sintassi Mustache con un DataSet. Forniremo istruzioni dettagliate ed esempi di codice sorgente per aiutarti a iniziare.
+In questa guida, esploreremo come lavorare con i dati XML utilizzando Aspose.Words per Java. Imparerai a eseguire operazioni di stampa unione, incluse le operazioni di stampa unione nidificate, e a utilizzare la sintassi Mustache con un DataSet. Forniremo istruzioni dettagliate ed esempi di codice sorgente per aiutarti a iniziare.
 
 ## Prerequisiti
 
@@ -25,7 +27,7 @@ Prima di iniziare, assicurati di avere i seguenti prerequisiti:
 - File di dati XML di esempio per clienti, ordini e fornitori.
 - Esempi di documenti Word per destinazioni di stampa unione.
 
-## Unione di posta con dati XML
+## Stampa unione con dati XML
 
 ### 1. Unione di posta di base
 
@@ -52,7 +54,7 @@ doc.getMailMerge().executeWithRegions(pizzaDs);
 doc.save("Your Directory Path" + "NestedMailMerge.docx");
 ```
 
-## Sintassi dei baffi tramite DataSet
+## Sintassi dei baffi utilizzando DataSet
 
 Per sfruttare la sintassi Mustache con un DataSet, segui questi passaggi:
 
@@ -67,7 +69,7 @@ doc.save("Your Directory Path" + "MustacheSyntaxUsingDataSet.docx");
 
 ## Conclusione
 
-In questa guida completa, abbiamo esplorato come usare efficacemente i dati XML con Aspose.Words per Java. Hai imparato come eseguire varie operazioni di unione di posta, tra cui unione di posta di base, unione di posta nidificata e come utilizzare la sintassi Mustache con un DataSet. Queste tecniche ti consentono di automatizzare la generazione e la personalizzazione dei documenti con facilità.
+In questa guida completa, abbiamo esplorato come utilizzare efficacemente i dati XML con Aspose.Words per Java. Abbiamo imparato a eseguire diverse operazioni di stampa unione, tra cui la stampa unione di base, la stampa unione nidificata e come utilizzare la sintassi Mustache con un DataSet. Queste tecniche consentono di automatizzare la generazione e la personalizzazione dei documenti con facilità.
 
 ## Domande frequenti
 
@@ -75,16 +77,21 @@ In questa guida completa, abbiamo esplorato come usare efficacemente i dati XML 
 
 Assicuratevi che i vostri dati XML seguano la struttura richiesta, con tabelle e relazioni definite, come mostrato negli esempi forniti.
 
-### Posso personalizzare il comportamento di ritaglio per i valori di unione di posta?
+### Posso personalizzare il comportamento di ritaglio per i valori di unione dati?
 
- Sì, puoi controllare se gli spazi vuoti iniziali e finali vengono tagliati durante la stampa unione utilizzando`doc.getMailMerge().setTrimWhitespaces(false)`.
+Sì, puoi controllare se gli spazi iniziali e finali vengono tagliati durante la stampa unione utilizzando `doc.getMailMerge().setTrimWhitespaces(false)`.
 
-### Cos'è la sintassi Mustache e quando dovrei usarla?
+### Cos'è la sintassi di Mustache e quando dovrei usarla?
 
- La sintassi Mustache consente di formattare i campi di unione di posta in modo più flessibile. Utilizzare`doc.getMailMerge().setUseNonMergeFields(true)` per abilitare la sintassi Mustache.
+La sintassi Mustache consente di formattare i campi di unione di posta in modo più flessibile. Utilizzare `doc.getMailMerge().setUseNonMergeFields(true)` per abilitare la sintassi Mustache.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

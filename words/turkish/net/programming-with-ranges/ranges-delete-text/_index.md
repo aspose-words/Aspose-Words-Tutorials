@@ -1,14 +1,16 @@
 ---
-title: Aralıklar Word Belgesindeki Metni Sil
-linktitle: Aralıklar Word Belgesindeki Metni Sil
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım eğitimle Aspose.Words for .NET kullanarak Word belgesindeki bir aralıktan metni nasıl sileceğinizi öğrenin. C# geliştiricileri için mükemmel.
-weight: 10
-url: /tr/net/programming-with-ranges/ranges-delete-text/
+"description": "Bu adım adım eğitimle Aspose.Words for .NET kullanarak Word belgesindeki bir aralıktan metni nasıl sileceğinizi öğrenin. C# geliştiricileri için mükemmel."
+"linktitle": "Aralıklar Word Belgesindeki Metni Sil"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Aralıklar Word Belgesindeki Metni Sil"
+"url": "/tr/net/programming-with-ranges/ranges-delete-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aralıklar Word Belgesindeki Metni Sil
@@ -21,7 +23,7 @@ Word belgenizdeki belirli metin bölümlerini silmeniz gerektiğini fark ettiyse
 
 Kodlama kısmına geçmeden önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET kütüphanesine sahip olduğunuzdan emin olun. Değilse, indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET kütüphanesine sahip olduğunuzdan emin olun. Değilse, indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio benzeri bir IDE.
 3. Temel C# Bilgisi: C# programlama hakkında biraz bilgi.
 
@@ -39,7 +41,7 @@ using Aspose.Words;
 
 Öncelikle proje dizininizi ayarlamanız gerekir. Belgelerinizin bulunacağı yer burasıdır.
 
-1.  Bir Dizin Oluşturun: Şu adla bir klasör oluşturun:`Documents` proje dizininizde.
+1. Bir Dizin Oluşturun: Şu adla bir klasör oluşturun: `Documents` proje dizininizde.
 2. Belgenizi Ekleyin: Word belgesini (`Document.docx`) Bu klasörün içinde değişiklik yapmak istiyorsunuz.
 
 ```csharp
@@ -51,7 +53,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 Daha sonra Word belgesini uygulamamıza yüklememiz gerekiyor.
 
-1.  Belgeyi Örneklendirin: Şunu kullanın:`Document` Word belgenizi yüklemek için sınıf.
+1. Belgeyi Örneklendirin: Şunu kullanın: `Document` Word belgenizi yüklemek için sınıf.
 2. Yolu Sağlayın: Belgeye doğru yolu sağladığınızdan emin olun.
 
 ```csharp
@@ -63,8 +65,8 @@ Document doc = new Document(dataDir + "Document.docx");
 
 Belge yüklendikten sonra, belirli bir aralıktaki metni silmeye geçebiliriz; bu durumda, ilk bölüm.
 
-1.  Bölüme Erişim: Belgenin ilk bölümüne erişmek için şunu kullanın:`doc.Sections[0]`.
-2.  Aralığı Sil: Şunu kullanın:`Range.Delete` Bu bölümdeki tüm metni silme yöntemi.
+1. Bölüme Erişim: Belgenin ilk bölümüne erişmek için şunu kullanın: `doc.Sections[0]`.
+2. Aralığı Sil: Şunu kullanın: `Range.Delete` Bu bölümdeki tüm metni silme yöntemi.
 
 ```csharp
 // Belgenin ilk bölümündeki metni silin
@@ -95,7 +97,7 @@ Aspose.Words for .NET, Word belgelerini işlemek için bir sınıf kütüphanesi
 
 ### Belirli bir paragraftan bir bölüm yerine metni silebilir miyim?
 
- Evet, istediğiniz paragrafa erişip, öğesini kullanarak belirli bir paragraftan metni silebilirsiniz.`Range.Delete` yöntem.
+Evet, istediğiniz paragrafa erişip, öğesini kullanarak belirli bir paragraftan metni silebilirsiniz. `Range.Delete` yöntem.
 
 ### Metni koşullu olarak silmek mümkün müdür?
 
@@ -107,10 +109,15 @@ Metni sildikten sonra belgeyi kaydetmediyseniz, silinen metni geri yüklemek iç
 
 ### Birden fazla bölümden aynı anda metin silebilir miyim?
 
- Evet, birden fazla bölümde dolaşabilir ve`Range.Delete` Her bölümden metni silme yöntemi.
+Evet, birden fazla bölümde dolaşabilir ve `Range.Delete` Her bölümden metni silme yöntemi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

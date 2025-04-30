@@ -1,14 +1,16 @@
 ---
-title: Thuộc tính tài liệu và quản lý siêu dữ liệu
-linktitle: Thuộc tính tài liệu và quản lý siêu dữ liệu
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Tìm hiểu cách quản lý thuộc tính tài liệu và siêu dữ liệu bằng Aspose.Words cho Python. Hướng dẫn từng bước có mã nguồn.
-weight: 12
-url: /vi/python-net/document-options-and-settings/document-properties-metadata/
+"description": "Tìm hiểu cách quản lý thuộc tính tài liệu và siêu dữ liệu bằng Aspose.Words cho Python. Hướng dẫn từng bước có mã nguồn."
+"linktitle": "Thuộc tính tài liệu và quản lý siêu dữ liệu"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Thuộc tính tài liệu và quản lý siêu dữ liệu"
+"url": "/vi/python-net/document-options-and-settings/document-properties-metadata/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thuộc tính tài liệu và quản lý siêu dữ liệu
@@ -16,17 +18,17 @@ url: /vi/python-net/document-options-and-settings/document-properties-metadata/
 
 ## Giới thiệu về Thuộc tính Tài liệu và Siêu dữ liệu
 
-Thuộc tính tài liệu và siêu dữ liệu là những thành phần thiết yếu của tài liệu điện tử. Chúng cung cấp thông tin quan trọng về tài liệu, chẳng hạn như tác giả, ngày tạo và từ khóa. Siêu dữ liệu có thể bao gồm thông tin ngữ cảnh bổ sung, hỗ trợ phân loại và tìm kiếm tài liệu. Aspose.Words for Python đơn giản hóa quy trình quản lý các khía cạnh này theo chương trình.
+Thuộc tính tài liệu và siêu dữ liệu là các thành phần thiết yếu của tài liệu điện tử. Chúng cung cấp thông tin quan trọng về tài liệu, chẳng hạn như tác giả, ngày tạo và từ khóa. Siêu dữ liệu có thể bao gồm thông tin ngữ cảnh bổ sung, hỗ trợ phân loại và tìm kiếm tài liệu. Aspose.Words for Python đơn giản hóa quy trình quản lý các khía cạnh này theo chương trình.
 
 ## Bắt đầu với Aspose.Words cho Python
 
 Trước khi tìm hiểu cách quản lý thuộc tính tài liệu và siêu dữ liệu, hãy thiết lập môi trường với Aspose.Words cho Python.
 
 ```python
-# Install the Aspose.Words for Python package
+# Cài đặt gói Aspose.Words cho Python
 pip install aspose-words
 
-# Import the necessary classes
+# Nhập các lớp cần thiết
 import aspose.words as aw
 ```
 
@@ -35,10 +37,10 @@ import aspose.words as aw
 Bạn có thể dễ dàng lấy lại thuộc tính tài liệu bằng API Aspose.Words. Sau đây là ví dụ về cách lấy lại tác giả và tiêu đề của tài liệu:
 
 ```python
-# Load the document
+# Tải tài liệu
 doc = aw.Document("document.docx")
 
-# Retrieve document properties
+# Lấy lại thuộc tính tài liệu
 author = doc.built_in_document_properties["Author"]
 title = doc.built_in_document_properties["Title"]
 
@@ -51,11 +53,11 @@ print("Title:", title)
 Việc cập nhật thuộc tính tài liệu cũng đơn giản như vậy. Giả sử bạn muốn cập nhật tên tác giả và tiêu đề:
 
 ```python
-# Update document properties
+# Cập nhật thuộc tính tài liệu
 doc.built_in_document_properties["Author"] = "John Doe"
 doc.built_in_document_properties["Title"] = "My Updated Document"
 
-# Save the changes
+# Lưu các thay đổi
 doc.save("updated_document.docx")
 ```
 
@@ -64,10 +66,10 @@ doc.save("updated_document.docx")
 Thuộc tính tài liệu tùy chỉnh cho phép bạn lưu trữ thông tin bổ sung trong tài liệu. Hãy thêm thuộc tính tùy chỉnh có tên "Department":
 
 ```python
-# Add a custom document property
+# Thêm thuộc tính tài liệu tùy chỉnh
 doc.custom_document_properties.add("Department", "Marketing")
 
-# Save the changes
+# Lưu các thay đổi
 doc.save("document_with_custom_property.docx")
 ```
 
@@ -76,7 +78,7 @@ doc.save("document_with_custom_property.docx")
 Quản lý siêu dữ liệu bao gồm việc kiểm soát thông tin như theo dõi thay đổi, thống kê tài liệu, v.v. Aspose.Words cho phép bạn truy cập và sửa đổi siêu dữ liệu này theo chương trình.
 
 ```python
-# Access and modify metadata
+# Truy cập và sửa đổi siêu dữ liệu
 doc.metadata["Keywords"] = "Python, Aspose.Words, Metadata"
 ```
 
@@ -85,7 +87,7 @@ doc.metadata["Keywords"] = "Python, Aspose.Words, Metadata"
 Có thể tự động cập nhật siêu dữ liệu thường xuyên bằng Aspose.Words. Ví dụ, bạn có thể tự động cập nhật thuộc tính "Last Modified By":
 
 ```python
-# Automatically update "Last Modified By"
+# Tự động cập nhật "Lần sửa đổi cuối cùng bởi"
 doc.built_in_document_properties["LastModifiedBy"] = "Automated Process"
 ```
 
@@ -94,7 +96,7 @@ doc.built_in_document_properties["LastModifiedBy"] = "Automated Process"
 Siêu dữ liệu đôi khi có thể chứa thông tin nhạy cảm. Để đảm bảo quyền riêng tư của dữ liệu, bạn có thể xóa các thuộc tính cụ thể:
 
 ```python
-# Remove sensitive metadata properties
+# Xóa các thuộc tính siêu dữ liệu nhạy cảm
 sensitive_properties = ["LastPrinted", "LastSavedBy"]
 for prop in sensitive_properties:
     if prop in doc.built_in_document_properties:
@@ -106,14 +108,14 @@ for prop in sensitive_properties:
 Quản lý phiên bản rất quan trọng để duy trì lịch sử tài liệu. Aspose.Words cho phép bạn quản lý các phiên bản một cách hiệu quả:
 
 ```python
-# Add version history information
+# Thêm thông tin lịch sử phiên bản
 version_info = doc.built_in_document_properties.add("VersionInfo")
 version_info.value = "Version 1.0 - Initial Release"
 ```
 
 ## Thực hành tốt nhất về Thuộc tính Tài liệu
 
-- Đảm bảo tính chính xác và cập nhật của thuộc tính tài liệu.
+- Đảm bảo tính chính xác và cập nhật của các thuộc tính tài liệu.
 - Sử dụng các thuộc tính tùy chỉnh để có thêm ngữ cảnh.
 - Kiểm tra và cập nhật siêu dữ liệu thường xuyên.
 - Bảo vệ thông tin nhạy cảm trong siêu dữ liệu.
@@ -138,7 +140,7 @@ Có, bạn có thể tự động cập nhật siêu dữ liệu bằng Aspose.W
 
 ### Làm thế nào để bảo vệ thông tin nhạy cảm trong siêu dữ liệu?
 
- Để bảo vệ thông tin nhạy cảm trong siêu dữ liệu, bạn có thể xóa các thuộc tính cụ thể bằng cách sử dụng`remove` phương pháp.
+Để bảo vệ thông tin nhạy cảm trong siêu dữ liệu, bạn có thể xóa các thuộc tính cụ thể bằng cách sử dụng `remove` phương pháp.
 
 ### Một số biện pháp tốt nhất để quản lý thuộc tính tài liệu là gì?
 
@@ -146,9 +148,14 @@ Có, bạn có thể tự động cập nhật siêu dữ liệu bằng Aspose.W
 - Sử dụng các thuộc tính tùy chỉnh để có thêm ngữ cảnh.
 - Thường xuyên xem xét và cập nhật siêu dữ liệu.
 - Bảo vệ thông tin nhạy cảm có trong siêu dữ liệu.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

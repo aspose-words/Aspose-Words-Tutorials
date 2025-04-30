@@ -1,14 +1,16 @@
 ---
-title: Word Belgelerinde Yorum Özelliklerinin Kullanılması
-linktitle: Word Belgelerinde Yorum Özelliklerinin Kullanılması
-second_title: Aspose.Words Python Belge Yönetim API'si
-description: Python için Aspose.Words'ü kullanarak Word Belgelerindeki yorum özelliklerini nasıl kullanacağınızı öğrenin. Kaynak kodlu adım adım kılavuz. İş birliğini geliştirin ve belgelerdeki incelemeleri kolaylaştırın.
-weight: 11
-url: /tr/python-net/document-structure-and-content-manipulation/document-comments/
+"description": "Python için Aspose.Words'ü kullanarak Word Belgelerindeki yorum özelliklerini nasıl kullanacağınızı öğrenin. Kaynak kodlu adım adım kılavuz. İş birliğini geliştirin ve belgelerdeki incelemeleri kolaylaştırın."
+"linktitle": "Word Belgelerinde Yorum Özelliklerinin Kullanılması"
+"second_title": "Aspose.Words Python Belge Yönetim API'si"
+"title": "Word Belgelerinde Yorum Özelliklerinin Kullanılması"
+"url": "/tr/python-net/document-structure-and-content-manipulation/document-comments/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgelerinde Yorum Özelliklerinin Kullanılması
@@ -22,7 +24,7 @@ Yorumlar, birden fazla kişinin Word belgesi içinde düşüncelerini ve öneril
 
 ## Python için Aspose.Words Kurulumu
 
- Başlamak için Python için Aspose.Words'ü yüklemeniz gerekir. Kütüphaneyi şuradan indirebilirsiniz:[Aspose.Python için Kelimeler](https://releases.aspose.com/words/python/) indirme bağlantısı. İndirdikten sonra pip kullanarak kurabilirsiniz:
+Başlamak için Python için Aspose.Words'ü yüklemeniz gerekir. Kütüphaneyi şuradan indirebilirsiniz:  [Aspose.Python için Kelimeler](https://releases.aspose.com/words/python/) indirme bağlantısı. İndirdikten sonra pip kullanarak kurabilirsiniz:
 
 ```python
 pip install aspose-words
@@ -35,17 +37,17 @@ Python için Aspose.Words kullanarak bir Word belgesine yorum eklemek basittir. 
 ```python
 import aspose.words as aw
 
-# Load the document
+# Belgeyi yükle
 doc = aw.Document("example.docx")
 
-# Add a comment
+# Yorum ekle
 comment = aw.Comment(doc, "John Doe", "This is a valuable insight.")
 comment.author = "John Doe"
 comment.text = "This is a valuable insight."
 comment_date = aw.DateTime.now()
 comment.date_time = comment_date
 
-# Insert the comment
+# Yorumu ekle
 paragraph = doc.first_section.body.first_paragraph
 run = paragraph.runs[0]
 run.insert_comment(comment)
@@ -64,24 +66,24 @@ for comment in doc.comments:
 
 ## Yorumları Değiştirme ve Çözme
 
-Yorumlar sıklıkla değişime tabidir. Python için Aspose.Words mevcut yorumları değiştirmenize ve çözülmüş olarak işaretlemenize olanak tanır:
+Yorumlar sıklıkla değişikliğe tabidir. Python için Aspose.Words mevcut yorumları değiştirmenize ve çözülmüş olarak işaretlemenize olanak tanır:
 
 ```python
-# Modify a comment's text
+# Bir yorumun metnini değiştir
 comment = doc.comments[0]
 comment.text = "Updated insight: " + comment.text
 
-# Resolve a comment
+# Bir yorumu çöz
 comments = doc.get_child_nodes(aw.NodeType.COMMENT, True)
 
 parent_comment = comments[0].as_comment()
 for child in parent_comment.replies:
 	child_comment = child.as_comment()
-	# Get comment parent and status.
+	# Yorum ebeveynini ve durumunu al.
 	print(child_comment.ancestor.id)
 	print(child_comment.done)
 
-	# And update comment Done mark.
+	# Ve yorum güncellemesi Tamam işareti.
 	child_comment.done = True
 ```
 
@@ -90,7 +92,7 @@ for child in parent_comment.replies:
 Yorumları biçimlendirmek görünürlüklerini artırır. Yorumlara Aspose.Words for Python kullanarak biçimlendirme uygulayabilirsiniz:
 
 ```python
-# Apply formatting to a comment
+# Yorumunuza biçimlendirme uygulayın
 comment = doc.comments[0]
 comment.runs[0].font.bold = True
 comment.runs[0].font.color = aw.Color.red
@@ -101,7 +103,7 @@ comment.runs[0].font.color = aw.Color.red
 Yorumlar yazarlara atfedilir. Python için Aspose.Words yorum yazarlarını yönetmenize olanak tanır:
 
 ```python
-# Change the author's name
+# Yazarın adını değiştir
 comment = doc.comments[0]
 comment.author = "Jane Doe"
 ```
@@ -111,10 +113,10 @@ comment.author = "Jane Doe"
 Yorumlar, harici işbirliğini kolaylaştırmak için dışarı aktarılabilir ve içeri aktarılabilir:
 
 ```python
-# Export comments to a file
+# Yorumları bir dosyaya aktar
 doc.save_comments("comments.xml")
 
-# Import comments from a file
+# Yorumları bir dosyadan içe aktar
 doc.import_comments("comments.xml")
 ```
 
@@ -148,14 +150,18 @@ Evet, Python için Aspose.Words'ü kullanarak bir belgedeki yorumlar arasında g
 
 ### API'yi kullanarak yorumları programlı olarak gizlemek veya göstermek mümkün müdür?
 
- Evet, yorumların görünürlüğünü şu şekilde kontrol edebilirsiniz:`comment.visible` Aspose.Words'de Python için özellik.
+Evet, yorumların görünürlüğünü şu şekilde kontrol edebilirsiniz: `comment.visible` Aspose.Words'de Python için özellik.
 
 ### Aspose.Words for Python belirli metin aralıklarına yorum eklemeyi destekliyor mu?
 
 Elbette, Aspose.Words for Python'ın zengin API'sini kullanarak bir belgedeki belirli metin aralıklarına yorumlar ekleyebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Belgelerde Şekil ve Grafiklerin İşlenmesi
-linktitle: Belgelerde Şekil ve Grafiklerin İşlenmesi
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java'yı kullanarak belgelerinizi şekiller ve grafiklerle nasıl geliştireceğinizi öğrenin. Görsel olarak çarpıcı içerikleri zahmetsizce oluşturun.
-weight: 12
-url: /tr/java/document-rendering/rendering-shapes-graphics/
+"description": "Aspose.Words for Java'yı kullanarak belgelerinizi şekiller ve grafiklerle nasıl geliştireceğinizi öğrenin. Görsel olarak çarpıcı içerikleri zahmetsizce oluşturun."
+"linktitle": "Belgelerde Şekil ve Grafiklerin İşlenmesi"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belgelerde Şekil ve Grafiklerin İşlenmesi"
+"url": "/tr/java/document-rendering/rendering-shapes-graphics/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belgelerde Şekil ve Grafiklerin İşlenmesi
@@ -144,7 +146,7 @@ Belgelerinizi şekiller ve grafiklerle zenginleştirmek, görsel çekiciliğini 
 
 ### Belgemdeki bir şeklin boyutunu nasıl değiştirebilirim?
 
- Bir şeklin boyutunu değiştirmek için şunu kullanın:`setWidth` Ve`setHeight` şekil nesnesi üzerindeki yöntemler. Örneğin, 150 piksel genişliğinde ve 75 piksel yüksekliğinde bir şekil yapmak için:
+Bir şeklin boyutunu değiştirmek için şunu kullanın: `setWidth` Ve `setHeight` şekil nesnesindeki yöntemler. Örneğin, 150 piksel genişliğinde ve 75 piksel yüksekliğinde bir şekil yapmak için:
 
 ```java
 shape.setWidth(150);
@@ -166,14 +168,19 @@ shape.setFillColor(Color.GREEN);
 
 ### Bir şeklin içine metin ekleyebilir miyim?
 
- Evet, bir şeklin içine metin ekleyebilirsiniz.`getTextPath` Metni ayarlamak ve biçimlendirmesini özelleştirmek için şeklin özelliği.
+Evet, bir şeklin içine metin ekleyebilirsiniz. `getTextPath` Metni ayarlamak ve biçimlendirmesini özelleştirmek için şeklin özelliği.
 
 ### Şekilleri belirli bir sıraya nasıl yerleştirebilirim?
 
- Z-order özelliğini kullanarak şekillerin sırasını kontrol edebilirsiniz.`ZOrder` bir şeklin şekil yığınındaki konumunu belirleme özelliği. Daha düşük değerler arkaya gönderilirken, daha yüksek değerler öne getirilir.
+Z-order özelliğini kullanarak şekillerin sırasını kontrol edebilirsiniz. `ZOrder` bir şeklin şekil yığınındaki konumunu belirleme özelliği. Daha düşük değerler arkaya gönderilirken, daha yüksek değerler öne getirilir.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -61,7 +61,7 @@ A continuación, añadiremos un campo TA (Tabla de Autoridades). Este campo marc
 Paragraph para = new Paragraph(doc);
 
 // Queremos insertar campos TA y TOA de la siguiente manera:
-// { TA \\c 1 \\l "Valor 0" }
+// { TA \c 1 \l "Valor 0" }
 FieldTA fieldTA = (FieldTA) para.AppendField(FieldType.FieldTOAEntry, false);
 fieldTA.EntryCategory = "1";
 fieldTA.LongCitation = "Value 0";

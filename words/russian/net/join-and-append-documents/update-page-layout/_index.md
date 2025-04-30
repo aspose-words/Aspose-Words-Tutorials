@@ -1,14 +1,16 @@
 ---
-title: Обновить макет страницы
-linktitle: Обновить макет страницы
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как обновить макеты страниц в документах Word с помощью Aspose.Words для .NET с помощью этого всеобъемлющего пошагового руководства. Идеально подходит для настройки дизайна документов.
-weight: 10
-url: /ru/net/join-and-append-documents/update-page-layout/
+"description": "Узнайте, как обновить макеты страниц в документах Word с помощью Aspose.Words для .NET с помощью этого всеобъемлющего пошагового руководства. Идеально подходит для настройки дизайна документов."
+"linktitle": "Обновить макет страницы"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Обновить макет страницы"
+"url": "/ru/net/join-and-append-documents/update-page-layout/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Обновить макет страницы
@@ -21,13 +23,13 @@ url: /ru/net/join-and-append-documents/update-page-layout/
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
-1.  Aspose.Words for .NET: Эта библиотека необходима для программной обработки документов Word. Если вы еще этого не сделали, вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Эта библиотека необходима для программной обработки документов Word. Если вы еще этого не сделали, вы можете [скачать здесь](https://releases.aspose.com/words/net/).
    
 2. Visual Studio: Вам понадобится IDE для написания и запуска вашего кода .NET. Visual Studio — популярный выбор.
 
 3. Базовые знания C#: Фундаментальное понимание C# поможет вам легче усваивать материал.
 
-4.  Лицензия Aspose: пока доступна бесплатная пробная версия[здесь](https://releases.aspose.com/) , вам может понадобиться полная лицензия для коммерческого использования. Вы можете получить ее[здесь](https://purchase.aspose.com/buy) или подать заявку на[временная лицензия](https://purchase.aspose.com/temporary-license/).
+4. Лицензия Aspose: пока доступна бесплатная пробная версия [здесь](https://releases.aspose.com/), вам может понадобиться полная лицензия для коммерческого использования. Вы можете получить ее [здесь](https://purchase.aspose.com/buy) или подать заявку на [временная лицензия](https://purchase.aspose.com/temporary-license/).
 
 5. Каталог документов: убедитесь, что у вас настроен каталог, в котором будут сохраняться и загружаться ваши документы.
 
@@ -48,7 +50,7 @@ using Aspose.Words.Layout;
 
 ## Шаг 1: Загрузите документ
 
-Сначала вам нужно загрузить документ Word, с которым вы хотите работать. Это включает в себя указание пути к вашему документу и создание`Document` объект.
+Сначала вам нужно загрузить документ Word, с которым вы хотите работать. Это включает в себя указание пути к вашему документу и создание `Document` объект.
 
 ```csharp
 // Путь к каталогу документов.
@@ -58,7 +60,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "input.docx");
 ```
 
- Здесь замените`"YOUR DOCUMENT DIRECTORY"` с фактическим путем, где ваш`input.docx` файл сохранен.
+Здесь замените `"YOUR DOCUMENT DIRECTORY"` с фактическим путем, где ваш `input.docx` файл сохранен.
 
 ## Шаг 2: Сохраните документ с исходным макетом
 
@@ -120,19 +122,24 @@ doc.Save(dataDir + "Document.UpdatePageLayout.2.pdf");
 Aspose.Words для .NET — это библиотека, используемая для программного создания, изменения и преобразования документов Word.
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?  
- Да, вам нужна лицензия для коммерческого использования. Вы можете получить лицензию[здесь](https://purchase.aspose.com/buy) или подать заявку на[временная лицензия](https://purchase.aspose.com/temporary-license/).
+Да, вам нужна лицензия для коммерческого использования. Вы можете получить лицензию [здесь](https://purchase.aspose.com/buy) или подать заявку на [временная лицензия](https://purchase.aspose.com/temporary-license/).
 
 ### Как начать работу с Aspose.Words для .NET?  
- Вы можете начать с загрузки библиотеки с сайта[Сайт Aspose](https://releases.aspose.com/words/net/), а затем импортируйте необходимые пространства имен в свой проект C#.
+Вы можете начать с загрузки библиотеки с сайта [Сайт Aspose](https://releases.aspose.com/words/net/), а затем импортируйте необходимые пространства имен в свой проект C#.
 
 ### Могу ли я использовать Aspose.Words для .NET бесплатно?  
- Aspose предлагает бесплатную пробную версию библиотеки, которую вы можете получить[здесь](https://releases.aspose.com/).
+Aspose предлагает бесплатную пробную версию библиотеки, которую вы можете получить [здесь](https://releases.aspose.com/).
 
 ### Где я могу получить поддержку по Aspose.Words для .NET?  
- Вы можете получить поддержку через[Форум поддержки Aspose](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку через [Форум поддержки Aspose](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

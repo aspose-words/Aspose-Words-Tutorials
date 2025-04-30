@@ -1,14 +1,16 @@
 ---
-title: ฟอร์มฟิลด์รับตามชื่อ
-linktitle: ฟอร์มฟิลด์รับตามชื่อ
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีรับและแก้ไขเขตข้อมูลฟอร์มตามชื่อในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนโดยละเอียดนี้
-weight: 10
-url: /th/net/working-with-formfields/form-fields-get-by-name/
+"description": "เรียนรู้วิธีรับและแก้ไขเขตข้อมูลฟอร์มตามชื่อในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนโดยละเอียดนี้"
+"linktitle": "ฟอร์มฟิลด์รับตามชื่อ"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ฟอร์มฟิลด์รับตามชื่อ"
+"url": "/th/net/working-with-formfields/form-fields-get-by-name/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ฟอร์มฟิลด์รับตามชื่อ
@@ -21,7 +23,7 @@ url: /th/net/working-with-formfields/form-fields-get-by-name/
 
 ก่อนที่เราจะเจาะลึกโค้ด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการแล้ว:
 
-1.  Aspose.Words สำหรับไลบรารี .NET: หากคุณยังไม่ได้ดาวน์โหลด ให้ดาวน์โหลดจาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับไลบรารี .NET: หากคุณยังไม่ได้ดาวน์โหลด ให้ดาวน์โหลดจาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: สภาพแวดล้อมการพัฒนา .NET ใดๆ เช่น Visual Studio
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับ C# บางส่วนจะเป็นประโยชน์แต่ไม่จำเป็น
 
@@ -121,7 +123,7 @@ doc.Save(dataDir + "ModifiedFormFields.docx");
 
 ### มี Aspose.Words สำหรับ .NET ให้ทดลองใช้งานฟรีหรือไม่
 
- ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถจัดการองค์ประกอบอื่นๆ ของเอกสาร Word นอกเหนือจากเขตข้อมูลฟอร์มได้หรือไม่
 
@@ -129,14 +131,19 @@ doc.Save(dataDir + "ModifiedFormFields.docx");
 
 ### ฉันจะได้รับการสนับสนุนได้อย่างไรหากพบปัญหาใดๆ?
 
- คุณสามารถเยี่ยมชม[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือเกี่ยวกับปัญหาใดๆ ที่คุณประสบ
+คุณสามารถเยี่ยมชม [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือเกี่ยวกับปัญหาใดๆ ที่คุณประสบ
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ใด
 
- เอกสารรายละเอียดมีให้[ที่นี่](https://reference.aspose.com/words/net/).
+เอกสารรายละเอียดมีให้ [ที่นี่](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

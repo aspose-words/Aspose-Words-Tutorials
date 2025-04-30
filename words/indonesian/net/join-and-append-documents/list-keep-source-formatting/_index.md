@@ -1,14 +1,16 @@
 ---
-title: Daftar Pertahankan Format Sumber
-linktitle: Daftar Pertahankan Format Sumber
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menggabungkan dokumen Word sambil mempertahankan format menggunakan Aspose.Words untuk .NET. Tutorial ini menyediakan panduan langkah demi langkah untuk penggabungan dokumen yang lancar.
-weight: 10
-url: /id/net/join-and-append-documents/list-keep-source-formatting/
+"description": "Pelajari cara menggabungkan dokumen Word sambil mempertahankan format menggunakan Aspose.Words untuk .NET. Tutorial ini menyediakan panduan langkah demi langkah untuk penggabungan dokumen yang lancar."
+"linktitle": "Daftar Pertahankan Format Sumber"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Daftar Pertahankan Format Sumber"
+"url": "/id/net/join-and-append-documents/list-keep-source-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Daftar Pertahankan Format Sumber
@@ -22,7 +24,7 @@ Dalam tutorial ini, kita akan menjelajahi cara memanfaatkan Aspose.Words untuk .
 Sebelum melanjutkan, pastikan Anda memiliki prasyarat berikut:
 
 - Visual Studio terinstal di komputer Anda.
--  Aspose.Words untuk .NET terinstal. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET terinstal. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - Kemampuan dasar dalam pemrograman C# dan lingkungan .NET.
 
 ## Mengimpor Ruang Nama
@@ -40,7 +42,7 @@ Mulailah dengan membuat proyek C# baru di Visual Studio. Pastikan Aspose.Words f
 ## Langkah 2: Inisialisasi Variabel Dokumen
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Muat dokumen sumber dan tujuan
@@ -91,10 +93,15 @@ Ya, Aspose.Words sepenuhnya mendukung .NET Core, memungkinkan pengembangan linta
 Aspose.Words menyediakan API yang efisien untuk manipulasi dokumen, dioptimalkan untuk kinerja bahkan dengan dokumen besar.
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
- Anda dapat menjelajahi lebih banyak contoh dan dokumentasi terperinci di[Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/).
+Anda dapat menjelajahi lebih banyak contoh dan dokumentasi terperinci di [Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

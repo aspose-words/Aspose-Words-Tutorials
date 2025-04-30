@@ -1,14 +1,16 @@
 ---
-title: ซ่อนแกนแผนภูมิในเอกสาร Word
-linktitle: ซ่อนแกนแผนภูมิในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีซ่อนแกนแผนภูมิในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนโดยละเอียดของเรา
-weight: 10
-url: /th/net/programming-with-charts/hide-chart-axis/
+"description": "เรียนรู้วิธีซ่อนแกนแผนภูมิในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนโดยละเอียดของเรา"
+"linktitle": "ซ่อนแกนแผนภูมิในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ซ่อนแกนแผนภูมิในเอกสาร Word"
+"url": "/th/net/programming-with-charts/hide-chart-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ซ่อนแกนแผนภูมิในเอกสาร Word
@@ -21,7 +23,7 @@ url: /th/net/programming-with-charts/hide-chart-axis/
 
 ก่อนที่จะเริ่มเรียนรู้บทช่วยสอนนี้ โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
--  Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: IDE ใด ๆ ที่รองรับการพัฒนา .NET เช่น Visual Studio
 - .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework ไว้ในเครื่องของคุณแล้ว
 - ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับภาษาการเขียนโปรแกรม C# จะเป็นประโยชน์
@@ -50,18 +52,18 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- ในขั้นตอนนี้ เราจะกำหนดเส้นทางที่จะบันทึกเอกสาร จากนั้นเราจะสร้างไฟล์ใหม่`Document` วัตถุและก`DocumentBuilder` วัตถุที่จะเริ่มสร้างเอกสารของเรา
+ในขั้นตอนนี้ เราจะกำหนดเส้นทางที่จะบันทึกเอกสาร จากนั้นเราจะสร้างไฟล์ใหม่ `Document` วัตถุและก `DocumentBuilder` วัตถุที่จะเริ่มสร้างเอกสารของเรา
 
 ## ขั้นตอนที่ 2: แทรกแผนภูมิ
 
- ต่อไปเราจะแทรกแผนภูมิลงในเอกสารโดยใช้`DocumentBuilder` วัตถุ.
+ต่อไปเราจะแทรกแผนภูมิลงในเอกสารโดยใช้ `DocumentBuilder` วัตถุ.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 ```
 
- ที่นี่เราแทรกแผนภูมิคอลัมน์ที่มีมิติที่ระบุ`InsertChart` วิธีการส่งคืน a`Shape` วัตถุที่ประกอบด้วยแผนภูมิ
+ที่นี่เราแทรกแผนภูมิคอลัมน์ที่มีมิติที่ระบุ `InsertChart` วิธีการส่งคืน a `Shape` วัตถุที่ประกอบด้วยแผนภูมิ
 
 ## ขั้นตอนที่ 3: ล้างซีรีย์ที่มีอยู่
 
@@ -87,7 +89,7 @@ chart.Series.Add("Aspose Series 1",
 
 ## ขั้นตอนที่ 5: ซ่อนแกน Y
 
- เพื่อซ่อนแกน Y ของแผนภูมิ เราเพียงตั้งค่า`Hidden` คุณสมบัติของแกน Y ถึง`true`.
+เพื่อซ่อนแกน Y ของแผนภูมิ เราเพียงตั้งค่า `Hidden` คุณสมบัติของแกน Y ถึง `true`-
 
 ```csharp
 chart.AxisY.Hidden = true;
@@ -115,20 +117,25 @@ doc.Save(dataDir + "WorkingWithCharts.HideChartAxis.docx");
 Aspose.Words สำหรับ .NET เป็น API อันทรงพลังสำหรับการสร้าง แก้ไข แปลง และจัดการเอกสาร Word ภายในแอปพลิเคชัน .NET
 
 ### ฉันสามารถซ่อนแกนทั้ง X และ Y ในแผนภูมิได้หรือไม่
- ใช่ คุณสามารถซ่อนทั้งสองแกนได้โดยการตั้งค่า`Hidden` ทรัพย์สินของทั้งสองฝ่าย`AxisX` และ`AxisY` ถึง`true`.
+ใช่ คุณสามารถซ่อนทั้งสองแกนได้โดยการตั้งค่า `Hidden` ทรัพย์สินของทั้งสองฝ่าย `AxisX` และ `AxisY` ถึง `true`-
 
 ### มี Aspose.Words สำหรับ .NET ให้ทดลองใช้งานฟรีหรือไม่
- ใช่ คุณสามารถรับการทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถรับการทดลองใช้ฟรีได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมได้ที่ไหน
- คุณสามารถค้นหาเอกสารรายละเอียดเกี่ยวกับ Aspose.Words สำหรับ .NET ได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารรายละเอียดเกี่ยวกับ Aspose.Words สำหรับ .NET ได้ [ที่นี่](https://reference-aspose.com/words/net/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ได้อย่างไร
- คุณสามารถรับการสนับสนุนจากชุมชน Aspose ได้[ที่นี่](https://forum.aspose.com/c/words/8).
+คุณสามารถรับการสนับสนุนจากชุมชน Aspose ได้ [ที่นี่](https://forum-aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

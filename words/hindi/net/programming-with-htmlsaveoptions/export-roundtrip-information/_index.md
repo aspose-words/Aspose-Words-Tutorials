@@ -1,14 +1,16 @@
 ---
-title: राउंडट्रिप जानकारी निर्यात करें
-linktitle: राउंडट्रिप जानकारी निर्यात करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके राउंडट्रिप जानकारी निर्यात करना सीखें। रूपांतरण के दौरान अपने दस्तावेज़ की अखंडता और स्वरूपण को सुरक्षित रखें।
-weight: 10
-url: /hi/net/programming-with-htmlsaveoptions/export-roundtrip-information/
+"description": ".NET के लिए Aspose.Words का उपयोग करके राउंडट्रिप जानकारी निर्यात करना सीखें। रूपांतरण के दौरान अपने दस्तावेज़ की अखंडता और स्वरूपण को सुरक्षित रखें।"
+"linktitle": "राउंडट्रिप जानकारी निर्यात करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "राउंडट्रिप जानकारी निर्यात करें"
+"url": "/hi/net/programming-with-htmlsaveoptions/export-roundtrip-information/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # राउंडट्रिप जानकारी निर्यात करें
@@ -21,10 +23,10 @@ url: /hi/net/programming-with-htmlsaveoptions/export-roundtrip-information/
 
 इससे पहले कि हम मुख्य बातों पर चर्चा करें, आइए सुनिश्चित करें कि हमारे पास वह सब कुछ है जो हमें चाहिए:
 
-1.  .NET के लिए Aspose.Words: सुनिश्चित करें कि आपके पास नवीनतम संस्करण है।[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+1. .NET के लिए Aspose.Words: सुनिश्चित करें कि आपके पास नवीनतम संस्करण है। [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो या कोई अन्य C# संगत IDE.
 3. C# का बुनियादी ज्ञान: C# और .NET फ्रेमवर्क से थोड़ी परिचितता होना सहायक होता है।
-4. लाइसेंस: यदि आपके पास पूर्ण लाइसेंस नहीं है तो आप अस्थायी लाइसेंस का उपयोग कर सकते हैं। इसे प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+4. लाइसेंस: यदि आपके पास पूर्ण लाइसेंस नहीं है तो आप अस्थायी लाइसेंस का उपयोग कर सकते हैं। इसे प्राप्त करें [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ## नामस्थान आयात करें
 
@@ -79,19 +81,24 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ExportRoundtripInformation.html",
 राउंडट्रिप सूचना से तात्पर्य उस डेटा से है जो किसी दस्तावेज़ को एक प्रारूप से दूसरे प्रारूप में तथा पुनः परिवर्तित करते समय उसकी अखंडता और स्वरूपण को सुनिश्चित करता है।
 
 ### क्या मैं बिना लाइसेंस के .NET के लिए Aspose.Words का उपयोग कर सकता हूँ?
-हां, आप इसे अस्थायी लाइसेंस के साथ उपयोग कर सकते हैं जिसे आप प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+हां, आप इसे अस्थायी लाइसेंस के साथ उपयोग कर सकते हैं जिसे आप प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### मैं .NET के लिए Aspose.Words का नवीनतम संस्करण कहां पा सकता हूं?
- आप नवीनतम संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+आप नवीनतम संस्करण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 
 ### मैं .NET के लिए Aspose.Words का समर्थन कैसे प्राप्त करूं?
- आप Aspose समुदाय से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/words/8).
+आप Aspose समुदाय से सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/words/8).
 
 ### क्या Word दस्तावेज़ों को HTML में परिवर्तित करते समय स्वरूपण को संरक्षित करना संभव है?
 हां, HtmlSaveOptions में ExportRoundtripInformation गुण का उपयोग करके, आप रूपांतरण के दौरान सभी स्वरूपण को संरक्षित कर सकते हैं।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: แทรกวัตถุ Ole เป็นไอคอนโดยใช้สตรีม
-linktitle: แทรกวัตถุ Ole เป็นไอคอนโดยใช้สตรีม
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการแทรกวัตถุ OLE เป็นไอคอนโดยใช้สตรีมด้วย Aspose.Words สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนโดยละเอียดนี้
-weight: 10
-url: /th/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon-using-stream/
+"description": "เรียนรู้วิธีแทรกวัตถุ OLE เป็นไอคอนโดยใช้สตรีมด้วย Aspose.Words สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนโดยละเอียดนี้"
+"linktitle": "แทรกวัตถุ Ole เป็นไอคอนโดยใช้สตรีม"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แทรกวัตถุ Ole เป็นไอคอนโดยใช้สตรีม"
+"url": "/th/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon-using-stream/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทรกวัตถุ Ole เป็นไอคอนโดยใช้สตรีม
@@ -21,7 +23,7 @@ url: /th/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon-using
 
 ก่อนที่เราจะเริ่มต้นเขียนโค้ด มีบางสิ่งที่คุณต้องมี:
 
--  Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ทำ[ดาวน์โหลด](https://releases.aspose.com/words/net/) และติดตั้ง Aspose.Words สำหรับ .NET
+- Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ทำ [ดาวน์โหลด](https://releases.aspose.com/words/net/) และติดตั้ง Aspose.Words สำหรับ .NET
 - สภาพแวดล้อมการพัฒนา: Visual Studio หรือสภาพแวดล้อมการพัฒนา C# อื่นๆ
 - ไฟล์อินพุต: ไฟล์ที่คุณต้องการฝัง (เช่น งานนำเสนอ PowerPoint) และรูปภาพไอคอน
 
@@ -49,7 +51,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- คิดถึง`Document` เป็นผืนผ้าใบเปล่าของคุณและ`DocumentBuilder` เป็นพู่กันของคุณ เรากำลังจัดเตรียมเครื่องมือของเราเพื่อเริ่มสร้างผลงานชิ้นเอกของเรา
+คิดถึง `Document` เป็นผืนผ้าใบเปล่าของคุณและ `DocumentBuilder` เป็นพู่กันของคุณ เรากำลังจัดเตรียมเครื่องมือของเราเพื่อเริ่มสร้างผลงานชิ้นเอกของเรา
 
 ## ขั้นตอนที่ 2: เตรียมสตรีม
 
@@ -93,19 +95,24 @@ doc.Save(dataDir + "WorkingWithOleObjectsAndActiveX.InsertOleObjectAsIconUsingSt
 ใช่ คุณสามารถฝังประเภทไฟล์ใดๆ ที่ได้รับการรองรับโดย OLE รวมถึง Word, Excel, PowerPoint และอื่นๆ อีกมากมาย
 
 ### ฉันต้องมีใบอนุญาตพิเศษในการใช้ Aspose.Words สำหรับ .NET หรือไม่
- ใช่ Aspose.Words สำหรับ .NET ต้องมีใบอนุญาต คุณสามารถรับได้[ทดลองใช้งานฟรี](https://releases.aspose.com/) หรือซื้อ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการทดสอบ
+ใช่ Aspose.Words สำหรับ .NET ต้องมีใบอนุญาต คุณสามารถรับได้ [ทดลองใช้งานฟรี](https://releases.aspose.com/) หรือซื้อ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการทดสอบ
 
 ### ฉันสามารถปรับแต่งไอคอนที่ใช้สำหรับวัตถุ OLE ได้หรือไม่
- แน่นอน! คุณสามารถใช้ไฟล์รูปภาพใดๆ สำหรับไอคอนได้โดยระบุเส้นทางใน`InsertOleObjectAsIcon` วิธี.
+แน่นอน! คุณสามารถใช้ไฟล์รูปภาพใดๆ สำหรับไอคอนได้โดยระบุเส้นทางใน `InsertOleObjectAsIcon` วิธี.
 
 ### จะเกิดอะไรขึ้นถ้าเส้นทางไฟล์หรือไอคอนไม่ถูกต้อง?
 วิธีการนี้จะส่งข้อยกเว้น ตรวจสอบให้แน่ใจว่าเส้นทางไปยังไฟล์ของคุณถูกต้องเพื่อหลีกเลี่ยงข้อผิดพลาด
 
 ### สามารถเชื่อมโยงวัตถุที่ฝังไว้แทนการฝังลงไปได้หรือไม่?
 ใช่ Aspose.Words อนุญาตให้คุณแทรกวัตถุ OLE ที่เชื่อมโยง ซึ่งอ้างอิงไฟล์โดยไม่ต้องฝังเนื้อหา
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

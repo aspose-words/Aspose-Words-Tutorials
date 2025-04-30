@@ -1,17 +1,19 @@
 ---
-title: Привязать SDT к пользовательской части XML
-linktitle: Привязать SDT к пользовательской части XML
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как привязать структурированные теги документов (SDT) к пользовательским частям XML в документах Word с помощью Aspose.Words для .NET, из этого пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-sdt/bind-sdt-to-custom-xml-part/
+"description": "Узнайте, как привязать структурированные теги документов (SDT) к пользовательским частям XML в документах Word с помощью Aspose.Words для .NET, из этого пошагового руководства."
+"linktitle": "Привязать SDT к пользовательской XML-части"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Привязать SDT к пользовательской XML-части"
+"url": "/ru/net/programming-with-sdt/bind-sdt-to-custom-xml-part/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Привязать SDT к пользовательской части XML
+# Привязать SDT к пользовательской XML-части
 
 ## Введение
 
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-sdt/bind-sdt-to-custom-xml-part/
 
 Прежде чем начать, убедитесь, что выполнены следующие предварительные условия:
 
--  Aspose.Words для .NET: Вы можете загрузить последнюю версию с сайта[Aspose.Words для релизов .NET](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: Вы можете загрузить последнюю версию с сайта [Aspose.Words для релизов .NET](https://releases.aspose.com/words/net/).
 - Среда разработки: Visual Studio или любая другая совместимая .NET IDE.
 - Базовое понимание C#: знакомство с языком программирования C# и платформой .NET.
 
@@ -68,7 +70,7 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(Guid.NewGuid().ToString("B"), "<r
 После добавления пользовательской XML-части мы создаем SDT для отображения XML-данных.
 
 ```csharp
-//Создать структурированный тег документа (SDT)
+// Создать структурированный тег документа (SDT)
 StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(sdt);
 ```
@@ -84,7 +86,7 @@ doc.FirstSection.Body.AppendChild(sdt);
 sdt.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", "");
 ```
 
- Этот шаг сопоставляет SDT с`<text>` элемент в пределах`<root>` узел нашей пользовательской XML-части.
+Этот шаг сопоставляет SDT с `<text>` элемент в пределах `<root>` узел нашей пользовательской XML-части.
 
 ## Шаг 5: Сохраните документ.
 
@@ -110,16 +112,21 @@ doc.Save(dataDir + "WorkingWithSdt.BindSDTtoCustomXmlPart.doc");
 Да, вы можете привязать несколько SDT к разным частям XML в одном документе, что позволяет создавать сложные шаблоны, управляемые данными.
 
 ### Как обновить XML-данные в пользовательской XML-части?
- Вы можете обновить данные XML, перейдя по ссылке`CustomXmlPart` объект и непосредственное изменение его XML-содержимого.
+Вы можете обновить данные XML, перейдя по ссылке `CustomXmlPart` объект и непосредственное изменение его XML-содержимого.
 
-### Можно ли привязать SDT к XML-атрибутам вместо элементов?
+### Можно ли привязать SDT к атрибутам XML вместо элементов?
 Да, вы можете привязать SDT к атрибутам XML, указав соответствующее выражение XPath, нацеленное на нужный атрибут.
 
 ### Где я могу найти дополнительную документацию по Aspose.Words для .NET?
- Подробную документацию по Aspose.Words для .NET можно найти по адресу[Документация Aspose.Words](https://reference.aspose.com/words/net/).
+Подробную документацию по Aspose.Words для .NET можно найти по адресу [Документация Aspose.Words](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

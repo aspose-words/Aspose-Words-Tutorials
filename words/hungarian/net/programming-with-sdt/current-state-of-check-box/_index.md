@@ -1,77 +1,79 @@
 ---
-title: A jelölőnégyzet jelenlegi állapota
-linktitle: A jelölőnégyzet jelenlegi állapota
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan kezelheti a jelölőnégyzeteket a Word dokumentumokban az Aspose.Words for .NET segítségével. Ez az útmutató a jelölőnégyzetek programozott beállításával, frissítésével és mentésével foglalkozik.
-weight: 10
-url: /hu/net/programming-with-sdt/current-state-of-check-box/
+"description": "Ismerje meg, hogyan kezelheti a jelölőnégyzeteket a Word-dokumentumokban az Aspose.Words for .NET segítségével. Ez az útmutató a jelölőnégyzetek programozott beállítását, frissítését és mentését ismerteti."
+"linktitle": "A jelölőnégyzet jelenlegi állapota"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "A jelölőnégyzet jelenlegi állapota"
+"url": "/hu/net/programming-with-sdt/current-state-of-check-box/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # A jelölőnégyzet jelenlegi állapota
 
 ## Bevezetés
 
-Ebben az oktatóanyagban végigvezetjük a Word-dokumentumok jelölőnégyzeteinek kezelését. Megmutatjuk, hogyan lehet elérni egy jelölőnégyzetet, meghatározni az állapotát, és ennek megfelelően frissíteni. Akár olyan űrlapot fejleszt, amely ellenőrizhető opciókat igényel, akár automatizálja a dokumentummódosításokat, ez az útmutató szilárd alapot nyújt Önnek.
+Ebben az oktatóanyagban végigvezetjük a jelölőnégyzetek Word-dokumentumokban való kezelésének folyamatán. Bemutatjuk, hogyan férhet hozzá egy jelölőnégyzethez, hogyan határozhatja meg az állapotát, és hogyan frissítheti azt ennek megfelelően. Akár egy olyan űrlapot fejleszt, amelyhez bejelölhető beállításokra van szükség, akár automatizálja a dokumentummódosításokat, ez az útmutató szilárd alapot nyújt.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+Mielőtt belemerülnénk az oktatóanyagba, győződjünk meg arról, hogy a következő előfeltételekkel rendelkezünk:
 
-1.  Aspose.Words for .NET Library: Győződjön meg arról, hogy telepítve van az Aspose.Words könyvtár. Ha még nem tette meg, letöltheti a webhelyről[Aspose honlapja](https://releases.aspose.com/words/net/).
+1. Aspose.Words .NET könyvtárhoz: Győződjön meg róla, hogy telepítve van az Aspose.Words könyvtár. Ha még nem tette meg, letöltheti innen: [Aspose weboldal](https://releases.aspose.com/words/net/).
 
-2. Visual Studio: A kód fordításához és futtatásához .NET fejlesztői környezetre lesz szükség, mint például a Visual Studio.
+2. Visual Studio: A kód fordításához és futtatásához .NET fejlesztői környezetre, például a Visual Studio-ra lesz szükség.
 
-3. Alapvető C# ismerete: A C# programozás ismerete segít megérteni és követni a példákat.
+3. C# alapismeretek: A C# programozással való ismeret segít megérteni és követni a bemutatott példákat.
 
-4. Word-dokumentum jelölőnégyzetekkel: Ehhez az oktatóanyaghoz szüksége lesz egy Word dokumentumra, amely jelölőnégyzetes űrlapmezőket tartalmaz. Ezt a dokumentumot a jelölőnégyzetek programozott kezelésének bemutatására fogjuk használni.
+4. Word dokumentum jelölőnégyzetekkel: Ehhez az oktatóanyaghoz egy jelölőnégyzet űrlapmezőket tartalmazó Word dokumentumra lesz szükséged. Ezzel a dokumentummal bemutatjuk, hogyan lehet programozottan manipulálni a jelölőnégyzeteket.
 
 ## Névterek importálása
 
-Az Aspose.Words for .NET használatának megkezdéséhez importálnia kell a szükséges névtereket. A C# fájl elejére írja be a következőket direktívák használatával:
+Az Aspose.Words for .NET használatának megkezdéséhez importálnia kell a szükséges névtereket. A C# fájl elejére a következőket kell beírnia direktívák használatával:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Markup;
 ```
 
-Ezek a névterek lehetővé teszik az Aspose.Words API elérését és használatát, valamint a strukturált dokumentumcímkék kezelését, beleértve a jelölőnégyzeteket is.
+Ezek a névterek lehetővé teszik az Aspose.Words API elérését és használatát, valamint a strukturált dokumentumcímkék, például a jelölőnégyzetek kezelését.
 
 ## 1. lépés: A dokumentum elérési útjának beállítása
 
- Először is meg kell adnia a Word-dokumentum elérési útját. Az Aspose.Words itt keresi a fájlt a műveletek végrehajtásához. Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a tényleges elérési úttal, ahol a dokumentumot tárolják.
+Először meg kell adnod a Word dokumentumod elérési útját. Itt fogja az Aspose.Words keresni a fájlt a műveletek végrehajtásához. Csere `"YOUR DOCUMENT DIRECTORY"` dokumentum tényleges tárolási útvonalával.
 
 ```csharp
-// A dokumentumkönyvtár elérési útja
+// A dokumentumkönyvtár elérési útja 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
 ## 2. lépés: A dokumentum betöltése
 
- Ezután töltse be a Word dokumentumot a`Document` osztály. Ez az osztály kódban jeleníti meg a Word-dokumentumot, és különféle módszereket kínál a kezeléséhez.
+Ezután töltse be a Word-dokumentumot a(z) egy példányába. `Document` osztály. Ez az osztály a Word-dokumentumot kódban ábrázolja, és különféle metódusokat biztosít annak manipulálására.
 
 ```csharp
 Document doc = new Document(dataDir + "Structured document tags.docx");
 ```
 
- Itt,`"Structured document tags.docx"` le kell cserélni a Word fájl nevére.
+Itt, `"Structured document tags.docx"` a Word-fájl nevével kell helyettesíteni.
 
-## 3. lépés: A jelölőnégyzet űrlapmezőjének elérése
+## 3. lépés: A jelölőnégyzet űrlapmező elérése
 
-Egy adott jelölőnégyzet eléréséhez le kell kérnie azt a dokumentumból. Az Aspose.Words a jelölőnégyzeteket strukturált dokumentumcímkeként kezeli. A következő kód lekéri a dokumentum első strukturált dokumentumcímkéjét, és ellenőrzi, hogy az egy jelölőnégyzet-e.
+Egy adott jelölőnégyzet eléréséhez ki kell kérni azt a dokumentumból. Az Aspose.Words a jelölőnégyzeteket strukturált dokumentumcímkékként kezeli. A következő kód kikeresi a dokumentum első strukturált dokumentumcímkéjét, és ellenőrzi, hogy az jelölőnégyzet-e.
 
 ```csharp
-//Szerezze be az első tartalomvezérlőt a dokumentumból.
+// Szerezd meg az első tartalomvezérlőt a dokumentumból.
 StructuredDocumentTag sdtCheckBox =
     (StructuredDocumentTag) doc.GetChild(NodeType.StructuredDocumentTag, 0, true);
 ```
 
 ## 4. lépés: A jelölőnégyzet állapotának ellenőrzése és frissítése
 
- Ha egyszer megvan a`StructuredDocumentTag` Például ellenőrizheti a típusát és frissítheti az állapotát. Ez a példa a jelölőnégyzetet bejelölve állítja be, ha valóban jelölőnégyzet.
+Miután megvan a `StructuredDocumentTag` Például ellenőrizheti a típusát és frissítheti az állapotát. Ez a példa bejelölt értékre állítja a jelölőnégyzetet, ha valóban jelölőnégyzetről van szó.
 
 ```csharp
 if (sdtCheckBox.SdtType == SdtType.Checkbox)
@@ -80,37 +82,42 @@ if (sdtCheckBox.SdtType == SdtType.Checkbox)
 
 ## 5. lépés: A dokumentum mentése
 
-Végül mentse a módosított dokumentumot egy új fájlba. Ez lehetővé teszi az eredeti dokumentum megőrzését és a frissített verzió használatát.
+Végül mentse el a módosított dokumentumot egy új fájlba. Ez lehetővé teszi az eredeti dokumentum megőrzését és a frissített verzióval való munkát.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithSdt.CurrentStateOfCheckBox.docx");
 ```
 
- Ebben a példában`"WorkingWithSdt.CurrentStateOfCheckBox.docx"` annak a fájlnak a neve, amelybe a módosított dokumentum mentésre kerül.
+Ebben a példában `"WorkingWithSdt.CurrentStateOfCheckBox.docx"` a fájl neve, ahová a módosított dokumentum mentésre kerül.
 
 ## Következtetés
 
-Ebben az oktatóanyagban bemutattuk, hogyan kezelheti a jelölőnégyzet űrlapmezőit a Word dokumentumokban az Aspose.Words for .NET használatával. Megvizsgáltuk, hogyan állíthatjuk be a dokumentum elérési útját, tölthetjük be a dokumentumot, hogyan lehet hozzáférni a jelölőnégyzetekhez, frissíteni az állapotukat és menteni a változtatásokat. Ezekkel a készségekkel most már több interaktív és dinamikus Word-dokumentumot hozhat létre programozottan.
+Ebben az oktatóanyagban azt tárgyaltuk, hogyan lehet a jelölőnégyzet űrlapmezőket manipulálni Word-dokumentumokban az Aspose.Words for .NET használatával. Megvizsgáltuk, hogyan lehet beállítani a dokumentum elérési útját, betölteni a dokumentumot, elérni a jelölőnégyzeteket, frissíteni az állapotukat, és menteni a módosításokat. Ezekkel a készségekkel mostantól interaktívabb és dinamikusabb Word-dokumentumokat hozhatsz létre programozottan.
 
 ## GYIK
 
-### Milyen típusú dokumentumelemeket kezelhetek az Aspose.Words for .NET segítségével?
-Az Aspose.Words for .NET lehetővé teszi különféle dokumentumelemek, köztük bekezdések, táblázatok, képek, fejlécek, láblécek és strukturált dokumentumcímkék, például jelölőnégyzetek kezelését.
+### Milyen típusú dokumentumelemeket tudok manipulálni az Aspose.Words for .NET segítségével?
+Az Aspose.Words for .NET lehetővé teszi a dokumentum különböző elemeinek, például bekezdések, táblázatok, képek, fejlécek, láblécek és strukturált dokumentumcímkék, például jelölőnégyzetek kezelését.
 
 ### Hogyan kezelhetek több jelölőnégyzetet egy dokumentumban?
-Több jelölőnégyzet kezeléséhez át kell tekintenie a strukturált dokumentumcímkék gyűjteményét, és mindegyiket be kell jelölnie, hogy eldöntse, jelölőnégyzet-e.
+Több jelölőnégyzet kezeléséhez végig kell menni a strukturált dokumentumcímkék gyűjteményén, és mindegyiket ellenőrizni kell annak megállapítására, hogy jelölőnégyzetről van-e szó.
 
-### Használhatom az Aspose.Words for .NET alkalmazást új jelölőnégyzetek létrehozására egy Word-dokumentumban?
- Igen, létrehozhat új jelölőnégyzeteket a típusú strukturált dokumentumcímkék hozzáadásával`SdtType.Checkbox` a dokumentumához.
+### Használhatom az Aspose.Words for .NET programot új jelölőnégyzetek létrehozásához egy Word dokumentumban?
+Igen, létrehozhat új jelölőnégyzeteket strukturált dokumentumcímkék hozzáadásával, amelyek típusa `SdtType.Checkbox` a dokumentumodhoz.
 
-### Kiolvasható egy jelölőnégyzet állapota egy dokumentumból?
- Teljesen. A jelölőnégyzet állapotát a`Checked` tulajdona a`StructuredDocumentTag` ha olyan típusú`SdtType.Checkbox`.
+### Lehetséges egy jelölőnégyzet állapotát kiolvasni egy dokumentumból?
+Teljesen. Egy jelölőnégyzet állapotát a következőképpen olvashatja le: `Checked` a tulajdona `StructuredDocumentTag` ha típusú `SdtType.Checkbox`.
 
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Words for .NET-hez?
- Ideiglenes engedélyt szerezhet a[Aspose vásárlási oldal](https://purchase.aspose.com/temporary-license/), amely lehetővé teszi a könyvtár teljes funkcionalitásának értékelését.
+Ideiglenes jogosítványt igényelhet a [Aspose vásárlási oldal](https://purchase.aspose.com/temporary-license/), amely lehetővé teszi a könyvtár teljes funkcionalitásának kiértékelését.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

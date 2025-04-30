@@ -1,14 +1,16 @@
 ---
-title: Hapus Semua Bagian
-linktitle: Hapus Semua Bagian
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menghapus semua bagian dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang mudah diikuti ini.
-weight: 10
-url: /id/net/working-with-section/delete-all-sections/
+"description": "Pelajari cara menghapus semua bagian dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang mudah diikuti ini."
+"linktitle": "Hapus Semua Bagian"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Hapus Semua Bagian"
+"url": "/id/net/working-with-section/delete-all-sections/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Semua Bagian
@@ -21,7 +23,7 @@ Pernahkah Anda mencoba menghapus semua bagian dalam dokumen Word dan mendapati d
 
 Sebelum kita mulai, mari kita pastikan Anda memiliki semua yang Anda butuhkan. Berikut ini adalah hal-hal yang Anda perlukan untuk memulai:
 
--  Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: IDE apa pun yang kompatibel dengan .NET (seperti Visual Studio).
 - Pengetahuan Dasar C#: Ini akan membantu Anda memahami potongan kode dengan lebih baik.
 - Dokumen Word: Dokumen masukan untuk dikerjakan.
@@ -44,7 +46,7 @@ Langkah pertama adalah memuat dokumen Word Anda. Anggap saja seperti membuka buk
 Document doc = new Document("input.docx");
 ```
 
- Pada baris kode ini, kita memuat dokumen bernama "input.docx" ke dalam objek bernama`doc`.
+Pada baris kode ini, kita memuat dokumen bernama "input.docx" ke dalam objek bernama `doc`.
 
 ## Langkah 2: Hapus Semua Bagian
 
@@ -66,22 +68,27 @@ Nah, itu dia! Menghapus semua bagian dalam dokumen Word menggunakan Aspose.Words
 ## Pertanyaan yang Sering Diajukan
 
 ### Apa itu Aspose.Words untuk .NET?
- Aspose.Words untuk .NET adalah pustaka yang hebat untuk memanipulasi dokumen Word secara terprogram. Anda dapat menemukan informasi lebih lanjut[Di Sini](https://reference.aspose.com/words/net/).
+Aspose.Words untuk .NET adalah pustaka yang hebat untuk memanipulasi dokumen Word secara terprogram. Anda dapat menemukan informasi lebih lanjut [Di Sini](https://reference.aspose.com/words/net/).
 
 ### Dapatkah saya mencoba Aspose.Words untuk .NET secara gratis?
- Ya, Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh uji coba gratis dari [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana cara membeli Aspose.Words untuk .NET?
- Anda dapat membelinya dari[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat membelinya dari [Di Sini](https://purchase.aspose.com/buy).
 
 ### Apakah ada dukungan yang tersedia untuk Aspose.Words untuk .NET?
-Ya, Anda bisa mendapatkan dukungan dari komunitas Aspose[Di Sini](https://forum.aspose.com/c/words/8).
+Ya, Anda bisa mendapatkan dukungan dari komunitas Aspose [Di Sini](https://forum.aspose.com/c/words/8).
 
 ### Bagaimana jika saya memerlukan lisensi sementara?
- Anda bisa mendapatkan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+Anda bisa mendapatkan lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

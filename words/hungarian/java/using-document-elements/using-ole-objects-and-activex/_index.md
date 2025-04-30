@@ -1,31 +1,33 @@
 ---
-title: OLE-objektumok és ActiveX-vezérlők használata az Aspose.Words for Java-ban
-linktitle: OLE-objektumok és ActiveX-vezérlők használata
-second_title: Aspose.Words Java Document Processing API
-description: Ismerje meg az OLE objektumok és ActiveX-vezérlők használatát az Aspose.Words for Java programban. Könnyedén hozhat létre interaktív dokumentumokat. Kezdje el most!
-weight: 21
-url: /hu/java/using-document-elements/using-ole-objects-and-activex/
+"description": "Tanuld meg az OLE objektumok és ActiveX vezérlők használatát az Aspose.Words for Java programban. Hozz létre interaktív dokumentumokat könnyedén. Kezdj hozzá most!"
+"linktitle": "OLE objektumok és ActiveX vezérlők használata"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "OLE objektumok és ActiveX vezérlők használata az Aspose.Words for Java programban"
+"url": "/hu/java/using-document-elements/using-ole-objects-and-activex/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OLE-objektumok és ActiveX-vezérlők használata az Aspose.Words for Java-ban
+# OLE objektumok és ActiveX vezérlők használata az Aspose.Words for Java programban
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan dolgozhatunk OLE (Object Linking and Embedding) objektumokkal és ActiveX-vezérlőkkel az Aspose.Words for Java programban. Az OLE-objektumok és az ActiveX-vezérlők hatékony eszközök, amelyek lehetővé teszik a dokumentumok fejlesztését külső tartalom, például táblázatok, multimédiás fájlok vagy interaktív vezérlők beágyazásával vagy összekapcsolásával. Kövesse a példákat a kódpéldákban, és tanulja meg, hogyan kell ezeket a funkciókat hatékonyan használni.
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan használhatók az OLE (Object Linking and Embedding) objektumok és az ActiveX vezérlők az Aspose.Words for Java programban. Az OLE objektumok és az ActiveX vezérlők hatékony eszközök, amelyek lehetővé teszik a dokumentumok minőségének javítását külső tartalmak, például táblázatok, multimédiás fájlok vagy interaktív vezérlők beágyazásával vagy csatolásával. Kövesd a kódpéldákat, és tanuld meg, hogyan használhatod hatékonyan ezeket a funkciókat.
 
 ### Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt belekezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-1.  Aspose.Words for Java : Győződjön meg arról, hogy az Aspose.Words könyvtár telepítve van a Java projektben. Letöltheti innen[itt](https://releases.aspose.com/words/java/).
+1. Aspose.Words Java-hoz: Győződjön meg róla, hogy az Aspose.Words könyvtár telepítve van a Java projektjében. Letöltheti innen: [itt](https://releases.aspose.com/words/java/).
 
-2. Java fejlesztői környezet: A rendszeren be kell állítani egy működő Java fejlesztői környezetet.
+2. Java fejlesztői környezet: Rendelkeznie kell egy működő Java fejlesztői környezettel a rendszerén.
 
 ### OLE objektum beszúrása
 
-Kezdjük egy OLE objektum beszúrásával egy Word dokumentumba. Létrehozunk egy egyszerű Word-dokumentumot, majd beillesztünk egy weboldalt képviselő OLE-objektumot.
+Kezdjük egy OLE objektum beszúrásával egy Word dokumentumba. Létrehozunk egy egyszerű Word dokumentumot, majd beszúrunk egy weboldalt reprezentáló OLE objektumot.
 
 ```java
 string outPath = "Your Output Directory";
@@ -33,16 +35,16 @@ public void insertOleObject() throws Exception
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
-    builder.insertOleObject("http://www.aspose.com", "htmlfile", true, true, null);
+    builder.insertOleObject("http://www.aspose.com", "htmlfile", igaz, igaz, null);
     doc.save("Your Directory Path" + "WorkingWithOleObjectsAndActiveX.InsertOleObject.docx");
 }
 ```
 
-Ebben a kódban létrehozunk egy új dokumentumot, és beillesztünk egy OLE objektumot, amely megjeleníti az Aspose webhelyet. Az URL-t lecserélheti a kívánt tartalomra.
+Ebben a kódban létrehozunk egy új dokumentumot, és beszúrunk egy OLE objektumot, amely megjeleníti az Aspose webhelyet. Az URL-t lecserélhetjük a kívánt tartalomra.
 
-### OLE objektum beszúrása OlePackage segítségével
+### OLE objektum beszúrása OlePackage használatával
 
-Ezután vizsgáljuk meg, hogyan lehet OLE-objektumot beszúrni az OlePackage használatával. Ez lehetővé teszi külső fájlok beágyazását OLE objektumként a dokumentumba.
+Következő lépésként nézzük meg, hogyan szúrhatunk be egy OLE objektumot egy OlePackage használatával. Ez lehetővé teszi külső fájlok beágyazását OLE objektumként a dokumentumba.
 
 ```java
 @Test
@@ -62,11 +64,11 @@ public void insertOleObjectWithOlePackage() throws Exception
 }
 ```
 
-Ebben a példában egy OlePackage használatával szúrunk be egy OLE objektumot, amely lehetővé teszi külső fájlok beágyazott objektumként való felvételét.
+Ebben a példában egy OLE objektumot illesztünk be egy OlePackage használatával, amely lehetővé teszi külső fájlok beágyazott objektumként való beillesztését.
 
 ### OLE objektum beszúrása ikonként
 
-Most nézzük meg, hogyan illeszthetünk be egy OLE objektumot ikonként. Ez akkor hasznos, ha egy beágyazott fájlt jelképező ikont szeretne megjeleníteni.
+Most nézzük meg, hogyan szúrhatunk be egy OLE objektumot ikonként. Ez akkor hasznos, ha egy beágyazott fájlt ábrázoló ikont szeretnénk megjeleníteni.
 
 ```java
 @Test
@@ -79,11 +81,11 @@ public void insertOleObjectAsIcon() throws Exception
 }
 ```
 
-Ebben a kódban egy OLE objektumot illesztünk be ikonként, amely a beágyazott tartalom tetszetősebb megjelenítését biztosítja.
+Ebben a kódban egy OLE objektumot illesztünk be ikonként, amely vizuálisan vonzóbbá teszi a beágyazott tartalmat.
 
-### Az ActiveX-vezérlő tulajdonságainak olvasása
+### ActiveX-vezérlő tulajdonságainak olvasása
 
-Most helyezzük át a hangsúlyt az ActiveX-vezérlőkre. Megtanuljuk, hogyan kell beolvasni az ActiveX-vezérlők tulajdonságait egy Word-dokumentumban.
+Most pedig térjünk át az ActiveX-vezérlőkre. Megtanuljuk, hogyan olvashatjuk be az ActiveX-vezérlők tulajdonságait egy Word-dokumentumban.
 
 ```java
 @Test
@@ -114,34 +116,39 @@ public void readActiveXControlProperties() throws Exception
 }
 ```
 
-Ebben a kódban egy Word-dokumentumban lévő alakzatokat iteráljuk, azonosítjuk az ActiveX-vezérlőket, és lekérjük azok tulajdonságait.
+Ebben a kódban végigmegyünk egy Word-dokumentum alakzatain, azonosítjuk az ActiveX-vezérlőket, és lekérjük azok tulajdonságait.
 
 ### Következtetés
 
-Gratulálok! Megtanulta, hogyan kell OLE-objektumokkal és ActiveX-vezérlőkkel dolgozni az Aspose.Words for Java programban. Ezek a funkciók a lehetőségek világát nyitják meg dinamikus és interaktív dokumentumok létrehozásához.
+Gratulálunk! Megtanultad, hogyan kell OLE objektumokkal és ActiveX vezérlőkkel dolgozni az Aspose.Words for Java programban. Ezek a funkciók a lehetőségek tárházát nyitják meg előtted dinamikus és interaktív dokumentumok létrehozására.
 
 ### GYIK
 
-### Mi a célja az OLE-objektumoknak egy Word-dokumentumban? 
-   - Az OLE-objektumok lehetővé teszik külső tartalom, például fájlok vagy weboldalak beágyazását vagy hivatkozását egy Word-dokumentumba.
+### Mi az OLE objektumok célja egy Word dokumentumban? 
+   - Az OLE objektumok lehetővé teszik külső tartalmak, például fájlok vagy weboldalak beágyazását vagy hivatkozását egy Word dokumentumba.
 
-### Testreszabhatom az OLE objektumok megjelenését a dokumentumban? 
-   - Igen, testreszabhatja az OLE-objektumok megjelenését, beleértve az ikonok és fájlnevek beállítását.
+### Testreszabhatom az OLE-objektumok megjelenését a dokumentumomban? 
+   - Igen, testreszabhatja az OLE-objektumok megjelenését, beleértve a beállításikonokat és a fájlneveket.
 
 ### Mik azok az ActiveX-vezérlők, és hogyan javíthatják a dokumentumaimat? 
-   - Az ActiveX-vezérlők olyan interaktív elemek, amelyek funkcionalitást adhatnak a Word-dokumentumokhoz, például űrlapvezérlők vagy multimédia-lejátszók.
+   - Az ActiveX-vezérlők interaktív elemek, amelyek funkciókat adhatnak a Word-dokumentumokhoz, például űrlapvezérlők vagy multimédia-lejátszók.
 
-### Az Aspose.Words for Java alkalmas vállalati szintű dokumentumautomatizálásra? 
-   - Igen, az Aspose.Words for Java egy hatékony könyvtár a dokumentumgenerálás és -kezelés automatizálására Java alkalmazásokban.
+### Alkalmas-e az Aspose.Words for Java vállalati szintű dokumentumautomatizálásra? 
+   - Igen, az Aspose.Words for Java egy hatékony könyvtár a dokumentumok generálásának és kezelésének automatizálására Java alkalmazásokban.
 
-### Hol férhetek hozzá az Aspose.Words for Java-hoz? 
-   -  Az Aspose.Words for Java letölthető innen:[itt](https://releases.aspose.com/words/java/).
+### Hol férhetek hozzá az Aspose.Words Java-hoz? 
+   - Az Aspose.Words Java-hoz letölthető innen: [itt](https://releases.aspose.com/words/java/).
 
-Kezdje el az Aspose.Words for Java használatát még ma, és aknázza ki a dokumentumok automatizálásában és testreszabásában rejlő lehetőségeket!
+Kezdje el az Aspose.Words for Java használatát még ma, és aknázza ki a dokumentumautomatizálás és -testreszabás teljes potenciálját!
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,32 +1,34 @@
 ---
-title: Χρήση πεδίων στο Aspose.Words για Java
-linktitle: Χρήση Πεδίων
-second_title: Aspose.Words Java Document Processing API
-description: Μάθετε να χρησιμοποιείτε αποτελεσματικά τα πεδία Aspose.Words για Java σε αυτό το βήμα προς βήμα σεμινάριο. Δημιουργήστε δυναμικά έγγραφα Word με ευκολία.
-weight: 11
-url: /el/java/using-document-elements/using-fields/
+"description": "Μάθετε να χρησιμοποιείτε αποτελεσματικά το Aspose.Words για πεδία Java σε αυτό το βήμα προς βήμα σεμινάριο. Δημιουργήστε δυναμικά έγγραφα Word με ευκολία."
+"linktitle": "Χρήση πεδίων"
+"second_title": "API επεξεργασίας εγγράφων Java Aspose.Words"
+"title": "Χρήση πεδίων στο Aspose.Words για Java"
+"url": "/el/java/using-document-elements/using-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Χρήση πεδίων στο Aspose.Words για Java
 
 
-Σε αυτό το βήμα προς βήμα σεμινάριο, θα σας καθοδηγήσουμε πώς να χρησιμοποιείτε πεδία στο Aspose.Words για Java για να χειρίζεστε έγγραφα με ευκολία. Το Aspose.Words για Java είναι ένα ισχυρό API που σας επιτρέπει να εργάζεστε με έγγραφα του Word μέσω προγραμματισμού, δίνοντάς σας πλήρη έλεγχο του περιεχομένου και της μορφοποίησής τους.
+Σε αυτό το βήμα προς βήμα σεμινάριο, θα σας καθοδηγήσουμε στον τρόπο χρήσης πεδίων στο Aspose.Words για Java για εύκολο χειρισμό εγγράφων. Το Aspose.Words για Java είναι ένα ισχυρό API που σας επιτρέπει να εργάζεστε με έγγραφα του Word μέσω προγραμματισμού, δίνοντάς σας πλήρη έλεγχο του περιεχομένου και της μορφοποίησής τους.
 
 ## 1. Εισαγωγή
 
-Το Aspose.Words για Java είναι ένα απαραίτητο εργαλείο για όσους ασχολούνται με έγγραφα του Word σε εφαρμογές Java. Τα πεδία είναι σύμβολα κράτησης θέσης που μπορούν να αποθηκεύσουν δυναμικά δεδομένα στο έγγραφό σας. Αυτό το σεμινάριο θα σας δείξει πώς να εργάζεστε αποτελεσματικά με πεδία.
+Το Aspose.Words για Java είναι ένα απαραίτητο εργαλείο για όποιον ασχολείται με έγγραφα Word σε εφαρμογές Java. Τα πεδία είναι σύμβολα κράτησης θέσης που μπορούν να αποθηκεύσουν δυναμικά δεδομένα στο έγγραφό σας. Αυτό το σεμινάριο θα σας δείξει πώς να εργάζεστε αποτελεσματικά με πεδία.
 
-## 2. Ρύθμιση του περιβάλλοντος σας
+## 2. Ρύθμιση του Περιβάλλοντός σας
 
- Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε εγκαταστήσει το Aspose.Words για Java. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/words/java/). Επίσης, βεβαιωθείτε ότι έχετε εγκαταστήσει στο σύστημά σας Java και ένα ολοκληρωμένο περιβάλλον ανάπτυξης (IDE) όπως το Eclipse ή το IntelliJ IDEA.
+Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε εγκαταστήσει το Aspose.Words για Java. Μπορείτε να το κατεβάσετε από [εδώ](https://releases.aspose.com/words/java/)Επίσης, βεβαιωθείτε ότι έχετε εγκαταστήσει στο σύστημά σας την Java και ένα ενσωματωμένο περιβάλλον ανάπτυξης (IDE) όπως το Eclipse ή το IntelliJ IDEA.
 
 ## 3. Φόρτωση εγγράφου Word
 
-Στην εφαρμογή Java, πρέπει να φορτώσετε το έγγραφο του Word με το οποίο θέλετε να εργαστείτε. Ακολουθεί ένα απόσπασμα κώδικα για να ξεκινήσετε:
+Στην εφαρμογή Java που χρησιμοποιείτε, πρέπει να φορτώσετε το έγγραφο του Word με το οποίο θέλετε να εργαστείτε. Ακολουθεί ένα απόσπασμα κώδικα για να ξεκινήσετε:
 
 ```java
 string dataDir = "Your Document Directory";
@@ -34,17 +36,17 @@ string outPath = "Your Output Directory";
 Document doc = new Document(dataDir + "Mail merge destinations - Fax.docx");
 ```
 
- Αντικαθιστώ`"Your Document Directory"` και`"Your Output Directory"` με τα κατάλληλα μονοπάτια.
+Αντικαθιστώ `"Your Document Directory"` και `"Your Output Directory"` με τις κατάλληλες διαδρομές.
 
-## 4. Προσαρμογή συγχώνευσης αλληλογραφίας
+## 4. Προσαρμογή της συγχώνευσης αλληλογραφίας
 
-Το Aspose.Words για Java παρέχει εξαιρετική υποστήριξη για λειτουργίες συγχώνευσης αλληλογραφίας. Μπορείτε να προσαρμόσετε τη διαδικασία συγχώνευσης αλληλογραφίας ρυθμίζοντας έναν χειριστή συμβάντων συγχώνευσης αλληλογραφίας. Δείτε πώς να το κάνετε:
+Το Aspose.Words για Java παρέχει εξαιρετική υποστήριξη για λειτουργίες συγχώνευσης αλληλογραφίας. Μπορείτε να προσαρμόσετε τη διαδικασία συγχώνευσης αλληλογραφίας ρυθμίζοντας έναν χειριστή συμβάντων συγχώνευσης αλληλογραφίας. Δείτε πώς μπορείτε να το κάνετε:
 
 ```java
-// Ρυθμίστε το πρόγραμμα χειρισμού συμβάντων συγχώνευσης αλληλογραφίας για να κάνετε την προσαρμοσμένη εργασία.
+// Ρυθμίστε τον χειριστή συμβάντων συγχώνευσης αλληλογραφίας για να κάνετε την προσαρμοσμένη εργασία.
 doc.getMailMerge().setFieldMergingCallback(new HandleMergeField());
 
-// Περικόψτε τις τιμές συγχώνευσης αλληλογραφίας στο τέλος και τα κορυφαία κενά.
+// Αποκοπή τιμών συγχώνευσης αλληλογραφίας στα τελικά και στα αρχικά κενά διαστήματα.
 doc.getMailMerge().setTrimWhitespaces(false);
 
 String[] fieldNames = {
@@ -68,16 +70,16 @@ doc.getMailMerge().execute(fieldNames, fieldValues);
 doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 ```
 
- Αντικαθιστώ`"Your Output Directory"` με την επιθυμητή διαδρομή εξόδου.
+Αντικαθιστώ `"Your Output Directory"` με την επιθυμητή διαδρομή εξόδου.
 
 ## Πλήρης Πηγαίος Κώδικας
 ```java
 string dataDir = "Your Document Directory";
 string outPath = "Your Output Directory";
 Document doc = new Document(dataDir + "Mail merge destinations - Fax.docx");
-// Ρυθμίστε το πρόγραμμα χειρισμού συμβάντων συγχώνευσης αλληλογραφίας για να κάνετε την προσαρμοσμένη εργασία.
+// Ρυθμίστε τον χειριστή συμβάντων συγχώνευσης αλληλογραφίας για να κάνετε την προσαρμοσμένη εργασία.
 doc.getMailMerge().setFieldMergingCallback(new HandleMergeField());
-// Περικόψτε τις τιμές συγχώνευσης αλληλογραφίας στο τέλος και τα κορυφαία κενά.
+// Αποκοπή τιμών συγχώνευσης αλληλογραφίας στα τελικά και στα αρχικά κενά διαστήματα.
 doc.getMailMerge().setTrimWhitespaces(false);
 String[] fieldNames = {
 	"RecipientName", "SenderName", "FaxNumber", "PhoneNumber",
@@ -90,23 +92,23 @@ Object[] fieldValues = {
 doc.getMailMerge().execute(fieldNames, fieldValues);
 doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 ```
-Πηγαίος κώδικας του Class HandleMergeField
+Πηγαίος κώδικας της κλάσης HandleMergeField
 
 ```java
     private static class HandleMergeField implements IFieldMergingCallback
     {
-        /// <περίληψη>
+        /// <σύνοψη>
         /// Αυτός ο χειριστής καλείται για κάθε πεδίο συγχώνευσης αλληλογραφίας που βρίσκεται στο έγγραφο,
         /// για κάθε εγγραφή που βρίσκεται στην πηγή δεδομένων.
-        /// </summary>
+        /// </σύνοψη>
         public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
         {
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
-            // Αποφασίσαμε ότι θέλουμε όλες οι τιμές boolean να εμφανίζονται ως πεδία φόρμας πλαισίου ελέγχου.
-            if (e.getFieldValue() instanceof /*boolean*/Boolean)
+            // Αποφασίσαμε ότι θέλουμε όλες οι λογικές τιμές να εμφανίζονται ως πεδία φόρμας πλαισίου ελέγχου.
+            if (e.getFieldValue() instanceof /*λογικό*/Boolean)
             {
-                // Μετακινήστε τον "δρομέα" στο τρέχον πεδίο συγχώνευσης.
+                // Μετακινήστε τον "κέρσορα" στο τρέχον πεδίο συγχώνευσης.
                 mBuilder.moveToMergeField(e.getFieldName());
                 String checkBoxName = MessageFormat.format("{0}{1}", e.getFieldName(), e.getRecordIndex());
                 mBuilder.insertCheckBox(checkBoxName, (Boolean) e.getFieldValue(), 0);
@@ -140,9 +142,12 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        builder.writeln("{{#foreach example}}");
-        builder.writeln("{{Image(126pt;126pt):stempel}}");
-        builder.writeln("{{/foreach example}}");
+        builder.writeln("
+{{#foreach example}}");
+        builder.writeln("
+{{Image(126pt;126pt):stempel}}");
+        builder.writeln("
+{{/foreach example}}");
         doc.getMailMerge().setUseNonMergeFields(true);
         doc.getMailMerge().setTrimWhitespaces(true);
         doc.getMailMerge().setUseWholeParagraphAsRegion(false);
@@ -158,7 +163,7 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
     {
         public void fieldMerging(FieldMergingArgs args)
         {
-            // Δεν απαιτείται εφαρμογή.
+            //  Η υλοποίηση δεν απαιτείται.
         }
         public void imageFieldMerging(ImageFieldMergingArgs args) throws Exception
         {
@@ -210,19 +215,19 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
         // Εισαγάγετε ένα MERGEFIELD ένθετο μέσα σε ένα πεδίο IF.
-        // Εφόσον η πρόταση πεδίου IF είναι ψευδής, το αποτέλεσμα του εσωτερικού MERGEFIELD δεν θα εμφανιστεί,
-        //και το MERGEFIELD δεν θα λάβει δεδομένα κατά τη συγχώνευση αλληλογραφίας.
+        // Δεδομένου ότι η εντολή πεδίου IF είναι ψευδής, το αποτέλεσμα του εσωτερικού MERGEFIELD δεν θα εμφανιστεί,
+        // και το MERGEFIELD δεν θα λάβει δεδομένα κατά τη διάρκεια μιας συγχώνευσης αλληλογραφίας.
         FieldIf fieldIf = (FieldIf)builder.insertField(" IF 1 = 2 ");
         builder.moveTo(fieldIf.getSeparator());
         builder.insertField(" MERGEFIELD  FullName ");
-        // Μπορούμε ακόμα να μετρήσουμε τα MERGEFIELD μέσα στα πεδία IF με ψευδή δήλωση εάν ορίσουμε αυτήν τη σημαία σε true.
+        // Μπορούμε ακόμα να μετρήσουμε τα MERGEFIELD μέσα σε πεδία IF με ψευδή δήλωση, αν ορίσουμε αυτήν τη σημαία σε true.
         doc.getMailMerge().setUnconditionalMergeFieldsAndRegions(true);
         DataTable dataTable = new DataTable();
         dataTable.getColumns().add("FullName");
         dataTable.getRows().add("James Bond");
         doc.getMailMerge().execute(dataTable);
         // Το αποτέλεσμα δεν θα είναι ορατό στο έγγραφο επειδή το πεδίο IF είναι ψευδές,
-        // αλλά το εσωτερικό MERGEFIELD έλαβε πράγματι δεδομένα.
+        // αλλά το εσωτερικό MERGEFIELD όντως έλαβε δεδομένα.
         doc.save("Your Directory Path" + "WorkingWithFields.MailMergeAndConditionalField.docx");
     }
     @Test
@@ -245,17 +250,17 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
     {
         public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs args)
         {
-            // Μην κάνετε τίποτα.
+            // Μην κάνεις τίποτα.
         }
-        /// <περίληψη>
-        /// Καλείται όταν η μηχανή συγχώνευσης αλληλογραφίας συναντά το πεδίο συγχώνευσης εικόνας:XXX στο έγγραφο.
+        /// <σύνοψη>
+        /// Αυτό καλείται όταν η μηχανή συγχώνευσης αλληλογραφίας συναντά το πεδίο συγχώνευσης Image:XXX στο έγγραφο.
         /// Έχετε την ευκαιρία να επιστρέψετε ένα αντικείμενο εικόνας, ένα όνομα αρχείου ή μια ροή που περιέχει την εικόνα.
-        /// </summary>
+        /// </σύνοψη>
         public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs e) throws Exception
         {
-            // Η τιμή του πεδίου είναι ένας πίνακας byte, απλώς μεταφέρετέ τον και δημιουργήστε μια ροή σε αυτόν.
+            // Η τιμή του πεδίου είναι ένας πίνακας byte, απλώς μετατρέψτε τον και δημιουργήστε μια ροή σε αυτόν.
             ByteArrayInputStream imageStream = new ByteArrayInputStream((byte[]) e.getFieldValue());
-            // Τώρα η μηχανή συγχώνευσης αλληλογραφίας θα ανακτήσει την εικόνα από τη ροή.
+            // Τώρα, η μηχανή συγχώνευσης αλληλογραφίας θα ανακτήσει την εικόνα από τη ροή.
             e.setImageStream(imageStream);
         }
     }
@@ -300,22 +305,22 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
     }
     private static class HandleMergeFieldAlternatingRows implements IFieldMergingCallback
     {
-        /// <περίληψη>
-        /// Καλείται για κάθε πεδίο συγχώνευσης που συναντάται στο έγγραφο.
-        /// Μπορούμε είτε να επιστρέψουμε κάποια δεδομένα στη μηχανή συγχώνευσης αλληλογραφίας είτε να κάνουμε κάτι άλλο με το έγγραφο.
-        /// Σε αυτήν την περίπτωση τροποποιούμε τη μορφοποίηση κελιών.
-        /// </summary>
+        /// <σύνοψη>
+        /// Κλήθηκε για κάθε πεδίο συγχώνευσης που συναντάται στο έγγραφο.
+        /// Μπορούμε είτε να επιστρέψουμε ορισμένα δεδομένα στη μηχανή συγχώνευσης αλληλογραφίας είτε να κάνουμε κάτι άλλο με το έγγραφο.
+        /// Σε αυτήν την περίπτωση τροποποιούμε τη μορφοποίηση των κελιών.
+        /// </σύνοψη>
         public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e)
         {
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
             if ("CompanyName".equals(e.getFieldName()))
             {
-                // Επιλέξτε το χρώμα ανάλογα με το αν ο αριθμός της σειράς είναι άρτιος ή μονός.
+                // Επιλέξτε το χρώμα ανάλογα με το αν ο αριθμός σειράς είναι ζυγός ή περιττός.
                 Color rowColor = isOdd(mRowIdx) 
                     ? new Color((213), (227), (235)) 
                     : new Color((242), (242), (242));
-                //Δεν υπάρχει τρόπος να ορίσουμε ιδιότητες κελιού για ολόκληρη τη σειρά αυτή τη στιγμή, επομένως πρέπει να κάνουμε επανάληψη σε όλα τα κελιά της σειράς.
+                // Δεν υπάρχει τρόπος να ορίσουμε ιδιότητες κελιών για ολόκληρη τη γραμμή αυτή τη στιγμή, επομένως πρέπει να επαναλάβουμε όλα τα κελιά της γραμμής.
                 for (int colIdx = 0; colIdx < 4; colIdx++)
                 {
                     mBuilder.moveToCell(0, mRowIdx, colIdx, 0);
@@ -326,22 +331,22 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
         }
         public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs args)
         {
-            // Μην κάνετε τίποτα.
+            // Μην κάνεις τίποτα.
         }
         private DocumentBuilder mBuilder;
         private int mRowIdx;
     }
-    /// <περίληψη>
-    /// Επιστρέφει true εάν η τιμή είναι περιττή. false αν η τιμή είναι άρτια.
-    /// </summary>
+    /// <σύνοψη>
+    /// Επιστρέφει true αν η τιμή είναι περιττή, false αν η τιμή είναι άρτια.
+    /// </σύνοψη>
     private static boolean isOdd(int value)
     {
         return (value / 2 * 2) == value;
     }
-    /// <περίληψη>
-    /// Δημιουργήστε DataTable και γεμίστε τον με δεδομένα.
-    /// Στην πραγματική ζωή, αυτός ο Πίνακας Δεδομένων θα πρέπει να συμπληρώνεται από μια βάση δεδομένων.
-    /// </summary>
+    /// <σύνοψη>
+    /// Δημιουργήστε έναν Πίνακα Δεδομένων και συμπληρώστε τον με δεδομένα.
+    /// Στην πραγματική ζωή, αυτός ο Πίνακας Δεδομένων θα πρέπει να συμπληρωθεί από μια βάση δεδομένων.
+    /// </σύνοψη>
     private DataTable getSuppliersDataTable()
     {
         DataTable dataTable = new DataTable("Suppliers");
@@ -361,31 +366,36 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 
 ## 6. Συμπέρασμα
 
-Συγχαρητήρια! Έχετε μάθει πώς να χρησιμοποιείτε πεδία στο Aspose.Words για Java για δυναμικό χειρισμό εγγράφων του Word. Αυτό το ισχυρό API σάς δίνει τον πλήρη έλεγχο των εγγράφων σας, καθιστώντας το πολύτιμο πλεονέκτημα για τους προγραμματιστές Java.
+Συγχαρητήρια! Μάθατε πώς να χρησιμοποιείτε πεδία στο Aspose.Words για Java για να χειρίζεστε δυναμικά έγγραφα του Word. Αυτό το ισχυρό API σάς δίνει πλήρη έλεγχο των εγγράφων σας, καθιστώντας το ένα πολύτιμο πλεονέκτημα για τους προγραμματιστές Java.
 
 ## 7. Συχνές ερωτήσεις
 
 ### Ε1: Πού μπορώ να κατεβάσω το Aspose.Words για Java;
- Μπορείτε να κάνετε λήψη του Aspose.Words για Java από[εδώ](https://releases.aspose.com/words/java/).
+Μπορείτε να κατεβάσετε το Aspose.Words για Java από [εδώ](https://releases.aspose.com/words/java/).
 
-### Ε2: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Words για Java;
- Μπορείτε να αποκτήσετε προσωρινή άδεια από[εδώ](https://purchase.aspose.com/temporary-license/).
+### Ε2: Πώς μπορώ να λάβω μια προσωρινή άδεια χρήσης για το Aspose.Words για Java;
+Μπορείτε να λάβετε προσωρινή άδεια από [εδώ](https://purchase.aspose.com/temporary-license/).
 
-### Ε3: Πού μπορώ να λάβω υποστήριξη για το Aspose.Words για Java;
- Για υποστήριξη, μπορείτε να επισκεφτείτε το φόρουμ Aspose.Words[εδώ](https://forum.aspose.com/).
+### Ε3: Πού μπορώ να βρω υποστήριξη για το Aspose.Words για Java;
+Για υποστήριξη, μπορείτε να επισκεφθείτε το φόρουμ Aspose.Words [εδώ](https://forum.aspose.com/).
 
-### Ε4: Είναι το Aspose.Words για Java κατάλληλο για χειρισμό περιεχομένου HTML σε έγγραφα του Word;
-Ναι, το Aspose.Words για Java παρέχει εξαιρετική υποστήριξη για τη διαχείριση περιεχομένου HTML σε έγγραφα του Word.
+### Ε4: Είναι το Aspose.Words για Java κατάλληλο για τον χειρισμό περιεχομένου HTML σε έγγραφα του Word;
+Ναι, το Aspose.Words για Java παρέχει εξαιρετική υποστήριξη για τον χειρισμό περιεχομένου HTML σε έγγραφα Word.
 
 ### Ε5: Μπορώ να χρησιμοποιήσω το Aspose.Words για Java δωρεάν;
- Το Aspose.Words for Java είναι ένα εμπορικό προϊόν, αλλά μπορείτε να εξερευνήσετε τις δυνατότητές του με μια δωρεάν δοκιμή διαθέσιμη[εδώ](https://releases.aspose.com/).
+Το Aspose.Words για Java είναι ένα εμπορικό προϊόν, αλλά μπορείτε να εξερευνήσετε τις δυνατότητές του με μια δωρεάν δοκιμαστική έκδοση που είναι διαθέσιμη. [εδώ](https://releases.aspose.com/).
 
-Ξεκινήστε με το Aspose.Words για Java σήμερα και αποκτήστε τον έλεγχο των εγγράφων του Word όπως ποτέ άλλοτε!
+Ξεκινήστε με το Aspose.Words για Java σήμερα και αποκτήστε τον έλεγχο των εγγράφων του Word σας όπως ποτέ άλλοτε!
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

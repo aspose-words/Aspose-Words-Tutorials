@@ -1,14 +1,16 @@
 ---
-title: Укажите локаль на уровне поля
-linktitle: Укажите локаль на уровне поля
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как указать локаль для полей в документах Word с помощью Aspose.Words for .NET. Следуйте нашему руководству, чтобы легко настроить форматирование документа.
-weight: 10
-url: /ru/net/working-with-fields/specify-locale-at-field-level/
+"description": "Узнайте, как указать локаль для полей в документах Word с помощью Aspose.Words for .NET. Следуйте нашему руководству, чтобы легко настроить форматирование документа."
+"linktitle": "Укажите локаль на уровне поля"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Укажите локаль на уровне поля"
+"url": "/ru/net/working-with-fields/specify-locale-at-field-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Укажите локаль на уровне поля
@@ -21,10 +23,10 @@ url: /ru/net/working-with-fields/specify-locale-at-field-level/
 
 Прежде чем перейти к коду, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия. Вы можете загрузить ее[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия. Вы можете загрузить ее [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая другая среда разработки .NET.
 3. Базовые знания C#: знакомство с программированием на C# поможет вам разобраться в примерах.
-4. Лицензия Aspose: Если у вас нет лицензии, вы можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/) чтобы опробовать все функции.
+4. Лицензия Aspose: Если у вас нет лицензии, вы можете получить [временная лицензия](https://purchase.aspose.com/temporary-license/) чтобы опробовать все функции.
 
 ## Импорт пространств имен
 
@@ -47,11 +49,11 @@ using Aspose.Words.Fields;
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 ```
 
- Заменять`"YOUR_DOCUMENT_DIRECTORY"` с фактическим путем к вашему каталогу.
+Заменять `"YOUR_DOCUMENT_DIRECTORY"` с фактическим путем к вашему каталогу.
 
 ## Шаг 2: Инициализация DocumentBuilder
 
- Далее мы создадим новый экземпляр`DocumentBuilder`. Это как ручка и бумага для создания и редактирования документа Word.
+Далее мы создадим новый экземпляр `DocumentBuilder`. Это как ручка и бумага для создания и редактирования документа Word.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
@@ -67,7 +69,7 @@ Field field = builder.InsertField(FieldType.FieldDate, true);
 
 ## Шаг 4: Укажите локаль
 
- Вот и магия! Мы установим локаль для поля. Идентификатор локали`1049`соответствует русскому языку. Это означает, что наше поле даты будет соответствовать правилам форматирования на русском языке.
+Вот и магия! Мы установим локаль для поля. Идентификатор локали `1049` соответствует русскому языку. Это означает, что наше поле даты будет соответствовать правилам форматирования на русском языке.
 
 ```csharp
 field.LocaleId = 1049;
@@ -101,14 +103,19 @@ builder.Document.Save(dataDir + "WorkingWithFields.SpecifyLocaleAtFieldLevel.doc
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?
 
- Хотя вы можете использовать Aspose.Words для .NET без лицензии в ознакомительном режиме, рекомендуется получить[лицензия](https://purchase.aspose.com/buy) чтобы разблокировать полную функциональность.
+Хотя вы можете использовать Aspose.Words для .NET без лицензии в ознакомительном режиме, рекомендуется получить [лицензия](https://purchase.aspose.com/buy) чтобы разблокировать полную функциональность.
 
 ### Как обновить библиотеку Aspose.Words до последней версии?
 
- Вы можете загрузить последнюю версию Aspose.Words для .NET с сайта[страница загрузки](https://releases.aspose.com/words/net/).
+Вы можете загрузить последнюю версию Aspose.Words для .NET с сайта [страница загрузки](https://releases.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

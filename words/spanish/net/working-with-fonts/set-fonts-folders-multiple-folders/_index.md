@@ -63,7 +63,7 @@ Este `FontSettings` El objeto nos ayudará a definir qué carpetas de fuentes ut
 
 ## Paso 3: Establecer carpetas de fuentes
 
-Ahora viene la parte crucial: configurar las carpetas de fuentes. Aquí se especifican los directorios donde se encuentran las fuentes. En este ejemplo, tenemos las fuentes en "C:\\MisFuentes" y "D:\\Misc\\Fuentes".
+Ahora viene la parte crucial: configurar las carpetas de fuentes. Aquí se especifican los directorios donde se almacenan las fuentes. En este ejemplo, tenemos las fuentes en "C:\MyFonts" y "D:\Misc\Fonts".
 
 ```csharp
 fontSettings.SetFontsFolders(new[] { @"C:\MyFonts\", @"D:\Misc\Fonts\" }, true);

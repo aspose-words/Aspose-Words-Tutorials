@@ -1,14 +1,16 @@
 ---
-title: Bekerja dengan Daftar Dokumen
-linktitle: Bekerja dengan Daftar Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara bekerja dengan daftar dokumen di Java menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah ini mencakup contoh kode sumber untuk manipulasi dokumen yang efisien.
-weight: 11
-url: /id/java/table-processing/working-with-document-lists/
+"description": "Pelajari cara bekerja dengan daftar dokumen di Java menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah ini mencakup contoh kode sumber untuk manipulasi dokumen yang efisien."
+"linktitle": "Bekerja dengan Daftar Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Bekerja dengan Daftar Dokumen"
+"url": "/id/java/table-processing/working-with-document-lists/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bekerja dengan Daftar Dokumen
@@ -105,7 +107,7 @@ Dalam panduan lengkap ini, kami telah menjelajahi dunia kerja dengan daftar doku
 ## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara menambahkan poin-poin penting ke daftar dokumen?
- Untuk menambahkan poin-poin penting ke daftar dokumen, gunakan ListTemplate yang sesuai saat membuat daftar. Misalnya, gunakan`ListTemplate.BULLET_DEFAULT` alih-alih`ListTemplate.NUMBER_DEFAULT`.
+Untuk menambahkan poin-poin penting ke daftar dokumen, gunakan ListTemplate yang sesuai saat membuat daftar. Misalnya, gunakan `ListTemplate.BULLET_DEFAULT` alih-alih `ListTemplate.NUMBER_DEFAULT`.
 
 ### Bisakah saya mengubah format item daftar?
 Ya, Anda dapat menyesuaikan pemformatan item daftar, termasuk font, ukuran, warna, dan lainnya, menggunakan fitur pemformatan Aspose.Words untuk Java.
@@ -118,9 +120,14 @@ Untuk mengonversi daftar dokumen ke PDF, cukup muat dokumen menggunakan Aspose.W
 
 ### Apakah Aspose.Words untuk Java mendukung penggunaan tabel dalam dokumen?
 Ya, Aspose.Words untuk Java menyediakan dukungan luas untuk bekerja dengan tabel, memungkinkan Anda membuat, memodifikasi, dan mengekstrak data tabular dengan mudah.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,40 +1,44 @@
 ---
-title: Maak een document met grafieken met behulp van Aspose.Words voor .NET
-weight: 7700
-limit: 
-description: Leer hoe je een Word-document met grafieken kunt maken, Y-as-grens aan te passen en als DOCX te bewaren met behulp van Aspose.Words voor .NET met stapsgewijze instructies.
-keywords: [Aspose.Words for .NET, create chart in Word, customize Y-axis, DOCX chart creation, Word document chart tutorial, .NET Word chart example]
-url: /nl/net/working-with-charts/bounds-of-axis/
+"description": "Leer hoe u een Word-document met grafieken maakt, Y-asgrenzen aanpast en opslaat als DOCX met Aspose.Words voor .NET, met stapsgewijze instructies."
+"title": "Een document met grafieken maken met Aspose.Words voor .NET"
+"url": "/nl/net/working-with-charts/bounds-of-axis/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Maak een document met kaarten met behulp van Aspose.Words
+# Een document met grafieken maken met Aspose.Words
 
-Deze handleiding toont hoe je een Word-document met een grafiek kunt maken met behulp van Aspose.Words voor .NET. Je leert een kolomgrafiek in te voeren, bestaande series te verwijderen, nieuwe gegevens toe te voegen en de Y-as grenzen aan te passen. Met stappen-voor-stappen instructies, waaronder initialisatie, gegevensmanipulatie en het opslaan van het document als een DOCX-bestand, vereenvoudigt deze gids het werken met grafieken in Aspose.Words voor .NET. Of je nu professionele rapporten of dynamische datavisualisaties ontwikkelt, dit voorbeeld helpt je moeiteloos te beginnen.
+Deze tutorial laat zien hoe je een Word-document met een grafiek maakt met Aspose.Words voor .NET. Je leert hoe je een kolomdiagram invoegt, bestaande reeksen wist, nieuwe gegevens toevoegt en de grenzen van de Y-as aanpast. Met stapsgewijze instructies, inclusief initialisatie, gegevensbewerking en het opslaan van het document als een DOCX-bestand, vereenvoudigt deze handleiding het werken met grafieken in Aspose.Words voor .NET. Of je nu professionele rapporten of dynamische datavisualisaties ontwikkelt, dit voorbeeld helpt je moeiteloos aan de slag te gaan.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/bounds-of-axis" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installatie-instructies  
 
 1. Download Aspose.Words voor .NET  
-   Krijg de nieuwste versie van Aspose.Words voor .NET van de [officiële downloadpagina](https://releases.aspose.com/words/net/)\- Ik heb het niet gedaan .  
+   Download de nieuwste versie van Aspose.Words voor .NET van de [officiële downloadpagina](https://releases.aspose.com/words/net/).  
 
-2. Installeer via NuGet Package Manager  
-   * Open je project in Visual Studio.  
-   * Ga naar Tools > NuGet Pakket Manager > NuGet Pakketten beheren voor Solution.  
-   * Zoek naar `Aspose.Words`in het tabblad Browse.  
-   * Selecteer het pakket en klik op Installeer.  
+2. Installeren via NuGet Package Manager  
+   - Open uw project in Visual Studio.  
+   - Ga naar Extra > NuGet Package Manager > NuGet-pakketten beheren voor oplossing.  
+   - Zoeken naar `Aspose.Words` in het tabblad Bladeren.  
+   - Selecteer het pakket en klik op Installeren.  
 
-3. Voeg een licentie toe _(Voorkeurig)_  
-   * Als u een vergunning heeft, kunt u deze in uw project toepassen.[Hoe een vergunning kan worden aangevraagd](https://purchase.aspose.com/temporary-license/)\- Ik heb het niet gedaan .  
+3. Licentie toevoegen *(Optioneel)*  
+   - Als u een licentie heeft, kunt u deze in uw project toepassen. Voor meer informatie, bezoek [hoe een licentie aanvragen](https://purchase.aspose.com/temporary-license/).  
 
-4. Name-ruimtes opnemen  
-   Zorg ervoor dat u de nodige naamruimtes toevoegt aan uw `.cs`\- de bestanden:  
+4. Inclusief naamruimten  
+   Zorg ervoor dat u de benodigde naamruimten toevoegt aan uw `.cs` bestand:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
@@ -43,9 +47,13 @@ Deze handleiding toont hoe je een Word-document met een grafiek kunt maken met b
 
 ## Zie ook
 [Aspose.Word voor .NET-documentatie](https://docs.aspose.com/words/net/)
-[Aspose.Word voor .NET Referenties](https://reference.aspose.com/words/net/)
+[Aspose.Word voor .NET-referenties](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

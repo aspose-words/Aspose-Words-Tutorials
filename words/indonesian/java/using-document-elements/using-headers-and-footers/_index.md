@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Header dan Footer di Aspose.Words untuk Java
-linktitle: Menggunakan Header dan Footer
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari langkah demi langkah cara menggunakan header dan footer di Aspose.Words untuk Java. Buat dokumen profesional dengan mudah.
-weight: 16
-url: /id/java/using-document-elements/using-headers-and-footers/
+"description": "Pelajari langkah demi langkah cara menggunakan header dan footer di Aspose.Words untuk Java. Buat dokumen profesional dengan mudah."
+"linktitle": "Menggunakan Header dan Footer"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Header dan Footer di Aspose.Words untuk Java"
+"url": "/id/java/using-document-elements/using-headers-and-footers/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Header dan Footer di Aspose.Words untuk Java
@@ -24,7 +26,7 @@ Aspose.Words adalah API Java yang hebat yang memungkinkan Anda membuat, memanipu
 
 ## 2. Menyiapkan Lingkungan Java Anda
 
- Sebelum Anda mulai menggunakan Aspose.Words, pastikan Anda telah menyiapkan lingkungan pengembangan Java dengan benar. Anda dapat menemukan petunjuk penyiapan yang diperlukan di halaman dokumentasi Aspose.Words:[Dokumentasi Java Aspose.Words](https://reference.aspose.com/words/java/).
+Sebelum Anda mulai menggunakan Aspose.Words, pastikan Anda telah menyiapkan lingkungan pengembangan Java dengan benar. Anda dapat menemukan petunjuk penyiapan yang diperlukan di halaman dokumentasi Aspose.Words: [Dokumentasi Java Aspose.Words](https://reference.aspose.com/words/java/).
 
 ## 3. Membuat Dokumen Baru
 
@@ -39,7 +41,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## 4. Memahami Pengaturan Halaman
 
- Pengaturan halaman sangat penting untuk mengendalikan tata letak dokumen Anda. Anda dapat menentukan berbagai properti yang terkait dengan header dan footer menggunakan`PageSetup` kelas. Misalnya:
+Pengaturan halaman sangat penting untuk mengendalikan tata letak dokumen Anda. Anda dapat menentukan berbagai properti yang terkait dengan header dan footer menggunakan `PageSetup` kelas. Misalnya:
 
 ```java
 // Menyiapkan properti halaman
@@ -51,13 +53,13 @@ pageSetup.setHeaderDistance(20.0);
 
 ## 5. Header/Footer Halaman Pertama yang Berbeda
 
-Aspose.Words memungkinkan Anda memiliki header dan footer yang berbeda untuk halaman pertama dokumen Anda. Gunakan`pageSetup.setDifferentFirstPageHeaderFooter(true);` untuk mengaktifkan fitur ini.
+Aspose.Words memungkinkan Anda memiliki header dan footer yang berbeda untuk halaman pertama dokumen Anda. Gunakan `pageSetup.setDifferentFirstPageHeaderFooter(true);` untuk mengaktifkan fitur ini.
 
 ## 6. Bekerja dengan Header
 
 ### 6.1. Menambahkan Teks ke Header
 
- Anda dapat menambahkan teks ke header menggunakan`DocumentBuilder`Berikut ini contohnya:
+Anda dapat menambahkan teks ke header menggunakan `DocumentBuilder`Berikut ini contohnya:
 
 ```java
 // Menambahkan teks ke header halaman pertama
@@ -71,7 +73,7 @@ builder.write("Aspose.Words Header/Footer Creation Primer - Title Page.");
 
 ### 6.2. Memasukkan Gambar ke dalam Header
 
- Untuk memasukkan gambar ke dalam header, Anda dapat menggunakan`insertImage` metode. Berikut contohnya:
+Untuk memasukkan gambar ke dalam header, Anda dapat menggunakan `insertImage` metode. Berikut contohnya:
 
 ```java
 // Memasukkan gambar ke dalam header
@@ -87,7 +89,7 @@ Anda dapat menyesuaikan gaya header dengan mengatur berbagai properti seperti fo
 
 ### 7.1. Menambahkan Teks ke Footer
 
- Mirip dengan header, Anda dapat menambahkan teks ke footer menggunakan`DocumentBuilder`Berikut ini contohnya:
+Mirip dengan header, Anda dapat menambahkan teks ke footer menggunakan `DocumentBuilder`Berikut ini contohnya:
 
 ```java
 // Menambahkan teks ke footer utama
@@ -97,15 +99,15 @@ builder.moveToHeaderFooter(HeaderFooterType.FOOTER_PRIMARY);
 
 ### 7.2. Memasukkan Gambar ke Footer
 
- Untuk memasukkan gambar ke dalam footer, gunakan`insertImage` metode, sama seperti pada header.
+Untuk memasukkan gambar ke dalam footer, gunakan `insertImage` metode, sama seperti pada header.
 
 ### 7.3. Menyesuaikan Gaya Footer
 
- Sesuaikan gaya footer menggunakan`DocumentBuilder`mirip dengan penyesuaian header.
+Sesuaikan gaya footer menggunakan `DocumentBuilder`, mirip dengan penyesuaian header.
 
 ## 8. Penomoran Halaman
 
- Anda dapat menyertakan nomor halaman di header dan footer Anda menggunakan bidang seperti`PAGE` Dan`NUMPAGES`Kolom ini otomatis diperbarui saat Anda menambahkan atau menghapus halaman.
+Anda dapat menyertakan nomor halaman di header dan footer Anda menggunakan bidang seperti `PAGE` Dan `NUMPAGES`Kolom ini otomatis diperbarui saat Anda menambahkan atau menghapus halaman.
 
 ## 9. Informasi Hak Cipta di Footer
 
@@ -125,7 +127,7 @@ Menyalin header dan footer dari bagian sebelumnya dapat menghemat waktu saat mem
 
 ## 13. Menyimpan Dokumen Anda
 
-Setelah membuat dan menyesuaikan dokumen Anda, jangan lupa untuk menyimpannya menggunakan`doc.save()` metode.
+Setelah membuat dan menyesuaikan dokumen Anda, jangan lupa untuk menyimpannya menggunakan `doc.save()` metode.
 
 ## Kode Sumber Lengkap
 ```java
@@ -147,7 +149,7 @@ Setelah membuat dan menyesuaikan dokumen Anda, jangan lupa untuk menyimpannya me
         pageSetup.setHeaderDistance(20.0);
         builder.moveToHeaderFooter(HeaderFooterType.HEADER_PRIMARY);
         // Sisipkan gambar yang diposisikan ke sudut atas/kiri header.
-        // Jarak dari tepi atas/kiri halaman ditetapkan sebesar 10 poin.
+        // Jarak dari tepi atas/kiri halaman ditetapkan ke 10 poin.
         builder.insertImage(getImagesDir() + "Graphics Interchange Format.gif", RelativeHorizontalPosition.PAGE, 10.0,
             RelativeVerticalPosition.PAGE, 10.0, 50.0, 50.0, WrapType.THROUGH);
         builder.getParagraphFormat().setAlignment(ParagraphAlignment.RIGHT);
@@ -179,7 +181,7 @@ Setelah membuat dan menyesuaikan dokumen Anda, jangan lupa untuk menyimpannya me
         pageSetup = currentSection.getPageSetup();
         pageSetup.setOrientation(Orientation.LANDSCAPE);
         // Bagian ini tidak memerlukan header/footer halaman pertama yang berbeda, kita hanya memerlukan satu halaman judul dalam dokumen,
-        //dan header/footer untuk halaman ini telah didefinisikan di bagian sebelumnya.
+        // dan header/footer untuk halaman ini telah ditetapkan di bagian sebelumnya.
         pageSetup.setDifferentFirstPageHeaderFooter(false);
         // Bagian ini menampilkan header/footer dari bagian sebelumnya
         // secara default memanggil currentSection.HeadersFooters.LinkToPrevious(false) untuk membatalkan lebar halaman ini
@@ -187,7 +189,7 @@ Setelah membuat dan menyesuaikan dokumen Anda, jangan lupa untuk menyimpannya me
         currentSection.getHeadersFooters().linkToPrevious(false);
         // Jika kita ingin menggunakan set header/footer yang sudah ada untuk bagian ini.
         // Namun dengan beberapa modifikasi kecil, maka mungkin lebih bijaksana untuk menyalin header/footer
-        // dari bagian sebelumnya dan menerapkan modifikasi yang diperlukan saat kita menginginkannya.
+        // dari bagian sebelumnya dan menerapkan modifikasi yang diperlukan di tempat yang kita inginkan.
         copyHeadersFootersFromPreviousSection(currentSection);
         HeaderFooter primaryFooter = currentSection.getHeadersFooters().getByHeaderFooterType(HeaderFooterType.FOOTER_PRIMARY);
         Row row = primaryFooter.getTables().get(0).getFirstRow();
@@ -198,7 +200,7 @@ Setelah membuat dan menyesuaikan dokumen Anda, jangan lupa untuk menyimpannya me
 Kode sumber metode copyHeadersFootersFromPreviousSection
 ```java
     /// <ringkasan>
-    /// Mengkloning dan menyalin header/footer dari bagian sebelumnya ke bagian yang ditentukan.
+    //Mengkloning dan menyalin header/footer dari bagian sebelumnya ke bagian yang ditentukan.
     /// </ringkasan>
     private void copyHeadersFootersFromPreviousSection(Section section)
     {
@@ -215,12 +217,12 @@ Kode sumber metode copyHeadersFootersFromPreviousSection
 
 Dalam tutorial ini, kami telah membahas dasar-dasar bekerja dengan header dan footer di Aspose.Words untuk Java. Anda telah mempelajari cara membuat, menyesuaikan, dan memberi gaya pada header dan footer, serta teknik pemformatan dokumen penting lainnya.
 
- Untuk rincian lebih lanjut dan fitur lanjutan, lihat[Dokumentasi Java Aspose.Words](https://reference.aspose.com/words/java/).
+Untuk rincian lebih lanjut dan fitur lanjutan, lihat [Dokumentasi Java Aspose.Words](https://reference.aspose.com/words/java/).
 
 ## Tanya Jawab Umum
 
 ### 1. Bagaimana cara menambahkan nomor halaman ke footer dokumen saya?
- Anda dapat menambahkan nomor halaman dengan memasukkan`PAGE` bidang ke footer menggunakan Aspose.Words.
+Anda dapat menambahkan nomor halaman dengan memasukkan `PAGE` bidang ke footer menggunakan Aspose.Words.
 
 ### 2. Apakah Aspose.Words kompatibel dengan lingkungan pengembangan Java?
 Ya, Aspose.Words menyediakan dukungan untuk pengembangan Java. Pastikan Anda telah menyiapkan pengaturan yang diperlukan.
@@ -229,13 +231,18 @@ Ya, Aspose.Words menyediakan dukungan untuk pengembangan Java. Pastikan Anda tel
 Tentu saja, Anda dapat menyesuaikan font, perataan, dan gaya lainnya untuk membuat header dan footer Anda menarik secara visual.
 
 ### 4. Apakah mungkin untuk memiliki tajuk yang berbeda untuk halaman ganjil dan genap?
- Ya, Anda bisa menggunakannya`PageSetup.OddAndEvenPagesHeaderFooter` untuk menentukan tajuk yang berbeda untuk halaman ganjil dan genap.
+Ya, Anda bisa menggunakannya `PageSetup.OddAndEvenPagesHeaderFooter` untuk menentukan tajuk yang berbeda untuk halaman ganjil dan genap.
 
 ### 5. Bagaimana cara memulai dengan Aspose.Words untuk Java?
- Untuk memulai, kunjungi[Dokumentasi Java Aspose.Words](https://reference.aspose.com/words/java/) untuk panduan lengkap tentang penggunaan API.
+Untuk memulai, kunjungi [Dokumentasi Java Aspose.Words](https://reference.aspose.com/words/java/) untuk panduan lengkap tentang penggunaan API.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

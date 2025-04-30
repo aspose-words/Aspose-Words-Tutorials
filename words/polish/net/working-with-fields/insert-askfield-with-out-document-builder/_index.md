@@ -1,14 +1,16 @@
 ---
-title: Wstaw ASKField bez Document Builder
-linktitle: Wstaw ASKField bez Document Builder
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawić pole ASK bez użycia Document Builder w Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem, aby dynamicznie ulepszyć swoje dokumenty Word.
-weight: 10
-url: /pl/net/working-with-fields/insert-askfield-with-out-document-builder/
+"description": "Dowiedz się, jak wstawić pole ASK bez użycia Document Builder w Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem, aby dynamicznie ulepszyć swoje dokumenty Word."
+"linktitle": "Wstaw ASKField bez Document Builder"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw ASKField bez Document Builder"
+"url": "/pl/net/working-with-fields/insert-askfield-with-out-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw ASKField bez Document Builder
@@ -21,7 +23,7 @@ Chcesz opanować automatyzację dokumentów za pomocą Aspose.Words dla .NET? Je
 
 Zanim zaczniemy pisać kod, upewnijmy się, że wszystko jest skonfigurowane:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną tę bibliotekę. Jeśli nie, możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną tę bibliotekę. Jeśli nie, możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: odpowiednie środowisko IDE, np. Visual Studio.
 3. .NET Framework: Upewnij się, że masz zainstalowany .NET Framework.
 
@@ -119,17 +121,22 @@ Pole ASK w Aspose.Words to pole, które wyświetla użytkownikowi monit o podani
 ### Czy mogę używać wielu pól ASK w jednym dokumencie?
 Tak, w jednym dokumencie można umieścić wiele pól ASK, każde z unikalnymi monitami i odpowiedziami.
 
-###  Jaki jest cel`PromptOnceOnMailMerge` property?
- Ten`PromptOnceOnMailMerge` Właściwość ta określa, czy monit ASK pojawia się tylko raz podczas operacji korespondencji seryjnej, czy za każdym razem.
+### Jaki jest cel `PromptOnceOnMailMerge` nieruchomość?
+Ten `PromptOnceOnMailMerge` Właściwość ta określa, czy monit ASK pojawia się tylko raz podczas operacji korespondencji seryjnej, czy za każdym razem.
 
 ### Czy muszę aktualizować pole ASK po ustawieniu jego właściwości?
 Tak, aktualizacja pola ASK zapewnia, że wszystkie właściwości zostaną poprawnie zastosowane, a pole będzie działało zgodnie z oczekiwaniami.
 
 ### Czy mogę dostosować tekst komunikatu i domyślną odpowiedź?
 Oczywiście! Możesz ustawić niestandardowy tekst monitu i domyślne odpowiedzi, aby dostosować pole ASK do swoich konkretnych potrzeb.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

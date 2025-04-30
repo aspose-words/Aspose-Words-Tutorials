@@ -1,14 +1,16 @@
 ---
-title: Укажите шрифт по умолчанию при рендеринге
-linktitle: Укажите шрифт по умолчанию при рендеринге
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как указать шрифт по умолчанию при рендеринге документов Word с помощью Aspose.Words для .NET. Обеспечьте единообразный вид документа на разных платформах.
-weight: 10
-url: /ru/net/working-with-fonts/specify-default-font-when-rendering/
+"description": "Узнайте, как указать шрифт по умолчанию при рендеринге документов Word с помощью Aspose.Words для .NET. Обеспечьте единообразный вид документа на разных платформах."
+"linktitle": "Укажите шрифт по умолчанию при рендеринге"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Укажите шрифт по умолчанию при рендеринге"
+"url": "/ru/net/working-with-fonts/specify-default-font-when-rendering/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Укажите шрифт по умолчанию при рендеринге
@@ -21,7 +23,7 @@ url: /ru/net/working-with-fonts/specify-default-font-when-rendering/
 
 Прежде чем погрузиться в код, давайте рассмотрим, что вам понадобится для выполнения этого руководства:
 
-- Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия. Вы можете загрузить ее[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия. Вы можете загрузить ее [здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: Visual Studio или любая другая среда разработки .NET.
 - Базовые знания C#: в этом руководстве предполагается, что вы хорошо разбираетесь в программировании на C#.
 
@@ -55,7 +57,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Шаг 3: Настройте параметры шрифта
 
- Создать экземпляр`FontSettings` и указать шрифт по умолчанию. Если определенный шрифт не может быть найден во время рендеринга, Aspose.Words будет использовать ближайший доступный шрифт на машине.
+Создать экземпляр `FontSettings` и указать шрифт по умолчанию. Если определенный шрифт не может быть найден во время рендеринга, Aspose.Words будет использовать ближайший доступный шрифт на машине.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -92,16 +94,21 @@ doc.Save(dataDir + "WorkingWithFonts.SpecifyDefaultFontWhenRendering.pdf");
 Aspose.Words будет использовать ближайший доступный на компьютере шрифт, чтобы максимально точно сохранить внешний вид документа.
 
 ### Могу ли я указать несколько шрифтов по умолчанию?
- Нет, вы можете указать только один шрифт по умолчанию. Однако вы можете управлять заменой шрифта для определенных случаев с помощью`FontSettings` сорт.
+Нет, вы можете указать только один шрифт по умолчанию. Однако вы можете управлять заменой шрифта для определенных случаев с помощью `FontSettings` сорт.
 
 ### Совместим ли Aspose.Words for .NET со всеми версиями документов Word?
 Да, Aspose.Words для .NET поддерживает широкий спектр форматов документов Word, включая DOC, DOCX, RTF и другие.
 
 ### Где я могу получить поддержку, если у меня возникнут проблемы?
- Вы можете получить поддержку от сообщества Aspose и разработчиков на[Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от сообщества Aspose и разработчиков на [Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

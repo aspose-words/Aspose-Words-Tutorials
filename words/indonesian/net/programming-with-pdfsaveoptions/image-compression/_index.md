@@ -1,14 +1,16 @@
 ---
-title: Kompresi Gambar dalam Dokumen PDF
-linktitle: Kompresi Gambar dalam Dokumen PDF
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengompres gambar dalam dokumen PDF menggunakan Aspose.Words untuk .NET. Ikuti panduan ini untuk mengoptimalkan ukuran dan kualitas file.
-weight: 10
-url: /id/net/programming-with-pdfsaveoptions/image-compression/
+"description": "Pelajari cara mengompres gambar dalam dokumen PDF menggunakan Aspose.Words untuk .NET. Ikuti panduan ini untuk mengoptimalkan ukuran dan kualitas file."
+"linktitle": "Kompresi Gambar dalam Dokumen PDF"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Kompresi Gambar dalam Dokumen PDF"
+"url": "/id/net/programming-with-pdfsaveoptions/image-compression/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kompresi Gambar dalam Dokumen PDF
@@ -21,7 +23,7 @@ Di era digital saat ini, mengelola ukuran dokumen sangat penting untuk kinerja d
 
 Sebelum memulai tutorial, pastikan Anda memiliki prasyarat berikut:
 
-1. Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Situs web Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Situs web Aspose](https://releases.aspose.com/words/net/).
 
 2. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami contoh kode yang disediakan dalam tutorial ini.
 
@@ -29,7 +31,7 @@ Sebelum memulai tutorial, pastikan Anda memiliki prasyarat berikut:
 
 4. Contoh Dokumen: Siapkan contoh dokumen Word (misalnya, "Rendering.docx") untuk menguji kompresi gambar.
 
-5. Lisensi Aspose: Jika Anda menggunakan versi berlisensi Aspose.Words untuk .NET, pastikan Anda telah mengonfigurasi lisensi dengan benar. Jika Anda memerlukan lisensi sementara, Anda dapat memperolehnya dari[Halaman lisensi sementara Aspose](https://purchase.aspose.com/temporary-license/).
+5. Lisensi Aspose: Jika Anda menggunakan versi berlisensi Aspose.Words untuk .NET, pastikan Anda telah mengonfigurasi lisensi dengan benar. Jika Anda memerlukan lisensi sementara, Anda dapat memperolehnya dari [Halaman lisensi sementara Aspose](https://purchase.aspose.com/temporary-license/).
 
 ## Mengimpor Ruang Nama
 
@@ -51,21 +53,21 @@ Sebelum Anda mulai membuat kode, tentukan jalur ke direktori dokumen Anda. Ini a
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur tempat dokumen contoh Anda disimpan.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur tempat dokumen contoh Anda disimpan.
 
 ## Langkah 2: Muat Dokumen Word
 
- Selanjutnya, muat dokumen Word Anda ke dalam`Aspose.Words.Document` objek. Ini akan memungkinkan Anda untuk bekerja dengan dokumen tersebut secara terprogram.
+Selanjutnya, muat dokumen Word Anda ke dalam `Aspose.Words.Document` objek. Ini akan memungkinkan Anda untuk bekerja dengan dokumen secara terprogram.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Di Sini,`"Rendering.docx"` adalah nama contoh dokumen Word Anda. Pastikan berkas ini berada di direktori yang ditentukan.
+Di Sini, `"Rendering.docx"` adalah nama contoh dokumen Word Anda. Pastikan berkas ini berada di direktori yang ditentukan.
 
 ## Langkah 3: Konfigurasikan Kompresi Gambar Dasar
 
- Membuat sebuah`PdfSaveOptions`objek untuk mengonfigurasi opsi penyimpanan PDF, termasuk kompresi gambar. Atur`ImageCompression`properti untuk`PdfImageCompression.Jpeg` untuk menggunakan kompresi JPEG untuk gambar.
+Membuat sebuah `PdfSaveOptions` objek untuk mengonfigurasi opsi penyimpanan PDF, termasuk kompresi gambar. Atur `ImageCompression` properti untuk `PdfImageCompression.Jpeg` untuk menggunakan kompresi JPEG untuk gambar.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions
@@ -85,11 +87,11 @@ Simpan dokumen Word sebagai PDF dengan opsi kompresi gambar yang dikonfigurasi. 
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.PdfImageCompression.pdf", saveOptions);
 ```
 
- Dalam contoh ini, output PDF diberi nama`"WorkingWithPdfSaveOptions.PdfImageCompression.pdf"`Sesuaikan nama berkas sesuai kebutuhan.
+Dalam contoh ini, output PDF diberi nama `"WorkingWithPdfSaveOptions.PdfImageCompression.pdf"`Sesuaikan nama berkas sesuai kebutuhan.
 
 ## Langkah 5: Konfigurasikan Kompresi Lanjutan dengan Kepatuhan PDF/A
 
- Untuk kompresi yang lebih baik, terutama jika Anda perlu mematuhi standar PDF/A, Anda dapat mengonfigurasi opsi tambahan. Atur`Compliance`properti untuk`PdfCompliance.PdfA2u` dan menyesuaikan`JpegQuality` milik.
+Untuk kompresi yang lebih baik, terutama jika Anda perlu mematuhi standar PDF/A, Anda dapat mengonfigurasi opsi tambahan. Atur `Compliance` properti untuk `PdfCompliance.PdfA2u` dan menyesuaikan `JpegQuality` milik.
 
 ```csharp
 PdfSaveOptions saveOptionsA2U = new PdfSaveOptions
@@ -111,7 +113,7 @@ Simpan dokumen Word sebagai PDF dengan pengaturan kompresi lanjutan. Konfigurasi
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.PdfImageCompression_A2u.pdf", saveOptionsA2U);
 ```
 
- Di sini, output PDF diberi nama`"WorkingWithPdfSaveOptions.PdfImageCompression_A2u.pdf"`Ubah nama berkas sesuai dengan keinginan Anda.
+Di sini, output PDF diberi nama `"WorkingWithPdfSaveOptions.PdfImageCompression_A2u.pdf"`Ubah nama berkas sesuai dengan keinginan Anda.
 
 ## Kesimpulan
 
@@ -124,7 +126,7 @@ Mengurangi ukuran dokumen PDF dengan mengompresi gambar merupakan langkah pentin
 Kompresi gambar mengurangi ukuran file dokumen PDF dengan mengurangi kualitas gambar, yang membantu mengoptimalkan penyimpanan dan kinerja.
 
 ### Bagaimana Aspose.Words untuk .NET menangani kompresi gambar?
-Aspose.Words untuk .NET menyediakan`PdfSaveOptions` kelas, yang memungkinkan Anda mengatur berbagai opsi kompresi gambar, termasuk kompresi JPEG.
+Aspose.Words untuk .NET menyediakan `PdfSaveOptions` kelas, yang memungkinkan Anda mengatur berbagai opsi kompresi gambar, termasuk kompresi JPEG.
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET agar mematuhi standar PDF/A?
 Ya, Aspose.Words mendukung kepatuhan PDF/A, memungkinkan Anda menyimpan dokumen dalam format yang memenuhi standar pengarsipan dan penyimpanan jangka panjang.
@@ -133,7 +135,7 @@ Ya, Aspose.Words mendukung kepatuhan PDF/A, memungkinkan Anda menyimpan dokumen 
 Pengaturan kualitas JPEG yang lebih tinggi menghasilkan kualitas gambar yang lebih baik tetapi ukuran file lebih besar, sedangkan pengaturan kualitas yang lebih rendah mengurangi ukuran file tetapi dapat memengaruhi kejernihan gambar.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Words untuk .NET?
- Anda dapat menjelajahi lebih lanjut tentang Aspose.Words untuk .NET di[Dokumentasi](https://reference.aspose.com/words/net/), [Mendukung](https://forum.aspose.com/c/words/8) , Dan[Unduh](https://releases.aspose.com/words/net/) halaman.
+Anda dapat menjelajahi lebih lanjut tentang Aspose.Words untuk .NET di [Dokumentasi](https://reference.aspose.com/words/net/)Bahasa Indonesia: [Mendukung](https://forum.aspose.com/c/words/8), Dan [Unduh](https://releases.aspose.com/words/net/) halaman.
 
 ### Contoh kode sumber untuk mengompresi gambar dengan Aspose.Words untuk .NET
 
@@ -162,9 +164,14 @@ PdfSaveOptions saveOptionsA2U = new PdfSaveOptions
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.PdfImageCompression_A2u.pdf", saveOptionsA2U);
 	
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

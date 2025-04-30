@@ -1,14 +1,16 @@
 ---
-title: Şekli Office Matematiğine Dönüştür
-linktitle: Şekli Office Matematiğine Dönüştür
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'i kullanarak Word belgelerindeki şekilleri Office Math'e nasıl dönüştüreceğinizi rehberimizle öğrenin. Belge biçimlendirmenizi zahmetsizce geliştirin.
-weight: 10
-url: /tr/net/programming-with-loadoptions/convert-shape-to-office-math/
+"description": "Aspose.Words for .NET'i kullanarak Word belgelerindeki şekilleri Office Math'e nasıl dönüştüreceğinizi rehberimizle öğrenin. Belge biçimlendirmenizi zahmetsizce geliştirin."
+"linktitle": "Şekli Office Matematiğine Dönüştür"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Şekli Office Matematiğine Dönüştür"
+"url": "/tr/net/programming-with-loadoptions/convert-shape-to-office-math/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Şekli Office Matematiğine Dönüştür
@@ -21,7 +23,7 @@ Bu eğitimde, Aspose.Words for .NET kullanarak Word belgelerinde şekilleri Offi
 
 Ayrıntılara dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-- Aspose.Words for .NET: En son sürümün yüklü olduğundan emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: En son sürümün yüklü olduğundan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio gibi .NET'i destekleyen herhangi bir IDE.
 - Temel C# Bilgisi: C# programlamaya aşinalık şarttır.
 - Word Belgesi: Office Math'e dönüştürmek istediğiniz şekilleri içeren bir Word belgesi.
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 LoadOptions loadOptions = new LoadOptions { ConvertShapeToOfficeMath = true };
 ```
 
- Bu adımda, belgemizin bulunduğu dizini belirtiyoruz ve yükleme seçeneklerini yapılandırıyoruz.`ConvertShapeToOfficeMath` mülk ayarlandı`true` dönüşümü etkinleştirmek için.
+Bu adımda, belgemizin bulunduğu dizini belirtiyoruz ve yükleme seçeneklerini yapılandırıyoruz. `ConvertShapeToOfficeMath` mülk ayarlandı `true` dönüşümü etkinleştirmek için.
 
 ## Adım 2: Belgeyi Yükleyin
 
@@ -60,7 +62,7 @@ Daha sonra belirtilen seçeneklerle belgeyi yükleyeceğiz.
 Document doc = new Document(dataDir + "Office math.docx", loadOptions);
 ```
 
- Burada şunu kullanıyoruz:`Document` Word belgemizi yüklemek için sınıf.`loadOptions`parametresi, yükleme işlemi sırasında belgedeki tüm şekillerin Office Math'e dönüştürülmesini sağlar.
+Burada şunu kullanıyoruz: `Document` Word belgemizi yüklemek için sınıf. `loadOptions` parametresi, yükleme işlemi sırasında belgedeki tüm şekillerin Office Math'e dönüştürülmesini sağlar.
 
 ## Adım 3: Belgeyi Kaydedin
 
@@ -71,7 +73,7 @@ Son olarak belgeyi istediğimiz formatta kaydedeceğiz.
 doc.Save(dataDir + "WorkingWithLoadOptions.ConvertShapeToOfficeMath.docx", SaveFormat.Docx);
 ```
 
- Bu adımda, değiştirilen belgeyi dizine geri kaydediyoruz.`SaveFormat.Docx` Belgenin DOCX formatında kaydedilmesini sağlar.
+Bu adımda, değiştirilen belgeyi dizine geri kaydediyoruz. `SaveFormat.Docx` Belgenin DOCX formatında kaydedilmesini sağlar.
 
 ## Çözüm
 
@@ -92,11 +94,16 @@ Evet, bu özelliği etkili bir şekilde kullanabilmek için Aspose.Words for .NE
 Aspose.Words for .NET, öncelikle C# olmak üzere .NET dilleriyle kullanılmak üzere tasarlanmıştır. Ancak, farklı diller için diğer Aspose.Words API'lerinde benzer işlevler mevcuttur.
 
 ### Aspose.Words için ücretsiz deneme sürümü mevcut mu?  
- Evet, ücretsiz denemeyi indirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz denemeyi indirebilirsiniz [Burada](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

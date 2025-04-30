@@ -1,14 +1,16 @@
 ---
-title: Generowanie miniatur dokumentu
-linktitle: Generowanie miniatur dokumentu
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak generować miniatury dokumentów za pomocą Aspose.Words dla Java. Ulepsz doświadczenia użytkowników za pomocą podglądów wizualnych.
-weight: 11
-url: /pl/java/document-rendering/document-thumbnail-generation/
+"description": "Dowiedz się, jak generować miniatury dokumentów za pomocą Aspose.Words dla Java. Ulepsz doświadczenia użytkowników za pomocą podglądów wizualnych."
+"linktitle": "Generowanie miniatur dokumentu"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Generowanie miniatur dokumentu"
+"url": "/pl/java/document-rendering/document-thumbnail-generation/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Generowanie miniatur dokumentu
@@ -23,7 +25,7 @@ Generowanie miniatur dokumentu obejmuje tworzenie miniaturowej reprezentacji wiz
 Zanim zagłębisz się w kod, upewnij się, że spełnione są następujące wymagania wstępne:
 
 - Środowisko programistyczne Java: Upewnij się, że w systemie jest zainstalowana Java.
--  Aspose.Words dla Java: Pobierz i zainstaluj Aspose.Words dla Java ze strony internetowej[Tutaj](https://releases.aspose.com/words/java/).
+- Aspose.Words dla Java: Pobierz i zainstaluj Aspose.Words dla Java ze strony internetowej [Tutaj](https://releases.aspose.com/words/java/).
 - Zintegrowane środowisko programistyczne (IDE): Możesz używać dowolnego wybranego środowiska IDE Java, np. Eclipse lub IntelliJ IDEA.
 
 ## Krok 1: Konfigurowanie środowiska programistycznego
@@ -32,7 +34,7 @@ Aby zacząć, upewnij się, że masz zainstalowane Java i Aspose.Words for Java 
 
 ## Krok 2: Ładowanie dokumentu Word
 
-tym kroku nauczymy się, jak załadować dokument Word za pomocą Aspose.Words dla Java.
+W tym kroku nauczymy się, jak załadować dokument Word za pomocą Aspose.Words dla Java.
 
 ```java
 // Kod Java do załadowania dokumentu Word
@@ -72,7 +74,7 @@ Generowanie miniatur dokumentów za pomocą Aspose.Words for Java oferuje bezpro
 
 ### Jak zainstalować Aspose.Words dla Java?
 
-Aby zainstalować Aspose.Words dla Java, odwiedź stronę pobierania[Tutaj](https://releases.aspose.com/words/java/) postępuj zgodnie z wyświetlanymi instrukcjami instalacji.
+Aby zainstalować Aspose.Words dla Java, odwiedź stronę pobierania [Tutaj](https://releases.aspose.com/words/java/) i postępuj zgodnie z wyświetlanymi instrukcjami instalacji.
 
 ### Czy mogę dostosować rozmiar generowanej miniatury?
 
@@ -88,10 +90,15 @@ Tak, Aspose.Words for Java wymaga ważnej licencji do użytku komercyjnego. Lice
 
 ### Gdzie mogę znaleźć dodatkową dokumentację dla Aspose.Words dla Java?
 
- Pełną dokumentację i odniesienia do interfejsu API można znaleźć na stronie dokumentacji Aspose.Words for Java[Tutaj](https://reference.aspose.com/words/java/).
+Pełną dokumentację i odniesienia do interfejsu API można znaleźć na stronie dokumentacji Aspose.Words for Java [Tutaj](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

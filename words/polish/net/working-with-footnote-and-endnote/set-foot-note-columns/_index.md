@@ -1,14 +1,16 @@
 ---
-title: Ustaw kolumny przypisów
-linktitle: Ustaw kolumny przypisów
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak ustawić kolumny przypisów w dokumentach Word za pomocą Aspose.Words dla .NET. Łatwo dostosuj układ przypisów dzięki naszemu przewodnikowi krok po kroku.
-weight: 10
-url: /pl/net/working-with-footnote-and-endnote/set-foot-note-columns/
+"description": "Dowiedz się, jak ustawić kolumny przypisów w dokumentach Word za pomocą Aspose.Words dla .NET. Łatwo dostosuj układ przypisów dzięki naszemu przewodnikowi krok po kroku."
+"linktitle": "Ustaw kolumny przypisów"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ustaw kolumny przypisów"
+"url": "/pl/net/working-with-footnote-and-endnote/set-foot-note-columns/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw kolumny przypisów
@@ -21,7 +23,7 @@ Czy jesteś gotowy, aby zanurzyć się w świecie manipulacji dokumentami Word z
 
 Zanim przejdziemy do kodu, upewnijmy się, że mamy wszystko, czego potrzebujemy:
 
-1.  Biblioteka Aspose.Words dla platformy .NET: Upewnij się, że pobrałeś i zainstalowałeś najnowszą wersję biblioteki Aspose.Words dla platformy .NET ze strony[Link do pobrania](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla platformy .NET: Upewnij się, że pobrałeś i zainstalowałeś najnowszą wersję biblioteki Aspose.Words dla platformy .NET ze strony [Link do pobrania](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Powinieneś mieć skonfigurowane środowisko programistyczne .NET. Visual Studio jest popularnym wyborem.
 3. Podstawowa znajomość języka C#: Podstawowa znajomość programowania w języku C# pomoże Ci z łatwością nadążać za nauką.
 
@@ -38,14 +40,14 @@ Teraz podzielimy ten proces na proste i łatwe do opanowania kroki.
 
 ## Krok 1: Załaduj swój dokument
 
-Pierwszym krokiem jest załadowanie dokumentu, który chcesz zmodyfikować. W tym samouczku założymy, że masz dokument o nazwie`Document.docx` w Twoim katalogu roboczym.
+Pierwszym krokiem jest załadowanie dokumentu, który chcesz zmodyfikować. W tym samouczku założymy, że masz dokument o nazwie `Document.docx` w Twoim katalogu roboczym.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; 
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- Tutaj,`dataDir` jest katalogiem, w którym przechowywany jest twój dokument. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do dokumentu.
+Tutaj, `dataDir` jest katalogiem, w którym przechowywany jest twój dokument. Zastąp `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do dokumentu.
 
 ## Krok 2: Ustaw liczbę kolumn przypisów
 
@@ -87,9 +89,14 @@ Nie, ustawienie kolumn przypisów dotyczy tylko obszaru przypisów. Układ tekst
 
 ### Czy mogę wyświetlić podgląd zmian przed zapisaniem dokumentu?  
 Tak, możesz użyć opcji renderowania Aspose.Words, aby wyświetlić podgląd dokumentu. Wymaga to jednak dodatkowych kroków i konfiguracji.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

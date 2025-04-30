@@ -1,14 +1,16 @@
 ---
-title: Belgeleri Parolalarla Güvence Altına Alma
-linktitle: Belgeleri Parolalarla Güvence Altına Alma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java kullanarak belgeleri parolalarla nasıl güvence altına alacağınızı keşfedin. Bu adım adım kılavuz kaynak kodu ve uzman ipuçları içerir. Verilerinizi koruyun.
-weight: 10
-url: /tr/java/document-security/securing-documents-passwords/
+"description": "Aspose.Words for Java kullanarak belgeleri parolalarla nasıl güvence altına alacağınızı keşfedin. Bu adım adım kılavuz kaynak kodu ve uzman ipuçları içerir. Verilerinizi koruyun."
+"linktitle": "Belgeleri Parolalarla Güvence Altına Alma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belgeleri Parolalarla Güvence Altına Alma"
+"url": "/tr/java/document-security/securing-documents-passwords/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belgeleri Parolalarla Güvence Altına Alma
@@ -23,7 +25,7 @@ Günümüzün dijital dünyasında, veri güvenliği en önemli unsurdur. Gizli 
 
 ## Java için Aspose.Words Kurulumu
 
-Belgeleri güvence altına almaya dalmadan önce, Java ortamınızda Aspose.Words for Java'nın kurulu olduğundan emin olalım. Henüz yapmadıysanız, şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/words/java/).
+Belgeleri güvence altına almaya dalmadan önce, Java ortamınızda Aspose.Words for Java'nın kurulu olduğundan emin olalım. Henüz yapmadıysanız, şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/words/java/).
 
 ## Belgelerin Güvence Altına Alınması: Adım Adım
 
@@ -92,9 +94,14 @@ Evet, şifre başvuru sürecini komut dosyası veya tercih ettiğiniz programlam
 Belgelerinizi parolalarla güvence altına almak veri korumada temel bir adımdır. Aspose.Words for Java bu süreci basitleştirir ve geliştiricilerin erişimine sunar. Bu adım adım kılavuzu izleyerek ve sağlanan kaynak kodunu kullanarak değerli belgelerinizi güvenle güvence altına alabilirsiniz.
 
 Verilerinizi Aspose.Words for Java ile güvende tutun ve belge güvenliğinizi bugün güçlendirin.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

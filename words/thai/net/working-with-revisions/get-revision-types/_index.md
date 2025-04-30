@@ -1,14 +1,16 @@
 ---
-title: รับประเภทคำแก้ไข
-linktitle: รับประเภทคำแก้ไข
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีรับประเภทคำในการแก้ไขในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนนี้จะช่วยให้คุณจัดการการแก้ไขเอกสารได้อย่างมีประสิทธิภาพ
-weight: 10
-url: /th/net/working-with-revisions/get-revision-types/
+"description": "เรียนรู้วิธีรับประเภทคำแก้ไขในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนนี้จะช่วยให้คุณจัดการการแก้ไขเอกสารได้อย่างมีประสิทธิภาพ"
+"linktitle": "รับประเภทคำแก้ไข"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "รับประเภทคำแก้ไข"
+"url": "/th/net/working-with-revisions/get-revision-types/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับประเภทคำแก้ไข
@@ -21,10 +23,10 @@ url: /th/net/working-with-revisions/get-revision-types/
 
 ก่อนที่เราจะลงมือทำโค้ด เราจำเป็นต้องมีสิ่งเหล่านี้:
 
-1.  Aspose.Words สำหรับไลบรารี .NET: หากคุณยังไม่ได้ดาวน์โหลด ให้ดาวน์โหลดจาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับไลบรารี .NET: หากคุณยังไม่ได้ดาวน์โหลด ให้ดาวน์โหลดจาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE อื่น ๆ ที่เข้ากันได้กับ .NET
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจเกี่ยวกับภาษาการเขียนโปรแกรม C# จะเป็นประโยชน์
-4.  เอกสาร Word ที่มีการแก้ไข: ให้แน่ใจว่าคุณมี`.docx`ไฟล์ที่มีการติดตามการเปลี่ยนแปลงเพื่อทดสอบโค้ด
+4. เอกสาร Word ที่มีการแก้ไข: ให้แน่ใจว่าคุณมี `.docx` ไฟล์ที่มีการติดตามการเปลี่ยนแปลงเพื่อทดสอบโค้ด
 
 ## นำเข้าเนมสเปซ
 
@@ -46,7 +48,7 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังโฟลเดอร์เอกสารของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังโฟลเดอร์เอกสารของคุณ
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร Word ของคุณ
 
@@ -56,7 +58,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Revisions.docx");
 ```
 
- ให้แน่ใจว่าไฟล์`Revisions.docx` มีอยู่ในไดเร็กทอรีที่ระบุ
+ให้แน่ใจว่าไฟล์ `Revisions.docx` มีอยู่ในไดเร็กทอรีที่ระบุ
 
 ## ขั้นตอนที่ 3: เข้าถึงคอลเลกชันย่อหน้า
 
@@ -80,11 +82,11 @@ for (int i = 0; i < paragraphs.Count; i++)
 }
 ```
 
- ลูปนี้จะผ่านแต่ละย่อหน้าและใช้`IsMoveFromRevision` และ`IsMoveToRevision` คุณสมบัติเพื่อกำหนดว่าย่อหน้าจะถูกย้าย (ลบ) หรือย้าย (แทรก)
+ลูปนี้จะผ่านแต่ละย่อหน้าและใช้ `IsMoveFromRevision` และ `IsMoveToRevision` คุณสมบัติเพื่อกำหนดว่าย่อหน้าจะถูกย้าย (ลบ) หรือย้าย (แทรก)
 
 ## บทสรุป
 
-และแล้วคุณก็จะได้มัน! ด้วยโค้ดเพียงไม่กี่บรรทัด คุณสามารถระบุประเภทการแก้ไขในเอกสาร Word ของคุณได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ไลบรารีอันทรงพลังนี้ทำให้การจัดการการแก้ไขเอกสารเป็นเรื่องง่าย ช่วยให้คุณสามารถมุ่งเน้นไปที่งานที่สำคัญกว่าได้ 
+และแล้วคุณก็จะได้มัน! ด้วยโค้ดเพียงไม่กี่บรรทัด คุณสามารถระบุประเภทของการแก้ไขในเอกสาร Word ของคุณได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ไลบรารีอันทรงพลังนี้ทำให้การจัดการการแก้ไขเอกสารเป็นเรื่องง่าย ช่วยให้คุณสามารถมุ่งเน้นไปที่งานที่สำคัญกว่าได้ 
 
 ## คำถามที่พบบ่อย
 
@@ -94,22 +96,27 @@ for (int i = 0; i < paragraphs.Count; i++)
 
 ### มี Aspose.Words สำหรับ .NET ให้ทดลองใช้งานฟรีหรือไม่
 
- แน่นอน! คุณสามารถทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+แน่นอน! คุณสามารถทดลองใช้งานฟรีได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันจะสมัครใบอนุญาตชั่วคราวสำหรับ Aspose.Words สำหรับ .NET ได้อย่างไร
 
- คุณสามารถขอและสมัครใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+คุณสามารถขอและสมัครใบอนุญาตชั่วคราวได้จาก [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันสามารถหาเอกสารรายละเอียดเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
 
- เอกสารรายละเอียดสามารถดูได้ที่[เว็บไซต์อาโพส](https://reference.aspose.com/words/net/).
+เอกสารรายละเอียดสามารถดูได้ที่ [เว็บไซต์อาโพส](https://reference-aspose.com/words/net/).
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ .NET ในโครงการที่ไม่ใช่เชิงพาณิชย์ได้หรือไม่
 
 ใช่ Aspose.Words สำหรับ .NET สามารถใช้ได้ทั้งในโปรเจ็กต์เชิงพาณิชย์และไม่ใช่เชิงพาณิชย์ แต่โปรดตรวจสอบเงื่อนไขการอนุญาตสิทธิ์ให้ดี
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

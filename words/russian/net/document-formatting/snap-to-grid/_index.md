@@ -1,14 +1,16 @@
 ---
-title: Привязать к сетке в документе Word
-linktitle: Привязать к сетке в документе Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как включить функцию Snap to Grid в документах Word с помощью Aspose.Words for .NET. Это подробное руководство охватывает предварительные условия, пошаговое руководство и часто задаваемые вопросы.
-weight: 10
-url: /ru/net/document-formatting/snap-to-grid/
+"description": "Узнайте, как включить функцию Snap to Grid в документах Word с помощью Aspose.Words for .NET. Это подробное руководство охватывает предварительные условия, пошаговое руководство и часто задаваемые вопросы."
+"linktitle": "Привязать к сетке в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Привязать к сетке в документе Word"
+"url": "/ru/net/document-formatting/snap-to-grid/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Привязать к сетке в документе Word
@@ -21,10 +23,10 @@ url: /ru/net/document-formatting/snap-to-grid/
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
--  Библиотека Aspose.Words for .NET: Вы можете загрузить ее[здесь](https://releases.aspose.com/words/net/).
+- Библиотека Aspose.Words for .NET: Вы можете загрузить ее [здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: Visual Studio или любая другая совместимая с .NET IDE.
 - Базовые знания C#: понимание основ программирования на C# поможет вам разобраться в примерах.
--  Лицензия Aspose: временную лицензию можно приобрести[здесь](https://purchase.aspose.com/temporary-license/)использование полной лицензии обеспечит доступ ко всем функциям без ограничений.
+- Лицензия Aspose: временную лицензию можно приобрести [здесь](https://purchase.aspose.com/temporary-license/)использование полной лицензии обеспечит доступ ко всем функциям без ограничений.
 
 ## Импорт пространств имен
 
@@ -57,11 +59,11 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Эта строка устанавливает каталог, в котором будут сохранены ваши документы. Заменить`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему каталогу.
+Эта строка устанавливает каталог, в котором будут сохранены ваши документы. Заменить `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему каталогу.
 
 ## Шаг 2: Инициализация документа и DocumentBuilder
 
- Далее вам необходимо создать новый документ Word и инициализировать его.`DocumentBuilder` класс, который помогает в построении документа.
+Далее вам необходимо создать новый документ Word и инициализировать его. `DocumentBuilder` класс, который помогает в построении документа.
 
 Создание нового документа
 
@@ -70,7 +72,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-- `Document doc = new Document();`создает новый документ Word.
+- `Document doc = new Document();` создает новый документ Word.
 - `DocumentBuilder builder = new DocumentBuilder(doc);` инициализирует DocumentBuilder с созданным документом.
 
 ## Шаг 3: Включите функцию привязки к сетке для абзацев
@@ -112,7 +114,7 @@ par.Runs[0].Font.SnapToGrid = true;
 
 - `par.Runs[0].Font.SnapToGrid = true;` обеспечивает выравнивание шрифта, используемого в абзаце, по сетке.
 
-## Шаг 6: Сохраните документ
+## Шаг 6: Сохраните документ.
 
 Наконец, сохраните документ в указанном вами каталоге.
 
@@ -143,10 +145,15 @@ doc.Save(dataDir + "Paragraph.SnapToGrid.docx");
 Нет, включение функции «Привязка к сетке» не оказывает существенного влияния на производительность документа.
 
 ### Где я могу найти более подробную информацию об Aspose.Words для .NET?
- Посетите[документация](https://reference.aspose.com/words/net/) для получения подробной информации и примеров.
+Посетите [документация](https://reference.aspose.com/words/net/) для получения подробной информации и примеров.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

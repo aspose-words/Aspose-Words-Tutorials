@@ -1,14 +1,16 @@
 ---
-title: ย้ายไปผสานเขตข้อมูลในเอกสาร Word
-linktitle: ย้ายไปผสานเขตข้อมูลในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการย้ายไปยังฟิลด์ผสานในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET พร้อมคู่มือทีละขั้นตอนที่ครอบคลุมของเรา เหมาะสำหรับนักพัฒนา .NET
-weight: 10
-url: /th/net/add-content-using-documentbuilder/move-to-merge-field/
+"description": "เรียนรู้วิธีการย้ายไปยังฟิลด์ผสานในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET พร้อมคู่มือทีละขั้นตอนที่ครอบคลุมของเรา เหมาะสำหรับนักพัฒนา .NET"
+"linktitle": "ย้ายไปผสานเขตข้อมูลในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ย้ายไปผสานเขตข้อมูลในเอกสาร Word"
+"url": "/th/net/add-content-using-documentbuilder/move-to-merge-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ย้ายไปผสานเขตข้อมูลในเอกสาร Word
@@ -19,10 +21,10 @@ url: /th/net/add-content-using-documentbuilder/move-to-merge-field/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะลงรายละเอียด เรามาเริ่มกันก่อนดีกว่า นี่คือสิ่งที่คุณต้องทำ:
+ก่อนที่เราจะเริ่มต้นลงรายละเอียด เรามาเริ่มกันก่อนดีกว่า นี่คือสิ่งที่คุณต้องทำ:
 
--  Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว หากไม่มี คุณสามารถดาวน์โหลดได้[ที่นี่](https://visualstudio.microsoft.com/).
--  Aspose.Words สำหรับ .NET: คุณต้องมีไลบรารี Aspose.Words คุณสามารถดาวน์โหลดได้จาก[ลิงค์นี้](https://releases.aspose.com/words/net/).
+- Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว หากไม่มี คุณสามารถดาวน์โหลดได้ [ที่นี่](https://visualstudio-microsoft.com/).
+- Aspose.Words สำหรับ .NET: คุณต้องมีไลบรารี Aspose.Words คุณสามารถดาวน์โหลดได้จาก [ลิงค์นี้](https://releases-aspose.com/words/net/).
 - .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework แล้ว
 
 ## นำเข้าเนมสเปซ
@@ -45,7 +47,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- ในขั้นตอนนี้ เราจะเริ่มต้นเอกสารใหม่และ`DocumentBuilder` วัตถุ.`DocumentBuilder` เป็นเครื่องมือของคุณในการสร้างเอกสาร
+ในขั้นตอนนี้ เราจะเริ่มต้นเอกสารใหม่และ `DocumentBuilder` วัตถุ. `DocumentBuilder` เป็นเครื่องมือของคุณในการสร้างเอกสาร
 
 ## ขั้นตอนที่ 2: แทรกเขตข้อมูลผสาน
 
@@ -66,7 +68,7 @@ builder.Write(" Text after the field.");
 builder.MoveToDocumentEnd();
 ```
 
- คำสั่งนี้จะย้าย`DocumentBuilder` เคอร์เซอร์ไปที่ท้ายเอกสาร เพื่อเตรียมพร้อมสำหรับขั้นตอนถัดไป
+คำสั่งนี้จะย้าย `DocumentBuilder` เคอร์เซอร์ไปที่ท้ายเอกสาร เพื่อเตรียมพร้อมสำหรับขั้นตอนถัดไป
 
 ## ขั้นตอนที่ 4: ย้ายไปที่ฟิลด์ผสาน
 
@@ -97,7 +99,7 @@ else
 
 ## ขั้นตอนที่ 6: เขียนข้อความหลังฟิลด์
 
-สุดท้ายนี้ ให้เพิ่มข้อความหลังฟิลด์ผสานทันที นี่คือการตกแต่งขั้นสุดท้ายให้กับเอกสารของเรา
+สุดท้ายนี้ ให้เพิ่มข้อความหลังช่องผสานทันที นี่คือการตกแต่งขั้นสุดท้ายให้กับเอกสารของเรา
 
 ```csharp
 builder.Write(" Text immediately after the field.");
@@ -115,19 +117,24 @@ builder.Write(" Text immediately after the field.");
 Aspose.Words สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง แก้ไข และแปลงเอกสาร Word โดยใช้โปรแกรมกรอบงาน .NET
 
 ### ฉันจะติดตั้ง Aspose.Words สำหรับ .NET ได้อย่างไร?
- คุณสามารถดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ .NET ได้จาก[ที่นี่](https://releases.aspose.com/words/net/). ทำตามคำแนะนำการติดตั้งที่ให้ไว้ในเว็บไซต์
+คุณสามารถดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ .NET ได้จาก [ที่นี่](https://releases.aspose.com/words/net/). ทำตามคำแนะนำการติดตั้งที่ให้ไว้ในเว็บไซต์
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ .NET กับ .NET Core ได้หรือไม่
- ใช่ Aspose.Words สำหรับ .NET เข้ากันได้กับ .NET Core คุณสามารถดูรายละเอียดเพิ่มเติมได้ใน[เอกสารประกอบ](https://reference.aspose.com/words/net/).
+ใช่ Aspose.Words สำหรับ .NET เข้ากันได้กับ .NET Core คุณสามารถดูรายละเอียดเพิ่มเติมได้ใน [เอกสารประกอบ](https://reference-aspose.com/words/net/).
 
 ### ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.Words ได้อย่างไร
- คุณสามารถขอใบอนุญาตชั่วคราวได้จาก[ลิงค์นี้](https://purchase.aspose.com/temporary-license/).
+คุณสามารถขอใบอนุญาตชั่วคราวได้จาก [ลิงค์นี้](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันสามารถหาตัวอย่างเพิ่มเติมและการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
- สำหรับตัวอย่างเพิ่มเติมและการสนับสนุน โปรดไปที่[ฟอรั่ม Aspose.Words สำหรับ .NET](https://forum.aspose.com/c/words/8).
+สำหรับตัวอย่างเพิ่มเติมและการสนับสนุน โปรดไปที่ [ฟอรั่ม Aspose.Words สำหรับ .NET](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

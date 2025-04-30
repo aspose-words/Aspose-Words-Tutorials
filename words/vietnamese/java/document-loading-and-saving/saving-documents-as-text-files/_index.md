@@ -1,14 +1,16 @@
 ---
-title: Lưu tài liệu dưới dạng tệp văn bản trong Aspose.Words cho Java
-linktitle: Lưu tài liệu dưới dạng tệp văn bản
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách lưu tài liệu dưới dạng tệp văn bản trong Aspose.Words cho Java. Làm theo hướng dẫn từng bước của chúng tôi với các ví dụ về mã Java.
-weight: 24
-url: /vi/java/document-loading-and-saving/saving-documents-as-text-files/
+"description": "Tìm hiểu cách lưu tài liệu dưới dạng tệp văn bản trong Aspose.Words cho Java. Làm theo hướng dẫn từng bước của chúng tôi với các ví dụ về mã Java."
+"linktitle": "Lưu tài liệu dưới dạng tệp văn bản"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Lưu tài liệu dưới dạng tệp văn bản trong Aspose.Words cho Java"
+"url": "/vi/java/document-loading-and-saving/saving-documents-as-text-files/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lưu tài liệu dưới dạng tệp văn bản trong Aspose.Words cho Java
@@ -23,7 +25,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách lưu tài liệu dư�
 Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
 - Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
--  Aspose.Words cho thư viện Java được tích hợp vào dự án của bạn. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/java/).
+- Aspose.Words cho thư viện Java được tích hợp vào dự án của bạn. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
 - Kiến thức cơ bản về lập trình Java.
 
 ## Bước 1: Tạo một tài liệu
@@ -53,7 +55,7 @@ saveOptions.setAddBidiMarks(true);
 doc.save("output.txt", saveOptions);
 ```
 
- Trong ví dụ này, chúng tôi tạo ra một`TxtSaveOptions` đối tượng và thiết lập`AddBidiMarks`tài sản để`true` để đưa dấu bidi vào đầu ra văn bản.
+Trong ví dụ này, chúng tôi tạo ra một `TxtSaveOptions` đối tượng và thiết lập `AddBidiMarks` tài sản để `true` để đưa dấu bidi vào đầu ra văn bản.
 
 ### Ví dụ 2: Sử dụng ký tự Tab để thụt lề danh sách
 
@@ -74,7 +76,7 @@ Bây giờ chúng ta đã định nghĩa các tùy chọn lưu văn bản, chún
 doc.save("output.txt", saveOptions);
 ```
 
- Thay thế`"output.txt"` với đường dẫn tệp mong muốn mà bạn muốn lưu tệp văn bản.
+Thay thế `"output.txt"` với đường dẫn tệp mong muốn mà bạn muốn lưu tệp văn bản.
 
 ## Mã nguồn đầy đủ để lưu tài liệu dưới dạng tệp văn bản trong Aspose.Words cho Java
 
@@ -134,7 +136,7 @@ Trong hướng dẫn này, chúng ta đã học cách lưu tài liệu dưới d
 
 ### Làm thế nào để thêm dấu bidi vào đầu ra văn bản?
 
- Để thêm dấu bidi vào đầu ra văn bản, hãy đặt`AddBidiMarks` tài sản của`TxtSaveOptions` ĐẾN`true`. Ví dụ:
+Để thêm dấu bidi vào đầu ra văn bản, hãy đặt `AddBidiMarks` tài sản của `TxtSaveOptions` ĐẾN `true`. Ví dụ:
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -143,7 +145,7 @@ saveOptions.setAddBidiMarks(true);
 
 ### Tôi có thể tùy chỉnh ký tự thụt lề danh sách không?
 
- Có, bạn có thể tùy chỉnh ký tự thụt lề danh sách bằng cách cấu hình`ListIndentation` tài sản của`TxtSaveOptions`. Ví dụ, để sử dụng ký tự tab để thụt lề danh sách, bạn có thể thực hiện như sau:
+Có, bạn có thể tùy chỉnh ký tự thụt lề danh sách bằng cách cấu hình `ListIndentation` tài sản của `TxtSaveOptions`. Ví dụ, để sử dụng ký tự tab để thụt lề danh sách, bạn có thể thực hiện như sau:
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -157,14 +159,19 @@ Có, Aspose.Words for Java phù hợp để xử lý văn bản đa ngôn ngữ.
 
 ### Làm thế nào tôi có thể truy cập thêm tài liệu và tài nguyên cho Aspose.Words for Java?
 
- Bạn có thể tìm thấy tài liệu và nguồn tài nguyên toàn diện cho Aspose.Words for Java trên trang web tài liệu Aspose:[Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/).
+Bạn có thể tìm thấy tài liệu và nguồn tài nguyên toàn diện cho Aspose.Words for Java trên trang web tài liệu Aspose: [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/).
 
 ### Tôi có thể tải Aspose.Words cho Java ở đâu?
 
- Bạn có thể tải xuống thư viện Aspose.Words cho Java từ trang web Aspose:[Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/).
+Bạn có thể tải xuống thư viện Aspose.Words cho Java từ trang web Aspose: [Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

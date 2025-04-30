@@ -1,14 +1,16 @@
 ---
-title: Karakter Meta Dalam Pola Pencarian
-linktitle: Karakter Meta Dalam Pola Pencarian
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menggunakan karakter meta dalam pola pencarian dengan Aspose.Words untuk .NET dalam panduan terperinci langkah demi langkah ini. Optimalkan pemrosesan dokumen Anda.
-weight: 10
-url: /id/net/find-and-replace-text/meta-characters-in-search-pattern/
+"description": "Pelajari cara menggunakan karakter meta dalam pola pencarian dengan Aspose.Words untuk .NET dalam panduan terperinci langkah demi langkah ini. Optimalkan pemrosesan dokumen Anda."
+"linktitle": "Karakter Meta Dalam Pola Pencarian"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Karakter Meta Dalam Pola Pencarian"
+"url": "/id/net/find-and-replace-text/meta-characters-in-search-pattern/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Karakter Meta Dalam Pola Pencarian
@@ -21,7 +23,7 @@ Aspose.Words untuk .NET adalah pustaka yang hebat untuk menangani dokumen Word s
 
 Sebelum kita masuk ke kode, mari pastikan Anda telah menyiapkan semuanya:
 
-1. Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Halaman Rilis Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Halaman Rilis Aspose](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau lingkungan pengembangan C# lainnya.
 3. Pengetahuan Dasar C#: Pemahaman tentang dasar-dasar pemrograman C# akan bermanfaat.
 
@@ -45,7 +47,7 @@ Sebelum Anda mulai memanipulasi dokumen, Anda perlu menentukan jalur ke direktor
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen Anda.
 
 ## Langkah 2: Membuat Dokumen Baru
 
@@ -67,7 +69,7 @@ builder.Writeln("This is Line 2");
 
 ## Langkah 4: Mengganti Teks Menggunakan Karakter Meta Pemisah Paragraf
 
-Karakter meta dapat mewakili berbagai elemen seperti paragraf, tab, dan jeda baris. Di sini, kami menggunakan`&p` untuk mewakili pemisah paragraf.
+Karakter meta dapat mewakili berbagai elemen seperti paragraf, tab, dan jeda baris. Di sini, kami menggunakan `&p` untuk mewakili pemisah paragraf.
 
 ```csharp
 doc.Range.Replace("This is Line 1&pThis is Line 2", "This is replaced line");
@@ -86,7 +88,7 @@ builder.Writeln("This is Line 2");
 
 ## Langkah 6: Mengganti Teks Menggunakan Karakter Meta Pemutus Baris Manual
 
- Sekarang, kita akan menggunakan`&m` karakter meta untuk mewakili jeda baris manual dan mengganti teks sebagaimana mestinya.
+Sekarang, kita akan menggunakan `&m` karakter meta untuk mewakili jeda baris manual dan mengganti teks sebagaimana mestinya.
 
 ```csharp
 doc.Range.Replace("This is Line 1&mThis is Line 2", "Page break is replaced with new text.");
@@ -110,19 +112,24 @@ Selamat! Anda telah berhasil memanipulasi dokumen Word menggunakan karakter meta
 Karakter meta adalah karakter khusus yang digunakan untuk mewakili elemen seperti jeda paragraf, jeda baris manual, tab, dll., dalam pola pencarian.
 
 ### Bagaimana cara menginstal Aspose.Words untuk .NET?
- Anda dapat mengunduhnya dari[Halaman Rilis Aspose](https://releases.aspose.com/words/net/)Ikuti petunjuk instalasi yang diberikan.
+Anda dapat mengunduhnya dari [Halaman Rilis Aspose](https://releases.aspose.com/words/net/)Ikuti petunjuk instalasi yang diberikan.
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET dengan bahasa pemrograman lain?
 Aspose.Words for .NET dirancang khusus untuk bahasa .NET seperti C#. Namun, Aspose juga menyediakan pustaka untuk platform lain.
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Words untuk .NET?
- Anda dapat memperoleh lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+Anda dapat memperoleh lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Di mana saya dapat menemukan dokumentasi yang lebih rinci untuk Aspose.Words untuk .NET?
- Anda dapat menemukan dokumentasi lengkap di[Halaman Dokumentasi Aspose](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi lengkap di [Halaman Dokumentasi Aspose](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

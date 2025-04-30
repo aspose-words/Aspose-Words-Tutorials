@@ -1,14 +1,16 @@
 ---
-title: Utilizzo delle opzioni di pulizia in Aspose.Words per Java
-linktitle: Utilizzo delle opzioni di pulizia
-second_title: API di elaborazione dei documenti Java Aspose.Words
-description: Migliora la chiarezza del documento con le opzioni di pulizia di Aspose.Words for Java. Scopri come rimuovere paragrafi vuoti, regioni inutilizzate e altro ancora.
-weight: 10
-url: /it/java/document-manipulation/using-cleanup-options/
+"description": "Migliora la chiarezza dei documenti con le opzioni di pulizia di Aspose.Words per Java. Scopri come rimuovere paragrafi vuoti, aree inutilizzate e altro ancora."
+"linktitle": "Utilizzo delle opzioni di pulizia"
+"second_title": "API di elaborazione dei documenti Java Aspose.Words"
+"title": "Utilizzo delle opzioni di pulizia in Aspose.Words per Java"
+"url": "/it/java/document-manipulation/using-cleanup-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utilizzo delle opzioni di pulizia in Aspose.Words per Java
@@ -16,11 +18,11 @@ url: /it/java/document-manipulation/using-cleanup-options/
 
 ## Introduzione all'utilizzo delle opzioni di pulizia in Aspose.Words per Java
 
-In questo tutorial, esploreremo come usare le opzioni di pulizia in Aspose.Words per Java per manipolare e pulire i documenti durante il processo di unione di posta. Le opzioni di pulizia consentono di controllare vari aspetti della pulizia del documento, come la rimozione di paragrafi vuoti, regioni inutilizzate e altro.
+In questo tutorial, esploreremo come utilizzare le opzioni di pulizia in Aspose.Words per Java per manipolare e pulire i documenti durante il processo di stampa unione. Le opzioni di pulizia consentono di controllare vari aspetti della pulizia del documento, come la rimozione di paragrafi vuoti, aree inutilizzate e altro ancora.
 
 ## Prerequisiti
 
- Prima di iniziare, assicurati di avere la libreria Aspose.Words for Java integrata nel tuo progetto. Puoi scaricarla da[Qui](https://releases.aspose.com/words/java/).
+Prima di iniziare, assicurati di aver integrato la libreria Aspose.Words per Java nel tuo progetto. Puoi scaricarla da [Qui](https://releases.aspose.com/words/java/).
 
 ## Passaggio 1: rimozione dei paragrafi vuoti
 
@@ -48,7 +50,7 @@ doc.getMailMerge().execute(new String[] { "Option_1", "Option_2" }, new Object[]
 doc.save("WorkingWithCleanupOptions.CleanupParagraphsWithPunctuationMarks.docx");
 ```
 
-In questo esempio, creiamo un nuovo documento, inseriamo campi di unione e impostiamo le opzioni di pulizia per rimuovere i paragrafi vuoti. Inoltre, abilitiamo la rimozione dei paragrafi con segni di punteggiatura. Dopo aver eseguito la stampa unione, il documento viene salvato con la pulizia specificata applicata.
+In questo esempio, creiamo un nuovo documento, inseriamo i campi unione e impostiamo le opzioni di pulizia per rimuovere i paragrafi vuoti. Inoltre, abilitiamo la rimozione dei paragrafi con segni di punteggiatura. Dopo aver eseguito la stampa unione, il documento viene salvato con la pulizia specificata applicata.
 
 ## Passaggio 2: rimozione delle regioni non unite
 
@@ -84,14 +86,14 @@ doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Add
 doc.save("WorkingWithCleanupOptions.RemoveEmptyFields.docx");
 ```
 
-In questo esempio, apriamo un documento con campi di unione, impostiamo le opzioni di pulizia per rimuovere i campi vuoti ed eseguiamo la stampa unione con i dati. Dopo l'unione, tutti i campi vuoti saranno rimossi dal documento.
+In questo esempio, apriamo un documento con campi unione, impostiamo le opzioni di pulizia per rimuovere i campi vuoti ed eseguiamo la stampa unione con i dati. Dopo l'unione, tutti i campi vuoti verranno rimossi dal documento.
 
-## Passaggio 4: rimozione dei campi inutilizzati
+## Passaggio 4: rimozione dei campi non utilizzati
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Imposta le opzioni di pulizia per rimuovere i campi inutilizzati
+// Imposta le opzioni di pulizia per rimuovere i campi non utilizzati
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS);
 
 // Esegui unione di posta
@@ -102,7 +104,7 @@ doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Add
 doc.save("WorkingWithCleanupOptions.RemoveUnusedFields.docx");
 ```
 
-In questo esempio, apriamo un documento con campi di unione, impostiamo le opzioni di pulizia per rimuovere i campi inutilizzati ed eseguiamo la stampa unione con i dati. Dopo l'unione, tutti i campi inutilizzati saranno rimossi dal documento.
+In questo esempio, apriamo un documento con campi unione, impostiamo le opzioni di pulizia per rimuovere i campi non utilizzati ed eseguiamo la stampa unione con i dati. Dopo l'unione, tutti i campi non utilizzati verranno rimossi dal documento.
 
 ## Passaggio 5: rimozione dei campi contenenti
 
@@ -120,7 +122,7 @@ doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Add
 doc.save("WorkingWithCleanupOptions.RemoveContainingFields.docx");
 ```
 
-In questo esempio, apriamo un documento con campi di unione, impostiamo le opzioni di pulizia per rimuovere i campi contenenti ed eseguiamo la stampa unione con i dati. Dopo l'unione, i campi stessi saranno rimossi dal documento.
+In questo esempio, apriamo un documento con campi unione, impostiamo le opzioni di pulizia per rimuovere i campi contenitore ed eseguiamo la stampa unione con i dati. Dopo l'unione, i campi stessi verranno rimossi dal documento.
 
 ## Passaggio 6: rimozione delle righe vuote della tabella
 
@@ -138,52 +140,57 @@ doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Add
 doc.save("WorkingWithCleanupOptions.RemoveEmptyTableRows.docx");
 ```
 
-In questo esempio, apriamo un documento con una tabella e campi di unione, impostiamo le opzioni di pulizia per rimuovere le righe vuote della tabella ed eseguiamo la stampa unione con i dati. Dopo l'unione, tutte le righe vuote della tabella saranno rimosse dal documento.
+In questo esempio, apriamo un documento con una tabella e campi unione, impostiamo le opzioni di pulizia per rimuovere le righe vuote della tabella ed eseguiamo la stampa unione con i dati. Dopo l'unione, tutte le righe vuote della tabella verranno rimosse dal documento.
 
 ## Conclusione
 
-In questo tutorial, hai imparato come usare le opzioni di pulizia in Aspose.Words per Java per manipolare e pulire i documenti durante il processo di unione di posta. Queste opzioni forniscono un controllo dettagliato sulla pulizia dei documenti, consentendoti di creare documenti raffinati e personalizzati con facilità.
+In questo tutorial, hai imparato come utilizzare le opzioni di pulizia in Aspose.Words per Java per manipolare e ripulire i documenti durante il processo di stampa unione. Queste opzioni offrono un controllo preciso sulla pulizia dei documenti, consentendoti di creare documenti raffinati e personalizzati con facilità.
 
 ## Domande frequenti
 
 ### Quali sono le opzioni di pulizia in Aspose.Words per Java?
 
-Le opzioni di pulizia in Aspose.Words per Java sono impostazioni che consentono di controllare vari aspetti della pulizia del documento durante il processo di unione di posta. Consentono di rimuovere elementi non necessari come paragrafi vuoti, regioni inutilizzate e altro, assicurando che il documento finale sia ben strutturato e rifinito.
+Le opzioni di pulizia in Aspose.Words per Java sono impostazioni che consentono di controllare vari aspetti della pulizia del documento durante il processo di stampa unione. Consentono di rimuovere elementi non necessari come paragrafi vuoti, aree inutilizzate e altro ancora, garantendo che il documento finale sia ben strutturato e rifinito.
 
 ### Come posso rimuovere i paragrafi vuoti dal mio documento?
 
- Per rimuovere i paragrafi vuoti dal tuo documento utilizzando Aspose.Words per Java, puoi impostare`MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` opzione su true. Ciò eliminerà automaticamente i paragrafi che non hanno contenuto, ottenendo un documento più pulito.
+Per rimuovere i paragrafi vuoti dal tuo documento utilizzando Aspose.Words per Java, puoi impostare `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` Imposta l'opzione su true. Questo eliminerà automaticamente i paragrafi privi di contenuto, ottenendo un documento più pulito.
 
-###  Qual è lo scopo del`REMOVE_UNUSED_REGIONS` cleanup option?
+### Qual è lo scopo del `REMOVE_UNUSED_REGIONS` opzione di pulizia?
 
- IL`MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` l'opzione viene utilizzata per rimuovere le regioni in un documento che non hanno dati corrispondenti durante il processo di unione di posta. Aiuta a mantenere il documento ordinato eliminando i segnaposto inutilizzati.
+IL `MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` Questa opzione viene utilizzata per rimuovere le aree di un documento che non contengono dati corrispondenti durante il processo di stampa unione. Aiuta a mantenere il documento ordinato eliminando i segnaposto inutilizzati.
 
 ### Posso rimuovere le righe vuote di una tabella da un documento utilizzando Aspose.Words per Java?
 
- Sì, puoi rimuovere le righe di tabella vuote da un documento impostando`MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS`opzione cleanup su true. Questo eliminerà automaticamente tutte le righe della tabella che non contengono dati, assicurando una tabella ben strutturata nel documento.
+Sì, puoi rimuovere le righe di tabella vuote da un documento impostando `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS` Imposta l'opzione di pulizia su true. Questo eliminerà automaticamente tutte le righe della tabella che non contengono dati, garantendo una tabella ben strutturata nel documento.
 
-###  Cosa succede quando imposto il`REMOVE_CONTAINING_FIELDS` option?
+### Cosa succede quando imposto il `REMOVE_CONTAINING_FIELDS` opzione?
 
- Impostazione del`MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` opzione rimuoverà l'intero campo di unione, incluso il paragrafo che lo contiene, dal documento durante il processo di unione di posta. Ciò è utile quando si desidera eliminare i campi di unione e il testo associato.
+Impostazione del `MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` Questa opzione rimuoverà l'intero campo unione, incluso il paragrafo che lo contiene, dal documento durante il processo di stampa unione. Questa opzione è utile quando si desidera eliminare i campi unione e il testo associato.
 
-### Come posso rimuovere i campi unione inutilizzati dal mio documento?
+### Come posso rimuovere i campi unione non utilizzati dal mio documento?
 
- Per rimuovere i campi di unione non utilizzati da un documento, è possibile impostare`MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` opzione su true. Questo eliminerà automaticamente i campi di unione che non sono popolati durante la stampa unione, ottenendo un documento più pulito.
+Per rimuovere i campi di unione non utilizzati da un documento, è possibile impostare `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` Imposta l'opzione su true. Questo eliminerà automaticamente i campi unione non compilati durante la stampa unione, ottenendo un documento più pulito.
 
-###  Qual è la differenza tra`REMOVE_EMPTY_FIELDS` and `REMOVE_UNUSED_FIELDS` cleanup options?
+### Qual è la differenza tra `REMOVE_EMPTY_FIELDS` E `REMOVE_UNUSED_FIELDS` opzioni di pulizia?
 
- IL`REMOVE_EMPTY_FIELDS` l'opzione rimuove i campi di unione che non hanno dati o sono vuoti durante il processo di unione di posta. D'altra parte, l'`REMOVE_UNUSED_FIELDS`l'opzione rimuove i campi di unione che non sono popolati con dati durante l'unione. La scelta tra di essi dipende se si desidera rimuovere i campi senza contenuto o quelli che non sono utilizzati nell'operazione di unione specifica.
+IL `REMOVE_EMPTY_FIELDS` l'opzione rimuove i campi di unione che non contengono dati o sono vuoti durante il processo di stampa unione. D'altra parte, l' `REMOVE_UNUSED_FIELDS` L'opzione rimuove i campi unione che non vengono popolati con dati durante l'unione. La scelta tra queste due opzioni dipende dal fatto che si desideri rimuovere i campi senza contenuto o quelli non utilizzati nella specifica operazione di unione.
 
 ### Come posso abilitare la rimozione dei paragrafi con segni di punteggiatura?
 
- Per abilitare la rimozione dei paragrafi con segni di punteggiatura, è possibile impostare`cleanupParagraphsWithPunctuationMarks` opzione su true e specifica i segni di punteggiatura da considerare per la pulizia. Ciò consente di creare un documento più raffinato rimuovendo i paragrafi non necessari con sola punteggiatura.
+Per abilitare la rimozione dei paragrafi con segni di punteggiatura, è possibile impostare `cleanupParagraphsWithPunctuationMarks` Imposta l'opzione su true e specifica i segni di punteggiatura da considerare per la pulizia. Questo consente di creare un documento più rifinito rimuovendo i paragrafi non necessari che contengono solo punteggiatura.
 
 ### Posso personalizzare le opzioni di pulizia in Aspose.Words per Java?
 
-Sì, puoi personalizzare le opzioni di pulizia in base alle tue esigenze specifiche. Puoi scegliere quali opzioni di pulizia applicare e configurarle in base ai requisiti di pulizia del documento, assicurandoti che il documento finale soddisfi gli standard desiderati.
+Sì, puoi personalizzare le opzioni di pulizia in base alle tue esigenze specifiche. Puoi scegliere quali opzioni di pulizia applicare e configurarle in base alle tue esigenze di pulizia del documento, assicurandoti che il documento finale soddisfi gli standard desiderati.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

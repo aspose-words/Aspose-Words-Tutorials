@@ -1,14 +1,16 @@
 ---
-title: Usuń zawartość nagłówka i stopki
-linktitle: Usuń zawartość nagłówka i stopki
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak usuwać nagłówki i stopki w dokumentach Word za pomocą Aspose.Words dla .NET. Ten przewodnik krok po kroku zapewnia wydajne zarządzanie dokumentami.
-weight: 10
-url: /pl/net/working-with-section/delete-header-footer-content/
+"description": "Dowiedz się, jak usuwać nagłówki i stopki w dokumentach Word za pomocą Aspose.Words dla .NET. Ten przewodnik krok po kroku zapewnia wydajne zarządzanie dokumentami."
+"linktitle": "Usuń zawartość nagłówka i stopki"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Usuń zawartość nagłówka i stopki"
+"url": "/pl/net/working-with-section/delete-header-footer-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuń zawartość nagłówka i stopki
@@ -21,7 +23,7 @@ Hej, sprzątacze dokumentów Word! 📝 Czy kiedykolwiek musiałeś wyczyścić 
 
 Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla biblioteki .NET: Pobierz najnowszą wersję[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla biblioteki .NET: Pobierz najnowszą wersję [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: środowisko IDE zgodne z platformą .NET, np. Visual Studio.
 3. Podstawowa znajomość języka C#: Znajomość języka C# ułatwi Ci zrozumienie tekstu.
 4. Przykładowy dokument Word: Przygotuj dokument Word, aby przeprowadzić test.
@@ -34,13 +36,13 @@ Najpierw musimy zaimportować niezbędne przestrzenie nazw, aby uzyskać dostęp
 using Aspose.Words;
 ```
 
-Ta przestrzeń nazw jest niezbędna do pracy z dokumentami Word za pomocą Aspose.Words.
+Ta przestrzeń nazw jest niezbędna do pracy z dokumentami Worda za pomocą Aspose.Words.
 
 ## Krok 1: Zainicjuj swoje środowisko
 
 Zanim zaczniesz kodować, upewnij się, że masz zainstalowaną bibliotekę Aspose.Words i przygotowany przykładowy dokument Word.
 
-1.  Pobierz i zainstaluj Aspose.Words: Pobierz[Tutaj](https://releases.aspose.com/words/net/).
+1. Pobierz i zainstaluj Aspose.Words: Pobierz [Tutaj](https://releases.aspose.com/words/net/).
 2. Konfiguracja projektu: Otwórz program Visual Studio i utwórz nowy projekt .NET.
 3. Dodaj odniesienie do Aspose.Words: Dodaj bibliotekę Aspose.Words do swojego projektu.
 
@@ -49,14 +51,14 @@ Zanim zaczniesz kodować, upewnij się, że masz zainstalowaną bibliotekę Aspo
 Pierwszą rzeczą, którą musimy zrobić, jest załadowanie dokumentu Word, z którego chcemy usunąć zawartość nagłówka i stopki.
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
 - `string dataDir = "YOUR DOCUMENT DIRECTORY";` określa ścieżkę katalogu, w którym przechowywany jest Twój dokument.
-- `Document doc = new Document(dataDir + "Document.docx");` ładuje dokument Word do`doc` obiekt.
+- `Document doc = new Document(dataDir + "Document.docx");` ładuje dokument Word do `doc` obiekt.
 
 ## Krok 3: Uzyskaj dostęp do sekcji
 
@@ -86,7 +88,7 @@ Na koniec zapisz zmodyfikowany dokument, aby mieć pewność, że zmiany zostan�
 doc.Save(dataDir + "Document_Without_Headers_Footers.docx");
 ```
 
- Zastępować`dataDir + "Document_Without_Headers_Footers.docx"` z rzeczywistą ścieżką, w której chcesz zapisać zmodyfikowany dokument. Ta linia kodu zapisuje zaktualizowany plik Word bez nagłówków i stopek.
+Zastępować `dataDir + "Document_Without_Headers_Footers.docx"` z rzeczywistą ścieżką, w której chcesz zapisać zmodyfikowany dokument. Ta linia kodu zapisuje zaktualizowany plik Word bez nagłówków i stopek.
 
 ## Wniosek
 
@@ -96,7 +98,7 @@ masz to! 🎉 Udało Ci się usunąć nagłówki i stopki z dokumentu Word za po
 
 ### Jak usunąć nagłówki i stopki ze wszystkich sekcji dokumentu?
 
- Możesz przejść przez każdą sekcję dokumentu i wywołać`ClearHeadersFooters()` metoda dla każdej sekcji.
+Możesz przejść przez każdą sekcję dokumentu i wywołać `ClearHeadersFooters()` metoda dla każdej sekcji.
 
 ```csharp
 foreach (Section section in doc.Sections)
@@ -107,11 +109,11 @@ foreach (Section section in doc.Sections)
 
 ### Czy mogę wyczyścić tylko nagłówek czy tylko stopkę?
 
- Tak, możesz wyczyścić tylko nagłówek lub stopkę, uzyskując dostęp do`HeadersFooters` zebranie sekcji i usunięcie określonego nagłówka lub stopki.
+Tak, możesz wyczyścić tylko nagłówek lub stopkę, uzyskując dostęp do `HeadersFooters` zebranie sekcji i usunięcie określonego nagłówka lub stopki.
 
 ### Czy ta metoda usuwa wszystkie typy nagłówków i stopek?
 
- Tak,`ClearHeadersFooters()` usuwa wszystkie nagłówki i stopki, w tym nagłówki i stopki pierwszej strony oraz stron parzystych i nieparzystych.
+Tak, `ClearHeadersFooters()` usuwa wszystkie nagłówki i stopki, w tym nagłówki i stopki pierwszej strony oraz stron parzystych i nieparzystych.
 
 ### Czy Aspose.Words dla .NET jest kompatybilny ze wszystkimi wersjami dokumentów Word?
 
@@ -119,11 +121,16 @@ Tak, Aspose.Words obsługuje różne formaty plików Word, w tym DOC, DOCX, RTF 
 
 ### Czy mogę wypróbować Aspose.Words dla .NET za darmo?
 
- Tak, możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

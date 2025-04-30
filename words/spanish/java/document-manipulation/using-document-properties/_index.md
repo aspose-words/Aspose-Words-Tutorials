@@ -139,7 +139,7 @@ public void useControlCharacters()
 {
     final String TEXT = "test\r";
 
-    // Reemplace el carácter de control "\\r" con "\\r\\n".
+    // Reemplace el carácter de control "\r" con "\r\n".
     String replace = TEXT.replace(ControlChar.CR, ControlChar.CR_LF);
 }
 ```

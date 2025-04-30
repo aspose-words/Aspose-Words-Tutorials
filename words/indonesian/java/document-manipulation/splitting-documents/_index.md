@@ -1,14 +1,16 @@
 ---
-title: Memisahkan Dokumen di Aspose.Words untuk Java
-linktitle: Memisahkan Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara membagi dokumen secara efisien di Aspose.Words untuk Java. Jelajahi teknik untuk judul, bagian, dan rentang halaman.
-weight: 24
-url: /id/java/document-manipulation/splitting-documents/
+"description": "Pelajari cara membagi dokumen secara efisien di Aspose.Words untuk Java. Jelajahi teknik untuk judul, bagian, dan rentang halaman."
+"linktitle": "Memisahkan Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Memisahkan Dokumen di Aspose.Words untuk Java"
+"url": "/id/java/document-manipulation/splitting-documents/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Memisahkan Dokumen di Aspose.Words untuk Java
@@ -23,7 +25,7 @@ Dalam panduan lengkap ini, kita akan menyelami dunia pemisahan dokumen menggunak
 Salah satu persyaratan umum saat menangani dokumen besar adalah membaginya berdasarkan judul. Aspose.Words untuk Java mempermudah tugas ini. Mari kita lihat cuplikan kode untuk membagi dokumen berdasarkan judul.
 
 ```java
-//Kode Java untuk membagi dokumen berdasarkan judul menggunakan Aspose.Words untuk Java
+// Kode Java untuk membagi dokumen berdasarkan judul menggunakan Aspose.Words untuk Java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
 HtmlSaveOptions options = new HtmlSaveOptions();
 options.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
@@ -102,7 +104,7 @@ Dalam panduan ini, kami telah menjajaki berbagai teknik untuk membagi dokumen di
 
 ### Bagaimana saya bisa memulai dengan Aspose.Words untuk Java?
 
- Memulai Aspose.Words untuk Java itu mudah. Anda dapat mengunduh pustaka dari situs web Aspose dan mengikuti dokumentasi untuk petunjuk pemasangan dan penggunaan. Kunjungi[Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/) untuk lebih jelasnya.
+Memulai Aspose.Words untuk Java itu mudah. Anda dapat mengunduh pustaka dari situs web Aspose dan mengikuti dokumentasi untuk petunjuk pemasangan dan penggunaan. Kunjungi [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/) untuk lebih jelasnya.
 
 ### Apa saja fitur utama Aspose.Words untuk Java?
 
@@ -118,10 +120,15 @@ Tentu saja. Aspose.Words untuk Java memungkinkan Anda menggabungkan dokumen terp
 
 ### Di mana saya dapat mengakses Aspose.Words untuk Java dan mulai menggunakannya?
 
- Anda dapat mengakses dan mengunduh Aspose.Words untuk Java dari situs web Aspose. Mulailah hari ini dengan mengunjungi[Unduh Aspose.Words untuk Java](https://releases.aspose.com/words/java/).
+Anda dapat mengakses dan mengunduh Aspose.Words untuk Java dari situs web Aspose. Mulailah hari ini dengan mengunjungi [Unduh Aspose.Words untuk Java](https://releases.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

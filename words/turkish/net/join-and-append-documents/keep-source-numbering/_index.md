@@ -1,27 +1,29 @@
 ---
-title: Kaynak Numaralandırmasını Koru
-linktitle: Kaynak Numaralandırmasını Koru
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak biçimlendirmeyi koruyarak belgeleri nasıl içe aktaracağınızı öğrenin. Kod örnekleriyle adım adım kılavuz.
-weight: 10
-url: /tr/net/join-and-append-documents/keep-source-numbering/
+"description": "Aspose.Words for .NET kullanarak biçimlendirmeyi koruyarak belgeleri nasıl içe aktaracağınızı öğrenin. Kod örnekleriyle adım adım kılavuz."
+"linktitle": "Kaynak Numaralandırmasını Koru"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Kaynak Numaralandırmasını Koru"
+"url": "/tr/net/join-and-append-documents/keep-source-numbering/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kaynak Numaralandırmasını Koru
 
 ## giriiş
 
- Aspose.Words for .NET ile çalışırken, biçimlendirmeyi koruyarak belgeleri bir kaynaktan diğerine aktarmak, şu şekilde verimli bir şekilde gerçekleştirilebilir:`NodeImporter` sınıf. Bu eğitim sizi adım adım süreçte yönlendirecektir.
+.NET için Aspose.Words ile çalışırken, biçimlendirmeyi koruyarak belgeleri bir kaynaktan diğerine aktarmak, şu şekilde verimli bir şekilde gerçekleştirilebilir: `NodeImporter` sınıf. Bu eğitim sizi adım adım süreçte yönlendirecektir.
 
 ## Ön koşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 - Bilgisayarınızda Visual Studio yüklü.
--  Aspose.Words for .NET yüklü. Eğer yüklü değilse, şuradan indirin:[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET yüklü. Eğer yüklü değilse, şuradan indirin: [Burada](https://releases.aspose.com/words/net/).
 - C# ve .NET programlamanın temel bilgisi.
 
 ## Ad Alanlarını İçe Aktar
@@ -42,7 +44,7 @@ using Aspose.Words.Tables;
 Kaynak örneklerini oluşturun (`srcDoc`) ve varış noktası (`dstDoc`) belgeleri.
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document srcDoc = new Document(dataDir + "Document source.docx");
@@ -79,12 +81,12 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.KeepSourceNumbering.docx");
 
 ## Çözüm
 
- Sonuç olarak, biçimlendirmeyi koruyarak belgeleri içe aktarmak için Aspose.Words for .NET'i kullanmak basittir.`NodeImporter` sınıf. Bu yöntem, belgelerinizin orijinal görünümünü ve yapısını sorunsuz bir şekilde korumasını sağlar.
+Sonuç olarak, biçimlendirmeyi koruyarak belgeleri içe aktarmak için Aspose.Words for .NET'i kullanmak, aşağıdakilerle basittir: `NodeImporter` sınıf. Bu yöntem, belgelerinizin orijinal görünümünü ve yapısını sorunsuz bir şekilde korumasını sağlar.
 
 ## SSS
 
 ### Farklı biçimlendirme stillerine sahip belgeleri içe aktarabilir miyim?
- Evet,`NodeImporter` sınıf, çeşitli biçimlendirme stillerine sahip belgelerin içe aktarılmasını destekler.
+Evet, `NodeImporter` sınıf, çeşitli biçimlendirme stillerine sahip belgelerin içe aktarılmasını destekler.
 
 ### Belgelerim karmaşık tablolar ve resimler içeriyorsa ne yapmalıyım?
 Aspose.Words for .NET, içe aktarma işlemleri sırasında tablolar ve resimler gibi karmaşık yapıları işler.
@@ -96,11 +98,16 @@ Aspose.Words, sorunsuz entegrasyon için .NET Framework ve .NET Core sürümleri
 İçe aktarma işlemi sırasında oluşabilecek istisnaları ele almak için try-catch bloklarını kullanın.
 
 ### Aspose.Words for .NET hakkında daha detaylı dokümanları nerede bulabilirim?
- Ziyaret edin[belgeleme](https://reference.aspose.com/words/net/) kapsamlı kılavuzlar ve API referansları için.
+Ziyaret edin [belgeleme](https://reference.aspose.com/words/net/) kapsamlı kılavuzlar ve API referansları için.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

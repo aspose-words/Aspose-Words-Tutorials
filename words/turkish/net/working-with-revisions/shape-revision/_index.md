@@ -1,14 +1,16 @@
 ---
-title: Şekil Revizyonu
-linktitle: Şekil Revizyonu
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kapsamlı kılavuzla Aspose.Words for .NET kullanarak Word belgelerindeki şekil revizyonlarını nasıl ele alacağınızı öğrenin. Değişiklikleri izleme, şekil ekleme ve daha fazlasında ustalaşın.
-weight: 10
-url: /tr/net/working-with-revisions/shape-revision/
+"description": "Bu kapsamlı kılavuzla Aspose.Words for .NET kullanarak Word belgelerindeki şekil revizyonlarını nasıl ele alacağınızı öğrenin. Değişiklikleri izleme, şekil ekleme ve daha fazlasında ustalaşın."
+"linktitle": "Şekil Revizyonu"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Şekil Revizyonu"
+"url": "/tr/net/working-with-revisions/shape-revision/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Şekil Revizyonu
@@ -21,7 +23,7 @@ Word belgelerini programatik olarak düzenlemek, özellikle şekilleri ele almak
 
 Koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
--  Aspose.Words for .NET: Aspose.Words kütüphanesinin yüklü olduğundan emin olun.[buradan indirin](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Aspose.Words kütüphanesinin yüklü olduğundan emin olun. [buradan indirin](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio gibi bir geliştirme ortamı kurmuş olmanız gerekir.
 - C# Temel Anlayışı: C# programlama dili ve nesne yönelimli programlamanın temel kavramlarına aşinalık.
 - Word Belgesi: Üzerinde çalışabileceğiniz bir Word belgesi veya eğitim sırasında kendiniz bir tane oluşturabilirsiniz.
@@ -115,7 +117,7 @@ shapes = doc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().ToList();
 
 ## Çözüm
 
-Ve işte karşınızda! Aspose.Words for .NET kullanarak Word belgelerindeki şekil revizyonlarını nasıl yöneteceğinizi başarıyla öğrendiniz. İster belge şablonlarını yönetiyor, ister raporları otomatikleştiriyor veya sadece değişiklikleri takip ediyor olun, bu beceriler paha biçilmezdir. Bu adım adım kılavuzu izleyerek, yalnızca temelleri öğrenmekle kalmadınız, aynı zamanda daha gelişmiş belge işleme tekniklerine ilişkin içgörü de kazandınız.
+Ve işte karşınızda! Aspose.Words for .NET kullanarak Word belgelerindeki şekil revizyonlarını nasıl ele alacağınızı başarıyla öğrendiniz. İster belge şablonlarını yönetiyor, ister raporları otomatikleştiriyor veya sadece değişiklikleri takip ediyor olun, bu beceriler paha biçilmezdir. Bu adım adım kılavuzu izleyerek, yalnızca temelleri öğrenmekle kalmadınız, aynı zamanda daha gelişmiş belge işleme tekniklerine ilişkin içgörü de kazandınız.
 
 ## SSS
 
@@ -126,16 +128,21 @@ Aspose.Words for .NET, geliştiricilerin C# kullanarak Word belgelerini programl
 Evet, Aspose.Words for .NET metin, tablolar ve daha fazlası dahil olmak üzere çeşitli öğelerdeki değişikliklerin izlenmesini destekler.
 
 ### Aspose.Words for .NET'in ücretsiz deneme sürümünü nasıl edinebilirim?
- Aspose.Words for .NET'in ücretsiz deneme sürümünü edinebilirsiniz[Burada](https://releases.aspose.com/).
+Aspose.Words for .NET'in ücretsiz deneme sürümünü edinebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Revizyonları programatik olarak kabul etmek veya reddetmek mümkün müdür?
 Evet, Aspose.Words for .NET, revizyonları programlı olarak kabul etmek veya reddetmek için yöntemler sağlar.
 
 ### Aspose.Words for .NET'i C# dışındaki diğer .NET dilleriyle birlikte kullanabilir miyim?
 Kesinlikle! Aspose.Words for .NET, VB.NET ve F# dahil olmak üzere herhangi bir .NET diliyle kullanılabilir.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

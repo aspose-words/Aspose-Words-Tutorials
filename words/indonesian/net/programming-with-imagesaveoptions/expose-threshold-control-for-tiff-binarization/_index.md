@@ -1,14 +1,16 @@
 ---
-title: Mengekspos Kontrol Ambang Batas Untuk Binarisasi Tiff
-linktitle: Mengekspos Kontrol Ambang Batas Untuk Binarisasi Tiff
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengekspos kontrol ambang batas untuk binerisasi TIFF dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini.
-weight: 10
-url: /id/net/programming-with-imagesaveoptions/expose-threshold-control-for-tiff-binarization/
+"description": "Pelajari cara mengekspos kontrol ambang batas untuk binerisasi TIFF dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini."
+"linktitle": "Mengekspos Kontrol Ambang Batas Untuk Binarisasi Tiff"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Mengekspos Kontrol Ambang Batas Untuk Binarisasi Tiff"
+"url": "/id/net/programming-with-imagesaveoptions/expose-threshold-control-for-tiff-binarization/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengekspos Kontrol Ambang Batas Untuk Binarisasi Tiff
@@ -21,7 +23,7 @@ Pernahkah Anda bertanya-tanya bagaimana cara mengontrol ambang batas untuk biner
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1.  Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Aspose merilis halaman](https://releases.aspose.com/words/net/) Jika Anda belum memiliki lisensi, Anda bisa mendapatkannya[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Aspose merilis halaman](https://releases.aspose.com/words/net/)Jika Anda belum memiliki lisensi, Anda bisa mendapatkannya [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 2. Lingkungan Pengembangan: Visual Studio atau IDE lain yang kompatibel dengan .NET.
 3. Pengetahuan Dasar C#: Sedikit pengetahuan tentang C# akan sangat membantu, tetapi jangan khawatir jika Anda baru—kami akan menguraikan semuanya.
 
@@ -43,21 +45,21 @@ Pertama-tama, Anda perlu mengatur jalur ke direktori dokumen Anda. Di sinilah do
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda.
 
 ## Langkah 2: Muat Dokumen Anda
 
- Selanjutnya, kita perlu memuat dokumen yang ingin kita proses. Dalam contoh ini, kita akan menggunakan dokumen bernama`Rendering.docx`.
+Selanjutnya, kita perlu memuat dokumen yang ingin kita proses. Dalam contoh ini, kita akan menggunakan dokumen bernama `Rendering.docx`.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Baris kode ini membuat yang baru`Document` objek dan memuat berkas yang ditentukan.
+Baris kode ini membuat yang baru `Document` objek dan memuat berkas yang ditentukan.
 
 ## Langkah 3: Konfigurasikan Opsi Penyimpanan Gambar
 
- Sekarang tibalah bagian yang menyenangkan! Kita perlu mengonfigurasi opsi penyimpanan gambar untuk mengontrol binerisasi TIFF. Kita akan menggunakan`ImageSaveOptions` kelas untuk mengatur berbagai properti.
+Sekarang tibalah bagian yang menyenangkan! Kita perlu mengonfigurasi opsi penyimpanan gambar untuk mengontrol binerisasi TIFF. Kita akan menggunakan `ImageSaveOptions` kelas untuk mengatur berbagai properti.
 
 ```csharp
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Tiff)
@@ -70,9 +72,9 @@ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Tiff)
 ```
 
 Mari kita uraikan ini:
--  TiffCompression: Mengatur jenis kompresi untuk gambar TIFF. Di sini, kami menggunakan`Ccitt3`.
--  ImageColorMode: Mengatur mode warna. Kami mengaturnya ke`Grayscale` untuk membuat gambar skala abu-abu.
--  TiffBinarizationMethod: Menentukan metode binerisasi. Kami menggunakan`FloydSteinbergDithering`.
+- TiffCompression: Mengatur jenis kompresi untuk gambar TIFF. Di sini, kami menggunakan `Ccitt3`.
+- ImageColorMode: Mengatur mode warna. Kami mengaturnya ke `Grayscale` untuk membuat gambar skala abu-abu.
+- TiffBinarizationMethod: Menentukan metode binerisasi. Kami menggunakan `FloydSteinbergDithering`.
 - ThresholdForFloydSteinbergDithering: Mengatur ambang batas untuk dithering Floyd-Steinberg. Nilai yang lebih tinggi berarti piksel hitam yang lebih sedikit.
 
 ## Langkah 4: Simpan Dokumen sebagai TIFF
@@ -104,11 +106,16 @@ Ya, Aspose.Words mendukung berbagai metode kompresi TIFF, seperti LZW, CCITT4, d
 Aspose.Words untuk .NET adalah pustaka komersial, tetapi Anda bisa mendapatkan uji coba gratis atau lisensi sementara untuk mengevaluasi fitur-fiturnya.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Anda dapat menemukan dokumentasi lengkap untuk Aspose.Words untuk .NET di[Situs web Aspose](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi lengkap untuk Aspose.Words untuk .NET di [Situs web Aspose](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

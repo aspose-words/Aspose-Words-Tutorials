@@ -1,14 +1,16 @@
 ---
-title: Penandaan Air Dokumen dan Pengaturan Halaman
-linktitle: Penandaan Air Dokumen dan Pengaturan Halaman
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menerapkan tanda air dan mengatur konfigurasi halaman dengan Aspose.Words untuk Java. Panduan lengkap dengan kode sumber.
-weight: 13
-url: /id/java/document-styling/document-watermarking-page-setup/
+"description": "Pelajari cara menerapkan tanda air dan mengatur konfigurasi halaman dengan Aspose.Words untuk Java. Panduan lengkap dengan kode sumber."
+"linktitle": "Penandaan Air Dokumen dan Pengaturan Halaman"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Penandaan Air Dokumen dan Pengaturan Halaman"
+"url": "/id/java/document-styling/document-watermarking-page-setup/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Penandaan Air Dokumen dan Pengaturan Halaman
@@ -140,16 +142,21 @@ doc.getFirstSection().getPageSetup().setPageStartingNumber(5);
 
 ### Bagaimana cara meratakan tengah teks di header atau footer?
 
-Anda dapat menyelaraskan teks di tengah header atau footer dengan menggunakan metode setAlignment pada objek Paragraph di dalam header atau footer.
+Anda dapat meratakan tengah teks di header atau footer dengan menggunakan metode setAlignment pada objek Paragraph di dalam header atau footer.
 
 ## Kesimpulan
 
 Dalam panduan lengkap ini, kami telah menjelajahi seni pemberian tanda air pada dokumen dan pengaturan halaman menggunakan Aspose.Words untuk Java. Berbekal potongan kode sumber dan wawasan yang disediakan, kini Anda memiliki alat untuk memanipulasi dan memformat dokumen Anda dengan cermat. Aspose.Words untuk Java memberdayakan Anda untuk membuat dokumen bermerek profesional yang disesuaikan dengan spesifikasi persis Anda.
 
 Menguasai manipulasi dokumen merupakan keterampilan yang berharga bagi para pengembang, dan Aspose.Words untuk Java adalah teman tepercaya Anda dalam perjalanan ini. Mulailah membuat dokumen yang menakjubkan hari ini!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

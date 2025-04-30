@@ -1,31 +1,35 @@
 ---
-title: Crie um documento de Word com regra horizontal em .NET
-weight: 7700
-limit: 
-description: Aprenda a criar um documento do Word em .NET usando Aspose.Words e insira uma regra horizontal com exemplos de código simples.
-keywords: [Aspose.Words, .NET, Word document, horizontal rule, DocumentBuilder, example, code snippet]
-url: /pt/net/add-content-using-document-builder/insert-horizontal-rule/
+"description": "Aprenda a criar um documento do Word no .NET usando o Aspose.Words e inserir uma regra horizontal com exemplos de código simples."
+"title": "Criar documento do Word com régua horizontal no .NET"
+"url": "/pt/net/add-content-using-document-builder/insert-horizontal-rule/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crie documento de texto com regra horizontal
-Este exemplo demonstra o uso de Aspose.Words para .NET para criar um documento Word e adicionar uma regra horizontal usando DocumentBuilder. Siga os passos abaixo para aprender como formatar seus documentos de forma eficaz.
+# Criar documento do Word com régua horizontal
+Este exemplo demonstra o uso do Aspose.Words para .NET para criar um documento do Word e adicionar uma régua horizontal usando o DocumentBuilder. Siga os passos abaixo para aprender a formatar seus documentos de forma eficaz.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-horizontal-rule" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instruções de instalação
-1. Instale Aspose.Words: Use o Gerente de Pacotes NuGet no Visual Studio.
-   * Abre o teu projeto no Visual Studio.
-   * Clique com o botão direito no seu projeto no Explorador de Soluções.
-   * Selecione Gerenciar pacotes NuGet.
-   * Procura por`Aspose.Words`e instale-o.
+1. Instalar o Aspose.Words: Use o Gerenciador de Pacotes NuGet no Visual Studio.
+   - Abra seu projeto no Visual Studio.
+   - Clique com o botão direito do mouse no seu projeto no Solution Explorer.
+   - Selecione Gerenciar pacotes NuGet.
+   - Procurar `Aspose.Words` e instalá-lo.
 
-2. Adicionar Diretiva de Uso: No seu arquivo de código, inclua a seguinte diretiva para usar as classes Aspose.Words:
+2. Adicione a diretiva Using: no seu arquivo de código, inclua a seguinte diretiva para usar as classes Aspose.Words:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
@@ -33,11 +37,15 @@ Este exemplo demonstra o uso de Aspose.Words para .NET para criar um documento W
 
 
 ## Veja também
-[Aspose.Word para Documentação .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word para Referências .NET](https://reference.aspose.com/words/net/)
+[Documentação do Aspose.Word para .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word para referências .NET](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

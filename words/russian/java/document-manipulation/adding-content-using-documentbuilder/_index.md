@@ -1,14 +1,16 @@
 ---
-title: Добавление контента с помощью DocumentBuilder в Aspose.Words для Java
-linktitle: Добавление контента с помощью DocumentBuilder
-second_title: API обработки документов Java Aspose.Words
-description: Мастер создания документов с Aspose.Words для Java. Пошаговое руководство по добавлению текста, таблиц, изображений и многого другого. Создавайте потрясающие документы Word без усилий.
-weight: 26
-url: /ru/java/document-manipulation/adding-content-using-documentbuilder/
+"description": "Мастер создания документов с Aspose.Words для Java. Пошаговое руководство по добавлению текста, таблиц, изображений и многого другого. Создавайте потрясающие документы Word без усилий."
+"linktitle": "Добавление контента с помощью DocumentBuilder"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Добавление контента с помощью DocumentBuilder в Aspose.Words для Java"
+"url": "/ru/java/document-manipulation/adding-content-using-documentbuilder/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавление контента с помощью DocumentBuilder в Aspose.Words для Java
@@ -20,7 +22,7 @@ url: /ru/java/document-manipulation/adding-content-using-documentbuilder/
 
 ## Предпосылки
 
- Прежде чем начать, убедитесь, что в вашем проекте установлена библиотека Aspose.Words for Java. Вы можете загрузить ее с[здесь](https://releases.aspose.com/words/java/).
+Прежде чем начать, убедитесь, что в вашем проекте установлена библиотека Aspose.Words for Java. Вы можете загрузить ее с [здесь](https://releases.aspose.com/words/java/).
 
 ## Добавление текста
 
@@ -41,7 +43,7 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-//Начать таблицу
+// Начать таблицу
 Table table = builder.startTable();
 
 // Вставить ячейки и содержимое
@@ -51,7 +53,7 @@ builder.write("Cell 1");
 builder.insertCell();
 builder.write("Cell 2");
 
-// Завершить стол
+// Конец таблицы
 builder.endTable();
 
 // Сохранить документ
@@ -64,7 +66,7 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте горизонтальную линейку
+// Вставьте горизонтальную линию
 builder.insertHorizontalRule();
 
 // Сохранить документ
@@ -221,7 +223,7 @@ doc.save("path/to/your/document.docx");
 
 ## Шаг 10: Перемещение курсора
 
- Вы можете управлять положением курсора в документе, используя различные методы, такие как:`moveToParagraph`, `moveToCell`и многое другое. Вот пример:
+Вы можете управлять положением курсора в документе, используя различные методы, такие как: `moveToParagraph`, `moveToCell`и многое другое. Вот пример:
 
 ```java
 Document doc = new Document();
@@ -245,11 +247,11 @@ builder.writeln("This is the 3rd paragraph.");
 
 ### В: Что такое Aspose.Words для Java?
 
-A: Aspose.Words for Java — это библиотека Java, которая позволяет разработчикам создавать, изменять и манипулировать документами Microsoft Word программным способом. Она предоставляет широкий спектр функций для создания документов, форматирования и вставки контента.
+A: Aspose.Words for Java — это библиотека Java, которая позволяет разработчикам создавать, изменять и манипулировать документами Microsoft Word программным способом. Она предоставляет широкий спектр функций для создания, форматирования и вставки контента документов.
 
 ### В: Как добавить оглавление в документ?
 
-A: Чтобы добавить оглавление, используйте`DocumentBuilder` для вставки поля оглавления в ваш документ. Обязательно обновите поля в документе после добавления контента для заполнения оглавления. Вот пример:
+A: Чтобы добавить оглавление, используйте `DocumentBuilder` для вставки поля оглавления в ваш документ. Обязательно обновите поля в документе после добавления контента для заполнения оглавления. Вот пример:
 
 ```java
 Document doc = new Document();
@@ -267,7 +269,7 @@ doc.updateFields();
 
 ### В: Как вставить изображения в документ с помощью Aspose.Words для Java?
 
- A: Вы можете вставлять изображения, как встроенные, так и плавающие, используя`DocumentBuilder`. Вот примеры обоих вариантов:
+A: Вы можете вставлять изображения, как встроенные, так и плавающие, используя `DocumentBuilder`. Вот примеры обоих вариантов:
 
 #### Встроенное изображение:
 
@@ -291,7 +293,7 @@ builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN,
 
 ### В: Могу ли я форматировать текст и абзацы при добавлении контента?
 
- A: Да, вы можете форматировать текст и абзацы с помощью`DocumentBuilder`. Вы можете задать свойства шрифта, выравнивание абзаца, отступы и многое другое. Вот пример:
+A: Да, вы можете форматировать текст и абзацы с помощью `DocumentBuilder`. Вы можете задать свойства шрифта, выравнивание абзаца, отступы и многое другое. Вот пример:
 
 ```java
 Document doc = new Document();
@@ -316,7 +318,7 @@ builder.writeln("This is a formatted paragraph.");
 
 ### В: Как переместить курсор в определенное место в документе?
 
- A: Вы можете управлять положением курсора, используя такие методы, как`moveToParagraph`, `moveToCell`и многое другое. Вот пример:
+A: Вы можете управлять положением курсора, используя такие методы, как `moveToParagraph`, `moveToCell`и многое другое. Вот пример:
 
 ```java
 Document doc = new Document();
@@ -329,10 +331,15 @@ builder.moveToParagraph(2, 0);
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-Вот некоторые общие вопросы и ответы, которые помогут вам начать работу с Aspose.Words for Java's DocumentBuilder. Если у вас есть дополнительные вопросы или вам нужна дополнительная помощь, обратитесь к[библиотечная документация](https://reference.aspose.com/words/java/) или обратитесь за помощью к сообществу Aspose.Words и ресурсам поддержки.
+Вот некоторые общие вопросы и ответы, которые помогут вам начать работу с Aspose.Words for Java's DocumentBuilder. Если у вас есть дополнительные вопросы или вам нужна дополнительная помощь, обратитесь к [документация библиотеки](https://reference.aspose.com/words/java/) или обратитесь за помощью к сообществу Aspose.Words и ресурсам поддержки.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

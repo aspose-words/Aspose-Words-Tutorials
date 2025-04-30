@@ -1,33 +1,35 @@
 ---
-title: Alkalmazza a körvonalszegélyt
-linktitle: Alkalmazza a körvonalszegélyt
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan alkalmazhat vázlatszegélyt egy Word-táblázatra az Aspose.Words for .NET használatával. Kövesse lépésről lépésre útmutatónkat a tökéletes táblázatformázás érdekében.
-weight: 10
-url: /hu/net/programming-with-table-styles-and-formatting/apply-outline-border/
+"description": "Tanuld meg, hogyan alkalmazhatsz körvonalas szegélyt egy táblázatra Wordben az Aspose.Words for .NET segítségével. Kövesd lépésről lépésre szóló útmutatónkat a tökéletes táblázatformázáshoz."
+"linktitle": "Körvonal szegélyének alkalmazása"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Körvonal szegélyének alkalmazása"
+"url": "/hu/net/programming-with-table-styles-and-formatting/apply-outline-border/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Alkalmazza a körvonalszegélyt
+# Körvonal szegélyének alkalmazása
 
 ## Bevezetés
 
-mai oktatóanyagban az Aspose.Words for .NET segítségével történő dokumentumkezelés világába merülünk. Pontosabban, meg fogjuk tanulni, hogyan lehet vázlatszegélyt alkalmazni egy Word-dokumentum táblázatára. Ez egy fantasztikus készség az eszköztárban, ha gyakran dolgozik automatizált dokumentumgenerálással és -formázással. Kezdjük hát ezen az úton, hogy asztalait ne csak funkcionálissá, hanem vizuálisan is vonzóvá tegyük.
+mai oktatóanyagban az Aspose.Words for .NET segítségével merülünk el a dokumentummanipuláció világában. Konkrétan azt fogjuk megtanulni, hogyan alkalmazhatunk körvonalas szegélyt egy táblázatra egy Word-dokumentumban. Ez egy fantasztikus készség, amit érdemes beépíteni az eszköztáradba, ha gyakran dolgozol automatizált dokumentumgenerálással és -formázással. Kezdjük el tehát ezt az utat, hogy a táblázataid ne csak funkcionálisak, hanem vizuálisan is vonzóak is legyenek.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a kódba, néhány dologra lesz szüksége:
+Mielőtt belevágnánk a kódba, van néhány dolog, amire szükséged lesz:
 
-1.  Aspose.Words for .NET: Az Aspose.Words for .NET-re telepítve kell lennie. Letöltheti[itt](https://releases.aspose.com/words/net/).
-2. Fejlesztési környezet: Megfelelő fejlesztői környezet, mint a Visual Studio.
-3. Alapvető C# ismerete: A C# alapvető ismerete segít az oktatóanyag követésében.
+1. Aspose.Words for .NET: Telepítenie kell az Aspose.Words for .NET programot. Letöltheti [itt](https://releases.aspose.com/words/net/).
+2. Fejlesztői környezet: Egy megfelelő fejlesztői környezet, például a Visual Studio.
+3. C# alapismeretek: A C# alapvető ismerete segít a tutoriál követésében.
 
 ## Névterek importálása
 
-Először is győződjön meg arról, hogy a szükséges névtereket importálta. Ez kulcsfontosságú az Aspose.Words funkcióinak eléréséhez.
+Először is győződj meg róla, hogy importáltad a szükséges névtereket. Ez elengedhetetlen az Aspose.Words funkcióinak eléréséhez.
 
 ```csharp
 using System;
@@ -36,11 +38,11 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-Bontsuk le a folyamatot egyszerű, kezelhető lépésekre.
+Bontsuk le a folyamatot egyszerű, könnyen követhető lépésekre.
 
-## 1. lépés: Töltse be a dokumentumot
+## 1. lépés: A dokumentum betöltése
 
-Először is be kell töltenünk a Word dokumentumot, amely a formázni kívánt táblázatot tartalmazza.
+Először is be kell töltenünk azt a Word dokumentumot, amelyik a formázni kívánt táblázatot tartalmazza.
 
 ```csharp
 // A dokumentumkönyvtár elérési útja
@@ -49,19 +51,19 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- Ebben a lépésben a`Document` osztályt az Aspose.Words-ből egy meglévő dokumentum betöltéséhez. Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a tényleges elérési úttal, ahol a dokumentumot tárolják.
+Ebben a lépésben a következőt használjuk: `Document` osztály az Aspose.Words-ből egy meglévő dokumentum betöltéséhez. Csere `"YOUR DOCUMENT DIRECTORY"` dokumentum tényleges tárolási útvonalával.
 
-## 2. lépés: Nyissa meg a táblázatot
+## 2. lépés: Hozzáférés a táblázathoz
 
-Ezután el kell érnünk a formázni kívánt táblázatot. 
+Ezután hozzá kell férnünk ahhoz a konkrét táblázathoz, amelyet formázni szeretnénk. 
 
 ```csharp
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 ```
 
- Itt,`GetChild` metódus lekéri a dokumentum első táblázatát. A paraméterek`NodeType.Table, 0, true` győződjön meg arról, hogy a megfelelő csomóponttípust kapjuk.
+Itt, `GetChild` metódus a dokumentum első táblázatát kéri le. A paraméterek `NodeType.Table, 0, true` győződjünk meg arról, hogy a megfelelő csomóponttípust kapjuk.
 
-## 3. lépés: Igazítsa a táblázatot
+## 3. lépés: A táblázat igazítása
 
 Most igazítsuk középre a táblázatot az oldalon.
 
@@ -69,21 +71,21 @@ Most igazítsuk középre a táblázatot az oldalon.
 table.Alignment = TableAlignment.Center;
 ```
 
-Ez a lépés biztosítja, hogy az asztal szépen középre kerüljön, így professzionális megjelenést kölcsönöz neki.
+Ez a lépés biztosítja, hogy az asztal szépen középre legyen igazítva, professzionális megjelenést kölcsönözve neki.
 
 ## 4. lépés: Törölje a meglévő határokat
 
-Mielőtt új határokat alkalmaznánk, törölnünk kell a meglévő határokat.
+Mielőtt új szegélyeket alkalmaznánk, el kell távolítanunk a meglévőket.
 
 ```csharp
 table.ClearBorders();
 ```
 
-A szegélyek törlése biztosítja, hogy új szegélyeink tisztán, a régi stílusok beavatkozása nélkül kerüljenek alkalmazásra.
+A szegélyek kitisztítása biztosítja, hogy az új szegélyek tisztán kerüljenek felhelyezésre, a régi stílusok zavarása nélkül.
 
-## 5. lépés: Állítsa be a körvonalhatárokat
+## 5. lépés: Vázlatszegélyek beállítása
 
-Most alkalmazzuk a zöld körvonalszegélyeket a táblázatra.
+Most alkalmazzuk a zöld körvonalas szegélyeket a táblázatra.
 
 ```csharp
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
@@ -92,19 +94,19 @@ table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 ```
 
- Minden szegélytípus (bal, jobb, felső, alsó) egyedileg beállítható. használjuk`LineStyle.Single` folytonos vonalhoz,`1.5` a vonalszélességhez, és`Color.Green` a szegély színéhez.
+Minden szegélytípust (bal, jobb, felső, alsó) külön állítunk be. `LineStyle.Single` egy folytonos vonalért, `1.5` a vonalvastagsághoz, és `Color.Green` a szegély színéhez.
 
-## 6. lépés: Alkalmazza a cellaárnyékolást
+## 6. lépés: Cellaárnyékolás alkalmazása
 
-A táblázat látványosabbá tétele érdekében töltsük ki a cellákat világoszöld színnel.
+A táblázat vizuálisan vonzóbbá tétele érdekében töltsük ki a cellákat világoszöld színnel.
 
 ```csharp
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 ```
 
- Itt,`SetShading` arra szolgál, hogy egyszínű világoszöld színt vigyen fel a cellákra, így az asztal kiemelkedik.
+Itt, `SetShading` a cellákra egyszínű világoszöld színt alkalmaznak, ami kiemeli a táblázatot.
 
-## 7. lépés: Mentse el a dokumentumot
+## 7. lépés: A dokumentum mentése
 
 Végül mentse el a módosított dokumentumot.
 
@@ -112,33 +114,38 @@ Végül mentse el a módosított dokumentumot.
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
 ```
 
-Ez a lépés elmenti a dokumentumot az alkalmazott formázással. Megnyitva láthatja a gyönyörűen formázott táblázatot.
+Ez a lépés a formázással menti a dokumentumot. Megnyithatja, hogy megtekinthesse a szépen formázott táblázatot.
 
 ## Következtetés
 
-És megvan! Az alábbi lépések végrehajtásával sikeresen alkalmazott körvonalszegélyt egy Word-dokumentum táblázatához az Aspose.Words for .NET segítségével. Ez az oktatóanyag a dokumentum betöltését, a táblázat elérését, igazítását, a meglévő szegélyek törlését, új szegélyek alkalmazását, cellaárnyékolás hozzáadását és végül a dokumentum mentését tárgyalta. 
+És íme! A következő lépéseket követve sikeresen alkalmaztál egy körvonalas szegélyt egy Word-dokumentumban lévő táblázatra az Aspose.Words for .NET segítségével. Ez az oktatóanyag a dokumentum betöltését, a táblázat elérését, igazítását, a meglévő szegélyek törlését, új szegélyek alkalmazását, cellaárnyékolás hozzáadását és végül a dokumentum mentését ismertette. 
 
-Ezekkel a készségekkel javíthatja a táblázatok vizuális megjelenését, így dokumentumait professzionálisabbá és vonzóbbá teheti. Boldog kódolást!
+Ezekkel a készségekkel javíthatod a táblázataid vizuális megjelenítését, így dokumentumaid professzionálisabbak és vonzóbbak lesznek. Jó programozást!
 
 ## GYIK
 
 ### Alkalmazhatok különböző stílusokat a táblázat minden szegélyére?  
- Igen, az egyes szegélyekre különböző stílusokat és színeket alkalmazhat a paraméterek beállításával`SetBorder` módszer.
+Igen, az egyes szegélyekre különböző stílusokat és színeket alkalmazhat a paraméterek módosításával a `SetBorder` módszer.
 
 ### Hogyan tudom megváltoztatni a szegély szélességét?  
- A szélességet a harmadik paraméter módosításával módosíthatja a`SetBorder` módszer. Például,`1.5` 1,5 pontos szélességet állít be.
+A szélességet a harmadik paraméter módosításával módosíthatja a `SetBorder` módszer. Például, `1.5` 1,5 pont szélességet állít be.
 
-### Lehetséges-e árnyékolást alkalmazni az egyes cellákra?  
- Igen, az egyes cellákra árnyékolást alkalmazhat az egyes cellák elérésével és a`SetShading` módszer.
+### Lehetséges árnyékolást alkalmazni az egyes cellákra?  
+Igen, az egyes cellákra árnyékolást alkalmazhat úgy, hogy minden egyes cellához hozzáfér, és a `SetShading` módszer.
 
-### Használhatok más színeket a szegélyekhez és az árnyékoláshoz?  
- Teljesen! Bármilyen elérhető színt használhat`System.Drawing.Color` osztály.
+### Használhatok más színeket szegélyekhez és árnyékoláshoz?  
+Természetesen! Bármelyik elérhető színt használhatod. `System.Drawing.Color` osztály.
 
-### Hogyan igazíthatom vízszintesen középre a táblázatot?  
- A`table.Alignment = TableAlignment.Center;` sor a kódban vízszintesen középre helyezi a táblázatot az oldalon.
+### Hogyan tudom vízszintesen középre igazítani a táblázatot?  
+A `table.Alignment = TableAlignment.Center;` A kódban a sor vízszintesen középre igazítja a táblázatot az oldalon.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

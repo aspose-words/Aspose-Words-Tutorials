@@ -1,14 +1,16 @@
 ---
-title: Bekerja dengan Model AI Terbuka
-linktitle: Bekerja dengan Model AI Terbuka
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Dapatkan ringkasan dokumen yang efisien menggunakan Aspose.Words untuk .NET dengan model-model canggih OpenAI. Pelajari panduan lengkap ini sekarang.
-weight: 10
-url: /id/net/ai-powered-document-processing/working-with-open-ai-model/
+"description": "Dapatkan ringkasan dokumen yang efisien menggunakan Aspose.Words untuk .NET dengan model-model canggih OpenAI. Pelajari panduan lengkap ini sekarang."
+"linktitle": "Bekerja dengan Model AI Terbuka"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Bekerja dengan Model AI Terbuka"
+"url": "/id/net/ai-powered-document-processing/working-with-open-ai-model/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bekerja dengan Model AI Terbuka
@@ -25,7 +27,7 @@ Sebelum kita mulai dan menyelami kodenya, ada beberapa hal penting yang perlu An
 Pastikan Anda menjalankan versi .NET framework yang kompatibel dengan Aspose.Words. Secara umum, .NET 5.0 dan yang lebih baru seharusnya berfungsi dengan sempurna.
 
 ### Pustaka Aspose.Words untuk .NET
- Anda perlu mengunduh dan memasang pustaka Aspose.Words. Anda dapat mengunduhnya dari[tautan ini](https://releases.aspose.com/words/net/).
+Anda perlu mengunduh dan memasang pustaka Aspose.Words. Anda dapat mengunduhnya dari [tautan ini](https://releases.aspose.com/words/net/).
 
 ### Kunci API OpenAI
 Untuk mengintegrasikan model bahasa OpenAI untuk peringkasan dokumen, Anda memerlukan Kunci API. Anda bisa mendapatkannya dengan mendaftar di platform OpenAI dan mengambil kunci dari pengaturan akun Anda.
@@ -48,7 +50,7 @@ Anda dapat menambahkan paket Aspose.Words melalui NuGet Package Manager. Berikut
 
 ### Tambahkan Lingkungan Sistem
 
- Pastikan untuk menyertakan`System`namespace untuk menangani variabel lingkungan:
+Pastikan untuk menyertakan `System` namespace untuk menangani variabel lingkungan:
 ```csharp
 using System.Text;
 using Aspose.Words;
@@ -79,7 +81,7 @@ string MyDir = "YOUR_DOCUMENT_DIRECTORY";
 // Direktori Artefak Anda
 string ArtifactsDir = "YOUR_ARTIFACTS_DIRECTORY";
 ```
- Hal ini membuat kode Anda lebih mudah dikelola, karena Anda dapat dengan mudah mengubah jalur jika diperlukan.`MyDir` adalah tempat dokumen masukan Anda disimpan, sementara`ArtifactsDir` adalah tempat Anda menyimpan ringkasan yang dibuat.
+Hal ini membuat kode Anda lebih mudah dikelola, karena Anda dapat dengan mudah mengubah jalur jika diperlukan. `MyDir` adalah tempat dokumen masukan Anda disimpan, sementara `ArtifactsDir` adalah tempat Anda menyimpan ringkasan yang dibuat.
 
 ## Langkah 2: Muat Dokumen Anda
 
@@ -93,7 +95,7 @@ Pastikan nama dokumen Anda sesuai dengan yang ingin Anda gunakan, jika tidak, An
 
 ## Langkah 3: Dapatkan Kunci API Anda
 
-Setelah dokumen Anda dimuat, saatnya untuk mengambil kunci API OpenAI Anda. Anda akan mengambilnya dari variabel lingkungan untuk menjaganya tetap aman:
+Sekarang dokumen Anda telah dimuat, saatnya untuk mengambil kunci API OpenAI Anda. Anda akan mengambilnya dari variabel lingkungan untuk menjaganya tetap aman:
 ```csharp
 string apiKey = Environment.GetEnvironmentVariable("API_KEY");
 ```
@@ -116,7 +118,7 @@ Mari kita rangkum dokumen pertama terlebih dahulu. Di sinilah keajaiban terjadi:
 Document oneDocumentSummary = model.Summarize(firstDoc, new SummarizeOptions() { SummaryLength = SummaryLength.Short });
 oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
 ```
- Di sini, kami menggunakan`Summarize` metode model.`SummaryLength.Short`parameter menentukan bahwa kita menginginkan ringkasan singkat — sempurna untuk ikhtisar cepat!
+Di sini, kami menggunakan `Summarize` metode model. `SummaryLength.Short` parameter menentukan bahwa kita menginginkan ringkasan singkat — sempurna untuk ikhtisar cepat!
 
 ## Langkah 6: Ringkas Beberapa Dokumen
 
@@ -149,10 +151,15 @@ Tentu saja! Anda dapat meringkas beberapa dokumen dalam satu panggilan, yang ide
 Anda dapat menginstalnya melalui NuGet Package Manager di Visual Studio dengan mencari "Aspose.Words".
 
 ### Apakah ada uji coba gratis untuk Aspose.Words?  
- Ya, Anda dapat mengakses uji coba gratis Aspose.Words melalui[situs web](https://releases.aspose.com/).
+Ya, Anda dapat mengakses uji coba gratis Aspose.Words melalui [situs web](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

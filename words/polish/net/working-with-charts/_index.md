@@ -1,31 +1,43 @@
 ---
-title: Praca z wykresami w Aspose.Words dla .NET  
-weight: 10
-limit:
-description: Dowiedz się, jak tworzyć, dostosować i manipulować wykresami w dokumentach Word za pomocą Aspose.Words dla .NET. Uproszczaj wizualizację danych za pomocą potężnych funkcji.
-keywords:
-url: /pl/net/working-with-charts/
+"description": "Dowiedz się, jak tworzyć, dostosowywać i manipulować wykresami w dokumentach programu Word przy użyciu Aspose.Words dla platformy .NET. Uprość wizualizację danych dzięki zaawansowanym funkcjom."
+"title": "Praca z wykresami w Aspose.Words dla .NET"
+"url": "/pl/net/working-with-charts/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Wprowadzenie
+## Wstęp
  
-Aspose.Words dla .NET oferuje solidny zestaw narzędzi do pracy z wykresami w dokumentach Word. Czy musisz tworzyć dynamiczne wykresy kreskowe, dostosować wykresy torta lub manipulować istniejącymi danymi, ta biblioteka ułatwia cały proces. Dzięki kompleksowym funkcjom API możesz programowo zdefiniować typy wykresów, zakresów danych, etykiet, stylów i formatowania.  
+Aspose.Words for .NET oferuje solidny zestaw narzędzi do pracy z wykresami w dokumentach Word. Niezależnie od tego, czy musisz tworzyć dynamiczne wykresy słupkowe, dostosowywać wykresy kołowe, czy manipulować istniejącymi danymi, ta biblioteka upraszcza cały proces. Dzięki kompleksowym funkcjom API możesz programowo definiować typy wykresów, zakresy danych, etykiety, style i formatowanie.  
 
-Zróbcie to w sposób bardziej szczegółowy, aby poznać konkretne funkcjonalności, w tym dodawanie wykresów, aktualizacja danych i dostosowywanie wyglądu wykresów. Czy budujesz raporty, deski kontrolne lub dokumenty akademickie, Aspose.Words dla .NET zapewnia bezproblemową integrację wykresów i dostosowywanie, oszczędzając czas przy dostarczaniu profesjonalnych wyników.  
+Zanurz się głębiej w nasze zagnieżdżone strony, aby odkryć konkretne funkcjonalności, w tym dodawanie wykresów, aktualizowanie danych i dostosowywanie wyglądu wykresu. Niezależnie od tego, czy tworzysz raporty, pulpity nawigacyjne czy dokumenty akademickie, Aspose.Words dla .NET zapewnia bezproblemową integrację i dostosowywanie wykresów, oszczędzając czas, a jednocześnie dostarczając profesjonalne wyniki.  
 
-{{< tutorial-card link="./bounds-of-axis/" title="Tworzenie dokumentu z wykresami używając Aspose.Words dla .NET" imgSrc="/words/net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
-{{< tutorial-card link="./create-chart-using-shape/" title="Tworzyć wykres linii w Word za pomocą Aspose.Words dla .NET" imgSrc="/words/net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
-{{< tutorial-card link="./insert-area-chart/" title="Wkładać wykres obszarów w dokument Word" imgSrc="/words/net/working-with-charts/insert-area-chart/images/thumb.png" >}}
-{{< tutorial-card link="./insert-bubble-chart/" title="Wkładać wykres bańki w Word za pomocą Aspose.Words dla .NET" imgSrc="/words/net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
-{{< tutorial-card link="./insert-column-chart/" title="Wkładać wykres kolumn w Word za pomocą Aspose.Words dla .NET" imgSrc="/words/net/working-with-charts/insert-column-chart/images/thumb.png" >}}
-{{< tutorial-card link="./insert-scatter-chart/" title="Tworzenie wykresu rozproszenia słów za pomocą Aspose.Words dla .NET" imgSrc="/words/net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
-{{< tutorial-card link="./insert-simple-column-chart/" title="Wkładać prosty wykres kolumn w Word za pomocą Aspose.Words dla .NET" imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./bounds-of-axis/" title="Utwórz dokument z wykresami przy użyciu Aspose.Words dla .NET" imgSrc="./bounds-of-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./create-chart-using-shape/" title="Utwórz wykres liniowy w programie Word za pomocą Aspose.Words dla platformy .NET" imgSrc="./create-chart-using-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-area-chart/" title="Wstaw wykres obszarowy do dokumentu Word" imgSrc="./insert-area-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-bubble-chart/" title="Wstawianie wykresu bąbelkowego w programie Word za pomocą Aspose.Words dla platformy .NET" imgSrc="./insert-bubble-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-column-chart/" title="Wstawianie wykresu kolumnowego w programie Word za pomocą Aspose.Words dla .NET" imgSrc="./insert-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-scatter-chart/" title="Utwórz wykres punktowy słów za pomocą Aspose.Words dla .NET" imgSrc="./insert-scatter-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-simple-column-chart/" title="Wstawianie prostego wykresu kolumnowego w programie Word przy użyciu Aspose.Words dla platformy .NET" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

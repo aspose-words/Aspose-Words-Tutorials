@@ -1,14 +1,16 @@
 ---
-title: Mengamankan Dokumen dengan Kata Sandi
-linktitle: Mengamankan Dokumen dengan Kata Sandi
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Temukan cara mengamankan dokumen dengan kata sandi menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah ini mencakup kode sumber dan kiat ahli. Jaga data Anda tetap terlindungi.
-weight: 10
-url: /id/java/document-security/securing-documents-passwords/
+"description": "Temukan cara mengamankan dokumen dengan kata sandi menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah ini mencakup kode sumber dan kiat ahli. Jaga data Anda tetap terlindungi."
+"linktitle": "Mengamankan Dokumen dengan Kata Sandi"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Mengamankan Dokumen dengan Kata Sandi"
+"url": "/id/java/document-security/securing-documents-passwords/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengamankan Dokumen dengan Kata Sandi
@@ -23,7 +25,7 @@ Di dunia digital saat ini, keamanan data adalah yang terpenting. Baik Anda menan
 
 ## Menyiapkan Aspose.Words untuk Java
 
-Sebelum kita menyelami pengamanan dokumen, mari pastikan bahwa Anda telah menyiapkan Aspose.Words untuk Java di lingkungan Java Anda. Jika Anda belum melakukannya, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/java/).
+Sebelum kita menyelami pengamanan dokumen, mari pastikan bahwa Anda telah menyiapkan Aspose.Words untuk Java di lingkungan Java Anda. Jika Anda belum melakukannya, Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/java/).
 
 ## Mengamankan Dokumen: Langkah demi Langkah
 
@@ -92,9 +94,14 @@ Ya, Anda dapat mengotomatiskan proses aplikasi kata sandi menggunakan skrip atau
 Mengamankan dokumen Anda dengan kata sandi merupakan langkah mendasar dalam perlindungan data. Aspose.Words untuk Java menyederhanakan proses ini, sehingga dapat diakses oleh pengembang. Dengan mengikuti panduan langkah demi langkah ini dan menggunakan kode sumber yang disediakan, Anda dapat mengamankan dokumen berharga Anda dengan yakin.
 
 Jaga keamanan data Anda dengan Aspose.Words untuk Java, dan tingkatkan keamanan dokumen Anda hari ini.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

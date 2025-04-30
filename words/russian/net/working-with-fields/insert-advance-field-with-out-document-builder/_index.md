@@ -1,14 +1,16 @@
 ---
-title: Вставить расширенное поле без конструктора документов
-linktitle: Вставить расширенное поле без конструктора документов
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставить расширенное поле без использования DocumentBuilder в Aspose.Words для .NET. Следуйте этому руководству, чтобы улучшить свои навыки обработки документов.
-weight: 10
-url: /ru/net/working-with-fields/insert-advance-field-with-out-document-builder/
+"description": "Узнайте, как вставить расширенное поле без использования DocumentBuilder в Aspose.Words для .NET. Следуйте этому руководству, чтобы улучшить свои навыки обработки документов."
+"linktitle": "Вставить расширенное поле без конструктора документов"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить расширенное поле без конструктора документов"
+"url": "/ru/net/working-with-fields/insert-advance-field-with-out-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить расширенное поле без конструктора документов
@@ -21,10 +23,10 @@ url: /ru/net/working-with-fields/insert-advance-field-with-out-document-builder/
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
--  Библиотека Aspose.Words for .NET: Вы можете загрузить ее[здесь](https://releases.aspose.com/words/net/).
+- Библиотека Aspose.Words for .NET: Вы можете загрузить ее [здесь](https://releases.aspose.com/words/net/).
 - Visual Studio: подойдет любая последняя версия.
 - Базовые знания C#: это руководство предполагает, что у вас есть фундаментальные знания программирования на C#.
--  Лицензия Aspose.Words: получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/) если у вас его нет.
+- Лицензия Aspose.Words: получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/) если у вас его нет.
 
 ## Импорт пространств имен
 
@@ -58,7 +60,7 @@ using Aspose.Words.Fields;
 
 ### Инициализировать документ
 
-1.  В вашем`Program.cs` файл, начните с создания нового документа:
+1. В вашем `Program.cs` файл, начните с создания нового документа:
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
@@ -146,18 +148,23 @@ doc.Save(dataDir + "InsertionFieldAdvanceWithoutDocumentBuilder.docx");
 
 ### Где я могу найти больше примеров использования Aspose.Words?
 
- Подробную документацию и примеры вы можете найти на сайте[Документация Aspose.Words для .NET](https://reference.aspose.com/words/net/) страница.
+Подробную документацию и примеры вы можете найти на сайте [Документация Aspose.Words для .NET](https://reference.aspose.com/words/net/) страница.
 
 ### Является ли Aspose.Words для .NET бесплатным для использования?
 
- Aspose.Words for .NET предлагает бесплатную пробную версию, которую вы можете загрузить[здесь](https://releases.aspose.com/). Для полной функциональности вам необходимо приобрести лицензию.
+Aspose.Words for .NET предлагает бесплатную пробную версию, которую вы можете загрузить [здесь](https://releases.aspose.com/). Для полной функциональности вам необходимо приобрести лицензию.
 
 ### Как получить поддержку по Aspose.Words для .NET?
 
- Для получения поддержки вы можете посетить[Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8).
+Для получения поддержки вы можете посетить [Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

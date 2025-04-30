@@ -1,14 +1,16 @@
 ---
-title: Cảnh báo kết xuất PDF
-linktitle: Cảnh báo kết xuất PDF
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách xử lý cảnh báo kết xuất PDF trong Aspose.Words cho .NET. Hướng dẫn chi tiết này đảm bảo tài liệu của bạn được xử lý và lưu đúng cách.
-weight: 10
-url: /vi/net/programming-with-pdfsaveoptions/pdf-render-warnings/
+"description": "Tìm hiểu cách xử lý cảnh báo kết xuất PDF trong Aspose.Words cho .NET. Hướng dẫn chi tiết này đảm bảo tài liệu của bạn được xử lý và lưu đúng cách."
+"linktitle": "Cảnh báo kết xuất PDF"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Cảnh báo kết xuất PDF"
+"url": "/vi/net/programming-with-pdfsaveoptions/pdf-render-warnings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cảnh báo kết xuất PDF
@@ -22,9 +24,9 @@ Nếu bạn đang làm việc với Aspose.Words cho .NET, quản lý cảnh bá
 Trước khi bắt đầu hướng dẫn, hãy đảm bảo bạn có những điều sau:
 
 - Kiến thức cơ bản về C#: Quen thuộc với ngôn ngữ lập trình C#.
--  Aspose.Words cho .NET: Tải xuống và cài đặt từ[liên kết tải xuống](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Tải xuống và cài đặt từ [liên kết tải xuống](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Một thiết lập như Visual Studio để viết và chạy mã của bạn.
--  Tài liệu mẫu: Có một tài liệu mẫu (ví dụ,`WMF with image.docx`) đã sẵn sàng để thử nghiệm.
+- Tài liệu mẫu: Có một tài liệu mẫu (ví dụ, `WMF with image.docx`) đã sẵn sàng để thử nghiệm.
 
 ## Nhập không gian tên
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Tải tài liệu
 
- Tải tài liệu của bạn vào Aspose.Words`Document` đối tượng. Bước này cho phép bạn làm việc với tài liệu theo chương trình.
+Tải tài liệu của bạn vào Aspose.Words `Document` đối tượng. Bước này cho phép bạn làm việc với tài liệu theo chương trình.
 
 ```csharp
 Document doc = new Document(dataDir + "WMF with image.docx");
@@ -79,7 +81,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 
 ## Bước 5: Triển khai cảnh báo gọi lại
 
- Tạo một lớp thực hiện`IWarningCallback` giao diện xử lý mọi cảnh báo được tạo ra trong quá trình xử lý tài liệu.
+Tạo một lớp thực hiện `IWarningCallback` giao diện xử lý mọi cảnh báo được tạo ra trong quá trình xử lý tài liệu.
 
 ```csharp
 public class HandleDocumentWarnings : IWarningCallback
@@ -132,11 +134,11 @@ Bằng cách làm theo các bước này, bạn có thể xử lý hiệu quả 
 
 ### Câu hỏi 1: Tôi có thể xử lý các loại cảnh báo khác bằng phương pháp này không?
 
- Vâng,`IWarningCallback` Giao diện có thể xử lý nhiều loại cảnh báo khác nhau, không chỉ những cảnh báo liên quan đến việc kết xuất PDF.
+Vâng, `IWarningCallback` Giao diện có thể xử lý nhiều loại cảnh báo khác nhau, không chỉ những cảnh báo liên quan đến việc kết xuất PDF.
 
 ### Câu hỏi 2: Tôi có thể tải xuống bản dùng thử miễn phí Aspose.Words cho .NET ở đâu?
 
- Bạn có thể tải xuống bản dùng thử miễn phí từ[Trang dùng thử miễn phí Aspose](https://releases.aspose.com/).
+Bạn có thể tải xuống bản dùng thử miễn phí từ [Trang dùng thử miễn phí Aspose](https://releases.aspose.com/).
 
 ### Câu hỏi 3: MetafileRenderingOptions là gì?
 
@@ -144,14 +146,19 @@ MetafileRenderingOptions là các thiết lập xác định cách các metafile
 
 ### Câu hỏi 4: Tôi có thể tìm thấy sự hỗ trợ cho Aspose.Words ở đâu?
 
- Ghé thăm[Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8) để được hỗ trợ.
+Ghé thăm [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8) để được hỗ trợ.
 
 ### Câu hỏi 5: Tôi có thể xin giấy phép tạm thời cho Aspose.Words không?
 
- Có, bạn có thể xin giấy phép tạm thời từ[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Có, bạn có thể xin giấy phép tạm thời từ [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

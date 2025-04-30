@@ -1,14 +1,16 @@
 ---
-title: Konwertuj pola w dokumencie
-linktitle: Konwertuj pola w dokumencie
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak konwertować pola w dokumentach Word za pomocą Aspose.Words dla .NET z tego przewodnika. Skorzystaj z naszego samouczka, aby skutecznie zarządzać polami w dokumentach i je przekształcać.
-weight: 10
-url: /pl/net/working-with-fields/convert-fields-in-document/
+"description": "Dowiedz się, jak konwertować pola w dokumentach Word za pomocą Aspose.Words dla .NET z tego przewodnika. Skorzystaj z naszego samouczka, aby skutecznie zarządzać polami w dokumentach i je przekształcać."
+"linktitle": "Konwertuj pola w dokumencie"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Konwertuj pola w dokumencie"
+"url": "/pl/net/working-with-fields/convert-fields-in-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwertuj pola w dokumencie
@@ -21,9 +23,9 @@ Chcesz bezproblemowo konwertować pola w dokumentach Word? Jesteś we właściwy
 
 Zanim przejdziemy do szczegółów, musisz spełnić kilka warunków wstępnych:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowany Aspose.Words dla .NET. Możesz go pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowany Aspose.Words dla .NET. Możesz go pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Środowisko programistyczne, takie jak Visual Studio.
-3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie dodatkowym atutem.
+3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie zaletą.
 
 ## Importuj przestrzenie nazw
 
@@ -46,7 +48,7 @@ Najpierw musisz zdefiniować ścieżkę do katalogu dokumentów. To jest miejsce
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów.
 
 ## Krok 2: Załaduj dokument
 
@@ -61,7 +63,7 @@ Document doc = new Document(dataDir + "Linked fields.docx");
 Teraz przekonwertujemy wszystkie pola IF w dokumencie na tekst. Pola IF to pola warunkowe używane w dokumentach Worda do wstawiania tekstu na podstawie określonych warunków.
 
 ```csharp
-//Przekaż odpowiednie parametry, aby przekonwertować wszystkie pola IF występujące w dokumencie (w tym nagłówki i stopki) na tekst.
+// Przekaż odpowiednie parametry, aby przekonwertować wszystkie pola IF występujące w dokumencie (w tym nagłówki i stopki) na tekst.
 doc.Range.Fields.Where(f => f.Type == FieldType.FieldIf).ToList().ForEach(f => f.Unlink());
 ```
 
@@ -83,7 +85,7 @@ Gratulacje! Udało Ci się przekonwertować pola w dokumencie Word za pomocą As
 ## Najczęściej zadawane pytania
 
 ### Czy mogę konwertować inne typy pól za pomocą Aspose.Words dla .NET?
- Tak, Aspose.Words dla .NET pozwala manipulować różnymi typami pól, nie tylko polami IF. Możesz eksplorować[dokumentacja](https://reference.aspose.com/words/net/) Aby uzyskać więcej szczegółów.
+Tak, Aspose.Words dla .NET pozwala manipulować różnymi typami pól, nie tylko polami IF. Możesz eksplorować [dokumentacja](https://reference.aspose.com/words/net/) po więcej szczegółów.
 
 ### Czym są pola IF w dokumentach Word?
 Pola IF to pola warunkowe, które wyświetlają tekst na podstawie określonych warunków. Są często używane do tworzenia dynamicznej zawartości w dokumentach Word.
@@ -95,10 +97,15 @@ Aspose.Words for .NET obsługuje szeroką gamę formatów dokumentów Word, zape
 Oczywiście! Aspose.Words dla .NET oferuje bogaty zestaw funkcji do automatyzacji i manipulowania dokumentami Word, w tym formatowanie, scalanie i wiele więcej.
 
 ### Gdzie mogę znaleźć więcej samouczków i przykładów dla Aspose.Words dla .NET?
- Więcej samouczków i przykładów znajdziesz w[Dokumentacja Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+Więcej samouczków i przykładów znajdziesz w [Dokumentacja Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

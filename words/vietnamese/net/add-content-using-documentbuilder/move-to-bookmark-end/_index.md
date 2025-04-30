@@ -1,14 +1,16 @@
 ---
-title: Di chuyển đến dấu trang cuối trong tài liệu Word
-linktitle: Di chuyển đến dấu trang cuối trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách di chuyển đến cuối dấu trang trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết, từng bước của chúng tôi để thao tác tài liệu chính xác.
-weight: 10
-url: /vi/net/add-content-using-documentbuilder/move-to-bookmark-end/
+"description": "Tìm hiểu cách di chuyển đến cuối dấu trang trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết, từng bước của chúng tôi để thao tác tài liệu chính xác."
+"linktitle": "Di chuyển đến dấu trang cuối trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Di chuyển đến dấu trang cuối trong tài liệu Word"
+"url": "/vi/net/add-content-using-documentbuilder/move-to-bookmark-end/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Di chuyển đến dấu trang cuối trong tài liệu Word
@@ -21,9 +23,9 @@ Xin chào, các bạn lập trình viên! Bạn đã bao giờ thấy mình bị
 
 Trước khi bắt đầu, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết:
 
--  Visual Studio: Bạn có thể tải xuống từ[đây](https://visualstudio.microsoft.com/).
--  Aspose.Words cho .NET: Lấy nó từ[liên kết tải xuống](https://releases.aspose.com/words/net/).
--  Giấy phép Aspose.Words hợp lệ: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) nếu bạn không có.
+- Visual Studio: Bạn có thể tải xuống từ [đây](https://visualstudio.microsoft.com/).
+- Aspose.Words cho .NET: Lấy nó từ [liên kết tải xuống](https://releases.aspose.com/words/net/).
+- Giấy phép Aspose.Words hợp lệ: Bạn có thể nhận được giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/) nếu bạn không có.
 
 Và tất nhiên, một số kiến thức cơ bản về C# và .NET sẽ rất hữu ích.
 
@@ -45,11 +47,11 @@ using Aspose.Words.Saving;
 
 ### Tạo một dự án mới
 
- Mở Visual Studio và tạo một dự án C# Console App mới. Đặt tên cho nó như sau`BookmarkEndExample`. Đây sẽ là sân chơi của chúng ta trong hướng dẫn này.
+Mở Visual Studio và tạo một dự án C# Console App mới. Đặt tên cho nó như sau `BookmarkEndExample`. Đây sẽ là sân chơi của chúng ta trong hướng dẫn này.
 
 ### Cài đặt Aspose.Words cho .NET
 
- Tiếp theo, bạn cần cài đặt Aspose.Words cho .NET. Bạn có thể thực hiện việc này thông qua NuGet Package Manager. Chỉ cần tìm kiếm`Aspose.Words` và nhấn cài đặt. Hoặc, sử dụng Package Manager Console:
+Tiếp theo, bạn cần cài đặt Aspose.Words cho .NET. Bạn có thể thực hiện việc này thông qua NuGet Package Manager. Chỉ cần tìm kiếm `Aspose.Words` và nhấn cài đặt. Hoặc, sử dụng Package Manager Console:
 
 ```bash
 Install-Package Aspose.Words
@@ -74,7 +76,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Bookmarks.docx");
 ```
 
- Hãy chắc chắn thay thế`YOUR DOCUMENT DIRECTORY` với đường dẫn thực tế nơi tài liệu của bạn được lưu.
+Hãy chắc chắn thay thế `YOUR DOCUMENT DIRECTORY` với đường dẫn thực tế nơi tài liệu của bạn được lưu.
 
 ## Bước 3: Khởi tạo DocumentBuilder
 
@@ -88,19 +90,19 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ### Hiểu về MoveToBookmark
 
- Các`MoveToBookmark`phương pháp cho phép bạn điều hướng đến một dấu trang cụ thể trong tài liệu của bạn. Chữ ký phương pháp là:
+Các `MoveToBookmark` phương pháp cho phép bạn điều hướng đến một dấu trang cụ thể trong tài liệu của bạn. Chữ ký phương pháp là:
 
 ```csharp
 bool MoveToBookmark(string bookmarkName, bool isBookmarkStart, bool isBookmarkEnd);
 ```
 
 - `bookmarkName`: Tên của dấu trang bạn muốn điều hướng tới.
-- `isBookmarkStart` : Nếu được đặt thành`true`, di chuyển đến đầu dấu trang.
-- `isBookmarkEnd` : Nếu được đặt thành`true`, di chuyển đến cuối dấu trang.
+- `isBookmarkStart`: Nếu được đặt thành `true`, di chuyển đến đầu dấu trang.
+- `isBookmarkEnd`: Nếu được đặt thành `true`, di chuyển đến cuối dấu trang.
 
 ### Triển khai phương pháp MoveToBookmark
 
- Bây giờ, chúng ta hãy chuyển đến phần cuối của dấu trang`MyBookmark1`:
+Bây giờ, chúng ta hãy chuyển đến phần cuối của dấu trang `MyBookmark1`:
 
 ```csharp
 builder.MoveToBookmark("MyBookmark1", false, true);
@@ -126,7 +128,7 @@ Cuối cùng, đừng quên lưu lại thay đổi:
 doc.Save(dataDir + "UpdatedBookmarks.docx");
 ```
 
- Bây giờ bạn có thể mở tài liệu đã cập nhật và thấy dòng chữ "Đây là dấu trang" ngay sau đó`MyBookmark1`.
+Bây giờ bạn có thể mở tài liệu đã cập nhật và thấy dòng chữ "Đây là dấu trang" ngay sau đó `MyBookmark1`.
 
 ## Phần kết luận
 
@@ -136,27 +138,32 @@ Vậy là xong! Bạn vừa học được cách di chuyển đến cuối dấu
 
 ### 1. Tôi có thể di chuyển đến đầu dấu trang thay vì đến cuối không?
 
- Chắc chắn rồi! Chỉ cần đặt`isBookmarkStart` tham số để`true` Và`isBookmarkEnd` ĐẾN`false` trong`MoveToBookmark` phương pháp.
+Chắc chắn rồi! Chỉ cần đặt `isBookmarkStart` tham số để `true` Và `isBookmarkEnd` ĐẾN `false` trong `MoveToBookmark` phương pháp.
 
 ### 2. Nếu tên dấu trang của tôi không đúng thì sao?
 
- Nếu tên dấu trang không đúng hoặc không tồn tại,`MoveToBookmark` phương pháp sẽ trả về`false`và DocumentBuilder sẽ không di chuyển đến bất kỳ vị trí nào.
+Nếu tên dấu trang không đúng hoặc không tồn tại, `MoveToBookmark` phương pháp sẽ trả về `false`và DocumentBuilder sẽ không di chuyển đến bất kỳ vị trí nào.
 
 ### 3. Tôi có thể chèn các loại nội dung khác vào cuối dấu trang không?
 
- Có, DocumentBuilder cho phép bạn chèn nhiều loại nội dung khác nhau như bảng, hình ảnh, v.v. Kiểm tra[tài liệu](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
+Có, DocumentBuilder cho phép bạn chèn nhiều loại nội dung khác nhau như bảng, hình ảnh, v.v. Kiểm tra [tài liệu](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
 
 ### 4. Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Words?
 
- Bạn có thể nhận được giấy phép tạm thời từ[Trang web Aspose](https://purchase.aspose.com/temporary-license/).
+Bạn có thể nhận được giấy phép tạm thời từ [Trang web Aspose](https://purchase.aspose.com/temporary-license/).
 
 ### 5. Aspose.Words dành cho .NET có miễn phí không?
 
-Aspose.Words cho .NET là một sản phẩm thương mại, nhưng bạn có thể dùng thử miễn phí từ[Trang web Aspose](https://releases.aspose.com/).
+Aspose.Words cho .NET là một sản phẩm thương mại, nhưng bạn có thể dùng thử miễn phí từ [Trang web Aspose](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

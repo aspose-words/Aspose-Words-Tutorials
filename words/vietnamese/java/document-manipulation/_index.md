@@ -1,14 +1,16 @@
 ---
-title: Thao tác tài liệu
-linktitle: Thao tác tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách xử lý tài liệu hiệu quả bằng Aspose.Words for Java với hướng dẫn toàn diện của chúng tôi. Nâng cao kỹ năng xử lý tài liệu Java của bạn ngay hôm nay!
-weight: 21
-url: /vi/java/document-manipulation/
+"description": "Tìm hiểu cách xử lý tài liệu hiệu quả bằng Aspose.Words for Java với hướng dẫn toàn diện của chúng tôi. Nâng cao kỹ năng xử lý tài liệu Java của bạn ngay hôm nay!"
+"linktitle": "Thao tác tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Thao tác tài liệu"
+"url": "/vi/java/document-manipulation/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thao tác tài liệu
@@ -47,7 +49,7 @@ Bạn cần chuyển đổi tài liệu giữa các định dạng khác nhau? A
 
 ## Nơi tìm hướng dẫn sử dụng Aspose.Words cho Java
 
- Sẵn sàng bắt đầu hành trình xử lý tài liệu của bạn? Bạn có thể truy cập các hướng dẫn và tài nguyên của chúng tôi tại[Tài liệu API Aspose.Words](https://reference.aspose.com/words/java/). Cho dù bạn là người mới bắt đầu hay là nhà phát triển có kinh nghiệm, hướng dẫn từng bước của chúng tôi đều phù hợp với mọi cấp độ kỹ năng.
+Sẵn sàng bắt đầu hành trình xử lý tài liệu của bạn? Bạn có thể truy cập các hướng dẫn và tài nguyên của chúng tôi tại [Tài liệu API Aspose.Words](https://reference.aspose.com/words/java/). Cho dù bạn là người mới bắt đầu hay là nhà phát triển có kinh nghiệm, hướng dẫn từng bước của chúng tôi đều phù hợp với mọi cấp độ kỹ năng.
 
 Thao tác tài liệu bằng Aspose.Words for Java là một kỹ năng có giá trị đối với các nhà phát triển và doanh nghiệp. Với hướng dẫn của chúng tôi và sức mạnh của Aspose.Words, bạn có thể sắp xếp hợp lý các tác vụ liên quan đến tài liệu, tăng năng suất và tạo ra các tài liệu tuyệt đẹp một cách dễ dàng.
 
@@ -59,7 +61,7 @@ Tăng cường độ rõ nét của tài liệu với tùy chọn dọn dẹp As
 ### [Sử dụng Fields trong Aspose.Words cho Java](./using-fields/)
 Mở khóa Tự động hóa Tài liệu với Aspose.Words cho Java. Tìm hiểu cách hợp nhất, định dạng và chèn hình ảnh vào tài liệu Java. Hướng dẫn toàn diện và ví dụ mã để xử lý tài liệu hiệu quả.
 ### [Sử dụng dữ liệu XML trong Aspose.Words cho Java](./using-xml-data/)
-Mở khóa sức mạnh của Aspose.Words cho Java. Tìm hiểu cách xử lý dữ liệu XML, trộn thư và cú pháp Mustache với hướng dẫn từng bước.
+Mở khóa sức mạnh của Aspose.Words cho Java. Tìm hiểu cách xử lý dữ liệu XML, Mail Merge và Mustache Syntax với hướng dẫn từng bước.
 ### [Trích xuất nội dung từ tài liệu trong Aspose.Words cho Java](./extracting-content-from-documents/)
 Tìm hiểu cách trích xuất nội dung từ tài liệu dễ dàng bằng Aspose.Words for Java. Hướng dẫn từng bước và các mẫu mã của chúng tôi giúp đơn giản hóa quy trình.
 ### [Phương pháp trợ giúp để trích xuất nội dung trong Aspose.Words cho Java](./helper-methods-for-extracting-content/)
@@ -71,7 +73,7 @@ Tìm hiểu cách xóa nội dung khỏi tài liệu Word trong Java bằng Aspo
 ### [Sử dụng Bookmarks trong Aspose.Words cho Java](./using-bookmarks/)
 Tối ưu hóa quá trình xử lý tài liệu của bạn với Aspose.Words for Java. Tìm hiểu cách sử dụng dấu trang để điều hướng và thao tác nội dung hiệu quả trong hướng dẫn từng bước này.
 ### [Sử dụng Document Ranges trong Aspose.Words cho Java](./using-document-ranges/)
-Làm chủ thao tác phạm vi tài liệu trong Aspose.Words cho Java. Học cách xóa, trích xuất và định dạng văn bản với hướng dẫn toàn diện này.
+Làm chủ thao tác phạm vi tài liệu trong Aspose.Words cho Java. Tìm hiểu cách xóa, trích xuất và định dạng văn bản với hướng dẫn toàn diện này.
 ### [Sử dụng Thẻ Tài liệu có Cấu trúc (SDT) trong Aspose.Words cho Java](./using-structured-document-tags/)
 Tìm hiểu cách sử dụng Thẻ tài liệu có cấu trúc (SDT) trong Aspose.Words cho Java với hướng dẫn toàn diện này. Tạo, sửa đổi và liên kết SDT với dữ liệu XML tùy chỉnh.
 ### [Sử dụng Styles và Themes trong Aspose.Words cho Java](./using-styles-and-themes/)
@@ -89,7 +91,7 @@ Tìm hiểu cách chia tài liệu thành các trang HTML bằng Aspose.Words fo
 ### [Thêm Nội dung bằng DocumentBuilder trong Aspose.Words cho Java](./adding-content-using-documentbuilder/)
 Làm chủ việc tạo tài liệu với Aspose.Words cho Java. Hướng dẫn từng bước để thêm văn bản, bảng, hình ảnh và nhiều nội dung khác. Tạo tài liệu Word tuyệt đẹp một cách dễ dàng.
 ### [Sao chép và kết hợp tài liệu trong Aspose.Words cho Java](./cloning-and-combining-documents/)
-Tìm hiểu cách sao chép và kết hợp các tài liệu trong Aspose.Words cho Java. Hướng dẫn từng bước với các ví dụ về mã nguồn.
+Tìm hiểu cách sao chép và kết hợp tài liệu trong Aspose.Words cho Java. Hướng dẫn từng bước với các ví dụ về mã nguồn.
 ### [So sánh các tài liệu trong Aspose.Words cho Java](./comparing-documents/)
 Tìm hiểu cách so sánh các tài liệu trong Aspose.Words for Java, một thư viện Java mạnh mẽ để phân tích tài liệu hiệu quả. 
 ### [Định dạng tài liệu trong Aspose.Words cho Java](./formatting-documents/)
@@ -102,9 +104,13 @@ Mở khóa sức mạnh của Aspose.Words cho Java. Tùy chọn và cài đặt
 Tối ưu hóa quản lý tài liệu với Aspose.Words for Java. Tìm hiểu cách làm việc với các thuộc tính tài liệu, thêm siêu dữ liệu tùy chỉnh và nhiều hơn nữa trong hướng dẫn toàn diện này.
 ### [Sử dụng Web Extensions trong Aspose.Words cho Java](./using-web-extensions/)
 Cải thiện Tài liệu bằng Tiện ích mở rộng Web trong Aspose.Words cho Java. Học cách tích hợp nội dung dựa trên web một cách liền mạch. 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

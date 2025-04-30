@@ -1,14 +1,16 @@
 ---
-title: ตรวจสอบเอฟเฟกต์ข้อความ DrawingML
-linktitle: ตรวจสอบเอฟเฟกต์ข้อความ DrawingML
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการตรวจสอบเอฟเฟกต์ข้อความ DrawingML ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนโดยละเอียดของเรา ปรับปรุงเอกสารของคุณได้อย่างง่ายดาย
-weight: 10
-url: /th/net/working-with-fonts/check-drawingml-text-effect/
+"description": "เรียนรู้วิธีการตรวจสอบเอฟเฟกต์ข้อความ DrawingML ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนโดยละเอียดของเรา ปรับปรุงเอกสารของคุณได้อย่างง่ายดาย"
+"linktitle": "ตรวจสอบเอฟเฟกต์ข้อความ DrawingML"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ตรวจสอบเอฟเฟกต์ข้อความ DrawingML"
+"url": "/th/net/working-with-fonts/check-drawingml-text-effect/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตรวจสอบเอฟเฟกต์ข้อความ DrawingML
@@ -21,7 +23,7 @@ url: /th/net/working-with-fonts/check-drawingml-text-effect/
 
 ก่อนที่จะเริ่มบทช่วยสอน มีข้อกำหนดเบื้องต้นบางประการที่คุณจะต้องมี:
 
--  ไลบรารี Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก[หน้าวางจำหน่าย Aspose](https://releases.aspose.com/words/net/).
+- ไลบรารี Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก [หน้าวางจำหน่าย Aspose](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: คุณควรมีการตั้งค่าสภาพแวดล้อมการพัฒนา เช่น Visual Studio
 - ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# เล็กน้อยจะเป็นประโยชน์
 
@@ -64,7 +66,7 @@ RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 
 ## ขั้นตอนที่ 3: รับแบบอักษรของการรันครั้งแรก
 
-ตอนนี้ เราจะได้คุณสมบัติแบบอักษรของการเรียกใช้ครั้งแรกในคอลเล็กชันการเรียกใช้ ซึ่งจะช่วยให้เราตรวจสอบเอฟเฟกต์ข้อความ DrawingML ต่างๆ ที่ใช้กับข้อความได้
+ตอนนี้ เราจะได้คุณสมบัติของแบบอักษรของการรันครั้งแรกในคอลเล็กชันการรัน ซึ่งจะช่วยให้เราตรวจสอบเอฟเฟกต์ข้อความ DrawingML ต่างๆ ที่ใช้กับข้อความได้
 
 ```csharp
 Font runFont = runs[0].Font;
@@ -82,7 +84,7 @@ Console.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Outline));
 Console.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Fill));
 ```
 
- บรรทัดโค้ดเหล่านี้จะพิมพ์ออกมา`true` หรือ`false` ขึ้นอยู่กับว่าเอฟเฟกต์ข้อความ DrawingML เฉพาะแต่ละอันจะถูกนำไปใช้กับฟอนต์ของการรันหรือไม่
+บรรทัดโค้ดเหล่านี้จะพิมพ์ออกมา `true` หรือ `false` ขึ้นอยู่กับว่าเอฟเฟกต์ข้อความ DrawingML เฉพาะแต่ละอันจะถูกนำไปใช้กับฟอนต์ของการรันหรือไม่
 
 ## บทสรุป
 
@@ -98,16 +100,21 @@ Console.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Fill));
 ใช่ Aspose.Words สำหรับ .NET ช่วยให้คุณตรวจสอบและใช้เอฟเฟ็กต์ข้อความ DrawingML ได้ด้วยโปรแกรม
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Words สำหรับ .NET หรือไม่?
- ใช่ Aspose.Words สำหรับ .NET ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถขอรับใบอนุญาตได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินผล
+ใช่ Aspose.Words สำหรับ .NET ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถขอรับใบอนุญาตได้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินผล
 
 ### มี Aspose.Words สำหรับ .NET ให้ทดลองใช้งานฟรีหรือไม่
- ใช่ คุณสามารถดาวน์โหลดได้[ทดลองใช้งานฟรี](https://releases.aspose.com/) ทดลองใช้ Aspose.Words สำหรับ .NET ก่อนซื้อ
+ใช่ คุณสามารถดาวน์โหลดได้ [ทดลองใช้งานฟรี](https://releases.aspose.com/) ทดลองใช้ Aspose.Words สำหรับ .NET ก่อนซื้อ
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ใด
- คุณสามารถค้นหาเอกสารรายละเอียดได้ที่[หน้าเอกสาร Aspose.Words สำหรับ .NET](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารรายละเอียดได้ที่ [หน้าเอกสาร Aspose.Words สำหรับ .NET](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

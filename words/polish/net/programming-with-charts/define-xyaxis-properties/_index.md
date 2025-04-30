@@ -1,14 +1,16 @@
 ---
-title: Definiowanie właściwości osi XY na wykresie
-linktitle: Definiowanie właściwości osi XY na wykresie
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak definiować właściwości osi XY na wykresie za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów .NET.
-weight: 10
-url: /pl/net/programming-with-charts/define-xyaxis-properties/
+"description": "Dowiedz się, jak definiować właściwości osi XY na wykresie za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów .NET."
+"linktitle": "Definiowanie właściwości osi XY na wykresie"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Definiowanie właściwości osi XY na wykresie"
+"url": "/pl/net/programming-with-charts/define-xyaxis-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Definiowanie właściwości osi XY na wykresie
@@ -21,7 +23,7 @@ Wykresy są potężnym narzędziem do wizualizacji danych. Kiedy musisz tworzyć
 
 Zanim zaczniesz kodować, musisz spełnić kilka warunków wstępnych:
 
-1. Aspose.Words dla .NET: Upewnij się, że masz bibliotekę Aspose.Words dla .NET. Możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz bibliotekę Aspose.Words dla .NET. Możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Potrzebujesz zintegrowanego środowiska programistycznego (IDE), takiego jak Visual Studio.
 3. .NET Framework: Upewnij się, że Twoje środowisko programistyczne jest przygotowane pod kątem programowania w środowisku .NET.
 4. Podstawowa wiedza o języku C#: W tym przewodniku zakładamy, że posiadasz podstawową wiedzę na temat programowania w języku C#.
@@ -41,10 +43,10 @@ Podzielimy ten proces na proste kroki, z których każdy będzie skupiał się n
 
 ## Krok 1: Zainicjuj dokument i DocumentBuilder
 
- Najpierw musisz zainicjować nowy dokument i`DocumentBuilder` obiekt.`DocumentBuilder` pomaga w umieszczaniu treści w dokumencie.
+Najpierw musisz zainicjować nowy dokument i `DocumentBuilder` obiekt. `DocumentBuilder` pomaga w umieszczaniu treści w dokumencie.
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -84,7 +86,7 @@ Teraz czas zdefiniować właściwości osi X. Obejmuje to ustawienie typu katego
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Custom;
-xAxis.CrossesAt = 3; //Mierzone w jednostkach wyświetlanych na osi Y (setkach).
+xAxis.CrossesAt = 3; // Mierzone w jednostkach wyświetlanych na osi Y (setkach).
 xAxis.ReverseOrder = true;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorTickMark = AxisTickMark.Outside;
@@ -115,7 +117,7 @@ doc.Save(dataDir + "WorkingWithCharts.DefineXYAxisProperties.docx");
 
 ## Wniosek
 
-Tworzenie i dostosowywanie wykresów w dokumentach Word przy użyciu Aspose.Words dla .NET jest proste, gdy zrozumiesz kroki. Ten przewodnik przeprowadzi Cię przez proces definiowania właściwości osi XY na wykresie, od inicjalizacji dokumentu do zapisania produktu końcowego. Dzięki tym umiejętnościom możesz tworzyć szczegółowe, profesjonalnie wyglądające wykresy, które wzbogacą Twoje dokumenty.
+Tworzenie i dostosowywanie wykresów w dokumentach Word przy użyciu Aspose.Words for .NET jest proste, gdy zrozumiesz kroki. Ten przewodnik przeprowadzi Cię przez proces definiowania właściwości osi XY na wykresie, od inicjalizacji dokumentu do zapisania produktu końcowego. Dzięki tym umiejętnościom możesz tworzyć szczegółowe, profesjonalnie wyglądające wykresy, które wzbogacą Twoje dokumenty.
 
 ## Najczęściej zadawane pytania
 
@@ -123,20 +125,25 @@ Tworzenie i dostosowywanie wykresów w dokumentach Word przy użyciu Aspose.Word
 Możesz tworzyć różne rodzaje wykresów, w tym wykresy warstwowe, słupkowe, liniowe, kołowe i inne.
 
 ### Jak zainstalować Aspose.Words dla .NET?
- Możesz pobrać Aspose.Words dla .NET z[Tutaj](https://releases.aspose.com/words/net/) postępuj zgodnie z wyświetlanymi instrukcjami instalacji.
+Możesz pobrać Aspose.Words dla .NET z [Tutaj](https://releases.aspose.com/words/net/) i postępuj zgodnie z wyświetlanymi instrukcjami instalacji.
 
 ### Czy mogę dostosować wygląd moich wykresów?
 Tak, Aspose.Words dla .NET umożliwia szeroką personalizację wykresów, obejmującą kolory, czcionki i właściwości osi.
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Words dla .NET?
- Tak, możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Tak, możesz otrzymać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć więcej samouczków i dokumentacji?
- Więcej samouczków i szczegółowej dokumentacji znajdziesz na stronie[Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+Więcej samouczków i szczegółowej dokumentacji znajdziesz na stronie [Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

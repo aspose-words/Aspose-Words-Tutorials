@@ -1,14 +1,16 @@
 ---
-title: Daftar Isi Generasi
-linktitle: Daftar Isi Generasi
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara membuat Daftar Isi dinamis menggunakan Aspose.Words untuk Java. Kuasai pembuatan Daftar Isi dengan panduan langkah demi langkah dan contoh kode sumber.
-weight: 14
-url: /id/java/table-processing/table-contents-generation/
+"description": "Pelajari cara membuat Daftar Isi dinamis menggunakan Aspose.Words untuk Java. Kuasai pembuatan Daftar Isi dengan panduan langkah demi langkah dan contoh kode sumber."
+"linktitle": "Daftar Isi Generasi"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Daftar Isi Generasi"
+"url": "/id/java/table-processing/table-contents-generation/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Daftar Isi Generasi
@@ -21,10 +23,10 @@ Pernahkah Anda kesulitan membuat Daftar Isi (TOC) yang dinamis dan tampak profes
 
 Sebelum kita memulai pengkodean, pastikan Anda memiliki hal berikut:
 
-1.  Java Development Kit (JDK): Terpasang di sistem Anda. Anda dapat mengunduhnya dari[Situs web Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.Words untuk Perpustakaan Java: Unduh versi terbaru dari[halaman rilis](https://releases.aspose.com/words/java/).
+1. Java Development Kit (JDK): Terpasang di sistem Anda. Anda dapat mengunduhnya dari [Situs web Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. Aspose.Words untuk Perpustakaan Java: Unduh versi terbaru dari [halaman rilis](https://releases.aspose.com/words/java/).
 3. Lingkungan Pengembangan Terpadu (IDE): Seperti IntelliJ IDEA, Eclipse, atau NetBeans.
-4.  Aspose Lisensi Sementara: Untuk menghindari batasan evaluasi, dapatkan[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+4. Aspose Lisensi Sementara: Untuk menghindari batasan evaluasi, dapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 ## Paket Impor
 
@@ -38,7 +40,7 @@ Ikuti langkah-langkah ini untuk membuat Daftar Isi dinamis pada dokumen Word And
 
 ## Langkah 1: Inisialisasi Dokumen dan DocumentBuilder
 
- Langkah pertama adalah membuat dokumen baru dan menggunakan`DocumentBuilder` kelas untuk memanipulasinya.
+Langkah pertama adalah membuat dokumen baru dan menggunakan `DocumentBuilder` kelas untuk memanipulasinya.
 
 
 ```java
@@ -84,8 +86,8 @@ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
 builder.writeln("Heading 2");
 ```
 
-- `setStyleIdentifier` : Mengatur gaya paragraf ke tingkat judul tertentu (misalnya,`HEADING_1`, `HEADING_2`).
-- `writeln`: Menambahkan teks ke dokumen dengan gaya yang ditentukan.
+- `setStyleIdentifier`: Mengatur gaya paragraf ke tingkat judul tertentu (misalnyaBahasa Indonesia: `HEADING_1`, `HEADING_2`).
+- `writeln`Menambahkan teks ke dokumen dengan gaya yang ditentukan.
 
 ## Langkah 4: Tambahkan Judul Bersarang
 
@@ -125,7 +127,7 @@ Terakhir, simpan dokumen ke format yang Anda inginkan.
 doc.save(dataDir + "DocumentBuilder.InsertToc.docx");
 ```
 
-- `save` : Mengekspor dokumen ke`.docx` file. Anda dapat menentukan format lain seperti`.pdf` atau`.txt` jika diperlukan.
+- `save`: Mengekspor dokumen ke `.docx` file. Anda dapat menentukan format lain seperti `.pdf` atau `.txt` jika diperlukan.
 
 ## Kesimpulan
 
@@ -137,19 +139,24 @@ Selamat! Anda telah berhasil membuat Daftar Isi dinamis dalam dokumen Word mengg
 Tentu saja! Anda dapat menyesuaikan parameter TOC seperti menyertakan nomor halaman, menyelaraskan teks, atau menggunakan gaya judul khusus.
 
 ### Apakah lisensi wajib untuk Aspose.Words untuk Java?
- Ya, lisensi diperlukan untuk fungsionalitas penuh. Anda dapat memulai dengan[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+Ya, lisensi diperlukan untuk fungsionalitas penuh. Anda dapat memulai dengan [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 ### Bisakah saya membuat TOC untuk dokumen yang sudah ada?
- Ya! Muat dokumen ke dalam`Document` objek dan ikuti langkah yang sama untuk memasukkan dan memperbarui TOC.
+Ya! Muat dokumen ke dalam `Document` objek dan ikuti langkah yang sama untuk memasukkan dan memperbarui TOC.
 
 ### Apakah ini berfungsi untuk ekspor PDF?
- Ya, TOC akan muncul dalam PDF jika Anda menyimpan dokumen di`.pdf` format.
+Ya, TOC akan muncul dalam PDF jika Anda menyimpan dokumen di `.pdf` format.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Lihat di sini[Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/) untuk contoh dan detail lebih lanjut.
+Lihat di sini [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/) untuk contoh dan detail lebih lanjut.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

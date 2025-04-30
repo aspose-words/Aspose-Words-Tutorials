@@ -1,52 +1,54 @@
 ---
-title: Dělit slova jazyků
-linktitle: Dělit slova jazyků
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se dělit slova v různých jazycích pomocí Aspose.Words pro .NET. Chcete-li zlepšit čitelnost dokumentu, postupujte podle tohoto podrobného průvodce krok za krokem.
-weight: 10
-url: /cs/net/working-with-hyphenation/hyphenate-words-of-languages/
+"description": "Naučte se, jak pomocí Aspose.Words pro .NET používat spojovníky ve slovech v různých jazycích. Postupujte podle tohoto podrobného návodu krok za krokem a vylepšete si čitelnost dokumentů."
+"linktitle": "Spojování slov v jazycích"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Spojování slov v jazycích"
+"url": "/cs/net/working-with-hyphenation/hyphenate-words-of-languages/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dělit slova jazyků
+# Spojování slov v jazycích
 
 ## Zavedení
 
-Ahoj! Zkoušeli jste někdy číst dokument s dlouhými, nepřerušovanými slovy a cítil jste, že se vám svírá mozek? Všichni jsme tam byli. Ale hádejte co? Dělení slov je váš zachránce! S Aspose.Words for .NET můžete vytvořit profesionální vzhled vašich dokumentů správným dělením slov podle jazykových pravidel. Pojďme se ponořit do toho, jak toho můžete bez problémů dosáhnout.
+Ahoj! Už jste někdy zkusili číst dokument s dlouhými, nepřerušovanými slovy a cítili jste, jak se vám svírá hlava? Všichni jsme si to užili. Ale hádejte co? Dělník je váš zachránce! S Aspose.Words pro .NET můžete dosáhnout profesionálního vzhledu vašich dokumentů správným dělením slov podle jazykových pravidel. Pojďme se ponořit do toho, jak toho můžete bez problémů dosáhnout.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte následující:
 
--  Aspose.Words for .NET nainstalován. Pokud ne, vezměte si to[zde](https://releases.aspose.com/words/net/).
--  Platná licence pro Aspose.Words. Můžete si jeden koupit[zde](https://purchase.aspose.com/buy) nebo získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words pro .NET je nainstalován. Pokud ho nemáte, stáhněte si ho. [zde](https://releases.aspose.com/words/net/).
+- Platná licence pro Aspose.Words. Můžete si ji koupit. [zde](https://purchase.aspose.com/buy) nebo si pořídit dočasný řidičský průkaz [zde](https://purchase.aspose.com/temporary-license/).
 - Základní znalost C# a .NET frameworku.
-- Textový editor nebo IDE jako Visual Studio.
+- Textový editor nebo IDE, jako je Visual Studio.
 
 ## Importovat jmenné prostory
 
-Nejprve importujme potřebné jmenné prostory. To pomáhá při přístupu ke třídám a metodám potřebným pro dělení slov.
+Nejdříve si importujme potřebné jmenné prostory. To nám pomůže s přístupem ke třídám a metodám potřebným pro dělení slov.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Hyphenation;
 ```
 
-## Krok 1: Vložte svůj dokument
+## Krok 1: Vložte dokument
 
- Budete muset zadat adresář, kde je umístěn váš dokument. Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou k vašemu dokumentu.
+Budete muset zadat adresář, kde se váš dokument nachází. Nahraďte `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou k vašemu dokumentu.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "German text.docx");
 ```
 
-## Krok 3: Zaregistrujte slovníky dělení slov
+## Krok 3: Registrace slovníků pro dělení slov
 
- Aspose.Words vyžaduje slovníky dělení slov pro různé jazyky. Ujistěte se, že máte`.dic`soubory pro jazyky, které chcete dělit. Zaregistrujte tyto slovníky pomocí`Hyphenation.RegisterDictionary` metoda.
+Aspose.Words vyžaduje slovníky pro rozdělení slovníku pro různé jazyky. Ujistěte se, že máte `.dic` soubory pro jazyky, které chcete rozdělit. Zaregistrujte tyto slovníky pomocí `Hyphenation.RegisterDictionary` metoda.
 
 ```csharp
 Hyphenation.RegisterDictionary("en-US", dataDir + "hyph_en_US.dic");
@@ -63,27 +65,32 @@ doc.Save(dataDir + "TreatmentByCesure.pdf");
 
 ## Závěr
 
-A tady to máte! Pomocí několika řádků kódu můžete výrazně zlepšit čitelnost svých dokumentů dělením slov podle pravidel specifických pro daný jazyk. Aspose.Words for .NET činí tento proces přímočarým a efektivním. Takže pokračujte a dopřejte svým čtenářům hladší zážitek ze čtení!
+A tady to máte! S pouhými několika řádky kódu můžete výrazně zlepšit čitelnost svých dokumentů tím, že budete slova spojovat podle pravidel specifických pro daný jazyk. Aspose.Words pro .NET tento proces zjednodušuje a zefektivňuje. Tak se do toho pusťte a dopřejte svým čtenářům plynulejší čtení!
 
-## FAQ
+## Často kladené otázky
 
-### Co je dělení slov v dokumentech?
-Dělení slov je proces dělení slov na konci řádků, aby se zlepšilo zarovnání textu a jeho čitelnost.
+### Co je to dělení slov v dokumentech?
+Dělení slov je proces dělení slov na konci řádků za účelem zlepšení zarovnání a čitelnosti textu.
 
-### Kde mohu získat slovníky dělení slov pro různé jazyky?
-Slovníky dělení slov najdete online, často poskytované jazykovými instituty nebo open-source projekty.
+### Kde mohu získat slovníky pro pomlčky v různých jazycích?
+Slovníky pro pomlčky najdete online, často poskytované jazykovými instituty nebo open-source projekty.
 
 ### Mohu používat Aspose.Words pro .NET bez licence?
- Ano, ale nelicencovaná verze bude mít omezení. Doporučuje se získat a[dočasná licence](https://purchase.aspose.com/temporary-license) pro plné funkce.
+Ano, ale nelicencovaná verze bude mít omezení. Doporučuje se pořídit si [dočasná licence](https://purchase.aspose.com/temporary-license) pro plné funkce.
 
-### Je Aspose.Words for .NET kompatibilní s .NET Core?
-Ano, Aspose.Words for .NET podporuje .NET Framework i .NET Core.
+### Je Aspose.Words pro .NET kompatibilní s .NET Core?
+Ano, Aspose.Words pro .NET podporuje .NET Framework i .NET Core.
 
-### Jak mohu pracovat s více jazyky v jednom dokumentu?
-Můžete zaregistrovat více slovníků dělení slov, jak je znázorněno v příkladu, a Aspose.Words s nimi naloží odpovídajícím způsobem.
+### Jak mohu v jednom dokumentu pracovat s více jazyky?
+Můžete zaregistrovat více slovníků pro dělení slov, jak je znázorněno v příkladu, a Aspose.Words je podle toho zpracuje.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

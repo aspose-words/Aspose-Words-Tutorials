@@ -1,14 +1,16 @@
 ---
-title: ปรับแต่งชุดแผนภูมิเดี่ยวในแผนภูมิ
-linktitle: ปรับแต่งชุดแผนภูมิเดี่ยวในแผนภูมิ
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีปรับแต่งชุดแผนภูมิเดี่ยวในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อประสบการณ์ที่ราบรื่น
-weight: 10
-url: /th/net/programming-with-charts/single-chart-series/
+"description": "เรียนรู้วิธีปรับแต่งชุดแผนภูมิเดี่ยวในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อประสบการณ์ที่ราบรื่น"
+"linktitle": "ปรับแต่งชุดแผนภูมิเดี่ยวในแผนภูมิ"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ปรับแต่งชุดแผนภูมิเดี่ยวในแผนภูมิ"
+"url": "/th/net/programming-with-charts/single-chart-series/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ปรับแต่งชุดแผนภูมิเดี่ยวในแผนภูมิ
@@ -21,7 +23,7 @@ url: /th/net/programming-with-charts/single-chart-series/
 
 ก่อนที่เราจะเริ่มต้น เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีทุกสิ่งที่จำเป็น นี่คือรายการตรวจสอบอย่างรวดเร็ว:
 
-1.  Aspose.Words สำหรับไลบรารี .NET: คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับไลบรารี .NET: คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. Visual Studio: เวอร์ชันล่าสุดใดๆ ก็ควรจะใช้งานได้
 3. ความเข้าใจพื้นฐานเกี่ยวกับ C#: ไม่จำเป็นต้องหรูหราอะไรมาก แค่พื้นฐานก็พอ
 
@@ -118,19 +120,24 @@ doc.Save(dataDir + "WorkingWithCharts.SingleChartSeries.docx");
 Aspose.Words สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้คุณสร้าง แก้ไข แปลง และจัดการเอกสาร Word ผ่านโปรแกรมได้
 
 ### ฉันสามารถใช้ Aspose.Words ได้ฟรีหรือไม่?
-ใช่ คุณสามารถเริ่มต้นด้วย[ทดลองใช้งานฟรี](https://releases.aspose.com/).
+ใช่ คุณสามารถเริ่มต้นด้วย [ทดลองใช้งานฟรี](https://releases-aspose.com/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words ได้อย่างไร
- คุณสามารถรับการสนับสนุนจากชุมชน Aspose ได้ที่[ฟอรั่ม](https://forum.aspose.com/c/words/8).
+คุณสามารถรับการสนับสนุนจากชุมชน Aspose ได้ที่ [ฟอรั่ม](https://forum-aspose.com/c/words/8).
 
 ### สามารถปรับแต่งประเภทแผนภูมิอื่น ๆ ได้หรือไม่
 แน่นอน! Aspose.Words รองรับแผนภูมิประเภทต่างๆ เช่น แผนภูมิแท่ง แผนภูมิวงกลม และแผนภูมิกระจาย
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมได้ที่ไหน
- ตรวจสอบออก[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับคำแนะนำและตัวอย่างโดยละเอียดเพิ่มเติม
+ตรวจสอบออก [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับคำแนะนำและตัวอย่างโดยละเอียดเพิ่มเติม
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

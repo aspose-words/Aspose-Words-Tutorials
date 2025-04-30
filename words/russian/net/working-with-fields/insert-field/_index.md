@@ -1,14 +1,16 @@
 ---
-title: Вставить поле
-linktitle: Вставить поле
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставлять поля в документы Word с помощью Aspose.Words для .NET с помощью нашего подробного пошагового руководства. Идеально подходит для автоматизации документов.
-weight: 10
-url: /ru/net/working-with-fields/insert-field/
+"description": "Узнайте, как вставлять поля в документы Word с помощью Aspose.Words для .NET с помощью нашего подробного пошагового руководства. Идеально подходит для автоматизации документов."
+"linktitle": "Вставить поле"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить поле"
+"url": "/ru/net/working-with-fields/insert-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить поле
@@ -21,10 +23,10 @@ url: /ru/net/working-with-fields/insert-field/
 
 Прежде чем приступить к делу, давайте убедимся, что у нас есть все необходимое:
 
-1.  Aspose.Words для .NET: Вы можете скачать его[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: Вы можете скачать его [здесь](https://releases.aspose.com/words/net/).
 2. .NET Framework: Убедитесь, что на вашем компьютере установлен .NET Framework.
 3. IDE: Интегрированная среда разработки, подобная Visual Studio.
-4.  Временная лицензия: Вы можете получить ее[здесь](https://purchase.aspose.com/temporary-license/).
+4. Временная лицензия: Вы можете получить ее [здесь](https://purchase.aspose.com/temporary-license/).
 
 Убедитесь, что вы установили Aspose.Words для .NET и настроили среду разработки. Готовы? Давайте начнем!
 
@@ -51,7 +53,7 @@ using Aspose.Words.Fields;
 
 ### Инициализируйте свой каталог документов
 
- Нам нужна папка, в которой будет сохранен наш документ. Для этого урока давайте используем папку-заполнитель. Заменить`"YOUR DOCUMENTS DIRECTORY"` на фактический путь, по которому вы хотите сохранить документ.
+Нам нужна папка, в которой будет сохранен наш документ. Для этого урока давайте используем папку-заполнитель. Заменить `"YOUR DOCUMENTS DIRECTORY"` на фактический путь, по которому вы хотите сохранить документ.
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
@@ -70,7 +72,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ### Вставьте поле
 
-С нашим готовым DocumentBuilder мы теперь можем вставить поле. Поля — это динамические элементы, которые могут отображать данные, выполнять вычисления или даже включать другие документы.
+Теперь, когда наш DocumentBuilder готов, мы можем вставить поле. Поля — это динамические элементы, которые могут отображать данные, выполнять вычисления или даже включать другие документы.
 
 ```csharp
 builder.InsertField(@"MERGEFIELD MyFieldName \* MERGEFORMAT");
@@ -98,19 +100,24 @@ doc.Save(dataDir + "InsertionField.docx");
 Конечно! Aspose.Words поддерживает широкий спектр полей, включая MERGEFIELD, IF, INCLUDETEXT и другие.
 
 ### Как отформатировать поля, вставленные в документ?  
- Вы можете использовать переключатели полей для форматирования полей. Например,`\* MERGEFORMAT` сохраняет форматирование, примененное к полю.
+Вы можете использовать переключатели полей для форматирования полей. Например, `\* MERGEFORMAT` сохраняет форматирование, примененное к полю.
 
 ### Совместим ли Aspose.Words для .NET с .NET Core?  
 Да, Aspose.Words для .NET совместим как с .NET Framework, так и с .NET Core.
 
 ### Можно ли автоматизировать процесс массовой вставки полей?  
-Да, вы можете автоматизировать массовую вставку полей, пройдясь по вашим данным и используя DocumentBuilder для программной вставки полей.
+Да, вы можете автоматизировать массовую вставку полей, пройдясь по данным и используя DocumentBuilder для программной вставки полей.
 
 ### Где я могу найти более подробную документацию по Aspose.Words для .NET?  
- Вы можете найти полную документацию[здесь](https://reference.aspose.com/words/net/).
+Вы можете найти полную документацию [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

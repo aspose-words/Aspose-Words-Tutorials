@@ -1,14 +1,16 @@
 ---
-title: Zamień na wyrażenie regularne
-linktitle: Zamień na wyrażenie regularne
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak używać wyrażeń regularnych do znajdowania i zamieniania w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku, aby opanować manipulację tekstem.
-weight: 10
-url: /pl/net/find-and-replace-text/replace-with-regex/
+"description": "Dowiedz się, jak używać wyrażeń regularnych do znajdowania i zamieniania w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku, aby opanować manipulację tekstem."
+"linktitle": "Zamień na wyrażenie regularne"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zamień na wyrażenie regularne"
+"url": "/pl/net/find-and-replace-text/replace-with-regex/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zamień na wyrażenie regularne
@@ -20,7 +22,7 @@ Cześć! Czy kiedykolwiek zdarzyło Ci się, że musiałeś zastąpić tekst w d
 ## Wymagania wstępne
 
 Zanim zaczniemy, upewnijmy się, że mamy wszystko, czego potrzebujemy:
-1. Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Możesz go pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Możesz go pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: środowisko IDE, takie jak Visual Studio, w którym można pisać i uruchamiać kod C#.
 3. Podstawowa znajomość języka C# i wyrażeń regularnych: Znajomość języka C# i podstawowe zrozumienie wyrażeń regularnych będą pomocne.
 
@@ -44,11 +46,11 @@ Zacznijmy od zdefiniowania ścieżki do katalogu dokumentów. To tutaj przechowy
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twojego katalogu.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twojego katalogu.
 
 ## Krok 2: Utwórz nowy dokument
 
- Następnie utworzymy nowy dokument i`DocumentBuilder` aby dodać początkowy tekst.
+Następnie utworzymy nowy dokument i `DocumentBuilder` aby dodać początkowy tekst.
 
 ```csharp
 Document doc = new Document();
@@ -57,11 +59,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("sad mad bad");
 ```
 
-Tutaj tworzymy nowy dokument i dodajemy do niego tekst „sad mad bad”. Ten tekst będzie naszymi danymi testowymi do zastąpienia regex.
+Tutaj tworzymy nowy dokument i dodajemy do niego tekst „sad mad bad”. Ten tekst będzie naszymi danymi testowymi dla zastąpienia regex.
 
 ## Krok 3: Zdefiniuj opcje Znajdź i Zamień
 
- Aby wykonać zamianę regex, musimy skonfigurować kilka opcji.`FindReplaceOptions`Klasa ta pozwala określić sposób działania operacji znajdowania i zamiany.
+Aby wykonać zamianę regex, musimy skonfigurować kilka opcji. `FindReplaceOptions` Klasa ta pozwala określić sposób działania operacji znajdowania i zamiany.
 
 ```csharp
 FindReplaceOptions options = new FindReplaceOptions();
@@ -71,13 +73,13 @@ W tej chwili korzystamy z domyślnych opcji, ale w razie potrzeby możesz je dos
 
 ## Krok 4: Wykonaj zamianę wyrażenia regularnego
 
- Teraz zaczyna się zabawa! Użyjemy`Range.Replace` metoda zastępująca wszystkie wystąpienia słowa „sad” lub „mad” słowem „bad” za pomocą wyrażenia regularnego.
+Teraz zaczyna się zabawa! Użyjemy `Range.Replace` metoda zastępująca wszystkie wystąpienia słowa „sad” lub „mad” słowem „bad” przy użyciu wyrażenia regularnego.
 
 ```csharp
 doc.Range.Replace(new Regex("[s|m]ad"), "bad", options);
 ```
 
- Wzorzec regex`[s|m]ad` pasuje do każdego słowa kończącego się na "ad", które zaczyna się od "s" lub "m". Ciąg zastępczy "bad" zastąpi wszystkie znalezione dopasowania.
+Wzorzec regex `[s|m]ad` pasuje do każdego słowa kończącego się na "ad", które zaczyna się od "s" lub "m". Ciąg zastępczy "bad" zastąpi wszystkie znalezione dopasowania.
 
 ## Krok 5: Zapisz zmodyfikowany dokument
 
@@ -87,7 +89,7 @@ Na koniec zapiszemy zmodyfikowany dokument w wybranym przez nas katalogu.
 doc.Save(dataDir + "FindAndReplace.ReplaceWithRegex.docx");
 ```
 
- Ten wiersz zapisuje dokument pod nazwą pliku`FindAndReplace.ReplaceWithRegex.docx` w katalogu określonym przez`dataDir`.
+Ten wiersz zapisuje dokument pod nazwą pliku `FindAndReplace.ReplaceWithRegex.docx` w katalogu określonym przez `dataDir`.
 
 ## Wniosek
 
@@ -109,9 +111,14 @@ Chociaż Aspose.Words nie oferuje funkcji bezpośredniego podglądu, zawsze moż
 
 ### Czy mogę używać Aspose.Words dla .NET w aplikacjach internetowych?  
 Tak, Aspose.Words dla .NET jest wszechstronny i można go stosować w różnych typach aplikacji, w tym w aplikacjach internetowych, komputerowych i w chmurze.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

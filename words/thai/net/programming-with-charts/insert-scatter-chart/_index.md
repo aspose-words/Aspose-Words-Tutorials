@@ -1,14 +1,16 @@
 ---
-title: การแทรกแผนภูมิกระจายในเอกสาร Word
-linktitle: การแทรกแผนภูมิกระจายในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแทรกแผนภูมิแบบกระจายใน Word ด้วย Aspose.Words สำหรับ .NET ขั้นตอนง่ายๆ สำหรับการผสานการแสดงข้อมูลภาพลงในเอกสารของคุณ
-weight: 10
-url: /th/net/programming-with-charts/insert-scatter-chart/
+"description": "เรียนรู้วิธีแทรกแผนภูมิแบบกระจายใน Word ด้วย Aspose.Words สำหรับ .NET ขั้นตอนง่ายๆ สำหรับการผสานการแสดงข้อมูลภาพลงในเอกสารของคุณ"
+"linktitle": "การแทรกแผนภูมิกระจายในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การแทรกแผนภูมิกระจายในเอกสาร Word"
+"url": "/th/net/programming-with-charts/insert-scatter-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแทรกแผนภูมิกระจายในเอกสาร Word
@@ -21,7 +23,7 @@ url: /th/net/programming-with-charts/insert-scatter-chart/
 
 ก่อนที่จะเริ่มสร้างแผนภูมิแบบกระจายด้วย Aspose.Words สำหรับ .NET โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
-1.  การติดตั้ง Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ .NET จาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. การติดตั้ง Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ .NET จาก [ที่นี่](https://releases-aspose.com/words/net/).
    
 2. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับภาษาการเขียนโปรแกรม C# และ .NET framework จะเป็นประโยชน์
 
@@ -39,7 +41,7 @@ using Aspose.Words.Saving;
 
 ## ขั้นตอนที่ 1: เริ่มต้นใช้งาน Document และ DocumentBuilder
 
- ขั้นแรก ให้เริ่มต้นอินสแตนซ์ใหม่ของ`Document` ชั้นเรียนและ`DocumentBuilder` ชั้นเรียนเพื่อเริ่มต้นสร้างเอกสารของคุณ
+ขั้นแรก ให้เริ่มต้นอินสแตนซ์ใหม่ของ `Document` ชั้นเรียนและ `DocumentBuilder` ชั้นเรียนเพื่อเริ่มต้นสร้างเอกสารของคุณ
 
 ```csharp
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## ขั้นตอนที่ 2: แทรกแผนภูมิกระจาย
 
- ใช้`InsertChart` วิธีการของ`DocumentBuilder` ชั้นเรียนที่จะแทรกแผนภูมิแบบกระจายเข้าไปในเอกสาร
+ใช้ `InsertChart` วิธีการของ `DocumentBuilder` ชั้นเรียนที่จะแทรกแผนภูมิแบบกระจายเข้าไปในเอกสาร
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
@@ -66,7 +68,7 @@ chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[]
 
 ## ขั้นตอนที่ 4: บันทึกเอกสาร
 
- สุดท้ายให้บันทึกเอกสารที่แก้ไขแล้วไปยังตำแหน่งที่คุณต้องการโดยใช้`Save` วิธีการของ`Document` ระดับ.
+สุดท้ายให้บันทึกเอกสารที่แก้ไขแล้วไปยังตำแหน่งที่คุณต้องการโดยใช้ `Save` วิธีการของ `Document` ระดับ.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithCharts.InsertScatterChart.docx");
@@ -91,10 +93,15 @@ Aspose.Words รองรับ Microsoft Word หลายเวอร์ชั
 แน่นอน คุณสามารถอัปเดตข้อมูลแผนภูมิแบบไดนามิกได้โดยใช้การเรียก API ของ Aspose.Words
 
 ### ฉันจะได้รับความช่วยเหลือหรือการสนับสนุนเพิ่มเติมสำหรับ Aspose.Words ได้จากที่ใด
- หากต้องการความช่วยเหลือเพิ่มเติม โปรดไปที่[ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8).
+หากต้องการความช่วยเหลือเพิ่มเติม โปรดไปที่ [ฟอรั่มสนับสนุน Aspose.Words](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

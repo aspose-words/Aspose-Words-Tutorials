@@ -1,14 +1,16 @@
 ---
-title: รับโหนดหลัก
-linktitle: รับโหนดหลัก
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีรับโหนดหลักของส่วนเอกสารโดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนโดยละเอียดนี้
-weight: 10
-url: /th/net/working-with-node/get-parent-node/
+"description": "เรียนรู้วิธีรับโหนดหลักของส่วนเอกสารโดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนโดยละเอียดนี้"
+"linktitle": "รับโหนดหลัก"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "รับโหนดหลัก"
+"url": "/th/net/working-with-node/get-parent-node/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับโหนดหลัก
@@ -19,12 +21,12 @@ url: /th/net/working-with-node/get-parent-node/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเจาะลึก โปรดตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าทุกอย่างเรียบร้อยแล้ว:
+ก่อนที่เราจะเจาะลึก ให้แน่ใจว่าคุณได้ตั้งค่าทุกอย่างเรียบร้อยแล้ว:
 
--  Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้งจาก[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้งจาก [ที่นี่](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE อื่น ๆ ที่เข้ากันได้กับ .NET
 - ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะเป็นประโยชน์
--  ใบอนุญาตชั่วคราว: เพื่อการใช้งานเต็มรูปแบบโดยไม่มีข้อจำกัด ควรรับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+- ใบอนุญาตชั่วคราว: เพื่อการใช้งานเต็มรูปแบบโดยไม่มีข้อจำกัด ควรรับใบอนุญาตชั่วคราว [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ## นำเข้าเนมสเปซ
 
@@ -43,7 +45,7 @@ using Aspose.Words;
 Document doc = new Document();
 ```
 
- ที่นี่เราได้เริ่มต้นอินสแตนซ์ใหม่ของ`Document` ชั้นเรียน คิดว่านี่เป็นผืนผ้าใบเปล่าของคุณ
+ที่นี่เราได้เริ่มต้นอินสแตนซ์ใหม่ของ `Document` ชั้นเรียน คิดว่านี่เป็นผืนผ้าใบเปล่าของคุณ
 
 ## ขั้นตอนที่ 2: เข้าถึงโหนดย่อยแรก
 
@@ -84,10 +86,15 @@ Console.WriteLine("Section parent is the document: " + (doc == section.ParentNod
 ใช่ หากต้องการใช้งานฟังก์ชันเต็มรูปแบบ คุณต้องมีใบอนุญาต คุณสามารถเริ่มต้นด้วยการทดลองใช้งานฟรีหรือใบอนุญาตชั่วคราวเพื่อวัตถุประสงค์ในการประเมินผล
 
 ### ฉันสามารถหาเอกสารรายละเอียดเพิ่มเติมได้ที่ไหน
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้ [ที่นี่](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,17 +1,19 @@
 ---
-title: Установить положение сноски и концевой сноски
-linktitle: Установить позицию сноски и конечной сноски
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как устанавливать позиции сносок и концевых сносок в документах Word с помощью Aspose.Words для .NET, из этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/working-with-footnote-and-endnote/set-footnote-and-end-note-position/
+"description": "Узнайте, как устанавливать позиции сносок и концевых сносок в документах Word с помощью Aspose.Words для .NET, из этого подробного пошагового руководства."
+"linktitle": "Установить позицию сноски и конечной сноски"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Установить позицию сноски и концевой сноски"
+"url": "/ru/net/working-with-footnote-and-endnote/set-footnote-and-end-note-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Установить положение сноски и концевой сноски
+# Установить позицию сноски и концевой сноски
 
 ## Введение
 
@@ -21,7 +23,7 @@ url: /ru/net/working-with-footnote-and-endnote/set-footnote-and-end-note-positio
 
 Прежде чем приступить к изучению руководства, убедитесь, что у вас есть следующее:
 
--  Библиотека Aspose.Words for .NET: Вы можете загрузить ее с сайта[здесь](https://releases.aspose.com/words/net/).
+- Библиотека Aspose.Words for .NET: Вы можете загрузить ее с сайта [здесь](https://releases.aspose.com/words/net/).
 - Visual Studio: подойдет любая последняя версия.
 - Базовые знания C#: понимание основ поможет вам легко следовать курсу.
 
@@ -43,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
-В этом коде замените`"YOUR DOCUMENT DIRECTORY"` с фактическим путем расположения вашего документа.
+В этом коде замените `"YOUR DOCUMENT DIRECTORY"` с фактическим путем расположения вашего документа.
 
 ## Шаг 2: Установите положение сноски
 
@@ -53,7 +55,7 @@ Document doc = new Document(dataDir + "Document.docx");
 doc.FootnoteOptions.Position = FootnotePosition.BeneathText;
 ```
 
- Здесь мы установили сноски, которые будут отображаться под текстом. Если вы предпочитаете их внизу страницы, используйте`FootnotePosition.BottomOfPage`.
+Здесь мы установили сноски, которые будут отображаться под текстом. Если вы предпочитаете их внизу страницы, используйте `FootnotePosition.BottomOfPage`.
 
 ## Шаг 3: Установите положение концевой сноски
 
@@ -63,7 +65,7 @@ doc.FootnoteOptions.Position = FootnotePosition.BeneathText;
 doc.EndnoteOptions.Position = EndnotePosition.EndOfSection;
 ```
 
- В этом примере концевые сноски размещаются в конце каждого раздела. Чтобы разместить их в конце документа, используйте`EndnotePosition.EndOfDocument`.
+В этом примере концевые сноски размещаются в конце каждого раздела. Чтобы разместить их в конце документа, используйте `EndnotePosition.EndOfDocument`.
 
 ## Шаг 4: Сохраните документ.
 
@@ -95,14 +97,19 @@ Aspose.Words для .NET разработан для приложений .NET, 
 
 ### Существует ли бесплатная пробная версия Aspose.Words для .NET?
 
- Да, вы можете получить бесплатную пробную версию.[здесь](https://releases.aspose.com/).
+Да, вы можете получить бесплатную пробную версию. [здесь](https://releases.aspose.com/).
 
 ### Где я могу найти более подробную документацию по Aspose.Words для .NET?
 
- Подробная документация доступна[здесь](https://reference.aspose.com/words/net/).
+Подробная документация доступна [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

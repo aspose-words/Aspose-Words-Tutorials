@@ -1,14 +1,16 @@
 ---
-title: Załaduj pliki Chm w dokumencie Word
-linktitle: Załaduj pliki Chm w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Łatwo ładuj pliki CHM do dokumentów Word za pomocą Aspose.Words dla .NET dzięki temu samouczkowi krok po kroku. Idealne do konsolidacji dokumentacji technicznej.
-weight: 10
-url: /pl/net/programming-with-loadoptions/load-chm/
+"description": "Łatwo ładuj pliki CHM do dokumentów Word za pomocą Aspose.Words dla .NET dzięki temu samouczkowi krok po kroku. Idealne do konsolidacji dokumentacji technicznej."
+"linktitle": "Załaduj pliki Chm w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Załaduj pliki Chm w dokumencie Word"
+"url": "/pl/net/programming-with-loadoptions/load-chm/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Załaduj pliki Chm w dokumencie Word
@@ -20,9 +22,9 @@ Jeśli chodzi o integrację plików CHM z dokumentem Word, Aspose.Words dla .NET
 ## Wymagania wstępne
 
 Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
--  Aspose.Words dla .NET: Możesz[pobierz bibliotekę](https://releases.aspose.com/words/net/) ze strony.
+- Aspose.Words dla .NET: Możesz [pobierz bibliotekę](https://releases.aspose.com/words/net/) ze strony.
 - Środowisko programistyczne .NET: Visual Studio lub inne dowolne środowisko IDE.
-- Plik CHM: Plik CHM, który chcesz załadować do dokumentu Word.
+- Plik CHM: Plik CHM, który chcesz wczytać do dokumentu Word.
 - Podstawowa znajomość języka C#: Znajomość języka programowania C# i platformy .NET.
 
 ## Importuj przestrzenie nazw
@@ -68,7 +70,7 @@ LoadOptions loadOptions = new LoadOptions { Encoding = Encoding.GetEncoding("win
 
 Po skonfigurowaniu opcji ładowania następnym krokiem jest załadowanie pliku CHM do obiektu dokumentu Aspose.Words.
 
-1.  Utwórz obiekt dokumentu: Użyj`Document` klasa umożliwiająca załadowanie pliku CHM z określonymi opcjami.
+1. Utwórz obiekt dokumentu: Użyj `Document` klasa umożliwiająca załadowanie pliku CHM z określonymi opcjami.
 
 ```csharp
 Document doc = new Document(dataDir + "HTML help.chm", loadOptions);
@@ -89,7 +91,7 @@ catch (Exception ex)
 
 ## Krok 4: Zapisz dokument
 
- Po załadowaniu pliku CHM do`Document` obiekt, możesz go zapisać jako dokument Word.
+Po załadowaniu pliku CHM do `Document` obiekt, możesz go zapisać jako dokument Word.
 
 1. Określ ścieżkę wyjściową: Zdefiniuj ścieżkę, w której chcesz zapisać dokument programu Word.
 
@@ -97,7 +99,7 @@ catch (Exception ex)
 string outputPath = dataDir + "LoadedCHM.docx";
 ```
 
-2.  Zapisz dokument: Użyj`Save` metoda`Document` klasa umożliwiająca zapisanie załadowanej zawartości CHM jako dokumentu Word.
+2. Zapisz dokument: Użyj `Save` metoda `Document` klasa umożliwiająca zapisanie załadowanej zawartości CHM jako dokumentu Word.
 
 ```csharp
 doc.Save(outputPath);
@@ -115,11 +117,11 @@ Tak, Aspose.Words dla .NET obsługuje szeroką gamę formatów plików, w tym DO
 
 ### Jak mogę obsługiwać różne kodowania plików CHM?
 
- Możesz określić kodowanie za pomocą`LoadOptions` klasa, jak pokazano w samouczku. Upewnij się, że ustawiłeś prawidłowe kodowanie, które pasuje do twojego pliku CHM.
+Możesz określić kodowanie za pomocą `LoadOptions` klasa, jak pokazano w samouczku. Upewnij się, że ustawiłeś prawidłowe kodowanie, które pasuje do twojego pliku CHM.
 
 ### Czy można edytować załadowaną zawartość CHM przed zapisaniem jej jako dokumentu Word?
 
- Oczywiście! Po załadowaniu pliku CHM do`Document` obiektem, możesz manipulować jego zawartością korzystając z rozbudowanego interfejsu API Aspose.Words.
+Oczywiście! Po załadowaniu pliku CHM do `Document` obiektem, możesz manipulować jego zawartością korzystając z rozbudowanego interfejsu API Aspose.Words.
 
 ### Czy mogę zautomatyzować ten proces dla wielu plików CHM?
 
@@ -127,11 +129,16 @@ Tak, możesz utworzyć skrypt lub funkcję automatyzującą proces ładowania i 
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Words dla .NET?
 
- Możesz odwiedzić[dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać bardziej szczegółowe informacje i przykłady.
+Możesz odwiedzić [dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać bardziej szczegółowe informacje i przykłady.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

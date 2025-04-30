@@ -1,14 +1,16 @@
 ---
-title: Generuj tabelę z Datatable
-linktitle: Generuj tabelę z Datatable
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak wygenerować tabelę z DataTable przy użyciu Aspose.Words dla Java. Twórz profesjonalne dokumenty Word z sformatowanymi tabelami bez wysiłku.
-weight: 11
-url: /pl/java/table-processing/generate-table-from-datatable/
+"description": "Dowiedz się, jak wygenerować tabelę z DataTable przy użyciu Aspose.Words dla Java. Twórz profesjonalne dokumenty Word z sformatowanymi tabelami bez wysiłku."
+"linktitle": "Generuj tabelę z Datatable"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Generuj tabelę z Datatable"
+"url": "/pl/java/table-processing/generate-table-from-datatable/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Generuj tabelę z Datatable
@@ -21,9 +23,9 @@ Dynamiczne tworzenie tabel ze źródeł danych jest powszechnym zadaniem w wielu
 
 Zanim zagłębisz się w kod, upewnij się, że masz wszystko, czego potrzebujesz, aby zacząć:
 
-1.  Java Development Kit (JDK): Upewnij się, że masz zainstalowany JDK na swoim komputerze. Możesz go pobrać ze strony[Strona internetowa Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+1. Java Development Kit (JDK): Upewnij się, że masz zainstalowany JDK na swoim komputerze. Możesz go pobrać ze strony [Strona internetowa Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
    
-2.  Aspose.Words dla Javy: Będziesz potrzebować biblioteki Aspose.Words. Możesz pobrać najnowszą wersję z[Strona wydań Aspose](https://releases.aspose.com/words/java/).
+2. Aspose.Words dla Javy: Będziesz potrzebować biblioteki Aspose.Words. Najnowszą wersję możesz pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/words/java/).
 
 3. IDE: Zintegrowane środowisko programistyczne (IDE), takie jak IntelliJ IDEA lub Eclipse, ułatwi kodowanie.
 
@@ -39,17 +41,17 @@ Najpierw musimy utworzyć nowy dokument, w którym będzie się znajdowała nasz
 Document doc = new Document();
 ```
 
- Tutaj tworzymy nową instancję`Document` obiekt. Będzie to nasz dokument roboczy, w którym zbudujemy naszą tabelę.
+Tutaj tworzymy nową instancję `Document` obiekt. Będzie to nasz dokument roboczy, w którym zbudujemy naszą tabelę.
 
 ## Krok 2: Zainicjuj DocumentBuilder
 
- Następnie użyjemy`DocumentBuilder` klasa, która umożliwia nam łatwiejsze manipulowanie dokumentem.
+Następnie użyjemy `DocumentBuilder` klasa, która umożliwia nam łatwiejsze manipulowanie dokumentem.
 
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Ten`DocumentBuilder` Obiekt udostępnia metody umożliwiające wstawianie tabel, tekstu i innych elementów do dokumentu.
+Ten `DocumentBuilder` Obiekt udostępnia metody umożliwiające wstawianie tabel, tekstu i innych elementów do dokumentu.
 
 ## Krok 3: Ustaw orientację strony
 
@@ -63,7 +65,7 @@ Ten krok jest bardzo istotny, gdyż gwarantuje, że nasza tabela będzie dobrze 
 
 ## Krok 4: Załaduj dane z XML
 
- Teraz musimy załadować nasze dane z pliku XML do`DataTable`. Stąd pochodzą nasze dane.
+Teraz musimy załadować nasze dane z pliku XML do `DataTable`. Stąd pochodzą nasze dane.
 
 ```java
 DataSet ds = new DataSet();
@@ -71,7 +73,7 @@ ds.readXml(getMyDir() + "List of people.xml");
 DataTable dataTable = ds.getTables().get(0);
 ```
 
- Tutaj odczytujemy plik XML i pobieramy pierwszą tabelę z zestawu danych. To`DataTable` będzie przechowywać dane, które chcemy wyświetlić w naszym dokumencie.
+Tutaj odczytujemy plik XML i pobieramy pierwszą tabelę z zestawu danych. To `DataTable` będzie przechowywać dane, które chcemy wyświetlić w naszym dokumencie.
 
 ## Krok 5: Importuj tabelę z DataTable
 
@@ -81,7 +83,7 @@ Teraz nadchodzi ekscytująca część: importowanie danych do dokumentu w postac
 Table table = importTableFromDataTable(builder, dataTable, true);
 ```
 
- Nazywamy metodę`importTableFromDataTable` , przechodząc`DocumentBuilder` , nasz`DataTable`oraz wartość logiczną wskazującą, czy uwzględnić nagłówki kolumn.
+Nazywamy metodę `importTableFromDataTable`, przechodząc `DocumentBuilder`, nasz `DataTable`oraz wartość logiczną wskazującą, czy uwzględnić nagłówki kolumn.
 
 ## Krok 6: Stylizuj tabelę
 
@@ -116,7 +118,7 @@ Ten wiersz zapisuje dokument w określonym katalogu, umożliwiając przejrzenie 
 
 ## Metoda importTableFromDataTable
 
- Przyjrzyjmy się bliżej`importTableFromDataTable` metoda. Ta metoda jest odpowiedzialna za tworzenie struktury tabeli i wypełnianie jej danymi.
+Przyjrzyjmy się bliżej `importTableFromDataTable` metoda. Ta metoda jest odpowiedzialna za tworzenie struktury tabeli i wypełnianie jej danymi.
 
 ### Krok 1: Uruchom tabelę
 
@@ -130,7 +132,7 @@ Inicjuje to nową tabelę w naszym dokumencie.
 
 ### Krok 2: Dodaj nagłówki kolumn
 
- Jeśli chcemy uwzględnić nagłówki kolumn, zaznaczamy`importColumnHeadings` flaga.
+Jeśli chcemy uwzględnić nagłówki kolumn, zaznaczamy `importColumnHeadings` flaga.
 
 ```java
 if (importColumnHeadings) {
@@ -156,11 +158,11 @@ if (importColumnHeadings) {
 }
 ```
 
- Ten blok kodu formatuje wiersz nagłówka i wstawia nazwy kolumn z`DataTable`.
+Ten blok kodu formatuje wiersz nagłówka i wstawia nazwy kolumn z `DataTable`.
 
 ### Krok 3: Wypełnij tabelę danymi
 
- Teraz przechodzimy przez każdy wiersz`DataTable` aby wstawić dane do tabeli.
+Teraz przechodzimy przez każdy wiersz `DataTable` aby wstawić dane do tabeli.
 
 ```java
 for (DataRow dataRow : (Iterable<DataRow>) dataTable.getRows()) {
@@ -181,7 +183,7 @@ for (DataRow dataRow : (Iterable<DataRow>) dataTable.getRows()) {
 }
 ```
 
-tej sekcji zajmiemy się różnymi typami danych, odpowiednio formatując daty i wstawiając inne dane w postaci tekstu.
+W tej sekcji zajmiemy się różnymi typami danych, odpowiednio formatując daty i wstawiając inne dane w postaci tekstu.
 
 ### Krok 4: Zakończ tabelę
 
@@ -191,7 +193,7 @@ Na koniec kończymy tabelę po wprowadzeniu wszystkich danych.
 builder.endTable();
 ```
 
- Ta linia oznacza koniec naszej tabeli, umożliwiając`DocumentBuilder` aby wiedzieć, że zakończyliśmy tę sekcję.
+Ta linia oznacza koniec naszej tabeli, umożliwiając `DocumentBuilder` aby wiedzieć, że zakończyliśmy tę sekcję.
 
 ## Wniosek
 
@@ -203,7 +205,7 @@ I masz to! Udało Ci się nauczyć, jak generować tabelę z DataTable przy uży
 Aspose.Words for Java to potężna biblioteka umożliwiająca programowe tworzenie, modyfikowanie i konwertowanie dokumentów Word.
 
 ### Czy mogę używać Aspose.Words za darmo?
- Tak, Aspose oferuje bezpłatną wersję próbną. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/).
 
 ### Jak stylizować tabele w Aspose.Words?
 Style można stosować, korzystając z predefiniowanych identyfikatorów stylów i opcji udostępnianych przez bibliotekę.
@@ -212,10 +214,15 @@ Style można stosować, korzystając z predefiniowanych identyfikatorów stylów
 Można wstawiać różne typy danych, w tym tekst, liczby i daty, które można odpowiednio sformatować.
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Words?
- Wsparcie i zadawanie pytań można znaleźć na stronie[Forum Aspose](https://forum.aspose.com/c/words/8/).
+Wsparcie i zadawanie pytań można znaleźć na stronie [Forum Aspose](https://forum.aspose.com/c/words/8/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

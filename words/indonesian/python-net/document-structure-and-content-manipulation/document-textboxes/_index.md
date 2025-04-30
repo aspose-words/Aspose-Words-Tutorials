@@ -1,14 +1,16 @@
 ---
-title: Meningkatkan Konten Visual dengan Kotak Teks di Dokumen Word
-linktitle: Meningkatkan Konten Visual dengan Kotak Teks di Dokumen Word
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Tingkatkan visual dokumen menggunakan Aspose.Words Python! Pelajari langkah demi langkah cara membuat dan menyesuaikan kotak teks dalam dokumen Word. Tingkatkan tata letak, pemformatan, dan gaya konten untuk dokumen yang menarik.
-weight: 25
-url: /id/python-net/document-structure-and-content-manipulation/document-textboxes/
+"description": "Tingkatkan visual dokumen menggunakan Aspose.Words Python! Pelajari langkah demi langkah cara membuat dan menyesuaikan kotak teks dalam dokumen Word. Tingkatkan tata letak, pemformatan, dan gaya konten untuk dokumen yang menarik."
+"linktitle": "Meningkatkan Konten Visual dengan Kotak Teks di Dokumen Word"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Meningkatkan Konten Visual dengan Kotak Teks di Dokumen Word"
+"url": "/id/python-net/document-structure-and-content-manipulation/document-textboxes/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Meningkatkan Konten Visual dengan Kotak Teks di Dokumen Word
@@ -55,7 +57,7 @@ builder.move_to(textbox.first_paragraph)
 builder.write('This text is flipped 90 degrees to the left.')
 ```
 
- Dalam kode ini, kita membuat yang baru`Document` dan sebuah`DocumentBuilder` . Itu`insert_text_box` Metode ini digunakan untuk menambahkan kotak teks ke dalam dokumen. Anda dapat menyesuaikan konten, posisi, dan ukuran kotak teks sesuai dengan kebutuhan Anda.
+Dalam kode ini, kita membuat yang baru `Document` dan sebuah `DocumentBuilder`. Itu `insert_text_box` Metode ini digunakan untuk menambahkan kotak teks ke dalam dokumen. Anda dapat menyesuaikan konten, posisi, dan ukuran kotak teks sesuai dengan kebutuhan Anda.
 
 ## Memformat Kotak Teks
 
@@ -68,7 +70,7 @@ textbox.paragraphs[0].runs[0].font.color.rgb = aw.Color.blue
 
 ## Memposisikan Kotak Teks
 
- Mengontrol posisi kotak teks sangat penting untuk mencapai tata letak yang diinginkan. Anda dapat mengatur posisi menggunakan`left` Dan`top` properti. Misalnya:
+Mengontrol posisi kotak teks sangat penting untuk mencapai tata letak yang diinginkan. Anda dapat mengatur posisi menggunakan `left` Dan `top` properti. Misalnya:
 
 ```python
 textbox.left = aw.ConvertUtil.inch_to_points(1.5)
@@ -110,15 +112,15 @@ Dalam panduan ini, kami telah mengeksplorasi proses penyempurnaan konten visual 
 
 ### Bagaimana cara mengubah ukuran kotak teks?
 
- Untuk mengubah ukuran kotak teks, Anda dapat menyesuaikan properti lebar dan tingginya menggunakan`width` Dan`height` atribut.
+Untuk mengubah ukuran kotak teks, Anda dapat menyesuaikan properti lebar dan tingginya menggunakan `width` Dan `height` atribut.
 
 ### Bisakah saya memutar kotak teks?
 
- Ya, Anda dapat memutar kotak teks dengan mengatur`rotation` properti ke sudut yang diinginkan.
+Ya, Anda dapat memutar kotak teks dengan mengatur `rotation` properti ke sudut yang diinginkan.
 
 ### Bagaimana cara menambahkan batas ke kotak teks?
 
- Anda dapat menambahkan batas ke kotak teks menggunakan`textbox.border`properti dan menyesuaikan tampilannya.
+Anda dapat menambahkan batas ke kotak teks menggunakan `textbox.border` properti dan menyesuaikan tampilannya.
 
 ### Bisakah saya menyematkan hyperlink dalam kotak teks?
 
@@ -126,12 +128,16 @@ Tentu saja! Anda dapat menyisipkan hyperlink di konten kotak teks untuk menyedia
 
 ### Apakah mungkin untuk menyalin dan menempel kotak teks antar dokumen?
 
- Ya, Anda dapat menyalin kotak teks dari satu dokumen dan menempelkannya ke dokumen lain menggunakan`builder.insert_node` metode.
+Ya, Anda dapat menyalin kotak teks dari satu dokumen dan menempelkannya ke dokumen lain menggunakan `builder.insert_node` metode.
 
 Dengan Aspose.Words untuk Python, Anda memiliki alat untuk membuat dokumen yang menarik secara visual dan terstruktur dengan baik yang menggabungkan kotak teks dengan lancar. Bereksperimenlah dengan berbagai gaya, tata letak, dan konten untuk meningkatkan dampak dokumen Word Anda. Selamat mendesain dokumen!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

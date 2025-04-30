@@ -1,14 +1,16 @@
 ---
-title: Ekleme Revizyonlarındaki Metni Yoksay
-linktitle: Ekleme Revizyonlarındaki Metni Yoksay
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET ile belge revizyonlarını etkili bir şekilde nasıl yöneteceğinizi öğrenin. Düzenlemeyi kolaylaştırmak için ekleme revizyonlarındaki metni yok sayma tekniklerini keşfedin.
-weight: 10
-url: /tr/net/find-and-replace-text/ignore-text-inside-insert-revisions/
+"description": "Aspose.Words for .NET ile belge revizyonlarını etkili bir şekilde nasıl yöneteceğinizi öğrenin. Düzenlemeyi kolaylaştırmak için ekleme revizyonlarındaki metni yok sayma tekniklerini keşfedin."
+"linktitle": "Ekleme Revizyonlarındaki Metni Yoksay"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Ekleme Revizyonlarındaki Metni Yoksay"
+"url": "/tr/net/find-and-replace-text/ignore-text-inside-insert-revisions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekleme Revizyonlarındaki Metni Yoksay
@@ -86,7 +88,7 @@ Aspose.Words for .NET ile ekleme revizyonları içindeki metni görmezden gelme 
 ## SSS
 
 ### Aspose.Words for .NET kullanarak bir Word belgesindeki revizyonları izlemeyi nasıl başlatabilirim?
- Revizyonları izlemeye başlamak için şunu kullanın:`doc.StartTrackRevisions(author, date)` yöntem.
+Revizyonları izlemeye başlamak için şunu kullanın: `doc.StartTrackRevisions(author, date)` yöntem.
 
 ### Belge revizyonlarında eklenen metni yok saymanın faydası nedir?
 Eklenen metni yok saymak, belge değişikliklerini etkin bir şekilde yönetirken temel içeriğe odaklanmaya yardımcı olur.
@@ -95,13 +97,18 @@ Eklenen metni yok saymak, belge değişikliklerini etkin bir şekilde yönetirke
 Evet, uygun FindReplaceOptions ayarlarını kullanarak yok sayılan eklenen metni geri alabilirsiniz.
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
- Ziyaret edin[Aspose.Words for .NET belgeleri](https://reference.aspose.com/words/net/) Ayrıntılı kılavuzlar ve API referansları için.
+Ziyaret edin [Aspose.Words for .NET belgeleri](https://reference.aspose.com/words/net/) Ayrıntılı kılavuzlar ve API referansları için.
 
 ### Aspose.Words for .NET ile ilgili sorguları tartışmak için bir topluluk forumu var mı?
- Evet, ziyaret edebilirsiniz[Aspose.Words forumu](https://forum.aspose.com/c/words/8) Topluluk desteği ve tartışmaları için.
+Evet, ziyaret edebilirsiniz [Aspose.Words forumu](https://forum.aspose.com/c/words/8) Topluluk desteği ve tartışmaları için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

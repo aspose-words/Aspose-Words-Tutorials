@@ -1,14 +1,16 @@
 ---
-title: Xử lý từ với tiêu đề và chân trang
-linktitle: Xử lý từ với tiêu đề và chân trang
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách làm việc với tiêu đề và chân trang trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn đầy đủ và ví dụ thực tế.
-weight: 730
-url: /vi/net/working-with-headers-and-footers/
+"description": "Tìm hiểu cách làm việc với tiêu đề và chân trang trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn đầy đủ và ví dụ thực tế."
+"linktitle": "Xử lý từ với tiêu đề và chân trang"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Xử lý từ với tiêu đề và chân trang"
+"url": "/vi/net/working-with-headers-and-footers/"
+"weight": 730
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xử lý từ với tiêu đề và chân trang
@@ -18,13 +20,18 @@ Words Processing with Headers and Footers là một nguồn tài nguyên toàn d
 
 
  ## Hướng dẫn
-| Tiêu đề | Sự miêu tả |
+| Tiêu đề | Mô tả |
 | --- | --- |
 | [Tạo Header Footer](./create-header-footer/) | Tìm hiểu cách tạo tiêu đề và chân trang trong tài liệu Word của bạn bằng Aspose.Words cho .NET. Tùy chỉnh tiêu đề và chân trang cho từng trang. |
-| [Sao chép Tiêu đề Chân trang Từ Phần Trước](./copy-headers-footers-from-previous-section/) | Tìm hiểu cách sao chép tiêu đề và chân trang từ phần trước trong tài liệu Word bằng Aspose.Words cho .NET. |
+| [Sao chép Tiêu đề Chân trang Từ Phần Trước](./copy-headers-footers-from-previous-section/) Tìm hiểu cách sao chép tiêu đề và chân trang từ phần trước trong tài liệu Word bằng Aspose.Words cho .NET. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

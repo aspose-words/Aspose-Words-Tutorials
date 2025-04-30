@@ -1,14 +1,16 @@
 ---
-title: Thiết lập tùy chọn mặc định cho nhãn dữ liệu trong biểu đồ
-linktitle: Thiết lập tùy chọn mặc định cho nhãn dữ liệu trong biểu đồ
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thiết lập tùy chọn mặc định cho nhãn dữ liệu trong biểu đồ bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tạo và tùy chỉnh biểu đồ dễ dàng.
-weight: 10
-url: /vi/net/programming-with-charts/default-options-for-data-labels/
+"description": "Tìm hiểu cách thiết lập tùy chọn mặc định cho nhãn dữ liệu trong biểu đồ bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tạo và tùy chỉnh biểu đồ dễ dàng."
+"linktitle": "Thiết lập tùy chọn mặc định cho nhãn dữ liệu trong biểu đồ"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thiết lập tùy chọn mặc định cho nhãn dữ liệu trong biểu đồ"
+"url": "/vi/net/programming-with-charts/default-options-for-data-labels/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập tùy chọn mặc định cho nhãn dữ liệu trong biểu đồ
@@ -22,10 +24,10 @@ Xin chào! Bạn có hào hứng khám phá thế giới tự động hóa tài 
 Trước khi bắt đầu, hãy đảm bảo bạn có mọi thứ cần thiết để làm theo hướng dẫn này. Sau đây là danh sách kiểm tra nhanh:
 
 - Visual Studio hoặc bất kỳ IDE nào khác tương thích với .NET: Đây là nơi bạn sẽ viết và chạy mã của mình.
--  Aspose.Words cho .NET: Bạn có thể[tải xuống phiên bản mới nhất](https://releases.aspose.com/words/net/) và cài đặt nó vào dự án của bạn.
+- Aspose.Words cho .NET: Bạn có thể [tải xuống phiên bản mới nhất](https://releases.aspose.com/words/net/) và cài đặt nó vào dự án của bạn.
 - Kiến thức cơ bản về lập trình C#: Mặc dù hướng dẫn này dành cho người mới bắt đầu, nhưng việc quen thuộc một chút với C# sẽ rất hữu ích.
 - Đã cài đặt .NET Framework: Đảm bảo rằng bạn đã cài đặt .NET Framework trên máy của mình.
--  Giấy phép tạm thời cho Aspose.Words: Nhận một giấy phép[đây](https://purchase.aspose.com/temporary-license/) để mở khóa đầy đủ chức năng.
+- Giấy phép tạm thời cho Aspose.Words: Nhận một giấy phép [đây](https://purchase.aspose.com/temporary-license/) để mở khóa đầy đủ chức năng.
 
 Sau khi đã đáp ứng được những điều kiện tiên quyết này, chúng ta đã sẵn sàng bắt đầu!
 
@@ -43,7 +45,7 @@ using Aspose.Words.ReportingServices;
 ## Bước 1: Tạo một tài liệu mới
 
 
- Cuộc hành trình bắt đầu bằng việc tạo một tài liệu mới và khởi tạo một`DocumentBuilder` . Các`DocumentBuilder` Lớp này cung cấp một tập hợp các phương thức để thao tác nội dung tài liệu một cách dễ dàng.
+Cuộc hành trình bắt đầu bằng việc tạo một tài liệu mới và khởi tạo một `DocumentBuilder`. Các `DocumentBuilder` Lớp này cung cấp một tập hợp các phương thức để thao tác nội dung tài liệu một cách dễ dàng.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu của bạn
@@ -58,11 +60,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ### Giải thích
 
- Trong bước này, chúng tôi đã thiết lập tài liệu và trình xây dựng mà chúng tôi sẽ sử dụng để chèn và định dạng nội dung của mình.`dataDir` biến giữ đường dẫn nơi chúng ta sẽ lưu tài liệu cuối cùng.
+Trong bước này, chúng tôi đã thiết lập tài liệu và trình xây dựng mà chúng tôi sẽ sử dụng để chèn và định dạng nội dung của mình. `dataDir` biến giữ đường dẫn nơi chúng ta sẽ lưu tài liệu cuối cùng.
 
 ## Bước 2: Chèn biểu đồ
 
- Tiếp theo, chúng ta sẽ thêm biểu đồ hình tròn vào tài liệu của mình.`InsertChart` phương pháp của`DocumentBuilder` lớp học làm cho điều này trở nên cực kỳ dễ dàng.
+Tiếp theo, chúng ta sẽ thêm biểu đồ hình tròn vào tài liệu của mình. `InsertChart` phương pháp của `DocumentBuilder` lớp học làm cho điều này trở nên cực kỳ dễ dàng.
 
 ```csharp
 // Chèn biểu đồ hình tròn
@@ -74,7 +76,7 @@ Chart chart = shape.Chart;
 
 ### Giải thích
 
-Ở đây, chúng tôi đang chèn một biểu đồ hình tròn vào tài liệu của mình.`InsertChart` phương pháp này yêu cầu loại biểu đồ, chiều rộng và chiều cao làm tham số. Sau khi chèn biểu đồ, chúng ta truy cập đối tượng biểu đồ để thao tác thêm.
+Ở đây, chúng tôi đang chèn một biểu đồ hình tròn vào tài liệu của mình. `InsertChart` phương pháp này yêu cầu loại biểu đồ, chiều rộng và chiều cao làm tham số. Sau khi chèn biểu đồ, chúng ta truy cập đối tượng biểu đồ để thao tác thêm.
 
 ## Bước 3: Tùy chỉnh Chuỗi Biểu đồ
 
@@ -111,7 +113,7 @@ labels.Separator = " - ";
 
 ### Giải thích
 
- Ở đây, chúng ta đang truy cập`DataLabels`thuộc tính của chuỗi của chúng tôi để tùy chỉnh giao diện và thông tin hiển thị trên mỗi nhãn dữ liệu. Chúng tôi đã chọn hiển thị cả phần trăm và giá trị, ẩn các dòng dẫn và đặt dấu phân cách tùy chỉnh.
+Ở đây, chúng ta đang truy cập `DataLabels` thuộc tính của chuỗi của chúng tôi để tùy chỉnh giao diện và thông tin hiển thị trên mỗi nhãn dữ liệu. Chúng tôi đã chọn hiển thị cả phần trăm và giá trị, ẩn các dòng dẫn và đặt dấu phân cách tùy chỉnh.
 
 ## Bước 5: Lưu tài liệu
 
@@ -124,35 +126,40 @@ doc.Save(dataDir + "WorkingWithCharts.DefaultOptionsForDataLabels.docx");
 
 ### Giải thích
 
- Trong bước cuối cùng này, chúng tôi lưu tài liệu của mình bằng cách sử dụng`Save` phương pháp. Tài liệu sẽ được lưu trong thư mục được chỉ định bởi`dataDir`, có tên là "WorkingWithCharts.DefaultOptionsForDataLabels.docx".
+Trong bước cuối cùng này, chúng tôi lưu tài liệu của mình bằng cách sử dụng `Save` phương pháp. Tài liệu sẽ được lưu trong thư mục được chỉ định bởi `dataDir`, có tên là "WorkingWithCharts.DefaultOptionsForDataLabels.docx".
 
 ## Phần kết luận
 
 Và bạn đã có nó! Bạn đã tạo thành công một tài liệu Word với biểu đồ hình tròn tùy chỉnh bằng Aspose.Words cho .NET. Thư viện mạnh mẽ này giúp bạn dễ dàng tự động hóa việc tạo và thao tác tài liệu, giúp bạn tiết kiệm thời gian và công sức. Cho dù bạn đang tạo báo cáo, hóa đơn hay bất kỳ loại tài liệu nào khác, Aspose.Words đều có thể giúp bạn.
 
- Hãy thoải mái khám phá[Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) để biết thêm nhiều tính năng và ví dụ. Chúc bạn viết mã vui vẻ!
+Hãy thoải mái khám phá [Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) để biết thêm nhiều tính năng và ví dụ. Chúc bạn viết mã vui vẻ!
 
 ## Câu hỏi thường gặp
 
 ### Tôi có thể sử dụng Aspose.Words miễn phí không?
-Bạn có thể sử dụng Aspose.Words miễn phí với[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc khám phá các tính năng của nó bằng cách sử dụng[dùng thử miễn phí](https://releases.aspose.com/).
+Bạn có thể sử dụng Aspose.Words miễn phí với [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc khám phá các tính năng của nó bằng cách sử dụng [dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Words?
- Bạn có thể nhận được hỗ trợ thông qua[Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được hỗ trợ thông qua [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
 
 ### Tôi có thể thêm các loại biểu đồ khác không?
- Có, Aspose.Words hỗ trợ nhiều loại biểu đồ như biểu đồ thanh, biểu đồ đường và biểu đồ cột. Kiểm tra[tài liệu](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
+Có, Aspose.Words hỗ trợ nhiều loại biểu đồ như biểu đồ thanh, biểu đồ đường và biểu đồ cột. Kiểm tra [tài liệu](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
 
 ### Aspose.Words có tương thích với .NET Core không?
- Có, Aspose.Words tương thích với .NET Core. Bạn có thể tìm thêm thông tin trong[tài liệu](https://reference.aspose.com/words/net/).
+Có, Aspose.Words tương thích với .NET Core. Bạn có thể tìm thêm thông tin trong [tài liệu](https://reference.aspose.com/words/net/).
 
 ### Làm thế nào tôi có thể mua giấy phép cho Aspose.Words?
- Bạn có thể mua giấy phép từ[Cửa hàng Aspose](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép từ [Cửa hàng Aspose](https://purchase.aspose.com/buy).
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

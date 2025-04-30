@@ -1,14 +1,16 @@
 ---
-title: Giữ lại các ký tự điều khiển cũ
-linktitle: Giữ lại các ký tự điều khiển cũ
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách giữ nguyên các ký tự điều khiển cũ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này.
-weight: 10
-url: /vi/net/programming-with-ooxmlsaveoptions/keep-legacy-control-chars/
+"description": "Tìm hiểu cách giữ nguyên các ký tự điều khiển cũ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này."
+"linktitle": "Giữ lại các ký tự điều khiển cũ"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Giữ lại các ký tự điều khiển cũ"
+"url": "/vi/net/programming-with-ooxmlsaveoptions/keep-legacy-control-chars/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Giữ lại các ký tự điều khiển cũ
@@ -21,8 +23,8 @@ Bạn đã bao giờ bối rối vì những ký tự điều khiển vô hình,
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1.  Aspose.Words cho .NET: Tải xuống và cài đặt từ[đây](https://releases.aspose.com/words/net/).
-2.  Giấy phép Aspose hợp lệ: Bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words cho .NET: Tải xuống và cài đặt từ [đây](https://releases.aspose.com/words/net/).
+2. Giấy phép Aspose hợp lệ: Bạn có thể xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 3. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ .NET.
 4. Kiến thức cơ bản về C#: Sự quen thuộc với ngôn ngữ lập trình C# sẽ rất hữu ích.
 
@@ -52,7 +54,7 @@ Tiếp theo, bạn sẽ tải tài liệu Word có chứa các ký tự điều 
    string dataDir = "YOUR DOCUMENT DIRECTORY";
    ```
 
-2.  Tải tài liệu: Sử dụng`Document` lớp để tải tài liệu của bạn.
+2. Tải tài liệu: Sử dụng `Document` lớp để tải tài liệu của bạn.
 
    ```csharp
    Document doc = new Document(dataDir + "Legacy control character.doc");
@@ -62,7 +64,7 @@ Tiếp theo, bạn sẽ tải tài liệu Word có chứa các ký tự điều 
 
 Bây giờ, hãy cấu hình các tùy chọn lưu để giữ nguyên các ký tự điều khiển cũ.
 
-1.  Tạo tùy chọn lưu: Khởi tạo một phiên bản của`OoxmlSaveOptions` và thiết lập`KeepLegacyControlChars`tài sản để`true`.
+1. Tạo tùy chọn lưu: Khởi tạo một phiên bản của `OoxmlSaveOptions` và thiết lập `KeepLegacyControlChars` tài sản để `true`.
 
    ```csharp
    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.FlatOpc)
@@ -75,7 +77,7 @@ Bây giờ, hãy cấu hình các tùy chọn lưu để giữ nguyên các ký 
 
 Cuối cùng, lưu tài liệu bằng các tùy chọn lưu đã cấu hình.
 
-1.  Lưu tài liệu: Sử dụng`Save` phương pháp của`Document` lớp để lưu tài liệu với các tùy chọn lưu đã chỉ định.
+1. Lưu tài liệu: Sử dụng `Save` phương pháp của `Document` lớp để lưu tài liệu với các tùy chọn lưu đã chỉ định.
 
    ```csharp
    doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.KeepLegacyControlChars.docx", saveOptions);
@@ -87,7 +89,7 @@ Và bạn đã có nó! Bằng cách làm theo các bước này, bạn có th�
 
 ## Câu hỏi thường gặp
 
-### Ký tự điều khiển di sản là gì?
+### Ký tự điều khiển cũ là gì?
 
 Ký tự điều khiển cũ là các ký tự không in được, được sử dụng trong các tài liệu cũ để kiểm soát định dạng và bố cục.
 
@@ -101,15 +103,20 @@ Tính năng này có trong các phiên bản gần đây. Hãy đảm bảo sử
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?
 
- Có, bạn cần có giấy phép hợp lệ. Bạn có thể xin giấy phép tạm thời để đánh giá[đây](https://purchase.aspose.com/temporary-license/).
+Có, bạn cần có giấy phép hợp lệ. Bạn có thể xin giấy phép tạm thời để đánh giá [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
 
- Bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu chi tiết [đây](https://reference.aspose.com/words/net/).
  
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

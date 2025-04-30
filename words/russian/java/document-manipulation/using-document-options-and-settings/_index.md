@@ -1,14 +1,16 @@
 ---
-title: Использование параметров и настроек документа в Aspose.Words для Java
-linktitle: Использование параметров и настроек документа
-second_title: API обработки документов Java Aspose.Words
-description: Откройте для себя мощь Aspose.Words для Java. Основные параметры и настройки документа для бесперебойного управления документами. Оптимизация, настройка и многое другое.
-weight: 31
-url: /ru/java/document-manipulation/using-document-options-and-settings/
+"description": "Откройте для себя мощь Aspose.Words для Java. Основные параметры и настройки документа для бесперебойного управления документами. Оптимизация, настройка и многое другое."
+"linktitle": "Использование параметров и настроек документа"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Использование параметров и настроек документа в Aspose.Words для Java"
+"url": "/ru/java/document-manipulation/using-document-options-and-settings/"
+"weight": 31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Использование параметров и настроек документа в Aspose.Words для Java
@@ -140,7 +142,7 @@ public void addJapaneseAsEditingLanguages() throws Exception
 
 ### Как оптимизировать документ для определенной версии Word?
 
- Чтобы оптимизировать документ для определенной версии Word, используйте`optimizeFor` method и укажите нужную версию. Например, для оптимизации под Word 2016:
+Чтобы оптимизировать документ для определенной версии Word, используйте `optimizeFor` method и укажите нужную версию. Например, для оптимизации под Word 2016:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -165,7 +167,7 @@ doc.save("Your Directory Path" + "ShowErrors.docx");
 
 ### Как удалить дубликаты стилей из документа?
 
-Чтобы удалить дубликаты стилей из документа, используйте`cleanup` Метод с`duplicateStyle` опция установлена на`true`. Вот пример:
+Чтобы удалить дубликаты стилей из документа, используйте `cleanup` Метод с `duplicateStyle` опция установлена на `true`. Вот пример:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -177,7 +179,7 @@ doc.save("Your Directory Path" + "CleanedDocument.docx");
 
 ### Как настроить параметры просмотра документа?
 
- Вы можете настроить параметры просмотра документов с помощью`ViewOptions` класс. Например, чтобы установить тип представления на макет страницы и масштаб 50%:
+Вы можете настроить параметры просмотра документов с помощью `ViewOptions` класс. Например, чтобы установить тип представления на макет страницы и масштаб 50%:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -185,9 +187,14 @@ doc.getViewOptions().setViewType(ViewType.PAGE_LAYOUT);
 doc.getViewOptions().setZoomPercent(50);
 doc.save("Your Directory Path" + "CustomView.docx");
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

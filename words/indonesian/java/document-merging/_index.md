@@ -1,14 +1,16 @@
 ---
-title: Penggabungan Dokumen
-linktitle: Penggabungan Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Manfaatkan potensi penggabungan dokumen di Java menggunakan Aspose.Words! Pelajari cara mengolah kata dan mengolah dokumen secara efisien dengan tutorial terperinci.
-weight: 13
-url: /id/java/document-merging/
+"description": "Manfaatkan potensi penggabungan dokumen di Java menggunakan Aspose.Words! Pelajari cara mengolah kata dan mengolah dokumen secara efisien dengan tutorial terperinci."
+"linktitle": "Penggabungan Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Penggabungan Dokumen"
+"url": "/id/java/document-merging/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Penggabungan Dokumen
@@ -40,9 +42,13 @@ Pelajari cara menggabungkan dan menambahkan dokumen menggunakan Aspose.Words unt
 Pelajari cara membandingkan dokumen untuk mengetahui perbedaannya menggunakan Aspose.Words di Java. Panduan langkah demi langkah kami memastikan manajemen dokumen yang akurat.
 ### [Menggabungkan Dokumen dengan DocumentBuilder](./merging-documents-documentbuilder/)
 Pelajari cara memanipulasi dokumen Word dengan Aspose.Words untuk Java. Buat, edit, gabungkan, dan konversi dokumen secara terprogram dalam Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

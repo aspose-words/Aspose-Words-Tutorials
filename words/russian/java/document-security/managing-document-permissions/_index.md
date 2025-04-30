@@ -1,14 +1,16 @@
 ---
-title: Управление разрешениями на доступ к документам
-linktitle: Управление разрешениями на доступ к документам
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как эффективно управлять разрешениями документов с помощью Aspose.Words для Java. Это всеобъемлющее руководство содержит пошаговые инструкции и примеры исходного кода.
-weight: 11
-url: /ru/java/document-security/managing-document-permissions/
+"description": "Узнайте, как эффективно управлять разрешениями документов с помощью Aspose.Words для Java. Это всеобъемлющее руководство содержит пошаговые инструкции и примеры исходного кода."
+"linktitle": "Управление разрешениями на доступ к документам"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Управление разрешениями на доступ к документам"
+"url": "/ru/java/document-security/managing-document-permissions/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Управление разрешениями на доступ к документам
@@ -22,7 +24,7 @@ url: /ru/java/document-security/managing-document-permissions/
 
 Прежде чем погрузиться в управление разрешениями документов, давайте начнем с настройки Aspose.Words для Java. Выполните следующие шаги, чтобы начать:
 
-1.  Загрузите Aspose.Words для Java: Посетите[https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/)чтобы загрузить последнюю версию Aspose.Words для Java.
+1. Загрузите Aspose.Words для Java: Посетите [https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/) чтобы загрузить последнюю версию Aspose.Words для Java.
 
 2. Установите Aspose.Words для Java: после загрузки библиотеки следуйте инструкциям по установке, чтобы настроить ее в своей среде разработки Java.
 
@@ -100,9 +102,13 @@ doc.save("unprotected_document.docx");
 Теперь, когда у вас есть четкое понимание управления разрешениями документов с помощью Aspose.Words для Java, пришло время применить эти знания на практике. Улучшите свои процессы управления документами и защитите свои данные с легкостью.
 
 Помните, что обеспечение безопасности документов — это непрерывный процесс, поэтому будьте бдительны и используйте мощные функции, предлагаемые Aspose.Words для Java, для защиты ваших ценных документов.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

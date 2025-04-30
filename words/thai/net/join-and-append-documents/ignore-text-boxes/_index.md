@@ -1,14 +1,16 @@
 ---
-title: ละเว้นกล่องข้อความ
-linktitle: ละเว้นกล่องข้อความ
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: รวมเอกสาร Word ด้วย Aspose.Words สำหรับ .NET โดยรับรองว่าการจัดรูปแบบกล่องข้อความจะคงอยู่ ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการประมวลผลเอกสารที่ราบรื่น
-weight: 10
-url: /th/net/join-and-append-documents/ignore-text-boxes/
+"description": "รวมเอกสาร Word ด้วย Aspose.Words สำหรับ .NET โดยรับรองว่าการจัดรูปแบบกล่องข้อความจะคงอยู่ ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการประมวลผลเอกสารที่ราบรื่น"
+"linktitle": "ละเว้นกล่องข้อความ"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ละเว้นกล่องข้อความ"
+"url": "/th/net/join-and-append-documents/ignore-text-boxes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ละเว้นกล่องข้อความ
@@ -19,9 +21,9 @@ url: /th/net/join-and-append-documents/ignore-text-boxes/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่ม เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
+ก่อนที่เราจะเริ่ม เรามาตรวจสอบให้แน่ใจว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
-1.  Aspose.Words สำหรับ .NET: ดาวน์โหลด[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ดาวน์โหลด [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา .NET: Visual Studio หรือ IDE อื่นๆ ที่ต้องการ
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจเกี่ยวกับแนวคิดการเขียนโปรแกรมขั้นพื้นฐานใน C#
 
@@ -52,7 +54,7 @@ using Aspose.Words.Importing;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณ
 
 ## ขั้นตอนที่ 3: โหลดเอกสาร
 
@@ -65,7 +67,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## ขั้นตอนที่ 4: กำหนดค่าตัวเลือกการนำเข้า
 
- เพื่อให้แน่ใจว่าการจัดรูปแบบของกล่องข้อความได้รับการรักษาไว้ ให้ตั้งค่า`IgnoreTextBoxes` ตัวเลือกที่จะ`false`.
+เพื่อให้แน่ใจว่าการจัดรูปแบบของกล่องข้อความได้รับการรักษาไว้ ให้ตั้งค่า `IgnoreTextBoxes` ตัวเลือกที่จะ `false`-
 
 ```csharp
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreTextBoxes = false };
@@ -73,7 +75,7 @@ ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreTextBo
 
 ## ขั้นตอนที่ 5: เริ่มต้นตัวนำเข้าโหนด
 
- เริ่มต้นการใช้งาน`NodeImporter` การนำเข้าโหนดจากเอกสารต้นฉบับไปยังเอกสารปลายทาง
+เริ่มต้นการใช้งาน `NodeImporter` การนำเข้าโหนดจากเอกสารต้นฉบับไปยังเอกสารปลายทาง
 
 ```csharp
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
@@ -114,23 +116,28 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.IgnoreTextBoxes.docx");
 ## คำถามที่พบบ่อย
 
 ### Aspose.Words สำหรับ .NET คืออะไร?
- Aspose.Words สำหรับ .NET เป็นไลบรารีอันทรงพลังสำหรับการสร้าง จัดการ และแปลงเอกสาร Word ภายในแอปพลิเคชัน .NET[เรียนรู้เพิ่มเติม](https://reference.aspose.com/words/net/).
+Aspose.Words สำหรับ .NET เป็นไลบรารีอันทรงพลังสำหรับการสร้าง จัดการ และแปลงเอกสาร Word ภายในแอปพลิเคชัน .NET [เรียนรู้เพิ่มเติม](https://reference-aspose.com/words/net/).
 
 ### ฉันสามารถทดลองใช้ Aspose.Words สำหรับ .NET ก่อนซื้อได้หรือไม่
- ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.Words สำหรับ .NET ได้อย่างไร
-คุณสามารถขอใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+คุณสามารถขอใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันสามารถหาเอกสารรายละเอียดเพิ่มเติมได้ที่ไหน
- คุณสามารถค้นหาเอกสารประกอบฉบับสมบูรณ์ได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารประกอบฉบับสมบูรณ์ได้ [ที่นี่](https://reference-aspose.com/words/net/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ได้อย่างไร
- หากต้องการความช่วยเหลือ โปรดไปที่ฟอรัม Aspose[ที่นี่](https://forum.aspose.com/c/words/8).
+หากต้องการความช่วยเหลือ โปรดไปที่ฟอรัม Aspose [ที่นี่](https://forum-aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

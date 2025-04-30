@@ -1,14 +1,16 @@
 ---
-title: Word Belgesini Sayfaya Göre Böl
-linktitle: Word Belgesini Sayfaya Göre Böl
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak bir Word belgesini sayfalara göre nasıl böleceğinizi öğrenin. Büyük belgeleri verimli bir şekilde yönetmek için mükemmeldir.
-weight: 10
-url: /tr/net/split-document/page-by-page/
+"description": "Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak bir Word belgesini sayfalara göre nasıl böleceğinizi öğrenin. Büyük belgeleri verimli bir şekilde yönetmek için mükemmeldir."
+"linktitle": "Word Belgesini Sayfaya Göre Böl"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesini Sayfaya Göre Böl"
+"url": "/tr/net/split-document/page-by-page/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesini Sayfaya Göre Böl
@@ -21,7 +23,7 @@ Bir Word belgesini sayfaya bölmek, özellikle belirli sayfaların ayrı ayrı �
 
 Eğitime başlamadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1. Aspose.Words for .NET: Aspose.Words kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: .NET ile kurulmuş bir geliştirme ortamına ihtiyacınız olacak. Visual Studio popüler bir seçimdir.
 3. Örnek Belge: Bölmek istediğiniz örnek bir Word belgeniz olsun. Bunu belirlediğiniz belge dizinine kaydedin.
 
@@ -74,7 +76,7 @@ Aspose.Words for .NET kullanarak bir Word belgesini sayfalara bölmek basit ve o
 Evet, Aspose.Words for .NET karmaşık biçimlendirmeye sahip belgeleri sorunsuz bir şekilde işler.
 
 ### Tek tek sayfalar yerine bir dizi sayfayı çıkarmak mümkün müdür?
- Kesinlikle. Değiştirebilirsiniz`ExtractPages` Bir aralığı belirtme yöntemi.
+Kesinlikle. Değiştirebilirsiniz `ExtractPages` Bir aralığı belirtme yöntemi.
 
 ### Bu yöntem PDF gibi diğer dosya formatları için de işe yarıyor mu?
 Gösterilen yöntem Word belgelerine özgüdür. PDF'ler için Aspose.PDF'i kullanırsınız.
@@ -83,10 +85,15 @@ Gösterilen yöntem Word belgelerine özgüdür. PDF'ler için Aspose.PDF'i kull
 Aspose.Words, çıkarma sırasında her sayfanın orijinal biçimlendirmesini ve yönünü korur.
 
 ### Bu süreci birden fazla belge için otomatikleştirebilir miyim?
-Evet, bir dizindeki birden fazla belge için bölme işlemini otomatikleştirecek bir komut dosyası oluşturabilirsiniz.
+Evet, bir dizindeki birden fazla belge için bölme işlemini otomatikleştirecek bir betik oluşturabilirsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

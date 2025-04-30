@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Fields trong Aspose.Words cho Java
-linktitle: Sử dụng các trường
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Học cách sử dụng Aspose.Words cho các trường Java một cách hiệu quả trong hướng dẫn từng bước này. Tạo tài liệu Word động một cách dễ dàng.
-weight: 11
-url: /vi/java/using-document-elements/using-fields/
+"description": "Học cách sử dụng Aspose.Words cho các trường Java một cách hiệu quả trong hướng dẫn từng bước này. Tạo tài liệu Word động một cách dễ dàng."
+"linktitle": "Sử dụng các trường"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng Fields trong Aspose.Words cho Java"
+"url": "/vi/java/using-document-elements/using-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Fields trong Aspose.Words cho Java
@@ -22,7 +24,7 @@ Aspose.Words for Java là một công cụ thiết yếu cho bất kỳ ai xử 
 
 ## 2. Thiết lập môi trường của bạn
 
- Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Words for Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/java/)Ngoài ra, hãy đảm bảo rằng bạn đã cài đặt Java và môi trường phát triển tích hợp (IDE) như Eclipse hoặc IntelliJ IDEA trên hệ thống của mình.
+Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Words for Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/)Ngoài ra, hãy đảm bảo rằng bạn đã cài đặt Java và môi trường phát triển tích hợp (IDE) như Eclipse hoặc IntelliJ IDEA trên hệ thống của mình.
 
 ## 3. Tải một tài liệu Word
 
@@ -34,7 +36,7 @@ string outPath = "Your Output Directory";
 Document doc = new Document(dataDir + "Mail merge destinations - Fax.docx");
 ```
 
- Thay thế`"Your Document Directory"` Và`"Your Output Directory"` với những con đường thích hợp.
+Thay thế `"Your Document Directory"` Và `"Your Output Directory"` với những con đường thích hợp.
 
 ## 4. Tùy chỉnh Mail Merge
 
@@ -68,7 +70,7 @@ Sau khi tùy chỉnh tài liệu, bạn có thể lưu tài liệu bằng mã sa
 doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 ```
 
- Thay thế`"Your Output Directory"` với đường dẫn đầu ra mong muốn.
+Thay thế `"Your Output Directory"` với đường dẫn đầu ra mong muốn.
 
 ## Mã nguồn đầy đủ
 ```java
@@ -99,12 +101,12 @@ Mã nguồn của Class HandleMergeField
         /// Trình xử lý này được gọi cho mọi trường hợp trộn thư được tìm thấy trong tài liệu,
         /// cho mọi bản ghi được tìm thấy trong nguồn dữ liệu.
         /// </tóm tắt>
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
+        public void /*Lệnh gọi lại IFieldMerging.*/fieldMerging(FieldMergingArgs e) throws Exception
         {
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
             // Chúng tôi quyết định rằng chúng tôi muốn tất cả các giá trị boolean được xuất ra dưới dạng các trường biểu mẫu hộp kiểm.
-            if (e.getFieldValue() instanceof /*boolean*/Boolean)
+            if (e.getFieldValue() instanceof /*Boolean*/Boolean)
             {
                 // Di chuyển "con trỏ" đến trường hợp nhập hiện tại.
                 mBuilder.moveToMergeField(e.getFieldName());
@@ -140,9 +142,12 @@ Mã nguồn của Class HandleMergeField
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        builder.writeln("{{#foreach example}}");
-        builder.writeln("{{Image(126pt;126pt):stempel}}");
-        builder.writeln("{{/foreach example}}");
+        builder.writeln("
+{{#foreach example}}");
+        builder.writeln("
+{{Image(126pt;126pt):stempel}}");
+        builder.writeln("
+{{/foreach example}}");
         doc.getMailMerge().setUseNonMergeFields(true);
         doc.getMailMerge().setTrimWhitespaces(true);
         doc.getMailMerge().setUseWholeParagraphAsRegion(false);
@@ -158,7 +163,7 @@ Mã nguồn của Class HandleMergeField
     {
         public void fieldMerging(FieldMergingArgs args)
         {
-            // Không cần phải thực hiện.
+            //  Không cần phải thực hiện.
         }
         public void imageFieldMerging(ImageFieldMergingArgs args) throws Exception
         {
@@ -211,7 +216,7 @@ Mã nguồn của Class HandleMergeField
         DocumentBuilder builder = new DocumentBuilder(doc);
         // Chèn MERGEFIELD lồng vào bên trong trường IF.
         // Vì câu lệnh trường IF là sai nên kết quả của MERGEFIELD bên trong sẽ không được hiển thị,
-        //và MERGEFIELD sẽ không nhận được bất kỳ dữ liệu nào trong quá trình trộn thư.
+        // và MERGEFIELD sẽ không nhận được bất kỳ dữ liệu nào trong quá trình trộn thư.
         FieldIf fieldIf = (FieldIf)builder.insertField(" IF 1 = 2 ");
         builder.moveTo(fieldIf.getSeparator());
         builder.insertField(" MERGEFIELD  FullName ");
@@ -243,7 +248,7 @@ Mã nguồn của Class HandleMergeField
     }
     public static class HandleMergeImageFieldFromBlob implements IFieldMergingCallback
     {
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs args)
+        public void /*Lệnh gọi lại IFieldMerging.*/fieldMerging(FieldMergingArgs args)
         {
             // Không làm gì cả.
         }
@@ -251,7 +256,7 @@ Mã nguồn của Class HandleMergeField
         /// Lệnh này được gọi khi công cụ trộn thư gặp trường trộn Image:XXX trong tài liệu.
         /// Bạn có cơ hội trả về một đối tượng Hình ảnh, tên tệp hoặc luồng chứa hình ảnh.
         /// </tóm tắt>
-        public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs e) throws Exception
+        public void /*Lệnh gọi lại IFieldMerging.*/imageFieldMerging(ImageFieldMergingArgs e) throws Exception
         {
             // Giá trị trường là một mảng byte, chỉ cần ép kiểu và tạo một luồng trên đó.
             ByteArrayInputStream imageStream = new ByteArrayInputStream((byte[]) e.getFieldValue());
@@ -270,7 +275,7 @@ Mã nguồn của Class HandleMergeField
     }
     public static class MailMergeSwitches implements IFieldMergingCallback
     {
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
+        public void /*Lệnh gọi lại IFieldMerging.*/fieldMerging(FieldMergingArgs e) throws Exception
         {
             if (e.getFieldName().startsWith("HTML"))
             {
@@ -285,7 +290,7 @@ Mã nguồn của Class HandleMergeField
                 }
             }
         }
-        public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs args)
+        public void /*Lệnh gọi lại IFieldMerging.*/imageFieldMerging(ImageFieldMergingArgs args)
         {
         }
     }
@@ -302,10 +307,10 @@ Mã nguồn của Class HandleMergeField
     {
         /// <tóm tắt>
         /// Được gọi cho mọi trường hợp hợp nhất gặp phải trong tài liệu.
-        /// Chúng ta có thể trả lại một số dữ liệu cho công cụ trộn thư hoặc làm điều gì đó khác với tài liệu.
+        /// Chúng ta có thể trả lại một số dữ liệu cho công cụ trộn thư hoặc làm gì đó khác với tài liệu.
         /// Trong trường hợp này chúng ta sửa đổi định dạng ô.
         /// </tóm tắt>
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e)
+        public void /*Lệnh gọi lại IFieldMerging.*/fieldMerging(FieldMergingArgs e)
         {
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
@@ -315,7 +320,7 @@ Mã nguồn của Class HandleMergeField
                 Color rowColor = isOdd(mRowIdx) 
                     ? new Color((213), (227), (235)) 
                     : new Color((242), (242), (242));
-                //Hiện tại không có cách nào để thiết lập thuộc tính ô cho toàn bộ hàng, vì vậy chúng ta phải lặp lại tất cả các ô trong hàng.
+                // Hiện tại không có cách nào để thiết lập thuộc tính ô cho toàn bộ hàng, vì vậy chúng ta phải lặp lại tất cả các ô trong hàng.
                 for (int colIdx = 0; colIdx < 4; colIdx++)
                 {
                     mBuilder.moveToCell(0, mRowIdx, colIdx, 0);
@@ -324,7 +329,7 @@ Mã nguồn của Class HandleMergeField
                 mRowIdx++;
             }
         }
-        public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs args)
+        public void /*Lệnh gọi lại IFieldMerging.*/imageFieldMerging(ImageFieldMergingArgs args)
         {
             // Không làm gì cả.
         }
@@ -366,26 +371,31 @@ Xin chúc mừng! Bạn đã học cách sử dụng các trường trong Aspose
 ## 7. Câu hỏi thường gặp
 
 ### Câu hỏi 1: Tôi có thể tải Aspose.Words cho Java ở đâu?
- Bạn có thể tải xuống Aspose.Words cho Java từ[đây](https://releases.aspose.com/words/java/).
+Bạn có thể tải xuống Aspose.Words cho Java từ [đây](https://releases.aspose.com/words/java/).
 
 ### Câu hỏi 2: Làm thế nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Words dành cho Java?
- Bạn có thể xin giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể xin giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Câu hỏi 3: Tôi có thể nhận hỗ trợ cho Aspose.Words dành cho Java ở đâu?
- Để được hỗ trợ, bạn có thể truy cập diễn đàn Aspose.Words[đây](https://forum.aspose.com/).
+Để được hỗ trợ, bạn có thể truy cập diễn đàn Aspose.Words [đây](https://forum.aspose.com/).
 
 ### Câu hỏi 4: Aspose.Words for Java có phù hợp để xử lý nội dung HTML trong tài liệu Word không?
 Có, Aspose.Words for Java cung cấp hỗ trợ tuyệt vời cho việc xử lý nội dung HTML trong tài liệu Word.
 
 ### Câu hỏi 5: Tôi có thể sử dụng Aspose.Words cho Java miễn phí không?
- Aspose.Words for Java là một sản phẩm thương mại, nhưng bạn có thể khám phá các tính năng của nó với bản dùng thử miễn phí có sẵn[đây](https://releases.aspose.com/).
+Aspose.Words for Java là một sản phẩm thương mại, nhưng bạn có thể khám phá các tính năng của nó với bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 Hãy bắt đầu sử dụng Aspose.Words for Java ngay hôm nay và kiểm soát các tài liệu Word của bạn theo cách chưa từng có!
 
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

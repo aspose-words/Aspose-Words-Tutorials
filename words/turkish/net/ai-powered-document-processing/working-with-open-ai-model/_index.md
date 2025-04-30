@@ -1,14 +1,16 @@
 ---
-title: Açık AI Modeli ile Çalışma
-linktitle: Açık AI Modeli ile Çalışma
-second_title: Aspose.Words Belge İşleme API'si
-description: OpenAI'nin güçlü modelleriyle Aspose.Words for .NET'i kullanarak verimli belge özetlemenin kilidini açın. Şimdi bu kapsamlı kılavuza dalın.
-weight: 10
-url: /tr/net/ai-powered-document-processing/working-with-open-ai-model/
+"description": "OpenAI'nin güçlü modelleriyle Aspose.Words for .NET'i kullanarak verimli belge özetlemenin kilidini açın. Şimdi bu kapsamlı kılavuza dalın."
+"linktitle": "Açık AI Modeli ile Çalışma"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Açık AI Modeli ile Çalışma"
+"url": "/tr/net/ai-powered-document-processing/working-with-open-ai-model/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Açık AI Modeli ile Çalışma
@@ -25,13 +27,13 @@ Kolları sıvayıp kodlara dalmadan önce, yerinde olması gereken birkaç temel
 Aspose.Words ile uyumlu bir .NET framework sürümünde çalıştığınızdan emin olun. Genellikle .NET 5.0 ve üzeri mükemmel çalışmalıdır.
 
 ### Aspose.Words for .NET Kütüphanesi
- Aspose.Words kütüphanesini indirip yüklemeniz gerekecek. Bunu şuradan edinebilirsiniz:[bu bağlantı](https://releases.aspose.com/words/net/).
+Aspose.Words kütüphanesini indirip yüklemeniz gerekecek. Bunu şuradan edinebilirsiniz: [bu bağlantı](https://releases.aspose.com/words/net/).
 
 ### OpenAI API Anahtarı
 Belge özetleme için OpenAI'nin dil modellerini entegre etmek için bir API Anahtarına ihtiyacınız olacak. Bunu OpenAI platformuna kaydolarak ve anahtarınızı hesap ayarlarınızdan alarak alabilirsiniz.
 
 ### Geliştirme için IDE
-Visual Studio gibi Entegre Geliştirme Ortamı (IDE) kurmak, .NET uygulamaları geliştirmek için idealdir.
+Visual Studio gibi bir Entegre Geliştirme Ortamı (IDE) kurmak, .NET uygulamaları geliştirmek için idealdir.
 
 ### Temel Programlama Bilgisi
 C# ve nesne yönelimli programlamaya dair temel bir anlayışa sahip olmak, kavramları daha kolay kavramanıza yardımcı olacaktır.
@@ -48,7 +50,7 @@ Aspose.Words paketini NuGet Paket Yöneticisi aracılığıyla ekleyebilirsiniz.
 
 ### Sistem Ortamını Ekle
 
- Şunları eklediğinizden emin olun:`System`çevre değişkenlerini işlemek için ad alanı:
+Şunları eklediğinizden emin olun: `System` çevre değişkenlerini işlemek için ad alanı:
 ```csharp
 using System.Text;
 using Aspose.Words;
@@ -65,7 +67,7 @@ using Aspose.Words;
 
 ### OpenAI Kütüphanesini Ekle
 
-OpenAI ile arayüz oluşturmak için bir kütüphane kullanıyorsanız (REST istemcisi gibi), bunu da eklediğinizden emin olun. Bunu, Aspose.Words'ü eklediğimiz şekilde NuGet aracılığıyla eklemeniz gerekebilir.
+OpenAI ile arayüz oluşturmak için bir kütüphane kullanıyorsanız (REST istemcisi gibi), bunu da eklediğinizden emin olun. Bunu, Aspose.Words'ü eklediğimiz şekilde NuGet üzerinden eklemeniz gerekebilir.
 
 Ortamımızı hazırladığımıza ve gerekli paketleri içe aktardığımıza göre, şimdi belge özetleme sürecini adım adım inceleyelim.
 
@@ -79,11 +81,11 @@ string MyDir = "YOUR_DOCUMENT_DIRECTORY";
 // Eserler Dizininiz
 string ArtifactsDir = "YOUR_ARTIFACTS_DIRECTORY";
 ```
- Bu, gerektiğinde yolları kolayca değiştirebildiğiniz için kodunuzu daha yönetilebilir hale getirir.`MyDir` giriş belgelerinizin saklandığı yer burasıdır,`ArtifactsDir` Oluşturulan özetleri kaydedeceğiniz yer burasıdır.
+Bu, gerektiğinde yolları kolayca değiştirebildiğiniz için kodunuzu daha yönetilebilir hale getirir. `MyDir` giriş belgelerinizin saklandığı yer burasıdır, `ArtifactsDir` Oluşturulan özetleri kaydedeceğiniz yer burasıdır.
 
 ## Adım 2: Belgelerinizi Yükleyin
 
-Sonra özetlemek istediğiniz belgeleri yükleyeceksiniz. Bu Aspose.Words ile basittir:
+Sonra, özetlemek istediğiniz belgeleri yükleyeceksiniz. Bu, Aspose.Words ile basittir:
 
 ```csharp
 Document firstDoc = new Document(MyDir + "Big document.docx");
@@ -106,17 +108,17 @@ API anahtarınız hazır olduğunda artık OpenAI modelinin bir örneğini oluş
 ```csharp
 IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
 ```
-Bu adım, belgelerinizi özetlemek için gereken beyin gücünü oluşturarak, yapay zeka destekli özetleme olanağına kavuşmanızı sağlar.
+Bu adım, belgelerinizi özetlemek için gereken beyin gücünü oluşturarak, yapay zeka destekli özetleme olanağı sağlar.
 
 ## Adım 5: Tek Bir Belgeyi Özetleyin
 
-İlk belgeyi özetleyelim. Sihir burada gerçekleşiyor:
+İlk önce ilk belgeyi özetleyelim. Sihir burada gerçekleşiyor:
 
 ```csharp
 Document oneDocumentSummary = model.Summarize(firstDoc, new SummarizeOptions() { SummaryLength = SummaryLength.Short });
 oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
 ```
- Burada şunu kullanıyoruz:`Summarize` modelin yöntemi.`SummaryLength.Short`parametresi kısa bir özet istediğimizi belirtiyor — hızlı bir genel bakış için mükemmel!
+Burada şunu kullanıyoruz: `Summarize` modelin yöntemi. `SummaryLength.Short` parametresi kısa bir özet istediğimizi belirtiyor — hızlı bir genel bakış için mükemmel!
 
 ## Adım 6: Birden Fazla Belgeyi Özetleyin
 
@@ -132,7 +134,7 @@ Bu özellik özellikle birden fazla dosyayı karşılaştırmak için kullanış
 
 Aspose.Words for .NET ve OpenAI ile belgeleri özetlemek yalnızca yararlı bir beceri değil; aynı zamanda oldukça güçlendirici. Bu kılavuzu izleyerek, uzun ve karmaşık metinleri özlü özetlere dönüştürdünüz ve kendinize zaman ve emek kazandırdınız. İster müşterileriniz için netlik sağlayın, ister o önemli sunuma hazırlanın, artık bunu verimli bir şekilde yapmak için gereken araçlara sahipsiniz.
 
-Öyleyse ne bekliyorsunuz? Belgelerinize güvenle dalın ve teknolojinin ağır işleri yapmasına izin verin!
+Öyleyse ne bekliyorsunuz? Belgelerinize güvenle dalın ve ağır işi teknolojiye bırakın!
 
 ## SSS
 
@@ -149,10 +151,15 @@ Kesinlikle! Tek bir çağrıda birden fazla belgeyi özetleyebilirsiniz, bu da k
 Visual Studio'daki NuGet Paket Yöneticisi'ni kullanarak "Aspose.Words" ifadesini aratarak kurulumunu yapabilirsiniz.
 
 ### Aspose.Words için ücretsiz deneme sürümü var mı?  
- Evet, Aspose.Words'ün ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[web sitesi](https://releases.aspose.com/).
+Evet, Aspose.Words'ün ücretsiz deneme sürümüne şu adresten erişebilirsiniz: [web sitesi](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

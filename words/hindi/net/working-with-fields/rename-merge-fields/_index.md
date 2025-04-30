@@ -1,14 +1,16 @@
 ---
-title: मर्ज फ़ील्ड का नाम बदलें
-linktitle: मर्ज फ़ील्ड का नाम बदलें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में मर्ज फ़ील्ड का नाम बदलना सीखें। अपने दस्तावेज़ों में आसानी से बदलाव करने के लिए हमारी विस्तृत, चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/working-with-fields/rename-merge-fields/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में मर्ज फ़ील्ड का नाम बदलना सीखें। अपने दस्तावेज़ों में आसानी से बदलाव करने के लिए हमारी विस्तृत, चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "मर्ज फ़ील्ड का नाम बदलें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "मर्ज फ़ील्ड का नाम बदलें"
+"url": "/hi/net/working-with-fields/rename-merge-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # मर्ज फ़ील्ड का नाम बदलें
@@ -21,7 +23,7 @@ url: /hi/net/working-with-fields/rename-merge-fields/
 
 इससे पहले कि हम विस्तृत विवरण में उतरें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
--  Aspose.Words for .NET: आपको Aspose.Words for .NET इंस्टॉल करना होगा। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: आपको Aspose.Words for .NET इंस्टॉल करना होगा। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 - विकास वातावरण: विजुअल स्टूडियो या कोई अन्य .NET संगत IDE.
 - C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होना उपयोगी होगा।
 
@@ -53,7 +55,7 @@ builder.InsertField(@"MERGEFIELD MyMergeField1 \* MERGEFORMAT");
 builder.InsertField(@"MERGEFIELD MyMergeField2 \* MERGEFORMAT");
 ```
 
- यहाँ, हम एक नया दस्तावेज़ बना रहे हैं और इसका उपयोग कर रहे हैं`DocumentBuilder` दो मर्ज फ़ील्ड सम्मिलित करने के लिए क्लास:`MyMergeField1` और`MyMergeField2`.
+यहाँ, हम एक नया दस्तावेज़ बना रहे हैं और इसका उपयोग कर रहे हैं `DocumentBuilder` दो मर्ज फ़ील्ड सम्मिलित करने के लिए क्लास: `MyMergeField1` और `MyMergeField2`.
 
 ## चरण 2: फ़ील्ड्स को पुनरावृत्त करें और उनका नाम बदलें
 
@@ -72,7 +74,7 @@ foreach (Field f in doc.Range.Fields)
 }
 ```
 
- इस स्निपेट में, हम एक का उपयोग कर रहे हैं`foreach` दस्तावेज़ में सभी फ़ील्ड के माध्यम से पुनरावृति करने के लिए लूप। प्रत्येक फ़ील्ड के लिए, हम जाँचते हैं कि क्या यह मर्ज फ़ील्ड है`f.Type == FieldType.FieldMergeField` यदि ऐसा है, तो हम इसे कास्ट करते हैं`FieldMergeField` और जोड़ें`_Renamed` इसके नाम के लिए.
+इस स्निपेट में, हम एक का उपयोग कर रहे हैं `foreach` दस्तावेज़ में सभी फ़ील्ड के माध्यम से पुनरावृति करने के लिए लूप। प्रत्येक फ़ील्ड के लिए, हम जाँचते हैं कि क्या यह मर्ज फ़ील्ड है `f.Type == FieldType.FieldMergeField`यदि ऐसा है, तो हम इसे कास्ट करते हैं `FieldMergeField` और जोड़ें `_Renamed` इसके नाम के लिए.
 
 ## चरण 3: दस्तावेज़ सहेजें
 
@@ -83,7 +85,7 @@ foreach (Field f in doc.Range.Fields)
 doc.Save(dataDir + "WorkingWithFields.RenameMergeFields.docx");
 ```
 
- कोड की यह पंक्ति दस्तावेज़ को नाम के साथ निर्दिष्ट निर्देशिका में सहेजती है`WorkingWithFields.RenameMergeFields.docx`.
+कोड की यह पंक्ति दस्तावेज़ को नाम के साथ निर्दिष्ट निर्देशिका में सहेजती है `WorkingWithFields.RenameMergeFields.docx`.
 
 ## निष्कर्ष
 
@@ -101,18 +103,23 @@ doc.Save(dataDir + "WorkingWithFields.RenameMergeFields.docx");
 
 ### क्या मैं नाम में जोड़ने के बजाय उपसर्ग बदल सकता हूँ?
 
- हां, आप इसे संशोधित कर सकते हैं`mergeField.FieldName` असाइनमेंट का उपयोग करके इसे किसी भी इच्छित मान पर सेट करें।
+हां, आप इसे संशोधित कर सकते हैं `mergeField.FieldName` असाइनमेंट का उपयोग करके इसे अपने इच्छित मान पर सेट करें।
 
 ### क्या Aspose.Words for .NET निःशुल्क है?
 
- Aspose.Words for .NET एक वाणिज्यिक उत्पाद है, लेकिन आप इसका उपयोग कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) इसका मूल्यांकन करने के लिए.
+Aspose.Words for .NET एक वाणिज्यिक उत्पाद है, लेकिन आप इसका उपयोग कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) इसका मूल्यांकन करने के लिए.
 
 ### मैं .NET के लिए Aspose.Words पर अधिक दस्तावेज़ कहां पा सकता हूं?
 
- आप विस्तृत दस्तावेज पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप विस्तृत दस्तावेज पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

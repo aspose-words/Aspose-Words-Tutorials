@@ -1,14 +1,16 @@
 ---
-title: การแทรกแผนภูมิฟองสบู่ในเอกสาร Word
-linktitle: การแทรกแผนภูมิฟองสบู่ในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแทรกแผนภูมิฟองในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนนี้ ปรับปรุงเอกสารของคุณ
-weight: 10
-url: /th/net/programming-with-charts/insert-bubble-chart/
+"description": "เรียนรู้วิธีแทรกแผนภูมิฟองในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนนี้ ปรับปรุงเอกสารของคุณ"
+"linktitle": "การแทรกแผนภูมิฟองสบู่ในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การแทรกแผนภูมิฟองสบู่ในเอกสาร Word"
+"url": "/th/net/programming-with-charts/insert-bubble-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแทรกแผนภูมิฟองสบู่ในเอกสาร Word
@@ -21,7 +23,7 @@ url: /th/net/programming-with-charts/insert-bubble-chart/
 
 ก่อนที่เราจะเริ่ม เรามาตรวจสอบให้แน่ใจว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
-- Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก[หน้าดาวน์โหลด](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก [หน้าดาวน์โหลด](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: คุณควรมีสภาพแวดล้อมการพัฒนาที่ตั้งค่าไว้เพื่อให้คุณสามารถเขียนและดำเนินการโค้ด .NET ได้ Visual Studio เป็นตัวเลือกยอดนิยม
 - ความรู้พื้นฐานเกี่ยวกับ C#: แม้ว่าคู่มือนี้เหมาะสำหรับผู้เริ่มต้น แต่ความเข้าใจพื้นฐานเกี่ยวกับ C# จะช่วยให้คุณทำตามได้ง่ายขึ้น
 
@@ -42,7 +44,7 @@ using Aspose.Words.Drawing.Charts;
 ก่อนที่เราจะเริ่มสร้างแผนภูมิ เราจะต้องกำหนดเส้นทางไปยังไดเร็กทอรีที่เราจะบันทึกเอกสารเสียก่อน วิธีนี้จะช่วยให้มั่นใจได้ว่าเอกสารของเราจะถูกเก็บไว้ในตำแหน่งที่ถูกต้อง
 
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -64,7 +66,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## ขั้นตอนที่ 4: แทรกแผนภูมิฟองสบู่
 
- ตอนนี้มาถึงส่วนที่น่าตื่นเต้น - การแทรกแผนภูมิฟองสบู่ เราใช้`InsertChart` วิธีการเพิ่มแผนภูมิชนิด`Bubble` ไปยังเอกสารของเรา
+ตอนนี้มาถึงส่วนที่น่าตื่นเต้น - การแทรกแผนภูมิฟองสบู่ เราใช้ `InsertChart` วิธีการเพิ่มแผนภูมิชนิด `Bubble` ไปยังเอกสารของเรา
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Bubble, 432, 252);
@@ -93,9 +95,9 @@ doc.Save(dataDir + "WorkingWithCharts.InsertBubbleChart.docx");
 
 ## คำถามที่พบบ่อย
 
-### ฉันสามารถปรับแต่งลักษณะที่ปรากฏของแผนภูมิฟองสบู่ได้หรือไม่
+### ฉันสามารถปรับแต่งลักษณะของแผนภูมิฟองสบู่ได้หรือไม่
 
- แน่นอน! Aspose.Words สำหรับ .NET มีตัวเลือกการปรับแต่งมากมาย ตั้งแต่สีและป้ายกำกับไปจนถึงการจัดรูปแบบชุดข้อมูล ลองดู[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายละเอียดเพิ่มเติม
+แน่นอน! Aspose.Words สำหรับ .NET มีตัวเลือกการปรับแต่งมากมาย ตั้งแต่สีและป้ายกำกับไปจนถึงการจัดรูปแบบชุดข้อมูล ลองดู [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายละเอียดเพิ่มเติม
 
 ### เป็นไปได้หรือไม่ที่จะเพิ่มแผนภูมิหลายรายการลงในเอกสารเดียว?
 
@@ -107,14 +109,19 @@ doc.Save(dataDir + "WorkingWithCharts.InsertBubbleChart.docx");
 
 ### ฉันจะได้รับรุ่นทดลองใช้งาน Aspose.Words สำหรับ .NET ฟรีได้อย่างไร
 
- คุณสามารถรับการทดลองใช้ฟรีได้จาก[เว็บไซต์](https://releases.aspose.com/). สิ่งนี้ทำให้คุณสามารถทดสอบคุณสมบัติต่างๆ ก่อนตัดสินใจซื้อ
+คุณสามารถรับการทดลองใช้ฟรีได้จาก [เว็บไซต์](https://releases.aspose.com/). สิ่งนี้ทำให้คุณสามารถทดสอบคุณสมบัติต่างๆ ก่อนตัดสินใจซื้อ
 
 ### ฉันสามารถหาบทช่วยสอนและการสนับสนุนเพิ่มเติมสำหรับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
 
- สำหรับบทช่วยสอนและการสนับสนุนเพิ่มเติม โปรดไปที่[ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8).
+สำหรับบทช่วยสอนและการสนับสนุนเพิ่มเติม โปรดไปที่ [ฟอรั่มสนับสนุน Aspose.Words](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

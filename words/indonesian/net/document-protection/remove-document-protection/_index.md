@@ -1,14 +1,16 @@
 ---
-title: Hapus Proteksi Dokumen di Dokumen Word
-linktitle: Hapus Proteksi Dokumen di Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menghapus proteksi dari dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk membuka proteksi dokumen Anda dengan mudah.
-weight: 10
-url: /id/net/document-protection/remove-document-protection/
+"description": "Pelajari cara menghapus proteksi dari dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk membuka proteksi dokumen Anda dengan mudah."
+"linktitle": "Hapus Proteksi Dokumen di Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Hapus Proteksi Dokumen di Dokumen Word"
+"url": "/id/net/document-protection/remove-document-protection/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Proteksi Dokumen di Dokumen Word
@@ -22,7 +24,7 @@ Hai! Pernahkah Anda merasa terkunci di luar dokumen Word Anda sendiri karena pen
 
 Sebelum kita masuk ke kode, mari pastikan kita punya semua yang dibutuhkan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda memiliki pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda memiliki pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan .NET seperti Visual Studio.
 3. Pengetahuan Dasar C#: Memahami dasar-dasar C# akan membantu Anda mengikutinya.
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "ProtectedDocument.docx");
 ```
 
- Di sini, kita tentukan jalur ke direktori yang berisi dokumen kita. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda.
+Di sini, kita tentukan jalur ke direktori yang berisi dokumen kita. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda.
 
 ## Langkah 2: Hapus Proteksi Tanpa Kata Sandi
 
@@ -70,7 +72,7 @@ Jika dokumen Anda dilindungi dengan kata sandi, Anda perlu memberikan kata sandi
 doc.Unprotect("currentPassword");
 ```
 
- Mengganti`"currentPassword"` dengan kata sandi yang sebenarnya digunakan untuk melindungi dokumen. Setelah Anda memberikan kata sandi yang benar, perlindungan akan dicabut.
+Mengganti `"currentPassword"` dengan kata sandi yang sebenarnya digunakan untuk melindungi dokumen. Setelah Anda memberikan kata sandi yang benar, perlindungan akan dicabut.
 
 ## Langkah 4: Tambahkan dan Hapus Perlindungan
 
@@ -84,7 +86,7 @@ doc.Protect(ProtectionType.ReadOnly, "newPassword");
 doc.Unprotect("newPassword");
 ```
 
- Pada kode di atas, pertama kita tambahkan proteksi baru dengan password`"newPassword"`, lalu segera menghapusnya menggunakan kata sandi yang sama.
+Pada kode di atas, pertama kita tambahkan proteksi baru dengan password `"newPassword"`, lalu segera menghapusnya menggunakan kata sandi yang sama.
 
 ## Langkah 5: Simpan Dokumen
 
@@ -113,7 +115,7 @@ Ya, Anda dapat melakukan pengulangan pada daftar dokumen dan menerapkan logika p
 
 ### Apakah Aspose.Words untuk .NET gratis?
 
- Aspose.Words untuk .NET adalah pustaka berbayar, tetapi Anda dapat mencobanya secara gratis. Lihat[uji coba gratis](https://releases.aspose.com/)!
+Aspose.Words untuk .NET adalah pustaka berbayar, tetapi Anda dapat mencobanya secara gratis. Lihat [uji coba gratis](https://releases.aspose.com/)!
 
 ### Jenis perlindungan apa lagi yang dapat saya terapkan pada dokumen Word?
 
@@ -121,11 +123,16 @@ Aspose.Words memungkinkan Anda menerapkan berbagai jenis perlindungan, seperti R
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
 
- Anda dapat menemukan dokumentasi terperinci di[Halaman dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi terperinci di [Halaman dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

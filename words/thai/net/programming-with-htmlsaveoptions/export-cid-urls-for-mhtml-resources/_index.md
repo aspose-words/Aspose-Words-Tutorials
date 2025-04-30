@@ -1,14 +1,16 @@
 ---
-title: ส่งออก URL Cid สำหรับทรัพยากร Mhtml
-linktitle: ส่งออก URL Cid สำหรับทรัพยากร Mhtml
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการส่งออก URL ของ Cid สำหรับทรัพยากร MHTML โดยใช้ Aspose.Words สำหรับ .NET ในบทช่วยสอนแบบทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาในทุกระดับ
-weight: 10
-url: /th/net/programming-with-htmlsaveoptions/export-cid-urls-for-mhtml-resources/
+"description": "เรียนรู้วิธีการส่งออก URL ของ Cid สำหรับทรัพยากร MHTML โดยใช้ Aspose.Words สำหรับ .NET ในบทช่วยสอนแบบทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาในทุกระดับ"
+"linktitle": "ส่งออก URL Cid สำหรับทรัพยากร Mhtml"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ส่งออก URL Cid สำหรับทรัพยากร Mhtml"
+"url": "/th/net/programming-with-htmlsaveoptions/export-cid-urls-for-mhtml-resources/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ส่งออก URL Cid สำหรับทรัพยากร Mhtml
@@ -21,7 +23,7 @@ url: /th/net/programming-with-htmlsaveoptions/export-cid-urls-for-mhtml-resource
 
 ก่อนที่เราจะเริ่ม เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
--  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET เวอร์ชันล่าสุดแล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET เวอร์ชันล่าสุดแล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: สภาพแวดล้อมการพัฒนา เช่น Visual Studio
 - ความรู้พื้นฐานเกี่ยวกับ C#: แม้ว่าฉันจะแนะนำคุณในทุกขั้นตอน แต่ความเข้าใจพื้นฐานเกี่ยวกับ C# จะเป็นประโยชน์
 
@@ -35,7 +37,7 @@ using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-ตอนนี้เรามาแบ่งกระบวนการออกเป็นขั้นตอนง่ายๆ ที่จัดการได้ แต่ละขั้นตอนจะมีคำอธิบายโดยละเอียดเพื่อให้แน่ใจว่าคุณสามารถทำตามได้อย่างง่ายดาย
+ตอนนี้เรามาแบ่งขั้นตอนออกเป็นขั้นตอนง่ายๆ ที่จัดการได้ แต่ละขั้นตอนจะมีคำอธิบายโดยละเอียดเพื่อให้แน่ใจว่าคุณสามารถทำตามได้อย่างง่ายดาย
 
 ## ขั้นตอนที่ 1: การตั้งค่าโครงการของคุณ
 
@@ -43,7 +45,7 @@ using Aspose.Words.Saving;
 เปิด Visual Studio และสร้างโปรเจ็กต์ C# ใหม่ เลือกเทมเพลตแอปคอนโซลเพื่อให้ทุกอย่างเรียบง่าย
 
 ### ขั้นตอนที่ 1.2: เพิ่ม Aspose.Words สำหรับการอ้างอิง .NET
-หากต้องการใช้ Aspose.Words สำหรับ .NET คุณจะต้องเพิ่มการอ้างอิงไปยังไลบรารี Aspose.Words ซึ่งทำได้โดยใช้ตัวจัดการแพ็กเกจ NuGet:
+หากต้องการใช้ Aspose.Words สำหรับ .NET คุณจะต้องเพิ่มการอ้างอิงไปยังไลบรารี Aspose.Words ซึ่งคุณสามารถทำได้ผ่านตัวจัดการแพ็กเกจ NuGet:
 
 1. คลิกขวาที่โครงการของคุณใน Solution Explorer
 2. เลือก "จัดการแพ็คเกจ NuGet"
@@ -58,7 +60,7 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังไดเร็กทอรีของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังไดเร็กทอรีของคุณ
 
 ### ขั้นตอนที่ 2.2: โหลดเอกสาร
 โหลดเอกสาร Word ของคุณลงในโครงการ
@@ -69,7 +71,7 @@ Document doc = new Document(dataDir + "Content-ID.docx");
 
 ## ขั้นตอนที่ 3: การกำหนดค่าตัวเลือกการบันทึก HTML
 
- สร้างอินสแตนซ์ของ`HtmlSaveOptions` เพื่อปรับแต่งวิธีการบันทึกเอกสารของคุณเป็น MHTML
+สร้างอินสแตนซ์ของ `HtmlSaveOptions` เพื่อปรับแต่งวิธีการบันทึกเอกสารของคุณเป็น MHTML
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Mhtml)
@@ -102,19 +104,24 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ExportCidUrlsForMhtmlResources.mh
 การส่งออก URL Cid สำหรับทรัพยากร MHTML ช่วยให้แน่ใจว่าทรัพยากรที่ฝังอยู่ในไฟล์ MHTML ของคุณมีการอ้างอิงอย่างถูกต้อง ซึ่งช่วยปรับปรุงการพกพาและความสมบูรณ์ของเอกสาร
 
 ### ฉันสามารถปรับแต่งรูปแบบเอาต์พุตเพิ่มเติมได้หรือไม่
- ใช่ Aspose.Words สำหรับ .NET มีตัวเลือกการปรับแต่งมากมายสำหรับการบันทึกเอกสาร โปรดดูที่[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายละเอียดเพิ่มเติม
+ใช่ Aspose.Words สำหรับ .NET มีตัวเลือกการปรับแต่งมากมายสำหรับการบันทึกเอกสาร โปรดดูที่ [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายละเอียดเพิ่มเติม
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Words สำหรับ .NET หรือไม่?
- ใช่ คุณต้องมีใบอนุญาตเพื่อใช้ Aspose.Words สำหรับ .NET คุณสามารถรับรุ่นทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/) หรือซื้อใบอนุญาต[ที่นี่](https://purchase.aspose.com/buy).
+ใช่ คุณต้องมีใบอนุญาตเพื่อใช้ Aspose.Words สำหรับ .NET คุณสามารถรับรุ่นทดลองใช้งานฟรีได้ [ที่นี่](https://releases.aspose.com/) หรือซื้อใบอนุญาต [ที่นี่](https://purchase-aspose.com/buy).
 
 ### ฉันสามารถทำให้กระบวนการนี้เป็นแบบอัตโนมัติสำหรับเอกสารหลายฉบับได้ไหม
 แน่นอน! คุณสามารถสร้างสคริปต์เพื่อทำให้กระบวนการสำหรับเอกสารหลายฉบับเป็นแบบอัตโนมัติ โดยใช้ประโยชน์จากความสามารถของ Aspose.Words สำหรับ .NET เพื่อจัดการการทำงานแบบแบตช์อย่างมีประสิทธิภาพ
 
 ### ฉันจะได้รับการสนับสนุนได้ที่ไหนหากประสบปัญหา?
-หากคุณต้องการความช่วยเหลือ โปรดไปที่ฟอรัมสนับสนุน Aspose[ที่นี่](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือจากชุมชนและนักพัฒนา Aspose
+หากคุณต้องการความช่วยเหลือ โปรดไปที่ฟอรัมสนับสนุน Aspose [ที่นี่](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือจากชุมชนและนักพัฒนา Aspose
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

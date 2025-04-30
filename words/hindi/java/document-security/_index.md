@@ -1,14 +1,16 @@
 ---
-title: दस्तावेज़ सुरक्षा
-linktitle: दस्तावेज़ सुरक्षा
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Aspose.Words for Java के साथ दस्तावेज़ सुरक्षा बढ़ाएँ! मज़बूत डेटा सुरक्षा के लिए सुरक्षा, एन्क्रिप्शन और डिजिटल हस्ताक्षर लागू करें।
-weight: 17
-url: /hi/java/document-security/
+"description": "Aspose.Words for Java के साथ दस्तावेज़ सुरक्षा बढ़ाएँ! मज़बूत डेटा सुरक्षा के लिए सुरक्षा, एन्क्रिप्शन और डिजिटल हस्ताक्षर लागू करें।"
+"linktitle": "दस्तावेज़ सुरक्षा"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "दस्तावेज़ सुरक्षा"
+"url": "/hi/java/document-security/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # दस्तावेज़ सुरक्षा
@@ -39,9 +41,13 @@ Aspose.Words for Java के साथ दस्तावेज़ों को 
 Aspose.Words for Java का उपयोग करके दस्तावेज़ों में सुरक्षित डिजिटल हस्ताक्षर लागू करने का तरीका जानें। चरण-दर-चरण मार्गदर्शन और स्रोत कोड के साथ दस्तावेज़ की अखंडता सुनिश्चित करें
 ### [दस्तावेज़ संपादन और डेटा संरक्षण](./document-redaction-data-protection/)
 जानें कि Aspose.Words for Java का उपयोग करके अपने दस्तावेज़ों को कैसे सुरक्षित रखें और संवेदनशील डेटा को कैसे संपादित करें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,30 +1,32 @@
 ---
-title: Tentukan Lokal Di Tingkat Bidang
-linktitle: Tentukan Lokal Di Tingkat Bidang
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menentukan lokasi untuk kolom dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan kami untuk menyesuaikan format dokumen Anda dengan mudah.
-weight: 10
-url: /id/net/working-with-fields/specify-locale-at-field-level/
+"description": "Pelajari cara menentukan lokasi untuk kolom dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan kami untuk menyesuaikan format dokumen Anda dengan mudah."
+"linktitle": "Tentukan Lokal Di Tingkat Bidang"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tentukan Lokal Di Tingkat Bidang"
+"url": "/id/net/working-with-fields/specify-locale-at-field-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tentukan Lokal Di Tingkat Bidang
 
 ## Perkenalan
 
-Apakah Anda siap untuk menyelami dunia Aspose.Words untuk .NET? Hari ini, kita akan menjelajahi cara menentukan lokal di tingkat bidang. Fitur praktis ini sangat berguna saat Anda ingin dokumen Anda mematuhi format budaya atau regional tertentu. Anggap saja seperti memberi dokumen Anda paspor yang memberi tahu cara berperilaku berdasarkan tempat yang "dikunjunginya". Di akhir tutorial ini, Anda akan dapat menyesuaikan pengaturan lokal untuk bidang dalam dokumen Word Anda dengan mudah. Mari kita mulai!
+Apakah Anda siap untuk menyelami dunia Aspose.Words untuk .NET? Hari ini, kita akan menjelajahi cara menentukan lokal di tingkat bidang. Fitur praktis ini khususnya berguna saat Anda ingin dokumen Anda mematuhi format budaya atau regional tertentu. Anggap saja seperti memberi dokumen Anda paspor yang memberi tahu cara berperilaku berdasarkan tempat yang "dikunjunginya". Di akhir tutorial ini, Anda akan dapat menyesuaikan pengaturan lokal untuk bidang dalam dokumen Word Anda dengan mudah. Mari kita mulai!
 
 ## Prasyarat
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal versi terbaru. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal versi terbaru. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau lingkungan pengembangan .NET lainnya.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda mengikuti contoh-contohnya.
-4. Lisensi Aspose: Jika Anda tidak memiliki lisensi, Anda bisa mendapatkannya[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk mencoba semua fitur.
+4. Lisensi Aspose: Jika Anda tidak memiliki lisensi, Anda bisa mendapatkannya [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk mencoba semua fitur.
 
 ## Mengimpor Ruang Nama
 
@@ -47,11 +49,11 @@ Pertama, kita perlu menyiapkan direktori tempat kita akan menyimpan dokumen kita
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 ```
 
- Mengganti`"YOUR_DOCUMENT_DIRECTORY"` dengan jalur sebenarnya ke direktori Anda.
+Mengganti `"YOUR_DOCUMENT_DIRECTORY"` dengan jalur sebenarnya ke direktori Anda.
 
 ## Langkah 2: Inisialisasi DocumentBuilder
 
- Selanjutnya, kita akan membuat instance baru dari`DocumentBuilder`Ini seperti pena dan kertas untuk membuat dan mengedit dokumen Word.
+Selanjutnya, kita akan membuat instance baru dari `DocumentBuilder`Ini seperti pena dan kertas untuk membuat dan mengedit dokumen Word.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
@@ -67,7 +69,7 @@ Field field = builder.InsertField(FieldType.FieldDate, true);
 
 ## Langkah 4: Tentukan Lokal
 
- Di sinilah keajaibannya! Kita akan mengatur lokal untuk bidang tersebut. ID lokal`1049`sesuai dengan bahasa Rusia. Ini berarti kolom tanggal kami akan mengikuti aturan format Rusia.
+Di sinilah keajaibannya! Kita akan mengatur lokal untuk bidang tersebut. ID lokal `1049` sesuai dengan bahasa Rusia. Ini berarti kolom tanggal kami akan mengikuti aturan format bahasa Rusia.
 
 ```csharp
 field.LocaleId = 1049;
@@ -101,14 +103,19 @@ Anda dapat menemukan daftar ID lokal dalam dokumentasi Microsoft atau dalam doku
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words untuk .NET?
 
- Meskipun Anda dapat menggunakan Aspose.Words untuk .NET tanpa lisensi dalam mode evaluasi, disarankan untuk mendapatkan lisensi[lisensi](https://purchase.aspose.com/buy) untuk membuka fungsionalitas penuh.
+Meskipun Anda dapat menggunakan Aspose.Words untuk .NET tanpa lisensi dalam mode evaluasi, disarankan untuk mendapatkan lisensi [lisensi](https://purchase.aspose.com/buy) untuk membuka fungsionalitas penuh.
 
 ### Bagaimana cara memperbarui pustaka Aspose.Words ke versi terbaru?
 
- Anda dapat mengunduh versi terbaru Aspose.Words untuk .NET dari[halaman unduhan](https://releases.aspose.com/words/net/).
+Anda dapat mengunduh versi terbaru Aspose.Words untuk .NET dari [halaman unduhan](https://releases.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

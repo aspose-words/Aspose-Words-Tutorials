@@ -1,14 +1,16 @@
 ---
-title: Özel Belge Özellikleri Ekle
-linktitle: Özel Belge Özellikleri Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word dosyalarına özel belge özelliklerinin nasıl ekleneceğini öğrenin. Belgelerinizi ek meta verilerle geliştirmek için adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/programming-with-document-properties/add-custom-document-properties/
+"description": "Aspose.Words for .NET kullanarak Word dosyalarına özel belge özelliklerinin nasıl ekleneceğini öğrenin. Belgelerinizi ek meta verilerle geliştirmek için adım adım kılavuzumuzu izleyin."
+"linktitle": "Özel Belge Özellikleri Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Özel Belge Özellikleri Ekle"
+"url": "/tr/net/programming-with-document-properties/add-custom-document-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Özel Belge Özellikleri Ekle
@@ -21,10 +23,10 @@ Merhaba! Aspose.Words for .NET dünyasına mı dalıyorsunuz ve Word dosyaların
 
 Koda geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesine sahip olduğunuzdan emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesine sahip olduğunuzdan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio benzeri bir IDE.
 3. Temel C# Bilgisi: Bu eğitimde C# ve .NET hakkında temel bir anlayışa sahip olduğunuzu varsayıyoruz.
-4.  Örnek Belge: Örnek bir Word belgesi hazırlayın, adlandırın`Properties.docx`, bunu değiştireceksiniz.
+4. Örnek Belge: Örnek bir Word belgesi hazırlayın, adlandırın `Properties.docx`, bunu değiştireceksiniz.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -37,7 +39,7 @@ using Aspose.Words;
 
 ## Adım 1: Belge Yolunu Ayarlama
 
- İlk önce, belgemize giden yolu ayarlamamız gerekiyor. Burada belgemizin konumunu belirleyeceğiz.`Properties.docx` dosya.
+İlk önce, belgemize giden yolu ayarlamamız gerekiyor. Burada belgemizin konumunu belirleyeceğiz. `Properties.docx` dosya.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -45,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Properties.docx");
 ```
 
- Bu kod parçacığında şunu değiştirin:`"YOUR DOCUMENT DIRECTORY"` Belgenizin gerçek yolu ile. Bu adım, programın Word dosyanızı bulmasını ve açmasını sağladığı için önemlidir.
+Bu kod parçacığında şunu değiştirin: `"YOUR DOCUMENT DIRECTORY"` Belgenizin gerçek yolu ile. Bu adım, programın Word dosyanızı bulmasını ve açmasını sağladığı için önemlidir.
 
 ## Adım 2: Özel Belge Özelliklerine Erişim
 
@@ -69,13 +71,13 @@ Bu satır "Authorized" özelliğinin zaten mevcut olup olmadığını kontrol ed
 
 ## Adım 4: Boole Özelliği Ekleme
 
-Şimdi, belgenin yetkili olup olmadığını gösteren bir Boole değeri olan ilk özel özelliğimizi ekleyelim.
+Şimdi, ilk özel özelliğimizi ekleyelim; belgenin yetkili olup olmadığını gösteren bir Boole değeri.
 
 ```csharp
 customDocumentProperties.Add("Authorized", true);
 ```
 
- Bu satır, "Yetkili" adlı özel bir özellik ekler ve değeri:`true`. Basit ve anlaşılır!
+Bu satır, "Yetkili" adlı özel bir özellik ekler ve değeri: `true`. Basit ve anlaşılır!
 
 ## Adım 5: Bir Dize Özelliği Ekleme
 
@@ -89,13 +91,13 @@ Burada, "John Smith" değerine sahip "Authorized By" adlı bir özellik ekliyoru
 
 ## Adım 6: Tarih Özelliği Ekleme
 
-Yetkilendirme tarihini saklamak için bir özellik ekleyelim. Bu, belgenin ne zaman yetkilendirildiğini takip etmeye yardımcı olur.
+Yetkilendirme tarihini depolamak için bir özellik ekleyelim. Bu, belgenin ne zaman yetkilendirildiğini takip etmeye yardımcı olur.
 
 ```csharp
 customDocumentProperties.Add("Authorized Date", DateTime.Today);
 ```
 
- Bu kod parçacığı, değeri geçerli tarih olan "Yetkili Tarih" adlı bir özellik ekler.`DateTime.Today`özellik otomatik olarak bugünün tarihini getirir.
+Bu kod parçacığı, değeri geçerli tarih olan "Yetkili Tarih" adlı bir özellik ekler. `DateTime.Today` özellik otomatik olarak bugünün tarihini getirir.
 
 ## Adım 7: Revizyon Numarası Ekleme
 
@@ -115,7 +117,7 @@ Son olarak, yetkili bir miktarı depolamak için sayısal bir özellik ekleyelim
 customDocumentProperties.Add("Authorized Amount", 123.45);
 ```
 
- Bu satır, "Yetkili Tutar" adlı bir özelliği, değeri olan bir değerle ekler`123.45`Tekrar ediyorum, bunu ihtiyaçlarınıza uygun herhangi bir sayıyla değiştirmekten çekinmeyin.
+Bu satır, "Yetkili Tutar" adlı bir özelliği, değeri olan bir değerle ekler `123.45`Tekrar ediyorum, bunu ihtiyaçlarınıza uygun herhangi bir sayıyla değiştirmekten çekinmeyin.
 
 ## Çözüm
 
@@ -140,9 +142,14 @@ Evet, Aspose.Words tarafından sağlanan benzer yöntemleri kullanarak özel öz
 ### Belgeleri filtrelemek için özel özellikler kullanılabilir mi?
 Kesinlikle! Özel özellikler, belgeleri belirli meta verilere göre kategorilere ayırmak ve filtrelemek için mükemmeldir.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

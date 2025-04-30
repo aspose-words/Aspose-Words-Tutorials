@@ -1,14 +1,16 @@
 ---
-title: คำแทนที่ข้อความที่มีอักขระเมตา
-linktitle: คำแทนที่ข้อความที่มีอักขระเมตา
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการแทนที่ข้อความที่มีอักขระเมตาในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ทำตามบทช่วยสอนโดยละเอียดที่น่าสนใจของเราเพื่อการจัดการข้อความอย่างราบรื่น
-weight: 10
-url: /th/net/find-and-replace-text/replace-text-containing-meta-characters/
+"description": "เรียนรู้วิธีการแทนที่ข้อความที่มีอักขระเมตาในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ทำตามบทช่วยสอนโดยละเอียดที่น่าสนใจของเราเพื่อการจัดการข้อความอย่างราบรื่น"
+"linktitle": "คำแทนที่ข้อความที่มีอักขระเมตา"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "คำแทนที่ข้อความที่มีอักขระเมตา"
+"url": "/th/net/find-and-replace-text/replace-text-containing-meta-characters/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # คำแทนที่ข้อความที่มีอักขระเมตา
@@ -20,7 +22,7 @@ url: /th/net/find-and-replace-text/replace-text-containing-meta-characters/
 ## ข้อกำหนดเบื้องต้น
 
 ก่อนที่เราจะเข้าสู่รายละเอียด เรามาตรวจสอบกันก่อนว่าคุณได้ทุกสิ่งที่คุณต้องการแล้ว:
--  Aspose.คำศัพท์สำหรับ .NET:[ลิงค์ดาวน์โหลด](https://releases.aspose.com/words/net/)
+- Aspose.คำศัพท์สำหรับ .NET: [ลิงค์ดาวน์โหลด](https://releases.aspose.com/words/net/)
 - .NET Framework: ตรวจสอบให้แน่ใจว่ามีการติดตั้งแล้ว
 - ความเข้าใจพื้นฐานเกี่ยวกับ C#: ความรู้การเขียนโค้ดเพียงเล็กน้อยก็มีประโยชน์มาก
 - โปรแกรมแก้ไขข้อความหรือ IDE: Visual Studio แนะนำเป็นอย่างยิ่ง
@@ -48,7 +50,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- โค้ดสั้นๆ นี้จะเริ่มต้นเอกสารและตั้งค่าตัวสร้าง`dataDir` เป็นฐานหลักของเอกสารของคุณ
+โค้ดสั้นๆ นี้จะเริ่มต้นเอกสารและตั้งค่าตัวสร้าง `dataDir` เป็นฐานหลักของเอกสารของคุณ
 
 ## ขั้นตอนที่ 2: ปรับแต่งแบบอักษรของคุณและเพิ่มเนื้อหา
 
@@ -75,14 +77,14 @@ FindReplaceOptions findReplaceOptions = new FindReplaceOptions();
 findReplaceOptions.ApplyParagraphFormat.Alignment = ParagraphAlignment.Center;
 ```
 
- เรากำลังสร้าง`FindReplaceOptions` วัตถุและการตั้งค่าการจัดตำแหน่งย่อหน้าให้อยู่กึ่งกลาง
+เรากำลังสร้าง `FindReplaceOptions` วัตถุและการตั้งค่าการจัดตำแหน่งย่อหน้าให้อยู่กึ่งกลาง
 
 ## ขั้นตอนที่ 4: แทนที่ข้อความด้วยอักขระ Meta
 
 ขั้นตอนนี้คือจุดที่เวทมนตร์เกิดขึ้น! เราจะแทนที่คำว่า "section" ตามด้วยการแบ่งย่อหน้า และเพิ่มขีดเส้นใต้
 
 ```csharp
-//แบ่งย่อหน้าสองครั้งหลังคำว่า "ส่วน" เพิ่มขีดเส้นใต้และจัดให้อยู่กึ่งกลาง
+// แบ่งย่อหน้าเป็นสองเท่าหลังคำว่า "ส่วน" เพิ่มขีดเส้นใต้และจัดให้อยู่กึ่งกลาง
 int count = doc.Range.Replace("section&p", "section&p----------------------&p", findReplaceOptions);
 ```
 
@@ -90,14 +92,14 @@ int count = doc.Range.Replace("section&p", "section&p----------------------&p", 
 
 ## ขั้นตอนที่ 5: แทรกตัวแบ่งส่วน
 
-ต่อไปเราจะแทนที่แท็กข้อความแบบกำหนดเองด้วยตัวแบ่งส่วน ซึ่งก็เหมือนกับการสลับตัววางข้อความแบบชั่วคราวด้วยสิ่งที่ใช้งานได้จริงมากกว่า
+ต่อไปเราจะแทนที่แท็กข้อความแบบกำหนดเองด้วยตัวแบ่งส่วน ซึ่งก็เหมือนกับการสลับตัวแทนข้อความด้วยสิ่งที่ใช้งานได้จริงมากกว่า
 
 ```csharp
 // แทรกตัวแบ่งส่วนแทนแท็กข้อความแบบกำหนดเอง
 count = doc.Range.Replace("{insert-section}", "&b", findReplaceOptions);
 ```
 
- ที่นี่,`{insert-section}` ถูกแทนที่ด้วยการแบ่งส่วน (`&b`-
+ที่นี่, `{insert-section}` ถูกแทนที่ด้วยการแบ่งส่วน (`&b`-
 
 ## ขั้นตอนที่ 6: บันทึกเอกสาร
 
@@ -107,7 +109,7 @@ count = doc.Range.Replace("{insert-section}", "&b", findReplaceOptions);
 doc.Save(dataDir + "FindAndReplace.ReplaceTextContainingMetaCharacters.docx");
 ```
 
- รหัสนี้จะบันทึกเอกสารไปยังไดเร็กทอรีที่คุณระบุโดยใช้ชื่อ`FindAndReplace.ReplaceTextContainingMetaCharacters.docx`.
+รหัสนี้จะบันทึกเอกสารไปยังไดเร็กทอรีที่คุณระบุโดยใช้ชื่อ `FindAndReplace-ReplaceTextContainingMetaCharacters.docx`.
 
 ## บทสรุป
 
@@ -116,22 +118,27 @@ doc.Save(dataDir + "FindAndReplace.ReplaceTextContainingMetaCharacters.docx");
 ## คำถามที่พบบ่อย
 
 ### เมตาอักขระในการแทนที่ข้อความคืออะไร?
- อักขระพิเศษคืออักขระพิเศษที่มีฟังก์ชันเฉพาะ เช่น`&p` สำหรับการแบ่งย่อหน้าและ`&b` สำหรับการแบ่งส่วน
+อักขระพิเศษคืออักขระพิเศษที่มีฟังก์ชันเฉพาะ เช่น `&p` สำหรับการแบ่งย่อหน้าและ `&b` สำหรับการแบ่งส่วน
 
 ### ฉันสามารถปรับแต่งข้อความทดแทนเพิ่มเติมได้หรือไม่
 แน่นอน! คุณสามารถแก้ไขสตริงการแทนที่เพื่อรวมข้อความ การจัดรูปแบบ หรืออักขระเมตาอื่นๆ ตามต้องการ
 
 ### จะเกิดอะไรขึ้นหากฉันจำเป็นต้องแทนที่แท็กที่แตกต่างกันหลายรายการ?
- คุณสามารถเชื่อมต่อหลาย ๆ อย่างได้`Replace` เรียกเพื่อจัดการแท็กหรือรูปแบบต่างๆ ในเอกสารของคุณ
+คุณสามารถเชื่อมต่อหลายๆอันได้ `Replace` เรียกเพื่อจัดการแท็กหรือรูปแบบต่างๆ ในเอกสารของคุณ
 
 ### สามารถใช้แบบอักษรและการจัดรูปแบบอื่นได้หรือไม่
-ใช่ คุณสามารถปรับแต่งแบบอักษรและตัวเลือกการจัดรูปแบบอื่น ๆ ได้โดยใช้`DocumentBuilder` และ`FindReplaceOptions` วัตถุ
+ใช่ คุณสามารถปรับแต่งแบบอักษรและตัวเลือกการจัดรูปแบบอื่น ๆ ได้โดยใช้ `DocumentBuilder` และ `FindReplaceOptions` วัตถุ
 
 ### ฉันสามารถหาข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
- คุณสามารถเยี่ยมชม[เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) สำหรับรายละเอียดและตัวอย่างเพิ่มเติม
+คุณสามารถเยี่ยมชม [เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) สำหรับรายละเอียดและตัวอย่างเพิ่มเติม
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

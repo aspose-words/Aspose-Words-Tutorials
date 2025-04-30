@@ -1,14 +1,16 @@
 ---
-title: फ़ॉन्ट जोर चिह्न सेट करें
-linktitle: फ़ॉन्ट जोर चिह्न सेट करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस विस्तृत, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ॉन्ट जोर चिह्न सेट करना सीखें। .NET डेवलपर्स के लिए बिल्कुल सही।
-weight: 10
-url: /hi/net/working-with-fonts/set-font-emphasis-mark/
+"description": "इस विस्तृत, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ॉन्ट जोर चिह्न सेट करना सीखें। .NET डेवलपर्स के लिए बिल्कुल सही।"
+"linktitle": "फ़ॉन्ट जोर चिह्न सेट करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "फ़ॉन्ट जोर चिह्न सेट करें"
+"url": "/hi/net/working-with-fonts/set-font-emphasis-mark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # फ़ॉन्ट जोर चिह्न सेट करें
@@ -21,7 +23,7 @@ url: /hi/net/working-with-fonts/set-font-emphasis-mark/
 
 इससे पहले कि हम विस्तृत विवरण में उतरें, सुनिश्चित करें कि आपने निम्नलिखित पूर्वापेक्षाएँ पूरी कर ली हैं:
 
--  Aspose.Words for .NET लाइब्रेरी: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET लाइब्रेरी: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 - विकास वातावरण: एक कार्यशील विकास वातावरण जैसे कि विजुअल स्टूडियो।
 - .NET फ्रेमवर्क: सुनिश्चित करें कि आपके पास .NET फ्रेमवर्क स्थापित है।
 
@@ -34,14 +36,14 @@ using Aspose.Words;
 using Aspose.Words.Fonts;
 ```
 
-अब, आइए इस प्रक्रिया को सरल चरणों में विभाजित करें। अपने वर्ड दस्तावेज़ में फ़ॉन्ट जोर चिह्न सेट करने के लिए प्रत्येक चरण का सावधानीपूर्वक पालन करें।
+अब, आइए इस प्रक्रिया को सरल चरणों में विभाजित करें। अपने Word दस्तावेज़ में फ़ॉन्ट जोर चिह्न सेट करने के लिए प्रत्येक चरण का सावधानीपूर्वक पालन करें।
 
 ## चरण 1: दस्तावेज़ और दस्तावेज़बिल्डर को आरंभ करें
 
 सबसे पहले, आपको एक नया दस्तावेज़ और एक DocumentBuilder आरंभ करना होगा। DocumentBuilder वर्ग दस्तावेज़ में पाठ और अन्य तत्वों को सम्मिलित करने के लिए विधियाँ प्रदान करता है।
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // नया दस्तावेज़ आरंभ करें
@@ -87,7 +89,7 @@ document.Save(dataDir + "WorkingWithFonts.SetFontEmphasisMark.docx");
 
 ## निष्कर्ष
 
-और अब यह आपके लिए है! Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में फ़ॉन्ट जोर चिह्न सेट करना उतना ही सरल है। कोड की कुछ पंक्तियों के साथ, आप अपने टेक्स्ट को अलग बना सकते हैं और अपने दस्तावेज़ों में एक पेशेवर स्पर्श जोड़ सकते हैं। अपनी ज़रूरतों के हिसाब से अलग-अलग जोर चिह्नों और शैलियों के साथ प्रयोग करने में संकोच न करें।
+और अब यह आपके लिए है! .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में फ़ॉन्ट जोर चिह्न सेट करना उतना ही सरल है। कोड की कुछ पंक्तियों के साथ, आप अपने टेक्स्ट को अलग बना सकते हैं और अपने दस्तावेज़ों में एक पेशेवर स्पर्श जोड़ सकते हैं। अपनी ज़रूरतों के हिसाब से अलग-अलग जोर चिह्नों और शैलियों के साथ प्रयोग करने में संकोच न करें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
@@ -97,22 +99,27 @@ document.Save(dataDir + "WorkingWithFonts.SetFontEmphasisMark.docx");
 
 ### क्या मैं .NET के लिए Aspose.Words के साथ अन्य जोर चिह्नों का उपयोग कर सकता हूं?
 
- हां, Aspose.Words for .NET विभिन्न जोर चिह्नों का समर्थन करता है। आप संदर्भ देकर विभिन्न विकल्पों का पता लगा सकते हैं[प्रलेखन](https://reference.aspose.com/words/net/).
+हां, Aspose.Words for .NET विभिन्न जोर चिह्नों का समर्थन करता है। आप संदर्भ देकर विभिन्न विकल्पों का पता लगा सकते हैं [प्रलेखन](https://reference.aspose.com/words/net/).
 
 ### क्या .NET के लिए Aspose.Words का उपयोग निःशुल्क है?
 
- .NET के लिए Aspose.Words को पूर्ण कार्यक्षमता के लिए लाइसेंस की आवश्यकता होती है। आप निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/) या लाइसेंस खरीदें[यहाँ](https://purchase.aspose.com/buy).
+.NET के लिए Aspose.Words को पूर्ण कार्यक्षमता के लिए लाइसेंस की आवश्यकता होती है। आप निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/) या लाइसेंस खरीदें [यहाँ](https://purchase.aspose.com/buy).
 
 ### मैं .NET के लिए Aspose.Words का समर्थन कैसे प्राप्त कर सकता हूं?
 
- आप उनके यहाँ जाकर Aspose समुदाय और सहायता टीम से सहायता प्राप्त कर सकते हैं[सहयता मंच](https://forum.aspose.com/c/words/8).
+आप उनके यहाँ जाकर Aspose समुदाय और सहायता टीम से सहायता प्राप्त कर सकते हैं [सहयता मंच](https://forum.aspose.com/c/words/8).
 
 ### क्या मैं अन्य .NET फ्रेमवर्क के साथ .NET के लिए Aspose.Words का उपयोग कर सकता हूं?
 
 हां, .NET के लिए Aspose.Words विभिन्न .NET फ्रेमवर्क के साथ संगत है, जिसमें .NET Core और .NET 5/6 शामिल हैं।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

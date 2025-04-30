@@ -1,52 +1,60 @@
 ---
-title: إدراج مخطط عمود بسيط في Word باستخدام Aspose.Words ل .NET
-weight: 7700
-limit: 
-description: تعلم كيفية إدراج جدول عمود بسيط في مستند Word باستخدام Aspose.Words ل .NET. اتبع التعليمات الخطوة بخطوة لإنشاء وتخصيص الرسم البياني الخاص بك.
-keywords: [Aspose.Words for .NET, insert column chart, create Word chart, .NET Word chart example, Word document chart, Aspose chart example]
-url: /ar/net/working-with-charts/insert-simple-column-chart/
+"description": "تعرّف على كيفية إدراج مخطط عمودي بسيط في مستند Word باستخدام Aspose.Words لـ .NET. اتبع التعليمات خطوة بخطوة لإنشاء مخططك وتخصيصه."
+"title": "إدراج مخطط عمودي بسيط في Word باستخدام Aspose.Words لـ .NET"
+"url": "/ar/net/working-with-charts/insert-simple-column-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إضافة مخطط عمود بسيط في الكلمة باستخدام Aspose.Words
+# إدراج مخطط عمودي بسيط في Word باستخدام Aspose.Words
 
-Aspose.Words لـ .NET يجعل من السهل إنشاء وثائق Word المهنية ذات محتوى غني. في هذه الدروسة، سوف تتعلم كيفية إدخال جدول عمود بسيط في مستند Word برنامجيًا. سنقوم بتغطية كل خطوة، من إطلاق الوثيقة إلى تخصيص سلسلة الرسوم البيانية وتخزين الملف. سواء كنت تولد تقارير أو تصور البيانات، يقدم هذا الدليل جميع التفاصيل التي تحتاجها لتحكم في إدخال الرسوم البيانية باستخدام Aspose.Words لـ .NET.  
+يُسهّل Aspose.Words for .NET إنشاء مستندات Word احترافية غنية المحتوى. في هذا البرنامج التعليمي، ستتعلم كيفية إدراج مخطط عمودي بسيط في مستند Word برمجيًا. سنغطي كل خطوة، من تهيئة المستند إلى تخصيص سلسلة المخططات وحفظ الملف. سواء كنت تُنشئ تقارير أو تُصوّر البيانات، يُقدّم هذا الدليل جميع التفاصيل اللازمة لإتقان إدراج المخططات باستخدام Aspose.Words for .NET.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-simple-column-chart" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت  
-لاستخدام هذا المثال، تأكد من أن لديك Aspose.Words ل .NET مثبتة. اتبع هذه الخطوات:  
+لاستخدام هذا المثال، تأكد من تثبيت Aspose.Words لـ .NET. اتبع الخطوات التالية:  
 
-1. قم بتنزيل Aspose.Words لـ .NET:  
-   زيارة[Aspose.Words ل .NET تنزيل](https://releases.aspose.com/words/net/)و تنزيل أحدث النسخة  
+1. تنزيل Aspose.Words لـ .NET:  
+   يزور [تنزيل Aspose.Words لـ .NET](https://releases.aspose.com/words/net/) وتنزيل الإصدار الأحدث.  
 
-2. قم بتثبيت المكتبة:  
-   * إضافة حزمة Aspose.Words NuGet إلى مشروعك. قم بتشغيل الأمر التالي في جهاز تشغيل الحزمة:  
+2. تثبيت المكتبة:  
+   - أضف حزمة Aspose.Words NuGet إلى مشروعك. شغّل الأمر التالي في وحدة تحكم إدارة حزم NuGet:  
      ```sh
      Install-Package Aspose.Words
      ```  
-   * بدلاً من ذلك، أضف `.dll`الملفات إلى مرجع المشروع يدوياً.  
+   - بدلا من ذلك، قم بإضافة `.dll` قم بإضافة الملفات إلى مراجع مشروعك يدويًا.  
 
-3. احصل على رخصة:  
-   * الحصول على رخصة من[إستهداف الشراء](https://purchase.aspose.com/buy)أو طلب محاكمة مجانية من[تَوَجُّبُ الْمُحَاكَمَةَ المُجانيةَ](https://releases.aspose.com/). . .  
+3. احصل على ترخيص:  
+   - الحصول على ترخيص من [شراء Aspose](https://purchase.aspose.com/buy) أو اطلب نسخة تجريبية مجانية من [نسخة تجريبية مجانية من Aspose](https://releases.aspose.com/).  
 
 4. تطبيق الترخيص:  
-   إضافة الرمز التالي إلى مشروعك لتنشيط الترخيص:  
+   أضف الكود التالي إلى مشروعك لتفعيل الترخيص:  
    ```csharp
    License license = new License();
    license.SetLicense("path-to-your-license-file.lic");
    ```  
 
-## انظر أيضاً
-[Aspose.Word للمستندات .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word للمراجع .NET](https://reference.aspose.com/words/net/)
+## انظر أيضا
+[توثيق Aspose.Word لـ .NET](https://docs.aspose.com/words/net/)
+[مراجع Aspose.Word لـ .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

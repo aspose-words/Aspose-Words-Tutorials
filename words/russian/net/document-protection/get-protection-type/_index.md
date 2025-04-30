@@ -1,14 +1,16 @@
 ---
-title: Получить тип защиты в документе Word
-linktitle: Получить тип защиты в документе Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как проверить тип защиты документов Word с помощью Aspose.Words для .NET. Пошаговое руководство, примеры кода и часто задаваемые вопросы включены.
-weight: 10
-url: /ru/net/document-protection/get-protection-type/
+"description": "Узнайте, как проверить тип защиты документов Word с помощью Aspose.Words для .NET. Пошаговое руководство, примеры кода и часто задаваемые вопросы включены."
+"linktitle": "Получить тип защиты в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Получить тип защиты в документе Word"
+"url": "/ru/net/document-protection/get-protection-type/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получить тип защиты в документе Word
@@ -21,7 +23,7 @@ url: /ru/net/document-protection/get-protection-type/
 
 Прежде чем приступить к написанию кода, давайте убедимся, что у вас есть все необходимое:
 
-1. Библиотека Aspose.Words for .NET: если вы еще этого не сделали, загрузите и установите[Библиотека Aspose.Words для .NET](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words for .NET: если вы еще этого не сделали, загрузите и установите [Библиотека Aspose.Words для .NET](https://releases.aspose.com/words/net/).
 2. Среда разработки: IDE, например Visual Studio.
 3. Базовые знания C#: знакомство с программированием на C# поможет вам в дальнейшем изучении.
 
@@ -47,7 +49,7 @@ using Aspose.Words;
 
 ## Шаг 2: Загрузите документ
 
-Теперь, когда ваш проект настроен, давайте загрузим документ Word, который вы хотите проверить. Заменить`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему документу.
+Теперь, когда ваш проект настроен, давайте загрузим документ Word, который вы хотите проверить. Заменить `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему документу.
 
 ```csharp
 // Путь к каталогу ваших документов
@@ -81,19 +83,24 @@ Console.WriteLine("The protection type of the document is: " + protectionType);
 Aspose.Words для .NET — это мощная библиотека, позволяющая создавать, редактировать, конвертировать и обрабатывать документы Word программным способом.
 
 ### Могу ли я использовать Aspose.Words бесплатно?
- Вы можете начать с[бесплатная пробная версия](https://releases.aspose.com/) но для полной функциональности вам необходимо приобрести лицензию. Ознакомьтесь с[варианты покупки](https://purchase.aspose.com/buy).
+Вы можете начать с [бесплатная пробная версия](https://releases.aspose.com/), но для полной функциональности вам необходимо приобрести лицензию. Ознакомьтесь с [варианты покупки](https://purchase.aspose.com/buy).
 
 ### Какие типы защиты может обнаружить Aspose.Words?
 Aspose.Words может обнаруживать различные типы защиты, такие как NoProtection, ReadOnly, AllowOnlyRevisions, AllowOnlyComments и AllowOnlyFormFields.
 
 ### Как я могу получить поддержку, если у меня возникнут проблемы?
- По любым вопросам вы можете посетить[Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8) за помощь.
+По любым вопросам вы можете посетить [Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8) за помощь.
 
 ### Совместим ли Aspose.Words с .NET Core?
 Да, Aspose.Words совместим как с .NET Framework, так и с .NET Core.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

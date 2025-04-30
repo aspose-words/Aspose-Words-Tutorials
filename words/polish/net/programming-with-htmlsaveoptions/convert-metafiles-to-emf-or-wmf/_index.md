@@ -1,14 +1,16 @@
 ---
-title: Konwertuj metapliki do formatu EMF lub WMF
-linktitle: Konwertuj metapliki do formatu EMF lub WMF
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Przewodnik krok po kroku dotyczący konwersji metaplików do formatów EMF lub WMF podczas konwersji dokumentu do formatu HTML za pomocą Aspose.Words dla .NET.
-weight: 10
-url: /pl/net/programming-with-htmlsaveoptions/convert-metafiles-to-emf-or-wmf/
+"description": "Przewodnik krok po kroku dotyczący konwersji metaplików do formatów EMF lub WMF podczas konwersji dokumentu do formatu HTML za pomocą Aspose.Words dla .NET."
+"linktitle": "Konwertuj metapliki do formatu EMF lub WMF"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Konwertuj metapliki do formatu EMF lub WMF"
+"url": "/pl/net/programming-with-htmlsaveoptions/convert-metafiles-to-emf-or-wmf/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwertuj metapliki do formatu EMF lub WMF
@@ -21,7 +23,7 @@ Witamy w kolejnym głębokim zanurzeniu w świat Aspose.Words dla .NET. Dzisiaj 
 
 Zanim zagłębimy się w kod, upewnijmy się, że wszystko jest skonfigurowane. Oto, czego potrzebujesz:
 
-1.  Aspose.Words for .NET Library: Upewnij się, że masz najnowszą wersję. Jeśli jej nie masz, możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Library: Upewnij się, że masz najnowszą wersję. Jeśli jej nie masz, możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 2. .NET Framework: Upewnij się, że na Twoim komputerze jest zainstalowany .NET Framework.
 3. Środowisko programistyczne: IDE, takie jak Visual Studio, ułatwi Ci życie.
 4. Podstawowa znajomość języka C#: Nie musisz być ekspertem, ale podstawowa znajomość języka będzie pomocna.
@@ -47,9 +49,9 @@ Zacznijmy od zdefiniowania ścieżki do katalogu dokumentów. To tutaj zostanie 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać dokument.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać dokument.
 
-## Krok 2: Utwórz ciąg HTML z SVG
+## Krok 2: Utwórz ciąg HTML za pomocą SVG
 
 Następnie potrzebujemy ciągu HTML zawierającego obraz SVG, który chcemy przekonwertować. Oto prosty przykład:
 
@@ -66,18 +68,18 @@ Ten fragment kodu HTML zawiera podstawowy kod SVG z napisem „Witaj, świecie!�
 
 ## Krok 3: Załaduj HTML za pomocą opcji ConvertSvgToEmf
 
- Teraz używamy`HtmlLoadOptions` aby określić, jak chcemy obsługiwać obrazy SVG w HTML. Ustawienie`ConvertSvgToEmf` Do`true` zapewnia konwersję obrazów SVG do formatu EMF.
+Teraz używamy `HtmlLoadOptions` aby określić, jak chcemy obsługiwać obrazy SVG w HTML. Ustawienie `ConvertSvgToEmf` Do `true` zapewnia konwersję obrazów SVG do formatu EMF.
 
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions { ConvertSvgToEmf = true };
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), loadOptions);
 ```
 
- Ten fragment kodu tworzy nowy`Document` obiekt, ładując do niego ciąg HTML przy użyciu określonych opcji ładowania.
+Ten fragment kodu tworzy nowy `Document` obiekt, ładując do niego ciąg HTML przy użyciu określonych opcji ładowania.
 
 ## Krok 4: Ustaw HtmlSaveOptions dla formatu metapliku
 
- Aby zapisać dokument w odpowiednim formacie metapliku, używamy`HtmlSaveOptions` Tutaj ustawiamy`MetafileFormat` Do`HtmlMetafileFormat.Png` , ale możesz to zmienić na`Emf` Lub`Wmf` w zależności od Twoich potrzeb.
+Aby zapisać dokument w odpowiednim formacie metapliku, używamy `HtmlSaveOptions`Tutaj ustawiamy `MetafileFormat` Do `HtmlMetafileFormat.Png`, ale możesz to zmienić na `Emf` Lub `Wmf` w zależności od Twoich potrzeb.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions { MetafileFormat = HtmlMetafileFormat.Png };
@@ -112,10 +114,15 @@ Konwersja formatu SVG do formatu EMF lub WMF zapewnia, że grafika wektorowa zos
 Oczywiście! Możesz przejść przez wiele plików HTML, stosując ten sam proces, aby zautomatyzować konwersję do przetwarzania wsadowego.
 
 ### Gdzie mogę znaleźć więcej materiałów i pomocy dla Aspose.Words dla .NET?
- Można znaleźć kompleksową dokumentację[Tutaj](https://reference.aspose.com/words/net/) i uzyskaj wsparcie od społeczności Aspose[Tutaj](https://forum.aspose.com/c/words/8).
+Można znaleźć kompleksową dokumentację [Tutaj](https://reference.aspose.com/words/net/) i uzyskaj wsparcie od społeczności Aspose [Tutaj](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

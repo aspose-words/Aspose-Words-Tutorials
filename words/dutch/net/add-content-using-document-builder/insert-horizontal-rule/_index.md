@@ -1,31 +1,35 @@
 ---
-title: Word Document maken met horizontale regel in .NET
-weight: 7700
-limit: 
-description: Leer hoe je een Word-document in .NET kunt maken met Aspose.Words en een horizontale regel met eenvoudige code voorbeelden kunt invoeren.
-keywords: [Aspose.Words, .NET, Word document, horizontal rule, DocumentBuilder, example, code snippet]
-url: /nl/net/add-content-using-document-builder/insert-horizontal-rule/
+"description": "Leer hoe u een Word-document in .NET maakt met behulp van Aspose.Words en een horizontale lijn invoegt met behulp van eenvoudige codevoorbeelden."
+"title": "Maak een Word-document met horizontale lijn in .NET"
+"url": "/nl/net/add-content-using-document-builder/insert-horizontal-rule/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word Document maken met horizontale regel
-Dit voorbeeld toont het gebruik van Aspose.Words voor .NET om een Word document te maken en een horizontale regel toe te voegen met behulp van DocumentBuilder. Volg de onderstaande stappen om te leren hoe je documenten effectief kunt formateren.
+# Word-document maken met horizontale lijn
+Dit voorbeeld demonstreert hoe u Aspose.Words voor .NET kunt gebruiken om een Word-document te maken en een horizontale lijn toe te voegen met DocumentBuilder. Volg de onderstaande stappen om te leren hoe u uw documenten effectief kunt opmaken.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-horizontal-rule" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installatie-instructies
-1. Installeer Aspose.Words: Gebruik NuGet Package Manager in Visual Studio.
-   * Open je project in Visual Studio.
-   * Klik met de rechterkant op je project in de Solution Explorer.
-   * Selecteer Beheer NuGet Pakketten.
-   * Zoek naar `Aspose.Words`En installeer het.
+1. Installeer Aspose.Words: gebruik NuGet Package Manager in Visual Studio.
+   - Open uw project in Visual Studio.
+   - Klik met de rechtermuisknop op uw project in Solution Explorer.
+   - Selecteer NuGet-pakketten beheren.
+   - Zoeken naar `Aspose.Words` en installeer het.
 
-2. Voeg gebruikrichtlijn toe: Voeg in uw codebestand de volgende richtlijn toe om de klassen Aspose.Words te gebruiken:
+2. Voeg een richtlijn toe: Neem in uw codebestand de volgende richtlijn op om Aspose.Words-klassen te gebruiken:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
@@ -34,10 +38,14 @@ Dit voorbeeld toont het gebruik van Aspose.Words voor .NET om een Word document 
 
 ## Zie ook
 [Aspose.Word voor .NET-documentatie](https://docs.aspose.com/words/net/)
-[Aspose.Word voor .NET Referenties](https://reference.aspose.com/words/net/)
+[Aspose.Word voor .NET-referenties](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

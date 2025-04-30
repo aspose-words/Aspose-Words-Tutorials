@@ -1,14 +1,16 @@
 ---
-title: Cara Menjaga Dokumen Anda Tetap Aman dan Terlindungi
-linktitle: Cara Menjaga Dokumen Anda Tetap Aman dan Terlindungi
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Amankan dokumen Anda dengan Aspose.Words untuk Java. Enkripsikan, lindungi, dan tambahkan tanda tangan digital dengan mudah. Jaga data Anda tetap aman.
-weight: 10
-url: /id/java/document-security/keep-documents-safe-secure/
+"description": "Amankan dokumen Anda dengan Aspose.Words untuk Java. Enkripsikan, lindungi, dan tambahkan tanda tangan digital dengan mudah. Jaga data Anda tetap aman."
+"linktitle": "Cara Menjaga Dokumen Anda Tetap Aman dan Terlindungi"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Cara Menjaga Dokumen Anda Tetap Aman dan Terlindungi"
+"url": "/id/java/document-security/keep-documents-safe-secure/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cara Menjaga Dokumen Anda Tetap Aman dan Terlindungi
@@ -46,7 +48,7 @@ Enkripsi dokumen menyediakan lapisan keamanan tambahan, yang membuat konten tida
 Sebelum kita lanjut ke keamanan dokumen, mari kita kenali dulu Aspose.Words untuk Java. Ini adalah pustaka kaya fitur yang memungkinkan pengembang Java untuk membuat, memodifikasi, dan mengonversi dokumen Word secara terprogram. Untuk memulai:
 
 1. ### Unduh Aspose.Words untuk Java:
-  Kunjungi[Aspose.Rilis](https://releases.aspose.com/words/java/) dan unduh versi terbaru Aspose.Words untuk Java.
+ Kunjungi [Aspose.Rilis](https://releases.aspose.com/words/java/) dan unduh versi terbaru Aspose.Words untuk Java.
 
 2. ### Instal Perpustakaan:
  Setelah pengunduhan selesai, ikuti petunjuk instalasi untuk menyiapkan Aspose.Words di proyek Java Anda.
@@ -56,7 +58,7 @@ Sebelum kita lanjut ke keamanan dokumen, mari kita kenali dulu Aspose.Words untu
 Menginstal Aspose.Words untuk Java adalah proses yang mudah. Ikuti langkah-langkah sederhana berikut untuk menambahkan pustaka ke proyek Java Anda:
 
 1. ### Unduh:
-  Pergi ke[Aspose.Rilis](https://releases.aspose.com/words/java/) dan unduh paket Aspose.Words untuk Java.
+ Pergi ke [Aspose.Rilis](https://releases.aspose.com/words/java/) dan unduh paket Aspose.Words untuk Java.
 
 2. ### Ekstrak:
  Ekstrak paket yang diunduh ke lokasi yang nyaman di komputer Anda.
@@ -110,7 +112,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.writeln("Hello world! Since we have set the document's protection level to read-only," +
         " we cannot edit this paragraph without the password.");
 
-//Rentang yang dapat diedit memungkinkan kita membiarkan bagian dokumen yang dilindungi terbuka untuk diedit.
+// Rentang yang dapat diedit memungkinkan kita membiarkan bagian dokumen yang dilindungi terbuka untuk diedit.
 EditableRangeStart editableRangeStart = builder.startEditableRange();
 builder.writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.endEditableRange();
@@ -168,7 +170,7 @@ doc.save("path/to/watermarked/document.docx");
 Aspose.Words untuk Java juga memungkinkan Anda mengonversi dokumen aman Anda ke berbagai format, seperti PDF atau HTML:
 
 ```java
-//Muat dokumen yang diamankan
+// Muat dokumen yang diamankan
 Document doc = new Document("path/to/your/secured/document.docx");
 
 // Konversi ke PDF
@@ -198,9 +200,13 @@ Tidak, Aspose.Words tidak menyediakan fitur pemulihan kata sandi. Pastikan Anda 
 
 ### Bisakah saya menyesuaikan tampilan tanda air?
 Ya, Anda dapat sepenuhnya menyesuaikan tampilan tanda air, termasuk teks, font, warna, ukuran, dan rotasi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

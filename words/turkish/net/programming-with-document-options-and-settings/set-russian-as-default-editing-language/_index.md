@@ -1,14 +1,16 @@
 ---
-title: Rusça'yı Varsayılan Düzenleme Dili Olarak Ayarla
-linktitle: Rusça'yı Varsayılan Düzenleme Dili Olarak Ayarla
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinde varsayılan düzenleme dili olarak Rusça'yı nasıl ayarlayacağınızı öğrenin. Ayrıntılı talimatlar için adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/programming-with-document-options-and-settings/set-russian-as-default-editing-language/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinde varsayılan düzenleme dili olarak Rusça'yı nasıl ayarlayacağınızı öğrenin. Ayrıntılı talimatlar için adım adım kılavuzumuzu izleyin."
+"linktitle": "Rusça'yı Varsayılan Düzenleme Dili Olarak Ayarla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Rusça'yı Varsayılan Düzenleme Dili Olarak Ayarla"
+"url": "/tr/net/programming-with-document-options-and-settings/set-russian-as-default-editing-language/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rusça'yı Varsayılan Düzenleme Dili Olarak Ayarla
@@ -23,7 +25,7 @@ Bu adım adım kılavuz, ortamınızı kurmaktan belgenizdeki dil ayarlarını d
 
 Kodlama kısmına geçmeden önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET kütüphanesine ihtiyacınız var. Bunu şu adresten indirebilirsiniz:[Aspose Sürümleri](https://releases.aspose.com/words/net/) sayfa.
+1. Aspose.Words for .NET: Aspose.Words for .NET kütüphanesine ihtiyacınız var. Bunu şu adresten indirebilirsiniz: [Aspose Sürümleri](https://releases.aspose.com/words/net/) sayfa.
 2. Geliştirme Ortamı: .NET uygulamalarını kodlamak ve çalıştırmak için Visual Studio gibi bir IDE önerilir.
 3. Temel C# Bilgisi: Bu eğitimi takip edebilmek için C# programlama dilini ve .NET framework'ünü anlamak şarttır.
 
@@ -38,7 +40,7 @@ using Aspose.Words.Loading;
 
 ## Adım 1: LoadOptions'ı Ayarlama
 
- İlk olarak, yapılandırmamız gerekiyor`LoadOptions` varsayılan düzenleme dilini Rusça olarak ayarlamak için. Bu adım, bir örneğin oluşturulmasını içerir`LoadOptions` ve ayarını yapmak`LanguagePreferences.DefaultEditingLanguage` mülk.
+İlk olarak, yapılandırmamız gerekiyor `LoadOptions` varsayılan düzenleme dilini Rusça olarak ayarlamak için. Bu adım, bir örneğin oluşturulmasını içerir `LoadOptions` ve ayarını yapmak `LanguagePreferences.DefaultEditingLanguage` mülk.
 
 ### LoadOptions Örneği Oluştur
 
@@ -52,11 +54,11 @@ LoadOptions loadOptions = new LoadOptions();
 loadOptions.LanguagePreferences.DefaultEditingLanguage = EditingLanguage.Russian;
 ```
 
- Bu adımda, bir örnek oluşturursunuz`LoadOptions` ve ayarla`DefaultEditingLanguage`mülk`EditingLanguage.Russian`Bu, Aspose.Words'e bu seçeneklerle bir belge yüklendiğinde varsayılan düzenleme dilinin Rusça olduğunu bildirir.
+Bu adımda, bir örnek oluşturursunuz `LoadOptions` ve ayarla `DefaultEditingLanguage` mülk `EditingLanguage.Russian`Bu, Aspose.Words'e bu seçeneklerle bir belge yüklendiğinde varsayılan düzenleme dilinin Rusça olduğunu bildirir.
 
 ## Adım 2: Belgeyi Yükleyin
 
- Daha sonra, Word belgesini kullanarak yüklememiz gerekiyor`LoadOptions` önceki adımda yapılandırılmıştır. Bu, belgenize giden yolu belirtmeyi ve`LoadOptions` örnek olarak`Document` inşaatçı.
+Daha sonra, Word belgesini kullanarak yüklememiz gerekiyor `LoadOptions` önceki adımda yapılandırılmıştır. Bu, belgenize giden yolu belirtmeyi ve `LoadOptions` örnek olarak `Document` inşaatçı.
 
 ### Belge Yolunu Belirle
 
@@ -70,11 +72,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "No default editing language.docx", loadOptions);
 ```
 
- Bu adımda, belgenizin bulunduğu dizin yolunu belirtirsiniz ve belgeyi şu şekilde yüklersiniz:`Document` yapıcı.`LoadOptions` Varsayılan düzenleme dilinin Rusça olduğundan emin olun.
+Bu adımda, belgenizin bulunduğu dizin yolunu belirtirsiniz ve belgeyi şu şekilde yüklersiniz: `Document` yapıcı. `LoadOptions` Varsayılan düzenleme dilinin Rusça olduğundan emin olun.
 
 ## Adım 3: Varsayılan Düzenleme Dilini Doğrulayın
 
- Belgeyi yükledikten sonra, varsayılan düzenleme dilinin Rusça olarak ayarlanıp ayarlanmadığını doğrulamak önemlidir. Bu,`LocaleId` Belgenin varsayılan yazı tipi stili.
+Belgeyi yükledikten sonra, varsayılan düzenleme dilinin Rusça olarak ayarlanıp ayarlanmadığını doğrulamak önemlidir. Bu, `LocaleId` Belgenin varsayılan yazı tipi stili.
 
 ### Varsayılan Yazı Tipinin LocaleId'sini Alın
 
@@ -91,11 +93,11 @@ Console.WriteLine(
         : "The document default language was set to another than Russian language originally, so it is not overridden.");
 ```
 
- Bu adımda, şunu alırsınız:`LocaleId` varsayılan yazı tipi stilini seçin ve bunu karşılaştırın`EditingLanguage.Russian` tanımlayıcı. Çıktı mesajı varsayılan dilin Rusça olarak ayarlanıp ayarlanmadığını gösterecektir.
+Bu adımda, şunu alırsınız: `LocaleId` varsayılan yazı tipi stilini seçin ve bunu karşılaştırın `EditingLanguage.Russian` tanımlayıcı. Çıktı mesajı varsayılan dilin Rusça olarak ayarlanıp ayarlanmadığını gösterecektir.
 
 ## Çözüm
 
- Aspose.Words for .NET kullanarak bir Word belgesinde varsayılan düzenleme dili olarak Rusça'yı ayarlamak doğru adımlarla basittir.`LoadOptions`belgeyi yükleyip dil ayarlarını doğrulayarak, belgenizin hedef kitlenizin dil gereksinimlerini karşıladığından emin olabilirsiniz. 
+Aspose.Words for .NET kullanarak bir Word belgesinde varsayılan düzenleme dili olarak Rusça'yı ayarlamak doğru adımlarla basittir. `LoadOptions`, belgeyi yükleyip dil ayarlarını doğrulayarak, belgenizin hedef kitlenizin dil gereksinimlerini karşıladığından emin olabilirsiniz. 
 
 Bu kılavuz, bu özelleştirmeyi etkili bir şekilde gerçekleştirmenize yardımcı olacak açık ve ayrıntılı bir süreç sunmaktadır.
 
@@ -107,23 +109,28 @@ Aspose.Words for .NET, .NET uygulamaları içinde Word belgeleriyle programatik 
 
 ### Aspose.Words for .NET'i nasıl indirebilirim?
 
- Aspose.Words for .NET'i şu adresten indirebilirsiniz:[Aspose Sürümleri](https://releases.aspose.com/words/net/) sayfa.
+Aspose.Words for .NET'i şu adresten indirebilirsiniz: [Aspose Sürümleri](https://releases.aspose.com/words/net/) sayfa.
 
-###  Nedir?`LoadOptions` used for?
+### Nedir? `LoadOptions` ne için kullanılır?
 
 `LoadOptions` Varsayılan düzenleme dilini ayarlamak gibi bir belgenin yüklenmesine ilişkin çeşitli seçenekleri belirtmek için kullanılır.
 
-### Varsayılan düzenleme dili olarak başka diller ayarlayabilir miyim?
+### Varsayılan düzenleme dilini başka diller olarak ayarlayabilir miyim?
 
- Evet, Aspose.Words tarafından desteklenen herhangi bir dili, uygun dili atayarak ayarlayabilirsiniz.`EditingLanguage` değer`DefaultEditingLanguage`.
+Evet, Aspose.Words tarafından desteklenen herhangi bir dili, uygun dili atayarak ayarlayabilirsiniz. `EditingLanguage` değer `DefaultEditingLanguage`.
 
 ### Aspose.Words for .NET desteğini nasıl alabilirim?
 
- Destek alabilirsiniz[Aspose Desteği](https://forum.aspose.com/c/words/8) Sorularınızı sorabileceğiniz ve topluluktan ve Aspose geliştiricilerinden yardım alabileceğiniz forum.
+Destek alabilirsiniz [Aspose Desteği](https://forum.aspose.com/c/words/8) Sorularınızı sorabileceğiniz ve topluluktan ve Aspose geliştiricilerinden yardım alabileceğiniz forum.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

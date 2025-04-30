@@ -1,34 +1,36 @@
 ---
-title: Verifiera krypterade Word-dokument
-linktitle: Verifiera krypterade Word-dokument
-second_title: Aspose.Words Document Processing API
-description: Lär dig hur du verifierar krypteringsstatusen för ett Word-dokument med Aspose.Words för .NET med denna steg-för-steg-guide.
-weight: 10
-url: /sv/net/programming-with-fileformat/verify-encrypted-document/
+"description": "Lär dig hur du verifierar krypteringsstatusen för ett Word-dokument med Aspose.Words för .NET med den här steg-för-steg-guiden."
+"linktitle": "Verifiera krypterat Word-dokument"
+"second_title": "Aspose.Words dokumentbehandlings-API"
+"title": "Verifiera krypterat Word-dokument"
+"url": "/sv/net/programming-with-fileformat/verify-encrypted-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Verifiera krypterade Word-dokument
+# Verifiera krypterat Word-dokument
 
-## Verifiera krypterade Word-dokument med Aspose.Words för .NET
+## Verifiera krypterat Word-dokument med Aspose.Words för .NET
 
- Har du någonsin snubblat på ett krypterat Word-dokument och undrat hur man verifierar dess krypteringsstatus programmatiskt? Nåväl, du har tur! Idag dyker vi ner i en fin liten handledning om hur man gör just det med Aspose.Words för .NET. Den här steg-för-steg-guiden leder dig genom allt du behöver veta, från att ställa in din miljö till att köra koden. Så låt oss börja, ska vi?
+ Har du någonsin snubblat över ett krypterat Word-dokument och undrat hur man verifierar dess krypteringsstatus programmatiskt? Då har du tur! Idag dyker vi ner i en smart liten handledning om hur man gör just det med Aspose.Words för .NET. Den här steg-för-steg-guiden guidar dig genom allt du behöver veta, från att konfigurera din miljö till att köra koden. Så, låt oss sätta igång, eller hur?
 
-## Förutsättningar
+## Förkunskapskrav
 
-Innan vi dyker in i koden, låt oss se till att du har allt du behöver. Här är en snabb checklista:
+Innan vi går in på koden, låt oss se till att du har allt du behöver. Här är en snabb checklista:
 
--  Aspose.Words för .NET Library: Du kan ladda ner det från[här](https://releases.aspose.com/words/net/).
+- Aspose.Words för .NET-biblioteket: Du kan ladda ner det från [här](https://releases.aspose.com/words/net/).
 - .NET Framework: Se till att du har .NET installerat på din dator.
-- IDE: En integrerad utvecklingsmiljö som Visual Studio.
-- Grundläggande kunskaper om C#: Att förstå grunderna i C# hjälper dig att följa med enklare.
+- IDE: En integrerad utvecklingsmiljö som liknar Visual Studio.
+- Grundläggande kunskaper i C#: Att förstå grunderna i C# gör det lättare för dig att följa med.
 
-## Importera namnområden
+## Importera namnrymder
 
-För att komma igång måste du importera de nödvändiga namnrymden. Här är det obligatoriska kodavsnittet:
+För att komma igång måste du importera de nödvändiga namnrymderna. Här är den obligatoriska kodavsnittet:
 
 ```csharp
 using Aspose.Words;
@@ -36,15 +38,15 @@ using Aspose.Words;
 
 ## Steg 1: Definiera dokumentkatalogen
 
- För att börja måste du definiera sökvägen till katalogen där dina dokument finns. Ersätta`"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen till din dokumentkatalog.
+För att börja måste du ange sökvägen till katalogen där dina dokument finns. Ersätt `"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen till din dokumentkatalog.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-## Steg 2: Upptäck filformat
+## Steg 2: Identifiera filformat
 
- Därefter använder vi`DetectFileFormat` metod för`FileFormatUtil` klass för att upptäcka filformatinformationen. I det här exemplet antar vi att det krypterade dokumentet heter "Encrypted.docx" och finns i den angivna dokumentkatalogen.
+Därefter använder vi `DetectFileFormat` metod för `FileFormatUtil` klassen för att identifiera filformatinformationen. I det här exemplet antar vi att det krypterade dokumentet heter "Encrypted.docx" och finns i den angivna dokumentkatalogen.
 
 ```csharp
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(dataDir + "Encrypted.docx");
@@ -52,19 +54,19 @@ FileFormatInfo info = FileFormatUtil.DetectFileFormat(dataDir + "Encrypted.docx"
 
 ## Steg 3: Kontrollera om dokumentet är krypterat
 
- Vi använder`IsEncrypted` egendom av`FileFormatInfo` objekt för att kontrollera om dokumentet är krypterat. Den här egenskapen återkommer`true` om dokumentet är krypterat, annars returneras det`false`. Vi visar resultatet i konsolen.
+Vi använder `IsEncrypted` egendomen tillhörande `FileFormatInfo` objekt för att kontrollera om dokumentet är krypterat. Den här egenskapen returnerar `true` om dokumentet är krypterat, annars returneras `false`Vi visar resultatet i konsolen.
 
 ```csharp
 Console.WriteLine(info.IsEncrypted);
 ```
 
-Det är allt! Du har framgångsrikt kontrollerat om ett dokument är krypterat med Aspose.Words för .NET.
+Det var allt! Du har framgångsrikt kontrollerat om ett dokument är krypterat med Aspose.Words för .NET.
 
 ## Slutsats
 
- Och där har du det! Du har framgångsrikt verifierat krypteringsstatusen för ett Word-dokument med Aspose.Words för .NET. Är det inte fantastiskt hur några rader kod kan göra våra liv så mycket enklare? Om du har några frågor eller stöter på några problem, tveka inte att kontakta[Aspose Support Forum](https://forum.aspose.com/c/words/8).
+Och där har du det! Du har verifierat krypteringsstatusen för ett Word-dokument med Aspose.Words för .NET. Visst är det fantastiskt hur några få rader kod kan göra våra liv så mycket enklare? Om du har några frågor eller stöter på problem, tveka inte att kontakta oss på [Aspose Supportforum](https://forum.aspose.com/c/words/8).
 
-## FAQ's
+## Vanliga frågor
 
 ### Vad är Aspose.Words för .NET?
 Aspose.Words för .NET är ett kraftfullt bibliotek som låter dig skapa, redigera, konvertera och manipulera Word-dokument i dina .NET-applikationer.
@@ -73,16 +75,21 @@ Aspose.Words för .NET är ett kraftfullt bibliotek som låter dig skapa, redige
 Ja, Aspose.Words för .NET är kompatibelt med både .NET Framework och .NET Core.
 
 ### Hur får jag en tillfällig licens för Aspose.Words?
- Du kan få en tillfällig licens från[här](https://purchase.aspose.com/temporary-license/).
+Du kan få en tillfällig licens från [här](https://purchase.aspose.com/temporary-license/).
 
-### Finns det en gratis testversion tillgänglig för Aspose.Words för .NET?
- Ja, du kan ladda ner en gratis testversion från[här](https://releases.aspose.com/).
+### Finns det en gratis testversion av Aspose.Words för .NET?
+Ja, du kan ladda ner en gratis provversion från [här](https://releases.aspose.com/).
 
 ### Var kan jag hitta fler exempel och dokumentation?
- Du kan hitta omfattande dokumentation och exempel på[Aspose.Words för .NET dokumentationssida](https://reference.aspose.com/words/net/).
+Du hittar omfattande dokumentation och exempel på [Dokumentationssida för Aspose.Words för .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

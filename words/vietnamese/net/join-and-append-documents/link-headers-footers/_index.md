@@ -1,14 +1,16 @@
 ---
-title: Liên kết Đầu trang Chân trang
-linktitle: Liên kết Đầu trang Chân trang
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách liên kết tiêu đề và chân trang giữa các tài liệu trong Aspose.Words cho .NET. Đảm bảo tính nhất quán và toàn vẹn định dạng một cách dễ dàng.
-weight: 10
-url: /vi/net/join-and-append-documents/link-headers-footers/
+"description": "Tìm hiểu cách liên kết tiêu đề và chân trang giữa các tài liệu trong Aspose.Words cho .NET. Đảm bảo tính nhất quán và toàn vẹn định dạng một cách dễ dàng."
+"linktitle": "Liên kết Đầu trang Chân trang"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Liên kết Đầu trang Chân trang"
+"url": "/vi/net/join-and-append-documents/link-headers-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Liên kết Đầu trang Chân trang
@@ -37,7 +39,7 @@ Chúng ta hãy chia nhỏ quy trình thành các bước rõ ràng:
 
 ## Bước 1: Tải tài liệu
 
- Đầu tiên, tải các tài liệu nguồn và đích vào`Document` các đối tượng:
+Đầu tiên, tải các tài liệu nguồn và đích vào `Document` các đối tượng:
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu của bạn
@@ -49,7 +51,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## Bước 2: Đặt Phần Bắt đầu
 
- Để đảm bảo tài liệu được thêm vào bắt đầu trên một trang mới, hãy cấu hình`SectionStart` thuộc tính của phần đầu tiên của tài liệu nguồn:
+Để đảm bảo tài liệu được thêm vào bắt đầu trên một trang mới, hãy cấu hình `SectionStart` thuộc tính của phần đầu tiên của tài liệu nguồn:
 
 ```csharp
 srcDoc.FirstSection.PageSetup.SectionStart = SectionStart.NewPage;
@@ -98,10 +100,15 @@ Aspose.Words hỗ trợ nhiều phiên bản .NET Framework và .NET Core, đả
 Có, bạn có thể hủy liên kết đầu trang và chân trang bằng phương pháp API Aspose.Words để khôi phục định dạng riêng lẻ của tài liệu.
 
 ### Tôi có thể tìm tài liệu chi tiết hơn về Aspose.Words cho .NET ở đâu?
- Thăm nom[Aspose.Words cho Tài liệu .NET](https://reference.aspose.com/words/net/) để có hướng dẫn toàn diện và tài liệu tham khảo API.
+Thăm nom [Aspose.Words cho Tài liệu .NET](https://reference.aspose.com/words/net/) để có hướng dẫn toàn diện và tài liệu tham khảo API.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

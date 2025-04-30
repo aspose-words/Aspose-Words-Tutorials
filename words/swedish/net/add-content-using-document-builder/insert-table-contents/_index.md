@@ -1,38 +1,46 @@
 ---
-title: Skapa ett Word-dokument med innehållstabell i .NET
-weight: 7700
-limit: 
-description: Lär dig att skapa ett Word-dokument med en Innehållstabel med hjälp av Aspose.Words för .NET.
-keywords: [Aspose.Words, .NET, Word document, Table of Contents, DocumentBuilder, example, code snippet]
-url: /sv/net/add-content-using-document-builder/insert-table-contents/
+"description": "Lär dig skapa ett Word-dokument med en innehållsförteckning med Aspose.Words för .NET. Steg-för-steg-guide ingår."
+"title": "Skapa ett Word-dokument med innehållsförteckning i .NET"
+"url": "/sv/net/add-content-using-document-builder/insert-table-contents/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skapa ett Word-dokument med innehållstabell
-Detta exempel visar hur man använder Aspose.Words för .NET för att skapa ett Word-dokument som innehåller en interaktiv Innehållstabel (TOC) genererad med hjälp av dokumentbyggarklassen. Koden illustrerar hur man lägger in rubriker på olika nivåer, formaterar dem och sparar det resulterande dokumentet som en .docx-fil. Följ stegen nedan för en enkel implementering.
+# Skapa ett Word-dokument med innehållsförteckning
+Det här exemplet visar hur man använder Aspose.Words för .NET för att skapa ett Word-dokument som innehåller en interaktiv innehållsförteckning (TOC) som genererats med hjälp av DocumentBuilder-klassen. Koden illustrerar hur man infogar rubriker på olika nivåer, formaterar dem och sparar det resulterande dokumentet som en .docx-fil. Följ stegen nedan för en enkel implementering.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-table-contents" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Installationsinstruktioner
-1. Förutsättning: Se till att du har .NET installerat på maskinen.
-2. Installa Aspose.Words: 
-   * Använd NuGet Package Manager Console:
+## Installationsanvisningar
+1. Förutsättningar: Se till att du har .NET installerat på din dator.
+2. Installera Aspose.Words: 
+   - Använd NuGet Package Manager-konsolen:
      ```
      Install-Package Aspose.Words
      ```
-   * Eller söka efter Aspose.Words i NuGet Package Manager GUI.
+   - Eller sök efter "Aspose.Words" i NuGet Package Managers grafiska gränssnitt.
 
 ## Se även
 [Aspose.Word för .NET-dokumentation](https://docs.aspose.com/words/net/)
-[Aspose.Word för .NET Referenser](https://reference.aspose.com/words/net/)
+[Aspose.Word för .NET-referenser](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

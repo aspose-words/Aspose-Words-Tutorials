@@ -1,27 +1,29 @@
 ---
-title: Особенности открытого типа
-linktitle: Особенности открытого типа
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как включить функции OpenType в документах Word с помощью Aspose.Words для .NET, из этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/enable-opentype-features/open-type-features/
+"description": "Узнайте, как включить функции OpenType в документах Word с помощью Aspose.Words для .NET, из этого подробного пошагового руководства."
+"linktitle": "Особенности открытого типа"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Особенности открытого типа"
+"url": "/ru/net/enable-opentype-features/open-type-features/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Особенности открытого типа
 
 ## Введение
 
-Вы готовы окунуться в мир функций OpenType с помощью Aspose.Words для .NET? Пристегнитесь, потому что мы собираемся отправиться в увлекательное путешествие, которое не только улучшит ваши документы Word, но и сделает вас экспертом Aspose.Words. Давайте начнем!
+Вы готовы окунуться в мир функций OpenType с помощью Aspose.Words для .NET? Пристегните ремни, потому что мы собираемся отправиться в увлекательное путешествие, которое не только улучшит ваши документы Word, но и сделает вас экспертом Aspose.Words. Давайте начнем!
 
 ## Предпосылки
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
-1.  Aspose.Words для .NET: Вы можете скачать его[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: Вы можете скачать его [здесь](https://releases.aspose.com/words/net/).
 2. .NET Framework: убедитесь, что у вас установлена совместимая версия .NET Framework.
 3. Visual Studio: интегрированная среда разработки (IDE) для написания кода.
 4. Базовые знания C#: в этом руководстве предполагается, что у вас есть базовые знания программирования на C#.
@@ -62,7 +64,7 @@ using Aspose.Words.Shaping.HarfBuzz;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем расположения вашего документа.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем расположения вашего документа.
 
 ### Загрузка документа
 
@@ -76,7 +78,7 @@ Document doc = new Document(dataDir + "OpenType text shaping.docx");
 
 ## Шаг 3: Включите функции OpenType
 
- HarfBuzz — это движок для формирования текста с открытым исходным кодом, который без проблем работает с Aspose.Words. Чтобы включить функции OpenType, нам нужно установить`TextShaperFactory` собственность`LayoutOptions` объект.
+HarfBuzz — это движок для формирования текста с открытым исходным кодом, который без проблем работает с Aspose.Words. Чтобы включить функции OpenType, нам нужно установить `TextShaperFactory` собственность `LayoutOptions` объект.
 
 ```csharp
 doc.LayoutOptions.TextShaperFactory = HarfBuzzTextShaperFactory.Instance;
@@ -112,13 +114,18 @@ HarfBuzz — это движок формирования текста с отк
 Да, Aspose.Words поддерживает различные движки формирования текста. Однако HarfBuzz настоятельно рекомендуется из-за его всеобъемлющей поддержки функций OpenType.
 
 ### Совместим ли Aspose.Words со всеми версиями .NET?
- Aspose.Words поддерживает различные версии .NET, включая .NET Framework, .NET Core и .NET Standard. Проверьте[документация](https://reference.aspose.com/words/net/) для получения подробной информации о совместимости.
+Aspose.Words поддерживает различные версии .NET, включая .NET Framework, .NET Core и .NET Standard. Проверьте [документация](https://reference.aspose.com/words/net/) для получения подробной информации о совместимости.
 
 ### Как я могу попробовать Aspose.Words перед покупкой?
- Вы можете загрузить бесплатную пробную версию с сайта[Сайт Aspose](https://releases.aspose.com/) и запросить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+Вы можете загрузить бесплатную пробную версию с сайта [Сайт Aspose](https://releases.aspose.com/) и запросить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

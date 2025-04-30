@@ -1,14 +1,16 @@
 ---
-title: Linia pozioma
-linktitle: Linia pozioma
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dodawać poziome linie w dokumentach Worda za pomocą Aspose.Words dla .NET. Postępuj zgodnie z tym szczegółowym przewodnikiem krok po kroku, aby ulepszyć układ dokumentu.
-weight: 10
-url: /pl/net/working-with-markdown/horizontal-rule/
+"description": "Dowiedz się, jak dodawać poziome linie w dokumentach Worda za pomocą Aspose.Words dla .NET. Postępuj zgodnie z tym szczegółowym przewodnikiem krok po kroku, aby ulepszyć układ dokumentu."
+"linktitle": "Linia pozioma"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Linia pozioma"
+"url": "/pl/net/working-with-markdown/horizontal-rule/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Linia pozioma
@@ -21,7 +23,7 @@ Czy kiedykolwiek chciałeś dodać odrobinę profesjonalizmu do swoich dokument�
 
 Zanim przejdziemy do szczegółowego przewodnika, upewnijmy się, że masz wszystko, czego potrzebujesz.
 
--  Aspose.Words dla .NET: Upewnij się, że masz zainstalowany Aspose.Words dla .NET. Jeśli jeszcze tego nie zrobiłeś, możesz pobrać go z[Strona internetowa Aspose](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz zainstalowany Aspose.Words dla .NET. Jeśli jeszcze tego nie zrobiłeś, możesz pobrać go z [Strona internetowa Aspose](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Będziesz potrzebować środowiska programistycznego .NET skonfigurowanego na swojej maszynie. Visual Studio jest świetnym wyborem.
 - Podstawowa wiedza o języku C#: W tym samouczku zakładamy, że posiadasz podstawową wiedzę o języku C# i .NET.
 
@@ -73,13 +75,18 @@ Tak, Aspose.Words pozwala na dostosowanie stylu, szerokości, wysokości i wyró
 Potrzebne jest środowisko programistyczne .NET, takie jak Visual Studio, oraz kopia pakietu Aspose.Words dla platformy .NET.
 
 ### Czy Aspose.Words dla .NET jest darmowy?
- Aspose.Words dla .NET jest produktem płatnym, ale można uzyskać[bezpłatny okres próbny](https://releases.aspose.com/) lub[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+Aspose.Words dla .NET jest produktem płatnym, ale można uzyskać [bezpłatny okres próbny](https://releases.aspose.com/) lub [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Words dla .NET?
- Możesz uzyskać wsparcie od[Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8).
+Możesz uzyskać wsparcie od [Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

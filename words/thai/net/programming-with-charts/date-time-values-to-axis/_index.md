@@ -1,14 +1,16 @@
 ---
-title: เพิ่มค่าวันที่และเวลาลงในแกนของแผนภูมิ
-linktitle: เพิ่มค่าวันที่และเวลาลงในแกนของแผนภูมิ
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการเพิ่มค่าวันที่และเวลาลงในแกนของแผนภูมิโดยใช้ Aspose.Words สำหรับ .NET ในคู่มือทีละขั้นตอนที่ครอบคลุมนี้
-weight: 10
-url: /th/net/programming-with-charts/date-time-values-to-axis/
+"description": "เรียนรู้วิธีการเพิ่มค่าวันที่และเวลาลงในแกนของแผนภูมิโดยใช้ Aspose.Words สำหรับ .NET ในคู่มือทีละขั้นตอนที่ครอบคลุมนี้"
+"linktitle": "เพิ่มค่าวันที่และเวลาลงในแกนของแผนภูมิ"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "เพิ่มค่าวันที่และเวลาลงในแกนของแผนภูมิ"
+"url": "/th/net/programming-with-charts/date-time-values-to-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มค่าวันที่และเวลาลงในแกนของแผนภูมิ
@@ -22,9 +24,9 @@ url: /th/net/programming-with-charts/date-time-values-to-axis/
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 1. Visual Studio หรือ IDE .NET ใดๆ: คุณต้องมีสภาพแวดล้อมการพัฒนาเพื่อเขียนและรันโค้ด .NET ของคุณ
-2.  Aspose.Words สำหรับ .NET: คุณควรติดตั้งไลบรารี Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+2. Aspose.Words สำหรับ .NET: คุณควรติดตั้งไลบรารี Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: บทช่วยสอนนี้ถือว่าคุณมีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C#
-4.  ใบอนุญาต Aspose ที่ถูกต้อง: คุณสามารถขอใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+4. ใบอนุญาต Aspose ที่ถูกต้อง: คุณสามารถขอใบอนุญาตชั่วคราวได้จาก [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ## นำเข้าเนมสเปซ
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## ขั้นตอนที่ 2: สร้างเอกสารใหม่และ DocumentBuilder
 
- ถัดไป ให้สร้างอินสแตนซ์ใหม่ของ`Document` ชั้นเรียนและก`DocumentBuilder` วัตถุ วัตถุเหล่านี้จะช่วยคุณสร้างและจัดการเอกสารของคุณได้
+ถัดไปสร้างอินสแตนซ์ใหม่ของ `Document` ชั้นเรียนและก `DocumentBuilder` วัตถุ วัตถุเหล่านี้จะช่วยคุณสร้างและจัดการเอกสารของคุณได้
 
 ```csharp
 Document doc = new Document();
@@ -56,7 +58,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## ขั้นตอนที่ 3: แทรกแผนภูมิลงในเอกสาร
 
- ตอนนี้แทรกแผนภูมิลงในเอกสารของคุณโดยใช้`DocumentBuilder` วัตถุ ในตัวอย่างนี้ เราใช้แผนภูมิคอลัมน์ แต่คุณสามารถเลือกประเภทอื่นได้เช่นกัน
+ตอนนี้แทรกแผนภูมิลงในเอกสารของคุณโดยใช้ `DocumentBuilder` วัตถุ ในตัวอย่างนี้ เราใช้แผนภูมิคอลัมน์ แต่คุณสามารถเลือกประเภทอื่นได้เช่นกัน
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
@@ -121,9 +123,9 @@ doc.Save(dataDir + "WorkingWithCharts.DateTimeValuesToAxis.docx");
 
 คุณสามารถปรับแต่งลักษณะที่ปรากฏได้โดยการเข้าถึงคุณสมบัติของแผนภูมิและตั้งค่ารูปแบบ สี และอื่นๆ
 
-### เป็นไปได้ไหมที่จะเพิ่มซีรีส์หลายชุดลงในแผนภูมิเดียวกัน?
+### เป็นไปได้หรือไม่ที่จะเพิ่มซีรีส์หลายชุดลงในแผนภูมิเดียวกัน?
 
- แน่นอน! คุณสามารถเพิ่มซีรีส์หลายชุดลงในแผนภูมิของคุณได้โดยเรียกใช้`Series.Add` วิธีการนี้ซ้ำหลายครั้งด้วยข้อมูลที่แตกต่างกัน
+แน่นอน! คุณสามารถเพิ่มซีรีส์หลายชุดลงในแผนภูมิของคุณได้โดยเรียกใช้ `Series.Add` วิธีการนี้ซ้ำหลายครั้งด้วยข้อมูลที่แตกต่างกัน
 
 ### จะเกิดอะไรขึ้นหากฉันต้องการอัปเดตข้อมูลแผนภูมิแบบไดนามิก?
 
@@ -131,10 +133,15 @@ doc.Save(dataDir + "WorkingWithCharts.DateTimeValuesToAxis.docx");
 
 ### ฉันสามารถหาเอกสารรายละเอียดเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
 
- คุณสามารถค้นหาเอกสารรายละเอียดเพิ่มเติมได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารรายละเอียดเพิ่มเติมได้ [ที่นี่](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

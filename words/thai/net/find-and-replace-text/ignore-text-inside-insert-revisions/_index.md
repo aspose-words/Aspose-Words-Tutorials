@@ -1,14 +1,16 @@
 ---
-title: ละเว้นการแก้ไขข้อความภายในแทรก
-linktitle: ละเว้นการแก้ไขข้อความภายในแทรก
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีจัดการการแก้ไขเอกสารอย่างมีประสิทธิภาพด้วย Aspose.Words สำหรับ .NET ค้นพบเทคนิคในการละเว้นข้อความภายในส่วนแก้ไขเพื่อการแก้ไขที่มีประสิทธิภาพ
-weight: 10
-url: /th/net/find-and-replace-text/ignore-text-inside-insert-revisions/
+"description": "เรียนรู้วิธีจัดการการแก้ไขเอกสารอย่างมีประสิทธิภาพด้วย Aspose.Words สำหรับ .NET ค้นพบเทคนิคในการละเว้นข้อความภายในส่วนแก้ไขเพื่อการแก้ไขที่มีประสิทธิภาพ"
+"linktitle": "ละเว้นการแก้ไขข้อความภายในแทรก"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ละเว้นการแก้ไขข้อความภายในแทรก"
+"url": "/th/net/find-and-replace-text/ignore-text-inside-insert-revisions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ละเว้นการแก้ไขข้อความภายในแทรก
@@ -86,7 +88,7 @@ doc.Range.Replace(regex, "*", options);
 ## คำถามที่พบบ่อย
 
 ### ฉันจะเริ่มติดตามการแก้ไขในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ได้อย่างไร
- ในการเริ่มติดตามการแก้ไข ให้ใช้`doc.StartTrackRevisions(author, date)` วิธี.
+ในการเริ่มติดตามการแก้ไข ให้ใช้ `doc.StartTrackRevisions(author, date)` วิธี.
 
 ### ประโยชน์จากการละเว้นข้อความที่แทรกเข้ามาในการแก้ไขเอกสารคืออะไร
 การละเว้นข้อความที่แทรกเข้าไปจะช่วยให้สามารถเน้นที่เนื้อหาหลักได้ในขณะที่จัดการการเปลี่ยนแปลงเอกสารอย่างมีประสิทธิภาพ
@@ -95,13 +97,18 @@ doc.Range.Replace(regex, "*", options);
 ใช่ คุณสามารถย้อนกลับข้อความที่แทรกเข้าไปโดยละเว้นโดยใช้การตั้งค่า FindReplaceOptions ที่เหมาะสม
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ใด
- เยี่ยมชม[Aspose.Words สำหรับเอกสาร .NET](https://reference.aspose.com/words/net/) สำหรับคำแนะนำโดยละเอียดและเอกสารอ้างอิง API
+เยี่ยมชม [Aspose.Words สำหรับเอกสาร .NET](https://reference.aspose.com/words/net/) สำหรับคำแนะนำโดยละเอียดและเอกสารอ้างอิง API
 
 ### มีฟอรัมชุมชนสำหรับพูดคุยเกี่ยวกับ Aspose.Words สำหรับคำถามที่เกี่ยวข้องกับ .NET หรือไม่
- ใช่ครับ สามารถเข้าไปเยี่ยมชมได้[ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8) สำหรับการสนับสนุนและการหารือของชุมชน
+ใช่ครับ สามารถเข้าไปเยี่ยมชมได้ [ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8) สำหรับการสนับสนุนและการหารือของชุมชน
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

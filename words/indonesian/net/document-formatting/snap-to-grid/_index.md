@@ -1,14 +1,16 @@
 ---
-title: Snap Ke Grid Dalam Dokumen Word
-linktitle: Snap Ke Grid Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengaktifkan Snap to Grid di dokumen Word menggunakan Aspose.Words untuk .NET. Tutorial terperinci ini mencakup prasyarat, panduan langkah demi langkah, dan Tanya Jawab Umum.
-weight: 10
-url: /id/net/document-formatting/snap-to-grid/
+"description": "Pelajari cara mengaktifkan Snap to Grid di dokumen Word menggunakan Aspose.Words untuk .NET. Tutorial terperinci ini mencakup prasyarat, panduan langkah demi langkah, dan Tanya Jawab Umum."
+"linktitle": "Snap Ke Grid Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Snap Ke Grid Dalam Dokumen Word"
+"url": "/id/net/document-formatting/snap-to-grid/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Snap Ke Grid Dalam Dokumen Word
@@ -21,10 +23,10 @@ Saat bekerja dengan dokumen Word, menjaga tata letak yang konsisten dan terstruk
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
--  Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+- Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Visual Studio atau IDE lain yang kompatibel dengan .NET.
 - Pengetahuan Dasar C#: Memahami dasar-dasar pemrograman C# akan membantu Anda mengikuti contoh-contohnya.
--  Lisensi Aspose: Meskipun lisensi sementara dapat diperoleh[Di Sini](https://purchase.aspose.com/temporary-license/), menggunakan lisensi penuh akan memastikan akses ke semua fitur tanpa batasan.
+- Lisensi Aspose: Meskipun lisensi sementara dapat diperoleh [Di Sini](https://purchase.aspose.com/temporary-license/), menggunakan lisensi penuh akan memastikan akses ke semua fitur tanpa batasan.
 
 ## Mengimpor Ruang Nama
 
@@ -57,11 +59,11 @@ Menyiapkan Proyek
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Baris ini mengatur direktori tempat dokumen Anda akan disimpan. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori Anda.
+Baris ini mengatur direktori tempat dokumen Anda akan disimpan. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori Anda.
 
 ## Langkah 2: Inisialisasi Dokumen dan DocumentBuilder
 
- Selanjutnya, Anda perlu membuat dokumen Word baru dan menginisialisasi`DocumentBuilder` kelas, yang membantu dalam menyusun dokumen.
+Selanjutnya, Anda perlu membuat dokumen Word baru dan menginisialisasi `DocumentBuilder` kelas, yang membantu dalam menyusun dokumen.
 
 Membuat Dokumen Baru
 
@@ -70,7 +72,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-- `Document doc = new Document();`membuat dokumen Word baru.
+- `Document doc = new Document();` membuat dokumen Word baru.
 - `DocumentBuilder builder = new DocumentBuilder(doc);` menginisialisasi DocumentBuilder dengan dokumen yang dibuat.
 
 ## Langkah 3: Aktifkan Snap to Grid untuk Paragraf
@@ -143,10 +145,15 @@ Ya, meskipun Anda dapat menggunakan lisensi sementara untuk evaluasi, lisensi pe
 Tidak, mengaktifkan Snap to Grid tidak berdampak signifikan pada kinerja dokumen.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Words untuk .NET?
- Kunjungi[dokumentasi](https://reference.aspose.com/words/net/) untuk informasi dan contoh terperinci.
+Kunjungi [dokumentasi](https://reference.aspose.com/words/net/) untuk informasi dan contoh terperinci.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

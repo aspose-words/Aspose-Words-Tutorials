@@ -1,14 +1,16 @@
 ---
-title: Sematkan Font dalam Dokumen PDF
-linktitle: Sematkan Font dalam Dokumen PDF
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Sematkan font dalam dokumen PDF dengan mudah menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah ini. Pastikan tampilannya konsisten di semua perangkat.
-weight: 10
-url: /id/net/programming-with-pdfsaveoptions/embedded-all-fonts/
+"description": "Sematkan font dalam dokumen PDF dengan mudah menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah ini. Pastikan tampilannya konsisten di semua perangkat."
+"linktitle": "Sematkan Font dalam Dokumen PDF"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Sematkan Font dalam Dokumen PDF"
+"url": "/id/net/programming-with-pdfsaveoptions/embedded-all-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sematkan Font dalam Dokumen PDF
@@ -21,12 +23,12 @@ Hai, para penggemar teknologi! Pernahkah Anda mengalami kesulitan saat mencoba m
 
 Sebelum kita mulai panduan langkah demi langkah, mari pastikan Anda memiliki semua yang Anda butuhkan. Berikut daftar periksa singkatnya:
 
-1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal versi terbaru. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal versi terbaru. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau lingkungan pengembangan .NET yang kompatibel.
 3. Pengetahuan Dasar C#: Pemahaman dasar tentang C# akan membantu Anda mengikutinya.
 4. Contoh Dokumen Word: Memiliki contoh dokumen Word (`Rendering.docx`) siap di direktori dokumen Anda.
 
- Jika Anda belum memiliki Aspose.Words untuk .NET, dapatkan uji coba gratis[Di Sini](https://releases.aspose.com/) atau membelinya[Di Sini](https://purchase.aspose.com/buy) . Butuh lisensi sementara? Anda bisa mendapatkannya[Di Sini](https://purchase.aspose.com/temporary-license/).
+Jika Anda belum memiliki Aspose.Words untuk .NET, dapatkan uji coba gratis [Di Sini](https://releases.aspose.com/) atau membelinya [Di Sini](https://purchase.aspose.com/buy). Butuh lisensi sementara? Anda bisa mendapatkannya [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ## Mengimpor Ruang Nama
 
@@ -48,27 +50,27 @@ Sebelum menyelami kode, Anda perlu menyiapkan direktori dokumen Anda. Di sinilah
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda. Di sinilah semua keajaiban akan terjadi!
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda. Di sinilah semua keajaiban akan terjadi!
 
 ## Langkah 2: Muat Dokumen Word Anda
 
- Selanjutnya, Anda akan memuat dokumen Word Anda ke Aspose.Words`Document` objek. Ini adalah dokumen yang akan Anda gunakan.
+Selanjutnya, Anda akan memuat dokumen Word Anda ke Aspose.Words `Document` objek. Ini adalah dokumen yang akan Anda gunakan.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Pada baris ini kita membuat yang baru`Document` objek dan memuat`Rendering.docx` file dari direktori dokumen kami.
+Pada baris ini kita membuat yang baru `Document` objek dan memuat `Rendering.docx` file dari direktori dokumen kami.
 
 ## Langkah 3: Konfigurasikan Opsi Penyimpanan PDF
 
- Sekarang saatnya untuk mengonfigurasi opsi penyimpanan PDF. Secara khusus, kita akan mengatur`EmbedFullFonts`properti untuk`true` untuk memastikan semua font yang digunakan dalam dokumen tertanam dalam PDF.
+Sekarang saatnya untuk mengonfigurasi opsi penyimpanan PDF. Secara khusus, kita akan mengatur `EmbedFullFonts` properti untuk `true` untuk memastikan semua font yang digunakan dalam dokumen tertanam dalam PDF.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions { EmbedFullFonts = true };
 ```
 
- Baris ini membuat yang baru`PdfSaveOptions` objek dan mengatur`EmbedFullFonts`properti untuk`true`Ini memastikan bahwa PDF yang dihasilkan akan menyertakan semua font yang digunakan dalam dokumen.
+Baris ini membuat yang baru `PdfSaveOptions` objek dan mengatur `EmbedFullFonts` properti untuk `true`Ini memastikan bahwa PDF yang dihasilkan akan menyertakan semua font yang digunakan dalam dokumen.
 
 ## Langkah 4: Simpan Dokumen sebagai PDF
 
@@ -90,7 +92,7 @@ Nah, itu dia! Anda telah berhasil menyematkan font dalam dokumen PDF menggunakan
 Menanamkan font memastikan bahwa dokumen Anda tampak sama di semua perangkat, terlepas dari font yang terpasang di sistem penampil.
 
 ### Bisakah saya memilih font tertentu untuk disematkan?
- Ya, Anda dapat menyesuaikan font mana yang akan disematkan menggunakan`PdfSaveOptions` properti.
+Ya, Anda dapat menyesuaikan font mana yang akan disematkan menggunakan `PdfSaveOptions` properti.
 
 ### Apakah menanamkan font meningkatkan ukuran file?
 Ya, menyematkan font dapat meningkatkan ukuran berkas PDF, tetapi memastikan tampilan yang konsisten di berbagai perangkat.
@@ -100,9 +102,14 @@ Aspose.Words untuk .NET menawarkan uji coba gratis, tetapi untuk fitur lengkap, 
 
 ### Bisakah saya menyematkan font dalam format dokumen lain menggunakan Aspose.Words untuk .NET?
 Ya, Aspose.Words untuk .NET mendukung berbagai format dokumen, dan Anda dapat menyematkan font di banyak format dokumen.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Funkcje typu Open
-linktitle: Funkcje typu Open
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak włączyć funkcje OpenType w dokumentach programu Word przy użyciu Aspose.Words dla platformy .NET, korzystając ze szczegółowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/enable-opentype-features/open-type-features/
+"description": "Dowiedz się, jak włączyć funkcje OpenType w dokumentach programu Word przy użyciu Aspose.Words dla platformy .NET, korzystając ze szczegółowego przewodnika krok po kroku."
+"linktitle": "Funkcje typu Open"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Funkcje typu Open"
+"url": "/pl/net/enable-opentype-features/open-type-features/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Funkcje typu Open
@@ -21,7 +23,7 @@ Czy jesteś gotowy, aby zanurzyć się w świecie funkcji OpenType przy użyciu 
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
-1.  Aspose.Words dla .NET: Można go pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Można go pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. .NET Framework: Upewnij się, że masz zainstalowaną zgodną wersję .NET Framework.
 3. Visual Studio: zintegrowane środowisko programistyczne (IDE) do kodowania.
 4. Podstawowa wiedza o języku C#: W tym samouczku zakładamy, że posiadasz podstawową wiedzę na temat programowania w języku C#.
@@ -62,7 +64,7 @@ Utwórz zmienną typu string, aby zachować ścieżkę do katalogu dokumentu. To
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój dokument.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój dokument.
 
 ### Ładowanie dokumentu
 
@@ -76,7 +78,7 @@ Ta linijka kodu otwiera określony dokument, dzięki czemu możemy nim manipulow
 
 ## Krok 3: Włącz funkcje OpenType
 
- HarfBuzz to silnik kształtowania tekstu typu open source, który bezproblemowo współpracuje z Aspose.Words. Aby włączyć funkcje OpenType, musimy ustawić`TextShaperFactory` własność`LayoutOptions` obiekt.
+HarfBuzz to silnik kształtowania tekstu typu open source, który bezproblemowo współpracuje z Aspose.Words. Aby włączyć funkcje OpenType, musimy ustawić `TextShaperFactory` własność `LayoutOptions` obiekt.
 
 ```csharp
 doc.LayoutOptions.TextShaperFactory = HarfBuzzTextShaperFactory.Instance;
@@ -112,13 +114,18 @@ HarfBuzz to oparty na otwartym kodzie źródłowym moduł kształtowania tekstu,
 Tak, Aspose.Words obsługuje różne silniki kształtowania tekstu. Jednak HarfBuzz jest wysoce zalecany ze względu na kompleksowe wsparcie funkcji OpenType.
 
 ### Czy Aspose.Words jest kompatybilny ze wszystkimi wersjami .NET?
- Aspose.Words obsługuje różne wersje .NET, w tym .NET Framework, .NET Core i .NET Standard. Sprawdź[dokumentacja](https://reference.aspose.com/words/net/) Aby uzyskać szczegółowe informacje na temat zgodności.
+Aspose.Words obsługuje różne wersje .NET, w tym .NET Framework, .NET Core i .NET Standard. Sprawdź [dokumentacja](https://reference.aspose.com/words/net/) Aby uzyskać szczegółowe informacje na temat zgodności.
 
 ### Jak mogę wypróbować Aspose.Words przed zakupem?
- Darmową wersję próbną możesz pobrać ze strony[Strona internetowa Aspose](https://releases.aspose.com/) i poproś o tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Darmową wersję próbną możesz pobrać ze strony [Strona internetowa Aspose](https://releases.aspose.com/) i poproś o tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

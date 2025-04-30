@@ -1,14 +1,16 @@
 ---
-title: Bỏ qua văn bản bên trong chèn sửa đổi
-linktitle: Bỏ qua văn bản bên trong chèn sửa đổi
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách quản lý hiệu quả các bản sửa đổi tài liệu với Aspose.Words cho .NET. Khám phá các kỹ thuật bỏ qua văn bản bên trong bản sửa đổi chèn để chỉnh sửa hợp lý.
-weight: 10
-url: /vi/net/find-and-replace-text/ignore-text-inside-insert-revisions/
+"description": "Tìm hiểu cách quản lý hiệu quả các bản sửa đổi tài liệu với Aspose.Words cho .NET. Khám phá các kỹ thuật bỏ qua văn bản bên trong bản sửa đổi chèn để chỉnh sửa hợp lý."
+"linktitle": "Bỏ qua văn bản bên trong chèn sửa đổi"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Bỏ qua văn bản bên trong chèn sửa đổi"
+"url": "/vi/net/find-and-replace-text/ignore-text-inside-insert-revisions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bỏ qua văn bản bên trong chèn sửa đổi
@@ -86,7 +88,7 @@ Làm chủ kỹ thuật bỏ qua văn bản bên trong các bản sửa đổi c
 ## Câu hỏi thường gặp
 
 ### Làm thế nào tôi có thể bắt đầu theo dõi các bản sửa đổi trong tài liệu Word bằng Aspose.Words cho .NET?
- Để bắt đầu theo dõi các bản sửa đổi, hãy sử dụng`doc.StartTrackRevisions(author, date)` phương pháp.
+Để bắt đầu theo dõi các bản sửa đổi, hãy sử dụng `doc.StartTrackRevisions(author, date)` phương pháp.
 
 ### Lợi ích của việc bỏ qua văn bản được chèn vào khi sửa đổi tài liệu là gì?
 Bỏ qua văn bản đã chèn giúp duy trì sự tập trung vào nội dung cốt lõi trong khi quản lý các thay đổi trong tài liệu một cách hiệu quả.
@@ -95,13 +97,18 @@ Bỏ qua văn bản đã chèn giúp duy trì sự tập trung vào nội dung c
 Có, bạn có thể khôi phục lại văn bản đã chèn bị bỏ qua bằng cách sử dụng cài đặt FindReplaceOptions phù hợp.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
- Ghé thăm[Aspose.Words cho tài liệu .NET](https://reference.aspose.com/words/net/) để biết hướng dẫn chi tiết và tài liệu tham khảo API.
+Ghé thăm [Aspose.Words cho tài liệu .NET](https://reference.aspose.com/words/net/) để biết hướng dẫn chi tiết và tài liệu tham khảo API.
 
 ### Có diễn đàn cộng đồng nào thảo luận về Aspose.Words cho các truy vấn liên quan đến .NET không?
- Vâng, bạn có thể ghé thăm[Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8) để cộng đồng hỗ trợ và thảo luận.
+Vâng, bạn có thể ghé thăm [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8) để cộng đồng hỗ trợ và thảo luận.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

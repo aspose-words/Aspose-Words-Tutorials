@@ -1,14 +1,16 @@
 ---
-title: पंक्तियाँ संयोजित करें
-linktitle: पंक्तियाँ संयोजित करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: हमारे चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके एकाधिक तालिकाओं से पंक्तियों को एक में संयोजित करना सीखें।
-weight: 10
-url: /hi/net/programming-with-tables/combine-rows/
+"description": "हमारे चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके एकाधिक तालिकाओं से पंक्तियों को एक में संयोजित करना सीखें।"
+"linktitle": "पंक्तियाँ संयोजित करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "पंक्तियाँ संयोजित करें"
+"url": "/hi/net/programming-with-tables/combine-rows/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पंक्तियाँ संयोजित करें
@@ -21,11 +23,11 @@ url: /hi/net/programming-with-tables/combine-rows/
 
 इससे पहले कि हम कोडिंग भाग में जाएं, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  .NET के लिए Aspose.Words: आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. .NET के लिए Aspose.Words: आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो या कोई अन्य .NET संगत IDE.
 3. C# का बुनियादी ज्ञान: C# की समझ लाभदायक होगी।
 
- यदि आपके पास अभी तक .NET के लिए Aspose.Words नहीं है, तो आप प्राप्त कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) या इसे खरीदें[यहाँ](https://purchase.aspose.com/buy) किसी भी प्रश्न के लिए,[सहयता मंच](https://forum.aspose.com/c/words/8) शुरुआत करने के लिए यह एक बेहतरीन जगह है।
+यदि आपके पास अभी तक .NET के लिए Aspose.Words नहीं है, तो आप प्राप्त कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) या इसे खरीदें [यहाँ](https://purchase.aspose.com/buy)किसी भी प्रश्न के लिए, [सहयता मंच](https://forum.aspose.com/c/words/8) शुरुआत करने के लिए यह एक बेहतरीन जगह है।
 
 ## नामस्थान आयात करें
 
@@ -49,11 +51,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- इस उदाहरण में, प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` अपने दस्तावेज़ के पथ के साथ.
+इस उदाहरण में, प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` अपने दस्तावेज़ के पथ के साथ.
 
 ## चरण 2: तालिकाओं की पहचान करें
 
- इसके बाद, आपको उन तालिकाओं की पहचान करनी होगी जिन्हें आप संयोजित करना चाहते हैं। Aspose.Words आपको दस्तावेज़ से तालिकाएँ प्राप्त करने की अनुमति देता है`GetChild` विधि:
+इसके बाद, आपको उन तालिकाओं की पहचान करनी होगी जिन्हें आप संयोजित करना चाहते हैं। Aspose.Words आपको दस्तावेज़ से तालिकाएँ प्राप्त करने की अनुमति देता है `GetChild` विधि:
 
 ```csharp
 Table firstTable = (Table) doc.GetChild(NodeType.Table, 0, true);
@@ -67,16 +69,16 @@ Table secondTable = (Table) doc.GetChild(NodeType.Table, 1, true);
 अब, पंक्तियों को संयोजित करने का समय आ गया है। हम दूसरी तालिका की सभी पंक्तियों को पहली तालिका में जोड़ देंगे। यह एक सरल while लूप का उपयोग करके किया जाता है:
 
 ```csharp
-// दूसरी तालिका की सभी पंक्तियों को पहली तालिका में जोड़ें
+// दूसरी तालिका से सभी पंक्तियों को पहली तालिका में जोड़ें
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 ```
 
-यह लूप तब तक जारी रहता है जब तक कि दूसरी तालिका की सभी पंक्तियाँ पहली तालिका में नहीं जुड़ जातीं।
+यह लूप तब तक जारी रहता है जब तक कि दूसरी तालिका की सभी पंक्तियाँ पहली तालिका में नहीं जोड़ दी जातीं।
 
 ## चरण 4: दूसरी तालिका हटाएँ
 
- पंक्तियों को जोड़ने के बाद, दूसरी तालिका की अब आवश्यकता नहीं है। आप इसे का उपयोग करके हटा सकते हैं`Remove` तरीका:
+पंक्तियों को जोड़ने के बाद, दूसरी तालिका की अब आवश्यकता नहीं है। आप इसे का उपयोग करके हटा सकते हैं `Remove` तरीका:
 
 ```csharp
 secondTable.Remove();
@@ -96,11 +98,11 @@ doc.Save(dataDir + "WorkingWithTables.CombineRows.docx");
 
 कई तालिकाओं से पंक्तियों को एक में संयोजित करना आपके दस्तावेज़ प्रसंस्करण कार्यों को काफी सरल बना सकता है। .NET के लिए Aspose.Words के साथ, यह कार्य सरल और कुशल हो जाता है। इस चरण-दर-चरण मार्गदर्शिका का पालन करके, आप आसानी से तालिकाओं को मर्ज कर सकते हैं और अपने वर्कफ़्लो को सुव्यवस्थित कर सकते हैं।
 
-यदि आपको अधिक जानकारी चाहिए या कोई प्रश्न हो तो,[Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) एक बेहतरीन संसाधन है। आप खरीदारी के विकल्प भी तलाश सकते हैं[यहाँ](https://purchase.aspose.com/buy) या प्राप्त करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) परीक्षण के लिए.
+यदि आपको अधिक जानकारी चाहिए या कोई प्रश्न हो तो, [Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) एक बेहतरीन संसाधन है। आप खरीदारी के विकल्प भी तलाश सकते हैं [यहाँ](https://purchase.aspose.com/buy) या प्राप्त करें [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) परीक्षण के लिए.
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### क्या मैं अलग-अलग स्तंभ गणना वाली तालिकाओं को संयोजित कर सकता हूँ?
+### क्या मैं अलग-अलग कॉलम गणना वाली तालिकाओं को संयोजित कर सकता हूँ?
 
 हां, Aspose.Words आपको तालिकाओं को संयोजित करने की अनुमति देता है, भले ही उनके स्तंभों की संख्या और चौड़ाई अलग-अलग हो।
 
@@ -118,10 +120,15 @@ doc.Save(dataDir + "WorkingWithTables.CombineRows.docx");
 
 ### यदि मुझे कोई समस्या आती है तो मैं सहायता कहां से प्राप्त कर सकता हूं?
 
-[Aspose.Words समर्थन मंच](https://forum.aspose.com/c/words/8) सहायता प्राप्त करने और सामान्य समस्याओं का समाधान खोजने के लिए यह एक बेहतरीन स्थान है।
+The [Aspose.Words समर्थन मंच](https://forum.aspose.com/c/words/8) सहायता प्राप्त करने और सामान्य समस्याओं का समाधान खोजने के लिए यह एक बेहतरीन स्थान है।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

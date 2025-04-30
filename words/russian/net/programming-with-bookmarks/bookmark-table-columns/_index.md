@@ -1,14 +1,16 @@
 ---
-title: Добавить закладки в столбцы таблицы в документе Word
-linktitle: Добавить закладки в столбцы таблицы в документе Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как добавлять закладки в столбцы таблиц в документе Word с помощью Aspose.Words для .NET, из этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-bookmarks/bookmark-table-columns/
+"description": "Узнайте, как добавлять закладки в столбцы таблиц в документе Word с помощью Aspose.Words для .NET, из этого подробного пошагового руководства."
+"linktitle": "Добавить закладки в столбцы таблицы в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Добавить закладки в столбцы таблицы в документе Word"
+"url": "/ru/net/programming-with-bookmarks/bookmark-table-columns/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить закладки в столбцы таблицы в документе Word
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-bookmarks/bookmark-table-columns/
 
 Прежде чем перейти к коду, вам необходимо выполнить несколько действий:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас установлен Aspose.Words for .NET. Вы можете скачать его[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлен Aspose.Words for .NET. Вы можете скачать его [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: настройте среду разработки, например Visual Studio.
 3. Базовые знания C#: знакомство с программированием на C# будет полезным.
 
@@ -39,7 +41,7 @@ using Aspose.Words.Tables;
 
 ## Шаг 1: Инициализация документа и DocumentBuilder
 
- Сначала нам нужно создать новый документ Word и инициализировать его.`DocumentBuilder` работать с ним.
+Сначала нам нужно создать новый документ Word и инициализировать его. `DocumentBuilder` работать с ним.
 
 ```csharp
 Document doc = new Document();
@@ -121,20 +123,25 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 Aspose.Words for .NET — мощная библиотека для программной работы с документами Word. Она позволяет создавать, изменять и конвертировать документы без необходимости установки Microsoft Word.
 
 ### Как установить Aspose.Words для .NET?
- Вы можете загрузить Aspose.Words для .NET с сайта[веб-сайт](https://releases.aspose.com/words/net/). Следуйте предоставленным инструкциям по установке.
+Вы можете загрузить Aspose.Words для .NET с сайта [веб-сайт](https://releases.aspose.com/words/net/). Следуйте предоставленным инструкциям по установке.
 
 ### Могу ли я использовать Aspose.Words для .NET с другими языками программирования?
 Да, Aspose.Words для .NET можно использовать с любым языком, поддерживаемым .NET, включая C#, VB.NET и F#.
 
 ### Как я могу получить поддержку по Aspose.Words для .NET?
- Вы можете получить поддержку от сообщества Aspose и экспертов, посетив[форум поддержки](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от сообщества Aspose и экспертов, посетив [форум поддержки](https://forum.aspose.com/c/words/8).
 
 ### Доступна ли пробная версия Aspose.Words для .NET?
- Да, вы можете получить бесплатную пробную версию от[здесь](https://releases.aspose.com/).
+Да, вы можете получить бесплатную пробную версию от [здесь](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

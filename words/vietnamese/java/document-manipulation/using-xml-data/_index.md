@@ -1,14 +1,16 @@
 ---
-title: Sử dụng dữ liệu XML trong Aspose.Words cho Java
-linktitle: Sử dụng dữ liệu XML
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Mở khóa sức mạnh của Aspose.Words cho Java. Tìm hiểu cách xử lý dữ liệu XML, trộn thư và cú pháp Mustache với hướng dẫn từng bước.
-weight: 12
-url: /vi/java/document-manipulation/using-xml-data/
+"description": "Mở khóa sức mạnh của Aspose.Words cho Java. Tìm hiểu cách xử lý dữ liệu XML, Mail Merge và Mustache Syntax với hướng dẫn từng bước."
+"linktitle": "Sử dụng dữ liệu XML"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng dữ liệu XML trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/using-xml-data/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng dữ liệu XML trong Aspose.Words cho Java
@@ -77,14 +79,19 @@ Trong hướng dẫn toàn diện này, chúng tôi đã khám phá cách sử d
 
 ### Tôi có thể tùy chỉnh hành vi cắt cho các giá trị trộn thư không?
 
- Có, bạn có thể kiểm soát việc khoảng trắng đầu và cuối có được cắt bớt trong quá trình trộn thư hay không bằng cách sử dụng`doc.getMailMerge().setTrimWhitespaces(false)`.
+Có, bạn có thể kiểm soát việc khoảng trắng đầu và cuối có được cắt bớt trong quá trình trộn thư hay không bằng cách sử dụng `doc.getMailMerge().setTrimWhitespaces(false)`.
 
 ### Cú pháp Mustache là gì và khi nào tôi nên sử dụng nó?
 
- Cú pháp Mustache cho phép bạn định dạng các trường trộn thư theo cách linh hoạt hơn. Sử dụng`doc.getMailMerge().setUseNonMergeFields(true)` để kích hoạt cú pháp Mustache.
+Cú pháp Mustache cho phép bạn định dạng các trường trộn thư theo cách linh hoạt hơn. Sử dụng `doc.getMailMerge().setUseNonMergeFields(true)` để kích hoạt cú pháp Mustache.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

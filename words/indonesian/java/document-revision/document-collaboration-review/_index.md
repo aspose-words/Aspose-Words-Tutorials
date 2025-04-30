@@ -1,14 +1,16 @@
 ---
-title: Kolaborasi dan Tinjauan Dokumen
-linktitle: Kolaborasi dan Tinjauan Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Buka Kolaborasi dan Tinjauan Dokumen yang Efisien dengan Aspose.Words untuk Java. Pelajari Cara Melacak Perubahan, Membagikan Dokumen, dan Menyederhanakan Alur Kerja.
-weight: 14
-url: /id/java/document-revision/document-collaboration-review/
+"description": "Buka Kolaborasi dan Tinjauan Dokumen yang Efisien dengan Aspose.Words untuk Java. Pelajari Cara Melacak Perubahan, Membagikan Dokumen, dan Menyederhanakan Alur Kerja."
+"linktitle": "Kolaborasi dan Tinjauan Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Kolaborasi dan Tinjauan Dokumen"
+"url": "/id/java/document-revision/document-collaboration-review/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kolaborasi dan Tinjauan Dokumen
@@ -22,7 +24,7 @@ Aspose.Words untuk Java adalah pustaka Java yang kuat dan serbaguna yang memungk
 
 Sebelum kita mulai berkolaborasi dan meninjau dokumen, mari kita siapkan Aspose.Words untuk Java di proyek Anda. Ikuti langkah-langkah sederhana berikut:
 
-1.  Unduh Aspose.Words untuk Java: Anda dapat mengunduh pustaka dari[Di Sini](https://releases.aspose.com/words/java/).
+1. Unduh Aspose.Words untuk Java: Anda dapat mengunduh pustaka dari [Di Sini](https://releases.aspose.com/words/java/).
 
 2. Tambahkan Aspose.Words ke Proyek Anda: Tambahkan file JAR Aspose.Words yang diunduh ke proyek Java Anda.
 
@@ -72,11 +74,11 @@ Kolaborasi dan peninjauan dokumen merupakan aspek penting dari manajemen dokumen
 
 ### Bagaimana cara menginstal Aspose.Words untuk Java?
 
- Anda dapat menginstal Aspose.Words untuk Java dengan mengunduh pustaka dari[Di Sini](https://releases.aspose.com/words/java/) dan menambahkan file JAR ke proyek Java Anda.
+Anda dapat menginstal Aspose.Words untuk Java dengan mengunduh pustaka dari [Di Sini](https://releases.aspose.com/words/java/) dan menambahkan file JAR ke proyek Java Anda.
 
 ### Dapatkah saya melacak perubahan dalam dokumen Word menggunakan Aspose.Words untuk Java?
 
- Ya, Aspose.Words untuk Java memungkinkan Anda melacak perubahan dalam dokumen Word. Anda dapat menggunakan`startTrackRevisions` metode untuk mengaktifkan pelacakan perubahan.
+Ya, Aspose.Words untuk Java memungkinkan Anda melacak perubahan dalam dokumen Word. Anda dapat menggunakan `startTrackRevisions` metode untuk mengaktifkan pelacakan perubahan.
 
 ### Bagaimana saya dapat meninjau perubahan yang dibuat pada suatu dokumen?
 
@@ -88,10 +90,15 @@ Ya, Aspose.Words untuk Java merupakan pilihan yang sangat baik untuk manajemen d
 
 ### Di mana saya dapat menemukan informasi dan dokumentasi lebih lanjut untuk Aspose.Words untuk Java?
 
- Anda dapat menemukan dokumentasi lengkap untuk Aspose.Words untuk Java di[Di Sini](https://reference.aspose.com/words/java/).
+Anda dapat menemukan dokumentasi lengkap untuk Aspose.Words untuk Java di [Di Sini](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Konfigurowanie łącza do treści
-linktitle: Konfigurowanie łącza do treści
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak skonfigurować łącze do zawartości w dokumencie programu Word za pomocą programu Aspose.Words dla platformy .NET, korzystając z naszego szczegółowego samouczka krok po kroku.
-weight: 10
-url: /pl/net/programming-with-document-properties/configuring-link-to-content/
+"description": "Dowiedz się, jak skonfigurować łącze do zawartości w dokumencie programu Word za pomocą programu Aspose.Words dla platformy .NET, korzystając z naszego szczegółowego samouczka krok po kroku."
+"linktitle": "Konfigurowanie łącza do treści"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Konfigurowanie łącza do treści"
+"url": "/pl/net/programming-with-document-properties/configuring-link-to-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konfigurowanie łącza do treści
@@ -19,9 +21,9 @@ Czy kiedykolwiek zastanawiałeś się, jak programowo połączyć zawartość w 
 
 ## Wymagania wstępne
 
-Zanim przejdziemy do przewodnika krok po kroku, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
+Zanim przejdziemy do szczegółowego przewodnika, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
 
--  Aspose.Words dla .NET: Upewnij się, że masz najnowszą wersję Aspose.Words dla .NET. Jeśli jeszcze jej nie masz, możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz najnowszą wersję Aspose.Words dla .NET. Jeśli jeszcze jej nie masz, możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 - .NET Framework: Upewnij się, że na Twoim komputerze jest zainstalowany .NET Framework.
 - Środowisko programistyczne: Visual Studio lub inne środowisko IDE obsługujące programowanie w środowisku .NET.
 
@@ -74,7 +76,7 @@ customProperty = customProperties["Bookmark"];
 
 ## Krok 5: Zweryfikuj łącze do treści
 
-Aby mieć pewność, że łącze do treści jest poprawnie skonfigurowane, sprawdzimy, czy dana właściwość jest rzeczywiście powiązana z treścią, oraz pobierzemy jej źródło i wartość.
+Aby mieć pewność, że nasz link do treści jest poprawnie skonfigurowany, sprawdzimy, czy dana właściwość jest rzeczywiście powiązana z treścią, oraz pobierzemy jej źródło i wartość.
 
 ```csharp
 bool isLinkedToContent = customProperty.IsLinkToContent;
@@ -84,7 +86,7 @@ string customPropertyValue = customProperty.Value.ToString();
 
 ## Wniosek
 
- Gratulacje! Udało Ci się skonfigurować łącze do treści w dokumencie Word przy użyciu Aspose.Words dla .NET. Wykonując te kroki, możesz dodawać i zarządzać niestandardowymi właściwościami połączonymi z określoną treścią w dokumentach Word, dzięki czemu zarządzanie dokumentami stanie się bardziej dynamiczne i wydajne. Jeśli masz jakieś pytania lub napotkasz jakieś problemy, możesz sprawdzić[Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) lub poszukaj pomocy na[Forum wsparcia Aspose](https://forum.aspose.com/c/words/8).
+Gratulacje! Udało Ci się skonfigurować łącze do treści w dokumencie Word przy użyciu Aspose.Words dla .NET. Wykonując te kroki, możesz dodawać i zarządzać niestandardowymi właściwościami połączonymi z określoną treścią w dokumentach Word, dzięki czemu zarządzanie dokumentami stanie się bardziej dynamiczne i wydajne. Jeśli masz jakieś pytania lub napotkasz jakieś problemy, możesz sprawdzić [Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) lub poszukaj pomocy na [Forum wsparcia Aspose](https://forum.aspose.com/c/words/8).
 
 ## Najczęściej zadawane pytania
 
@@ -92,20 +94,25 @@ string customPropertyValue = customProperty.Value.ToString();
 Aspose.Words for .NET to potężna biblioteka do programowej pracy z dokumentami Word. Oferuje ona rozbudowane funkcje do tworzenia, modyfikowania i konwertowania dokumentów Word.
 
 ### Jak zainstalować Aspose.Words dla .NET?
- Możesz zainstalować Aspose.Words dla .NET, pobierając go ze strony[Tutaj](https://releases.aspose.com/words/net/) i dodanie biblioteki DLL do projektu. Alternatywnie możesz zainstalować ją za pomocą NuGet Package Manager w Visual Studio.
+Możesz zainstalować Aspose.Words dla .NET, pobierając go ze strony [Tutaj](https://releases.aspose.com/words/net/) i dodanie biblioteki DLL do projektu. Alternatywnie możesz zainstalować ją za pomocą NuGet Package Manager w Visual Studio.
 
 ### Czy mogę dodać wiele linków do różnych treści w tym samym dokumencie?
 Tak, możesz dodać wiele linków do różnych treści w tym samym dokumencie, tworząc wiele zakładek i łącząc właściwości niestandardowe z każdą zakładką.
 
 ### Czy Aspose.Words dla .NET jest darmowy?
- Aspose.Words dla platformy .NET to produkt komercyjny, ale możesz zacząć od bezpłatnej wersji próbnej dostępnej[Tutaj](https://releases.aspose.com/).
+Aspose.Words dla platformy .NET to produkt komercyjny, ale możesz zacząć od bezpłatnej wersji próbnej dostępnej [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Words dla .NET?
- Wsparcie dla Aspose.Words dla .NET można uzyskać na stronie[Forum wsparcia Aspose](https://forum.aspose.com/c/words/8).
+Wsparcie dla Aspose.Words dla .NET można uzyskać na stronie [Forum wsparcia Aspose](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

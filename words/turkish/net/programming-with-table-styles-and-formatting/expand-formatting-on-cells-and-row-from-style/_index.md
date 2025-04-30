@@ -1,14 +1,16 @@
 ---
-title: Hücrelerde ve Satırlarda Biçimlendirmeyi Stilden Genişlet
-linktitle: Hücrelerde ve Satırlarda Biçimlendirmeyi Stilden Genişlet
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerindeki stillerden hücrelerdeki ve satırlardaki biçimlendirmeyi nasıl genişleteceğinizi öğrenin. Adım adım kılavuz dahildir.
-weight: 10
-url: /tr/net/programming-with-table-styles-and-formatting/expand-formatting-on-cells-and-row-from-style/
+"description": "Aspose.Words for .NET kullanarak Word belgelerindeki stillerden hücrelerdeki ve satırlardaki biçimlendirmeyi nasıl genişleteceğinizi öğrenin. Adım adım kılavuz dahildir."
+"linktitle": "Hücrelerde ve Satırlarda Biçimlendirmeyi Stilden Genişlet"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Hücrelerde ve Satırlarda Biçimlendirmeyi Stilden Genişlet"
+"url": "/tr/net/programming-with-table-styles-and-formatting/expand-formatting-on-cells-and-row-from-style/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hücrelerde ve Satırlarda Biçimlendirmeyi Stilden Genişlet
@@ -19,9 +21,9 @@ Word belgelerinizdeki tablolar arasında tutarlı bir stil uygulamanız gerekti�
 
 ## Ön koşullar
 
-Ayrıntılara girmeden önce, aşağıdakilerin mevcut olduğundan emin olun:
+Ayrıntılara girmeden önce, aşağıdakilerin yerinde olduğundan emin olun:
 
--  Aspose.Words for .NET: İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - Visual Studio: Güncel herhangi bir sürüm işinizi görecektir.
 - Temel C# bilgisi: C# programlamaya aşinalık şarttır.
 - Örnek Belge: Tablo içeren bir Word belgesi hazır bulundurun veya kod örneğinde verilen belgeyi kullanabilirsiniz.
@@ -44,7 +46,7 @@ using Aspose.Words.Tables;
 Bu adımda biçimlendirmek istediğiniz tabloyu içeren Word belgesini yükleyeceğiz. 
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
@@ -79,7 +81,7 @@ Console.WriteLine("Cell shading before style expansion: " + cellShadingBefore);
 
 ## Adım 5: Tablo Stillerini Genişlet
 
- İşte sihrin gerçekleştiği yer burası.`ExpandTableStylesToDirectFormatting` Tablo stillerini doğrudan hücrelere uygulama yöntemi.
+İşte sihrin gerçekleştiği yer burası. `ExpandTableStylesToDirectFormatting` Tablo stillerini doğrudan hücrelere uygulama yöntemi.
 
 ```csharp
 // Tablo stillerini doğrudan biçimlendirmeye genişletin.
@@ -115,10 +117,15 @@ Kesinlikle! Belgenizdeki tüm tablolar arasında dolaşabilir ve her birine ayn�
 Stiller genişletildiğinde, doğrudan hücrelere uygulanır. Geri almak için belgeyi yeniden yüklemeniz veya stilleri manuel olarak yeniden uygulamanız gerekir.
 
 ### Bu yöntem Aspose.Words for .NET'in tüm sürümlerinde çalışıyor mu?
- Evet,`ExpandTableStylesToDirectFormatting` yöntem, .NET için Aspose.Words'ün son sürümlerinde mevcuttur. Her zaman kontrol edin[belgeleme](https://reference.aspose.com/words/net/) En son güncellemeler için.
+Evet, `ExpandTableStylesToDirectFormatting` yöntem, .NET için Aspose.Words'ün son sürümlerinde mevcuttur. Her zaman kontrol edin [belgeleme](https://reference.aspose.com/words/net/) En son güncellemeler için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

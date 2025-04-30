@@ -1,14 +1,16 @@
 ---
-title: Liste Kaynak Biçimlendirmesini Koru
-linktitle: Liste Kaynak Biçimlendirmesini Koru
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak biçimlendirmeyi koruyarak Word belgelerini nasıl birleştireceğinizi öğrenin. Bu eğitim, sorunsuz belge birleştirme için adım adım rehberlik sağlar.
-weight: 10
-url: /tr/net/join-and-append-documents/list-keep-source-formatting/
+"description": "Aspose.Words for .NET kullanarak biçimlendirmeyi koruyarak Word belgelerini nasıl birleştireceğinizi öğrenin. Bu eğitim, sorunsuz belge birleştirme için adım adım rehberlik sağlar."
+"linktitle": "Liste Kaynak Biçimlendirmesini Koru"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Liste Kaynak Biçimlendirmesini Koru"
+"url": "/tr/net/join-and-append-documents/list-keep-source-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Liste Kaynak Biçimlendirmesini Koru
@@ -22,7 +24,7 @@ Bu eğitimde, kaynak biçimlendirmesini koruyarak belgeleri birleştirmek için 
 Devam etmeden önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
 - Bilgisayarınızda Visual Studio yüklü.
--  Aspose.Words for .NET yüklü. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET yüklü. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - C# programlama ve .NET ortamına ilişkin temel bilgi.
 
 ## Ad Alanlarını İçe Aktar
@@ -40,7 +42,7 @@ Visual Studio'da yeni bir C# projesi oluşturarak başlayın. Projenizde Aspose.
 ## Adım 2: Belge Değişkenlerini Başlatın
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Kaynak ve hedef belgeleri yükleyin
@@ -91,10 +93,15 @@ Evet, Aspose.Words .NET Core'u tam olarak destekler ve platformlar arası geliş
 Aspose.Words, büyük belgelerde bile performans için optimize edilmiş, belge düzenleme için verimli API'ler sağlar.
 
 ### Daha fazla örnek ve dokümanı nerede bulabilirim?
- Daha fazla örnek ve ayrıntılı belgeleri şu adreste inceleyebilirsiniz:[Aspose.Words Belgeleri](https://reference.aspose.com/words/net/).
+Daha fazla örnek ve ayrıntılı belgeleri şu adreste inceleyebilirsiniz: [Aspose.Words Belgeleri](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

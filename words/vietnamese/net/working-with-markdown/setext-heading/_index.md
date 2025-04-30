@@ -1,14 +1,16 @@
 ---
-title: Tiêu đề Settext
-linktitle: Tiêu đề Settext
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách sử dụng Aspose.Words cho .NET để tự động tạo và định dạng tài liệu Word với hướng dẫn toàn diện, từng bước này.
-weight: 10
-url: /vi/net/working-with-markdown/setext-heading/
+"description": "Tìm hiểu cách sử dụng Aspose.Words cho .NET để tự động tạo và định dạng tài liệu Word với hướng dẫn toàn diện, từng bước này."
+"linktitle": "Tiêu đề Settext"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tiêu đề Settext"
+"url": "/vi/net/working-with-markdown/setext-heading/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tiêu đề Settext
@@ -23,7 +25,7 @@ Trước khi bắt đầu viết mã, hãy đảm bảo rằng chúng ta đã c�
 
 1. Môi trường phát triển: Visual Studio (hoặc bất kỳ IDE nào khác mà bạn thích).
 2. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework 4.0 trở lên.
-3.  Aspose.Words cho .NET: Bạn có thể[tải xuống phiên bản mới nhất](https://releases.aspose.com/words/net/) hoặc nhận được một[dùng thử miễn phí](https://releases.aspose.com/).
+3. Aspose.Words cho .NET: Bạn có thể [tải xuống phiên bản mới nhất](https://releases.aspose.com/words/net/) hoặc nhận được một [dùng thử miễn phí](https://releases.aspose.com/).
 4. Kiến thức cơ bản về C#: Sự quen thuộc với cú pháp C# và các khái niệm lập trình cơ bản sẽ rất hữu ích.
 
 Khi bạn đã chuẩn bị xong những thứ này, chúng ta có thể bắt đầu rồi!
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Tạo Trình xây dựng tài liệu
 
- Tiếp theo, chúng ta sẽ tạo một phiên bản của`DocumentBuilder` lớp. Lớp này giúp chúng ta thêm nội dung vào tài liệu Word.
+Tiếp theo, chúng ta sẽ tạo một phiên bản của `DocumentBuilder` lớp. Lớp này giúp chúng ta thêm nội dung vào tài liệu Word.
 
 ```csharp
 // Sử dụng trình tạo tài liệu để thêm nội dung vào tài liệu.
@@ -70,7 +72,7 @@ builder.Writeln("This is an H1 tag");
 Sau khi thêm tiêu đề, chúng ta cần thiết lập lại kiểu để đảm bảo chúng không chuyển sang đoạn văn tiếp theo.
 
 ```csharp
-//Đặt lại kiểu từ đoạn văn trước để không kết hợp kiểu giữa các đoạn văn.
+// Đặt lại kiểu từ đoạn văn trước để không kết hợp các kiểu giữa các đoạn văn.
 builder.Font.Bold = false;
 builder.Font.Italic = false;
 ```
@@ -95,19 +97,19 @@ builder.ParagraphFormat.Style = builder.Document.Styles["Heading 3"];
 builder.Writeln("This is an H3 tag");
 ```
 
-## Bước 7: Thiết lập lại Kiểu Đoạn văn một lần nữa
+## Bước 7: Thiết lập lại kiểu đoạn văn một lần nữa
 
 Giống như trước, chúng ta cần thiết lập lại kiểu để tránh bất kỳ định dạng không mong muốn nào.
 
 ```csharp
-//Đặt lại kiểu từ đoạn văn trước để không kết hợp kiểu giữa các đoạn văn.
+// Đặt lại kiểu từ đoạn văn trước để không kết hợp các kiểu giữa các đoạn văn.
 builder.Font.Bold = false;
 builder.Font.Italic = false;
 ```
 
 ## Bước 8: Thêm Tiêu đề Setext Cấp độ 2
 
-Cuối cùng, chúng ta sẽ thêm Tiêu đề Setext Cấp độ 2. Điều này hữu ích để chia nhỏ cấu trúc tài liệu của chúng ta hơn nữa.
+Cuối cùng, chúng ta sẽ thêm Tiêu đề Setext Cấp độ 2. Điều này hữu ích để chia nhỏ cấu trúc tài liệu hơn nữa.
 
 ```csharp
 Style setexHeading2 = builder.Document.Styles.Add(StyleType.Paragraph, "SetextHeading2");
@@ -138,19 +140,24 @@ Vậy là xong, các bạn ạ! Với Aspose.Words cho .NET, việc thao tác c�
 Aspose.Words for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, sửa đổi và chuyển đổi các tài liệu Word theo chương trình bằng C# hoặc VB.NET.
 
 ### Làm thế nào để cài đặt Aspose.Words cho .NET?
- Bạn có thể tải xuống phiên bản mới nhất từ[Trang web Aspose](https://releases.aspose.com/words/net/) hoặc nhận được một[dùng thử miễn phí](https://releases.aspose.com/).
+Bạn có thể tải xuống phiên bản mới nhất từ [Trang web Aspose](https://releases.aspose.com/words/net/) hoặc nhận được một [dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET với .NET Core không?
 Có, Aspose.Words for .NET hỗ trợ .NET Core, cho phép bạn sử dụng nó trong các ứng dụng đa nền tảng.
 
 ### Có phiên bản miễn phí của Aspose.Words dành cho .NET không?
- Aspose cung cấp một[dùng thử miễn phí](https://releases.aspose.com/) mà bạn có thể sử dụng để đánh giá thư viện trước khi mua giấy phép.
+Aspose cung cấp một [dùng thử miễn phí](https://releases.aspose.com/) mà bạn có thể sử dụng để đánh giá thư viện trước khi mua giấy phép.
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Words dành cho .NET ở đâu?
- Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose trên[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose trên [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

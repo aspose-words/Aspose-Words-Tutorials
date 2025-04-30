@@ -1,14 +1,16 @@
 ---
-title: Najlepszy przewodnik po rewizji dokumentów
-linktitle: Najlepszy przewodnik po rewizji dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Opanuj rewizję dokumentu z Aspose.Words dla Java! Efektywnie zarządzaj zmianami, akceptuj/odrzucaj rewizje i współpracuj bezproblemowo. Zacznij teraz!
-weight: 10
-url: /pl/java/document-revision/guide-document-revision/
+"description": "Opanuj rewizję dokumentu z Aspose.Words dla Java! Efektywnie zarządzaj zmianami, akceptuj/odrzucaj rewizje i współpracuj bezproblemowo. Zacznij teraz!"
+"linktitle": "Najlepszy przewodnik po rewizji dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Najlepszy przewodnik po rewizji dokumentów"
+"url": "/pl/java/document-revision/guide-document-revision/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Najlepszy przewodnik po rewizji dokumentów
@@ -41,7 +43,7 @@ Aspose.Words for Java to bogata w funkcje biblioteka, która umożliwia programi
 
 Zanim przejdziesz do rewizji dokumentu, musisz skonfigurować Aspose.Words dla Java w swoim środowisku programistycznym. Wykonaj następujące proste kroki, aby rozpocząć:
 
-1.  Pobierz Aspose.Words dla Javy: Odwiedź[Aspose.Wydania](https://releases.aspose.com/words/java/) i pobierz bibliotekę Java.
+1. Pobierz Aspose.Words dla Javy: Odwiedź [Aspose.Wydania](https://releases.aspose.com/words/java/) i pobierz bibliotekę Java.
 
 2. Dodaj Aspose.Words do swojego projektu: Wypakuj pobrany pakiet i dodaj plik JAR Aspose.Words do ścieżki kompilacji swojego projektu Java.
 
@@ -89,7 +91,7 @@ doc.save("path/to/modified/document.docx");
 
 ## Akceptowanie poprawek
 
-### 3.1 Przeglądanie wersji dokumentu
+### 3.1 Przeglądanie zmian w dokumencie
 
 Aspose.Words umożliwia identyfikację i przeglądanie zmian wprowadzonych w dokumencie. Możesz uzyskać dostęp do zbioru zmian i zebrać informacje o każdej zmianie.
 
@@ -210,9 +212,14 @@ Rewizja dokumentów jest krytycznym aspektem pracy zespołowej, zapewniającym d
 
 ### Czy Aspose.Words nadaje się do obsługi dużych dokumentów z wieloma poprawkami
    - Oczywiście! Aspose.Words jest zaprojektowany do wydajnego obsługiwania dużych dokumentów i efektywnego zarządzania wieloma wersjami bez obniżania wydajności.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

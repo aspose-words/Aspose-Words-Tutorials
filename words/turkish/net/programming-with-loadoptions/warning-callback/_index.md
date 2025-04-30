@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Uyarı Geri Araması
-linktitle: Word Belgesinde Uyarı Geri Araması
-second_title: Aspose.Words Belge İşleme API'si
-description: Adım adım kılavuzumuzla .NET için Aspose.Words'ü kullanarak Word belgelerindeki uyarıları nasıl yakalayacağınızı ve işleyeceğinizi öğrenin. Sağlam belge işlemeyi garantileyin.
-weight: 10
-url: /tr/net/programming-with-loadoptions/warning-callback/
+"description": "Adım adım kılavuzumuzla .NET için Aspose.Words'ü kullanarak Word belgelerindeki uyarıları nasıl yakalayacağınızı ve işleyeceğinizi öğrenin. Sağlam belge işlemeyi garantileyin."
+"linktitle": "Word Belgesinde Uyarı Geri Araması"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Uyarı Geri Araması"
+"url": "/tr/net/programming-with-loadoptions/warning-callback/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Uyarı Geri Araması
@@ -23,8 +25,8 @@ Uygulamaya başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emi
 
 - C# programlamanın temel bilgisi
 - Makinenizde Visual Studio yüklü
--  Aspose.Words for .NET kütüphanesi (indirebilirsiniz[Burada](https://releases.aspose.com/words/net/))
--  Aspose.Words için geçerli bir lisans (eğer yoksa, edinin)[geçici lisans](https://purchase.aspose.com/temporary-license/))
+- Aspose.Words for .NET kütüphanesi (indirebilirsiniz [Burada](https://releases.aspose.com/words/net/))
+- Aspose.Words için geçerli bir lisans (eğer yoksa, edinin) [geçici lisans](https://purchase.aspose.com/temporary-license/))
 
 ## Ad Alanlarını İçe Aktar
 
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 ## Adım 2: Uyarı Geri Aramasıyla Yükleme Seçeneklerini Yapılandırın
 
- Sonra, belge için yükleme seçeneklerini yapılandırın. Bu, bir`LoadOptions` nesne ve onun ayarı`WarningCallback` mülk.
+Sonra, belge için yükleme seçeneklerini yapılandırın. Bu, bir `LoadOptions` nesne ve onun ayarı `WarningCallback` mülk.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions
@@ -60,7 +62,7 @@ LoadOptions loadOptions = new LoadOptions
 
 ## Adım 3: Geri Arama İşlevini Kullanarak Belgeyi Yükleyin
 
- Şimdi, belgeyi kullanarak yükleyin`LoadOptions` Uyarı geri aramasıyla yapılandırılmış nesne.
+Şimdi, belgeyi kullanarak yükleyin `LoadOptions` Uyarı geri aramasıyla yapılandırılmış nesne.
 
 ```csharp
 Document doc = new Document(dataDir + "Document.docx", loadOptions);
@@ -68,7 +70,7 @@ Document doc = new Document(dataDir + "Document.docx", loadOptions);
 
 ## Adım 4: Uyarı Geri Arama Sınıfını Uygulayın
 
- Aşağıdakileri uygulayan bir sınıf oluşturun:`IWarningCallback` arayüz. Bu sınıf, belge işleme sırasında uyarıların nasıl işleneceğini tanımlayacaktır.
+Aşağıdakileri uygulayan bir sınıf oluşturun: `IWarningCallback` arayüz. Bu sınıf, belge işleme sırasında uyarıların nasıl işleneceğini tanımlayacaktır.
 
 ```csharp
 private class DocumentLoadingWarningCallback : IWarningCallback
@@ -100,19 +102,24 @@ Bu adımları izleyerek, Aspose.Words for .NET kullanarak Word belgeleriyle çal
 Uyarı geri araması, belge işleme sırasında oluşan uyarıları yakalamanızı ve yönetmenizi sağlayarak olası sorunları proaktif bir şekilde ele almanıza yardımcı olur.
 
 ### Uyarı geri arama özelliğini nasıl ayarlarım?
- Yapılandırmanız gerekiyor`LoadOptions` ile`WarningCallback` özelliği ve uyarıları işleyen bir sınıfı uygulayarak uygulayın`IWarningCallback` arayüz.
+Yapılandırmanız gerekiyor `LoadOptions` ile `WarningCallback` özelliği ve uyarıları işleyen bir sınıfı uygulayarak uygulayın `IWarningCallback` arayüz.
 
 ### Geçerli bir lisans olmadan uyarı geri arama özelliğini kullanabilir miyim?
- Ücretsiz deneme sürümüyle kullanabilirsiniz, ancak tam işlevsellik için geçerli bir lisans edinmeniz önerilir.[burada geçici lisans](https://purchase.aspose.com/temporary-license/).
+Ücretsiz deneme sürümüyle kullanabilirsiniz, ancak tam işlevsellik için geçerli bir lisans edinmeniz önerilir. [burada geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 ### Belgeleri işlerken ne tür uyarılarla karşılaşmayı bekleyebilirim?
 Uyarılar, desteklenmeyen özelliklerle ilgili sorunları, biçimlendirme tutarsızlıklarını veya belgeye özgü diğer sorunları içerebilir.
 
 ### Aspose.Words for .NET hakkında daha fazla bilgiyi nerede bulabilirim?
- Şuraya başvurabilirsiniz:[belgeleme](https://reference.aspose.com/words/net/) Detaylı bilgi ve örnekler için.
+Şuraya başvurabilirsiniz: [belgeleme](https://reference.aspose.com/words/net/) Detaylı bilgi ve örnekler için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

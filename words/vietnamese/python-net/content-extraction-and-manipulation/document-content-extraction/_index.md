@@ -1,14 +1,16 @@
 ---
-title: Trích xuất nội dung hiệu quả trong tài liệu Word
-linktitle: Trích xuất nội dung hiệu quả trong tài liệu Word
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Trích xuất nội dung hiệu quả từ các tài liệu Word bằng Aspose.Words cho Python. Tìm hiểu từng bước với các ví dụ về mã.
-weight: 11
-url: /vi/python-net/content-extraction-and-manipulation/document-content-extraction/
+"description": "Trích xuất nội dung hiệu quả từ các tài liệu Word bằng Aspose.Words cho Python. Tìm hiểu từng bước với các ví dụ về mã."
+"linktitle": "Trích xuất nội dung hiệu quả trong tài liệu Word"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Trích xuất nội dung hiệu quả trong tài liệu Word"
+"url": "/vi/python-net/content-extraction-and-manipulation/document-content-extraction/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất nội dung hiệu quả trong tài liệu Word
@@ -20,7 +22,7 @@ Trích xuất nội dung hiệu quả từ các tài liệu Word là một yêu 
 
 ## Điều kiện tiên quyết
 
- Trước khi chúng ta đi sâu vào mã, hãy đảm bảo bạn đã cài đặt Python và thư viện Aspose.Words. Bạn có thể tải xuống thư viện từ trang web[đây](https://releases.aspose.com/words/python/)Ngoài ra, hãy đảm bảo bạn có sẵn một tài liệu Word để thử nghiệm.
+Trước khi chúng ta đi sâu vào mã, hãy đảm bảo bạn đã cài đặt Python và thư viện Aspose.Words. Bạn có thể tải xuống thư viện từ trang web [đây](https://releases.aspose.com/words/python/)Ngoài ra, hãy đảm bảo bạn có sẵn một tài liệu Word để thử nghiệm.
 
 ## Cài đặt Aspose.Words cho Python
 
@@ -103,7 +105,7 @@ Trích xuất nội dung hiệu quả từ các tài liệu Word có thể thự
 
 ### Làm thế nào để cài đặt Aspose.Words cho Python?
 
- Để cài đặt Aspose.Words cho Python, hãy sử dụng lệnh sau:`pip install aspose-words`.
+Để cài đặt Aspose.Words cho Python, hãy sử dụng lệnh sau: `pip install aspose-words`.
 
 ### Tôi có thể trích xuất hình ảnh và văn bản cùng lúc không?
 
@@ -119,10 +121,15 @@ Có, bạn có thể trích xuất nội dung từ cả phần đầu trang và 
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Words cho Python ở đâu?
 
- Để có tài liệu và tham khảo đầy đủ, hãy truy cập[đây](https://reference.aspose.com/words/python-net/).
+Để có tài liệu và tham khảo đầy đủ, hãy truy cập [đây](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,27 +1,29 @@
 ---
-title: Periksa Efek Teks DrawingML
-linktitle: Periksa Efek Teks DrawingML
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memeriksa efek teks DrawingML dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah. Sempurnakan dokumen Anda dengan mudah.
-weight: 10
-url: /id/net/working-with-fonts/check-drawingml-text-effect/
+"description": "Pelajari cara memeriksa efek teks DrawingML dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah. Sempurnakan dokumen Anda dengan mudah."
+"linktitle": "Periksa Efek Teks DrawingML"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Periksa Efek Teks DrawingML"
+"url": "/id/net/working-with-fonts/check-drawingml-text-effect/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Periksa Efek Teks DrawingML
 
 ## Perkenalan
 
-Selamat datang di tutorial terperinci lainnya tentang cara bekerja dengan Aspose.Words untuk .NET! Hari ini, kita akan menyelami dunia efek teks DrawingML yang menarik. Apakah Anda ingin menyempurnakan dokumen Word Anda dengan bayangan, pantulan, atau efek 3D, panduan ini akan menunjukkan kepada Anda cara memeriksa efek teks ini di dokumen Anda menggunakan Aspose.Words untuk .NET. Mari kita mulai!
+Selamat datang di tutorial terperinci lainnya tentang cara bekerja dengan Aspose.Words untuk .NET! Hari ini, kita akan menyelami dunia efek teks DrawingML yang menarik. Baik Anda ingin menyempurnakan dokumen Word dengan bayangan, pantulan, atau efek 3D, panduan ini akan menunjukkan cara memeriksa efek teks ini di dokumen Anda menggunakan Aspose.Words untuk .NET. Mari kita mulai!
 
 ## Prasyarat
 
 Sebelum kita masuk ke tutorial, ada beberapa prasyarat yang perlu Anda siapkan:
 
--  Pustaka Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Aspose merilis halaman](https://releases.aspose.com/words/net/).
+- Pustaka Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Aspose merilis halaman](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Anda harus menyiapkan lingkungan pengembangan, seperti Visual Studio.
 - Pengetahuan Dasar C#: Sedikit pengetahuan tentang pemrograman C# akan sangat membantu.
 
@@ -82,7 +84,7 @@ Console.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Outline));
 Console.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Fill));
 ```
 
- Baris kode ini akan dicetak`true` atau`false` tergantung pada apakah setiap efek teks DrawingML tertentu diterapkan pada font yang dijalankan.
+Baris kode ini akan dicetak `true` atau `false` tergantung pada apakah setiap efek teks DrawingML tertentu diterapkan pada font yang dijalankan.
 
 ## Kesimpulan
 
@@ -98,16 +100,21 @@ Efek teks DrawingML adalah opsi pemformatan teks tingkat lanjut dalam dokumen Wo
 Ya, Aspose.Words untuk .NET memungkinkan Anda memeriksa dan menerapkan efek teks DrawingML secara terprogram.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words untuk .NET?
- Ya, Aspose.Words untuk .NET memerlukan lisensi untuk fungsionalitas penuh. Anda dapat memperoleh lisensi[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
+Ya, Aspose.Words untuk .NET memerlukan lisensi untuk fungsionalitas penuh. Anda dapat memperoleh lisensi [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Words untuk .NET?
- Ya, Anda dapat mengunduh[uji coba gratis](https://releases.aspose.com/) untuk mencoba Aspose.Words untuk .NET sebelum membeli.
+Ya, Anda dapat mengunduh [uji coba gratis](https://releases.aspose.com/) untuk mencoba Aspose.Words untuk .NET sebelum membeli.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
- Anda dapat menemukan dokumentasi terperinci di[Halaman Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi terperinci di [Halaman Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

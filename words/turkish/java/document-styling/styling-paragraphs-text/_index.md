@@ -1,14 +1,16 @@
 ---
-title: Belgelerdeki Paragrafları ve Metni Şekillendirme
-linktitle: Belgelerdeki Paragrafları ve Metni Şekillendirme
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java kullanarak belgelerdeki paragrafları ve metinleri nasıl biçimlendireceğinizi öğrenin. Etkili belge biçimlendirmesi için kaynak kodlu adım adım kılavuz.
-weight: 11
-url: /tr/java/document-styling/styling-paragraphs-text/
+"description": "Aspose.Words for Java kullanarak belgelerdeki paragrafları ve metinleri nasıl biçimlendireceğinizi öğrenin. Etkili belge biçimlendirmesi için kaynak kodlu adım adım kılavuz."
+"linktitle": "Belgelerdeki Paragrafları ve Metni Şekillendirme"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belgelerdeki Paragrafları ve Metni Şekillendirme"
+"url": "/tr/java/document-styling/styling-paragraphs-text/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belgelerdeki Paragrafları ve Metni Şekillendirme
@@ -23,7 +25,7 @@ Aspose.Words for Java, geliştiricilerin Microsoft Word'e ihtiyaç duymadan Word
 
 ## Geliştirme Ortamınızı Kurma
 
-Kodlama yönlerine dalmadan önce, geliştirme ortamınızı kurmanız çok önemlidir. Java'nın yüklü olduğundan emin olun ve ardından Aspose.Words for Java kitaplığını indirin ve yapılandırın. Ayrıntılı kurulum talimatlarını şu adreste bulabilirsiniz:[belgeleme](https://reference.aspose.com/words/java/).
+Kodlama yönlerine dalmadan önce, geliştirme ortamınızı kurmanız çok önemlidir. Java'nın yüklü olduğundan emin olun ve ardından Aspose.Words for Java kitaplığını indirin ve yapılandırın. Ayrıntılı kurulum talimatlarını şu adreste bulabilirsiniz: [belgeleme](https://reference.aspose.com/words/java/).
 
 ## Yeni Bir Belge Oluşturma
 
@@ -199,7 +201,7 @@ Bu kodda üç öğeden oluşan madde işaretli bir liste oluşturuyoruz.
 
 ## Köprü Bağlantıları Ekleme
 
-Belgelerinize etkileşim eklemek için köprü metinleri olmazsa olmazdır. Java için Aspose.Words köprü metinlerini kolayca eklemenize olanak tanır. İşte bir örnek:
+Köprüler, belgelerinize etkileşim eklemek için olmazsa olmazdır. Java için Aspose.Words, köprüleri kolayca eklemenize olanak tanır. İşte bir örnek:
 
 ```java
 Document doc = new Document();
@@ -208,7 +210,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.write("For more information, please visit the ");
 
 // Bir köprü metni ekleyin ve özel biçimlendirmeyle vurgulayın.
-// Köprü metni, bizi URL'de belirtilen yere götürecek tıklanabilir bir metin parçası olacaktır.
+// Köprü metni, URL'de belirtilen yere bizi götürecek tıklanabilir bir metin parçası olacaktır.
 builder.getFont().setColor(Color.BLUE);
 builder.getFont().setUnderline(Underline.SINGLE);
 builder.insertHyperlink("Google website", "https://www.google.com", yanlış);
@@ -329,7 +331,7 @@ Bu kodda üç satır ve üç sütundan oluşan basit bir tablo oluşturuyoruz.
 
 ## Belge Kaydetme ve Dışa Aktarma
 
-Belgenizi oluşturup biçimlendirdikten sonra, istediğiniz biçimde kaydetmeniz veya dışa aktarmanız önemlidir. Java için Aspose.Words, DOCX, PDF ve daha fazlası dahil olmak üzere çeşitli belge biçimlerini destekler. Bir belgeyi PDF olarak kaydetmenin yolu:
+Belgenizi oluşturup biçimlendirdikten sonra, onu istediğiniz biçimde kaydetmeniz veya dışa aktarmanız önemlidir. Java için Aspose.Words, DOCX, PDF ve daha fazlası dahil olmak üzere çeşitli belge biçimlerini destekler. Bir belgeyi PDF olarak kaydetmenin yolu:
 
 ```java
 // Yeni bir belge oluştur
@@ -399,7 +401,7 @@ Aspose.Words for Java'nın en son sürümü için Aspose web sitesini veya Maven
 Evet, Aspose.Words for Java, Java 11 ve sonraki sürümlerle uyumludur.
 
 ### Belgemin belirli bölümleri için sayfa kenar boşluklarını nasıl ayarlayabilirim?
- Belgenizin belirli bölümleri için sayfa kenar boşluklarını şu şekilde ayarlayabilirsiniz:`PageSetup` sınıf. İşte bir örnek:
+Belgenizin belirli bölümleri için sayfa kenar boşluklarını şu şekilde ayarlayabilirsiniz: `PageSetup` sınıf. İşte bir örnek:
 
 ```java
 Section section = doc.getSections().get(0); // İlk bölümü al
@@ -415,9 +417,14 @@ pageSetup.setBottomMargin(72); // Alt kenar boşluğu puan olarak
 Bu kapsamlı kılavuzda, belgelerdeki paragrafları ve metni biçimlendirmek için Aspose.Words for Java'nın güçlü yeteneklerini inceledik. Temel metin düzenlemesinden gelişmiş özelliklere kadar belgelerinizi programatik olarak nasıl oluşturacağınızı, biçimlendireceğinizi ve geliştireceğinizi öğrendiniz. Aspose.Words for Java, geliştiricilerin belge biçimlendirme görevlerini verimli bir şekilde otomatikleştirmesini sağlar. Aspose.Words for Java ile belge biçimlendirmede uzmanlaşmak için farklı özelliklerle pratik yapmaya ve denemeler yapmaya devam edin.
 
 Artık Aspose.Words for Java kullanarak belgelerdeki paragrafları ve metinleri nasıl biçimlendireceğiniz konusunda sağlam bir anlayışa sahip olduğunuza göre, özel ihtiyaçlarınıza göre uyarlanmış, güzelce biçimlendirilmiş belgeler oluşturmaya hazırsınız. İyi kodlamalar!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

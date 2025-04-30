@@ -1,22 +1,24 @@
 ---
-title: البحث عن نص واستبداله في Aspose.Words لـ Java
-linktitle: البحث عن النص واستبداله
-second_title: واجهة برمجة تطبيقات معالجة المستندات في Java Aspose.Words
-description: تعرف على كيفية البحث عن نص واستبداله في مستندات Word باستخدام Aspose.Words for Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية. قم بتحسين مهاراتك في التعامل مع مستندات Java.
-weight: 15
-url: /ar/java/document-manipulation/finding-and-replacing-text/
+"description": "تعلّم كيفية البحث عن نص واستبداله في مستندات Word باستخدام Aspose.Words لجافا. دليل خطوة بخطوة مع أمثلة برمجية. حسّن مهاراتك في التعامل مع مستندات جافا."
+"linktitle": "البحث عن النص واستبداله"
+"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
+"title": "البحث عن نص واستبداله في Aspose.Words لـ Java"
+"url": "/ar/java/document-manipulation/finding-and-replacing-text/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # البحث عن نص واستبداله في Aspose.Words لـ Java
 
 
-## مقدمة حول البحث عن النص واستبداله في Aspose.Words لـ Java
+## مقدمة للبحث عن النص واستبداله في Aspose.Words لـ Java
 
-Aspose.Words for Java عبارة عن واجهة برمجة تطبيقات Java قوية تتيح لك العمل مع مستندات Word برمجيًا. إحدى المهام الشائعة عند التعامل مع مستندات Word هي البحث عن النص واستبداله. سواء كنت بحاجة إلى تحديث العناصر النائبة في القوالب أو إجراء معالجات نصية أكثر تعقيدًا، يمكن أن يساعدك Aspose.Words for Java في تحقيق أهدافك بكفاءة.
+Aspose.Words for Java هي واجهة برمجة تطبيقات Java فعّالة تُمكّنك من العمل مع مستندات Word برمجيًا. من المهام الشائعة عند التعامل مع مستندات Word البحث عن نص واستبداله. سواءً كنت بحاجة إلى تحديث العناصر النائبة في القوالب أو إجراء عمليات معالجة نصية أكثر تعقيدًا، يُمكن لـ Aspose.Words for Java مساعدتك في تحقيق أهدافك بكفاءة.
 
 ## المتطلبات الأساسية
 
@@ -26,7 +28,7 @@ Aspose.Words for Java عبارة عن واجهة برمجة تطبيقات Java 
 - Aspose.Words لمكتبة Java
 - نموذج مستند Word للعمل عليه
 
- يمكنك تنزيل مكتبة Aspose.Words for Java من[هنا](https://releases.aspose.com/words/java/).
+يمكنك تنزيل مكتبة Aspose.Words لـ Java من [هنا](https://releases.aspose.com/words/java/).
 
 ## البحث عن نص بسيط واستبداله
 
@@ -44,11 +46,11 @@ builder.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 doc.save("modified-document.docx");
 ```
 
- في هذا المثال، نقوم بتحميل مستند Word وإنشاء`DocumentBuilder` ، واستخدم`replace` طريقة للبحث عن "النص القديم" واستبداله بـ "النص الجديد" داخل المستند.
+في هذا المثال، نقوم بتحميل مستند Word وإنشاء `DocumentBuilder`، واستخدم `replace` طريقة للبحث عن "النص القديم" واستبداله بـ "النص الجديد" داخل المستند.
 
 ## استخدام التعبيرات العادية
 
-توفر التعبيرات العادية إمكانيات مطابقة الأنماط القوية للبحث عن النصوص واستبدالها. يدعم Aspose.Words for Java التعبيرات العادية لعمليات البحث والاستبدال الأكثر تقدمًا.
+توفر التعبيرات العادية إمكانيات مطابقة أنماط فعّالة للبحث عن النصوص واستبدالها. يدعم Aspose.Words لـ Java التعبيرات العادية لعمليات بحث واستبدال أكثر تقدمًا.
 
 ```java
 // تحميل المستند
@@ -109,7 +111,7 @@ doc.save("modified-document.docx");
 
 يتيح لك هذا استبعاد النص الذي تم وضع علامة عليه للحذف في التغييرات المتعقبة من أن يتم استبداله.
 
-## تجاهل النص الموجود داخل المراجعات المدرجة
+## تجاهل النص داخل مراجعات الإدراج
 
 يمكنك تكوين Aspose.Words لتجاهل النص الموجود داخل مراجعات الإدراج أثناء عمليات البحث والاستبدال.
 
@@ -132,7 +134,7 @@ doc.save("modified-document.docx");
 
 ## استبدال النص بـ HTML
 
-بإمكانك استخدام Aspose.Words لـ Java لاستبدال النص بمحتوى HTML.
+بإمكانك استخدام Aspose.Words for Java لاستبدال النص بمحتوى HTML.
 
 ```java
 // تحميل المستند
@@ -149,7 +151,7 @@ doc.getRange().replace("text-to-replace", "new-html-content", options);
 doc.save("modified-document.docx");
 ```
 
- في هذا المثال، نستخدم مخصصًا`ReplaceWithHtmlEvaluator` لاستبدال النص بمحتوى HTML.
+في هذا المثال، نستخدم مخصصًا `ReplaceWithHtmlEvaluator` لاستبدال النص بمحتوى HTML.
 
 ## استبدال النص في الرؤوس والتذييلات
 
@@ -175,9 +177,9 @@ doc.save("modified-document.docx");
 
 يتيح لك هذا إجراء عمليات استبدال للنصوص على وجه التحديد في الرؤوس والتذييلات.
 
-## إظهار التغييرات الخاصة بطلبات الرأس والتذييل
+## إظهار التغييرات لأوامر الرأس والتذييل
 
-بإمكانك استخدام Aspose.Words لإظهار التغييرات في ترتيب الرأس والتذييل في مستندك.
+يمكنك استخدام Aspose.Words لإظهار التغييرات في ترتيب الرأس والتذييل في المستند الخاص بك.
 
 ```java
 // تحميل المستند
@@ -186,7 +188,7 @@ Document doc = new Document("your-document.docx");
 // احصل على القسم الأول
 Section firstPageSection = doc.getFirstSection();
 
-//إنشاء مثيل FindReplaceOptions وتطبيقه على نطاق المستند
+// إنشاء مثيل FindReplaceOptions وتطبيقه على نطاق المستند
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceLog());
 
@@ -218,7 +220,7 @@ doc.getRange().replace(Pattern.compile("PlaceHolder(\\d+)"), "", options);
 doc.save("modified-document.docx");
 ```
 
- في هذا المثال، نستبدل النص بالحقول ونحدد نوع الحقل (على سبيل المثال،`FieldType.FIELD_MERGE_FIELD`).
+في هذا المثال، نقوم باستبدال النص بالحقول وتحديد نوع الحقل (على سبيل المثال، `FieldType.FIELD_MERGE_FIELD`).
 
 ## الاستبدال بالمُقيِّم
 
@@ -228,7 +230,7 @@ doc.save("modified-document.docx");
 // تحميل المستند
 Document doc = new Document("your-document.docx");
 
-// إنشاء مثيل FindReplaceOptions وتعيين معاودة الاتصال بالاستبدال المخصصة
+// إنشاء مثيل FindReplaceOptions وتعيين استدعاء استبدال مخصص
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new MyReplaceEvaluator());
 
@@ -258,7 +260,7 @@ doc.save("modified-document.docx");
 
 في هذا المثال، نستخدم نمط تعبير عادي للبحث عن نص واستبداله داخل المستند.
 
-## التعرف على أنماط الاستبدال والاستبدالات
+## التعرف على أنماط الاستبدال والاستبدالات داخلها
 
 بإمكانك التعرف على أنماط الاستبدال وإجراء الاستبدالات فيها باستخدام Aspose.Words لـ Java.
 
@@ -277,7 +279,7 @@ doc.getRange().replace(Pattern.compile("([A-z]+) give money to ([A-z]+)"), "$2 t
 doc.save("modified-document.docx");
 ```
 
-يتيح لك هذا إجراء عمليات استبدال داخل أنماط الاستبدال للحصول على عمليات استبدال أكثر تقدمًا.
+يتيح لك هذا إجراء عمليات الاستبدال داخل أنماط الاستبدال للحصول على عمليات استبدال أكثر تقدمًا.
 
 ## الاستبدال بسلسلة
 
@@ -298,7 +300,7 @@ doc.save("modified-document.docx");
 
 ## استخدام الترتيب القديم
 
-بإمكانك استخدام الترتيب القديم عند إجراء عمليات البحث والاستبدال.
+يمكنك استخدام الترتيب القديم عند إجراء عمليات البحث والاستبدال.
 
 ```java
 // تحميل المستند
@@ -328,43 +330,48 @@ Document doc = new Document("your-document.docx");
 // احصل على جدول محدد (على سبيل المثال، الجدول الأول)
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 
-//استخدم FindReplaceOptions لاستبدال النص في الجدول
+// استخدم FindReplaceOptions لاستبدال النص في الجدول
 table.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 
 // حفظ المستند المعدل
 doc.save("modified-document.docx");
 ```
 
-يتيح لك هذا إجراء عمليات استبدال للنصوص داخل الجداول على وجه التحديد.
+يتيح لك هذا إجراء عمليات استبدال للنصوص على وجه التحديد داخل الجداول.
 
 ## خاتمة
 
-يوفر Aspose.Words for Java إمكانيات شاملة للبحث عن النص واستبداله داخل مستندات Word. سواء كنت بحاجة إلى إجراء عمليات استبدال نصية بسيطة أو عمليات أكثر تقدمًا باستخدام التعبيرات العادية أو معالجة الحقول أو أدوات التقييم المخصصة، فإن Aspose.Words for Java يغطيك. تأكد من استكشاف الوثائق والأمثلة الشاملة التي يوفرها Aspose للاستفادة من الإمكانات الكاملة لهذه المكتبة القوية في Java.
+يوفر Aspose.Words لجافا إمكانيات شاملة للبحث عن النصوص واستبدالها في مستندات Word. سواءً كنت بحاجة إلى استبدال نصوص بسيطة أو عمليات أكثر تعقيدًا باستخدام التعبيرات العادية، أو معالجة الحقول، أو أدوات التقييم المخصصة، فإن Aspose.Words لجافا يلبي احتياجاتك. احرص على استكشاف الوثائق والأمثلة الشاملة التي يوفرها Aspose للاستفادة القصوى من إمكانات مكتبة جافا القوية هذه.
 
 ## الأسئلة الشائعة
 
 ### كيف يمكنني تنزيل Aspose.Words لـ Java؟
 
- يمكنك تنزيل Aspose.Words for Java من الموقع الإلكتروني من خلال زيارة[هذا الرابط](https://releases.aspose.com/words/java/).
+يمكنك تنزيل Aspose.Words for Java من الموقع الإلكتروني عن طريق زيارة [هذا الرابط](https://releases.aspose.com/words/java/).
 
 ### هل يمكنني استخدام التعبيرات العادية لاستبدال النص؟
 
-نعم، يمكنك استخدام التعبيرات العادية لاستبدال النص في Aspose.Words for Java. وهذا يسمح لك بإجراء عمليات بحث واستبدال أكثر تقدمًا ومرونة.
+نعم، يمكنك استخدام التعبيرات العادية لاستبدال النصوص في Aspose.Words لجافا. هذا يتيح لك إجراء عمليات بحث واستبدال أكثر تقدمًا ومرونة.
 
 ### كيف يمكنني تجاهل النص الموجود داخل الحقول أثناء الاستبدال؟
 
-لتجاهل النص الموجود داخل الحقول أثناء الاستبدال، يمكنك ضبط`IgnoreFields` ممتلكات`FindReplaceOptions` ل`true`يضمن هذا استبعاد النص الموجود داخل الحقول، مثل حقول الدمج، من الاستبدال.
+لتجاهل النص الموجود داخل الحقول أثناء الاستبدال، يمكنك ضبط `IgnoreFields` ممتلكات `FindReplaceOptions` ل `true`يضمن هذا استبعاد النص الموجود داخل الحقول، مثل حقول الدمج، من الاستبدال.
 
 ### هل يمكنني استبدال النص داخل الرؤوس والتذييلات؟
 
- نعم، يمكنك استبدال النص داخل رؤوس وتذييلات مستند Word الخاص بك. ما عليك سوى الوصول إلى الرأس أو التذييل المناسب واستخدام`replace` الطريقة مع المطلوب`FindReplaceOptions`.
+نعم، يمكنك استبدال النص داخل رؤوس وتذييلات مستند Word. ما عليك سوى الوصول إلى الرأس أو التذييل المناسب واستخدام `replace` الطريقة مع المطلوب `FindReplaceOptions`.
 
 ### ما هو خيار UseLegacyOrder؟
 
- ال`UseLegacyOrder` خيار في`FindReplaceOptions` يتيح لك استخدام الترتيب القديم عند إجراء عمليات البحث والاستبدال. يمكن أن يكون هذا مفيدًا في سيناريوهات معينة حيث يكون سلوك الترتيب القديم مرغوبًا.
+ال `UseLegacyOrder` الخيار في `FindReplaceOptions` يسمح لك باستخدام الترتيب القديم عند إجراء عمليات البحث والاستبدال. قد يكون هذا مفيدًا في بعض الحالات التي يُفضّل فيها استخدام الترتيب القديم.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

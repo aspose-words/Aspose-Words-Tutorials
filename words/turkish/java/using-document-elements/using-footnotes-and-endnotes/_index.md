@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Dipnot ve Son Not Kullanımı
-linktitle: Dipnot ve Sonnot Kullanımı
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java'da dipnotları ve sonnotları etkili bir şekilde kullanmayı öğrenin. Belge biçimlendirme becerilerinizi bugün geliştirin!
-weight: 13
-url: /tr/java/using-document-elements/using-footnotes-and-endnotes/
+"description": "Aspose.Words for Java'da dipnotları ve sonnotları etkili bir şekilde kullanmayı öğrenin. Belge biçimlendirme becerilerinizi bugün geliştirin!"
+"linktitle": "Dipnot ve Sonnot Kullanımı"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Dipnot ve Son Not Kullanımı"
+"url": "/tr/java/using-document-elements/using-footnotes-and-endnotes/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Dipnot ve Son Not Kullanımı
@@ -42,7 +44,7 @@ public void getFootnoteOptions(){
 
 ## 4. Dipnot Seçeneklerini Değiştirme
 
-Dipnot seçeneklerini düzenleyerek görünümlerini ve davranışlarını özelleştirebilirsiniz. İşte nasıl:
+Dipnot seçeneklerini değiştirerek görünümlerini ve davranışlarını özelleştirebilirsiniz. İşte nasıl:
 ```java
 @Test
 public void setFootnoteAndEndNotePosition() throws Exception {
@@ -77,7 +79,7 @@ public void setEndnoteOptions() throws Exception {
 
 ## 6. Endnote Ayarlarını Özelleştirme
 
-Ayrıca, belge gereksinimlerinizi karşılamak için dipnot ayarlarını özelleştirebilirsiniz.
+Belgenizin gereksinimlerini karşılamak için dipnot ayarlarını daha da özelleştirebilirsiniz.
 
 ## Tam Kaynak Kodu
 ```java
@@ -120,10 +122,10 @@ Artık dipnot ve sonnotların nasıl kullanılacağını öğrendiğinize göre,
 ### Sıkça Sorulan Sorular
 
 ### 1. Dipnot ve sonnot arasındaki fark nedir?
-Dipnotlar sayfanın en altında yer alırken, sonnotlar bir bölümün veya belgenin sonunda toplanır.
+Dipnotlar sayfanın en altında yer alırken, son notlar bir bölümün veya belgenin sonunda toplanır.
 
 ### 2. Dipnotların veya sonnotların konumunu nasıl değiştirebilirim?
- Kullanabilirsiniz`setPosition` Dipnotların veya sonnotların konumunu değiştirme yöntemi.
+Kullanabilirsiniz `setPosition` Dipnotların veya sonnotların konumunu değiştirme yöntemi.
 
 ### 3. Dipnot ve sonnotların biçimlendirmesini özelleştirebilir miyim?
 Evet, Aspose.Words for Java'yı kullanarak dipnotların ve sonnotların biçimlendirmesini özelleştirebilirsiniz.
@@ -132,9 +134,14 @@ Evet, Aspose.Words for Java'yı kullanarak dipnotların ve sonnotların biçimle
 Evet, dipnotlar ve sonnotlar belgelerde kaynak ve ek bilgi sağlamak için önemlidir.
 
 Aspose.Words for Java'nın daha fazla özelliğini keşfetmekten ve belge oluşturma yeteneklerinizi geliştirmekten çekinmeyin. İyi kodlamalar!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

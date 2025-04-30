@@ -1,14 +1,16 @@
 ---
-title: Word Belgesindeki Paragraflara Kenarlıklar ve Gölgelendirme Uygula
-linktitle: Word Belgesindeki Paragraflara Kenarlıklar ve Gölgelendirme Uygula
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerindeki paragraflara kenarlıklar ve gölgelendirme uygulayın. Belge biçimlendirmenizi geliştirmek için adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/document-formatting/apply-borders-and-shading-to-paragraph/
+"description": "Aspose.Words for .NET kullanarak Word belgelerindeki paragraflara kenarlıklar ve gölgelendirme uygulayın. Belge biçimlendirmenizi geliştirmek için adım adım kılavuzumuzu izleyin."
+"linktitle": "Word Belgesindeki Paragraflara Kenarlıklar ve Gölgelendirme Uygula"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesindeki Paragraflara Kenarlıklar ve Gölgelendirme Uygula"
+"url": "/tr/net/document-formatting/apply-borders-and-shading-to-paragraph/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesindeki Paragraflara Kenarlıklar ve Gölgelendirme Uygula
@@ -21,10 +23,10 @@ Merhaba, Word belgelerinizi süslü kenarlıklar ve gölgelendirmelerle nasıl �
 
 Kollarımızı sıvayıp kodlamaya dalmadan önce, ihtiyacımız olan her şeye sahip olduğumuzdan emin olalım. İşte hızlı kontrol listeniz:
 
--  Aspose.Words for .NET: Bu kütüphanenin kurulu olması gerekir. Bunu şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Bu kütüphanenin kurulu olması gerekir. Bunu şuradan indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio veya .NET'i destekleyen herhangi bir IDE.
 - Temel C# Bilgisi: Kod parçacıklarını anlayıp ince ayar yapabilecek kadar.
-- Geçerli Bir Lisans:[geçici lisans](https://purchase.aspose.com/temporary-license/) veya satın alınmış bir tane[Aspose](https://purchase.aspose.com/buy).
+- Geçerli Bir Lisans: [geçici lisans](https://purchase.aspose.com/temporary-license/) veya satın alınmış bir tane [Aspose](https://purchase.aspose.com/buy).
 
 ## Ad Alanlarını İçe Aktar
 
@@ -48,18 +50,18 @@ using System.Drawing;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Bu dizin, nihai belgenizin kaydedileceği yerdir. Değiştir`"YOUR DOCUMENT DIRECTORY"` makinenizdeki gerçek yol ile.
+Bu dizin, nihai belgenizin kaydedileceği yerdir. Değiştir `"YOUR DOCUMENT DIRECTORY"` makinenizdeki gerçek yol ile.
 
 ## Adım 2: Yeni bir Belge ve DocumentBuilder Oluşturun
 
- Daha sonra yeni bir belge ve bir`DocumentBuilder` nesne.`DocumentBuilder` belgeyi manipüle etmemizi sağlayan sihirli değneğimizdir.
+Daha sonra yeni bir belge ve bir `DocumentBuilder` nesne. `DocumentBuilder` belgeyi manipüle etmemizi sağlayan sihirli değneğimizdir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- The`Document` nesne tüm Word belgemizi temsil eder ve`DocumentBuilder` içerik eklememize ve biçimlendirmemize yardımcı olur.
+The `Document` nesne tüm Word belgemizi temsil eder ve `DocumentBuilder` içerik eklememize ve biçimlendirmemize yardımcı olur.
 
 ## Adım 3: Paragraf Kenarlıklarını Tanımlayın
 
@@ -107,7 +109,7 @@ Son olarak çalışmamızı kaydetme zamanı geldi. Belgeyi belirtilen dizine a�
 doc.Save(dataDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
 ```
 
- Bu, belgemizi şu adla kaydeder:`DocumentFormatting.ApplyBordersAndShadingToParagraph.doc` daha önce belirttiğimiz dizinde.
+Bu, belgemizi şu adla kaydeder: `DocumentFormatting.ApplyBordersAndShadingToParagraph.doc` daha önce belirttiğimiz dizinde.
 
 ## Çözüm
 
@@ -116,23 +118,28 @@ doc.Save(dataDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
 ## SSS
 
 ### Her kenarlık için farklı çizgi stilleri kullanabilir miyim?  
- Kesinlikle! Aspose.Words for .NET her kenarlığı ayrı ayrı özelleştirmenize olanak tanır. Sadece`LineStyle` Her sınır türü için kılavuzda gösterildiği gibi.
+Kesinlikle! Aspose.Words for .NET her kenarlığı ayrı ayrı özelleştirmenize olanak tanır. Sadece `LineStyle` Her sınır türü için kılavuzda gösterildiği gibi.
 
 ### Başka hangi gölgelendirme dokuları mevcut?  
- Kullanabileceğiniz düz, yatay çizgili, dikey çizgili ve daha fazlası gibi çeşitli dokular vardır. Kontrol edin[Aspose belgeleri](https://reference.aspose.com/words/net/) Tam liste için.
+Kullanabileceğiniz düz, yatay çizgili, dikey çizgili ve daha fazlası gibi çeşitli dokular vardır. Kontrol edin [Aspose belgeleri](https://reference.aspose.com/words/net/) Tam liste için.
 
 ### Kenarlık rengini nasıl değiştirebilirim?  
- Kenarlık rengini şu şekilde ayarlayabilirsiniz:`Color` her sınır için özellik. Örneğin,`borders[BorderType.Left].Color = Color.Red;`.
+Kenarlık rengini kullanarak ayarlayabilirsiniz. `Color` her sınır için özellik. Örneğin, `borders[BorderType.Left].Color = Color.Red;`.
 
 ### Metnin belirli bir kısmına kenarlık ve gölgelendirme uygulamak mümkün müdür?  
- Evet, belirli metin bölümlerine kenarlıklar ve gölgelendirme uygulayabilirsiniz.`Run` içindeki nesne`DocumentBuilder`.
+Evet, belirli metin bölümlerine kenarlıklar ve gölgelendirme uygulayabilirsiniz. `Run` içindeki nesne `DocumentBuilder`.
 
 ### Bu işlemi birden fazla paragraf için otomatikleştirebilir miyim?  
 Kesinlikle! Paragraflarınız arasında dolaşabilir ve aynı kenarlıkları ve gölgelendirme ayarlarını programatik olarak uygulayabilirsiniz.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

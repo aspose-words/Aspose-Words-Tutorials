@@ -1,14 +1,16 @@
 ---
-title: Обратный вызов сохранения страницы
-linktitle: Обратный вызов сохранения страницы
-second_title: API обработки документов Aspose.Words
-description: Научитесь сохранять каждую страницу документа Word как отдельное изображение PNG с помощью Aspose.Words для .NET с помощью нашего подробного пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-imagesaveoptions/page-saving-callback/
+"description": "Научитесь сохранять каждую страницу документа Word как отдельное изображение PNG с помощью Aspose.Words для .NET с помощью нашего подробного пошагового руководства."
+"linktitle": "Обратный вызов сохранения страницы"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Обратный вызов сохранения страницы"
+"url": "/ru/net/programming-with-imagesaveoptions/page-saving-callback/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Обратный вызов сохранения страницы
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-imagesaveoptions/page-saving-callback/
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
-1.  Aspose.Words для .NET: если вы еще этого не сделали, загрузите и установите его с сайта[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: если вы еще этого не сделали, загрузите и установите его с сайта [здесь](https://releases.aspose.com/words/net/).
 2. Visual Studio: подойдет любая версия, но для этого руководства я буду использовать Visual Studio 2019.
 3. Базовые знания C#: для продолжения курса вам понадобятся базовые знания C#.
 
@@ -63,7 +65,7 @@ ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png)
 };
 ```
 
- Здесь,`PageSet` указывает диапазон страниц для сохранения и`PageSavingCallback` указывает на наш пользовательский класс обратного вызова.
+Здесь, `PageSet` указывает диапазон страниц для сохранения и `PageSavingCallback` указывает на наш пользовательский класс обратного вызова.
 
 ## Шаг 4: Реализация обратного вызова сохранения страницы
 
@@ -79,7 +81,7 @@ private class HandlePageSavingCallback : IPageSavingCallback
 }
 ```
 
- Этот класс реализует`IPageSavingCallback` интерфейс, и в пределах`PageSaving` Метод позволяет определить шаблон именования для каждой сохраненной страницы.
+Этот класс реализует `IPageSavingCallback` интерфейс, и в пределах `PageSaving` Метод позволяет определить шаблон именования для каждой сохраненной страницы.
 
 ## Шаг 5: Сохраните документ как изображение
 
@@ -98,22 +100,27 @@ doc.Save(dataDir + "WorkingWithImageSaveOptions.PageSavingCallback.png", imageSa
 ## Часто задаваемые вопросы
 
 ### Могу ли я сохранять страницы в форматах, отличных от PNG?  
- Да, вы можете сохранять страницы в разных форматах, таких как JPEG, BMP и TIFF, изменив`SaveFormat` в`ImageSaveOptions`.
+Да, вы можете сохранять страницы в разных форматах, таких как JPEG, BMP и TIFF, изменив `SaveFormat` в `ImageSaveOptions`.
 
 ### Что делать, если я хочу сохранить только определенные страницы?  
- Вы можете указать страницы, которые хотите сохранить, настроив`PageSet` параметр в`ImageSaveOptions`.
+Вы можете указать страницы, которые хотите сохранить, настроив `PageSet` параметр в `ImageSaveOptions`.
 
 ### Можно ли настроить качество изображения?  
- Конечно! Вы можете задать такие свойства, как`ImageSaveOptions.JpegQuality` для контроля качества выходных изображений.
+Конечно! Вы можете задать такие свойства, как `ImageSaveOptions.JpegQuality` для контроля качества выходных изображений.
 
 ### Как эффективно обрабатывать большие документы?  
 Для больших документов рассмотрите возможность пакетной обработки страниц, чтобы эффективно управлять использованием памяти.
 
 ### Где я могу найти более подробную информацию об Aspose.Words для .NET?  
- Проверьте[документация](https://reference.aspose.com/words/net/) для получения подробных руководств и примеров.
+Проверьте [документация](https://reference.aspose.com/words/net/) для получения подробных руководств и примеров.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

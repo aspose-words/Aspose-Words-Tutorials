@@ -1,14 +1,16 @@
 ---
-title: Доступ к пересмотренной версии
-linktitle: Доступ к пересмотренной версии
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как получить доступ и отобразить пересмотренную версию документа с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству для бесперебойного управления документами.
-weight: 10
-url: /ru/net/working-with-revisions/access-revised-version/
+"description": "Узнайте, как получить доступ и отобразить измененную версию документа с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству для бесперебойного управления документами."
+"linktitle": "Доступ к пересмотренной версии"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Доступ к пересмотренной версии"
+"url": "/ru/net/working-with-revisions/access-revised-version/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Доступ к пересмотренной версии
@@ -21,7 +23,7 @@ url: /ru/net/working-with-revisions/access-revised-version/
 
 Прежде чем мы начнем, вам понадобится несколько вещей:
 
-1.  Библиотека Aspose.Words for .NET: Вы можете загрузить ее[здесь](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words for .NET: Вы можете загрузить ее [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая другая IDE, поддерживающая .NET.
 3. Базовые знания C#: это поможет вам освоить часть кода.
 
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Шаг 2: Загрузка документа
 
- Далее вы загрузите документ в свое приложение. Этот шаг включает создание нового`Document` объект и инициализация его путем к вашему документу.
+Далее вы загрузите документ в свое приложение. Этот шаг включает создание нового `Document` объект и инициализируем его с указанием пути к вашему документу.
 
 ```csharp
 Document doc = new Document(dataDir + "Revisions.docx");
@@ -74,7 +76,7 @@ doc.RevisionsView = RevisionsView.Final;
 
 ## Шаг 5: Повторение изменений
 
- Чтобы получить доступ к изменениям, вам нужно будет пройти по всем пунктам`Revisions` Сбор документа. Этот шаг включает использование`foreach` цикл для прохождения каждой ревизии.
+Чтобы получить доступ к изменениям, вам нужно будет пройти по всем пунктам `Revisions` Сбор документа. Этот шаг включает использование `foreach` цикл для прохождения каждой ревизии.
 
 ```csharp
 foreach (Revision revision in doc.Revisions)
@@ -85,7 +87,7 @@ foreach (Revision revision in doc.Revisions)
 
 ## Шаг 6: Проверка типа родительского узла
 
- Для каждой ревизии проверьте, имеет ли родительский узел тип`Paragraph`. Это важно, поскольку мы хотим получить доступ к абзацу, содержащему исправление.
+Для каждой ревизии проверьте, имеет ли родительский узел тип `Paragraph`. Это важно, поскольку мы хотим получить доступ к абзацу, содержащему исправление.
 
 ```csharp
 if (revision.ParentNode.NodeType == NodeType.Paragraph)
@@ -96,7 +98,7 @@ if (revision.ParentNode.NodeType == NodeType.Paragraph)
 
 ## Шаг 7: Доступ к абзацу
 
- Убедившись, что родительский узел является абзацем, приведите его к типу`Paragraph` объект. Этот шаг позволяет работать с абзацем и его свойствами.
+Убедившись, что родительский узел является абзацем, приведите его к типу `Paragraph` объект. Этот шаг позволяет работать с абзацем и его свойствами.
 
 ```csharp
 Paragraph paragraph = (Paragraph)revision.ParentNode;
@@ -129,22 +131,27 @@ Console.WriteLine(paragraph.ListFormat.ListLevel);
 ## Часто задаваемые вопросы
 
 ### Что такое Aspose.Words для .NET?
-Aspose.Words для .NET — это мощная библиотека, позволяющая создавать, редактировать и обрабатывать документы Word программным способом.
+Aspose.Words для .NET — это мощная библиотека, позволяющая программно создавать, редактировать и обрабатывать документы Word.
 
 ### Могу ли я получить доступ к изменениям в любом документе Word?
 Да, если документ содержит изменения, вы можете получить к ним доступ с помощью Aspose.Words для .NET.
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?
- Да, вы можете получить лицензию от[здесь](https://purchase.aspose.com/buy) . Они также предлагают[бесплатная пробная версия](https://releases.aspose.com/) и а[временная лицензия](https://purchase.aspose.com/temporary-license/).
+Да, вы можете получить лицензию от [здесь](https://purchase.aspose.com/buy). Они также предлагают [бесплатная пробная версия](https://releases.aspose.com/) и а [временная лицензия](https://purchase.aspose.com/temporary-license/).
 
 ### Совместим ли Aspose.Words для .NET со всеми версиями .NET?
-Aspose.Words for .NET совместим с широким спектром версий .NET. Более подробную информацию можно найти в[документация](https://reference.aspose.com/words/net/).
+Aspose.Words for .NET совместим с широким спектром версий .NET. Более подробную информацию можно найти в [документация](https://reference.aspose.com/words/net/).
 
 ### Где я могу получить поддержку по Aspose.Words для .NET?
- Вы можете получить поддержку от сообщества Aspose на их сайте[форум](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от сообщества Aspose на их сайте [форум](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

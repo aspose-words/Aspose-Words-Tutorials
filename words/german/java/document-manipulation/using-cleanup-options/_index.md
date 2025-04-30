@@ -1,14 +1,16 @@
 ---
-title: Verwenden von Bereinigungsoptionen in Aspose.Words für Java
-linktitle: Bereinigungsoptionen verwenden
-second_title: Aspose.Words Java-API zur Dokumentverarbeitung
-description: Verbessern Sie die Übersichtlichkeit von Dokumenten mit den Bereinigungsoptionen von Aspose.Words für Java. Erfahren Sie, wie Sie leere Absätze, ungenutzte Bereiche und mehr entfernen.
-weight: 10
-url: /de/java/document-manipulation/using-cleanup-options/
+"description": "Verbessern Sie die Übersichtlichkeit Ihrer Dokumente mit den Bereinigungsoptionen von Aspose.Words für Java. Erfahren Sie, wie Sie leere Absätze, ungenutzte Bereiche und mehr entfernen."
+"linktitle": "Verwenden von Bereinigungsoptionen"
+"second_title": "Aspose.Words Java-Dokumentverarbeitungs-API"
+"title": "Verwenden von Bereinigungsoptionen in Aspose.Words für Java"
+"url": "/de/java/document-manipulation/using-cleanup-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Verwenden von Bereinigungsoptionen in Aspose.Words für Java
@@ -16,11 +18,11 @@ url: /de/java/document-manipulation/using-cleanup-options/
 
 ## Einführung in die Verwendung von Bereinigungsoptionen in Aspose.Words für Java
 
-In diesem Tutorial erfahren Sie, wie Sie Bereinigungsoptionen in Aspose.Words für Java verwenden, um Dokumente während des Seriendruckprozesses zu bearbeiten und zu bereinigen. Mit Bereinigungsoptionen können Sie verschiedene Aspekte der Dokumentbereinigung steuern, z. B. das Entfernen leerer Absätze, nicht verwendeter Bereiche und mehr.
+In diesem Tutorial erfahren Sie, wie Sie die Bereinigungsoptionen in Aspose.Words für Java nutzen, um Dokumente während des Seriendrucks zu bearbeiten und zu bereinigen. Mit den Bereinigungsoptionen können Sie verschiedene Aspekte der Dokumentbereinigung steuern, z. B. das Entfernen leerer Absätze, nicht verwendeter Bereiche und mehr.
 
 ## Voraussetzungen
 
- Bevor wir beginnen, stellen Sie sicher, dass Sie die Aspose.Words für Java-Bibliothek in Ihr Projekt integriert haben. Sie können sie hier herunterladen:[Hier](https://releases.aspose.com/words/java/).
+Bevor wir beginnen, stellen Sie sicher, dass Sie die Aspose.Words für Java-Bibliothek in Ihr Projekt integriert haben. Sie können sie hier herunterladen: [Hier](https://releases.aspose.com/words/java/).
 
 ## Schritt 1: Leere Absätze entfernen
 
@@ -48,9 +50,9 @@ doc.getMailMerge().execute(new String[] { "Option_1", "Option_2" }, new Object[]
 doc.save("WorkingWithCleanupOptions.CleanupParagraphsWithPunctuationMarks.docx");
 ```
 
-In diesem Beispiel erstellen wir ein neues Dokument, fügen Seriendruckfelder ein und legen die Bereinigungsoptionen fest, um leere Absätze zu entfernen. Zusätzlich aktivieren wir das Entfernen von Absätzen mit Satzzeichen. Nach dem Ausführen des Seriendrucks wird das Dokument mit der angegebenen Bereinigung gespeichert.
+In diesem Beispiel erstellen wir ein neues Dokument, fügen Seriendruckfelder ein und legen die Bereinigungsoptionen fest, um leere Absätze zu entfernen. Zusätzlich aktivieren wir das Entfernen von Absätzen mit Satzzeichen. Nach der Seriendruckfunktion wird das Dokument mit der angegebenen Bereinigung gespeichert.
 
-## Schritt 2: Nicht zusammengeführte Regionen entfernen
+## Schritt 2: Entfernen nicht zusammengeführter Regionen
 
 ```java
 Document doc = new Document("Your Directory Path" + "Mail merge destination - Northwind suppliers.docx");
@@ -59,14 +61,14 @@ DataSet data = new DataSet();
 // Legen Sie Bereinigungsoptionen fest, um nicht verwendete Bereiche zu entfernen
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS);
 
-// Serienbrief mit Regionen ausführen
+// Serienbriefe mit Regionen ausführen
 doc.getMailMerge().executeWithRegions(data);
 
 // Speichern des Dokuments
 doc.save("WorkingWithCleanupOptions.RemoveUnmergedRegions.docx");
 ```
 
-In diesem Beispiel öffnen wir ein vorhandenes Dokument mit Seriendruckbereichen, legen die Bereinigungsoptionen fest, um nicht verwendete Bereiche zu entfernen, und führen dann den Seriendruck mit leeren Daten aus. Dieser Vorgang entfernt automatisch die nicht verwendeten Bereiche aus dem Dokument.
+In diesem Beispiel öffnen wir ein vorhandenes Dokument mit Seriendruckbereichen, legen die Bereinigungsoptionen fest, um nicht verwendete Bereiche zu entfernen, und führen dann den Seriendruck mit leeren Daten aus. Dadurch werden die nicht verwendeten Bereiche automatisch aus dem Dokument entfernt.
 
 ## Schritt 3: Leere Felder entfernen
 
@@ -120,7 +122,7 @@ doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Add
 doc.save("WorkingWithCleanupOptions.RemoveContainingFields.docx");
 ```
 
-In diesem Beispiel öffnen wir ein Dokument mit Seriendruckfeldern, legen die Bereinigungsoptionen fest, um enthaltene Felder zu entfernen, und führen den Seriendruck mit Daten aus. Nach dem Seriendruck werden die Felder selbst aus dem Dokument entfernt.
+In diesem Beispiel öffnen wir ein Dokument mit Seriendruckfeldern, legen die Bereinigungsoptionen fest, um enthaltene Felder zu entfernen, und führen den Seriendruck mit den Daten aus. Nach dem Seriendruck werden die Felder selbst aus dem Dokument entfernt.
 
 ## Schritt 6: Leere Tabellenzeilen entfernen
 
@@ -142,48 +144,53 @@ In diesem Beispiel öffnen wir ein Dokument mit einer Tabelle und Seriendruckfel
 
 ## Abschluss
 
-In diesem Tutorial haben Sie gelernt, wie Sie Bereinigungsoptionen in Aspose.Words für Java verwenden, um Dokumente während des Seriendruckprozesses zu bearbeiten und zu bereinigen. Diese Optionen bieten eine detaillierte Kontrolle über die Dokumentbereinigung, sodass Sie mühelos ausgefeilte und benutzerdefinierte Dokumente erstellen können.
+In diesem Tutorial haben Sie gelernt, wie Sie die Bereinigungsoptionen in Aspose.Words für Java nutzen, um Dokumente während des Seriendruckprozesses zu bearbeiten und zu bereinigen. Diese Optionen bieten eine detaillierte Kontrolle über die Dokumentbereinigung und ermöglichen Ihnen die einfache Erstellung ansprechender und individueller Dokumente.
 
 ## Häufig gestellte Fragen
 
 ### Welche Bereinigungsoptionen gibt es in Aspose.Words für Java?
 
-Bereinigungsoptionen in Aspose.Words für Java sind Einstellungen, mit denen Sie verschiedene Aspekte der Dokumentbereinigung während des Seriendruckprozesses steuern können. Sie ermöglichen es Ihnen, unnötige Elemente wie leere Absätze, nicht verwendete Bereiche und mehr zu entfernen und so sicherzustellen, dass Ihr endgültiges Dokument gut strukturiert und ausgefeilt ist.
+Mit den Bereinigungsoptionen in Aspose.Words für Java können Sie verschiedene Aspekte der Dokumentbereinigung während des Seriendruckprozesses steuern. Sie ermöglichen es Ihnen, unnötige Elemente wie leere Absätze, ungenutzte Bereiche und mehr zu entfernen und so sicherzustellen, dass Ihr endgültiges Dokument gut strukturiert und ausgereift ist.
 
 ### Wie kann ich leere Absätze aus meinem Dokument entfernen?
 
- Um leere Absätze aus Ihrem Dokument mit Aspose.Words für Java zu entfernen, können Sie die`MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` Option auf „true“. Dadurch werden Absätze ohne Inhalt automatisch eliminiert, was zu einem übersichtlicheren Dokument führt.
+Um leere Absätze aus Ihrem Dokument mit Aspose.Words für Java zu entfernen, können Sie die `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` auf „true“. Dadurch werden Absätze ohne Inhalt automatisch entfernt, was zu einem übersichtlicheren Dokument führt.
 
-###  Was ist der Zweck der`REMOVE_UNUSED_REGIONS` cleanup option?
+### Was ist der Zweck der `REMOVE_UNUSED_REGIONS` Bereinigungsoption?
 
- Der`MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` Mit dieser Option können Sie während des Seriendrucks Bereiche in einem Dokument entfernen, die keine entsprechenden Daten enthalten. Sie hilft Ihnen, Ihr Dokument übersichtlich zu halten, indem Sie nicht verwendete Platzhalter entfernen.
+Der `MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` Mit dieser Option können Sie Bereiche in einem Dokument entfernen, die während des Seriendrucks keine entsprechenden Daten enthalten. So bleibt Ihr Dokument übersichtlich, da nicht verwendete Platzhalter entfernt werden.
 
 ### Kann ich mit Aspose.Words für Java leere Tabellenzeilen aus einem Dokument entfernen?
 
- Ja, Sie können leere Tabellenzeilen aus einem Dokument entfernen, indem Sie die`MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS`Bereinigungsoption auf „true“. Dadurch werden automatisch alle Tabellenzeilen gelöscht, die keine Daten enthalten, und so eine gut strukturierte Tabelle in Ihrem Dokument sichergestellt.
+Ja, Sie können leere Tabellenzeilen aus einem Dokument entfernen, indem Sie die `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS` Bereinigungsoption auf „true“. Dadurch werden automatisch alle Tabellenzeilen gelöscht, die keine Daten enthalten, und so eine gut strukturierte Tabelle in Ihrem Dokument gewährleistet.
 
-###  Was passiert, wenn ich die`REMOVE_CONTAINING_FIELDS` option?
+### Was passiert, wenn ich die `REMOVE_CONTAINING_FIELDS` Option?
 
- Einstellen der`MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` Mit dieser Option wird während des Seriendruckvorgangs das gesamte Seriendruckfeld, einschließlich des darin enthaltenen Absatzes, aus dem Dokument entfernt. Dies ist nützlich, wenn Sie Seriendruckfelder und den zugehörigen Text entfernen möchten.
+Einstellen der `MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` Mit dieser Option wird das gesamte Seriendruckfeld inklusive des darin enthaltenen Absatzes während des Seriendruckprozesses aus dem Dokument entfernt. Dies ist nützlich, wenn Sie Seriendruckfelder und den zugehörigen Text entfernen möchten.
 
 ### Wie kann ich nicht verwendete Seriendruckfelder aus meinem Dokument entfernen?
 
- Um nicht verwendete Seriendruckfelder aus einem Dokument zu entfernen, können Sie die`MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` Option auf „true“. Dadurch werden Seriendruckfelder, die während des Seriendrucks nicht ausgefüllt werden, automatisch eliminiert, was zu einem übersichtlicheren Dokument führt.
+Um nicht verwendete Seriendruckfelder aus einem Dokument zu entfernen, können Sie die `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` auf „true“. Dadurch werden Seriendruckfelder, die während des Seriendrucks nicht ausgefüllt wurden, automatisch entfernt, was zu einem übersichtlicheren Dokument führt.
 
-###  Was ist der Unterschied zwischen`REMOVE_EMPTY_FIELDS` and `REMOVE_UNUSED_FIELDS` cleanup options?
+### Was ist der Unterschied zwischen `REMOVE_EMPTY_FIELDS` Und `REMOVE_UNUSED_FIELDS` Bereinigungsoptionen?
 
- Der`REMOVE_EMPTY_FIELDS` entfernt Seriendruckfelder, die keine Daten enthalten oder leer sind, während des Seriendruckprozesses. Andererseits wird mit der`REMOVE_UNUSED_FIELDS`Mit dieser Option werden Seriendruckfelder entfernt, die während des Zusammenführens nicht mit Daten gefüllt werden. Die Auswahl zwischen diesen Feldern hängt davon ab, ob Sie Felder ohne Inhalt oder solche entfernen möchten, die bei dem jeweiligen Zusammenführungsvorgang nicht verwendet werden.
+Der `REMOVE_EMPTY_FIELDS` Option entfernt Seriendruckfelder, die keine Daten enthalten oder während des Seriendruckprozesses leer sind. Andererseits ist die `REMOVE_UNUSED_FIELDS` Mit dieser Option werden Seriendruckfelder entfernt, die während der Zusammenführung nicht mit Daten gefüllt werden. Die Auswahl hängt davon ab, ob Sie leere oder beim Zusammenführungsvorgang nicht verwendete Felder entfernen möchten.
 
 ### Wie kann ich das Entfernen von Absätzen mit Satzzeichen aktivieren?
 
- Um das Entfernen von Absätzen mit Satzzeichen zu ermöglichen, können Sie die`cleanupParagraphsWithPunctuationMarks` auf true und geben Sie die Satzzeichen an, die bei der Bereinigung berücksichtigt werden sollen. Auf diese Weise können Sie ein verfeinertes Dokument erstellen, indem Sie unnötige Absätze entfernen, die nur aus Satzzeichen bestehen.
+Um das Entfernen von Absätzen mit Satzzeichen zu ermöglichen, können Sie die `cleanupParagraphsWithPunctuationMarks` Setzen Sie die Option auf „true“ und geben Sie die Satzzeichen an, die bei der Bereinigung berücksichtigt werden sollen. Dadurch können Sie ein übersichtlicheres Dokument erstellen, indem Sie unnötige Absätze entfernen, die nur aus Satzzeichen bestehen.
 
 ### Kann ich die Bereinigungsoptionen in Aspose.Words für Java anpassen?
 
-Ja, Sie können die Bereinigungsoptionen Ihren spezifischen Anforderungen entsprechend anpassen. Sie können auswählen, welche Bereinigungsoptionen angewendet werden sollen, und sie entsprechend Ihren Dokumentbereinigungsanforderungen konfigurieren, um sicherzustellen, dass Ihr endgültiges Dokument Ihren gewünschten Standards entspricht.
+Ja, Sie können die Bereinigungsoptionen an Ihre spezifischen Bedürfnisse anpassen. Sie können die anzuwendenden Bereinigungsoptionen auswählen und entsprechend Ihren Dokumentbereinigungsanforderungen konfigurieren. So stellen Sie sicher, dass Ihr endgültiges Dokument Ihren gewünschten Standards entspricht.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

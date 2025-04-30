@@ -1,14 +1,16 @@
 ---
-title: Daftar Poin
-linktitle: Daftar Poin
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat dan menyesuaikan daftar berpoin dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini.
-weight: 10
-url: /id/net/working-with-markdown/bulleted-list/
+"description": "Pelajari cara membuat dan menyesuaikan daftar berpoin dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini."
+"linktitle": "Daftar Poin"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Daftar Poin"
+"url": "/id/net/working-with-markdown/bulleted-list/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Daftar Poin
@@ -21,7 +23,7 @@ Siap untuk menyelami dunia Aspose.Words untuk .NET? Hari ini, kita akan membahas
 
 Sebelum kita mulai bersenang-senang dalam coding, mari pastikan Anda memiliki semua yang dibutuhkan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Jika Anda belum memilikinya, Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Jika Anda belum memilikinya, Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan AC# seperti Visual Studio.
 3. Pengetahuan Dasar C#: Pemahaman dasar tentang pemrograman C# akan membantu Anda mengikutinya.
 
@@ -90,22 +92,27 @@ Jangan ragu untuk bereksperimen dengan berbagai gaya dan format daftar yang sesu
 ## Pertanyaan yang Sering Diajukan
 
 ### Dapatkah saya menggunakan simbol poin yang berbeda dalam daftar?
-    Ya, Anda dapat menyesuaikan simbol peluru dengan mengubah`NumberFormat` milik.
+   Ya, Anda dapat menyesuaikan simbol peluru dengan mengubah `NumberFormat` milik.
 
 ### Bagaimana cara menambahkan lebih banyak tingkat indentasi?
-    Gunakan`ListIndent` metode untuk menambahkan lebih banyak level dan`ListOutdent` untuk kembali ke tingkat yang lebih tinggi.
+   Gunakan `ListIndent` metode untuk menambahkan lebih banyak level dan `ListOutdent` untuk kembali ke tingkat yang lebih tinggi.
 
 ### Apakah mungkin untuk mencampur daftar poin dan nomor?
-   Tentu saja! Anda dapat beralih antara format poin dan angka menggunakan`ApplyNumberDefault` Dan`ApplyBulletDefault` metode.
+   Tentu saja! Anda dapat beralih antara format poin dan angka menggunakan `ApplyNumberDefault` Dan `ApplyBulletDefault` metode.
 
 ### Bisakah saya memberi gaya pada teks dalam item daftar?
-    Ya, Anda dapat menerapkan gaya, font, dan format yang berbeda ke teks dalam item daftar menggunakan`Font` milik`DocumentBuilder`.
+   Ya, Anda dapat menerapkan gaya, font, dan format yang berbeda ke teks dalam item daftar menggunakan `Font` milik `DocumentBuilder`.
 
 ### Bagaimana cara membuat daftar berpoin multi-kolom?
    Anda dapat menggunakan pemformatan tabel untuk membuat daftar multikolom, yang mana setiap sel berisi daftar berpoin terpisah.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

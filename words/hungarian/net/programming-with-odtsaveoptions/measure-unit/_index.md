@@ -1,108 +1,115 @@
 ---
-title: Mértékegység
-linktitle: Mértékegység
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan konfigurálhatja a mértékegység funkciót az Aspose.Words for .NET-ben, hogy megőrizze a dokumentum formázását az ODT-konverzió során.
-weight: 10
-url: /hu/net/programming-with-odtsaveoptions/measure-unit/
+"description": "Ismerje meg, hogyan konfigurálhatja a mértékegység funkciót az Aspose.Words for .NET programban a dokumentum formázásának megőrzése érdekében az ODT konvertálás során."
+"linktitle": "Mértékegység"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Mértékegység"
+"url": "/hu/net/programming-with-odtsaveoptions/measure-unit/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mértékegység
 
 ## Bevezetés
 
-Előfordult már, hogy Word-dokumentumait különböző formátumokba kellett konvertálnia, de szüksége volt egy meghatározott mértékegységre az elrendezéshez? Legyen szó hüvelykekről, centiméterekről vagy pontokról, kulcsfontosságú annak biztosítása, hogy a dokumentum megőrizze sértetlenségét az átalakítási folyamat során. Ebben az oktatóanyagban bemutatjuk, hogyan konfigurálhatja a mértékegység funkciót az Aspose.Words for .NET-ben. Ez a hatékony funkció biztosítja, hogy a dokumentum formázása pontosan úgy maradjon meg, ahogyan szüksége van rá, amikor ODT (Open Document Text) formátumba konvertálja.
+Előfordult már, hogy Word-dokumentumokat kellett különböző formátumokba konvertálnod, de egy adott mértékegységre volt szükséged az elrendezéshez? Akár hüvelykekkel, centiméterekkel vagy pontokkal dolgozol, kulcsfontosságú, hogy a dokumentum megőrizze integritását a konvertálási folyamat során. Ebben az oktatóanyagban bemutatjuk, hogyan konfigurálhatod a mértékegység funkciót az Aspose.Words for .NET-ben. Ez a hatékony funkció biztosítja, hogy a dokumentum formázása pontosan úgy maradjon meg, ahogyan szükséged van rá, amikor ODT (Open Document Text) formátumba konvertálod.
 
 ## Előfeltételek
 
-Mielőtt belemerülne a kódba, néhány dolgot meg kell tennie az induláshoz:
+Mielőtt belemerülnél a kódba, van néhány dolog, amire szükséged lesz az induláshoz:
 
-1. Aspose.Words for .NET: Győződjön meg arról, hogy az Aspose.Words for .NET legújabb verziója telepítve van. Ha még nincs meg, letöltheti innen[itt](https://releases.aspose.com/words/net/).
-2. Fejlesztői környezet: Olyan IDE, mint a Visual Studio a C# kód írásához és végrehajtásához.
-3. Alapvető C# ismerete: A C# alapjainak megértése segít az oktatóanyag követésében.
-4. Word-dokumentum: Készítsen Word-mintadokumentumot, amelyet felhasználhat a konvertáláshoz.
+1. Aspose.Words for .NET: Győződjön meg róla, hogy telepítve van az Aspose.Words for .NET legújabb verziója. Ha még nem telepítette, letöltheti innen: [itt](https://releases.aspose.com/words/net/).
+2. Fejlesztői környezet: Egy Visual Studio-hoz hasonló IDE, amely C# kódot ír és futtat.
+3. C# alapismeretek: A C# alapjainak ismerete segít majd a tutoriál követésében.
+4. Word-dokumentum: Készítsen elő egy minta Word-dokumentumot, amelyet felhasználhat az átalakításhoz.
 
 ## Névterek importálása
 
-Mielőtt elkezdené a kódolást, győződjön meg arról, hogy a szükséges névtereket importálta. Adja hozzá ezeket a kódfájl tetején található direktívák használatával:
+Mielőtt elkezdenénk a kódolást, ellenőrizzük, hogy importáltuk-e a szükséges névtereket. Ezeket a kódfájl elejére direktívák segítségével adhatjuk hozzá:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
+## 1. lépés: Dokumentumkönyvtár beállítása
 
-Először is meg kell határoznia a dokumentumkönyvtár elérési útját. Ez az a hely, ahol a Word-dokumentum található, és ahol a konvertált fájl mentésre kerül.
+Először is meg kell adnia a dokumentumkönyvtár elérési útját. Itt található a Word-dokumentum, és ide lesz mentve a konvertált fájl.
 
 ```csharp
-// A dokumentumkönyvtár elérési útja
+// A dokumentumok könyvtárának elérési útja
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Cserélje ki`"YOUR DOCUMENTS DIRECTORY"` a címtár tényleges elérési útjával. Ez biztosítja, hogy a kód tudja, hol találja a Word-dokumentumot.
+Csere `"YOUR DOCUMENTS DIRECTORY"` a könyvtár tényleges elérési útjával. Ez biztosítja, hogy a kód tudja, hol találja a Word-dokumentumot.
 
-## 2. lépés: Töltse be a Word-dokumentumot
+## 2. lépés: Töltse be a Word dokumentumot
 
- Ezután be kell töltenie a konvertálni kívánt Word-dokumentumot. Ez a`Document` osztály Aspose-tól.Words.
+Ezután be kell töltenie a konvertálni kívánt Word-dokumentumot. Ezt a következővel teheti meg: `Document` osztály az Aspose.Words-ből.
 
 ```csharp
-// Töltse be a Word dokumentumot
+// Töltsd be a Word dokumentumot
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
 Győződjön meg arról, hogy a „Document.docx” nevű Word-dokumentum megtalálható a megadott könyvtárban.
 
-## 3. lépés: Konfigurálja a mértékegységet
+## 3. lépés: A mértékegység konfigurálása
 
- Most állítsuk be az ODT-konverzió mértékegységét. Itt történik a varázslat. Felállítjuk a`OdtSaveOptions` hogy a hüvelyket használjuk mértékegységként.
+Most pedig konfiguráljuk az ODT konverzió mértékegységét. Itt történik a varázslat. Beállítjuk a `OdtSaveOptions` hüvelyket használni mértékegységként.
 
 ```csharp
-// Biztonsági opciók konfigurálása a "Mértékegység" funkcióval
+// A biztonsági mentési beállítások konfigurálása a „Mértékegység” funkcióval
 OdtSaveOptions saveOptions = new OdtSaveOptions { MeasureUnit = OdtSaveMeasureUnit.Inches };
 ```
 
- Ebben a példában a mértékegységet hüvelykre állítjuk be. Választhat más egységeket is, mint pl`OdtSaveMeasureUnit.Centimeters` vagy`OdtSaveMeasureUnit.Points` az Ön igényeitől függően.
+Ebben a példában hüvelykben adjuk meg a mértékegységet. Más mértékegységeket is választhat, például `OdtSaveMeasureUnit.Centimeters` vagy `OdtSaveMeasureUnit.Points` az igényeidtől függően.
 
-## 4. lépés: Alakítsa át a dokumentumot ODT-vé
+## 4. lépés: A dokumentum konvertálása ODT formátumra
 
- Végül konvertáljuk a Word dokumentumot ODT formátumba a konfigurált formátum használatával`OdtSaveOptions`.
+Végül a Word dokumentumot ODT formátumba konvertáljuk a konfigurált `OdtSaveOptions`.
 
 ```csharp
-// Alakítsa át a dokumentumot ODT-re
+// Dokumentum konvertálása ODT formátumba
 doc.Save(dataDir + "WorkingWithOdtSaveOptions.MeasureUnit.odt", saveOptions);
 ```
 
-Ez a kódsor elmenti a konvertált dokumentumot a megadott könyvtárba az új mértékegység alkalmazásával.
+Ez a kódsor az új mértékegységgel együtt menti el a konvertált dokumentumot a megadott könyvtárba.
 
 ## Következtetés
 
-És megvan! Az alábbi lépések követésével könnyedén konfigurálhatja az Aspose.Words for .NET mértékegység funkcióját, hogy biztosítsa a dokumentum elrendezésének megőrzését az átalakítás során. Akár hüvelykekkel, centiméterekkel vagy pontokkal dolgozik, ez az oktatóanyag megmutatja, hogyan veheti át könnyedén a dokumentum formázását.
+És íme! A következő lépéseket követve könnyedén konfigurálhatod az Aspose.Words for .NET mértékegység funkcióját, hogy a dokumentumod elrendezése megmaradjon a konvertálás során. Akár hüvelykkel, centiméterrel vagy pontokkal dolgozol, ez az oktatóanyag megmutatta, hogyan veheted át könnyedén az irányítást a dokumentum formázása felett.
 
 ## GYIK
 
-### Mi az Aspose.Words for .NET?
-Az Aspose.Words for .NET egy hatékony könyvtár Word-dokumentumokkal való programozott munkavégzéshez. Lehetővé teszi a fejlesztők számára Word dokumentumok létrehozását, módosítását, konvertálását és feldolgozását Microsoft Word nélkül.
+### Mi az Aspose.Words .NET-hez?
+Az Aspose.Words for .NET egy hatékony függvénytár a Word-dokumentumok programozott kezeléséhez. Lehetővé teszi a fejlesztők számára Word-dokumentumok létrehozását, módosítását, konvertálását és feldolgozását Microsoft Word használata nélkül.
 
-### Használhatok más mértékegységeket a hüvelyken kívül?
- Igen, az Aspose.Words for .NET támogatja az egyéb mértékegységeket, például a centimétereket és a pontokat. A kívánt mértékegységet a gombbal adhatja meg`OdtSaveMeasureUnit` felsorolás.
+### Használhatok más mértékegységeket is a hüvelyken kívül?
+Igen, az Aspose.Words for .NET más mértékegységeket is támogat, például centimétert és pontot. A kívánt mértékegységet a következővel adhatja meg: `OdtSaveMeasureUnit` felsorolás.
 
-### Létezik ingyenes próbaverzió az Aspose.Words for .NET számára?
- Igen, letöltheti az Aspose.Words for .NET ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/).
+### Van ingyenes próbaverzió az Aspose.Words for .NET-hez?
+Igen, letöltheti az Aspose.Words for .NET ingyenes próbaverzióját innen: [itt](https://releases.aspose.com/).
 
-### Hol találom az Aspose.Words for .NET dokumentációját?
- Az Aspose.Words for .NET átfogó dokumentációját a következő címen érheti el[ezt a linket](https://reference.aspose.com/words/net/).
+### Hol találok dokumentációt az Aspose.Words for .NET-hez?
+Az Aspose.Words for .NET átfogó dokumentációját a következő címen érheti el: [ezt a linket](https://reference.aspose.com/words/net/).
 
 ### Hogyan kaphatok támogatást az Aspose.Words for .NET-hez?
- Támogatásért keresse fel az Aspose.Words fórumot a címen[ezt a linket](https://forum.aspose.com/c/words/8).
+Támogatásért látogassa meg az Aspose.Words fórumot a következő címen: [ezt a linket](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

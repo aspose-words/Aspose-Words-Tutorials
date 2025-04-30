@@ -1,14 +1,16 @@
 ---
-title: Java용 Aspose.Words에서 DocumentBuilder를 사용하여 콘텐츠 추가
-linktitle: DocumentBuilder를 사용하여 콘텐츠 추가
-second_title: Aspose.Words Java 문서 처리 API
-description: Aspose.Words for Java로 마스터 문서 생성. 텍스트, 표, 이미지 등을 추가하는 단계별 가이드. 멋진 Word 문서를 손쉽게 만드세요.
-weight: 26
-url: /ko/java/document-manipulation/adding-content-using-documentbuilder/
+"description": "Aspose.Words for Java를 활용한 마스터 문서 제작. 텍스트, 표, 이미지 등을 추가하는 단계별 가이드. 멋진 Word 문서를 손쉽게 제작하세요."
+"linktitle": "DocumentBuilder를 사용하여 콘텐츠 추가"
+"second_title": "Aspose.Words Java 문서 처리 API"
+"title": "Java용 Aspose.Words에서 DocumentBuilder를 사용하여 콘텐츠 추가"
+"url": "/ko/java/document-manipulation/adding-content-using-documentbuilder/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java용 Aspose.Words에서 DocumentBuilder를 사용하여 콘텐츠 추가
@@ -16,11 +18,11 @@ url: /ko/java/document-manipulation/adding-content-using-documentbuilder/
 
 ## Aspose.Words for Java에서 DocumentBuilder를 사용하여 콘텐츠 추가 소개
 
-이 단계별 가이드에서는 Aspose.Words for Java의 DocumentBuilder를 사용하여 Word 문서에 다양한 유형의 콘텐츠를 추가하는 방법을 살펴보겠습니다. 텍스트, 표, 수평선, 양식 필드, HTML, 하이퍼링크, 목차, 인라인 및 플로팅 이미지, 문단 등을 삽입하는 방법을 다룹니다. 시작해 봅시다!
+이 단계별 가이드에서는 Aspose.Words for Java의 DocumentBuilder를 사용하여 Word 문서에 다양한 유형의 콘텐츠를 추가하는 방법을 살펴보겠습니다. 텍스트, 표, 수평선, 양식 필드, HTML, 하이퍼링크, 목차, 인라인 및 플로팅 이미지, 단락 등을 삽입하는 방법을 다룹니다. 시작해 볼까요!
 
 ## 필수 조건
 
- 시작하기 전에 프로젝트에 Aspose.Words for Java 라이브러리가 설정되어 있는지 확인하세요. 여기에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/words/java/).
+시작하기 전에 프로젝트에 Aspose.Words for Java 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다. [여기](https://releases.aspose.com/words/java/).
 
 ## 텍스트 추가
 
@@ -28,7 +30,7 @@ url: /ko/java/document-manipulation/adding-content-using-documentbuilder/
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 간단한 텍스트 문단 삽입
+// 간단한 텍스트 단락 삽입
 builder.write("This is a simple text paragraph.");
 
 // 문서를 저장하세요
@@ -41,17 +43,17 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-//테이블 시작
+// 테이블 시작
 Table table = builder.startTable();
 
-// 셀과 내용 삽입
+// 셀 및 콘텐츠 삽입
 builder.insertCell();
 builder.write("Cell 1");
 
 builder.insertCell();
 builder.write("Cell 2");
 
-// 테이블 종료
+// 테이블을 끝내다
 builder.endTable();
 
 // 문서를 저장하세요
@@ -180,20 +182,20 @@ builder.insertImage("path/to/your/image.png");
 doc.save("path/to/your/document.docx");
 ```
 
-### 떠있는 이미지
+### 떠다니는 이미지
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 떠있는 이미지 삽입
+// 떠 있는 이미지 삽입
 builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN, 100.0, 200.0, 100.0, WrapType.SQUARE);
 
 // 문서를 저장하세요
 doc.save("path/to/your/document.docx");
 ```
 
-## 문단 추가하기
+## 문단 추가
 
 ```java
 Document doc = new Document();
@@ -221,35 +223,35 @@ doc.save("path/to/your/document.docx");
 
 ## 10단계: 커서 이동
 
- 다음과 같은 다양한 방법을 사용하여 문서 내에서 커서 위치를 제어할 수 있습니다.`moveToParagraph`, `moveToCell`그리고 더 많은 것들. 여기에 예가 있습니다:
+다음과 같은 다양한 방법을 사용하여 문서 내 커서 위치를 제어할 수 있습니다. `moveToParagraph`, `moveToCell`등이 있습니다. 예를 들어 다음과 같습니다.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 커서를 특정 문단으로 이동합니다.
+// 커서를 특정 문단으로 이동합니다
 builder.moveToParagraph(2, 0);
 
-// 새로운 커서 위치에 콘텐츠 추가
+// 새 커서 위치에 콘텐츠 추가
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-다음은 Java의 DocumentBuilder용 Aspose.Words를 사용하여 수행할 수 있는 몇 가지 일반적인 작업입니다. 더 고급 기능과 사용자 지정 옵션은 라이브러리 설명서를 살펴보세요. 행복한 문서 생성을 기원합니다!
+다음은 Aspose.Words for Java의 DocumentBuilder를 사용하여 수행할 수 있는 몇 가지 일반적인 작업입니다. 더 고급 기능과 사용자 정의 옵션은 라이브러리 문서를 참조하세요. 즐거운 문서 작성 되세요!
 
 
 ## 결론
 
-이 포괄적인 가이드에서는 Aspose.Words for Java의 DocumentBuilder가 Word 문서에 다양한 유형의 콘텐츠를 추가하는 기능을 살펴보았습니다. 텍스트, 표, 가로줄, 양식 필드, HTML, 하이퍼링크, 목차, 이미지, 문단 및 커서 이동을 다루었습니다.
+이 종합 가이드에서는 Aspose.Words for Java의 DocumentBuilder를 사용하여 Word 문서에 다양한 유형의 콘텐츠를 추가하는 기능을 살펴보았습니다. 텍스트, 표, 가로줄, 양식 필드, HTML, 하이퍼링크, 목차, 이미지, 단락, 커서 이동 등을 다루었습니다.
 
 ## 자주 묻는 질문
 
 ### 질문: Java용 Aspose.Words란 무엇인가요?
 
-A: Aspose.Words for Java는 개발자가 Microsoft Word 문서를 프로그래밍 방식으로 만들고, 수정하고, 조작할 수 있는 Java 라이브러리입니다. 문서 생성, 서식 지정 및 콘텐츠 삽입을 위한 광범위한 기능을 제공합니다.
+A: Aspose.Words for Java는 개발자가 Microsoft Word 문서를 프로그래밍 방식으로 생성, 수정 및 조작할 수 있도록 지원하는 Java 라이브러리입니다. 문서 생성, 서식 지정 및 콘텐츠 삽입을 위한 다양한 기능을 제공합니다.
 
 ### 질문: 문서에 목차를 추가하려면 어떻게 해야 하나요?
 
-A: 목차를 추가하려면 다음을 사용하세요.`DocumentBuilder` 문서에 목차 필드를 삽입합니다. 목차를 채우기 위해 콘텐츠를 추가한 후 문서의 필드를 업데이트해야 합니다. 다음은 예입니다.
+A: 목차를 추가하려면 다음을 사용하세요. `DocumentBuilder` 문서에 목차 필드를 삽입하려면 콘텐츠를 추가한 후 문서의 필드를 업데이트하여 목차를 채워야 합니다. 예를 들어 다음과 같습니다.
 
 ```java
 Document doc = new Document();
@@ -265,9 +267,9 @@ builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 doc.updateFields();
 ```
 
-### 질문: Aspose.Words for Java를 사용하여 문서에 이미지를 삽입하려면 어떻게 해야 합니까?
+### 질문: Aspose.Words for Java를 사용하여 문서에 이미지를 삽입하려면 어떻게 해야 하나요?
 
- A: 인라인 및 플로팅 이미지를 삽입할 수 있습니다.`DocumentBuilder`. 다음은 두 가지 모두의 예입니다.
+A: 인라인 및 플로팅 이미지를 삽입할 수 있습니다. `DocumentBuilder`다음은 두 가지 모두에 대한 예입니다.
 
 #### 인라인 이미지:
 
@@ -279,19 +281,19 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.insertImage("path/to/your/image.png");
 ```
 
-#### 떠있는 이미지:
+#### 떠다니는 이미지:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 떠있는 이미지 삽입
+// 떠 있는 이미지 삽입
 builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN, 100.0, 200.0, 100.0, WrapType.SQUARE);
 ```
 
-### 질문: 콘텐츠를 추가할 때 텍스트와 문단을 서식 지정할 수 있나요?
+### 질문: 콘텐츠를 추가할 때 텍스트와 문단의 서식을 지정할 수 있나요?
 
- A: 예, 다음을 사용하여 텍스트와 문단을 서식 지정할 수 있습니다.`DocumentBuilder`. 글꼴 속성, 문단 정렬, 들여쓰기 등을 설정할 수 있습니다. 다음은 예입니다.
+A: 예, 다음을 사용하여 텍스트와 문단을 서식 지정할 수 있습니다. `DocumentBuilder`글꼴 속성, 단락 정렬, 들여쓰기 등을 설정할 수 있습니다. 예를 들어 다음과 같습니다.
 
 ```java
 Document doc = new Document();
@@ -314,25 +316,30 @@ paragraphFormat.setKeepTogether(true);
 builder.writeln("This is a formatted paragraph.");
 ```
 
-### 질문: 문서 내의 특정 위치로 커서를 이동하려면 어떻게 해야 하나요?
+### 질문: 문서 내에서 커서를 특정 위치로 이동하려면 어떻게 해야 하나요?
 
- A: 다음과 같은 방법을 사용하여 커서 위치를 제어할 수 있습니다.`moveToParagraph`, `moveToCell`그리고 더 많은 것들. 여기에 예가 있습니다:
+A: 다음과 같은 방법을 사용하여 커서 위치를 제어할 수 있습니다. `moveToParagraph`, `moveToCell`등이 있습니다. 예를 들어 다음과 같습니다.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 커서를 특정 문단으로 이동합니다.
+// 커서를 특정 문단으로 이동합니다
 builder.moveToParagraph(2, 0);
 
-// 새로운 커서 위치에 콘텐츠 추가
+// 새 커서 위치에 콘텐츠 추가
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-다음은 Aspose.Words for Java의 DocumentBuilder를 시작하는 데 도움이 되는 몇 가지 일반적인 질문과 답변입니다. 질문이 더 있거나 추가 지원이 필요한 경우 다음을 참조하십시오.[도서관 문서](https://reference.aspose.com/words/java/) 또는 Aspose.Words 커뮤니티와 지원 리소스에서 도움을 구하세요.
+다음은 Aspose.Words for Java의 DocumentBuilder를 시작하는 데 도움이 되는 몇 가지 일반적인 질문과 답변입니다. 더 궁금한 점이 있거나 추가 지원이 필요하면 다음을 참조하세요. [도서관 문서](https://reference.aspose.com/words/java/) 또는 Aspose.Words 커뮤니티와 지원 리소스에서 도움을 구하세요.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

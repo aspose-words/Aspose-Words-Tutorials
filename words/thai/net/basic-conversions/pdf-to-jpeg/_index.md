@@ -1,14 +1,16 @@
 ---
-title: บันทึกไฟล์ PDF เป็น Jpeg
-linktitle: บันทึกไฟล์ PDF เป็น Jpeg
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: แปลงไฟล์ PDF เป็น JPEG ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ทำตามคำแนะนำโดยละเอียดของเราพร้อมตัวอย่างและคำถามที่พบบ่อย เหมาะสำหรับนักพัฒนาและผู้ที่ชื่นชอบ
-weight: 10
-url: /th/net/basic-conversions/pdf-to-jpeg/
+"description": "แปลงไฟล์ PDF เป็น JPEG ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ทำตามคำแนะนำโดยละเอียดของเราพร้อมตัวอย่างและคำถามที่พบบ่อย เหมาะสำหรับนักพัฒนาและผู้ที่ชื่นชอบ"
+"linktitle": "บันทึกไฟล์ PDF เป็น Jpeg"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "บันทึกไฟล์ PDF เป็น Jpeg"
+"url": "/th/net/basic-conversions/pdf-to-jpeg/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # บันทึกไฟล์ PDF เป็น Jpeg
@@ -21,10 +23,10 @@ url: /th/net/basic-conversions/pdf-to-jpeg/
 
 ก่อนที่เราจะลงมือทำอะไรสักอย่าง เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีทุกสิ่งทุกอย่างครบถ้วนแล้ว นี่คือสิ่งที่คุณต้องมี:
 
-1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารีอันทรงพลังนี้แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารีอันทรงพลังนี้แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 2. .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อม .NET บนเครื่องของคุณแล้ว
 3. Visual Studio: เวอร์ชันใดก็ได้ ตราบใดที่คุณใช้งานมันได้คล่อง
-4.  ไฟล์ PDF: เตรียมไฟล์ PDF ของคุณให้พร้อมสำหรับการแปลง สำหรับบทช่วยสอนนี้ เราจะใช้ไฟล์ชื่อ`Pdf Document.pdf`.
+4. ไฟล์ PDF: เตรียมไฟล์ PDF ของคุณให้พร้อมสำหรับการแปลง สำหรับบทช่วยสอนนี้ เราจะใช้ไฟล์ชื่อ `Pdf Document-pdf`.
 
 ## นำเข้าเนมสเปซ
 
@@ -35,14 +37,14 @@ using System;
 using Aspose.Words;
 ```
 
-เอาล่ะ มาเริ่มกันที่ส่วนสนุก ๆ กันเลยดีกว่า! เราจะแบ่งขั้นตอนออกเป็นขั้นตอนที่ทำตามได้ง่าย ๆ
+เอาล่ะ มาเริ่มกันที่ส่วนสนุก ๆ กันเลยดีกว่า เราจะแบ่งขั้นตอนออกเป็นขั้นตอนที่ทำตามได้ง่าย ๆ
 
 ## ขั้นตอนที่ 1: ตั้งค่าโครงการของคุณ
 
 ก่อนที่จะเริ่มเขียนโค้ด คุณต้องตั้งค่าโครงการของคุณก่อน โดยทำดังนี้:
 
 1. เปิด Visual Studio: เริ่มต้นด้วยการเปิด Visual Studio และสร้างโปรเจ็กต์ C# ใหม่
-2.  ติดตั้ง Aspose.Words: ใช้ตัวจัดการแพ็คเกจ NuGet เพื่อติดตั้ง Aspose.Words สำหรับ .NET คุณสามารถค้นหาได้[ที่นี่](https://releases.aspose.com/words/net/).
+2. ติดตั้ง Aspose.Words: ใช้ตัวจัดการแพ็คเกจ NuGet เพื่อติดตั้ง Aspose.Words สำหรับ .NET คุณสามารถค้นหาได้ [ที่นี่](https://releases-aspose.com/words/net/).
 
 ```shell
 Install-Package Aspose.Words
@@ -60,7 +62,7 @@ Install-Package Aspose.Words
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
 
-2.  โหลด PDF: ใช้`Document` คลาสจาก Aspose.Words เพื่อโหลด PDF ของคุณ
+2. โหลด PDF: ใช้ `Document` คลาสจาก Aspose.Words เพื่อโหลด PDF ของคุณ
 
     ```csharp
     Document doc = new Document(dataDir + "Pdf Document.pdf");
@@ -70,7 +72,7 @@ Install-Package Aspose.Words
 
 เมื่อโหลด PDF เสร็จแล้ว ก็ถึงเวลาทำการแปลง ขั้นตอนนี้ง่ายอย่างน่าประหลาดใจ
 
-1.  บันทึกเป็น JPEG: ใช้`Save` วิธีการแปลงไฟล์ PDF เป็นภาพ JPEG
+1. บันทึกเป็น JPEG: ใช้ `Save` วิธีการแปลงไฟล์ PDF เป็นภาพ JPEG
 
     ```csharp
     doc.Save(dataDir + "BaseConversions.PdfToJpeg.jpeg");
@@ -84,7 +86,7 @@ Install-Package Aspose.Words
 
 ## คำถามที่พบบ่อย
 
-### ฉันสามารถแปลงไฟล์ PDF หลายไฟล์พร้อมกันได้ไหม?
+### ฉันสามารถแปลงไฟล์ PDF หลายไฟล์ในครั้งเดียวได้ไหม?
 แน่นอน! คุณสามารถวนซ้ำผ่านไดเร็กทอรีของ PDF และแปลงแต่ละไฟล์เป็น JPEG ได้
 
 ### Aspose.Words รองรับรูปแบบรูปภาพอื่น ๆ หรือไม่?
@@ -94,14 +96,19 @@ Install-Package Aspose.Words
 ใช่แล้ว Aspose.Words รองรับทั้ง .NET Framework และ .NET Core
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Words หรือไม่?
- คุณสามารถรับสิทธิ์ทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/) หรือซื้อใบอนุญาต[ที่นี่](https://purchase.aspose.com/buy).
+คุณสามารถรับการทดลองใช้ฟรีได้ [ที่นี่](https://releases.aspose.com/) หรือซื้อใบอนุญาต [ที่นี่](https://purchase-aspose.com/buy).
 
 ### ฉันสามารถหาบทช่วยสอนเพิ่มเติมเกี่ยวกับ Aspose.Words ได้ที่ไหน
- ตรวจสอบออก[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับบทช่วยสอนและคำแนะนำมากมาย
+ตรวจสอบออก [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับบทช่วยสอนและคำแนะนำมากมาย
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Tabel Bersarang
-linktitle: Tabel Bersarang
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat tabel bersarang dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan kami. Sempurna untuk membuat tata letak dokumen yang rumit secara terprogram.
-weight: 10
-url: /id/net/programming-with-tables/nested-table/
+"description": "Pelajari cara membuat tabel bersarang dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan kami. Sempurna untuk membuat tata letak dokumen yang rumit secara terprogram."
+"linktitle": "Tabel Bersarang"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tabel Bersarang"
+"url": "/id/net/programming-with-tables/nested-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabel Bersarang
@@ -21,7 +23,7 @@ Pernahkah Anda merasa perlu membuat tabel bersarang dalam dokumen Word secara te
 
 Sebelum kita masuk ke kode, ada beberapa hal yang Anda perlukan:
 
--  Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Visual Studio atau IDE C# lainnya.
 - Pengetahuan Dasar C#: Pemahaman tentang sintaksis dan konsep C#.
 
@@ -38,7 +40,7 @@ using Aspose.Words.Tables;
 
 ## Langkah 1: Inisialisasi Dokumen dan DocumentBuilder
 
- Untuk memulai, kita akan membuat dokumen Word baru dan menginisialisasi`DocumentBuilder` objek, yang akan membantu kita membuat tabel.
+Untuk memulai, kita akan membuat dokumen Word baru dan menginisialisasi `DocumentBuilder` objek, yang akan membantu kita membuat tabel.
 
 ```csharp
 // Jalur ke direktori dokumen Anda
@@ -144,10 +146,15 @@ Aspose.Words untuk .NET kompatibel dengan berbagai format dokumen Word, termasuk
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Words untuk .NET?
 
- Anda bisa mendapatkan dukungan dari[Forum Dukungan Aspose.Words](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari [Forum Dukungan Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,34 +1,36 @@
 ---
-title: Vytvořte nový řádek podpisu a nastavte ID poskytovatele
-linktitle: Vytvořte nový řádek podpisu a nastavte ID poskytovatele
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak vytvořit nový řádek podpisu a nastavit ID poskytovatele v dokumentech aplikace Word pomocí Aspose.Words for .NET. Průvodce krok za krokem.
-weight: 10
-url: /cs/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/
+"description": "Naučte se, jak vytvořit nový řádek podpisu a nastavit ID poskytovatele v dokumentech Word pomocí Aspose.Words pro .NET. Podrobný návod."
+"linktitle": "Vytvořit nový řádek podpisu a nastavit ID poskytovatele"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Vytvořit nový řádek podpisu a nastavit ID poskytovatele"
+"url": "/cs/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořte nový řádek podpisu a nastavte ID poskytovatele
+# Vytvořit nový řádek podpisu a nastavit ID poskytovatele
 
 ## Zavedení
 
-Ahoj, tech nadšenci! Přemýšleli jste někdy, jak programově přidat řádek podpisu do dokumentů aplikace Word? No, dnes se ponoříme právě do toho pomocí Aspose.Words pro .NET. Tato příručka vás provede každým krokem, takže vytvoření nového řádku podpisu a nastavení ID poskytovatele ve vašich dokumentech aplikace Word bude snadné. Ať už automatizujete zpracování dokumentů nebo jen chcete zefektivnit svůj pracovní postup, tento tutoriál vám pomůže.
+Ahoj, techničtí nadšenci! Přemýšleli jste někdy, jak programově přidat řádek pro podpis do dokumentů Wordu? Dnes se do toho ponoříme s využitím Aspose.Words pro .NET. Tato příručka vás provede každým krokem a usnadní vám vytvoření nového řádku pro podpis a nastavení ID poskytovatele v dokumentech Wordu. Ať už automatizujete zpracování dokumentů, nebo jen chcete zefektivnit svůj pracovní postup, tento tutoriál vám s tím pomůže.
 
 ## Předpoklady
 
-Než si ušpiníme ruce, ujistěte se, že máme vše, co potřebujeme:
+Než si ušpiníme ruce, ujistěme se, že máme vše potřebné:
 
-1.  Aspose.Words for .NET: Pokud jste to ještě neudělali, stáhněte si ji[zde](https://releases.aspose.com/words/net/).
+1. Aspose.Words pro .NET: Pokud jste tak ještě neučinili, stáhněte si jej [zde](https://releases.aspose.com/words/net/).
 2. Vývojové prostředí: Visual Studio nebo jakékoli jiné vývojové prostředí C#.
-3. .NET Framework: Ujistěte se, že máte nainstalované rozhraní .NET Framework.
-4. Certifikát PFX: K podepisování dokumentů budete potřebovat certifikát PFX. Můžete jej získat od důvěryhodné certifikační autority.
+3. .NET Framework: Ujistěte se, že máte nainstalovaný .NET Framework.
+4. Certifikát PFX: Pro podepisování dokumentů budete potřebovat certifikát PFX. Můžete ho získat od důvěryhodné certifikační autority.
 
 ## Importovat jmenné prostory
 
-Nejprve importujme potřebné jmenné prostory do vašeho projektu C#:
+Nejdříve si importujme potřebné jmenné prostory do vašeho projektu v C#:
 
 ```csharp
 using Aspose.Words;
@@ -37,24 +39,24 @@ using Aspose.Words.Signing;
 using System;
 ```
 
-Dobře, pojďme se pustit do toho natvrdlého. Zde je podrobný rozpis každého kroku pro vytvoření nového řádku podpisu a nastavení ID poskytovatele.
+Dobře, pojďme k věci. Zde je podrobný rozpis jednotlivých kroků pro vytvoření nového řádku podpisu a nastavení ID poskytovatele.
 
 ## Krok 1: Vytvořte nový dokument
 
-Chcete-li začít, musíme vytvořit nový dokument aplikace Word. Toto bude plátno pro naši podpisovou řadu.
+Nejprve si musíme vytvořit nový dokument Wordu. Ten bude sloužit jako plátno pro náš podpisový řádek.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- V tomto úryvku inicializujeme nový`Document` a a`DocumentBuilder` . The`DocumentBuilder` nám pomáhá přidávat prvky do našeho dokumentu.
+V tomto úryvku inicializujeme nový `Document` a `DocumentBuilder`Ten/Ta/To `DocumentBuilder` pomáhá nám přidávat prvky do našeho dokumentu.
 
-## Krok 2: Definujte možnosti podpisové linky
+## Krok 2: Definování možností řádku podpisu
 
-Dále definujeme možnosti pro náš podpisový řádek. To zahrnuje jméno podepsaného, titul, e-mail a další podrobnosti.
+Dále definujeme možnosti pro řádek podpisu. Patří sem jméno podepisujícího, titul, e-mail a další podrobnosti.
 
 ```csharp
 SignatureLineOptions signatureLineOptions = new SignatureLineOptions
@@ -69,32 +71,32 @@ SignatureLineOptions signatureLineOptions = new SignatureLineOptions
 };
 ```
 
-Tyto možnosti přizpůsobují linii podpisu, činí ji jasnou a profesionální.
+Tyto možnosti přizpůsobují podpisový řádek, díky čemuž je jasný a profesionální.
 
 ## Krok 3: Vložte řádek podpisu
 
-S našimi nastavenými možnostmi nyní můžeme vložit řádek podpisu do dokumentu.
+S nastavenými možnostmi nyní můžeme do dokumentu vložit řádek pro podpis.
 
 ```csharp
 SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).SignatureLine;
 signatureLine.ProviderId = Guid.Parse("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2");
 ```
 
- Tady,`InsertSignatureLine` metoda přidá řádek podpisu a my mu přiřadíme jedinečné ID poskytovatele.
+Zde, `InsertSignatureLine` Metoda přidá řádek podpisu a my mu přiřadíme jedinečné ID poskytovatele.
 
 ## Krok 4: Uložte dokument
 
-Po vložení řádku podpisu dokument uložíme.
+Po vložení řádku pro podpis dokument uložme.
 
 ```csharp
 doc.Save(dataDir + "SignDocuments.SignatureLineProviderId.docx");
 ```
 
-Tím se dokument uloží s nově přidaným řádkem podpisu.
+Tím se dokument uloží s nově přidaným řádkem pro podpis.
 
-## Krok 5: Nastavte možnosti podepisování
+## Krok 5: Nastavení možností podepisování
 
-Nyní musíme nastavit možnosti pro podepisování dokumentu. To zahrnuje ID řádku podpisu, ID poskytovatele, komentáře a čas podpisu.
+Nyní musíme nastavit možnosti pro podepisování dokumentu. Patří sem ID řádku podpisu, ID poskytovatele, komentáře a čas podpisu.
 
 ```csharp
 SignOptions signOptions = new SignOptions
@@ -106,21 +108,21 @@ SignOptions signOptions = new SignOptions
 };
 ```
 
-Tyto možnosti zajišťují, že dokument je podepsán se správnými detaily.
+Tyto možnosti zajišťují, že dokument je podepsán se správnými údaji.
 
 ## Krok 6: Vytvořte držitele certifikátu
 
-K podpisu dokumentu použijeme certifikát PFX. Vytvořme pro něj držitele certifikátu.
+K podepsání dokumentu použijeme certifikát PFX. Vytvořme pro něj držitele certifikátu.
 
 ```csharp
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
 ```
 
- Nezapomeňte vyměnit`"morzal.pfx"` s vaším skutečným souborem certifikátu a`"aw"` s heslem k certifikátu.
+Nezapomeňte vyměnit `"morzal.pfx"` s vaším skutečným souborem certifikátu a `"aw"` s heslem k vašemu certifikátu.
 
 ## Krok 7: Podepište dokument
 
-Nakonec dokument podepíšeme pomocí nástroje pro digitální podpis.
+Nakonec dokument podepíšeme pomocí utility pro digitální podpis.
 
 ```csharp
 DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLineProviderId.docx", 
@@ -131,27 +133,32 @@ Tím se dokument podepíše a uloží jako nový soubor.
 
 ## Závěr
 
-A tady to máte! Úspěšně jste vytvořili nový řádek podpisu a nastavili ID poskytovatele v dokumentu aplikace Word pomocí Aspose.Words for .NET. Tato výkonná knihovna neuvěřitelně usnadňuje správu a automatizaci úloh zpracování dokumentů. Vyzkoušejte to a uvidíte, jak to může zefektivnit váš pracovní postup.
+tady to máte! Úspěšně jste vytvořili nový řádek pro podpis a nastavili ID poskytovatele v dokumentu Word pomocí knihovny Aspose.Words pro .NET. Tato výkonná knihovna neuvěřitelně usnadňuje správu a automatizaci úloh zpracování dokumentů. Vyzkoušejte ji a uvidíte, jak vám může zefektivnit pracovní postup.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu přizpůsobit vzhled řádku podpisu?
- Absolutně! Můžete vyladit různé možnosti v`SignatureLineOptions`aby vyhovoval vašim potřebám.
+### Mohu si přizpůsobit vzhled podpisového řádku?
+Rozhodně! Můžete upravit různé možnosti v `SignatureLineOptions` aby vyhovovaly vašim potřebám.
 
 ### Co když nemám certifikát PFX?
-Budete jej muset získat od důvěryhodné certifikační autority. Je to nezbytné pro digitální podepisování dokumentů.
+Budete si ho muset pořídit od důvěryhodné certifikační autority. Je nezbytný pro digitální podepisování dokumentů.
 
 ### Mohu do dokumentu přidat více řádků podpisu?
-Ano, můžete přidat tolik řádků podpisu, kolik potřebujete, opakováním procesu vkládání s různými možnostmi.
+Ano, můžete přidat libovolný počet řádků podpisu opakováním procesu vkládání s různými možnostmi.
 
-### Je Aspose.Words for .NET kompatibilní s .NET Core?
-Ano, Aspose.Words for .NET podporuje .NET Core, takže je univerzální pro různá vývojová prostředí.
+### Je Aspose.Words pro .NET kompatibilní s .NET Core?
+Ano, Aspose.Words pro .NET podporuje .NET Core, takže je všestranný pro různá vývojová prostředí.
 
 ### Jak bezpečné jsou digitální podpisy?
-Digitální podpisy vytvořené pomocí Aspose.Words jsou vysoce bezpečné za předpokladu, že používáte platný a důvěryhodný certifikát.
+Digitální podpisy vytvořené pomocí Aspose.Words jsou vysoce bezpečné, pokud používáte platný a důvěryhodný certifikát.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

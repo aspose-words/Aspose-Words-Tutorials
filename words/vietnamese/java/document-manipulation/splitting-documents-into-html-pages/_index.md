@@ -1,14 +1,16 @@
 ---
-title: Chia tài liệu thành các trang HTML trong Aspose.Words cho Java
-linktitle: Chia tài liệu thành các trang HTML
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách chia tài liệu thành các trang HTML bằng Aspose.Words for Java. Làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi tài liệu liền mạch.
-weight: 25
-url: /vi/java/document-manipulation/splitting-documents-into-html-pages/
+"description": "Tìm hiểu cách chia tài liệu thành các trang HTML bằng Aspose.Words for Java. Làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi tài liệu liền mạch."
+"linktitle": "Chia tài liệu thành các trang HTML"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Chia tài liệu thành các trang HTML trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/splitting-documents-into-html-pages/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chia tài liệu thành các trang HTML trong Aspose.Words cho Java
@@ -23,7 +25,7 @@ Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách chia t
 Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
 - Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
--  Aspose.Words cho thư viện Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/java/).
+- Aspose.Words cho thư viện Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
 
 ## Bước 1: Nhập các gói cần thiết
 
@@ -145,11 +147,11 @@ Trong hướng dẫn toàn diện này, chúng tôi đã đề cập đến quy 
 
 ### Làm thế nào để cài đặt Aspose.Words cho Java?
 
- Để cài đặt Aspose.Words cho Java, bạn có thể tải xuống thư viện từ[đây](https://releases.aspose.com/words/java/) và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu.
+Để cài đặt Aspose.Words cho Java, bạn có thể tải xuống thư viện từ [đây](https://releases.aspose.com/words/java/) và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu.
 
 ### Tôi có thể tùy chỉnh đầu ra HTML không?
 
- Có, bạn có thể tùy chỉnh đầu ra HTML bằng cách điều chỉnh các tùy chọn lưu trong`HtmlSaveOptions` lớp. Điều này cho phép bạn kiểm soát định dạng và giao diện của các tệp HTML được tạo.
+Có, bạn có thể tùy chỉnh đầu ra HTML bằng cách điều chỉnh các tùy chọn lưu trong `HtmlSaveOptions` lớp. Điều này cho phép bạn kiểm soát định dạng và giao diện của các tệp HTML được tạo.
 
 ### Aspose.Words for Java hỗ trợ những phiên bản Microsoft Word nào?
 
@@ -162,9 +164,14 @@ Aspose.Words for Java có thể xử lý hình ảnh trong HTML đã chuyển đ
 ### Có phiên bản dùng thử của Aspose.Words cho Java không?
 
 Có, bạn có thể yêu cầu dùng thử miễn phí Aspose.Words for Java từ trang web Aspose để đánh giá các tính năng và khả năng của phần mềm này trước khi mua giấy phép.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

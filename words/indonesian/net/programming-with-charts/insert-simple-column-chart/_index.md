@@ -1,14 +1,16 @@
 ---
-title: Masukkan Bagan Kolom Sederhana Dalam Dokumen Word
-linktitle: Masukkan Bagan Kolom Sederhana Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyisipkan bagan kolom sederhana di Word menggunakan Aspose.Words untuk .NET. Sempurnakan dokumen Anda dengan presentasi data visual yang dinamis.
-weight: 10
-url: /id/net/programming-with-charts/insert-simple-column-chart/
+"description": "Pelajari cara menyisipkan bagan kolom sederhana di Word menggunakan Aspose.Words untuk .NET. Sempurnakan dokumen Anda dengan presentasi data visual yang dinamis."
+"linktitle": "Masukkan Bagan Kolom Sederhana Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Masukkan Bagan Kolom Sederhana Dalam Dokumen Word"
+"url": "/id/net/programming-with-charts/insert-simple-column-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Masukkan Bagan Kolom Sederhana Dalam Dokumen Word
@@ -100,10 +102,15 @@ Ya, Anda dapat mengekspor dokumen yang berisi bagan ke berbagai format termasuk 
 Ya, Aspose.Words untuk .NET memungkinkan Anda mengisi bagan secara dinamis dengan data dari sumber eksternal seperti basis data atau API.
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Words untuk .NET?
- Kunjungi[Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/) untuk referensi dan contoh API yang terperinci. Untuk dukungan, Anda juga dapat mengunjungi[Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+Kunjungi [Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/) untuk referensi dan contoh API yang terperinci. Untuk dukungan, Anda juga dapat mengunjungi [Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

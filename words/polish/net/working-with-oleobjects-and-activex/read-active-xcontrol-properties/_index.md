@@ -1,27 +1,29 @@
 ---
-title: Odczyt właściwości Active XControl z pliku Word
-linktitle: Odczyt właściwości Active XControl z pliku Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak czytać właściwości kontrolek ActiveX z plików Word za pomocą Aspose.Words dla .NET w przewodniku krok po kroku. Udoskonal swoje umiejętności automatyzacji dokumentów.
-weight: 10
-url: /pl/net/working-with-oleobjects-and-activex/read-active-xcontrol-properties/
+"description": "Dowiedz się, jak czytać właściwości kontrolki ActiveX z plików Word za pomocą Aspose.Words dla .NET w przewodniku krok po kroku. Udoskonal swoje umiejętności automatyzacji dokumentów."
+"linktitle": "Odczyt właściwości Active XControl z pliku Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Odczyt właściwości Active XControl z pliku Word"
+"url": "/pl/net/working-with-oleobjects-and-activex/read-active-xcontrol-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Odczyt właściwości Active XControl z pliku Word
 
 ## Wstęp
 
-W dzisiejszej erze cyfrowej automatyzacja jest kluczem do zwiększenia produktywności. Jeśli pracujesz z dokumentami Word, które zawierają kontrolki ActiveX, możesz potrzebować odczytać ich właściwości w różnych celach. Kontrolki ActiveX, takie jak pola wyboru i przyciski, mogą przechowywać ważne dane. Używając Aspose.Words dla .NET, możesz wydajnie wyodrębniać i manipulować tymi danymi programowo.
+dzisiejszej erze cyfrowej automatyzacja jest kluczem do zwiększenia produktywności. Jeśli pracujesz z dokumentami Word, które zawierają kontrolki ActiveX, możesz potrzebować odczytać ich właściwości w różnych celach. Kontrolki ActiveX, takie jak pola wyboru i przyciski, mogą przechowywać ważne dane. Używając Aspose.Words dla .NET, możesz wydajnie wyodrębniać i manipulować tymi danymi programowo.
 
 ## Wymagania wstępne
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
-1.  Biblioteka Aspose.Words dla .NET: Można ją pobrać ze strony[Tutaj](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Można ją pobrać ze strony [Tutaj](https://releases.aspose.com/words/net/).
 2. Visual Studio lub dowolne środowisko IDE języka C#: do pisania i wykonywania kodu.
 3. Dokument programu Word zawierający kontrolki ActiveX, na przykład „Kontrolki ActiveX.docx”.
 4. Podstawowa znajomość języka C#: Znajomość programowania w języku C# jest konieczna, aby móc uczestniczyć w zajęciach.
@@ -117,19 +119,24 @@ masz to! Udało Ci się nauczyć, jak odczytywać właściwości kontrolki Activ
 Kontrolki ActiveX to interaktywne obiekty osadzone w dokumentach programu Word, takie jak pola wyboru, przyciski i pola tekstowe, służące do tworzenia formularzy i automatyzowania zadań.
 
 ### Czy mogę modyfikować właściwości kontrolek ActiveX za pomocą Aspose.Words dla .NET?
-Tak, Aspose.Words dla .NET pozwala programowo modyfikować właściwości kontrolek ActiveX.
+Tak, Aspose.Words dla .NET umożliwia programową modyfikację właściwości kontrolek ActiveX.
 
 ### Czy korzystanie z Aspose.Words dla .NET jest bezpłatne?
- Aspose.Words for .NET oferuje bezpłatną wersję próbną, ale musisz kupić licencję, aby móc dalej korzystać z programu. Możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Aspose.Words for .NET oferuje bezpłatną wersję próbną, ale musisz kupić licencję, aby móc dalej korzystać z programu. Możesz otrzymać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Czy mogę używać Aspose.Words dla .NET z innymi językami .NET poza C#?
 Tak, Aspose.Words dla .NET można używać z dowolnym językiem .NET, w tym VB.NET i F#.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words dla .NET?
- Szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/words/net/).
+Szczegółową dokumentację można znaleźć [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

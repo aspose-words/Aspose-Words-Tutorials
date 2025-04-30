@@ -1,14 +1,16 @@
 ---
-title: Regex ile Değiştir
-linktitle: Regex ile Değiştir
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET ile Word belgelerinde bul ve değiştir için regex'i nasıl kullanacağınızı öğrenin. Metin düzenlemede ustalaşmak için ayrıntılı, adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/find-and-replace-text/replace-with-regex/
+"description": "Aspose.Words for .NET ile Word belgelerinde bul ve değiştir için regex'in nasıl kullanılacağını öğrenin. Metin düzenlemede ustalaşmak için ayrıntılı, adım adım kılavuzumuzu izleyin."
+"linktitle": "Regex ile Değiştir"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Regex ile Değiştir"
+"url": "/tr/net/find-and-replace-text/replace-with-regex/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Regex ile Değiştir
@@ -20,7 +22,7 @@ Merhaba! Hiç Word belgesinde metni değiştirmeniz gerektiğini fark ettiniz mi
 ## Ön koşullar
 
 Başlamadan önce ihtiyacımız olan her şeye sahip olduğumuzdan emin olalım:
-1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: C# kodlarınızı yazıp çalıştırabileceğiniz Visual Studio benzeri bir IDE.
 3. C# ve Regex'in Temel Bilgileri: C#'a aşinalık ve düzenli ifadeler hakkında temel bir anlayışa sahip olmak faydalı olacaktır.
 
@@ -44,11 +46,11 @@ Belgelerinizin dizinine giden yolu tanımlayarak başlayalım. Word belgeleriniz
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` dizininize giden gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` dizininize giden gerçek yol ile.
 
 ## Adım 2: Yeni Bir Belge Oluşturun
 
- Daha sonra yeni bir belge oluşturacağız ve`DocumentBuilder` bazı başlangıç metinleri eklemek için.
+Daha sonra yeni bir belge oluşturacağız ve `DocumentBuilder` bazı başlangıç metinleri eklemek için.
 
 ```csharp
 Document doc = new Document();
@@ -61,7 +63,7 @@ Burada, yeni bir belge oluşturuyoruz ve ona "üzgün, çılgın, kötü" metnin
 
 ## Adım 3: Bul ve Değiştir Seçeneklerini Tanımlayın
 
- Regex değiştirme işlemini gerçekleştirmek için bazı seçenekleri ayarlamamız gerekiyor.`FindReplaceOptions`sınıfı, bul ve değiştir işleminin nasıl davranması gerektiğini belirtmemize olanak tanır.
+Regex değiştirme işlemini gerçekleştirmek için bazı seçenekleri ayarlamamız gerekiyor. `FindReplaceOptions` sınıfı, bul ve değiştir işleminin nasıl davranması gerektiğini belirtmemize olanak tanır.
 
 ```csharp
 FindReplaceOptions options = new FindReplaceOptions();
@@ -71,13 +73,13 @@ FindReplaceOptions options = new FindReplaceOptions();
 
 ## Adım 4: Regex Değiştirmeyi Gerçekleştirin
 
- Şimdi eğlenceli kısma geliyoruz! Kullanacağız`Range.Replace` "üzgün" veya "kızgın" kelimelerinin tümünü düzenli bir ifade kullanarak "kötü" ile değiştirme yöntemi.
+Şimdi eğlenceli kısma geliyoruz! Şunu kullanacağız: `Range.Replace` "üzgün" veya "kızgın" kelimelerinin tümünü düzenli bir ifade kullanarak "kötü" ile değiştirme yöntemi.
 
 ```csharp
 doc.Range.Replace(new Regex("[s|m]ad"), "bad", options);
 ```
 
- Regex deseni`[s|m]ad` "s" veya "m" ile başlayan "ad" ile biten herhangi bir kelimeyle eşleşir. "bad" değiştirme dizesi bulunan tüm eşleşmeleri değiştirecektir.
+Regex deseni `[s|m]ad` "s" veya "m" ile başlayan "ad" ile biten herhangi bir kelimeyle eşleşir. "bad" değiştirme dizesi bulunan tüm eşleşmeleri değiştirecektir.
 
 ## Adım 5: Değiştirilen Belgeyi Kaydedin
 
@@ -87,7 +89,7 @@ Son olarak değiştirdiğimiz belgeyi belirttiğimiz dizine kaydedeceğiz.
 doc.Save(dataDir + "FindAndReplace.ReplaceWithRegex.docx");
 ```
 
- Bu satır belgeyi dosya adıyla kaydeder`FindAndReplace.ReplaceWithRegex.docx` belirtilen dizinde`dataDir`.
+Bu satır belgeyi dosya adıyla kaydeder `FindAndReplace.ReplaceWithRegex.docx` belirtilen dizinde `dataDir`.
 
 ## Çözüm
 
@@ -109,9 +111,14 @@ Aspose.Words doğrudan bir önizleme özelliği sağlamasa da, değişiklik yapm
 
 ### Aspose.Words for .NET'i web uygulamalarında kullanabilir miyim?  
 Evet, Aspose.Words for .NET çok yönlüdür ve web, masaüstü ve bulut tabanlı uygulamalar dahil olmak üzere çeşitli uygulama türlerinde kullanılabilir.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

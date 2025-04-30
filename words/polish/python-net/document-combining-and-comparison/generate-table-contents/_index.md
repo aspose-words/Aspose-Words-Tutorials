@@ -1,14 +1,16 @@
 ---
-title: Tworzenie kompleksowego spisu treści dla dokumentów Word
-linktitle: Tworzenie kompleksowego spisu treści dla dokumentów Word
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Stwórz czytelny spis treści za pomocą Aspose.Words dla Pythona. Naucz się bezproblemowo generować, dostosowywać i aktualizować strukturę dokumentu.
-weight: 15
-url: /pl/python-net/document-combining-and-comparison/generate-table-contents/
+"description": "Stwórz czytelny spis treści za pomocą Aspose.Words dla Pythona. Naucz się bezproblemowo generować, dostosowywać i aktualizować strukturę dokumentu."
+"linktitle": "Tworzenie kompleksowego spisu treści dla dokumentów Word"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Tworzenie kompleksowego spisu treści dla dokumentów Word"
+"url": "/pl/python-net/document-combining-and-comparison/generate-table-contents/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tworzenie kompleksowego spisu treści dla dokumentów Word
@@ -20,28 +22,28 @@ Spis treści zapewnia migawkę struktury dokumentu, umożliwiając czytelnikom �
 
 ## Konfigurowanie środowiska
 
- Zanim zaczniemy, upewnij się, że masz zainstalowany Aspose.Words dla Pythona. Możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/words/python/). Upewnij się również, że masz przykładowy dokument Word, który chcesz uzupełnić o spis treści.
+Zanim zaczniemy, upewnij się, że masz zainstalowany Aspose.Words dla Pythona. Możesz go pobrać ze strony [Tutaj](https://releases.aspose.com/words/python/). Upewnij się również, że masz przykładowy dokument Word, który chcesz uzupełnić o spis treści.
 
 ## Ładowanie dokumentu
 
 ```python
 import aspose.words as aw
 
-# Load the document
+# Załaduj dokument
 doc = aw.Document("your_document.docx")
 ```
 
 ## Definiowanie nagłówków i podnagłówków
 
-Aby wygenerować spis treści, musisz zdefiniować nagłówki i podnagłówki w dokumencie. Użyj odpowiednich stylów akapitów, aby oznaczyć te sekcje. Na przykład użyj „Nagłówek 1” dla nagłówków głównych i „Nagłówek 2” dla podnagłówków.
+Aby wygenerować spis treści, musisz zdefiniować nagłówki i podnagłówki w dokumencie. Użyj odpowiednich stylów akapitów, aby oznaczyć te sekcje. Na przykład użyj „Nagłówka 1” dla nagłówków głównych i „Nagłówka 2” dla podnagłówków.
 
 ```python
-# Define headings and subheadings
+# Zdefiniuj nagłówki i podnagłówki
 for para in doc.get_child_nodes(aw.NodeType.PARAGRAPH, True):
     if para.paragraph_format.style_name == "Heading 1":
-        # Add main heading
+        # Dodaj nagłówek główny
     elif para.paragraph_format.style_name == "Heading 2":
-        # Add subheading
+        # Dodaj podtytuł
 ```
 
 ## Dostosowywanie spisu treści
@@ -49,7 +51,7 @@ for para in doc.get_child_nodes(aw.NodeType.PARAGRAPH, True):
 Możesz dostosować wygląd spisu treści, dostosowując czcionki, style i formatowanie. Upewnij się, że używasz spójnego formatowania w całym dokumencie, aby uzyskać dopracowany wygląd.
 
 ```python
-# Customize the appearance of the table of contents
+# Dostosuj wygląd spisu treści
 for para in toc_body.get_child_nodes(aw.NodeType.PARAGRAPH, False):
     para.paragraph_format.style_name = "TOC Entries"
 ```
@@ -60,7 +62,7 @@ for para in toc_body.get_child_nodes(aw.NodeType.PARAGRAPH, False):
 Stylizowanie spisu treści polega na zdefiniowaniu odpowiednich stylów akapitów dla tytułu, wpisów i innych elementów.
 
 ```python
-# Define styles for the table of contents
+# Zdefiniuj style dla spisu treści
 toc_title.style.name = "Table of Contents Title"
 doc.styles.add_style("Table of Contents Title", aw.StyleType.PARAGRAPH)
 ```
@@ -70,14 +72,14 @@ doc.styles.add_style("Table of Contents Title", aw.StyleType.PARAGRAPH)
 Aby zaoszczędzić czas i zapewnić spójność, warto utworzyć skrypt, który automatycznie wygeneruje i zaktualizuje spis treści dokumentów.
 
 ```python
-# Automation script
+# Skrypt automatyzacji
 def generate_table_of_contents(document_path):
-    # Load the document
+    # Załaduj dokument
     doc = aw.Document(document_path)
 
-    # ... (Rest of the code)
+    # ... (Reszta kodu)
 
-    # Update the table of contents
+    # Zaktualizuj spis treści
     doc.update_fields()
     doc.save(document_path)
 ```
@@ -94,7 +96,7 @@ Aby zdefiniować pod-podnagłówki, użyj odpowiednich stylów akapitu w dokumen
 
 ### Czy mogę zmienić rozmiar czcionki wpisów w spisie treści?
 
-Oczywiście! Dostosuj styl „Wpisy spisu treści”, dostosowując rozmiar czcionki i inne atrybuty formatowania, aby pasowały do estetyki dokumentu.
+Oczywiście! Dostosuj styl „TOC Entries”, dostosowując rozmiar czcionki i inne atrybuty formatowania, aby pasowały do estetyki dokumentu.
 
 ### Czy można wygenerować spis treści dla istniejących dokumentów?
 
@@ -103,9 +105,14 @@ Tak, możesz wygenerować spis treści dla istniejących dokumentów. Po prostu 
 ### Jak usunąć spis treści z dokumentu?
 
 Jeśli zdecydujesz się usunąć spis treści, po prostu usuń sekcję zawierającą spis treści. Nie zapomnij zaktualizować pozostałych numerów stron, aby odzwierciedlić zmiany.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Thiết lập định dạng phông chữ
-linktitle: Thiết lập định dạng phông chữ
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thiết lập định dạng phông chữ trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước chi tiết của chúng tôi để nâng cao khả năng tự động hóa tài liệu của bạn.
-weight: 10
-url: /vi/net/working-with-fonts/set-font-formatting/
+"description": "Tìm hiểu cách thiết lập định dạng phông chữ trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước chi tiết của chúng tôi để nâng cao khả năng tự động hóa tài liệu của bạn."
+"linktitle": "Thiết lập định dạng phông chữ"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thiết lập định dạng phông chữ"
+"url": "/vi/net/working-with-fonts/set-font-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập định dạng phông chữ
@@ -21,7 +23,7 @@ Bạn đã sẵn sàng để đắm mình vào thế giới thao tác tài liệ
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn có mọi thứ mình cần:
 
--  Aspose.Words cho thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Bạn nên thiết lập một môi trường phát triển, chẳng hạn như Visual Studio.
 - Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ có lợi.
 
@@ -39,7 +41,7 @@ Bây giờ, chúng ta hãy chia nhỏ quy trình thành các bước đơn giả
 
 ## Bước 1: Khởi tạo Document và DocumentBuilder
 
- Đầu tiên, bạn cần tạo một tài liệu mới và khởi tạo`DocumentBuilder` lớp sẽ giúp bạn xây dựng và định dạng tài liệu của mình.
+Đầu tiên, bạn cần tạo một tài liệu mới và khởi tạo `DocumentBuilder` lớp sẽ giúp bạn xây dựng và định dạng tài liệu của mình.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu của bạn
@@ -101,16 +103,21 @@ Aspose.Words for .NET là một thư viện mạnh mẽ để tạo, chỉnh s�
 Có, bạn có thể sử dụng Aspose.Words cho .NET với bất kỳ ngôn ngữ .NET nào, bao gồm VB.NET và F#.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?
- Có, Aspose.Words cho .NET yêu cầu giấy phép để sử dụng sản xuất. Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy) hoặc có được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license) cho mục đích đánh giá.
+Có, Aspose.Words cho .NET yêu cầu giấy phép để sử dụng sản xuất. Bạn có thể mua giấy phép [đây](https://purchase.aspose.com/buy) hoặc có được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license) cho mục đích đánh giá.
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Words dành cho .NET?
-Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose và nhóm hỗ trợ[đây](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose và nhóm hỗ trợ [đây](https://forum.aspose.com/c/words/8).
 
 ### Tôi có thể định dạng các phần cụ thể của văn bản theo cách khác không?
- Có, bạn có thể áp dụng định dạng khác nhau cho các phần cụ thể của văn bản bằng cách điều chỉnh`Font` tính chất của`DocumentBuilder` khi cần thiết.
+Có, bạn có thể áp dụng định dạng khác nhau cho các phần cụ thể của văn bản bằng cách điều chỉnh `Font` tính chất của `DocumentBuilder` khi cần thiết.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,30 +1,32 @@
 ---
-title: Yazı Tiplerinin Bildirimlerini Alın
-linktitle: Yazı Tiplerinin Bildirimlerini Alın
-second_title: Aspose.Words Belge İşleme API'si
-description: Ayrıntılı kılavuzumuzla Aspose.Words for .NET'te font değiştirme bildirimlerini nasıl alacağınızı öğrenin. Belgelerinizin her seferinde doğru şekilde işlenmesini sağlayın.
-weight: 10
-url: /tr/net/working-with-fonts/receive-notifications-of-fonts/
+"description": "Ayrıntılı kılavuzumuzla Aspose.Words for .NET'te font değiştirme bildirimlerini nasıl alacağınızı öğrenin. Belgelerinizin her seferinde doğru şekilde işlenmesini sağlayın."
+"linktitle": "Yazı Tiplerinin Bildirimlerini Alın"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yazı Tiplerinin Bildirimlerini Alın"
+"url": "/tr/net/working-with-fonts/receive-notifications-of-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yazı Tiplerinin Bildirimlerini Alın
 
 ## giriiş
 
-Belgelerinizde fontların düzgün bir şekilde işlenmemesiyle ilgili sorunlarla karşılaştıysanız, yalnız değilsiniz. Font ayarlarını yönetmek ve font değiştirmeleri hakkında bildirimler almak size birçok baş ağrısını önleyebilir. Bu kapsamlı kılavuzda, Aspose.Words for .NET kullanarak font bildirimlerini nasıl yöneteceğinizi keşfedeceğiz ve belgelerinizin her zaman en iyi şekilde görünmesini sağlayacağız.
+Belgelerinizde fontların düzgün bir şekilde görüntülenmemesiyle ilgili sorunlarla karşılaştıysanız, yalnız değilsiniz. Font ayarlarını yönetmek ve font değiştirmeleri hakkında bildirimler almak size birçok baş ağrısını önleyebilir. Bu kapsamlı kılavuzda, Aspose.Words for .NET kullanarak font bildirimlerini nasıl yöneteceğinizi keşfedeceğiz ve belgelerinizin her zaman en iyi şekilde görünmesini sağlayacağız.
 
 ## Ön koşullar
 
 Detaylara girmeden önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 - Temel C# Bilgisi: C# programlamaya aşina olmanız, takip etmenize yardımcı olacaktır.
--  Aspose.Words for .NET Kütüphanesi: Buradan indirin ve kurun[resmi indirme bağlantısı](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET Kütüphanesi: Buradan indirin ve kurun [resmi indirme bağlantısı](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Kodunuzu yazıp çalıştırabileceğiniz Visual Studio benzeri bir kurulum.
--  Örnek Belge: Örnek bir belgeniz olsun (örneğin,`Rendering.docx`) yazı tipi ayarlarını test etmeye hazır.
+- Örnek Belge: Örnek bir belgeniz olsun (örneğin, `Rendering.docx`) yazı tipi ayarlarını test etmeye hazır.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Adım 2: Belgeyi Yükleyin
 
- Belgenizi bir Aspose.Words'e yükleyin`Document` nesne. Bu, belgeyi programlı olarak düzenlemenize olanak tanır.
+Belgenizi bir Aspose.Words'e yükleyin `Document` nesne. Bu, belgeyi programlı olarak düzenlemenize olanak tanır.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -67,7 +69,7 @@ fontSettings.SetFontsFolder(string.Empty, false);
 
 ## Adım 4: Uyarı Geri Aramasını Ayarlayın
 
- Yazı tipi değiştirme uyarılarını yakalamak ve işlemek için, şunu uygulayan bir sınıf oluşturun:`IWarningCallback` arayüz. Bu sınıf, belge işleme sırasında oluşan tüm uyarıları günlüğe kaydeder.
+Yazı tipi değiştirme uyarılarını yakalamak ve işlemek için, şunu uygulayan bir sınıf oluşturun: `IWarningCallback` arayüz. Bu sınıf, belge işleme sırasında oluşan tüm uyarıları günlüğe kaydeder.
 
 ```csharp
 public class HandleDocumentWarnings : IWarningCallback
@@ -95,7 +97,7 @@ doc.FontSettings = fontSettings;
 
 ## Adım 6: Belgeyi Kaydedin
 
-Son olarak, font ayarlarını uyguladıktan ve font değişikliklerini yaptıktan sonra belgeyi kaydedin. İstediğiniz formatta kaydedin; burada, PDF olarak kaydedeceğiz.
+Son olarak, font ayarlarını uyguladıktan ve font değişikliklerini yaptıktan sonra belgeyi kaydedin. İstediğiniz bir biçimde kaydedin; burada, PDF olarak kaydedeceğiz.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithFonts.ReceiveNotificationsOfFonts.pdf");
@@ -115,22 +117,27 @@ Hayır, ikame için yalnızca bir varsayılan yazı tipi belirtebilirsiniz. Anca
 
 ### S2: Aspose.Words for .NET'in ücretsiz deneme sürümünü nereden edinebilirim?
 
- Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Aspose ücretsiz deneme sayfası](https://releases.aspose.com/).
+Ücretsiz deneme sürümünü şuradan indirebilirsiniz: [Aspose ücretsiz deneme sayfası](https://releases.aspose.com/).
 
-###  S3: Diğer uyarı türlerini de işleyebilir miyim?`IWarningCallback`?
+### S3: Diğer uyarı türlerini de işleyebilir miyim? `IWarningCallback`?
 
- Evet,`IWarningCallback`arayüz sadece yazı tipi değiştirmeyi değil, çeşitli uyarı tiplerini de işleyebilir.
+Evet, `IWarningCallback` arayüz sadece yazı tipi değiştirmeyi değil, çeşitli uyarı tiplerini de işleyebilir.
 
 ### S4: Aspose.Words için desteği nereden bulabilirim?
 
- Ziyaret edin[Aspose.Words destek forumu](https://forum.aspose.com/c/words/8) yardım için.
+Ziyaret edin [Aspose.Words destek forumu](https://forum.aspose.com/c/words/8) yardım için.
 
 ### S5: Aspose.Words için geçici lisans almak mümkün mü?
 
- Evet, geçici bir lisans alabilirsiniz.[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+Evet, geçici bir lisans alabilirsiniz. [geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

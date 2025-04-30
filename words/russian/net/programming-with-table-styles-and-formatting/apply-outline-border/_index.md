@@ -1,14 +1,16 @@
 ---
-title: Применить границу контура
-linktitle: Применить границу контура
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как применить границу контура к таблице в Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству для идеального форматирования таблиц.
-weight: 10
-url: /ru/net/programming-with-table-styles-and-formatting/apply-outline-border/
+"description": "Узнайте, как применить границу контура к таблице в Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству для идеального форматирования таблиц."
+"linktitle": "Применить границу контура"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Применить границу контура"
+"url": "/ru/net/programming-with-table-styles-and-formatting/apply-outline-border/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Применить границу контура
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-table-styles-and-formatting/apply-outline-border/
 
 Прежде чем мы перейдем к коду, вам понадобится несколько вещей:
 
-1.  Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Вы можете скачать его[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Вы можете скачать его [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: подходящая среда разработки, например Visual Studio.
 3. Базовые знания C#: Фундаментальное понимание C# поможет вам усвоить материал урока.
 
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- На этом этапе мы используем`Document` класс из Aspose.Words для загрузки существующего документа. Заменить`"YOUR DOCUMENT DIRECTORY"` с фактическим путем хранения вашего документа.
+На этом этапе мы используем `Document` класс из Aspose.Words для загрузки существующего документа. Заменить `"YOUR DOCUMENT DIRECTORY"` с фактическим путем хранения вашего документа.
 
 ## Шаг 2: Доступ к таблице
 
@@ -59,7 +61,7 @@ Document doc = new Document(dataDir + "Tables.docx");
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 ```
 
- Здесь,`GetChild` Метод извлекает первую таблицу в документе. Параметры`NodeType.Table, 0, true` убедиться, что мы получаем правильный тип узла.
+Здесь, `GetChild` Метод извлекает первую таблицу в документе. Параметры `NodeType.Table, 0, true` убедиться, что мы получаем правильный тип узла.
 
 ## Шаг 3: Выровняйте стол
 
@@ -92,7 +94,7 @@ table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 ```
 
- Каждый тип границы (левая, правая, верхняя, нижняя) устанавливается индивидуально. Мы используем`LineStyle.Single` для сплошной линии,`1.5` для ширины линии и`Color.Green` для цвета границы.
+Каждый тип границы (левая, правая, верхняя, нижняя) устанавливается индивидуально. Мы используем `LineStyle.Single` для сплошной линии, `1.5` для ширины линии и `Color.Green` для цвета границы.
 
 ## Шаг 6: Примените затенение ячеек
 
@@ -102,7 +104,7 @@ table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 ```
 
- Здесь,`SetShading` используется для заливки ячеек сплошным светло-зеленым цветом, что делает таблицу более заметной.
+Здесь, `SetShading` используется для заливки ячеек сплошным светло-зеленым цветом, что делает таблицу более заметной.
 
 ## Шаг 7: Сохраните документ.
 
@@ -123,22 +125,27 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx"
 ## Часто задаваемые вопросы
 
 ### Можно ли применить разные стили к каждой границе таблицы?  
- Да, вы можете применить разные стили и цвета к каждой границе, настроив параметры в`SetBorder` метод.
+Да, вы можете применить разные стили и цвета к каждой границе, настроив параметры в `SetBorder` метод.
 
 ### Как изменить ширину границы?  
- Вы можете изменить ширину, изменив третий параметр в`SetBorder` метод. Например,`1.5` устанавливает ширину 1,5 пункта.
+Вы можете изменить ширину, изменив третий параметр в `SetBorder` метод. Например, `1.5` устанавливает ширину 1,5 пункта.
 
 ### Можно ли применить затенение к отдельным ячейкам?  
- Да, вы можете применить затенение к отдельным ячейкам, открыв каждую ячейку и используя`SetShading` метод.
+Да, вы можете применить затенение к отдельным ячейкам, открыв каждую ячейку и используя `SetShading` метод.
 
 ### Могу ли я использовать другие цвета для границ и штриховки?  
- Конечно! Вы можете использовать любой цвет, доступный в`System.Drawing.Color` сорт.
+Конечно! Вы можете использовать любой цвет, доступный в `System.Drawing.Color` сорт.
 
 ### Как выровнять таблицу по центру по горизонтали?  
- The`table.Alignment = TableAlignment.Center;` строка в коде выравнивает таблицу по горизонтали на странице.
+The `table.Alignment = TableAlignment.Center;` строка в коде выравнивает таблицу по горизонтали на странице.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

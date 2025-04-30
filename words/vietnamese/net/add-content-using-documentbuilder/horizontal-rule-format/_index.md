@@ -1,14 +1,16 @@
 ---
-title: Định dạng quy tắc ngang trong tài liệu Word
-linktitle: Định dạng quy tắc ngang trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn các quy tắc ngang tùy chỉnh vào tài liệu Word bằng Aspose.Words cho .NET. Nâng cao khả năng tự động hóa tài liệu của bạn.
-weight: 10
-url: /vi/net/add-content-using-documentbuilder/horizontal-rule-format/
+"description": "Tìm hiểu cách chèn các quy tắc ngang tùy chỉnh vào tài liệu Word bằng Aspose.Words cho .NET. Nâng cao khả năng tự động hóa tài liệu của bạn."
+"linktitle": "Định dạng quy tắc ngang trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Định dạng quy tắc ngang trong tài liệu Word"
+"url": "/vi/net/add-content-using-documentbuilder/horizontal-rule-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Định dạng quy tắc ngang trong tài liệu Word
@@ -22,9 +24,9 @@ Trong lĩnh vực phát triển .NET, việc thao tác và định dạng tài l
 Trước khi bắt đầu triển khai các quy tắc ngang bằng Aspose.Words cho .NET, hãy đảm bảo bạn có đủ các điều kiện tiên quyết sau:
 
 - Visual Studio: Cài đặt Visual Studio IDE để phát triển .NET.
-- Aspose.Words cho .NET: Tải xuống và cài đặt Aspose.Words cho .NET từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Tải xuống và cài đặt Aspose.Words cho .NET từ [đây](https://releases.aspose.com/words/net/).
 - Kiến thức cơ bản về C#: Có kiến thức cơ bản về ngôn ngữ lập trình C#.
--  Lớp DocumentBuilder: Hiểu biết về`DocumentBuilder` lớp trong Aspose.Words để thao tác tài liệu.
+- Lớp DocumentBuilder: Hiểu biết về `DocumentBuilder` lớp trong Aspose.Words để thao tác tài liệu.
 
 ## Nhập không gian tên
 
@@ -41,7 +43,7 @@ Chúng ta hãy chia nhỏ quy trình thêm đường kẻ ngang vào tài liệu
 
 ## Bước 1: Khởi tạo DocumentBuilder và thiết lập thư mục
 
- Đầu tiên, khởi tạo một`DocumentBuilder` đối tượng và thiết lập đường dẫn thư mục nơi tài liệu sẽ được lưu.
+Đầu tiên, khởi tạo một `DocumentBuilder` đối tượng và thiết lập đường dẫn thư mục nơi tài liệu sẽ được lưu.
 
 ```csharp
 string dataDir = "YOUR_DOCUMENT_DIRECTORY_PATH";
@@ -50,7 +52,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 ## Bước 2: Chèn Thước Ngang
 
- Sử dụng`InsertHorizontalRule()` phương pháp của`DocumentBuilder` lớp để thêm một quy tắc ngang.
+Sử dụng `InsertHorizontalRule()` phương pháp của `DocumentBuilder` lớp để thêm một quy tắc ngang.
 
 ```csharp
 Shape shape = builder.InsertHorizontalRule();
@@ -58,7 +60,7 @@ Shape shape = builder.InsertHorizontalRule();
 
 ## Bước 3: Tùy chỉnh Định dạng Quy tắc Ngang
 
- Truy cập vào`HorizontalRuleFormat` thuộc tính của hình dạng được chèn để tùy chỉnh giao diện của quy tắc ngang.
+Truy cập vào `HorizontalRuleFormat` thuộc tính của hình dạng được chèn để tùy chỉnh giao diện của quy tắc ngang.
 
 ```csharp
 HorizontalRuleFormat horizontalRuleFormat = shape.HorizontalRuleFormat;
@@ -77,7 +79,7 @@ horizontalRuleFormat.NoShade = true;
 
 ## Bước 4: Lưu tài liệu
 
- Cuối cùng, lưu tài liệu đã sửa đổi bằng cách sử dụng`Save` phương pháp của`Document` sự vật.
+Cuối cùng, lưu tài liệu đã sửa đổi bằng cách sử dụng `Save` phương pháp của `Document` sự vật.
 
 ```csharp
 builder.Document.Save(dataDir + "AddContentUsingDocumentBuilder.HorizontalRuleFormat.docx");
@@ -93,7 +95,7 @@ Làm chủ việc chèn các quy tắc ngang trong tài liệu Word bằng Aspos
 Aspose.Words for .NET là một thư viện mạnh mẽ để làm việc với các tài liệu Word theo cách lập trình trong các ứng dụng .NET.
 
 ### Làm thế nào tôi có thể tải xuống Aspose.Words cho .NET?
- Bạn có thể tải xuống Aspose.Words cho .NET từ[đây](https://releases.aspose.com/words/net/).
+Bạn có thể tải xuống Aspose.Words cho .NET từ [đây](https://releases.aspose.com/words/net/).
 
 ### Tôi có thể tùy chỉnh giao diện của các quy tắc ngang trong Aspose.Words không?
 Có, bạn có thể tùy chỉnh nhiều khía cạnh khác nhau như căn chỉnh, chiều rộng, chiều cao, màu sắc và đổ bóng của các quy tắc ngang bằng Aspose.Words.
@@ -102,11 +104,16 @@ Có, bạn có thể tùy chỉnh nhiều khía cạnh khác nhau như căn ch�
 Có, Aspose.Words được sử dụng rộng rãi trong môi trường doanh nghiệp vì khả năng xử lý tài liệu mạnh mẽ.
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Words dành cho .NET ở đâu?
- Để được hỗ trợ và tham gia cộng đồng, hãy truy cập[Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8).
+Để được hỗ trợ và tham gia cộng đồng, hãy truy cập [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

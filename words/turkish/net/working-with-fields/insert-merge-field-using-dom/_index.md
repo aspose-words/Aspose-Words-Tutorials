@@ -1,14 +1,16 @@
 ---
-title: DOM Kullanarak Birleştirme Alanı Ekleme
-linktitle: DOM Kullanarak Birleştirme Alanı Ekleme
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kapsamlı, adım adım eğitimle Aspose.Words for .NET'i kullanarak Word belgelerine birleştirme alanlarının nasıl ekleneceğini ve yapılandırılacağını öğrenin.
-weight: 10
-url: /tr/net/working-with-fields/insert-merge-field-using-dom/
+"description": "Bu kapsamlı, adım adım eğitimle Aspose.Words for .NET'i kullanarak Word belgelerine birleştirme alanlarının nasıl ekleneceğini ve yapılandırılacağını öğrenin."
+"linktitle": "DOM Kullanarak Birleştirme Alanı Ekleme"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "DOM Kullanarak Birleştirme Alanı Ekleme"
+"url": "/tr/net/working-with-fields/insert-merge-field-using-dom/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # DOM Kullanarak Birleştirme Alanı Ekleme
@@ -23,8 +25,8 @@ Koda dalmadan önce, bu eğitimi takip etmek için ihtiyacınız olan her şeye 
 
 1. Temel C# Bilgisi: C# programlamayı rahatça anlayabiliyor olmalısınız.
 2. Visual Studio Kurulu: Bilgisayarınızda Visual Studio veya başka bir C# IDE'nin kurulu olduğundan emin olun.
-3.  Aspose.Words for .NET: Aspose.Words for .NET'in en son sürümünü indirin ve yükleyin.[Sürümler](https://releases.aspose.com/words/net/).
-4.  Geçerli Lisans: Lisansınız yoksa, bir tane alabilirsiniz.[geçici lisans](https://purchase.aspose.com/temporary-license/) Değerlendirme için.
+3. Aspose.Words for .NET: Aspose.Words for .NET'in en son sürümünü indirin ve yükleyin. [Sürümler](https://releases.aspose.com/words/net/).
+4. Geçerli Lisans: Lisansınız yoksa, bir tane alabilirsiniz. [geçici lisans](https://purchase.aspose.com/temporary-license/) Değerlendirme için.
 
 ## Adım 1: Projenizi Kurun
 
@@ -76,7 +78,7 @@ builder.MoveTo(para);
 
 ## Adım 6: Birleştirme Alanını Ekle
 
- Bir birleştirme alanı eklemek basittir. Şunu kullanacağız:`InsertField` yöntemi`DocumentBuilder` sınıf.
+Bir birleştirme alanı eklemek basittir. Şunu kullanacağız: `InsertField` yöntemi `DocumentBuilder` sınıf.
 
 ```csharp
 // Alan birleştirme alanı ekle.
@@ -117,19 +119,24 @@ Bu adımları izleyerek, Aspose.Words for .NET kullanarak bir Word belgesine bir
 Birleştirme alanı, bir veritabanı veya CSV dosyası gibi bir veri kaynağındaki verilerle dinamik olarak değiştirilebilen bir belgedeki yer tutucudur.
 
 ###  Aspose.Words'ü ücretsiz kullanabilir miyim?
- Aspose.Words, indirebileceğiniz ücretsiz bir deneme sürümü sunuyor[Burada](https://releases.aspose.com/)Uzun süreli kullanım için lisans satın almanız gerekecektir.
+Aspose.Words, indirebileceğiniz ücretsiz bir deneme sürümü sunuyor [Burada](https://releases.aspose.com/)Uzun süreli kullanım için lisans satın almanız gerekecektir.
 
 ###  Aspose.Words için geçici lisansı nasıl alabilirim?
- Aspose web sitesinden geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Aspose web sitesinden geçici lisans alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words hangi .NET sürümlerini destekliyor?
 Aspose.Words, .NET Framework, .NET Core ve .NET Standard dahil olmak üzere .NET'in birden fazla sürümünü destekler.
 
 ###  Aspose.Words için API dokümantasyonunu nerede bulabilirim?
- API dokümantasyonu mevcuttur[Burada](https://reference.aspose.com/words/net/).
+API dokümantasyonu mevcuttur [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

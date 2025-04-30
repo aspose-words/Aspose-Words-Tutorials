@@ -1,14 +1,16 @@
 ---
-title: Thêm giá trị ngày giờ vào trục của biểu đồ
-linktitle: Thêm giá trị ngày giờ vào trục của biểu đồ
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thêm giá trị ngày và giờ vào trục biểu đồ bằng Aspose.Words cho .NET trong hướng dẫn từng bước toàn diện này.
-weight: 10
-url: /vi/net/programming-with-charts/date-time-values-to-axis/
+"description": "Tìm hiểu cách thêm giá trị ngày và giờ vào trục biểu đồ bằng Aspose.Words cho .NET trong hướng dẫn từng bước toàn diện này."
+"linktitle": "Thêm giá trị ngày giờ vào trục của biểu đồ"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thêm giá trị ngày giờ vào trục của biểu đồ"
+"url": "/vi/net/programming-with-charts/date-time-values-to-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm giá trị ngày giờ vào trục của biểu đồ
@@ -22,9 +24,9 @@ Tạo biểu đồ trong tài liệu có thể là một cách mạnh mẽ để
 Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
 1. Visual Studio hoặc bất kỳ IDE .NET nào: Bạn cần một môi trường phát triển để viết và chạy mã .NET của mình.
-2.  Aspose.Words cho .NET: Bạn nên cài đặt thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+2. Aspose.Words cho .NET: Bạn nên cài đặt thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 3. Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về lập trình C#.
-4.  Giấy phép Aspose hợp lệ: Bạn có thể xin giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+4. Giấy phép Aspose hợp lệ: Bạn có thể xin giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập không gian tên
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Tạo một Tài liệu mới và DocumentBuilder
 
- Tiếp theo, tạo một phiên bản mới của`Document` lớp và một`DocumentBuilder` đối tượng. Các đối tượng này sẽ giúp bạn xây dựng và thao tác tài liệu của mình.
+Tiếp theo, tạo một phiên bản mới của `Document` lớp và một `DocumentBuilder` đối tượng. Các đối tượng này sẽ giúp bạn xây dựng và thao tác tài liệu của mình.
 
 ```csharp
 Document doc = new Document();
@@ -56,7 +58,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Bước 3: Chèn biểu đồ vào tài liệu
 
- Bây giờ, chèn biểu đồ vào tài liệu của bạn bằng cách sử dụng`DocumentBuilder` đối tượng. Trong ví dụ này, chúng tôi sử dụng biểu đồ cột, nhưng bạn cũng có thể chọn các loại khác.
+Bây giờ, chèn biểu đồ vào tài liệu của bạn bằng cách sử dụng `DocumentBuilder` đối tượng. Trong ví dụ này, chúng tôi sử dụng biểu đồ cột, nhưng bạn cũng có thể chọn các loại khác.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
@@ -65,7 +67,7 @@ Chart chart = shape.Chart;
 
 ## Bước 4: Xóa chuỗi hiện có
 
-Xóa bất kỳ chuỗi hiện có nào trong biểu đồ để đảm bảo bạn đang bắt đầu với một trang trống. Bước này rất cần thiết cho dữ liệu tùy chỉnh.
+Xóa bất kỳ chuỗi nào hiện có trong biểu đồ để đảm bảo bạn bắt đầu với một trang trống. Bước này rất cần thiết cho dữ liệu tùy chỉnh.
 
 ```csharp
 chart.Series.Clear();
@@ -123,7 +125,7 @@ Bạn có thể tùy chỉnh giao diện bằng cách truy cập vào các thu�
 
 ### Có thể thêm nhiều chuỗi vào biểu đồ không?
 
- Chắc chắn rồi! Bạn có thể thêm nhiều chuỗi vào biểu đồ của mình bằng cách gọi`Series.Add` phương pháp nhiều lần với dữ liệu khác nhau.
+Chắc chắn rồi! Bạn có thể thêm nhiều chuỗi vào biểu đồ của mình bằng cách gọi `Series.Add` phương pháp nhiều lần với dữ liệu khác nhau.
 
 ### Tôi phải làm sao nếu cần cập nhật dữ liệu biểu đồ một cách linh hoạt?
 
@@ -131,10 +133,15 @@ Bạn có thể cập nhật dữ liệu biểu đồ một cách linh hoạt b�
 
 ### Tôi có thể tìm tài liệu chi tiết hơn về Aspose.Words cho .NET ở đâu?
 
- Bạn có thể tìm thấy tài liệu chi tiết hơn[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu chi tiết hơn [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

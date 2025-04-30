@@ -1,14 +1,16 @@
 ---
-title: รับช่วงหน้า TIFF
-linktitle: รับช่วงหน้า TIFF
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการแปลงช่วงหน้าเฉพาะจากเอกสาร Word เป็นไฟล์ TIFF โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้
-weight: 10
-url: /th/net/programming-with-imagesaveoptions/get-tiff-page-range/
+"description": "เรียนรู้วิธีการแปลงช่วงหน้าเฉพาะจากเอกสาร Word เป็นไฟล์ TIFF โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้"
+"linktitle": "รับช่วงหน้า TIFF"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "รับช่วงหน้า TIFF"
+"url": "/th/net/programming-with-imagesaveoptions/get-tiff-page-range/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับช่วงหน้า TIFF
@@ -19,9 +21,9 @@ url: /th/net/programming-with-imagesaveoptions/get-tiff-page-range/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเจาะลึกรายละเอียดที่สำคัญ เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่จำเป็นในการปฏิบัติตาม:
+ก่อนที่เราจะเจาะลึกรายละเอียดที่สำคัญ เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่จำเป็นสำหรับการปฏิบัติตาม:
 
-1.  Aspose.Words สำหรับไลบรารี .NET: หากคุณยังไม่ได้ดาวน์โหลดและติดตั้งเวอร์ชันล่าสุดจาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับไลบรารี .NET: หากคุณยังไม่ได้ดาวน์โหลดและติดตั้งเวอร์ชันล่าสุดจาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: IDE เช่น Visual Studio ก็สามารถทำงานนี้ได้
 3. ความรู้พื้นฐานเกี่ยวกับ C#: บทช่วยสอนนี้ถือว่าคุณคุ้นเคยกับการเขียนโปรแกรม C# แล้ว
 4. ตัวอย่างเอกสาร Word: เตรียมเอกสาร Word ไว้เพื่อทดลองใช้
@@ -66,7 +68,7 @@ doc.Save(dataDir + "WorkingWithImageSaveOptions.MultipageTiff.tiff");
 
 ## ขั้นตอนที่ 4: ตั้งค่าตัวเลือกการบันทึกภาพ
 
-ตอนนี้เวทมนตร์ที่แท้จริงเกิดขึ้นแล้ว! เราต้องตั้งค่า`ImageSaveOptions` เพื่อระบุช่วงหน้าและคุณสมบัติอื่น ๆ สำหรับการแปลง TIFF
+ตอนนี้เวทมนตร์ที่แท้จริงเกิดขึ้นแล้ว! เราต้องตั้งค่า `ImageSaveOptions` เพื่อระบุช่วงหน้าและคุณสมบัติอื่น ๆ สำหรับการแปลง TIFF
 
 ```csharp
 // สร้าง ImageSaveOptions ด้วยการตั้งค่าเฉพาะ
@@ -80,7 +82,7 @@ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Tiff)
 
 ## ขั้นตอนที่ 5: บันทึกช่วงหน้าที่ระบุเป็น TIFF
 
- สุดท้ายนี้ ให้บันทึกช่วงหน้าที่ระบุของเอกสารเป็นไฟล์ TIFF โดยใช้`saveOptions` เราได้กำหนดค่าไว้
+สุดท้ายนี้ ให้บันทึกช่วงหน้าที่ระบุของเอกสารเป็นไฟล์ TIFF โดยใช้ `saveOptions` เราได้กำหนดค่าไว้
 
 ```csharp
 // บันทึกช่วงหน้าที่ระบุเป็น TIFF
@@ -95,15 +97,15 @@ doc.Save(dataDir + "WorkingWithImageSaveOptions.GetTiffPageRange.tiff", saveOpti
 
 ### ฉันสามารถแปลงช่วงหน้าหลายช่วงเป็นไฟล์ TIFF แยกกันได้หรือไม่
 
- แน่นอน! คุณสามารถสร้างได้หลาย`ImageSaveOptions`วัตถุที่มีความแตกต่างกัน`PageSet` การกำหนดค่าเพื่อแปลงช่วงหน้าต่าง ๆ ให้เป็นไฟล์ TIFF แยกกัน
+แน่นอน! คุณสามารถสร้างได้หลาย `ImageSaveOptions` วัตถุที่มีความแตกต่างกัน `PageSet` การกำหนดค่าเพื่อแปลงช่วงหน้าต่าง ๆ ให้เป็นไฟล์ TIFF แยกกัน
 
 ### ฉันจะเปลี่ยนความละเอียดของไฟล์ TIFF ได้อย่างไร
 
- เพียงแค่ปรับ`Resolution` ทรัพย์สินใน`ImageSaveOptions` คัดค้านต่อคุณค่าที่คุณต้องการ
+เพียงแค่ปรับ `Resolution` ทรัพย์สินใน `ImageSaveOptions` คัดค้านต่อคุณค่าที่คุณต้องการ
 
-### สามารถใช้การบีบอัดไฟล์ TIFF ในรูปแบบอื่นได้หรือไม่
+### สามารถใช้รูปแบบการบีบอัดที่แตกต่างกันสำหรับไฟล์ TIFF ได้หรือไม่
 
- ใช่ Aspose.Words สำหรับ .NET รองรับวิธีการบีบอัด TIFF ต่างๆ คุณสามารถตั้งค่าได้`TiffCompression` ทรัพย์สินที่มีค่าอื่น ๆ เช่น`Lzw` หรือ`Rle` ตามความต้องการของคุณ
+ใช่ Aspose.Words สำหรับ .NET รองรับวิธีการบีบอัด TIFF ต่างๆ คุณสามารถตั้งค่าได้ `TiffCompression` ทรัพย์สินที่มีค่าอื่น ๆ เช่น `Lzw` หรือ `Rle` ตามความต้องการของคุณ
 
 ### ฉันสามารถใส่คำอธิบายประกอบหรือลายน้ำในไฟล์ TIFF ได้หรือไม่
 
@@ -111,10 +113,15 @@ doc.Save(dataDir + "WorkingWithImageSaveOptions.GetTiffPageRange.tiff", saveOpti
 
 ### รูปแบบภาพอื่น ๆ อะไรบ้างที่ได้รับการรองรับโดย Aspose.Words สำหรับ .NET?
 
- Aspose.Words สำหรับ .NET รองรับรูปแบบภาพหลากหลาย เช่น PNG, JPEG, BMP และ GIF คุณสามารถระบุรูปแบบที่ต้องการได้ใน`ImageSaveOptions`.
+Aspose.Words สำหรับ .NET รองรับรูปแบบภาพหลากหลาย เช่น PNG, JPEG, BMP และ GIF คุณสามารถระบุรูปแบบที่ต้องการได้ใน `ImageSaveOptions`-
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

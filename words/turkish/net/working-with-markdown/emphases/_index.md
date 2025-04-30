@@ -1,14 +1,16 @@
 ---
-title: Vurgular
-linktitle: Vurgular
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Markdown'da vurgulu metin oluşturmayı öğrenin. Bu kılavuz, adım adım talimatlarla kalın, italik ve birleşik stilleri kapsar.
-weight: 10
-url: /tr/net/working-with-markdown/emphases/
+"description": "Aspose.Words for .NET kullanarak Markdown'da vurgulu metin oluşturmayı öğrenin. Bu kılavuz, kalın, italik ve birleşik stilleri adım adım talimatlarla ele alır."
+"linktitle": "Vurgular"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Vurgular"
+"url": "/tr/net/working-with-markdown/emphases/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vurgular
@@ -21,7 +23,7 @@ Markdown, düz metin belgelerine biçimlendirme öğeleri eklemek için kullanab
 
 Koda geçmeden önce, başlamak için ihtiyacımız olan her şeye sahip olduğumuzdan emin olalım:
 
-1.  Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET'in en son sürümünün yüklü olduğundan emin olun.[buradan indirin](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET'in en son sürümünün yüklü olduğundan emin olun. [buradan indirin](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi uygun bir .NET geliştirme ortamı.
 3. Temel C# Bilgisi: C# programlamanın temellerini anlamak faydalı olacaktır.
 4. Markdown Temelleri: Markdown sözdizimine aşinalık, bağlamı daha iyi anlamanıza yardımcı olacaktır.
@@ -37,7 +39,7 @@ using Aspose.Words.Saving;
 
 ## Adım 1: Belge ve DocumentBuilder'ı Kurma
 
-İlk önce, yeni bir Word belgesi oluşturmamız ve bir`DocumentBuilder` içerik eklemeye başlamak için.
+İlk önce, yeni bir Word belgesi oluşturmamız ve bir `DocumentBuilder` içerik eklemeye başlamak için.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -45,7 +47,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- The`dataDir` değişken, Markdown dosyanızı kaydedeceğiniz dizin için bir yer tutucudur. "YOUR DOCUMENT DIRECTORY" ifadesini gerçek yol ile değiştirdiğinizden emin olun.
+The `dataDir` değişken, Markdown dosyanızı kaydedeceğiniz dizin için bir yer tutucudur. "YOUR DOCUMENT DIRECTORY" ifadesini gerçek yol ile değiştirdiğinizden emin olun.
 
 ## Adım 2: Normal Metin Yazımı
 
@@ -56,11 +58,11 @@ builder.Writeln("Markdown treats asterisks (*) and underscores (_) as indicators
 builder.Write("You can write ");
 ```
 
- Burada,`Writeln` metnin ardından yeni bir satır eklerken,`Write` aynı çizgide devam ediyor.
+Burada, `Writeln` metnin ardından yeni bir satır eklerken, `Write` aynı çizgide devam ediyor.
 
 ## Adım 3: Kalın Metin Ekleme
 
- Markdown'da kalın metin eklemek için, istediğiniz metni çift yıldız işareti (``) içine alın. .NET için Aspose.Words'de bunu,`Bold` mülkiyeti`Font` itiraz etmek`true`.
+Markdown'da kalın metin eklemek için, istediğiniz metni çift yıldız işareti (``) içine alın. .NET için Aspose.Words'de bunu, `Bold` mülkiyeti `Font` itiraz etmek `true`.
 
 ```csharp
 builder.Font.Bold = true;
@@ -73,7 +75,7 @@ Bu kod parçacığı "bold" metnini kalın yapar ve ardından "or" kelimesi içi
 
 ## Adım 4: İtalik Metin Ekleme
 
-Markdown'daki italik metin tek yıldız işaretiyle sarılır (`*` ). Benzer şekilde, şunu ayarlayın:`Italic` mülkiyeti`Font` itiraz etmek`true`.
+Markdown'daki italik metin tek yıldız işaretiyle sarılır (`*`). Benzer şekilde, şunu ayarlayın: `Italic` mülkiyeti `Font` itiraz etmek `true`.
 
 ```csharp
 builder.Font.Italic = true;
@@ -86,7 +88,7 @@ Bu, "italik" yazısını italik stilinde, ardından da normal metin olarak göst
 
 ## Adım 5: Kalın ve İtalik Metni Birleştirme
 
-Metni üçlü yıldız işaretiyle sararak kalın ve italik stilleri birleştirebilirsiniz (`*` ). Her ikisini de ayarlayın`Bold` Ve`Italic` özellikleri`true`.
+Metni üçlü yıldız işaretiyle sararak kalın ve italik stilleri birleştirebilirsiniz (`*`). Her ikisini de ayarlayın `Bold` Ve `Italic` özellikleri `true`.
 
 ```csharp
 builder.Write("You can also write ");
@@ -102,13 +104,13 @@ Bu kod parçası "BoldItalic" yazı tipine hem kalın hem de italik stillerinin 
 
 ## Adım 6: Belgeyi Markdown Olarak Kaydetme
 
-Tüm vurgulanan metni ekledikten sonra, belgeyi Markdown dosyası olarak kaydetmenin zamanı geldi.
+Tüm vurgulanan metni ekledikten sonra, belgeyi Markdown dosyası olarak kaydetme zamanı geldi.
 
 ```csharp
 builder.Document.Save(dataDir + "WorkingWithMarkdown.Emphases.md");
 ```
 
-Bu satır, belgeyi "WorkingWithMarkdown.Emphases.md" dosya adıyla belirtilen dizine kaydeder.
+Bu satır, belgeyi belirtilen dizine "WorkingWithMarkdown.Emphases.md" dosya adıyla kaydeder.
 
 ## Çözüm
 
@@ -120,19 +122,24 @@ Bu satır, belgeyi "WorkingWithMarkdown.Emphases.md" dosya adıyla belirtilen di
 Evet, başlıklar, listeler ve kod blokları gibi diğer stilleri kullanabilirsiniz. Aspose.Words for .NET, çok çeşitli Markdown biçimlendirme seçeneklerini destekler.
 
 ### Aspose.Words for .NET'i nasıl kurabilirim?
- Kütüphaneyi şu adresten indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/words/net/)ve verilen kurulum talimatlarını izleyin.
+Kütüphaneyi şu adresten indirebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/words/net/) ve verilen kurulum talimatlarını izleyin.
 
 ### Aspose.Words for .NET için ücretsiz deneme sürümü mevcut mu?
- Evet, indirebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) Aspose.Words for .NET'in özelliklerini test etmek için.
+Evet, indirebilirsiniz [ücretsiz deneme](https://releases.aspose.com/) Aspose.Words for .NET'in özelliklerini test etmek için.
 
 ### Sorun yaşarsam destek alabilir miyim?
- Kesinlikle! Ziyaret edebilirsiniz[Aspose.Words destek forumu](https://forum.aspose.com/c/words/8) Topluluktan ve Aspose ekibinden yardım almak için.
+Kesinlikle! Ziyaret edebilirsiniz [Aspose.Words destek forumu](https://forum.aspose.com/c/words/8) Topluluktan ve Aspose ekibinden yardım almak için.
 
 ### Aspose.Words for .NET için geçici lisansı nasıl alabilirim?
- Bir tane edinebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) Kütüphanenin tüm imkânlarını değerlendirmek.
+Bir tane edinebilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) Kütüphanenin tüm imkânlarını değerlendirmek.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Wstaw dokument podczas zastępowania
-linktitle: Wstaw dokument podczas zastępowania
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak bezproblemowo wstawiać jeden dokument Word do drugiego za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów, którzy chcą usprawnić przetwarzanie dokumentów.
-weight: 10
-url: /pl/net/clone-and-combine-documents/insert-document-at-replace/
+"description": "Dowiedz się, jak bezproblemowo wstawiać jeden dokument Word do drugiego za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów, którzy chcą usprawnić przetwarzanie dokumentów."
+"linktitle": "Wstaw dokument podczas zastępowania"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw dokument podczas zastępowania"
+"url": "/pl/net/clone-and-combine-documents/insert-document-at-replace/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw dokument podczas zastępowania
@@ -21,8 +23,8 @@ Hej, mistrzowie dokumentów! Czy zdarzyło ci się kiedyś utknąć po kolana w 
 
 Zanim przejdziemy do kodu, jest kilka rzeczy, które musisz mieć na miejscu:
 
--  Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. Jeśli jeszcze go nie masz, możesz go pobrać z[Tutaj](https://visualstudio.microsoft.com/).
--  Aspose.Words dla .NET: Będziesz potrzebować biblioteki Aspose.Words. Możesz ją pobrać z[Strona internetowa Aspose](https://releases.aspose.com/words/net/).
+- Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. Jeśli jeszcze go nie masz, możesz go pobrać z [Tutaj](https://visualstudio.microsoft.com/).
+- Aspose.Words dla .NET: Będziesz potrzebować biblioteki Aspose.Words. Możesz ją pobrać z [Strona internetowa Aspose](https://releases.aspose.com/words/net/).
 - Podstawowa wiedza o języku C#: Podstawowa znajomość języka C# i .NET ułatwi Ci korzystanie z tego samouczka.
 
 Dobra, skoro to już za nami, zajmijmy się kodowaniem!
@@ -49,7 +51,7 @@ Najpierw musimy określić katalog, w którym przechowywane są nasze dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` ze ścieżką do Twojego katalogu. To tutaj Twoje dokumenty będą żyć i oddychać.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` ze ścieżką do Twojego katalogu. To tutaj Twoje dokumenty będą żyć i oddychać.
 
 ## Krok 2: Załaduj dokument główny
 
@@ -77,7 +79,7 @@ Tutaj ustawiamy kierunek na wsteczny i określamy niestandardową funkcję obsł
 
 ## Krok 4: Wykonaj operację zamiany
 
-Teraz polecamy naszemu dokumentowi głównemu wyszukanie konkretnego tekstu zastępczego i zastąpienie go niczym, a jednocześnie użycie naszego niestandardowego wywołania zwrotnego w celu wstawienia innego dokumentu.
+Teraz polecamy naszemu dokumentowi głównemu wyszukanie określonego tekstu zastępczego i zastąpienie go niczym, a jednocześnie użycie naszego niestandardowego wywołania zwrotnego w celu wstawienia innego dokumentu.
 
 ```csharp
 mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
@@ -168,16 +170,21 @@ Aspose.Words for .NET to potężna biblioteka do programowego manipulowania doku
 Tak, można zmodyfikować procedurę obsługi wywołań zwrotnych, aby obsługiwała wielokrotne wstawianie, poprzez iterowanie po kolekcji dokumentów.
 
 ### Czy jest dostępna bezpłatna wersja próbna?
- Oczywiście! Możesz pobrać bezpłatną wersję próbną z[Tutaj](https://releases.aspose.com/).
+Oczywiście! Możesz pobrać bezpłatną wersję próbną z [Tutaj](https://releases.aspose.com/).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Words?
- Możesz uzyskać pomoc odwiedzając stronę[Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+Możesz uzyskać pomoc odwiedzając stronę [Forum Aspose.Words](https://forum.aspose.com/c/words/8).
 
 ### Czy mogę zachować formatowanie wstawionego dokumentu?
- Tak,`NodeImporter` Klasa ta umożliwia określenie sposobu obsługi formatowania podczas importowania węzłów z jednego dokumentu do drugiego.
+Tak, `NodeImporter` Klasa ta umożliwia określenie sposobu obsługi formatowania podczas importowania węzłów z jednego dokumentu do drugiego.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

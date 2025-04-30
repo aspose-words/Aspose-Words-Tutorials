@@ -1,14 +1,16 @@
 ---
-title: Освоение расширенных настроек сохранения документов
-linktitle: Освоение расширенных настроек сохранения документов
-second_title: API обработки документов Java Aspose.Words
-description: Освойте расширенные настройки сохранения документов с помощью Aspose.Words для Java. Научитесь форматировать, защищать, оптимизировать и автоматизировать создание документов без усилий.
-weight: 13
-url: /ru/java/word-processing/mastering-advanced-save-settings/
+"description": "Освойте расширенные настройки сохранения документов с помощью Aspose.Words для Java. Научитесь форматировать, защищать, оптимизировать и автоматизировать создание документов без усилий."
+"linktitle": "Освоение расширенных настроек сохранения документов"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Освоение расширенных настроек сохранения документов"
+"url": "/ru/java/word-processing/mastering-advanced-save-settings/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Освоение расширенных настроек сохранения документов
@@ -34,7 +36,7 @@ Aspose.Words for Java — это мощная библиотека, котора
 Document doc = new Document();
 doc.save("output.docx");
 
-//Установить альбомную ориентацию страницы
+// Установить альбомную ориентацию страницы
 Document docLandscape = new Document();
 PageSetup pageSetup = docLandscape.getFirstSection().getPageSetup();
 pageSetup.setOrientation(Orientation.LANDSCAPE);
@@ -123,7 +125,7 @@ doc.save("optimized_document.docx");
 
 ## Экспорт в разные форматы
 
-Иногда вам нужен документ в разных форматах. Aspose.Words для Java упрощает экспорт в такие форматы, как PDF, HTML и другие.
+Иногда вам нужен документ в разных форматах. Aspose.Words для Java позволяет легко экспортировать его в такие форматы, как PDF, HTML и другие.
 
 ```java
 // Экспорт в PDF
@@ -191,7 +193,7 @@ doc1.compare(doc2, "comparison_result.docx");
 
 ### Как установить размер страницы А4?
 
- Чтобы установить размер страницы А4, вы можете использовать`PageSetup` класс и укажите размер бумаги следующим образом:
+Чтобы установить размер страницы A4, вы можете использовать `PageSetup` класс и укажите размер бумаги следующим образом:
 
 ```java
 Document doc = new Document();
@@ -210,7 +212,7 @@ doc.protect(ProtectionType.READ_ONLY, "my_password");
 
 ### Как добавить водяной знак в документ?
 
- Чтобы добавить водяной знак, вы можете использовать`Shape` класс и настройте его внешний вид и положение в документе.
+Чтобы добавить водяной знак, вы можете использовать `Shape` класс и настройте его внешний вид и положение в документе.
 
 ```java
 Document doc = new Document();
@@ -256,9 +258,14 @@ doc1.compare(doc2, "comparison_result.docx");
 Освоение расширенных настроек сохранения документов с помощью Aspose.Words for Java открывает целый мир возможностей для обработки документов. Независимо от того, оптимизируете ли вы размер документа, защищаете конфиденциальную информацию или автоматизируете генерацию документов, Aspose.Words for Java позволяет вам легко достигать своих целей.
 
 Теперь, вооружившись этими знаниями, вы можете поднять свои навыки обработки документов на новую высоту. Воспользуйтесь мощью Aspose.Words для Java и создавайте документы, которые соответствуют вашим точным спецификациям.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Yazar Alanını Ekle
-linktitle: Yazar Alanını Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'i kullanarak adım adım kılavuzumuzla Word belgesine yazar alanı eklemeyi öğrenin. Belge oluşturmayı otomatikleştirmek için mükemmeldir.
-weight: 10
-url: /tr/net/working-with-fields/insert-author-field/
+"description": "Aspose.Words for .NET'i kullanarak adım adım kılavuzumuzla Word belgesine yazar alanı eklemeyi öğrenin. Belge oluşturmayı otomatikleştirmek için mükemmeldir."
+"linktitle": "Yazar Alanını Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yazar Alanını Ekle"
+"url": "/tr/net/working-with-fields/insert-author-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yazar Alanını Ekle
@@ -21,7 +23,7 @@ Bu eğitimde, .NET için Aspose.Words kullanarak bir Word belgesine yazar alanı
 
 Eğitime başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
--  Aspose.Words for .NET Kütüphanesi: Şunları yapabilirsiniz:[buradan indirin](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET Kütüphanesi: Şunları yapabilirsiniz: [buradan indirin](https://releases.aspose.com/words/net/).
 - Visual Studio: Kodlarımızı burada yazacağız ve çalıştıracağız.
 - .NET Framework: Bilgisayarınızda yüklü olduğundan emin olun.
 - Temel C# Bilgisi: C# programlamaya aşina olmanız, takip etmenize yardımcı olacaktır.
@@ -66,7 +68,7 @@ Bu adımda yeni bir Word belgesi oluşturup içine bir paragraf ekleyeceğiz.
 
 ### Belgeyi Oluşturun ve Başlatın
 
-1.  Yeni Bir Belge Oluşturun: Yeni bir örnek oluşturarak başlayacağız.`Document` sınıf.
+1. Yeni Bir Belge Oluşturun: Yeni bir belge örneği oluşturarak başlayacağız. `Document` sınıf.
 
 ```csharp
 Document doc = new Document();
@@ -86,7 +88,7 @@ Bu paragraf yazar alanımızı ekleyeceğimiz yer olacak.
 
 ### Yazar Alanını Ekle
 
-1.  Alanı Ekle: Kullan`AppendField` Yazar alanını paragrafa ekleme yöntemi.
+1. Alanı Ekle: Kullan `AppendField` Yazar alanını paragrafa ekleme yöntemi.
 
 ```csharp
 FieldAuthor field = (FieldAuthor)para.AppendField(FieldType.FieldAuthor, false);
@@ -116,7 +118,7 @@ Son adım belgeyi belirttiğiniz dizine kaydetmektir.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
-2.  Belgeyi Kaydedin: Şunu kullanın:`Save` Belgenizi kaydetme yöntemi.
+2. Belgeyi Kaydedin: Şunu kullanın: `Save` Belgenizi kaydetme yöntemi.
 
 ```csharp
 doc.Save(dataDir + "InsertionAuthorField.docx");
@@ -136,22 +138,27 @@ Aspose.Words for .NET, C# ve VB.NET dahil olmak üzere öncelikle .NET dillerini
 
 ### Aspose.Words for .NET'i kullanmak ücretsiz mi?
 
-Aspose.Words ücretsiz deneme sunuyor, ancak tam özellikler ve ticari kullanım için bir lisans satın almanız gerekiyor. Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Aspose.Words ücretsiz deneme sunuyor ancak tam özellikler ve ticari kullanım için bir lisans satın almanız gerekiyor. Geçici bir lisans alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Yazar adını dinamik olarak nasıl güncellerim?
 
- Ayarlayabilirsiniz`AuthorName` Bir özelliği, bir veritabanından veya kullanıcı girdisinden bir değişken veya değer atayarak dinamik olarak değiştirmek.
+Ayarlayabilirsiniz `AuthorName` Bir özelliği, bir veritabanından veya kullanıcı girdisinden bir değişken veya değer atayarak dinamik olarak değiştirmek.
 
 ### Aspose.Words'ü kullanarak başka türde alanlar ekleyebilir miyim?
 
- Evet, Aspose.Words tarih, saat, sayfa numarası ve daha fazlası dahil olmak üzere çeşitli alan türlerini destekler. Kontrol edin[belgeleme](https://reference.aspose.com/words/net/) Ayrıntılar için.
+Evet, Aspose.Words tarih, saat, sayfa numarası ve daha fazlası dahil olmak üzere çeşitli alan türlerini destekler. Kontrol edin [belgeleme](https://reference.aspose.com/words/net/) Ayrıntılar için.
 
 ### Sorun yaşarsam nereden destek alabilirim?
 
- Aspose.Words forumunda destek bulabilirsiniz[Burada](https://forum.aspose.com/c/words/8).
+Aspose.Words forumunda destek bulabilirsiniz [Burada](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

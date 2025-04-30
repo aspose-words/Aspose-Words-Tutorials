@@ -1,20 +1,22 @@
 ---
-title: Velden gebruiken in Aspose.Words voor Java
-linktitle: Velden gebruiken
-second_title: Aspose.Words Java Documentverwerkings-API
-description: Leer Aspose.Words effectief te gebruiken voor Java-velden in deze stapsgewijze tutorial. Maak eenvoudig dynamische Word-documenten.
-weight: 11
-url: /nl/java/using-document-elements/using-fields/
+"description": "Leer hoe u Aspose.Words effectief kunt gebruiken voor Java-velden in deze stapsgewijze tutorial. Maak eenvoudig dynamische Word-documenten."
+"linktitle": "Velden gebruiken"
+"second_title": "Aspose.Words Java Documentverwerking API"
+"title": "Velden gebruiken in Aspose.Words voor Java"
+"url": "/nl/java/using-document-elements/using-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Velden gebruiken in Aspose.Words voor Java
 
 
-In deze stapsgewijze tutorial laten we je zien hoe je velden in Aspose.Words voor Java kunt gebruiken om documenten eenvoudig te manipuleren. Aspose.Words voor Java is een krachtige API waarmee je programmatisch met Word-documenten kunt werken, waardoor je volledige controle hebt over de inhoud en opmaak.
+In deze stapsgewijze tutorial laten we je zien hoe je velden in Aspose.Words voor Java kunt gebruiken om documenten eenvoudig te bewerken. Aspose.Words voor Java is een krachtige API waarmee je programmatisch met Word-documenten kunt werken, waarbij je volledige controle hebt over de inhoud en opmaak.
 
 ## 1. Inleiding
 
@@ -22,11 +24,11 @@ Aspose.Words voor Java is een essentiële tool voor iedereen die met Word-docume
 
 ## 2. Uw omgeving instellen
 
- Voordat u begint, zorg ervoor dat u Aspose.Words voor Java hebt geïnstalleerd. U kunt het downloaden van[hier](https://releases.aspose.com/words/java/)Zorg er ook voor dat u Java en een geïntegreerde ontwikkelomgeving (IDE) zoals Eclipse of IntelliJ IDEA op uw systeem hebt geïnstalleerd.
+Voordat u begint, moet u ervoor zorgen dat Aspose.Words voor Java geïnstalleerd is. U kunt het downloaden van [hier](https://releases.aspose.com/words/java/)Zorg er ook voor dat u Java en een Integrated Development Environment (IDE) zoals Eclipse of IntelliJ IDEA op uw systeem hebt geïnstalleerd.
 
 ## 3. Een Word-document laden
 
-In uw Java-applicatie moet u het Word-document laden waarmee u wilt werken. Hier is een stukje code om u op weg te helpen:
+In je Java-applicatie moet je het Word-document laden waarmee je wilt werken. Hier is een codefragment om je op weg te helpen:
 
 ```java
 string dataDir = "Your Document Directory";
@@ -34,17 +36,17 @@ string outPath = "Your Output Directory";
 Document doc = new Document(dataDir + "Mail merge destinations - Fax.docx");
 ```
 
- Vervangen`"Your Document Directory"` En`"Your Output Directory"` met de juiste paden.
+Vervangen `"Your Document Directory"` En `"Your Output Directory"` met de juiste paden.
 
 ## 4. Mail Merge aanpassen
 
-Aspose.Words voor Java biedt uitstekende ondersteuning voor mail merge-bewerkingen. U kunt het mail merge-proces aanpassen door een mail merge-gebeurtenishandler in te stellen. Dit is hoe u dat doet:
+Aspose.Words voor Java biedt uitstekende ondersteuning voor samenvoegbewerkingen. U kunt het samenvoegproces aanpassen door een samenvoeggebeurtenishandler in te stellen. Zo doet u dat:
 
 ```java
 // Stel een gebeurtenisafhandeling voor samenvoegingen in om het aangepaste werk uit te voeren.
 doc.getMailMerge().setFieldMergingCallback(new HandleMergeField());
 
-// Verwijder spaties aan het begin en einde van samenvoegingsteksten.
+// Verwijder spaties aan het begin en einde van samenvoegingsregels.
 doc.getMailMerge().setTrimWhitespaces(false);
 
 String[] fieldNames = {
@@ -68,7 +70,7 @@ Nadat u uw document heeft aangepast, kunt u het opslaan met de volgende code:
 doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 ```
 
- Vervangen`"Your Output Directory"` met het gewenste uitvoerpad.
+Vervangen `"Your Output Directory"` met het gewenste uitvoerpad.
 
 ## Volledige broncode
 ```java
@@ -77,7 +79,7 @@ string outPath = "Your Output Directory";
 Document doc = new Document(dataDir + "Mail merge destinations - Fax.docx");
 // Stel een gebeurtenisafhandeling voor samenvoegingen in om het aangepaste werk uit te voeren.
 doc.getMailMerge().setFieldMergingCallback(new HandleMergeField());
-// Verwijder spaties aan het begin en einde van samenvoegingsteksten.
+// Verwijder spaties aan het begin en einde van samenvoegingsregels.
 doc.getMailMerge().setTrimWhitespaces(false);
 String[] fieldNames = {
 	"RecipientName", "SenderName", "FaxNumber", "PhoneNumber",
@@ -98,13 +100,13 @@ Broncode van klasse HandleMergeField
         /// <samenvatting>
         /// Deze handler wordt aangeroepen voor elk samenvoegveld in het document,
         /// voor elk record dat in de gegevensbron wordt gevonden.
-        /// </samenvatting>
+        /// </summary>
         public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
         {
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
-            // We hebben besloten dat we alle Booleaanse waarden als selectievakjes in het formulier willen weergeven.
-            if (e.getFieldValue() instanceof /*boolean*/Boolean)
+            // We hebben besloten dat we alle Booleaanse waarden als selectievakjesformuliervelden willen uitvoeren.
+            if (e.getFieldValue() instanceof /*Booleaanse*/Boolean)
             {
                 // Verplaats de "cursor" naar het huidige samenvoegveld.
                 mBuilder.moveToMergeField(e.getFieldName());
@@ -140,9 +142,12 @@ Broncode van klasse HandleMergeField
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        builder.writeln("{{#foreach example}}");
-        builder.writeln("{{Image(126pt;126pt):stempel}}");
-        builder.writeln("{{/foreach example}}");
+        builder.writeln("
+{{#foreach example}}");
+        builder.writeln("
+{{Image(126pt;126pt):stempel}}");
+        builder.writeln("
+{{/foreach example}}");
         doc.getMailMerge().setUseNonMergeFields(true);
         doc.getMailMerge().setTrimWhitespaces(true);
         doc.getMailMerge().setUseWholeParagraphAsRegion(false);
@@ -158,7 +163,7 @@ Broncode van klasse HandleMergeField
     {
         public void fieldMerging(FieldMergingArgs args)
         {
-            // Implementatie is niet vereist.
+            //  Implementatie is niet vereist.
         }
         public void imageFieldMerging(ImageFieldMergingArgs args) throws Exception
         {
@@ -211,7 +216,7 @@ Broncode van klasse HandleMergeField
         DocumentBuilder builder = new DocumentBuilder(doc);
         // Voeg een MERGEFIELD in, genest in een IF-veld.
         // Omdat de IF-veldinstructie onwaar is, wordt het resultaat van het interne MERGEFIELD niet weergegeven,
-        //en het MERGEFIELD ontvangt geen gegevens tijdens een samenvoeging.
+        // en het MERGEFIELD ontvangt geen gegevens tijdens een samenvoeging.
         FieldIf fieldIf = (FieldIf)builder.insertField(" IF 1 = 2 ");
         builder.moveTo(fieldIf.getSeparator());
         builder.insertField(" MERGEFIELD  FullName ");
@@ -221,8 +226,8 @@ Broncode van klasse HandleMergeField
         dataTable.getColumns().add("FullName");
         dataTable.getRows().add("James Bond");
         doc.getMailMerge().execute(dataTable);
-        // Het resultaat zal niet zichtbaar zijn in het document omdat het IF-veld onwaar is,
-        // maar het interne MERGEFIELD ontving wel degelijk gegevens.
+        // Het resultaat zal niet zichtbaar zijn in het document omdat het ALS-veld onwaar is,
+        // maar het innerlijke MERGEFIELD ontving wel degelijk gegevens.
         doc.save("Your Directory Path" + "WorkingWithFields.MailMergeAndConditionalField.docx");
     }
     @Test
@@ -248,14 +253,14 @@ Broncode van klasse HandleMergeField
             // Niets doen.
         }
         /// <samenvatting>
-        /// Dit wordt aangeroepen wanneer de samenvoegfunctie een samenvoegveld Afbeelding:XXX in het document tegenkomt.
+        /// Dit wordt aangeroepen wanneer de mail merge-engine een samenvoegveld Image:XXX in het document tegenkomt.
         /// U hebt de mogelijkheid om een Image-object, een bestandsnaam of een stream te retourneren die de afbeelding bevat.
-        /// </samenvatting>
+        /// </summary>
         public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs e) throws Exception
         {
-            // De veldwaarde is een byte-array. U kunt deze casten en er een stream op maken.
+            // De veldwaarde is een byte-array. U kunt deze casten en er een stream op aanmaken.
             ByteArrayInputStream imageStream = new ByteArrayInputStream((byte[]) e.getFieldValue());
-            // Nu zal de samenvoegfunctie de afbeelding uit de stream ophalen.
+            // Nu zal de samenvoegengine de afbeelding uit de stream ophalen.
             e.setImageStream(imageStream);
         }
     }
@@ -302,9 +307,9 @@ Broncode van klasse HandleMergeField
     {
         /// <samenvatting>
         /// Wordt aangeroepen voor elk samenvoegveld dat in het document wordt aangetroffen.
-        /// We kunnen een aantal gegevens terugsturen naar de samenvoegmachine of iets anders met het document doen.
+        /// We kunnen een aantal gegevens terugsturen naar de samenvoegmachine, of iets anders met het document doen.
         /// In dit geval passen we de celopmaak aan.
-        /// </samenvatting>
+        /// </summary>
         public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e)
         {
             if (mBuilder == null)
@@ -315,7 +320,7 @@ Broncode van klasse HandleMergeField
                 Color rowColor = isOdd(mRowIdx) 
                     ? new Color((213), (227), (235)) 
                     : new Color((242), (242), (242));
-                //Er is op dit moment geen mogelijkheid om celeigenschappen voor de hele rij in te stellen. We moeten dus over alle cellen in de rij itereren.
+                // Er is op dit moment geen mogelijkheid om celeigenschappen voor de hele rij in te stellen. We moeten dus over alle cellen in de rij itereren.
                 for (int colIdx = 0; colIdx < 4; colIdx++)
                 {
                     mBuilder.moveToCell(0, mRowIdx, colIdx, 0);
@@ -333,7 +338,7 @@ Broncode van klasse HandleMergeField
     }
     /// <samenvatting>
     /// Retourneert true als de waarde oneven is; false als de waarde even is.
-    /// </samenvatting>
+    /// </summary>
     private static boolean isOdd(int value)
     {
         return (value / 2 * 2) == value;
@@ -341,7 +346,7 @@ Broncode van klasse HandleMergeField
     /// <samenvatting>
     /// Maak een DataTable en vul deze met gegevens.
     /// In de praktijk zou deze DataTable gevuld moeten worden vanuit een database.
-    /// </samenvatting>
+    /// </summary>
     private DataTable getSuppliersDataTable()
     {
         DataTable dataTable = new DataTable("Suppliers");
@@ -361,31 +366,36 @@ Broncode van klasse HandleMergeField
 
 ## 6. Conclusie
 
-Gefeliciteerd! U hebt geleerd hoe u velden in Aspose.Words voor Java kunt gebruiken om Word-documenten dynamisch te manipuleren. Deze krachtige API geeft u volledige controle over uw documenten, wat het een waardevolle aanwinst maakt voor Java-ontwikkelaars.
+Gefeliciteerd! Je hebt geleerd hoe je velden in Aspose.Words voor Java kunt gebruiken om Word-documenten dynamisch te bewerken. Deze krachtige API geeft je volledige controle over je documenten, wat het een waardevolle aanwinst maakt voor Java-ontwikkelaars.
 
 ## 7. Veelgestelde vragen
 
 ### V1: Waar kan ik Aspose.Words voor Java downloaden?
- U kunt Aspose.Words voor Java downloaden van[hier](https://releases.aspose.com/words/java/).
+U kunt Aspose.Words voor Java downloaden van [hier](https://releases.aspose.com/words/java/).
 
 ### V2: Hoe kan ik een tijdelijke licentie voor Aspose.Words voor Java krijgen?
- U kunt een tijdelijke vergunning verkrijgen bij[hier](https://purchase.aspose.com/temporary-license/).
+U kunt een tijdelijke vergunning verkrijgen bij [hier](https://purchase.aspose.com/temporary-license/).
 
 ### V3: Waar kan ik ondersteuning krijgen voor Aspose.Words voor Java?
- Voor ondersteuning kunt u het Aspose.Words forum bezoeken[hier](https://forum.aspose.com/).
+Voor ondersteuning kunt u terecht op het Aspose.Words forum [hier](https://forum.aspose.com/).
 
 ### V4: Is Aspose.Words voor Java geschikt voor het verwerken van HTML-inhoud in Word-documenten?
 Ja, Aspose.Words voor Java biedt uitstekende ondersteuning voor het verwerken van HTML-inhoud in Word-documenten.
 
 ### V5: Kan ik Aspose.Words voor Java gratis gebruiken?
- Aspose.Words voor Java is een commercieel product, maar u kunt de functies ervan verkennen met een gratis proefversie die beschikbaar is[hier](https://releases.aspose.com/).
+Aspose.Words voor Java is een commercieel product, maar u kunt de functies ervan verkennen met een gratis proefversie die beschikbaar is [hier](https://releases.aspose.com/).
 
 Ga vandaag nog aan de slag met Aspose.Words voor Java en krijg meer controle over uw Word-documenten dan ooit tevoren!
 
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

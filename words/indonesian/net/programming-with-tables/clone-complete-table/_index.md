@@ -1,14 +1,16 @@
 ---
-title: Klon Tabel Lengkap
-linktitle: Klon Tabel Lengkap
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengkloning tabel lengkap dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah terperinci ini.
-weight: 10
-url: /id/net/programming-with-tables/clone-complete-table/
+"description": "Pelajari cara mengkloning tabel lengkap dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah terperinci ini."
+"linktitle": "Klon Tabel Lengkap"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Klon Tabel Lengkap"
+"url": "/id/net/programming-with-tables/clone-complete-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Klon Tabel Lengkap
@@ -21,7 +23,7 @@ Apakah Anda siap untuk meningkatkan keterampilan manipulasi dokumen Word Anda ke
 
 Sebelum kita menyelami seluk-beluk kloning tabel, pastikan Anda memiliki prasyarat berikut:
 
-1. Aspose.Words untuk .NET Terpasang: Pastikan Anda telah memasang Aspose.Words untuk .NET di komputer Anda. Jika Anda belum memasangnya, Anda dapat mengunduhnya dari[lokasi](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET Terpasang: Pastikan Anda telah memasang Aspose.Words untuk .NET di komputer Anda. Jika Anda belum memasangnya, Anda dapat mengunduhnya dari [lokasi](https://releases.aspose.com/words/net/).
 
 2. Visual Studio atau IDE .NET apa pun: Anda memerlukan lingkungan pengembangan untuk menulis dan menguji kode Anda. Visual Studio merupakan pilihan populer untuk pengembangan .NET.
 
@@ -45,25 +47,25 @@ Mari kita uraikan proses pengklonan tabel menjadi beberapa langkah yang dapat di
 Pertama, tentukan jalur ke direktori tempat dokumen Word Anda berada. Ini penting untuk memuat dokumen dengan benar.
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda disimpan.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda disimpan.
 
 ## Langkah 2: Muat Dokumen
 
- Selanjutnya, muat dokumen Word yang berisi tabel yang ingin Anda kloning. Ini dilakukan dengan menggunakan`Document` kelas dari Aspose.Words.
+Selanjutnya, muat dokumen Word yang berisi tabel yang ingin Anda kloning. Ini dilakukan dengan menggunakan `Document` kelas dari Aspose.Words.
 
 ```csharp
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- Dalam contoh ini,`"Tables.docx"` adalah nama dokumen Word. Pastikan berkas ini ada di direktori yang ditentukan.
+Dalam contoh ini, `"Tables.docx"` adalah nama dokumen Word. Pastikan berkas ini ada di direktori yang ditentukan.
 
 ## Langkah 3: Akses Tabel yang Akan Dikloning
 
- Sekarang, akses tabel yang ingin Anda kloning.`GetChild` metode ini digunakan untuk mengambil tabel pertama dalam dokumen.
+Sekarang, akses tabel yang ingin Anda kloning. `GetChild` metode ini digunakan untuk mengambil tabel pertama dalam dokumen.
 
 ```csharp
 Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
@@ -73,17 +75,17 @@ Potongan kode ini mengasumsikan Anda ingin mengkloning tabel pertama dalam dokum
 
 ## Langkah 4: Kloning Tabel
 
- Kloning tabel menggunakan`Clone`metode. Metode ini membuat salinan tabel secara mendalam, dengan tetap mempertahankan konten dan formatnya.
+Kloning tabel menggunakan `Clone` metode. Metode ini membuat salinan tabel secara mendalam, dengan tetap mempertahankan konten dan formatnya.
 
 ```csharp
 Table tableClone = (Table) table.Clone(true);
 ```
 
- Itu`true` parameter memastikan bahwa klon menyertakan semua pemformatan dan konten dari tabel asli.
+Itu `true` parameter memastikan bahwa klon menyertakan semua pemformatan dan konten dari tabel asli.
 
 ## Langkah 5: Masukkan Tabel Kloning ke dalam Dokumen
 
- Masukkan tabel kloning ke dalam dokumen segera setelah tabel asli. Gunakan`InsertAfter` metode untuk ini.
+Masukkan tabel kloning ke dalam dokumen segera setelah tabel asli. Gunakan `InsertAfter` metode untuk ini.
 
 ```csharp
 table.ParentNode.InsertAfter(tableClone, table);
@@ -109,7 +111,7 @@ Terakhir, simpan dokumen yang dimodifikasi dengan nama baru untuk mempertahankan
 doc.Save(dataDir + "WorkingWithTables.CloneCompleteTable.docx");
 ```
 
- Mengganti`"WorkingWithTables.CloneCompleteTable.docx"` dengan nama file keluaran yang Anda inginkan.
+Mengganti `"WorkingWithTables.CloneCompleteTable.docx"` dengan nama file keluaran yang Anda inginkan.
 
 ## Kesimpulan
 
@@ -121,7 +123,7 @@ Mengkloning tabel dalam dokumen Word menggunakan Aspose.Words for .NET merupakan
 Ya, Anda dapat mengkloning beberapa tabel dengan mengulangi setiap tabel dalam dokumen dan menerapkan logika kloning yang sama.
 
 ### Bagaimana jika tabel memiliki sel yang tergabung?
- Itu`Clone` metode mempertahankan semua pemformatan, termasuk sel yang digabungkan, memastikan duplikat tabel yang tepat.
+Itu `Clone` metode mempertahankan semua pemformatan, termasuk sel yang digabungkan, memastikan duplikat tabel yang tepat.
 
 ### Bagaimana cara mengkloning tabel tertentu berdasarkan nama?
 Anda dapat mengidentifikasi tabel berdasarkan properti khusus atau konten unik, lalu mengkloning tabel yang diinginkan menggunakan langkah serupa.
@@ -131,9 +133,14 @@ Ya, setelah kloning, Anda dapat mengubah format tabel kloning menggunakan proper
 
 ### Apakah mungkin untuk mengkloning tabel dari format dokumen lain?
 Aspose.Words mendukung berbagai format, sehingga Anda dapat mengkloning tabel dari format seperti DOC, DOCX, dan RTF, asalkan didukung oleh Aspose.Words.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

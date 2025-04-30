@@ -1,14 +1,16 @@
 ---
-title: Bidang Formulir Bekerja Dengan Properti
-linktitle: Bidang Formulir Bekerja Dengan Properti
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memanipulasi kolom formulir dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci kami.
-weight: 10
-url: /id/net/working-with-formfields/form-fields-work-with-properties/
+"description": "Pelajari cara memanipulasi kolom formulir dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci kami."
+"linktitle": "Bidang Formulir Bekerja Dengan Properti"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Bidang Formulir Bekerja Dengan Properti"
+"url": "/id/net/working-with-formfields/form-fields-work-with-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bidang Formulir Bekerja Dengan Properti
@@ -20,7 +22,7 @@ Dalam tutorial ini, kita akan menyelami dunia bidang formulir yang menarik dalam
 ## Prasyarat
 
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda butuhkan:
--  Aspose.Words untuk .NET: Unduh versi terbaru[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Unduh versi terbaru [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan .NET: Visual Studio direkomendasikan.
 - Pengetahuan Dasar C#: Memahami dasar-dasarnya akan membantu Anda mengikutinya dengan lancar.
 
@@ -45,7 +47,7 @@ Buka Visual Studio dan buat proyek Aplikasi Konsol (.NET Core) baru. Beri nama y
 
 ### Langkah 1.2: Instal Aspose.Words untuk .NET
 
- Anda dapat menginstal Aspose.Words melalui NuGet Package Manager. Buka`Tools` ->`NuGet Package Manager` ->`Manage NuGet Packages for Solution`, dan cari "Aspose.Words". Instal paket tersebut.
+Anda dapat menginstal Aspose.Words melalui NuGet Package Manager. Buka `Tools` -> `NuGet Package Manager` -> `Manage NuGet Packages for Solution`, dan cari "Aspose.Words". Instal paket tersebut.
 
 Sebagai alternatif, Anda dapat menggunakan Konsol Manajer Paket NuGet:
 
@@ -59,7 +61,7 @@ Sekarang proyek Anda sudah disiapkan, mari muat dokumen Word yang berisi kolom f
 
 ### Langkah 2.1: Tentukan Direktori Dokumen
 
- Tetapkan jalur ke direktori dokumen Anda. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda disimpan.
+Tetapkan jalur ke direktori dokumen Anda. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda disimpan.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -87,7 +89,7 @@ FormField formField = doc.Range.FormFields[3];
 
 ### Langkah 3.2: Periksa Jenis Bidang Formulir
 
- Pastikan bidang formulir bertipe`FieldFormTextInput` sebelum memodifikasinya.
+Pastikan bidang formulir bertipe `FieldFormTextInput` sebelum memodifikasinya.
 
 ```csharp
 if (formField.Type == FieldType.FieldFormTextInput)
@@ -118,19 +120,24 @@ Baik Anda sedang mengembangkan solusi otomatisasi dokumen yang kompleks atau han
 Ya, Aspose.Words untuk .NET kompatibel dengan bahasa .NET apa pun, termasuk VB.NET dan F#.
 
 ### Apakah Aspose.Words untuk .NET gratis?
-Aspose.Words untuk .NET menawarkan uji coba gratis, tetapi untuk fungsionalitas penuh, Anda perlu membeli lisensi. Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Aspose.Words untuk .NET menawarkan uji coba gratis, tetapi untuk fungsionalitas penuh, Anda perlu membeli lisensi. Anda bisa mendapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Bisakah saya memanipulasi elemen lain dalam dokumen Word dengan Aspose.Words untuk .NET?
 Tentu saja! Aspose.Words untuk .NET memungkinkan Anda memanipulasi teks, gambar, tabel, dan banyak elemen lainnya dalam dokumen Word.
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.Words untuk .NET?
- Untuk dukungan, Anda dapat mengunjungi forum Aspose.Words[Di Sini](https://forum.aspose.com/c/words/8).
+Untuk dukungan, Anda dapat mengunjungi forum Aspose.Words [Di Sini](https://forum.aspose.com/c/words/8).
 
 ### Di mana saya dapat menemukan dokumentasi untuk Aspose.Words untuk .NET?
- Anda dapat menemukan dokumentasi lengkapnya[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi lengkapnya [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

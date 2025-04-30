@@ -1,61 +1,63 @@
 ---
-title: Export zpátečních informací
-linktitle: Export zpátečních informací
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se exportovat zpáteční informace pomocí Aspose.Words for .NET. Zachovejte integritu a formátování dokumentu během převodů.
-weight: 10
-url: /cs/net/programming-with-htmlsaveoptions/export-roundtrip-information/
+"description": "Naučte se, jak exportovat informace o oboustranném přenosu pomocí Aspose.Words pro .NET. Během převodů zachovejte integritu a formátování dokumentu."
+"linktitle": "Export informací o zpáteční cestě"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Export informací o zpáteční cestě"
+"url": "/cs/net/programming-with-htmlsaveoptions/export-roundtrip-information/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Export zpátečních informací
+# Export informací o zpáteční cestě
 
 ## Zavedení
 
-Vítejte v nádherném světě Aspose.Words pro .NET! Dnes se ponoříme hluboko do šikovné funkce, která vám může ušetřit spoustu času a námahy: export informací o zpáteční cestě. Představte si, že převádíte dokument aplikace Word do HTML a zpět, aniž byste ztratili zásadní data nebo formátování. Zní to jako sen, že? S Aspose.Words je to zcela možné. Připoutejte se a vydejte se na tuto vzrušující cestu!
+Vítejte v úžasném světě Aspose.Words pro .NET! Dnes se ponoříme do šikovné funkce, která vám může ušetřit spoustu času a úsilí: export informací o oboustranném přenosu. Představte si, že převádíte dokument Word do HTML a zpět, aniž byste ztratili jakákoli důležitá data nebo formátování. Zní to jako sen, že? S Aspose.Words je to zcela možné. Připoutejte se a pojďme se na tuto vzrušující cestu vydat!
 
 ## Předpoklady
 
-Než se pustíme do matic a šroubů, ujistěte se, že máme vše, co potřebujeme:
+Než se pustíme do detailů, ujistěme se, že máme vše potřebné:
 
-1.  Aspose.Words for .NET: Ujistěte se, že máte nejnovější verzi.[Stáhněte si jej zde](https://releases.aspose.com/words/net/).
+1. Aspose.Words pro .NET: Ujistěte se, že máte nejnovější verzi. [Stáhněte si to zde](https://releases.aspose.com/words/net/).
 2. Vývojové prostředí: Visual Studio nebo jakékoli jiné IDE kompatibilní s C#.
-3. Základní znalost C#: Pomáhá trochu obeznámit se s C# a .NET frameworkem.
-4. Licence: Pokud nemáte plnou licenci, můžete použít dočasnou licenci. Získejte to[zde](https://purchase.aspose.com/temporary-license/).
+3. Základní znalost C#: Je užitečné mít alespoň malou znalost C# a .NET frameworku.
+4. Licence: Pokud nemáte plnohodnotnou licenci, můžete použít dočasnou. Získejte ji. [zde](https://purchase.aspose.com/temporary-license/).
 
 ## Importovat jmenné prostory
 
-Nejprve musíme importovat potřebné jmenné prostory, abychom mohli začít s Aspose.Words pro .NET.
+Nejdříve musíme importovat potřebné jmenné prostory, abychom mohli začít s Aspose.Words pro .NET.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Nyní si tento proces rozdělíme na zvládnutelné kroky. Každý krok bude doprovázen podrobným vysvětlením, aby vám nic neuniklo.
+Nyní si celý proces rozdělme na srozumitelné kroky. Každý krok bude doprovázen podrobným vysvětlením, abyste o nic nepřišli.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Nejprve musíte nastavit cestu k adresáři dokumentů. Zde je uložen váš dokument aplikace Word a kde bude uložen soubor HTML.
+Nejprve je třeba nastavit cestu k adresáři s dokumenty. Zde je uložen váš dokument aplikace Word a kam bude uložen soubor HTML.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-## Krok 2: Načtěte dokument aplikace Word
+## Krok 2: Načtěte dokument Wordu
 
-Dále načtěte dokument aplikace Word, který chcete převést. V tomto tutoriálu budeme používat dokument s názvem "Rendering.docx".
+Dále načtěte dokument Wordu, který chcete převést. V tomto tutoriálu použijeme dokument s názvem „Rendering.docx“.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
-## Krok 3: Nakonfigurujte možnosti uložení HTML
+## Krok 3: Konfigurace možností ukládání HTML
 
-Tady se děje kouzlo. Musíme nastavit možnosti uložení HTML, konkrétně povolit vlastnost ExportRoundtripInformation. Tím je zajištěno, že během převodu budou zachovány všechny informace o zpětné cestě.
+A tady se děje ta pravá magie. Musíme nastavit možnosti ukládání HTML, konkrétně povolit vlastnost ExportRoundtripInformation. To zajistí, že všechny informace o odesílání a odesílání budou během převodu zachovány.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions { ExportRoundtripInformation = true };
@@ -63,7 +65,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions { ExportRoundtripInformation =
 
 ## Krok 4: Uložte dokument jako HTML
 
-Nakonec uložte dokument jako soubor HTML pomocí nakonfigurovaných možností uložení. Tento krok zajistí, že si dokument zachová veškeré své formátování a data při převodu do HTML a zpět do Wordu.
+Nakonec uložte dokument jako soubor HTML pomocí nakonfigurovaných možností ukládání. Tento krok zajistí, že si dokument zachová veškeré formátování a data při převodu do formátu HTML a zpět do formátu Word.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ExportRoundtripInformation.html", saveOptions);
@@ -71,27 +73,32 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ExportRoundtripInformation.html",
 
 ## Závěr
 
-A tady to máte! Pomocí několika řádků kódu jste úspěšně exportovali zpáteční informace z dokumentu aplikace Word do HTML pomocí Aspose.Words for .NET. Tato výkonná funkce zajišťuje, že si vaše dokumenty během převodu zachovají svou integritu a formátování, což vám výrazně usnadní život.
+A máte to! Pomocí Aspose.Words pro .NET jste úspěšně exportovali informace o cestě zpět z dokumentu Word do HTML. Tato výkonná funkce zajišťuje, že si vaše dokumenty během převodů zachovají integritu a formátování, což vám značně usnadní život.
 
-## FAQ
+## Často kladené otázky
 
 ### Co jsou informace o zpáteční cestě v Aspose.Words?
-Informace o zpětném přenosu se týkají dat, která zajišťují integritu a formátování dokumentu při jeho převodu z jednoho formátu do druhého a zpět.
+Informace o přenosu dat se vztahují k datům, která zajišťují integritu a formátování dokumentu při jeho převodu z jednoho formátu do druhého a zpět.
 
 ### Mohu používat Aspose.Words pro .NET bez licence?
-Ano, můžete jej používat s dočasnou licencí, kterou můžete získat[zde](https://purchase.aspose.com/temporary-license/).
+Ano, můžete jej používat s dočasnou licencí, kterou můžete získat [zde](https://purchase.aspose.com/temporary-license/).
 
 ### Kde najdu nejnovější verzi Aspose.Words pro .NET?
- Můžete si stáhnout nejnovější verzi[zde](https://releases.aspose.com/words/net/).
+Můžete si stáhnout nejnovější verzi [zde](https://releases.aspose.com/words/net/).
 
-### Jak získám podporu pro Aspose.Words for .NET?
- Můžete získat podporu od komunity Aspose[zde](https://forum.aspose.com/c/words/8).
+### Jak získám podporu pro Aspose.Words pro .NET?
+Podporu můžete získat od komunity Aspose [zde](https://forum.aspose.com/c/words/8).
 
-### Je možné zachovat formátování při převodu dokumentů Wordu do HTML?
-Ano, pomocí vlastnosti ExportRoundtripInformation v HtmlSaveOptions můžete zachovat veškeré formátování během převodu.
+### Je možné zachovat formátování při převodu dokumentů Word do HTML?
+Ano, použitím vlastnosti ExportRoundtripInformation v HtmlSaveOptions můžete během převodu zachovat veškeré formátování.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

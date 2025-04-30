@@ -1,14 +1,16 @@
 ---
-title: Tentukan Properti Sumbu XY Dalam Bagan
-linktitle: Tentukan Properti Sumbu XY Dalam Bagan
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menentukan properti sumbu XY dalam bagan menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk pengembang .NET.
-weight: 10
-url: /id/net/programming-with-charts/define-xyaxis-properties/
+"description": "Pelajari cara menentukan properti sumbu XY dalam bagan menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk pengembang .NET."
+"linktitle": "Tentukan Properti Sumbu XY Dalam Bagan"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tentukan Properti Sumbu XY Dalam Bagan"
+"url": "/id/net/programming-with-charts/define-xyaxis-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tentukan Properti Sumbu XY Dalam Bagan
@@ -21,7 +23,7 @@ Bagan merupakan alat yang ampuh untuk memvisualisasikan data. Saat Anda perlu me
 
 Sebelum menyelami pengkodean, ada beberapa prasyarat yang perlu Anda siapkan:
 
-1. Aspose.Words untuk .NET: Pastikan Anda memiliki pustaka Aspose.Words untuk .NET. Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda memiliki pustaka Aspose.Words untuk .NET. Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Anda memerlukan lingkungan pengembangan terintegrasi (IDE) seperti Visual Studio.
 3. .NET Framework: Pastikan lingkungan pengembangan Anda disiapkan untuk pengembangan .NET.
 4. Pengetahuan Dasar C#: Panduan ini mengasumsikan Anda memiliki pemahaman dasar tentang pemrograman C#.
@@ -41,10 +43,10 @@ Kami akan menguraikan prosesnya menjadi beberapa langkah sederhana, yang masing-
 
 ## Langkah 1: Inisialisasi Dokumen dan DocumentBuilder
 
- Pertama, Anda perlu menginisialisasi dokumen baru dan`DocumentBuilder` objek. Itu`DocumentBuilder` membantu memasukkan konten ke dalam dokumen.
+Pertama, Anda perlu menginisialisasi dokumen baru dan `DocumentBuilder` objek. Itu `DocumentBuilder` membantu memasukkan konten ke dalam dokumen.
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -63,7 +65,7 @@ Chart chart = shape.Chart;
 
 ## Langkah 3: Hapus Seri Default dan Tambahkan Data Kustom
 
-Secara default, bagan akan memiliki beberapa seri yang telah ditentukan sebelumnya. Kita akan menghapusnya dan menambahkan seri data kustom kita.
+Secara default, diagram akan memiliki beberapa seri yang telah ditentukan sebelumnya. Kita akan menghapusnya dan menambahkan seri data kustom kita.
 
 ```csharp
 chart.Series.Clear();
@@ -84,7 +86,7 @@ Sekarang, saatnya menentukan properti untuk sumbu X. Ini termasuk pengaturan jen
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Custom;
-xAxis.CrossesAt = 3; //Diukur dalam satuan tampilan sumbu Y (ratusan).
+xAxis.CrossesAt = 3; // Diukur dalam satuan tampilan sumbu Y (ratusan).
 xAxis.ReverseOrder = true;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorTickMark = AxisTickMark.Outside;
@@ -123,20 +125,25 @@ Membuat dan menyesuaikan bagan dalam dokumen Word menggunakan Aspose.Words for .
 Anda dapat membuat berbagai jenis bagan, termasuk Area, Batang, Garis, Pai, dan banyak lagi.
 
 ### Bagaimana cara menginstal Aspose.Words untuk .NET?
- Anda dapat mengunduh Aspose.Words untuk .NET dari[Di Sini](https://releases.aspose.com/words/net/)dan ikuti petunjuk instalasi yang disediakan.
+Anda dapat mengunduh Aspose.Words untuk .NET dari [Di Sini](https://releases.aspose.com/words/net/) dan ikuti petunjuk instalasi yang disediakan.
 
 ### Bisakah saya menyesuaikan tampilan grafik saya?
 Ya, Aspose.Words untuk .NET memungkinkan kustomisasi bagan yang luas, termasuk warna, font, dan properti sumbu.
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Words untuk .NET?
- Ya, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+Ya, Anda bisa mendapatkan uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan lebih banyak tutorial dan dokumentasi?
- Anda dapat menemukan lebih banyak tutorial dan dokumentasi terperinci di[Halaman dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+Anda dapat menemukan lebih banyak tutorial dan dokumentasi terperinci di [Halaman dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

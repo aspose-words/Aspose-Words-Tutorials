@@ -1,28 +1,30 @@
 ---
-title: Gọi lại lưu trang
-linktitle: Gọi lại lưu trang
-second_title: API xử lý tài liệu Aspose.Words
-description: Học cách lưu từng trang của tài liệu Word dưới dạng ảnh PNG riêng biệt bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi.
-weight: 10
-url: /vi/net/programming-with-imagesaveoptions/page-saving-callback/
+"description": "Học cách lưu từng trang của tài liệu Word dưới dạng ảnh PNG riêng biệt bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi."
+"linktitle": "Gọi lại lưu trang"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Gọi lại lưu trang"
+"url": "/vi/net/programming-with-imagesaveoptions/page-saving-callback/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gọi lại lưu trang
 
 ## Giới thiệu
 
-Xin chào! Bạn đã bao giờ cảm thấy cần phải lưu từng trang của một tài liệu Word dưới dạng hình ảnh riêng biệt chưa? Có thể bạn muốn chia nhỏ một báo cáo lớn thành các hình ảnh dễ hiểu hoặc có thể bạn cần tạo hình thu nhỏ để xem trước. Dù lý do của bạn là gì, việc sử dụng Aspose.Words cho .NET giúp bạn thực hiện nhiệm vụ này một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thiết lập lệnh gọi lại lưu trang để lưu từng trang của một tài liệu dưới dạng hình ảnh PNG riêng lẻ. Hãy cùng bắt đầu ngay!
+Xin chào! Bạn đã bao giờ cảm thấy cần phải lưu từng trang của một tài liệu Word dưới dạng hình ảnh riêng biệt chưa? Có thể bạn muốn chia nhỏ một báo cáo lớn thành các hình ảnh dễ hiểu hoặc có thể bạn cần tạo hình thu nhỏ để xem trước. Dù lý do của bạn là gì, việc sử dụng Aspose.Words cho .NET giúp bạn thực hiện nhiệm vụ này một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thiết lập lệnh gọi lại lưu trang để lưu từng trang của một tài liệu dưới dạng hình ảnh PNG riêng lẻ. Hãy cùng bắt đầu ngay nhé!
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1.  Aspose.Words cho .NET: Nếu bạn chưa tải xuống và cài đặt nó từ[đây](https://releases.aspose.com/words/net/).
-2. Visual Studio: Bất kỳ phiên bản nào cũng có thể sử dụng, nhưng tôi sẽ sử dụng Visual Studio 2019 cho hướng dẫn này.
+1. Aspose.Words cho .NET: Nếu bạn chưa tải xuống và cài đặt nó từ [đây](https://releases.aspose.com/words/net/).
+2. Visual Studio: Bất kỳ phiên bản nào cũng có thể sử dụng được, nhưng tôi sẽ sử dụng Visual Studio 2019 cho hướng dẫn này.
 3. Kiến thức cơ bản về C#: Bạn cần có hiểu biết cơ bản về C# để theo dõi.
 
 ## Nhập không gian tên
@@ -53,7 +55,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Bước 3: Cấu hình tùy chọn lưu hình ảnh
 
-Chúng ta cần cấu hình các tùy chọn để lưu hình ảnh. Trong trường hợp này, chúng ta lưu các trang dưới dạng tệp PNG.
+Chúng ta cần cấu hình các tùy chọn để lưu hình ảnh. Trong trường hợp này, chúng ta sẽ lưu các trang dưới dạng tệp PNG.
 
 ```csharp
 ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png)
@@ -63,7 +65,7 @@ ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png)
 };
 ```
 
- Đây,`PageSet` chỉ định phạm vi các trang cần lưu và`PageSavingCallback` trỏ tới lớp gọi lại tùy chỉnh của chúng tôi.
+Đây, `PageSet` chỉ định phạm vi các trang cần lưu và `PageSavingCallback` trỏ tới lớp gọi lại tùy chỉnh của chúng tôi.
 
 ## Bước 4: Triển khai lệnh gọi lại lưu trang
 
@@ -79,7 +81,7 @@ private class HandlePageSavingCallback : IPageSavingCallback
 }
 ```
 
- Lớp này thực hiện`IPageSavingCallback` giao diện và bên trong`PageSaving` phương pháp này, chúng tôi xác định mẫu đặt tên cho mỗi trang đã lưu.
+Lớp này thực hiện `IPageSavingCallback` giao diện và bên trong `PageSaving` phương pháp này, chúng tôi xác định mẫu đặt tên cho mỗi trang đã lưu.
 
 ## Bước 5: Lưu tài liệu dưới dạng hình ảnh
 
@@ -98,22 +100,27 @@ Chúc bạn viết mã vui vẻ!
 ## Câu hỏi thường gặp
 
 ### Tôi có thể lưu các trang ở định dạng khác ngoài PNG không?  
- Có, bạn có thể lưu các trang ở các định dạng khác nhau như JPEG, BMP và TIFF bằng cách thay đổi`SaveFormat` TRONG`ImageSaveOptions`.
+Có, bạn có thể lưu các trang ở các định dạng khác nhau như JPEG, BMP và TIFF bằng cách thay đổi `SaveFormat` TRONG `ImageSaveOptions`.
 
 ### Nếu tôi chỉ muốn lưu những trang cụ thể thì sao?  
- Bạn có thể chỉ định các trang bạn muốn lưu bằng cách điều chỉnh`PageSet` tham số trong`ImageSaveOptions`.
+Bạn có thể chỉ định các trang bạn muốn lưu bằng cách điều chỉnh `PageSet` tham số trong `ImageSaveOptions`.
 
 ### Có thể tùy chỉnh chất lượng hình ảnh không?  
- Chắc chắn rồi! Bạn có thể thiết lập các thuộc tính như`ImageSaveOptions.JpegQuality` để kiểm soát chất lượng hình ảnh đầu ra.
+Chắc chắn rồi! Bạn có thể thiết lập các thuộc tính như `ImageSaveOptions.JpegQuality` để kiểm soát chất lượng hình ảnh đầu ra.
 
 ### Làm sao tôi có thể xử lý các tài liệu lớn một cách hiệu quả?  
 Đối với các tài liệu lớn, hãy cân nhắc xử lý các trang theo từng đợt để quản lý việc sử dụng bộ nhớ hiệu quả.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Words cho .NET ở đâu?  
- Kiểm tra các[tài liệu](https://reference.aspose.com/words/net/) để có hướng dẫn và ví dụ toàn diện.
+Kiểm tra các [tài liệu](https://reference.aspose.com/words/net/) để có hướng dẫn và ví dụ toàn diện.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

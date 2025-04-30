@@ -1,14 +1,16 @@
 ---
-title: Pelacakan dan Peninjauan Revisi Dokumen
-linktitle: Pelacakan dan Peninjauan Revisi Dokumen
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari cara melacak dan meninjau revisi dokumen menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber untuk kolaborasi yang efisien. Tingkatkan manajemen dokumen Anda hari ini!
-weight: 23
-url: /id/python-net/document-structure-and-content-manipulation/document-revisions/
+"description": "Pelajari cara melacak dan meninjau revisi dokumen menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber untuk kolaborasi yang efisien. Tingkatkan manajemen dokumen Anda hari ini!"
+"linktitle": "Pelacakan dan Peninjauan Revisi Dokumen"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Pelacakan dan Peninjauan Revisi Dokumen"
+"url": "/id/python-net/document-structure-and-content-manipulation/document-revisions/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pelacakan dan Peninjauan Revisi Dokumen
@@ -22,7 +24,7 @@ Revisi dokumen melibatkan pelacakan perubahan yang dibuat pada dokumen dari wakt
 
 ## Menyiapkan Aspose.Words untuk Python
 
-Sebelum kita mulai, pastikan Anda telah menginstal Aspose.Words untuk Python. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/python/)Setelah terinstal, Anda dapat mengimpor modul yang diperlukan ke skrip Python Anda untuk memulai.
+Sebelum kita mulai, pastikan Anda telah menginstal Aspose.Words untuk Python. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/python/)Setelah terinstal, Anda dapat mengimpor modul yang diperlukan ke dalam skrip Python Anda untuk memulai.
 
 ```python
 import aspose.words as aw
@@ -39,7 +41,7 @@ print(doc.get_text())
 
 ## Mengaktifkan Pelacakan Perubahan
 
- Untuk mengaktifkan pelacakan perubahan pada dokumen, Anda perlu mengatur`TrackRevisions`properti untuk`True`:
+Untuk mengaktifkan pelacakan perubahan pada dokumen, Anda perlu mengatur `TrackRevisions` properti untuk `True`:
 
 ```python
 doc.track_revisions = True
@@ -112,11 +114,11 @@ Aspose.Words untuk Python menyederhanakan revisi dan pelacakan dokumen, meningka
 
 ### Bagaimana cara menginstal Aspose.Words untuk Python?
 
- Anda dapat mengunduh Aspose.Words untuk Python dari[Di Sini](https://releases.aspose.com/words/python/)Ikuti petunjuk instalasi untuk mengaturnya di lingkungan Anda.
+Anda dapat mengunduh Aspose.Words untuk Python dari [Di Sini](https://releases.aspose.com/words/python/)Ikuti petunjuk instalasi untuk mengaturnya di lingkungan Anda.
 
 ### Dapatkah saya menonaktifkan pelacakan revisi untuk bagian tertentu dalam dokumen?
 
-Ya, Anda dapat menonaktifkan pelacakan revisi secara selektif untuk bagian tertentu dari dokumen dengan menyesuaikan secara terprogram`TrackRevisions` properti untuk bagian tersebut.
+Ya, Anda dapat menonaktifkan pelacakan revisi secara selektif untuk bagian tertentu dari dokumen dengan menyesuaikan secara terprogram `TrackRevisions` properti untuk bagian tersebut.
 
 ### Apakah mungkin untuk menggabungkan perubahan dari beberapa kontributor?
 
@@ -129,9 +131,14 @@ Ya, riwayat revisi dipertahankan saat Anda mengonversi dokumen ke format lain me
 ### Bagaimana saya bisa menerima atau menolak revisi secara terprogram?
 
 Anda dapat mengulangi koleksi revisi dan secara terprogram menerima atau menolak setiap revisi menggunakan fungsi API Aspose.Words.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

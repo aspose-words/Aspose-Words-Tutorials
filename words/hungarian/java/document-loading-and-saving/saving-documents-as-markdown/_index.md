@@ -1,39 +1,41 @@
 ---
-title: Dokumentumok mentése Markdown néven az Aspose.Words for Java programban
-linktitle: Dokumentumok mentése Markdown néven
-second_title: Aspose.Words Java Document Processing API
-description: Ismerje meg, hogyan konvertálhat Word dokumentumokat Markdown formátumba az Aspose.Words for Java segítségével. Ez a lépésenkénti útmutató a táblázat igazítását, a képkezelést és egyebeket ismerteti.
-weight: 18
-url: /hu/java/document-loading-and-saving/saving-documents-as-markdown/
+"description": "Tanuld meg, hogyan konvertálhatsz Word dokumentumokat Markdown formátumba az Aspose.Words for Java segítségével. Ez a lépésről lépésre szóló útmutató a táblázatok igazítását, a képkezelést és egyebeket ismerteti."
+"linktitle": "Dokumentumok mentése Markdown formátumban"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Dokumentumok mentése Markdown formátumban az Aspose.Words for Java programban"
+"url": "/hu/java/document-loading-and-saving/saving-documents-as-markdown/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dokumentumok mentése Markdown néven az Aspose.Words for Java programban
+# Dokumentumok mentése Markdown formátumban az Aspose.Words for Java programban
 
 
-## Bevezetés a dokumentumok jelölésként történő mentésébe az Aspose.Words for Java programban
+## Bevezetés a dokumentumok Markdown formátumban történő mentéséhez az Aspose.Words for Java programban
 
-Ebben a lépésenkénti útmutatóban bemutatjuk, hogyan lehet dokumentumokat Markdown néven menteni az Aspose.Words for Java használatával. A Markdown egy könnyű jelölőnyelv, amelyet általában szöveges dokumentumok formázására használnak. Az Aspose.Words for Java segítségével egyszerűen konvertálhatja Word-dokumentumait Markdown formátumba. Kitérünk a Markdown fájlok mentésének különböző szempontjaira, beleértve a táblázattartalom igazítását és a képek kezelését.
+Ebben a lépésről lépésre bemutatjuk, hogyan menthet dokumentumokat Markdown formátumban az Aspose.Words for Java segítségével. A Markdown egy könnyűsúlyú jelölőnyelv, amelyet általában szöveges dokumentumok formázására használnak. Az Aspose.Words for Java segítségével könnyedén konvertálhatja Word-dokumentumait Markdown formátumba. Áttekintjük a Markdown-fájlok mentésének különböző aspektusait, beleértve a táblázatok tartalmának igazítását és a képek kezelését.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
-- Java Development Kit (JDK) telepítve a rendszerére.
--  Aspose.Words for Java könyvtár. Letöltheti innen[itt](https://releases.aspose.com/words/java/).
+- Java fejlesztőkészlet (JDK) telepítve van a rendszerére.
+- Aspose.Words Java könyvtárhoz. Letöltheted innen: [itt](https://releases.aspose.com/words/java/).
 
 ## 1. lépés: Word-dokumentum létrehozása
 
-Kezdjük egy Word dokumentum létrehozásával, amelyet később Markdown formátumba konvertálunk. Ezt a dokumentumot igényei szerint testreszabhatja.
+Kezdjük egy Word-dokumentum létrehozásával, amelyet később Markdown formátumba konvertálunk. Ezt a dokumentumot az igényeid szerint testreszabhatod.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Szúrjon be egy táblázatot két cellával
+// Két cellás táblázat beszúrása
 builder.insertCell();
 builder.getParagraphFormat().setAlignment(ParagraphAlignment.RIGHT);
 builder.write("Cell1");
@@ -42,60 +44,60 @@ builder.insertCell();
 builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
 builder.write("Cell2");
 
-// Mentse el a dokumentumot Markdown néven
+// Dokumentum mentése Markdown néven
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 doc.save("output.md", saveOptions);
 ```
 
- Ebben a példában egy egyszerű táblázatot hozunk létre két cellával, és beállítjuk a bekezdések igazítását ezeken a cellákon belül. Ezután a dokumentumot Markdown néven mentjük a`MarkdownSaveOptions`.
+Ebben a példában létrehozunk egy egyszerű táblázatot két cellával, és beállítjuk a cellákon belüli bekezdések igazítását. Ezután Markdown néven mentjük a dokumentumot a következő használatával: `MarkdownSaveOptions`.
 
-## 2. lépés: A táblázattartalom igazításának testreszabása
+## 2. lépés: A táblázat tartalmának igazításának testreszabása
 
-Az Aspose.Words for Java lehetővé teszi a táblázattartalom igazításának testreszabását Markdownként történő mentéskor. A táblázat tartalmát igazíthatja balra, jobbra, középre, vagy hagyhatja, hogy a táblázat minden oszlopának első bekezdése alapján automatikusan meghatározza.
+Az Aspose.Words for Java lehetővé teszi a táblázat tartalmának igazításának testreszabását Markdown formátumban történő mentéskor. A táblázat tartalmát balra, jobbra, középre igazíthatja, vagy hagyhatja, hogy a program automatikusan határozza meg az egyes táblázatoszlopok első bekezdése alapján.
 
-A táblázattartalom igazításának testreszabása a következőképpen történik:
+A táblázat tartalmának igazítását a következőképpen szabhatja testre:
 
 ```java
-// Állítsa a táblázat tartalmának igazítását balra
+// Táblázat tartalmának balra igazítása
 saveOptions.setTableContentAlignment(TableContentAlignment.LEFT);
 doc.save("left_alignment.md", saveOptions);
 
-// Állítsa a táblázat tartalmának igazítását jobbra
+// Táblázat tartalmának jobbra igazítása
 saveOptions.setTableContentAlignment(TableContentAlignment.RIGHT);
 doc.save("right_alignment.md", saveOptions);
 
-// Állítsa a táblázat tartalmának igazítását középre
+// Táblázat tartalmának középre igazítása
 saveOptions.setTableContentAlignment(TableContentAlignment.CENTER);
 doc.save("center_alignment.md", saveOptions);
 
-//Állítsa a táblázattartalom igazítását automatikusra (az első bekezdés határozza meg)
+// A táblázat tartalmának igazítását állítsa automatikusra (az első bekezdés alapján)
 saveOptions.setTableContentAlignment(TableContentAlignment.AUTO);
 doc.save("auto_alignment.md", saveOptions);
 ```
 
- Azáltal, hogy megváltoztatja a`TableContentAlignment` tulajdonsággal szabályozhatja, hogy a táblákon belüli tartalom hogyan igazodjon a Markdown-ba való konvertáláskor.
+A megváltoztatásával `TableContentAlignment` tulajdonsággal szabályozhatja, hogy a táblázatokban lévő tartalom hogyan legyen igazítva a Markdown formátumba konvertáláskor.
 
 ## 3. lépés: Képek kezelése
 
- Ha képeket szeretne felvenni a Markdown dokumentumba, meg kell adnia a mappát, ahol a képek találhatók. Az Aspose.Words for Java lehetővé teszi a képek mappájának beállítását a`MarkdownSaveOptions`.
+Képek Markdown-dokumentumba való felvételéhez meg kell adnia azt a mappát, ahol a képek találhatók. Az Aspose.Words for Java lehetővé teszi a képek mappa beállítását a `MarkdownSaveOptions`.
 
-A következőképpen állíthatja be a képek mappát, és mentheti el a dokumentumot képekkel:
+Így állíthatja be a képek mappáját és mentheti el a dokumentumot képekkel:
 
 ```java
-// Töltsön be képeket tartalmazó dokumentumot
+// Töltsön be egy képet tartalmazó dokumentumot
 Document doc = new Document("document_with_images.docx");
 
 // Állítsa be a képek mappa elérési útját
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 saveOptions.setImagesFolder("images_folder/");
 
-// Mentse el a dokumentumot képekkel
+// Dokumentum mentése képekkel
 doc.save("document_with_images.md", saveOptions);
 ```
 
- Ügyeljen arra, hogy cserélje ki`"document_with_images.docx"` a képeket tartalmazó Word-dokumentum elérési útjával és`"images_folder/"` a mappa tényleges elérési útjával, ahol a képeket tárolják.
+Mindenképpen cserélje ki `"document_with_images.docx"` a képeket és a Word-dokumentumod elérési útjával `"images_folder/"` a képek tárolására szolgáló mappa tényleges elérési útjával.
 
-## Teljes forráskód dokumentumok mentéséhez Markdown-ként az Aspose.Words for Java-ban
+## Teljes forráskód dokumentumok Markdown formátumban történő mentéséhez Aspose.Words for Java-ban
 
 ```java
 public void autoTableContentAlignment() throws Exception
@@ -108,7 +110,7 @@ public void autoTableContentAlignment() throws Exception
 	builder.insertCell();
 	builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
 	builder.write("Cell2");
-	// A táblázaton belüli összes bekezdést igazítandóvá teszi.
+	// A táblázaton belüli összes bekezdést igazítja.
 	MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 	{
 		saveOptions.setTableContentAlignment(TableContentAlignment.LEFT);
@@ -118,7 +120,7 @@ public void autoTableContentAlignment() throws Exception
 	doc.save("Your Directory Path" + "WorkingWithMarkdownSaveOptions.RightTableContentAlignment.md", saveOptions);
 	saveOptions.setTableContentAlignment(TableContentAlignment.CENTER);
 	doc.save("Your Directory Path" + "WorkingWithMarkdownSaveOptions.CenterTableContentAlignment.md", saveOptions);
-	// Az igazítás ebben az esetben a megfelelő táblázatoszlop első bekezdéséből történik.
+	// Az igazítás ebben az esetben a megfelelő táblázatoszlop első bekezdésétől lesz elvégezve.
 	saveOptions.setTableContentAlignment(TableContentAlignment.AUTO);
 	doc.save("Your Directory Path" + "WorkingWithMarkdownSaveOptions.AutoTableContentAlignment.md", saveOptions);
 }
@@ -136,32 +138,37 @@ public void setImagesFolder() throws Exception
 
 ## Következtetés
 
-Ebben az útmutatóban megvizsgáltuk, hogyan lehet dokumentumokat Markdown néven menteni az Aspose.Words for Java használatával. Kitértünk egy Word-dokumentum létrehozására, a táblázattartalom-igazítás testreszabására és a képek Markdown-fájlokban való kezelésére. Mostantól hatékonyan konvertálhatja Word-dokumentumait Markdown formátumba, így alkalmassá téve azokat a különböző közzétételi platformokra és dokumentációs igényekre.
+Ebben az útmutatóban azt vizsgáltuk meg, hogyan menthetünk dokumentumokat Markdown formátumban az Aspose.Words for Java segítségével. Áttekintettük a Word-dokumentumok létrehozását, a táblázatok tartalmának igazítását és a képek kezelését a Markdown-fájlokban. Mostantól hatékonyan konvertálhatja Word-dokumentumait Markdown-formátumba, így azok különböző közzétételi platformokhoz és dokumentációs igényekhez igazíthatók.
 
 ## GYIK
 
-### Hogyan telepíthetem az Aspose.Words for Java programot?
+### Hogyan telepíthetem az Aspose.Words-öt Java-hoz?
 
- Az Aspose.Words for Java úgy telepíthető, hogy a könyvtárat belefoglalja a Java projektbe. A könyvtárat innen töltheti le[itt](https://releases.aspose.com/words/java/) és kövesse a dokumentációban található telepítési utasításokat.
+Az Aspose.Words for Java telepíthető a könyvtár Java projektbe való beillesztésével. A könyvtárat innen töltheti le: [itt](https://releases.aspose.com/words/java/) és kövesse a dokumentációban található telepítési utasításokat.
 
-### Konvertálhatok összetett Word-dokumentumokat táblázatokkal és képekkel Markdown-ba?
+### Átalakíthatok összetett, táblázatokat és képeket tartalmazó Word-dokumentumokat Markdown formátumba?
 
-Igen, az Aspose.Words for Java támogatja a táblázatokat, képeket és különféle formázási elemeket tartalmazó összetett Word-dokumentumok Markdown-ba való konvertálását. Testreszabhatja a Markdown kimenetet a dokumentum összetettségének megfelelően.
+Igen, az Aspose.Words for Java támogatja az összetett, táblázatokat, képeket és különféle formázási elemeket tartalmazó Word-dokumentumok Markdown formátumba konvertálását. A Markdown kimenetet a dokumentum összetettségének megfelelően testreszabhatja.
 
-### Hogyan kezelhetem a Markdown fájlokban lévő képeket?
+### Hogyan kezelhetem a képeket a Markdown fájlokban?
 
- Ha képeket szeretne felvenni a Markdown-fájlokba, állítsa be a képek mappa elérési útját a segítségével`setImagesFolder`módszer be`MarkdownSaveOptions`. Győződjön meg arról, hogy a képfájlok a megadott mappában vannak tárolva, és az Aspose.Words for Java ennek megfelelően kezeli a képhivatkozásokat.
+Képek Markdown-fájlokba való felvételéhez állítsa be a képek mappa elérési útját a `setImagesFolder` módszer `MarkdownSaveOptions`Győződjön meg róla, hogy a képfájlok a megadott mappában vannak tárolva, és az Aspose.Words for Java ennek megfelelően fogja kezelni a képhivatkozásokat.
 
-### Elérhető az Aspose.Words for Java próbaverziója?
+### Van elérhető próbaverzió az Aspose.Words-nek Java-hoz?
 
-Igen, beszerezheti az Aspose.Words for Java próbaverzióját az Aspose webhelyéről. A próbaverzió lehetővé teszi a könyvtár képességeinek felmérését a licenc megvásárlása előtt.
+Igen, letöltheti az Aspose.Words for Java próbaverzióját az Aspose weboldaláról. A próbaverzió lehetővé teszi a könyvtár képességeinek kiértékelését a licenc megvásárlása előtt.
 
 ### Hol találok további példákat és dokumentációt?
 
- További példákért, dokumentációért és részletes információkért az Aspose.Words for Java-ról látogassa meg a[dokumentáció](https://reference.aspose.com/words/java/).
+További példákért, dokumentációért és az Aspose.Words for Java részletes információiért kérjük, látogassa meg a következőt: [dokumentáció](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

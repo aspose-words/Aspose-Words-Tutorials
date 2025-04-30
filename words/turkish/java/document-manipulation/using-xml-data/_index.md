@@ -1,14 +1,16 @@
 ---
-title: Aspose.Words for Java'da XML Verilerinin Kullanımı
-linktitle: XML Verilerini Kullanma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Java için Aspose.Words'ün Gücünü Açın. Adım Adım Eğitimlerle XML Veri İşleme, Posta Birleştirme ve Mustache Sözdizimini Öğrenin.
-weight: 12
-url: /tr/java/document-manipulation/using-xml-data/
+"description": "Java için Aspose.Words'ün Gücünü Açın. Adım Adım Eğitimlerle XML Veri İşleme, Posta Birleştirme ve Mustache Sözdizimini Öğrenin."
+"linktitle": "XML Verilerini Kullanma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Aspose.Words for Java'da XML Verilerinin Kullanımı"
+"url": "/tr/java/document-manipulation/using-xml-data/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Words for Java'da XML Verilerinin Kullanımı
@@ -77,14 +79,19 @@ Verilen örneklerde gösterildiği gibi, XML verilerinizin gerekli yapıyı izle
 
 ### Posta birleştirme değerleri için kırpma davranışını özelleştirebilir miyim?
 
- Evet, posta birleştirme sırasında öndeki ve arkadaki boşlukların kırpılıp kırpılmayacağını kontrol edebilirsiniz.`doc.getMailMerge().setTrimWhitespaces(false)`.
+Evet, posta birleştirme sırasında öndeki ve arkadaki boşlukların kırpılıp kırpılmayacağını kontrol edebilirsiniz. `doc.getMailMerge().setTrimWhitespaces(false)`.
 
 ### Mustache söz dizimi nedir ve ne zaman kullanmalıyım?
 
- Mustache sözdizimi, posta birleştirme alanlarını daha esnek bir şekilde biçimlendirmenize olanak tanır.`doc.getMailMerge().setUseNonMergeFields(true)` Mustache sözdizimini etkinleştirmek için.
+Mustache sözdizimi, posta birleştirme alanlarını daha esnek bir şekilde biçimlendirmenize olanak tanır. `doc.getMailMerge().setUseNonMergeFields(true)` Mustache sözdizimini etkinleştirmek için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

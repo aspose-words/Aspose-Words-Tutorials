@@ -1,14 +1,16 @@
 ---
-title: Modyfikuj formatowanie wiersza
-linktitle: Modyfikuj formatowanie wiersza
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak modyfikować formatowanie wierszy w dokumentach Word za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów na każdym poziomie.
-weight: 10
-url: /pl/net/programming-with-table-styles-and-formatting/modify-row-formatting/
+"description": "Dowiedz się, jak modyfikować formatowanie wierszy w dokumentach Word za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów na każdym poziomie."
+"linktitle": "Modyfikuj formatowanie wiersza"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Modyfikuj formatowanie wiersza"
+"url": "/pl/net/programming-with-table-styles-and-formatting/modify-row-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Modyfikuj formatowanie wiersza
@@ -21,7 +23,7 @@ Czy kiedykolwiek musiałeś zmienić formatowanie wierszy w dokumentach Word? Mo
 
 Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-- Biblioteka Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/words/net/).
+- Biblioteka Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Należy skonfigurować środowisko programistyczne, np. Visual Studio.
 - Podstawowa wiedza o języku C#: W tym samouczku zakładamy, że posiadasz podstawową wiedzę na temat programowania w języku C#.
 - Przykładowy dokument: Użyjemy przykładowego dokumentu Word o nazwie „Tables.docx”. Upewnij się, że masz ten dokument w katalogu swojego projektu.
@@ -41,13 +43,13 @@ using Aspose.Words.Tables;
 Po pierwsze, musimy załadować dokument Word, z którym będziemy pracować. To jest miejsce, w którym Aspose.Words się wyróżnia, umożliwiając łatwą manipulację dokumentami Word programowo.
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- W tym kroku zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do dokumentu. Ten fragment kodu ładuje plik „Tables.docx” do`Document` obiektu, przygotowując go do dalszej manipulacji.
+W tym kroku zastąp `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do dokumentu. Ten fragment kodu ładuje plik „Tables.docx” do `Document` obiektu, przygotowując go do dalszej manipulacji.
 
 ## Krok 2: Uzyskaj dostęp do tabeli
 
@@ -57,7 +59,7 @@ Następnie musimy uzyskać dostęp do tabeli w dokumencie. Aspose.Words zapewnia
 Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 ```
 
-Tutaj pobieramy pierwszą tabelę w dokumencie.`GetChild` Metoda ta służy do znajdowania węzła tabeli, przy czym`NodeType.Table` określając typ węzła, którego szukamy.`0` oznacza, że chcemy pierwszą tabelę i`true` zapewnia przeszukanie całego dokumentu.
+Tutaj pobieramy pierwszą tabelę w dokumencie. `GetChild` Metoda ta służy do znajdowania węzła tabeli, przy czym `NodeType.Table` określając typ węzła, którego szukamy. `0` oznacza, że chcemy pierwszą tabelę i `true` zapewnia przeszukanie całego dokumentu.
 
 ## Krok 3: Pobierz pierwszy wiersz
 
@@ -67,7 +69,7 @@ Mając teraz dostęp do tabeli, następnym krokiem jest pobranie pierwszego wier
 Row firstRow = table.FirstRow;
 ```
 
- Ten`FirstRow` Właściwość daje nam pierwszy wiersz w tabeli. Teraz jesteśmy gotowi, aby rozpocząć modyfikowanie jego formatowania.
+Ten `FirstRow` Właściwość daje nam pierwszy wiersz w tabeli. Teraz jesteśmy gotowi, aby rozpocząć modyfikowanie jego formatowania.
 
 ## Krok 4: Modyfikuj obramowania wierszy
 
@@ -77,9 +79,9 @@ Zacznijmy od modyfikacji obramowań pierwszego rzędu. Obramowania mogą znaczą
 firstRow.RowFormat.Borders.LineStyle = LineStyle.None;
 ```
 
- W tym wierszu kodu ustawiamy`LineStyle` granic do`None`, skutecznie usuwając wszelkie obramowania z pierwszego rzędu. Może to być przydatne, jeśli chcesz uzyskać czysty, bezramkowy wygląd rzędu nagłówka.
+W tym wierszu kodu ustawiamy `LineStyle` granic do `None`skutecznie usuwając wszelkie obramowania z pierwszego rzędu. Może to być przydatne, jeśli chcesz uzyskać czysty, bezobramkowy wygląd rzędu nagłówka.
 
-## Krok 5: Dostosuj wysokość rzędu
+## Krok 5: Dostosuj wysokość wiersza
 
 Następnie dostosujemy wysokość pierwszego wiersza. Czasami możesz chcieć ustawić wysokość na określoną wartość lub pozwolić jej dostosować się automatycznie na podstawie zawartości.
 
@@ -87,7 +89,7 @@ Następnie dostosujemy wysokość pierwszego wiersza. Czasami możesz chcieć us
 firstRow.RowFormat.HeightRule = HeightRule.Auto;
 ```
 
- Tutaj używamy`HeightRule` właściwość do ustawienia reguły wysokości`Auto`. Dzięki temu wysokość wiersza może być automatycznie dostosowywana do zawartości komórek.
+Tutaj używamy `HeightRule` właściwość do ustawienia reguły wysokości `Auto`. Dzięki temu wysokość wiersza może być automatycznie dostosowywana do zawartości komórek.
 
 ## Krok 6: Zezwól na podział wierszy na strony
 
@@ -97,7 +99,7 @@ Na koniec upewnimy się, że wiersz może być podzielony na strony. Jest to szc
 firstRow.RowFormat.AllowBreakAcrossPages = true;
 ```
 
- Ustawienie`AllowBreakAcrossPages` Do`true` umożliwia podział wiersza na strony, jeśli jest to konieczne. Dzięki temu tabela zachowuje swoją strukturę nawet wtedy, gdy obejmuje wiele stron.
+Ustawienie `AllowBreakAcrossPages` Do `true` umożliwia podział wiersza na strony, jeśli jest to konieczne. Dzięki temu tabela zachowuje swoją strukturę nawet wtedy, gdy obejmuje wiele stron.
 
 ## Wniosek
 
@@ -112,16 +114,21 @@ Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programistom tw
 Tak, możesz przeglądać wiersze w tabeli i stosować zmiany formatowania do każdego wiersza osobno.
 
 ### Jak dodać obramowania do wiersza?
- Możesz dodać obramowania, ustawiając`LineStyle` własność`Borders` obiekt do pożądanego stylu, takiego jak`LineStyle.Single`.
+Możesz dodać obramowania, ustawiając `LineStyle` własność `Borders` obiekt do pożądanego stylu, takiego jak `LineStyle.Single`.
 
 ### Czy mogę ustawić stałą wysokość wiersza?
- Tak, możesz ustawić stałą wysokość za pomocą`HeightRule` właściwość i określenie wartości wysokości.
+Tak, możesz ustawić stałą wysokość za pomocą `HeightRule` właściwość i określenie wartości wysokości.
 
 ### Czy można stosować różne formatowanie w różnych częściach dokumentu?
 Oczywiście! Aspose.Words dla .NET zapewnia szerokie wsparcie dla formatowania poszczególnych sekcji, akapitów i elementów w dokumencie.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

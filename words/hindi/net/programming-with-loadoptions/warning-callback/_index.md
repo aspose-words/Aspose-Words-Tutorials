@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ में चेतावनी कॉलबैक
-linktitle: वर्ड दस्तावेज़ में चेतावनी कॉलबैक
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: हमारे चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में चेतावनियों को पकड़ना और संभालना सीखें। मज़बूत दस्तावेज़ प्रसंस्करण सुनिश्चित करें।
-weight: 10
-url: /hi/net/programming-with-loadoptions/warning-callback/
+"description": "हमारे चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में चेतावनियों को पकड़ना और संभालना सीखें। मज़बूत दस्तावेज़ प्रसंस्करण सुनिश्चित करें।"
+"linktitle": "वर्ड दस्तावेज़ में चेतावनी कॉलबैक"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड दस्तावेज़ में चेतावनी कॉलबैक"
+"url": "/hi/net/programming-with-loadoptions/warning-callback/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ में चेतावनी कॉलबैक
@@ -23,8 +25,8 @@ url: /hi/net/programming-with-loadoptions/warning-callback/
 
 - C# प्रोग्रामिंग का बुनियादी ज्ञान
 - आपकी मशीन पर Visual Studio स्थापित है
--  .NET लाइब्रेरी के लिए Aspose.Words (आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/))
--  Aspose.Words के लिए वैध लाइसेंस (यदि आपके पास नहीं है, तो प्राप्त करें)[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/))
+- .NET लाइब्रेरी के लिए Aspose.Words (आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/))
+- Aspose.Words के लिए वैध लाइसेंस (यदि आपके पास नहीं है, तो प्राप्त करें) [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/))
 
 ## नामस्थान आयात करें
 
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 ## चरण 2: चेतावनी कॉलबैक के साथ लोडिंग विकल्प कॉन्फ़िगर करें
 
- इसके बाद, दस्तावेज़ के लिए लोडिंग विकल्प कॉन्फ़िगर करें। इसमें एक बनाना शामिल है`LoadOptions` वस्तु और उसकी स्थापना`WarningCallback` संपत्ति।
+इसके बाद, दस्तावेज़ के लिए लोडिंग विकल्प कॉन्फ़िगर करें। इसमें एक बनाना शामिल है `LoadOptions` वस्तु और उसकी स्थापना `WarningCallback` संपत्ति।
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions
@@ -60,7 +62,7 @@ LoadOptions loadOptions = new LoadOptions
 
 ## चरण 3: कॉलबैक फ़ंक्शन का उपयोग करके दस्तावेज़ लोड करें
 
- अब, दस्तावेज़ को लोड करें`LoadOptions` चेतावनी कॉलबैक के साथ कॉन्फ़िगर किया गया ऑब्जेक्ट.
+अब, दस्तावेज़ को लोड करें `LoadOptions` चेतावनी कॉलबैक के साथ कॉन्फ़िगर किया गया ऑब्जेक्ट.
 
 ```csharp
 Document doc = new Document(dataDir + "Document.docx", loadOptions);
@@ -68,7 +70,7 @@ Document doc = new Document(dataDir + "Document.docx", loadOptions);
 
 ## चरण 4: चेतावनी कॉलबैक क्लास को लागू करें
 
- एक ऐसा वर्ग बनाएं जो कार्यान्वित करता है`IWarningCallback` इंटरफ़ेस। यह वर्ग परिभाषित करेगा कि दस्तावेज़ प्रसंस्करण के दौरान चेतावनियों को कैसे संभाला जाता है।
+एक ऐसा वर्ग बनाएं जो कार्यान्वित करता है `IWarningCallback` इंटरफ़ेस। यह वर्ग परिभाषित करेगा कि दस्तावेज़ प्रसंस्करण के दौरान चेतावनियों को कैसे संभाला जाता है।
 
 ```csharp
 private class DocumentLoadingWarningCallback : IWarningCallback
@@ -100,19 +102,24 @@ private class DocumentLoadingWarningCallback : IWarningCallback
 चेतावनी कॉलबैक आपको दस्तावेज़ प्रसंस्करण के दौरान होने वाली चेतावनियों को पकड़ने और संभालने की अनुमति देता है, जिससे आपको संभावित समस्याओं को पहले से ही संबोधित करने में मदद मिलती है।
 
 ### मैं चेतावनी कॉलबैक सुविधा कैसे सेट करूँ?
- आपको कॉन्फ़िगर करने की आवश्यकता है`LoadOptions` साथ`WarningCallback` संपत्ति और एक वर्ग को लागू करना जो चेतावनियों को लागू करके संभालता है`IWarningCallback` इंटरफ़ेस.
+आपको कॉन्फ़िगर करने की आवश्यकता है `LoadOptions` साथ `WarningCallback` संपत्ति और एक वर्ग को लागू करना जो चेतावनियों को लागू करके संभालता है `IWarningCallback` इंटरफ़ेस.
 
 ### क्या मैं वैध लाइसेंस के बिना चेतावनी कॉलबैक सुविधा का उपयोग कर सकता हूं?
- आप इसे निःशुल्क परीक्षण संस्करण के साथ उपयोग कर सकते हैं, लेकिन पूर्ण कार्यक्षमता के लिए, वैध लाइसेंस प्राप्त करना अनुशंसित है।[अस्थायी लाइसेंस यहाँ](https://purchase.aspose.com/temporary-license/).
+आप इसे निःशुल्क परीक्षण संस्करण के साथ उपयोग कर सकते हैं, लेकिन पूर्ण कार्यक्षमता के लिए, वैध लाइसेंस प्राप्त करना अनुशंसित है। [अस्थायी लाइसेंस यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### दस्तावेजों को संसाधित करते समय मुझे किस प्रकार की चेतावनियों की उम्मीद करनी चाहिए?
 चेतावनियों में असमर्थित सुविधाओं, स्वरूपण असंगतियों, या अन्य दस्तावेज़-विशिष्ट समस्याओं से संबंधित मुद्दे शामिल हो सकते हैं।
 
 ### मैं Aspose.Words for .NET के बारे में अधिक जानकारी कहां पा सकता हूं?
- आप इसका संदर्भ ले सकते हैं[प्रलेखन](https://reference.aspose.com/words/net/) विस्तृत जानकारी और उदाहरण के लिए.
+आप इसका संदर्भ ले सकते हैं [प्रलेखन](https://reference.aspose.com/words/net/) विस्तृत जानकारी और उदाहरण के लिए.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

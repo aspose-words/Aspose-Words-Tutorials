@@ -1,33 +1,35 @@
 ---
-title: Zaškrtněte Textový efekt DrawingML
-linktitle: Zaškrtněte Textový efekt DrawingML
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak zkontrolovat textové efekty DrawingML v dokumentech Word pomocí Aspose.Words for .NET s naším podrobným průvodcem krok za krokem. Vylepšete své dokumenty snadno.
-weight: 10
-url: /cs/net/working-with-fonts/check-drawingml-text-effect/
+"description": "Naučte se, jak kontrolovat textové efekty DrawingML v dokumentech Word pomocí Aspose.Words pro .NET s naším podrobným návodem krok za krokem. Vylepšete své dokumenty snadno."
+"linktitle": "Zkontrolujte textový efekt DrawingML"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Zkontrolujte textový efekt DrawingML"
+"url": "/cs/net/working-with-fonts/check-drawingml-text-effect/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zaškrtněte Textový efekt DrawingML
+# Zkontrolujte textový efekt DrawingML
 
 ## Zavedení
 
-Vítejte v dalším podrobném návodu na práci s Aspose.Words pro .NET! Dnes se ponoříme do fascinujícího světa textových efektů DrawingML. Ať už chcete vylepšit své dokumenty aplikace Word pomocí stínů, odrazů nebo 3D efektů, tato příručka vám ukáže, jak tyto textové efekty ve vašich dokumentech zkontrolovat pomocí Aspose.Words for .NET. Začněme!
+Vítejte u dalšího podrobného tutoriálu o práci s Aspose.Words pro .NET! Dnes se ponoříme do fascinujícího světa textových efektů DrawingML. Ať už chcete vylepšit své dokumenty Word stíny, odrazy nebo 3D efekty, tento průvodce vám ukáže, jak tyto textové efekty ve vašich dokumentech zkontrolovat pomocí Aspose.Words pro .NET. Pojďme na to!
 
 ## Předpoklady
 
-Než se pustíme do výukového programu, je třeba splnit několik předpokladů:
+Než se pustíme do tutoriálu, je třeba splnit několik předpokladů:
 
--  Knihovna Aspose.Words for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words for .NET. Můžete si jej stáhnout z[Aspose stránku vydání](https://releases.aspose.com/words/net/).
-- Vývojové prostředí: Měli byste mít nastavené vývojové prostředí, jako je Visual Studio.
+- Knihovna Aspose.Words pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words pro .NET. Můžete si ji stáhnout z [Stránka s vydáním Aspose](https://releases.aspose.com/words/net/).
+- Vývojové prostředí: Měli byste mít nastavené vývojové prostředí, například Visual Studio.
 - Základní znalost C#: Určitá znalost programování v C# bude užitečná.
 
 ## Importovat jmenné prostory
 
-Nejprve musíte importovat potřebné jmenné prostory. Tyto jmenné prostory vám umožní přístup ke třídám a metodám potřebným pro manipulaci s dokumenty Wordu a kontrolu textových efektů DrawingML.
+Nejprve je třeba importovat potřebné jmenné prostory. Tyto jmenné prostory vám poskytnou přístup ke třídám a metodám potřebným pro manipulaci s dokumenty Word a kontrolu textových efektů DrawingML.
 
 ```csharp
 using System;
@@ -35,44 +37,44 @@ using Aspose.Words;
 using Aspose.Words.Drawing;
 ```
 
-## Podrobný průvodce kontrolou textových efektů DrawingML
+## Podrobný návod ke kontrole textových efektů v DrawingML
 
-Nyní si tento proces rozdělíme do několika kroků, aby bylo snazší jej sledovat.
+Nyní si celý proces rozdělme do několika kroků, abychom vám usnadnili jeho sledování.
 
-## Krok 1: Vložte dokument
+## Krok 1: Vložení dokumentu
 
-Prvním krokem je načtení dokumentu aplikace Word, u kterého chcete zkontrolovat textové efekty DrawingML. 
+Prvním krokem je načtení dokumentu Word, ve kterém chcete zkontrolovat textové efekty DrawingML. 
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "DrawingML text effects.docx");
 ```
 
-Tento fragment kódu načte dokument s názvem "DrawingML text effects.docx" z vašeho zadaného adresáře.
+Tento úryvek kódu načte dokument s názvem „DrawingML text effects.docx“ ze zadaného adresáře.
 
-## Krok 2: Vstupte do kolekce Runs
+## Krok 2: Přístup ke kolekci běhů
 
-Dále musíme získat přístup ke kolekci běhů v prvním odstavci dokumentu. Běhy jsou části textu se stejným formátováním.
+Dále potřebujeme přístup ke kolekci úseček (runs) v prvním odstavci dokumentu. Úsečky (runs) jsou části textu se stejným formátováním.
 
 ```csharp
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 ```
 
-Tento řádek kódu načte běhy z prvního odstavce v první sekci dokumentu.
+Tento řádek kódu načte sekvence z prvního odstavce v první části dokumentu.
 
-## Krok 3: Získejte písmo prvního spuštění
+## Krok 3: Získejte písmo pro první spuštění
 
-Nyní získáme vlastnosti písma prvního spuštění v kolekci běhů. To nám umožňuje kontrolovat různé textové efekty DrawingML aplikované na text.
+Nyní získáme vlastnosti písma prvního spuštění v kolekci spuštění. To nám umožní zkontrolovat, zda na text byly použity různé textové efekty DrawingML.
 
 ```csharp
 Font runFont = runs[0].Font;
 ```
 
-## Krok 4: Zkontrolujte textové efekty DrawingML
+## Krok 4: Kontrola textových efektů DrawingML
 
-Nakonec můžeme zkontrolovat různé textové efekty DrawingML, jako je stín, 3D efekt, odraz, obrys a výplň.
+Nakonec můžeme zkontrolovat různé textové efekty DrawingML, jako například stín, 3D efekt, odraz, obrys a výplň.
 
 ```csharp
 Console.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Shadow));
@@ -82,32 +84,37 @@ Console.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Outline));
 Console.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Fill));
 ```
 
- Tyto řádky kódu se vytisknou`true` nebo`false` v závislosti na tom, zda je každý konkrétní textový efekt DrawingML aplikován na písmo běhu.
+Tyto řádky kódu se vytisknou `true` nebo `false` v závislosti na tom, zda je na písmo běhu aplikován každý konkrétní textový efekt DrawingML.
 
 ## Závěr
 
-Gratuluji! Právě jste se naučili, jak zkontrolovat textové efekty DrawingML v dokumentech aplikace Word pomocí Aspose.Words for .NET. Tato výkonná funkce vám umožňuje programově detekovat a manipulovat se sofistikovaným formátováním textu, což vám dává větší kontrolu nad vašimi úkoly zpracování dokumentů.
+Gratulujeme! Právě jste se naučili, jak kontrolovat textové efekty DrawingML v dokumentech Word pomocí Aspose.Words pro .NET. Tato výkonná funkce vám umožňuje programově detekovat a manipulovat se sofistikovaným formátováním textu, což vám dává větší kontrolu nad úlohami zpracování dokumentů.
 
 
-## FAQ
+## Často kladené otázky
 
 ### Co je textový efekt DrawingML?
-Textové efekty DrawingML jsou pokročilé možnosti formátování textu v dokumentech aplikace Word, včetně stínů, 3D efektů, odrazů, obrysů a výplní.
+Textové efekty DrawingML jsou pokročilé možnosti formátování textu v dokumentech Wordu, včetně stínů, 3D efektů, odrazů, obrysů a výplní.
 
-### Mohu použít textové efekty DrawingML pomocí Aspose.Words for .NET?
-Ano, Aspose.Words for .NET vám umožňuje programově kontrolovat a aplikovat textové efekty DrawingML.
+### Mohu aplikovat textové efekty DrawingML pomocí Aspose.Words pro .NET?
+Ano, Aspose.Words pro .NET umožňuje programově kontrolovat a aplikovat textové efekty DrawingML.
 
 ### Potřebuji licenci k používání Aspose.Words pro .NET?
- Ano, Aspose.Words for .NET vyžaduje licenci pro plnou funkčnost. Můžete získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro hodnocení.
+Ano, Aspose.Words pro .NET vyžaduje pro plnou funkčnost licenci. Můžete si ji pořídit. [dočasná licence](https://purchase.aspose.com/temporary-license/) pro hodnocení.
 
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Words pro .NET?
- Ano, můžete si stáhnout a[zkušební verze zdarma](https://releases.aspose.com/) k vyzkoušení Aspose.Words for .NET před nákupem.
+Ano, můžete si stáhnout [bezplatná zkušební verze](https://releases.aspose.com/) vyzkoušet Aspose.Words pro .NET před zakoupením.
 
 ### Kde najdu další dokumentaci k Aspose.Words pro .NET?
- Podrobnou dokumentaci najdete na[Stránka dokumentace Aspose.Words for .NET](https://reference.aspose.com/words/net/).
+Podrobnou dokumentaci naleznete na [Dokumentace k Aspose.Words pro .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

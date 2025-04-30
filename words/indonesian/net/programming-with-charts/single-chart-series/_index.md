@@ -1,14 +1,16 @@
 ---
-title: Kustomisasi Seri Bagan Tunggal Dalam Bagan
-linktitle: Kustomisasi Seri Bagan Tunggal Dalam Bagan
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyesuaikan rangkaian bagan tunggal dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk pengalaman yang lancar.
-weight: 10
-url: /id/net/programming-with-charts/single-chart-series/
+"description": "Pelajari cara menyesuaikan rangkaian bagan tunggal dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk pengalaman yang lancar."
+"linktitle": "Kustomisasi Seri Bagan Tunggal Dalam Bagan"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Kustomisasi Seri Bagan Tunggal Dalam Bagan"
+"url": "/id/net/programming-with-charts/single-chart-series/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kustomisasi Seri Bagan Tunggal Dalam Bagan
@@ -21,8 +23,8 @@ Hai! Pernahkah Anda ingin mempercantik dokumen Word Anda dengan beberapa bagan y
 
 Sebelum kita mulai, mari kita pastikan kita memiliki semua yang kita butuhkan. Berikut ini daftar periksa singkatnya:
 
-1.  Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
-2. Visual Studio: Versi terbaru apa pun seharusnya dapat berfungsi.
+1. Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
+2. Visual Studio: Versi terbaru apa pun seharusnya bisa berfungsi.
 3. Pemahaman Dasar tentang C#: Tidak terlalu rumit, dasar-dasar saja sudah cukup.
 
 ## Mengimpor Ruang Nama
@@ -102,7 +104,7 @@ series1.Marker.Size = 10;
 
 ## Langkah 8: Simpan Dokumen Anda
 
-Terakhir, mari kita simpan dokumen kita. Di sinilah kita mengagumi hasil kerja kita.
+Terakhir, mari kita simpan dokumen kita. Di sinilah kita mengagumi hasil karya kita.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithCharts.SingleChartSeries.docx");
@@ -117,20 +119,25 @@ Nah, itu dia! Anda telah berhasil menyesuaikan satu rangkaian bagan dalam dokume
 ### Apa itu Aspose.Words untuk .NET?
 Aspose.Words untuk .NET adalah pustaka hebat yang memungkinkan Anda membuat, mengedit, mengonversi, dan memanipulasi dokumen Word secara terprogram.
 
-### Dapatkah saya menggunakan Aspose.Words secara gratis?
-Ya, Anda bisa memulai dengan[uji coba gratis](https://releases.aspose.com/).
+### Bisakah saya menggunakan Aspose.Words secara gratis?
+Ya, Anda bisa memulai dengan [uji coba gratis](https://releases.aspose.com/).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.Words?
- Anda bisa mendapatkan dukungan dari komunitas Aspose di[forum](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari komunitas Aspose di [forum](https://forum.aspose.com/c/words/8).
 
 ### Apakah mungkin untuk menyesuaikan jenis grafik lainnya?
 Tentu saja! Aspose.Words mendukung berbagai jenis bagan seperti bagan batang, pai, dan sebaran.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Lihat di sini[dokumentasi](https://reference.aspose.com/words/net/) untuk panduan dan contoh yang lebih rinci.
+Lihat di sini [dokumentasi](https://reference.aspose.com/words/net/) untuk panduan dan contoh yang lebih rinci.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

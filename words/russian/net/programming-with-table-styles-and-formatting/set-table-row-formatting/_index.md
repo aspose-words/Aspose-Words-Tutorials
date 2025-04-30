@@ -1,14 +1,16 @@
 ---
-title: Установить форматирование строк таблицы
-linktitle: Установить форматирование строк таблицы
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как задать форматирование строк таблицы в документах Word с помощью Aspose.Words для .NET с помощью нашего руководства. Идеально подходит для создания хорошо отформатированных и профессиональных документов.
-weight: 10
-url: /ru/net/programming-with-table-styles-and-formatting/set-table-row-formatting/
+"description": "Узнайте, как задать форматирование строк таблицы в документах Word с помощью Aspose.Words для .NET с помощью нашего руководства. Идеально подходит для создания хорошо отформатированных и профессиональных документов."
+"linktitle": "Установить форматирование строк таблицы"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Установить форматирование строк таблицы"
+"url": "/ru/net/programming-with-table-styles-and-formatting/set-table-row-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Установить форматирование строк таблицы
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-table-styles-and-formatting/set-table-row-formatti
 
 Прежде чем приступить к обучению, убедитесь, что у вас выполнены следующие предварительные условия:
 
-1.  Aspose.Words для .NET — если вы еще этого не сделали, загрузите и установите его с сайта[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET — если вы еще этого не сделали, загрузите и установите его с сайта [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки — любая IDE, например Visual Studio, поддерживающая .NET.
 3. Базовые знания C#. Понимание основных концепций C# поможет вам легко освоить материал.
 
@@ -50,7 +52,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Шаг 2: Начните таблицу
 
- Далее вы начнете создавать таблицу.`DocumentBuilder` класс предоставляет простой способ вставки и форматирования таблиц.
+Далее вы начнете создавать таблицу. `DocumentBuilder` класс предоставляет простой способ вставки и форматирования таблиц.
 
 ```csharp
 Table table = builder.StartTable();
@@ -103,23 +105,28 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableR
 ## Часто задаваемые вопросы
 
 ### Можно ли задать разное форматирование для каждой строки таблицы?
- Да, вы можете задать индивидуальное форматирование для каждой строки, применив разные`RowFormat` свойства для каждой создаваемой вами строки.
+Да, вы можете задать индивидуальное форматирование для каждой строки, применив разные `RowFormat` свойства для каждой создаваемой вами строки.
 
 ### Можно ли добавлять в ячейки таблицы другие элементы, например изображения?
- Конечно! Вы можете вставлять изображения, фигуры и другие элементы в ячейки таблицы с помощью`DocumentBuilder` сорт.
+Конечно! Вы можете вставлять изображения, фигуры и другие элементы в ячейки таблицы с помощью `DocumentBuilder` сорт.
 
 ### Как изменить выравнивание текста в ячейках таблицы?
- Вы можете изменить выравнивание текста, установив`ParagraphFormat.Alignment` собственность`DocumentBuilder` объект.
+Вы можете изменить выравнивание текста, установив `ParagraphFormat.Alignment` собственность `DocumentBuilder` объект.
 
 ### Можно ли объединить ячейки в таблице с помощью Aspose.Words для .NET?
- Да, вы можете объединить ячейки, используя`CellFormat.HorizontalMerge` и`CellFormat.VerticalMerge` характеристики.
+Да, вы можете объединить ячейки, используя `CellFormat.HorizontalMerge` и `CellFormat.VerticalMerge` характеристики.
 
 ### Есть ли способ оформить таблицу с помощью предопределенных стилей?
- Да, Aspose.Words для .NET позволяет применять предопределенные стили таблиц с помощью`Table.Style` свойство.
+Да, Aspose.Words для .NET позволяет применять предопределенные стили таблиц с помощью `Table.Style` свойство.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

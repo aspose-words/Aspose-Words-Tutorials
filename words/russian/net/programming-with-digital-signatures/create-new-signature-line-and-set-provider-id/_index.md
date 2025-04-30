@@ -1,14 +1,16 @@
 ---
-title: Создать новую строку подписи и задать идентификатор поставщика
-linktitle: Создать новую строку подписи и задать идентификатор поставщика
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как создать новую строку подписи и задать идентификатор поставщика в документах Word с помощью Aspose.Words для .NET. Пошаговое руководство.
-weight: 10
-url: /ru/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/
+"description": "Узнайте, как создать новую строку подписи и задать идентификатор поставщика в документах Word с помощью Aspose.Words для .NET. Пошаговое руководство."
+"linktitle": "Создать новую строку подписи и задать идентификатор поставщика"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Создать новую строку подписи и задать идентификатор поставщика"
+"url": "/ru/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создать новую строку подписи и задать идентификатор поставщика
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-digital-signatures/create-new-signature-line-and-s
 
 Прежде чем приступить к работе, давайте убедимся, что у нас есть все необходимое:
 
-1.  Aspose.Words для .NET: если вы еще этого не сделали, загрузите его[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: если вы еще этого не сделали, загрузите его [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая другая среда разработки C#.
 3. .NET Framework: Убедитесь, что у вас установлен .NET Framework.
 4. Сертификат PFX: Для подписи документов вам понадобится сертификат PFX. Вы можете получить его в доверенном центре сертификации.
@@ -50,7 +52,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- В этом фрагменте мы инициализируем новый`Document` и а`DocumentBuilder` .`DocumentBuilder` помогает нам добавлять элементы в наш документ.
+В этом фрагменте мы инициализируем новый `Document` и а `DocumentBuilder`. `DocumentBuilder` помогает нам добавлять элементы в наш документ.
 
 ## Шаг 2: Определите параметры строки подписи
 
@@ -80,7 +82,7 @@ SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).
 signatureLine.ProviderId = Guid.Parse("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2");
 ```
 
- Здесь,`InsertSignatureLine` Метод добавляет строку подписи, и мы присваиваем ей уникальный идентификатор провайдера.
+Здесь, `InsertSignatureLine` Метод добавляет строку подписи, и мы присваиваем ей уникальный идентификатор провайдера.
 
 ## Шаг 4: Сохраните документ.
 
@@ -116,7 +118,7 @@ SignOptions signOptions = new SignOptions
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
 ```
 
- Обязательно замените`"morzal.pfx"` с вашим фактическим файлом сертификата и`"aw"` с паролем вашего сертификата.
+Обязательно замените `"morzal.pfx"` с вашим фактическим файлом сертификата и `"aw"` с паролем вашего сертификата.
 
 ## Шаг 7: Подпишите документ
 
@@ -136,7 +138,7 @@ DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLineProviderId.docx"
 ## Часто задаваемые вопросы
 
 ### Могу ли я настроить внешний вид строки подписи?
- Конечно! Вы можете настроить различные параметры в`SignatureLineOptions`в соответствии с вашими потребностями.
+Конечно! Вы можете настроить различные параметры в `SignatureLineOptions` в соответствии с вашими потребностями.
 
 ### Что делать, если у меня нет сертификата PFX?
 Вам нужно будет получить его от доверенного центра сертификации. Это необходимо для цифровой подписи документов.
@@ -149,9 +151,14 @@ DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLineProviderId.docx"
 
 ### Насколько безопасны цифровые подписи?
 Цифровые подписи, созданные с помощью Aspose.Words, обладают высокой степенью безопасности при условии использования действительного и доверенного сертификата.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

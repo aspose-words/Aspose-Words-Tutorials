@@ -1,14 +1,16 @@
 ---
-title: Menambahkan Konten menggunakan DocumentBuilder di Aspose.Words untuk Java
-linktitle: Menambahkan Konten menggunakan DocumentBuilder
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Kuasai Pembuatan Dokumen dengan Aspose.Words untuk Java. Panduan Langkah demi Langkah untuk Menambahkan Teks, Tabel, Gambar, dan Lainnya. Buat Dokumen Word yang Menakjubkan dengan Mudah.
-weight: 26
-url: /id/java/document-manipulation/adding-content-using-documentbuilder/
+"description": "Kuasai Pembuatan Dokumen dengan Aspose.Words untuk Java. Panduan Langkah demi Langkah untuk Menambahkan Teks, Tabel, Gambar, dan Lainnya. Buat Dokumen Word yang Menakjubkan dengan Mudah."
+"linktitle": "Menambahkan Konten menggunakan DocumentBuilder"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menambahkan Konten menggunakan DocumentBuilder di Aspose.Words untuk Java"
+"url": "/id/java/document-manipulation/adding-content-using-documentbuilder/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menambahkan Konten menggunakan DocumentBuilder di Aspose.Words untuk Java
@@ -20,7 +22,7 @@ Dalam panduan langkah demi langkah ini, kita akan menjelajahi cara menggunakan A
 
 ## Prasyarat
 
- Sebelum memulai, pastikan Anda telah menyiapkan pustaka Aspose.Words untuk Java di proyek Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/java/).
+Sebelum memulai, pastikan Anda telah menyiapkan pustaka Aspose.Words untuk Java di proyek Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/java/).
 
 ## Menambahkan Teks
 
@@ -41,7 +43,7 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-//Mulai tabel
+// Mulai tabel
 Table table = builder.startTable();
 
 // Sisipkan sel dan konten
@@ -221,7 +223,7 @@ doc.save("path/to/your/document.docx");
 
 ## Langkah 10: Memindahkan Kursor
 
- Anda dapat mengontrol posisi kursor dalam dokumen menggunakan berbagai metode seperti`moveToParagraph`, `moveToCell`dan masih banyak lagi. Berikut contohnya:
+Anda dapat mengontrol posisi kursor dalam dokumen menggunakan berbagai metode seperti `moveToParagraph`Bahasa Indonesia: `moveToCell`, dan masih banyak lagi. Berikut contohnya:
 
 ```java
 Document doc = new Document();
@@ -249,7 +251,7 @@ J: Aspose.Words untuk Java adalah pustaka Java yang memungkinkan pengembang memb
 
 ### T: Bagaimana cara menambahkan daftar isi ke dokumen saya?
 
-A: Untuk menambahkan daftar isi, gunakan`DocumentBuilder` untuk memasukkan kolom daftar isi ke dalam dokumen Anda. Pastikan untuk memperbarui kolom dalam dokumen setelah menambahkan konten untuk mengisi daftar isi. Berikut contohnya:
+A: Untuk menambahkan daftar isi, gunakan `DocumentBuilder` untuk memasukkan kolom daftar isi ke dalam dokumen Anda. Pastikan untuk memperbarui kolom dalam dokumen setelah menambahkan konten untuk mengisi daftar isi. Berikut contohnya:
 
 ```java
 Document doc = new Document();
@@ -267,7 +269,7 @@ doc.updateFields();
 
 ### T: Bagaimana cara menyisipkan gambar ke dalam dokumen menggunakan Aspose.Words untuk Java?
 
- A: Anda dapat menyisipkan gambar, baik inline maupun floating, menggunakan`DocumentBuilder`Berikut adalah contoh keduanya:
+A: Anda dapat menyisipkan gambar, baik inline maupun floating, menggunakan `DocumentBuilder`Berikut adalah contoh keduanya:
 
 #### Gambar Sebaris:
 
@@ -291,7 +293,7 @@ builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN,
 
 ### T: Dapatkah saya memformat teks dan paragraf saat menambahkan konten?
 
- A: Ya, Anda dapat memformat teks dan paragraf menggunakan`DocumentBuilder`Anda dapat mengatur properti font, perataan paragraf, indentasi, dan banyak lagi. Berikut contohnya:
+A: Ya, Anda dapat memformat teks dan paragraf menggunakan `DocumentBuilder`Anda dapat mengatur properti font, perataan paragraf, indentasi, dan banyak lagi. Berikut contohnya:
 
 ```java
 Document doc = new Document();
@@ -316,7 +318,7 @@ builder.writeln("This is a formatted paragraph.");
 
 ### T: Bagaimana cara memindahkan kursor ke lokasi tertentu dalam dokumen?
 
- A: Anda dapat mengontrol posisi kursor menggunakan metode seperti`moveToParagraph`, `moveToCell`dan masih banyak lagi. Berikut contohnya:
+A: Anda dapat mengontrol posisi kursor menggunakan metode seperti `moveToParagraph`Bahasa Indonesia: `moveToCell`, dan masih banyak lagi. Berikut contohnya:
 
 ```java
 Document doc = new Document();
@@ -329,10 +331,15 @@ builder.moveToParagraph(2, 0);
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-Berikut ini adalah beberapa pertanyaan umum dan jawaban untuk membantu Anda memulai dengan Aspose.Words untuk Java's DocumentBuilder. Jika Anda memiliki pertanyaan lebih lanjut atau memerlukan bantuan lebih lanjut, lihat[dokumentasi perpustakaan](https://reference.aspose.com/words/java/) atau mencari bantuan dari komunitas Aspose.Words dan sumber daya dukungan.
+Berikut ini adalah beberapa pertanyaan umum dan jawaban untuk membantu Anda memulai dengan Aspose.Words untuk Java's DocumentBuilder. Jika Anda memiliki pertanyaan lebih lanjut atau memerlukan bantuan lebih lanjut, lihat [dokumentasi perpustakaan](https://reference.aspose.com/words/java/) atau mencari bantuan dari komunitas Aspose.Words dan sumber daya dukungan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

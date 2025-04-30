@@ -1,14 +1,16 @@
 ---
-title: Dostosuj pojedynczą serię wykresów na wykresie
-linktitle: Dostosuj pojedynczą serię wykresów na wykresie
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dostosować pojedynczą serię wykresów w dokumencie Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemowe działanie.
-weight: 10
-url: /pl/net/programming-with-charts/single-chart-series/
+"description": "Dowiedz się, jak dostosować pojedynczą serię wykresów w dokumencie Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemowe działanie."
+"linktitle": "Dostosuj pojedynczą serię wykresów na wykresie"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Dostosuj pojedynczą serię wykresów na wykresie"
+"url": "/pl/net/programming-with-charts/single-chart-series/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dostosuj pojedynczą serię wykresów na wykresie
@@ -21,7 +23,7 @@ Cześć! Czy kiedykolwiek chciałeś urozmaicić swoje dokumenty Word kilkoma ef
 
 Zanim zaczniemy, upewnijmy się, że mamy wszystko, czego potrzebujemy. Oto krótka lista kontrolna:
 
-1.  Biblioteka Aspose.Words dla .NET: Można ją pobrać ze strony[Tutaj](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Można ją pobrać ze strony [Tutaj](https://releases.aspose.com/words/net/).
 2. Visual Studio: Każda nowsza wersja powinna wystarczyć.
 3. Podstawowa znajomość języka C#: Nic specjalnego, wystarczą podstawy.
 
@@ -110,7 +112,7 @@ doc.Save(dataDir + "WorkingWithCharts.SingleChartSeries.docx");
 
 ## Wniosek
 
-I masz! Udało Ci się dostosować pojedynczą serię wykresów w dokumencie Word za pomocą Aspose.Words dla .NET. Całkiem fajne, prawda? To tylko czubek góry lodowej; jest o wiele więcej, co możesz zrobić z Aspose.Words. Więc eksperymentuj dalej i twórz niesamowite dokumenty!
+masz! Udało Ci się dostosować pojedynczą serię wykresów w dokumencie Word za pomocą Aspose.Words dla .NET. Całkiem fajne, prawda? To tylko czubek góry lodowej; jest o wiele więcej, co możesz zrobić z Aspose.Words. Więc eksperymentuj dalej i twórz niesamowite dokumenty!
 
 ## Najczęściej zadawane pytania
 
@@ -118,19 +120,24 @@ I masz! Udało Ci się dostosować pojedynczą serię wykresów w dokumencie Wor
 Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programowe tworzenie, edycję, konwersję i manipulowanie dokumentami Word.
 
 ### Czy mogę używać Aspose.Words za darmo?
-Tak, możesz zacząć od[bezpłatny okres próbny](https://releases.aspose.com/).
+Tak, możesz zacząć od [bezpłatny okres próbny](https://releases.aspose.com/).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Words?
- Możesz uzyskać wsparcie od społeczności Aspose na ich stronie[forum](https://forum.aspose.com/c/words/8).
+Możesz uzyskać wsparcie od społeczności Aspose na ich stronie [forum](https://forum.aspose.com/c/words/8).
 
 ### Czy można dostosować inne typy wykresów?
 Oczywiście! Aspose.Words obsługuje różne typy wykresów, takie jak wykresy słupkowe, kołowe i punktowe.
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
- Sprawdź[dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać bardziej szczegółowe wskazówki i przykłady.
+Sprawdź [dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać bardziej szczegółowe wskazówki i przykłady.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Klonen und Kombinieren von Dokumenten in Aspose.Words für Java
-linktitle: Dokumente klonen und kombinieren
-second_title: Aspose.Words Java-API zur Dokumentverarbeitung
-description: Erfahren Sie, wie Sie Dokumente in Aspose.Words für Java klonen und kombinieren. Schritt-für-Schritt-Anleitung mit Quellcodebeispielen.
-weight: 27
-url: /de/java/document-manipulation/cloning-and-combining-documents/
+"description": "Erfahren Sie, wie Sie Dokumente in Aspose.Words für Java klonen und kombinieren. Schritt-für-Schritt-Anleitung mit Quellcodebeispielen."
+"linktitle": "Klonen und Kombinieren von Dokumenten"
+"second_title": "Aspose.Words Java-Dokumentverarbeitungs-API"
+"title": "Klonen und Kombinieren von Dokumenten in Aspose.Words für Java"
+"url": "/de/java/document-manipulation/cloning-and-combining-documents/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Klonen und Kombinieren von Dokumenten in Aspose.Words für Java
@@ -16,11 +18,11 @@ url: /de/java/document-manipulation/cloning-and-combining-documents/
 
 ## Einführung in das Klonen und Kombinieren von Dokumenten in Aspose.Words für Java
 
-In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Words für Java Dokumente klonen und kombinieren. Wir behandeln verschiedene Szenarien, darunter das Klonen eines Dokuments, das Einfügen von Dokumenten an Ersetzungspunkten, Lesezeichen und während Seriendruckvorgängen.
+In diesem Tutorial erfahren Sie, wie Sie Dokumente mit Aspose.Words für Java klonen und kombinieren. Wir behandeln verschiedene Szenarien, darunter das Klonen eines Dokuments, das Einfügen von Dokumenten an Ersetzungspunkten, Lesezeichen und Serienbriefvorgänge.
 
-## Schritt 1: Ein Dokument klonen
+## Schritt 1: Klonen eines Dokuments
 
- Um ein Dokument in Aspose.Words für Java zu klonen, können Sie den`deepClone()` Methode. Hier ist ein einfaches Beispiel:
+Um ein Dokument in Aspose.Words für Java zu klonen, können Sie das `deepClone()` Methode. Hier ist ein einfaches Beispiel:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -30,7 +32,7 @@ clone.save("Your Directory Path" + "CloneAndCombineDocuments.CloningDocument.doc
 
 Dieser Code erstellt einen vollständigen Klon des Originaldokuments und speichert ihn als neue Datei.
 
-## Schritt 2: Einfügen von Dokumenten an Ersetzungspunkten
+## Schritt 2: Dokumente an Ersetzungspunkten einfügen
 
 Sie können Dokumente an bestimmten Stellen in ein anderes Dokument einfügen. So geht's:
 
@@ -43,7 +45,7 @@ mainDoc.getRange().replace(Pattern.compile("\\[MY_DOCUMENT\\]"), "", options);
 mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtReplace.docx");
 ```
 
- In diesem Beispiel verwenden wir eine`FindReplaceOptions` Objekt, um einen Callback-Handler für den Ersatz anzugeben. Das`InsertDocumentAtReplaceHandler` Klasse behandelt die Einfügelogik.
+In diesem Beispiel verwenden wir eine `FindReplaceOptions` Objekt, um einen Callback-Handler für den Ersatz anzugeben. Das `InsertDocumentAtReplaceHandler` Die Klasse behandelt die Einfügelogik.
 
 ## Schritt 3: Dokumente an Lesezeichen einfügen
 
@@ -57,11 +59,11 @@ insertDocument(bookmark.getBookmarkStart().getParentNode(), subDoc);
 mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtBookmark.docx");
 ```
 
- Hier finden wir das Lesezeichen nach Namen und verwenden die`insertDocument` Methode zum Einfügen des Inhalts der`subDoc` Dokument an der Lesezeichenposition.
+Hier finden wir das Lesezeichen nach Namen und verwenden die `insertDocument` Methode zum Einfügen des Inhalts der `subDoc` Dokument an der Lesezeichenposition.
 
-## Schritt 4: Einfügen von Dokumenten während der Serienbrieferstellung
+## Schritt 4: Einfügen von Dokumenten während der Serienbrieffunktion
 
-Sie können während eines Serienbriefvorgangs in Aspose.Words für Java Dokumente einfügen. So geht's:
+Sie können Dokumente während eines Seriendruckvorgangs in Aspose.Words für Java einfügen. So geht's:
 
 ```java
 Document mainDoc = new Document("Your Directory Path" + "Document insertion 1.docx");
@@ -70,17 +72,17 @@ mainDoc.getMailMerge().execute(new String[] { "Document_1" }, new Object[] { "Yo
 mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtMailMerge.doc");
 ```
 
- In diesem Beispiel setzen wir einen Callback für die Feldzusammenführung mit dem`InsertDocumentAtMailMergeHandler` Klasse, die das Einfügen des im Feld „Document_1“ angegebenen Dokuments handhabt.
+In diesem Beispiel setzen wir einen Callback für die Feldzusammenführung mit dem `InsertDocumentAtMailMergeHandler` Klasse, die das Einfügen des im Feld „Document_1“ angegebenen Dokuments handhabt.
 
 ## Abschluss
 
-Das Klonen und Kombinieren von Dokumenten in Aspose.Words für Java kann mithilfe verschiedener Techniken erfolgen. Ob Sie ein Dokument klonen, Inhalt an Ersetzungspunkten, Lesezeichen oder während der Serienbrieferstellung einfügen müssen, Aspose.Words bietet leistungsstarke Funktionen zur nahtlosen Bearbeitung von Dokumenten.
+Das Klonen und Kombinieren von Dokumenten in Aspose.Words für Java kann mithilfe verschiedener Techniken erfolgen. Ob Sie ein Dokument klonen, Inhalte an Ersetzungspunkten, Lesezeichen oder während des Seriendrucks einfügen möchten – Aspose.Words bietet leistungsstarke Funktionen zur nahtlosen Bearbeitung von Dokumenten.
 
 ## Häufig gestellte Fragen
 
 ### Wie klone ich ein Dokument in Aspose.Words für Java?
 
- Sie können ein Dokument in Aspose.Words für Java klonen mit dem`deepClone()` Methode. Hier ist ein Beispiel:
+Sie können ein Dokument in Aspose.Words für Java klonen, indem Sie `deepClone()` Methode. Hier ist ein Beispiel:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -90,7 +92,7 @@ clone.save("Your Directory Path" + "ClonedDocument.docx");
 
 ### Wie kann ich ein Dokument an einem Lesezeichen einfügen?
 
- Um ein Dokument in einem Lesezeichen in Aspose.Words für Java einzufügen, können Sie das Lesezeichen nach Namen suchen und dann die`insertDocument` Methode zum Einfügen des Inhalts. Hier ist ein Beispiel:
+Um ein Dokument in einem Lesezeichen in Aspose.Words für Java einzufügen, können Sie das Lesezeichen nach Namen suchen und dann die `insertDocument` Methode zum Einfügen des Inhalts. Hier ist ein Beispiel:
 
 ```java
 Document mainDoc = new Document("Your Directory Path" + "MainDocument.docx");
@@ -100,9 +102,9 @@ insertDocument(bookmark.getBookmarkStart().getParentNode(), subDoc);
 mainDoc.save("Your Directory Path" + "CombinedDocument.docx");
 ```
 
-### Wie füge ich während des Seriendrucks in Aspose.Words für Java Dokumente ein?
+### Wie füge ich während der Serienbrieferstellung in Aspose.Words für Java Dokumente ein?
 
-Sie können während der Serienbrieferstellung in Aspose.Words für Java Dokumente einfügen, indem Sie einen Rückruf für die Feldzusammenführung festlegen und das einzufügende Dokument angeben. Hier ist ein Beispiel:
+Sie können Dokumente während des Seriendrucks in Aspose.Words für Java einfügen, indem Sie einen Rückruf für die Feldzusammenführung einrichten und das einzufügende Dokument angeben. Hier ein Beispiel:
 
 ```java
 Document mainDoc = new Document("Your Directory Path" + "MainDocument.docx");
@@ -111,10 +113,15 @@ mainDoc.getMailMerge().execute(new String[] { "DocumentField" }, new Object[] { 
 mainDoc.save("Your Directory Path" + "MergedDocument.docx");
 ```
 
- In diesem Beispiel`InsertDocumentAtMailMergeHandler`Klasse verarbeitet die Einfügelogik für das „Dokumentenfeld“ während des Serienbriefvorgangs.
+In diesem Beispiel `InsertDocumentAtMailMergeHandler` Die Klasse verarbeitet die Einfügelogik für das „DocumentField“ während des Serienbriefbetriebs.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

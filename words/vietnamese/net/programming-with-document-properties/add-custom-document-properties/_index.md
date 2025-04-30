@@ -1,14 +1,16 @@
 ---
-title: Thêm Thuộc tính Tài liệu Tùy chỉnh
-linktitle: Thêm Thuộc tính Tài liệu Tùy chỉnh
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thêm thuộc tính tài liệu tùy chỉnh vào tệp Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để cải thiện tài liệu của bạn bằng siêu dữ liệu bổ sung.
-weight: 10
-url: /vi/net/programming-with-document-properties/add-custom-document-properties/
+"description": "Tìm hiểu cách thêm thuộc tính tài liệu tùy chỉnh vào tệp Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để cải thiện tài liệu của bạn bằng siêu dữ liệu bổ sung."
+"linktitle": "Thêm Thuộc tính Tài liệu Tùy chỉnh"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thêm Thuộc tính Tài liệu Tùy chỉnh"
+"url": "/vi/net/programming-with-document-properties/add-custom-document-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm Thuộc tính Tài liệu Tùy chỉnh
@@ -21,10 +23,10 @@ Xin chào! Bạn đang đắm chìm vào thế giới của Aspose.Words cho .NE
 
 Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn đã có mọi thứ cần thiết:
 
-1.  Aspose.Words cho thư viện .NET: Đảm bảo bạn có thư viện Aspose.Words cho .NET. Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho thư viện .NET: Đảm bảo bạn có thư viện Aspose.Words cho .NET. Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Một IDE như Visual Studio.
 3. Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về C# và .NET.
-4.  Tài liệu mẫu: Chuẩn bị một tài liệu Word mẫu, có tên`Properties.docx`, mà bạn sẽ sửa đổi.
+4. Tài liệu mẫu: Chuẩn bị một tài liệu Word mẫu, có tên `Properties.docx`, mà bạn sẽ sửa đổi.
 
 ## Nhập không gian tên
 
@@ -37,7 +39,7 @@ using Aspose.Words;
 
 ## Bước 1: Thiết lập đường dẫn tài liệu
 
- Trước tiên, chúng ta cần thiết lập đường dẫn đến tài liệu của mình. Đây là nơi chúng ta sẽ chỉ định vị trí của`Properties.docx` tài liệu.
+Trước tiên, chúng ta cần thiết lập đường dẫn đến tài liệu của mình. Đây là nơi chúng ta sẽ chỉ định vị trí của `Properties.docx` tài liệu.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -45,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Properties.docx");
 ```
 
- Trong đoạn trích này, hãy thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tài liệu của bạn. Bước này rất quan trọng vì nó cho phép chương trình định vị và mở tệp Word của bạn.
+Trong đoạn trích này, hãy thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tài liệu của bạn. Bước này rất quan trọng vì nó cho phép chương trình định vị và mở tệp Word của bạn.
 
 ## Bước 2: Truy cập Thuộc tính Tài liệu Tùy chỉnh
 
@@ -75,7 +77,7 @@ Bây giờ, chúng ta hãy thêm thuộc tính tùy chỉnh đầu tiên—một
 customDocumentProperties.Add("Authorized", true);
 ```
 
- Dòng này thêm một thuộc tính tùy chỉnh có tên "Được ủy quyền" với giá trị là`true`. Đơn giản và dễ hiểu!
+Dòng này thêm một thuộc tính tùy chỉnh có tên "Được ủy quyền" với giá trị là `true`. Đơn giản và dễ hiểu!
 
 ## Bước 5: Thêm Thuộc tính Chuỗi
 
@@ -95,7 +97,7 @@ Hãy thêm một thuộc tính để lưu trữ ngày ủy quyền. Điều này
 customDocumentProperties.Add("Authorized Date", DateTime.Today);
 ```
 
- Đoạn mã này thêm một thuộc tính có tên "Ngày được ủy quyền" với ngày hiện tại làm giá trị của nó.`DateTime.Today`thuộc tính tự động lấy ngày hôm nay.
+Đoạn mã này thêm một thuộc tính có tên "Ngày được ủy quyền" với ngày hiện tại làm giá trị của nó. `DateTime.Today` thuộc tính tự động lấy ngày hôm nay.
 
 ## Bước 7: Thêm số sửa đổi
 
@@ -115,7 +117,7 @@ Cuối cùng, hãy thêm một thuộc tính số để lưu trữ số tiền �
 customDocumentProperties.Add("Authorized Amount", 123.45);
 ```
 
- Dòng này thêm một thuộc tính có tên "Số tiền được ủy quyền" với giá trị là`123.45`. Một lần nữa, bạn có thể thoải mái thay thế số này bằng bất kỳ số nào phù hợp với nhu cầu của bạn.
+Dòng này thêm một thuộc tính có tên "Số tiền được ủy quyền" với giá trị là `123.45`. Một lần nữa, bạn có thể thoải mái thay thế số này bằng bất kỳ số nào phù hợp với nhu cầu của bạn.
 
 ## Phần kết luận
 
@@ -140,9 +142,14 @@ Có, bạn có thể dễ dàng chỉnh sửa hoặc xóa các thuộc tính tù
 ### Có thể sử dụng thuộc tính tùy chỉnh để lọc tài liệu không?
 Hoàn toàn đúng! Thuộc tính tùy chỉnh rất tuyệt vời để phân loại và lọc tài liệu dựa trên siêu dữ liệu cụ thể.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

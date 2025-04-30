@@ -1,34 +1,36 @@
 ---
-title: Adja hozzá a dátum és idő értékeket a diagram tengelyéhez
-linktitle: Adja hozzá a dátum és idő értékeket a diagram tengelyéhez
-second_title: Aspose.Words Document Processing API
-description: Ebből az átfogó, lépésenkénti útmutatóból megtudhatja, hogyan adhat dátum- és időértékeket a diagram tengelyéhez az Aspose.Words for .NET használatával.
-weight: 10
-url: /hu/net/programming-with-charts/date-time-values-to-axis/
+"description": "Tanuld meg, hogyan adhatsz hozzá dátum- és időértékeket egy diagram tengelyéhez az Aspose.Words for .NET használatával ebben az átfogó, lépésről lépésre haladó útmutatóban."
+"linktitle": "Dátum/idő értékek hozzáadása egy diagram tengelyéhez"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Dátum/idő értékek hozzáadása egy diagram tengelyéhez"
+"url": "/hu/net/programming-with-charts/date-time-values-to-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Adja hozzá a dátum és idő értékeket a diagram tengelyéhez
+# Dátum/idő értékek hozzáadása egy diagram tengelyéhez
 
 ## Bevezetés
 
-diagramok dokumentumokban történő létrehozása hatékony módja lehet az adatok megjelenítésének. Az idősorok adatainak kezelésekor a dátum és az idő értékek hozzáadása a diagram tengelyéhez elengedhetetlen az egyértelműség érdekében. Ebben az oktatóanyagban végigvezetjük a dátum- és időértékek diagram tengelyéhez való hozzáadásának folyamatán az Aspose.Words for .NET segítségével. Ez a lépésenkénti útmutató segít a környezet beállításában, a kód megírásában és a folyamat egyes részeinek megértésében. Merüljünk el!
+A dokumentumokban létrehozott diagramok hatékony módja lehet az adatok vizualizációjának. Idősoros adatok kezelésekor a dátum- és időértékek hozzáadása a diagram tengelyéhez kulcsfontosságú az áttekinthetőség érdekében. Ebben az oktatóanyagban végigvezetünk a dátum- és időértékek diagram tengelyéhez való hozzáadásának folyamatán az Aspose.Words for .NET használatával. Ez a lépésről lépésre szóló útmutató segít beállítani a környezetet, megírni a kódot és megérteni a folyamat minden részét. Vágjunk bele!
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt elkezdenénk, győződjünk meg róla, hogy a következő előfeltételek teljesülnek:
 
-1. Visual Studio vagy bármely .NET IDE: A .NET-kód írásához és futtatásához fejlesztői környezetre van szüksége.
-2.  Aspose.Words for .NET: Az Aspose.Words for .NET könyvtárnak telepítve kell lennie. Letöltheti innen[itt](https://releases.aspose.com/words/net/).
-3. Alapvető C# ismeretek: Ez az oktatóanyag feltételezi, hogy rendelkezik a C# programozás alapvető ismereteivel.
-4.  Érvényes Aspose licenc: Ideiglenes licencet szerezhet be[itt](https://purchase.aspose.com/temporary-license/).
+1. Visual Studio vagy bármilyen .NET IDE: Fejlesztői környezetre van szükséged a .NET kódod írásához és futtatásához.
+2. Aspose.Words for .NET: Telepítenie kell az Aspose.Words for .NET könyvtárat. Letöltheti innen: [itt](https://releases.aspose.com/words/net/).
+3. C# alapismeretek: Ez az oktatóanyag feltételezi, hogy rendelkezel C# programozási alapismeretekkel.
+4. Érvényes Aspose licenc: Ideiglenes licencet szerezhet be a következő címen: [itt](https://purchase.aspose.com/temporary-license/).
 
 ## Névterek importálása
 
-Kezdésként győződjön meg arról, hogy a szükséges névtereket importálta a projektbe. Ez a lépés kulcsfontosságú az Aspose.Words osztályok és metódusok eléréséhez.
+Kezdésként győződj meg róla, hogy importáltad a szükséges névtereket a projektedbe. Ez a lépés elengedhetetlen az Aspose.Words osztályok és metódusok eléréséhez.
 
 ```csharp
 using System;
@@ -37,43 +39,43 @@ using Aspose.Words.Drawing;
 using Aspose.Words.Drawing.Charts;
 ```
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
+## 1. lépés: Dokumentumkönyvtár beállítása
 
-Először is meg kell határoznia azt a könyvtárat, ahová a dokumentumot menteni fogja. Ez fontos a fájlok rendszerezéséhez és a kód megfelelő futásához.
+Először is meg kell határoznod azt a könyvtárat, ahová a dokumentumod mentésre kerül. Ez fontos a fájlok rendszerezéséhez és a kód megfelelő futtatásához.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-## 2. lépés: Hozzon létre egy új dokumentumot és DocumentBuildert
+## 2. lépés: Új dokumentum és DocumentBuilder létrehozása
 
- Ezután hozzon létre egy új példányt a`Document` osztály és a`DocumentBuilder` objektum. Ezek az objektumok segítenek a dokumentum elkészítésében és kezelésében.
+Ezután hozzon létre egy új példányt a `Document` osztály és egy `DocumentBuilder` objektum. Ezek az objektumok segítenek a dokumentum felépítésében és kezelésében.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## 3. lépés: Szúrjon be egy diagramot a dokumentumba
+## 3. lépés: Táblázat beszúrása a dokumentumba
 
- Most szúrjon be egy diagramot a dokumentumba a`DocumentBuilder` objektum. Ebben a példában oszlopdiagramot használunk, de választhat más típusokat is.
+Most illesszen be egy diagramot a dokumentumba a `DocumentBuilder` objektum. Ebben a példában oszlopdiagramot használunk, de más típusokat is választhat.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 ```
 
-## 4. lépés: Törölje a meglévő sorozatokat
+## 4. lépés: Meglévő sorozatok törlése
 
-Töröljön minden létező sorozatot a diagramból, hogy biztosan üres lappal induljon. Ez a lépés elengedhetetlen az egyéni adatokhoz.
+Törölj minden meglévő adatsort a diagramból, hogy biztosan üres lappal kezdj. Ez a lépés elengedhetetlen az egyéni adatokhoz.
 
 ```csharp
 chart.Series.Clear();
 ```
 
-## 5. lépés: Adjon hozzá dátum- és időértékeket a sorozathoz
+## 5. lépés: Dátum- és időértékek hozzáadása a sorozathoz
 
-Adja hozzá a dátum és az idő értékeit a diagramsorozathoz. Ebben a lépésben tömböket kell létrehozni a dátumokhoz és a megfelelő értékekhez.
+Adja hozzá a dátum- és időértékeket a diagramsorozathoz. Ez a lépés tömbök létrehozását foglalja magában a dátumokhoz és a hozzájuk tartozó értékekhez.
 
 ```csharp
 chart.Series.Add("Aspose Series 1",
@@ -85,9 +87,9 @@ chart.Series.Add("Aspose Series 1",
     new double[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 ```
 
-## 6. lépés: Konfigurálja az X-tengelyt
+## 6. lépés: Az X tengely konfigurálása
 
-Állítsa be az X-tengely méretezési és pipajeleit. Ez biztosítja, hogy a dátumok helyesen és megfelelő időközönként jelenjenek meg.
+Állítsd be az X tengely méretarányát és jelöléseit. Ez biztosítja, hogy a dátumok helyesen és megfelelő időközönként jelenjenek meg.
 
 ```csharp
 ChartAxis xAxis = chart.AxisX;
@@ -99,9 +101,9 @@ xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorTickMark = AxisTickMark.Outside;
 ```
 
-## 7. lépés: Mentse el a dokumentumot
+## 7. lépés: A dokumentum mentése
 
-Végül mentse a dokumentumot a megadott könyvtárba. Ez a lépés lezárja a folyamatot, és a dokumentumnak tartalmaznia kell egy diagramot dátum- és időértékekkel az X-tengelyen.
+Végül mentse el a dokumentumot a megadott könyvtárba. Ez a lépés lezárja a folyamatot, és a dokumentumnak most egy diagramot kell tartalmaznia, amelyen a dátum és az idő értékei az X tengelyen szerepelnek.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithCharts.DateTimeValuesToAxis.docx");
@@ -109,32 +111,37 @@ doc.Save(dataDir + "WorkingWithCharts.DateTimeValuesToAxis.docx");
 
 ## Következtetés
 
-A dátum és az idő értékek hozzáadása a diagram tengelyéhez egy dokumentumban egyszerű folyamat az Aspose.Words for .NET segítségével. Az oktatóanyagban ismertetett lépések követésével világos és informatív diagramokat hozhat létre, amelyek hatékonyan jelenítik meg az idősorok adatait. Függetlenül attól, hogy jelentéseket, prezentációkat vagy bármilyen részletes adatmegjelenítést igénylő dokumentumot készít, az Aspose.Words biztosítja a sikerhez szükséges eszközöket.
+A dátum- és időértékek hozzáadása egy dokumentumban lévő diagram tengelyéhez egyszerű folyamat az Aspose.Words for .NET segítségével. Az ebben az oktatóanyagban ismertetett lépéseket követve világos és informatív diagramokat hozhat létre, amelyek hatékonyan jelenítik meg az idősoros adatokat. Akár jelentéseket, prezentációkat vagy bármilyen részletes adatábrázolást igénylő dokumentumot készít, az Aspose.Words biztosítja a sikerhez szükséges eszközöket.
 
 ## GYIK
 
-### Használhatok más diagramtípusokat az Aspose.Words for .NET-hez?
+### Használhatok más diagramtípusokat az Aspose.Words for .NET programmal?
 
-Igen, az Aspose.Words különféle diagramtípusokat támogat, beleértve a vonalat, oszlopot, kört és egyebeket.
+Igen, az Aspose.Words különféle diagramtípusokat támogat, beleértve a vonal-, sáv-, kördiagramokat és egyebeket.
 
-### Hogyan szabhatom testre a diagramom megjelenését?
+### Hogyan tudom testreszabni a diagramom megjelenését?
 
-Testreszabhatja a megjelenést a diagram tulajdonságainak, valamint stílusok, színek és egyebek beállításával.
+A megjelenést testreszabhatja a diagram tulajdonságainak elérésével, valamint a stílusok, színek és egyebek beállításával.
 
 ### Lehetséges több sorozatot hozzáadni egy diagramhoz?
 
- Teljesen! Több sorozatot is hozzáadhat a diagramjához, ha hívja a`Series.Add` módszer többször különböző adatokkal.
+Természetesen! Több sorozatot is hozzáadhatsz a diagramodhoz a `Series.Add` módszert többször, különböző adatokkal.
 
-### Mi a teendő, ha dinamikusan kell frissítenem a diagram adatait?
+### Mi van, ha dinamikusan kell frissítenem a diagram adatait?
 
-Dinamikusan frissítheti a diagram adatait, ha a sorozat- és tengelytulajdonságokat programozottan módosítja az igényeinek megfelelően.
+A diagram adatait dinamikusan frissítheti a sorozat- és tengelytulajdonságok programozott módosításával az igényei szerint.
 
-### Hol találhatok részletesebb dokumentációt az Aspose.Words for .NET-hez?
+### Hol találok részletesebb dokumentációt az Aspose.Words for .NET-hez?
 
- Részletesebb dokumentációt találhat[itt](https://reference.aspose.com/words/net/).
+Részletesebb dokumentációt találhat [itt](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

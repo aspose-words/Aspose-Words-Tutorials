@@ -1,14 +1,16 @@
 ---
-title: อัพเดทวัฒนธรรมภาคสนาม
-linktitle: อัพเดทวัฒนธรรมภาคสนาม
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการกำหนดค่าวัฒนธรรมการอัปเดตฟิลด์ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดและเคล็ดลับสำหรับการอัปเดตที่แม่นยำ
-weight: 10
-url: /th/net/working-with-fields/field-update-culture/
+"description": "เรียนรู้วิธีการกำหนดค่าวัฒนธรรมการอัปเดตฟิลด์ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดและเคล็ดลับสำหรับการอัปเดตที่แม่นยำ"
+"linktitle": "อัพเดทวัฒนธรรมภาคสนาม"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "อัพเดทวัฒนธรรมภาคสนาม"
+"url": "/th/net/working-with-fields/field-update-culture/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # อัพเดทวัฒนธรรมภาคสนาม
@@ -21,19 +23,19 @@ url: /th/net/working-with-fields/field-update-culture/
 
 ก่อนที่เราจะเจาะลึกถึงรายละเอียดของวัฒนธรรมการอัปเดตภาคสนาม มีบางสิ่งที่คุณจะต้องเริ่มต้น:
 
-1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 
 2. Visual Studio: บทช่วยสอนนี้ถือว่าคุณใช้ Visual Studio หรือ IDE ที่คล้ายกันซึ่งรองรับการพัฒนา .NET
 
 3. ความรู้พื้นฐานเกี่ยวกับ C#: คุณควรจะคุ้นเคยกับการเขียนโปรแกรม C# และการจัดการเอกสาร Word ขั้นพื้นฐาน
 
-4.  ใบอนุญาต Aspose: หากต้องการใช้งานฟังก์ชันเต็มรูปแบบ คุณอาจต้องมีใบอนุญาต คุณสามารถซื้อใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy) หรือรับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+4. ใบอนุญาต Aspose: หากต้องการใช้งานฟังก์ชันเต็มรูปแบบ คุณอาจต้องมีใบอนุญาต คุณสามารถซื้อใบอนุญาตได้ [ที่นี่](https://purchase.aspose.com/buy) หรือรับใบอนุญาตชั่วคราว [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
-5.  การเข้าถึงเอกสารและการสนับสนุน: สำหรับความช่วยเหลือเพิ่มเติมใดๆ[เอกสารประกอบ Aspose](https://reference.aspose.com/words/net/) และ[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8) เป็นแหล่งข้อมูลที่มีประโยชน์มากมาย
+5. การเข้าถึงเอกสารและการสนับสนุน: สำหรับความช่วยเหลือเพิ่มเติมใดๆ [เอกสารประกอบ Aspose](https://reference.aspose.com/words/net/) และ [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8) เป็นแหล่งข้อมูลที่มีประโยชน์มากมาย
 
 ## นำเข้าเนมสเปซ
 
-หากต้องการเริ่มต้นใช้งาน Aspose.Words คุณจะต้องนำเข้าเนมสเปซที่เกี่ยวข้องเข้าสู่โปรเจ็กต์ C# ของคุณ โดยดำเนินการได้ดังนี้:
+หากต้องการเริ่มต้นใช้งาน Aspose.Words คุณจะต้องนำเข้าเนมสเปซที่เกี่ยวข้องเข้าสู่โปรเจ็กต์ C# ของคุณ โดยทำตามขั้นตอนดังต่อไปนี้:
 
 ```csharp
 using Aspose.Words;
@@ -44,7 +46,7 @@ using Aspose.Words.Fields;
 
 ## ขั้นตอนที่ 1: ตั้งค่าเอกสารและ DocumentBuilder ของคุณ
 
- ขั้นแรกคุณจะต้องสร้างเอกสารใหม่และ`DocumentBuilder` วัตถุ.`DocumentBuilder` เป็นคลาสอันสะดวกสบายที่ช่วยให้คุณสร้างและปรับเปลี่ยนเอกสาร Word ได้อย่างง่ายดาย
+ขั้นแรกคุณจะต้องสร้างเอกสารใหม่และ `DocumentBuilder` วัตถุ. `DocumentBuilder` เป็นคลาสที่มีประโยชน์ที่ช่วยให้คุณสร้างและปรับเปลี่ยนเอกสาร Word ได้อย่างง่ายดาย
 
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
@@ -55,7 +57,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- ในขั้นตอนนี้ คุณระบุไดเรกทอรีที่คุณต้องการบันทึกเอกสารของคุณ`Document` คลาสจะเริ่มต้นเอกสาร Word ใหม่และ`DocumentBuilder` คลาสช่วยให้คุณแทรกและจัดรูปแบบเนื้อหา
+ในขั้นตอนนี้ คุณระบุไดเรกทอรีที่คุณต้องการบันทึกเอกสารของคุณ `Document` คลาสจะเริ่มต้นเอกสาร Word ใหม่และ `DocumentBuilder` คลาสช่วยให้คุณแทรกและจัดรูปแบบเนื้อหา
 
 ## ขั้นตอนที่ 2: แทรกช่องเวลา
 
@@ -66,7 +68,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField(FieldType.FieldTime, true);
 ```
 
- ที่นี่,`FieldType.FieldTime` ระบุว่าคุณต้องการแทรกช่องเวลา พารามิเตอร์ที่สอง`true`ระบุว่าจะต้องอัพเดตฟิลด์โดยอัตโนมัติ
+ที่นี่, `FieldType.FieldTime` ระบุว่าคุณต้องการแทรกช่องเวลา พารามิเตอร์ที่สองคือ `true`ระบุว่าจะต้องอัพเดตฟิลด์โดยอัตโนมัติ
 
 ## ขั้นตอนที่ 3: กำหนดค่าวัฒนธรรมการอัปเดตภาคสนาม
 
@@ -85,7 +87,7 @@ doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
 ตอนนี้เราต้องใช้ผู้ให้บริการวัฒนธรรมแบบกำหนดเอง ซึ่งจะควบคุมวิธีการใช้การตั้งค่าวัฒนธรรม เช่น รูปแบบวันที่ เมื่อมีการอัปเดตฟิลด์
 
-เราจะสร้างคลาสที่เรียกว่า`FieldUpdateCultureProvider` ที่นำไปปฏิบัติ`IFieldUpdateCultureProvider` อินเทอร์เฟซ คลาสนี้จะส่งคืนรูปแบบวัฒนธรรมที่แตกต่างกันตามภูมิภาค สำหรับตัวอย่างนี้ เราจะกำหนดค่าการตั้งค่าวัฒนธรรมรัสเซียและสหรัฐอเมริกา
+เราจะสร้างคลาสที่เรียกว่า `FieldUpdateCultureProvider` ที่นำไปปฏิบัติ `IFieldUpdateCultureProvider` อินเทอร์เฟซ คลาสนี้จะส่งคืนรูปแบบวัฒนธรรมที่แตกต่างกันตามภูมิภาค สำหรับตัวอย่างนี้ เราจะกำหนดค่าการตั้งค่าวัฒนธรรมรัสเซียและสหรัฐอเมริกา
 
 ```csharp
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
@@ -128,14 +130,14 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 
 ## ขั้นตอนที่ 5: บันทึกเอกสาร
 
-สุดท้าย ให้บันทึกเอกสารของคุณไปยังไดเรกทอรีที่ระบุ วิธีนี้จะช่วยให้มั่นใจว่าการเปลี่ยนแปลงทั้งหมดของคุณจะถูกเก็บรักษาไว้
+สุดท้าย ให้บันทึกเอกสารของคุณไปยังไดเร็กทอรีที่ระบุ วิธีนี้จะช่วยให้มั่นใจว่าการเปลี่ยนแปลงทั้งหมดของคุณจะถูกเก็บรักษาไว้
 
 ```csharp
 // บันทึกเอกสาร
 doc.Save(dataDir + "UpdateCultureChamps.pdf");
 ```
 
- แทนที่`"YOUR DOCUMENTS DIRECTORY"` ด้วยเส้นทางที่คุณต้องการบันทึกไฟล์ เอกสารจะถูกบันทึกเป็น PDF ในชื่อ`UpdateCultureChamps.pdf`.
+แทนที่ `"YOUR DOCUMENTS DIRECTORY"` ด้วยเส้นทางที่คุณต้องการบันทึกไฟล์ เอกสารจะถูกบันทึกเป็น PDF ในชื่อ `UpdateCultureChamps-pdf`.
 
 ## บทสรุป
 
@@ -153,18 +155,23 @@ doc.Save(dataDir + "UpdateCultureChamps.pdf");
 
 ### ฉันต้องมีใบอนุญาตเฉพาะเพื่อใช้ฟีเจอร์วัฒนธรรมการอัปเดตฟิลด์ใน Aspose.Words หรือไม่
 
- หากต้องการใช้งานฟังก์ชันครบถ้วน คุณอาจต้องมีใบอนุญาต Aspose ที่ถูกต้อง คุณสามารถขอรับได้ผ่าน[หน้าการซื้อของ Aspose](https://purchase.aspose.com/buy) หรือใช้ใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+หากต้องการใช้งานฟังก์ชันครบถ้วน คุณอาจต้องมีใบอนุญาต Aspose ที่ถูกต้อง คุณสามารถขอรับได้ผ่าน [หน้าการซื้อของ Aspose](https://purchase.aspose.com/buy) หรือใช้ใบอนุญาตชั่วคราว [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันจะปรับแต่งวัฒนธรรมการอัปเดตฟิลด์เพิ่มเติมได้อย่างไร
 
- คุณสามารถขยายเวลาได้`FieldUpdateCultureProvider` ชั้นเรียนเพื่อสร้างผู้ให้บริการวัฒนธรรมที่กำหนดเองที่เหมาะกับความต้องการเฉพาะของคุณ
+คุณสามารถขยายเวลาได้ `FieldUpdateCultureProvider` ชั้นเรียนเพื่อสร้างผู้ให้บริการวัฒนธรรมที่กำหนดเองที่เหมาะกับความต้องการเฉพาะของคุณ
 
 ### ฉันสามารถหาข้อมูลเพิ่มเติมหรือขอความช่วยเหลือหากประสบปัญหาได้ที่ไหน
 
- สำหรับเอกสารและการสนับสนุนโดยละเอียด โปรดไปที่[เอกสารประกอบ Aspose](https://reference.aspose.com/words/net/) และ[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/words/8).
+สำหรับเอกสารและการสนับสนุนโดยละเอียด โปรดไปที่ [เอกสารประกอบ Aspose](https://reference.aspose.com/words/net/) และ [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

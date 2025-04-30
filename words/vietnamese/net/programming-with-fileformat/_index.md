@@ -1,14 +1,16 @@
 ---
-title: Xử lý từ ngữ với Fileformat
-linktitle: Xử lý từ ngữ với Fileformat
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách làm việc với các định dạng tệp trong Aspose.Words cho .NET. Các hướng dẫn sẽ hướng dẫn bạn qua các tính năng khác nhau như phát hiện định dạng tệp, chuyển đổi giữa các định dạng.
-weight: 1610
-url: /vi/net/programming-with-fileformat/
+"description": "Tìm hiểu cách làm việc với các định dạng tệp trong Aspose.Words cho .NET. Các hướng dẫn sẽ hướng dẫn bạn qua các tính năng khác nhau như phát hiện định dạng tệp, chuyển đổi giữa các định dạng."
+"linktitle": "Xử lý từ ngữ với Fileformat"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Xử lý từ ngữ với Fileformat"
+"url": "/vi/net/programming-with-fileformat/"
+"weight": 1610
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xử lý từ ngữ với Fileformat
@@ -20,14 +22,19 @@ Trong các hướng dẫn này, bạn sẽ học cách sử dụng các tính n�
 Cho dù bạn cần tạo báo cáo, tạo tài liệu tùy chỉnh, tự động hóa các tác vụ tài liệu Word hay chuyển đổi tài liệu giữa các định dạng khác nhau, hướng dẫn Aspose.Words dành cho .NET sẽ cung cấp cho bạn kiến thức và kỹ năng để đạt được mục tiêu phát triển của mình.
 
  ## Hướng dẫn
-| Tiêu đề | Sự miêu tả |
+| Tiêu đề | Mô tả |
 | --- | --- |
 | [Phát hiện định dạng tệp tài liệu](./detect-file-format/) | Tìm hiểu cách phát hiện định dạng tệp tài liệu bằng Aspose.Words cho .NET với hướng dẫn toàn diện, từng bước này. |
 | [Phát hiện chữ ký số trên tài liệu Word](./detect-document-signatures/) | Tìm hiểu cách phát hiện chữ ký số trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. |
 | [Xác minh tài liệu Word được mã hóa](./verify-encrypted-document/) | Tìm hiểu cách xác minh trạng thái mã hóa của tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

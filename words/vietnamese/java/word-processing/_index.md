@@ -1,14 +1,16 @@
 ---
-title: Xử lý văn bản
-linktitle: Xử lý văn bản
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Học xử lý văn bản với Aspose.Words cho Java. Tạo, chỉnh sửa và thao tác tài liệu theo chương trình. Nâng cao kỹ năng xử lý tài liệu của bạn ngay hôm nay.
-weight: 10
-url: /vi/java/word-processing/
+"description": "Học xử lý văn bản với Aspose.Words for Java. Tạo, chỉnh sửa và thao tác tài liệu theo chương trình. Nâng cao kỹ năng xử lý tài liệu của bạn ngay hôm nay."
+"linktitle": "Xử lý văn bản"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Xử lý văn bản"
+"url": "/vi/java/word-processing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xử lý văn bản
@@ -40,14 +42,18 @@ Mở khóa sức mạnh của Aspose.Words for Java trong việc xử lý nhiề
 ### [Tối ưu hóa việc tải tài liệu với các tùy chọn HTML, RTF và TXT](./optimizing-document-loading-options/)
 Tối ưu hóa việc tải tài liệu với Aspose.Words cho Java. Cải thiện tốc độ và hiệu quả cho các tệp HTML, RTF và TXT. Nâng cao trải nghiệm người dùng ngay hôm nay!
 ### [Lưu tài liệu hiệu quả với các tùy chọn DOC, HTML và hình ảnh](./efficient-document-saving-options/)
-Tìm hiểu cách lưu tài liệu hiệu quả với Aspose.Words for Java. Hướng dẫn từng bước này bao gồm các tùy chọn DOC, HTML và hình ảnh, nâng cao kỹ năng quản lý tài liệu của bạn
+Học cách lưu tài liệu hiệu quả với Aspose.Words for Java. Hướng dẫn từng bước này bao gồm các tùy chọn DOC, HTML và hình ảnh, nâng cao kỹ năng quản lý tài liệu của bạn
 ### [Làm chủ các thiết lập lưu nâng cao cho tài liệu](./mastering-advanced-save-settings/)
 Làm chủ các thiết lập lưu tài liệu nâng cao với Aspose.Words for Java. Học cách định dạng, bảo vệ, tối ưu hóa và tự động hóa việc tạo tài liệu một cách dễ dàng.
 ### [Thao tác nội dung tài liệu với Cleanup, Fields và dữ liệu XML](./manipulating-document-content/)
 Tìm hiểu cách thao tác nội dung tài liệu bằng Aspose.Words for Java. Hướng dẫn từng bước này cung cấp các ví dụ về mã nguồn để quản lý tài liệu hiệu quả.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

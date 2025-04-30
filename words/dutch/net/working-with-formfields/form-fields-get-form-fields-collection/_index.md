@@ -1,65 +1,67 @@
 ---
-title: Formuliervelden Verzameling formuliervelden ophalen
-linktitle: Formuliervelden Verzameling formuliervelden ophalen
-second_title: Aspose.Words API voor documentverwerking
-description: Leer hoe u formuliervelden in Word-documenten kunt ophalen en bewerken met Aspose.Words voor .NET met onze uitgebreide stapsgewijze handleiding.
-weight: 10
-url: /nl/net/working-with-formfields/form-fields-get-form-fields-collection/
+"description": "Leer hoe u formuliervelden in Word-documenten kunt ophalen en bewerken met Aspose.Words voor .NET met onze uitgebreide stapsgewijze handleiding."
+"linktitle": "Formuliervelden Formulierveldenverzameling ophalen"
+"second_title": "Aspose.Words API voor documentverwerking"
+"title": "Formuliervelden Formulierveldenverzameling ophalen"
+"url": "/nl/net/working-with-formfields/form-fields-get-form-fields-collection/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Formuliervelden Verzameling formuliervelden ophalen
+# Formuliervelden Formulierveldenverzameling ophalen
 
 ## Invoering
 
-Bent u klaar om te duiken in de wereld van het manipuleren van formuliervelden in Word-documenten? Of u nu het maken van documenten automatiseert of gewoon formulieren efficiënter wilt verwerken, Aspose.Words voor .NET is uw go-to-tool. Laten we eens kijken hoe u een verzameling formuliervelden uit een Word-document haalt en er stap voor stap mee werkt.
+Ben je klaar om de wereld van het bewerken van formuliervelden in Word-documenten te betreden? Of je nu het maken van documenten wilt automatiseren of gewoon formulieren efficiënter wilt verwerken, Aspose.Words voor .NET is dé tool voor jou. Laten we eens kijken hoe je een verzameling formuliervelden uit een Word-document haalt en er stap voor stap mee aan de slag gaat.
 
 ## Vereisten
 
-Voordat we met de code aan de slag gaan, controleren we eerst of je alles hebt wat je nodig hebt om aan de slag te gaan.
+Voordat we met de code aan de slag gaan, controleren we of je alles hebt wat je nodig hebt om aan de slag te gaan.
 
-1.  Aspose.Words voor .NET: Zorg ervoor dat u de nieuwste versie van Aspose.Words voor .NET hebt geïnstalleerd. U kunt het downloaden van[hier](https://releases.aspose.com/words/net/).
+1. Aspose.Words voor .NET: Zorg ervoor dat u de nieuwste versie van Aspose.Words voor .NET hebt geïnstalleerd. U kunt deze downloaden van [hier](https://releases.aspose.com/words/net/).
 2. Ontwikkelomgeving: Een IDE zoals Visual Studio om uw .NET-code te schrijven en uit te voeren.
 3. .NET Framework: Zorg ervoor dat uw project gericht is op een compatibele .NET Framework-versie.
 
 ## Naamruimten importeren
 
-Voordat u begint met coderen, moet u de benodigde namespaces importeren. Dit helpt u te voorkomen dat u herhaaldelijk volledige klassenamen schrijft, waardoor uw code schoner en leesbaarder wordt.
+Voordat je begint met coderen, moet je de benodigde naamruimten importeren. Zo voorkom je dat je herhaaldelijk volledige klassenamen moet schrijven, waardoor je code overzichtelijker en leesbaarder wordt.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Fields;
 ```
 
-Laten we het proces van het ophalen en bewerken van formuliervelden in een Word-document met behulp van Aspose.Words voor .NET eens nader bekijken.
+Laten we het proces voor het ophalen en bewerken van formuliervelden in een Word-document met behulp van Aspose.Words voor .NET eens nader bekijken.
 
-## Stap 1: Laad het document
+## Stap 1: Het document laden
 
-Eerst moet u het Word-document laden dat de formuliervelden bevat. Dit document is uw startpunt.
+Eerst moet je het Word-document met de formuliervelden laden. Dit document is je startpunt.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Form fields.docx");
 ```
 
- Uitleg: Hier,`dataDir` is het pad naar uw directory met het Word-document. We maken een nieuwe`Document` object en laad het bestand`Form fields.docx`.
+Uitleg: Hier, `dataDir` is het pad naar de map met het Word-document. We maken een nieuw bestand aan. `Document` object en laad het bestand `Form fields.docx`.
 
-## Stap 2: De Form Fields Collection ophalen
+## Stap 2: De formulierveldenverzameling ophalen
 
-Zodra het document is geladen, is de volgende stap om toegang te krijgen tot de verzameling formuliervelden. Met deze verzameling kunt u individuele formuliervelden naar behoefte manipuleren.
+Zodra het document is geladen, is de volgende stap het openen van de verzameling formuliervelden. Met deze verzameling kunt u individuele formuliervelden naar behoefte bewerken.
 
 ```csharp
 FormFieldCollection formFields = doc.Range.FormFields;
 ```
 
- Uitleg: De`FormFields` eigendom van de`Range` object geeft u toegang tot de formuliervelden in het document. We slaan deze verzameling op in een`formFields` variabele voor verdere manipulatie.
+Uitleg: De `FormFields` eigendom van de `Range` object geeft u toegang tot de formuliervelden in het document. We slaan deze verzameling op in een `formFields` variabele voor verdere manipulatie.
 
-## Stap 3: Manipuleer de formuliervelden
+## Stap 3: De formuliervelden manipuleren
 
-Nu u de verzameling formuliervelden hebt, kunt u elk formulierveld openen en manipuleren volgens uw vereisten. Stel dat u de waarde van een specifiek formulierveld wilt wijzigen.
+Nu u de verzameling formuliervelden hebt, kunt u elk formulierveld openen en bewerken volgens uw wensen. Stel dat u de waarde van een specifiek formulierveld wilt wijzigen.
 
 ```csharp
 foreach (FormField formField in formFields)
@@ -75,37 +77,42 @@ Uitleg: In dit voorbeeld doorlopen we elk formulierveld in de verzameling. Als h
 
 ## Stap 4: Sla het gewijzigde document op
 
-Nadat u de gewenste wijzigingen in de formuliervelden hebt aangebracht, is de laatste stap het opslaan van het gewijzigde document.
+Nadat u de gewenste wijzigingen in de formuliervelden hebt aangebracht, moet u als laatste stap het gewijzigde document opslaan.
 
 ```csharp
 doc.Save(dataDir + "ModifiedFormFields.docx");
 ```
 
- Uitleg: We slaan het gewijzigde document op als`ModifiedFormFields.docx` in dezelfde directory.
+Uitleg: We slaan het gewijzigde document op als `ModifiedFormFields.docx` in dezelfde directory.
 
 ## Conclusie
 
-Gefeliciteerd! U hebt zojuist geleerd hoe u formuliervelden in een Word-document kunt ophalen en bewerken met Aspose.Words voor .NET. Deze krachtige bibliotheek maakt het eenvoudig om documentverwerkingstaken te automatiseren, waardoor u tijd en moeite bespaart.
+Gefeliciteerd! Je hebt zojuist geleerd hoe je formuliervelden in een Word-document kunt ophalen en bewerken met Aspose.Words voor .NET. Deze krachtige bibliotheek maakt het eenvoudig om documentverwerkingstaken te automatiseren, waardoor je tijd en moeite bespaart.
 
 ## Veelgestelde vragen
 
 ### Wat is Aspose.Words voor .NET?
-Aspose.Words voor .NET is een uitgebreide bibliotheek voor het werken met Word-documenten in .NET-toepassingen. Hiermee kunt u Word-documenten programmatisch maken, bewerken, converteren en manipuleren.
+Aspose.Words voor .NET is een uitgebreide bibliotheek voor het werken met Word-documenten in .NET-applicaties. Hiermee kunt u Word-documenten programmatisch maken, bewerken, converteren en manipuleren.
 
 ### Kan ik Aspose.Words voor .NET gebruiken in een webapplicatie?
-Ja, Aspose.Words voor .NET kan in verschillende soorten toepassingen worden gebruikt, waaronder webtoepassingen, desktoptoepassingen en services.
+Ja, Aspose.Words voor .NET kan worden gebruikt in verschillende soorten toepassingen, waaronder webtoepassingen, desktoptoepassingen en services.
 
 ### Is Aspose.Words voor .NET gratis?
-Aspose.Words voor .NET biedt een gratis proefperiode, maar voor volledige functionaliteit is een licentie vereist. U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
+Aspose.Words voor .NET biedt een gratis proefperiode, maar voor volledige functionaliteit is een licentie vereist. U kunt een tijdelijke licentie aanschaffen. [hier](https://purchase.aspose.com/temporary-license/).
 
 ### Waar kan ik de documentatie voor Aspose.Words voor .NET vinden?
- De documentatie voor Aspose.Words voor .NET is te vinden[hier](https://reference.aspose.com/words/net/).
+De documentatie voor Aspose.Words voor .NET is te vinden [hier](https://reference.aspose.com/words/net/).
 
 ### Hoe krijg ik ondersteuning voor Aspose.Words voor .NET?
- U kunt ondersteuning voor Aspose.Words voor .NET krijgen via hun ondersteuningsforum[hier](https://forum.aspose.com/c/words/8).
+U kunt ondersteuning voor Aspose.Words voor .NET krijgen via hun ondersteuningsforum [hier](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

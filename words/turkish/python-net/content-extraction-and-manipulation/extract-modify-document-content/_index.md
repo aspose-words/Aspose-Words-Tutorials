@@ -1,14 +1,16 @@
 ---
-title: Word Belgelerindeki İçeriği Çıkarma ve Değiştirme
-linktitle: Word Belgelerindeki İçeriği Çıkarma ve Değiştirme
-second_title: Aspose.Words Python Belge Yönetim API'si
-description: Python için Aspose.Words'ü kullanarak Word belgelerindeki içeriği nasıl çıkaracağınızı ve değiştireceğinizi öğrenin. Kaynak kodlu adım adım kılavuz.
-weight: 10
-url: /tr/python-net/content-extraction-and-manipulation/extract-modify-document-content/
+"description": "Python için Aspose.Words'ü kullanarak Word belgelerindeki içeriği nasıl çıkaracağınızı ve değiştireceğinizi öğrenin. Kaynak kodlu adım adım kılavuz."
+"linktitle": "Word Belgelerindeki İçeriği Çıkarma ve Değiştirme"
+"second_title": "Aspose.Words Python Belge Yönetim API'si"
+"title": "Word Belgelerindeki İçeriği Çıkarma ve Değiştirme"
+"url": "/tr/python-net/content-extraction-and-manipulation/extract-modify-document-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgelerindeki İçeriği Çıkarma ve Değiştirme
@@ -58,7 +60,7 @@ run.get_font().set_color(255, 0, 0)
 
 ## Metni Değiştirme
 
- Metnin değiştirilmesi, şu şekilde gerçekleştirilebilir:`replace` yöntem:
+Metnin değiştirilmesi, şu şekilde gerçekleştirilebilir: `replace` yöntem:
 
 ```python
 doc.get_range().replace("old_text", "new_text", False, False)
@@ -66,7 +68,7 @@ doc.get_range().replace("old_text", "new_text", False, False)
 
 ## Görüntüleri Ekleme ve Değiştirme
 
- Resimler, kullanılarak eklenebilir veya değiştirilebilir.`insert_image` yöntem:
+Resimler, kullanılarak eklenebilir veya değiştirilebilir. `insert_image` yöntem:
 
 ```python
 shape = doc.get_first_section().get_body().append_child(asposewords.Drawing.Shape(doc, asposewords.Drawing.ShapeType.IMAGE))
@@ -103,7 +105,7 @@ header.get_paragraphs().add("Header content")
 
 ## Köprü Bağlantıları Ekleme
 
- Köprü metinleri, aşağıdakiler kullanılarak eklenebilir:`insert_hyperlink` yöntem:
+Köprü metinleri, aşağıdakiler kullanılarak eklenebilir: `insert_hyperlink` yöntem:
 
 ```python
 run = doc.get_first_section().get_body().get_first_paragraph().get_runs().get(0)
@@ -131,7 +133,7 @@ Python için Aspose.Words, Word belgelerini zahmetsizce düzenlemenizi ve deği�
 
 ### Python için Aspose.Words'ü nasıl kurabilirim?
 
- Python için Aspose.Words'ü yüklemek için şu komutu kullanın:`pip install aspose-words`.
+Python için Aspose.Words'ü yüklemek için şu komutu kullanın: `pip install aspose-words`.
 
 ### Bu kütüphaneyi kullanarak metin biçimlendirmesini değiştirebilir miyim?
 
@@ -139,18 +141,23 @@ Evet, Aspose.Words for Python API'sini kullanarak kalın, renk ve yazı tipi boy
 
 ### Belge içindeki belirli bir metni değiştirmek mümkün müdür?
 
- Elbette kullanabilirsiniz`replace` Belge içindeki belirli bir metni değiştirme yöntemi.
+Elbette kullanabilirsiniz `replace` Belge içindeki belirli bir metni değiştirme yöntemi.
 
 ### Word dokümanıma köprü metni ekleyebilir miyim?
 
- Kesinlikle, belgenize köprü metinleri ekleyebilirsiniz.`insert_hyperlink` Aspose.Words tarafından sağlanan yöntem.
+Kesinlikle, belgenize köprü metinleri ekleyebilirsiniz. `insert_hyperlink` Aspose.Words tarafından sağlanan yöntem.
 
 ### Word belgelerimi hangi başka biçimlere dönüştürebilirim?
 
 Aspose.Words, PDF, HTML, EPUB ve daha fazlası gibi çeşitli formatlara dönüştürmeyi destekler.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

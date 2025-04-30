@@ -1,31 +1,33 @@
 ---
-title: 从数据表生成表
-linktitle: 从数据表生成表
-second_title: Aspose.Words Java 文档处理 API
-description: 了解如何使用 Aspose.Words for Java 从 DataTable 生成表格。轻松创建带有格式化表格的专业 Word 文档。
-weight: 11
-url: /zh/java/table-processing/generate-table-from-datatable/
+"description": "学习如何使用 Aspose.Words for Java 从 DataTable 生成表格。轻松创建带有格式化表格的专业 Word 文档。"
+"linktitle": "从数据表生成表"
+"second_title": "Aspose.Words Java文档处理API"
+"title": "从数据表生成表"
+"url": "/zh/java/table-processing/generate-table-from-datatable/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 从数据表生成表
 
 ## 介绍
 
-从数据源动态创建表是许多应用程序中的常见任务。无论您是生成报告、发票还是数据摘要，能够以编程方式用数据填充表格都可以为您节省大量时间和精力。在本教程中，我们将探讨如何使用 Aspose.Words for Java 从 DataTable 生成表格。我们将把这个过程分解为易于管理的步骤，确保您清楚了解每个部分。
+在许多应用程序中，从数据源动态创建表是一项常见任务。无论您是生成报告、发票还是数据摘要，能够以编程方式向表中填充数据都能为您节省大量时间和精力。在本教程中，我们将探索如何使用 Aspose.Words for Java 从 DataTable 生成表。我们将该过程分解为易于操作的步骤，确保您清晰地理解每个部分。
 
 ## 先决条件
 
 在深入研究代码之前，请确保您已准备好开始所需的一切：
 
-1.  Java 开发工具包 (JDK)：确保您的机器上安装了 JDK。您可以从[Oracle 网站](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+1. Java 开发工具包 (JDK)：请确保您的计算机上已安装 JDK。您可以从 [Oracle 网站](https://www。oracle.com/java/technologies/javase-jdk11-downloads.html).
    
-2. Aspose.Words for Java：您需要 Aspose.Words 库。您可以从以下网址下载最新版本[Aspose 的发布页面](https://releases.aspose.com/words/java/).
+2. Aspose.Words for Java：您需要 Aspose.Words 库。您可以从以下网址下载最新版本 [Aspose 的发布页面](https://releases。aspose.com/words/java/).
 
-3. IDE：像 IntelliJ IDEA 或 Eclipse 这样的集成开发环境 (IDE) 将使编码更容易。
+3. IDE：像 IntelliJ IDEA 或 Eclipse 这样的集成开发环境 (IDE) 将使编码变得更容易。
 
 4. Java 基础知识：熟悉 Java 编程概念将帮助您更好地理解代码片段。
 
@@ -33,23 +35,23 @@ url: /zh/java/table-processing/generate-table-from-datatable/
 
 ## 步骤 1：创建新文档
 
-首先，我们需要创建一个新文档，用于放置我们的表格。这是我们工作的画布。
+首先，我们需要创建一个新的文档来放置表格。这是我们工作的画布。
 
 ```java
 Document doc = new Document();
 ```
 
-在这里，我们实例化一个新的`Document`对象。这将作为我们的工作文档，我们将在其中构建表格。
+在这里，我们实例化一个新的 `Document` 对象。这将作为我们的工作文档，我们将在其中构建表格。
 
-## 第 2 步：初始化 DocumentBuilder
+## 步骤2：初始化DocumentBuilder
 
-接下来，我们将使用`DocumentBuilder`类，它使我们能够更轻松地操作文档。
+接下来，我们将使用 `DocumentBuilder` 类，它使我们能够更轻松地操作文档。
 
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-这`DocumentBuilder`对象提供将表格、文本和其他元素插入文档的方法。
+这 `DocumentBuilder` 对象提供将表格、文本和其他元素插入文档的方法。
 
 ## 步骤 3：设置页面方向
 
@@ -63,7 +65,7 @@ doc.getFirstSection().getPageSetup().setOrientation(Orientation.LANDSCAPE);
 
 ## 步骤 4：从 XML 加载数据
 
-现在，我们需要将 XML 文件中的数据加载到`DataTable`。这就是我们的数据来源。
+现在，我们需要将数据从 XML 文件加载到 `DataTable`。这就是我们的数据来源。
 
 ```java
 DataSet ds = new DataSet();
@@ -71,7 +73,7 @@ ds.readXml(getMyDir() + "List of people.xml");
 DataTable dataTable = ds.getTables().get(0);
 ```
 
-在这里，我们读取 XML 文件并从数据集中检索第一个表。这`DataTable`将保存我们想要在文档中显示的数据。
+在这里，我们读取 XML 文件并从数据集中检索第一个表。这 `DataTable` 将保存我们想要在文档中显示的数据。
 
 ## 步骤 5：从 DataTable 导入表
 
@@ -81,11 +83,11 @@ DataTable dataTable = ds.getTables().get(0);
 Table table = importTableFromDataTable(builder, dataTable, true);
 ```
 
-我们称该方法为`importTableFromDataTable`，通过`DocumentBuilder`， 我们的`DataTable`，以及一个布尔值来指示是否包含列标题。
+我们称该方法为 `importTableFromDataTable`，通过 `DocumentBuilder`， 我们的 `DataTable`，以及一个布尔值来指示是否包含列标题。
 
 ## 步骤 6：设置表格样式
 
-一旦我们有了表格，我们就可以应用一些样式使其看起来美观。
+一旦我们有了表格，我们就可以应用一些样式让它看起来更美观。
 
 ```java
 table.setStyleIdentifier(StyleIdentifier.MEDIUM_LIST_2_ACCENT_1);
@@ -102,9 +104,9 @@ table.setStyleOptions(TableStyleOptions.FIRST_ROW | TableStyleOptions.ROW_BANDS 
 table.getFirstRow().getLastCell().removeAllChildren();
 ```
 
-这一步确保我们的表格只显示相关信息。
+此步骤确保我们的表格仅显示相关信息。
 
-## 步骤 8：保存文档
+## 步骤8：保存文档
 
 最后，我们将生成的表格保存到文档中。
 
@@ -116,9 +118,9 @@ doc.save(getArtifactsDir() + "WorkingWithTables.BuildTableFromDataTable.docx");
 
 ## importTableFromDataTable 方法
 
-让我们仔细看看`importTableFromDataTable`方法。此方法负责创建表结构并用数据填充表结构。
+让我们仔细看看 `importTableFromDataTable` 方法。此方法负责创建表结构并用数据填充。
 
-### 步骤 1：开始表格
+### 步骤 1：启动表格
 
 首先，我们需要在文档中开始一个新表格。
 
@@ -130,19 +132,19 @@ Table table = builder.startTable();
 
 ### 第 2 步：添加列标题
 
-如果我们想包含列标题，我们检查`importColumnHeadings`旗帜。
+如果我们想包含列标题，我们检查 `importColumnHeadings` 旗帜。
 
 ```java
 if (importColumnHeadings) {
-    //保存原始格式
+    // 存储原始格式
     boolean boldValue = builder.getFont().getBold();
     int paragraphAlignmentValue = builder.getParagraphFormat().getAlignment();
 
-    //设置标题格式
+    // 设置标题格式
     builder.getFont().setBold(true);
     builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
 
-    //插入列名称
+    // 插入列名称
     for (DataColumn column : dataTable.getColumns()) {
         builder.insertCell();
         builder.writeln(column.getColumnName());
@@ -150,17 +152,17 @@ if (importColumnHeadings) {
 
     builder.endRow();
 
-    //恢复原始格式
+    // 恢复原始格式
     builder.getFont().setBold(boldValue);
     builder.getParagraphFormat().setAlignment(paragraphAlignmentValue);
 }
 ```
 
-此代码块格式化标题行并插入来自`DataTable`.
+此代码块格式化标题行并插入来自 `DataTable`。
 
-### 步骤 3：用数据填充表格
+### 步骤 3：用数据填充表
 
-现在，我们循环遍历`DataTable`将数据插入表中。
+现在，我们循环遍历 `DataTable` 将数据插入表中。
 
 ```java
 for (DataRow dataRow : (Iterable<DataRow>) dataTable.getRows()) {
@@ -181,7 +183,7 @@ for (DataRow dataRow : (Iterable<DataRow>) dataTable.getRows()) {
 }
 ```
 
-在本节中，我们将处理不同的数据类型，适当地格式化日期，同时将其他数据插入为文本。
+在本节中，我们将处理不同的数据类型，适当地格式化日期，同时将其他数据作为文本插入。
 
 ### 步骤 4：结束表格
 
@@ -191,11 +193,11 @@ for (DataRow dataRow : (Iterable<DataRow>) dataTable.getRows()) {
 builder.endTable();
 ```
 
-这条线标志着我们表格的结束，允许`DocumentBuilder`知道我们已经完成这一部分。
+这条线标志着我们表格的结束，允许 `DocumentBuilder` 知道我们已经完成了这一部分。
 
 ## 结论
 
-就这样！您已经成功学会了如何使用 Aspose.Words for Java 从 DataTable 生成表格。按照这些步骤，您可以轻松地根据各种数据源在文档中创建动态表格。无论您是生成报告还是发票，此方法都会简化您的工作流程并增强您的文档创建过程。
+就这样！您已经成功学会了如何使用 Aspose.Words for Java 从 DataTable 生成表格。按照这些步骤，您可以轻松地在文档中基于各种数据源创建动态表格。无论您是生成报告还是发票，此方法都能简化您的工作流程并增强您的文档创建过程。
 
 ## 常见问题解答
 
@@ -203,19 +205,24 @@ builder.endTable();
 Aspose.Words for Java 是一个功能强大的库，用于以编程方式创建、操作和转换 Word 文档。
 
 ### 我可以免费使用 Aspose.Words 吗？
-是的，Aspose 提供免费试用版。您可以从以下网址下载[这里](https://releases.aspose.com/).
+是的，Aspose 提供免费试用版。您可以从以下网址下载： [这里](https://releases。aspose.com/).
 
 ### 如何在 Aspose.Words 中设置表格样式？
 您可以使用库提供的预定义样式标识符和选项来应用样式。
 
-### 我可以在表中插入哪些类型的数据？
+### 我可以将哪些类型的数据插入表中？
 您可以插入各种数据类型，包括文本、数字和日期，并可以相应地设置格式。
 
 ### 我可以在哪里获得 Aspose.Words 的支持？
-您可以在以下位置寻求支持并提出问题[Aspose 论坛](https://forum.aspose.com/c/words/8/).
+您可以在 [Aspose 论坛](https://forum。aspose.com/c/words/8/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

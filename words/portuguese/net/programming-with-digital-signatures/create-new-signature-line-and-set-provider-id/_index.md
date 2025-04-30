@@ -1,30 +1,32 @@
 ---
-title: Criar nova linha de assinatura e definir ID do provedor
-linktitle: Criar nova linha de assinatura e definir ID do provedor
-second_title: API de processamento de documentos Aspose.Words
-description: Aprenda a criar uma nova linha de assinatura e definir o ID do provedor em documentos do Word usando o Aspose.Words para .NET. Guia passo a passo.
-weight: 10
-url: /pt/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/
+"description": "Aprenda a criar uma nova linha de assinatura e definir o ID do provedor em documentos do Word usando o Aspose.Words para .NET. Guia passo a passo."
+"linktitle": "Criar nova linha de assinatura e definir ID do provedor"
+"second_title": "API de processamento de documentos Aspose.Words"
+"title": "Criar nova linha de assinatura e definir ID do provedor"
+"url": "/pt/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Criar nova linha de assinatura e definir ID do provedor
 
 ## Introdução
 
-Olá, entusiastas de tecnologia! Já se perguntou como adicionar uma linha de assinatura em seus documentos do Word programaticamente? Bem, hoje vamos mergulhar nisso usando o Aspose.Words para .NET. Este guia o guiará por cada etapa, tornando muito fácil criar uma nova linha de assinatura e definir o ID do provedor em seus documentos do Word. Quer você esteja automatizando o processamento de documentos ou apenas procurando agilizar seu fluxo de trabalho, este tutorial tem tudo o que você precisa.
+Olá, entusiastas de tecnologia! Já se perguntaram como adicionar uma linha de assinatura aos seus documentos do Word programaticamente? Bem, hoje vamos nos aprofundar nisso usando o Aspose.Words para .NET. Este guia guiará você por cada etapa, facilitando ao máximo a criação de uma nova linha de assinatura e a definição do ID do provedor nos seus documentos do Word. Seja para automatizar o processamento de documentos ou apenas para otimizar seu fluxo de trabalho, este tutorial tem tudo o que você precisa.
 
 ## Pré-requisitos
 
 Antes de colocarmos a mão na massa, vamos garantir que temos tudo o que precisamos:
 
-1.  Aspose.Words para .NET: Se você ainda não fez, baixe-o[aqui](https://releases.aspose.com/words/net/).
+1. Aspose.Words para .NET: Se você ainda não fez, baixe-o [aqui](https://releases.aspose.com/words/net/).
 2. Ambiente de desenvolvimento: Visual Studio ou qualquer outro ambiente de desenvolvimento C#.
 3. .NET Framework: certifique-se de ter o .NET Framework instalado.
-4. Certificado PFX: Para assinar documentos, você precisará de um certificado PFX. Você pode obter um de uma autoridade de certificação confiável.
+4. Certificado PFX: Para assinar documentos, você precisará de um certificado PFX. Você pode obtê-lo de uma autoridade certificadora confiável.
 
 ## Importar namespaces
 
@@ -39,9 +41,9 @@ using System;
 
 Certo, vamos ao que interessa. Aqui está uma análise detalhada de cada etapa para criar uma nova linha de assinatura e definir o ID do provedor.
 
-## Etapa 1: Crie um novo documento
+## Etapa 1: Criar um novo documento
 
-Para começar, precisamos criar um novo documento do Word. Este será o canvas para nossa linha de assinatura.
+Para começar, precisamos criar um novo documento do Word. Este será o espaço para a nossa linha de assinatura.
 
 ```csharp
 // O caminho para o diretório de documentos.
@@ -50,11 +52,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Neste snippet, estamos inicializando um novo`Document` e um`DocumentBuilder` . O`DocumentBuilder` nos ajuda a adicionar elementos ao nosso documento.
+Neste snippet, estamos inicializando um novo `Document` e um `DocumentBuilder`. O `DocumentBuilder` nos ajuda a adicionar elementos ao nosso documento.
 
 ## Etapa 2: Definir opções de linha de assinatura
 
-Em seguida, definimos as opções para nossa linha de assinatura. Isso inclui o nome do signatário, cargo, e-mail e outros detalhes.
+Em seguida, definimos as opções para nossa linha de assinatura. Isso inclui o nome, cargo, e-mail e outros detalhes do signatário.
 
 ```csharp
 SignatureLineOptions signatureLineOptions = new SignatureLineOptions
@@ -80,7 +82,7 @@ SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).
 signatureLine.ProviderId = Guid.Parse("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2");
 ```
 
- Aqui, o`InsertSignatureLine` O método adiciona a linha de assinatura e atribuímos um ID de provedor exclusivo a ela.
+Aqui, o `InsertSignatureLine` O método adiciona a linha de assinatura e atribuímos um ID de provedor exclusivo a ela.
 
 ## Etapa 4: Salve o documento
 
@@ -94,7 +96,7 @@ Isso salva seu documento com a linha de assinatura recém-adicionada.
 
 ## Etapa 5: Configurar opções de assinatura
 
-Agora, precisamos configurar as opções para assinar o documento. Isso inclui o ID da linha de assinatura, o ID do provedor, os comentários e o tempo de assinatura.
+Agora, precisamos configurar as opções para assinar o documento. Isso inclui o ID da linha de assinatura, o ID do provedor, os comentários e o horário da assinatura.
 
 ```csharp
 SignOptions signOptions = new SignOptions
@@ -108,7 +110,7 @@ SignOptions signOptions = new SignOptions
 
 Essas opções garantem que o documento seja assinado com os detalhes corretos.
 
-## Etapa 6: Criar detentor de certificado
+## Etapa 6: Criar detentor do certificado
 
 Para assinar o documento, usaremos um certificado PFX. Vamos criar um detentor de certificado para ele.
 
@@ -116,7 +118,7 @@ Para assinar o documento, usaremos um certificado PFX. Vamos criar um detentor d
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
 ```
 
- Certifique-se de substituir`"morzal.pfx"` com seu arquivo de certificado real e`"aw"` com a senha do seu certificado.
+Certifique-se de substituir `"morzal.pfx"` com seu arquivo de certificado real e `"aw"` com a senha do seu certificado.
 
 ## Etapa 7: Assine o documento
 
@@ -131,15 +133,15 @@ Isso assina o documento e o salva como um novo arquivo.
 
 ## Conclusão
 
-E aí está! Você criou com sucesso uma nova linha de assinatura e definiu o ID do provedor em um documento do Word usando o Aspose.Words para .NET. Esta biblioteca poderosa torna incrivelmente fácil gerenciar e automatizar tarefas de processamento de documentos. Experimente e veja como ela pode agilizar seu fluxo de trabalho.
+pronto! Você criou com sucesso uma nova linha de assinatura e definiu o ID do provedor em um documento do Word usando o Aspose.Words para .NET. Esta poderosa biblioteca facilita incrivelmente o gerenciamento e a automatização de tarefas de processamento de documentos. Experimente e veja como ela pode otimizar seu fluxo de trabalho.
 
 ## Perguntas frequentes
 
 ### Posso personalizar a aparência da linha de assinatura?
- Absolutamente! Você pode ajustar várias opções no`SignatureLineOptions`para atender às suas necessidades.
+Com certeza! Você pode ajustar várias opções no `SignatureLineOptions` para atender às suas necessidades.
 
 ### E se eu não tiver um certificado PFX?
-Você precisará obter um de uma autoridade de certificação confiável. É essencial para assinar documentos digitalmente.
+Você precisará obter um certificado de uma autoridade certificadora confiável. É essencial para assinar documentos digitalmente.
 
 ### Posso adicionar várias linhas de assinatura a um documento?
 Sim, você pode adicionar quantas linhas de assinatura forem necessárias, repetindo o processo de inserção com opções diferentes.
@@ -149,9 +151,14 @@ Sim, o Aspose.Words para .NET oferece suporte ao .NET Core, o que o torna versá
 
 ### Quão seguras são as assinaturas digitais?
 Assinaturas digitais criadas com o Aspose.Words são altamente seguras, desde que você use um certificado válido e confiável.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

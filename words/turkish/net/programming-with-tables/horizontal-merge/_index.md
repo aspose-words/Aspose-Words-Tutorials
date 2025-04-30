@@ -1,14 +1,16 @@
 ---
-title: Yatay Birleştirme
-linktitle: Yatay Birleştirme
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım eğitimle Aspose.Words for .NET'i kullanarak Word belgesindeki hücreleri yatay olarak nasıl birleştireceğinizi öğrenin.
-weight: 10
-url: /tr/net/programming-with-tables/horizontal-merge/
+"description": "Bu ayrıntılı, adım adım eğitimle Aspose.Words for .NET'i kullanarak Word belgesindeki hücreleri yatay olarak nasıl birleştireceğinizi öğrenin."
+"linktitle": "Yatay Birleştirme"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yatay Birleştirme"
+"url": "/tr/net/programming-with-tables/horizontal-merge/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yatay Birleştirme
@@ -21,7 +23,7 @@ Merhaba! .NET için Aspose.Words dünyasına dalmaya hazır mısınız? Bugün, 
 
 Ayrıntılara girmeden önce, elinizde olması gereken birkaç şey var:
 
-1. Aspose.Words for .NET Kütüphanesi: Eğer henüz yapmadıysanız, Aspose.Words for .NET kütüphanesini indirin. Bunu alabilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Eğer henüz yapmadıysanız, Aspose.Words for .NET kütüphanesini indirin. Bunu alabilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi uygun bir geliştirme ortamının kurulu olduğundan emin olun.
 3. Temel C# Bilgisi: C# programlamaya dair temel bir anlayışa sahip olmak faydalı olacaktır.
 
@@ -40,21 +42,21 @@ Tamam, Aspose.Words for .NET kullanarak bir Word belgesinde tablo hücrelerini y
 
 ## Adım 1: Belgenizi Ayarlama
 
- İlk önce, yeni bir Word belgesi oluşturmamız ve başlatmamız gerekiyor`DocumentBuilder`:
+İlk önce, yeni bir Word belgesi oluşturmamız ve başlatmamız gerekiyor `DocumentBuilder`:
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Bu kod parçacığı yeni bir belge kurar ve hazırlar`DocumentBuilder` eylem için.
+Bu kod parçacığı yeni bir belge kurar ve hazırlar `DocumentBuilder` eylem için.
 
 ## Adım 2: İlk Hücreyi Ekleme
 
-Daha sonra ilk hücreyi ekleyerek yatay birleştirme için işaretliyoruz:
+Daha sonra ilk hücreyi ekleyip yatay birleştirme için işaretliyoruz:
 
 ```csharp
 builder.InsertCell();
@@ -62,9 +64,9 @@ builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 ```
 
- Burada yeni bir hücre ekliyoruz ve hücrenin`HorizontalMerge`mülk`CellMerge.First`Bu hücrenin birleştirilmiş hücre dizisinin başlangıcı olduğunu gösterir.
+Burada yeni bir hücre ekliyoruz ve hücrenin `HorizontalMerge` mülk `CellMerge.First`Bu hücrenin birleştirilmiş hücre dizisinin başlangıcı olduğunu gösterir.
 
-## Adım 3: Birleştirilmiş Hücreyi Ekleme
+## Adım 3: Birleştirilmiş Hücrenin Eklenmesi
 
 Şimdi bir önceki hücreyle birleştirilecek hücreyi ekleyelim:
 
@@ -74,7 +76,7 @@ builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 ```
 
- Bu hücre, kullanılarak önceki hücreyle birleştirilecek şekilde ayarlanır`CellMerge.Previous` Satırı nasıl sonlandırdığımıza dikkat edin`builder.EndRow()`.
+Bu hücre, kullanılarak önceki hücreyle birleştirilecek şekilde ayarlanır `CellMerge.Previous`Satırı nasıl sonlandırdığımıza dikkat edin `builder.EndRow()`.
 
 ## Adım 4: Birleştirilmemiş Hücreleri Ekleme
 
@@ -112,19 +114,24 @@ Bu kod parçacığı tabloyu tamamlar ve belgeyi belirtilen dizine kaydeder.
 Aspose.Words for .NET, geliştiricilerin .NET uygulamalarında Word belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve değiştirmelerine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.Words for .NET ile hücreleri dikey olarak birleştirebilir miyim?
- Evet, hücreleri dikey olarak da birleştirebilirsiniz.`CellFormat.VerticalMerge` mülk.
+Evet, hücreleri dikey olarak da birleştirebilirsiniz. `CellFormat.VerticalMerge` mülk.
 
 ### Aspose.Words for .NET'i kullanmak ücretsiz mi?
- Aspose.Words for .NET ücretsiz deneme sunuyor, ancak tam işlevsellik için bir lisans satın almanız gerekecek. Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Aspose.Words for .NET ücretsiz deneme sunuyor, ancak tam işlevsellik için bir lisans satın almanız gerekecek. Geçici bir lisans alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words for .NET hakkında daha fazla bilgi nasıl edinebilirim?
- Ayrıntılı belgeleri inceleyebilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Ayrıntılı belgeleri inceleyebilirsiniz [Burada](https://reference.aspose.com/words/net/).
 
 ### Aspose.Words for .NET için desteği nereden alabilirim?
- Herhangi bir sorunuz veya sorununuz varsa Aspose destek forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/words/8).
+Herhangi bir sorunuz veya sorununuz varsa Aspose destek forumunu ziyaret edebilirsiniz [Burada](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

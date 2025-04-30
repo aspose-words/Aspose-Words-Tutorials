@@ -1,14 +1,16 @@
 ---
-title: OleObjects और ActiveX के साथ शब्द प्रसंस्करण
-linktitle: OleObjects और ActiveX के साथ शब्द प्रसंस्करण
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: Aspose.Words for .NET के साथ Word दस्तावेज़ों में OLE और ActiveX ऑब्जेक्ट के साथ काम करना सीखें। कोड उदाहरणों के साथ विस्तृत ट्यूटोरियल।
-weight: 1080
-url: /hi/net/working-with-oleobjects-and-activex/
+"description": "Aspose.Words for .NET के साथ Word दस्तावेज़ों में OLE और ActiveX ऑब्जेक्ट के साथ काम करना सीखें। कोड उदाहरणों के साथ विस्तृत ट्यूटोरियल।"
+"linktitle": "OleObjects और ActiveX के साथ शब्द प्रसंस्करण"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "OleObjects और ActiveX के साथ शब्द प्रसंस्करण"
+"url": "/hi/net/working-with-oleobjects-and-activex/"
+"weight": 1080
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OleObjects और ActiveX के साथ शब्द प्रसंस्करण
@@ -24,11 +26,16 @@ OLE और ActiveX ऑब्जेक्ट के साथ वर्ड प्
 | [वर्ड डॉक्यूमेंट में पुराना ऑब्जेक्ट डालें](./insert-ole-object/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में OLE ऑब्जेक्ट सम्मिलित करना सीखें। एम्बेडेड सामग्री के साथ अपने दस्तावेज़ों को बेहतर बनाएँ। |
 | [Ole पैकेज के साथ Word में Ole ऑब्जेक्ट डालें](./insert-ole-object-with-ole-package/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में OLE ऑब्जेक्ट सम्मिलित करना सीखें। फ़ाइलों को सहजता से एम्बेड करने के लिए हमारे विस्तृत चरण-दर-चरण मार्गदर्शिका का पालन करें। |
 | [वर्ड डॉक्यूमेंट में पुराने ऑब्जेक्ट को आइकन के रूप में डालें](./insert-ole-object-as-icon/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में आइकन के रूप में OLE ऑब्जेक्ट सम्मिलित करना सीखें। अपने दस्तावेज़ों को बेहतर बनाने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें। |
-| [स्ट्रीम का उपयोग करके ओले ऑब्जेक्ट को आइकन के रूप में डालें](./insert-ole-object-as-icon-using-stream/) | इस विस्तृत, चरण-दर-चरण ट्यूटोरियल में जानें कि .NET के लिए Aspose.Words के साथ स्ट्रीम का उपयोग करके एक OLE ऑब्जेक्ट को आइकन के रूप में कैसे सम्मिलित किया जाए। |
-| [वर्ड फ़ाइल से Active XControl गुण पढ़ें](./read-active-xcontrol-properties/) | चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Words का उपयोग करके Word फ़ाइलों से ActiveX नियंत्रण गुण पढ़ना सीखें। अपने दस्तावेज़ स्वचालन कौशल को बढ़ाएँ। |
+| [स्ट्रीम का उपयोग करके ओले ऑब्जेक्ट को आइकन के रूप में डालें](./insert-ole-object-as-icon-using-stream/) | इस विस्तृत, चरण-दर-चरण ट्यूटोरियल में Aspose.Words for .NET के साथ स्ट्रीम का उपयोग करके एक OLE ऑब्जेक्ट को आइकन के रूप में सम्मिलित करना सीखें। |
+| [वर्ड फ़ाइल से Active XControl गुण पढ़ें](./read-active-xcontrol-properties/) | चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Words का उपयोग करके Word फ़ाइलों से ActiveX नियंत्रण गुणों को पढ़ना सीखें। अपने दस्तावेज़ स्वचालन कौशल को बढ़ाएँ। |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

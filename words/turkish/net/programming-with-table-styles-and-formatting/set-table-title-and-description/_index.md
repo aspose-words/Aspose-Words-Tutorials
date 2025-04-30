@@ -1,27 +1,29 @@
 ---
-title: Tablo Başlığını ve Açıklamasını Ayarla
-linktitle: Tablo Başlığını ve Açıklamasını Ayarla
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinde tablo başlıklarını ve açıklamalarını nasıl ayarlayacağınızı öğrenin. Belgenizin profesyonelliğini artırmak için ayrıntılı kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/programming-with-table-styles-and-formatting/set-table-title-and-description/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinde tablo başlıklarını ve açıklamalarını nasıl ayarlayacağınızı öğrenin. Belgenizin profesyonelliğini artırmak için ayrıntılı kılavuzumuzu izleyin."
+"linktitle": "Tablo Başlığını ve Açıklamasını Ayarla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Tablo Başlığını ve Açıklamasını Ayarla"
+"url": "/tr/net/programming-with-table-styles-and-formatting/set-table-title-and-description/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tablo Başlığını ve Açıklamasını Ayarla
 
 ## giriiş
 
-Tablolarınıza gösterişli başlıklar ve açıklamalar ekleyerek Word belgelerinizi canlandırmaya hazır mısınız? Doğru yerdesiniz. Bugün, .NET için Aspose.Words'ün büyüsüne dalacağız. Bu araç, belge otomasyonu için gerçek bir oyun değiştiricidir. Bunu, Word belgelerinizi ter dökmeden süper profesyonel hale getirmek için gizli silahınız olarak düşünün. Hadi, kollarımızı sıvayalım ve bu maceraya başlayalım.
+Tablolarınıza gösterişli başlıklar ve açıklamalar ekleyerek Word belgelerinizi canlandırmaya hazır mısınız? Doğru yerdesiniz. Bugün, .NET için Aspose.Words'ün büyüsüne dalacağız. Bu araç, belge otomasyonu için gerçek bir oyun değiştiricidir. Bunu, Word belgelerinizi ter dökmeden süper profesyonel göstermek için gizli silahınız olarak düşünün. Hadi, kollarımızı sıvayalım ve bu maceraya başlayalım.
 
 ## Ön koşullar
 
 Ayrıntılara girmeden önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte kontrol listeniz:
 
-1.  Aspose.Words for .NET: Eğer henüz yapmadıysanız, bunu edinmeniz gerekecek. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Eğer henüz yapmadıysanız, bunu edinmeniz gerekecek. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir C# IDE.
 3. C# Temel Anlayışı: Çok abartılı bir şey yok, sadece temel bilgiler.
 4. Örnek Bir Word Belgesi: İçinde tablolar bulunan bir belgeyle çalışacağız. Bir tane oluşturabilir veya mevcut bir belgeyi kullanabilirsiniz.
@@ -64,7 +66,7 @@ table.Title = "Test title";
 
 ## Adım 4: Tablo Açıklamasını Ayarlayın
 
-Sırada tablomuza bir açıklama ekleyeceğiz. Bu, belgeyi okuyan herkesin tablonun ne hakkında olduğunu anlamasına yardımcı olur.
+Sırada, tablomuza bir açıklama ekleyeceğiz. Bu, belgeyi okuyan herkesin tablonun ne hakkında olduğunu anlamasına yardımcı olur.
 
 ```csharp
 table.Description = "Test description";
@@ -93,16 +95,21 @@ Evet, güncellemek istediğiniz her tablo için işlemi tekrarlayabilirsiniz.
 Özellikle birden fazla tablonun bulunduğu büyük belgelerde bağlam sağlamaya yardımcı olurlar.
 
 ### Aspose.Words for .NET ücretsiz mi?
- Hayır, ama bir tane ile başlayabilirsiniz[ücretsiz deneme](https://releases.aspose.com/).
+Hayır, ama bir tane ile başlayabilirsiniz [ücretsiz deneme](https://releases.aspose.com/).
 
 ### Aspose.Words for .NET'i kullanarak tablonun diğer yönlerini özelleştirebilir miyim?
 Kesinlikle! Tablolarınızın ve belgelerinizin hemen hemen her yönünü özelleştirebilirsiniz.
 
 ### Belgeyi farklı bir biçimde kaydetmek istersem ne olur?
-Aspose.Words, PDF, HTML ve daha birçok formatta kaydetmeyi destekler.
+Aspose.Words, PDF, HTML ve daha birçok farklı formatta kaydetmeyi destekler.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

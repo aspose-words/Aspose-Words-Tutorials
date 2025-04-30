@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ में क्षैतिज नियम प्रारूप
-linktitle: वर्ड दस्तावेज़ में क्षैतिज नियम प्रारूप
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में अनुकूलन योग्य क्षैतिज नियम सम्मिलित करना सीखें। अपने दस्तावेज़ स्वचालन को बढ़ाएँ।
-weight: 10
-url: /hi/net/add-content-using-documentbuilder/horizontal-rule-format/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में अनुकूलन योग्य क्षैतिज नियम सम्मिलित करना सीखें। अपने दस्तावेज़ स्वचालन को बढ़ाएँ।"
+"linktitle": "वर्ड दस्तावेज़ में क्षैतिज नियम प्रारूप"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड दस्तावेज़ में क्षैतिज नियम प्रारूप"
+"url": "/hi/net/add-content-using-documentbuilder/horizontal-rule-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ में क्षैतिज नियम प्रारूप
@@ -22,9 +24,9 @@ url: /hi/net/add-content-using-documentbuilder/horizontal-rule-format/
 .NET के लिए Aspose.Words का उपयोग करके क्षैतिज नियमों को लागू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 
 - विज़ुअल स्टूडियो: .NET विकास के लिए विज़ुअल स्टूडियो IDE स्थापित करें।
-- Aspose.Words for .NET: Aspose.Words for .NET को यहाँ से डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Aspose.Words for .NET को यहाँ से डाउनलोड और इंस्टॉल करें [यहाँ](https://releases.aspose.com/words/net/).
 - बुनियादी C# ज्ञान: C# प्रोग्रामिंग भाषा की मूल बातों से परिचित होना।
--  डॉक्यूमेंटबिल्डर क्लास: की समझ`DocumentBuilder` दस्तावेज़ हेरफेर के लिए Aspose.Words में वर्ग।
+- डॉक्यूमेंटबिल्डर क्लास: की समझ `DocumentBuilder` दस्तावेज़ हेरफेर के लिए Aspose.Words में वर्ग।
 
 ## नामस्थान आयात करें
 
@@ -41,7 +43,7 @@ using System.Drawing;
 
 ## चरण 1: डॉक्यूमेंटबिल्डर आरंभ करें और निर्देशिका सेट करें
 
- सबसे पहले, एक आरंभ करें`DocumentBuilder` ऑब्जेक्ट चुनें और निर्देशिका पथ सेट करें जहां दस्तावेज़ सहेजा जाएगा।
+सबसे पहले, एक आरंभीकरण करें `DocumentBuilder` ऑब्जेक्ट चुनें और निर्देशिका पथ सेट करें जहां दस्तावेज़ सहेजा जाएगा।
 
 ```csharp
 string dataDir = "YOUR_DOCUMENT_DIRECTORY_PATH";
@@ -50,7 +52,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 ## चरण 2: क्षैतिज नियम डालें
 
- उपयोग`InsertHorizontalRule()` की विधि`DocumentBuilder` वर्ग में क्षैतिज नियम जोड़ें।
+उपयोग `InsertHorizontalRule()` की विधि `DocumentBuilder` वर्ग में क्षैतिज नियम जोड़ें।
 
 ```csharp
 Shape shape = builder.InsertHorizontalRule();
@@ -58,7 +60,7 @@ Shape shape = builder.InsertHorizontalRule();
 
 ## चरण 3: क्षैतिज नियम प्रारूप को अनुकूलित करें
 
- तक पहुंच`HorizontalRuleFormat` क्षैतिज नियम के स्वरूप को अनुकूलित करने के लिए सम्मिलित आकृति की संपत्ति का उपयोग करें।
+तक पहुंच `HorizontalRuleFormat` क्षैतिज नियम के स्वरूप को अनुकूलित करने के लिए सम्मिलित आकृति की संपत्ति का उपयोग करें।
 
 ```csharp
 HorizontalRuleFormat horizontalRuleFormat = shape.HorizontalRuleFormat;
@@ -77,7 +79,7 @@ horizontalRuleFormat.NoShade = true;
 
 ## चरण 4: दस्तावेज़ सहेजें
 
- अंत में, संशोधित दस्तावेज़ को सहेजें`Save` की विधि`Document` वस्तु।
+अंत में, संशोधित दस्तावेज़ को सहेजें `Save` की विधि `Document` वस्तु।
 
 ```csharp
 builder.Document.Save(dataDir + "AddContentUsingDocumentBuilder.HorizontalRuleFormat.docx");
@@ -90,10 +92,10 @@ builder.Document.Save(dataDir + "AddContentUsingDocumentBuilder.HorizontalRuleFo
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### .NET के लिए Aspose.Words क्या है?
-Aspose.Words for .NET, .NET अनुप्रयोगों में Word दस्तावेज़ों के साथ प्रोग्रामेटिक रूप से काम करने के लिए एक शक्तिशाली लाइब्रेरी है।
+Aspose.Words for .NET, .NET अनुप्रयोगों में Word दस्तावेज़ों के साथ प्रोग्रामेटिक रूप से कार्य करने के लिए एक शक्तिशाली लाइब्रेरी है।
 
 ### मैं .NET के लिए Aspose.Words कैसे डाउनलोड कर सकता हूँ?
- आप .NET के लिए Aspose.Words को यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+आप .NET के लिए Aspose.Words को यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 
 ### क्या मैं Aspose.Words में क्षैतिज नियमों की उपस्थिति को अनुकूलित कर सकता हूं?
 हां, आप Aspose.Words का उपयोग करके क्षैतिज नियमों के संरेखण, चौड़ाई, ऊंचाई, रंग और छायांकन जैसे विभिन्न पहलुओं को अनुकूलित कर सकते हैं।
@@ -102,11 +104,16 @@ Aspose.Words for .NET, .NET अनुप्रयोगों में Word द
 हां, Aspose.Words को इसके मजबूत दस्तावेज़ हेरफेर क्षमताओं के लिए उद्यम वातावरण में व्यापक रूप से उपयोग किया जाता है।
 
 ### मुझे .NET के लिए Aspose.Words का समर्थन कहां मिल सकता है?
- समर्थन और सामुदायिक सहभागिता के लिए, यहां जाएं[Aspose.Words फ़ोरम](https://forum.aspose.com/c/words/8).
+समर्थन और सामुदायिक सहभागिता के लिए, यहां जाएं [Aspose.Words फ़ोरम](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

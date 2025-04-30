@@ -1,27 +1,29 @@
 ---
-title: Satır içi kod
-linktitle: Satır içi kod
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinde satır içi kod stilleri uygulamayı öğrenin. Bu eğitim, kod biçimlendirme için tekli ve çoklu ters tırnak işaretlerini kapsar.
-weight: 10
-url: /tr/net/working-with-markdown/inline-code/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinde satır içi kod stilleri uygulamayı öğrenin. Bu eğitim, kod biçimlendirme için tekli ve çoklu ters tırnak işaretlerini kapsar."
+"linktitle": "Satır içi kod"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Satır içi kod"
+"url": "/tr/net/working-with-markdown/inline-code/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Satır içi kod
 
 ## giriiş
 
-Word belgelerini programatik olarak oluşturma veya düzenleme üzerinde çalışıyorsanız, metni koda benzeyecek şekilde biçimlendirmeniz gerekebilir. İster belgeler için ister bir rapordaki kod parçacıkları için olsun, .NET için Aspose.Words metin stilini ele almanın sağlam bir yolunu sunar. Bu eğitimde, Aspose.Words kullanarak metne satır içi kod stilleri uygulamanın nasıl yapılacağına odaklanacağız. Tek ve çoklu backtick'ler için özel stilleri nasıl tanımlayacağınızı ve kullanacağınızı, kod segmentlerinizin belgelerinizde açıkça öne çıkmasını nasıl sağlayacağınızı inceleyeceğiz.
+Word belgelerini programatik olarak oluşturma veya düzenleme üzerinde çalışıyorsanız, metni koda benzeyecek şekilde biçimlendirmeniz gerekebilir. İster belgeler için ister bir rapordaki kod parçacıkları için olsun, .NET için Aspose.Words metin stilini ele almanın sağlam bir yolunu sunar. Bu eğitimde, Aspose.Words kullanarak metne satır içi kod stilleri uygulamanın nasıl yapılacağına odaklanacağız. Tek ve çoklu backtick'ler için özel stilleri nasıl tanımlayacağınızı ve kullanacağınızı, kod segmentlerinizin belgelerinizde açıkça öne çıkmasını nasıl sağlayacağınızı keşfedeceğiz.
 
 ## Ön koşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET Kütüphanesi: Aspose.Words'ün .NET ortamınıza yüklendiğinden emin olun. Bunu şuradan indirebilirsiniz:[Aspose.Words for .NET sürümleri sayfası](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Aspose.Words'ün .NET ortamınıza yüklendiğinden emin olun. Bunu şuradan indirebilirsiniz: [Aspose.Words for .NET sürümleri sayfası](https://releases.aspose.com/words/net/).
 
 2. .NET Programlamanın Temel Bilgileri: Bu kılavuz, C# ve .NET programlama hakkında temel bir anlayışa sahip olduğunuzu varsayar.
 
@@ -40,7 +42,7 @@ Süreci net adımlara bölelim:
 
 ## Adım 1: Belgeyi ve Belge Oluşturucuyu Başlatın
 
- Öncelikle yeni bir belge ve bir`DocumentBuilder` örnek.`DocumentBuilder`sınıf, Word belgenize içerik eklemenize ve onu biçimlendirmenize yardımcı olur.
+Öncelikle yeni bir belge ve bir `DocumentBuilder` örnek. `DocumentBuilder` sınıf, Word belgenize içerik eklemenize ve onu biçimlendirmenize yardımcı olur.
 
 ```csharp
 // Yeni Belge ile DocumentBuilder'ı başlatın.
@@ -83,7 +85,7 @@ Daha sonra, genellikle çok satırlı kod blokları için kullanılan, üç ters
 Style inlineCode3BackTicks = builder.Document.Styles.Add(StyleType.Character, "InlineCode.3");
 inlineCode3BackTicks.Font.Name = "Courier New"; // Kod için tutarlı yazı tipi.
 inlineCode3BackTicks.Font.Size = 10.5; // Kod bloğunun yazı tipi boyutu.
-inlineCode3BackTicks.Font.Color = System.Drawing.Color.Green; //Görünürlük için farklı renk.
+inlineCode3BackTicks.Font.Color = System.Drawing.Color.Green; // Görünürlük için farklı renk.
 inlineCode3BackTicks.Font.Bold = true; // Vurgulamak için kalın yazın.
 ```
 
@@ -109,19 +111,24 @@ Aspose.Words for .NET kullanarak Word belgelerinde metni satır içi kod olarak 
 Evet, ihtiyaçlarınıza uygun herhangi bir yazı tipini kullanabilirsiniz. "Courier New" gibi yazı tipleri, genellikle sabit aralıklı yapıları nedeniyle kod için kullanılır.
 
 ### Satır içi kod metninin rengini nasıl değiştiririm?
- Rengi, şu ayarı yaparak değiştirebilirsiniz:`Font.Color` stilin mülkiyeti herhangi birine aittir`System.Drawing.Color`.
+Rengi, şu ayarı yaparak değiştirebilirsiniz: `Font.Color` stilin mülkiyeti herhangi birine aittir `System.Drawing.Color`.
 
 ### Aynı metne birden fazla stil uygulayabilir miyim?
 Aspose.Words'de, aynı anda yalnızca bir stil uygulayabilirsiniz. Stilleri birleştirmeniz gerekiyorsa, istenen tüm biçimlendirmeleri içeren yeni bir stil oluşturmayı düşünün.
 
 ### Belgedeki mevcut metne nasıl stil uygulayabilirim?
- Mevcut metne stiller uygulamak için önce metni seçmeniz ve ardından istediğiniz stili kullanarak uygulamanız gerekir.`Font.Style` mülk.
+Mevcut metne stiller uygulamak için önce metni seçmeniz ve ardından istediğiniz stili kullanarak uygulamanız gerekir. `Font.Style` mülk.
 
 ### Aspose.Words'ü diğer belge formatlarında kullanabilir miyim?
 Aspose.Words özellikle Word belgeleri için tasarlanmıştır. Diğer biçimler için farklı kütüphaneler kullanmanız veya belgeleri uyumlu bir biçime dönüştürmeniz gerekebilir.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

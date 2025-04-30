@@ -1,14 +1,16 @@
 ---
-title: การแทรกย่อหน้าในเอกสาร Word
-linktitle: การแทรกย่อหน้าในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแทรกย่อหน้าในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ทำตามบทช่วยสอนโดยละเอียดของเราเพื่อการจัดการเอกสารอย่างราบรื่น
-weight: 10
-url: /th/net/add-content-using-documentbuilder/insert-paragraph/
+"description": "เรียนรู้วิธีแทรกย่อหน้าในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ทำตามบทช่วยสอนโดยละเอียดของเราเพื่อการจัดการเอกสารอย่างราบรื่น"
+"linktitle": "การแทรกย่อหน้าในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การแทรกย่อหน้าในเอกสาร Word"
+"url": "/th/net/add-content-using-documentbuilder/insert-paragraph/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแทรกย่อหน้าในเอกสาร Word
@@ -22,7 +24,7 @@ url: /th/net/add-content-using-documentbuilder/insert-paragraph/
 ก่อนจะเริ่มบทช่วยสอนนี้ ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 - ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรม C# และ .NET framework
 - ติดตั้ง Visual Studio ลงบนเครื่องของคุณแล้ว
--  ติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+- ติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 
 ## นำเข้าเนมสเปซ
 
@@ -35,7 +37,7 @@ using System.Drawing;
 
 ## ขั้นตอนที่ 1: เริ่มต้นใช้งาน Document และ DocumentBuilder
 
- เริ่มต้นด้วยการตั้งค่าเอกสารของคุณและเริ่มต้นใช้งาน`DocumentBuilder` วัตถุ.
+เริ่มต้นด้วยการตั้งค่าเอกสารของคุณและเริ่มต้นใช้งาน `DocumentBuilder` วัตถุ.
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
@@ -62,7 +64,7 @@ paragraphFormat.KeepTogether = true;
 
 ## ขั้นตอนที่ 3: แทรกย่อหน้า
 
- ตอนนี้เพิ่มเนื้อหาที่คุณต้องการโดยใช้`WriteLn` วิธีการของ`DocumentBuilder`.
+ตอนนี้เพิ่มเนื้อหาที่คุณต้องการโดยใช้ `WriteLn` วิธีการของ `DocumentBuilder`-
 ```csharp
 builder.Writeln("A whole paragraph.");
 ```
@@ -84,20 +86,25 @@ doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertParagraph.docx");
 ใช่ Aspose.Words สำหรับ .NET รองรับแอปพลิเคชัน .NET Core ร่วมกับ .NET Framework
 
 ### ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.Words สำหรับ .NET ได้อย่างไร
- คุณสามารถขอใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+คุณสามารถขอใบอนุญาตชั่วคราวได้จาก [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### Aspose.Words สำหรับ .NET เข้ากันได้กับ Microsoft Word เวอร์ชันต่างๆ ได้หรือไม่
 ใช่ Aspose.Words สำหรับ .NET รับประกันความเข้ากันได้กับ Microsoft Word เวอร์ชันต่างๆ รวมถึงเวอร์ชันล่าสุดด้วย
 
 ### Aspose.Words สำหรับ .NET รองรับการเข้ารหัสเอกสารหรือไม่
-ใช่ คุณสามารถเข้ารหัสและรักษาความปลอดภัยเอกสารของคุณด้วยโปรแกรม Aspose.Words สำหรับ .NET
+ใช่ คุณสามารถเข้ารหัสและรักษาความปลอดภัยเอกสารของคุณผ่านโปรแกรมโดยใช้ Aspose.Words สำหรับ .NET
 
 ### ฉันสามารถหาความช่วยเหลือและการสนับสนุนเพิ่มเติมได้ที่ Aspose.Words สำหรับ .NET ได้จากที่ใด
- เยี่ยมชม[ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8) สำหรับการสนับสนุนและการหารือของชุมชน
+เยี่ยมชม [ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8) สำหรับการสนับสนุนและการหารือของชุมชน
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

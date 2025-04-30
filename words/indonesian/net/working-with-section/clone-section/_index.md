@@ -1,14 +1,16 @@
 ---
-title: Klon Bagian dalam Dokumen Word
-linktitle: Klon Bagian di Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengkloning bagian-bagian dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan ini mencakup petunjuk langkah demi langkah untuk manipulasi dokumen yang efisien.
-weight: 10
-url: /id/net/working-with-section/clone-section/
+"description": "Pelajari cara mengkloning bagian-bagian dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan ini mencakup petunjuk langkah demi langkah untuk manipulasi dokumen yang efisien."
+"linktitle": "Klon Bagian di Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Klon Bagian dalam Dokumen Word"
+"url": "/id/net/working-with-section/clone-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Klon Bagian dalam Dokumen Word
@@ -22,10 +24,10 @@ Hai, rekan-rekan pembuat kode! 🚀 Pernahkah Anda mendapati diri Anda tenggelam
 
 Sebelum kita mulai mengotori tangan kita dengan kode, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Aspose.Words untuk Pustaka .NET: Dapatkan versi terbaru dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk Pustaka .NET: Dapatkan versi terbaru dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: IDE yang kompatibel dengan .NET seperti Visual Studio.
 3. Pengetahuan Dasar C#: Mengetahui dasar-dasar C# akan membantu Anda mengikutinya dengan lancar.
-4. Contoh Dokumen Word: Kami akan menggunakan dokumen contoh untuk mendemonstrasikan proses kloning.
+4. Contoh Dokumen Word: Kami akan menggunakan dokumen contoh untuk menunjukkan proses kloning.
 
 ## Mengimpor Ruang Nama
 
@@ -46,7 +48,7 @@ Pertama, mari kita siapkan dokumen Word kita. Dokumen ini akan menjadi kanvas te
 Berikut cara menginisialisasi dokumen baru:
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Document.docx");
@@ -93,7 +95,7 @@ Setelah mengkloning dan menambahkan bagian, langkah terakhir adalah menyimpan do
 doc.Save(dataDir + "ClonedDocument.docx");
 ```
 
- Mengganti`"dataDir + "ClonedDocument.docx"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen. Baris kode ini akan menyimpan berkas Word Anda, lengkap dengan bagian yang dikloning.
+Mengganti `"dataDir + "ClonedDocument.docx"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen. Baris kode ini akan menyimpan berkas Word Anda, lengkap dengan bagian yang dikloning.
 
 ## Panduan Langkah demi Langkah
 
@@ -103,7 +105,7 @@ Mari kita uraikan contoh tersebut menjadi panduan terperinci langkah demi langka
 
 Sebelum masuk ke kode, pastikan Anda telah menginstal pustaka Aspose.Words dan menyiapkan contoh dokumen Word.
 
-1.  Unduh dan Instal Aspose.Words: Dapatkan[Di Sini](https://releases.aspose.com/words/net/).
+1. Unduh dan Instal Aspose.Words: Dapatkan [Di Sini](https://releases.aspose.com/words/net/).
 2. Siapkan Proyek Anda: Buka Visual Studio dan buat proyek .NET baru.
 3. Tambahkan Referensi Aspose.Words: Sertakan pustaka Aspose.Words dalam proyek Anda.
 
@@ -112,7 +114,7 @@ Sebelum masuk ke kode, pastikan Anda telah menginstal pustaka Aspose.Words dan m
 Muat dokumen yang ingin Anda manipulasi. Dokumen ini akan menjadi dasar operasi kita.
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Document.docx");
@@ -158,7 +160,7 @@ Ya, Anda dapat mengkloning beberapa bagian dengan mengulangi koleksi bagian dan 
 
 ### Bagaimana cara menyesuaikan bagian yang dikloning?
 
- Anda dapat menyesuaikan bagian kloning dengan memodifikasi properti dan kontennya setelah kloning. Gunakan`Section` metode dan properti kelas untuk membuat perubahan.
+Anda dapat menyesuaikan bagian kloning dengan memodifikasi properti dan kontennya setelah kloning. Gunakan `Section` metode dan properti kelas untuk membuat perubahan.
 
 ### Apakah Aspose.Words kompatibel dengan berbagai versi Word?
 
@@ -166,10 +168,15 @@ Ya, Aspose.Words mendukung berbagai format Word, termasuk DOC, DOCX, RTF, dan la
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya tentang Aspose.Words?
 
- Untuk informasi lebih lanjut, Anda dapat mengunjungi[Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) atau[forum dukungan](https://forum.aspose.com/c/words/8) untuk bantuan dan diskusi.
+Untuk informasi lebih lanjut, Anda dapat mengunjungi [Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) atau [forum dukungan](https://forum.aspose.com/c/words/8) untuk bantuan dan diskusi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

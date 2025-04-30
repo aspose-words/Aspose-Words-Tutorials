@@ -1,14 +1,16 @@
 ---
-title: Zmiana tabulatorów spisu treści w dokumencie Word
-linktitle: Zmiana tabulatorów spisu treści w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak zmienić tabulatory spisu treści w dokumentach Worda za pomocą Aspose.Words dla .NET. Ten przewodnik krok po kroku pomoże Ci utworzyć profesjonalnie wyglądający spis treści.
-weight: 10
-url: /pl/net/programming-with-table-of-content/change-toc-tab-stops/
+"description": "Dowiedz się, jak zmienić tabulatory TOC w dokumentach Worda za pomocą Aspose.Words dla .NET. Ten przewodnik krok po kroku pomoże Ci utworzyć profesjonalnie wyglądający spis treści."
+"linktitle": "Zmiana tabulatorów spisu treści w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zmiana tabulatorów spisu treści w dokumencie Word"
+"url": "/pl/net/programming-with-table-of-content/change-toc-tab-stops/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zmiana tabulatorów spisu treści w dokumencie Word
@@ -21,7 +23,7 @@ Czy zastanawiałeś się kiedyś, jak urozmaicić spis treści (TOC) w dokumenta
 
 Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub dowolne środowisko IDE zgodne z C#.
 3. Dokument Word: konkretnie taki, który zawiera spis treści.
 
@@ -36,7 +38,7 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-Podzielmy ten proces na proste, przyswajalne kroki. Przejdziemy przez ładowanie dokumentu, modyfikowanie tabulatorów TOC i zapisywanie zaktualizowanego dokumentu.
+Podzielmy ten proces na proste, przyswajalne kroki. Przejdziemy przez ładowanie dokumentu, modyfikowanie tabulatorów spisu treści i zapisywanie zaktualizowanego dokumentu.
 
 ## Krok 1: Załaduj dokument
 
@@ -92,7 +94,7 @@ foreach(Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
 }
 ```
 
-To jak ustawianie mebli w salonie, aż będą idealnie dopasowane. Dopracowujemy te ograniczniki, aby były idealne.
+To jak ustawianie mebli w salonie, aż będą idealnie pasować. Dopracowujemy te ograniczniki, aby były idealne.
 
 ## Krok 4: Zapisz zmodyfikowany dokument
 
@@ -120,16 +122,21 @@ Tak, możesz! Wystarczy sprawdzić każdy konkretny poziom TOC (Toc1, Toc2 itd.)
 Kod skanuje wszystkie akapity ze stylem TOC, więc zmodyfikuje wszystkie spisy treści obecne w dokumencie.
 
 ### Czy można dodać wiele tabulatorów do wpisu w spisie treści?
- Oczywiście! Możesz dodać tyle tabulatorów, ile potrzebujesz, dostosowując`para.ParagraphFormat.TabStops` kolekcja.
+Oczywiście! Możesz dodać tyle tabulatorów, ile potrzebujesz, dostosowując `para.ParagraphFormat.TabStops` kolekcja.
 
 ### Czy mogę zmienić wyrównanie tabulatora i styl linii wiodącej?
 Tak, możesz określić różne wyrównania i style linii odniesienia podczas dodawania nowego tabulatora.
 
 ### Czy potrzebuję licencji, aby używać Aspose.Words dla .NET?
- Tak, potrzebujesz ważnej licencji, aby używać Aspose.Words dla .NET po okresie próbnym. Możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) Lub[kup jeden](https://purchase.aspose.com/buy).
+Tak, potrzebujesz ważnej licencji, aby używać Aspose.Words dla .NET po okresie próbnym. Możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/tempLubary-license/) or [kup jeden](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

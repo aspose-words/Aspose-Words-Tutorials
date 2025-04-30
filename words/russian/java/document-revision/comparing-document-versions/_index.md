@@ -1,14 +1,16 @@
 ---
-title: Сравнение версий документа
-linktitle: Сравнение версий документа
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как сравнивать версии документов с помощью Aspose.Words для Java. Пошаговое руководство для эффективного управления версиями.
-weight: 11
-url: /ru/java/document-revision/comparing-document-versions/
+"description": "Узнайте, как сравнивать версии документов с помощью Aspose.Words для Java. Пошаговое руководство для эффективного управления версиями."
+"linktitle": "Сравнение версий документа"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Сравнение версий документа"
+"url": "/ru/java/document-revision/comparing-document-versions/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Сравнение версий документа
@@ -22,9 +24,9 @@ url: /ru/java/document-revision/comparing-document-versions/
 Прежде чем перейти к коду, давайте убедимся, что у вас есть все необходимое: 
 
 1. Java Development Kit (JDK): убедитесь, что на вашем компьютере установлен JDK 8 или выше. 
-2.  Aspose.Words для Java: Загрузить[последняя версия здесь](https://releases.aspose.com/words/java/).  
+2. Aspose.Words для Java: Загрузить [последняя версия здесь](https://releases.aspose.com/words/java/).  
 3. Интегрированная среда разработки (IDE): используйте любую предпочитаемую вами среду разработки Java, например IntelliJ IDEA или Eclipse.
-4.  Лицензия Aspose: Вы можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/) для получения полного набора функций или ознакомьтесь с бесплатной пробной версией.
+4. Лицензия Aspose: Вы можете получить [временная лицензия](https://purchase.aspose.com/temporary-license/) для получения полного набора функций или ознакомьтесь с бесплатной пробной версией.
 
 
 ## Импортные пакеты
@@ -38,11 +40,11 @@ import java.util.Date;
 
 Давайте разобьем процесс на управляемые шаги. Готовы погрузиться? Поехали!
 
-## Шаг 1: Настройте среду проекта
+## Шаг 1: Настройте среду вашего проекта
 
 Прежде всего, вам нужно настроить свой проект Java с Aspose.Words. Выполните следующие шаги: 
 
-1.  Добавьте файл JAR Aspose.Words в свой проект. Если вы используете Maven, просто включите следующую зависимость в свой`pom.xml` файл:
+1. Добавьте файл JAR Aspose.Words в свой проект. Если вы используете Maven, просто включите следующую зависимость в свой `pom.xml` файл:
    ```xml
    <dependency>
        <groupId>com.aspose</groupId>
@@ -50,14 +52,14 @@ import java.util.Date;
        <version>Latest-Version</version>
    </dependency>
    ```
-    Заменять`Latest-Version` с номером версии из[страница загрузки](https://releases.aspose.com/words/java/).
+   Заменять `Latest-Version` с номером версии из [страница загрузки](https://releases.aspose.com/words/java/).
 
 2. Откройте свой проект в IDE и убедитесь, что библиотека Aspose.Words правильно добавлена в classpath.
 
 
 ## Шаг 2: Загрузите документы Word
 
-Чтобы сравнить два документа Word, вам необходимо загрузить их в приложение с помощью`Document` сорт.
+Чтобы сравнить два документа Word, вам необходимо загрузить их в приложение с помощью `Document` сорт.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -65,25 +67,25 @@ Document docA = new Document(dataDir + "DocumentA.doc");
 Document docB = new Document(dataDir + "DocumentB.doc");
 ```
 
-- `dataDir`: Эта переменная содержит путь к папке, содержащей ваши документы Word.
-- `DocumentA.doc` и`DocumentB.doc`: Замените их именами ваших реальных файлов.
+- `dataDir`Эта переменная содержит путь к папке, содержащей ваши документы Word.
+- `DocumentA.doc` и `DocumentB.doc`: Замените их именами ваших реальных файлов.
 
 
 ## Шаг 3: Сравните документы
 
- Теперь мы будем использовать`compare` Метод, предоставленный Aspose.Words. Этот метод определяет различия между двумя документами.
+Теперь мы будем использовать `compare` Метод, предоставленный Aspose.Words. Этот метод определяет различия между двумя документами.
 
 ```java
 docA.compare(docB, "user", new Date());
 ```
 
-- `docA.compare(docB, "user", new Date())` : Это сравнивает`docA` с`docB`. 
+- `docA.compare(docB, "user", new Date())`: Это сравнивает `docA` с `docB`. 
 - `"user"`: Эта строка представляет имя автора, вносящего изменения. Вы можете настроить ее по мере необходимости.
 - `new Date()`: Устанавливает дату и время для сравнения.
 
 ## Шаг 4: Проверьте результаты сравнения
 
- После сравнения документов вы можете проанализировать различия с помощью`getRevisions` метод.
+После сравнения документов вы можете проанализировать различия с помощью `getRevisions` метод.
 
 ```java
 if (docA.getRevisions().getCount() == 0)
@@ -104,7 +106,7 @@ else
 docA.save(dataDir + "ComparedDocument.docx");
 ```
 
--  The`save`Метод записывает изменения в новый файл, сохраняя редакции.
+- The `save` Метод записывает изменения в новый файл, сохраняя редакции.
 
 
 ## Заключение
@@ -113,23 +115,28 @@ docA.save(dataDir + "ComparedDocument.docx");
 
 ## Часто задаваемые вопросы
 
-###  Какова цель`compare` method in Aspose.Words?  
- The`compare` Метод выявляет различия между двумя документами Word и помечает их как исправления.
+### Какова цель `compare` метод в Aspose.Words?  
+The `compare` Метод выявляет различия между двумя документами Word и помечает их как исправления.
 
-###  Могу ли я сравнивать документы в форматах, отличных от`.doc` or `.docx`?  
- Да! Aspose.Words поддерживает различные форматы, включая`.rtf`, `.odt` , и`.txt`.
+### Могу ли я сравнивать документы в форматах, отличных от `.doc` или `.docx`?  
+Да! Aspose.Words поддерживает различные форматы, включая `.rtf`, `.odt`, и `.txt`.
 
 ### Как можно игнорировать определенные изменения при сравнении?  
- Вы можете настроить параметры сравнения, используя`CompareOptions` класс в Aspose.Words.
+Вы можете настроить параметры сравнения, используя `CompareOptions` класс в Aspose.Words.
 
 ### Можно ли использовать Aspose.Words для Java бесплатно?  
- Нет, но вы можете исследовать его с помощью[бесплатная пробная версия](https://releases.aspose.com/) или запросить[временная лицензия](https://purchase.aspose.com/temporary-license/).
+Нет, но вы можете исследовать его с помощью [бесплатная пробная версия](https://releases.aspose.com/) или запросить [временная лицензия](https://purchase.aspose.com/temporary-license/).
 
 ### Что происходит с различиями в форматировании во время сравнения?  
 Aspose.Words может обнаруживать и отмечать изменения форматирования как исправления в зависимости от ваших настроек.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

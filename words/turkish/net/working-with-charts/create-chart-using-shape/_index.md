@@ -1,45 +1,53 @@
 ---
-title: .NET için Aspose.Words kullanarak Word'de Bir Satır Çarşı Oluştur
-weight: 7700
-limit: 
-description: Word belgesinde bir satır çizelgesini .NET için Aspose.Words kullanarak nasıl oluşturulacağını öğrenin. Kodu örnekleri ve görüntüler ile kolay uygulanması için adım adım rehber.
-keywords: [Aspose.Words for .NET, create line chart, Word document chart, .NET chart example, Word line chart, chart creation in Word, Aspose tutorial, C# Word chart example]
-url: /tr/net/working-with-charts/create-chart-using-shape/
+"description": "Aspose.Words for .NET kullanarak Word belgesinde çizgi grafiğinin nasıl oluşturulacağını öğrenin. Kolay uygulama için kod örnekleri ve görsellerle adım adım kılavuz."
+"title": "Aspose.Words for .NET kullanarak Word'de bir Çizgi Grafiği Oluşturun"
+"url": "/tr/net/working-with-charts/create-chart-using-shape/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words kullanarak Word'de Bir Satır Çarşı Oluştur  
+# Aspose.Words kullanarak Word'de bir Çizgi Grafiği Oluşturun  
 
-.NET için Aspose.Words geliştiricilere görsel olarak çekici ve profesyonel belgeleri kolayca oluşturma yeteneği sunar. Bu öğretim kitabı, Word belgesinde bir satır çizelgesini oluşturmak için .NET için Aspose.Words kullanarak adım adım ilerler. Raporları, tabloları veya sunumları oluşturursanız da, dinamik çizelgeleri yerleştirme yeteneği belgeleri etkiinizi artırır. Başlamak için sağlanan basit kod örneğini izleyin, projenize sorunsuz entegrasyonu sağlamak için ayrıntılı açıklamalar, görüntüler ve ipuçları tamamlayın.
+Aspose.Words for .NET, geliştiricilerin görsel olarak çekici ve profesyonel belgeleri kolaylıkla oluşturmasını sağlar. Bu eğitim, Aspose.Words for .NET kullanarak bir Word belgesinde adım adım çizgi grafiği oluşturma konusunda size yol gösterir. İster raporlar, ister panolar veya sunumlar oluşturuyor olun, dinamik grafikleri yerleştirme yeteneği belgelerinizin etkisini artırır. Başlamak için sağlanan basit kod örneğini izleyin, projenize sorunsuz bir şekilde entegre olmasını sağlamak için ayrıntılı açıklamalar, resimler ve ipuçlarıyla tamamlayın.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/create-chart-using-shape" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum talimatları  
+## Kurulum Talimatları  
 
-1. .NET için Aspose.Words indir:  
-   Resmiye en son versiyonunu alın .[.NET indirme sayfası için Aspose.Words](https://releases.aspose.com/words/net/)\- Evet .  
+1. .NET için Aspose.Words'ü indirin:  
+   En son sürümü resmi kaynaktan edinin [Aspose.Words for .NET indirme sayfası](https://releases.aspose.com/words/net/).  
 
-2. NuGet üzerinden yükle:  
-   NuGet Paket Yöneticisi kullanarak projenize kütüphaneni ekleyin. Paket Yöneticisi Konsolu'nda aşağıdaki komutu çalıştırın:  
+2. NuGet üzerinden kurulum:  
+   NuGet Paket Yöneticisi'ni kullanarak kütüphaneyi projenize ekleyin. Paket Yöneticisi Konsolu'nda aşağıdaki komutu çalıştırın:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-3. Lisans Al:  
-   * Değerlendirme için bir [Geçici lisans](https://purchase.aspose.com/temporary-license/)\- Evet .  
-   * Tam lisans al .[Aspose mağazası](https://purchase.aspose.com/buy)\- Evet .  
+3. Lisans Alın:  
+   - Değerlendirme için bir talepte bulunun [geçici lisans](https://purchase.aspose.com/temporary-license/).  
+   - Tam lisansı şu adresten satın alın: [Aspose mağazası](https://purchase.aspose.com/buy).  
 
 
-## Ayrıca bakın
-[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
+## Ayrıca Bakınız
+[Aspose.Word for .NET Belgeleri](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET Referansları](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,31 +1,43 @@
 ---
-title: 在 .NET 版本中的Aspose.Words中使用文件构建器添加内容 
-weight: 10
-limit:
-description: 通过使用 .NET 的 Aspose.Words 中的 DocumentBuilder 添加内容. 随着步骤指导,将文字,图像,表格和形状无地添加到 Word 文档中.
-keywords:
-url: /zh/net/add-content-using-document-builder/
+"description": "了解如何使用 Aspose.Words for .NET 中的 DocumentBuilder 添加内容。通过分步指导，无缝地将文本、图像、表格和形状添加到 Word 文档中。"
+"title": "使用 Aspose.Words for .NET 中的 Document Builder 添加内容"
+"url": "/zh/net/add-content-using-document-builder/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## 引言
+## 介绍
  
-通过使用强大的文档构建器类,您可以精确和灵活地添加各种类型的内容,包括文本,图像,表格和形状.无论您正在构建报告,生成账单或制作模板,文档构建器提供了一个直观的方式来动态格式化和结构文件.  
+Aspose.Words for .NET 使开发人员能够轻松地以编程方式创建和操作 Word 文档。使用强大的 DocumentBuilder 类，您可以精确灵活地添加各种类型的内容，包括文本、图像、表格和形状。无论您是构建报告、生成发票还是制作模板，DocumentBuilder 都能提供直观的方式来动态地格式化和构建文档。  
 
-本指南深入了解了 DocumentBuilder 类的多功能性,一步一步涵盖了其关键功能.学习如何添加丰富的内容到您的文档中,应用自定义风格,甚至管理复杂的布局.使用实用例子和明确的解释,您将掌握如何使用 DocumentBuilder 简化您的文档生成任务.
+本指南深入探讨了 DocumentBuilder 类的多功能性，并逐步讲解其关键功能。学习如何向文档添加丰富的内容、应用自定义样式，甚至管理复杂的布局。通过实际示例和清晰的讲解，您将快速掌握如何使用 DocumentBuilder 简化文档生成任务。
 
-{{< tutorial-card link="./build-table/" title="使用Aspose.Words创建一个 Word 文档" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}
-{{< tutorial-card link="./insert-break/" title="创建一个多页的 Word 文档,使用Aspose.Words" imgSrc="/words/net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
-{{< tutorial-card link="./insert-floating-image/" title="在 .NET 中创建浮动图像的Word文档" imgSrc="/words/net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
-{{< tutorial-card link="./insert-horizontal-rule/" title="在 .NET 中创建一个视线规则的 Word 文档" imgSrc="/words/net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
-{{< tutorial-card link="./insert-inline-image/" title="在 Word 文档中插入内线图像,使用Aspose.Words" imgSrc="/words/net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
-{{< tutorial-card link="./insert-paragraph/" title="用 .NET 创建 Word 文档" imgSrc="/words/net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
-{{< tutorial-card link="./insert-table-contents/" title="在 .NET 中创建一个包含表的 Word 文档" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
+
+{{< tutorial-card link="./build-table/" title="使用 Aspose.Words 创建带有表格的 Word 文档" imgSrc="./build-table/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-break/" title="使用 Aspose.Words 创建多页 Word 文档" imgSrc="./insert-break/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-floating-image/" title="在.NET中创建带有浮动图像的Word文档" imgSrc="./insert-floating-image/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-horizontal-rule/" title="在 .NET 中创建带有水平线的 Word 文档" imgSrc="./insert-horizontal-rule/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-inline-image/" title="使用 Aspose.Words 在 Word 文档中插入内嵌图像" imgSrc="./insert-inline-image/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-paragraph/" title="使用 Aspose.Words for .NET 创建 Word 文档" imgSrc="./insert-paragraph/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-table-contents/" title="在 .NET 中创建带有目录的 Word 文档" imgSrc="./insert-table-contents/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

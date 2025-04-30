@@ -1,14 +1,16 @@
 ---
-title: Отметьте галочкой выравнивание многострочных меток на диаграмме
-linktitle: Отметьте галочкой выравнивание многострочных меток на диаграмме
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как отметить выравнивание многострочных меток в диаграмме с помощью Aspose.Words для .NET с помощью нашего подробного пошагового руководства. Идеально подходит для разработчиков всех уровней.
-weight: 10
-url: /ru/net/programming-with-charts/tick-multi-line-label-alignment/
+"description": "Узнайте, как отмечать выравнивание многострочных меток в диаграмме с помощью Aspose.Words для .NET с помощью нашего подробного пошагового руководства. Идеально подходит для разработчиков всех уровней."
+"linktitle": "Отметьте галочкой выравнивание многострочных меток на диаграмме"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Отметьте галочкой выравнивание многострочных меток на диаграмме"
+"url": "/ru/net/programming-with-charts/tick-multi-line-label-alignment/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Отметьте галочкой выравнивание многострочных меток на диаграмме
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-charts/tick-multi-line-label-alignment/
 
 Прежде чем мы окунемся с головой в мир выравнивания многострочных этикеток, давайте убедимся, что у вас все в порядке. Вот что вам понадобится:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия Aspose.Words for .NET. Если нет, вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия Aspose.Words for .NET. Если нет, вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 2. Среда .NET: убедитесь, что ваша среда разработки настроена на .NET.
 3. Базовые знания C#: фундаментальное понимание C# сделает этот путь более плавным.
 
@@ -40,7 +42,7 @@ using Aspose.Words.Drawing;
 Прежде всего, нам нужно указать путь к каталогу ваших документов. Это место, где будет сохранен ваш документ Word.
 
 
- Давайте определим путь к каталогу ваших документов. Заменить`"YOUR DOCUMENT DIRECTORY"` на фактический путь, по которому вы хотите сохранить документ.
+Давайте определим путь к каталогу ваших документов. Заменить `"YOUR DOCUMENT DIRECTORY"` на фактический путь, по которому вы хотите сохранить документ.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Теперь давайте создадим новый документ Word. Этот документ послужит холстом для нашей диаграммы.
 
- Начнем с инициализации нового экземпляра`Document` сорт.
+Начнем с инициализации нового экземпляра `Document` сорт.
 
 ```csharp
 Document doc = new Document();
@@ -58,9 +60,9 @@ Document doc = new Document();
 
 ## Шаг 3: Используйте DocumentBuilder
 
- The`DocumentBuilder` класс в Aspose.Words — это мощный инструмент, который помогает в создании документов. Мы будем использовать его для вставки диаграммы в наш документ.
+The `DocumentBuilder` класс в Aspose.Words — это мощный инструмент, который помогает в создании документов. Мы будем использовать его для вставки диаграммы в наш документ.
 
- Инициализируйте экземпляр`DocumentBuilder` класс, передающий наш объект документа его конструктору.
+Инициализируйте экземпляр `DocumentBuilder` класс, передающий наш объект документа его конструктору.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -70,7 +72,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Давайте вставим диаграмму в наш документ. Для этого примера мы будем использовать точечную диаграмму.
 
- Используя`InsertChart` Метод`DocumentBuilder` класс, мы можем вставить в наш документ точечную диаграмму.
+Используя `InsertChart` Метод `DocumentBuilder` класс, мы можем вставить в наш документ точечную диаграмму.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Scatter, 450, 250);
@@ -90,7 +92,7 @@ ChartAxis axis = shape.Chart.AxisX;
 
 А теперь начинается волшебство! Мы установим выравнивание меток для многострочных меток.
 
- Установите`TickLabelAlignment` свойство оси`ParagraphAlignment.Right`.
+Установите `TickLabelAlignment` свойство оси `ParagraphAlignment.Right`.
 
 ```csharp
 axis.TickLabelAlignment = ParagraphAlignment.Right;
@@ -100,7 +102,7 @@ axis.TickLabelAlignment = ParagraphAlignment.Right;
 
 И последнее, но не менее важное: сохраним наш документ с желаемыми изменениями.
 
- Используйте`Save` Метод`Document` класс для сохранения документа в указанном каталоге.
+Используйте `Save` Метод `Document` класс для сохранения документа в указанном каталоге.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithCharts.TickMultiLineLabelAlignment.docx");
@@ -114,26 +116,31 @@ doc.Save(dataDir + "WorkingWithCharts.TickMultiLineLabelAlignment.docx");
 
 ### Что такое Aspose.Words для .NET?
 
- Aspose.Words for .NET — мощная библиотека, которая позволяет разработчикам программно создавать, изменять и конвертировать документы Word. Вы можете узнать больше о ней[здесь](https://reference.aspose.com/words/net/).
+Aspose.Words for .NET — мощная библиотека, которая позволяет разработчикам программно создавать, изменять и конвертировать документы Word. Вы можете узнать больше о ней [здесь](https://reference.aspose.com/words/net/).
 
 ### Как установить Aspose.Words для .NET?
 
- Вы можете загрузить Aspose.Words для .NET с сайта[веб-сайт](https://releases.aspose.com/words/net/)Следуйте инструкциям по установке, приведенным там.
+Вы можете загрузить Aspose.Words для .NET с сайта [веб-сайт](https://releases.aspose.com/words/net/)Следуйте инструкциям по установке, приведенным там.
 
 ### Могу ли я использовать Aspose.Words для .NET бесплатно?
 
- Aspose предлагает[бесплатная пробная версия](https://releases.aspose.com/) которые вы можете использовать для оценки продукта. Для полного доступа вам необходимо приобрести лицензию.
+Aspose предлагает [бесплатная пробная версия](https://releases.aspose.com/) которые вы можете использовать для оценки продукта. Для полного доступа вам необходимо приобрести лицензию.
 
 ### Где я могу получить поддержку по Aspose.Words для .NET?
 
- Вы можете получить поддержку от[Форум сообщества Aspose](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от [Форум сообщества Aspose](https://forum.aspose.com/c/words/8).
 
 ### Каковы системные требования для Aspose.Words для .NET?
 
- Aspose.Words для .NET требует среду .NET. Конкретные системные требования можно найти в[документация](https://reference.aspose.com/words/net/).
+Aspose.Words для .NET требует среду .NET. Конкретные системные требования можно найти в [документация](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

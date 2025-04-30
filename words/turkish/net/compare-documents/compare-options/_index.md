@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Seçenekleri Karşılaştır
-linktitle: Word Belgesinde Seçenekleri Karşılaştır
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerini adım adım kılavuzumuzla nasıl karşılaştıracağınızı öğrenin. Belge tutarlılığını zahmetsizce sağlayın.
-weight: 10
-url: /tr/net/compare-documents/compare-options/
+"description": "Aspose.Words for .NET kullanarak Word belgelerini adım adım kılavuzumuzla nasıl karşılaştıracağınızı öğrenin. Belge tutarlılığını zahmetsizce sağlayın."
+"linktitle": "Word Belgesinde Seçenekleri Karşılaştır"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Seçenekleri Karşılaştır"
+"url": "/tr/net/compare-documents/compare-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Seçenekleri Karşılaştır
@@ -21,7 +23,7 @@ Merhaba, teknoloji meraklısı arkadaşlar! Hiç farkları kontrol etmek için i
 
 Kodla uğraşmadan önce ihtiyacımız olan her şeye sahip olduğumuzdan emin olalım. İşte hızlı bir kontrol listesi:
 
-1.  Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesinin yüklü olması gerekir. Eğer henüz yapmadıysanız, indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesinin yüklü olması gerekir. Eğer henüz yapmadıysanız, indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi herhangi bir C# geliştirme ortamı işinizi görecektir.
 3. Temel C# Bilgisi: C# programlamanın temellerini anlamak faydalı olacaktır.
 4. Örnek Word Belgeleri: Karşılaştırmak istediğiniz iki Word belgesi.
@@ -64,7 +66,7 @@ Document docB = docA.Clone();
 Bu kesitte:
 - Belgelerimizin saklanacağı dizini belirtiyoruz.
 - İlk belgeyi yüklüyoruz (`docA`).
--  Biz klonlarız`docA` yaratmak`docB`Bu şekilde, üzerinde çalışabileceğimiz iki özdeş belgemiz olur.
+- Biz klonlarız `docA` yaratmak `docB`Bu şekilde, üzerinde çalışabileceğimiz iki özdeş belgemiz olur.
 
 ## Adım 3: Karşılaştırma Seçeneklerini Yapılandırın
 
@@ -103,7 +105,7 @@ docA.Compare(docB, "user", DateTime.Now, options);
 ```
 
 Bu satırda:
--  Karşılaştırıyoruz`docA` ile`docB`.
+- Karşılaştırıyoruz `docA` ile `docB`.
 - Bir kullanıcı adı ("kullanıcı") ve geçerli tarih ve saati belirliyoruz.
 
 ## Adım 5: Sonuçları Kontrol Edin ve Görüntüleyin
@@ -114,7 +116,7 @@ Son olarak karşılaştırma sonuçlarını kontrol edip belgelerin eşit olup o
 Console.WriteLine(docA.Revisions.Count == 0 ? "Documents are equal" : "Documents are not equal");
 ```
 
- Eğer`docA.Revisions.Count` sıfır ise, belgeler arasında hiçbir fark olmadığı anlamına gelir. Aksi takdirde, bazı farklılıklar olduğunu gösterir.
+Eğer `docA.Revisions.Count` sıfır ise, belgeler arasında hiçbir fark olmadığı anlamına gelir. Aksi takdirde, bazı farklılıklar olduğunu gösterir.
 
 ## Çözüm
 
@@ -126,7 +128,7 @@ Ve işte karşınızda! Aspose.Words for .NET kullanarak iki Word belgesini baş
 Aspose.Words for .NET, aynı anda iki belgeyi karşılaştırır. Birden fazla belgeyi karşılaştırmak için bunu çiftler halinde yapabilirsiniz.
 
 ### Görüntülerdeki değişiklikleri nasıl yok sayabilirim?  
- Şunu yapılandırabilirsiniz:`CompareOptions` çeşitli unsurları görmezden gelmek, ancak özellikle görselleri görmezden gelmek özel işlem gerektirir.
+Şunu yapılandırabilirsiniz: `CompareOptions` çeşitli unsurları görmezden gelmek, ancak özellikle görselleri görmezden gelmek özel işlem gerektirir.
 
 ### Farklılıkların detaylı raporunu alabilir miyim?  
 Evet, Aspose.Words program aracılığıyla erişebileceğiniz detaylı revizyon bilgisi sağlar.
@@ -135,10 +137,15 @@ Evet, Aspose.Words program aracılığıyla erişebileceğiniz detaylı revizyon
 Evet, ancak öncelikle uygun şifreyi kullanarak belgelerinizin kilidini açmanız gerekir.
 
 ### Daha fazla örnek ve dokümanı nerede bulabilirim?  
- Daha fazla örnek ve ayrıntılı dokümanı şu adreste bulabilirsiniz:[Aspose.Words .NET Belgeleri için](https://reference.aspose.com/words/net/).
+Daha fazla örnek ve ayrıntılı dokümanı şu adreste bulabilirsiniz: [Aspose.Words .NET Belgeleri için](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

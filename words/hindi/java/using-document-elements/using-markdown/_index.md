@@ -1,14 +1,16 @@
 ---
-title: जावा के लिए Aspose.Words में मार्कडाउन का उपयोग करना
-linktitle: मार्कडाउन का उपयोग करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: इस चरण-दर-चरण ट्यूटोरियल के साथ Java के लिए Aspose.Words में Markdown का उपयोग करना सीखें। Markdown दस्तावेज़ों को आसानी से बनाएँ, स्टाइल करें और सहेजें।
-weight: 19
-url: /hi/java/using-document-elements/using-markdown/
+"description": "इस चरण-दर-चरण ट्यूटोरियल के साथ Java के लिए Aspose.Words में Markdown का उपयोग करना सीखें। Markdown दस्तावेज़ों को आसानी से बनाएँ, स्टाइल करें और सहेजें।"
+"linktitle": "मार्कडाउन का उपयोग करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "जावा के लिए Aspose.Words में मार्कडाउन का उपयोग करना"
+"url": "/hi/java/using-document-elements/using-markdown/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के लिए Aspose.Words में मार्कडाउन का उपयोग करना
@@ -124,7 +126,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // पैराग्राफ के लिए "शीर्षक 1" शैली निर्दिष्ट करें।
 builder.getParagraphFormat().setStyleName("Heading 1");
 builder.writeln("Heading 1");
-//पैराग्राफों के बीच शैलियों को संयोजित न करने के लिए पिछले पैराग्राफ से शैलियों को रीसेट करें।
+// पैराग्राफों के बीच शैलियों को संयोजित न करने के लिए पिछले पैराग्राफ से शैलियों को रीसेट करें।
 builder.getParagraphFormat().setStyleName("Normal");
 // क्षैतिज नियम डालें.
 builder.insertHorizontalRule();
@@ -153,7 +155,7 @@ Style nestedQuote = doc.getStyles().add(StyleType.PARAGRAPH, "Quote1");
 nestedQuote.setBaseStyleName("Quote");
 builder.getParagraphFormat().setStyleName("Quote1");
 builder.writeln("A nested Quote block");
-// उद्धरण ब्लॉक को रोकने के लिए पैराग्राफ शैली को सामान्य पर रीसेट करें।
+// उद्धरण ब्लॉक को रोकने के लिए पैराग्राफ़ शैली को सामान्य पर रीसेट करें। 
 builder.getParagraphFormat().setStyleName("Normal");
 // इच्छित पाठ के लिए हाइपरलिंक निर्दिष्ट करें.
 builder.getFont().setBold(true);
@@ -183,20 +185,25 @@ doc.save(outPath + "WorkingWithMarkdown.CreateMarkdownDocument.md");
 ### क्या मैं Markdown को Word दस्तावेज़ों में परिवर्तित करने के लिए Java के लिए Aspose.Words का उपयोग कर सकता हूँ? 
    हां, आप मार्कडाउन दस्तावेजों को वर्ड दस्तावेजों में और इसके विपरीत रूपांतरित करने के लिए जावा के लिए Aspose.Words का उपयोग कर सकते हैं।
 
-### क्या Aspose.Words for Java का उपयोग निःशुल्क है? 
-    Aspose.Words for Java एक व्यावसायिक उत्पाद है, और इसके उपयोग के लिए लाइसेंस की आवश्यकता होती है। आप यहाँ से लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+### क्या Java के लिए Aspose.Words का उपयोग निःशुल्क है? 
+   Aspose.Words for Java एक व्यावसायिक उत्पाद है, और इसके उपयोग के लिए लाइसेंस की आवश्यकता होती है। आप यहाँ से लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/buy).
 
 ### क्या Java के लिए Aspose.Words के लिए कोई ट्यूटोरियल या दस्तावेज़ उपलब्ध हैं? 
-    हां, आप यहां पर व्यापक ट्यूटोरियल और दस्तावेज पा सकते हैं।[Aspose.Words for Java API दस्तावेज़ीकरण](https://reference.aspose.com/words/java/).
+   हां, आप यहां पर व्यापक ट्यूटोरियल और दस्तावेज पा सकते हैं। [Aspose.Words for Java API दस्तावेज़ीकरण](https://reference.aspose.com/words/java/).
 
 ### मैं Java के लिए Aspose.Words का समर्थन कहां से प्राप्त कर सकता हूं? 
-    समर्थन और सहायता के लिए, आप यहां जा सकते हैं[Aspose.Words जावा मंच के लिए](https://forum.aspose.com/).
+   समर्थन और सहायता के लिए, आप यहां जा सकते हैं [Aspose.Words जावा मंच के लिए](https://forum.aspose.com/).
 
-अब जब आप मूल बातें सीख चुके हैं, तो अपने दस्तावेज़ प्रसंस्करण परियोजनाओं में Java के लिए Aspose.Words का उपयोग करने की अंतहीन संभावनाओं की खोज शुरू करें।
+अब जब आपने मूल बातें सीख ली हैं, तो अपने दस्तावेज़ प्रसंस्करण परियोजनाओं में Java के लिए Aspose.Words का उपयोग करने की अंतहीन संभावनाओं की खोज शुरू करें।
    
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

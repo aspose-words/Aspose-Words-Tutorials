@@ -1,14 +1,16 @@
 ---
-title: Создание и настройка диаграммы с использованием формы
-linktitle: Создание и настройка диаграммы с использованием формы
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как создавать и настраивать диаграммы в документах Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Идеально подходит для визуализации данных.
-weight: 10
-url: /ru/net/programming-with-charts/create-chart-using-shape/
+"description": "Узнайте, как создавать и настраивать диаграммы в документах Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Идеально подходит для визуализации данных."
+"linktitle": "Создание и настройка диаграммы с использованием формы"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Создание и настройка диаграммы с использованием формы"
+"url": "/ru/net/programming-with-charts/create-chart-using-shape/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создание и настройка диаграммы с использованием формы
@@ -19,9 +21,9 @@ url: /ru/net/programming-with-charts/create-chart-using-shape/
 
 ## Предпосылки
 
-Прежде чем приступить к изучению кода, убедитесь, что у вас есть следующее:
+Прежде чем погрузиться в код, убедитесь, что у вас есть следующее:
 
--  Библиотека Aspose.Words for .NET: Вы можете загрузить ее[здесь](https://releases.aspose.com/words/net/).
+- Библиотека Aspose.Words for .NET: Вы можете загрузить ее [здесь](https://releases.aspose.com/words/net/).
 - Visual Studio: любая версия, поддерживающая .NET.
 - Базовые знания C#: понимание основ C# поможет вам усвоить материал урока.
 
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Шаг 2: Вставьте диаграмму
 
- Далее вы вставите в документ линейную диаграмму.`DocumentBuilder.InsertChart` Для этой цели используется метод.
+Далее вы вставите в документ линейную диаграмму. `DocumentBuilder.InsertChart` Для этой цели используется метод.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
@@ -92,27 +94,32 @@ doc.Save(dataDir + "WorkingWithCharts.CreateChartUsingShape.docx");
 
 ### Могу ли я использовать Aspose.Words for .NET для создания других типов диаграмм?
 
- Да, Aspose.Words for .NET поддерживает различные типы диаграмм, включая столбчатые диаграммы, круговые диаграммы и т. д. Вы можете изучить документацию[здесь](https://reference.aspose.com/words/net/) для более подробной информации.
+Да, Aspose.Words for .NET поддерживает различные типы диаграмм, включая столбчатые диаграммы, круговые диаграммы и т. д. Вы можете изучить документацию [здесь](https://reference.aspose.com/words/net/) для более подробной информации.
 
 ### Как я могу попробовать Aspose.Words для .NET перед покупкой?
 
- Вы можете загрузить бесплатную пробную версию с сайта[здесь](https://releases.aspose.com/). Это позволяет вам протестировать библиотеку и ее функции перед покупкой.
+Вы можете загрузить бесплатную пробную версию с сайта [здесь](https://releases.aspose.com/). Это позволяет вам протестировать библиотеку и ее функции перед покупкой.
 
 ### Есть ли способ получить поддержку, если у меня возникнут проблемы?
 
- Конечно. Вы можете получить поддержку через форумы сообщества Aspose[здесь](https://forum.aspose.com/c/words/8)Сообщество и сотрудники Aspose очень отзывчивы.
+Конечно. Вы можете получить поддержку через форумы сообщества Aspose [здесь](https://forum.aspose.com/c/words/8). Сообщество и сотрудники Aspose очень отзывчивы.
 
 ### Как купить лицензию на Aspose.Words для .NET?
 
- Вы можете приобрести лицензию непосредственно на сайте Aspose.[здесь](https://purchase.aspose.com/buy). Существуют различные варианты лицензирования, соответствующие различным потребностям.
+Вы можете приобрести лицензию непосредственно на сайте Aspose. [здесь](https://purchase.aspose.com/buy). Существуют различные варианты лицензирования для удовлетворения различных потребностей.
 
 ### Что делать, если мне нужна временная лицензия для краткосрочного проекта?
 
- Aspose предлагает временные лицензии, которые вы можете запросить[здесь](https://purchase.aspose.com/temporary-license/).
+Aspose предлагает временные лицензии, которые вы можете запросить [здесь](https://purchase.aspose.com/temporary-license/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

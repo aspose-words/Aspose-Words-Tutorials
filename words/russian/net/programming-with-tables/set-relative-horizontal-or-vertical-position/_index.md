@@ -1,14 +1,16 @@
 ---
-title: Установить относительное горизонтальное или вертикальное положение
-linktitle: Установить относительное горизонтальное или вертикальное положение
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как задать относительное горизонтальное и вертикальное положение таблиц в документах Word с помощью Aspose.Words для .NET, из этого пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-tables/set-relative-horizontal-or-vertical-position/
+"description": "Узнайте, как задать относительное горизонтальное и вертикальное положение таблиц в документах Word с помощью Aspose.Words для .NET, из этого пошагового руководства."
+"linktitle": "Установить относительное горизонтальное или вертикальное положение"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Установить относительное горизонтальное или вертикальное положение"
+"url": "/ru/net/programming-with-tables/set-relative-horizontal-or-vertical-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Установить относительное горизонтальное или вертикальное положение
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-tables/set-relative-horizontal-or-vertical-positio
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
-1.  Aspose.Words для .NET: если вы еще этого не сделали, вы можете загрузить его[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: если вы еще этого не сделали, вы можете загрузить его [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая другая совместимая с .NET IDE.
 3. Базовые знания C#: в этом руководстве предполагается, что вы знакомы с основами программирования на C#.
 
@@ -39,7 +41,7 @@ using Aspose.Words.Tables;
 Для начала вам нужно загрузить ваш документ Word в программу. Вот как это можно сделать:
 
 ```csharp
-// Путь к каталогу ваших документов
+// Путь к каталогу ваших документов 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Table wrapped by text.docx");
@@ -65,7 +67,7 @@ Table table = doc.FirstSection.Body.Tables[0];
 table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 ```
 
- Установив`HorizontalAnchor` к`RelativeHorizontalPosition.Column`, вы указываете таблице выровняться по горизонтали относительно столбца, в котором она находится.
+Установив `HorizontalAnchor` к `RelativeHorizontalPosition.Column`, вы указываете таблице выровняться по горизонтали относительно столбца, в котором она находится.
 
 ## Шаг 4: Установите вертикальное положение
 
@@ -75,7 +77,7 @@ table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 table.VerticalAnchor = RelativeVerticalPosition.Page;
 ```
 
- Установка`VerticalAnchor` к`RelativeVerticalPosition.Page` обеспечивает вертикальное выравнивание таблицы по странице.
+Установка `VerticalAnchor` к `RelativeVerticalPosition.Page` обеспечивает вертикальное выравнивание таблицы по странице.
 
 ## Шаг 5: Сохраните документ
 
@@ -97,19 +99,24 @@ doc.Save(dataDir + "WorkingWithTables.SetFloatingTablePosition.docx");
 Да, Aspose.Words позволяет позиционировать таблицы относительно различных элементов, таких как поля, страницы, столбцы и т. д.
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?  
- Да, вы можете приобрести лицензию.[здесь](https://purchase.aspose.com/buy) или получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+Да, вы можете приобрести лицензию. [здесь](https://purchase.aspose.com/buy) или получите временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Существует ли бесплатная пробная версия Aspose.Words для .NET?  
- Конечно! Вы можете скачать бесплатную пробную версию[здесь](https://releases.aspose.com/).
+Конечно! Вы можете скачать бесплатную пробную версию [здесь](https://releases.aspose.com/).
 
 ### Могу ли я использовать Aspose.Words с другими языками программирования?  
 Aspose.Words разработан в первую очередь для .NET, но существуют версии для Java, Python и других платформ.
 
 ### Где я могу найти более подробную документацию?  
-Более подробную информацию можно найти в документации Aspose.Words.[здесь](https://reference.aspose.com/words/net/).
+Более подробную информацию можно найти в документации Aspose.Words. [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

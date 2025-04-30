@@ -1,14 +1,16 @@
 ---
-title: Belge Değişikliklerini Kabul Etme ve Reddetme
-linktitle: Belge Değişikliklerini Kabul Etme ve Reddetme
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java ile belge değişikliklerini zahmetsizce nasıl yöneteceğinizi öğrenin. Revizyonları sorunsuz bir şekilde kabul edin ve reddedin.
-weight: 12
-url: /tr/java/document-revision/accepting-rejecting-document-changes/
+"description": "Aspose.Words for Java ile belge değişikliklerini zahmetsizce nasıl yöneteceğinizi öğrenin. Revizyonları sorunsuz bir şekilde kabul edin ve reddedin."
+"linktitle": "Belge Değişikliklerini Kabul Etme ve Reddetme"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belge Değişikliklerini Kabul Etme ve Reddetme"
+"url": "/tr/java/document-revision/accepting-rejecting-document-changes/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Değişikliklerini Kabul Etme ve Reddetme
@@ -83,7 +85,7 @@ Sonuç olarak, Aspose.Words for Java kullanarak belge değişikliklerini kabul e
 
 ### Belgede belirli bir değişikliği kimin yaptığını nasıl belirleyebilirim?
 
- Her revizyon için yazar bilgilerine şurayı kullanarak ulaşabilirsiniz:`getAuthor` yöntem üzerinde`Revision` nesne.
+Her revizyon için yazar bilgilerine şurayı kullanarak ulaşabilirsiniz: `getAuthor` yöntem üzerinde `Revision` nesne.
 
 ### Belgede izlenen değişikliklerin görünümünü özelleştirebilir miyim?
 
@@ -95,14 +97,19 @@ Evet, Aspose.Words for Java, DOCX, DOC, RTF ve daha fazlası dahil olmak üzere 
 
 ### Değişikliklerin kabulünü veya reddini geri alabilir miyim?
 
-Maalesef, kabul edilen veya reddedilen değişikliklerin Aspose.Words kütüphanesi içerisinde kolayca geri alınması mümkün değildir.
+Maalesef, kabul edilen veya reddedilen değişikliklerin Aspose.Words kütüphanesi içinde kolayca geri alınması mümkün değildir.
 
 ### Aspose.Words for Java hakkında daha fazla bilgi ve dokümanı nerede bulabilirim?
 
- Ayrıntılı dokümantasyon ve örnekler için şu adresi ziyaret edin:[Aspose.Words for Java API Referansı](https://reference.aspose.com/words/java/).
+Ayrıntılı dokümantasyon ve örnekler için şu adresi ziyaret edin: [Aspose.Words for Java API Referansı](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

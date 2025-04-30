@@ -1,14 +1,16 @@
 ---
-title: Optymalizacja tabel do prezentacji danych w dokumentach Word
-linktitle: Optymalizacja tabel do prezentacji danych w dokumentach Word
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Dowiedz się, jak optymalizować tabele pod kątem prezentacji danych w dokumentach Word za pomocą Aspose.Words dla Pythona. Zwiększ czytelność i atrakcyjność wizualną dzięki wskazówkom krok po kroku i przykładom kodu źródłowego.
-weight: 11
-url: /pl/python-net/tables-and-formatting/document-tables/
+"description": "Dowiedz się, jak optymalizować tabele pod kątem prezentacji danych w dokumentach Word za pomocą Aspose.Words dla Pythona. Zwiększ czytelność i atrakcyjność wizualną dzięki wskazówkom krok po kroku i przykładom kodu źródłowego."
+"linktitle": "Optymalizacja tabel do prezentacji danych w dokumentach Word"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Optymalizacja tabel do prezentacji danych w dokumentach Word"
+"url": "/pl/python-net/tables-and-formatting/document-tables/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Optymalizacja tabel do prezentacji danych w dokumentach Word
@@ -55,19 +57,19 @@ Po zakończeniu konfiguracji możemy przystąpić do tworzenia i optymalizacji t
 Tabele są konstruowane przy użyciu klasy Table w Aspose.Words. Aby utworzyć tabelę, określ liczbę wierszy i kolumn, które powinna zawierać. Możesz również zdefiniować preferowaną szerokość tabeli i jej komórek.
 
 ```python
-# Create a table with 3 rows and 4 columns
+# Utwórz tabelę z 3 wierszami i 4 kolumnami
 table = doc.get_child(aw.NodeType.TABLE, 0, True).as_table()
 
-# Set preferred width for the table
+# Ustaw preferowaną szerokość tabeli
 table.preferred_width = doc.page_width
 ```
 
 ## Dostosowywanie szerokości kolumn:
 
- Prawidłowe dostosowanie szerokości kolumn zapewnia, że zawartość tabeli pasuje schludnie i równomiernie. Możesz ustawić szerokość poszczególnych kolumn za pomocą`set_preferred_width` metoda.
+Prawidłowe dostosowanie szerokości kolumn zapewnia, że zawartość tabeli pasuje schludnie i równomiernie. Możesz ustawić szerokość poszczególnych kolumn za pomocą `set_preferred_width` metoda.
 
 ```python
-# Set preferred width for the first column
+# Ustaw preferowaną szerokość dla pierwszej kolumny
 table.columns[0].set_preferred_width(100)
 ```
 
@@ -76,11 +78,11 @@ table.columns[0].set_preferred_width(100)
 Scalanie komórek może być przydatne do tworzenia komórek nagłówka, które obejmują wiele kolumn lub wierszy. Odwrotnie, dzielenie komórek pomaga podzielić scalone komórki z powrotem do ich oryginalnej konfiguracji.
 
 ```python
-# Merge cells in the first row
+# Połącz komórki w pierwszym wierszu
 cell = table.rows[0].cells[0]
 cell.cell_format.horizontal_merge = CellMerge.FIRST
 
-# Split a previously merged cell
+# Podziel wcześniej połączoną komórkę
 cell.cell_format.horizontal_merge = CellMerge.NONE
 ```
 
@@ -89,22 +91,22 @@ cell.cell_format.horizontal_merge = CellMerge.NONE
 Aspose.Words oferuje różne opcje stylizacji, aby poprawić wygląd tabel. Możesz ustawić kolory tła komórek, wyrównanie tekstu, formatowanie czcionki i wiele więcej.
 
 ```python
-# Apply bold formatting to a cell's text
+# Zastosuj pogrubienie do tekstu komórki
 cell.paragraphs[0].runs[0].font.bold = True
 
-# Set background color for a cell
+# Ustaw kolor tła dla komórki
 cell.cell_format.shading.background_pattern_color = Color.light_gray
 ```
 
 ## Dodawanie nagłówków i stopek do tabel:
 
- Tabele mogą zyskać na posiadaniu nagłówków i stopek, które zapewniają kontekst lub dodatkowe informacje. Możesz dodać nagłówki i stopki do tabel za pomocą`Table.title` I`Table.description` Właściwości.
+Tabele mogą zyskać na posiadaniu nagłówków i stopek, które zapewniają kontekst lub dodatkowe informacje. Możesz dodać nagłówki i stopki do tabel za pomocą `Table.title` I `Table.description` Właściwości.
 
 ```python
-# Set table title (header)
+# Ustaw tytuł tabeli (nagłówek)
 table.title = "Sales Data 2023"
 
-# Set table description (footer)
+# Opis tabeli (stopka)
 table.description = "Figures are in USD."
 ```
 
@@ -113,7 +115,7 @@ table.description = "Figures are in USD."
 W dokumentach o zróżnicowanym układzie responsywny projekt tabeli staje się kluczowy. Dostosowanie szerokości kolumn i wysokości komórek na podstawie dostępnej przestrzeni zapewnia, że tabela pozostaje czytelna i atrakcyjna wizualnie.
 
 ```python
-# Check available space and adjust column widths accordingly
+# Sprawdź dostępną przestrzeń i odpowiednio dostosuj szerokość kolumn
 available_width = doc.page_width - doc.left_margin - doc.right_margin
 for column in table.columns:
     column.preferred_width = available_width / len(table.columns)
@@ -124,7 +126,7 @@ for column in table.columns:
 Po zoptymalizowaniu tabeli czas zapisać dokument. Aspose.Words obsługuje różne formaty, w tym DOCX, PDF i inne.
 
 ```python
-# Save the document in DOCX format
+# Zapisz dokument w formacie DOCX
 output_path = "optimized_table.docx"
 doc.save(output_path)
 ```
@@ -153,9 +155,14 @@ Oczywiście! Aspose.Words oferuje szeroki zakres funkcji do pracy z tekstem, for
 ### Czy mogę stosować różne style do poszczególnych komórek?
 
 Tak, możesz dostosować style komórek, zmieniając formatowanie czcionki, kolory tła i wyrównanie.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

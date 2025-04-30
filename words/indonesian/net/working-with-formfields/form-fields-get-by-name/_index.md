@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Bidang Formulir Berdasarkan Nama
-linktitle: Dapatkan Bidang Formulir Berdasarkan Nama
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mendapatkan dan memodifikasi bidang formulir berdasarkan nama dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini.
-weight: 10
-url: /id/net/working-with-formfields/form-fields-get-by-name/
+"description": "Pelajari cara mendapatkan dan memodifikasi bidang formulir berdasarkan nama dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini."
+"linktitle": "Dapatkan Bidang Formulir Berdasarkan Nama"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Dapatkan Bidang Formulir Berdasarkan Nama"
+"url": "/id/net/working-with-formfields/form-fields-get-by-name/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Bidang Formulir Berdasarkan Nama
@@ -21,7 +23,7 @@ Apakah Anda lelah mengedit kolom formulir secara manual di dokumen Word Anda? Ja
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Pustaka Aspose.Words untuk .NET: Jika Anda belum memilikinya, unduh dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Jika Anda belum memilikinya, unduh dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan .NET apa pun seperti Visual Studio.
 3. Pengetahuan Dasar C#: Sedikit pengetahuan tentang C# akan membantu namun tidak wajib.
 
@@ -121,7 +123,7 @@ Ya, Aspose.Words untuk .NET mendukung banyak bahasa seperti VB.NET dan bahkan In
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Words untuk .NET?
 
- Ya, Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh uji coba gratis dari [Di Sini](https://releases.aspose.com/).
 
 ### Bisakah saya memanipulasi elemen lain pada dokumen Word selain kolom formulir?
 
@@ -129,14 +131,19 @@ Tentu saja! Aspose.Words untuk .NET memungkinkan Anda memanipulasi berbagai elem
 
 ### Bagaimana cara mendapatkan dukungan jika saya menghadapi masalah?
 
- Anda dapat mengunjungi[Forum dukungan Aspose](https://forum.aspose.com/c/words/8) untuk bantuan atas masalah yang Anda hadapi.
+Anda dapat mengunjungi [Forum dukungan Aspose](https://forum.aspose.com/c/words/8) untuk bantuan atas masalah yang Anda hadapi.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
 
- Dokumentasi terperinci tersedia[Di Sini](https://reference.aspose.com/words/net/).
+Dokumentasi terperinci tersedia [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

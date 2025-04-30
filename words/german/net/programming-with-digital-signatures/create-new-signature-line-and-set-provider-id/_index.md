@@ -1,30 +1,32 @@
 ---
-title: Neue Signaturzeile erstellen und Provider-ID festlegen
-linktitle: Neue Signaturzeile erstellen und Provider-ID festlegen
-second_title: Aspose.Words Dokumentverarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Words für .NET eine neue Signaturzeile erstellen und die Anbieter-ID in Word-Dokumenten festlegen. Schritt-für-Schritt-Anleitung.
-weight: 10
-url: /de/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/
+"description": "Erfahren Sie, wie Sie mit Aspose.Words für .NET eine neue Signaturzeile erstellen und die Anbieter-ID in Word-Dokumenten festlegen. Schritt-für-Schritt-Anleitung."
+"linktitle": "Neue Signaturzeile erstellen und Anbieter-ID festlegen"
+"second_title": "Aspose.Words Dokumentverarbeitungs-API"
+"title": "Neue Signaturzeile erstellen und Anbieter-ID festlegen"
+"url": "/de/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Neue Signaturzeile erstellen und Provider-ID festlegen
+# Neue Signaturzeile erstellen und Anbieter-ID festlegen
 
 ## Einführung
 
-Hallo Technikbegeisterte! Haben Sie sich schon einmal gefragt, wie Sie Ihren Word-Dokumenten programmgesteuert eine Signaturzeile hinzufügen können? Heute tauchen wir genau in diese Richtung ein und verwenden dafür Aspose.Words für .NET. Diese Anleitung führt Sie durch jeden Schritt und macht es kinderleicht, eine neue Signaturzeile zu erstellen und die Anbieter-ID in Ihren Word-Dokumenten festzulegen. Egal, ob Sie die Dokumentenverarbeitung automatisieren oder einfach nur Ihren Workflow optimieren möchten, dieses Tutorial ist für Sie da.
+Hallo Technikbegeisterte! Wollten Sie schon immer mal eine Signaturzeile in Ihre Word-Dokumente einfügen? Heute zeigen wir Ihnen genau das mit Aspose.Words für .NET. Diese Anleitung führt Sie Schritt für Schritt durch die Erstellung einer neuen Signaturzeile und das Festlegen der Anbieter-ID in Ihren Word-Dokumenten. Egal, ob Sie die Dokumentenverarbeitung automatisieren oder einfach nur Ihren Workflow optimieren möchten – dieses Tutorial hilft Ihnen dabei.
 
 ## Voraussetzungen
 
 Bevor wir uns die Hände schmutzig machen, stellen wir sicher, dass wir alles haben, was wir brauchen:
 
-1.  Aspose.Words für .NET: Wenn Sie es noch nicht getan haben, laden Sie es herunter[Hier](https://releases.aspose.com/words/net/).
+1. Aspose.Words für .NET: Falls noch nicht geschehen, laden Sie es herunter [Hier](https://releases.aspose.com/words/net/).
 2. Entwicklungsumgebung: Visual Studio oder eine andere C#-Entwicklungsumgebung.
 3. .NET Framework: Stellen Sie sicher, dass Sie .NET Framework installiert haben.
-4. PFX-Zertifikat: Zum Signieren von Dokumenten benötigen Sie ein PFX-Zertifikat. Sie können eines von einer vertrauenswürdigen Zertifizierungsstelle erhalten.
+4. PFX-Zertifikat: Zum Signieren von Dokumenten benötigen Sie ein PFX-Zertifikat. Dieses erhalten Sie bei einer vertrauenswürdigen Zertifizierungsstelle.
 
 ## Namespaces importieren
 
@@ -39,22 +41,22 @@ using System;
 
 Okay, kommen wir zum Wesentlichen. Hier ist eine detaillierte Aufschlüsselung der einzelnen Schritte zum Erstellen einer neuen Signaturzeile und Festlegen der Anbieter-ID.
 
-## Schritt 1: Neues Dokument erstellen
+## Schritt 1: Erstellen Sie ein neues Dokument
 
-Zu Beginn müssen wir ein neues Word-Dokument erstellen. Dies dient als Vorlage für unsere Signaturzeile.
+Zunächst erstellen wir ein neues Word-Dokument. Dies dient als Vorlage für unsere Signaturzeile.
 
 ```csharp
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- In diesem Snippet initialisieren wir ein neues`Document` und ein`DocumentBuilder` . Der`DocumentBuilder` hilft uns, Elemente zu unserem Dokument hinzuzufügen.
+In diesem Snippet initialisieren wir ein neues `Document` und ein `DocumentBuilder`. Der `DocumentBuilder` hilft uns, Elemente zu unserem Dokument hinzuzufügen.
 
-## Schritt 2: Optionen für die Signaturzeile festlegen
+## Schritt 2: Signaturzeilenoptionen festlegen
 
-Als Nächstes definieren wir die Optionen für unsere Signaturzeile. Dazu gehören der Name, der Titel, die E-Mail-Adresse und andere Details des Unterzeichners.
+Als Nächstes definieren wir die Optionen für unsere Signaturzeile. Dazu gehören Name, Titel, E-Mail-Adresse und weitere Details des Unterzeichners.
 
 ```csharp
 SignatureLineOptions signatureLineOptions = new SignatureLineOptions
@@ -80,7 +82,7 @@ SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).
 signatureLine.ProviderId = Guid.Parse("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2");
 ```
 
- Hier die`InsertSignatureLine` Methode fügt die Signaturzeile hinzu und wir weisen ihr eine eindeutige Provider-ID zu.
+Hier ist die `InsertSignatureLine` Die Methode fügt die Signaturzeile hinzu und wir weisen ihr eine eindeutige Anbieter-ID zu.
 
 ## Schritt 4: Speichern Sie das Dokument
 
@@ -94,7 +96,7 @@ Dadurch wird Ihr Dokument mit der neu hinzugefügten Signaturzeile gespeichert.
 
 ## Schritt 5: Signaturoptionen einrichten
 
-Nun müssen wir die Optionen zum Signieren des Dokuments einrichten. Dazu gehören die Signaturzeilen-ID, die Anbieter-ID, Kommentare und die Signierzeit.
+Nun müssen wir die Optionen für die Signatur des Dokuments einrichten. Dazu gehören die Signaturzeilen-ID, die Anbieter-ID, Kommentare und die Signaturzeit.
 
 ```csharp
 SignOptions signOptions = new SignOptions
@@ -108,19 +110,19 @@ SignOptions signOptions = new SignOptions
 
 Diese Optionen stellen sicher, dass das Dokument mit den richtigen Angaben unterzeichnet wird.
 
-## Schritt 6: Zertifikatsinhaber anlegen
+## Schritt 6: Zertifikatsinhaber erstellen
 
-Um das Dokument zu signieren, verwenden wir ein PFX-Zertifikat. Lassen Sie uns einen Zertifikatsinhaber dafür erstellen.
+Zum Signieren des Dokuments verwenden wir ein PFX-Zertifikat. Erstellen wir einen Zertifikatsinhaber dafür.
 
 ```csharp
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
 ```
 
- Ersetzen Sie unbedingt`"morzal.pfx"` mit Ihrer aktuellen Zertifikatsdatei und`"aw"` mit Ihrem Zertifikatspasswort.
+Stellen Sie sicher, dass Sie `"morzal.pfx"` mit Ihrer aktuellen Zertifikatsdatei und `"aw"` mit Ihrem Zertifikatspasswort.
 
 ## Schritt 7: Unterschreiben Sie das Dokument
 
-Abschließend unterzeichnen wir das Dokument mithilfe des Dienstprogramms für digitale Signaturen.
+Abschließend unterzeichnen wir das Dokument mit dem Dienstprogramm für digitale Signaturen.
 
 ```csharp
 DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLineProviderId.docx", 
@@ -131,27 +133,32 @@ Dadurch wird das Dokument signiert und als neue Datei gespeichert.
 
 ## Abschluss
 
-Und da haben Sie es! Sie haben erfolgreich eine neue Signaturzeile erstellt und die Anbieter-ID in einem Word-Dokument mit Aspose.Words für .NET festgelegt. Diese leistungsstarke Bibliothek macht es unglaublich einfach, Dokumentverarbeitungsaufgaben zu verwalten und zu automatisieren. Probieren Sie es aus und sehen Sie, wie es Ihren Arbeitsablauf optimieren kann.
+Und da haben Sie es! Sie haben erfolgreich eine neue Signaturzeile erstellt und die Anbieter-ID in einem Word-Dokument mit Aspose.Words für .NET festgelegt. Diese leistungsstarke Bibliothek vereinfacht die Verwaltung und Automatisierung von Dokumentverarbeitungsaufgaben enorm. Probieren Sie es aus und überzeugen Sie sich selbst, wie es Ihren Workflow optimieren kann.
 
 ## Häufig gestellte Fragen
 
 ### Kann ich das Erscheinungsbild der Signaturzeile anpassen?
- Auf jeden Fall! Sie können verschiedene Optionen im`SignatureLineOptions`um Ihren Bedürfnissen gerecht zu werden.
+Absolut! Sie können verschiedene Optionen im `SignatureLineOptions` um Ihren Bedürfnissen gerecht zu werden.
 
 ### Was ist, wenn ich kein PFX-Zertifikat habe?
-Sie müssen ein Zertifikat von einer vertrauenswürdigen Zertifizierungsstelle erhalten. Es ist für die digitale Signatur von Dokumenten unerlässlich.
+Sie benötigen eine solche Berechtigung von einer vertrauenswürdigen Zertifizierungsstelle. Sie ist für die digitale Signatur von Dokumenten unerlässlich.
 
 ### Kann ich einem Dokument mehrere Signaturzeilen hinzufügen?
-Ja, Sie können beliebig viele Signaturzeilen hinzufügen, indem Sie den Einfügevorgang mit unterschiedlichen Optionen wiederholen.
+Ja, Sie können beliebig viele Signaturzeilen hinzufügen, indem Sie den Einfügevorgang mit verschiedenen Optionen wiederholen.
 
 ### Ist Aspose.Words für .NET mit .NET Core kompatibel?
 Ja, Aspose.Words für .NET unterstützt .NET Core und ist daher vielseitig für verschiedene Entwicklungsumgebungen einsetzbar.
 
 ### Wie sicher sind die digitalen Signaturen?
-Mit Aspose.Words erstellte digitale Signaturen sind hochsicher, sofern Sie ein gültiges und vertrauenswürdiges Zertifikat verwenden.
+Mit Aspose.Words erstellte digitale Signaturen sind hochsicher, vorausgesetzt, Sie verwenden ein gültiges und vertrauenswürdiges Zertifikat.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

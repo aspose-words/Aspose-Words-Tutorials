@@ -1,30 +1,32 @@
 ---
-title: Erweitertes Feld ohne Dokumentgenerator einfügen
-linktitle: Erweitertes Feld ohne Dokumentgenerator einfügen
-second_title: Aspose.Words Dokumentverarbeitungs-API
-description: Erfahren Sie, wie Sie in Aspose.Words für .NET ein erweitertes Feld einfügen, ohne DocumentBuilder zu verwenden. Folgen Sie dieser Anleitung, um Ihre Fähigkeiten zur Dokumentverarbeitung zu verbessern.
-weight: 10
-url: /de/net/working-with-fields/insert-advance-field-with-out-document-builder/
+"description": "Erfahren Sie, wie Sie in Aspose.Words für .NET ein erweitertes Feld einfügen, ohne DocumentBuilder zu verwenden. Folgen Sie dieser Anleitung, um Ihre Fähigkeiten zur Dokumentverarbeitung zu verbessern."
+"linktitle": "Erweitertes Feld ohne Dokumentgenerator einfügen"
+"second_title": "Aspose.Words Dokumentverarbeitungs-API"
+"title": "Erweitertes Feld ohne Dokumentgenerator einfügen"
+"url": "/de/net/working-with-fields/insert-advance-field-with-out-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Erweitertes Feld ohne Dokumentgenerator einfügen
 
 ## Einführung
 
-Möchten Sie Ihre Word-Dokumentbearbeitung mit Aspose.Words für .NET verbessern? Dann sind Sie hier richtig! In diesem Tutorial führen wir Sie durch den Prozess des Einfügens eines erweiterten Felds in ein Word-Dokument, ohne die DocumentBuilder-Klasse zu verwenden. Am Ende dieses Handbuchs haben Sie ein solides Verständnis dafür, wie Sie dies mit Aspose.Words für .NET erreichen können. Lassen Sie uns also loslegen und Ihre Dokumentverarbeitung noch leistungsfähiger und vielseitiger machen!
+Möchten Sie Ihre Word-Dokumentbearbeitung mit Aspose.Words für .NET verbessern? Dann sind Sie hier genau richtig! In diesem Tutorial zeigen wir Ihnen, wie Sie ein erweitertes Feld in ein Word-Dokument einfügen, ohne die DocumentBuilder-Klasse zu verwenden. Am Ende dieses Leitfadens haben Sie ein solides Verständnis dafür, wie Sie dies mit Aspose.Words für .NET erreichen. Legen wir also los und machen Sie Ihre Dokumentenverarbeitung noch leistungsfähiger und vielseitiger!
 
 ## Voraussetzungen
 
 Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
--  Aspose.Words für .NET-Bibliothek: Sie können sie herunterladen[Hier](https://releases.aspose.com/words/net/).
+- Aspose.Words für .NET-Bibliothek: Sie können es herunterladen [Hier](https://releases.aspose.com/words/net/).
 - Visual Studio: Jede aktuelle Version ist geeignet.
-- Grundkenntnisse in C#: Dieses Tutorial setzt grundlegende Kenntnisse der C#-Programmierung voraus.
--  Aspose.Words-Lizenz: Erhalten Sie eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/) wenn Sie keines haben.
+- Grundkenntnisse in C#: Dieses Tutorial setzt voraus, dass Sie über grundlegende Kenntnisse der C#-Programmierung verfügen.
+- Aspose.Words-Lizenz: Erhalten Sie eine temporäre Lizenz [Hier](https://purchase.aspose.com/temporary-license/) wenn Sie keines haben.
 
 ## Namespaces importieren
 
@@ -54,11 +56,11 @@ Als Erstes richten wir unser Visual Studio-Projekt ein.
 
 ## Schritt 2: Dokument und Absatz initialisieren
 
-Nachdem unser Projekt nun eingerichtet ist, müssen wir ein neues Dokument und einen Absatz initialisieren, in dem wir das Erweitertfeld einfügen.
+Nachdem unser Projekt nun eingerichtet ist, müssen wir ein neues Dokument und einen Absatz initialisieren, in den wir das Vorabfeld einfügen.
 
 ### Dokument initialisieren
 
-1.  In Ihrem`Program.cs` Datei, beginnen Sie mit der Erstellung eines neuen Dokuments:
+1. In Ihrem `Program.cs` Datei, beginnen Sie mit der Erstellung eines neuen Dokuments:
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
@@ -77,19 +79,19 @@ Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
 Dadurch wird sichergestellt, dass wir einen Absatz zum Arbeiten haben.
 
-## Schritt 3: Fügen Sie das Advance-Feld ein
+## Schritt 3: Fügen Sie das Vorabfeld ein
 
-Fügen wir nun das Erweitert-Feld in unseren Absatz ein.
+Fügen wir nun das Vorabfeld in unseren Absatz ein.
 
 ### Erstellen Sie das Feld
 
-1. Fügen Sie das Feld „Erweitert“ an den Absatz an:
+1. Fügen Sie das Vorabfeld an den Absatz an:
 
 ```csharp
 FieldAdvance field = (FieldAdvance)para.AppendField(FieldType.FieldAdvance, false);
 ```
 
-Dadurch wird in unserem Absatz ein neues Vorlauffeld erstellt.
+Dadurch wird in unserem Absatz ein neues Vorabfeld erstellt.
 
 ### Feldeigenschaften festlegen
 
@@ -108,7 +110,7 @@ Diese Einstellungen passen die Position des Textes relativ zu seiner normalen Po
 
 ## Schritt 4: Aktualisieren und Speichern des Dokuments
 
-Nachdem das Feld eingefügt und konfiguriert wurde, ist es Zeit, das Dokument zu aktualisieren und zu speichern.
+Nachdem das Feld eingefügt und konfiguriert wurde, ist es an der Zeit, das Dokument zu aktualisieren und zu speichern.
 
 ### Aktualisieren des Felds
 
@@ -132,32 +134,37 @@ Dadurch wird das Dokument mit dem enthaltenen Vorabfeld gespeichert.
 
 ## Abschluss
 
-Und da haben Sie es! Sie haben erfolgreich ein erweitertes Feld in ein Word-Dokument eingefügt, ohne die DocumentBuilder-Klasse zu verwenden. Indem Sie diese Schritte befolgen, haben Sie die Leistungsfähigkeit von Aspose.Words für .NET genutzt, um Word-Dokumente programmgesteuert zu bearbeiten. Egal, ob Sie die Berichterstellung automatisieren oder komplexe Dokumentvorlagen erstellen, dieses Wissen wird Ihnen zweifellos nützlich sein. Experimentieren Sie weiter und erkunden Sie die Funktionen von Aspose.Words, um Ihre Dokumentverarbeitung auf die nächste Stufe zu heben!
+Und da haben Sie es! Sie haben erfolgreich ein erweitertes Feld in ein Word-Dokument eingefügt, ohne die DocumentBuilder-Klasse zu verwenden. Mit diesen Schritten nutzen Sie die Leistungsfähigkeit von Aspose.Words für .NET, um Word-Dokumente programmgesteuert zu bearbeiten. Ob Sie die Berichterstellung automatisieren oder komplexe Dokumentvorlagen erstellen – dieses Wissen wird Ihnen zweifellos nützlich sein. Experimentieren Sie weiter und entdecken Sie die Möglichkeiten von Aspose.Words, um Ihre Dokumentenverarbeitung auf die nächste Stufe zu heben!
 
 ## Häufig gestellte Fragen
 
 ### Was ist ein erweitertes Feld in Aspose.Words?
 
-Mit einem erweiterten Feld in Aspose.Words können Sie die Positionierung von Text im Verhältnis zu seiner normalen Position steuern und so präzise Kontrolle über das Textlayout in Ihren Dokumenten erhalten.
+Mit einem erweiterten Feld in Aspose.Words können Sie die Positionierung von Text im Verhältnis zu seiner normalen Position steuern und so eine präzise Kontrolle über das Textlayout in Ihren Dokumenten erhalten.
 
 ### Kann ich DocumentBuilder mit erweiterten Feldern verwenden?
 
-Ja, Sie können DocumentBuilder verwenden, um erweiterte Felder einzufügen. Dieses Tutorial zeigt Ihnen jedoch, wie Sie dies ohne DocumentBuilder tun können, um mehr Flexibilität und Kontrolle zu erreichen.
+Ja, Sie können DocumentBuilder zum Einfügen erweiterter Felder verwenden. Dieses Lernprogramm zeigt Ihnen jedoch, wie Sie dies ohne DocumentBuilder tun können, um mehr Flexibilität und Kontrolle zu erhalten.
 
 ### Wo finde ich weitere Beispiele zur Verwendung von Aspose.Words?
 
- Ausführliche Dokumentationen und Beispiele finden Sie auf der[Aspose.Words für .NET-Dokumentation](https://reference.aspose.com/words/net/) Seite.
+Ausführliche Dokumentationen und Beispiele finden Sie auf der [Aspose.Words für .NET-Dokumentation](https://reference.aspose.com/words/net/) Seite.
 
 ### Ist die Nutzung von Aspose.Words für .NET kostenlos?
 
- Aspose.Words für .NET bietet eine kostenlose Testversion, die Sie herunterladen können[Hier](https://releases.aspose.com/). Für die volle Funktionalität müssen Sie eine Lizenz erwerben.
+Aspose.Words für .NET bietet eine kostenlose Testversion, die Sie herunterladen können [Hier](https://releases.aspose.com/). Für die volle Funktionalität müssen Sie eine Lizenz erwerben.
 
-### Wie erhalte ich Unterstützung für Aspose.Words für .NET?
+### Wie erhalte ich Support für Aspose.Words für .NET?
 
- Für Unterstützung besuchen Sie bitte die[Aspose.Words Support-Forum](https://forum.aspose.com/c/words/8).
+Für Unterstützung besuchen Sie bitte die [Aspose.Words Support-Forum](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Onay Kutusu Türü İçerik Kontrolü
-linktitle: Onay Kutusu Türü İçerik Kontrolü
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım eğitimle Aspose.Words for .NET kullanarak Word belgelerine Onay Kutusu Türü İçerik Denetimi'nin nasıl ekleneceğini öğrenin.
-weight: 10
-url: /tr/net/programming-with-sdt/check-box-type-content-control/
+"description": "Bu ayrıntılı, adım adım eğitimle Aspose.Words for .NET kullanarak Word belgelerine Onay Kutusu Türü İçerik Denetimi'nin nasıl ekleneceğini öğrenin."
+"linktitle": "Onay Kutusu Türü İçerik Kontrolü"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Onay Kutusu Türü İçerik Kontrolü"
+"url": "/tr/net/programming-with-sdt/check-box-type-content-control/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Onay Kutusu Türü İçerik Kontrolü
@@ -21,7 +23,7 @@ Aspose.Words for .NET kullanarak Word belgesine Onay Kutusu Türü İçerik Dene
 
 Kodlama kısmına dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET'in en son sürümüne sahip olduğunuzdan emin olun. Bunu şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET'in en son sürümüne sahip olduğunuzdan emin olun. Bunu şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Bilgisayarınızda yüklü Visual Studio veya herhangi bir C# IDE.
 3. Temel C# Bilgisi: Eğitimi takip edebilmek için C# programlamaya aşinalık gerekmektedir.
 4. Belge Dizini: Word belgelerinizi kaydedeceğiniz dizin.
@@ -61,18 +63,18 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Bu kod parçacığında yeni bir tane oluşturuyoruz`Document` nesne ve bir`DocumentBuilder` Belgeyi düzenlememize yardımcı olacak nesne.
+Bu kod parçacığında yeni bir tane oluşturuyoruz `Document` nesne ve bir `DocumentBuilder` Belgeyi düzenlememize yardımcı olacak nesne.
 
 ## Adım 4: Onay Kutusu Türü İçerik Denetimini Oluşturun
 
-Eğitimimizin kalbi Onay Kutusu Türü İçerik Denetimi'ni oluşturmaktır. Bunu kullanacağız`StructuredDocumentTag` Bu amaçla sınıf.
+Eğitimimizin kalbi Onay Kutusu Türü İçerik Denetimi'ni oluşturmaktır. Bunu kullanacağız `StructuredDocumentTag` Bu amaçla sınıf.
 
 ```csharp
 StructuredDocumentTag sdtCheckBox = new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline);
 builder.InsertNode(sdtCheckBox);
 ```
 
- Burada yeni bir tane yaratıyoruz`StructuredDocumentTag` türü olan nesne`Checkbox` ve bunu kullanarak belgeye ekleyin`DocumentBuilder`.
+Burada yeni bir tane yaratıyoruz `StructuredDocumentTag` türü olan nesne `Checkbox` ve bunu kullanarak belgeye ekleyin `DocumentBuilder`.
 
 ## Adım 5: Belgeyi Kaydedin
 
@@ -88,7 +90,7 @@ Bu satır, yeni eklenen onay kutusuyla belgeyi belirtilen dizine kaydeder.
 
 İşte karşınızda! Aspose.Words for .NET kullanarak Word belgenize bir Onay Kutusu Türü İçerik Denetimi başarıyla eklediniz. Bu özellik, etkileşimli ve kullanıcı dostu belgeler oluşturmak için inanılmaz derecede yararlı olabilir. Formlar, anketler veya kullanıcı girişi gerektiren herhangi bir belge oluşturuyor olun, onay kutuları kullanılabilirliği artırmanın harika bir yoludur.
 
- Herhangi bir sorunuz varsa veya daha fazla yardıma ihtiyacınız varsa, şuraya göz atmaktan çekinmeyin:[Aspose.Words Belgeleri](https://reference.aspose.com/words/net/) veya ziyaret edin[Aspose Destek Forumu](https://forum.aspose.com/c/words/8).
+Herhangi bir sorunuz varsa veya daha fazla yardıma ihtiyacınız varsa, şuraya göz atmaktan çekinmeyin: [Aspose.Words Belgeleri](https://reference.aspose.com/words/net/) veya ziyaret edin [Aspose Destek Forumu](https://forum.aspose.com/c/words/8).
 
 ## SSS
 
@@ -96,20 +98,25 @@ Bu satır, yeni eklenen onay kutusuyla belgeyi belirtilen dizine kaydeder.
 Aspose.Words for .NET, geliştiricilerin Word belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.Words for .NET'i nasıl kurabilirim?
- Aspose.Words for .NET'i Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla yükleyebilir veya şu adresten indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/words/net/).
+Aspose.Words for .NET'i Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla yükleyebilir veya şu adresten indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/words/net/).
 
 ### Aspose.Words'ü kullanarak başka tür içerik denetimleri ekleyebilir miyim?
 Evet, Aspose.Words metin, tarih ve birleşik kutu denetimleri de dahil olmak üzere çeşitli içerik denetimlerini destekler.
 
 ### Aspose.Words for .NET için ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/).
 
 ### Sorun yaşarsam nereden destek alabilirim?
- Ziyaret edebilirsiniz[Aspose Destek Forumu](https://forum.aspose.com/c/words/8) yardım için.
+Ziyaret edebilirsiniz [Aspose Destek Forumu](https://forum.aspose.com/c/words/8) yardım için.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

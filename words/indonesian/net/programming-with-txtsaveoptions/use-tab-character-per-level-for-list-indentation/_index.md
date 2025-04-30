@@ -1,14 +1,16 @@
 ---
-title: Gunakan Karakter Tab Per Level Untuk Indentasi Daftar
-linktitle: Gunakan Karakter Tab Per Level Untuk Indentasi Daftar
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat daftar bertingkat dengan indentasi tab menggunakan Aspose.Words untuk .NET. Ikuti panduan ini untuk pemformatan daftar yang tepat dalam dokumen Anda.
-weight: 10
-url: /id/net/programming-with-txtsaveoptions/use-tab-character-per-level-for-list-indentation/
+"description": "Pelajari cara membuat daftar bertingkat dengan indentasi tab menggunakan Aspose.Words untuk .NET. Ikuti panduan ini untuk pemformatan daftar yang tepat dalam dokumen Anda."
+"linktitle": "Gunakan Karakter Tab Per Level Untuk Indentasi Daftar"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Gunakan Karakter Tab Per Level Untuk Indentasi Daftar"
+"url": "/id/net/programming-with-txtsaveoptions/use-tab-character-per-level-for-list-indentation/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gunakan Karakter Tab Per Level Untuk Indentasi Daftar
@@ -21,7 +23,7 @@ Daftar sangat penting dalam mengatur konten, baik saat Anda sedang menyusun lapo
 
 Sebelum kita masuk ke langkah-langkahnya, pastikan Anda telah menyiapkan hal-hal berikut:
 
-1.  Aspose.Words untuk .NET Terpasang: Anda memerlukan pustaka Aspose.Words. Jika Anda belum memasangnya, Anda dapat mengunduhnya dari[Unduhan Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET Terpasang: Anda memerlukan pustaka Aspose.Words. Jika Anda belum memasangnya, Anda dapat mengunduhnya dari [Unduhan Aspose](https://releases.aspose.com/words/net/).
 
 2. Pemahaman Dasar tentang C# dan .NET: Keakraban dengan pemrograman C# dan kerangka kerja .NET sangat penting untuk mengikuti tutorial ini.
 
@@ -55,7 +57,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Di sini, kami membuat yang baru`Document` objek dan sebuah`DocumentBuilder` untuk mulai membuat konten dalam dokumen.
+Di sini, kami membuat yang baru `Document` objek dan sebuah `DocumentBuilder` untuk mulai membuat konten dalam dokumen.
 
 ## Langkah 2: Terapkan Pemformatan Daftar Default
 
@@ -73,7 +75,7 @@ Pada langkah ini, kami menerapkan format penomoran default ke daftar kami. Ini a
 Sisipkan Item Daftar dan Indentasi
 
 ```csharp
-//Tambahkan item daftar pertama
+// Tambahkan item daftar pertama
 builder.Write("Element 1");
 
 // Indent untuk membuat level kedua
@@ -85,7 +87,7 @@ builder.ListFormat.ListIndent();
 builder.Write("Element 3");
 ```
 
- Di sini, kami menambahkan tiga elemen ke daftar kami, masing-masing dengan tingkat indentasi yang meningkat.`ListIndent` metode ini digunakan untuk meningkatkan tingkat indentasi untuk setiap item berikutnya.
+Di sini, kami menambahkan tiga elemen ke daftar kami, masing-masing dengan tingkat indentasi yang meningkat. `ListIndent` metode ini digunakan untuk meningkatkan tingkat indentasi untuk setiap item berikutnya.
 
 ## Langkah 4: Konfigurasikan Opsi Penyimpanan
 
@@ -98,7 +100,7 @@ saveOptions.ListIndentation.Count = 1;
 saveOptions.ListIndentation.Character = '\t';
 ```
 
- Kami mengkonfigurasi`TxtSaveOptions` untuk menggunakan karakter tab untuk indentasi dalam file teks yang disimpan.`ListIndentation.Character` properti diatur ke`'\t'`, yang mewakili karakter tab.
+Kami mengkonfigurasi `TxtSaveOptions` untuk menggunakan karakter tab untuk indentasi dalam file teks yang disimpan. `ListIndentation.Character` properti diatur ke `'\t'`, yang mewakili karakter tab.
 
 ## Langkah 5: Simpan Dokumen
 
@@ -109,7 +111,7 @@ Simpan Dokumen dengan Opsi Tertentu
 doc.Save(dataDir + "WorkingWithTxtSaveOptions.UseTabCharacterPerLevelForListIndentation.txt", saveOptions);
 ```
 
- Terakhir, kita simpan dokumen tersebut dengan menggunakan`Save` metode dengan kebiasaan kami`TxtSaveOptions`Ini memastikan bahwa daftar tersebut disimpan dengan karakter tab untuk tingkat indentasi.
+Terakhir, kita simpan dokumen tersebut dengan menggunakan `Save` metode dengan kebiasaan kami `TxtSaveOptions`Ini memastikan bahwa daftar tersebut disimpan dengan karakter tab untuk tingkat indentasi.
 
 ## Kesimpulan
 
@@ -118,22 +120,27 @@ Dalam tutorial ini, kami telah memandu Anda membuat daftar bertingkat dengan ind
 ## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara mengubah karakter indentasi dari tab menjadi spasi?
- Anda dapat mengubah`saveOptions.ListIndentation.Character` properti untuk menggunakan karakter spasi, bukan tab.
+Anda dapat mengubah `saveOptions.ListIndentation.Character` properti untuk menggunakan karakter spasi, bukan tab.
 
 ### Dapatkah saya menerapkan gaya daftar yang berbeda pada tingkatan yang berbeda?
 Ya, Aspose.Words memungkinkan kustomisasi gaya daftar di berbagai tingkatan. Anda dapat mengubah opsi pemformatan daftar untuk mendapatkan gaya yang berbeda.
 
 ### Bagaimana jika saya perlu menerapkan poin-poin, bukan angka?
- Gunakan`ListFormat.ApplyBulletDefault()` metode sebagai pengganti`ApplyNumberDefault()` untuk membuat daftar berpoin.
+Gunakan `ListFormat.ApplyBulletDefault()` metode sebagai pengganti `ApplyNumberDefault()` untuk membuat daftar berpoin.
 
 ### Bagaimana cara menyesuaikan ukuran karakter tab yang digunakan untuk indentasi?
- Sayangnya, ukuran tab di`TxtSaveOptions`sudah diperbaiki. Untuk menyesuaikan ukuran indentasi, Anda mungkin perlu menggunakan spasi atau menyesuaikan format daftar secara langsung.
+Sayangnya, ukuran tab di `TxtSaveOptions` sudah diperbaiki. Untuk menyesuaikan ukuran indentasi, Anda mungkin perlu menggunakan spasi atau menyesuaikan format daftar secara langsung.
 
 ### Dapatkah saya menggunakan pengaturan ini saat mengekspor ke format lain seperti PDF atau DOCX?
 Pengaturan karakter tab tertentu berlaku untuk berkas teks. Untuk format seperti PDF atau DOCX, Anda perlu menyesuaikan opsi pemformatan dalam format tersebut.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

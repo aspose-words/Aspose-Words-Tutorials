@@ -1,14 +1,16 @@
 ---
-title: การเปลี่ยนแปลงการอัปเดตแหล่งวัฒนธรรม
-linktitle: การเปลี่ยนแปลงการอัปเดตแหล่งวัฒนธรรม
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีเปลี่ยนแหล่งที่มาของวัฒนธรรมการอัปเดตฟิลด์ใน Aspose.Words สำหรับ .NET ด้วยคู่มือนี้ ควบคุมการจัดรูปแบบวันที่ตามวัฒนธรรมที่แตกต่างกันได้อย่างง่ายดาย
-weight: 10
-url: /th/net/working-with-fields/change-field-update-culture-source/
+"description": "เรียนรู้วิธีเปลี่ยนแหล่งที่มาของวัฒนธรรมการอัปเดตฟิลด์ใน Aspose.Words สำหรับ .NET ด้วยคู่มือนี้ ควบคุมการจัดรูปแบบวันที่ตามวัฒนธรรมที่แตกต่างกันได้อย่างง่ายดาย"
+"linktitle": "การเปลี่ยนแปลงการอัปเดตแหล่งวัฒนธรรม"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การเปลี่ยนแปลงการอัปเดตแหล่งวัฒนธรรม"
+"url": "/th/net/working-with-fields/change-field-update-culture-source/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การเปลี่ยนแปลงการอัปเดตแหล่งวัฒนธรรม
@@ -21,7 +23,7 @@ url: /th/net/working-with-fields/change-field-update-culture-source/
 
 ก่อนที่เราจะเริ่มต้นเขียนโค้ด โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
--  Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: IDE ที่เข้ากันได้กับ .NET (เช่น Visual Studio)
 - ความรู้พื้นฐานเกี่ยวกับ C#: บทช่วยสอนนี้ถือว่าคุณมีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C#
 
@@ -39,7 +41,7 @@ using Aspose.Words.Fields;
 
 ## ขั้นตอนที่ 1: เริ่มต้นเอกสาร
 
- ขั้นตอนแรกคือการสร้างอินสแตนซ์ใหม่ของ`Document` ชั้นเรียนและก`DocumentBuilder`นี่เป็นการวางรากฐานสำหรับการสร้างและจัดการเอกสาร Word ของเรา
+ขั้นตอนแรกคือการสร้างอินสแตนซ์ใหม่ของ `Document` ชั้นเรียนและก `DocumentBuilder`นี่เป็นการวางรากฐานสำหรับการสร้างและจัดการเอกสาร Word ของเรา
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -60,7 +62,7 @@ builder.InsertField("MERGEFIELD Date2 \\@ \"dddd, d MMMM yyyy\"");
 
 ## ขั้นตอนที่ 3: ตั้งค่าแหล่งที่มาของวัฒนธรรมการอัปเดตภาคสนาม
 
- เพื่อควบคุมวัฒนธรรมที่ใช้ในการอัปเดตฟิลด์ เราจึงตั้งค่า`FieldUpdateCultureSource` ทรัพย์สินของ`FieldOptions`คลาส คุณสมบัตินี้จะกำหนดว่าวัฒนธรรมนั้นนำมาจากโค้ดฟิลด์หรือเอกสาร
+เพื่อควบคุมวัฒนธรรมที่ใช้ในการอัปเดตฟิลด์ เราจึงตั้งค่า `FieldUpdateCultureSource` ทรัพย์สินของ `FieldOptions` คลาส คุณสมบัตินี้จะกำหนดว่าวัฒนธรรมนั้นนำมาจากโค้ดฟิลด์หรือเอกสาร
 
 ```csharp
 doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
@@ -88,23 +90,28 @@ doc.Save(dataDir + "WorkingWithFields.ChangeFieldUpdateCultureSource.docx");
 
 ## คำถามที่พบบ่อย
 
-###  จุดประสงค์ของการตั้งค่าคืออะไร`LocaleId`?
- การ`LocaleId` ระบุการตั้งค่าวัฒนธรรมสำหรับข้อความ ซึ่งมีผลต่อการจัดรูปแบบวันที่และข้อมูลที่ละเอียดอ่อนต่อตำแหน่งอื่น ๆ
+### จุดประสงค์ของการตั้งค่าคืออะไร `LocaleId`-
+การ `LocaleId` ระบุการตั้งค่าวัฒนธรรมสำหรับข้อความ ซึ่งมีผลต่อการจัดรูปแบบวันที่และข้อมูลที่ละเอียดอ่อนต่อตำแหน่งอื่น ๆ
 
 ### ฉันสามารถใช้ภาษาอื่นนอกจากภาษาเยอรมันได้ไหม
- ใช่ คุณสามารถตั้งค่าได้`LocaleId`เป็นรหัสระบุตำแหน่งที่ถูกต้อง เช่น 1033 สำหรับภาษาอังกฤษ (สหรัฐอเมริกา)
+ใช่ คุณสามารถตั้งค่าได้ `LocaleId` เป็นรหัสระบุตำแหน่งที่ถูกต้อง เช่น 1033 สำหรับภาษาอังกฤษ (สหรัฐอเมริกา)
 
-###  จะเกิดอะไรขึ้นถ้าฉันไม่ตั้งค่า`FieldUpdateCultureSource` property?
+### จะเกิดอะไรขึ้นถ้าฉันไม่ตั้งค่า `FieldUpdateCultureSource` คุณสมบัติ?
 ถ้าไม่ได้ตั้งค่าคุณสมบัตินี้ การตั้งค่าวัฒนธรรมเริ่มต้นของเอกสารจะถูกนำมาใช้เมื่อทำการอัปเดตฟิลด์
 
 ### สามารถอัปเดตฟิลด์ตามวัฒนธรรมของเอกสารแทนรหัสฟิลด์ได้หรือไม่
- ใช่ คุณสามารถตั้งค่าได้`FieldUpdateCultureSource` ถึง`FieldUpdateCultureSource.Document` เพื่อใช้การตั้งค่าวัฒนธรรมของเอกสาร
+ใช่ คุณสามารถตั้งค่าได้ `FieldUpdateCultureSource` ถึง `FieldUpdateCultureSource.Document` เพื่อใช้การตั้งค่าวัฒนธรรมของเอกสาร
 
 ### ฉันจะจัดรูปแบบวันที่ในรูปแบบที่แตกต่างกันได้อย่างไร
- คุณสามารถเปลี่ยนรูปแบบรูปแบบวันที่ได้ใน`InsertField` วิธีการโดยการปรับเปลี่ยน`\\@` ค่าสวิตช์
+คุณสามารถเปลี่ยนรูปแบบรูปแบบวันที่ได้ใน `InsertField` วิธีการโดยการปรับเปลี่ยน `\\@` ค่าสวิตช์
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

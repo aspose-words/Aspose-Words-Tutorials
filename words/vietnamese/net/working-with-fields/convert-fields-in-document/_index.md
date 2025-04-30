@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi các trường trong tài liệu
-linktitle: Chuyển đổi các trường trong tài liệu
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chuyển đổi các trường trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn này. Làm theo hướng dẫn của chúng tôi để quản lý và chuyển đổi các trường trong tài liệu của bạn một cách hiệu quả.
-weight: 10
-url: /vi/net/working-with-fields/convert-fields-in-document/
+"description": "Tìm hiểu cách chuyển đổi các trường trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn này. Làm theo hướng dẫn của chúng tôi để quản lý và chuyển đổi các trường trong tài liệu của bạn một cách hiệu quả."
+"linktitle": "Chuyển đổi các trường trong tài liệu"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chuyển đổi các trường trong tài liệu"
+"url": "/vi/net/working-with-fields/convert-fields-in-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi các trường trong tài liệu
@@ -21,7 +23,7 @@ Bạn đang muốn chuyển đổi các trường trong tài liệu Word của m
 
 Trước khi đi sâu vào chi tiết, bạn cần phải có một số điều kiện tiên quyết sau:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Môi trường phát triển như Visual Studio.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ có lợi.
 
@@ -46,7 +48,7 @@ Trong phần này, chúng tôi sẽ chia nhỏ quy trình thành các bước d�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
 
 ## Bước 2: Tải tài liệu
 
@@ -61,7 +63,7 @@ Document doc = new Document(dataDir + "Linked fields.docx");
 Bây giờ, chúng ta sẽ chuyển đổi tất cả các trường IF trong tài liệu thành văn bản. Các trường IF là các trường có điều kiện được sử dụng trong tài liệu Word để chèn văn bản dựa trên các điều kiện nhất định.
 
 ```csharp
-//Truyền các tham số thích hợp để chuyển đổi tất cả các trường IF có trong tài liệu (bao gồm cả đầu trang và chân trang) thành văn bản.
+// Truyền các tham số thích hợp để chuyển đổi tất cả các trường IF có trong tài liệu (bao gồm cả đầu trang và chân trang) thành văn bản.
 doc.Range.Fields.Where(f => f.Type == FieldType.FieldIf).ToList().ForEach(f => f.Unlink());
 ```
 
@@ -83,22 +85,27 @@ Xin chúc mừng! Bạn đã chuyển đổi thành công các trường trong t
 ## Câu hỏi thường gặp
 
 ### Tôi có thể chuyển đổi các loại trường khác bằng Aspose.Words cho .NET không?
- Có, Aspose.Words cho .NET cho phép bạn thao tác nhiều loại trường khác nhau, không chỉ các trường IF. Bạn có thể khám phá[tài liệu](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
+Có, Aspose.Words cho .NET cho phép bạn thao tác nhiều loại trường khác nhau, không chỉ các trường IF. Bạn có thể khám phá [tài liệu](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
 
 ### Trường IF trong tài liệu Word là gì?
 Trường IF là trường có điều kiện hiển thị văn bản dựa trên các điều kiện nhất định. Chúng thường được sử dụng để tạo nội dung động trong tài liệu Word.
 
-### Aspose.Words for .NET có tương thích với mọi phiên bản tài liệu Word không?
+### Aspose.Words for .NET có tương thích với tất cả các phiên bản tài liệu Word không?
 Aspose.Words for .NET hỗ trợ nhiều định dạng tài liệu Word, đảm bảo khả năng tương thích với nhiều phiên bản Microsoft Word khác nhau.
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET để tự động hóa các tác vụ khác trong tài liệu Word không?
 Chắc chắn rồi! Aspose.Words for .NET cung cấp một bộ tính năng phong phú để tự động hóa và xử lý các tài liệu Word, bao gồm định dạng, hợp nhất và nhiều tính năng khác.
 
 ### Tôi có thể tìm thêm hướng dẫn và ví dụ về Aspose.Words cho .NET ở đâu?
- Bạn có thể tìm thêm hướng dẫn và ví dụ trong[Aspose.Words cho tài liệu .NET](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thêm hướng dẫn và ví dụ trong [Aspose.Words cho tài liệu .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

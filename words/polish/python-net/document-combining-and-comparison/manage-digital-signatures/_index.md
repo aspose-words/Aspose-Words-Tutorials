@@ -1,14 +1,16 @@
 ---
-title: Zarządzanie podpisami cyfrowymi i autentycznością
-linktitle: Zarządzanie podpisami cyfrowymi i autentycznością
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Dowiedz się, jak zarządzać podpisami cyfrowymi i zapewnić autentyczność dokumentów za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym.
-weight: 17
-url: /pl/python-net/document-combining-and-comparison/manage-digital-signatures/
+"description": "Dowiedz się, jak zarządzać podpisami cyfrowymi i zapewnić autentyczność dokumentów za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym."
+"linktitle": "Zarządzanie podpisami cyfrowymi i autentycznością"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Zarządzanie podpisami cyfrowymi i autentycznością"
+"url": "/pl/python-net/document-combining-and-comparison/manage-digital-signatures/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zarządzanie podpisami cyfrowymi i autentycznością
@@ -100,12 +102,17 @@ Tak, do jednego dokumentu można dodać wiele podpisów cyfrowych, każdy od inn
 
 Aspose.Words obsługuje certyfikaty X.509, w tym pliki PFX, które są powszechnie stosowane w przypadku podpisów cyfrowych.
 
-### Czy podpisy cyfrowe są ważne pod względem prawnym?
+### Czy podpisy cyfrowe są ważne prawnie?
 
 Tak, podpisy cyfrowe są prawnie wiążące w wielu krajach i często uważa się je za równoważne podpisom odręcznym.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

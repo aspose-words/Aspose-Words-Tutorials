@@ -1,110 +1,117 @@
 ---
-title: Neukládat obrázkovou odrážku
-linktitle: Neukládat obrázkovou odrážku
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak zacházet s obrázkovými odrážkami v Aspose.Words pro .NET pomocí našeho podrobného průvodce. Zjednodušte správu dokumentů a bez námahy vytvářejte profesionální dokumenty Word.
-weight: 10
-url: /cs/net/programming-with-docsaveoptions/do-not-save-picture-bullet/
+"description": "Naučte se, jak pracovat s obrázkovými odrážkami v Aspose.Words pro .NET, s naším podrobným návodem. Zjednodušte si správu dokumentů a bez námahy vytvářejte profesionální dokumenty Word."
+"linktitle": "Neukládat obrázkovou odrážku"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Neukládat obrázkovou odrážku"
+"url": "/cs/net/programming-with-docsaveoptions/do-not-save-picture-bullet/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Neukládat obrázkovou odrážku
 
 ## Zavedení
 
-Ahoj, kolegové vývojáři! Už jste někdy pracovali s dokumenty aplikace Word a ocitli jste se zapleteni do složitostí ukládání obrázkových odrážek? Je to jeden z těch drobných detailů, které mohou mít velký vliv na konečný vzhled vašeho dokumentu. Dnes jsem tu, abych vás provedl procesem zpracování obrázkových odrážek v Aspose.Words pro .NET, zejména se zaměřením na funkci „Neukládat obrázkové odrážky“. Jste připraveni se ponořit? Jdeme na to!
+Ahoj, kolegové vývojáři! Už jste někdy pracovali s dokumenty Word a zamotali se do složitostí ukládání obrázkových odrážek? Je to jeden z těch drobných detailů, které mohou mít velký vliv na konečný vzhled vašeho dokumentu. Dnes vás provedu procesem práce s obrázkovými odrážkami v Aspose.Words pro .NET, se zvláštním zaměřením na funkci „Neukládat obrázkovou odrážku“. Jste připraveni se do toho pustit? Pojďme na to!
 
 ## Předpoklady
 
-Než se pustíme do práce s kódem, je potřeba mít připraveno několik věcí:
+Než začneme s úpravami kódu, je potřeba mít připraveno několik věcí:
 
-1.  Aspose.Words for .NET: Ujistěte se, že máte nainstalovanou tuto výkonnou knihovnu. Pokud ji ještě nemáte, můžete si ji stáhnout[zde](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí: Pracovní vývojové prostředí .NET, jako je Visual Studio.
+1. Aspose.Words pro .NET: Ujistěte se, že máte nainstalovanou tuto výkonnou knihovnu. Pokud ji ještě nemáte, můžete si ji stáhnout. [zde](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí: Funkční vývojové prostředí pro .NET, například Visual Studio.
 3. Základní znalost C#: Určitá znalost programování v C# bude užitečná.
-4. Ukázkový dokument: Dokument aplikace Word s odrážkami obrázků pro účely testování.
+4. Ukázkový dokument: Dokument aplikace Word s obrázkovými odrážkami pro testovací účely.
 
 ## Importovat jmenné prostory
 
-Chcete-li to nastartovat, musíte importovat potřebné jmenné prostory. To je docela jednoduché, ale zásadní pro přístup k funkcím Aspose.Words.
+Abyste mohli začít, musíte importovat potřebné jmenné prostory. To je docela jednoduché, ale klíčové pro přístup k funkcím Aspose.Words.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Pojďme si tento proces rozdělit na zvládnutelné kroky. Tímto způsobem můžete snadno sledovat a porozumět každé části kódu.
+Rozdělme si proces na srozumitelné kroky. Takto budete moci snadno sledovat a porozumět každé části kódu.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Nejprve musíte zadat cestu k adresáři dokumentů. Zde jsou uloženy vaše dokumenty aplikace Word a kam uložíte upravené soubory.
+Nejprve je třeba zadat cestu k adresáři s dokumenty. Zde jsou uloženy vaše dokumenty aplikace Word a kam budete ukládat upravené soubory.
 
 ```csharp
-// Cesta k adresáři vašich dokumentů
+// Cesta k adresáři s vašimi dokumenty
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENTS DIRECTORY"` se skutečnou cestou ve vašem systému, kde jsou umístěny vaše dokumenty.
+Nahradit `"YOUR DOCUMENTS DIRECTORY"` se skutečnou cestou ve vašem systému, kde se vaše dokumenty nacházejí.
 
-## Krok 2: Vložte dokument s obrázkovými odrážkami
+## Krok 2: Načtěte dokument s obrázkovými odrážkami
 
-Dále načtete dokument aplikace Word, který obsahuje odrážky obrázků. Tento dokument bude upraven tak, aby při uložení odstranil odrážky obrázku.
+Dále načtete dokument aplikace Word, který obsahuje obrázkové odrážky. Tento dokument bude při uložení upraven tak, aby z něj byly odrážky odstraněny.
 
 ```csharp
-// Vložte dokument s odrážkami obrázků
+// Načtení dokumentu s obrázkovými odrážkami
 Document doc = new Document(dataDir + "Image bullet points.docx");
 ```
 
- Ujistěte se, že soubor`"Image bullet points.docx"` existuje v zadaném adresáři.
+Ujistěte se, že soubor `"Image bullet points.docx"` existuje v zadaném adresáři.
 
-## Krok 3: Nakonfigurujte možnosti uložení
+## Krok 3: Konfigurace možností ukládání
 
-Nyní nakonfigurujme možnosti ukládání tak, aby bylo možné ukládat odrážky obrázků. Tady se děje kouzlo!
+Nyní nakonfigurujme možnosti ukládání tak, aby se obrázkové odrážky neukládaly. A tady se začne dít ta pravá magie!
 
 ```csharp
-// Nakonfigurujte možnosti uložení pomocí funkce „Neukládat obrázkové odrážky“.
+// Konfigurace možností ukládání pomocí funkce „Neukládat obrázkovou odrážku“
 DocSaveOptions saveOptions = new DocSaveOptions { SavePictureBullet = false };
 ```
 
- Nastavením`SavePictureBullet` na`false`, dáte Aspose.Words pokyn, aby neukládal obrázkové odrážky ve výstupním dokumentu.
+Nastavením `SavePictureBullet` na `false`, instruujete Aspose.Words, aby neukládal obrázkové odrážky do výstupního dokumentu.
 
 ## Krok 4: Uložte dokument
 
-Nakonec uložte dokument se zadanými možnostmi. Tím se vygeneruje nový soubor, ve kterém nejsou zahrnuty odrážky obrázku.
+Nakonec dokument uložte se zadanými možnostmi. Tím se vygeneruje nový soubor, který nebude obsahovat obrázkové odrážky.
 
 ```csharp
-// Uložte dokument se zadanými možnostmi
+// Uložit dokument s danými možnostmi
 doc.Save(dataDir + "WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx", saveOptions);
 ```
 
- Nový soubor,`"WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx"`, bude uložen do adresáře vašich dokumentů.
+Nový soubor, `"WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx"`, bude uloženo do adresáře s dokumenty.
 
 ## Závěr
 
-A tady to máte! Pomocí několika řádků kódu jste úspěšně nakonfigurovali Aspose.Words pro .NET tak, aby při ukládání dokumentu vynechal obrázkové odrážky. To může být neuvěřitelně užitečné, když potřebujete čistý, konzistentní vzhled bez rozptylování obrazovými odrážkami.
+tady to máte! S pouhými několika řádky kódu jste úspěšně nakonfigurovali Aspose.Words pro .NET tak, aby při ukládání dokumentu vynechával obrázkové odrážky. To může být neuvěřitelně užitečné, když potřebujete čistý a konzistentní vzhled bez rušivých obrázkových odrážek.
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
-Aspose.Words for .NET je výkonná knihovna pro vytváření, úpravy a převod dokumentů aplikace Word v aplikacích .NET.
+### Co je Aspose.Words pro .NET?
+Aspose.Words pro .NET je výkonná knihovna pro vytváření, úpravy a převod dokumentů Word v aplikacích .NET.
 
-### Mohu tuto funkci použít pro jiné typy střel?
-Ne, tato specifická funkce je určena pro obrázkové odrážky. Aspose.Words však nabízí rozsáhlé možnosti pro manipulaci s jinými typy odrážek.
+### Mohu tuto funkci použít i pro jiné typy střel?
+Ne, tato specifická funkce je určena pro obrázkové odrážky. Aspose.Words však nabízí rozsáhlé možnosti pro práci s jinými typy odrážek.
 
 ### Kde mohu získat podporu pro Aspose.Words?
- Můžete získat podporu od[Fórum Aspose.Words](https://forum.aspose.com/c/words/8).
+Podporu můžete získat od [Fórum Aspose.Words](https://forum.aspose.com/c/words/8).
 
 ### Existuje bezplatná zkušební verze pro Aspose.Words pro .NET?
- Ano, můžete získat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
+Ano, můžete získat bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
 
-### Jak si koupím licenci pro Aspose.Words for .NET?
- Licenci si můžete zakoupit od[Obchod Aspose](https://purchase.aspose.com/buy).
+### Jak si zakoupím licenci pro Aspose.Words pro .NET?
+Licenci si můžete zakoupit od [Obchod Aspose](https://purchase.aspose.com/buy).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

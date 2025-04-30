@@ -1,14 +1,16 @@
 ---
-title: Cập nhật các trường bẩn trong tài liệu Word
-linktitle: Cập nhật các trường bẩn trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Cập nhật các trường lỗi trong tài liệu Word của bạn một cách dễ dàng bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này.
-weight: 10
-url: /vi/net/programming-with-loadoptions/update-dirty-fields/
+"description": "Cập nhật các trường lỗi trong tài liệu Word của bạn một cách dễ dàng bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này."
+"linktitle": "Cập nhật các trường bẩn trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Cập nhật các trường bẩn trong tài liệu Word"
+"url": "/vi/net/programming-with-loadoptions/update-dirty-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cập nhật các trường bẩn trong tài liệu Word
@@ -20,9 +22,9 @@ Bạn đã bao giờ rơi vào tình huống có một tài liệu Word chứa �
 
 ## Điều kiện tiên quyết
 
-Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn có mọi thứ mình cần:
+Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn có phiên bản mới nhất. Nếu không, bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn có phiên bản mới nhất. Nếu không, bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. .NET Framework: Bất kỳ phiên bản nào tương thích với Aspose.Words.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ có lợi.
 4. Một tài liệu Word mẫu: Một tài liệu có các trường lỗi cần cập nhật.
@@ -98,11 +100,16 @@ Có, Aspose.Words cung cấp tính linh hoạt để cập nhật các trường
 Có, Aspose.Words là một thư viện mạnh mẽ giúp đơn giản hóa quá trình xử lý tài liệu Word theo phương pháp lập trình.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Words ở đâu?
- Kiểm tra các[tài liệu](https://reference.aspose.com/words/net/) để biết hướng dẫn chi tiết và ví dụ.
+Kiểm tra các [tài liệu](https://reference.aspose.com/words/net/) để biết hướng dẫn chi tiết và ví dụ.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

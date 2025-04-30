@@ -1,14 +1,16 @@
 ---
-title: Tỷ lệ khung hình đã khóa
-linktitle: Tỷ lệ khung hình đã khóa
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách khóa tỷ lệ khung hình của hình dạng trong tài liệu Word bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn từng bước này để giữ cho hình ảnh và hình dạng của bạn cân đối.
-weight: 10
-url: /vi/net/programming-with-shapes/aspect-ratio-locked/
+"description": "Tìm hiểu cách khóa tỷ lệ khung hình của hình dạng trong tài liệu Word bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn từng bước này để giữ cho hình ảnh và hình dạng của bạn cân đối."
+"linktitle": "Tỷ lệ khung hình đã khóa"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tỷ lệ khung hình đã khóa"
+"url": "/vi/net/programming-with-shapes/aspect-ratio-locked/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tỷ lệ khung hình đã khóa
@@ -21,7 +23,7 @@ Bạn đã bao giờ tự hỏi làm thế nào để duy trì tỷ lệ hoàn h
 
 Trước khi đi sâu vào mã, chúng ta hãy xem qua những gì bạn cần để bắt đầu:
 
-- Thư viện Aspose.Words cho .NET: Bạn cần cài đặt Aspose.Words cho .NET. Nếu bạn chưa cài đặt, bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+- Thư viện Aspose.Words cho .NET: Bạn cần cài đặt Aspose.Words cho .NET. Nếu bạn chưa cài đặt, bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Đảm bảo bạn đã thiết lập môi trường phát triển .NET. Visual Studio là lựa chọn phổ biến.
 - Kiến thức cơ bản về C#: Có một chút hiểu biết về lập trình C# sẽ rất hữu ích.
 
@@ -36,7 +38,7 @@ using Aspose.Words.Drawing;
 
 ## Bước 1: Thiết lập thư mục tài liệu của bạn
 
- Trước khi bắt đầu thao tác hình dạng, chúng ta cần thiết lập một thư mục nơi các tài liệu của chúng ta sẽ được lưu trữ. Để đơn giản, chúng ta sẽ sử dụng một trình giữ chỗ`YOUR DOCUMENT DIRECTORY`. Thay thế đường dẫn này bằng đường dẫn thực tế tới thư mục tài liệu của bạn.
+Trước khi bắt đầu thao tác hình dạng, chúng ta cần thiết lập một thư mục nơi các tài liệu của chúng ta sẽ được lưu trữ. Để đơn giản, chúng ta sẽ sử dụng một trình giữ chỗ `YOUR DOCUMENT DIRECTORY`. Thay thế đường dẫn này bằng đường dẫn thực tế tới thư mục tài liệu của bạn.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu của bạn
@@ -52,17 +54,17 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Ở đây, chúng ta tạo một thể hiện của`Document` lớp và sử dụng một`DocumentBuilder` để giúp chúng tôi xây dựng nội dung tài liệu.
+Ở đây, chúng ta tạo một thể hiện của `Document` lớp và sử dụng một `DocumentBuilder` để giúp chúng tôi xây dựng nội dung tài liệu.
 
 ## Bước 3: Chèn hình ảnh
 
- Bây giờ, hãy chèn một hình ảnh vào tài liệu của chúng ta. Chúng ta sẽ sử dụng`InsertImage` phương pháp của`DocumentBuilder`lớp. Đảm bảo bạn có hình ảnh trong thư mục đã chỉ định.
+Bây giờ, hãy chèn một hình ảnh vào tài liệu của chúng ta. Chúng ta sẽ sử dụng `InsertImage` phương pháp của `DocumentBuilder` lớp. Đảm bảo bạn có hình ảnh trong thư mục đã chỉ định.
 
 ```csharp
 Shape shape = builder.InsertImage(dataDir + "Transparent background logo.png");
 ```
 
- Thay thế`dataDir + "Transparent background logo.png"` bằng đường dẫn đến tệp hình ảnh của bạn.
+Thay thế `dataDir + "Transparent background logo.png"` bằng đường dẫn đến tệp hình ảnh của bạn.
 
 ## Bước 4: Khóa tỷ lệ khung hình
 
@@ -72,7 +74,7 @@ Sau khi chèn hình ảnh, chúng ta có thể khóa tỷ lệ khung hình của
 shape.AspectRatioLocked = true;
 ```
 
- Cài đặt`AspectRatioLocked` ĐẾN`true` đảm bảo hình ảnh duy trì tỷ lệ khung hình ban đầu.
+Cài đặt `AspectRatioLocked` ĐẾN `true` đảm bảo hình ảnh duy trì tỷ lệ khung hình ban đầu.
 
 ## Bước 5: Lưu tài liệu
 
@@ -89,7 +91,7 @@ Xin chúc mừng! Bạn đã học thành công cách thiết lập tỷ lệ kh
 ## Câu hỏi thường gặp
 
 ### Tôi có thể mở khóa tỷ lệ khung hình sau khi đã khóa không?
-Có, bạn có thể mở khóa tỷ lệ khung hình bằng cách thiết lập`shape.AspectRatioLocked = false`.
+Có, bạn có thể mở khóa tỷ lệ khung hình bằng cách thiết lập `shape.AspectRatioLocked = false`.
 
 ### Điều gì xảy ra nếu tôi thay đổi kích thước hình ảnh có tỷ lệ khung hình cố định?
 Hình ảnh sẽ thay đổi kích thước theo tỷ lệ, vẫn giữ nguyên tỷ lệ chiều rộng/chiều cao ban đầu.
@@ -101,10 +103,15 @@ Chắc chắn rồi! Tính năng khóa tỷ lệ khung hình có thể áp dụn
 Có, Aspose.Words cho .NET hỗ trợ cả .NET Framework và .NET Core.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu toàn diện [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

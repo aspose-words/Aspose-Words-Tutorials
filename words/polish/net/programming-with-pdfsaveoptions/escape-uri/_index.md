@@ -1,14 +1,16 @@
 ---
-title: URI ucieczki w dokumencie PDF
-linktitle: URI ucieczki w dokumencie PDF
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak uciec URI w plikach PDF za pomocą Aspose.Words dla .NET. Ten szczegółowy przewodnik przeprowadzi Cię przez ten proces krok po kroku.
-weight: 10
-url: /pl/net/programming-with-pdfsaveoptions/escape-uri/
+"description": "Dowiedz się, jak uciec URI w plikach PDF za pomocą Aspose.Words dla .NET. Ten szczegółowy przewodnik przeprowadzi Cię przez ten proces krok po kroku."
+"linktitle": "URI ucieczki w dokumencie PDF"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "URI ucieczki w dokumencie PDF"
+"url": "/pl/net/programming-with-pdfsaveoptions/escape-uri/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # URI ucieczki w dokumencie PDF
@@ -21,7 +23,7 @@ Cześć! Czy kiedykolwiek zastanawiałeś się, jak obsługiwać URI podczas zap
 
 Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz najnowszą wersję. Możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz najnowszą wersję. Możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub inne środowisko programistyczne .NET.
 3. Podstawowa wiedza o języku C#: W tym samouczku zakładamy, że posiadasz podstawową wiedzę na temat programowania w języku C#.
 
@@ -45,7 +47,7 @@ Zanim zagłębisz się w kod, ustaw ścieżkę do katalogu dokumentów. To tutaj
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać dokument PDF.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać dokument PDF.
 
 ## Krok 2: Utwórz nowy dokument
 
@@ -56,7 +58,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Tutaj,`Document` to jest Twój nowy dokument Word i`DocumentBuilder` jest klasą pomocniczą, która upraszcza proces tworzenia dokumentów.
+Tutaj, `Document` to jest Twój nowy dokument Word i `DocumentBuilder` jest klasą pomocniczą, która upraszcza proces tworzenia dokumentów.
 
 ## Krok 3: Wstaw hiperłącze
 
@@ -66,7 +68,7 @@ Teraz wstawmy hiperłącze do dokumentu. To hiperłącze będzie przedmiotem nas
 builder.InsertHyperlink("Testlink", "https://www.google.com/search?q= aspose”, false);
 ```
 
- W tej linii,`"Testlink"` jest tekstem wyświetlanym dla hiperłącza, a`"https://www.google.com/search?q= aspose"` jest adresem URL.`false` Parametr wskazuje, że link nie powinien być sformatowany jako hiperłącze (tzn. nie będzie podkreślony i niebieski).
+W tej linii, `"Testlink"` jest tekstem wyświetlanym dla hiperłącza, a `"https://www.google.com/search?q= aspose"` jest adresem URL. `false` Parametr wskazuje, że link nie powinien być sformatowany jako hiperłącze (tzn. nie będzie podkreślony i niebieski).
 
 ## Krok 4: Zapisz dokument jako plik PDF
 
@@ -76,7 +78,7 @@ Na koniec zapisz dokument jako PDF. To tutaj Aspose.Words dba o ucieczkę URI w 
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.EscapeUri.pdf");
 ```
 
- Ten wiersz zapisuje dokument do określonego katalogu pod nazwą pliku`WorkingWithPdfSaveOptions.EscapeUri.pdf`.
+Ten wiersz zapisuje dokument do określonego katalogu pod nazwą pliku `WorkingWithPdfSaveOptions.EscapeUri.pdf`.
 
 ## Wniosek
 
@@ -100,15 +102,20 @@ Oczywiście! Aspose.Words obsługuje różne typy linków, w tym wewnętrzne lin
 
 ### Jak mogę otrzymać bezpłatną wersję próbną Aspose.Words dla .NET?
 
- Możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Możesz otrzymać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację dotyczącą Aspose.Words dla .NET?
 
- Szczegółową dokumentację znajdziesz[Tutaj](https://reference.aspose.com/words/net/).
+Szczegółową dokumentację znajdziesz [Tutaj](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: AI Modeli ile Çalışma
-linktitle: AI Modeli ile Çalışma
-second_title: Aspose.Words Belge İşleme API'si
-description: Belgeleri AI ile özetlemek için Aspose.Words for .NET'i nasıl kullanacağınızı öğrenin. Belge yönetimini geliştirmek için kolay adımlar.
-weight: 10
-url: /tr/net/ai-powered-document-processing/working-with-ai-model/
+"description": "Belgeleri AI ile özetlemek için Aspose.Words for .NET'i nasıl kullanacağınızı öğrenin. Belge yönetimini geliştirmek için kolay adımlar."
+"linktitle": "AI Modeli ile Çalışma"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "AI Modeli ile Çalışma"
+"url": "/tr/net/ai-powered-document-processing/working-with-ai-model/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # AI Modeli ile Çalışma
@@ -21,17 +23,17 @@ Aspose.Words for .NET'in büyüleyici dünyasına hoş geldiniz! Belge yönetimi
 
 Kolları sıvayıp kodlamaya başlamadan önce, elinizde olması gereken birkaç temel şey var:
 
-1. Visual Studio Kurulu: Makinenizde Visual Studio'nun kurulu olduğundan emin olun. Zaten yüklü değilse ücretsiz olarak indirebilirsiniz.
+1. Visual Studio Kurulu: Bilgisayarınızda Visual Studio'nun kurulu olduğundan emin olun. Zaten yüklü değilse ücretsiz olarak indirebilirsiniz.
   
 2. .NET Framework: Aspose.Words için .NET Framework'ün uyumlu bir sürümünü kullandığınızdan emin olun. Hem .NET Framework'ü hem de .NET Core'u destekler.
 
-3.  .NET için Aspose.Words: Aspose.Words'ü indirip yüklemeniz gerekecek. En son sürümü edinebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+3. .NET için Aspose.Words: Aspose.Words'ü indirip yüklemeniz gerekecek. En son sürümü edinebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 
 4. AI Modelleri için Bir API Anahtarı: AI özetini kullanmak için bir AI modeline erişmeniz gerekir. API anahtarınızı OpenAI veya Google gibi platformlardan alın.
 
 5. Temel C# Bilgisi: Bu eğitimden en iyi şekilde faydalanmak için C# programlamanın temellerine dair bir anlayışa sahip olmak gerekir.
 
-Her şeyi aldınız mı? Harika! Eğlenceli kısma geçelim - gerekli paketlerimizi içe aktaralım.
+Her şey hazır mı? Harika! Eğlenceli kısma geçelim - gerekli paketlerimizi içe aktaralım.
 
 ## Paketleri İçe Aktar
 
@@ -72,11 +74,11 @@ string MyDir = "YOUR_DOCUMENT_DIRECTORY";
 string ArtifactsDir = "YOUR_ARTIFACTS_DIRECTORY";
 ```
 
--  Burada, değiştirin`YOUR_DOCUMENT_DIRECTORY` belgelerinizin saklandığı yer ve`YOUR_ARTIFACTS_DIRECTORY` özetlenen dosyaları kaydetmek istediğiniz yer.
+- Burada, değiştirin `YOUR_DOCUMENT_DIRECTORY` belgelerinizin saklandığı yer ve `YOUR_ARTIFACTS_DIRECTORY` özetlenen dosyaları kaydetmek istediğiniz yer.
 
 ## Adım 2: Belgeleri Yükleyin
 
-Sonra özetlemek istediğimiz belgeleri programımıza yükleyeceğiz. Bu çocuk oyuncağı! İşte nasıl:
+Daha sonra özetlemek istediğimiz belgeleri programımıza yükleyeceğiz. Bu çocuk oyuncağı! İşte nasıl:
 
 ```csharp
 Document firstDoc = new Document(MyDir + "Big document.docx");
@@ -137,10 +139,15 @@ Evet! Aspose.Words, DOCX, RTF ve HTML dahil olmak üzere çeşitli dosya biçiml
 Aspose, özelliklerini test etmenize olanak tanıyan ücretsiz bir deneme sunuyor. Bunu sitelerinden indirebilirsiniz.
 
 ### Aspose.Words için daha fazla kaynağı nerede bulabilirim?
- Belgeleri kontrol edebilirsiniz[Burada](https://reference.aspose.com/words/net/) Kapsamlı rehberler ve içgörüler için.
+Belgeleri kontrol edebilirsiniz [Burada](https://reference.aspose.com/words/net/) Kapsamlı rehberler ve içgörüler için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

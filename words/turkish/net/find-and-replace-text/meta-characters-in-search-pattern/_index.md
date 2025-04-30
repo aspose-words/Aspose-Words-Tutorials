@@ -1,14 +1,16 @@
 ---
-title: Arama Desenindeki Meta Karakterler
-linktitle: Arama Desenindeki Meta Karakterler
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım kılavuzda Aspose.Words for .NET ile arama kalıplarında meta karakterlerin nasıl kullanılacağını öğrenin. Belge işlemenizi optimize edin.
-weight: 10
-url: /tr/net/find-and-replace-text/meta-characters-in-search-pattern/
+"description": "Bu ayrıntılı, adım adım kılavuzda Aspose.Words for .NET ile arama kalıplarında meta karakterlerin nasıl kullanılacağını öğrenin. Belge işlemenizi optimize edin."
+"linktitle": "Arama Desenindeki Meta Karakterler"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Arama Desenindeki Meta Karakterler"
+"url": "/tr/net/find-and-replace-text/meta-characters-in-search-pattern/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Arama Desenindeki Meta Karakterler
@@ -21,7 +23,7 @@ Aspose.Words for .NET, Word belgelerini programatik olarak işlemek için güçl
 
 Koda geçmeden önce her şeyin ayarlandığından emin olalım:
 
-1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Bunu şuradan indirebilirsiniz:[Aspose Sürüm Sayfası](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Bunu şuradan indirebilirsiniz: [Aspose Sürüm Sayfası](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir C# geliştirme ortamı.
 3. Temel C# Bilgisi: C# programlama temellerinin anlaşılması faydalı olacaktır.
 
@@ -45,7 +47,7 @@ Belgeyi düzenlemeye başlamadan önce, belge dizininize giden yolu tanımlaman�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` Belgelerinizi kaydetmek istediğiniz gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` Belgelerinizi kaydetmek istediğiniz gerçek yol ile.
 
 ## Adım 2: Yeni Bir Belge Oluşturma
 
@@ -67,7 +69,7 @@ builder.Writeln("This is Line 2");
 
 ## Adım 4: Paragraf Sonu Meta Karakterini Kullanarak Metni Değiştirme
 
-Meta karakterler paragraflar, sekmeler ve satır sonları gibi çeşitli öğeleri temsil edebilir. Burada,`&p` Bir paragraf sonunu temsil etmek için.
+Meta karakterler paragraflar, sekmeler ve satır sonları gibi çeşitli öğeleri temsil edebilir. Burada, `&p` Bir paragraf sonunu temsil etmek için.
 
 ```csharp
 doc.Range.Replace("This is Line 1&pThis is Line 2", "This is replaced line");
@@ -86,7 +88,7 @@ builder.Writeln("This is Line 2");
 
 ## Adım 6: Manuel Satır Sonu Meta Karakterini Kullanarak Metni Değiştirme
 
- Şimdi şunu kullanacağız:`&m` Manuel satır sonunu temsil etmek için meta karakterini kullanın ve metni buna göre değiştirin.
+Şimdi şunu kullanacağız: `&m` Manuel satır sonunu temsil etmek için meta karakterini kullanın ve metni buna göre değiştirin.
 
 ```csharp
 doc.Range.Replace("This is Line 1&mThis is Line 2", "Page break is replaced with new text.");
@@ -110,19 +112,24 @@ Tebrikler! Aspose.Words for .NET ile arama kalıplarında meta karakterler kulla
 Meta karakterler, arama kalıplarında paragraf sonları, manuel satır sonları, sekmeler vb. gibi öğeleri temsil etmek için kullanılan özel karakterlerdir.
 
 ### Aspose.Words for .NET'i nasıl yüklerim?
- Bunu şuradan indirebilirsiniz:[Aspose Sürüm Sayfası](https://releases.aspose.com/words/net/). Verilen kurulum talimatlarını izleyin.
+Bunu şuradan indirebilirsiniz: [Aspose Sürüm Sayfası](https://releases.aspose.com/words/net/). Verilen kurulum talimatlarını izleyin.
 
 ### Aspose.Words for .NET'i diğer programlama dilleriyle birlikte kullanabilir miyim?
 Aspose.Words for .NET, özellikle C# gibi .NET dilleri için tasarlanmıştır. Ancak, Aspose diğer platformlar için de kütüphaneler sağlar.
 
 ### Aspose.Words for .NET için geçici lisansı nasıl alabilirim?
- Geçici lisansı şuradan alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
+Geçici lisansı şuradan alabilirsiniz: [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words for .NET için daha detaylı dokümanları nerede bulabilirim?
- Kapsamlı belgeleri şurada bulabilirsiniz:[Aspose Belgeleme Sayfası](https://reference.aspose.com/words/net/).
+Kapsamlı belgeleri şurada bulabilirsiniz: [Aspose Belgeleme Sayfası](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: लेखक फ़ील्ड डालें
-linktitle: लेखक फ़ील्ड डालें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: हमारे चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में लेखक फ़ील्ड सम्मिलित करना सीखें। दस्तावेज़ निर्माण को स्वचालित करने के लिए बिल्कुल सही।
-weight: 10
-url: /hi/net/working-with-fields/insert-author-field/
+"description": "हमारे चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में लेखक फ़ील्ड सम्मिलित करना सीखें। दस्तावेज़ निर्माण को स्वचालित करने के लिए बिल्कुल सही।"
+"linktitle": "लेखक फ़ील्ड डालें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "लेखक फ़ील्ड डालें"
+"url": "/hi/net/working-with-fields/insert-author-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # लेखक फ़ील्ड डालें
@@ -21,7 +23,7 @@ url: /hi/net/working-with-fields/insert-author-field/
 
 ट्यूटोरियल में जाने से पहले, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
--  .NET लाइब्रेरी के लिए Aspose.Words: आप कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+- .NET लाइब्रेरी के लिए Aspose.Words: आप कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 - विजुअल स्टूडियो: यह वह जगह है जहाँ हम अपना कोड लिखेंगे और चलाएंगे।
 - .NET फ्रेमवर्क: सुनिश्चित करें कि यह आपकी मशीन पर स्थापित है।
 - C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको आगे बढ़ने में मदद मिलेगी।
@@ -41,7 +43,7 @@ using Aspose.Words.Fields;
 
 ## चरण 1: अपना प्रोजेक्ट सेट करें
 
-शुरू करने के लिए, हमें Visual Studio में एक नया प्रोजेक्ट सेट अप करना होगा। यदि आपके पास पहले से ही कोई प्रोजेक्ट है, तो आप इस चरण को छोड़ सकते हैं।
+शुरू करने के लिए, हमें Visual Studio में एक नया प्रोजेक्ट सेट अप करना होगा। यदि आपके पास पहले से कोई प्रोजेक्ट है, तो आप इस चरण को छोड़ सकते हैं।
 
 ### एक नया प्रोजेक्ट बनाएं
 
@@ -66,7 +68,7 @@ using Aspose.Words.Fields;
 
 ### दस्तावेज़ बनाएँ और आरंभ करें
 
-1.  नया दस्तावेज़ बनाएँ: हम एक नया उदाहरण बनाकर शुरू करेंगे`Document` कक्षा।
+1. नया दस्तावेज़ बनाएँ: हम एक नया उदाहरण बनाकर शुरू करेंगे `Document` कक्षा।
 
 ```csharp
 Document doc = new Document();
@@ -86,7 +88,7 @@ Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
 ### लेखक फ़ील्ड जोड़ें
 
-1.  फ़ील्ड डालें: का उपयोग करें`AppendField` पैराग्राफ में लेखक फ़ील्ड सम्मिलित करने की विधि.
+1. फ़ील्ड डालें: का उपयोग करें `AppendField` पैराग्राफ में लेखक फ़ील्ड सम्मिलित करने की विधि.
 
 ```csharp
 FieldAuthor field = (FieldAuthor)para.AppendField(FieldType.FieldAuthor, false);
@@ -116,7 +118,7 @@ field.Update();
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
-2.  दस्तावेज़ सहेजें: का उपयोग करें`Save` अपने दस्तावेज़ को सहेजने की विधि.
+2. दस्तावेज़ सहेजें: का उपयोग करें `Save` अपने दस्तावेज़ को सहेजने की विधि.
 
 ```csharp
 doc.Save(dataDir + "InsertionAuthorField.docx");
@@ -136,22 +138,27 @@ doc.Save(dataDir + "InsertionAuthorField.docx");
 
 ### क्या .NET के लिए Aspose.Words का उपयोग निःशुल्क है?
 
-Aspose.Words निःशुल्क परीक्षण प्रदान करता है, लेकिन पूर्ण सुविधाओं और व्यावसायिक उपयोग के लिए, आपको लाइसेंस खरीदना होगा। आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+Aspose.Words निःशुल्क परीक्षण प्रदान करता है, लेकिन पूर्ण सुविधाओं और व्यावसायिक उपयोग के लिए, आपको लाइसेंस खरीदना होगा। आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### मैं लेखक का नाम गतिशील रूप से कैसे अद्यतन करूँ?
 
- आप सेट कर सकते हैं`AuthorName` डेटाबेस या उपयोगकर्ता इनपुट से एक चर या मान निर्दिष्ट करके संपत्ति को गतिशील रूप से बदलें।
+आप सेट कर सकते हैं `AuthorName` डेटाबेस या उपयोगकर्ता इनपुट से एक चर या मान निर्दिष्ट करके संपत्ति को गतिशील रूप से बदलें।
 
 ### क्या मैं Aspose.Words का उपयोग करके अन्य प्रकार के फ़ील्ड जोड़ सकता हूँ?
 
- हां, Aspose.Words विभिन्न फ़ील्ड प्रकारों का समर्थन करता है, जिसमें दिनांक, समय, पृष्ठ संख्या और बहुत कुछ शामिल है।[प्रलेखन](https://reference.aspose.com/words/net/) जानकारी के लिए।
+हां, Aspose.Words विभिन्न फ़ील्ड प्रकारों का समर्थन करता है, जिसमें दिनांक, समय, पृष्ठ संख्या और बहुत कुछ शामिल है। [प्रलेखन](https://reference.aspose.com/words/net/) जानकारी के लिए।
 
 ### यदि मुझे कोई समस्या आती है तो मैं सहायता कहां से प्राप्त कर सकता हूं?
 
- आप Aspose.Words फ़ोरम पर सहायता पा सकते हैं[यहाँ](https://forum.aspose.com/c/words/8).
+आप Aspose.Words फ़ोरम पर सहायता पा सकते हैं [यहाँ](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

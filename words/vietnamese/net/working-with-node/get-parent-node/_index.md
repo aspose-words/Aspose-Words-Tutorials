@@ -1,14 +1,16 @@
 ---
-title: Nhận nút cha
-linktitle: Nhận nút cha
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách lấy nút cha của phần tài liệu bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này.
-weight: 10
-url: /vi/net/working-with-node/get-parent-node/
+"description": "Tìm hiểu cách lấy nút cha của phần tài liệu bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này."
+"linktitle": "Nhận nút cha"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Nhận nút cha"
+"url": "/vi/net/working-with-node/get-parent-node/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận nút cha
@@ -21,10 +23,10 @@ Bạn đã bao giờ tự hỏi làm thế nào để thao tác các nút tài l
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập mọi thứ:
 
--  Aspose.Words cho .NET: Tải xuống và cài đặt từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Tải xuống và cài đặt từ [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác tương thích với .NET.
 - Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ có lợi.
--  Giấy phép tạm thời: Để có đầy đủ chức năng mà không bị giới hạn, hãy lấy giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+- Giấy phép tạm thời: Để có đầy đủ chức năng mà không bị giới hạn, hãy lấy giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập không gian tên
 
@@ -43,7 +45,7 @@ Hãy bắt đầu bằng cách tạo một tài liệu mới. Đây sẽ là sâ
 Document doc = new Document();
 ```
 
- Ở đây, chúng tôi đã khởi tạo một phiên bản mới của`Document` lớp học. Hãy coi đây như một trang giấy trắng của bạn.
+Ở đây, chúng tôi đã khởi tạo một phiên bản mới của `Document` lớp học. Hãy coi đây như một trang giấy trắng của bạn.
 
 ## Bước 2: Truy cập nút con đầu tiên
 
@@ -84,10 +86,15 @@ Mặc dù chủ yếu được thiết kế cho .NET, bạn có thể sử dụn
 Có, để có đầy đủ chức năng, bạn cần có giấy phép. Bạn có thể bắt đầu bằng bản dùng thử miễn phí hoặc giấy phép tạm thời để đánh giá.
 
 ### Tôi có thể tìm tài liệu chi tiết hơn ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu toàn diện [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

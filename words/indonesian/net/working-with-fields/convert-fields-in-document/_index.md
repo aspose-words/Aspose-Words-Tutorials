@@ -1,14 +1,16 @@
 ---
-title: Konversi Bidang Dalam Dokumen
-linktitle: Konversi Bidang Dalam Dokumen
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengonversi kolom dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan ini. Ikuti tutorial kami untuk mengelola dan mengubah kolom dalam dokumen Anda secara efisien.
-weight: 10
-url: /id/net/working-with-fields/convert-fields-in-document/
+"description": "Pelajari cara mengonversi kolom dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan ini. Ikuti tutorial kami untuk mengelola dan mengubah kolom dalam dokumen Anda secara efisien."
+"linktitle": "Konversi Bidang Dalam Dokumen"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Konversi Bidang Dalam Dokumen"
+"url": "/id/net/working-with-fields/convert-fields-in-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konversi Bidang Dalam Dokumen
@@ -21,7 +23,7 @@ Apakah Anda ingin mengonversi kolom dalam dokumen Word dengan mudah? Anda berada
 
 Sebelum kita membahas detailnya, ada beberapa prasyarat yang perlu Anda penuhi:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan seperti Visual Studio.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan bermanfaat.
 
@@ -46,7 +48,7 @@ Pertama, Anda perlu menentukan jalur ke direktori dokumen Anda. Di sinilah dokum
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda.
 
 ## Langkah 2: Muat Dokumen
 
@@ -61,7 +63,7 @@ Document doc = new Document(dataDir + "Linked fields.docx");
 Sekarang, kita akan mengonversi semua kolom IF dalam dokumen menjadi teks. Kolom IF adalah kolom bersyarat yang digunakan dalam dokumen Word untuk menyisipkan teks berdasarkan kondisi tertentu.
 
 ```csharp
-//Berikan parameter yang sesuai untuk mengubah semua bidang IF yang ditemukan dalam dokumen (termasuk header dan footer) menjadi teks.
+// Berikan parameter yang sesuai untuk mengubah semua bidang IF yang ditemukan dalam dokumen (termasuk header dan footer) menjadi teks.
 doc.Range.Fields.Where(f => f.Type == FieldType.FieldIf).ToList().ForEach(f => f.Unlink());
 ```
 
@@ -83,7 +85,7 @@ Selamat! Anda telah berhasil mengonversi kolom dalam dokumen Word menggunakan As
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya mengonversi jenis bidang lain menggunakan Aspose.Words untuk .NET?
- Ya, Aspose.Words untuk .NET memungkinkan Anda memanipulasi berbagai jenis bidang, tidak hanya bidang IF. Anda dapat menjelajahi[dokumentasi](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
+Ya, Aspose.Words untuk .NET memungkinkan Anda memanipulasi berbagai jenis bidang, tidak hanya bidang IF. Anda dapat menjelajahi [dokumentasi](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
 
 ### Apa itu kolom IF dalam dokumen Word?
 Kolom IF adalah kolom bersyarat yang menampilkan teks berdasarkan kondisi tertentu. Kolom ini sering digunakan untuk membuat konten dinamis dalam dokumen Word.
@@ -95,10 +97,15 @@ Aspose.Words untuk .NET mendukung berbagai format dokumen Word, memastikan kompa
 Tentu saja! Aspose.Words untuk .NET menyediakan serangkaian fitur lengkap untuk mengotomatiskan dan memanipulasi dokumen Word, termasuk pemformatan, penggabungan, dan banyak lagi.
 
 ### Di mana saya dapat menemukan lebih banyak tutorial dan contoh untuk Aspose.Words untuk .NET?
- Anda dapat menemukan lebih banyak tutorial dan contoh di[Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+Anda dapat menemukan lebih banyak tutorial dan contoh di [Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

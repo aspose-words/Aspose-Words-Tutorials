@@ -1,14 +1,16 @@
 ---
-title: Basit Ek Belgesi
-linktitle: Basit Ek Belgesi
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kapsamlı, adım adım kılavuzda, Aspose.Words for .NET'i kullanarak bir Word belgesini diğerine nasıl ekleyeceğinizi öğrenin.
-weight: 10
-url: /tr/net/join-and-append-documents/simple-append-document/
+"description": "Bu kapsamlı, adım adım kılavuzda, Aspose.Words for .NET'i kullanarak bir Word belgesini diğerine nasıl ekleyeceğinizi öğrenin."
+"linktitle": "Basit Ek Belgesi"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Basit Ek Belgesi"
+"url": "/tr/net/join-and-append-documents/simple-append-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Basit Ek Belgesi
@@ -21,7 +23,7 @@ Merhaba! Hiç iki Word belgesini kusursuz bir şekilde birleştirmeniz gerektiğ
 
 Koda geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  .NET için Aspose.Words: Eğer henüz indirmediyseniz, kütüphaneyi şu adresten indirin:[Burada](https://releases.aspose.com/words/net/).
+1. .NET için Aspose.Words: Eğer henüz indirmediyseniz, kütüphaneyi şu adresten indirin: [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir .NET uyumlu IDE'yi kullanabilirsiniz.
 3. Temel C# Bilgisi: Bu eğitimde C# programlama hakkında temel bir anlayışa sahip olduğunuzu varsayıyoruz.
 4. İki Word Belgesi: Birleştirilmeye hazır iki Word belgenizin olduğundan emin olun.
@@ -39,10 +41,10 @@ using Aspose.Words.Saving;
 
 ## Adım 1: Projenizi Kurun
 
-Koda dalmadan önce projenizin doğru şekilde kurulduğundan emin olun. İşte hızlı bir kontrol listesi:
+Koda dalmadan önce, projenizin doğru şekilde kurulduğundan emin olun. İşte hızlı bir kontrol listesi:
 
 1. Yeni Bir Proje Oluşturun: Visual Studio'yu açın ve yeni bir Konsol Uygulaması projesi oluşturun.
-2.  Aspose.Words Referansı Ekle: Aspose.Words kütüphanesini indirip projenize ekleyin. Bunu NuGet Paket Yöneticisi aracılığıyla arayarak yapabilirsiniz`Aspose.Words`.
+2. Aspose.Words Referansı Ekle: Aspose.Words kütüphanesini indirip projenize ekleyin. Bunu NuGet Paket Yöneticisi aracılığıyla arayarak yapabilirsiniz `Aspose.Words`.
 
 ```csharp
 Install-Package Aspose.Words
@@ -56,7 +58,7 @@ Install-Package Aspose.Words
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` Belgelerinize giden gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` Belgelerinize giden gerçek yol ile.
 
 ## Adım 3: Kaynak Belgeyi Yükle
 
@@ -66,7 +68,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document srcDoc = new Document(dataDir + "Document source.docx");
 ```
 
- Burada yeni bir şey yaratıyoruz`Document` nesnesini seçin ve dizininizden "Belge kaynağı.docx" adlı dosyayı yükleyin.
+Burada yeni bir şey yaratıyoruz `Document` nesnesini seçin ve dizininizden "Belge kaynağı.docx" adlı dosyayı yükleyin.
 
 ## Adım 4: Hedef Belgeyi Yükleyin
 
@@ -76,19 +78,19 @@ Benzer şekilde, kaynak belgeyi eklemek istediğiniz belgeyi yükleyin. Bu sizin
 Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 ```
 
- Tekrar yeni bir şey yaratıyoruz`Document` nesnesini seçin ve dizininizden "Northwind traders.docx" adlı dosyayı yükleyin.
+Tekrar yeni bir şey yaratıyoruz `Document` nesnesini seçin ve dizininizden "Northwind traders.docx" adlı dosyayı yükleyin.
 
 ## Adım 5: Kaynak Belgeyi Ekleyin
 
- İşte sihir burada gerçekleşiyor! Kaynak belgeyi hedef belgeye şunu kullanarak ekleyeceğiz:`AppendDocument` yöntem.
+İşte sihir burada gerçekleşiyor! Kaynak belgeyi hedef belgeye şunu kullanarak ekleyeceğiz: `AppendDocument` yöntem.
 
 ```csharp
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
- The`AppendDocument` metod iki parametre alır:
+The `AppendDocument` metod iki parametre alır:
 1. Kaynak Belge: Eklemek istediğiniz belge.
-2.  İçe Aktarma Biçim Modu: Bu parametre biçimlendirmenin nasıl işleneceğini belirler. Burada, şunu kullanıyoruz`KeepSourceFormatting` kaynak belgenin biçimlendirmesini korumak için.
+2. İçe Aktarma Biçim Modu: Bu parametre biçimlendirmenin nasıl işleneceğini belirler. Burada, şunu kullanıyoruz `KeepSourceFormatting` kaynak belgenin biçimlendirmesini korumak için.
 
 ## Adım 6: Birleştirilmiş Belgeyi Kaydedin
 
@@ -108,15 +110,15 @@ Ve işte oldu! Aspose.Words for .NET kullanarak bir Word belgesini diğerine ba�
 
 ### Bu yöntemi kullanarak birden fazla belgeyi ekleyebilir miyim?
 
- Kesinlikle! Tekrar tekrar çağırarak ihtiyacınız olan kadar belge ekleyebilirsiniz.`AppendDocument` Farklı kaynak belgelerle yöntem.
+Kesinlikle! Tekrar tekrar çağırarak ihtiyacınız olan kadar belge ekleyebilirsiniz. `AppendDocument` Farklı kaynak belgelerle yöntem.
 
 ### Belgelerimin formatı farklıysa ne olur?
 
- Biçimlendirmenin nasıl işleneceğini kontrol etmek için şunu kullanabilirsiniz:`ImportFormatMode` parametre. Seçenekler şunları içerir`KeepSourceFormatting`, `UseDestinationStyles`ve daha fazlası.
+Biçimlendirmenin nasıl işleneceğini kontrol etmek için şunu kullanabilirsiniz: `ImportFormatMode` parametre. Seçenekler şunları içerir `KeepSourceFormatting`, `UseDestinationStyles`ve daha fazlası.
 
 ### Aspose.Words'ü kullanmak ücretsiz mi?
 
- Aspose.Words, indirebileceğiniz ücretsiz bir deneme sürümü sunuyor[Burada](https://releases.aspose.com/) Tam işlevsellik için, şu adresten bir lisans satın almanız gerekir:[Burada](https://purchase.aspose.com/buy).
+Aspose.Words, indirebileceğiniz ücretsiz bir deneme sürümü sunuyor [Burada](https://releases.aspose.com/)Tam işlevsellik için, şu adresten bir lisans satın almanız gerekir: [Burada](https://purchase.aspose.com/buy).
 
 ### Farklı formatlardaki belgeleri ekleyebilir miyim?
 
@@ -136,9 +138,14 @@ catch (Exception ex)
     Console.WriteLine("An error occurred: " + ex.Message);
 }
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

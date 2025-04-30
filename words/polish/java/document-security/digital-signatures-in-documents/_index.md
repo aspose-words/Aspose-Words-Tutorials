@@ -1,14 +1,16 @@
 ---
-title: Podpisy cyfrowe w dokumentach
-linktitle: Podpisy cyfrowe w dokumentach
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak wdrożyć bezpieczne podpisy cyfrowe w dokumentach za pomocą Aspose.Words for Java. Zapewnij integralność dokumentu dzięki wskazówkom krok po kroku i kodowi źródłowemu
-weight: 13
-url: /pl/java/document-security/digital-signatures-in-documents/
+"description": "Dowiedz się, jak wdrożyć bezpieczne podpisy cyfrowe w dokumentach za pomocą Aspose.Words for Java. Zapewnij integralność dokumentu dzięki wskazówkom krok po kroku i kodowi źródłowemu"
+"linktitle": "Podpisy cyfrowe w dokumentach"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Podpisy cyfrowe w dokumentach"
+"url": "/pl/java/document-security/digital-signatures-in-documents/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Podpisy cyfrowe w dokumentach
@@ -21,13 +23,13 @@ naszym coraz bardziej cyfrowym świecie potrzeba bezpiecznego i weryfikowalnego 
 
 Zanim przejdziemy do szczegółów dodawania podpisów cyfrowych, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
 
-1.  Java Development Kit (JDK): Upewnij się, że masz zainstalowany JDK na swoim komputerze. Możesz go pobrać ze strony[Strona internetowa Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+1. Java Development Kit (JDK): Upewnij się, że masz zainstalowany JDK na swoim komputerze. Możesz go pobrać ze strony [Strona internetowa Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 
-2.  Aspose.Words dla Javy: Będziesz potrzebować biblioteki Aspose.Words. Możesz ją pobrać z[strona wydania](https://releases.aspose.com/words/java/).
+2. Aspose.Words dla Javy: Będziesz potrzebować biblioteki Aspose.Words. Możesz ją pobrać ze strony [strona wydania](https://releases.aspose.com/words/java/).
 
 3. Edytor kodu: Użyj dowolnego edytora kodu lub środowiska IDE (np. IntelliJ IDEA, Eclipse lub NetBeans), aby napisać kod Java.
 
-4.  Certyfikat cyfrowy: Aby podpisywać dokumenty, będziesz potrzebować certyfikatu cyfrowego w formacie PFX. Jeśli go nie masz, możesz utworzyć tymczasową licencję z[Strona tymczasowej licencji Aspose](https://purchase.aspose.com/temporary-license/).
+4. Certyfikat cyfrowy: Aby podpisywać dokumenty, będziesz potrzebować certyfikatu cyfrowego w formacie PFX. Jeśli go nie masz, możesz utworzyć tymczasową licencję z [Strona tymczasowej licencji Aspose](https://purchase.aspose.com/temporary-license/).
 
 5. Podstawowa wiedza na temat języka Java: Znajomość programowania w języku Java pomoże Ci zrozumieć fragmenty kodu, z którymi będziemy pracować.
 
@@ -54,12 +56,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
--  Tworzymy nową instancję`Document` obiekt, który reprezentuje nasz dokument Word.
--  Ten`DocumentBuilder` jest potężnym narzędziem, które pomaga nam w łatwym tworzeniu i modyfikowaniu dokumentów.
+- Tworzymy nową instancję `Document` obiekt, który reprezentuje nasz dokument Word.
+- Ten `DocumentBuilder` jest potężnym narzędziem, które pomaga nam w łatwym tworzeniu i modyfikowaniu dokumentów.
 
 ## Krok 2: Skonfiguruj opcje wiersza podpisu
 
-Następnie skonfigurujemy opcje dla naszej linii podpisu. Tutaj definiujesz, kto podpisuje, jego stanowisko i inne istotne szczegóły.
+Następnie skonfigurujemy opcje dla naszej linii podpisu. Tutaj definiujesz, kto podpisuje, jego tytuł i inne istotne szczegóły.
 
 ```java
 SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
@@ -74,18 +76,18 @@ SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
 }
 ```
  
--  Tutaj tworzymy instancję`SignatureLineOptions` i ustaw różne parametry, takie jak imię i nazwisko sygnatariusza, tytuł, adres e-mail i instrukcje. Ta personalizacja zapewnia, że linia podpisu jest jasna i informacyjna.
+- Tutaj tworzymy instancję `SignatureLineOptions` i ustaw różne parametry, takie jak imię i nazwisko sygnatariusza, tytuł, adres e-mail i instrukcje. Ta personalizacja zapewnia, że linia podpisu jest jasna i informacyjna.
 
 ## Krok 3: Wstaw linię podpisu
 
-Teraz, gdy mamy już skonfigurowane wszystkie opcje, czas wstawić do dokumentu linię podpisu.
+Teraz gdy mamy już skonfigurowane wszystkie opcje, czas wstawić do dokumentu linię podpisu.
 
 ```java
 SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).getSignatureLine();
 signatureLine.setProviderId(UUID.fromString("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2"));
 ```
  
--  Używamy`insertSignatureLine` metoda`DocumentBuilder` aby dodać linię podpisu do naszego dokumentu.`getSignatureLine()` Metoda pobiera utworzoną linię podpisu, którą możemy dalej modyfikować.
+- Używamy `insertSignatureLine` metoda `DocumentBuilder` aby dodać linię podpisu do naszego dokumentu. `getSignatureLine()` Metoda pobiera utworzoną linię podpisu, którą możemy dalej modyfikować.
 - Ustawiliśmy również unikalny identyfikator dostawcy dla wiersza podpisu, co pomaga w identyfikacji dostawcy podpisu.
 
 ## Krok 4: Zapisz dokument
@@ -96,7 +98,7 @@ Zanim podpiszemy dokument, zapiszmy go w wybranym przez nas miejscu.
 doc.save(getArtifactsDir() + "SignDocuments.SignatureLineProviderId.docx");
 ```
  
--  Ten`save` metoda jest używana do zapisania dokumentu z wstawioną linią podpisu. Upewnij się, że zastąpiłeś`getArtifactsDir()` z rzeczywistą ścieżką, pod którą chcesz zapisać dokument.
+- Ten `save` metoda jest używana do zapisania dokumentu z wstawioną linią podpisu. Upewnij się, że zastąpiłeś `getArtifactsDir()` z rzeczywistą ścieżką, pod którą chcesz zapisać dokument.
 
 ## Krok 5: Skonfiguruj opcje znaku
 
@@ -112,17 +114,17 @@ SignOptions signOptions = new SignOptions();
 }
 ```
  
--  Tworzymy instancję`SignOptions` i skonfiguruj go za pomocą identyfikatora wiersza podpisu, identyfikatora dostawcy, komentarzy i bieżącego czasu podpisywania. Ten krok jest kluczowy dla zapewnienia, że podpis jest poprawnie powiązany z wierszem podpisu, który utworzyliśmy wcześniej.
+- Tworzymy instancję `SignOptions` i skonfiguruj go za pomocą identyfikatora wiersza podpisu, identyfikatora dostawcy, komentarzy i bieżącego czasu podpisywania. Ten krok jest kluczowy dla zapewnienia, że podpis jest poprawnie powiązany z wierszem podpisu, który utworzyliśmy wcześniej.
 
 ## Krok 6: Utwórz posiadacza certyfikatu
 
-Aby podpisać dokument, musimy utworzyć posiadacza certyfikatu, korzystając z pliku PFX.
+Aby podpisać dokument, musimy utworzyć posiadacza certyfikatu przy użyciu pliku PFX.
 
 ```java
 CertificateHolder certHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
 ```
  
--  Ten`CertificateHolder.create`Metoda pobiera ścieżkę do pliku PFX i jego hasło. Ten obiekt będzie używany do uwierzytelniania procesu podpisywania.
+- Ten `CertificateHolder.create` Metoda pobiera ścieżkę do pliku PFX i jego hasło. Ten obiekt będzie używany do uwierzytelniania procesu podpisywania.
 
 ## Krok 7: Podpisz dokument
 
@@ -133,7 +135,7 @@ DigitalSignatureUtil.sign(getArtifactsDir() + "SignDocuments.SignatureLineProvid
     getArtifactsDir() + "SignDocuments.CreateNewSignatureLineAndSetProviderId.docx", certHolder, signOptions);
 ```
  
--  Ten`DigitalSignatureUtil.sign` Metoda ta pobiera oryginalną ścieżkę dokumentu, ścieżkę podpisanego dokumentu, posiadacza certyfikatu i opcje podpisywania. Ta metoda stosuje podpis cyfrowy do Twojego dokumentu.
+- Ten `DigitalSignatureUtil.sign` Metoda ta pobiera oryginalną ścieżkę dokumentu, ścieżkę podpisanego dokumentu, posiadacza certyfikatu i opcje podpisywania. Ta metoda stosuje podpis cyfrowy do Twojego dokumentu.
 
 ## Wniosek
 
@@ -154,10 +156,15 @@ Tak, możesz użyć certyfikatu podpisanego własnoręcznie, ale nie wszyscy odb
 Tak, podpisy cyfrowe zapewniają poziom bezpieczeństwa, gwarantując, że dokument nie zostanie zmieniony po złożeniu podpisu.
 
 ### Gdzie mogę dowiedzieć się więcej na temat Aspose.Words?
- Możesz zbadać[Dokumentacja Aspose.Words](https://reference.aspose.com/words/java/) aby uzyskać więcej szczegółów i poznać zaawansowane funkcje.
+Możesz zbadać [Dokumentacja Aspose.Words](https://reference.aspose.com/words/java/) aby uzyskać więcej szczegółów i poznać zaawansowane funkcje.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

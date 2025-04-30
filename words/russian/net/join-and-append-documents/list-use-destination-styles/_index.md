@@ -1,14 +1,16 @@
 ---
-title: Список использования стилей назначения
-linktitle: Список использования стилей назначения
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как объединить документы Word с помощью Aspose.Words для .NET без потери форматирования списка. Пошаговое руководство по сохранению стилей документов.
-weight: 10
-url: /ru/net/join-and-append-documents/list-use-destination-styles/
+"description": "Узнайте, как объединить документы Word с помощью Aspose.Words для .NET без потери форматирования списка. Пошаговое руководство по сохранению стилей документов."
+"linktitle": "Список использования стилей назначения"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Список использования стилей назначения"
+"url": "/ru/net/join-and-append-documents/list-use-destination-styles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Список использования стилей назначения
@@ -21,11 +23,11 @@ url: /ru/net/join-and-append-documents/list-use-destination-styles/
 
 Прежде чем приступить к волшебству, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words для .NET: если вы еще этого не сделали, загрузите его[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: если вы еще этого не сделали, загрузите его [здесь](https://releases.aspose.com/words/net/).
 2. Visual Studio: подойдет любая последняя версия.
 3. Базовые знания C#: Вам не нужно быть волшебником, но некоторое знакомство не помешает.
 
- Убедитесь, что Aspose.Words установлен и настроен в вашем проекте. Если вы не уверены, как это сделать,[документация](https://reference.aspose.com/words/net/) — отличное место для начала.
+Убедитесь, что Aspose.Words установлен и настроен в вашем проекте. Если вы не уверены, как это сделать, [документация](https://reference.aspose.com/words/net/) — отличное место для начала.
 
 ## Импорт пространств имен
 
@@ -47,7 +49,7 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем, где хранятся ваши документы. Легко, правда?
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем, где хранятся ваши документы. Легко, правда?
 
 ## Шаг 2: Загрузите исходные и конечные документы
 
@@ -58,7 +60,7 @@ Document srcDoc = new Document(dataDir + "Document source with list.docx");
 Document dstDoc = new Document(dataDir + "Document destination with list.docx");
 ```
 
- Здесь,`srcDoc` ваш исходный документ (тот, который содержит списки, которые вы хотите скопировать), и`dstDoc` — это ваш целевой документ (тот, куда вы хотите вставить эти списки).
+Здесь, `srcDoc` ваш исходный документ (тот, который содержит списки, которые вы хотите скопировать), и `dstDoc` — это ваш целевой документ (тот, куда вы хотите вставить эти списки).
 
 ## Шаг 3: Настройте параметры импорта
 
@@ -88,20 +90,25 @@ dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, options);
 Aspose.Words for .NET — мощная библиотека для программной работы с документами Word. Позволяет создавать, изменять и конвертировать документы в различных форматах.
 
 ### Как установить Aspose.Words для .NET?
- Вы можете скачать его с сайта[веб-сайт](https://releases.aspose.com/words/net/) и следуйте инструкциям по установке в[документация](https://reference.aspose.com/words/net/).
+Вы можете скачать его с сайта [веб-сайт](https://releases.aspose.com/words/net/) и следуйте инструкциям по установке в [документация](https://reference.aspose.com/words/net/).
 
 ### Могу ли я использовать Aspose.Words бесплатно?
- Aspose.Words предлагает[бесплатная пробная версия](https://releases.aspose.com/) с ограниченными возможностями. Для полного доступа вам необходимо приобрести лицензию[здесь](https://purchase.aspose.com/buy).
+Aspose.Words предлагает [бесплатная пробная версия](https://releases.aspose.com/) с ограниченными возможностями. Для полного доступа вам необходимо приобрести лицензию [здесь](https://purchase.aspose.com/buy).
 
 ### Что такое ImportFormatOptions?
- ImportFormatOptions позволяет указать, как форматирование обрабатывается при импорте содержимого из одного документа в другой. Например,`KeepSourceNumbering` обеспечивает сохранение нумерации списка из исходного документа.
+ImportFormatOptions позволяет указать, как форматирование обрабатывается при импорте содержимого из одного документа в другой. Например, `KeepSourceNumbering` обеспечивает сохранение нумерации списка из исходного документа.
 
 ### Где я могу получить поддержку по Aspose.Words?
- Вы можете получить поддержку от[Форум Aspose.Words](https://forum.aspose.com/c/words/8)где вы можете задать вопросы и получить помощь от сообщества и разработчиков Aspose.
+Вы можете получить поддержку от [Форум Aspose.Words](https://forum.aspose.com/c/words/8), где вы можете задать вопросы и получить помощь от сообщества и разработчиков Aspose.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

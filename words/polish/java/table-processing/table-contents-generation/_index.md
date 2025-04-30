@@ -1,14 +1,16 @@
 ---
-title: Spis treści Generowanie
-linktitle: Spis treści Generowanie
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak tworzyć dynamiczny spis treści za pomocą Aspose.Words dla Java. Opanuj generowanie spisu treści dzięki wskazówkom krok po kroku i przykładom kodu źródłowego.
-weight: 14
-url: /pl/java/table-processing/table-contents-generation/
+"description": "Dowiedz się, jak tworzyć dynamiczny spis treści za pomocą Aspose.Words dla Java. Opanuj generowanie spisu treści dzięki wskazówkom krok po kroku i przykładom kodu źródłowego."
+"linktitle": "Spis treści Generowanie"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Spis treści Generowanie"
+"url": "/pl/java/table-processing/table-contents-generation/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Spis treści Generowanie
@@ -21,10 +23,10 @@ Czy kiedykolwiek miałeś problem z utworzeniem dynamicznego i profesjonalnie wy
 
 Zanim zaczniemy kodować, upewnij się, że masz następujące rzeczy:
 
-1.  Java Development Kit (JDK): Zainstalowany w systemie. Możesz go pobrać z[Strona internetowa Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Biblioteka Aspose.Words dla Java: Pobierz najnowszą wersję ze strony[strona wydania](https://releases.aspose.com/words/java/).
+1. Java Development Kit (JDK): Zainstalowany w systemie. Możesz go pobrać z [Strona internetowa Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. Biblioteka Aspose.Words dla Java: Pobierz najnowszą wersję ze strony [strona wydania](https://releases.aspose.com/words/java/).
 3. Zintegrowane środowisko programistyczne (IDE): takie jak IntelliJ IDEA, Eclipse lub NetBeans.
-4.  Licencja tymczasowa Aspose: Aby uniknąć ograniczeń dotyczących oceny, uzyskaj[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+4. Licencja tymczasowa Aspose: Aby uniknąć ograniczeń dotyczących oceny, uzyskaj [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 
 ## Importuj pakiety
 
@@ -38,7 +40,7 @@ Aby wygenerować dynamiczny spis treści w dokumencie Word, wykonaj poniższe cz
 
 ## Krok 1: Zainicjuj dokument i DocumentBuilder
 
- Pierwszym krokiem jest utworzenie nowego dokumentu i użycie`DocumentBuilder` klasa, aby nią manipulować.
+Pierwszym krokiem jest utworzenie nowego dokumentu i użycie `DocumentBuilder` klasa, aby nią manipulować.
 
 
 ```java
@@ -84,8 +86,8 @@ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
 builder.writeln("Heading 2");
 ```
 
-- `setStyleIdentifier` : Ustawia styl akapitu na określony poziom nagłówka (np.`HEADING_1`, `HEADING_2`).
-- `writeln`: Dodaje do dokumentu tekst o określonym stylu.
+- `setStyleIdentifier`: Ustawia styl akapitu na określony poziom nagłówka (np. `HEADING_1`, `HEADING_2`).
+- `writeln`Dodaje do dokumentu tekst o określonym stylu.
 
 ## Krok 4: Dodaj zagnieżdżone nagłówki
 
@@ -125,7 +127,7 @@ Na koniec zapisz dokument w wybranym formacie.
 doc.save(dataDir + "DocumentBuilder.InsertToc.docx");
 ```
 
-- `save` :Eksportuje dokument do`.docx` plik. Możesz określić inne formaty, takie jak`.pdf` Lub`.txt` jeśli to konieczne.
+- `save`:Eksportuje dokument do `.docx` plik. Możesz określić inne formaty, takie jak `.pdf` Lub `.txt` jeśli to konieczne.
 
 ## Wniosek
 
@@ -137,19 +139,24 @@ Gratulacje! Udało Ci się utworzyć dynamiczny spis treści w dokumencie Word p
 Oczywiście! Możesz dostosować parametry spisu treści, takie jak uwzględnienie numerów stron, wyrównanie tekstu lub użycie niestandardowych stylów nagłówków.
 
 ### Czy licencja jest obowiązkowa dla Aspose.Words for Java?
- Tak, licencja jest wymagana do pełnej funkcjonalności. Możesz zacząć od[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+Tak, licencja jest wymagana do pełnej funkcjonalności. Możesz zacząć od [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 
 ### Czy mogę wygenerować spis treści dla istniejącego dokumentu?
- Tak! Załaduj dokument do`Document` obiekt i wykonaj te same kroki, aby wstawić i zaktualizować spis treści.
+Tak! Załaduj dokument do `Document` obiekt i wykonaj te same kroki, aby wstawić i zaktualizować spis treści.
 
 ### Czy to działa w przypadku eksportu do pliku PDF?
- Tak, spis treści pojawi się w pliku PDF, jeśli zapiszesz dokument w formacie`.pdf` format.
+Tak, spis treści pojawi się w pliku PDF, jeśli zapiszesz dokument w formacie `.pdf` format.
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
- Sprawdź[Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/) aby zobaczyć więcej przykładów i szczegółów.
+Sprawdź [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/) aby zobaczyć więcej przykładów i szczegółów.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

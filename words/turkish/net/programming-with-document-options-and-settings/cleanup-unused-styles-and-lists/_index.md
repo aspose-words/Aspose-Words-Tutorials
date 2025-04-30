@@ -1,14 +1,16 @@
 ---
-title: Kullanılmayan Stilleri ve Listeleri Temizle
-linktitle: Kullanılmayan Stilleri ve Listeleri Temizle
-second_title: Aspose.Words Belge İşleme API'si
-description: Kullanılmayan stilleri ve listeleri kaldırarak Word belgelerinizi Aspose.Words for .NET ile temizleyin. Belgelerinizi zahmetsizce düzenlemek için bu adım adım kılavuzu izleyin.
-weight: 10
-url: /tr/net/programming-with-document-options-and-settings/cleanup-unused-styles-and-lists/
+"description": "Kullanılmayan stilleri ve listeleri kaldırarak Word belgelerinizi Aspose.Words for .NET ile temizleyin. Belgelerinizi zahmetsizce düzenlemek için bu adım adım kılavuzu izleyin."
+"linktitle": "Kullanılmayan Stilleri ve Listeleri Temizle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Kullanılmayan Stilleri ve Listeleri Temizle"
+"url": "/tr/net/programming-with-document-options-and-settings/cleanup-unused-styles-and-lists/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kullanılmayan Stilleri ve Listeleri Temizle
@@ -22,7 +24,7 @@ Merhaba! Word belgelerinizin biraz dağınık olduğunu hiç hissettiniz mi? Bil
 Ayrıntılara dalmadan önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte hızlı bir kontrol listesi:
 
 - Temel C# Bilgisi: C# programlamayı rahatça anlayabiliyor olmalısınız.
--  Aspose.Words for .NET: Bu kütüphanenin kurulu olduğundan emin olun. Eğer kurulu değilse, indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Bu kütüphanenin kurulu olduğundan emin olun. Eğer kurulu değilse, indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio gibi C# uyumlu herhangi bir IDE.
 - Örnek Belge: Kullanılmayan bazı stiller ve temizlenmesi gereken listeler içeren bir Word belgesi.
 
@@ -69,7 +71,7 @@ Temizleme seçeneklerimiz ayarlandığında, artık belgeyi temizleyebiliriz. Bu
 doc.Cleanup(cleanupOptions);
 ```
 
-## Adım 5: Temizlikten Sonra Stilleri ve Listeleri Kontrol Edin
+## Adım 5: Temizlemeden Sonra Stilleri ve Listeleri Kontrol Edin
 
 Temizlememizin etkisini görmek için stil ve liste sayısını tekrar kontrol edelim. Bu, kaç stilin kaldırıldığını gösterecektir.
 
@@ -96,20 +98,25 @@ Ve işte karşınızda! Aspose.Words for .NET kullanarak kullanılmayan stilleri
 Aspose.Words for .NET, C# kullanarak Word belgelerini programlı bir şekilde oluşturmanıza, değiştirmenize ve dönüştürmenize olanak tanıyan güçlü bir kütüphanedir.
 
 ### Kullanılmayan stilleri ve listeleri aynı anda kaldırabilir miyim?
-Evet, her ikisini de ayarlayabilirsiniz`UnusedLists` Ve`UnusedStyles` ile`true` içinde`CleanupOptions` ikisini de kaldırmak için.
+Evet, her ikisini de ayarlayabilirsiniz `UnusedLists` Ve `UnusedStyles` ile `true` içinde `CleanupOptions` ikisini de kaldırmak için.
 
 ### Temizleme işlemini geri almak mümkün müdür?
 Hayır, temizleme işlemi tamamlandıktan ve belge kaydedildikten sonra değişiklikleri geri alamazsınız. Her zaman orijinal belgenizin bir yedeğini saklayın.
 
 ### Aspose.Words for .NET için lisansa ihtiyacım var mı?
- Evet, Aspose.Words for .NET tam işlevsellik için bir lisans gerektirir. Bir tane alabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license) veya[bir tane satın al](https://purchase.aspose.com/buy).
+Evet, Aspose.Words for .NET tam işlevsellik için bir lisans gerektirir. Bir tane alabilirsiniz [geçici lisans](https://purchase.aspose.com/tempveyaary-license) or [bir tane satın al](https://purchase.aspose.com/buy).
 
 ### Daha fazla bilgi ve desteği nereden bulabilirim?
- Ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/) ve destek alın[Aspose forumu](https://forum.aspose.com/c/words/8).
+Ayrıntılı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/) ve destek alın [Aspose forumu](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

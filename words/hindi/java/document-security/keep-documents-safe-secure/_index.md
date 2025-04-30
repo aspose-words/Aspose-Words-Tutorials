@@ -1,14 +1,16 @@
 ---
-title: अपने दस्तावेज़ों को सुरक्षित कैसे रखें
-linktitle: अपने दस्तावेज़ों को सुरक्षित कैसे रखें
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Aspose.Words for Java के साथ अपने दस्तावेज़ सुरक्षित करें। आसानी से एन्क्रिप्ट करें, सुरक्षित करें और डिजिटल हस्ताक्षर जोड़ें। अपना डेटा सुरक्षित रखें।
-weight: 10
-url: /hi/java/document-security/keep-documents-safe-secure/
+"description": "Aspose.Words for Java के साथ अपने दस्तावेज़ सुरक्षित करें। आसानी से एन्क्रिप्ट करें, सुरक्षित करें और डिजिटल हस्ताक्षर जोड़ें। अपना डेटा सुरक्षित रखें।"
+"linktitle": "अपने दस्तावेज़ों को सुरक्षित कैसे रखें"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "अपने दस्तावेज़ों को सुरक्षित कैसे रखें"
+"url": "/hi/java/document-security/keep-documents-safe-secure/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # अपने दस्तावेज़ों को सुरक्षित कैसे रखें
@@ -33,7 +35,7 @@ url: /hi/java/document-security/keep-documents-safe-secure/
 - #### डिजीटल हस्ताक्षर:
  दस्तावेज़ की प्रामाणिकता और अखंडता को सत्यापित करने के लिए डिजिटल हस्ताक्षर संलग्न करें।
 - #### वॉटरमार्किंग:
- स्वामित्व या गोपनीयता को दर्शाने के लिए दृश्य या अदृश्य वॉटरमार्क लगाएं।
+ स्वामित्व या गोपनीयता को दर्शाने के लिए दृश्यमान या अदृश्य वॉटरमार्क लगाएं।
 - #### संपादन:
  दस्तावेज़ से संवेदनशील जानकारी को स्थायी रूप से हटाएँ.
 
@@ -46,17 +48,17 @@ url: /hi/java/document-security/keep-documents-safe-secure/
 दस्तावेज़ सुरक्षा के साथ आगे बढ़ने से पहले, आइए पहले Aspose.Words for Java से परिचित हो जाएँ। यह एक सुविधा संपन्न लाइब्रेरी है जो जावा डेवलपर्स को प्रोग्रामेटिक रूप से Word दस्तावेज़ बनाने, संशोधित करने और परिवर्तित करने में सक्षम बनाती है। आरंभ करने के लिए:
 
 1. ### Java के लिए Aspose.Words डाउनलोड करें:
-  दौरा करना[Aspose.रिलीज़](https://releases.aspose.com/words/java/) और Java के लिए Aspose.Words का नवीनतम संस्करण डाउनलोड करें।
+ दौरा करना [Aspose.रिलीज़](https://releases.aspose.com/words/java/) और Java के लिए Aspose.Words का नवीनतम संस्करण डाउनलोड करें।
 
 2. ### लाइब्रेरी स्थापित करें:
- डाउनलोड पूरा हो जाने पर, अपने जावा प्रोजेक्ट में Aspose.Words को सेट अप करने के लिए इंस्टॉलेशन निर्देशों का पालन करें।
+ एक बार डाउनलोड पूरा हो जाने पर, अपने जावा प्रोजेक्ट में Aspose.Words को सेट करने के लिए इंस्टॉलेशन निर्देशों का पालन करें।
 
 ## 4. जावा के लिए Aspose.Words स्थापित करना
 
 Aspose.Words for Java को इंस्टॉल करना एक सीधी प्रक्रिया है। अपने Java प्रोजेक्ट में लाइब्रेरी जोड़ने के लिए इन सरल चरणों का पालन करें:
 
 1. ### डाउनलोड करना:
-  पर जाएँ[Aspose.रिलीज़](https://releases.aspose.com/words/java/) और Java पैकेज के लिए Aspose.Words डाउनलोड करें।
+ पर जाएँ [Aspose.रिलीज़](https://releases.aspose.com/words/java/) और Java पैकेज के लिए Aspose.Words डाउनलोड करें।
 
 2. ### निकालना:
  डाउनलोड किए गए पैकेज को अपने कंप्यूटर पर सुविधाजनक स्थान पर निकालें।
@@ -110,7 +112,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.writeln("Hello world! Since we have set the document's protection level to read-only," +
         " we cannot edit this paragraph without the password.");
 
-//संपादन योग्य श्रेणियाँ हमें संरक्षित दस्तावेज़ों के कुछ हिस्सों को संपादन के लिए खुला छोड़ने की अनुमति देती हैं।
+// संपादन योग्य श्रेणियाँ हमें संरक्षित दस्तावेज़ों के कुछ हिस्सों को संपादन के लिए खुला छोड़ने की अनुमति देती हैं।
 EditableRangeStart editableRangeStart = builder.startEditableRange();
 builder.writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.endEditableRange();
@@ -118,7 +120,7 @@ EditableRangeEnd editableRangeEnd = builder.endEditableRange();
 
 ## 8. डिजिटल हस्ताक्षर का प्रयोग
 
-अपने दस्तावेज़ में डिजिटल हस्ताक्षर जोड़ने से इसकी प्रामाणिकता और अखंडता सुनिश्चित हो सकती है। यहाँ बताया गया है कि आप Aspose.Words for Java का उपयोग करके डिजिटल हस्ताक्षर कैसे लागू कर सकते हैं:
+अपने दस्तावेज़ में डिजिटल हस्ताक्षर जोड़ने से इसकी प्रामाणिकता और अखंडता सुनिश्चित हो सकती है। यहाँ बताया गया है कि आप Java के लिए Aspose.Words का उपयोग करके डिजिटल हस्ताक्षर कैसे लागू कर सकते हैं:
 
 ```java
 CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
@@ -163,12 +165,12 @@ doc.save("path/to/watermarked/document.docx");
 ```
 
 
-## 10. सुरक्षित दस्तावेज़ों को अन्य प्रारूपों में परिवर्तित करना
+## 10. सुरक्षित दस्तावेजों को अन्य प्रारूपों में परिवर्तित करना
 
 Java के लिए Aspose.Words आपको अपने सुरक्षित दस्तावेज़ों को विभिन्न प्रारूपों में परिवर्तित करने में सक्षम बनाता है, जैसे कि PDF या HTML:
 
 ```java
-//सुरक्षित दस्तावेज़ लोड करें
+// सुरक्षित दस्तावेज़ लोड करें
 Document doc = new Document("path/to/your/secured/document.docx");
 
 // पीडीएफ में कनवर्ट करें
@@ -198,9 +200,13 @@ doc.save("path/to/converted/document.html");
 
 ### क्या मैं वॉटरमार्क के स्वरूप को अनुकूलित कर सकता हूँ?
 हां, आप टेक्स्ट, फ़ॉन्ट, रंग, आकार और रोटेशन सहित वॉटरमार्क की उपस्थिति को पूरी तरह से अनुकूलित कर सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

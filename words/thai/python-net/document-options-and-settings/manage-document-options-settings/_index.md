@@ -1,14 +1,16 @@
 ---
-title: ปรับแต่งตัวเลือกเอกสารและการตั้งค่าเพื่อประสิทธิภาพ
-linktitle: ปรับแต่งตัวเลือกเอกสารและการตั้งค่าเพื่อประสิทธิภาพ
-second_title: API การจัดการเอกสาร Aspose.Words Python
-description: เรียนรู้วิธีการจัดการเอกสาร Word อย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ
-weight: 11
-url: /th/python-net/document-options-and-settings/manage-document-options-settings/
+"description": "เรียนรู้วิธีการจัดการเอกสาร Word อย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ"
+"linktitle": "ปรับแต่งตัวเลือกเอกสารและการตั้งค่าเพื่อประสิทธิภาพ"
+"second_title": "API การจัดการเอกสาร Aspose.Words Python"
+"title": "ปรับแต่งตัวเลือกเอกสารและการตั้งค่าเพื่อประสิทธิภาพ"
+"url": "/th/python-net/document-options-and-settings/manage-document-options-settings/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ปรับแต่งตัวเลือกเอกสารและการตั้งค่าเพื่อประสิทธิภาพ
@@ -111,7 +113,7 @@ doc.save("output.pdf", aw.SaveFormat.PDF)
 
 ## บทสรุป:
 
-Aspose.Words สำหรับ Python ช่วยให้ผู้พัฒนาสามารถจัดการตัวเลือกและการตั้งค่าเอกสารได้อย่างมีประสิทธิภาพ โดยให้การควบคุมที่ละเอียดในทุกแง่มุมของการสร้างและจัดการเอกสาร API ที่ใช้งานง่ายและเอกสารประกอบที่ครอบคลุมทำให้เป็นเครื่องมือที่มีค่าอย่างยิ่งสำหรับงานที่เกี่ยวข้องกับเอกสาร
+Aspose.Words สำหรับ Python ช่วยให้ผู้พัฒนาสามารถจัดการตัวเลือกและการตั้งค่าเอกสารได้อย่างมีประสิทธิภาพ โดยให้การควบคุมที่ละเอียดในทุกแง่มุมของการสร้างและจัดการเอกสาร API ที่ใช้งานง่ายและเอกสารประกอบที่ครอบคลุมทำให้เป็นเครื่องมือที่มีคุณค่าอย่างยิ่งสำหรับงานที่เกี่ยวข้องกับเอกสาร
 
 ## คำถามที่พบบ่อย
 
@@ -129,7 +131,7 @@ pip install aspose-words
 
 ### ฉันจะปรับระยะขอบหน้าโดยใช้ API ได้อย่างไร
 
- คุณสามารถปรับระยะขอบหน้าได้โดยใช้`PageSetup` ชั้นเรียน ตัวอย่างเช่น:
+คุณสามารถปรับระยะขอบหน้าได้โดยใช้ `PageSetup` ชั้นเรียน ตัวอย่างเช่น:
 
 ```python
 page_setup = doc.sections[0].page_setup
@@ -139,7 +141,7 @@ page_setup.right_margin = aw.ConvertUtil.inch_to_point(1)
 
 ### ฉันสามารถส่งออกเอกสารของฉันเป็น PDF โดยใช้ Aspose.Words ได้หรือไม่
 
- แน่นอน คุณสามารถส่งออกเอกสารของคุณไปยังรูปแบบต่างๆ รวมถึง PDF โดยใช้`save` วิธีการ เช่น:
+แน่นอน คุณสามารถส่งออกเอกสารของคุณไปยังรูปแบบต่างๆ รวมถึง PDF โดยใช้ `save` วิธีการ เช่น:
 
 ```python
 doc.save("output.pdf", aw.SaveFormat.PDF)
@@ -147,10 +149,15 @@ doc.save("output.pdf", aw.SaveFormat.PDF)
 
 ### ฉันสามารถหาข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ Python ได้ที่ไหน
 
- คุณสามารถดูเอกสารประกอบได้ที่[ที่นี่](https://reference.aspose.com/words/python-net/).
+คุณสามารถดูเอกสารประกอบได้ที่ [ที่นี่](https://reference-aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

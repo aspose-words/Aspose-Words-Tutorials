@@ -1,14 +1,16 @@
 ---
-title: Silbentrennungs-Rückruf
-linktitle: Silbentrennungs-Rückruf
-second_title: Aspose.Words Dokumentverarbeitungs-API
-description: Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie in Aspose.Words für .NET die Silbentrennungs-Rückruffunktion implementieren, um die Dokumentformatierung zu verbessern.
-weight: 10
-url: /de/net/working-with-hyphenation/hyphenation-callback/
+"description": "Erfahren Sie mit dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie in Aspose.Words für .NET einen Silbentrennungs-Callback implementieren, um die Dokumentformatierung zu verbessern."
+"linktitle": "Silbentrennungs-Rückruf"
+"second_title": "Aspose.Words Dokumentverarbeitungs-API"
+"title": "Silbentrennungs-Rückruf"
+"url": "/de/net/working-with-hyphenation/hyphenation-callback/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Silbentrennungs-Rückruf
@@ -16,21 +18,21 @@ url: /de/net/working-with-hyphenation/hyphenation-callback/
 
 ## Einführung
 
-Hallo! Haben Sie sich schon einmal mit den Komplexitäten der Textformatierung herumgeschlagen, insbesondere bei Sprachen, die Silbentrennung erfordern? Damit sind Sie nicht allein. Silbentrennung ist zwar für ein korrektes Textlayout entscheidend, kann aber auch ein wenig Kopfzerbrechen bereiten. Aber wissen Sie was? Aspose.Words für .NET unterstützt Sie dabei. Mit dieser leistungsstarken Bibliothek können Sie die Textformatierung nahtlos verwalten, einschließlich der Silbentrennung über einen Rückrufmechanismus. Neugierig geworden? Lassen Sie uns in die Einzelheiten eintauchen und sehen, wie Sie mit Aspose.Words für .NET einen Silbentrennungsrückruf implementieren können.
+Hallo! Haben Sie sich schon einmal mit der Komplexität der Textformatierung herumgeschlagen, insbesondere bei Sprachen, die Silbentrennung erfordern? Damit sind Sie nicht allein. Silbentrennung ist zwar wichtig für ein korrektes Textlayout, kann aber auch Kopfschmerzen bereiten. Aber wissen Sie was? Aspose.Words für .NET unterstützt Sie dabei. Diese leistungsstarke Bibliothek ermöglicht Ihnen die nahtlose Verwaltung der Textformatierung, einschließlich der Silbentrennung über einen Rückrufmechanismus. Neugierig geworden? Lassen Sie uns in die Details eintauchen und sehen, wie Sie mit Aspose.Words für .NET einen Rückruf für die Silbentrennung implementieren.
 
 ## Voraussetzungen
 
-Bevor wir uns mit dem Code beschäftigen, stellen wir sicher, dass Sie alles haben, was Sie brauchen:
+Bevor wir uns mit dem Code die Hände schmutzig machen, stellen wir sicher, dass Sie alles haben, was Sie brauchen:
 
-1. Aspose.Words für .NET: Stellen Sie sicher, dass Sie die Bibliothek haben. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/words/net/).
+1. Aspose.Words für .NET: Stellen Sie sicher, dass Sie die Bibliothek haben. Sie können [Laden Sie es hier herunter](https://releases.aspose.com/words/net/).
 2. IDE: Eine Entwicklungsumgebung wie Visual Studio.
-3. Grundlegende Kenntnisse in C#: Verständnis von C# und .NET Framework.
+3. Grundkenntnisse in C#: Verständnis von C# und .NET Framework.
 4. Silbentrennungswörterbücher: Silbentrennungswörterbücher für die Sprachen, die Sie verwenden möchten.
-5.  Aspose-Lizenz: Eine gültige Aspose-Lizenz. Sie erhalten eine[vorläufige Lizenz](https://purchase.aspose.com/temporary-license/) wenn Sie keines haben.
+5. Aspose-Lizenz: Eine gültige Aspose-Lizenz. Sie erhalten eine [vorläufige Lizenz](https://purchase.aspose.com/temporary-license/) wenn Sie keines haben.
 
 ## Namespaces importieren
 
-Als Erstes importieren wir die erforderlichen Namespaces. Dadurch wird sichergestellt, dass unser Code Zugriff auf alle Klassen und Methoden hat, die wir von Aspose.Words benötigen.
+Zunächst importieren wir die erforderlichen Namespaces. Dadurch wird sichergestellt, dass unser Code Zugriff auf alle benötigten Klassen und Methoden von Aspose.Words hat.
 
 ```csharp
 using Aspose.Words;
@@ -54,17 +56,17 @@ catch (Exception e)
 }
 ```
 
- Hier erstellen wir eine Instanz unseres benutzerdefinierten Callbacks und weisen sie zu`Hyphenation.Callback`.
+Hier erstellen wir eine Instanz unseres benutzerdefinierten Rückrufs und weisen sie zu `Hyphenation.Callback`.
 
-## Schritt 2: Dokumentpfad festlegen
+## Schritt 2: Dokumentpfad definieren
 
-Als nächstes müssen wir das Verzeichnis definieren, in dem unsere Dokumente gespeichert sind. Dies ist wichtig, da wir Dokumente aus diesem Pfad laden und speichern werden.
+Als Nächstes müssen wir das Verzeichnis definieren, in dem unsere Dokumente gespeichert werden. Dies ist wichtig, da wir Dokumente aus diesem Pfad laden und speichern werden.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ersetzen`"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad zu Ihren Dokumenten.
+Ersetzen `"YOUR DOCUMENT DIRECTORY"` mit dem tatsächlichen Pfad zu Ihren Dokumenten.
 
 ## Schritt 3: Laden Sie das Dokument
 
@@ -74,7 +76,7 @@ Laden wir nun das Dokument, das eine Silbentrennung erfordert.
 Document document = new Document(dataDir + "German text.docx");
 ```
 
-Hier laden wir ein deutsches Textdokument. Sie können ersetzen`"German text.docx"` durch den Dateinamen Ihres Dokuments.
+Hier laden wir ein deutsches Textdokument. Sie können ersetzen `"German text.docx"` mit dem Dateinamen Ihres Dokuments.
 
 ## Schritt 4: Speichern Sie das Dokument
 
@@ -101,11 +103,11 @@ finally
 }
 ```
 
-In diesem Block fangen wir die spezifische Ausnahme im Zusammenhang mit fehlenden Wörterbüchern ab und drucken die Meldung.
+In diesem Block fangen wir die spezifische Ausnahme im Zusammenhang mit fehlenden Wörterbüchern ab und drucken die Nachricht.
 
 ## Schritt 6: Implementieren der benutzerdefinierten Silbentrennungs-Rückrufklasse
 
- Lassen Sie uns nun die`CustomHyphenationCallback` Klasse, die die Anforderung von Silbentrennungswörterbüchern verarbeitet.
+Lassen Sie uns nun die `CustomHyphenationCallback` Klasse, die die Anforderung von Silbentrennungswörterbüchern verarbeitet.
 
 ```csharp
 public class CustomHyphenationCallback : IHyphenationCallback
@@ -131,11 +133,11 @@ public class CustomHyphenationCallback : IHyphenationCallback
 }
 ```
 
- In dieser Klasse`RequestDictionary` Die Methode wird immer dann aufgerufen, wenn ein Silbentrennungswörterbuch benötigt wird. Sie prüft die Sprache und registriert das entsprechende Wörterbuch.
+In dieser Klasse `RequestDictionary` Die Methode wird immer dann aufgerufen, wenn ein Silbentrennungswörterbuch benötigt wird. Sie prüft die Sprache und registriert das entsprechende Wörterbuch.
 
 ## Abschluss
 
-Und da haben Sie es! Sie haben gerade gelernt, wie Sie einen Silbentrennungs-Callback in Aspose.Words für .NET implementieren. Indem Sie diese Schritte befolgen, können Sie sicherstellen, dass Ihre Dokumente unabhängig von der Sprache schön formatiert sind. Egal, ob Sie mit Englisch, Deutsch oder einer anderen Sprache arbeiten, mit dieser Methode können Sie die Silbentrennung mühelos handhaben.
+Und da haben Sie es! Sie haben gerade gelernt, wie Sie einen Silbentrennungs-Callback in Aspose.Words für .NET implementieren. Mit diesen Schritten stellen Sie sicher, dass Ihre Dokumente unabhängig von der Sprache ansprechend formatiert sind. Ob Englisch, Deutsch oder eine andere Sprache – mit dieser Methode gelingt Ihnen die Silbentrennung mühelos.
 
 ## Häufig gestellte Fragen
 
@@ -143,19 +145,24 @@ Und da haben Sie es! Sie haben gerade gelernt, wie Sie einen Silbentrennungs-Cal
 Aspose.Words für .NET ist eine leistungsstarke Bibliothek zur Dokumentbearbeitung, mit der Entwickler Dokumente programmgesteuert erstellen, ändern und konvertieren können.
 
 ### Warum ist die Silbentrennung bei der Dokumentformatierung wichtig?
-Durch die Silbentrennung wird das Textlayout verbessert, indem Wörter an den entsprechenden Stellen getrennt werden. Auf diese Weise wird das Dokument besser lesbar und optisch ansprechender.
+Durch die Silbentrennung wird das Textlayout verbessert, indem Wörter an den entsprechenden Stellen getrennt werden. Dadurch wird das Dokument besser lesbar und optisch ansprechender.
 
 ### Kann ich Aspose.Words kostenlos nutzen?
- Aspose.Words bietet eine kostenlose Testversion an. Sie können es bekommen[Hier](https://releases.aspose.com/).
+Aspose.Words bietet eine kostenlose Testversion an. Sie können es bekommen [Hier](https://releases.aspose.com/).
 
 ### Wie bekomme ich ein Silbentrennungswörterbuch?
 Sie können Silbentrennungswörterbücher aus verschiedenen Online-Ressourcen herunterladen oder bei Bedarf Ihr eigenes erstellen.
 
 ### Was passiert, wenn ein Silbentrennungswörterbuch fehlt?
- Wenn ein Wörterbuch fehlt,`RequestDictionary`Methode löst eine Ausnahme aus, die Sie behandeln können, um den Benutzer zu informieren oder einen Fallback bereitzustellen.
+Wenn ein Wörterbuch fehlt, `RequestDictionary` -Methode löst eine Ausnahme aus, die Sie verarbeiten können, um den Benutzer zu informieren oder einen Fallback bereitzustellen.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

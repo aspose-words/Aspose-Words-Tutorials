@@ -1,14 +1,16 @@
 ---
-title: छवियों को Wmf के रूप में सहेजना
-linktitle: छवियों को Wmf के रूप में सहेजना
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: हमारे विस्तृत चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में WMF के रूप में छवियों को सहेजना सीखें। अपने दस्तावेज़ संगतता और छवि गुणवत्ता को बढ़ाएँ।
-weight: 10
-url: /hi/net/programming-with-rtfsaveoptions/saving-images-as-wmf/
+"description": "हमारे विस्तृत चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में WMF के रूप में छवियों को सहेजना सीखें। अपने दस्तावेज़ संगतता और छवि गुणवत्ता को बढ़ाएँ।"
+"linktitle": "छवियों को Wmf के रूप में सहेजना"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "छवियों को Wmf के रूप में सहेजना"
+"url": "/hi/net/programming-with-rtfsaveoptions/saving-images-as-wmf/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # छवियों को Wmf के रूप में सहेजना
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-rtfsaveoptions/saving-images-as-wmf/
 
 इससे पहले कि हम कोड में प्रवेश करें, आइए सुनिश्चित करें कि आपके पास सुचारू रूप से अनुसरण करने के लिए आवश्यक सभी चीजें मौजूद हैं:
 
--  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET इंस्टॉल है। यदि नहीं, तो आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET इंस्टॉल है। यदि नहीं, तो आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 - विकास परिवेश: आपके पास C# विकास परिवेश स्थापित होना चाहिए, जैसे कि Visual Studio.
 - C# का बुनियादी ज्ञान: C# प्रोग्रामिंग की बुनियादी समझ लाभदायक होगी।
 
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- स्पष्टीकरण: इस चरण में, हम वह निर्देशिका निर्दिष्ट करते हैं जहाँ आपका दस्तावेज़ स्थित है। फिर, हम दस्तावेज़ को लोड करने के लिए निम्न का उपयोग करते हैं:`Document` Aspose.Words द्वारा प्रदान की गई क्लास। आसान है, है ना?
+स्पष्टीकरण: इस चरण में, हम वह निर्देशिका निर्दिष्ट करते हैं जहाँ आपका दस्तावेज़ स्थित है। फिर, हम दस्तावेज़ को लोड करने के लिए निम्न का उपयोग करते हैं: `Document` Aspose.Words द्वारा प्रदान की गई क्लास। आसान है, है ना?
 
 ## चरण 2: सहेजें विकल्प कॉन्फ़िगर करें
 
@@ -56,7 +58,7 @@ Document doc = new Document(dataDir + "Document.docx");
 RtfSaveOptions saveOptions = new RtfSaveOptions { SaveImagesAsWmf = true };
 ```
 
- स्पष्टीकरण: यहाँ, हम एक उदाहरण बनाते हैं`RtfSaveOptions` और सेट करें`SaveImagesAsWmf`संपत्ति को`true`यह Aspose.Words को दस्तावेज़ सहेजे जाने पर छवियों को WMF के रूप में सहेजने के लिए कहता है।
+स्पष्टीकरण: यहाँ, हम इसका एक उदाहरण बनाते हैं `RtfSaveOptions` और सेट करें `SaveImagesAsWmf` संपत्ति को `true`यह Aspose.Words को दस्तावेज़ सहेजे जाने पर छवियों को WMF के रूप में सहेजने के लिए कहता है।
 
 ## चरण 3: दस्तावेज़ सहेजें
 
@@ -66,7 +68,7 @@ RtfSaveOptions saveOptions = new RtfSaveOptions { SaveImagesAsWmf = true };
 doc.Save(dataDir + "WorkingWithRtfSaveOptions.SavingImagesAsWmf.rtf", saveOptions);
 ```
 
- स्पष्टीकरण: इस चरण में, हम उपयोग करते हैं`Save` की विधि`Document` दस्तावेज़ को सहेजने के लिए क्लास का उपयोग करें। हम फ़ाइल पथ और पास करते हैं`saveOptions` पैरामीटर के रूप में। यह सुनिश्चित करता है कि छवियाँ WMF के रूप में सहेजी गई हैं।
+स्पष्टीकरण: इस चरण में, हम उपयोग करते हैं `Save` की विधि `Document` दस्तावेज़ को सहेजने के लिए क्लास का उपयोग करें। हम फ़ाइल पथ और पास करते हैं `saveOptions` पैरामीटर के रूप में। यह सुनिश्चित करता है कि छवियाँ WMF के रूप में सहेजी गई हैं।
 
 ## निष्कर्ष
 
@@ -78,19 +80,24 @@ doc.Save(dataDir + "WorkingWithRtfSaveOptions.SavingImagesAsWmf.rtf", saveOption
 हां, Aspose.Words for .NET विभिन्न छवि प्रारूपों जैसे PNG, JPEG, BMP, और अधिक का समर्थन करता है। आप तदनुसार सेव विकल्पों को कॉन्फ़िगर कर सकते हैं।
 
 ### क्या .NET के लिए Aspose.Words का कोई परीक्षण संस्करण उपलब्ध है?
- बिलकुल! आप यहाँ से निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+बिलकुल! आप यहाँ से निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### क्या मुझे .NET के लिए Aspose.Words का उपयोग करने के लिए लाइसेंस की आवश्यकता है?
- हां, Aspose.Words for .NET को लाइसेंस की आवश्यकता है। आप इसे खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+हां, Aspose.Words for .NET को लाइसेंस की आवश्यकता है। आप इसे खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस प्राप्त करें [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### यदि मुझे कोई समस्या आती है तो क्या मुझे सहायता मिल सकती है?
- निश्चित रूप से! Aspose अपने फ़ोरम के माध्यम से व्यापक सहायता प्रदान करता है। आप सहायता तक पहुँच सकते हैं[यहाँ](https://forum.aspose.com/c/words/8).
+निश्चित रूप से! Aspose अपने फ़ोरम के माध्यम से व्यापक सहायता प्रदान करता है। आप सहायता तक पहुँच सकते हैं [यहाँ](https://forum.aspose.com/c/words/8).
 
 ### क्या .NET के लिए Aspose.Words हेतु कोई विशिष्ट सिस्टम आवश्यकताएँ हैं?
 Aspose.Words for .NET .NET Framework, .NET Core, और .NET Standard के साथ संगत है। सुनिश्चित करें कि आपका विकास वातावरण इन आवश्यकताओं को पूरा करता है।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

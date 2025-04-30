@@ -1,33 +1,35 @@
 ---
-title: CID-URLs für MHTML-Ressourcen exportieren
-linktitle: CID-URLs für MHTML-Ressourcen exportieren
-second_title: Aspose.Words Dokumentverarbeitungs-API
-description: Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET Cid-URLs für MHTML-Ressourcen exportieren. Perfekt für Entwickler aller Niveaus.
-weight: 10
-url: /de/net/programming-with-htmlsaveoptions/export-cid-urls-for-mhtml-resources/
+"description": "Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie CID-URLs für MHTML-Ressourcen mit Aspose.Words für .NET exportieren. Perfekt für Entwickler aller Erfahrungsstufen."
+"linktitle": "CID-URLs für MHTML-Ressourcen exportieren"
+"second_title": "Aspose.Words Dokumentverarbeitungs-API"
+"title": "CID-URLs für MHTML-Ressourcen exportieren"
+"url": "/de/net/programming-with-htmlsaveoptions/export-cid-urls-for-mhtml-resources/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # CID-URLs für MHTML-Ressourcen exportieren
 
 ## Einführung
 
-Sind Sie bereit, die Kunst des Exportierens von Cid-URLs für MHTML-Ressourcen mit Aspose.Words für .NET zu meistern? Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, dieser umfassende Leitfaden führt Sie durch jeden Schritt. Am Ende dieses Artikels haben Sie ein kristallklares Verständnis dafür, wie Sie MHTML-Ressourcen in Ihren Word-Dokumenten effizient handhaben können. Tauchen Sie ein!
+Sind Sie bereit, den Export von CID-URLs für MHTML-Ressourcen mit Aspose.Words für .NET zu meistern? Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, dieser umfassende Leitfaden führt Sie Schritt für Schritt durch die einzelnen Schritte. Am Ende dieses Artikels haben Sie ein klares Verständnis für den effizienten Umgang mit MHTML-Ressourcen in Ihren Word-Dokumenten. Los geht‘s!
 
 ## Voraussetzungen
 
 Bevor wir beginnen, stellen wir sicher, dass Sie alles haben, was Sie brauchen:
 
--  Aspose.Words für .NET: Stellen Sie sicher, dass Sie die neueste Version von Aspose.Words für .NET installiert haben. Wenn nicht, können Sie es hier herunterladen:[Hier](https://releases.aspose.com/words/net/).
+- Aspose.Words für .NET: Stellen Sie sicher, dass Sie die neueste Version von Aspose.Words für .NET installiert haben. Falls nicht, können Sie sie hier herunterladen. [Hier](https://releases.aspose.com/words/net/).
 - Entwicklungsumgebung: Eine Entwicklungsumgebung wie Visual Studio.
-- Grundkenntnisse in C#: Obwohl ich Sie durch jeden Schritt führe, sind grundlegende Kenntnisse in C# von Vorteil.
+- Grundkenntnisse in C#: Ich werde Sie zwar durch jeden Schritt führen, aber ein grundlegendes Verständnis von C# ist von Vorteil.
 
 ## Namespaces importieren
 
-Als Erstes importieren wir die erforderlichen Namespaces. Dieser Schritt bereitet den Boden für unser Tutorial:
+Zunächst importieren wir die erforderlichen Namespaces. Dieser Schritt bildet die Grundlage für unser Tutorial:
 
 ```csharp
 using System;
@@ -35,7 +37,7 @@ using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Lassen Sie uns den Vorgang nun in einfache, überschaubare Schritte unterteilen. Jeder Schritt enthält eine ausführliche Erklärung, damit Sie ihn mühelos nachvollziehen können.
+Lassen Sie uns den Prozess nun in einfache, überschaubare Schritte unterteilen. Jeder Schritt wird ausführlich erklärt, damit Sie ihn problemlos nachvollziehen können.
 
 ## Schritt 1: Einrichten Ihres Projekts
 
@@ -43,7 +45,7 @@ Lassen Sie uns den Vorgang nun in einfache, überschaubare Schritte unterteilen.
 Öffnen Sie Visual Studio und erstellen Sie ein neues C#-Projekt. Wählen Sie der Einfachheit halber die Vorlage „Konsolen-App“.
 
 ### Schritt 1.2: Aspose.Words für .NET-Referenz hinzufügen
-Um Aspose.Words für .NET zu verwenden, müssen Sie einen Verweis auf die Aspose.Words-Bibliothek hinzufügen. Sie können dies über den NuGet-Paketmanager tun:
+Um Aspose.Words für .NET zu verwenden, müssen Sie einen Verweis auf die Aspose.Words-Bibliothek hinzufügen. Dies können Sie über den NuGet-Paketmanager tun:
 
 1. Klicken Sie im Projektmappen-Explorer mit der rechten Maustaste auf Ihr Projekt.
 2. Wählen Sie „NuGet-Pakete verwalten“ aus.
@@ -52,13 +54,13 @@ Um Aspose.Words für .NET zu verwenden, müssen Sie einen Verweis auf die Aspose
 ## Schritt 2: Laden des Word-Dokuments
 
 ### Schritt 2.1: Dokumentverzeichnis festlegen
-Geben Sie den Pfad zu Ihrem Dokumentverzeichnis an. Hier liegt Ihr Word-Dokument.
+Definieren Sie den Pfad zu Ihrem Dokumentverzeichnis. Hier befindet sich Ihr Word-Dokument.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ersetzen`"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad zu Ihrem Verzeichnis.
+Ersetzen `"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad zu Ihrem Verzeichnis.
 
 ### Schritt 2.2: Laden Sie das Dokument
 Laden Sie Ihr Word-Dokument in das Projekt.
@@ -69,7 +71,7 @@ Document doc = new Document(dataDir + "Content-ID.docx");
 
 ## Schritt 3: Konfigurieren der HTML-Speicheroptionen
 
- Erstellen Sie eine Instanz von`HtmlSaveOptions` um anzupassen, wie Ihr Dokument als MHTML gespeichert wird.
+Erstellen Sie eine Instanz von `HtmlSaveOptions` um anzupassen, wie Ihr Dokument als MHTML gespeichert wird.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Mhtml)
@@ -94,27 +96,32 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ExportCidUrlsForMhtmlResources.mh
 
 ## Abschluss
 
-Herzlichen Glückwunsch! Sie haben erfolgreich Cid-URLs für MHTML-Ressourcen mit Aspose.Words für .NET exportiert. Dieses Tutorial hat Sie durch das Einrichten Ihres Projekts, das Laden eines Word-Dokuments, das Konfigurieren von HTML-Speicheroptionen und das Speichern des Dokuments als MHTML geführt. Jetzt können Sie diese Schritte auf Ihre eigenen Projekte anwenden und Ihre Dokumentverwaltungsaufgaben verbessern.
+Herzlichen Glückwunsch! Sie haben erfolgreich CID-URLs für MHTML-Ressourcen mit Aspose.Words für .NET exportiert. Dieses Tutorial hat Sie durch die Einrichtung Ihres Projekts, das Laden eines Word-Dokuments, das Konfigurieren der HTML-Speicheroptionen und das Speichern des Dokuments als MHTML geführt. Jetzt können Sie diese Schritte auf Ihre eigenen Projekte anwenden und Ihre Dokumentenverwaltung optimieren.
 
 ## Häufig gestellte Fragen
 
 ### Was ist der Zweck des Exportierens von Cid-URLs für MHTML-Ressourcen?
-Durch das Exportieren von Cid-URLs für MHTML-Ressourcen wird sichergestellt, dass auf eingebettete Ressourcen in Ihrer MHTML-Datei ordnungsgemäß verwiesen wird, wodurch die Portabilität und Integrität der Dokumente verbessert wird.
+Durch das Exportieren von Cid-URLs für MHTML-Ressourcen wird sichergestellt, dass auf eingebettete Ressourcen in Ihrer MHTML-Datei ordnungsgemäß verwiesen wird, wodurch die Portabilität und Integrität des Dokuments verbessert wird.
 
 ### Kann ich das Ausgabeformat weiter anpassen?
- Ja, Aspose.Words für .NET bietet umfangreiche Anpassungsoptionen zum Speichern von Dokumenten. Weitere Informationen finden Sie im[Dokumentation](https://reference.aspose.com/words/net/) für weitere Details.
+Ja, Aspose.Words für .NET bietet umfangreiche Anpassungsmöglichkeiten zum Speichern von Dokumenten. Weitere Informationen finden Sie im [Dokumentation](https://reference.aspose.com/words/net/) für weitere Details.
 
 ### Benötige ich eine Lizenz, um Aspose.Words für .NET zu verwenden?
- Ja, Sie benötigen eine Lizenz, um Aspose.Words für .NET zu verwenden. Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/) oder eine Lizenz erwerben[Hier](https://purchase.aspose.com/buy).
+Ja, Sie benötigen eine Lizenz, um Aspose.Words für .NET zu verwenden. Sie können eine kostenlose Testversion erhalten [Hier](https://releases.aspose.com/) oder eine Lizenz erwerben [Hier](https://purchase.aspose.com/buy).
 
 ### Kann ich diesen Vorgang für mehrere Dokumente automatisieren?
-Auf jeden Fall! Sie können ein Skript erstellen, um den Prozess für mehrere Dokumente zu automatisieren und dabei die Leistungsfähigkeit von Aspose.Words für .NET nutzen, um Stapelverarbeitungsvorgänge effizient abzuwickeln.
+Absolut! Sie können ein Skript erstellen, um den Prozess für mehrere Dokumente zu automatisieren und dabei die Leistungsfähigkeit von Aspose.Words für .NET nutzen, um Stapelverarbeitungsvorgänge effizient durchzuführen.
 
 ### Wo erhalte ich Unterstützung, wenn Probleme auftreten?
-Wenn Sie Unterstützung benötigen, besuchen Sie das Aspose-Supportforum[Hier](https://forum.aspose.com/c/words/8) für Unterstützung durch die Community und die Aspose-Entwickler.
+Wenn Sie Unterstützung benötigen, besuchen Sie das Aspose-Supportforum [Hier](https://forum.aspose.com/c/words/8) für Unterstützung durch die Community und die Aspose-Entwickler.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

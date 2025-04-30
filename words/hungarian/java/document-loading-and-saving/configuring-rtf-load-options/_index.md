@@ -1,59 +1,61 @@
 ---
-title: RTF betöltési opciók konfigurálása az Aspose.Words for Java programban
-linktitle: Az RTF betöltési opciók konfigurálása
-second_title: Aspose.Words Java Document Processing API
-description: RTF betöltési opciók konfigurálása az Aspose.Words for Java programban. Ismerje meg, hogyan ismerheti fel az UTF-8 szöveget az RTF-dokumentumokban. Útmutató lépésről lépésre kódpéldákkal.
-weight: 12
-url: /hu/java/document-loading-and-saving/configuring-rtf-load-options/
+"description": "RTF betöltési beállítások konfigurálása az Aspose.Words programban Java-ban. Tanuld meg, hogyan ismerd fel az UTF-8 szöveget RTF dokumentumokban. Lépésről lépésre útmutató kódpéldákkal."
+"linktitle": "RTF betöltési beállítások konfigurálása"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "RTF betöltési beállítások konfigurálása az Aspose.Words programban Java-ban"
+"url": "/hu/java/document-loading-and-saving/configuring-rtf-load-options/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# RTF betöltési opciók konfigurálása az Aspose.Words for Java programban
+# RTF betöltési beállítások konfigurálása az Aspose.Words programban Java-ban
 
 
-## Bevezetés az Aspose.Words for Java RTF betöltési beállításainak konfigurálásához
+## Bevezetés az RTF betöltési beállítások konfigurálásába az Aspose.Words for Java programban
 
-Ebben az útmutatóban megvizsgáljuk, hogyan konfigurálhatjuk az RTF betöltési beállításait az Aspose.Words for Java használatával. Az RTF (Rich Text Format) egy népszerű dokumentumformátum, amely az Aspose.Words segítségével tölthető be és kezelhető. Konkrét lehetőségre összpontosítunk,`RecognizeUtf8Text`, amely lehetővé teszi annak szabályozását, hogy az RTF-dokumentumban lévő UTF-8 kódolású szöveget felismerje-e vagy sem.
+Ebben az útmutatóban azt vizsgáljuk meg, hogyan konfigurálhatók az RTF betöltési beállítások az Aspose.Words for Java használatával. Az RTF (Rich Text Format) egy népszerű dokumentumformátum, amely az Aspose.Words segítségével tölthető be és kezelhető. Egy adott lehetőségre fogunk összpontosítani, `RecognizeUtf8Text`, amely lehetővé teszi annak szabályozását, hogy az RTF dokumentumban található UTF-8 kódolású szöveget felismerje-e a rendszer vagy sem.
 
 ## Előfeltételek
 
- Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Words for Java könyvtár integrálva van a projektjébe. Letöltheti a[weboldal](https://releases.aspose.com/words/java/).
+Mielőtt elkezdenéd, győződj meg róla, hogy az Aspose.Words for Java könyvtár integrálva van a projektedbe. Letöltheted innen: [weboldal](https://releases.aspose.com/words/java/).
 
-## 1. lépés: Az RTF betöltési opciók beállítása
+## 1. lépés: RTF betöltési beállítások megadása
 
- Először is létre kell hoznia egy példányt`RtfLoadOptions` és állítsa be a kívánt opciókat. Ebben a példában engedélyezzük a`RecognizeUtf8Text` lehetőség az UTF-8 kódolású szöveg felismerésére:
+Először is létre kell hoznod egy példányt a következőből: `RtfLoadOptions` és állítsa be a kívánt opciókat. Ebben a példában engedélyezzük a `RecognizeUtf8Text` UTF-8 kódolású szöveg felismerésének lehetősége:
 
 ```java
 RtfLoadOptions loadOptions = new RtfLoadOptions();
 loadOptions.setRecognizeUtf8Text(true);
 ```
 
- Itt,`loadOptions` példája`RtfLoadOptions` , és használtuk a`setRecognizeUtf8Text` módszer az UTF-8 szövegfelismerés engedélyezéséhez.
+Itt, `loadOptions` egy példa erre `RtfLoadOptions`, és mi használtuk a `setRecognizeUtf8Text` metódus az UTF-8 szövegfelismerés engedélyezéséhez.
 
-## 2. lépés: RTF-dokumentum betöltése
+## 2. lépés: RTF dokumentum betöltése
 
-Most, hogy konfiguráltuk a betöltési beállításainkat, betölthetünk egy RTF dokumentumot a megadott beállításokkal. Ebben a példában egy "UTF-8 characters.rtf" nevű dokumentumot töltünk be egy adott könyvtárból:
+Most, hogy konfiguráltuk a betöltési beállításokat, betölthetünk egy RTF dokumentumot a megadott beállításokkal. Ebben a példában egy "UTF-8 karakterek.rtf" nevű dokumentumot töltünk be egy adott könyvtárból:
 
 ```java
 Document doc = new Document("Your Directory Path" + "UTF-8 characters.rtf", loadOptions);
 ```
 
- Ügyeljen arra, hogy cserélje ki`"Your Directory Path"` a dokumentumkönyvtár megfelelő elérési útjával.
+Mindenképpen cserélje ki `"Your Directory Path"` a dokumentumkönyvtár megfelelő elérési útjával.
 
 ## 3. lépés: A dokumentum mentése
 
-Az RTF dokumentum betöltése után az Aspose.Words segítségével különféle műveleteket hajthat végre rajta. Ha végzett, mentse el a módosított dokumentumot a következő kóddal:
+Az RTF dokumentum betöltése után különféle műveleteket végezhet rajta az Aspose.Words segítségével. Ha elkészült, mentse el a módosított dokumentumot a következő kóddal:
 
 ```java
 doc.save("Your Directory Path" + "WorkingWithRtfLoadOptions.RecognizeUtf8Text.rtf");
 ```
 
- Cserélje ki`"Your Directory Path"` azzal az elérési úttal, ahová a módosított dokumentumot menteni szeretné.
+Csere `"Your Directory Path"` azzal az elérési úttal, ahová a módosított dokumentumot menteni szeretné.
 
-## Teljes forráskód az Aspose.Words for Java RTF betöltési beállításainak konfigurálásához
+## Teljes forráskód az RTF betöltési beállítások konfigurálásához az Aspose.Words programban Java-hoz
 
 ```java
 RtfLoadOptions loadOptions = new RtfLoadOptions();
@@ -66,28 +68,33 @@ doc.save("Your Directory Path" + "WorkingWithRtfLoadOptions.RecognizeUtf8Text.rt
 
 ## Következtetés
 
- Ebben az oktatóanyagban megtanulta, hogyan konfigurálhatja az RTF betöltési beállításait az Aspose.Words for Java programban. Konkrétan arra összpontosítottunk, hogy engedélyezzük a`RecognizeUtf8Text` opció az UTF-8 kódolású szöveg kezelésére az RTF-dokumentumokban. Ez a funkció lehetővé teszi, hogy a szövegkódolások széles skálájával dolgozzon, növelve a dokumentumfeldolgozási feladatok rugalmasságát.
+Ebben az oktatóanyagban megtanultad, hogyan konfigurálhatod az RTF betöltési beállításokat az Aspose.Words for Java programban. Konkrétan a következők engedélyezésére összpontosítottunk: `RecognizeUtf8Text` opció az UTF-8 kódolású szöveg kezelésére az RTF dokumentumokban. Ez a funkció lehetővé teszi a szövegkódolások széles skálájának használatát, növelve a dokumentumfeldolgozási feladatok rugalmasságát.
 
 ## GYIK
 
-### Hogyan tilthatom le az UTF-8 szövegfelismerést?
+### Hogyan tudom letiltani az UTF-8 szövegfelismerést?
 
- Az UTF-8 szövegfelismerés letiltásához egyszerűen állítsa be a`RecognizeUtf8Text` opciót`false` a saját konfigurálásakor`RtfLoadOptions` . Ezt hívással lehet megtenni`setRecognizeUtf8Text(false)`.
+Az UTF-8 szövegfelismerés letiltásához egyszerűen állítsa be a `RecognizeUtf8Text` lehetőség `false` a konfigurálásakor `RtfLoadOptions`Ez megtehető a következő hívásával: `setRecognizeUtf8Text(false)`.
 
-### Milyen egyéb lehetőségek állnak rendelkezésre az RtfLoadOptions alkalmazásban?
+### Milyen egyéb lehetőségek érhetők el az RtfLoadOptions függvénnyel?
 
- Az RtfLoadOptions különféle lehetőségeket kínál az RTF-dokumentumok betöltésének konfigurálásához. Az általánosan használt opciók közé tartozik`setPassword` jelszóval védett dokumentumokhoz és`setLoadFormat` a formátum megadásához az RTF fájlok betöltésekor.
+Az RtfLoadOptions különféle beállításokat kínál az RTF dokumentumok betöltésének konfigurálásához. Néhány a gyakran használt beállítások közül: `setPassword` jelszóval védett dokumentumokhoz és `setLoadFormat` az RTF fájlok betöltésekor használandó formátum megadásához.
 
-### Módosíthatom a dokumentumot a betöltés után ezekkel az opciókkal?
+### Módosíthatom a dokumentumot a betöltés után ezekkel a beállításokkal?
 
-Igen, a betöltés után a dokumentumon különféle módosításokat végezhet a megadott opciókkal. Az Aspose.Words szolgáltatások széles skáláját kínálja a dokumentumok tartalmával, formázásával és szerkezetével kapcsolatos munkához.
+Igen, a megadott beállításokkal betöltés után különféle módosításokat végezhet a dokumentumon. Az Aspose.Words számos funkciót kínál a dokumentum tartalmával, formázásával és szerkezetével való munkához.
 
-### Hol találok több információt az Aspose.Words for Java programról?
+### Hol találok további információt az Aspose.Words for Java-ról?
 
- Hivatkozhat a[Aspose.Words for Java dokumentáció](https://reference.aspose.com/words/java/) átfogó információkért, API-referenciákért és példákért a könyvtár használatával kapcsolatban.
+Hivatkozhat a [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/) átfogó információkért, API-referenciáért és a könyvtár használatára vonatkozó példákért.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

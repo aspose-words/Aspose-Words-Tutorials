@@ -1,21 +1,23 @@
 ---
-title: Znakowanie wodne dokumentów i konfiguracja strony
-linktitle: Znakowanie wodne dokumentów i konfiguracja strony
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak stosować znaki wodne i konfigurować strony za pomocą Aspose.Words dla Java. Kompleksowy przewodnik z kodem źródłowym.
-weight: 13
-url: /pl/java/document-styling/document-watermarking-page-setup/
+"description": "Dowiedz się, jak stosować znaki wodne i konfigurować strony za pomocą Aspose.Words dla Java. Kompleksowy przewodnik z kodem źródłowym."
+"linktitle": "Znakowanie wodne dokumentów i konfiguracja strony"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Znakowanie wodne dokumentów i konfiguracja strony"
+"url": "/pl/java/document-styling/document-watermarking-page-setup/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Znakowanie wodne dokumentów i konfiguracja strony
 
 ## Wstęp
 
-W dziedzinie manipulacji dokumentami Aspose.Words for Java jest potężnym narzędziem, pozwalającym programistom sprawować kontrolę nad każdym aspektem przetwarzania dokumentów. W tym kompleksowym przewodniku zagłębimy się w zawiłości znakowania wodnego dokumentów i konfiguracji stron przy użyciu Aspose.Words for Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero wkraczasz w świat przetwarzania dokumentów Java, ten przewodnik krok po kroku wyposaży Cię w wiedzę i kod źródłowy, których potrzebujesz.
+dziedzinie manipulacji dokumentami Aspose.Words for Java jest potężnym narzędziem, pozwalającym programistom sprawować kontrolę nad każdym aspektem przetwarzania dokumentów. W tym kompleksowym przewodniku zagłębimy się w zawiłości znakowania wodnego dokumentów i konfiguracji stron przy użyciu Aspose.Words for Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero wkraczasz w świat przetwarzania dokumentów Java, ten przewodnik krok po kroku wyposaży Cię w wiedzę i kod źródłowy, których potrzebujesz.
 
 ## Znakowanie wodne dokumentów
 
@@ -140,16 +142,21 @@ doc.getFirstSection().getPageSetup().setPageStartingNumber(5);
 
 ### Jak wyrównać tekst w nagłówku lub stopce do środka?
 
-Tekst w nagłówku lub stopce można wyrównać do środka, używając metody setAlignment w obiekcie Paragraph w nagłówku lub stopce.
+Tekst w nagłówku lub stopce można wyrównać do środka, używając metody setAlignment w obiekcie Paragraph znajdującym się w nagłówku lub stopce.
 
 ## Wniosek
 
 tym obszernym przewodniku zbadaliśmy sztukę znakowania wodnego dokumentów i konfiguracji stron przy użyciu Aspose.Words for Java. Uzbrojony w dostarczone fragmenty kodu źródłowego i spostrzeżenia, posiadasz teraz narzędzia do manipulowania i formatowania dokumentów z finezją. Aspose.Words for Java umożliwia tworzenie profesjonalnych, markowych dokumentów dostosowanych do Twoich dokładnych specyfikacji.
 
 Opanowanie manipulacji dokumentami to cenna umiejętność dla programistów, a Aspose.Words for Java jest Twoim zaufanym towarzyszem w tej podróży. Zacznij tworzyć oszałamiające dokumenty już dziś!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

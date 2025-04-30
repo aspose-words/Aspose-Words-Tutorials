@@ -1,14 +1,16 @@
 ---
-title: Sửa đổi Kiểm soát Nội dung
-linktitle: Sửa đổi Kiểm soát Nội dung
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách sửa đổi thẻ tài liệu có cấu trúc trong Word bằng Aspose.Words cho .NET. Cập nhật văn bản, danh sách thả xuống và hình ảnh từng bước.
-weight: 10
-url: /vi/net/programming-with-sdt/modify-content-controls/
+"description": "Tìm hiểu cách sửa đổi thẻ tài liệu có cấu trúc trong Word bằng Aspose.Words cho .NET. Cập nhật văn bản, danh sách thả xuống và hình ảnh từng bước."
+"linktitle": "Sửa đổi Kiểm soát Nội dung"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Sửa đổi Kiểm soát Nội dung"
+"url": "/vi/net/programming-with-sdt/modify-content-controls/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sửa đổi Kiểm soát Nội dung
@@ -21,7 +23,7 @@ Nếu bạn đã từng làm việc với các tài liệu Word và cần sửa 
 
 Trước khi đi sâu vào việc sửa đổi các điều khiển nội dung, hãy đảm bảo bạn có những điều sau:
 
-1.  Đã cài đặt Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words. Nếu chưa, bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET đã được cài đặt: Đảm bảo bạn đã cài đặt thư viện Aspose.Words. Nếu chưa, bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 
 2. Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn đã quen thuộc với các khái niệm lập trình C# cơ bản.
 
@@ -29,7 +31,7 @@ Trước khi đi sâu vào việc sửa đổi các điều khiển nội dung, 
 
 4. Tài liệu mẫu: Chúng tôi sẽ sử dụng một tài liệu Word mẫu với nhiều loại SDT khác nhau. Bạn có thể sử dụng tài liệu trong ví dụ hoặc tự tạo tài liệu của riêng mình.
 
-5.  Truy cập vào Tài liệu Aspose: Để biết thông tin chi tiết hơn, hãy xem[Tài liệu Aspose.Words](https://reference.aspose.com/words/net/).
+5. Truy cập vào Tài liệu Aspose: Để biết thông tin chi tiết hơn, hãy xem [Tài liệu Aspose.Words](https://reference.aspose.com/words/net/).
 
 ## Nhập không gian tên
 
@@ -45,7 +47,7 @@ Các không gian tên này sẽ cung cấp cho bạn quyền truy cập vào cá
 
 ## Bước 1: Thiết lập đường dẫn tài liệu của bạn
 
- Trước khi thực hiện bất kỳ thay đổi nào, bạn cần chỉ định đường dẫn đến tài liệu của mình. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn được lưu trữ.
+Trước khi thực hiện bất kỳ thay đổi nào, bạn cần chỉ định đường dẫn đến tài liệu của mình. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn được lưu trữ.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -54,7 +56,7 @@ Document doc = new Document(dataDir + "Structured document tags.docx");
 
 ## Bước 2: Lặp qua các thẻ tài liệu có cấu trúc
 
- Để sửa đổi SDT, trước tiên bạn cần lặp qua tất cả SDT trong tài liệu. Điều này được thực hiện bằng cách sử dụng`GetChildNodes` phương pháp để lấy tất cả các nút có kiểu`StructuredDocumentTag`.
+Để sửa đổi SDT, trước tiên bạn cần lặp qua tất cả SDT trong tài liệu. Điều này được thực hiện bằng cách sử dụng `GetChildNodes` phương pháp để lấy tất cả các nút của loại `StructuredDocumentTag`.
 
 ```csharp
 foreach (StructuredDocumentTag sdt in doc.GetChildNodes(NodeType.StructuredDocumentTag, true))
@@ -77,11 +79,11 @@ if (sdt.SdtType == SdtType.PlainText)
 }
 ```
 
- Giải thích: Ở đây,`RemoveAllChildren()`xóa nội dung hiện có của SDT. Sau đó chúng tôi tạo một nội dung mới`Paragraph` Và`Run` đối tượng để chèn văn bản mới.
+Giải thích: Ở đây, `RemoveAllChildren()` xóa nội dung hiện có của SDT. Sau đó chúng tôi tạo một nội dung mới `Paragraph` Và `Run` đối tượng để chèn văn bản mới.
 
 ## Bước 4: Sửa đổi SDT của danh sách thả xuống
 
- Đối với danh sách thả xuống SDT, bạn có thể thay đổi mục đã chọn bằng cách truy cập`ListItems` bộ sưu tập. Ở đây, chúng ta chọn mục thứ ba trong danh sách.
+Đối với danh sách thả xuống SDT, bạn có thể thay đổi mục đã chọn bằng cách truy cập `ListItems` bộ sưu tập. Ở đây, chúng ta chọn mục thứ ba trong danh sách.
 
 ```csharp
 if (sdt.SdtType == SdtType.DropDownList)
@@ -108,7 +110,7 @@ if (sdt.SdtType == SdtType.Picture)
 }
 ```
 
- Giải thích: Mã này kiểm tra xem hình dạng có chứa hình ảnh hay không và sau đó thay thế nó bằng một hình ảnh mới nằm tại`ImagesDir`.
+Giải thích: Mã này kiểm tra xem hình dạng có chứa hình ảnh hay không và sau đó thay thế nó bằng một hình ảnh mới nằm tại `ImagesDir`.
 
 ## Bước 6: Lưu tài liệu đã sửa đổi của bạn
 
@@ -132,7 +134,7 @@ SDT là các thành phần trong tài liệu Word giúp quản lý và định d
 
 2. Làm thế nào để thêm mục thả xuống mới vào SDT?
 
- Để thêm một mục mới, hãy sử dụng`ListItems` thuộc tính và thêm một cái mới`SdtListItem` vào bộ sưu tập.
+Để thêm một mục mới, hãy sử dụng `ListItems` thuộc tính và thêm một cái mới `SdtListItem` vào bộ sưu tập.
 
 3. Tôi có thể sử dụng Aspose.Words để xóa SDT khỏi tài liệu không?
 
@@ -140,7 +142,7 @@ Có, bạn có thể xóa SDT bằng cách truy cập vào các nút của tài 
 
 4. Tôi phải xử lý các SDT được lồng vào các phần tử khác như thế nào?
 
- Sử dụng`GetChildNodes` phương pháp có tham số thích hợp để truy cập SDT lồng nhau.
+Sử dụng `GetChildNodes` phương pháp có tham số thích hợp để truy cập SDT lồng nhau.
 
 5. Tôi phải làm gì nếu SDT tôi cần sửa đổi không hiển thị trong tài liệu?
 
@@ -150,7 +152,7 @@ Có, bạn có thể xóa SDT bằng cách truy cập vào các nút của tài 
 ### Mã nguồn ví dụ để Sửa đổi Kiểm soát Nội dung bằng Aspose.Words cho .NET 
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Structured document tags.docx");
@@ -188,9 +190,13 @@ doc.Save(dataDir + "WorkingWithSdt.ModifyContentControls.docx");
 ```
 
 Vậy là xong! Bạn đã sửa đổi thành công các loại điều khiển nội dung khác nhau trong tài liệu Word của mình bằng Aspose.Words cho .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

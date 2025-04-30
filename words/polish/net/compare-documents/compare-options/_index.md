@@ -1,14 +1,16 @@
 ---
-title: Porównaj opcje w dokumencie Word
-linktitle: Porównaj opcje w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak porównywać dokumenty Word za pomocą Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Zapewnij spójność dokumentów bez wysiłku.
-weight: 10
-url: /pl/net/compare-documents/compare-options/
+"description": "Dowiedz się, jak porównywać dokumenty Word za pomocą Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Zapewnij spójność dokumentów bez wysiłku."
+"linktitle": "Porównaj opcje w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Porównaj opcje w dokumencie Word"
+"url": "/pl/net/compare-documents/compare-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Porównaj opcje w dokumencie Word
@@ -21,7 +23,7 @@ Cześć, koledzy entuzjaści technologii! Czy kiedykolwiek musieliście porówna
 
 Zanim zaczniemy brudzić sobie ręce kodem, upewnijmy się, że mamy wszystko, czego potrzebujemy. Oto krótka lista kontrolna:
 
-1.  Biblioteka Aspose.Words dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.Words dla .NET. Jeśli jeszcze tego nie zrobiłeś, możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.Words dla .NET. Jeśli jeszcze tego nie zrobiłeś, możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: dowolne środowisko programistyczne C#, np. Visual Studio, spełni swoje zadanie.
 3. Podstawowa znajomość języka C#: Przydatna będzie podstawowa znajomość programowania w języku C#.
 4. Przykładowe dokumenty Word: Dwa dokumenty Word, które chcesz porównać.
@@ -64,7 +66,7 @@ Document docB = docA.Clone();
 W tym fragmencie:
 - Podajemy katalog, w którym przechowywane są nasze dokumenty.
 - Ładujemy pierwszy dokument (`docA`).
--  Klonujemy`docA` stworzyć`docB`W ten sposób mamy dwa identyczne dokumenty do pracy.
+- Klonujemy `docA` stworzyć `docB`W ten sposób mamy dwa identyczne dokumenty do pracy.
 
 ## Krok 3: Skonfiguruj opcje porównania
 
@@ -103,7 +105,7 @@ docA.Compare(docB, "user", DateTime.Now, options);
 ```
 
 W tym wierszu:
--  Porównujemy`docA` z`docB`.
+- Porównujemy `docA` z `docB`.
 - Podajemy nazwę użytkownika („user”) oraz aktualną datę i godzinę.
 
 ## Krok 5: Sprawdź i wyświetl wyniki
@@ -114,7 +116,7 @@ Na koniec sprawdzamy wyniki porównania i wyświetlamy, czy dokumenty są równe
 Console.WriteLine(docA.Revisions.Count == 0 ? "Documents are equal" : "Documents are not equal");
 ```
 
- Jeśli`docA.Revisions.Count` jest zerem, oznacza to, że nie ma różnic między dokumentami. W przeciwnym wypadku wskazuje, że istnieją pewne różnice.
+Jeśli `docA.Revisions.Count` jest zerem, oznacza to, że nie ma różnic między dokumentami. W przeciwnym wypadku wskazuje, że istnieją pewne różnice.
 
 ## Wniosek
 
@@ -126,7 +128,7 @@ I masz! Udało Ci się porównać dwa dokumenty Worda przy użyciu Aspose.Words 
 Aspose.Words dla .NET porównuje dwa dokumenty na raz. Aby porównać wiele dokumentów, możesz to zrobić parami.
 
 ### Jak ignorować zmiany w obrazach?  
- Możesz skonfigurować`CompareOptions` aby ignorować różne elementy, ale ignorowanie obrazów wymaga specjalnej obsługi.
+Możesz skonfigurować `CompareOptions` aby ignorować różne elementy, ale ignorowanie obrazów wymaga specjalnej obsługi.
 
 ### Czy mogę otrzymać szczegółowy raport opisujący różnice?  
 Tak, Aspose.Words udostępnia szczegółowe informacje o rewizjach, do których można uzyskać dostęp programowo.
@@ -135,10 +137,15 @@ Tak, Aspose.Words udostępnia szczegółowe informacje o rewizjach, do których 
 Tak, ale najpierw musisz odblokować dokumenty, podając odpowiednie hasło.
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?  
- Więcej przykładów i szczegółową dokumentację można znaleźć na stronie[Dokumentacja Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+Więcej przykładów i szczegółową dokumentację można znaleźć na stronie [Dokumentacja Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

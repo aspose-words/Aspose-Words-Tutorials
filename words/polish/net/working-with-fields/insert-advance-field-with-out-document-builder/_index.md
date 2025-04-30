@@ -1,14 +1,16 @@
 ---
-title: Wstaw pole zaawansowane bez tworzenia dokumentów
-linktitle: Wstaw pole zaawansowane bez tworzenia dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawić pole zaawansowane bez użycia DocumentBuilder w Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem, aby zwiększyć swoje umiejętności przetwarzania dokumentów.
-weight: 10
-url: /pl/net/working-with-fields/insert-advance-field-with-out-document-builder/
+"description": "Dowiedz się, jak wstawić pole zaawansowane bez użycia DocumentBuilder w Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem, aby zwiększyć swoje umiejętności przetwarzania dokumentów."
+"linktitle": "Wstaw pole zaawansowane bez tworzenia dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw pole zaawansowane bez tworzenia dokumentów"
+"url": "/pl/net/working-with-fields/insert-advance-field-with-out-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw pole zaawansowane bez tworzenia dokumentów
@@ -21,10 +23,10 @@ Czy chcesz udoskonalić manipulacje dokumentami Worda za pomocą Aspose.Words dl
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
--  Biblioteka Aspose.Words dla .NET: Można ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+- Biblioteka Aspose.Words dla .NET: Można ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 - Visual Studio: Wystarczy dowolna nowsza wersja.
 - Podstawowa wiedza o języku C#: W tym samouczku zakładamy, że posiadasz podstawową wiedzę na temat programowania w języku C#.
--  Licencja Aspose.Words: Uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/) jeśli nie masz.
+- Licencja Aspose.Words: Uzyskaj tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/) jeśli nie masz.
 
 ## Importuj przestrzenie nazw
 
@@ -58,7 +60,7 @@ Teraz, gdy nasz projekt jest już skonfigurowany, musimy zainicjować nowy dokum
 
 ### Zainicjuj dokument
 
-1.  W twoim`Program.cs` plik, zacznij od utworzenia nowego dokumentu:
+1. W twoim `Program.cs` plik, zacznij od utworzenia nowego dokumentu:
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
@@ -132,13 +134,13 @@ Zapisuje dokument z uwzględnieniem pola zaawansowanego.
 
 ## Wniosek
 
-I masz to! Udało Ci się wstawić pole zaawansowane do dokumentu Word bez użycia klasy DocumentBuilder. Wykonując te kroki, wykorzystałeś moc Aspose.Words dla .NET do programowego manipulowania dokumentami Word. Niezależnie od tego, czy automatyzujesz generowanie raportów, czy tworzysz złożone szablony dokumentów, ta wiedza niewątpliwie okaże się przydatna. Eksperymentuj i odkrywaj możliwości Aspose.Words, aby przenieść przetwarzanie dokumentów na wyższy poziom!
+masz to! Udało Ci się wstawić pole zaawansowane do dokumentu Word bez użycia klasy DocumentBuilder. Wykonując te kroki, wykorzystałeś moc Aspose.Words dla .NET do programowego manipulowania dokumentami Word. Niezależnie od tego, czy automatyzujesz generowanie raportów, czy tworzysz złożone szablony dokumentów, ta wiedza niewątpliwie okaże się przydatna. Eksperymentuj i odkrywaj możliwości Aspose.Words, aby przenieść przetwarzanie dokumentów na wyższy poziom!
 
 ## Najczęściej zadawane pytania
 
 ### Czym jest pole zaawansowane w Aspose.Words?
 
-Zaawansowane pole w Aspose.Words umożliwia kontrolowanie położenia tekstu względem jego normalnej pozycji, zapewniając precyzyjną kontrolę nad układem tekstu w dokumentach.
+Zaawansowane pole w Aspose.Words umożliwia kontrolowanie położenia tekstu względem jego normalnego położenia, zapewniając precyzyjną kontrolę nad układem tekstu w dokumentach.
 
 ### Czy mogę używać DocumentBuilder z polami zaawansowanymi?
 
@@ -146,18 +148,23 @@ Tak, możesz użyć DocumentBuilder do wstawiania pól zaawansowanych, ale ten s
 
 ### Gdzie mogę znaleźć więcej przykładów użycia Aspose.Words?
 
- Pełną dokumentację i przykłady można znaleźć na stronie[Dokumentacja Aspose.Words dla .NET](https://reference.aspose.com/words/net/) strona.
+Pełną dokumentację i przykłady można znaleźć na stronie [Dokumentacja Aspose.Words dla .NET](https://reference.aspose.com/words/net/) strona.
 
 ### Czy korzystanie z Aspose.Words dla .NET jest bezpłatne?
 
- Aspose.Words dla .NET oferuje bezpłatną wersję próbną, którą można pobrać[Tutaj](https://releases.aspose.com/)Aby uzyskać pełną funkcjonalność, musisz zakupić licencję.
+Aspose.Words dla .NET oferuje bezpłatną wersję próbną, którą można pobrać [Tutaj](https://releases.aspose.com/)Aby uzyskać pełną funkcjonalność, musisz zakupić licencję.
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Words dla platformy .NET?
 
- Aby uzyskać pomoc, możesz odwiedzić stronę[Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8).
+Aby uzyskać pomoc, możesz odwiedzić stronę [Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

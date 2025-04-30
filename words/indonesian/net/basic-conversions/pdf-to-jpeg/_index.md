@@ -1,14 +1,16 @@
 ---
-title: Simpan Pdf sebagai Jpeg
-linktitle: Simpan Pdf sebagai Jpeg
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Konversi PDF ke JPEG dengan mudah menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami dengan contoh dan Tanya Jawab Umum. Sempurna untuk pengembang dan penggemar.
-weight: 10
-url: /id/net/basic-conversions/pdf-to-jpeg/
+"description": "Konversi PDF ke JPEG dengan mudah menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami dengan contoh dan Tanya Jawab Umum. Sempurna untuk pengembang dan penggemar."
+"linktitle": "Simpan Pdf sebagai Jpeg"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Simpan Pdf sebagai Jpeg"
+"url": "/id/net/basic-conversions/pdf-to-jpeg/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Simpan Pdf sebagai Jpeg
@@ -21,10 +23,10 @@ Pernahkah Anda berada dalam situasi di mana Anda perlu mengonversi file PDF ke g
 
 Sebelum kita masuk ke inti permasalahan, mari kita pastikan semua hal sudah dipersiapkan dengan baik. Berikut ini yang Anda butuhkan:
 
-1. Aspose.Words untuk .NET: Pastikan Anda telah memasang pustaka canggih ini. Jika belum, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka canggih ini. Jika belum, Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. .NET Framework: Pastikan Anda telah menyiapkan lingkungan .NET di komputer Anda.
 3. Visual Studio: Versi apa pun bisa digunakan, asalkan Anda nyaman menavigasinya.
-4.  File PDF: Siapkan file PDF Anda untuk dikonversi. Untuk tutorial ini, kami akan menggunakan file bernama`Pdf Document.pdf`.
+4. File PDF: Siapkan file PDF Anda untuk dikonversi. Untuk tutorial ini, kami akan menggunakan file bernama `Pdf Document.pdf`.
 
 ## Mengimpor Ruang Nama
 
@@ -42,7 +44,7 @@ Baiklah, mari kita masuk ke bagian yang menyenangkan! Kita akan membagi prosesny
 Sebelum mulai menulis kode, Anda perlu menyiapkan proyek Anda. Berikut caranya:
 
 1. Buka Visual Studio: Mulailah dengan meluncurkan Visual Studio dan buat proyek C# baru.
-2.  Instal Aspose.Words: Gunakan NuGet Package Manager untuk menginstal Aspose.Words untuk .NET. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/words/net/).
+2. Instal Aspose.Words: Gunakan NuGet Package Manager untuk menginstal Aspose.Words untuk .NET. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/words/net/).
 
 ```shell
 Install-Package Aspose.Words
@@ -60,7 +62,7 @@ Sekarang proyek kita sudah siap, mari kita muat dokumen PDF. Di sinilah Aspose.W
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
 
-2.  Muat PDF: Gunakan`Document` kelas dari Aspose.Words untuk memuat PDF Anda.
+2. Muat PDF: Gunakan `Document` kelas dari Aspose.Words untuk memuat PDF Anda.
 
     ```csharp
     Document doc = new Document(dataDir + "Pdf Document.pdf");
@@ -70,7 +72,7 @@ Sekarang proyek kita sudah siap, mari kita muat dokumen PDF. Di sinilah Aspose.W
 
 Setelah PDF kita dimuat, saatnya melakukan konversi. Langkah ini ternyata mudah.
 
-1.  Simpan sebagai JPEG: Gunakan`Save` metode untuk mengubah PDF menjadi gambar JPEG.
+1. Simpan sebagai JPEG: Gunakan `Save` metode untuk mengubah PDF menjadi gambar JPEG.
 
     ```csharp
     doc.Save(dataDir + "BaseConversions.PdfToJpeg.jpeg");
@@ -94,14 +96,19 @@ Ya, benar! Anda dapat menyimpan PDF sebagai PNG, BMP, dan lainnya.
 Memang benar. Aspose.Words mendukung .NET Framework dan .NET Core.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words?
- Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/) atau membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+Anda bisa mendapatkan uji coba gratis [Di Sini](https://releases.aspose.com/) atau membeli lisensi [Di Sini](https://purchase.aspose.com/buy).
 
 ### Di mana saya dapat menemukan lebih banyak tutorial tentang Aspose.Words?
- Lihat di sini[dokumentasi](https://reference.aspose.com/words/net/) untuk berbagai macam tutorial dan panduan.
+Lihat di sini [dokumentasi](https://reference.aspose.com/words/net/) untuk berbagai macam tutorial dan panduan.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

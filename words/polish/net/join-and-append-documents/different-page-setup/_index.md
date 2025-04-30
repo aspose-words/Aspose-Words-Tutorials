@@ -1,14 +1,16 @@
 ---
-title: Różne ustawienia strony
-linktitle: Różne ustawienia strony
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak ustawić różne konfiguracje stron podczas scalania dokumentów Word za pomocą Aspose.Words dla .NET. Zawiera przewodnik krok po kroku.
-weight: 10
-url: /pl/net/join-and-append-documents/different-page-setup/
+"description": "Dowiedz się, jak ustawić różne konfiguracje stron podczas scalania dokumentów Word za pomocą Aspose.Words dla .NET. Zawiera przewodnik krok po kroku."
+"linktitle": "Różne ustawienia strony"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Różne ustawienia strony"
+"url": "/pl/net/join-and-append-documents/different-page-setup/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Różne ustawienia strony
@@ -19,9 +21,9 @@ Cześć! Gotowy, aby zanurzyć się w fascynującym świecie manipulacji dokumen
 
 ## Wymagania wstępne
 
-Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz:
+Zanim zabierzemy się do pracy, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowany Aspose.Words dla .NET. Możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowany Aspose.Words dla .NET. Możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. .NET Framework: Dowolna wersja obsługująca Aspose.Words dla platformy .NET.
 3. Środowisko programistyczne: Visual Studio lub inne środowisko IDE zgodne z platformą .NET.
 4. Podstawowa wiedza o języku C#: Tylko podstawy pozwalające zrozumieć składnię i strukturę.
@@ -44,7 +46,7 @@ Dobrze, przejdźmy do sedna sprawy. Podzielimy cały proces na łatwe do naślad
 
 Uruchom program Visual Studio i utwórz nową aplikację konsoli C#. Nazwij ją jakoś fajnie, np. „DifferentPageSetupExample”.
 
-### Krok 1.2: Dodaj odniesienie do Aspose.Words
+### Krok 1.2: Dodaj odniesienie Aspose.Words
 
 Aby użyć Aspose.Words, musisz dodać go do swojego projektu. Jeśli jeszcze tego nie zrobiłeś, pobierz pakiet Aspose.Words dla .NET. Możesz go zainstalować za pomocą NuGet Package Manager za pomocą następującego polecenia:
 
@@ -54,7 +56,7 @@ Install-Package Aspose.Words
 
 ## Krok 2: Załaduj dokumenty
 
- Teraz załadujmy dokumenty, które chcemy połączyć. W tym przykładzie będziesz potrzebować dwóch dokumentów Word:`Document source.docx` I`Northwind traders.docx`. Upewnij się, że te pliki znajdują się w katalogu Twojego projektu.
+Teraz załadujmy dokumenty, które chcemy połączyć. W tym przykładzie będziesz potrzebować dwóch dokumentów Word: `Document source.docx` I `Northwind traders.docx`. Upewnij się, że te pliki znajdują się w katalogu Twojego projektu.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -98,7 +100,7 @@ srcDoc.FirstSection.PageSetup.Orientation = dstDoc.LastSection.PageSetup.Orienta
 
 Aby zapewnić płynny przepływ tekstu, musimy dostosować formatowanie akapitu w dokumencie źródłowym.
 
- Przejrzyj wszystkie akapity w dokumencie źródłowym i ustaw`KeepWithNext` nieruchomość.
+Przejrzyj wszystkie akapity w dokumencie źródłowym i ustaw `KeepWithNext` nieruchomość.
 
 ```csharp
 foreach (Paragraph para in srcDoc.GetChildNodes(NodeType.Paragraph, true))
@@ -130,7 +132,7 @@ masz to! Właśnie połączyłeś dwa dokumenty Word z różnymi ustawieniami st
 ## Najczęściej zadawane pytania
 
 ### Czy mogę użyć tej metody do więcej niż dwóch dokumentów?
-Oczywiście! Po prostu powtórz kroki dla każdego dodatkowego dokumentu, który chcesz scalić.
+Oczywiście! Po prostu powtórz kroki dla każdego dodatkowego dokumentu, który chcesz połączyć.
 
 ### Co zrobić, jeśli moje dokumenty mają różne marginesy?
 Możesz także dopasować ustawienia marginesów w podobny sposób, w jaki dopasowaliśmy szerokość, wysokość i orientację strony.
@@ -139,14 +141,19 @@ Możesz także dopasować ustawienia marginesów w podobny sposób, w jaki dopas
 Tak, Aspose.Words dla .NET jest w pełni kompatybilny z .NET Core.
 
 ### Czy mogę zachować style z obu dokumentów?
- Tak,`ImportFormatMode.KeepSourceFormatting` opcja ta zapewnia zachowanie stylów ze źródłowego dokumentu.
+Tak, `ImportFormatMode.KeepSourceFormatting` opcja ta zapewnia zachowanie stylów ze źródłowego dokumentu.
 
 ### Gdzie mogę uzyskać więcej pomocy na temat Aspose.Words?
- Sprawdź[Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) lub odwiedź ich[forum wsparcia](https://forum.aspose.com/c/words/8) Aby uzyskać dalszą pomoc.
+Sprawdź [Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) lub odwiedź ich [forum wsparcia](https://forum.aspose.com/c/words/8) Aby uzyskać dalszą pomoc.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

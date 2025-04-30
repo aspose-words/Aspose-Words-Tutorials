@@ -1,22 +1,24 @@
 ---
-title: Generazione di un indice in Aspose.Words per Java
-linktitle: Generazione dell'indice
-second_title: API di elaborazione dei documenti Java Aspose.Words
-description: Scopri come generare e personalizzare l'indice (TOC) utilizzando Aspose.Words per Java. Crea documenti organizzati e professionali senza sforzo.
-weight: 21
-url: /it/java/document-manipulation/generating-table-of-contents/
+"description": "Scopri come generare e personalizzare l'indice (TOC) utilizzando Aspose.Words per Java. Crea documenti organizzati e professionali senza sforzo."
+"linktitle": "Generazione del sommario"
+"second_title": "API di elaborazione dei documenti Java Aspose.Words"
+"title": "Generazione di un indice in Aspose.Words per Java"
+"url": "/it/java/document-manipulation/generating-table-of-contents/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Generazione di un indice in Aspose.Words per Java
 
 
-## Introduzione alla generazione di un indice in Aspose.Words per Java
+## Introduzione alla generazione di indici in Aspose.Words per Java
 
-In questo tutorial, ti guideremo attraverso il processo di generazione di un indice (TOC) utilizzando Aspose.Words per Java. L'indice è una funzionalità fondamentale per la creazione di documenti organizzati. Spiegheremo come personalizzare l'aspetto e il layout dell'indice.
+In questo tutorial, ti guideremo attraverso il processo di generazione di un indice (TOC) utilizzando Aspose.Words per Java. L'indice è una funzionalità fondamentale per la creazione di documenti organizzati. Vedremo come personalizzarne l'aspetto e il layout.
 
 ## Prerequisiti
 
@@ -32,27 +34,27 @@ Document doc = new Document();
 
 ## Passaggio 2: personalizzare gli stili del sommario
 
-Per personalizzare l'aspetto del tuo TOC, puoi modificare gli stili ad esso associati. In questo esempio, renderemo in grassetto le voci del TOC di primo livello.
+Per personalizzare l'aspetto del tuo indice, puoi modificare gli stili associati. In questo esempio, applicheremo il grassetto alle voci di primo livello dell'indice.
 
 ```java
 doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_1).getFont().setBold(true);
 ```
 
-## Passaggio 3: aggiungi contenuto al tuo documento
+## Passaggio 3: aggiungi contenuto al documento
 
-Puoi aggiungere il tuo contenuto al documento. Questo contenuto verrà utilizzato per generare il TOC.
+Puoi aggiungere contenuti al documento. Questi contenuti verranno utilizzati per generare l'indice.
 
 ## Passaggio 4: generare il sommario
 
-Per generare il TOC, inserisci un campo TOC nella posizione desiderata nel tuo documento. Questo campo verrà popolato automaticamente in base alle intestazioni e agli stili nel tuo documento.
+Per generare l'indice, inserisci un campo indice nella posizione desiderata del documento. Questo campo verrà compilato automaticamente in base alle intestazioni e agli stili del documento.
 
 ```java
-// Inserisci un campo TOC nella posizione desiderata nel documento.
+// Inserisci un campo indice nella posizione desiderata nel documento.
 FieldToc fieldToc = new FieldToc();
 doc.getFirstSection().getBody().getFirstParagraph().appendChild(fieldToc);
 ```
 
-## Passaggio 5: Salvare il documento
+## Passaggio 5: salvare il documento
 
 Infine, salva il documento con l'indice.
 
@@ -62,7 +64,7 @@ doc.save("your_output_path_here");
 
 ## Personalizzazione delle tabulazioni nel sommario
 
-Puoi anche personalizzare le tabulazioni nel tuo indice per controllare il layout dei numeri di pagina. Ecco come puoi cambiare le tabulazioni:
+Puoi anche personalizzare le tabulazioni nell'indice per controllare il layout dei numeri di pagina. Ecco come puoi modificare le tabulazioni:
 
 ```java
 Document doc = new Document("Table of contents.docx");
@@ -78,7 +80,7 @@ for (Paragraph para : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARAGRAPH
         // Rimuovere la vecchia linguetta.
         para.getParagraphFormat().getTabStops().removeByPosition(tab.getPosition());
         
-        //Inserire una nuova scheda in una posizione modificata (ad esempio, 50 unità a sinistra).
+        // Inserire una nuova scheda in una posizione modificata (ad esempio, 50 unità a sinistra).
         para.getParagraphFormat().getTabStops().add(tab.getPosition() - 50.0, tab.getAlignment(), tab.getLeader());
     }
 }
@@ -91,24 +93,29 @@ Ora hai un indice personalizzato nel tuo documento con tabulazioni regolate per 
 
 ## Conclusione
 
-In questo tutorial, abbiamo esplorato come generare un indice (TOC) utilizzando Aspose.Words per Java, una potente libreria per lavorare con documenti Word. Un indice ben strutturato è essenziale per organizzare e navigare documenti lunghi e Aspose.Words fornisce gli strumenti per creare e personalizzare gli indici senza sforzo.
+In questo tutorial abbiamo spiegato come generare un indice (TOC) utilizzando Aspose.Words per Java, una potente libreria per lavorare con i documenti Word. Un indice ben strutturato è essenziale per organizzare e navigare in documenti lunghi, e Aspose.Words fornisce gli strumenti per creare e personalizzare gli indici senza sforzo.
 
 ## Domande frequenti
 
 ### Come posso modificare la formattazione delle voci dell'indice?
 
- È possibile modificare gli stili associati ai livelli di TOC utilizzando`doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`, dove X è il livello TOC.
+È possibile modificare gli stili associati ai livelli di indice utilizzando `doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`, dove X è il livello TOC.
 
-### Come posso aggiungere altri livelli al mio TOC?
+### Come posso aggiungere altri livelli al mio indice?
 
 Per includere più livelli nel sommario, puoi modificare il campo Sommario e specificare il numero desiderato di livelli.
 
-### Posso modificare le posizioni delle tabulazioni per voci specifiche dell'indice?
+### Posso modificare la posizione delle tabulazioni per voci specifiche dell'indice?
 
 Sì, come mostrato nell'esempio di codice sopra, è possibile modificare le posizioni delle tabulazioni per voci specifiche dell'indice scorrendo i paragrafi e modificando di conseguenza le tabulazioni.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

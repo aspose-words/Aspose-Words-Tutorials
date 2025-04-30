@@ -1,14 +1,16 @@
 ---
-title: Odstęp między tekstem azjatyckim i łacińskim w dokumencie Word
-linktitle: Odstęp między tekstem azjatyckim i łacińskim w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak automatycznie dostosowywać odstępy między tekstem azjatyckim i łacińskim w dokumentach programu Word za pomocą narzędzia Aspose.Words for .NET, korzystając z naszego szczegółowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/document-formatting/space-between-asian-and-latin-text/
+"description": "Dowiedz się, jak automatycznie dostosowywać odstępy między tekstem azjatyckim i łacińskim w dokumentach programu Word za pomocą narzędzia Aspose.Words for .NET, korzystając z naszego szczegółowego przewodnika krok po kroku."
+"linktitle": "Odstęp między tekstem azjatyckim i łacińskim w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Odstęp między tekstem azjatyckim i łacińskim w dokumencie Word"
+"url": "/pl/net/document-formatting/space-between-asian-and-latin-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Odstęp między tekstem azjatyckim i łacińskim w dokumencie Word
@@ -21,10 +23,10 @@ Cześć! Czy kiedykolwiek miałeś frustrujący moment, gdy pracowałeś z dokum
 
 Zanim wskoczymy w magię, upewnijmy się, że mamy wszystko, czego potrzebujemy. Oto krótka lista kontrolna:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną tę potężną bibliotekę. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną tę potężną bibliotekę. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: dowolne środowisko zgodne z platformą .NET, np. Visual Studio.
 3. Podstawowa znajomość języka C#: Nie musisz być czarodziejem, ale odrobina znajomości języka może okazać się pomocna.
-4.  Ważna licencja: Uzyskaj bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/) lub kup licencję[Tutaj](https://purchase.aspose.com/buy).
+4. Ważna licencja: Uzyskaj bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/) lub kup licencję [Tutaj](https://purchase.aspose.com/buy).
 
 Dobra, wszystko jasne? Super! Zabierzmy się do roboty.
 
@@ -61,7 +63,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 ```
 
- Poprzez ustawienie`AddSpaceBetweenFarEastAndAlpha` I`AddSpaceBetweenFarEastAndDigit` Do`true`, informujemy Aspose.Words, aby automatycznie dostosowywał odstępy między znakami azjatyckimi a literami i cyframi łacińskimi.
+Poprzez ustawienie `AddSpaceBetweenFarEastAndAlpha` I `AddSpaceBetweenFarEastAndDigit` Do `true`, informujemy Aspose.Words, aby automatycznie dostosowywał odstępy między znakami azjatyckimi a literami i cyframi łacińskimi.
 
 ## Krok 3: Dodawanie tekstu do dokumentu
 
@@ -86,7 +88,7 @@ Za pomocą tej linijki kodu zapisujemy nasz dokument w określonym katalogu z op
 
 ## Wniosek
 
-I masz to! Właśnie nauczyłeś się, jak automatycznie dostosowywać odstępy między tekstem azjatyckim i łacińskim w dokumencie Word za pomocą Aspose.Words dla .NET. To jak posiadanie magicznej różdżki do idealnego formatowania. Teraz idź i zaimponuj swoim znajomym i współpracownikom swoimi nowo odkrytymi umiejętnościami. Pamiętaj, że odpowiednie narzędzia robią całą różnicę, a Aspose.Words dla .NET to zdecydowanie narzędzie, które warto mieć w swoim arsenale.
+masz to! Właśnie nauczyłeś się, jak automatycznie dostosowywać odstępy między tekstem azjatyckim i łacińskim w dokumencie Word za pomocą Aspose.Words dla .NET. To jak posiadanie magicznej różdżki do idealnego formatowania. Teraz idź i zaimponuj swoim znajomym i współpracownikom swoimi nowo odkrytymi umiejętnościami. Pamiętaj, że odpowiednie narzędzia robią całą różnicę, a Aspose.Words dla .NET to zdecydowanie narzędzie, które warto mieć w swoim arsenale.
 
 ## Najczęściej zadawane pytania
 
@@ -96,22 +98,27 @@ Aspose.Words for .NET to potężna biblioteka, która umożliwia programistom pr
 
 ### Jak mogę uzyskać Aspose.Words dla .NET?
 
- Aspose.Words dla .NET można pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/words/net/). Oferują również bezpłatny okres próbny.
+Aspose.Words dla .NET można pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/words/net/). Oferują również bezpłatny okres próbny.
 
 ### Czy potrzebuję licencji, aby używać Aspose.Words dla .NET?
 
- Tak, Aspose.Words dla .NET wymaga licencji. Możesz uzyskać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/) lub kup jeden[Tutaj](https://purchase.aspose.com/buy).
+Tak, Aspose.Words dla .NET wymaga licencji. Możesz uzyskać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/) lub kup jeden [Tutaj](https://purchase.aspose.com/buy).
 
 ### Czy mogę dostosować inne ustawienia formatowania za pomocą Aspose.Words dla .NET?
 
- Oczywiście! Aspose.Words dla .NET oferuje szeroki zakres opcji formatowania akapitów, czcionek, tabel i innych. Możesz znaleźć szczegółową dokumentację[Tutaj](https://reference.aspose.com/words/net/).
+Oczywiście! Aspose.Words dla .NET oferuje szeroki zakres opcji formatowania akapitów, czcionek, tabel i innych. Możesz znaleźć szczegółową dokumentację [Tutaj](https://reference.aspose.com/words/net/).
 
 ### Gdzie mogę uzyskać pomoc, jeśli wystąpią problemy?
 
- Możesz uzyskać wsparcie od społeczności Aspose na ich stronie[fora](https://forum.aspose.com/c/words/8)Mają pomocną społeczność i oddany zespół wsparcia, który Ci pomoże.
+Możesz uzyskać wsparcie od społeczności Aspose na ich stronie [fora](https://forum.aspose.com/c/words/8)Mają pomocną społeczność i oddany zespół wsparcia, który Ci pomoże.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

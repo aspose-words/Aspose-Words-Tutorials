@@ -1,14 +1,16 @@
 ---
-title: Dołączanie i dołączanie dokumentów w Aspose.Words dla Java
-linktitle: Dołączanie i dołączanie dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak bez wysiłku łączyć i dołączać dokumenty za pomocą Aspose.Words for Java. Zachowaj formatowanie, zarządzaj nagłówkami, stopkami i nie tylko.
-weight: 30
-url: /pl/java/document-manipulation/joining-and-appending-documents/
+"description": "Dowiedz się, jak bez wysiłku łączyć i dołączać dokumenty za pomocą Aspose.Words for Java. Zachowaj formatowanie, zarządzaj nagłówkami, stopkami i nie tylko."
+"linktitle": "Dołączanie i dołączanie dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Dołączanie i dołączanie dokumentów w Aspose.Words dla Java"
+"url": "/pl/java/document-manipulation/joining-and-appending-documents/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dołączanie i dołączanie dokumentów w Aspose.Words dla Java
@@ -130,26 +132,31 @@ Aspose.Words for Java zapewnia elastyczne i wydajne narzędzia do łączenia i d
 
 ### Jak mogę płynnie łączyć dokumenty o różnych stylach?
 
- Aby połączyć dokumenty o różnych stylach, użyj`ImportFormatMode.USE_DESTINATION_STYLES` podczas dołączania.
+Aby połączyć dokumenty o różnych stylach, użyj `ImportFormatMode.USE_DESTINATION_STYLES` podczas dołączania.
 
 ### Czy mogę zachować numerację stron podczas dołączania dokumentów?
 
- Tak, możesz zachować numerację stron, używając`convertNumPageFieldsToPageRef` metodę i aktualizację układu strony.
+Tak, możesz zachować numerację stron, używając `convertNumPageFieldsToPageRef` metodę i aktualizację układu strony.
 
 ### Czym jest Smart Style Behavior?
 
- Smart Style Behavior pomaga zachować spójne style podczas dołączania dokumentów. Używaj go z`ImportFormatOptions` aby uzyskać lepsze wyniki.
+Smart Style Behavior pomaga zachować spójne style podczas dołączania dokumentów. Używaj go z `ImportFormatOptions` aby uzyskać lepsze wyniki.
 
-### Jak radzić sobie z polami tekstowymi podczas dołączania dokumentów?
+### Jak poradzić sobie z polami tekstowymi podczas dołączania dokumentów?
 
-Ustawić`importFormatOptions.setIgnoreTextBoxes(false)` aby uwzględnić pola tekstowe podczas dołączania.
+Ustawić `importFormatOptions.setIgnoreTextBoxes(false)` aby uwzględnić pola tekstowe podczas dołączania.
 
 ### Co zrobić, jeśli chcę połączyć/odłączyć nagłówki i stopki w różnych dokumentach?
 
- Możesz łączyć nagłówki i stopki za pomocą`linkToPrevious(true)` lub odłącz je od`linkToPrevious(false)` w razie potrzeby.
+Możesz łączyć nagłówki i stopki za pomocą `linkToPrevious(true)` lub odłącz je od `linkToPrevious(false)` w razie potrzeby.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

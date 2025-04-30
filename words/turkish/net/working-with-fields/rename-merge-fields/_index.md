@@ -1,14 +1,16 @@
 ---
-title: Birleştirme Alanlarını Yeniden Adlandır
-linktitle: Birleştirme Alanlarını Yeniden Adlandır
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerindeki birleştirme alanlarının nasıl yeniden adlandırılacağını öğrenin. Belgelerinizi kolayca düzenlemek için ayrıntılı, adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/working-with-fields/rename-merge-fields/
+"description": "Aspose.Words for .NET kullanarak Word belgelerindeki birleştirme alanlarının nasıl yeniden adlandırılacağını öğrenin. Belgelerinizi kolayca düzenlemek için ayrıntılı, adım adım kılavuzumuzu izleyin."
+"linktitle": "Birleştirme Alanlarını Yeniden Adlandır"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Birleştirme Alanlarını Yeniden Adlandır"
+"url": "/tr/net/working-with-fields/rename-merge-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Birleştirme Alanlarını Yeniden Adlandır
@@ -21,7 +23,7 @@ Word belgelerindeki birleştirme alanlarını yeniden adlandırmak, doğru araç
 
 Ayrıntılara dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
--  Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio veya herhangi bir .NET uyumlu IDE.
 - Temel C# Bilgisi: C# programlamaya aşinalık faydalı olacaktır.
 
@@ -53,7 +55,7 @@ builder.InsertField(@"MERGEFIELD MyMergeField1 \* MERGEFORMAT");
 builder.InsertField(@"MERGEFIELD MyMergeField2 \* MERGEFORMAT");
 ```
 
- Burada yeni bir belge oluşturuyoruz ve`DocumentBuilder` iki birleştirme alanı eklemek için sınıf:`MyMergeField1` Ve`MyMergeField2`.
+Burada yeni bir belge oluşturuyoruz ve `DocumentBuilder` iki birleştirme alanı eklemek için sınıf: `MyMergeField1` Ve `MyMergeField2`.
 
 ## Adım 2: Alanlar Arasında Gezinin ve Onları Yeniden Adlandırın
 
@@ -72,7 +74,7 @@ foreach (Field f in doc.Range.Fields)
 }
 ```
 
- Bu kod parçacığında şunu kullanıyoruz:`foreach` belgedeki tüm alanları yinelemek için döngü. Her alan için, birleştirme alanı olup olmadığını kullanarak kontrol ederiz`f.Type == FieldType.FieldMergeField` Eğer öyleyse, onu şu şekilde atarız:`FieldMergeField` ve ekle`_Renamed` adına.
+Bu kod parçacığında şunu kullanıyoruz: `foreach` belgedeki tüm alanları yinelemek için döngü. Her alan için, birleştirme alanı olup olmadığını kullanarak kontrol ederiz `f.Type == FieldType.FieldMergeField`Eğer öyleyse, onu şu şekilde atarız: `FieldMergeField` ve ekle `_Renamed` adına.
 
 ## Adım 3: Belgeyi Kaydedin
 
@@ -83,7 +85,7 @@ Son olarak, yeniden adlandırılmış birleştirme alanlarıyla belgemizi kayded
 doc.Save(dataDir + "WorkingWithFields.RenameMergeFields.docx");
 ```
 
- Bu kod satırı belgeyi belirtilen dizine şu adla kaydeder:`WorkingWithFields.RenameMergeFields.docx`.
+Bu kod satırı belgeyi belirtilen dizine şu adla kaydeder: `WorkingWithFields.RenameMergeFields.docx`.
 
 ## Çözüm
 
@@ -101,18 +103,23 @@ Bir birleştirme alanı yoksa, kod onu atlar. Hiçbir hata atılmaz.
 
 ### İsme ekleme yapmak yerine öneki değiştirebilir miyim?
 
- Evet, değiştirebilirsiniz`mergeField.FieldName` istediğiniz herhangi bir değere ayarlamak için atama yapın.
+Evet, değiştirebilirsiniz `mergeField.FieldName` istediğiniz herhangi bir değere ayarlamak için atama yapın.
 
 ### Aspose.Words for .NET ücretsiz mi?
 
- Aspose.Words for .NET ticari bir üründür, ancak bir[ücretsiz deneme](https://releases.aspose.com/) değerlendirmek için.
+Aspose.Words for .NET ticari bir üründür, ancak bir [ücretsiz deneme](https://releases.aspose.com/) değerlendirmek için.
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
 
- Kapsamlı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Kapsamlı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Java के लिए Aspose.Words में दस्तावेज़ों से सामग्री हटाना
-linktitle: दस्तावेज़ों से सामग्री हटाना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Aspose.Words for Java का उपयोग करके Java में Word दस्तावेज़ों से सामग्री निकालना सीखें। पेज ब्रेक, सेक्शन ब्रेक और बहुत कुछ हटाएँ। अपने दस्तावेज़ प्रसंस्करण को अनुकूलित करें।
-weight: 16
-url: /hi/java/document-manipulation/removing-content-from-documents/
+"description": "Aspose.Words for Java का उपयोग करके Java में Word दस्तावेज़ों से सामग्री निकालना सीखें। पेज ब्रेक, सेक्शन ब्रेक और बहुत कुछ हटाएँ। अपने दस्तावेज़ प्रसंस्करण को अनुकूलित करें।"
+"linktitle": "दस्तावेज़ों से सामग्री हटाना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "Java के लिए Aspose.Words में दस्तावेज़ों से सामग्री हटाना"
+"url": "/hi/java/document-manipulation/removing-content-from-documents/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java के लिए Aspose.Words में दस्तावेज़ों से सामग्री हटाना
@@ -42,7 +44,7 @@ doc.save("Your Directory Path" + "RemoveContent.RemovePageBreaks.docx");
 
 ## अनुभाग विराम हटाना
 
-सेक्शन ब्रेक दस्तावेज़ को अलग-अलग फ़ॉर्मेटिंग के साथ अलग-अलग सेक्शन में विभाजित करते हैं। सेक्शन ब्रेक हटाने के लिए, इन चरणों का पालन करें:
+सेक्शन ब्रेक किसी दस्तावेज़ को अलग-अलग फ़ॉर्मेटिंग के साथ अलग-अलग सेक्शन में विभाजित करते हैं। सेक्शन ब्रेक हटाने के लिए, इन चरणों का पालन करें:
 
 ```java
 for (int i = doc.getSections().getCount() - 2; i >= 0; i--) {
@@ -70,7 +72,7 @@ for (Section section : doc.getSections()) {
 doc.save("Your Directory Path" + "RemoveContent.RemoveFooters.docx");
 ```
 
-यह कोड दस्तावेज़ के प्रत्येक अनुभाग से सभी प्रकार के फ़ुटर (प्रथम, प्राथमिक और सम) को हटा देता है।
+यह कोड दस्तावेज़ के प्रत्येक अनुभाग से सभी प्रकार के पादलेखों (प्रथम, प्राथमिक और सम) को हटा देता है।
 
 ## विषय-सूची हटाना
 
@@ -82,7 +84,7 @@ removeTableOfContents(doc, 0);
 doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 ```
 
- यह कोड एक विधि को परिभाषित करता है`removeTableOfContents` जो दस्तावेज़ से निर्दिष्ट TOC को हटा देता है.
+यह कोड एक विधि को परिभाषित करता है `removeTableOfContents` जो दस्तावेज़ से निर्दिष्ट TOC को हटा देता है.
 
 
 ## निष्कर्ष
@@ -106,9 +108,14 @@ doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 ### Aspose.Words for Java क्या अन्य दस्तावेज़ हेरफेर सुविधाएँ प्रदान करता है?
 
 Aspose.Words for Java में कई तरह की सुविधाएँ हैं, जिनमें दस्तावेज़ निर्माण, संपादन, रूपांतरण और बहुत कुछ शामिल है। विस्तृत जानकारी के लिए आप इसके दस्तावेज़ देख सकते हैं।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

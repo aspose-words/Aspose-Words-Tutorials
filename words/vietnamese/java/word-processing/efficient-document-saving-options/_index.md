@@ -1,14 +1,16 @@
 ---
-title: Lưu tài liệu hiệu quả với các tùy chọn DOC, HTML và hình ảnh
-linktitle: Lưu tài liệu hiệu quả với các tùy chọn DOC, HTML và hình ảnh
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Học cách lưu tài liệu hiệu quả với Aspose.Words for Java. Hướng dẫn từng bước này bao gồm các tùy chọn DOC, HTML và hình ảnh, nâng cao kỹ năng quản lý tài liệu của bạn.
-weight: 12
-url: /vi/java/word-processing/efficient-document-saving-options/
+"description": "Học cách lưu tài liệu hiệu quả với Aspose.Words for Java. Hướng dẫn từng bước này bao gồm các tùy chọn DOC, HTML và hình ảnh, nâng cao kỹ năng quản lý tài liệu của bạn."
+"linktitle": "Lưu tài liệu hiệu quả với các tùy chọn DOC, HTML và hình ảnh"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Lưu tài liệu hiệu quả với các tùy chọn DOC, HTML và hình ảnh"
+"url": "/vi/java/word-processing/efficient-document-saving-options/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lưu tài liệu hiệu quả với các tùy chọn DOC, HTML và hình ảnh
@@ -22,7 +24,7 @@ Aspose.Words for Java là một thư viện giàu tính năng cho phép các nh�
 
 ## Thiết lập môi trường phát triển của bạn
 
-Trước khi bắt đầu viết mã, bạn cần thiết lập môi trường phát triển của mình. Đảm bảo bạn đã cài đặt Java và Aspose.Words for Java. Tham khảo tài liệu để biết hướng dẫn cài đặt chi tiết:[Hướng dẫn cài đặt Aspose.Words cho Java](https://releases.aspose.com/words/java/).
+Trước khi bắt đầu viết mã, bạn cần thiết lập môi trường phát triển của mình. Đảm bảo bạn đã cài đặt Java và Aspose.Words for Java. Tham khảo tài liệu để biết hướng dẫn cài đặt chi tiết: [Hướng dẫn cài đặt Aspose.Words cho Java](https://releases.aspose.com/words/java/).
 
 ## Tạo và tải một tài liệu Word
 
@@ -67,7 +69,7 @@ doc.save("output.png", imageSaveOptions);
 
 ## Tùy chọn nâng cao để lưu tài liệu
 
- Aspose.Words for Java cung cấp các tùy chọn nâng cao để lưu tài liệu, chẳng hạn như chỉ định phạm vi trang, kiểm soát nén hình ảnh, v.v. Tham khảo tài liệu để biết thông tin chi tiết:[Tùy chọn lưu](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/).
+Aspose.Words for Java cung cấp các tùy chọn nâng cao để lưu tài liệu, chẳng hạn như chỉ định phạm vi trang, kiểm soát nén hình ảnh, v.v. Tham khảo tài liệu để biết thông tin chi tiết: [Tùy chọn lưu](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/).
 
 ## Xử lý ngoại lệ và lỗi
 
@@ -81,7 +83,7 @@ Aspose.Words for Java đơn giản hóa quy trình quản lý và lưu tài li�
 
 #### Làm thế nào để tải xuống Aspose.Words cho Java?
 
- Bạn có thể tải xuống Aspose.Words cho Java từ trang web:[Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/).
+Bạn có thể tải xuống Aspose.Words cho Java từ trang web: [Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/).
 
 #### Aspose.Words for Java có tương thích với các phiên bản Java mới nhất không?
 
@@ -97,11 +99,16 @@ Bạn có thể tùy chỉnh nhiều tùy chọn định dạng khác nhau bằn
 
 #### Tôi có thể tìm thêm tài liệu và ví dụ ở đâu?
 
- Để biết tài liệu chi tiết và ví dụ mã, hãy truy cập tài liệu Aspose.Words cho Java:[Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/).
+Để biết tài liệu chi tiết và ví dụ mã, hãy truy cập tài liệu Aspose.Words cho Java: [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

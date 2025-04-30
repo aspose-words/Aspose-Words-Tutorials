@@ -1,14 +1,16 @@
 ---
-title: Удалить нижние колонтитулы в документе Word
-linktitle: Удалить нижние колонтитулы в документе Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как удалить нижние колонтитулы из документов Word с помощью Aspose.Words для .NET, с помощью этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/remove-content/remove-footers/
+"description": "Узнайте, как удалить нижние колонтитулы из документов Word с помощью Aspose.Words для .NET, с помощью этого подробного пошагового руководства."
+"linktitle": "Удалить нижние колонтитулы в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Удалить нижние колонтитулы в документе Word"
+"url": "/ru/net/remove-content/remove-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Удалить нижние колонтитулы в документе Word
@@ -21,8 +23,8 @@ url: /ru/net/remove-content/remove-footers/
 
 Прежде чем углубиться в подробности, давайте убедимся, что у вас есть все необходимое:
 
-- Aspose.Words для .NET: если вы еще этого не сделали, загрузите его с[здесь](https://releases.aspose.com/words/net/).
-- .NET Framework: убедитесь, что у вас установлен .NET Framework.
+- Aspose.Words для .NET: если вы еще этого не сделали, загрузите его с [здесь](https://releases.aspose.com/words/net/).
+- .NET Framework: Убедитесь, что у вас установлен .NET Framework.
 - Интегрированная среда разработки (IDE): предпочтительно Visual Studio для бесшовной интеграции и создания кода.
 
 Как только вы все это сделаете, вы будете готовы приступить к удалению этих надоедливых нижних колонтитулов!
@@ -46,7 +48,7 @@ Document doc = new Document(dataDir + "Header and footer types.docx");
 ```
 
 - dataDir: эта переменная хранит путь к каталогу ваших документов.
--  Документ doc: Эта строка загружает документ в`doc` объект.
+- Документ doc: Эта строка загружает документ в `doc` объект.
 
 ## Шаг 2: Повторение разделов
 
@@ -98,10 +100,10 @@ doc.Save(dataDir + "RemoveContent.RemoveFooters.docx");
 ## Часто задаваемые вопросы
 
 ### Можно ли удалить заголовки тем же методом?
- Да, вы можете использовать аналогичный подход для удаления заголовков, обратившись к`HeaderFooterType.HeaderFirst`, `HeaderFooterType.HeaderPrimary` , и`HeaderFooterType.HeaderEven`.
+Да, вы можете использовать аналогичный подход для удаления заголовков, обратившись к `HeaderFooterType.HeaderFirst`, `HeaderFooterType.HeaderPrimary`, и `HeaderFooterType.HeaderEven`.
 
 ### Является ли Aspose.Words для .NET бесплатным для использования?
- Aspose.Words для .NET — это коммерческий продукт, но вы можете получить[бесплатная пробная версия](https://releases.aspose.com/) для проверки его возможностей.
+Aspose.Words для .NET — это коммерческий продукт, но вы можете получить [бесплатная пробная версия](https://releases.aspose.com/) для проверки его возможностей.
 
 ### Могу ли я манипулировать другими элементами документа Word с помощью Aspose.Words?
 Конечно! Aspose.Words предоставляет обширные функциональные возможности для работы с текстом, изображениями, таблицами и многим другим в документах Word.
@@ -110,10 +112,15 @@ doc.Save(dataDir + "RemoveContent.RemoveFooters.docx");
 Aspose.Words поддерживает различные версии фреймворка .NET, включая .NET Core.
 
 ### Где я могу найти более подробную документацию и поддержку?
- Вы можете получить доступ к подробной информации[документация](https://reference.aspose.com/words/net/) и получите поддержку на[Форум Aspose.Words](https://forum.aspose.com/c/words/8).
+Вы можете получить доступ к подробной информации [документация](https://reference.aspose.com/words/net/) и получите поддержку на [Форум Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

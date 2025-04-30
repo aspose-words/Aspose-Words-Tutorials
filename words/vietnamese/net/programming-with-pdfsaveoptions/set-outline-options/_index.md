@@ -1,27 +1,29 @@
 ---
-title: Thiết lập tùy chọn phác thảo trong tài liệu PDF
-linktitle: Thiết lập tùy chọn phác thảo trong tài liệu PDF
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thiết lập tùy chọn phác thảo trong tài liệu PDF bằng Aspose.Words cho .NET. Cải thiện điều hướng PDF bằng cách cấu hình mức tiêu đề và phác thảo mở rộng.
-weight: 10
-url: /vi/net/programming-with-pdfsaveoptions/set-outline-options/
+"description": "Tìm hiểu cách thiết lập tùy chọn phác thảo trong tài liệu PDF bằng Aspose.Words cho .NET. Cải thiện điều hướng PDF bằng cách cấu hình mức tiêu đề và phác thảo mở rộng."
+"linktitle": "Thiết lập tùy chọn phác thảo trong tài liệu PDF"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thiết lập tùy chọn phác thảo trong tài liệu PDF"
+"url": "/vi/net/programming-with-pdfsaveoptions/set-outline-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập tùy chọn phác thảo trong tài liệu PDF
 
 ## Giới thiệu
 
-Khi làm việc với các tài liệu, đặc biệt là cho mục đích chuyên nghiệp hoặc học thuật, việc sắp xếp nội dung của bạn một cách hiệu quả là rất quan trọng. Một cách để nâng cao khả năng sử dụng các tài liệu PDF của bạn là thiết lập các tùy chọn phác thảo. Các phác thảo hoặc dấu trang cho phép người dùng điều hướng qua tài liệu một cách hiệu quả, giống như các chương trong một cuốn sách. Trong hướng dẫn này, chúng tôi sẽ đi sâu vào cách bạn có thể thiết lập các tùy chọn này bằng Aspose.Words cho .NET, đảm bảo các tệp PDF của bạn được sắp xếp hợp lý và thân thiện với người dùng.
+Khi làm việc với các tài liệu, đặc biệt là cho mục đích chuyên nghiệp hoặc học thuật, việc sắp xếp nội dung của bạn một cách hiệu quả là rất quan trọng. Một cách để nâng cao khả năng sử dụng các tài liệu PDF của bạn là bằng cách thiết lập các tùy chọn phác thảo. Các phác thảo hoặc dấu trang cho phép người dùng điều hướng qua tài liệu một cách hiệu quả, giống như các chương trong một cuốn sách. Trong hướng dẫn này, chúng tôi sẽ đi sâu vào cách bạn có thể thiết lập các tùy chọn này bằng Aspose.Words cho .NET, đảm bảo các tệp PDF của bạn được sắp xếp hợp lý và thân thiện với người dùng.
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, bạn cần đảm bảo một số điều sau:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Nếu chưa, bạn có thể[tải phiên bản mới nhất tại đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Nếu chưa, bạn có thể [tải phiên bản mới nhất tại đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển .NET: Bạn sẽ cần một môi trường phát triển .NET đang hoạt động, chẳng hạn như Visual Studio.
 3. Hiểu biết cơ bản về C#: Sự quen thuộc với ngôn ngữ lập trình C# sẽ giúp bạn dễ dàng theo dõi.
 4. Một tài liệu Word: Chuẩn bị một tài liệu Word mà bạn sẽ chuyển đổi thành PDF.
@@ -44,11 +46,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Trong đoạn mã trên, hãy thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn. Điều này cho chương trình biết nơi tìm tài liệu Word.
+Trong đoạn mã trên, hãy thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn. Điều này cho chương trình biết nơi tìm tài liệu Word.
 
 ## Bước 2: Cấu hình tùy chọn lưu PDF
 
- Tiếp theo, bạn cần cấu hình các tùy chọn lưu PDF. Điều này bao gồm thiết lập cách xử lý các phác thảo trong đầu ra PDF. Bạn sẽ sử dụng`PdfSaveOptions` lớp học để thực hiện điều này.
+Tiếp theo, bạn cần cấu hình các tùy chọn lưu PDF. Điều này bao gồm thiết lập cách xử lý các phác thảo trong đầu ra PDF. Bạn sẽ sử dụng `PdfSaveOptions` lớp học để thực hiện điều này.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -58,7 +60,7 @@ Bây giờ, chúng ta hãy thiết lập các tùy chọn phác thảo.
 
 ### Đặt Tiêu đề Phác thảo Mức độ
 
- Các`HeadingsOutlineLevels` Thuộc tính này xác định số cấp độ tiêu đề cần đưa vào phác thảo PDF. Ví dụ, nếu bạn đặt thành 3, nó sẽ bao gồm tối đa ba cấp độ tiêu đề trong phác thảo PDF.
+Các `HeadingsOutlineLevels` Thuộc tính này xác định số cấp độ tiêu đề cần đưa vào phác thảo PDF. Ví dụ, nếu bạn đặt thành 3, nó sẽ bao gồm tối đa ba cấp độ tiêu đề trong phác thảo PDF.
 
 ```csharp
 saveOptions.OutlineOptions.HeadingsOutlineLevels = 3;
@@ -66,7 +68,7 @@ saveOptions.OutlineOptions.HeadingsOutlineLevels = 3;
 
 ### Thiết lập mức phác thảo mở rộng
 
- Các`ExpandedOutlineLevels`thuộc tính kiểm soát số lượng cấp độ của phác thảo sẽ được mở rộng theo mặc định khi PDF được mở. Đặt thành 1 sẽ mở rộng các tiêu đề cấp cao nhất, cung cấp chế độ xem rõ ràng các phần chính.
+Các `ExpandedOutlineLevels` thuộc tính kiểm soát số lượng cấp độ của phác thảo sẽ được mở rộng theo mặc định khi PDF được mở. Đặt thành 1 sẽ mở rộng các tiêu đề cấp cao nhất, cung cấp chế độ xem rõ ràng các phần chính.
 
 ```csharp
 saveOptions.OutlineOptions.ExpandedOutlineLevels = 1;
@@ -74,7 +76,7 @@ saveOptions.OutlineOptions.ExpandedOutlineLevels = 1;
 
 ## Bước 3: Lưu tài liệu dưới dạng PDF
 
- Với các tùy chọn được cấu hình, bạn đã sẵn sàng lưu tài liệu dưới dạng PDF. Sử dụng`Save` phương pháp của`Document` lớp và truyền vào đường dẫn tệp và tùy chọn lưu.
+Với các tùy chọn được cấu hình, bạn đã sẵn sàng để lưu tài liệu dưới dạng PDF. Sử dụng `Save` phương pháp của `Document` lớp và truyền vào đường dẫn tệp và tùy chọn lưu.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.SetOutlineOptions.pdf", saveOptions);
@@ -94,7 +96,7 @@ Thiết lập tùy chọn phác thảo giúp người dùng điều hướng cá
 
 ### Tôi có thể thiết lập các mức tiêu đề khác nhau cho các phần khác nhau trong tài liệu của mình không?
 
-Không, cài đặt phác thảo áp dụng toàn cục trên toàn bộ tài liệu. Tuy nhiên, bạn có thể cấu trúc tài liệu của mình với các mức tiêu đề phù hợp để đạt được hiệu ứng tương tự.
+Không, các thiết lập phác thảo áp dụng trên toàn bộ tài liệu. Tuy nhiên, bạn có thể cấu trúc tài liệu của mình với các mức tiêu đề phù hợp để đạt được hiệu ứng tương tự.
 
 ### Làm thế nào để tôi có thể xem trước những thay đổi trước khi lưu PDF?
 
@@ -107,9 +109,14 @@ Có, bạn có thể xóa phần phác thảo bằng phần mềm chỉnh sửa 
 ### Tôi có thể cấu hình những tùy chọn lưu PDF nào khác với Aspose.Words?
 
 Aspose.Words cung cấp nhiều tùy chọn như thiết lập mức độ tuân thủ PDF, nhúng phông chữ và điều chỉnh chất lượng hình ảnh.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

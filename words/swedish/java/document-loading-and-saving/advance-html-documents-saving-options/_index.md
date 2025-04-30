@@ -1,26 +1,28 @@
 ---
-title: Avancera alternativ för att spara HTML-dokument med Aspose.Words Java
-linktitle: Spara HTML-dokument med
-second_title: Aspose.Words Java Document Processing API
-description: I den här handledningen har vi täckt olika avancerade alternativ för att spara HTML-dokument med Aspose.Words för Java. Dessa alternativ ger dig möjlighet att skapa HTML av hög kvalitet
-weight: 16
-url: /sv/java/document-loading-and-saving/advance-html-documents-saving-options/
+"description": "I den här handledningen har vi gått igenom olika avancerade alternativ för att spara HTML-dokument med Aspose.Words för Java. Dessa alternativ ger dig möjlighet att skapa högkvalitativ HTML."
+"linktitle": "Spara HTML-dokument med"
+"second_title": "Aspose.Words Java-dokumentbehandlings-API"
+"title": "Avancerade HTML-dokumentsparalternativ med Aspose.Words Java"
+"url": "/sv/java/document-loading-and-saving/advance-html-documents-saving-options/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Avancera alternativ för att spara HTML-dokument med Aspose.Words Java
+# Avancerade HTML-dokumentsparalternativ med Aspose.Words Java
 
 
-I den här handledningen kommer vi att utforska de avancerade alternativen för att spara HTML-dokument som tillhandahålls av Aspose.Words för Java. Aspose.Words är ett kraftfullt Java API för att arbeta med Word-dokument, och det erbjuder ett brett utbud av funktioner för dokumentmanipulation och konvertering.
+I den här handledningen ska vi utforska de avancerade alternativen för att spara HTML-dokument som Aspose.Words för Java erbjuder. Aspose.Words är ett kraftfullt Java API för att arbeta med Word-dokument, och det erbjuder ett brett utbud av funktioner för dokumenthantering och konvertering.
 
 ## 1. Introduktion
-Aspose.Words för Java låter dig arbeta med Word-dokument programmatiskt. I den här handledningen kommer vi att fokusera på avancerade alternativ för att spara HTML-dokument, som gör att du kan kontrollera hur Word-dokument konverteras till HTML.
+Aspose.Words för Java låter dig arbeta med Word-dokument programmatiskt. I den här handledningen fokuserar vi på avancerade alternativ för att spara HTML-dokument, vilket gör att du kan kontrollera hur Word-dokument konverteras till HTML.
 
-## 2. Exportera information om tur och retur
- De`exportRoundtripInformation` metoden låter dig exportera Word-dokument till HTML samtidigt som du bevarar information om tur och retur. Denna information kan vara användbar när du vill konvertera HTML tillbaka till Word-format utan att förlora några dokumentspecifika detaljer.
+## 2. Exportera tur- och returinformation
+De `exportRoundtripInformation` Metoden låter dig exportera Word-dokument till HTML samtidigt som du bevarar returinformationen. Denna information kan vara användbar när du vill konvertera HTML tillbaka till Word-format utan att förlora några dokumentspecifika detaljer.
 
 ```java
 public void exportRoundtripInformation() throws Exception {
@@ -32,7 +34,7 @@ public void exportRoundtripInformation() throws Exception {
 ```
 
 ## 3. Exportera teckensnitt som Base64
- Med`exportFontsAsBase64` metod kan du exportera teckensnitt som används i dokumentet som Base64-kodade data i HTML. Detta säkerställer att HTML-representationen behåller samma teckensnittsstil som det ursprungliga Word-dokumentet.
+Med den `exportFontsAsBase64` Med metoden kan du exportera teckensnitt som används i dokumentet som Base64-kodade data i HTML-koden. Detta säkerställer att HTML-representationen behåller samma teckensnittsstilar som i det ursprungliga Word-dokumentet.
 
 ```java
 
@@ -45,7 +47,7 @@ public void exportFontsAsBase64() throws Exception {
 ```
 
 ## 4. Exportera resurser
- De`exportResources` metoden låter dig ange typen av CSS-formatmall och exportera teckensnittsresurser. Du kan också ställa in en resursmapp och ett alias för resurser i HTML.
+De `exportResources` Metoden låter dig ange typen av CSS-stilmall och exportera teckensnittsresurser. Du kan också ange en resursmapp och ett alias för resurser i HTML-koden.
 
 ```java
 
@@ -55,13 +57,13 @@ public void exportResources() throws Exception {
     saveOptions.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
     saveOptions.setExportFontResources(true);
     saveOptions.setResourceFolder("Your Directory Path" + "Resources");
-    saveOptions.setResourceFolderAlias("http://example.com/resurser");
+    saveOptions.setResourceFolderAlias("http://exempel.com/resurser");
     doc.save("Your Directory Path" + "WorkingWithHtmlSaveOptions.ExportResources.html", saveOptions);
 }
 ```
 
 ## 5. Konvertera metafiler till EMF eller WMF
- De`convertMetafilesToEmfOrWmf`metoden låter dig konvertera metafiler i dokumentet till antingen EMF- eller WMF-format, vilket säkerställer kompatibilitet och smidig rendering i HTML.
+De `convertMetafilesToEmfOrWmf` Metoden låter dig konvertera metafiler i dokumentet till antingen EMF- eller WMF-format, vilket säkerställer kompatibilitet och smidig rendering i HTML.
 
 ```java
 
@@ -82,7 +84,7 @@ public void convertMetafilesToEmfOrWmf() throws Exception {
 ```
 
 ## 6. Konvertera metafiler till SVG
- Använd`convertMetafilesToSvg` metod för att konvertera metafiler till SVG-format. Detta format är idealiskt för att visa vektorgrafik i HTML-dokument.
+Använd `convertMetafilesToSvg` metod för att konvertera metafiler till SVG-format. Detta format är idealiskt för att visa vektorgrafik i HTML-dokument.
 
 ```java
 
@@ -102,7 +104,7 @@ public void convertMetafilesToSvg() throws Exception {
 ```
 
 ## 7. Lägg till prefix för CSS-klassnamn
- Med`addCssClassNamePrefix` metod kan du lägga till ett prefix till CSS-klassnamn i den exporterade HTML-koden. Detta hjälper till att förhindra konflikter med befintliga stilar.
+Med den `addCssClassNamePrefix` Metoden kan du lägga till ett prefix till CSS-klassnamn i den exporterade HTML-koden. Detta hjälper till att förhindra konflikter med befintliga stilar.
 
 ```java
 
@@ -116,7 +118,7 @@ public void addCssClassNamePrefix() throws Exception {
 ```
 
 ## 8. Exportera CID-URL:er för MHTML-resurser
- De`exportCidUrlsForMhtmlResources` metod används när du sparar dokument i MHTML-format. Det tillåter export av Content-ID-webbadresser för resurser.
+De `exportCidUrlsForMhtmlResources` Metoden används när dokument sparas i MHTML-format. Den tillåter export av Content-ID-URL:er för resurser.
 
 ```java
 
@@ -133,8 +135,8 @@ public void exportCidUrlsForMhtmlResources() throws Exception {
 }
 ```
 
-## 9. Lös teckensnittsnamn
- De`resolveFontNames` metod hjälper till att lösa teckensnittsnamn när du sparar dokument i HTML-format, vilket säkerställer konsekvent rendering på olika plattformar.
+## 9. Lös upp typsnittsnamn
+De `resolveFontNames` Metoden hjälper till att lösa teckensnittsnamn när dokument sparas i HTML-format, vilket säkerställer konsekvent rendering på olika plattformar.
 
 ```java
 
@@ -152,8 +154,8 @@ public void resolveFontNames() throws Exception {
 }
 ```
 
-## 10. Exportera textinmatningsformulärfält som text
- De`exportTextInputFormFieldAsText`metod exporterar formulärfält som vanlig text i HTML, vilket gör dem lätta att läsa och redigera.
+## 10. Exportera textinmatningsfält som text
+De `exportTextInputFormFieldAsText` Metoden exporterar formulärfält som vanlig text i HTML-koden, vilket gör dem lättlästa och redigerbara.
 
 ```java
 
@@ -164,13 +166,13 @@ public void exportTextInputFormFieldAsText() throws Exception {
 
 	String imagesDir = Path.combine(dataDir, "Images");
 
-	// Den angivna mappen måste finnas och bör vara tom.
+	// Den angivna mappen måste finnas och ska vara tom.
 	if (Directory.exists(imagesDir))
 		Directory.delete(imagesDir, true);
 
 	Directory.createDirectory(imagesDir);
 
-	// Ställ in ett alternativ för att exportera formulärfält som vanlig text, inte som HTML-inmatningselement.
+	// Ange ett alternativ för att exportera formulärfält som vanlig text, inte som HTML-inmatningselement.
 	HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.HTML);
 	{
 		saveOptions.setExportTextInputFormFieldAsText(true); saveOptions.setImagesFolder(imagesDir);
@@ -181,26 +183,31 @@ public void exportTextInputFormFieldAsText() throws Exception {
 ```
 
 ## Slutsats
-I den här handledningen utforskade vi de avancerade alternativen för att spara HTML-dokument som tillhandahålls av Aspose.Words för Java. Dessa alternativ ger dig finkornig kontroll över konverteringsprocessen, så att du kan skapa HTML-dokument som liknar de ursprungliga Word-dokumenten.
+I den här handledningen utforskade vi de avancerade alternativen för att spara HTML-dokument som Aspose.Words för Java erbjuder. Dessa alternativ ger dig finjusterad kontroll över konverteringsprocessen, så att du kan skapa HTML-dokument som liknar de ursprungliga Word-dokumenten.
 
-## FAQ's
-Här är några vanliga frågor om att arbeta med Aspose.Words för Java och alternativ för att spara HTML-dokument:
+## Vanliga frågor
+Här är några vanliga frågor om att arbeta med Aspose.Words för Java och HTML-dokumentsparalternativ:
 
-### F1: Hur kan jag konvertera HTML tillbaka till Word-format med Aspose.Words för Java?
- För att konvertera HTML tillbaka till Word-format kan du använda Aspose.Words API:er`load` metod för att ladda HTML-dokumentet och sedan spara det i Word-format.
+### F1: Hur kan jag konvertera HTML tillbaka till Word-format med hjälp av Aspose.Words för Java?
+För att konvertera HTML tillbaka till Word-format kan du använda Aspose.Words API:er. `load` metod för att ladda HTML-dokumentet och sedan spara det i Word-format.
 
 ### F2: Kan jag anpassa CSS-stilarna när jag exporterar till HTML?
-Ja, du kan anpassa CSS-stilar genom att modifiera stilmallarna som används i HTML eller genom att använda`addCssClassNamePrefix` metod för att lägga till ett prefix till CSS-klassnamn.
+Ja, du kan anpassa CSS-stilar genom att ändra stilmallarna som används i HTML-koden eller genom att använda `addCssClassNamePrefix` metod för att lägga till ett prefix till CSS-klassnamn.
 
-### F3: Finns det något sätt att optimera HTML-utdata för webbvisning?
+### F3: Finns det ett sätt att optimera HTML-utdata för webbvisning?
 Ja, du kan optimera HTML-utdata för webbvisning genom att konfigurera alternativ som att exportera teckensnitt som Base64 och konvertera metafiler till SVG.
 
 ### F4: Finns det några begränsningar vid konvertering av komplexa Word-dokument till HTML?
-Medan Aspose.Words för Java ger kraftfulla konverteringsmöjligheter, kan komplexa Word-dokument med invecklade layouter kräva ytterligare efterbearbetning för att uppnå önskad HTML-utdata.
+Även om Aspose.Words för Java erbjuder kraftfulla konverteringsfunktioner, kan komplexa Word-dokument med invecklade layouter kräva ytterligare efterbehandling för att uppnå önskad HTML-utdata.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

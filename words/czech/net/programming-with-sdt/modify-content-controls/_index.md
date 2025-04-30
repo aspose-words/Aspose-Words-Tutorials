@@ -1,39 +1,41 @@
 ---
-title: Upravit ovládací prvky obsahu
-linktitle: Upravit ovládací prvky obsahu
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se upravovat tagy strukturovaných dokumentů ve Wordu pomocí Aspose.Words for .NET. Aktualizujte text, rozevírací seznamy a obrázky krok za krokem.
-weight: 10
-url: /cs/net/programming-with-sdt/modify-content-controls/
+"description": "Naučte se, jak upravovat strukturované tagy dokumentů ve Wordu pomocí Aspose.Words pro .NET. Aktualizujte text, rozbalovací nabídky a obrázky krok za krokem."
+"linktitle": "Úprava ovládacích prvků obsahu"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Úprava ovládacích prvků obsahu"
+"url": "/cs/net/programming-with-sdt/modify-content-controls/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Upravit ovládací prvky obsahu
+# Úprava ovládacích prvků obsahu
 
 ## Zavedení
 
-Pokud jste někdy pracovali s dokumenty aplikace Word a potřebovali jste upravit ovládací prvky strukturovaného obsahu – jako prostý text, rozevírací seznamy nebo obrázky – pomocí Aspose.Words pro .NET, jste na správném místě! Structured Document Tags (SDT) jsou výkonné nástroje, díky nimž je automatizace dokumentů snadnější a flexibilnější. V tomto tutoriálu se ponoříme do toho, jak můžete upravit tyto SDT tak, aby vyhovovaly vašim potřebám. Ať už aktualizujete text, měníte výběr v rozevíracím seznamu nebo vyměňujete obrázky, tento průvodce vás provede procesem krok za krokem.
+Pokud jste někdy pracovali s dokumenty Wordu a potřebovali jste upravit strukturované ovládací prvky obsahu – jako je prostý text, rozevírací seznamy nebo obrázky – pomocí Aspose.Words pro .NET, jste na správném místě! Strukturované tagy dokumentů (SDT) jsou výkonné nástroje, které usnadňují a zvyšují flexibilitu automatizace dokumentů. V tomto tutoriálu se ponoříme do toho, jak můžete tyto SDT upravit podle svých potřeb. Ať už aktualizujete text, měníte výběry v rozevíracích nabídkách nebo vyměňujete obrázky, tento průvodce vás krok za krokem provede celým procesem.
 
 ## Předpoklady
 
-Než se vrhneme na to, co je nutné s úpravou ovládacích prvků obsahu, ujistěte se, že máte následující:
+Než se pustíme do detailů úpravy ovládacích prvků obsahu, ujistěte se, že máte následující:
 
-1.  Aspose.Words for .NET Installed: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words. Pokud ne, můžete[stáhněte si to zde](https://releases.aspose.com/words/net/).
+1. Nainstalovaná knihovna Aspose.Words pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words. Pokud ne, můžete [stáhněte si to zde](https://releases.aspose.com/words/net/).
 
 2. Základní znalost C#: Tento tutoriál předpokládá, že jste obeznámeni se základními koncepty programování v C#.
 
-3. Vývojové prostředí .NET: Pro spouštění aplikací .NET byste měli mít nastavené IDE jako Visual Studio.
+3. Vývojové prostředí .NET: Pro spouštění aplikací .NET byste měli mít nastavené IDE, jako je Visual Studio.
 
-4. Ukázkový dokument: Budeme používat ukázkový dokument aplikace Word s různými typy SDT. Můžete použít ten z příkladu nebo si vytvořit vlastní.
+4. Ukázkový dokument: Použijeme ukázkový dokument aplikace Word s různými typy SDT. Můžete použít ten z příkladu nebo si vytvořit vlastní.
 
-5.  Přístup k dokumentaci Aspose: Podrobnější informace naleznete na[Dokumentace Aspose.Words](https://reference.aspose.com/words/net/).
+5. Přístup k dokumentaci Aspose: Podrobnější informace naleznete v [Dokumentace k Aspose.Words](https://reference.aspose.com/words/net/).
 
 ## Importovat jmenné prostory
 
-Chcete-li začít pracovat s Aspose.Words, musíte do svého projektu C# importovat příslušné jmenné prostory. Postup je následující:
+Abyste mohli začít pracovat s Aspose.Words, musíte importovat příslušné jmenné prostory do svého projektu v C#. Postupujte takto:
 
 ```csharp
 using Aspose.Words;
@@ -41,20 +43,20 @@ using Aspose.Words.Drawing;
 using Aspose.Words.Tables;
 ```
 
-Tyto jmenné prostory vám umožní přístup ke třídám a metodám nezbytným pro manipulaci se strukturovanými značkami dokumentů v dokumentech aplikace Word.
+Tyto jmenné prostory vám poskytnou přístup ke třídám a metodám potřebným pro manipulaci se strukturovanými tagy dokumentů v dokumentech Wordu.
 
-## Krok 1: Nastavte cestu k dokumentu
+## Krok 1: Nastavení cesty k dokumentu
 
- Před provedením jakýchkoli změn musíte zadat cestu k dokumentu. Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde je dokument uložen.
+Před provedením jakýchkoli změn je nutné zadat cestu k dokumentu. Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde je váš dokument uložen.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Structured document tags.docx");
 ```
 
-## Krok 2: Procházení tagů strukturovaného dokumentu
+## Krok 2: Procházení strukturovaných tagů dokumentů
 
- Chcete-li upravit SDT, musíte nejprve projít všechny SDT v dokumentu. To se provádí pomocí`GetChildNodes` metoda k získání všech uzlů typu`StructuredDocumentTag`.
+Chcete-li upravit SDT, musíte nejprve projít všechny SDT v dokumentu. To se provádí pomocí `GetChildNodes` metoda pro získání všech uzlů typu `StructuredDocumentTag`.
 
 ```csharp
 foreach (StructuredDocumentTag sdt in doc.GetChildNodes(NodeType.StructuredDocumentTag, true))
@@ -63,9 +65,9 @@ foreach (StructuredDocumentTag sdt in doc.GetChildNodes(NodeType.StructuredDocum
 }
 ```
 
-## Krok 3: Upravte SDT ve formátu prostého textu
+## Krok 3: Úprava SDT v prostém textu
 
-Pokud je SDT typu prostého textu, můžete jeho obsah nahradit. Nejprve vymažte stávající obsah a poté přidejte nový text.
+Pokud je SDT typ prostého textu, můžete jeho obsah nahradit. Nejprve vymažte stávající obsah a poté přidejte nový text.
 
 ```csharp
 if (sdt.SdtType == SdtType.PlainText)
@@ -77,11 +79,11 @@ if (sdt.SdtType == SdtType.PlainText)
 }
 ```
 
- Vysvětlení: Zde,`RemoveAllChildren()`vymaže stávající obsah SDT. Poté vytvoříme nový`Paragraph` a`Run` objekt pro vložení nového textu.
+Vysvětlení: Zde, `RemoveAllChildren()` vymaže existující obsah SDT. Poté vytvoříme nový `Paragraph` a `Run` objekt pro vložení nového textu.
 
-## Krok 4: Upravte SDT rozevíracího seznamu
+## Krok 4: Úprava SDT rozevíracího seznamu
 
- U SDT rozevíracího seznamu můžete vybranou položku změnit přístupem k`ListItems` sbírka. Zde vybereme třetí položku v seznamu.
+U rozbalovacích seznamů SDT můžete změnit vybranou položku přístupem k `ListItems` kolekce. Zde vybereme třetí položku v seznamu.
 
 ```csharp
 if (sdt.SdtType == SdtType.DropDownList)
@@ -91,11 +93,11 @@ if (sdt.SdtType == SdtType.DropDownList)
 }
 ```
 
-Vysvětlení: Tento fragment kódu vybere položku na indexu 2 (třetí položka) z rozevíracího seznamu. Upravte index podle svých potřeb.
+Vysvětlení: Tento úryvek kódu vybere položku s indexem 2 (třetí položka) z rozbalovacího seznamu. Upravte index podle svých potřeb.
 
-## Krok 5: Upravte SDT obrázků
+## Krok 5: Úprava obrazových SDT
 
-Chcete-li aktualizovat obrázek v rámci SDT obrázku, můžete nahradit stávající obrázek novým.
+Chcete-li aktualizovat obrázek v rámci obrázkového SDT, můžete stávající obrázek nahradit novým.
 
 ```csharp
 if (sdt.SdtType == SdtType.Picture)
@@ -108,41 +110,41 @@ if (sdt.SdtType == SdtType.Picture)
 }
 ```
 
- Vysvětlení: Tento kód zkontroluje, zda tvar obsahuje obrázek, a poté jej nahradí novým obrázkem umístěným na`ImagesDir`.
+Vysvětlení: Tento kód zkontroluje, zda tvar obsahuje obrázek, a poté jej nahradí novým obrázkem umístěným v `ImagesDir`.
 
-## Krok 6: Uložte svůj upravený dokument
+## Krok 6: Uložte upravený dokument
 
-Po provedení všech nezbytných změn uložte upravený dokument pod novým názvem, aby byl původní dokument zachován.
+Po provedení všech potřebných změn uložte upravený dokument pod novým názvem, aby původní dokument zůstal neporušený.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithSdt.ModifyContentControls.docx");
 ```
 
-Vysvětlení: Tím se dokument uloží s novým názvem souboru, takže jej můžete snadno odlišit od originálu.
+Vysvětlení: Tím se dokument uloží s novým názvem souboru, abyste ho mohli snadno odlišit od originálu.
 
 ## Závěr
 
-Úprava ovládacích prvků obsahu v dokumentu aplikace Word pomocí Aspose.Words for .NET je jednoduchá, jakmile pochopíte příslušné kroky. Ať už aktualizujete text, měníte výběry v rozevíracím seznamu nebo vyměňujete obrázky, Aspose.Words poskytuje pro tyto úkoly robustní rozhraní API. Podle tohoto kurzu můžete efektivně spravovat a přizpůsobovat ovládací prvky strukturovaného obsahu dokumentu, díky čemuž budou vaše dokumenty dynamičtější a přizpůsobené vašim potřebám.
+Úprava ovládacích prvků obsahu v dokumentu Word pomocí Aspose.Words pro .NET je jednoduchá, jakmile pochopíte jednotlivé kroky. Ať už aktualizujete text, měníte výběry v rozbalovacích nabídkách nebo vyměňujete obrázky, Aspose.Words poskytuje robustní API pro tyto úkoly. Dodržováním tohoto tutoriálu můžete efektivně spravovat a přizpůsobovat strukturované ovládací prvky obsahu dokumentu, čímž se vaše dokumenty stanou dynamičtějšími a přizpůsobenějšími vašim potřebám.
 
-## Nejčastější dotazy
+## Často kladené otázky
 
-1. Co je to značka strukturovaného dokumentu (SDT)?
+1. Co je to tag strukturovaného dokumentu (SDT)?
 
-SDT jsou prvky v dokumentech aplikace Word, které pomáhají spravovat a formátovat obsah dokumentu, jako jsou textová pole, rozevírací seznamy nebo obrázky.
+SDT jsou prvky v dokumentech Wordu, které pomáhají spravovat a formátovat obsah dokumentu, jako jsou textová pole, rozevírací seznamy nebo obrázky.
 
-2. Jak mohu přidat novou rozevírací položku do SDT?
+2. Jak mohu do SDT přidat novou položku rozbalovací nabídky?
 
- Chcete-li přidat novou položku, použijte`ListItems` vlastnost a připojit novou`SdtListItem` do sbírky.
+Chcete-li přidat novou položku, použijte `ListItems` vlastnost a přidat novou `SdtListItem` do sbírky.
 
 3. Mohu použít Aspose.Words k odstranění SDT z dokumentu?
 
-Ano, SDT můžete odstranit tak, že otevřete uzly dokumentu a smažete požadovaný SDT.
+Ano, SDT můžete odstranit tak, že přistoupíte k uzlům dokumentu a smažete požadovaný SDT.
 
-4. Jak zacházím s SDT, které jsou vnořeny do jiných prvků?
+4. Jak mám zpracovat SDT, které jsou vnořené do jiných prvků?
 
- Použijte`GetChildNodes` metoda s vhodnými parametry pro přístup k vnořeným SDT.
+Použijte `GetChildNodes` metoda s příslušnými parametry pro přístup k vnořeným SDT.
 
-5. Co mám dělat, když SDT, kterou potřebuji upravit, není v dokumentu vidět?
+5. Co mám dělat, když SDT, který potřebuji upravit, není v dokumentu viditelný?
 
 Ujistěte se, že SDT není skrytý nebo chráněný. Zkontrolujte nastavení dokumentu a ujistěte se, že váš kód správně cílí na typ SDT.
 
@@ -150,7 +152,7 @@ Ujistěte se, že SDT není skrytý nebo chráněný. Zkontrolujte nastavení do
 ### Příklad zdrojového kódu pro úpravu ovládacích prvků obsahu pomocí Aspose.Words pro .NET 
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Structured document tags.docx");
@@ -187,10 +189,14 @@ doc.Save(dataDir + "WorkingWithSdt.ModifyContentControls.docx");
 
 ```
 
-To je vše! Úspěšně jste upravili různé typy ovládacích prvků obsahu v dokumentu aplikace Word pomocí Aspose.Words for .NET.
+To je vše! Úspěšně jste upravili různé typy ovládacích prvků obsahu v dokumentu Word pomocí Aspose.Words pro .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

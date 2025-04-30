@@ -1,14 +1,16 @@
 ---
-title: Belgeleri Birden Fazla Dosyaya Bölme
-linktitle: Belgeleri Birden Fazla Dosyaya Bölme
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Belgeleri birden fazla dosyaya bölmeye yönelik adım adım kılavuzumuzla Aspose.Words for Java'nın gücünü açığa çıkarın. Uzman görüşleri ve kaynak kodu örnekleri edinin.
-weight: 10
-url: /tr/java/document-splitting/splitting-documents-into-multiple-files/
+"description": "Belgeleri birden fazla dosyaya bölmeye yönelik adım adım kılavuzumuzla Aspose.Words for Java'nın gücünü açığa çıkarın. Uzman görüşleri ve kaynak kodu örnekleri edinin."
+"linktitle": "Belgeleri Birden Fazla Dosyaya Bölme"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belgeleri Birden Fazla Dosyaya Bölme"
+"url": "/tr/java/document-splitting/splitting-documents-into-multiple-files/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belgeleri Birden Fazla Dosyaya Bölme
@@ -20,10 +22,10 @@ Hiç daha küçük, daha yönetilebilir dosyalara bölünmesi gereken devasa bir
 ## Ön koşullar
 Başlamadan önce aşağıdakilerin hazır olduğundan emin olun:
 
-1.  Java için Aspose.Words: Buradan indirin[Aspose sürüm sayfası](https://releases.aspose.com/words/java/).
+1. Java için Aspose.Words: Buradan indirin [Aspose sürüm sayfası](https://releases.aspose.com/words/java/).
 2. Java Geliştirme Ortamı: IntelliJ IDEA, Eclipse veya NetBeans gibi herhangi bir IDE.
 3. Java Runtime Environment (JRE): Kurulu ve düzgün şekilde yapılandırılmış olduğundan emin olun.
-4.  Aspose.Words için lisans: Geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/) veya bir lisans satın alın[Burada](https://purchase.aspose.com/buy).
+4. Aspose.Words için lisans: Geçici bir lisans alın [Burada](https://purchase.aspose.com/temporary-license/) veya bir lisans satın alın [Burada](https://purchase.aspose.com/buy).
 5. Giriş Word Belgesi: Bölmek istediğiniz birden fazla bölümü olan bir .docx dosyası.
 
 ## Paketleri İçe Aktar
@@ -38,7 +40,7 @@ import java.io.File;
 Artık her şey tamam olduğuna göre, adım adım rehberimize geçelim!
 
 ## Adım 1: Belgeyi Yükleyin
- İlk adım, bölmek istediğiniz Word belgesini yüklemektir. Bunu kullanarak yapalım`Document` Aspose.Words'deki sınıf.
+İlk adım, bölmek istediğiniz Word belgesini yüklemektir. Bunu kullanarak yapalım `Document` Aspose.Words'deki sınıf.
 
 ```java
 String dataDir = "Your Document Directory"; // Dosya yolunuzla değiştirin
@@ -68,7 +70,7 @@ for (int i = 0; i < doc.getSections().getCount(); i++) {
 ```
 
 - `doc.getSections().getCount()`: Belgedeki toplam bölüm sayısını alır.
-- `deepClone()`: Orijinal belgeyi değiştirmekten kaçınmak için geçerli bölümün derin bir kopyasını oluşturur.
+- `deepClone()`Orijinal belgeyi değiştirmekten kaçınmak için geçerli bölümün derin bir kopyasını oluşturur.
 - `importNode(section, true)`: Bölümü yeni bir belgeye aktarır.
 - `save()`: Her yeni belgeyi benzersiz bir adla kaydeder.
 
@@ -78,22 +80,27 @@ Ve işte karşınızda! Bir Word belgesini birden fazla dosyaya bölmek, Aspose.
 ## SSS
 
 ### Belgeleri bölümler yerine paragraflara göre bölebilir miyim?
- Evet, paragraflar arasında gezinmek için şunu kullanabilirsiniz:`Paragraph` sınıf yerine`Sections`.
+Evet, paragraflar arasında gezinmek için şunu kullanabilirsiniz: `Paragraph` sınıf yerine `Sections`.
 
 ### Aspose.Words for Java ücretsiz mi?
- Hayır, lisanslı bir üründür, ancak ücretsiz olarak deneyebilirsiniz.[geçici lisans](https://purchase.aspose.com/temporary-license/).
+Hayır, lisanslı bir üründür, ancak ücretsiz olarak deneyebilirsiniz. [geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 ### Bölünmüş dosyaları kaydetmek için hangi formatlar destekleniyor?
- Aspose.Words, DOCX, PDF, HTML ve daha fazlası gibi çeşitli formatları destekler. Kontrol edin[belgeleme](https://reference.aspose.com/words/java/) Ayrıntılar için.
+Aspose.Words, DOCX, PDF, HTML ve daha fazlası gibi çeşitli formatları destekler. Kontrol edin [belgeleme](https://reference.aspose.com/words/java/) Ayrıntılar için.
 
 ### Aspose.Words'ü projeme nasıl eklerim?
- Kütüphaneyi şu adresten indirin:[Burada](https://releases.aspose.com/words/java/) ve bunu projenizin bağımlılıklarına ekleyin.
+Kütüphaneyi şu adresten indirin: [Burada](https://releases.aspose.com/words/java/) ve bunu projenizin bağımlılıklarına ekleyin.
 
 ### Bu kodu bir web uygulamasında kullanabilir miyim?
 Kesinlikle! Sadece dosya G/Ç işlemleri için gerekli izinlerin yapılandırıldığından emin olun.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

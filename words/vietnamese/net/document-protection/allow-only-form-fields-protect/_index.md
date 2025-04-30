@@ -1,14 +1,16 @@
 ---
-title: Chỉ cho phép bảo vệ các trường biểu mẫu trong tài liệu Word
-linktitle: Chỉ cho phép bảo vệ các trường biểu mẫu trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách bảo vệ tài liệu Word, chỉ cho phép chỉnh sửa các trường biểu mẫu bằng Aspose.Words cho .NET. Làm theo hướng dẫn của chúng tôi để đảm bảo tài liệu của bạn an toàn và dễ chỉnh sửa.
-weight: 10
-url: /vi/net/document-protection/allow-only-form-fields-protect/
+"description": "Tìm hiểu cách bảo vệ tài liệu Word, chỉ cho phép chỉnh sửa các trường biểu mẫu bằng Aspose.Words cho .NET. Làm theo hướng dẫn của chúng tôi để đảm bảo tài liệu của bạn an toàn và dễ chỉnh sửa."
+"linktitle": "Chỉ cho phép bảo vệ các trường biểu mẫu trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chỉ cho phép bảo vệ các trường biểu mẫu trong tài liệu Word"
+"url": "/vi/net/document-protection/allow-only-form-fields-protect/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chỉ cho phép bảo vệ các trường biểu mẫu trong tài liệu Word
@@ -21,7 +23,7 @@ Xin chào! Bạn đã bao giờ cần bảo vệ các phần cụ thể của t�
 
 Trước khi đi sâu vào phần mã hóa, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Visual Studio: Bất kỳ phiên bản mới nhất nào cũng đều hoạt động tốt.
 3. Kiến thức cơ bản về C#: Hiểu những kiến thức cơ bản sẽ giúp bạn theo dõi hướng dẫn.
 
@@ -42,7 +44,7 @@ Mở Visual Studio và tạo một dự án Console App (.NET Core) mới. Đặ
 ## Bước 2: Cài đặt Aspose.Words cho .NET
 
 Cài đặt thông qua NuGet Package Manager  
-Nhấp chuột phải vào dự án của bạn trong Solution Explorer, chọn "Manage NuGet Packages" và tìm kiếm`Aspose.Words`. Cài đặt nó.
+Nhấp chuột phải vào dự án của bạn trong Solution Explorer, chọn "Manage NuGet Packages" và tìm kiếm `Aspose.Words`. Cài đặt nó.
 
 ## Bước 3: Khởi tạo Tài liệu
 
@@ -59,7 +61,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Text added to a document.");
 ```
 
- Ở đây, chúng ta tạo ra một cái mới`Document` Và`DocumentBuilder` Ví dụ. Các`DocumentBuilder` cho phép chúng ta thêm văn bản vào tài liệu.
+Ở đây, chúng ta tạo ra một cái mới `Document` Và `DocumentBuilder` Ví dụ. Các `DocumentBuilder` cho phép chúng ta thêm văn bản vào tài liệu.
 
 ## Bước 4: Bảo vệ tài liệu
 
@@ -92,10 +94,10 @@ Và bạn đã có nó! Bạn vừa học cách bảo vệ tài liệu Word đ�
 ## Câu hỏi thường gặp
 
 ###	 Làm thế nào để tôi có thể xóa chế độ bảo vệ khỏi tài liệu?  
- Để loại bỏ bảo vệ, hãy sử dụng`doc.Unprotect("password")` phương pháp, trong đó "mật khẩu" là mật khẩu được sử dụng để bảo vệ tài liệu.
+Để loại bỏ bảo vệ, hãy sử dụng `doc.Unprotect("password")` phương pháp, trong đó "mật khẩu" là mật khẩu được sử dụng để bảo vệ tài liệu.
 
 ###	 Tôi có thể áp dụng các loại bảo vệ khác nhau khi sử dụng Aspose.Words cho .NET không?  
- Có, Aspose.Words hỗ trợ nhiều loại bảo vệ khác nhau như`ReadOnly`, `NoProtection` , Và`AllowOnlyRevisions`.
+Có, Aspose.Words hỗ trợ nhiều loại bảo vệ khác nhau như `ReadOnly`, `NoProtection`, Và `AllowOnlyRevisions`.
 
 ###	 Có thể sử dụng mật khẩu khác nhau cho các phần khác nhau không?  
 Không, chế độ bảo vệ cấp độ tài liệu trong Aspose.Words áp dụng cho toàn bộ tài liệu. Bạn không thể gán các mật khẩu khác nhau cho các phần khác nhau.
@@ -104,11 +106,16 @@ Không, chế độ bảo vệ cấp độ tài liệu trong Aspose.Words áp d�
 Nếu sử dụng mật khẩu không đúng, tài liệu vẫn sẽ được bảo vệ và những thay đổi đã chỉ định sẽ không được áp dụng.
 
 ###	 Tôi có thể kiểm tra bằng chương trình xem một tài liệu có được bảo vệ hay không?  
- Có, bạn có thể sử dụng`doc.ProtectionType` thuộc tính để kiểm tra trạng thái bảo vệ của tài liệu.
+Có, bạn có thể sử dụng `doc.ProtectionType` thuộc tính để kiểm tra trạng thái bảo vệ của tài liệu.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Bölünmüş Tablo
-linktitle: Bölünmüş Tablo
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerindeki tabloları nasıl böleceğinizi öğrenin. Adım adım kılavuzumuz tablo yönetimini kolay ve verimli hale getirir.
-weight: 10
-url: /tr/net/programming-with-tables/split-table/
+"description": "Aspose.Words for .NET kullanarak Word belgelerindeki tabloları nasıl böleceğinizi öğrenin. Adım adım kılavuzumuz tablo yönetimini kolay ve verimli hale getirir."
+"linktitle": "Bölünmüş Tablo"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Bölünmüş Tablo"
+"url": "/tr/net/programming-with-tables/split-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bölünmüş Tablo
@@ -21,8 +23,8 @@ Hiç Word belgesinde büyük bir tabloyla çalışırken buldunuz ve bunu iki k�
 
 Eğitime başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesini indirip kurduğunuzdan emin olun. Bunu şu adresten edinebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
-2. Geliştirme Ortamı: Visual Studio gibi .NET Framework desteği olan bir geliştirme ortamı kurun.
+1. Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesini indirip kurduğunuzdan emin olun. Bunu şu adresten edinebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
+2. Geliştirme Ortamı: Visual Studio gibi .NET framework desteği olan bir geliştirme ortamı kurun.
 3. Örnek Belge: Bir Word belgesi hazırlayın (`Tables.docx`) bölme işlemini uygulayacak en az bir tabloya sahip olmalıdır.
 
 ## Ad Alanlarını İçe Aktar
@@ -126,9 +128,14 @@ Evet, Aspose.Words for .NET iç içe geçmiş tablolardaki işlemleri de destekl
 
 ### Bu süreci birden fazla belge için otomatikleştirebilir miyim?
 Kesinlikle! Birden fazla belge için tablo bölme işlemini otomatikleştirmek için bir betik veya uygulama oluşturabilirsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

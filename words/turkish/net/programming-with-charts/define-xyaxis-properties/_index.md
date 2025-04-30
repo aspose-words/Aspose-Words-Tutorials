@@ -1,14 +1,16 @@
 ---
-title: Bir Grafikte XY Eksen Özelliklerini Tanımlayın
-linktitle: Bir Grafikte XY Eksen Özelliklerini Tanımlayın
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzla .NET için Aspose.Words'ü kullanarak bir grafikte XY ekseni özelliklerini nasıl tanımlayacağınızı öğrenin. .NET geliştiricileri için mükemmeldir.
-weight: 10
-url: /tr/net/programming-with-charts/define-xyaxis-properties/
+"description": "Bu adım adım kılavuzla .NET için Aspose.Words'ü kullanarak bir grafikte XY ekseni özelliklerini nasıl tanımlayacağınızı öğrenin. .NET geliştiricileri için mükemmel."
+"linktitle": "Bir Grafikte XY Eksen Özelliklerini Tanımlayın"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Bir Grafikte XY Eksen Özelliklerini Tanımlayın"
+"url": "/tr/net/programming-with-charts/define-xyaxis-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bir Grafikte XY Eksen Özelliklerini Tanımlayın
@@ -21,7 +23,7 @@ Grafikler, verileri görselleştirmek için güçlü bir araçtır. Dinamik graf
 
 Kodlamaya başlamadan önce, yerine getirmeniz gereken birkaç ön koşul vardır:
 
-1. Aspose.Words for .NET: Aspose.Words for .NET kitaplığına sahip olduğunuzdan emin olun.[buradan indirin](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET kitaplığına sahip olduğunuzdan emin olun. [buradan indirin](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi entegre bir geliştirme ortamına (IDE) ihtiyacınız var.
 3. .NET Framework: Geliştirme ortamınızın .NET geliştirmeye uygun olduğundan emin olun.
 4. Temel C# Bilgisi: Bu kılavuz, C# programlama konusunda temel bir anlayışa sahip olduğunuzu varsayar.
@@ -41,10 +43,10 @@ Süreci basit adımlara böleceğiz ve her adım, bir grafikte XY ekseninin öze
 
 ## Adım 1: Belgeyi ve Belge Oluşturucuyu Başlatın
 
- İlk olarak yeni bir belge başlatmanız ve`DocumentBuilder` nesne.`DocumentBuilder` belgeye içerik eklemeye yardımcı olur.
+İlk olarak yeni bir belge başlatmanız ve `DocumentBuilder` nesne. `DocumentBuilder` belgeye içerik eklemeye yardımcı olur.
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -56,7 +58,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Sonra, belgeye bir grafik ekleyeceksiniz. Bu örnekte, bir Alan grafiği kullanacağız. Grafiğin boyutlarını gerektiği gibi özelleştirebilirsiniz.
 
 ```csharp
-// Tablo ekle
+// Grafik ekle
 Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
 Chart chart = shape.Chart;
 ```
@@ -84,7 +86,7 @@ chart.Series.Add("Aspose Series 1",
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Custom;
-xAxis.CrossesAt = 3; // ekseninin (yüzlerce) gösterge birimleriyle ölçülmüştür.
+xAxis.CrossesAt = 3; // Y ekseninin (yüzlerce) gösterge birimleriyle ölçülmüştür.
 xAxis.ReverseOrder = true;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorTickMark = AxisTickMark.Outside;
@@ -123,20 +125,25 @@ Aspose.Words for .NET kullanarak Word belgelerinde grafikler oluşturmak ve öze
 Alan, Çubuk, Çizgi, Pasta gibi çeşitli grafik türleri oluşturabilirsiniz.
 
 ### Aspose.Words for .NET'i nasıl yüklerim?
- Aspose.Words for .NET'i şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/)ve verilen kurulum talimatlarını izleyin.
+Aspose.Words for .NET'i şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/net/) ve verilen kurulum talimatlarını izleyin.
 
 ### Grafiklerimin görünümünü özelleştirebilir miyim?
 Evet, Aspose.Words for .NET, renkler, yazı tipleri ve eksen özellikleri de dahil olmak üzere grafiklerin kapsamlı bir şekilde özelleştirilmesine olanak tanır.
 
 ### Aspose.Words for .NET için ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz deneme alabilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz deneme alabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Daha fazla öğretici ve dokümanı nerede bulabilirim?
- Daha fazla öğretici ve ayrıntılı dokümanı şu adreste bulabilirsiniz:[Aspose.Words for .NET dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+Daha fazla öğretici ve ayrıntılı dokümanı şu adreste bulabilirsiniz: [Aspose.Words for .NET dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: जावा के लिए Aspose.Words में दस्तावेज़ आकृतियों का उपयोग करना
-linktitle: दस्तावेज़ आकृतियों का उपयोग करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Aspose.Words for Java में दस्तावेज़ आकृतियों की शक्ति अनलॉक करें। चरण-दर-चरण उदाहरणों के साथ दृश्य रूप से आकर्षक दस्तावेज़ बनाना सीखें।
-weight: 14
-url: /hi/java/document-conversion-and-export/using-document-shapes/
+"description": "Aspose.Words for Java में दस्तावेज़ आकृतियों की शक्ति अनलॉक करें। चरण-दर-चरण उदाहरणों के साथ दृश्य रूप से आकर्षक दस्तावेज़ बनाना सीखें।"
+"linktitle": "दस्तावेज़ आकृतियों का उपयोग करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "जावा के लिए Aspose.Words में दस्तावेज़ आकृतियों का उपयोग करना"
+"url": "/hi/java/document-conversion-and-export/using-document-shapes/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के लिए Aspose.Words में दस्तावेज़ आकृतियों का उपयोग करना
@@ -20,13 +22,13 @@ url: /hi/java/document-conversion-and-export/using-document-shapes/
 
 ## दस्तावेज़ आकृतियों के साथ आरंभ करना
 
- कोड में जाने से पहले, आइए अपना वातावरण सेट करें। सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Words for Java एकीकृत है। यदि आपने पहले से ऐसा नहीं किया है, तो आप इसे Aspose वेबसाइट से डाउनलोड कर सकते हैं[Java के लिए Aspose.Words डाउनलोड करें](https://releases.aspose.com/words/java/)
+कोड में जाने से पहले, आइए अपना वातावरण सेट करें। सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Words for Java एकीकृत है। यदि आपने पहले से ऐसा नहीं किया है, तो आप इसे Aspose वेबसाइट से डाउनलोड कर सकते हैं [Java के लिए Aspose.Words डाउनलोड करें](https://releases.aspose.com/words/java/)
 
 ## दस्तावेज़ों में आकृतियाँ जोड़ना
 
 ### ग्रुपशेप सम्मिलित करना
 
- ए`GroupShape` आपको कई आकृतियों को एक साथ समूहीकृत करने की अनुमति देता है। यहाँ बताया गया है कि आप कैसे बना सकते हैं और सम्मिलित कर सकते हैं`GroupShape`:
+ए `GroupShape` आपको कई आकृतियों को एक साथ समूहीकृत करने की अनुमति देता है। यहाँ बताया गया है कि आप कैसे बना सकते हैं और सम्मिलित कर सकते हैं `GroupShape`:
 
 ```java
 Document doc = new Document();
@@ -58,7 +60,7 @@ doc.save("Your Directory Path" + "WorkingWithShapes.AddGroupShape.docx");
 
 ### टेक्स्ट बॉक्स आकार सम्मिलित करना
 
- टेक्स्ट बॉक्स आकार सम्मिलित करने के लिए, आप इसका उपयोग कर सकते हैं`insertShape` नीचे दिए गए उदाहरण में दिखाए अनुसार विधि:
+टेक्स्ट बॉक्स आकार सम्मिलित करने के लिए, आप इसका उपयोग कर सकते हैं `insertShape` नीचे दिए गए उदाहरण में दिखाए अनुसार विधि:
 
 ```java
 Document doc = new Document();
@@ -178,7 +180,7 @@ Aspose.Words for Java एक जावा लाइब्रेरी है ज
 
 ### मैं Java के लिए Aspose.Words कैसे डाउनलोड कर सकता हूँ?
 
- आप इस लिंक का अनुसरण करके Aspose.Words for Java को Aspose वेबसाइट से डाउनलोड कर सकते हैं:[Java के लिए Aspose.Words डाउनलोड करें](https://releases.aspose.com/words/java/)
+आप इस लिंक का अनुसरण करके Aspose.Words for Java को Aspose वेबसाइट से डाउनलोड कर सकते हैं: [Java के लिए Aspose.Words डाउनलोड करें](https://releases.aspose.com/words/java/)
 
 ### दस्तावेज़ आकृतियों का उपयोग करने के क्या लाभ हैं?
 
@@ -191,9 +193,14 @@ Aspose.Words for Java एक जावा लाइब्रेरी है ज
 ### क्या Aspose.Words for Java स्मार्टआर्ट के साथ संगत है?
 
 हां, Java के लिए Aspose.Words स्मार्टआर्ट आकृतियों का समर्थन करता है, जिससे आप अपने दस्तावेज़ों में जटिल आरेखों और ग्राफिक्स के साथ काम कर सकते हैं।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: बिल्डर के साथ दस्तावेज़ सम्मिलित करें
-linktitle: बिल्डर के साथ दस्तावेज़ सम्मिलित करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: Aspose.Words for .NET का उपयोग करके दो Word दस्तावेज़ों को मर्ज करना सीखें। DocumentBuilder के साथ दस्तावेज़ सम्मिलित करने और फ़ॉर्मेटिंग को सुरक्षित रखने के लिए चरण-दर-चरण मार्गदर्शिका।
-weight: 10
-url: /hi/net/join-and-append-documents/insert-document-with-builder/
+"description": "Aspose.Words for .NET का उपयोग करके दो Word दस्तावेज़ों को मर्ज करना सीखें। DocumentBuilder के साथ दस्तावेज़ सम्मिलित करने और फ़ॉर्मेटिंग को सुरक्षित रखने के लिए चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "बिल्डर के साथ दस्तावेज़ सम्मिलित करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "बिल्डर के साथ दस्तावेज़ सम्मिलित करें"
+"url": "/hi/net/join-and-append-documents/insert-document-with-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # बिल्डर के साथ दस्तावेज़ सम्मिलित करें
@@ -21,7 +23,7 @@ url: /hi/net/join-and-append-documents/insert-document-with-builder/
 
 आरंभ करने से पहले, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  .NET के लिए Aspose.Words: यदि आपने अभी तक इसे डाउनलोड नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. .NET के लिए Aspose.Words: यदि आपने अभी तक इसे डाउनलोड नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: सुनिश्चित करें कि आपके पास विजुअल स्टूडियो या कोई अन्य उपयुक्त IDE स्थापित है।
 3. C# का बुनियादी ज्ञान: C# से थोड़ी-सी परिचितता बहुत काम आएगी।
 
@@ -41,11 +43,11 @@ using Aspose.Words.Saving;
 कोडिंग शुरू करने से पहले, आपको अपने दस्तावेज़ निर्देशिका का पथ सेट करना होगा। यह वह जगह है जहाँ आपके स्रोत और गंतव्य दस्तावेज़ संग्रहीत हैं।
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ कहाँ स्थित हैं, इसका वास्तविक पथ चुनें। इससे प्रोग्राम को आपकी फ़ाइलें आसानी से ढूँढ़ने में मदद मिलेगी।
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ कहाँ स्थित हैं, इसका वास्तविक पथ चुनें। इससे प्रोग्राम को आपकी फ़ाइलें आसानी से ढूँढ़ने में मदद मिलेगी।
 
 ## चरण 2: स्रोत और गंतव्य दस्तावेज़ लोड करना
 
@@ -56,17 +58,17 @@ Document srcDoc = new Document(dataDir + "Document source.docx");
 Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 ```
 
- यहाँ, हम उपयोग कर रहे हैं`Document` हमारे दस्तावेज़ों को लोड करने के लिए Aspose.Words लाइब्रेरी से क्लास का उपयोग करें। सुनिश्चित करें कि फ़ाइल नाम आपकी निर्देशिका में मौजूद नामों से मेल खाते हों।
+यहाँ, हम उपयोग कर रहे हैं `Document` हमारे दस्तावेज़ों को लोड करने के लिए Aspose.Words लाइब्रेरी से क्लास का उपयोग करें। सुनिश्चित करें कि फ़ाइल नाम आपकी निर्देशिका में मौजूद नामों से मेल खाते हों।
 
 ## चरण 3: डॉक्यूमेंटबिल्डर ऑब्जेक्ट बनाना
 
-`DocumentBuilder` क्लास Aspose.Words लाइब्रेरी में एक शक्तिशाली उपकरण है। यह हमें दस्तावेज़ को नेविगेट करने और उसमें हेरफेर करने की अनुमति देता है।
+The `DocumentBuilder` क्लास Aspose.Words लाइब्रेरी में एक शक्तिशाली उपकरण है। यह हमें दस्तावेज़ को नेविगेट करने और उसमें हेरफेर करने की अनुमति देता है।
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
 ```
 
- इस चरण में, हमने एक बनाया है`DocumentBuilder` हमारे गंतव्य दस्तावेज़ के लिए ऑब्जेक्ट। इससे हमें दस्तावेज़ में सामग्री डालने में मदद मिलेगी।
+इस चरण में, हमने एक बनाया है `DocumentBuilder` हमारे गंतव्य दस्तावेज़ के लिए ऑब्जेक्ट। इससे हमें दस्तावेज़ में सामग्री डालने में मदद मिलेगी।
 
 ## चरण 4: दस्तावेज़ के अंत में जाना
 
@@ -96,7 +98,7 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.InsertDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
- का उपयोग`InsertDocument` विधि से, हम संपूर्ण स्रोत दस्तावेज़ को गंतव्य दस्तावेज़ में सम्मिलित कर सकते हैं।`ImportFormatMode.KeepSourceFormatting` यह सुनिश्चित करता है कि स्रोत दस्तावेज़ का स्वरूपण संरक्षित रहे।
+का उपयोग `InsertDocument` विधि से, हम संपूर्ण स्रोत दस्तावेज़ को गंतव्य दस्तावेज़ में सम्मिलित कर सकते हैं। `ImportFormatMode.KeepSourceFormatting` यह सुनिश्चित करता है कि स्रोत दस्तावेज़ का स्वरूपण संरक्षित रहे।
 
 ## चरण 7: मर्ज किए गए दस्तावेज़ को सहेजना
 
@@ -118,19 +120,24 @@ builder.Document.Save(dataDir + "JoinAndAppendDocuments.InsertDocumentWithBuilde
 Aspose.Words for .NET एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से Word दस्तावेज़ों को बनाने, संपादित करने, परिवर्तित करने और हेरफेर करने की अनुमति देती है।
 
 ### क्या मैं स्रोत दस्तावेज़ का स्वरूपण रख सकता हूँ?  
- हां, इसका उपयोग करके`ImportFormatMode.KeepSourceFormatting`, जब स्रोत दस्तावेज़ को गंतव्य दस्तावेज़ में डाला जाता है तो उसका स्वरूपण संरक्षित रहता है।
+हां, इसका उपयोग करके `ImportFormatMode.KeepSourceFormatting`जब स्रोत दस्तावेज़ को गंतव्य दस्तावेज़ में डाला जाता है तो उसका स्वरूपण संरक्षित रहता है।
 
 ### क्या मुझे .NET के लिए Aspose.Words का उपयोग करने के लिए लाइसेंस की आवश्यकता है?  
- हां, .NET के लिए Aspose.Words को पूर्ण कार्यक्षमता के लिए लाइसेंस की आवश्यकता होती है। आप एक प्राप्त कर सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) मूल्यांकन हेतु.
+हां, Aspose.Words for .NET को पूर्ण कार्यक्षमता के लिए लाइसेंस की आवश्यकता है। आप एक प्राप्त कर सकते हैं [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) मूल्यांकन हेतु.
 
 ### क्या मैं इस प्रक्रिया को स्वचालित कर सकता हूँ?  
 बिल्कुल! वर्णित विधि को दस्तावेज़ प्रसंस्करण कार्यों को स्वचालित करने के लिए बड़े अनुप्रयोगों में शामिल किया जा सकता है।
 
 ### मुझे और अधिक संसाधन और सहायता कहां मिल सकती है?  
- अधिक जानकारी के लिए आप जांच कर सकते हैं[प्रलेखन](https://reference.aspose.com/words/net/) , या पर जाएँ[सहयता मंच](https://forum.aspose.com/c/words/8) सहायता के लिए.
+अधिक जानकारी के लिए आप जांच कर सकते हैं [प्रलेखन](https://reference.aspose.com/words/net/), या पर जाएँ [सहयता मंच](https://forum.aspose.com/c/words/8) सहायता के लिए.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

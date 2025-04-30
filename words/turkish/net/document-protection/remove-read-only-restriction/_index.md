@@ -1,14 +1,16 @@
 ---
-title: Salt Okunur Kısıtlamasını Kaldır
-linktitle: Salt Okunur Kısıtlamasını Kaldır
-second_title: Aspose.Words Belge İşleme API'si
-description: Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET'i kullanarak Word belgelerinden salt okunur kısıtlamalarını kolayca kaldırın. Geliştiriciler için mükemmel.
-weight: 10
-url: /tr/net/document-protection/remove-read-only-restriction/
+"description": "Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET'i kullanarak Word belgelerinden salt okunur kısıtlamalarını kolayca kaldırın. Geliştiriciler için mükemmel."
+"linktitle": "Salt Okunur Kısıtlamasını Kaldır"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Salt Okunur Kısıtlamasını Kaldır"
+"url": "/tr/net/document-protection/remove-read-only-restriction/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Salt Okunur Kısıtlamasını Kaldır
@@ -21,7 +23,7 @@ Doğru araçları ve yöntemleri bilmiyorsanız, bir Word belgesinden salt okunu
 
 Adım adım kılavuza dalmadan önce, aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
--  Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Henüz yüklemediyseniz, şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Henüz yüklemediyseniz, şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio gibi bir .NET geliştirme ortamı.
 - Temel C# Bilgisi: Temel C# programlama kavramlarını anlamak faydalı olacaktır.
 
@@ -48,9 +50,9 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "YourDocument.docx");
 ```
 
- Bu adımda, değiştirin`"YOUR DOCUMENT DIRECTORY"` Belgenizin saklandığı gerçek yol ile.`"YourDocument.docx"` değiştirmek istediğiniz belgenin adıdır.
+Bu adımda, değiştirin `"YOUR DOCUMENT DIRECTORY"` Belgenizin saklandığı gerçek yol ile. `"YourDocument.docx"` değiştirmek istediğiniz belgenin adıdır.
 
-## Adım 3: Bir Parola Ayarlayın (İsteğe bağlı)
+## Adım 3: Bir Parola Belirleyin (İsteğe bağlı)
 
 Parola belirlemek isteğe bağlıdır, ancak belgenizi değiştirmeden önce ona ekstra bir güvenlik katmanı ekleyebilir.
 
@@ -91,7 +93,7 @@ Son olarak değiştirdiğiniz belgeyi istediğiniz yere kaydedin.
 doc.Save(dataDir + "DocumentProtection.RemoveReadOnlyRestriction.docx");
 ```
 
- Bu adımda, değiştirilen belge şu adla kaydedilir:`"DocumentProtection.RemoveReadOnlyRestriction.docx"`.
+Bu adımda, değiştirilen belge şu adla kaydedilir: `"DocumentProtection.RemoveReadOnlyRestriction.docx"`.
 
 ## Çözüm
 
@@ -107,11 +109,11 @@ Evet, parola ayarlamak isteğe bağlıdır. Salt okunur önerisini doğrudan kal
 
 ### Belgenin zaten farklı bir koruma türü varsa ne olur?
 
- The`doc.Protect(ProtectionType.NoProtection)` yöntem, belgeden her türlü korumanın kaldırılmasını sağlar.
+The `doc.Protect(ProtectionType.NoProtection)` yöntem, belgeden her türlü korumanın kaldırılmasını sağlar.
 
 ### Kısıtlamayı kaldırmadan önce bir belgenin salt okunur olup olmadığını bilmenin bir yolu var mı?
 
- Evet, kontrol edebilirsiniz`ReadOnlyRecommended` Herhangi bir değişiklik yapmadan önce belgenin salt okunur olup olmadığını kontrol etmek için özelliğin kullanılması önerilir.
+Evet, kontrol edebilirsiniz `ReadOnlyRecommended` Herhangi bir değişiklik yapmadan önce belgenin salt okunur olup olmadığını kontrol etmek için özelliğin kullanılması önerilir.
 
 ### Bu yöntemi birden fazla belgedeki kısıtlamaları aynı anda kaldırmak için kullanabilir miyim?
 
@@ -120,9 +122,14 @@ Evet, birden fazla belge arasında geçiş yapabilir ve her birine aynı yöntem
 ### Belge şifreyle korunuyorsa ve ben şifreyi bilmiyorsam ne olur?
 
 Ne yazık ki, herhangi bir kısıtlamayı kaldırmak için şifreyi bilmeniz gerekiyor. Şifre olmadan, koruma ayarlarını değiştiremezsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

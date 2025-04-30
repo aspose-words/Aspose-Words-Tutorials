@@ -1,15 +1,16 @@
 ---
-title: Đặt Phiên Bản Ms Word
-linktitle: Đặt Phiên Bản Ms Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thiết lập phiên bản MS Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết của chúng tôi. Hoàn hảo cho các nhà phát triển muốn hợp lý hóa thao tác tài liệu.
-
-weight: 10
-url: /vi/net/programming-with-loadoptions/set-ms-word-version/
+"description": "Tìm hiểu cách thiết lập phiên bản MS Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết của chúng tôi. Hoàn hảo cho các nhà phát triển muốn hợp lý hóa thao tác tài liệu."
+"linktitle": "Đặt Phiên Bản Ms Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Đặt Phiên Bản Ms Word"
+"url": "/vi/net/programming-with-loadoptions/set-ms-word-version/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt Phiên Bản Ms Word
@@ -22,7 +23,7 @@ Bạn đã bao giờ thấy mình cần làm việc với các phiên bản cụ
 
 Trước khi tìm hiểu mã, hãy đảm bảo bạn có mọi thứ cần thiết:
 
--  Aspose.Words cho .NET: Hãy đảm bảo bạn có phiên bản mới nhất.[Tải xuống tại đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Hãy đảm bảo bạn có phiên bản mới nhất. [Tải xuống tại đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Bạn có thể sử dụng Visual Studio hoặc bất kỳ IDE nào khác tương thích với .NET.
 - Kiến thức cơ bản về C#: Mặc dù chúng tôi sẽ trình bày đơn giản, nhưng bạn vẫn cần có hiểu biết cơ bản về C#.
 - Tài liệu mẫu: Chuẩn bị sẵn một tài liệu Word trong thư mục tài liệu của bạn để thử nghiệm.
@@ -80,23 +81,28 @@ Việc thiết lập phiên bản MS Word trong Aspose.Words cho .NET rất đơ
 ## Câu hỏi thường gặp
 
 ### Tôi có thể cài đặt phiên bản khác ngoài Word 2010 không?
- Có, bạn có thể thiết lập các phiên bản khác nhau như Word 2007, Word 2013, v.v. bằng cách thay đổi`MsWordVersion` tài sản.
+Có, bạn có thể thiết lập các phiên bản khác nhau như Word 2007, Word 2013, v.v. bằng cách thay đổi `MsWordVersion` tài sản.
 
 ### Aspose.Words có tương thích với .NET Core không?
 Chắc chắn rồi! Aspose.Words hỗ trợ .NET Framework, .NET Core và .NET 5+.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words không?
- Bạn có thể dùng thử miễn phí, nhưng để có đầy đủ tính năng, bạn sẽ cần giấy phép.[Nhận giấy phép tạm thời tại đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể dùng thử miễn phí, nhưng để có đầy đủ tính năng, bạn sẽ cần giấy phép. [Nhận giấy phép tạm thời tại đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể sử dụng Aspose.Words để thao tác các tính năng khác của tài liệu Word không?
 Có, Aspose.Words là một thư viện toàn diện cho phép bạn thao tác hầu hết mọi khía cạnh của tài liệu Word.
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
- Kiểm tra các[tài liệu](https://reference.aspose.com/words/net/) để biết thêm ví dụ và thông tin chi tiết.
+Kiểm tra các [tài liệu](https://reference.aspose.com/words/net/) để biết thêm ví dụ và thông tin chi tiết.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

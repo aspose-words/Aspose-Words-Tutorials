@@ -1,14 +1,16 @@
 ---
-title: สร้างและปรับแต่งแผนภูมิโดยใช้รูปร่าง
-linktitle: สร้างและปรับแต่งแผนภูมิโดยใช้รูปร่าง
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีสร้างและปรับแต่งแผนภูมิในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการแสดงภาพข้อมูล
-weight: 10
-url: /th/net/programming-with-charts/create-chart-using-shape/
+"description": "เรียนรู้วิธีสร้างและปรับแต่งแผนภูมิในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการแสดงภาพข้อมูล"
+"linktitle": "สร้างและปรับแต่งแผนภูมิโดยใช้รูปร่าง"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "สร้างและปรับแต่งแผนภูมิโดยใช้รูปร่าง"
+"url": "/th/net/programming-with-charts/create-chart-using-shape/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สร้างและปรับแต่งแผนภูมิโดยใช้รูปร่าง
@@ -21,13 +23,13 @@ url: /th/net/programming-with-charts/create-chart-using-shape/
 
 ก่อนที่จะเจาะลึกโค้ด ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
--  Aspose.Words สำหรับไลบรารี .NET: คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับไลบรารี .NET: คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 - Visual Studio: เวอร์ชันใดก็ตามที่รองรับ .NET
 - ความรู้พื้นฐานเกี่ยวกับ C#: การทำความเข้าใจพื้นฐานของ C# จะช่วยให้คุณทำตามบทช่วยสอนได้
 
 ## นำเข้าเนมสเปซ
 
-ในการเริ่มต้น คุณต้องนำเข้าเนมสเปซที่จำเป็น ขั้นตอนนี้มีความสำคัญเนื่องจากช่วยให้คุณสามารถใช้คลาสและวิธีการที่ Aspose.Words จัดเตรียมไว้สำหรับ .NET ได้
+ในการเริ่มต้น คุณต้องนำเข้าเนมสเปซที่จำเป็น ขั้นตอนนี้มีความสำคัญเนื่องจากช่วยให้คุณสามารถใช้คลาสและเมธอดที่ Aspose.Words จัดเตรียมไว้สำหรับ .NET ได้
 
 ```csharp
 using Aspose.Words;
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## ขั้นตอนที่ 2: แทรกแผนภูมิ
 
- ต่อไปคุณจะแทรกแผนภูมิเส้นลงในเอกสาร`DocumentBuilder.InsertChart` วิธีที่ใช้สำหรับจุดประสงค์นี้
+ต่อไปคุณจะแทรกแผนภูมิเส้นลงในเอกสาร `DocumentBuilder.InsertChart` วิธีที่ใช้สำหรับจุดประสงค์นี้
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
@@ -92,27 +94,32 @@ doc.Save(dataDir + "WorkingWithCharts.CreateChartUsingShape.docx");
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ .NET เพื่อสร้างแผนภูมิประเภทอื่นได้หรือไม่
 
- ใช่ Aspose.Words สำหรับ .NET รองรับแผนภูมิประเภทต่างๆ รวมถึงแผนภูมิแท่ง แผนภูมิวงกลม และอื่นๆ คุณสามารถศึกษาเอกสารประกอบได้[ที่นี่](https://reference.aspose.com/words/net/) สำหรับรายละเอียดเพิ่มเติม
+ใช่ Aspose.Words สำหรับ .NET รองรับแผนภูมิประเภทต่างๆ รวมถึงแผนภูมิแท่ง แผนภูมิวงกลม และอื่นๆ คุณสามารถศึกษาเอกสารประกอบได้ [ที่นี่](https://reference.aspose.com/words/net/) สำหรับรายละเอียดเพิ่มเติม
 
 ### ฉันจะทดลองใช้ Aspose.Words สำหรับ .NET ก่อนซื้อได้อย่างไร
 
- คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้งานฟรีได้จาก[ที่นี่](https://releases.aspose.com/)ซึ่งจะทำให้คุณสามารถทดสอบไลบรารีและฟีเจอร์ต่างๆ ได้ก่อนตัดสินใจซื้อ
+คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้งานฟรีได้จาก [ที่นี่](https://releases.aspose.com/)ซึ่งจะทำให้คุณสามารถทดสอบไลบรารีและฟีเจอร์ต่างๆ ได้ก่อนตัดสินใจซื้อ
 
 ### มีวิธีรับการสนับสนุนหรือไม่หากฉันประสบปัญหา?
 
- แน่นอน คุณสามารถเข้าถึงการสนับสนุนผ่านฟอรัมชุมชน Aspose[ที่นี่](https://forum.aspose.com/c/words/8)ชุมชนและเจ้าหน้าที่ Aspose ตอบสนองได้ดีมาก
+แน่นอน คุณสามารถเข้าถึงการสนับสนุนผ่านฟอรัมชุมชน Aspose [ที่นี่](https://forum.aspose.com/c/words/8). ชุมชนและเจ้าหน้าที่ Aspose ตอบสนองได้ดีมาก
 
 ### ฉันจะซื้อใบอนุญาตสำหรับ Aspose.Words สำหรับ .NET ได้อย่างไร
 
- คุณสามารถซื้อใบอนุญาตโดยตรงจากเว็บไซต์ Aspose[ที่นี่](https://purchase.aspose.com/buy)มีตัวเลือกใบอนุญาตหลากหลายเพื่อให้ตรงกับความต้องการที่แตกต่างกัน
+คุณสามารถซื้อใบอนุญาตโดยตรงจากเว็บไซต์ Aspose [ที่นี่](https://purchase.aspose.com/buy)มีตัวเลือกใบอนุญาตหลากหลายเพื่อให้ตรงกับความต้องการที่แตกต่างกัน
 
 ### จะเกิดอะไรขึ้นหากฉันต้องการใบอนุญาตชั่วคราวสำหรับโครงการระยะสั้น?
 
- Aspose เสนอใบอนุญาตชั่วคราวซึ่งคุณสามารถร้องขอได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+Aspose เสนอใบอนุญาตชั่วคราวซึ่งคุณสามารถร้องขอได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

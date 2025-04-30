@@ -1,14 +1,16 @@
 ---
-title: Экспорт ресурсов
-linktitle: Экспорт ресурсов
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как экспортировать ресурсы, такие как CSS и шрифты, сохраняя документы Word как HTML с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству.
-weight: 10
-url: /ru/net/programming-with-htmlsaveoptions/export-resources/
+"description": "Узнайте, как экспортировать ресурсы, такие как CSS и шрифты, сохраняя документы Word как HTML с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству."
+"linktitle": "Экспорт ресурсов"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Экспорт ресурсов"
+"url": "/ru/net/programming-with-htmlsaveoptions/export-resources/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Экспорт ресурсов
@@ -19,10 +21,10 @@ url: /ru/net/programming-with-htmlsaveoptions/export-resources/
 
 ## Предпосылки
 
-Прежде чем погрузиться в код, давайте убедимся, что у вас есть все необходимое для начала работы. Вот краткий контрольный список:
+Прежде чем погрузиться в код, давайте убедимся, что у вас есть все необходимое для начала. Вот краткий контрольный список:
 
-1.  Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio. Вы можете загрузить ее с[Веб-сайт Visual Studio](https://visualstudio.microsoft.com/).
-2.  Aspose.Words for .NET: Вам понадобится библиотека Aspose.Words for .NET. Если у вас ее еще нет, получите бесплатную пробную версию[Релизы Aspose](https://releases.aspose.com/words/net/) или купите его у[Магазин Aspose](https://purchase.aspose.com/buy).
+1. Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio. Вы можете загрузить ее с [Веб-сайт Visual Studio](https://visualstudio.microsoft.com/).
+2. Aspose.Words for .NET: Вам понадобится библиотека Aspose.Words for .NET. Если у вас ее еще нет, получите бесплатную пробную версию [Релизы Aspose](https://releases.aspose.com/words/net/) или купите его у [Магазин Aspose](https://purchase.aspose.com/buy).
 3. Базовые знания C#: Фундаментальное понимание C# поможет вам разобраться в примерах кода.
 
 Все поняли? Отлично! Перейдем к импорту необходимых пространств имен.
@@ -49,11 +51,11 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему каталогу.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему каталогу.
 
 ## Шаг 2: Загрузите документ Word
 
- Далее, давайте загрузим документ Word, который вы хотите преобразовать в HTML. Для этого урока мы будем использовать документ с именем`Rendering.docx`.
+Далее, давайте загрузим документ Word, который вы хотите преобразовать в HTML. Для этого урока мы будем использовать документ с именем `Rendering.docx`.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -63,7 +65,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Шаг 3: Настройте параметры сохранения HTML
 
-Для экспорта таких ресурсов, как CSS и шрифты, вам необходимо настроить`HtmlSaveOptions`. Этот шаг имеет решающее значение для обеспечения того, чтобы ваш HTML-вывод был хорошо структурирован и включал необходимые ресурсы.
+Для экспорта таких ресурсов, как CSS и шрифты, вам необходимо настроить `HtmlSaveOptions`. Этот шаг имеет решающее значение для обеспечения того, чтобы ваш HTML-вывод был хорошо структурирован и включал необходимые ресурсы.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions
@@ -98,22 +100,27 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ExportResources.html", saveOption
 ## Часто задаваемые вопросы
 
 ### Могу ли я экспортировать изображения вместе со шрифтами и CSS?
- Да, можно! Aspose.Words for .NET также поддерживает экспорт изображений. Просто убедитесь, что вы настроили`HtmlSaveOptions` соответственно.
+Да, можно! Aspose.Words for .NET также поддерживает экспорт изображений. Просто убедитесь, что вы настроили `HtmlSaveOptions` соответственно.
 
 ### Есть ли способ встроить CSS вместо использования внешней таблицы стилей?
- Конечно. Вы можете установить`CssStyleSheetType` к`CssStyleSheetType.Embedded` если вы предпочитаете встроенные стили.
+Конечно. Вы можете установить `CssStyleSheetType` к `CssStyleSheetType.Embedded` если вы предпочитаете встроенные стили.
 
 ### Как настроить имя выходного HTML-файла?
- Вы можете указать любое имя файла в`doc.Save` метод. Например,`doc.Save(dataDir + "CustomFileName.html", saveOptions);`.
+Вы можете указать любое имя файла в `doc.Save` метод. Например, `doc.Save(dataDir + "CustomFileName.html", saveOptions);`.
 
 ### Поддерживает ли Aspose.Words другие форматы, помимо HTML?
- Да, он поддерживает различные форматы, включая PDF, DOCX, TXT и другие. Проверьте[документация](https://reference.aspose.com/words/net/) для полного списка.
+Да, он поддерживает различные форматы, включая PDF, DOCX, TXT и другие. Проверьте [документация](https://reference.aspose.com/words/net/) для полного списка.
 
 ### Где я могу получить дополнительную поддержку и ресурсы?
-Для получения дополнительной помощи посетите[Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8) . Подробную документацию и примеры вы также можете найти на[Сайт Aspose](https://reference.aspose.com/words/net/).
+Для получения дополнительной помощи посетите [Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8). Подробную документацию и примеры вы также можете найти на [Сайт Aspose](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

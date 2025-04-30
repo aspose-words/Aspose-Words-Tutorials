@@ -1,14 +1,16 @@
 ---
-title: Konwersja dokumentów
-linktitle: Konwersja dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Usprawnij konwersję dokumentów w Javie dzięki Aspose.Words! Poznaj kompleksowe przewodniki dotyczące przetwarzania tekstu i dokumentów
-weight: 14
-url: /pl/java/document-converting/
+"description": "Usprawnij konwersję dokumentów w Javie dzięki Aspose.Words! Poznaj kompleksowe przewodniki dotyczące przetwarzania tekstu i dokumentów"
+"linktitle": "Konwersja dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Konwersja dokumentów"
+"url": "/pl/java/document-converting/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwersja dokumentów
@@ -38,9 +40,13 @@ Konwertuj dokumenty HTML na Word bez wysiłku dzięki Aspose.Words dla Java. Dow
 Skutecznie konwertuj DOCX do EPUB za pomocą Aspose.Words dla Java. Dowiedz się, jak dostosować opcje zapisywania, dzielić zawartość i eksportować właściwości dokumentu w tym przewodniku krok po kroku.
 ### [Konwersja dokumentów na obrazy](./converting-documents-images/)
 Dowiedz się, jak konwertować dokumenty Word na obrazy za pomocą Aspose.Words for Java. Przewodnik krok po kroku, z przykładami kodu i FAQ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

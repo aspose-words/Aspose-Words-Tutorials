@@ -1,14 +1,16 @@
 ---
-title: Объединение и клонирование документов
-linktitle: Объединение и клонирование документов
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как легко объединять и клонировать документы в Java с помощью Aspose.Words. Это пошаговое руководство охватывает все, что вам нужно знать.
-weight: 10
-url: /ru/java/document-merging/combining-cloning-documents/
+"description": "Узнайте, как легко объединять и клонировать документы в Java с помощью Aspose.Words. Это пошаговое руководство охватывает все, что вам нужно знать."
+"linktitle": "Объединение и клонирование документов"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Объединение и клонирование документов"
+"url": "/ru/java/document-merging/combining-cloning-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Объединение и клонирование документов
@@ -47,7 +49,7 @@ public class DocumentCombination {
 
 ## Шаг 2: Загрузка исходных документов
 
- Далее вам нужно загрузить исходные документы, которые вы хотите объединить. Вы можете загрузить несколько документов в отдельные экземпляры`Document` сорт.
+Далее вам нужно загрузить исходные документы, которые вы хотите объединить. Вы можете загрузить несколько документов в отдельные экземпляры `Document` сорт.
 
 ```java
 // Загрузить исходные документы
@@ -154,10 +156,15 @@ Aspose.Words для Java — мощный инструмент для объед
 
 ### Где я могу найти больше ресурсов и документации по Aspose.Words для Java?
 
- Подробную документацию и дополнительные ресурсы по Aspose.Words для Java можно найти на сайте[здесь](https://reference.aspose.com/words/java/).
+Подробную документацию и дополнительные ресурсы по Aspose.Words для Java можно найти на сайте [здесь](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

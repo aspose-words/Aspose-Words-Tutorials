@@ -1,14 +1,16 @@
 ---
-title: Thêm tài liệu vào chỗ trống
-linktitle: Thêm tài liệu vào chỗ trống
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thêm tài liệu vào tài liệu trống một cách liền mạch bằng Aspose.Words cho .NET. Có hướng dẫn từng bước, đoạn mã và câu hỏi thường gặp.
-weight: 10
-url: /vi/net/join-and-append-documents/append-document-to-blank/
+"description": "Tìm hiểu cách thêm tài liệu vào tài liệu trống một cách liền mạch bằng Aspose.Words cho .NET. Có hướng dẫn từng bước, đoạn mã và câu hỏi thường gặp."
+"linktitle": "Thêm tài liệu vào chỗ trống"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thêm tài liệu vào chỗ trống"
+"url": "/vi/net/join-and-append-documents/append-document-to-blank/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm tài liệu vào chỗ trống
@@ -21,11 +23,11 @@ Xin chào! Bạn đã bao giờ thấy mình bối rối, tự hỏi làm thế 
 
 Trước khi đi sâu vào vấn đề chính, bạn cần chuẩn bị một số điều sau:
 
-1.  Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống từ[Aspose phát hành](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống từ [Aspose phát hành](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác tương thích với .NET.
 3. Hiểu biết cơ bản về C#: Mặc dù chúng tôi sẽ trình bày đơn giản, nhưng việc quen thuộc một chút với C# sẽ giúp ích rất nhiều.
 4. Tài liệu nguồn: Tài liệu Word mà bạn muốn thêm vào tài liệu trống.
-5.  Giấy phép (Tùy chọn): Nếu bạn không sử dụng phiên bản dùng thử, bạn có thể cần[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc một[giấy phép đầy đủ](https://purchase.aspose.com/buy).
+5. Giấy phép (Tùy chọn): Nếu bạn không sử dụng phiên bản dùng thử, bạn có thể cần [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc một [giấy phép đầy đủ](https://purchase.aspose.com/buy).
 
 ## Nhập không gian tên
 
@@ -72,7 +74,7 @@ Bây giờ dự án của chúng ta đã được thiết lập, hãy tải tài
    Document srcDoc = new Document(dataDir + "Document source.docx");
    ```
 
- Đoạn mã này tải tài liệu nguồn vào một`Document` đối tượng mà chúng ta sẽ thêm vào tài liệu trống ở các bước tiếp theo.
+Đoạn mã này tải tài liệu nguồn vào một `Document` đối tượng mà chúng ta sẽ thêm vào tài liệu trống ở các bước tiếp theo.
 
 ## Bước 3: Tạo và Chuẩn bị Tài liệu Đích
 
@@ -124,15 +126,15 @@ Việc thêm tài liệu bằng Aspose.Words cho .NET thật dễ dàng khi bạ
 
 ### Tôi có thể thêm nhiều tài liệu vào một tài liệu đích không?
 
-Có, bạn có thể thêm nhiều tài liệu bằng cách gọi nhiều lần`AppendDocument` phương pháp cho từng tài liệu.
+Có, bạn có thể thêm nhiều tài liệu bằng cách gọi nhiều lần `AppendDocument` phương pháp cho từng tài liệu.
 
 ### Điều gì xảy ra nếu tài liệu nguồn có định dạng khác?
 
- Các`ImportFormatMode.KeepSourceFormatting` đảm bảo định dạng của tài liệu nguồn được giữ nguyên khi thêm vào.
+Các `ImportFormatMode.KeepSourceFormatting` đảm bảo định dạng của tài liệu nguồn được giữ nguyên khi thêm vào.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words không?
 
- Bạn có thể bắt đầu với một[dùng thử miễn phí](https://releases.aspose.com/) hoặc nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để có các tính năng mở rộng.
+Bạn có thể bắt đầu với một [dùng thử miễn phí](https://releases.aspose.com/) hoặc nhận được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để có các tính năng mở rộng.
 
 ### Tôi có thể thêm các loại tài liệu khác nhau như DOCX và DOC không?
 
@@ -141,9 +143,14 @@ Có, Aspose.Words hỗ trợ nhiều định dạng tài liệu khác nhau và b
 ### Tôi có thể khắc phục sự cố như thế nào nếu tài liệu được thêm vào trông không đúng?
 
 Kiểm tra xem tài liệu đích có hoàn toàn trống không trước khi thêm vào. Bất kỳ nội dung còn sót lại nào cũng có thể gây ra sự cố định dạng.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

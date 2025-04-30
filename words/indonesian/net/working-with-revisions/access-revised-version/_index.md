@@ -1,14 +1,16 @@
 ---
-title: Akses Versi Revisi
-linktitle: Akses Versi Revisi
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengakses dan menampilkan versi dokumen yang telah direvisi menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk manajemen dokumen yang lancar.
-weight: 10
-url: /id/net/working-with-revisions/access-revised-version/
+"description": "Pelajari cara mengakses dan menampilkan versi dokumen yang telah direvisi menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk manajemen dokumen yang lancar."
+"linktitle": "Akses Versi Revisi"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Akses Versi Revisi"
+"url": "/id/net/working-with-revisions/access-revised-version/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Akses Versi Revisi
@@ -21,7 +23,7 @@ Pernahkah Anda perlu mengakses versi dokumen yang telah direvisi secara terprogr
 
 Sebelum kita memulai, Anda memerlukan beberapa hal:
 
-1.  Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau IDE lain yang mendukung .NET.
 3. Pengetahuan Dasar C#: Ini akan membantu Anda mengikuti bagian pengkodean.
 
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Langkah 2: Memuat Dokumen
 
- Selanjutnya, Anda akan memuat dokumen ke dalam aplikasi Anda. Langkah ini melibatkan pembuatan dokumen baru`Document` objek dan menginisialisasinya dengan jalur ke dokumen Anda.
+Selanjutnya, Anda akan memuat dokumen ke dalam aplikasi Anda. Langkah ini melibatkan pembuatan dokumen baru `Document` objek dan menginisialisasinya dengan jalur ke dokumen Anda.
 
 ```csharp
 Document doc = new Document(dataDir + "Revisions.docx");
@@ -74,7 +76,7 @@ doc.RevisionsView = RevisionsView.Final;
 
 ## Langkah 5: Mengulang Revisi
 
- Untuk mengakses revisi, Anda perlu mengulanginya`Revisions` pengumpulan dokumen. Langkah ini melibatkan penggunaan`foreach` putaran untuk melalui setiap revisi.
+Untuk mengakses revisi, Anda perlu mengulanginya `Revisions` pengumpulan dokumen. Langkah ini melibatkan penggunaan `foreach` putaran untuk melalui setiap revisi.
 
 ```csharp
 foreach (Revision revision in doc.Revisions)
@@ -85,7 +87,7 @@ foreach (Revision revision in doc.Revisions)
 
 ## Langkah 6: Memeriksa Jenis Node Induk
 
- Untuk setiap revisi, periksa apakah simpul induk bertipe`Paragraph`Ini penting karena kami ingin mengakses paragraf yang berisi revisi.
+Untuk setiap revisi, periksa apakah simpul induk bertipe `Paragraph`Ini penting karena kami ingin mengakses paragraf yang berisi revisi.
 
 ```csharp
 if (revision.ParentNode.NodeType == NodeType.Paragraph)
@@ -96,7 +98,7 @@ if (revision.ParentNode.NodeType == NodeType.Paragraph)
 
 ## Langkah 7: Mengakses Paragraf
 
- Setelah Anda mengonfirmasi bahwa simpul induk adalah paragraf, ubahlah menjadi paragraf`Paragraph` objek. Langkah ini memungkinkan Anda untuk bekerja dengan paragraf dan propertinya.
+Setelah Anda mengonfirmasi bahwa simpul induk adalah paragraf, ubahlah menjadi paragraf `Paragraph` objek. Langkah ini memungkinkan Anda untuk bekerja dengan paragraf dan propertinya.
 
 ```csharp
 Paragraph paragraph = (Paragraph)revision.ParentNode;
@@ -135,16 +137,21 @@ Aspose.Words untuk .NET adalah pustaka hebat yang memungkinkan Anda membuat, men
 Ya, selama dokumen berisi revisi, Anda dapat mengaksesnya menggunakan Aspose.Words untuk .NET.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words untuk .NET?
- Ya, Anda bisa mendapatkan lisensi dari[Di Sini](https://purchase.aspose.com/buy) Mereka juga menawarkan[uji coba gratis](https://releases.aspose.com/) dan sebuah[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+Ya, Anda bisa mendapatkan lisensi dari [Di Sini](https://purchase.aspose.com/buy)Mereka juga menawarkan [uji coba gratis](https://releases.aspose.com/) dan sebuah [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 ### Apakah Aspose.Words untuk .NET kompatibel dengan semua versi .NET?
-Aspose.Words untuk .NET kompatibel dengan berbagai versi .NET. Anda dapat menemukan informasi lebih lanjut di[dokumentasi](https://reference.aspose.com/words/net/).
+Aspose.Words untuk .NET kompatibel dengan berbagai versi .NET. Anda dapat menemukan informasi lebih lanjut di [dokumentasi](https://reference.aspose.com/words/net/).
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Words untuk .NET?
- Anda bisa mendapatkan dukungan dari komunitas Aspose di[forum](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari komunitas Aspose di [forum](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

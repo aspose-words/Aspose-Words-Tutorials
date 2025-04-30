@@ -1,14 +1,16 @@
 ---
-title: Masukkan Dokumen Dengan Builder
-linktitle: Masukkan Dokumen Dengan Builder
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menggabungkan dua dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah untuk menyisipkan dokumen dengan DocumentBuilder dan mempertahankan formatnya.
-weight: 10
-url: /id/net/join-and-append-documents/insert-document-with-builder/
+"description": "Pelajari cara menggabungkan dua dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah untuk menyisipkan dokumen dengan DocumentBuilder dan mempertahankan formatnya."
+"linktitle": "Masukkan Dokumen Dengan Builder"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Masukkan Dokumen Dengan Builder"
+"url": "/id/net/join-and-append-documents/insert-document-with-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Masukkan Dokumen Dengan Builder
@@ -21,7 +23,7 @@ Jadi, Anda punya dua dokumen Word, dan Anda ingin menggabungkannya menjadi satu.
 
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Aspose.Words untuk .NET: Jika Anda belum melakukannya, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Jika Anda belum melakukannya, Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Pastikan Anda telah menginstal Visual Studio atau IDE lain yang sesuai.
 3. Pengetahuan Dasar C#: Sedikit pengetahuan tentang C# akan sangat membantu.
 
@@ -41,11 +43,11 @@ Sekarang setelah prasyaratnya terpenuhi, mari kita uraikan prosesnya langkah dem
 Sebelum kita mulai membuat kode, Anda perlu mengatur jalur ke direktori dokumen Anda. Di sinilah dokumen sumber dan tujuan Anda disimpan.
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda berada. Ini akan membantu program menemukan berkas Anda dengan mudah.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda berada. Ini akan membantu program menemukan berkas Anda dengan mudah.
 
 ## Langkah 2: Memuat Dokumen Sumber dan Tujuan
 
@@ -56,17 +58,17 @@ Document srcDoc = new Document(dataDir + "Document source.docx");
 Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 ```
 
- Di sini, kami menggunakan`Document` kelas dari pustaka Aspose.Words untuk memuat dokumen kita. Pastikan nama berkas sesuai dengan nama di direktori Anda.
+Di sini, kami menggunakan `Document` kelas dari pustaka Aspose.Words untuk memuat dokumen kita. Pastikan nama berkas sesuai dengan nama di direktori Anda.
 
 ## Langkah 3: Membuat Objek DocumentBuilder
 
- Itu`DocumentBuilder` class adalah alat yang hebat dalam pustaka Aspose.Words. Class memungkinkan kita untuk menavigasi dan memanipulasi dokumen.
+Itu `DocumentBuilder` class adalah alat yang hebat dalam pustaka Aspose.Words. Class memungkinkan kita untuk menavigasi dan memanipulasi dokumen.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
 ```
 
- Pada langkah ini, kami telah membuat`DocumentBuilder` objek untuk dokumen tujuan kita. Ini akan membantu kita memasukkan konten ke dalam dokumen.
+Pada langkah ini, kami telah membuat `DocumentBuilder` objek untuk dokumen tujuan kita. Ini akan membantu kita memasukkan konten ke dalam dokumen.
 
 ## Langkah 4: Berpindah ke Akhir Dokumen
 
@@ -96,7 +98,7 @@ Sekarang tibalah bagian yang menarik—memasukkan dokumen sumber ke dalam dokume
 builder.InsertDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
- Menggunakan`InsertDocument` metode ini, kita dapat memasukkan seluruh dokumen sumber ke dalam dokumen tujuan.`ImportFormatMode.KeepSourceFormatting` memastikan bahwa format dokumen sumber dipertahankan.
+Menggunakan `InsertDocument` metode ini, kita dapat memasukkan seluruh dokumen sumber ke dalam dokumen tujuan. `ImportFormatMode.KeepSourceFormatting` memastikan bahwa format dokumen sumber dipertahankan.
 
 ## Langkah 7: Menyimpan Dokumen yang Digabung
 
@@ -118,19 +120,24 @@ Nah, itu dia! Anda telah berhasil memasukkan satu dokumen ke dokumen lain menggu
 Aspose.Words untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, mengedit, mengonversi, dan memanipulasi dokumen Word secara terprogram.
 
 ### Bisakah saya mempertahankan format dokumen sumber?  
- Ya, dengan menggunakan`ImportFormatMode.KeepSourceFormatting`, format dokumen sumber dipertahankan saat dimasukkan ke dokumen tujuan.
+Ya, dengan menggunakan `ImportFormatMode.KeepSourceFormatting`format dokumen sumber dipertahankan saat dimasukkan ke dokumen tujuan.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words untuk .NET?  
- Ya, Aspose.Words untuk .NET memerlukan lisensi untuk fungsionalitas penuh. Anda bisa mendapatkannya[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
+Ya, Aspose.Words untuk .NET memerlukan lisensi untuk fungsionalitas penuh. Anda bisa mendapatkannya [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
 
 ### Bisakah saya mengotomatiskan proses ini?  
-Tentu saja! Metode yang dijelaskan dapat dimasukkan ke dalam aplikasi yang lebih besar untuk mengotomatiskan tugas pemrosesan dokumen.
+Tentu saja! Metode yang dijelaskan dapat diterapkan ke aplikasi yang lebih besar untuk mengotomatiskan tugas pemrosesan dokumen.
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan?  
- Untuk informasi lebih lanjut, Anda dapat memeriksa[dokumentasi](https://reference.aspose.com/words/net/) , atau kunjungi[forum dukungan](https://forum.aspose.com/c/words/8) untuk bantuan.
+Untuk informasi lebih lanjut, Anda dapat memeriksa [dokumentasi](https://reference.aspose.com/words/net/), atau kunjungi [forum dukungan](https://forum.aspose.com/c/words/8) untuk bantuan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

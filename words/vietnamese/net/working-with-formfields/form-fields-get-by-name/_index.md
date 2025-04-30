@@ -1,14 +1,16 @@
 ---
-title: Các trường biểu mẫu lấy theo tên
-linktitle: Các trường biểu mẫu lấy theo tên
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách lấy và sửa đổi các trường biểu mẫu theo tên trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này.
-weight: 10
-url: /vi/net/working-with-formfields/form-fields-get-by-name/
+"description": "Tìm hiểu cách lấy và sửa đổi các trường biểu mẫu theo tên trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này."
+"linktitle": "Các trường biểu mẫu lấy theo tên"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Các trường biểu mẫu lấy theo tên"
+"url": "/vi/net/working-with-formfields/form-fields-get-by-name/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Các trường biểu mẫu lấy theo tên
@@ -21,7 +23,7 @@ Bạn có thấy mệt mỏi khi phải chỉnh sửa thủ công các trường
 
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho Thư viện .NET: Nếu bạn chưa tải xuống, hãy tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Nếu bạn chưa tải xuống, hãy tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Bất kỳ môi trường phát triển .NET nào như Visual Studio.
 3. Kiến thức cơ bản về C#: Có một chút hiểu biết về C# sẽ hữu ích nhưng không bắt buộc.
 
@@ -121,22 +123,27 @@ Có, Aspose.Words for .NET hỗ trợ nhiều ngôn ngữ như VB.NET và thậm
 
 ### Có bản dùng thử miễn phí Aspose.Words dành cho .NET không?
 
- Có, bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 
 ### Tôi có thể thao tác các thành phần khác của tài liệu Word ngoài các trường biểu mẫu không?
 
-Chắc chắn rồi! Aspose.Words for .NET cho phép bạn thao tác nhiều thành phần tài liệu, bao gồm văn bản, hình ảnh, bảng biểu, v.v.
+Chắc chắn rồi! Aspose.Words for .NET cho phép bạn thao tác nhiều thành phần tài liệu, bao gồm văn bản, hình ảnh, bảng và nhiều thành phần khác.
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp bất kỳ vấn đề nào?
 
- Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/8) để được trợ giúp giải quyết mọi vấn đề bạn gặp phải.
+Bạn có thể ghé thăm [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/8) để được trợ giúp giải quyết mọi vấn đề bạn gặp phải.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
 
- Tài liệu chi tiết có sẵn[đây](https://reference.aspose.com/words/net/).
+Tài liệu chi tiết có sẵn [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

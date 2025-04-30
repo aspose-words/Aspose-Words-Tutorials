@@ -1,14 +1,16 @@
 ---
-title: Belge Yazdırma
-linktitle: Belge Yazdırma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Bu ayrıntılı kılavuzla Aspose.Words for Java kullanarak belgeleri nasıl yazdıracağınızı öğrenin. Yazdırma ayarlarını yapılandırma, yazdırma önizlemelerini görüntüleme ve daha fazlası için adımlar içerir.
-weight: 10
-url: /tr/java/document-printing/automating-document-printing/
+"description": "Bu ayrıntılı kılavuzla Aspose.Words for Java kullanarak belgeleri nasıl yazdıracağınızı öğrenin. Yazdırma ayarlarını yapılandırma, yazdırma önizlemelerini görüntüleme ve daha fazlası için adımlar içerir."
+"linktitle": "Belge Yazdırma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belge Yazdırma"
+"url": "/tr/java/document-printing/automating-document-printing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Yazdırma
@@ -26,8 +28,8 @@ Baskı sürecine başlamadan önce aşağıdaki ön koşullara sahip olduğunuzd
 
 1. Java Geliştirme Kiti (JDK): Sisteminizde JDK 8 veya üzeri sürümün yüklü olduğundan emin olun. Aspose.Words for Java'nın düzgün çalışması için uyumlu bir JDK'ya güvenir.
 2. Entegre Geliştirme Ortamı (IDE): Java projelerinizi ve kütüphanelerinizi yönetmek için IntelliJ IDEA veya Eclipse gibi bir IDE kullanın.
-3.  Aspose.Words for Java Kütüphanesi: Aspose.Words for Java kütüphanesini indirin ve projenize entegre edin. En son sürümü edinebilirsiniz[Burada](https://releases.aspose.com/words/java/).
-4.  Java Yazdırmanın Temel Anlayışı: Java'nın yazdırma API'si ve aşağıdaki gibi kavramlarla tanışın:`PrinterJob` Ve`PrintPreviewDialog`.
+3. Aspose.Words for Java Kütüphanesi: Aspose.Words for Java kütüphanesini indirin ve projenize entegre edin. En son sürümü edinebilirsiniz [Burada](https://releases.aspose.com/words/java/).
+4. Java Yazdırmanın Temel Anlayışı: Java'nın yazdırma API'si ve aşağıdaki gibi kavramlarla tanışın: `PrinterJob` Ve `PrintPreviewDialog`.
 
 ## Paketleri İçe Aktar
 
@@ -53,7 +55,7 @@ Document doc = new Document("TestFile.doc");
 ```
 
 Açıklama: 
-- `Document doc = new Document("TestFile.doc");` yeni bir tane başlatır`Document` Belirtilen dosyadan nesne. Belgeye giden yolun doğru olduğundan ve dosyanın erişilebilir olduğundan emin olun.
+- `Document doc = new Document("TestFile.doc");` yeni bir tane başlatır `Document` Belirtilen dosyadan nesne. Belgeye giden yolun doğru olduğundan ve dosyanın erişilebilir olduğundan emin olun.
 
 ## Adım 2: Yazıcı İşini Başlatın
 
@@ -64,7 +66,7 @@ PrinterJob pj = PrinterJob.getPrinterJob();
 ```
 
 Açıklama: 
-- `PrinterJob.getPrinterJob();` bir tane elde eder`PrinterJob` yazdırma işini işlemek için kullanılan örnek. Bu nesne, belgeleri yazıcıya gönderme dahil olmak üzere yazdırma sürecini yönetir.
+- `PrinterJob.getPrinterJob();` bir tane elde eder `PrinterJob` yazdırma işini işlemek için kullanılan örnek. Bu nesne, belgeleri yazıcıya gönderme dahil olmak üzere yazdırma sürecini yönetir.
 
 ## Adım 3: Yazdırma Niteliklerini Yapılandırın
 
@@ -86,7 +88,7 @@ Açıklama:
 
 ## Adım 4: AsposeWordsPrintDocument'ı Oluşturun ve Yapılandırın
 
- Bu adım, bir`AsposeWordsPrintDocument` Belgeyi yazdırmaya hazır hale getirmek için kullanılan nesne.
+Bu adım, bir `AsposeWordsPrintDocument` Belgeyi yazdırmaya hazır hale getirmek için kullanılan nesne.
 
 ```java
 AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);
@@ -94,8 +96,8 @@ pj.setPageable(awPrintDoc);
 ```
 
 Açıklama:
-- `AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);` başlatır`AsposeWordsPrintDocument` Basılacak belge ile birlikte.
-- `pj.setPageable(awPrintDoc);` ayarlar`AsposeWordsPrintDocument` sayfalanabilir olarak`PrinterJob`belgenin işlenip yazıcıya gönderileceği anlamına gelir.
+- `AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);` başlatır `AsposeWordsPrintDocument` Basılacak belge ile birlikte.
+- `pj.setPageable(awPrintDoc);` ayarlar `AsposeWordsPrintDocument` sayfalanabilir olarak `PrinterJob`, belgenin işlenip yazıcıya gönderileceği anlamına gelir.
 
 ## Adım 5: Baskı Önizlemesini Görüntüle
 
@@ -111,7 +113,7 @@ if (previewDlg.display()) {
 ```
 
 Açıklama:
-- `PrintPreviewDialog previewDlg = new PrintPreviewDialog(awPrintDoc);` yazdırma önizleme iletişim kutusunu oluşturur`AsposeWordsPrintDocument`.
+- `PrintPreviewDialog previewDlg = new PrintPreviewDialog(awPrintDoc);` yazdırma önizleme iletişim kutusunu oluşturur `AsposeWordsPrintDocument`.
 - `previewDlg.setPrinterAttributes(attributes);` önizleme için yazdırma niteliklerini ayarlar.
 - `if (previewDlg.display()) { pj.print(attributes); }` önizleme iletişim kutusunu görüntüler. Kullanıcı önizlemeyi kabul ederse, belge belirtilen özniteliklerle yazdırılır.
 
@@ -125,26 +127,31 @@ Bu kılavuzu takip ederek, artık Aspose.Words kullanarak belge yazdırmayı Jav
 
 ### 1. Bir belgenin belirli sayfalarını yazdırabilir miyim?
 
- Evet, sayfa aralıklarını kullanarak belirtebilirsiniz.`PageRanges` sınıf. Sayfa numaralarını ayarlayın`PrintRequestAttributeSet` yalnızca ihtiyacınız olan sayfaları yazdırmak için.
+Evet, sayfa aralıklarını kullanarak belirtebilirsiniz. `PageRanges` Sınıf. Sayfa numaralarını ayarlayın `PrintRequestAttributeSet` yalnızca ihtiyacınız olan sayfaları yazdırmak için.
 
 ### 2. Birden fazla belge için yazdırmayı nasıl ayarlayabilirim?
 
- Her belge için adımları tekrarlayarak birden fazla belge için yazdırmayı ayarlayabilirsiniz. Ayrı`Document` nesneler ve`AsposeWordsPrintDocument` Her biri için örnekler.
+Her belge için adımları tekrarlayarak birden fazla belge için yazdırmayı ayarlayabilirsiniz. Ayrı `Document` nesneler ve `AsposeWordsPrintDocument` Her biri için örnekler.
 
 ### 3. Baskı önizleme iletişim kutusunu özelleştirmek mümkün müdür?
 
- Bu arada`PrintPreviewDialog` Temel önizleme işlevselliğini sağlar, ek Java Swing bileşenleri veya kitaplıkları aracılığıyla iletişim kutusunun davranışını genişleterek veya değiştirerek özelleştirebilirsiniz.
+Bu arada `PrintPreviewDialog` Temel önizleme işlevselliğini sağlar, ek Java Swing bileşenleri veya kitaplıkları aracılığıyla iletişim kutusunun davranışını genişleterek veya değiştirerek özelleştirebilirsiniz.
 
 ### 4. Yazdırma ayarlarını gelecekte kullanmak üzere kaydedebilir miyim?
 
- Yazdırma ayarlarını kaydederek kaydedebilirsiniz.`PrintRequestAttributeSet`Bir yapılandırma dosyası veya veritabanındaki öznitelikler. Yeni bir yazdırma işi ayarlarken bu ayarları yükleyin.
+Yazdırma ayarlarını kaydederek kaydedebilirsiniz. `PrintRequestAttributeSet` Bir yapılandırma dosyası veya veritabanındaki öznitelikler. Yeni bir yazdırma işi ayarlarken bu ayarları yükleyin.
 
 ### 5. Aspose.Words for Java hakkında daha fazla bilgiyi nerede bulabilirim?
 
- Kapsamlı ayrıntılar ve ek örnekler için şu adresi ziyaret edin:[Aspose.Words belgeleri](https://reference.aspose.com/words/java/).
+Kapsamlı ayrıntılar ve ek örnekler için şu adresi ziyaret edin: [Aspose.Words belgeleri](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

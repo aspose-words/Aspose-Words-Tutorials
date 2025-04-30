@@ -1,14 +1,16 @@
 ---
-title: Converter Doc para Docx
-linktitle: Converter Doc para Docx
-second_title: API de processamento de documentos Aspose.Words
-description: Aprenda como converter DOC para DOCX usando Aspose.Words para .NET. Guia passo a passo com exemplos de código. Perfeito para desenvolvedores.
-weight: 10
-url: /pt/net/basic-conversions/doc-to-docx/
+"description": "Aprenda a converter DOC para DOCX usando o Aspose.Words para .NET. Guia passo a passo com exemplos de código. Perfeito para desenvolvedores."
+"linktitle": "Converter Doc para Docx"
+"second_title": "API de processamento de documentos Aspose.Words"
+"title": "Converter Doc para Docx"
+"url": "/pt/net/basic-conversions/doc-to-docx/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Converter Doc para Docx
@@ -21,7 +23,7 @@ Neste tutorial, exploraremos como converter arquivos DOC para o formato DOCX usa
 
 Antes de começar, certifique-se de ter o seguinte configurado:
 - Visual Studio instalado no seu sistema.
--  Aspose.Words para .NET instalado. Você pode baixá-lo em[aqui](https://releases.aspose.com/words/net/).
+- Aspose.Words para .NET instalado. Você pode baixá-lo em [aqui](https://releases.aspose.com/words/net/).
 - Conhecimento básico da linguagem de programação C#.
 
 ## Importar namespaces
@@ -48,7 +50,7 @@ Document doc = new Document(dataDir + "Document.doc");
 
 Em seguida, salve o documento carregado no formato DOCX:
 ```csharp
-//Salvar o documento como DOCX
+// Salvar o documento como DOCX
 doc.Save(dataDir + "ConvertedDocument.docx", SaveFormat.Docx);
 ```
 
@@ -56,13 +58,13 @@ doc.Save(dataDir + "ConvertedDocument.docx", SaveFormat.Docx);
 
 Compile e execute seu aplicativo para executar o processo de conversão. Certifique-se de que o arquivo de entrada "Document.doc" exista no diretório especificado.
 
-## Etapa 4: Verifique a saída
+## Etapa 4: verificar a saída
 
-Verifique o diretório de saída para o arquivo DOCX convertido chamado "ConvertedDocument.docx". Você converteu com sucesso um arquivo DOC para DOCX usando Aspose.Words para .NET!
+Verifique o diretório de saída para o arquivo DOCX convertido chamado "ConvertedDocument.docx". Você converteu com sucesso um arquivo DOC para DOCX usando o Aspose.Words para .NET!
 
 ## Conclusão
 
-Converter DOC para DOCX programaticamente usando o Aspose.Words para .NET é simples e eficiente. Com apenas algumas linhas de código, você pode automatizar conversões de documentos, economizando tempo e esforço. Não importa se você está lidando com conversões em lote ou integrando o processamento de documentos ao seu aplicativo, o Aspose.Words fornece funcionalidade robusta para atender às suas necessidades.
+Converter DOC para DOCX programaticamente usando o Aspose.Words para .NET é simples e eficiente. Com apenas algumas linhas de código, você pode automatizar conversões de documentos, economizando tempo e esforço. Seja para realizar conversões em lote ou integrar o processamento de documentos ao seu aplicativo, o Aspose.Words oferece funcionalidades robustas para atender às suas necessidades.
 
 ## Perguntas frequentes
 
@@ -70,20 +72,25 @@ Converter DOC para DOCX programaticamente usando o Aspose.Words para .NET é sim
 Sim, o Aspose.Words suporta conversão entre vários formatos, incluindo DOC, DOCX, RTF, HTML, PDF e muito mais.
 
 ### Onde posso encontrar a documentação do Aspose.Words?
- Você pode acessar a documentação[aqui](https://reference.aspose.com/words/net/).
+Você pode acessar a documentação [aqui](https://reference.aspose.com/words/net/).
 
 ### Existe um teste gratuito disponível para o Aspose.Words?
- Sim, você pode obter uma avaliação gratuita em[aqui](https://releases.aspose.com/).
+Sim, você pode obter um teste gratuito em [aqui](https://releases.aspose.com/).
 
 ### Como posso comprar uma licença para o Aspose.Words?
- Você pode comprar uma licença[aqui](https://purchase.aspose.com/buy).
+Você pode comprar uma licença [aqui](https://purchase.aspose.com/buy).
 
 ### Onde posso obter suporte para o Aspose.Words?
- Para obter suporte, visite o Aspose.Words[fórum](https://forum.aspose.com/c/words/8).
+Para obter suporte, visite o Aspose.Words [fórum](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

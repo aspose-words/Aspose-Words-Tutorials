@@ -1,21 +1,23 @@
 ---
-title: Bekerja dengan Model AI
-linktitle: Bekerja dengan Model AI
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menggunakan Aspose.Words untuk .NET guna meringkas dokumen dengan AI. Langkah mudah untuk meningkatkan manajemen dokumen.
-weight: 10
-url: /id/net/ai-powered-document-processing/working-with-ai-model/
+"description": "Pelajari cara menggunakan Aspose.Words untuk .NET guna meringkas dokumen dengan AI. Langkah mudah untuk meningkatkan manajemen dokumen."
+"linktitle": "Bekerja dengan Model AI"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Bekerja dengan Model AI"
+"url": "/id/net/ai-powered-document-processing/working-with-ai-model/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bekerja dengan Model AI
 
 ## Perkenalan
 
-Selamat datang di dunia Aspose.Words yang memikat untuk .NET! Jika Anda pernah ingin membawa manajemen dokumen ke tingkat berikutnya, Anda berada di tempat yang tepat. Bayangkan memiliki kemampuan untuk meringkas dokumen besar secara otomatis hanya dengan beberapa baris kode. Kedengarannya menakjubkan, bukan? Dalam panduan ini, kita akan menyelami lebih dalam penggunaan Aspose.Words untuk membuat ringkasan dokumen menggunakan model bahasa AI yang canggih seperti GPT OpenAI. Baik Anda seorang pengembang yang ingin meningkatkan aplikasi Anda atau penggemar teknologi yang ingin mempelajari sesuatu yang baru, tutorial ini akan membantu Anda.
+Selamat datang di dunia Aspose.Words yang memikat untuk .NET! Jika Anda pernah ingin membawa manajemen dokumen ke tingkat berikutnya, Anda berada di tempat yang tepat. Bayangkan memiliki kemampuan untuk meringkas dokumen besar secara otomatis hanya dengan beberapa baris kode. Kedengarannya menakjubkan, bukan? Dalam panduan ini, kita akan menyelami lebih dalam penggunaan Aspose.Words untuk membuat ringkasan dokumen menggunakan model bahasa AI yang canggih seperti GPT OpenAI. Apakah Anda seorang pengembang yang ingin meningkatkan aplikasi Anda atau seorang penggemar teknologi yang ingin mempelajari sesuatu yang baru, tutorial ini akan membantu Anda.
 
 ## Prasyarat
 
@@ -25,7 +27,7 @@ Sebelum kita mulai membuat kode, ada beberapa hal penting yang perlu Anda siapka
   
 2. .NET Framework: Pastikan Anda menggunakan versi .NET Framework yang kompatibel untuk Aspose.Words. Versi ini mendukung .NET Framework dan .NET Core.
 
-3.  Aspose.Words untuk .NET: Anda perlu mengunduh dan menginstal Aspose.Words. Anda dapat mengunduh versi terbaru[Di Sini](https://releases.aspose.com/words/net/).
+3. Aspose.Words untuk .NET: Anda perlu mengunduh dan menginstal Aspose.Words. Anda dapat mengunduh versi terbaru [Di Sini](https://releases.aspose.com/words/net/).
 
 4. Kunci API untuk Model AI: Untuk memanfaatkan ringkasan AI, Anda memerlukan akses ke model AI. Dapatkan kunci API Anda dari platform seperti OpenAI atau Google.
 
@@ -72,7 +74,7 @@ string MyDir = "YOUR_DOCUMENT_DIRECTORY";
 string ArtifactsDir = "YOUR_ARTIFACTS_DIRECTORY";
 ```
 
--  Di sini, ganti`YOUR_DOCUMENT_DIRECTORY` dengan lokasi tempat dokumen Anda disimpan dan`YOUR_ARTIFACTS_DIRECTORY` di mana Anda ingin menyimpan berkas yang diringkas.
+- Di sini, ganti `YOUR_DOCUMENT_DIRECTORY` dengan lokasi tempat dokumen Anda disimpan dan `YOUR_ARTIFACTS_DIRECTORY` di mana Anda ingin menyimpan berkas yang diringkas.
 
 ## Langkah 2: Muat Dokumen
 
@@ -137,10 +139,15 @@ Ya! Aspose.Words mendukung berbagai format file, termasuk DOCX, RTF, dan HTML, y
 Aspose menawarkan uji coba gratis, yang memungkinkan Anda menguji fitur-fiturnya. Anda dapat mengunduhnya dari situs mereka.
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya untuk Aspose.Words?
- Anda dapat memeriksa dokumentasinya[Di Sini](https://reference.aspose.com/words/net/) untuk panduan dan wawasan yang komprehensif.
+Anda dapat memeriksa dokumentasinya [Di Sini](https://reference.aspose.com/words/net/) untuk panduan dan wawasan yang komprehensif.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

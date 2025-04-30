@@ -1,14 +1,16 @@
 ---
-title: Ustaw względną pozycję poziomą lub pionową
-linktitle: Ustaw względną pozycję poziomą lub pionową
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak ustawić względne położenie poziome i pionowe tabel w dokumentach programu Word za pomocą Aspose.Words dla platformy .NET, korzystając z tego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/programming-with-tables/set-relative-horizontal-or-vertical-position/
+"description": "Dowiedz się, jak ustawić względne położenie poziome i pionowe tabel w dokumentach programu Word za pomocą Aspose.Words dla platformy .NET, korzystając z tego przewodnika krok po kroku."
+"linktitle": "Ustaw względną pozycję poziomą lub pionową"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ustaw względną pozycję poziomą lub pionową"
+"url": "/pl/net/programming-with-tables/set-relative-horizontal-or-vertical-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw względną pozycję poziomą lub pionową
@@ -21,7 +23,7 @@ Czy kiedykolwiek czułeś się zablokowany, nie wiedząc, jak pozycjonować tabe
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
-1.  Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, możesz to pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, możesz to pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub inne środowisko IDE zgodne z platformą .NET.
 3. Podstawowa wiedza o języku C#: W tym samouczku zakładamy, że znasz podstawy programowania w języku C#.
 
@@ -39,7 +41,7 @@ using Aspose.Words.Tables;
 Aby zacząć, musisz załadować dokument Word do programu. Oto, jak to zrobić:
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Table wrapped by text.docx");
@@ -65,7 +67,7 @@ Teraz ustawmy poziomą pozycję tabeli względem określonego elementu. W tym pr
 table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 ```
 
- Ustawiając`HorizontalAnchor` Do`RelativeHorizontalPosition.Column`, polecasz tabeli wyrównać się poziomo względem kolumny, w której się znajduje.
+Ustawiając `HorizontalAnchor` Do `RelativeHorizontalPosition.Column`, wydajesz polecenie tabeli, aby wyrównała się poziomo względem kolumny, w której się znajduje.
 
 ## Krok 4: Ustaw pozycję pionową
 
@@ -75,7 +77,7 @@ Podobnie jak w przypadku pozycjonowania poziomego, możesz również ustawić po
 table.VerticalAnchor = RelativeVerticalPosition.Page;
 ```
 
- Ustawianie`VerticalAnchor` Do`RelativeVerticalPosition.Page` zapewnia wyrównanie tabeli w pionie względem strony.
+Ustawianie `VerticalAnchor` Do `RelativeVerticalPosition.Page` zapewnia pionowe wyrównanie tabeli względem strony.
 
 ## Krok 5: Zapisz swój dokument
 
@@ -97,19 +99,24 @@ I masz! Udało Ci się ustawić względne pozycje poziome i pionowe dla tabeli w
 Tak, Aspose.Words pozwala na pozycjonowanie tabel względem różnych elementów, takich jak marginesy, strony, kolumny i inne.
 
 ### Czy potrzebuję licencji, aby używać Aspose.Words dla .NET?  
- Tak, możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Tak, możesz kupić licencję [Tutaj](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Words dla .NET?  
- Oczywiście! Możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Oczywiście! Możesz pobrać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Czy mogę używać Aspose.Words z innymi językami programowania?  
 Aspose.Words został zaprojektowany przede wszystkim dla platformy .NET, ale dostępne są wersje dla platform Java, Python i innych.
 
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację?  
-Aby uzyskać bardziej szczegółowe informacje, zapoznaj się z dokumentacją Aspose.Words[Tutaj](https://reference.aspose.com/words/net/).
+Aby uzyskać bardziej szczegółowe informacje, zapoznaj się z dokumentacją Aspose.Words [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

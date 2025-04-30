@@ -1,14 +1,16 @@
 ---
-title: Nhúng các đối tượng OLE và điều khiển ActiveX vào tài liệu Word
-linktitle: Nhúng các đối tượng OLE và điều khiển ActiveX vào tài liệu Word
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Tìm hiểu cách nhúng các đối tượng OLE và điều khiển ActiveX vào tài liệu Word bằng Aspose.Words for Python. Tạo tài liệu tương tác và động một cách liền mạch.
-weight: 21
-url: /vi/python-net/document-structure-and-content-manipulation/document-ole-objects-active-x/
+"description": "Tìm hiểu cách nhúng các đối tượng OLE và điều khiển ActiveX vào tài liệu Word bằng Aspose.Words for Python. Tạo tài liệu tương tác và động một cách liền mạch."
+"linktitle": "Nhúng các đối tượng OLE và điều khiển ActiveX vào tài liệu Word"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Nhúng các đối tượng OLE và điều khiển ActiveX vào tài liệu Word"
+"url": "/vi/python-net/document-structure-and-content-manipulation/document-ole-objects-active-x/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhúng các đối tượng OLE và điều khiển ActiveX vào tài liệu Word
@@ -48,7 +50,7 @@ Bây giờ, bạn có thể chèn một đối tượng OLE vào tài liệu c�
 ```python
 builder = aw.DocumentBuilder(doc)
 
-builder.insert_ole_object("http://www.aspose.com", "htmlfile", Đúng, Đúng, Không có)
+builder.insert_ole_object("http://www.aspose.com", "htmlfile", True, True, None)
 
 doc.save(ARTIFACTS_DIR + "WorkingWithOleObjectsAndActiveX.insert_ole_object.docx")
 ```
@@ -57,7 +59,7 @@ doc.save(ARTIFACTS_DIR + "WorkingWithOleObjectsAndActiveX.insert_ole_object.docx
 
 Bằng cách nhúng các đối tượng OLE và điều khiển ActiveX, bạn có thể tăng cường tính tương tác và chức năng của tài liệu Word. Tạo các bài thuyết trình hấp dẫn, báo cáo với dữ liệu trực tiếp hoặc biểu mẫu tương tác một cách liền mạch.
 
-## Thực hành tốt nhất để sử dụng Đối tượng OLE và Điều khiển ActiveX
+## Các phương pháp hay nhất để sử dụng các đối tượng OLE và điều khiển ActiveX
 
 - Kích thước tệp: Hãy lưu ý đến kích thước tệp khi nhúng các đối tượng lớn vì nó có thể ảnh hưởng đến hiệu suất của tài liệu.
 - Khả năng tương thích: Đảm bảo rằng các đối tượng OLE và điều khiển ActiveX được hỗ trợ bởi phần mềm mà người đọc của bạn sẽ sử dụng để mở tài liệu.
@@ -76,9 +78,14 @@ Nếu điều khiển ActiveX không hoạt động, có thể là do cài đặ
 ## Phần kết luận
 
 Kết hợp các đối tượng OLE và điều khiển ActiveX bằng Aspose.Words for Python mở ra một thế giới khả năng để tạo các tài liệu Word động và tương tác. Cho dù bạn muốn nhúng bảng tính, đa phương tiện hay biểu mẫu tương tác, tính năng này giúp bạn truyền đạt ý tưởng của mình một cách hiệu quả.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

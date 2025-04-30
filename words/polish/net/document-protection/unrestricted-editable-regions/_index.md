@@ -1,14 +1,16 @@
 ---
-title: Nieograniczone obszary edytowalne w dokumencie Word
-linktitle: Nieograniczone obszary edytowalne w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak tworzyć nieograniczone obszary edytowalne w dokumencie programu Word za pomocą Aspose.Words for .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/document-protection/unrestricted-editable-regions/
+"description": "Dowiedz się, jak tworzyć nieograniczone obszary edytowalne w dokumencie programu Word za pomocą Aspose.Words for .NET, korzystając z tego kompleksowego przewodnika krok po kroku."
+"linktitle": "Nieograniczone obszary edytowalne w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Nieograniczone obszary edytowalne w dokumencie Word"
+"url": "/pl/net/document-protection/unrestricted-editable-regions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nieograniczone obszary edytowalne w dokumencie Word
@@ -21,8 +23,8 @@ Jeśli kiedykolwiek chciałeś chronić dokument Worda, ale nadal pozwolić na e
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
-1.  Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz[Tutaj](https://releases.aspose.com/words/net/).
-2. Ważna licencja Aspose: Możesz uzyskać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz [Tutaj](https://releases.aspose.com/words/net/).
+2. Ważna licencja Aspose: Możesz uzyskać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 3. Visual Studio: Każda nowsza wersja powinna działać prawidłowo.
 4. Podstawowa znajomość języków C# i .NET. Ułatwi Ci to śledzenie kodu.
 
@@ -55,7 +57,7 @@ Teraz załadujmy dokument, który chcesz chronić. Upewnij się, że masz gotowy
    ```csharp
    string dataDir = "YOUR DOCUMENT DIRECTORY";
    ```
-2.  Załaduj dokument: Użyj`Document` klasa, aby załadować dokument Word.
+2. Załaduj dokument: Użyj `Document` klasa, aby załadować dokument Word.
    ```csharp
    Document doc = new Document(dataDir + "Document.docx");
    ```
@@ -64,7 +66,7 @@ Teraz załadujmy dokument, który chcesz chronić. Upewnij się, że masz gotowy
 
 Następnie ustawimy dokument jako tylko do odczytu. Dzięki temu żadne zmiany nie będą mogły zostać wprowadzone bez hasła.
 
-1.  Zainicjuj DocumentBuilder: Utwórz instancję`DocumentBuilder` Aby dokonać zmian w dokumencie.
+1. Zainicjuj DocumentBuilder: Utwórz instancję `DocumentBuilder` Aby dokonać zmian w dokumencie.
    ```csharp
    DocumentBuilder builder = new DocumentBuilder(doc);
    ```
@@ -85,7 +87,7 @@ Tutaj dzieje się magia. Stworzymy sekcje w dokumencie, które można edytować 
    ```csharp
    EditableRangeStart edRangeStart = builder.StartEditableRange();
    ```
-2.  Utwórz edytowalny obiekt zakresu:`EditableRange` Obiekt zostanie utworzony automatycznie.
+2. Utwórz edytowalny obiekt zakresu: `EditableRange` Obiekt zostanie utworzony automatycznie.
    ```csharp
    EditableRange editableRange = edRangeStart.EditableRange;
    ```
@@ -96,7 +98,7 @@ Tutaj dzieje się magia. Stworzymy sekcje w dokumencie, które można edytować 
 
 ## Krok 5: Zamykanie zakresu edytowalnego
 
-Edytowalny zakres nie jest kompletny bez końca. Dodajmy to jako następne.
+Edytowalny zakres nie jest kompletny bez końca. Dodajmy to dalej.
 
 1. Koniec zakresu edytowalnego: Określ koniec zakresu edytowalnego.
    ```csharp
@@ -111,16 +113,16 @@ Edytowalny zakres nie jest kompletny bez końca. Dodajmy to jako następne.
 
 Na koniec zapiszemy dokument z zastosowaną ochroną i obszarami edytowalnymi.
 
-1.  Zapisz dokument: Użyj`Save` metoda zapisywania zmodyfikowanego dokumentu.
+1. Zapisz dokument: Użyj `Save` metoda zapisywania zmodyfikowanego dokumentu.
    ```csharp
    doc.Save(dataDir + "DocumentProtection.UnrestrictedEditableRegions.docx");
    ```
 
 ## Wniosek
 
-I masz! Udało Ci się utworzyć nieograniczone obszary edytowalne w dokumencie Word przy użyciu Aspose.Words dla .NET. Ta funkcja jest niezwykle przydatna w środowiskach współpracy, w których pewne części dokumentu muszą pozostać niezmienione, a inne można edytować. 
+masz! Udało Ci się utworzyć nieograniczone obszary edytowalne w dokumencie Word przy użyciu Aspose.Words dla .NET. Ta funkcja jest niezwykle przydatna w środowiskach współpracy, w których pewne części dokumentu muszą pozostać niezmienione, a inne można edytować. 
 
- Eksperymentuj z bardziej złożonymi scenariuszami i różnymi poziomami ochrony, aby w pełni wykorzystać Aspose.Words. Jeśli masz jakieś pytania lub napotkasz problemy, nie wahaj się sprawdzić[dokumentacja](https://reference.aspose.com/words/net/) lub skontaktuj się z[wsparcie](https://forum.aspose.com/c/words/8).
+Eksperymentuj z bardziej złożonymi scenariuszami i różnymi poziomami ochrony, aby w pełni wykorzystać Aspose.Words. Jeśli masz jakieś pytania lub napotkasz problemy, nie wahaj się sprawdzić [dokumentacja](https://reference.aspose.com/words/net/) lub skontaktuj się z [wsparcie](https://forum.aspose.com/c/words/8).
 
 ## Najczęściej zadawane pytania
 
@@ -131,7 +133,7 @@ Tak, możesz utworzyć wiele edytowalnych obszarów, rozpoczynając i kończąc 
 Aspose.Words obsługuje różne typy ochrony, takie jak AllowOnlyComments, AllowOnlyFormFields i NoProtection.
 
 ### Czy można usunąć ochronę dokumentu?
- Tak, możesz usunąć ochronę za pomocą`Unprotect` metodę i podając prawidłowe hasło.
+Tak, możesz usunąć ochronę za pomocą `Unprotect` metodę i podając prawidłowe hasło.
 
 ### Czy mogę określić różne hasła dla różnych sekcji?
 Nie, ochrona na poziomie dokumentu polega na zastosowaniu jednego hasła do całego dokumentu.
@@ -139,9 +141,14 @@ Nie, ochrona na poziomie dokumentu polega na zastosowaniu jednego hasła do cał
 ### Jak ubiegać się o licencję na Aspose.Words?
 Możesz zastosować licencję, ładując ją z pliku lub strumienia. Sprawdź dokumentację, aby uzyskać szczegółowe instrukcje.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

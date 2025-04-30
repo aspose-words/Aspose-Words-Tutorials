@@ -1,14 +1,16 @@
 ---
-title: Sonraki Sayfalarda Satırları Tekrarla
-linktitle: Sonraki Sayfalarda Satırları Tekrarla
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak tekrarlayan tablo başlığı satırlarına sahip Word belgelerinin nasıl oluşturulacağını öğrenin. Profesyonel ve cilalı belgeler sağlamak için bu kılavuzu izleyin.
-weight: 10
-url: /tr/net/programming-with-tables/repeat-rows-on-subsequent-pages/
+"description": "Aspose.Words for .NET kullanarak tekrarlayan tablo başlığı satırlarına sahip Word belgelerinin nasıl oluşturulacağını öğrenin. Profesyonel ve cilalı belgeler sağlamak için bu kılavuzu izleyin."
+"linktitle": "Sonraki Sayfalarda Satırları Tekrarla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Sonraki Sayfalarda Satırları Tekrarla"
+"url": "/tr/net/programming-with-tables/repeat-rows-on-subsequent-pages/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sonraki Sayfalarda Satırları Tekrarla
@@ -21,7 +23,7 @@ Programatik olarak bir Word belgesi oluşturmak, özellikle birden fazla sayfada
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET: İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Bilgisayarınızda .NET Framework yüklü olmalıdır.
 3. Visual Studio veya .NET geliştirmeyi destekleyen herhangi bir IDE.
 4. C# programlamanın temel bilgisi.
@@ -41,17 +43,17 @@ Bu ad alanları, Word belgelerini ve tablolarını yönetmek için gereken sın�
 
 ## Adım 1: Belgeyi Başlatın
 
- İlk olarak yeni bir Word belgesi oluşturalım ve`DocumentBuilder` masamızı oluşturmak için.
+İlk olarak yeni bir Word belgesi oluşturalım ve `DocumentBuilder` masamızı oluşturmak için.
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Bu kod yeni bir belgeyi başlatır ve`DocumentBuilder` Belge yapısının oluşturulmasına yardımcı olan nesne.
+Bu kod yeni bir belgeyi başlatır ve `DocumentBuilder` Belge yapısının oluşturulmasına yardımcı olan nesne.
 
 ## Adım 2: Tabloyu Başlatın ve Başlık Satırlarını Tanımlayın
 
@@ -72,7 +74,7 @@ builder.Writeln("Heading row 2");
 builder.EndRow();
 ```
 
- Burada yeni bir tablo başlatıyoruz,`HeadingFormat`mülk`true` satırların başlık olduğunu belirtmek ve hücrelerin hizalamasını ve genişliğini tanımlamak için kullanılır.
+Burada yeni bir tablo başlatıyoruz, `HeadingFormat` mülk `true` satırların başlık olduğunu belirtmek ve hücrelerin hizalamasını ve genişliğini tanımlamak için kullanılır.
 
 ## Adım 3: Tabloya Veri Satırları Ekleyin
 
@@ -93,7 +95,7 @@ for (int i = 0; i < 50; i++)
 }
 ```
 
- Bu döngü, her satırda iki sütun olacak şekilde tabloya 50 satır veri ekler.`HeadingFormat` ayarlandı`false` bu satırlar için, çünkü bunlar başlık satırları değil.
+Bu döngü, her satırda iki sütun olacak şekilde tabloya 50 satır veri ekler. `HeadingFormat` ayarlandı `false` bu satırlar için, çünkü bunlar başlık satırları değil.
 
 ## Adım 4: Belgeyi Kaydedin
 
@@ -112,22 +114,27 @@ Ve işte karşınızda! Sadece birkaç satır kodla, Aspose.Words for .NET kulla
 ## SSS
 
 ### Başlık satırlarını daha fazla özelleştirebilir miyim?
- Evet, başlık satırlarına ek biçimlendirme uygulayabilirsiniz.`ParagraphFormat`, `RowFormat` , Ve`CellFormat`.
+Evet, başlık satırlarına ek biçimlendirme uygulayabilirsiniz. `ParagraphFormat`, `RowFormat`, Ve `CellFormat`.
 
-### Tabloya daha fazla sütun eklemek mümkün mü?
- Kesinlikle! Daha fazla hücre ekleyerek ihtiyaç duyduğunuz kadar sütun ekleyebilirsiniz.`InsertCell` yöntem.
+### Tabloya daha fazla sütun eklemek mümkün müdür?
+Kesinlikle! Daha fazla hücre ekleyerek ihtiyaç duyduğunuz kadar sütun ekleyebilirsiniz. `InsertCell` yöntem.
 
 ### Diğer satırların sonraki sayfalarda tekrarlanmasını nasıl sağlayabilirim?
- Herhangi bir satırın tekrarlanmasını sağlamak için,`RowFormat.HeadingFormat`mülk`true` o belirli satır için.
+Herhangi bir satırın tekrarlanmasını sağlamak için, `RowFormat.HeadingFormat` mülk `true` o belirli satır için.
 
 ### Bu yöntemi bir belgedeki mevcut tablolar için kullanabilir miyim?
- Evet, mevcut tablolara erişerek bunları değiştirebilirsiniz.`Document` nesne ve benzer biçimlendirmeyi uygulama.
+Evet, mevcut tablolara erişerek bunları değiştirebilirsiniz. `Document` nesne ve benzer biçimlendirmeyi uygulama.
 
-### Aspose.Words for .NET'te başka hangi tablo biçimlendirme seçenekleri mevcut?
- Aspose.Words for .NET, hücre birleştirme, kenarlık ayarları ve tablo hizalaması dahil olmak üzere çok çeşitli tablo biçimlendirme seçenekleri sunar. Şuraya göz atın:[belgeleme](https://reference.aspose.com/words/net/) Daha detaylı bilgi için.
+### Aspose.Words for .NET'te başka hangi tablo biçimlendirme seçenekleri mevcuttur?
+Aspose.Words for .NET, hücre birleştirme, kenarlık ayarları ve tablo hizalaması dahil olmak üzere çok çeşitli tablo biçimlendirme seçenekleri sunar. Şuraya göz atın: [belgeleme](https://reference.aspose.com/words/net/) Daha detaylı bilgi için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

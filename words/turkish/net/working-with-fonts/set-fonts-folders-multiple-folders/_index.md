@@ -1,14 +1,16 @@
 ---
-title: Yazı Tipleri Klasörlerini Birden Fazla Klasöre Ayarla
-linktitle: Yazı Tipleri Klasörlerini Birden Fazla Klasöre Ayarla
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinizde birden fazla font klasörünün nasıl ayarlanacağını öğrenin. Bu adım adım kılavuz, belgelerinizin tam olarak ihtiyaç duyduğunuz fontları kullanmasını sağlar.
-weight: 10
-url: /tr/net/working-with-fonts/set-fonts-folders-multiple-folders/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinizde birden fazla font klasörünün nasıl ayarlanacağını öğrenin. Bu adım adım kılavuz, belgelerinizin tam olarak ihtiyaç duyduğunuz fontları kullanmasını sağlar."
+"linktitle": "Yazı Tipleri Klasörlerini Birden Fazla Klasöre Ayarla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yazı Tipleri Klasörlerini Birden Fazla Klasöre Ayarla"
+"url": "/tr/net/working-with-fonts/set-fonts-folders-multiple-folders/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yazı Tipleri Klasörlerini Birden Fazla Klasöre Ayarla
@@ -21,7 +23,7 @@ Word belgelerinizde birden fazla font kaynağını nasıl yöneteceğinizi hiç 
 
 Başlamadan önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte takip etmeniz gerekenler:
 
--  Aspose.Words for .NET: Eğer henüz yapmadıysanız, Aspose.Words for .NET'i indirin ve kurun. Bunu edinebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Eğer henüz yapmadıysanız, Aspose.Words for .NET'i indirin ve kurun. Bunu edinebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio veya herhangi bir .NET uyumlu geliştirme ortamı.
 - Temel C# Bilgisi: C# konusunda biraz bilgi sahibi olmak örnekleri takip etmenize yardımcı olacaktır.
 - Yazı Tipi Dosyaları: Yazı tipi dosyalarınızın kolayca erişebileceğiniz dizinlerde saklandığından emin olun.
@@ -51,23 +53,23 @@ Burada, belirtilen dizinden belgeyi yüklüyoruz. Oldukça basit, değil mi?
 
 ## Adım 2: FontSettings Nesnesini Oluşturun
 
- Daha sonra, bir tane oluşturmamız gerekiyor`FontSettings` nesne. Bu nesne, belgemiz için yazı tipi kaynaklarını yönetmemizi sağlayacaktır.
+Daha sonra, bir tane oluşturmamız gerekiyor `FontSettings` nesne. Bu nesne, belgemiz için yazı tipi kaynaklarını yönetmemizi sağlayacaktır.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
 ```
 
- Bu`FontSettings`nesnesi hangi font klasörlerini kullanacağımızı tanımlamamıza yardımcı olacaktır.
+Bu `FontSettings` nesnesi hangi font klasörlerini kullanacağımızı tanımlamamıza yardımcı olacaktır.
 
 ## Adım 3: Yazı Tipleri Klasörlerini Ayarlayın
 
-Şimdi kritik kısım geliyor: font klasörlerini ayarlamak. Burası fontlarınızın bulunduğu dizinleri belirttiğiniz yerdir. Bu örnekte, "C:\MyFonts" dizininde fontlarımız var\" ve "D:\Çeşitli\Yazı Tipleri\".
+Şimdi kritik kısım geliyor: font klasörlerini ayarlama. Fontlarınızın bulunduğu dizinleri burada belirtirsiniz. Bu örnekte, "C:\MyFonts" ve "D:\Misc\Fonts" dizinlerinde fontlarımız var.
 
 ```csharp
 fontSettings.SetFontsFolders(new[] { @"C:\MyFonts\", @"D:\Misc\Fonts\" }, true);
 ```
 
-İkinci parametre (`true` ) bu klasörlerin varsayılan yazı tipi kaynaklarını geçersiz kılacağını belirtir. Sistem yazı tipi kaynaklarını da tutmak istiyorsanız, aşağıdakilerin bir kombinasyonunu kullanabilirsiniz`GetFontSources` Ve`SetFontSources`.
+İkinci parametre (`true`) bu klasörlerin varsayılan yazı tipi kaynaklarını geçersiz kılacağını belirtir. Sistem yazı tipi kaynaklarını da tutmak istiyorsanız, aşağıdakilerin bir kombinasyonunu kullanabilirsiniz `GetFontSources` Ve `SetFontSources`.
 
 ## Adım 4: Yazı Tipi Ayarlarını Belgeye Uygula
 
@@ -100,16 +102,21 @@ Evet, font klasörleriniz için ağ yollarını kullanabilirsiniz. Sadece yollar
 Bir yazı tipi eksikse, Aspose.Words belirtilen varsayılan yazı tipine geri döner veya yedek bir yazı tipi kullanır.
 
 ### Sistem yazı tiplerini geçersiz kılmadan yazı tipi klasörleri ekleyebilir miyim?
- Kesinlikle! Kullan`FontSettings.GetFontSources` mevcut kaynakları almak ve bunları özel klasörlerinizle birleştirmek için`FontSettings.SetFontSources`.
+Kesinlikle! Kullan `FontSettings.GetFontSources` mevcut kaynakları almak ve bunları özel klasörlerinizle birleştirmek için `FontSettings.SetFontSources`.
 
 ### Ekleyebileceğim font klasörlerinin sayısında bir sınırlama var mı?
 Font klasörlerinin sayısında kesin bir sınır yoktur. Ancak, daha fazla klasörün font yükleme sürelerini artırabileceği için performansa dikkat edin.
 
 ### Belgemde hangi yazı tiplerinin kullanıldığını nasıl kontrol edebilirim?
- Kullanabilirsiniz`FontSettings.GetFontsSources` Belgeniz için şu anda ayarlanmış olan yazı tipi kaynaklarını alma ve inceleme yöntemi.
+Kullanabilirsiniz `FontSettings.GetFontsSources` Belgeniz için şu anda ayarlanmış olan yazı tipi kaynaklarını alma ve inceleme yöntemi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

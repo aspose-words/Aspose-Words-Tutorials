@@ -1,27 +1,29 @@
 ---
-title: Gerenciando Assinaturas Digitais e Autenticidade
-linktitle: Gerenciando Assinaturas Digitais e Autenticidade
-second_title: API de gerenciamento de documentos Python Aspose.Words
-description: Aprenda a gerenciar assinaturas digitais e garantir a autenticidade de documentos usando Aspose.Words para Python. Guia passo a passo com código-fonte.
-weight: 17
-url: /pt/python-net/document-combining-and-comparison/manage-digital-signatures/
+"description": "Aprenda a gerenciar assinaturas digitais e garantir a autenticidade de documentos usando o Aspose.Words para Python. Guia passo a passo com código-fonte."
+"linktitle": "Gerenciando Assinaturas Digitais e Autenticidade"
+"second_title": "API de gerenciamento de documentos Python Aspose.Words"
+"title": "Gerenciando Assinaturas Digitais e Autenticidade"
+"url": "/pt/python-net/document-combining-and-comparison/manage-digital-signatures/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gerenciando Assinaturas Digitais e Autenticidade
 
 ## Introdução às Assinaturas Digitais
 
-Assinaturas digitais servem como equivalentes eletrônicos de assinaturas manuscritas. Elas fornecem uma maneira de verificar a autenticidade, integridade e origem de documentos eletrônicos. Quando um documento é assinado digitalmente, um hash criptográfico é gerado com base no conteúdo do documento. Esse hash é então criptografado usando a chave privada do signatário, criando a assinatura digital. Qualquer pessoa com a chave pública correspondente pode verificar a assinatura e certificar a autenticidade do documento.
+As assinaturas digitais funcionam como equivalentes eletrônicos das assinaturas manuscritas. Elas fornecem uma maneira de verificar a autenticidade, a integridade e a origem de documentos eletrônicos. Quando um documento é assinado digitalmente, um hash criptográfico é gerado com base no conteúdo do documento. Esse hash é então criptografado usando a chave privada do signatário, criando a assinatura digital. Qualquer pessoa com a chave pública correspondente pode verificar a assinatura e determinar a autenticidade do documento.
 
 ## Configurando Aspose.Words para Python
 
 Para começar a gerenciar assinaturas digitais usando o Aspose.Words para Python, siga estas etapas:
 
-1. Instalar Aspose.Words: Você pode instalar o Aspose.Words para Python usando pip com o seguinte comando:
+1. Instalar o Aspose.Words: Você pode instalar o Aspose.Words para Python usando pip com o seguinte comando:
    
    ```python
    pip install aspose-words
@@ -80,7 +82,7 @@ sign_options.sign_time = datetime.datetime.now()
 
 ## Conclusão
 
-Gerenciar assinaturas digitais e garantir a autenticidade de documentos são essenciais no cenário digital atual. O Aspose.Words para Python simplifica o processo de adicionar, verificar e personalizar assinaturas digitais, capacitando os desenvolvedores a aprimorar a segurança e a confiabilidade de seus documentos.
+Gerenciar assinaturas digitais e garantir a autenticidade de documentos são essenciais no cenário digital atual. O Aspose.Words para Python simplifica o processo de adição, verificação e personalização de assinaturas digitais, capacitando desenvolvedores a aprimorar a segurança e a confiabilidade de seus documentos.
 
 ## Perguntas frequentes
 
@@ -103,9 +105,14 @@ O Aspose.Words suporta certificados X.509, incluindo arquivos PFX, que são comu
 ### Assinaturas digitais são legalmente válidas?
 
 Sim, as assinaturas digitais são legalmente válidas em muitos países e geralmente são consideradas equivalentes às assinaturas manuscritas.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

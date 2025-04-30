@@ -1,14 +1,16 @@
 ---
-title: Cetak Dokumen dengan PrintDialog
-linktitle: Cetak Dokumen dengan PrintDialog
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara mencetak dokumen menggunakan Aspose.Words untuk Java dengan PrintDialog. Sesuaikan pengaturan, cetak halaman tertentu, dan banyak lagi dalam panduan langkah demi langkah ini.
-weight: 14
-url: /id/java/document-printing/print-document-printdialog/
+"description": "Pelajari cara mencetak dokumen menggunakan Aspose.Words untuk Java dengan PrintDialog. Sesuaikan pengaturan, cetak halaman tertentu, dan banyak lagi dalam panduan langkah demi langkah ini."
+"linktitle": "Cetak Dokumen dengan PrintDialog"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Cetak Dokumen dengan PrintDialog"
+"url": "/id/java/document-printing/print-document-printdialog/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cetak Dokumen dengan PrintDialog
@@ -23,8 +25,8 @@ Mencetak dokumen merupakan persyaratan umum dalam banyak aplikasi Java. Aspose.W
 
 Sebelum kita masuk ke kode, pastikan Anda memiliki prasyarat berikut:
 
-- Java Development Kit (JDK): Pastikan Anda telah menginstal Java pada sistem Anda.
--  Aspose.Words untuk Java: Anda dapat mengunduh pustaka dari[Di Sini](https://releases.aspose.com/words/java/).
+- Java Development Kit (JDK): Pastikan Anda telah menginstal Java di sistem Anda.
+- Aspose.Words untuk Java: Anda dapat mengunduh pustaka dari [Di Sini](https://releases.aspose.com/words/java/).
 
 ## Menyiapkan Proyek Java Anda
 
@@ -63,7 +65,7 @@ public class PrintDocumentWithDialog {
 }
 ```
 
- Dalam kode ini, pertama-tama kita memuat dokumen menggunakan Aspose.Words dan kemudian menginisialisasi PrinterSettings. Kita menggunakan`showPrintDialog()` metode untuk menampilkan PrintDialog kepada pengguna. Setelah pengguna memilih pengaturan cetak mereka, kami mencetak dokumen menggunakan`doc.print(settings)`.
+Dalam kode ini, pertama-tama kita memuat dokumen menggunakan Aspose.Words dan kemudian menginisialisasi PrinterSettings. Kita menggunakan `showPrintDialog()` metode untuk menampilkan PrintDialog kepada pengguna. Setelah pengguna memilih pengaturan cetak mereka, kami mencetak dokumen menggunakan `doc.print(settings)`.
 
 ## Menyesuaikan Pengaturan Cetak
 
@@ -77,7 +79,7 @@ Dalam panduan ini, kami telah mempelajari cara mencetak dokumen dengan PrintDial
 
 ### Bagaimana cara mengatur orientasi halaman untuk pencetakan?
 
- Untuk mengatur orientasi halaman (potret atau lanskap) untuk pencetakan, Anda dapat menggunakan`PageSetup` kelas di Aspose.Words. Berikut contohnya:
+Untuk mengatur orientasi halaman (potret atau lanskap) untuk pencetakan, Anda dapat menggunakan `PageSetup` kelas di Aspose.Words. Berikut contohnya:
 
 ```java
 Document doc = new Document("sample.docx");
@@ -87,7 +89,7 @@ pageSetup.setOrientation(Orientation.LANDSCAPE);
 
 ### Bisakah saya mencetak halaman tertentu dari suatu dokumen?
 
- Ya, Anda dapat mencetak halaman tertentu dari dokumen dengan menentukan rentang halaman di`PrinterSettings` objek. Berikut contohnya:
+Ya, Anda dapat mencetak halaman tertentu dari dokumen dengan menentukan rentang halaman di `PrinterSettings` objek. Berikut contohnya:
 
 ```java
 PrinterSettings settings = new PrinterSettings();
@@ -96,7 +98,7 @@ settings.setPageRange("1-3, 5");
 
 ### Bagaimana cara mengubah ukuran kertas untuk pencetakan?
 
-Untuk mengubah ukuran kertas untuk pencetakan, Anda dapat menggunakan`PageSetup` kelas dan mengatur`PaperSize` properti. Berikut contohnya:
+Untuk mengubah ukuran kertas untuk pencetakan, Anda dapat menggunakan `PageSetup` kelas dan mengatur `PaperSize` properti. Berikut contohnya:
 
 ```java
 Document doc = new Document("sample.docx");
@@ -110,10 +112,15 @@ Ya, Aspose.Words untuk Java kompatibel dengan berbagai sistem operasi, termasuk 
 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan contoh?
 
- Anda dapat menemukan dokumentasi dan contoh lengkap untuk Aspose.Words untuk Java di situs web:[Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/).
+Anda dapat menemukan dokumentasi dan contoh lengkap untuk Aspose.Words untuk Java di situs web: [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

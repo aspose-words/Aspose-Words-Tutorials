@@ -1,14 +1,16 @@
 ---
-title: So sánh các tài liệu trong Aspose.Words cho Java
-linktitle: So sánh tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách so sánh các tài liệu trong Aspose.Words for Java, một thư viện Java mạnh mẽ để phân tích tài liệu hiệu quả.
-weight: 28
-url: /vi/java/document-manipulation/comparing-documents/
+"description": "Tìm hiểu cách so sánh các tài liệu trong Aspose.Words for Java, một thư viện Java mạnh mẽ để phân tích tài liệu hiệu quả."
+"linktitle": "So sánh tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "So sánh các tài liệu trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/comparing-documents/"
+"weight": 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # So sánh các tài liệu trong Aspose.Words cho Java
@@ -20,11 +22,11 @@ So sánh tài liệu bao gồm việc phân tích hai tài liệu và xác đị
 
 ## Thiết lập môi trường của bạn
 
- Trước khi chúng ta đi sâu vào so sánh tài liệu, hãy đảm bảo bạn đã cài đặt Aspose.Words for Java. Bạn có thể tải xuống thư viện từ[Aspose.Words cho các bản phát hành Java](https://releases.aspose.com/words/java/) trang. Sau khi tải xuống, hãy đưa nó vào dự án Java của bạn.
+Trước khi chúng ta đi sâu vào so sánh tài liệu, hãy đảm bảo bạn đã cài đặt Aspose.Words for Java. Bạn có thể tải xuống thư viện từ [Aspose.Words cho Java phát hành](https://releases.aspose.com/words/java/) trang. Sau khi tải xuống, hãy đưa nó vào dự án Java của bạn.
 
 ## So sánh tài liệu cơ bản
 
- Chúng ta hãy bắt đầu với những điều cơ bản về so sánh tài liệu. Chúng ta sẽ sử dụng hai tài liệu,`docA` Và`docB`và so sánh chúng.
+Chúng ta hãy bắt đầu với những điều cơ bản về so sánh tài liệu. Chúng ta sẽ sử dụng hai tài liệu, `docA` Và `docB`và so sánh chúng.
 
 ```java
 Document docA = new Document("Your Directory Path" + "Document.docx");
@@ -33,7 +35,7 @@ docA.compare(docB, "user", new Date());
 System.out.println(docA.getRevisions().getCount() == 0 ? "Documents are equal" : "Documents are not equal");
 ```
 
-Trong đoạn mã này, chúng tôi tải hai tài liệu,`docA` Và`docB` , và sau đó sử dụng`compare` phương pháp so sánh chúng. Chúng tôi chỉ định tác giả là "người dùng" và thực hiện so sánh. Cuối cùng, chúng tôi kiểm tra xem có bản sửa đổi nào không, cho biết sự khác biệt giữa các tài liệu.
+Trong đoạn mã này, chúng tôi tải hai tài liệu, `docA` Và `docB`, và sau đó sử dụng `compare` phương pháp so sánh chúng. Chúng tôi chỉ định tác giả là "người dùng" và thực hiện so sánh. Cuối cùng, chúng tôi kiểm tra xem có bản sửa đổi nào không, cho biết sự khác biệt giữa các tài liệu.
 
 ## Tùy chỉnh so sánh với các tùy chọn
 
@@ -41,7 +43,7 @@ Aspose.Words for Java cung cấp nhiều tùy chọn để tùy chỉnh so sánh
 
 ## Bỏ qua định dạng
 
- Để bỏ qua sự khác biệt trong định dạng, hãy sử dụng`setIgnoreFormatting` lựa chọn.
+Để bỏ qua sự khác biệt trong định dạng, hãy sử dụng `setIgnoreFormatting` lựa chọn.
 
 ```java
 CompareOptions options = new CompareOptions();
@@ -51,7 +53,7 @@ docA.compare(docB, "user", new Date(), options);
 
 ## Bỏ qua Header và Footer
 
- Để loại trừ phần đầu trang và phần chân trang khỏi so sánh, hãy đặt`setIgnoreHeadersAndFooters` lựa chọn.
+Để loại trừ phần đầu trang và phần chân trang khỏi so sánh, hãy đặt `setIgnoreHeadersAndFooters` lựa chọn.
 
 ```java
 CompareOptions options = new CompareOptions();
@@ -105,7 +107,7 @@ So sánh tài liệu trong Aspose.Words for Java là một khả năng mạnh m�
 
 ### Làm thế nào để cài đặt Aspose.Words cho Java?
 
- Để cài đặt Aspose.Words cho Java, hãy tải xuống thư viện từ[Aspose.Words cho các bản phát hành Java](https://releases.aspose.com/words/java/) và đưa nó vào phần phụ thuộc của dự án Java của bạn.
+Để cài đặt Aspose.Words cho Java, hãy tải xuống thư viện từ [Aspose.Words cho Java phát hành](https://releases.aspose.com/words/java/) và đưa nó vào phần phụ thuộc của dự án Java của bạn.
 
 ### Tôi có thể so sánh các tài liệu có định dạng phức tạp bằng Aspose.Words cho Java không?
 
@@ -119,12 +121,17 @@ Hoàn toàn đúng. Tính năng so sánh tài liệu của Aspose.Words for Java
 
 Mặc dù Aspose.Words for Java cung cấp khả năng so sánh tài liệu mở rộng, nhưng bạn vẫn cần phải xem xét tài liệu và đảm bảo nó đáp ứng các yêu cầu cụ thể của mình.
 
-### Làm thế nào tôi có thể truy cập thêm tài nguyên và tài liệu về Aspose.Words cho Java?
+### Làm thế nào tôi có thể truy cập thêm tài nguyên và tài liệu cho Aspose.Words for Java?
 
- Để biết thêm tài nguyên và tài liệu chuyên sâu về Aspose.Words cho Java, hãy truy cập[Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/).
+Để biết thêm tài nguyên và tài liệu chuyên sâu về Aspose.Words cho Java, hãy truy cập [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

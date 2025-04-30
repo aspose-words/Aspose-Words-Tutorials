@@ -1,14 +1,16 @@
 ---
-title: Atur Folder Font
-linktitle: Atur Folder Font
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengatur folder font khusus di Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Sempurna bagi pengembang yang ingin menyempurnakan font dokumen.
-weight: 10
-url: /id/net/working-with-fonts/set-fonts-folders/
+"description": "Pelajari cara mengatur folder font khusus di Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Sempurna bagi pengembang yang ingin menyempurnakan font dokumen."
+"linktitle": "Atur Folder Font"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Atur Folder Font"
+"url": "/id/net/working-with-fonts/set-fonts-folders/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Atur Folder Font
@@ -21,7 +23,7 @@ Hai! Siap menyelami dunia font kustom di Aspose.Words untuk .NET? Mari kita mula
 
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
--  Aspose.Words untuk .NET: Anda dapat[Unduh](https://releases.aspose.com/words/net/) itu jika Anda belum melakukannya.
+- Aspose.Words untuk .NET: Anda dapat [Unduh](https://releases.aspose.com/words/net/) itu jika Anda belum melakukannya.
 - Visual Studio: Versi mana pun bisa digunakan, tetapi versi terbaru selalu yang terbaik.
 - Dokumen: Kami akan menggunakan dokumen Word untuk tutorial ini. Anda dapat membuat dokumen sendiri atau menggunakan dokumen yang sudah ada.
 - Font Kustom: Siapkan beberapa font kustom. Kami akan menggunakan ini untuk menunjukkan cara mengatur folder font.
@@ -39,18 +41,18 @@ Setelah namespace ini diimpor, kita siap untuk mulai menyiapkan folder font kust
 
 ## Langkah 1: Tentukan Direktori Dokumen Anda
 
- Mari kita mulai dengan menentukan jalur ke direktori dokumen Anda. Di sinilah dokumen Word Anda disimpan. Kita akan menggunakan variabel yang disebut`dataDir` untuk menyimpan jalur ini.
+Mari kita mulai dengan menentukan jalur ke direktori dokumen Anda. Di sinilah dokumen Word Anda disimpan. Kita akan menggunakan variabel yang disebut `dataDir` untuk menyimpan jalur ini.
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori Anda. Hal ini penting karena Aspose.Words perlu mengetahui tempat menemukan dokumen Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori Anda. Hal ini penting karena Aspose.Words perlu mengetahui tempat menemukan dokumen Anda.
 
 ## Langkah 2: Mengatur Sumber Font
 
- Selanjutnya, kita perlu mengatur sumber font. Di sinilah kita memberi tahu Aspose.Words di mana menemukan font kustom kita. Kita akan menggunakan`FontSettings.DefaultInstance.SetFontsSources` metode untuk mencapai hal ini.
+Selanjutnya, kita perlu mengatur sumber font. Di sinilah kita memberi tahu Aspose.Words di mana menemukan font kustom kita. Kita akan menggunakan `FontSettings.DefaultInstance.SetFontsSources` metode untuk mencapai hal ini.
 
 ```csharp
 FontSettings.DefaultInstance.SetFontsSources(new FontSourceBase[]
@@ -62,21 +64,21 @@ FontSettings.DefaultInstance.SetFontsSources(new FontSourceBase[]
 Inilah yang sedang kami lakukan:
 
 - SystemFontSource: Ini memberitahu Aspose.Words untuk menggunakan font default sistem.
--  FolderFontSource: Di sinilah kita menentukan folder yang berisi font kustom kita. Ganti`"C:\\MyFonts\\"` dengan jalur ke direktori font kustom Anda.`true` parameter menunjukkan bahwa subdirektori juga harus disertakan.
+- FolderFontSource: Di sinilah kita menentukan folder yang berisi font kustom kita. Ganti `"C:\\MyFonts\\"` dengan jalur ke direktori font kustom Anda. `true` parameter menunjukkan bahwa subdirektori juga harus disertakan.
 
 ## Langkah 3: Muat Dokumen Anda
 
-Sekarang setelah kita menyiapkan sumber font kita, saatnya memuat dokumen yang ingin kita gunakan. Kita akan menggunakan`Document` kelas dari Aspose.Words untuk ini.
+Sekarang setelah kita menyiapkan sumber font kita, saatnya memuat dokumen yang ingin kita gunakan. Kita akan menggunakan `Document` kelas dari Aspose.Words untuk ini.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Pastikan bahwa`"Rendering.docx"` adalah nama dokumen Word Anda. Jika dokumen Anda memiliki nama yang berbeda, pastikan untuk memperbaruinya.
+Pastikan bahwa `"Rendering.docx"` adalah nama dokumen Word Anda. Jika dokumen Anda memiliki nama yang berbeda, pastikan untuk memperbaruinya.
 
 ## Langkah 4: Simpan Dokumen Anda sebagai PDF
 
- Terakhir, mari simpan dokumen kita sebagai PDF untuk melihat font kustom yang sedang digunakan. Kita akan menggunakan`Save` metode dari`Document` kelas.
+Terakhir, mari simpan dokumen kita sebagai PDF untuk melihat font kustom yang sedang digunakan. Kita akan menggunakan `Save` metode dari `Document` kelas.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithFonts.SetFontsFolders.pdf");
@@ -92,11 +94,11 @@ Nah, itu dia! Anda telah berhasil menyiapkan folder font khusus di Aspose.Words 
 
 ### Bagaimana cara menginstal Aspose.Words untuk .NET?
 
- Kamu bisa[Unduh](https://releases.aspose.com/words/net/) versi terbaru Aspose.Words untuk .NET dari situs web.
+Kamu bisa [Unduh](https://releases.aspose.com/words/net/) versi terbaru Aspose.Words untuk .NET dari situs web.
 
 ### Bisakah saya menggunakan beberapa folder font khusus?
 
- Ya, Anda dapat menambahkan beberapa`FolderFontSource` contoh kasus ke`SetFontsSources`metode untuk menggunakan font dari direktori yang berbeda.
+Ya, Anda dapat menambahkan beberapa `FolderFontSource` contoh kasus ke `SetFontsSources` metode untuk menggunakan font dari direktori yang berbeda.
 
 ### Apakah perlu menyertakan font sistem?
 
@@ -108,10 +110,15 @@ Aspose.Words mendukung berbagai format file, termasuk DOCX, DOC, PDF, TXT, HTML,
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Words?
 
- Anda bisa mendapatkan[lisensi sementara](https://purchase.aspose.com/temporary-license/) dari situs web Aspose untuk mencoba fitur lengkap Aspose.Words.
+Anda bisa mendapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/) dari situs web Aspose untuk mencoba fitur lengkap Aspose.Words.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

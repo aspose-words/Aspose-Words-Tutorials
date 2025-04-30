@@ -1,30 +1,32 @@
 ---
-title: Ek Metin Konumlandırması ile PDF Metin Konumlandırmasını Geliştirin
-linktitle: Ek Metin Konumlandırması ile PDF Metin Konumlandırmasını Geliştirin
-second_title: Aspose.Words Belge İşleme API'si
-description: Birkaç kolay adımda Aspose.Words for .NET ile PDF metin konumlandırmasını nasıl iyileştireceğinizi öğrenin. Belgenizin görünümünü geliştirin.
-weight: 10
-url: /tr/net/programming-with-pdfsaveoptions/additional-text-positioning/
+"description": "Birkaç kolay adımda Aspose.Words for .NET ile PDF metin konumlandırmasını nasıl iyileştireceğinizi öğrenin. Belgenizin görünümünü geliştirin."
+"linktitle": "Ek Metin Konumlandırması ile PDF Metin Konumlandırmasını Geliştirin"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Ek Metin Konumlandırması ile PDF Metin Konumlandırmasını Geliştirin"
+"url": "/tr/net/programming-with-pdfsaveoptions/additional-text-positioning/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ek Metin Konumlandırması ile PDF Metin Konumlandırmasını Geliştirin
 
 ## giriiş
 
-.NET için Aspose.Words dünyasına dalmaya ve PDF'lerinizdeki hassas metin konumlandırmanın büyüsünü açığa çıkarmaya hazır mısınız? Emniyet kemerlerinizi bağlayın çünkü bu kılavuz sizi PDF metin konumlandırmanızı Ek Metin Konumlandırma özelliğiyle geliştirme adımları boyunca heyecan verici bir yolculuğa çıkaracak. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim size bilmeniz gereken her şeyi sağlayacaktır.
+Aspose.Words for .NET dünyasına dalmaya ve PDF'lerinizdeki hassas metin konumlandırmanın büyüsünü açığa çıkarmaya hazır mısınız? Emniyet kemerlerinizi bağlayın çünkü bu kılavuz sizi PDF metin konumlandırmanızı Ek Metin Konumlandırma özelliğiyle geliştirme adımları boyunca heyecan verici bir yolculuğa çıkaracak. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim size bilmeniz gereken her şeyi sağlayacaktır.
 
 ## Ön koşullar
 
 Başlamadan önce, gerekli tüm araç ve kaynakların mevcut olduğundan emin olalım:
 
--  Aspose.Words for .NET: Aspose.Words for .NET'in en son sürümünün yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Aspose.Words for .NET'in en son sürümünün yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio benzeri entegre bir geliştirme ortamı (IDE).
 - .NET Framework: .NET Framework 4.0 veya üzeri sürümün yüklü olduğundan emin olun.
-- Temel C# Bilgisi: C# programlama diline aşinalık faydalı olacaktır.
+- Temel C# Bilgisi: C# programlama diline aşina olmak faydalı olacaktır.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -53,20 +55,20 @@ Projeniz kurulduktan sonraki adım, gelişmiş metin konumlandırmasıyla PDF'e 
     ```csharp
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
-2.  Belgeyi Yükle: Şunu kullanın:`Document` Word belgenizi yüklemek için sınıf.
+2. Belgeyi Yükle: Şunu kullanın: `Document` Word belgenizi yüklemek için sınıf.
     ```csharp
     Document doc = new Document(dataDir + "Rendering.docx");
     ```
 
 ## Adım 3: PDF Kaydetme Seçeneklerini Yapılandırın
 
- Sihir burada gerçekleşiyor! Şunu yapılandıracağız:`PdfSaveOptions` ek metin konumlandırmasını etkinleştirmek için.
+Sihir burada gerçekleşiyor! Şunu yapılandıracağız: `PdfSaveOptions` ek metin konumlandırmasını etkinleştirmek için.
 
-1.  PdfSaveOptions Nesnesi Oluşturun: Örneklemeyi yapın`PdfSaveOptions` sınıf.
+1. PdfSaveOptions Nesnesi Oluşturun: Örneklemeyi yapın `PdfSaveOptions` sınıf.
     ```csharp
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     ```
-2.  Ek Metin Konumlandırmasını Etkinleştir:`AdditionalTextPositioning`mülk`true`.
+2. Ek Metin Konumlandırmasını Etkinleştir: `AdditionalTextPositioning` mülk `true`.
     ```csharp
     saveOptions.AdditionalTextPositioning = true;
     ```
@@ -92,17 +94,22 @@ Ek Metin Konumlandırma, PDF'lerdeki metin yerleşiminin hassasiyetini artırara
 Hayır, Ek Metin Konumlandırma özelliği yalnızca PDF dönüştürmelerine özeldir.
 
 ### Aspose.Words for .NET'i kullanmak için lisansa ihtiyacım var mı?
- Evet, bir tane alabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) veya tam lisans satın alın[Burada](https://purchase.aspose.com/buy).
+Evet, bir tane alabilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) veya tam lisans satın alın [Burada](https://purchase.aspose.com/buy).
 
 ### Ücretsiz deneme imkanı var mı?
- Evet, indirebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) Aspose.Words'ün .NET sürümü.
+Evet, indirebilirsiniz [ücretsiz deneme](https://releases.aspose.com/) Aspose.Words'ün .NET sürümü.
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
- Ayrıntılı dokümantasyon şu adreste mevcuttur:[Aspose web sitesi](https://reference.aspose.com/words/net/).
+Ayrıntılı dokümantasyon şu adreste mevcuttur: [Aspose web sitesi](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

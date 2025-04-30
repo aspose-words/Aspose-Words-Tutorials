@@ -1,14 +1,16 @@
 ---
-title: Usando dados XML no Aspose.Words para Java
-linktitle: Usando dados XML
-second_title: API de processamento de documentos Java Aspose.Words
-description: Desbloqueie o poder do Aspose.Words para Java. Aprenda manipulação de dados XML, mala direta e sintaxe Mustache com tutoriais passo a passo.
-weight: 12
-url: /pt/java/document-manipulation/using-xml-data/
+"description": "Desbloqueie o poder do Aspose.Words para Java. Aprenda manipulação de dados XML, mala direta e sintaxe Mustache com tutoriais passo a passo."
+"linktitle": "Usando dados XML"
+"second_title": "API de processamento de documentos Java Aspose.Words"
+"title": "Usando dados XML no Aspose.Words para Java"
+"url": "/pt/java/document-manipulation/using-xml-data/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usando dados XML no Aspose.Words para Java
@@ -16,13 +18,13 @@ url: /pt/java/document-manipulation/using-xml-data/
 
 ## Introdução ao uso de dados XML no Aspose.Words para Java
 
-Neste guia, exploraremos como trabalhar com dados XML usando Aspose.Words para Java. Você aprenderá como executar operações de mala direta, incluindo mala direta aninhadas, e utilizar a sintaxe Mustache com um DataSet. Forneceremos instruções passo a passo e exemplos de código-fonte para ajudar você a começar.
+Neste guia, exploraremos como trabalhar com dados XML usando o Aspose.Words para Java. Você aprenderá a realizar operações de mala direta, incluindo mala direta aninhada, e a utilizar a sintaxe Mustache com um DataSet. Forneceremos instruções passo a passo e exemplos de código-fonte para ajudar você a começar.
 
 ## Pré-requisitos
 
 Antes de começar, certifique-se de que você tenha os seguintes pré-requisitos:
 - [Aspose.Words para Java](https://products.aspose.com/words/java/) instalado.
-- Arquivos de dados XML de exemplo para clientes, pedidos e fornecedores.
+- Exemplos de arquivos de dados XML para clientes, pedidos e fornecedores.
 - Exemplos de documentos do Word para destinos de mala direta.
 
 ## Mala direta com dados XML
@@ -67,7 +69,7 @@ doc.save("Your Directory Path" + "MustacheSyntaxUsingDataSet.docx");
 
 ## Conclusão
 
-Neste guia abrangente, exploramos como usar efetivamente dados XML com Aspose.Words para Java. Você aprendeu como executar várias operações de mala direta, incluindo mala direta básica, mala direta aninhada e como utilizar a sintaxe Mustache com um DataSet. Essas técnicas permitem que você automatize a geração e a personalização de documentos com facilidade.
+Neste guia abrangente, exploramos como usar dados XML de forma eficaz com o Aspose.Words para Java. Você aprendeu a realizar diversas operações de mala direta, incluindo mala direta básica, mala direta aninhada e como utilizar a sintaxe Mustache com um DataSet. Essas técnicas permitem automatizar a geração e a personalização de documentos com facilidade.
 
 ## Perguntas frequentes
 
@@ -77,14 +79,19 @@ Certifique-se de que seus dados XML sigam a estrutura necessária, com tabelas e
 
 ### Posso personalizar o comportamento de corte para valores de mala direta?
 
- Sim, você pode controlar se os espaços em branco iniciais e finais são aparados durante a mala direta usando`doc.getMailMerge().setTrimWhitespaces(false)`.
+Sim, você pode controlar se os espaços em branco à esquerda e à direita são aparados durante a mala direta usando `doc.getMailMerge().setTrimWhitespaces(false)`.
 
 ### O que é a sintaxe Mustache e quando devo usá-la?
 
- A sintaxe Mustache permite que você formate campos de mala direta de uma forma mais flexível. Use`doc.getMailMerge().setUseNonMergeFields(true)` para habilitar a sintaxe Mustache.
+A sintaxe Mustache permite formatar campos de mala direta de forma mais flexível. Use `doc.getMailMerge().setUseNonMergeFields(true)` para habilitar a sintaxe Mustache.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

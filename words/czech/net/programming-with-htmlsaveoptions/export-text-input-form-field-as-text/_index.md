@@ -1,34 +1,36 @@
 ---
-title: Export textového vstupního pole formuláře jako text
-linktitle: Export textového vstupního pole formuláře jako text
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se exportovat pole formuláře pro zadávání textu jako prostý text pomocí Aspose.Words for .NET pomocí tohoto komplexního průvodce krok za krokem.
-weight: 10
-url: /cs/net/programming-with-htmlsaveoptions/export-text-input-form-field-as-text/
+"description": "Naučte se, jak exportovat pole formuláře pro zadávání textu jako prostý text pomocí Aspose.Words pro .NET s tímto komplexním podrobným návodem."
+"linktitle": "Exportovat pole formuláře pro vstup textu jako text"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Exportovat pole formuláře pro vstup textu jako text"
+"url": "/cs/net/programming-with-htmlsaveoptions/export-text-input-form-field-as-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Export textového vstupního pole formuláře jako text
+# Exportovat pole formuláře pro vstup textu jako text
 
 ## Zavedení
 
-Takže se ponoříte do světa Aspose.Words pro .NET? Skvělá volba! Pokud se chcete naučit, jak exportovat pole formuláře pro zadávání textu jako text, jste na správném místě. Ať už teprve začínáte nebo si oprašujete své dovednosti, tento průvodce vás provede vším, co potřebujete vědět. Začněme, ano?
+Takže se ponořujete do světa Aspose.Words pro .NET? Skvělá volba! Pokud se chcete naučit, jak exportovat pole formuláře pro zadávání textu jako text, jste na správném místě. Ať už s tím teprve začínáte, nebo si jen osvěžujete své dovednosti, tento průvodce vás provede vším, co potřebujete vědět. Pojďme na to, co říkáte?
 
 ## Předpoklady
 
-Než se pustíme do toho nejzákladnějšího, ujistěte se, že máte vše, co potřebujete, abyste mohli hladce postupovat:
+Než se ponoříme do detailů, ujistěme se, že máte vše potřebné k hladkému průběhu:
 
--  Aspose.Words for .NET: Stáhněte si a nainstalujte nejnovější verzi z[zde](https://releases.aspose.com/words/net/).
+- Aspose.Words pro .NET: Stáhněte a nainstalujte nejnovější verzi z [zde](https://releases.aspose.com/words/net/).
 - IDE: Visual Studio nebo jakékoli vývojové prostředí C#.
-- Základní znalosti C#: Pochopení základní syntaxe C# a konceptů objektově orientovaného programování.
-- Dokument: Ukázkový dokument aplikace Word (`Rendering.docx`) s poli formuláře pro zadávání textu.
+- Základní znalost C#: Pochopení základní syntaxe C# a konceptů objektově orientovaného programování.
+- Dokument: Ukázkový dokument Wordu (`Rendering.docx`) s poli formuláře pro zadávání textu.
 
 ## Importovat jmenné prostory
 
-Nejprve musíte importovat potřebné jmenné prostory. Jsou to jako stavební kameny, díky nimž vše funguje bez problémů.
+Nejdříve je potřeba importovat potřebné jmenné prostory. Ty jsou jako stavební kameny, díky nimž vše funguje bez problémů.
 
 ```csharp
 using System;
@@ -37,41 +39,41 @@ using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Dobře, teď, když máme naše jmenné prostory připravené, pojďme se vrhnout do akce!
+Dobře, teď, když máme naše jmenné prostory připravené, pojďme se pustit do akce!
 
-## Krok 1: Nastavte projekt
+## Krok 1: Nastavení projektu
 
-Než se pustíme do kódu, ujistěte se, že je náš projekt správně nastaven.
+Než se pustíme do kódu, ujistěme se, že je náš projekt správně nastavený.
 
 ## Vytvoření projektu
 
-1. Otevřete Visual Studio: Začněte otevřením Visual Studia nebo vašeho preferovaného vývojového prostředí C#.
-2.  Vytvořit nový projekt: Přejděte na`File > New > Project` . Vybrat`Console App (.NET Core)` nebo jakýkoli jiný relevantní typ projektu.
-3.  Pojmenujte svůj projekt: Dejte svému projektu smysluplný název, něco jako`AsposeWordsExportExample`.
+1. Otevřete Visual Studio: Začněte otevřením Visual Studia nebo preferovaného vývojového prostředí C#.
+2. Vytvoření nového projektu: Přejděte na `File > New > Project`Vyberte `Console App (.NET Core)` nebo jakýkoli jiný relevantní typ projektu.
+3. Pojmenujte svůj projekt: Dejte svému projektu smysluplný název, například `AsposeWordsExportExample`.
 
 ## Přidání Aspose.Words
 
-1.  Správa balíčků NuGet: Klikněte pravým tlačítkem na svůj projekt v Průzkumníku řešení a vyberte`Manage NuGet Packages`.
-2.  Hledat Aspose.Words: Ve Správci balíčků NuGet vyhledejte`Aspose.Words`.
-3.  Instalace Aspose.Words: Klikněte na`Install` pro přidání knihovny Aspose.Words do vašeho projektu.
+1. Správa balíčků NuGet: V Průzkumníku řešení klikněte pravým tlačítkem myši na projekt a vyberte `Manage NuGet Packages`.
+2. Hledání Aspose.Words: Ve Správci balíčků NuGet vyhledejte `Aspose.Words`.
+3. Instalace Aspose.Words: Klikněte na `Install` přidat knihovnu Aspose.Words do vašeho projektu.
 
-## Krok 2: Načtěte dokument aplikace Word
+## Krok 2: Načtěte dokument Wordu
 
-Nyní, když je náš projekt nastaven, načteme dokument aplikace Word, který obsahuje pole formuláře pro zadávání textu.
+Nyní, když je náš projekt nastavený, načtěme dokument Wordu, který obsahuje pole formuláře pro zadávání textu.
 
-1. Zadejte adresář dokumentů: Definujte cestu k adresáři, kde je uložen váš dokument.
-2.  Vložte dokument: Použijte`Document` třídy k načtení dokumentu aplikace Word.
+1. Zadejte adresář dokumentů: Definujte cestu k adresáři, kde je dokument uložen.
+2. Vložení dokumentu: Použijte `Document` třída pro načtení dokumentu Word.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
-## Krok 3: Připravte exportní adresář
+## Krok 3: Příprava adresáře pro export
 
-Před exportem se ujistěte, že je náš exportní adresář připraven. Zde se uloží náš soubor HTML a obrázky.
+Než začneme exportovat, ujistěte se, že je připraven adresář pro export. Zde se uloží náš HTML soubor a obrázky.
 
-1. Definujte exportní adresář: Zadejte cestu, kam budou uloženy exportované soubory.
+1. Definujte adresář pro export: Zadejte cestu, kam budou uloženy exportované soubory.
 2. Zkontrolujte a vyčistěte adresář: Ujistěte se, že adresář existuje a je prázdný.
 
 ```csharp
@@ -83,13 +85,13 @@ if (Directory.Exists(imagesDir))
 Directory.CreateDirectory(imagesDir);
 ```
 
-## Krok 4: Nakonfigurujte možnosti uložení
+## Krok 4: Konfigurace možností ukládání
 
-Tady se děje kouzlo. Potřebujeme nastavit naše možnosti ukládání, abychom exportovali pole formuláře pro zadávání textu jako prostý text.
+A tady se začne dít ta pravá magie. Musíme nastavit možnosti ukládání tak, aby se pole textového formuláře exportovalo jako prostý text.
 
-1.  Vytvořit možnosti uložení: Inicializace nového`HtmlSaveOptions` objekt.
-2.  Nastavit možnost exportu textu: Nakonfigurujte`ExportTextInputFormFieldAsText`majetek do`true`.
-3. Set Images Folder: Definujte složku, kam se budou snímky ukládat.
+1. Vytvořit možnosti uložení: Inicializovat nové `HtmlSaveOptions` objekt.
+2. Nastavení možností exportu textu: Konfigurace `ExportTextInputFormFieldAsText` majetek `true`.
+3. Nastavit složku obrázků: Definujte složku, kam budou obrázky ukládány.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html)
@@ -101,10 +103,10 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html)
 
 ## Krok 5: Uložte dokument jako HTML
 
-Nakonec uložme dokument aplikace Word jako soubor HTML pomocí našich nakonfigurovaných možností uložení.
+Nakonec uložme dokument Wordu jako soubor HTML pomocí našich nakonfigurovaných možností ukládání.
 
-1. Definujte výstupní cestu: Zadejte cestu, kam bude soubor HTML uložen.
-2.  Uložit dokument: Použijte`Save` metoda`Document`třídy pro export dokumentu.
+1. Definujte výstupní cestu: Zadejte cestu, kam bude uložen soubor HTML.
+2. Uložení dokumentu: Použijte `Save` metoda `Document` třída pro export dokumentu.
 
 ```csharp
 doc.Save(dataDir + "ExportedDocument.html", saveOptions);
@@ -112,33 +114,38 @@ doc.Save(dataDir + "ExportedDocument.html", saveOptions);
 
 ## Závěr
 
-A tady to máte! Úspěšně jste exportovali pole formuláře pro zadávání textu jako prostý text pomocí Aspose.Words for .NET. Tato příručka by vám měla poskytnout jasný postup krok za krokem k dosažení tohoto úkolu. Pamatujte, že praxe dělá mistra, takže pokračujte v experimentování s různými možnostmi a nastaveními, abyste zjistili, co dalšího můžete s Aspose.Words dělat.
+tady to máte! Úspěšně jste exportovali pole formuláře pro zadávání textu jako prostý text pomocí Aspose.Words pro .NET. Tato příručka by vám měla poskytnout jasný a podrobný postup, jak tohoto úkolu dosáhnout. Pamatujte, že cvičení dělá mistra, proto experimentujte s různými možnostmi a nastaveními, abyste zjistili, co dalšího můžete s Aspose.Words dělat.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu pomocí stejné metody exportovat jiné typy polí formuláře?
+### Mohu stejnou metodou exportovat i jiné typy polí formuláře?
 
- Ano, můžete exportovat jiné typy polí formuláře nakonfigurováním různých vlastností souboru`HtmlSaveOptions` třída.
+Ano, můžete exportovat i jiné typy polí formuláře konfigurací různých vlastností `HtmlSaveOptions` třída.
 
 ### Co když můj dokument obsahuje obrázky?
 
- Snímky se uloží do určené složky obrázků. Ujistěte se, že jste nastavili`ImagesFolder` nemovitost v`HtmlSaveOptions`.
+Obrázky budou uloženy do zadané složky obrázků. Ujistěte se, že jste nastavili `ImagesFolder` nemovitost v `HtmlSaveOptions`.
 
 ### Potřebuji licenci pro Aspose.Words?
 
- Ano, můžete získat bezplatnou zkušební verzi[zde](https://releases.aspose.com/) nebo zakoupit licenci[zde](https://purchase.aspose.com/buy).
+Ano, můžete získat bezplatnou zkušební verzi [zde](https://releases.aspose.com/) nebo si zakoupit licenci [zde](https://purchase.aspose.com/buy).
 
-### Mohu upravit exportovaný HTML?
+### Mohu si exportovaný HTML kód upravit?
 
- Absolutně! Aspose.Words poskytuje různé možnosti přizpůsobení výstupu HTML. Viz[dokumentace](https://reference.aspose.com/words/net/) pro více podrobností.
+Rozhodně! Aspose.Words nabízí různé možnosti pro přizpůsobení HTML výstupu. Viz [dokumentace](https://reference.aspose.com/words/net/) pro více informací.
 
 ### Je Aspose.Words kompatibilní s .NET Core?
 
 Ano, Aspose.Words je kompatibilní s .NET Core, .NET Framework a dalšími platformami .NET.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

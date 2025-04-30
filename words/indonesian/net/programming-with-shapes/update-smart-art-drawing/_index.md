@@ -1,14 +1,16 @@
 ---
-title: Perbarui Gambar Seni Cerdas
-linktitle: Perbarui Gambar Seni Cerdas
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memperbarui gambar Smart Art dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Pastikan visual Anda selalu akurat.
-weight: 10
-url: /id/net/programming-with-shapes/update-smart-art-drawing/
+"description": "Pelajari cara memperbarui gambar Smart Art dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Pastikan visual Anda selalu akurat."
+"linktitle": "Perbarui Gambar Seni Cerdas"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Perbarui Gambar Seni Cerdas"
+"url": "/id/net/programming-with-shapes/update-smart-art-drawing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Perbarui Gambar Seni Cerdas
@@ -19,9 +21,9 @@ Grafik Smart Art merupakan cara yang fantastis untuk menyajikan informasi secara
 
 ## Prasyarat
 
-Sebelum masuk ke langkah-langkahnya, pastikan Anda memiliki hal berikut:
+Sebelum memulai langkah-langkahnya, pastikan Anda memiliki hal berikut:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Halaman Rilis Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Halaman Rilis Aspose](https://releases.aspose.com/words/net/).
 
 2. Lingkungan .NET: Anda harus menyiapkan lingkungan pengembangan .NET, seperti Visual Studio.
 
@@ -45,10 +47,10 @@ Ruang nama ini menyediakan kelas dan metode yang diperlukan untuk berinteraksi d
 Judul: Muat Dokumen
 
 Penjelasan:
- Pertama, Anda perlu memuat dokumen Word yang berisi grafik Smart Art. Ini dilakukan dengan membuat contoh`Document` kelas dan menyediakan jalur ke dokumen Anda.
+Pertama, Anda perlu memuat dokumen Word yang berisi grafik Smart Art. Ini dilakukan dengan membuat contoh `Document` kelas dan menyediakan jalur ke dokumen Anda.
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Muat dokumen
@@ -86,7 +88,7 @@ Mengidentifikasi bentuk Seni Cerdas memastikan Anda hanya mencoba memperbarui gr
 Judul: Segarkan Grafik Seni Cerdas
 
 Penjelasan:
- Itu`UpdateSmartArtDrawing` Metode menyegarkan grafik Smart Art, memastikan bahwa grafik tersebut mencerminkan perubahan apa pun dalam data atau tata letak dokumen. Metode ini harus dipanggil pada setiap bentuk Smart Art yang diidentifikasi pada langkah sebelumnya.
+Itu `UpdateSmartArtDrawing` Metode menyegarkan grafik Smart Art, memastikan bahwa grafik tersebut mencerminkan perubahan apa pun dalam data atau tata letak dokumen. Metode ini harus dipanggil pada setiap bentuk Smart Art yang diidentifikasi pada langkah sebelumnya.
 
 ```csharp
 // Perbarui gambar Seni Cerdas untuk setiap bentuk Seni Cerdas
@@ -130,13 +132,18 @@ Memperbarui Smart Art memastikan bahwa grafik mencerminkan perubahan terkini pad
 Ya, Anda dapat mengotomatiskan proses untuk memperbarui Smart Art di beberapa dokumen dengan mengulangi kumpulan file dan menerapkan langkah yang sama.
 
 ### Apakah saya memerlukan lisensi khusus untuk Aspose.Words untuk menggunakan fitur-fitur ini?
- Lisensi Aspose.Words yang valid diperlukan untuk menggunakan fitur-fiturnya di luar periode evaluasi. Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Lisensi Aspose.Words yang valid diperlukan untuk menggunakan fitur-fiturnya di luar periode evaluasi. Anda bisa mendapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words?
- Anda dapat mengakses dokumentasi[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat mengakses dokumentasi [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

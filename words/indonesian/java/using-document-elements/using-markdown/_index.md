@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Markdown di Aspose.Words untuk Java
-linktitle: Menggunakan Markdown
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menggunakan Markdown di Aspose.Words untuk Java dengan tutorial langkah demi langkah ini. Buat, beri gaya, dan simpan dokumen Markdown dengan mudah.
-weight: 19
-url: /id/java/using-document-elements/using-markdown/
+"description": "Pelajari cara menggunakan Markdown di Aspose.Words untuk Java dengan tutorial langkah demi langkah ini. Buat, beri gaya, dan simpan dokumen Markdown dengan mudah."
+"linktitle": "Menggunakan Markdown"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Markdown di Aspose.Words untuk Java"
+"url": "/id/java/using-document-elements/using-markdown/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Markdown di Aspose.Words untuk Java
@@ -124,7 +126,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Tentukan gaya "Heading 1" untuk paragraf.
 builder.getParagraphFormat().setStyleName("Heading 1");
 builder.writeln("Heading 1");
-//Atur ulang gaya dari paragraf sebelumnya agar tidak menggabungkan gaya antar paragraf.
+// Atur ulang gaya dari paragraf sebelumnya agar tidak menggabungkan gaya antar paragraf.
 builder.getParagraphFormat().setStyleName("Normal");
 // Sisipkan penggaris horizontal.
 builder.insertHorizontalRule();
@@ -153,7 +155,7 @@ Style nestedQuote = doc.getStyles().add(StyleType.PARAGRAPH, "Quote1");
 nestedQuote.setBaseStyleName("Quote");
 builder.getParagraphFormat().setStyleName("Quote1");
 builder.writeln("A nested Quote block");
-// Atur ulang gaya paragraf ke Normal untuk menghentikan blok Kutipan.
+// Atur ulang gaya paragraf ke Normal untuk menghentikan blok Kutipan. 
 builder.getParagraphFormat().setStyleName("Normal");
 // Tentukan Hyperlink untuk teks yang diinginkan.
 builder.getFont().setBold(true);
@@ -184,19 +186,24 @@ Dalam tutorial ini, kami telah membahas dasar-dasar penggunaan Markdown di Aspos
    Ya, Anda dapat menggunakan Aspose.Words untuk Java untuk mengonversi dokumen Markdown ke dokumen Word dan sebaliknya.
 
 ### Apakah Aspose.Words untuk Java gratis untuk digunakan? 
-    Aspose.Words untuk Java adalah produk komersial, dan lisensi diperlukan untuk penggunaan. Anda dapat memperoleh lisensi dari[Di Sini](https://purchase.aspose.com/buy).
+   Aspose.Words untuk Java adalah produk komersial, dan lisensi diperlukan untuk penggunaan. Anda dapat memperoleh lisensi dari [Di Sini](https://purchase.aspose.com/buy).
 
 ### Apakah ada tutorial atau dokumentasi yang tersedia untuk Aspose.Words untuk Java? 
-    Ya, Anda dapat menemukan tutorial dan dokumentasi lengkap di[Dokumentasi API Aspose.Words untuk Java](https://reference.aspose.com/words/java/).
+   Ya, Anda dapat menemukan tutorial dan dokumentasi lengkap di [Dokumentasi API Aspose.Words untuk Java](https://reference.aspose.com/words/java/).
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Words untuk Java? 
-    Untuk dukungan dan bantuan, Anda dapat mengunjungi[Forum Aspose.Words untuk Java](https://forum.aspose.com/).
+   Untuk dukungan dan bantuan, Anda dapat mengunjungi [Forum Aspose.Words untuk Java](https://forum.aspose.com/).
 
 Sekarang setelah Anda menguasai dasar-dasarnya, mulailah menjelajahi kemungkinan tak terbatas dalam menggunakan Aspose.Words untuk Java dalam proyek pemrosesan dokumen Anda.
    
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

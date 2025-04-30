@@ -1,35 +1,37 @@
 ---
-title: Načíst slovník dělení slov pro jazyk
-linktitle: Načíst slovník dělení slov pro jazyk
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak načíst slovník dělení slov pro jakýkoli jazyk pomocí Aspose.Words for .NET v tomto komplexním, podrobném tutoriálu.
-weight: 10
-url: /cs/net/working-with-hyphenation/load-hyphenation-dictionary-for-language/
+"description": "Naučte se v tomto komplexním návodu krok za krokem, jak načíst slovník pro pomlčky v libovolném jazyce pomocí Aspose.Words pro .NET."
+"linktitle": "Načíst slovník dělení slov pro daný jazyk"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Načíst slovník dělení slov pro daný jazyk"
+"url": "/cs/net/working-with-hyphenation/load-hyphenation-dictionary-for-language/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Načíst slovník dělení slov pro jazyk
+# Načíst slovník dělení slov pro daný jazyk
 
 ## Zavedení
 
-Potýkali jste se někdy s nepříjemnými problémy s dělením slov v dokumentech aplikace Word? No, nejsi sám. Dělení slov může způsobit nebo narušit čitelnost vašeho textu, zejména v jazycích se složitými pravidly dělení slov. Neboj se! Aspose.Words pro .NET vám pomůže. Tento výukový program vás provede procesem načítání slovníku dělení slov pro konkrétní jazyk a zajistí, že vaše dokumenty budou vypadat uhlazeně a profesionálně. Pojďme se ponořit!
+Už jste se někdy potýkali s otravnými problémy s dělením slov ve vašich dokumentech Word? Nejste sami. Dělení slov může negativně ovlivnit čitelnost textu, zejména v jazycích se složitými pravidly pro dělení slov. Nebojte se! Aspose.Words pro .NET vám s tím pomůže. Tento tutoriál vás provede procesem načítání slovníku dělení slov pro konkrétní jazyk a zajistí, že vaše dokumenty budou vypadat elegantně a profesionálně. Pojďme se na to pustit!
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte následující:
 
 - Visual Studio nainstalované na vašem počítači.
-- .NET framework nainstalován.
--  Aspose.Words pro knihovnu .NET. Pokud jste jej ještě nenainstalovali, můžete si jej stáhnout z[zde](https://releases.aspose.com/words/net/).
-- Soubor slovníku dělení slov pro váš cílový jazyk. V tomto tutoriálu použijeme německý slovník dělení slov (`hyph_de_CH.dic`).
-- Ukázkový dokument aplikace Word v cílovém jazyce. Použijeme dokument s názvem`German text.docx`.
+- Nainstalovaný .NET framework.
+- Knihovna Aspose.Words pro .NET. Pokud ji ještě nemáte nainstalovanou, můžete si ji stáhnout z [zde](https://releases.aspose.com/words/net/).
+- Soubor slovníku pro pomlčky pro váš cílový jazyk. V tomto tutoriálu použijeme německý slovník pro pomlčky (`hyph_de_CH.dic`).
+- Ukázkový dokument aplikace Word v cílovém jazyce. Použijeme dokument s názvem `German text.docx`.
 
 ## Importovat jmenné prostory
 
-Nejprve musíte do projektu importovat potřebné jmenné prostory. Postup je následující:
+Nejdříve je potřeba importovat potřebné jmenné prostory do projektu. Postupujte takto:
 
 ```csharp
 using System;
@@ -38,86 +40,91 @@ using Aspose.Words;
 using Aspose.Words.Hyphenation;
 ```
 
-Nyní si tento proces rozdělíme do snadno pochopitelných kroků.
+Nyní si celý proces rozdělme na snadno sledovatelné kroky.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Než začnete, musíte určit adresář, kde se nachází váš dokument a slovník dělení slov. To pomáhá udržet váš projekt organizovaný a váš kód čistý.
+Než začnete, je třeba zadat adresář, kde se nachází váš dokument a slovník pro pomlčky. To pomůže udržet váš projekt organizovaný a kód čistý.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` s cestou k adresáři obsahujícímu vaše soubory.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` s cestou k adresáři obsahujícímu vaše soubory.
 
-## Krok 2: Vložte dokument
+## Krok 2: Vložení dokumentu
 
- Dále načtěte dokument aplikace Word, který chcete zpracovat. To se provádí pomocí`Document` třídy z Aspose.Words.
+Dále načtěte dokument Wordu, který chcete zpracovat. To se provádí pomocí `Document` třída z Aspose.Words.
 
 ```csharp
 Document doc = new Document(dataDir + "German text.docx");
 ```
 
- Tento řádek kódu inicializuje nový`Document` objekt a načte soubor`German text.docx` z vašeho zadaného adresáře.
+Tento řádek kódu inicializuje nový `Document` objekt a načte soubor `German text.docx` z vámi zadaného adresáře.
 
-## Krok 3: Otevřete Slovník dělení slov
+## Krok 3: Otevřete slovník spojovníků
 
- Nyní musíte otevřít soubor slovníku dělení slov. Použijeme`File.OpenRead` metoda pro čtení souboru slovníku jako proudu.
+Nyní je třeba otevřít soubor se slovníkem pro pomlčky. Použijeme `File.OpenRead` metoda pro čtení souboru slovníku jako streamu.
 
 ```csharp
 Stream stream = File.OpenRead(dataDir + "hyph_de_CH.dic");
 ```
 
- Tento řádek otevře soubor slovníku dělení slov`hyph_de_CH.dic` a přečte to do proudu.
+Tento řádek otevírá soubor slovníku pro pomlčky `hyph_de_CH.dic` a načte ho do streamu.
 
-## Krok 4: Zaregistrujte slovník dělení slov
+## Krok 4: Registrace slovníku spojovníků
 
- Po otevření souboru slovníku je dalším krokem jeho registrace pro použití v Aspose.Words. To se provádí pomocí`Hyphenation.RegisterDictionary` metoda.
+Po otevření souboru slovníku je dalším krokem jeho registrace pro použití v Aspose.Words. To se provádí pomocí `Hyphenation.RegisterDictionary` metoda.
 
 ```csharp
 Hyphenation.RegisterDictionary("de-CH", stream);
 ```
 
-Zde registrujeme slovník dělení slov pro`de-CH` (švýcarská němčina) jazyk.
+Zde zaregistrujeme slovník pro dělení slov pro `de-CH` (švýcarský němčina) jazyk.
 
 ## Krok 5: Uložte dokument
 
-Nakonec zpracovaný dokument uložte. Můžete si vybrat libovolný formát, ale pro tento tutoriál jej uložíme jako PDF.
+Nakonec uložte zpracovaný dokument. Můžete si vybrat libovolný formát, ale v tomto tutoriálu jej uložíme jako PDF.
 
 ```csharp
 doc.Save(dataDir + "ProcessingByBreakingWithDictionary.pdf");
 ```
 
- Tento řádek uloží dokument do zadaného adresáře s názvem souboru`ProcessingByBreakingWithDictionary.pdf`.
+Tento řádek uloží dokument do vámi zadaného adresáře s názvem souboru `ProcessingByBreakingWithDictionary.pdf`.
 
 ## Závěr
 
-Tady to máš! Úspěšně jste načetli slovník dělení slov pro konkrétní jazyk pomocí Aspose.Words for .NET. Tato malá, ale výkonná funkce může výrazně zlepšit čitelnost a profesionalitu vašich dokumentů. Nyní pokračujte a vyzkoušejte to s různými jazyky a uvidíte kouzlo na vlastní kůži!
+je to! Úspěšně jste načetli slovník pro pomlčky pro konkrétní jazyk pomocí Aspose.Words pro .NET. Tato malá, ale výkonná funkce může výrazně zlepšit čitelnost a profesionalitu vašich dokumentů. Nyní si ji vyzkoušejte s různými jazyky a sami se přesvědčte o jejím kouzlu!
 
-## FAQ
+## Často kladené otázky
 
-### Co je to slovník dělení slov?
+### Co je to slovník pro pomlčky?
 
-Slovník dělení slov je soubor, který obsahuje pravidla pro dělení slov na vhodných místech, zlepšuje rozvržení textu a čitelnost.
+Slovník spojovníků je soubor, který obsahuje pravidla pro dělení slov na vhodných místech, vylepšení rozvržení textu a čitelnosti.
 
-### Kde najdu slovníky dělení slov?
+### Kde najdu slovníky pro pomlčky?
 
-Slovníky dělení slov najdete online, často poskytované lingvistickými organizacemi nebo organizacemi s otevřeným zdrojovým kódem. Ujistěte se, že jsou ve formátu kompatibilním s Aspose.Words.
+Slovníky pro pomlčky najdete online, často poskytované lingvistickými nebo open-source organizacemi. Ujistěte se, že jsou ve formátu kompatibilním s Aspose.Words.
 
-### Mohu tuto metodu použít pro jiné jazyky?
+### Mohu tuto metodu použít i pro jiné jazyky?
 
-Ano, můžete zaregistrovat slovníky dělení slov pro různé jazyky zadáním správného kódu jazyka a souboru slovníku.
+Ano, slovníky pro dělení slov pro různé jazyky můžete registrovat zadáním správného kódu jazyka a souboru slovníku.
 
-### Do jakých formátů souborů může Aspose.Words ukládat?
+### Do jakých formátů souborů umí Aspose.Words ukládat?
 
 Aspose.Words podporuje ukládání dokumentů do různých formátů, včetně PDF, DOCX, DOC, HTML a mnoha dalších.
 
 ### Potřebuji licenci k používání Aspose.Words?
 
- Ano, Aspose.Words vyžaduje licenci pro plnou funkčnost. Můžete si zakoupit licenci[zde](https://purchase.aspose.com/buy) nebo získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
+Ano, Aspose.Words vyžaduje pro plnou funkčnost licenci. Licenci si můžete zakoupit. [zde](https://purchase.aspose.com/buy) nebo si pořídit dočasný řidičský průkaz [zde](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

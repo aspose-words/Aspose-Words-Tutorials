@@ -1,14 +1,16 @@
 ---
-title: Игнорировать верхний и нижний колонтитулы
-linktitle: Игнорировать верхний и нижний колонтитулы
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как объединять документы Word, игнорируя верхние и нижние колонтитулы, с помощью Aspose.Words для .NET, из этого пошагового руководства.
-weight: 10
-url: /ru/net/join-and-append-documents/ignore-header-footer/
+"description": "Узнайте, как объединять документы Word, игнорируя верхние и нижние колонтитулы, с помощью Aspose.Words для .NET, из этого пошагового руководства."
+"linktitle": "Игнорировать верхний и нижний колонтитулы"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Игнорировать верхний и нижний колонтитулы"
+"url": "/ru/net/join-and-append-documents/ignore-header-footer/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Игнорировать верхний и нижний колонтитулы
@@ -21,7 +23,7 @@ url: /ru/net/join-and-append-documents/ignore-header-footer/
 
 Прежде чем начать, давайте убедимся, что у нас есть все необходимое:
 
--  Aspose.Words для .NET: Вы можете загрузить его с[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: Вы можете загрузить его с [здесь](https://releases.aspose.com/words/net/).
 - Visual Studio: подойдет любая последняя версия.
 - Базовые знания C#: не волнуйтесь, я проведу вас по коду.
 - Два документа Word: один для присоединения к другому.
@@ -67,7 +69,7 @@ Document srcDocument = new Document(dataDir + "Document source.docx");
 Document dstDocument = new Document(dataDir + "Northwind traders.docx");
 ```
 
-Этот фрагмент кода устанавливает путь к каталогу документов и загружает документы в память.
+Этот фрагмент кода устанавливает путь к каталогу ваших документов и загружает документы в память.
 
 ## Шаг 3: Настройте параметры импорта
 
@@ -79,7 +81,7 @@ Document dstDocument = new Document(dataDir + "Northwind traders.docx");
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreHeaderFooter = true };
 ```
 
- Установив`IgnoreHeaderFooter` к`true`, мы говорим Aspose.Words игнорировать верхние и нижние колонтитулы в процессе слияния.
+Установив `IgnoreHeaderFooter` к `true`, мы говорим Aspose.Words игнорировать верхние и нижние колонтитулы во время процесса слияния.
 
 ## Шаг 4: Объедините документы
 
@@ -109,7 +111,7 @@ dstDocument.Save(dataDir + "JoinAndAppendDocuments.IgnoreHeaderFooter.docx");
 
 И вот оно! Вы успешно объединили два документа Word, игнорируя их верхние и нижние колонтитулы, используя Aspose.Words для .NET. Этот метод удобен для различных задач по управлению документами, где сохранение определенных разделов документа имеет решающее значение.
 
-Работа с Aspose.Words для .NET может значительно оптимизировать ваши рабочие процессы обработки документов. Помните, если вы когда-нибудь застрянете или вам понадобится дополнительная информация, вы всегда можете проверить[документация](https://reference.aspose.com/words/net/).
+Работа с Aspose.Words для .NET может значительно оптимизировать ваши рабочие процессы обработки документов. Помните, если вы когда-нибудь застрянете или вам понадобится дополнительная информация, вы всегда можете проверить [документация](https://reference.aspose.com/words/net/).
 
 ## Часто задаваемые вопросы
 
@@ -119,23 +121,28 @@ dstDocument.Save(dataDir + "JoinAndAppendDocuments.IgnoreHeaderFooter.docx");
 
 ### Можно ли сохранить верхние и нижние колонтитулы, а не игнорировать их?
 
- Абсолютно. Просто установите`IgnoreHeaderFooter` к`false` в`ImportFormatOptions`.
+Абсолютно. Просто установите `IgnoreHeaderFooter` к `false` в `ImportFormatOptions`.
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?
 
- Да, Aspose.Words for .NET — это коммерческий продукт. Вы можете получить[бесплатная пробная версия](https://releases.aspose.com/) или приобрести лицензию[здесь](https://purchase.aspose.com/buy).
+Да, Aspose.Words for .NET — это коммерческий продукт. Вы можете получить [бесплатная пробная версия](https://releases.aspose.com/) или приобрести лицензию [здесь](https://purchase.aspose.com/buy).
 
 ### Можно ли объединить более двух документов с помощью этого метода?
 
- Да, вы можете добавлять несколько документов в цикле, повторяя`AppendDocument` метод для каждого дополнительного документа.
+Да, вы можете добавлять несколько документов в цикле, повторяя `AppendDocument` метод для каждого дополнительного документа.
 
 ### Где я могу найти больше примеров и документации по Aspose.Words для .NET?
 
- Подробную документацию и примеры вы можете найти на сайте[Сайт Aspose](https://reference.aspose.com/words/net/).
+Подробную документацию и примеры вы можете найти на сайте [Сайт Aspose](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

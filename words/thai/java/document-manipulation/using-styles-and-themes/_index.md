@@ -1,14 +1,16 @@
 ---
-title: การใช้สไตล์และธีมใน Aspose.Words สำหรับ Java
-linktitle: การใช้รูปแบบและธีม
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีการปรับปรุงการจัดรูปแบบเอกสารด้วย Aspose.Words สำหรับ Java สำรวจรูปแบบ ธีม และอื่นๆ ในคู่มือที่ครอบคลุมนี้พร้อมตัวอย่างโค้ดต้นฉบับ
-weight: 20
-url: /th/java/document-manipulation/using-styles-and-themes/
+"description": "เรียนรู้วิธีการปรับปรุงการจัดรูปแบบเอกสารด้วย Aspose.Words สำหรับ Java สำรวจรูปแบบ ธีม และอื่นๆ ในคู่มือที่ครอบคลุมนี้พร้อมตัวอย่างโค้ดต้นฉบับ"
+"linktitle": "การใช้รูปแบบและธีม"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การใช้สไตล์และธีมใน Aspose.Words สำหรับ Java"
+"url": "/th/java/document-manipulation/using-styles-and-themes/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การใช้สไตล์และธีมใน Aspose.Words สำหรับ Java
@@ -25,7 +27,7 @@ url: /th/java/document-manipulation/using-styles-and-themes/
 ```java
 Document doc = new Document();
 String styleName = "";
-//รับคอลเลกชันสไตล์จากเอกสาร
+// รับคอลเลกชันสไตล์จากเอกสาร
 StyleCollection styles = doc.getStyles();
 for (Style style : styles)
 {
@@ -46,7 +48,7 @@ for (Style style : styles)
 
 ## การคัดลอกสไตล์
 
- หากต้องการคัดลอกรูปแบบจากเอกสารหนึ่งไปยังอีกเอกสารหนึ่ง คุณสามารถใช้`copyStylesFromTemplate` วิธีการดังแสดงด้านล่างนี้:
+หากต้องการคัดลอกรูปแบบจากเอกสารหนึ่งไปยังอีกเอกสารหนึ่ง คุณสามารถใช้ `copyStylesFromTemplate` วิธีการดังแสดงด้านล่างนี้:
 
 ```java
 @Test
@@ -102,7 +104,7 @@ public void insertStyleSeparator() throws Exception
     paraStyle.getFont().setBold(false);
     paraStyle.getFont().setSize(8.0);
     paraStyle.getFont().setName("Arial");
-    // ผนวกข้อความด้วยรูปแบบ "หัวข้อ 1"
+    // ผนวกข้อความด้วยรูปแบบ "หัวเรื่อง 1"
     builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
     builder.write("Heading 1");
     builder.insertStyleSeparator();
@@ -132,10 +134,15 @@ public void insertStyleSeparator() throws Exception
 
 ### ฉันจะใช้ตัวคั่นสไตล์เพื่อสลับสไตล์ภายในย่อหน้าเดียวกันได้อย่างไร
 
- คุณสามารถแทรกตัวคั่นรูปแบบได้โดยใช้`insertStyleSeparator` วิธีการของ`DocumentBuilder` ระดับ.
+คุณสามารถแทรกตัวคั่นรูปแบบได้โดยใช้ `insertStyleSeparator` วิธีการของ `DocumentBuilder` ระดับ.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

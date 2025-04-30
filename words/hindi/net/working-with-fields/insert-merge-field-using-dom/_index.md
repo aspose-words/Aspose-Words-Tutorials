@@ -1,14 +1,16 @@
 ---
-title: DOM का उपयोग करके मर्ज फ़ील्ड डालें
-linktitle: DOM का उपयोग करके मर्ज फ़ील्ड डालें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस व्यापक, चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में मर्ज फ़ील्ड को सम्मिलित और कॉन्फ़िगर करना सीखें।
-weight: 10
-url: /hi/net/working-with-fields/insert-merge-field-using-dom/
+"description": "इस व्यापक, चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में मर्ज फ़ील्ड को सम्मिलित और कॉन्फ़िगर करना सीखें।"
+"linktitle": "DOM का उपयोग करके मर्ज फ़ील्ड डालें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "DOM का उपयोग करके मर्ज फ़ील्ड डालें"
+"url": "/hi/net/working-with-fields/insert-merge-field-using-dom/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # DOM का उपयोग करके मर्ज फ़ील्ड डालें
@@ -23,8 +25,8 @@ url: /hi/net/working-with-fields/insert-merge-field-using-dom/
 
 1. C# का बुनियादी ज्ञान: आपको C# प्रोग्रामिंग में सहज होना चाहिए।
 2. विजुअल स्टूडियो स्थापित: सुनिश्चित करें कि आपके मशीन पर विजुअल स्टूडियो या कोई अन्य C# IDE स्थापित है।
-3.  Aspose.Words for .NET: Aspose.Words for .NET का नवीनतम संस्करण डाउनलोड करें और इंस्टॉल करें।[विज्ञप्ति](https://releases.aspose.com/words/net/).
-4.  वैध लाइसेंस: यदि आपके पास लाइसेंस नहीं है, तो आप[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) मूल्यांकन हेतु.
+3. Aspose.Words for .NET: Aspose.Words for .NET का नवीनतम संस्करण डाउनलोड करें और इंस्टॉल करें। [विज्ञप्ति](https://releases.aspose.com/words/net/).
+4. वैध लाइसेंस: यदि आपके पास लाइसेंस नहीं है, तो आप [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) मूल्यांकन हेतु.
 
 ## चरण 1: अपना प्रोजेक्ट सेटअप करें
 
@@ -76,7 +78,7 @@ builder.MoveTo(para);
 
 ## चरण 6: मर्ज फ़ील्ड डालें
 
- मर्ज फ़ील्ड डालना सरल है। हम इसका उपयोग करेंगे`InsertField` की विधि`DocumentBuilder` कक्षा।
+मर्ज फ़ील्ड डालना सरल है। हम इसका उपयोग करेंगे `InsertField` की विधि `DocumentBuilder` कक्षा।
 
 ```csharp
 // फ़ील्ड मर्ज फ़ील्ड सम्मिलित करें.
@@ -117,19 +119,24 @@ doc.Save(dataDir + "InsertionChampMergeChamp.docx");
 मर्ज फ़ील्ड दस्तावेज़ में एक प्लेसहोल्डर होता है जिसे डेटा स्रोत, जैसे डेटाबेस या CSV फ़ाइल, से डेटा द्वारा गतिशील रूप से प्रतिस्थापित किया जा सकता है।
 
 ###  क्या मैं Aspose.Words का निःशुल्क उपयोग कर सकता हूँ?
- Aspose.Words एक निःशुल्क परीक्षण प्रदान करता है जिसे आप डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/)दीर्घकालिक उपयोग के लिए, आपको लाइसेंस खरीदना होगा।
+Aspose.Words एक निःशुल्क परीक्षण प्रदान करता है जिसे आप डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/)दीर्घकालिक उपयोग के लिए, आपको लाइसेंस खरीदना होगा।
 
 ###  मैं Aspose.Words के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?
- आप Aspose वेबसाइट से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+आप Aspose वेबसाइट से अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words .NET के कौन से संस्करण समर्थित हैं?
 Aspose.Words .NET के कई संस्करणों का समर्थन करता है, जिसमें .NET Framework, .NET Core और .NET Standard शामिल हैं।
 
 ###  मैं Aspose.Words के लिए API दस्तावेज़ कहां पा सकता हूं?
- API दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/words/net/).
+API दस्तावेज़ उपलब्ध है [यहाँ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

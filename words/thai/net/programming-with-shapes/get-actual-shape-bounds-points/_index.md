@@ -1,14 +1,16 @@
 ---
-title: รับจุดขอบเขตรูปร่างที่แท้จริง
-linktitle: รับจุดขอบเขตรูปร่างที่แท้จริง
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: ค้นพบวิธีการรับจุดขอบเขตรูปร่างจริงในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET เรียนรู้การจัดการรูปร่างที่แม่นยำด้วยคู่มือโดยละเอียดนี้
-weight: 10
-url: /th/net/programming-with-shapes/get-actual-shape-bounds-points/
+"description": "ค้นพบวิธีการรับจุดขอบเขตรูปร่างจริงในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET เรียนรู้การจัดการรูปร่างที่แม่นยำด้วยคู่มือโดยละเอียดนี้"
+"linktitle": "รับจุดขอบเขตรูปร่างที่แท้จริง"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "รับจุดขอบเขตรูปร่างที่แท้จริง"
+"url": "/th/net/programming-with-shapes/get-actual-shape-bounds-points/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับจุดขอบเขตรูปร่างที่แท้จริง
@@ -21,7 +23,7 @@ url: /th/net/programming-with-shapes/get-actual-shape-bounds-points/
 
 ก่อนที่เราจะเข้าสู่รายละเอียด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: คุณควรมีการตั้งค่าสภาพแวดล้อมการพัฒนา เช่น Visual Studio
 3. ความรู้พื้นฐานเกี่ยวกับ C#: คู่มือนี้ถือว่าคุณมีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C#
 
@@ -44,7 +46,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- ที่นี่เราสร้างอินสแตนซ์ของ`Document` ชั้นเรียนและก`DocumentBuilder` เพื่อช่วยเราแทรกเนื้อหาเข้าไปในเอกสาร
+ที่นี่เราสร้างอินสแตนซ์ของ `Document` ชั้นเรียนและก `DocumentBuilder` เพื่อช่วยเราแทรกเนื้อหาเข้าไปในเอกสาร
 
 ## ขั้นตอนที่ 2: แทรกรูปร่างภาพ
 
@@ -54,7 +56,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertImage("YOUR DOCUMENT DIRECTORY/Transparent background logo.png");
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY/Transparent background logo.png"` ด้วยเส้นทางไปยังไฟล์ภาพของคุณ บรรทัดนี้จะแทรกภาพลงในเอกสารเป็นรูปร่าง
+แทนที่ `"YOUR DOCUMENT DIRECTORY/Transparent background logo.png"` ด้วยเส้นทางไปยังไฟล์ภาพของคุณ บรรทัดนี้จะแทรกภาพลงในเอกสารเป็นรูปร่าง
 
 ## ขั้นตอนที่ 3: ปลดล็อคอัตราส่วนภาพ
 
@@ -75,7 +77,7 @@ Console.Write("\nGets the actual bounds of the shape in points: ");
 Console.WriteLine(shape.GetShapeRenderer().BoundsInPoints);
 ```
 
- การ`GetShapeRenderer` วิธีการนี้ให้ตัวเรนเดอร์สำหรับรูปร่าง และ`BoundsInPoints` ทำให้เราทราบขนาดที่แน่นอน
+การ `GetShapeRenderer` วิธีการนี้ให้ตัวเรนเดอร์สำหรับรูปร่าง และ `BoundsInPoints` ทำให้เราทราบขนาดที่แน่นอน
 
 ## บทสรุป
 
@@ -93,13 +95,18 @@ Console.WriteLine(shape.GetShapeRenderer().BoundsInPoints);
 ตรวจสอบให้แน่ใจว่าเส้นทางไฟล์ถูกต้องและมีรูปภาพอยู่ในตำแหน่งนั้น ตรวจสอบซ้ำอีกครั้งว่ามีการพิมพ์ผิดหรือการอ้างอิงไดเรกทอรีไม่ถูกต้องหรือไม่
 
 ### ฉันจะรักษาอัตราส่วนภาพของรูปร่างของฉันได้อย่างไร
-ชุด`shape.AspectRatioLocked = true;`เพื่อรักษาสัดส่วนเดิมเมื่อทำการปรับขนาด
+ชุด `shape.AspectRatioLocked = true;` เพื่อรักษาสัดส่วนเดิมเมื่อทำการปรับขนาด
 
 ### สามารถได้ขอบเขตเป็นหน่วยอื่นนอกจากจุดได้หรือไม่?
 ใช่ คุณสามารถแปลงคะแนนเป็นหน่วยอื่น เช่น นิ้ว หรือ เซนติเมตร โดยใช้ปัจจัยการแปลงที่เหมาะสม
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

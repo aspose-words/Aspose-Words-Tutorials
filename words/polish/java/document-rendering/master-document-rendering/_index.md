@@ -1,14 +1,16 @@
 ---
-title: Renderowanie dokumentu głównego
-linktitle: Renderowanie dokumentu głównego
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: 
-weight: 10
-url: /pl/java/document-rendering/master-document-rendering/
+"description": null
+"linktitle": "Renderowanie dokumentu głównego"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Renderowanie dokumentu głównego"
+"url": "/pl/java/document-rendering/master-document-rendering/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Renderowanie dokumentu głównego
@@ -28,11 +30,11 @@ Zanim zagłębimy się w renderowanie dokumentów, zacznijmy od Aspose.Words dla
 
 ### Instalacja i konfiguracja
 
-Aby użyć Aspose.Words dla Java, musisz dołączyć plik JAR Aspose.Words do swojego projektu Java. Możesz pobrać plik JAR z Aspose Releases(https://releases.aspose.com/words/java/) i dodaj go do ścieżki klas swojego projektu.
+Aby użyć Aspose.Words dla Java, musisz dołączyć plik JAR Aspose.Words do swojego projektu Java. Możesz pobrać plik JAR z Aspose Releases (https://releases.aspose.com/words/java/) i dodać go do ścieżki klas swojego projektu.
 
 ### Licencjonowanie Aspose.Words dla Java
 
- Aby korzystać z Aspose.Words for Java w środowisku produkcyjnym, musisz nabyć ważną licencję. Bez licencji biblioteka będzie działać w trybie ewaluacyjnym, z pewnymi ograniczeniami. Możesz uzyskać[licencja](https://purchase.aspose.com/pricing) i zastosować ją, aby w pełni wykorzystać potencjał biblioteki.
+Aby korzystać z Aspose.Words for Java w środowisku produkcyjnym, musisz nabyć ważną licencję. Bez licencji biblioteka będzie działać w trybie ewaluacyjnym, z pewnymi ograniczeniami. Możesz uzyskać [licencja](https://purchase.aspose.com/pricing) i zastosować ją, aby w pełni wykorzystać potencjał biblioteki.
 
 ## Ładowanie i manipulowanie dokumentami
 
@@ -111,7 +113,7 @@ pageSetup.setFooterDistance(10);
 
 ### Nagłówki i stopki
 
-Nagłówki i stopki zapewniają spójne informacje na stronach dokumentu. Możesz dodać inną treść do nagłówków i stopek podstawowych, pierwszej strony oraz parzystych/nieparzystych.
+Nagłówki i stopki zapewniają spójne informacje na wszystkich stronach dokumentu. Możesz dodać inną treść do nagłówków i stopek podstawowych, pierwszej strony oraz parzystych/nieparzystych.
 
 ```java
 Document doc = new Document();
@@ -231,16 +233,21 @@ Aspose.Words for Java obsługuje wersję Java 1.6 i nowsze.
 
 Tak, Aspose.Words umożliwia wydajne renderowanie określonych stron lub zakresów stron.
 
-### Jak zabezpieczyć hasłem wyrenderowany dokument?
+### Jak zabezpieczyć wyrenderowany dokument hasłem?
 
 Aspose.Words umożliwia zastosowanie ochrony hasłem do renderowanych dokumentów w celu zabezpieczenia ich zawartości.
 
 ### Czy Aspose.Words może renderować dokumenty w wielu językach?
 
 Tak, Aspose.Words obsługuje renderowanie dokumentów w różnych językach i bezproblemowo obsługuje tekst z różnymi kodowaniami znaków.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

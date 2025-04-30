@@ -1,14 +1,16 @@
 ---
-title: Wstaw pole za pomocą kreatora pól
-linktitle: Wstaw pole za pomocą kreatora pól
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawiać pola dynamiczne do dokumentów Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów.
-weight: 10
-url: /pl/net/working-with-fields/insert-field-using-field-builder/
+"description": "Dowiedz się, jak wstawiać pola dynamiczne do dokumentów Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów."
+"linktitle": "Wstaw pole za pomocą kreatora pól"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw pole za pomocą kreatora pól"
+"url": "/pl/net/working-with-fields/insert-field-using-field-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw pole za pomocą kreatora pól
@@ -21,7 +23,7 @@ Cześć! Czy kiedykolwiek zastanawiałeś się, jak programowo wstawiać pola dy
 
 Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1. Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Jeśli jeszcze tego nie zrobiłeś, możesz go pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Jeśli jeszcze tego nie zrobiłeś, możesz go pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: odpowiednie środowisko programistyczne, np. Visual Studio.
 3. Podstawowa znajomość języka C#: Przydatna będzie znajomość podstaw języka C# i .NET.
 
@@ -38,7 +40,7 @@ Dobrze, rozłóżmy proces na czynniki pierwsze. Pod koniec tego będziesz profe
 
 ## Krok 1: Skonfiguruj swój projekt
 
-Zanim przejdziemy do kodowania, upewnij się, że Twój projekt jest poprawnie skonfigurowany. Utwórz nowy projekt C# w swoim środowisku programistycznym i zainstaluj pakiet Aspose.Words za pomocą NuGet Package Manager.
+Zanim przejdziemy do kodowania, upewnij się, że projekt jest poprawnie skonfigurowany. Utwórz nowy projekt C# w swoim środowisku programistycznym i zainstaluj pakiet Aspose.Words za pomocą NuGet Package Manager.
 
 ```bash
 Install-Package Aspose.Words
@@ -61,7 +63,7 @@ Document doc = new Document();
 FieldBuilder jest tutaj kluczowym graczem. Pozwala nam na dynamiczne konstruowanie pól.
 
 ```csharp
-//Konstrukcja pola IF przy użyciu FieldBuilder.
+// Konstrukcja pola IF przy użyciu FieldBuilder.
 FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldIf)
     .AddArgument("left expression")
     .AddArgument("=")
@@ -95,7 +97,7 @@ field.Update();
 
 ## Krok 6: Zapisz dokument
 
-Na koniec zapiszmy dokument i sprawdźmy wyniki.
+Na koniec zapiszemy dokument i sprawdzimy wyniki.
 
 ```csharp
 doc.Save(dataDir + "InsertFieldWithFieldBuilder.docx");
@@ -113,19 +115,24 @@ Gratulacje! Właśnie nauczyłeś się, jak dynamicznie wstawiać pola do dokume
 Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programistom tworzenie, edytowanie i konwertowanie dokumentów Word programowo przy użyciu języka C#.
 
 ### Czy mogę używać Aspose.Words za darmo?
- Aspose.Words oferuje bezpłatną wersję próbną, którą możesz pobrać[Tutaj](https://releases.aspose.com/) . Do długotrwałego użytkowania należy zakupić licencję[Tutaj](https://purchase.aspose.com/buy).
+Aspose.Words oferuje bezpłatną wersję próbną, którą możesz pobrać [Tutaj](https://releases.aspose.com/). Do długotrwałego użytkowania należy zakupić licencję [Tutaj](https://purchase.aspose.com/buy).
 
 ### Jakie typy pól mogę wstawiać za pomocą FieldBuilder?
- FieldBuilder obsługuje szeroki zakres pól, w tym IF, MERGEFIELD i inne. Szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/words/net/).
+FieldBuilder obsługuje szeroki zakres pól, w tym IF, MERGEFIELD i inne. Szczegółową dokumentację można znaleźć [Tutaj](https://reference.aspose.com/words/net/).
 
 ### Jak zaktualizować pole po jego wstawieniu?
- Możesz zaktualizować pole za pomocą`Update` metodą, jak pokazano w samouczku.
+Możesz zaktualizować pole za pomocą `Update` metodą, jak pokazano w samouczku.
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Words?
- W razie pytań lub chęci uzyskania pomocy odwiedź forum pomocy technicznej Aspose.Words[Tutaj](https://forum.aspose.com/c/words/8).
+W razie pytań lub chęci uzyskania pomocy odwiedź forum pomocy technicznej Aspose.Words [Tutaj](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

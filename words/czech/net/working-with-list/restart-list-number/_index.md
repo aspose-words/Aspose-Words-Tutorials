@@ -1,33 +1,35 @@
 ---
-title: Restartovat číslo seznamu
-linktitle: Restartovat číslo seznamu
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Přečtěte si, jak restartovat čísla seznamů v dokumentech aplikace Word pomocí Aspose.Words for .NET. Tento podrobný průvodce o 2000 slovech pokrývá vše, co potřebujete vědět, od nastavení až po pokročilé přizpůsobení.
-weight: 10
-url: /cs/net/working-with-list/restart-list-number/
+"description": "Naučte se, jak restartovat číslování seznamů v dokumentech Word pomocí Aspose.Words pro .NET. Tato podrobná příručka o délce 2000 slov pokrývá vše, co potřebujete vědět, od nastavení až po pokročilé přizpůsobení."
+"linktitle": "Číslo seznamu pro restart"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Číslo seznamu pro restart"
+"url": "/cs/net/working-with-list/restart-list-number/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Restartovat číslo seznamu
+# Číslo seznamu pro restart
 
 ## Zavedení
 
-Chcete zvládnout umění manipulace se seznamy v dokumentech aplikace Word pomocí Aspose.Words pro .NET? Tak to jste na správném místě! V tomto tutoriálu se ponoříme hluboko do čísel restartování seznamů, což je šikovná funkce, která posune vaše dovednosti v automatizaci dokumentů na další úroveň. Připoutejte se a můžeme začít!
+Chcete zvládnout umění manipulace se seznamy ve vašich dokumentech Word pomocí Aspose.Words pro .NET? Jste na správném místě! V tomto tutoriálu se ponoříme do hlubokého restartování čísel seznamů, což je šikovná funkce, která posune vaše dovednosti v automatizaci dokumentů na další úroveň. Připoutejte se a pojďme na to!
 
 ## Předpoklady
 
-Než se pustíme do kódu, ujistěte se, že máte vše, co potřebujete:
+Než se pustíme do kódu, ujistěme se, že máte vše potřebné:
 
-1.  Aspose.Words for .NET: Musíte mít nainstalovanou aplikaci Aspose.Words for .NET. Pokud jste jej ještě nenainstalovali, můžete[stáhněte si to zde](https://releases.aspose.com/words/net/).
+1. Aspose.Words pro .NET: Musíte mít nainstalovaný Aspose.Words pro .NET. Pokud jste ho ještě nenainstalovali, můžete [stáhněte si to zde](https://releases.aspose.com/words/net/).
 2. Vývojové prostředí: Ujistěte se, že máte vhodné vývojové prostředí, jako je Visual Studio.
-3. Základní znalost C#: Základní znalost C# vám pomůže postupovat společně s výukovým programem.
+3. Základní znalost jazyka C#: Základní znalost jazyka C# vám pomůže s plněním úkolů v tutoriálu.
 
 ## Importovat jmenné prostory
 
-Nejprve importujme potřebné jmenné prostory. Ty jsou klíčové pro přístup k funkcím Aspose.Words.
+Nejdříve si importujme potřebné jmenné prostory. Ty jsou klíčové pro přístup k funkcím Aspose.Words.
 
 ```csharp
 using Aspose.Words;
@@ -35,11 +37,11 @@ using Aspose.Words.Lists;
 using System.Drawing;
 ```
 
-Nyní si tento proces rozdělíme do snadno pochopitelných kroků. Probereme vše od vytvoření seznamu až po restart jeho číslování.
+Nyní si celý proces rozdělme na snadno sledovatelné kroky. Probereme vše od vytvoření seznamu až po jeho restartování.
 
-## Krok 1: Nastavte svůj dokument a tvůrce
+## Krok 1: Nastavení dokumentu a nástroje pro tvorbu
 
-Než budete moci začít manipulovat se seznamy, potřebujete dokument a DocumentBuilder. DocumentBuilder je váš oblíbený nástroj pro přidávání obsahu do vašeho dokumentu.
+Než začnete manipulovat se seznamy, potřebujete dokument a nástroj DocumentBuilder. DocumentBuilder je váš hlavní nástroj pro přidávání obsahu do dokumentu.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -47,9 +49,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Krok 2: Vytvořte a přizpůsobte svůj první seznam
+## Krok 2: Vytvořte a upravte svůj první seznam
 
-Dále vytvoříme seznam na základě šablony a přizpůsobíme jeho vzhled. V tomto příkladu používáme arabský formát čísel se závorkami.
+Dále vytvoříme seznam založený na šabloně a upravíme jeho vzhled. V tomto příkladu používáme formát arabských čísel se závorkami.
 
 ```csharp
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
@@ -57,11 +59,11 @@ list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 ```
 
-Zde jsme nastavili barvu písma na červenou a text zarovnali doprava.
+Zde jsme nastavili barvu písma na červenou a zarovnali text doprava.
 
 ## Krok 3: Přidejte položky do svého prvního seznamu
 
- Když je váš seznam připraven, je čas přidat nějaké položky. The DocumentBuilder's`ListFormat.List` vlastnost pomáhá při aplikaci formátu seznamu na text.
+Jakmile máte seznam připravený, je čas přidat další položky. Nástroj DocumentBuilder `ListFormat.List` Vlastnost pomáhá s použitím formátu seznamu na text.
 
 ```csharp
 builder.Writeln("List 1 starts below:");
@@ -71,9 +73,9 @@ builder.Writeln("Item 2");
 builder.ListFormat.RemoveNumbers();
 ```
 
-## Krok 4: Restartujte číslování seznamu
+## Krok 4: Obnovte číslování seznamu
 
-Chcete-li znovu použít seznam a restartovat jeho číslování, musíte vytvořit kopii původního seznamu. To vám umožní upravit nový seznam nezávisle.
+Chcete-li seznam znovu použít a restartovat jeho číslování, je třeba vytvořit kopii původního seznamu. To vám umožní nový seznam nezávisle upravovat.
 
 ```csharp
 List list2 = doc.Lists.AddCopy(list1);
@@ -82,9 +84,9 @@ list2.ListLevels[0].StartAt = 10;
 
 V tomto příkladu začíná nový seznam číslem 10.
 
-## Krok 5: Přidejte položky do nového seznamu
+## Krok 5: Přidání položek do nového seznamu
 
-Stejně jako předtím přidejte položky do nového seznamu. To ukazuje, že se seznam restartuje na zadaném čísle.
+Stejně jako předtím přidejte položky do nového seznamu. Tím se demonstruje restartování seznamu od zadaného čísla.
 
 ```csharp
 builder.Writeln("List 2 starts below:");
@@ -96,7 +98,7 @@ builder.ListFormat.RemoveNumbers();
 
 ## Krok 6: Uložte dokument
 
-Nakonec uložte dokument do určeného adresáře.
+Nakonec uložte dokument do vámi určeného adresáře.
 
 ```csharp
 builder.Document.Save(dataDir + "WorkingWithList.RestartListNumber.docx");
@@ -104,35 +106,40 @@ builder.Document.Save(dataDir + "WorkingWithList.RestartListNumber.docx");
 
 ## Závěr
 
-Restartování čísel seznamů v dokumentech aplikace Word pomocí Aspose.Words for .NET je přímočaré a neuvěřitelně užitečné. Ať už generujete sestavy, vytváříte strukturované dokumenty nebo jen potřebujete lepší kontrolu nad svými seznamy, tato technika vás pokryje.
+Restartování číslování seznamů v dokumentech Wordu pomocí Aspose.Words pro .NET je jednoduché a neuvěřitelně užitečné. Ať už generujete sestavy, vytváříte strukturované dokumenty nebo jen potřebujete lepší kontrolu nad svými seznamy, tato technika vám pomůže.
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu použít jiné šablony seznamů než NumberArabicParenthesis?
 
-Absolutně! Aspose.Words nabízí různé šablony seznamů, jako jsou odrážky, písmena, římské číslice a další. Můžete si vybrat ten, který nejlépe vyhovuje vašim potřebám.
+Rozhodně! Aspose.Words nabízí různé šablony seznamů, jako jsou odrážky, písmena, římské číslice a další. Můžete si vybrat tu, která nejlépe vyhovuje vašim potřebám.
 
 ### Jak změním úroveň seznamu?
 
- Úroveň seznamu můžete změnit úpravou`ListLevels` vlastnictví. Například,`list1.ListLevels[1]` odkazuje na druhou úroveň seznamu.
+Úroveň seznamu můžete změnit úpravou `ListLevels` majetek. Například `list1.ListLevels[1]` by se vztahovalo na druhou úroveň seznamu.
 
-### Mohu restartovat číslování na libovolném čísle?
+### Mohu číslování znovu spustit od libovolného čísla?
 
- Ano, počáteční číslo můžete nastavit na libovolnou celočíselnou hodnotu pomocí`StartAt` vlastnost úrovně seznamu.
+Ano, počáteční číslo můžete nastavit na libovolnou celočíselnou hodnotu pomocí `StartAt` vlastnost úrovně seznamu.
 
 ### Je možné mít různé formátování pro různé úrovně seznamu?
 
-Opravdu! Každá úroveň seznamu může mít vlastní nastavení formátování, jako je písmo, zarovnání a styl číslování.
+Vskutku! Každá úroveň seznamu může mít svá vlastní nastavení formátování, jako je písmo, zarovnání a styl číslování.
 
-### Co když chci pokračovat v číslování z předchozího seznamu místo restartování?
+### Co když chci pokračovat v číslování od předchozího seznamu, místo abych začal znovu?
 
-Pokud chcete pokračovat v číslování, nemusíte vytvářet kopii seznamu. Jednoduše pokračujte v přidávání položek do původního seznamu.
+Pokud chcete v číslování pokračovat, nemusíte vytvářet kopii seznamu. Jednoduše pokračujte v přidávání položek do původního seznamu.
+
+
 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dipnot ve Sonnot Pozisyonunu Ayarla
-linktitle: Dipnot ve Son Not Pozisyonunu Ayarla
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerinde dipnot ve sonnot konumlarının nasıl ayarlanacağını öğrenin.
-weight: 10
-url: /tr/net/working-with-footnote-and-endnote/set-footnote-and-end-note-position/
+"description": "Bu ayrıntılı adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerinde dipnot ve sonnot konumlarının nasıl ayarlanacağını öğrenin."
+"linktitle": "Dipnot ve Son Not Pozisyonunu Ayarla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Dipnot ve Sonnot Pozisyonunu Ayarla"
+"url": "/tr/net/working-with-footnote-and-endnote/set-footnote-and-end-note-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dipnot ve Sonnot Pozisyonunu Ayarla
@@ -21,9 +23,9 @@ Word belgeleriyle çalışıyorsanız ve dipnotları ve son notları etkili bir 
 
 Eğitime başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
--  Aspose.Words for .NET Kütüphanesi: Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET Kütüphanesi: Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - Visual Studio: Güncel herhangi bir sürüm sorunsuz çalışacaktır.
-- Temel C# Bilgisi: Temelleri anlamak, konuyu daha kolay takip etmenize yardımcı olacaktır.
+- C# Temel Bilgisi: Temelleri anlamak, konuyu daha kolay takip etmenize yardımcı olacaktır.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -43,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
-Bu kodda şunu değiştirin:`"YOUR DOCUMENT DIRECTORY"` Belgenizin bulunduğu gerçek yol ile.
+Bu kodda şunu değiştirin: `"YOUR DOCUMENT DIRECTORY"` Belgenizin bulunduğu gerçek yol ile.
 
 ## Adım 2: Dipnot Pozisyonunu Ayarlayın
 
@@ -53,7 +55,7 @@ Sonra, dipnotların konumunu ayarlayacaksınız. Aspose.Words for .NET, dipnotla
 doc.FootnoteOptions.Position = FootnotePosition.BeneathText;
 ```
 
- Burada, dipnotların metnin altında görünmesini ayarladık. Eğer sayfanın altında olmasını tercih ediyorsanız, şunu kullanın:`FootnotePosition.BottomOfPage`.
+Burada, dipnotların metnin altında görünmesini ayarladık. Eğer onları sayfanın altında tercih ediyorsanız, şunu kullanın: `FootnotePosition.BottomOfPage`.
 
 ## Adım 3: Son Not Konumunu Ayarlayın
 
@@ -63,7 +65,7 @@ Benzer şekilde, dipnotların konumunu ayarlayabilirsiniz. Dipnotlar bölümün 
 doc.EndnoteOptions.Position = EndnotePosition.EndOfSection;
 ```
 
- Bu örnekte, dipnotlar her bölümün sonuna yerleştirilir. Bunları belgenin sonuna yerleştirmek için şunu kullanın:`EndnotePosition.EndOfDocument`.
+Bu örnekte, dipnotlar her bölümün sonuna yerleştirilir. Bunları belgenin sonuna yerleştirmek için şunu kullanın: `EndnotePosition.EndOfDocument`.
 
 ## Adım 4: Belgeyi Kaydedin
 
@@ -81,7 +83,7 @@ Aspose.Words for .NET kullanarak Word belgelerinde dipnot ve sonnot konumların�
 
 ## SSS
 
-### Bireysel dipnotlar veya sonnotlar için farklı konumlar belirleyebilir miyim?
+### Bireysel dipnotlar veya sonnotlar için farklı konumlar ayarlayabilir miyim?
 
 Hayır, Aspose.Words for .NET bir belgedeki tüm dipnotların ve son notların konumunu aynı şekilde ayarlar.
 
@@ -95,14 +97,19 @@ Aspose.Words for .NET, .NET uygulamaları için tasarlanmıştır, ancak C#, VB.
 
 ### Aspose.Words for .NET için ücretsiz deneme sürümü mevcut mu?
 
- Evet, ücretsiz deneme alabilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz deneme alabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Words for .NET için daha detaylı dokümanları nerede bulabilirim?
 
- Ayrıntılı dokümantasyon mevcuttur[Burada](https://reference.aspose.com/words/net/).
+Ayrıntılı dokümantasyon mevcuttur [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

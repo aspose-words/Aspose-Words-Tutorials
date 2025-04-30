@@ -1,14 +1,16 @@
 ---
-title: Współpraca i przegląd dokumentów
-linktitle: Współpraca i przegląd dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Odblokuj wydajną współpracę i przegląd dokumentów dzięki Aspose.Words dla Java. Dowiedz się, jak śledzić zmiany, udostępniać dokumenty i usprawniać przepływ pracy.
-weight: 14
-url: /pl/java/document-revision/document-collaboration-review/
+"description": "Odblokuj wydajną współpracę i przegląd dokumentów dzięki Aspose.Words dla Java. Dowiedz się, jak śledzić zmiany, udostępniać dokumenty i usprawniać przepływ pracy."
+"linktitle": "Współpraca i przegląd dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Współpraca i przegląd dokumentów"
+"url": "/pl/java/document-revision/document-collaboration-review/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Współpraca i przegląd dokumentów
@@ -22,7 +24,7 @@ Aspose.Words for Java to potężna i wszechstronna biblioteka Java, która umoż
 
 Zanim zagłębimy się w współpracę i przegląd dokumentów, skonfigurujmy najpierw Aspose.Words dla Java w Twoim projekcie. Wykonaj następujące proste kroki:
 
-1.  Pobierz Aspose.Words dla Java: Bibliotekę możesz pobrać ze strony[Tutaj](https://releases.aspose.com/words/java/).
+1. Pobierz Aspose.Words dla Java: Bibliotekę możesz pobrać ze strony [Tutaj](https://releases.aspose.com/words/java/).
 
 2. Dodaj Aspose.Words do swojego projektu: Dodaj pobrany plik JAR Aspose.Words do swojego projektu Java.
 
@@ -72,11 +74,11 @@ Współpraca nad dokumentami i ich przegląd to kluczowe aspekty nowoczesnego za
 
 ### Jak zainstalować Aspose.Words dla Java?
 
- Możesz zainstalować Aspose.Words dla Java, pobierając bibliotekę ze strony[Tutaj](https://releases.aspose.com/words/java/) i dodanie pliku JAR do projektu Java.
+Możesz zainstalować Aspose.Words dla Java, pobierając bibliotekę ze strony [Tutaj](https://releases.aspose.com/words/java/) i dodanie pliku JAR do projektu Java.
 
 ### Czy mogę śledzić zmiany w dokumentach Word za pomocą Aspose.Words dla Java?
 
- Tak, Aspose.Words for Java pozwala śledzić zmiany w dokumentach Word. Możesz użyć`startTrackRevisions` metoda umożliwiająca śledzenie zmian.
+Tak, Aspose.Words for Java pozwala śledzić zmiany w dokumentach Word. Możesz użyć `startTrackRevisions` metoda umożliwiająca śledzenie zmian.
 
 ### Jak mogę sprawdzić zmiany wprowadzone w dokumencie?
 
@@ -88,10 +90,15 @@ Tak, Aspose.Words for Java to doskonały wybór do wspólnego zarządzania dokum
 
 ### Gdzie mogę znaleźć więcej informacji i dokumentację dotyczącą Aspose.Words dla Java?
 
- Pełną dokumentację Aspose.Words dla języka Java można znaleźć pod adresem[Tutaj](https://reference.aspose.com/words/java/).
+Pełną dokumentację Aspose.Words dla języka Java można znaleźć pod adresem [Tutaj](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

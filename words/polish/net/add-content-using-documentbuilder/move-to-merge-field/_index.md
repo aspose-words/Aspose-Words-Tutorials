@@ -1,14 +1,16 @@
 ---
-title: Przenieś do pola scalania w dokumencie Word
-linktitle: Przenieś do pola scalania w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak przejść do pola scalania w dokumencie Word za pomocą Aspose.Words dla .NET dzięki naszemu kompleksowemu przewodnikowi krok po kroku. Idealne dla programistów .NET.
-weight: 10
-url: /pl/net/add-content-using-documentbuilder/move-to-merge-field/
+"description": "Dowiedz się, jak przejść do pola scalania w dokumencie Word za pomocą Aspose.Words dla .NET dzięki naszemu kompleksowemu przewodnikowi krok po kroku. Idealne dla programistów .NET."
+"linktitle": "Przenieś do pola scalania w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przenieś do pola scalania w dokumencie Word"
+"url": "/pl/net/add-content-using-documentbuilder/move-to-merge-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przenieś do pola scalania w dokumencie Word
@@ -21,8 +23,8 @@ Cześć! Czy zdarzyło Ci się kiedyś być zagrzebanym w dokumencie Worda, pró
 
 Zanim przejdziemy do konkretów, uporządkujmy sprawy. Oto, czego potrzebujesz, aby zacząć:
 
--  Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. Jeśli nie, możesz je pobrać[Tutaj](https://visualstudio.microsoft.com/).
--  Aspose.Words dla .NET: Potrzebujesz biblioteki Aspose.Words. Możesz ją pobrać z[ten link](https://releases.aspose.com/words/net/).
+- Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. Jeśli nie, możesz je pobrać [Tutaj](https://visualstudio.microsoft.com/).
+- Aspose.Words dla .NET: Potrzebujesz biblioteki Aspose.Words. Możesz ją pobrać z [ten link](https://releases.aspose.com/words/net/).
 - .NET Framework: Upewnij się, że masz zainstalowany .NET Framework.
 
 ## Importuj przestrzenie nazw
@@ -45,7 +47,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- W tym kroku inicjujemy nowy dokument i`DocumentBuilder` obiekt.`DocumentBuilder` jest narzędziem do tworzenia dokumentu.
+W tym kroku inicjujemy nowy dokument i `DocumentBuilder` obiekt. `DocumentBuilder` jest narzędziem do tworzenia dokumentu.
 
 ## Krok 2: Wstaw pole scalania
 
@@ -66,7 +68,7 @@ Teraz przesuńmy kursor na koniec dokumentu. To tak, jakbyś umieścił długopi
 builder.MoveToDocumentEnd();
 ```
 
- To polecenie przesuwa`DocumentBuilder` kursor na koniec dokumentu, przygotowując nas do kolejnych kroków.
+To polecenie przesuwa `DocumentBuilder` kursor na koniec dokumentu, przygotowując nas do kolejnych kroków.
 
 ## Krok 4: Przejdź do pola scalania
 
@@ -115,19 +117,24 @@ I masz to! Przejście do pola scalania w dokumencie Word przy użyciu Aspose.Wor
 Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programistom tworzenie, modyfikowanie i konwertowanie dokumentów Word programowo przy użyciu środowiska .NET.
 
 ### Jak zainstalować Aspose.Words dla .NET?
- Możesz pobrać i zainstalować Aspose.Words dla .NET z[Tutaj](https://releases.aspose.com/words/net/). Postępuj zgodnie z instrukcjami instalacji podanymi na stronie internetowej.
+Możesz pobrać i zainstalować Aspose.Words dla .NET z [Tutaj](https://releases.aspose.com/words/net/). Postępuj zgodnie z instrukcjami instalacji podanymi na stronie internetowej.
 
 ### Czy mogę używać Aspose.Words dla .NET z .NET Core?
- Tak, Aspose.Words dla .NET jest kompatybilny z .NET Core. Więcej szczegółów znajdziesz w[dokumentacja](https://reference.aspose.com/words/net/).
+Tak, Aspose.Words dla .NET jest kompatybilny z .NET Core. Więcej szczegółów znajdziesz w [dokumentacja](https://reference.aspose.com/words/net/).
 
 ### Jak uzyskać tymczasową licencję na Aspose.Words?
- Możesz uzyskać tymczasową licencję od[ten link](https://purchase.aspose.com/temporary-license/).
+Możesz uzyskać tymczasową licencję od [ten link](https://purchase.aspose.com/temporary-license/).
 
 ### Gdzie mogę znaleźć więcej przykładów i pomoc dotyczącą Aspose.Words dla .NET?
- Więcej przykładów i wsparcia znajdziesz na stronie[Aspose.Words dla forum .NET](https://forum.aspose.com/c/words/8).
+Więcej przykładów i wsparcia znajdziesz na stronie [Aspose.Words dla forum .NET](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Giảm kích thước tệp PDF bằng cách không nhúng phông chữ cốt lõi
-linktitle: Giảm kích thước tệp PDF bằng cách không nhúng phông chữ cốt lõi
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách giảm kích thước tệp PDF bằng cách không nhúng phông chữ cốt lõi bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tối ưu hóa tệp PDF của bạn.
-weight: 10
-url: /vi/net/programming-with-pdfsaveoptions/avoid-embedding-core-fonts/
+"description": "Tìm hiểu cách giảm kích thước tệp PDF bằng cách không nhúng phông chữ cốt lõi bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tối ưu hóa tệp PDF của bạn."
+"linktitle": "Giảm kích thước tệp PDF bằng cách không nhúng phông chữ cốt lõi"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Giảm kích thước tệp PDF bằng cách không nhúng phông chữ cốt lõi"
+"url": "/vi/net/programming-with-pdfsaveoptions/avoid-embedding-core-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Giảm kích thước tệp PDF bằng cách không nhúng phông chữ cốt lõi
@@ -21,7 +23,7 @@ Bạn có bao giờ thấy mình đang gãi đầu, tự hỏi tại sao các t�
 
 Trước khi bắt đầu hành trình thú vị này, hãy đảm bảo rằng bạn đã có mọi thứ mình cần. Sau đây là danh sách kiểm tra nhanh:
 
--  Aspose.Words for .NET: Đảm bảo bạn đã cài đặt Aspose.Words for .NET. Nếu bạn chưa có, bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Đảm bảo bạn đã cài đặt Aspose.Words for .NET. Nếu bạn chưa có, bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Bạn sẽ cần một môi trường phát triển như Visual Studio.
 - Tài liệu Word: Chúng tôi sẽ sử dụng tài liệu Word (ví dụ: "Rendering.docx") cho hướng dẫn này.
 - Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# sẽ giúp bạn theo dõi.
@@ -40,14 +42,14 @@ using Aspose.Words.Saving;
 
 ## Bước 1: Khởi tạo thư mục tài liệu của bạn
 
-Trước khi bắt đầu thao tác tài liệu, chúng ta cần chỉ định thư mục lưu trữ tài liệu. Điều này rất cần thiết để truy cập các tệp.
+Trước khi bắt đầu thao tác với tài liệu, chúng ta cần chỉ định thư mục lưu trữ tài liệu. Điều này rất cần thiết để truy cập các tệp.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi lưu trữ tài liệu Word của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi lưu trữ tài liệu Word của bạn.
 
 ## Bước 2: Tải tài liệu Word
 
@@ -70,7 +72,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Cài đặt`UseCoreFonts` ĐẾN`true` đảm bảo rằng các phông chữ cốt lõi như Arial và Times New Roman không được nhúng vào PDF, giúp giảm đáng kể kích thước tệp.
+Cài đặt `UseCoreFonts` ĐẾN `true` đảm bảo rằng các phông chữ cốt lõi như Arial và Times New Roman không được nhúng vào PDF, giúp giảm đáng kể kích thước tệp.
 
 ## Bước 4: Lưu tài liệu dưới dạng PDF
 
@@ -95,16 +97,21 @@ Việc tránh nhúng phông chữ cốt lõi sẽ làm giảm kích thước t�
 Có, các phông chữ cốt lõi như Arial và Times New Roman thường có sẵn trên hầu hết các hệ thống.
 
 ### Tôi phải làm sao nếu cần nhúng phông chữ tùy chỉnh?
- Bạn có thể tùy chỉnh`PdfSaveOptions`để nhúng các phông chữ cụ thể khi cần thiết.
+Bạn có thể tùy chỉnh `PdfSaveOptions` để nhúng các phông chữ cụ thể khi cần thiết.
 
 ### Aspose.Words cho .NET có miễn phí sử dụng không?
- Aspose.Words cho .NET yêu cầu phải có giấy phép. Bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+Aspose.Words cho .NET yêu cầu phải có giấy phép. Bạn có thể dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
- Bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu chi tiết [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

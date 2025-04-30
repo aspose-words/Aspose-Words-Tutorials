@@ -1,30 +1,37 @@
 ---
-title: Licenc alkalmazása
-linktitle: Licenc alkalmazása
-second_title: Aspose.Words Document Processing API
-description: Tekintse meg a lépésenkénti utasításokat az Aspose.Words licencek .NET-projektekben való alkalmazásához. Kövesse a lépéseket az Aspose.Words könyvtár teljes funkcionalitásának engedélyezéséhez.
-weight: 10
-url: /hu/net/apply-license/
+"description": "Lépésről lépésre útmutatót kaphat az Aspose.Words licenc .NET projektjeiben történő alkalmazásához. Kövesse a lépéseket az Aspose.Words könyvtár teljes funkcionalitásának engedélyezéséhez."
+"linktitle": "Licenc alkalmazása"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Licenc alkalmazása"
+"url": "/hu/net/apply-license/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Licenc alkalmazása
 
 
-Ez az oldal részletes útmutatót nyújt a licencek alkalmazásához az Aspose.Words for .NET használatával projektekben. Ez az oktatóanyag lépésről lépésre elmagyarázza, hogyan kell licencet használni az Aspose.Words összes funkciójának aktiválásához. Mintakódot is tartalmaz az engedélyezési folyamat szemléltetésére. Kövesse ezt az útmutatót a licenc alkalmazásához, és a legtöbbet hozza ki a hatékony Aspose.Words könyvtárból .NET-alkalmazásaiban.
+Ez az oldal részletes útmutatót nyújt arról, hogyan alkalmazhat licencet az Aspose.Words for .NET programot használó projektekben. Ez az oktatóanyag lépésről lépésre elmagyarázza, hogyan használható licenc az Aspose.Words összes funkciójának aktiválásához. Mintakódot is tartalmaz a licencelési folyamat szemléltetésére. Kövesse ezt az útmutatót a licenc alkalmazásához és a hatékony Aspose.Words könyvtár maximális kihasználásához .NET alkalmazásaiban.
 
  ## Oktatóanyagok
 | Cím | Leírás |
 | --- | --- |
-| [Licenc alkalmazása fájlból](./apply-license-from-file/) | Részletes, lépésenkénti útmutatónkból megtudhatja, hogyan igényelhet licencet egy fájlból az Aspose.Words for .NET-ben. Könnyedén bontsa ki a könyvtárában rejlő teljes potenciált. |
-| [Licenc alkalmazása a Streamből](./apply-license-from-stream/) | Ebből a lépésenkénti útmutatóból megtudhatja, hogyan igényelhet licencet egy adatfolyamból az Aspose.Words for .NET-ben. Használja ki az Aspose.Words teljes potenciálját. |
-| [Alkalmazza a mért licencet](./apply-metered-license/) | Lépésről lépésre szóló útmutatónkból megtudhatja, hogyan alkalmazhat mérőszámos licencet az Aspose.Words for .NET-ben. Rugalmas, költséghatékony licencelés egyszerűen. |
+| [Licenc alkalmazása fájlból](./apply-license-from-file/) Tanulja meg, hogyan alkalmazhat licencet egy fájlból az Aspose.Words for .NET programban részletes, lépésről lépésre szóló útmutatónkkal. Erőfeszítések nélkül aknázhatja ki könyvtárának teljes potenciálját. |
+| [Licenc alkalmazása a streamből](./apply-license-from-stream/) | Tanulja meg, hogyan alkalmazhat licencet egy streamből az Aspose.Words for .NET-ben ezzel a lépésről lépésre szóló útmutatóval. Használja ki az Aspose.Words teljes potenciálját. |
+| [Mért licenc alkalmazása](./apply-metered-license/) | Tanulja meg, hogyan alkalmazhat mért licencet az Aspose.Words for .NET-ben lépésről lépésre bemutató útmutatónkkal. Rugalmas, költséghatékony licencelés egyszerűen. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

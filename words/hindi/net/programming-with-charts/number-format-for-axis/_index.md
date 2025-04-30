@@ -1,14 +1,16 @@
 ---
-title: चार्ट में अक्ष के लिए संख्या प्रारूप
-linktitle: चार्ट में अक्ष के लिए संख्या प्रारूप
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके चार्ट अक्ष संख्याओं को प्रारूपित करना सीखें। अपने दस्तावेज़ की पठनीयता और व्यावसायिकता को सहजता से बढ़ाएँ।
-weight: 10
-url: /hi/net/programming-with-charts/number-format-for-axis/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके चार्ट अक्ष संख्याओं को प्रारूपित करना सीखें। अपने दस्तावेज़ की पठनीयता और व्यावसायिकता को सहजता से बढ़ाएँ।"
+"linktitle": "चार्ट में अक्ष के लिए संख्या प्रारूप"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "चार्ट में अक्ष के लिए संख्या प्रारूप"
+"url": "/hi/net/programming-with-charts/number-format-for-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # चार्ट में अक्ष के लिए संख्या प्रारूप
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-charts/number-format-for-axis/
 
 शुरू करने से पहले, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जिसकी आपको ज़रूरत है। यहाँ एक त्वरित चेकलिस्ट दी गई है:
 
--  Aspose.Words for .NET: सुनिश्चित करें कि आपने इसे इंस्टॉल किया है। यदि नहीं, तो आप कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: सुनिश्चित करें कि आपने इसे इंस्टॉल किया है। यदि नहीं, तो आप कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 - .NET फ्रेमवर्क: सुनिश्चित करें कि आपके पास संगत .NET फ्रेमवर्क स्थापित है।
 - विकास वातावरण: विजुअल स्टूडियो जैसा IDE पूरी तरह से काम करेगा।
 - C# का बुनियादी ज्ञान: इससे आपको कोडिंग उदाहरणों को समझने में मदद मिलेगी।
@@ -52,7 +54,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- यहाँ,`dataDir` यह आपके दस्तावेज़ निर्देशिका का पथ है जहाँ आप अंतिम फ़ाइल सहेजेंगे।`Document` और`DocumentBuilder` Aspose.Words की कक्षाएं हैं जो आपको Word दस्तावेज़ बनाने और उनमें हेरफेर करने में मदद करती हैं।
+यहाँ, `dataDir` यह आपके दस्तावेज़ निर्देशिका का पथ है जहाँ आप अंतिम फ़ाइल सहेजेंगे। `Document` और `DocumentBuilder` Aspose.Words की कक्षाएं हैं जो आपको Word दस्तावेज़ बनाने और उनमें हेरफेर करने में मदद करती हैं।
 
 ## चरण 2: चार्ट सम्मिलित करना
 
@@ -65,7 +67,7 @@ Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 ```
 
-`InsertChart` विधि दस्तावेज़ में निर्दिष्ट प्रकार (इस मामले में कॉलम) और आयामों का एक चार्ट सम्मिलित करती है।
+The `InsertChart` विधि दस्तावेज़ में निर्दिष्ट प्रकार (इस मामले में कॉलम) और आयामों का एक चार्ट सम्मिलित करती है।
 
 ## चरण 3: चार्ट श्रृंखला को अनुकूलित करना
 
@@ -80,7 +82,7 @@ chart.Series.Add("Aspose Series 1",
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 ```
 
- यहाँ, हम पाँच डेटा बिंदुओं के साथ "एस्पोज सीरीज 1" नामक एक नई श्रृंखला जोड़ रहे हैं।`Series.Clear` यह विधि सुनिश्चित करती है कि हमारी नई श्रृंखला को जोड़ने से पहले कोई भी पूर्व-मौजूद डेटा हटा दिया जाए।
+यहाँ, हम पाँच डेटा बिंदुओं के साथ "एस्पोज सीरीज 1" नामक एक नई श्रृंखला जोड़ रहे हैं। `Series.Clear` यह विधि सुनिश्चित करती है कि हमारी नई श्रृंखला को जोड़ने से पहले कोई भी पूर्व-मौजूद डेटा हटा दिया जाए।
 
 ## चरण 4: अक्ष संख्याओं को प्रारूपित करना
 
@@ -92,7 +94,7 @@ chart.Series.Add("Aspose Series 1",
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 ```
 
-`FormatCode` प्रॉपर्टी आपको अक्ष पर संख्याओं के लिए एक कस्टम प्रारूप सेट करने की अनुमति देती है। इस उदाहरण में,`#,##0`यह सुनिश्चित करता है कि बड़ी संख्याएं हजारों के लिए अल्पविराम के साथ प्रदर्शित की जाएं।
+The `FormatCode` प्रॉपर्टी आपको अक्ष पर संख्याओं के लिए एक कस्टम प्रारूप सेट करने की अनुमति देती है। इस उदाहरण में, `#,##0` यह सुनिश्चित करता है कि बड़ी संख्याएं हजारों के लिए अल्पविराम के साथ प्रदर्शित की जाएं।
 
 ## चरण 5: दस्तावेज़ को सहेजना
 
@@ -104,7 +106,7 @@ chart.AxisY.NumberFormat.FormatCode = "#,##0";
 doc.Save(dataDir + "WorkingWithCharts.NumberFormatForAxis.docx");
 ```
 
- यहाँ,`Save` विधि दस्तावेज़ को फ़ाइल नाम के साथ निर्दिष्ट पथ पर सहेजती है`WorkingWithCharts.NumberFormatForAxis.docx`.
+यहाँ, `Save` विधि दस्तावेज़ को फ़ाइल नाम के साथ निर्दिष्ट पथ पर सहेजती है `WorkingWithCharts.NumberFormatForAxis.docx`.
 
 ## निष्कर्ष
 
@@ -119,17 +121,22 @@ doc.Save(dataDir + "WorkingWithCharts.NumberFormatForAxis.docx");
 बिल्कुल! .NET के लिए Aspose.Words आपको शीर्षक, लेबल को प्रारूपित करने और यहां तक कि चार्ट की उपस्थिति को अनुकूलित करने की सुविधा देता है।
 
 ### क्या .NET के लिए Aspose.Words का निःशुल्क परीक्षण उपलब्ध है?
- हाँ, आप प्राप्त कर सकते हैं[निःशुल्क परीक्षण यहाँ](https://releases.aspose.com/).
+हाँ, आप प्राप्त कर सकते हैं [निःशुल्क परीक्षण यहाँ](https://releases.aspose.com/).
 
 ### क्या मैं C# के अलावा अन्य .NET भाषाओं के साथ .NET के लिए Aspose.Words का उपयोग कर सकता हूँ?
 हां, Aspose.Words for .NET किसी भी .NET भाषा के साथ संगत है, जिसमें VB.NET और F# शामिल हैं।
 
 ### मैं अधिक विस्तृत दस्तावेज कहां पा सकता हूं?
- विस्तृत दस्तावेज यहां उपलब्ध है[.NET के लिए Aspose.Words दस्तावेज़न पृष्ठ](https://reference.aspose.com/words/net/).
+विस्तृत दस्तावेज यहां उपलब्ध है [.NET के लिए Aspose.Words दस्तावेज़न पृष्ठ](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

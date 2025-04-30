@@ -1,14 +1,16 @@
 ---
-title: Atualizar campos sujos em documento do Word
-linktitle: Atualizar campos sujos em documento do Word
-second_title: API de processamento de documentos Aspose.Words
-description: Atualize campos sujos em seus documentos do Word sem esforço usando o Aspose.Words para .NET com este guia abrangente passo a passo.
-weight: 10
-url: /pt/net/programming-with-loadoptions/update-dirty-fields/
+"description": "Atualize facilmente campos sujos em seus documentos do Word usando o Aspose.Words para .NET com este guia passo a passo abrangente."
+"linktitle": "Atualizar campos sujos em documento do Word"
+"second_title": "API de processamento de documentos Aspose.Words"
+"title": "Atualizar campos sujos em documento do Word"
+"url": "/pt/net/programming-with-loadoptions/update-dirty-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Atualizar campos sujos em documento do Word
@@ -16,16 +18,16 @@ url: /pt/net/programming-with-loadoptions/update-dirty-fields/
 
 ## Introdução
 
-Já esteve em uma situação em que você tem um documento do Word cheio de campos que precisam ser atualizados, mas fazer isso manualmente parece correr uma maratona descalço? Bem, você está com sorte! Com o Aspose.Words para .NET, você pode atualizar esses campos automaticamente, economizando muito tempo e esforço. Este guia o guiará pelo processo passo a passo, garantindo que você pegue o jeito em pouco tempo.
+Já passou pela situação de ter um documento do Word cheio de campos que precisam ser atualizados, mas fazer isso manualmente parece correr uma maratona descalço? Bem, você está com sorte! Com o Aspose.Words para .NET, você pode atualizar esses campos automaticamente, economizando muito tempo e esforço. Este guia o guiará pelo processo passo a passo, garantindo que você domine tudo rapidamente.
 
 ## Pré-requisitos
 
-Antes de nos aprofundarmos nos detalhes, vamos garantir que você tenha tudo o que precisa:
+Antes de começarmos, vamos garantir que você tenha tudo o que precisa:
 
-1.  Aspose.Words para .NET: Certifique-se de ter a versão mais recente. Se não, você pode[baixe aqui](https://releases.aspose.com/words/net/).
+1. Aspose.Words para .NET: Certifique-se de ter a versão mais recente. Caso contrário, você pode [baixe aqui](https://releases.aspose.com/words/net/).
 2. .NET Framework: Qualquer versão compatível com Aspose.Words.
 3. Conhecimento básico de C#: familiaridade com programação em C# será benéfica.
-4. Um exemplo de documento do Word: um documento com campos sujos que precisam ser atualizados.
+4. Um documento de exemplo do Word: um documento com campos sujos que precisam ser atualizados.
 
 ## Importar namespaces
 
@@ -35,11 +37,11 @@ Para começar, certifique-se de importar os namespaces necessários no seu proje
 using Aspose.Words;
 ```
 
-Vamos dividir o processo em etapas gerenciáveis. Acompanhe de perto!
+Vamos dividir o processo em etapas fáceis de gerenciar. Acompanhe de perto!
 
-## Etapa 1: configure seu projeto
+## Etapa 1: Configure seu projeto
 
-Primeiro, configure seu projeto .NET e instale o Aspose.Words para .NET. Se você ainda não o instalou, pode fazê-lo por meio do NuGet Package Manager:
+Antes de mais nada, configure seu projeto .NET e instale o Aspose.Words para .NET. Se ainda não o instalou, você pode fazê-lo através do Gerenciador de Pacotes NuGet:
 
 ```bash
 Install-Package Aspose.Words
@@ -47,17 +49,17 @@ Install-Package Aspose.Words
 
 ## Etapa 2: Configurar opções de carga
 
-Agora, vamos configurar as opções de carga para atualizar campos sujos automaticamente. Isso é como configurar seu GPS antes de uma viagem de carro — essencial para chegar ao seu destino suavemente.
+Agora, vamos configurar as opções de carregamento para atualizar os campos sujos automaticamente. É como configurar o GPS antes de uma viagem — essencial para chegar ao seu destino sem problemas.
 
 ```csharp
-// Caminho para o diretório dos seus documentos
+// Caminho para o seu diretório de documentos
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
-// Configure as opções de carregamento com o recurso "Atualizar campos sujos"
+// Configurar opções de carregamento com o recurso "Atualizar campos sujos"
 LoadOptions loadOptions = new LoadOptions { UpdateDirtyFields = true };
 ```
 
-Aqui, estamos especificando que o documento deve atualizar campos sujos ao carregar.
+Aqui, estamos especificando que o documento deve atualizar os campos sujos ao carregar.
 
 ## Etapa 3: Carregue o documento
 
@@ -72,7 +74,7 @@ Este trecho de código garante que o documento seja carregado com todos os campo
 
 ## Etapa 4: Salve o documento
 
-Por fim, salve o documento para garantir que todas as alterações sejam aplicadas. Isso é semelhante a chegar ao seu destino e desfazer as malas.
+Por fim, salve o documento para garantir que todas as alterações sejam aplicadas. Isso equivale a chegar ao seu destino e desfazer as malas.
 
 ```csharp
 // Salvar o documento
@@ -81,7 +83,7 @@ doc.Save(dataDir + "WorkingWithLoadOptions.UpdateDirtyFields.docx");
 
 ## Conclusão
 
-aí está! Você acabou de automatizar o processo de atualização de campos sujos em um documento do Word usando o Aspose.Words para .NET. Chega de atualizações manuais, chega de dores de cabeça. Com essas etapas simples, você pode economizar tempo e garantir a precisão em seus documentos. Pronto para tentar?
+Pronto! Você acabou de automatizar o processo de atualização de campos inválidos em um documento do Word usando o Aspose.Words para .NET. Chega de atualizações manuais, chega de dores de cabeça. Com estes passos simples, você pode economizar tempo e garantir a precisão dos seus documentos. Pronto para experimentar?
 
 ## Perguntas frequentes
 
@@ -92,17 +94,22 @@ Campos sujos são campos que foram marcados para atualização porque seus resul
 Atualizar campos sujos garante que as informações exibidas no documento sejam atuais e precisas, o que é crucial para documentos profissionais.
 
 ### Posso atualizar campos específicos em vez de todos os campos sujos?
-Sim, o Aspose.Words oferece flexibilidade para atualizar campos específicos, mas atualizar todos os campos sujos geralmente é mais simples e menos propenso a erros.
+Sim, o Aspose.Words oferece flexibilidade para atualizar campos específicos, mas atualizar todos os campos sujos geralmente é mais simples e menos sujeito a erros.
 
 ### Preciso do Aspose.Words para esta tarefa?
-Sim, o Aspose.Words é uma biblioteca poderosa que simplifica o processo de manipulação de documentos do Word programaticamente.
+Sim, o Aspose.Words é uma biblioteca poderosa que simplifica o processo de manipulação programática de documentos do Word.
 
 ### Onde posso encontrar mais informações sobre o Aspose.Words?
- Confira o[documentação](https://reference.aspose.com/words/net/) para guias e exemplos detalhados.
+Confira o [documentação](https://reference.aspose.com/words/net/) para guias e exemplos detalhados.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

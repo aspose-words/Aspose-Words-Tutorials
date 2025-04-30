@@ -1,14 +1,16 @@
 ---
-title: Заголовок
-linktitle: Заголовок
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как освоить форматирование документов с помощью Aspose.Words for .NET. Это руководство содержит руководство по добавлению заголовков и настройке документов Word.
-weight: 10
-url: /ru/net/working-with-markdown/heading/
+"description": "Узнайте, как освоить форматирование документов с помощью Aspose.Words для .NET. Это руководство содержит руководство по добавлению заголовков и настройке документов Word."
+"linktitle": "Заголовок"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Заголовок"
+"url": "/ru/net/working-with-markdown/heading/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Заголовок
@@ -21,9 +23,9 @@ url: /ru/net/working-with-markdown/heading/
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
-1.  Aspose.Words для .NET: Вы можете загрузить его с[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: Вы можете загрузить его с [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая другая совместимая IDE.
-3. .NET Framework: убедитесь, что у вас установлена соответствующая версия .NET Framework.
+3. .NET Framework: Убедитесь, что у вас установлена соответствующая версия .NET Framework.
 4. Базовые знания C#: понимание основ программирования на C# поможет вам разобраться в примерах.
 
 ## Импорт пространств имен
@@ -84,7 +86,7 @@ builder.Writeln("Details");
 
 ### Как получить бесплатную пробную версию Aspose.Words для .NET?
 
- Вы можете получить бесплатную пробную версию[здесь](https://releases.aspose.com/).
+Вы можете получить бесплатную пробную версию [здесь](https://releases.aspose.com/).
 
 ### Можно ли добавлять пользовательские стили в Aspose.Words для .NET?
 
@@ -96,10 +98,15 @@ builder.Writeln("Details");
 
 ### Где я могу найти дополнительную документацию и поддержку?
 
- Подробную документацию можно найти на сайте[здесь](https://reference.aspose.com/words/net/) . Для поддержки ознакомьтесь с их[форум](https://forum.aspose.com/c/words/8).
+Подробную документацию можно найти на сайте [здесь](https://reference.aspose.com/words/net/). Для поддержки ознакомьтесь с их [форум](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

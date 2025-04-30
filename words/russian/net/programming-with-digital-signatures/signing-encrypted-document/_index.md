@@ -1,14 +1,16 @@
 ---
-title: Подписание зашифрованного документа Word
-linktitle: Подписание зашифрованного документа Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как подписывать зашифрованные документы Word с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства. Идеально подходит для разработчиков.
-weight: 10
-url: /ru/net/programming-with-digital-signatures/signing-encrypted-document/
+"description": "Узнайте, как подписывать зашифрованные документы Word с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства. Идеально подходит для разработчиков."
+"linktitle": "Подписание зашифрованного документа Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Подписание зашифрованного документа Word"
+"url": "/ru/net/programming-with-digital-signatures/signing-encrypted-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Подписание зашифрованного документа Word
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-digital-signatures/signing-encrypted-document/
 
 Прежде чем погрузиться в код, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words для .NET: Загрузите и установите с[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: Загрузите и установите с [здесь](https://releases.aspose.com/words/net/).
 2. Visual Studio: убедитесь, что он у вас установлен.
 3. Действительный сертификат: вам понадобится файл сертификата .pfx.
 4. Базовые знания C#: понимание основ сделает этот урок более понятным.
@@ -63,7 +65,7 @@ Install-Package Aspose.Words
 
 ## Шаг 4: Написание кода
 
- Теперь давайте погрузимся в код. Откройте ваш`Program.cs` файл и начните с настройки пути к каталогу документов и инициализации`SignOptions` с паролем дешифрования.
+Теперь давайте погрузимся в код. Откройте ваш `Program.cs` файл и начните с настройки пути к каталогу документов и инициализации `SignOptions` с паролем дешифрования.
 
 ```csharp
 // Путь к каталогу документов.
@@ -73,7 +75,7 @@ SignOptions signOptions = new SignOptions { DecryptionPassword = "decryptionPass
 
 ## Шаг 5: Загрузка сертификата
 
- Далее загрузите ваш сертификат с помощью`CertificateHolder`class. Для этого потребуется путь к вашему .pfx-файлу и пароль сертификата.
+Далее загрузите ваш сертификат с помощью `CertificateHolder` class. Для этого потребуется путь к вашему .pfx-файлу и пароль сертификата.
 
 ```csharp
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
@@ -81,7 +83,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 
 ## Шаг 6: Подписание документа
 
- Наконец, используйте`DigitalSignatureUtil.Sign` метод подписи вашего зашифрованного документа Word. Этот метод требует входного файла, выходного файла, держателя сертификата и параметров подписи.
+Наконец, используйте `DigitalSignatureUtil.Sign` метод подписи вашего зашифрованного документа Word. Этот метод требует входного файла, выходного файла, держателя сертификата и параметров подписи.
 
 ```csharp
 DigitalSignatureUtil.Sign(
@@ -114,10 +116,15 @@ DigitalSignatureUtil.Sign(
 Да, Aspose.Words также позволяет добавлять видимые цифровые подписи.
 
 ### Есть ли способ проверить подпись?
- Да, вы можете использовать`DigitalSignatureUtil.Verify` метод проверки подписей.
+Да, вы можете использовать `DigitalSignatureUtil.Verify` метод проверки подписей.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

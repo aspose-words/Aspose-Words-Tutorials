@@ -1,33 +1,35 @@
 ---
-title: تحويل الحقول في النص
-linktitle: تحويل الحقول في النص
-second_title: واجهة برمجة تطبيقات معالجة المستندات Aspose.Words
-description: تعرف على كيفية تحويل حقول المستند إلى نص ثابت باستخدام Aspose.Words لـ .NET لتحسين كفاءة معالجة المستندات.
-weight: 10
-url: /ar/net/working-with-fields/convert-fields-in-body/
+"description": "تعرف على كيفية تحويل حقول المستند إلى نص ثابت باستخدام Aspose.Words لـ .NET لتحسين كفاءة معالجة المستندات."
+"linktitle": "تحويل الحقول في النص"
+"second_title": "واجهة برمجة تطبيقات معالجة المستندات Aspose.Words"
+"title": "تحويل الحقول في النص"
+"url": "/ar/net/working-with-fields/convert-fields-in-body/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تحويل الحقول في النص
 
 ## مقدمة
 
-في عالم تطوير .NET، يعد إدارة محتوى المستند بشكل ديناميكي أمرًا ضروريًا، وغالبًا ما يتطلب التعامل مع أنواع مختلفة من الحقول داخل المستندات. تتميز Aspose.Words for .NET بأنها مجموعة أدوات قوية للمطورين، حيث توفر وظائف قوية للتعامل مع حقول المستند بكفاءة. يركز هذا الدليل الشامل على كيفية تحويل الحقول في نص المستند باستخدام Aspose.Words for .NET، مع توفير تعليمات خطوة بخطوة لتمكين المطورين من تحسين أتمتة المستندات وإدارتها.
+في مجال تطوير .NET، تُعد إدارة محتوى المستندات ديناميكيًا أمرًا بالغ الأهمية، وغالبًا ما تتطلب التعامل مع أنواع مختلفة من الحقول داخل المستندات. تتميز Aspose.Words for .NET كمجموعة أدوات فعّالة للمطورين، إذ توفر وظائف فعّالة للتعامل مع حقول المستندات بكفاءة. يركز هذا الدليل الشامل على كيفية تحويل الحقول في نص المستند باستخدام Aspose.Words for .NET، موفرًا إرشادات خطوة بخطوة لتمكين المطورين من تحسين أتمتة المستندات وإدارتها.
 
 ## المتطلبات الأساسية
 
-قبل الخوض في البرنامج التعليمي حول تحويل الحقول في نص المستند باستخدام Aspose.Words لـ .NET، تأكد من توفر المتطلبات الأساسية التالية:
+قبل الخوض في البرنامج التعليمي حول تحويل الحقول في نص المستند باستخدام Aspose.Words لـ .NET، تأكد من أن لديك المتطلبات الأساسية التالية:
 
 - Visual Studio: تم تثبيته وتكوينه لتطوير .NET.
--  Aspose.Words for .NET: تم تنزيله والإشارة إليه في مشروع Visual Studio الخاص بك. يمكنك الحصول عليه من[هنا](https://releases.aspose.com/words/net/).
+- Aspose.Words لـ .NET: تم تنزيله والإشارة إليه في مشروع Visual Studio. يمكنك الحصول عليه من [هنا](https://releases.aspose.com/words/net/).
 - المعرفة الأساسية بلغة C#: الإلمام بلغة البرمجة C# لفهم وتعديل أجزاء التعليمات البرمجية المقدمة.
 
 ## استيراد مساحات الأسماء
 
-للبدء، تأكد من استيراد المساحات الأساسية اللازمة إلى مشروعك:
+وللبدء، تأكد من استيراد المساحات الأساسية اللازمة إلى مشروعك:
 
 ```csharp
 using Aspose.Words;
@@ -45,11 +47,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Linked fields.docx");
 ```
 
- يستبدل`"YOUR DOCUMENT DIRECTORY"` مع المسار إلى مستندك الفعلي.
+يستبدل `"YOUR DOCUMENT DIRECTORY"` مع المسار إلى مستندك الفعلي.
 
 ## الخطوة 2: تحديد الحقول وتحويلها
 
-حدد حقولاً معينة داخل نص المستند وحولها. على سبيل المثال، لتحويل حقول PAGE إلى نص:
+حدّد حقولًا مُحدّدة داخل نصّ المستند وحوِّلها. على سبيل المثال، لتحويل حقول الصفحات إلى نص:
 
 ```csharp
 doc.FirstSection.Body.Range.Fields
@@ -68,11 +70,11 @@ doc.FirstSection.Body.Range.Fields
 doc.Save(dataDir + "WorkingWithFields.ConvertFieldsInBody.docx");
 ```
 
- يُعدِّل`"WorkingWithFields.ConvertFieldsInBody.docx"` لتحديد مسار ملف الإخراج المطلوب.
+يُعدِّل `"WorkingWithFields.ConvertFieldsInBody.docx"` لتحديد مسار ملف الإخراج المطلوب.
 
 ## خاتمة
 
-إن إتقان فن التعامل مع حقول المستندات باستخدام Aspose.Words for .NET يمكّن المطورين من أتمتة سير عمل المستندات بكفاءة. سواء كان الأمر يتعلق بتحويل الحقول إلى نص عادي أو التعامل مع أنواع حقول أكثر تعقيدًا، فإن Aspose.Words يبسط هذه المهام من خلال واجهة برمجة التطبيقات البديهية ومجموعة الميزات القوية، مما يضمن التكامل السلس في تطبيقات .NET.
+يُمكّن إتقان فن التعامل مع حقول المستندات باستخدام Aspose.Words لـ .NET المطورين من أتمتة سير عمل المستندات بكفاءة. سواءً كان تحويل الحقول إلى نص عادي أو التعامل مع أنواع حقول أكثر تعقيدًا، يُبسط Aspose.Words هذه المهام بفضل واجهة برمجة التطبيقات سهلة الاستخدام ومجموعة ميزاته القوية، مما يضمن تكاملًا سلسًا مع تطبيقات .NET.
 
 ## الأسئلة الشائعة
 
@@ -86,13 +88,18 @@ doc.Save(dataDir + "WorkingWithFields.ConvertFieldsInBody.docx");
 نعم، يمكن لـ Aspose.Words for .NET تحويل الحقول ومعالجتها عبر تنسيقات مثل DOCX وDOC وRTF والمزيد بسلاسة.
 
 ### أين يمكنني العثور على وثائق شاملة لـ Aspose.Words لـ .NET؟
- تتوفر وثائق تفصيلية ومراجع API[هنا](https://reference.aspose.com/words/net/).
+تتوفر وثائق مفصلة ومراجع API [هنا](https://reference.aspose.com/words/net/).
 
 ### هل هناك نسخة تجريبية متاحة لـ Aspose.Words لـ .NET؟
- نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+نعم، يمكنك تنزيل نسخة تجريبية مجانية من [هنا](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

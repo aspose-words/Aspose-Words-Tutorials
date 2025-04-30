@@ -1,14 +1,16 @@
 ---
-title: แปลงระหว่างหน่วยการวัด
-linktitle: แปลงระหว่างหน่วยการวัด
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการแปลงหน่วยการวัดใน Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อตั้งค่าระยะขอบ ส่วนหัว และส่วนท้ายเอกสารเป็นนิ้วและจุด
-weight: 10
-url: /th/net/programming-with-document-properties/convert-between-measurement-units/
+"description": "เรียนรู้วิธีการแปลงหน่วยการวัดใน Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อตั้งค่าระยะขอบ ส่วนหัว และส่วนท้ายของเอกสารเป็นนิ้วและจุด"
+"linktitle": "แปลงระหว่างหน่วยการวัด"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แปลงระหว่างหน่วยการวัด"
+"url": "/th/net/programming-with-document-properties/convert-between-measurement-units/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แปลงระหว่างหน่วยการวัด
@@ -21,10 +23,10 @@ url: /th/net/programming-with-document-properties/convert-between-measurement-un
 
 ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1.  Aspose.Words สำหรับไลบรารี .NET: หากคุณยังไม่ได้ดาวน์โหลด ให้ดาวน์โหลด[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับไลบรารี .NET: หากคุณยังไม่ได้ดาวน์โหลด ให้ดาวน์โหลด [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE อื่น ๆ ที่เข้ากันได้กับ .NET
 3. ความรู้พื้นฐานเกี่ยวกับ C#: การทำความเข้าใจพื้นฐานของ C# จะช่วยให้คุณทำตามได้อย่างง่ายดาย
-4.  ใบอนุญาต Aspose: เป็นทางเลือกแต่แนะนำให้ใช้สำหรับการใช้งานเต็มรูปแบบ คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+4. ใบอนุญาต Aspose: เป็นทางเลือกแต่แนะนำให้ใช้สำหรับการใช้งานเต็มรูปแบบ คุณสามารถขอรับใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ## นำเข้าเนมสเปซ
 
@@ -46,11 +48,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- นี่คือการเริ่มต้นเอกสาร Word ใหม่และ`DocumentBuilder` เพื่ออำนวยความสะดวกในการสร้างและจัดรูปแบบเนื้อหา
+นี่คือการเริ่มต้นเอกสาร Word ใหม่และ `DocumentBuilder` เพื่ออำนวยความสะดวกในการสร้างและจัดรูปแบบเนื้อหา
 
 ## ขั้นตอนที่ 2: เข้าถึงการตั้งค่าหน้า
 
- หากต้องการตั้งค่าระยะขอบ ส่วนหัว และส่วนท้าย คุณจำเป็นต้องเข้าถึง`PageSetup` วัตถุ.
+หากต้องการตั้งค่าระยะขอบ ส่วนหัว และส่วนท้าย คุณจำเป็นต้องเข้าถึง `PageSetup` วัตถุ.
 
 ```csharp
 PageSetup pageSetup = builder.PageSetup;
@@ -60,7 +62,7 @@ PageSetup pageSetup = builder.PageSetup;
 
 ## ขั้นตอนที่ 3: แปลงนิ้วเป็นจุด
 
- Aspose.Words ใช้จุดเป็นหน่วยวัดตามค่าเริ่มต้น หากต้องการตั้งค่าระยะขอบเป็นนิ้ว คุณจะต้องแปลงนิ้วเป็นจุดโดยใช้`ConvertUtil.InchToPoint` วิธี.
+Aspose.Words ใช้จุดเป็นหน่วยวัดตามค่าเริ่มต้น หากต้องการตั้งค่าระยะขอบเป็นนิ้ว คุณจะต้องแปลงนิ้วเป็นจุดโดยใช้ `ConvertUtil.InchToPoint` วิธี.
 
 ```csharp
 pageSetup.TopMargin = ConvertUtil.InchToPoint(1.0);
@@ -73,7 +75,7 @@ pageSetup.FooterDistance = ConvertUtil.InchToPoint(0.2);
 
 ต่อไปนี้คือรายละเอียดของสิ่งที่แต่ละบรรทัดทำ:
 - ตั้งค่าระยะขอบบนและล่างเป็น 1 นิ้ว (แปลงเป็นจุด)
-- ตั้งค่าระยะขอบด้านซ้ายและด้านขวาเป็น 1.5 นิ้ว (แปลงเป็นจุด)
+- ตั้งค่าระยะขอบซ้ายและขวาเป็น 1.5 นิ้ว (แปลงเป็นจุด)
 - กำหนดระยะห่างระหว่างส่วนหัวและส่วนท้ายเป็น 0.2 นิ้ว (แปลงเป็นจุด)
 
 ## ขั้นตอนที่ 4: บันทึกเอกสาร
@@ -93,22 +95,27 @@ doc.Save("ConvertedDocument.docx");
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถแปลงหน่วยอื่น เช่น เซนติเมตร เป็นจุดโดยใช้ Aspose.Words ได้หรือไม่
- ใช่ Aspose.Words มีวิธีการเช่น`ConvertUtil.CmToPoint` สำหรับการแปลงเซนติเมตรเป็นจุด
+ใช่ Aspose.Words มีวิธีการเช่น `ConvertUtil.CmToPoint` สำหรับการแปลงเซนติเมตรเป็นจุด
 
 ### การใช้ Aspose.Words สำหรับ .NET จำเป็นต้องมีใบอนุญาตหรือไม่
 แม้ว่าคุณจะใช้ Aspose.Words ได้โดยไม่ต้องมีใบอนุญาต แต่ฟีเจอร์ขั้นสูงบางอย่างอาจถูกจำกัด การขอใบอนุญาตจะช่วยให้ใช้งานได้เต็มรูปแบบ
 
 ### ฉันจะติดตั้ง Aspose.Words สำหรับ .NET ได้อย่างไร?
- คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/words/net/) และปฏิบัติตามคำแนะนำในการติดตั้ง
+คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์](https://releases.aspose.com/words/net/) และปฏิบัติตามคำแนะนำในการติดตั้ง
 
 ### ฉันสามารถตั้งค่าหน่วยที่แตกต่างกันสำหรับส่วนต่างๆ ของเอกสารได้หรือไม่
- ใช่ คุณสามารถปรับแต่งระยะขอบและการตั้งค่าอื่นๆ สำหรับส่วนต่างๆ ได้โดยใช้`Section` ระดับ.
+ใช่ คุณสามารถปรับแต่งระยะขอบและการตั้งค่าอื่นๆ สำหรับส่วนต่างๆ ได้โดยใช้ `Section` ระดับ.
 
 ### Aspose.Words มีฟีเจอร์อื่น ๆ อะไรอีกบ้าง?
- Aspose.Words รองรับฟีเจอร์ต่างๆ มากมาย เช่น การแปลงเอกสาร การผสานจดหมาย และตัวเลือกการจัดรูปแบบมากมาย ตรวจสอบ[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายละเอียดเพิ่มเติม
+Aspose.Words รองรับฟีเจอร์ต่างๆ มากมาย เช่น การแปลงเอกสาร การผสานจดหมาย และตัวเลือกการจัดรูปแบบมากมาย ตรวจสอบ [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายละเอียดเพิ่มเติม
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

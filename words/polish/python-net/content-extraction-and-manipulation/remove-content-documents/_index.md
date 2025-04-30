@@ -1,14 +1,16 @@
 ---
-title: Usuwanie i udoskonalanie zawartości w dokumentach programu Word
-linktitle: Usuwanie i udoskonalanie zawartości w dokumentach programu Word
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Dowiedz się, jak skutecznie usuwać i udoskonalać zawartość dokumentów Word za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z przykładami kodu źródłowego.
-weight: 13
-url: /pl/python-net/content-extraction-and-manipulation/remove-content-documents/
+"description": "Dowiedz się, jak skutecznie usuwać i udoskonalać zawartość dokumentów Word za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z przykładami kodu źródłowego."
+"linktitle": "Usuwanie i udoskonalanie zawartości w dokumentach programu Word"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Usuwanie i udoskonalanie zawartości w dokumentach programu Word"
+"url": "/pl/python-net/content-extraction-and-manipulation/remove-content-documents/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuwanie i udoskonalanie zawartości w dokumentach programu Word
@@ -28,7 +30,7 @@ Zanim przejdziemy do wdrożenia, upewnij się, że masz wdrożone następujące 
 
 ## Instalowanie Aspose.Words dla Pythona
 
- Aby rozpocząć, musisz zainstalować bibliotekę Aspose.Words for Python. Możesz to zrobić za pomocą`pip`, menedżera pakietów Python, uruchamiając następujące polecenie:
+Aby rozpocząć, musisz zainstalować bibliotekę Aspose.Words for Python. Możesz to zrobić za pomocą `pip`menedżera pakietów Python, uruchamiając następujące polecenie:
 
 ```bash
 pip install aspose-words
@@ -46,7 +48,7 @@ doc = aw.Document("path/to/your/document.docx")
 
 ## Usuwanie tekstu
 
- Usuwanie określonego tekstu z dokumentu Word jest proste dzięki Aspose.Words. Możesz użyć`Range.replace` metoda osiągnięcia tego:
+Usuwanie określonego tekstu z dokumentu Word jest proste dzięki Aspose.Words. Możesz użyć `Range.replace` metoda osiągnięcia tego:
 
 ```python
 text_to_remove = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -143,14 +145,19 @@ Oczywiście! Aspose.Words umożliwia włączanie i zarządzanie śledzonymi zmia
 
 ### Jak mogę zapisać zmodyfikowany dokument?
 
- Użyj`save` metodę na obiekcie dokumentu, określającą ścieżkę do pliku wyjściowego, aby zapisać zmodyfikowany dokument.
+Użyj `save` metodę na obiekcie dokumentu, określającą ścieżkę do pliku wyjściowego, aby zapisać zmodyfikowany dokument.
 
 ### Gdzie mogę uzyskać dostęp do dokumentacji Aspose.Words dla języka Python?
 
- Szczegółową dokumentację i odniesienia do API można znaleźć pod adresem[Aspose.Words dla dokumentacji Pythona](https://reference.aspose.com/words/python-net/).
+Szczegółową dokumentację i odniesienia do interfejsu API można znaleźć pod adresem [Aspose.Words dla dokumentacji Pythona](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

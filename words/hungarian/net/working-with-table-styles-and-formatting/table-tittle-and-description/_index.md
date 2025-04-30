@@ -1,42 +1,50 @@
 ---
-title: Tűz és leírás a Wordben található táblázathoz Aspose.Words segítségével
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan adjon meg címet és leírást egy Word dokumentumban a .NET- hez Aspose.Words segítségével.
-keywords: [Aspose.Words, Word document, table title, table description, .NET example, table formatting, Aspose, OoxmlSaveOptions, document processing]
-url: /hu/net/working-with-table-styles-and-formatting/table-tittle-and-description/
+"description": "Tanuld meg, hogyan adhatsz címet és leírást egy táblázathoz egy Word-dokumentumban az Aspose.Words for .NET segítségével ebben a könnyen követhető példában."
+"title": "Cím és leírás hozzáadása a táblázathoz Wordben az Aspose.Words használatával"
+"url": "/hu/net/working-with-table-styles-and-formatting/table-tittle-and-description/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tűz és leírás a Wordben található táblázathoz Aspose.Words segítségével
+# Cím és leírás hozzáadása a táblázathoz Wordben az Aspose.Words használatával
 
-Ez a útmutató bemutatja, hogyan lehet javítani a Word dokumentumait egy cím és leírás hozzáadásával a táblázatokhoz a .NET-hez Aspose.Words segítségével. Megtanulja, hogyan manipulálja a táblázat tulajdonságait egy meglévő Word dokumentumban, konfigurálja a kívánt kompatibilitás mentésére vonatkozó lehetőségeket, és biztosítja a Word 2016 optimalizált formátálását. A példakód útmutatást nyújt egy dokumentum feltöltésével, a táblázat tulajdonságainak frissítésével és a fájl pontos konfigurációs beállításaival történő mentésével.
+Ez az útmutató bemutatja, hogyan javíthatja Word-dokumentumait cím és leírás hozzáadásával táblázatokhoz az Aspose.Words for .NET segítségével. Megtanulja, hogyan módosíthatja a táblázat tulajdonságait egy meglévő Word-dokumentumban, hogyan konfigurálhatja a mentési beállításokat a kívánt kompatibilitás érdekében, és hogyan biztosíthatja az optimalizált formázást a Word 2016-hoz. A példakód végigvezeti Önt egy dokumentum betöltésén, a táblázat tulajdonságainak frissítésén és a fájl pontos konfigurációs beállításokkal történő mentésén.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/table-tittle-and-description" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítás:
+## Telepítési utasítások:
 
-A .NET-hez Aspose.Words segítségével kezdeni, és futtatni ezt a példát, kövesse ezeket a egyszerű lépéseket:
+Az Aspose.Words for .NET használatának megkezdéséhez és a példa futtatásához kövesse az alábbi egyszerű lépéseket:
 
-1. A .NET-re telepítse az Aspose.Words-t:
-   Az Aspose.Words-ot a .NET-re könnyen telepítheti a NuGet-en keresztül. A csomagkezelő konzolon a következő parancsot futtassa:
+1. Telepítse az Aspose.Words programot .NET-hez:
+   Az Aspose.Words for .NET csomagot egyszerűen telepítheted NuGet segítségével. Futtasd a következő parancsot a Package Manager konzolban:
    ```
    Install-Package Aspose.Words
    ```
 
-2. A licenc alkalmazása (Felhetős):  
-   Hogy a teljes verziót használhassuk,[engedélyt kell alkalmazni](https://purchase.aspose.com/temporary-license/)vagy használjon egy [ingyenes próba](https://releases.aspose.com/words/net/)\- Nem.
+2. Licenc igénylése (opcionális):  
+   A teljes verzió használatához [licencet igényelni](https://purchase.aspose.com/temporary-license/) vagy használjon egy [ingyenes próba](https://releases.aspose.com/words/net/).
    
-## Lásd:
-[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
-[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
+## Lásd még
+[Aspose.Word .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word .NET-hez kapcsolódó hivatkozások](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

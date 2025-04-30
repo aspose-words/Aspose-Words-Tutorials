@@ -1,27 +1,29 @@
 ---
-title: Ustaw pozycję przypisu dolnego i końcowego
-linktitle: Ustaw pozycję przypisu dolnego i końcowego
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak ustawiać położenie przypisów dolnych i końcowych w dokumentach programu Word za pomocą narzędzia Aspose.Words dla platformy .NET, korzystając z tego szczegółowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/working-with-footnote-and-endnote/set-footnote-and-end-note-position/
+"description": "Dowiedz się, jak ustawiać położenie przypisów dolnych i końcowych w dokumentach programu Word za pomocą narzędzia Aspose.Words dla platformy .NET, korzystając z tego szczegółowego przewodnika krok po kroku."
+"linktitle": "Ustaw pozycję przypisu dolnego i końcowego"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ustaw pozycję przypisu dolnego i końcowego"
+"url": "/pl/net/working-with-footnote-and-endnote/set-footnote-and-end-note-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw pozycję przypisu dolnego i końcowego
 
 ## Wstęp
 
-Jeśli pracujesz z dokumentami Worda i musisz skutecznie zarządzać przypisami dolnymi i końcowymi, Aspose.Words for .NET jest Twoją biblioteką docelową. Ten samouczek przeprowadzi Cię przez ustawianie pozycji przypisów dolnych i końcowych w dokumencie Worda za pomocą Aspose.Words for .NET. Podzielimy każdy krok, aby ułatwić śledzenie i wdrażanie.
+Jeśli pracujesz z dokumentami Worda i musisz skutecznie zarządzać przypisami dolnymi i końcowymi, Aspose.Words for .NET jest Twoją biblioteką docelową. Ten samouczek przeprowadzi Cię przez ustawianie pozycji przypisów dolnych i końcowych w dokumencie Worda przy użyciu Aspose.Words for .NET. Podzielimy każdy krok, aby ułatwić śledzenie i wdrażanie.
 
 ## Wymagania wstępne
 
 Zanim przejdziesz do samouczka, upewnij się, że posiadasz następujące rzeczy:
 
--  Biblioteka Aspose.Words dla .NET: Można ją pobrać ze strony[Tutaj](https://releases.aspose.com/words/net/).
+- Biblioteka Aspose.Words dla .NET: Można ją pobrać ze strony [Tutaj](https://releases.aspose.com/words/net/).
 - Visual Studio: każda nowsza wersja będzie działać dobrze.
 - Podstawowa wiedza o języku C#: Zrozumienie podstaw ułatwi Ci naukę.
 
@@ -43,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- tym kodzie zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój dokument.
+W tym kodzie zamień `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój dokument.
 
 ## Krok 2: Ustaw pozycję przypisu
 
@@ -53,7 +55,7 @@ Następnie ustawisz pozycję przypisów. Aspose.Words dla .NET pozwala na pozycj
 doc.FootnoteOptions.Position = FootnotePosition.BeneathText;
 ```
 
- Tutaj ustawiliśmy przypisy tak, aby pojawiały się pod tekstem. Jeśli wolisz, aby znajdowały się na dole strony, użyj`FootnotePosition.BottomOfPage`.
+Tutaj ustawiliśmy przypisy tak, aby pojawiały się pod tekstem. Jeśli wolisz, aby znajdowały się na dole strony, użyj `FootnotePosition.BottomOfPage`.
 
 ## Krok 3: Ustaw położenie przypisu końcowego
 
@@ -63,7 +65,7 @@ Podobnie możesz ustawić pozycję przypisów końcowych. Przypisy końcowe mog�
 doc.EndnoteOptions.Position = EndnotePosition.EndOfSection;
 ```
 
- W tym przykładzie przypisy końcowe są umieszczane na końcu każdej sekcji. Aby umieścić je na końcu dokumentu, użyj`EndnotePosition.EndOfDocument`.
+W tym przykładzie przypisy końcowe są umieszczane na końcu każdej sekcji. Aby umieścić je na końcu dokumentu, użyj `EndnotePosition.EndOfDocument`.
 
 ## Krok 4: Zapisz dokument
 
@@ -95,14 +97,19 @@ Aspose.Words for .NET jest przeznaczony dla aplikacji .NET, ale można go używa
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Words dla .NET?
 
- Tak, możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Tak, możesz otrzymać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację Aspose.Words dla .NET?
 
- Dostępna jest szczegółowa dokumentacja[Tutaj](https://reference.aspose.com/words/net/).
+Dostępna jest szczegółowa dokumentacja [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

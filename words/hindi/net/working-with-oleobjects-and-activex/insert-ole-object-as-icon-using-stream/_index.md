@@ -1,14 +1,16 @@
 ---
-title: स्ट्रीम का उपयोग करके ओले ऑब्जेक्ट को आइकन के रूप में डालें
-linktitle: स्ट्रीम का उपयोग करके ओले ऑब्जेक्ट को आइकन के रूप में डालें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस विस्तृत, चरण-दर-चरण ट्यूटोरियल में जानें कि .NET के लिए Aspose.Words के साथ स्ट्रीम का उपयोग करके एक OLE ऑब्जेक्ट को आइकन के रूप में कैसे सम्मिलित किया जाए।
-weight: 10
-url: /hi/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon-using-stream/
+"description": "इस विस्तृत, चरण-दर-चरण ट्यूटोरियल में जानें कि .NET के लिए Aspose.Words के साथ स्ट्रीम का उपयोग करके एक OLE ऑब्जेक्ट को आइकन के रूप में कैसे सम्मिलित किया जाए।"
+"linktitle": "स्ट्रीम का उपयोग करके ओले ऑब्जेक्ट को आइकन के रूप में डालें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "स्ट्रीम का उपयोग करके ओले ऑब्जेक्ट को आइकन के रूप में डालें"
+"url": "/hi/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon-using-stream/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # स्ट्रीम का उपयोग करके ओले ऑब्जेक्ट को आइकन के रूप में डालें
@@ -21,7 +23,7 @@ url: /hi/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon-using
 
 इससे पहले कि हम कोड में प्रवेश करें, आपको कुछ चीजों की आवश्यकता होगी:
 
--  .NET के लिए Aspose.Words: यदि आपने पहले से ऐसा नहीं किया है,[डाउनलोड करना](https://releases.aspose.com/words/net/) और .NET के लिए Aspose.Words स्थापित करें।
+- .NET के लिए Aspose.Words: यदि आपने पहले से ऐसा नहीं किया है, [डाउनलोड करना](https://releases.aspose.com/words/net/) और .NET के लिए Aspose.Words स्थापित करें।
 - विकास वातावरण: विजुअल स्टूडियो या कोई अन्य C# विकास वातावरण।
 - इनपुट फ़ाइलें: वह फ़ाइल जिसे आप एम्बेड करना चाहते हैं (उदाहरण के लिए, एक पावरपॉइंट प्रस्तुति) और एक आइकन छवि।
 
@@ -36,7 +38,7 @@ using Aspose.Words;
 using Aspose.Words.Drawing;
 ```
 
-आइये इस प्रक्रिया को चरणबद्ध तरीके से समझें ताकि इसका अनुसरण करना आसान हो जाए।
+आइये इस प्रक्रिया को चरण दर चरण समझें ताकि इसका अनुसरण करना आसान हो जाए।
 
 ## चरण 1: नया दस्तावेज़ बनाएँ
 
@@ -49,7 +51,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- के बारे में सोचें`Document` अपने खाली कैनवास के रूप में और`DocumentBuilder` अपने पेंटब्रश के रूप में। हम अपनी उत्कृष्ट कृति बनाने के लिए अपने उपकरण स्थापित कर रहे हैं।
+के बारे में सोचें `Document` अपने खाली कैनवास के रूप में और `DocumentBuilder` अपने पेंटब्रश के रूप में। हम अपनी उत्कृष्ट कृति बनाने के लिए अपने उपकरण स्थापित कर रहे हैं।
 
 ## चरण 2: स्ट्रीम तैयार करें
 
@@ -93,19 +95,24 @@ doc.Save(dataDir + "WorkingWithOleObjectsAndActiveX.InsertOleObjectAsIconUsingSt
 हां, आप OLE द्वारा समर्थित किसी भी फ़ाइल प्रकार को एम्बेड कर सकते हैं, जिसमें Word, Excel, PowerPoint आदि शामिल हैं।
 
 ### क्या मुझे .NET के लिए Aspose.Words का उपयोग करने के लिए किसी विशेष लाइसेंस की आवश्यकता है?
- हां, .NET के लिए Aspose.Words को लाइसेंस की आवश्यकता होती है। आप एक प्राप्त कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) या खरीदें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) परीक्षण के लिए.
+हां, .NET के लिए Aspose.Words को लाइसेंस की आवश्यकता होती है। आप एक प्राप्त कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) या खरीदें [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) परीक्षण के लिए.
 
 ### क्या मैं OLE ऑब्जेक्ट के लिए प्रयुक्त आइकन को अनुकूलित कर सकता हूँ?
- बिल्कुल! आप आइकन के लिए किसी भी छवि फ़ाइल का उपयोग कर सकते हैं, इसके लिए आपको उसका पथ निर्दिष्ट करना होगा।`InsertOleObjectAsIcon` तरीका।
+बिल्कुल! आप आइकन के लिए किसी भी छवि फ़ाइल का उपयोग कर सकते हैं, इसके लिए आपको उसका पथ निर्दिष्ट करना होगा। `InsertOleObjectAsIcon` तरीका।
 
 ### यदि फ़ाइल या आइकन पथ गलत हों तो क्या होगा?
 विधि अपवाद उत्पन्न करेगी। त्रुटियों से बचने के लिए सुनिश्चित करें कि आपकी फ़ाइलों के पथ सही हैं।
 
 ### क्या एम्बेडेड ऑब्जेक्ट को एम्बेड करने के बजाय लिंक करना संभव है?
 हां, Aspose.Words आपको लिंक किए गए OLE ऑब्जेक्ट्स को सम्मिलित करने की अनुमति देता है, जो फ़ाइल की सामग्री को एम्बेड किए बिना उसे संदर्भित करता है।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

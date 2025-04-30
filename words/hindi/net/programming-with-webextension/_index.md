@@ -1,14 +1,16 @@
 ---
-title: वेबएक्सटेंशन के साथ शब्द प्रसंस्करण
-linktitle: वेबएक्सटेंशन के साथ शब्द प्रसंस्करण
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: Aspose.Words for .NET के साथ Word दस्तावेज़ों के लिए वेब एक्सटेंशन विकसित करना सीखें। वेब एक्सटेंशन बनाना, संशोधित करना और उन्हें अनुकूलित करना सीखें, उन्हें अपने Word दस्तावेज़ों में एकीकृत करें।
-weight: 1530
-url: /hi/net/programming-with-webextension/
+"description": "Aspose.Words for .NET के साथ Word दस्तावेज़ों के लिए वेब एक्सटेंशन विकसित करना सीखें। वेब एक्सटेंशन बनाना, संशोधित करना और उन्हें अनुकूलित करना सीखें, उन्हें अपने Word दस्तावेज़ों में एकीकृत करें।"
+"linktitle": "वेबएक्सटेंशन के साथ शब्द प्रसंस्करण"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वेबएक्सटेंशन के साथ शब्द प्रसंस्करण"
+"url": "/hi/net/programming-with-webextension/"
+"weight": 1530
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वेबएक्सटेंशन के साथ शब्द प्रसंस्करण
@@ -23,9 +25,14 @@ url: /hi/net/programming-with-webextension/
 | शीर्षक | विवरण |
 | --- | --- |
 | [वेब एक्सटेंशन टास्क पैन का उपयोग करना](./using-web-extension-task-panes/) | इस विस्तृत, चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में वेब एक्सटेंशन टास्क पैन को जोड़ने और कॉन्फ़िगर करने का तरीका जानें। |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

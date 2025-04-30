@@ -1,27 +1,29 @@
 ---
-title: Boşluklarla Numaralandırmayı Algıla
-linktitle: Boşluklarla Numaralandırmayı Algıla
-second_title: Aspose.Words Belge İşleme API'si
-description: Düz metin belgelerinde boşluk içeren numaralandırmayı algılamak ve listelerinizin doğru şekilde tanınmasını sağlamak için Aspose.Words for .NET'in nasıl kullanılacağını keşfedin.
-weight: 10
-url: /tr/net/programming-with-txtloadoptions/detect-numbering-with-whitespaces/
+"description": "Düz metin belgelerinde boşluk içeren numaralandırmayı algılamak ve listelerinizin doğru şekilde tanınmasını sağlamak için Aspose.Words for .NET'in nasıl kullanılacağını keşfedin."
+"linktitle": "Boşluklarla Numaralandırmayı Algıla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Boşluklarla Numaralandırmayı Algıla"
+"url": "/tr/net/programming-with-txtloadoptions/detect-numbering-with-whitespaces/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Boşluklarla Numaralandırmayı Algıla
 
 ## giriiş
 
-.NET meraklıları için Aspose.Words! Bugün, düz metin belgelerindeki listeleri işlemeyi çocuk oyuncağı haline getirebilecek büyüleyici bir özelliği ele alacağız. Bazı satırların liste olması gereken ancak Word belgesine yüklendiğinde pek de doğru görünmeyen metin dosyalarıyla hiç uğraştınız mı? İşte, elimizde harika bir numara var: boşluklarla numaralandırmayı algılama. Bu eğitim, size`DetectNumberingWithWhitespaces` Aspose.Words for .NET'teki bu seçeneği kullanarak, sayılarla metin arasında boşluk olsa bile listelerinizin doğru şekilde tanınmasını sağlayabilirsiniz.
+.NET meraklıları için Aspose.Words! Bugün, düz metin belgelerindeki listeleri işlemeyi çocuk oyuncağı haline getirebilecek büyüleyici bir özelliği ele alacağız. Bazı satırların liste olması gereken ancak Word belgesine yüklendiğinde pek de doğru görünmeyen metin dosyalarıyla hiç uğraştınız mı? İşte, elimizde harika bir numara var: boşluklarla numaralandırmayı algılama. Bu eğitim, size `DetectNumberingWithWhitespaces` Aspose.Words for .NET'teki bu seçeneği kullanarak, sayılarla metin arasında boşluk olsa bile listelerinizin doğru şekilde tanınmasını sağlayabilirsiniz.
 
 ## Ön koşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
--  Aspose.Words for .NET: Bunu şu adresten indirebilirsiniz:[Aspose Sürümleri](https://releases.aspose.com/words/net/) sayfa.
+- Aspose.Words for .NET: Bunu şu adresten indirebilirsiniz: [Aspose Sürümleri](https://releases.aspose.com/words/net/) sayfa.
 - Geliştirme Ortamı: Visual Studio veya herhangi bir C# IDE.
 - Bilgisayarınızda .NET Framework yüklü olmalıdır.
 - C# Temel Bilgisi: Temelleri anlamak, örnekleri takip etmenize yardımcı olacaktır.
@@ -72,7 +74,7 @@ const string textDoc = "Full stop delimiters:\n" +
 
 ## Adım 3: LoadOptions'ı yapılandırın
 
- Boşluklu numaralandırmayı algılamak için, şunu ayarlamamız gerekir:`DetectNumberingWithWhitespaces` seçeneği`true` bir`TxtLoadOptions` nesne.
+Boşluklu numaralandırmayı algılamak için, şunu ayarlamamız gerekir: `DetectNumberingWithWhitespaces` seçeneği `true` bir `TxtLoadOptions` nesne.
 
 ```csharp
 TxtLoadOptions loadOptions = new TxtLoadOptions { DetectNumberingWithWhitespaces = true };
@@ -80,7 +82,7 @@ TxtLoadOptions loadOptions = new TxtLoadOptions { DetectNumberingWithWhitespaces
 
 ## Adım 4: Belgeyi Yükleyin
 
- Şimdi, belgeyi kullanarak yükleyelim`TxtLoadOptions` parametre olarak. Bu, dördüncü listenin (boşluklarla birlikte) doğru şekilde algılanmasını sağlar.
+Şimdi, belgeyi kullanarak yükleyelim `TxtLoadOptions` parametre olarak. Bu, dördüncü listenin (boşluklarla birlikte) doğru şekilde algılanmasını sağlar.
 
 ```csharp
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(textDoc)), loadOptions);
@@ -100,25 +102,30 @@ doc.Save(dataDir + "WorkingWithTxtLoadOptions.DetectNumberingWithWhitespaces.doc
 
 ## SSS
 
-###  Nedir?`DetectNumberingWithWhitespaces` in Aspose.Words for .NET?
-`DetectNumberingWithWhitespaces` bir seçenektir`TxtLoadOptions` Bu, Aspose.Words'ün numaralandırma ile liste öğesi metni arasında boşluk olsa bile listeleri tanımasını sağlar.
+### Nedir? `DetectNumberingWithWhitespaces` Aspose.Words'de .NET için mi?
+`DetectNumberingWithWhitespaces` bir seçenektir `TxtLoadOptions` Bu, Aspose.Words'ün numaralandırma ile liste öğesi metni arasında boşluk olsa bile listeleri tanımasını sağlar.
 
 ### Bu özelliği madde işaretleri ve parantezler gibi diğer sınırlayıcılar için de kullanabilir miyim?
- Evet, Aspose.Words madde işaretleri ve köşeli parantezler gibi yaygın sınırlayıcılara sahip listeleri otomatik olarak algılar.`DetectNumberingWithWhitespaces` özellikle boşluk içeren listelerde yardımcı olur.
+Evet, Aspose.Words madde işaretleri ve köşeli parantezler gibi yaygın sınırlayıcılara sahip listeleri otomatik olarak algılar. `DetectNumberingWithWhitespaces` özellikle boşluk içeren listelerde yardımcı olur.
 
-###  Kullanmazsam ne olur?`DetectNumberingWithWhitespaces`?
+### Kullanmazsam ne olur? `DetectNumberingWithWhitespaces`?
 Bu seçenek olmadan, numaralandırma ile metin arasında boşluk bulunan listeler liste olarak tanınmayabilir ve öğeler düz paragraflar olarak görünebilir.
 
 ### Bu özellik diğer Aspose ürünlerinde mevcut mu?
 Bu özel özellik, Word belge işlemeyi ele almak üzere tasarlanmış Aspose.Words for .NET için özel olarak tasarlanmıştır.
 
 ### Aspose.Words for .NET için geçici lisansı nasıl alabilirim?
- Geçici bir lisansı şuradan alabilirsiniz:[Aspose Geçici Lisans](https://purchase.aspose.com/temporary-license/) sayfa.
+Geçici bir lisansı şuradan alabilirsiniz: [Aspose Geçici Lisans](https://purchase.aspose.com/temporary-license/) sayfa.
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

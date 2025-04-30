@@ -1,14 +1,16 @@
 ---
-title: ขีดฆ่า
-linktitle: ขีดฆ่า
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีใช้การจัดรูปแบบขีดทับกับข้อความโดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนของเรา พัฒนาทักษะการประมวลผลเอกสารของคุณ
-weight: 10
-url: /th/net/working-with-markdown/strikethrough/
+"description": "เรียนรู้วิธีใช้การจัดรูปแบบขีดทับกับข้อความโดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนของเรา พัฒนาทักษะการประมวลผลเอกสารของคุณ"
+"linktitle": "ขีดฆ่า"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ขีดฆ่า"
+"url": "/th/net/working-with-markdown/strikethrough/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ขีดฆ่า
@@ -21,7 +23,7 @@ url: /th/net/working-with-markdown/strikethrough/
 
 ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
--  Aspose.Words สำหรับ .NET: ดาวน์โหลด[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ดาวน์โหลด [ที่นี่](https://releases-aspose.com/words/net/).
 - .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework ไว้ในระบบของคุณแล้ว
 - สภาพแวดล้อมการพัฒนา: IDE เช่น Visual Studio
 - ความรู้พื้นฐานเกี่ยวกับ C#: มีความคุ้นเคยกับการเขียนโปรแกรม C# เป็นสิ่งจำเป็น
@@ -38,7 +40,7 @@ using Aspose.Words.Saving;
 
 ## ขั้นตอนที่ 1: เริ่มต้นใช้งาน DocumentBuilder
 
- การ`DocumentBuilder` class เป็นเครื่องมืออันทรงพลังใน Aspose.Words ที่ช่วยให้คุณสามารถเพิ่มเนื้อหาลงในเอกสารของคุณได้อย่างง่ายดาย
+การ `DocumentBuilder` class เป็นเครื่องมืออันทรงพลังใน Aspose.Words ที่ช่วยให้คุณสามารถเพิ่มเนื้อหาลงในเอกสารของคุณได้อย่างง่ายดาย
 
 ```csharp
 // เริ่มต้นใช้งาน DocumentBuilder
@@ -47,7 +49,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 ## ขั้นตอนที่ 2: ตั้งค่าคุณสมบัติ Strikethrough
 
-ตอนนี้ ลองใช้คุณสมบัติการขีดฆ่ากับข้อความของเรา ซึ่งเกี่ยวข้องกับการตั้งค่า`StrikeThrough` ทรัพย์สินของ`Font` คัดค้าน`true`.
+ตอนนี้ ลองใช้คุณสมบัติการขีดฆ่ากับข้อความของเรา ซึ่งเกี่ยวข้องกับการตั้งค่า `StrikeThrough` ทรัพย์สินของ `Font` คัดค้าน `true`-
 
 ```csharp
 // ให้ข้อความถูกขีดฆ่า
@@ -56,7 +58,7 @@ builder.Font.StrikeThrough = true;
 
 ## ขั้นตอนที่ 3: เขียนข้อความโดยขีดฆ่า
 
- เมื่อตั้งค่าคุณสมบัติการขีดฆ่าแล้ว ตอนนี้เราสามารถเพิ่มข้อความของเราได้แล้ว`Writeln` วิธีการจะเพิ่มข้อความลงในเอกสาร
+เมื่อตั้งค่าคุณสมบัติการขีดฆ่าแล้ว ตอนนี้เราสามารถเพิ่มข้อความของเราได้แล้ว `Writeln` วิธีการจะเพิ่มข้อความลงในเอกสาร
 
 ```csharp
 // เขียนข้อความโดยใช้การขีดฆ่า
@@ -73,19 +75,24 @@ builder.Writeln("This text will be StrikeThrough");
 Aspose.Words for .NET เป็นไลบรารีการประมวลผลเอกสารอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร Word ได้โดยการใช้โปรแกรม
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ .NET ในโครงการเชิงพาณิชย์ได้หรือไม่
- ใช่ คุณสามารถใช้ Aspose.Words สำหรับโปรเจ็กต์เชิงพาณิชย์ได้ สำหรับตัวเลือกการซื้อ โปรดไปที่[หน้าซื้อ](https://purchase.aspose.com/buy).
+ใช่ คุณสามารถใช้ Aspose.Words สำหรับโปรเจ็กต์เชิงพาณิชย์ได้ สำหรับตัวเลือกการซื้อ โปรดไปที่ [หน้าซื้อ](https://purchase-aspose.com/buy).
 
 ### มี Aspose.Words สำหรับ .NET ให้ทดลองใช้งานฟรีหรือไม่
- ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ได้อย่างไร
-คุณสามารถรับการสนับสนุนจากชุมชน Aspose และผู้เชี่ยวชาญได้ที่[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8).
+คุณสามารถรับการสนับสนุนจากชุมชน Aspose และผู้เชี่ยวชาญได้ที่ [ฟอรั่มสนับสนุน](https://forum-aspose.com/c/words/8).
 
 ### ฉันสามารถใช้ตัวเลือกการจัดรูปแบบข้อความอื่นโดยใช้ Aspose.Words สำหรับ .NET ได้หรือไม่
 แน่นอน! Aspose.Words สำหรับ .NET รองรับตัวเลือกการจัดรูปแบบข้อความมากมาย รวมถึงตัวหนา ตัวเอียง ขีดเส้นใต้ และอื่นๆ
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

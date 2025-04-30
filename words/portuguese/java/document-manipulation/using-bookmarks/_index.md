@@ -1,14 +1,16 @@
 ---
-title: Usando marcadores no Aspose.Words para Java
-linktitle: Usando marcadores
-second_title: API de processamento de documentos Java Aspose.Words
-description: Otimize o processamento de seus documentos com Aspose.Words para Java. Aprenda a usar marcadores para navegação e manipulação de conteúdo eficientes neste guia passo a passo.
-weight: 17
-url: /pt/java/document-manipulation/using-bookmarks/
+"description": "Otimize o processamento de seus documentos com o Aspose.Words para Java. Aprenda a usar marcadores para navegação e manipulação eficientes de conteúdo neste guia passo a passo."
+"linktitle": "Usando marcadores"
+"second_title": "API de processamento de documentos Java Aspose.Words"
+"title": "Usando marcadores no Aspose.Words para Java"
+"url": "/pt/java/document-manipulation/using-bookmarks/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usando marcadores no Aspose.Words para Java
@@ -16,7 +18,7 @@ url: /pt/java/document-manipulation/using-bookmarks/
 
 ## Introdução ao uso de marcadores no Aspose.Words para Java
 
-Os marcadores são um recurso poderoso no Aspose.Words para Java que permite que você marque e manipule partes específicas de um documento. Neste guia passo a passo, exploraremos como usar marcadores no Aspose.Words para Java para aprimorar o processamento de documentos. 
+Os marcadores são um recurso poderoso do Aspose.Words para Java que permite marcar e manipular partes específicas de um documento. Neste guia passo a passo, exploraremos como usar marcadores no Aspose.Words para Java para aprimorar o processamento de documentos. 
 
 ## Etapa 1: Criando um marcador
 
@@ -26,17 +28,17 @@ Para criar um marcador, siga estes passos:
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Iniciar o marcador
+// Comece o marcador
 builder.startBookmark("My Bookmark");
 builder.writeln("Text inside a bookmark.");
 
-//Finalizar o marcador
+// Finalizar o marcador
 builder.endBookmark("My Bookmark");
 ```
 
 ## Etapa 2: Acessando os favoritos
 
-Você pode acessar marcadores em um documento usando seu índice ou nome. Veja como:
+Você pode acessar os favoritos em um documento usando o índice ou o nome deles. Veja como:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -50,7 +52,7 @@ Bookmark bookmark2 = doc.getRange().getBookmarks().get("MyBookmark3");
 
 ## Etapa 3: Atualizando dados de favoritos
 
-Para atualizar os dados do marcador, use o seguinte código:
+Para atualizar os dados dos favoritos, use o seguinte código:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -76,7 +78,7 @@ dstDoc.save("Your Directory Path" + "WorkingWithBookmarks.CopyBookmarkedText.doc
 
 ## Etapa 5: Mostrar e ocultar favoritos
 
-Você pode mostrar ou ocultar marcadores em um documento. Aqui está um exemplo:
+Você pode mostrar ou ocultar marcadores em um documento. Veja um exemplo:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -84,9 +86,9 @@ showHideBookmarkedContent(doc, "MyBookmark1", false);
 doc.save("Your Directory Path" + "WorkingWithBookmarks.ShowHideBookmarks.docx");
 ```
 
-## Etapa 6: desembaraçando marcadores de linha
+## Etapa 6: desembaraçando os marcadores de linha
 
-Desembaraçar marcadores de linha permite que você trabalhe com eles de forma mais eficaz:
+Desvendar marcadores de linha permite que você trabalhe com eles de forma mais eficaz:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table column bookmarks.docx");
@@ -97,17 +99,17 @@ doc.save("Your Directory Path" + "WorkingWithBookmarks.UntangleRowBookmarks.docx
 
 ## Conclusão
 
-Usar marcadores no Aspose.Words para Java pode simplificar muito as tarefas de processamento de documentos. Não importa se você precisa navegar, extrair ou manipular conteúdo, os marcadores fornecem um mecanismo poderoso para fazer isso de forma eficiente.
+Usar marcadores no Aspose.Words para Java pode simplificar bastante as tarefas de processamento de documentos. Seja para navegar, extrair ou manipular conteúdo, os marcadores fornecem um mecanismo poderoso para fazer isso com eficiência.
 
 ## Perguntas frequentes
 
 ### Como criar um marcador em uma célula de tabela?
 
- Para criar um marcador em uma célula de tabela, use o`DocumentBuilder` classe e iniciar e terminar o marcador dentro da célula.
+Para criar um marcador em uma célula de tabela, use o `DocumentBuilder` classe e iniciar e terminar o marcador dentro da célula.
 
 ### Posso copiar um marcador para outro documento?
 
- Sim, você pode copiar um marcador para outro documento usando o`NodeImporter` classe para garantir que a formatação seja preservada.
+Sim, você pode copiar um marcador para outro documento usando o `NodeImporter` classe para garantir que a formatação seja preservada.
 
 ### Como posso excluir uma linha pelo seu marcador?
 
@@ -119,10 +121,15 @@ Os marcadores são comumente usados para gerar índices, extrair conteúdo espec
 
 ### Onde posso encontrar mais informações sobre o Aspose.Words para Java?
 
- Para documentação detalhada e downloads, visite[Aspose.Words para documentação Java](https://reference.aspose.com/words/java/).
+Para documentação detalhada e downloads, visite [Aspose.Words para documentação Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

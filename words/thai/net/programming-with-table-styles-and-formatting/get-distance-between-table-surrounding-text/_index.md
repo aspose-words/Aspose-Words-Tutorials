@@ -1,14 +1,16 @@
 ---
-title: รับระยะห่างระหว่างตารางกับข้อความโดยรอบ
-linktitle: รับระยะห่างระหว่างตารางกับข้อความโดยรอบ
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการดึงข้อมูลระยะห่างระหว่างตารางและข้อความโดยรอบในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปรับปรุงเค้าโครงเอกสารของคุณด้วยคู่มือนี้
-weight: 10
-url: /th/net/programming-with-table-styles-and-formatting/get-distance-between-table-surrounding-text/
+"description": "เรียนรู้วิธีการดึงข้อมูลระยะห่างระหว่างตารางและข้อความโดยรอบในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปรับปรุงเค้าโครงเอกสารของคุณด้วยคู่มือนี้"
+"linktitle": "รับระยะห่างระหว่างตารางกับข้อความโดยรอบ"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "รับระยะห่างระหว่างตารางกับข้อความโดยรอบ"
+"url": "/th/net/programming-with-table-styles-and-formatting/get-distance-between-table-surrounding-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับระยะห่างระหว่างตารางกับข้อความโดยรอบ
@@ -19,9 +21,9 @@ url: /th/net/programming-with-table-styles-and-formatting/get-distance-between-t
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่จะเริ่มเขียนโค้ด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการแล้ว:
+ก่อนที่จะเริ่มเขียนโค้ด เรามาตรวจสอบก่อนว่าคุณมีทุกสิ่งที่คุณต้องการแล้ว:
 
-1.  ไลบรารี Aspose.Words สำหรับ .NET: คุณต้องติดตั้งไลบรารี Aspose.Words สำหรับ .NET หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดจาก[การเปิดตัว Aspose](https://releases.aspose.com/words/net/) หน้าหนังสือ.
+1. ไลบรารี Aspose.Words สำหรับ .NET: คุณต้องติดตั้งไลบรารี Aspose.Words สำหรับ .NET หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดจาก [การเปิดตัว Aspose](https://releases.aspose.com/words/net/) หน้าหนังสือ.
 2. สภาพแวดล้อมการพัฒนา: สภาพแวดล้อมการพัฒนาที่ทำงานโดยมีการติดตั้ง .NET Framework Visual Studio เป็นตัวเลือกที่ดี
 3. เอกสารตัวอย่าง: เอกสาร Word (.docx) ที่มีตารางอย่างน้อยหนึ่งตารางเพื่อทดสอบโค้ด
 
@@ -38,7 +40,7 @@ using Aspose.Words.Tables;
 
 ## ขั้นตอนที่ 1: โหลดเอกสารของคุณ
 
- ขั้นตอนแรกคือโหลดเอกสาร Word ของคุณลงใน Aspose.Words`Document` วัตถุ วัตถุนี้แสดงถึงเอกสารทั้งหมด
+ขั้นตอนแรกคือโหลดเอกสาร Word ของคุณลงใน Aspose.Words `Document` วัตถุ วัตถุนี้แสดงถึงเอกสารทั้งหมด
 
 ```csharp
 // เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
@@ -50,7 +52,7 @@ Document doc = new Document(dataDir + "Tables.docx");
 
 ## ขั้นตอนที่ 2: เข้าถึงตาราง
 
- ขั้นต่อไป คุณต้องเข้าถึงตารางภายในเอกสารของคุณ`GetChild` วิธีการนี้ช่วยให้คุณดึงข้อมูลตารางแรกที่พบในเอกสารได้
+ขั้นต่อไป คุณต้องเข้าถึงตารางภายในเอกสารของคุณ `GetChild` วิธีการนี้ช่วยให้คุณดึงข้อมูลตารางแรกที่พบในเอกสารได้
 
 ```csharp
 // รับตารางแรกในเอกสาร
@@ -89,10 +91,10 @@ Console.WriteLine("Distance from Left: " + table.DistanceLeft);
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถปรับระยะทางตามโปรแกรมได้หรือไม่
- ใช่ คุณสามารถปรับระยะทางโดยใช้โปรแกรม Aspose.Words โดยตั้งค่า`DistanceTop`, `DistanceBottom`, `DistanceRight` , และ`DistanceLeft` คุณสมบัติของ`Table` วัตถุ.
+ใช่ คุณสามารถปรับระยะทางโดยใช้โปรแกรม Aspose.Words โดยตั้งค่า `DistanceTop`- `DistanceBottom`- `DistanceRight`, และ `DistanceLeft` คุณสมบัติของ `Table` วัตถุ.
 
 ### จะเกิดอะไรขึ้นหากเอกสารของฉันมีตารางหลายตาราง?
- คุณสามารถวนซ้ำผ่านโหนดย่อยของเอกสารและใช้วิธีการเดียวกันกับแต่ละตารางได้ ใช้`GetChildNodes(NodeType.Table, true)` เพื่อรับตารางทั้งหมด
+คุณสามารถวนซ้ำผ่านโหนดย่อยของเอกสารและใช้วิธีการเดียวกันกับแต่ละตารางได้ ใช้ `GetChildNodes(NodeType.Table, true)` เพื่อรับตารางทั้งหมด
 
 ### ฉันสามารถใช้ Aspose.Words กับ .NET Core ได้หรือไม่
 แน่นอน! Aspose.Words รองรับ .NET Core และคุณสามารถใช้โค้ดเดียวกันนี้กับโปรเจ็กต์ .NET Core ได้โดยมีการปรับเปลี่ยนเล็กน้อย
@@ -101,10 +103,15 @@ Console.WriteLine("Distance from Left: " + table.DistanceLeft);
 คุณสามารถติดตั้ง Aspose.Words สำหรับ .NET ผ่านตัวจัดการแพ็กเกจ NuGet ใน Visual Studio เพียงค้นหา "Aspose.Words" และติดตั้งแพ็กเกจ
 
 ### มีข้อจำกัดใด ๆ เกี่ยวกับประเภทเอกสารที่รองรับโดย Aspose.Words หรือไม่
- Aspose.Words รองรับรูปแบบเอกสารหลากหลาย เช่น DOCX, DOC, PDF, HTML และอื่นๆ ตรวจสอบ[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายการรูปแบบที่รองรับทั้งหมด
+Aspose.Words รองรับรูปแบบเอกสารหลากหลาย เช่น DOCX, DOC, PDF, HTML และอื่นๆ ตรวจสอบ [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายการรูปแบบที่รองรับทั้งหมด
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

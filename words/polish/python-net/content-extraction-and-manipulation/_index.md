@@ -1,14 +1,16 @@
 ---
-title: Ekstrakcja i manipulacja treścią
-linktitle: Ekstrakcja i manipulacja treścią
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Odkryj świat ekstrakcji i manipulacji treścią dzięki samouczkom Aspose.Words. Dowiedz się, jak wydajnie wyodrębniać i manipulować treścią za pomocą Pythona i .NET, zwiększając możliwości przetwarzania dokumentów.
-weight: 11
-url: /pl/python-net/content-extraction-and-manipulation/
+"description": "Odkryj świat ekstrakcji i manipulacji treścią dzięki samouczkom Aspose.Words. Dowiedz się, jak wydajnie wyodrębniać i manipulować treścią za pomocą Pythona i .NET, zwiększając możliwości przetwarzania dokumentów."
+"linktitle": "Ekstrakcja i manipulacja treścią"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Ekstrakcja i manipulacja treścią"
+"url": "/pl/python-net/content-extraction-and-manipulation/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekstrakcja i manipulacja treścią
@@ -36,7 +38,7 @@ W tych samouczkach zagłębisz się w podstawowe koncepcje i techniki ekstrakcji
 Pod koniec tych samouczków będziesz wyposażony w wiedzę, aby z łatwością radzić sobie z różnymi zadaniami związanymi z manipulacją treścią dokumentów. Zdobędziesz wgląd w najlepsze praktyki dotyczące wyodrębniania i manipulowania treścią, zapewniając, że Twoje przepływy pracy przetwarzania dokumentów są wydajne, dokładne i dostosowane do Twoich konkretnych potrzeb.
 
 ## Samouczki dotyczące ekstrakcji i manipulacji treścią
-### [Wyodrębnianie i modyfikowanie zawartości w dokumentach programu Word](./extract-modify-document-content/)
+### [Ekstrahowanie i modyfikowanie zawartości w dokumentach Word](./extract-modify-document-content/)
 Dowiedz się, jak wyodrębnić i zmodyfikować zawartość dokumentów Word za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym.
 ### [Efektywne wyodrębnianie treści z dokumentów Word](./document-content-extraction/)
 Wydajnie wyodrębniaj zawartość z dokumentów Word za pomocą Aspose.Words dla Pythona. Ucz się krok po kroku na przykładach kodu.
@@ -44,9 +46,13 @@ Wydajnie wyodrębniaj zawartość z dokumentów Word za pomocą Aspose.Words dla
 Poznaj zaawansowane techniki znajdowania i zamieniania w dokumentach Worda za pomocą Aspose.Words dla Pythona. Zamień tekst, użyj wyrażeń regularnych, formatowania i nie tylko.
 ### [Usuwanie i udoskonalanie zawartości w dokumentach programu Word](./remove-content-documents/)
 Dowiedz się, jak skutecznie usuwać i udoskonalać zawartość dokumentów Word za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z przykładami kodu źródłowego.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

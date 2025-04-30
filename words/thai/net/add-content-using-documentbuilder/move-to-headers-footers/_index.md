@@ -1,14 +1,16 @@
 ---
-title: ย้ายไปที่ส่วนหัว ส่วนท้าย ในเอกสาร Word
-linktitle: ย้ายไปที่ส่วนหัว ส่วนท้าย ในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการย้ายส่วนหัวและส่วนท้ายในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนของเรา พัฒนาทักษะการสร้างเอกสารของคุณ
-weight: 10
-url: /th/net/add-content-using-documentbuilder/move-to-headers-footers/
+"description": "เรียนรู้วิธีการย้ายส่วนหัวและส่วนท้ายในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนของเรา พัฒนาทักษะการสร้างเอกสารของคุณ"
+"linktitle": "ย้ายไปที่ส่วนหัว ส่วนท้าย ในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ย้ายไปที่ส่วนหัว ส่วนท้าย ในเอกสาร Word"
+"url": "/th/net/add-content-using-documentbuilder/move-to-headers-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ย้ายไปที่ส่วนหัว ส่วนท้าย ในเอกสาร Word
@@ -21,9 +23,9 @@ url: /th/net/add-content-using-documentbuilder/move-to-headers-footers/
 
 ก่อนที่เราจะเจาะลึกโค้ด เรามาตรวจสอบกันก่อนว่าคุณได้ตั้งค่าทุกอย่างเรียบร้อยแล้ว:
 
-1. **Aspose.Words for .NET** : ตรวจสอบว่าคุณมีไลบรารี Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก[หน้าวางจำหน่าย Aspose](https://releases.aspose.com/words/net/).
-2. **Development Environment**คุณต้องมีสภาพแวดล้อมการพัฒนาเช่น Visual Studio
-3. **Basic Knowledge of C#**:การเข้าใจพื้นฐานของการเขียนโปรแกรม C# จะช่วยให้คุณทำตามได้
+1. **Aspose.คำศัพท์สำหรับ .NET**: ตรวจสอบว่าคุณมีไลบรารี Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก [หน้าวางจำหน่าย Aspose](https://releases-aspose.com/words/net/).
+2. **สภาพแวดล้อมการพัฒนา**: คุณต้องมีสภาพแวดล้อมการพัฒนาเช่น Visual Studio
+3. **ความรู้พื้นฐานเกี่ยวกับ C#**:การเข้าใจพื้นฐานของการเขียนโปรแกรม C# จะช่วยให้คุณทำตามได้
 
 ## นำเข้าเนมสเปซ
 
@@ -49,14 +51,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- ในขั้นตอนนี้ คุณจะสร้างอินสแตนซ์ใหม่ของ`Document` ชั้นเรียนและ`DocumentBuilder` ชั้นเรียน.`dataDir` ตัวแปรใช้เพื่อระบุไดเร็กทอรีที่คุณต้องการบันทึกเอกสาร
+ในขั้นตอนนี้ คุณจะสร้างอินสแตนซ์ใหม่ของ `Document` ชั้นเรียนและ `DocumentBuilder` ชั้นเรียน. `dataDir` ตัวแปรใช้เพื่อระบุไดเร็กทอรีที่คุณต้องการบันทึกเอกสาร
 
 ## ขั้นตอนที่ 2: กำหนดค่าการตั้งค่าหน้า
 
 ต่อไป เราจะต้องระบุว่าส่วนหัวและส่วนท้ายควรจะแตกต่างกันสำหรับหน้าแรก หน้าคู่ และหน้าคี่
 
 ```csharp
-//ระบุว่าเราต้องการให้ส่วนหัวและส่วนท้ายแตกต่างกันสำหรับหน้าแรก หน้าคู่ และหน้าคี่
+// ระบุว่าเราต้องการให้ส่วนหัวและส่วนท้ายแตกต่างกันสำหรับหน้าแรก หน้าคู่ และหน้าคี่
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 ```
@@ -77,7 +79,7 @@ builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Write("Header for all other pages");
 ```
 
- ในขั้นตอนนี้เราใช้`MoveToHeaderFooter` วิธีการนำทางไปยังส่วนหัวหรือส่วนท้ายที่ต้องการ`Write` จากนั้นใช้วิธีการเพิ่มข้อความลงในส่วนเหล่านี้
+ในขั้นตอนนี้เราใช้ `MoveToHeaderFooter` วิธีการนำทางไปยังส่วนหัวหรือส่วนท้ายที่ต้องการ `Write` จากนั้นใช้วิธีการเพิ่มข้อความลงในส่วนต่างๆ เหล่านี้
 
 ## ขั้นตอนที่ 4: เพิ่มเนื้อหาลงในเนื้อหาของเอกสาร
 
@@ -105,7 +107,7 @@ doc.Save(dataDir + "AddContentUsingDocumentBuilder.MoveToHeadersFooters.docx");
 
 ## บทสรุป
 
- หากทำตามขั้นตอนเหล่านี้ คุณจะสามารถจัดการส่วนหัวและส่วนท้ายในเอกสาร Word ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET บทช่วยสอนนี้ครอบคลุมพื้นฐาน แต่ Aspose.Words นำเสนอฟังก์ชันต่างๆ มากมายสำหรับการจัดการเอกสารที่ซับซ้อนมากขึ้น อย่าลังเลที่จะลองดู[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับคุณสมบัติขั้นสูงเพิ่มเติม
+หากทำตามขั้นตอนเหล่านี้ คุณจะสามารถจัดการส่วนหัวและส่วนท้ายในเอกสาร Word ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET บทช่วยสอนนี้ครอบคลุมพื้นฐาน แต่ Aspose.Words นำเสนอฟังก์ชันต่างๆ มากมายสำหรับการจัดการเอกสารที่ซับซ้อนมากขึ้น อย่าลังเลที่จะลองดู [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับคุณสมบัติขั้นสูงเพิ่มเติม
 
 ## คำถามที่พบบ่อย
 
@@ -113,20 +115,25 @@ doc.Save(dataDir + "AddContentUsingDocumentBuilder.MoveToHeadersFooters.docx");
 Aspose.Words สำหรับ .NET เป็นไลบรารีที่ช่วยให้นักพัฒนาสามารถสร้าง แก้ไข และแปลงเอกสาร Word ด้วยโปรแกรมโดยใช้ C#
 
 ### ฉันสามารถเพิ่มรูปภาพลงในส่วนหัวและส่วนท้ายได้หรือไม่
- ใช่ คุณสามารถเพิ่มรูปภาพลงในส่วนหัวและส่วนท้ายได้โดยใช้`DocumentBuilder.InsertImage` วิธี.
+ใช่ คุณสามารถเพิ่มรูปภาพลงในส่วนหัวและส่วนท้ายได้โดยใช้ `DocumentBuilder.InsertImage` วิธี.
 
 ### เป็นไปได้ไหมที่จะมีส่วนหัวและส่วนท้ายที่ต่างกันสำหรับแต่ละส่วน?
- แน่นอน! คุณสามารถมีส่วนหัวและส่วนท้ายที่ไม่ซ้ำใครสำหรับแต่ละส่วนได้โดยการตั้งค่าที่แตกต่างกัน`HeaderFooterType` สำหรับแต่ละส่วน
+แน่นอน! คุณสามารถมีส่วนหัวและส่วนท้ายที่ไม่ซ้ำใครสำหรับแต่ละส่วนได้โดยการตั้งค่าที่แตกต่างกัน `HeaderFooterType` สำหรับแต่ละส่วน
 
 ### ฉันจะสร้างเค้าโครงที่ซับซ้อนยิ่งขึ้นในส่วนหัวและส่วนท้ายได้อย่างไร
 คุณสามารถใช้ตาราง รูปภาพ และตัวเลือกการจัดรูปแบบต่างๆ ที่ให้มาโดย Aspose.Words เพื่อสร้างเค้าโครงที่ซับซ้อนได้
 
 ### ฉันสามารถหาตัวอย่างและบทช่วยสอนเพิ่มเติมได้ที่ไหน
- ตรวจสอบออก[เอกสารประกอบ](https://reference.aspose.com/words/net/) และ[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8) สำหรับตัวอย่างเพิ่มเติมและการสนับสนุนจากชุมชน
+ตรวจสอบออก [เอกสารประกอบ](https://reference.aspose.com/words/net/) และ [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8) สำหรับตัวอย่างเพิ่มเติมและการสนับสนุนจากชุมชน
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Jednostka interwału między etykietami na osi wykresu
-linktitle: Jednostka interwału między etykietami na osi wykresu
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak ustawić jednostkę interwału między etykietami na osi wykresu za pomocą Aspose.Words dla platformy .NET.
-weight: 10
-url: /pl/net/programming-with-charts/interval-unit-between-labels-on-axis/
+"description": "Dowiedz się, jak ustawić jednostkę interwału między etykietami na osi wykresu za pomocą Aspose.Words dla platformy .NET."
+"linktitle": "Jednostka interwału między etykietami na osi wykresu"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Jednostka interwału między etykietami na osi wykresu"
+"url": "/pl/net/programming-with-charts/interval-unit-between-labels-on-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Jednostka interwału między etykietami na osi wykresu
@@ -22,7 +24,7 @@ Witamy w naszym kompleksowym przewodniku dotyczącym korzystania z Aspose.Words 
 Zanim zaczniesz korzystać z Aspose.Words, upewnij się, że masz następujące ustawienia:
 - Visual Studio zainstalowane na Twoim komputerze
 - Podstawowa znajomość języka programowania C#
--  Dostęp do biblioteki Aspose.Words dla .NET (link do pobrania)[Tutaj](https://releases.aspose.com/words/net/))
+- Dostęp do biblioteki Aspose.Words dla .NET (link do pobrania) [Tutaj](https://releases.aspose.com/words/net/))
 
 ## Importowanie przestrzeni nazw i pierwsze kroki
 
@@ -32,10 +34,10 @@ Zacznijmy od zaimportowania niezbędnych przestrzeni nazw i skonfigurowania śro
 Aby rozpocząć, uruchom program Visual Studio i utwórz nowy projekt w języku C#.
 
 ### Instalowanie Aspose.Words dla .NET
- Możesz zainstalować Aspose.Words dla .NET za pomocą Menedżera pakietów NuGet lub pobierając go bezpośrednio z[Strona internetowa Aspose](https://releases.aspose.com/words/net/).
+Możesz zainstalować Aspose.Words dla .NET za pomocą Menedżera pakietów NuGet lub pobierając go bezpośrednio z [Strona internetowa Aspose](https://releases.aspose.com/words/net/).
 
 ### Importowanie przestrzeni nazw Aspose.Words
-pliku kodu C# zaimportuj przestrzeń nazw Aspose.Words, aby uzyskać dostęp do jej klas i metod:
+W pliku kodu C# zaimportuj przestrzeń nazw Aspose.Words, aby uzyskać dostęp do jej klas i metod:
 ```csharp
 using Aspose.Words;
 ```
@@ -47,7 +49,7 @@ Aby wstawić wykres do dokumentu programu Word, wykonaj następujące kroki:
 
 ### Krok 1.1: Zainicjuj DocumentBuilder i wstaw wykres
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 
 Document doc = new Document();
@@ -89,20 +91,25 @@ Gratulacje! Nauczyłeś się integrować i manipulować wykresami za pomocą Asp
 Aspose.Words for .NET to biblioteka do przetwarzania dokumentów umożliwiająca programistom tworzenie, modyfikowanie i konwertowanie dokumentów Word w aplikacjach .NET.
 
 ### Gdzie mogę znaleźć dokumentację Aspose.Words dla .NET?
- Szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/words/net/).
+Szczegółową dokumentację można znaleźć [Tutaj](https://reference.aspose.com/words/net/).
 
 ### Czy mogę wypróbować Aspose.Words dla .NET przed zakupem?
- Tak, możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Words dla platformy .NET?
- Aby uzyskać wsparcie i wziąć udział w dyskusjach społecznościowych, odwiedź stronę[Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+Aby uzyskać wsparcie i wziąć udział w dyskusjach społecznościowych, odwiedź stronę [Forum Aspose.Words](https://forum.aspose.com/c/words/8).
 
 ### Gdzie mogę nabyć licencję na Aspose.Words dla .NET?
- Możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy).
+Możesz kupić licencję [Tutaj](https://purchase.aspose.com/buy).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Ustaw folder czcionek True Type
-linktitle: Ustaw folder czcionek True Type
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak ustawić folder True Type Fonts w dokumentach Word przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku, aby zapewnić spójne zarządzanie czcionkami.
-weight: 10
-url: /pl/net/working-with-fonts/set-true-type-fonts-folder/
+"description": "Dowiedz się, jak ustawić folder True Type Fonts w dokumentach Word przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku, aby zapewnić spójne zarządzanie czcionkami."
+"linktitle": "Ustaw folder czcionek True Type"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ustaw folder czcionek True Type"
+"url": "/pl/net/working-with-fonts/set-true-type-fonts-folder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw folder czcionek True Type
@@ -21,7 +23,7 @@ zanurzamy się w fascynujący świat zarządzania czcionkami w dokumentach Worda
 
 Zanim przejdziemy do konkretów, omówmy kilka warunków wstępnych, które zapewnią Ci sukces:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: działające środowisko programistyczne .NET, np. Visual Studio.
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie pomocna.
 4. Przykładowy dokument: Przygotuj dokument Word, nad którym chcesz pracować.
@@ -37,7 +39,7 @@ using Aspose.Words.Fonts;
 
 ## Krok 1: Załaduj swój dokument
 
- Zacznijmy od załadowania dokumentu. Użyjemy`Document` Klasa z Aspose.Words umożliwiająca załadowanie istniejącego dokumentu Word.
+Zacznijmy od załadowania dokumentu. Użyjemy `Document` Klasa z Aspose.Words umożliwiająca załadowanie istniejącego dokumentu Word.
 
 ```csharp
 // Ścieżka do katalogu dokumentów
@@ -48,7 +50,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Krok 2: Zainicjuj FontSettings
 
- Następnie utworzymy instancję`FontSettings`Klasa. Ta klasa pozwala nam dostosować sposób obsługi czcionek w naszym dokumencie.
+Następnie utworzymy instancję `FontSettings` Klasa. Ta klasa pozwala nam dostosować sposób obsługi czcionek w naszym dokumencie.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -83,27 +85,32 @@ doc.Save(dataDir + "WorkingWithFonts.SetTrueTypeFontsFolder.pdf");
 
 ## Wniosek
 
-masz! Udało Ci się skonfigurować folder True Type Fonts dla dokumentów Word za pomocą Aspose.Words dla .NET. Dzięki temu dokumenty będą wyglądać spójnie i profesjonalnie na wszystkich platformach. Zarządzanie czcionkami jest krytycznym aspektem tworzenia dokumentów, a dzięki Aspose.Words jest to niezwykle proste.
+I masz! Udało Ci się skonfigurować folder True Type Fonts dla dokumentów Word za pomocą Aspose.Words dla .NET. Dzięki temu dokumenty będą wyglądać spójnie i profesjonalnie na wszystkich platformach. Zarządzanie czcionkami jest krytycznym aspektem tworzenia dokumentów, a dzięki Aspose.Words jest to niezwykle proste.
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę używać wielu folderów czcionek?
- Tak, możesz używać wielu folderów czcionek, łącząc je`FontSettings.GetFontSources` I`FontSettings.SetFontSources`.
+Tak, możesz używać wielu folderów czcionek, łącząc je `FontSettings.GetFontSources` I `FontSettings.SetFontSources`.
 
 ### Co zrobić, jeśli wskazany folder czcionek nie istnieje?
 Jeśli wskazany folder czcionek nie istnieje, Aspose.Words nie będzie w stanie zlokalizować czcionek i zamiast nich zostaną użyte domyślne czcionki systemowe.
 
 ### Czy mogę powrócić do domyślnych ustawień czcionek?
- Tak, możesz przywrócić domyślne ustawienia czcionek, resetując`FontSettings` przykład.
+Tak, możesz przywrócić domyślne ustawienia czcionek, resetując `FontSettings` przykład.
 
 ### Czy możliwe jest osadzanie czcionek w dokumencie?
 Tak, Aspose.Words pozwala na osadzanie czcionek w dokumencie w celu zapewnienia spójności na różnych urządzeniach.
 
 ### W jakich formatach mogę zapisać swój dokument?
 Aspose.Words obsługuje wiele formatów, w tym PDF, DOCX, HTML i inne.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

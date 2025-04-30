@@ -1,14 +1,16 @@
 ---
-title: Wstaw wykres obszarowy do dokumentu Word
-linktitle: Wstaw wykres obszarowy do dokumentu Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawić wykres obszarowy do dokumentu za pomocą Aspose.Words dla .NET. Dodaj dane serii i zapisz dokument z wykresem.
-weight: 10
-url: /pl/net/programming-with-charts/insert-area-chart/
+"description": "Dowiedz się, jak wstawić wykres obszarowy do dokumentu za pomocą Aspose.Words dla .NET. Dodaj dane serii i zapisz dokument z wykresem."
+"linktitle": "Wstaw wykres obszarowy do dokumentu Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw wykres obszarowy do dokumentu Word"
+"url": "/pl/net/programming-with-charts/insert-area-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw wykres obszarowy do dokumentu Word
@@ -21,7 +23,7 @@ Witamy w tym przewodniku krok po kroku, jak wstawić wykres obszarowy do dokumen
 
 Zanim przejdziemy do konkretów, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowany Aspose.Words dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowany Aspose.Words dla .NET. Możesz go pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. .NET Framework: Upewnij się, że na Twoim komputerze jest zainstalowany .NET Framework.
 3. IDE: Zintegrowane środowisko programistyczne (IDE) podobne do Visual Studio, służące do pisania i wykonywania kodu.
 4. Podstawowa wiedza w języku C#: Przydatna będzie podstawowa znajomość programowania w języku C#.
@@ -45,34 +47,34 @@ Teraz, gdy zaimportowaliśmy podstawowe przestrzenie nazw, możemy przejść do 
 Zacznijmy od utworzenia nowego dokumentu Word. Będzie to baza, do której wstawimy nasz wykres obszarowy.
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 ```
 
- W tym kroku inicjujemy nowy`Document` obiekt, który reprezentuje nasz dokument Word.
+W tym kroku inicjujemy nowy `Document` obiekt, który reprezentuje nasz dokument Word.
 
 ## Krok 2: Użyj DocumentBuilder, aby wstawić wykres
 
- Następnie użyjemy`DocumentBuilder` klasę umożliwiającą wstawienie wykresu obszarowego do naszego dokumentu.
+Następnie użyjemy `DocumentBuilder` klasę umożliwiającą wstawienie wykresu obszarowego do naszego dokumentu.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
 ```
 
- Tutaj tworzymy`DocumentBuilder` obiekt i użyj go, aby wstawić do naszego dokumentu wykres obszarowy o określonych wymiarach (432x252).
+Tutaj tworzymy `DocumentBuilder` obiekt i użyj go, aby wstawić do naszego dokumentu wykres obszarowy o określonych wymiarach (432x252).
 
 ## Krok 3: Uzyskaj dostęp do obiektu wykresu
 
- Po wstawieniu wykresu musimy uzyskać dostęp do`Chart` obiekt umożliwiający dostosowanie naszego wykresu obszarowego.
+Po wstawieniu wykresu musimy uzyskać dostęp do `Chart` obiekt umożliwiający dostosowanie naszego wykresu obszarowego.
 
 ```csharp
 Chart chart = shape.Chart;
 ```
 
- Ta linia kodu pobiera`Chart` obiekt z kształtu, który właśnie wstawiliśmy.
+Ta linia kodu pobiera `Chart` obiekt z kształtu, który właśnie wstawiliśmy.
 
 ## Krok 4: Dodaj dane serii do wykresu
 
@@ -90,7 +92,7 @@ chart.Series.Add("Aspose Series 1", new []
 new double[] { 32, 32, 28, 12, 15 });
 ```
 
-tym kroku dodajemy serię o nazwie „Aspose Series 1” zawierającą zestaw dat i odpowiadających im wartości.
+W tym kroku dodajemy serię o nazwie „Aspose Series 1” zawierającą zestaw dat i odpowiadających im wartości.
 
 ## Krok 5: Zapisz dokument
 
@@ -121,10 +123,15 @@ Tak, do jednego dokumentu Word możesz wstawić dowolną liczbę wykresów.
 Tak, Aspose.Words dla platformy .NET obsługuje różne typy wykresów, w tym słupkowe, liniowe, kołowe i inne.
 
 ### Gdzie mogę uzyskać tymczasową licencję na Aspose.Words dla .NET?
- Możesz uzyskać tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/).
+Możesz uzyskać tymczasową licencję od [Tutaj](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

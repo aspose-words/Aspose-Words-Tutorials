@@ -1,25 +1,31 @@
 ---
-title: 在 .NET 網站上使用Aspose.Words的水印
-weight: 10
-limit:
-description: 透過 .NET 提供Aspose.Words來在 Word 文件中添加,移除和管理水印.
-keywords:
-url: /zh-hant/net/working-with-watermark/
+"description": "了解如何使用 Aspose.Words for .NET 在 Word 文件中新增、刪除和管理浮水印。透過逐步指導簡化水印任務。"
+"title": "在 Aspose.Words for .NET 中使用浮水印"
+"url": "/zh-hant/net/working-with-watermark/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## 引入
+## 介紹
  
-標籤是添加品牌,保密標籤或視覺吸引力的絕佳方式. 在 .NET 網站上,使用Aspose.Words來使用水印,將其工作變得非常簡單和有效. 無論您想要添加文字水印,如"保密",或為專業的外觀插入圖像水印,這家全面的圖書館提供了可靠的功能,以滿足您的需求.  
+浮水印是為您的 Word 文件添加品牌、保密標記或視覺吸引力的絕佳方式。使用 Aspose.Words for .NET，處理浮水印變得非常簡單且有效率。無論您想添加文字浮水印（例如“機密”），還是插入圖像浮水印以獲得專業外觀，這個綜合庫都提供強大的功能來滿足您的需求。您可以輕鬆自訂浮水印的位置、大小、顏色和透明度以滿足文件的要求。  
 
-除了添加水印外, .NET 的Aspose.Words也可以讓您有效管理這些水印.您可以移除現有的水印,更新其屬性,或將其定制成您的文檔中的特定頁面.
+除了添加浮水印之外，Aspose.Words for .NET 還允許您有效地管理它們。您可以刪除現有浮水印、更新其屬性或將其定製到文件中的特定頁面。透過詳細的範例和逐步指導，這個功能豐富的工具包可確保水印添加成為一個輕鬆的過程。使用 Aspose.Words 轉變您的文件工作流程並輕鬆控制您的浮水印。
 
-{{< tutorial-card link="./add-text-watermark/" title="在 Word 文档中添加文字水标, 使用 .NET 的 Aspose.Words" imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-text-watermark/" title="使用 Aspose.Words for .NET 在 Word 文件中新增文字浮水印" imgSrc="./add-text-watermark/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

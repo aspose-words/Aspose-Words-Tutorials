@@ -1,14 +1,16 @@
 ---
-title: Создание и управление списками в документах Word
-linktitle: Создание и управление списками в документах Word
-second_title: API управления документами Python Aspose.Words
-description: Узнайте, как создавать и управлять списками в документах Word с помощью API Python Aspose.Words. Пошаговое руководство с исходным кодом для форматирования списков, настройки, вложения и многого другого.
-weight: 18
-url: /ru/python-net/document-structure-and-content-manipulation/document-lists/
+"description": "Узнайте, как создавать и управлять списками в документах Word с помощью API Python Aspose.Words. Пошаговое руководство с исходным кодом для форматирования списков, настройки, вложения и многого другого."
+"linktitle": "Создание и управление списками в документах Word"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Создание и управление списками в документах Word"
+"url": "/ru/python-net/document-structure-and-content-manipulation/document-lists/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создание и управление списками в документах Word
@@ -22,31 +24,31 @@ url: /ru/python-net/document-structure-and-content-manipulation/document-lists/
 
 ## Настройка окружающей среды
 
- Прежде чем погрузиться в создание и управление списками, убедитесь, что у вас установлена библиотека Aspose.Words for Python. Вы можете загрузить ее с[здесь](https://releases.aspose.com/words/python/) . Кроме того, обратитесь к документации API по адресу[эта ссылка](https://reference.aspose.com/words/python-net/) для получения подробной информации.
+Прежде чем погрузиться в создание и управление списками, убедитесь, что у вас установлена библиотека Aspose.Words for Python. Вы можете загрузить ее с [здесь](https://releases.aspose.com/words/python/)Кроме того, обратитесь к документации API по адресу [эта ссылка](https://reference.aspose.com/words/python-net/) для получения подробной информации.
 
 ## Создание маркированных списков
 
 Маркированные списки используются, когда порядок элементов не имеет решающего значения. Чтобы создать маркированный список с помощью Aspose.Words Python, выполните следующие действия:
 
 ```python
-# Import the necessary classes
+# Импортировать необходимые классы
 from aspose.words import Document, ListTemplate, ListLevel
 
-# Create a new document
+# Создать новый документ
 doc = Document()
 
-# Create a list template and add it to the document
+# Создайте шаблон списка и добавьте его в документ
 list_template = ListTemplate(doc)
 doc.list_templates.add(list_template)
 
-# Add a list level to the template
+# Добавить уровень списка в шаблон
 list_level = ListLevel(list_template)
 list_template.list_levels.append(list_level)
 
-# Customize the list formatting if needed
-list_level.number_format = "\u2022"  # Bullet character
+# При необходимости настройте форматирование списка.
+list_level.number_format = "\u2022"  # Характер пули
 
-# Add list items
+# Добавить элементы списка
 list_item_texts = ["Item 1", "Item 2", "Item 3"]
 for text in list_item_texts:
     paragraph = doc.builder.insert_paragraph()
@@ -61,21 +63,21 @@ for text in list_item_texts:
 Нумерованные списки подходят, когда порядок элементов имеет значение. Вот как можно создать нумерованный список с помощью Aspose.Words Python:
 
 ```python
-# Import the necessary classes
+# Импортировать необходимые классы
 from aspose.words import Document, ListTemplate, ListLevel
 
-# Create a new document
+# Создать новый документ
 doc = Document()
 
-# Create a list template and add it to the document
+# Создайте шаблон списка и добавьте его в документ
 list_template = ListTemplate(doc)
 doc.list_templates.add(list_template)
 
-# Add a list level to the template
+# Добавить уровень списка в шаблон
 list_level = ListLevel(list_template)
 list_template.list_levels.append(list_level)
 
-# Add list items
+# Добавить элементы списка
 list_item_texts = ["Item A", "Item B", "Item C"]
 for text in list_item_texts:
     paragraph = doc.builder.insert_paragraph()
@@ -116,7 +118,7 @@ for text in list_item_texts:
 ## Часто задаваемые вопросы
 
 ### Как установить Aspose.Words для Python?
- Вы можете скачать библиотеку с сайта[эта ссылка](https://releases.aspose.com/words/python/) и следуйте инструкциям по установке, приведенным в документации.
+Вы можете скачать библиотеку с сайта [эта ссылка](https://releases.aspose.com/words/python/) и следуйте инструкциям по установке, приведенным в документации.
 
 ### Могу ли я настроить стиль нумерации для своих списков?
 Конечно! Aspose.Words Python позволяет вам настраивать форматы нумерации, стили маркеров и выравнивание, чтобы адаптировать ваши списки к вашим конкретным потребностям.
@@ -128,10 +130,15 @@ for text in list_item_texts:
 Да, Aspose.Words Python предоставляет методы для анализа и форматирования простого текста в списки, что упрощает структурирование контента.
 
 ### Как сохранить документ после создания списков?
- Вы можете сохранить свой документ, используя`doc.save()` метод и указание желаемого выходного формата, например DOCX или PDF.
+Вы можете сохранить свой документ, используя `doc.save()` метод и указание желаемого выходного формата, например DOCX или PDF.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

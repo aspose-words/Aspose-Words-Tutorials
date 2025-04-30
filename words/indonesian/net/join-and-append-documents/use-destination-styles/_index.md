@@ -1,14 +1,16 @@
 ---
-title: Gunakan Gaya Tujuan
-linktitle: Gunakan Gaya Tujuan
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menggunakan gaya tujuan dengan Aspose.Words untuk .NET untuk menambahkan dokumen dengan mulus sambil mempertahankan format yang konsisten.
-weight: 10
-url: /id/net/join-and-append-documents/use-destination-styles/
+"description": "Pelajari cara menggunakan gaya tujuan dengan Aspose.Words untuk .NET untuk menambahkan dokumen dengan mulus sambil mempertahankan format yang konsisten."
+"linktitle": "Gunakan Gaya Tujuan"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Gunakan Gaya Tujuan"
+"url": "/id/net/join-and-append-documents/use-destination-styles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gunakan Gaya Tujuan
@@ -21,7 +23,7 @@ Aspose.Words untuk .NET adalah pustaka yang hebat untuk memanipulasi dokumen Wor
 
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
--  Aspose.Words untuk .NET: Jika Anda belum memilikinya, unduh dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Jika Anda belum memilikinya, unduh dari [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Visual Studio atau lingkungan pengembangan C# lainnya.
 - Pengetahuan Dasar C#: Memahami dasar-dasar pemrograman C# akan sangat membantu.
 
@@ -37,7 +39,7 @@ Mari kita uraikan proses penggunaan gaya tujuan saat menambahkan dokumen ke dala
 
 ## Langkah 1: Siapkan Direktori Dokumen Anda
 
- Pertama, tentukan jalur ke direktori dokumen Anda. Di sinilah dokumen sumber dan tujuan Anda berada. Anda perlu mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
+Pertama, tentukan jalur ke direktori dokumen Anda. Di sinilah dokumen sumber dan tujuan Anda berada. Anda perlu mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -45,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Langkah 2: Muat Dokumen Sumber
 
-Selanjutnya, muat dokumen sumber yang ingin Anda tambahkan ke dokumen tujuan. Aspose.Words menyediakan cara mudah untuk melakukan ini dengan menggunakan`Document` kelas.
+Selanjutnya, muat dokumen sumber yang ingin Anda tambahkan ke dokumen tujuan. Aspose.Words menyediakan cara mudah untuk melakukan ini dengan menggunakan `Document` kelas.
 
 ```csharp
 Document srcDoc = new Document(dataDir + "Document source.docx");
@@ -61,7 +63,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## Langkah 4: Tambahkan Dokumen Sumber Menggunakan Gaya Tujuan
 
- Sekarang tibalah bagian kuncinya: menambahkan dokumen sumber ke dokumen tujuan sambil menggunakan gaya dokumen tujuan.`AppendDocument` metode dari`Document` kelas memungkinkan Anda melakukan hal ini.`ImportFormatMode.UseDestinationStyles` parameter memastikan bahwa gaya dokumen tujuan digunakan.
+Sekarang tibalah bagian kuncinya: menambahkan dokumen sumber ke dokumen tujuan sambil menggunakan gaya dokumen tujuan. `AppendDocument` metode dari `Document` kelas memungkinkan Anda melakukan hal ini. `ImportFormatMode.UseDestinationStyles` parameter memastikan bahwa gaya dokumen tujuan digunakan.
 
 ```csharp
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles);
@@ -94,10 +96,15 @@ Untuk dokumen besar, pertimbangkan menggunakan pemrosesan aliran untuk menangani
 Aspose.Words memungkinkan Anda menambahkan dokumen dalam format berbeda, tetapi dokumen akhir harus disimpan dalam satu format.
 
 ### Bagaimana saya bisa mendapatkan uji coba gratis Aspose.Words untuk .NET?
- Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+Anda bisa mendapatkan uji coba gratis [Di Sini](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

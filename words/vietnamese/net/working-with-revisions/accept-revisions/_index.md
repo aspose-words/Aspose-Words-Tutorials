@@ -1,14 +1,16 @@
 ---
-title: Chấp nhận sửa đổi
-linktitle: Chấp nhận sửa đổi
-second_title: API xử lý tài liệu Aspose.Words
-description: Làm chủ việc sửa đổi tài liệu với Aspose.Words cho .NET. Học cách theo dõi, chấp nhận và từ chối các thay đổi một cách dễ dàng. Nâng cao kỹ năng quản lý tài liệu của bạn.
-weight: 10
-url: /vi/net/working-with-revisions/accept-revisions/
+"description": "Làm chủ việc sửa đổi tài liệu với Aspose.Words cho .NET. Học cách theo dõi, chấp nhận và từ chối các thay đổi một cách dễ dàng. Nâng cao kỹ năng quản lý tài liệu của bạn."
+"linktitle": "Chấp nhận sửa đổi"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chấp nhận sửa đổi"
+"url": "/vi/net/working-with-revisions/accept-revisions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chấp nhận sửa đổi
@@ -23,7 +25,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các �
 
 - Đã cài đặt Visual Studio trên máy của bạn.
 - .NET framework (tốt nhất là phiên bản mới nhất).
--  Aspose.Words cho thư viện .NET. Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho thư viện .NET. Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 - Hiểu biết cơ bản về lập trình C#.
 
 Bây giờ, chúng ta hãy đi sâu vào chi tiết và xem cách chúng ta có thể làm chủ việc sửa đổi tài liệu bằng Aspose.Words cho .NET.
@@ -67,7 +69,7 @@ Tiếp theo, chúng ta cần bật theo dõi sửa đổi. Điều này cho phé
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 ```
 
- Bằng cách gọi`StartTrackRevisions`, chúng tôi cho phép tài liệu theo dõi tất cả các thay đổi tiếp theo. Tên tác giả và ngày hiện tại được truyền dưới dạng tham số.
+Bằng cách gọi `StartTrackRevisions`chúng tôi cho phép tài liệu theo dõi tất cả các thay đổi tiếp theo. Tên tác giả và ngày hiện tại được truyền dưới dạng tham số.
 
 ## Bước 3: Thêm bản sửa đổi
 
@@ -102,7 +104,7 @@ Cuối cùng, hãy chấp nhận tất cả các bản sửa đổi đã theo d�
 doc.AcceptAllRevisions();
 ```
 
- Bằng cách gọi`AcceptAllRevisions`, chúng tôi đảm bảo rằng tất cả các thay đổi (thêm và xóa) đều được chấp nhận và áp dụng vào tài liệu. Các bản sửa đổi không còn được đánh dấu và được tích hợp vào tài liệu.
+Bằng cách gọi `AcceptAllRevisions`, chúng tôi đảm bảo rằng tất cả các thay đổi (thêm và xóa) đều được chấp nhận và áp dụng vào tài liệu. Các bản sửa đổi không còn được đánh dấu và được tích hợp vào tài liệu.
 
 ## Bước 6: Dừng theo dõi bản sửa đổi
 
@@ -136,26 +138,31 @@ Quản lý các bản sửa đổi tài liệu có thể là một nhiệm vụ 
 
 ### Làm thế nào để tôi bắt đầu theo dõi các bản sửa đổi trong Aspose.Words cho .NET?
 
- Bạn có thể bắt đầu theo dõi các bản sửa đổi bằng cách gọi`StartTrackRevisions` phương thức trên đối tượng tài liệu của bạn và truyền tên tác giả và ngày hiện tại.
+Bạn có thể bắt đầu theo dõi các bản sửa đổi bằng cách gọi `StartTrackRevisions` phương thức trên đối tượng tài liệu của bạn và truyền tên tác giả và ngày hiện tại.
 
 ### Tôi có thể ngừng theo dõi bản sửa đổi bất cứ lúc nào không?
 
-Có, bạn có thể dừng theo dõi các bản sửa đổi bằng cách gọi`StopTrackRevisions` phương pháp trên đối tượng tài liệu của bạn.
+Có, bạn có thể dừng theo dõi các bản sửa đổi bằng cách gọi `StopTrackRevisions` phương pháp trên đối tượng tài liệu của bạn.
 
 ### Làm thế nào để chấp nhận tất cả các bản sửa đổi trong một tài liệu?
 
- Để chấp nhận tất cả các bản sửa đổi, hãy sử dụng`AcceptAllRevisions` phương pháp trên đối tượng tài liệu của bạn.
+Để chấp nhận tất cả các bản sửa đổi, hãy sử dụng `AcceptAllRevisions` phương pháp trên đối tượng tài liệu của bạn.
 
 ### Tôi có thể từ chối những sửa đổi cụ thể không?
 
- Có, bạn có thể từ chối các bản sửa đổi cụ thể bằng cách điều hướng đến chúng và sử dụng`Reject` phương pháp.
+Có, bạn có thể từ chối các bản sửa đổi cụ thể bằng cách điều hướng đến chúng và sử dụng `Reject` phương pháp.
 
 ### Tôi có thể tải Aspose.Words cho .NET ở đâu?
 
- Bạn có thể tải xuống Aspose.Words cho .NET từ[liên kết tải xuống](https://releases.aspose.com/words/net/).
+Bạn có thể tải xuống Aspose.Words cho .NET từ [liên kết tải xuống](https://releases.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

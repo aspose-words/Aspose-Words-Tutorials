@@ -1,33 +1,35 @@
 ---
-title: Kopiera bokmärkt text i Word-dokument
-linktitle: Kopiera bokmärkt text i Word-dokument
-second_title: Aspose.Words Document Processing API
-description: Kopiera enkelt bokmärkt text mellan Word-dokument med Aspose.Words för .NET. Lär dig hur med denna steg-för-steg-guide.
-weight: 10
-url: /sv/net/programming-with-bookmarks/copy-bookmarked-text/
+"description": "Kopiera enkelt bokmärkt text mellan Word-dokument med Aspose.Words för .NET. Lär dig hur med den här steg-för-steg-guiden."
+"linktitle": "Kopiera bokmärkt text i Word-dokument"
+"second_title": "Aspose.Words dokumentbehandlings-API"
+"title": "Kopiera bokmärkt text i Word-dokument"
+"url": "/sv/net/programming-with-bookmarks/copy-bookmarked-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kopiera bokmärkt text i Word-dokument
 
 ## Introduktion
 
-Har du någonsin funnit dig själv behöva kopiera specifika avsnitt från ett Word-dokument till ett annat? Nåväl, du har tur! I den här handledningen går vi igenom hur du kopierar bokmärkt text från ett Word-dokument till ett annat med Aspose.Words för .NET. Oavsett om du bygger en dynamisk rapport eller automatiserar dokumentgenerering, kommer den här guiden att förenkla processen för dig.
+Har du någonsin behövt kopiera specifika avsnitt från ett Word-dokument till ett annat? Då har du tur! I den här handledningen går vi igenom hur du kopierar bokmärkt text från ett Word-dokument till ett annat med hjälp av Aspose.Words för .NET. Oavsett om du skapar en dynamisk rapport eller automatiserar dokumentgenerering, kommer den här guiden att förenkla processen för dig.
 
-## Förutsättningar
+## Förkunskapskrav
 
 Innan vi dyker in, se till att du har följande:
 
--  Aspose.Words för .NET Library: Du kan ladda ner det från[här](https://releases.aspose.com/words/net/).
-- Utvecklingsmiljö: Visual Studio eller någon annan .NET-utvecklingsmiljö.
+- Aspose.Words för .NET-biblioteket: Du kan ladda ner det från [här](https://releases.aspose.com/words/net/).
+- Utvecklingsmiljö: Visual Studio eller annan .NET-utvecklingsmiljö.
 - Grundläggande kunskaper i C#: Bekantskap med C#-programmering och .NET framework.
 
-## Importera namnområden
+## Importera namnrymder
 
-För att börja, se till att du har de nödvändiga namnrymden importerade i ditt projekt:
+Börja med att se till att du har importerat de nödvändiga namnrymderna i ditt projekt:
 
 ```csharp
 using Aspose.Words;
@@ -44,21 +46,21 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document srcDoc = new Document(dataDir + "Bookmarks.docx");
 ```
 
- Här,`dataDir` är sökvägen till din dokumentkatalog, och`Bookmarks.docx` är källdokumentet.
+Här, `dataDir` är sökvägen till din dokumentkatalog, och `Bookmarks.docx` är källdokumentet.
 
 ## Steg 2: Identifiera bokmärket
 
-Identifiera sedan bokmärket du vill kopiera från källdokumentet.
+Identifiera sedan det bokmärke du vill kopiera från källdokumentet.
 
 ```csharp
 Bookmark srcBookmark = srcDoc.Range.Bookmarks["MyBookmark1"];
 ```
 
- Ersätta`"MyBookmark1"` med det faktiska namnet på ditt bokmärke.
+Ersätta `"MyBookmark1"` med det faktiska namnet på ditt bokmärke.
 
-## Steg 3: Skapa destinationsdokumentet
+## Steg 3: Skapa måldokumentet
 
-Skapa nu ett nytt dokument där den bokmärkta texten kommer att kopieras.
+Skapa nu ett nytt dokument där den bokmärkta texten ska kopieras.
 
 ```csharp
 Document dstDoc = new Document();
@@ -67,7 +69,7 @@ CompositeNode dstNode = dstDoc.LastSection.Body;
 
 ## Steg 4: Importera bokmärkt innehåll
 
- För att säkerställa att stilarna och formateringen bevaras, använd`NodeImporter` för att importera det bokmärkta innehållet från källdokumentet till måldokumentet.
+För att säkerställa att stilar och formatering bevaras, använd `NodeImporter` för att importera det bokmärkta innehållet från källdokumentet till destinationsdokumentet.
 
 ```csharp
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting);
@@ -76,7 +78,7 @@ AppendBookmarkedText(importer, srcBookmark, dstNode);
 
 ## Steg 5: Definiera metoden AppendBookmarkedText
 
-Här händer magin. Definiera en metod för att hantera kopieringen av den bokmärkta texten:
+Det är här magin händer. Definiera en metod för att hantera kopieringen av den bokmärkta texten:
 
 ```csharp
 private void AppendBookmarkedText(NodeImporter importer, Bookmark srcBookmark, CompositeNode dstNode)
@@ -100,9 +102,9 @@ private void AppendBookmarkedText(NodeImporter importer, Bookmark srcBookmark, C
 }
 ```
 
-## Steg 6: Spara destinationsdokumentet
+## Steg 6: Spara måldokumentet
 
-Spara slutligen måldokumentet för att verifiera det kopierade innehållet.
+Spara slutligen destinationsdokumentet för att verifiera det kopierade innehållet.
 
 ```csharp
 dstDoc.Save(dataDir + "WorkingWithBookmarks.CopyBookmarkedText.docx");
@@ -110,27 +112,32 @@ dstDoc.Save(dataDir + "WorkingWithBookmarks.CopyBookmarkedText.docx");
 
 ## Slutsats
 
-Och det är det! Du har framgångsrikt kopierat bokmärkt text från ett Word-dokument till ett annat med Aspose.Words för .NET. Den här metoden är kraftfull för att automatisera dokumenthanteringsuppgifter, vilket gör ditt arbetsflöde mer effektivt och strömlinjeformat.
+Och det var allt! Du har kopierat bokmärkt text från ett Word-dokument till ett annat med hjälp av Aspose.Words för .NET. Den här metoden är kraftfull för att automatisera dokumenthanteringsuppgifter, vilket gör ditt arbetsflöde mer effektivt och strömlinjeformat.
 
-## FAQ's
+## Vanliga frågor
 
 ### Kan jag kopiera flera bokmärken samtidigt?
-Ja, du kan iterera genom flera bokmärken och använda samma metod för att kopiera vart och ett.
+Ja, du kan iterera igenom flera bokmärken och använda samma metod för att kopiera vart och ett.
 
 ### Vad händer om bokmärket inte hittas?
- De`Range.Bookmarks` egendom kommer tillbaka`null`, så se till att du hanterar det här fallet för att undvika undantag.
+De `Range.Bookmarks` egendomen kommer att återvända `null`, så se till att du hanterar detta fall för att undvika undantag.
 
 ### Kan jag behålla formateringen av det ursprungliga bokmärket?
- Absolut! Använder`ImportFormatMode.KeepSourceFormatting` säkerställer att den ursprungliga formateringen bevaras.
+Absolut! Använder `ImportFormatMode.KeepSourceFormatting` säkerställer att den ursprungliga formateringen bevaras.
 
 ### Finns det en gräns för storleken på den bokmärkta texten?
 Det finns ingen specifik gräns, men prestandan kan variera med extremt stora dokument.
 
 ### Kan jag kopiera text mellan olika Word-dokumentformat?
-Ja, Aspose.Words stöder olika Word-format, och metoden fungerar över dessa format.
+Ja, Aspose.Words stöder olika Word-format, och metoden fungerar i alla dessa format.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,30 +1,32 @@
 ---
-title: Jangan Kompres Metafile Kecil
-linktitle: Jangan Kompres Metafile Kecil
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menggunakan Aspose.Words untuk .NET guna memastikan metafile kecil dalam dokumen Word tidak terkompresi, sehingga kualitas dan integritasnya tetap terjaga. Panduan langkah demi langkah disertakan.
-weight: 10
-url: /id/net/programming-with-docsaveoptions/do-not-compress-small-metafiles/
+"description": "Pelajari cara menggunakan Aspose.Words untuk .NET guna memastikan metafile kecil dalam dokumen Word tidak terkompresi, sehingga kualitas dan integritasnya tetap terjaga. Panduan langkah demi langkah disertakan."
+"linktitle": "Jangan Kompres Metafile Kecil"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Jangan Kompres Metafile Kecil"
+"url": "/id/net/programming-with-docsaveoptions/do-not-compress-small-metafiles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Jangan Kompres Metafile Kecil
 
 ## Perkenalan
 
-Dalam ranah pemrosesan dokumen, mengoptimalkan cara penyimpanan file dapat meningkatkan kualitas dan kegunaannya secara signifikan. Aspose.Words untuk .NET menawarkan banyak fitur untuk memastikan dokumen Word Anda disimpan dengan presisi. Salah satu fitur tersebut adalah opsi "Jangan Kompres Metafile Kecil". Tutorial ini akan memandu Anda melalui proses pemanfaatan fitur ini untuk menjaga integritas metafile dalam dokumen Word. Mari kita bahas!
+Dalam ranah pemrosesan dokumen, mengoptimalkan cara penyimpanan file dapat meningkatkan kualitas dan kegunaannya secara signifikan. Aspose.Words untuk .NET menawarkan banyak fitur untuk memastikan dokumen Word Anda disimpan dengan presisi. Salah satu fitur tersebut adalah opsi "Jangan Kompres Metafile Kecil". Tutorial ini akan memandu Anda melalui proses penggunaan fitur ini untuk menjaga integritas metafile dalam dokumen Word. Mari kita bahas!
 
 ## Prasyarat
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
--  Aspose.Words untuk .NET: Unduh dan instal versi terbaru dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Unduh dan instal versi terbaru dari [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Visual Studio atau IDE lain yang kompatibel.
 - Pemahaman Dasar tentang C#: Keakraban dengan bahasa pemrograman C# dan kerangka kerja .NET.
--  Lisensi Aspose: Untuk membuka potensi penuh Aspose.Words, pertimbangkan untuk memperoleh lisensi[lisensi](https://purchase.aspose.com/buy) Anda juga bisa menggunakan[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
+- Lisensi Aspose: Untuk membuka potensi penuh Aspose.Words, pertimbangkan untuk memperoleh lisensi [lisensi](https://purchase.aspose.com/buy)Anda juga bisa menggunakan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
 
 ## Mengimpor Ruang Nama
 
@@ -46,7 +48,7 @@ Pertama, Anda perlu menentukan direktori tempat dokumen Anda akan disimpan. Hal 
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENTS DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen Anda.
+Mengganti `"YOUR DOCUMENTS DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen Anda.
 
 ## Langkah 2: Buat Dokumen Baru
 
@@ -59,11 +61,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Text added to a document.");
 ```
 
- Di sini, kita menginisialisasi`Document` objek dan penggunaan`DocumentBuilder` untuk menambahkan beberapa teks ke dalamnya.`Writeln` metode menambahkan baris teks ke dokumen.
+Di sini, kita menginisialisasi `Document` objek dan penggunaan `DocumentBuilder` untuk menambahkan beberapa teks ke dalamnya. `Writeln` metode menambahkan baris teks ke dokumen.
 
 ## Langkah 3: Konfigurasikan Opsi Penyimpanan
 
- Sekarang, kita konfigurasikan opsi penyimpanan untuk menggunakan fitur "Jangan Kompres Metafile Kecil". Ini dilakukan dengan menggunakan`DocSaveOptions` kelas.
+Sekarang, kita konfigurasikan opsi penyimpanan untuk menggunakan fitur "Jangan Kompres Metafile Kecil". Ini dilakukan dengan menggunakan `DocSaveOptions` kelas.
 
 ```csharp
 // Konfigurasikan opsi penyimpanan dengan fitur "Jangan Kompres Metafile Kecil"
@@ -71,7 +73,7 @@ DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.Compliance = PdfCompliance.PdfA1a;
 ```
 
- Pada langkah ini, kita membuat sebuah instance dari`DocSaveOptions` dan mengatur`Compliance`properti untuk`PdfCompliance.PdfA1a`Ini memastikan dokumen mematuhi standar PDF/A-1a.
+Pada langkah ini, kita membuat sebuah instance dari `DocSaveOptions` dan mengatur `Compliance` properti untuk `PdfCompliance.PdfA1a`Ini memastikan dokumen mematuhi standar PDF/A-1a.
 
 ## Langkah 4: Simpan Dokumen
 
@@ -82,7 +84,7 @@ Terakhir, kami menyimpan dokumen dengan opsi yang ditentukan untuk memastikan ba
 doc.Save(dataDir + "DocumentWithDoNotCompressMetafiles.pdf", saveOptions);
 ```
 
- Di sini, kami menggunakan`Save` metode dari`Document` kelas untuk menyimpan dokumen. Jalur tersebut mencakup direktori dan nama file "DocumentWithDoNotCompressMetafiles.pdf".
+Di sini, kami menggunakan `Save` metode dari `Document` kelas untuk menyimpan dokumen. Jalur tersebut mencakup direktori dan nama file "DocumentWithDoNotCompressMetafiles.pdf".
 
 ## Kesimpulan
 
@@ -100,19 +102,24 @@ Ya, Aspose.Words untuk .NET memungkinkan Anda mengonfigurasi opsi penyimpanan un
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words untuk .NET?
 
- Meskipun Anda dapat menggunakan Aspose.Words untuk .NET tanpa lisensi untuk evaluasi, lisensi diperlukan untuk membuka fungsionalitas penuh. Anda dapat memperoleh lisensi[Di Sini](https://purchase.aspose.com/buy) atau menggunakan[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
+Meskipun Anda dapat menggunakan Aspose.Words untuk .NET tanpa lisensi untuk evaluasi, lisensi diperlukan untuk membuka fungsionalitas penuh. Anda dapat memperoleh lisensi [Di Sini](https://purchase.aspose.com/buy) atau menggunakan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
 
 ### Bagaimana saya dapat memastikan dokumen saya mematuhi standar PDF/A?
 
- Aspose.Words untuk .NET memungkinkan Anda mengatur opsi kepatuhan seperti`PdfCompliance.PdfA1a` untuk memastikan dokumen Anda memenuhi standar tertentu.
+Aspose.Words untuk .NET memungkinkan Anda mengatur opsi kepatuhan seperti `PdfCompliance.PdfA1a` untuk memastikan dokumen Anda memenuhi standar tertentu.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Words untuk .NET?
 
- Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/words/net/) , dan Anda dapat mengunduh versi terbaru[Di Sini](https://releases.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi yang lengkap [Di Sini](https://reference.aspose.com/words/net/), dan Anda dapat mengunduh versi terbaru [Di Sini](https://releases.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

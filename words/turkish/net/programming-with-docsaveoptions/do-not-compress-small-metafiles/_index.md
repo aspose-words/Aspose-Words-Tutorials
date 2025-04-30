@@ -1,14 +1,16 @@
 ---
-title: Küçük Meta Dosyalarını Sıkıştırmayın
-linktitle: Küçük Meta Dosyalarını Sıkıştırmayın
-second_title: Aspose.Words Belge İşleme API'si
-description: Word belgelerindeki küçük meta dosyalarının sıkıştırılmamasını, kalitesinin ve bütünlüğünün korunmasını sağlamak için Aspose.Words for .NET'i nasıl kullanacağınızı öğrenin. Adım adım kılavuz dahildir.
-weight: 10
-url: /tr/net/programming-with-docsaveoptions/do-not-compress-small-metafiles/
+"description": "Word belgelerindeki küçük meta dosyalarının sıkıştırılmamasını, kalitesinin ve bütünlüğünün korunmasını sağlamak için Aspose.Words for .NET'i nasıl kullanacağınızı öğrenin. Adım adım kılavuz dahildir."
+"linktitle": "Küçük Meta Dosyalarını Sıkıştırmayın"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Küçük Meta Dosyalarını Sıkıştırmayın"
+"url": "/tr/net/programming-with-docsaveoptions/do-not-compress-small-metafiles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Küçük Meta Dosyalarını Sıkıştırmayın
@@ -21,10 +23,10 @@ Belge işleme alanında, dosyalarınızın nasıl kaydedileceğini optimize etme
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
--  Aspose.Words for .NET: En son sürümü buradan indirin ve kurun[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: En son sürümü buradan indirin ve kurun [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio veya herhangi bir uyumlu IDE.
 - C# Temel Anlayışı: C# programlama dili ve .NET framework'üne aşinalık.
--  Aspose Lisansı: Aspose.Words'ün tüm potansiyelini ortaya çıkarmak için bir lisans edinmeyi düşünün.[lisans](https://purchase.aspose.com/buy) . Ayrıca şunu da kullanabilirsiniz:[geçici lisans](https://purchase.aspose.com/temporary-license/) Değerlendirme için.
+- Aspose Lisansı: Aspose.Words'ün tüm potansiyelini ortaya çıkarmak için bir lisans edinmeyi düşünün. [lisans](https://purchase.aspose.com/buy). Ayrıca şunu da kullanabilirsiniz: [geçici lisans](https://purchase.aspose.com/temporary-license/) Değerlendirme için.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -46,7 +48,7 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENTS DIRECTORY"` Belgenizi kaydetmek istediğiniz gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENTS DIRECTORY"` Belgenizi kaydetmek istediğiniz gerçek yol ile.
 
 ## Adım 2: Yeni Bir Belge Oluşturun
 
@@ -59,11 +61,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Text added to a document.");
 ```
 
- Burada bir`Document` nesne ve kullanım`DocumentBuilder` buna biraz metin eklemek için.`Writeln` metodu belgeye bir satır metin ekler.
+Burada, bir `Document` nesne ve kullanım `DocumentBuilder` buna biraz metin eklemek için. `Writeln` metodu belgeye bir satır metin ekler.
 
 ## Adım 3: Kaydetme Seçeneklerini Yapılandırın
 
- Şimdi, kaydetme seçeneklerini "Küçük Meta Dosyalarını Sıkıştırmayın" özelliğini kullanacak şekilde yapılandırıyoruz. Bu, şu şekilde yapılır:`DocSaveOptions` sınıf.
+Şimdi, "Küçük Meta Dosyalarını Sıkıştırmayın" özelliğini kullanmak için kaydetme seçeneklerini yapılandırıyoruz. Bu, `DocSaveOptions` sınıf.
 
 ```csharp
 // "Küçük Meta Dosyalarını Sıkıştırma" özelliğiyle kaydetme seçeneklerini yapılandırın
@@ -71,7 +73,7 @@ DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.Compliance = PdfCompliance.PdfA1a;
 ```
 
- Bu adımda, bir örnek oluşturuyoruz`DocSaveOptions` ve ayarla`Compliance`mülk`PdfCompliance.PdfA1a`Bu, belgenin PDF/A-1a standardına uymasını sağlar.
+Bu adımda, bir örnek oluşturuyoruz `DocSaveOptions` ve ayarla `Compliance` mülk `PdfCompliance.PdfA1a`Bu, belgenin PDF/A-1a standardına uymasını sağlar.
 
 ## Adım 4: Belgeyi Kaydedin
 
@@ -82,7 +84,7 @@ Son olarak, küçük meta dosyalarının sıkıştırılmamasını sağlamak iç
 doc.Save(dataDir + "DocumentWithDoNotCompressMetafiles.pdf", saveOptions);
 ```
 
- Burada şunu kullanıyoruz:`Save` yöntemi`Document` belgeyi kaydetmek için sınıf. Yol, dizini ve "DocumentWithDoNotCompressMetafiles.pdf" dosya adını içerir.
+Burada şunu kullanıyoruz: `Save` yöntemi `Document` belgeyi kaydetmek için sınıf. Yol, dizini ve "DocumentWithDoNotCompressMetafiles.pdf" dosya adını içerir.
 
 ## Çözüm
 
@@ -100,19 +102,24 @@ Evet, Aspose.Words for .NET, çeşitli dosya biçimleri için kaydetme seçenekl
 
 ### Aspose.Words for .NET'i kullanmak için lisansa ihtiyacım var mı?
 
- Değerlendirme için Aspose.Words for .NET'i lisans olmadan kullanabilirsiniz ancak tam işlevselliğin kilidini açmak için lisans gereklidir. Bir lisans edinebilirsiniz[Burada](https://purchase.aspose.com/buy) veya birini kullanın[geçici lisans](https://purchase.aspose.com/temporary-license/) Değerlendirme için.
+Değerlendirme için Aspose.Words for .NET'i lisans olmadan kullanabilirsiniz ancak tam işlevselliğin kilidini açmak için lisans gereklidir. Bir lisans edinebilirsiniz [Burada](https://purchase.aspose.com/buy) veya birini kullanın [geçici lisans](https://purchase.aspose.com/temporary-license/) Değerlendirme için.
 
 ### Belgelerimin PDF/A standartlarına uygun olduğundan nasıl emin olabilirim?
 
- Aspose.Words for .NET, uyumluluk seçeneklerini ayarlamanıza olanak tanır:`PdfCompliance.PdfA1a` Belgelerinizin belirli standartlara uygun olduğundan emin olmak için.
+Aspose.Words for .NET, uyumluluk seçeneklerini ayarlamanıza olanak tanır: `PdfCompliance.PdfA1a` Belgelerinizin belirli standartlara uygun olduğundan emin olmak için.
 
 ### Aspose.Words for .NET hakkında daha fazla bilgiyi nerede bulabilirim?
 
- Kapsamlı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/) ve en son sürümü indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+Kapsamlı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/)ve en son sürümü indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

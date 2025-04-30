@@ -1,14 +1,16 @@
 ---
-title: Znajdowanie i zamiana tekstu w Aspose.Words dla Java
-linktitle: Znajdowanie i zastępowanie tekstu
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak znajdować i zamieniać tekst w dokumentach Word za pomocą Aspose.Words for Java. Przewodnik krok po kroku z przykładami kodu. Udoskonal swoje umiejętności manipulowania dokumentami Java.
-weight: 15
-url: /pl/java/document-manipulation/finding-and-replacing-text/
+"description": "Dowiedz się, jak znajdować i zamieniać tekst w dokumentach Word za pomocą Aspose.Words for Java. Przewodnik krok po kroku z przykładami kodu. Udoskonal swoje umiejętności manipulowania dokumentami Java."
+"linktitle": "Znajdowanie i zastępowanie tekstu"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Znajdowanie i zamiana tekstu w Aspose.Words dla Java"
+"url": "/pl/java/document-manipulation/finding-and-replacing-text/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Znajdowanie i zamiana tekstu w Aspose.Words dla Java
@@ -26,7 +28,7 @@ Zanim przejdziemy do szczegółów wyszukiwania i zamieniania tekstu, upewnij si
 - Aspose.Words dla biblioteki Java
 - Przykładowy dokument Word do pracy
 
- Bibliotekę Aspose.Words for Java można pobrać ze strony[Tutaj](https://releases.aspose.com/words/java/).
+Bibliotekę Aspose.Words for Java można pobrać ze strony [Tutaj](https://releases.aspose.com/words/java/).
 
 ## Znajdowanie i zastępowanie prostego tekstu
 
@@ -44,7 +46,7 @@ builder.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 doc.save("modified-document.docx");
 ```
 
- W tym przykładzie ładujemy dokument Word, tworzymy`DocumentBuilder` i użyj`replace` metoda wyszukiwania i zamiany „starego tekstu” na „nowy tekst” w dokumencie.
+W tym przykładzie ładujemy dokument Word, tworzymy `DocumentBuilder`i użyj `replace` metoda wyszukiwania i zamiany „starego tekstu” na „nowy tekst” w dokumencie.
 
 ## Korzystanie z wyrażeń regularnych
 
@@ -149,7 +151,7 @@ doc.getRange().replace("text-to-replace", "new-html-content", options);
 doc.save("modified-document.docx");
 ```
 
- W tym przykładzie używamy niestandardowego`ReplaceWithHtmlEvaluator` aby zastąpić tekst zawartością HTML.
+W tym przykładzie używamy niestandardowego `ReplaceWithHtmlEvaluator` aby zastąpić tekst zawartością HTML.
 
 ## Zastępowanie tekstu w nagłówkach i stopkach
 
@@ -186,7 +188,7 @@ Document doc = new Document("your-document.docx");
 // Pobierz pierwszą sekcję
 Section firstPageSection = doc.getFirstSection();
 
-//Utwórz instancję FindReplaceOptions i zastosuj ją do zakresu dokumentu
+// Utwórz instancję FindReplaceOptions i zastosuj ją do zakresu dokumentu
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceLog());
 
@@ -218,7 +220,7 @@ doc.getRange().replace(Pattern.compile("PlaceHolder(\\d+)"), "", options);
 doc.save("modified-document.docx");
 ```
 
- W tym przykładzie zastępujemy tekst polami i określamy typ pola (np.`FieldType.FIELD_MERGE_FIELD`).
+W tym przykładzie zastępujemy tekst polami i określamy typ pola (np. `FieldType.FIELD_MERGE_FIELD`).
 
 ## Zastępowanie przez ewaluatora
 
@@ -294,7 +296,7 @@ doc.getRange().replace("text-to-replace", "new-string", new FindReplaceOptions()
 doc.save("modified-document.docx");
 ```
 
-W tym przykładzie zastępujemy „text-to-replace” przez „new-string” w dokumencie.
+tym przykładzie zastępujemy „text-to-replace” przez „new-string” w dokumencie.
 
 ## Korzystanie z zamówienia Legacy
 
@@ -328,7 +330,7 @@ Document doc = new Document("your-document.docx");
 // Pobierz konkretną tabelę (np. pierwszą tabelę)
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 
-//Użyj FindReplaceOptions do zamiany tekstu w tabeli
+// Użyj FindReplaceOptions do zamiany tekstu w tabeli
 table.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 
 // Zapisz zmodyfikowany dokument
@@ -345,7 +347,7 @@ Aspose.Words for Java oferuje kompleksowe możliwości wyszukiwania i zastępowa
 
 ### Jak pobrać Aspose.Words dla Java?
 
- Możesz pobrać Aspose.Words dla Java ze strony internetowej, odwiedzając[ten link](https://releases.aspose.com/words/java/).
+Możesz pobrać Aspose.Words dla Java ze strony internetowej, odwiedzając [ten link](https://releases.aspose.com/words/java/).
 
 ### Czy mogę używać wyrażeń regularnych do zastępowania tekstu?
 
@@ -353,18 +355,23 @@ Tak, możesz używać wyrażeń regularnych do zamiany tekstu w Aspose.Words for
 
 ### Jak mogę ignorować tekst wewnątrz pól podczas zamiany?
 
-Aby zignorować tekst wewnątrz pól podczas zamiany, możesz ustawić`IgnoreFields` własność`FindReplaceOptions` Do`true`. Dzięki temu tekst w polach, takich jak pola scalania, nie będzie uwzględniany podczas zamiany.
+Aby zignorować tekst wewnątrz pól podczas zamiany, możesz ustawić `IgnoreFields` własność `FindReplaceOptions` Do `true`Dzięki temu tekst w polach, takich jak pola scalania, nie będzie uwzględniany podczas zamiany.
 
 ### Czy mogę zastąpić tekst w nagłówkach i stopkach?
 
- Tak, możesz zastąpić tekst wewnątrz nagłówków i stopek dokumentu Word. Po prostu przejdź do odpowiedniego nagłówka lub stopki i użyj`replace` metoda z pożądanym`FindReplaceOptions`.
+Tak, możesz zastąpić tekst wewnątrz nagłówków i stopek dokumentu Word. Po prostu przejdź do odpowiedniego nagłówka lub stopki i użyj `replace` metoda z pożądanym `FindReplaceOptions`.
 
 ### Do czego służy opcja UseLegacyOrder?
 
- Ten`UseLegacyOrder` opcja w`FindReplaceOptions` pozwala na użycie starszej kolejności podczas wykonywania operacji wyszukiwania i zamiany. Może to być przydatne w pewnych scenariuszach, w których pożądane jest starsze zachowanie kolejności.
+Ten `UseLegacyOrder` opcja w `FindReplaceOptions` pozwala na użycie starszej kolejności podczas wykonywania operacji wyszukiwania i zamiany. Może to być przydatne w pewnych scenariuszach, w których pożądane jest starsze zachowanie kolejności.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

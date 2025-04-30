@@ -1,37 +1,41 @@
 ---
-title: Vytvořte Word dokument s Aspose.Words pro .NET
-weight: 7700
-limit: 
-description: Naučte se vytvářet stylený dokument Word pomocí třídy .NET a DocumentBuilder Aspose.Words.
-keywords: [Aspose.Words, .NET, DocumentBuilder, Word document, styling, programming, example]
-url: /cs/net/add-content-using-document-builder/insert-paragraph/
+"description": "Naučte se, jak vytvořit stylizovaný dokument Wordu pomocí Aspose.Words pro .NET a třídy DocumentBuilder."
+"title": "Vytvořte dokument Wordu pomocí Aspose.Words pro .NET"
+"url": "/cs/net/add-content-using-document-builder/insert-paragraph/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořte dokument Word pomocí Aspose.Words
-Tento příklad ukazuje, jak používat Aspose.Words pro knihovnu .NET k programové tvorbě dokumentu Word. Použitím třídy DocumentBuilder můžete do dokumentu vložit stylené odstavce s přizpůsobenými nastavením písmen. Tento průvodce vám provede každý krok, zajišťující, že můžete efektivně generovat dokumenty Word pro vaše aplikace.
+# Vytvořte dokument Wordu pomocí Aspose.Words
+Tento příklad ukazuje, jak programově použít knihovnu Aspose.Words pro .NET k vytvoření dokumentu Word. Pomocí třídy DocumentBuilder můžete do dokumentu vkládat stylizované odstavce s přizpůsobeným nastavením písma. Tato příručka vás provede jednotlivými kroky a zajistí, že budete moci efektivně generovat dokumenty Word pro vaše aplikace.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-paragraph" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Příkazy na instalaci
-1. Nainstalovat knihovnu Aspose.Words:
-   * Můžete instalovat Aspose.Words pro .NET prostřednictvím NuGet Package Manager v Visual Studio:
+## Pokyny k instalaci
+1. Nainstalujte knihovnu Aspose.Words:
+   - Aspose.Words pro .NET můžete nainstalovat pomocí Správce balíčků NuGet ve Visual Studiu:
      ```
      Install-Package Aspose.Words
      ```
 
-2. Nastavte svůj projekt:
-   * Vytvořte nový projekt .NET v Visual Studio.
-   * Přidejte odkaz na knihovnu Aspose.Words.
+2. Nastavení projektu:
+   - Vytvořte nový .NET projekt ve Visual Studiu.
+   - Přidejte odkaz na knihovnu Aspose.Words.
 
-3. Přidejte příkladový kód:
-   * Kopírovat poskytnutý příklad kódu do vašeho projektu.
-   * Zabezpečí zahrnutí nezbytných `používání`směrnice na vrcholu:
+3. Přidejte vzorový kód:
+   - Zkopírujte poskytnutý příklad kódu do svého projektu.
+   - Ujistěte se, že jste zahrnuli nezbytné `using` směrnice nahoře:
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Drawing;
@@ -40,11 +44,15 @@ Tento příklad ukazuje, jak používat Aspose.Words pro knihovnu .NET k program
      ```
 
 ## Viz také
-[Aspose.Word pro .NET dokumentaci](https://docs.aspose.com/words/net/)
-[Aspose.Word pro reference .NET](https://reference.aspose.com/words/net/)
+[Dokumentace k Aspose.Word pro .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word pro .NET reference](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

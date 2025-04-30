@@ -1,14 +1,16 @@
 ---
-title: प्रत्यय के बिना प्रतिस्थापन प्राप्त करें
-linktitle: प्रत्यय के बिना प्रतिस्थापन प्राप्त करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: Aspose.Words for .NET में प्रत्यय के बिना फ़ॉन्ट प्रतिस्थापन को प्रबंधित करना सीखें। अपने दस्तावेज़ों को हर बार सही दिखने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/working-with-fonts/get-substitution-without-suffixes/
+"description": "Aspose.Words for .NET में प्रत्यय के बिना फ़ॉन्ट प्रतिस्थापन को प्रबंधित करना सीखें। अपने दस्तावेज़ों को हर बार सही दिखने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "प्रत्यय के बिना प्रतिस्थापन प्राप्त करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "प्रत्यय के बिना प्रतिस्थापन प्राप्त करें"
+"url": "/hi/net/working-with-fonts/get-substitution-without-suffixes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # प्रत्यय के बिना प्रतिस्थापन प्राप्त करें
@@ -22,9 +24,9 @@ url: /hi/net/working-with-fonts/get-substitution-without-suffixes/
 ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
 - C# का मूलभूत ज्ञान: C# प्रोग्रामिंग को समझने से चरणों का पालन करना और उन्हें क्रियान्वित करना आसान हो जाएगा।
--  Aspose.Words for .NET लाइब्रेरी: लाइब्रेरी को डाउनलोड करें और इंस्टॉल करें[लिंक को डाउनलोड करें](https://releases.aspose.com/words/net/).
+- .NET लाइब्रेरी के लिए Aspose.Words: लाइब्रेरी को डाउनलोड करें और इंस्टॉल करें [लिंक को डाउनलोड करें](https://releases.aspose.com/words/net/).
 - विकास परिवेश: अपना कोड लिखने और चलाने के लिए Visual Studio जैसा विकास परिवेश सेट करें।
--  नमूना दस्तावेज़: एक नमूना दस्तावेज़ (जैसे,`Rendering.docx`) इस ट्यूटोरियल के दौरान काम करने के लिए।
+- नमूना दस्तावेज़: एक नमूना दस्तावेज़ (जैसे, `Rendering.docx`) इस ट्यूटोरियल के दौरान काम करने के लिए।
 
 ## नामस्थान आयात करें
 
@@ -70,7 +72,7 @@ FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 ```
 
 इस कोड में:
--  हम वर्तमान फ़ॉन्ट स्रोतों को पुनः प्राप्त करते हैं और एक नया जोड़ते हैं`FolderFontSource` हमारे कस्टम फ़ॉन्ट निर्देशिका की ओर इशारा करते हुए (`C:\\MyFonts\\`).
+- हम वर्तमान फ़ॉन्ट स्रोतों को पुनः प्राप्त करते हैं और एक नया जोड़ते हैं `FolderFontSource` हमारे कस्टम फ़ॉन्ट निर्देशिका की ओर इशारा करते हुए (`C:\\MyFonts\\`).
 - फिर हम इस नई सूची के साथ फ़ॉन्ट स्रोतों को अद्यतन करते हैं।
 
 ## चरण 4: दस्तावेज़ सहेजें
@@ -83,7 +85,7 @@ doc.Save(dataDir + "WorkingWithFonts.GetSubstitutionWithoutSuffixes.pdf");
 
 ## चरण 5: चेतावनी हैंडलर क्लास बनाएँ
 
- चेतावनियों को प्रभावी ढंग से संभालने के लिए, एक कस्टम क्लास बनाएं जो इसे लागू करता है`IWarningCallback` इंटरफ़ेस. यह क्लास किसी भी फ़ॉन्ट प्रतिस्थापन चेतावनी को कैप्चर और लॉग करेगा.
+चेतावनियों को प्रभावी ढंग से संभालने के लिए, एक कस्टम क्लास बनाएं जो इसे लागू करता है `IWarningCallback` इंटरफ़ेस. यह क्लास किसी भी फ़ॉन्ट प्रतिस्थापन चेतावनी को कैप्चर और लॉग करेगा.
 
 ```csharp
 public class DocumentSubstitutionWarnings : IWarningCallback
@@ -99,8 +101,8 @@ public class DocumentSubstitutionWarnings : IWarningCallback
 ```
 
 इस वर्ग में:
-- `Warning`विधि फ़ॉन्ट प्रतिस्थापन से संबंधित चेतावनियाँ कैप्चर करती है।
-- `FontWarnings` संग्रह इन चेतावनियों को आगे के निरीक्षण या लॉगिंग के लिए संग्रहीत करता है।
+- The `Warning` विधि फ़ॉन्ट प्रतिस्थापन से संबंधित चेतावनियाँ कैप्चर करती है।
+- The `FontWarnings` संग्रह इन चेतावनियों को आगे के निरीक्षण या लॉगिंग के लिए संग्रहीत करता है।
 
 ## निष्कर्ष
 
@@ -108,28 +110,33 @@ public class DocumentSubstitutionWarnings : IWarningCallback
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### मैं एकाधिक कस्टम निर्देशिकाओं से फ़ॉन्ट का उपयोग कैसे कर सकता हूँ?
+### मैं एकाधिक कस्टम निर्देशिकाओं से फ़ॉन्ट का उपयोग कैसे कर सकता हूं?
 
- आप कई जोड़ सकते हैं`FolderFontSource` उदाहरणों के लिए`fontSources` फ़ॉन्ट स्रोतों को सूचीबद्ध करें और तदनुसार अद्यतन करें।
+आप कई जोड़ सकते हैं `FolderFontSource` उदाहरणों के लिए `fontSources` फ़ॉन्ट स्रोतों को सूचीबद्ध करें और तदनुसार अद्यतन करें।
 
 ### मैं .NET के लिए Aspose.Words का निःशुल्क परीक्षण संस्करण कहां से डाउनलोड कर सकता हूं?
 
- आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं[Aspose निःशुल्क परीक्षण पृष्ठ](https://releases.aspose.com/).
+आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं [Aspose निःशुल्क परीक्षण पृष्ठ](https://releases.aspose.com/).
 
-###  क्या मैं अनेक प्रकार की चेतावनियों को संभाल सकता हूँ?`IWarningCallback`?
+### क्या मैं अनेक प्रकार की चेतावनियों को संभाल सकता हूँ? `IWarningCallback`?
 
- हां`IWarningCallback` इंटरफ़ेस आपको न केवल फ़ॉन्ट प्रतिस्थापन बल्कि विभिन्न प्रकार की चेतावनियों को संभालने की अनुमति देता है।
+हां `IWarningCallback` इंटरफ़ेस आपको न केवल फ़ॉन्ट प्रतिस्थापन बल्कि विभिन्न प्रकार की चेतावनियों को संभालने की अनुमति देता है।
 
 ### मुझे Aspose.Words के लिए समर्थन कहां मिल सकता है?
 
- सहायता के लिए, यहां जाएं[Aspose.Words समर्थन मंच](https://forum.aspose.com/c/words/8).
+सहायता के लिए, यहां जाएं [Aspose.Words समर्थन मंच](https://forum.aspose.com/c/words/8).
 
 ### क्या अस्थायी लाइसेंस खरीदना संभव है?
 
- हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/).
+हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं [अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

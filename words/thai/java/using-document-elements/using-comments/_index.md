@@ -1,14 +1,16 @@
 ---
-title: การใช้ความคิดเห็นใน Aspose.Words สำหรับ Java
-linktitle: การใช้ความคิดเห็น
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีใช้ความคิดเห็นใน Aspose.Words สำหรับ Java บทช่วยสอนแบบทีละขั้นตอนสำหรับการเพิ่มและปรับแต่งความคิดเห็นในเอกสารของคุณ
-weight: 10
-url: /th/java/using-document-elements/using-comments/
+"description": "เรียนรู้วิธีใช้คำอธิบายประกอบใน Aspose.Words สำหรับ Java บทช่วยสอนแบบทีละขั้นตอนสำหรับการเพิ่มและปรับแต่งคำอธิบายประกอบในเอกสารของคุณ"
+"linktitle": "การใช้ความคิดเห็น"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การใช้ความคิดเห็นใน Aspose.Words สำหรับ Java"
+"url": "/th/java/using-document-elements/using-comments/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การใช้ความคิดเห็นใน Aspose.Words สำหรับ Java
@@ -20,7 +22,7 @@ url: /th/java/using-document-elements/using-comments/
 ความคิดเห็นมีประโยชน์ในการจัดทำเอกสารโค้ดของคุณหรือให้คำอธิบายภายในเอกสาร Aspose.Words สำหรับ Java ช่วยให้คุณสามารถเพิ่มความคิดเห็นลงในเอกสารของคุณโดยใช้โปรแกรม ทำให้เป็นตัวเลือกที่ยอดเยี่ยมสำหรับการสร้างเอกสารแบบไดนามิกและโต้ตอบได้
 
 ## 2. การจัดเตรียมสภาพแวดล้อม
- ก่อนที่เราจะเจาะลึกโค้ด คุณต้องตั้งค่าสภาพแวดล้อมการพัฒนาของคุณก่อน ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งและกำหนดค่า Aspose.Words สำหรับ Java แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/java/).
+ก่อนที่เราจะเจาะลึกโค้ด คุณต้องตั้งค่าสภาพแวดล้อมการพัฒนาของคุณก่อน ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งและกำหนดค่า Aspose.Words สำหรับ Java แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/java/).
 
 ## 3. การสร้างเอกสารใหม่
 เริ่มต้นด้วยการสร้างเอกสารใหม่ ในโปรเจ็กต์ Java ของคุณ ตรวจสอบว่าคุณได้เพิ่มไลบรารีและการอ้างอิงที่จำเป็นแล้ว
@@ -89,15 +91,20 @@ doc.save(outPath + "WorkingWithComments.AddComments.docx");
 
 ### 4. มีข้อจำกัดเกี่ยวกับความยาวของความคิดเห็นหรือไม่?
 
-Aspose.Words สำหรับ Java ช่วยให้คุณสามารถเพิ่มคำอธิบายที่มีความยาวแตกต่างกันได้ เพื่อรองรับคำอธิบายที่ครอบคลุม
+Aspose.Words สำหรับ Java ช่วยให้คุณสามารถเพิ่มคำอธิบายที่มีความยาวแตกต่างกันเพื่อรองรับคำอธิบายที่ครอบคลุม
 
 ### 5. ฉันสามารถเข้าถึง Aspose.Words สำหรับ Java ได้จากที่ใด
 
 ตอนนี้คุณมีความเข้าใจที่ครอบคลุมเกี่ยวกับการทำงานกับคำอธิบายประกอบใน Aspose.Words สำหรับ Java แล้ว คุณสามารถเริ่มสร้างเอกสารแบบไดนามิกและให้ข้อมูลได้อย่างง่ายดาย ขอให้สนุกกับการเขียนโค้ด!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

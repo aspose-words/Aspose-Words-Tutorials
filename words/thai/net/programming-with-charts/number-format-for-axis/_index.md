@@ -1,14 +1,16 @@
 ---
-title: รูปแบบตัวเลขสำหรับแกนในแผนภูมิ
-linktitle: รูปแบบตัวเลขสำหรับแกนในแผนภูมิ
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีจัดรูปแบบหมายเลขแกนของแผนภูมิโดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนนี้ เพิ่มความสามารถในการอ่านและความเป็นมืออาชีพของเอกสารของคุณได้อย่างง่ายดาย
-weight: 10
-url: /th/net/programming-with-charts/number-format-for-axis/
+"description": "เรียนรู้วิธีจัดรูปแบบหมายเลขแกนของแผนภูมิโดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนนี้ เพิ่มความสามารถในการอ่านและความเป็นมืออาชีพของเอกสารของคุณได้อย่างง่ายดาย"
+"linktitle": "รูปแบบตัวเลขสำหรับแกนในแผนภูมิ"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "รูปแบบตัวเลขสำหรับแกนในแผนภูมิ"
+"url": "/th/net/programming-with-charts/number-format-for-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รูปแบบตัวเลขสำหรับแกนในแผนภูมิ
@@ -21,7 +23,7 @@ url: /th/net/programming-with-charts/number-format-for-axis/
 
 ก่อนที่เราจะเริ่มต้น เรามาตรวจสอบกันก่อนว่าคุณได้เตรียมทุกสิ่งที่คุณต้องการแล้ว นี่คือรายการตรวจสอบด่วน:
 
--  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งแล้ว หากยังไม่ได้ติดตั้ง คุณสามารถทำได้[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งแล้ว หากยังไม่ได้ติดตั้ง คุณสามารถทำได้ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/net/).
 - .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET framework ที่เข้ากันได้
 - สภาพแวดล้อมการพัฒนา: IDE เช่น Visual Studio จะทำงานได้อย่างสมบูรณ์แบบ
 - ความรู้พื้นฐานเกี่ยวกับ C#: จะช่วยให้คุณติดตามตัวอย่างการเขียนโค้ดได้
@@ -52,7 +54,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- ที่นี่,`dataDir` เป็นเส้นทางไปยังไดเร็กทอรีเอกสารของคุณซึ่งคุณจะบันทึกไฟล์สุดท้าย`Document` และ`DocumentBuilder` เป็นคลาสจาก Aspose.Words ที่ช่วยให้คุณสร้างและจัดการเอกสาร Word ได้
+ที่นี่, `dataDir` เป็นเส้นทางไปยังไดเร็กทอรีเอกสารของคุณซึ่งคุณจะบันทึกไฟล์สุดท้าย `Document` และ `DocumentBuilder` เป็นคลาสจาก Aspose.Words ที่ช่วยให้คุณสร้างและจัดการเอกสาร Word ได้
 
 ## ขั้นตอนที่ 2: การแทรกแผนภูมิ
 
@@ -65,7 +67,7 @@ Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 ```
 
- การ`InsertChart` วิธีการแทรกแผนภูมิประเภทที่ระบุ (คอลัมน์ในกรณีนี้) และมิติลงในเอกสาร
+การ `InsertChart` วิธีการแทรกแผนภูมิประเภทที่ระบุ (คอลัมน์ในกรณีนี้) และมิติลงในเอกสาร
 
 ## ขั้นตอนที่ 3: การปรับแต่งชุดแผนภูมิ
 
@@ -80,7 +82,7 @@ chart.Series.Add("Aspose Series 1",
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 ```
 
- ที่นี่ เรากำลังเพิ่มซีรีส์ใหม่ชื่อ "Aspose Series 1" ที่มีจุดข้อมูล 5 จุด`Series.Clear` วิธีการนี้จะช่วยให้แน่ใจว่าข้อมูลที่มีอยู่ก่อนหน้านี้จะถูกลบออกก่อนที่จะเพิ่มชุดใหม่ของเรา
+ที่นี่ เรากำลังเพิ่มซีรีส์ใหม่ชื่อ "Aspose Series 1" ที่มีจุดข้อมูล 5 จุด `Series.Clear` วิธีการนี้จะช่วยให้แน่ใจว่าข้อมูลที่มีอยู่ก่อนหน้านี้จะถูกลบออกก่อนที่จะเพิ่มชุดใหม่ของเรา
 
 ## ขั้นตอนที่ 4: การจัดรูปแบบหมายเลขแกน
 
@@ -92,7 +94,7 @@ chart.Series.Add("Aspose Series 1",
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 ```
 
- การ`FormatCode` คุณสมบัตินี้ช่วยให้คุณกำหนดรูปแบบที่กำหนดเองสำหรับตัวเลขบนแกนได้ ในตัวอย่างนี้`#,##0`ทำให้แน่ใจว่าตัวเลขขนาดใหญ่จะแสดงพร้อมเครื่องหมายจุลภาคแทนจำนวนพัน
+การ `FormatCode` คุณสมบัตินี้ช่วยให้คุณกำหนดรูปแบบที่กำหนดเองสำหรับตัวเลขบนแกนได้ ในตัวอย่างนี้ `#,##0` ทำให้แน่ใจว่าตัวเลขขนาดใหญ่จะแสดงพร้อมเครื่องหมายจุลภาคแทนจำนวนพัน
 
 ## ขั้นตอนที่ 5: การบันทึกเอกสาร
 
@@ -104,7 +106,7 @@ chart.AxisY.NumberFormat.FormatCode = "#,##0";
 doc.Save(dataDir + "WorkingWithCharts.NumberFormatForAxis.docx");
 ```
 
- ที่นี่`Save` วิธีการบันทึกเอกสารไปยังเส้นทางที่ระบุโดยมีชื่อไฟล์`WorkingWithCharts.NumberFormatForAxis.docx`.
+ที่นี่ `Save` วิธีการบันทึกเอกสารไปยังเส้นทางที่ระบุโดยมีชื่อไฟล์ `WorkingWithCharts-NumberFormatForAxis.docx`.
 
 ## บทสรุป
 
@@ -113,23 +115,28 @@ doc.Save(dataDir + "WorkingWithCharts.NumberFormatForAxis.docx");
 ## คำถามที่พบบ่อย
 
 ### Aspose.Words สำหรับ .NET คืออะไร?
-Aspose.Words สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร Word ได้ด้วยโปรแกรม
+Aspose.Words สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง แก้ไข และแปลงเอกสาร Word ได้ด้วยโปรแกรม
 
 ### ฉันสามารถจัดรูปแบบด้านอื่น ๆ ของแผนภูมิ นอกเหนือจากหมายเลขแกนได้หรือไม่
 แน่นอน! Aspose.Words สำหรับ .NET ช่วยให้คุณสามารถจัดรูปแบบชื่อเรื่อง ป้ายกำกับ และแม้แต่ปรับแต่งลักษณะที่ปรากฏของแผนภูมิได้
 
 ### มี Aspose.Words สำหรับ .NET ให้ทดลองใช้งานฟรีหรือไม่
- ใช่ คุณสามารถรับได้[ทดลองใช้ฟรีที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถรับได้ [ทดลองใช้ฟรีที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ .NET กับภาษา .NET อื่นๆ นอกเหนือจาก C# ได้หรือไม่
 ใช่ Aspose.Words สำหรับ .NET สามารถใช้งานได้กับภาษา .NET ทุกภาษา รวมถึง VB.NET และ F#
 
 ### ฉันสามารถหาเอกสารรายละเอียดเพิ่มเติมได้ที่ไหน
- เอกสารรายละเอียดสามารถดูได้ที่[หน้าเอกสาร Aspose.Words สำหรับ .NET](https://reference.aspose.com/words/net/).
+เอกสารรายละเอียดสามารถดูได้ที่ [หน้าเอกสาร Aspose.Words สำหรับ .NET](https://reference-aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

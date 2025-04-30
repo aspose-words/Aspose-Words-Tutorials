@@ -1,14 +1,16 @@
 ---
-title: การตั้งค่าหน้าเอกสาร
-linktitle: การตั้งค่าหน้าเอกสาร
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: ตั้งค่าหน้าเอกสารหลักด้วย Aspose.Words สำหรับ .NET ในขั้นตอนง่ายๆ เรียนรู้การโหลด ตั้งค่าเค้าโครง กำหนดอักขระต่อบรรทัด บรรทัดต่อหน้า และบันทึกเอกสารของคุณ
-weight: 10
-url: /th/net/programming-with-document-options-and-settings/document-page-setup/
+"description": "ตั้งค่าหน้าเอกสารหลักด้วย Aspose.Words สำหรับ .NET ในขั้นตอนง่ายๆ เรียนรู้การโหลด ตั้งค่าเค้าโครง กำหนดอักขระต่อบรรทัด บรรทัดต่อหน้า และบันทึกเอกสารของคุณ"
+"linktitle": "การตั้งค่าหน้าเอกสาร"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การตั้งค่าหน้าเอกสาร"
+"url": "/th/net/programming-with-document-options-and-settings/document-page-setup/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การตั้งค่าหน้าเอกสาร
@@ -21,8 +23,8 @@ url: /th/net/programming-with-document-options-and-settings/document-page-setup/
 
 ก่อนที่จะเจาะลึกรายละเอียด เรามาตรวจสอบกันก่อนว่าคุณได้ทุกสิ่งที่คุณต้องการแล้ว:
 
--  Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
--  ใบอนุญาตที่ถูกต้อง: คุณสามารถซื้อได้หนึ่งใบ[ที่นี่](https://purchase.aspose.com/buy) หรือรับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
+- ใบอนุญาตที่ถูกต้อง: คุณสามารถซื้อได้หนึ่งใบ [ที่นี่](https://purchase.aspose.com/buy) หรือรับใบอนุญาตชั่วคราว [ที่นี่](https://purchase-aspose.com/temporary-license/).
 - ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C#: ไม่ต้องกังวล ฉันจะทำให้มันเรียบง่ายและตรงไปตรงมา
 - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE): Visual Studio เป็นตัวเลือกที่ดี
 
@@ -40,7 +42,7 @@ using Aspose.Words.PageSetup;
 
 สิ่งแรกที่ต้องทำคือโหลดเอกสารของคุณ นี่คือรากฐานที่คุณจะสร้างการตั้งค่าหน้ากระดาษของคุณ
 
- สร้างอินสแตนซ์ใหม่ของ`Document` คลาสและโหลดเอกสารของคุณจากไดเร็กทอรีที่ระบุ
+สร้างอินสแตนซ์ใหม่ของ `Document` คลาสและโหลดเอกสารของคุณจากไดเร็กทอรีที่ระบุ
 
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
@@ -53,7 +55,7 @@ Document doc = new Document(dataDir + "Document.docx");
 โหมดเค้าโครงจะกำหนดว่าข้อความจะถูกจัดเรียงอย่างไรในหน้า ในตัวอย่างนี้ เราจะใช้โหมดเค้าโครงแบบตาราง ซึ่งมีประโยชน์อย่างยิ่งเมื่อต้องจัดการกับเอกสารที่เป็นภาษาเอเชีย
 
 ```csharp
-// ตั้งค่าโหมดเค้าโครงสำหรับส่วนต่างๆ ที่อนุญาตให้กำหนดลักษณะการทำงานของตารางเอกสาร
+// ตั้งค่าโหมดเค้าโครงสำหรับส่วนต่างๆ ที่อนุญาตให้กำหนดลักษณะการทำงานของกริดเอกสาร
 doc.FirstSection.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 ```
 
@@ -91,19 +93,24 @@ doc.Save(dataDir + "WorkingWithDocumentOptionsAndSettings.DocumentPageSetup.docx
 เป็นไลบรารีอันทรงพลังสำหรับการสร้าง แก้ไข และแปลงเอกสารในรูปแบบต่างๆ โดยใช้แอปพลิเคชัน .NET
 
 ### ฉันสามารถใช้ Aspose.Words ได้ฟรีหรือไม่?
-ใช่ครับ ใช้ได้ครับ มีใบอนุญาตชั่วคราวก็รับได้ครับ[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ใช่ครับ ใช้ได้ครับ มีใบอนุญาตชั่วคราวก็รับได้ครับ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันจะติดตั้ง Aspose.Words สำหรับ .NET ได้อย่างไร?
- คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/) และปฏิบัติตามคำแนะนำในการติดตั้ง
+คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases.aspose.com/words/net/) และปฏิบัติตามคำแนะนำในการติดตั้ง
 
 ### Aspose.Words รองรับภาษาอะไรบ้าง?
 รองรับภาษาต่างๆ มากมาย รวมถึงภาษาเอเชีย เช่น จีน และญี่ปุ่น
 
 ### ฉันสามารถหาเอกสารรายละเอียดเพิ่มเติมได้ที่ไหน
- เอกสารรายละเอียดมีให้[ที่นี่](https://reference.aspose.com/words/net/).
+เอกสารรายละเอียดมีให้ [ที่นี่](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

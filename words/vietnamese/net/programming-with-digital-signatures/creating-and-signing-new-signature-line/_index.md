@@ -1,14 +1,16 @@
 ---
-title: Tạo và ký dòng chữ ký mới
-linktitle: Tạo và ký dòng chữ ký mới
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tạo và ký số dòng chữ ký trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho việc tự động hóa tài liệu.
-weight: 10
-url: /vi/net/programming-with-digital-signatures/creating-and-signing-new-signature-line/
+"description": "Tìm hiểu cách tạo và ký số dòng chữ ký trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho việc tự động hóa tài liệu."
+"linktitle": "Tạo và ký dòng chữ ký mới"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tạo và ký dòng chữ ký mới"
+"url": "/vi/net/programming-with-digital-signatures/creating-and-signing-new-signature-line/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo và ký dòng chữ ký mới
@@ -19,11 +21,11 @@ Xin chào! Vậy là bạn có một tài liệu Word và bạn cần thêm mộ
 
 ## Điều kiện tiên quyết
 
-Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
-1.  Aspose.Words cho .NET - Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
+1. Aspose.Words cho .NET - Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển .NET - Visual Studio được khuyến khích sử dụng.
-3. Tài liệu để ký - Tạo một tài liệu Word đơn giản hoặc sử dụng một tài liệu có sẵn.
-4.  Tệp chứng chỉ - Tệp này cần thiết cho chữ ký số. Bạn có thể sử dụng`.pfx` tài liệu.
+3. Tài liệu để ký - Tạo một tài liệu Word đơn giản hoặc sử dụng một tài liệu hiện có.
+4. Tệp chứng chỉ - Tệp này cần thiết cho chữ ký số. Bạn có thể sử dụng `.pfx` tài liệu.
 5. Hình ảnh cho Dòng chữ ký - Tùy chọn, một tệp hình ảnh cho chữ ký.
 
 ## Nhập không gian tên
@@ -58,7 +60,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Bước 3: Chèn dòng chữ ký
 
- Đây là nơi phép thuật xảy ra. Chúng tôi chèn một dòng chữ ký vào tài liệu của chúng tôi bằng cách sử dụng`DocumentBuilder` lớp học.
+Đây là nơi phép thuật xảy ra. Chúng tôi chèn một dòng chữ ký vào tài liệu của chúng tôi bằng cách sử dụng `DocumentBuilder` lớp học.
 
 ```csharp
 SignatureLine signatureLine = builder.InsertSignatureLine(new SignatureLineOptions()).SignatureLine;
@@ -66,7 +68,7 @@ SignatureLine signatureLine = builder.InsertSignatureLine(new SignatureLineOptio
 
 ## Bước 4: Lưu tài liệu có dòng chữ ký
 
-Sau khi dòng chữ ký đã vào vị trí, chúng ta cần lưu tài liệu. Đây là bước trung gian trước khi chúng ta tiến hành ký.
+Sau khi dòng chữ ký được đặt vào, chúng ta cần lưu tài liệu. Đây là bước trung gian trước khi chúng ta tiến hành ký.
 
 ```csharp
 doc.Save(dataDir + "SignDocuments.SignatureLine.docx");
@@ -94,7 +96,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 
 ## Bước 7: Ký tài liệu
 
- Đây là bước cuối cùng. Chúng tôi sử dụng`DigitalSignatureUtil`lớp để ký tài liệu. Tài liệu đã ký sẽ được lưu với tên mới.
+Đây là bước cuối cùng. Chúng tôi sử dụng `DigitalSignatureUtil` lớp để ký tài liệu. Tài liệu đã ký sẽ được lưu với tên mới.
 
 ```csharp
 DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLine.docx",
@@ -110,8 +112,8 @@ Và bạn đã có nó! Với các bước này, bạn đã tạo thành công m
 ### Tôi có thể sử dụng định dạng hình ảnh khác cho dòng chữ ký không?
 Có, bạn có thể sử dụng nhiều định dạng hình ảnh khác nhau như PNG, JPG, BMP, v.v.
 
-###  Có cần thiết phải sử dụng một`.pfx` file for the certificate?
- Vâng, một`.pfx` tệp là định dạng phổ biến để lưu trữ thông tin mật mã bao gồm chứng chỉ và khóa riêng.
+### Có cần thiết phải sử dụng một `.pfx` nộp hồ sơ xin cấp giấy chứng nhận?
+Vâng, một `.pfx` tệp là định dạng phổ biến để lưu trữ thông tin mật mã bao gồm chứng chỉ và khóa riêng.
 
 ### Tôi có thể thêm nhiều dòng chữ ký vào một tài liệu không?
 Hoàn toàn có thể! Bạn có thể chèn nhiều dòng chữ ký bằng cách lặp lại bước chèn cho mỗi chữ ký.
@@ -121,9 +123,14 @@ Bạn sẽ cần phải xin chứng chỉ số từ một cơ quan cấp chứng
 
 ### Làm thế nào để xác minh chữ ký số trong tài liệu?
 Bạn có thể mở tài liệu đã ký trong Word và đi tới chi tiết chữ ký để xác minh tính xác thực và toàn vẹn của chữ ký.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Вставить поле слияния с использованием DOM
-linktitle: Вставить поле слияния с использованием DOM
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставлять и настраивать поля слияния в документах Word с помощью Aspose.Words для .NET, из этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/working-with-fields/insert-merge-field-using-dom/
+"description": "Узнайте, как вставлять и настраивать поля слияния в документах Word с помощью Aspose.Words для .NET, из этого подробного пошагового руководства."
+"linktitle": "Вставить поле слияния с использованием DOM"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить поле слияния с использованием DOM"
+"url": "/ru/net/working-with-fields/insert-merge-field-using-dom/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить поле слияния с использованием DOM
@@ -23,8 +25,8 @@ url: /ru/net/working-with-fields/insert-merge-field-using-dom/
 
 1. Базовые знания C#: вы должны иметь навыки программирования на C#.
 2. Установленная Visual Studio: убедитесь, что на вашем компьютере установлена Visual Studio или любая другая среда C# IDE.
-3.  Aspose.Words для .NET: Загрузите и установите последнюю версию Aspose.Words для .NET с сайта[Релизы](https://releases.aspose.com/words/net/).
-4.  Действующая лицензия: Если у вас нет лицензии, вы можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/) для оценки.
+3. Aspose.Words для .NET: Загрузите и установите последнюю версию Aspose.Words для .NET с сайта [Релизы](https://releases.aspose.com/words/net/).
+4. Действующая лицензия: Если у вас нет лицензии, вы можете получить [временная лицензия](https://purchase.aspose.com/temporary-license/) для оценки.
 
 ## Шаг 1: Настройте свой проект
 
@@ -76,7 +78,7 @@ builder.MoveTo(para);
 
 ## Шаг 6: Вставьте поле слияния
 
- Вставка поля слияния проста. Мы будем использовать`InsertField` Метод`DocumentBuilder` сорт.
+Вставка поля слияния проста. Мы будем использовать `InsertField` Метод `DocumentBuilder` сорт.
 
 ```csharp
 // Вставить поле, объединить поле.
@@ -117,19 +119,24 @@ doc.Save(dataDir + "InsertionChampMergeChamp.docx");
 Поле слияния — это заполнитель в документе, который можно динамически заменить данными из источника данных, например базы данных или CSV-файла.
 
 ###  Могу ли я использовать Aspose.Words бесплатно?
- Aspose.Words предлагает бесплатную пробную версию, которую вы можете загрузить[здесь](https://releases.aspose.com/). Для долгосрочного использования вам необходимо будет приобрести лицензию.
+Aspose.Words предлагает бесплатную пробную версию, которую вы можете загрузить [здесь](https://releases.aspose.com/). Для долгосрочного использования вам необходимо будет приобрести лицензию.
 
 ###  Как получить временную лицензию для Aspose.Words?
- Вы можете получить временную лицензию на сайте Aspose.[здесь](https://purchase.aspose.com/temporary-license/).
+Вы можете получить временную лицензию на сайте Aspose. [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Какие версии .NET поддерживаются Aspose.Words?
 Aspose.Words поддерживает несколько версий .NET, включая .NET Framework, .NET Core и .NET Standard.
 
 ###  Где я могу найти документацию по API для Aspose.Words?
- Документация API доступна[здесь](https://reference.aspose.com/words/net/).
+Документация API доступна [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

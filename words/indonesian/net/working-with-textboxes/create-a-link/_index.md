@@ -1,14 +1,16 @@
 ---
-title: Menghubungkan Kotak Teks di Word dengan Aspose.Words
-linktitle: Menghubungkan Kotak Teks di Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat dan menautkan kotak teks dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan lengkap kami untuk kustomisasi dokumen yang lancar!
-weight: 10
-url: /id/net/working-with-textboxes/create-a-link/
+"description": "Pelajari cara membuat dan menautkan kotak teks dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan lengkap kami untuk kustomisasi dokumen yang lancar!"
+"linktitle": "Menghubungkan Kotak Teks di Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Menghubungkan Kotak Teks di Word dengan Aspose.Words"
+"url": "/id/net/working-with-textboxes/create-a-link/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menghubungkan Kotak Teks di Word dengan Aspose.Words
@@ -21,7 +23,7 @@ Hai, penggemar teknologi dan ahli dokumen! 🌟 Pernahkah Anda menghadapi tantan
 
 Sebelum kita menyelami keajaiban menghubungkan kotak teks, mari pastikan Anda telah menyiapkan semua hal penting:
 
-1. Pustaka Aspose.Words untuk .NET: Anda memerlukan versi terbaru Aspose.Words untuk .NET. Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Anda memerlukan versi terbaru Aspose.Words untuk .NET. Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan .NET, seperti Visual Studio, diperlukan untuk menulis dan menguji kode Anda.
 3. Pengetahuan Dasar C#: Pemahaman dasar tentang C# akan membantu Anda mengikuti contoh kode.
 4. Contoh Dokumen Word: Meskipun tidak sepenuhnya diperlukan untuk tutorial ini, memiliki contoh dokumen Word untuk menguji kotak teks yang ditautkan dapat membantu.
@@ -55,7 +57,7 @@ Baris ini menginisialisasi dokumen Word baru yang kosong, siap bagi kita untuk m
 
 ## Langkah 2: Menambahkan Kotak Teks
 
-Setelah kita memiliki dokumen, langkah selanjutnya adalah menambahkan kotak teks. Anggap kotak teks sebagai wadah yang dapat menampung dan menampilkan teks di berbagai lokasi pada dokumen Anda.
+Setelah dokumen kita jadi, langkah selanjutnya adalah menambahkan kotak teks. Anggap kotak teks sebagai wadah yang dapat menampung dan menampilkan teks di berbagai lokasi pada dokumen Anda.
 
 ### Membuat Kotak Teks
 
@@ -68,11 +70,11 @@ Shape shape2 = new Shape(doc, ShapeType.TextBox);
 
 Dalam cuplikan ini:
 - `ShapeType.TextBox` menentukan bahwa bentuk yang kita buat adalah kotak teks.
-- `shape1` Dan`shape2` adalah dua kotak teks kita.
+- `shape1` Dan `shape2` adalah dua kotak teks kita.
 
 ## Langkah 3: Mengakses Objek TextBox
 
- Setiap`Shape` objek memiliki`TextBox` properti yang memberikan akses ke properti dan metode kotak teks. Di sinilah kita mengatur konten dan tautan kotak teks.
+Setiap `Shape` objek memiliki `TextBox` properti yang memberikan akses ke properti dan metode kotak teks. Di sinilah kita mengatur konten dan tautan kotak teks.
 
 ### Mendapatkan Objek TextBox
 
@@ -83,11 +85,11 @@ TextBox textBox1 = shape1.TextBox;
 TextBox textBox2 = shape2.TextBox;
 ```
 
- Garis-garis ini menyimpan`TextBox` objek dari bentuk menjadi`textBox1` Dan`textBox2`.
+Garis-garis ini menyimpan `TextBox` objek dari bentuk menjadi `textBox1` Dan `textBox2`.
 
 ## Langkah 4: Menghubungkan Kotak Teks
 
- Momen ajaib! Sekarang kita hubungkan`textBox1` ke`textBox2` Ini berarti bahwa ketika teks meluap dari`textBox1` , ini akan terus berlanjut di`textBox2`.
+Momen ajaib! Sekarang kita terhubung `textBox1` ke `textBox2`Ini berarti bahwa ketika teks meluap dari `textBox1`, ini akan terus berlanjut di `textBox2`.
 
 ### Memeriksa Validitas Tautan
 
@@ -101,8 +103,8 @@ if (textBox1.IsValidLinkTarget(textBox2))
 ```
 
 Dalam kode ini:
-- `IsValidLinkTarget` memeriksa apakah`textBox2` adalah target tautan yang valid untuk`textBox1`.
--  Jika benar, kami menetapkan`textBox1.Next` ke`textBox2`, membuat tautan.
+- `IsValidLinkTarget` memeriksa apakah `textBox2` adalah target tautan yang valid untuk `textBox1`.
+- Jika benar, kami menetapkan `textBox1.Next` ke `textBox2`, membuat tautan.
 
 ## Langkah 5: Menyelesaikan dan Menyimpan Dokumen
 
@@ -122,7 +124,7 @@ Ini akan menyimpan dokumen dengan nama file "LinkedTextBoxes.docx". Sekarang And
 
 Nah, itu dia! 🎉 Anda telah berhasil membuat dan menautkan kotak teks dalam dokumen Word menggunakan Aspose.Words for .NET. Tutorial ini memandu Anda dalam menyiapkan lingkungan, membuat dan menautkan kotak teks, serta menyimpan dokumen. Dengan keterampilan ini, Anda dapat menyempurnakan dokumen Word dengan alur konten yang dinamis dan membuat dokumen lebih interaktif dan mudah digunakan.
 
- Untuk informasi lebih rinci dan fitur lanjutan, pastikan untuk memeriksa[Dokumentasi API Aspose.Words](https://reference.aspose.com/words/net/)Jika Anda memiliki pertanyaan atau mengalami masalah,[forum dukungan](https://forum.aspose.com/c/words/8) adalah sumber daya yang bagus.
+Untuk informasi lebih rinci dan fitur lanjutan, pastikan untuk memeriksa [Dokumentasi API Aspose.Words](https://reference.aspose.com/words/net/)Jika Anda memiliki pertanyaan atau mengalami masalah, [forum dukungan](https://forum.aspose.com/c/words/8) adalah sumber daya yang bagus.
 
 Selamat membuat kode, dan semoga kotak teks Anda selalu terhubung dengan sempurna! 🚀
 
@@ -138,13 +140,18 @@ Ya, Anda dapat menautkan beberapa kotak teks dalam satu urutan. Pastikan saja se
 Anda dapat memberi gaya pada teks di dalam setiap kotak teks seperti teks lainnya dalam dokumen Word, menggunakan opsi pemformatan kaya Aspose.Words atau UI Word.
 
 ### Dapatkah saya memutuskan tautan kotak teks setelah ditautkan?
- Ya, Anda dapat menghapus tautan kotak teks dengan menyetel`Next` milik`TextBox` keberatan terhadap`null`.
+Ya, Anda dapat menghapus tautan kotak teks dengan menyetel `Next` milik `TextBox` keberatan terhadap `null`.
 
 ### Di mana saya dapat menemukan lebih banyak tutorial tentang Aspose.Words untuk .NET?
- Anda dapat menemukan lebih banyak tutorial dan sumber daya di[Halaman dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+Anda dapat menemukan lebih banyak tutorial dan sumber daya di [Halaman dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

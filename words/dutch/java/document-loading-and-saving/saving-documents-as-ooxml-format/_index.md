@@ -1,14 +1,16 @@
 ---
-title: Documenten opslaan als OOXML-indeling in Aspose.Words voor Java
-linktitle: Documenten opslaan als OOXML-indeling
-second_title: Aspose.Words Java Documentverwerkings-API
-description: Leer hoe u documenten in OOXML-formaat opslaat met Aspose.Words voor Java. Beveilig, optimaliseer en personaliseer uw bestanden moeiteloos.
-weight: 20
-url: /nl/java/document-loading-and-saving/saving-documents-as-ooxml-format/
+"description": "Leer hoe u documenten in OOXML-formaat opslaat met Aspose.Words voor Java. Beveilig, optimaliseer en personaliseer uw bestanden moeiteloos."
+"linktitle": "Documenten opslaan als OOXML-indeling"
+"second_title": "Aspose.Words Java Documentverwerking API"
+"title": "Documenten opslaan als OOXML-indeling in Aspose.Words voor Java"
+"url": "/nl/java/document-loading-and-saving/saving-documents-as-ooxml-format/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Documenten opslaan als OOXML-indeling in Aspose.Words voor Java
@@ -16,15 +18,15 @@ url: /nl/java/document-loading-and-saving/saving-documents-as-ooxml-format/
 
 ## Inleiding tot het opslaan van documenten als OOXML-indeling in Aspose.Words voor Java
 
-In deze gids gaan we onderzoeken hoe u documenten in OOXML-formaat kunt opslaan met Aspose.Words voor Java. OOXML (Office Open XML) is een bestandsformaat dat wordt gebruikt door Microsoft Word en andere Office-applicaties. We bespreken verschillende opties en instellingen voor het opslaan van documenten in OOXML-formaat.
+In deze handleiding leggen we uit hoe u documenten in OOXML-formaat kunt opslaan met Aspose.Words voor Java. OOXML (Office Open XML) is een bestandsformaat dat wordt gebruikt door Microsoft Word en andere Office-applicaties. We bespreken verschillende opties en instellingen voor het opslaan van documenten in OOXML-formaat.
 
 ## Vereisten
 
-Voordat we beginnen, moet u ervoor zorgen dat u de Aspose.Words voor Java-bibliotheek in uw project hebt ingesteld.
+Voordat u begint, moet u ervoor zorgen dat u de Aspose.Words voor Java-bibliotheek in uw project hebt ingesteld.
 
 ## Een document opslaan met wachtwoordversleuteling
 
-kunt uw document versleutelen met een wachtwoord terwijl u het opslaat in OOXML-formaat. Dit is hoe u dat kunt doen:
+U kunt uw document met een wachtwoord versleutelen terwijl u het in OOXML-formaat opslaat. Zo doet u dat:
 
 ```java
 import com.aspose.words.Document;
@@ -41,9 +43,9 @@ saveOptions.setPassword("password");
 doc.save("EncryptedDoc.docx", saveOptions);
 ```
 
-## OOXML-naleving instellen
+## OOXML-compatibiliteit instellen
 
-U kunt het OOXML-nalevingsniveau opgeven bij het opslaan van het document. U kunt het bijvoorbeeld instellen op ISO 29500:2008 (Strikt). Dit doet u als volgt:
+U kunt het OOXML-nalevingsniveau opgeven bij het opslaan van het document. U kunt het bijvoorbeeld instellen op ISO 29500:2008 (Strikt). Zo werkt het:
 
 ```java
 import com.aspose.words.Document;
@@ -67,7 +69,7 @@ doc.save("ComplianceDoc.docx", saveOptions);
 
 ## Laatst opgeslagen tijdeigenschap bijwerken
 
-U kunt ervoor kiezen om de eigenschap "Last Saved Time" van het document bij te werken wanneer u het opslaat. Dit doet u als volgt:
+U kunt ervoor kiezen om de eigenschap 'Laatst opgeslagen tijd' van het document bij te werken wanneer u het opslaat. Zo werkt het:
 
 ```java
 import com.aspose.words.Document;
@@ -86,27 +88,27 @@ doc.save("UpdatedLastSavedTime.docx", saveOptions);
 
 ## Legacy Control-personages behouden
 
-Als uw document legacy control-tekens bevat, kunt u ervoor kiezen deze te behouden tijdens het opslaan. Dit doet u als volgt:
+Als uw document oude controletekens bevat, kunt u ervoor kiezen deze te behouden tijdens het opslaan. Zo werkt het:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.SaveFormat;
 
-//Een document laden met oude besturingstekens
+// Een document laden met oude controlekarakters
 Document doc = new Document("LegacyControlChars.doc");
 
-// Maak OoxmlSaveOptions met de FLAT_OPC-indeling en schakel het behoud van oude besturingstekens in
+// Maak OoxmlSaveOptions met de FLAT_OPC-indeling en zorg ervoor dat oude controlekarakters behouden blijven
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setKeepLegacyControlChars(true);
 
-// Sla het document op met oude besturingstekens
+// Sla het document op met oude controlekarakters
 doc.save("LegacyControlCharsPreserved.docx", saveOptions);
 ```
 
 ## Compressieniveau instellen
 
-U kunt het compressieniveau aanpassen wanneer u het document opslaat. U kunt het bijvoorbeeld instellen op SUPER_FAST voor minimale compressie. Dit doet u als volgt:
+U kunt het compressieniveau aanpassen wanneer u het document opslaat. U kunt het bijvoorbeeld instellen op SUPER_FAST voor minimale compressie. Zo werkt het:
 
 ```java
 import com.aspose.words.Document;
@@ -126,7 +128,7 @@ doc.save("FastCompressionDoc.docx", saveOptions);
 
 Dit zijn enkele van de belangrijkste opties en instellingen die u kunt gebruiken bij het opslaan van documenten in OOXML-formaat met Aspose.Words voor Java. U kunt gerust meer opties verkennen en uw documentopslagproces naar wens aanpassen.
 
-## Volledige broncode voor het opslaan van documenten als OOXML-indeling in Aspose.Words voor Java
+## Volledige broncode voor het opslaan van documenten als OOXML-formaat in Aspose.Words voor Java
 
 ```java
 public void encryptDocxWithPassword() throws Exception
@@ -168,24 +170,29 @@ public void setCompressionLevel() throws Exception
 
 ## Conclusie
 
-In deze uitgebreide gids hebben we onderzocht hoe u documenten in OOXML-formaat kunt opslaan met Aspose.Words voor Java. Of u nu uw documenten wilt versleutelen met wachtwoorden, naleving van specifieke OOXML-standaarden wilt garanderen, documenteigenschappen wilt bijwerken, oude controletekens wilt behouden of compressieniveaus wilt aanpassen, Aspose.Words biedt een veelzijdige set tools om aan uw vereisten te voldoen.
+In deze uitgebreide handleiding hebben we besproken hoe u documenten in OOXML-formaat kunt opslaan met Aspose.Words voor Java. Of u nu uw documenten wilt versleutelen met wachtwoorden, wilt voldoen aan specifieke OOXML-standaarden, documenteigenschappen wilt bijwerken, oude controlekarakters wilt behouden of compressieniveaus wilt aanpassen, Aspose.Words biedt een veelzijdige set tools om aan uw eisen te voldoen.
 
 ## Veelgestelde vragen
 
-### Hoe verwijder ik de wachtwoordbeveiliging van een met een wachtwoord beveiligd document?
+### Hoe verwijder ik de wachtwoordbeveiliging van een wachtwoordbeveiligd document?
 
-Om de wachtwoordbeveiliging van een wachtwoordbeveiligd document te verwijderen, kunt u het document openen met het juiste wachtwoord en het vervolgens opslaan zonder een wachtwoord op te geven in de opslagopties. Hiermee wordt het document opgeslagen zonder wachtwoordbeveiliging.
+Om de wachtwoordbeveiliging van een met een wachtwoord beveiligd document te verwijderen, kunt u het document openen met het juiste wachtwoord en het vervolgens opslaan zonder een wachtwoord op te geven in de opslagopties. Het document wordt dan zonder wachtwoordbeveiliging opgeslagen.
 
 ### Kan ik aangepaste eigenschappen instellen bij het opslaan van een document in OOXML-indeling?
 
- Ja, u kunt aangepaste eigenschappen voor een document instellen voordat u het opslaat in OOXML-indeling. Gebruik de`BuiltInDocumentProperties` En`CustomDocumentProperties` klassen om verschillende eigenschappen in te stellen, zoals auteur, titel, trefwoorden en aangepaste eigenschappen.
+Ja, u kunt aangepaste eigenschappen voor een document instellen voordat u het in OOXML-formaat opslaat. Gebruik de `BuiltInDocumentProperties` En `CustomDocumentProperties` klassen om verschillende eigenschappen in te stellen, zoals auteur, titel, trefwoorden en aangepaste eigenschappen.
 
 ### Wat is het standaardcompressieniveau bij het opslaan van een document in OOXML-formaat?
 
- Het standaardcompressieniveau bij het opslaan van een document in OOXML-formaat met behulp van Aspose.Words voor Java is`NORMAL` . U kunt het compressieniveau wijzigen naar`SUPER_FAST` of`MAXIMUM` indien nodig.
+Het standaardcompressieniveau bij het opslaan van een document in OOXML-formaat met Aspose.Words voor Java is `NORMAL`U kunt het compressieniveau wijzigen naar `SUPER_FAST` of `MAXIMUM` indien nodig.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Documenten opslaan als tekstbestanden in Aspose.Words voor Java
-linktitle: Documenten opslaan als tekstbestanden
-second_title: Aspose.Words Java Documentverwerkings-API
-description: Leer hoe u documenten opslaat als tekstbestanden in Aspose.Words voor Java. Volg onze stapsgewijze handleiding met Java-codevoorbeelden.
-weight: 24
-url: /nl/java/document-loading-and-saving/saving-documents-as-text-files/
+"description": "Leer hoe je documenten als tekstbestanden opslaat in Aspose.Words voor Java. Volg onze stapsgewijze handleiding met Java-codevoorbeelden."
+"linktitle": "Documenten opslaan als tekstbestanden"
+"second_title": "Aspose.Words Java Documentverwerking API"
+"title": "Documenten opslaan als tekstbestanden in Aspose.Words voor Java"
+"url": "/nl/java/document-loading-and-saving/saving-documents-as-text-files/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Documenten opslaan als tekstbestanden in Aspose.Words voor Java
@@ -16,19 +18,19 @@ url: /nl/java/document-loading-and-saving/saving-documents-as-text-files/
 
 ## Inleiding tot het opslaan van documenten als tekstbestanden in Aspose.Words voor Java
 
-In deze tutorial gaan we onderzoeken hoe u documenten kunt opslaan als tekstbestanden met behulp van de Aspose.Words for Java-bibliotheek. Aspose.Words is een krachtige Java API voor het werken met Word-documenten en biedt verschillende opties voor het opslaan van documenten in verschillende formaten, waaronder platte tekst. We zullen de stappen behandelen om dit te bereiken en onderweg voorbeeld-Java-code bieden.
+In deze tutorial laten we zien hoe je documenten als tekstbestanden kunt opslaan met behulp van de Aspose.Words for Java-bibliotheek. Aspose.Words is een krachtige Java API voor het werken met Word-documenten en biedt diverse opties voor het opslaan van documenten in verschillende formaten, waaronder platte tekst. We bespreken de stappen om dit te bereiken en geven daarbij ook voorbeeld-Java-code.
 
 ## Vereisten
 
-Voordat we beginnen, moet u ervoor zorgen dat aan de volgende voorwaarden is voldaan:
+Voordat we beginnen, moet u ervoor zorgen dat u aan de volgende voorwaarden voldoet:
 
 - Java Development Kit (JDK) op uw systeem geïnstalleerd.
--  Aspose.Words voor Java-bibliotheek geïntegreerd in uw project. U kunt het downloaden van[hier](https://releases.aspose.com/words/java/).
+- Aspose.Words voor Java-bibliotheek geïntegreerd in uw project. U kunt het downloaden van [hier](https://releases.aspose.com/words/java/).
 - Basiskennis van Java-programmering.
 
-## Stap 1: Maak een document
+## Stap 1: Een document maken
 
-Om een document als tekstbestand op te slaan, moeten we eerst een document maken met Aspose.Words. Hier is een eenvoudig Java-codefragment om een document met wat inhoud te maken:
+Om een document als tekstbestand op te slaan, moeten we eerst een document aanmaken met Aspose.Words. Hier is een eenvoudig Java-codefragment om een document met wat inhoud te maken:
 
 ```java
 Document doc = new Document();
@@ -39,11 +41,11 @@ builder.writeln("שלום עולם!");
 builder.writeln("مرحبا بالعالم!");
 ```
 
-In deze code maken we een nieuw document en voegen er wat tekst aan toe, inclusief tekst in verschillende talen.
+In deze code maken we een nieuw document en voegen we er wat tekst aan toe, eventueel in verschillende talen.
 
 ## Stap 2: Definieer tekstopslagopties
 
-Vervolgens moeten we de tekstopslagopties definiëren die specificeren hoe het document als tekstbestand moet worden opgeslagen. We kunnen verschillende instellingen configureren, zoals het toevoegen van bidi-markeringen, lijstinspringing en meer. Laten we naar twee voorbeelden kijken:
+Vervolgens moeten we de tekstopslagopties definiëren die aangeven hoe het document als tekstbestand moet worden opgeslagen. We kunnen verschillende instellingen configureren, zoals het toevoegen van bidi-markeringen, lijstinspringing en meer. Laten we twee voorbeelden bekijken:
 
 ### Voorbeeld 1: Bidi-markeringen toevoegen
 
@@ -53,7 +55,7 @@ saveOptions.setAddBidiMarks(true);
 doc.save("output.txt", saveOptions);
 ```
 
- In dit voorbeeld maken we een`TxtSaveOptions` object en stel de`AddBidiMarks`eigendom van`true` om bidi-markeringen in de tekstuitvoer op te nemen.
+In dit voorbeeld maken we een `TxtSaveOptions` object en stel de `AddBidiMarks` eigendom van `true` om bidi-merken in de tekstuitvoer op te nemen.
 
 ### Voorbeeld 2: Tab-teken gebruiken voor lijstinspringing
 
@@ -64,17 +66,17 @@ saveOptions.getListIndentation().setCharacter('\t');
 doc.save("output.txt", saveOptions);
 ```
 
-Hier configureren we de opslagopties om een tabteken te gebruiken voor het inspringen van lijsten, met een telling van 1.
+Hier configureren we de opslagopties om een tabteken te gebruiken voor lijstinspringing met een aantal van 1.
 
 ## Stap 3: Sla het document op als tekst
 
-Nu we de tekstopslagopties hebben gedefinieerd, kunnen we het document opslaan als een tekstbestand. De volgende code laat zien hoe u dit doet:
+Nu we de opties voor het opslaan van tekst hebben gedefinieerd, kunnen we het document opslaan als een tekstbestand. De volgende code laat zien hoe dit werkt:
 
 ```java
 doc.save("output.txt", saveOptions);
 ```
 
- Vervangen`"output.txt"` met het gewenste bestandspad waar u het tekstbestand wilt opslaan.
+Vervangen `"output.txt"` met het gewenste bestandspad waar u het tekstbestand wilt opslaan.
 
 ## Volledige broncode voor het opslaan van documenten als tekstbestanden in Aspose.Words voor Java
 
@@ -128,13 +130,13 @@ doc.save("output.txt", saveOptions);
 
 ## Conclusie
 
-In deze tutorial hebben we geleerd hoe u documenten kunt opslaan als tekstbestanden in Aspose.Words voor Java. We hebben de stappen behandeld om een document te maken, tekstopslagopties te definiëren en het document op te slaan in tekstformaat. Aspose.Words biedt uitgebreide flexibiliteit als het gaat om het opslaan van documenten, zodat u de uitvoer kunt aanpassen aan uw specifieke vereisten.
+In deze tutorial hebben we geleerd hoe je documenten als tekstbestanden kunt opslaan in Aspose.Words voor Java. We hebben de stappen besproken voor het aanmaken van een document, het definiëren van opties voor het opslaan van tekst en het opslaan van het document in tekstformaat. Aspose.Words biedt uitgebreide flexibiliteit bij het opslaan van documenten, zodat je de uitvoer kunt aanpassen aan je specifieke wensen.
 
 ## Veelgestelde vragen
 
 ### Hoe voeg ik bidi-markeringen toe aan de tekstuitvoer?
 
- Om bidi-markeringen aan de tekstuitvoer toe te voegen, stelt u de`AddBidiMarks` eigendom van`TxtSaveOptions` naar`true`. Bijvoorbeeld:
+Om bidi-markeringen aan de tekstuitvoer toe te voegen, stelt u de `AddBidiMarks` eigendom van `TxtSaveOptions` naar `true`. Bijvoorbeeld:
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -143,7 +145,7 @@ saveOptions.setAddBidiMarks(true);
 
 ### Kan ik het inspringteken voor lijsten aanpassen?
 
- Ja, u kunt het inspringingsteken voor de lijst aanpassen door de volgende instellingen te configureren:`ListIndentation` eigendom van`TxtSaveOptions`Als u bijvoorbeeld een tabteken wilt gebruiken voor lijstinspringing, kunt u het volgende doen:
+Ja, u kunt het inspringteken voor de lijst aanpassen door de `ListIndentation` eigendom van `TxtSaveOptions`Om bijvoorbeeld een tabteken te gebruiken voor lijstinspringing, kunt u het volgende doen:
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -157,14 +159,19 @@ Ja, Aspose.Words voor Java is geschikt voor het verwerken van meertalige tekst. 
 
 ### Hoe kan ik meer documentatie en bronnen voor Aspose.Words voor Java krijgen?
 
- Uitgebreide documentatie en bronnen voor Aspose.Words voor Java vindt u op de Aspose-documentatiewebsite:[Aspose.Words voor Java-documentatie](https://reference.aspose.com/words/java/).
+Uitgebreide documentatie en bronnen voor Aspose.Words voor Java vindt u op de Aspose-documentatiewebsite: [Aspose.Words voor Java-documentatie](https://reference.aspose.com/words/java/).
 
 ### Waar kan ik Aspose.Words voor Java downloaden?
 
- U kunt de Aspose.Words voor Java-bibliotheek downloaden van de Aspose-website:[Download Aspose.Words voor Java](https://releases.aspose.com/words/java/).
+U kunt de Aspose.Words voor Java-bibliotheek downloaden van de Aspose-website: [Download Aspose.Words voor Java](https://releases.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

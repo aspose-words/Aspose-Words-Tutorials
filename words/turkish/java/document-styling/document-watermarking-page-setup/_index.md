@@ -1,14 +1,16 @@
 ---
-title: Belge Filigranlama ve Sayfa Düzeni
-linktitle: Belge Filigranlama ve Sayfa Düzeni
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java ile filigranların nasıl uygulanacağını ve sayfa yapılandırmalarının nasıl ayarlanacağını öğrenin. Kaynak kodlu kapsamlı bir kılavuz.
-weight: 13
-url: /tr/java/document-styling/document-watermarking-page-setup/
+"description": "Aspose.Words for Java ile filigranların nasıl uygulanacağını ve sayfa yapılandırmalarının nasıl ayarlanacağını öğrenin. Kaynak kodlu kapsamlı bir kılavuz."
+"linktitle": "Belge Filigranlama ve Sayfa Düzeni"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belge Filigranlama ve Sayfa Düzeni"
+"url": "/tr/java/document-styling/document-watermarking-page-setup/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Filigranlama ve Sayfa Düzeni
@@ -147,9 +149,14 @@ Başlık veya altbilgideki metni, başlık veya altbilgideki Paragraf nesnesinde
 Bu kapsamlı kılavuzda, Aspose.Words for Java kullanarak belge filigranlama ve sayfa kurulumu sanatını inceledik. Sağlanan kaynak kodu parçacıkları ve içgörülerle donanmış olarak, artık belgelerinizi ustalıkla düzenlemek ve biçimlendirmek için araçlara sahipsiniz. Aspose.Words for Java, tam olarak özelliklerinize göre uyarlanmış profesyonel, markalı belgeler oluşturmanızı sağlar.
 
 Belge düzenlemede ustalaşmak geliştiriciler için değerli bir beceridir ve Aspose.Words for Java bu yolculukta güvendiğiniz arkadaşınızdır. Bugün çarpıcı belgeler oluşturmaya başlayın!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

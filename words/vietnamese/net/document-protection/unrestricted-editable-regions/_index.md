@@ -1,14 +1,16 @@
 ---
-title: Vùng chỉnh sửa không giới hạn trong tài liệu Word
-linktitle: Vùng chỉnh sửa không giới hạn trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tạo các vùng có thể chỉnh sửa không giới hạn trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này.
-weight: 10
-url: /vi/net/document-protection/unrestricted-editable-regions/
+"description": "Tìm hiểu cách tạo các vùng có thể chỉnh sửa không giới hạn trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này."
+"linktitle": "Vùng chỉnh sửa không giới hạn trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Vùng chỉnh sửa không giới hạn trong tài liệu Word"
+"url": "/vi/net/document-protection/unrestricted-editable-regions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vùng chỉnh sửa không giới hạn trong tài liệu Word
@@ -21,8 +23,8 @@ Nếu bạn từng muốn bảo vệ một tài liệu Word nhưng vẫn cho ph�
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1.  Aspose.Words cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống[đây](https://releases.aspose.com/words/net/).
-2. Giấy phép Aspose hợp lệ: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống [đây](https://releases.aspose.com/words/net/).
+2. Giấy phép Aspose hợp lệ: Bạn có thể nhận được giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 3. Visual Studio: Bất kỳ phiên bản gần đây nào cũng có thể hoạt động tốt.
 4. Kiến thức cơ bản về C# và .NET: Điều này sẽ giúp bạn theo dõi mã.
 
@@ -55,7 +57,7 @@ Bây giờ, hãy tải tài liệu bạn muốn bảo vệ. Đảm bảo bạn c
    ```csharp
    string dataDir = "YOUR DOCUMENT DIRECTORY";
    ```
-2.  Tải Tài liệu: Sử dụng`Document` lớp để tải tài liệu Word của bạn.
+2. Tải Tài liệu: Sử dụng `Document` lớp để tải tài liệu Word của bạn.
    ```csharp
    Document doc = new Document(dataDir + "Document.docx");
    ```
@@ -64,7 +66,7 @@ Bây giờ, hãy tải tài liệu bạn muốn bảo vệ. Đảm bảo bạn c
 
 Tiếp theo, chúng ta sẽ đặt tài liệu thành chỉ đọc. Điều này sẽ đảm bảo không có thay đổi nào có thể được thực hiện nếu không có mật khẩu.
 
-1.  Khởi tạo DocumentBuilder: Tạo một thể hiện của`DocumentBuilder` để thực hiện thay đổi cho tài liệu.
+1. Khởi tạo DocumentBuilder: Tạo một thể hiện của `DocumentBuilder` để thực hiện thay đổi cho tài liệu.
    ```csharp
    DocumentBuilder builder = new DocumentBuilder(doc);
    ```
@@ -85,7 +87,7 @@ Tiếp theo, chúng ta sẽ đặt tài liệu thành chỉ đọc. Điều này
    ```csharp
    EditableRangeStart edRangeStart = builder.StartEditableRange();
    ```
-2.  Tạo đối tượng phạm vi có thể chỉnh sửa: Một`EditableRange` đối tượng sẽ được tạo tự động.
+2. Tạo đối tượng phạm vi có thể chỉnh sửa: Một `EditableRange` đối tượng sẽ được tạo tự động.
    ```csharp
    EditableRange editableRange = edRangeStart.EditableRange;
    ```
@@ -111,7 +113,7 @@ Một phạm vi có thể chỉnh sửa sẽ không hoàn chỉnh nếu không c
 
 Cuối cùng, hãy lưu tài liệu với chế độ bảo vệ được áp dụng và các vùng có thể chỉnh sửa.
 
-1.  Lưu tài liệu: Sử dụng`Save` phương pháp lưu tài liệu đã chỉnh sửa của bạn.
+1. Lưu tài liệu: Sử dụng `Save` phương pháp lưu tài liệu đã chỉnh sửa của bạn.
    ```csharp
    doc.Save(dataDir + "DocumentProtection.UnrestrictedEditableRegions.docx");
    ```
@@ -120,7 +122,7 @@ Cuối cùng, hãy lưu tài liệu với chế độ bảo vệ được áp d�
 
 Và bạn đã có nó! Bạn đã tạo thành công các vùng có thể chỉnh sửa không giới hạn trong tài liệu Word bằng Aspose.Words cho .NET. Tính năng này cực kỳ hữu ích cho môi trường cộng tác, nơi một số phần của tài liệu cần giữ nguyên trong khi những phần khác có thể chỉnh sửa. 
 
- Thử nghiệm với các kịch bản phức tạp hơn và các mức độ bảo vệ khác nhau để tận dụng tối đa Aspose.Words. Nếu bạn có bất kỳ câu hỏi hoặc gặp sự cố nào, đừng ngần ngại kiểm tra[tài liệu](https://reference.aspose.com/words/net/) hoặc liên hệ với[ủng hộ](https://forum.aspose.com/c/words/8).
+Thử nghiệm với các kịch bản phức tạp hơn và các mức độ bảo vệ khác nhau để tận dụng tối đa Aspose.Words. Nếu bạn có bất kỳ câu hỏi hoặc gặp sự cố nào, đừng ngần ngại kiểm tra [tài liệu](https://reference.aspose.com/words/net/) hoặc liên hệ với [ủng hộ](https://forum.aspose.com/c/words/8).
 
 ## Câu hỏi thường gặp
 
@@ -131,17 +133,22 @@ Có, bạn có thể tạo nhiều vùng có thể chỉnh sửa bằng cách b�
 Aspose.Words hỗ trợ nhiều loại bảo vệ khác nhau như AllowOnlyComments, AllowOnlyFormFields và NoProtection.
 
 ### Có thể xóa chế độ bảo vệ khỏi tài liệu không?
- Có, bạn có thể xóa bảo vệ bằng cách sử dụng`Unprotect` phương pháp và cung cấp mật khẩu chính xác.
+Có, bạn có thể xóa bảo vệ bằng cách sử dụng `Unprotect` phương pháp và cung cấp mật khẩu chính xác.
 
 ### Tôi có thể chỉ định mật khẩu khác nhau cho các phần khác nhau không?
 Không, chế độ bảo vệ cấp độ tài liệu áp dụng một mật khẩu duy nhất cho toàn bộ tài liệu.
 
-### Làm thế nào để tôi áp dụng giấy phép cho Aspose.Words?
+### Làm thế nào để tôi đăng ký giấy phép cho Aspose.Words?
 Bạn có thể áp dụng giấy phép bằng cách tải nó từ tệp hoặc luồng. Kiểm tra tài liệu để biết các bước chi tiết.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

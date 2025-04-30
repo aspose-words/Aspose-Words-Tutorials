@@ -1,14 +1,16 @@
 ---
-title: การจัดการเนื้อหาเอกสารด้วยการล้างข้อมูล ฟิลด์ และข้อมูล XML
-linktitle: การจัดการเนื้อหาเอกสารด้วยการล้างข้อมูล ฟิลด์ และข้อมูล XML
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีการจัดการเนื้อหาเอกสารด้วย Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนนี้ประกอบด้วยตัวอย่างโค้ดต้นฉบับสำหรับการจัดการเอกสารอย่างมีประสิทธิภาพ
-weight: 14
-url: /th/java/word-processing/manipulating-document-content/
+"description": "เรียนรู้วิธีการจัดการเนื้อหาเอกสารด้วย Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนนี้ประกอบด้วยตัวอย่างโค้ดต้นฉบับสำหรับการจัดการเอกสารอย่างมีประสิทธิภาพ"
+"linktitle": "การจัดการเนื้อหาเอกสารด้วยการล้างข้อมูล ฟิลด์ และข้อมูล XML"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การจัดการเนื้อหาเอกสารด้วยการล้างข้อมูล ฟิลด์ และข้อมูล XML"
+"url": "/th/java/word-processing/manipulating-document-content/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การจัดการเนื้อหาเอกสารด้วยการล้างข้อมูล ฟิลด์ และข้อมูล XML
@@ -23,11 +25,11 @@ url: /th/java/word-processing/manipulating-document-content/
 
 1. การติดตั้งและการตั้งค่า
    
-    เริ่มต้นโดยดาวน์โหลด Aspose.Words สำหรับ Java จากลิงก์ดาวน์โหลด:[ดาวน์โหลด Aspose.Words สำหรับ Java](https://releases.aspose.com/words/java/). ติดตั้งตามเอกสารที่ให้มา
+   เริ่มต้นโดยดาวน์โหลด Aspose.Words สำหรับ Java จากลิงก์ดาวน์โหลด: [ดาวน์โหลด Aspose.Words สำหรับ Java](https://releases.aspose.com/words/java/). ติดตั้งตามเอกสารที่ให้มา
 
 2. เอกสารอ้างอิง API
    
-   ทำความคุ้นเคยกับ Aspose.Words สำหรับ Java API โดยสำรวจเอกสาร:[เอกสารอ้างอิง API Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/)ทรัพยากรนี้จะเป็นแนวทางของคุณตลอดการเดินทางครั้งนี้
+   ทำความคุ้นเคยกับ Aspose.Words สำหรับ Java API โดยสำรวจเอกสารประกอบ: [เอกสารอ้างอิง Aspose.Words สำหรับ Java API](https://reference.aspose.com/words/java/)ทรัพยากรนี้จะเป็นแนวทางของคุณตลอดการเดินทางครั้งนี้
 
 3. ความรู้เกี่ยวกับภาษาชวา
    
@@ -62,7 +64,7 @@ doc.save("document_without_empty_paragraphs.docx");
 
 ### การลบเนื้อหาที่ซ่อนอยู่
 
-เนื้อหาที่ซ่อนอยู่ในเอกสารของคุณอาจก่อให้เกิดปัญหาในระหว่างการประมวลผลได้ กำจัดเนื้อหาที่ซ่อนอยู่ด้วยโค้ดนี้:
+เนื้อหาที่ซ่อนอยู่ในเอกสารของคุณอาจก่อให้เกิดปัญหาในระหว่างการประมวลผล กำจัดเนื้อหาที่ซ่อนอยู่ด้วยโค้ดนี้:
 
 ```java
 Document doc = new Document("document.docx");
@@ -144,10 +146,15 @@ doc.save("cleaned_document.docx");
 
 ### Aspose.Words สำหรับ Java เหมาะกับการสร้างเอกสารแบบไดนามิกที่มีข้อมูล XML หรือไม่
 
-ใช่ Aspose.Words สำหรับ Java เหมาะอย่างยิ่งสำหรับการสร้างเอกสารแบบไดนามิกด้วยข้อมูล XML โดยมีคุณสมบัติที่แข็งแกร่งสำหรับการผูกข้อมูล XML เข้ากับเทมเพลตและสร้างเอกสารส่วนบุคคล
+ใช่ Aspose.Words สำหรับ Java เหมาะอย่างยิ่งสำหรับการสร้างเอกสารแบบไดนามิกด้วยข้อมูล XML โดยมีคุณสมบัติที่แข็งแกร่งสำหรับการผูกข้อมูล XML กับเทมเพลตและสร้างเอกสารส่วนบุคคล
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

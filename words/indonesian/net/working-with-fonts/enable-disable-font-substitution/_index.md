@@ -1,14 +1,16 @@
 ---
-title: Aktifkan Nonaktifkan Substitusi Font
-linktitle: Aktifkan Nonaktifkan Substitusi Font
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengaktifkan atau menonaktifkan substitusi font dalam dokumen Word menggunakan Aspose.Words untuk .NET. Pastikan dokumen Anda terlihat konsisten di semua platform.
-weight: 10
-url: /id/net/working-with-fonts/enable-disable-font-substitution/
+"description": "Pelajari cara mengaktifkan atau menonaktifkan substitusi font dalam dokumen Word menggunakan Aspose.Words untuk .NET. Pastikan dokumen Anda terlihat konsisten di semua platform."
+"linktitle": "Aktifkan Nonaktifkan Substitusi Font"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Aktifkan Nonaktifkan Substitusi Font"
+"url": "/id/net/working-with-fonts/enable-disable-font-substitution/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aktifkan Nonaktifkan Substitusi Font
@@ -21,7 +23,7 @@ Pernahkah Anda menemukan diri Anda dalam situasi di mana font yang Anda pilih de
 
 Sebelum masuk ke langkah-langkahnya, mari pastikan Anda memiliki semua yang dibutuhkan:
 
--  Aspose.Words untuk .NET: Unduh versi terbaru[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Unduh versi terbaru [Di Sini](https://releases.aspose.com/words/net/).
 - Visual Studio: Versi apa pun yang mendukung .NET.
 - Pengetahuan dasar C#: Ini akan membantu Anda mengikuti contoh pengkodean.
 
@@ -38,24 +40,24 @@ Sekarang, mari kita uraikan prosesnya menjadi beberapa langkah yang sederhana da
 
 ## Langkah 1: Siapkan Proyek Anda
 
-Pertama, buat proyek baru di Visual Studio dan tambahkan referensi ke pustaka Aspose.Words for .NET. Jika Anda belum melakukannya, unduh dari[Situs web Aspose](https://releases.aspose.com/words/net/).
+Pertama, buat proyek baru di Visual Studio dan tambahkan referensi ke pustaka Aspose.Words for .NET. Jika Anda belum melakukannya, unduh dari [Situs web Aspose](https://releases.aspose.com/words/net/).
 
 ## Langkah 2: Muat Dokumen Anda
 
 Selanjutnya, muat dokumen yang ingin Anda kerjakan. Berikut cara melakukannya:
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda. Kode ini memuat dokumen ke dalam memori sehingga Anda dapat memanipulasinya.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda. Kode ini memuat dokumen ke dalam memori sehingga Anda dapat memanipulasinya.
 
 ## Langkah 3: Konfigurasikan Pengaturan Font
 
- Sekarang, mari kita membuat`FontSettings` objek untuk mengelola pengaturan substitusi font:
+Sekarang, mari kita membuat `FontSettings` objek untuk mengelola pengaturan substitusi font:
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -103,7 +105,7 @@ Nah, itu dia! Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah meng
 
 ### Bisakah saya menggunakan font selain Arial untuk substitusi?
 
- Tentu saja! Anda dapat menentukan font apa pun yang tersedia di sistem Anda dengan mengubah nama font di`DefaultFontName` milik.
+Tentu saja! Anda dapat menentukan font apa pun yang tersedia di sistem Anda dengan mengubah nama font di `DefaultFontName` milik.
 
 ### Apa yang terjadi jika font default yang ditentukan tidak tersedia?
 
@@ -111,7 +113,7 @@ Jika font default tidak tersedia, Aspose.Words akan menggunakan mekanisme cadang
 
 ### Bisakah saya mengaktifkan kembali substitusi font setelah menonaktifkannya?
 
- Ya, Anda dapat mengaktifkan`Enabled` milik`FontInfoSubstitution` kembali ke`true` jika Anda ingin mengaktifkan kembali substitusi font.
+Ya, Anda dapat mengaktifkan `Enabled` milik `FontInfoSubstitution` kembali ke `true` jika Anda ingin mengaktifkan kembali substitusi font.
 
 ### Apakah ada cara untuk memeriksa font mana yang diganti?
 
@@ -120,9 +122,14 @@ Ya, Aspose.Words menyediakan metode untuk mencatat dan melacak penggantian font,
 ### Bisakah saya menggunakan metode ini untuk format dokumen lain selain DOCX?
 
 Tentu saja! Aspose.Words mendukung berbagai format, dan Anda dapat menerapkan pengaturan font ini ke format apa pun yang didukung.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

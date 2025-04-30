@@ -1,14 +1,16 @@
 ---
-title: फुटनोट और एंडनोट के साथ शब्द प्रसंस्करण
-linktitle: फुटनोट और एंडनोट के साथ शब्द प्रसंस्करण
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: Aspose.Words for .NET के साथ अपने Word दस्तावेज़ों में फ़ुटनोट्स और एंडनोट्स के साथ काम करना सीखें। विस्तृत ट्यूटोरियल और व्यावहारिक उदाहरण।
-weight: 660
-url: /hi/net/working-with-footnote-and-endnote/
+"description": "Aspose.Words for .NET के साथ अपने Word दस्तावेज़ों में फ़ुटनोट्स और एंडनोट्स के साथ काम करना सीखें। विस्तृत ट्यूटोरियल और व्यावहारिक उदाहरण।"
+"linktitle": "फुटनोट और एंडनोट के साथ शब्द प्रसंस्करण"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "फुटनोट और एंडनोट के साथ शब्द प्रसंस्करण"
+"url": "/hi/net/working-with-footnote-and-endnote/"
+"weight": 660
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # फुटनोट और एंडनोट के साथ शब्द प्रसंस्करण
@@ -19,11 +21,16 @@ url: /hi/net/working-with-footnote-and-endnote/
 | शीर्षक | विवरण |
 | --- | --- |
 | [फ़ुटनोट कॉलम सेट करें](./set-foot-note-columns/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ुटनोट कॉलम सेट करना सीखें। हमारे चरण-दर-चरण मार्गदर्शिका के साथ आसानी से अपने फ़ुटनोट लेआउट को कस्टमाइज़ करें। |
-| [फ़ुटनोट और एंडनोट स्थिति सेट करें](./set-footnote-and-end-note-position/) | इस विस्तृत चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ुटनोट और एंडनोट स्थान निर्धारित करना सीखें। |
+| [फ़ुटनोट और एंडनोट स्थिति सेट करें](./set-footnote-and-end-note-position/) इस विस्तृत चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ुटनोट और एंडनोट स्थान निर्धारित करना सीखें। |
 | [एंडनोट विकल्प सेट करें](./set-endnote-options/) | इस व्यापक चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में एंडनोट विकल्प सेट करना सीखें। |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

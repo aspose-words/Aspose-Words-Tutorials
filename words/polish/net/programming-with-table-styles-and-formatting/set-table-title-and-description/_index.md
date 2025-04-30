@@ -1,14 +1,16 @@
 ---
-title: Ustaw tytuł i opis tabeli
-linktitle: Ustaw tytuł i opis tabeli
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak ustawić tytuły i opisy tabel w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem, aby zwiększyć profesjonalizm dokumentu.
-weight: 10
-url: /pl/net/programming-with-table-styles-and-formatting/set-table-title-and-description/
+"description": "Dowiedz się, jak ustawić tytuły i opisy tabel w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem, aby zwiększyć profesjonalizm dokumentu."
+"linktitle": "Ustaw tytuł i opis tabeli"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ustaw tytuł i opis tabeli"
+"url": "/pl/net/programming-with-table-styles-and-formatting/set-table-title-and-description/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw tytuł i opis tabeli
@@ -21,14 +23,14 @@ Gotowy, aby urozmaicić swoje dokumenty Word, dodając kilka efektownych tytuł�
 
 Zanim przejdziemy do konkretów, upewnijmy się, że masz wszystko, czego potrzebujesz. Oto Twoja lista kontrolna:
 
-1.  Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, musisz to zdobyć. Możesz pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, musisz to zdobyć. Możesz pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub inne środowisko IDE C#.
 3. Podstawowa znajomość języka C#: Nic specjalnego, tylko podstawy.
 4. Przykładowy dokument Word: Będziemy pracować z dokumentem, który zawiera tabele. Możesz utworzyć jeden lub użyć istniejącego dokumentu.
 
 ## Importuj przestrzenie nazw
 
-Zanim zaczniemy kodować, musimy zaimportować niezbędne przestrzenie nazw. Pomyśl o tym jak o skonfigurowaniu zestawu narzędzi.
+Zanim zaczniemy kodować, musimy zaimportować niezbędne przestrzenie nazw. Pomyśl o tym jak o skonfigurowaniu swojego zestawu narzędzi.
 
 ```csharp
 using Aspose.Words;
@@ -82,7 +84,7 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.SetTableTitleAndDescript
 
 ## Wniosek
 
-masz! Właśnie dodałeś tytuł i opis do tabeli w dokumencie Word za pomocą Aspose.Words dla .NET. To jak dodanie wisienki na torcie Twojego dokumentu. Ten mały akcent może sprawić, że Twoje dokumenty będą bardziej informacyjne i profesjonalne. Więc śmiało, eksperymentuj z różnymi tytułami i opisami i spraw, aby Twoje dokumenty błyszczały!
+I masz! Właśnie dodałeś tytuł i opis do tabeli w dokumencie Word za pomocą Aspose.Words dla .NET. To jak dodanie wisienki na torcie Twojego dokumentu. Ten mały akcent może sprawić, że Twoje dokumenty będą bardziej informacyjne i profesjonalne. Więc śmiało, eksperymentuj z różnymi tytułami i opisami i spraw, aby Twoje dokumenty błyszczały!
 
 ## Najczęściej zadawane pytania
 
@@ -90,19 +92,24 @@ masz! Właśnie dodałeś tytuł i opis do tabeli w dokumencie Word za pomocą A
 Tak, możesz powtórzyć ten proces dla każdej tabeli, którą chcesz zaktualizować.
 
 ### Jakie są praktyczne zastosowania tytułów i opisów tabel?
-Pomagają zapewnić kontekst, zwłaszcza w przypadku obszernych dokumentów zawierających wiele tabel.
+Pomagają zapewnić kontekst, zwłaszcza w obszernych dokumentach zawierających wiele tabel.
 
 ### Czy Aspose.Words dla .NET jest darmowy?
- Nie, ale możesz zacząć od[bezpłatny okres próbny](https://releases.aspose.com/).
+Nie, ale możesz zacząć od [bezpłatny okres próbny](https://releases.aspose.com/).
 
 ### Czy mogę dostosować inne aspekty tabeli za pomocą Aspose.Words dla .NET?
 Oczywiście! Możesz dostosować niemal każdy aspekt swoich tabel i dokumentów.
 
 ### Co zrobić, jeśli chcę zapisać dokument w innym formacie?
 Aspose.Words obsługuje zapisywanie w różnych formatach, takich jak PDF, HTML i innych.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

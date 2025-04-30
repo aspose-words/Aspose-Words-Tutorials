@@ -1,35 +1,37 @@
 ---
-title: Nastavit ruštinu jako výchozí jazyk úprav
-linktitle: Nastavit ruštinu jako výchozí jazyk úprav
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak nastavit ruštinu jako výchozí jazyk pro úpravy v dokumentech aplikace Word pomocí Aspose.Words for .NET. Postupujte podle našeho podrobného průvodce pro podrobné pokyny.
-weight: 10
-url: /cs/net/programming-with-document-options-and-settings/set-russian-as-default-editing-language/
+"description": "Naučte se, jak nastavit ruštinu jako výchozí jazyk pro úpravy v dokumentech Word pomocí Aspose.Words pro .NET. Podrobné pokyny naleznete v našem podrobném návodu."
+"linktitle": "Nastavit ruštinu jako výchozí jazyk pro úpravy"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Nastavit ruštinu jako výchozí jazyk pro úpravy"
+"url": "/cs/net/programming-with-document-options-and-settings/set-russian-as-default-editing-language/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavit ruštinu jako výchozí jazyk úprav
+# Nastavit ruštinu jako výchozí jazyk pro úpravy
 
 ## Zavedení
 
-V dnešním vícejazyčném světě je často nutné upravit dokumenty tak, aby vyhovovaly jazykovým preferencím různých uživatelů. Jednou z takových úprav je nastavení výchozího jazyka pro úpravy v dokumentu aplikace Word. Pokud používáte Aspose.Words pro .NET, tento kurz vás provede nastavením ruštiny jako výchozího jazyka pro úpravy v dokumentech aplikace Word. 
+dnešním vícejazyčném světě je často nutné přizpůsobit dokumenty tak, aby splňovaly jazykové preference různých publika. Nastavení výchozího jazyka pro úpravy v dokumentu Wordu je jedním z takových přizpůsobení. Pokud používáte Aspose.Words pro .NET, tento tutoriál vás provede nastavením ruštiny jako výchozího jazyka pro úpravy v dokumentech Wordu. 
 
-Tento podrobný průvodce zajistí, že porozumíte každé části procesu, od nastavení prostředí až po ověření jazykových nastavení v dokumentu.
+Tato podrobná příručka vám zajistí, že porozumíte každé části procesu, od nastavení prostředí až po ověření jazykových nastavení v dokumentu.
 
 ## Předpoklady
 
-Než se ponoříte do kódovací části, ujistěte se, že máte následující předpoklady:
+Než se pustíte do kódování, ujistěte se, že máte následující předpoklady:
 
-1.  Aspose.Words for .NET: Potřebujete knihovnu Aspose.Words for .NET. Můžete si jej stáhnout z[Aspose Releases](https://releases.aspose.com/words/net/) strana.
-2. Vývojové prostředí: Pro kódování a spouštění aplikací .NET se doporučuje IDE jako Visual Studio.
-3. Základní znalost C#: Porozumění programovacímu jazyku C# a frameworku .NET je nezbytné pro pokračování tohoto kurzu.
+1. Aspose.Words pro .NET: Potřebujete knihovnu Aspose.Words pro .NET. Můžete si ji stáhnout z [Aspose Releases](https://releases.aspose.com/words/net/) strana.
+2. Vývojové prostředí: Pro kódování a spouštění .NET aplikací se doporučuje IDE, jako je Visual Studio.
+3. Základní znalost C#: Pochopení programovacího jazyka C# a frameworku .NET je nezbytné pro zvládnutí tohoto tutoriálu.
 
 ## Importovat jmenné prostory
 
-Než se pustíme do specifikací, ujistěte se, že jste do projektu importovali potřebné jmenné prostory. Tyto obory názvů poskytují přístup ke třídám a metodám potřebným pro manipulaci s dokumenty aplikace Word.
+Než se pustíme do detailů, ujistěte se, že jste do projektu importovali potřebné jmenné prostory. Tyto jmenné prostory poskytují přístup ke třídám a metodám potřebným pro manipulaci s dokumenty Wordu.
 
 ```csharp
 using Aspose.Words;
@@ -38,27 +40,27 @@ using Aspose.Words.Loading;
 
 ## Krok 1: Nastavení LoadOptions
 
- Nejprve musíme nakonfigurovat`LoadOptions` pro nastavení výchozího jazyka úprav na ruštinu. Tento krok zahrnuje vytvoření instance`LoadOptions` a jeho nastavení`LanguagePreferences.DefaultEditingLanguage` vlastnictví.
+Nejprve musíme nakonfigurovat `LoadOptions` nastavit výchozí jazyk pro úpravy na ruštinu. Tento krok zahrnuje vytvoření instance `LoadOptions` a nastavení jeho `LanguagePreferences.DefaultEditingLanguage` vlastnictví.
 
-### Vytvořte instanci LoadOptions
+### Vytvořit instanci LoadOptions
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
 ```
 
-### Nastavte výchozí jazyk úprav na ruštinu
+### Nastavit výchozí jazyk pro úpravy na ruštinu
 
 ```csharp
 loadOptions.LanguagePreferences.DefaultEditingLanguage = EditingLanguage.Russian;
 ```
 
- V tomto kroku vytvoříte instanci`LoadOptions` a nastavte jej`DefaultEditingLanguage`majetek do`EditingLanguage.Russian`. To říká Aspose.Words, aby považovali ruštinu za výchozí jazyk úprav, kdykoli je dokument načten s těmito možnostmi.
+V tomto kroku vytvoříte instanci `LoadOptions` a nastavit jeho `DefaultEditingLanguage` majetek `EditingLanguage.Russian`Toto říká Aspose.Words, aby považoval ruštinu za výchozí jazyk pro úpravy vždy, když je dokument načten s těmito možnostmi.
 
-## Krok 2: Vložte dokument
+## Krok 2: Vložení dokumentu
 
- Dále musíme načíst dokument Word pomocí`LoadOptions` nakonfigurované v předchozím kroku. To zahrnuje zadání cesty k vašemu dokumentu a předání`LoadOptions` příklad k`Document` konstruktér.
+Dále musíme načíst dokument Wordu pomocí `LoadOptions` nakonfigurováno v předchozím kroku. To zahrnuje zadání cesty k dokumentu a předání `LoadOptions` instance k `Document` konstruktér.
 
-### Zadejte cestu dokumentu
+### Zadejte cestu k dokumentu
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -70,19 +72,19 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "No default editing language.docx", loadOptions);
 ```
 
- V tomto kroku zadáte cestu k adresáři, kde je umístěn váš dokument, a načtete dokument pomocí`Document` konstruktér. The`LoadOptions` ujistěte se, že je jako výchozí jazyk úprav nastavena ruština.
+V tomto kroku zadáte cestu k adresáři, kde se nachází váš dokument, a načtete dokument pomocí `Document` konstruktor. Ten `LoadOptions` Ujistěte se, že je ruština nastavena jako výchozí jazyk pro úpravy.
 
-## Krok 3: Ověřte výchozí jazyk úprav
+## Krok 3: Ověřte výchozí jazyk pro úpravy
 
- Po načtení dokumentu je důležité ověřit, zda byl jako výchozí jazyk úprav nastaven ruština. To zahrnuje kontrolu`LocaleId` výchozího stylu písma dokumentu.
+Po načtení dokumentu je důležité ověřit, zda byl jako výchozí jazyk pro úpravy nastavena ruština. To zahrnuje kontrolu `LocaleId` výchozího stylu písma dokumentu.
 
-### Získejte LocaleId výchozího písma
+### Získání LocaleId výchozího písma
 
 ```csharp
 int localeId = doc.Styles.DefaultFont.LocaleId;
 ```
 
-### Zkontrolujte, zda LocaleId odpovídá ruskému jazyku
+### Zkontrolujte, zda LocaleId odpovídá ruštině
 
 ```csharp
 Console.WriteLine(
@@ -91,39 +93,44 @@ Console.WriteLine(
         : "The document default language was set to another than Russian language originally, so it is not overridden.");
 ```
 
- V tomto kroku získáte soubor`LocaleId` výchozího stylu písma a porovnejte jej s`EditingLanguage.Russian` identifikátor. Výstupní zpráva bude indikovat, zda je výchozí jazyk nastaven na ruština nebo ne.
+V tomto kroku načtete `LocaleId` výchozího stylu písma a porovnejte ho s `EditingLanguage.Russian` identifikátor. Výstupní zpráva bude indikovat, zda je jako výchozí jazyk nastavena ruština, či nikoli.
 
 ## Závěr
 
- Nastavení ruštiny jako výchozího jazyka pro úpravy v dokumentu aplikace Word pomocí Aspose.Words pro .NET je jednoduché se správnými kroky. Nakonfigurováním`LoadOptions`načtení dokumentu a ověření jazykových nastavení můžete zajistit, aby váš dokument vyhovoval jazykovým potřebám vašeho publika. 
+Nastavení ruštiny jako výchozího jazyka pro úpravy v dokumentu Word pomocí Aspose.Words pro .NET je při správných krocích jednoduché. Konfigurací `LoadOptions`, načtením dokumentu a ověřením jazykových nastavení se můžete ujistit, že váš dokument splňuje jazykové potřeby vašeho publika. 
 
-Tato příručka poskytuje jasný a podrobný postup, který vám pomůže dosáhnout tohoto přizpůsobení efektivně.
+Tato příručka poskytuje jasný a podrobný postup, který vám pomůže efektivně dosáhnout tohoto přizpůsobení.
 
-## Nejčastější dotazy
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
+### Co je Aspose.Words pro .NET?
 
-Aspose.Words for .NET je výkonná knihovna pro programovou práci s dokumenty Wordu v rámci aplikací .NET. Umožňuje vytváření dokumentů, manipulaci a konverzi.
+Aspose.Words pro .NET je výkonná knihovna pro programovou práci s dokumenty Wordu v aplikacích .NET. Umožňuje vytváření, manipulaci a konverzi dokumentů.
 
 ### Jak si stáhnu Aspose.Words pro .NET?
 
- Aspose.Words for .NET si můžete stáhnout z webu[Aspose Releases](https://releases.aspose.com/words/net/) strana.
+Aspose.Words pro .NET si můžete stáhnout z [Aspose Releases](https://releases.aspose.com/words/net/) strana.
 
-###  co je`LoadOptions` used for?
+### Co je `LoadOptions` používá se k čemu?
 
-`LoadOptions` se používá k určení různých možností pro načítání dokumentu, jako je nastavení výchozího jazyka úprav.
+`LoadOptions` se používá k určení různých možností pro načítání dokumentu, například k nastavení výchozího jazyka pro úpravy.
 
-### Mohu jako výchozí jazyk úprav nastavit jiné jazyky?
+### Mohu nastavit jiné jazyky jako výchozí jazyk pro úpravy?
 
- Ano, můžete nastavit jakýkoli jazyk podporovaný Aspose.Words přiřazením příslušného`EditingLanguage` hodnotu k`DefaultEditingLanguage`.
+Ano, můžete nastavit jakýkoli jazyk podporovaný službou Aspose.Words přiřazením příslušného `EditingLanguage` hodnota pro `DefaultEditingLanguage`.
 
 ### Jak mohu získat podporu pro Aspose.Words pro .NET?
 
- Můžete získat podporu od[Aspose Support](https://forum.aspose.com/c/words/8) fórum, kde můžete klást otázky a získat pomoc od komunity a vývojářů Aspose.
+Podporu můžete získat od [Podpora Aspose](https://forum.aspose.com/c/words/8) fórum, kde můžete klást otázky a získat pomoc od komunity a vývojářů Aspose.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

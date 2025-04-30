@@ -1,60 +1,62 @@
 ---
-title: Získejte podrobnosti o skupině revizí
-linktitle: Získejte podrobnosti o skupině revizí
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Pomocí tohoto podrobného průvodce můžete snadno získat podrobnosti o skupině revizí v dokumentech aplikace Word pomocí Aspose.Words for .NET. Ideální pro .NET vývojáře.
-weight: 10
-url: /cs/net/working-with-revisions/get-revision-group-details/
+"description": "Snadno získejte podrobnosti o revizních skupinách v dokumentech Word pomocí Aspose.Words pro .NET s tímto podrobným návodem. Ideální pro vývojáře .NET."
+"linktitle": "Získat podrobnosti o revizní skupině"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Získat podrobnosti o revizní skupině"
+"url": "/cs/net/working-with-revisions/get-revision-group-details/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Získejte podrobnosti o skupině revizí
+# Získat podrobnosti o revizní skupině
 
 ## Zavedení
 
-Přistihli jste se někdy, že jste se potřebovali ponořit do nejhrubších detailů revizí v dokumentu aplikace Word? Možná spolupracujete na projektu a potřebujete pečlivě sledovat změny. No, připoutejte se, protože se chystáme ponořit do úžasného tutoriálu, jak získat podrobnosti o skupině revizí pomocí Aspose.Words pro .NET. Na konci této příručky budete profesionálem v extrahování a zobrazování podrobností o revizi, díky čemuž bude vaše správa dokumentů hračkou.
+Už jste někdy zjistili, že potřebujete zkoumat detaily revizí v dokumentu Wordu? Možná spolupracujete na projektu a potřebujete pečlivě sledovat změny. Tak se připravte, protože se chystáme ponořit se do skvělého tutoriálu, jak získat podrobnosti o skupině revizí pomocí Aspose.Words pro .NET. Po čtení tohoto průvodce budete profesionálem v extrakci a zobrazování podrobností o revizích, což vám správu dokumentů velmi zjednoduší.
 
 ## Předpoklady
 
-Než se pustíme do této kódovací cesty, ujistěte se, že máte vše, co potřebujete:
--  Aspose.Words for .NET: Ujistěte se, že máte nainstalovanou nejnovější verzi. Pokud ne, můžete si jej stáhnout[zde](https://releases.aspose.com/words/net/).
-- Prostředí .NET: Ujistěte se, že máte nastavené funkční vývojové prostředí .NET. Visual Studio je skvělá volba.
-- Dokument aplikace Word s revizemi: V tomto kurzu použijeme vzorový dokument aplikace Word s revizemi (`Revisions.docx`).
+Než se vydáme na tuto cestu kódování, ujistěte se, že máte vše, co potřebujete:
+- Aspose.Words pro .NET: Ujistěte se, že máte nainstalovanou nejnovější verzi. Pokud ne, můžete si ji stáhnout. [zde](https://releases.aspose.com/words/net/).
+- Prostředí .NET: Ujistěte se, že máte nastavené funkční vývojové prostředí .NET. Visual Studio je skvělou volbou.
+- Dokument Word s revizemi: V tomto tutoriálu použijeme ukázkový dokument Word s revizemi (`Revisions.docx`).
 
 ## Importovat jmenné prostory
 
-Nejprve importujme potřebné jmenné prostory do vašeho projektu. To je klíčové pro přístup k funkci Aspose.Words.
+Nejdříve si do projektu importujme potřebné jmenné prostory. To je klíčové pro přístup k funkcionalitě Aspose.Words.
 
 ```csharp
 using Aspose.Words;
 using System;
 ```
 
-Dobře, pojďme si to rozebrat krok za krokem. Každý krok vás provede procesem získání podrobností o revizní skupině pomocí Aspose.Words for .NET.
+Dobře, pojďme si to rozebrat krok za krokem. Každý krok vás provede procesem získávání podrobností o revizní skupině pomocí Aspose.Words pro .NET.
 
-## Krok 1: Načtěte dokument aplikace Word
+## Krok 1: Načtěte dokument Wordu
 
-Prvním krokem je načtení dokumentu aplikace Word. Zde jsou uloženy vaše revize.
+Prvním krokem je načtení dokumentu Word. Zde jsou uloženy vaše revize.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Revisions.docx");
 ```
 
- V tomto úryvku nahraďte`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou k vašemu dokumentu. Tento kód načte soubor`Revisions.docx` soubor do`doc` objekt.
+V tomto úryvku nahraďte `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou k vašemu dokumentu. Tento kód načte `Revisions.docx` zařadit do `doc` objekt.
 
-## Krok 2: Přístup ke kolekci revizí
+## Krok 2: Přístup ke sbírce revizí
 
- Nyní se podívejme na revize v dokumentu. Aspose.Words poskytuje a`Revisions` kolekce, kterou můžeme iterovat.
+Nyní se podívejme na revize v dokumentu. Aspose.Words poskytuje `Revisions` kolekce, kterou můžeme iterovat.
 
 ```csharp
 foreach (Revision revision in doc.Revisions)
 {
-    // Zpracujte každou revizi
+    // Zpracování každé revize
 }
 ```
 
@@ -74,11 +76,11 @@ foreach (Revision revision in doc.Revisions)
 }
 ```
 
-Tento kód vytiskne do konzoly typ revize, autora, datum a text.
+Tento kód vypíše do konzole typ revize, autora, datum a text.
 
-## Krok 4: Zkontrolujte skupinu revizí
+## Krok 4: Kontrola revizní skupiny
 
-Někdy jsou revize seskupeny. Musíme zkontrolovat, zda revize patří do skupiny, a zobrazit text skupiny, pokud ano.
+Někdy jsou revize seskupeny. Musíme zkontrolovat, zda revize patří do skupiny, a pokud ano, zobrazit text skupiny.
 
 ```csharp
 foreach (Revision revision in doc.Revisions)
@@ -91,31 +93,36 @@ foreach (Revision revision in doc.Revisions)
 }
 ```
 
-Tento úryvek vytiskne text skupiny, pokud je revize součástí skupiny nebo značí, že nepatří do žádné skupiny.
+Tento úryvek kódu vypíše text skupiny, pokud je revize součástí skupiny, nebo označí, že nepatří do žádné skupiny.
 
 ## Závěr
 
-A tady to máte! Pomocí těchto kroků můžete snadno získat podrobné informace o revizích v dokumentu aplikace Word pomocí Aspose.Words for .NET. Tento výkonný nástroj usnadňuje správu a sledování změn a zajišťuje hladký průběh vašich společných projektů.
+A tady to máte! Dodržováním těchto kroků můžete snadno získat podrobné informace o revizích v dokumentu Word pomocí nástroje Aspose.Words pro .NET. Tento výkonný nástroj usnadňuje správu a sledování změn a zajišťuje hladký průběh vašich společných projektů.
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
-Je to výkonná knihovna .NET pro vytváření, úpravy, konverzi a tisk dokumentů aplikace Word programově.
+### Co je Aspose.Words pro .NET?
+Je to výkonná knihovna .NET pro programově vytvářet, upravovat, převádět a tisknout dokumenty Wordu.
 
 ### Mohu používat Aspose.Words pro .NET s jinými jazyky .NET?
-Absolutně! Můžete jej použít s jakýmkoli jazykem .NET, včetně C#, VB.NET a ASP.NET.
+Rozhodně! Můžete ho použít s jakýmkoli jazykem .NET, včetně C#, VB.NET a ASP.NET.
 
 ### Jak mohu získat bezplatnou zkušební verzi Aspose.Words pro .NET?
- Můžete získat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
+Můžete získat bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
 
 ### Potřebuji licenci k používání Aspose.Words pro .NET?
- Ano, Aspose.Words for .NET vyžaduje licenci pro plnou funkčnost. Můžete si jeden zakoupit[zde](https://purchase.aspose.com/buy) nebo získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
+Ano, Aspose.Words pro .NET vyžaduje pro plnou funkčnost licenci. Můžete si ji zakoupit. [zde](https://purchase.aspose.com/buy) nebo si pořídit dočasný řidičský průkaz [zde](https://purchase.aspose.com/temporary-license/).
 
 ### Kde najdu další dokumentaci k Aspose.Words pro .NET?
- K dispozici je podrobná dokumentace[zde](https://reference.aspose.com/words/net/).
+Podrobná dokumentace je k dispozici [zde](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

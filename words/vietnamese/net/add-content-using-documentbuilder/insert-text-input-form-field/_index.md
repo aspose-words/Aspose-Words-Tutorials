@@ -1,14 +1,16 @@
 ---
-title: Chèn trường biểu mẫu nhập văn bản vào tài liệu Word
-linktitle: Chèn trường biểu mẫu nhập văn bản vào tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn trường biểu mẫu nhập văn bản vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo để tạo biểu mẫu tương tác.
-weight: 10
-url: /vi/net/add-content-using-documentbuilder/insert-text-input-form-field/
+"description": "Tìm hiểu cách chèn trường biểu mẫu nhập văn bản vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo để tạo biểu mẫu tương tác."
+"linktitle": "Chèn trường biểu mẫu nhập văn bản vào tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn trường biểu mẫu nhập văn bản vào tài liệu Word"
+"url": "/vi/net/add-content-using-documentbuilder/insert-text-input-form-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn trường biểu mẫu nhập văn bản vào tài liệu Word
@@ -21,10 +23,10 @@ Trong hướng dẫn này, chúng ta sẽ đi sâu vào thế giới của Aspos
 
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
-1.  Aspose.Words cho Thư viện .NET: Đảm bảo bạn có thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Đảm bảo bạn có thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Môi trường phát triển tích hợp (IDE) như Visual Studio.
 3. Hiểu biết cơ bản về C#: Quen thuộc với ngôn ngữ lập trình C# và .NET framework.
-4.  Giấy phép tạm thời (Tùy chọn): Nếu bạn đang đánh giá Aspose.Words, bạn có thể muốn có một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để tránh bất kỳ hạn chế nào.
+4. Giấy phép tạm thời (Tùy chọn): Nếu bạn đang đánh giá Aspose.Words, bạn có thể muốn có một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để tránh bất kỳ hạn chế nào.
 
 ## Nhập không gian tên
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Tạo một tài liệu mới
 
- Tiếp theo, chúng ta cần tạo một phiên bản mới của`Document` lớp. Đây là tài liệu Word mà chúng ta sẽ làm việc.
+Tiếp theo, chúng ta cần tạo một phiên bản mới của `Document` lớp. Đây là tài liệu Word mà chúng ta sẽ làm việc.
 
 ```csharp
 Document doc = new Document();
@@ -55,7 +57,7 @@ Document doc = new Document();
 
 ## Bước 3: Khởi tạo DocumentBuilder
 
- Các`DocumentBuilder` class là công cụ chính của chúng ta để thêm nội dung vào tài liệu. Hãy nghĩ về nó như một cây bút viết trên canvas tài liệu Word.
+Các `DocumentBuilder` class là công cụ chính của chúng ta để thêm nội dung vào tài liệu. Hãy nghĩ về nó như một cây bút viết trên canvas tài liệu Word.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -63,14 +65,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Bước 4: Chèn trường biểu mẫu nhập văn bản
 
- Đây là nơi phép thuật xảy ra. Chúng ta sẽ sử dụng`InsertTextInput` phương pháp của`DocumentBuilder` lớp để thêm trường biểu mẫu nhập văn bản. Trường biểu mẫu này sẽ cho phép người dùng nhập văn bản vào tài liệu.
+Đây là nơi phép thuật xảy ra. Chúng ta sẽ sử dụng `InsertTextInput` phương pháp của `DocumentBuilder` lớp để thêm trường biểu mẫu nhập văn bản. Trường biểu mẫu này sẽ cho phép người dùng nhập văn bản vào tài liệu.
 
 ```csharp
 builder.InsertTextInput("TextInput", TextFormFieldType.Regular, "", "Hello", 0);
 ```
 
 - Tên: "TextInput" - Đây là tên của trường biểu mẫu.
--  Kiểu:`TextFormFieldType.Regular` Điều này chỉ rõ rằng trường biểu mẫu là dạng nhập văn bản thông thường.
+- Kiểu: `TextFormFieldType.Regular` - Điều này chỉ rõ rằng trường biểu mẫu là dạng nhập văn bản thông thường.
 - Văn bản mặc định: "" - Đây là văn bản mặc định hiển thị trong trường biểu mẫu (trống trong trường hợp này).
 - Giá trị: "Xin chào" - Giá trị ban đầu của trường biểu mẫu.
 - Độ dài tối đa: 0 - Không giới hạn độ dài của dữ liệu đầu vào.
@@ -99,14 +101,19 @@ Aspose.Words cung cấp phiên bản dùng thử miễn phí với một số h�
 Các trường biểu mẫu nhập văn bản được sử dụng trong tài liệu Word để cho phép người dùng nhập văn bản vào các khu vực được xác định trước, khiến chúng trở nên lý tưởng cho các biểu mẫu và mẫu.
 
 ### Làm thế nào để tùy chỉnh giao diện của trường biểu mẫu?
- Bạn có thể tùy chỉnh giao diện của các trường biểu mẫu bằng cách sử dụng nhiều thuộc tính khác nhau của`DocumentBuilder` lớp, chẳng hạn như phông chữ, kích thước và căn chỉnh.
+Bạn có thể tùy chỉnh giao diện của các trường biểu mẫu bằng cách sử dụng nhiều thuộc tính khác nhau của `DocumentBuilder` lớp, chẳng hạn như phông chữ, kích thước và căn chỉnh.
 
 ### Tôi có thể tìm thêm hướng dẫn về Aspose.Words cho .NET ở đâu?
- Bạn có thể tìm thêm hướng dẫn và tài liệu trên[Trang tài liệu Aspose.Words cho .NET](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thêm hướng dẫn và tài liệu trên [Trang tài liệu Aspose.Words cho .NET](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: การใช้การแบ่งคำใน Aspose.Words สำหรับ Java
-linktitle: การใช้การแบ่งคำ
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีใช้เครื่องหมายยัติภังค์อย่างมีประสิทธิภาพใน Aspose.Words สำหรับ Java ด้วยบทช่วยสอนที่ครอบคลุมนี้ เพิ่มความสามารถในการอ่านเอกสารได้แล้ววันนี้!
-weight: 17
-url: /th/java/using-document-elements/using-hyphenation/
+"description": "เรียนรู้วิธีใช้เครื่องหมายยัติภังค์อย่างมีประสิทธิภาพใน Aspose.Words สำหรับ Java ด้วยบทช่วยสอนที่ครอบคลุมนี้ เพิ่มความสามารถในการอ่านเอกสารได้แล้ววันนี้!"
+"linktitle": "การใช้การแบ่งคำ"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การใช้การแบ่งคำใน Aspose.Words สำหรับ Java"
+"url": "/th/java/using-document-elements/using-hyphenation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การใช้การแบ่งคำใน Aspose.Words สำหรับ Java
@@ -22,7 +24,7 @@ url: /th/java/using-document-elements/using-hyphenation/
 
 ## 2. การตั้งค่าสภาพแวดล้อมของคุณ
 
-ก่อนที่เราจะลงลึกถึงการใช้เครื่องหมายยัติภังค์ใน Aspose.Words สำหรับ Java คุณต้องตั้งค่าสภาพแวดล้อมการพัฒนาของคุณก่อน ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
+ก่อนที่เราจะเจาะลึกการใช้การแบ่งคำใน Aspose.Words สำหรับ Java คุณต้องตั้งค่าสภาพแวดล้อมการพัฒนาของคุณก่อน ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
 - ติดตั้ง Java Development Kit (JDK) แล้ว
 - Aspose.Words สำหรับไลบรารี Java
@@ -78,14 +80,19 @@ doc.save(outPath + "WorkingWithHyphenation.LoadHyphenationDictionaryForLanguage.
 
 ### 4. ฉันสามารถหาทรัพยากรและการสนับสนุนเพิ่มเติมสำหรับ Aspose.Words สำหรับ Java ได้ที่ไหน
 
- คุณสามารถเยี่ยมชม[เอกสารประกอบ API ของ Aspose.Words](https://reference.aspose.com/words/java/) สำหรับข้อมูลโดยละเอียด สำหรับการสนับสนุนและการหารือ โปรดดูที่[ฟอรั่ม Aspose.Words](https://forum.aspose.com/).
+คุณสามารถเยี่ยมชม [เอกสารประกอบ API ของ Aspose.Words](https://reference.aspose.com/words/java/) สำหรับข้อมูลโดยละเอียด สำหรับการสนับสนุนและการหารือ โปรดดูที่ [ฟอรั่ม Aspose.Words](https://forum-aspose.com/).
 
 ### 5. ฉันจะเข้าถึง Aspose.Words สำหรับ Java ได้อย่างไร
 
- หากต้องการเข้าถึง Aspose.Words สำหรับ Java[คลิกที่นี่](https://purchase.aspose.com/buy)สัมผัสประสบการณ์พลังของการประมวลผลเอกสารในแอปพลิเคชัน Java ของคุณ!
+หากต้องการเข้าถึง Aspose.Words สำหรับ Java [คลิกที่นี่](https://purchase.aspose.com/buy)สัมผัสประสบการณ์พลังของการประมวลผลเอกสารในแอปพลิเคชัน Java ของคุณ!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

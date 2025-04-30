@@ -1,14 +1,16 @@
 ---
-title: Hiển thị các trang tài liệu dưới dạng hình ảnh
-linktitle: Hiển thị các trang tài liệu dưới dạng hình ảnh
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách hiển thị các trang tài liệu dưới dạng hình ảnh bằng Aspose.Words cho Java. Hướng dẫn từng bước với các ví dụ mã để chuyển đổi tài liệu hiệu quả.
-weight: 10
-url: /vi/java/document-rendering/rendering-document-pages-images/
+"description": "Tìm hiểu cách hiển thị các trang tài liệu dưới dạng hình ảnh bằng Aspose.Words cho Java. Hướng dẫn từng bước với các ví dụ mã để chuyển đổi tài liệu hiệu quả."
+"linktitle": "Hiển thị các trang tài liệu dưới dạng hình ảnh"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Hiển thị các trang tài liệu dưới dạng hình ảnh"
+"url": "/vi/java/document-rendering/rendering-document-pages-images/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hiển thị các trang tài liệu dưới dạng hình ảnh
@@ -22,7 +24,7 @@ Trước khi đi sâu vào các chi tiết kỹ thuật, chúng ta hãy giới t
 
 Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
-1.  Aspose.Words cho Java: Tải xuống và cài đặt Aspose.Words cho Java từ[đây](https://releases.aspose.com/words/java/).
+1. Aspose.Words cho Java: Tải xuống và cài đặt Aspose.Words cho Java từ [đây](https://releases.aspose.com/words/java/).
 
 2. Môi trường phát triển Java: Đảm bảo rằng bạn đã thiết lập môi trường phát triển Java trên máy của mình.
 
@@ -41,7 +43,7 @@ public class DocumentToImageConversion {
 
 ## Bước 2: Tải tài liệu
 
-Trong bước này, chúng ta sẽ tải tài liệu Word mà chúng ta muốn chuyển đổi thành hình ảnh. Đảm bảo thay thế`"sample.docx"` với đường dẫn đến tài liệu của bạn.
+Trong bước này, chúng ta sẽ tải tài liệu Word mà chúng ta muốn chuyển đổi thành hình ảnh. Đảm bảo thay thế `"sample.docx"` với đường dẫn đến tài liệu của bạn.
 
 ```java
 // Tải tài liệu Word
@@ -82,7 +84,7 @@ Hãy nhớ điều chỉnh các tùy chọn lưu và đường dẫn tệp theo 
 
 ### Làm thế nào tôi có thể hiển thị tài liệu dưới nhiều định dạng hình ảnh khác nhau?
 
- Bạn có thể hiển thị tài liệu dưới dạng nhiều định dạng hình ảnh khác nhau bằng cách chỉ định định dạng mong muốn trong`ImageSaveOptions`. Các định dạng được hỗ trợ bao gồm PNG, JPEG, BMP, TIFF và nhiều định dạng khác.
+Bạn có thể hiển thị tài liệu dưới dạng nhiều định dạng hình ảnh khác nhau bằng cách chỉ định định dạng mong muốn trong `ImageSaveOptions`. Các định dạng được hỗ trợ bao gồm PNG, JPEG, BMP, TIFF, v.v.
 
 ### Aspose.Words for Java có tương thích với các định dạng tài liệu khác nhau không?
 
@@ -90,7 +92,7 @@ Có, Aspose.Words for Java hỗ trợ nhiều định dạng tài liệu, bao g�
 
 ### Tôi có thể kiểm soát độ phân giải hình ảnh trong quá trình kết xuất không?
 
- Chắc chắn rồi! Aspose.Words cho phép bạn thiết lập độ phân giải để hiển thị hình ảnh bằng cách sử dụng`setResolution`phương pháp trong`ImageSaveOptions`. Điều này đảm bảo hình ảnh đầu ra đáp ứng được yêu cầu về chất lượng của bạn.
+Chắc chắn rồi! Aspose.Words cho phép bạn thiết lập độ phân giải để hiển thị hình ảnh bằng cách sử dụng `setResolution` phương pháp trong `ImageSaveOptions`. Điều này đảm bảo hình ảnh đầu ra đáp ứng được yêu cầu về chất lượng của bạn.
 
 ### Aspose.Words có phù hợp để xử lý tài liệu hàng loạt không?
 
@@ -98,10 +100,15 @@ Có, Aspose.Words rất phù hợp để xử lý hàng loạt tài liệu. Bạ
 
 ### Tôi có thể tìm thêm tài liệu và ví dụ ở đâu?
 
- Để biết tài liệu và ví dụ toàn diện, hãy truy cập Tài liệu tham khảo API Aspose.Words cho Java tại[đây](https://reference.aspose.com/words/java/).
+Để biết tài liệu và ví dụ toàn diện, hãy truy cập Tài liệu tham khảo API Aspose.Words cho Java tại [đây](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

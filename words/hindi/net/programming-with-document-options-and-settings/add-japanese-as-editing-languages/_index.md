@@ -1,14 +1,16 @@
 ---
-title: संपादन भाषा के रूप में जापानी जोड़ें
-linktitle: संपादन भाषा के रूप में जापानी जोड़ें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस विस्तृत, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके अपने दस्तावेज़ों में संपादन भाषा के रूप में जापानी को जोड़ने का तरीका जानें।
-weight: 10
-url: /hi/net/programming-with-document-options-and-settings/add-japanese-as-editing-languages/
+"description": "इस विस्तृत, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके अपने दस्तावेज़ों में संपादन भाषा के रूप में जापानी को जोड़ने का तरीका जानें।"
+"linktitle": "संपादन भाषा के रूप में जापानी जोड़ें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "संपादन भाषा के रूप में जापानी जोड़ें"
+"url": "/hi/net/programming-with-document-options-and-settings/add-japanese-as-editing-languages/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # संपादन भाषा के रूप में जापानी जोड़ें
@@ -22,8 +24,8 @@ url: /hi/net/programming-with-document-options-and-settings/add-japanese-as-edit
 इससे पहले कि हम शुरू करें, कुछ चीजें हैं जिन्हें आपको तैयार रखना होगा:
 
 1. विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके पास विज़ुअल स्टूडियो स्थापित है। यह एकीकृत विकास वातावरण (IDE) है जिसका हम उपयोग करेंगे।
-2.  Aspose.Words for .NET: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। अगर आपके पास अभी तक यह नहीं है, तो आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
-3.  एक नमूना दस्तावेज़: एक नमूना दस्तावेज़ तैयार रखें जिसे आप संपादित करना चाहते हैं। यह होना चाहिए`.docx` प्रारूप।
+2. Aspose.Words for .NET: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। अगर आपके पास अभी तक यह नहीं है, तो आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
+3. एक नमूना दस्तावेज़: एक नमूना दस्तावेज़ तैयार रखें जिसे आप संपादित करना चाहते हैं। यह होना चाहिए `.docx` प्रारूप।
 4. बुनियादी C# ज्ञान: C# प्रोग्रामिंग की बुनियादी समझ आपको उदाहरणों के साथ आगे बढ़ने में मदद करेगी।
 
 ## नामस्थान आयात करें
@@ -40,17 +42,17 @@ using Aspose.Words.Loading;
 
 ## चरण 1: अपने लोडऑप्शन सेट करें
 
- सबसे पहली बात, आपको अपना सेटअप करना होगा`LoadOptions`यह वह जगह है जहाँ आप अपने दस्तावेज़ के लिए भाषा प्राथमिकताएँ निर्दिष्ट करेंगे।
+सबसे पहली बात, आपको अपना सेटअप करना होगा `LoadOptions`यह वह जगह है जहाँ आप अपने दस्तावेज़ के लिए भाषा प्राथमिकताएँ निर्दिष्ट करेंगे।
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
 ```
 
-`LoadOptions` क्लास आपको यह कस्टमाइज़ करने की अनुमति देता है कि दस्तावेज़ कैसे लोड किए जाएँ। यहाँ, हम बस इसके साथ शुरुआत कर रहे हैं।
+The `LoadOptions` क्लास आपको यह कस्टमाइज़ करने की अनुमति देता है कि दस्तावेज़ कैसे लोड किए जाएँ। यहाँ, हम बस इसके साथ शुरुआत कर रहे हैं।
 
 ## चरण 2: संपादन भाषा के रूप में जापानी जोड़ें
 
- अब जब आपने अपना सेटअप कर लिया है`LoadOptions`, अब संपादन भाषा के रूप में जापानी जोड़ने का समय आ गया है। इसे अपने GPS को सही भाषा में सेट करने के रूप में सोचें ताकि आप आसानी से नेविगेट कर सकें।
+अब जब आपने अपना सेटअप कर लिया है `LoadOptions`, अब संपादन भाषा के रूप में जापानी जोड़ने का समय आ गया है। इसे अपने GPS को सही भाषा में सेट करने के रूप में सोचें ताकि आप आसानी से नेविगेट कर सकें।
 
 ```csharp
 loadOptions.LanguagePreferences.AddEditingLanguage(EditingLanguage.Japanese);
@@ -66,7 +68,7 @@ loadOptions.LanguagePreferences.AddEditingLanguage(EditingLanguage.Japanese);
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
 
 ## चरण 4: दस्तावेज़ लोड करें
 
@@ -76,11 +78,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "No default editing language.docx", loadOptions);
 ```
 
- यहाँ, आप निर्दिष्ट के साथ दस्तावेज़ लोड कर रहे हैं`LoadOptions`.
+यहाँ, आप निर्दिष्ट के साथ दस्तावेज़ लोड कर रहे हैं `LoadOptions`.
 
 ## चरण 5: भाषा सेटिंग जांचें
 
- दस्तावेज़ लोड करने के बाद, यह सत्यापित करना महत्वपूर्ण है कि भाषा सेटिंग सही तरीके से लागू की गई थी या नहीं। आप इसे जाँच कर कर सकते हैं`LocaleIdFarEast` संपत्ति।
+दस्तावेज़ लोड करने के बाद, यह सत्यापित करना महत्वपूर्ण है कि भाषा सेटिंग सही तरीके से लागू की गई थी या नहीं। आप इसे जाँच कर कर सकते हैं `LocaleIdFarEast` संपत्ति।
 
 ```csharp
 int localeIdFarEast = doc.Styles.DefaultFont.LocaleIdFarEast;
@@ -90,7 +92,7 @@ Console.WriteLine(
         : "The document default FarEast language was set to another than Japanese language originally, so it is not overridden.");
 ```
 
-यह कोड जाँचता है कि डिफ़ॉल्ट FarEast भाषा जापानी पर सेट है या नहीं और उचित संदेश प्रिंट करता है।
+यह कोड जाँचता है कि डिफ़ॉल्ट FarEast भाषा जापानी पर सेट है या नहीं और उपयुक्त संदेश प्रिंट करता है।
 
 ## निष्कर्ष
 
@@ -99,23 +101,28 @@ Console.WriteLine(
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### क्या मैं संपादन भाषाओं के रूप में एकाधिक भाषाएँ जोड़ सकता हूँ?
- हां, आप इसका उपयोग करके कई भाषाएं जोड़ सकते हैं`AddEditingLanguage` प्रत्येक भाषा के लिए एक अलग विधि।
+हां, आप इसका उपयोग करके कई भाषाएं जोड़ सकते हैं `AddEditingLanguage` प्रत्येक भाषा के लिए एक अलग विधि।
 
 ### क्या मुझे .NET के लिए Aspose.Words का उपयोग करने के लिए लाइसेंस की आवश्यकता है?
- हां, आपको व्यावसायिक उपयोग के लिए लाइसेंस की आवश्यकता है। आप इसे खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+हां, आपको व्यावसायिक उपयोग के लिए लाइसेंस की आवश्यकता है। आप इसे खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस प्राप्त करें [यहाँ](https://purchase.aspose.com/temporary-license/).
 
-### Aspose.Words for .NET में अन्य क्या विशेषताएं हैं?
- Aspose.Words for .NET दस्तावेज़ निर्माण, रूपांतरण, हेरफेर, और अधिक सहित सुविधाओं की एक विस्तृत श्रृंखला प्रदान करता है।[प्रलेखन](https://reference.aspose.com/words/net/) अधिक जानकारी के लिए.
+### Aspose.Words for .NET में अन्य कौन सी सुविधाएं उपलब्ध हैं?
+Aspose.Words for .NET दस्तावेज़ निर्माण, रूपांतरण, हेरफेर, और अधिक सहित सुविधाओं की एक विस्तृत श्रृंखला प्रदान करता है। [प्रलेखन](https://reference.aspose.com/words/net/) अधिक जानकारी के लिए.
 
 ### क्या मैं इसे खरीदने से पहले .NET के लिए Aspose.Words आज़मा सकता हूँ?
- बिलकुल! आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+बिलकुल! आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### मुझे .NET के लिए Aspose.Words का समर्थन कहां मिल सकता है?
- आप Aspose समुदाय से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/words/8).
+आप Aspose समुदाय से सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

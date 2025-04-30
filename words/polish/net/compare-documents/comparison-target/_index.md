@@ -1,14 +1,16 @@
 ---
-title: Cel porównania w dokumencie Word
-linktitle: Cel porównania w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Bez wysiłku porównuj dokumenty Word za pomocą Aspose.Words dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Oszczędź czas i zwiększ dokładność porównywania dokumentów.
-weight: 10
-url: /pl/net/compare-documents/comparison-target/
+"description": "Bez wysiłku porównuj dokumenty Worda za pomocą Aspose.Words dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Oszczędź czas i zwiększ dokładność porównywania dokumentów."
+"linktitle": "Cel porównania w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Cel porównania w dokumencie Word"
+"url": "/pl/net/compare-documents/comparison-target/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cel porównania w dokumencie Word
@@ -21,8 +23,8 @@ Cześć! Czy zdarzyło Ci się kiedyś porównywać dwie wersje dokumentu Word i
 
 Zanim przejdziemy do konkretów, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
 
-1.  Aspose.Words dla .NET: Potrzebujesz tej biblioteki. Jeśli jeszcze jej nie masz, pobierz ją z[Tutaj](https://releases.aspose.com/words/net/).
-2.  Licencja: Aby odblokować pełny potencjał Aspose.Words, potrzebujesz ważnej licencji. Możesz ją kupić[Tutaj](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words dla .NET: Potrzebujesz tej biblioteki. Jeśli jeszcze jej nie masz, pobierz ją z [Tutaj](https://releases.aspose.com/words/net/).
+2. Licencja: Aby odblokować pełny potencjał Aspose.Words, potrzebujesz ważnej licencji. Możesz ją kupić [Tutaj](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 3. Środowisko programistyczne: Visual Studio lub inne środowisko IDE zgodne z platformą .NET.
 4. Podstawowa znajomość języka C#: Nie martw się, nie musisz być profesjonalistą, wystarczą podstawowe umiejętności.
 
@@ -56,7 +58,7 @@ Install-Package Aspose.Words
 
 ## Krok 3: Załaduj swoje dokumenty
 
-Dobrze, czas załadować dokumenty, które chcesz porównać. Będziesz potrzebować ścieżek do tych dokumentów. Załóżmy, że masz dwa dokumenty:`DocumentA.docx` I`DocumentB.docx`.
+Dobrze, czas załadować dokumenty, które chcesz porównać. Będziesz potrzebować ścieżek do tych dokumentów. Załóżmy, że masz dwa dokumenty: `DocumentA.docx` I `DocumentB.docx`.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -111,7 +113,7 @@ Oto masz – prosty i skuteczny sposób porównywania dokumentów Worda przy uż
 
 Tak, Aspose.Words bezproblemowo obsługuje dokumenty w różnych formatach.
 
-### Czy potrzebuję licencji, aby korzystać z Aspose.Words?
+### Czy potrzebuję licencji, aby używać Aspose.Words?
 
 Tak, aby odblokować wszystkie funkcje, potrzebujesz ważnej licencji. Możesz ją kupić lub uzyskać tymczasową licencję.
 
@@ -125,11 +127,16 @@ Oczywiście! Aspose.Words oferuje wiele opcji, aby dostosować porównanie do Tw
 
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację?
 
- Możesz sprawdzić pełną dokumentację[Tutaj](https://reference.aspose.com/words/net/).
+Możesz sprawdzić kompleksową dokumentację [Tutaj](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

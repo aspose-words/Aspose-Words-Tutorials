@@ -1,14 +1,16 @@
 ---
-title: Đọc Macro VBA từ Tài liệu Word
-linktitle: Đọc Macro VBA từ Tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách đọc macro VBA từ tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi để tự động hóa tài liệu liền mạch!
-weight: 10
-url: /vi/net/working-with-vba-macros/read-vba-macros/
+"description": "Tìm hiểu cách đọc macro VBA từ tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi để tự động hóa tài liệu liền mạch!"
+"linktitle": "Đọc Macro VBA từ Tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Đọc Macro VBA từ Tài liệu Word"
+"url": "/vi/net/working-with-vba-macros/read-vba-macros/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đọc Macro VBA từ Tài liệu Word
@@ -21,10 +23,10 @@ Xin chào, các phù thủy tài liệu Word! Bạn đã bao giờ tự hỏi đ
 
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Thư viện Aspose.Words cho .NET: Để làm việc với các tài liệu Word, bạn sẽ cần phiên bản mới nhất của Aspose.Words cho .NET. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Thư viện Aspose.Words cho .NET: Để làm việc với các tài liệu Word, bạn sẽ cần phiên bản mới nhất của Aspose.Words cho .NET. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Môi trường phát triển .NET, chẳng hạn như Visual Studio, rất cần thiết để viết và kiểm tra mã của bạn.
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# sẽ giúp bạn tìm hiểu các đoạn mã và khái niệm.
-4.  Tài liệu Word mẫu: Có một[Tài liệu Word](https://github.com/aspose-words/Aspose.Words-for-.NET/raw/99ba2a2d8b5d650deb40106225f383376b8b4bc6/Examples/Data/VBA%20project.docm) (.docm) với macro VBA đã sẵn sàng. Đây sẽ là nguồn để chúng ta đọc macro.
+4. Tài liệu Word mẫu: Có một [Tài liệu Word](https://github.com/aspose-words/Aspose.Words-for-.NET/raw/99ba2a2d8b5d650deb40106225f383376b8b4bc6/Examples/Data/VBA%20project.docm) (.docm) với macro VBA đã sẵn sàng. Đây sẽ là nguồn để chúng ta đọc macro.
 
 ## Nhập không gian tên
 
@@ -37,7 +39,7 @@ using Aspose.Words;
 using Aspose.Words.Vba;
 ```
 
-Các không gian tên này là hộp công cụ giúp bạn truy cập và thao tác với các tài liệu Word và nội dung VBA của chúng.
+Các không gian tên này là hộp công cụ giúp bạn truy cập và thao tác các tài liệu Word và nội dung VBA của chúng.
 
 ## Bước 1: Thiết lập thư mục tài liệu của bạn
 
@@ -51,7 +53,7 @@ Trước tiên, hãy thiết lập đường dẫn đến thư mục tài liệu
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi các tài liệu Word của bạn được lưu trữ. Đây là nơi bắt đầu thú vị!
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi các tài liệu Word của bạn được lưu trữ. Đây là nơi bắt đầu thú vị!
 
 ## Bước 2: Tải tài liệu Word
 
@@ -65,7 +67,7 @@ Sau đây là cách tải tài liệu của bạn:
 Document doc = new Document(dataDir + "VBA project.docm");
 ```
 
- Dòng này tải tài liệu Word có tên "VBA project.docm" từ thư mục bạn chỉ định vào`doc` sự vật.
+Dòng này tải tài liệu Word có tên "VBA project.docm" từ thư mục bạn chỉ định vào `doc` sự vật.
 
 ## Bước 3: Truy cập Dự án VBA
 
@@ -101,7 +103,7 @@ foreach (VbaModule module in doc.VbaProject.Modules)
 
 Trong đoạn trích này:
 - Chúng tôi lặp lại từng mô-đun trong dự án VBA.
--  Đối với mỗi mô-đun, chúng tôi in`SourceCode` thuộc tính chứa mã macro VBA.
+- Đối với mỗi mô-đun, chúng tôi in `SourceCode` thuộc tính chứa mã macro VBA.
 
 ## Bước 5: Hiểu kết quả đầu ra
 
@@ -123,7 +125,7 @@ End Sub
 
 Và bạn đã có nó! Bạn đã đọc thành công các macro VBA từ một tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm mọi thứ từ thiết lập môi trường và tải tài liệu của bạn đến truy cập dự án VBA và đọc các macro. Với Aspose.Words, bạn có một công cụ mạnh mẽ để tự động hóa các tác vụ, tùy chỉnh tài liệu và đi sâu vào thế giới VBA.
 
- Nếu bạn muốn tìm hiểu thêm,[Tài liệu API](https://reference.aspose.com/words/net/) là nơi tuyệt vời để bắt đầu. Và nếu bạn gặp phải câu hỏi hoặc cần trợ giúp,[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) luôn ở đó vì bạn.
+Nếu bạn muốn tìm hiểu thêm, [Tài liệu API](https://reference.aspose.com/words/net/) là nơi tuyệt vời để bắt đầu. Và nếu bạn gặp phải câu hỏi hoặc cần trợ giúp, [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) luôn ở đó vì bạn.
 
 Chúc bạn viết code vui vẻ và mong macro của bạn luôn chạy mượt mà!
 
@@ -136,16 +138,21 @@ Aspose.Words for .NET là một thư viện mạnh mẽ cho phép các nhà phá
 Bạn có thể đọc macro VBA từ bất kỳ tài liệu Word nào có chứa dự án VBA. Tài liệu phải ở định dạng hỗ trợ macro (.docm).
 
 ### Làm thế nào để chỉnh sửa macro VBA sau khi đọc chúng?  
- Sau khi đọc các macro, bạn có thể sửa đổi`SourceCode` tài sản của`VbaModule` đối tượng. Sau đó, lưu tài liệu để áp dụng các thay đổi.
+Sau khi đọc các macro, bạn có thể sửa đổi `SourceCode` tài sản của `VbaModule` đối tượng. Sau đó, lưu tài liệu để áp dụng các thay đổi.
 
 ### Aspose.Words for .NET có tương thích với tất cả các phiên bản Word không?  
 Aspose.Words for .NET tương thích với nhiều phiên bản Word khác nhau, đảm bảo tài liệu của bạn hoạt động liền mạch trên nhiều nền tảng khác nhau.
 
 ### Tôi có thể mua Aspose.Words cho .NET ở đâu?  
- Bạn có thể mua Aspose.Words cho .NET từ[trang mua hàng chính thức](https://purchase.aspose.com/buy).
+Bạn có thể mua Aspose.Words cho .NET từ [trang mua hàng chính thức](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

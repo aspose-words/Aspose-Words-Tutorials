@@ -1,14 +1,16 @@
 ---
-title: Добавить значения даты и времени на ось диаграммы
-linktitle: Добавить значения даты и времени на ось диаграммы
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как добавлять значения даты и времени на оси диаграммы с помощью Aspose.Words для .NET в этом подробном пошаговом руководстве.
-weight: 10
-url: /ru/net/programming-with-charts/date-time-values-to-axis/
+"description": "Узнайте, как добавлять значения даты и времени на оси диаграммы с помощью Aspose.Words для .NET в этом подробном пошаговом руководстве."
+"linktitle": "Добавить значения даты и времени на ось диаграммы"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Добавить значения даты и времени на ось диаграммы"
+"url": "/ru/net/programming-with-charts/date-time-values-to-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить значения даты и времени на ось диаграммы
@@ -22,9 +24,9 @@ url: /ru/net/programming-with-charts/date-time-values-to-axis/
 Прежде чем начать, убедитесь, что у вас выполнены следующие предварительные условия:
 
 1. Visual Studio или любая .NET IDE: вам понадобится среда разработки для написания и запуска вашего .NET-кода.
-2.  Aspose.Words for .NET: У вас должна быть установлена библиотека Aspose.Words for .NET. Вы можете загрузить ее с[здесь](https://releases.aspose.com/words/net/).
+2. Aspose.Words for .NET: У вас должна быть установлена библиотека Aspose.Words for .NET. Вы можете загрузить ее с [здесь](https://releases.aspose.com/words/net/).
 3. Базовые знания C#: в этом руководстве предполагается, что у вас есть базовые знания программирования на C#.
-4.  Действующая лицензия Aspose: вы можете получить временную лицензию по адресу[здесь](https://purchase.aspose.com/temporary-license/).
+4. Действующая лицензия Aspose: вы можете получить временную лицензию по адресу [здесь](https://purchase.aspose.com/temporary-license/).
 
 ## Импорт пространств имен
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Шаг 2: Создайте новый документ и DocumentBuilder
 
- Далее создайте новый экземпляр`Document` класс и а`DocumentBuilder` объект. Эти объекты помогут вам создавать и обрабатывать ваш документ.
+Далее создайте новый экземпляр `Document` класс и а `DocumentBuilder` объект. Эти объекты помогут вам создавать и обрабатывать ваш документ.
 
 ```csharp
 Document doc = new Document();
@@ -56,7 +58,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Шаг 3: Вставьте диаграмму в документ
 
- Теперь вставьте диаграмму в свой документ с помощью`DocumentBuilder` объект. В этом примере мы используем столбчатую диаграмму, но вы можете выбрать и другие типы.
+Теперь вставьте диаграмму в свой документ с помощью `DocumentBuilder` объект. В этом примере мы используем столбчатую диаграмму, но вы можете выбрать и другие типы.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
@@ -123,7 +125,7 @@ doc.Save(dataDir + "WorkingWithCharts.DateTimeValuesToAxis.docx");
 
 ### Можно ли добавить несколько рядов в диаграмму?
 
- Конечно! Вы можете добавить несколько рядов в свою диаграмму, вызвав`Series.Add` метод несколько раз с разными данными.
+Конечно! Вы можете добавить несколько рядов в свою диаграмму, вызвав `Series.Add` метод несколько раз с разными данными.
 
 ### Что делать, если мне необходимо динамически обновлять данные диаграммы?
 
@@ -131,10 +133,15 @@ doc.Save(dataDir + "WorkingWithCharts.DateTimeValuesToAxis.docx");
 
 ### Где я могу найти более подробную документацию по Aspose.Words для .NET?
 
- Более подробную документацию вы можете найти[здесь](https://reference.aspose.com/words/net/).
+Более подробную документацию вы можете найти [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

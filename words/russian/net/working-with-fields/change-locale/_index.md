@@ -1,14 +1,16 @@
 ---
-title: Изменить локаль
-linktitle: Изменить локаль
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как изменить локаль в документах Word с помощью Aspose.Words для .NET с помощью этого руководства. Идеально подходит для работы с международными клиентами и проектами.
-weight: 10
-url: /ru/net/working-with-fields/change-locale/
+"description": "Узнайте, как изменить локаль в документах Word с помощью Aspose.Words для .NET с помощью этого руководства. Идеально подходит для работы с международными клиентами и проектами."
+"linktitle": "Изменить локаль"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Изменить локаль"
+"url": "/ru/net/working-with-fields/change-locale/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Изменить локаль
@@ -21,11 +23,11 @@ url: /ru/net/working-with-fields/change-locale/
 
 Прежде чем углубиться в детали, давайте убедимся, что у нас есть все необходимое:
 
--  Aspose.Words для .NET: Вы можете загрузить его с[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: Вы можете загрузить его с [здесь](https://releases.aspose.com/words/net/).
 - Visual Studio: любая версия, поддерживающая .NET Framework.
 - Базовые знания C#: понимание основ C# и .NET поможет вам в освоении материала.
 
- Убедитесь, что вы установили Aspose.Words for .NET. Если вы этого не сделали, вы можете получить бесплатную пробную версию[здесь](https://releases.aspose.com/) или купить его[здесь](https://purchase.aspose.com/buy).
+Убедитесь, что вы установили Aspose.Words for .NET. Если вы этого не сделали, вы можете получить бесплатную пробную версию [здесь](https://releases.aspose.com/) или купить его [здесь](https://purchase.aspose.com/buy).
 
 ## Импорт пространств имен
 
@@ -113,16 +115,21 @@ doc.Save(dataDir + "WorkingWithFields.ChangeLocale.docx");
 Изменение локали в первую очередь повлияет на форматы даты и чисел. Остальной текст останется неизменным.
 
 ### Нужна ли мне специальная лицензия для использования Aspose.Words для .NET?
- Вы можете начать с бесплатной пробной версии, но для дальнейшего использования вам необходимо будет приобрести лицензию.[здесь](https://purchase.aspose.com/buy).
+Вы можете начать с бесплатной пробной версии, но для дальнейшего использования вам необходимо будет приобрести лицензию. [здесь](https://purchase.aspose.com/buy).
 
 ### Могу ли я вернуться к исходной локали, если что-то пойдет не так?
 Да, сохранив исходную культуру и восстановив ее позже, вы сможете вернуться к исходной локали.
 
 ### Где я могу получить поддержку, если у меня возникнут проблемы?
- Вы можете получить поддержку от сообщества Aspose[здесь](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от сообщества Aspose [здесь](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

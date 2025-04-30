@@ -1,14 +1,16 @@
 ---
-title: Tandai Kolom Tabel Dalam Dokumen Word
-linktitle: Tandai Kolom Tabel Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menandai kolom tabel dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah yang komprehensif ini.
-weight: 10
-url: /id/net/programming-with-bookmarks/bookmark-table-columns/
+"description": "Pelajari cara menandai kolom tabel dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah yang komprehensif ini."
+"linktitle": "Tandai Kolom Tabel Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tandai Kolom Tabel Dalam Dokumen Word"
+"url": "/id/net/programming-with-bookmarks/bookmark-table-columns/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tandai Kolom Tabel Dalam Dokumen Word
@@ -21,7 +23,7 @@ Jika Anda ingin meningkatkan keterampilan otomatisasi dokumen, maka Anda akan me
 
 Sebelum kita masuk ke kode, ada beberapa hal yang perlu Anda siapkan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Siapkan lingkungan pengembangan seperti Visual Studio.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan sangat membantu.
 
@@ -39,7 +41,7 @@ Sekarang, mari kita uraikan prosesnya ke dalam langkah-langkah terperinci.
 
 ## Langkah 1: Inisialisasi Dokumen dan DocumentBuilder
 
- Pertama, kita perlu membuat dokumen Word baru dan menginisialisasi`DocumentBuilder` untuk bekerja dengannya.
+Pertama, kita perlu membuat dokumen Word baru dan menginisialisasi `DocumentBuilder` untuk bekerja dengannya.
 
 ```csharp
 Document doc = new Document();
@@ -121,20 +123,25 @@ Nah, itu dia! Anda telah berhasil menandai kolom tabel dalam dokumen Word menggu
 Aspose.Words untuk .NET adalah pustaka yang hebat untuk bekerja dengan dokumen Word secara terprogram. Pustaka ini memungkinkan Anda membuat, memodifikasi, dan mengonversi dokumen tanpa perlu menginstal Microsoft Word.
 
 ### Bagaimana cara menginstal Aspose.Words untuk .NET?
- Anda dapat mengunduh Aspose.Words untuk .NET dari[situs web](https://releases.aspose.com/words/net/)Ikuti petunjuk instalasi yang diberikan.
+Anda dapat mengunduh Aspose.Words untuk .NET dari [situs web](https://releases.aspose.com/words/net/)Ikuti petunjuk instalasi yang diberikan.
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET dengan bahasa pemrograman lain?
 Ya, Aspose.Words untuk .NET dapat digunakan dengan bahasa apa pun yang mendukung .NET, termasuk C#, VB.NET, dan F#.
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Words untuk .NET?
- Anda bisa mendapatkan dukungan dari komunitas dan pakar Aspose dengan mengunjungi[forum dukungan](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari komunitas dan pakar Aspose dengan mengunjungi [forum dukungan](https://forum.aspose.com/c/words/8).
 
 ### Apakah ada versi uji coba Aspose.Words untuk .NET yang tersedia?
- Ya, Anda bisa mendapatkan uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+Ya, Anda bisa mendapatkan uji coba gratis dari [Di Sini](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

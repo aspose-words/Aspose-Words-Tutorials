@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Office Matematik Nesnelerini Kullanma
-linktitle: Office Matematik Nesnelerini Kullanma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java ile belgelerdeki matematiksel denklemlerin gücünü açığa çıkarın. Office Math nesnelerini zahmetsizce düzenlemeyi ve görüntülemeyi öğrenin.
-weight: 13
-url: /tr/java/document-conversion-and-export/using-office-math-objects/
+"description": "Aspose.Words for Java ile belgelerdeki matematiksel denklemlerin gücünü açığa çıkarın. Office Math nesnelerini zahmetsizce düzenlemeyi ve görüntülemeyi öğrenin."
+"linktitle": "Office Matematik Nesnelerini Kullanma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Office Matematik Nesnelerini Kullanma"
+"url": "/tr/java/document-conversion-and-export/using-office-math-objects/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Office Matematik Nesnelerini Kullanma
@@ -51,7 +53,7 @@ OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true)
 
 ### Görüntü Türünü Ayarla
 
- Denklemin belge içinde nasıl görüntüleneceğini kontrol edebilirsiniz.`setDisplayType` metnin içinde mi yoksa kendi satırında mı görüntüleneceğini belirtmek için kullanılan yöntem:
+Denklemin belge içinde nasıl görüntüleneceğini kontrol edebilirsiniz. `setDisplayType` metnin içinde mi yoksa kendi satırında mı görüntüleneceğini belirtmek için kullanılan yöntem:
 
 ```java
 officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
@@ -96,7 +98,7 @@ Aspose.Words for Java'daki Office Math nesneleri, belgelerinizdeki matematiksel 
 
 ### Office Math denklemlerini belgem içinde farklı şekilde hizalayabilir miyim?
 
- Evet, Office Math denklemlerinin hizalamasını kontrol edebilirsiniz.`setJustification`Sol, sağ veya orta gibi hizalama seçeneklerini belirtme yöntemi.
+Evet, Office Math denklemlerinin hizalamasını kontrol edebilirsiniz. `setJustification` Sol, sağ veya orta gibi hizalama seçeneklerini belirtme yöntemi.
 
 ### Aspose.Words for Java karmaşık matematiksel belgeleri işlemek için uygun mudur?
 
@@ -104,14 +106,19 @@ Kesinlikle! Aspose.Words for Java, Office Math nesnelerine yönelik güçlü des
 
 ### Aspose.Words for Java hakkında daha fazla bilgi nasıl edinebilirim?
 
- Kapsamlı dokümantasyon ve indirmeler için şu adresi ziyaret edin:[Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/).
+Kapsamlı dokümantasyon ve indirmeler için şu adresi ziyaret edin: [Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/).
 
 ### Aspose.Words for Java'yı nereden indirebilirim?
 
- Aspose.Words for Java'yı şu web sitesinden indirebilirsiniz:[Java için Aspose.Words'ü indirin](https://releases.aspose.com/words/java/).
+Aspose.Words for Java'yı şu web sitesinden indirebilirsiniz: [Java için Aspose.Words'ü indirin](https://releases.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

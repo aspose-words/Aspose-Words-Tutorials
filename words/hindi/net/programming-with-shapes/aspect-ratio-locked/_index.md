@@ -1,14 +1,16 @@
 ---
-title: पहलू अनुपात लॉक किया गया
-linktitle: पहलू अनुपात लॉक किया गया
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में आकृतियों के पहलू अनुपात को लॉक करना सीखें। अपनी छवियों और आकृतियों को आनुपातिक बनाए रखने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/programming-with-shapes/aspect-ratio-locked/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में आकृतियों के पहलू अनुपात को लॉक करना सीखें। अपनी छवियों और आकृतियों को आनुपातिक बनाए रखने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "पहलू अनुपात लॉक किया गया"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "पहलू अनुपात लॉक किया गया"
+"url": "/hi/net/programming-with-shapes/aspect-ratio-locked/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पहलू अनुपात लॉक किया गया
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-shapes/aspect-ratio-locked/
 
 इससे पहले कि हम कोड में उतरें, आइए देखें कि आपको आरंभ करने के लिए क्या चाहिए:
 
-- Aspose.Words for .NET लाइब्रेरी: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। अगर आपने पहले से ऐसा नहीं किया है, तो आप यह कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET लाइब्रेरी: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। अगर आपने पहले से ऐसा नहीं किया है, तो आप यह कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 - विकास पर्यावरण: सुनिश्चित करें कि आपके पास .NET विकास पर्यावरण स्थापित है। Visual Studio एक लोकप्रिय विकल्प है।
 - C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से कुछ परिचित होना उपयोगी होगा।
 
@@ -36,7 +38,7 @@ using Aspose.Words.Drawing;
 
 ## चरण 1: अपनी दस्तावेज़ निर्देशिका सेट करें
 
- आकृतियों में हेरफेर शुरू करने से पहले, हमें एक निर्देशिका सेट अप करने की आवश्यकता है जहाँ हमारे दस्तावेज़ संग्रहीत किए जाएँगे। सरलता के लिए, हम प्लेसहोल्डर का उपयोग करेंगे`YOUR DOCUMENT DIRECTORY`इसे अपने दस्तावेज़ निर्देशिका के वास्तविक पथ से बदलें।
+आकृतियों में हेरफेर शुरू करने से पहले, हमें एक निर्देशिका सेट अप करने की आवश्यकता है जहाँ हमारे दस्तावेज़ संग्रहीत किए जाएँगे। सरलता के लिए, हम प्लेसहोल्डर का उपयोग करेंगे `YOUR DOCUMENT DIRECTORY`इसे अपने दस्तावेज़ निर्देशिका के वास्तविक पथ से बदलें।
 
 ```csharp
 // आपके दस्तावेज़ निर्देशिका का पथ
@@ -52,17 +54,17 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- यहाँ, हम इसका एक उदाहरण बनाते हैं`Document` क्लास और उपयोग करें`DocumentBuilder` हमें दस्तावेज़ की सामग्री बनाने में मदद करने के लिए।
+यहाँ, हम इसका एक उदाहरण बनाते हैं `Document` क्लास और उपयोग करें `DocumentBuilder` हमें दस्तावेज़ की सामग्री बनाने में मदद करने के लिए।
 
 ## चरण 3: एक छवि डालें
 
- अब, चलिए अपने डॉक्यूमेंट में एक इमेज डालते हैं। हम इसका इस्तेमाल करेंगे`InsertImage` की विधि`DocumentBuilder`सुनिश्चित करें कि आपके पास निर्दिष्ट निर्देशिका में एक छवि है।
+अब, चलिए अपने डॉक्यूमेंट में एक इमेज डालते हैं। हम इसका इस्तेमाल करेंगे `InsertImage` की विधि `DocumentBuilder` सुनिश्चित करें कि आपके पास निर्दिष्ट निर्देशिका में एक छवि है।
 
 ```csharp
 Shape shape = builder.InsertImage(dataDir + "Transparent background logo.png");
 ```
 
- प्रतिस्थापित करें`dataDir + "Transparent background logo.png"` अपनी छवि फ़ाइल के पथ के साथ.
+प्रतिस्थापित करें `dataDir + "Transparent background logo.png"` अपनी छवि फ़ाइल के पथ के साथ.
 
 ## चरण 4: पहलू अनुपात को लॉक करें
 
@@ -72,7 +74,7 @@ Shape shape = builder.InsertImage(dataDir + "Transparent background logo.png");
 shape.AspectRatioLocked = true;
 ```
 
- सेटिंग`AspectRatioLocked` को`true` यह सुनिश्चित करता है कि छवि अपना मूल पहलू अनुपात बनाए रखे।
+सेटिंग `AspectRatioLocked` को `true` यह सुनिश्चित करता है कि छवि अपना मूल पहलू अनुपात बनाए रखे।
 
 ## चरण 5: दस्तावेज़ सहेजें
 
@@ -89,7 +91,7 @@ doc.Save(dataDir + "WorkingWithShapes.AspectRatioLocked.docx");
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### क्या मैं पहलू अनुपात को लॉक करने के बाद उसे अनलॉक कर सकता हूँ?
-हां, आप सेटिंग करके पहलू अनुपात को अनलॉक कर सकते हैं`shape.AspectRatioLocked = false`.
+हां, आप सेटिंग करके पहलू अनुपात को अनलॉक कर सकते हैं `shape.AspectRatioLocked = false`.
 
 ### यदि मैं लॉक किए गए पहलू अनुपात वाली छवि का आकार बदलूं तो क्या होगा?
 छवि का आकार आनुपातिक रूप से बदल जाएगा, तथा इसकी मूल चौड़ाई-से-ऊंचाई का अनुपात बना रहेगा।
@@ -101,10 +103,15 @@ doc.Save(dataDir + "WorkingWithShapes.AspectRatioLocked.docx");
 हां, .NET के लिए Aspose.Words .NET फ्रेमवर्क और .NET कोर दोनों का समर्थन करता है।
 
 ### मैं .NET के लिए Aspose.Words पर अधिक दस्तावेज़ कहां पा सकता हूं?
- आप विस्तृत दस्तावेज पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप विस्तृत दस्तावेज पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

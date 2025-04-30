@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi tài liệu với SaveOptions
-linktitle: Chuyển đổi tài liệu với SaveOptions
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Chuyển đổi DOCX sang EPUB hiệu quả bằng Aspose.Words for Java. Tìm hiểu cách tùy chỉnh tùy chọn lưu, chia tách nội dung và xuất thuộc tính tài liệu trong hướng dẫn từng bước này.
-weight: 13
-url: /vi/java/document-converting/document-conversion-saveoptions/
+"description": "Chuyển đổi DOCX sang EPUB hiệu quả bằng Aspose.Words for Java. Tìm hiểu cách tùy chỉnh tùy chọn lưu, chia tách nội dung và xuất thuộc tính tài liệu trong hướng dẫn từng bước này."
+"linktitle": "Chuyển đổi tài liệu với SaveOptions"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Chuyển đổi tài liệu với SaveOptions"
+"url": "/vi/java/document-converting/document-conversion-saveoptions/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi tài liệu với SaveOptions
@@ -24,8 +26,8 @@ Trước khi đi sâu vào chi tiết về việc chuyển đổi tài liệu, h
 
 1. Java Development Kit (JDK): Đảm bảo bạn đã cài đặt JDK 8 trở lên trên máy của mình. Điều này rất quan trọng để chạy các ứng dụng và thư viện Java như Aspose.Words.
 2. Môi trường phát triển tích hợp (IDE): Một IDE như IntelliJ IDEA hoặc Eclipse sẽ giúp bạn quản lý các dự án Java, giúp việc mã hóa và gỡ lỗi dễ dàng hơn nhiều.
-3.  Thư viện Aspose.Words for Java: Bạn sẽ cần thư viện Aspose.Words for Java để thực hiện chuyển đổi tài liệu. Tải xuống phiên bản mới nhất[đây](https://releases.aspose.com/words/java/)và thêm nó vào đường dẫn xây dựng dự án của bạn.
-4.  Tài liệu mẫu: Chuẩn bị một tài liệu để chuyển đổi. Trong ví dụ của chúng tôi, chúng tôi đang sử dụng tệp DOCX có tên`Rendering.docx`.
+3. Thư viện Aspose.Words for Java: Bạn sẽ cần thư viện Aspose.Words for Java để thực hiện chuyển đổi tài liệu. Tải xuống phiên bản mới nhất [đây](https://releases.aspose.com/words/java/)và thêm nó vào đường dẫn xây dựng dự án của bạn.
+4. Tài liệu mẫu: Chuẩn bị một tài liệu để chuyển đổi. Trong ví dụ của chúng tôi, chúng tôi đang sử dụng tệp DOCX có tên `Rendering.docx`.
 
 ## Nhập gói
 
@@ -39,7 +41,7 @@ Câu lệnh import này đảm bảo bạn có quyền truy cập vào tất c�
 
 ## Bước 1: Tải tài liệu
 
- Bước đầu tiên trong quá trình chuyển đổi là tải tài liệu bạn muốn chuyển đổi thành`Document` đối tượng. Đối tượng này đóng vai trò là biểu diễn trong bộ nhớ của tài liệu của bạn.
+Bước đầu tiên trong quá trình chuyển đổi là tải tài liệu bạn muốn chuyển đổi thành `Document` đối tượng. Đối tượng này đóng vai trò là biểu diễn trong bộ nhớ của tài liệu của bạn.
 
 ```java
 Document doc = new Document("Rendering.docx");
@@ -47,7 +49,7 @@ Document doc = new Document("Rendering.docx");
 
 ### Giải thích:
 
- Ở đây,`Document`lớp được sử dụng để tải tệp DOCX. Đường dẫn tệp được cung cấp là`"Rendering.docx"`, phải nằm trong thư mục dự án của bạn hoặc chỉ định đường dẫn đầy đủ. Bước này chuẩn bị tài liệu để xử lý thêm.
+Ở đây, `Document` lớp được sử dụng để tải tệp DOCX. Đường dẫn tệp được cung cấp là `"Rendering.docx"`, phải nằm trong thư mục dự án của bạn hoặc chỉ định đường dẫn đầy đủ. Bước này chuẩn bị tài liệu để xử lý thêm.
 
 ## Bước 2: Cấu hình tùy chọn lưu
 
@@ -75,7 +77,7 @@ saveOptions.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
 
 ### Giải thích:
 
--  setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH): Phương pháp này đặt tiêu chí để chia tách tài liệu. Bằng cách chọn`HEADING_PARAGRAPH`, tài liệu sẽ được chia thành các tệp HTML riêng biệt tại mỗi đoạn tiêu đề. Điều này giúp dễ dàng điều hướng qua các tài liệu lớn và cải thiện trải nghiệm đọc.
+- setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH): Phương pháp này đặt tiêu chí để chia tách tài liệu. Bằng cách chọn `HEADING_PARAGRAPH`tài liệu sẽ được chia thành các tệp HTML riêng biệt tại mỗi đoạn tiêu đề. Điều này giúp dễ dàng điều hướng qua các tài liệu lớn và cải thiện trải nghiệm đọc.
 
 ## Bước 4: Xuất Thuộc tính Tài liệu
 
@@ -99,7 +101,7 @@ doc.save("HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
 
 ### Giải thích:
 
--  save("HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions): Phương pháp này lưu tài liệu bằng cách sử dụng`HtmlSaveOptions` . Tệp sẽ được lưu dưới dạng`HtmlSaveOptions.Doc2EpubSaveOptions.epub` ở định dạng EPUB với các cài đặt đã chỉ định.
+- save("HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions): Phương pháp này lưu tài liệu bằng cách sử dụng `HtmlSaveOptions`. Tệp sẽ được lưu dưới dạng `HtmlSaveOptions.Doc2EpubSaveOptions.epub` ở định dạng EPUB với các cài đặt đã chỉ định.
 
 ## Phần kết luận
 
@@ -111,7 +113,7 @@ Aspose.Words for Java là một công cụ mạnh mẽ cung cấp chức năng m
 
 ### 1. Tôi có thể sử dụng các định dạng khác ngoài EPUB để lưu tài liệu không?
 
- Có, Aspose.Words hỗ trợ nhiều định dạng khác nhau bao gồm PDF, DOCX và HTML. Bạn có thể chọn định dạng phù hợp nhất với nhu cầu của mình bằng cách điều chỉnh`setSaveFormat` phương pháp.
+Có, Aspose.Words hỗ trợ nhiều định dạng khác nhau bao gồm PDF, DOCX và HTML. Bạn có thể chọn định dạng phù hợp nhất với nhu cầu của mình bằng cách điều chỉnh `setSaveFormat` phương pháp.
 
 ### 2. Tôi phải xử lý các tài liệu có định dạng phức tạp như thế nào trong quá trình chuyển đổi?
 
@@ -123,14 +125,19 @@ Hoàn toàn có thể! Bạn có thể tích hợp mã này vào các ứng dụ
 
 ### 4. Tôi phải làm gì nếu gặp lỗi trong quá trình chuyển đổi?
 
- Kiểm tra xem đường dẫn tệp đầu vào của bạn có đúng không và bạn có đủ quyền cần thiết để đọc và ghi tệp không. Tham khảo[Tài liệu Aspose.Words](https://reference.aspose.com/words/java/) để biết mẹo khắc phục sự cố.
+Kiểm tra xem đường dẫn tệp đầu vào của bạn có đúng không và bạn có đủ quyền cần thiết để đọc và ghi tệp không. Tham khảo [Tài liệu Aspose.Words](https://reference.aspose.com/words/java/) để biết mẹo khắc phục sự cố.
 
 ### 5. Tôi có thể nhận thêm hỗ trợ cho Aspose.Words for Java ở đâu?
 
-Bạn có thể tìm thấy sự hỗ trợ và các nguồn lực bổ sung trong[Diễn đàn cộng đồng Aspose](https://forum.aspose.com/c/words/8).
+Bạn có thể tìm thấy sự hỗ trợ và các nguồn lực bổ sung trong [Diễn đàn cộng đồng Aspose](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

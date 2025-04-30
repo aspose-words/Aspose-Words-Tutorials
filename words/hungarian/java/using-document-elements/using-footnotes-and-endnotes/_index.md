@@ -1,32 +1,34 @@
 ---
-title: Lábjegyzetek és végjegyzetek használata az Aspose.Words for Java programban
-linktitle: Lábjegyzetek és végjegyzetek használata
-second_title: Aspose.Words Java Document Processing API
-description: Ismerje meg a lábjegyzetek és végjegyzetek hatékony használatát az Aspose.Words for Java programban. Fejlessze dokumentumformázási készségeit még ma!
-weight: 13
-url: /hu/java/using-document-elements/using-footnotes-and-endnotes/
+"description": "Tanuld meg hatékonyan használni a lábjegyzeteket és végjegyzeteket az Aspose.Words for Java programban. Fejleszd dokumentumformázási készségeidet még ma!"
+"linktitle": "Lábjegyzetek és végjegyzetek használata"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Lábjegyzetek és végjegyzetek használata az Aspose.Words for Java programban"
+"url": "/hu/java/using-document-elements/using-footnotes-and-endnotes/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lábjegyzetek és végjegyzetek használata az Aspose.Words for Java programban
 
 
-Ebben az oktatóanyagban végigvezetjük a lábjegyzetek és végjegyzetek használatának folyamatán az Aspose.Words for Java programban. A lábjegyzetek és a végjegyzetek a dokumentum formázásának alapvető elemei, gyakran hivatkozásokhoz, hivatkozásokhoz és további információkhoz használatosak. Az Aspose.Words for Java robusztus funkcionalitást biztosít a lábjegyzetekkel és végjegyzetekkel való zökkenőmentes munkavégzéshez.
+Ebben az oktatóanyagban végigvezetünk a lábjegyzetek és végjegyzetek használatán az Aspose.Words for Java programban. A lábjegyzetek és végjegyzetek a dokumentumformázás alapvető elemei, gyakran használják őket idézetekhez, hivatkozásokhoz és további információkhoz. Az Aspose.Words for Java robusztus funkciókat biztosít a lábjegyzetekkel és végjegyzetekkel való zökkenőmentes munkavégzéshez.
 
-## 1. Bevezetés a lábjegyzetekbe és a végjegyzetekbe
+## 1. Bevezetés a lábjegyzetekbe és végjegyzetekbe
 
-A lábjegyzetek és végjegyzetek olyan megjegyzések, amelyek kiegészítő információkat vagy hivatkozásokat adnak a dokumentumon belül. A lábjegyzetek az oldal alján jelennek meg, míg a végjegyzetek egy szakasz vagy a dokumentum végén találhatók. Általában tudományos dolgozatokban, jelentésekben és jogi dokumentumokban használják források hivatkozására vagy tartalom tisztázására.
+A lábjegyzetek és a végjegyzetek olyan jegyzetek, amelyek kiegészítő információkat vagy hivatkozásokat nyújtanak egy dokumentumon belül. A lábjegyzetek az oldal alján jelennek meg, míg a végjegyzetek egy szakasz vagy a dokumentum végén találhatók. Gyakran használják őket tudományos munkákban, jelentésekben és jogi dokumentumokban forráshivatkozások vagy tartalom tisztázása céljából.
 
 ## 2. A környezet beállítása
 
-Mielőtt belemerülnénk a lábjegyzetekkel és végjegyzetekkel való munkába, be kell állítania a fejlesztői környezetet. Győződjön meg arról, hogy az Aspose.Words for Java API telepítve és konfigurálva van a projektben.
+Mielőtt belemerülnénk a lábjegyzetek és végjegyzetek használatába, be kell állítani a fejlesztői környezetet. Győződjön meg arról, hogy az Aspose.Words for Java API telepítve és konfigurálva van a projektben.
 
 ## 3. Lábjegyzetek hozzáadása a dokumentumhoz
 
-Ha lábjegyzeteket szeretne hozzáadni a dokumentumhoz, kövesse az alábbi lépéseket:
+Lábjegyzetek hozzáadásához a dokumentumhoz kövesse az alábbi lépéseket:
 ```java
 string dataDir = "Your Document Directory";
 string outPath = "Your Output Directory";
@@ -34,15 +36,15 @@ string outPath = "Your Output Directory";
 public void getFootnoteOptions(){
     Document doc = new Document(dataDir + "Document.docx");
     
-    // Adja meg azoknak az oszlopoknak a számát, amelyekkel a lábjegyzetterület formázva van.
+    // Adja meg az oszlopok számát, amelyekkel a lábjegyzetek területe formázva van.
     doc.getFootnoteOptions().setColumns(3);
     doc.save("Your Directory Path" + "WorkingWithFootnotes.SetFootNoteColumns.docx");
 }
 ```
 
-## 4. A lábjegyzet beállításainak módosítása
+## 4. Lábjegyzet-beállítások módosítása
 
-Módosíthatja a lábjegyzet beállításait a megjelenésük és viselkedésük testreszabásához. Íme, hogyan:
+A lábjegyzetek megjelenésének és viselkedésének testreszabásához módosíthatja a beállításokat. Így teheti meg:
 ```java
 @Test
 public void setFootnoteAndEndNotePosition() throws Exception {
@@ -57,7 +59,7 @@ public void setFootnoteAndEndNotePosition() throws Exception {
 
 ## 5. Végjegyzetek hozzáadása a dokumentumhoz
 
-A végjegyzetek hozzáadása a dokumentumhoz egyszerű. Íme egy példa:
+Végjegyzetek hozzáadása a dokumentumhoz egyszerű. Íme egy példa:
 ```java
 @Test
 public void setEndnoteOptions() throws Exception {
@@ -75,9 +77,9 @@ public void setEndnoteOptions() throws Exception {
 }
 ```
 
-## 6. A végjegyzet beállításainak testreszabása
+## 6. Végjegyzet-beállítások testreszabása
 
-Tovább szabhatja a végjegyzet beállításait a dokumentum követelményeinek megfelelően.
+A végjegyzetek beállításait a dokumentum követelményeinek megfelelően tovább testreszabhatja.
 
 ## Teljes forráskód
 ```java
@@ -85,7 +87,7 @@ Tovább szabhatja a végjegyzet beállításait a dokumentum követelményeinek 
 	string outPath = "Your Output Directory";
 	public void getFootnoteOptions(){
         Document doc = new Document(dataDir + "Document.docx");
-        // Adja meg azoknak az oszlopoknak a számát, amelyekkel a lábjegyzetterület formázva van.
+        // Adja meg az oszlopok számát, amelyekkel a lábjegyzetek területe formázva van.
         doc.getFootnoteOptions().setColumns(3);
         doc.save("Your Directory Path" + "WorkingWithFootnotes.SetFootNoteColumns.docx");
     }
@@ -113,28 +115,33 @@ Tovább szabhatja a végjegyzet beállításait a dokumentum követelményeinek 
 
 ## 7. Következtetés
 
-Ebben az oktatóanyagban megvizsgáltuk, hogyan dolgozhatunk lábjegyzetekkel és végjegyzetekkel az Aspose.Words for Java programban. Ezek a funkciók felbecsülhetetlen értékűek a jól strukturált dokumentumok megfelelő hivatkozásokkal és hivatkozásokkal történő létrehozásához.
+Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan dolgozhatunk lábjegyzetekkel és végjegyzetekkel az Aspose.Words for Java programban. Ezek a funkciók felbecsülhetetlen értékűek a jól strukturált, megfelelő idézetekkel és hivatkozásokkal ellátott dokumentumok létrehozásához.
 
-Most, hogy megtanulta a lábjegyzetek és végjegyzetek használatát, javíthatja a dokumentum formázását, és professzionálisabbá teheti tartalmát.
+Most, hogy megtanultad a lábjegyzetek és végjegyzetek használatát, javíthatod a dokumentum formázását, és professzionálisabbá teheted a tartalmat.
 
-### Gyakran Ismételt Kérdések
+### Gyakran ismételt kérdések
 
 ### 1. Mi a különbség a lábjegyzetek és a végjegyzetek között?
-A lábjegyzetek az oldal alján jelennek meg, míg a végjegyzetek egy szakasz vagy a dokumentum végén találhatók.
+A lábjegyzetek az oldal alján jelennek meg, míg a végjegyzetek egy szakasz vagy a dokumentum végén jelennek meg.
 
-### 2. Hogyan változtathatom meg a lábjegyzetek vagy végjegyzetek pozícióját?
- Használhatja a`setPosition` módszer a lábjegyzetek vagy végjegyzetek helyzetének megváltoztatására.
+### 2. Hogyan tudom megváltoztatni a lábjegyzetek vagy végjegyzetek pozícióját?
+Használhatod a `setPosition` módszer a lábjegyzetek vagy végjegyzetek pozíciójának megváltoztatására.
 
 ### 3. Testreszabhatom a lábjegyzetek és végjegyzetek formázását?
 Igen, testreszabhatja a lábjegyzetek és végjegyzetek formázását az Aspose.Words for Java segítségével.
 
-### 4. Fontosak-e a lábjegyzetek és a végjegyzetek a dokumentum formázásánál?
-Igen, a lábjegyzetek és végjegyzetek elengedhetetlenek ahhoz, hogy hivatkozásokat és kiegészítő információkat biztosítsanak a dokumentumokban.
+### 4. Fontosak-e a lábjegyzetek és a végjegyzetek a dokumentum formázásában?
+Igen, a lábjegyzetek és a végjegyzetek elengedhetetlenek a dokumentumokban található hivatkozások és kiegészítő információk megadásához.
 
-Nyugodtan fedezze fel az Aspose.Words for Java további funkcióit, és javítsa dokumentumkészítési képességeit. Boldog kódolást!
+Fedezd fel az Aspose.Words for Java további funkcióit, és fejleszd dokumentumkészítési képességeidet. Jó kódolást!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

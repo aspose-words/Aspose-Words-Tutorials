@@ -1,14 +1,16 @@
 ---
-title: Muat Kamus Pemenggalan Kata untuk Bahasa
-linktitle: Muat Kamus Pemenggalan Kata untuk Bahasa
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memuat kamus pemenggalan kata untuk bahasa apa pun menggunakan Aspose.Words untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini.
-weight: 10
-url: /id/net/working-with-hyphenation/load-hyphenation-dictionary-for-language/
+"description": "Pelajari cara memuat kamus pemenggalan kata untuk bahasa apa pun menggunakan Aspose.Words untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini."
+"linktitle": "Muat Kamus Pemenggalan Kata untuk Bahasa"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Muat Kamus Pemenggalan Kata untuk Bahasa"
+"url": "/id/net/working-with-hyphenation/load-hyphenation-dictionary-for-language/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Muat Kamus Pemenggalan Kata untuk Bahasa
@@ -23,9 +25,9 @@ Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
 - Visual Studio terinstal di komputer Anda.
 - Kerangka .NET telah terpasang.
--  Aspose.Words untuk pustaka .NET. Jika Anda belum menginstalnya, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk pustaka .NET. Jika Anda belum menginstalnya, Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - File kamus pemenggalan kata untuk bahasa target Anda. Dalam tutorial ini, kami akan menggunakan kamus pemenggalan kata Jerman (`hyph_de_CH.dic`).
-- Contoh dokumen Word dalam bahasa target. Kami akan menggunakan dokumen bernama`German text.docx`.
+- Contoh dokumen Word dalam bahasa target. Kami akan menggunakan dokumen bernama `German text.docx`.
 
 ## Mengimpor Ruang Nama
 
@@ -48,37 +50,37 @@ Sebelum memulai, Anda perlu menentukan direktori tempat dokumen dan kamus pemeng
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur ke direktori yang berisi berkas Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur ke direktori yang berisi berkas Anda.
 
 ## Langkah 2: Muat Dokumen
 
- Selanjutnya, muat dokumen Word yang ingin Anda proses. Ini dilakukan dengan menggunakan`Document` kelas dari Aspose.Words.
+Selanjutnya, muat dokumen Word yang ingin Anda proses. Ini dilakukan dengan menggunakan `Document` kelas dari Aspose.Words.
 
 ```csharp
 Document doc = new Document(dataDir + "German text.docx");
 ```
 
- Baris kode ini menginisialisasi yang baru`Document` objek dan memuat file`German text.docx` dari direktori yang Anda tentukan.
+Baris kode ini menginisialisasi yang baru `Document` objek dan memuat file `German text.docx` dari direktori yang Anda tentukan.
 
 ## Langkah 3: Buka Kamus Pemenggalan Kata
 
- Sekarang, Anda perlu membuka berkas kamus pemenggalan kata. Kita akan menggunakan`File.OpenRead` metode untuk membaca berkas kamus sebagai aliran.
+Sekarang, Anda perlu membuka berkas kamus pemenggalan kata. Kita akan menggunakan `File.OpenRead` metode untuk membaca berkas kamus sebagai aliran.
 
 ```csharp
 Stream stream = File.OpenRead(dataDir + "hyph_de_CH.dic");
 ```
 
- Baris ini membuka file kamus pemenggalan kata`hyph_de_CH.dic` dan membacanya ke dalam aliran.
+Baris ini membuka file kamus pemenggalan kata `hyph_de_CH.dic` dan membacanya ke dalam aliran.
 
 ## Langkah 4: Daftarkan Kamus Pemenggalan Kata
 
- Setelah file kamus dibuka, langkah selanjutnya adalah mendaftarkannya untuk digunakan di Aspose.Words. Ini dilakukan dengan menggunakan`Hyphenation.RegisterDictionary` metode.
+Setelah file kamus dibuka, langkah selanjutnya adalah mendaftarkannya untuk digunakan di Aspose.Words. Ini dilakukan dengan menggunakan `Hyphenation.RegisterDictionary` metode.
 
 ```csharp
 Hyphenation.RegisterDictionary("de-CH", stream);
 ```
 
-Di sini, kami mendaftarkan kamus pemenggalan kata untuk`de-CH` (Bahasa Jerman Swiss).
+Di sini, kami mendaftarkan kamus pemenggalan kata untuk `de-CH` (Bahasa Jerman Swiss).
 
 ## Langkah 5: Simpan Dokumen
 
@@ -88,7 +90,7 @@ Terakhir, simpan dokumen yang telah diproses. Anda dapat memilih format apa pun 
 doc.Save(dataDir + "ProcessingByBreakingWithDictionary.pdf");
 ```
 
- Baris ini menyimpan dokumen ke direktori yang Anda tentukan dengan nama file`ProcessingByBreakingWithDictionary.pdf`.
+Baris ini menyimpan dokumen ke direktori yang Anda tentukan dengan nama file `ProcessingByBreakingWithDictionary.pdf`.
 
 ## Kesimpulan
 
@@ -114,10 +116,15 @@ Aspose.Words mendukung penyimpanan dokumen dalam berbagai format, termasuk PDF, 
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words?
 
- Ya, Aspose.Words memerlukan lisensi untuk fungsionalitas penuh. Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy) atau dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Ya, Aspose.Words memerlukan lisensi untuk fungsionalitas penuh. Anda dapat membeli lisensi [Di Sini](https://purchase.aspose.com/buy) atau dapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

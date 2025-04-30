@@ -1,26 +1,33 @@
 ---
-title: Arbeit mit Header und Fußgänger in Aspose.Words für .NET 
-weight: 10
-limit:
-description: Erfahren Sie, wie Sie Header und Fußnote in Word-Dokumenten mit Aspose.Words für .NET erstellen, ändern und formatieren. Schritt-für-Schritt-Leitfaden für nahtlose Anpassung.
-keywords:
-url: /de/net/header-footer-formatting/
+"description": "Erfahren Sie, wie Sie mit Aspose.Words für .NET Kopf- und Fußzeilen in Word-Dokumenten erstellen, ändern und formatieren. Schritt-für-Schritt-Anleitung für nahtlose Anpassung."
+"title": "Arbeiten mit Kopf- und Fußzeilen in Aspose.Words für .NET"
+"url": "/de/net/header-footer-formatting/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Einführung
   
-Header und Fußbücher sind für die Ergänzung eines professionellen Touch zu Ihren Word-Dokumenten unerlässlich, egal ob es sich um Seitennummern, Logos oder benutzerdefinierten Text handelt. Mit Aspose.Words für .NET können Sie Header und Fußbücher nahtlos erstellen, ändern und anpassen, um Ihren Dokumentenbedarf anzupassen. Die Bibliothek bietet leistungsstarke API's, mit denen Sie verschiedene Header und Fußbücher für ungerade und gleichmäßige Seiten einstellen, einzigartige Abschnitte definieren und dynamische Elemente wie Felder oder Bilder einbeziehen können.  
+Kopf- und Fußzeilen sind unerlässlich, um Ihren Word-Dokumenten einen professionellen Touch zu verleihen – egal ob Seitenzahlen, Logos oder benutzerdefinierter Text. Mit Aspose.Words für .NET können Sie Kopf- und Fußzeilen nahtlos erstellen, ändern und an die Anforderungen Ihres Dokuments anpassen. Die Bibliothek bietet leistungsstarke APIs, mit denen Sie unterschiedliche Kopf- und Fußzeilen für gerade und ungerade Seiten festlegen, eindeutige Abschnitte definieren und dynamische Elemente wie Felder oder Bilder einfügen können.  
 
-Aspose.Words für .NET vereinfacht den Prozess der Arbeit mit Header und Fußabschnitten, um die volle Kontrolle über deren Formatierung und Platzierung zu gewährleisten. Ob Sie einen Unternehmensbericht entwerfen oder ein personalisiertes Dokument erstellen, die Bibliothek bietet eine effiziente Möglichkeit, diese entscheidenden Elemente zu verwalten. Tauchen Sie in unsere Schritt-für-Schritt-Leitfaden ein und freischalten Sie das volle Potenzial von Header und Fußabschnitten in Ihren Word-Dateien!  
+Aspose.Words für .NET vereinfacht die Arbeit mit Kopf- und Fußzeilen und gewährleistet volle Kontrolle über deren Formatierung und Platzierung. Ob Sie einen Unternehmensbericht entwerfen oder ein personalisiertes Dokument erstellen – die Bibliothek bietet eine effiziente Möglichkeit, diese wichtigen Elemente zu verwalten. Tauchen Sie ein in unsere Schritt-für-Schritt-Anleitungen und schöpfen Sie das volle Potenzial von Kopf- und Fußzeilen in Ihren Word-Dateien aus!  
 
-{{< tutorial-card link="./create-header-footer/" title="Erstellen Sie ein Word-Dokument mit Header und Fußnote mit Aspose.Words" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./insert-image/" title="Einfügen Sie ein Bild in den Word-Dokumentheader." imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
+
+{{< tutorial-card link="./create-header-footer/" title="Erstellen Sie ein Word-Dokument mit Kopf- und Fußzeile mit Aspose.Words" imgSrc="./create-header-footer/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-image/" title="Einfügen eines Bildes in die Kopfzeile eines Word-Dokuments | Aspose.Words für .NET" imgSrc="./insert-image/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

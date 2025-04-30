@@ -1,14 +1,16 @@
 ---
-title: Mencetak Dokumen dengan Pengaturan Halaman
-linktitle: Mencetak Dokumen dengan Pengaturan Halaman
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara mencetak dokumen dengan pengaturan halaman yang tepat menggunakan Aspose.Words untuk Java. Sesuaikan tata letak, ukuran kertas, dan banyak lagi.
-weight: 11
-url: /id/java/document-printing/printing-documents-page-setup/
+"description": "Pelajari cara mencetak dokumen dengan pengaturan halaman yang tepat menggunakan Aspose.Words untuk Java. Sesuaikan tata letak, ukuran kertas, dan banyak lagi."
+"linktitle": "Mencetak Dokumen dengan Pengaturan Halaman"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Mencetak Dokumen dengan Pengaturan Halaman"
+"url": "/id/java/document-printing/printing-documents-page-setup/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mencetak Dokumen dengan Pengaturan Halaman
@@ -34,7 +36,7 @@ Mulailah dengan membuat proyek Java baru di IDE pilihan Anda. Berikan nama yang 
 
 Untuk menggunakan Aspose.Words untuk Java, Anda perlu menambahkan pustaka tersebut ke proyek Anda. Ikuti langkah-langkah berikut:
 
-1.  Unduh pustaka Aspose.Words untuk Java dari[Di Sini](https://releases.aspose.com/words/java/).
+1. Unduh pustaka Aspose.Words untuk Java dari [Di Sini](https://releases.aspose.com/words/java/).
 
 2. Tambahkan berkas JAR ke classpath proyek Anda.
 
@@ -81,11 +83,11 @@ Dalam artikel ini, kami telah membahas cara mencetak dokumen dengan pengaturan h
 
 ### Bagaimana cara mengubah ukuran kertas dokumen saya?
 
- Untuk mengubah ukuran kertas dokumen Anda, gunakan`setPageWidth` Dan`setPageHeight` metode dari`PageSetup` kelas dan tentukan dimensi yang diinginkan dalam poin.
+Untuk mengubah ukuran kertas dokumen Anda, gunakan `setPageWidth` Dan `setPageHeight` metode dari `PageSetup` kelas dan tentukan dimensi yang diinginkan dalam poin.
 
 ### Bisakah saya mencetak beberapa salinan dokumen?
 
- Ya, Anda dapat mencetak beberapa salinan dokumen dengan mengatur jumlah salinan di pengaturan cetak sebelum memanggil perintah cetak.`print()` metode.
+Ya, Anda dapat mencetak beberapa salinan dokumen dengan mengatur jumlah salinan di pengaturan cetak sebelum memanggil perintah cetak. `print()` metode.
 
 ### Apakah Aspose.Words untuk Java kompatibel dengan berbagai format dokumen?
 
@@ -93,14 +95,19 @@ Ya, Aspose.Words untuk Java mendukung berbagai format dokumen, termasuk DOCX, DO
 
 ### Bisakah saya mencetak ke printer tertentu?
 
- Tentu saja! Anda dapat menentukan printer tertentu dengan menggunakan`setPrintService` metode dan memberikan hasil yang diinginkan`PrintService` obyek.
+Tentu saja! Anda dapat menentukan printer tertentu dengan menggunakan `setPrintService` metode dan memberikan hasil yang diinginkan `PrintService` obyek.
 
 ### Bagaimana cara menyimpan dokumen cetak sebagai PDF?
 
 Untuk menyimpan dokumen cetak sebagai PDF, Anda dapat menggunakan Aspose.Words untuk Java untuk menyimpan dokumen sebagai berkas PDF setelah dicetak.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

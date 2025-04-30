@@ -1,14 +1,16 @@
 ---
-title: Enkripsi Dokumen Dengan Kata Sandi
-linktitle: Enkripsi Dokumen Dengan Kata Sandi
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengenkripsi dokumen dengan kata sandi menggunakan Aspose.Words untuk .NET dalam panduan terperinci langkah demi langkah ini. Amankan informasi sensitif Anda dengan mudah.
-weight: 10
-url: /id/net/programming-with-docsaveoptions/encrypt-document-with-password/
+"description": "Pelajari cara mengenkripsi dokumen dengan kata sandi menggunakan Aspose.Words untuk .NET dalam panduan terperinci langkah demi langkah ini. Amankan informasi sensitif Anda dengan mudah."
+"linktitle": "Enkripsi Dokumen Dengan Kata Sandi"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Enkripsi Dokumen Dengan Kata Sandi"
+"url": "/id/net/programming-with-docsaveoptions/encrypt-document-with-password/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Enkripsi Dokumen Dengan Kata Sandi
@@ -20,10 +22,10 @@ Pernahkah Anda merasa perlu mengamankan dokumen dengan kata sandi? Anda tidak se
 ## Prasyarat
 
 Sebelum kita mulai membuat kode, ada beberapa hal yang Anda perlukan:
-1.  Aspose.Words untuk .NET: Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau IDE C# pilihan Anda.
 3. .NET Framework: Pastikan Anda telah menginstalnya.
-4.  Lisensi: Anda dapat memulai dengan[uji coba gratis](https://releases.aspose.com/) atau dapatkan[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk fitur lengkap.
+4. Lisensi: Anda dapat memulai dengan [uji coba gratis](https://releases.aspose.com/) atau dapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk fitur lengkap.
 
 Sudah mendapatkan semuanya? Bagus! Mari kita lanjutkan ke pengaturan proyek kita.
 
@@ -97,7 +99,7 @@ Nah, itu dia! Anda baru saja mempelajari cara mengenkripsi dokumen dengan kata s
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menggunakan jenis enkripsi yang berbeda?
- Ya, Aspose.Words untuk .NET mendukung berbagai metode enkripsi. Periksa[dokumentasi](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
+Ya, Aspose.Words untuk .NET mendukung berbagai metode enkripsi. Periksa [dokumentasi](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
 
 ### Bagaimana jika saya lupa kata sandi dokumen saya?
 Sayangnya, jika Anda lupa kata sandinya, Anda tidak akan dapat mengakses dokumen tersebut. Pastikan untuk menjaga kata sandi Anda tetap aman!
@@ -110,9 +112,14 @@ Ya, dengan menyimpan dokumen tanpa menentukan kata sandi, Anda dapat menghapus p
 
 ### Seberapa aman enkripsi yang disediakan oleh Aspose.Words untuk .NET?
 Aspose.Words untuk .NET menggunakan standar enkripsi yang kuat, memastikan bahwa dokumen Anda terlindungi dengan baik.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

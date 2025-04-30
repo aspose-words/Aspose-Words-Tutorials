@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Bagian di Aspose.Words untuk Java
-linktitle: Menggunakan Bagian
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Jelajahi Aspose.Words untuk Java; Panduan lengkap tentang penggunaan bagian. Tambahkan, hapus, tambahkan, klon bagian dengan contoh kode.
-weight: 23
-url: /id/java/using-document-elements/using-sections/
+"description": "Jelajahi Aspose.Words untuk Java; Panduan lengkap tentang penggunaan bagian. Tambahkan, hapus, tambahkan, klon bagian dengan contoh kode."
+"linktitle": "Menggunakan Bagian"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Bagian di Aspose.Words untuk Java"
+"url": "/id/java/using-document-elements/using-sections/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Bagian di Aspose.Words untuk Java
@@ -110,25 +112,30 @@ Ya, Aspose.Words untuk Java kompatibel dengan pustaka Java lainnya, membuatnya s
 
 ### Q2: Apakah ada versi uji coba Aspose.Words untuk Java yang tersedia?
 
- Ya, Anda dapat mengakses uji coba gratis Aspose.Words untuk Java[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengakses uji coba gratis Aspose.Words untuk Java [Di Sini](https://releases.aspose.com/).
 
 ### Q3: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Words untuk Java?
 
- Anda dapat memperoleh lisensi sementara untuk Aspose.Words untuk Java[Di Sini](https://purchase.aspose.com/temporary-license/).
+Anda dapat memperoleh lisensi sementara untuk Aspose.Words untuk Java [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Q4: Di mana saya dapat menemukan dukungan untuk Aspose.Words untuk Java?
 
- Untuk dukungan dan bantuan, Anda dapat mengunjungi forum Aspose.Words untuk Java[Di Sini](https://forum.aspose.com/).
+Untuk dukungan dan bantuan, Anda dapat mengunjungi forum Aspose.Words untuk Java [Di Sini](https://forum.aspose.com/).
 
 ### Q5: Bagaimana cara membeli lisensi Aspose.Words untuk Java?
 
- Anda dapat membeli lisensi untuk Aspose.Words untuk Java[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat membeli lisensi untuk Aspose.Words untuk Java [Di Sini](https://purchase.aspose.com/buy).
 
 Mulailah dengan Aspose.Words untuk Java hari ini dan tingkatkan kemampuan pemrosesan dokumen Anda!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

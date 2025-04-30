@@ -1,14 +1,16 @@
 ---
-title: Aspose.Words for Java에서 스타일 및 테마 사용
-linktitle: 스타일 및 테마 사용
-second_title: Aspose.Words Java 문서 처리 API
-description: Aspose.Words for Java로 문서 서식을 개선하는 방법을 알아보세요. 소스 코드 예제가 있는 이 포괄적인 가이드에서 스타일, 테마 등을 살펴보세요.
-weight: 20
-url: /ko/java/document-manipulation/using-styles-and-themes/
+"description": "Aspose.Words for Java를 사용하여 문서 서식을 개선하는 방법을 알아보세요. 소스 코드 예제가 포함된 이 포괄적인 가이드에서 스타일, 테마 등을 살펴보세요."
+"linktitle": "스타일 및 테마 사용"
+"second_title": "Aspose.Words Java 문서 처리 API"
+"title": "Aspose.Words for Java에서 스타일 및 테마 사용"
+"url": "/ko/java/document-manipulation/using-styles-and-themes/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Words for Java에서 스타일 및 테마 사용
@@ -16,7 +18,7 @@ url: /ko/java/document-manipulation/using-styles-and-themes/
 
 ## Aspose.Words for Java에서 스타일 및 테마 사용 소개
 
-이 가이드에서는 Aspose.Words for Java에서 스타일과 테마를 사용하여 문서의 서식과 모양을 개선하는 방법을 살펴보겠습니다. 스타일 검색, 스타일 복사, 테마 관리, 스타일 구분 기호 삽입과 같은 주제를 다룹니다. 시작해 봅시다!
+이 가이드에서는 Aspose.Words for Java에서 스타일과 테마를 사용하여 문서의 서식과 모양을 개선하는 방법을 살펴보겠습니다. 스타일 가져오기, 스타일 복사, 테마 관리, 스타일 구분 기호 삽입 등의 주제를 다룹니다. 시작해 볼까요!
 
 ## 스타일 검색
 
@@ -25,7 +27,7 @@ url: /ko/java/document-manipulation/using-styles-and-themes/
 ```java
 Document doc = new Document();
 String styleName = "";
-//문서에서 스타일 컬렉션을 가져옵니다.
+// 문서에서 스타일 컬렉션을 가져옵니다.
 StyleCollection styles = doc.getStyles();
 for (Style style : styles)
 {
@@ -42,11 +44,11 @@ for (Style style : styles)
 }
 ```
 
-이 코드는 문서에 정의된 스타일을 가져와서 해당 이름을 출력합니다.
+이 코드는 문서에 정의된 스타일을 가져와서 이름을 출력합니다.
 
 ## 스타일 복사
 
- 한 문서에서 다른 문서로 스타일을 복사하려면 다음을 사용할 수 있습니다.`copyStylesFromTemplate` 방법은 아래와 같습니다.
+한 문서에서 다른 문서로 스타일을 복사하려면 다음을 사용할 수 있습니다. `copyStylesFromTemplate` 방법은 아래와 같습니다.
 
 ```java
 @Test
@@ -63,7 +65,7 @@ public void copyStyles() throws Exception
 
 ## 테마 관리
 
-테마는 문서의 전반적인 모양을 정의하는 데 필수적입니다. 다음 코드에서 보여준 것처럼 테마 속성을 검색하여 설정할 수 있습니다.
+테마는 문서의 전반적인 디자인을 정의하는 데 필수적입니다. 다음 코드에서 볼 수 있듯이 테마 속성을 검색하고 설정할 수 있습니다.
 
 ```java
 @Test
@@ -90,7 +92,7 @@ public void setThemeProperties() throws Exception
 
 ## 스타일 구분 기호 삽입
 
-스타일 구분 기호는 단일 문단 내에서 다양한 스타일을 적용하는 데 유용합니다. 스타일 구분 기호를 삽입하는 방법의 예는 다음과 같습니다.
+스타일 구분 기호는 한 단락 내에 다양한 스타일을 적용하는 데 유용합니다. 스타일 구분 기호를 삽입하는 방법의 예는 다음과 같습니다.
 
 ```java
 @Test
@@ -117,25 +119,30 @@ public void insertStyleSeparator() throws Exception
 
 ## 결론
 
-이 가이드에서는 Aspose.Words for Java에서 스타일과 테마를 사용하는 기본 사항을 다루었습니다. 스타일을 검색하고 복사하고, 테마를 관리하고, 스타일 구분 기호를 삽입하여 시각적으로 매력적이고 잘 포맷된 문서를 만드는 방법을 배웠습니다. 이러한 기술을 실험하여 요구 사항에 따라 문서를 사용자 정의하세요.
+이 가이드에서는 Aspose.Words for Java에서 스타일과 테마를 사용하는 기본 사항을 다루었습니다. 스타일을 검색 및 복사하고, 테마를 관리하고, 스타일 구분 기호를 삽입하여 시각적으로 매력적이고 형식이 잘 잡힌 문서를 만드는 방법을 알아보았습니다. 이러한 기법을 활용하여 요구 사항에 맞게 문서를 사용자 정의해 보세요.
 
 
 ## 자주 묻는 질문
 
 ### Java용 Aspose.Words에서 테마 속성을 어떻게 검색할 수 있나요?
 
-테마 객체와 해당 속성에 접근하여 테마 속성을 검색할 수 있습니다.
+테마 개체와 해당 속성에 접근하여 테마 속성을 검색할 수 있습니다.
 
 ### 글꼴, 색상 등의 테마 속성을 어떻게 설정할 수 있나요?
 
-테마 객체의 속성을 수정하여 테마 속성을 설정할 수 있습니다.
+테마 개체의 속성을 수정하여 테마 속성을 설정할 수 있습니다.
 
-### 같은 문단 내에서 스타일을 바꾸려면 스타일 구분 기호를 어떻게 사용해야 하나요?
+### 같은 문단 내에서 스타일을 전환하려면 스타일 구분 기호를 어떻게 사용해야 하나요?
 
- 다음을 사용하여 스타일 구분 기호를 삽입할 수 있습니다.`insertStyleSeparator` 의 방법`DocumentBuilder` 수업.
+다음을 사용하여 스타일 구분 기호를 삽입할 수 있습니다. `insertStyleSeparator` 방법 `DocumentBuilder` 수업.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,21 +1,23 @@
 ---
-title: Usuń pola
-linktitle: Usuń pola
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak programowo usuwać pola z dokumentów Word za pomocą Aspose.Words dla .NET. Przejrzysty przewodnik krok po kroku z przykładami kodu.
-weight: 10
-url: /pl/net/working-with-fields/delete-fields/
+"description": "Dowiedz się, jak programowo usuwać pola z dokumentów Word za pomocą Aspose.Words dla .NET. Przejrzysty przewodnik krok po kroku z przykładami kodu."
+"linktitle": "Usuń pola"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Usuń pola"
+"url": "/pl/net/working-with-fields/delete-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuń pola
 
 ## Wstęp
 
-W dziedzinie przetwarzania dokumentów i automatyzacji Aspose.Words for .NET wyróżnia się jako potężny zestaw narzędzi dla deweloperów, którzy chcą manipulować, tworzyć i zarządzać dokumentami Word programowo. Ten samouczek ma na celu przeprowadzenie Cię przez proces wykorzystania Aspose.Words for .NET do usuwania pól w dokumentach Word. Niezależnie od tego, czy jesteś doświadczonym deweloperem, czy dopiero zaczynasz przygodę z programowaniem .NET, ten przewodnik przedstawi kroki niezbędne do skutecznego usuwania pól z dokumentów za pomocą jasnych, zwięzłych przykładów i wyjaśnień.
+dziedzinie przetwarzania dokumentów i automatyzacji Aspose.Words for .NET wyróżnia się jako potężny zestaw narzędzi dla deweloperów, którzy chcą manipulować, tworzyć i zarządzać dokumentami Word programowo. Ten samouczek ma na celu przeprowadzenie Cię przez proces wykorzystania Aspose.Words for .NET do usuwania pól w dokumentach Word. Niezależnie od tego, czy jesteś doświadczonym deweloperem, czy dopiero zaczynasz przygodę z programowaniem .NET, ten przewodnik przedstawi kroki niezbędne do skutecznego usuwania pól z dokumentów za pomocą jasnych, zwięzłych przykładów i wyjaśnień.
 
 ## Wymagania wstępne
 
@@ -24,7 +26,7 @@ Zanim przejdziesz do tego samouczka, upewnij się, że spełnione są następuj�
 ### Wymagania programowe
 
 1. Visual Studio: zainstalowany i skonfigurowany w Twoim systemie.
-2.  Aspose.Words dla .NET: Pobrany i zintegrowany z projektem Visual Studio. Możesz go pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+2. Aspose.Words dla .NET: Pobrany i zintegrowany z projektem Visual Studio. Możesz go pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 3. Dokument Word: Przygotuj przykładowy dokument Word (.docx) z polami, które chcesz usunąć.
 
 ### Wymagania dotyczące wiedzy
@@ -55,7 +57,7 @@ Jeśli jeszcze tego nie zrobiłeś, dodaj odwołanie do Aspose.Words w swoim pro
 
 ## Krok 3: Przygotuj dokument
 
- Umieść dokument, który chcesz zmodyfikować (np.`your-document.docx`w katalogu projektu lub podaj pełną ścieżkę do niego.
+Umieść dokument, który chcesz zmodyfikować (np. `your-document.docx`) w katalogu projektu lub podaj pełną ścieżkę do niego.
 
 ## Krok 4: Zainicjuj obiekt dokumentu Aspose.Words
 
@@ -67,7 +69,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "your-document.docx");
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów.
 
 ## Krok 5: Usuń pola
 
@@ -106,11 +108,16 @@ Bloków try-catch można używać do obsługi wyjątków, które mogą wystąpi�
 Tak, pokazana tutaj metoda dotyczy wyłącznie pól i pozostawia pozostałą zawartość bez zmian.
 
 ### Gdzie mogę znaleźć więcej materiałów i pomocy dla Aspose.Words?
- Odwiedź[Dokumentacja Aspose.Words dla .NET API](https://reference.aspose.com/words/net/) i[Forum Aspose.Words](https://forum.aspose.com/c/words/8) W celu uzyskania dalszej pomocy.
+Odwiedź [Dokumentacja Aspose.Words dla .NET API](https://reference.aspose.com/words/net/) i [Forum Aspose.Words](https://forum.aspose.com/c/words/8) W celu uzyskania dalszej pomocy.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

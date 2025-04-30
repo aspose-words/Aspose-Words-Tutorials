@@ -1,14 +1,16 @@
 ---
-title: Вставить оглавление в документ Word
-linktitle: Вставить оглавление в документ Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставить оглавление в Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству для бесперебойной навигации по документу.
-weight: 10
-url: /ru/net/add-content-using-documentbuilder/insert-table-of-contents/
+"description": "Узнайте, как вставить оглавление в Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству для бесперебойной навигации по документу."
+"linktitle": "Вставить оглавление в документ Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить оглавление в документ Word"
+"url": "/ru/net/add-content-using-documentbuilder/insert-table-of-contents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить оглавление в документ Word
@@ -22,7 +24,7 @@ url: /ru/net/add-content-using-documentbuilder/insert-table-of-contents/
 
 - Базовые знания C# и .NET Framework.
 - Visual Studio установлена на вашем компьютере.
--  Библиотека Aspose.Words for .NET. Если вы ее еще не установили, вы можете скачать ее с[здесь](https://releases.aspose.com/words/net/).
+- Библиотека Aspose.Words for .NET. Если вы ее еще не установили, вы можете скачать ее с [здесь](https://releases.aspose.com/words/net/).
 
 ## Импорт пространств имен
 
@@ -39,7 +41,7 @@ using Aspose.Words.Tables;
 
 ## Шаг 1: Инициализация документа Aspose.Words и DocumentBuilder
 
- Сначала инициализируем новый Aspose.Words`Document` объект и`DocumentBuilder` работать с:
+Сначала инициализируем новый Aspose.Words `Document` объект и `DocumentBuilder` работать с:
 
 ```csharp
 // Инициализация документа и DocumentBuilder
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Шаг 2: Вставьте оглавление
 
- Теперь вставьте оглавление с помощью`InsertTableOfContents` метод:
+Теперь вставьте оглавление с помощью `InsertTableOfContents` метод:
 
 ```csharp
 // Вставить оглавление
@@ -104,7 +106,7 @@ builder.Writeln("Heading 3.3");
 doc.UpdateFields();
 ```
 
-## Шаг 6: Сохраните документ
+## Шаг 6: Сохраните документ.
 
 Наконец, сохраните документ в указанном каталоге:
 
@@ -133,10 +135,15 @@ Aspose.Words поддерживает создание нескольких ог
 Да, Aspose.Words обеспечивает совместимость с различными версиями форматов Microsoft Word.
 
 ### Где я могу найти дополнительную помощь и поддержку по Aspose.Words?
- Для получения дополнительной помощи посетите[Форум Aspose.Words](https://forum.aspose.com/c/words/8) или проверьте[официальная документация](https://reference.aspose.com/words/net/).
+Для получения дополнительной помощи посетите [Форум Aspose.Words](https://forum.aspose.com/c/words/8) или проверьте [официальная документация](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

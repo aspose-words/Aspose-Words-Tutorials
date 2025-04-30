@@ -1,14 +1,16 @@
 ---
-title: Przenieś węzeł w śledzonym dokumencie
-linktitle: Przenieś węzeł w śledzonym dokumencie
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak przenosić węzły w śledzonym dokumencie Word za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów.
-weight: 10
-url: /pl/net/working-with-revisions/move-node-in-tracked-document/
+"description": "Dowiedz się, jak przenosić węzły w śledzonym dokumencie Word za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów."
+"linktitle": "Przenieś węzeł w śledzonym dokumencie"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przenieś węzeł w śledzonym dokumencie"
+"url": "/pl/net/working-with-revisions/move-node-in-tracked-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przenieś węzeł w śledzonym dokumencie
@@ -21,7 +23,7 @@ Cześć, entuzjaści Aspose.Words! Jeśli kiedykolwiek musieliście przenieść 
 
 Zanim zaczniemy pisać kod, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
--  Aspose.Words dla .NET: Pobierz[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Pobierz [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko .NET: Upewnij się, że skonfigurowałeś zgodne środowisko programistyczne .NET.
 - Podstawowa wiedza o języku C#: W tym samouczku zakładamy, że posiadasz podstawową wiedzę o języku C#.
 
@@ -40,7 +42,7 @@ Dobrze, podzielmy proces na łatwe do opanowania kroki. Każdy krok zostanie szc
 
 ## Krok 1: Zainicjuj dokument
 
- Na początek musimy zainicjować nowy dokument i użyć`DocumentBuilder` aby dodać kilka akapitów.
+Na początek musimy zainicjować nowy dokument i użyć `DocumentBuilder` aby dodać kilka akapitów.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -122,22 +124,27 @@ Aspose.Words for .NET to biblioteka klas do pracy z dokumentami Word programowo.
 
 ### Jak śledzić zmiany w dokumencie Word za pomocą Aspose.Words?
 
- Aby śledzić zmiany, użyj`StartTrackRevisions` metoda na`Document` obiekt. Umożliwi to śledzenie rewizji, pokazując wszelkie zmiany wprowadzone do dokumentu.
+Aby śledzić zmiany, użyj `StartTrackRevisions` metoda na `Document` obiekt. Umożliwi to śledzenie rewizji, pokazując wszelkie zmiany wprowadzone do dokumentu.
 
 ### Czy mogę przenosić wiele węzłów w Aspose.Words?
 
-Tak, możesz przenosić wiele węzłów, iterując po nich i używając metod takich jak`InsertBefore` Lub`InsertAfter` aby umieścić je w wybranym miejscu.
+Tak, możesz przenosić wiele węzłów, iterując po nich i używając metod takich jak `InsertBefLube` or `InsertAfter` aby umieścić je w wybranym miejscu.
 
 ### Jak zatrzymać śledzenie wersji w Aspose.Words?
 
- Użyj`StopTrackRevisions` metoda na`Document` sprzeciwu, aby zaprzestać śledzenia rewizji.
+Użyj `StopTrackRevisions` metoda na `Document` sprzeciwu, aby zaprzestać śledzenia rewizji.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words dla .NET?
 
- Szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/words/net/).
+Szczegółową dokumentację można znaleźć [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

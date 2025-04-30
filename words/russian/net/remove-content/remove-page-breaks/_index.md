@@ -1,14 +1,16 @@
 ---
-title: Удалить разрывы страниц в документе Word
-linktitle: Удалить разрывы страниц
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как удалить разрывы страниц в документе Word с помощью Aspose.Words для .NET с помощью нашего пошагового руководства. Улучшите свои навыки работы с документами.
-weight: 10
-url: /ru/net/remove-content/remove-page-breaks/
+"description": "Узнайте, как удалить разрывы страниц в документе Word с помощью Aspose.Words для .NET с помощью нашего пошагового руководства. Улучшите свои навыки работы с документами."
+"linktitle": "Удалить разрывы страниц"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Удалить разрывы страниц в документе Word"
+"url": "/ru/net/remove-content/remove-page-breaks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Удалить разрывы страниц в документе Word
@@ -21,7 +23,7 @@ url: /ru/net/remove-content/remove-page-breaks/
 
 Прежде чем приступить к пошаговому руководству, убедитесь, что у вас выполнены следующие предварительные условия:
 
--  Aspose.Words для .NET: Загрузите и установите библиотеку с[Релизы Aspose](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: Загрузите и установите библиотеку с [Релизы Aspose](https://releases.aspose.com/words/net/).
 - Среда разработки: IDE, например Visual Studio.
 - .NET Framework: Убедитесь, что на вашем компьютере установлен .NET Framework.
 - Образец документа: документ Word (.docx), содержащий разрывы страниц.
@@ -43,7 +45,7 @@ using Aspose.Words.Nodes;
 
 Создайте новый проект в Visual Studio
 1. Откройте Visual Studio и создайте новое консольное приложение C#.
-2. Дайте название своему проекту и нажмите «Создать».
+2. Назовите свой проект и нажмите «Создать».
 
 Добавьте Aspose.Words в свой проект
 1. В обозревателе решений щелкните правой кнопкой мыши «Ссылки» и выберите «Управление пакетами NuGet».
@@ -58,7 +60,7 @@ using Aspose.Words.Nodes;
 string dataDir = "YOUR DOCUMENT DIRECTORY"; 
 Document doc = new Document(dataDir + "your-document.docx");
 ```
- На этом этапе замените`"YOUR DOCUMENT DIRECTORY"` с путем к вашему документу.
+На этом этапе замените `"YOUR DOCUMENT DIRECTORY"` с путем к вашему документу.
 
 ## Шаг 3: Доступ к узлам абзаца
 
@@ -101,7 +103,7 @@ foreach (Paragraph para in paragraphs)
 ```csharp
 doc.Save(dataDir + "modified-document.docx", SaveFormat.Docx);
 ```
- Заменять`"YOUR DOCUMENT DIRECTORY"` с путем, по которому вы хотите сохранить измененный документ.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с путем, по которому вы хотите сохранить измененный документ.
 
 ## Заключение
 
@@ -113,19 +115,24 @@ doc.Save(dataDir + "modified-document.docx", SaveFormat.Docx);
 Да, Aspose.Words поддерживает все языки .NET, включая VB.NET, F# и другие.
 
 ### Является ли Aspose.Words для .NET бесплатным для использования?
- Aspose.Words предлагает бесплатную пробную версию. Для долгосрочного использования вы можете приобрести лицензию у[Покупка Aspose](https://purchase.aspose.com/buy).
+Aspose.Words предлагает бесплатную пробную версию. Для долгосрочного использования вы можете приобрести лицензию у [Покупка Aspose](https://purchase.aspose.com/buy).
 
 ### Можно ли удалить другие типы разрывов (например, разрывы разделов) с помощью Aspose.Words?
 Да, вы можете управлять различными типами разрывов в документе с помощью Aspose.Words.
 
 ### Как я могу получить поддержку, если у меня возникнут проблемы?
- Вы можете получить поддержку от сообщества Aspose и на форумах по адресу[Поддержка Aspose](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от сообщества Aspose и на форумах по адресу [Поддержка Aspose](https://forum.aspose.com/c/words/8).
 
 ### Какие форматы файлов поддерживает Aspose.Words?
-Aspose.Words поддерживает множество форматов файлов, включая DOCX, DOC, PDF, HTML и другие. Полный список можно найти в[Документация Aspose](https://reference.aspose.com/words/net/).
+Aspose.Words поддерживает множество форматов файлов, включая DOCX, DOC, PDF, HTML и другие. Полный список можно найти в [Документация Aspose](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

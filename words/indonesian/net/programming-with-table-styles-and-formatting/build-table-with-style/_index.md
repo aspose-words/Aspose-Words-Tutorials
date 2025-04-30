@@ -1,14 +1,16 @@
 ---
-title: Bangun Meja Dengan Gaya
-linktitle: Bangun Meja Dengan Gaya
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat dan menata tabel dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini.
-weight: 10
-url: /id/net/programming-with-table-styles-and-formatting/build-table-with-style/
+"description": "Pelajari cara membuat dan menata tabel dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini."
+"linktitle": "Bangun Meja Dengan Gaya"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Bangun Meja Dengan Gaya"
+"url": "/id/net/programming-with-table-styles-and-formatting/build-table-with-style/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bangun Meja Dengan Gaya
@@ -21,7 +23,7 @@ Membuat dokumen yang bergaya dan profesional sering kali memerlukan lebih dari s
 
 Sebelum kita masuk ke panduan langkah demi langkah, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduh dan instal[Aspose.Words untuk .NET](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduh dan instal [Aspose.Words untuk .NET](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Anda harus menyiapkan lingkungan pengembangan. Visual Studio adalah pilihan yang tepat untuk tutorial ini.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda mengikutinya dengan lebih mudah.
 
@@ -36,7 +38,7 @@ using Aspose.Words.Tables;
 
 ## Langkah 1: Buat Dokumen Baru dan DocumentBuilder
 
- Hal pertama yang harus dilakukan adalah membuat dokumen baru dan`DocumentBuilder` objek. Ini`DocumentBuilder` akan membantu Anda membuat tabel dalam dokumen Anda.
+Hal pertama yang harus dilakukan adalah membuat dokumen baru dan `DocumentBuilder` objek. Ini `DocumentBuilder` akan membantu Anda membuat tabel dalam dokumen Anda.
 
 ```csharp
 // Jalur ke direktori dokumen Anda
@@ -64,7 +66,7 @@ builder.InsertCell();
 
 ## Langkah 4: Mengatur Gaya Tabel
 
- Dengan sel pertama yang dimasukkan, saatnya untuk menambahkan beberapa gaya ke tabel kita. Kita akan menggunakan`StyleIdentifier` untuk menerapkan gaya yang telah ditentukan sebelumnya.
+Setelah sel pertama dimasukkan, saatnya menambahkan beberapa gaya ke tabel kita. Kita akan menggunakan `StyleIdentifier` untuk menerapkan gaya yang telah ditentukan sebelumnya.
 
 ```csharp
 // Atur gaya tabel yang digunakan berdasarkan pengidentifikasi gaya unik
@@ -82,7 +84,7 @@ table.StyleOptions = TableStyleOptions.FirstColumn | TableStyleOptions.RowBands 
 
 ## Langkah 6: Sesuaikan Tabel agar Sesuai dengan Isinya
 
-Untuk memastikan meja kita terlihat rapi dan bersih, kita dapat menggunakan`AutoFit` metode untuk menyesuaikan tabel agar sesuai dengan isinya.
+Untuk memastikan meja kita terlihat rapi dan bersih, kita dapat menggunakan `AutoFit` metode untuk menyesuaikan tabel agar sesuai dengan isinya.
 
 ```csharp
 table.AutoFit(AutoFitBehavior.AutoFitToContents);
@@ -145,16 +147,21 @@ Aspose.Words untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk 
 Ya, Aspose.Words untuk .NET dapat digunakan untuk memberi gaya pada tabel baru dan yang sudah ada di dokumen Word Anda.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words untuk .NET?
- Ya, Aspose.Words untuk .NET memerlukan lisensi untuk fungsionalitas penuh. Anda bisa mendapatkannya[lisensi sementara](https://purchase.aspose.com/temporary-license/) atau beli yang lengkap[Di Sini](https://purchase.aspose.com/buy).
+Ya, Aspose.Words untuk .NET memerlukan lisensi untuk fungsionalitas penuh. Anda bisa mendapatkannya [lisensi sementara](https://purchase.aspose.com/temporary-license/) atau beli yang lengkap [Di Sini](https://purchase.aspose.com/buy).
 
-### Bisakah saya mengotomatiskan tipe dokumen lain dengan Aspose.Words untuk .NET?
+### Bisakah saya mengotomatiskan jenis dokumen lain dengan Aspose.Words untuk .NET?
 Tentu saja! Aspose.Words untuk .NET mendukung berbagai jenis dokumen, termasuk DOCX, PDF, HTML, dan banyak lagi.
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
- Anda dapat menemukan dokumentasi dan contoh yang lengkap di[Halaman dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi dan contoh yang lengkap di [Halaman dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

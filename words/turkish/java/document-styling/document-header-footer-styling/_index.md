@@ -1,17 +1,19 @@
 ---
-title: Belge Başlığı ve Alt Bilgisi Biçimlendirmesi
-linktitle: Belge Başlığı ve Alt Bilgisi Biçimlendirmesi
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Bu ayrıntılı kılavuzda Aspose.Words for Java kullanarak belge başlıklarını ve altbilgilerini nasıl biçimlendireceğinizi öğrenin. Adım adım talimatlar ve kaynak kodu dahildir.
-weight: 14
-url: /tr/java/document-styling/document-header-footer-styling/
+"description": "Bu ayrıntılı kılavuzda Aspose.Words for Java kullanarak belge başlıklarını ve altbilgilerini nasıl biçimlendireceğinizi öğrenin. Adım adım talimatlar ve kaynak kodu dahildir."
+"linktitle": "Belge Başlığı ve Alt Bilgi Biçimlendirmesi"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belge Başlığı ve Alt Bilgi Biçimlendirmesi"
+"url": "/tr/java/document-styling/document-header-footer-styling/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Belge Başlığı ve Alt Bilgisi Biçimlendirmesi
+# Belge Başlığı ve Alt Bilgi Biçimlendirmesi
 
 Belge biçimlendirme becerilerinizi Java ile geliştirmeyi mi düşünüyorsunuz? Bu kapsamlı kılavuzda, Aspose.Words for Java kullanarak belge başlıklarını ve altbilgilerini biçimlendirme sürecinde size yol göstereceğiz. İster deneyimli bir geliştirici olun, ister yolculuğunuza yeni başlıyor olun, adım adım talimatlarımız ve kaynak kodu örneklerimiz belge işlemenin bu önemli noktasında ustalaşmanıza yardımcı olacak.
 
@@ -30,7 +32,7 @@ Ayrıntılara dalmadan önce, belge stilinde başlıklar ve altbilgilerin temell
 
 #### Başlık Oluşturma:
 
- Aspose.Words for Java kullanarak belgenizde bir başlık oluşturmak için şunu kullanabilirsiniz:`HeaderFooter` sınıf. İşte basit bir örnek:
+Aspose.Words for Java kullanarak belgenizde bir başlık oluşturmak için şunu kullanabilirsiniz: `HeaderFooter` sınıf. İşte basit bir örnek:
 
 ```java
 Document doc = new Document();
@@ -60,7 +62,7 @@ footer.getFirstParagraph().getParagraphFormat().setAlignment(ParagraphAlignment.
 
 ### Gelişmiş Şekillendirme
 
-Artık temelleri öğrendiğinize göre, üstbilgiler ve altbilgiler için gelişmiş stil seçeneklerini keşfedelim.
+Artık temelleri öğrendiğinize göre, üstbilgiler ve altbilgiler için gelişmiş stil seçeneklerini inceleyelim.
 
 #### Resim Ekleme:
 
@@ -93,7 +95,7 @@ Belge üstbilgilerini ve altbilgilerini biçimlendirirken kusursuz bir deneyim s
 
 ### Belirli bölümlerden üstbilgileri veya altbilgileri nasıl kaldırabilirim?
 
- Belirli bölümlerden üstbilgileri veya altbilgileri kaldırmak için şuraya erişebilirsiniz:`HeaderFooter` nesneleri ve içeriklerini null olarak ayarlama. Örneğin:
+Belirli bölümlerden üstbilgileri veya altbilgileri kaldırmak için şuraya erişebilirsiniz: `HeaderFooter` nesneleri ve içeriklerini null olarak ayarlama. Örneğin:
 
 ```java
 header.removeAllChildren();
@@ -105,11 +107,11 @@ Evet, tek ve çift sayfalar için farklı üstbilgiler ve altbilgiler kullanabil
 
 ### Başlıklara veya altbilgilere köprü eklemek mümkün müdür?
 
- Elbette! Aspose.Words for Java kullanarak başlıklar veya altbilgiler içine köprüler ekleyebilirsiniz.`Hyperlink` Köprü metinleri oluşturmak ve bunları başlık veya altbilgi içeriğinize eklemek için kullanılan sınıf.
+Elbette! Aspose.Words for Java kullanarak başlıklar veya altbilgiler içine köprüler ekleyebilirsiniz. `Hyperlink` Köprü metinleri oluşturmak ve bunları başlık veya altbilgi içeriğinize eklemek için kullanılan sınıf.
 
 ### Üstbilgi veya altbilgi içeriğini sola veya sağa nasıl hizalayabilirim?
 
- Üstbilgi veya altbilgi içeriğini sola veya sağa hizalamak için paragraf hizalamasını şu şekilde ayarlayabilirsiniz:`ParagraphAlignment` enum. Örneğin, içeriği sağa hizalamak için:
+Üstbilgi veya altbilgi içeriğini sola veya sağa hizalamak için paragraf hizalamasını şu şekilde ayarlayabilirsiniz: `ParagraphAlignment` enum. Örneğin, içeriği sağa hizalamak için:
 
 ```java
 header.getFirstParagraph().getParagraphFormat().setAlignment(ParagraphAlignment.RIGHT);
@@ -117,7 +119,7 @@ header.getFirstParagraph().getParagraphFormat().setAlignment(ParagraphAlignment.
 
 ### Belge başlıkları gibi özel alanları üstbilgilere veya altbilgilere ekleyebilir miyim?
 
- Evet, başlıklara veya altbilgilere özel alanlar ekleyebilirsiniz. Bir`Run` öğesini seçin ve istediğiniz metni sağlayarak başlık veya altbilgi içeriğine ekleyin. Biçimlendirmeyi gerektiği gibi özelleştirin.
+Evet, başlıklara veya altbilgilere özel alanlar ekleyebilirsiniz. Bir `Run` öğesini seçin ve istediğiniz metni sağlayarak başlık veya altbilgi içeriğine ekleyin. Biçimlendirmeyi gerektiği gibi özelleştirin.
 
 ### Aspose.Words for Java farklı belge formatlarıyla uyumlu mudur?
 
@@ -130,9 +132,13 @@ Bu kapsamlı kılavuzda, Java için Aspose.Words kullanarak belge başlıkların
 Bu becerilerinizi uygulamayı ve belgeleriniz için en uygun olanı bulmak için farklı stilleri denemeyi unutmayın. Aspose.Words for Java, belge biçimlendirmenizin tam kontrolünü ele geçirmenizi sağlayarak, çarpıcı içerikler oluşturmak için sonsuz olasılıklar sunar.
 
 Öyleyse devam edin ve kalıcı bir izlenim bırakan belgeler oluşturmaya başlayın. Belge başlığı ve altbilgisi stilindeki yeni kazandığınız uzmanlık, şüphesiz sizi belge mükemmelliğine giden yola sokacaktır.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

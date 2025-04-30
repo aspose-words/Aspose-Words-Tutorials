@@ -1,83 +1,85 @@
 ---
-title: Získejte pozici plovoucího stolu
-linktitle: Získejte pozici plovoucího stolu
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak získat pozice v plovoucích tabulkách v dokumentech aplikace Word pomocí Aspose.Words for .NET. Tento podrobný průvodce vás krok za krokem provede vším, co potřebujete vědět.
-weight: 10
-url: /cs/net/programming-with-tables/get-floating-table-position/
+"description": "Naučte se, jak získat plovoucí pozice tabulek v dokumentech Wordu pomocí Aspose.Words pro .NET. Tento podrobný návod krok za krokem vás provede vším, co potřebujete vědět."
+"linktitle": "Získat plovoucí pozici u stolu"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Získat plovoucí pozici u stolu"
+"url": "/cs/net/programming-with-tables/get-floating-table-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Získejte pozici plovoucího stolu
+# Získat plovoucí pozici u stolu
 
 ## Zavedení
 
-Jste připraveni ponořit se do světa Aspose.Words pro .NET? Dnes vás vezmeme na cestu za tajemstvím plovoucích tabulek v dokumentech Wordu. Představte si, že máte stůl, který nejen nehybně sedí, ale elegantně se vznáší kolem textu. Docela cool, že? Tento tutoriál vás provede tím, jak získat vlastnosti polohování takových plovoucích stolů. Takže, pojďme začít!
+Jste připraveni ponořit se do světa Aspose.Words pro .NET? Dnes vás vezmeme na cestu, která odhalí tajemství plovoucích tabulek v dokumentech Wordu. Představte si, že máte tabulku, která nejenže stojí na místě, ale elegantně se vznáší kolem textu. Docela skvělé, že? Tento tutoriál vás provede tím, jak získat vlastnosti pozicování takových plovoucích tabulek. Tak pojďme na to!
 
 ## Předpoklady
 
-Než se pustíme do té zábavné části, je třeba mít na paměti několik věcí:
+Než se pustíme do té zábavné části, je potřeba mít připraveno několik věcí:
 
-1.  Aspose.Words for .NET: Pokud jste to ještě neudělali, stáhněte si a nainstalujte Aspose.Words for .NET z[Aspose stránku vydání](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí: Ujistěte se, že máte nastavené vývojové prostředí .NET. Visual Studio je skvělá volba.
-3. Ukázkový dokument: Budete potřebovat dokument aplikace Word s plovoucí tabulkou. Můžete vytvořit jeden nebo použít existující dokument. 
+1. Aspose.Words pro .NET: Pokud jste tak ještě neučinili, stáhněte si a nainstalujte Aspose.Words pro .NET z [Stránka s vydáním Aspose](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí: Ujistěte se, že máte nastavené vývojové prostředí .NET. Visual Studio je skvělou volbou.
+3. Ukázkový dokument: Budete potřebovat dokument aplikace Word s plovoucí tabulkou. Můžete si ji vytvořit nebo použít existující dokument. 
 
 ## Importovat jmenné prostory
 
-Chcete-li začít, musíte importovat potřebné jmenné prostory. To zajistí, že budete mít přístup ke třídám a metodám Aspose.Words potřebným pro manipulaci s dokumenty aplikace Word.
+Pro začátek je potřeba importovat potřebné jmenné prostory. Tím zajistíte přístup ke třídám a metodám Aspose.Words potřebným pro manipulaci s dokumenty Wordu.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-Dobře, pojďme si tento proces rozdělit do snadno pochopitelných kroků.
+Dobře, pojďme si celý proces rozdělit na snadno sledovatelné kroky.
 
-## Krok 1: Vložte svůj dokument
+## Krok 1: Vložte dokument
 
-Nejprve musíte načíst dokument aplikace Word. Tento dokument by měl obsahovat plovoucí tabulku, kterou chcete prozkoumat.
+Nejdříve je potřeba načíst dokument aplikace Word. Tento dokument by měl obsahovat plovoucí tabulku, kterou chcete prozkoumat.
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Table wrapped by text.docx");
 ```
 
- V tomto kroku v podstatě říkáte Aspose.Words, kde najde váš dokument. Nezapomeňte vyměnit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou k vašemu dokumentu.
+V tomto kroku v podstatě říkáte Aspose.Words, kde má váš dokument najít. Nezapomeňte nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou k vašemu dokumentu.
 
 ## Krok 2: Přístup k tabulkám v dokumentu
 
-Dále musíte přistupovat k tabulkám v první části dokumentu. Přemýšlejte o dokumentu jako o velkém kontejneru a vrtáte se v něm, abyste našli všechny tabulky.
+Dále je potřeba přistupovat k tabulkám v první části dokumentu. Představte si dokument jako velký kontejner, ve kterém se snažíte najít všechny tabulky.
 
 ```csharp
 foreach (Table table in doc.FirstSection.Body.Tables)
 {
-    // Zde je váš kód pro zpracování každé tabulky
+    // Váš kód pro zpracování každé tabulky se nachází zde.
 }
 ```
 
-Zde procházíte každou tabulkou, která se nachází v těle první sekce vašeho dokumentu.
+Zde procházíte každou tabulku, která se nachází v těle první části dokumentu.
 
 ## Krok 3: Zkontrolujte, zda je tabulka plovoucí
 
-Nyní musíte určit, zda je tabulka plovoucího typu. Plovoucí tabulky mají specifické nastavení obtékání textu.
+Nyní je třeba zjistit, zda se jedná o plovoucí tabulku. Plovoucí tabulky mají specifická nastavení zalamování textu.
 
 ```csharp
 if (table.TextWrapping == TextWrapping.Around)
 {
-    // Zde je váš kód pro tisk vlastností umístění stolu
+    // Sem vložíte kód pro výpis vlastností pozicování tabulky.
 }
 ```
 
-Tato podmínka kontroluje, zda je styl obtékání textu tabulky nastaven na „Around“, což znamená, že se jedná o plovoucí tabulku.
+Tato podmínka kontroluje, zda je styl obtékání textu tabulky nastaven na „Kolem“, což znamená, že se jedná o plovoucí tabulku.
 
 ## Krok 4: Vytiskněte vlastnosti umístění
 
-Nakonec extrahujeme a vytiskneme polohovací vlastnosti plovoucí tabulky. Tyto vlastnosti vám řeknou, kde je tabulka umístěna ve vztahu k textu a stránce.
+Nakonec extrahujeme a vypíšeme vlastnosti umístění plovoucí tabulky. Tyto vlastnosti vám sdělují, kde je tabulka umístěna vzhledem k textu a stránce.
 
 ```csharp
 if (table.TextWrapping == TextWrapping.Around)
@@ -96,29 +98,34 @@ Tyto vlastnosti vám poskytují podrobný pohled na to, jak je tabulka ukotvena 
 
 ## Závěr
 
-A tady to máte! Pomocí následujících kroků můžete snadno načíst a vytisknout vlastnosti umístění plovoucích tabulek v dokumentech aplikace Word pomocí Aspose.Words for .NET. Ať už automatizujete zpracování dokumentů nebo jste jen zvědaví na rozložení tabulek, tyto znalosti se vám budou určitě hodit.
+tady to máte! Dodržováním těchto kroků můžete snadno načíst a vytisknout vlastnosti umístění plovoucích tabulek v dokumentech Word pomocí Aspose.Words pro .NET. Ať už automatizujete zpracování dokumentů, nebo vás jen zajímá rozvržení tabulek, tyto znalosti se vám určitě budou hodit.
 
-Pamatujte, že práce s Aspose.Words for .NET otevírá svět možností pro manipulaci s dokumenty a automatizaci. Šťastné kódování!
+Nezapomeňte, že práce s Aspose.Words pro .NET otevírá svět možností pro manipulaci s dokumenty a automatizaci. Přejeme vám šťastné programování!
 
-## FAQ
+## Často kladené otázky
 
-### Co je to plovoucí tabulka v dokumentech aplikace Word?
-Plovoucí tabulka je tabulka, která není pevně spojena s textem, ale může se pohybovat, obvykle s obtékáním textu.
+### Co je plovoucí tabulka v dokumentech Wordu?
+Plovoucí tabulka je tabulka, která není pevně spojena s textem, ale lze se s ní pohybovat, obvykle s obtékáním textu kolem ní.
 
-### Jak zjistím, zda je tabulka plovoucí pomocí Aspose.Words pro .NET?
- Zda je tabulka plovoucí, můžete zkontrolovat jejím prozkoumáním`TextWrapping` vlastnictví. Pokud je nastaveno na`TextWrapping.Around`, stůl je plovoucí.
+### Jak zjistím, zda je tabulka plovoucí, pomocí Aspose.Words pro .NET?
+Zda je tabulka plovoucí, můžete zkontrolovat jejím `TextWrapping` vlastnost. Pokud je nastavena na `TextWrapping.Around`, stůl se vznáší.
 
-### Mohu změnit vlastnosti umístění plovoucího stolu?
-Ano, pomocí Aspose.Words for .NET můžete upravit vlastnosti umístění plovoucí tabulky a přizpůsobit tak její rozložení.
+### Mohu změnit vlastnosti umístění plovoucí tabulky?
+Ano, pomocí Aspose.Words pro .NET můžete upravit vlastnosti umístění plovoucí tabulky a přizpůsobit tak její rozvržení.
 
-### Je Aspose.Words for .NET vhodný pro automatizaci dokumentů ve velkém měřítku?
-Absolutně! Aspose.Words for .NET je navržen pro vysoce výkonnou automatizaci dokumentů a dokáže efektivně zvládnout rozsáhlé operace.
+### Je Aspose.Words pro .NET vhodný pro rozsáhlou automatizaci dokumentů?
+Rozhodně! Aspose.Words pro .NET je navržen pro vysoce výkonnou automatizaci dokumentů a dokáže efektivně zvládat rozsáhlé operace.
 
-### Kde najdu další informace a zdroje na Aspose.Words for .NET?
-Podrobnou dokumentaci a zdroje naleznete na[Stránka dokumentace Aspose.Words for .NET](https://reference.aspose.com/words/net/).
+### Kde najdu více informací a zdrojů o Aspose.Words pro .NET?
+Podrobnou dokumentaci a zdroje naleznete na [Dokumentace k Aspose.Words pro .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

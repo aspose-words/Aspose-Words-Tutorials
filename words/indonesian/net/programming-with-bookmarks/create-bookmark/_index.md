@@ -1,14 +1,16 @@
 ---
-title: Membuat Bookmark di Dokumen Word
-linktitle: Membuat Bookmark di Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat bookmark dalam dokumen Word menggunakan Aspose.Words for .NET dengan panduan terperinci dan langkah demi langkah ini. Sempurna untuk navigasi dan pengaturan dokumen.
-weight: 10
-url: /id/net/programming-with-bookmarks/create-bookmark/
+"description": "Pelajari cara membuat bookmark dalam dokumen Word menggunakan Aspose.Words for .NET dengan panduan terperinci dan langkah demi langkah ini. Sempurna untuk navigasi dan pengaturan dokumen."
+"linktitle": "Membuat Bookmark di Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Membuat Bookmark di Dokumen Word"
+"url": "/id/net/programming-with-bookmarks/create-bookmark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat Bookmark di Dokumen Word
@@ -21,7 +23,7 @@ Membuat bookmark dalam dokumen Word dapat mengubah segalanya, terutama saat Anda
 
 Sebelum kita mulai, Anda perlu memiliki hal berikut ini:
 
-1.  Aspose.Words untuk Pustaka .NET: Unduh dan instal dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk Pustaka .NET: Unduh dan instal dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau lingkungan pengembangan .NET lainnya.
 3. Pengetahuan Dasar C#: Memahami konsep dasar pemrograman C#.
 
@@ -38,7 +40,7 @@ using Aspose.Words.Saving;
 
 Inisialisasi Dokumen
 
-Pertama, kita perlu membuat dokumen baru dan menginisialisasi`DocumentBuilder`Ini adalah titik awal untuk menambahkan konten dan penanda ke dokumen Anda.
+Pertama, kita perlu membuat dokumen baru dan menginisialisasi `DocumentBuilder`Ini adalah titik awal untuk menambahkan konten dan penanda ke dokumen Anda.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -47,7 +49,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Penjelasan:`Document` objek adalah kanvas Anda.`DocumentBuilder` seperti pena, yang memungkinkan Anda menulis konten dan membuat penanda dalam dokumen.
+Penjelasan: `Document` objek adalah kanvas Anda. `DocumentBuilder` seperti pena, yang memungkinkan Anda menulis konten dan membuat penanda dalam dokumen.
 
 ## Langkah 2: Buat Bookmark Utama
 
@@ -60,13 +62,13 @@ builder.StartBookmark("My Bookmark");
 builder.Writeln("Text inside a bookmark.");
 ```
 
- Penjelasan:`StartBookmark` metode menandai awal penanda, dan`Writeln` menambahkan teks di dalam penanda buku.
+Penjelasan: `StartBookmark` metode menandai awal penanda, dan `Writeln` menambahkan teks di dalam penanda buku.
 
 ## Langkah 3: Buat Bookmark Bersarang
 
 Tambahkan Bookmark Bersarang di Dalam Bookmark Utama
 
-Anda dapat menumpuk bookmark di dalam bookmark lainnya. Di sini, kami menambahkan "Nested Bookmark" di dalam "My Bookmark".
+Anda dapat menumpuk bookmark di dalam bookmark lain. Di sini, kami menambahkan "Nested Bookmark" di dalam "My Bookmark".
 
 ```csharp
 builder.StartBookmark("Nested Bookmark");
@@ -74,7 +76,7 @@ builder.Writeln("Text inside a NestedBookmark.");
 builder.EndBookmark("Nested Bookmark");
 ```
 
- Penjelasan: Bookmark bersarang memungkinkan organisasi konten yang lebih terstruktur dan hierarkis.`EndBookmark` metode menutup penanda saat ini.
+Penjelasan: Bookmark bersarang memungkinkan organisasi konten yang lebih terstruktur dan hierarkis. `EndBookmark` metode menutup penanda saat ini.
 
 ## Langkah 4: Tambahkan Teks di Luar Bookmark Bersarang
 
@@ -101,7 +103,7 @@ options.OutlineOptions.BookmarksOutlineLevels.Add("My Bookmark", 1);
 options.OutlineOptions.BookmarksOutlineLevels.Add("Nested Bookmark", 2);
 ```
 
- Penjelasan:`PdfSaveOptions` kelas memungkinkan Anda menentukan bagaimana dokumen harus disimpan sebagai PDF.`BookmarksOutlineLevels` properti mendefinisikan hierarki penanda dalam PDF.
+Penjelasan: `PdfSaveOptions` kelas memungkinkan Anda menentukan bagaimana dokumen harus disimpan sebagai PDF. `BookmarksOutlineLevels` properti mendefinisikan hierarki penanda dalam PDF.
 
 ## Langkah 6: Simpan Dokumen
 
@@ -113,7 +115,7 @@ Terakhir, simpan dokumen dengan opsi yang ditentukan.
 doc.Save(dataDir + "WorkingWithBookmarks.CreateBookmark.pdf", options);
 ```
 
- Penjelasan:`Save` metode menyimpan dokumen dalam format dan lokasi yang ditentukan. PDF sekarang akan menyertakan bookmark yang kita buat.
+Penjelasan: `Save` metode menyimpan dokumen dalam format dan lokasi yang ditentukan. PDF sekarang akan menyertakan bookmark yang kita buat.
 
 ## Kesimpulan
 
@@ -123,15 +125,15 @@ Membuat bookmark dalam dokumen Word menggunakan Aspose.Words for .NET mudah dan 
 
 ### Bisakah saya membuat beberapa penanda pada level yang berbeda?
 
-Tentu saja! Anda dapat membuat bookmark sebanyak yang diperlukan dan menentukan tingkat hierarkinya saat menyimpan dokumen sebagai PDF.
+Tentu saja! Anda dapat membuat bookmark sebanyak yang dibutuhkan dan menentukan tingkat hierarkinya saat menyimpan dokumen sebagai PDF.
 
 ### Bagaimana cara memperbarui teks penanda buku?
 
- Anda dapat menavigasi ke penanda menggunakan`DocumentBuilder.MoveToBookmark` dan kemudian memperbarui teksnya.
+Anda dapat menavigasi ke penanda menggunakan `DocumentBuilder.MoveToBookmark` dan kemudian memperbarui teksnya.
 
 ### Apakah mungkin untuk menghapus penanda buku?
 
- Ya, Anda dapat menghapus penanda menggunakan`Bookmarks.Remove` metode dengan menentukan nama penanda.
+Ya, Anda dapat menghapus penanda menggunakan `Bookmarks.Remove` metode dengan menentukan nama penanda.
 
 ### Bisakah saya membuat penanda buku dalam format lain selain PDF?
 
@@ -139,10 +141,15 @@ Ya, Aspose.Words mendukung bookmark dalam berbagai format, termasuk DOCX, HTML, 
 
 ### Bagaimana saya dapat memastikan penanda buku muncul dengan benar dalam PDF?
 
- Pastikan untuk menentukan`BookmarksOutlineLevels` dengan benar di`PdfSaveOptions`Ini memastikan penanda buku disertakan dalam kerangka PDF.
+Pastikan untuk menentukan `BookmarksOutlineLevels` dengan benar di `PdfSaveOptions`Ini memastikan penanda buku disertakan dalam kerangka PDF.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

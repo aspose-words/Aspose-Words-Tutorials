@@ -1,14 +1,16 @@
 ---
-title: Получить группы ревизий
-linktitle: Получить группы ревизий
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как извлекать группы ревизий из документов Word с помощью Aspose.Words для .NET с помощью этого всеобъемлющего пошагового руководства. Идеально подходит для управления документами.
-weight: 10
-url: /ru/net/working-with-revisions/get-revision-groups/
+"description": "Узнайте, как извлекать группы ревизий из документов Word с помощью Aspose.Words для .NET с помощью этого всеобъемлющего пошагового руководства. Идеально подходит для управления документами."
+"linktitle": "Получить группы ревизий"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Получить группы ревизий"
+"url": "/ru/net/working-with-revisions/get-revision-groups/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получить группы ревизий
@@ -21,7 +23,7 @@ url: /ru/net/working-with-revisions/get-revision-groups/
 
 Прежде чем начать, убедитесь, что выполнены следующие предварительные условия:
 
-1.  Библиотека Aspose.Words for .NET: Убедитесь, что вы загрузили и установили последнюю версию Aspose.Words for .NET. Вы можете загрузить ее[здесь](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words for .NET: Убедитесь, что вы загрузили и установили последнюю версию Aspose.Words for .NET. Вы можете загрузить ее [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: настройте среду разработки .NET (например, Visual Studio).
 3. Базовые знания C#: знакомство с программированием на C# будет преимуществом.
 
@@ -35,11 +37,11 @@ using Aspose.Words;
 using Aspose.Words.Revision;
 ```
 
-Теперь давайте разберем процесс получения групп ревизий из документа Word на простые для выполнения шаги.
+Теперь давайте разберем процесс получения групп изменений из документа Word на простые для выполнения шаги.
 
 ## Шаг 1: Инициализация документа
 
- Первый шаг — инициализация`Document` объект с путем к документу Word. Этот объект позволит вам получить доступ и управлять содержимым документа.
+Первый шаг — инициализация `Document` объект с путем к документу Word. Этот объект позволит вам получить доступ и управлять содержимым документа.
 
 ```csharp
 // Путь к каталогу документов.
@@ -91,26 +93,31 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 
 ### Могу ли я отфильтровать редакции по определенному автору?
 
- Да, вы можете отфильтровать редакции по определенному автору, отметив галочкой`Author` собственность каждого`RevisionGroup` во время итерации.
+Да, вы можете отфильтровать редакции по определенному автору, отметив галочкой `Author` собственность каждого `RevisionGroup` во время итерации.
 
 ### Как получить бесплатную пробную версию Aspose.Words для .NET?
 
- Вы можете получить бесплатную пробную версию Aspose.Words для .NET[здесь](https://releases.aspose.com/).
+Вы можете получить бесплатную пробную версию Aspose.Words для .NET [здесь](https://releases.aspose.com/).
 
 ### Какие еще функции предлагает Aspose.Words for .NET для управления ревизиями?
 
- Aspose.Words для .NET предлагает такие функции, как принятие или отклонение изменений, сравнение документов и многое другое. Проверьте[документация](https://reference.aspose.com/words/net/) для получения подробной информации.
+Aspose.Words для .NET предлагает такие функции, как принятие или отклонение изменений, сравнение документов и многое другое. Проверьте [документация](https://reference.aspose.com/words/net/) для получения подробной информации.
 
 ### Возможно ли получить поддержку Aspose.Words для .NET?
 
-Да, вы можете получить поддержку от сообщества Aspose.[здесь](https://forum.aspose.com/c/words/8).
+Да, вы можете получить поддержку от сообщества Aspose. [здесь](https://forum.aspose.com/c/words/8).
 
 ### Как я могу купить Aspose.Words для .NET?
 
- Вы можете приобрести Aspose.Words для .NET[здесь](https://purchase.aspose.com/buy).
+Вы можете приобрести Aspose.Words для .NET [здесь](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

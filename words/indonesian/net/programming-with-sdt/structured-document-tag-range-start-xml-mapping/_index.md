@@ -1,14 +1,16 @@
 ---
-title: Rentang Tag Dokumen Terstruktur Mulai Pemetaan XML
-linktitle: Rentang Tag Dokumen Terstruktur Mulai Pemetaan XML
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengikat data XML secara dinamis ke tag dokumen terstruktur di Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami.
-weight: 10
-url: /id/net/programming-with-sdt/structured-document-tag-range-start-xml-mapping/
+"description": "Pelajari cara mengikat data XML secara dinamis ke tag dokumen terstruktur di Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami."
+"linktitle": "Rentang Tag Dokumen Terstruktur Mulai Pemetaan XML"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Rentang Tag Dokumen Terstruktur Mulai Pemetaan XML"
+"url": "/id/net/programming-with-sdt/structured-document-tag-range-start-xml-mapping/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rentang Tag Dokumen Terstruktur Mulai Pemetaan XML
@@ -21,7 +23,7 @@ Pernahkah Anda ingin memasukkan data XML secara dinamis ke dalam dokumen Word? N
 
 Sebelum kita masuk ke bagian pengkodean, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Aspose.Words untuk Pustaka .NET: Pastikan Anda memiliki versi terbaru. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk Pustaka .NET: Pastikan Anda memiliki versi terbaru. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau IDE lain yang mendukung C#.
 3. Pengetahuan Dasar C#: Kemampuan dalam pemrograman C# adalah suatu keharusan.
 4. Dokumen Word: Contoh dokumen Word yang dapat digunakan.
@@ -42,7 +44,7 @@ using System.Text;
 Setiap proyek memerlukan fondasi, bukan? Di sini, kami menyiapkan jalur ke direktori dokumen Anda.
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -91,7 +93,7 @@ StructuredDocumentTagRangeStart sdtRangeStart = (StructuredDocumentTagRangeStart
 
 Sekarang, saatnya untuk mengikat bagian XML kita ke SDT. Dengan menetapkan pemetaan XML, kita menentukan bagian mana dari data XML yang akan ditampilkan di SDT.
 
- XPath menunjuk ke elemen tertentu di bagian XML yang ingin kita tampilkan. Di sini, kita menunjuk ke bagian kedua`<text>` elemen dalam`<root>` elemen.
+XPath menunjuk ke elemen tertentu di bagian XML yang ingin kita tampilkan. Di sini, kita menunjuk ke bagian kedua `<text>` elemen dalam `<root>` elemen.
 
 ```csharp
 // Tetapkan pemetaan untuk StructuredDocumentTag kita
@@ -116,7 +118,7 @@ Nah, itu dia! Anda telah berhasil memetakan bagian XML ke tag dokumen terstruktu
 Tag dokumen terstruktur, yang juga dikenal sebagai kontrol konten, adalah wadah untuk jenis konten tertentu dalam dokumen Word. Tag ini dapat digunakan untuk mengikat data, membatasi penyuntingan, atau memandu pengguna dalam pembuatan dokumen.
 
 ### Bagaimana saya dapat memperbarui konten bagian XML secara dinamis?
- Anda dapat memperbarui konten bagian XML dengan memodifikasi`xmlPartContent` string sebelum menambahkannya ke dokumen. Cukup perbarui string dengan data baru dan tambahkan ke`CustomXmlParts` koleksi.
+Anda dapat memperbarui konten bagian XML dengan memodifikasi `xmlPartContent` string sebelum menambahkannya ke dokumen. Cukup perbarui string dengan data baru dan tambahkan ke `CustomXmlParts` koleksi.
 
 ### Bisakah saya mengikat beberapa bagian XML ke SDT yang berbeda dalam dokumen yang sama?
 Ya, Anda dapat mengikat beberapa bagian XML ke SDT yang berbeda dalam dokumen yang sama. Setiap SDT dapat memiliki bagian XML dan pemetaan XPath yang unik.
@@ -125,10 +127,15 @@ Ya, Anda dapat mengikat beberapa bagian XML ke SDT yang berbeda dalam dokumen ya
 Tentu saja! Anda dapat memetakan struktur XML yang kompleks ke SDT dengan menggunakan ekspresi XPath terperinci yang secara akurat menunjukkan elemen yang diinginkan dalam bagian XML.
 
 ### Bagaimana cara menghapus bagian XML dari sebuah dokumen?
- Anda dapat menghapus bagian XML dengan memanggil`Remove` metode pada`CustomXmlParts` koleksi, melewati`xmlPartId` bagian XML yang ingin Anda hapus.
+Anda dapat menghapus bagian XML dengan memanggil `Remove` metode pada `CustomXmlParts` koleksi, melewati `xmlPartId` bagian XML yang ingin Anda hapus.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

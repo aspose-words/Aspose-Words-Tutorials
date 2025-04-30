@@ -1,14 +1,16 @@
 ---
-title: Salin Header dan Footer dari Bagian Sebelumnya
-linktitle: Salin Header dan Footer dari Bagian Sebelumnya
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyalin header dan footer antar bagian dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan terperinci ini memastikan konsistensi dan profesionalisme.
-weight: 10
-url: /id/net/working-with-headers-and-footers/copy-headers-footers-from-previous-section/
+"description": "Pelajari cara menyalin header dan footer antar bagian dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan terperinci ini memastikan konsistensi dan profesionalisme."
+"linktitle": "Salin Header dan Footer dari Bagian Sebelumnya"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Salin Header dan Footer dari Bagian Sebelumnya"
+"url": "/id/net/working-with-headers-and-footers/copy-headers-footers-from-previous-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Salin Header dan Footer dari Bagian Sebelumnya
@@ -21,7 +23,7 @@ Menambahkan dan menyalin header dan footer dalam dokumen Anda dapat meningkatkan
 
 Sebelum kita masuk ke tutorial, pastikan Anda memiliki hal berikut:
 
--  Aspose.Words untuk .NET: Unduh dan instal dari[tautan unduhan](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Unduh dan instal dari [tautan unduhan](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Seperti Visual Studio, untuk menulis dan menjalankan kode C# Anda.
 - Pengetahuan Dasar C#: Keakraban dengan pemrograman C# dan kerangka kerja .NET.
 - Contoh Dokumen: Gunakan dokumen yang sudah ada atau buat yang baru seperti yang ditunjukkan dalam tutorial ini.
@@ -38,7 +40,7 @@ using System;
 
 ## Langkah 1: Buat Dokumen Baru
 
- Pertama, buat dokumen baru dan`DocumentBuilder` untuk memfasilitasi penambahan dan manipulasi konten.
+Pertama, buat dokumen baru dan `DocumentBuilder` untuk memfasilitasi penambahan dan manipulasi konten.
 
 ```csharp
 Document doc = new Document();
@@ -73,7 +75,7 @@ currentSection.HeadersFooters.Clear();
 
 ## Langkah 5: Salin Header dan Footer
 
-Salin header dan footer dari bagian sebelumnya ke bagian saat ini. Ini memastikan bahwa format dan konten konsisten di seluruh bagian.
+Salin header dan footer dari bagian sebelumnya ke bagian saat ini. Ini memastikan bahwa format dan konten konsisten di semua bagian.
 
 ```csharp
 foreach (HeaderFooter headerFooter in previousSection.HeadersFooters)
@@ -104,18 +106,23 @@ Ya, Anda dapat menyalin header dan footer antara bagian mana pun dalam dokumen W
 
 ### Bagaimana cara menangani header dan footer yang berbeda untuk halaman ganjil dan genap?
 
- Anda dapat mengatur header dan footer yang berbeda untuk halaman ganjil dan genap menggunakan`PageSetup.OddAndEvenPagesHeaderFooter` milik.
+Anda dapat mengatur header dan footer yang berbeda untuk halaman ganjil dan genap menggunakan `PageSetup.OddAndEvenPagesHeaderFooter` milik.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Words untuk .NET?
 
- Anda dapat menemukan dokumentasi lengkap di[Halaman dokumentasi API Aspose.Words](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi lengkap di [Halaman dokumentasi API Aspose.Words](https://reference.aspose.com/words/net/).
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Words untuk .NET?
 
- Ya, Anda dapat mengunduh uji coba gratis dari[halaman unduhan](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh uji coba gratis dari [halaman unduhan](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

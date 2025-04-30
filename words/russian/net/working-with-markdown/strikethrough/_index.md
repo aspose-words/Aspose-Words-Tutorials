@@ -1,14 +1,16 @@
 ---
-title: Зачеркивание
-linktitle: Зачеркивание
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как применить зачеркнутое форматирование к тексту с помощью Aspose.Words для .NET с помощью нашего пошагового руководства. Улучшите свои навыки обработки документов.
-weight: 10
-url: /ru/net/working-with-markdown/strikethrough/
+"description": "Узнайте, как применить зачеркнутое форматирование к тексту с помощью Aspose.Words для .NET с помощью нашего пошагового руководства. Улучшите свои навыки обработки документов."
+"linktitle": "Зачеркивание"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Зачеркивание"
+"url": "/ru/net/working-with-markdown/strikethrough/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Зачеркивание
@@ -21,7 +23,7 @@ url: /ru/net/working-with-markdown/strikethrough/
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
--  Aspose.Words для .NET: Загрузить[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: Загрузить [здесь](https://releases.aspose.com/words/net/).
 - .NET Framework: Убедитесь, что в вашей системе установлен .NET Framework.
 - Среда разработки: IDE, например Visual Studio.
 - Базовые знания C#: необходимо знакомство с программированием на C#.
@@ -38,7 +40,7 @@ using Aspose.Words.Saving;
 
 ## Шаг 1: Инициализация DocumentBuilder
 
- The`DocumentBuilder` класс — это мощный инструмент в Aspose.Words, позволяющий с легкостью добавлять контент в документ.
+The `DocumentBuilder` класс — это мощный инструмент в Aspose.Words, позволяющий с легкостью добавлять контент в документ.
 
 ```csharp
 // Инициализируйте DocumentBuilder.
@@ -47,7 +49,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 ## Шаг 2: Установите свойство зачеркивания
 
-Теперь применим свойство зачеркивания к нашему тексту. Это включает в себя установку`StrikeThrough` собственность`Font` возражать против`true`.
+Теперь применим свойство зачеркивания к нашему тексту. Это включает в себя установку `StrikeThrough` собственность `Font` возражать против `true`.
 
 ```csharp
 // Сделайте текст зачеркнутым.
@@ -56,7 +58,7 @@ builder.Font.StrikeThrough = true;
 
 ## Шаг 3: Напишите текст зачеркнутым
 
- Теперь, когда установлено свойство зачеркивания, мы можем добавить наш текст.`Writeln` метод добавит текст в документ.
+Теперь, когда установлено свойство зачеркивания, мы можем добавить наш текст. `Writeln` метод добавит текст в документ.
 
 ```csharp
 // Напишите текст зачеркнутым.
@@ -73,19 +75,24 @@ builder.Writeln("This text will be StrikeThrough");
 Aspose.Words для .NET — это мощная библиотека обработки документов, которая позволяет разработчикам создавать, изменять и конвертировать документы Word программными средствами.
 
 ### Могу ли я использовать Aspose.Words для .NET в коммерческом проекте?
- Да, вы можете использовать Aspose.Words для .NET в коммерческих проектах. Для вариантов покупки посетите[купить страницу](https://purchase.aspose.com/buy).
+Да, вы можете использовать Aspose.Words для .NET в коммерческих проектах. Для вариантов покупки посетите [купить страницу](https://purchase.aspose.com/buy).
 
 ### Существует ли бесплатная пробная версия Aspose.Words для .NET?
- Да, вы можете загрузить бесплатную пробную версию[здесь](https://releases.aspose.com/).
+Да, вы можете загрузить бесплатную пробную версию [здесь](https://releases.aspose.com/).
 
 ### Как получить поддержку по Aspose.Words для .NET?
-Вы можете получить поддержку от сообщества Aspose и экспертов по[форум поддержки](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от сообщества Aspose и экспертов по [форум поддержки](https://forum.aspose.com/c/words/8).
 
 ### Можно ли применять другие параметры форматирования текста с помощью Aspose.Words для .NET?
 Конечно! Aspose.Words для .NET поддерживает широкий спектр параметров форматирования текста, включая полужирный шрифт, курсив, подчеркивание и многое другое.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

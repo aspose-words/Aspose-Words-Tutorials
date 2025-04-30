@@ -1,14 +1,16 @@
 ---
-title: แทรกแผนภูมิคอลัมน์แบบง่ายในเอกสาร Word
-linktitle: แทรกแผนภูมิคอลัมน์แบบง่ายในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการแทรกแผนภูมิคอลัมน์แบบง่ายใน Word โดยใช้ Aspose.Words สำหรับ .NET ปรับปรุงเอกสารของคุณด้วยการนำเสนอข้อมูลภาพแบบไดนามิก
-weight: 10
-url: /th/net/programming-with-charts/insert-simple-column-chart/
+"description": "เรียนรู้วิธีการแทรกแผนภูมิคอลัมน์แบบง่ายใน Word โดยใช้ Aspose.Words สำหรับ .NET ปรับปรุงเอกสารของคุณด้วยการนำเสนอข้อมูลภาพแบบไดนามิก"
+"linktitle": "แทรกแผนภูมิคอลัมน์แบบง่ายในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แทรกแผนภูมิคอลัมน์แบบง่ายในเอกสาร Word"
+"url": "/th/net/programming-with-charts/insert-simple-column-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทรกแผนภูมิคอลัมน์แบบง่ายในเอกสาร Word
@@ -100,10 +102,15 @@ doc.Save(dataDir + "InsertSimpleColumnChart.docx");
 ใช่ Aspose.Words สำหรับ .NET ช่วยให้คุณเติมแผนภูมิแบบไดนามิกด้วยข้อมูลจากแหล่งภายนอก เช่น ฐานข้อมูลหรือ API
 
 ### ฉันสามารถหาทรัพยากรและการสนับสนุนเพิ่มเติมสำหรับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
- เยี่ยมชม[Aspose.Words สำหรับเอกสาร .NET](https://reference.aspose.com/words/net/) สำหรับข้อมูลอ้างอิงและตัวอย่าง API โดยละเอียด หากต้องการความช่วยเหลือ คุณสามารถเยี่ยมชมได้ที่[ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8).
+เยี่ยมชม [Aspose.Words สำหรับเอกสาร .NET](https://reference.aspose.com/words/net/) สำหรับข้อมูลอ้างอิงและตัวอย่าง API โดยละเอียด หากต้องการความช่วยเหลือ คุณสามารถเยี่ยมชมได้ที่ [ฟอรั่ม Aspose.Words](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

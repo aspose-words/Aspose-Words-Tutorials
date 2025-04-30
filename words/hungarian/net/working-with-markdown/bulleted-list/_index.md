@@ -1,33 +1,35 @@
 ---
-title: Felsorolásos lista
-linktitle: Felsorolásos lista
-second_title: Aspose.Words Document Processing API
-description: Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan hozhat létre és testreszabhat felsorolásjeles listákat Word-dokumentumokban az Aspose.Words for .NET használatával.
-weight: 10
-url: /hu/net/working-with-markdown/bulleted-list/
+"description": "Tanulja meg, hogyan hozhat létre és szabhat testre felsorolásokat Word-dokumentumokban az Aspose.Words for .NET segítségével ebből a lépésről lépésre szóló útmutatóból."
+"linktitle": "Felsorolásjeles lista"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Felsorolásjeles lista"
+"url": "/hu/net/working-with-markdown/bulleted-list/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Felsorolásos lista
+# Felsorolásjeles lista
 
 ## Bevezetés
 
-Készen áll, hogy belemerüljön az Aspose.Words for .NET világába? Ma végigvezetjük egy felsorolásos lista létrehozását a Word-dokumentumokban. Függetlenül attól, hogy ötleteket rendszerez, elemeket listáz, vagy csak egy kis szerkezetet ad a dokumentumhoz, a felsorolásjeles listák rendkívül hasznosak. Szóval, kezdjük!
+Készen állsz belevetni magad az Aspose.Words for .NET világába? Ma bemutatjuk, hogyan hozhatsz létre felsorolásjeles listákat a Word-dokumentumaidban. Akár ötleteket rendszerezel, akár elemeket listázol, vagy csak egy kis struktúrát adsz a dokumentumodhoz, a felsorolásjeles listák rendkívül hasznosak. Akkor vágjunk bele!
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a kódolási mókába, győződjünk meg arról, hogy mindennel rendelkezünk, amire szükségünk van:
+Mielőtt belevágnánk a kódolási mókába, győződjünk meg róla, hogy minden szükséges dolog megvan:
 
-1.  Aspose.Words for .NET: Győződjön meg arról, hogy telepítve van az Aspose.Words könyvtár. Ha még nincs meg, megteheti[töltse le itt](https://releases.aspose.com/words/net/).
-2. Fejlesztői környezet: AC# fejlesztői környezet, például a Visual Studio.
-3. Alapvető C# ismeretek: A C# programozás alapvető ismerete segít a követésében.
+1. Aspose.Words .NET-hez: Győződjön meg róla, hogy telepítve van az Aspose.Words könyvtár. Ha még nincs telepítve, megteheti [töltsd le itt](https://releases.aspose.com/words/net/).
+2. Fejlesztői környezet: AC# fejlesztői környezet, mint például a Visual Studio.
+3. C# alapismeretek: A C# programozás alapvető ismerete segít majd a haladásban.
 
 ## Névterek importálása
 
-Először is importáljuk a szükséges névtereket. Ez olyan, mintha kódunk zökkenőmentes működéséhez szabná a terepet.
+Először is importáljuk a szükséges névtereket. Ez olyan, mintha előkészítenénk a terepet a kódunk zökkenőmentes futtatásához.
 
 ```csharp
 using System;
@@ -35,27 +37,27 @@ using Aspose.Words;
 using Aspose.Words.Lists;
 ```
 
-Most bontsuk le a folyamatot egyszerű, kezelhető lépésekre.
+Most pedig bontsuk le a folyamatot egyszerű, könnyen kezelhető lépésekre.
 
-## 1. lépés: Hozzon létre egy új dokumentumot
+## 1. lépés: Új dokumentum létrehozása
 
-Rendben, kezdjük egy új dokumentum létrehozásával. Itt fog megtörténni minden varázslat.
+Rendben, kezdjük egy új dokumentum létrehozásával. Itt fog történni a varázslat.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 ```
 
-## 2. lépés: Alkalmazza a felsorolásjellista formátumot
+## 2. lépés: Felsorolásjeles formátum alkalmazása
 
-Ezután egy felsorolás formátumot alkalmazunk. Ez jelzi a dokumentumnak, hogy egy felsorolásjeles listát fogunk indítani.
+Ezután egy felsorolásjeles listát fogunk alkalmazni. Ez jelzi a dokumentumnak, hogy egy felsorolásjeles listát fogunk elkezdeni.
 
 ```csharp
 builder.ListFormat.ApplyBulletDefault();
 ```
 
-## 3. lépés: A felsoroláslista testreszabása
+## 3. lépés: Felsorolásjelek testreszabása
 
-Itt ízlésünk szerint testre szabjuk a felsoroláslistát. Ebben a példában egy kötőjelet (-) használunk pontként.
+Itt testreszabhatjuk a felsorolásjelek listáját a saját ízlésünk szerint. Ebben a példában egy kötőjelet (-) fogunk használni felsorolásjelként.
 
 ```csharp
 builder.ListFormat.List.ListLevels[0].NumberFormat = "-";
@@ -63,7 +65,7 @@ builder.ListFormat.List.ListLevels[0].NumberFormat = "-";
 
 ## 4. lépés: Listaelemek hozzáadása
 
-Most adjunk hozzá néhány elemet a felsorolt listánkhoz. Itt kreatívkodhat, és bármilyen tartalmat hozzáadhat, amire szüksége van.
+Most adjunk hozzá néhány elemet a felsorolásunkhoz. Itt szabadjára engedheted a kreativitásodat, és bármilyen tartalmat hozzáadhatsz, amire szükséged van.
 
 ```csharp
 builder.Writeln("Item 1");
@@ -72,40 +74,45 @@ builder.Writeln("Item 2");
 
 ## 5. lépés: Alelemek hozzáadása
 
-A dolgok érdekesebbé tétele érdekében adjunk hozzá néhány altételt a „2. tétel” alatt. Ez segít az alpontok rendszerezésében.
+Hogy érdekesebbé tegyük a dolgokat, adjunk hozzá néhány alpontot a „2. pont” alá. Ez segít az alpontok rendszerezésében.
 
 ```csharp
 builder.ListFormat.ListIndent();
 builder.Writeln("Item 2a");
 builder.Writeln("Item 2b");
-builder.ListFormat.ListOutdent(); // Visszatérés a fő lista szintjére
+builder.ListFormat.ListOutdent(); // Vissza a fő listaszintre
 ```
 
 ## Következtetés
 
-És megvan! Éppen most hozott létre egy felsorolásjeles listát egy Word-dokumentumban az Aspose.Words for .NET használatával. Ez egy egyszerű folyamat, de hihetetlenül hatékony a dokumentumok rendszerezéséhez. Akár egyszerű listákat, akár összetett, egymásba ágyazott listákat hoz létre, az Aspose.Words mindent megtalál.
+És íme! Most hoztál létre egy felsorolásjeles listát egy Word dokumentumban az Aspose.Words for .NET segítségével. Ez egy egyszerű folyamat, de hihetetlenül hatékony a dokumentumok rendszerezéséhez. Akár egyszerű listákat, akár összetett beágyazott listákat hozol létre, az Aspose.Words mindent megold.
 
-Nyugodtan kísérletezzen a különböző listastílusokkal és -formátumokkal az igényeinek megfelelően. Boldog kódolást!
+Nyugodtan kísérletezz különböző listastílusokkal és formátumokkal az igényeidnek megfelelően. Jó kódolást!
 
 ## GYIK
 
 ### Használhatok különböző felsorolásjeleket a listában?
-    Igen, testreszabhatja a felsorolásjeleket a`NumberFormat` ingatlan.
+   Igen, testreszabhatja a felsorolásjelek szimbólumait a módosításával. `NumberFormat` ingatlan.
 
 ### Hogyan adhatok hozzá több behúzási szintet?
-    Használja a`ListIndent` módszer további szintek hozzáadásához és`ListOutdent` hogy visszatérjen egy magasabb szintre.
+   Használd a `ListIndent` módszer további szintek hozzáadására és `ListOutdent` hogy visszatérhessek egy magasabb szintre.
 
-### Lehet-e keverni a felsorolásjeleket és a számlistákat?
-   Teljesen! A felsorolásjelek és a számformátumok között a gombbal válthat`ApplyNumberDefault` és`ApplyBulletDefault` mód.
+### Lehetséges a felsorolásjeles és számozott listák keverése?
+   Természetesen! A felsorolásjelek és a számozási formátumok között válthat a következővel: `ApplyNumberDefault` és `ApplyBulletDefault` mód.
 
-### Stílusozhatom a szöveget a listaelemekben?
-    Igen, különböző stílusokat, betűtípusokat és formázásokat alkalmazhat a listaelemeken belüli szövegre a segítségével`Font` tulajdona a`DocumentBuilder`.
+### Stílusozhatom a listaelemek szövegét?
+   Igen, a listaelemeken belüli szövegre különböző stílusokat, betűtípusokat és formázásokat alkalmazhat a `Font` a tulajdona `DocumentBuilder`.
 
-### Hogyan hozhatok létre többoszlopos felsorolásjeles listát?
-   A táblázat formázásával több oszlopból álló listákat hozhat létre, ahol minden cella külön felsorolásjeles listát tartalmaz.
+### Hogyan hozhatok létre egy több oszlopból álló felsorolásjeles listát?
+   Táblázatformázás segítségével több oszlopos listákat hozhat létre, ahol minden cella külön felsorolást tartalmaz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

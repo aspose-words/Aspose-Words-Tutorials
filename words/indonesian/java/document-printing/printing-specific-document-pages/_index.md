@@ -1,14 +1,16 @@
 ---
-title: Mencetak Halaman Dokumen Tertentu
-linktitle: Mencetak Halaman Dokumen Tertentu
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara mencetak halaman tertentu dari dokumen Word menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah untuk pengembang Java.
-weight: 13
-url: /id/java/document-printing/printing-specific-document-pages/
+"description": "Pelajari cara mencetak halaman tertentu dari dokumen Word menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah untuk pengembang Java."
+"linktitle": "Mencetak Halaman Dokumen Tertentu"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Mencetak Halaman Dokumen Tertentu"
+"url": "/id/java/document-printing/printing-specific-document-pages/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mencetak Halaman Dokumen Tertentu
@@ -29,7 +31,7 @@ Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
 ## Buat Proyek Java Baru
 
-Mari kita mulai dengan membuat proyek Java baru di IDE pilihan Anda. Anda dapat menamainya apa pun yang Anda suka. Proyek ini akan berfungsi sebagai ruang kerja untuk mencetak halaman dokumen tertentu.
+Mari kita mulai dengan membuat proyek Java baru di IDE pilihan Anda. Anda dapat menamainya apa pun yang Anda suka. Proyek ini akan berfungsi sebagai ruang kerja kita untuk mencetak halaman dokumen tertentu.
 
 ## Tambahkan Ketergantungan Aspose.Words
 
@@ -61,7 +63,7 @@ public class PrintSpecificPages {
 
 ## Tentukan Halaman yang Akan Dicetak
 
- Sekarang, mari tentukan halaman mana yang ingin Anda cetak. Anda dapat menggunakan`PageRange` kelas untuk menentukan rentang halaman yang Anda perlukan. Misalnya, untuk mencetak halaman 3 hingga 5:
+Sekarang, mari tentukan halaman mana yang ingin Anda cetak. Anda dapat menggunakan `PageRange` kelas untuk menentukan rentang halaman yang Anda perlukan. Misalnya, untuk mencetak halaman 3 hingga 5:
 
 ```java
 PageRange pageRange = new PageRange(3, 5);
@@ -72,7 +74,7 @@ PageRange pageRange = new PageRange(3, 5);
 Setelah rentang halaman ditentukan, Anda dapat mencetak dokumen menggunakan fitur pencetakan Aspose.Words. Berikut ini cara mencetak halaman yang ditentukan ke printer:
 
 ```java
-//Buat objek PrintOptions
+// Buat objek PrintOptions
 PrintOptions printOptions = new PrintOptions();
 printOptions.setPageRanges(new PageRange[] { pageRange });
 
@@ -88,7 +90,7 @@ Dalam tutorial ini, kita telah mempelajari cara mencetak halaman tertentu dari d
 
 ### Bagaimana cara mencetak beberapa halaman yang tidak berurutan dari dokumen Word?
 
- Untuk mencetak beberapa halaman yang tidak berurutan, Anda dapat membuat beberapa`PageRange` objek dan tentukan rentang halaman yang diinginkan. Kemudian, tambahkan ini`PageRange` objek ke`PageRanges` susunan dalam`PrintOptions` obyek.
+Untuk mencetak beberapa halaman yang tidak berurutan, Anda dapat membuat beberapa `PageRange` objek dan tentukan rentang halaman yang diinginkan. Kemudian, tambahkan ini `PageRange` objek ke `PageRanges` susunan dalam `PrintOptions` obyek.
 
 ### Apakah Aspose.Words untuk Java kompatibel dengan berbagai format dokumen?
 
@@ -96,18 +98,23 @@ Ya, Aspose.Words untuk Java mendukung berbagai format dokumen, termasuk DOCX, DO
 
 ### Bisakah saya mencetak bagian tertentu dari dokumen Word?
 
- Ya, Anda dapat mencetak bagian tertentu dari dokumen Word dengan menentukan halaman dalam bagian tersebut menggunakan`PageRange`kelas. Ini memberi Anda kendali terperinci atas apa yang akan dicetak.
+Ya, Anda dapat mencetak bagian tertentu dari dokumen Word dengan menentukan halaman dalam bagian tersebut menggunakan `PageRange` kelas. Ini memberi Anda kendali terperinci atas apa yang akan dicetak.
 
 ### Bagaimana cara mengatur opsi cetak tambahan, seperti orientasi halaman dan ukuran kertas?
 
- Anda dapat mengatur opsi cetak tambahan, seperti orientasi halaman dan ukuran kertas, dengan mengonfigurasi`PrintOptions` objek sebelum mencetak dokumen. Gunakan metode seperti`setOrientation` Dan`setPaperSize` untuk menyesuaikan pengaturan cetak.
+Anda dapat mengatur opsi cetak tambahan, seperti orientasi halaman dan ukuran kertas, dengan mengonfigurasi `PrintOptions` objek sebelum mencetak dokumen. Gunakan metode seperti `setOrientation` Dan `setPaperSize` untuk menyesuaikan pengaturan cetak.
 
 ### Apakah ada versi uji coba Aspose.Words untuk Java yang tersedia?
 
 Ya, Anda dapat mengunduh versi uji coba Aspose.Words untuk Java dari situs web. Dengan demikian, Anda dapat menjelajahi fitur-fitur pustaka dan melihat apakah pustaka tersebut memenuhi persyaratan Anda sebelum membeli lisensi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

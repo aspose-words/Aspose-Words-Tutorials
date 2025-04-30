@@ -1,14 +1,16 @@
 ---
-title: Mã hóa tài liệu bằng mật khẩu
-linktitle: Mã hóa tài liệu bằng mật khẩu
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách mã hóa tài liệu bằng mật khẩu bằng Aspose.Words cho .NET trong hướng dẫn chi tiết từng bước này. Bảo mật thông tin nhạy cảm của bạn một cách dễ dàng.
-weight: 10
-url: /vi/net/programming-with-docsaveoptions/encrypt-document-with-password/
+"description": "Tìm hiểu cách mã hóa tài liệu bằng mật khẩu bằng Aspose.Words cho .NET trong hướng dẫn chi tiết từng bước này. Bảo mật thông tin nhạy cảm của bạn một cách dễ dàng."
+"linktitle": "Mã hóa tài liệu bằng mật khẩu"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Mã hóa tài liệu bằng mật khẩu"
+"url": "/vi/net/programming-with-docsaveoptions/encrypt-document-with-password/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mã hóa tài liệu bằng mật khẩu
@@ -20,10 +22,10 @@ Bạn đã bao giờ thấy mình cần bảo mật một tài liệu bằng m�
 ## Điều kiện tiên quyết
 
 Trước khi bắt tay vào viết mã, bạn cần chuẩn bị một số thứ sau:
-1.  Aspose.Words cho .NET: Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE C# nào bạn chọn.
 3. .NET Framework: Đảm bảo bạn đã cài đặt nó.
-4.  Giấy phép: Bạn có thể bắt đầu với một[dùng thử miễn phí](https://releases.aspose.com/) hoặc nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để có đầy đủ tính năng.
+4. Giấy phép: Bạn có thể bắt đầu với một [dùng thử miễn phí](https://releases.aspose.com/) hoặc nhận được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để có đầy đủ tính năng.
 
 Bạn đã hiểu hết chưa? Tuyệt! Chúng ta hãy chuyển sang thiết lập dự án của mình.
 
@@ -97,7 +99,7 @@ Và bạn đã có nó! Bạn vừa học cách mã hóa tài liệu bằng mậ
 ## Câu hỏi thường gặp
 
 ### Tôi có thể sử dụng loại mã hóa khác không?
- Có, Aspose.Words cho .NET hỗ trợ nhiều phương pháp mã hóa khác nhau. Kiểm tra[tài liệu](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
+Có, Aspose.Words cho .NET hỗ trợ nhiều phương pháp mã hóa khác nhau. Kiểm tra [tài liệu](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
 
 ### Tôi phải làm sao nếu quên mật khẩu tài liệu?
 Thật không may, nếu bạn quên mật khẩu, bạn sẽ không thể truy cập tài liệu. Hãy đảm bảo giữ mật khẩu của bạn an toàn!
@@ -110,9 +112,14 @@ Có, bằng cách lưu tài liệu mà không chỉ định mật khẩu, bạn 
 
 ### Mã hóa mà Aspose.Words cung cấp cho .NET an toàn đến mức nào?
 Aspose.Words cho .NET sử dụng các tiêu chuẩn mã hóa mạnh mẽ, đảm bảo tài liệu của bạn được bảo vệ tốt.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

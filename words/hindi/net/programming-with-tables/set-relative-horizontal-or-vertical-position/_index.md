@@ -1,14 +1,16 @@
 ---
-title: सापेक्ष क्षैतिज या ऊर्ध्वाधर स्थिति सेट करें
-linktitle: सापेक्ष क्षैतिज या ऊर्ध्वाधर स्थिति सेट करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में तालिकाओं के लिए सापेक्ष क्षैतिज और ऊर्ध्वाधर स्थिति निर्धारित करना सीखें।
-weight: 10
-url: /hi/net/programming-with-tables/set-relative-horizontal-or-vertical-position/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में तालिकाओं के लिए सापेक्ष क्षैतिज और ऊर्ध्वाधर स्थिति निर्धारित करना सीखें।"
+"linktitle": "सापेक्ष क्षैतिज या ऊर्ध्वाधर स्थिति सेट करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "सापेक्ष क्षैतिज या ऊर्ध्वाधर स्थिति सेट करें"
+"url": "/hi/net/programming-with-tables/set-relative-horizontal-or-vertical-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # सापेक्ष क्षैतिज या ऊर्ध्वाधर स्थिति सेट करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-tables/set-relative-horizontal-or-vertical-positio
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1.  .NET के लिए Aspose.Words: यदि आपने अभी तक इसे डाउनलोड नहीं किया है, तो आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. .NET के लिए Aspose.Words: यदि आपने अभी तक इसे डाउनलोड नहीं किया है, तो आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विज़ुअल स्टूडियो या कोई अन्य .NET-संगत IDE.
 3. C# का बुनियादी ज्ञान: यह ट्यूटोरियल मानता है कि आप C# प्रोग्रामिंग की मूल बातों से परिचित हैं।
 
@@ -36,10 +38,10 @@ using Aspose.Words.Tables;
 
 ## चरण 1: अपना दस्तावेज़ लोड करें
 
-आरंभ करने के लिए, आपको अपने वर्ड दस्तावेज़ को प्रोग्राम में लोड करना होगा। आप इसे इस प्रकार कर सकते हैं:
+आरंभ करने के लिए, आपको अपने Word दस्तावेज़ को प्रोग्राम में लोड करना होगा। आप इसे इस प्रकार कर सकते हैं:
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Table wrapped by text.docx");
@@ -59,13 +61,13 @@ Table table = doc.FirstSection.Body.Tables[0];
 
 ## चरण 3: क्षैतिज स्थिति सेट करें
 
-अब, आइए किसी विशिष्ट तत्व के सापेक्ष तालिका की क्षैतिज स्थिति निर्धारित करें। इस उदाहरण में, हम इसे कॉलम के सापेक्ष स्थिति देंगे।
+अब, आइए किसी विशिष्ट तत्व के सापेक्ष तालिका की क्षैतिज स्थिति निर्धारित करें। इस उदाहरण में, हम इसे कॉलम के सापेक्ष स्थितिबद्ध करेंगे।
 
 ```csharp
 table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 ```
 
- सेट करके`HorizontalAnchor` को`RelativeHorizontalPosition.Column`, आप तालिका को उस स्तंभ के संबंध में क्षैतिज रूप से संरेखित करने के लिए कह रहे हैं जिसमें वह स्थित है।
+सेट करके `HorizontalAnchor` को `RelativeHorizontalPosition.Column`, आप तालिका को उस स्तंभ के संबंध में क्षैतिज रूप से संरेखित करने के लिए कह रहे हैं जिसमें वह स्थित है।
 
 ## चरण 4: ऊर्ध्वाधर स्थिति सेट करें
 
@@ -75,7 +77,7 @@ table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 table.VerticalAnchor = RelativeVerticalPosition.Page;
 ```
 
- सेटिंग`VerticalAnchor` को`RelativeVerticalPosition.Page` यह सुनिश्चित करता है कि तालिका पृष्ठ के अनुसार लंबवत संरेखित है।
+सेटिंग `VerticalAnchor` को `RelativeVerticalPosition.Page` यह सुनिश्चित करता है कि तालिका पृष्ठ के अनुसार लंबवत संरेखित है।
 
 ## चरण 5: अपना दस्तावेज़ सहेजें
 
@@ -97,19 +99,24 @@ doc.Save(dataDir + "WorkingWithTables.SetFloatingTablePosition.docx");
 हां, Aspose.Words आपको विभिन्न तत्वों जैसे मार्जिन, पेज, कॉलम आदि के सापेक्ष तालिकाओं को स्थान देने की अनुमति देता है।
 
 ### क्या मुझे .NET के लिए Aspose.Words का उपयोग करने के लिए लाइसेंस की आवश्यकता है?  
- हां, आप लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+हां, आप लाइसेंस खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस प्राप्त करें [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### क्या .NET के लिए Aspose.Words का निःशुल्क परीक्षण उपलब्ध है?  
- बिलकुल! आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+बिलकुल! आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### क्या मैं अन्य प्रोग्रामिंग भाषाओं के साथ Aspose.Words का उपयोग कर सकता हूँ?  
 Aspose.Words मुख्यतः .NET के लिए डिज़ाइन किया गया है, लेकिन Java, Python और अन्य प्लेटफ़ॉर्म के लिए भी इसके संस्करण उपलब्ध हैं।
 
 ### मैं अधिक विस्तृत दस्तावेज कहां पा सकता हूं?  
-अधिक गहन जानकारी के लिए, Aspose.Words दस्तावेज़ देखें[यहाँ](https://reference.aspose.com/words/net/).
+अधिक गहन जानकारी के लिए, Aspose.Words दस्तावेज़ देखें [यहाँ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: प्रत्येक अनुभाग पर सूची पुनः आरंभ करें
-linktitle: प्रत्येक अनुभाग पर सूची पुनः आरंभ करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में प्रत्येक अनुभाग पर सूचियों को पुनः आरंभ करने का तरीका जानें। सूचियों को प्रभावी ढंग से प्रबंधित करने के लिए हमारे विस्तृत चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/working-with-list/restart-list-at-each-section/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में प्रत्येक अनुभाग पर सूचियों को पुनः आरंभ करने का तरीका जानें। सूचियों को प्रभावी ढंग से प्रबंधित करने के लिए हमारे विस्तृत चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "प्रत्येक अनुभाग पर सूची पुनः आरंभ करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "प्रत्येक अनुभाग पर सूची पुनः आरंभ करें"
+"url": "/hi/net/working-with-list/restart-list-at-each-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # प्रत्येक अनुभाग पर सूची पुनः आरंभ करें
@@ -21,14 +23,14 @@ url: /hi/net/working-with-list/restart-list-at-each-section/
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1.  .NET के लिए Aspose.Words: नवीनतम संस्करण डाउनलोड करें और इंस्टॉल करें[एस्पोज रिलीज](https://releases.aspose.com/words/net/) पृष्ठ.
+1. Aspose.Words for .NET: नवीनतम संस्करण डाउनलोड करें और इंस्टॉल करें [एस्पोज रिलीज](https://releases.aspose.com/words/net/) पृष्ठ.
 2. .NET वातावरण: .NET स्थापित करके अपना विकास वातावरण सेट करें।
 3. C# की बुनियादी समझ: C# प्रोग्रामिंग भाषा से परिचित होना अनुशंसित है।
-4.  Aspose लाइसेंस: आप एक का विकल्प चुन सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) यदि आपके पास नहीं है.
+4. Aspose लाइसेंस: आप एक का विकल्प चुन सकते हैं [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) यदि आपके पास नहीं है.
 
 ## नामस्थान आयात करें
 
-कोड लिखने से पहले, सुनिश्चित करें कि आपने आवश्यक नेमस्पेस आयात कर लिए हैं:
+कोड लिखने से पहले, सुनिश्चित करें कि आपने आवश्यक नामस्थान आयात कर लिए हैं:
 
 ```csharp
 using System;
@@ -55,9 +57,9 @@ Document doc = new Document();
 doc.Lists.Add(ListTemplate.NumberDefault);
 ```
 
-## चरण 3: सूची तक पहुंचें और पुनः आरंभ संपत्ति सेट करें
+## चरण 3: सूची तक पहुंचें और पुनरारंभ संपत्ति सेट करें
 
-आपके द्वारा अभी-अभी बनाई गई सूची को पुनः प्राप्त करें और उसका नाम सेट करें`IsRestartAtEachSection`संपत्ति को`true`यह सुनिश्चित करता है कि सूची प्रत्येक नए अनुभाग पर क्रमांकन पुनः आरंभ करे।
+आपके द्वारा अभी-अभी बनाई गई सूची को पुनः प्राप्त करें और उसका नाम सेट करें `IsRestartAtEachSection` संपत्ति को `true`यह सुनिश्चित करता है कि सूची प्रत्येक नए अनुभाग पर क्रमांकन पुनः आरंभ करे।
 
 ```csharp
 List list = doc.Lists[0];
@@ -66,7 +68,7 @@ list.IsRestartAtEachSection = true;
 
 ## चरण 4: एक दस्तावेज़ बिल्डर बनाएं और सूची संबद्ध करें
 
- एक बनाने के`DocumentBuilder` दस्तावेज़ में सामग्री सम्मिलित करने और उसे सूची के साथ संबद्ध करने के लिए.
+एक बनाने के `DocumentBuilder` दस्तावेज़ में सामग्री सम्मिलित करने और उसे सूची के साथ संबद्ध करने के लिए.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -106,7 +108,7 @@ doc.Save(dataDir + "WorkingWithList.RestartListAtEachSection.docx", options);
 हां, .NET के लिए Aspose.Words आपको बुलेट और क्रमांकित सूचियों सहित विभिन्न सूची प्रकारों को पुनः आरंभ करने की अनुमति देता है।
 
 ### यदि मैं नंबरिंग प्रारूप को अनुकूलित करना चाहूँ तो क्या होगा?
- आप संख्या प्रारूप को संशोधित करके अनुकूलित कर सकते हैं`ListTemplate` सूची बनाते समय संपत्ति का उपयोग करें।
+आप संख्या प्रारूप को संशोधित करके अनुकूलित कर सकते हैं `ListTemplate` सूची बनाते समय संपत्ति का उपयोग करें।
 
 ### क्या सूची में आइटमों की संख्या की कोई सीमा होती है?
 नहीं, .NET के लिए Aspose.Words का उपयोग करके सूची में आइटमों की संख्या की कोई विशिष्ट सीमा नहीं है।
@@ -115,10 +117,15 @@ doc.Save(dataDir + "WorkingWithList.RestartListAtEachSection.docx", options);
 हां, आप सूची संरचना को बनाए रखते हुए Word दस्तावेज़ों को PDF जैसे अन्य प्रारूपों में परिवर्तित करने के लिए Aspose.Words का उपयोग कर सकते हैं।
 
 ### मैं .NET के लिए Aspose.Words का निःशुल्क परीक्षण कैसे प्राप्त कर सकता हूँ?
- आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं[एस्पोज रिलीज](https://releases.aspose.com/) पृष्ठ.
+आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं [एस्पोज रिलीज](https://releases.aspose.com/) पृष्ठ.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

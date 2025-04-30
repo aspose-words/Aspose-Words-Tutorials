@@ -1,14 +1,16 @@
 ---
-title: Pindahkan Untuk Menggabungkan Bidang Dalam Dokumen Word
-linktitle: Pindahkan Untuk Menggabungkan Bidang Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara berpindah ke bidang gabungan dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami yang komprehensif. Sempurna untuk pengembang .NET.
-weight: 10
-url: /id/net/add-content-using-documentbuilder/move-to-merge-field/
+"description": "Pelajari cara berpindah ke bidang gabungan dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami yang komprehensif. Sempurna untuk pengembang .NET."
+"linktitle": "Pindahkan Untuk Menggabungkan Bidang Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Pindahkan Untuk Menggabungkan Bidang Dalam Dokumen Word"
+"url": "/id/net/add-content-using-documentbuilder/move-to-merge-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pindahkan Untuk Menggabungkan Bidang Dalam Dokumen Word
@@ -21,8 +23,8 @@ Hai! Pernahkah Anda menemukan diri Anda terkubur dalam dokumen Word, mencoba men
 
 Sebelum kita masuk ke inti permasalahan, mari kita persiapkan segala sesuatunya. Berikut ini hal-hal yang Anda perlukan untuk memulai:
 
--  Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Jika belum, Anda dapat mengunduhnya[Di Sini](https://visualstudio.microsoft.com/).
--  Aspose.Words untuk .NET: Anda memerlukan pustaka Aspose.Words. Anda dapat mengunduhnya dari[tautan ini](https://releases.aspose.com/words/net/).
+- Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Jika belum, Anda dapat mengunduhnya [Di Sini](https://visualstudio.microsoft.com/).
+- Aspose.Words untuk .NET: Anda memerlukan pustaka Aspose.Words. Anda dapat mengunduhnya dari [tautan ini](https://releases.aspose.com/words/net/).
 - .NET Framework: Pastikan Anda telah menginstal .NET Framework.
 
 ## Mengimpor Ruang Nama
@@ -45,7 +47,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Pada langkah ini, kita menginisialisasi dokumen baru dan`DocumentBuilder` objek. Itu`DocumentBuilder` adalah alat Anda untuk menyusun dokumen.
+Pada langkah ini, kita menginisialisasi dokumen baru dan `DocumentBuilder` objek. Itu `DocumentBuilder` adalah alat Anda untuk menyusun dokumen.
 
 ## Langkah 2: Masukkan Bidang Gabungan
 
@@ -60,13 +62,13 @@ Di sini, kita masukkan kolom gabungan bernama "field" dan tambahkan beberapa tek
 
 ## Langkah 3: Pindahkan Kursor ke Akhir Dokumen
 
-Sekarang, mari kita pindahkan kursor ke akhir dokumen. Ini seperti menaruh pena di akhir catatan, siap untuk menambahkan informasi lebih lanjut.
+Sekarang, mari kita pindahkan kursor ke bagian akhir dokumen. Ini seperti menaruh pena di bagian akhir catatan, siap untuk menambahkan informasi lebih lanjut.
 
 ```csharp
 builder.MoveToDocumentEnd();
 ```
 
- Perintah ini memindahkan`DocumentBuilder` kursor ke akhir dokumen, mempersiapkan kita untuk langkah berikutnya.
+Perintah ini memindahkan `DocumentBuilder` kursor ke akhir dokumen, mempersiapkan kita untuk langkah berikutnya.
 
 ## Langkah 4: Pindah ke Bidang Gabungan
 
@@ -97,7 +99,7 @@ Cuplikan ini memeriksa apakah kursor berada di akhir dokumen dan mencetak pesan 
 
 ## Langkah 6: Tulis Teks Setelah Kolom
 
-Terakhir, mari tambahkan beberapa teks segera setelah kolom gabungan. Ini adalah sentuhan akhir untuk dokumen kita.
+Terakhir, mari tambahkan beberapa teks segera setelah kolom gabungan. Ini adalah sentuhan akhir pada dokumen kita.
 
 ```csharp
 builder.Write(" Text immediately after the field.");
@@ -115,19 +117,24 @@ Nah, itu dia! Berpindah ke bidang gabungan dalam dokumen Word menggunakan Aspose
 Aspose.Words untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memodifikasi, dan mengonversi dokumen Word secara terprogram menggunakan kerangka kerja .NET.
 
 ### Bagaimana cara menginstal Aspose.Words untuk .NET?
- Anda dapat mengunduh dan menginstal Aspose.Words untuk .NET dari[Di Sini](https://releases.aspose.com/words/net/)Ikuti petunjuk instalasi yang tersedia di situs web.
+Anda dapat mengunduh dan menginstal Aspose.Words untuk .NET dari [Di Sini](https://releases.aspose.com/words/net/)Ikuti petunjuk instalasi yang tersedia di situs web.
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET dengan .NET Core?
- Ya, Aspose.Words untuk .NET kompatibel dengan .NET Core. Anda dapat menemukan informasi lebih lanjut di[dokumentasi](https://reference.aspose.com/words/net/).
+Ya, Aspose.Words untuk .NET kompatibel dengan .NET Core. Anda dapat menemukan informasi lebih lanjut di [dokumentasi](https://reference.aspose.com/words/net/).
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Words?
- Anda dapat memperoleh lisensi sementara dari[tautan ini](https://purchase.aspose.com/temporary-license/).
+Anda dapat memperoleh lisensi sementara dari [tautan ini](https://purchase.aspose.com/temporary-license/).
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dukungan untuk Aspose.Words untuk .NET?
- Untuk contoh dan dukungan lebih lanjut, kunjungi[Aspose.Words untuk forum .NET](https://forum.aspose.com/c/words/8).
+Untuk contoh dan dukungan lebih lanjut, kunjungi [Aspose.Words untuk forum .NET](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

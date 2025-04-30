@@ -1,14 +1,16 @@
 ---
-title: Java के लिए Aspose.Words में ODT प्रारूप में दस्तावेज़ सहेजना
-linktitle: दस्तावेज़ों को ODT प्रारूप में सहेजना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: जावा के लिए Aspose.Words का उपयोग करके ODT प्रारूप में दस्तावेज़ों को सहेजना सीखें। ओपन-सोर्स ऑफ़िस सुइट्स के साथ संगतता सुनिश्चित करें।
-weight: 19
-url: /hi/java/document-loading-and-saving/saving-documents-as-odt-format/
+"description": "Java के लिए Aspose.Words का उपयोग करके ODT प्रारूप में दस्तावेज़ों को सहेजना सीखें। ओपन-सोर्स ऑफ़िस सुइट्स के साथ संगतता सुनिश्चित करें।"
+"linktitle": "दस्तावेज़ों को ODT प्रारूप में सहेजना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "Java के लिए Aspose.Words में ODT प्रारूप में दस्तावेज़ सहेजना"
+"url": "/hi/java/document-loading-and-saving/saving-documents-as-odt-format/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java के लिए Aspose.Words में ODT प्रारूप में दस्तावेज़ सहेजना
@@ -24,7 +26,7 @@ url: /hi/java/document-loading-and-saving/saving-documents-as-odt-format/
 
 1. जावा डेवलपमेंट एनवायरनमेंट: सुनिश्चित करें कि आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
 
-2.  Aspose.Words for Java: Aspose.Words for Java लाइब्रेरी डाउनलोड करें और इंस्टॉल करें। आप डाउनलोड लिंक पा सकते हैं[यहाँ](https://releases.aspose.com/words/java/).
+2. Aspose.Words for Java: Aspose.Words for Java लाइब्रेरी डाउनलोड करें और इंस्टॉल करें। आप डाउनलोड लिंक पा सकते हैं [यहाँ](https://releases.aspose.com/words/java/).
 
 3. नमूना दस्तावेज़: एक नमूना Word दस्तावेज़ (जैसे, "Document.docx") रखें जिसे आप ODT प्रारूप में परिवर्तित करना चाहते हैं।
 
@@ -36,7 +38,7 @@ url: /hi/java/document-loading-and-saving/saving-documents-as-odt-format/
 Document doc = new Document("Your Directory Path" + "Document.docx");
 ```
 
- यहाँ,`"Your Directory Path"` उस निर्देशिका की ओर इंगित करना चाहिए जहां आपका दस्तावेज़ स्थित है।
+यहाँ, `"Your Directory Path"` उस निर्देशिका की ओर इंगित करना चाहिए जहां आपका दस्तावेज़ स्थित है।
 
 ## चरण 2: ODT सहेजें विकल्प निर्दिष्ट करें
 
@@ -55,7 +57,7 @@ saveOptions.setMeasureUnit(OdtSaveMeasureUnit.INCHES);
 doc.save("Your Directory Path" + "WorkingWithOdtSaveOptions.MeasureUnit.odt", saveOptions);
 ```
 
- यहाँ,`"Your Directory Path"` उस निर्देशिका की ओर इंगित करना चाहिए जहां आप परिवर्तित ODT फ़ाइल को सहेजना चाहते हैं।
+यहाँ, `"Your Directory Path"` उस निर्देशिका की ओर इंगित करना चाहिए जहां आप परिवर्तित ODT फ़ाइल को सहेजना चाहते हैं।
 
 ## जावा के लिए Aspose.Words में ODT प्रारूप के रूप में दस्तावेज़ों को सहेजने के लिए पूर्ण स्रोत कोड
 
@@ -75,7 +77,7 @@ doc.save("Your Directory Path" + "WorkingWithOdtSaveOptions.MeasureUnit.odt", sa
 
 ### मैं Java के लिए Aspose.Words कैसे डाउनलोड कर सकता हूँ?
 
- आप Aspose.Words for Java को Aspose वेबसाइट से डाउनलोड कर सकते हैं।[इस लिंक](https://releases.aspose.com/words/java/) डाउनलोड पृष्ठ तक पहुंचने के लिए.
+आप Aspose.Words for Java को Aspose वेबसाइट से डाउनलोड कर सकते हैं। [इस लिंक](https://releases.aspose.com/words/java/) डाउनलोड पृष्ठ तक पहुंचने के लिए.
 
 ### दस्तावेजों को ODT प्रारूप में सहेजने का क्या लाभ है?
 
@@ -92,9 +94,14 @@ ODT प्रारूप में दस्तावेजों को सह
 ### क्या Aspose.Words for Java नवीनतम Java संस्करणों के साथ संगत है?
 
 Aspose.Words for Java को नियमित रूप से नवीनतम Java संस्करणों का समर्थन करने के लिए अपडेट किया जाता है, जिससे संगतता और प्रदर्शन में सुधार सुनिश्चित होता है। नवीनतम जानकारी के लिए दस्तावेज़ में सिस्टम आवश्यकताओं की जांच करना सुनिश्चित करें।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

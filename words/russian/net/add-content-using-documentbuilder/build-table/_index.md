@@ -1,14 +1,16 @@
 ---
-title: Создать таблицу в документе Word
-linktitle: Создать таблицу в документе Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как создать таблицу в документе Word с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства. Идеально подходит как для новичков, так и для профессионалов.
-weight: 10
-url: /ru/net/add-content-using-documentbuilder/build-table/
+"description": "Узнайте, как создать таблицу в документе Word с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства. Идеально подходит как для новичков, так и для профессионалов."
+"linktitle": "Создать таблицу в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Создать таблицу в документе Word"
+"url": "/ru/net/add-content-using-documentbuilder/build-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создать таблицу в документе Word
@@ -25,7 +27,7 @@ url: /ru/net/add-content-using-documentbuilder/build-table/
 - .NET Framework (4.0 или выше)
 - Библиотека Aspose.Words для .NET
 
- Если у вас еще нет Aspose.Words, вы можете легко[скачать здесь](https://releases.aspose.com/words/net/) . Вы также можете начать с[бесплатная пробная версия](https://releases.aspose.com/) если вы хотите проверить воду. Для тех, кто готов сделать решительный шаг, вы можете[купить лицензию](https://purchase.aspose.com/buy) или если вам нужно больше времени для оценки, возьмите[временная лицензия](https://purchase.aspose.com/temporary-license/).
+Если у вас еще нет Aspose.Words, вы можете легко [скачать здесь](https://releases.aspose.com/words/net/). Вы также можете начать с [бесплатная пробная версия](https://releases.aspose.com/) если вы хотите проверить воду. Для тех, кто готов сделать решительный шаг, вы можете [купить лицензию](https://purchase.aspose.com/buy), или если вам нужно больше времени для оценки, возьмите [временная лицензия](https://purchase.aspose.com/temporary-license/).
 
 ## Импорт пространств имен
 
@@ -41,18 +43,18 @@ using Aspose.Words.Tables;
 
 ## Шаг 1: Инициализация документа и DocumentBuilder
 
- Сначала нам нужно настроить наш документ и конструктор документов.`Document` класс представляет документ Word, а`DocumentBuilder` — наш удобный инструмент для добавления в него контента.
+Сначала нам нужно настроить наш документ и конструктор документов. `Document` класс представляет документ Word, и `DocumentBuilder` — наш удобный инструмент для добавления в него контента.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Представьте себе, что вы кладете холст перед тем, как начать рисовать.`DocumentBuilder` наша кисть, готовая создать шедевр.
+Представьте себе, что вы кладете холст перед тем, как начать рисовать. `DocumentBuilder` наша кисть, готовая создать шедевр.
 
 ## Шаг 2: Начните таблицу
 
- Теперь давайте начнем наш стол. Мы называем`StartTable` Метод`DocumentBuilder` для начала.
+Теперь давайте начнем наш стол. Мы называем `StartTable` Метод `DocumentBuilder` для начала.
 
 ```csharp
 Table table = builder.StartTable();
@@ -60,7 +62,7 @@ builder.InsertCell();
 table.AutoFit(AutoFitBehavior.FixedColumnWidths);
 ```
 
- Используя`StartTable` , мы говорим Aspose.Words, что собираемся создать таблицу.`InsertCell` метод добавляет первую ячейку, и`AutoFit` обеспечивает фиксированную ширину наших столбцов.
+Используя `StartTable`, мы говорим Aspose.Words, что собираемся создать таблицу. `InsertCell` метод добавляет первую ячейку, и `AutoFit` обеспечивает фиксированную ширину наших столбцов.
 
 ## Шаг 3: Отформатируйте первую строку
 
@@ -97,7 +99,7 @@ builder.Writeln("This is row 2 cell 2");
 builder.EndRow();
 ```
 
- Здесь мы задаем высоту строки и следим за тем, чтобы она оставалась фиксированной.`HeightRule.Exactly`. Изменения ориентации текста выделяют нашу таблицу, добавляя ей нотку уникальности.
+Здесь мы задаем высоту строки и следим за тем, чтобы она оставалась фиксированной. `HeightRule.Exactly`. Изменения ориентации текста выделяют нашу таблицу, добавляя ей нотку уникальности.
 
 ## Шаг 5: Завершите сеанс
 
@@ -109,9 +111,9 @@ builder.EndTable();
 
 Этот шаг — как добавление последних штрихов к нашему произведению искусства. Структура стола завершена и готова к использованию.
 
-## Шаг 6: Сохраните документ
+## Шаг 6: Сохраните документ.
 
- Наконец, давайте сохраним наш документ. Выберите место и имя для вашего файла, и сохраните его с помощью`.docx` расширение.
+Наконец, давайте сохраним наш документ. Выберите место и имя для вашего файла и сохраните его с помощью `.docx` расширение.
 
 ```csharp
 doc.Save("YourDirectoryPath/AddContentUsingDocumentBuilder.BuildTable.docx");
@@ -131,19 +133,24 @@ doc.Save("YourDirectoryPath/AddContentUsingDocumentBuilder.BuildTable.docx");
 Aspose.Words for .NET — мощная библиотека для программной работы с документами Word. Она позволяет создавать, редактировать и манипулировать документами без необходимости использования Microsoft Word.
 
 ### Как установить Aspose.Words для .NET?
- Ты можешь[скачать Aspose.Words для .NET здесь](https://releases.aspose.com/words/net/)Следуйте предоставленным инструкциям по установке, чтобы настроить его в вашей среде разработки.
+Ты можешь [скачать Aspose.Words для .NET здесь](https://releases.aspose.com/words/net/). Следуйте предоставленным инструкциям по установке, чтобы настроить его в вашей среде разработки.
 
 ### Могу ли я использовать Aspose.Words бесплатно?
- Aspose.Words предлагает[бесплатная пробная версия](https://releases.aspose.com/) чтобы вы могли протестировать его возможности. Для расширенного использования вы можете приобрести лицензию или получить[временная лицензия](https://purchase.aspose.com/temporary-license/).
+Aspose.Words предлагает [бесплатная пробная версия](https://releases.aspose.com/) чтобы вы могли протестировать его возможности. Для расширенного использования вы можете приобрести лицензию или получить [временная лицензия](https://purchase.aspose.com/temporary-license/).
 
 ### Каковы еще некоторые возможности Aspose.Words для .NET?
 Помимо создания таблиц, Aspose.Words позволяет работать с текстом, изображениями, стилями и многими другими элементами документа. Он поддерживает широкий спектр форматов документов, включая DOCX, PDF и HTML.
 
 ### Где я могу получить помощь, если у меня возникнут проблемы?
- Если вам нужна поддержка, ознакомьтесь с[Форум Aspose.Words](https://forum.aspose.com/c/words/8) где вы можете задать вопросы и получить помощь от сообщества и разработчиков Aspose.
+Если вам нужна поддержка, ознакомьтесь с [Форум Aspose.Words](https://forum.aspose.com/c/words/8) где вы можете задать вопросы и получить помощь от сообщества и разработчиков Aspose.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

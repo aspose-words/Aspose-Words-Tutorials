@@ -1,14 +1,16 @@
 ---
-title: Tercih Edilen Genişlik Ayarları
-linktitle: Tercih Edilen Genişlik Ayarları
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Words for .NET'te mutlak, göreli ve otomatik genişlik ayarlarına sahip tabloların nasıl oluşturulacağını öğrenin.
-weight: 10
-url: /tr/net/programming-with-tables/preferred-width-settings/
+"description": "Bu adım adım kılavuzla Aspose.Words for .NET'te mutlak, göreli ve otomatik genişlik ayarlarına sahip tabloların nasıl oluşturulacağını öğrenin."
+"linktitle": "Tercih Edilen Genişlik Ayarları"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Tercih Edilen Genişlik Ayarları"
+"url": "/tr/net/programming-with-tables/preferred-width-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tercih Edilen Genişlik Ayarları
@@ -21,13 +23,13 @@ Tablolar, Word belgelerinizdeki bilgileri düzenlemenin ve sunmanın güçlü bi
 
 Eğitime başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET: Geliştirme ortamınızda Aspose.Words for .NET'in yüklü olduğundan emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Geliştirme ortamınızda Aspose.Words for .NET'in yüklü olduğundan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 
 2. .NET Geliştirme Ortamı: Visual Studio gibi bir .NET geliştirme ortamı kurun.
 
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını ve örnekleri daha iyi anlamanıza yardımcı olacaktır.
 
-4.  Aspose.Words Belgeleri: Şuraya bakın:[Aspose.Words Belgeleri](https://reference.aspose.com/words/net/) Ayrıntılı API bilgisi ve daha fazla bilgi için.
+4. Aspose.Words Belgeleri: Şuraya bakın: [Aspose.Words Belgeleri](https://reference.aspose.com/words/net/) Ayrıntılı API bilgisi ve daha fazla bilgi için.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -46,7 +48,7 @@ Farklı genişlik tercihlerine sahip bir tablo oluşturma sürecini anlaşılır
 
 Başlık: Yeni Bir Belge ve DocumentBuilder Oluşturma
 
- Açıklama: Yeni bir Word belgesi oluşturarak başlayın ve`DocumentBuilder` örnek.`DocumentBuilder` sınıfı, belgenize içerik eklemenin basit bir yolunu sağlar.
+Açıklama: Yeni bir Word belgesi oluşturarak başlayın ve `DocumentBuilder` örnek. `DocumentBuilder` sınıfı, belgenize içerik eklemenin basit bir yolunu sağlar.
 
 ```csharp
 // Belgenin kaydedileceği yolu tanımlayın.
@@ -59,7 +61,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Burada, belgenin kaydedileceği dizini belirtirsiniz ve başlatırsınız.`Document` Ve`DocumentBuilder` nesneler.
+Burada, belgenin kaydedileceği dizini belirtirsiniz ve başlatırsınız `Document` Ve `DocumentBuilder` nesneler.
 
 ## Adım 2: Mutlak Genişliğe Sahip İlk Tablo Hücresini Ekleyin
 
@@ -73,7 +75,7 @@ builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln("Cell at 40 points width");
 ```
 
-Bu adımda, tabloyu oluşturmaya başlarsınız ve mutlak genişliğe sahip bir hücre eklersiniz.`PreferredWidth.FromPoints(40)` yöntem hücrenin genişliğini 40 noktaya ayarlar ve`Shading.BackgroundPatternColor` açık sarı bir arka plan rengi uygular.
+Bu adımda, tabloyu oluşturmaya başlarsınız ve mutlak genişliğe sahip bir hücre eklersiniz. `PreferredWidth.FromPoints(40)` yöntem hücrenin genişliğini 40 noktaya ayarlar ve `Shading.BackgroundPatternColor` açık sarı bir arka plan rengi uygular.
 
 ## Adım 3: Göreceli Boyutlu Bir Hücre Ekle
 
@@ -102,7 +104,7 @@ builder.Writeln("Cell automatically sized. The size of this cell is calculated f
 builder.Writeln("In this case the cell will fill up the rest of the available space.");
 ```
 
- The`PreferredWidth.Auto` ayar, diğer hücreler hesaba katıldıktan sonra kalan boşluğa göre bu hücrenin genişlemesine veya daralmasına izin verir. Bu, tablo düzeninin dengeli ve profesyonel görünmesini sağlar.
+The `PreferredWidth.Auto` ayar, diğer hücreler hesaba katıldıktan sonra kalan boşluğa göre bu hücrenin genişlemesine veya daralmasına izin verir. Bu, tablo düzeninin dengeli ve profesyonel görünmesini sağlar.
 
 ## Adım 5: Belgeyi Sonlandırın ve Kaydedin
 
@@ -135,9 +137,14 @@ Evet, hücrelere genişlik ayarlarından bağımsız olarak çeşitli stiller ve
 
 ### Tablonun toplam genişliği tüm hücre genişliklerinin toplamından küçük olursa ne olur?
 Tablo, hücrelerin genişliğini mevcut alana sığacak şekilde otomatik olarak ayarlayacaktır; bu da bazı hücrelerin küçülmesine neden olabilir.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

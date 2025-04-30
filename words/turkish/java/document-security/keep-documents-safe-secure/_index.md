@@ -1,14 +1,16 @@
 ---
-title: Belgelerinizi Nasıl Güvende ve Emniyette Tutabilirsiniz?
-linktitle: Belgelerinizi Nasıl Güvende ve Emniyette Tutabilirsiniz?
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Belgelerinizi Aspose.Words for Java ile güvenceye alın. Dijital imzaları zahmetsizce şifreleyin, koruyun ve ekleyin. Verilerinizi güvende tutun.
-weight: 10
-url: /tr/java/document-security/keep-documents-safe-secure/
+"description": "Belgelerinizi Aspose.Words for Java ile güvenceye alın. Dijital imzaları zahmetsizce şifreleyin, koruyun ve ekleyin. Verilerinizi güvende tutun."
+"linktitle": "Belgelerinizi Nasıl Güvende ve Emniyette Tutabilirsiniz?"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belgelerinizi Nasıl Güvende ve Emniyette Tutabilirsiniz?"
+"url": "/tr/java/document-security/keep-documents-safe-secure/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belgelerinizi Nasıl Güvende ve Emniyette Tutabilirsiniz?
@@ -43,10 +45,10 @@ Belge şifrelemesi ek bir güvenlik katmanı sağlayarak içeriği yetkisiz kull
 
 ## 3. Java için Aspose.Words'e Başlarken
 
-Belge güvenliğine geçmeden önce, ilk olarak Java için Aspose.Words'ü tanıyalım. Java geliştiricilerinin Word belgelerini programatik olarak oluşturmasını, değiştirmesini ve dönüştürmesini sağlayan, özellik açısından zengin bir kütüphanedir. Başlamak için:
+Belge güvenliğine geçmeden önce, Aspose.Words for Java'yı tanıyalım. Java geliştiricilerinin Word belgelerini programatik olarak oluşturmasını, değiştirmesini ve dönüştürmesini sağlayan, özelliklerle dolu bir kütüphanedir. Başlamak için:
 
 1. ### Java için Aspose.Words'ü indirin:
-  Ziyaret edin[Aspose.Sürümler](https://releases.aspose.com/words/java/) ve Aspose.Words for Java'nın en son sürümünü indirin.
+ Ziyaret edin [Aspose.Sürümler](https://releases.aspose.com/words/java/) ve Aspose.Words for Java'nın en son sürümünü indirin.
 
 2. ### Kütüphaneyi yükleyin:
  İndirme işlemi tamamlandıktan sonra, Aspose.Words'ü Java projenize kurmak için kurulum talimatlarını izleyin.
@@ -56,7 +58,7 @@ Belge güvenliğine geçmeden önce, ilk olarak Java için Aspose.Words'ü tanı
 Aspose.Words for Java'yı yüklemek basit bir işlemdir. Kütüphaneyi Java projenize eklemek için şu basit adımları izleyin:
 
 1. ### İndirmek:
-  Git[Aspose.Sürümler](https://releases.aspose.com/words/java/) ve Aspose.Words for Java paketini indirin.
+ Git [Aspose.Sürümler](https://releases.aspose.com/words/java/) ve Aspose.Words for Java paketini indirin.
 
 2. ### Çıkarmak:
  İndirdiğiniz paketi bilgisayarınızda uygun bir yere çıkarın.
@@ -71,7 +73,7 @@ Artık Aspose.Words for Java'yı kurduğumuza göre, belgelerimizi güvenli hale
 
 ## 5. Belgelerin Yüklenmesi ve Erişimi
 
-Java için Aspose.Words kullanarak belgelerle çalışmak için bunları Java uygulamanıza yüklemeniz gerekir. Bunu şu şekilde yapabilirsiniz:
+Aspose.Words for Java kullanarak belgelerle çalışmak için bunları Java uygulamanıza yüklemeniz gerekir. Bunu şu şekilde yapabilirsiniz:
 
 ```java
 // Belgeyi bir dosyadan yükleyin
@@ -110,7 +112,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.writeln("Hello world! Since we have set the document's protection level to read-only," +
         " we cannot edit this paragraph without the password.");
 
-//Düzenlenebilir aralıklar, korunan belgelerin bazı bölümlerini düzenlemeye açık bırakmamıza olanak tanır.
+// Düzenlenebilir aralıklar, korunan belgelerin bazı bölümlerini düzenlemeye açık bırakmamıza olanak tanır.
 EditableRangeStart editableRangeStart = builder.startEditableRange();
 builder.writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.endEditableRange();
@@ -168,7 +170,7 @@ doc.save("path/to/watermarked/document.docx");
 Aspose.Words for Java ayrıca güvenli belgelerinizi PDF veya HTML gibi çeşitli biçimlere dönüştürmenize olanak tanır:
 
 ```java
-//Güvenli belgeyi yükleyin
+// Güvenli belgeyi yükleyin
 Document doc = new Document("path/to/your/secured/document.docx");
 
 // PDF'ye dönüştür
@@ -198,9 +200,13 @@ Hayır, Aspose.Words şifre kurtarma özellikleri sağlamaz. Şifrelerinizi güv
 
 ### Filigranların görünümünü özelleştirebilir miyim?
 Evet, filigranların görünümünü metin, yazı tipi, renk, boyut ve dönüş dahil olmak üzere tamamen özelleştirebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Bảo mật tài liệu bằng mật khẩu
-linktitle: Bảo mật tài liệu bằng mật khẩu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Khám phá cách bảo mật tài liệu bằng mật khẩu bằng Aspose.Words for Java. Hướng dẫn từng bước này bao gồm mã nguồn và mẹo của chuyên gia. Bảo vệ dữ liệu của bạn.
-weight: 10
-url: /vi/java/document-security/securing-documents-passwords/
+"description": "Khám phá cách bảo mật tài liệu bằng mật khẩu bằng Aspose.Words for Java. Hướng dẫn từng bước này bao gồm mã nguồn và mẹo của chuyên gia. Bảo vệ dữ liệu của bạn."
+"linktitle": "Bảo mật tài liệu bằng mật khẩu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Bảo mật tài liệu bằng mật khẩu"
+"url": "/vi/java/document-security/securing-documents-passwords/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bảo mật tài liệu bằng mật khẩu
@@ -23,7 +25,7 @@ Trong thế giới kỹ thuật số ngày nay, bảo mật dữ liệu là tố
 
 ## Thiết lập Aspose.Words cho Java
 
-Trước khi chúng ta đi sâu vào việc bảo mật tài liệu, hãy đảm bảo rằng bạn đã thiết lập Aspose.Words for Java trong môi trường Java của mình. Nếu bạn chưa thực hiện, bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/java/).
+Trước khi chúng ta đi sâu vào bảo mật tài liệu, hãy đảm bảo rằng bạn đã thiết lập Aspose.Words for Java trong môi trường Java của mình. Nếu bạn chưa thực hiện, bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
 
 ## Bảo mật tài liệu: từng bước
 
@@ -92,9 +94,14 @@ Có, bạn có thể tự động hóa quy trình áp dụng mật khẩu bằng
 Bảo mật tài liệu của bạn bằng mật khẩu là bước cơ bản trong bảo vệ dữ liệu. Aspose.Words for Java đơn giản hóa quy trình này, giúp các nhà phát triển có thể tiếp cận. Bằng cách làm theo hướng dẫn từng bước này và sử dụng mã nguồn được cung cấp, bạn có thể tự tin bảo mật các tài liệu có giá trị của mình.
 
 Giữ dữ liệu của bạn an toàn với Aspose.Words for Java và tăng cường bảo mật tài liệu của bạn ngay hôm nay.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Ký tài liệu Word được mã hóa
-linktitle: Ký tài liệu Word được mã hóa
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách ký các tài liệu Word được mã hóa bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. Hoàn hảo cho các nhà phát triển.
-weight: 10
-url: /vi/net/programming-with-digital-signatures/signing-encrypted-document/
+"description": "Tìm hiểu cách ký các tài liệu Word được mã hóa bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. Hoàn hảo cho các nhà phát triển."
+"linktitle": "Ký tài liệu Word được mã hóa"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Ký tài liệu Word được mã hóa"
+"url": "/vi/net/programming-with-digital-signatures/signing-encrypted-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ký tài liệu Word được mã hóa
@@ -21,7 +23,7 @@ Bạn đã bao giờ tự hỏi làm thế nào để ký một tài liệu Word
 
 Trước khi tìm hiểu mã, hãy đảm bảo bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Tải xuống và cài đặt từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Tải xuống và cài đặt từ [đây](https://releases.aspose.com/words/net/).
 2. Visual Studio: Đảm bảo bạn đã cài đặt nó.
 3. Chứng chỉ hợp lệ: Bạn sẽ cần tệp chứng chỉ .pfx.
 4. Kiến thức cơ bản về C#: Hiểu được những kiến thức cơ bản sẽ giúp hướng dẫn này dễ hiểu hơn.
@@ -63,7 +65,7 @@ Bạn sẽ cần một thư mục để lưu trữ các tài liệu và chứng 
 
 ## Bước 4: Viết mã
 
- Bây giờ, chúng ta hãy đi sâu vào mã. Mở`Program.cs` tập tin và bắt đầu bằng cách thiết lập đường dẫn đến thư mục tài liệu của bạn và khởi tạo`SignOptions` với mật khẩu giải mã.
+Bây giờ, chúng ta hãy đi sâu vào mã. Mở `Program.cs` tập tin và bắt đầu bằng cách thiết lập đường dẫn đến thư mục tài liệu của bạn và khởi tạo `SignOptions` với mật khẩu giải mã.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -73,7 +75,7 @@ SignOptions signOptions = new SignOptions { DecryptionPassword = "decryptionPass
 
 ## Bước 5: Tải chứng chỉ
 
- Tiếp theo, tải chứng chỉ của bạn bằng cách sử dụng`CertificateHolder`lớp. Điều này sẽ yêu cầu đường dẫn đến tệp .pfx và mật khẩu chứng chỉ.
+Tiếp theo, tải chứng chỉ của bạn bằng cách sử dụng `CertificateHolder` lớp. Điều này sẽ yêu cầu đường dẫn đến tệp .pfx và mật khẩu chứng chỉ.
 
 ```csharp
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
@@ -81,7 +83,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 
 ## Bước 6: Ký tài liệu
 
- Cuối cùng, sử dụng`DigitalSignatureUtil.Sign` phương pháp ký tài liệu Word được mã hóa của bạn. Phương pháp này yêu cầu tệp đầu vào, tệp đầu ra, chủ sở hữu chứng chỉ và các tùy chọn ký.
+Cuối cùng, sử dụng `DigitalSignatureUtil.Sign` phương pháp ký tài liệu Word được mã hóa của bạn. Phương pháp này yêu cầu tệp đầu vào, tệp đầu ra, chủ sở hữu chứng chỉ và các tùy chọn ký.
 
 ```csharp
 DigitalSignatureUtil.Sign(
@@ -97,7 +99,7 @@ Lưu tệp của bạn và chạy dự án. Nếu mọi thứ được thiết l
 
 ## Phần kết luận
 
-Và thế là xong! Bạn đã ký thành công một tài liệu Word được mã hóa bằng Aspose.Words cho .NET. Với thư viện mạnh mẽ này, việc ký số trở nên dễ dàng, ngay cả đối với các tệp được mã hóa. Chúc bạn viết mã vui vẻ!
+Và bạn đã có nó! Bạn đã ký thành công một tài liệu Word được mã hóa bằng Aspose.Words cho .NET. Với thư viện mạnh mẽ này, việc ký kỹ thuật số trở nên dễ dàng, ngay cả đối với các tệp được mã hóa. Chúc bạn viết mã vui vẻ!
 
 ## Câu hỏi thường gặp
 
@@ -105,7 +107,7 @@ Và thế là xong! Bạn đã ký thành công một tài liệu Word được 
 Có, Aspose.Words hỗ trợ nhiều loại chứng chỉ khác nhau, miễn là chúng có định dạng đúng.
 
 ### Có thể ký nhiều tài liệu cùng một lúc không?
-Hoàn toàn có thể! Bạn có thể lặp qua một tập hợp các tài liệu và ký từng tài liệu theo chương trình.
+Chắc chắn rồi! Bạn có thể lặp qua một tập hợp các tài liệu và ký từng tài liệu theo chương trình.
 
 ### Tôi phải làm sao nếu quên mật khẩu giải mã?
 Thật không may, nếu không có mật khẩu giải mã, bạn sẽ không thể ký tài liệu.
@@ -114,10 +116,15 @@ Thật không may, nếu không có mật khẩu giải mã, bạn sẽ không t
 Có, Aspose.Words cũng cho phép bạn thêm chữ ký số có thể nhìn thấy được.
 
 ### Có cách nào để xác minh chữ ký không?
- Có, bạn có thể sử dụng`DigitalSignatureUtil.Verify` phương pháp xác minh chữ ký.
+Có, bạn có thể sử dụng `DigitalSignatureUtil.Verify` phương pháp xác minh chữ ký.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

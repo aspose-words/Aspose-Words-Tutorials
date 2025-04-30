@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Grup Revisi
-linktitle: Dapatkan Grup Revisi
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengambil grup revisi dari dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Sempurna untuk manajemen dokumen.
-weight: 10
-url: /id/net/working-with-revisions/get-revision-groups/
+"description": "Pelajari cara mengambil grup revisi dari dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Sempurna untuk manajemen dokumen."
+"linktitle": "Dapatkan Grup Revisi"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Dapatkan Grup Revisi"
+"url": "/id/net/working-with-revisions/get-revision-groups/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Grup Revisi
@@ -21,7 +23,7 @@ Dalam dunia pemrosesan dokumen yang dinamis, pelacakan perubahan dan revisi dala
 
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
-1.  Pustaka Aspose.Words untuk .NET: Pastikan Anda telah mengunduh dan menginstal versi terbaru Aspose.Words untuk .NET. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Pastikan Anda telah mengunduh dan menginstal versi terbaru Aspose.Words untuk .NET. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET (misalnya, Visual Studio).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan bermanfaat.
 
@@ -39,7 +41,7 @@ Sekarang, mari kita uraikan proses mendapatkan grup revisi dari dokumen Word ke 
 
 ## Langkah 1: Inisialisasi Dokumen
 
- Langkah pertama adalah menginisialisasi`Document` objek dengan jalur ke dokumen Word Anda. Objek ini akan memungkinkan Anda untuk mengakses dan memanipulasi konten dokumen.
+Langkah pertama adalah menginisialisasi `Document` objek dengan jalur ke dokumen Word Anda. Objek ini akan memungkinkan Anda untuk mengakses dan memanipulasi konten dokumen.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -91,26 +93,31 @@ Mengambil grup revisi dari dokumen Word menggunakan Aspose.Words untuk .NET meru
 
 ### Bisakah saya memfilter revisi berdasarkan penulis tertentu?
 
- Ya, Anda dapat memfilter revisi berdasarkan penulis tertentu dengan mencentang`Author` milik masing-masing`RevisionGroup` selama iterasi.
+Ya, Anda dapat memfilter revisi berdasarkan penulis tertentu dengan mencentang `Author` milik masing-masing `RevisionGroup` selama iterasi.
 
 ### Bagaimana cara mendapatkan uji coba gratis Aspose.Words untuk .NET?
 
- Anda bisa mendapatkan uji coba gratis Aspose.Words untuk .NET[Di Sini](https://releases.aspose.com/).
+Anda bisa mendapatkan uji coba gratis Aspose.Words untuk .NET [Di Sini](https://releases.aspose.com/).
 
-### Fitur lain apa yang ditawarkan Aspose.Words untuk .NET untuk mengelola revisi?
+### Fitur apa lagi yang ditawarkan Aspose.Words untuk .NET untuk mengelola revisi?
 
- Aspose.Words untuk .NET menawarkan fitur-fitur seperti menerima atau menolak revisi, membandingkan dokumen, dan banyak lagi. Periksa[dokumentasi](https://reference.aspose.com/words/net/) untuk informasi lebih rinci.
+Aspose.Words untuk .NET menawarkan fitur-fitur seperti menerima atau menolak revisi, membandingkan dokumen, dan banyak lagi. Periksa [dokumentasi](https://reference.aspose.com/words/net/) untuk informasi lebih rinci.
 
 ### Apakah mungkin mendapatkan dukungan untuk Aspose.Words untuk .NET?
 
-Ya, Anda bisa mendapatkan dukungan dari komunitas Aspose[Di Sini](https://forum.aspose.com/c/words/8).
+Ya, Anda bisa mendapatkan dukungan dari komunitas Aspose [Di Sini](https://forum.aspose.com/c/words/8).
 
 ### Bagaimana cara membeli Aspose.Words untuk .NET?
 
- Anda dapat membeli Aspose.Words untuk .NET[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat membeli Aspose.Words untuk .NET [Di Sini](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

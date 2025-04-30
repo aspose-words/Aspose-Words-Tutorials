@@ -1,34 +1,36 @@
 ---
-title: Előnyben részesített vezérlőtípus Word dokumentumban
-linktitle: Előnyben részesített vezérlőtípus Word dokumentumban
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan illeszthet be kombinált mezőt egy Word-dokumentumba az Aspose.Words for .NET használatával. Kövesse ezt a lépésről lépésre szóló útmutatót a zökkenőmentes HTML-tartalomintegráció érdekében.
-weight: 10
-url: /hu/net/programming-with-htmlloadoptions/preferred-control-type/
+"description": "Ismerje meg, hogyan szúrhat be kombinált lista űrlapmezőt egy Word-dokumentumba az Aspose.Words for .NET használatával. Kövesse ezt a lépésenkénti útmutatót a HTML-tartalom zökkenőmentes integrációjához."
+"linktitle": "Előnyben részesített vezérlőtípus Word-dokumentumban"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Előnyben részesített vezérlőtípus Word-dokumentumban"
+"url": "/hu/net/programming-with-htmlloadoptions/preferred-control-type/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Előnyben részesített vezérlőtípus Word dokumentumban
+# Előnyben részesített vezérlőtípus Word-dokumentumban
 
 ## Bevezetés
 
-egy izgalmas oktatóanyagba merülünk bele, amely az Aspose.Words for .NET HTML-betöltési beállításaival foglalkozik, különös tekintettel az előnyben részesített vezérlőtípus beállítására, amikor kombinált űrlapmezőt illeszt be egy Word-dokumentumba. Ez a részletes útmutató segít megérteni, hogyan lehet hatékonyan manipulálni és megjeleníteni a Word-dokumentumok HTML-tartalmát az Aspose.Words for .NET használatával.
+Egy izgalmas oktatóanyagba merülünk el arról, hogyan használhatod a HTML betöltési beállításait az Aspose.Words for .NET-ben, különös tekintettel a kívánt vezérlőtípus beállítására egy kombinált lista űrlapmező Word-dokumentumba való beszúrásakor. Ez a lépésről lépésre szóló útmutató segít megérteni, hogyan manipulálhatod és jelenítheted meg hatékonyan a HTML-tartalmat a Word-dokumentumaidban az Aspose.Words for .NET segítségével.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a kódba, néhány dolgot meg kell határoznia:
+Mielőtt belevágnánk a kódba, van néhány dolog, aminek a helyén kell lennie:
 
-1.  Aspose.Words for .NET: Győződjön meg arról, hogy telepítve van az Aspose.Words for .NET könyvtár. Letöltheti a[weboldal](https://releases.aspose.com/words/net/).
-2. Fejlesztői környezet: Be kell állítania egy fejlesztői környezetet, például a Visual Studio-t.
-3. Alapvető C# ismerete: A C# programozás alapvető ismerete szükséges az oktatóanyag követéséhez.
-4. HTML-tartalom: A HTML alapszintű ismerete hasznos, mivel ebben a példában HTML-tartalommal fogunk dolgozni.
+1. Aspose.Words for .NET: Győződjön meg róla, hogy telepítve van az Aspose.Words for .NET könyvtár. Letöltheti innen: [weboldal](https://releases.aspose.com/words/net/).
+2. Fejlesztői környezet: Rendelkeznie kell egy beállított fejlesztői környezettel, például a Visual Studio-val.
+3. C# alapismeretek: A C# programozás alapvető ismerete szükséges a bemutató követéséhez.
+4. HTML tartalom: A HTML alapvető ismerete hasznos, mivel ebben a példában HTML tartalommal fogunk dolgozni.
 
 ## Névterek importálása
 
-Először is importáljuk a szükséges névtereket a kezdéshez:
+Először importáljuk a szükséges névtereket a kezdéshez:
 
 ```csharp
 using System;
@@ -38,11 +40,11 @@ using Aspose.Words;
 using Aspose.Words.Loading;
 ```
 
-Most bontsuk fel a példát több lépésre az egyértelműség és a megértés érdekében.
+Most bontsuk a példát több lépésre a jobb érthetőség és érthetőség érdekében.
 
-## 1. lépés: Állítsa be HTML-tartalmát
+## 1. lépés: HTML-tartalom beállítása
 
-Először is meg kell határoznunk azt a HTML-tartalmat, amelyet be szeretnénk szúrni a Word dokumentumba. Íme az általunk használt HTML-részlet:
+Először is meg kell határoznunk a Word dokumentumba beszúrni kívánt HTML-tartalmat. Íme a HTML-kódrészlet, amelyet használni fogunk:
 
 ```csharp
 const string html = @"
@@ -55,72 +57,77 @@ const string html = @"
 ";
 ```
 
-Ez a HTML egy egyszerű kombinált mezőt tartalmaz két lehetőséggel. Ezt a HTML-t betöltjük egy Word dokumentumba, és megadjuk, hogyan kell renderelni.
+Ez a HTML egy egyszerű kombinált listát tartalmaz két lehetőséggel. Ezt a HTML-t betöltjük egy Word-dokumentumba, és megadjuk, hogyan kell megjeleníteni.
 
-## 2. lépés: Határozza meg a dokumentumkönyvtárat
+## 2. lépés: A dokumentumkönyvtár meghatározása
 
-Ezután adja meg azt a könyvtárat, ahová a Word-dokumentum mentésre kerül. Ez segít a fájlok rendszerezésében és az útvonalkezelés tisztán tartásában.
+Ezután adja meg azt a könyvtárat, ahová a Word-dokumentumot menteni szeretné. Ez segít a fájlok rendszerezésében és az elérési utak tisztán tartásában.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Cserélje ki`"YOUR DOCUMENT DIRECTORY"` azzal a tényleges elérési úttal, ahová menteni szeretné a Word-dokumentumot.
+Csere `"YOUR DOCUMENT DIRECTORY"` a Word-dokumentum mentési útvonalával.
 
-## 3. lépés: Konfigurálja a HTML-betöltési beállításokat
+## 3. lépés: HTML betöltési beállítások konfigurálása
 
- Itt konfiguráljuk a HTML-betöltési beállításokat, különös tekintettel a`PreferredControlType`ingatlan. Ez határozza meg, hogy a kombinált mező hogyan jelenjen meg a Word dokumentumban.
+Itt konfiguráljuk a HTML betöltési beállításait, különös tekintettel a következőkre: `PreferredControlType` tulajdonság. Ez határozza meg, hogyan jelenjen meg a kombinált lista a Word dokumentumban.
 
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions { PreferredControlType = HtmlControlType.StructuredDocumentTag };
 ```
 
- Beállítás által`PreferredControlType` hogy`HtmlControlType.StructuredDocumentTag`, biztosítjuk, hogy a kombinált mező strukturált dokumentumcímkeként (SDT) jelenjen meg a Word dokumentumban.
+Beállítással `PreferredControlType` hogy `HtmlControlType.StructuredDocumentTag`, biztosítjuk, hogy a kombinált lista strukturált dokumentumcímkeként (SDT) jelenjen meg a Word-dokumentumban.
 
 ## 4. lépés: Töltse be a HTML-tartalmat a dokumentumba
 
-A beállított betöltési opciók segítségével egy új Word dokumentumba töltjük be a HTML tartalmat.
+A konfigurált betöltési beállítások használatával betöltjük a HTML tartalmat egy új Word dokumentumba.
 
 ```csharp
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), loadOptions);
 ```
 
-Itt a HTML karakterláncot bájttömbbé alakítjuk, és memóriafolyam segítségével betöltjük a dokumentumba. Ez biztosítja, hogy az Aspose.Words helyesen értelmezze és jelenítse meg a HTML-tartalmat.
+Itt a HTML karakterláncot bájttömbbé alakítjuk, és egy memóriafolyam segítségével betöltjük a dokumentumba. Ez biztosítja, hogy az Aspose.Words helyesen értelmezze és megjelenítse a HTML tartalmat.
 
-## 5. lépés: Mentse el a dokumentumot
+## 5. lépés: A dokumentum mentése
 
-Végül mentse a dokumentumot a megadott könyvtárba DOCX formátumban.
+Végül mentse el a dokumentumot a megadott könyvtárba DOCX formátumban.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithHtmlLoadOptions.PreferredControlType.docx", SaveFormat.Docx);
 ```
 
-Ezzel elmenti a Word-dokumentumot a megjelenített kombinált vezérlővel a megadott helyre.
+Ez a Word-dokumentumot a megadott helyen megjelenített kombinált lista vezérlővel menti.
 
 ## Következtetés
 
-És megvan! Sikeresen beszúrtunk egy kombinált űrlapmezőt egy Word-dokumentumba az Aspose.Words for .NET használatával a HTML-betöltési lehetőségek kihasználásával. Ez a lépésenkénti útmutató segít megérteni a folyamatot és alkalmazni azt a projektjeire. Akár a dokumentumok létrehozásának automatizálásáról, akár a HTML-tartalom manipulálásáról van szó, az Aspose.Words for .NET hatékony eszközöket kínál céljainak eléréséhez.
+És íme! Sikeresen beszúrtunk egy kombinált lista űrlapmezőt egy Word-dokumentumba az Aspose.Words for .NET segítségével, HTML betöltési lehetőségek kihasználásával. Ez a lépésenkénti útmutató segít megérteni a folyamatot és alkalmazni a projektjeidben. Akár dokumentumok létrehozását automatizálod, akár HTML tartalmat manipulálsz, az Aspose.Words for .NET hatékony eszközöket biztosít céljaid eléréséhez.
 
 ## GYIK
 
-### Mi az Aspose.Words for .NET?
-Az Aspose.Words for .NET egy hatékony dokumentumkezelési könyvtár, amely lehetővé teszi a fejlesztők számára Word-dokumentumok programozott létrehozását, szerkesztését, konvertálását és renderelését.
+### Mi az Aspose.Words .NET-hez?
+Az Aspose.Words for .NET egy hatékony dokumentumkezelő könyvtár, amely lehetővé teszi a fejlesztők számára Word-dokumentumok programozott létrehozását, szerkesztését, konvertálását és renderelését.
 
-### Használhatok más HTML-vezérlőtípusokat az Aspose.Words for .NET-hez?
-Igen, az Aspose.Words for .NET támogatja a különböző HTML-vezérlőtípusokat. Testreszabhatja, hogyan jelenjenek meg a különböző vezérlők a Word-dokumentumban.
+### Használhatok más HTML vezérlőtípusokat az Aspose.Words for .NET-tel?
+Igen, az Aspose.Words for .NET különféle HTML-vezérlőtípusokat támogat. Testreszabhatja, hogy a különböző vezérlők hogyan jelenjenek meg a Word-dokumentumban.
 
-### Hogyan kezelhetem az Aspose.Words for .NET komplex HTML-tartalmát?
- Az Aspose.Words for .NET átfogó támogatást nyújt a HTML-hez, beleértve az összetett elemeket is. Győződjön meg arról, hogy konfigurálta a`HtmlLoadOptions`megfelelően kezelni az adott HTML-tartalmat.
+### Hogyan kezelhetek összetett HTML tartalmat az Aspose.Words for .NET-ben?
+Az Aspose.Words for .NET átfogó HTML-támogatást nyújt, beleértve az összetett elemeket is. Győződjön meg róla, hogy konfigurálja a `HtmlLoadOptions` megfelelően kezeli az adott HTML-tartalmat.
 
 ### Hol találok további példákat és dokumentációt?
- Részletes dokumentációt és példákat találhat a[Aspose.Words for .NET dokumentációs oldal](https://reference.aspose.com/words/net/).
+Részletes dokumentációt és példákat talál a következő címen: [Aspose.Words .NET dokumentációs oldal](https://reference.aspose.com/words/net/).
 
-### Létezik ingyenes próbaverzió az Aspose.Words for .NET számára?
- Igen, letölthet egy ingyenes próbaverziót a webhelyről[Aspose honlapja](https://releases.aspose.com/).
+### Van ingyenes próbaverzió az Aspose.Words for .NET-hez?
+Igen, letölthetsz egy ingyenes próbaverziót innen: [Aspose weboldal](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

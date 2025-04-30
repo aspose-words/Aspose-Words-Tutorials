@@ -1,14 +1,16 @@
 ---
-title: คัดลอกรูปแบบเอกสาร Word
-linktitle: คัดลอกรูปแบบเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีคัดลอกรูปแบบเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อให้แน่ใจว่าการจัดรูปแบบเอกสารมีความสอดคล้องกันโดยไม่ต้องใช้ความพยายามมาก
-weight: 10
-url: /th/net/programming-with-styles-and-themes/copy-styles/
+"description": "เรียนรู้วิธีคัดลอกรูปแบบเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อให้แน่ใจว่าการจัดรูปแบบเอกสารมีความสอดคล้องกันอย่างง่ายดาย"
+"linktitle": "คัดลอกรูปแบบเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "คัดลอกรูปแบบเอกสาร Word"
+"url": "/th/net/programming-with-styles-and-themes/copy-styles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # คัดลอกรูปแบบเอกสาร Word
@@ -21,7 +23,7 @@ url: /th/net/programming-with-styles-and-themes/copy-styles/
 
 ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1.  ไลบรารี Aspose.Words สำหรับ .NET: คุณจะต้องมีสิ่งนี้เพื่อทำงานกับเอกสาร Word ใน .NET คุณสามารถดาวน์โหลดได้จาก[ดาวน์โหลด Aspose.Words สำหรับ .NET](https://releases.aspose.com/words/net/).
+1. ไลบรารี Aspose.Words สำหรับ .NET: คุณจะต้องมีสิ่งนี้เพื่อทำงานกับเอกสาร Word ใน .NET คุณสามารถดาวน์โหลดได้จาก [ดาวน์โหลด Aspose.Words สำหรับ .NET](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา .NET: คุณควรมีการตั้งค่าสภาพแวดล้อมการพัฒนา .NET ที่ใช้งานได้ เช่น Visual Studio
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับ C# จะช่วยให้คุณเข้าใจและนำชิ้นส่วนโค้ดไปใช้ได้อย่างมีประสิทธิภาพ
 
@@ -37,7 +39,7 @@ using Aspose.Words;
 
 ## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสารของคุณ
 
- ขั้นแรก คุณต้องกำหนดเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ นี่คือตำแหน่งที่ Aspose.Words จะค้นหาไฟล์ของคุณ แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณเก็บเอกสารไว้
+ขั้นแรก คุณต้องกำหนดเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ นี่คือตำแหน่งที่ Aspose.Words จะค้นหาไฟล์ของคุณ แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณเก็บเอกสารไว้
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -52,11 +54,11 @@ Document doc = new Document();
 Document target = new Document(dataDir + "Rendering.docx");
 ```
 
- ที่นี่,`Rendering.docx` เป็นเอกสารต้นฉบับของคุณที่มีรูปแบบที่คุณต้องการคัดลอก`doc` วัตถุแสดงถึงเอกสารเป้าหมายที่จะคัดลอกสไตล์
+ที่นี่, `Rendering.docx` เป็นเอกสารต้นฉบับของคุณที่มีรูปแบบที่คุณต้องการคัดลอก `doc` วัตถุแสดงถึงเอกสารเป้าหมายที่จะคัดลอกสไตล์
 
 ## ขั้นตอนที่ 3: คัดลอกสไตล์จากแหล่งที่มาไปยังเป้าหมาย
 
- เมื่อโหลดเอกสารทั้งสองแล้ว คุณสามารถคัดลอกสไตล์ได้แล้ว`CopyStylesFromTemplate` วิธีนี้เป็นเครื่องมือของคุณสำหรับงานนี้ โดยจะคัดลอกรูปแบบจาก`doc`เทมเพลตไปที่`target` เอกสาร.
+เมื่อโหลดเอกสารทั้งสองแล้ว คุณสามารถคัดลอกสไตล์ได้แล้ว `CopyStylesFromTemplate` วิธีนี้เป็นเครื่องมือของคุณสำหรับงานนี้ โดยจะคัดลอกรูปแบบจาก `doc` เทมเพลตไปที่ `target` เอกสาร.
 
 ```csharp
 target.CopyStylesFromTemplate(doc);
@@ -78,23 +80,28 @@ doc.Save(dataDir + "WorkingWithStylesAndThemes.CopyStyles.docx");
 
 ## คำถามที่พบบ่อย
 
-###  จุดประสงค์ของการ`CopyStylesFromTemplate` method?  
- การ`CopyStylesFromTemplate` วิธีการคัดลอกรูปแบบจากเอกสารหนึ่งไปยังอีกเอกสารหนึ่ง ทำให้แน่ใจว่าเอกสารเป้าหมายจะสืบทอดการจัดรูปแบบของเอกสารต้นฉบับ
+### จุดประสงค์ของการ `CopyStylesFromTemplate` วิธี?  
+การ `CopyStylesFromTemplate` วิธีการคัดลอกรูปแบบจากเอกสารหนึ่งไปยังอีกเอกสารหนึ่ง ทำให้แน่ใจว่าเอกสารเป้าหมายจะสืบทอดการจัดรูปแบบของเอกสารต้นฉบับ
 
-###  ฉันสามารถใช้`CopyStylesFromTemplate` with documents in different formats?  
- ไม่,`CopyStylesFromTemplate` วิธีนี้ใช้ได้กับเอกสารที่มีรูปแบบเดียวกันเท่านั้น โดยทั่วไปคือ DOCX
+### ฉันสามารถใช้ `CopyStylesFromTemplate` พร้อมเอกสารในรูปแบบต่างๆ?  
+ไม่, `CopyStylesFromTemplate` วิธีนี้ใช้ได้กับเอกสารที่มีรูปแบบเดียวกันเท่านั้น โดยทั่วไปคือ DOCX
 
 ### ฉันจะตรวจสอบได้อย่างไรว่าสไตล์ได้รับการคัดลอกสำเร็จแล้ว?  
 เปิดเอกสารเป้าหมายและตรวจสอบการตั้งค่ารูปแบบ คุณควรเห็นรูปแบบจากเอกสารต้นฉบับที่นำไปใช้
 
-### จะทำอย่างไรหากเอกสารเป้าหมายมีสไตล์อยู่แล้ว?  
- การ`CopyStylesFromTemplate` วิธีการนี้จะเขียนทับรูปแบบที่มีอยู่แล้วในเอกสารเป้าหมายด้วยรูปแบบจากเอกสารต้นฉบับ
+### จะเกิดอะไรขึ้นหากเอกสารเป้าหมายมีสไตล์อยู่แล้ว?  
+การ `CopyStylesFromTemplate` วิธีการนี้จะเขียนทับรูปแบบที่มีอยู่แล้วในเอกสารเป้าหมายด้วยรูปแบบจากเอกสารต้นฉบับ
 
 ### Aspose.Words สำหรับ .NET ใช้ได้ฟรีหรือไม่?  
- Aspose.Words สำหรับ .NET เป็นผลิตภัณฑ์เชิงพาณิชย์ แต่คุณสามารถทดลองใช้งานฟรีได้จาก[Aspose.Words สำหรับทดลองใช้งาน .NET ฟรี](https://releases.aspose.com/).
+Aspose.Words สำหรับ .NET เป็นผลิตภัณฑ์เชิงพาณิชย์ แต่คุณสามารถทดลองใช้งานฟรีได้จาก [Aspose.Words สำหรับ .NET ทดลองใช้งานฟรี](https://releases-aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

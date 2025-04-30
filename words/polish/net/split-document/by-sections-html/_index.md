@@ -1,14 +1,16 @@
 ---
-title: Podziel dokument Word według sekcji HTML
-linktitle: Według sekcji Html
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak podzielić dokument Word na sekcje do formatu HTML za pomocą Aspose.Words dla platformy .NET, korzystając z tego szczegółowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/split-document/by-sections-html/
+"description": "Dowiedz się, jak podzielić dokument Word na sekcje i zapisać go w formacie HTML za pomocą Aspose.Words dla platformy .NET, korzystając ze szczegółowego przewodnika krok po kroku."
+"linktitle": "Według sekcji Html"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Podziel dokument Word według sekcji HTML"
+"url": "/pl/net/split-document/by-sections-html/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Podziel dokument Word według sekcji HTML
@@ -21,7 +23,7 @@ Czy zanurzasz się w świecie automatyzacji dokumentów i chcesz dowiedzieć si�
 
 Zanim przejdziemy do działania, jest kilka rzeczy, które musisz zrobić:
 
-1.  Biblioteka Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Środowisko programistyczne, takie jak Visual Studio.
 3. Podstawowa znajomość języka C#: Przydatna będzie podstawowa znajomość programowania w języku C#.
 4. Dokument Word: Dokument Word, który chcesz podzielić na sekcje.
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Krok 2: Załaduj dokument Word
 
- Teraz, gdy mamy już skonfigurowany katalog, musimy załadować dokument Word, który chcemy podzielić. Robimy to za pomocą`Document` klasa z Aspose.Words.
+Teraz, gdy mamy już skonfigurowany katalog, musimy załadować dokument Word, który chcemy podzielić. Robimy to za pomocą `Document` klasa z Aspose.Words.
 
 ```csharp
 // Załaduj dokument Word.
@@ -59,7 +61,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Krok 3: Skonfiguruj opcje zapisywania HTML
 
- Aby podzielić dokument na sekcje, musimy ustawić odpowiednie opcje zapisu.`HtmlSaveOptions`Klasa ta pozwala nam określić sposób zapisywania dokumentu w formacie HTML.
+Aby podzielić dokument na sekcje, musimy ustawić odpowiednie opcje zapisu. `HtmlSaveOptions` Klasa ta pozwala nam określić sposób zapisywania dokumentu w formacie HTML.
 
 ```csharp
 // Skonfiguruj opcje zapisywania HTML.
@@ -96,18 +98,23 @@ Tak, Aspose.Words for .NET umożliwia dzielenie dokumentów według różnych kr
 
 ### Czy Aspose.Words dla .NET jest darmowy?
 
- Aspose.Words dla platformy .NET jest produktem komercyjnym, ale można pobrać bezpłatną wersję próbną ze strony[Strona wydań Aspose](https://releases.aspose.com/).
+Aspose.Words dla platformy .NET jest produktem komercyjnym, ale można pobrać bezpłatną wersję próbną ze strony [Strona wydań Aspose](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words dla .NET?
 
- Pełną dokumentację można znaleźć na stronie[Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+Pełną dokumentację można znaleźć na stronie [Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
 
 ### Do jakich innych formatów mogę konwertować dokumenty Word?
 
 Aspose.Words dla platformy .NET obsługuje różne formaty, w tym PDF, DOCX, TXT i wiele innych.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

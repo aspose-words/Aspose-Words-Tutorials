@@ -1,14 +1,16 @@
 ---
-title: Đặt thư mục phông chữ có mức độ ưu tiên
-linktitle: Đặt thư mục phông chữ có mức độ ưu tiên
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thiết lập thư mục phông chữ theo thứ tự ưu tiên trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn của chúng tôi đảm bảo tài liệu của bạn luôn hiển thị hoàn hảo.
-weight: 10
-url: /vi/net/working-with-fonts/set-fonts-folders-with-priority/
+"description": "Tìm hiểu cách thiết lập thư mục phông chữ theo thứ tự ưu tiên trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn của chúng tôi đảm bảo tài liệu của bạn luôn hiển thị hoàn hảo."
+"linktitle": "Đặt thư mục phông chữ có mức độ ưu tiên"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Đặt thư mục phông chữ có mức độ ưu tiên"
+"url": "/vi/net/working-with-fonts/set-fonts-folders-with-priority/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt thư mục phông chữ có mức độ ưu tiên
@@ -21,9 +23,9 @@ Trong thế giới thao tác tài liệu, việc thiết lập các thư mục p
 
 Trước khi bắt đầu, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết. Sau đây là danh sách kiểm tra nhanh:
 
--  Aspose.Words cho .NET: Bạn cần cài đặt thư viện này. Nếu bạn chưa có, bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Bạn cần cài đặt thư viện này. Nếu bạn chưa có, bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Đảm bảo bạn có môi trường phát triển .NET đang hoạt động, như Visual Studio.
--  Thư mục tài liệu: Đảm bảo bạn có một thư mục cho các tài liệu của mình. Đối với các ví dụ của chúng tôi, chúng tôi sẽ sử dụng`"YOUR DOCUMENT DIRECTORY"` để giữ chỗ cho đường dẫn này.
+- Thư mục tài liệu: Đảm bảo bạn có một thư mục cho các tài liệu của mình. Đối với các ví dụ của chúng tôi, chúng tôi sẽ sử dụng `"YOUR DOCUMENT DIRECTORY"` để giữ chỗ cho đường dẫn này.
 
 ## Nhập không gian tên
 
@@ -54,7 +56,7 @@ FontSettings.DefaultInstance.SetFontsSources(new FontSourceBase[]
 
 Trong ví dụ này, chúng tôi đang thiết lập hai nguồn phông chữ:
 - SystemFontSource: Đây là nguồn phông chữ mặc định bao gồm tất cả các phông chữ được cài đặt trên hệ thống của bạn.
--  FolderFontSource: Đây là một thư mục phông chữ tùy chỉnh nằm tại`C:\\MyFonts\\` . Các`true` tham số chỉ định rằng thư mục này sẽ được quét đệ quy và`1` đặt mức độ ưu tiên của nó.
+- FolderFontSource: Đây là một thư mục phông chữ tùy chỉnh nằm tại `C:\\MyFonts\\`. Các `true` tham số chỉ định rằng thư mục này sẽ được quét đệ quy và `1` đặt mức độ ưu tiên của nó.
 
 ## Bước 2: Tải tài liệu của bạn
 
@@ -64,7 +66,7 @@ Tiếp theo, tải tài liệu bạn muốn làm việc. Đảm bảo tài liệ
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Dòng mã này tải một tài liệu có tên`Rendering.docx` từ thư mục tài liệu của bạn.
+Dòng mã này tải một tài liệu có tên `Rendering.docx` từ thư mục tài liệu của bạn.
 
 ## Bước 3: Lưu tài liệu của bạn với cài đặt phông chữ mới
 
@@ -74,7 +76,7 @@ Cuối cùng, hãy lưu tài liệu của bạn. Khi bạn lưu tài liệu, Asp
 doc.Save(dataDir + "WorkingWithFonts.SetFontsFoldersWithPriority.pdf");
 ```
 
- Thao tác này sẽ lưu tài liệu dưới dạng PDF trong thư mục tài liệu của bạn với tên`WorkingWithFonts.SetFontsFoldersWithPriority.pdf`.
+Thao tác này sẽ lưu tài liệu dưới dạng PDF trong thư mục tài liệu của bạn với tên `WorkingWithFonts.SetFontsFoldersWithPriority.pdf`.
 
 ## Phần kết luận
 
@@ -96,9 +98,14 @@ Phông chữ hệ thống luôn được bao gồm theo mặc định, nhưng b�
 
 ### Có thể sử dụng đường dẫn mạng cho thư mục phông chữ tùy chỉnh không?
 Có, bạn có thể chỉ định đường dẫn mạng dưới dạng thư mục phông chữ tùy chỉnh, cho phép bạn tập trung tài nguyên phông chữ vào một vị trí mạng.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

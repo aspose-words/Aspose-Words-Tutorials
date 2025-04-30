@@ -1,14 +1,16 @@
 ---
-title: Başlık Altbilgisini Yoksay
-linktitle: Başlık Altbilgisini Yoksay
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Words for .NET'i kullanarak üstbilgi ve altbilgileri yok sayarak Word belgelerini nasıl birleştireceğinizi öğrenin.
-weight: 10
-url: /tr/net/join-and-append-documents/ignore-header-footer/
+"description": "Bu adım adım kılavuzla Aspose.Words for .NET'i kullanarak üstbilgi ve altbilgileri yok sayarak Word belgelerini nasıl birleştireceğinizi öğrenin."
+"linktitle": "Başlık Altbilgisini Yoksay"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Başlık Altbilgisini Yoksay"
+"url": "/tr/net/join-and-append-documents/ignore-header-footer/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Başlık Altbilgisini Yoksay
@@ -21,7 +23,7 @@ Word belgelerini birleştirmek bazen biraz zor olabilir, özellikle de başlıkl
 
 Başlamadan önce ihtiyacımız olan her şeye sahip olduğumuzdan emin olalım:
 
--  Aspose.Words for .NET: Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - Visual Studio: Güncel herhangi bir sürüm işe yarayacaktır.
 - C# Temel Anlayışı: Merak etmeyin, sizi kodda yönlendireceğim.
 - İki Word Belgesi: Biri diğerine eklenecek.
@@ -79,7 +81,7 @@ Belgeleri birleştirmeden önce, içe aktarma seçeneklerimizi ayarlamamız gere
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreHeaderFooter = true };
 ```
 
- Ayarlayarak`IgnoreHeaderFooter` ile`true`, Aspose.Words'e birleştirme işlemi sırasında üstbilgileri ve altbilgileri yok saymasını söylüyoruz.
+Ayarlayarak `IgnoreHeaderFooter` ile `true`, Aspose.Words'e birleştirme işlemi sırasında üstbilgileri ve altbilgileri yok saymasını söylüyoruz.
 
 ## Adım 4: Belgeleri Birleştirin
 
@@ -109,7 +111,7 @@ Bu, birleştirilen belgeyi "JoinAndAppendDocuments.IgnoreHeaderFooter.docx" dosy
 
 Ve işte oldu! Aspose.Words for .NET kullanarak, başlıklarını ve altbilgilerini görmezden gelerek iki Word belgesini başarıyla birleştirdiniz. Bu yöntem, belirli belge bölümlerini korumanın önemli olduğu çeşitli belge yönetimi görevleri için kullanışlıdır.
 
-Aspose.Words for .NET ile çalışmak, belge işleme iş akışlarınızı önemli ölçüde kolaylaştırabilir. Unutmayın, takılırsanız veya daha fazla bilgiye ihtiyaç duyarsanız, her zaman şuraya göz atabilirsiniz:[belgeleme](https://reference.aspose.com/words/net/).
+Aspose.Words for .NET ile çalışmak, belge işleme iş akışlarınızı önemli ölçüde kolaylaştırabilir. Unutmayın, takılırsanız veya daha fazla bilgiye ihtiyaç duyarsanız, her zaman şuraya göz atabilirsiniz: [belgeleme](https://reference.aspose.com/words/net/).
 
 ## SSS
 
@@ -119,23 +121,28 @@ Evet, Aspose.Words farklı bölümleri ve biçimlendirmeyi yok sayma dahil olmak
 
 ### Başlık ve altbilgileri yok saymak yerine onları tutmak mümkün müdür?
 
- Kesinlikle. Basitçe ayarlayın`IgnoreHeaderFooter` ile`false` içinde`ImportFormatOptions`.
+Kesinlikle. Basitçe ayarlayın `IgnoreHeaderFooter` ile `false` içinde `ImportFormatOptions`.
 
 ### Aspose.Words for .NET'i kullanmak için lisansa ihtiyacım var mı?
 
- Evet, Aspose.Words for .NET ticari bir üründür. Bir tane alabilirsiniz[ücretsiz deneme](https://releases.aspose.com/) veya bir lisans satın alın[Burada](https://purchase.aspose.com/buy).
+Evet, Aspose.Words for .NET ticari bir üründür. Bir tane alabilirsiniz [ücretsiz deneme](https://releases.aspose.com/) veya bir lisans satın alın [Burada](https://purchase.aspose.com/buy).
 
 ### Bu yöntemi kullanarak ikiden fazla belgeyi birleştirebilir miyim?
 
- Evet, döngüye birden fazla belgeyi tekrarlayarak ekleyebilirsiniz.`AppendDocument` her ek belge için yöntem.
+Evet, döngüye birden fazla belgeyi tekrarlayarak ekleyebilirsiniz. `AppendDocument` her ek belge için yöntem.
 
 ### Aspose.Words for .NET için daha fazla örnek ve dokümanı nerede bulabilirim?
 
- Kapsamlı dokümantasyon ve örnekleri şu adreste bulabilirsiniz:[Aspose web sitesi](https://reference.aspose.com/words/net/).
+Kapsamlı dokümanları ve örnekleri şu adreste bulabilirsiniz: [Aspose web sitesi](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

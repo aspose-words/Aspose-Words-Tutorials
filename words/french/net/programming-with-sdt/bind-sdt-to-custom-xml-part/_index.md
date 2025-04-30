@@ -1,27 +1,29 @@
 ---
-title: Lier SDT à une partie XML personnalisée
-linktitle: Lier SDT à une partie XML personnalisée
-second_title: API de traitement de documents Aspose.Words
-description: Découvrez comment lier des balises de document structurées (SDT) à des parties XML personnalisées dans des documents Word à l'aide d'Aspose.Words pour .NET avec ce didacticiel étape par étape.
-weight: 10
-url: /fr/net/programming-with-sdt/bind-sdt-to-custom-xml-part/
+"description": "Découvrez comment lier des balises de document structurées (SDT) à des parties XML personnalisées dans des documents Word à l'aide d'Aspose.Words pour .NET avec ce didacticiel étape par étape."
+"linktitle": "Lier SDT à une partie XML personnalisée"
+"second_title": "API de traitement de documents Aspose.Words"
+"title": "Lier SDT à une partie XML personnalisée"
+"url": "/fr/net/programming-with-sdt/bind-sdt-to-custom-xml-part/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lier SDT à une partie XML personnalisée
 
 ## Introduction
 
-La création de documents Word dynamiques qui interagissent avec des données XML personnalisées peut améliorer considérablement la flexibilité et la fonctionnalité de vos applications. Aspose.Words pour .NET fournit des fonctionnalités robustes pour lier des balises de document structurées (SDT) à des parties XML personnalisées, vous permettant de créer des documents qui affichent des données de manière dynamique. Dans ce didacticiel, nous vous guiderons étape par étape dans le processus de liaison d'une SDT à une partie XML personnalisée. Plongeons-nous dans le vif du sujet !
+Créer des documents Word dynamiques interagissant avec des données XML personnalisées peut considérablement améliorer la flexibilité et les fonctionnalités de vos applications. Aspose.Words pour .NET offre des fonctionnalités performantes pour lier des balises de document structurées (SDT) à des parties XML personnalisées, vous permettant ainsi de créer des documents affichant dynamiquement des données. Dans ce tutoriel, nous vous expliquerons étape par étape comment lier une SDT à une partie XML personnalisée. C'est parti !
 
 ## Prérequis
 
-Avant de commencer, assurez-vous que les conditions préalables suivantes sont remplies :
+Avant de commencer, assurez-vous que les conditions préalables suivantes sont en place :
 
--  Aspose.Words pour .NET : vous pouvez télécharger la dernière version à partir de[Aspose.Words pour les versions .NET](https://releases.aspose.com/words/net/).
+- Aspose.Words pour .NET : vous pouvez télécharger la dernière version à partir de [Aspose.Words pour les versions .NET](https://releases.aspose.com/words/net/).
 - Environnement de développement : Visual Studio ou tout autre IDE .NET compatible.
 - Compréhension de base de C# : Familiarité avec le langage de programmation C# et le framework .NET.
 
@@ -36,14 +38,14 @@ using Aspose.Words.Markup;
 using Aspose.Words.Saving;
 ```
 
-Décomposons le processus en étapes faciles à gérer pour le rendre plus facile à suivre. Chaque étape couvrira une partie spécifique de la tâche.
+Décomposons le processus en étapes faciles à suivre. Chaque étape couvrira une partie spécifique de la tâche.
 
-## Étape 1 : Initialiser le document
+## Étape 1 : Initialiser le document
 
 Tout d’abord, vous devez créer un nouveau document et configurer l’environnement.
 
 ```csharp
-// Chemin vers votre répertoire de documents
+// Chemin d'accès à votre répertoire de documents
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Initialiser un nouveau document
@@ -63,19 +65,19 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(Guid.NewGuid().ToString("B"), "<r
 
 Ici, nous créons une nouvelle partie XML personnalisée avec un identifiant unique et ajoutons quelques exemples de données XML.
 
-## Étape 3 : Créer une balise de document structurée (SDT)
+## Étape 3 : Créer une balise de document structuré (SDT)
 
 Après avoir ajouté la partie XML personnalisée, nous créons un SDT pour afficher les données XML.
 
 ```csharp
-//Créer une balise de document structurée (SDT)
+// Créer une balise de document structuré (SDT)
 StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(sdt);
 ```
 
-Nous créons un SDT de type PlainText et l’ajoutons à la première section du corps du document.
+Nous créons un SDT de type PlainText et l'ajoutons à la première section du corps du document.
 
-## Étape 4 : lier le SDT à la partie XML personnalisée
+## Étape 4 : Lier le SDT à la partie XML personnalisée
 
 Maintenant, nous lions le SDT à la partie XML personnalisée à l’aide d’une expression XPath.
 
@@ -84,9 +86,9 @@ Maintenant, nous lions le SDT à la partie XML personnalisée à l’aide d’un
 sdt.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", "");
 ```
 
- Cette étape mappe le SDT sur le`<text>` élément dans le`<root>` nœud de notre partie XML personnalisée.
+Cette étape mappe le SDT au `<text>` élément dans le `<root>` nœud de notre partie XML personnalisée.
 
-## Étape 5 : Enregistrer le document
+## Étape 5 : Enregistrer le document
 
 Enfin, nous enregistrons le document dans le répertoire spécifié.
 
@@ -99,27 +101,32 @@ Cette commande enregistre le document avec le SDT lié dans votre répertoire d�
 
 ## Conclusion
 
-Félicitations ! Vous avez réussi à lier un SDT à une partie XML personnalisée à l'aide d'Aspose.Words pour .NET. Cette fonctionnalité puissante vous permet de créer des documents dynamiques qui peuvent être facilement mis à jour avec de nouvelles données en modifiant simplement le contenu XML. Que vous génériez des rapports, créiez des modèles ou automatisiez des flux de travail de documents, Aspose.Words pour .NET offre les outils dont vous avez besoin pour rendre vos tâches plus faciles et plus efficaces.
+Félicitations ! Vous avez lié avec succès un SDT à une partie XML personnalisée grâce à Aspose.Words pour .NET. Cette puissante fonctionnalité vous permet de créer des documents dynamiques facilement mis à jour avec de nouvelles données en modifiant simplement le contenu XML. Que vous génériez des rapports, créiez des modèles ou automatisiez des workflows documentaires, Aspose.Words pour .NET vous offre les outils nécessaires pour simplifier et optimiser vos tâches.
 
 ## FAQ
 
-### Qu'est-ce qu'une balise de document structurée (SDT) ?
+### Qu'est-ce qu'une balise de document structurée (SDT) ?
 Une balise de document structuré (SDT) est un élément de contrôle de contenu dans les documents Word qui peut être utilisé pour lier des données dynamiques, rendant les documents interactifs et axés sur les données.
 
 ### Puis-je lier plusieurs SDT à différentes parties XML dans un seul document ?
 Oui, vous pouvez lier plusieurs SDT à différentes parties XML dans le même document, ce qui permet de créer des modèles complexes basés sur des données.
 
 ### Comment mettre à jour les données XML dans la partie XML personnalisée ?
- Vous pouvez mettre à jour les données XML en accédant à la`CustomXmlPart` objet et en modifiant directement son contenu XML.
+Vous pouvez mettre à jour les données XML en accédant à la `CustomXmlPart` objet et modifier directement son contenu XML.
 
-### Est-il possible de lier des SDT à des attributs XML au lieu d'éléments ?
+### Est-il possible de lier des SDT à des attributs XML au lieu d'éléments ?
 Oui, vous pouvez lier des SDT à des attributs XML en spécifiant l’expression XPath appropriée qui cible l’attribut souhaité.
 
 ### Où puis-je trouver plus de documentation sur Aspose.Words pour .NET ?
- Vous pouvez trouver une documentation complète sur Aspose.Words pour .NET à l'adresse[Documentation Aspose.Words](https://reference.aspose.com/words/net/).
+Vous pouvez trouver une documentation complète sur Aspose.Words pour .NET à l'adresse [Documentation Aspose.Words](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

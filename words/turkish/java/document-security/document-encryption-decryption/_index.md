@@ -1,14 +1,16 @@
 ---
-title: Belge Şifreleme ve Şifre Çözme
-linktitle: Belge Şifreleme ve Şifre Çözme
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java ile belgeleri nasıl şifreleyeceğinizi ve şifresini nasıl çözeceğinizi öğrenin. Adım adım rehberlik ve kaynak kodu örnekleriyle verilerinizi etkili bir şekilde güvence altına alın.
-weight: 12
-url: /tr/java/document-security/document-encryption-decryption/
+"description": "Aspose.Words for Java ile belgeleri nasıl şifreleyeceğinizi ve şifresini nasıl çözeceğinizi öğrenin. Adım adım rehberlik ve kaynak kodu örnekleriyle verilerinizi etkili bir şekilde güvence altına alın."
+"linktitle": "Belge Şifreleme ve Şifre Çözme"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belge Şifreleme ve Şifre Çözme"
+"url": "/tr/java/document-security/document-encryption-decryption/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Şifreleme ve Şifre Çözme
@@ -24,7 +26,7 @@ Bu eğitimde, Aspose.Words for Java kullanarak belgelerin nasıl şifreleneceği
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 - [Java Geliştirme Kiti (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) kuruldu.
-- [Java için Aspose.Words](https://products.aspose.com/words/java) kütüphane. Buradan indirebilirsiniz[Burada](https://downloads.aspose.com/words/java).
+- [Java için Aspose.Words](https://products.aspose.com/words/java) kütüphane. Buradan indirebilirsiniz [Burada](https://downloads.aspose.com/words/java).
 
 ## Adım 1: Bir Java Projesi Oluşturun
 
@@ -70,7 +72,7 @@ import com.aspose.words.SaveFormat;
 
 public class DocumentDecryptionExample {
     public static void main(String[] args) throws Exception {
-        //Şifrelenmiş belgeyi yükle
+        // Şifrelenmiş belgeyi yükle
         Document doc = new Document("encrypted_document.docx");
         
         // Şifre çözme için şifreyi sağlayın
@@ -108,9 +110,13 @@ Belge şifrelemenin değerli bir güvenlik önlemi olduğunu unutmamak önemlidi
 Bu eğitimde özetlenen adımları izleyerek Java uygulamalarınızın güvenliğini artırabilir ve belgelerinizdeki hassas bilgileri etkili bir şekilde koruyabilirsiniz.
 
 Java için Aspose.Words, belge düzenleme ve güvenlik sürecini basitleştirerek geliştiricilerin belge işleme ihtiyaçlarını karşılayan sağlam uygulamalar oluşturmalarına olanak tanır.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: تحديد تنسيق المستند في Aspose.Words لـ Java
-linktitle: تحديد تنسيق المستند
-second_title: واجهة برمجة تطبيقات معالجة المستندات في Java Aspose.Words
-description: تعرف على كيفية اكتشاف تنسيقات المستندات في Java باستخدام Aspose.Words. حدد DOC وDOCX والمزيد. قم بتنظيم الملفات بكفاءة.
-weight: 25
-url: /ar/java/document-loading-and-saving/determining-document-format/
+"description": "تعرّف على كيفية اكتشاف تنسيقات المستندات في جافا باستخدام Aspose.Words. حدّد صيغ DOC وDOCX وغيرها. نظّم ملفاتك بكفاءة."
+"linktitle": "تحديد تنسيق المستند"
+"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
+"title": "تحديد تنسيق المستند في Aspose.Words لـ Java"
+"url": "/ar/java/document-loading-and-saving/determining-document-format/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تحديد تنسيق المستند في Aspose.Words لـ Java
@@ -16,19 +18,19 @@ url: /ar/java/document-loading-and-saving/determining-document-format/
 
 ## مقدمة لتحديد تنسيق المستند في Aspose.Words لـ Java
 
-عند العمل على معالجة المستندات في Java، من المهم تحديد تنسيق الملفات التي تتعامل معها. يوفر Aspose.Words for Java ميزات قوية لتحديد تنسيقات المستندات، وسنقوم بإرشادك خلال العملية.
+عند العمل على معالجة المستندات في جافا، من الضروري تحديد تنسيق الملفات التي تتعامل معها. يوفر Aspose.Words for Java ميزات فعّالة لتحديد تنسيقات المستندات، وسنرشدك خلال العملية.
 
 ## المتطلبات الأساسية
 
 قبل أن نبدأ، تأكد من أن لديك المتطلبات الأساسية التالية:
 
-- [كلمات Aspose.Words للغة جافا](https://releases.aspose.com/words/java/)
+- [كلمات Aspose لجافا](https://releases.aspose.com/words/java/)
 - مجموعة تطوير Java (JDK) مثبتة على نظامك
-- المعرفة الأساسية لبرمجة جافا
+- المعرفة الأساسية ببرمجة جافا
 
 ## الخطوة 1: إعداد الدليل
 
-أولاً، نحتاج إلى إعداد الدلائل اللازمة لتنظيم ملفاتنا بشكل فعّال. سنقوم بإنشاء دلائل لأنواع مختلفة من المستندات.
+أولاً، علينا إعداد الأدلة اللازمة لتنظيم ملفاتنا بفعالية. سننشئ أدلة لأنواع مختلفة من المستندات.
 
 ```java
 File supportedDir = new File("Your Directory Path" + "Supported");
@@ -36,7 +38,7 @@ File unknownDir = new File("Your Directory Path" + "Unknown");
 File encryptedDir = new File("Your Directory Path" + "Encrypted");
 File pre97Dir = new File("Your Directory Path" + "Pre97");
 
-// إنشاء الدلائل إذا لم تكن موجودة بالفعل.
+// قم بإنشاء الدلائل إذا لم تكن موجودة بالفعل.
 if (!supportedDir.exists())
     supportedDir.mkdir();
 if (!unknownDir.exists())
@@ -47,11 +49,11 @@ if (!pre97Dir.exists())
     pre97Dir.mkdir();
 ```
 
-لقد قمنا بإنشاء أدلة لأنواع المستندات المدعومة، وغير المعروفة، والمشفرة، وأنواع المستندات التي سبقت الإصدار 97.
+لقد قمنا بإنشاء أدلة لأنواع المستندات المدعومة، وغير المعروفة، والمشفرة، وأنواع المستندات التي سبقت 97.
 
 ## الخطوة 2: اكتشاف تنسيق المستند
 
-الآن، دعنا نكتشف تنسيق المستندات الموجودة في أدلةنا. سنستخدم Aspose.Words for Java لتحقيق ذلك.
+الآن، لنكتشف تنسيق المستندات في مجلداتنا. سنستخدم Aspose.Words لجافا لتحقيق ذلك.
 
 ```java
 Set<String> listFiles = Stream.of(new File("Your Directory Path").listFiles())
@@ -95,14 +97,14 @@ for (String fileName : listFiles) {
 
 في مقتطف التعليمات البرمجية هذا، نقوم بالتكرار خلال الملفات، واكتشاف تنسيقاتها، وتنظيمها في الدلائل الخاصة بها.
 
-## الكود المصدر الكامل لتحديد تنسيق المستند في Aspose.Words لـ Java
+## الكود المصدري الكامل لتحديد تنسيق المستند في Aspose.Words لـ Java
 
 ```java
         File supportedDir = new File("Your Directory Path" + "Supported");
         File unknownDir = new File("Your Directory Path" + "Unknown");
         File encryptedDir = new File("Your Directory Path" + "Encrypted");
         File pre97Dir = new File("Your Directory Path" + "Pre97");
-        // إنشاء الدلائل إذا لم تكن موجودة بالفعل.
+        // قم بإنشاء الدلائل إذا لم تكن موجودة بالفعل.
         if (supportedDir.exists() == false)
             supportedDir.mkdir();
         if (unknownDir.exists() == false)
@@ -189,32 +191,37 @@ for (String fileName : listFiles) {
 
 ## خاتمة
 
-يعد تحديد تنسيقات المستندات في Aspose.Words for Java أمرًا ضروريًا لمعالجة المستندات بكفاءة. باستخدام الخطوات الموضحة في هذا الدليل، يمكنك تحديد أنواع المستندات والتعامل معها وفقًا لذلك في تطبيقات Java الخاصة بك.
+يُعد تحديد تنسيقات المستندات في Aspose.Words لجافا أمرًا أساسيًا لمعالجة المستندات بكفاءة. باتباع الخطوات الموضحة في هذا الدليل، يمكنك تحديد أنواع المستندات ومعالجتها وفقًا لذلك في تطبيقات جافا.
 
 ## الأسئلة الشائعة
 
 ### كيف أقوم بتثبيت Aspose.Words لـ Java؟
 
- يمكنك تنزيل Aspose.Words for Java من[هنا](https://releases.aspose.com/words/java/)واتبع تعليمات التثبيت المقدمة.
+يمكنك تنزيل Aspose.Words for Java من [هنا](https://releases.aspose.com/words/java/) واتبع تعليمات التثبيت المقدمة.
 
 ### ما هي تنسيقات المستندات المدعومة؟
 
-يدعم Aspose.Words for Java تنسيقات مستندات مختلفة، بما في ذلك DOC وDOCX وRTF وHTML والمزيد. يمكنك الرجوع إلى الوثائق للحصول على قائمة كاملة.
+يدعم Aspose.Words لجافا تنسيقات مستندات متنوعة، بما في ذلك DOC وDOCX وRTF وHTML وغيرها. يمكنك مراجعة الوثائق للاطلاع على القائمة الكاملة.
 
 ### كيف يمكنني اكتشاف المستندات المشفرة باستخدام Aspose.Words لـ Java؟
 
- يمكنك استخدام`FileFormatUtil.detectFileFormat()` طريقة للكشف عن المستندات المشفرة، كما هو موضح في هذا الدليل.
+يمكنك استخدام `FileFormatUtil.detectFileFormat()` طريقة للكشف عن المستندات المشفرة، كما هو موضح في هذا الدليل.
 
 ### هل هناك أية قيود عند العمل مع تنسيقات المستندات القديمة؟
 
-قد تكون تنسيقات المستندات القديمة، مثل MS Word 6 أو Word 95، محدودة من حيث الميزات والتوافق مع التطبيقات الحديثة. فكر في ترقية أو تحويل هذه المستندات عند الضرورة.
+قد تكون تنسيقات المستندات القديمة، مثل MS Word 6 أو Word 95، محدودة من حيث الميزات والتوافق مع التطبيقات الحديثة. فكّر في ترقية أو تحويل هذه المستندات عند الحاجة.
 
 ### هل يمكنني أتمتة اكتشاف تنسيق المستند في تطبيق Java الخاص بي؟
 
-نعم، يمكنك أتمتة اكتشاف تنسيق المستند من خلال دمج الكود المقدم في تطبيق Java الخاص بك. يتيح لك هذا معالجة المستندات استنادًا إلى التنسيقات التي تم اكتشافها.
+نعم، يمكنك أتمتة اكتشاف تنسيقات المستندات بدمج الكود المُقدّم في تطبيق جافا. يتيح لك هذا معالجة المستندات بناءً على التنسيقات المُكتشفة.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

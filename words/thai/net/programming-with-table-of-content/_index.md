@@ -1,14 +1,16 @@
 ---
-title: การประมวลผลคำด้วยสารบัญ
-linktitle: การประมวลผลคำด้วยสารบัญ
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: สำรวจการเขียนโปรแกรม TOC ใน Aspose.Words สำหรับ .NET เรียนรู้วิธีการสร้างและจัดการสารบัญในเอกสาร Word ของคุณด้วยบทช่วยสอนทีละขั้นตอนและตัวอย่างโค้ด C#
-weight: 1420
-url: /th/net/programming-with-table-of-content/
+"description": "สำรวจการเขียนโปรแกรม TOC ใน Aspose.Words สำหรับ .NET เรียนรู้วิธีการสร้างและจัดการสารบัญในเอกสาร Word ของคุณด้วยบทช่วยสอนทีละขั้นตอนและตัวอย่างโค้ด C#"
+"linktitle": "การประมวลผลคำด้วยสารบัญ"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การประมวลผลคำด้วยสารบัญ"
+"url": "/th/net/programming-with-table-of-content/"
+"weight": 1420
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การประมวลผลคำด้วยสารบัญ
@@ -20,13 +22,18 @@ url: /th/net/programming-with-table-of-content/
 ไม่ว่าคุณจะเป็นมือใหม่หรือผู้พัฒนาที่มีประสบการณ์ บทช่วยสอนเหล่านี้จะช่วยให้คุณเชี่ยวชาญเทคนิคขั้นสูงในการสร้างและดูแลสารบัญอย่างมืออาชีพในเอกสาร Word ของคุณโดยใช้ Aspose.Words สำหรับ .NET ปรับปรุงการจัดระเบียบเอกสารของคุณและทำให้การนำทางง่ายขึ้นสำหรับผู้ใช้ของคุณด้วยบทช่วยสอนที่ครอบคลุมและให้ข้อมูลเหล่านี้
 
  ## บทช่วยสอน
-| ชื่อ | คำอธิบาย |
-| --- | --- |
-| [การเปลี่ยนรูปแบบ TOC ในเอกสาร Word](./change-style-of-toc-level/) | เรียนรู้วิธีการเปลี่ยนรูปแบบ TOC ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ ปรับแต่ง TOC ของคุณได้อย่างง่ายดาย |
+| ชื่อเรื่อง | คำอธิบาย |
+-
+- [การเปลี่ยนรูปแบบ TOC ในเอกสาร Word](./change-style-of-toc-level/) | เรียนรู้วิธีการเปลี่ยนรูปแบบ TOC ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ ปรับแต่ง TOC ของคุณได้อย่างง่ายดาย -
 | [การเปลี่ยนจุดหยุดแท็บ TOC ในเอกสาร Word](./change-toc-tab-stops/) | เรียนรู้วิธีเปลี่ยนแท็บหยุดของสารบัญในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนนี้จะช่วยให้คุณสร้างสารบัญที่ดูเป็นมืออาชีพได้ |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

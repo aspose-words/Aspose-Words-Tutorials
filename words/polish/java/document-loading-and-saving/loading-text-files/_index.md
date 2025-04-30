@@ -1,14 +1,16 @@
 ---
-title: Ładowanie plików tekstowych za pomocą Aspose.Words dla Java
-linktitle: Ładowanie plików tekstowych za pomocą
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Odblokuj moc Aspose.Words dla Javy. Naucz się ładować dokumenty tekstowe, zarządzać listami, obsługiwać spacje i kontrolować kierunek tekstu.
-weight: 13
-url: /pl/java/document-loading-and-saving/loading-text-files/
+"description": "Odblokuj moc Aspose.Words dla Javy. Naucz się ładować dokumenty tekstowe, zarządzać listami, obsługiwać spacje i kontrolować kierunek tekstu."
+"linktitle": "Ładowanie plików tekstowych za pomocą"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Ładowanie plików tekstowych za pomocą Aspose.Words dla Java"
+"url": "/pl/java/document-loading-and-saving/loading-text-files/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ładowanie plików tekstowych za pomocą Aspose.Words dla Java
@@ -42,7 +44,7 @@ final String TEXT_DOC = "Full stop delimiters:\n" +
         "1 Fourth list item 1\n" +
         "2 Fourth list item 2\n" +
         "3 Fourth list item 3";
-//Czwarta lista, z odstępem pomiędzy numerem listy a zawartością elementu listy,
+// Czwarta lista, z odstępem pomiędzy numerem listy a zawartością elementu listy,
 // zostanie wykryty jako lista tylko wtedy, gdy „DetectNumberingWithWhitespaces” w obiekcie LoadOptions zostanie ustawiony na true,
 // aby uniknąć sytuacji, w której akapity zaczynające się od liczb zostaną omyłkowo uznane za listy.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
@@ -54,7 +56,7 @@ Document doc = new Document(new ByteArrayInputStream(TEXT_DOC.getBytes()), loadO
 doc.save("Your Directory Path" + "WorkingWithTxtLoadOptions.DetectNumberingWithWhitespaces.docx");
 ```
 
- Ten kod pokazuje, jak załadować dokument tekstowy z różnymi formatami list i użyć`DetectNumberingWithWhitespaces` opcja umożliwiająca prawidłowe wykrywanie list.
+Ten kod pokazuje, jak załadować dokument tekstowy z różnymi formatami list i użyć `DetectNumberingWithWhitespaces` opcja umożliwiająca prawidłowe wykrywanie list.
 
 ## Krok 2: Opcje obsługi przestrzeni
 
@@ -76,7 +78,7 @@ public void handleSpacesOptions() throws Exception {
 }
 ```
 
- W tym przykładzie ładujemy dokument tekstowy i przycinamy spacje początkowe i końcowe za pomocą`TxtLeadingSpacesOptions.TRIM` I`TxtTrailingSpacesOptions.TRIM`.
+W tym przykładzie ładujemy dokument tekstowy i przycinamy spacje początkowe i końcowe za pomocą `TxtLeadingSpacesOptions.TRIM` I `TxtTrailingSpacesOptions.TRIM`.
 
 ## Krok 3: Kontrola kierunku tekstu
 
@@ -96,7 +98,7 @@ public void documentTextDirection() throws Exception {
 }
 ```
 
-Ten kod ustawia kierunek dokumentu na automatyczne wykrywanie (`DocumentDirection.AUTO`i ładuje dokument tekstowy z tekstem hebrajskim. Możesz dostosować kierunek dokumentu według potrzeb.
+Ten kod ustawia kierunek dokumentu na automatyczne wykrywanie (`DocumentDirection.AUTO`) i ładuje dokument tekstowy z tekstem hebrajskim. Możesz dostosować kierunek dokumentu według potrzeb.
 
 ## Kompletny kod źródłowy do ładowania plików tekstowych za pomocą Aspose.Words dla Java
 
@@ -172,35 +174,40 @@ Aspose.Words for Java to potężna biblioteka przetwarzania dokumentów, która 
 
 Aby rozpocząć korzystanie z Aspose.Words dla Java, wykonaj następujące kroki:
 1. Pobierz i zainstaluj bibliotekę Aspose.Words for Java.
-2.  Zapoznaj się z dokumentacją pod adresem[Aspose.Words dla Java API Reference](https://reference.aspose.com/words/java/) aby uzyskać szczegółowe informacje i przykłady.
+2. Zapoznaj się z dokumentacją pod adresem [Aspose.Words dla Java API Reference](https://reference.aspose.com/words/java/) aby uzyskać szczegółowe informacje i przykłady.
 3. Zapoznaj się z przykładowym kodem i samouczkami, aby dowiedzieć się, jak efektywnie korzystać z biblioteki.
 
 ### Jak wczytać dokument tekstowy za pomocą Aspose.Words dla Java?
 
- Aby załadować dokument tekstowy za pomocą Aspose.Words dla Java, możesz użyć`TxtLoadOptions` klasa i`Document` class. Upewnij się, że określiłeś odpowiednie opcje obsługi spacji i kierunku tekstu, jeśli to konieczne. Zapoznaj się z przewodnikiem krok po kroku w tym artykule, aby uzyskać szczegółowy przykład.
+Aby załadować dokument tekstowy za pomocą Aspose.Words dla Java, możesz użyć `TxtLoadOptions` klasa i `Document` class. Upewnij się, że określiłeś odpowiednie opcje obsługi spacji i kierunku tekstu, jeśli to konieczne. Zapoznaj się z przewodnikiem krok po kroku w tym artykule, aby uzyskać szczegółowy przykład.
 
 ### Czy mogę przekonwertować załadowany dokument tekstowy do innych formatów?
 
- Tak, Aspose.Words for Java pozwala na konwersję załadowanego dokumentu tekstowego do różnych formatów, w tym DOCX, PDF i innych. Możesz użyć`Document` klasa do wykonywania konwersji. Sprawdź dokumentację pod kątem konkretnych przykładów konwersji.
+Tak, Aspose.Words for Java pozwala na konwersję załadowanego dokumentu tekstowego do różnych formatów, w tym DOCX, PDF i innych. Możesz użyć `Document` klasa do wykonywania konwersji. Sprawdź dokumentację pod kątem konkretnych przykładów konwersji.
 
 ### Jak radzić sobie ze spacjami w załadowanych dokumentach tekstowych?
 
- Możesz kontrolować sposób obsługi spacji początkowych i końcowych w załadowanych dokumentach tekstowych za pomocą`TxtLoadOptions` Opcje takie jak`TxtLeadingSpacesOptions` I`TxtTrailingSpacesOptions`pozwalają przycinać lub zachowywać spacje w razie potrzeby. Przykład można znaleźć w sekcji „Opcje obsługi spacji” w tym przewodniku.
+Możesz kontrolować sposób obsługi spacji początkowych i końcowych w załadowanych dokumentach tekstowych za pomocą `TxtLoadOptions`Opcje takie jak `TxtLeadingSpacesOptions` I `TxtTrailingSpacesOptions` pozwalają przycinać lub zachowywać spacje w razie potrzeby. Przykład można znaleźć w sekcji „Opcje obsługi spacji” w tym przewodniku.
 
-### Jakie znaczenie ma kierunek tekstu w Aspose.Words dla Java?
+### Jakie jest znaczenie kierunku tekstu w Aspose.Words dla Java?
 
 Kierunek tekstu jest istotny dla dokumentów zawierających mieszane skrypty lub języki, takie jak hebrajski lub arabski. Aspose.Words for Java udostępnia opcje określania kierunku tekstu, zapewniając prawidłowe renderowanie i formatowanie tekstu w tych językach. Sekcja „Kontrolowanie kierunku tekstu” w tym przewodniku pokazuje, jak ustawić kierunek tekstu.
 
 ### Gdzie mogę znaleźć więcej materiałów i pomocy dla Aspose.Words dla Java?
 
- Aby uzyskać dodatkowe zasoby, dokumentację i pomoc, odwiedź stronę[Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/). Możesz również uczestniczyć w forach społeczności Aspose.Words lub skontaktować się z pomocą techniczną Aspose, aby uzyskać pomoc w konkretnych problemach lub zapytaniach.
+Aby uzyskać dodatkowe zasoby, dokumentację i pomoc, odwiedź stronę [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/). Możesz również uczestniczyć w forach społeczności Aspose.Words lub skontaktować się z pomocą techniczną Aspose, aby uzyskać pomoc w konkretnych problemach lub zapytaniach.
 
 ### Czy Aspose.Words for Java nadaje się do projektów komercyjnych?
 
 Tak, Aspose.Words for Java nadaje się zarówno do projektów osobistych, jak i komercyjnych. Oferuje opcje licencjonowania, aby dostosować się do różnych scenariuszy użytkowania. Upewnij się, że zapoznałeś się z warunkami licencjonowania i cenami na stronie internetowej Aspose, aby wybrać odpowiednią licencję dla swojego projektu.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

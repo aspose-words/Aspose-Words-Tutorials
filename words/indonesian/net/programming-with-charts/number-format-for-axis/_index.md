@@ -1,14 +1,16 @@
 ---
-title: Format Angka Untuk Sumbu Dalam Bagan
-linktitle: Format Angka Untuk Sumbu Dalam Bagan
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memformat angka sumbu bagan menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Tingkatkan keterbacaan dan profesionalisme dokumen Anda dengan mudah.
-weight: 10
-url: /id/net/programming-with-charts/number-format-for-axis/
+"description": "Pelajari cara memformat angka sumbu bagan menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Tingkatkan keterbacaan dan profesionalisme dokumen Anda dengan mudah."
+"linktitle": "Format Angka Untuk Sumbu Dalam Bagan"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Format Angka Untuk Sumbu Dalam Bagan"
+"url": "/id/net/programming-with-charts/number-format-for-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Format Angka Untuk Sumbu Dalam Bagan
@@ -19,9 +21,9 @@ Hai! Pernahkah Anda bekerja dengan diagram dalam dokumen Anda dan berharap dapat
 
 ## Prasyarat
 
-Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda butuhkan. Berikut ini daftar periksa singkatnya:
+Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda butuhkan. Berikut daftar periksa singkatnya:
 
--  Aspose.Words untuk .NET: Pastikan Anda telah menginstalnya. Jika belum, Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda telah menginstalnya. Jika belum, Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 - .NET Framework: Pastikan Anda telah menginstal .NET Framework yang kompatibel.
 - Lingkungan Pengembangan: IDE seperti Visual Studio akan bekerja dengan sempurna.
 - Pengetahuan Dasar C#: Ini akan membantu Anda mengikuti contoh pengkodean.
@@ -52,7 +54,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Di Sini,`dataDir` adalah jalur ke direktori dokumen tempat Anda akan menyimpan file akhir.`Document` Dan`DocumentBuilder` adalah kelas dari Aspose.Words yang membantu Anda membuat dan memanipulasi dokumen Word.
+Di Sini, `dataDir` adalah jalur ke direktori dokumen tempat Anda akan menyimpan file akhir. `Document` Dan `DocumentBuilder` adalah kelas dari Aspose.Words yang membantu Anda membuat dan memanipulasi dokumen Word.
 
 ## Langkah 2: Memasukkan Bagan
 
@@ -65,7 +67,7 @@ Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 ```
 
- Itu`InsertChart` metode menyisipkan bagan dengan jenis tertentu (Kolom dalam kasus ini) dan dimensi ke dalam dokumen.
+Itu `InsertChart` metode menyisipkan bagan dengan jenis tertentu (Kolom dalam kasus ini) dan dimensi ke dalam dokumen.
 
 ## Langkah 3: Menyesuaikan Seri Bagan
 
@@ -80,7 +82,7 @@ chart.Series.Add("Aspose Series 1",
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 ```
 
- Di sini, kami menambahkan seri baru yang disebut "Aspose Series 1" dengan lima titik data.`Series.Clear` metode ini memastikan semua data yang sudah ada sebelumnya dihapus sebelum menambahkan seri baru kami.
+Di sini, kami menambahkan seri baru yang disebut "Aspose Series 1" dengan lima titik data. `Series.Clear` metode ini memastikan semua data yang sudah ada sebelumnya dihapus sebelum menambahkan seri baru kami.
 
 ## Langkah 4: Memformat Angka Sumbu
 
@@ -92,7 +94,7 @@ Terakhir, mari kita format angka-angka pada sumbu Y agar lebih mudah dibaca. Ini
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 ```
 
- Itu`FormatCode` properti memungkinkan Anda untuk mengatur format khusus untuk angka pada sumbu. Dalam contoh ini,`#,##0`memastikan bahwa angka besar ditampilkan dengan koma untuk ribuan.
+Itu `FormatCode` properti memungkinkan Anda untuk mengatur format khusus untuk angka pada sumbu. Dalam contoh ini, `#,##0` memastikan bahwa angka besar ditampilkan dengan koma untuk ribuan.
 
 ## Langkah 5: Menyimpan Dokumen
 
@@ -104,7 +106,7 @@ Setelah semuanya diatur, saatnya menyimpan dokumen Anda. Langkah ini merupakan p
 doc.Save(dataDir + "WorkingWithCharts.NumberFormatForAxis.docx");
 ```
 
- Di sini,`Save` metode menyimpan dokumen ke jalur yang ditentukan dengan nama file`WorkingWithCharts.NumberFormatForAxis.docx`.
+Di sini, `Save` metode menyimpan dokumen ke jalur yang ditentukan dengan nama file `WorkingWithCharts.NumberFormatForAxis.docx`.
 
 ## Kesimpulan
 
@@ -119,17 +121,22 @@ Aspose.Words untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk 
 Tentu saja! Aspose.Words untuk .NET memungkinkan Anda memformat judul, label, dan bahkan menyesuaikan tampilan bagan.
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Words untuk .NET?
- Ya, Anda bisa mendapatkannya[uji coba gratis di sini](https://releases.aspose.com/).
+Ya, Anda bisa mendapatkannya [uji coba gratis di sini](https://releases.aspose.com/).
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET dengan bahasa .NET lain selain C#?
 Ya, Aspose.Words untuk .NET kompatibel dengan bahasa .NET apa pun, termasuk VB.NET dan F#.
 
 ### Di mana saya dapat menemukan dokumentasi yang lebih rinci?
- Dokumentasi terperinci tersedia di[Halaman dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+Dokumentasi terperinci tersedia di [Halaman dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

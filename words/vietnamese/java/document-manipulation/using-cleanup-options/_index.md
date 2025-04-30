@@ -1,26 +1,28 @@
 ---
-title: Sử dụng tùy chọn dọn dẹp trong Aspose.Words cho Java
-linktitle: Sử dụng Tùy chọn Dọn dẹp
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tăng cường độ rõ nét của tài liệu với tùy chọn dọn dẹp Aspose.Words for Java. Tìm hiểu cách xóa các đoạn văn trống, vùng không sử dụng và nhiều hơn nữa.
-weight: 10
-url: /vi/java/document-manipulation/using-cleanup-options/
+"description": "Tăng cường độ rõ nét của tài liệu với tùy chọn dọn dẹp Aspose.Words for Java. Tìm hiểu cách xóa các đoạn văn trống, vùng không sử dụng và nhiều hơn nữa."
+"linktitle": "Sử dụng Tùy chọn Dọn dẹp"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng tùy chọn dọn dẹp trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/using-cleanup-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng tùy chọn dọn dẹp trong Aspose.Words cho Java
 
 
-## Giới thiệu về cách sử dụng tùy chọn dọn dẹp trong Aspose.Words cho Java
+## Giới thiệu về cách sử dụng tùy chọn Cleanup trong Aspose.Words cho Java
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng tùy chọn dọn dẹp trong Aspose.Words for Java để thao tác và dọn dẹp tài liệu trong quá trình trộn thư. Tùy chọn dọn dẹp cho phép bạn kiểm soát nhiều khía cạnh khác nhau của việc dọn dẹp tài liệu, chẳng hạn như xóa các đoạn văn trống, vùng không sử dụng, v.v.
 
 ## Điều kiện tiên quyết
 
- Trước khi bắt đầu, hãy đảm bảo bạn đã tích hợp thư viện Aspose.Words for Java vào dự án của mình. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/java/).
+Trước khi bắt đầu, hãy đảm bảo bạn đã tích hợp thư viện Aspose.Words for Java vào dự án của mình. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
 
 ## Bước 1: Xóa đoạn văn trống
 
@@ -152,38 +154,43 @@ Tùy chọn dọn dẹp trong Aspose.Words for Java là các thiết lập cho p
 
 ### Làm thế nào để xóa đoạn văn trống khỏi tài liệu của tôi?
 
- Để xóa các đoạn văn trống khỏi tài liệu của bạn bằng Aspose.Words cho Java, bạn có thể đặt`MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` tùy chọn thành đúng. Điều này sẽ tự động loại bỏ các đoạn văn không có nội dung, giúp tài liệu sạch hơn.
+Để xóa các đoạn văn trống khỏi tài liệu của bạn bằng Aspose.Words cho Java, bạn có thể đặt `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` tùy chọn thành đúng. Điều này sẽ tự động loại bỏ các đoạn văn không có nội dung, giúp tài liệu sạch hơn.
 
-###  Mục đích của việc này là gì?`REMOVE_UNUSED_REGIONS` cleanup option?
+### Mục đích của việc này là gì? `REMOVE_UNUSED_REGIONS` tùy chọn dọn dẹp?
 
- Các`MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` Tùy chọn này được sử dụng để xóa các vùng trong tài liệu không có dữ liệu tương ứng trong quá trình trộn thư. Nó giúp giữ cho tài liệu của bạn gọn gàng bằng cách loại bỏ các chỗ giữ chỗ không sử dụng.
+Các `MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` Tùy chọn này được sử dụng để xóa các vùng trong tài liệu không có dữ liệu tương ứng trong quá trình trộn thư. Nó giúp giữ cho tài liệu của bạn gọn gàng bằng cách loại bỏ các chỗ giữ chỗ không sử dụng.
 
 ### Tôi có thể xóa các hàng bảng trống khỏi tài liệu bằng Aspose.Words cho Java không?
 
- Có, bạn có thể xóa các hàng bảng trống khỏi tài liệu bằng cách thiết lập`MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS`tùy chọn dọn dẹp thành đúng. Tùy chọn này sẽ tự động xóa bất kỳ hàng bảng nào không chứa dữ liệu, đảm bảo bảng có cấu trúc tốt trong tài liệu của bạn.
+Có, bạn có thể xóa các hàng bảng trống khỏi tài liệu bằng cách thiết lập `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS` tùy chọn dọn dẹp thành đúng. Tùy chọn này sẽ tự động xóa bất kỳ hàng bảng nào không chứa dữ liệu, đảm bảo bảng có cấu trúc tốt trong tài liệu của bạn.
 
-###  Điều gì xảy ra khi tôi thiết lập`REMOVE_CONTAINING_FIELDS` option?
+### Điều gì xảy ra khi tôi thiết lập `REMOVE_CONTAINING_FIELDS` lựa chọn?
 
- Thiết lập`MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` tùy chọn sẽ xóa toàn bộ trường hợp hợp nhất, bao gồm cả đoạn văn chứa nó, khỏi tài liệu trong quá trình hợp nhất thư. Điều này hữu ích khi bạn muốn xóa các trường hợp hợp nhất và văn bản liên quan của chúng.
+Thiết lập `MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` tùy chọn sẽ xóa toàn bộ trường hợp hợp nhất, bao gồm cả đoạn văn chứa nó, khỏi tài liệu trong quá trình hợp nhất thư. Điều này hữu ích khi bạn muốn xóa các trường hợp hợp nhất và văn bản liên quan của chúng.
 
 ### Làm thế nào để xóa các trường trộn không sử dụng khỏi tài liệu của tôi?
 
- Để xóa các trường hợp nhập không sử dụng khỏi tài liệu, bạn có thể đặt`MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` tùy chọn thành đúng. Điều này sẽ tự động loại bỏ các trường hợp nhập không được điền trong quá trình trộn thư, giúp tài liệu sạch hơn.
+Để xóa các trường hợp nhập không sử dụng khỏi tài liệu, bạn có thể đặt `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` tùy chọn thành đúng. Điều này sẽ tự động loại bỏ các trường hợp nhập không được điền trong quá trình trộn thư, giúp tài liệu sạch hơn.
 
-###  Sự khác biệt giữa là gì?`REMOVE_EMPTY_FIELDS` and `REMOVE_UNUSED_FIELDS` cleanup options?
+### Sự khác biệt giữa là gì? `REMOVE_EMPTY_FIELDS` Và `REMOVE_UNUSED_FIELDS` tùy chọn dọn dẹp?
 
- Các`REMOVE_EMPTY_FIELDS` tùy chọn xóa các trường hợp nhất không có dữ liệu hoặc trống trong quá trình hợp nhất thư. Mặt khác,`REMOVE_UNUSED_FIELDS`Tùy chọn này xóa các trường hợp hợp nhất không được điền dữ liệu trong quá trình hợp nhất. Lựa chọn giữa chúng phụ thuộc vào việc bạn muốn xóa các trường không có nội dung hay các trường không được sử dụng trong thao tác hợp nhất cụ thể.
+Các `REMOVE_EMPTY_FIELDS` tùy chọn xóa các trường hợp nhất không có dữ liệu hoặc trống trong quá trình hợp nhất thư. Mặt khác, `REMOVE_UNUSED_FIELDS` Tùy chọn này xóa các trường hợp hợp nhất không được điền dữ liệu trong quá trình hợp nhất. Lựa chọn giữa chúng phụ thuộc vào việc bạn muốn xóa các trường không có nội dung hay các trường không được sử dụng trong thao tác hợp nhất cụ thể.
 
 ### Làm thế nào tôi có thể bật tính năng xóa đoạn văn có dấu chấm câu?
 
- Để cho phép xóa các đoạn văn có dấu chấm câu, bạn có thể thiết lập`cleanupParagraphsWithPunctuationMarks` tùy chọn thành true và chỉ định các dấu câu cần xem xét để dọn dẹp. Điều này cho phép bạn tạo một tài liệu tinh tế hơn bằng cách xóa các đoạn văn chỉ có dấu câu không cần thiết.
+Để cho phép xóa các đoạn văn có dấu chấm câu, bạn có thể thiết lập `cleanupParagraphsWithPunctuationMarks` tùy chọn thành true và chỉ định các dấu câu cần xem xét để dọn dẹp. Điều này cho phép bạn tạo một tài liệu tinh tế hơn bằng cách xóa các đoạn văn chỉ có dấu câu không cần thiết.
 
 ### Tôi có thể tùy chỉnh các tùy chọn dọn dẹp trong Aspose.Words cho Java không?
 
 Có, bạn có thể tùy chỉnh các tùy chọn dọn dẹp theo nhu cầu cụ thể của mình. Bạn có thể chọn tùy chọn dọn dẹp nào để áp dụng và cấu hình chúng theo yêu cầu dọn dẹp tài liệu của mình, đảm bảo rằng tài liệu cuối cùng của bạn đáp ứng các tiêu chuẩn mong muốn.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

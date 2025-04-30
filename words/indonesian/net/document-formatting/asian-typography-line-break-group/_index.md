@@ -1,14 +1,16 @@
 ---
-title: Grup Pemisah Baris Tipografi Asia Dalam Dokumen Word
-linktitle: Grup Pemisah Baris Tipografi Asia Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Kuasai pemisah baris tipografi Asia dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan ini menyediakan tutorial langkah demi langkah untuk pemformatan yang tepat.
-weight: 10
-url: /id/net/document-formatting/asian-typography-line-break-group/
+"description": "Kuasai pemisah baris tipografi Asia dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan ini menyediakan tutorial langkah demi langkah untuk pemformatan yang tepat."
+"linktitle": "Grup Pemisah Baris Tipografi Asia Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Grup Pemisah Baris Tipografi Asia Dalam Dokumen Word"
+"url": "/id/net/document-formatting/asian-typography-line-break-group/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Grup Pemisah Baris Tipografi Asia Dalam Dokumen Word
@@ -21,12 +23,12 @@ Pernahkah Anda bertanya-tanya bagaimana cara menyempurnakan tipografi dokumen Wo
 
 Sebelum kita masuk ke detail yang lebih rinci, ada beberapa hal yang perlu Anda persiapkan. Berikut ini adalah hal-hal yang perlu Anda siapkan:
 
-- Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Jika Anda belum melakukannya, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Jika Anda belum melakukannya, Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Anda memerlukan lingkungan pengembangan seperti Visual Studio.
 - Pengetahuan Dasar C#: Meskipun kami akan menjelaskan semuanya, pemahaman dasar tentang C# akan bermanfaat.
 - Dokumen Word dengan Tipografi Asia: Miliki dokumen Word yang menyertakan tipografi Asia. Ini akan menjadi berkas kerja kita.
 
-Sudah punya semuanya? Bagus! Mari kita lanjutkan ke pengaturan proyek Anda.
+Sudah mendapatkan semuanya? Bagus! Mari kita lanjutkan ke pengaturan proyek Anda.
 
 ## Mengimpor Ruang Nama
 
@@ -94,7 +96,7 @@ Nah, itu dia! Hanya dengan beberapa baris kode, Anda telah menguasai seni mengen
 ## Tanya Jawab Umum
 
 ### Apa itu kendali pemutusan saluran Timur Jauh?
-Kontrol pemisah baris Timur Jauh adalah pengaturan yang mengelola bagaimana teks dibungkus dalam bahasa Asia, memastikan pemformatan dan keterbacaan yang tepat.
+Kontrol pemisah baris Timur Jauh adalah pengaturan yang mengelola cara pembungkusan teks dalam bahasa Asia, memastikan pemformatan dan keterbacaan yang tepat.
 
 ### Mengapa saya harus menonaktifkan tanda baca yang menggantung?
 Menonaktifkan tanda baca gantung membantu mempertahankan tampilan yang bersih dan profesional, terutama dalam dokumen dengan tipografi Asia.
@@ -106,11 +108,16 @@ Ya, Anda dapat mengulang semua paragraf dalam dokumen dan menerapkan pengaturan 
 Meskipun Visual Studio direkomendasikan, Anda dapat menggunakan lingkungan pengembangan apa pun yang mendukung C# dan .NET.
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya tentang Aspose.Words untuk .NET?
- Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/words/net/) , dan untuk pertanyaan apa pun, forum dukungan sangat membantu[Di Sini](https://forum.aspose.com/c/words/8).
+Anda dapat menemukan dokumentasi yang lengkap [Di Sini](https://reference.aspose.com/words/net/), dan untuk pertanyaan apa pun, forum dukungan sangat membantu [Di Sini](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

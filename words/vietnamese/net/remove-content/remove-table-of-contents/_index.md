@@ -1,14 +1,16 @@
 ---
-title: Xóa Mục Lục Trong Tài Liệu Word
-linktitle: Xóa Mục Lục Trong Tài Liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách xóa Mục lục (TOC) trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn dễ làm theo này.
-weight: 10
-url: /vi/net/remove-content/remove-table-of-contents/
+"description": "Tìm hiểu cách xóa Mục lục (TOC) trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn dễ làm theo này."
+"linktitle": "Xóa Mục Lục Trong Tài Liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Xóa Mục Lục Trong Tài Liệu Word"
+"url": "/vi/net/remove-content/remove-table-of-contents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa Mục Lục Trong Tài Liệu Word
@@ -21,7 +23,7 @@ Bạn có thấy mệt mỏi khi phải xử lý Mục lục (TOC) không mong m
 
 Trước khi bắt đầu, hãy đảm bảo bạn có mọi thứ cần thiết:
 
-1.  Thư viện Aspose.Words cho .NET: Nếu bạn chưa tải xuống và cài đặt thư viện Aspose.Words cho .NET từ[Aspose.Phát hành](https://releases.aspose.com/words/net/).
+1. Thư viện Aspose.Words cho .NET: Nếu bạn chưa tải xuống và cài đặt thư viện Aspose.Words cho .NET từ [Aspose.Phát hành](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Một IDE như Visual Studio sẽ giúp việc viết mã dễ dàng hơn.
 3. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework.
 4. Tài liệu Word: Có một tài liệu Word (.docx) có mục lục mà bạn muốn xóa.
@@ -47,7 +49,7 @@ Trước khi chúng ta có thể thao tác với tài liệu của bạn, chúng
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` bằng đường dẫn đến thư mục tài liệu của bạn. Đây là nơi lưu trữ tệp Word của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` bằng đường dẫn đến thư mục tài liệu của bạn. Đây là nơi lưu trữ tệp Word của bạn.
 
 ## Bước 2: Tải tài liệu
 
@@ -57,7 +59,7 @@ Tiếp theo, chúng ta cần tải tài liệu Word vào ứng dụng của mìn
 Document doc = new Document(dataDir + "your-document.docx");
 ```
 
- Thay thế`"your-document.docx"` với tên tệp của bạn. Dòng mã này tải tài liệu của bạn để chúng ta có thể bắt đầu làm việc trên đó.
+Thay thế `"your-document.docx"` với tên tệp của bạn. Dòng mã này tải tài liệu của bạn để chúng ta có thể bắt đầu làm việc trên đó.
 
 ## Bước 3: Xác định và xóa trường TOC
 
@@ -81,11 +83,11 @@ Cuối cùng, chúng ta cần lưu các thay đổi. Bạn có thể lưu tài l
 doc.Save(dataDir + "modified-document.docx", SaveFormat.Docx);
 ```
 
- Dòng này lưu tài liệu của bạn với những thay đổi đã thực hiện. Thay thế`"modified-document.docx"` với tên tập tin bạn muốn.
+Dòng này lưu tài liệu của bạn với những thay đổi đã thực hiện. Thay thế `"modified-document.docx"` với tên tập tin bạn muốn.
 
 ## Phần kết luận
 
-Và bạn đã có nó rồi! Xóa TOC khỏi tài liệu Word bằng Aspose.Words for .NET rất đơn giản khi bạn chia nhỏ thành các bước đơn giản sau. Thư viện mạnh mẽ này không chỉ giúp xóa TOC mà còn có thể xử lý vô số thao tác khác trên tài liệu. Vậy nên, hãy thử xem!
+Và bạn đã có nó rồi! Việc xóa TOC khỏi tài liệu Word bằng Aspose.Words for .NET rất đơn giản khi bạn chia nhỏ thành các bước đơn giản sau. Thư viện mạnh mẽ này không chỉ giúp xóa TOC mà còn có thể xử lý vô số thao tác khác trên tài liệu. Vậy nên, hãy thử xem!
 
 ## Câu hỏi thường gặp
 
@@ -95,7 +97,7 @@ Aspose.Words for .NET là một thư viện .NET mạnh mẽ để xử lý tài
 
 ### Tôi có thể sử dụng Aspose.Words miễn phí không?
 
- Có, bạn có thể sử dụng Aspose.Words với[dùng thử miễn phí](https://releases.aspose.com/) hoặc nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Có, bạn có thể sử dụng Aspose.Words với [dùng thử miễn phí](https://releases.aspose.com/) hoặc nhận được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ### Có thể xóa các trường khác bằng Aspose.Words không?
 
@@ -107,10 +109,15 @@ Mặc dù Visual Studio được khuyến khích sử dụng vì dễ phát tri�
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Words ở đâu?
 
- Để biết thêm tài liệu chi tiết, hãy truy cập[Aspose.Words cho tài liệu API .NET](https://reference.aspose.com/words/net/).
+Để biết thêm tài liệu chi tiết, hãy truy cập [Aspose.Words cho tài liệu API .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

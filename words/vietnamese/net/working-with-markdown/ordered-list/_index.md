@@ -1,14 +1,16 @@
 ---
-title: Danh sách có thứ tự
-linktitle: Danh sách có thứ tự
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tạo danh sách có thứ tự trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Hoàn hảo để tự động hóa việc tạo tài liệu.
-weight: 10
-url: /vi/net/working-with-markdown/ordered-list/
+"description": "Tìm hiểu cách tạo danh sách có thứ tự trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Hoàn hảo để tự động hóa việc tạo tài liệu."
+"linktitle": "Danh sách có thứ tự"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Danh sách có thứ tự"
+"url": "/vi/net/working-with-markdown/ordered-list/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Danh sách có thứ tự
@@ -21,7 +23,7 @@ Vậy là bạn đã quyết định tìm hiểu sâu hơn về Aspose.Words for
 
 Trước khi đi sâu vào mã, bạn cần có một số thứ sau:
 
-1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Nếu chưa, bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Nếu chưa, bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác tương thích với .NET.
 3. Kiến thức cơ bản về C#: Bạn nên nắm vững những kiến thức cơ bản về C# để có thể dễ dàng theo dõi.
 
@@ -79,7 +81,7 @@ builder.Writeln("Item 2a");
 builder.Writeln("Item 2b");
 ```
 
- Các`ListIndent` phương pháp thụt lề danh sách, tạo ra một danh sách con. Bây giờ bạn đang tạo một danh sách phân cấp, khá giống với danh sách việc cần làm lồng nhau.
+Các `ListIndent` phương pháp thụt lề danh sách, tạo ra một danh sách con. Bây giờ bạn đang tạo một danh sách phân cấp, khá giống với danh sách việc cần làm lồng nhau.
 
 ## Phần kết luận
 
@@ -88,22 +90,27 @@ Việc tạo danh sách có thứ tự trong tài liệu Word theo chương trì
 ## Câu hỏi thường gặp
 
 ### Tôi có thể tùy chỉnh kiểu đánh số của danh sách không?  
- Có, bạn có thể tùy chỉnh kiểu đánh số bằng cách sử dụng`ListFormat`thuộc tính. Bạn có thể thiết lập các kiểu đánh số khác nhau như số La Mã, chữ cái, v.v.
+Có, bạn có thể tùy chỉnh kiểu đánh số bằng cách sử dụng `ListFormat` thuộc tính. Bạn có thể thiết lập các kiểu đánh số khác nhau như số La Mã, chữ cái, v.v.
 
 ### Làm thế nào để thêm nhiều mức thụt lề hơn?  
- Bạn có thể sử dụng`ListIndent` phương pháp nhiều lần để tạo ra các cấp độ sâu hơn của danh sách phụ. Mỗi cuộc gọi đến`ListIndent` thêm một mức thụt lề.
+Bạn có thể sử dụng `ListIndent` phương pháp nhiều lần để tạo ra các cấp độ sâu hơn của danh sách phụ. Mỗi cuộc gọi đến `ListIndent` thêm một mức thụt lề.
 
 ### Tôi có thể kết hợp dấu đầu dòng và danh sách đánh số không?  
- Chắc chắn rồi! Bạn có thể áp dụng các định dạng danh sách khác nhau trong cùng một tài liệu bằng cách sử dụng`ListFormat` tài sản.
+Chắc chắn rồi! Bạn có thể áp dụng các định dạng danh sách khác nhau trong cùng một tài liệu bằng cách sử dụng `ListFormat` tài sản.
 
 ### Có thể tiếp tục đánh số từ danh sách trước đó không?  
 Có, bạn có thể tiếp tục đánh số bằng cách sử dụng cùng một định dạng danh sách. Aspose.Words cho phép bạn kiểm soát việc đánh số danh sách trên các đoạn văn khác nhau.
 
 ### Làm thế nào để tôi có thể xóa định dạng danh sách?  
- Bạn có thể xóa định dạng danh sách bằng cách gọi`ListFormat.RemoveNumbers()`. Thao tác này sẽ chuyển các mục danh sách trở lại thành các đoạn văn thông thường.
+Bạn có thể xóa định dạng danh sách bằng cách gọi `ListFormat.RemoveNumbers()`. Thao tác này sẽ chuyển các mục danh sách trở lại thành các đoạn văn thông thường.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

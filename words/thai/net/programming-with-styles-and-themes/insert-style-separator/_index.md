@@ -1,14 +1,16 @@
 ---
-title: แทรกตัวคั่นรูปแบบเอกสารใน Word
-linktitle: แทรกตัวคั่นรูปแบบเอกสารใน Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแทรกตัวคั่นรูปแบบเอกสารใน Word โดยใช้ Aspose.Words สำหรับ .NET คู่มือนี้ให้คำแนะนำและเคล็ดลับในการจัดการรูปแบบเอกสาร
-weight: 10
-url: /th/net/programming-with-styles-and-themes/insert-style-separator/
+"description": "เรียนรู้วิธีแทรกตัวคั่นรูปแบบเอกสารใน Word โดยใช้ Aspose.Words สำหรับ .NET คู่มือนี้ให้คำแนะนำและเคล็ดลับในการจัดการรูปแบบเอกสาร"
+"linktitle": "แทรกตัวคั่นรูปแบบเอกสารใน Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แทรกตัวคั่นรูปแบบเอกสารใน Word"
+"url": "/th/net/programming-with-styles-and-themes/insert-style-separator/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทรกตัวคั่นรูปแบบเอกสารใน Word
@@ -21,13 +23,13 @@ url: /th/net/programming-with-styles-and-themes/insert-style-separator/
 
 ก่อนที่จะเจาะลึกโค้ด ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1.  ไลบรารี Aspose.Words สำหรับ .NET: คุณต้องติดตั้งไลบรารี Aspose.Words ไว้ในโปรเจ็กต์ของคุณ หากคุณยังไม่มี คุณสามารถดาวน์โหลดได้จาก[หน้าเผยแพร่ Aspose.Words สำหรับ .NET](https://releases.aspose.com/words/net/).
+1. ไลบรารี Aspose.Words สำหรับ .NET: คุณต้องติดตั้งไลบรารี Aspose.Words ไว้ในโปรเจ็กต์ของคุณ หากคุณยังไม่มี คุณสามารถดาวน์โหลดได้จาก [หน้าเผยแพร่ Aspose.Words สำหรับ .NET](https://releases-aspose.com/words/net/).
    
 2. สภาพแวดล้อมการพัฒนา: ให้แน่ใจว่าคุณมีการตั้งค่าสภาพแวดล้อมการพัฒนา .NET เช่น Visual Studio
 
 3. ความรู้พื้นฐาน: ความเข้าใจพื้นฐานเกี่ยวกับ C# และวิธีใช้ไลบรารีใน .NET จะเป็นประโยชน์
 
-4.  บัญชี Aspose: สำหรับการสนับสนุน การซื้อ หรือการขอรับรุ่นทดลองใช้งานฟรี โปรดตรวจสอบ[หน้าการซื้อของ Aspose](https://purchase.aspose.com/buy) หรือ[หน้าใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+4. บัญชี Aspose: สำหรับการสนับสนุน การซื้อ หรือการขอรับรุ่นทดลองใช้งานฟรี โปรดตรวจสอบ [หน้าการซื้อของ Aspose](https://purchase.aspose.com/buy) หรือ [หน้าใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
 
 ## นำเข้าเนมสเปซ
 
@@ -44,10 +46,10 @@ using Aspose.Words.Tables;
 
 หัวข้อ: สร้างเอกสารใหม่และตัวสร้าง
 
- คำอธิบาย: เริ่มต้นด้วยการสร้างใหม่`Document` วัตถุและก`DocumentBuilder` ตัวอย่าง.`DocumentBuilder` คลาสช่วยให้คุณสามารถแทรกและจัดรูปแบบข้อความและองค์ประกอบต่างๆ ลงในเอกสารได้
+คำอธิบาย: เริ่มต้นด้วยการสร้างใหม่ `Document` วัตถุและก `DocumentBuilder` ตัวอย่าง. `DocumentBuilder` คลาสช่วยให้คุณสามารถแทรกและจัดรูปแบบข้อความและองค์ประกอบต่างๆ ลงในเอกสารได้
 
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR DOCUMENT DIRECTORY"; 
 
 Document doc = new Document();
@@ -75,15 +77,15 @@ paraStyle.Font.Name = "Arial";
 
 หัวข้อ: เพิ่มข้อความด้วยรูปแบบ "หัวข้อ 1"
 
- คำอธิบาย: ใช้`DocumentBuilder` เพื่อแทรกข้อความที่จัดรูปแบบด้วยรูปแบบ "หัวเรื่อง 1" ขั้นตอนนี้ช่วยในการแยกส่วนต่างๆ ของเอกสารออกจากกัน
+คำอธิบาย: ใช้ `DocumentBuilder` เพื่อแทรกข้อความที่จัดรูปแบบด้วยรูปแบบ "หัวเรื่อง 1" ขั้นตอนนี้ช่วยในการแยกส่วนต่างๆ ของเอกสารออกจากกัน
 
 ```csharp
-// ผนวกข้อความด้วยรูปแบบ "หัวข้อ 1"
+// ผนวกข้อความด้วยรูปแบบ "หัวเรื่อง 1"
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Write("Heading 1");
 ```
 
-ที่นี่เราตั้งค่า`StyleIdentifier` ถึง`Heading1`ซึ่งใช้รูปแบบหัวเรื่องที่กำหนดไว้ล่วงหน้ากับข้อความที่เรากำลังจะแทรก
+ที่นี่เราตั้งค่า `StyleIdentifier` ถึง `Heading1`ซึ่งใช้รูปแบบหัวเรื่องที่กำหนดไว้ล่วงหน้ากับข้อความที่เรากำลังจะแทรก
 
 ## ขั้นตอนที่ 4: แทรกตัวคั่นสไตล์
 
@@ -132,10 +134,10 @@ doc.Save(dataDir + "WorkingWithStylesAndThemes.InsertStyleSeparator.docx");
 ## คำถามที่พบบ่อย
 
 ### ตัวคั่นสไตล์ในเอกสาร Word คืออะไร?
-ตัวคั่นรูปแบบเป็นอักขระพิเศษที่แยกเนื้อหาที่มีรูปแบบต่างกันในเอกสาร Word ช่วยให้รักษาการจัดรูปแบบที่สอดคล้องกัน
+ตัวคั่นรูปแบบเป็นอักขระพิเศษที่แยกเนื้อหาที่มีรูปแบบต่างกันในเอกสาร Word ช่วยรักษาการจัดรูปแบบที่สอดคล้องกัน
 
 ### ฉันจะติดตั้ง Aspose.Words สำหรับ .NET ได้อย่างไร?
- คุณสามารถดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ .NET ได้จาก[หน้าเผยแพร่ Aspose.Words](https://releases.aspose.com/words/net/).
+คุณสามารถดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ .NET ได้จาก [หน้าเผยแพร่ Aspose.Words](https://releases-aspose.com/words/net/).
 
 ### ฉันสามารถใช้รูปแบบต่างๆ ในย่อหน้าเดียวได้ไหม
 ไม่ สไตล์จะถูกใช้ในระดับย่อหน้า ใช้ตัวคั่นสไตล์เพื่อสลับสไตล์ภายในย่อหน้าเดียวกัน
@@ -144,10 +146,15 @@ doc.Save(dataDir + "WorkingWithStylesAndThemes.InsertStyleSeparator.docx");
 ตรวจสอบให้แน่ใจว่าเส้นทางไฟล์ถูกต้องและคุณมีสิทธิ์ในการเขียนลงในไดเร็กทอรีที่ระบุ ตรวจสอบข้อยกเว้นหรือข้อผิดพลาดในโค้ด
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words ได้จากที่ไหน
- คุณสามารถค้นหาการสนับสนุนและถามคำถามได้ที่[ฟอรั่ม Aspose](https://forum.aspose.com/c/words/8).
+คุณสามารถค้นหาการสนับสนุนและถามคำถามได้ที่ [ฟอรั่ม Aspose](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

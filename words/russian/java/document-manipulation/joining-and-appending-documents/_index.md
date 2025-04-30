@@ -1,14 +1,16 @@
 ---
-title: Объединение и добавление документов в Aspose.Words для Java
-linktitle: Объединение и добавление документов
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как легко объединять и добавлять документы с помощью Aspose.Words для Java. Сохраняйте форматирование, управляйте верхними и нижними колонтитулами и т. д.
-weight: 30
-url: /ru/java/document-manipulation/joining-and-appending-documents/
+"description": "Узнайте, как легко объединять и добавлять документы с помощью Aspose.Words для Java. Сохраняйте форматирование, управляйте верхними и нижними колонтитулами и т. д."
+"linktitle": "Объединение и добавление документов"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Объединение и добавление документов в Aspose.Words для Java"
+"url": "/ru/java/document-manipulation/joining-and-appending-documents/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Объединение и добавление документов в Aspose.Words для Java
@@ -130,26 +132,31 @@ Aspose.Words for Java предоставляет гибкие и мощные и
 
 ### Как можно легко объединить документы с разными стилями?
 
- Чтобы объединить документы с разными стилями, используйте`ImportFormatMode.USE_DESTINATION_STYLES` при добавлении.
+Чтобы объединить документы с разными стилями, используйте `ImportFormatMode.USE_DESTINATION_STYLES` при добавлении.
 
 ### Можно ли сохранить нумерацию страниц при добавлении документов?
 
- Да, вы можете сохранить нумерацию страниц, используя`convertNumPageFieldsToPageRef` метод и обновление макета страницы.
+Да, вы можете сохранить нумерацию страниц, используя `convertNumPageFieldsToPageRef` метод и обновление макета страницы.
 
 ### Что такое разумный стиль поведения?
 
- Smart Style Behavior помогает поддерживать единообразные стили при добавлении документов. Используйте его с`ImportFormatOptions` для достижения лучших результатов.
+Smart Style Behavior помогает поддерживать единообразные стили при добавлении документов. Используйте его с `ImportFormatOptions` для достижения лучших результатов.
 
 ### Как работать с текстовыми полями при добавлении документов?
 
-Набор`importFormatOptions.setIgnoreTextBoxes(false)` для включения текстовых полей при добавлении.
+Набор `importFormatOptions.setIgnoreTextBoxes(false)` для включения текстовых полей при добавлении.
 
 ### Что делать, если я хочу связать/отсоединить верхние и нижние колонтитулы между документами?
 
- Вы можете связать верхние и нижние колонтитулы с`linkToPrevious(true)` или отсоединить их от`linkToPrevious(false)` по мере необходимости.
+Вы можете связать верхние и нижние колонтитулы с `linkToPrevious(true)` или отсоединить их от `linkToPrevious(false)` по мере необходимости.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

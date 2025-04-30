@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Stiller ve Temalar Kullanma
-linktitle: Stiller ve Temaların Kullanımı
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java ile belge biçimlendirmesini nasıl geliştireceğinizi öğrenin. Kaynak kod örneklerinin bulunduğu bu kapsamlı kılavuzda stilleri, temaları ve daha fazlasını keşfedin.
-weight: 20
-url: /tr/java/document-manipulation/using-styles-and-themes/
+"description": "Aspose.Words for Java ile belge biçimlendirmesini nasıl geliştireceğinizi öğrenin. Kaynak kod örneklerinin bulunduğu bu kapsamlı kılavuzda stilleri, temaları ve daha fazlasını keşfedin."
+"linktitle": "Stiller ve Temaların Kullanımı"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Stiller ve Temalar Kullanma"
+"url": "/tr/java/document-manipulation/using-styles-and-themes/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Stiller ve Temalar Kullanma
@@ -16,7 +18,7 @@ url: /tr/java/document-manipulation/using-styles-and-themes/
 
 ## Java için Aspose.Words'de Stil ve Temaların Kullanımına Giriş
 
-Bu kılavuzda, belgelerinizin biçimlendirmesini ve görünümünü geliştirmek için Aspose.Words for Java'da stiller ve temalarla nasıl çalışılacağını inceleyeceğiz. Stilleri alma, stilleri kopyalama, temaları yönetme ve stil ayırıcıları ekleme gibi konuları ele alacağız. Hadi başlayalım!
+Bu kılavuzda, belgelerinizin biçimlendirmesini ve görünümünü geliştirmek için Aspose.Words for Java'da stiller ve temalarla nasıl çalışılacağını inceleyeceğiz. Stilleri alma, stilleri kopyalama, temaları yönetme ve stil ayırıcıları ekleme gibi konuları ele alacağız. Başlayalım!
 
 ## Stilleri Geri Alma
 
@@ -25,7 +27,7 @@ Bir belgeden stilleri almak için aşağıdaki Java kod parçacığını kullana
 ```java
 Document doc = new Document();
 String styleName = "";
-//Belgeden stiller koleksiyonunu al.
+// Belgeden stiller koleksiyonunu al.
 StyleCollection styles = doc.getStyles();
 for (Style style : styles)
 {
@@ -46,7 +48,7 @@ Bu kod, belgede tanımlanan stilleri getirir ve isimlerini yazdırır.
 
 ## Stilleri Kopyalama
 
- Stilleri bir belgeden diğerine kopyalamak için şunu kullanabilirsiniz:`copyStylesFromTemplate` Aşağıda gösterildiği gibi bir yöntem:
+Stilleri bir belgeden diğerine kopyalamak için şunu kullanabilirsiniz: `copyStylesFromTemplate` Aşağıda gösterildiği gibi bir yöntem:
 
 ```java
 @Test
@@ -132,10 +134,15 @@ Tema nesnesinin özelliklerini değiştirerek tema özelliklerini ayarlayabilirs
 
 ### Aynı paragraf içinde stiller arasında geçiş yapmak için stil ayırıcılarını nasıl kullanabilirim?
 
- Stil ayırıcılarını kullanarak ekleyebilirsiniz.`insertStyleSeparator` yöntemi`DocumentBuilder` sınıf.
+Stil ayırıcılarını kullanarak ekleyebilirsiniz. `insertStyleSeparator` yöntemi `DocumentBuilder` sınıf.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

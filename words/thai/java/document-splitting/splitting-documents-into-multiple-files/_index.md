@@ -1,14 +1,16 @@
 ---
-title: การแบ่งเอกสารออกเป็นหลายไฟล์
-linktitle: การแบ่งเอกสารออกเป็นหลายไฟล์
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: ปลดล็อกพลังของ Aspose.Words สำหรับ Java ด้วยคำแนะนำทีละขั้นตอนของเราในการแบ่งเอกสารออกเป็นไฟล์หลายไฟล์ รับข้อมูลเชิงลึกจากผู้เชี่ยวชาญและตัวอย่างโค้ดต้นฉบับ
-weight: 10
-url: /th/java/document-splitting/splitting-documents-into-multiple-files/
+"description": "ปลดล็อกพลังของ Aspose.Words สำหรับ Java ด้วยคำแนะนำทีละขั้นตอนของเราในการแบ่งเอกสารออกเป็นหลายไฟล์ รับข้อมูลเชิงลึกจากผู้เชี่ยวชาญและตัวอย่างโค้ดต้นฉบับ"
+"linktitle": "การแบ่งเอกสารออกเป็นหลายไฟล์"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การแบ่งเอกสารออกเป็นหลายไฟล์"
+"url": "/th/java/document-splitting/splitting-documents-into-multiple-files/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแบ่งเอกสารออกเป็นหลายไฟล์
@@ -20,14 +22,14 @@ url: /th/java/document-splitting/splitting-documents-into-multiple-files/
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้พร้อมแล้ว:
 
-1.  Aspose.Words สำหรับ Java: ดาวน์โหลดจาก[หน้าวางจำหน่าย Aspose](https://releases.aspose.com/words/java/).
+1. Aspose.Words สำหรับ Java: ดาวน์โหลดจาก [หน้าวางจำหน่าย Aspose](https://releases-aspose.com/words/java/).
 2. สภาพแวดล้อมการพัฒนา Java: IDE ใดๆ เช่น IntelliJ IDEA, Eclipse หรือ NetBeans
 3. Java Runtime Environment (JRE): ตรวจสอบให้แน่ใจว่ามีการติดตั้งและกำหนดค่าอย่างถูกต้อง
-4.  ใบอนุญาตสำหรับ Aspose.Words: รับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/) หรือซื้อใบอนุญาต[ที่นี่](https://purchase.aspose.com/buy).
+4. ใบอนุญาตสำหรับ Aspose.Words: รับใบอนุญาตชั่วคราว [ที่นี่](https://purchase.aspose.com/temporary-license/) หรือซื้อใบอนุญาต [ที่นี่](https://purchase-aspose.com/buy).
 5. อินพุตเอกสาร Word: ไฟล์ .docx ที่มีหลายส่วนที่คุณต้องการแยกออก
 
 ## แพ็คเกจนำเข้า
-หากต้องการใช้ Aspose.Words สำหรับ Java คุณต้องนำเข้าแพ็กเกจที่เกี่ยวข้องลงในโปรเจ็กต์ของคุณ เพิ่มการนำเข้าต่อไปนี้ที่จุดเริ่มต้นของไฟล์ Java ของคุณ:
+ในการใช้ Aspose.Words สำหรับ Java คุณต้องนำเข้าแพ็กเกจที่เกี่ยวข้องลงในโปรเจ็กต์ของคุณ เพิ่มการนำเข้าต่อไปนี้ที่จุดเริ่มต้นของไฟล์ Java ของคุณ:
 
 ```java
 import com.aspose.words.*;
@@ -38,7 +40,7 @@ import java.io.File;
 ตอนนี้เราพร้อมแล้ว มาดูคำแนะนำทีละขั้นตอนกันเลย!
 
 ## ขั้นตอนที่ 1: โหลดเอกสาร
- ขั้นตอนแรกคือโหลดเอกสาร Word ที่คุณต้องการแยก ลองทำโดยใช้`Document` คลาสใน Aspose.Words
+ขั้นตอนแรกคือโหลดเอกสาร Word ที่คุณต้องการแยก ลองทำโดยใช้ `Document` คลาสใน Aspose.Words
 
 ```java
 String dataDir = "Your Document Directory"; // แทนที่ด้วยเส้นทางไฟล์ของคุณ
@@ -78,22 +80,27 @@ for (int i = 0; i < doc.getSections().getCount(); i++) {
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถแบ่งเอกสารตามย่อหน้าแทนส่วนได้หรือไม่
- ใช่ คุณสามารถทำซ้ำผ่านย่อหน้าได้โดยใช้`Paragraph` ชั้นเรียนแทน`Sections`.
+ใช่ คุณสามารถทำซ้ำผ่านย่อหน้าได้โดยใช้ `Paragraph` ชั้นเรียนแทน `Sections`-
 
 ### Aspose.Words สำหรับ Java ฟรีหรือเปล่า?
- ไม่ มันเป็นผลิตภัณฑ์ที่มีลิขสิทธิ์ แต่คุณสามารถลองใช้ได้ฟรีด้วย[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+ไม่ มันเป็นผลิตภัณฑ์ที่มีลิขสิทธิ์ แต่คุณสามารถลองใช้ได้ฟรีด้วย [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
 
 ### รองรับรูปแบบใดบ้างสำหรับการบันทึกไฟล์แยก?
- Aspose.Words รองรับรูปแบบต่างๆ เช่น DOCX, PDF, HTML และอื่นๆ ตรวจสอบ[เอกสารประกอบ](https://reference.aspose.com/words/java/) สำหรับรายละเอียดเพิ่มเติม
+Aspose.Words รองรับรูปแบบต่างๆ เช่น DOCX, PDF, HTML และอื่นๆ ตรวจสอบ [เอกสารประกอบ](https://reference.aspose.com/words/java/) สำหรับรายละเอียดเพิ่มเติม
 
 ### ฉันจะเพิ่ม Aspose.Words ลงในโปรเจ็กต์ของฉันได้อย่างไร
- ดาวน์โหลดห้องสมุดได้จาก[ที่นี่](https://releases.aspose.com/words/java/) และเพิ่มลงในสิ่งที่ต้องมีในโครงการของคุณ
+ดาวน์โหลดห้องสมุดได้จาก [ที่นี่](https://releases.aspose.com/words/java/) และเพิ่มลงในสิ่งที่ต้องมีในโครงการของคุณ
 
 ### ฉันสามารถใช้โค้ดนี้ในเว็บแอปพลิเคชั่นได้หรือไม่
 แน่นอน! เพียงตรวจสอบให้แน่ใจว่าได้กำหนดค่าสิทธิ์ที่จำเป็นสำหรับการดำเนินการ I/O ของไฟล์แล้ว
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

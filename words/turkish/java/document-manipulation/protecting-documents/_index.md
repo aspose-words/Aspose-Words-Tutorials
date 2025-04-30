@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Belgeleri Koruma
-linktitle: Belgeleri Koruma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Java Word belgelerinizi Aspose.Words for Java ile nasıl güvence altına alacağınızı öğrenin. Verilerinizi parola ve daha fazlasıyla koruyun.
-weight: 22
-url: /tr/java/document-manipulation/protecting-documents/
+"description": "Java Word belgelerinizi Aspose.Words for Java ile nasıl güvence altına alacağınızı öğrenin. Verilerinizi parola ve daha fazlasıyla koruyun."
+"linktitle": "Belgeleri Koruma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Belgeleri Koruma"
+"url": "/tr/java/document-manipulation/protecting-documents/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Belgeleri Koruma
@@ -31,14 +33,14 @@ Yukarıdaki kodda bir Word belgesini yüklüyoruz ve onu bir parola ile koruyoru
 
 ## Belge Korumasını Kaldırma
 
-Bir belgeden korumayı kaldırmanız gerekiyorsa, Aspose.Words for Java bunu kolaylaştırır:
+Bir belgeden korumayı kaldırmanız gerekiyorsa, Java için Aspose.Words bunu kolaylaştırır:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
 doc.unprotect();
 ```
 
- The`unprotect` yöntem, belgeye uygulanan tüm korumaları kaldırarak, belgeye parola olmadan erişilebilmesini sağlar.
+The `unprotect` yöntem, belgeye uygulanan tüm korumaları kaldırarak, belgeye parola olmadan erişilebilmesini sağlar.
 
 ## Belge Koruma Türünü Kontrol Etme
 
@@ -49,7 +51,7 @@ Document doc = new Document("Your Directory Path" + "Document.docx");
 int protectionType = doc.getProtectionType();
 ```
 
- The`getProtectionType` yöntemi, belgeye uygulanan koruma türünü temsil eden bir tamsayı döndürür.
+The `getProtectionType` yöntemi, belgeye uygulanan koruma türünü temsil eden bir tamsayı döndürür.
 
 
 ## Çözüm
@@ -60,11 +62,11 @@ Bu makalede, Aspose.Words for Java kullanarak Word belgelerinin nasıl korunaca�
 
 ### Şifre olmadan bir belgeyi nasıl koruyabilirim?
 
- Bir belgeyi parola olmadan korumak istiyorsanız, aşağıdaki gibi diğer koruma türlerini kullanabilirsiniz:`ProtectionType.NO_PROTECTION` veya`ProtectionType.READ_ONLY`.
+Bir belgeyi parola olmadan korumak istiyorsanız, aşağıdaki gibi diğer koruma türlerini kullanabilirsiniz: `ProtectionType.NO_PROTECTION` veya `ProtectionType.READ_ONLY`.
 
 ### Korunan bir belgenin şifresini değiştirebilir miyim?
 
-Evet, korumalı bir belgenin parolasını şu şekilde değiştirebilirsiniz:`protect` yeni şifre ile yöntemi kullanın.
+Evet, korumalı bir belgenin parolasını şu şekilde değiştirebilirsiniz: `protect` yeni şifre ile yöntemi kullanın.
 
 ### Korunan bir belgenin şifresini unutursam ne olur?
 
@@ -77,9 +79,14 @@ Evet, belgenin belirli bölümlerini, belge içindeki belirli aralıklara veya d
 ### PDF veya HTML gibi diğer formatlardaki belgeleri korumak mümkün müdür?
 
 Aspose.Words for Java öncelikli olarak Word belgeleriyle ilgilenir, ancak belgelerinizi PDF veya HTML gibi diğer formatlara dönüştürebilir ve gerekirse koruma uygulayabilirsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

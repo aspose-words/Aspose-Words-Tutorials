@@ -1,14 +1,16 @@
 ---
-title: Sử dụng OLE Objects và ActiveX Controls trong Aspose.Words cho Java
-linktitle: Sử dụng Đối tượng OLE và Điều khiển ActiveX
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Học cách sử dụng các đối tượng OLE và điều khiển ActiveX trong Aspose.Words cho Java. Tạo tài liệu tương tác dễ dàng. Bắt đầu ngay!
-weight: 21
-url: /vi/java/using-document-elements/using-ole-objects-and-activex/
+"description": "Học cách sử dụng các đối tượng OLE và điều khiển ActiveX trong Aspose.Words cho Java. Tạo tài liệu tương tác dễ dàng. Bắt đầu ngay!"
+"linktitle": "Sử dụng Đối tượng OLE và Điều khiển ActiveX"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng OLE Objects và ActiveX Controls trong Aspose.Words cho Java"
+"url": "/vi/java/using-document-elements/using-ole-objects-and-activex/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng OLE Objects và ActiveX Controls trong Aspose.Words cho Java
@@ -19,7 +21,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách làm việc với cá
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
-1.  Aspose.Words cho Java: Đảm bảo bạn đã cài đặt thư viện Aspose.Words trong dự án Java của mình. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/java/).
+1. Aspose.Words cho Java: Đảm bảo bạn đã cài đặt thư viện Aspose.Words trong dự án Java của mình. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
 
 2. Môi trường phát triển Java: Bạn nên thiết lập một môi trường phát triển Java đang hoạt động trên hệ thống của mình.
 
@@ -135,13 +137,18 @@ Xin chúc mừng! Bạn đã học cách làm việc với các đối tượng 
    - Có, Aspose.Words for Java là một thư viện mạnh mẽ để tự động hóa việc tạo và xử lý tài liệu trong các ứng dụng Java.
 
 ### Tôi có thể truy cập Aspose.Words cho Java ở đâu? 
-   -  Bạn có thể tải xuống Aspose.Words cho Java từ[đây](https://releases.aspose.com/words/java/).
+   - Bạn có thể tải xuống Aspose.Words cho Java từ [đây](https://releases.aspose.com/words/java/).
 
 Hãy bắt đầu sử dụng Aspose.Words for Java ngay hôm nay và khai thác toàn bộ tiềm năng của việc tự động hóa và tùy chỉnh tài liệu!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

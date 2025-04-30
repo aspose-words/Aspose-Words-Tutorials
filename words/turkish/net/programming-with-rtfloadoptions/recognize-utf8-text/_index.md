@@ -1,14 +1,16 @@
 ---
-title: Utf8 Metnini Tanı
-linktitle: Utf8 Metnini Tanı
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerindeki UTF-8 metinlerini nasıl tanıyacağınızı öğrenin.
-weight: 10
-url: /tr/net/programming-with-rtfloadoptions/recognize-utf8-text/
+"description": "Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerindeki UTF-8 metinlerini nasıl tanıyacağınızı öğrenin."
+"linktitle": "Utf8 Metnini Tanı"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Utf8 Metnini Tanı"
+"url": "/tr/net/programming-with-rtfloadoptions/recognize-utf8-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utf8 Metnini Tanı
@@ -21,9 +23,9 @@ Harika bir teknolojiye dalmaya hazır mısınız? Bugün, .NET için Aspose.Word
 
 Eğlenceli kısma geçmeden önce ihtiyacınız olan her şeyin yanınızda olduğundan emin olalım:
 
-1.  Aspose.Words for .NET Kütüphanesi: Şunları yapabilirsiniz:[buradan indirin](https://releases.aspose.com/words/net/) . Eğer henüz satın almadıysanız, bir tane alın[ücretsiz deneme](https://releases.aspose.com/) veya[buradan satın alın](https://purchase.aspose.com/buy).
+1. Aspose.Words for .NET Kütüphanesi: Şunları yapabilirsiniz: [buradan indirin](https://releases.aspose.com/words/net/). Eğer henüz satın almadıysanız, bir tane alın [ücretsiz deneme](https://releases.aspose.com/) veya [buradan satın alın](https://purchase.aspose.com/buy).
 2. Geliştirme Ortamı: Visual Studio veya .NET'i destekleyen herhangi bir IDE.
-3. Temel C# Bilgisi: Konuyu takip edebilmek için C# dilini rahatça kullanabilmeniz gerekir.
+3. Temel C# Bilgisi: Takip edebilmek için C# dilini rahatça kullanabilmeniz gerekir.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -45,7 +47,7 @@ Tamam, hadi bunu küçük adımlara bölelim!
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` belgenizin gerçek yolu ile. Bu, Aspose.Words'ün dosyanızı bulması için önemlidir.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` belgenizin gerçek yolu ile. Bu, Aspose.Words'ün dosyanızı bulması için önemlidir.
 
 ## Adım 2: UTF-8 Metni için Yükleme Seçeneklerini Yapılandırın
 
@@ -55,7 +57,7 @@ Sonra, UTF-8 metnini tanımak için yükleme seçeneklerini yapılandırmamız g
 RtfLoadOptions loadOptions = new RtfLoadOptions { RecognizeUtf8Text = true };
 ```
 
- Ayarlayarak`RecognizeUtf8Text` ile`true`, Aspose.Words'e UTF-8 metnine dikkat etmesini söylüyoruz. Bu, çeşitli karakterler içeren belgelerle uğraşırken oldukça kullanışlıdır.
+Ayarlayarak `RecognizeUtf8Text` ile `true`Aspose.Words'e UTF-8 metnine dikkat etmesini söylüyoruz. Bu, çeşitli karakterler içeren belgelerle uğraşırken oldukça kullanışlıdır.
 
 ## Adım 3: Belgeyi Yükleyin
 
@@ -65,7 +67,7 @@ RtfLoadOptions loadOptions = new RtfLoadOptions { RecognizeUtf8Text = true };
 Document doc = new Document(dataDir + "UTF-8 characters.rtf", loadOptions);
 ```
 
- Bu satırda yeni bir şey yaratıyoruz`Document` nesne ve RTF dosyamızı yüklüyoruz. Dosya adınızın, uzantı dahil, tam olarak eşleştiğinden emin olun.
+Bu satırda yeni bir şey yaratıyoruz `Document` nesne ve RTF dosyamızı yüklüyoruz. Dosya adınızın, uzantı dahil, tam olarak eşleştiğinden emin olun.
 
 ## Adım 4: İşlenen Belgeyi Kaydedin
 
@@ -91,11 +93,11 @@ UTF-8, Unicode standardındaki herhangi bir karakteri temsil edebilen bir karakt
 
 ### Aspose.Words for .NET'i diğer belge biçimlerini işlemek için kullanabilir miyim?
 
-Kesinlikle! Aspose.Words for .NET, DOC, DOCX, HTML, EPUB ve daha fazlası dahil olmak üzere çeşitli formatları destekler.
+Kesinlikle! Aspose.Words for .NET DOC, DOCX, HTML, EPUB ve daha fazlası dahil olmak üzere çeşitli formatları destekler.
 
 ### Aspose.Words for .NET için geçici lisansı nasıl alabilirim?
 
- Geçici lisansı şuradan alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/)Bu, herhangi bir sınırlama olmaksızın tüm özellikleri denemenize olanak tanır.
+Geçici lisansı şuradan alabilirsiniz: [Burada](https://purchase.aspose.com/temporary-license/)Bu, herhangi bir sınırlama olmaksızın tüm özellikleri denemenize olanak tanır.
 
 ### Aspose.Words for .NET, .NET Core ile uyumlu mudur?
 
@@ -103,10 +105,15 @@ Evet, Aspose.Words for .NET, .NET Core ile uyumludur ve bu da onu farklı geliş
 
 ### Daha fazla doküman ve desteği nerede bulabilirim?
 
- Daha fazla belge için şurayı ziyaret edin:[Aspose.Words for .NET belgeleri](https://reference.aspose.com/words/net/) Desteğe ihtiyacınız varsa, şuraya göz atın:[Aspose.Words destek forumu](https://forum.aspose.com/c/words/8).
+Daha fazla belge için şurayı ziyaret edin: [Aspose.Words for .NET belgeleri](https://reference.aspose.com/words/net/)Desteğe ihtiyacınız varsa, şuraya göz atın: [Aspose.Words destek forumu](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

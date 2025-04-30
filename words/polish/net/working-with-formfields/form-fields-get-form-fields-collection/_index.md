@@ -1,14 +1,16 @@
 ---
-title: Pola formularza Pobierz kolekcję pól formularza
-linktitle: Pola formularza Pobierz kolekcję pól formularza
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak pobierać i modyfikować pola formularzy w dokumentach Word za pomocą Aspose.Words dla platformy .NET, korzystając z naszego kompleksowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/working-with-formfields/form-fields-get-form-fields-collection/
+"description": "Dowiedz się, jak pobierać i modyfikować pola formularzy w dokumentach Word za pomocą Aspose.Words dla platformy .NET, korzystając z naszego kompleksowego przewodnika krok po kroku."
+"linktitle": "Pola formularza Pobierz kolekcję pól formularza"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Pola formularza Pobierz kolekcję pól formularza"
+"url": "/pl/net/working-with-formfields/form-fields-get-form-fields-collection/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pola formularza Pobierz kolekcję pól formularza
@@ -21,8 +23,8 @@ Czy jesteś gotowy, aby zanurzyć się w świecie manipulowania polami formularz
 
 Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć.
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję Aspose.Words dla .NET. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
-2. Środowisko programistyczne: środowisko IDE, takie jak Visual Studio, umożliwiające pisanie i uruchamianie kodu .NET.
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję Aspose.Words dla .NET. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
+2. Środowisko programistyczne: środowisko IDE, takie jak Visual Studio, służące do pisania i uruchamiania kodu .NET.
 3. .NET Framework: Upewnij się, że Twój projekt jest ukierunkowany na zgodną wersję .NET Framework.
 
 ## Importuj przestrzenie nazw
@@ -34,7 +36,7 @@ using Aspose.Words;
 using Aspose.Words.Fields;
 ```
 
-Przyjrzyjmy się bliżej procesowi pobierania i modyfikowania pól formularza w dokumencie programu Word przy użyciu Aspose.Words dla platformy .NET.
+Przyjrzyjmy się bliżej procesowi pobierania i modyfikowania pól formularza w dokumencie programu Word przy użyciu pakietu Aspose.Words dla platformy .NET.
 
 ## Krok 1: Załaduj dokument
 
@@ -45,17 +47,17 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Form fields.docx");
 ```
 
- Wyjaśnienie: Tutaj,`dataDir` jest ścieżką do twojego katalogu zawierającego dokument Word. Tworzymy nowy`Document` obiekt i załaduj plik`Form fields.docx`.
+Wyjaśnienie: Tutaj, `dataDir` jest ścieżką do twojego katalogu zawierającego dokument Word. Tworzymy nowy `Document` obiekt i załaduj plik `Form fields.docx`.
 
 ## Krok 2: Pobierz kolekcję pól formularza
 
-Po załadowaniu dokumentu następnym krokiem jest dostęp do zbioru pól formularza. Zbiór ten umożliwia manipulowanie poszczególnymi polami formularza w razie potrzeby.
+Po załadowaniu dokumentu następnym krokiem jest dostęp do kolekcji pól formularza. Ta kolekcja umożliwia manipulowanie poszczególnymi polami formularza w razie potrzeby.
 
 ```csharp
 FormFieldCollection formFields = doc.Range.FormFields;
 ```
 
- Wyjaśnienie:`FormFields` własność`Range` obiekt daje dostęp do pól formularza w dokumencie. Przechowujemy tę kolekcję w`formFields` zmienna do dalszej manipulacji.
+Wyjaśnienie: `FormFields` własność `Range` obiekt daje dostęp do pól formularza w dokumencie. Przechowujemy tę kolekcję w `formFields` zmienna do dalszej manipulacji.
 
 ## Krok 3: Manipulowanie polami formularza
 
@@ -81,7 +83,7 @@ Po wprowadzeniu niezbędnych zmian w polach formularza ostatnim krokiem jest zap
 doc.Save(dataDir + "ModifiedFormFields.docx");
 ```
 
- Wyjaśnienie: Zmodyfikowany dokument zapisujemy jako`ModifiedFormFields.docx` w tym samym katalogu.
+Wyjaśnienie: Zmodyfikowany dokument zapisujemy jako `ModifiedFormFields.docx` w tym samym katalogu.
 
 ## Wniosek
 
@@ -96,16 +98,21 @@ Aspose.Words for .NET to kompleksowa biblioteka do pracy z dokumentami Word w ap
 Tak, Aspose.Words dla .NET można używać w różnych typach aplikacji, w tym w aplikacjach internetowych, aplikacjach desktopowych i usługach.
 
 ### Czy Aspose.Words dla .NET jest darmowy?
-Aspose.Words dla .NET oferuje bezpłatną wersję próbną, ale do pełnej funkcjonalności wymagana jest licencja. Możesz uzyskać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Aspose.Words dla .NET oferuje bezpłatną wersję próbną, ale do pełnej funkcjonalności wymagana jest licencja. Możesz uzyskać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Gdzie mogę znaleźć dokumentację Aspose.Words dla .NET?
- Dokumentację Aspose.Words dla .NET można znaleźć[Tutaj](https://reference.aspose.com/words/net/).
+Dokumentację Aspose.Words dla .NET można znaleźć [Tutaj](https://reference.aspose.com/words/net/).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Words dla platformy .NET?
- Wsparcie dla Aspose.Words dla .NET można uzyskać na forum wsparcia[Tutaj](https://forum.aspose.com/c/words/8).
+Wsparcie dla Aspose.Words dla .NET można uzyskać na forum wsparcia [Tutaj](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Sử dụng tính năng bình luận trong tài liệu Word
-linktitle: Sử dụng tính năng bình luận trong tài liệu Word
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Tìm hiểu cách sử dụng các tính năng bình luận trong Tài liệu Word bằng Aspose.Words cho Python. Hướng dẫn từng bước với mã nguồn. Tăng cường cộng tác và hợp lý hóa việc đánh giá trong tài liệu.
-weight: 11
-url: /vi/python-net/document-structure-and-content-manipulation/document-comments/
+"description": "Tìm hiểu cách sử dụng các tính năng bình luận trong Tài liệu Word bằng Aspose.Words cho Python. Hướng dẫn từng bước với mã nguồn. Tăng cường cộng tác và hợp lý hóa việc đánh giá trong tài liệu."
+"linktitle": "Sử dụng tính năng bình luận trong tài liệu Word"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Sử dụng tính năng bình luận trong tài liệu Word"
+"url": "/vi/python-net/document-structure-and-content-manipulation/document-comments/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng tính năng bình luận trong tài liệu Word
@@ -22,7 +24,7 @@ Cộng tác là một khía cạnh cơ bản của việc tạo tài liệu và 
 
 ## Thiết lập Aspose.Words cho Python
 
- Để bắt đầu, bạn cần cài đặt Aspose.Words cho Python. Bạn có thể tải xuống thư viện từ[Aspose.Words cho Python](https://releases.aspose.com/words/python/) liên kết tải xuống. Sau khi tải xuống, bạn có thể cài đặt bằng pip:
+Để bắt đầu, bạn cần cài đặt Aspose.Words cho Python. Bạn có thể tải xuống thư viện từ  [Aspose.Words cho Python](https://releases.aspose.com/words/python/) liên kết tải xuống. Sau khi tải xuống, bạn có thể cài đặt bằng pip:
 
 ```python
 pip install aspose-words
@@ -35,17 +37,17 @@ Việc thêm bình luận vào tài liệu Word bằng Aspose.Words for Python r
 ```python
 import aspose.words as aw
 
-# Load the document
+# Tải tài liệu
 doc = aw.Document("example.docx")
 
-# Add a comment
+# Thêm bình luận
 comment = aw.Comment(doc, "John Doe", "This is a valuable insight.")
 comment.author = "John Doe"
 comment.text = "This is a valuable insight."
 comment_date = aw.DateTime.now()
 comment.date_time = comment_date
 
-# Insert the comment
+# Chèn bình luận
 paragraph = doc.first_section.body.first_paragraph
 run = paragraph.runs[0]
 run.insert_comment(comment)
@@ -67,21 +69,21 @@ for comment in doc.comments:
 Bình luận thường có thể thay đổi. Aspose.Words for Python cho phép bạn sửa đổi các bình luận hiện có và đánh dấu chúng là đã giải quyết:
 
 ```python
-# Modify a comment's text
+# Sửa đổi văn bản của bình luận
 comment = doc.comments[0]
 comment.text = "Updated insight: " + comment.text
 
-# Resolve a comment
+# Giải quyết một bình luận
 comments = doc.get_child_nodes(aw.NodeType.COMMENT, True)
 
 parent_comment = comments[0].as_comment()
 for child in parent_comment.replies:
 	child_comment = child.as_comment()
-	# Get comment parent and status.
+	# Nhận bình luận của phụ huynh và trạng thái.
 	print(child_comment.ancestor.id)
 	print(child_comment.done)
 
-	# And update comment Done mark.
+	# Và cập nhật bình luận đánh dấu Xong.
 	child_comment.done = True
 ```
 
@@ -90,7 +92,7 @@ for child in parent_comment.replies:
 Định dạng bình luận giúp tăng khả năng hiển thị của chúng. Bạn có thể áp dụng định dạng cho bình luận bằng Aspose.Words for Python:
 
 ```python
-# Apply formatting to a comment
+# Áp dụng định dạng cho bình luận
 comment = doc.comments[0]
 comment.runs[0].font.bold = True
 comment.runs[0].font.color = aw.Color.red
@@ -101,7 +103,7 @@ comment.runs[0].font.color = aw.Color.red
 Bình luận được ghi nhận cho tác giả. Aspose.Words for Python cho phép bạn quản lý tác giả bình luận:
 
 ```python
-# Change the author's name
+# Thay đổi tên tác giả
 comment = doc.comments[0]
 comment.author = "Jane Doe"
 ```
@@ -111,10 +113,10 @@ comment.author = "Jane Doe"
 Có thể xuất và nhập bình luận để tạo điều kiện thuận lợi cho việc cộng tác bên ngoài:
 
 ```python
-# Export comments to a file
+# Xuất bình luận vào một tập tin
 doc.save_comments("comments.xml")
 
-# Import comments from a file
+# Nhập bình luận từ một tập tin
 doc.import_comments("comments.xml")
 ```
 
@@ -142,20 +144,24 @@ Bạn có thể cài đặt Aspose.Words cho Python bằng pip:
 pip install aspose-words
 ```
 
-### Tôi có thể sử dụng Aspose.Words cho Python để trích xuất các chú thích hiện có từ tài liệu Word không?
+### Tôi có thể sử dụng Aspose.Words for Python để trích xuất các chú thích hiện có từ tài liệu Word không?
 
 Có, bạn có thể lặp lại các bình luận trong tài liệu và lấy các thuộc tính của chúng bằng Aspose.Words cho Python.
 
 ### Có thể ẩn hoặc hiển thị bình luận theo chương trình bằng API không?
 
- Có, bạn có thể kiểm soát khả năng hiển thị của bình luận bằng cách sử dụng`comment.visible` thuộc tính trong Aspose.Words dành cho Python.
+Có, bạn có thể kiểm soát khả năng hiển thị của bình luận bằng cách sử dụng `comment.visible` thuộc tính trong Aspose.Words dành cho Python.
 
 ### Aspose.Words for Python có hỗ trợ thêm chú thích vào các phạm vi văn bản cụ thể không?
 
 Hoàn toàn có thể thêm chú thích vào các vùng văn bản cụ thể trong tài liệu bằng cách sử dụng API phong phú của Aspose.Words for Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

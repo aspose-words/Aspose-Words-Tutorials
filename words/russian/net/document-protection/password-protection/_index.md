@@ -1,14 +1,16 @@
 ---
-title: Защита паролем в документе Word
-linktitle: Защита паролем в документе Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как защитить документы Word с помощью пароля с помощью Aspose.Words для .NET в этом подробном пошаговом руководстве.
-weight: 10
-url: /ru/net/document-protection/password-protection/
+"description": "Узнайте, как защитить документы Word с помощью пароля с помощью Aspose.Words для .NET в этом подробном пошаговом руководстве."
+"linktitle": "Защита паролем в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Защита паролем в документе Word"
+"url": "/ru/net/document-protection/password-protection/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Защита паролем в документе Word
@@ -21,10 +23,10 @@ url: /ru/net/document-protection/password-protection/
 
 Прежде чем мы углубимся в тонкости защиты паролем ваших документов Word, вам понадобится несколько вещей:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас есть библиотека Aspose.Words for .NET. Вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас есть библиотека Aspose.Words for .NET. Вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая другая среда разработки C#.
 3. Базовые знания C#: фундаментальное понимание программирования на C#.
-4.  Лицензия Aspose: Получите лицензию от[здесь](https://purchase.aspose.com/buy) или используйте[временная лицензия](https://purchase.aspose.com/temporary-license/) для оценки.
+4. Лицензия Aspose: Получите лицензию от [здесь](https://purchase.aspose.com/buy) или используйте [временная лицензия](https://purchase.aspose.com/temporary-license/) для оценки.
 
 ## Импорт пространств имен
 
@@ -56,7 +58,7 @@ Install-Package Aspose.Words
 
 Теперь, когда наш проект настроен, давайте создадим документ Word, который мы сможем защитить.
 
- В вашем`Program.cs` файл, инициализируйте новый экземпляр`Document` класс. Этот класс представляет документ Word, с которым вы будете работать.
+В вашем `Program.cs` файл, инициализируйте новый экземпляр `Document` класс. Этот класс представляет документ Word, с которым вы будете работать.
 
 ```csharp
 // Путь к каталогу документов.
@@ -70,11 +72,11 @@ Document doc = new Document();
 
 ### Выберите тип защиты
 
- Aspose.Words предлагает различные типы защиты, такие как`NoProtection`, `ReadOnly`, `AllowOnlyComments` , и`AllowOnlyFormFields` Для этого примера мы будем использовать`NoProtection` но с паролем, что по сути означает, что документ можно редактировать, но для снятия защиты требуется пароль.
+Aspose.Words предлагает различные типы защиты, такие как `NoProtection`, `ReadOnly`, `AllowOnlyComments`, и `AllowOnlyFormFields`. Для этого примера мы будем использовать `NoProtection` но с паролем, что по сути означает, что документ можно редактировать, но для снятия защиты требуется пароль.
 
 ### Применить защиту
 
- Используйте`Protect` Метод`Document` класс для применения защиты паролем. 
+Используйте `Protect` Метод `Document` класс для применения защиты паролем. 
 
 ```csharp
 // Применить защиту документов.
@@ -86,7 +88,7 @@ doc.Protect(ProtectionType.NoProtection, "password");
 Наконец, давайте сохраним наш защищенный документ в указанном каталоге.
 
 
- Используйте`Save` метод сохранения документа. Укажите путь, по которому вы хотите сохранить документ, вместе с именем файла.
+Используйте `Save` метод сохранения документа. Укажите путь, по которому вы хотите сохранить документ, вместе с именем файла.
 
 ```csharp
 doc.Save(dataDir + "DocumentProtection.PasswordProtection.docx");
@@ -100,11 +102,11 @@ doc.Save(dataDir + "DocumentProtection.PasswordProtection.docx");
 
 ### Могу ли я использовать различные типы защиты с Aspose.Words?
 
-Да, Aspose.Words поддерживает различные типы защиты, включая`ReadOnly`, `AllowOnlyComments` , и`AllowOnlyFormFields`.
+Да, Aspose.Words поддерживает различные типы защиты, включая `ReadOnly`, `AllowOnlyComments`, и `AllowOnlyFormFields`.
 
 ### Как снять защиту паролем с документа?
 
- Для снятия защиты используйте`Unprotect` метод и укажите правильный пароль.
+Для снятия защиты используйте `Unprotect` метод и укажите правильный пароль.
 
 ### Совместим ли Aspose.Words с .NET Core?
 
@@ -112,15 +114,20 @@ doc.Save(dataDir + "DocumentProtection.PasswordProtection.docx");
 
 ### Могу ли я защитить паролем уже существующий документ?
 
- Конечно! Вы можете загрузить существующий документ с помощью`Document` класс, а затем применить защиту.
+Конечно! Вы можете загрузить существующий документ с помощью `Document` класс, а затем применить защиту.
 
 ### Где я могу найти дополнительную документацию по Aspose.Words?
 
- Дополнительную документацию вы можете найти на[Страница документации Aspose.Words](https://reference.aspose.com/words/net/).
+Дополнительную документацию вы можете найти на [Страница документации Aspose.Words](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

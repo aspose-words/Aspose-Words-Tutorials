@@ -1,37 +1,39 @@
 ---
-title: Állítsa be az adatcímkék alapértelmezett beállításait egy diagramon
-linktitle: Állítsa be az adatcímkék alapértelmezett beállításait egy diagramon
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan állíthat be alapértelmezett beállításokat a diagramok adatcímkéihez az Aspose.Words for .NET használatával. Kövesse lépésenkénti útmutatónkat a diagramok egyszerű létrehozásához és testreszabásához.
-weight: 10
-url: /hu/net/programming-with-charts/default-options-for-data-labels/
+"description": "Tanuld meg, hogyan állíthatod be az adatcímkék alapértelmezett beállításait egy diagramban az Aspose.Words for .NET használatával. Kövesd lépésről lépésre szóló útmutatónkat a diagramok egyszerű létrehozásához és testreszabásához."
+"linktitle": "Diagram adatcímkéinek alapértelmezett beállításainak megadása"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Diagram adatcímkéinek alapértelmezett beállításainak megadása"
+"url": "/hu/net/programming-with-charts/default-options-for-data-labels/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Állítsa be az adatcímkék alapértelmezett beállításait egy diagramon
+# Diagram adatcímkéinek alapértelmezett beállításainak megadása
 
 ## Bevezetés
 
-Szia! Izgatottan várod, hogy belemerülj a dokumentumautomatizálás világába? Ma azt vizsgáljuk meg, hogyan használhatjuk az Aspose.Words for .NET-et lenyűgöző dokumentumok programozott létrehozására. Az Aspose.Words egy hatékony könyvtár, amely lehetővé teszi a Word-dokumentumok egyszerű kezelését, és ebben az oktatóanyagban a diagramon szereplő adatcímkék alapértelmezett beállításainak beállítására összpontosítunk. Akár tapasztalt fejlesztő, akár kezdő, ez az útmutató végigvezeti Önt minden lépésen, hogy pillanatok alatt elinduljon.
+Sziasztok! Izgatottan várjátok, hogy belevágjatok a dokumentumautomatizálás világába? Ma azt fogjuk felfedezni, hogyan használhatjátok az Aspose.Words for .NET-et lenyűgöző dokumentumok programozott létrehozásához. Az Aspose.Words egy hatékony függvénykönyvtár, amely lehetővé teszi a Word-dokumentumok egyszerű kezelését, és ebben az oktatóanyagban a diagramok adatcímkéinek alapértelmezett beállításainak megadására fogunk összpontosítani. Akár tapasztalt fejlesztő vagy, akár kezdő, ez az útmutató végigvezet a lépéseken, hogy pillanatok alatt elkezdhessétek a munkát.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy minden szükséges eszközzel rendelkezik az oktatóanyag követéséhez. Íme egy gyors ellenőrző lista:
+Mielőtt belekezdenénk, győződjünk meg róla, hogy minden megvan, amire szükséged van ehhez az oktatóanyaghoz. Íme egy gyors ellenőrzőlista:
 
-- Visual Studio vagy bármely más .NET-kompatibilis IDE: Itt írhatja és futtathatja a kódot.
--  Aspose.Words for .NET: Megteheti[töltse le a legújabb verziót](https://releases.aspose.com/words/net/) és telepítse a projektjébe.
-- Alapvető ismeretek a C# programozásról: Bár ez az útmutató kezdők számára készült, hasznos lesz egy kis C# ismerete.
-- .NET-keretrendszer telepítve: Győződjön meg arról, hogy a .NET-keretrendszer be van állítva a számítógépen.
--  Ideiglenes licenc az Aspose.Words számára: Szerezzen egyet[itt](https://purchase.aspose.com/temporary-license/) a teljes funkcionalitás feloldásához.
+- Visual Studio vagy bármely más .NET-kompatibilis IDE: Itt fogod megírni és futtatni a kódodat.
+- Aspose.Words .NET-hez: Meg tudod csinálni [töltsd le a legújabb verziót](https://releases.aspose.com/words/net/) és telepítsd a projektedbe.
+- C# programozási alapismeretek: Bár ez az útmutató kezdőknek szól, egy kis C# ismeretség hasznos lehet.
+- Telepített .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer telepítve van a gépén.
+- Ideiglenes licenc az Aspose.Words-hez: Szerezz egyet [itt](https://purchase.aspose.com/temporary-license/) a teljes funkcionalitás feloldásához.
 
-Ha ezeket az előfeltételeket rendezte, készen állunk a görgetésre!
+Miután ezeket az előfeltételeket rendezted, készen állunk a kezdésre!
 
 ## Névterek importálása
 
-Először is állítsuk be projektünket, és importáljuk a szükséges névtereket. Ezek a névterek kulcsfontosságúak az Aspose.Words funkció eléréséhez.
+Először is, állítsuk be a projektünket, és importáljuk a szükséges névtereket. Ezek a névterek elengedhetetlenek az Aspose.Words funkcionalitásának eléréséhez.
 
 ```csharp
 using System;
@@ -40,32 +42,32 @@ using Aspose.Words.Drawing;
 using Aspose.Words.ReportingServices;
 ```
 
-## 1. lépés: Hozzon létre egy új dokumentumot
+## 1. lépés: Új dokumentum létrehozása
 
 
- Az út egy új dokumentum létrehozásával és inicializálásával kezdődik`DocumentBuilder` . A`DocumentBuilder` osztály módszerkészletet biztosít a dokumentumtartalom egyszerű kezeléséhez.
+Az utazás egy új dokumentum létrehozásával és inicializálásával kezdődik. `DocumentBuilder`. A `DocumentBuilder` Az osztály metódusokat biztosít a dokumentum tartalmának egyszerű kezeléséhez.
 
 ```csharp
 // A dokumentumkönyvtár elérési útja
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Hozzon létre egy új dokumentumot
+// Új dokumentum létrehozása
 Document doc = new Document();
 
-// Inicializálja a DocumentBuilder programot
+// DocumentBuilder inicializálása
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
 ### Magyarázat
 
- Ebben a lépésben beállítottuk a dokumentumot és az építőt, amelyet a tartalom beszúrásához és formázásához használunk. A`dataDir` változó tartalmazza azt az elérési utat, ahová a végleges dokumentumunkat menteni fogjuk.
+Ebben a lépésben beállítottuk a dokumentumot és a tartalomszerkesztőt, amelyet a tartalom beszúrásához és formázásához fogunk használni. `dataDir` változó tartalmazza azt az elérési utat, ahová a végső dokumentumot menteni fogjuk.
 
-## 2. lépés: Helyezzen be egy diagramot
+## 2. lépés: Diagram beszúrása
 
- Ezután egy kördiagramot adunk a dokumentumunkhoz. A`InsertChart` módszere a`DocumentBuilder` osztály ezt rendkívül egyszerűvé teszi.
+Ezután hozzáadunk egy kördiagramot a dokumentumunkhoz. `InsertChart` a módszer `DocumentBuilder` az osztály ezt szuper könnyűvé teszi.
 
 ```csharp
-// Helyezzen be egy kördiagramot
+// Kördiagram beszúrása
 Shape shape = builder.InsertChart(ChartType.Pie, 432, 252);
 
 // Hozzáférés a diagram objektumhoz
@@ -74,14 +76,14 @@ Chart chart = shape.Chart;
 
 ### Magyarázat
 
-Itt egy kördiagramot illesztünk be a dokumentumunkba. A`InsertChart` metódus a diagram típusát, szélességét és magasságát igényli paraméterként. A diagram beillesztése után hozzáférünk a diagram objektumhoz, hogy tovább manipulálhassuk.
+Itt egy kördiagramot szúrunk be a dokumentumunkba. `InsertChart` A metódus paraméterként kéri a diagram típusát, szélességét és magasságát. A diagram beillesztése után hozzáférünk a diagram objektumhoz a további manipulációhoz.
 
 ## 3. lépés: A diagramsorozat testreszabása
 
-Most töröljük a diagramon szereplő összes meglévő sorozatot, és hozzáadjuk egyéni sorozatainkat. Ez a sorozat az adatpontjainkat fogja képviselni.
+Most töröljük a diagramon található összes meglévő sorozatot, és hozzáadjuk az egyéni sorozatunkat. Ez a sorozat fogja az adatpontjainkat ábrázolni.
 
 ```csharp
-// Meglévő diagramsorozatok törlése
+// Meglévő diagramsorozat törlése
 chart.Series.Clear();
 
 // Új sorozat hozzáadása a diagramhoz
@@ -92,17 +94,17 @@ ChartSeries series = chart.Series.Add("Aspose Series 1",
 
 ### Magyarázat
 
-Ebben a lépésben a már létező sorozatok törlésével biztosítjuk, hogy a diagram üres legyen. Ezután hozzáadunk egy új sorozatot egyéni kategóriákkal és értékekkel, amelyek megjelennek a kördiagramunkban.
+Ebben a lépésben gondoskodunk arról, hogy a diagramunk üres legyen, ezért töröljük a már meglévő sorozatokat. Ezután hozzáadunk egy új sorozatot egyéni kategóriákkal és értékekkel, amelyek megjelennek a kördiagramon.
 
-## 4. lépés: Állítsa be az adatcímkék alapértelmezett beállításait
+## 4. lépés: Az adatcímkék alapértelmezett beállításainak megadása
 
-Az adatcímkék elengedhetetlenek ahhoz, hogy a diagram informatív legyen. Beállítjuk a százalékos értékek és az értékek megjelenítésére vonatkozó beállításokat, valamint testreszabjuk az elválasztót.
+Az adatcímkék elengedhetetlenek ahhoz, hogy a diagram informatív legyen. Beállítjuk a százalékos és érték megjelenítését, valamint testreszabjuk az elválasztójelet.
 
 ```csharp
 // Hozzáférés az adatcímkék gyűjteményéhez
 ChartDataLabelCollection labels = series.DataLabels;
 
-// Adja meg az adatcímkék beállításait
+// Adatcímke-beállítások megadása
 labels.ShowPercentage = true;
 labels.ShowValue = true;
 labels.ShowLeaderLines = false;
@@ -111,11 +113,11 @@ labels.Separator = " - ";
 
 ### Magyarázat
 
- Itt elérjük a`DataLabels`sorozatunk tulajdonsága, hogy személyre szabhassa az egyes adatcímkéken megjelenő megjelenést és információkat. Úgy döntöttünk, hogy mind a százalékot, mind az értéket megjelenítjük, elrejtjük a vezetővonalakat, és beállítunk egy egyéni elválasztót.
+Itt férünk hozzá a `DataLabels` tulajdonságát használjuk az egyes adatcímkék megjelenésének és az azokon megjelenített információk testreszabásához. Úgy döntöttünk, hogy megjelenítjük a százalékos értéket és az értéket is, elrejtjük a vezető vonalakat, és egyéni elválasztót állítunk be.
 
-## 5. lépés: Mentse el a dokumentumot
+## 5. lépés: A dokumentum mentése
 
-Végül elmentjük a dokumentumunkat a megadott könyvtárba. Ez a lépés biztosítja, hogy minden módosításunk egy fájlba kerüljön.
+Végül mentsük el a dokumentumot a megadott könyvtárba. Ez a lépés biztosítja, hogy minden módosításunk fájlba kerüljön.
 
 ```csharp
 // Mentse el a dokumentumot
@@ -124,35 +126,40 @@ doc.Save(dataDir + "WorkingWithCharts.DefaultOptionsForDataLabels.docx");
 
 ### Magyarázat
 
- Ebben az utolsó lépésben a dokumentumot a`Save` módszer. A dokumentum a által megadott könyvtárba kerül mentésre`dataDir`, "WorkingWithCharts.DefaultOptionsForDataLabels.docx" néven.
+Ebben az utolsó lépésben a következővel mentjük el a dokumentumot: `Save` metódus. A dokumentum a megadott könyvtárba lesz mentve. `dataDir`, a következő néven: „WorkingWithCharts.DefaultOptionsForDataLabels.docx”.
 
 ## Következtetés
 
-És megvan! Sikeresen létrehozott egy Word-dokumentumot testreszabott kördiagrammal az Aspose.Words for .NET használatával. Ez a nagy teljesítményű könyvtár megkönnyíti a dokumentumok létrehozásának és kezelésének automatizálását, így időt és erőfeszítést takarít meg. Akár jelentéseket, számlákat vagy bármilyen más típusú dokumentumot készít, az Aspose.Words mindenre kiterjed.
+És íme! Sikeresen létrehoztál egy Word dokumentumot testreszabott kördiagrammal az Aspose.Words for .NET segítségével. Ez a hatékony könyvtár megkönnyíti a dokumentumok létrehozásának és kezelésének automatizálását, így időt és energiát takarít meg. Akár jelentéseket, számlákat vagy bármilyen más típusú dokumentumot generálsz, az Aspose.Words segít neked.
 
- Nyugodtan fedezze fel a[Aspose.Words dokumentáció](https://reference.aspose.com/words/net/) további funkciókért és példákért. Boldog kódolást!
+Nyugodtan fedezd fel a [Aspose.Words dokumentáció](https://reference.aspose.com/words/net/) további funkciókért és példákért. Jó kódolást!
 
 ## GYIK
 
-### Használhatom ingyenesen az Aspose.Words-t?
-Az Aspose.Words ingyenesen használható a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy fedezze fel funkcióit a segítségével[ingyenes próbaverzió](https://releases.aspose.com/).
+### Ingyenesen használhatom az Aspose.Words-öt?
+Az Aspose.Words-öt ingyenesen használhatod egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy fedezze fel a funkcióit a [ingyenes próba](https://releases.aspose.com/).
 
-### Hogyan kaphatok támogatást az Aspose.Words számára?
- A támogatást a[Aspose.Words támogatási fórum](https://forum.aspose.com/c/words/8).
+### Hogyan kaphatok támogatást az Aspose.Words-höz?
+Támogatást kaphatsz a következőn keresztül: [Aspose.Words támogatói fórum](https://forum.aspose.com/c/words/8).
 
-### Hozzáadhatok más típusú diagramokat?
- Igen, az Aspose.Words különféle diagramtípusokat támogat, például sáv-, vonal- és oszlopdiagramokat. Ellenőrizze a[dokumentáció](https://reference.aspose.com/words/net/) további részletekért.
+### Hozzáadhatok más típusú diagramokat is?
+Igen, az Aspose.Words különféle diagramtípusokat támogat, például sáv-, vonal- és oszlopdiagramokat. Ellenőrizze a [dokumentáció](https://reference.aspose.com/words/net/) további részletekért.
 
-### Az Aspose.Words kompatibilis a .NET Core-al?
- Igen, az Aspose.Words kompatibilis a .NET Core-al. További információt a[dokumentáció](https://reference.aspose.com/words/net/).
+### Kompatibilis az Aspose.Words a .NET Core-ral?
+Igen, az Aspose.Words kompatibilis a .NET Core-ral. További információkat a következő helyen talál. [dokumentáció](https://reference.aspose.com/words/net/).
 
-### Hogyan vásárolhatok licencet az Aspose.Words számára?
- Engedélyt vásárolhat a[Aspose üzlet](https://purchase.aspose.com/buy).
+### Hogyan vásárolhatok licencet az Aspose.Words-höz?
+Licenc vásárlása a következő címen lehetséges: [Aspose áruház](https://purchase.aspose.com/buy).
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

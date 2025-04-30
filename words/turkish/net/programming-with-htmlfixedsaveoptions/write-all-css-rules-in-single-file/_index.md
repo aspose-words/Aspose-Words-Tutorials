@@ -1,14 +1,16 @@
 ---
-title: Tüm Css Kurallarını Tek Bir Dosyaya Yaz
-linktitle: Tüm Css Kurallarını Tek Bir Dosyaya Yaz
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerini tek bir dosyada tüm CSS kurallarıyla HTML'ye nasıl dönüştüreceğinizi öğrenin; böylece daha temiz kod ve daha kolay bakım sağlayabilirsiniz.
-weight: 10
-url: /tr/net/programming-with-htmlfixedsaveoptions/write-all-css-rules-in-single-file/
+"description": "Aspose.Words for .NET kullanarak Word belgelerini tek bir dosyada tüm CSS kurallarıyla HTML'ye nasıl dönüştüreceğinizi öğrenin; böylece daha temiz kod ve daha kolay bakım sağlayabilirsiniz."
+"linktitle": "Tüm Css Kurallarını Tek Bir Dosyaya Yaz"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Tüm Css Kurallarını Tek Bir Dosyaya Yaz"
+"url": "/tr/net/programming-with-htmlfixedsaveoptions/write-all-css-rules-in-single-file/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tüm Css Kurallarını Tek Bir Dosyaya Yaz
@@ -21,7 +23,7 @@ Word belgelerini HTML'e dönüştürürken kendinizi her yere dağılmış CSS k
 
 İnce ayrıntılara dalmadan önce, işleri bir sıraya koyalım. Başlamak için ihtiyacınız olanlar şunlardır:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET kütüphanesine sahip olduğunuzdan emin olun. Henüz sahip değilseniz,[buradan indirin](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET kütüphanesine sahip olduğunuzdan emin olun. Henüz sahip değilseniz, [buradan indirin](https://releases.aspose.com/words/net/).
 2. .NET Geliştirme Ortamı: Makinenizde kurulu bir .NET geliştirme ortamına ihtiyacınız olacak. Visual Studio popüler bir seçimdir.
 3. Temel C# Bilgisi: C# programlamaya dair temel bir anlayışa sahip olmak faydalı olacaktır.
 4. Word Belgesi: Dönüştürmek istediğiniz bir Word belgesi (.docx) hazır bulundurun.
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 ## Adım 2: Word Belgesini Yükleyin
 
- Sonra, HTML'ye dönüştürmek istediğiniz Word belgesini yüklüyoruz. Bu, şu şekilde yapılır:`Document` Aspose.Words kütüphanesinden sınıf.
+Sonra, HTML'ye dönüştürmek istediğiniz Word belgesini yüklüyoruz. Bu, şu şekilde yapılır: `Document` Aspose.Words kütüphanesinden sınıf.
 
 ```csharp
 // Word belgesini yükleyin
@@ -57,7 +59,7 @@ Document doc = new Document(dataDir + "Document.docx");
 
 ## Adım 3: HTML Kaydetme Seçeneklerini Yapılandırın
 
- Şimdi, HTML kaydetme seçeneklerini yapılandırmamız gerekiyor. Özellikle, tüm CSS kurallarını tek bir dosyaya yazan özelliği etkinleştirmek istiyoruz. Bu,`SaveFontFaceCssSeparately`mülk`false`.
+Şimdi, HTML kaydetme seçeneklerini yapılandırmamız gerekiyor. Özellikle, tüm CSS kurallarını tek bir dosyaya yazan özelliği etkinleştirmek istiyoruz. Bu, `SaveFontFaceCssSeparately` mülk `false`.
 
 ```csharp
 // "Tüm CSS kurallarını tek bir dosyaya yaz" özelliği ile yedekleme seçeneklerini yapılandırın
@@ -86,20 +88,25 @@ Ve işte karşınızda! Sadece birkaç satır kodla, Word belgenizi tüm CSS kur
 Tek bir CSS dosyası kullanmak stillerinizin yönetimini ve bakımını basitleştirir. HTML'nizi daha temiz ve daha verimli hale getirir.
 
 ### Gerekirse font yüzü CSS kurallarını ayırabilir miyim?
- Evet, ayarlayarak`SaveFontFaceCssSeparately` ile`true`, font yüzü CSS kurallarını ayrı bir dosyaya ayırabilirsiniz.
+Evet, ayarlayarak `SaveFontFaceCssSeparately` ile `true`, font yüzü CSS kurallarını ayrı bir dosyaya ayırabilirsiniz.
 
 ### Aspose.Words for .NET'i kullanmak ücretsiz mi?
- Aspose.Words, ücretsiz bir deneme sürümü sunuyor.[buradan indirin](https://releases.aspose.com/) . Sürekli kullanım için bir lisans satın almayı düşünün[Burada](https://purchase.aspose.com/buy).
+Aspose.Words, ücretsiz bir deneme sürümü sunuyor. [buradan indirin](https://releases.aspose.com/)Sürekli kullanım için bir lisans satın almayı düşünün [Burada](https://purchase.aspose.com/buy).
 
 ### Aspose.Words for .NET başka hangi formatlara dönüştürülebilir?
 Aspose.Words for .NET, PDF, TXT ve JPEG ve PNG gibi resim formatları da dahil olmak üzere çeşitli formatları destekler.
 
 ### Aspose.Words for .NET hakkında daha fazla kaynağı nerede bulabilirim?
- Şuna bir göz atın:[belgeleme](https://reference.aspose.com/words/net/) kapsamlı kılavuzlar ve API referansları için.
+Şuna bir göz atın: [belgeleme](https://reference.aspose.com/words/net/) kapsamlı kılavuzlar ve API referansları için.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

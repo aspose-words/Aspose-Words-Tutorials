@@ -1,14 +1,16 @@
 ---
-title: Tautan Header dan Footer
-linktitle: Tautan Header dan Footer
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menautkan header dan footer antar dokumen di Aspose.Words untuk .NET. Pastikan konsistensi dan integritas format dengan mudah.
-weight: 10
-url: /id/net/join-and-append-documents/link-headers-footers/
+"description": "Pelajari cara menautkan header dan footer antar dokumen di Aspose.Words untuk .NET. Pastikan konsistensi dan integritas format dengan mudah."
+"linktitle": "Tautan Header dan Footer"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tautan Header dan Footer"
+"url": "/id/net/join-and-append-documents/link-headers-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tautan Header dan Footer
@@ -37,7 +39,7 @@ Mari kita uraikan prosesnya menjadi beberapa langkah yang jelas:
 
 ## Langkah 1: Muat Dokumen
 
- Pertama, muat dokumen sumber dan tujuan ke dalam`Document` Objek:
+Pertama, muat dokumen sumber dan tujuan ke dalam `Document` Objek:
 
 ```csharp
 // Jalur ke direktori dokumen Anda
@@ -49,7 +51,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## Langkah 2: Atur Awal Bagian
 
- Untuk memastikan dokumen terlampir dimulai pada halaman baru, konfigurasikan`SectionStart` properti bagian pertama dari dokumen sumber:
+Untuk memastikan dokumen terlampir dimulai pada halaman baru, konfigurasikan `SectionStart` properti bagian pertama dari dokumen sumber:
 
 ```csharp
 srcDoc.FirstSection.PageSetup.SectionStart = SectionStart.NewPage;
@@ -86,7 +88,7 @@ Menghubungkan header dan footer antar dokumen menggunakan Aspose.Words untuk .NE
 ## Tanya Jawab Umum
 
 ### Dapatkah saya menautkan header dan footer antara dokumen dengan tata letak yang berbeda?
-Ya, Aspose.Words menangani tata letak yang berbeda dengan mulus, menjaga integritas header dan footer.
+Ya, Aspose.Words menangani berbagai tata letak dengan mulus, menjaga integritas header dan footer.
 
 ### Apakah menghubungkan header dan footer memengaruhi format lain dalam dokumen?
 Tidak, menautkan header dan footer hanya memengaruhi bagian yang ditentukan, sedangkan konten dan format lainnya tetap utuh.
@@ -98,10 +100,15 @@ Aspose.Words mendukung berbagai versi .NET Framework dan .NET Core, memastikan k
 Ya, Anda dapat menghapus tautan header dan footer menggunakan metode API Aspose.Words untuk memulihkan format dokumen individual.
 
 ### Di mana saya dapat menemukan dokumentasi yang lebih rinci tentang Aspose.Words untuk .NET?
- Mengunjungi[Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/) untuk panduan lengkap dan referensi API.
+Mengunjungi [Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/) untuk panduan lengkap dan referensi API.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

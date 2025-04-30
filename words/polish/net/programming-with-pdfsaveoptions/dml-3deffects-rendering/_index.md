@@ -1,14 +1,16 @@
 ---
-title: Renderuj efekty 3D DML 3DEffects w dokumencie PDF
-linktitle: Renderuj efekty 3D DML 3DEffects w dokumencie PDF
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak renderować niesamowite efekty 3D DML w dokumentach PDF za pomocą Aspose.Words for .NET dzięki temu kompleksowemu przewodnikowi krok po kroku.
-weight: 10
-url: /pl/net/programming-with-pdfsaveoptions/dml-3deffects-rendering/
+"description": "Dowiedz się, jak renderować niesamowite efekty 3D DML w dokumentach PDF za pomocą Aspose.Words for .NET dzięki temu kompleksowemu przewodnikowi krok po kroku."
+"linktitle": "Renderuj efekty 3D DML 3DEffects w dokumencie PDF"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Renderuj efekty 3D DML 3DEffects w dokumencie PDF"
+"url": "/pl/net/programming-with-pdfsaveoptions/dml-3deffects-rendering/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Renderuj efekty 3D DML 3DEffects w dokumencie PDF
@@ -21,11 +23,11 @@ Czy kiedykolwiek chciałeś tworzyć oszałamiające dokumenty PDF z efektami 3D
 
 Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz. Oto lista wymagań wstępnych, które pozwolą Ci zacząć:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz bibliotekę Aspose.Words dla .NET. Możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz bibliotekę Aspose.Words dla .NET. Możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. .NET Framework: Na Twoim komputerze powinien być zainstalowany .NET Framework.
 3. Środowisko programistyczne: Środowisko programistyczne, takie jak Visual Studio.
 4. Dokument Word: Dokument Word z efektami 3D, który chcesz przekonwertować do formatu PDF.
-5.  Licencja tymczasowa: Aby uzyskać pełne możliwości, może być potrzebna tymczasowa licencja od Aspose, którą można uzyskać[Tutaj](https://purchase.aspose.com/temporary-license/).
+5. Licencja tymczasowa: Aby uzyskać pełne możliwości, może być potrzebna tymczasowa licencja od Aspose, którą można uzyskać [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 Mając te wymagania wstępne, możesz już renderować efekty 3D w dokumentach PDF.
 
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Tutaj definiujemy ścieżkę do katalogu dokumentów i ładujemy dokument Word za pomocą`Document` klasa. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twojego katalogu.
+Tutaj definiujemy ścieżkę do katalogu dokumentów i ładujemy dokument Word za pomocą `Document` klasa. Zastąp `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twojego katalogu.
 
 ## Krok 2: Skonfiguruj opcje zapisywania pliku PDF
 
@@ -62,7 +64,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Tworzymy instancję`PdfSaveOptions` i ustaw`Dml3DEffectsRenderingMode` Do`Advanced`. Informuje Aspose.Words o konieczności renderowania efektów 3D przy użyciu zaawansowanych ustawień, dzięki czemu będą wyglądać tak imponująco, jak to tylko możliwe w pliku PDF.
+Tworzymy instancję `PdfSaveOptions` i ustaw `Dml3DEffectsRenderingMode` Do `Advanced`. Informuje Aspose.Words o konieczności renderowania efektów 3D przy użyciu zaawansowanych ustawień, dzięki czemu będą wyglądać tak imponująco, jak to tylko możliwe w pliku PDF.
 
 ## Krok 3: Zapisz dokument jako PDF
 
@@ -72,7 +74,7 @@ Na koniec zapisujemy dokument w formacie PDF, korzystając z podanych opcji zapi
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.Dml3DEffectsRendering.pdf", saveOptions);
 ```
 
- Używamy`Save` metoda`Document` klasa do zapisywania dokumentu Word jako PDF. Opcje zapisu skonfigurowane wcześniej są przekazywane jako parametr, aby zapewnić prawidłowe renderowanie efektów 3D.
+Używamy `Save` metoda `Document` klasa do zapisywania dokumentu Word jako PDF. Opcje zapisu skonfigurowane wcześniej są przekazywane jako parametr, aby zapewnić prawidłowe renderowanie efektów 3D.
 
 ## Wniosek
 
@@ -98,10 +100,15 @@ Oczywiście! Aspose.Words oferuje szeroki zakres opcji dostosowywania wyników P
 
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację?
 
- Można znaleźć kompleksową dokumentację[Tutaj](https://reference.aspose.com/words/net/).
+Można znaleźć kompleksową dokumentację [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: बॉडी में फ़ील्ड्स परिवर्तित करें
-linktitle: बॉडी में फ़ील्ड्स परिवर्तित करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: दस्तावेज़ प्रसंस्करण दक्षता बढ़ाने के लिए .NET के लिए Aspose.Words का उपयोग करके दस्तावेज़ फ़ील्ड को स्थिर पाठ में परिवर्तित करना सीखें।
-weight: 10
-url: /hi/net/working-with-fields/convert-fields-in-body/
+"description": "दस्तावेज़ प्रसंस्करण दक्षता बढ़ाने के लिए .NET के लिए Aspose.Words का उपयोग करके दस्तावेज़ फ़ील्ड को स्थिर पाठ में परिवर्तित करना सीखें।"
+"linktitle": "बॉडी में फ़ील्ड्स परिवर्तित करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "बॉडी में फ़ील्ड्स परिवर्तित करें"
+"url": "/hi/net/working-with-fields/convert-fields-in-body/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # बॉडी में फ़ील्ड्स परिवर्तित करें
@@ -22,7 +24,7 @@ url: /hi/net/working-with-fields/convert-fields-in-body/
 .NET के लिए Aspose.Words का उपयोग करके दस्तावेज़ के मुख्य भाग में फ़ील्ड परिवर्तित करने के ट्यूटोरियल में जाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 
 - विजुअल स्टूडियो: .NET विकास के लिए स्थापित और कॉन्फ़िगर किया गया।
--  Aspose.Words for .NET: आपके Visual Studio प्रोजेक्ट में डाउनलोड और संदर्भित। आप इसे यहाँ से प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: आपके Visual Studio प्रोजेक्ट में डाउनलोड और संदर्भित। आप इसे यहाँ से प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 - C# का बुनियादी ज्ञान: प्रदान किए गए कोड स्निपेट को समझने और संशोधित करने के लिए C# प्रोग्रामिंग भाषा से परिचित होना।
 
 ## नामस्थान आयात करें
@@ -45,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Linked fields.docx");
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` अपने वास्तविक दस्तावेज़ के पथ के साथ.
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` अपने वास्तविक दस्तावेज़ के पथ के साथ.
 
 ## चरण 2: फ़ील्ड पहचानें और परिवर्तित करें
 
@@ -68,7 +70,7 @@ doc.FirstSection.Body.Range.Fields
 doc.Save(dataDir + "WorkingWithFields.ConvertFieldsInBody.docx");
 ```
 
- समायोजित करना`"WorkingWithFields.ConvertFieldsInBody.docx"` वांछित आउटपुट फ़ाइल पथ निर्दिष्ट करने के लिए.
+समायोजित करना `"WorkingWithFields.ConvertFieldsInBody.docx"` वांछित आउटपुट फ़ाइल पथ निर्दिष्ट करने के लिए.
 
 ## निष्कर्ष
 
@@ -76,23 +78,28 @@ doc.Save(dataDir + "WorkingWithFields.ConvertFieldsInBody.docx");
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### .NET के लिए Aspose.Words में दस्तावेज़ फ़ील्ड क्या हैं?
+### Aspose.Words for .NET में दस्तावेज़ फ़ील्ड क्या हैं?
 Aspose.Words में दस्तावेज़ फ़ील्ड प्लेसहोल्डर हैं जो दिनांक, पृष्ठ संख्या और गणना जैसे गतिशील डेटा को संग्रहीत और प्रदर्शित कर सकते हैं।
 
 ### मैं .NET के लिए Aspose.Words में विभिन्न प्रकार के फ़ील्ड को कैसे संभाल सकता हूँ?
-Aspose.Words विभिन्न फ़ील्ड प्रकारों जैसे DATE, PAGE, MERGEFIELD, आदि का समर्थन करता है, जिससे डेवलपर्स उन्हें प्रोग्रामेटिक रूप से हेरफेर कर सकते हैं।
+Aspose.Words विभिन्न फ़ील्ड प्रकारों जैसे DATE, PAGE, MERGEFIELD, आदि का समर्थन करता है, जिससे डेवलपर्स को प्रोग्रामेटिक रूप से उनमें हेरफेर करने की अनुमति मिलती है।
 
 ### क्या Aspose.Words for .NET विभिन्न दस्तावेज़ प्रारूपों में फ़ील्ड्स को परिवर्तित कर सकता है?
 हां, .NET के लिए Aspose.Words DOCX, DOC, RTF, और अधिक जैसे प्रारूपों में फ़ील्ड को सहजता से परिवर्तित और हेरफेर कर सकता है।
 
 ### मैं .NET के लिए Aspose.Words हेतु व्यापक दस्तावेज़ कहां पा सकता हूं?
- विस्तृत दस्तावेज़ और API संदर्भ उपलब्ध हैं[यहाँ](https://reference.aspose.com/words/net/).
+विस्तृत दस्तावेज़ और API संदर्भ उपलब्ध हैं [यहाँ](https://reference.aspose.com/words/net/).
 
 ### क्या .NET के लिए Aspose.Words का कोई परीक्षण संस्करण उपलब्ध है?
- हां, आप यहां से निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

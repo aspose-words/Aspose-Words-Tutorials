@@ -1,14 +1,16 @@
 ---
-title: Zaawansowane techniki znajdowania i zamieniania w dokumentach Word
-linktitle: Zaawansowane techniki znajdowania i zamieniania w dokumentach Word
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Poznaj zaawansowane techniki znajdowania i zamieniania w dokumentach Worda za pomocą Aspose.Words dla Pythona. Zamień tekst, użyj wyrażeń regularnych, formatowania i nie tylko.
-weight: 12
-url: /pl/python-net/content-extraction-and-manipulation/find-replace-documents/
+"description": "Poznaj zaawansowane techniki znajdowania i zamieniania w dokumentach Worda za pomocą Aspose.Words dla Pythona. Zamień tekst, użyj wyrażeń regularnych, formatowania i nie tylko."
+"linktitle": "Zaawansowane techniki znajdowania i zamieniania w dokumentach Word"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Zaawansowane techniki znajdowania i zamieniania w dokumentach Word"
+"url": "/pl/python-net/content-extraction-and-manipulation/find-replace-documents/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zaawansowane techniki znajdowania i zamieniania w dokumentach Word
@@ -22,9 +24,9 @@ dzisiejszym cyfrowym świecie praca z dokumentami jest podstawowym zadaniem. Dok
 
 Zanim przejdziemy do zaawansowanych technik, upewnij się, że spełniasz następujące wymagania wstępne:
 
-1.  Instalacja Pythona: Upewnij się, że Python jest zainstalowany w Twoim systemie. Możesz go pobrać z[Tutaj](https://www.python.org/downloads/).
+1. Instalacja Pythona: Upewnij się, że Python jest zainstalowany w Twoim systemie. Możesz go pobrać z [Tutaj](https://www.python.org/downloads/).
 
-2.  Aspose.Words dla Pythona: Musisz mieć zainstalowany Aspose.Words dla Pythona. Możesz go pobrać z[Tutaj](https://releases.aspose.com/words/python/).
+2. Aspose.Words dla Pythona: Musisz mieć zainstalowany Aspose.Words dla Pythona. Możesz go pobrać z [Tutaj](https://releases.aspose.com/words/python/).
 
 3. Przygotowanie dokumentu: Przygotuj dokument Word, w którym chcesz wykonać operacje wyszukiwania i zamiany.
 
@@ -108,11 +110,11 @@ Efektywne zarządzanie dokumentami Word i manipulowanie nimi często obejmuje op
 
 ### Jak wykonać wyszukiwanie i zamianę bez uwzględniania wielkości liter?
 
- Aby wykonać wyszukiwanie i zamianę bez uwzględniania wielkości liter, ustaw trzeci parametr`replace` metoda do`True`.
+Aby wykonać wyszukiwanie i zamianę bez uwzględniania wielkości liter, ustaw trzeci parametr `replace` metoda do `True`.
 
 ### Czy mogę zastąpić tekst tylko w określonym zakresie stron?
 
- Tak, możesz. Przed wykonaniem zamiany określ zakres stron za pomocą`doc.get_child_nodes()` metoda pobierania zawartości konkretnych stron.
+Tak, możesz. Przed wykonaniem zamiany określ zakres stron za pomocą `doc.get_child_nodes()` metoda pobierania zawartości konkretnych stron.
 
 ### Czy można cofnąć operację „znajdź i zamień”?
 
@@ -124,10 +126,15 @@ Tak, możesz używać symboli wieloznacznych i wyrażeń regularnych do wykonywa
 
 ### Czy mogę zamieniać tekst i jednocześnie śledzić wprowadzane zmiany?
 
- Tak, możesz śledzić zmiany za pomocą`revision`funkcja Aspose.Words. Pozwala śledzić wszystkie modyfikacje wprowadzone do dokumentu.
+Tak, możesz śledzić zmiany za pomocą `revision` funkcja Aspose.Words. Pozwala śledzić wszystkie modyfikacje wprowadzone do dokumentu.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

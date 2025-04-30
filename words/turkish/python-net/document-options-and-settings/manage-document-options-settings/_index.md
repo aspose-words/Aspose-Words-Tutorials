@@ -1,14 +1,16 @@
 ---
-title: Verimlilik için Belge Seçeneklerini ve Ayarlarını İnce Ayarlama
-linktitle: Verimlilik için Belge Seçeneklerini ve Ayarlarını İnce Ayarlama
-second_title: Aspose.Words Python Belge Yönetim API'si
-description: Python için Aspose.Words'ü kullanarak Word belgelerini nasıl etkili bir şekilde düzenleyebileceğinizi öğrenin. Kaynak kodlu adım adım kılavuz.
-weight: 11
-url: /tr/python-net/document-options-and-settings/manage-document-options-settings/
+"description": "Python için Aspose.Words'ü kullanarak Word belgelerini nasıl etkili bir şekilde düzenleyebileceğinizi öğrenin. Kaynak kodlu adım adım kılavuz."
+"linktitle": "Verimlilik için Belge Seçeneklerini ve Ayarlarını İnce Ayarlama"
+"second_title": "Aspose.Words Python Belge Yönetim API'si"
+"title": "Verimlilik için Belge Seçeneklerini ve Ayarlarını İnce Ayarlama"
+"url": "/tr/python-net/document-options-and-settings/manage-document-options-settings/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Verimlilik için Belge Seçeneklerini ve Ayarlarını İnce Ayarlama
@@ -71,7 +73,7 @@ for para in doc.get_child_nodes(aw.NodeType.PARAGRAPH, True):
 
 ## Bölümler ve Üstbilgiler/Altbilgiler ile Çalışma:
 
-Belgenizi bölümlere ayırın ve üstbilgileri ve altbilgileri özelleştirin:
+Belgenizi bölümlere ayırın ve üstbilgi ve altbilgileri özelleştirin:
 
 ```python
 section = doc.sections[0]
@@ -117,7 +119,7 @@ Python için Aspose.Words, geliştiricilerin belge seçeneklerini ve ayarların�
 
 ### Python için Aspose.Words'ü nasıl kurabilirim?
 
-Aşağıdaki pip komutunu kullanarak Python için Aspose.Words'ü yükleyebilirsiniz:
+Aşağıdaki pip komutunu kullanarak Aspose.Words for Python'ı yükleyebilirsiniz:
 
 ```python
 pip install aspose-words
@@ -129,7 +131,7 @@ Evet, Aspose.Words kullanarak özel üstbilgiler ve altbilgiler oluşturabilir v
 
 ### API'yi kullanarak sayfa kenar boşluklarını nasıl ayarlarım?
 
- Sayfa kenar boşluklarını şu şekilde ayarlayabilirsiniz:`PageSetup` sınıf. Örneğin:
+Sayfa kenar boşluklarını şu şekilde ayarlayabilirsiniz: `PageSetup` sınıf. Örneğin:
 
 ```python
 page_setup = doc.sections[0].page_setup
@@ -139,7 +141,7 @@ page_setup.right_margin = aw.ConvertUtil.inch_to_point(1)
 
 ### Aspose.Words kullanarak belgemi PDF'ye aktarabilir miyim?
 
- Kesinlikle, PDF dahil olmak üzere belgenizi çeşitli biçimlere aktarabilirsiniz.`save` yöntem. Örneğin:
+Kesinlikle, PDF dahil olmak üzere belgenizi çeşitli biçimlere aktarabilirsiniz. `save` yöntem. Örneğin:
 
 ```python
 doc.save("output.pdf", aw.SaveFormat.PDF)
@@ -147,10 +149,15 @@ doc.save("output.pdf", aw.SaveFormat.PDF)
 
 ### Python için Aspose.Words hakkında daha fazla bilgiyi nerede bulabilirim?
 
- Belgelere şu adresten ulaşabilirsiniz:[Burada](https://reference.aspose.com/words/python-net/).
+Belgelere şu adresten ulaşabilirsiniz: [Burada](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

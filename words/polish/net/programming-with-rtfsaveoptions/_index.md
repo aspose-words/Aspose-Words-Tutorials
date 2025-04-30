@@ -1,14 +1,16 @@
 ---
-title: Przetwarzanie słów z Rtfsaveoptions
-linktitle: Przetwarzanie słów z Rtfsaveoptions
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Poznaj przetwarzanie słów z opcjami zapisu RTF w Aspose.Words dla .NET. Dowiedz się, jak zapisywać i dostosowywać dokumenty RTF za pomocą samouczków krok po kroku i przykładów kodu C#.
-weight: 1690
-url: /pl/net/programming-with-rtfsaveoptions/
+"description": "Poznaj przetwarzanie słów z opcjami zapisu RTF w Aspose.Words dla .NET. Dowiedz się, jak zapisywać i dostosowywać dokumenty RTF za pomocą samouczków krok po kroku i przykładów kodu C#."
+"linktitle": "Przetwarzanie słów z Rtfsaveoptions"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przetwarzanie słów z Rtfsaveoptions"
+"url": "/pl/net/programming-with-rtfsaveoptions/"
+"weight": 1690
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przetwarzanie słów z Rtfsaveoptions
@@ -23,9 +25,14 @@ Korzystając z samouczków Aspose.Words for .NET, będziesz w stanie łatwo zarz
 | Tytuł | Opis |
 | --- | --- |
 | [Zapisywanie obrazów jako WMF](./saving-images-as-wmf/) | Dowiedz się, jak zapisywać obrazy jako WMF w dokumentach Word za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Zwiększ zgodność dokumentów i jakość obrazu. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Aspose.Words for Java ile Gelişmiş Kaydetme Seçenekleri
-linktitle: Çeşitli Formatlarda Belgeleri Kaydetme
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java ile gelişmiş belge düzenlemeyi öğrenin. Meta dosyaları şifreleyin, yönetin ve daha fazlasını yapın. Word belgeleriniz, sizin tarzınız.
-weight: 14
-url: /tr/java/document-loading-and-saving/advance-saving-options/
+"description": "Aspose.Words for Java ile gelişmiş belge düzenlemeyi öğrenin. Meta dosyaları şifreleyin, yönetin ve daha fazlasını yapın. Word belgeleriniz, sizin tarzınız."
+"linktitle": "Çeşitli Formatlarda Belgeleri Kaydetme"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Aspose.Words for Java ile Gelişmiş Kaydetme Seçenekleri"
+"url": "/tr/java/document-loading-and-saving/advance-saving-options/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Words for Java ile Gelişmiş Kaydetme Seçenekleri
@@ -79,7 +81,7 @@ public void doNotSavePictureBullet() throws Exception {
 ```
 
 
-## Aspose.Words for Java ile Çeşitli Formatlarda Belgeleri Kaydetmek İçin Tam Kaynak Kodu
+## Aspose.Words for Java ile Belgeleri Çeşitli Biçimlerde Kaydetmek İçin Tam Kaynak Kodu
 
 ```java
 public void encryptDocumentWithPassword() throws Exception {
@@ -119,15 +121,15 @@ Tebrikler! Gelişmiş kaydetme seçeneklerini gerçekleştirmek için Aspose.Wor
 
 ### 1. Aspose.Words for Java ücretsiz bir kütüphane midir?
 
- Hayır, Aspose.Words for Java ticari bir kütüphanedir. Lisanslama ayrıntılarını bulabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Hayır, Aspose.Words for Java ticari bir kütüphanedir. Lisanslama ayrıntılarını bulabilirsiniz [Burada](https://purchase.aspose.com/buy).
 
 ### 2. Aspose.Words for Java'nın ücretsiz deneme sürümünü nasıl edinebilirim?
 
-Aspose.Words for Java'nın ücretsiz deneme sürümünü edinebilirsiniz[Burada](https://releases.aspose.com/).
+Aspose.Words for Java'nın ücretsiz deneme sürümünü edinebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### 3. Java için Aspose.Words desteğini nerede bulabilirim?
 
- Destek ve topluluk tartışmaları için şu adresi ziyaret edin:[Aspose.Words for Java forumu](https://forum.aspose.com/).
+Destek ve topluluk tartışmaları için şu adresi ziyaret edin: [Aspose.Words for Java forumu](https://forum.aspose.com/).
 
 ### 4. Aspose.Words for Java'yı diğer Java kütüphaneleriyle birlikte kullanabilir miyim?
 
@@ -135,13 +137,18 @@ Evet, Aspose.Words for Java çeşitli Java kütüphaneleri ve çerçeveleriyle u
 
 ### 5. Geçici lisans seçeneği mevcut mudur?
 
- Evet, geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Evet, geçici bir lisans alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 Bugün Aspose.Words for Java'yı kullanmaya başlayın ve Java uygulamalarınızda belge düzenlemenin tüm potansiyelini ortaya çıkarın.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

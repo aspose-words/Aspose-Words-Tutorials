@@ -1,14 +1,16 @@
 ---
-title: Selesaikan Nama Font
-linktitle: Selesaikan Nama Font
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengatasi nama font dalam dokumen Word saat mengonversi ke HTML menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah dengan penjelasan terperinci.
-weight: 10
-url: /id/net/programming-with-htmlsaveoptions/resolve-font-names/
+"description": "Pelajari cara mengatasi nama font dalam dokumen Word saat mengonversi ke HTML menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah dengan penjelasan terperinci."
+"linktitle": "Selesaikan Nama Font"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Selesaikan Nama Font"
+"url": "/id/net/programming-with-htmlsaveoptions/resolve-font-names/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Selesaikan Nama Font
@@ -21,8 +23,8 @@ Hai, rekan pembuat kode! Jika Anda pernah mengalami masalah font saat menyimpan 
 
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Aspose.Words untuk .NET: Jika Anda belum melakukannya, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
-2.  Lisensi yang Valid: Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy) atau dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words untuk .NET: Jika Anda belum melakukannya, Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
+2. Lisensi yang Valid: Anda dapat membeli lisensi [Di Sini](https://purchase.aspose.com/buy) atau dapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 3. Pengetahuan Dasar C# dan .NET: Tutorial ini mengasumsikan Anda memahami konsep pemrograman dasar dalam C#.
 4. Visual Studio: Versi apa pun yang mendukung kerangka kerja .NET.
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
 Penjelasan:
- Di Sini,`dataDir` menyimpan jalur ke direktori dokumen Anda. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada sistem Anda.
+Di Sini, `dataDir` menyimpan jalur ke direktori dokumen Anda. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada sistem Anda.
 
 ## Langkah 2: Memuat Dokumen Word
 
@@ -58,7 +60,7 @@ Document doc = new Document(dataDir + "Missing font.docx");
 ```
 
 Penjelasan:
- Kami menciptakan sebuah`Document` objek dan memuat dokumen Word bernama "Missing font.docx" dari kami`dataDir`.
+Kami menciptakan sebuah `Document` objek dan memuat dokumen Word bernama "Missing font.docx" dari kami `dataDir`.
 
 ## Langkah 3: Mengonfigurasi Opsi Penyimpanan HTML
 
@@ -73,7 +75,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html)
 ```
 
 Penjelasan:
- Kami membuat sebuah contoh dari`HtmlSaveOptions` dengan`SaveFormat.Html` . Itu`PrettyFormat` opsi membuat output HTML lebih mudah dibaca, dan`ResolveFontNames` memastikan nama font teratasi.
+Kami membuat sebuah contoh dari `HtmlSaveOptions` dengan `SaveFormat.Html`. Itu `PrettyFormat` opsi membuat output HTML lebih mudah dibaca, dan `ResolveFontNames` memastikan nama font teratasi.
 
 ## Langkah 4: Menyimpan Dokumen sebagai HTML
 
@@ -84,7 +86,7 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ResolveFontNames.html", saveOptio
 ```
 
 Penjelasan:
- Kami menyebutnya`Save` metode pada`Document` objek, yang menentukan jalur keluaran dan opsi penyimpanan yang telah kami konfigurasikan. Ini akan menghasilkan berkas HTML dengan nama font yang telah ditentukan.
+Kami menyebutnya `Save` metode pada `Document` objek, yang menentukan jalur keluaran dan opsi penyimpanan yang telah kami konfigurasikan. Ini akan menghasilkan berkas HTML dengan nama font yang telah ditentukan.
 
 ## Kesimpulan
 
@@ -96,19 +98,24 @@ Nah, itu dia! Dengan mengikuti langkah-langkah ini, Anda telah berhasil mengatas
 Aspose.Words untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memodifikasi, dan mengonversi dokumen Word secara terprogram.
 
 ### Bagaimana cara menginstal Aspose.Words untuk .NET?
- Anda dapat mengunduh Aspose.Words untuk .NET dari[Di Sini](https://releases.aspose.com/words/net/)Ikuti petunjuk instalasi yang tersedia dalam dokumentasi.
+Anda dapat mengunduh Aspose.Words untuk .NET dari [Di Sini](https://releases.aspose.com/words/net/)Ikuti petunjuk instalasi yang tersedia dalam dokumentasi.
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET tanpa lisensi?
- Ya, tetapi akan ada beberapa keterbatasan. Untuk fungsionalitas penuh, Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy) atau dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Ya, tetapi akan ada beberapa keterbatasan. Untuk fungsionalitas penuh, Anda dapat membeli lisensi [Di Sini](https://purchase.aspose.com/buy) atau dapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Mengapa font saya tidak ditampilkan dengan benar dalam HTML?
- Hal ini dapat terjadi jika font tidak diselesaikan dengan benar selama konversi. Menggunakan`ResolveFontNames = true` di dalam`HtmlSaveOptions` dapat membantu memperbaiki masalah ini.
+Hal ini dapat terjadi jika font tidak diselesaikan dengan benar selama konversi. Menggunakan `ResolveFontNames = true` di dalam `HtmlSaveOptions` dapat membantu memperbaiki masalah ini.
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Words untuk .NET?
- Anda bisa mendapatkan dukungan dari[Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari [Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

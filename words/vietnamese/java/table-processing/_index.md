@@ -1,14 +1,16 @@
 ---
-title: Xử lý bảng dễ dàng
-linktitle: Xử lý bảng
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu API xử lý bảng mạnh mẽ dành cho nhà phát triển Java bằng Aspose.Word for Java. Tạo, thao tác và định dạng bảng trong tài liệu Word. Nâng cao ứng dụng xử lý tài liệu của bạn ngay hôm nay.
-weight: 11
-url: /vi/java/table-processing/
+"description": "Tìm hiểu API xử lý bảng mạnh mẽ dành cho nhà phát triển Java bằng Aspose.Word for Java. Tạo, thao tác và định dạng bảng trong tài liệu Word. Nâng cao ứng dụng xử lý tài liệu của bạn ngay hôm nay."
+"linktitle": "Xử lý bảng"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Xử lý bảng dễ dàng"
+"url": "/vi/java/table-processing/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xử lý bảng dễ dàng
@@ -45,9 +47,13 @@ Tìm hiểu cách tạo bảng và hàng trong tài liệu bằng Aspose.Words f
 Nắm vững nghệ thuật định dạng bảng trong tài liệu bằng Aspose.Words for Java. Khám phá hướng dẫn từng bước và ví dụ mã nguồn để định dạng bảng chính xác.
 ### [Mục lục Thế hệ](./table-contents-generation/)
 Tìm hiểu cách tạo Mục lục động bằng Aspose.Words cho Java. Làm chủ việc tạo Mục lục với hướng dẫn từng bước và ví dụ về mã nguồn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

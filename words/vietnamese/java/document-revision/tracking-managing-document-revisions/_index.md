@@ -1,14 +1,16 @@
 ---
-title: Theo dõi và quản lý việc sửa đổi tài liệu
-linktitle: Theo dõi và quản lý việc sửa đổi tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách theo dõi và quản lý các bản sửa đổi tài liệu bằng Aspose.Words for Java trong hướng dẫn toàn diện này. Nhận hướng dẫn từng bước và ví dụ về mã nguồn.
-weight: 10
-url: /vi/java/document-revision/tracking-managing-document-revisions/
+"description": "Tìm hiểu cách theo dõi và quản lý các bản sửa đổi tài liệu bằng Aspose.Words for Java trong hướng dẫn toàn diện này. Nhận hướng dẫn từng bước và ví dụ về mã nguồn."
+"linktitle": "Theo dõi và quản lý việc sửa đổi tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Theo dõi và quản lý việc sửa đổi tài liệu"
+"url": "/vi/java/document-revision/tracking-managing-document-revisions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Theo dõi và quản lý việc sửa đổi tài liệu
@@ -28,7 +30,7 @@ Aspose.Words for Java là một thư viện Java mạnh mẽ và giàu tính nă
 
 ### Cài đặt Aspose.Words cho Java
 
- Để bắt đầu sử dụng Aspose.Words for Java, bạn sẽ cần cài đặt thư viện. Bạn có thể tải xuống thư viện từ trang web tại[https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/). Thực hiện theo hướng dẫn cài đặt được cung cấp để thiết lập thư viện trong dự án Java của bạn.
+Để bắt đầu sử dụng Aspose.Words for Java, bạn sẽ cần cài đặt thư viện. Bạn có thể tải xuống thư viện từ trang web tại [https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/). Thực hiện theo hướng dẫn cài đặt được cung cấp để thiết lập thư viện trong dự án Java của bạn.
 
 ### Tạo tài liệu đầu tiên của bạn
 
@@ -62,7 +64,7 @@ Một trong những tính năng chính của Aspose.Words for Java là khả nă
 
 ### Bật tính năng theo dõi sửa đổi
 
- Để bật theo dõi sửa đổi trong tài liệu Word bằng Aspose.Words cho Java, bạn có thể sử dụng`TrackRevisions` thuộc tính. Sau đây là ví dụ về cách bật theo dõi sửa đổi:
+Để bật theo dõi sửa đổi trong tài liệu Word bằng Aspose.Words cho Java, bạn có thể sử dụng `TrackRevisions` thuộc tính. Sau đây là ví dụ về cách bật theo dõi sửa đổi:
 
 ```java
 Document doc = new Document("MyDocument.docx");
@@ -99,25 +101,25 @@ Ngoài việc theo dõi các bản sửa đổi, Aspose.Words for Java cho phép
 doc.save("MyDocument_v2.docx");
 ```
 
-Trong ví dụ này, chúng tôi lưu một bản sao của tài liệu với "_hậu tố v2" để chỉ ra đây là phiên bản mới. Bạn có thể làm theo cách tương tự để tạo các phiên bản khác nhau khi cần.
+Trong ví dụ này, chúng tôi lưu một bản sao của tài liệu có hậu tố "_v2" để chỉ ra đó là phiên bản mới. Bạn có thể làm theo cách tiếp cận tương tự để tạo các phiên bản khác nhau khi cần.
 
 ## FAQ (Câu hỏi thường gặp)
 
 ### Làm thế nào tôi có thể theo dõi các bản sửa đổi tài liệu bằng Aspose.Words cho Java?
 
- Để theo dõi các bản sửa đổi tài liệu, hãy sử dụng`startTrackRevisions` phương pháp và chỉ định tên tác giả. Bất kỳ thay đổi nào được thực hiện đối với tài liệu sau đó sẽ được ghi lại dưới dạng bản sửa đổi.
+Để theo dõi các bản sửa đổi tài liệu, hãy sử dụng `startTrackRevisions` phương pháp và chỉ định tên tác giả. Bất kỳ thay đổi nào được thực hiện đối với tài liệu sau đó sẽ được ghi lại dưới dạng bản sửa đổi.
 
 ### Tôi có thể chấp nhận hoặc từ chối sửa đổi theo chương trình không?
 
- Có, bạn có thể chấp nhận hoặc từ chối các bản sửa đổi bằng cách sử dụng Aspose.Words cho Java. Sử dụng`acceptAllRevisions` Và`rejectAllRevisions` phương pháp quản lý bản sửa đổi.
+Có, bạn có thể chấp nhận hoặc từ chối các bản sửa đổi bằng cách sử dụng Aspose.Words cho Java. Sử dụng `acceptAllRevisions` Và `rejectAllRevisions` phương pháp quản lý bản sửa đổi.
 
 ### Có thể tạo nhiều phiên bản của một tài liệu không?
 
-Hoàn toàn có thể! Bạn có thể tạo nhiều phiên bản của một tài liệu bằng cách tạo các bản sao có tên hoặc số phiên bản khác nhau.
+Hoàn toàn có thể! Bạn có thể tạo nhiều phiên bản của một tài liệu bằng cách sao chép với tên hoặc số phiên bản khác nhau.
 
 ### Tôi có thể tìm hiểu thêm về Aspose.Words cho Java bằng cách nào?
 
- Để có tài liệu và tham khảo đầy đủ, hãy truy cập[https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/). Bạn sẽ tìm thấy thông tin chi tiết về cách sử dụng Aspose.Words cho Java.
+Để có tài liệu và tham khảo đầy đủ, hãy truy cập [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/). Bạn sẽ tìm thấy thông tin chi tiết về cách sử dụng Aspose.Words cho Java.
 
 ### Aspose.Words for Java có phù hợp với cả người mới bắt đầu và nhà phát triển có kinh nghiệm không?
 
@@ -125,14 +127,19 @@ Có, Aspose.Words for Java rất linh hoạt và có thể được sử dụng 
 
 ### Tôi có thể tải Aspose.Words cho Java ở đâu?
 
-Bạn có thể tải xuống Aspose.Words cho Java từ trang web tại[https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/). Làm theo hướng dẫn cài đặt để bắt đầu.
+Bạn có thể tải xuống Aspose.Words cho Java từ trang web tại [https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/). Làm theo hướng dẫn cài đặt để bắt đầu.
 
 ## Phần kết luận
 
 Trong hướng dẫn toàn diện này, chúng tôi đã khám phá cách theo dõi và quản lý các bản sửa đổi tài liệu bằng Aspose.Words for Java. Từ việc hiểu những điều cơ bản của Aspose.Words for Java đến việc bật theo dõi bản sửa đổi và quản lý các phiên bản tài liệu, giờ đây bạn đã có kiến thức để xử lý hiệu quả việc quản lý bản sửa đổi tài liệu trong các dự án của mình. Aspose.Words for Java là một công cụ mạnh mẽ giúp đơn giản hóa quy trình, cho dù bạn là người mới bắt đầu hay là nhà phát triển có kinh nghiệm. Hãy bắt đầu sử dụng ngay hôm nay và hợp lý hóa các tác vụ quản lý tài liệu của bạn.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

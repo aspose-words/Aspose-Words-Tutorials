@@ -1,14 +1,16 @@
 ---
-title: एंकर टिप्पणी
-linktitle: एंकर टिप्पणी
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में एंकर टिप्पणियाँ जोड़ने का तरीका जानें। कुशल दस्तावेज़ सहयोग के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/working-with-comments/anchor-comment/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में एंकर टिप्पणियाँ जोड़ने का तरीका जानें। कुशल दस्तावेज़ सहयोग के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "एंकर टिप्पणी"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "एंकर टिप्पणी"
+"url": "/hi/net/working-with-comments/anchor-comment/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एंकर टिप्पणी
@@ -21,7 +23,7 @@ url: /hi/net/working-with-comments/anchor-comment/
 
 आरंभ करने से पहले, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
--  .NET के लिए Aspose.Words: सुनिश्चित करें कि आपके पास Aspose.Words लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+- .NET के लिए Aspose.Words: सुनिश्चित करें कि आपके पास Aspose.Words लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 - विकास वातावरण: कोई भी .NET विकास वातावरण जैसे विजुअल स्टूडियो.
 - C# की बुनियादी समझ: C# प्रोग्रामिंग से परिचित होने से आपको चरणों का आसानी से पालन करने में मदद मिलेगी।
 
@@ -52,7 +54,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- इस चरण में, हम एक नया आरंभ करते हैं`Document` ऑब्जेक्ट जिसका उपयोग हमारी टिप्पणियाँ जोड़ने के लिए किया जाएगा।
+इस चरण में, हम एक नया आरंभ करते हैं `Document` ऑब्जेक्ट जिसका उपयोग हमारी टिप्पणियाँ जोड़ने के लिए किया जाएगा।
 
 ## चरण 2: दस्तावेज़ में पाठ जोड़ें
 
@@ -76,7 +78,7 @@ para2.AppendChild(run4);
 doc.FirstSection.Body.AppendChild(para2);
 ```
 
- यहाँ, हम कुछ पाठ के साथ दो पैराग्राफ बनाते हैं। पाठ का प्रत्येक भाग एक में समाहित है`Run` ऑब्जेक्ट, जिसे फिर पैराग्राफ में जोड़ा जाता है।
+यहाँ, हम कुछ पाठ के साथ दो पैराग्राफ बनाते हैं। पाठ का प्रत्येक भाग एक में समाहित है `Run` ऑब्जेक्ट, जिसे फिर पैराग्राफ में जोड़ा जाता है।
 
 ## चरण 3: एक टिप्पणी बनाएँ
 
@@ -88,7 +90,7 @@ Comment comment = new Comment(doc, "Awais Hafeez", "AH", DateTime.Today);
 comment.SetText("Comment text.");
 ```
 
- इस चरण में, हम एक बनाते हैं`Comment` ऑब्जेक्ट और टिप्पणी पाठ के साथ एक पैराग्राफ और एक रन जोड़ें।
+इस चरण में, हम एक बनाते हैं `Comment` ऑब्जेक्ट और टिप्पणी पाठ के साथ एक पैराग्राफ और एक रन जोड़ें।
 
 ## चरण 4: टिप्पणी सीमा निर्धारित करें
 
@@ -107,7 +109,7 @@ run3.ParentNode.InsertAfter(commentRangeEnd, run3);
 commentRangeEnd.ParentNode.InsertAfter(comment, commentRangeEnd);
 ```
 
- यहाँ, हम बनाते हैं`CommentRangeStart` और`CommentRangeEnd` ऑब्जेक्ट्स को उसकी आईडी द्वारा टिप्पणी से लिंक करते हुए। फिर हम इन श्रेणियों को दस्तावेज़ में सम्मिलित करते हैं, जिससे हमारी टिप्पणी निर्दिष्ट पाठ से प्रभावी रूप से जुड़ जाती है।
+यहाँ, हम बनाते हैं `CommentRangeStart` और `CommentRangeEnd` ऑब्जेक्ट्स को उसकी आईडी द्वारा टिप्पणी से लिंक करते हुए। फिर हम इन श्रेणियों को दस्तावेज़ में सम्मिलित करते हैं, जिससे हमारी टिप्पणी निर्दिष्ट पाठ से प्रभावी रूप से जुड़ जाती है।
 
 ## चरण 5: दस्तावेज़ सहेजें
 
@@ -133,16 +135,21 @@ doc.Save(dataDir + "WorkingWithComments.AnchorComment.doc");
 हां, आप एकाधिक टिप्पणी श्रेणियां परिभाषित करके एक ही पाठ अनुभाग में एकाधिक टिप्पणियां जोड़ सकते हैं।
 
 ### क्या .NET के लिए Aspose.Words का उपयोग निःशुल्क है?
- Aspose.Words for .NET एक निःशुल्क परीक्षण प्रदान करता है जिसे आप डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/) पूर्ण सुविधाओं के लिए, आप लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+Aspose.Words for .NET एक निःशुल्क परीक्षण प्रदान करता है जिसे आप डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/)पूर्ण सुविधाओं के लिए, आप लाइसेंस खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy).
 
 ### क्या मैं टिप्पणियों के स्वरूप को अनुकूलित कर सकता हूँ?
 जबकि Aspose.Words कार्यक्षमता पर ध्यान केंद्रित करता है, Word दस्तावेज़ों में टिप्पणियों की उपस्थिति आमतौर पर Word द्वारा ही नियंत्रित होती है।
 
 ### मैं .NET के लिए Aspose.Words पर अधिक दस्तावेज़ कहां पा सकता हूं?
- आप विस्तृत दस्तावेज पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप विस्तृत दस्तावेज पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

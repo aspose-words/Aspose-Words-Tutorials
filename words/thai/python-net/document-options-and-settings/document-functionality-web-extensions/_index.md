@@ -1,14 +1,16 @@
 ---
-title: การขยายฟังก์ชันการทำงานของเอกสารด้วยส่วนขยายเว็บ
-linktitle: การขยายฟังก์ชันการทำงานของเอกสารด้วยส่วนขยายเว็บ
-second_title: API การจัดการเอกสาร Aspose.Words Python
-description: เรียนรู้วิธีขยายฟังก์ชันการทำงานของเอกสารด้วยส่วนขยายเว็บโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับเพื่อการบูรณาการที่ราบรื่น
-weight: 13
-url: /th/python-net/document-options-and-settings/document-functionality-web-extensions/
+"description": "เรียนรู้วิธีขยายฟังก์ชันการทำงานของเอกสารด้วยส่วนขยายเว็บโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับเพื่อการบูรณาการที่ราบรื่น"
+"linktitle": "การขยายฟังก์ชันการทำงานของเอกสารด้วยส่วนขยายเว็บ"
+"second_title": "API การจัดการเอกสาร Aspose.Words Python"
+"title": "การขยายฟังก์ชันการทำงานของเอกสารด้วยส่วนขยายเว็บ"
+"url": "/th/python-net/document-options-and-settings/document-functionality-web-extensions/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การขยายฟังก์ชันการทำงานของเอกสารด้วยส่วนขยายเว็บ
@@ -23,15 +25,15 @@ url: /th/python-net/document-options-and-settings/document-functionality-web-ext
 ก่อนที่เราจะเจาะลึกรายละเอียดทางเทคนิค โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Python
--  เอกสารอ้างอิง API Aspose.Words สำหรับ Python (มีอยู่ที่[ที่นี่](https://reference.aspose.com/words/python-net/).
--  การเข้าถึงไลบรารี Aspose.Words สำหรับ Python (ดาวน์โหลดจาก[ที่นี่](https://releases.aspose.com/words/python/).
+- เอกสารอ้างอิง API Aspose.Words สำหรับ Python (มีอยู่ที่ [ที่นี่](https://reference-aspose.com/words/python-net/).
+- การเข้าถึงไลบรารี Aspose.Words สำหรับ Python (ดาวน์โหลดจาก [ที่นี่](https://releases-aspose.com/words/python/).
 
 ## การตั้งค่า Aspose.Words สำหรับ Python
 
 ในการเริ่มต้น ให้ทำตามขั้นตอนเหล่านี้เพื่อตั้งค่า Aspose.Words สำหรับ Python:
 
 1. ดาวน์โหลดไลบรารี Aspose.Words สำหรับ Python จากลิงก์ที่ให้ไว้
-2.  ติดตั้งไลบรารีโดยใช้ตัวจัดการแพ็กเกจที่เหมาะสม (เช่น`pip`-
+2. ติดตั้งไลบรารีโดยใช้ตัวจัดการแพ็กเกจที่เหมาะสม (เช่น `pip`-
 
 ```python
 pip install aspose-words
@@ -120,9 +122,14 @@ Aspose.Words รองรับรูปแบบต่างๆ สำหรั
 ### มีวิธีเพิ่มประสิทธิภาพการทำงานของส่วนขยายเว็บหรือไม่
 
 เพื่อเพิ่มประสิทธิภาพการทำงานของส่วนขยายเว็บ ลดการร้องขอจากภายนอก ใช้การโหลดแบบอะซิงโครนัส และดำเนินการทดสอบอย่างละเอียดบนเบราว์เซอร์และอุปกรณ์ที่แตกต่างกัน
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

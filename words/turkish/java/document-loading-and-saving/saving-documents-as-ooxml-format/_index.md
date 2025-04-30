@@ -1,14 +1,16 @@
 ---
-title: Aspose.Words for Java'da Belgeleri OOXML Formatında Kaydetme
-linktitle: Belgeleri OOXML Formatında Kaydetme
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java ile belgeleri OOXML formatında nasıl kaydedeceğinizi öğrenin. Dosyalarınızı zahmetsizce güvenceye alın, optimize edin ve özelleştirin.
-weight: 20
-url: /tr/java/document-loading-and-saving/saving-documents-as-ooxml-format/
+"description": "Aspose.Words for Java ile belgeleri OOXML formatında nasıl kaydedeceğinizi öğrenin. Dosyalarınızı zahmetsizce güvenceye alın, optimize edin ve özelleştirin."
+"linktitle": "Belgeleri OOXML Formatında Kaydetme"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Aspose.Words for Java'da Belgeleri OOXML Formatında Kaydetme"
+"url": "/tr/java/document-loading-and-saving/saving-documents-as-ooxml-format/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Words for Java'da Belgeleri OOXML Formatında Kaydetme
@@ -93,7 +95,7 @@ import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.SaveFormat;
 
-//Eski denetim karakterlerini içeren bir belgeyi yükleyin
+// Eski denetim karakterlerini içeren bir belgeyi yükleyin
 Document doc = new Document("LegacyControlChars.doc");
 
 // OoxmlSaveOptions'ı FLAT_OPC biçimiyle oluşturun ve eski kontrol karakterlerinin tutulmasını etkinleştirin
@@ -178,14 +180,19 @@ Parola korumalı bir belgeden parola korumasını kaldırmak için, belgeyi doğ
 
 ### Bir belgeyi OOXML formatında kaydederken özel özellikler ayarlayabilir miyim?
 
- Evet, bir belgeyi OOXML biçiminde kaydetmeden önce özel özellikler ayarlayabilirsiniz.`BuiltInDocumentProperties` Ve`CustomDocumentProperties` Yazar, başlık, anahtar kelimeler ve özel özellikler gibi çeşitli özellikleri ayarlamak için sınıflar.
+Evet, bir belgeyi OOXML biçiminde kaydetmeden önce özel özellikler ayarlayabilirsiniz. `BuiltInDocumentProperties` Ve `CustomDocumentProperties` Yazar, başlık, anahtar kelimeler ve özel özellikler gibi çeşitli özellikleri ayarlamak için sınıflar.
 
 ### Bir belgeyi OOXML formatında kaydederken varsayılan sıkıştırma düzeyi nedir?
 
- Aspose.Words for Java kullanılarak bir belge OOXML biçiminde kaydedilirken varsayılan sıkıştırma düzeyi:`NORMAL` Sıkıştırma seviyesini değiştirebilirsiniz`SUPER_FAST` veya`MAXIMUM` ihtiyaç duyulduğu takdirde.
+Aspose.Words for Java kullanılarak bir belge OOXML biçiminde kaydedilirken varsayılan sıkıştırma düzeyi: `NORMAL`Sıkıştırma seviyesini değiştirebilirsiniz `SUPER_FAST` veya `MAXIMUM` ihtiyaç duyulduğu takdirde.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Получать предупреждающие уведомления
-linktitle: Получать предупреждающие уведомления
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как получать уведомления о замене шрифтов в Aspose.Words для .NET с помощью нашего подробного руководства. Убедитесь, что ваши документы отображаются правильно каждый раз.
-weight: 10
-url: /ru/net/working-with-fonts/receive-warning-notification/
+"description": "Узнайте, как получать уведомления о замене шрифтов в Aspose.Words для .NET с помощью нашего подробного руководства. Убедитесь, что ваши документы отображаются правильно каждый раз."
+"linktitle": "Получать предупреждающие уведомления"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Получать предупреждающие уведомления"
+"url": "/ru/net/working-with-fonts/receive-warning-notification/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получать предупреждающие уведомления
@@ -22,9 +24,9 @@ url: /ru/net/working-with-fonts/receive-warning-notification/
 Прежде чем мы начнем, убедитесь, что у вас есть следующее:
 
 - Базовые знания C#: знакомство с C# поможет вам понять и реализовать шаги.
--  Библиотека Aspose.Words for .NET: загрузите и установите ее с сайта[ссылка для скачивания](https://releases.aspose.com/words/net/).
+- Библиотека Aspose.Words for .NET: загрузите и установите ее с сайта [ссылка для скачивания](https://releases.aspose.com/words/net/).
 - Среда разработки: среда, подобная Visual Studio, для написания и запуска кода.
--  Образец документа: Имейте образец документа (например,`Rendering.docx`) для работы.
+- Образец документа: Имейте образец документа (например, `Rendering.docx`) для работы.
 
 ## Импорт пространств имен
 
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Шаг 2: Загрузите документ
 
- Загрузите ваш документ в Aspose.Words`Document` объект. Это позволяет вам программно манипулировать документом.
+Загрузите ваш документ в Aspose.Words `Document` объект. Это позволяет вам программно манипулировать документом.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -54,7 +56,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Шаг 3: Настройка обратного вызова предупреждения
 
- Для сбора и обработки предупреждений создайте класс, реализующий`IWarningCallback` Интерфейс. Этот класс будет регистрировать любые предупреждения, возникающие во время обработки документа.
+Для сбора и обработки предупреждений создайте класс, реализующий `IWarningCallback` Интерфейс. Этот класс будет регистрировать любые предупреждения, возникающие во время обработки документа.
 
 ```csharp
 public class HandleDocumentWarnings : IWarningCallback
@@ -76,13 +78,13 @@ doc.WarningCallback = callback;
 ```
 ## Шаг 5: Обновите макет страницы
 
- Позвоните`UpdatePageLayout` Метод. Этот метод визуализирует документ в памяти и фиксирует все предупреждения, возникающие во время визуализации.
+Позвоните `UpdatePageLayout` Метод. Этот метод визуализирует документ в памяти и фиксирует все предупреждения, возникающие во время визуализации.
 
 ```csharp
 doc.UpdatePageLayout();
 ```
 
-## Шаг 6: Сохраните документ
+## Шаг 6: Сохраните документ.
 
 Наконец, сохраните документ. Даже если документ был отрендерен ранее, любые предупреждения о сохранении будут уведомлены пользователем на этом этапе.
 
@@ -104,22 +106,27 @@ doc.Save(dataDir + "WorkingWithFonts.ReceiveWarningNotification.pdf");
 
 ### В2: Где я могу получить бесплатную пробную версию Aspose.Words для .NET?
 
- Вы можете загрузить бесплатную пробную версию с сайта[Страница бесплатной пробной версии Aspose](https://releases.aspose.com/).
+Вы можете загрузить бесплатную пробную версию с сайта [Страница бесплатной пробной версии Aspose](https://releases.aspose.com/).
 
-###  В3: Могу ли я обрабатывать другие типы предупреждений с помощью`IWarningCallback`?
+### В3: Могу ли я обрабатывать другие типы предупреждений с помощью `IWarningCallback`?
 
- Да,`IWarningCallback`Интерфейс может обрабатывать различные типы предупреждений, а не только замену шрифтов.
+Да, `IWarningCallback` Интерфейс может обрабатывать различные типы предупреждений, а не только замену шрифтов.
 
 ### В4: Где я могу найти поддержку по Aspose.Words?
 
- Посетите[Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8) за помощь.
+Посетите [Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8) за помощь.
 
 ### В5: Можно ли получить временную лицензию для Aspose.Words?
 
- Да, вы можете получить временную лицензию в[временная страница лицензии](https://purchase.aspose.com/temporary-license/).
+Да, вы можете получить временную лицензию в [временная страница лицензии](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

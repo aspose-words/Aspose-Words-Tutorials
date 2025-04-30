@@ -1,14 +1,16 @@
 ---
-title: การใช้ตัวเลือกและการตั้งค่าเอกสารใน Aspose.Words สำหรับ Java
-linktitle: การใช้ตัวเลือกและการตั้งค่าเอกสาร
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: ปลดล็อกพลังของ Aspose.Words สำหรับ Java เลือกและตั้งค่าเอกสารอย่างชาญฉลาดเพื่อการจัดการเอกสารที่ราบรื่น ปรับแต่ง และอื่นๆ อีกมากมาย
-weight: 31
-url: /th/java/document-manipulation/using-document-options-and-settings/
+"description": "ปลดล็อกพลังของ Aspose.Words สำหรับ Java เลือกและตั้งค่าเอกสารอย่างชาญฉลาดเพื่อการจัดการเอกสารที่ราบรื่น ปรับแต่ง และอื่นๆ อีกมากมาย"
+"linktitle": "การใช้ตัวเลือกและการตั้งค่าเอกสาร"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การใช้ตัวเลือกและการตั้งค่าเอกสารใน Aspose.Words สำหรับ Java"
+"url": "/th/java/document-manipulation/using-document-options-and-settings/"
+"weight": 31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การใช้ตัวเลือกและการตั้งค่าเอกสารใน Aspose.Words สำหรับ Java
@@ -140,7 +142,7 @@ public void addJapaneseAsEditingLanguages() throws Exception
 
 ### ฉันจะเพิ่มประสิทธิภาพเอกสารสำหรับ Word เวอร์ชันเฉพาะได้อย่างไร
 
- หากต้องการเพิ่มประสิทธิภาพเอกสารสำหรับ Word เวอร์ชันเฉพาะ ให้ใช้`optimizeFor` วิธีการและระบุเวอร์ชันที่ต้องการ ตัวอย่างเช่น หากต้องการเพิ่มประสิทธิภาพสำหรับ Word 2016:
+หากต้องการเพิ่มประสิทธิภาพเอกสารสำหรับ Word เวอร์ชันเฉพาะ ให้ใช้ `optimizeFor` วิธีการและระบุเวอร์ชันที่ต้องการ ตัวอย่างเช่น หากต้องการเพิ่มประสิทธิภาพสำหรับ Word 2016:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -165,7 +167,7 @@ doc.save("Your Directory Path" + "ShowErrors.docx");
 
 ### ฉันจะลบสไตล์ที่ซ้ำกันออกจากเอกสารได้อย่างไร
 
-หากต้องการลบรูปแบบที่ซ้ำกันออกจากเอกสาร ให้ใช้`cleanup` วิธีการด้วย`duplicateStyle` ตัวเลือกที่ตั้งไว้เป็น`true`นี่คือตัวอย่าง:
+หากต้องการลบรูปแบบที่ซ้ำกันออกจากเอกสาร ให้ใช้ `cleanup` วิธีการด้วย `duplicateStyle` ตัวเลือกที่ตั้งไว้เป็น `true`นี่คือตัวอย่าง:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -177,7 +179,7 @@ doc.save("Your Directory Path" + "CleanedDocument.docx");
 
 ### ฉันจะปรับแต่งตัวเลือกการดูเอกสารได้อย่างไร
 
- คุณสามารถปรับแต่งตัวเลือกการดูเอกสารได้โดยใช้`ViewOptions` คลาส ตัวอย่างเช่น การตั้งค่าประเภทมุมมองเป็นรูปแบบหน้าและซูมเป็น 50%:
+คุณสามารถปรับแต่งตัวเลือกการดูเอกสารได้โดยใช้ `ViewOptions` คลาส ตัวอย่างเช่น การตั้งค่าประเภทมุมมองเป็นรูปแบบหน้าและซูมเป็น 50%:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -185,9 +187,14 @@ doc.getViewOptions().setViewType(ViewType.PAGE_LAYOUT);
 doc.getViewOptions().setZoomPercent(50);
 doc.save("Your Directory Path" + "CustomView.docx");
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

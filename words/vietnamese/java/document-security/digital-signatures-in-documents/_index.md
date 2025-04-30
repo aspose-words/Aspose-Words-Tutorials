@@ -1,14 +1,16 @@
 ---
-title: Chữ ký số trong tài liệu
-linktitle: Chữ ký số trong tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách triển khai chữ ký số an toàn trong tài liệu bằng Aspose.Words cho Java. Đảm bảo tính toàn vẹn của tài liệu với hướng dẫn từng bước và mã nguồn
-weight: 13
-url: /vi/java/document-security/digital-signatures-in-documents/
+"description": "Tìm hiểu cách triển khai chữ ký số an toàn trong tài liệu bằng Aspose.Words cho Java. Đảm bảo tính toàn vẹn của tài liệu với hướng dẫn từng bước và mã nguồn"
+"linktitle": "Chữ ký số trong tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Chữ ký số trong tài liệu"
+"url": "/vi/java/document-security/digital-signatures-in-documents/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chữ ký số trong tài liệu
@@ -21,13 +23,13 @@ Trong thế giới ngày càng số hóa của chúng ta, nhu cầu về việc 
 
 Trước khi đi sâu vào chi tiết về cách thêm chữ ký số, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
-1.  Java Development Kit (JDK): Đảm bảo bạn đã cài đặt JDK trên máy của mình. Bạn có thể tải xuống từ[Trang web của Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+1. Java Development Kit (JDK): Đảm bảo bạn đã cài đặt JDK trên máy của mình. Bạn có thể tải xuống từ [Trang web của Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 
-2.  Aspose.Words cho Java: Bạn sẽ cần thư viện Aspose.Words. Bạn có thể tải xuống từ[trang phát hành](https://releases.aspose.com/words/java/).
+2. Aspose.Words cho Java: Bạn sẽ cần thư viện Aspose.Words. Bạn có thể tải xuống từ [trang phát hành](https://releases.aspose.com/words/java/).
 
 3. Trình soạn thảo mã: Sử dụng bất kỳ trình soạn thảo mã hoặc IDE nào bạn chọn (như IntelliJ IDEA, Eclipse hoặc NetBeans) để viết mã Java.
 
-4.  Chứng chỉ số: Để ký tài liệu, bạn sẽ cần chứng chỉ số ở định dạng PFX. Nếu bạn không có, bạn có thể tạo giấy phép tạm thời từ[Trang giấy phép tạm thời của Aspose](https://purchase.aspose.com/temporary-license/).
+4. Chứng chỉ số: Để ký tài liệu, bạn sẽ cần chứng chỉ số ở định dạng PFX. Nếu bạn không có, bạn có thể tạo giấy phép tạm thời từ [Trang giấy phép tạm thời của Aspose](https://purchase.aspose.com/temporary-license/).
 
 5. Kiến thức cơ bản về Java: Sự quen thuộc với lập trình Java sẽ giúp bạn hiểu được các đoạn mã mà chúng ta sẽ làm việc.
 
@@ -54,8 +56,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
--  Chúng tôi tạo ra một cái mới`Document` đối tượng đại diện cho tài liệu Word của chúng ta.
--  Các`DocumentBuilder` là một công cụ mạnh mẽ giúp chúng ta xây dựng và thao tác tài liệu dễ dàng.
+- Chúng tôi tạo ra một cái mới `Document` đối tượng đại diện cho tài liệu Word của chúng ta.
+- Các `DocumentBuilder` là một công cụ mạnh mẽ giúp chúng ta xây dựng và thao tác tài liệu dễ dàng.
 
 ## Bước 2: Cấu hình tùy chọn dòng chữ ký
 
@@ -74,7 +76,7 @@ SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
 }
 ```
  
--  Ở đây, chúng ta tạo một thể hiện của`SignatureLineOptions` và thiết lập nhiều thông số khác nhau như tên người ký, chức danh, email và hướng dẫn. Việc tùy chỉnh này đảm bảo dòng chữ ký rõ ràng và nhiều thông tin.
+- Ở đây, chúng ta tạo một thể hiện của `SignatureLineOptions` và thiết lập nhiều thông số khác nhau như tên người ký, chức danh, email và hướng dẫn. Việc tùy chỉnh này đảm bảo dòng chữ ký rõ ràng và nhiều thông tin.
 
 ## Bước 3: Chèn Dòng chữ ký
 
@@ -85,7 +87,7 @@ SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).
 signatureLine.setProviderId(UUID.fromString("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2"));
 ```
  
--  Chúng tôi sử dụng`insertSignatureLine` phương pháp của`DocumentBuilder` để thêm dòng chữ ký vào tài liệu của chúng tôi.`getSignatureLine()` phương pháp này lấy lại dòng chữ ký đã tạo, mà chúng ta có thể thao tác thêm.
+- Chúng tôi sử dụng `insertSignatureLine` phương pháp của `DocumentBuilder` để thêm dòng chữ ký vào tài liệu của chúng tôi. `getSignatureLine()` phương pháp này lấy lại dòng chữ ký đã tạo, mà chúng ta có thể thao tác thêm.
 - Chúng tôi cũng thiết lập một ID nhà cung cấp duy nhất cho dòng chữ ký, giúp xác định nhà cung cấp chữ ký.
 
 ## Bước 4: Lưu tài liệu
@@ -96,7 +98,7 @@ Trước khi ký tài liệu, chúng ta hãy lưu nó vào vị trí mong muốn
 doc.save(getArtifactsDir() + "SignDocuments.SignatureLineProviderId.docx");
 ```
  
--  Các`save` phương pháp được sử dụng để lưu tài liệu với dòng chữ ký được chèn vào. Hãy đảm bảo thay thế`getArtifactsDir()` bằng đường dẫn thực tế mà bạn muốn lưu tài liệu của mình.
+- Các `save` phương pháp được sử dụng để lưu tài liệu với dòng chữ ký được chèn vào. Hãy đảm bảo thay thế `getArtifactsDir()` với đường dẫn thực tế mà bạn muốn lưu tài liệu của mình.
 
 ## Bước 5: Cấu hình Tùy chọn Dấu hiệu
 
@@ -112,7 +114,7 @@ SignOptions signOptions = new SignOptions();
 }
 ```
  
--  Chúng tôi tạo ra một trường hợp của`SignOptions` và cấu hình nó với ID dòng chữ ký, ID nhà cung cấp, bình luận và thời gian ký hiện tại. Bước này rất quan trọng để đảm bảo rằng chữ ký được liên kết chính xác với dòng chữ ký mà chúng ta đã tạo trước đó.
+- Chúng tôi tạo ra một trường hợp của `SignOptions` và cấu hình nó với ID dòng chữ ký, ID nhà cung cấp, bình luận và thời gian ký hiện tại. Bước này rất quan trọng để đảm bảo rằng chữ ký được liên kết chính xác với dòng chữ ký mà chúng ta đã tạo trước đó.
 
 ## Bước 6: Tạo Người giữ chứng chỉ
 
@@ -122,7 +124,7 @@ SignOptions signOptions = new SignOptions();
 CertificateHolder certHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
 ```
  
--  Các`CertificateHolder.create`phương pháp này lấy đường dẫn đến tệp PFX và mật khẩu của tệp đó. Đối tượng này sẽ được sử dụng để xác thực quá trình ký.
+- Các `CertificateHolder.create` phương pháp này lấy đường dẫn đến tệp PFX và mật khẩu của tệp đó. Đối tượng này sẽ được sử dụng để xác thực quá trình ký.
 
 ## Bước 7: Ký vào tài liệu
 
@@ -133,7 +135,7 @@ DigitalSignatureUtil.sign(getArtifactsDir() + "SignDocuments.SignatureLineProvid
     getArtifactsDir() + "SignDocuments.CreateNewSignatureLineAndSetProviderId.docx", certHolder, signOptions);
 ```
  
--  Các`DigitalSignatureUtil.sign` phương pháp này lấy đường dẫn tài liệu gốc, đường dẫn cho tài liệu đã ký, người giữ chứng chỉ và các tùy chọn ký. Phương pháp này áp dụng chữ ký số cho tài liệu của bạn.
+- Các `DigitalSignatureUtil.sign` phương pháp này lấy đường dẫn tài liệu gốc, đường dẫn cho tài liệu đã ký, người giữ chứng chỉ và các tùy chọn ký. Phương pháp này áp dụng chữ ký số cho tài liệu của bạn.
 
 ## Phần kết luận
 
@@ -154,10 +156,15 @@ Có, bạn có thể sử dụng chứng chỉ tự ký, nhưng không phải t�
 Có, chữ ký số cung cấp một lớp bảo mật, đảm bảo rằng tài liệu không bị thay đổi sau khi ký.
 
 ### Tôi có thể tìm hiểu thêm về Aspose.Words ở đâu?
- Bạn có thể khám phá[Tài liệu Aspose.Words](https://reference.aspose.com/words/java/) để biết thêm chi tiết và các tính năng nâng cao.
+Bạn có thể khám phá [Tài liệu Aspose.Words](https://reference.aspose.com/words/java/) để biết thêm chi tiết và các tính năng nâng cao.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

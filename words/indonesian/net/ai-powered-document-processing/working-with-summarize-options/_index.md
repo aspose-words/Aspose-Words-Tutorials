@@ -1,14 +1,16 @@
 ---
-title: Bekerja dengan Opsi Ringkasan
-linktitle: Bekerja dengan Opsi Ringkasan
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara meringkas dokumen Word secara efektif menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami tentang mengintegrasikan model AI untuk wawasan cepat.
-weight: 10
-url: /id/net/ai-powered-document-processing/working-with-summarize-options/
+"description": "Pelajari cara meringkas dokumen Word secara efektif menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami tentang mengintegrasikan model AI untuk wawasan cepat."
+"linktitle": "Bekerja dengan Opsi Ringkasan"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Bekerja dengan Opsi Ringkasan"
+"url": "/id/net/ai-powered-document-processing/working-with-summarize-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bekerja dengan Opsi Ringkasan
@@ -21,7 +23,7 @@ Dalam hal menangani dokumen, terutama yang berukuran besar, meringkas poin-poin 
 
 Sebelum kita memulai perjalanan meringkas dokumen ini, pastikan Anda memiliki prasyarat berikut:
 
-1.  Pustaka Aspose.Words untuk .NET: Pastikan Anda telah mengunduh pustaka Aspose.Words. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Pastikan Anda telah mengunduh pustaka Aspose.Words. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan .NET: Sistem Anda harus memiliki lingkungan .NET (seperti Visual Studio). Jika Anda baru mengenal .NET, jangan khawatir; lingkungan ini cukup mudah digunakan!
 3. Pengetahuan Dasar tentang C#: Pemahaman terhadap pemrograman C# akan sangat membantu. Kita akan mengikuti beberapa langkah dalam kode, dan memahami dasar-dasarnya akan mempermudah.
 4. Kunci API untuk Model AI: Karena kita memanfaatkan model bahasa generatif untuk peringkasan, Anda memerlukan kunci API yang dapat Anda atur di lingkungan Anda.
@@ -54,7 +56,7 @@ string MyDir = "YOUR_DOCUMENT_DIRECTORY";
 string ArtifactsDir = "YOUR_ARTIFACTS_DIRECTORY"; 
 ```
 
- Pastikan untuk mengganti`"YOUR_DOCUMENT_DIRECTORY"` Dan`"YOUR_ARTIFACTS_DIRECTORY"` dengan jalur sebenarnya pada sistem Anda di mana dokumen Anda disimpan dan di mana Anda ingin menyimpan file yang diringkas.
+Pastikan untuk mengganti `"YOUR_DOCUMENT_DIRECTORY"` Dan `"YOUR_ARTIFACTS_DIRECTORY"` dengan jalur sebenarnya pada sistem Anda di mana dokumen Anda disimpan dan di mana Anda ingin menyimpan file yang diringkas.
 
 ## Langkah 2: Memuat Dokumen Anda 
 
@@ -65,7 +67,7 @@ Document firstDoc = new Document(MyDir + "Big document.docx");
 Document secondDoc = new Document(MyDir + "Document.docx");
 ```
 
-Di sini, kami memuat dua dokumen—`Big document.docx` Dan`Document.docx`Pastikan file-file ini ada di direktori yang Anda tentukan.
+Di sini, kami memuat dua dokumen—`Big document.docx` Dan `Document.docx`Pastikan file-file ini ada di direktori yang Anda tentukan.
 
 ## Langkah 3: Menyiapkan Model AI 
 
@@ -80,14 +82,14 @@ Dalam contoh ini, kami menggunakan OpenAI GPT-4 Mini. Pastikan kunci API Anda di
 
 ## Langkah 4: Merangkum Satu Dokumen
 
-Inilah bagian yang menyenangkan—meringkas! Pertama, mari kita rangkum satu dokumen. 
+Sekarang tibalah bagian yang menyenangkan—meringkas! Pertama, mari kita rangkum satu dokumen. 
 
 ```csharp
 Document oneDocumentSummary = model.Summarize(firstDoc, new SummarizeOptions() { SummaryLength = SummaryLength.Short });
 oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
 ```
 
-Di sini kami meminta model AI untuk meringkas`firstDoc` dengan panjang ringkasan yang pendek. Dokumen yang diringkas akan disimpan dalam direktori artifak yang ditentukan.
+Di sini kami meminta model AI untuk meringkas `firstDoc` dengan panjang ringkasan yang pendek. Dokumen yang diringkas akan disimpan dalam direktori artifak yang ditentukan.
 
 ## Langkah 5: Merangkum Beberapa Dokumen
 
@@ -98,13 +100,13 @@ Document multiDocumentSummary = model.Summarize(new Document[] { firstDoc, secon
 multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
 ```
 
- Dalam kasus ini, kami merangkum keduanya`firstDoc` Dan`secondDoc` dan kami menentukan panjang ringkasan yang lebih panjang. Hasil ringkasan Anda akan membantu Anda memahami ide-ide utama tanpa harus membaca setiap detailnya.
+Dalam kasus ini, kami merangkum keduanya `firstDoc` Dan `secondDoc` dan kami menentukan panjang ringkasan yang lebih panjang. Hasil ringkasan Anda akan membantu Anda memahami ide-ide utama tanpa harus membaca setiap detailnya.
 
 ## Kesimpulan
 
-Nah, itu dia! Anda telah berhasil meringkas satu atau dua dokumen menggunakan Aspose.Words untuk .NET. Langkah-langkah yang kita lalui dapat disesuaikan untuk proyek yang lebih besar, atau bahkan diotomatisasi untuk berbagai tugas pemrosesan dokumen. Ingat, meringkas dapat menghemat waktu dan tenaga Anda secara signifikan sambil tetap mempertahankan esensi dokumen Anda. 
+Nah, itu dia! Anda telah berhasil meringkas satu atau dua dokumen menggunakan Aspose.Words untuk .NET. Langkah-langkah yang kita lalui dapat disesuaikan untuk proyek yang lebih besar, atau bahkan diotomatisasi untuk berbagai tugas pemrosesan dokumen. Ingat, meringkas dapat menghemat waktu dan tenaga Anda secara signifikan sekaligus mempertahankan esensi dokumen Anda. 
 
-Ingin mencoba-coba kodenya? Silakan! Keunggulan teknologi ini adalah Anda dapat menyesuaikannya dengan kebutuhan Anda. Jangan lupa, Anda dapat menemukan lebih banyak sumber daya dan dokumentasi di[Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/) dan jika Anda mengalami masalah apa pun,[Forum dukungan Aspose](https://forum.aspose.com/c/words/8/) hanya dengan sekali klik.
+Ingin mencoba-coba kodenya? Silakan! Keunggulan teknologi ini adalah Anda dapat menyesuaikannya dengan kebutuhan Anda. Jangan lupa, Anda dapat menemukan lebih banyak sumber daya dan dokumentasi di [Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/) dan jika Anda mengalami masalah apa pun, [Forum dukungan Aspose](https://forum.aspose.com/c/words/8/) hanya dengan sekali klik.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -118,13 +120,18 @@ Aspose.Words terutama menangani dokumen Word. Untuk meringkas PDF, Anda mungkin 
 Ya, karena model AI memerlukan panggilan API yang bergantung pada koneksi internet aktif.
 
 ### Apakah ada versi uji coba Aspose.Words?
- Tentu saja! Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+Tentu saja! Anda dapat mengunduh uji coba gratis dari [Di Sini](https://releases.aspose.com/).
 
 ### Apa yang harus saya lakukan jika saya menemui masalah?
- Jika Anda menghadapi masalah atau memiliki pertanyaan, kunjungi[forum dukungan](https://forum.aspose.com/c/words/8/) untuk panduan.
+Jika Anda menghadapi masalah atau memiliki pertanyaan, kunjungi [forum dukungan](https://forum.aspose.com/c/words/8/) untuk panduan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

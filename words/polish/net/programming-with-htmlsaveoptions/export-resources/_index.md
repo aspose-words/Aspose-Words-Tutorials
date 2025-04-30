@@ -1,14 +1,16 @@
 ---
-title: Zasoby eksportowe
-linktitle: Zasoby eksportowe
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak eksportować zasoby, takie jak CSS i czcionki, zapisując dokumenty Word jako HTML za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku.
-weight: 10
-url: /pl/net/programming-with-htmlsaveoptions/export-resources/
+"description": "Dowiedz się, jak eksportować zasoby, takie jak CSS i czcionki, zapisując dokumenty Word jako HTML przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku."
+"linktitle": "Zasoby eksportowe"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zasoby eksportowe"
+"url": "/pl/net/programming-with-htmlsaveoptions/export-resources/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zasoby eksportowe
@@ -21,11 +23,11 @@ Cześć, kolego entuzjasto technologii! Jeśli kiedykolwiek musiałeś przekonwe
 
 Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć. Oto krótka lista kontrolna:
 
-1.  Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. Możesz je pobrać ze strony[Witryna internetowa Visual Studio](https://visualstudio.microsoft.com/).
-2.  Aspose.Words dla .NET: Będziesz potrzebować biblioteki Aspose.Words dla .NET. Jeśli jeszcze jej nie masz, pobierz bezpłatną wersję próbną z[Wydania Aspose](https://releases.aspose.com/words/net/) lub kup go od[Sklep Aspose](https://purchase.aspose.com/buy).
+1. Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. Możesz je pobrać ze strony [Witryna internetowa Visual Studio](https://visualstudio.microsoft.com/).
+2. Aspose.Words dla .NET: Będziesz potrzebować biblioteki Aspose.Words dla .NET. Jeśli jeszcze jej nie masz, pobierz bezpłatną wersję próbną z [Wydania Aspose](https://releases.aspose.com/words/net/) lub kup go od [Sklep Aspose](https://purchase.aspose.com/buy).
 3. Podstawowa znajomość języka C#: Podstawowa znajomość języka C# pomoże Ci zrozumieć przykłady kodu.
 
-Zrozumiałeś to wszystko? Świetnie! Przejdźmy do importowania niezbędnych przestrzeni nazw.
+Zrozumiałeś wszystko? Świetnie! Przejdźmy do importowania niezbędnych przestrzeni nazw.
 
 ## Importuj przestrzenie nazw
 
@@ -49,11 +51,11 @@ Po pierwsze, musisz określić ścieżkę do katalogu dokumentów. To jest miejs
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twojego katalogu.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twojego katalogu.
 
 ## Krok 2: Załaduj dokument Word
 
- Następnie załadujmy dokument Word, który chcesz przekonwertować na HTML. W tym samouczku użyjemy dokumentu o nazwie`Rendering.docx`.
+Następnie załadujmy dokument Word, który chcesz przekonwertować na HTML. W tym samouczku użyjemy dokumentu o nazwie `Rendering.docx`.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -63,7 +65,7 @@ Ta linia kodu ładuje dokument ze wskazanego katalogu.
 
 ## Krok 3: Skonfiguruj opcje zapisywania HTML
 
-Aby eksportować zasoby, takie jak CSS i czcionki, należy skonfigurować`HtmlSaveOptions`Ten krok jest kluczowy dla zapewnienia, że Twój wynik HTML jest dobrze ustrukturyzowany i zawiera niezbędne zasoby.
+Aby eksportować zasoby, takie jak CSS i czcionki, należy skonfigurować `HtmlSaveOptions`Ten krok jest kluczowy dla zapewnienia, że Twój wynik HTML jest dobrze ustrukturyzowany i zawiera niezbędne zasoby.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions
@@ -76,7 +78,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions
 ```
 
 Przyjrzyjmy się bliżej, co robi każda z opcji:
-- `CssStyleSheetType = CssStyleSheetType.External`: Opcja ta określa, że style CSS powinny być zapisywane w zewnętrznym arkuszu stylów.
+- `CssStyleSheetType = CssStyleSheetType.External`: Ta opcja określa, że style CSS powinny być zapisywane w zewnętrznym arkuszu stylów.
 - `ExportFontResources = true`:Umożliwia eksportowanie zasobów czcionek.
 - `ResourceFolder = dataDir + "Resources"`:Określa folder lokalny, w którym będą zapisywane zasoby (takie jak czcionki i pliki CSS).
 - `ResourceFolderAlias = "http://example.com/resources"`: Ustawia alias dla folderu zasobów, który będzie używany w pliku HTML.
@@ -93,27 +95,32 @@ Ta linijka kodu zapisuje dokument w formacie HTML wraz z wyeksportowanymi zasoba
 
 ## Wniosek
 
-masz to! Udało Ci się wyeksportować zasoby, zapisując dokument Worda jako HTML przy użyciu Aspose.Words dla .NET. Dzięki tej potężnej bibliotece programowe przetwarzanie dokumentów Worda staje się dziecinnie proste. Niezależnie od tego, czy pracujesz nad aplikacją internetową, czy po prostu musisz przekonwertować dokumenty do użytku offline, Aspose.Words Ci pomoże.
+I masz to! Udało Ci się wyeksportować zasoby, zapisując dokument Worda jako HTML przy użyciu Aspose.Words dla .NET. Dzięki tej potężnej bibliotece programowe przetwarzanie dokumentów Worda staje się dziecinnie proste. Niezależnie od tego, czy pracujesz nad aplikacją internetową, czy po prostu musisz przekonwertować dokumenty do użytku offline, Aspose.Words Ci pomoże.
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę eksportować obrazy wraz z czcionkami i CSS?
- Tak, możesz! Aspose.Words dla .NET obsługuje również eksportowanie obrazów. Upewnij się tylko, że skonfigurujesz`HtmlSaveOptions` odpowiednio.
+Tak, możesz! Aspose.Words dla .NET obsługuje również eksportowanie obrazów. Upewnij się tylko, że skonfigurujesz `HtmlSaveOptions` odpowiednio.
 
 ### Czy istnieje sposób na osadzenie CSS zamiast stosowania zewnętrznego arkusza stylów?
- Oczywiście. Możesz ustawić`CssStyleSheetType` Do`CssStyleSheetType.Embedded` jeśli wolisz osadzone style.
+Oczywiście. Możesz ustawić `CssStyleSheetType` Do `CssStyleSheetType.Embedded` jeśli wolisz osadzone style.
 
 ### Jak mogę dostosować nazwę pliku wyjściowego HTML?
- Możesz określić dowolną nazwę pliku w`doc.Save` metoda. Na przykład,`doc.Save(dataDir + "CustomFileName.html", saveOptions);`.
+Możesz określić dowolną nazwę pliku w `doc.Save` metoda. Na przykład, `doc.Save(dataDir + "CustomFileName.html", saveOptions);`.
 
 ### Czy Aspose.Words obsługuje inne formaty poza HTML?
- Tak, obsługuje różne formaty, w tym PDF, DOCX, TXT i inne. Sprawdź[dokumentacja](https://reference.aspose.com/words/net/) Aby zobaczyć pełną listę.
+Tak, obsługuje różne formaty, w tym PDF, DOCX, TXT i inne. Sprawdź [dokumentacja](https://reference.aspose.com/words/net/) Aby zobaczyć pełną listę.
 
 ### Gdzie mogę uzyskać więcej wsparcia i zasobów?
-Aby uzyskać więcej pomocy, odwiedź stronę[Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8) . Szczegółową dokumentację i przykłady można znaleźć również na[Strona internetowa Aspose](https://reference.aspose.com/words/net/).
+Aby uzyskać więcej pomocy, odwiedź stronę [Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8). Szczegółową dokumentację i przykłady można znaleźć również na [Strona internetowa Aspose](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

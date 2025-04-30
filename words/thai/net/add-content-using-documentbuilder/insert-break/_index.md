@@ -1,14 +1,16 @@
 ---
-title: การแทรกตัวแบ่งในเอกสาร Word
-linktitle: การแทรกตัวแบ่งในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแทรกเครื่องหมายแบ่งในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือโดยละเอียดนี้ เหมาะสำหรับนักพัฒนาที่ต้องการเชี่ยวชาญการจัดการเอกสาร
-weight: 10
-url: /th/net/add-content-using-documentbuilder/insert-break/
+"description": "เรียนรู้วิธีแทรกเครื่องหมายแบ่งในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือโดยละเอียดนี้ เหมาะสำหรับนักพัฒนาที่ต้องการเชี่ยวชาญการจัดการเอกสาร"
+"linktitle": "การแทรกตัวแบ่งในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การแทรกตัวแบ่งในเอกสาร Word"
+"url": "/th/net/add-content-using-documentbuilder/insert-break/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแทรกตัวแบ่งในเอกสาร Word
@@ -21,7 +23,7 @@ url: /th/net/add-content-using-documentbuilder/insert-break/
 
 ก่อนที่จะเริ่มเขียนโค้ด เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีทุกสิ่งที่จำเป็น:
 
-1.  Aspose.Words สำหรับไลบรารี .NET: คุณสามารถ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/) หากคุณเพิ่งเริ่มใช้ Aspose คุณอาจต้องการเริ่มต้นด้วย[ทดลองใช้งานฟรี](https://releases.aspose.com/).
+1. Aspose.Words สำหรับไลบรารี .NET: คุณสามารถ [ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/)หากคุณเพิ่งเริ่มใช้ Aspose คุณอาจต้องการเริ่มต้นด้วย [ทดลองใช้งานฟรี](https://releases-aspose.com/).
 2. สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE อื่น ๆ ที่เข้ากันได้กับ .NET
 3. .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework แล้ว
 4. ความรู้พื้นฐานเกี่ยวกับ C#: บทช่วยสอนนี้ถือว่าคุณมีความคุ้นเคยกับการเขียนโปรแกรม C#
@@ -40,17 +42,17 @@ using System;
 
 ## ขั้นตอนที่ 1: การตั้งค่าไดเรกทอรีเอกสาร
 
-เอาล่ะ เริ่มต้นด้วยการกำหนดเส้นทางไปยังไดเร็กทอรีเอกสารของเรา นี่คือที่ที่เอกสาร Word ของคุณจะถูกบันทึกไว้
+เอาล่ะ เริ่มต้นด้วยการกำหนดเส้นทางไปยังไดเร็กทอรีเอกสารของเรา นี่คือที่ที่เอกสาร Word ของคุณจะถูกบันทึก
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกเอกสารของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกเอกสารของคุณ
 
 ## ขั้นตอนที่ 2: การสร้างเอกสารใหม่
 
- ต่อไปเราต้องสร้างอินสแตนซ์ใหม่ของ`Document` ชั้นเรียน คิดว่านี่เป็นผืนผ้าใบเปล่าที่คุณสามารถเริ่มเพิ่มเนื้อหาของคุณได้
+ต่อไปเราต้องสร้างอินสแตนซ์ใหม่ของ `Document` ชั้นเรียน คิดว่านี่เป็นผืนผ้าใบเปล่าที่คุณสามารถเริ่มเพิ่มเนื้อหาของคุณได้
 
 ```csharp
 Document doc = new Document();
@@ -58,7 +60,7 @@ Document doc = new Document();
 
 ## ขั้นตอนที่ 3: การเริ่มต้น DocumentBuilder
 
- การ`DocumentBuilder` เป็นเหมือนแปรงทาสีของคุณ มันช่วยให้คุณเพิ่มเนื้อหาลงในเอกสารของคุณ มาเริ่มต้นกันเลย
+การ `DocumentBuilder` เปรียบเสมือนพู่กันของคุณ ช่วยให้คุณเพิ่มเนื้อหาลงในเอกสารได้ มาเริ่มต้นกันเลย
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -74,7 +76,7 @@ builder.Writeln("This is page 1.");
 
 ## ขั้นตอนที่ 5: การแทรกตัวแบ่งหน้า
 
- ตอนนี้มาถึงส่วนที่สนุกแล้ว เราต้องแทรกตัวแบ่งหน้าเพื่อไปยังหน้าถัดไป ง่ายพอๆ กับการเรียกใช้`InsertBreak` วิธี.
+ตอนนี้มาถึงส่วนที่สนุกแล้ว เราต้องแทรกตัวแบ่งหน้าเพื่อไปยังหน้าถัดไป ง่ายพอๆ กับการเรียกใช้ `InsertBreak` วิธี.
 
 ```csharp
 builder.InsertBreak(BreakType.PageBreak);
@@ -124,19 +126,24 @@ doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertBreak.docx");
 Aspose.Words สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพสำหรับการทำงานกับเอกสาร Word ด้วยโปรแกรม โดยรองรับฟีเจอร์ต่างๆ มากมาย ตั้งแต่การสร้างและแก้ไขเอกสารไปจนถึงการแปลงระหว่างรูปแบบต่างๆ
 
 ### ฉันสามารถใช้ Aspose.Words ได้ฟรีหรือไม่?
-ใช่ คุณสามารถเริ่มต้นด้วย[ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อสำรวจคุณสมบัติของมัน สำหรับการใช้งานในระยะยาว คุณสามารถ[ซื้อใบอนุญาต](https://purchase.aspose.com/buy).
+ใช่ คุณสามารถเริ่มต้นด้วย [ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อสำรวจคุณสมบัติของมัน สำหรับการใช้งานในระยะยาว คุณสามารถ [ซื้อใบอนุญาต](https://purchase-aspose.com/buy).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words ได้อย่างไร
- คุณสามารถรับการสนับสนุนได้จาก[ฟอรั่มชุมชน Aspose](https://forum.aspose.com/c/words/8)เป็นสถานที่ที่ดีในการถามคำถามและแบ่งปันประสบการณ์ของคุณ
+คุณสามารถรับการสนับสนุนได้จาก [ฟอรั่มชุมชน Aspose](https://forum.aspose.com/c/words/8)เป็นสถานที่ที่ดีในการถามคำถามและแบ่งปันประสบการณ์ของคุณ
 
 ### Aspose.Words เข้ากันได้กับ .NET Core ได้หรือไม่
 ใช่ Aspose.Words เข้ากันได้กับ .NET Core และ .NET Framework
 
 ### ฉันสามารถใช้ Aspose.Words เพื่อทำงานเอกสารที่ซับซ้อนโดยอัตโนมัติได้หรือไม่
 แน่นอน! Aspose.Words ได้รับการออกแบบมาเพื่อจัดการกับงานการจัดการเอกสารอัตโนมัติที่ซับซ้อน ทำให้เป็นเครื่องมืออันทรงพลังสำหรับนักพัฒนา
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

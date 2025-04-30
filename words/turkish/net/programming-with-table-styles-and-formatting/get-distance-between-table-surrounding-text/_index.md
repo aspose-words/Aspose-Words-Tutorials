@@ -1,14 +1,16 @@
 ---
-title: Metni Çevreleyen Tablo Arasındaki Mesafeyi Alın
-linktitle: Metni Çevreleyen Tablo Arasındaki Mesafeyi Alın
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinde bir tablo ile çevresindeki metin arasındaki mesafeyi nasıl alacağınızı öğrenin. Bu kılavuzla belge düzeninizi iyileştirin.
-weight: 10
-url: /tr/net/programming-with-table-styles-and-formatting/get-distance-between-table-surrounding-text/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinde bir tablo ile çevresindeki metin arasındaki mesafeyi nasıl alacağınızı öğrenin. Bu kılavuzla belge düzeninizi iyileştirin."
+"linktitle": "Metni Çevreleyen Tablo Arasındaki Mesafeyi Alın"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Metni Çevreleyen Tablo Arasındaki Mesafeyi Alın"
+"url": "/tr/net/programming-with-table-styles-and-formatting/get-distance-between-table-surrounding-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Metni Çevreleyen Tablo Arasındaki Mesafeyi Alın
@@ -21,7 +23,7 @@ url: /tr/net/programming-with-table-styles-and-formatting/get-distance-between-t
 
 Koda geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesinin yüklü olması gerekir. Henüz yüklü değilse, şuradan indirebilirsiniz:[Aspose Sürümleri](https://releases.aspose.com/words/net/) sayfa.
+1. Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesinin yüklü olması gerekir. Henüz yüklü değilse, şuradan indirebilirsiniz: [Aspose Sürümleri](https://releases.aspose.com/words/net/) sayfa.
 2. Geliştirme Ortamı: .NET Framework yüklü çalışan bir geliştirme ortamı. Visual Studio iyi bir seçenektir.
 3. Örnek Belge: Kodu test etmek için en az bir tablo içeren bir Word belgesi (.docx).
 
@@ -38,7 +40,7 @@ using Aspose.Words.Tables;
 
 ## Adım 1: Belgenizi Yükleyin
 
- İlk adım Word belgenizi Aspose.Words'e yüklemektir`Document` nesne. Bu nesne tüm belgeyi temsil eder.
+İlk adım Word belgenizi Aspose.Words'e yüklemektir `Document` nesne. Bu nesne tüm belgeyi temsil eder.
 
 ```csharp
 // Belge dizininize giden yol
@@ -50,7 +52,7 @@ Document doc = new Document(dataDir + "Tables.docx");
 
 ## Adım 2: Tabloya Erişim
 
- Daha sonra, belgenizdeki tabloya erişmeniz gerekir.`GetChild` metodu belgede bulunan ilk tabloyu almanızı sağlar.
+Daha sonra, belgenizdeki tabloya erişmeniz gerekir. `GetChild` metodu belgede bulunan ilk tabloyu almanızı sağlar.
 
 ```csharp
 // Belgedeki ilk tabloyu al
@@ -89,10 +91,10 @@ Console.WriteLine("Distance from Left: " + table.DistanceLeft);
 ## SSS
 
 ### Mesafeleri programlı olarak ayarlayabilir miyim?
- Evet, Aspose.Words'ü kullanarak mesafeleri programlı olarak ayarlayabilirsiniz.`DistanceTop`, `DistanceBottom`, `DistanceRight` , Ve`DistanceLeft` özellikleri`Table` nesne.
+Evet, Aspose.Words'ü kullanarak mesafeleri programlı olarak ayarlayabilirsiniz. `DistanceTop`, `DistanceBottom`, `DistanceRight`, Ve `DistanceLeft` özellikleri `Table` nesne.
 
 ### Belgemde birden fazla tablo varsa ne olur?
- Belgenin alt düğümleri arasında dolaşabilir ve aynı yöntemi her tabloya uygulayabilirsiniz.`GetChildNodes(NodeType.Table, true)` tüm tabloları almak için.
+Belgenin alt düğümleri arasında dolaşabilir ve aynı yöntemi her tabloya uygulayabilirsiniz. `GetChildNodes(NodeType.Table, true)` tüm tabloları almak için.
 
 ### Aspose.Words'ü .NET Core ile kullanabilir miyim?
 Kesinlikle! Aspose.Words .NET Core'u destekler ve aynı kodu küçük ayarlamalarla .NET Core projeleriniz için de kullanabilirsiniz.
@@ -101,10 +103,15 @@ Kesinlikle! Aspose.Words .NET Core'u destekler ve aynı kodu küçük ayarlamala
 Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla Aspose.Words for .NET'i yükleyebilirsiniz. Basitçe "Aspose.Words"ü arayın ve paketi yükleyin.
 
 ### Aspose.Words tarafından desteklenen belge türlerinde herhangi bir sınırlama var mı?
- Aspose.Words, DOCX, DOC, PDF, HTML ve daha fazlası dahil olmak üzere çok çeşitli belge biçimlerini destekler.[belgeleme](https://reference.aspose.com/words/net/) Desteklenen formatların tam listesi için.
+Aspose.Words, DOCX, DOC, PDF, HTML ve daha fazlası dahil olmak üzere çok çeşitli belge biçimlerini destekler. [belgeleme](https://reference.aspose.com/words/net/) Desteklenen formatların tam listesi için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

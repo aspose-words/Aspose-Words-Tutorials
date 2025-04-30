@@ -1,148 +1,155 @@
 ---
-title: Přidat uživatelské vlastnosti dokumentu
-linktitle: Přidat uživatelské vlastnosti dokumentu
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se přidávat vlastní vlastnosti dokumentu do souborů aplikace Word pomocí Aspose.Words for .NET. Postupujte podle našeho podrobného průvodce a vylepšete své dokumenty o další metadata.
-weight: 10
-url: /cs/net/programming-with-document-properties/add-custom-document-properties/
+"description": "Naučte se, jak přidat vlastní vlastnosti dokumentů do souborů Word pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu a vylepšete své dokumenty pomocí dalších metadat."
+"linktitle": "Přidat vlastní vlastnosti dokumentu"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Přidat vlastní vlastnosti dokumentu"
+"url": "/cs/net/programming-with-document-properties/add-custom-document-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidat uživatelské vlastnosti dokumentu
+# Přidat vlastní vlastnosti dokumentu
 
 ## Zavedení
 
-Ahoj! Ponoříte se do světa Aspose.Words pro .NET a přemýšlíte, jak do souborů aplikace Word přidat vlastní vlastnosti dokumentu? Tak to jste na správném místě! Vlastní vlastnosti mohou být neuvěřitelně užitečné pro ukládání dalších metadat, která nejsou pokryta vestavěnými vlastnostmi. Ať už se jedná o autorizaci dokumentu, přidání čísla revize nebo dokonce vložení konkrétních dat, vlastní vlastnosti vám pomohou. V tomto tutoriálu vás provedeme kroky k bezproblémovému přidání těchto vlastností pomocí Aspose.Words for .NET. Jste připraveni začít? Pojďme se ponořit!
+Ahoj! Ponořujete se do světa Aspose.Words pro .NET a zajímá vás, jak přidat vlastní vlastnosti dokumentů do souborů Word? Jste na správném místě! Vlastní vlastnosti mohou být neuvěřitelně užitečné pro ukládání dalších metadat, která nejsou pokryta vestavěnými vlastnostmi. Ať už jde o autorizaci dokumentu, přidání čísla revize nebo dokonce vložení konkrétních dat, vlastní vlastnosti vám pomohou. V tomto tutoriálu vás provedeme kroky, jak tyto vlastnosti bezproblémově přidat pomocí Aspose.Words pro .NET. Jste připraveni začít? Pojďme se do toho pustit!
 
 ## Předpoklady
 
-Než se pustíme do kódu, ujistěte se, že máte vše, co potřebujete:
+Než se pustíme do kódu, ujistěme se, že máte vše potřebné:
 
-1.  Knihovna Aspose.Words for .NET: Ujistěte se, že máte knihovnu Aspose.Words for .NET. Můžete si jej stáhnout[zde](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí: IDE jako Visual Studio.
+1. Knihovna Aspose.Words pro .NET: Ujistěte se, že máte knihovnu Aspose.Words pro .NET. Můžete si ji stáhnout [zde](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí: IDE, podobné Visual Studiu.
 3. Základní znalost C#: Tento tutoriál předpokládá, že máte základní znalosti C# a .NET.
-4.  Ukázkový dokument: Připravte si ukázkový dokument aplikace Word s názvem`Properties.docx`, kterou budete upravovat.
+4. Ukázkový dokument: Mějte připravený ukázkový dokument aplikace Word s názvem `Properties.docx`, kterou upravíte.
 
 ## Importovat jmenné prostory
 
-Než začneme kódovat, musíme naimportovat potřebné jmenné prostory. Toto je zásadní krok, který zajistí, že váš kód bude mít přístup ke všem funkcím, které Aspose.Words poskytuje.
+Než začneme s kódováním, musíme importovat potřebné jmenné prostory. To je klíčový krok k zajištění toho, aby váš kód měl přístup ke všem funkcím poskytovaným Aspose.Words.
 
 ```csharp
 using System;
 using Aspose.Words;
 ```
 
-## Krok 1: Nastavení cesty dokumentu
+## Krok 1: Nastavení cesty k dokumentu
 
- Nejprve musíme nastavit cestu k našemu dokumentu. Zde upřesníme umístění našeho`Properties.docx` soubor.
+Nejdříve musíme nastavit cestu k našemu dokumentu. Zde určíme umístění našeho `Properties.docx` soubor.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Properties.docx");
 ```
 
- V tomto úryvku nahraďte`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou k vašemu dokumentu. Tento krok je zásadní, protože umožňuje programu najít a otevřít váš soubor aplikace Word.
+V tomto úryvku nahraďte `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou k vašemu dokumentu. Tento krok je klíčový, protože umožňuje programu najít a otevřít váš soubor Word.
 
-## Krok 2: Přístup k uživatelským vlastnostem dokumentu
+## Krok 2: Přístup k vlastnostem vlastního dokumentu
 
-Dále přistoupíme k vlastním vlastnostem dokumentu dokumentu Word. Zde budou uložena všechna vaše vlastní metadata.
+Dále si přejdeme k vlastnostem vlastního dokumentu aplikace Word. Zde budou uložena všechna vaše vlastní metadata.
 
 ```csharp
 CustomDocumentProperties customDocumentProperties = doc.CustomDocumentProperties;
 ```
 
-Tímto způsobem získáme popisovač kolekce uživatelských vlastností, se kterou budeme pracovat v následujících krocích.
+Tímto způsobem získáme popisovač kolekce vlastních vlastností, se kterou budeme pracovat v následujících krocích.
 
 ## Krok 3: Kontrola existujících vlastností
 
-Před přidáním nových vlastností je dobré zkontrolovat, zda konkrétní vlastnost již neexistuje. Vyhnete se tak zbytečné duplicitě.
+Před přidáním nových vlastností je dobré zkontrolovat, zda daná vlastnost již existuje. Tím se zabrání zbytečné duplicitě.
 
 ```csharp
 if (customDocumentProperties["Authorized"] != null) return;
 ```
 
-Tento řádek zkontroluje, zda již existuje vlastnost "Authorized". Pokud ano, program metodu předčasně ukončí, aby se zabránilo přidávání duplicitních vlastností.
+Tento řádek kontroluje, zda vlastnost „Authorized“ již existuje. Pokud ano, program ukončí metodu předčasně, aby se zabránilo přidávání duplicitních vlastností.
 
 ## Krok 4: Přidání booleovské vlastnosti
 
-Nyní přidáme naši první vlastní vlastnost – booleovskou hodnotu, která označuje, zda je dokument autorizován.
+Nyní přidejme naši první uživatelskou vlastnost – booleovskou hodnotu, která označuje, zda je dokument autorizován.
 
 ```csharp
 customDocumentProperties.Add("Authorized", true);
 ```
 
- Tento řádek přidá vlastní vlastnost s názvem „Authorized“ s hodnotou`true`. Jednoduché a přímočaré!
+Tento řádek přidává vlastní vlastnost s názvem „Authorized“ s hodnotou `true`Jednoduché a přímočaré!
 
-## Krok 5: Přidání vlastnosti řetězce
+## Krok 5: Přidání vlastnosti typu String
 
-Dále přidáme další vlastní vlastnost, která určí, kdo dokument autorizoval.
+Dále přidáme další uživatelskou vlastnost, která určí, kdo dokument autorizoval.
 
 ```csharp
 customDocumentProperties.Add("Authorized By", "John Smith");
 ```
 
-Zde přidáváme vlastnost nazvanou „Authorized By“ s hodnotou „John Smith“. Neváhejte nahradit „John Smith“ jakýmkoli jiným jménem, které chcete.
+Zde přidáváme vlastnost s názvem „Authorized By“ s hodnotou „Jan Smith“. Neváhejte nahradit „Jan Smith“ jakýmkoli jiným názvem, který preferujete.
 
-## Krok 6: Přidání vlastnosti Date
+## Krok 6: Přidání vlastnosti data
 
-Pojďme přidat vlastnost pro uložení data autorizace. To pomáhá sledovat, kdy byl dokument autorizován.
+Přidejme vlastnost pro uložení data autorizace. To pomůže sledovat, kdy byl dokument autorizován.
 
 ```csharp
 customDocumentProperties.Add("Authorized Date", DateTime.Today);
 ```
 
- Tento úryvek přidá vlastnost s názvem „Authorized Date“ s aktuálním datem jako její hodnotou. The`DateTime.Today`vlastnost automaticky načte dnešní datum.
+Tento úryvek kódu přidá vlastnost s názvem „Authorized Date“ s aktuálním datem jako hodnotou. `DateTime.Today` vlastnost automaticky načte dnešní datum.
 
 ## Krok 7: Přidání čísla revize
 
-Můžeme také přidat vlastnost pro sledování čísla revize dokumentu. To je užitečné zejména pro správu verzí.
+Můžeme také přidat vlastnost pro sledování čísla revize dokumentu. To je obzvláště užitečné pro správu verzí.
 
 ```csharp
 customDocumentProperties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 ```
 
-Zde přidáváme vlastnost nazvanou "Autorizovaná revize" a přiřazujeme jí aktuální číslo revize dokumentu.
+Zde přidáváme vlastnost s názvem „Autorizovaná revize“ a přiřazujeme jí aktuální číslo revize dokumentu.
 
 ## Krok 8: Přidání číselné vlastnosti
 
-Nakonec přidáme číselnou vlastnost pro uložení autorizované částky. Může to být cokoli od rozpočtu až po částku transakce.
+Nakonec přidejme číselnou vlastnost pro uložení autorizované částky. Může to být cokoli od rozpočtové částky až po částku transakce.
 
 ```csharp
 customDocumentProperties.Add("Authorized Amount", 123.45);
 ```
 
- Tento řádek přidá vlastnost nazvanou "Autorizovaná částka" s hodnotou`123.45`. Opět platí, že toto číslo můžete nahradit libovolným číslem, které vyhovuje vašim potřebám.
+Tento řádek přidá vlastnost s názvem „Authorized Amount“ s hodnotou `123.45`Opět platí, že toto číslo můžete klidně nahradit libovolným číslem, které vyhovuje vašim potřebám.
 
 ## Závěr
 
-tady to máte! Úspěšně jste přidali vlastní vlastnosti dokumentu do dokumentu aplikace Word pomocí Aspose.Words for .NET. Tyto vlastnosti mohou být neuvěřitelně užitečné pro ukládání dalších metadat, která jsou specifická pro vaše potřeby. Ať už sledujete podrobnosti autorizace, čísla revizí nebo konkrétní částky, uživatelské vlastnosti poskytují flexibilní řešení.
+tady to máte! Úspěšně jste přidali vlastní vlastnosti dokumentu do dokumentu Word pomocí Aspose.Words pro .NET. Tyto vlastnosti mohou být neuvěřitelně užitečné pro ukládání dalších metadat, která jsou specifická pro vaše potřeby. Ať už sledujete podrobnosti o autorizaci, čísla revizí nebo konkrétní částky, vlastní vlastnosti poskytují flexibilní řešení.
 
-Pamatujte, že klíčem ke zvládnutí Aspose.Words pro .NET je praxe. Takže pokračujte v experimentování s různými vlastnostmi a uvidíte, jak mohou zlepšit vaše dokumenty. Šťastné kódování!
+Nezapomeňte, že klíčem k zvládnutí Aspose.Words pro .NET je praxe. Experimentujte tedy s různými vlastnostmi a uvidíte, jak mohou vylepšit vaše dokumenty. Přeji vám šťastné programování!
 
-## FAQ
+## Často kladené otázky
 
-### Jaké jsou vlastnosti vlastních dokumentů?
-Vlastní vlastnosti dokumentu jsou metadata, která můžete přidat do dokumentu aplikace Word a uložit tak další informace, které nepokrývají integrované vlastnosti.
+### Co jsou vlastní vlastnosti dokumentu?
+Vlastní vlastnosti dokumentu jsou metadata, která můžete přidat do dokumentu aplikace Word a uložit tak další informace, které nejsou zahrnuty ve vestavěných vlastnostech.
 
 ### Mohu přidat jiné vlastnosti než řetězce a čísla?
-Ano, můžete přidat různé typy vlastností, včetně boolean, date a dokonce i vlastních objektů.
+Ano, můžete přidat různé typy vlastností, včetně booleovských hodnot, dat a dokonce i vlastních objektů.
 
-### Jak mohu získat přístup k těmto vlastnostem v dokumentu aplikace Word?
-uživatelským vlastnostem lze přistupovat programově pomocí Aspose.Words nebo si je prohlížet přímo ve Wordu prostřednictvím vlastností dokumentu.
+### Jak mohu k těmto vlastnostem přistupovat v dokumentu Word?
+vlastním vlastnostem lze přistupovat programově pomocí Aspose.Words nebo je zobrazit přímo ve Wordu prostřednictvím vlastností dokumentu.
 
-### Je možné upravit nebo odstranit vlastní vlastnosti?
-Ano, můžete snadno upravit nebo odstranit vlastní vlastnosti pomocí podobných metod, které poskytuje Aspose.Words.
+### Je možné upravovat nebo mazat vlastní vlastnosti?
+Ano, vlastní vlastnosti můžete snadno upravovat nebo mazat pomocí podobných metod, které poskytuje Aspose.Words.
 
-### Lze uživatelské vlastnosti použít k filtrování dokumentů?
-Absolutně! Vlastní vlastnosti jsou vynikající pro kategorizaci a filtrování dokumentů na základě konkrétních metadat.
+### Lze použít vlastní vlastnosti pro filtrování dokumentů?
+Rozhodně! Vlastní vlastnosti jsou vynikající pro kategorizaci a filtrování dokumentů na základě konkrétních metadat.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

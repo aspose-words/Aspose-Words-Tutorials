@@ -1,14 +1,16 @@
 ---
-title: การใช้ Sections ใน Aspose.Words สำหรับ Java
-linktitle: การใช้ส่วนต่างๆ
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: สำรวจ Aspose.Words สำหรับ Java คำแนะนำที่ครอบคลุมเกี่ยวกับการใช้ส่วนต่างๆ เพิ่ม ลบ ผนวก โคลนส่วนต่างๆ พร้อมตัวอย่างโค้ด
-weight: 23
-url: /th/java/using-document-elements/using-sections/
+"description": "สำรวจ Aspose.Words สำหรับ Java คำแนะนำที่ครอบคลุมเกี่ยวกับการใช้ส่วนต่างๆ เพิ่ม ลบ ผนวก โคลนส่วนต่างๆ พร้อมตัวอย่างโค้ด"
+"linktitle": "การใช้ส่วนต่างๆ"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การใช้ Sections ใน Aspose.Words สำหรับ Java"
+"url": "/th/java/using-document-elements/using-sections/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การใช้ Sections ใน Aspose.Words สำหรับ Java
@@ -110,25 +112,30 @@ public void cloneSection() throws Exception {
 
 ### คำถามที่ 2: มี Aspose.Words เวอร์ชันทดลองใช้สำหรับ Java หรือไม่
 
- ใช่ คุณสามารถเข้าถึงรุ่นทดลองใช้งานฟรีของ Aspose.Words สำหรับ Java ได้[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถเข้าถึงรุ่นทดลองใช้งานฟรีของ Aspose.Words สำหรับ Java ได้ [ที่นี่](https://releases-aspose.com/).
 
 ### คำถามที่ 3: ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.Words สำหรับ Java ได้อย่างไร
 
- คุณสามารถขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Words สำหรับ Java ได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+คุณสามารถขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Words สำหรับ Java ได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### คำถามที่ 4: ฉันสามารถค้นหาการสนับสนุนสำหรับ Aspose.Words สำหรับ Java ได้ที่ไหน
 
- หากต้องการการสนับสนุนและความช่วยเหลือ คุณสามารถเยี่ยมชมฟอรัม Aspose.Words สำหรับ Java[ที่นี่](https://forum.aspose.com/).
+หากต้องการการสนับสนุนและความช่วยเหลือ คุณสามารถเยี่ยมชมฟอรัม Aspose.Words สำหรับ Java [ที่นี่](https://forum-aspose.com/).
 
 ### คำถามที่ 5: ฉันจะซื้อใบอนุญาตสำหรับ Aspose.Words สำหรับ Java ได้อย่างไร
 
- คุณสามารถซื้อใบอนุญาตสำหรับ Aspose.Words สำหรับ Java ได้[ที่นี่](https://purchase.aspose.com/buy).
+คุณสามารถซื้อใบอนุญาตสำหรับ Aspose.Words สำหรับ Java ได้ [ที่นี่](https://purchase-aspose.com/buy).
 
 เริ่มต้นใช้งาน Aspose.Words สำหรับ Java วันนี้ และปรับปรุงความสามารถในการประมวลผลเอกสารของคุณ!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

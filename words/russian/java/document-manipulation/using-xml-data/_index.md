@@ -1,14 +1,16 @@
 ---
-title: Использование XML-данных в Aspose.Words для Java
-linktitle: Использование XML-данных
-second_title: API обработки документов Java Aspose.Words
-description: Откройте для себя мощь Aspose.Words для Java. Изучите обработку XML-данных, Mail Merge и синтаксис Mustache с помощью пошаговых руководств.
-weight: 12
-url: /ru/java/document-manipulation/using-xml-data/
+"description": "Откройте для себя мощь Aspose.Words для Java. Изучите обработку XML-данных, почтовые рассылки и синтаксис Mustache с помощью пошаговых руководств."
+"linktitle": "Использование XML-данных"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Использование XML-данных в Aspose.Words для Java"
+"url": "/ru/java/document-manipulation/using-xml-data/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Использование XML-данных в Aspose.Words для Java
@@ -77,14 +79,19 @@ doc.save("Your Directory Path" + "MustacheSyntaxUsingDataSet.docx");
 
 ### Могу ли я настроить поведение обрезки для значений слияния почты?
 
- Да, вы можете контролировать, будут ли обрезаться начальные и конечные пробелы во время слияния почты, используя`doc.getMailMerge().setTrimWhitespaces(false)`.
+Да, вы можете контролировать, будут ли обрезаться начальные и конечные пробелы во время слияния почты, используя `doc.getMailMerge().setTrimWhitespaces(false)`.
 
 ### Что такое синтаксис Mustache и когда его следует использовать?
 
- Синтаксис Mustache позволяет вам более гибко форматировать поля слияния. Используйте`doc.getMailMerge().setUseNonMergeFields(true)` для включения синтаксиса Mustache.
+Синтаксис Mustache позволяет вам форматировать поля слияния почты более гибко. Используйте `doc.getMailMerge().setUseNonMergeFields(true)` для включения синтаксиса Mustache.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

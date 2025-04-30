@@ -1,45 +1,53 @@
 ---
-title: 在 Word 中建立一張線圖,使用 .NET 的 Aspose.Words
-weight: 7700
-limit: 
-description: 學習如何在Word文檔中建立行程圖表,使用 .NET的Aspose.Words. 步骤指南,提供代碼示例和圖像,以便輕鬆實現.
-keywords: [Aspose.Words for .NET, create line chart, Word document chart, .NET chart example, Word line chart, chart creation in Word, Aspose tutorial, C# Word chart example]
-url: /zh-hant/net/working-with-charts/create-chart-using-shape/
+"description": "了解如何使用 Aspose.Words for .NET 在 Word 文件中建立折線圖。具有程式碼範例和圖像的逐步指南，可輕鬆實現。"
+"title": "使用 Aspose.Words for .NET 在 Word 中建立折線圖"
+"url": "/zh-hant/net/working-with-charts/create-chart-using-shape/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用Aspose.Words在 Word 中建立一張行程表  
+# 使用 Aspose.Words 在 Word 中建立折線圖  
 
-網頁的Aspose.Words讓開發者可以輕鬆地創造具有視覺吸引力和專業性的文檔. 這份教程將您透過使用 .NET 的Aspose.Words 步骤來在Word文檔中建立一條線圖.無論您正在建立報告,儀表板或演示,嵌入動態圖表的能力都能增強您的文檔的影響. 遵循提供的簡單代碼示例,以詳細的說明,圖像和提示來確保您的項目內的連接.
+Aspose.Words for .NET 讓開發人員能夠輕鬆建立具有視覺吸引力的專業文件。本教學將引導您使用 Aspose.Words for .NET 逐步在 Word 文件中建立折線圖。無論您是建立報告、儀表板還是演示文稿，嵌入動態圖表的能力都可以增強文件的影響力。按照提供的簡單程式碼範例開始，並附上詳細的解釋、圖像和提示，以確保無縫整合到您的專案中。
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/create-chart-using-shape" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 裝置指令  
+## 安裝說明  
 
-1. 請下載Aspose.Words為 .NET:  
-   請從官員那裡獲得最新版本.[提供 .NET 下載頁面的Aspose.Words](https://releases.aspose.com/words/net/)這就是我想要的.  
+1. 下載 Aspose.Words for .NET：  
+   從官方取得最新版本 [Aspose.Words for .NET下載頁面](https://releases。aspose.com/words/net/).  
 
-2. 透過 NuGet 設置:  
-   使用 NuGet 包管理器將圖書館添加到您的項目中.  
+2. 透過 NuGet 安裝：  
+   使用 NuGet 套件管理器將庫新增至您的專案。在程式包管理器控制台中執行以下命令：  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-3. 取得許可證:  
-   * 請向其他國家提供一份報告.[暫時許可證](https://purchase.aspose.com/temporary-license/)這就是我想要的.  
-   * 請從該公司購買完整的許可證.[預購物](https://purchase.aspose.com/buy)這就是我想要的.  
+3. 取得許可證：  
+   - 如需評估，請申請 [臨時執照](https://purchase。aspose.com/temporary-license/).  
+   - 從購買完整許可證 [Aspose 商店](https://purchase。aspose.com/buy).  
 
 
-## 請見此文
-[標籤.Word為 .NET文档](https://docs.aspose.com/words/net/)
-[適用於 .NET 參考](https://reference.aspose.com/words/net/)
+## 另請參閱
+[Aspose.Word for .NET 文檔](https://docs.aspose.com/words/net/)
+[Aspose.Words for .NET 參考](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

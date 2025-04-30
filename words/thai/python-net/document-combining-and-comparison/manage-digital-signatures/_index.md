@@ -1,14 +1,16 @@
 ---
-title: การจัดการลายเซ็นดิจิทัลและความถูกต้อง
-linktitle: การจัดการลายเซ็นดิจิทัลและความถูกต้อง
-second_title: API การจัดการเอกสาร Aspose.Words Python
-description: เรียนรู้วิธีจัดการลายเซ็นดิจิทัลและรับรองความถูกต้องของเอกสารโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ
-weight: 17
-url: /th/python-net/document-combining-and-comparison/manage-digital-signatures/
+"description": "เรียนรู้วิธีจัดการลายเซ็นดิจิทัลและรับรองความถูกต้องของเอกสารโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ"
+"linktitle": "การจัดการลายเซ็นดิจิทัลและความถูกต้อง"
+"second_title": "API การจัดการเอกสาร Aspose.Words Python"
+"title": "การจัดการลายเซ็นดิจิทัลและความถูกต้อง"
+"url": "/th/python-net/document-combining-and-comparison/manage-digital-signatures/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การจัดการลายเซ็นดิจิทัลและความถูกต้อง
@@ -94,7 +96,7 @@ sign_options.sign_time = datetime.datetime.now()
 
 ### สามารถเพิ่มลายเซ็นหลายรายการลงในเอกสารเดียวได้หรือไม่
 
-ใช่ คุณสามารถเพิ่มลายเซ็นดิจิทัลหลายรายการลงในเอกสารเดียว โดยแต่ละรายการมาจากผู้ลงนามที่แตกต่างกัน
+ใช่ คุณสามารถเพิ่มลายเซ็นดิจิทัลหลายรายการลงในเอกสารเดียวได้ โดยแต่ละรายการมาจากผู้ลงนามที่แตกต่างกัน
 
 ### ใบรับรองประเภทใดบ้างที่เข้ากันได้?
 
@@ -103,9 +105,14 @@ Aspose.Words รองรับใบรับรอง X.509 รวมถึง
 ### ลายเซ็นดิจิทัลถูกต้องตามกฎหมายหรือไม่?
 
 ใช่ ลายเซ็นดิจิทัลถูกต้องตามกฎหมายในหลายประเทศ และมักถือว่าเทียบเท่ากับลายเซ็นที่เขียนด้วยลายมือ
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

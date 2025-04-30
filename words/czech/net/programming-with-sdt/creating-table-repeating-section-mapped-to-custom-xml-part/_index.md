@@ -1,26 +1,28 @@
 ---
-title: Vytvoření části opakování tabulky mapované na vlastní část XML
-linktitle: Vytvoření části opakování tabulky mapované na vlastní část XML
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak vytvořit tabulku s opakující se částí namapovanou na CustomXmlPart v dokumentu aplikace Word pomocí Aspose.Words for .NET.
-weight: 10
-url: /cs/net/programming-with-sdt/creating-table-repeating-section-mapped-to-custom-xml-part/
+"description": "Naučte se, jak vytvořit tabulku s opakující se sekcí namapovanou na CustomXmlPart v dokumentu Word pomocí Aspose.Words pro .NET."
+"linktitle": "Vytvoření opakující se sekce tabulky namapované na vlastní část XML"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Vytvoření opakující se sekce tabulky namapované na vlastní část XML"
+"url": "/cs/net/programming-with-sdt/creating-table-repeating-section-mapped-to-custom-xml-part/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvoření části opakování tabulky mapované na vlastní část XML
+# Vytvoření opakující se sekce tabulky namapované na vlastní část XML
 
 ## Zavedení
 
-V tomto tutoriálu si projdeme procesem vytváření tabulky s opakující se částí, která je mapována na vlastní XML část pomocí Aspose.Words for .NET. To je užitečné zejména pro dynamické generování dokumentů na základě strukturovaných dat.
+V tomto tutoriálu si projdeme procesem vytvoření tabulky s opakující se sekcí, která je namapována na vlastní XML část, pomocí Aspose.Words pro .NET. To je obzvláště užitečné pro dynamické generování dokumentů založených na strukturovaných datech.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte následující:
-1.  Nainstalovaná knihovna Aspose.Words for .NET. Můžete si jej stáhnout z[Aspose webové stránky](https://releases.aspose.com/words/net/).
+1. Je nainstalována knihovna Aspose.Words pro .NET. Můžete si ji stáhnout z [Webové stránky Aspose](https://releases.aspose.com/words/net/).
 2. Základní znalost C# a XML.
 
 ## Importovat jmenné prostory
@@ -33,9 +35,9 @@ using Aspose.Words.Markup;
 using Aspose.Words.Tables;
 ```
 
-## Krok 1: Inicializujte Document a DocumentBuilder
+## Krok 1: Inicializace dokumentu a DocumentBuilderu
 
- Nejprve vytvořte nový dokument a inicializujte jej`DocumentBuilder`:
+Nejprve vytvořte nový dokument a inicializujte jej `DocumentBuilder`:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -44,9 +46,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Krok 2: Přidejte vlastní část XML
+## Krok 2: Přidání vlastní XML části
 
-Přidejte do dokumentu vlastní část XML. Tento XML obsahuje data, která chceme mapovat do naší tabulky:
+Přidejte do dokumentu vlastní XML část. Tato XML část obsahuje data, která chceme namapovat do naší tabulky:
 
 ```csharp
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add("Books",
@@ -57,7 +59,7 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add("Books",
 
 ## Krok 3: Vytvořte strukturu tabulky
 
- Dále použijte`DocumentBuilder` pro vytvoření záhlaví tabulky:
+Dále použijte `DocumentBuilder` vytvoření záhlaví tabulky:
 
 ```csharp
 Table table = builder.StartTable();
@@ -69,9 +71,9 @@ builder.EndRow();
 builder.EndTable();
 ```
 
-## Krok 4: Vytvořte opakující se oddíl
+## Krok 4: Vytvořte opakující se sekci
 
- Vytvořte a`StructuredDocumentTag` (SDT) pro opakující se sekci a namapujte ji na data XML:
+Vytvořte `StructuredDocumentTag` (SDT) pro opakující se sekci a namapujte ji na data XML:
 
 ```csharp
 StructuredDocumentTag repeatingSectionSdt = new StructuredDocumentTag(doc, SdtType.RepeatingSection, MarkupLevel.Row);
@@ -79,7 +81,7 @@ repeatingSectionSdt.XmlMapping.SetMapping(xmlPart, "/books[1]/book", "");
 table.AppendChild(repeatingSectionSdt);
 ```
 
-## Krok 5: Vytvořte položku opakující se sekce
+## Krok 5: Vytvořte opakující se položku sekce
 
 Vytvořte SDT pro položku opakující se sekce a přidejte ji do opakující se sekce:
 
@@ -90,9 +92,9 @@ Row row = new Row(doc);
 repeatingSectionItemSdt.AppendChild(row);
 ```
 
-## Krok 6: Mapování dat XML na buňky tabulky
+## Krok 6: Mapování XML dat na buňky tabulky
 
-Vytvořte SDT pro název a autora, namapujte je na data XML a připojte je k řádku:
+Vytvořte SDT pro název a autora, namapujte je na data XML a přidejte je do řádku:
 
 ```csharp
 StructuredDocumentTag titleSdt = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Cell);
@@ -106,7 +108,7 @@ row.AppendChild(authorSdt);
 
 ## Krok 7: Uložte dokument
 
-Nakonec uložte dokument do určeného adresáře:
+Nakonec uložte dokument do zadaného adresáře:
 
 ```csharp
 doc.Save(dataDir + "WorkingWithSdt.CreatingTableRepeatingSectionMappedToCustomXmlPart.docx");
@@ -114,21 +116,26 @@ doc.Save(dataDir + "WorkingWithSdt.CreatingTableRepeatingSectionMappedToCustomXm
 
 ## Závěr
 
-Pomocí těchto kroků jste úspěšně vytvořili tabulku s opakující se částí mapovanou na vlastní část XML pomocí Aspose.Words for .NET. To umožňuje dynamické generování obsahu na základě strukturovaných dat, díky čemuž je tvorba dokumentů flexibilnější a výkonnější.
+Pomocí těchto kroků jste úspěšně vytvořili tabulku s opakující se sekcí namapovanou na vlastní XML část pomocí Aspose.Words pro .NET. To umožňuje dynamické generování obsahu na základě strukturovaných dat, čímž se tvorba dokumentů stává flexibilnější a efektivnější.
 
-## FAQ
+## Často kladené otázky
 
 ### Co je to StructuredDocumentTag (SDT)?
-SDT, také známý jako ovládací prvek obsahu, je ohraničená oblast v dokumentu, která se používá k obsahu strukturovaných dat.
+SDT, také známý jako ovládací prvek obsahu, je ohraničená oblast v dokumentu, která se používá k uložení strukturovaných dat.
 
 ### Mohu ve vlastní části XML použít jiné datové typy?
-Ano, svou vlastní část XML můžete strukturovat pomocí libovolných datových typů a podle toho je mapovat.
+Ano, vlastní XML část můžete strukturovat s libovolnými datovými typy a podle toho je namapovat.
 
-### Jak přidám další řádky do opakující se části?
-Opakující se část automaticky replikuje řádkovou strukturu pro každou položku v mapované cestě XML.
+### Jak přidám další řádky do opakující se sekce?
+Opakující se sekce automaticky replikuje strukturu řádků pro každou položku v mapované cestě XML.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

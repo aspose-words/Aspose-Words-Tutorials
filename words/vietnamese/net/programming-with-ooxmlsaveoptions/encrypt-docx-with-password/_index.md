@@ -1,27 +1,29 @@
 ---
-title: Mã hóa Docx bằng mật khẩu
-linktitle: Mã hóa Docx bằng mật khẩu
-second_title: API xử lý tài liệu Aspose.Words
-description: Bảo mật tài liệu Word của bạn bằng cách mã hóa chúng bằng mật khẩu sử dụng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để bảo vệ thông tin nhạy cảm của bạn.
-weight: 10
-url: /vi/net/programming-with-ooxmlsaveoptions/encrypt-docx-with-password/
+"description": "Bảo mật tài liệu Word của bạn bằng cách mã hóa chúng bằng mật khẩu sử dụng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để bảo vệ thông tin nhạy cảm của bạn."
+"linktitle": "Mã hóa Docx bằng mật khẩu"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Mã hóa Docx bằng mật khẩu"
+"url": "/vi/net/programming-with-ooxmlsaveoptions/encrypt-docx-with-password/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mã hóa Docx bằng mật khẩu
 
 ## Giới thiệu
 
-Trong thời đại kỹ thuật số ngày nay, việc bảo mật thông tin nhạy cảm trở nên quan trọng hơn bao giờ hết. Cho dù đó là tài liệu cá nhân, tệp kinh doanh hay bài báo học thuật, việc giữ cho tài liệu Word của bạn an toàn khỏi sự truy cập trái phép là rất quan trọng. Đó là lúc mã hóa phát huy tác dụng. Bằng cách mã hóa tệp DOCX bằng mật khẩu, bạn có thể đảm bảo rằng chỉ những người có mật khẩu chính xác mới có thể mở và đọc tài liệu của bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình mã hóa tệp DOCX bằng Aspose.Words cho .NET. Đừng lo lắng nếu bạn mới làm quen với điều này—hướng dẫn từng bước của chúng tôi sẽ giúp bạn dễ dàng thực hiện theo và bảo mật tệp của mình chỉ trong thời gian ngắn.
+Trong thời đại kỹ thuật số ngày nay, việc bảo mật thông tin nhạy cảm trở nên quan trọng hơn bao giờ hết. Cho dù đó là tài liệu cá nhân, tệp kinh doanh hay bài báo học thuật, việc giữ cho tài liệu Word của bạn an toàn khỏi sự truy cập trái phép là rất quan trọng. Đó là lúc mã hóa phát huy tác dụng. Bằng cách mã hóa tệp DOCX của bạn bằng mật khẩu, bạn có thể đảm bảo rằng chỉ những người có mật khẩu chính xác mới có thể mở và đọc tài liệu của bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình mã hóa tệp DOCX bằng Aspose.Words cho .NET. Đừng lo lắng nếu bạn mới làm quen với điều này—hướng dẫn từng bước của chúng tôi sẽ giúp bạn dễ dàng thực hiện theo và bảo mật tệp của mình chỉ trong thời gian ngắn.
 
 ## Điều kiện tiên quyết
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo bạn có những điều sau:
 
--  Aspose.Words cho .NET: Nếu bạn chưa tải xuống và cài đặt Aspose.Words cho .NET từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Nếu bạn chưa tải xuống và cài đặt Aspose.Words cho .NET từ [đây](https://releases.aspose.com/words/net/).
 - .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình.
 - Môi trường phát triển: Một IDE như Visual Studio sẽ giúp việc viết mã dễ dàng hơn.
 - Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu và triển khai mã.
@@ -35,21 +37,21 @@ using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Hãy chia nhỏ quy trình mã hóa tệp DOCX thành các bước dễ quản lý. Hãy làm theo và bạn sẽ mã hóa được tài liệu của mình chỉ trong chốc lát.
+Hãy chia nhỏ quy trình mã hóa tệp DOCX thành các bước dễ quản lý. Hãy làm theo và bạn sẽ mã hóa tài liệu của mình trong thời gian ngắn.
 
 ## Bước 1: Tải tài liệu
 
- Bước đầu tiên là tải tài liệu bạn muốn mã hóa. Chúng tôi sẽ sử dụng`Document` lớp từ Aspose.Words để thực hiện điều này.
+Bước đầu tiên là tải tài liệu bạn muốn mã hóa. Chúng tôi sẽ sử dụng `Document` lớp từ Aspose.Words để thực hiện điều này.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";  
 
 // Tải tài liệu
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- Trong bước này, chúng tôi chỉ định đường dẫn đến thư mục nơi tài liệu của bạn được lưu trữ.`Document` lớp sau đó được sử dụng để tải tệp DOCX từ thư mục này. Hãy đảm bảo thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
+Trong bước này, chúng tôi chỉ định đường dẫn đến thư mục nơi tài liệu của bạn được lưu trữ. `Document` lớp sau đó được sử dụng để tải tệp DOCX từ thư mục này. Hãy đảm bảo thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
 
 ## Bước 2: Cấu hình Tùy chọn Lưu
 
@@ -60,7 +62,7 @@ Tiếp theo, chúng ta cần thiết lập các tùy chọn để lưu tài li�
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Password = "password" };
 ```
 
- Các`OoxmlSaveOptions`lớp cho phép chúng ta chỉ định các tùy chọn khác nhau để lưu các tệp DOCX. Ở đây, chúng tôi thiết lập`Password`tài sản để`"password"` . Bạn có thể thay thế`"password"` bằng bất kỳ mật khẩu nào bạn chọn. Mật khẩu này sẽ được yêu cầu để mở tệp DOCX được mã hóa.
+Các `OoxmlSaveOptions` lớp cho phép chúng ta chỉ định các tùy chọn khác nhau để lưu các tệp DOCX. Ở đây, chúng tôi thiết lập `Password` tài sản để `"password"`. Bạn có thể thay thế `"password"` bằng bất kỳ mật khẩu nào bạn chọn. Mật khẩu này sẽ được yêu cầu để mở tệp DOCX được mã hóa.
 
 ## Bước 3: Lưu tài liệu đã mã hóa
 
@@ -71,7 +73,7 @@ Cuối cùng, chúng ta sẽ lưu tài liệu bằng các tùy chọn lưu đư�
 doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.EncryptDocxWithPassword.docx", saveOptions);
 ```
 
- Các`Save` phương pháp của`Document` lớp được sử dụng để lưu tài liệu. Chúng tôi cung cấp đường dẫn và tên tệp cho tài liệu được mã hóa, cùng với`saveOptions` chúng tôi đã cấu hình trước đó. Tài liệu hiện được lưu dưới dạng tệp DOCX được mã hóa.
+Các `Save` phương pháp của `Document` lớp được sử dụng để lưu tài liệu. Chúng tôi cung cấp đường dẫn và tên tệp cho tài liệu được mã hóa, cùng với `saveOptions` chúng tôi đã cấu hình trước đó. Tài liệu hiện được lưu dưới dạng tệp DOCX được mã hóa.
 
 ## Phần kết luận
 
@@ -81,7 +83,7 @@ Xin chúc mừng! Bạn đã mã hóa thành công tệp DOCX bằng Aspose.Word
 
 ### Tôi có thể sử dụng thuật toán mã hóa khác với Aspose.Words cho .NET không?
 
-Có, Aspose.Words cho .NET hỗ trợ nhiều thuật toán mã hóa khác nhau. Bạn có thể tùy chỉnh cài đặt mã hóa bằng cách sử dụng`OoxmlSaveOptions` lớp học.
+Có, Aspose.Words cho .NET hỗ trợ nhiều thuật toán mã hóa khác nhau. Bạn có thể tùy chỉnh cài đặt mã hóa bằng cách sử dụng `OoxmlSaveOptions` lớp học.
 
 ### Có thể xóa mã hóa khỏi tệp DOCX không?
 
@@ -99,9 +101,14 @@ Nếu bạn quên mật khẩu, sẽ không có cách nào để khôi phục t�
 
 Có, bạn có thể viết một tập lệnh để lặp qua nhiều tài liệu và áp dụng mã hóa cho từng tài liệu bằng các bước tương tự như trong hướng dẫn này.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

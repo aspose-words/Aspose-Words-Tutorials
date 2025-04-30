@@ -1,14 +1,16 @@
 ---
-title: Применить форматирование строк
-linktitle: Применить форматирование строк
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как применить форматирование строк в документе Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству для получения подробных инструкций.
-weight: 10
-url: /ru/net/programming-with-table-styles-and-formatting/apply-row-formatting/
+"description": "Узнайте, как применить форматирование строк в документе Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству для получения подробных инструкций."
+"linktitle": "Применить форматирование строк"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Применить форматирование строк"
+"url": "/ru/net/programming-with-table-styles-and-formatting/apply-row-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Применить форматирование строк
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-table-styles-and-formatting/apply-row-formatting/
 
 Прежде чем погрузиться в код, давайте убедимся, что у вас есть все необходимое для начала работы:
 
-1.  Aspose.Words для .NET: Убедитесь, что у вас установлена библиотека Aspose.Words. Если у вас ее нет, вы можете загрузить ее с[Страница релизов Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: Убедитесь, что у вас установлена библиотека Aspose.Words. Если у вас ее нет, вы можете загрузить ее с [Страница релизов Aspose](https://releases.aspose.com/words/net/).
 2. Среда разработки: среда разработки AC#, например Visual Studio.
 3. Базовые знания C#: знакомство с программированием на C# обязательно.
 4. Каталог документов: каталог, в котором вы сохраните свой документ.
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Шаг 2: Создайте новую таблицу
 
- Далее мы начнем новую таблицу, используя`DocumentBuilder`объект. Вот тут-то и происходит волшебство.
+Далее мы начнем новую таблицу, используя `DocumentBuilder` объект. Вот тут-то и происходит волшебство.
 
 ```csharp
 Table table = builder.StartTable();
@@ -87,7 +89,7 @@ builder.EndRow();
 builder.EndTable();
 ```
 
-## Шаг 6: Сохраните документ
+## Шаг 6: Сохраните документ.
 
 Теперь, когда наша таблица готова, пришло время сохранить документ. Укажите путь к каталогу вашего документа и сохраните файл.
 
@@ -102,22 +104,27 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx"
 ## Часто задаваемые вопросы
 
 ### Можно ли применить различное форматирование к отдельным строкам?  
- Да, вы можете настроить каждую строку индивидуально, задав различные свойства для`RowFormat`.
+Да, вы можете настроить каждую строку индивидуально, задав различные свойства для `RowFormat`.
 
 ### Как настроить ширину столбцов?  
- Вы можете задать ширину столбцов с помощью`CellFormat.Width` свойство.
+Вы можете задать ширину столбцов с помощью `CellFormat.Width` свойство.
 
 ### Возможно ли объединить ячейки в Aspose.Words для .NET?  
- Да, вы можете объединить ячейки, используя`CellMerge` собственность`CellFormat`.
+Да, вы можете объединить ячейки, используя `CellMerge` собственность `CellFormat`.
 
 ### Могу ли я добавить границы к строкам?  
- Конечно! Вы можете добавить границы к строкам, установив`Borders` собственность`RowFormat`.
+Конечно! Вы можете добавить границы к строкам, установив `Borders` собственность `RowFormat`.
 
 ### Как применить условное форматирование к строкам?  
 Вы можете использовать условную логику в своем коде, чтобы применять различное форматирование в зависимости от определенных условий.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

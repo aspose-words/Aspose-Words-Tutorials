@@ -1,14 +1,16 @@
 ---
-title: Удалить исходные заголовки и нижние колонтитулы
-linktitle: Удалить исходные заголовки и нижние колонтитулы
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как удалить верхние и нижние колонтитулы в документах Word с помощью Aspose.Words для .NET. Упростите управление документами с помощью нашего пошагового руководства.
-weight: 10
-url: /ru/net/join-and-append-documents/remove-source-headers-footers/
+"description": "Узнайте, как удалить верхние и нижние колонтитулы в документах Word с помощью Aspose.Words для .NET. Упростите управление документами с помощью нашего пошагового руководства."
+"linktitle": "Удалить исходные заголовки и нижние колонтитулы"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Удалить исходные заголовки и нижние колонтитулы"
+"url": "/ru/net/join-and-append-documents/remove-source-headers-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Удалить исходные заголовки и нижние колонтитулы
@@ -22,7 +24,7 @@ url: /ru/net/join-and-append-documents/remove-source-headers-footers/
 Прежде чем приступить к изучению руководства, убедитесь, что выполнены следующие предварительные условия:
 
 1. Среда разработки: установите Visual Studio или любую другую среду разработки .NET.
-2.  Aspose.Words for .NET: Убедитесь, что вы загрузили и установили Aspose.Words for .NET. Если нет, вы можете получить его здесь[здесь](https://releases.aspose.com/words/net/).
+2. Aspose.Words for .NET: Убедитесь, что вы загрузили и установили Aspose.Words for .NET. Если нет, вы можете получить его здесь [здесь](https://releases.aspose.com/words/net/).
 3. Базовые знания: знакомство с программированием на C# и основами .NET Framework.
 
 ## Импорт пространств имен
@@ -35,7 +37,7 @@ using Aspose.Words;
 
 ## Шаг 1: Загрузите исходный документ
 
- Во-первых, вам нужно загрузить исходный документ, из которого вы хотите удалить верхние и нижние колонтитулы. Заменить`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу документов, где находится исходный документ.
+Во-первых, вам нужно загрузить исходный документ, из которого вы хотите удалить верхние и нижние колонтитулы. Заменить `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу документов, где находится исходный документ.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -44,7 +46,7 @@ Document srcDoc = new Document(dataDir + "Document source.docx");
 
 ## Шаг 2: Создайте или загрузите целевой документ
 
- Если вы еще не создали целевой документ, в который хотите поместить измененное содержимое, вы можете создать новый`Document` объект или загрузить существующий.
+Если вы еще не создали целевой документ, в который хотите поместить измененное содержимое, вы можете создать новый `Document` объект или загрузить существующий.
 
 ```csharp
 Document dstDoc = new Document(dataDir + "Northwind traders.docx");
@@ -63,7 +65,7 @@ foreach (Section section in srcDoc.Sections)
 
 ## Шаг 4: Управление настройкой LinkToPrevious
 
-Чтобы предотвратить продолжение верхних и нижних колонтитулов в целевом документе (`dstDoc` ), убедитесь, что`LinkToPrevious` настройка для верхних и нижних колонтитулов установлена на`false`.
+Чтобы предотвратить продолжение верхних и нижних колонтитулов в целевом документе (`dstDoc`), убедитесь, что `LinkToPrevious` настройка для верхних и нижних колонтитулов установлена на `false`.
 
 ```csharp
 srcDoc.FirstSection.HeadersFooters.LinkToPrevious(false);
@@ -97,18 +99,23 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.RemoveSourceHeadersFooters.docx");
 ### Поддерживает ли Aspose.Words for .NET удаление верхних и нижних колонтитулов в нескольких документах?
 Конечно, вы можете управлять верхними и нижними колонтитулами в нескольких документах с помощью Aspose.Words для .NET.
 
-###  Что произойдет, если я забуду установить`LinkToPrevious` to `false`?
+### Что произойдет, если я забуду установить `LinkToPrevious` к `false`?
 Верхние и нижние колонтитулы исходного документа могут продолжаться в целевом документе.
 
 ### Можно ли программно удалить верхние и нижние колонтитулы, не затрагивая остальное форматирование?
 Да, Aspose.Words для .NET позволяет удалять верхние и нижние колонтитулы, сохраняя при этом остальное форматирование документа.
 
 ### Где я могу найти дополнительные ресурсы и поддержку для Aspose.Words для .NET?
- Посетите[Документация Aspose.Words для .NET](https://reference.aspose.com/words/net/) для получения подробных ссылок и примеров API.
+Посетите [Документация Aspose.Words для .NET](https://reference.aspose.com/words/net/) для получения подробных ссылок и примеров API.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

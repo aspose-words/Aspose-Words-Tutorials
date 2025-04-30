@@ -1,14 +1,16 @@
 ---
-title: Pola formularza Pobierz według nazwy
-linktitle: Pola formularza Pobierz według nazwy
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak pobierać i modyfikować pola formularzy według nazwy w dokumentach programu Word za pomocą pakietu Aspose.Words dla platformy .NET, korzystając z tego szczegółowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/working-with-formfields/form-fields-get-by-name/
+"description": "Dowiedz się, jak pobierać i modyfikować pola formularzy według nazwy w dokumentach programu Word za pomocą pakietu Aspose.Words dla platformy .NET, korzystając ze szczegółowego przewodnika krok po kroku."
+"linktitle": "Pola formularza Pobierz według nazwy"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Pola formularza Pobierz według nazwy"
+"url": "/pl/net/working-with-formfields/form-fields-get-by-name/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pola formularza Pobierz według nazwy
@@ -21,7 +23,7 @@ Czy jesteś zmęczony ręczną edycją pól formularzy w dokumentach Word? Cóż
 
 Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Biblioteka Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz ją ze strony[Tutaj](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz ją ze strony [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: dowolne środowisko programistyczne .NET, np. Visual Studio.
 3. Podstawowa znajomość języka C#: Pewna znajomość języka C# będzie pomocna, ale nie obowiązkowa.
 
@@ -111,7 +113,7 @@ doc.Save(dataDir + "ModifiedFormFields.docx");
 
 ## Wniosek
 
-masz to! Właśnie nauczyłeś się, jak pobierać i modyfikować pola formularza według nazwy za pomocą Aspose.Words dla .NET. Ta potężna biblioteka sprawia, że automatyzacja zadań przetwarzania dokumentów jest niezwykle łatwa, oszczędzając czas i wysiłek. Więc śmiało, eksperymentuj z różnymi modyfikacjami i spraw, aby Twój przepływ pracy przetwarzania dokumentów był jak najefektywniejszy!
+I masz to! Właśnie nauczyłeś się, jak pobierać i modyfikować pola formularza według nazwy za pomocą Aspose.Words dla .NET. Ta potężna biblioteka sprawia, że automatyzacja zadań przetwarzania dokumentów jest niezwykle łatwa, oszczędzając czas i wysiłek. Więc śmiało, eksperymentuj z różnymi modyfikacjami i spraw, aby Twój przepływ pracy przetwarzania dokumentów był jak najefektywniejszy!
 
 ## Najczęściej zadawane pytania
 
@@ -121,7 +123,7 @@ Tak, Aspose.Words dla .NET obsługuje wiele języków, takich jak VB.NET, a nawe
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Words dla .NET?
 
- Tak, możesz pobrać bezpłatną wersję próbną z[Tutaj](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną z [Tutaj](https://releases.aspose.com/).
 
 ### Czy mogę manipulować innymi elementami dokumentu Word oprócz pól formularza?
 
@@ -129,14 +131,19 @@ Oczywiście! Aspose.Words dla .NET pozwala manipulować szeroką gamą elementó
 
 ### Gdzie mogę uzyskać pomoc, jeśli napotkam jakieś problemy?
 
- Możesz odwiedzić[Forum wsparcia Aspose](https://forum.aspose.com/c/words/8) aby uzyskać pomoc w rozwiązaniu jakichkolwiek problemów.
+Możesz odwiedzić [Forum wsparcia Aspose](https://forum.aspose.com/c/words/8) aby uzyskać pomoc w rozwiązaniu jakichkolwiek problemów.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words dla .NET?
 
- Dostępna jest szczegółowa dokumentacja[Tutaj](https://reference.aspose.com/words/net/).
+Dostępna jest szczegółowa dokumentacja [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

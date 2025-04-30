@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Sınırsız Bölüm
-linktitle: Word Belgesinde Sınırsız Bölüm
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgenizdeki belirli bölümlerin kilidini açın. Hassas içerikleri korumak için mükemmeldir.
-weight: 10
-url: /tr/net/document-protection/unrestricted-section/
+"description": "Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgenizdeki belirli bölümlerin kilidini açın. Hassas içerikleri korumak için mükemmeldir."
+"linktitle": "Word Belgesinde Sınırsız Bölüm"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Sınırsız Bölüm"
+"url": "/tr/net/document-protection/unrestricted-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Sınırsız Bölüm
@@ -21,10 +23,10 @@ Merhaba! Aspose.Words for .NET dünyasına dalmaya hazır mısınız? Bugün, s�
 
 Ayrıntılara girmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olun:
 
--  Aspose.Words for .NET: Eğer henüz yapmadıysanız,[buradan indirin](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Eğer henüz yapmadıysanız, [buradan indirin](https://releases.aspose.com/words/net/).
 - Visual Studio: Veya herhangi bir .NET uyumlu IDE.
 - C# Temel Anlayışı: C# ile ilgili biraz bilgi sahibi olmak bu eğitimi kolayca tamamlamanıza yardımcı olacaktır.
--  Aspose Lisansı: Bir tane alın[ücretsiz deneme](https://releases.aspose.com/) veya bir tane al[geçici lisans](https://purchase.aspose.com/temporary-license/) eğer test için ihtiyacınız varsa.
+- Aspose Lisansı: Bir tane alın [ücretsiz deneme](https://releases.aspose.com/) veya bir tane al [geçici lisans](https://purchase.aspose.com/temporary-license/) eğer test için ihtiyacınız varsa.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -48,7 +50,7 @@ using Aspose.Words.Tables;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` Belgelerinizi kaydetmek istediğiniz gerçek yol ile. Bu, dosyalarınızın doğru konumda saklandığından emin olmanızı sağladığı için önemlidir.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` Belgelerinizi kaydetmek istediğiniz gerçek yol ile. Bu, dosyalarınızın doğru konumda saklandığından emin olmanızı sağladığı için önemlidir.
 
 ### Yeni Bir Belge Oluştur
 
@@ -59,42 +61,42 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- The`Document` sınıf yeni bir belge başlatır ve`DocumentBuilder` belgelerimize kolayca içerik eklememize yardımcı olur.
+The `Document` sınıf yeni bir belge başlatır ve `DocumentBuilder` belgelerimize kolayca içerik eklememize yardımcı olur.
 
 ## Adım 2: Bölümleri Ekle
 
 ### Korunmayan Bölüm Ekle
 
-Korunmasız kalacak olan ilk bölümü ekleyerek başlayalım.
+Öncelikle korumasız kalacak olan ilk bölümü ekleyelim.
 
 ```csharp
 builder.Writeln("Section 1. Unprotected.");
 ```
 
-Bu kod satırı belgeye "Bölüm 1. Korunmayan." metnini ekler. Basit, değil mi?
+Bu kod satırı belgeye "Bölüm 1. Korunmasız." metnini ekler. Basit, değil mi?
 
 ### Korunan Bölüm Ekle
 
-Şimdi ikinci bir bölüm ekleyelim ve onu birinciden ayırmak için bir bölüm sonu ekleyelim.
+Şimdi ikinci bir bölüm ekleyelim ve onu birinciden ayıracak bir bölüm sonu ekleyelim.
 
 ```csharp
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("Section 2. Protected.");
 ```
 
- The`InsertBreak` yöntemi, her bölüm için farklı ayarlar yapmamıza olanak tanıyan sürekli bir bölüm sonu ekler.
+The `InsertBreak` yöntemi, her bölüm için farklı ayarlar yapmamıza olanak tanıyan sürekli bir bölüm sonu ekler.
 
 ## Adım 3: Belgeyi Koruyun
 
 ### Belge Korumasını Etkinleştir
 
- Belgeyi korumak için şunu kullanacağız:`Protect` yöntem. Bu yöntem, aksi belirtilmediği sürece yalnızca form alanlarının düzenlenebilmesini sağlar.
+Belgeyi korumak için şunu kullanacağız: `Protect` yöntem. Bu yöntem, aksi belirtilmediği sürece yalnızca form alanlarının düzenlenebilmesini sağlar.
 
 ```csharp
 doc.Protect(ProtectionType.AllowOnlyFormFields, "password");
 ```
 
- Burada, belge bir parola ile korunmaktadır ve yalnızca form alanları düzenlenebilir. Değiştirmeyi unutmayın`"password"` İstediğiniz şifreyle.
+Burada, belge bir parola ile korunmaktadır ve yalnızca form alanları düzenlenebilir. Değiştirmeyi unutmayın `"password"` İstediğiniz şifreyle.
 
 ### Belirli Bölümün Korumasını Kaldır
 
@@ -116,7 +118,7 @@ Artık belgenizi koruma ayarlarını uygulayarak kaydetmenin zamanı geldi.
 doc.Save(dataDir + "DocumentProtection.UnrestrictedSection.docx");
 ```
 
- Bu, belgeyi belirtilen dizine şu adla kaydeder:`DocumentProtection.UnrestrictedSection.docx`.
+Bu, belgeyi belirtilen dizine şu adla kaydeder: `DocumentProtection.UnrestrictedSection.docx`.
 
 ### Belgeyi Yükle
 
@@ -141,16 +143,21 @@ Evet, ihtiyacınıza göre birden fazla bölümü seçerek koruyabilir ve koruma
 Evet, belgeyi yeniden açabilir ve koruma ayarlarını gerektiği gibi değiştirebilirsiniz.
 
 ### Aspose.Words'de başka hangi koruma türleri mevcut?
- Aspose.Words, aşağıdakiler de dahil olmak üzere çeşitli koruma türlerini destekler:`ReadOnly`, `Comments` , Ve`TrackedChanges`.
+Aspose.Words, aşağıdakiler de dahil olmak üzere çeşitli koruma türlerini destekler: `ReadOnly`, `Comments`, Ve `TrackedChanges`.
 
 ### Şifre olmadan bir belgeyi koruyabilir miyim?
 Evet, bir belgeyi şifre belirlemeden de koruyabilirsiniz.
 
 ### Bir bölümün korunduğunu nasıl kontrol edebilirim?
- Kontrol edebilirsiniz`ProtectedForForms` Bir bölümün korunup korunmadığını belirlemek için o bölümün mülkiyeti.
+Kontrol edebilirsiniz `ProtectedForForms` Bir bölümün korunup korunmadığını belirlemek için o bölümün mülkiyeti.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

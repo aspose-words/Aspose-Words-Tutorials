@@ -1,34 +1,41 @@
 ---
-title: معالجة الكلمات باستخدام OleObjects وActiveX
-linktitle: معالجة الكلمات باستخدام OleObjects وActiveX
-second_title: واجهة برمجة تطبيقات معالجة المستندات Aspose.Words
-description: تعرف على كيفية العمل مع كائنات OLE وActiveX في مستندات Word باستخدام Aspose.Words for .NET. دروس تعليمية مفصلة مع أمثلة التعليمات البرمجية.
-weight: 1080
-url: /ar/net/working-with-oleobjects-and-activex/
+"description": "تعلّم كيفية العمل مع كائنات OLE وActiveX في مستندات Word باستخدام Aspose.Words لـ .NET. دروس تعليمية مفصلة مع أمثلة برمجية."
+"linktitle": "معالجة الكلمات باستخدام OleObjects و ActiveX"
+"second_title": "واجهة برمجة تطبيقات معالجة المستندات Aspose.Words"
+"title": "معالجة الكلمات باستخدام OleObjects و ActiveX"
+"url": "/ar/net/working-with-oleobjects-and-activex/"
+"weight": 1080
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# معالجة الكلمات باستخدام OleObjects وActiveX
+# معالجة الكلمات باستخدام OleObjects و ActiveX
 
 
-تشرح لك دروس Aspose.Words for .NET حول معالجة الكلمات باستخدام كائنات OLE وActiveX الميزات والتقنيات المختلفة للتعامل بفعالية مع كائنات OLE وActiveX في مستندات Word. في هذه الدروس، ستتعلم كيفية إدراج كائنات OLE وActiveX، مثل المخططات وجداول البيانات وعناصر التحكم ActiveX، واستخراجها وتحديثها وحذفها، في مستندات Word. ستتعلم أيضًا كيفية تخصيص مظهر وسلوك هذه الكائنات، بالإضافة إلى كيفية التعامل مع الأخطاء والاستثناءات المتعلقة بكائنات OLE وActiveX.
+تُرشدك دروس Aspose.Words لـ .NET حول معالجة النصوص باستخدام كائنات OLE وActiveX إلى الميزات والتقنيات المختلفة للتعامل بفعالية مع كائنات OLE وActiveX في مستندات Word. ستتعلم في هذه الدروس كيفية إدراج كائنات OLE وActiveX، مثل المخططات وجداول البيانات وعناصر تحكم ActiveX، واستخراجها وتحديثها وحذفها، في مستندات Word. ستتعلم أيضًا كيفية تخصيص مظهر وسلوك هذه الكائنات، بالإضافة إلى كيفية معالجة الأخطاء والاستثناءات المتعلقة بها.
 
-توفر لك هذه الدروس التعليمية نهجًا عمليًا خطوة بخطوة لمعالجة الكلمات باستخدام كائنات OLE وActiveX في Aspose.Words لـ .NET. ستتعلم كيفية التعامل مع هذه الكائنات باستخدام الفئات والطرق المختلفة التي توفرها مكتبة Aspose.Words. ستساعدك أمثلة التعليمات البرمجية الواضحة والمعلقة على فهم المفاهيم المقدمة وممارستها. بفضل هذه المعرفة، ستتمكن من استغلال وظائف كائنات OLE وActiveX في مستندات Word الخاصة بك بشكل كامل، وإضافة التفاعل والثراء البصري إليها.
+تقدم لك هذه الدروس التعليمية نهجًا عمليًا خطوة بخطوة لمعالجة النصوص باستخدام كائنات OLE وActiveX في Aspose.Words لـ .NET. ستتعلم كيفية التعامل مع هذه الكائنات باستخدام الفئات والأساليب المختلفة التي توفرها مكتبة Aspose.Words. ستساعدك أمثلة التعليمات البرمجية الواضحة والمُعلّقة على فهم المفاهيم المُقدمة وتطبيقها عمليًا. بفضل هذه المعرفة، ستتمكن من الاستفادة الكاملة من وظائف كائنات OLE وActiveX في مستندات Word، مما يُضفي عليها تفاعلية وثراءً بصريًا.
 
  ## دروس تعليمية
-| عنوان | وصف |
+| العنوان | الوصف |
 | --- | --- |
-| [إدراج كائن Ole في مستند Word](./insert-ole-object/) | تعرف على كيفية إدراج كائنات OLE في مستندات Word باستخدام Aspose.Words for .NET من خلال هذا الدليل التفصيلي. قم بتحسين مستنداتك باستخدام المحتوى المضمن. |
-| [إدراج كائن Ole في Word باستخدام حزمة Ole](./insert-ole-object-with-ole-package/) | تعرف على كيفية إدراج كائنات OLE في مستندات Word باستخدام Aspose.Words for .NET. اتبع دليلنا المفصل خطوة بخطوة لتضمين الملفات بسلاسة. |
-| [إدراج كائن Ole في مستند Word كأيقونة](./insert-ole-object-as-icon/) | تعرف على كيفية إدراج كائن OLE كأيقونة في مستندات Word باستخدام Aspose.Words for .NET. اتبع دليلنا خطوة بخطوة لتحسين مستنداتك. |
-| [إدراج كائن Ole كأيقونة باستخدام Stream](./insert-ole-object-as-icon-using-stream/) | تعرف على كيفية إدراج كائن OLE كأيقونة باستخدام دفق مع Aspose.Words لـ .NET في هذا البرنامج التعليمي المفصل خطوة بخطوة. |
-| [قراءة خصائص Active XControl من ملف Word](./read-active-xcontrol-properties/) | تعرف على كيفية قراءة خصائص عناصر التحكم ActiveX من ملفات Word باستخدام Aspose.Words for .NET في دليل خطوة بخطوة. عزز مهاراتك في أتمتة المستندات. |
+| [إدراج كائن Ole في مستند Word](./insert-ole-object/) | تعلّم كيفية إدراج كائنات OLE في مستندات Word باستخدام Aspose.Words for .NET من خلال هذا الدليل المفصل. حسّن مستنداتك بمحتوى مُضمّن. |
+| [إدراج كائن Ole في Word باستخدام حزمة Ole](./insert-ole-object-with-ole-package/) | تعرّف على كيفية إدراج كائنات OLE في مستندات Word باستخدام Aspose.Words لـ .NET. اتبع دليلنا المفصل خطوة بخطوة لتضمين الملفات بسلاسة. |
+| [إدراج كائن Ole في مستند Word كأيقونة](./insert-ole-object-as-icon/) | تعلّم كيفية إدراج كائن OLE كأيقونة في مستندات Word باستخدام Aspose.Words لـ .NET. اتبع دليلنا خطوة بخطوة لتحسين مستنداتك. |
+| [إدراج كائن Ole كأيقونة باستخدام Stream](./insert-ole-object-as-icon-using-stream/) |تعرف على كيفية إدراج كائن OLE كأيقونة باستخدام دفق مع Aspose.Words لـ .NET في هذا البرنامج التعليمي المفصل خطوة بخطوة. |
+| [قراءة خصائص Active XControl من ملف Word](./read-active-xcontrol-properties/) | تعلّم كيفية قراءة خصائص عناصر تحكم ActiveX من ملفات Word باستخدام Aspose.Words لـ .NET في دليل خطوة بخطوة. حسّن مهاراتك في أتمتة المستندات. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

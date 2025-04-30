@@ -1,14 +1,16 @@
 ---
-title: Mengoptimalkan Tabel untuk Presentasi Data dalam Dokumen Word
-linktitle: Mengoptimalkan Tabel untuk Presentasi Data dalam Dokumen Word
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari cara mengoptimalkan tabel untuk penyajian data dalam dokumen Word menggunakan Aspose.Words untuk Python. Tingkatkan keterbacaan dan daya tarik visual dengan panduan langkah demi langkah dan contoh kode sumber.
-weight: 11
-url: /id/python-net/tables-and-formatting/document-tables/
+"description": "Pelajari cara mengoptimalkan tabel untuk penyajian data dalam dokumen Word menggunakan Aspose.Words untuk Python. Tingkatkan keterbacaan dan daya tarik visual dengan panduan langkah demi langkah dan contoh kode sumber."
+"linktitle": "Mengoptimalkan Tabel untuk Presentasi Data dalam Dokumen Word"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Mengoptimalkan Tabel untuk Presentasi Data dalam Dokumen Word"
+"url": "/id/python-net/tables-and-formatting/document-tables/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengoptimalkan Tabel untuk Presentasi Data dalam Dokumen Word
@@ -55,19 +57,19 @@ Setelah penyiapan selesai, sekarang kita dapat melanjutkan membuat dan mengoptim
 Tabel dibuat menggunakan kelas Table di Aspose.Words. Untuk membuat tabel, tentukan jumlah baris dan kolom yang harus ada di dalamnya. Anda juga dapat menentukan lebar tabel dan sel-selnya yang diinginkan.
 
 ```python
-# Create a table with 3 rows and 4 columns
+# Buat tabel dengan 3 baris dan 4 kolom
 table = doc.get_child(aw.NodeType.TABLE, 0, True).as_table()
 
-# Set preferred width for the table
+# Tetapkan lebar yang diinginkan untuk tabel
 table.preferred_width = doc.page_width
 ```
 
 ## Menyesuaikan Lebar Kolom:
 
- Menyesuaikan lebar kolom dengan benar memastikan bahwa konten tabel pas dan seragam. Anda dapat mengatur lebar kolom individual menggunakan`set_preferred_width` metode.
+Menyesuaikan lebar kolom dengan benar memastikan bahwa konten tabel pas dan seragam. Anda dapat mengatur lebar kolom individual menggunakan `set_preferred_width` metode.
 
 ```python
-# Set preferred width for the first column
+# Tetapkan lebar yang diinginkan untuk kolom pertama
 table.columns[0].set_preferred_width(100)
 ```
 
@@ -76,11 +78,11 @@ table.columns[0].set_preferred_width(100)
 Penggabungan sel dapat berguna untuk membuat sel header yang mencakup beberapa kolom atau baris. Sebaliknya, pemisahan sel membantu membagi sel yang digabungkan kembali ke konfigurasi aslinya.
 
 ```python
-# Merge cells in the first row
+# Gabungkan sel di baris pertama
 cell = table.rows[0].cells[0]
 cell.cell_format.horizontal_merge = CellMerge.FIRST
 
-# Split a previously merged cell
+# Memisahkan sel yang sebelumnya digabungkan
 cell.cell_format.horizontal_merge = CellMerge.NONE
 ```
 
@@ -89,22 +91,22 @@ cell.cell_format.horizontal_merge = CellMerge.NONE
 Aspose.Words menawarkan berbagai opsi gaya untuk menyempurnakan tampilan tabel. Anda dapat mengatur warna latar belakang sel, perataan teks, format font, dan banyak lagi.
 
 ```python
-# Apply bold formatting to a cell's text
+# Terapkan format tebal ke teks sel
 cell.paragraphs[0].runs[0].font.bold = True
 
-# Set background color for a cell
+# Mengatur warna latar belakang untuk sel
 cell.cell_format.shading.background_pattern_color = Color.light_gray
 ```
 
 ## Menambahkan Header dan Footer ke Tabel:
 
- Tabel dapat memperoleh manfaat dari adanya header dan footer yang menyediakan konteks atau informasi tambahan. Anda dapat menambahkan header dan footer ke tabel menggunakan`Table.title` Dan`Table.description` properti.
+Tabel dapat memperoleh manfaat dari adanya header dan footer yang menyediakan konteks atau informasi tambahan. Anda dapat menambahkan header dan footer ke tabel menggunakan `Table.title` Dan `Table.description` properti.
 
 ```python
-# Set table title (header)
+# Tetapkan judul tabel (header)
 table.title = "Sales Data 2023"
 
-# Set table description (footer)
+# Tetapkan deskripsi tabel (footer)
 table.description = "Figures are in USD."
 ```
 
@@ -113,7 +115,7 @@ table.description = "Figures are in USD."
 Dalam dokumen dengan tata letak yang bervariasi, desain tabel yang responsif menjadi sangat penting. Menyesuaikan lebar kolom dan tinggi sel berdasarkan ruang yang tersedia memastikan bahwa tabel tetap dapat dibaca dan menarik secara visual.
 
 ```python
-# Check available space and adjust column widths accordingly
+# Periksa ruang yang tersedia dan sesuaikan lebar kolom sebagaimana mestinya
 available_width = doc.page_width - doc.left_margin - doc.right_margin
 for column in table.columns:
     column.preferred_width = available_width / len(table.columns)
@@ -124,7 +126,7 @@ for column in table.columns:
 Setelah Anda mengoptimalkan tabel, saatnya menyimpan dokumen. Aspose.Words mendukung berbagai format, termasuk DOCX, PDF, dan banyak lagi.
 
 ```python
-# Save the document in DOCX format
+# Simpan dokumen dalam format DOCX
 output_path = "optimized_table.docx"
 doc.save(output_path)
 ```
@@ -153,9 +155,14 @@ Tentu saja! Aspose.Words menawarkan berbagai fitur untuk mengolah teks, format, 
 ### Bisakah saya menerapkan gaya yang berbeda pada sel individual?
 
 Ya, Anda dapat menyesuaikan gaya sel dengan menyesuaikan format font, warna latar belakang, dan perataan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

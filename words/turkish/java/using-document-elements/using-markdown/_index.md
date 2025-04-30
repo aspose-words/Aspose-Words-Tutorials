@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Markdown Kullanımı
-linktitle: Markdown Kullanımı
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Bu adım adım eğitimle Java için Aspose.Words'de Markdown kullanmayı öğrenin. Markdown belgelerini zahmetsizce oluşturun, biçimlendirin ve kaydedin.
-weight: 19
-url: /tr/java/using-document-elements/using-markdown/
+"description": "Bu adım adım eğitimle Java için Aspose.Words'de Markdown kullanmayı öğrenin. Markdown belgelerini zahmetsizce oluşturun, biçimlendirin ve kaydedin."
+"linktitle": "Markdown Kullanımı"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Markdown Kullanımı"
+"url": "/tr/java/using-document-elements/using-markdown/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Markdown Kullanımı
@@ -124,7 +126,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Paragraf için "Başlık 1" stilini belirtin.
 builder.getParagraphFormat().setStyleName("Heading 1");
 builder.writeln("Heading 1");
-//Paragraflar arasındaki stilleri birleştirmemek için önceki paragraftaki stilleri sıfırlayın.
+// Paragraflar arasındaki stilleri birleştirmemek için önceki paragraftaki stilleri sıfırlayın.
 builder.getParagraphFormat().setStyleName("Normal");
 // Yatay çizgiyi ekle.
 builder.insertHorizontalRule();
@@ -153,7 +155,7 @@ Style nestedQuote = doc.getStyles().add(StyleType.PARAGRAPH, "Quote1");
 nestedQuote.setBaseStyleName("Quote");
 builder.getParagraphFormat().setStyleName("Quote1");
 builder.writeln("A nested Quote block");
-// Alıntı bloklarını durdurmak için paragraf stilini Normal olarak sıfırlayın.
+// Alıntı bloklarını durdurmak için paragraf stilini Normal olarak sıfırlayın. 
 builder.getParagraphFormat().setStyleName("Normal");
 // İstediğiniz metin için bir Köprü metni belirtin.
 builder.getFont().setBold(true);
@@ -184,19 +186,24 @@ Bu eğitimde, Aspose.Words for Java'da Markdown kullanmanın temellerini ele ald
    Evet, Markdown belgelerini Word belgelerine veya tam tersine dönüştürmek için Aspose.Words for Java'yı kullanabilirsiniz.
 
 ### Aspose.Words for Java'yı kullanmak ücretsiz mi? 
-    Aspose.Words for Java ticari bir üründür ve kullanım için lisans gereklidir. Lisansı şuradan alabilirsiniz:[Burada](https://purchase.aspose.com/buy).
+   Aspose.Words for Java ticari bir üründür ve kullanım için lisans gereklidir. Lisansı şuradan alabilirsiniz: [Burada](https://purchase.aspose.com/buy).
 
 ### Aspose.Words for Java için herhangi bir eğitim veya doküman mevcut mu? 
-    Evet, kapsamlı eğitimler ve belgeler bulabilirsiniz[Java API Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/).
+   Evet, kapsamlı eğitimler ve belgeler bulabilirsiniz [Java API Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/).
 
 ### Aspose.Words for Java için desteği nereden alabilirim? 
-    Destek ve yardım için şu adresi ziyaret edebilirsiniz:[Aspose.Words for Java forumu](https://forum.aspose.com/).
+   Destek ve yardım için şu adresi ziyaret edebilirsiniz: [Aspose.Words for Java forumu](https://forum.aspose.com/).
 
 Artık temelleri öğrendiğinize göre, belge işleme projelerinizde Aspose.Words for Java'yı kullanmanın sonsuz olanaklarını keşfetmeye başlayabilirsiniz.
    
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

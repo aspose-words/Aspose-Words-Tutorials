@@ -1,14 +1,16 @@
 ---
-title: Eksportuj adresy URL Cid dla zasobów Mhtml
-linktitle: Eksportuj adresy URL Cid dla zasobów Mhtml
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak eksportować adresy URL Cid dla zasobów MHTML przy użyciu Aspose.Words dla .NET w tym samouczku krok po kroku. Idealne dla programistów na każdym poziomie.
-weight: 10
-url: /pl/net/programming-with-htmlsaveoptions/export-cid-urls-for-mhtml-resources/
+"description": "Dowiedz się, jak eksportować adresy URL Cid dla zasobów MHTML przy użyciu Aspose.Words dla .NET w tym samouczku krok po kroku. Idealne dla programistów na każdym poziomie."
+"linktitle": "Eksportuj adresy URL Cid dla zasobów Mhtml"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Eksportuj adresy URL Cid dla zasobów Mhtml"
+"url": "/pl/net/programming-with-htmlsaveoptions/export-cid-urls-for-mhtml-resources/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Eksportuj adresy URL Cid dla zasobów Mhtml
@@ -21,7 +23,7 @@ Czy jesteś gotowy, aby opanować sztukę eksportowania adresów URL Cid dla zas
 
 Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
--  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję Aspose.Words dla .NET. Jeśli nie, możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję Aspose.Words dla .NET. Jeśli nie, możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Środowisko programistyczne, takie jak Visual Studio.
 - Podstawowa znajomość języka C#: Chociaż przeprowadzę Cię przez każdy krok, podstawowa znajomość języka C# będzie przydatna.
 
@@ -58,7 +60,7 @@ Zdefiniuj ścieżkę do katalogu dokumentów. Tutaj znajduje się dokument Word.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twojego katalogu.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twojego katalogu.
 
 ### Krok 2.2: Załaduj dokument
 Załaduj dokument Word do projektu.
@@ -69,7 +71,7 @@ Document doc = new Document(dataDir + "Content-ID.docx");
 
 ## Krok 3: Konfigurowanie opcji zapisywania HTML
 
- Utwórz instancję`HtmlSaveOptions` aby dostosować sposób zapisywania dokumentu w formacie MHTML.
+Utwórz instancję `HtmlSaveOptions` aby dostosować sposób zapisywania dokumentu w formacie MHTML.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Mhtml)
@@ -102,19 +104,24 @@ Gratulacje! Udało Ci się wyeksportować adresy URL Cid dla zasobów MHTML przy
 Eksportowanie adresów URL Cid dla zasobów MHTML zapewnia, że osadzone zasoby w pliku MHTML będą prawidłowo odwoływane, co zwiększa przenośność i integralność dokumentu.
 
 ### Czy mogę dodatkowo dostosować format wyjściowy?
- Tak, Aspose.Words dla .NET oferuje rozbudowane opcje dostosowywania do zapisywania dokumentów. Zapoznaj się z[dokumentacja](https://reference.aspose.com/words/net/) Aby uzyskać więcej szczegółów.
+Tak, Aspose.Words dla .NET oferuje rozbudowane opcje dostosowywania do zapisywania dokumentów. Zapoznaj się z [dokumentacja](https://reference.aspose.com/words/net/) po więcej szczegółów.
 
 ### Czy potrzebuję licencji, aby używać Aspose.Words dla .NET?
- Tak, potrzebujesz licencji, aby używać Aspose.Words dla .NET. Możesz uzyskać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/) lub kup licencję[Tutaj](https://purchase.aspose.com/buy).
+Tak, potrzebujesz licencji, aby używać Aspose.Words dla .NET. Możesz uzyskać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/) lub kup licencję [Tutaj](https://purchase.aspose.com/buy).
 
 ### Czy mogę zautomatyzować ten proces dla wielu dokumentów?
 Oczywiście! Możesz utworzyć skrypt, aby zautomatyzować proces dla wielu dokumentów, wykorzystując moc Aspose.Words dla .NET do wydajnego obsługiwania operacji wsadowych.
 
 ### Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?
-Jeśli potrzebujesz wsparcia, odwiedź forum wsparcia Aspose[Tutaj](https://forum.aspose.com/c/words/8) Aby uzyskać pomoc od społeczności i deweloperów Aspose.
+Jeśli potrzebujesz wsparcia, odwiedź forum wsparcia Aspose [Tutaj](https://forum.aspose.com/c/words/8) Aby uzyskać pomoc od społeczności i deweloperów Aspose.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

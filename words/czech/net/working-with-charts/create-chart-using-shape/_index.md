@@ -1,45 +1,53 @@
 ---
-title: Vytvořte graf linií v Word pomocí Aspose.Words pro .NET
-weight: 7700
-limit: 
-description: Naučte se vytvářet graf řádků v dokumentu Word pomocí Aspose.Words pro .NET. Študení krok za krokem s příklady kódu a obrázky pro snadné implementaci.
-keywords: [Aspose.Words for .NET, create line chart, Word document chart, .NET chart example, Word line chart, chart creation in Word, Aspose tutorial, C# Word chart example]
-url: /cs/net/working-with-charts/create-chart-using-shape/
+"description": "Naučte se, jak vytvořit spojnicový graf v dokumentu Word pomocí Aspose.Words pro .NET. Podrobný návod s příklady kódu a obrázky pro snadnou implementaci."
+"title": "Vytvořte spojnicový graf ve Wordu pomocí Aspose.Words pro .NET"
+"url": "/cs/net/working-with-charts/create-chart-using-shape/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořte graf řádků v Word pomocí Aspose.Words  
+# Vytvořte spojnicový graf ve Wordu pomocí Aspose.Words  
 
-Aspose.Words pro .NET umožňuje vývojářům vytvářet vizuálně atraktivní a profesionální dokumenty snadno. Tento výukový program vás provede vytvořením řádkového grafu v dokumentu Word krok za krokem pomocí Aspose.Words pro .NET. Ať už vytváříte zprávy, palubní desky nebo prezentace, schopnost vložit dynamické grafy zvyšuje dopad vašich dokumentů.
+Aspose.Words pro .NET umožňuje vývojářům snadno vytvářet vizuálně přitažlivé a profesionální dokumenty. Tento tutoriál vás krok za krokem provede vytvořením spojnicového grafu v dokumentu Word pomocí Aspose.Words pro .NET. Ať už vytváříte sestavy, dashboardy nebo prezentace, možnost vkládat dynamické grafy zvyšuje dopad vašich dokumentů. Pro začátek postupujte podle jednoduchého příkladu kódu, doplněného podrobným vysvětlením, obrázky a tipy pro zajištění bezproblémové integrace do vašeho projektu.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/create-chart-using-shape" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Příkazy na instalaci  
+## Pokyny k instalaci  
 
 1. Stáhněte si Aspose.Words pro .NET:  
-   Získáte nejnovější verzi od oficiálního .[Aspose.Words pro stránku s stažením .NET](https://releases.aspose.com/words/net/)\- Ne , ne .  
+   Získejte nejnovější verzi z oficiálního [Stránka pro stažení Aspose.Words pro .NET](https://releases.aspose.com/words/net/).  
 
-2. Instalace prostřednictvím NuGet:  
-   Přidejte k projektu knihovnu pomocí programu NuGet Package Manager. V konzoli Package Manager běžte následující příkaz:  
+2. Instalace přes NuGet:  
+   Přidejte knihovnu do projektu pomocí Správce balíčků NuGet. Spusťte následující příkaz v konzoli Správce balíčků:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-3. Získání licence:  
-   * Pro hodnocení požádejte o [dočasná licence](https://purchase.aspose.com/temporary-license/)\- Ne , ne .  
-   * Kupte si plnou licenci od [Obchod Aspose](https://purchase.aspose.com/buy)\- Ne , ne .  
+3. Získejte licenci:  
+   - Pro vyhodnocení si vyžádejte [dočasná licence](https://purchase.aspose.com/temporary-license/).  
+   - Zakupte si plnou licenci od [Obchod Aspose](https://purchase.aspose.com/buy).  
 
 
 ## Viz také
-[Aspose.Word pro .NET dokumentaci](https://docs.aspose.com/words/net/)
-[Aspose.Word pro reference .NET](https://reference.aspose.com/words/net/)
+[Dokumentace k Aspose.Word pro .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word pro .NET reference](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

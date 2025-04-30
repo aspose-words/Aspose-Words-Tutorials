@@ -1,14 +1,16 @@
 ---
-title: Wstaw obiekt Ole do dokumentu Word jako ikonę
-linktitle: Wstaw obiekt Ole do dokumentu Word jako ikonę
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawiać obiekt OLE jako ikonę do dokumentów Worda za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ulepszyć swoje dokumenty.
-weight: 10
-url: /pl/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon/
+"description": "Dowiedz się, jak wstawić obiekt OLE jako ikonę w dokumentach Worda za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ulepszyć swoje dokumenty."
+"linktitle": "Wstaw obiekt Ole do dokumentu Word jako ikonę"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw obiekt Ole do dokumentu Word jako ikonę"
+"url": "/pl/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw obiekt Ole do dokumentu Word jako ikonę
@@ -21,7 +23,7 @@ Czy kiedykolwiek musiałeś osadzić obiekt OLE, taki jak prezentacja PowerPoint
 
 Zanim zagłębimy się w szczegóły, omówmy, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowany Aspose.Words dla .NET. Jeśli jeszcze go nie zainstalowałeś, możesz go pobrać z[Strona wydań Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowany Aspose.Words dla .NET. Jeśli jeszcze go nie zainstalowałeś, możesz go pobrać z [Strona wydań Aspose](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Potrzebujesz zintegrowanego środowiska programistycznego (IDE), takiego jak Visual Studio.
 3. Podstawowa znajomość języka C#: Przydatna będzie podstawowa znajomość programowania w języku C#.
 
@@ -49,7 +51,7 @@ Ten fragment kodu inicjuje nowy dokument programu Word i obiekt DocumentBuilder,
 
 ## Krok 2: Wstaw obiekt OLE jako ikonę
 
- Teraz wstawmy obiekt OLE jako ikonę.`InsertOleObjectAsIcon` W tym celu wykorzystywana jest metoda klasy DocumentBuilder.
+Teraz wstawmy obiekt OLE jako ikonę. `InsertOleObjectAsIcon` W tym celu wykorzystywana jest metoda klasy DocumentBuilder.
 
 ```csharp
 builder.InsertOleObjectAsIcon("path_to_your_presentation.pptx", false, "path_to_your_icon.ico", "My embedded file");
@@ -57,7 +59,7 @@ builder.InsertOleObjectAsIcon("path_to_your_presentation.pptx", false, "path_to_
 
 Przyjrzyjmy się bliżej tej metodzie:
 - `"path_to_your_presentation.pptx"`:To jest ścieżka do obiektu OLE, który chcesz osadzić.
-- `false` : Ten parametr logiczny określa, czy obiekt OLE ma być wyświetlany jako ikona. Ponieważ chcemy ikonę, ustawiamy ją na`false`.
+- `false`: Ten parametr logiczny określa, czy obiekt OLE ma być wyświetlany jako ikona. Ponieważ chcemy ikonę, ustawiamy ją na `false`.
 - `"path_to_your_icon.ico"`:To jest ścieżka do pliku ikony, którego chcesz użyć dla obiektu OLE.
 - `"My embedded file"`:To jest etykieta, która pojawi się pod ikoną.
 
@@ -83,7 +85,7 @@ Tak, możesz osadzać różne typy obiektów OLE, takie jak arkusze kalkulacyjne
 
 ### Jak mogę uzyskać bezpłatną wersję próbną Aspose.Words dla .NET?
 
- Możesz otrzymać bezpłatną wersję próbną[Strona wydań Aspose](https://releases.aspose.com/).
+Możesz otrzymać bezpłatną wersję próbną [Strona wydań Aspose](https://releases.aspose.com/).
 
 ### Czym jest obiekt OLE?
 
@@ -91,14 +93,19 @@ OLE (Object Linking and Embedding) to technologia opracowana przez firmę Micros
 
 ### Czy potrzebuję licencji, aby używać Aspose.Words dla .NET?
 
- Tak, Aspose.Words dla .NET wymaga licencji. Możesz ją kupić w[Strona zakupu Aspose](https://purchase.aspose.com/buy) lub zdobądź[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do oceny.
+Tak, Aspose.Words dla .NET wymaga licencji. Możesz ją kupić w [Strona zakupu Aspose](https://purchase.aspose.com/buy) lub zdobądź [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do oceny.
 
 ### Gdzie mogę znaleźć więcej samouczków dotyczących Aspose.Words dla .NET?
 
- Więcej samouczków i dokumentacji znajdziesz na stronie[Strona dokumentacji Aspose](https://reference.aspose.com/words/net/).
+Więcej samouczków i dokumentacji znajdziesz na stronie [Strona dokumentacji Aspose](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

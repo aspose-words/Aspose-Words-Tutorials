@@ -1,14 +1,16 @@
 ---
-title: ใช้แบบอักษรจากเครื่องเป้าหมาย
-linktitle: ใช้แบบอักษรจากเครื่องเป้าหมาย
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีใช้แบบอักษรจากเครื่องเป้าหมายในเอกสาร Word ของคุณด้วย Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการรวมแบบอักษรที่ราบรื่น
-weight: 10
-url: /th/net/programming-with-htmlfixedsaveoptions/use-font-from-target-machine/
+"description": "เรียนรู้วิธีใช้แบบอักษรจากเครื่องเป้าหมายในเอกสาร Word ของคุณด้วย Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการรวมแบบอักษรที่ราบรื่น"
+"linktitle": "ใช้แบบอักษรจากเครื่องเป้าหมาย"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ใช้แบบอักษรจากเครื่องเป้าหมาย"
+"url": "/th/net/programming-with-htmlfixedsaveoptions/use-font-from-target-machine/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ใช้แบบอักษรจากเครื่องเป้าหมาย
@@ -19,9 +21,9 @@ url: /th/net/programming-with-htmlfixedsaveoptions/use-font-from-target-machine/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะลงรายละเอียด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
+ก่อนที่เราจะลงรายละเอียด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการแล้ว:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: คุณควรมีการตั้งค่าสภาพแวดล้อมการพัฒนา .NET เช่น Visual Studio
 3. เอกสารสำหรับการทำงาน: เตรียมเอกสาร Word ไว้สำหรับการทดสอบ เราจะใช้เอกสารชื่อ "Bullet points with alternative font.docx"
 
@@ -39,7 +41,7 @@ using Aspose.Words.Saving;
 
 ## ขั้นตอนที่ 1: โหลดเอกสาร Word
 
- ขั้นตอนแรกในการสอนของเราคือการโหลดเอกสาร Word นี่คือจุดเริ่มต้นของทุกสิ่ง เราจะใช้`Document` คลาสจากไลบรารี Aspose.Words เพื่อให้บรรลุสิ่งนี้
+ขั้นตอนแรกในการสอนของเราคือการโหลดเอกสาร Word นี่คือจุดเริ่มต้นของทุกสิ่ง เราจะใช้ `Document` คลาสจากไลบรารี Aspose.Words เพื่อให้บรรลุสิ่งนี้
 
 ### ขั้นตอนที่ 1.1: กำหนดเส้นทางเอกสาร
 
@@ -52,7 +54,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 ### ขั้นตอนที่ 1.2: โหลดเอกสาร
 
- ตอนนี้เราโหลดเอกสารโดยใช้`Document` ระดับ.
+ตอนนี้เราโหลดเอกสารโดยใช้ `Document` ระดับ.
 
 ```csharp
 // โหลดเอกสาร Word
@@ -63,7 +65,7 @@ Document doc = new Document(dataDir + "Bullet points with alternative font.docx"
 
 ขั้นตอนต่อไปคือการกำหนดค่าตัวเลือกการบันทึก ซึ่งถือเป็นขั้นตอนที่สำคัญมาก เนื่องจากขั้นตอนนี้จะช่วยให้แน่ใจว่าแบบอักษรที่ใช้ในเอกสารของคุณเป็นแบบอักษรจากเครื่องเป้าหมาย
 
- เราจะสร้างอินสแตนซ์ของ`HtmlFixedSaveOptions` และตั้งค่า`UseTargetMachineFonts`ทรัพย์สินที่จะ`true`.
+เราจะสร้างอินสแตนซ์ของ `HtmlFixedSaveOptions` และตั้งค่า `UseTargetMachineFonts` ทรัพย์สินที่จะ `true`-
 
 ```csharp
 // กำหนดค่าตัวเลือกการสำรองข้อมูลด้วยคุณสมบัติ "ใช้แบบอักษรจากเครื่องเป้าหมาย"
@@ -77,7 +79,7 @@ HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions
 
 ในที่สุด เราก็บันทึกเอกสารเป็นไฟล์ HTML ถาวร นี่คือจุดที่ความมหัศจรรย์เกิดขึ้น!
 
- เราจะใช้`Save` วิธีการบันทึกเอกสารด้วยตัวเลือกการบันทึกที่กำหนดไว้
+เราจะใช้ `Save` วิธีการบันทึกเอกสารด้วยตัวเลือกการบันทึกที่กำหนดค่าไว้
 
 ```csharp
 // แปลงเอกสารเป็น HTML คงที่
@@ -99,7 +101,7 @@ System.Diagnostics.Process.Start(dataDir + "WorkingWithHtmlFixedSaveOptions.UseF
 
 ## บทสรุป
 
-การใช้แบบอักษรจากเครื่องเป้าหมายช่วยให้เอกสาร Word ของคุณดูสอดคล้องและเป็นมืออาชีพ ไม่ว่าจะดูจากที่ใดก็ตาม Aspose.Words สำหรับ .NET ทำให้กระบวนการนี้ตรงไปตรงมาและมีประสิทธิภาพ เมื่อทำตามบทช่วยสอนนี้ คุณจะเรียนรู้วิธีโหลดเอกสาร กำหนดค่าตัวเลือกการบันทึก และบันทึกเอกสารด้วยการตั้งค่าแบบอักษรที่ต้องการ ขอให้สนุกกับการเขียนโค้ด!
+การใช้แบบอักษรจากเครื่องเป้าหมายช่วยให้เอกสาร Word ของคุณดูสม่ำเสมอและเป็นมืออาชีพ ไม่ว่าจะดูจากที่ใดก็ตาม Aspose.Words สำหรับ .NET ทำให้กระบวนการนี้ตรงไปตรงมาและมีประสิทธิภาพ เมื่อทำตามบทช่วยสอนนี้ คุณจะเรียนรู้วิธีโหลดเอกสาร กำหนดค่าตัวเลือกการบันทึก และบันทึกเอกสารด้วยการตั้งค่าแบบอักษรที่ต้องการ ขอให้สนุกกับการเขียนโค้ด!
 
 ## คำถามที่พบบ่อย
 
@@ -110,17 +112,22 @@ System.Diagnostics.Process.Start(dataDir + "WorkingWithHtmlFixedSaveOptions.UseF
 หากเครื่องเป้าหมายไม่มีแบบอักษรที่ต้องการ เอกสารอาจไม่แสดงผลตามที่ต้องการ การฝังแบบอักษรเมื่อจำเป็นถือเป็นความคิดที่ดีเสมอ
 
 ### ฉันจะฝังแบบอักษรในเอกสารได้อย่างไร?
- การฝังแบบอักษรสามารถทำได้โดยใช้`FontSettings` คลาสใน Aspose.Words สำหรับ .NET ดูที่[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายละเอียดเพิ่มเติม
+การฝังแบบอักษรสามารถทำได้โดยใช้ `FontSettings` คลาสใน Aspose.Words สำหรับ .NET ดูที่ [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายละเอียดเพิ่มเติม
 
 ### มีวิธีดูตัวอย่างเอกสารก่อนบันทึกหรือไม่
- ใช่คุณสามารถใช้`DocumentRenderer` คลาสเพื่อดูตัวอย่างเอกสารก่อนบันทึก ดู Aspose.Words สำหรับ .NET[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับข้อมูลเพิ่มเติม
+ใช่คุณสามารถใช้ `DocumentRenderer` คลาสเพื่อดูตัวอย่างเอกสารก่อนบันทึก ดู Aspose.Words สำหรับ .NET [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับข้อมูลเพิ่มเติม
 
 ### ฉันสามารถปรับแต่งเอาต์พุต HTML เพิ่มเติมได้หรือไม่
- แน่นอน!`HtmlFixedSaveOptions` คลาสมีคุณสมบัติต่างๆ เพื่อปรับแต่งผลลัพธ์ HTML สำรวจ[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับตัวเลือกที่มีทั้งหมด
+แน่นอน! `HtmlFixedSaveOptions` คลาสมีคุณสมบัติต่างๆ เพื่อปรับแต่งผลลัพธ์ HTML สำรวจ [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับตัวเลือกที่มีทั้งหมด
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

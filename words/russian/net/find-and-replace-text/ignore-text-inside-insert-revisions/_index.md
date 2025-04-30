@@ -1,14 +1,16 @@
 ---
-title: Игнорировать текст внутри Вставить изменения
-linktitle: Игнорировать текст внутри Вставить изменения
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как эффективно управлять ревизиями документов с помощью Aspose.Words для .NET. Узнайте о методах игнорирования текста внутри вставок ревизий для упрощенного редактирования.
-weight: 10
-url: /ru/net/find-and-replace-text/ignore-text-inside-insert-revisions/
+"description": "Узнайте, как эффективно управлять ревизиями документов с помощью Aspose.Words для .NET. Узнайте о методах игнорирования текста внутри вставок ревизий для упрощенного редактирования."
+"linktitle": "Игнорировать текст внутри Вставить изменения"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Игнорировать текст внутри Вставить изменения"
+"url": "/ru/net/find-and-replace-text/ignore-text-inside-insert-revisions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Игнорировать текст внутри Вставить изменения
@@ -86,7 +88,7 @@ doc.Range.Replace(regex, "*", options);
 ## Часто задаваемые вопросы
 
 ### Как начать отслеживать изменения в документе Word с помощью Aspose.Words для .NET?
- Чтобы начать отслеживать изменения, используйте`doc.StartTrackRevisions(author, date)` метод.
+Чтобы начать отслеживать изменения, используйте `doc.StartTrackRevisions(author, date)` метод.
 
 ### В чем преимущество игнорирования вставленного текста в редакции документа?
 Игнорирование вставленного текста помогает сосредоточиться на основном контенте и эффективно управлять изменениями документа.
@@ -95,13 +97,18 @@ doc.Range.Replace(regex, "*", options);
 Да, вы можете вернуть проигнорированный вставленный текст, используя соответствующие настройки FindReplaceOptions.
 
 ### Где я могу найти дополнительную документацию по Aspose.Words для .NET?
- Посетите[Документация Aspose.Words для .NET](https://reference.aspose.com/words/net/) для получения подробных руководств и ссылок на API.
+Посетите [Документация Aspose.Words для .NET](https://reference.aspose.com/words/net/) для получения подробных руководств и ссылок на API.
 
 ### Существует ли форум сообщества для обсуждения вопросов, связанных с Aspose.Words for .NET?
- Да, вы можете посетить[Форум Aspose.Words](https://forum.aspose.com/c/words/8) для поддержки сообщества и обсуждений.
+Да, вы можете посетить [Форум Aspose.Words](https://forum.aspose.com/c/words/8) для поддержки сообщества и обсуждений.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

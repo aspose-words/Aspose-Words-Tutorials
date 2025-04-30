@@ -1,14 +1,16 @@
 ---
-title: Menemukan Indeks
-linktitle: Menemukan Indeks
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menemukan indeks tabel, baris, dan sel dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini.
-weight: 10
-url: /id/net/programming-with-tables/finding-index/
+"description": "Pelajari cara menemukan indeks tabel, baris, dan sel dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini."
+"linktitle": "Menemukan Indeks"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Menemukan Indeks"
+"url": "/id/net/programming-with-tables/finding-index/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menemukan Indeks
@@ -21,7 +23,7 @@ Bekerja dengan tabel dalam dokumen Word terkadang terasa seperti menavigasi labi
 
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-- Aspose.Words untuk .NET: Pastikan Anda telah menginstal versi terbaru. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda telah menginstal versi terbaru. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Visual Studio atau IDE lain pilihan Anda.
 - Pengetahuan Dasar C#: Tutorial ini mengasumsikan Anda memiliki pemahaman dasar tentang C#.
 
@@ -41,7 +43,7 @@ Mari kita uraikan prosesnya menjadi beberapa langkah yang mudah dikelola. Kami a
 Pertama, Anda perlu memuat dokumen Word yang berisi tabel yang sedang Anda kerjakan. Di sinilah Anda menentukan jalur ke direktori dokumen Anda.
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
@@ -66,7 +68,7 @@ Console.WriteLine("\nTable index is " + tableIndex);
 
 ## Langkah 4: Temukan Indeks Baris Terakhir
 
- Untuk menemukan baris terakhir tabel, kita menggunakan`LastRow` properti. Ini berguna saat Anda perlu memanipulasi atau mengambil data dari baris terakhir.
+Untuk menemukan baris terakhir tabel, kita menggunakan `LastRow` properti. Ini berguna saat Anda perlu memanipulasi atau mengambil data dari baris terakhir.
 
 ```csharp
 int rowIndex = table.IndexOf(table.LastRow);
@@ -103,9 +105,14 @@ Aspose.Words dapat menangani sejumlah besar tabel, tetapi kinerjanya dapat berva
 
 ### Bisakah saya mengubah properti sel tertentu menggunakan indeksnya?
 Ya, setelah Anda memiliki indeks sel, Anda dapat dengan mudah mengubah propertinya seperti teks, pemformatan, dan lainnya.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

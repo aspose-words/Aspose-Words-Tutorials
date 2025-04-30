@@ -1,14 +1,16 @@
 ---
-title: ตัวเลือกการออมขั้นสูงด้วย Aspose.Words สำหรับ Java
-linktitle: การบันทึกเอกสารในรูปแบบต่างๆด้วย
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้การจัดการเอกสารขั้นสูงด้วย Aspose.Words สำหรับ Java เข้ารหัส จัดการเมตาไฟล์ และอื่นๆ เอกสาร Word ของคุณ ในแบบของคุณ
-weight: 14
-url: /th/java/document-loading-and-saving/advance-saving-options/
+"description": "เรียนรู้การจัดการเอกสารขั้นสูงด้วย Aspose.Words สำหรับ Java เข้ารหัส จัดการเมตาไฟล์ และอื่นๆ เอกสาร Word ของคุณ ในแบบของคุณ"
+"linktitle": "การบันทึกเอกสารในรูปแบบต่างๆด้วย"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "ตัวเลือกการออมขั้นสูงด้วย Aspose.Words สำหรับ Java"
+"url": "/th/java/document-loading-and-saving/advance-saving-options/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตัวเลือกการออมขั้นสูงด้วย Aspose.Words สำหรับ Java
@@ -119,15 +121,15 @@ public void doNotSavePictureBullet() throws Exception {
 
 ### 1. Aspose.Words สำหรับ Java เป็นไลบรารีฟรีหรือไม่?
 
- ไม่ Aspose.Words สำหรับ Java เป็นไลบรารีเชิงพาณิชย์ คุณสามารถค้นหารายละเอียดใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy).
+ไม่ Aspose.Words สำหรับ Java เป็นไลบรารีเชิงพาณิชย์ คุณสามารถค้นหารายละเอียดใบอนุญาตได้ [ที่นี่](https://purchase-aspose.com/buy).
 
 ### 2. ฉันจะได้รับรุ่นทดลองใช้งาน Aspose.Words สำหรับ Java ฟรีได้อย่างไร
 
-คุณสามารถรับรุ่นทดลองใช้ Aspose.Words สำหรับ Java ได้ฟรี[ที่นี่](https://releases.aspose.com/).
+คุณสามารถรับรุ่นทดลองใช้ Aspose.Words สำหรับ Java ได้ฟรี [ที่นี่](https://releases-aspose.com/).
 
 ### 3. ฉันสามารถค้นหาการสนับสนุนสำหรับ Aspose.Words สำหรับ Java ได้ที่ไหน
 
- สำหรับการสนับสนุนและการหารือของชุมชน โปรดไปที่[ฟอรั่ม Aspose.Words สำหรับ Java](https://forum.aspose.com/).
+สำหรับการสนับสนุนและการหารือของชุมชน โปรดไปที่ [ฟอรั่ม Aspose.Words สำหรับ Java](https://forum-aspose.com/).
 
 ### 4. ฉันสามารถใช้ Aspose.Words สำหรับ Java ร่วมกับไลบรารี Java อื่นๆ ได้หรือไม่
 
@@ -135,13 +137,18 @@ public void doNotSavePictureBullet() throws Exception {
 
 ### 5. มีตัวเลือกใบอนุญาตชั่วคราวหรือไม่?
 
- ใช่ คุณสามารถขอใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ใช่ คุณสามารถขอใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 เริ่มต้นใช้งาน Aspose.Words สำหรับ Java วันนี้ และปลดล็อกศักยภาพเต็มรูปแบบของการจัดการเอกสารในแอปพลิเคชัน Java ของคุณ
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

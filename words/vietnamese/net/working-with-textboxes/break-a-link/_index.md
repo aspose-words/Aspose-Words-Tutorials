@@ -1,14 +1,16 @@
 ---
-title: Ngắt liên kết chuyển tiếp trong tài liệu Word
-linktitle: Ngắt liên kết chuyển tiếp trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách ngắt liên kết chuyển tiếp trong hộp văn bản tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn của chúng tôi để có trải nghiệm quản lý tài liệu mượt mà hơn.
-weight: 10
-url: /vi/net/working-with-textboxes/break-a-link/
+"description": "Tìm hiểu cách ngắt liên kết chuyển tiếp trong hộp văn bản tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn của chúng tôi để có trải nghiệm quản lý tài liệu mượt mà hơn."
+"linktitle": "Ngắt liên kết chuyển tiếp trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Ngắt liên kết chuyển tiếp trong tài liệu Word"
+"url": "/vi/net/working-with-textboxes/break-a-link/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ngắt liên kết chuyển tiếp trong tài liệu Word
@@ -22,7 +24,7 @@ Xin chào, các nhà phát triển và những người đam mê tài liệu! �
 
 Trước khi bắt đầu, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Thư viện Aspose.Words cho .NET: Đảm bảo bạn có phiên bản mới nhất.[Tải xuống tại đây](https://releases.aspose.com/words/net/).
+1. Thư viện Aspose.Words cho .NET: Đảm bảo bạn có phiên bản mới nhất. [Tải xuống tại đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Môi trường phát triển tương thích với .NET như Visual Studio.
 3. Kiến thức cơ bản về C#: Hiểu cú pháp C# cơ bản sẽ rất hữu ích.
 4. Mẫu tài liệu Word: Mặc dù chúng ta sẽ tạo một tài liệu từ đầu, nhưng việc có mẫu có thể có lợi cho việc thử nghiệm.
@@ -74,7 +76,7 @@ Bây giờ đến phần quan trọng: ngắt liên kết chuyển tiếp. Liên
 
 ### Phá vỡ liên kết chuyển tiếp
 
- Để phá vỡ liên kết chuyển tiếp, bạn có thể sử dụng`BreakForwardLink` phương pháp. Đây là mã:
+Để phá vỡ liên kết chuyển tiếp, bạn có thể sử dụng `BreakForwardLink` phương pháp. Đây là mã:
 
 ```csharp
 textBox.BreakForwardLink();
@@ -84,7 +86,7 @@ Phương pháp này ngắt liên kết từ hộp văn bản hiện tại sang h
 
 ## Bước 4: Thiết lập liên kết chuyển tiếp thành Null
 
- Một cách khác để phá vỡ một liên kết là bằng cách thiết lập`Next` thuộc tính của hộp văn bản để`null`Phương pháp này đặc biệt hữu ích khi bạn đang thao tác động vào cấu trúc tài liệu.
+Một cách khác để phá vỡ một liên kết là bằng cách thiết lập `Next` thuộc tính của hộp văn bản để `null`Phương pháp này đặc biệt hữu ích khi bạn đang thao tác động vào cấu trúc tài liệu.
 
 ### Thiết lập bên cạnh Null
 
@@ -92,7 +94,7 @@ Phương pháp này ngắt liên kết từ hộp văn bản hiện tại sang h
 textBox.Next = null;
 ```
 
- Dòng mã này cắt đứt liên kết bằng cách thiết lập`Next`tài sản để`null`, đảm bảo rằng hộp văn bản này không còn dẫn đến hộp văn bản khác.
+Dòng mã này cắt đứt liên kết bằng cách thiết lập `Next` tài sản để `null`đảm bảo rằng hộp văn bản này không còn dẫn đến hộp văn bản khác.
 
 ## Bước 5: Phá vỡ các liên kết dẫn đến hộp văn bản
 
@@ -100,19 +102,19 @@ textBox.Next = null;
 
 ### Phá vỡ các liên kết đến
 
- Để phá vỡ một liên kết đến, hãy kiểm tra xem`Previous` hộp văn bản tồn tại và gọi`BreakForwardLink` trên đó:
+Để phá vỡ một liên kết đến, hãy kiểm tra xem `Previous` hộp văn bản tồn tại và gọi `BreakForwardLink` trên đó:
 
 ```csharp
 textBox.Previous?.BreakForwardLink();
 ```
 
- Các`?.` toán tử đảm bảo rằng phương thức chỉ được gọi nếu`Previous` không phải là null, ngăn ngừa các lỗi thời gian chạy tiềm ẩn.
+Các `?.` toán tử đảm bảo rằng phương thức chỉ được gọi nếu `Previous` không phải là null, ngăn ngừa các lỗi thời gian chạy tiềm ẩn.
 
 ## Phần kết luận
 
 Và bạn đã có nó rồi! 🎉 Bạn đã học thành công cách ngắt liên kết chuyển tiếp trong hộp văn bản bằng Aspose.Words cho .NET. Cho dù bạn đang dọn dẹp tài liệu, chuẩn bị cho định dạng mới hay chỉ đang thử nghiệm, các bước này sẽ giúp bạn quản lý hộp văn bản của mình một cách chính xác. Việc ngắt liên kết giống như gỡ rối một nút thắt—đôi khi cần thiết để giữ mọi thứ gọn gàng và ngăn nắp. 
 
- Nếu bạn muốn khám phá thêm về những gì Aspose.Words có thể làm,[tài liệu](https://reference.aspose.com/words/net/) là một kho tàng thông tin. Chúc bạn viết mã vui vẻ và tài liệu của bạn luôn được sắp xếp hợp lý!
+Nếu bạn muốn khám phá thêm về những gì Aspose.Words có thể làm, [tài liệu](https://reference.aspose.com/words/net/) là một kho tàng thông tin. Chúc bạn viết mã vui vẻ và tài liệu của bạn luôn được sắp xếp hợp lý!
 
 ## Câu hỏi thường gặp
 
@@ -122,11 +124,11 @@ Việc ngắt liên kết chuyển tiếp cho phép bạn sắp xếp lại ho�
 
 ### Tôi có thể liên kết lại hộp văn bản sau khi phá vỡ liên kết không?
 
- Có, bạn có thể liên kết lại các hộp văn bản bằng cách thiết lập`Next` thuộc tính vào hộp văn bản khác, về cơ bản tạo ra một chuỗi mới.
+Có, bạn có thể liên kết lại các hộp văn bản bằng cách thiết lập `Next` thuộc tính vào hộp văn bản khác, về cơ bản tạo ra một chuỗi mới.
 
 ### Có thể kiểm tra xem hộp văn bản có liên kết chuyển tiếp hay không trước khi ngắt hộp đó không?
 
- Có, bạn có thể kiểm tra xem hộp văn bản có liên kết chuyển tiếp hay không bằng cách kiểm tra`Next` thuộc tính. Nếu không phải null, hộp văn bản có liên kết chuyển tiếp.
+Có, bạn có thể kiểm tra xem hộp văn bản có liên kết chuyển tiếp hay không bằng cách kiểm tra `Next` thuộc tính. Nếu không phải null, hộp văn bản có liên kết chuyển tiếp.
 
 ### Việc ngắt liên kết có thể ảnh hưởng đến bố cục của tài liệu không?
 
@@ -134,10 +136,15 @@ Việc ngắt liên kết có thể ảnh hưởng đến bố cục, đặc bi�
 
 ### Tôi có thể tìm thêm tài nguyên về cách sử dụng Aspose.Words ở đâu?
 
- Để biết thêm thông tin và tài nguyên, bạn có thể truy cập[Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) Và[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8).
+Để biết thêm thông tin và tài nguyên, bạn có thể truy cập [Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) Và [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

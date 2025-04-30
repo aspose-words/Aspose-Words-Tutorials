@@ -1,14 +1,16 @@
 ---
-title: ผูก SDT กับส่วน XML ที่กำหนดเอง
-linktitle: ผูก SDT กับส่วน XML ที่กำหนดเอง
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการผูกแท็กเอกสารที่มีโครงสร้าง (SDT) กับส่วน XML ที่กำหนดเองในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนนี้
-weight: 10
-url: /th/net/programming-with-sdt/bind-sdt-to-custom-xml-part/
+"description": "เรียนรู้วิธีการผูกแท็กเอกสารที่มีโครงสร้าง (SDT) กับส่วน XML ที่กำหนดเองในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนนี้"
+"linktitle": "ผูก SDT กับส่วน XML ที่กำหนดเอง"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ผูก SDT กับส่วน XML ที่กำหนดเอง"
+"url": "/th/net/programming-with-sdt/bind-sdt-to-custom-xml-part/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ผูก SDT กับส่วน XML ที่กำหนดเอง
@@ -21,7 +23,7 @@ url: /th/net/programming-with-sdt/bind-sdt-to-custom-xml-part/
 
 ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
--  Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้จาก[Aspose.Words สำหรับการเปิดตัว .NET](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้จาก [Aspose.Words สำหรับการเปิดตัว .NET](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: Visual Studio หรือ .NET IDE อื่น ๆ ที่เข้ากันได้
 - ความเข้าใจพื้นฐานเกี่ยวกับ C#: มีความคุ้นเคยกับภาษาการเขียนโปรแกรม C# และ .NET framework
 
@@ -54,21 +56,21 @@ Document doc = new Document();
 
 ## ขั้นตอนที่ 2: เพิ่มส่วน XML ที่กำหนดเอง
 
-จากนั้นเราจะเพิ่มส่วน XML ที่กำหนดเองลงในเอกสาร ส่วนนี้จะมีข้อมูล XML ที่เราต้องการเชื่อมโยงกับ SDT
+ขั้นตอนต่อไปคือการเพิ่มส่วน XML ที่กำหนดเองลงในเอกสาร ส่วนนี้จะมีข้อมูล XML ที่เราต้องการเชื่อมโยงกับ SDT
 
 ```csharp
 // เพิ่มส่วน XML ที่กำหนดเองลงในเอกสาร
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(Guid.NewGuid().ToString("B"), "<root><text>Hello, World!</text></root>");
 ```
 
-ที่นี่ เราจะสร้างส่วน XML ที่กำหนดเองใหม่ด้วยตัวระบุเฉพาะและเพิ่มข้อมูลตัวอย่าง XML
+ที่นี่ เราสร้างส่วน XML ที่กำหนดเองใหม่ด้วยตัวระบุเฉพาะ และเพิ่มข้อมูลตัวอย่าง XML บางส่วน
 
 ## ขั้นตอนที่ 3: สร้างแท็กเอกสารที่มีโครงสร้าง (SDT)
 
 หลังจากเพิ่มส่วน XML ที่กำหนดเองแล้ว เราจะสร้าง SDT เพื่อแสดงข้อมูล XML
 
 ```csharp
-//สร้างแท็กเอกสารที่มีโครงสร้าง (SDT)
+// สร้างแท็กเอกสารที่มีโครงสร้าง (SDT)
 StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(sdt);
 ```
@@ -84,7 +86,7 @@ doc.FirstSection.Body.AppendChild(sdt);
 sdt.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", "");
 ```
 
- ขั้นตอนนี้จะแมป SDT ไปยัง`<text>` องค์ประกอบภายใน`<root>` โหนดของส่วน XML ที่กำหนดเองของเรา
+ขั้นตอนนี้จะแมป SDT ไปยัง `<text>` องค์ประกอบภายใน `<root>` โหนดของส่วน XML ที่กำหนดเองของเรา
 
 ## ขั้นตอนที่ 5: บันทึกเอกสาร
 
@@ -110,16 +112,21 @@ doc.Save(dataDir + "WorkingWithSdt.BindSDTtoCustomXmlPart.doc");
 ใช่ คุณสามารถผูก SDT หลายรายการกับส่วน XML ต่างๆ ในเอกสารเดียวกันได้ ช่วยให้มีเทมเพลตที่ขับเคลื่อนด้วยข้อมูลที่ซับซ้อนได้
 
 ### ฉันจะอัปเดตข้อมูล XML ในส่วน XML ที่กำหนดเองได้อย่างไร
- คุณสามารถอัปเดตข้อมูล XML ได้โดยเข้าถึง`CustomXmlPart` วัตถุและปรับเปลี่ยนเนื้อหา XML โดยตรง
+คุณสามารถอัปเดตข้อมูล XML ได้โดยเข้าถึง `CustomXmlPart` วัตถุและปรับเปลี่ยนเนื้อหา XML โดยตรง
 
 ### สามารถผูก SDT เข้ากับแอตทริบิวต์ XML แทนองค์ประกอบได้หรือไม่
 ใช่ คุณสามารถผูก SDT เข้ากับแอตทริบิวต์ XML ได้โดยระบุนิพจน์ XPath ที่เหมาะสมซึ่งกำหนดเป้าหมายไปที่แอตทริบิวต์ที่ต้องการ
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ใด
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้ที่[เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้ที่ [เอกสารประกอบ Aspose.Words](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

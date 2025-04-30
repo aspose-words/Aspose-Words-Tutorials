@@ -1,34 +1,36 @@
 ---
-title: Hozzon létre fejléc láblécet
-linktitle: Hozzon létre fejléc láblécet
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan adhat hozzá és testreszabhat fejlécet és láblécet Word-dokumentumokhoz az Aspose.Words for .NET használatával. Ez a lépésenkénti útmutató biztosítja a professzionális dokumentumformázást.
-weight: 10
-url: /hu/net/working-with-headers-and-footers/create-header-footer/
+"description": "Ismerje meg, hogyan adhat hozzá és szabhat testre fejléceket és lábléceket Word-dokumentumokban az Aspose.Words for .NET segítségével. Ez a lépésről lépésre szóló útmutató professzionális dokumentumformázást biztosít."
+"linktitle": "Fejléc és lábléc létrehozása"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Fejléc és lábléc létrehozása"
+"url": "/hu/net/working-with-headers-and-footers/create-header-footer/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hozzon létre fejléc láblécet
+# Fejléc és lábléc létrehozása
 
 ## Bevezetés
 
-Fejlécek és láblécek hozzáadása a dokumentumokhoz javíthatja azok professzionalizmusát és olvashatóságát. Az Aspose.Words for .NET segítségével egyszerűen létrehozhat és testreszabhat fejlécet és láblécet Word-dokumentumaihoz. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton, így biztosítva, hogy ezeket a funkciókat zökkenőmentesen tudja megvalósítani.
+Fejlécek és láblécek hozzáadása a dokumentumokhoz növelheti azok professzionalizmusát és olvashatóságát. Az Aspose.Words for .NET segítségével könnyedén létrehozhat és testreszabhat fejléceket és lábléceket Word-dokumentumaihoz. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton, biztosítva, hogy zökkenőmentesen megvalósíthassa ezeket a funkciókat.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt elkezdené, győződjön meg arról, hogy a következőkkel rendelkezik:
 
--  Aspose.Words for .NET: Töltse le és telepítse a[letöltési link](https://releases.aspose.com/words/net/).
-- Fejlesztési környezet: például a Visual Studio, a kód írásához és futtatásához.
-- C# alapismeretek: C# és .NET keretrendszer ismerete.
-- Mintadokumentum: Mintadokumentum a fejlécek és láblécek alkalmazásához, vagy új létrehozásához az oktatóanyagban látható módon.
+- Aspose.Words .NET-hez: Töltse le és telepítse a következő címről: [letöltési link](https://releases.aspose.com/words/net/).
+- Fejlesztői környezet: Például a Visual Studio, a kód írásához és futtatásához.
+- C# alapismeretek: A C# és a .NET keretrendszer ismerete.
+- Mintadokumentum: Mintadokumentum a fejlécek és láblécek alkalmazásához, vagy egy új létrehozásához az oktatóanyagban látható módon.
 
 ## Névterek importálása
 
-Először is importálnia kell a szükséges névtereket az Aspose.Words osztályok és metódusok eléréséhez.
+Először is importálnod kell a szükséges névtereket az Aspose.Words osztályok és metódusok eléréséhez.
 
 ```csharp
 using Aspose.Words;
@@ -36,27 +38,27 @@ using Aspose.Words.Tables;
 using System;
 ```
 
-## 1. lépés: Határozza meg a dokumentumkönyvtárat
+## 1. lépés: A dokumentumkönyvtár meghatározása
 
-Határozza meg a könyvtárat, ahová a dokumentumot menteni szeretné. Ez segít az útvonal hatékony kezelésében.
+Adja meg a könyvtárat, ahová a dokumentumot menteni szeretné. Ez segít az elérési út hatékony kezelésében.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 ```
 
-## 2. lépés: Hozzon létre egy új dokumentumot
+## 2. lépés: Új dokumentum létrehozása
 
- Hozzon létre egy új dokumentumot, és a`DocumentBuilder` tartalom hozzáadásának megkönnyítése érdekében.
+Hozz létre egy új dokumentumot és egy `DocumentBuilder` a tartalom hozzáadásának megkönnyítése érdekében.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## 3. lépés: Az oldalbeállítás konfigurálása
+## 3. lépés: Oldalbeállítás konfigurálása
 
-Adja meg az oldalbeállításokat, beleértve azt is, hogy az első oldal legyen-e más fejléc/lábléc.
+Állítsa be az oldalbeállításokat, beleértve azt is, hogy az első oldalon eltérő fejléc/lábléc legyen-e.
 
 ```csharp
 Section currentSection = builder.CurrentSection;
@@ -66,9 +68,9 @@ pageSetup.DifferentFirstPageHeaderFooter = true;
 pageSetup.HeaderDistance = 20;
 ```
 
-## 4. lépés: Adjon hozzá fejlécet az első oldalhoz
+## 4. lépés: Fejléc hozzáadása az első oldalhoz
 
-Lépjen az első oldal fejlécére, és állítsa be a fejléc szövegét.
+Lépjen az első oldal fejléc szakaszába, és konfigurálja a fejléc szövegét.
 
 ```csharp
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
@@ -81,14 +83,14 @@ builder.Font.Size = 14;
 builder.Write("Aspose.Words Header/Footer Creation Primer - Title Page.");
 ```
 
-## 5. lépés: Adjon hozzá egy elsődleges fejlécet
+## 5. lépés: Elsődleges fejléc hozzáadása
 
-Lépjen az elsődleges fejléc részre, és szúrjon be egy képet és szöveget.
+Lépjen az elsődleges fejléc szakaszba, és illesszen be egy képet és szöveget.
 
 ```csharp
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
-// Szúrjon be egy képet a fejlécbe
+// Kép beszúrása a fejlécbe
 builder.InsertImage(dataDir + "Graphics Interchange Format.gif", 
     RelativeHorizontalPosition.Page, 10, RelativeVerticalPosition.Page, 10, 50, 50, WrapType.Through);
 
@@ -96,9 +98,9 @@ builder.ParagraphFormat.Alignment = ParagraphAlignment.Right;
 builder.Write("Aspose.Words Header/Footer Creation Primer.");
 ```
 
-## 6. lépés: Adjon hozzá egy elsődleges láblécet
+## 6. lépés: Elsődleges lábléc hozzáadása
 
-Lépjen az elsődleges lábléc részre, és hozzon létre egy táblázatot a lábléc tartalmának formázásához.
+Lépjen az elsődleges lábléc szakaszba, és hozzon létre egy táblázatot a lábléc tartalmának formázásához.
 
 ```csharp
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
@@ -125,9 +127,9 @@ builder.EndRow();
 builder.EndTable();
 ```
 
-## 7. lépés: Tartalom és oldaltörés hozzáadása
+## 7. lépés: Tartalom és oldaltörések hozzáadása
 
-Lépjen a dokumentum végére, adjon meg egy oldaltörést, és hozzon létre egy új szakaszt különböző oldalbeállításokkal.
+Ugrás a dokumentum végére, oldaltörés hozzáadása, és egy új szakasz létrehozása eltérő oldalbeállításokkal.
 
 ```csharp
 builder.MoveToDocumentEnd();
@@ -150,9 +152,9 @@ row.LastCell.CellFormat.PreferredWidth = PreferredWidth.FromPercent(100 * 2 / 3)
 doc.Save(dataDir + "WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
 ```
 
-## 8. lépés: Másolja ki a fejléceket és lábléceket az előző részből
+## 8. lépés: Fejlécek és láblécek másolása az előző szakaszból
 
-Ha egy korábbi szakasz fejléceit és lábléceit szeretné újra felhasználni, másolja ki őket, és hajtsa végre a szükséges módosításokat.
+Ha egy korábbi szakasz fejléceit és lábléceit szeretné újra felhasználni, másolja ki őket, és alkalmazza a szükséges módosításokat.
 
 ```csharp
 private static void CopyHeadersFootersFromPreviousSection(Section section)
@@ -171,33 +173,38 @@ private static void CopyHeadersFootersFromPreviousSection(Section section)
 
 ## Következtetés
 
-Ha követi ezeket a lépéseket, az Aspose.Words for .NET segítségével hatékonyan hozzáadhat és testreszabhat fejlécet és láblécet Word-dokumentumaihoz. Ez javítja a dokumentum megjelenését és professzionalizmusát, így olvashatóbbá és vonzóbbá teszi.
+A következő lépéseket követve hatékonyan adhatsz hozzá és szabhatsz testre fejléceket és lábléceket a Word-dokumentumaidban az Aspose.Words for .NET segítségével. Ez javítja a dokumentum megjelenését és professzionalizmusát, így olvashatóbbá és lebilincselőbbé válik.
 
 ## GYIK
 
-### Mi az Aspose.Words for .NET?
+### Mi az Aspose.Words .NET-hez?
 
-Az Aspose.Words for .NET egy olyan könyvtár, amely lehetővé teszi a fejlesztők számára Word-dokumentumok programozott létrehozását, szerkesztését és konvertálását .NET-alkalmazásokon belül.
+Az Aspose.Words for .NET egy olyan függvénytár, amely lehetővé teszi a fejlesztők számára, hogy Word dokumentumokat hozzanak létre, szerkesszenek és konvertáljanak programozottan a .NET alkalmazásokon belül.
 
-### Hozzáadhatok képeket a fejléchez vagy lábléchez?
+### Hozzáadhatok képeket a fejléchez vagy a lábléchez?
 
- Igen, egyszerűen hozzáadhat képeket a fejléchez vagy lábléchez a`DocumentBuilder.InsertImage` módszer.
+Igen, könnyedén hozzáadhatsz képeket a fejléchez vagy a lábléchez a `DocumentBuilder.InsertImage` módszer.
 
-### Hogyan állíthatok be különböző fejlécet és láblécet az első oldalhoz?
+### Hogyan tudok különböző fejléceket és lábléceket beállítani az első oldalra?
 
- Különböző fejléceket és lábléceket állíthat be az első oldalhoz a segítségével`DifferentFirstPageHeaderFooter` tulajdona a`PageSetup` osztály.
+Az első oldalhoz különböző fejléceket és lábléceket állíthat be a `DifferentFirstPageHeaderFooter` a tulajdona `PageSetup` osztály.
 
-### Hol találok további dokumentációt az Aspose.Wordsről?
+### Hol találok további dokumentációt az Aspose.Words-ről?
 
- Részletes dokumentációt találhat a[Aspose.Words API dokumentációs oldal](https://reference.aspose.com/words/net/).
+Átfogó dokumentációt találhat a [Aspose.Words API dokumentációs oldal](https://reference.aspose.com/words/net/).
 
-### Van-e támogatás az Aspose.Words számára?
+### Van elérhető támogatás az Aspose.Words-höz?
 
- Igen, az Aspose támogatást nyújt rajtuk keresztül[támogatási fórum](https://forum.aspose.com/c/words/8).
+Igen, az Aspose támogatást nyújt a következőn keresztül: [támogatási fórum](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

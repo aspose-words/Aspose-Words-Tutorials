@@ -1,14 +1,16 @@
 ---
-title: Mengelola Struktur dan Konten dalam Dokumen Word
-linktitle: Mengelola Struktur dan Konten dalam Dokumen Word
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari cara mengelola dokumen Word secara efisien menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah ini mencakup struktur dokumen, manipulasi teks, pemformatan, gambar, tabel, dan banyak lagi.
-weight: 10
-url: /id/python-net/document-structure-and-content-manipulation/document-structure-content/
+"description": "Pelajari cara mengelola dokumen Word secara efisien menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah ini mencakup struktur dokumen, manipulasi teks, pemformatan, gambar, tabel, dan banyak lagi."
+"linktitle": "Mengelola Struktur dan Konten dalam Dokumen Word"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Mengelola Struktur dan Konten dalam Dokumen Word"
+"url": "/id/python-net/document-structure-and-content-manipulation/document-structure-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengelola Struktur dan Konten dalam Dokumen Word
@@ -35,10 +37,10 @@ Anda dapat memuat dokumen Word yang sudah ada atau membuat yang baru dari awal. 
 ```python
 from aspose.words import Document
 
-# Load an existing document
+# Memuat dokumen yang ada
 doc = Document("existing_document.docx")
 
-# Create a new document
+# Buat dokumen baru
 new_doc = Document()
 ```
 
@@ -49,7 +51,7 @@ Aspose.Words memungkinkan Anda untuk memanipulasi struktur dokumen Anda dengan m
 ```python
 from aspose.words import Section, Paragraph
 
-# Add a new section
+# Tambahkan bagian baru
 section = doc.sections.add()
 ```
 
@@ -58,7 +60,7 @@ section = doc.sections.add()
 Manipulasi teks merupakan bagian mendasar dari manajemen dokumen. Anda dapat mengganti, menyisipkan, atau menghapus teks dalam dokumen Anda:
 
 ```python
-# Replace text
+# Ganti teks
 text_to_replace = "replace_this"
 replacement_text = "with_this"
 doc.range.replace(text_to_replace, replacement_text, False, False)
@@ -71,13 +73,13 @@ Pemformatan menambah daya tarik visual pada dokumen Anda. Anda dapat menerapkan 
 ```python
 from aspose.words import Font, Color
 
-# Apply formatting to text
+# Terapkan pemformatan ke teks
 font = paragraph.runs[0].font
 font.bold = True
 font.size = 12
 font.color = Color.red
 
-# Align paragraph
+# Sejajarkan paragraf
 paragraph.alignment = ParagraphAlignment.RIGHT
 ```
 
@@ -88,7 +90,7 @@ Tingkatkan dokumen Anda dengan menyisipkan gambar dan grafik:
 ```python
 from aspose.words import ShapeType
 
-# Insert an image
+# Sisipkan gambar
 shape = section.add_shape(ShapeType.IMAGE, left, top, width, height)
 shape.image_data.set_image("image_path.png")
 ```
@@ -100,10 +102,10 @@ Tabel mengatur data secara efektif. Anda dapat membuat dan memanipulasi tabel da
 ```python
 from aspose.words import Table, Cell
 
-# Add a table to the document
+# Tambahkan tabel ke dokumen
 table = section.add_table()
 
-# Add rows and cells to the table
+# Tambahkan baris dan sel ke tabel
 row = table.rows.add()
 cell = row.cells.add()
 cell.text = "Cell content"
@@ -116,7 +118,7 @@ Kontrol tampilan halaman dokumen Anda:
 ```python
 from aspose.words import PageSetup
 
-# Set page size and margins
+# Atur ukuran halaman dan margin
 page_setup = section.page_setup
 page_setup.page_width = 612
 page_setup.page_height = 792
@@ -130,7 +132,7 @@ Header dan footer memberikan informasi yang konsisten di seluruh halaman:
 ```python
 from aspose.words import HeaderFooterType
 
-# Add header and footer
+# Tambahkan header dan footer
 header = section.headers_footers.add(HeaderFooterType.HEADER_PRIMARY)
 header_paragraph = header.append_paragraph("Header text")
 
@@ -145,10 +147,10 @@ Jadikan dokumen Anda interaktif dengan menambahkan hyperlink dan bookmark:
 ```python
 from aspose.words import Hyperlink
 
-# Add a hyperlink
-hyperlink = paragraph.append_hyperlink("https://www.example.com", "Klik di sini")
+# Tambahkan hyperlink
+hyperlink = paragraph.append_hyperlink("https://www.example.com", "Click here")
 
-# Add a bookmark
+# Tambahkan penanda buku
 bookmark = paragraph.range.bookmarks.add("section1")
 ```
 
@@ -157,10 +159,10 @@ bookmark = paragraph.range.bookmarks.add("section1")
 Simpan dokumen Anda dalam berbagai format:
 
 ```python
-# Save the document
+# Simpan dokumen
 doc.save("output_document.docx")
 
-# Export to PDF
+# Ekspor ke PDF
 doc.save("output_document.pdf", SaveFormat.PDF)
 ```
 
@@ -168,7 +170,7 @@ doc.save("output_document.pdf", SaveFormat.PDF)
 
 - Jaga kode Anda tetap teratur dengan menggunakan fungsi untuk berbagai tugas manipulasi dokumen.
 - Memanfaatkan penanganan pengecualian untuk menangani kesalahan dengan baik selama pemrosesan dokumen.
--  Periksa[Dokumentasi Aspose.Words](https://reference.aspose.com/words/python-net/) untuk referensi dan contoh API terperinci.
+- Periksa [Dokumentasi Aspose.Words](https://reference.aspose.com/words/python-net/) untuk referensi dan contoh API terperinci.
 
 ## Kesimpulan
 
@@ -194,7 +196,7 @@ Tentu saja! Aspose.Words memungkinkan Anda mengotomatiskan pembuatan dokumen den
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang fitur Python Aspose.Words?
 
- Untuk informasi lengkap tentang fitur Python Aspose.Words, lihat[dokumentasi](https://reference.aspose.com/words/python-net/).
+Untuk informasi lengkap tentang fitur Python Aspose.Words, lihat [dokumentasi](https://reference.aspose.com/words/python-net/).
 
 ### Bagaimana cara menyimpan dokumen saya dalam format PDF menggunakan Aspose.Words?
 
@@ -203,9 +205,14 @@ Anda dapat menyimpan dokumen Word Anda dalam format PDF menggunakan kode berikut
 ```python
 doc.save("output_document.pdf", SaveFormat.PDF)
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Định dạng tài liệu trong Aspose.Words cho Java
-linktitle: Định dạng tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu nghệ thuật định dạng tài liệu trong Aspose.Words for Java với hướng dẫn toàn diện của chúng tôi. Khám phá các tính năng mạnh mẽ và nâng cao kỹ năng xử lý tài liệu của bạn.
-weight: 29
-url: /vi/java/document-manipulation/formatting-documents/
+"description": "Tìm hiểu nghệ thuật định dạng tài liệu trong Aspose.Words for Java với hướng dẫn toàn diện của chúng tôi. Khám phá các tính năng mạnh mẽ và nâng cao kỹ năng xử lý tài liệu của bạn."
+"linktitle": "Định dạng tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Định dạng tài liệu trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/formatting-documents/"
+"weight": 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Định dạng tài liệu trong Aspose.Words cho Java
@@ -20,7 +22,7 @@ Trong thế giới xử lý tài liệu Java, Aspose.Words for Java là một c�
 
 ## Thiết lập môi trường của bạn
 
- Trước khi đi sâu vào những phức tạp của việc định dạng tài liệu, điều quan trọng là phải thiết lập môi trường của bạn. Đảm bảo bạn đã cài đặt và cấu hình Aspose.Words for Java đúng cách trong dự án của mình. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/java/).
+Trước khi đi sâu vào những phức tạp của việc định dạng tài liệu, điều quan trọng là phải thiết lập môi trường của bạn. Đảm bảo bạn đã cài đặt và cấu hình Aspose.Words for Java đúng cách trong dự án của mình. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
 
 ## Tạo một tài liệu đơn giản
 
@@ -35,7 +37,7 @@ doc.save("MyDocument.docx");
 
 ## Điều chỉnh khoảng cách giữa văn bản Châu Á và La tinh
 
-Aspose.Words for Java cung cấp các tính năng mạnh mẽ để xử lý khoảng cách văn bản. Bạn có thể tự động điều chỉnh khoảng cách giữa văn bản Châu Á và Latin như hiển thị bên dưới:
+Aspose.Words for Java cung cấp các tính năng mạnh mẽ để xử lý khoảng cách văn bản. Bạn có thể tự động điều chỉnh khoảng cách giữa văn bản Châu Á và Latin như được hiển thị bên dưới:
 
 ```java
 Document doc = new Document();
@@ -165,13 +167,13 @@ for (Paragraph paragraph : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARA
 
 ## Phần kết luận
 
- Trong bài viết này, chúng tôi đã khám phá nhiều khía cạnh khác nhau của việc định dạng tài liệu trong Aspose.Words for Java. Được trang bị những hiểu biết sâu sắc này, bạn có thể tạo các tài liệu được định dạng đẹp mắt cho các ứng dụng Java của mình. Hãy nhớ tham khảo[Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/) để được hướng dẫn chi tiết hơn.
+Trong bài viết này, chúng tôi đã khám phá nhiều khía cạnh khác nhau của việc định dạng tài liệu trong Aspose.Words for Java. Được trang bị những hiểu biết sâu sắc này, bạn có thể tạo các tài liệu được định dạng đẹp mắt cho các ứng dụng Java của mình. Hãy nhớ tham khảo [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/) để được hướng dẫn chi tiết hơn.
 
 ## Câu hỏi thường gặp
 
 ### Làm thế nào tôi có thể tải xuống Aspose.Words cho Java?
 
- Bạn có thể tải xuống Aspose.Words cho Java từ[liên kết này](https://releases.aspose.com/words/java/).
+Bạn có thể tải xuống Aspose.Words cho Java từ [liên kết này](https://releases.aspose.com/words/java/).
 
 ### Aspose.Words for Java có phù hợp để tạo các tài liệu phức tạp không?
 
@@ -188,9 +190,14 @@ Có, Aspose.Words for Java cung cấp hỗ trợ tuyệt vời cho việc tạo 
 ### Làm thế nào để tối ưu hóa khoảng cách đoạn văn cho văn bản tiếng Châu Á?
 
 Bạn có thể tinh chỉnh khoảng cách đoạn văn cho văn bản tiếng Châu Á bằng cách điều chỉnh các cài đặt liên quan trong Aspose.Words cho Java.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

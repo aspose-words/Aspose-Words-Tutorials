@@ -1,80 +1,82 @@
 ---
-title: Alkalmazza a mért licencet
-linktitle: Alkalmazza a mért licencet
-second_title: Aspose.Words Document Processing API
-description: Lépésről lépésre szóló útmutatónkból megtudhatja, hogyan alkalmazhat mérőszámos licencet az Aspose.Words for .NET-ben. Rugalmas, költséghatékony licencelés egyszerűen.
-weight: 10
-url: /hu/net/apply-license/apply-metered-license/
+"description": "Tanulja meg, hogyan alkalmazhat mért licencet az Aspose.Words for .NET-ben lépésről lépésre bemutató útmutatónkkal. Rugalmas, költséghatékony licencelés egyszerűen."
+"linktitle": "Mért licenc alkalmazása"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Mért licenc alkalmazása"
+"url": "/hu/net/apply-license/apply-metered-license/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Alkalmazza a mért licencet
+# Mért licenc alkalmazása
 
 ## Bevezetés
 
-Az Aspose.Words for .NET egy hatékony könyvtár, amely lehetővé teszi, hogy Word-dokumentumokkal dolgozzon .NET-alkalmazásaiban. Egyik kiemelkedő tulajdonsága a mérőszámos licenc alkalmazásának lehetősége. Ez az engedélyezési modell tökéletes azoknak a vállalkozásoknak és fejlesztőknek, akik a felosztó-kirovó megközelítést részesítik előnyben. A mért licenccel csak azért fizet, amit használ, így ez egy rugalmas és költséghatékony megoldás. Ebben az útmutatóban végigvezetjük Önt az Aspose.Words for .NET projektjéhez mért licencek alkalmazásának folyamatán.
+Az Aspose.Words for .NET egy hatékony könyvtár, amely lehetővé teszi Word dokumentumokkal való munkát a .NET alkalmazásokban. Az egyik kiemelkedő funkciója a mért licenc alkalmazásának lehetősége. Ez a licencelési modell tökéletes azoknak a vállalkozásoknak és fejlesztőknek, akik a használatalapú fizetést részesítik előnyben. A mért licenccel csak azért fizet, amit használ, így rugalmas és költséghatékony megoldást kínál. Ebben az útmutatóban végigvezetjük a mért licenc Aspose.Words for .NET projektre történő alkalmazásának folyamatán.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a kódba, győződjünk meg arról, hogy mindennel rendelkezik, amire szüksége van:
+Mielőtt belevágnánk a kódba, győződjünk meg róla, hogy minden szükséges dolog megvan:
 
-1.  Aspose.Words for .NET: Ha még nem tette meg, töltse le a könyvtárat a[Aspose honlapja](https://releases.aspose.com/words/net/).
-2.  Érvényes mért licenckulcsok: A kulcsokra van szüksége a mért licenc aktiválásához. Ezeket beszerezheti a[Aspose Vásárlás oldal](https://purchase.aspose.com/buy).
-3. Fejlesztői környezet: Győződjön meg arról, hogy be van állítva egy .NET fejlesztői környezet. A Visual Studio népszerű választás, de bármilyen IDE-t használhat, amely támogatja a .NET-et.
+1. Aspose.Words .NET-hez: Ha még nem tette meg, töltse le a könyvtárat innen: [Aspose weboldal](https://releases.aspose.com/words/net/).
+2. Érvényes mért licenckulcsok: A mért licenc aktiválásához szüksége lesz a kulcsokra. Ezeket a következő helyről szerezheti be: [Aspose Vásárlási oldal](https://purchase.aspose.com/buy).
+3. Fejlesztői környezet: Győződjön meg arról, hogy rendelkezik beállított .NET fejlesztői környezettel. A Visual Studio népszerű választás, de bármilyen .NET-et támogató IDE-t használhat.
 
 ## Névterek importálása
 
-Mielőtt belemerülnénk a kódba, importálni kell a szükséges névtereket. Ez döntő fontosságú, mivel lehetővé teszi számunkra, hogy hozzáférjünk az Aspose.Words által biztosított osztályokhoz és metódusokhoz.
+Mielőtt belemerülnénk a kódba, importálnunk kell a szükséges névtereket. Ez azért kulcsfontosságú, mert lehetővé teszi számunkra az Aspose.Words által biztosított osztályok és metódusok elérését.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Metered;
 ```
 
-Rendben, bontsuk fel. Lépésről lépésre megyünk végig a folyamaton, hogy ne maradjon le semmiről.
+Rendben, bontsuk le. Lépésről lépésre végigmegyünk a folyamaton, így semmiről sem fogsz lemaradni.
 
-## 1. lépés: Inicializálja a mért osztályt
+## 1. lépés: A mért osztály inicializálása
 
- Először is létre kell hoznunk egy példányt a`Metered` osztály. Ez az osztály felelős a mért licenc beállításáért.
+Először is létre kell hoznunk egy példányt a következőből: `Metered` osztály. Ez az osztály felelős a mért licenc beállításáért.
 
 ```csharp
 Metered metered = new Metered();
 ```
 
-## 2. lépés: Állítsa be a mért kulcsokat
+## 2. lépés: A mért billentyűk beállítása
 
- Most, hogy megvan a miénk`Metered` például be kell állítanunk a mért kulcsokat. Ezeket a kulcsokat az Aspose biztosítja, és egyediek az Ön előfizetéséhez.
+Most, hogy megvan a miénk `Metered` Például be kell állítanunk a mért kulcsokat. Ezeket a kulcsokat az Aspose biztosítja, és az előfizetésedhez egyediek.
 
 ```csharp
 metered.SetMeteredKey("your_public_key", "your_private_key");
 ```
 
- Cserélje ki`"your_public_key"` és`"your_private_key"` az Aspose-tól kapott tényleges kulcsokkal. Ez a lépés lényegében közli az Aspose-val, hogy mérsékelt licencet szeretne használni.
+Csere `"your_public_key"` és `"your_private_key"` az Aspose-tól kapott tényleges kulcsokkal. Ez a lépés lényegében közli az Aspose-szal, hogy mért licencet szeretne használni.
 
 ## 3. lépés: Töltse be a dokumentumot
 
- Ezután töltsünk be egy Word dokumentumot az Aspose.Words használatával. Ebben a példában egy elnevezésű dokumentumot fogunk használni`Document.docx`. Győződjön meg arról, hogy ez a dokumentum szerepel a projektkönyvtárában.
+Következő lépésként töltsünk be egy Word dokumentumot az Aspose.Words használatával. Ebben a példában egy nevű dokumentumot fogunk használni. `Document.docx`Győződjön meg róla, hogy ez a dokumentum megtalálható a projektkönyvtárában.
 
 ```csharp
 Document doc = new Document("Document.docx");
 ```
 
-## 4. lépés: Ellenőrizze a licencalkalmazást
+## 4. lépés: Ellenőrizze a licenckérelmet
 
-A licenc helyes alkalmazásának ellenőrzéséhez hajtsunk végre egy műveletet a dokumentumon. Egyszerűen kinyomtatjuk az oldalszámot a konzolra.
+Annak megerősítéséhez, hogy a licenc helyesen lett alkalmazva, hajtsunk végre egy műveletet a dokumentumon. Egyszerűen kinyomtatjuk az oldalszámot a konzolra.
 
 ```csharp
 Console.WriteLine(doc.PageCount);
 ```
 
-Ez a lépés biztosítja, hogy a dokumentum betöltése és feldolgozása a mért licenc használatával történik.
+Ez a lépés biztosítja, hogy a dokumentum betöltése és feldolgozása a mért licenccel történjen.
 
-## 5. lépés: Kezelje a kivételeket
+## 5. lépés: Kivételek kezelése
 
-Mindig jó gyakorlat az esetleges kivételek kezelése. Adjunk hozzá egy try-catch blokkot a kódunkhoz, hogy kecsesen kezeljük a hibákat.
+Mindig jó gyakorlat a lehetséges kivételek kezelése. Adjunk hozzá egy try-catch blokkot a kódunkhoz a hibák szabályos kezelése érdekében.
 
 ```csharp
 try
@@ -92,31 +94,35 @@ catch (Exception e)
 }
 ```
 
-Ez biztosítja, hogy ha valami elromlik, értelmes hibaüzenetet kapjon az alkalmazás összeomlása helyett.
+Ez biztosítja, hogy ha valami rosszul megy, akkor egy értelmes hibaüzenetet kapsz, ahelyett, hogy az alkalmazásod összeomlana.
 
 ## Következtetés
 
-És megvan! A mérőszámos licenc alkalmazása az Aspose.Words for .NET-ben egyszerű, ha kezelhető lépésekre bontja. Ez az engedélyezési modell rugalmasságot és költségmegtakarítást kínál, így számos fejlesztő számára kiváló választás. Ne feledje, a kulcs az, hogy helyesen állítsa be a mért kulcsokat, és kezelje az esetlegesen felmerülő kivételeket. Boldog kódolást!
+És íme! A mért licenc alkalmazása az Aspose.Words for .NET-ben pofonegyszerű, ha lebontjuk kezelhető lépésekre. Ez a licencelési modell rugalmasságot és költségmegtakarítást kínál, így kiváló választás sok fejlesztő számára. Ne feledd, a kulcs a mért kulcsok helyes beállítása és az esetlegesen felmerülő kivételek kezelése. Jó kódolást!
 
 ## GYIK
 
-### Mi az a mérős engedély?
-mért licenc egy felosztó-kirovó modell, ahol csak az Aspose.Words for .NET könyvtár tényleges használatáért kell fizetni, rugalmasságot és költséghatékonyságot kínálva.
+### Mi az a mért licenc?
+A mért licenc egy használatalapú fizetési modell, ahol csak az Aspose.Words for .NET könyvtár tényleges használatáért fizet, ami rugalmasságot és költséghatékonyságot kínál.
 
-### Hol szerezhetem be a mért licenckulcsokat?
- A mért licenckulcsokat a[Aspose Vásárlás oldal](https://purchase.aspose.com/buy).
+### Hol tudom beszerezni a mért licenckulcsaimat?
+A mért licenckulcsokat a következő helyről szerezheti be: [Aspose Vásárlási oldal](https://purchase.aspose.com/buy).
 
-### Használhatok fizetős licencet bármely .NET projekthez?
-Igen, használhat korlátos licencet minden olyan .NET projekthez, amely az Aspose.Words for .NET könyvtárat használja.
+### Használhatok mért licencet bármilyen .NET projekttel?
+Igen, a mért licencet bármely olyan .NET projekttel használhatja, amely az Aspose.Words for .NET könyvtárat használja.
 
 ### Mi történik, ha a mért licenckulcsok helytelenek?
-Ha a kulcsok helytelenek, a licenc nem kerül alkalmazásra, és az alkalmazás kivételt dob. Ügyeljen arra, hogy kezelje a kivételeket, hogy egyértelmű hibaüzenetet kapjon.
+Ha a kulcsok helytelenek, a licenc nem lesz alkalmazva, és az alkalmazás kivételt dob. Ügyeljen arra, hogy a kivételek kezelése egyértelmű hibaüzenetet kapjon.
 
-### Hogyan ellenőrizhetem, hogy a mért licencet megfelelően alkalmazták-e?
-A mért licencet úgy ellenőrizheti, hogy bármilyen műveletet végrehajt egy Word-dokumentumon (például kinyomtatja az oldalszámot), és biztosítja, hogy licencelési hibák nélkül hajtson végre.
+### Hogyan ellenőrizhetem, hogy a mért licenc helyesen van-e alkalmazva?
+A mért licencet úgy ellenőrizheti, hogy végrehajt egy műveletet egy Word-dokumentumon (például kinyomtatja az oldalszámot), és gondoskodik arról, hogy a művelet licencelési hibák nélkül végrehajtódjon.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

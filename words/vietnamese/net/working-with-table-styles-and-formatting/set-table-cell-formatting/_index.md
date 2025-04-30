@@ -1,60 +1,68 @@
 ---
-title: Tạo và định dạng một bảng trong tài liệu Word với Aspose.Words
-weight: 7700
-limit: 
-description: Tìm hiểu cách tạo và định dạng bảng trong tài liệu Word bằng cách sử dụng lớp DocumentBuilder Aspose.Words. Bao gồm hướng dẫn từng bước và mã mẫu.
-keywords: [Aspose.Words for .NET, create table in Word, format table cell, DocumentBuilder example, Word automation .NET, table formatting, Aspose.Words tutorial, .NET library for Word]
-url: /vi/net/working-with-table-styles-and-formatting/set-table-cell-formatting/
+"description": "Tìm hiểu cách tạo và định dạng bảng trong tài liệu Word bằng lớp Aspose.Words DocumentBuilder. Bao gồm hướng dẫn từng bước và mã mẫu."
+"title": "Tạo và định dạng bảng trong tài liệu Word với Aspose.Words"
+"url": "/vi/net/working-with-table-styles-and-formatting/set-table-cell-formatting/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo và định dạng một bảng trong tài liệu Word với Aspose.Words
+# Tạo và định dạng bảng trong tài liệu Word với Aspose.Words
 
-Aspose.Words cho .NET đơn giản hóa thao tác tài liệu Word, làm cho các nhiệm vụ như tạo và định dạng bảng đơn giản hơn. Sử dụng các powerful `DocumentBuilder`lớp, các nhà phát triển có thể dễ dàng xây dựng bảng, điều chỉnh định dạng tế bào và chèn nội dung theo cách lập trình. hướng dẫn này cho thấy từng bước cách tạo bảng, đặt các thuộc tính của tế bào như lấp và chiều rộng, và thêm văn bản vào các tế bào. Cho dù bạn đang tự động hóa các báo cáo hoặc tạo tài liệu, hướng dẫn này sẽ giúp bạn mở khóa Aspose.Words tiềm năng đầy đủ cho định dạng bảng Word. Thâm nhập và nâng cao các dự án tự động hóa Word của bạn ngày hôm nay!
+Aspose.Words cho .NET đơn giản hóa thao tác tài liệu Word, giúp các tác vụ như tạo và định dạng bảng trở nên đơn giản. Sử dụng `DocumentBuilder` class, các nhà phát triển có thể dễ dàng xây dựng bảng, điều chỉnh định dạng ô và chèn nội dung theo chương trình. Hướng dẫn này trình bày từng bước cách tạo bảng, thiết lập các thuộc tính ô như đệm và chiều rộng, và thêm văn bản vào ô. Cho dù bạn đang tự động hóa báo cáo hay tạo tài liệu, hướng dẫn này giúp bạn mở khóa toàn bộ tiềm năng của Aspose.Words để định dạng bảng Word. Hãy tham gia và cải thiện các dự án tự động hóa Word của bạn ngay hôm nay!
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/set-table-cell-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Các hướng dẫn cài đặt  
-Thực hiện các bước sau để cài đặt và sử dụng Aspose.Words cho .NET trong dự án của bạn:  
+## Hướng dẫn cài đặt  
+Thực hiện theo các bước sau để cài đặt và sử dụng Aspose.Words cho .NET trong dự án của bạn:  
 
 1. Tải xuống Aspose.Words:  
-   Hãy đến thăm [Aspose.Words cho trang tải xuống .NET](https://releases.aspose.com/words/net/)và tải về phiên bản mới nhất của thư viện.  
+   Ghé thăm [Trang tải xuống Aspose.Words cho .NET](https://releases.aspose.com/words/net/) và tải xuống phiên bản mới nhất của thư viện.  
 
-2. Thiết lập thông qua NuGet:  
-   Mở dự án .NET của bạn trong Visual Studio, vào quản lý gói NuGet (Các công cụ > quản lý gói NuGet > quản lý gói NuGet cho giải pháp), tìm kiếm "Aspose.Words", và cài đặt gói.  
+2. Cài đặt qua NuGet:  
+   Mở dự án .NET của bạn trong Visual Studio, đi đến Trình quản lý gói NuGet (Công cụ > Trình quản lý gói NuGet > Quản lý gói NuGet cho giải pháp), tìm kiếm "Aspose.Words" và cài đặt gói.  
 
-   Ngoài ra, chạy lệnh sau trong Console quản lý gói:  
+   Ngoài ra, hãy chạy lệnh sau trong Bảng điều khiển quản lý gói:  
    ```shell
    Install-Package Aspose.Words
    ```  
 
-3. Đơn xin giấy phép (Tự chọn):  
-   Để loại bỏ giới hạn đánh giá, áp dụng giấy phép.[Đây](https://purchase.aspose.com/buy)hoặc nhận được một [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)Sau đó, hãy sử dụng mã sau đây để áp dụng giấy phép:  
+3. Áp dụng Giấy phép (Tùy chọn):  
+   Để xóa bỏ giới hạn đánh giá, hãy áp dụng giấy phép. Mua giấy phép từ [đây](https://purchase.aspose.com/buy) hoặc nhận được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/). Sau đó, sử dụng mã sau để áp dụng giấy phép:  
    ```csharp
    License license = new License();
    license.SetLicense("Aspose.Words.lic");
    ```  
 
-4. Thêm References:  
-   Đảm bảo `"Thiếu nại.`namespace được nhập vào dự án của bạn với:  
+4. Thêm tài liệu tham khảo:  
+   Đảm bảo `Aspose.Words` không gian tên được nhập vào dự án của bạn bằng:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    ```  
 
-4. Giấy phép ứng dụng (Tự chọn):  
-   Để sử dụng phiên bản đầy đủ, [áp dụng giấy phép](https://purchase.aspose.com/temporary-license/)hoặc sử dụng [thử nghiệm miễn phí](https://releases.aspose.com/words/net/)\- Tôi không biết.
+4. Áp dụng Giấy phép (Tùy chọn):  
+   Để sử dụng phiên bản đầy đủ, [áp dụng giấy phép](https://purchase.aspose.com/temporary-license/) hoặc sử dụng một [dùng thử miễn phí](https://releases.aspose.com/words/net/).
    
-## Xem thêm
-[Aspose.Word cho Tài liệu .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word cho .NET References](https://reference.aspose.com/words/net/) 
+## Cũng xem
+[Tài liệu Aspose.Word cho .NET](https://docs.aspose.com/words/net/)
+[Tài liệu tham khảo Aspose.Word cho .NET](https://reference.aspose.com/words/net/) 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

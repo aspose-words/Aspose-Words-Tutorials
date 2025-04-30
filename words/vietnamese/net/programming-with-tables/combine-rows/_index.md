@@ -1,14 +1,16 @@
 ---
-title: Kết hợp các hàng
-linktitle: Kết hợp các hàng
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách kết hợp các hàng từ nhiều bảng thành một bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi.
-weight: 10
-url: /vi/net/programming-with-tables/combine-rows/
+"description": "Tìm hiểu cách kết hợp các hàng từ nhiều bảng thành một bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi."
+"linktitle": "Kết hợp các hàng"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Kết hợp các hàng"
+"url": "/vi/net/programming-with-tables/combine-rows/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kết hợp các hàng
@@ -21,11 +23,11 @@ Việc kết hợp các hàng từ nhiều bảng thành một bảng thống nh
 
 Trước khi bắt đầu phần mã hóa, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác tương thích với .NET.
 3. Kiến thức cơ bản về C#: Hiểu biết về C# sẽ rất có lợi.
 
- Nếu bạn chưa có Aspose.Words cho .NET, bạn có thể tải xuống[dùng thử miễn phí](https://releases.aspose.com/) hoặc mua nó[đây](https://purchase.aspose.com/buy) . Đối với bất kỳ câu hỏi nào,[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) là nơi tuyệt vời để bắt đầu.
+Nếu bạn chưa có Aspose.Words cho .NET, bạn có thể tải xuống [dùng thử miễn phí](https://releases.aspose.com/) hoặc mua nó [đây](https://purchase.aspose.com/buy). Đối với bất kỳ câu hỏi nào, [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) là nơi tuyệt vời để bắt đầu.
 
 ## Nhập không gian tên
 
@@ -49,11 +51,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- Trong ví dụ này, thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn đến tài liệu của bạn.
+Trong ví dụ này, thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn đến tài liệu của bạn.
 
 ## Bước 2: Xác định các bảng
 
- Tiếp theo, bạn cần xác định các bảng bạn muốn kết hợp. Aspose.Words cho phép bạn lấy các bảng từ một tài liệu bằng cách sử dụng`GetChild` phương pháp. Đây là cách thực hiện:
+Tiếp theo, bạn cần xác định các bảng bạn muốn kết hợp. Aspose.Words cho phép bạn lấy các bảng từ một tài liệu bằng cách sử dụng `GetChild` phương pháp. Đây là cách thực hiện:
 
 ```csharp
 Table firstTable = (Table) doc.GetChild(NodeType.Table, 0, true);
@@ -76,7 +78,7 @@ Vòng lặp này tiếp tục cho đến khi tất cả các hàng từ bảng t
 
 ## Bước 4: Tháo Bảng thứ hai
 
- Sau khi thêm các hàng, bảng thứ hai không còn cần thiết nữa. Bạn có thể xóa nó bằng cách sử dụng`Remove` phương pháp:
+Sau khi thêm các hàng, bảng thứ hai không còn cần thiết nữa. Bạn có thể xóa nó bằng cách sử dụng `Remove` phương pháp:
 
 ```csharp
 secondTable.Remove();
@@ -96,7 +98,7 @@ Và thế là xong! Bạn đã kết hợp thành công các hàng từ hai bả
 
 Việc kết hợp các hàng từ nhiều bảng thành một có thể đơn giản hóa đáng kể các tác vụ xử lý tài liệu của bạn. Với Aspose.Words for .NET, tác vụ này trở nên đơn giản và hiệu quả. Bằng cách làm theo hướng dẫn từng bước này, bạn có thể dễ dàng hợp nhất các bảng và hợp lý hóa quy trình làm việc của mình.
 
-Nếu bạn cần thêm thông tin hoặc có bất kỳ câu hỏi nào,[Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) là một nguồn tài nguyên tuyệt vời. Bạn cũng có thể khám phá các tùy chọn mua hàng[đây](https://purchase.aspose.com/buy) hoặc nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để thử nghiệm.
+Nếu bạn cần thêm thông tin hoặc có bất kỳ câu hỏi nào, [Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) là một nguồn tài nguyên tuyệt vời. Bạn cũng có thể khám phá các tùy chọn mua hàng [đây](https://purchase.aspose.com/buy) hoặc nhận được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để thử nghiệm.
 
 ## Câu hỏi thường gặp
 
@@ -118,10 +120,15 @@ Hoàn toàn có thể! Bạn có thể tạo một tập lệnh để tự độ
 
 ### Tôi có thể nhận trợ giúp ở đâu nếu gặp vấn đề?
 
- Các[Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8) là nơi tuyệt vời để nhận trợ giúp và tìm giải pháp cho những vấn đề phổ biến.
+Các [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8) là nơi tuyệt vời để nhận trợ giúp và tìm giải pháp cho những vấn đề phổ biến.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

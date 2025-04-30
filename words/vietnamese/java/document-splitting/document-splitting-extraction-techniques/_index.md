@@ -1,14 +1,16 @@
 ---
-title: Kỹ thuật tách và trích xuất tài liệu
-linktitle: Kỹ thuật tách và trích xuất tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách tách và trích xuất tài liệu bằng Aspose.Words cho Java. Hướng dẫn từng bước với mã nguồn để thao tác hiệu quả. Mở khóa sức mạnh của Aspose
-weight: 14
-url: /vi/java/document-splitting/document-splitting-extraction-techniques/
+"description": "Tìm hiểu cách tách và trích xuất tài liệu bằng Aspose.Words cho Java. Hướng dẫn từng bước với mã nguồn để thao tác hiệu quả. Mở khóa sức mạnh của Aspose"
+"linktitle": "Kỹ thuật tách và trích xuất tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Kỹ thuật tách và trích xuất tài liệu"
+"url": "/vi/java/document-splitting/document-splitting-extraction-techniques/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kỹ thuật tách và trích xuất tài liệu
@@ -86,7 +88,7 @@ Document doc = new Document("input.docx");
 // Tạo một trình trích xuất hình ảnh
 ImageExtractor extractor = new ImageExtractor(doc);
 
-//Trích xuất hình ảnh từ tài liệu
+// Trích xuất hình ảnh từ tài liệu
 while (extractor.hasNext()) {
     extractor.getNextImage("output_" + extractor.getCurrentImageIndex() + ".png");
 }
@@ -121,13 +123,13 @@ Khi làm việc với tài liệu, điều cần thiết là phải xử lý cá
 
 Aspose.Words for Java cung cấp khả năng mạnh mẽ để phân tách tài liệu và trích xuất nội dung. Với hướng dẫn từng bước và ví dụ mã nguồn được cung cấp ở đây, bạn được trang bị đầy đủ để xử lý các tác vụ thao tác tài liệu một cách tự tin.
 
-Hãy thoải mái khám phá tài liệu Aspose.Words for Java để biết thêm nhiều tính năng và khả năng nâng cao.
+Bạn có thể thoải mái khám phá tài liệu Aspose.Words for Java để biết thêm nhiều tính năng và khả năng nâng cao.
 
 ## Câu hỏi thường gặp
 
 ### Làm thế nào để cài đặt Aspose.Words cho Java?
 
- Bạn có thể tải xuống Aspose.Words cho Java từ trang web:[https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/)
+Bạn có thể tải xuống Aspose.Words cho Java từ trang web: [https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/)
 
 ### Tôi có thể sử dụng Aspose.Words cho Java trong các dự án thương mại của mình không?
 
@@ -135,10 +137,15 @@ Có, Aspose.Words for Java có thể sử dụng cho cả mục đích cá nhân
 
 ### Tôi có thể truy cập thêm các hướng dẫn và tài nguyên về Aspose.Words cho Java ở đâu?
 
- Để biết thêm hướng dẫn và tài nguyên, hãy truy cập tài liệu Aspose:[https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/)
+Để biết thêm hướng dẫn và tài nguyên, hãy truy cập tài liệu Aspose: [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

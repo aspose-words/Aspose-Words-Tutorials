@@ -1,14 +1,16 @@
 ---
-title: Защита документов в Aspose.Words для Java
-linktitle: Защита документов
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как защитить документы Java Word с помощью Aspose.Words for Java. Защитите свои данные паролем и т. д.
-weight: 22
-url: /ru/java/document-manipulation/protecting-documents/
+"description": "Узнайте, как защитить документы Java Word с помощью Aspose.Words for Java. Защитите свои данные паролем и т. д."
+"linktitle": "Защита документов"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Защита документов в Aspose.Words для Java"
+"url": "/ru/java/document-manipulation/protecting-documents/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Защита документов в Aspose.Words для Java
@@ -38,7 +40,7 @@ Document doc = new Document("Your Directory Path" + "Document.docx");
 doc.unprotect();
 ```
 
- The`unprotect` метод снимает любую защиту, примененную к документу, делая его доступным без пароля.
+The `unprotect` метод снимает любую защиту, примененную к документу, делая его доступным без пароля.
 
 ## Проверка типа защиты документа
 
@@ -49,7 +51,7 @@ Document doc = new Document("Your Directory Path" + "Document.docx");
 int protectionType = doc.getProtectionType();
 ```
 
- The`getProtectionType` Метод возвращает целое число, представляющее тип защиты, примененный к документу.
+The `getProtectionType` Метод возвращает целое число, представляющее тип защиты, примененный к документу.
 
 
 ## Заключение
@@ -60,11 +62,11 @@ int protectionType = doc.getProtectionType();
 
 ### Как защитить документ без пароля?
 
- Если вы хотите защитить документ без пароля, вы можете использовать другие типы защиты, такие как`ProtectionType.NO_PROTECTION` или`ProtectionType.READ_ONLY`.
+Если вы хотите защитить документ без пароля, вы можете использовать другие типы защиты, такие как `ProtectionType.NO_PROTECTION` или `ProtectionType.READ_ONLY`.
 
 ### Могу ли я изменить пароль для защищенного документа?
 
-Да, вы можете изменить пароль для защищенного документа с помощью`protect` метод с новым паролем.
+Да, вы можете изменить пароль для защищенного документа с помощью `protect` метод с новым паролем.
 
 ### Что произойдет, если я забуду пароль к защищенному документу?
 
@@ -77,9 +79,14 @@ int protectionType = doc.getProtectionType();
 ### Можно ли защитить документы в других форматах, таких как PDF или HTML?
 
 Aspose.Words для Java в первую очередь работает с документами Word, но вы можете конвертировать свои документы в другие форматы, такие как PDF или HTML, а затем применить защиту при необходимости.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

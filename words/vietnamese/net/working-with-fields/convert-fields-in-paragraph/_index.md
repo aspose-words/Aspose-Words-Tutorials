@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi các trường trong đoạn văn
-linktitle: Chuyển đổi các trường trong đoạn văn
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chuyển đổi trường IF thành văn bản thuần túy trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này.
-weight: 10
-url: /vi/net/working-with-fields/convert-fields-in-paragraph/
+"description": "Tìm hiểu cách chuyển đổi trường IF thành văn bản thuần túy trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này."
+"linktitle": "Chuyển đổi các trường trong đoạn văn"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chuyển đổi các trường trong đoạn văn"
+"url": "/vi/net/working-with-fields/convert-fields-in-paragraph/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi các trường trong đoạn văn
@@ -21,7 +23,7 @@ Bạn đã bao giờ thấy mình bị mắc kẹt trong một mạng lưới c�
 
 Trước khi chúng ta bắt đầu với phép thuật, ừm, mã hóa, có một vài thứ bạn cần phải có. Hãy nghĩ về chúng như bộ công cụ của phù thủy của bạn:
 
--  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển .NET: Cho dù là Visual Studio hay IDE khác, hãy chuẩn bị sẵn môi trường của bạn.
 - Kiến thức cơ bản về C#: Một chút quen thuộc với C# sẽ có ích rất nhiều.
 
@@ -87,7 +89,7 @@ Và bạn đã có nó! Bạn đã chuyển đổi thành công các trường I
 Aspose.Words for .NET là một thư viện mạnh mẽ để làm việc với các tài liệu Word theo chương trình. Nó cho phép bạn tạo, sửa đổi và chuyển đổi tài liệu mà không cần cài đặt Microsoft Word.
 
 ### Tôi có thể sử dụng phương pháp này để chuyển đổi các loại trường khác không?
- Có, bạn có thể áp dụng phương pháp này để chuyển đổi các loại trường khác nhau bằng cách thay đổi`FieldType`.
+Có, bạn có thể áp dụng phương pháp này để chuyển đổi các loại trường khác nhau bằng cách thay đổi `FieldType`.
 
 ### Có thể tự động hóa quy trình này cho nhiều tài liệu không?
 Hoàn toàn có thể! Bạn có thể lặp qua một thư mục tài liệu và áp dụng các bước tương tự cho từng tài liệu.
@@ -97,9 +99,14 @@ Phương pháp này sẽ không tạo ra thay đổi nào vì không có trườ
 
 ### Tôi có thể hoàn nguyên những thay đổi sau khi hủy liên kết các trường không?
 Không, sau khi các trường được hủy liên kết và chuyển đổi thành văn bản thuần túy, bạn không thể khôi phục chúng trở lại thành trường được nữa.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

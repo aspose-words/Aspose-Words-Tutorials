@@ -1,17 +1,19 @@
 ---
-title: Pemrosesan Kata dengan DocSaveOptions
-linktitle: Pemrosesan Kata dengan DocSaveOptions
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyesuaikan opsi penyimpanan untuk dokumen Word menggunakan Aspose.Words for .NET. Tutorial ini memandu Anda melalui berbagai opsi yang tersedia, seperti format file, kompresi, perlindungan kata sandi.
-weight: 1600
-url: /id/net/programming-with-docsaveoptions/
+"description": "Pelajari cara menyesuaikan opsi penyimpanan untuk dokumen Word menggunakan Aspose.Words for .NET. Tutorial ini memandu Anda melalui berbagai opsi yang tersedia, seperti format file, kompresi, perlindungan kata sandi."
+"linktitle": "Pengolahan Kata dengan DocSaveOptions"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Pengolahan Kata dengan DocSaveOptions"
+"url": "/id/net/programming-with-docsaveoptions/"
+"weight": 1600
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pemrosesan Kata dengan DocSaveOptions
+# Pengolahan Kata dengan DocSaveOptions
 
 Tutorial Aspose.Words untuk .NET tentang Pemrosesan Kata dengan DocSaveOptions menyediakan panduan lengkap tentang Pemrosesan Kata dengan opsi penyimpanan dokumen di Aspose.Words. Tutorial ini memandu Anda melalui berbagai fitur, termasuk menyimpan dokumen dalam format PDF, XPS, HTML, dan banyak lagi. Anda juga akan mempelajari cara mengelola opsi kompresi, keamanan dokumen, metadata, font tertanam, dan banyak lagi.
 
@@ -20,14 +22,19 @@ Setiap tutorial disertai dengan kode sumber terperinci dan contoh praktis yang a
 Dengan mengikuti tutorial ini, Anda akan mempelajari praktik terbaik untuk menyimpan dokumen Anda dalam berbagai format, menyesuaikan opsi penyimpanan sesuai dengan preferensi Anda. Contoh-contoh praktis akan memberi Anda pengalaman praktis untuk menerapkan pengetahuan ini dalam proyek Anda sendiri. Dengan Aspose.Words untuk .NET, Anda memiliki alat yang hebat untuk memanipulasi dokumen Word dan tutorial ini akan membantu Anda memanfaatkan pustaka ini secara maksimal.
 
  ## Tutorial
-| Judul | Keterangan |
-| --- | --- |
-| [Enkripsi Dokumen Dengan Kata Sandi](./encrypt-document-with-password/) | Pelajari cara mengenkripsi dokumen dengan kata sandi menggunakan Aspose.Words untuk .NET dalam panduan terperinci langkah demi langkah ini. Amankan informasi sensitif Anda dengan mudah. |
-| [Jangan Kompres Metafile Kecil](./do-not-compress-small-metafiles/) | Pelajari cara menggunakan Aspose.Words untuk .NET guna memastikan metafile kecil dalam dokumen Word tidak terkompresi, sehingga kualitas dan integritasnya tetap terjaga. Panduan langkah demi langkah disertakan. |
-| [Jangan Simpan Gambar Bullet](./do-not-save-picture-bullet/) | pelajari cara menangani poin-poin gambar di Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Sederhanakan pengelolaan dokumen dan buat dokumen Word profesional dengan mudah. |
+| Judul | Deskripsi |
+Bahasa Indonesia: --- | --- Bahasa Indonesia:
+| [Enkripsi Dokumen Dengan Kata Sandi](./encrypt-document-with-password/) | Pelajari cara mengenkripsi dokumen dengan kata sandi menggunakan Aspose.Words untuk .NET dalam panduan terperinci dan langkah demi langkah ini. Amankan informasi sensitif Anda dengan mudah. Bahasa Indonesia:
+| [Jangan Kompres Metafile Kecil](./do-not-compress-small-metafiles/) | Pelajari cara menggunakan Aspose.Words untuk .NET guna memastikan metafile kecil dalam dokumen Word tidak terkompresi, sehingga kualitas dan integritasnya tetap terjaga. Panduan langkah demi langkah disertakan. Bahasa Indonesia:
+| [Jangan Simpan Gambar Bullet](./do-not-save-picture-bullet/) pelajari cara menangani poin-poin gambar di Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Sederhanakan pengelolaan dokumen dan buat dokumen Word profesional dengan mudah. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

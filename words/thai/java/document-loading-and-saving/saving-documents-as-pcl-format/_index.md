@@ -1,14 +1,16 @@
 ---
-title: การบันทึกเอกสารเป็นรูปแบบ PCL ใน Aspose.Words สำหรับ Java
-linktitle: การบันทึกเอกสารเป็นรูปแบบ PCL
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีบันทึกเอกสารในรูปแบบ PCL โดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนและตัวอย่างโค้ดสำหรับการแปลงเอกสารอย่างมีประสิทธิภาพ
-weight: 21
-url: /th/java/document-loading-and-saving/saving-documents-as-pcl-format/
+"description": "เรียนรู้วิธีบันทึกเอกสารในรูปแบบ PCL โดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนและตัวอย่างโค้ดสำหรับการแปลงเอกสารอย่างมีประสิทธิภาพ"
+"linktitle": "การบันทึกเอกสารเป็นรูปแบบ PCL"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การบันทึกเอกสารเป็นรูปแบบ PCL ใน Aspose.Words สำหรับ Java"
+"url": "/th/java/document-loading-and-saving/saving-documents-as-pcl-format/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การบันทึกเอกสารเป็นรูปแบบ PCL ใน Aspose.Words สำหรับ Java
@@ -32,7 +34,7 @@ url: /th/java/document-loading-and-saving/saving-documents-as-pcl-format/
 Document doc = new Document("Your Directory Path" + "YourDocument.docx");
 ```
 
- แทนที่`"YourDocument.docx"` พร้อมเส้นทางไปยังเอกสาร Word ของคุณ
+แทนที่ `"YourDocument.docx"` พร้อมเส้นทางไปยังเอกสาร Word ของคุณ
 
 ## ขั้นตอนที่ 2: กำหนดค่าตัวเลือกการบันทึก PCL
 
@@ -54,7 +56,7 @@ PclSaveOptions saveOptions = new PclSaveOptions();
 doc.save("Your Directory Path" + "YourPCLDocument.pcl", saveOptions);
 ```
 
- แทนที่`"YourPCLDocument.pcl"` พร้อมชื่อที่ต้องการให้กับไฟล์ PCL ของคุณ
+แทนที่ `"YourPCLDocument.pcl"` พร้อมชื่อที่ต้องการให้กับไฟล์ PCL ของคุณ
 
 ## โค้ดต้นฉบับที่สมบูรณ์สำหรับการบันทึกเอกสารเป็นรูปแบบ PCL ใน Aspose.Words สำหรับ Java
 
@@ -91,10 +93,15 @@ Aspose.Words สำหรับ Java เน้นที่เอกสาร Wor
 
 ### ฉันสามารถหาทรัพยากรและเอกสารเพิ่มเติมสำหรับ Aspose.Words สำหรับ Java ได้จากที่ไหน
 
- สำหรับเอกสารและทรัพยากรที่ครอบคลุม โปรดไปที่เอกสาร Aspose.Words สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/words/java/).
+สำหรับเอกสารและทรัพยากรที่ครอบคลุม โปรดไปที่เอกสาร Aspose.Words สำหรับ Java ได้ที่ [ที่นี่](https://reference-aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

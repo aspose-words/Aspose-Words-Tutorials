@@ -1,14 +1,16 @@
 ---
-title: Tạo bảng từ Datatable
-linktitle: Tạo bảng từ Datatable
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách tạo bảng từ DataTable bằng Aspose.Words for Java. Tạo tài liệu Word chuyên nghiệp với các bảng được định dạng dễ dàng.
-weight: 11
-url: /vi/java/table-processing/generate-table-from-datatable/
+"description": "Tìm hiểu cách tạo bảng từ DataTable bằng Aspose.Words for Java. Tạo tài liệu Word chuyên nghiệp với các bảng được định dạng dễ dàng."
+"linktitle": "Tạo bảng từ Datatable"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Tạo bảng từ Datatable"
+"url": "/vi/java/table-processing/generate-table-from-datatable/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo bảng từ Datatable
@@ -21,9 +23,9 @@ Tạo bảng động từ các nguồn dữ liệu là một tác vụ phổ bi�
 
 Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
-1.  Java Development Kit (JDK): Đảm bảo bạn đã cài đặt JDK trên máy của mình. Bạn có thể tải xuống từ[Trang web của Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+1. Java Development Kit (JDK): Đảm bảo bạn đã cài đặt JDK trên máy của mình. Bạn có thể tải xuống từ [Trang web của Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
    
-2.  Aspose.Words cho Java: Bạn sẽ cần thư viện Aspose.Words. Bạn có thể tải xuống phiên bản mới nhất từ[Trang phát hành của Aspose](https://releases.aspose.com/words/java/).
+2. Aspose.Words cho Java: Bạn sẽ cần thư viện Aspose.Words. Bạn có thể tải xuống phiên bản mới nhất từ [Trang phát hành của Aspose](https://releases.aspose.com/words/java/).
 
 3. IDE: Môi trường phát triển tích hợp (IDE) như IntelliJ IDEA hoặc Eclipse sẽ giúp việc viết mã dễ dàng hơn.
 
@@ -39,17 +41,17 @@ Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn có mọi th�
 Document doc = new Document();
 ```
 
- Ở đây, chúng ta khởi tạo một cái mới`Document` đối tượng. Đây sẽ là tài liệu làm việc để chúng ta xây dựng bảng.
+Ở đây, chúng ta khởi tạo một cái mới `Document` đối tượng. Đây sẽ là tài liệu làm việc để chúng ta xây dựng bảng.
 
 ## Bước 2: Khởi tạo DocumentBuilder
 
- Tiếp theo, chúng ta sẽ sử dụng`DocumentBuilder` lớp cho phép chúng ta thao tác tài liệu dễ dàng hơn.
+Tiếp theo, chúng ta sẽ sử dụng `DocumentBuilder` lớp cho phép chúng ta thao tác tài liệu dễ dàng hơn.
 
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Các`DocumentBuilder` đối tượng cung cấp các phương thức để chèn bảng, văn bản và các thành phần khác vào tài liệu.
+Các `DocumentBuilder` đối tượng cung cấp các phương thức để chèn bảng, văn bản và các thành phần khác vào tài liệu.
 
 ## Bước 3: Thiết lập hướng trang
 
@@ -63,7 +65,7 @@ Bước này rất quan trọng vì nó đảm bảo bảng của chúng ta vừ
 
 ## Bước 4: Tải dữ liệu từ XML
 
- Bây giờ, chúng ta cần tải dữ liệu của mình từ tệp XML vào một`DataTable`. Đây là nguồn dữ liệu của chúng tôi.
+Bây giờ, chúng ta cần tải dữ liệu của mình từ tệp XML vào một `DataTable`. Đây là nguồn dữ liệu của chúng tôi.
 
 ```java
 DataSet ds = new DataSet();
@@ -71,7 +73,7 @@ ds.readXml(getMyDir() + "List of people.xml");
 DataTable dataTable = ds.getTables().get(0);
 ```
 
- Ở đây, chúng tôi đọc tệp XML và lấy bảng đầu tiên từ tập dữ liệu. Điều này`DataTable` sẽ lưu trữ dữ liệu chúng ta muốn hiển thị trong tài liệu.
+Ở đây, chúng tôi đọc tệp XML và lấy bảng đầu tiên từ tập dữ liệu. Điều này `DataTable` sẽ lưu trữ dữ liệu chúng ta muốn hiển thị trong tài liệu.
 
 ## Bước 5: Nhập Bảng từ DataTable
 
@@ -81,11 +83,11 @@ Bây giờ đến phần thú vị: nhập dữ liệu vào tài liệu dưới 
 Table table = importTableFromDataTable(builder, dataTable, true);
 ```
 
- Chúng tôi gọi phương pháp này`importTableFromDataTable` , vượt qua`DocumentBuilder` , của chúng tôi`DataTable`và một giá trị boolean để chỉ ra liệu có nên bao gồm tiêu đề cột hay không.
+Chúng tôi gọi phương pháp này `importTableFromDataTable`, vượt qua `DocumentBuilder`, của chúng tôi `DataTable`và một giá trị boolean để chỉ ra liệu có nên bao gồm tiêu đề cột hay không.
 
 ## Bước 6: Tạo kiểu cho bảng
 
-Khi đã có bảng, chúng ta có thể áp dụng một số kiểu dáng để làm cho nó trông đẹp mắt.
+Khi đã có bàn, chúng ta có thể áp dụng một số kiểu dáng để làm cho nó trông đẹp mắt.
 
 ```java
 table.setStyleIdentifier(StyleIdentifier.MEDIUM_LIST_2_ACCENT_1);
@@ -116,7 +118,7 @@ Dòng này lưu tài liệu vào thư mục đã chỉ định, cho phép bạn 
 
 ## Phương pháp importTableFromDataTable
 
- Chúng ta hãy xem xét kỹ hơn`importTableFromDataTable` phương pháp. Phương pháp này chịu trách nhiệm tạo cấu trúc bảng và điền dữ liệu vào đó.
+Chúng ta hãy xem xét kỹ hơn `importTableFromDataTable` phương pháp. Phương pháp này chịu trách nhiệm tạo cấu trúc bảng và điền dữ liệu vào đó.
 
 ### Bước 1: Bắt đầu bảng
 
@@ -130,7 +132,7 @@ Thao tác này sẽ khởi tạo một bảng mới trong tài liệu của chú
 
 ### Bước 2: Thêm Tiêu đề Cột
 
- Nếu chúng ta muốn bao gồm các tiêu đề cột, chúng ta kiểm tra`importColumnHeadings` lá cờ.
+Nếu chúng ta muốn bao gồm các tiêu đề cột, chúng ta kiểm tra `importColumnHeadings` lá cờ.
 
 ```java
 if (importColumnHeadings) {
@@ -156,11 +158,11 @@ if (importColumnHeadings) {
 }
 ```
 
- Khối mã này định dạng hàng tiêu đề và chèn tên của các cột từ`DataTable`.
+Khối mã này định dạng hàng tiêu đề và chèn tên của các cột từ `DataTable`.
 
 ### Bước 3: Điền dữ liệu vào bảng
 
- Bây giờ, chúng ta lặp qua từng hàng của`DataTable` để chèn dữ liệu vào bảng.
+Bây giờ, chúng ta lặp qua từng hàng của `DataTable` để chèn dữ liệu vào bảng.
 
 ```java
 for (DataRow dataRow : (Iterable<DataRow>) dataTable.getRows()) {
@@ -191,7 +193,7 @@ Cuối cùng, chúng ta hoàn thiện bảng sau khi đã chèn đầy đủ d�
 builder.endTable();
 ```
 
- Dòng này đánh dấu phần cuối của bảng của chúng tôi, cho phép`DocumentBuilder` để biết rằng chúng ta đã hoàn thành phần này.
+Dòng này đánh dấu phần cuối của bảng của chúng tôi, cho phép `DocumentBuilder` để biết rằng chúng ta đã hoàn thành phần này.
 
 ## Phần kết luận
 
@@ -203,7 +205,7 @@ Và bạn đã có nó! Bạn đã học thành công cách tạo bảng từ Da
 Aspose.Words for Java là một thư viện mạnh mẽ để tạo, xử lý và chuyển đổi các tài liệu Word theo cách lập trình.
 
 ### Tôi có thể sử dụng Aspose.Words miễn phí không?
- Có, Aspose cung cấp phiên bản dùng thử miễn phí. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/).
 
 ### Làm thế nào để định dạng bảng trong Aspose.Words?
 Bạn có thể áp dụng các kiểu bằng cách sử dụng các tùy chọn và mã định danh kiểu được xác định trước do thư viện cung cấp.
@@ -212,10 +214,15 @@ Bạn có thể áp dụng các kiểu bằng cách sử dụng các tùy chọn
 Bạn có thể chèn nhiều kiểu dữ liệu khác nhau, bao gồm văn bản, số và ngày tháng, có thể định dạng theo ý muốn.
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Words ở đâu?
- Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên[Diễn đàn Aspose](https://forum.aspose.com/c/words/8/).
+Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên [Diễn đàn Aspose](https://forum.aspose.com/c/words/8/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

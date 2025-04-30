@@ -1,43 +1,51 @@
 ---
-title: Crea un documento Word con intestazione e calce utilizzando Aspose.Words
-weight: 7700
-limit: 
-description: Impara come creare un documento Word con un'intestazione primaria e un calcolo di pagina utilizzando Aspose.Words per .NET. Guida passo-passo con codice e spiegazioni.
-keywords: [Aspose.Words for .NET, create Word document, add header in Word, add footer in Word, Word document header and footer, .NET Word processing, Aspose.Words examples]
-url: /it/net/header-footer-formatting/create-header-footer/
+"description": "Scopri come creare un documento Word con intestazione e piè di pagina principali utilizzando Aspose.Words per .NET. Guida passo passo con codice e spiegazioni."
+"title": "Crea un documento Word con intestazione e piè di pagina utilizzando Aspose.Words"
+"url": "/it/net/header-footer-formatting/create-header-footer/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crea un documento Word con intestazione e calce utilizzando Aspose.Words
+# Crea un documento Word con intestazione e piè di pagina utilizzando Aspose.Words
 
-Questo esempio dimostra come utilizzare Aspose.Words per .NET per creare un documento Word con un intestazione e un calcolo di pagina primari. La guida ti guida attraverso l'inizializzazione di un nuovo documento, spostandosi alle sezioni intestazione e calcolo di pagina, aggiungendo testo personalizzato e salvando il documento in formato DOCX. Con la sua potente classe DocumentBuilder, Aspose.Words rende la manipolazione dei documenti Word senza soluzione di continuità ed efficiente.  
+Questo esempio illustra come utilizzare Aspose.Words per .NET per creare un documento Word con intestazione e piè di pagina principali. La guida illustra l'inizializzazione di un nuovo documento, il passaggio alle sezioni di intestazione e piè di pagina, l'aggiunta di testo personalizzato e il salvataggio del documento in formato DOCX. Grazie alla potente classe DocumentBuilder, Aspose.Words semplifica ed efficiente la manipolazione dei documenti Word. Che si aggiungano elementi di branding o numeri di pagina, questo esempio fornisce le basi per la personalizzazione dei documenti Word a livello di codice.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/header-footer-formatting/create-header-footer" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Instruzioni di installazione  
-1. Scarica Aspose.Words per .NET: Ottieni l'ultima versione dal [Pagina di rilasci Aspose](https://releases.aspose.com/words/net/)\- Non è vero .  
-2. Installare Aspose.Words:  
-   * Utilizzare NuGet Package Manager:  
+## Istruzioni per l'installazione  
+1. Scarica Aspose.Words per .NET: Ottieni l'ultima versione da [Pagina delle release di Aspose](https://releases.aspose.com/words/net/).  
+2. Installa Aspose.Words:  
+   - Utilizzare NuGet Package Manager:  
      ```bash  
      Install-Package Aspose.Words  
      ```  
-   * O fare riferimento manualmente al DLL dal pacchetto scaricato.  
-3. Applicare la licenza (opzionale): ottenere un [licenza temporanea](https://purchase.aspose.com/temporary-license/)o una licenza completa da [Aspire ad acquistare](https://purchase.aspose.com/buy)e applicarlo nel vostro progetto:  
+   - Oppure fare riferimento manualmente alla DLL dal pacchetto scaricato.  
+3. Applica licenza (facoltativo): Ottieni una [licenza temporanea](https://purchase.aspose.com/temporary-license/) o una licenza completa da [Acquisto Aspose](https://purchase.aspose.com/buy) e applicalo al tuo progetto:  
    ```csharp  
    License license = new License();  
    license.SetLicense("Aspose.Words.lic");  
    ```    
 
 ## Vedi anche
-[Aspose.Word per Documentazione .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word per i riferimenti .NET](https://reference.aspose.com/words/net/)
+[Documentazione di Aspose.Word per .NET](https://docs.aspose.com/words/net/)
+[Riferimenti ad Aspose.Word per .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

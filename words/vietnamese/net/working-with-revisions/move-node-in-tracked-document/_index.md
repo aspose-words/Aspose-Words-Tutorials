@@ -1,14 +1,16 @@
 ---
-title: Di chuyển nút trong tài liệu được theo dõi
-linktitle: Di chuyển nút trong tài liệu được theo dõi
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách di chuyển các nút trong tài liệu Word được theo dõi bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi. Hoàn hảo cho các nhà phát triển.
-weight: 10
-url: /vi/net/working-with-revisions/move-node-in-tracked-document/
+"description": "Tìm hiểu cách di chuyển các nút trong tài liệu Word được theo dõi bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi. Hoàn hảo cho các nhà phát triển."
+"linktitle": "Di chuyển nút trong tài liệu được theo dõi"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Di chuyển nút trong tài liệu được theo dõi"
+"url": "/vi/net/working-with-revisions/move-node-in-tracked-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Di chuyển nút trong tài liệu được theo dõi
@@ -21,7 +23,7 @@ Xin chào, những người đam mê Aspose.Words! Nếu bạn đã từng cần
 
 Trước khi bắt tay vào viết mã, hãy đảm bảo rằng bạn đã có mọi thứ mình cần:
 
--  Aspose.Words cho .NET: Tải xuống[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Tải xuống [đây](https://releases.aspose.com/words/net/).
 - Môi trường .NET: Đảm bảo bạn đã thiết lập môi trường phát triển .NET tương thích.
 - Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn đã có hiểu biết cơ bản về C#.
 
@@ -40,7 +42,7 @@ using System;
 
 ## Bước 1: Khởi tạo Tài liệu
 
- Để bắt đầu, chúng ta cần khởi tạo một tài liệu mới và sử dụng`DocumentBuilder` để thêm một số đoạn văn.
+Để bắt đầu, chúng ta cần khởi tạo một tài liệu mới và sử dụng `DocumentBuilder` để thêm một số đoạn văn.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -122,22 +124,27 @@ Aspose.Words for .NET là một thư viện lớp để làm việc với các t
 
 ### Làm thế nào để theo dõi các bản sửa đổi trong tài liệu Word bằng Aspose.Words?
 
- Để theo dõi các bản sửa đổi, hãy sử dụng`StartTrackRevisions` phương pháp trên`Document` đối tượng. Điều này sẽ cho phép theo dõi bản sửa đổi, hiển thị mọi thay đổi được thực hiện đối với tài liệu.
+Để theo dõi các bản sửa đổi, hãy sử dụng `StartTrackRevisions` phương pháp trên `Document` đối tượng. Điều này sẽ cho phép theo dõi bản sửa đổi, hiển thị mọi thay đổi được thực hiện đối với tài liệu.
 
 ### Tôi có thể di chuyển nhiều nút trong Aspose.Words không?
 
-Có, bạn có thể di chuyển nhiều nút bằng cách lặp lại chúng và sử dụng các phương pháp như`InsertBefore` hoặc`InsertAfter` để đặt chúng ở vị trí mong muốn.
+Có, bạn có thể di chuyển nhiều nút bằng cách lặp lại chúng và sử dụng các phương pháp như `InsertBefhoặce` or `InsertAfter` để đặt chúng ở vị trí mong muốn.
 
 ### Làm thế nào để tôi ngừng theo dõi bản sửa đổi trong Aspose.Words?
 
- Sử dụng`StopTrackRevisions` phương pháp trên`Document` phản đối việc ngừng theo dõi bản sửa đổi.
+Sử dụng `StopTrackRevisions` phương pháp trên `Document` phản đối việc ngừng theo dõi bản sửa đổi.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
 
- Bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu chi tiết [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

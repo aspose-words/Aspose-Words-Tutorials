@@ -1,14 +1,16 @@
 ---
-title: फ़ॉन्ट्स की सूचनाएं प्राप्त करें
-linktitle: फ़ॉन्ट्स की सूचनाएं प्राप्त करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: हमारे विस्तृत गाइड से जानें कि Aspose.Words for .NET में फ़ॉन्ट प्रतिस्थापन सूचनाएँ कैसे प्राप्त करें। सुनिश्चित करें कि आपके दस्तावेज़ हर बार सही तरीके से रेंडर हों।
-weight: 10
-url: /hi/net/working-with-fonts/receive-notifications-of-fonts/
+"description": "हमारे विस्तृत गाइड से जानें कि Aspose.Words for .NET में फ़ॉन्ट प्रतिस्थापन सूचनाएँ कैसे प्राप्त करें। सुनिश्चित करें कि आपके दस्तावेज़ हर बार सही तरीके से रेंडर हों।"
+"linktitle": "फ़ॉन्ट्स की सूचनाएं प्राप्त करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "फ़ॉन्ट्स की सूचनाएं प्राप्त करें"
+"url": "/hi/net/working-with-fonts/receive-notifications-of-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # फ़ॉन्ट्स की सूचनाएं प्राप्त करें
@@ -22,9 +24,9 @@ url: /hi/net/working-with-fonts/receive-notifications-of-fonts/
 इससे पहले कि हम विस्तार में जाएं, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
 - C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको आगे बढ़ने में मदद मिलेगी।
--  Aspose.Words for .NET लाइब्रेरी: इसे डाउनलोड करें और इंस्टॉल करें[आधिकारिक डाउनलोड लिंक](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET लाइब्रेरी: इसे डाउनलोड करें और इंस्टॉल करें [आधिकारिक डाउनलोड लिंक](https://releases.aspose.com/words/net/).
 - विकास पर्यावरण: आपके कोड को लिखने और निष्पादित करने के लिए विजुअल स्टूडियो जैसा सेटअप।
--  नमूना दस्तावेज़: एक नमूना दस्तावेज़ रखें (जैसे,`Rendering.docx`) फ़ॉन्ट सेटिंग्स का परीक्षण करने के लिए तैयार है।
+- नमूना दस्तावेज़: एक नमूना दस्तावेज़ रखें (जैसे, `Rendering.docx`) फ़ॉन्ट सेटिंग्स का परीक्षण करने के लिए तैयार है।
 
 ## नामस्थान आयात करें
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## चरण 2: दस्तावेज़ लोड करें
 
- अपने दस्तावेज़ को Aspose.Words में लोड करें`Document` यह आपको प्रोग्रामेटिक रूप से दस्तावेज़ में हेरफेर करने की अनुमति देता है।
+अपने दस्तावेज़ को Aspose.Words में लोड करें `Document` यह आपको प्रोग्रामेटिक रूप से दस्तावेज़ में हेरफेर करने की अनुमति देता है।
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -67,7 +69,7 @@ fontSettings.SetFontsFolder(string.Empty, false);
 
 ## चरण 4: चेतावनी कॉलबैक सेट करें
 
- फ़ॉन्ट प्रतिस्थापन चेतावनियों को पकड़ने और संभालने के लिए, एक वर्ग बनाएं जो कार्यान्वित करता है`IWarningCallback` इंटरफ़ेस। यह वर्ग दस्तावेज़ प्रसंस्करण के दौरान होने वाली किसी भी चेतावनी को लॉग करेगा।
+फ़ॉन्ट प्रतिस्थापन चेतावनियों को पकड़ने और संभालने के लिए, एक वर्ग बनाएं जो कार्यान्वित करता है `IWarningCallback` इंटरफ़ेस। यह वर्ग दस्तावेज़ प्रसंस्करण के दौरान होने वाली किसी भी चेतावनी को लॉग करेगा।
 
 ```csharp
 public class HandleDocumentWarnings : IWarningCallback
@@ -85,7 +87,7 @@ public class HandleDocumentWarnings : IWarningCallback
 
 ## चरण 5: दस्तावेज़ को कॉलबैक और फ़ॉन्ट सेटिंग असाइन करें
 
-दस्तावेज़ को चेतावनी कॉलबैक और कॉन्फ़िगर किए गए फ़ॉन्ट सेटिंग असाइन करें। यह सुनिश्चित करता है कि कोई भी फ़ॉन्ट समस्या कैप्चर और लॉग की गई है।
+दस्तावेज़ को चेतावनी कॉलबैक और कॉन्फ़िगर किए गए फ़ॉन्ट सेटिंग असाइन करें। यह सुनिश्चित करता है कि किसी भी फ़ॉन्ट समस्या को कैप्चर और लॉग किया जाता है।
 
 ```csharp
 HandleDocumentWarnings callback = new HandleDocumentWarnings();
@@ -101,7 +103,7 @@ doc.FontSettings = fontSettings;
 doc.Save(dataDir + "WorkingWithFonts.ReceiveNotificationsOfFonts.pdf");
 ```
 
-इन चरणों का पालन करके, आपने अपने एप्लिकेशन को फ़ॉन्ट प्रतिस्थापन को सुचारू रूप से संभालने के लिए कॉन्फ़िगर किया है और जब भी कोई प्रतिस्थापन होता है, तो सूचनाएं प्राप्त होती हैं।
+इन चरणों का पालन करके, आपने अपने एप्लिकेशन को फ़ॉन्ट प्रतिस्थापन को सुचारू रूप से संभालने और प्रतिस्थापन होने पर सूचनाएं प्राप्त करने के लिए कॉन्फ़िगर किया है।
 
 ## निष्कर्ष
 
@@ -115,22 +117,27 @@ doc.Save(dataDir + "WorkingWithFonts.ReceiveNotificationsOfFonts.pdf");
 
 ### प्रश्न 2: मैं .NET के लिए Aspose.Words का निःशुल्क परीक्षण कहां से प्राप्त कर सकता हूं?
 
- आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं[Aspose निःशुल्क परीक्षण पृष्ठ](https://releases.aspose.com/).
+आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं [Aspose निःशुल्क परीक्षण पृष्ठ](https://releases.aspose.com/).
 
-###  प्रश्न 3: क्या मैं अन्य प्रकार की चेतावनियों को संभाल सकता हूँ?`IWarningCallback`?
+### प्रश्न 3: क्या मैं अन्य प्रकार की चेतावनियों को संभाल सकता हूँ? `IWarningCallback`?
 
- हां`IWarningCallback`इंटरफ़ेस न केवल फ़ॉन्ट प्रतिस्थापन बल्कि विभिन्न प्रकार की चेतावनियों को संभाल सकता है।
+हां `IWarningCallback` इंटरफ़ेस न केवल फ़ॉन्ट प्रतिस्थापन बल्कि विभिन्न प्रकार की चेतावनियों को संभाल सकता है।
 
 ### प्रश्न 4: मैं Aspose.Words के लिए समर्थन कहां पा सकता हूं?
 
- दौरा करना[Aspose.Words समर्थन मंच](https://forum.aspose.com/c/words/8) सहायता के लिए.
+दौरा करना [Aspose.Words समर्थन मंच](https://forum.aspose.com/c/words/8) सहायता के लिए.
 
 ### प्रश्न 5: क्या Aspose.Words के लिए अस्थायी लाइसेंस प्राप्त करना संभव है?
 
- हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/).
+हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं [अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Sahip Belgesi
-linktitle: Sahip Belgesi
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'te "Sahip Belgesi" ile nasıl çalışılacağını öğrenin. Bu adım adım kılavuz, bir belge içindeki düğümleri oluşturmayı ve düzenlemeyi kapsar.
-weight: 10
-url: /tr/net/working-with-node/owner-document/
+"description": "Aspose.Words for .NET'te \"Sahip Belgesi\" ile nasıl çalışılacağını öğrenin. Bu adım adım kılavuz, bir belge içindeki düğümleri oluşturmayı ve düzenlemeyi kapsar."
+"linktitle": "Sahip Belgesi"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Sahip Belgesi"
+"url": "/tr/net/working-with-node/owner-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sahip Belgesi
@@ -21,7 +23,7 @@ Hiç Aspose.Words for .NET'te belgelerle nasıl çalışılacağını anlamaya �
 
 Başlamadan önce, ihtiyacımız olan her şeye sahip olduğumuzdan emin olalım. İşte hızlı bir kontrol listesi:
 
-1.  Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Kodunuzu yazıp çalıştırabileceğiniz Visual Studio benzeri bir IDE.
 3. Temel C# Bilgisi: Bu kılavuz, C# programlama konusunda temel bir anlayışa sahip olduğunuzu varsayar.
 
@@ -62,7 +64,7 @@ Bu aşamada paragraf düğümü henüz belgeye eklenmedi. Üst düğümünü kon
 Console.WriteLine("Paragraph has no parent node: " + (para.ParentNode == null));
 ```
 
- Bu çıktıyı verecektir`true` çünkü paragrafa henüz bir üst öğe atanmamış.
+Bu çıktıyı verecektir `true` çünkü paragrafa henüz bir üst öğe atanmamış.
 
 ## Adım 4: Belge Sahipliğini Doğrulayın
 
@@ -98,7 +100,7 @@ Son olarak paragraf düğümünün artık bir üst düğüme sahip olup olmadı�
 Console.WriteLine("Paragraph has a parent node: " + (para.ParentNode != null));
 ```
 
- Bu çıktıyı verecektir`true`, paragrafın belgeye başarıyla eklendiğini doğrular.
+Bu çıktıyı verecektir `true`, paragrafın belgeye başarıyla eklendiğini doğrular.
 
 ## Çözüm
 
@@ -113,16 +115,21 @@ Console.WriteLine("Paragraph has a parent node: " + (para.ParentNode != null));
 Hayır, Aspose.Words for .NET'teki her düğüm bir belgeye ait olmalıdır. Bu, düğümlerin belgeye özgü özelliklere ve verilere erişebilmesini sağlar.
 
 ### Bir düğümün bir üst düğümü olup olmadığını nasıl kontrol ederim?  
-Bir düğümün bir üst düğümü olup olmadığını, düğümün üst düğümüne erişerek kontrol edebilirsiniz.`ParentNode` özellik. Eğer dönerse`null`, düğümün bir ebeveyni yok.
+Bir düğümün bir üst düğümü olup olmadığını, düğümün üst düğümüne erişerek kontrol edebilirsiniz. `ParentNode` özellik. Eğer dönerse `null`, düğümün bir ebeveyni yok.
 
 ### Bir düğümün özelliklerini bir belgeye eklemeden değiştirebilir miyim?  
 Evet, düğüm bir belgeye ait olduğu sürece, henüz belgeye eklenmemiş olsa bile özelliklerini değiştirebilirsiniz.
 
 ### Farklı bir belgeye düğüm eklersem ne olur?  
 Bir düğüm yalnızca bir belgeye ait olabilir. Başka bir belgeye eklemeye çalışırsanız, yeni belgede yeni bir düğüm oluşturmanız gerekir.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

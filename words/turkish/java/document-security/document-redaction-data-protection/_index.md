@@ -1,14 +1,16 @@
 ---
-title: Belge Düzenleme ve Veri Koruma
-linktitle: Belge Düzenleme ve Veri Koruma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java'yı kullanarak belgelerinizi nasıl güvence altına alacağınızı ve hassas verilerinizi nasıl sansürleyeceğinizi öğrenin. Kaynak kodlu adım adım kılavuz.
-weight: 14
-url: /tr/java/document-security/document-redaction-data-protection/
+"description": "Aspose.Words for Java kullanarak belgelerinizi nasıl güvence altına alacağınızı ve hassas verilerinizi nasıl sansürleyeceğinizi öğrenin. Kaynak kodlu adım adım kılavuz."
+"linktitle": "Belge Düzenleme ve Veri Koruma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belge Düzenleme ve Veri Koruma"
+"url": "/tr/java/document-security/document-redaction-data-protection/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Düzenleme ve Veri Koruma
@@ -24,7 +26,7 @@ Bu kılavuzda, Aspose.Words for Java kullanarak Word belgelerinden hassas bilgil
 
 Aspose.Words for Java ile çalışmaya başlamadan önce, geliştirme ortamımızı kurmamız gerekiyor. Şu adımları izleyin:
 
-1.  Java için Aspose.Words'ü indirin ve yükleyin: Ziyaret edin[https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/)Aspose.Words for Java'nın en son sürümünü indirmek için.
+1. Java için Aspose.Words'ü indirin ve yükleyin: Ziyaret edin [https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/) Aspose.Words for Java'nın en son sürümünü indirmek için.
 
 2. Aspose.Words'ü Projenize Entegre Edin: Aspose.Words JAR dosyalarını Java projenize ekleyin.
 
@@ -47,7 +49,7 @@ doc.save("modified.docx");
 
 ## Hassas Bilgilerin Belirlenmesi ve Düzenlenmesi
 
-Hassas bilgileri belirlemek ve sansürlemek için Sosyal Güvenlik numaraları, kredi kartı numaraları veya kişisel isimler gibi kalıpları aramak üzere normal ifadeleri kullanacağız:
+Hassas bilgileri belirlemek ve sansürlemek için Sosyal Güvenlik numaraları, kredi kartı numaraları veya kişisel adlar gibi kalıpları aramak üzere normal ifadeleri kullanacağız:
 
 ```java
 // Redaksiyon desenlerini tanımlayın
@@ -98,16 +100,21 @@ C: Evet, Aspose.Words for Java, Word belgelerini PDF, HTML ve daha fazlası gibi
 
 ### Aspose.Words for Java'yı kullanmak için herhangi bir lisanslama gereksinimi var mı?
 
- A: Evet, Aspose.Words for Java ticari kullanım için geçerli bir lisans gerektirir. Ziyaret edin[https://www.aspose.com/purchase/default.aspx](https://www.aspose.com/purchase/default.aspx) lisanslama bilgileri için.
+A: Evet, Aspose.Words for Java ticari kullanım için geçerli bir lisans gerektirir. Ziyaret edin [https://www.aspose.com/purchase/default.aspx](https://www.aspose.com/purchase/default.aspx) lisanslama bilgileri için.
 
 ### Aspose.Words for Java için daha fazla kaynağa ve belgeye nasıl erişebilirim?
 
-A: Java için Aspose.Words belgelerini şu adresten ziyaret edin:[https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) Kapsamlı kaynaklar ve kılavuzlar için.
+A: Java için Aspose.Words belgelerini şu adresten ziyaret edin: [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) Kapsamlı kaynaklar ve kılavuzlar için.
 
 Aspose.Words for Java ile belge güvenliğinizi ve veri korumanızı artırın. Hassas bilgilerinizi bugün korumaya başlayın!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

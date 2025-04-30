@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Grafiklerin Kullanımı
-linktitle: Grafikleri Kullanma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Java için Aspose.Words'de grafiklerin nasıl oluşturulacağını ve özelleştirileceğini öğrenin. Veri görselleştirme için grafik türlerini, biçimlendirmeyi ve eksen özelliklerini keşfedin.
-weight: 12
-url: /tr/java/document-conversion-and-export/using-charts/
+"description": "Java için Aspose.Words'de grafiklerin nasıl oluşturulacağını ve özelleştirileceğini öğrenin. Veri görselleştirme için grafik türlerini, biçimlendirmeyi ve eksen özelliklerini keşfedin."
+"linktitle": "Grafikleri Kullanma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Grafiklerin Kullanımı"
+"url": "/tr/java/document-conversion-and-export/using-charts/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Grafiklerin Kullanımı
@@ -88,7 +90,7 @@ ChartAxis yAxis = chart.getAxisY();
 // X eksenini tarih yerine kategori olarak değiştirin.
 xAxis.setCategoryType(AxisCategoryType.CATEGORY);
 xAxis.setCrosses(AxisCrosses.CUSTOM);
-xAxis.setCrossesAt(3.0); // ekseninin (yüzlerce) gösterge birimleriyle ölçülmüştür.
+xAxis.setCrossesAt(3.0); // Y ekseninin (yüzlerce) gösterge birimleriyle ölçülmüştür.
 xAxis.setReverseOrder(true);
 xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
@@ -133,26 +135,31 @@ Bu eğitimde, Aspose.Words for Java kullanarak grafiklerle nasıl çalışılaca
 
 ### Bir grafiğe birden fazla seri nasıl ekleyebilirim?
 
- Bir grafiğe birden fazla seriyi kullanarak ekleyebilirsiniz.`chart.getSeries().add()` yöntem. Seri adını, kategorileri ve veri değerlerini belirttiğinizden emin olun.
+Bir grafiğe birden fazla seriyi kullanarak ekleyebilirsiniz. `chart.getSeries().add()` yöntem. Seri adını, kategorileri ve veri değerlerini belirttiğinizden emin olun.
 
 ### Veri etiketlerini özel sayı biçimleriyle nasıl biçimlendirebilirim?
 
-Veri etiketlerini şuraya erişerek biçimlendirebilirsiniz:`DataLabels` bir serinin özelliklerini ve istenilen biçim kodunu kullanarak ayarlama`getNumberFormat().setFormatCode()`.
+Veri etiketlerini şuraya erişerek biçimlendirebilirsiniz: `DataLabels` bir serinin özelliklerini ve istenilen biçim kodunu kullanarak ayarlama `getNumberFormat().setFormatCode()`.
 
 ### Bir grafikteki eksen özelliklerini nasıl özelleştirebilirim?
 
- Tür, onay işaretleri, etiketler ve daha fazlası gibi eksen özelliklerini şuraya erişerek özelleştirebilirsiniz:`ChartAxis` gibi özellikler`setCategoryType()`, `setCrosses()` , Ve`setMajorTickMark()`.
+Tür, onay işaretleri, etiketler ve daha fazlası gibi eksen özelliklerini şuraya erişerek özelleştirebilirsiniz: `ChartAxis` gibi özellikler `setCategoryType()`, `setCrosses()`, Ve `setMajorTickMark()`.
 
 ### Dağılım veya alan grafikleri gibi diğer grafik türlerini nasıl oluşturabilirim?
 
- Uygun olanı belirterek çeşitli grafik türleri oluşturabilirsiniz.`ChartType` kullanarak grafik eklerken`builder.insertChart(ChartType.TYPE, width, height)`.
+Uygun olanı belirterek çeşitli grafik türleri oluşturabilirsiniz. `ChartType` kullanarak grafik eklerken `builder.insertChart(ChartType.TYPE, width, height)`.
 
 ### Bir grafik eksenini nasıl gizleyebilirim?
 
- Bir grafik eksenini ayarlayarak gizleyebilirsiniz.`setHidden(true)` eksenin özelliği.
+Bir grafik eksenini ayarlayarak gizleyebilirsiniz. `setHidden(true)` eksenin özelliği.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

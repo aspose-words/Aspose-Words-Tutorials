@@ -1,14 +1,16 @@
 ---
-title: คำศัพท์ที่มีเครื่องหมายยัติภังค์ในภาษาต่างๆ
-linktitle: คำศัพท์ที่มีเครื่องหมายยัติภังค์ในภาษาต่างๆ
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการแบ่งคำในภาษาต่างๆ โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนโดยละเอียดนี้เพื่อปรับปรุงการอ่านเอกสารของคุณ
-weight: 10
-url: /th/net/working-with-hyphenation/hyphenate-words-of-languages/
+"description": "เรียนรู้วิธีการแบ่งคำในภาษาต่างๆ โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนโดยละเอียดนี้เพื่อปรับปรุงการอ่านเอกสารของคุณ"
+"linktitle": "คำศัพท์ที่มีเครื่องหมายยัติภังค์ในภาษาต่างๆ"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "คำศัพท์ที่มีเครื่องหมายยัติภังค์ในภาษาต่างๆ"
+"url": "/th/net/working-with-hyphenation/hyphenate-words-of-languages/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # คำศัพท์ที่มีเครื่องหมายยัติภังค์ในภาษาต่างๆ
@@ -21,8 +23,8 @@ url: /th/net/working-with-hyphenation/hyphenate-words-of-languages/
 
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
--  ติดตั้ง Aspose.Words สำหรับ .NET แล้ว ถ้าคุณยังไม่ได้ติดตั้ง โปรดดาวน์โหลด[ที่นี่](https://releases.aspose.com/words/net/).
--  ใบอนุญาตที่ถูกต้องสำหรับ Aspose.Words คุณสามารถซื้อได้[ที่นี่](https://purchase.aspose.com/buy) หรือรับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+- ติดตั้ง Aspose.Words สำหรับ .NET แล้ว ถ้าคุณยังไม่ได้ติดตั้ง โปรดดาวน์โหลด [ที่นี่](https://releases-aspose.com/words/net/).
+- ใบอนุญาตที่ถูกต้องสำหรับ Aspose.Words คุณสามารถซื้อได้ [ที่นี่](https://purchase.aspose.com/buy) หรือรับใบอนุญาตชั่วคราว [ที่นี่](https://purchase-aspose.com/temporary-license/).
 - ความรู้พื้นฐานเกี่ยวกับ C# และ .NET framework
 - โปรแกรมแก้ไขข้อความหรือ IDE เช่น Visual Studio
 
@@ -37,7 +39,7 @@ using Aspose.Words.Hyphenation;
 
 ## ขั้นตอนที่ 1: โหลดเอกสารของคุณ
 
- คุณจะต้องระบุไดเรกทอรีที่เอกสารของคุณตั้งอยู่ แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงไปยังเอกสารของคุณ
+คุณจะต้องระบุไดเรกทอรีที่เอกสารของคุณตั้งอยู่ แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงไปยังเอกสารของคุณ
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -46,7 +48,7 @@ Document doc = new Document(dataDir + "German text.docx");
 
 ## ขั้นตอนที่ 3: ลงทะเบียนพจนานุกรมการแบ่งคำ
 
- Aspose.Words ต้องใช้พจนานุกรมการแบ่งคำสำหรับภาษาต่างๆ ให้แน่ใจว่าคุณมี`.dic`ไฟล์สำหรับภาษาที่คุณต้องการแบ่งคำ ลงทะเบียนพจนานุกรมเหล่านี้โดยใช้`Hyphenation.RegisterDictionary` วิธี.
+Aspose.Words ต้องใช้พจนานุกรมการแบ่งคำสำหรับภาษาต่างๆ ให้แน่ใจว่าคุณมี `.dic` ไฟล์สำหรับภาษาที่คุณต้องการแบ่งคำ ลงทะเบียนพจนานุกรมเหล่านี้โดยใช้ `Hyphenation.RegisterDictionary` วิธี.
 
 ```csharp
 Hyphenation.RegisterDictionary("en-US", dataDir + "hyph_en_US.dic");
@@ -74,16 +76,21 @@ doc.Save(dataDir + "TreatmentByCesure.pdf");
 คุณสามารถค้นหาพจนานุกรมการแบ่งคำได้ทางออนไลน์ ซึ่งมักจัดทำโดยสถาบันภาษาหรือโครงการโอเพนซอร์ส
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ .NET โดยไม่ต้องมีใบอนุญาตได้หรือไม่
- ใช่ แต่เวอร์ชันที่ไม่มีใบอนุญาตจะมีข้อจำกัด ขอแนะนำให้ซื้อ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license) เพื่อคุณสมบัติที่ครบครัน
+ใช่ แต่เวอร์ชันที่ไม่มีใบอนุญาตจะมีข้อจำกัด ขอแนะนำให้ซื้อ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license) เพื่อคุณสมบัติที่ครบครัน
 
 ### Aspose.Words สำหรับ .NET เข้ากันได้กับ .NET Core หรือไม่
 ใช่ Aspose.Words สำหรับ .NET รองรับทั้ง .NET Framework และ .NET Core
 
 ### ฉันจะจัดการหลายภาษาในเอกสารเดียวได้อย่างไร
-คุณสามารถลงทะเบียนพจนานุกรมการแบ่งคำหลายรายการได้ดังที่แสดงในตัวอย่าง และ Aspose.Words จะจัดการพจนานุกรมเหล่านั้นตามความเหมาะสม
+คุณสามารถลงทะเบียนพจนานุกรมการแบ่งคำได้หลายรายการดังที่แสดงในตัวอย่าง และ Aspose.Words จะจัดการรายการเหล่านั้นตามความเหมาะสม
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

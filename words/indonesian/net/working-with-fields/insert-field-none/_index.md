@@ -1,14 +1,16 @@
 ---
-title: Sisipkan Bidang Tidak Ada
-linktitle: Sisipkan Bidang Tidak Ada
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Kuasai otomatisasi dokumen dengan Aspose.Words untuk .NET. Pelajari cara memasukkan kolom langkah demi langkah dan menyederhanakan alur kerja Anda. Sempurna untuk pengembang dari semua tingkatan.
-weight: 10
-url: /id/net/working-with-fields/insert-field-none/
+"description": "Kuasai otomatisasi dokumen dengan Aspose.Words untuk .NET. Pelajari cara memasukkan kolom langkah demi langkah dan menyederhanakan alur kerja Anda. Sempurna untuk pengembang dari semua tingkatan."
+"linktitle": "Sisipkan Bidang Tidak Ada"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Sisipkan Bidang Tidak Ada"
+"url": "/id/net/working-with-fields/insert-field-none/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sisipkan Bidang Tidak Ada
@@ -21,8 +23,8 @@ Pernahkah Anda merasa kewalahan dengan tugas-tugas berulang yang terlibat dalam 
 
 Sebelum kita terjun ke dunia Aspose.Words untuk .NET yang menarik, ada beberapa hal yang perlu Anda siapkan:
 
-1.  Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari[Di Sini](https://visualstudio.microsoft.com/downloads/).
-2.  Aspose.Words untuk .NET: Anda memerlukan pustaka Aspose.Words. Anda dapat mengunduhnya dari[halaman unduhan](https://releases.aspose.com/words/net/).
+1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari [Di Sini](https://visualstudio.microsoft.com/downloads/).
+2. Aspose.Words untuk .NET: Anda memerlukan pustaka Aspose.Words. Anda dapat mengunduhnya dari [halaman unduhan](https://releases.aspose.com/words/net/).
 3. .NET Framework: Pastikan proyek Anda menargetkan versi .NET Framework yang kompatibel. Aspose.Words mendukung .NET Framework 2.0 atau yang lebih tinggi, .NET Core, dan .NET 5.0 atau yang lebih baru.
 4. Pengetahuan Dasar C#: Pemahaman dasar tentang pemrograman C# akan membantu Anda mengikuti contoh-contohnya.
 
@@ -47,7 +49,7 @@ Sebelum kita dapat membuat dan menyimpan dokumen, kita perlu menentukan direktor
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENTS DIRECTORY"` dengan jalur sebenarnya ke folder dokumen Anda. Di sinilah dokumen baru Anda akan disimpan.
+Mengganti `"YOUR DOCUMENTS DIRECTORY"` dengan jalur sebenarnya ke folder dokumen Anda. Di sinilah dokumen baru Anda akan disimpan.
 
 ## Langkah 2: Buat Dokumen dan DocumentBuilder
 
@@ -70,7 +72,7 @@ FieldUnknown field = (FieldUnknown)builder.InsertField(FieldType.FieldNone, fals
 
 ## Langkah 4: Simpan Dokumen
 
-Terakhir, mari simpan dokumen kita. Di sinilah semua kerja keras Anda terkumpul dalam sebuah berkas konkret yang dapat Anda buka dan periksa.
+Terakhir, mari kita simpan dokumen kita. Di sinilah semua kerja keras Anda terkumpul dalam sebuah berkas konkret yang dapat Anda buka dan periksa.
 
 ```csharp
 doc.Save(dataDir + "InsertionFieldNone.docx");
@@ -91,16 +93,21 @@ Aspose.Words untuk .NET adalah pustaka yang memungkinkan pengembang untuk membua
 Ya, Aspose.Words untuk .NET mendukung .NET Core, .NET 5.0, dan versi yang lebih baru, membuatnya serbaguna untuk berbagai aplikasi .NET.
 
 ### Bagaimana cara menyisipkan berbagai jenis bidang dalam dokumen Word?
- Anda dapat memasukkan berbagai jenis bidang menggunakan`DocumentBuilder.InsertField`metode. Setiap jenis bidang memiliki metode dan parameter spesifiknya sendiri.
+Anda dapat memasukkan berbagai jenis bidang menggunakan `DocumentBuilder.InsertField` metode. Setiap jenis bidang memiliki metode dan parameter spesifiknya sendiri.
 
 ### Apakah Aspose.Words untuk .NET gratis untuk digunakan?
- Aspose.Words untuk .NET menawarkan uji coba gratis, tetapi untuk fungsionalitas penuh, Anda mungkin perlu membeli lisensi. Anda dapat menjelajahi opsi harga dan lisensi[Di Sini](https://purchase.aspose.com/buy).
+Aspose.Words untuk .NET menawarkan uji coba gratis, tetapi untuk fungsionalitas penuh, Anda mungkin perlu membeli lisensi. Anda dapat menjelajahi opsi harga dan lisensi [Di Sini](https://purchase.aspose.com/buy).
 
 ### Di mana saya dapat menemukan dokumentasi dan dukungan lebih lanjut untuk Aspose.Words untuk .NET?
- Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/words/net/) dan mendapatkan dukungan dari komunitas Aspose[Di Sini](https://forum.aspose.com/c/words/8).
+Anda dapat menemukan dokumentasi yang lengkap [Di Sini](https://reference.aspose.com/words/net/) dan mendapatkan dukungan dari komunitas Aspose [Di Sini](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

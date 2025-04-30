@@ -1,14 +1,16 @@
 ---
-title: Zabezpieczanie dokumentów za pomocą zaawansowanych technik ochrony
-linktitle: Zabezpieczanie dokumentów za pomocą zaawansowanych technik ochrony
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Zabezpiecz swoje dokumenty za pomocą zaawansowanej ochrony za pomocą Aspose.Words for Python. Dowiedz się, jak dodawać hasła, szyfrować zawartość, stosować podpisy cyfrowe i nie tylko.
-weight: 16
-url: /pl/python-net/document-combining-and-comparison/secure-documents-protection/
+"description": "Zabezpiecz swoje dokumenty za pomocą zaawansowanej ochrony za pomocą Aspose.Words for Python. Dowiedz się, jak dodawać hasła, szyfrować zawartość, stosować podpisy cyfrowe i nie tylko."
+"linktitle": "Zabezpieczanie dokumentów za pomocą zaawansowanych technik ochrony"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Zabezpieczanie dokumentów za pomocą zaawansowanych technik ochrony"
+"url": "/pl/python-net/document-combining-and-comparison/secure-documents-protection/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zabezpieczanie dokumentów za pomocą zaawansowanych technik ochrony
@@ -55,7 +57,7 @@ doc.encrypt("encryption_password", aw.EncryptionType.AES_256)
 
 ## Podpisy cyfrowe
 
-Dodaj podpis cyfrowy, aby potwierdzić autentyczność dokumentu:
+Dodaj podpis cyfrowy, aby mieć pewność autentyczności dokumentu:
 
 ```python
 aw.digitalsignatures.DigitalSignatureUtil.sign(MY_DIR + "Digitally signed.docx",
@@ -81,11 +83,11 @@ Aspose.Words for Python umożliwia zabezpieczanie dokumentów za pomocą zaawans
 
 ### Jak zainstalować Aspose.Words dla języka Python?
 
- Możesz zainstalować go za pomocą pip, uruchamiając:`pip install aspose-words`.
+Można zainstalować go za pomocą pip, uruchamiając: `pip install aspose-words`.
 
 ### Czy mogę ograniczyć możliwość edycji dla określonych grup?
 
- Tak, możesz ustawić uprawnienia do edycji dla określonych grup za pomocą`protection.set_editing_groups(["Editors"])`.
+Tak, możesz ustawić uprawnienia do edycji dla określonych grup za pomocą `protection.set_editing_groups(["Editors"])`.
 
 ### Jakie opcje szyfrowania oferuje Aspose.Words?
 
@@ -98,9 +100,14 @@ Podpisy cyfrowe gwarantują autentyczność i integralność dokumentów, dzięk
 ### Jak mogę trwale usunąć poufne informacje z dokumentu?
 
 Skorzystaj z funkcji redagowania, aby trwale usunąć poufne informacje z dokumentu.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

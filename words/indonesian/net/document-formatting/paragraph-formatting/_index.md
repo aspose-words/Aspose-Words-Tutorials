@@ -1,14 +1,16 @@
 ---
-title: Pemformatan Paragraf Dalam Dokumen Word
-linktitle: Pemformatan Paragraf Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memformat paragraf dalam dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami.
-weight: 10
-url: /id/net/document-formatting/paragraph-formatting/
+"description": "Pelajari cara memformat paragraf dalam dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami."
+"linktitle": "Pemformatan Paragraf Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Pemformatan Paragraf Dalam Dokumen Word"
+"url": "/id/net/document-formatting/paragraph-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pemformatan Paragraf Dalam Dokumen Word
@@ -21,7 +23,7 @@ Pernahkah Anda merasa terjebak dalam pertempuran yang tiada henti dengan format 
 
 Sebelum kita memulai petualangan pemformatan ini, mari kita persiapkan perangkat kita. Berikut ini yang Anda perlukan:
 
-1.  Aspose.Words untuk .NET: Unduh[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Unduh [Di Sini](https://releases.aspose.com/words/net/).
 2. Visual Studio: Editor kode terpercaya Anda.
 3. .NET Framework: Pastikan sudah terinstal.
 4. Pengetahuan Dasar C#: Jangan khawatir, Anda tidak perlu menjadi ahli, pemahaman dasar saja sudah cukup.
@@ -65,7 +67,7 @@ paragraphFormat.RightIndent = 50;
 paragraphFormat.SpaceAfter = 25;
 ```
 
-Kami sedang mengonfigurasi`ParagraphFormat` properti. Mari kita uraikan apa saja fungsi masing-masing properti:
+Kami sedang mengonfigurasi `ParagraphFormat` properti. Mari kita uraikan apa saja fungsi masing-masing properti:
 - Perataan: Memusatkan paragraf.
 - LeftIndent: Mengatur indentasi kiri menjadi 50 poin.
 - RightIndent: Mengatur indentasi kanan hingga 50 poin.
@@ -82,7 +84,7 @@ builder.Writeln(
     "I'm another nicely formatted paragraph. I'm intended to demonstrate how the space after the paragraph looks like.");
 ```
 
-Di sini, kita menambahkan dua paragraf teks. Perhatikan bagaimana format diterapkan pada kedua paragraf secara otomatis.
+Di sini, kita menambahkan dua paragraf teks. Perhatikan bagaimana formatnya diterapkan pada kedua paragraf secara otomatis.
 
 ## Langkah 4: Simpan Dokumen
 
@@ -104,19 +106,24 @@ Memformat paragraf dalam dokumen Word tidak harus menjadi tugas yang sulit. Deng
 Aspose.Words untuk .NET adalah API manipulasi dokumen canggih yang memungkinkan pengembang untuk membuat, mengedit, dan memformat dokumen Word secara terprogram menggunakan .NET.
 
 ### Bagaimana cara menginstal Aspose.Words untuk .NET?
- Anda dapat mengunduh Aspose.Words untuk .NET dari[Di Sini](https://releases.aspose.com/words/net/).
+Anda dapat mengunduh Aspose.Words untuk .NET dari [Di Sini](https://releases.aspose.com/words/net/).
 
 ### Dapatkah saya mencoba Aspose.Words untuk .NET secara gratis?
- Ya, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+Ya, Anda bisa mendapatkan uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Apakah mungkin untuk menerapkan pemformatan yang lebih kompleks menggunakan Aspose.Words untuk .NET?
 Tentu saja! Aspose.Words untuk .NET mendukung berbagai pilihan format, yang memungkinkan tata letak dokumen yang sangat rumit dan terperinci.
 
 ### Di mana saya dapat menemukan dokumentasi dan dukungan yang lebih rinci?
- Anda dapat mengakses dokumentasi terperinci[Di Sini](https://reference.aspose.com/words/net/) dan mencari dukungan[Di Sini](https://forum.aspose.com/c/words/8).
+Anda dapat mengakses dokumentasi terperinci [Di Sini](https://reference.aspose.com/words/net/) dan mencari dukungan [Di Sini](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

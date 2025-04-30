@@ -1,14 +1,16 @@
 ---
-title: Membuat & Menyesuaikan Bagan Menggunakan Bentuk
-linktitle: Membuat & Menyesuaikan Bagan Menggunakan Bentuk
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat dan menyesuaikan bagan dalam dokumen Word menggunakan Aspose.Words for .NET dengan panduan langkah demi langkah ini. Sempurna untuk visualisasi data.
-weight: 10
-url: /id/net/programming-with-charts/create-chart-using-shape/
+"description": "Pelajari cara membuat dan menyesuaikan bagan dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk visualisasi data."
+"linktitle": "Membuat & Menyesuaikan Bagan Menggunakan Bentuk"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Membuat & Menyesuaikan Bagan Menggunakan Bentuk"
+"url": "/id/net/programming-with-charts/create-chart-using-shape/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat & Menyesuaikan Bagan Menggunakan Bentuk
@@ -21,7 +23,7 @@ Membuat dan menyesuaikan diagram pada dokumen Anda merupakan keterampilan pentin
 
 Sebelum menyelami kode, pastikan Anda memiliki hal berikut:
 
--  Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+- Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 - Visual Studio: Versi apa pun yang mendukung .NET.
 - Pengetahuan Dasar C#: Memahami dasar-dasar C# akan membantu Anda mengikuti tutorial.
 
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Langkah 2: Masukkan Bagan
 
- Berikutnya, Anda akan memasukkan diagram garis ke dalam dokumen.`DocumentBuilder.InsertChart` metode ini digunakan untuk tujuan ini.
+Berikutnya, Anda akan memasukkan diagram garis ke dalam dokumen. `DocumentBuilder.InsertChart` metode ini digunakan untuk tujuan ini.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
@@ -86,33 +88,38 @@ doc.Save(dataDir + "WorkingWithCharts.CreateChartUsingShape.docx");
 
 ## Kesimpulan
 
-Dalam tutorial ini, kami membahas cara membuat dan menyesuaikan diagram garis dalam dokumen Word menggunakan Aspose.Words untuk .NET. Dengan mengikuti panduan langkah demi langkah, kini Anda dapat membuat diagram yang menarik secara visual dan mengomunikasikan data Anda secara efektif. Aspose.Words untuk .NET menawarkan berbagai pilihan penyesuaian, yang memungkinkan Anda menyesuaikan diagram dengan kebutuhan spesifik Anda.
+Dalam tutorial ini, kami membahas cara membuat dan menyesuaikan diagram garis dalam dokumen Word menggunakan Aspose.Words untuk .NET. Dengan mengikuti panduan langkah demi langkah, kini Anda dapat membuat diagram yang menarik secara visual yang mengomunikasikan data Anda secara efektif. Aspose.Words untuk .NET menawarkan berbagai pilihan penyesuaian, yang memungkinkan Anda menyesuaikan diagram dengan kebutuhan spesifik Anda.
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET untuk membuat jenis bagan lainnya?
 
- Ya, Aspose.Words untuk .NET mendukung berbagai jenis bagan, termasuk bagan batang, bagan pai, dan lainnya. Anda dapat menjelajahi dokumentasinya[Di Sini](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
+Ya, Aspose.Words untuk .NET mendukung berbagai jenis bagan, termasuk bagan batang, bagan pai, dan lainnya. Anda dapat menjelajahi dokumentasinya [Di Sini](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
 
 ### Bagaimana saya dapat mencoba Aspose.Words untuk .NET sebelum membeli?
 
- Anda dapat mengunduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/)Ini memungkinkan Anda menguji pustaka dan fitur-fiturnya sebelum melakukan pembelian.
+Anda dapat mengunduh versi uji coba gratis dari [Di Sini](https://releases.aspose.com/)Ini memungkinkan Anda menguji pustaka dan fitur-fiturnya sebelum melakukan pembelian.
 
 ### Apakah ada cara untuk mendapatkan dukungan jika saya mengalami masalah?
 
- Tentu saja. Anda dapat mengakses dukungan melalui forum komunitas Aspose[Di Sini](https://forum.aspose.com/c/words/8)Komunitas dan staf Aspose sangat responsif.
+Tentu saja. Anda dapat mengakses dukungan melalui forum komunitas Aspose [Di Sini](https://forum.aspose.com/c/words/8)Komunitas dan staf Aspose sangat responsif.
 
 ### Bagaimana cara membeli lisensi Aspose.Words untuk .NET?
 
- Anda dapat membeli lisensi langsung dari situs web Aspose[Di Sini](https://purchase.aspose.com/buy)Ada berbagai pilihan lisensi untuk memenuhi berbagai kebutuhan.
+Anda dapat membeli lisensi langsung dari situs web Aspose [Di Sini](https://purchase.aspose.com/buy)Ada berbagai pilihan lisensi untuk memenuhi berbagai kebutuhan.
 
 ### Bagaimana jika saya memerlukan lisensi sementara untuk proyek jangka pendek?
 
- Aspose menawarkan lisensi sementara, yang dapat Anda minta[Di Sini](https://purchase.aspose.com/temporary-license/).
+Aspose menawarkan lisensi sementara, yang dapat Anda minta [Di Sini](https://purchase.aspose.com/temporary-license/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

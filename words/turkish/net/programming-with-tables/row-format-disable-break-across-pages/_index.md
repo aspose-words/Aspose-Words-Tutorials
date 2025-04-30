@@ -1,14 +1,16 @@
 ---
-title: Satır Biçimi Sayfalar Arası Kesmeyi Devre Dışı Bırak
-linktitle: Satır Biçimi Sayfalar Arası Kesmeyi Devre Dışı Bırak
-second_title: Aspose.Words Belge İşleme API'si
-description: Tablo okunabilirliğini ve biçimlendirmesini korumak için Aspose.Words for .NET'i kullanarak Word belgelerindeki sayfalar arası satır sonlarını nasıl devre dışı bırakacağınızı öğrenin.
-weight: 10
-url: /tr/net/programming-with-tables/row-format-disable-break-across-pages/
+"description": "Tablo okunabilirliğini ve biçimlendirmesini korumak için Aspose.Words for .NET'i kullanarak Word belgelerindeki sayfalar arası satır sonlarını nasıl devre dışı bırakacağınızı öğrenin."
+"linktitle": "Satır Biçimi Sayfalar Arası Kesmeyi Devre Dışı Bırak"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Satır Biçimi Sayfalar Arası Kesmeyi Devre Dışı Bırak"
+"url": "/tr/net/programming-with-tables/row-format-disable-break-across-pages/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Satır Biçimi Sayfalar Arası Kesmeyi Devre Dışı Bırak
@@ -39,7 +41,7 @@ using Aspose.Words.Tables;
 Birden fazla sayfaya yayılan tabloyu içeren belgeyi yükleyin.
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Table spanning two pages.docx");
@@ -55,7 +57,7 @@ Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 
 ## Adım 3: Tüm Satırlar İçin Sayfalar Arası Geçişi Devre Dışı Bırakın
 
- Tablodaki her satırda dolaşın ve`AllowBreakAcrossPages`mülk`false`Bu, satırların sayfalar arasında bölünmemesini sağlar.
+Tablodaki her satırda dolaşın ve `AllowBreakAcrossPages` mülk `false`Bu, satırların sayfalar arasında bölünmemesini sağlar.
 
 ```csharp
 // Tablodaki tüm satırlar için sayfalar arası kesmeyi devre dışı bırakın.
@@ -78,22 +80,27 @@ Bu eğitimde, .NET için Aspose.Words kullanarak bir Word belgesindeki sayfalar 
 ## SSS
 
 ### Sayfalar arasında satır sonlarını tüm satırlar yerine belirli bir satır için devre dışı bırakabilir miyim?  
- Evet, istediğiniz satıra erişip satır sonlarını ayarlayarak belirli satırlar için satır sonlarını devre dışı bırakabilirsiniz.`AllowBreakAcrossPages`mülk`false`.
+Evet, istediğiniz satıra erişip satır sonlarını ayarlayarak belirli satırlar için satır sonlarını devre dışı bırakabilirsiniz. `AllowBreakAcrossPages` mülk `false`.
 
 ### Bu yöntem birleştirilmiş hücrelere sahip tablolar için işe yarar mı?  
- Evet, bu yöntem birleştirilmiş hücrelere sahip tablolar için işe yarar. Özellik`AllowBreakAcrossPages` hücre birleştirmeden bağımsız olarak tüm satıra uygulanır.
+Evet, bu yöntem birleştirilmiş hücrelere sahip tablolar için işe yarar. Özellik `AllowBreakAcrossPages` hücre birleştirmeden bağımsız olarak tüm satıra uygulanır.
 
 ### Bu yöntem tablonun başka bir tablonun içinde yer alması durumunda işe yarar mı?  
 Evet, aynı şekilde iç içe geçmiş tablolara erişebilir ve bunları değiştirebilirsiniz. İç içe geçmiş tabloya dizinine veya diğer özelliklerine göre doğru şekilde başvurduğunuzdan emin olun.
 
 ### Bir satırın sayfalar arasında bölünmeye izin verip vermediğini nasıl kontrol edebilirim?  
- Bir satırın sayfalar arasında geçişe izin verip vermediğini şuraya erişerek kontrol edebilirsiniz:`AllowBreakAcrossPages` mülkiyeti`RowFormat` ve değerini kontrol ediyoruz.
+Bir satırın sayfalar arasında geçişe izin verip vermediğini şuraya erişerek kontrol edebilirsiniz: `AllowBreakAcrossPages` mülkiyeti `RowFormat` ve değerini kontrol ediyoruz.
 
 ### Bu ayarı bir belgedeki tüm tablolara uygulamanın bir yolu var mı?  
 Evet, belgedeki tüm tablolar arasında dolaşabilir ve bu ayarı her birine uygulayabilirsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

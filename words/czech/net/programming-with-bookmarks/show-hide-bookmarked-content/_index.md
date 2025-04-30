@@ -1,34 +1,36 @@
 ---
-title: Zobrazit skrýt obsah označený záložkou v dokumentu aplikace Word
-linktitle: Zobrazit skrýt obsah označený záložkou v dokumentu aplikace Word
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak zobrazit a skrýt obsah se záložkami v dokumentech aplikace Word pomocí Aspose.Words for .NET pomocí tohoto podrobného průvodce krok za krokem.
-weight: 10
-url: /cs/net/programming-with-bookmarks/show-hide-bookmarked-content/
+"description": "Naučte se, jak zobrazit a skrýt obsah záložek v dokumentech Word pomocí Aspose.Words pro .NET s tímto podrobným návodem krok za krokem."
+"linktitle": "Zobrazit/skrýt obsah uložený v záložkách v dokumentu Word"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Zobrazit/skrýt obsah uložený v záložkách v dokumentu Word"
+"url": "/cs/net/programming-with-bookmarks/show-hide-bookmarked-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zobrazit skrýt obsah označený záložkou v dokumentu aplikace Word
+# Zobrazit/skrýt obsah uložený v záložkách v dokumentu Word
 
 ## Zavedení
 
-Jste připraveni ponořit se do světa manipulace s dokumenty s Aspose.Words pro .NET? Ať už jste vývojář, který chce automatizovat úlohy s dokumenty, nebo jen někdo, kdo se zajímá o práci se soubory Wordu programově, jste na správném místě. Dnes prozkoumáme, jak zobrazit a skrýt obsah označený záložkou v dokumentu aplikace Word pomocí Aspose.Words for .NET. Tento podrobný průvodce z vás udělá profesionála v ovládání viditelnosti obsahu na základě záložek. Začněme!
+Jste připraveni ponořit se do světa manipulace s dokumenty s Aspose.Words pro .NET? Ať už jste vývojář, který chce automatizovat úlohy s dokumenty, nebo se jen zajímáte o programovou práci se soubory Wordu, jste na správném místě. Dnes se podíváme na to, jak zobrazit a skrýt obsah označený záložkami v dokumentu Wordu pomocí Aspose.Words pro .NET. Tento podrobný návod z vás udělá profesionála v ovládání viditelnosti obsahu na základě záložek. Pojďme na to!
 
 ## Předpoklady
 
-Než se vrhneme na to, co je v pořádku, je několik věcí, které budete potřebovat:
+Než se pustíme do detailů, je tu pár věcí, které budete potřebovat:
 
 1. Visual Studio: Jakákoli verze kompatibilní s .NET.
-2.  Aspose.Words pro .NET: Stáhněte si ji[zde](https://releases.aspose.com/words/net/).
-3. Základní porozumění C#: Pokud umíte napsat jednoduchý program „Hello World“, můžete začít.
-4. Dokument aplikace Word se záložkami: Pro tento výukový program použijeme vzorový dokument se záložkami.
+2. Aspose.Words pro .NET: Stáhněte si jej [zde](https://releases.aspose.com/words/net/).
+3. Základní znalost C#: Pokud umíte napsat jednoduchý program typu „Hello World“, můžete začít.
+4. Dokument Word se záložkami: V tomto tutoriálu použijeme vzorový dokument se záložkami.
 
 ## Importovat jmenné prostory
 
-Nejprve importujme potřebné jmenné prostory. To zajišťuje, že máme všechny nástroje, které pro náš úkol potřebujeme.
+Nejdříve si importujme potřebné jmenné prostory. Tím zajistíme, že budeme mít všechny nástroje, které pro náš úkol potřebujeme.
 
 ```csharp
 using System;
@@ -36,43 +38,43 @@ using Aspose.Words;
 using Aspose.Words.Bookmark;
 ```
 
-těmito jmennými prostory na místě jsme všichni připraveni vyrazit na cestu.
+S těmito jmennými prostory na místě jsme připraveni vydat se na naši cestu.
 
-## Krok 1: Nastavení vašeho projektu
+## Krok 1: Nastavení projektu
 
-Dobře, začněme tím, že náš projekt nastavíme ve Visual Studiu.
+Dobře, začněme nastavením našeho projektu ve Visual Studiu.
 
 ### Vytvořit nový projekt
 
-Otevřete Visual Studio a vytvořte nový projekt Console App (.NET Core). Pojmenujte to nějak chytlavě, například „BookmarkVisibilityManager“.
+Otevřete Visual Studio a vytvořte nový projekt konzolové aplikace (.NET Core). Pojmenujte ho nějak chytlavě, například „BookmarkVisibilityManager“.
 
-### Přidejte Aspose.Words pro .NET
+### Přidat Aspose.Words pro .NET
 
-Do projektu budete muset přidat Aspose.Words for .NET. Můžete to udělat pomocí Správce balíčků NuGet.
+Do projektu budete muset přidat Aspose.Words pro .NET. Můžete to udělat pomocí Správce balíčků NuGet.
 
-1. Přejděte na Nástroje > Správce balíčků NuGet > Spravovat balíčky NuGet pro řešení.
-2. Vyhledejte "Aspose.Words".
+1. Přejděte do nabídky Nástroje > Správce balíčků NuGet > Spravovat balíčky NuGet pro řešení.
+2. Hledat „Aspose.Words“.
 3. Nainstalujte balíček.
 
-Velký! Nyní, když je náš projekt nastaven, přejděme k načítání našeho dokumentu.
+Skvělé! Nyní, když je náš projekt nastavený, pojďme k načtení našeho dokumentu.
 
-## Krok 2: Vložení dokumentu
+## Krok 2: Načtení dokumentu
 
-Musíme načíst dokument aplikace Word, který obsahuje záložky. Pro tento tutoriál použijeme vzorový dokument s názvem „Bookmarks.docx“.
+Potřebujeme načíst dokument Wordu, který obsahuje záložky. V tomto tutoriálu použijeme vzorový dokument s názvem „Bookmarks.docx“.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Bookmarks.docx");
 ```
 
- Tento fragment kódu nastaví cestu k adresáři vašeho dokumentu a načte dokument do`doc` objekt.
+Tento úryvek kódu nastaví cestu k adresáři s dokumenty a načte dokument do `doc` objekt.
 
-## Krok 3: Zobrazit/skrýt obsah označený záložkou
+## Krok 3: Zobrazit/skrýt obsah uložený v záložkách
 
-Nyní přichází ta zábavná část – zobrazení nebo skrytí obsahu na základě záložek. Vytvoříme metodu tzv`ShowHideBookmarkedContent` zvládnout tohle.
+A teď přichází ta zábavná část – zobrazení nebo skrytí obsahu na základě záložek. Vytvoříme metodu s názvem `ShowHideBookmarkedContent` aby to zvládl/a.
 
-Zde je metoda, která přepne viditelnost obsahu v záložkách:
+Zde je metoda, která přepne viditelnost obsahu uloženého v záložkách:
 
 ```csharp
 public void ShowHideBookmarkedContent(Document doc, string bookmarkName, bool isHidden)
@@ -92,15 +94,15 @@ public void ShowHideBookmarkedContent(Document doc, string bookmarkName, bool is
 }
 ```
 
-### Rozdělení metody
+### Rozklad metody
 
--  Načítání záložek:`Bookmark bm = doc.Range.Bookmarks[bookmarkName];` načte záložku.
-- Procházení uzlem: Procházíme uzly v záložce.
--  Přepínač viditelnosti: Pokud je uzel a`Run` (souvislý běh textu), nastavíme jeho`Hidden` vlastnictví.
+- Vyhledávání záložek: `Bookmark bm = doc.Range.Bookmarks[bookmarkName];` načte záložku.
+- Průchod uzlem: Procházíme uzly v záložce.
+- Přepínač viditelnosti: Pokud je uzel `Run` (souvislý sled textu), nastavíme jeho `Hidden` vlastnictví.
 
 ## Krok 4: Použití metody
 
-S naší metodou ji použijte k zobrazení nebo skrytí obsahu založeného na záložce.
+naší metodou na místě ji aplikujme k zobrazení nebo skrytí obsahu na základě záložky.
 
 ```csharp
 ShowHideBookmarkedContent(doc, "MyBookmark1", true);
@@ -110,37 +112,42 @@ Tento řádek kódu skryje obsah v záložce s názvem „MyBookmark1“.
 
 ## Krok 5: Uložení dokumentu
 
-Nakonec náš upravený dokument uložíme.
+Nakonec si uložme upravený dokument.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithBookmarks.ShowHideBookmarks.docx");
 ```
 
-Tím se dokument uloží se změnami, které jsme provedli.
+Tím se dokument uloží s provedenými změnami.
 
 ## Závěr
 
-tady to máte! Právě jste se naučili, jak zobrazit a skrýt obsah se záložkami v dokumentu aplikace Word pomocí Aspose.Words for .NET. Díky tomuto výkonnému nástroji je manipulace s dokumenty hračkou, ať už automatizujete sestavy, vytváříte šablony nebo si jen hrajete se soubory aplikace Word. Šťastné kódování!
+A tady to máte! Právě jste se naučili, jak zobrazit a skrýt obsah záložek v dokumentu Word pomocí Aspose.Words pro .NET. Tento výkonný nástroj usnadňuje manipulaci s dokumenty, ať už automatizujete sestavy, vytváříte šablony nebo si jen hrajete se soubory Wordu. Přejeme vám příjemné programování!
 
-## FAQ
+## Často kladené otázky
 
-### Mohu přepnout více záložek najednou?
- Ano, můžete zavolat na`ShowHideBookmarkedContent` pro každou záložku, kterou chcete přepnout.
+### Mohu přepínat více záložek najednou?
+Ano, můžete zavolat na `ShowHideBookmarkedContent` pro každou záložku, kterou chcete přepnout.
 
 ### Ovlivňuje skrytí obsahu strukturu dokumentu?
-Ne, skrytí obsahu ovlivní pouze jeho viditelnost. Obsah zůstává v dokumentu.
+Ne, skrytí obsahu ovlivní pouze jeho viditelnost. Obsah v dokumentu zůstává.
 
-### Mohu tuto metodu použít pro jiné typy obsahu?
-Tato metoda konkrétně přepíná spouštění textu. U ostatních typů obsahu budete muset upravit logiku procházení uzlu.
+### Mohu tuto metodu použít i pro jiné typy obsahu?
+Tato metoda konkrétně přepíná průchod textu. Pro ostatní typy obsahu budete muset upravit logiku procházení uzlů.
 
-### Je Aspose.Words for .NET zdarma?
- Aspose.Words nabízí bezplatnou zkušební verzi[zde](https://releases.aspose.com/) , ale pro produkční použití je vyžadována plná licence. Můžete si jej zakoupit[zde](https://purchase.aspose.com/buy).
+### Je Aspose.Words pro .NET zdarma?
+Aspose.Words nabízí bezplatnou zkušební verzi [zde](https://releases.aspose.com/), ale pro produkční použití je vyžadována plná licence. Můžete si ji zakoupit [zde](https://purchase.aspose.com/buy).
 
 ### Jak mohu získat podporu, pokud narazím na problémy?
- Můžete získat podporu od komunity Aspose[zde](https://forum.aspose.com/c/words/8).
+Podporu můžete získat od komunity Aspose [zde](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

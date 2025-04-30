@@ -1,14 +1,16 @@
 ---
-title: Dołącz dokument do pustego miejsca
-linktitle: Dołącz dokument do pustego miejsca
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak bezproblemowo dołączyć dokument do pustego dokumentu za pomocą Aspose.Words dla .NET. Zawiera przewodnik krok po kroku, fragmenty kodu i często zadawane pytania.
-weight: 10
-url: /pl/net/join-and-append-documents/append-document-to-blank/
+"description": "Dowiedz się, jak bezproblemowo dołączyć dokument do pustego dokumentu za pomocą Aspose.Words dla .NET. Zawiera przewodnik krok po kroku, fragmenty kodu i często zadawane pytania."
+"linktitle": "Dołącz dokument do pustego miejsca"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Dołącz dokument do pustego miejsca"
+"url": "/pl/net/join-and-append-documents/append-document-to-blank/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dołącz dokument do pustego miejsca
@@ -21,11 +23,11 @@ Cześć! Czy kiedykolwiek zastanawiałeś się, jak płynnie dołączyć dokumen
 
 Zanim przejdziemy do konkretów, jest kilka rzeczy, które musisz mieć na miejscu:
 
-1.  Biblioteka Aspose.Words dla .NET: Można ją pobrać ze strony[Wydania Aspose](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Można ją pobrać ze strony [Wydania Aspose](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub inne środowisko IDE zgodne z platformą .NET.
 3. Podstawowa znajomość języka C#: Choć będziemy trzymać się prostoty, odrobina znajomości języka C# bardzo się przyda.
 4. Dokument źródłowy: Dokument programu Word, który chcesz dołączyć do pustego dokumentu.
-5.  Licencja (opcjonalna): Jeśli nie korzystasz z wersji próbnej, może być potrzebna[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub[pełna licencja](https://purchase.aspose.com/buy).
+5. Licencja (opcjonalna): Jeśli nie korzystasz z wersji próbnej, może być potrzebna [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub [pełna licencja](https://purchase.aspose.com/buy).
 
 ## Importuj przestrzenie nazw
 
@@ -54,7 +56,7 @@ Aby rozpocząć, musisz skonfigurować środowisko projektu. Obejmuje to utworze
    Install-Package Aspose.Words
    ```
 
-To polecenie spowoduje pobranie i zainstalowanie biblioteki Aspose.Words w projekcie, co umożliwi dostęp do wszystkich zaawansowanych funkcji manipulowania dokumentami.
+To polecenie spowoduje pobranie i zainstalowanie biblioteki Aspose.Words w projekcie, co umożliwi dostęp do wszystkich zaawansowanych funkcji manipulowania dokumentem.
 
 ## Krok 2: Załaduj dokument źródłowy
 
@@ -72,7 +74,7 @@ Teraz, gdy nasz projekt jest skonfigurowany, załadujmy dokument źródłowy, kt
    Document srcDoc = new Document(dataDir + "Document source.docx");
    ```
 
- Ten fragment kodu ładuje dokument źródłowy do`Document` obiekt, który dodamy do naszego pustego dokumentu w kolejnych krokach.
+Ten fragment kodu ładuje dokument źródłowy do `Document` obiekt, który dodamy do naszego pustego dokumentu w kolejnych krokach.
 
 ## Krok 3: Utwórz i przygotuj dokument docelowy
 
@@ -94,7 +96,7 @@ Dzięki temu mamy pewność, że dokument docelowy jest całkowicie pusty, co po
 
 ## Krok 4: Dołącz dokument źródłowy
 
-Mając już przygotowane dokumenty źródłowy i docelowy, czas dołączyć dokument źródłowy do pustego.
+Mając już przygotowany dokument źródłowy i docelowy, pora dołączyć dokument źródłowy do pustego.
 
 1. Dołącz dokument źródłowy do dokumentu docelowego:
 
@@ -124,15 +126,15 @@ Dołączanie dokumentów za pomocą Aspose.Words dla .NET jest dziecinnie proste
 
 ### Czy mogę dołączyć wiele dokumentów do jednego dokumentu docelowego?
 
-Tak, możesz dołączyć wiele dokumentów, wielokrotnie wywołując`AppendDocument` metoda dla każdego dokumentu.
+Tak, możesz dołączyć wiele dokumentów, wielokrotnie wywołując `AppendDocument` metoda dla każdego dokumentu.
 
 ### Co się stanie, jeśli dokument źródłowy będzie miał inne formatowanie?
 
- Ten`ImportFormatMode.KeepSourceFormatting` zapewnia zachowanie formatowania dokumentu źródłowego po dodaniu.
+Ten `ImportFormatMode.KeepSourceFormatting` zapewnia zachowanie formatowania dokumentu źródłowego po dodaniu.
 
-### Czy potrzebuję licencji, aby korzystać z Aspose.Words?
+### Czy potrzebuję licencji, aby używać Aspose.Words?
 
- Możesz zacząć od[bezpłatny okres próbny](https://releases.aspose.com/) lub zdobądź[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) dla rozszerzonych funkcji.
+Możesz zacząć od [bezpłatny okres próbny](https://releases.aspose.com/) lub zdobądź [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) dla rozszerzonych funkcji.
 
 ### Czy mogę dołączać dokumenty różnych typów, np. DOCX i DOC?
 
@@ -141,9 +143,14 @@ Tak, Aspose.Words obsługuje różne formaty dokumentów i umożliwia łączenie
 ### Jak mogę rozwiązać problem, jeśli załączony dokument wygląda nieprawidłowo?
 
 Sprawdź, czy dokument docelowy jest całkowicie pusty przed dołączeniem. Wszelkie pozostałości treści mogą powodować problemy z formatowaniem.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

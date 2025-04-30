@@ -1,14 +1,16 @@
 ---
-title: Цитировать
-linktitle: Цитировать
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как добавлять кавычки и вложенные блочные кавычки в документы Word с помощью Aspose.Words для .NET. Следуйте этому пошаговому руководству по созданию мастер-документа.
-weight: 10
-url: /ru/net/working-with-markdown/quote/
+"description": "Узнайте, как добавлять кавычки и вложенные блочные кавычки в документы Word с помощью Aspose.Words для .NET. Следуйте этому пошаговому руководству по созданию мастер-документа."
+"linktitle": "Цитировать"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Цитировать"
+"url": "/ru/net/working-with-markdown/quote/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Цитировать
@@ -23,7 +25,7 @@ Aspose.Words for .NET — это невероятная библиотека, к
 
 Прежде чем начать, вам необходимо подготовить несколько вещей:
 
--  Aspose.Words для .NET: Вы можете скачать его[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: Вы можете скачать его [здесь](https://releases.aspose.com/words/net/).
 - Среда разработки .NET: убедитесь, что у вас установлена Visual Studio или любая другая IDE .NET.
 - Базовые знания C#: в этом руководстве предполагается, что у вас есть базовые знания программирования на C#.
 
@@ -43,14 +45,14 @@ using Aspose.Words.Tables;
 
 ## Шаг 1: Создание экземпляра DocumentBuilder
 
- Для начала нам нужно создать экземпляр`DocumentBuilder` класс. Этот класс позволяет нам добавлять содержимое в наш документ.
+Для начала нам нужно создать экземпляр `DocumentBuilder` класс. Этот класс позволяет нам добавлять содержимое в наш документ.
 
 ```csharp
 // Используйте конструктор документов для добавления контента в документ.
 DocumentBuilder builder = new DocumentBuilder();
 ```
 
- The`DocumentBuilder` class — это ваш шлюз для создания и настройки вашего документа. Думайте о нем как о волшебной палочке для создания документов Word!
+The `DocumentBuilder` class — это ваш шлюз для создания и настройки вашего документа. Думайте о нем как о волшебной палочке для создания документов Word!
 
 ## Шаг 2: Добавьте цитату
 
@@ -80,7 +82,7 @@ builder.Writeln("1. Nested blockquote");
 
 ## Заключение
 
-И вот оно! Вы только что создали документ Word с цитатами и вложенными блоками цитат с помощью Aspose.Words for .NET. Разве это не здорово? С помощью этих простых шагов вы теперь можете добавить нотку элегантности в свои документы с помощью красиво отформатированных цитат. Помните, практика ведет к совершенству, поэтому продолжайте экспериментировать и совершенствовать свои навыки.
+И вот оно! Вы только что создали документ Word с цитатами и вложенными блоками цитат с помощью Aspose.Words для .NET. Разве это не здорово? С помощью этих простых шагов вы теперь можете добавить нотку элегантности в свои документы с помощью красиво отформатированных цитат. Помните, практика ведет к совершенству, поэтому продолжайте экспериментировать и совершенствовать свои навыки.
 
 ## Часто задаваемые вопросы
 
@@ -90,22 +92,27 @@ Aspose.Words for .NET — мощная библиотека для работы 
 
 ### Могу ли я использовать Aspose.Words для .NET бесплатно?
 
-Вы можете попробовать Aspose.Words for .NET бесплатно с временной лицензией. Вы можете получить его[здесь](https://purchase.aspose.com/temporary-license/).
+Вы можете попробовать Aspose.Words for .NET бесплатно с временной лицензией. Вы можете получить его [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Существует ли подробная документация по Aspose.Words для .NET?
 
- Да, вы можете найти подробную документацию[здесь](https://reference.aspose.com/words/net/).
+Да, вы можете найти подробную документацию [здесь](https://reference.aspose.com/words/net/).
 
 ### Как получить поддержку по Aspose.Words для .NET?
 
- Для получения поддержки вы можете посетить форум Aspose.Words.[здесь](https://forum.aspose.com/c/words/8).
+Для получения поддержки вы можете посетить форум Aspose.Words. [здесь](https://forum.aspose.com/c/words/8).
 
 ### Где можно скачать Aspose.Words для .NET?
 
- Вы можете загрузить Aspose.Words для .NET с сайта[здесь](https://releases.aspose.com/words/net/).
+Вы можете загрузить Aspose.Words для .NET с сайта [здесь](https://releases.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

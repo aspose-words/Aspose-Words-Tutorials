@@ -1,97 +1,104 @@
 ---
-title: Dokumentum miniatűrök generálása
-linktitle: Dokumentum miniatűrök generálása
-second_title: Aspose.Words Java Document Processing API
-description: Ismerje meg, hogyan hozhat létre dokumentumbélyegképeket az Aspose.Words for Java használatával. Fokozza a felhasználói élményt vizuális előnézetekkel.
-weight: 11
-url: /hu/java/document-rendering/document-thumbnail-generation/
+"description": "Tanuld meg, hogyan generálhatsz dokumentumok bélyegképeit az Aspose.Words for Java használatával. Javítsd a felhasználói élményt vizuális előnézetekkel."
+"linktitle": "Dokumentumbélyegkép-generálás"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Dokumentumbélyegkép-generálás"
+"url": "/hu/java/document-rendering/document-thumbnail-generation/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dokumentum miniatűrök generálása
+# Dokumentumbélyegkép-generálás
 
 
-## Bevezetés a dokumentum miniatűrök generálásába
+## Bevezetés a dokumentumbélyegképek generálásába
 
-A dokumentum miniatűrök generálása magában foglalja a dokumentum miniatűr vizuális megjelenítését, amelyet gyakran előnézeti képként jelenítenek meg. Lehetővé teszi a felhasználók számára, hogy gyorsan felmérjék a dokumentum tartalmát anélkül, hogy teljesen kinyitnák.
+dokumentumbélyegképek létrehozása a dokumentum miniatűr vizuális ábrázolásának létrehozását jelenti, amely gyakran előnézeti képként jelenik meg. Lehetővé teszi a felhasználók számára, hogy gyorsan felmérjék a dokumentum tartalmát anélkül, hogy teljesen megnyitnák.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-- Java fejlesztői környezet: Győződjön meg arról, hogy a Java telepítve van a rendszeren.
--  Aspose.Words for Java: Töltse le és telepítse az Aspose.Words for Java programot a webhelyről[itt](https://releases.aspose.com/words/java/).
-- Integrált fejlesztői környezet (IDE): bármilyen Java IDE-t használhat, például az Eclipse-t vagy az IntelliJ IDEA-t.
+- Java fejlesztői környezet: Győződjön meg róla, hogy a Java telepítve van a rendszerén.
+- Aspose.Words for Java: Töltse le és telepítse az Aspose.Words for Java programot a weboldalról [itt](https://releases.aspose.com/words/java/).
+- Integrált fejlesztői környezet (IDE): Bármelyik Java IDE-t használhatod, például az Eclipse-t vagy az IntelliJ IDEA-t.
 
-## 1. lépés: Fejlesztői környezet beállítása
+## 1. lépés: A fejlesztői környezet beállítása
 
-A kezdéshez győződjön meg arról, hogy a Java és az Aspose.Words for Java telepítve van a rendszerére. A kódoláshoz IDE is kell.
+Első lépésként győződj meg róla, hogy telepítve van a Java és az Aspose.Words for Java a rendszereden. Szükséged lesz egy IDE-re is a kódoláshoz.
 
 ## 2. lépés: Word-dokumentum betöltése
 
-Ebben a lépésben megtudjuk, hogyan tölthet be Word-dokumentumot az Aspose.Words for Java használatával.
+Ebben a lépésben megtanuljuk, hogyan tölthetünk be egy Word dokumentumot az Aspose.Words for Java használatával.
 
 ```java
 // Java kód Word dokumentum betöltéséhez
 Document doc = new Document("sample.docx");
 ```
 
-## 3. lépés: Dokumentum miniatűrök létrehozása
+## 3. lépés: Dokumentumbélyegképek létrehozása
 
-Most merüljünk el a betöltött dokumentumból bélyegképek létrehozásának folyamatában.
+Most pedig merüljünk el a betöltött dokumentumból készült bélyegképek létrehozásának folyamatában.
 
 ```java
-// Java kód a dokumentum bélyegképének létrehozásához
+// Java kód dokumentumbélyegkép létrehozásához
 ByteArrayOutputStream stream = new ByteArrayOutputStream();
 ImageSaveOptions options = new ImageSaveOptions();
 doc.save(stream, options);
 ```
 
-## 4. lépés: A bélyegképek megjelenésének testreszabása
+## 4. lépés: A bélyegkép megjelenésének testreszabása
 
-Testreszabhatja a miniatűrök megjelenését, hogy az megfeleljen az alkalmazás kialakításának és követelményeinek. Ez magában foglalja a beállítási méreteket, a minőséget és a háttérszínt.
+A bélyegképek megjelenését testreszabhatja, hogy az illeszkedjen az alkalmazás kialakításához és követelményeihez. Ez magában foglalja a méretek, a minőség és a háttérszín beállítását.
 
-## 5. lépés: Bélyegképek mentése
+## 5. lépés: Indexképek mentése
 
-Miután létrehozta az indexképet, elmentheti a kívánt helyre.
+Miután létrehoztad a miniatűrt, elmentheted a kívánt helyre.
 
 ```java
-// Java kód a generált bélyegkép mentéséhez
+// Java kód a létrehozott bélyegkép mentéséhez
 FileOutputStream outputStream = new FileOutputStream("thumbnail.png");
 stream.writeTo(outputStream);
 ```
 
 ## Következtetés
 
-Dokumentum miniatűrök létrehozása az Aspose.Words for Java használatával zökkenőmentes módot kínál az alkalmazás felhasználói élményének fokozására a dokumentumok tetszetős előnézetének biztosításával. Ez különösen értékes lehet dokumentumkezelő rendszerekben, tartalomplatformokon és e-kereskedelmi webhelyeken.
+Az Aspose.Words for Java használatával létrehozott dokumentumbélyegképek zökkenőmentes módot kínálnak az alkalmazás felhasználói élményének javítására a dokumentumok vizuálisan vonzó előnézeteinek biztosításával. Ez különösen értékes lehet dokumentumkezelő rendszerekben, tartalomplatformokon és e-kereskedelmi webhelyeken.
 
 ## GYIK
 
-### Hogyan telepíthetem az Aspose.Words for Java programot?
+### Hogyan telepíthetem az Aspose.Words-öt Java-hoz?
 
-Az Aspose.Words for Java telepítéséhez látogasson el a letöltési oldalra[itt](https://releases.aspose.com/words/java/)és kövesse a mellékelt telepítési utasításokat.
+Az Aspose.Words Java-hoz telepítéséhez látogassa meg a letöltési oldalt. [itt](https://releases.aspose.com/words/java/) és kövesse a mellékelt telepítési utasításokat.
 
-### Testreszabhatom a generált bélyegkép méretét?
+### Testreszabhatom a létrehozott miniatűr méretét?
 
-Igen, testreszabhatja a generált bélyegkép méretét a kód méreteinek módosításával. További részletekért lásd az 5. lépést.
+Igen, a létrehozott bélyegkép méretét testreszabhatja a kódban található méretek módosításával. További részletekért lásd az 5. lépést.
 
-### Az Aspose.Words for Java kompatibilis a különböző dokumentumformátumokkal?
+### Kompatibilis az Aspose.Words for Java különböző dokumentumformátumokkal?
 
-Igen, az Aspose.Words for Java különféle dokumentumformátumokat támogat, beleértve a DOCX, DOC, RTF és egyebeket.
+Igen, az Aspose.Words for Java számos dokumentumformátumot támogat, beleértve a DOCX, DOC, RTF és egyebeket.
 
-### Vannak-e licenckövetelmények az Aspose.Words for Java használatához?
+### Vannak-e licenckövetelmények az Aspose.Words Java-ban való használatához?
 
-Igen, az Aspose.Words for Java kereskedelmi használatra érvényes licenc szükséges. A licencet az Aspose webhelyéről szerezheti be.
+Igen, az Aspose.Words for Java kereskedelmi célú felhasználásához érvényes licenc szükséges. A licencet az Aspose weboldalán szerezheti be.
 
-### Hol találhatok további dokumentációt az Aspose.Words for Java-hoz?
+### Hol találok további dokumentációt az Aspose.Words for Java-hoz?
 
- Az Aspose.Words for Java dokumentációs oldalán átfogó dokumentációt és API hivatkozásokat találhat[itt](https://reference.aspose.com/words/java/).
+Átfogó dokumentációt és API-hivatkozásokat találsz az Aspose.Words for Java dokumentációs oldalán. [itt](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

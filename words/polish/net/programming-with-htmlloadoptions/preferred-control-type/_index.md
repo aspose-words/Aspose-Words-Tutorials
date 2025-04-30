@@ -1,14 +1,16 @@
 ---
-title: Preferowany typ kontroli w dokumencie Word
-linktitle: Preferowany typ kontroli w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawić pole formularza combo box do dokumentu Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby uzyskać bezproblemową integrację treści HTML.
-weight: 10
-url: /pl/net/programming-with-htmlloadoptions/preferred-control-type/
+"description": "Dowiedz się, jak wstawić pole formularza combo box do dokumentu Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby uzyskać bezproblemową integrację treści HTML."
+"linktitle": "Preferowany typ kontroli w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Preferowany typ kontroli w dokumencie Word"
+"url": "/pl/net/programming-with-htmlloadoptions/preferred-control-type/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Preferowany typ kontroli w dokumencie Word
@@ -21,7 +23,7 @@ zanurzamy się w ekscytującym samouczku na temat pracy z opcjami ładowania HTM
 
 Zanim przejdziemy do kodu, jest kilka rzeczy, które musisz mieć na miejscu:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony[strona internetowa](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony [strona internetowa](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Należy skonfigurować środowisko programistyczne, np. Visual Studio.
 3. Podstawowa znajomość języka C#: Aby móc uczestniczyć w tym samouczku, konieczna jest podstawowa znajomość programowania w języku C#.
 4. Treść HTML: Podstawowa znajomość języka HTML będzie pomocna, ponieważ w tym przykładzie będziemy pracować z treścią HTML.
@@ -65,17 +67,17 @@ Następnie określ katalog, w którym zostanie zapisany dokument Word. Pomaga to
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać dokument Word.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać dokument Word.
 
 ## Krok 3: Skonfiguruj opcje ładowania HTML
 
- Tutaj konfigurujemy opcje ładowania HTML, skupiając się szczególnie na`PreferredControlType`Właściwość. Określa sposób renderowania pola kombi w dokumencie Word.
+Tutaj konfigurujemy opcje ładowania HTML, skupiając się szczególnie na `PreferredControlType` Właściwość. Określa sposób renderowania pola kombi w dokumencie Word.
 
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions { PreferredControlType = HtmlControlType.StructuredDocumentTag };
 ```
 
- Poprzez ustawienie`PreferredControlType` Do`HtmlControlType.StructuredDocumentTag`, upewniamy się, że pole kombi jest renderowane jako strukturalny znacznik dokumentu (SDT) w dokumencie Word.
+Poprzez ustawienie `PreferredControlType` Do `HtmlControlType.StructuredDocumentTag`, upewniamy się, że pole kombi jest renderowane jako strukturalny znacznik dokumentu (SDT) w dokumencie Word.
 
 ## Krok 4: Załaduj zawartość HTML do dokumentu
 
@@ -99,7 +101,7 @@ Zapisuje dokument Worda z wyrenderowanym polem kombi w określonej lokalizacji.
 
 ## Wniosek
 
-masz! Udało nam się wstawić pole formularza combo box do dokumentu Word przy użyciu Aspose.Words for .NET, wykorzystując opcje ładowania HTML. Ten przewodnik krok po kroku powinien pomóc Ci zrozumieć proces i zastosować go w Twoich projektach. Niezależnie od tego, czy automatyzujesz tworzenie dokumentów, czy manipulujesz treścią HTML, Aspose.Words for .NET zapewnia potężne narzędzia do osiągnięcia Twoich celów.
+I masz! Udało nam się wstawić pole formularza combo box do dokumentu Word przy użyciu Aspose.Words for .NET, wykorzystując opcje ładowania HTML. Ten przewodnik krok po kroku powinien pomóc Ci zrozumieć proces i zastosować go w Twoich projektach. Niezależnie od tego, czy automatyzujesz tworzenie dokumentów, czy manipulujesz treścią HTML, Aspose.Words for .NET zapewnia potężne narzędzia do osiągnięcia Twoich celów.
 
 ## Najczęściej zadawane pytania
 
@@ -110,17 +112,22 @@ Aspose.Words for .NET to zaawansowana biblioteka do edycji dokumentów, która u
 Tak, Aspose.Words dla .NET obsługuje różne typy kontrolek HTML. Możesz dostosować sposób renderowania różnych kontrolek w dokumencie Word.
 
 ### Jak radzić sobie ze złożoną zawartością HTML w Aspose.Words dla platformy .NET?
- Aspose.Words dla .NET zapewnia kompleksowe wsparcie dla HTML, w tym złożonych elementów. Upewnij się, że skonfigurujesz`HtmlLoadOptions`odpowiednio do obsługi konkretnej zawartości HTML.
+Aspose.Words dla .NET zapewnia kompleksowe wsparcie dla HTML, w tym złożonych elementów. Upewnij się, że skonfigurujesz `HtmlLoadOptions` odpowiednio do obsługi konkretnej zawartości HTML.
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?
- Szczegółową dokumentację i przykłady można znaleźć na stronie[Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+Szczegółową dokumentację i przykłady można znaleźć na stronie [Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Words dla .NET?
- Tak, możesz pobrać bezpłatną wersję próbną ze strony[Strona internetowa Aspose](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną ze strony [Strona internetowa Aspose](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

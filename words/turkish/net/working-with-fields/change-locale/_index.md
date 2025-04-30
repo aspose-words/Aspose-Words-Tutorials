@@ -1,14 +1,16 @@
 ---
-title: Yerel Ayarı Değiştir
-linktitle: Yerel Ayarı Değiştir
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kılavuzla Aspose.Words for .NET kullanarak Word belgelerinde yerel ayarları nasıl değiştireceğinizi öğrenin. Uluslararası müşteriler ve projelerle başa çıkmak için mükemmeldir.
-weight: 10
-url: /tr/net/working-with-fields/change-locale/
+"description": "Bu kılavuzla Aspose.Words for .NET kullanarak Word belgelerinde yerel ayarları nasıl değiştireceğinizi öğrenin. Uluslararası müşteriler ve projelerle başa çıkmak için mükemmeldir."
+"linktitle": "Yerel Ayarı Değiştir"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yerel Ayarı Değiştir"
+"url": "/tr/net/working-with-fields/change-locale/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yerel Ayarı Değiştir
@@ -21,11 +23,11 @@ Word belgeleriyle çalışmak, özellikle farklı yerel ayarlar ve kültürlerle
 
 Ayrıntılara dalmadan önce ihtiyacımız olan her şeye sahip olduğumuzdan emin olalım:
 
--  Aspose.Words for .NET: Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - Visual Studio: .NET framework'ü destekleyen herhangi bir sürüm.
 - Temel C# Bilgisi: C# ve .NET temellerini anlamak, takip etmenize yardımcı olacaktır.
 
- Aspose.Words for .NET'i yüklediğinizden emin olun. Yüklemediyseniz, ücretsiz deneme alabilirsiniz[Burada](https://releases.aspose.com/) veya satın al[Burada](https://purchase.aspose.com/buy).
+Aspose.Words for .NET'i yüklediğinizden emin olun. Yüklemediyseniz, ücretsiz deneme alabilirsiniz [Burada](https://releases.aspose.com/) veya satın al [Burada](https://purchase.aspose.com/buy).
 
 ## Ad Alanlarını İçe Aktar
 
@@ -42,7 +44,7 @@ Word belgesindeki yerel ayarı değiştirmek basit bir işlemdir. Adım adım a�
 
 ## Adım 1: Belgenizi Ayarlayın
 
-İlk önce, belgemizi ve belge oluşturucumuzu ayarlayalım. Bu, yemek pişirmeye başlamadan önce çalışma alanınızı ayarlamaya benzer.
+İlk önce ilk iş olarak, belgemizi ve belge oluşturucumuzu ayarlayalım. Bu, yemek pişirmeye başlamadan önce çalışma alanınızı ayarlamaya benzer.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -52,7 +54,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Adım 2: Birleştirme Alanı Ekle
 
-Şimdi tarih için bir birleştirme alanı ekleyeceğiz. Yerel ayarın devreye gireceği yer burasıdır.
+Şimdi, tarih için bir birleştirme alanı ekleyeceğiz. Yerel ayarın devreye gireceği yer burasıdır.
 
 ```csharp
 builder.InsertField("MERGEFIELD Date");
@@ -113,16 +115,21 @@ Evet, Aspose.Words for .NET, yerel ayarların .NET tarafından desteklenen herha
 Yerel ayarı değiştirmek öncelikle tarih ve sayı biçimlerini etkileyecektir. Diğer metinler değişmeden kalacaktır.
 
 ### Aspose.Words for .NET'i kullanmak için özel bir lisansa ihtiyacım var mı?
- Ücretsiz denemeyle başlayabilirsiniz, ancak sürekli kullanım için bir lisans satın almanız gerekir[Burada](https://purchase.aspose.com/buy).
+Ücretsiz denemeyle başlayabilirsiniz, ancak sürekli kullanım için bir lisans satın almanız gerekir [Burada](https://purchase.aspose.com/buy).
 
 ### Bir şeyler ters giderse orijinal yerel ayarlara geri dönebilir miyim?
 Evet, orijinal kültürü kaydedip daha sonra geri yükleyerek orijinal yerel ayarlara geri dönebilirsiniz.
 
 ### Sorun yaşarsam nereden destek alabilirim?
- Aspose topluluğundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/words/8).
+Aspose topluluğundan destek alabilirsiniz [Burada](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: ย้ายไปยังเซลล์ตารางในเอกสาร Word
-linktitle: ย้ายไปยังเซลล์ตารางในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการย้ายไปยังเซลล์ตารางในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้ เหมาะสำหรับนักพัฒนา
-weight: 10
-url: /th/net/add-content-using-documentbuilder/move-to-table-cell/
+"description": "เรียนรู้วิธีการย้ายไปยังเซลล์ตารางในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้ เหมาะสำหรับนักพัฒนา"
+"linktitle": "ย้ายไปยังเซลล์ตารางในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ย้ายไปยังเซลล์ตารางในเอกสาร Word"
+"url": "/th/net/add-content-using-documentbuilder/move-to-table-cell/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ย้ายไปยังเซลล์ตารางในเอกสาร Word
@@ -21,7 +23,7 @@ url: /th/net/add-content-using-documentbuilder/move-to-table-cell/
 
 ก่อนที่เราจะเริ่ม มีข้อกำหนดเบื้องต้นบางประการที่คุณต้องทำ ต่อไปนี้คือสิ่งที่คุณต้องมี:
 
-1.  Aspose.Words สำหรับไลบรารี .NET: ดาวน์โหลดและติดตั้งจาก[เว็บไซต์](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับไลบรารี .NET: ดาวน์โหลดและติดตั้งจาก [เว็บไซต์](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE C# อื่นๆ
 3. ความเข้าใจพื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณทำตามได้
 
@@ -47,9 +49,9 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
-## ขั้นตอนที่ 2: เริ่มต้น DocumentBuilder
+## ขั้นตอนที่ 2: เริ่มต้นใช้งาน DocumentBuilder
 
- ต่อไปเราต้องสร้างอินสแตนซ์ของ`DocumentBuilder`คลาสที่มีประโยชน์นี้ช่วยให้เราสามารถนำทางและปรับเปลี่ยนเอกสารได้อย่างง่ายดาย
+ต่อไปเราต้องสร้างอินสแตนซ์ของ `DocumentBuilder`คลาสที่มีประโยชน์นี้ช่วยให้เราสามารถนำทางและปรับเปลี่ยนเอกสารได้อย่างง่ายดาย
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -88,24 +90,29 @@ Console.WriteLine(table.Rows[2].Cells[3].GetText().Trim());
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถย้ายไปยังเซลล์ใดๆ ในเอกสารหลายตารางได้หรือไม่
- ใช่ โดยระบุดัชนีตารางที่ถูกต้องใน`MoveToCell` วิธีนี้สามารถนำทางไปยังเซลล์ใดๆ ในตารางใดๆ ภายในเอกสารได้
+ใช่ โดยระบุดัชนีตารางที่ถูกต้องใน `MoveToCell` วิธีการนี้คุณสามารถนำทางไปยังเซลล์ใดๆ ในตารางใดๆ ภายในเอกสารได้
 
 ### ฉันจะจัดการเซลล์ที่มีหลายแถวหรือหลายคอลัมน์ได้อย่างไร
- คุณสามารถใช้`RowSpan` และ`ColSpan` คุณสมบัติของ`Cell` คลาสสำหรับจัดการเซลล์ที่ผสานกัน
+คุณสามารถใช้ `RowSpan` และ `ColSpan` คุณสมบัติของ `Cell` คลาสสำหรับจัดการเซลล์ที่ผสานกัน
 
 ### สามารถจัดรูปแบบข้อความภายในเซลล์ได้หรือไม่?
- แน่นอน! ใช้`DocumentBuilder` วิธีการเช่น`Font.Size`, `Font.Bold`และอื่นๆ เพื่อจัดรูปแบบข้อความของคุณ
+แน่นอน! ใช้ `DocumentBuilder` วิธีการเช่น `Font.Size`- `Font.Bold`และอื่นๆ เพื่อจัดรูปแบบข้อความของคุณ
 
 ### ฉันสามารถแทรกองค์ประกอบอื่น ๆ เช่น รูปภาพหรือตารางภายในเซลล์ได้หรือไม่
- ใช่,`DocumentBuilder` ช่วยให้คุณสามารถแทรกภาพ ตาราง และองค์ประกอบอื่น ๆ ในตำแหน่งปัจจุบันภายในเซลล์ได้
+ใช่, `DocumentBuilder` ช่วยให้คุณสามารถแทรกภาพ ตาราง และองค์ประกอบอื่น ๆ ในตำแหน่งปัจจุบันภายในเซลล์ได้
 
 ### ฉันจะบันทึกเอกสารที่แก้ไขได้อย่างไร?
- ใช้`Save` วิธีการของ`Document` คลาสที่จะบันทึกการเปลี่ยนแปลงของคุณ ตัวอย่างเช่น:`doc.Save(dataDir + "UpdatedTables.docx");`
+ใช้ `Save` วิธีการของ `Document` คลาสที่จะบันทึกการเปลี่ยนแปลงของคุณ ตัวอย่างเช่น: `doc.Save(dataDir + "UpdatedTables.docx");`
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

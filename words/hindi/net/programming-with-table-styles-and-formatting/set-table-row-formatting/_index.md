@@ -1,14 +1,16 @@
 ---
-title: तालिका पंक्ति स्वरूपण सेट करें
-linktitle: तालिका पंक्ति स्वरूपण सेट करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: हमारे गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में टेबल पंक्ति स्वरूपण सेट करना सीखें। अच्छी तरह से स्वरूपित और पेशेवर दस्तावेज़ बनाने के लिए बिल्कुल सही।
-weight: 10
-url: /hi/net/programming-with-table-styles-and-formatting/set-table-row-formatting/
+"description": "हमारे गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में टेबल पंक्ति स्वरूपण सेट करना सीखें। अच्छी तरह से स्वरूपित और पेशेवर दस्तावेज़ बनाने के लिए बिल्कुल सही।"
+"linktitle": "तालिका पंक्ति स्वरूपण सेट करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "तालिका पंक्ति स्वरूपण सेट करें"
+"url": "/hi/net/programming-with-table-styles-and-formatting/set-table-row-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # तालिका पंक्ति स्वरूपण सेट करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-table-styles-and-formatting/set-table-row-formatti
 
 ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 
-1.  Aspose.Words for .NET - यदि आपने पहले से ऐसा नहीं किया है, तो इसे यहां से डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET - यदि आपने पहले से ऐसा नहीं किया है, तो इसे यहां से डाउनलोड और इंस्टॉल करें [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास पर्यावरण - कोई भी IDE जैसे विजुअल स्टूडियो जो .NET का समर्थन करता है।
 3. C# का बुनियादी ज्ञान - C# की बुनियादी अवधारणाओं को समझने से आपको आसानी से आगे बढ़ने में मदद मिलेगी।
 
@@ -50,7 +52,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## चरण 2: तालिका प्रारंभ करें
 
- इसके बाद, आप तालिका बनाना शुरू करेंगे।`DocumentBuilder` क्लास तालिकाओं को सम्मिलित करने और प्रारूपित करने का एक सरल तरीका प्रदान करता है।
+इसके बाद, आप तालिका बनाना शुरू करेंगे। `DocumentBuilder` क्लास तालिकाओं को सम्मिलित करने और प्रारूपित करने का एक सरल तरीका प्रदान करता है।
 
 ```csharp
 Table table = builder.StartTable();
@@ -103,23 +105,28 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableR
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### क्या मैं तालिका में प्रत्येक पंक्ति के लिए अलग-अलग स्वरूपण सेट कर सकता हूँ?
- हां, आप अलग-अलग प्रारूप लागू करके प्रत्येक पंक्ति के लिए अलग-अलग स्वरूपण सेट कर सकते हैं`RowFormat` आपके द्वारा बनाई गई प्रत्येक पंक्ति के लिए गुण.
+हां, आप अलग-अलग प्रारूप लागू करके प्रत्येक पंक्ति के लिए अलग-अलग स्वरूपण सेट कर सकते हैं `RowFormat` आपके द्वारा बनाई गई प्रत्येक पंक्ति के लिए गुण.
 
 ### क्या तालिका कक्षों में छवियों जैसे अन्य तत्वों को जोड़ना संभव है?
- बिल्कुल! आप टेबल सेल में इमेज, शेप और अन्य तत्व डाल सकते हैं`DocumentBuilder` कक्षा।
+बिल्कुल! आप टेबल सेल में इमेज, शेप और अन्य तत्व डाल सकते हैं `DocumentBuilder` कक्षा।
 
 ### मैं तालिका कक्षों में पाठ संरेखण कैसे बदलूं?
- आप सेट करके पाठ संरेखण बदल सकते हैं`ParagraphFormat.Alignment` की संपत्ति`DocumentBuilder` वस्तु।
+आप सेट करके पाठ संरेखण बदल सकते हैं `ParagraphFormat.Alignment` की संपत्ति `DocumentBuilder` वस्तु।
 
 ### क्या मैं .NET के लिए Aspose.Words का उपयोग करके तालिका में कक्षों को मर्ज कर सकता हूँ?
- हां, आप इसका उपयोग करके कोशिकाओं को मर्ज कर सकते हैं`CellFormat.HorizontalMerge` और`CellFormat.VerticalMerge` गुण।
+हां, आप इसका उपयोग करके कोशिकाओं को मर्ज कर सकते हैं `CellFormat.HorizontalMerge` और `CellFormat.VerticalMerge` गुण।
 
 ### क्या तालिका को पूर्वनिर्धारित शैलियों के साथ स्टाइल करने का कोई तरीका है?
- हां, .NET के लिए Aspose.Words आपको पूर्वनिर्धारित तालिका शैलियों को लागू करने की अनुमति देता है`Table.Style` संपत्ति।
+हां, .NET के लिए Aspose.Words आपको पूर्वनिर्धारित तालिका शैलियों को लागू करने की अनुमति देता है `Table.Style` संपत्ति।
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

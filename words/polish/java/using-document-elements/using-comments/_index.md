@@ -1,26 +1,28 @@
 ---
-title: Korzystanie z komentarzy w Aspose.Words dla Java
-linktitle: Korzystanie z komentarzy
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak używać komentarzy w Aspose.Words for Java. Samouczek krok po kroku dotyczący dodawania i dostosowywania komentarzy w dokumentach.
-weight: 10
-url: /pl/java/using-document-elements/using-comments/
+"description": "Dowiedz się, jak używać komentarzy w Aspose.Words for Java. Samouczek krok po kroku dotyczący dodawania i dostosowywania komentarzy w dokumentach."
+"linktitle": "Korzystanie z komentarzy"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Korzystanie z komentarzy w Aspose.Words dla Java"
+"url": "/pl/java/using-document-elements/using-comments/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie z komentarzy w Aspose.Words dla Java
 
 
-świecie przetwarzania dokumentów dodawanie komentarzy do dokumentów może być istotną funkcją. Umożliwia współpracę, opinie i adnotacje dotyczące treści. Aspose.Words for Java zapewnia solidne i wszechstronne API do pracy z dokumentami, a w tym samouczku krok po kroku zbadamy, jak używać komentarzy w Aspose.Words for Java.
+W świecie przetwarzania dokumentów dodawanie komentarzy do dokumentów może być istotną funkcją. Umożliwia współpracę, opinie i adnotacje dotyczące treści. Aspose.Words for Java zapewnia solidne i wszechstronne API do pracy z dokumentami, a w tym samouczku krok po kroku zbadamy, jak używać komentarzy w Aspose.Words for Java.
 
 ## 1. Wprowadzenie
 Komentarze są cenne do dokumentowania kodu lub dostarczania wyjaśnień w dokumencie. Aspose.Words for Java pozwala programowo dodawać komentarze do dokumentów, co czyni go doskonałym wyborem do generowania dynamicznych i interaktywnych dokumentów.
 
 ## 2. Konfigurowanie środowiska
- Zanim zagłębimy się w kod, musisz skonfigurować środowisko programistyczne. Upewnij się, że masz zainstalowany i skonfigurowany Aspose.Words for Java. Jeśli nie, możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/words/java/).
+Zanim zagłębimy się w kod, musisz skonfigurować środowisko programistyczne. Upewnij się, że masz zainstalowany i skonfigurowany Aspose.Words for Java. Jeśli nie, możesz go pobrać ze strony [Tutaj](https://releases.aspose.com/words/java/).
 
 ## 3. Tworzenie nowego dokumentu
 Zacznijmy od utworzenia nowego dokumentu. Upewnij się, że w projekcie Java dodano niezbędne biblioteki i zależności.
@@ -95,9 +97,14 @@ Aspose.Words for Java umożliwia dodawanie komentarzy o różnej długości, w k
 
 Teraz, gdy masz już pełne zrozumienie pracy z komentarzami w Aspose.Words for Java, możesz z łatwością zacząć tworzyć dynamiczne i informacyjne dokumenty. Miłego kodowania!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: फ़ॉन्ट को बेस 64 के रूप में निर्यात करें
-linktitle: फ़ॉन्ट को बेस 64 के रूप में निर्यात करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस विस्तृत ट्यूटोरियल में जानें कि .NET के लिए Aspose.Words का उपयोग करके बेस64 के रूप में फ़ॉन्ट कैसे निर्यात करें। सुनिश्चित करें कि फ़ॉन्ट HTML फ़ाइलों में सही तरीके से एम्बेड और प्रदर्शित किए गए हैं।
-weight: 10
-url: /hi/net/programming-with-htmlsaveoptions/export-fonts-as-base-64/
+"description": "इस विस्तृत ट्यूटोरियल में जानें कि .NET के लिए Aspose.Words का उपयोग करके बेस64 के रूप में फ़ॉन्ट कैसे निर्यात करें। सुनिश्चित करें कि फ़ॉन्ट HTML फ़ाइलों में सही तरीके से एम्बेड और प्रदर्शित किए गए हैं।"
+"linktitle": "फ़ॉन्ट को बेस 64 के रूप में निर्यात करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "फ़ॉन्ट को बेस 64 के रूप में निर्यात करें"
+"url": "/hi/net/programming-with-htmlsaveoptions/export-fonts-as-base-64/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # फ़ॉन्ट को बेस 64 के रूप में निर्यात करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-htmlsaveoptions/export-fonts-as-base-64/
 
 इससे पहले कि हम कोडिंग शुरू करें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
--  Aspose.Words for .NET लाइब्रेरी: आप इसे यहाँ से डाउनलोड कर सकते हैं[एस्पोज रिलीज](https://releases.aspose.com/words/net/) पृष्ठ.
+- .NET लाइब्रेरी के लिए Aspose.Words: आप इसे यहाँ से डाउनलोड कर सकते हैं [एस्पोज रिलीज](https://releases.aspose.com/words/net/) पृष्ठ.
 - .NET विकास वातावरण: विजुअल स्टूडियो जैसा कोई भी IDE पूरी तरह से काम करेगा।
 - C# का बुनियादी ज्ञान: आपको इसमें विशेषज्ञ होने की आवश्यकता नहीं है, लेकिन बुनियादी समझ से मदद मिलेगी।
 
@@ -36,7 +38,7 @@ using Aspose.Words.Saving;
 
 ## चरण 1: अपना प्रोजेक्ट सेट करें
 
-सबसे पहले, आइए अपना प्रोजेक्ट सेट करें और Aspose.Words लाइब्रेरी इंस्टॉल करें।
+सबसे पहले, आइए अपना प्रोजेक्ट सेट करें और Aspose.Words लाइब्रेरी स्थापित करें।
 
 ### 1.1 नया प्रोजेक्ट बनाएं
 
@@ -68,11 +70,11 @@ Install-Package Aspose.Words
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
 
 ### 2.2 दस्तावेज़ लोड करें
 
- इसके बाद, अपने दस्तावेज़ को लोड करें`Document` कक्षा:
+इसके बाद, अपने दस्तावेज़ को लोड करें `Document` कक्षा:
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -82,10 +84,10 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## चरण 3: HTML सहेजें विकल्प कॉन्फ़िगर करें
 
- फ़ॉन्ट्स को बेस64 के रूप में निर्यात करने के लिए, हमें कॉन्फ़िगर करने की आवश्यकता है`HtmlSaveOptions`.
+फ़ॉन्ट्स को बेस64 के रूप में निर्यात करने के लिए, हमें कॉन्फ़िगर करने की आवश्यकता है `HtmlSaveOptions`.
 
 
- इसका एक उदाहरण बनाएं`HtmlSaveOptions` और सेट करें`ExportFontsAsBase64`संपत्ति को`true`:
+इसका एक उदाहरण बनाएं `HtmlSaveOptions` और सेट करें `ExportFontsAsBase64` संपत्ति को `true`:
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions { ExportFontsAsBase64 = true };
@@ -96,7 +98,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions { ExportFontsAsBase64 = true }
 अंत में, आइए कॉन्फ़िगर किए गए विकल्पों के साथ दस्तावेज़ को सेव करें।
 
 
- उपयोग`Save` की विधि`Document` अपने दस्तावेज़ को सहेजने के लिए क्लास:
+उपयोग `Save` की विधि `Document` अपने दस्तावेज़ को सहेजने के लिए क्लास:
 
 ```csharp
 doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ExportFontsAsBase64.html", saveOptions);
@@ -114,7 +116,7 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ExportFontsAsBase64.html", saveOp
 बेस64 बाइनरी डेटा (जैसे फ़ॉन्ट) को टेक्स्ट फ़ॉर्मेट में एनकोड करने की एक विधि है। यह HTML जैसे टेक्स्ट-आधारित फ़ॉर्मेट के साथ संगतता सुनिश्चित करता है।
 
 ### मुझे HTML में फ़ॉन्ट के लिए Base64 का उपयोग क्यों करना चाहिए?
-बेस 64 का उपयोग यह सुनिश्चित करता है कि फ़ॉन्ट सीधे HTML में एम्बेड किए गए हैं, जिससे फ़ॉन्ट फ़ाइलों के गुम होने की समस्या से बचा जा सकता है और सुसंगत प्रदर्शन सुनिश्चित किया जा सकता है।
+बेस 64 का उपयोग यह सुनिश्चित करता है कि फ़ॉन्ट सीधे HTML में एम्बेड किए गए हैं, जिससे फ़ॉन्ट फ़ाइलों के गुम होने की समस्या से बचा जा सकता है और सुसंगत प्रदर्शन सुनिश्चित होता है।
 
 ### क्या मैं इस विधि का उपयोग छवियों जैसे अन्य संसाधनों के लिए कर सकता हूँ?
 बिल्कुल! .NET के लिए Aspose.Words आपको अपनी HTML फ़ाइलों में Base64 के रूप में छवियों सहित विभिन्न संसाधनों को एम्बेड करने की अनुमति देता है।
@@ -123,11 +125,16 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ExportFontsAsBase64.html", saveOp
 कोई समस्या नहीं! Aspose.Words for .NET आपके दस्तावेज़ में उपयोग किए गए सभी फ़ॉन्ट्स को परिणामी HTML फ़ाइल में Base64 के रूप में एम्बेड कर देगा।
 
 ### क्या .NET के लिए Aspose.Words का उपयोग निःशुल्क है?
- Aspose.Words for .NET एक व्यावसायिक लाइब्रेरी है। हालाँकि, आप यहाँ से एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं।[एस्पोज रिलीज](https://releases.aspose.com/) पृष्ठ.
+Aspose.Words for .NET एक व्यावसायिक लाइब्रेरी है। हालाँकि, आप यहाँ से एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं। [एस्पोज रिलीज](https://releases.aspose.com/) पृष्ठ.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

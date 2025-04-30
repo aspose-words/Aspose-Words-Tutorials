@@ -1,14 +1,16 @@
 ---
-title: Bảo mật tài liệu
-linktitle: Bảo mật tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tăng cường bảo mật tài liệu với Aspose.Words cho Java! Triển khai bảo vệ, mã hóa và chữ ký số để bảo vệ dữ liệu mạnh mẽ.
-weight: 17
-url: /vi/java/document-security/
+"description": "Tăng cường bảo mật tài liệu với Aspose.Words cho Java! Triển khai bảo vệ, mã hóa và chữ ký số để bảo vệ dữ liệu mạnh mẽ."
+"linktitle": "Bảo mật tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Bảo mật tài liệu"
+"url": "/vi/java/document-security/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bảo mật tài liệu
@@ -39,9 +41,13 @@ Tìm hiểu cách mã hóa và giải mã tài liệu bằng Aspose.Words for Ja
 Tìm hiểu cách triển khai chữ ký số an toàn trong tài liệu bằng Aspose.Words cho Java. Đảm bảo tính toàn vẹn của tài liệu với hướng dẫn từng bước và mã nguồn
 ### [Biên tập tài liệu và bảo vệ dữ liệu](./document-redaction-data-protection/)
 Tìm hiểu cách bảo mật tài liệu và biên tập dữ liệu nhạy cảm bằng Aspose.Words cho Java. Hướng dẫn từng bước có mã nguồn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,30 +1,32 @@
 ---
-title: Inserisci indice nel documento Word
-linktitle: Inserisci indice nel documento Word
-second_title: API di elaborazione dei documenti Aspose.Words
-description: Scopri come inserire un indice in Word usando Aspose.Words per .NET. Segui la nostra guida passo passo per una navigazione fluida nei documenti.
-weight: 10
-url: /it/net/add-content-using-documentbuilder/insert-table-of-contents/
+"description": "Scopri come inserire un indice in Word utilizzando Aspose.Words per .NET. Segui la nostra guida passo passo per una navigazione fluida nei documenti."
+"linktitle": "Inserisci indice nel documento Word"
+"second_title": "API di elaborazione dei documenti Aspose.Words"
+"title": "Inserisci indice nel documento Word"
+"url": "/it/net/add-content-using-documentbuilder/insert-table-of-contents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Inserisci indice nel documento Word
 
 ## Introduzione
-In questo tutorial, imparerai come aggiungere in modo efficiente un indice (TOC) ai tuoi documenti Word usando Aspose.Words per .NET. Questa funzionalità è essenziale per organizzare e navigare in documenti lunghi, migliorando la leggibilità e fornendo una rapida panoramica delle sezioni del documento.
+In questo tutorial imparerai come aggiungere in modo efficiente un indice (TOC) ai tuoi documenti Word utilizzando Aspose.Words per .NET. Questa funzionalità è essenziale per organizzare e navigare in documenti lunghi, migliorandone la leggibilità e fornendo una rapida panoramica delle sezioni del documento.
 
 ## Prerequisiti
 
 Prima di iniziare, assicurati di avere quanto segue:
 
 - Conoscenza di base di C# e del framework .NET.
-- Visual Studio installato sul tuo computer.
--  Aspose.Words per la libreria .NET. Se non l'hai ancora installata, puoi scaricarla da[Qui](https://releases.aspose.com/words/net/).
+- Visual Studio installato sul computer.
+- Libreria Aspose.Words per .NET. Se non l'hai ancora installata, puoi scaricarla da [Qui](https://releases.aspose.com/words/net/).
 
-## Importazione degli spazi dei nomi
+## Importa spazi dei nomi
 
 Per iniziare, importa gli spazi dei nomi necessari nel tuo progetto C#:
 
@@ -39,7 +41,7 @@ Analizziamo il processo in passaggi chiari:
 
 ## Passaggio 1: inizializzare il documento Aspose.Words e DocumentBuilder
 
- Per prima cosa, inizializza un nuovo Aspose.Words`Document` oggetto e un`DocumentBuilder` per lavorare con:
+Per prima cosa, inizializza un nuovo Aspose.Words `Document` oggetto e un `DocumentBuilder` per lavorare con:
 
 ```csharp
 // Inizializza Document e DocumentBuilder
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Passaggio 2: inserire l'indice
 
- Ora, inserisci l'indice utilizzando il`InsertTableOfContents` metodo:
+Ora, inserisci l'indice utilizzando il `InsertTableOfContents` metodo:
 
 ```csharp
 // Inserisci indice
@@ -65,7 +67,7 @@ Per garantire una formattazione corretta, iniziare il contenuto effettivo del do
 builder.InsertBreak(BreakType.PageBreak);
 ```
 
-## Passaggio 4: struttura il tuo documento con le intestazioni
+## Fase 4: strutturare il documento con le intestazioni
 
 Organizza il contenuto del tuo documento utilizzando stili di intestazione appropriati:
 
@@ -95,16 +97,16 @@ builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 ```
 
-## Passaggio 5: aggiornare e popolare l'indice
+## Passaggio 5: aggiornare e popolare il sommario
 
 Aggiornare l'indice per riflettere la struttura del documento:
 
 ```csharp
-// Aggiorna i campi dell'indice
+// Aggiorna i campi del sommario
 doc.UpdateFields();
 ```
 
-## Passaggio 6: Salvare il documento
+## Passaggio 6: salvare il documento
 
 Infine, salva il documento in una directory specificata:
 
@@ -116,15 +118,15 @@ doc.Save(dataDir + "InsertTableOfContentsUsingAsposeWords.docx");
 
 ## Conclusione
 
-Aggiungere un indice usando Aspose.Words per .NET è semplice e migliora notevolmente l'usabilità dei tuoi documenti. Seguendo questi passaggi, puoi organizzare e navigare in modo efficiente attraverso documenti complessi.
+Aggiungere un indice con Aspose.Words per .NET è semplice e migliora significativamente l'usabilità dei documenti. Seguendo questi passaggi, è possibile organizzare e navigare in modo efficiente anche documenti complessi.
 
 ## Domande frequenti
 
-### Posso personalizzare l'aspetto dell'indice?
+### Posso personalizzare l'aspetto del sommario?
 Sì, è possibile personalizzare l'aspetto e il comportamento del sommario utilizzando Aspose.Words per le API .NET.
 
 ### Aspose.Words supporta l'aggiornamento automatico dei campi?
-Sì, Aspose.Words consente di aggiornare dinamicamente campi come l'indice in base alle modifiche del documento.
+Sì, Aspose.Words consente di aggiornare dinamicamente campi come il sommario in base alle modifiche del documento.
 
 ### Posso generare più indici in un unico documento?
 Aspose.Words supporta la generazione di più indici con impostazioni diverse all'interno di un singolo documento.
@@ -133,10 +135,15 @@ Aspose.Words supporta la generazione di più indici con impostazioni diverse all
 Sì, Aspose.Words garantisce la compatibilità con varie versioni dei formati Microsoft Word.
 
 ### Dove posso trovare ulteriore assistenza e supporto per Aspose.Words?
- Per ulteriore assistenza, visitare il[Forum di Aspose.Words](https://forum.aspose.com/c/words/8) o controlla il[documentazione ufficiale](https://reference.aspose.com/words/net/).
+Per ulteriore assistenza, visitare il [Forum di Aspose.Words](https://forum.aspose.com/c/words/8) o controlla il [documentazione ufficiale](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Usando gráficos no Aspose.Words para Java
-linktitle: Usando gráficos
-second_title: API de processamento de documentos Java Aspose.Words
-description: Aprenda a criar e personalizar gráficos no Aspose.Words para Java. Explore tipos de gráficos, formatação e propriedades de eixo para visualização de dados.
-weight: 12
-url: /pt/java/document-conversion-and-export/using-charts/
+"description": "Aprenda a criar e personalizar gráficos no Aspose.Words para Java. Explore tipos de gráficos, formatação e propriedades de eixo para visualização de dados."
+"linktitle": "Usando gráficos"
+"second_title": "API de processamento de documentos Java Aspose.Words"
+"title": "Usando gráficos no Aspose.Words para Java"
+"url": "/pt/java/document-conversion-and-export/using-charts/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usando gráficos no Aspose.Words para Java
@@ -16,7 +18,7 @@ url: /pt/java/document-conversion-and-export/using-charts/
 
 ## Introdução ao uso de gráficos no Aspose.Words para Java
 
-Neste tutorial, exploraremos como trabalhar com gráficos usando o Aspose.Words para Java. Você aprenderá a criar vários tipos de gráficos, personalizar propriedades de eixo, formatar rótulos de dados e muito mais. Vamos mergulhar!
+Neste tutorial, exploraremos como trabalhar com gráficos usando o Aspose.Words para Java. Você aprenderá a criar vários tipos de gráficos, personalizar propriedades de eixos, formatar rótulos de dados e muito mais. Vamos lá!
 
 ## Criando um gráfico de linhas
 
@@ -51,7 +53,7 @@ doc.save("Your Directory Path" + "WorkingWithCharts.FormatNumberOfDataLabel.docx
 
 ## Criando outros tipos de gráficos
 
-Você pode criar diferentes tipos de gráficos como coluna, área, bolha, dispersão e mais usando técnicas semelhantes. Aqui está um exemplo de inserção de um gráfico de coluna simples:
+Você pode criar diferentes tipos de gráficos, como colunas, áreas, bolhas, dispersão e muito mais, usando técnicas semelhantes. Veja um exemplo de como inserir um gráfico de colunas simples:
 
 ```java
 Document doc = new Document();
@@ -70,9 +72,9 @@ chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
 doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
 ```
 
-## Personalizando propriedades do eixo
+## Personalizando Propriedades do Eixo
 
-Você pode personalizar as propriedades do eixo, como alterar o tipo do eixo, definir marcas de escala, formatar rótulos e muito mais. Aqui está um exemplo de definição das propriedades do eixo XY:
+Você pode personalizar as propriedades do eixo, como alterar o tipo de eixo, definir marcas de escala, formatar rótulos e muito mais. Veja um exemplo de definição das propriedades do eixo XY:
 
 ```java
 Document doc = new Document();
@@ -88,7 +90,7 @@ ChartAxis yAxis = chart.getAxisY();
 // Altere o eixo X para ser uma categoria em vez de uma data.
 xAxis.setCategoryType(AxisCategoryType.CATEGORY);
 xAxis.setCrosses(AxisCrosses.CUSTOM);
-xAxis.setCrossesAt(3.0); //Medido em unidades de exibição do eixo Y (centenas).
+xAxis.setCrossesAt(3.0); // Medido em unidades de exibição do eixo Y (centenas).
 xAxis.setReverseOrder(true);
 xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
@@ -106,7 +108,7 @@ doc.save("Your Directory Path" + "WorkingWithCharts.DefineXYAxisProperties.docx"
 
 ## Formatando rótulos de dados
 
-Você pode formatar rótulos de dados com diferentes formatos de números. Aqui está um exemplo:
+Você pode formatar rótulos de dados com diferentes formatos numéricos. Veja um exemplo:
 
 ```java
 Document doc = new Document();
@@ -123,36 +125,41 @@ doc.save("Your Directory Path" + "WorkingWithCharts.NumberFormatForAxis.docx");
 
 ## Personalizações adicionais de gráficos
 
-Você pode personalizar ainda mais seus gráficos ajustando limites, unidades de intervalo entre rótulos, ocultando eixos de gráficos e muito mais. Explore os snippets de código fornecidos para saber mais sobre essas opções.
+Você pode personalizar ainda mais seus gráficos ajustando limites, unidades de intervalo entre rótulos, ocultando eixos do gráfico e muito mais. Explore os trechos de código fornecidos para saber mais sobre essas opções.
 
 ## Conclusão
 
-Neste tutorial, exploramos como trabalhar com gráficos usando o Aspose.Words para Java. Você aprendeu a criar vários tipos de gráficos, personalizar propriedades de eixo, formatar rótulos de dados e muito mais. O Aspose.Words para Java fornece ferramentas poderosas para adicionar representações visuais de dados aos seus documentos, aprimorando a maneira como você apresenta informações.
+Neste tutorial, exploramos como trabalhar com gráficos usando o Aspose.Words para Java. Você aprendeu a criar vários tipos de gráficos, personalizar propriedades de eixos, formatar rótulos de dados e muito mais. O Aspose.Words para Java oferece ferramentas poderosas para adicionar representações visuais de dados aos seus documentos, aprimorando a forma como você apresenta informações.
 
 ## Perguntas frequentes
 
 ### Como posso adicionar várias séries a um gráfico?
 
- Você pode adicionar várias séries a um gráfico usando o`chart.getSeries().add()` método. Certifique-se de especificar o nome da série, categorias e valores de dados.
+Você pode adicionar várias séries a um gráfico usando o `chart.getSeries().add()` método. Certifique-se de especificar o nome da série, as categorias e os valores dos dados.
 
 ### Como posso formatar rótulos de dados com formatos numéricos personalizados?
 
-Você pode formatar rótulos de dados acessando o`DataLabels` propriedades de uma série e definindo o código de formato desejado usando`getNumberFormat().setFormatCode()`.
+Você pode formatar rótulos de dados acessando o `DataLabels` propriedades de uma série e definindo o código de formato desejado usando `getNumberFormat().setFormatCode()`.
 
 ### Como posso personalizar as propriedades do eixo em um gráfico?
 
- Você pode personalizar as propriedades do eixo, como tipo, marcas de escala, rótulos e muito mais acessando o`ChartAxis` propriedades como`setCategoryType()`, `setCrosses()` , e`setMajorTickMark()`.
+Você pode personalizar as propriedades do eixo, como tipo, marcas de escala, rótulos e muito mais acessando o `ChartAxis` propriedades como `setCategoryType()`, `setCrosses()`, e `setMajorTickMark()`.
 
 ### Como posso criar outros tipos de gráficos, como gráficos de dispersão ou de área?
 
- Você pode criar vários tipos de gráficos especificando o apropriado`ChartType` ao inserir o gráfico usando`builder.insertChart(ChartType.TYPE, width, height)`.
+Você pode criar vários tipos de gráficos especificando o apropriado `ChartType` ao inserir o gráfico usando `builder.insertChart(ChartType.TYPE, width, height)`.
 
 ### Como posso ocultar um eixo do gráfico?
 
- Você pode ocultar um eixo do gráfico definindo o`setHidden(true)` propriedade do eixo.
+Você pode ocultar um eixo do gráfico definindo o `setHidden(true)` propriedade do eixo.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

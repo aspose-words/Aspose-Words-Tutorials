@@ -1,14 +1,16 @@
 ---
-title: Sayfa Kaydetme Geri Araması
-linktitle: Sayfa Kaydetme Geri Araması
-second_title: Aspose.Words Belge İşleme API'si
-description: Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET'i kullanarak bir Word belgesinin her sayfasını ayrı bir PNG resmi olarak kaydetmeyi öğrenin.
-weight: 10
-url: /tr/net/programming-with-imagesaveoptions/page-saving-callback/
+"description": "Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET'i kullanarak bir Word belgesinin her sayfasını ayrı bir PNG resmi olarak kaydetmeyi öğrenin."
+"linktitle": "Sayfa Kaydetme Geri Araması"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Sayfa Kaydetme Geri Araması"
+"url": "/tr/net/programming-with-imagesaveoptions/page-saving-callback/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sayfa Kaydetme Geri Araması
@@ -21,7 +23,7 @@ Merhaba! Bir Word belgesinin her sayfasını ayrı resimler olarak kaydetme ihti
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET: Eğer henüz yapmadıysanız, buradan indirip kurun[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Eğer henüz yapmadıysanız, buradan indirip kurun [Burada](https://releases.aspose.com/words/net/).
 2. Visual Studio: Herhangi bir sürüm işe yarar, ancak bu kılavuz için Visual Studio 2019'u kullanacağım.
 3. Temel C# Bilgisi: Takip edebilmek için temel C# bilgisine sahip olmanız gerekir.
 
@@ -63,7 +65,7 @@ ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png)
 };
 ```
 
- Burada,`PageSet` kaydedilecek sayfa aralığını belirtir ve`PageSavingCallback` özel geri çağırma sınıfımıza işaret eder.
+Burada, `PageSet` kaydedilecek sayfa aralığını belirtir ve `PageSavingCallback` özel geri çağırma sınıfımıza işaret eder.
 
 ## Adım 4: Sayfa Kaydetme Geri Aramasını Uygulayın
 
@@ -79,7 +81,7 @@ private class HandlePageSavingCallback : IPageSavingCallback
 }
 ```
 
- Bu sınıf şunları uygular:`IPageSavingCallback` arayüz ve içinde`PageSaving` yöntemi ile her kaydedilen sayfa için bir adlandırma deseni tanımlıyoruz.
+Bu sınıf şunları uygular: `IPageSavingCallback` arayüz ve içinde `PageSaving` yöntemi ile, kaydedilen her sayfa için adlandırma desenini tanımlarız.
 
 ## Adım 5: Belgeyi Resim Olarak Kaydedin
 
@@ -98,22 +100,27 @@ Keyifli kodlamalar!
 ## SSS
 
 ### Sayfaları PNG dışındaki formatlarda kaydedebilir miyim?  
- Evet, sayfaları JPEG, BMP ve TIFF gibi farklı biçimlerde kaydedebilirsiniz.`SaveFormat` içinde`ImageSaveOptions`.
+Evet, sayfaları JPEG, BMP ve TIFF gibi farklı formatlarda kaydedebilirsiniz. `SaveFormat` içinde `ImageSaveOptions`.
 
 ### Ya sadece belirli sayfaları kaydetmek istersem?  
- Kaydetmek istediğiniz sayfaları ayarlayarak belirtebilirsiniz.`PageSet` parametre içinde`ImageSaveOptions`.
+Kaydetmek istediğiniz sayfaları ayarlayarak belirtebilirsiniz. `PageSet` parametre içinde `ImageSaveOptions`.
 
 ### Görüntü kalitesini özelleştirmek mümkün mü?  
- Kesinlikle! Şu gibi özellikler ayarlayabilirsiniz:`ImageSaveOptions.JpegQuality` Çıktı görüntülerinin kalitesini kontrol etmek için.
+Kesinlikle! Şu gibi özellikler ayarlayabilirsiniz: `ImageSaveOptions.JpegQuality` Çıktı görüntülerinin kalitesini kontrol etmek için.
 
 ### Büyük belgeleri nasıl verimli bir şekilde yönetebilirim?  
 Büyük belgelerde, bellek kullanımını etkili bir şekilde yönetmek için sayfaları toplu olarak işlemeyi düşünün.
 
 ### Aspose.Words for .NET hakkında daha fazla bilgiyi nerede bulabilirim?  
- Şuna bir göz atın:[belgeleme](https://reference.aspose.com/words/net/) Kapsamlı kılavuzlar ve örnekler için.
+Şuna bir göz atın: [belgeleme](https://reference.aspose.com/words/net/) Kapsamlı kılavuzlar ve örnekler için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

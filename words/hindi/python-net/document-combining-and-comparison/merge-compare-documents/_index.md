@@ -1,14 +1,16 @@
 ---
-title: वर्ड में दस्तावेजों को मर्ज करना और तुलना करना
-linktitle: वर्ड में दस्तावेजों को मर्ज करना और तुलना करना
-second_title: Aspose.Words पायथन दस्तावेज़ प्रबंधन API
-description: Python के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को आसानी से मर्ज और तुलना करें। दस्तावेज़ों में हेरफेर करना, अंतरों को हाइलाइट करना और कार्यों को स्वचालित करना सीखें।
-weight: 10
-url: /hi/python-net/document-combining-and-comparison/merge-compare-documents/
+"description": "Python के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को आसानी से मर्ज और तुलना करें। दस्तावेज़ों में हेरफेर करना, अंतरों को हाइलाइट करना और कार्यों को स्वचालित करना सीखें।"
+"linktitle": "वर्ड में दस्तावेजों को मर्ज करना और तुलना करना"
+"second_title": "Aspose.Words पायथन दस्तावेज़ प्रबंधन API"
+"title": "वर्ड में दस्तावेजों को मर्ज करना और तुलना करना"
+"url": "/hi/python-net/document-combining-and-comparison/merge-compare-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड में दस्तावेजों को मर्ज करना और तुलना करना
@@ -109,14 +111,19 @@ pip install aspose-words
 
 ### क्या मैं इस लाइब्रेरी का उपयोग करके दो से अधिक दस्तावेज़ों को मर्ज कर सकता हूँ?
 
-हां, आप इसका उपयोग करके किसी भी संख्या में दस्तावेज़ों को मर्ज कर सकते हैं`append_document` विधि, जैसा कि ट्यूटोरियल में दिखाया गया है।
+हां, आप इसका उपयोग करके किसी भी संख्या में दस्तावेज़ों को मर्ज कर सकते हैं `append_document` विधि, जैसा कि ट्यूटोरियल में दिखाया गया है।
 
 ### मैं पुस्तकालय और संसाधनों तक कहां पहुंच सकता हूं?
 
- लाइब्रेरी तक पहुंचें और अधिक जानकारी प्राप्त करें[यहाँ](https://releases.aspose.com/words/python/).
+लाइब्रेरी तक पहुंचें और अधिक जानकारी प्राप्त करें [यहाँ](https://releases.aspose.com/words/python/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,46 +1,54 @@
 ---
-title: Tworzenie dokumentu Word z dostosowanymi granicami i odcieniem
-weight: 7700
-limit: 
-description: Naucz się tworzyć dokument Word z tablicą z różnymi stylami granicy i odcienia za pomocą Aspose.Words dla .NET.
-keywords: [Aspose.Words, .NET, Word document, table borders, cell shading, document manipulation, programming example]
-url: /pl/net/working-with-table-styles-and-formatting/format-table-and-cell/
+"description": "Naucz się tworzyć dokument programu Word zawierający tabelę z różnymi stylami obramowania i cieniowania, korzystając z pakietu Aspose.Words for .NET."
+"title": "Utwórz dokument Word z niestandardowymi obramowaniami i cieniowaniem tabeli"
+"url": "/pl/net/working-with-table-styles-and-formatting/format-table-and-cell/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tworzenie dokumentu Word z dostosowanymi granicami i odcieniem
+# Utwórz dokument Word z niestandardowymi obramowaniami i cieniowaniem tabeli
 
-W tym przykładzie pokazano, jak użyć Aspose.Words dla .NET do tworzenia dokumentu Word, który zawiera tabelę z dostosowanymi stylami granicy i odcienia dla komórek. Nauczysz się inicjować dokument, ustawić granice tabeli, zastosować kolory tło do poszczególnych komórek i zapisać dokument w formie DOCX.
+Ten przykład pokazuje, jak wykorzystać Aspose.Words dla .NET do utworzenia dokumentu Word, który zawiera tabelę z niestandardowymi stylami obramowania i cieniowania dla jej komórek. Nauczysz się inicjować dokument, ustawiać obramowania tabeli, stosować kolory tła do poszczególnych komórek i zapisywać dokument w formacie DOCX.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/format-table-and-cell" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instrukcje instalacji
-1. Pobierz Aspose.Words na .NET: odwiedź [Strona internetowa](https://www.aspose.com)I pobierz najnowszą wersję Aspose.Words dla .NET.
-2. Dodaj odniesienie: W projekcie .NET dodaj odniesienie do pliku DLL Aspose.Words.
-3. Instalacja za pośrednictwem programu NuGet: Alternatywnie możesz zainstalować pakiet za pomocą programu NuGet Package Manager z następującym poleceniem:
+1. Pobierz Aspose.Words dla .NET: Odwiedź [Strona internetowa Aspose](https://www.aspose.com) i pobierz najnowszą wersję Aspose.Words dla platformy .NET.
+2. Dodaj odwołanie: W projekcie .NET dodaj odwołanie do pliku DLL Aspose.Words.
+3. Instalacja za pomocą NuGet: Alternatywnie możesz zainstalować pakiet za pomocą Menedżera pakietów NuGet, używając następującego polecenia:
    ```
    Install-Package Aspose.Words
    ```
-4. Włącz przestrzeni nazw: Dodaj w kodzie następujące instrukcje:
+4. Dołącz przestrzeń nazw: Dodaj następującą dyrektywę using w swoim kodzie:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    using System.Drawing;
    ```
 
-4. Licencja na wniosek (opcjonalna):  
-   Aby użyć pełnej wersji,[stosować licencję](https://purchase.aspose.com/temporary-license/)lub użyć [bezpłatna próba](https://releases.aspose.com/words/net/)\- Nie .
+4. Zastosuj licencję (opcjonalnie):  
+   Aby korzystać z pełnej wersji, [zastosować licencję](https://purchase.aspose.com/temporary-license/) lub użyj [bezpłatny okres próbny](https://releases.aspose.com/words/net/).
    
-## Zobacz również
-[Aspose.Word dla dokumentacji .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word dla odniesienia .NET](https://reference.aspose.com/words/net/)
+## Zobacz także
+[Dokumentacja Aspose.Word dla .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word dla .NET Odwołania](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

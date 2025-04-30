@@ -1,14 +1,16 @@
 ---
-title: Растеризация преобразованных элементов
-linktitle: Растеризация преобразованных элементов
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как растеризовать преобразованные элементы при конвертации документов Word в формат PCL с помощью Aspose.Words для .NET. Пошаговое руководство включено.
-weight: 10
-url: /ru/net/programming-with-pclsaveoptions/rasterize-transformed-elements/
+"description": "Узнайте, как растеризовать преобразованные элементы при конвертации документов Word в формат PCL с помощью Aspose.Words для .NET. Пошаговое руководство включено."
+"linktitle": "Растеризация преобразованных элементов"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Растеризация преобразованных элементов"
+"url": "/ru/net/programming-with-pclsaveoptions/rasterize-transformed-elements/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Растеризация преобразованных элементов
@@ -21,8 +23,8 @@ url: /ru/net/programming-with-pclsaveoptions/rasterize-transformed-elements/
 
 Прежде чем начать, убедитесь, что у вас выполнены следующие предварительные условия:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия. Вы можете загрузить ее с[здесь](https://releases.aspose.com/words/net/).
-2.  Действующая лицензия: Вы можете приобрести лицензию[здесь](https://purchase.aspose.com/buy) или получите временную лицензию для оценки[здесь](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия. Вы можете загрузить ее с [здесь](https://releases.aspose.com/words/net/).
+2. Действующая лицензия: Вы можете приобрести лицензию [здесь](https://purchase.aspose.com/buy) или получите временную лицензию для оценки [здесь](https://purchase.aspose.com/temporary-license/).
 3. Среда разработки: настройте среду разработки (например, Visual Studio) с поддержкой .NET Framework.
 
 ## Импорт пространств имен
@@ -41,7 +43,7 @@ using Aspose.Words.Saving;
 Сначала вам нужно создать новый проект или использовать существующий. Откройте среду разработки и настройте проект.
 
 1. Создайте новый проект: откройте Visual Studio и создайте новое консольное приложение C#.
-2.  Установка Aspose.Words: Используйте NuGet Package Manager для установки Aspose.Words. Щелкните правой кнопкой мыши по проекту, выберите «Управление пакетами NuGet» и найдите`Aspose.Words`. Установите последнюю версию.
+2. Установка Aspose.Words: Используйте NuGet Package Manager для установки Aspose.Words. Щелкните правой кнопкой мыши по проекту, выберите «Управление пакетами NuGet» и найдите `Aspose.Words`. Установите последнюю версию.
 
 ## Шаг 2: Загрузите документ Word
 
@@ -55,14 +57,14 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- В этом фрагменте кода замените`"YOUR DOCUMENTS DIRECTORY"` с фактическим путем к вашему каталогу, содержащему документ Word. Убедитесь, что имя документа (`Rendering.docx`) соответствует вашему файлу.
+В этом фрагменте кода замените `"YOUR DOCUMENTS DIRECTORY"` с фактическим путем к вашему каталогу, содержащему документ Word. Убедитесь, что имя документа (`Rendering.docx`) соответствует вашему файлу.
 
 ## Шаг 3: Настройте параметры сохранения
 
- Для преобразования документа в формат PCL необходимо настроить параметры сохранения. Это включает в себя установку`SaveFormat` к`Pcl` и указание необходимости растеризации преобразованных элементов.
+Для преобразования документа в формат PCL необходимо настроить параметры сохранения. Это включает в себя установку `SaveFormat` к `Pcl` и указание необходимости растеризации преобразованных элементов.
 
 ```csharp
-//Настройте параметры резервного копирования для преобразования в формат PCL
+// Настройте параметры резервного копирования для преобразования в формат PCL
 PclSaveOptions saveOptions = new PclSaveOptions
 {
     SaveFormat = SaveFormat.Pcl,
@@ -70,7 +72,7 @@ PclSaveOptions saveOptions = new PclSaveOptions
 };
 ```
 
- Здесь,`RasterizeTransformedElements` установлен на`false` , то есть преобразованные элементы не будут растеризованы. Вы можете установить его на`true` если вы хотите, чтобы они были растеризованы.
+Здесь, `RasterizeTransformedElements` установлен на `false`, то есть преобразованные элементы не будут растеризованы. Вы можете установить его на `true` если вы хотите, чтобы они были растеризованы.
 
 ## Шаг 4: Преобразование документа
 
@@ -81,7 +83,7 @@ PclSaveOptions saveOptions = new PclSaveOptions
 doc.Save(dataDir + "WorkingWithPclSaveOptions.RasterizeTransformedElements.pcl", saveOptions);
 ```
 
- В этой строке документ сохраняется в формате PCL с указанными параметрами. Выходной файл называется`WorkingWithPclSaveOptions.RasterizeTransformedElements.pcl`.
+В этой строке документ сохраняется в формате PCL с указанными параметрами. Выходной файл называется `WorkingWithPclSaveOptions.RasterizeTransformedElements.pcl`.
 
 ## Заключение
 
@@ -93,20 +95,25 @@ doc.Save(dataDir + "WorkingWithPclSaveOptions.RasterizeTransformedElements.pcl",
 Да, Aspose.Words for .NET можно использовать в различных типах приложений, включая веб-приложения. Обеспечьте надлежащее лицензирование и конфигурацию.
 
 ### В какие еще форматы Aspose.Words for .NET может конвертировать?  
-Aspose.Words поддерживает широкий спектр форматов, включая PDF, HTML, EPUB и другие. Проверьте[документация](https://reference.aspose.com/words/net/) для полного списка.
+Aspose.Words поддерживает широкий спектр форматов, включая PDF, HTML, EPUB и другие. Проверьте [документация](https://reference.aspose.com/words/net/) для полного списка.
 
 ### Можно ли растеризовать только определенные элементы документа?  
- В настоящее время`RasterizeTransformedElements` опция применяется ко всем преобразованным элементам в документе. Для более детального контроля рассмотрите возможность обработки элементов по отдельности перед преобразованием.
+В настоящее время `RasterizeTransformedElements` опция применяется ко всем преобразованным элементам в документе. Для более детального контроля рассмотрите возможность обработки элементов по отдельности перед преобразованием.
 
 ### Как устранить неполадки при конвертации документов?  
- Убедитесь, что у вас установлена последняя версия Aspose.Words, и проверьте документацию на предмет каких-либо конкретных проблем с конвертацией. Кроме того,[форум поддержки](https://forum.aspose.com/c/words/8) — отличное место, чтобы попросить о помощи.
+Убедитесь, что у вас установлена последняя версия Aspose.Words, и проверьте документацию на предмет каких-либо конкретных проблем с конвертацией. Кроме того, [форум поддержки](https://forum.aspose.com/c/words/8) — отличное место, чтобы попросить о помощи.
 
 ### Существуют ли какие-либо ограничения для пробной версии Aspose.Words для .NET?  
- Пробная версия имеет некоторые ограничения, такие как оценочный водяной знак. Для полнофункционального опыта, рассмотрите возможность получения[временная лицензия](https://purchase.aspose.com/temporary-license/).
+Пробная версия имеет некоторые ограничения, такие как оценочный водяной знак. Для полнофункционального опыта, рассмотрите возможность получения [временная лицензия](https://purchase.aspose.com/temporary-license/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

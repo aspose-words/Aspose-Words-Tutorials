@@ -1,14 +1,16 @@
 ---
-title: Formatowanie akapitu w dokumencie Word
-linktitle: Formatowanie akapitu w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak bez wysiłku formatować akapity w dokumentach Word za pomocą Aspose.Words dla .NET, korzystając z naszego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/document-formatting/paragraph-formatting/
+"description": "Dowiedz się, jak bez wysiłku formatować akapity w dokumentach Word za pomocą Aspose.Words dla .NET, korzystając z naszego przewodnika krok po kroku."
+"linktitle": "Formatowanie akapitu w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Formatowanie akapitu w dokumencie Word"
+"url": "/pl/net/document-formatting/paragraph-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatowanie akapitu w dokumencie Word
@@ -21,7 +23,7 @@ Czy kiedykolwiek znalazłeś się w niekończącej się walce z formatowaniem do
 
 Zanim rozpoczniemy tę przygodę z formatowaniem, przygotujmy nasz zestaw narzędzi. Oto, czego będziesz potrzebować:
 
-1.  Aspose.Words dla .NET: Pobierz[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Pobierz [Tutaj](https://releases.aspose.com/words/net/).
 2. Visual Studio: Twój zaufany edytor kodu.
 3. .NET Framework: Sprawdź, czy jest zainstalowany.
 4. Podstawowa wiedza o języku C#: Nie martw się, nie musisz być czarodziejem, wystarczą podstawowe umiejętności.
@@ -65,7 +67,7 @@ paragraphFormat.RightIndent = 50;
 paragraphFormat.SpaceAfter = 25;
 ```
 
-Konfigurujemy`ParagraphFormat` właściwości. Rozłóżmy na czynniki pierwsze, co robi każda właściwość:
+Konfigurujemy `ParagraphFormat` właściwości. Rozłóżmy na czynniki pierwsze, co robi każda właściwość:
 - Wyrównanie: Centruje akapit.
 - LeftIndent: Ustawia wcięcie z lewej na 50 punktów.
 - RightIndent: Ustawia wcięcie z prawej strony na 50 punktów.
@@ -104,19 +106,24 @@ Formatowanie akapitów w dokumencie Word nie musi być trudnym zadaniem. Dzięki
 Aspose.Words for .NET to zaawansowany interfejs API do edycji dokumentów, który umożliwia programistom tworzenie, edytowanie i formatowanie dokumentów Word programowo przy użyciu platformy .NET.
 
 ### Jak zainstalować Aspose.Words dla .NET?
- Możesz pobrać Aspose.Words dla .NET z[Tutaj](https://releases.aspose.com/words/net/).
+Możesz pobrać Aspose.Words dla .NET z [Tutaj](https://releases.aspose.com/words/net/).
 
 ### Czy mogę wypróbować Aspose.Words dla .NET za darmo?
- Tak, możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Tak, możesz otrzymać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Czy możliwe jest zastosowanie bardziej złożonego formatowania przy użyciu Aspose.Words dla .NET?
 Oczywiście! Aspose.Words dla .NET obsługuje szeroki zakres opcji formatowania, umożliwiając bardzo złożone i szczegółowe układy dokumentów.
 
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację i pomoc?
- Możesz uzyskać dostęp do szczegółowej dokumentacji[Tutaj](https://reference.aspose.com/words/net/) i poszukaj wsparcia[Tutaj](https://forum.aspose.com/c/words/8).
+Możesz uzyskać dostęp do szczegółowej dokumentacji [Tutaj](https://reference.aspose.com/words/net/) i poszukaj wsparcia [Tutaj](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

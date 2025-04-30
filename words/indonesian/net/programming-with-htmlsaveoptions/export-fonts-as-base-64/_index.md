@@ -1,14 +1,16 @@
 ---
-title: Ekspor Font Sebagai Basis 64
-linktitle: Ekspor Font Sebagai Basis 64
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengekspor font sebagai Base64 menggunakan Aspose.Words untuk .NET dalam tutorial terperinci ini. Pastikan font tertanam dan ditampilkan dengan benar dalam file HTML.
-weight: 10
-url: /id/net/programming-with-htmlsaveoptions/export-fonts-as-base-64/
+"description": "Pelajari cara mengekspor font sebagai Base64 menggunakan Aspose.Words untuk .NET dalam tutorial terperinci ini. Pastikan font tertanam dan ditampilkan dengan benar dalam file HTML."
+"linktitle": "Ekspor Font Sebagai Basis 64"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Ekspor Font Sebagai Basis 64"
+"url": "/id/net/programming-with-htmlsaveoptions/export-fonts-as-base-64/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekspor Font Sebagai Basis 64
@@ -21,7 +23,7 @@ Dalam hal memanipulasi dokumen Word secara terprogram, Aspose.Words for .NET ada
 
 Sebelum kita masuk ke pengkodean, mari pastikan Anda memiliki semua yang dibutuhkan:
 
--  Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Rilis Aspose](https://releases.aspose.com/words/net/) halaman.
+- Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Rilis Aspose](https://releases.aspose.com/words/net/) halaman.
 - Lingkungan Pengembangan .NET: IDE apa pun seperti Visual Studio akan bekerja dengan sempurna.
 - Pengetahuan Dasar C#: Anda tidak perlu menjadi seorang profesional, tetapi pemahaman dasar akan membantu.
 
@@ -68,11 +70,11 @@ Pertama, tentukan direktori tempat dokumen Word Anda berada:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda.
 
 ### 2.2 Memuat Dokumen
 
- Selanjutnya, muat dokumen Anda menggunakan`Document` kelas:
+Selanjutnya, muat dokumen Anda menggunakan `Document` kelas:
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -82,10 +84,10 @@ Pastikan "Rendering.docx" ada di direktori yang Anda tentukan.
 
 ## Langkah 3: Konfigurasikan Opsi Penyimpanan HTML
 
- Untuk mengekspor font sebagai Base64, kita perlu mengkonfigurasi`HtmlSaveOptions`.
+Untuk mengekspor font sebagai Base64, kita perlu mengkonfigurasi `HtmlSaveOptions`.
 
 
- Buat contoh dari`HtmlSaveOptions` dan mengatur`ExportFontsAsBase64`properti untuk`true`:
+Buat contoh dari `HtmlSaveOptions` dan mengatur `ExportFontsAsBase64` properti untuk `true`:
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions { ExportFontsAsBase64 = true };
@@ -96,7 +98,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions { ExportFontsAsBase64 = true }
 Terakhir, mari simpan dokumen dengan opsi yang dikonfigurasikan.
 
 
- Gunakan`Save` metode dari`Document` kelas untuk menyimpan dokumen Anda:
+Gunakan `Save` metode dari `Document` kelas untuk menyimpan dokumen Anda:
 
 ```csharp
 doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ExportFontsAsBase64.html", saveOptions);
@@ -123,11 +125,16 @@ Tentu saja! Aspose.Words untuk .NET memungkinkan Anda untuk menanamkan berbagai 
 Tidak masalah! Aspose.Words untuk .NET akan menyematkan semua font yang digunakan dalam dokumen Anda sebagai Base64 dalam file HTML yang dihasilkan.
 
 ### Apakah Aspose.Words untuk .NET gratis untuk digunakan?
- Aspose.Words untuk .NET adalah pustaka komersial. Namun, Anda dapat mengunduh uji coba gratis dari[Rilis Aspose](https://releases.aspose.com/) halaman.
+Aspose.Words untuk .NET adalah pustaka komersial. Namun, Anda dapat mengunduh uji coba gratis dari [Rilis Aspose](https://releases.aspose.com/) halaman.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Html'den Tablo Ekle
-linktitle: Html'den Tablo Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak HTML'den Word belgesine tablo eklemeyi öğrenin. Sorunsuz belge entegrasyonu için ayrıntılı kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/programming-with-tables/insert-table-from-html/
+"description": "Aspose.Words for .NET kullanarak HTML'den Word belgesine tablo eklemeyi öğrenin. Sorunsuz belge entegrasyonu için ayrıntılı kılavuzumuzu izleyin."
+"linktitle": "Html'den Tablo Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Html'den Tablo Ekle"
+"url": "/tr/net/programming-with-tables/insert-table-from-html/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Html'den Tablo Ekle
@@ -21,7 +23,7 @@ HTML'den Word belgesine tablo eklemeniz hiç gerekti mi? İster web içeriğini 
 
 HTML'den tablo eklemenin inceliklerine girmeden önce, aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET kitaplığını şu adresten indirin ve yükleyin:[indirme sayfası](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET kitaplığını şu adresten indirin ve yükleyin: [indirme sayfası](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi .NET uyumlu herhangi bir geliştirme ortamı.
 3. Temel C# Bilgisi: Temel C# programlama kavramlarının anlaşılması.
 4. HTML Tablo Kodu: Eklemek istediğiniz tablonun HTML kodu.
@@ -58,10 +60,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Adım 3: HTML Tablosunu Ekle
 
- Şimdi eğlenceli kısma geliyoruz! Şunu kullanacaksınız:`DocumentBuilder` HTML tablonuzu Word belgesine eklemek için. Otomatik Sığdırma ayarlarının HTML'den eklenen tablolara uygulanmadığını unutmayın, bu nedenle tablonuz HTML kodunuzda tanımlandığı gibi görünecektir.
+Şimdi eğlenceli kısma geliyoruz! Şunu kullanacaksınız: `DocumentBuilder` HTML tablonuzu Word belgesine eklemek için. Otomatik Sığdırma ayarlarının HTML'den eklenen tablolara uygulanmadığını unutmayın, bu nedenle tablonuz HTML kodunuzda tanımlandığı gibi görünecektir.
 
 ```csharp
-//HTML Tablosu Ekle
+// HTML Tablosu Ekle
 builder.InsertHtml("<table>" +
                    "<tr>" +
                    "<td>Row 1, Cell 1</td>" +
@@ -98,16 +100,21 @@ Evet, HTML tablosunun görünümünü Word belgesine eklemeden önce standart HT
 Kesinlikle! Aspose.Words for .NET, Word belgelerinize çeşitli içerik türleri eklemenize olanak tanıyan çok çeşitli HTML öğelerini destekler.
 
 ### Tek bir Word belgesine birden fazla HTML tablosu eklemek mümkün müdür?
- Evet, birden fazla HTML tablosunu çağırarak ekleyebilirsiniz.`InsertHtml` Yöntemi farklı HTML tablo kodları ile birden çok kez deneyin.
+Evet, birden fazla HTML tablosunu çağırarak ekleyebilirsiniz. `InsertHtml` Yöntemi farklı HTML tablo kodları ile birden çok kez deneyin.
 
 ### Birden fazla sayfaya yayılan büyük HTML tablolarını nasıl işleyebilirim?
 Aspose.Words for .NET büyük tabloları otomatik olarak işler ve Word belgesindeki birden fazla sayfaya düzgün şekilde bölünmelerini sağlar.
 
 ### Aspose.Words for .NET'i bir web uygulamasında kullanabilir miyim?
 Evet, Aspose.Words for .NET hem masaüstü hem de web uygulamalarında kullanılabilir ve bu da onu belge düzenleme için çok yönlü bir araç haline getirir.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Chia tài liệu Word theo phần HTML
-linktitle: Theo Phần Html
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chia tài liệu Word thành nhiều phần thành HTML bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này.
-weight: 10
-url: /vi/net/split-document/by-sections-html/
+"description": "Tìm hiểu cách chia tài liệu Word thành nhiều phần thành HTML bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này."
+"linktitle": "Theo Phần Html"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chia tài liệu Word theo phần HTML"
+"url": "/vi/net/split-document/by-sections-html/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chia tài liệu Word theo phần HTML
@@ -21,7 +23,7 @@ Bạn đang dấn thân vào thế giới tự động hóa tài liệu và mu�
 
 Trước khi bắt tay vào thực hiện, bạn cần chuẩn bị một số điều sau:
 
-1.  Aspose.Words cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Môi trường phát triển như Visual Studio.
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ rất hữu ích.
 4. Tài liệu Word: Tài liệu Word mà bạn muốn chia thành nhiều phần.
@@ -37,7 +39,7 @@ using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Khi đã có các không gian tên này, bạn đã sẵn sàng bắt đầu làm việc với Aspose.Words.
+Với các không gian tên này, bạn đã sẵn sàng bắt đầu làm việc với Aspose.Words.
 
 ## Bước 1: Thiết lập thư mục tài liệu
 
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Tải tài liệu Word
 
- Bây giờ chúng ta đã thiết lập thư mục, chúng ta cần tải tài liệu Word mà chúng ta muốn chia nhỏ. Điều này được thực hiện bằng cách sử dụng`Document` lớp từ Aspose.Words.
+Bây giờ chúng ta đã thiết lập thư mục, chúng ta cần tải tài liệu Word mà chúng ta muốn chia nhỏ. Điều này được thực hiện bằng cách sử dụng `Document` lớp từ Aspose.Words.
 
 ```csharp
 // Tải tài liệu Word.
@@ -59,7 +61,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Bước 3: Cấu hình tùy chọn lưu HTML
 
- Để chia tài liệu thành các phần, chúng ta cần thiết lập các tùy chọn lưu thích hợp.`HtmlSaveOptions`lớp cho phép chúng ta chỉ định cách chúng ta muốn lưu tài liệu vào HTML.
+Để chia tài liệu thành các phần, chúng ta cần thiết lập các tùy chọn lưu thích hợp. `HtmlSaveOptions` lớp cho phép chúng ta chỉ định cách chúng ta muốn lưu tài liệu vào HTML.
 
 ```csharp
 // Cấu hình tùy chọn lưu HTML.
@@ -96,18 +98,23 @@ Có, Aspose.Words for .NET cho phép bạn chia tài liệu theo nhiều tiêu c
 
 ### Aspose.Words cho .NET có miễn phí không?
 
- Aspose.Words cho .NET là một sản phẩm thương mại, nhưng bạn có thể tải xuống bản dùng thử miễn phí từ[Trang phát hành Aspose](https://releases.aspose.com/).
+Aspose.Words cho .NET là một sản phẩm thương mại, nhưng bạn có thể tải xuống bản dùng thử miễn phí từ [Trang phát hành Aspose](https://releases.aspose.com/).
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
 
- Bạn có thể tìm thấy tài liệu toàn diện về[Trang tài liệu Aspose.Words cho .NET](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về [Trang tài liệu Aspose.Words cho .NET](https://reference.aspose.com/words/net/).
 
 ### Tôi có thể chuyển đổi tài liệu Word sang những định dạng nào khác?
 
 Aspose.Words for .NET hỗ trợ nhiều định dạng khác nhau, bao gồm PDF, DOCX, TXT và nhiều định dạng khác nữa.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

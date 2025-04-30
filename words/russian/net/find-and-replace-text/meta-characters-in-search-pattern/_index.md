@@ -1,14 +1,16 @@
 ---
-title: Мета-символы в шаблоне поиска
-linktitle: Мета-символы в шаблоне поиска
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как использовать метасимволы в шаблонах поиска с Aspose.Words для .NET в этом подробном пошаговом руководстве. Оптимизируйте обработку документов.
-weight: 10
-url: /ru/net/find-and-replace-text/meta-characters-in-search-pattern/
+"description": "Узнайте, как использовать метасимволы в шаблонах поиска с Aspose.Words для .NET в этом подробном пошаговом руководстве. Оптимизируйте обработку документов."
+"linktitle": "Мета-символы в шаблоне поиска"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Мета-символы в шаблоне поиска"
+"url": "/ru/net/find-and-replace-text/meta-characters-in-search-pattern/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Мета-символы в шаблоне поиска
@@ -21,7 +23,7 @@ Aspose.Words for .NET — это мощная библиотека для про
 
 Прежде чем перейти к коду, давайте убедимся, что у вас все настроено:
 
-1. Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Вы можете загрузить его с[Страница релизов Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Вы можете загрузить его с [Страница релизов Aspose](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая другая среда разработки C#.
 3. Базовые знания C#: Понимание основ программирования на C# будет преимуществом.
 
@@ -45,7 +47,7 @@ using Aspose.Words.Replacing;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` фактический путь, по которому вы хотите сохранить свои документы.
+Заменять `"YOUR DOCUMENT DIRECTORY"` фактический путь, по которому вы хотите сохранить свои документы.
 
 ## Шаг 2: Создание нового документа
 
@@ -67,7 +69,7 @@ builder.Writeln("This is Line 2");
 
 ## Шаг 4: Замена текста с помощью метасимвола разрыва абзаца
 
-Метасимволы могут представлять различные элементы, такие как абзацы, табуляции и переносы строк. Здесь мы используем`&p` для обозначения разрыва абзаца.
+Метасимволы могут представлять различные элементы, такие как абзацы, табуляции и переносы строк. Здесь мы используем `&p` для обозначения разрыва абзаца.
 
 ```csharp
 doc.Range.Replace("This is Line 1&pThis is Line 2", "This is replaced line");
@@ -86,7 +88,7 @@ builder.Writeln("This is Line 2");
 
 ## Шаг 6: Замена текста с помощью ручного метасимвола переноса строки
 
- Теперь мы будем использовать`&m` метасимвол для ручного переноса строки и замены текста соответствующим образом.
+Теперь мы будем использовать `&m` метасимвол для ручного переноса строки и замены текста соответствующим образом.
 
 ```csharp
 doc.Range.Replace("This is Line 1&mThis is Line 2", "Page break is replaced with new text.");
@@ -110,19 +112,24 @@ doc.Save(dataDir + "FindAndReplace.MetaCharactersInSearchPattern.docx");
 Метасимволы — это специальные символы, используемые для представления таких элементов, как разрывы абзацев, ручные переносы строк, табуляции и т. д. в шаблонах поиска.
 
 ### Как установить Aspose.Words для .NET?
- Вы можете скачать его с сайта[Страница релизов Aspose](https://releases.aspose.com/words/net/). Следуйте предоставленным инструкциям по установке.
+Вы можете скачать его с сайта [Страница релизов Aspose](https://releases.aspose.com/words/net/). Следуйте предоставленным инструкциям по установке.
 
 ### Могу ли я использовать Aspose.Words для .NET с другими языками программирования?
 Aspose.Words for .NET специально разработан для языков .NET, таких как C#. Однако Aspose предоставляет библиотеки и для других платформ.
 
 ### Как получить временную лицензию на Aspose.Words для .NET?
- Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+Вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Где я могу найти более подробную документацию по Aspose.Words для .NET?
- Вы можете найти подробную документацию по[Страница документации Aspose](https://reference.aspose.com/words/net/).
+Вы можете найти подробную документацию по [Страница документации Aspose](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

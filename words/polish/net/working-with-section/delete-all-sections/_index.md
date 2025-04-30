@@ -1,14 +1,16 @@
 ---
-title: Usuń wszystkie sekcje
-linktitle: Usuń wszystkie sekcje
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak usunąć wszystkie sekcje z dokumentu programu Word za pomocą Aspose.Words dla platformy .NET, korzystając z tego prostego w użyciu przewodnika krok po kroku.
-weight: 10
-url: /pl/net/working-with-section/delete-all-sections/
+"description": "Dowiedz się, jak usunąć wszystkie sekcje z dokumentu programu Word za pomocą Aspose.Words dla platformy .NET, korzystając z tego prostego w użyciu przewodnika krok po kroku."
+"linktitle": "Usuń wszystkie sekcje"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Usuń wszystkie sekcje"
+"url": "/pl/net/working-with-section/delete-all-sections/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuń wszystkie sekcje
@@ -21,7 +23,7 @@ Czy kiedykolwiek próbowałeś usunąć wszystkie sekcje w dokumencie Word i utk
 
 Zanim przejdziemy do konkretów, upewnijmy się, że masz wszystko, czego potrzebujesz. Oto, czego potrzebujesz, aby zacząć:
 
--  Aspose.Words dla .NET: Można go pobrać ze strony[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Można go pobrać ze strony [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: dowolne środowisko IDE zgodne z platformą .NET (np. Visual Studio).
 - Podstawowa znajomość języka C#: pomoże Ci lepiej zrozumieć fragmenty kodu.
 - Dokument Word: Dokument wejściowy, z którym można pracować.
@@ -44,7 +46,7 @@ Pierwszym krokiem jest załadowanie dokumentu Word. Wyobraź sobie, że otwieras
 Document doc = new Document("input.docx");
 ```
 
- W tym wierszu kodu ładujemy dokument o nazwie „input.docx” do obiektu o nazwie`doc`.
+W tym wierszu kodu ładujemy dokument o nazwie „input.docx” do obiektu o nazwie `doc`.
 
 ## Krok 2: Wyczyść wszystkie sekcje
 
@@ -66,22 +68,27 @@ masz to! Usuwanie wszystkich sekcji w dokumencie Word za pomocą Aspose.Words dl
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Words dla .NET?
- Aspose.Words dla .NET to potężna biblioteka do programowego manipulowania dokumentami Word. Więcej informacji znajdziesz[Tutaj](https://reference.aspose.com/words/net/).
+Aspose.Words dla .NET to potężna biblioteka do programowego manipulowania dokumentami Word. Więcej informacji znajdziesz [Tutaj](https://reference.aspose.com/words/net/).
 
 ### Czy mogę wypróbować Aspose.Words dla .NET za darmo?
- Tak, możesz pobrać bezpłatną wersję próbną z[Tutaj](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną z [Tutaj](https://releases.aspose.com/).
 
 ### Jak mogę kupić Aspose.Words dla .NET?
- Można go kupić tutaj[Tutaj](https://purchase.aspose.com/buy).
+Można go kupić tutaj [Tutaj](https://purchase.aspose.com/buy).
 
 ### Czy istnieje jakiekolwiek wsparcie dla Aspose.Words dla .NET?
-Tak, możesz uzyskać wsparcie od społeczności Aspose[Tutaj](https://forum.aspose.com/c/words/8).
+Tak, możesz uzyskać wsparcie od społeczności Aspose [Tutaj](https://forum.aspose.com/c/words/8).
 
 ### A co jeśli potrzebuję tymczasowej licencji?
- Możesz uzyskać tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/).
+Możesz uzyskać tymczasową licencję od [Tutaj](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

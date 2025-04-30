@@ -1,60 +1,68 @@
 ---
-title: Tegyünk létre és formázunk egy táblázatot a Word dokumentumban az Aspose.Words segítségével
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan lehet egy Word dokumentumban egy táblázat létrehozását és formázását a Aspose.Words DocumentBuilder osztály segítségével.
-keywords: [Aspose.Words for .NET, create table in Word, format table cell, DocumentBuilder example, Word automation .NET, table formatting, Aspose.Words tutorial, .NET library for Word]
-url: /hu/net/working-with-table-styles-and-formatting/set-table-cell-formatting/
+"description": "Tanulja meg, hogyan hozhat létre és formázhat táblázatot egy Word-dokumentumban az Aspose.Words DocumentBuilder osztály használatával. Lépésről lépésre útmutatót és mintakódot tartalmaz."
+"title": "Táblázat létrehozása és formázása Word dokumentumban az Aspose.Words segítségével"
+"url": "/hu/net/working-with-table-styles-and-formatting/set-table-cell-formatting/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tegyünk létre és formázunk egy táblázatot a Word dokumentumban az Aspose.Words segítségével
+# Táblázat létrehozása és formázása Word dokumentumban az Aspose.Words segítségével
 
-Az Aspose.Words a .NET-hez egyszerűsíti a Word dokumentumok manipulálását, így egyszerűbbé teszik a táblázatok létrehozását és formázását.`Dokumentumszervező`A programok a programokhoz és a programokhoz való hozzáféréshez is szükség van. A programokhoz is szükség van egy program, amely lehetővé teszi a programok kialakítását, a programok kialakítását és a programok beillesztését. Ez a képzés lépésről lépésre mutatja, hogyan lehet létrehozni egy táblát, beállítani a cellák tulajdonságait, mint a padding és a szélesség, és szöveget hozzáadni a sejtekhez. Függetlenül attól, hogy automatikus jelentéseket vagy dokumentumokat generál, ez a útmutató segít Önnek a Word táblátformátálás teljes potenciálját kinyitni.
+Az Aspose.Words for .NET leegyszerűsíti a Word dokumentumok kezelését, olyan feladatokat, mint a táblázatok létrehozása és formázása, könnyen kezelhetővé téve. A hatékony `DocumentBuilder` osztályban a fejlesztők könnyedén hozhatnak létre táblázatokat, módosíthatják a cellaformázást és programozottan szúrhatnak be tartalmat. Ez az oktatóanyag lépésről lépésre bemutatja, hogyan hozhat létre táblázatot, hogyan állíthat be cellatulajdonságokat, például kitöltést és szélességet, és hogyan adhat hozzá szöveget a cellákhoz. Akár jelentéseket automatizál, akár dokumentumokat generál, ez az útmutató segít kiaknázni az Aspose.Words teljes Word-táblaformázási lehetőségeit. Merüljön el és fejlessze Word-automatizálási projektjeit még ma!
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/set-table-cell-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítások  
-Kövesse ezeket a lépéseket a projektben az .NET-hez szükséges Aspose.Words telepítéséhez és használatához:  
+## Telepítési utasítások  
+Az Aspose.Words for .NET telepítéséhez és használatához a projektben kövesse az alábbi lépéseket:  
 
-1. Letöltsd le az Aspose.Words:  
-   Látogasson el a[Aspose.Words a .NET letöltőoldalhoz](https://releases.aspose.com/words/net/)és letöltsük a könyvtár legújabb verzióját.  
+1. Aspose.Words letöltése:  
+   Látogassa meg a [Aspose.Words .NET letöltési oldal](https://releases.aspose.com/words/net/) és töltse le a könyvtár legújabb verzióját.  
 
-2. A NuGet segítségével telepítse:  
-   Nyissa ki a .NET projektjét a Visual Studio-ban, menjen a NuGet csomagkezelőhez (Falkás > NuGet csomagkezelő > A NuGet csomagkezelő kezelése megoldás), keresse a "Aspose.Words-t, és telepítse a csomagot.  
+2. Telepítés NuGet-en keresztül:  
+   Nyisd meg a .NET projektedet a Visual Studióban, menj a NuGet csomagkezelőbe (Eszközök > NuGet csomagkezelő > Megoldáshoz tartozó NuGet csomagok kezelése), keresd meg az „Aspose.Words” fájlt, és telepítsd a csomagot.  
 
-   Alternatív módon futtasd a következő parancsot a csomagkezelő konzoltól:  
+   Alternatív megoldásként futtassa a következő parancsot a Package Manager konzolban:  
    ```shell
    Install-Package Aspose.Words
    ```  
 
-3. A Licenc alkalmazása (Felhetős):  
-   A vizsgálatok korlátozásainak eltávolítása érdekében kérje meg a licencet.[Itt van.](https://purchase.aspose.com/buy)vagy kap egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/)\- Akkor használja a következő kódot a jogosítvány alkalmazásához:  
+3. Licenc alkalmazása (opcionális):  
+   Az értékelési korlátozások eltávolításához alkalmazzon licencet. Vásároljon licencet innen: [itt](https://purchase.aspose.com/buy) vagy szerezz egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/)Ezután a következő kóddal alkalmazd a licencet:  
    ```csharp
    License license = new License();
    license.SetLicense("Aspose.Words.lic");
    ```  
 
-4. Adj hivatkozásokat:  
-   Biztosítsuk a`Aspose.Words`a projektbe behozott névterület:  
+4. Referenciák hozzáadása:  
+   Biztosítsa a `Aspose.Words` A névtér importálása a projektbe a következőképpen történik:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    ```  
 
-4. A licenc alkalmazása (Felhetős):  
-   Hogy a teljes verziót használhassuk,[engedélyt kell alkalmazni](https://purchase.aspose.com/temporary-license/)vagy használjon egy [ingyenes próba](https://releases.aspose.com/words/net/)\- Nem.
+4. Licenc igénylése (opcionális):  
+   A teljes verzió használatához [licencet igényelni](https://purchase.aspose.com/temporary-license/) vagy használjon egy [ingyenes próba](https://releases.aspose.com/words/net/).
    
-## Lásd:
-[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
-[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/) 
+## Lásd még
+[Aspose.Word .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word .NET-hez kapcsolódó hivatkozások](https://reference.aspose.com/words/net/) 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

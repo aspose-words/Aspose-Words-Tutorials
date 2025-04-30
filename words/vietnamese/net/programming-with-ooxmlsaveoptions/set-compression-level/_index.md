@@ -1,14 +1,16 @@
 ---
-title: Đặt mức độ nén
-linktitle: Đặt mức độ nén
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thiết lập mức độ nén trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tối ưu hóa lưu trữ và hiệu suất tài liệu của bạn.
-weight: 10
-url: /vi/net/programming-with-ooxmlsaveoptions/set-compression-level/
+"description": "Tìm hiểu cách thiết lập mức độ nén trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tối ưu hóa hiệu suất và lưu trữ tài liệu của bạn."
+"linktitle": "Đặt mức độ nén"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Đặt mức độ nén"
+"url": "/vi/net/programming-with-ooxmlsaveoptions/set-compression-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt mức độ nén
@@ -21,7 +23,7 @@ Sẵn sàng khám phá thế giới nén tài liệu với Aspose.Words for .NET
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn có mọi thứ cần thiết để làm theo hướng dẫn này:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
 
 2. Môi trường phát triển: Bạn nên thiết lập một môi trường phát triển, chẳng hạn như Visual Studio.
 
@@ -80,7 +82,7 @@ Document doc = new Document(dataDir + "Document.docx");
 
 Đây chính là nơi phép thuật xảy ra. Chúng ta sẽ thiết lập mức độ nén cho tài liệu.
 
- Tạo một trường hợp của`OoxmlSaveOptions` và thiết lập mức độ nén.`CompressionLevel` thuộc tính có thể được thiết lập ở nhiều cấp độ khác nhau như`Normal`, `Maximum`, `Fast` , Và`SuperFast` . Đối với ví dụ này, chúng ta sẽ sử dụng`SuperFast`.
+Tạo một trường hợp của `OoxmlSaveOptions` và thiết lập mức độ nén. `CompressionLevel` thuộc tính có thể được thiết lập ở nhiều cấp độ khác nhau như `Normal`, `Maximum`, `Fast`, Và `SuperFast`. Đối với ví dụ này, chúng ta sẽ sử dụng `SuperFast`.
 
 ```csharp
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
@@ -93,7 +95,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 Cuối cùng, lưu tài liệu với cài đặt nén mới.
 
- Sử dụng`Save` phương pháp lưu tài liệu của bạn với mức độ nén được chỉ định.
+Sử dụng `Save` phương pháp lưu tài liệu của bạn với mức độ nén được chỉ định.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.SetCompressionLevel.docx", saveOptions);
@@ -107,7 +109,7 @@ Sau khi chạy ứng dụng của bạn, hãy điều hướng đến thư mục
 
 Và bạn đã có nó! Bạn đã thiết lập thành công mức nén cho một tài liệu Word bằng Aspose.Words cho .NET. Điều này có thể giảm đáng kể kích thước tệp và cải thiện hiệu suất khi làm việc với các tài liệu lớn. Đừng quên khám phá các mức nén khác để tìm sự cân bằng tốt nhất giữa kích thước tệp và hiệu suất cho nhu cầu của bạn.
 
-Nếu bạn có bất kỳ câu hỏi hoặc gặp phải bất kỳ vấn đề nào, hãy kiểm tra[Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) hoặc liên hệ với họ[Diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8).
+Nếu bạn có bất kỳ câu hỏi hoặc gặp phải bất kỳ vấn đề nào, hãy kiểm tra [Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) hoặc liên hệ với họ [Diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8).
 
 ## Câu hỏi thường gặp
 
@@ -129,11 +131,16 @@ Có, Aspose.Words for .NET hỗ trợ nén nhiều định dạng tài liệu kh
 
 ### Tôi có thể nhận được hỗ trợ ở đâu nếu gặp vấn đề?
 
- Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose bằng cách truy cập trang web của họ[Diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose bằng cách truy cập trang web của họ [Diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

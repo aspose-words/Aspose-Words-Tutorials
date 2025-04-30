@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ में पैराग्राफ़ शैली लागू करें
-linktitle: वर्ड दस्तावेज़ में पैराग्राफ़ शैली लागू करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में पैराग्राफ़ स्टाइल लागू करना सीखें। एक बेहतरीन, पेशेवर दस्तावेज़ के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/document-formatting/apply-paragraph-style/
+"description": "Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में पैराग्राफ़ स्टाइल लागू करना सीखें। एक बेहतरीन, पेशेवर दस्तावेज़ के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "वर्ड दस्तावेज़ में पैराग्राफ़ शैली लागू करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड दस्तावेज़ में पैराग्राफ़ शैली लागू करें"
+"url": "/hi/net/document-formatting/apply-paragraph-style/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ में पैराग्राफ़ शैली लागू करें
@@ -21,7 +23,7 @@ url: /hi/net/document-formatting/apply-paragraph-style/
 
 शुरू करने से पहले, आइए सुनिश्चित करें कि हमारे पास वह सब कुछ है जिसकी हमें ज़रूरत है। यहाँ एक त्वरित चेकलिस्ट दी गई है:
 
-1.  Aspose.Words for .NET लाइब्रेरी: सुनिश्चित करें कि आपने Aspose.Words for .NET लाइब्रेरी डाउनलोड और इंस्टॉल कर ली है। अगर आपने ऐसा नहीं किया है, तो आप इसे प्राप्त कर सकते हैं।[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET लाइब्रेरी: सुनिश्चित करें कि आपने Aspose.Words for .NET लाइब्रेरी डाउनलोड और इंस्टॉल कर ली है। अगर आपने ऐसा नहीं किया है, तो आप इसे प्राप्त कर सकते हैं। [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास परिवेश: आपको Visual Studio जैसे C# विकास परिवेश की आवश्यकता होगी।
 3. C# का बुनियादी ज्ञान: C# से थोड़ी-सी परिचितता बहुत काम आएगी।
 4. दस्तावेज़ निर्देशिका: एक निर्दिष्ट फ़ोल्डर रखें जहां आप अपने वर्ड दस्तावेज़ों को सहेज सकें।
@@ -46,7 +48,7 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` अपने दस्तावेज़ फ़ोल्डर के वास्तविक पथ के साथ। यह वह जगह है जहाँ आपका स्टाइल किया गया वर्ड दस्तावेज़ सहेजा जाएगा।
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` अपने दस्तावेज़ फ़ोल्डर के वास्तविक पथ के साथ। यह वह जगह है जहाँ आपका स्टाइल किया गया वर्ड दस्तावेज़ सहेजा जाएगा।
 
 ## चरण 2: नया दस्तावेज़ बनाना
 
@@ -57,7 +59,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- यहाँ, हमने एक नया बनाया है`Document` वस्तु और एक`DocumentBuilder` हमें अपना दस्तावेज़ बनाने में मदद करने के लिए प्रेरित करें।
+यहाँ, हमने एक नया बनाया है `Document` वस्तु और एक `DocumentBuilder` हमें अपना दस्तावेज़ बनाने में मदद करने के लिए प्रेरित करें।
 
 ## चरण 3: पैराग्राफ़ शैली लागू करना
 
@@ -98,7 +100,7 @@ doc.Save(dataDir + "DocumentFormatting.ApplyParagraphStyle.docx");
 
 ### मैं कैसे जान सकता हूँ कि कौन से स्टाइल पहचानकर्ता उपलब्ध हैं?
 
- आप शैली पहचानकर्ताओं की पूरी सूची के लिए Aspose.Words दस्तावेज़ देख सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप शैली पहचानकर्ताओं की पूरी सूची के लिए Aspose.Words दस्तावेज़ देख सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
 
 ### क्या मैं अन्य .NET भाषाओं के साथ .NET के लिए Aspose.Words का उपयोग कर सकता हूँ?
 
@@ -106,11 +108,16 @@ doc.Save(dataDir + "DocumentFormatting.ApplyParagraphStyle.docx");
 
 ### क्या .NET के लिए Aspose.Words का निःशुल्क परीक्षण उपलब्ध है?
 
- हां, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

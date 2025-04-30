@@ -1,56 +1,64 @@
 ---
-title: Применение форматирования рядов в документах Word с помощью Aspose.Words для .NET
-weight: 7700
-limit: 
-description: Узнайте, как применять форматирование строков в документе Word с использованием Aspose.Words для .NET. Пошаговое руководство с примером кода и подробными инструкциями.
-keywords: [Aspose.Words for .NET, row formatting Word, apply row format, Word document table styling, .NET Word document example, Aspose.Words tutorial, table row padding, Word document programming]
-url: /ru/net/working-with-table-styles-and-formatting/apply-row-formatting/
+"description": "Узнайте, как применить форматирование строк в документе Word с помощью Aspose.Words для .NET. Пошаговое руководство с примером кода и подробными инструкциями."
+"title": "Применение форматирования строк в документах Word с помощью Aspose.Words для .NET"
+"url": "/ru/net/working-with-table-styles-and-formatting/apply-row-formatting/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Применить форматирование ряда в документах Word с помощью Aspose.Words
+# Применение форматирования строк в документах Word с помощью Aspose.Words
 
-Aspose.Words для .NET предлагает мощные инструменты для создания и программирования документов Word. В этом примере мы покажем, как применять форматирование рядов в документе Word с использованием Aspose.Words. Вы научитесь устанавливать высоты рядов, настраивать накладку и применять точную форматировку для создания хорошо структурированных таблиц.
+Aspose.Words для .NET предлагает мощные инструменты для программного создания и изменения документов Word. В этом примере мы демонстрируем, как применять форматирование строк в документе Word с помощью Aspose.Words. Вы научитесь устанавливать высоту строк, настраивать отступы и применять точное форматирование для создания хорошо структурированных таблиц. Это пошаговое руководство содержит фрагменты кода и инструкции, которые помогут вам быстро реализовать эти функции в ваших приложениях .NET.
 
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/apply-row-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Инструкции по установке  
-Чтобы использовать Aspose.Words для .NET в вашем проекте, следуйте этим шагам:  
+## Инструкция по установке  
+Чтобы использовать Aspose.Words для .NET в своем проекте, выполните следующие действия:  
 
-1. Скачать Aspose.Words для .NET  
-   * Посетите [Aspose.Words для страницы загрузки .NET](https://releases.aspose.com/words/net/)и загрузить последнюю версию.
+1. Загрузить Aspose.Words для .NET  
+   - Посетите [Страница загрузки Aspose.Words для .NET](https://releases.aspose.com/words/net/) и скачайте последнюю версию.
 
-2. Установка через NuGet  
-   * Откройте свой проект в Visual Studio.  
-   * Перейти к Инструменты > Управляющий пакетами NuGet > Управление пакетами NuGet для решения.  
-   * Поиск`"Ответить. Слова"`и нажмите на Установите.
+2. Установить через NuGet  
+   - Откройте свой проект в Visual Studio.  
+   - Перейдите в Инструменты > Диспетчер пакетов NuGet > Управление пакетами NuGet для решения.  
+   - Искать `Aspose.Words` и нажмите «Установить».
 
 3. Включить пространство имен  
-   * Добавьте следующую строку к коду:  
+   - Добавьте в свой код следующую строку:  
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Tables;
      ```
 
-4. Активация лицензии (необязательная)  
-   * Чтобы избежать ограничений в оценке, обратитесь за заявлением о предоставлении[временная лицензия](https://purchase.aspose.com/temporary-license/)или приобрести [полная лицензия](https://purchase.aspose.com/buy)\- Я не знаю .  
-   * Загрузить лицензию в свой код:  
+4. Активировать лицензию (необязательно)  
+   - Чтобы избежать ограничений оценки, подайте заявку на [временная лицензия](https://purchase.aspose.com/temporary-license/) или купить [полная лицензия](https://purchase.aspose.com/buy).  
+   - Загрузите лицензию в свой код:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```
 	 
-## См. также
-[Aspose.Word для документации .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word для ссылок .NET](https://reference.aspose.com/words/net/)
+## Также см.
+[Документация Aspose.Word для .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word для .NET Ссылки](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

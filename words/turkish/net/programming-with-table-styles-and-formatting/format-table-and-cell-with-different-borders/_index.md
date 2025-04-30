@@ -1,14 +1,16 @@
 ---
-title: Tablo ve Hücreyi Farklı Kenarlıklarla Biçimlendir
-linktitle: Tablo ve Hücreyi Farklı Kenarlıklarla Biçimlendir
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak tabloları ve hücreleri farklı kenarlıklarla nasıl biçimlendireceğinizi öğrenin. Word belgelerinizi özelleştirilmiş tablo stilleri ve hücre gölgelendirmesiyle geliştirin.
-weight: 10
-url: /tr/net/programming-with-table-styles-and-formatting/format-table-and-cell-with-different-borders/
+"description": "Aspose.Words for .NET kullanarak tabloları ve hücreleri farklı kenarlıklarla nasıl biçimlendireceğinizi öğrenin. Word belgelerinizi özelleştirilmiş tablo stilleri ve hücre gölgelendirmesiyle geliştirin."
+"linktitle": "Tablo ve Hücreyi Farklı Kenarlıklarla Biçimlendir"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Tablo ve Hücreyi Farklı Kenarlıklarla Biçimlendir"
+"url": "/tr/net/programming-with-table-styles-and-formatting/format-table-and-cell-with-different-borders/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tablo ve Hücreyi Farklı Kenarlıklarla Biçimlendir
@@ -22,8 +24,8 @@ Tablo ve hücrelerin kenarlıklarını özelleştirerek Word belgelerinizin daha
 Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 - C# programlamanın temellerini anlamak.
 - Bilgisayarınızda Visual Studio yüklü olmalıdır.
--  Aspose.Words for .NET kütüphanesi. Eğer henüz yüklemediyseniz, indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
--  Geçerli bir Aspose lisansı. Ücretsiz deneme veya geçici lisansı şu adresten alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words for .NET kütüphanesi. Eğer henüz yüklemediyseniz, indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
+- Geçerli bir Aspose lisansı. Ücretsiz deneme veya geçici lisansı şu adresten alabilirsiniz: [Burada](https://purchase.aspose.com/temporary-license/).
 
 ## Ad Alanlarını İçe Aktar
 
@@ -40,7 +42,7 @@ using System.Drawing;
 Öncelikle yeni bir belge oluşturmanız ve belge içeriğini oluşturmaya yardımcı olan DocumentBuilder'ı başlatmanız gerekiyor. 
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -133,27 +135,32 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDi
 
 ## Çözüm
 
-İşte bu kadar! Aspose.Words for .NET kullanarak tabloları ve hücreleri farklı kenarlıklarla nasıl biçimlendireceğinizi öğrendiniz. Tablo kenarlıklarını ve hücre gölgelendirmesini özelleştirerek belgelerinizin görsel çekiciliğini önemli ölçüde artırabilirsiniz. O halde devam edin, farklı stilleri deneyin ve belgelerinizi öne çıkarın!
+İşte bu kadar! Aspose.Words for .NET kullanarak tabloları ve hücreleri farklı kenarlıklarla nasıl biçimlendireceğinizi öğrendiniz. Tablo kenarlıklarını ve hücre gölgelendirmesini özelleştirerek belgelerinizin görsel çekiciliğini önemli ölçüde artırabilirsiniz. Hadi, farklı stilleri deneyin ve belgelerinizi öne çıkarın!
 
 ## SSS
 
 ### Her hücre için farklı kenarlık stilleri kullanabilir miyim?
- Evet, her hücre için farklı kenarlık stilleri ayarlayabilirsiniz.`CellFormat.Borders` mülk.
+Evet, her hücre için farklı kenarlık stilleri ayarlayabilirsiniz. `CellFormat.Borders` mülk.
 
 ### Bir tablodan tüm kenarlıkları nasıl kaldırabilirim?
- Kenarlık stilini şu şekilde ayarlayarak tüm kenarlıkları kaldırabilirsiniz:`LineStyle.None`.
+Kenarlık stilini şu şekilde ayarlayarak tüm kenarlıkları kaldırabilirsiniz: `LineStyle.None`.
 
 ### Her hücre için farklı kenarlık renkleri belirlemek mümkün müdür?
- Kesinlikle! Her hücre için kenarlık rengini, şunu kullanarak özelleştirebilirsiniz:`CellFormat.Borders.Color` mülk.
+Kesinlikle! Her hücre için kenarlık rengini, şunu kullanarak özelleştirebilirsiniz: `CellFormat.Borders.Color` mülk.
 
 ### Hücre arka planı olarak resim kullanabilir miyim?
 Aspose.Words hücre arka planı olarak doğrudan resimleri desteklemese de, bir hücreye resim ekleyebilir ve hücre alanını kaplayacak şekilde boyutunu ayarlayabilirsiniz.
 
 ### Bir tablodaki hücreleri nasıl birleştiririm?
- Hücreleri birleştirmek için şunu kullanabilirsiniz:`CellFormat.HorizontalMerge` Ve`CellFormat.VerticalMerge` özellikler.
+Hücreleri birleştirmek için şunu kullanabilirsiniz: `CellFormat.HorizontalMerge` Ve `CellFormat.VerticalMerge` özellikler.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

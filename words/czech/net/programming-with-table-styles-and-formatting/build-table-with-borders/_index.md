@@ -1,34 +1,36 @@
 ---
-title: Sestavit Stůl S Hranicemi
-linktitle: Sestavit Stůl S Hranicemi
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se vytvářet a přizpůsobovat ohraničení tabulek v dokumentech aplikace Word pomocí Aspose.Words for .NET. Postupujte podle našeho podrobného průvodce pro podrobné pokyny.
-weight: 10
-url: /cs/net/programming-with-table-styles-and-formatting/build-table-with-borders/
+"description": "Naučte se, jak vytvářet a upravovat ohraničení tabulek v dokumentech Word pomocí Aspose.Words pro .NET. Podrobné pokyny naleznete v našem podrobném návodu."
+"linktitle": "Vytvořit tabulku s ohraničením"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Vytvořit tabulku s ohraničením"
+"url": "/cs/net/programming-with-table-styles-and-formatting/build-table-with-borders/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sestavit Stůl S Hranicemi
+# Vytvořit tabulku s ohraničením
 
 ## Zavedení
 
-Vytváření tabulek s přizpůsobenými okraji v dokumentu aplikace Word může učinit váš obsah vizuálně přitažlivým a dobře organizovaným. S Aspose.Words for .NET můžete snadno vytvářet a formátovat tabulky s přesnou kontrolou nad okraji, styly a barvami. Tento tutoriál vás provede procesem krok za krokem a zajistí, že budete podrobně rozumět každé části kódu.
+Vytváření tabulek s přizpůsobenými okraji v dokumentu Word může váš obsah vizuálně vylepšit a zorganizovat. S Aspose.Words pro .NET můžete snadno vytvářet a formátovat tabulky s přesnou kontrolou nad okraji, styly a barvami. Tento tutoriál vás krok za krokem provede celým procesem a zajistí, že budete mít detailní pochopení každé části kódu.
 
 ## Předpoklady
 
-Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+Než se pustíte do tutoriálu, ujistěte se, že máte splněny následující předpoklady:
 
-1.  Aspose.Words pro .NET Library: Stáhněte a nainstalujte[Aspose.Words for .NET](https://releases.aspose.com/words/net/) knihovna.
-2. Vývojové prostředí: Ujistěte se, že máte na svém počítači nastavené vývojové prostředí, jako je Visual Studio.
-3. Základní znalost C#: Užitečná bude znalost programovacího jazyka C#.
-4. Adresář dokumentů: Adresář, kde budou uloženy vaše vstupní a výstupní dokumenty.
+1. Knihovna Aspose.Words pro .NET: Stáhněte a nainstalujte [Aspose.Words pro .NET](https://releases.aspose.com/words/net/) knihovna.
+2. Vývojové prostředí: Ujistěte se, že máte na svém počítači nainstalované vývojové prostředí, jako je Visual Studio.
+3. Základní znalost C#: Znalost programovacího jazyka C# bude užitečná.
+4. Adresář dokumentů: Adresář, kam budou uloženy vaše vstupní a výstupní dokumenty.
 
 ## Importovat jmenné prostory
 
-Chcete-li ve svém projektu použít Aspose.Words for .NET, musíte importovat potřebné jmenné prostory. Přidejte následující řádky na začátek souboru C#:
+Chcete-li ve svém projektu použít Aspose.Words pro .NET, je třeba importovat potřebné jmenné prostory. Na začátek souboru C# přidejte následující řádky:
 
 ```csharp
 using System;
@@ -37,48 +39,48 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-## Krok 1: Vložte dokument
+## Krok 1: Vložení dokumentu
 
-Prvním krokem je načtení dokumentu aplikace Word, který obsahuje tabulku, kterou chcete formátovat. Můžete to udělat takto:
+Prvním krokem je načtení dokumentu aplikace Word, který obsahuje tabulku, kterou chcete formátovat. Zde je návod, jak to udělat:
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Načtěte dokument ze zadaného adresáře
+// Načíst dokument ze zadaného adresáře
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- V tomto kroku zadáme cestu k adresáři dokumentů a načteme dokument pomocí`Document` třída.
+V tomto kroku zadáme cestu k adresáři dokumentů a načteme dokument pomocí `Document` třída.
 
 ## Krok 2: Přístup k tabulce
 
- Dále musíte získat přístup k tabulce v dokumentu. To lze provést pomocí`GetChild` metoda pro načtení uzlu tabulky:
+Dále je potřeba přistupovat k tabulce v dokumentu. To lze provést pomocí `GetChild` metoda pro načtení uzlu tabulky:
 
 ```csharp
 // Přístup k první tabulce v dokumentu
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 ```
 
- Zde se dostaneme k první tabulce v dokumentu. The`NodeType.Table` zajišťuje, že načítáme uzel tabulky a index`0` znamená, že chceme první tabulku.
+Zde se dostaneme k první tabulce v dokumentu. `NodeType.Table` zajišťuje, že načítáme uzel tabulky a index `0` označuje, že chceme první tabulku.
 
-## Krok 3: Vymažte existující hranice
+## Krok 3: Vyčistěte stávající okraje
 
-Před nastavením nových hranic je dobré vymazat všechny existující hranice. Tím zajistíte, že vaše nové formátování bude použito čistě:
+Před nastavením nových ohraničení je vhodné vymazat všechna stávající ohraničení. Tím zajistíte, že nové formátování bude použito čistě:
 
 ```csharp
-// Odstraňte všechna existující ohraničení z tabulky
+// Vymazat všechny existující ohraničení z tabulky
 table.ClearBorders();
 ```
 
-Tato metoda odebere z tabulky všechna existující ohraničení, takže budete moci pracovat.
+Tato metoda odstraní z tabulky všechny existující ohraničení a poskytne vám čistý začátek.
 
-## Krok 4: Nastavte nové hranice
+## Krok 4: Stanovení nových hranic
 
-Nyní můžete nastavit nové okraje kolem a uvnitř tabulky. Styl, šířku a barvu ohraničení můžete upravit podle potřeby:
+Nyní můžete nastavit nové ohraničení kolem a uvnitř tabulky. Styl, šířku a barvu ohraničení si můžete upravit podle potřeby:
 
 ```csharp
-// Kolem a uvnitř stolu nastavte zelený okraj
+// Nastavení zeleného okraje kolem a uvnitř tabulky
 table.SetBorders(LineStyle.Single, 1.5, Color.Green);
 ```
 
@@ -86,38 +88,43 @@ V tomto kroku nastavíme ohraničení na styl jedné čáry o šířce 1,5 bodu 
 
 ## Krok 5: Uložte dokument
 
-Nakonec upravený dokument uložte do určeného adresáře. Tím se vytvoří nový dokument s použitým formátováním tabulky:
+Nakonec uložte upravený dokument do zadaného adresáře. Tím se vytvoří nový dokument s použitým formátováním tabulky:
 
 ```csharp
-// Uložte upravený dokument do zadaného adresáře
+// Uložit upravený dokument do zadaného adresáře
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithBorders.docx");
 ```
 
-Tento řádek uloží dokument pod novým názvem, což znamená, že byly upraveny okraje tabulky.
+Tento řádek uloží dokument s novým názvem, což znamená, že okraje tabulky byly upraveny.
 
 ## Závěr
 
-Pomocí následujících kroků můžete snadno vytvořit a přizpůsobit ohraničení tabulky v dokumentu aplikace Word pomocí Aspose.Words for .NET. Tato výkonná knihovna nabízí rozsáhlé funkce pro manipulaci s dokumenty, díky čemuž je skvělou volbou pro vývojáře, kteří s dokumenty Wordu pracují programově.
+Pomocí těchto kroků můžete snadno vytvářet a upravovat ohraničení tabulek v dokumentu Word pomocí knihovny Aspose.Words pro .NET. Tato výkonná knihovna nabízí rozsáhlé funkce pro manipulaci s dokumenty, což z ní činí skvělou volbu pro vývojáře pracující s dokumenty Word programově.
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu použít různé styly ohraničení na různé části tabulky?
-Ano, Aspose.Words for .NET umožňuje použít různé styly ohraničení na různé části tabulky, jako jsou jednotlivé buňky, řádky nebo sloupce.
+Ano, Aspose.Words pro .NET umožňuje použít různé styly ohraničení na různé části tabulky, například na jednotlivé buňky, řádky nebo sloupce.
 
-### Je možné nastavit hranice pouze pro konkrétní buňky?
- Absolutně. Můžete cílit na konkrétní buňky a individuálně pro ně nastavit ohraničení pomocí`CellFormat` vlastnictví.
+### Je možné nastavit ohraničení pouze pro určité buňky?
+Rozhodně. Můžete cílit na konkrétní buňky a nastavit pro ně individuální ohraničení pomocí `CellFormat` vlastnictví.
 
 ### Jak mohu odstranit ohraničení z tabulky?
- Ohraničení můžete odstranit pomocí`ClearBorders` metoda, která vymaže všechny existující hranice z tabulky.
+Okraje můžete odstranit pomocí `ClearBorders` metoda, která z tabulky vymaže všechny existující ohraničení.
 
-### Mohu pro okraje použít vlastní barvy?
- Ano, můžete pro okraje použít libovolnou barvu zadáním`Color` vlastnictví. Vlastní barvy lze nastavit pomocí`Color.FromArgb` metoda, pokud potřebujete konkrétní odstíny.
+### Mohu pro ohraničení použít vlastní barvy?
+Ano, pro ohraničení můžete použít libovolnou barvu zadáním `Color` vlastnost. Vlastní barvy lze nastavit pomocí `Color.FromArgb` metodu, pokud potřebujete specifické odstíny.
 
-### Je nutné vyčistit stávající hranice před nastavením nových?
-I když to není povinné, vymazání stávajících ohraničení před nastavením nových zajistí, že vaše nové nastavení ohraničení bude použito bez jakýchkoli zásahů z předchozích stylů.
+### Je nutné vyčistit stávající hranice před stanovením nových?
+I když to není povinné, vymazání stávajících ohraničení před nastavením nových zajistí, že nová nastavení ohraničení budou použita bez jakéhokoli ovlivnění předchozími styly.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

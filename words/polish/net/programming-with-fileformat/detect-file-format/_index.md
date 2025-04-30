@@ -1,14 +1,16 @@
 ---
-title: Wykryj format pliku dokumentu
-linktitle: Wykryj format pliku dokumentu
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wykrywać formaty plików dokumentów za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku.
-weight: 10
-url: /pl/net/programming-with-fileformat/detect-file-format/
+"description": "Dowiedz się, jak wykrywać formaty plików dokumentów za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku."
+"linktitle": "Wykryj format pliku dokumentu"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wykryj format pliku dokumentu"
+"url": "/pl/net/programming-with-fileformat/detect-file-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wykryj format pliku dokumentu
@@ -21,7 +23,7 @@ W dzisiejszym cyfrowym świecie efektywne zarządzanie różnymi formatami dokum
 
 Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
--  Aspose.Words dla .NET: Można go pobrać ze strony[Tutaj](https://releases.aspose.com/words/net/) . Upewnij się, że masz ważne prawo jazdy. Jeśli nie, możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words dla .NET: Można go pobrać ze strony [Tutaj](https://releases.aspose.com/words/net/). Upewnij się, że masz ważne prawo jazdy. Jeśli nie, możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 - Visual Studio: każda nowsza wersja będzie działać dobrze.
 - .NET Framework: Upewnij się, że masz zainstalowaną właściwą wersję.
 
@@ -174,14 +176,19 @@ Tak, Aspose.Words potrafi wykryć, czy dokument jest zaszyfrowany, dzięki czemu
 Aspose.Words potrafi wykryć szeroką gamę formatów, w tym DOC, DOCX, RTF, HTML, MHTML, ODT i wiele innych.
 
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Words?
- Możesz uzyskać tymczasową licencję od[Zakup Aspose](https://purchase.aspose.com/temporary-license/) strona.
+Możesz uzyskać tymczasową licencję od [Zakup Aspose](https://purchase.aspose.com/temporary-license/) strona.
 
 ### Gdzie mogę znaleźć dokumentację Aspose.Words?
- Dokumentację Aspose.Words można znaleźć[Tutaj](https://reference.aspose.com/words/net/).
+Dokumentację Aspose.Words można znaleźć [Tutaj](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

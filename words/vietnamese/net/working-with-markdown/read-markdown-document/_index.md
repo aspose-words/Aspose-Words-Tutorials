@@ -1,14 +1,16 @@
 ---
-title: Đọc tài liệu Markdown
-linktitle: Đọc tài liệu Markdown
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách đọc và thao tác tài liệu Markdown bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. Hoàn hảo cho các nhà phát triển ở mọi cấp độ.
-weight: 10
-url: /vi/net/working-with-markdown/read-markdown-document/
+"description": "Tìm hiểu cách đọc và thao tác tài liệu Markdown bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. Hoàn hảo cho các nhà phát triển ở mọi cấp độ."
+"linktitle": "Đọc tài liệu Markdown"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Đọc tài liệu Markdown"
+"url": "/vi/net/working-with-markdown/read-markdown-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đọc tài liệu Markdown
@@ -21,8 +23,8 @@ Xin chào, các bạn lập trình viên! Hôm nay, chúng ta sẽ khám phá th
 
 Trước khi bắt tay vào viết mã, bạn cần chuẩn bị một số thứ sau:
 
-1. Visual Studio đã cài đặt: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Bạn có thể tải xuống[đây](https://visualstudio.microsoft.com/downloads/).
-2.  Thư viện Aspose.Words cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống thư viện Aspose.Words cho .NET từ[liên kết này](https://releases.aspose.com/words/net/).
+1. Visual Studio đã cài đặt: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Bạn có thể tải xuống [đây](https://visualstudio.microsoft.com/downloads/).
+2. Thư viện Aspose.Words cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống thư viện Aspose.Words cho .NET từ [liên kết này](https://releases.aspose.com/words/net/).
 3. Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về C# và .NET framework.
 4. Tài liệu Markdown: Chuẩn bị sẵn một tài liệu Markdown mà chúng ta có thể thao tác. Bạn có thể tạo một tài liệu đơn giản với một số trích dẫn để theo dõi.
 
@@ -39,7 +41,7 @@ Bây giờ, chúng ta hãy chia nhỏ ví dụ thành các bước dễ thực h
 
 ## Bước 1: Tải tài liệu Markdown
 
- Để bắt đầu, chúng ta cần tải tài liệu Markdown của mình vào Aspose.Words`Document` đối tượng. Đối tượng này sẽ cho phép chúng ta thao tác nội dung theo chương trình.
+Để bắt đầu, chúng ta cần tải tài liệu Markdown của mình vào Aspose.Words `Document` đối tượng. Đối tượng này sẽ cho phép chúng ta thao tác nội dung theo chương trình.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -88,18 +90,23 @@ Có, Aspose.Words hỗ trợ tất cả các ngôn ngữ .NET, bao gồm VB.NET 
 
 ### Có bản dùng thử miễn phí Aspose.Words dành cho .NET không?
 
- Có, bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm tài liệu về Aspose.Words cho .NET ở đâu?
 
- Tài liệu có sẵn[đây](https://reference.aspose.com/words/net/).
+Tài liệu có sẵn [đây](https://reference.aspose.com/words/net/).
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp sự cố với Aspose.Words cho .NET?
 
- Bạn có thể nhận được sự hỗ trợ từ diễn đàn cộng đồng Aspose[đây](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ diễn đàn cộng đồng Aspose [đây](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

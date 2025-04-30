@@ -1,30 +1,32 @@
 ---
-title: 新しい署名欄を作成し、プロバイダー ID を設定する
-linktitle: 新しい署名欄を作成し、プロバイダー ID を設定する
-second_title: Aspose.Words ドキュメント処理 API
-description: Aspose.Words for .NET を使用して、Word 文書に新しい署名欄を作成し、プロバイダー ID を設定する方法を学習します。ステップ バイ ステップ ガイド。
-weight: 10
-url: /ja/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/
+"description": "Aspose.Words for .NET を使用して、Word 文書に新しい署名欄を作成し、プロバイダー ID を設定する方法を学びます。ステップバイステップ ガイド。"
+"linktitle": "新しい署名欄を作成し、プロバイダー ID を設定する"
+"second_title": "Aspose.Words ドキュメント処理 API"
+"title": "新しい署名欄を作成し、プロバイダー ID を設定する"
+"url": "/ja/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 新しい署名欄を作成し、プロバイダー ID を設定する
 
 ## 導入
 
-こんにちは、技術愛好家の皆さん! Word 文書にプログラムで署名欄を追加する方法を考えたことはありませんか? 今日は、Aspose.Words for .NET を使用してその方法について詳しく説明します。このガイドでは、すべての手順を順を追って説明し、Word 文書に新しい署名欄を作成し、プロバイダー ID を設定するのが簡単になるようにします。文書処理を自動化する場合でも、ワークフローを合理化する場合でも、このチュートリアルが役立ちます。
+テクノロジーに詳しい皆さん、こんにちは！Word文書にプログラムで署名欄を追加する方法を考えたことはありませんか？今日は、Aspose.Words for .NETを使って、まさにその方法を詳しく解説します。このガイドでは、Word文書に新しい署名欄を作成し、プロバイダーIDを設定する手順を一つ一つ丁寧に解説します。文書処理の自動化を目指す場合でも、ワークフローの効率化を目指す場合でも、このチュートリアルがきっとお役に立ちます。
 
 ## 前提条件
 
 作業を始める前に、必要なものがすべて揃っていることを確認しましょう。
 
-1.  Aspose.Words for .NET: まだダウンロードしていない場合はダウンロードしてください[ここ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: まだダウンロードしていない場合はダウンロードしてください [ここ](https://releases。aspose.com/words/net/).
 2. 開発環境: Visual Studio またはその他の C# 開発環境。
 3. .NET Framework: .NET Framework がインストールされていることを確認してください。
-4. PFX 証明書: ドキュメントに署名するには、PFX 証明書が必要です。信頼できる証明機関から取得できます。
+4. PFX証明書：文書に署名するには、PFX証明書が必要です。信頼できる証明機関から取得できます。
 
 ## 名前空間のインポート
 
@@ -37,24 +39,24 @@ using Aspose.Words.Signing;
 using System;
 ```
 
-さて、本題に入りましょう。新しい署名行を作成し、プロバイダー ID を設定するための各手順を詳しく説明します。
+では、本題に入りましょう。新しい署名欄を作成し、プロバイダーIDを設定する手順を、それぞれ詳しく説明します。
 
-## ステップ1: 新しいドキュメントを作成する
+## ステップ1：新しいドキュメントを作成する
 
-まず、新しい Word 文書を作成する必要があります。これが署名行のキャンバスになります。
+まず、新しいWord文書を作成します。これが署名欄のキャンバスになります。
 
 ```csharp
-//ドキュメント ディレクトリへのパス。
+// ドキュメント ディレクトリへのパス。
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-このスニペットでは、新しい`Document`そして`DocumentBuilder` 。`DocumentBuilder`ドキュメントに要素を追加するのに役立ちます。
+このスニペットでは、新しい `Document` そして `DocumentBuilder`。その `DocumentBuilder` ドキュメントに要素を追加するのに役立ちます。
 
-## ステップ2: 署名行オプションを定義する
+## ステップ2: 署名行のオプションを定義する
 
-次に、署名行のオプションを定義します。これには、署名者の名前、役職、電子メール、その他の詳細が含まれます。
+次に、署名欄のオプションを定義します。署名者の名前、役職、メールアドレス、その他の詳細が含まれます。
 
 ```csharp
 SignatureLineOptions signatureLineOptions = new SignatureLineOptions
@@ -80,7 +82,7 @@ SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).
 signatureLine.ProviderId = Guid.Parse("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2");
 ```
 
-ここでは、`InsertSignatureLine`メソッドは署名行を追加し、それに一意のプロバイダー ID を割り当てます。
+ここでは、 `InsertSignatureLine` メソッドは署名行を追加し、それに一意のプロバイダー ID を割り当てます。
 
 ## ステップ4: ドキュメントを保存する
 
@@ -94,7 +96,7 @@ doc.Save(dataDir + "SignDocuments.SignatureLineProviderId.docx");
 
 ## ステップ5: 署名オプションを設定する
 
-次に、ドキュメントに署名するためのオプションを設定する必要があります。これには、署名行 ID、プロバイダー ID、コメント、署名時刻が含まれます。
+次に、ドキュメントに署名するためのオプションを設定します。これには、署名行ID、プロバイダーID、コメント、署名時刻が含まれます。
 
 ```csharp
 SignOptions signOptions = new SignOptions
@@ -110,15 +112,15 @@ SignOptions signOptions = new SignOptions
 
 ## ステップ6: 証明書所有者を作成する
 
-ドキュメントに署名するには、PFX 証明書を使用します。そのための証明書ホルダーを作成しましょう。
+ドキュメントに署名するには、PFX証明書を使用します。そのための証明書ホルダーを作成しましょう。
 
 ```csharp
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
 ```
 
-必ず交換してください`"morzal.pfx"`実際の証明書ファイルと`"aw"`証明書のパスワードを入力します。
+必ず交換してください `"morzal.pfx"` 実際の証明書ファイルと `"aw"` 証明書のパスワードを入力します。
 
-## ステップ7: 文書に署名する
+## ステップ7：文書に署名する
 
 最後に、デジタル署名ユーティリティを使用してドキュメントに署名します。
 
@@ -131,27 +133,32 @@ DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLineProviderId.docx"
 
 ## 結論
 
-これで完了です。Aspose.Words for .NET を使用して、Word 文書に新しい署名欄を作成し、プロバイダー ID を設定できました。この強力なライブラリを使用すると、文書処理タスクの管理と自動化が非常に簡単になります。ぜひ試して、ワークフローを効率化できるかどうかを確認してください。
+これで完了です！Aspose.Words for .NET を使って、Word 文書に新しい署名欄を作成し、プロバイダー ID を設定できました。この強力なライブラリを使えば、文書処理タスクの管理と自動化が驚くほど簡単になります。ぜひお試しいただき、ワークフローを効率化できるかどうかご確認ください。
 
 ## よくある質問
 
 ### 署名行の外観をカスタマイズできますか?
-もちろんです！さまざまなオプションを調整できます`SignatureLineOptions`お客様のニーズに合わせて。
+もちろんです！様々なオプションを調整できます `SignatureLineOptions` お客様のニーズに合わせて。
 
 ### PFX 証明書を持っていない場合はどうなりますか?
-信頼できる証明機関から証明書を取得する必要があります。これは、ドキュメントにデジタル署名するために不可欠です。
+信頼できる証明機関から証明書を取得する必要があります。これは、文書にデジタル署名するために不可欠です。
 
 ### 文書に複数の署名行を追加できますか?
 はい、さまざまなオプションで挿入プロセスを繰り返すことで、必要な数の署名行を追加できます。
 
 ### Aspose.Words for .NET は .NET Core と互換性がありますか?
-はい、Aspose.Words for .NET は .NET Core をサポートしているため、さまざまな開発環境に柔軟に対応できます。
+はい、Aspose.Words for .NET は .NET Core をサポートしており、さまざまな開発環境に柔軟に対応できます。
 
-### デジタル署名はどれくらい安全ですか?
-Aspose.Words で作成されたデジタル署名は、有効で信頼できる証明書を使用している限り、非常に安全です。
+### デジタル署名はどの程度安全ですか?
+有効で信頼できる証明書を使用している限り、Aspose.Words で作成されたデジタル署名は非常に安全です。
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

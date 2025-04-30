@@ -1,44 +1,46 @@
 ---
-title: Vložit pole pomocí Tvůrce polí
-linktitle: Vložit pole pomocí Tvůrce polí
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se vkládat dynamická pole do dokumentů aplikace Word pomocí Aspose.Words for .NET pomocí tohoto podrobného průvodce. Ideální pro vývojáře.
-weight: 10
-url: /cs/net/working-with-fields/insert-field-using-field-builder/
+"description": "Naučte se, jak vkládat dynamická pole do dokumentů Wordu pomocí Aspose.Words pro .NET v tomto podrobném návodu. Ideální pro vývojáře."
+"linktitle": "Vložit pole pomocí nástroje Tvůrce polí"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Vložit pole pomocí nástroje Tvůrce polí"
+"url": "/cs/net/working-with-fields/insert-field-using-field-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vložit pole pomocí Tvůrce polí
+# Vložit pole pomocí nástroje Tvůrce polí
 
 ## Zavedení
 
-Ahoj! Přistihli jste se někdy, že se škrábete na hlavě a přemýšlíte, jak programově vložit dynamická pole do dokumentů aplikace Word? No, už se nebojte! V tomto tutoriálu se ponoříme do zázraků Aspose.Words for .NET, výkonné knihovny, která vám umožní bezproblémově vytvářet, manipulovat a transformovat dokumenty Wordu. Konkrétně si projdeme, jak vkládat pole pomocí Tvůrce polí. Začněme!
+Ahoj! Už jste si někdy lámali hlavu a přemýšleli, jak programově vkládat dynamická pole do dokumentů Wordu? Už se nemusíte bát! V tomto tutoriálu se ponoříme do zázraků Aspose.Words pro .NET, výkonné knihovny, která vám umožňuje bezproblémově vytvářet, manipulovat a transformovat dokumenty Wordu. Konkrétně si ukážeme, jak vkládat pole pomocí Tvůrce polí. Pojďme na to!
 
 ## Předpoklady
 
-Než se ponoříme do toho nejzákladnějšího, ujistěte se, že máte vše, co potřebujete:
+Než se pustíme do detailů, ujistěme se, že máte vše, co potřebujete:
 
-1. Aspose.Words for .NET: Musíte mít nainstalovanou aplikaci Aspose.Words for .NET. Pokud jste to ještě neudělali, můžete si to vzít[zde](https://releases.aspose.com/words/net/).
+1. Aspose.Words pro .NET: Budete muset mít nainstalovaný Aspose.Words pro .NET. Pokud jste tak ještě neučinili, můžete si ho stáhnout. [zde](https://releases.aspose.com/words/net/).
 2. Vývojové prostředí: Vhodné vývojové prostředí, jako je Visual Studio.
-3. Základní znalost C#: Bude užitečné, pokud jste obeznámeni se základy C# a .NET.
+3. Základní znalost C#: Bude užitečné, pokud znáte základy C# a .NET.
 
 ## Importovat jmenné prostory
 
-Nejprve importujme potřebné jmenné prostory. To bude zahrnovat základní jmenné prostory Aspose.Words, které budeme používat v našem tutoriálu.
+Nejdříve si importujme potřebné jmenné prostory. To bude zahrnovat základní jmenné prostory Aspose.Words, které budeme používat v celém našem tutoriálu.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Fields;
 ```
 
-Dobře, pojďme si proces rozebrat krok za krokem. Na konci tohoto budete profesionálem ve vkládání polí pomocí Field Builderu v Aspose.Words pro .NET.
+Dobře, pojďme si celý proces rozebrat krok za krokem. Na konci budete profesionálem ve vkládání polí pomocí nástroje Field Builder v Aspose.Words pro .NET.
 
-## Krok 1: Nastavte svůj projekt
+## Krok 1: Nastavení projektu
 
-Než skočíme do kódovací části, ujistěte se, že je váš projekt správně nastaven. Vytvořte nový projekt C# ve svém vývojovém prostředí a nainstalujte balíček Aspose.Words prostřednictvím NuGet Package Manager.
+Než se pustíme do kódování, ujistěte se, že je váš projekt správně nastaven. Vytvořte nový C# projekt ve vašem vývojovém prostředí a nainstalujte balíček Aspose.Words pomocí Správce balíčků NuGet.
 
 ```bash
 Install-Package Aspose.Words
@@ -46,31 +48,31 @@ Install-Package Aspose.Words
 
 ## Krok 2: Vytvořte nový dokument
 
-Začněme vytvořením nového dokumentu aplikace Word. Tento dokument bude sloužit jako naše plátno pro vkládání polí.
+Začněme vytvořením nového dokumentu Wordu. Tento dokument bude sloužit jako naše plátno pro vkládání polí.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 // Vytvořte nový dokument.
 Document doc = new Document();
 ```
 
-## Krok 3: Inicializujte FieldBuilder
+## Krok 3: Inicializace FieldBuilderu
 
-FieldBuilder je zde klíčovým hráčem. Umožňuje nám dynamicky konstruovat pole.
+Klíčovou roli zde hraje FieldBuilder. Umožňuje nám dynamicky konstruovat pole.
 
 ```csharp
-//Konstrukce IF pole pomocí FieldBuilderu.
+// Konstrukce IF pole pomocí FieldBuilderu.
 FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldIf)
     .AddArgument("left expression")
     .AddArgument("=")
     .AddArgument("right expression");
 ```
 
-## Krok 4: Přidejte argumenty do FieldBuilderu
+## Krok 4: Přidání argumentů do FieldBuilderu
 
-Nyní do našeho FieldBuilderu přidáme potřebné argumenty. To bude zahrnovat naše výrazy a text, který chceme vložit.
+Nyní přidáme potřebné argumenty do našeho FieldBuilderu. Ty budou zahrnovat naše výrazy a text, který chceme vložit.
 
 ```csharp
 fieldBuilder.AddArgument(
@@ -83,9 +85,9 @@ fieldBuilder.AddArgument(
             .AddField(new FieldBuilder(FieldType.FieldMergeField).AddArgument("lastname")));
 ```
 
-## Krok 5: Vložte pole do dokumentu
+## Krok 5: Vložení pole do dokumentu
 
-Po nastavení našeho FieldBuilderu je čas vložit pole do našeho dokumentu. Uděláme to tak, že zacílíme na první odstavec první části.
+Jakmile je náš FieldBuilder nastaven, je čas vložit pole do dokumentu. To uděláme tak, že se zaměříme na první odstavec první sekce.
 
 ```csharp
 // Vložte pole IF do dokumentu.
@@ -95,37 +97,42 @@ field.Update();
 
 ## Krok 6: Uložte dokument
 
-Nakonec uložme náš dokument a podívejme se na výsledky.
+Nakonec si uložme dokument a podíváme se na výsledek.
 
 ```csharp
 doc.Save(dataDir + "InsertFieldWithFieldBuilder.docx");
 ```
 
-A tady to máte! Úspěšně jste vložili pole do dokumentu aplikace Word pomocí Aspose.Words for .NET.
+A tady to máte! Úspěšně jste vložili pole do dokumentu Word pomocí Aspose.Words pro .NET.
 
 ## Závěr
 
-Gratuluji! Právě jste se naučili, jak dynamicky vkládat pole do dokumentu aplikace Word pomocí Aspose.Words for .NET. Tato výkonná funkce může být neuvěřitelně užitečná pro vytváření dynamických dokumentů, které vyžadují slučování dat v reálném čase. Pokračujte v experimentování s různými typy polí a prozkoumejte rozsáhlé možnosti Aspose.Words.
+Gratulujeme! Právě jste se naučili, jak dynamicky vkládat pole do dokumentu Wordu pomocí Aspose.Words pro .NET. Tato výkonná funkce může být neuvěřitelně užitečná pro vytváření dynamických dokumentů, které vyžadují slučování dat v reálném čase. Experimentujte s různými typy polí a prozkoumejte rozsáhlé možnosti Aspose.Words.
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
-Aspose.Words for .NET je výkonná knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět dokumenty Wordu programově pomocí C#.
+### Co je Aspose.Words pro .NET?
+Aspose.Words pro .NET je výkonná knihovna, která umožňuje vývojářům programově vytvářet, manipulovat a převádět dokumenty Wordu pomocí C#.
 
 ### Mohu používat Aspose.Words zdarma?
- Aspose.Words nabízí bezplatnou zkušební verzi, kterou si můžete stáhnout[zde](https://releases.aspose.com/) . Pro dlouhodobé používání si budete muset zakoupit licenci[zde](https://purchase.aspose.com/buy).
+Aspose.Words nabízí bezplatnou zkušební verzi, kterou si můžete stáhnout. [zde](https://releases.aspose.com/)Pro dlouhodobé používání si budete muset zakoupit licenci. [zde](https://purchase.aspose.com/buy).
 
-### Jaké typy polí mohu vložit pomocí FieldBuilderu?
- FieldBuilder podporuje širokou škálu polí, včetně IF, MERGEFIELD a dalších. Můžete najít podrobnou dokumentaci[zde](https://reference.aspose.com/words/net/).
+### Jaké typy polí mohu vkládat pomocí nástroje FieldBuilder?
+FieldBuilder podporuje širokou škálu polí, včetně IF, MERGEFIELD a dalších. Podrobnou dokumentaci naleznete [zde](https://reference.aspose.com/words/net/).
 
 ### Jak aktualizuji pole po jeho vložení?
- Pole můžete aktualizovat pomocí`Update` metodou, jak je ukázáno v tutoriálu.
+Pole můžete aktualizovat pomocí `Update` metoda, jak je ukázáno v tutoriálu.
 
 ### Kde mohu získat podporu pro Aspose.Words?
- Máte-li jakékoli dotazy nebo podporu, navštivte fórum podpory Aspose.Words[zde](https://forum.aspose.com/c/words/8).
+V případě jakýchkoli dotazů nebo potřeby podpory navštivte fórum podpory Aspose.Words. [zde](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

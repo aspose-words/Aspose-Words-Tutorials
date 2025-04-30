@@ -1,14 +1,16 @@
 ---
-title: Chấp nhận và từ chối thay đổi tài liệu
-linktitle: Chấp nhận và từ chối thay đổi tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách quản lý các thay đổi tài liệu dễ dàng với Aspose.Words for Java. Chấp nhận và từ chối các bản sửa đổi một cách liền mạch.
-weight: 12
-url: /vi/java/document-revision/accepting-rejecting-document-changes/
+"description": "Tìm hiểu cách quản lý các thay đổi tài liệu dễ dàng với Aspose.Words for Java. Chấp nhận và từ chối các bản sửa đổi một cách liền mạch."
+"linktitle": "Chấp nhận và từ chối thay đổi tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Chấp nhận và từ chối thay đổi tài liệu"
+"url": "/vi/java/document-revision/accepting-rejecting-document-changes/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chấp nhận và từ chối thay đổi tài liệu
@@ -83,7 +85,7 @@ Tóm lại, việc thành thạo nghệ thuật chấp nhận và từ chối th
 
 ### Làm thế nào để xác định ai đã thực hiện thay đổi cụ thể trong tài liệu?
 
- Bạn có thể truy cập thông tin tác giả cho mỗi bản sửa đổi bằng cách sử dụng`getAuthor` phương pháp trên`Revision` sự vật.
+Bạn có thể truy cập thông tin tác giả cho mỗi bản sửa đổi bằng cách sử dụng `getAuthor` phương pháp trên `Revision` sự vật.
 
 ### Tôi có thể tùy chỉnh giao diện của những thay đổi được theo dõi trong tài liệu không?
 
@@ -99,10 +101,15 @@ Thật không may, những thay đổi đã được chấp nhận hoặc từ c
 
 ### Tôi có thể tìm thêm thông tin và tài liệu về Aspose.Words cho Java ở đâu?
 
- Để biết tài liệu chi tiết và ví dụ, hãy truy cập[Tài liệu tham khảo API Aspose.Words cho Java](https://reference.aspose.com/words/java/).
+Để biết tài liệu chi tiết và ví dụ, hãy truy cập [Tài liệu tham khảo API Aspose.Words cho Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

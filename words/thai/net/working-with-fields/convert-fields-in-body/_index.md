@@ -1,14 +1,16 @@
 ---
-title: แปลงฟิลด์ในเนื้อหา
-linktitle: แปลงฟิลด์ในเนื้อหา
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการแปลงฟิลด์เอกสารเป็นข้อความคงที่โดยใช้ Aspose.Words สำหรับ .NET เพื่อเพิ่มประสิทธิภาพการประมวลผลเอกสาร
-weight: 10
-url: /th/net/working-with-fields/convert-fields-in-body/
+"description": "เรียนรู้วิธีการแปลงฟิลด์เอกสารเป็นข้อความคงที่โดยใช้ Aspose.Words สำหรับ .NET เพื่อเพิ่มประสิทธิภาพการประมวลผลเอกสาร"
+"linktitle": "แปลงฟิลด์ในเนื้อหา"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แปลงฟิลด์ในเนื้อหา"
+"url": "/th/net/working-with-fields/convert-fields-in-body/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แปลงฟิลด์ในเนื้อหา
@@ -22,7 +24,7 @@ url: /th/net/working-with-fields/convert-fields-in-body/
 ก่อนจะเจาะลึกลงไปในบทช่วยสอนเกี่ยวกับการแปลงฟิลด์ในเนื้อหาของเอกสารโดยใช้ Aspose.Words สำหรับ .NET โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - Visual Studio: ติดตั้งและกำหนดค่าสำหรับการพัฒนา .NET
--  Aspose.Words สำหรับ .NET: ดาวน์โหลดและอ้างอิงในโปรเจ็กต์ Visual Studio ของคุณ คุณสามารถรับได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ดาวน์โหลดและอ้างอิงในโปรเจ็กต์ Visual Studio ของคุณ คุณสามารถรับได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 - ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับภาษาการเขียนโปรแกรม C# เพื่อทำความเข้าใจและปรับเปลี่ยนชิ้นส่วนโค้ดที่ให้มา
 
 ## นำเข้าเนมสเปซ
@@ -45,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Linked fields.docx");
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางไปยังเอกสารจริงของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางไปยังเอกสารจริงของคุณ
 
 ## ขั้นตอนที่ 2: ระบุและแปลงฟิลด์
 
@@ -68,7 +70,7 @@ doc.FirstSection.Body.Range.Fields
 doc.Save(dataDir + "WorkingWithFields.ConvertFieldsInBody.docx");
 ```
 
- ปรับ`"WorkingWithFields.ConvertFieldsInBody.docx"` เพื่อระบุเส้นทางไฟล์เอาท์พุตที่ต้องการ
+ปรับ `"WorkingWithFields.ConvertFieldsInBody.docx"` เพื่อระบุเส้นทางไฟล์เอาท์พุตที่ต้องการ
 
 ## บทสรุป
 
@@ -86,13 +88,18 @@ Aspose.Words รองรับประเภทฟิลด์ต่างๆ 
 ใช่ Aspose.Words สำหรับ .NET สามารถแปลงและจัดการฟิลด์ในรูปแบบต่างๆ เช่น DOCX, DOC, RTF และอื่นๆ ได้อย่างราบรื่น
 
 ### ฉันสามารถหาเอกสารประกอบโดยละเอียดสำหรับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
- มีเอกสารรายละเอียดและเอกสารอ้างอิง API[ที่นี่](https://reference.aspose.com/words/net/).
+มีเอกสารรายละเอียดและการอ้างอิง API [ที่นี่](https://reference-aspose.com/words/net/).
 
 ### มีเวอร์ชันทดลองใช้สำหรับ Aspose.Words สำหรับ .NET หรือไม่
- ใช่ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้งานฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้งานฟรีได้จาก [ที่นี่](https://releases-aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

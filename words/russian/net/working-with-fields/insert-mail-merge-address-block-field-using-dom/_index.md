@@ -1,14 +1,16 @@
 ---
-title: Вставить поле блока адреса для слияния с использованием DOM
-linktitle: Вставить поле блока адреса для слияния с использованием DOM
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставить поле «Блок адреса для слияния» в документы Word с помощью Aspose.Words для .NET, воспользовавшись этим подробным пошаговым руководством.
-weight: 10
-url: /ru/net/working-with-fields/insert-mail-merge-address-block-field-using-dom/
+"description": "Узнайте, как вставить поле «Блок адреса для слияния» в документы Word с помощью Aspose.Words для .NET, воспользовавшись этим подробным пошаговым руководством."
+"linktitle": "Вставить поле блока адреса для слияния с использованием DOM"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить поле блока адреса для слияния с использованием DOM"
+"url": "/ru/net/working-with-fields/insert-mail-merge-address-block-field-using-dom/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить поле блока адреса для слияния с использованием DOM
@@ -21,10 +23,10 @@ url: /ru/net/working-with-fields/insert-mail-merge-address-block-field-using-dom
 
 Прежде чем перейти к деталям, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words для .NET: если вы еще этого не сделали, загрузите последнюю версию с сайта[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: если вы еще этого не сделали, загрузите последнюю версию с сайта [здесь](https://releases.aspose.com/words/net/).
 2. Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio.
 3. Базовые знания C#: это руководство предполагает, что вы хорошо разбираетесь в программировании на C#.
-4.  Лицензия Aspose: вы можете использовать бесплатную пробную версию[здесь](https://releases.aspose.com/) или получите временную лицензию от[здесь](https://purchase.aspose.com/temporary-license/).
+4. Лицензия Aspose: вы можете использовать бесплатную пробную версию [здесь](https://releases.aspose.com/) или получите временную лицензию от [здесь](https://purchase.aspose.com/temporary-license/).
 
 ## Импорт пространств имен
 
@@ -66,7 +68,7 @@ builder.MoveTo(para);
 
 ## Шаг 4: Вставьте поле блока адреса
 
-Вот где происходит волшебство. Мы вставим поле Mail Merge Address Block с помощью конструктора.`InsertField` Для создания поля используется метод.
+Вот где происходит волшебство. Мы вставим поле Mail Merge Address Block с помощью конструктора. `InsertField` Для создания поля используется метод.
 
 ```csharp
 FieldAddressBlock field = (FieldAddressBlock) builder.InsertField(FieldType.FieldAddressBlock, false);
@@ -119,19 +121,24 @@ doc.Save(dataDir + "WorkingWithFields.InsertMailMergeAddressBlockFieldUsingDOM.d
 Aspose.Words для .NET — это мощная библиотека, которая позволяет разработчикам создавать, редактировать, конвертировать и печатать документы Word программным способом с помощью приложений .NET.
 
 ### Могу ли я использовать Aspose.Words бесплатно?
- Aspose.Words предлагает бесплатную пробную версию, которую вы можете загрузить[здесь](https://releases.aspose.com/) . Для длительного использования вы можете рассмотреть возможность приобретения лицензии.[здесь](https://purchase.aspose.com/buy).
+Aspose.Words предлагает бесплатную пробную версию, которую вы можете загрузить [здесь](https://releases.aspose.com/). Для длительного использования вы можете рассмотреть возможность приобретения лицензии. [здесь](https://purchase.aspose.com/buy).
 
 ### Что такое блок адресов для слияния писем?
 Блок адреса для слияния писем — это поле в Word, которое позволяет вставлять адресную информацию из источника данных, отформатированную особым образом, что делает его идеальным для создания персонализированных писем или наклеек.
 
 ### Как получить поддержку по Aspose.Words?
- Вы можете получить поддержку от сообщества и технической команды Aspose.[здесь](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от сообщества и технической команды Aspose. [здесь](https://forum.aspose.com/c/words/8).
 
 ### Могу ли я автоматизировать другие аспекты документов Word с помощью Aspose.Words?
-Конечно! Aspose.Words для .NET предоставляет широкий спектр функций для автоматизации создания документов, редактирования, преобразования и многого другого. Ознакомьтесь с[документация](https://reference.aspose.com/words/net/) для более подробной информации.
+Конечно! Aspose.Words для .NET предоставляет широкий спектр функций для автоматизации создания документов, редактирования, преобразования и многого другого. Ознакомьтесь с [документация](https://reference.aspose.com/words/net/) для более подробной информации.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

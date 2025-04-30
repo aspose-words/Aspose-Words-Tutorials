@@ -1,14 +1,16 @@
 ---
-title: Przetwarzanie słów z opcjami Odtsaveoptions
-linktitle: Przetwarzanie słów z opcjami Odtsaveoptions
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Poznaj przetwarzanie tekstu z opcjami zapisu ODT w Aspose.Words dla .NET. Szczegółowe samouczki z przykładowym kodem do zapisywania dokumentów Word w formacie ODT.
-weight: 1650
-url: /pl/net/programming-with-odtsaveoptions/
+"description": "Poznaj przetwarzanie tekstu z opcjami zapisu ODT w Aspose.Words dla .NET. Szczegółowe samouczki z przykładowym kodem do zapisywania dokumentów Word w formacie ODT."
+"linktitle": "Przetwarzanie słów z opcjami Odtsaveoptions"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przetwarzanie słów z opcjami Odtsaveoptions"
+"url": "/pl/net/programming-with-odtsaveoptions/"
+"weight": 1650
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przetwarzanie słów z opcjami Odtsaveoptions
@@ -22,10 +24,15 @@ Niezależnie od tego, czy musisz konwertować dokumenty, manipulować treścią,
  ## Samouczki
 | Tytuł | Opis |
 | --- | --- |
-| [Jednostka miary](./measure-unit/) | Dowiedz się, jak skonfigurować funkcję jednostek miary w Aspose.Words dla platformy .NET, aby zachować formatowanie dokumentu podczas konwersji ODT. |
+| [Jednostka miary](./measure-unit/) | Dowiedz się, jak skonfigurować funkcję jednostki miary w Aspose.Words dla platformy .NET, aby zachować formatowanie dokumentu podczas konwersji ODT. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

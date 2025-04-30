@@ -1,14 +1,16 @@
 ---
-title: रेगेक्स से प्रतिस्थापित करें
-linktitle: रेगेक्स से प्रतिस्थापित करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: Aspose.Words for .NET के साथ Word दस्तावेज़ों में ढूँढ़ने और बदलने के लिए regex का उपयोग करना सीखें। टेक्स्ट हेरफेर में महारत हासिल करने के लिए हमारे विस्तृत, चरण-दर-चरण गाइड का पालन करें।
-weight: 10
-url: /hi/net/find-and-replace-text/replace-with-regex/
+"description": "Aspose.Words for .NET के साथ Word दस्तावेज़ों में ढूँढ़ने और बदलने के लिए regex का उपयोग करना सीखें। टेक्स्ट हेरफेर में महारत हासिल करने के लिए हमारे विस्तृत, चरण-दर-चरण गाइड का पालन करें।"
+"linktitle": "रेगेक्स से प्रतिस्थापित करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "रेगेक्स से प्रतिस्थापित करें"
+"url": "/hi/net/find-and-replace-text/replace-with-regex/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # रेगेक्स से प्रतिस्थापित करें
@@ -20,13 +22,13 @@ url: /hi/net/find-and-replace-text/replace-with-regex/
 ## आवश्यक शर्तें
 
 आरंभ करने से पहले, आइए सुनिश्चित करें कि हमारे पास वह सब कुछ है जो हमें चाहिए:
-1. Aspose.Words for .NET: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास पर्यावरण: विजुअल स्टूडियो जैसा एक IDE जहां आप अपना C# कोड लिख और चला सकते हैं।
 3. C# और Regex का बुनियादी ज्ञान: C# से परिचित होना और नियमित अभिव्यक्तियों की बुनियादी समझ उपयोगी होगी।
 
 ## नामस्थान आयात करें
 
-सबसे पहले, हमें आवश्यक नेमस्पेस को आयात करना होगा। अपनी C# फ़ाइल में, शीर्ष पर निम्नलिखित using कथन जोड़ें:
+सबसे पहले, हमें आवश्यक नेमस्पेस आयात करने की आवश्यकता है। अपनी C# फ़ाइल में, शीर्ष पर निम्नलिखित using कथन जोड़ें:
 
 ```csharp
 using System;
@@ -44,11 +46,11 @@ using Aspose.Words.Replacing;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` आपकी निर्देशिका के वास्तविक पथ के साथ.
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपकी निर्देशिका के वास्तविक पथ के साथ.
 
 ## चरण 2: नया दस्तावेज़ बनाएँ
 
- इसके बाद, हम एक नया दस्तावेज़ और एक नया दस्तावेज़ बनाएंगे`DocumentBuilder` कुछ प्रारंभिक पाठ जोड़ने के लिए.
+इसके बाद, हम एक नया दस्तावेज़ और एक नया दस्तावेज़ बनाएंगे `DocumentBuilder` कुछ प्रारंभिक पाठ जोड़ने के लिए.
 
 ```csharp
 Document doc = new Document();
@@ -61,7 +63,7 @@ builder.Writeln("sad mad bad");
 
 ## चरण 3: खोजें और बदलें विकल्प परिभाषित करें
 
- रेगेक्स प्रतिस्थापन करने के लिए, हमें कुछ विकल्प सेट करने की आवश्यकता है।`FindReplaceOptions`क्लास हमें यह निर्दिष्ट करने की अनुमति देता है कि खोज और प्रतिस्थापन ऑपरेशन कैसे व्यवहार करना चाहिए।
+रेगेक्स प्रतिस्थापन करने के लिए, हमें कुछ विकल्प सेट करने की आवश्यकता है। `FindReplaceOptions` क्लास हमें यह निर्दिष्ट करने की अनुमति देता है कि खोज और प्रतिस्थापन ऑपरेशन कैसे व्यवहार करना चाहिए।
 
 ```csharp
 FindReplaceOptions options = new FindReplaceOptions();
@@ -71,13 +73,13 @@ FindReplaceOptions options = new FindReplaceOptions();
 
 ## चरण 4: रेगेक्स प्रतिस्थापन करें
 
- अब आता है मज़ेदार हिस्सा! हम इसका इस्तेमाल करेंगे`Range.Replace` नियमित अभिव्यक्ति का उपयोग करके "दुखी" या "पागल" की सभी घटनाओं को "बुरा" के साथ बदलने की विधि।
+अब आता है मज़ेदार हिस्सा! हम इसका इस्तेमाल करेंगे `Range.Replace` नियमित अभिव्यक्ति का उपयोग करके "दुखी" या "पागल" की सभी घटनाओं को "बुरा" के साथ बदलने की विधि।
 
 ```csharp
 doc.Range.Replace(new Regex("[s|m]ad"), "bad", options);
 ```
 
- रेगेक्स पैटर्न`[s|m]ad` "ad" में समाप्त होने वाले किसी भी शब्द से मेल खाता है जो या तो "s" या "m" से शुरू होता है। प्रतिस्थापन स्ट्रिंग "bad" पाए गए किसी भी मिलान को प्रतिस्थापित कर देगा।
+रेगेक्स पैटर्न `[s|m]ad` "ad" में समाप्त होने वाले किसी भी शब्द से मेल खाता है जो "s" या "m" से शुरू होता है। प्रतिस्थापन स्ट्रिंग "bad" पाए गए किसी भी मिलान को प्रतिस्थापित करेगा।
 
 ## चरण 5: संशोधित दस्तावेज़ सहेजें
 
@@ -87,7 +89,7 @@ doc.Range.Replace(new Regex("[s|m]ad"), "bad", options);
 doc.Save(dataDir + "FindAndReplace.ReplaceWithRegex.docx");
 ```
 
- यह पंक्ति दस्तावेज़ को फ़ाइल नाम के साथ सहेजती है`FindAndReplace.ReplaceWithRegex.docx` द्वारा निर्दिष्ट निर्देशिका में`dataDir`.
+यह पंक्ति दस्तावेज़ को फ़ाइल नाम के साथ सहेजती है `FindAndReplace.ReplaceWithRegex.docx` द्वारा निर्दिष्ट निर्देशिका में `dataDir`.
 
 ## निष्कर्ष
 
@@ -109,9 +111,14 @@ doc.Save(dataDir + "FindAndReplace.ReplaceWithRegex.docx");
 
 ### क्या मैं वेब अनुप्रयोगों में .NET के लिए Aspose.Words का उपयोग कर सकता हूँ?  
 हां, .NET के लिए Aspose.Words बहुमुखी है और इसका उपयोग वेब, डेस्कटॉप और क्लाउड-आधारित अनुप्रयोगों सहित विभिन्न प्रकार के अनुप्रयोगों में किया जा सकता है।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

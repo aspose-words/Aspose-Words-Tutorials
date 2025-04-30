@@ -1,14 +1,16 @@
 ---
-title: छवि
-linktitle: छवि
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके अपने दस्तावेज़ों में छवियाँ जोड़ना सीखें। कुछ ही समय में विज़ुअल के साथ अपने दस्तावेज़ों को बेहतर बनाएँ।
-weight: 10
-url: /hi/net/working-with-markdown/image/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके अपने दस्तावेज़ों में छवियाँ जोड़ना सीखें। कुछ ही समय में विज़ुअल के साथ अपने दस्तावेज़ों को बेहतर बनाएँ।"
+"linktitle": "छवि"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "छवि"
+"url": "/hi/net/working-with-markdown/image/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # छवि
@@ -21,7 +23,7 @@ url: /hi/net/working-with-markdown/image/
 
 इससे पहले कि हम कोड में आगे बढ़ें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  .NET के लिए Aspose.Words: आप इसे यहाँ से डाउनलोड कर सकते हैं[Aspose वेबसाइट](https://releases.aspose.com/words/net/).
+1. .NET के लिए Aspose.Words: आप इसे यहाँ से डाउनलोड कर सकते हैं [Aspose वेबसाइट](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: कोई भी .NET विकास वातावरण जैसे विजुअल स्टूडियो.
 3. C# का बुनियादी ज्ञान: यदि आप C# से परिचित हैं, तो आप आगे बढ़ सकते हैं!
 
@@ -38,7 +40,7 @@ using Aspose.Words.Drawing;
 
 ## चरण 1: डॉक्यूमेंटबिल्डर आरंभ करें
 
- आरंभ करने के लिए, आपको एक बनाना होगा`DocumentBuilder` ऑब्जेक्ट. यह ऑब्जेक्ट आपको अपने दस्तावेज़ में सामग्री जोड़ने में मदद करेगा.
+आरंभ करने के लिए, आपको एक बनाना होगा `DocumentBuilder` ऑब्जेक्ट. यह ऑब्जेक्ट आपको अपने दस्तावेज़ में सामग्री जोड़ने में मदद करेगा.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
@@ -52,7 +54,7 @@ DocumentBuilder builder = new DocumentBuilder();
 Shape shape = builder.InsertImage("path_to_your_image.jpg");
 ```
 
- प्रतिस्थापित करें`"path_to_your_image.jpg"` आपकी छवि फ़ाइल के वास्तविक पथ के साथ।`InsertImage` विधि आपके दस्तावेज़ में छवि जोड़ देगी.
+प्रतिस्थापित करें `"path_to_your_image.jpg"` आपकी छवि फ़ाइल के वास्तविक पथ के साथ। `InsertImage` विधि आपके दस्तावेज़ में छवि जोड़ देगी.
 
 ## चरण 3: छवि गुण सेट करें
 
@@ -69,22 +71,27 @@ shape.ImageData.Title = "Your Image Title";
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### क्या मैं एक ही दस्तावेज़ में एकाधिक छवियाँ जोड़ सकता हूँ?  
-हां, आप दोहराकर जितनी चाहें उतनी छवियां जोड़ सकते हैं`InsertImage` प्रत्येक छवि के लिए विधि.
+हां, आप दोहराकर जितनी चाहें उतनी छवियां जोड़ सकते हैं `InsertImage` प्रत्येक छवि के लिए विधि.
 
 ### .NET के लिए Aspose.Words द्वारा कौन से छवि प्रारूप समर्थित हैं?  
 Aspose.Words JPEG, PNG, BMP, GIF, आदि सहित विभिन्न छवि प्रारूपों का समर्थन करता है।
 
 ### क्या मैं दस्तावेज़ में छवियों का आकार बदल सकता हूँ?  
- बिल्कुल! आप ऊंचाई और चौड़ाई गुण सेट कर सकते हैं`Shape` छवियों का आकार बदलने के लिए ऑब्जेक्ट का उपयोग करें।
+बिल्कुल! आप ऊंचाई और चौड़ाई गुण सेट कर सकते हैं `Shape` छवियों का आकार बदलने के लिए ऑब्जेक्ट का उपयोग करें।
 
 ### क्या URL से छवियाँ जोड़ना संभव है?  
- हां, आप URL प्रदान करके URL से चित्र जोड़ सकते हैं`InsertImage` तरीका।
+हां, आप URL प्रदान करके URL से चित्र जोड़ सकते हैं `InsertImage` तरीका।
 
 ### मैं .NET के लिए Aspose.Words का निःशुल्क परीक्षण कैसे प्राप्त कर सकता हूँ?  
- आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं[Aspose वेबसाइट](https://releases.aspose.com/).
+आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं [Aspose वेबसाइट](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

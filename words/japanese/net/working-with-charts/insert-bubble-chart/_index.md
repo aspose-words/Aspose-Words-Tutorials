@@ -1,49 +1,57 @@
 ---
-title: .NET のAspose.Wordsを使用して Word に バブルチャートを挿入する
-weight: 7700
-limit: 
-description: .NET のAspose.Wordsを使用して,BubbleチャートをWord文書に挿入する方法について学びます.ステップバイ・ステップ指示とコード例が含まれています.
-keywords: [Aspose.Words for .NET, insert Bubble chart, Word document, .NET Bubble chart example, create Bubble chart Word]
-url: /ja/net/working-with-charts/insert-bubble-chart/
+"description": "Aspose.Words for .NET を使用して、Word 文書にバブルチャートを挿入する方法を学びます。ステップバイステップの説明とコード例が含まれています。"
+"title": "Aspose.Words for .NET を使用して Word にバブル チャートを挿入する"
+"url": "/ja/net/working-with-charts/insert-bubble-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words を使って,Word に バブル チャート を 挿入 する
+# Aspose.Words を使用して Word にバブル チャートを挿入する
 
-このガイドは,新しい文書を作成し,バブルチャートを挿入し,X,Y,サイズ値を含むデータシリーズを追加し,ドキュメントを保存する方法を案内します. Aspose.Wordsで,Word文書をプログラム的に処理することはこれまでずっと簡単でした.  
+Aspose.Words for .NET を使えば、Word 文書にバブルチャートを簡単に追加できます。このガイドでは、新規文書の作成、バブルチャートの挿入、X、Y、サイズの値を含むデータ系列の追加、そして文書の保存までを順を追って説明します。Aspose.Words を使えば、Word 文書をプログラムで操作するのがこれまでになく簡単になります。  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-bubble-chart" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 設置指示  
+## インストール手順  
 
-1. .NET のためのAspose.Wordsをダウンロードする  
-   図書館から 取れ[Aspose.Wordsダウンロードページ](https://releases.aspose.com/words/net/)やってくれ  
+1. Aspose.Words for .NET をダウンロード  
+   ライブラリを以下から入手 [Aspose.Words ダウンロードページ](https://releases。aspose.com/words/net/).  
 
-2. NuGet パッケージ管理者でインストールする  
-   * ビジュアルスタジオを 開け  
-   * ツール > NuGet パッケージ管理者 > ソリューションのための NuGet パッケージ管理へ移動します.  
-   * 検索する`"言葉"`ブラウズタブに  
-   * パッケージを選択し,インストールをクリックします.  
+2. NuGet パッケージ マネージャー経由でインストールする  
+   - Visual Studio プロジェクトを開きます。  
+   - [ツール] > [NuGet パッケージ マネージャー] > [ソリューションの NuGet パッケージの管理] に移動します。  
+   - 検索する `Aspose.Words` [参照] タブで。  
+   - パッケージを選択し、「インストール」をクリックします。  
 
-3. NuGet パッケージ管理器コンソールでインストールする  
-   パッケージ管理コンソールで次のコマンドを実行します.  
+3. NuGet パッケージ マネージャー コンソール経由でインストールする  
+   パッケージ マネージャー コンソールで次のコマンドを実行します。  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-4. ライセンスを追加する  
-   ライセンスを取得し 許可証を取得し 許可証を取得し 許可証を取得し[暫定ライセンスページを設定する](https://purchase.aspose.com/temporary-license/)やってくれ  
+4. ライセンスを追加  
+   完全な機能を使用するには、ライセンスを適用してください。一時ライセンスは [Aspose 一時ライセンスページ](https://purchase。aspose.com/temporary-license/).  
 
-## また見てください
-[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
-[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
+## こちらもご覧ください
+[Aspose.Word for .NET ドキュメント](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET リファレンス](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

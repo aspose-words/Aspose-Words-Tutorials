@@ -1,14 +1,16 @@
 ---
-title: Panduan Pencetakan Dokumen
-linktitle: Panduan Pencetakan Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara mencetak dokumen secara terprogram dalam Java menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah untuk pemrosesan dokumen dan pemrosesan kata. Tingkatkan produktivitas sekarang!
-weight: 15
-url: /id/java/document-printing/guide-to-document-printing/
+"description": "Pelajari cara mencetak dokumen secara terprogram dalam Java menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah untuk pemrosesan dokumen dan pemrosesan kata. Tingkatkan produktivitas sekarang!"
+"linktitle": "Panduan Pencetakan Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Panduan Pencetakan Dokumen"
+"url": "/id/java/document-printing/guide-to-document-printing/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Panduan Pencetakan Dokumen
@@ -38,7 +40,7 @@ Jika Anda belum menginstal JDK, kunjungi situs web Oracle dan unduh versi terbar
 
 ### Menambahkan Aspose.Words untuk Java ke Proyek Anda
 
- Anda dapat menambahkan Aspose.Words untuk Java ke proyek Anda dengan menggunakan Maven atau instalasi manual. Untuk Maven, sertakan dependensi yang sesuai dalam proyek Anda`pom.xml`Jika Anda lebih suka instalasi manual, unduh pustaka dari situs web Aspose dan tambahkan ke classpath proyek Anda.
+Anda dapat menambahkan Aspose.Words untuk Java ke proyek Anda dengan menggunakan Maven atau instalasi manual. Untuk Maven, sertakan dependensi yang sesuai dalam proyek Anda `pom.xml` Jika Anda lebih suka instalasi manual, unduh pustaka dari situs web Aspose dan tambahkan ke classpath proyek Anda.
 
 ## Membuat Dokumen Word Sederhana
 
@@ -46,7 +48,7 @@ Mari kita mulai dengan membuat dokumen Word sederhana menggunakan Aspose.Words u
 
 ### Menginisialisasi Objek Dokumen
 
- Untuk membuat dokumen Word baru, Anda perlu menginisialisasi`Document` obyek:
+Untuk membuat dokumen Word baru, Anda perlu menginisialisasi `Document` obyek:
 
 ```java
 Document doc = new Document();
@@ -79,7 +81,7 @@ for (String printer : printers) {
 
 ### Memilih Printer Tertentu
 
-Jika Anda memiliki beberapa printer, Anda dapat memilih salah satu printer tertentu dengan mengatur namanya:
+Jika Anda memiliki beberapa printer, Anda dapat memilih salah satunya dengan mengatur namanya:
 
 ```java
 PrinterSettings printerSettings = new PrinterSettings();
@@ -92,7 +94,7 @@ Terakhir, mari kita lanjutkan dengan mencetak dokumen.
 
 ### Mengirim Dokumen ke Printer
 
- Untuk mencetak dokumen, Anda perlu menggunakan`PrintDocument` kelas:
+Untuk mencetak dokumen, Anda perlu menggunakan `PrintDocument` kelas:
 
 ```java
 PrintDocument printDocument = new PrintDocument(doc, printerSettings);
@@ -159,7 +161,7 @@ try {
 
 ### Pemecahan Masalah Umum
 
-Jika Anda mengalami masalah saat mencetak, lihat[Referensi API Aspose.Words untuk Java](https://reference.aspose.com/words/java/) untuk langkah pemecahan masalah dan dukungan komunitas.
+Jika Anda mengalami masalah saat mencetak, lihat [Referensi API Aspose.Words untuk Java](https://reference.aspose.com/words/java/) untuk langkah pemecahan masalah dan dukungan komunitas.
 
 ## Praktik Terbaik untuk Pencetakan Dokumen
 
@@ -212,9 +214,13 @@ Aspose.Words untuk Java memungkinkan Anda menentukan halaman atau rentang halama
 ### Apakah Aspose.Words untuk Java mendukung pencetakan dupleks?
 
 Ya, Aspose.Words untuk Java menyediakan opsi untuk pencetakan dupleks, yang memungkinkan Anda mencetak di kedua sisi kertas.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

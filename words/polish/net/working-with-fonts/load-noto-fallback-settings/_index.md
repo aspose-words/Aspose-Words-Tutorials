@@ -1,27 +1,29 @@
 ---
-title: Załaduj ustawienia zapasowe Noto
-linktitle: Załaduj ustawienia zapasowe Noto
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak załadować ustawienia zapasowe Noto w dokumencie Word przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby upewnić się, że wszystkie znaki są wyświetlane poprawnie.
-weight: 10
-url: /pl/net/working-with-fonts/load-noto-fallback-settings/
+"description": "Dowiedz się, jak załadować ustawienia zapasowe Noto w dokumencie Word przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby upewnić się, że wszystkie znaki są wyświetlane poprawnie."
+"linktitle": "Załaduj ustawienia awaryjne Noto"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Załaduj ustawienia awaryjne Noto"
+"url": "/pl/net/working-with-fonts/load-noto-fallback-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Załaduj ustawienia zapasowe Noto
+# Załaduj ustawienia awaryjne Noto
 
 ## Wstęp
 
-W tym samouczku pokażemy, jak załadować ustawienia zapasowe Noto w dokumencie Word przy użyciu Aspose.Words dla .NET. Ten proces zapewnia, że czcionki dokumentu są wyświetlane poprawnie, nawet jeśli niektóre znaki są nieobecne w oryginalnych czcionkach. Niezależnie od tego, czy masz do czynienia z dokumentami wielojęzycznymi, czy znakami specjalnymi, ustawienia zapasowe Noto mogą być wybawieniem.
+tym samouczku pokażemy, jak załadować ustawienia zapasowe Noto w dokumencie Word przy użyciu Aspose.Words dla .NET. Ten proces zapewnia, że czcionki dokumentu są wyświetlane poprawnie, nawet jeśli niektóre znaki są nieobecne w oryginalnych czcionkach. Niezależnie od tego, czy masz do czynienia z dokumentami wielojęzycznymi, czy znakami specjalnymi, ustawienia zapasowe Noto mogą być wybawieniem.
 
 ## Wymagania wstępne
 
 Zanim przejdziemy do szczegółowego przewodnika, omówmy wymagania wstępne, które będą Ci potrzebne:
 
-1.  Aspose.Words for .NET Library: Upewnij się, że masz najnowszą wersję Aspose.Words for .NET. Możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Library: Upewnij się, że masz najnowszą wersję Aspose.Words for .NET. Możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub inne zgodne środowisko programistyczne .NET.
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# jest niezbędna.
 4. Dokument Word: przykładowy dokument Word umożliwiający zastosowanie ustawień zapasowych Noto.
@@ -52,11 +54,11 @@ Następnie zdefiniuj ścieżkę do katalogu dokumentów. To tutaj przechowywane 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do folderu z dokumentami.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką do folderu z dokumentami.
 
 ## Krok 3: Załaduj swój dokument
 
-Załaduj dokument Word, do którego chcesz zastosować ustawienia awaryjne Noto. Użyj`Document` klasa z przestrzeni nazw Aspose.Words.
+Załaduj dokument Word, do którego chcesz zastosować ustawienia awaryjne Noto. Użyj `Document` klasa z przestrzeni nazw Aspose.Words.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -66,7 +68,7 @@ Upewnij się, że dokument nazywa się „Rendering.docx” lub odpowiednio zmie
 
 ## Krok 4: Skonfiguruj ustawienia czcionek
 
- Utwórz instancję`FontSettings` class i załaduj ustawienia zapasowe Noto. Ten krok konfiguruje ustawienia czcionek, aby używać czcionek Noto jako zapasowych.
+Utwórz instancję `FontSettings` class i załaduj ustawienia zapasowe Noto. Ten krok konfiguruje ustawienia czcionek, aby używać czcionek Noto jako zapasowych.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -96,7 +98,7 @@ Gratulacje! Udało Ci się załadować ustawienia zapasowe Noto do dokumentu Wor
 ## Najczęściej zadawane pytania
 
 ### Czym są ustawienia zapasowe Noto?
-Ustawienia zapasowe Noto zapewniają kompleksowy zestaw czcionek zapasowych, dzięki którym wszystkie znaki w dokumencie będą wyświetlane prawidłowo.
+Ustawienia rezerwowe Noto zapewniają kompleksowy zestaw czcionek zapasowych, dzięki którym wszystkie znaki w dokumencie będą wyświetlane prawidłowo.
 
 ### Dlaczego powinienem skorzystać z ustawień zapasowych Noto?
 Użycie ustawień zapasowych Noto gwarantuje, że w Twoim dokumencie będzie można wyświetlać szeroki zakres znaków, zwłaszcza w przypadku dokumentów wielojęzycznych.
@@ -108,10 +110,15 @@ Tak, Aspose.Words pozwala na skonfigurowanie innych ustawień zapasowych w oparc
 Możesz zainstalować Aspose.Words dla platformy .NET za pomocą Menedżera pakietów NuGet w programie Visual Studio.
 
 ### Czy istnieje bezpłatna wersja próbna Aspose.Words dla .NET?
- Tak, możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

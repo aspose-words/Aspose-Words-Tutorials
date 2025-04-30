@@ -1,14 +1,16 @@
 ---
-title: Aktualizacja pola Kultura
-linktitle: Aktualizacja pola Kultura
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak skonfigurować kulturę aktualizacji pól w dokumentach Word przy użyciu Aspose.Words dla .NET. Przewodnik krok po kroku z przykładami kodu i wskazówkami dotyczącymi dokładnych aktualizacji.
-weight: 10
-url: /pl/net/working-with-fields/field-update-culture/
+"description": "Dowiedz się, jak skonfigurować kulturę aktualizacji pól w dokumentach Word przy użyciu Aspose.Words dla .NET. Przewodnik krok po kroku z przykładami kodu i wskazówkami dotyczącymi dokładnych aktualizacji."
+"linktitle": "Aktualizacja pola Kultura"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Aktualizacja pola Kultura"
+"url": "/pl/net/working-with-fields/field-update-culture/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aktualizacja pola Kultura
@@ -21,15 +23,15 @@ Wyobraź sobie, że pracujesz nad dokumentem Worda z różnymi polami, takimi ja
 
 Zanim zagłębimy się w szczegóły kultury aktualizacji danych w terenie, na początek musisz poznać kilka rzeczy:
 
-1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Jeśli nie, możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Jeśli nie, możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 
 2. Visual Studio: W tym samouczku założono, że używasz programu Visual Studio lub podobnego środowiska IDE obsługującego programowanie w środowisku .NET.
 
 3. Podstawowa znajomość języka C#: Powinieneś swobodnie posługiwać się programowaniem w języku C# i podstawowymi operacjami na dokumentach Word.
 
-4.  Licencja Aspose: Aby uzyskać pełną funkcjonalność, może być potrzebna licencja. Możesz ją kupić[Tutaj](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+4. Licencja Aspose: Aby uzyskać pełną funkcjonalność, może być potrzebna licencja. Możesz ją kupić [Tutaj](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
-5.  Dostęp do dokumentacji i pomocy technicznej: W celu uzyskania dodatkowej pomocy[Dokumentacja Aspose](https://reference.aspose.com/words/net/) I[Forum wsparcia](https://forum.aspose.com/c/words/8) są świetnymi źródłami.
+5. Dostęp do dokumentacji i pomocy technicznej: W celu uzyskania dodatkowej pomocy [Dokumentacja Aspose](https://reference.aspose.com/words/net/) I [Forum wsparcia](https://forum.aspose.com/c/words/8) są świetnymi źródłami.
 
 ## Importuj przestrzenie nazw
 
@@ -44,7 +46,7 @@ Teraz, gdy wszystko jest już skonfigurowane, podzielmy proces konfiguracji kult
 
 ## Krok 1: Skonfiguruj swój dokument i DocumentBuilder
 
- Najpierw musisz utworzyć nowy dokument i`DocumentBuilder` obiekt.`DocumentBuilder` jest przydatną klasą umożliwiającą łatwe tworzenie i modyfikowanie dokumentów Word.
+Najpierw musisz utworzyć nowy dokument i `DocumentBuilder` obiekt. `DocumentBuilder` jest przydatną klasą umożliwiającą łatwe tworzenie i modyfikowanie dokumentów Word.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -55,7 +57,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- W tym kroku określisz katalog, w którym chcesz zapisać swój dokument.`Document` Klasa inicjuje nowy dokument programu Word i`DocumentBuilder` Klasa pomaga wstawiać i formatować treść.
+W tym kroku określisz katalog, w którym chcesz zapisać swój dokument. `Document` Klasa inicjuje nowy dokument programu Word i `DocumentBuilder` Klasa pomaga wstawiać i formatować treść.
 
 ## Krok 2: Wstaw pole czasu
 
@@ -66,7 +68,7 @@ Następnie wstawisz pole czasu do dokumentu. Jest to pole dynamiczne, które akt
 builder.InsertField(FieldType.FieldTime, true);
 ```
 
- Tutaj,`FieldType.FieldTime` określa, że chcesz wstawić pole czasu. Drugi parametr,`true`, oznacza, że pole powinno zostać zaktualizowane automatycznie.
+Tutaj, `FieldType.FieldTime` określa, że chcesz wstawić pole czasu. Drugi parametr, `true`, oznacza, że pole powinno zostać zaktualizowane automatycznie.
 
 ## Krok 3: Skonfiguruj kulturę aktualizacji pola
 
@@ -85,7 +87,7 @@ doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
 Teraz musimy zaimplementować niestandardowego dostawcę kultury, który będzie kontrolował sposób, w jaki ustawienia kultury, takie jak formaty daty, są stosowane po aktualizacji pola.
 
-Utworzymy klasę o nazwie`FieldUpdateCultureProvider` który wdraża`IFieldUpdateCultureProvider` interface. Ta klasa zwróci różne formaty kulturowe w zależności od regionu. W tym przykładzie skonfigurujemy ustawienia kulturowe rosyjskie i amerykańskie.
+Utworzymy klasę o nazwie `FieldUpdateCultureProvider` który wdraża `IFieldUpdateCultureProvider` interface. Ta klasa zwróci różne formaty kulturowe w zależności od regionu. W tym przykładzie skonfigurujemy ustawienia kulturowe rosyjskie i amerykańskie.
 
 ```csharp
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
@@ -135,7 +137,7 @@ Na koniec zapisz dokument w określonym katalogu. Dzięki temu wszystkie zmiany 
 doc.Save(dataDir + "UpdateCultureChamps.pdf");
 ```
 
- Zastępować`"YOUR DOCUMENTS DIRECTORY"` ze ścieżką, pod którą chcesz zapisać plik. Dokument zostanie zapisany jako PDF z nazwą`UpdateCultureChamps.pdf`.
+Zastępować `"YOUR DOCUMENTS DIRECTORY"` ze ścieżką, pod którą chcesz zapisać plik. Dokument zostanie zapisany jako PDF z nazwą `UpdateCultureChamps.pdf`.
 
 ## Wniosek
 
@@ -153,18 +155,23 @@ Tak, Aspose.Words obsługuje różne typy pól, w tym pola dat i pola niestandar
 
 ### Czy potrzebuję specjalnej licencji, aby korzystać z funkcji kultury aktualizacji pól w Aspose.Words?
 
- Aby uzyskać pełną funkcjonalność, możesz potrzebować ważnej licencji Aspose. Możesz ją uzyskać za pośrednictwem[Strona zakupu Aspose](https://purchase.aspose.com/buy) lub użyj tymczasowej licencji[Tutaj](https://purchase.aspose.com/temporary-license/).
+Aby uzyskać pełną funkcjonalność, możesz potrzebować ważnej licencji Aspose. Możesz ją uzyskać za pośrednictwem [Strona zakupu Aspose](https://purchase.aspose.com/buy) lub użyj tymczasowej licencji [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### W jaki sposób mogę jeszcze bardziej dostosować kulturę aktualizacji pól?
 
- Możesz rozszerzyć`FieldUpdateCultureProvider` klasa, aby stworzyć niestandardową kulturę dostawczą dostosowaną do Twoich konkretnych potrzeb.
+Możesz rozszerzyć `FieldUpdateCultureProvider` klasa, aby stworzyć niestandardową kulturę dostawczą dostosowaną do Twoich konkretnych potrzeb.
 
 ### Gdzie mogę znaleźć więcej informacji lub uzyskać pomoc w przypadku problemów?
 
- Aby uzyskać szczegółową dokumentację i pomoc, odwiedź stronę[Dokumentacja Aspose](https://reference.aspose.com/words/net/) i[Forum wsparcia Aspose](https://forum.aspose.com/c/words/8).
+Aby uzyskać szczegółową dokumentację i pomoc, odwiedź stronę [Dokumentacja Aspose](https://reference.aspose.com/words/net/) i [Forum wsparcia Aspose](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

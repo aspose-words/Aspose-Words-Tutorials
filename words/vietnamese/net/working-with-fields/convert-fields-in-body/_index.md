@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi các trường trong nội dung
-linktitle: Chuyển đổi các trường trong nội dung
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chuyển đổi các trường tài liệu thành văn bản tĩnh bằng Aspose.Words cho .NET để nâng cao hiệu quả xử lý tài liệu.
-weight: 10
-url: /vi/net/working-with-fields/convert-fields-in-body/
+"description": "Tìm hiểu cách chuyển đổi các trường tài liệu thành văn bản tĩnh bằng Aspose.Words cho .NET để nâng cao hiệu quả xử lý tài liệu."
+"linktitle": "Chuyển đổi các trường trong nội dung"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chuyển đổi các trường trong nội dung"
+"url": "/vi/net/working-with-fields/convert-fields-in-body/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi các trường trong nội dung
@@ -22,7 +24,7 @@ Trong lĩnh vực phát triển .NET, việc quản lý nội dung tài liệu m
 Trước khi tìm hiểu hướng dẫn về cách chuyển đổi các trường trong nội dung tài liệu bằng Aspose.Words cho .NET, hãy đảm bảo bạn có đủ các điều kiện tiên quyết sau:
 
 - Visual Studio: Được cài đặt và cấu hình để phát triển .NET.
--  Aspose.Words cho .NET: Đã tải xuống và tham chiếu trong dự án Visual Studio của bạn. Bạn có thể lấy nó từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Đã tải xuống và tham chiếu trong dự án Visual Studio của bạn. Bạn có thể lấy nó từ [đây](https://releases.aspose.com/words/net/).
 - Kiến thức cơ bản về C#: Quen thuộc với ngôn ngữ lập trình C# để hiểu và sửa đổi các đoạn mã được cung cấp.
 
 ## Nhập không gian tên
@@ -45,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Linked fields.docx");
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn đến tài liệu thực tế của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn đến tài liệu thực tế của bạn.
 
 ## Bước 2: Xác định và chuyển đổi các trường
 
@@ -68,7 +70,7 @@ Lưu tài liệu đã sửa đổi sau khi chuyển đổi các trường:
 doc.Save(dataDir + "WorkingWithFields.ConvertFieldsInBody.docx");
 ```
 
- Điều chỉnh`"WorkingWithFields.ConvertFieldsInBody.docx"` để chỉ định đường dẫn tệp đầu ra mong muốn.
+Điều chỉnh `"WorkingWithFields.ConvertFieldsInBody.docx"` để chỉ định đường dẫn tệp đầu ra mong muốn.
 
 ## Phần kết luận
 
@@ -86,13 +88,18 @@ Aspose.Words hỗ trợ nhiều loại trường như NGÀY, TRANG, MERGEFIELD, 
 Có, Aspose.Words for .NET có thể chuyển đổi và thao tác các trường trên nhiều định dạng như DOCX, DOC, RTF, v.v. một cách liền mạch.
 
 ### Tôi có thể tìm tài liệu đầy đủ về Aspose.Words cho .NET ở đâu?
- Tài liệu chi tiết và tham chiếu API có sẵn[đây](https://reference.aspose.com/words/net/).
+Tài liệu chi tiết và tham chiếu API có sẵn [đây](https://reference.aspose.com/words/net/).
 
 ### Có phiên bản dùng thử nào của Aspose.Words dành cho .NET không?
- Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

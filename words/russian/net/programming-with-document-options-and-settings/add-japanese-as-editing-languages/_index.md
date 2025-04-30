@@ -1,14 +1,16 @@
 ---
-title: Добавить японский язык как язык редактирования
-linktitle: Добавить японский язык как язык редактирования
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как добавить японский язык в качестве языка редактирования в ваши документы с помощью Aspose.Words для .NET, с помощью этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-document-options-and-settings/add-japanese-as-editing-languages/
+"description": "Узнайте, как добавить японский язык в качестве языка редактирования в ваши документы с помощью Aspose.Words для .NET, с помощью этого подробного пошагового руководства."
+"linktitle": "Добавить японский язык как язык редактирования"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Добавить японский язык как язык редактирования"
+"url": "/ru/net/programming-with-document-options-and-settings/add-japanese-as-editing-languages/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить японский язык как язык редактирования
@@ -22,8 +24,8 @@ url: /ru/net/programming-with-document-options-and-settings/add-japanese-as-edit
 Прежде чем начать, вам необходимо подготовить несколько вещей:
 
 1. Visual Studio: Убедитесь, что у вас установлена Visual Studio. Это интегрированная среда разработки (IDE), которую мы будем использовать.
-2.  Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Если у вас его еще нет, вы можете его скачать[здесь](https://releases.aspose.com/words/net/).
-3.  Образец документа: Подготовьте образец документа, который вы хотите отредактировать. Он должен быть в`.docx` формат.
+2. Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Если у вас его еще нет, вы можете его скачать [здесь](https://releases.aspose.com/words/net/).
+3. Образец документа: Подготовьте образец документа, который вы хотите отредактировать. Он должен быть в `.docx` формат.
 4. Базовые знания C#: Базовые знания программирования на C# помогут вам разобраться в примерах.
 
 ## Импорт пространств имен
@@ -40,17 +42,17 @@ using Aspose.Words.Loading;
 
 ## Шаг 1: Настройте параметры загрузки
 
- Прежде всего, вам нужно настроить свой`LoadOptions`. Здесь вы можете указать языковые настройки для вашего документа.
+Прежде всего, вам нужно настроить свой `LoadOptions`. Здесь вы можете указать языковые настройки для вашего документа.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
 ```
 
- The`LoadOptions` класс позволяет вам настраивать способ загрузки документов. Здесь мы только начинаем с этого.
+The `LoadOptions` класс позволяет вам настраивать способ загрузки документов. Здесь мы только начинаем с этого.
 
 ## Шаг 2: Добавьте японский язык в качестве языка редактирования.
 
- Теперь, когда вы настроили свой`LoadOptions`, пришло время добавить японский язык в качестве языка редактирования. Подумайте об этом как о настройке вашего GPS на правильный язык, чтобы вы могли плавно перемещаться.
+Теперь, когда вы настроили свой `LoadOptions`, пришло время добавить японский язык в качестве языка редактирования. Подумайте об этом как о настройке вашего GPS на правильный язык, чтобы вы могли плавно перемещаться.
 
 ```csharp
 loadOptions.LanguagePreferences.AddEditingLanguage(EditingLanguage.Japanese);
@@ -66,7 +68,7 @@ loadOptions.LanguagePreferences.AddEditingLanguage(EditingLanguage.Japanese);
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу ваших документов.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу ваших документов.
 
 ## Шаг 4: Загрузите документ
 
@@ -76,11 +78,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "No default editing language.docx", loadOptions);
 ```
 
- Здесь вы загружаете документ с указанным`LoadOptions`.
+Здесь вы загружаете документ с указанным `LoadOptions`.
 
 ## Шаг 5: Проверьте настройки языка.
 
- После загрузки документа важно проверить, были ли применены языковые настройки правильно. Вы можете сделать это, проверив`LocaleIdFarEast` свойство.
+После загрузки документа важно проверить, были ли применены языковые настройки правильно. Это можно сделать, проверив `LocaleIdFarEast` свойство.
 
 ```csharp
 int localeIdFarEast = doc.Styles.DefaultFont.LocaleIdFarEast;
@@ -99,23 +101,28 @@ Console.WriteLine(
 ## Часто задаваемые вопросы
 
 ### Могу ли я добавить несколько языков в качестве языков редактирования?
- Да, вы можете добавить несколько языков с помощью`AddEditingLanguage` метод для каждого языка.
+Да, вы можете добавить несколько языков с помощью `AddEditingLanguage` метод для каждого языка.
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?
- Да, вам нужна лицензия для коммерческого использования. Вы можете купить ее[здесь](https://purchase.aspose.com/buy) или получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+Да, вам нужна лицензия для коммерческого использования. Вы можете купить ее [здесь](https://purchase.aspose.com/buy) или получите временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Какие еще функции предлагает Aspose.Words для .NET?
- Aspose.Words для .NET предлагает широкий спектр функций, включая генерацию документов, преобразование, манипуляцию и многое другое. Ознакомьтесь с[документация](https://reference.aspose.com/words/net/) для более подробной информации.
+Aspose.Words для .NET предлагает широкий спектр функций, включая генерацию документов, преобразование, манипуляцию и многое другое. Ознакомьтесь с [документация](https://reference.aspose.com/words/net/) для более подробной информации.
 
 ### Могу ли я попробовать Aspose.Words for .NET перед покупкой?
- Конечно! Вы можете скачать бесплатную пробную версию[здесь](https://releases.aspose.com/).
+Конечно! Вы можете скачать бесплатную пробную версию [здесь](https://releases.aspose.com/).
 
 ### Где я могу получить поддержку по Aspose.Words для .NET?
- Вы можете получить поддержку от сообщества Aspose[здесь](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от сообщества Aspose [здесь](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

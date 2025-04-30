@@ -1,14 +1,16 @@
 ---
-title: संशोधन समूह विवरण प्राप्त करें
-linktitle: संशोधन समूह विवरण प्राप्त करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में संशोधन समूह विवरण आसानी से प्राप्त करें। .NET डेवलपर्स के लिए बिल्कुल सही।
-weight: 10
-url: /hi/net/working-with-revisions/get-revision-group-details/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में संशोधन समूह विवरण आसानी से प्राप्त करें। .NET डेवलपर्स के लिए बिल्कुल सही।"
+"linktitle": "संशोधन समूह विवरण प्राप्त करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "संशोधन समूह विवरण प्राप्त करें"
+"url": "/hi/net/working-with-revisions/get-revision-group-details/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # संशोधन समूह विवरण प्राप्त करें
@@ -20,7 +22,7 @@ url: /hi/net/working-with-revisions/get-revision-group-details/
 ## आवश्यक शर्तें
 
 इससे पहले कि हम इस कोडिंग यात्रा पर निकलें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
--  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास नवीनतम संस्करण स्थापित है। यदि नहीं, तो आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: सुनिश्चित करें कि आपके पास नवीनतम संस्करण स्थापित है। यदि नहीं, तो आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 - .NET वातावरण: सुनिश्चित करें कि आपके पास एक कार्यशील .NET विकास वातावरण स्थापित है। विज़ुअल स्टूडियो एक बढ़िया विकल्प है।
 - संशोधनों के साथ एक वर्ड दस्तावेज़: इस ट्यूटोरियल के लिए, हम संशोधनों के साथ एक नमूना वर्ड दस्तावेज़ का उपयोग करेंगे (`Revisions.docx`).
 
@@ -45,11 +47,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Revisions.docx");
 ```
 
- इस स्निपेट में, प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ के वास्तविक पथ के साथ। यह कोड लोड करेगा`Revisions.docx` फ़ाइल में`doc` वस्तु।
+इस स्निपेट में, प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ के वास्तविक पथ के साथ। यह कोड लोड करेगा `Revisions.docx` फ़ाइल में `doc` वस्तु।
 
 ## चरण 2: संशोधन संग्रह तक पहुंचें
 
- अब, आइए दस्तावेज़ में संशोधनों तक पहुँचें। Aspose.Words एक प्रदान करता है`Revisions` संग्रह जिसे हम पुनरावृत्त कर सकते हैं।
+अब, आइए दस्तावेज़ में संशोधनों तक पहुँचें। Aspose.Words एक प्रदान करता है `Revisions` संग्रह जिसे हम पुनरावृत्त कर सकते हैं।
 
 ```csharp
 foreach (Revision revision in doc.Revisions)
@@ -106,16 +108,21 @@ foreach (Revision revision in doc.Revisions)
 बिल्कुल! आप इसे C#, VB.NET और ASP.NET सहित किसी भी .NET भाषा के साथ उपयोग कर सकते हैं।
 
 ### मैं .NET के लिए Aspose.Words का निःशुल्क परीक्षण कैसे प्राप्त कर सकता हूँ?
- आप निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+आप निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### क्या मुझे .NET के लिए Aspose.Words का उपयोग करने के लिए लाइसेंस की आवश्यकता है?
- हां, Aspose.Words for .NET को पूर्ण कार्यक्षमता के लिए लाइसेंस की आवश्यकता होती है। आप एक खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+हां, Aspose.Words for .NET को पूर्ण कार्यक्षमता के लिए लाइसेंस की आवश्यकता होती है। आप एक खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस प्राप्त करें [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### मैं .NET के लिए Aspose.Words पर अधिक दस्तावेज़ कहां पा सकता हूं?
- विस्तृत दस्तावेज उपलब्ध है[यहाँ](https://reference.aspose.com/words/net/).
+विस्तृत दस्तावेज उपलब्ध है [यहाँ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

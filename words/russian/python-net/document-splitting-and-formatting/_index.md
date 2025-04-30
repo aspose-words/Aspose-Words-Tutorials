@@ -1,14 +1,16 @@
 ---
-title: Разделение и форматирование документа
-linktitle: Разделение и форматирование документа
-second_title: API управления документами Python Aspose.Words
-description: Изучите руководства Aspose.Words по разделению и форматированию документов в Python и .NET. Научитесь эффективно разделять и форматировать документы, улучшая свои задачи по обработке документов.
-weight: 13
-url: /ru/python-net/document-splitting-and-formatting/
+"description": "Изучите руководства Aspose.Words по разделению и форматированию документов в Python и .NET. Научитесь эффективно разделять и форматировать документы, улучшая свои задачи по обработке документов."
+"linktitle": "Разделение и форматирование документа"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Разделение и форматирование документа"
+"url": "/ru/python-net/document-splitting-and-formatting/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Разделение и форматирование документа
@@ -48,9 +50,13 @@ url: /ru/python-net/document-splitting-and-formatting/
 Узнайте, как эффективно сравнивать версии документов с помощью Aspose.Words для Python. Пошаговое руководство с исходным кодом для контроля версий. Улучшайте совместную работу и предотвращайте ошибки.
 ### [Освоение методов форматирования документов для визуального воздействия](./document-formatting-techniques/)
 Узнайте, как освоить форматирование документов с помощью Aspose.Words для Python. Создавайте визуально привлекательные документы со стилями шрифтов, таблицами, изображениями и т. д. Пошаговое руководство с примерами кода.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

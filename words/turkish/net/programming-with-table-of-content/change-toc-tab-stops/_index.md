@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Toc Sekmesi Duraklarını Değiştir
-linktitle: Word Belgesinde Toc Sekmesi Duraklarını Değiştir
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerindeki TOC sekme duraklarını nasıl değiştireceğinizi öğrenin. Bu adım adım kılavuz, profesyonel görünümlü bir İçindekiler Tablosu oluşturmanıza yardımcı olacaktır.
-weight: 10
-url: /tr/net/programming-with-table-of-content/change-toc-tab-stops/
+"description": "Aspose.Words for .NET kullanarak Word belgelerindeki TOC sekme duraklarını nasıl değiştireceğinizi öğrenin. Bu adım adım kılavuz, profesyonel görünümlü bir İçindekiler Tablosu oluşturmanıza yardımcı olacaktır."
+"linktitle": "Word Belgesinde Toc Sekmesi Duraklarını Değiştir"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Toc Sekmesi Duraklarını Değiştir"
+"url": "/tr/net/programming-with-table-of-content/change-toc-tab-stops/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Toc Sekmesi Duraklarını Değiştir
@@ -21,9 +23,9 @@ Word belgelerinizdeki İçindekiler Tablosunu (TOC) nasıl canlandıracağınız
 
 Başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Şunları yapabilirsiniz:[buradan indirin](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Şunları yapabilirsiniz: [buradan indirin](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir C# uyumlu IDE.
-3. Word Belgesi: Özellikle, İçindekiler tablosu içeren belge.
+3. Word Belgesi: Özellikle İçindekiler bölümünü içeren belge.
 
 Hepsini anladın mı? Harika! Hadi başlayalım.
 
@@ -42,7 +44,7 @@ Bu süreci basit, sindirilebilir adımlara bölelim. Belgeyi yükleme, TOC sekme
 
 Neden? Değiştirmek istediğimiz TOC'yi içeren Word belgesine erişmemiz gerekiyor.
 
-Nasıl? Başlamanız için işte basit bir kod parçası:
+Nasıl? Başlamanız için basit bir kod parçası:
 
 ```csharp
 // Belgelerinizin dizinine giden yol
@@ -92,13 +94,13 @@ foreach(Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
 }
 ```
 
-Bu, oturma odanızdaki mobilyaları tam istediğiniz gibi hissedene kadar ayarlamak gibi. O sekme duraklarını mükemmelliğe ulaştırmak için ayarlıyoruz.
+Bu, oturma odanızdaki mobilyaları tam istediğiniz gibi hissedene kadar ayarlamak gibi. O sekme duraklarını mükemmellik için ayarlıyoruz.
 
 ## Adım 4: Değiştirilen Belgeyi Kaydedin
 
 Neden? Tüm sıkı çalışmanızın kaydedilmesini ve görüntülenebilmesini veya paylaşılabilmesini sağlamak için.
 
-Nasıl? Orijinalini olduğu gibi korumak için belgeyi yeni bir adla kaydedin:
+Nasıl? Orijinalini olduğu gibi korumak için belgeyi yeni bir isimle kaydedin:
 
 ```csharp
 // Değiştirilen belgeyi kaydet
@@ -113,23 +115,28 @@ Aspose.Words for .NET kullanarak bir Word belgesinde TOC sekme duraklarını de�
 
 ## SSS
 
-### Farklı TOC seviyeleri için sekme duraklarını ayrı ayrı değiştirebilir miyim?
+### Farklı İçindekiler seviyeleri için sekme duraklarını ayrı ayrı değiştirebilir miyim?
 Evet yapabilirsiniz! Sadece her bir belirli TOC seviyesini (Toc1, Toc2, vb.) kontrol edin ve buna göre ayarlayın.
 
 ### Belgemde birden fazla İçindekiler tablosu varsa ne olur?
 Kod, tüm İçindekiler tarzı paragrafları tarar, bu nedenle belgede bulunan tüm İçindekiler'i değiştirir.
 
 ### İçindekiler girişine birden fazla sekme durağı eklemek mümkün müdür?
- Kesinlikle! Ayarlayarak ihtiyaç duyduğunuz kadar sekme durağı ekleyebilirsiniz.`para.ParagraphFormat.TabStops` koleksiyon.
+Kesinlikle! Ayarlayarak ihtiyaç duyduğunuz kadar sekme durağı ekleyebilirsiniz. `para.ParagraphFormat.TabStops` koleksiyon.
 
 ### Sekme durağı hizalamasını ve lider stilini değiştirebilir miyim?
 Evet, yeni bir sekme durağı eklerken farklı hizalamalar ve lider stilleri belirleyebilirsiniz.
 
 ### Aspose.Words for .NET'i kullanmak için lisansa ihtiyacım var mı?
- Evet, Aspose.Words for .NET'i deneme süresinin ötesinde kullanmak için geçerli bir lisansa ihtiyacınız var. Bir tane alabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) veya[bir tane satın al](https://purchase.aspose.com/buy).
+Evet, Aspose.Words for .NET'i deneme süresinin ötesinde kullanmak için geçerli bir lisansa ihtiyacınız var. Bir tane alabilirsiniz [geçici lisans](https://purchase.aspose.com/tempveyaary-license/) or [bir tane satın al](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

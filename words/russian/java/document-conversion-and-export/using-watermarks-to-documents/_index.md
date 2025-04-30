@@ -1,14 +1,16 @@
 ---
-title: Использование водяных знаков в документах в Aspose.Words для Java
-linktitle: Использование водяных знаков в документах
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как добавлять водяные знаки в документы в Aspose.Words для Java. Настройте текстовые и графические водяные знаки для профессионально выглядящих документов.
-weight: 15
-url: /ru/java/document-conversion-and-export/using-watermarks-to-documents/
+"description": "Узнайте, как добавлять водяные знаки в документы в Aspose.Words для Java. Настройте текстовые и графические водяные знаки для профессионально выглядящих документов."
+"linktitle": "Использование водяных знаков в документах"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Использование водяных знаков в документах в Aspose.Words для Java"
+"url": "/ru/java/document-conversion-and-export/using-watermarks-to-documents/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Использование водяных знаков в документах в Aspose.Words для Java
@@ -22,7 +24,7 @@ url: /ru/java/document-conversion-and-export/using-watermarks-to-documents/
 
 Прежде чем начать добавлять водяные знаки в документы, нам нужно настроить Aspose.Words для Java. Выполните следующие шаги, чтобы начать:
 
-1.  Загрузите Aspose.Words для Java с сайта[здесь](https://releases.aspose.com/words/java/).
+1. Загрузите Aspose.Words для Java с сайта [здесь](https://releases.aspose.com/words/java/).
 2. Добавьте библиотеку Aspose.Words для Java в свой проект Java.
 3. Импортируйте необходимые классы в свой код Java.
 
@@ -44,7 +46,7 @@ options.setColor(Color.BLACK);
 options.setLayout(WatermarkLayout.HORIZONTAL);
 options.setSemitransparent(false);
 
-//Установите текст и параметры водяного знака
+// Установите текст и параметры водяного знака
 doc.getWatermark().setText("Test", options);
 
 // Сохраните документ с водяным знаком
@@ -111,7 +113,7 @@ doc.save("DocumentWithoutWatermark.docx");
 
 ### Как изменить шрифт текстового водяного знака?
 
- Чтобы изменить шрифт текстового водяного знака, измените`setFontFamily` недвижимость в`TextWatermarkOptions`. Например:
+Чтобы изменить шрифт текстового водяного знака, измените `setFontFamily` недвижимость в `TextWatermarkOptions`. Например:
 
 ```java
 options.setFontFamily("Times New Roman");
@@ -119,22 +121,27 @@ options.setFontFamily("Times New Roman");
 
 ### Можно ли добавить несколько водяных знаков в один документ?
 
- Да, вы можете добавить несколько водяных знаков в документ, создав несколько`Shape` объекты с различными настройками и добавление их в документ.
+Да, вы можете добавить несколько водяных знаков в документ, создав несколько `Shape` объекты с различными настройками и добавление их в документ.
 
 ### Можно ли повернуть водяной знак?
 
- Да, вы можете вращать водяной знак, установив`setRotation` недвижимость в`Shape` объект. Положительные значения вращают водяной знак по часовой стрелке, а отрицательные значения вращают его против часовой стрелки.
+Да, вы можете вращать водяной знак, установив `setRotation` недвижимость в `Shape` объект. Положительные значения вращают водяной знак по часовой стрелке, а отрицательные значения вращают его против часовой стрелки.
 
 ### Как сделать водяной знак полупрозрачным?
 
- Чтобы сделать водяной знак полупрозрачным, установите`setSemitransparent`собственность`true` в`TextWatermarkOptions`.
+Чтобы сделать водяной знак полупрозрачным, установите `setSemitransparent` собственность `true` в `TextWatermarkOptions`.
 
 ### Могу ли я добавить водяные знаки в определенные разделы документа?
 
 Да, вы можете добавлять водяные знаки в определенные разделы документа, перебирая разделы и добавляя водяной знак в нужные разделы.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

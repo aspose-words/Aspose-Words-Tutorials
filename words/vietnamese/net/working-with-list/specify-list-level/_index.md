@@ -1,14 +1,16 @@
 ---
-title: Chỉ định mức danh sách
-linktitle: Chỉ định mức danh sách
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tạo danh sách đánh số và dấu đầu dòng nhiều cấp trong tài liệu Word bằng Aspose.Words cho .NET. Có kèm hướng dẫn từng bước. Hoàn hảo cho các nhà phát triển .NET.
-weight: 10
-url: /vi/net/working-with-list/specify-list-level/
+"description": "Tìm hiểu cách tạo danh sách đánh số và dấu đầu dòng nhiều cấp trong tài liệu Word bằng Aspose.Words cho .NET. Có kèm hướng dẫn từng bước. Hoàn hảo cho các nhà phát triển .NET."
+"linktitle": "Chỉ định mức danh sách"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chỉ định mức danh sách"
+"url": "/vi/net/working-with-list/specify-list-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chỉ định mức danh sách
@@ -21,10 +23,10 @@ Xin chào, các bạn lập trình viên! Nếu bạn đã từng vật lộn v�
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết. Sau đây là danh sách kiểm tra nhanh:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Một IDE như Visual Studio sẽ giúp cuộc sống của bạn dễ dàng hơn.
 3. .NET Framework: Đảm bảo rằng bạn đã cài đặt .NET Framework trên máy của mình.
-4. Hiểu biết cơ bản về C#: Hướng dẫn này giả định rằng bạn đã có kiến thức cơ bản về lập trình C#.
+4. Hiểu biết cơ bản về C#: Hướng dẫn này giả định rằng bạn đã quen với lập trình C# cơ bản.
 
 Đã hiểu hết chưa? Tuyệt! Hãy cùng bắt tay vào làm thôi.
 
@@ -42,7 +44,7 @@ Phần này sẽ mở đường cho việc làm việc với Aspose.Words trong 
 
 ## Bước 1: Thiết lập Document và DocumentBuilder
 
- Chúng ta hãy bắt đầu bằng cách tạo một tài liệu mới và một`DocumentBuilder` phản đối việc làm việc với nó.
+Chúng ta hãy bắt đầu bằng cách tạo một tài liệu mới và một `DocumentBuilder` phản đối việc làm việc với nó.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -52,7 +54,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Bước 2: Tạo danh sách được đánh số
 
- Bây giờ, chúng ta sẽ tạo một danh sách được đánh số dựa trên một trong các mẫu danh sách của Microsoft Word và áp dụng nó vào`DocumentBuilder`'đoạn văn hiện tại.
+Bây giờ, chúng ta sẽ tạo một danh sách được đánh số dựa trên một trong các mẫu danh sách của Microsoft Word và áp dụng nó vào `DocumentBuilder`đoạn văn hiện tại.
 
 ```csharp
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberArabicDot);
@@ -112,7 +114,7 @@ Và thế là xong! Bạn vừa tạo một tài liệu có cấu trúc danh sá
 
 ## Phần kết luận
 
-Việc tạo danh sách có cấu trúc và nhiều cấp trong tài liệu Word có thể cải thiện đáng kể khả năng đọc và tính chuyên nghiệp. Với Aspose.Words for .NET, bạn có thể tự động hóa quy trình này, giúp bạn tiết kiệm thời gian và đảm bảo tính nhất quán. Chúng tôi hy vọng hướng dẫn này đã giúp bạn hiểu cách chỉ định các cấp danh sách hiệu quả. Hãy tiếp tục thử nghiệm và xem công cụ này có thể mạnh mẽ như thế nào đối với nhu cầu xử lý tài liệu của bạn.
+Việc tạo danh sách có cấu trúc và nhiều cấp trong tài liệu Word có thể cải thiện đáng kể khả năng đọc và tính chuyên nghiệp. Với Aspose.Words for .NET, bạn có thể tự động hóa quy trình này, giúp bạn tiết kiệm thời gian và đảm bảo tính nhất quán. Chúng tôi hy vọng hướng dẫn này đã giúp bạn hiểu cách chỉ định cấp danh sách hiệu quả. Hãy tiếp tục thử nghiệm và xem công cụ này có thể mạnh mẽ như thế nào đối với nhu cầu xử lý tài liệu của bạn.
 
 ## Câu hỏi thường gặp
 
@@ -120,7 +122,7 @@ Việc tạo danh sách có cấu trúc và nhiều cấp trong tài liệu Word
 Aspose.Words for .NET là một thư viện mạnh mẽ cho phép bạn tạo, chỉnh sửa, chuyển đổi và in các tài liệu Word theo chương trình C#.
 
 ### Tôi có thể sử dụng Aspose.Words miễn phí không?
-Aspose.Words cung cấp phiên bản dùng thử miễn phí mà bạn có thể tải xuống[đây](https://releases.aspose.com/) . Để có phiên bản đầy đủ, bạn có thể kiểm tra các tùy chọn mua[đây](https://purchase.aspose.com/buy).
+Aspose.Words cung cấp phiên bản dùng thử miễn phí mà bạn có thể tải xuống [đây](https://releases.aspose.com/). Để có phiên bản đầy đủ, bạn có thể kiểm tra các tùy chọn mua [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể chỉ định bao nhiêu cấp độ trong danh sách bằng Aspose.Words?
 Bạn có thể chỉ định tối đa chín cấp độ trong danh sách bằng Aspose.Words.
@@ -129,10 +131,15 @@ Bạn có thể chỉ định tối đa chín cấp độ trong danh sách bằn
 Có, bạn có thể kết hợp nhiều loại danh sách khác nhau trong một tài liệu bằng cách chuyển đổi mẫu danh sách khi cần.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
- Bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu chi tiết [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

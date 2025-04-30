@@ -1,14 +1,16 @@
 ---
-title: Thay thế siêu liên kết
-linktitle: Thay thế siêu liên kết
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thay thế siêu liên kết trong tài liệu .NET bằng Aspose.Words để quản lý tài liệu hiệu quả và cập nhật nội dung động.
-weight: 10
-url: /vi/net/working-with-fields/replace-hyperlinks/
+"description": "Tìm hiểu cách thay thế siêu liên kết trong tài liệu .NET bằng Aspose.Words để quản lý tài liệu hiệu quả và cập nhật nội dung động."
+"linktitle": "Thay thế siêu liên kết"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thay thế siêu liên kết"
+"url": "/vi/net/working-with-fields/replace-hyperlinks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thay thế siêu liên kết
@@ -22,7 +24,7 @@ Trong thế giới phát triển .NET, quản lý và thao tác tài liệu là 
 Trước khi bắt đầu thay thế siêu liên kết bằng Aspose.Words cho .NET, hãy đảm bảo bạn có những điều sau:
 
 - Visual Studio: Đã cài đặt và thiết lập để phát triển .NET.
--  Aspose.Words cho .NET: Đã tải xuống và tham chiếu trong dự án của bạn. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Đã tải xuống và tham chiếu trong dự án của bạn. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 - Quen thuộc với C#: Hiểu biết cơ bản về cách viết và biên dịch mã.
 
 ## Nhập không gian tên
@@ -39,13 +41,13 @@ using Aspose.Words.Fields;
 Bắt đầu bằng cách tải tài liệu nơi bạn muốn thay thế siêu liên kết:
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Hyperlinks.docx");
 ```
 
- Thay thế`"Hyperlinks.docx"` với đường dẫn đến tài liệu thực tế của bạn.
+Thay thế `"Hyperlinks.docx"` với đường dẫn đến tài liệu thực tế của bạn.
 
 ## Bước 2: Lặp lại qua các trường
 
@@ -74,10 +76,10 @@ foreach (Field field in doc.Range.Fields)
 Cuối cùng, lưu tài liệu đã sửa đổi với các siêu liên kết đã thay thế:
 
 ```csharp
-doc.Save(dataDir + "WorkingWithFields.ReplaceHyperlinks.docx");
+doc.Save(dataDir + "WorkingWithFields.Thay thếHyperlinks.docx");
 ```
 
- Thay thế`"WorkingWithFields.ReplaceHyperlinks.docx"` với đường dẫn tập tin đầu ra mong muốn của bạn.
+Replace `"WorkingWithFields.ReplaceHyperlinks.docx"` với đường dẫn tập tin đầu ra mong muốn của bạn.
 
 ## Phần kết luận
 
@@ -89,19 +91,23 @@ Thay thế siêu liên kết trong tài liệu bằng Aspose.Words cho .NET rấ
 Có, Aspose.Words hỗ trợ các cấu trúc phức tạp như bảng, hình ảnh và siêu liên kết một cách liền mạch.
 
 ### Có phiên bản dùng thử nào của Aspose.Words dành cho .NET không?
- Có, bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm tài liệu về Aspose.Words cho .NET ở đâu?
- Tài liệu chi tiết có sẵn[đây](https://reference.aspose.com/words/net/).
+Tài liệu chi tiết có sẵn [đây](https://reference.aspose.com/words/net/).
 
 ### Làm thế nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Words dành cho .NET?
- Có thể xin được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Có thể xin được giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Có những tùy chọn hỗ trợ nào cho Aspose.Words dành cho .NET?
- Bạn có thể nhận được sự hỗ trợ của cộng đồng hoặc gửi câu hỏi trên[Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ của cộng đồng hoặc gửi câu hỏi trên [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

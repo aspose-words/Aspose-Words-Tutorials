@@ -1,14 +1,16 @@
 ---
-title: Hedef Stillerini Kullan
-linktitle: Hedef Stillerini Kullan
-second_title: Aspose.Words Belge İşleme API'si
-description: Tutarlı biçimlendirmeyi korurken belgeleri sorunsuz bir şekilde eklemek için Aspose.Words for .NET ile hedef stilleri nasıl kullanacağınızı öğrenin.
-weight: 10
-url: /tr/net/join-and-append-documents/use-destination-styles/
+"description": "Tutarlı biçimlendirmeyi korurken belgeleri sorunsuz bir şekilde eklemek için Aspose.Words for .NET ile hedef stilleri nasıl kullanacağınızı öğrenin."
+"linktitle": "Hedef Stillerini Kullan"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Hedef Stillerini Kullan"
+"url": "/tr/net/join-and-append-documents/use-destination-styles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hedef Stillerini Kullan
@@ -21,13 +23,13 @@ Aspose.Words for .NET, Word belgelerini programatik olarak düzenlemek için gü
 
 Başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
--  Aspose.Words for .NET: Eğer henüz sahip değilseniz, şuradan indirin:[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Eğer henüz sahip değilseniz, şuradan indirin: [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio veya herhangi bir C# geliştirme ortamı.
 - Temel C# Bilgisi: C# programlamanın temellerini anlamak faydalı olacaktır.
 
 ## Ad Alanlarını İçe Aktar
 
-Koda dalmadan önce, gerekli ad alanlarını içe aktarmanız gerekir. Bu, Aspose.Words tarafından sağlanan sınıflara ve yöntemlere erişim için önemlidir.
+Koda dalmadan önce, gerekli ad alanlarını içe aktarmanız gerekir. Bu, Aspose.Words tarafından sağlanan sınıflara ve yöntemlere erişim için çok önemlidir.
 
 ```csharp
 using Aspose.Words;
@@ -37,7 +39,7 @@ Belgeleri eklerken hedef stilleri kullanma sürecini açık ve yönetilebilir ad
 
 ## Adım 1: Belge Dizininizi Ayarlayın
 
- Öncelikle belge dizininize giden yolu tanımlayın. Kaynak ve hedef belgeleriniz burada bulunur. Şunu değiştirmeniz gerekir:`"YOUR DOCUMENT DIRECTORY"` Belgelerinize giden gerçek yol ile.
+Öncelikle belge dizininize giden yolu tanımlayın. Kaynak ve hedef belgeleriniz burada bulunur. Şunu değiştirmeniz gerekir: `"YOUR DOCUMENT DIRECTORY"` Belgelerinize giden gerçek yol ile.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -45,13 +47,13 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Adım 2: Kaynak Belgeyi Yükle
 
-Sonra, hedef belgeye eklemek istediğiniz kaynak belgeyi yükleyin. Aspose.Words bunu yapmanın basit bir yolunu sunar`Document` sınıf.
+Sonra, hedef belgeye eklemek istediğiniz kaynak belgeyi yükleyin. Aspose.Words bunu yapmanın basit bir yolunu sunar `Document` sınıf.
 
 ```csharp
 Document srcDoc = new Document(dataDir + "Document source.docx");
 ```
 
-## Adım 3: Hedef Belgeyi Yükleyin
+## Adım 3: Hedef Belgeyi Yükle
 
 Benzer şekilde, kaynak belgeyi eklemek istediğiniz hedef belgeyi yükleyin. Bu, stillerini kullanmak istediğiniz belge olacaktır.
 
@@ -61,7 +63,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## Adım 4: Hedef Stillerini Kullanarak Kaynak Belgeyi Ekleyin
 
- Şimdi asıl önemli kısım geliyor: hedef belgenin stillerini kullanırken kaynak belgeyi hedef belgeye eklemek.`AppendDocument` yöntemi`Document` sınıf bunu yapmanıza olanak tanır.`ImportFormatMode.UseDestinationStyles` parametresi, hedef belgenin stillerinin kullanılmasını sağlar.
+Şimdi asıl önemli kısım geliyor: hedef belgenin stillerini kullanırken kaynak belgeyi hedef belgeye eklemek. `AppendDocument` yöntemi `Document` sınıf bunu yapmanıza olanak tanır. `ImportFormatMode.UseDestinationStyles` parametresi, hedef belgenin stillerinin kullanılmasını sağlar.
 
 ```csharp
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles);
@@ -94,10 +96,15 @@ Büyük belgeler için, bunları verimli bir şekilde işlemek amacıyla akış 
 Aspose.Words farklı formatlardaki belgeleri eklemenize olanak tanır, ancak son belgenin tek bir formatta kaydedilmesi gerekir.
 
 ### Aspose.Words for .NET'in ücretsiz deneme sürümünü nasıl edinebilirim?
- Ücretsiz deneme alabilirsiniz[Burada](https://releases.aspose.com/).
+Ücretsiz deneme alabilirsiniz [Burada](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

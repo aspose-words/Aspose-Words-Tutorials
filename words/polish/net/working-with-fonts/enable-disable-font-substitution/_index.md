@@ -1,14 +1,16 @@
 ---
-title: Włącz Wyłącz podstawianie czcionek
-linktitle: Włącz Wyłącz podstawianie czcionek
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak włączyć lub wyłączyć podstawianie czcionek w dokumentach Word za pomocą Aspose.Words dla .NET. Upewnij się, że Twoje dokumenty wyglądają spójnie na wszystkich platformach.
-weight: 10
-url: /pl/net/working-with-fonts/enable-disable-font-substitution/
+"description": "Dowiedz się, jak włączyć lub wyłączyć podstawianie czcionek w dokumentach Word za pomocą Aspose.Words dla .NET. Upewnij się, że Twoje dokumenty wyglądają spójnie na wszystkich platformach."
+"linktitle": "Włącz Wyłącz podstawianie czcionek"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Włącz Wyłącz podstawianie czcionek"
+"url": "/pl/net/working-with-fonts/enable-disable-font-substitution/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Włącz Wyłącz podstawianie czcionek
@@ -21,7 +23,7 @@ Czy kiedykolwiek znalazłeś się w sytuacji, w której starannie wybrane czcion
 
 Zanim przejdziemy do dalszych kroków, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
--  Aspose.Words dla .NET: Pobierz najnowszą wersję[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Pobierz najnowszą wersję [Tutaj](https://releases.aspose.com/words/net/).
 - Visual Studio: dowolna wersja obsługująca .NET.
 - Podstawowa znajomość języka C#: Ułatwi Ci to zrozumienie przykładów kodowania.
 
@@ -38,24 +40,24 @@ Teraz podzielimy ten proces na proste i łatwe do opanowania kroki.
 
 ## Krok 1: Skonfiguruj swój projekt
 
-Najpierw skonfiguruj nowy projekt w Visual Studio i dodaj odwołanie do biblioteki Aspose.Words for .NET. Jeśli jeszcze tego nie zrobiłeś, pobierz ją z[Strona internetowa Aspose](https://releases.aspose.com/words/net/).
+Najpierw skonfiguruj nowy projekt w Visual Studio i dodaj odwołanie do biblioteki Aspose.Words for .NET. Jeśli jeszcze tego nie zrobiłeś, pobierz ją z [Strona internetowa Aspose](https://releases.aspose.com/words/net/).
 
 ## Krok 2: Załaduj swój dokument
 
 Następnie załaduj dokument, z którym chcesz pracować. Oto jak to zrobić:
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów. Ten kod ładuje dokument do pamięci, dzięki czemu możesz nim manipulować.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów. Ten kod ładuje dokument do pamięci, dzięki czemu możesz nim manipulować.
 
 ## Krok 3: Skonfiguruj ustawienia czcionek
 
- Teraz utwórzmy`FontSettings` obiekt do zarządzania ustawieniami substytucji czcionek:
+Teraz utwórzmy `FontSettings` obiekt do zarządzania ustawieniami substytucji czcionek:
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -69,7 +71,7 @@ Ustaw domyślną zamianę czcionki na czcionkę swojego wyboru. Ta czcionka zost
 fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
 ```
 
-W tym przykładzie używamy czcionki Arial jako domyślnej.
+tym przykładzie używamy czcionki Arial jako domyślnej.
 
 ## Krok 5: Wyłącz podstawianie informacji o czcionkach
 
@@ -81,7 +83,7 @@ fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = false;
 
 ## Krok 6: Zastosuj ustawienia czcionki do dokumentu
 
-Teraz zastosuj te ustawienia do swojego dokumentu:
+Teraz zastosuj te ustawienia w swoim dokumencie:
 
 ```csharp
 doc.FontSettings = fontSettings;
@@ -103,15 +105,15 @@ I masz to! Wykonując te kroki, możesz łatwo kontrolować podmianę czcionek w
 
 ### Czy mogę używać czcionek innych niż Arial jako zamienników?
 
- Oczywiście! Możesz określić dowolną czcionkę dostępną w systemie, zmieniając nazwę czcionki w`DefaultFontName` nieruchomość.
+Oczywiście! Możesz określić dowolną czcionkę dostępną w systemie, zmieniając nazwę czcionki w `DefaultFontName` nieruchomość.
 
 ### Co się stanie, jeśli określona domyślna czcionka nie będzie dostępna?
 
-Jeśli domyślna czcionka nie jest dostępna, Aspose.Words użyje mechanizmu zapasowego w celu znalezienia odpowiedniej czcionki zamiennika.
+Jeżeli domyślna czcionka nie jest dostępna, Aspose.Words użyje mechanizmu zapasowego w celu znalezienia odpowiedniej czcionki zamiennika.
 
 ### Czy mogę ponownie włączyć funkcję podstawiania czcionek po jej wyłączeniu?
 
- Tak, możesz przełączać`Enabled` własność`FontInfoSubstitution` powrót do`true` Jeśli chcesz ponownie włączyć podstawianie czcionek.
+Tak, możesz przełączać `Enabled` własność `FontInfoSubstitution` powrót do `true` jeśli chcesz ponownie włączyć podstawianie czcionek.
 
 ### Czy istnieje sposób sprawdzenia, które czcionki są zastępowane?
 
@@ -120,9 +122,14 @@ Tak, Aspose.Words udostępnia metody rejestrowania i śledzenia zastępowania cz
 ### Czy mogę użyć tej metody do innych formatów dokumentów niż DOCX?
 
 Zdecydowanie! Aspose.Words obsługuje różne formaty i możesz zastosować te ustawienia czcionek do dowolnego obsługiwanego formatu.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

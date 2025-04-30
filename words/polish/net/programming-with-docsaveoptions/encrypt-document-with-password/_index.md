@@ -1,14 +1,16 @@
 ---
-title: Zaszyfruj dokument hasłem
-linktitle: Zaszyfruj dokument hasłem
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak zaszyfrować dokument hasłem za pomocą Aspose.Words dla .NET w tym szczegółowym przewodniku krok po kroku. Bezproblemowo zabezpiecz swoje poufne informacje.
-weight: 10
-url: /pl/net/programming-with-docsaveoptions/encrypt-document-with-password/
+"description": "Dowiedz się, jak zaszyfrować dokument hasłem za pomocą Aspose.Words dla .NET w tym szczegółowym przewodniku krok po kroku. Bezproblemowo zabezpiecz swoje poufne informacje."
+"linktitle": "Zaszyfruj dokument hasłem"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zaszyfruj dokument hasłem"
+"url": "/pl/net/programming-with-docsaveoptions/encrypt-document-with-password/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zaszyfruj dokument hasłem
@@ -20,10 +22,10 @@ Czy kiedykolwiek zdarzyło Ci się zabezpieczyć dokument hasłem? Nie jesteś s
 ## Wymagania wstępne
 
 Zanim zaczniemy pisać kod, potrzebujemy kilku rzeczy:
-1.  Aspose.Words dla .NET: Możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
-2. Środowisko programistyczne: Visual Studio lub dowolne wybrane środowisko IDE C#.
+1. Aspose.Words dla .NET: Możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
+2. Środowisko programistyczne: Visual Studio lub dowolne środowisko IDE C# według własnego wyboru.
 3. .NET Framework: Upewnij się, że jest zainstalowany.
-4.  Licencja: Możesz zacząć od[bezpłatny okres próbny](https://releases.aspose.com/) lub zdobądź[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby uzyskać dostęp do pełnej wersji funkcji.
+4. Licencja: Możesz zacząć od [bezpłatny okres próbny](https://releases.aspose.com/) lub zdobądź [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby uzyskać dostęp do pełnej wersji funkcji.
 
 Masz wszystko? Świetnie! Przejdźmy do konfiguracji naszego projektu.
 
@@ -92,12 +94,12 @@ doc.Save(dataDir + "WorkingWithDocSaveOptions.EncryptDocumentWithPassword.docx",
 
 ## Wniosek
 
-masz to! Właśnie nauczyłeś się, jak zaszyfrować dokument hasłem, używając Aspose.Words dla .NET. To tak, jakbyś został cyfrowym ślusarzem, zapewniając, że Twoje dokumenty są bezpieczne i solidne. Niezależnie od tego, czy zabezpieczasz poufne raporty biznesowe, czy osobiste notatki, ta metoda oferuje proste, ale skuteczne rozwiązanie.
+I masz to! Właśnie nauczyłeś się, jak zaszyfrować dokument hasłem, używając Aspose.Words dla .NET. To tak, jakbyś został cyfrowym ślusarzem, zapewniając, że Twoje dokumenty są bezpieczne i solidne. Niezależnie od tego, czy zabezpieczasz poufne raporty biznesowe, czy osobiste notatki, ta metoda oferuje proste, ale skuteczne rozwiązanie.
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę użyć innego typu szyfrowania?
- Tak, Aspose.Words dla .NET obsługuje różne metody szyfrowania. Sprawdź[dokumentacja](https://reference.aspose.com/words/net/) Aby uzyskać więcej szczegółów.
+Tak, Aspose.Words dla .NET obsługuje różne metody szyfrowania. Sprawdź [dokumentacja](https://reference.aspose.com/words/net/) po więcej szczegółów.
 
 ### Co się stanie, jeśli zapomnę hasła do dokumentu?
 Niestety, jeśli zapomnisz hasła, nie będziesz mieć dostępu do dokumentu. Upewnij się, że Twoje hasła są bezpieczne!
@@ -110,9 +112,14 @@ Tak, zapisując dokument bez określania hasła, możesz usunąć istniejące za
 
 ### Jak bezpieczne jest szyfrowanie oferowane przez Aspose.Words dla .NET?
 Aspose.Words for .NET korzysta ze sprawdzonych standardów szyfrowania, co gwarantuje dobrą ochronę dokumentów.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

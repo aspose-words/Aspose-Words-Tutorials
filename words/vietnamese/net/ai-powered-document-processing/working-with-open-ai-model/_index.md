@@ -1,14 +1,16 @@
 ---
-title: Làm việc với mô hình AI mở
-linktitle: Làm việc với mô hình AI mở
-second_title: API xử lý tài liệu Aspose.Words
-description: Mở khóa tóm tắt tài liệu hiệu quả bằng Aspose.Words cho .NET với các mô hình mạnh mẽ của OpenAI. Khám phá hướng dẫn toàn diện này ngay.
-weight: 10
-url: /vi/net/ai-powered-document-processing/working-with-open-ai-model/
+"description": "Mở khóa tóm tắt tài liệu hiệu quả bằng Aspose.Words cho .NET với các mô hình mạnh mẽ của OpenAI. Khám phá hướng dẫn toàn diện này ngay."
+"linktitle": "Làm việc với mô hình AI mở"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Làm việc với mô hình AI mở"
+"url": "/vi/net/ai-powered-document-processing/working-with-open-ai-model/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Làm việc với mô hình AI mở
@@ -25,7 +27,7 @@ Trước khi bắt tay vào viết mã, bạn cần lưu ý một số điều c
 Đảm bảo bạn đang chạy trên phiên bản .NET framework tương thích với Aspose.Words. Nhìn chung, .NET 5.0 trở lên sẽ hoạt động hoàn hảo.
 
 ### Aspose.Words cho Thư viện .NET
- Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.Words. Bạn có thể lấy nó từ[liên kết này](https://releases.aspose.com/words/net/).
+Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.Words. Bạn có thể lấy nó từ [liên kết này](https://releases.aspose.com/words/net/).
 
 ### Khóa API OpenAI
 Để tích hợp các mô hình ngôn ngữ của OpenAI cho mục đích tóm tắt tài liệu, bạn sẽ cần Khóa API. Bạn có thể lấy khóa bằng cách đăng ký trên nền tảng OpenAI và lấy khóa từ cài đặt tài khoản của bạn.
@@ -48,7 +50,7 @@ Bạn có thể thêm gói Aspose.Words thông qua NuGet Package Manager. Đây 
 
 ### Thêm Môi trường Hệ thống
 
- Hãy chắc chắn bao gồm`System`không gian tên để xử lý các biến môi trường:
+Hãy chắc chắn bao gồm `System` không gian tên để xử lý các biến môi trường:
 ```csharp
 using System.Text;
 using Aspose.Words;
@@ -79,7 +81,7 @@ string MyDir = "YOUR_DOCUMENT_DIRECTORY";
 // Thư mục hiện vật của bạn
 string ArtifactsDir = "YOUR_ARTIFACTS_DIRECTORY";
 ```
- Điều này làm cho mã của bạn dễ quản lý hơn vì bạn có thể dễ dàng thay đổi đường dẫn nếu cần.`MyDir` là nơi lưu trữ các tài liệu đầu vào của bạn, trong khi`ArtifactsDir` là nơi bạn sẽ lưu các bản tóm tắt đã tạo.
+Điều này làm cho mã của bạn dễ quản lý hơn vì bạn có thể dễ dàng thay đổi đường dẫn nếu cần. `MyDir` là nơi lưu trữ các tài liệu đầu vào của bạn, trong khi `ArtifactsDir` là nơi bạn sẽ lưu các bản tóm tắt đã tạo.
 
 ## Bước 2: Tải tài liệu của bạn
 
@@ -116,7 +118,7 @@ Trước tiên, chúng ta hãy tóm tắt tài liệu đầu tiên. Đây chính
 Document oneDocumentSummary = model.Summarize(firstDoc, new SummarizeOptions() { SummaryLength = SummaryLength.Short });
 oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
 ```
- Ở đây, chúng tôi đang sử dụng`Summarize` phương pháp của mô hình.`SummaryLength.Short`tham số chỉ rõ rằng chúng ta muốn có một bản tóm tắt ngắn — hoàn hảo cho một cái nhìn tổng quan nhanh chóng!
+Ở đây, chúng tôi đang sử dụng `Summarize` phương pháp của mô hình. `SummaryLength.Short` tham số chỉ rõ rằng chúng ta muốn có một bản tóm tắt ngắn — hoàn hảo cho một cái nhìn tổng quan nhanh chóng!
 
 ## Bước 6: Tóm tắt nhiều tài liệu
 
@@ -149,10 +151,15 @@ Chắc chắn rồi! Bạn có thể tóm tắt nhiều tài liệu trong một 
 Bạn có thể cài đặt nó thông qua NuGet Package Manager trong Visual Studio bằng cách tìm kiếm "Aspose.Words".
 
 ### Có bản dùng thử miễn phí Aspose.Words không?  
- Có, bạn có thể truy cập bản dùng thử miễn phí của Aspose.Words thông qua[trang web](https://releases.aspose.com/).
+Có, bạn có thể truy cập bản dùng thử miễn phí của Aspose.Words thông qua [trang web](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

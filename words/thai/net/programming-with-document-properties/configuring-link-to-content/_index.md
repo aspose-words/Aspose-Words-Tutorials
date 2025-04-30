@@ -1,14 +1,16 @@
 ---
-title: การกำหนดค่าการเชื่อมโยงไปยังเนื้อหา
-linktitle: การกำหนดค่าการเชื่อมโยงไปยังเนื้อหา
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการกำหนดค่าลิงก์ไปยังเนื้อหาในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนโดยละเอียดของเรา
-weight: 10
-url: /th/net/programming-with-document-properties/configuring-link-to-content/
+"description": "เรียนรู้วิธีการกำหนดค่าลิงก์ไปยังเนื้อหาในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนโดยละเอียดของเรา"
+"linktitle": "การกำหนดค่าการเชื่อมโยงไปยังเนื้อหา"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การกำหนดค่าการเชื่อมโยงไปยังเนื้อหา"
+"url": "/th/net/programming-with-document-properties/configuring-link-to-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การกำหนดค่าการเชื่อมโยงไปยังเนื้อหา
@@ -21,7 +23,7 @@ url: /th/net/programming-with-document-properties/configuring-link-to-content/
 
 ก่อนที่เราจะเจาะลึกคู่มือทีละขั้นตอน เรามาตรวจสอบก่อนว่าคุณมีทุกสิ่งที่จำเป็นในการเริ่มต้น:
 
--  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณมี Aspose.Words สำหรับ .NET เวอร์ชันล่าสุด หากคุณยังไม่มี คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณมี Aspose.Words สำหรับ .NET เวอร์ชันล่าสุด หากคุณยังไม่มี คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 - .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework ไว้ในเครื่องของคุณแล้ว
 - สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE อื่นๆ ที่สนับสนุนการพัฒนา .NET
 
@@ -74,7 +76,7 @@ customProperty = customProperties["Bookmark"];
 
 ## ขั้นตอนที่ 5: ตรวจสอบลิงก์ไปยังเนื้อหา
 
-เพื่อให้แน่ใจว่าลิงก์ไปยังเนื้อหาของเราได้รับการกำหนดค่าอย่างถูกต้อง เราจะตรวจสอบว่าคุณสมบัติเชื่อมโยงกับเนื้อหาจริงหรือไม่ และดึงข้อมูลแหล่งที่มาและค่าของเนื้อหานั้น
+เพื่อให้แน่ใจว่าลิงก์ไปยังเนื้อหาของเราได้รับการกำหนดค่าอย่างถูกต้อง เราจะตรวจสอบว่าคุณสมบัติเชื่อมโยงกับเนื้อหาจริงหรือไม่ และดึงข้อมูลแหล่งที่มาและค่าของคุณสมบัตินั้น
 
 ```csharp
 bool isLinkedToContent = customProperty.IsLinkToContent;
@@ -84,7 +86,7 @@ string customPropertyValue = customProperty.Value.ToString();
 
 ## บทสรุป
 
- ขอแสดงความยินดี! คุณได้กำหนดค่าลิงก์ไปยังเนื้อหาในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET สำเร็จแล้ว เมื่อทำตามขั้นตอนเหล่านี้ คุณสามารถเพิ่มและจัดการคุณสมบัติแบบกำหนดเองที่เชื่อมโยงกับเนื้อหาเฉพาะในเอกสาร Word ของคุณได้ ทำให้การจัดการเอกสารของคุณมีความคล่องตัวและมีประสิทธิภาพมากขึ้น หากคุณมีคำถามหรือพบปัญหาใดๆ โปรดตรวจสอบ[เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) หรือขอความช่วยเหลือได้ที่[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/words/8).
+ขอแสดงความยินดี! คุณได้กำหนดค่าลิงก์ไปยังเนื้อหาในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET สำเร็จแล้ว เมื่อทำตามขั้นตอนเหล่านี้ คุณสามารถเพิ่มและจัดการคุณสมบัติแบบกำหนดเองที่เชื่อมโยงกับเนื้อหาเฉพาะในเอกสาร Word ของคุณได้ ทำให้การจัดการเอกสารของคุณมีความคล่องตัวและมีประสิทธิภาพมากขึ้น หากคุณมีคำถามหรือพบปัญหาใดๆ โปรดตรวจสอบ [เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) หรือขอความช่วยเหลือได้ที่ [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/words/8).
 
 ## คำถามที่พบบ่อย
 
@@ -92,20 +94,25 @@ string customPropertyValue = customProperty.Value.ToString();
 Aspose.Words สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพสำหรับการทำงานกับเอกสาร Word ด้วยโปรแกรม โดยมีคุณสมบัติมากมายสำหรับการสร้าง แก้ไข และแปลงเอกสาร Word
 
 ### ฉันจะติดตั้ง Aspose.Words สำหรับ .NET ได้อย่างไร?
- คุณสามารถติดตั้ง Aspose.Words สำหรับ .NET ได้โดยดาวน์โหลดจาก[ที่นี่](https://releases.aspose.com/words/net/) และเพิ่ม DLL ลงในโปรเจ็กต์ของคุณ หรือคุณสามารถติดตั้งได้ผ่านตัวจัดการแพ็กเกจ NuGet ใน Visual Studio
+คุณสามารถติดตั้ง Aspose.Words สำหรับ .NET ได้โดยดาวน์โหลดจาก [ที่นี่](https://releases.aspose.com/words/net/) และเพิ่ม DLL ลงในโปรเจ็กต์ของคุณ หรือคุณสามารถติดตั้งได้ผ่านตัวจัดการแพ็กเกจ NuGet ใน Visual Studio
 
 ### ฉันสามารถเพิ่มลิงก์หลายรายการไปยังเนื้อหาที่แตกต่างกันในเอกสารเดียวกันได้หรือไม่
 ใช่ คุณสามารถเพิ่มลิงก์หลายรายการไปยังเนื้อหาที่แตกต่างกันในเอกสารเดียวกันได้โดยการสร้างบุ๊กมาร์กหลายรายการและเชื่อมโยงคุณสมบัติแบบกำหนดเองไปยังบุ๊กมาร์กแต่ละรายการ
 
 ### Aspose.Words สำหรับ .NET ฟรีหรือเปล่า?
- Aspose.Words สำหรับ .NET เป็นผลิตภัณฑ์เชิงพาณิชย์ แต่คุณสามารถเริ่มต้นด้วยรุ่นทดลองใช้งานฟรีที่พร้อมใช้งาน[ที่นี่](https://releases.aspose.com/).
+Aspose.Words สำหรับ .NET เป็นผลิตภัณฑ์เชิงพาณิชย์ แต่คุณสามารถเริ่มต้นด้วยรุ่นทดลองใช้งานฟรีที่พร้อมใช้งาน [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
- คุณสามารถรับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ได้ที่[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/words/8).
+คุณสามารถรับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ได้ที่ [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

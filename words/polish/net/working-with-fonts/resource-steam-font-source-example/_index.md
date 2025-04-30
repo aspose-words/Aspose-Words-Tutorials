@@ -1,14 +1,16 @@
 ---
-title: Przykład źródła czcionki Steam
-linktitle: Przykład źródła czcionki Steam
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak używać źródła strumienia zasobów z Aspose.Words dla .NET w tym szczegółowym przewodniku. Upewnij się, że Twoje dokumenty są renderowane poprawnie za każdym razem.
-weight: 10
-url: /pl/net/working-with-fonts/resource-steam-font-source-example/
+"description": "Dowiedz się, jak używać źródła strumienia zasobów z Aspose.Words dla .NET w tym szczegółowym przewodniku. Upewnij się, że Twoje dokumenty są renderowane poprawnie za każdym razem."
+"linktitle": "Przykład źródła czcionki Steam"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przykład źródła czcionki Steam"
+"url": "/pl/net/working-with-fonts/resource-steam-font-source-example/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przykład źródła czcionki Steam
@@ -22,9 +24,9 @@ Jeśli pracujesz z dokumentami w .NET i używasz Aspose.Words, zarządzanie źr�
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
 - Podstawowa znajomość języka C#: Znajomość programowania w języku C# ułatwi Ci zrozumienie tematu.
--  Biblioteka Aspose.Words dla .NET: Pobierz i zainstaluj ją z[link do pobrania](https://releases.aspose.com/words/net/).
+- Biblioteka Aspose.Words dla .NET: Pobierz i zainstaluj ją z [link do pobrania](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: środowisko podobne do Visual Studio, służące do pisania i wykonywania kodu.
--  Przykładowy dokument: Posiadaj przykładowy dokument (np.`Rendering.docx`) gotowy do przetestowania ustawień czcionek.
+- Przykładowy dokument: Posiadaj przykładowy dokument (np. `Rendering.docx`) gotowy do przetestowania ustawień czcionek.
 
 ## Importuj przestrzenie nazw
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Krok 2: Załaduj dokument
 
- Załaduj swój dokument do Aspose.Words`Document` obiekt. Pozwala to na manipulowanie dokumentem programowo.
+Załaduj swój dokument do Aspose.Words `Document` obiekt. Pozwala to na manipulowanie dokumentem programowo.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -68,7 +70,7 @@ FontSettings.DefaultInstance.SetFontsSources(new FontSourceBase[]
 
 ## Krok 4: Implementacja źródła czcionek strumienia zasobów
 
- Utwórz klasę rozszerzającą`StreamFontSource` do obsługi czcionek z osadzonego strumienia zasobów. Ta klasa pobierze dane czcionek z zasobów zestawu.
+Utwórz klasę rozszerzającą `StreamFontSource` do obsługi czcionek z osadzonego strumienia zasobów. Ta klasa pobierze dane czcionek z zasobów zestawu.
 
 ```csharp
 internal class ResourceSteamFontSource : StreamFontSource
@@ -98,27 +100,32 @@ Opanowałeś już proces używania strumienia zasobów jako źródła czcionek w
 
 ### P1: Czy mogę używać wielu strumieni zasobów dla różnych czcionek?
 
- Tak, możesz wdrożyć wiele`StreamFontSource` klasy dla różnych strumieni zasobów i dodaj je do źródeł czcionek.
+Tak, możesz wdrożyć wiele `StreamFontSource` klasy dla różnych strumieni zasobów i dodaj je do źródeł czcionek.
 
 ### P2: Gdzie mogę uzyskać bezpłatną wersję próbną Aspose.Words dla .NET?
 
- Darmową wersję próbną możesz pobrać ze strony[Strona z bezpłatną wersją próbną](https://releases.aspose.com/).
+Darmową wersję próbną możesz pobrać ze strony [Strona z bezpłatną wersją próbną](https://releases.aspose.com/).
 
-###  P3: Czy mogę obsługiwać inne rodzaje ostrzeżeń za pomocą`IWarningCallback`?
+### P3: Czy mogę obsługiwać inne rodzaje ostrzeżeń za pomocą `IWarningCallback`?
 
- Tak,`IWarningCallback`Interfejs może obsługiwać różne typy ostrzeżeń, nie tylko te dotyczące zamiany czcionek.
+Tak, `IWarningCallback` Interfejs może obsługiwać różne typy ostrzeżeń, nie tylko te dotyczące zamiany czcionek.
 
 ### P4: Gdzie mogę znaleźć pomoc dotyczącą Aspose.Words?
 
- Odwiedź[Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8) po pomoc.
+Odwiedź [Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8) po pomoc.
 
 ### P5: Czy można uzyskać tymczasową licencję na Aspose.Words?
 
- Tak, możesz uzyskać tymczasową licencję od[tymczasowa strona licencji](https://purchase.aspose.com/temporary-license/).
+Tak, możesz uzyskać tymczasową licencję od [tymczasowa strona licencji](https://purchase.aspose.com/temporary-license/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

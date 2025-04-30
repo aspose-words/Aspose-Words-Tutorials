@@ -1,14 +1,16 @@
 ---
-title: Konversi Antar Satuan Pengukuran
-linktitle: Konversi Antar Satuan Pengukuran
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengonversi satuan ukuran di Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk mengatur margin, header, dan footer dokumen dalam inci dan poin.
-weight: 10
-url: /id/net/programming-with-document-properties/convert-between-measurement-units/
+"description": "Pelajari cara mengonversi satuan ukuran di Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk mengatur margin, header, dan footer dokumen dalam inci dan poin."
+"linktitle": "Konversi Antar Satuan Pengukuran"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Konversi Antar Satuan Pengukuran"
+"url": "/id/net/programming-with-document-properties/convert-between-measurement-units/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konversi Antar Satuan Pengukuran
@@ -21,10 +23,10 @@ Hai! Apakah Anda seorang pengembang yang bekerja dengan dokumen Word menggunakan
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1.  Pustaka Aspose.Words untuk .NET: Jika Anda belum memilikinya, unduhlah[Di Sini](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Jika Anda belum memilikinya, unduhlah [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau IDE lain yang kompatibel dengan .NET.
 3. Pengetahuan Dasar C#: Memahami dasar-dasar C# akan membantu Anda mengikutinya dengan mudah.
-4.  Lisensi Aspose: Opsional tetapi direkomendasikan untuk fungsionalitas penuh. Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+4. Lisensi Aspose: Opsional tetapi direkomendasikan untuk fungsionalitas penuh. Anda dapat memperoleh lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ## Mengimpor Ruang Nama
 
@@ -46,11 +48,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Ini menginisialisasi dokumen Word baru dan`DocumentBuilder` untuk memfasilitasi pembuatan dan pemformatan konten.
+Ini menginisialisasi dokumen Word baru dan `DocumentBuilder` untuk memfasilitasi pembuatan dan pemformatan konten.
 
 ## Langkah 2: Akses Pengaturan Halaman
 
- Untuk mengatur margin, header, dan footer, Anda perlu mengakses`PageSetup` obyek.
+Untuk mengatur margin, header, dan footer, Anda perlu mengakses `PageSetup` obyek.
 
 ```csharp
 PageSetup pageSetup = builder.PageSetup;
@@ -60,7 +62,7 @@ Ini memberi Anda akses ke berbagai properti pengaturan halaman seperti margin, j
 
 ## Langkah 3: Ubah Inci ke Poin
 
- Aspose.Words menggunakan poin sebagai satuan pengukuran secara default. Untuk mengatur margin dalam inci, Anda perlu mengonversi inci ke poin menggunakan`ConvertUtil.InchToPoint` metode.
+Aspose.Words menggunakan poin sebagai satuan pengukuran secara default. Untuk mengatur margin dalam inci, Anda perlu mengonversi inci ke poin menggunakan `ConvertUtil.InchToPoint` metode.
 
 ```csharp
 pageSetup.TopMargin = ConvertUtil.InchToPoint(1.0);
@@ -93,22 +95,27 @@ Nah, itu dia! Anda telah berhasil mengonversi dan mengatur margin dan jarak dala
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya mengonversi satuan lain seperti sentimeter ke poin menggunakan Aspose.Words?
- Ya, Aspose.Words menyediakan metode seperti`ConvertUtil.CmToPoint` untuk mengonversi sentimeter ke poin.
+Ya, Aspose.Words menyediakan metode seperti `ConvertUtil.CmToPoint` untuk mengonversi sentimeter ke poin.
 
 ### Apakah lisensi diperlukan untuk menggunakan Aspose.Words untuk .NET?
 Meskipun Anda dapat menggunakan Aspose.Words tanpa lisensi, beberapa fitur lanjutan mungkin dibatasi. Memperoleh lisensi memastikan fungsionalitas penuh.
 
 ### Bagaimana cara menginstal Aspose.Words untuk .NET?
- Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/words/net/) dan ikuti petunjuk instalasi.
+Anda dapat mengunduhnya dari [situs web](https://releases.aspose.com/words/net/) dan ikuti petunjuk instalasi.
 
 ### Dapatkah saya menetapkan unit yang berbeda untuk bagian yang berbeda dalam suatu dokumen?
- Ya, Anda dapat menyesuaikan margin dan pengaturan lainnya untuk bagian yang berbeda menggunakan`Section` kelas.
+Ya, Anda dapat menyesuaikan margin dan pengaturan lainnya untuk bagian yang berbeda menggunakan `Section` kelas.
 
 ### Fitur apa lagi yang ditawarkan Aspose.Words?
- Aspose.Words mendukung berbagai fitur termasuk konversi dokumen, gabungan surat, dan opsi pemformatan yang luas. Periksa[dokumentasi](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
+Aspose.Words mendukung berbagai fitur termasuk konversi dokumen, gabungan surat, dan opsi pemformatan yang luas. Periksa [dokumentasi](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

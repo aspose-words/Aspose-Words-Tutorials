@@ -1,14 +1,16 @@
 ---
-title: Masukkan Bidang Formulir
-linktitle: Masukkan Bidang Formulir
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyisipkan bidang formulir kotak kombo dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci kami.
-weight: 10
-url: /id/net/working-with-formfields/insert-form-fields/
+"description": "Pelajari cara menyisipkan bidang formulir kotak kombo dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci kami."
+"linktitle": "Masukkan Bidang Formulir"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Masukkan Bidang Formulir"
+"url": "/id/net/working-with-formfields/insert-form-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Masukkan Bidang Formulir
@@ -21,13 +23,13 @@ Kolom formulir dalam dokumen Word dapat sangat berguna untuk membuat formulir at
 
 Sebelum menyelami kodenya, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Jika belum, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Jika belum, Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Anda memerlukan IDE seperti Visual Studio.
 3. .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda.
 
 ## Mengimpor Ruang Nama
 
-Untuk memulainya, Anda perlu mengimpor namespace yang diperlukan. Namespace ini berisi kelas dan metode yang akan Anda gunakan untuk bekerja dengan dokumen Word di Aspose.Words for .NET.
+Untuk memulai, Anda perlu mengimpor namespace yang diperlukan. Namespace ini berisi kelas dan metode yang akan Anda gunakan untuk bekerja dengan dokumen Word di Aspose.Words for .NET.
 
 ```csharp
 using Aspose.Words;
@@ -46,7 +48,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Pada langkah ini, kita membuat sebuah instance dari`Document` kelas. Contoh ini mewakili dokumen Word. Kemudian kita membuat contoh dari`DocumentBuilder` kelas, yang menyediakan metode untuk menyisipkan konten ke dalam dokumen.
+Pada langkah ini, kita membuat sebuah instance dari `Document` kelas. Contoh ini mewakili dokumen Word. Kemudian kita membuat contoh dari `DocumentBuilder` kelas, yang menyediakan metode untuk menyisipkan konten ke dalam dokumen.
 
 ## Langkah 2: Tentukan Item Kotak Kombo
 
@@ -56,17 +58,17 @@ Selanjutnya, tentukan item yang ingin Anda sertakan dalam kotak kombo. Item-item
 string[] items = { "One", "Two", "Three" };
 ```
 
- Di sini, kita membuat array string bernama`items` yang berisi opsi "Satu," "Dua," dan "Tiga."
+Di sini, kita membuat array string bernama `items` yang berisi opsi "Satu," "Dua," dan "Tiga."
 
 ## Langkah 3: Masukkan Kotak Kombo
 
- Sekarang, masukkan kotak kombo ke dalam dokumen menggunakan`DocumentBuilder` contoh.
+Sekarang, masukkan kotak kombo ke dalam dokumen menggunakan `DocumentBuilder` contoh.
 
 ```csharp
 builder.InsertComboBox("DropDown", items, 0);
 ```
 
- Pada langkah ini, kami menggunakan`InsertComboBox` metode dari`DocumentBuilder` class. Parameter pertama adalah nama kotak kombo ("DropDown"), parameter kedua adalah array item, dan parameter ketiga adalah indeks item yang dipilih secara default (dalam hal ini, item pertama).
+Pada langkah ini, kami menggunakan `InsertComboBox` metode dari `DocumentBuilder` class. Parameter pertama adalah nama kotak kombo ("DropDown"), parameter kedua adalah array item, dan parameter ketiga adalah indeks item yang dipilih secara default (dalam hal ini, item pertama).
 
 ## Langkah 4: Simpan Dokumen
 
@@ -92,22 +94,27 @@ Ya, Anda dapat menambahkan beberapa kotak kombo atau bidang formulir lainnya ke 
 
 ### Bagaimana saya dapat menetapkan item pilihan default yang berbeda dalam kotak kombo?
 
-Anda dapat mengubah item yang dipilih secara default dengan mengubah parameter ketiga di`InsertComboBox` metode. Misalnya, mengaturnya ke`1` akan memilih item kedua secara default.
+Anda dapat mengubah item yang dipilih secara default dengan mengubah parameter ketiga di `InsertComboBox` metode. Misalnya, mengaturnya ke `1` akan memilih item kedua secara default.
 
 ### Bisakah saya menyesuaikan tampilan kotak kombo?
 
- Tampilan kolom formulir dapat disesuaikan menggunakan berbagai properti dan metode di Aspose.Words. Lihat[dokumentasi](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
+Tampilan kolom formulir dapat disesuaikan menggunakan berbagai properti dan metode di Aspose.Words. Lihat [dokumentasi](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
 
 ### Apakah mungkin untuk menyisipkan jenis bidang formulir lainnya seperti input teks atau kotak centang?
 
- Ya, Aspose.Words untuk .NET mendukung berbagai jenis bidang formulir, termasuk bidang input teks, kotak centang, dan lainnya. Anda dapat menemukan contoh dan panduan terperinci di[dokumentasi](https://reference.aspose.com/words/net/).
+Ya, Aspose.Words untuk .NET mendukung berbagai jenis bidang formulir, termasuk bidang input teks, kotak centang, dan lainnya. Anda dapat menemukan contoh dan panduan terperinci di [dokumentasi](https://reference.aspose.com/words/net/).
 
 ### Bagaimana saya dapat mencoba Aspose.Words untuk .NET sebelum membeli?
 
- Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/) dan meminta lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+Anda dapat mengunduh uji coba gratis dari [Di Sini](https://releases.aspose.com/) dan meminta lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Buat Dokumen Word Baru
-linktitle: Buat Dokumen Word Baru
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah ini akan memandu Anda melalui prosesnya, sehingga memudahkan otomatisasi dokumen.
-weight: 10
-url: /id/net/add-content-using-documentbuilder/create-new-document/
+"description": "Pelajari cara membuat dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah ini akan memandu Anda melalui prosesnya, sehingga memudahkan otomatisasi dokumen."
+"linktitle": "Buat Dokumen Word Baru"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Buat Dokumen Word Baru"
+"url": "/id/net/add-content-using-documentbuilder/create-new-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Buat Dokumen Word Baru
@@ -20,9 +22,9 @@ Kami menyelami dunia Aspose.Words untuk .NET secara mendalam, pustaka yang luar 
 
 Sebelum kita masuk ke inti pembahasan, mari pastikan kita punya semua yang kita butuhkan:
 
-1.  Visual Studio: Tempat bermain coding kami. Jika Anda belum memilikinya, silakan unduh dari[Unduhan Visual Studio](https://visualstudio.microsoft.com/downloads/).
-2.  Aspose.Words untuk .NET: Bintang pertunjukan. Anda dapat mengambilnya dari[Di Sini](https://releases.aspose.com/words/net/).
-3.  .NET Framework: Pastikan Anda telah menginstal setidaknya .NET Framework 4.0. Anda dapat memeriksa dan menginstalnya melalui[Halaman unduhan Microsoft .NET](https://dotnet.microsoft.com/download/dotnet-framework).
+1. Visual Studio: Tempat bermain coding kami. Jika Anda belum memilikinya, silakan unduh dari [Unduhan Visual Studio](https://visualstudio.microsoft.com/downloads/).
+2. Aspose.Words untuk .NET: Bintang pertunjukan. Anda dapat mengambilnya dari [Di Sini](https://releases.aspose.com/words/net/).
+3. .NET Framework: Pastikan Anda telah menginstal setidaknya .NET Framework 4.0. Anda dapat memeriksa dan menginstalnya melalui [Halaman unduhan Microsoft .NET](https://dotnet.microsoft.com/download/dotnet-framework).
 
 ## Mengimpor Ruang Nama
 
@@ -45,7 +47,7 @@ Bayangkan Anda adalah seorang koki yang sedang menyiapkan bahan-bahan sebelum me
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen. Ini adalah lokasi penyimpanan dokumen Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen. Ini adalah lokasi penyimpanan dokumen Anda.
 
 ## Langkah 2: Membuat Dokumen
 
@@ -55,13 +57,13 @@ Sekarang, mari kita buat dokumen baru. Anggap saja ini seperti menyiapkan kanvas
 Document doc = new Document();
 ```
 
-Kami baru saja membuat dokumen Word kosong. Keren, ya?
+Kita baru saja membuat dokumen Word kosong. Keren, ya?
 
 ## Langkah 3: Menambahkan Konten dengan DocumentBuilder
 
 ### Inisialisasi DocumentBuilder
 
- Selanjutnya, kita perlu menambahkan beberapa konten ke dokumen kita. Untuk ini, kita akan menggunakan`DocumentBuilder`Itu seperti pena kita yang menulis di kanvas.
+Selanjutnya, kita perlu menambahkan beberapa konten ke dokumen kita. Untuk ini, kita akan menggunakan `DocumentBuilder`Itu seperti pena kita yang menulis di kanvas.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -101,7 +103,7 @@ Ya, Aspose.Words untuk .NET kompatibel dengan .NET Core, .NET Standard, dan .NET
 
 ### Bagaimana saya bisa mendapatkan uji coba gratis Aspose.Words untuk .NET?
 
- Anda bisa mendapatkan uji coba gratis dari[Halaman Rilis Aspose](https://releases.aspose.com/).
+Anda bisa mendapatkan uji coba gratis dari [Halaman Rilis Aspose](https://releases.aspose.com/).
 
 ### Jenis dokumen apa yang dapat saya buat dengan Aspose.Words untuk .NET?
 
@@ -109,11 +111,16 @@ Anda dapat membuat dan memanipulasi DOC, DOCX, PDF, HTML, dan banyak format lain
 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan contoh?
 
- Lihat di sini[Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/) untuk contoh lebih lanjut dan panduan terperinci.
+Lihat di sini [Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/) untuk contoh lebih lanjut dan panduan terperinci.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

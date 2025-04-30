@@ -1,14 +1,16 @@
 ---
-title: Utilisation des balises de document structurées (SDT) dans Aspose.Words pour Java
-linktitle: Utilisation des balises de document structurées (SDT)
-second_title: API de traitement de documents Java Aspose.Words
-description: Découvrez comment utiliser les balises de document structurées (SDT) dans Aspose.Words pour Java avec ce guide complet. Créez, modifiez et liez des balises de document structurées (SDT) à des données XML personnalisées.
-weight: 19
-url: /fr/java/document-manipulation/using-structured-document-tags/
+"description": "Apprenez à utiliser les balises de document structurées (SDT) dans Aspose.Words pour Java grâce à ce guide complet. Créez, modifiez et liez des SDT à des données XML personnalisées."
+"linktitle": "Utilisation des balises de documents structurés (SDT)"
+"second_title": "API de traitement de documents Java Aspose.Words"
+"title": "Utilisation des balises de document structurées (SDT) dans Aspose.Words pour Java"
+"url": "/fr/java/document-manipulation/using-structured-document-tags/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utilisation des balises de document structurées (SDT) dans Aspose.Words pour Java
@@ -16,11 +18,11 @@ url: /fr/java/document-manipulation/using-structured-document-tags/
 
 ## Introduction à l'utilisation des balises de document structurées (SDT) dans Aspose.Words pour Java
 
-Les balises de document structurées (SDT) sont une fonctionnalité puissante d'Aspose.Words pour Java qui vous permet de créer et de manipuler du contenu structuré dans vos documents. Dans ce guide complet, nous vous expliquerons les différents aspects de l'utilisation des balises de document structurées dans Aspose.Words pour Java. Que vous soyez un développeur débutant ou expérimenté, vous trouverez dans cet article des informations précieuses et des exemples pratiques.
+Les balises de document structurées (SDT) sont une fonctionnalité puissante d'Aspose.Words pour Java qui vous permet de créer et de manipuler du contenu structuré dans vos documents. Ce guide complet vous présente les différents aspects de l'utilisation des balises de document structurées dans Aspose.Words pour Java. Que vous soyez débutant ou développeur expérimenté, vous trouverez dans cet article des informations précieuses et des exemples pratiques.
 
 ## Commencer
 
-Avant de plonger dans les détails, configurons notre environnement et créons un SDT de base. Dans cette section, nous aborderons les sujets suivants :
+Avant d'entrer dans les détails, configurons notre environnement et créons un SDT de base. Dans cette section, nous aborderons les sujets suivants :
 
 - Créer un nouveau document
 - Ajout d'une balise de document structuré
@@ -40,7 +42,7 @@ doc.save("WorkingWithSDT.docx");
 
 ## Vérification de l'état actuel d'une case à cocher SDT
 
-Une fois que vous avez ajouté une case à cocher SDT à votre document, vous souhaiterez peut-être vérifier son état actuel par programmation. Cela peut être utile lorsque vous devez valider une saisie utilisateur ou effectuer des actions spécifiques en fonction de l'état de la case à cocher.
+Après avoir ajouté une case à cocher SDT à votre document, vous pouvez vérifier son état actuel par programmation. Cela peut être utile pour valider une saisie utilisateur ou effectuer des actions spécifiques en fonction de l'état de la case à cocher.
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
@@ -56,7 +58,7 @@ doc.save("UpdatedDocument.docx");
 
 ## Modification des contrôles de contenu
 
-Dans cette section, nous allons découvrir comment modifier les contrôles de contenu dans votre document. Nous aborderons trois types de contrôles de contenu : texte brut, liste déroulante et image.
+Dans cette section, nous verrons comment modifier les contrôles de contenu dans votre document. Nous aborderons trois types de contrôles : texte brut, liste déroulante et image.
 
 ### Modification du contrôle du contenu en texte brut
 
@@ -109,7 +111,7 @@ doc.save("ModifiedDocument.docx");
 
 ## Création d'un contrôle de contenu ComboBox
 
-Un contrôle de contenu ComboBox permet aux utilisateurs de sélectionner des options dans une liste prédéfinie. Créons-en un dans notre document.
+Un contrôle de contenu ComboBox permet aux utilisateurs de sélectionner des options parmi une liste prédéfinie. Créons-en un dans notre document.
 
 ```java
 Document doc = new Document();
@@ -122,7 +124,7 @@ doc.getFirstSection().getBody().appendChild(sdtComboBox);
 doc.save("ComboBoxDocument.docx");
 ```
 
-## Utilisation du contrôle de contenu de texte enrichi
+## Travailler avec le contrôle de contenu de texte enrichi
 
 Les contrôles de contenu de texte enrichi sont parfaits pour ajouter du texte formaté à vos documents. Créons-en un et définissons son contenu.
 
@@ -157,7 +159,7 @@ doc.save("StyledDocument.docx");
 
 ## Liaison d'un SDT à des données XML personnalisées
 
-Dans certains scénarios, vous devrez peut-être lier un SDT à des données XML personnalisées pour générer du contenu dynamique. Voyons comment y parvenir.
+Dans certains cas, vous devrez peut-être lier un SDT à des données XML personnalisées pour générer du contenu dynamique. Voyons comment procéder.
 
 ```java
 Document doc = new Document();
@@ -169,7 +171,7 @@ sdt.getXmlMapping().setMapping(xmlPart, "/root[1]/text[1]", "");
 doc.save("CustomXMLBinding.docx");
 ```
 
-## Création d'un tableau avec des sections répétitives mappées sur des données XML personnalisées
+## Création d'un tableau avec des sections répétitives mappées à des données XML personnalisées
 
 Les tableaux avec des sections répétitives peuvent être extrêmement utiles pour présenter des données structurées. Créons un tel tableau et mappons-le à des données XML personnalisées.
 
@@ -206,9 +208,9 @@ row.appendChild(authorSdt);
 doc.save("RepeatingTableDocument.docx");
 ```
 
-## Travailler avec des balises de document structurées à plusieurs sections
+## Travailler avec des balises de documents structurés à sections multiples
 
-Les balises de document structurées peuvent s'étendre sur plusieurs sections d'un document. Dans cette section, nous allons découvrir comment travailler avec des balises de document structurées à plusieurs sections.
+Les balises de document structurées peuvent s'étendre sur plusieurs sections d'un document. Dans cette section, nous allons découvrir comment utiliser des balises de document structurées multi-sections.
 
 ```java
 Document doc = new Document("MultiSectionDocument.docx");
@@ -223,17 +225,17 @@ doc.save("ModifiedMultiSectionDocument.docx");
 
 ## Conclusion
 
-Les balises de document structurées dans Aspose.Words pour Java offrent un moyen polyvalent de gérer et de formater le contenu de vos documents. Que vous ayez besoin de créer des modèles, des formulaires ou des documents dynamiques, les balises de document structurées offrent la flexibilité et le contrôle dont vous avez besoin. En suivant les exemples et les directives fournis dans cet article, vous pouvez exploiter la puissance des balises de document structurées pour améliorer vos tâches de traitement de documents.
+Les balises de documents structurés dans Aspose.Words pour Java offrent une solution polyvalente pour gérer et mettre en forme le contenu de vos documents. Que vous ayez besoin de créer des modèles, des formulaires ou des documents dynamiques, les balises de documents structurés offrent la flexibilité et le contrôle nécessaires. En suivant les exemples et les conseils fournis dans cet article, vous pourrez exploiter la puissance des balises de documents structurés pour optimiser vos tâches de traitement de documents.
 
 ## FAQ
 
 ### Quel est le but des balises de documents structurés (SDT) ?
 
-Les balises de documents structurés (SDT) servent à organiser et à formater le contenu des documents, facilitant ainsi la création de modèles, de formulaires et de documents structurés.
+Les balises de documents structurés (SDT) servent à organiser et à formater le contenu des documents, ce qui facilite la création de modèles, de formulaires et de documents structurés.
 
-### Comment puis-je vérifier l’état actuel d’un SDT Checkbox ?
+### Comment puis-je vérifier l'état actuel d'un SDT Checkbox ?
 
- Vous pouvez vérifier l'état actuel d'un SDT Checkbox à l'aide de l'`setChecked` méthode, comme démontré dans l’article.
+Vous pouvez vérifier l'état actuel d'un SDT Checkbox à l'aide de l' `setChecked` méthode, comme démontré dans l'article.
 
 ### Puis-je appliquer des styles aux contrôles de contenu ?
 
@@ -246,9 +248,14 @@ Oui, vous pouvez lier un SDT à des données XML personnalisées, permettant ain
 ### Que sont les sections répétitives dans les SDT ?
 
 Les sections répétitives dans les SDT vous permettent de créer des tables avec des données dynamiques, où les lignes peuvent être répétées en fonction des données XML mappées.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

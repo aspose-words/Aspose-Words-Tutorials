@@ -1,14 +1,16 @@
 ---
-title: Wykorzystanie formatowania Markdown w dokumentach Word
-linktitle: Wykorzystanie formatowania Markdown w dokumentach Word
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Dowiedz się, jak zintegrować formatowanie Markdown z dokumentami Word za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z przykładami kodu do dynamicznego i atrakcyjnego wizualnie tworzenia treści.
-weight: 19
-url: /pl/python-net/document-structure-and-content-manipulation/document-markdown/
+"description": "Dowiedz się, jak zintegrować formatowanie Markdown z dokumentami Word za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z przykładami kodu do dynamicznego i atrakcyjnego wizualnie tworzenia treści."
+"linktitle": "Wykorzystanie formatowania Markdown w dokumentach Word"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Wykorzystanie formatowania Markdown w dokumentach Word"
+"url": "/pl/python-net/document-structure-and-content-manipulation/document-markdown/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wykorzystanie formatowania Markdown w dokumentach Word
@@ -55,7 +57,7 @@ builder.writeln(markdown_text)
 Markdown zapewnia prosty sposób na zastosowanie stylów do tekstu. Możesz łączyć różne elementy, aby tworzyć nagłówki, listy i inne. Oto przykład:
 
 ```python
-markdown_styled_text = "# Heading 1\n\n**Bold Text**\n\n- Item 1\n- Item 2"
+markdown_styled_text = "# Nagłówek 1\n\n**Tekst pogrubiony**\n\n- Element 1\n- Element 2"
 builder.writeln(markdown_styled_text)
 ```
 
@@ -122,10 +124,15 @@ Tak, Aspose.Words obsługuje zapisywanie dokumentów w różnych formatach, taki
 
 ### Gdzie mogę uzyskać dostęp do dokumentacji Aspose.Words dla języka Python?
 
- Pełną dokumentację i referencje można znaleźć pod adresem[Aspose.Words dla API Pythona Odwołania](https://reference.aspose.com/words/python-net/).
+Pełną dokumentację i referencje można znaleźć pod adresem [Aspose.Words dla API Pythona Odwołania](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

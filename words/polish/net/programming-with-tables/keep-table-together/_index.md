@@ -1,14 +1,16 @@
 ---
-title: Trzymaj stół razem
-linktitle: Trzymaj stół razem
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak zapobiec dzieleniu tabel na strony w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem, aby zachować profesjonalne, czytelne dokumenty.
-weight: 10
-url: /pl/net/programming-with-tables/keep-table-together/
+"description": "Dowiedz się, jak zapobiec dzieleniu tabel na strony w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem, aby zachować profesjonalne, czytelne dokumenty."
+"linktitle": "Trzymaj stół razem"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Trzymaj stół razem"
+"url": "/pl/net/programming-with-tables/keep-table-together/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trzymaj stół razem
@@ -21,7 +23,7 @@ Czy kiedykolwiek byłeś sfrustrowany, gdy tabela w dokumencie Worda dzieliła s
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
-1.  Aspose.Words dla .NET — jeśli jeszcze go nie zainstalowałeś, możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET — jeśli jeszcze go nie zainstalowałeś, możesz go pobrać ze strony [Tutaj](https://releases.aspose.com/words/net/).
 2. Dokument programu Word zawierający tabelę — będziemy pracować z przykładowym dokumentem zawierającym tabelę rozciągającą się na wiele stron.
 3. Podstawowa wiedza o języku C# — w tym samouczku zakładamy, że posiadasz podstawową wiedzę na temat programowania w języku C#.
 
@@ -38,7 +40,7 @@ Podzielmy proces na łatwe, przyswajalne kroki. Zaczniemy od załadowania naszeg
 
 ## Krok 1: Załaduj dokument
 
- Aby pracować z dokumentem Word, najpierw musimy go załadować. Użyjemy`Document` klasa za to.
+Aby pracować z dokumentem Word, najpierw musimy go załadować. Użyjemy `Document` klasa za to.
 
 ```csharp
 // Ścieżka do katalogu dokumentów
@@ -57,7 +59,7 @@ Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 
 ## Krok 3: Ustaw KeepWithNext dla akapitów
 
- Aby zapobiec dzieleniu tabeli na strony, musimy ustawić`KeepWithNext` właściwość dla każdego akapitu w tabeli, z wyjątkiem ostatnich akapitów w ostatnim wierszu.
+Aby zapobiec dzieleniu tabeli na strony, musimy ustawić `KeepWithNext` właściwość dla każdego akapitu w tabeli, z wyjątkiem ostatnich akapitów w ostatnim wierszu.
 
 ```csharp
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
@@ -81,7 +83,7 @@ doc.Save(dataDir + "WorkingWithTables.KeepTableTogether.docx");
 
 ## Wniosek
 
-masz to! Za pomocą zaledwie kilku linijek kodu możesz zapobiec rozdzielaniu tabel na strony w dokumentach Word. To proste, ale skuteczne rozwiązanie zapewnia, że tabele pozostaną schludne i profesjonalne, zwiększając czytelność dokumentów. Aspose.Words dla .NET sprawia, że radzenie sobie z takimi problemami formatowania jest dziecinnie proste, pozwalając Ci skupić się na tworzeniu świetnej treści.
+I masz to! Za pomocą zaledwie kilku linijek kodu możesz zapobiec rozdzielaniu tabel na strony w dokumentach Word. To proste, ale skuteczne rozwiązanie zapewnia, że tabele pozostaną schludne i profesjonalne, zwiększając czytelność dokumentów. Aspose.Words dla .NET sprawia, że radzenie sobie z takimi problemami formatowania jest dziecinnie proste, pozwalając Ci skupić się na tworzeniu świetnej treści.
 
 ## Najczęściej zadawane pytania
 
@@ -92,16 +94,21 @@ Tak, możesz zastosować tę samą logikę do wielu tabel, przechodząc przez ka
 Jeśli tabela jest zbyt duża, aby zmieścić się na jednej stronie, nadal będzie rozciągać się na strony. Ta metoda zapewnia, że mniejsze tabele pozostaną nienaruszone bez dzielenia.
 
 ### Czy istnieje sposób, aby zautomatyzować tę czynność dla wszystkich tabel w dokumencie?  
- Tak, możesz przejść przez wszystkie tabele w dokumencie i zastosować`KeepWithNext` właściwość do każdego akapitu.
+Tak, możesz przejść przez wszystkie tabele w dokumencie i zastosować `KeepWithNext` właściwość do każdego akapitu.
 
 ### Czy potrzebuję płatnej licencji na Aspose.Words dla .NET?  
-Możesz rozpocząć bezpłatny okres próbny od[Tutaj](https://releases.aspose.com/), jednak w celu uzyskania pełnej funkcjonalności zaleca się wykupienie płatnej licencji.
+Możesz rozpocząć bezpłatny okres próbny od [Tutaj](https://releases.aspose.com/), jednak w celu uzyskania pełnej funkcjonalności zaleca się wykupienie płatnej licencji.
 
 ### Czy mogę zastosować inne formatowanie w tabeli, nie naruszając jej spójności?  
 Oczywiście! Możesz sformatować swoją tabelę według potrzeb, zapewniając jednocześnie, że pozostanie na jednej stronie.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

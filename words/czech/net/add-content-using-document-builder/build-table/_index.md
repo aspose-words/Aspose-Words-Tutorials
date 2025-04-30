@@ -1,42 +1,50 @@
 ---
-title: Vytvořte dokument Word s tabulkou pomocí Aspose.Words
-weight: 7700
-limit: 
-description: Naučte se vytvářet dokument Word s stylovou tabulkou pomocí Aspose.Words pro .NET, včetně formátování buněk a orientace textu.
-keywords: [Aspose.Words, .NET, Word document, table, document builder, cell formatting, text orientation, code example]
-url: /cs/net/add-content-using-document-builder/build-table/
+"description": "Naučte se, jak vytvořit dokument Word se stylizovanou tabulkou pomocí Aspose.Words pro .NET, včetně formátování buněk a orientace textu."
+"title": "Vytvořte dokument Word s tabulkou pomocí Aspose.Words"
+"url": "/cs/net/add-content-using-document-builder/build-table/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vytvořte dokument Word s tabulkou pomocí Aspose.Words
   
-Tento příklad ukazuje, jak vytvořit Word dokument s tabulkou pomocí knihovny Aspose.Words pro .NET. Kód iniciuje nový dokument, vytváří tabulku se dvěma řádky a formátuje buňky s různými styly a orientacemi. Naučíte se manipulovat s obsahem buňky, vyrovnávání a vytvářet strukturovaný dokument programaticky.
+Tento příklad ukazuje, jak vytvořit dokument Word s tabulkou pomocí knihovny Aspose.Words pro .NET. Kód inicializuje nový dokument, vytvoří tabulku se dvěma řádky a formátuje buňky s různými styly a orientacemi. Naučíte se manipulovat s obsahem buněk, zarovnáním a programově vytvářet strukturovaný dokument.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/build-table" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## Příkazy na instalaci:  
-1. Instalujte Aspose.Words pro .NET:
-   * Použití programu NuGet Package Manager:
-     * Otevři svůj projekt v Visual Studio.
-     * V průzkumníku řešení klikněte na projekt vpravo a vyberte "Radovat balíčky NuGet".
-     * Hledejte Aspose.Words a klikněte na "Install".
 
-   * Nebo použijte konzoli pro správu balíček:
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## Pokyny k instalaci:  
+1. Instalace Aspose.Words pro .NET:
+   - Použití Správce balíčků NuGet:
+     - Otevřete svůj projekt ve Visual Studiu.
+     - V Průzkumníku řešení klikněte pravým tlačítkem myši na projekt a vyberte možnost „Spravovat balíčky NuGet“.
+     - Vyhledejte „Aspose.Words“ a klikněte na „Instalovat“.
+
+   - Nebo použijte konzoli Správce balíčků:
      ```
      Install-Package Aspose.Words
      ```
    
 ## Viz také
-[Aspose.Word pro .NET dokumentaci](https://docs.aspose.com/words/net/)
-[Aspose.Word pro reference .NET](https://reference.aspose.com/words/net/)
+[Dokumentace k Aspose.Word pro .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word pro .NET reference](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Biçimlendirilmiş Tablo
-linktitle: Biçimlendirilmiş Tablo
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerinde tabloların nasıl oluşturulacağını ve biçimlendirileceğini öğrenin.
-weight: 10
-url: /tr/net/programming-with-tables/formatted-table/
+"description": "Bu ayrıntılı adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerinde tabloların nasıl oluşturulacağını ve biçimlendirileceğini öğrenin."
+"linktitle": "Biçimlendirilmiş Tablo"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Biçimlendirilmiş Tablo"
+"url": "/tr/net/programming-with-tables/formatted-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Biçimlendirilmiş Tablo
@@ -21,7 +23,7 @@ Word belgelerinde tabloları programatik olarak oluşturmak ve biçimlendirmek z
 
 Koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1. Aspose.Words for .NET Kütüphanesi: Buradan indirin[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Buradan indirin [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio benzeri bir IDE.
 3. .NET Framework: Bilgisayarınızda .NET Framework'ün yüklü olduğundan emin olun.
 
@@ -44,7 +46,7 @@ using Aspose.Words.Tables;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` belgeyi kaydetmek istediğiniz gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` belgeyi kaydetmek istediğiniz gerçek yol ile.
 
 ## Adım 2: Belgeyi ve Belge Oluşturucuyu Başlatın
 
@@ -55,11 +57,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- The`DocumentBuilder` belge oluşturma sürecini basitleştiren bir yardımcı sınıftır.
+The `DocumentBuilder` belge oluşturma sürecini basitleştiren bir yardımcı sınıftır.
 
 ## Adım 3: Tabloyu Başlatın
 
- Daha sonra, tabloyu oluşturmaya başlayın`StartTable` yöntem.
+Daha sonra, tabloyu oluşturmaya başlayın `StartTable` yöntem.
 
 ```csharp
 Table table = builder.StartTable();
@@ -163,7 +165,7 @@ Bu, biçimlendirilmiş tabloyu içeren bir Word belgesi oluşturacak ve kaydedec
 
 ## Çözüm
 
-İşte karşınızda! Bu adımları izleyerek, Aspose.Words for .NET kullanarak bir Word belgesinde iyi biçimlendirilmiş bir tablo oluşturabilirsiniz. Bu güçlü kütüphane, Word belgelerini programatik olarak yönetmenizi kolaylaştırarak size zaman ve emek kazandırır.
+İşte karşınızda! Bu adımları izleyerek, Aspose.Words for .NET kullanarak Word belgesinde iyi biçimlendirilmiş bir tablo oluşturabilirsiniz. Bu güçlü kütüphane, Word belgelerini programatik olarak yönetmenizi kolaylaştırarak size zaman ve emek kazandırır.
 
 ## SSS
 
@@ -174,16 +176,21 @@ Aspose.Words for .NET, Word belgelerini programlı olarak oluşturmak, düzenlem
 Evet, farklı satırlara veya hücrelere renkler de dahil olmak üzere farklı biçimlendirmeler uygulayabilirsiniz.
 
 ### Aspose.Words for .NET ücretsiz mi?
- Aspose.Words for .NET ücretli bir kütüphanedir, ancak bir tane alabilirsiniz[ücretsiz deneme](https://releases.aspose.com/).
+Aspose.Words for .NET ücretli bir kütüphanedir, ancak bir tane alabilirsiniz [ücretsiz deneme](https://releases.aspose.com/).
 
 ### Aspose.Words for .NET desteğini nasıl alabilirim?
- Destek alabilirsiniz[Aspose topluluk forumları](https://forum.aspose.com/c/words/8).
+Destek alabilirsiniz [Aspose topluluk forumları](https://forum.aspose.com/c/words/8).
 
 ### Aspose.Words for .NET ile başka türde belgeler oluşturabilir miyim?
 Evet, Aspose.Words for .NET, PDF, HTML ve TXT dahil olmak üzere çeşitli belge biçimlerini destekler.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

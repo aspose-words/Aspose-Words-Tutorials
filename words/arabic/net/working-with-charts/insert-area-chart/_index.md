@@ -1,53 +1,61 @@
 ---
-title: إدراج الرسم البياني للمنطقة في ورد الوثيقة
-weight: 7700
-limit: 
-description: تعلم كيفية إدراج مخطط منطقة في مستند Word باستخدام Aspose.Words ل .NET. اتبع التعليمات خطوة بخطوة مع أمثلة رمز والصور.
-keywords: [Aspose.Words for .NET, insert area chart, Word document chart, area chart example, C# Word chart tutorial, Aspose.Words charting, Word chart example]
-url: /ar/net/working-with-charts/insert-area-chart/
+"description": "تعرّف على كيفية إدراج مخطط مساحي في مستند Word باستخدام Aspose.Words لـ .NET. اتبع التعليمات خطوة بخطوة مع أمثلة برمجية ورسوم توضيحية."
+"title": "إدراج مخطط مساحي في مستند Word | Aspose.Words لـ .NET"
+"url": "/ar/net/working-with-charts/insert-area-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إدراج مخطط المساحة في مستند Word 
+# إدراج مخطط المنطقة في مستند Word 
 
-يسهل Aspose.Words لـ .NET إضافة مخططات ديناميكية وجميلة بصرياً إلى مستندات Word. يوضح هذا التعليم كيفية إدخال مخطط منطقة في مستند Word برنامجيًا. يتضمن الدليل الخطوة بخطوة المقدمة إدخال مخطط منطقة، وإضافة سلسلة بيانات مع نقاط بيانات مخصصة، وتخزين المستند النهائي. مثالية للمطورين الذين يرغبون في تعزيز سير عمل تلقيح المستندات مع قدرات الرسومات.
+يُسهّل Aspose.Words for .NET إضافة مخططات ديناميكية وجذابة بصريًا إلى مستندات Word. يوضح هذا البرنامج التعليمي كيفية إدراج مخطط مساحي في مستند Word برمجيًا. يتضمن الدليل المُقدم خطوة بخطوة تهيئة المستند، وإدراج مخطط مساحي، وإضافة سلسلة بيانات بنقاط بيانات مخصصة، وحفظ المستند النهائي. مثالي للمطورين الذين يتطلعون إلى تحسين سير عمل أتمتة المستندات لديهم من خلال إمكانيات إنشاء المخططات.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/bounds-of-axis" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت  
 
-لمتابعة هذا المثال، تأكد من أن لديك Aspose.Words ل .NET مثبت. إليك كيفية البدء:  
+لمتابعة هذا المثال، تأكد من تثبيت Aspose.Words لـ .NET. إليك كيفية البدء:  
 
-1. قم بتنزيل Aspose.Words لـ .NET:  
-   زيارة[صفحة تحميل Aspose.Words](https://releases.aspose.com/words/net/)و تنزيل أحدث النسخة  
+1. تنزيل Aspose.Words لـ .NET:  
+   قم بزيارة [صفحة تحميل Aspose.Words](https://releases.aspose.com/words/net/) وتنزيل الإصدار الأحدث.  
 
-2. قم بتثبيتها عبر مدير الحزمات NuGet:  
-   افتح مشروعك في Visual Studio و اطلق القاعدة التالية في جهاز تحكم الحزم:  
+2. التثبيت عبر مدير حزمة NuGet:  
+   افتح مشروعك في Visual Studio وقم بتشغيل الأمر التالي في وحدة التحكم Package Manager:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-3. تطبيق رخصة (اختياري):  
-   للحصول على وظائف كاملة دون قيود تقييم، اطلب رخصة.[هنا](https://purchase.aspose.com/buy)أو طلب[رخصة مؤقتة مجانية](https://purchase.aspose.com/temporary-license). . .  
+3. تطبيق الترخيص (اختياري):  
+   للحصول على كامل الوظائف دون قيود التقييم، استخدم ترخيصًا. اشترِ ترخيصًا. [هنا](https://purchase.aspose.com/buy) أو اطلب [رخصة مؤقتة مجانية](https://purchase.aspose.com/temporary-license).  
 
-4. إضافة إشارات مساحة الأسماء:  
-   تأكد من تضمين المساحات التالية للأسم في مشروعك:  
+4. إضافة مراجع المساحة الاسمية:  
+   تأكد من تضمين مساحات الأسماء التالية في مشروعك:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    using Aspose.Words.Drawing.Charts;
    ```  
 
-## انظر أيضاً
-[Aspose.Word للمستندات .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word للمراجع .NET](https://reference.aspose.com/words/net/)
+## انظر أيضا
+[توثيق Aspose.Word لـ .NET](https://docs.aspose.com/words/net/)
+[مراجع Aspose.Word لـ .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

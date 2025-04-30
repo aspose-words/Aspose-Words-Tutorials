@@ -1,42 +1,50 @@
 ---
-title: Készítsen egy formázott táblázatot a Word-ben az Aspose.Words segítségével a .NET-hez
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan készítsen egy Word dokumentumot egy formázott táblázzal a .NET-hez Aspose.Words segítségével.
-keywords: [Aspose.Words, .NET, Word document, formatted table, DocumentBuilder, table formatting, C# example]
-url: /hu/net/working-with-table-styles-and-formatting/set-table-row-formatting/
+"description": "Tanuld meg, hogyan hozhatsz létre formázott táblázattal rendelkező Word-dokumentumot az Aspose.Words for .NET segítségével ezzel a lépésről lépésre bemutatott példával."
+"title": "Formázott táblázat létrehozása Wordben az Aspose.Words for .NET segítségével"
+"url": "/hu/net/working-with-table-styles-and-formatting/set-table-row-formatting/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Készítsen egy formázott táblázatot a Word-ban Aspose.Words segítségével
+# Formázott táblázat létrehozása Wordben az Aspose.Words segítségével
 
-Ez a példa bemutatja, hogyan lehet létrehozni egy Word dokumentumot, amely egy formázott táblázatot tartalmazza a .NET-hez Aspose.Words használatával. Megtanulhatja az új dokumentum kezdeményezését, egy táblázat létrehozását egy meghatározott sor formázásával és betöltésével, és az dokumentumot egy meghatározott útvonalra mentheti. Ez az útmutató ideális a fejlesztők számára, akik a dokumentumgyártási képességüket a Aspose.Words segítségével szeretnék növelni.
+Ez a példa bemutatja, hogyan hozhat létre formázott táblázatot tartalmazó Word-dokumentumot az Aspose.Words for .NET használatával. Megtanulod, hogyan inicializálj egy új dokumentumot, hogyan állíts be egy táblázatot meghatározott sorformázással és kitöltésekkel, és hogyan mentsd el a dokumentumot egy megadott elérési útra. Ez az útmutató ideális azoknak a fejlesztőknek, akik az Aspose.Words segítségével szeretnék bővíteni dokumentumgenerálási képességeiket.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/set-table-row-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítások
-1. A .NET-hez telepítse az Aspose.Words programot. A Aspose.Words programot a NuGet Package Manager segítségével telepítse. A Package Manager Console-ban a következő parancsot futtathatja:
+## Telepítési utasítások
+1. Aspose.Words telepítése .NET-hez: Az Aspose.Words telepítéséhez használja a NuGet csomagkezelőt. A következő parancsot futtathatja a csomagkezelő konzolján:
    ```
    Install-Package Aspose.Words
    ```
 
-2. Create a New Project: Open Visual Studio and create a new C# project (Console Application or any type you prefer).
+2. Új projekt létrehozása: Nyissa meg a Visual Studio programot, és hozzon létre egy új C# projektet (konzolalkalmazást vagy bármilyen más típust).
 
-3. Adj hivatkozást: Győződjön meg arról, hogy a projektben a Aspose.Words könyvtárra hivatkoznak.
+3. Hivatkozás hozzáadása: Győződjön meg arról, hogy az Aspose.Words könyvtárra hivatkozik a projektben.
 
-4. A licenc alkalmazása (Felhetős):  
-   Hogy a teljes verziót használhassuk,[engedélyt kell alkalmazni](https://purchase.aspose.com/temporary-license/)vagy használjon egy [ingyenes próba](https://releases.aspose.com/words/net/)\- Nem.
+4. Licenc igénylése (opcionális):  
+   A teljes verzió használatához [licencet igényelni](https://purchase.aspose.com/temporary-license/) vagy használjon egy [ingyenes próba](https://releases.aspose.com/words/net/).
    
-## Lásd:
-[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
-[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
+## Lásd még
+[Aspose.Word .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word .NET-hez kapcsolódó hivatkozások](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

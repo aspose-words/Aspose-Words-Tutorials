@@ -1,17 +1,19 @@
 ---
-title: การส่งออกส่วนหัวส่วนท้ายของเอกสาร Word บุ๊กมาร์กไปยังเอกสาร PDF
-linktitle: การส่งออกส่วนหัวส่วนท้ายของเอกสาร Word บุ๊กมาร์กไปยังเอกสาร PDF
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการส่งออกบุ๊กมาร์กส่วนหัวและส่วนท้ายจากเอกสาร Word ไปยัง PDF โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนของเรา
-weight: 10
-url: /th/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/
+"description": "เรียนรู้วิธีการส่งออกบุ๊กมาร์กส่วนหัวและส่วนท้ายจากเอกสาร Word ไปยัง PDF โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนของเรา"
+"linktitle": "การส่งออกบุ๊กมาร์กส่วนหัวส่วนท้ายของเอกสาร Word ไปยังเอกสาร PDF"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การส่งออกบุ๊กมาร์กส่วนหัวส่วนท้ายของเอกสาร Word ไปยังเอกสาร PDF"
+"url": "/th/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การส่งออกส่วนหัวส่วนท้ายของเอกสาร Word บุ๊กมาร์กไปยังเอกสาร PDF
+# การส่งออกบุ๊กมาร์กส่วนหัวส่วนท้ายของเอกสาร Word ไปยังเอกสาร PDF
 
 ## การแนะนำ
 
@@ -21,7 +23,7 @@ url: /th/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/
 
 ก่อนที่เราจะเจาะลึก ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-- Aspose.Words สำหรับ .NET: คุณต้องติดตั้ง Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: คุณต้องติดตั้ง Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: ตั้งค่าสภาพแวดล้อมการพัฒนาของคุณ คุณสามารถใช้ Visual Studio หรือ IDE อื่น ๆ ที่เข้ากันได้กับ .NET
 - ความรู้พื้นฐานเกี่ยวกับ C#: ต้องมีความคุ้นเคยกับการเขียนโปรแกรม C# เพื่อติดตามตัวอย่างโค้ด
 
@@ -50,7 +52,7 @@ Document doc = new Document(dataDir + "Bookmarks in headers and footers.docx");
 
 ## ขั้นตอนที่ 2: กำหนดค่าตัวเลือกการบันทึก PDF
 
-จากนั้น คุณต้องกำหนดค่าตัวเลือกการบันทึก PDF เพื่อให้แน่ใจว่าบุ๊กมาร์กในส่วนหัวและส่วนท้ายได้รับการส่งออกอย่างถูกต้อง
+จากนั้นคุณต้องกำหนดค่าตัวเลือกการบันทึก PDF เพื่อให้แน่ใจว่าบุ๊กมาร์กในส่วนหัวและส่วนท้ายได้รับการส่งออกอย่างถูกต้อง
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -58,7 +60,7 @@ saveOptions.OutlineOptions.DefaultBookmarksOutlineLevel = 1;
 saveOptions.HeaderFooterBookmarksExportMode = HeaderFooterBookmarksExportMode.First;
 ```
 
- ที่นี่เราจะตั้งค่า`PdfSaveOptions` . การ`DefaultBookmarksOutlineLevel` คุณสมบัติจะกำหนดระดับเค้าร่างสำหรับบุ๊กมาร์กและ`HeaderFooterBookmarksExportMode` คุณสมบัตินี้จะทำให้แน่ใจว่ามีการส่งออกเฉพาะการเกิดขึ้นครั้งแรกของบุ๊กมาร์กในส่วนหัวและส่วนท้ายเท่านั้น
+ที่นี่เราจะตั้งค่า `PdfSaveOptions`. การ `DefaultBookmarksOutlineLevel` คุณสมบัติจะกำหนดระดับเค้าร่างสำหรับบุ๊กมาร์กและ `HeaderFooterBookmarksExportMode` คุณสมบัตินี้จะทำให้แน่ใจว่ามีการส่งออกเฉพาะการเกิดขึ้นครั้งแรกของบุ๊กมาร์กในส่วนหัวและส่วนท้ายเท่านั้น
 
 ## ขั้นตอนที่ 3: บันทึกเอกสารเป็น PDF
 
@@ -78,15 +80,15 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.ExportHeaderFooterBookmarks.pdf", 
 
 ### ฉันสามารถส่งออกบุ๊กมาร์กทั้งหมดจากเอกสาร Word ไปยัง PDF ได้หรือไม่
 
- ใช่ คุณสามารถทำได้ ใน`PdfSaveOptions`คุณสามารถปรับการตั้งค่าเพื่อรวมบุ๊กมาร์กทั้งหมดหากจำเป็น
+ใช่ คุณสามารถทำได้ ใน `PdfSaveOptions`คุณสามารถปรับการตั้งค่าเพื่อรวมบุ๊กมาร์กทั้งหมดหากจำเป็น
 
 ### หากฉันต้องการส่งออกบุ๊กมาร์กจากเนื้อหาของเอกสารด้วยจะทำอย่างไร
 
- คุณสามารถกำหนดค่าได้`OutlineOptions` ใน`PdfSaveOptions` เพื่อรวมบุ๊กมาร์กจากเนื้อหาของเอกสาร
+คุณสามารถกำหนดค่าได้ `OutlในeOptions` in `PdfSaveOptions` เพื่อรวมบุ๊กมาร์กจากเนื้อหาของเอกสาร
 
-### สามารถปรับแต่งระดับบุ๊กมาร์กใน PDF ได้หรือไม่
+### เป็นไปได้ที่จะปรับแต่งระดับบุ๊กมาร์กใน PDF ได้หรือไม่
 
- แน่นอน! คุณสามารถปรับแต่งได้`DefaultBookmarksOutlineLevel` คุณสมบัติในการกำหนดระดับเค้าร่างที่แตกต่างกันสำหรับบุ๊กมาร์กของคุณ
+แน่นอน! คุณสามารถปรับแต่งได้ `DefaultBookmarksOutlineLevel` คุณสมบัติในการกำหนดระดับเค้าร่างที่แตกต่างกันสำหรับบุ๊กมาร์กของคุณ
 
 ### ฉันจะจัดการเอกสารที่ไม่มีบุ๊กมาร์กได้อย่างไร
 
@@ -95,9 +97,14 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.ExportHeaderFooterBookmarks.pdf", 
 ### ฉันสามารถใช้วิธีนี้กับเอกสารประเภทอื่นเช่น DOCX หรือ RTF ได้หรือไม่
 
 ใช่ Aspose.Words สำหรับ .NET รองรับเอกสารประเภทต่างๆ รวมถึง DOCX, RTF และอื่นๆ
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

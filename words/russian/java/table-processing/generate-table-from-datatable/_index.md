@@ -1,14 +1,16 @@
 ---
-title: Создать таблицу из DataTable
-linktitle: Создать таблицу из DataTable
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как создать таблицу из DataTable с помощью Aspose.Words для Java. Создавайте профессиональные документы Word с форматированными таблицами без усилий.
-weight: 11
-url: /ru/java/table-processing/generate-table-from-datatable/
+"description": "Узнайте, как создать таблицу из DataTable с помощью Aspose.Words для Java. Создавайте профессиональные документы Word с форматированными таблицами без усилий."
+"linktitle": "Создать таблицу из DataTable"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Создать таблицу из DataTable"
+"url": "/ru/java/table-processing/generate-table-from-datatable/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создать таблицу из DataTable
@@ -21,9 +23,9 @@ url: /ru/java/table-processing/generate-table-from-datatable/
 
 Прежде чем погрузиться в код, давайте убедимся, что у вас есть все необходимое для начала работы:
 
-1.  Java Development Kit (JDK): Убедитесь, что на вашем компьютере установлен JDK. Вы можете загрузить его с[Веб-сайт Оракула](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+1. Java Development Kit (JDK): Убедитесь, что на вашем компьютере установлен JDK. Вы можете загрузить его с [Веб-сайт Оракула](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
    
-2.  Aspose.Words для Java: Вам понадобится библиотека Aspose.Words. Вы можете загрузить последнюю версию с[Страница релизов Aspose](https://releases.aspose.com/words/java/).
+2. Aspose.Words для Java: Вам понадобится библиотека Aspose.Words. Вы можете загрузить последнюю версию с [Страница релизов Aspose](https://releases.aspose.com/words/java/).
 
 3. IDE: Интегрированная среда разработки (IDE), такая как IntelliJ IDEA или Eclipse, упростит кодирование.
 
@@ -39,17 +41,17 @@ url: /ru/java/table-processing/generate-table-from-datatable/
 Document doc = new Document();
 ```
 
- Здесь мы создаем новый экземпляр`Document` объект. Это будет наш рабочий документ, в котором мы построим нашу таблицу.
+Здесь мы создаем новый экземпляр `Document` объект. Это будет наш рабочий документ, в котором мы построим нашу таблицу.
 
 ## Шаг 2: Инициализация DocumentBuilder
 
- Далее мы будем использовать`DocumentBuilder` класс, который позволяет нам более легко манипулировать документом.
+Далее мы будем использовать `DocumentBuilder` класс, который позволяет нам более легко манипулировать документом.
 
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- The`DocumentBuilder` объект предоставляет методы для вставки таблиц, текста и других элементов в документ.
+The `DocumentBuilder` Объект предоставляет методы для вставки таблиц, текста и других элементов в документ.
 
 ## Шаг 3: Установите ориентацию страницы
 
@@ -63,7 +65,7 @@ doc.getFirstSection().getPageSetup().setOrientation(Orientation.LANDSCAPE);
 
 ## Шаг 4: Загрузка данных из XML
 
- Теперь нам нужно загрузить наши данные из XML-файла в`DataTable`. Вот откуда берутся наши данные.
+Теперь нам нужно загрузить наши данные из XML-файла в `DataTable`. Вот откуда берутся наши данные.
 
 ```java
 DataSet ds = new DataSet();
@@ -71,7 +73,7 @@ ds.readXml(getMyDir() + "List of people.xml");
 DataTable dataTable = ds.getTables().get(0);
 ```
 
- Здесь мы считываем XML-файл и извлекаем первую таблицу из набора данных. Это`DataTable` будет содержать данные, которые мы хотим отобразить в нашем документе.
+Здесь мы считываем XML-файл и извлекаем первую таблицу из набора данных. Это `DataTable` будет содержать данные, которые мы хотим отобразить в нашем документе.
 
 ## Шаг 5: Импорт таблицы из DataTable
 
@@ -81,7 +83,7 @@ DataTable dataTable = ds.getTables().get(0);
 Table table = importTableFromDataTable(builder, dataTable, true);
 ```
 
- Мы называем метод`importTableFromDataTable` , пройдя`DocumentBuilder` , наш`DataTable`и логическое значение, указывающее, следует ли включать заголовки столбцов.
+Мы называем метод `importTableFromDataTable`, пройдя `DocumentBuilder`, наш `DataTable`и логическое значение, указывающее, следует ли включать заголовки столбцов.
 
 ## Шаг 6: Оформите таблицу
 
@@ -116,7 +118,7 @@ doc.save(getArtifactsDir() + "WorkingWithTables.BuildTableFromDataTable.docx");
 
 ## Метод importTableFromDataTable
 
- Давайте подробнее рассмотрим`importTableFromDataTable` метод. Этот метод отвечает за создание структуры таблицы и заполнение ее данными.
+Давайте подробнее рассмотрим `importTableFromDataTable` метод. Этот метод отвечает за создание структуры таблицы и заполнение ее данными.
 
 ### Шаг 1: Начните таблицу
 
@@ -130,7 +132,7 @@ Table table = builder.startTable();
 
 ### Шаг 2: Добавьте заголовки столбцов
 
- Если мы хотим включить заголовки столбцов, мы проверяем`importColumnHeadings` флаг.
+Если мы хотим включить заголовки столбцов, мы проверяем `importColumnHeadings` флаг.
 
 ```java
 if (importColumnHeadings) {
@@ -156,11 +158,11 @@ if (importColumnHeadings) {
 }
 ```
 
- Этот блок кода форматирует строку заголовка и вставляет имена столбцов из`DataTable`.
+Этот блок кода форматирует строку заголовка и вставляет имена столбцов из `DataTable`.
 
 ### Шаг 3: Заполнение таблицы данными
 
- Теперь мы пройдемся по каждой строке`DataTable` для вставки данных в таблицу.
+Теперь мы пройдемся по каждой строке `DataTable` для вставки данных в таблицу.
 
 ```java
 for (DataRow dataRow : (Iterable<DataRow>) dataTable.getRows()) {
@@ -191,7 +193,7 @@ for (DataRow dataRow : (Iterable<DataRow>) dataTable.getRows()) {
 builder.endTable();
 ```
 
- Эта линия отмечает конец нашей таблицы, позволяя`DocumentBuilder` чтобы знать, что мы закончили этот раздел.
+Эта линия отмечает конец нашей таблицы, позволяя `DocumentBuilder` чтобы знать, что мы закончили этот раздел.
 
 ## Заключение
 
@@ -203,7 +205,7 @@ builder.endTable();
 Aspose.Words для Java — мощная библиотека для программного создания, обработки и преобразования документов Word.
 
 ### Могу ли я использовать Aspose.Words бесплатно?
- Да, Aspose предлагает бесплатную пробную версию. Вы можете загрузить ее с[здесь](https://releases.aspose.com/).
+Да, Aspose предлагает бесплатную пробную версию. Вы можете загрузить ее с [здесь](https://releases.aspose.com/).
 
 ### Как стилизовать таблицы в Aspose.Words?
 Вы можете применять стили, используя предопределенные идентификаторы стилей и параметры, предоставляемые библиотекой.
@@ -212,10 +214,15 @@ Aspose.Words для Java — мощная библиотека для прогр
 Вы можете вставлять различные типы данных, включая текст, числа и даты, которые можно соответствующим образом отформатировать.
 
 ### Где я могу получить поддержку по Aspose.Words?
- Вы можете найти поддержку и задать вопросы на[Форум Aspose](https://forum.aspose.com/c/words/8/).
+Вы можете найти поддержку и задать вопросы на [Форум Aspose](https://forum.aspose.com/c/words/8/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

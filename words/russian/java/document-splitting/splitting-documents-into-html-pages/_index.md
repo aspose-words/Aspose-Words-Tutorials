@@ -1,14 +1,16 @@
 ---
-title: Разделение документов на HTML-страницы
-linktitle: Разделение документов на HTML-страницы
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как разделить документы Word на HTML-страницы с помощью Aspose.Words для Java. Наше пошаговое руководство с исходным кодом делает процесс простым и эффективным. Начните конвертировать свои документы сегодня!
-weight: 11
-url: /ru/java/document-splitting/splitting-documents-into-html-pages/
+"description": "Узнайте, как разделить документы Word на HTML-страницы с помощью Aspose.Words для Java. Наше пошаговое руководство с исходным кодом делает процесс простым и эффективным. Начните конвертировать свои документы сегодня!"
+"linktitle": "Разделение документов на HTML-страницы"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Разделение документов на HTML-страницы"
+"url": "/ru/java/document-splitting/splitting-documents-into-html-pages/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Разделение документов на HTML-страницы
@@ -21,7 +23,7 @@ url: /ru/java/document-splitting/splitting-documents-into-html-pages/
 Прежде чем углубляться в код, убедитесь, что выполнены следующие предварительные условия:
 
 - В вашей системе установлен Java Development Kit (JDK).
--  Библиотека Aspose.Words for Java. Вы можете скачать ее здесь[здесь](https://releases.aspose.com/words/java/).
+- Библиотека Aspose.Words for Java. Вы можете скачать ее здесь [здесь](https://releases.aspose.com/words/java/).
 
 
 ## Введение
@@ -40,7 +42,7 @@ url: /ru/java/document-splitting/splitting-documents-into-html-pages/
 Document doc = new Document("your-document.docx");
 ```
 
- Заменять`"your-document.docx"` с путем к вашему документу Word.
+Заменять `"your-document.docx"` с путем к вашему документу Word.
 
 ## Разделение документа
 
@@ -53,7 +55,7 @@ splitOptions.setDocumentSplitCriteria(DocumentSplitCriteria.PAGE_BREAK);
 List<Document> pages = DocumentSplitter.split(doc, splitOptions);
 ```
 
- Этот код разделяет документ на основе разрывов страниц и сохраняет каждую страницу в`pages` список.
+Этот код разделяет документ на основе разрывов страниц и сохраняет каждую страницу в `pages` список.
 
 ## Сохранение как HTML
 
@@ -77,11 +79,11 @@ for (int i = 0; i < pages.size(); i++) {
 
 ### Как установить Aspose.Words для Java?
 
- Чтобы установить Aspose.Words для Java, загрузите библиотеку с сайта[здесь](https://releases.aspose.com/words/java/) и включите JAR-файлы в classpath вашего проекта Java.
+Чтобы установить Aspose.Words для Java, загрузите библиотеку с сайта [здесь](https://releases.aspose.com/words/java/) и включите JAR-файлы в classpath вашего проекта Java.
 
 ### Могу ли я настроить критерии разделения?
 
-Да, вы можете настроить критерии разделения в соответствии с вашими потребностями. Aspose.Words предлагает различные варианты, включая разрывы страниц, заголовки и многое другое.
+Да, вы можете настроить критерии разбиения в соответствии с вашими потребностями. Aspose.Words предлагает различные варианты, включая разрывы страниц, заголовки и многое другое.
 
 ### Подходит ли Aspose.Words для больших документов?
 
@@ -93,13 +95,17 @@ for (int i = 0; i < pages.size(); i++) {
 
 ### Где я могу найти больше документации и примеров?
 
- Подробную документацию и примеры кода можно найти на странице документации Aspose.Words for Java.[здесь](https://reference.aspose.com/words/java/).
+Подробную документацию и примеры кода можно найти на странице документации Aspose.Words for Java. [здесь](https://reference.aspose.com/words/java/).
 
 
 Теперь, когда у вас есть четкое понимание того, как разбить документы Word на HTML-страницы с помощью Aspose.Words для Java, вы можете начать внедрять эту функцию в свои проекты. Удачного кодирования!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

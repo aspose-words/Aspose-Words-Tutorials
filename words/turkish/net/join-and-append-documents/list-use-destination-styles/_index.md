@@ -1,14 +1,16 @@
 ---
-title: Liste Kullanım Hedef Stilleri
-linktitle: Liste Kullanım Hedef Stilleri
-second_title: Aspose.Words Belge İşleme API'si
-description: Liste biçimlendirmesini kaybetmeden Aspose.Words for .NET kullanarak Word belgelerini nasıl birleştireceğinizi öğrenin. Belge stillerinizi bozulmadan korumak için adım adım kılavuz.
-weight: 10
-url: /tr/net/join-and-append-documents/list-use-destination-styles/
+"description": "Liste biçimlendirmesini kaybetmeden Aspose.Words for .NET kullanarak Word belgelerini nasıl birleştireceğinizi öğrenin. Belge stillerinizi bozulmadan korumak için adım adım kılavuz."
+"linktitle": "Liste Kullanım Hedef Stilleri"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Liste Kullanım Hedef Stilleri"
+"url": "/tr/net/join-and-append-documents/list-use-destination-styles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Liste Kullanım Hedef Stilleri
@@ -21,11 +23,11 @@ Word belgelerini birleştirmeyi denediniz ve biçimlendirmeyle uğraştınız m�
 
 Sihire dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Henüz yapmadıysanız indirin[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Henüz yapmadıysanız indirin [Burada](https://releases.aspose.com/words/net/).
 2. Visual Studio: Güncel herhangi bir sürüm işinizi görecektir.
 3. C# hakkında temel bir anlayış: Sihirbaz olmanıza gerek yok, ancak biraz aşinalık faydalı olacaktır.
 
- Projenizde Aspose.Words'ün kurulu ve ayarlanmış olduğundan emin olun. Bunu nasıl yapacağınızdan emin değilseniz,[belgeleme](https://reference.aspose.com/words/net/) başlamak için harika bir yer.
+Projenizde Aspose.Words'ün kurulu ve ayarlanmış olduğundan emin olun. Bunu nasıl yapacağınızdan emin değilseniz, [belgeleme](https://reference.aspose.com/words/net/) başlamak için harika bir yer.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -47,7 +49,7 @@ Her proje dosyalarınızı organize etmekle başlar. Kodumuzu belgelerinizin sak
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` belgelerinizin saklandığı gerçek yol ile. Kolay, değil mi?
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` belgelerinizin saklandığı gerçek yol ile. Kolay, değil mi?
 
 ## Adım 2: Kaynak ve Hedef Belgelerinizi Yükleyin
 
@@ -58,7 +60,7 @@ Document srcDoc = new Document(dataDir + "Document source with list.docx");
 Document dstDoc = new Document(dataDir + "Document destination with list.docx");
 ```
 
- Burada,`srcDoc` kaynak belgenizdir (kopyalamak istediğiniz listelerin bulunduğu belge) ve`dstDoc` hedef belgenizdir (listeleri yapıştırmak istediğiniz yer).
+Burada, `srcDoc` kaynak belgenizdir (kopyalamak istediğiniz listelerin bulunduğu belge) ve `dstDoc` hedef belgenizdir (listeleri yapıştırmak istediğiniz yer).
 
 ## Adım 3: İçe Aktarma Seçeneklerini Yapılandırın
 
@@ -88,20 +90,25 @@ Listeleri bozmadan iki belgeyi başarıyla birleştirdiniz.
 Aspose.Words for .NET, Word belgeleriyle programatik olarak çalışmak için güçlü bir kütüphanedir. Çeşitli formatlarda belgeler oluşturmanıza, değiştirmenize ve dönüştürmenize olanak tanır.
 
 ### Aspose.Words for .NET'i nasıl yüklerim?
- Bunu şuradan indirebilirsiniz:[web sitesi](https://releases.aspose.com/words/net/) ve kurulum talimatlarını izleyin[belgeleme](https://reference.aspose.com/words/net/).
+Bunu şuradan indirebilirsiniz: [web sitesi](https://releases.aspose.com/words/net/) ve kurulum talimatlarını izleyin [belgeleme](https://reference.aspose.com/words/net/).
 
 ### Aspose.Words'ü ücretsiz kullanabilir miyim?
- Aspose.Words şunları sunar:[ücretsiz deneme](https://releases.aspose.com/) sınırlı özelliklerle. Tam erişim için bir lisans satın almanız gerekir[Burada](https://purchase.aspose.com/buy).
+Aspose.Words şunları sunar: [ücretsiz deneme](https://releases.aspose.com/) sınırlı özelliklerle. Tam erişim için bir lisans satın almanız gerekir [Burada](https://purchase.aspose.com/buy).
 
 ### ImportFormatOptions Nedir?
- ImportFormatOptions, bir belgeden diğerine içerik aktarırken biçimlendirmenin nasıl işleneceğini belirtmenize olanak tanır. Örneğin,`KeepSourceNumbering` kaynak belgedeki liste numaralandırmasının korunmasını sağlar.
+ImportFormatOptions, bir belgeden diğerine içerik aktarırken biçimlendirmenin nasıl işleneceğini belirtmenize olanak tanır. Örneğin, `KeepSourceNumbering` kaynak belgedeki liste numaralandırmasının korunmasını sağlar.
 
 ### Aspose.Words için desteği nereden alabilirim?
- Destek alabilirsiniz[Aspose.Words forumu](https://forum.aspose.com/c/words/8)Sorularınızı sorabileceğiniz ve topluluktan ve Aspose geliştiricilerinden yardım alabileceğiniz bir yer.
+Destek alabilirsiniz [Aspose.Words forumu](https://forum.aspose.com/c/words/8)Sorularınızı sorabileceğiniz ve topluluktan ve Aspose geliştiricilerinden yardım alabileceğiniz bir yer.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,127 +1,134 @@
 ---
-title: Získejte vlastnosti motivu dokumentu v aplikaci Word
-linktitle: Získejte vlastnosti motivu
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Zjistěte, jak získat přístup a spravovat vlastnosti motivu dokumentu ve Wordu pomocí Aspose.Words for .NET. Naučte se získávat písma a barvy s naším průvodcem.
-weight: 10
-url: /cs/net/programming-with-styles-and-themes/get-theme-properties/
+"description": "Zjistěte, jak přistupovat k vlastnostem motivu dokumentu ve Wordu a jak je spravovat pomocí Aspose.Words pro .NET. Naučte se načítat písma a barvy s naším průvodcem."
+"linktitle": "Získat vlastnosti šablony"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Získání vlastností motivu dokumentu ve Wordu"
+"url": "/cs/net/programming-with-styles-and-themes/get-theme-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Získejte vlastnosti motivu dokumentu v aplikaci Word
+# Získání vlastností motivu dokumentu ve Wordu
 
 ## Zavedení
 
-Pokud jde o práci s dokumenty aplikace Word, schopnost manipulovat a získávat vlastnosti motivu může změnit hru. Ať už navrhujete sestavu, vytváříte návrh nebo jen upravujete estetiku dokumentu, pochopení toho, jak získat vlastnosti motivu, může výrazně zlepšit váš pracovní postup. V tomto tutoriálu se ponoříme do toho, jak můžete získat přístup k vlastnostem motivu a pracovat s nimi v dokumentu aplikace Word pomocí Aspose.Words for .NET.
+Pokud jde o práci s dokumenty Wordu, může být schopnost manipulovat s vlastnostmi motivu a načítat je zásadní. Ať už navrhujete zprávu, vytváříte návrh nebo jen ladíte estetiku dokumentu, pochopení toho, jak získat vlastnosti motivu, může výrazně vylepšit váš pracovní postup. V tomto tutoriálu se ponoříme do toho, jak můžete přistupovat k vlastnostem motivu a pracovat s nimi v dokumentu Word pomocí Aspose.Words pro .NET.
 
 ## Předpoklady
 
-Než začneme, budete potřebovat několik věcí, abyste zajistili hladký chod:
+Než začneme, budete potřebovat několik věcí, aby vše probíhalo hladce:
 
-1.  Aspose.Words for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words. Můžete to získat z[Odkaz ke stažení](https://releases.aspose.com/words/net/).
+1. Aspose.Words pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words. Můžete ji získat z [Odkaz ke stažení](https://releases.aspose.com/words/net/).
 
-2. Vývojové prostředí: Vývojové prostředí .NET, jako je Visual Studio, pro psaní a spouštění vašeho kódu.
+2. Vývojové prostředí: Vývojové prostředí .NET, jako je Visual Studio, pro psaní a spouštění kódu.
 
-3. Základní znalost C#: Užitečná bude znalost programovacích konceptů C# a .NET.
+3. Základní znalost C#: Znalost programovacích konceptů v C# a .NET bude užitečná.
 
-4.  Dokumentace Aspose.Words: Pro podrobné informace a další reference můžete vždy nahlédnout do[Dokumentace Aspose.Words](https://reference.aspose.com/words/net/).
+4. Dokumentace k Aspose.Words: Podrobné informace a další reference naleznete v [Dokumentace k Aspose.Words](https://reference.aspose.com/words/net/).
 
-5. Licence Aspose.Words: Pokud knihovnu používáte v produkčním prostředí, ujistěte se, že máte platnou licenci. Můžete si jeden zakoupit[zde](https://purchase.aspose.com/buy) , nebo pokud potřebujete dočasnou licenci, můžete ji získat[zde](https://purchase.aspose.com/temporary-license/).
+5. Licence Aspose.Words: Pokud používáte knihovnu v produkčním prostředí, ujistěte se, že máte platnou licenci. Můžete si ji zakoupit. [zde](https://purchase.aspose.com/buy), nebo pokud potřebujete dočasnou licenci, můžete ji získat [zde](https://purchase.aspose.com/temporary-license/).
 
 ## Importovat jmenné prostory
 
-Než začnete psát svůj kód, budete muset importovat potřebné jmenné prostory. Toto je přímý krok, ale zásadní pro přístup k funkcím Aspose.Words.
+Než začnete psát kód, budete muset importovat potřebné jmenné prostory. Jedná se o jednoduchý krok, ale klíčový pro přístup k funkcím Aspose.Words.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Themes;
 ```
 
-V této příručce projdeme procesem získání vlastností motivu z dokumentu aplikace Word pomocí Aspose.Words for .NET. Zaměříme se na přístup k nastavení písma a barevných akcentů definovaných v motivu.
+V této příručce si projdeme procesem získávání vlastností motivu z dokumentu Word pomocí Aspose.Words pro .NET. Zaměříme se na přístup k nastavení písma a barevným akcentům definovaným v motivu.
 
 ## Krok 1: Vytvořte nový dokument
 
- Prvním krokem je vytvoření nové instance a`Document`. Tento dokument bude sloužit jako základ pro přístup k vlastnostem motivu.
+Prvním krokem je vytvoření nové instance `Document`Tento dokument bude sloužit jako základ pro přístup k vlastnostem šablony.
 
 ```csharp
 Document doc = new Document();
 ```
 
- Vytvoření nového`Document` objekt inicializuje prázdný dokument aplikace Word, což je nezbytné pro načtení vlastností jeho motivu.
+Vytvoření nového `Document` Objekt inicializuje prázdný dokument Wordu, což je nezbytné pro načtení jeho vlastností motivu.
 
-## Krok 2: Přístup k objektu tématu
+## Krok 2: Přístup k objektu motivu
 
- Jakmile máte objekt dokumentu, dalším krokem je přístup k jeho motivu. The`Theme` vlastnictvím`Document`class poskytuje přístup k různým nastavením motivů.
+Jakmile máte objekt dokumentu, dalším krokem je přístup k jeho motivu. `Theme` majetek `Document` třída poskytuje přístup k různým nastavením motivu.
 
 ```csharp
 Aspose.Words.Themes.Theme theme = doc.Theme;
 ```
 
- Tady, vyzvedáváme`Theme` objekt spojený s dokumentem. Tento objekt obsahuje vlastnosti pro písma a barvy, které prozkoumáme v dalších krocích.
+Tady to načítáme `Theme` objekt přidružený k dokumentu. Tento objekt obsahuje vlastnosti pro písma a barvy, které prozkoumáme v dalších krocích.
 
-## Krok 3: Načtěte hlavní písma
+## Krok 3: Načtení hlavních fontů
 
-Motivy v dokumentech aplikace Word často obsahují nastavení pro různé typy písem. K hlavním fontům použitým v motivu můžete přistupovat pomocí následujícího kódu:
+Šablony v dokumentech Wordu často obsahují nastavení pro různé typy písem. Hlavní písma použitá v šabloně můžete zobrazit pomocí následujícího kódu:
 
 ```csharp
 Console.WriteLine(theme.MajorFonts.Latin);
 ```
 
- The`MajorFonts` vlastnost poskytuje přístup k hlavním nastavením písma. V tomto příkladu konkrétně načítáme latinské písmo použité v motivu. Podobný kód můžete použít k získání dalších hlavních písem, jako jsou písma východní Asie nebo písma Complex Script.
+Ten/Ta/To `MajorFonts` Vlastnost poskytuje přístup k nastavení hlavních písem. V tomto příkladu konkrétně načítáme latinské písmo použité v šabloně. Podobný kód můžete použít k získání dalších hlavních písem, jako jsou východoasijská písma nebo písma s komplexním písmem.
 
-## Krok 4: Načtěte malá písma
+## Krok 4: Načtení drobných fontů
 
-Kromě hlavních písem definují motivy také vedlejší písma pro různé skripty. Zde je návod, jak získat přístup k východoasijskému drobnému písmu:
+Kromě hlavních písem definují témata také vedlejší písma pro různá písma. Zde je návod, jak získat přístup k vedlejšímu písmu pro východní Asii:
 
 ```csharp
 Console.WriteLine(theme.MinorFonts.EastAsian);
 ```
 
- Přístupem`MinorFonts`, můžete získat podrobnosti o písmech používaných pro různé jazykové skripty, což vám pomůže zajistit konzistentní styl v různých jazycích.
+Přístupem `MinorFonts`, můžete získat podrobnosti o písmech používaných pro různé jazykové skripty, což vám pomůže zajistit konzistentní styling v různých jazycích.
 
-## Krok 5: Načtení akcentních barev
+## Krok 5: Načtení akcentových barev
 
-Motivy také definují různé barvy použité pro akcenty v dokumentu. Chcete-li získat barvu použitou pro Accent1 v motivu, můžete použít:
+Šablony také definují různé barvy použité pro akcenty v dokumentu. Chcete-li získat barvu použitou pro Akcent1 v šabloně, můžete použít:
 
 ```csharp
 Console.WriteLine(theme.Colors.Accent1);
 ```
 
- The`Colors` vlastnictvím`Theme` class umožňuje načíst různé barevné akcenty definované v motivu, což umožňuje spravovat a používat konzistentní barevná schémata ve vašich dokumentech.
+Ten/Ta/To `Colors` majetek `Theme` Třída umožňuje načíst různé barevné akcenty definované v motivu, což vám umožňuje spravovat a používat konzistentní barevná schémata v dokumentech.
 
 ## Závěr
 
-Pochopení toho, jak získat vlastnosti motivu dokumentu pomocí Aspose.Words for .NET, otevírá řadu možností pro přizpůsobení a správu dokumentů aplikace Word. Podle výše uvedených kroků můžete snadno přistupovat a využívat různá nastavení motivů, jako jsou písma a barvy, díky čemuž budou vaše dokumenty vypadat uhlazeně a profesionálně.
+Pochopení toho, jak získat vlastnosti motivu dokumentu pomocí Aspose.Words pro .NET, otevírá řadu možností pro přizpůsobení a správu dokumentů Wordu. Dodržováním výše uvedených kroků můžete snadno přistupovat k různým nastavením motivu, jako jsou písma a barvy, a používat je, díky čemuž vaše dokumenty vypadají elegantně a profesionálně.
 
-Ať už upravujete vzhled jednoho dokumentu nebo vytváříte šablony pro konzistentní styl, znalost práce s motivy může výrazně zvýšit vaši efektivitu a kvalitu výstupu. Šťastné kódování!
+Ať už upravujete vzhled jednoho dokumentu nebo vytváříte šablony pro konzistentní styling, znalost práce s tématy může výrazně zvýšit vaši efektivitu a kvalitu výstupu. Přeji vám příjemné programování!
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
+### Co je Aspose.Words pro .NET?
 
-Aspose.Words for .NET je výkonná knihovna pro správu a manipulaci s dokumenty aplikace Word v aplikacích .NET. Nabízí rozsáhlé funkce pro vytváření, úpravy a převod dokumentů.
+Aspose.Words pro .NET je výkonná knihovna pro správu a manipulaci s dokumenty Word v aplikacích .NET. Nabízí rozsáhlé funkce pro vytváření, úpravy a převod dokumentů.
 
-### Jak nainstaluji Aspose.Words for .NET?
+### Jak nainstaluji Aspose.Words pro .NET?
 
- Aspose.Words for .NET můžete nainstalovat z[Odkaz ke stažení](https://releases.aspose.com/words/net/). Pro snadnější instalaci můžete také použít NuGet Package Manager.
+Aspose.Words pro .NET si můžete nainstalovat z [Odkaz ke stažení](https://releases.aspose.com/words/net/)Pro snazší instalaci můžete také použít Správce balíčků NuGet.
 
-### Mohu získat vlastnosti motivu z existujícího dokumentu aplikace Word?
+### Mohu získat vlastnosti motivu z existujícího dokumentu Wordu?
 
-Ano, vlastnosti motivu můžete načíst z nových i stávajících dokumentů aplikace Word pomocí Aspose.Words for .NET.
+Ano, vlastnosti motivu můžete načíst z nových i stávajících dokumentů Wordu pomocí Aspose.Words pro .NET.
 
-### Jak mohu použít nový motiv na dokument aplikace Word?
+### Jak použiji nový motiv na dokument Wordu?
 
- Chcete-li použít nový motiv, budete muset nastavit vlastnosti motivu na svém`Document` objekt. Zkontrolujte[Dokumentace Aspose.Words](https://reference.aspose.com/words/net/) podrobnosti o použití témat.
+Chcete-li použít nové téma, musíte nastavit vlastnosti tématu na `Document` objekt. Zkontrolujte [Dokumentace k Aspose.Words](https://reference.aspose.com/words/net/) podrobnosti o použití motivů.
 
 ### Kde mohu získat podporu pro Aspose.Words pro .NET?
 
- Pro podporu můžete navštívit[Aspose Support Forum](https://forum.aspose.com/c/words/8) kde můžete klást otázky a hledat řešení běžných problémů.
+Pro podporu můžete navštívit [Fórum podpory Aspose](https://forum.aspose.com/c/words/8) kde můžete klást otázky a hledat řešení běžných problémů.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi tài liệu
-linktitle: Chuyển đổi tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tối ưu hóa việc chuyển đổi tài liệu trong Java với Aspose.Words! Tìm hiểu hướng dẫn toàn diện về xử lý văn bản và xử lý tài liệu
-weight: 14
-url: /vi/java/document-converting/
+"description": "Tối ưu hóa việc chuyển đổi tài liệu trong Java với Aspose.Words! Tìm hiểu hướng dẫn toàn diện về xử lý văn bản và xử lý tài liệu"
+"linktitle": "Chuyển đổi tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Chuyển đổi tài liệu"
+"url": "/vi/java/document-converting/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi tài liệu
@@ -38,9 +40,13 @@ Chuyển đổi tài liệu HTML sang Word dễ dàng với Aspose.Words for Jav
 Chuyển đổi DOCX sang EPUB hiệu quả bằng Aspose.Words for Java. Tìm hiểu cách tùy chỉnh tùy chọn lưu, chia tách nội dung và xuất thuộc tính tài liệu trong hướng dẫn từng bước này.
 ### [Chuyển đổi tài liệu thành hình ảnh](./converting-documents-images/)
 Tìm hiểu cách chuyển đổi tài liệu Word thành hình ảnh bằng Aspose.Words cho Java. Hướng dẫn từng bước, hoàn chỉnh với các ví dụ về mã và câu hỏi thường gặp.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

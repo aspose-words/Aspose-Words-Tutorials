@@ -1,14 +1,16 @@
 ---
-title: รายการใช้รูปแบบปลายทาง
-linktitle: รายการใช้รูปแบบปลายทาง
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการผสานเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET โดยไม่สูญเสียการจัดรูปแบบรายการ คำแนะนำทีละขั้นตอนเพื่อรักษารูปแบบเอกสารของคุณให้คงเดิม
-weight: 10
-url: /th/net/join-and-append-documents/list-use-destination-styles/
+"description": "เรียนรู้วิธีการผสานเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET โดยไม่สูญเสียการจัดรูปแบบรายการ คำแนะนำทีละขั้นตอนเพื่อรักษารูปแบบเอกสารของคุณให้คงเดิม"
+"linktitle": "รายการใช้รูปแบบปลายทาง"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "รายการใช้รูปแบบปลายทาง"
+"url": "/th/net/join-and-append-documents/list-use-destination-styles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รายการใช้รูปแบบปลายทาง
@@ -21,15 +23,15 @@ url: /th/net/join-and-append-documents/list-use-destination-styles/
 
 ก่อนที่เราจะกระโจนเข้าสู่ความมหัศจรรย์ เรามาตรวจสอบกันก่อนว่าคุณได้ทุกสิ่งที่คุณต้องการแล้ว:
 
-1.  Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลด โปรดดาวน์โหลด[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลด โปรดดาวน์โหลด [ที่นี่](https://releases-aspose.com/words/net/).
 2. Visual Studio: เวอร์ชันล่าสุดใดก็ได้
 3. ความเข้าใจพื้นฐานเกี่ยวกับ C#: คุณไม่จำเป็นต้องเป็นผู้เชี่ยวชาญ แต่ความคุ้นเคยก็ช่วยได้
 
- ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งและตั้งค่า Aspose.Words ในโปรเจ็กต์ของคุณแล้ว หากคุณไม่แน่ใจว่าจะทำอย่างไร[เอกสารประกอบ](https://reference.aspose.com/words/net/) เป็นจุดเริ่มต้นที่ดี
+ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งและตั้งค่า Aspose.Words ในโปรเจ็กต์ของคุณแล้ว หากคุณไม่แน่ใจว่าจะทำอย่างไร [เอกสารประกอบ](https://reference.aspose.com/words/net/) เป็นจุดเริ่มต้นที่ดี
 
 ## นำเข้าเนมสเปซ
 
-ขั้นแรกเลย เราจะนำเข้าเนมสเปซที่จำเป็นลงในไฟล์ C# ของคุณ:
+ขั้นแรกเลย ขอทำการอิมพอร์ตเนมสเปซที่จำเป็นลงในไฟล์ C# ของคุณ:
 
 ```csharp
 using Aspose.Words;
@@ -47,7 +49,7 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่เอกสารของคุณถูกเก็บอยู่ ง่ายใช่ไหม?
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่เอกสารของคุณถูกเก็บอยู่ ง่ายใช่ไหม?
 
 ## ขั้นตอนที่ 2: โหลดเอกสารต้นทางและปลายทางของคุณ
 
@@ -58,7 +60,7 @@ Document srcDoc = new Document(dataDir + "Document source with list.docx");
 Document dstDoc = new Document(dataDir + "Document destination with list.docx");
 ```
 
- ที่นี่,`srcDoc` เป็นเอกสารต้นฉบับของคุณ (เอกสารที่มีรายการที่คุณต้องการคัดลอก) และ`dstDoc` คือเอกสารปลายทางของคุณ (เอกสารที่คุณต้องการวางรายการเหล่านั้น)
+ที่นี่, `srcDoc` เป็นเอกสารต้นฉบับของคุณ (เอกสารที่มีรายการที่คุณต้องการคัดลอก) และ `dstDoc` คือเอกสารปลายทางของคุณ (เอกสารที่คุณต้องการวางรายการเหล่านั้น)
 
 ## ขั้นตอนที่ 3: กำหนดค่าตัวเลือกการนำเข้า
 
@@ -70,7 +72,7 @@ ImportFormatOptions options = new ImportFormatOptions { KeepSourceNumbering = tr
 
 ## ขั้นตอนที่ 4: ผนวกเอกสารต้นฉบับเข้ากับเอกสารปลายทาง
 
-ตอนนี้เรามาทำการผสานกัน นี่คือจุดที่เวทมนตร์เกิดขึ้น เราผนวกเอกสารต้นฉบับเข้ากับเอกสารปลายทางโดยใช้ตัวเลือกการนำเข้าที่ระบุ
+ตอนนี้เรามาทำการผสานกัน นี่คือจุดที่ความมหัศจรรย์เกิดขึ้น เราผนวกเอกสารต้นฉบับเข้ากับเอกสารปลายทางโดยใช้ตัวเลือกการนำเข้าที่ระบุ
 
 ```csharp
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, options);
@@ -88,20 +90,25 @@ dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, options);
 Aspose.Words สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพสำหรับการทำงานกับเอกสาร Word ด้วยโปรแกรม ช่วยให้คุณสามารถสร้าง แก้ไข และแปลงเอกสารในรูปแบบต่างๆ ได้
 
 ### ฉันจะติดตั้ง Aspose.Words สำหรับ .NET ได้อย่างไร?
- คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/words/net/) และปฏิบัติตามคำแนะนำในการติดตั้งใน[เอกสารประกอบ](https://reference.aspose.com/words/net/).
+คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์](https://releases.aspose.com/words/net/) และปฏิบัติตามคำแนะนำในการติดตั้งใน [เอกสารประกอบ](https://reference-aspose.com/words/net/).
 
 ### ฉันสามารถใช้ Aspose.Words ได้ฟรีหรือไม่?
- Aspose.Words เสนอ[ทดลองใช้งานฟรี](https://releases.aspose.com/) มีคุณสมบัติจำกัด หากต้องการเข้าถึงแบบเต็มรูปแบบ คุณจะต้องซื้อใบอนุญาต[ที่นี่](https://purchase.aspose.com/buy).
+Aspose.Words เสนอ [ทดลองใช้งานฟรี](https://releases.aspose.com/) มีคุณสมบัติจำกัด หากต้องการเข้าถึงแบบเต็มรูปแบบ คุณจะต้องซื้อใบอนุญาต [ที่นี่](https://purchase-aspose.com/buy).
 
 ### ImportFormatOptions คืออะไร?
- ImportFormatOptions ช่วยให้คุณระบุวิธีการจัดการการจัดรูปแบบเมื่อนำเข้าเนื้อหาจากเอกสารหนึ่งไปยังอีกเอกสารหนึ่ง ตัวอย่างเช่น`KeepSourceNumbering` ทำให้แน่ใจว่าหมายเลขรายการจากเอกสารต้นฉบับได้รับการเก็บรักษาไว้
+ImportFormatOptions ช่วยให้คุณระบุวิธีการจัดการการจัดรูปแบบเมื่อนำเข้าเนื้อหาจากเอกสารหนึ่งไปยังอีกเอกสารหนึ่ง ตัวอย่างเช่น `KeepSourceNumbering` ทำให้แน่ใจว่าหมายเลขรายการจากเอกสารต้นฉบับได้รับการเก็บรักษาไว้
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words ได้จากที่ไหน
- คุณสามารถรับการสนับสนุนได้จาก[ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8)ซึ่งคุณสามารถถามคำถามและรับความช่วยเหลือจากชุมชนและนักพัฒนา Aspose ได้
+คุณสามารถรับการสนับสนุนได้จาก [ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8)ซึ่งคุณสามารถถามคำถามและรับความช่วยเหลือจากชุมชนและนักพัฒนา Aspose ได้
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

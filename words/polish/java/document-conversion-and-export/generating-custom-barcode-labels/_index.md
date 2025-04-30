@@ -1,14 +1,16 @@
 ---
-title: Generowanie niestandardowych etykiet z kodem kreskowym w Aspose.Words dla Java
-linktitle: Generowanie niestandardowych etykiet z kodem kreskowym
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Generuj niestandardowe etykiety z kodem kreskowym w Aspose.Words for Java. Dowiedz się, jak tworzyć spersonalizowane rozwiązania z kodem kreskowym za pomocą Aspose.Words for Java w tym przewodniku krok po kroku.
-weight: 10
-url: /pl/java/document-conversion-and-export/generating-custom-barcode-labels/
+"description": "Generuj niestandardowe etykiety z kodem kreskowym w Aspose.Words for Java. Dowiedz się, jak tworzyć spersonalizowane rozwiązania z kodem kreskowym za pomocą Aspose.Words for Java w tym przewodniku krok po kroku."
+"linktitle": "Generowanie niestandardowych etykiet z kodem kreskowym"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Generowanie niestandardowych etykiet z kodem kreskowym w Aspose.Words dla Java"
+"url": "/pl/java/document-conversion-and-export/generating-custom-barcode-labels/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Generowanie niestandardowych etykiet z kodem kreskowym w Aspose.Words dla Java
@@ -24,10 +26,10 @@ Kody kreskowe są niezbędne w nowoczesnych aplikacjach, niezależnie od tego, c
 Zanim zaczniemy kodować, upewnij się, że masz następujące rzeczy:
 
 - Java Development Kit (JDK): wersja 8 lub nowsza.
--  Aspose.Words dla biblioteki Java:[Pobierz tutaj](https://releases.aspose.com/words/java/).
--  Biblioteka Aspose.BarCode dla Java:[Pobierz tutaj](https://releases.aspose.com/).
+- Aspose.Words dla biblioteki Java: [Pobierz tutaj](https://releases.aspose.com/words/java/).
+- Aspose.BarCode dla biblioteki Java: [Pobierz tutaj](https://releases.aspose.com/).
 - Zintegrowane środowisko programistyczne (IDE): IntelliJ IDEA, Eclipse lub dowolne preferowane środowisko IDE.
--  Licencja tymczasowa: Uzyskaj[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) dla nieograniczonego dostępu.
+- Licencja tymczasowa: Uzyskaj [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) dla nieograniczonego dostępu.
 
 ## Importuj pakiety
 
@@ -77,11 +79,11 @@ class CustomBarcodeGeneratorUtils {
 ### Wyjaśnienie:
 
 - `twipsToPixels` Metoda: Konwertuje twipy (używane w dokumentach Word) na piksele.
-- `convertColor` Metoda: Tłumaczy szesnastkowe kody kolorów na`Color` obiekty.
+- `convertColor` Metoda: Tłumaczy szesnastkowe kody kolorów na `Color` obiekty.
 
 ## Krok 2: Implementacja generatora niestandardowych kodów kreskowych
 
- Wdrożymy`IBarcodeGenerator` interfejs umożliwiający generowanie kodów kreskowych i integrowanie ich z Aspose.Words.
+Wdrożymy `IBarcodeGenerator` interfejs umożliwiający generowanie kodów kreskowych i integrowanie ich z Aspose.Words.
 
 ### Kod:
 
@@ -116,7 +118,7 @@ class CustomBarcodeGenerator implements IBarcodeGenerator {
 ### Wyjaśnienie:
 
 - `getBarcodeImage` Metoda:
-  -  Tworzy`BarcodeGenerator` przykład.
+  - Tworzy `BarcodeGenerator` przykład.
   - Ustawia kolor kodu kreskowego, kolor tła i generuje obraz.
 
 ## Krok 3: Wygeneruj kod kreskowy i dodaj go do dokumentu Word
@@ -171,24 +173,29 @@ Wykonując te kroki, możesz bezproblemowo generować i osadzać niestandardowe 
 ## Często zadawane pytania
 
 1. Czy mogę używać Aspose.Words dla Java bez licencji?
- Tak, ale będzie miał pewne ograniczenia. Uzyskaj[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) dla pełnej funkcjonalności.
+Tak, ale będzie mieć pewne ograniczenia. Uzyskaj [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) dla pełnej funkcjonalności.
 
 2. Jakie rodzaje kodów kreskowych mogę generować?
-Aspose.BarCode obsługuje QR, Code 128, EAN-13 i wiele innych typów. Sprawdź[dokumentacja](https://reference.aspose.com/words/java/) Aby zobaczyć pełną listę.
+Aspose.BarCode obsługuje QR, Code 128, EAN-13 i wiele innych typów. Sprawdź [dokumentacja](https://reference.aspose.com/words/java/) Aby zobaczyć pełną listę.
 
 3. Jak mogę zmienić rozmiar kodu kreskowego?
- Dostosuj`XDimension` I`BarHeight` parametry w`BarcodeGenerator` Ustawienia.
+Dostosuj `XDimension` I `BarHeight` parametry w `BarcodeGenerator` Ustawienia.
 
 4. Czy mogę używać niestandardowych czcionek dla kodów kreskowych?
- Tak, możesz dostosować czcionki tekstu kodu kreskowego za pomocą`CodeTextParameters` nieruchomość.
+Tak, możesz dostosować czcionki tekstu kodu kreskowego za pomocą `CodeTextParameters` nieruchomość.
 
 5. Gdzie mogę uzyskać pomoc dotyczącą Aspose.Words?
- Odwiedź[forum wsparcia](https://forum.aspose.com/c/words/8/) po pomoc.
+Odwiedź [forum wsparcia](https://forum.aspose.com/c/words/8/) po pomoc.
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

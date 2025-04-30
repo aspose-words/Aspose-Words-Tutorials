@@ -1,14 +1,16 @@
 ---
-title: Znajdowanie indeksu
-linktitle: Znajdowanie indeksu
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak znaleźć indeks tabel, wierszy i komórek w dokumentach programu Word za pomocą Aspose.Words dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/programming-with-tables/finding-index/
+"description": "Dowiedz się, jak znaleźć indeks tabel, wierszy i komórek w dokumentach programu Word za pomocą Aspose.Words dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku."
+"linktitle": "Znajdowanie indeksu"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Znajdowanie indeksu"
+"url": "/pl/net/programming-with-tables/finding-index/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Znajdowanie indeksu
@@ -21,13 +23,13 @@ Praca z tabelami w dokumentach Worda może czasami przypominać poruszanie się 
 
 Zanim przejdziemy do konkretów, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję. Możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję. Możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Visual Studio lub inne wybrane przez Ciebie środowisko IDE.
 - Podstawowa wiedza o języku C#: W tym samouczku zakładamy, że posiadasz podstawową wiedzę o języku C#.
 
 ## Importuj przestrzenie nazw
 
-Aby rozpocząć, musisz zaimportować niezbędne przestrzenie nazw w swoim projekcie C#. Dzięki temu masz dostęp do klas i metod udostępnianych przez Aspose.Words.
+Aby rozpocząć, musisz zaimportować niezbędne przestrzenie nazw do swojego projektu C#. Dzięki temu masz dostęp do klas i metod udostępnianych przez Aspose.Words.
 
 ```csharp
 using Aspose.Words;
@@ -41,7 +43,7 @@ Podzielmy proces na łatwe do opanowania kroki. Omówimy każdą część szczeg
 Najpierw musisz załadować dokument Worda zawierający tabele, z którymi pracujesz. Tutaj określasz ścieżkę do katalogu dokumentu.
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
@@ -66,7 +68,7 @@ Console.WriteLine("\nTable index is " + tableIndex);
 
 ## Krok 4: Znajdź indeks ostatniego wiersza
 
- Aby zlokalizować ostatni wiersz tabeli, używamy`LastRow` Własność. Może się to przydać, gdy trzeba manipulować lub pobierać dane z ostatniego wiersza.
+Aby zlokalizować ostatni wiersz tabeli, używamy `LastRow` Własność. Może się to przydać, gdy trzeba manipulować lub pobierać dane z ostatniego wiersza.
 
 ```csharp
 int rowIndex = table.IndexOf(table.LastRow);
@@ -96,16 +98,21 @@ Tak, możesz przeglądać tabele i używać określonych kryteriów zawartości,
 Połączone komórki mogą komplikować indeksowanie. Upewnij się, że uwzględniasz połączone komórki podczas obliczania indeksów.
 
 ### Czy mogę używać Aspose.Words dla .NET z innymi językami programowania?
-Pakiet Aspose.Words for .NET został zaprojektowany przede wszystkim dla języków .NET, takich jak C#, ale można go używać z dowolnym językiem zgodnym z platformą .NET.
+Pakiet Aspose.Words for .NET został zaprojektowany przede wszystkim dla języków .NET, takich jak C#, ale można go używać z dowolnym językiem zgodnym ze środowiskiem .NET.
 
 ### Czy liczba tabel obsługiwanych przez Aspose.Words jest ograniczona?
 Aspose.Words może obsługiwać dużą liczbę tabel, ale wydajność może się różnić w zależności od złożoności dokumentu i zasobów systemowych.
 
 ### Czy mogę modyfikować właściwości konkretnej komórki, korzystając z jej indeksu?
 Tak, po uzyskaniu indeksu komórki możesz łatwo modyfikować jej właściwości, takie jak tekst, formatowanie i inne.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

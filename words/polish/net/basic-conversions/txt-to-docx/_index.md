@@ -1,14 +1,16 @@
 ---
-title: Konwertuj plik tekstowy do dokumentu Word
-linktitle: Konwertuj plik tekstowy do dokumentu Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak konwertować pliki tekstowe na dokumenty Word za pomocą Aspose.Words dla .NET. Skutecznie zarządzaj konwersjami dokumentów dzięki naszemu kompleksowemu przewodnikowi.
-weight: 10
-url: /pl/net/basic-conversions/txt-to-docx/
+"description": "Dowiedz się, jak konwertować pliki tekstowe na dokumenty Word za pomocą Aspose.Words dla .NET. Skutecznie zarządzaj konwersjami dokumentów dzięki naszemu kompleksowemu przewodnikowi."
+"linktitle": "Konwertuj plik tekstowy do dokumentu Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Konwertuj plik tekstowy do dokumentu Word"
+"url": "/pl/net/basic-conversions/txt-to-docx/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwertuj plik tekstowy do dokumentu Word
@@ -21,7 +23,7 @@ Konwersja plików tekstowych do dokumentów Word jest powszechnym wymogiem w apl
 
 Zanim zaczniesz, upewnij się, że masz następujące rzeczy:
 - Na Twoim komputerze zainstalowany jest program Microsoft Visual Studio.
--  Biblioteka Aspose.Words dla .NET. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+- Biblioteka Aspose.Words dla .NET. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 - Podstawowa znajomość języka programowania C#.
 
 ## Importuj przestrzenie nazw
@@ -35,7 +37,7 @@ Przeanalizujmy krok po kroku proces konwersji pliku tekstowego na dokument progr
 
 ### Krok 1: Załaduj plik tekstowy
 
- Najpierw załaduj plik tekstowy do Aspose.Words`Document` obiekt:
+Najpierw załaduj plik tekstowy do Aspose.Words `Document` obiekt:
 ```csharp
 // Podaj ścieżkę katalogu, w którym znajduje się plik tekstowy
 string dataDir = "YOUR_DOCUMENT_DIRECTORY/";
@@ -71,10 +73,15 @@ Tak, Aspose.Words obsługuje różne frameworki .NET, zapewniając kompatybilno�
 Tak, możesz przetwarzać wsadowo wiele plików tekstowych za pomocą interfejsów API Aspose.Words, aby usprawnić zadania konwersji dokumentów.
 
 ### Gdzie mogę znaleźć więcej materiałów i pomocy dla Aspose.Words?
- Odwiedź[Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) I[forum wsparcia](https://forum.aspose.com/c/words/8) Aby uzyskać więcej informacji i pomoc.
+Odwiedź [Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) I [forum wsparcia](https://forum.aspose.com/c/words/8) Aby uzyskać więcej informacji i pomoc.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

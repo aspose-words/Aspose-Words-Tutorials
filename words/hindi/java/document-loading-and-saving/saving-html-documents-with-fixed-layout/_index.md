@@ -1,14 +1,16 @@
 ---
-title: जावा के लिए Aspose.Words में फिक्स्ड लेआउट के साथ HTML दस्तावेज़ों को सहेजना
-linktitle: HTML दस्तावेज़ों को निश्चित लेआउट के साथ सहेजना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Aspose.Words for Java में फिक्स्ड लेआउट के साथ HTML दस्तावेज़ों को सहेजना सीखें। सहज दस्तावेज़ स्वरूपण के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 15
-url: /hi/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/
+"description": "Aspose.Words for Java में फिक्स्ड लेआउट के साथ HTML दस्तावेज़ों को सहेजना सीखें। सहज दस्तावेज़ स्वरूपण के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "HTML दस्तावेज़ों को निश्चित लेआउट के साथ सहेजना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "जावा के लिए Aspose.Words में फिक्स्ड लेआउट के साथ HTML दस्तावेज़ों को सहेजना"
+"url": "/hi/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के लिए Aspose.Words में फिक्स्ड लेआउट के साथ HTML दस्तावेज़ों को सहेजना
@@ -33,11 +35,11 @@ url: /hi/java/document-loading-and-saving/saving-html-documents-with-fixed-layou
 Document doc = new Document("Your Directory Path" + "YourDocument.docx");
 ```
 
- प्रतिस्थापित करें`"YourDocument.docx"` अपने वर्ड दस्तावेज़ के पथ के साथ.
+प्रतिस्थापित करें `"YourDocument.docx"` अपने वर्ड दस्तावेज़ के पथ के साथ.
 
 ## चरण 2: HTML फिक्स्ड सेव विकल्प कॉन्फ़िगर करें
 
- दस्तावेज़ को एक निश्चित लेआउट के साथ सहेजने के लिए, हमें कॉन्फ़िगर करने की आवश्यकता है`HtmlFixedSaveOptions` कक्षा. हम सेट करेंगे`useTargetMachineFonts`संपत्ति को`true` यह सुनिश्चित करने के लिए कि लक्ष्य मशीन के फ़ॉन्ट का उपयोग HTML आउटपुट में किया गया है:
+दस्तावेज़ को एक निश्चित लेआउट के साथ सहेजने के लिए, हमें कॉन्फ़िगर करने की आवश्यकता है `HtmlFixedSaveOptions` कक्षा. हम सेट करेंगे `useTargetMachineFonts` संपत्ति को `true` यह सुनिश्चित करने के लिए कि लक्ष्य मशीन के फ़ॉन्ट का उपयोग HTML आउटपुट में किया गया है:
 
 ```java
 HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
@@ -52,7 +54,7 @@ saveOptions.setUseTargetMachineFonts(true);
 doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
 ```
 
- प्रतिस्थापित करें`"FixedLayoutDocument.html"` अपनी HTML फ़ाइल के लिए इच्छित नाम के साथ।
+प्रतिस्थापित करें `"FixedLayoutDocument.html"` अपनी HTML फ़ाइल के लिए इच्छित नाम के साथ।
 
 ## जावा के लिए Aspose.Words में निश्चित लेआउट के साथ HTML दस्तावेज़ों को सहेजने के लिए पूर्ण स्रोत कोड
 
@@ -74,7 +76,7 @@ doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
 
 ### मैं अपने प्रोजेक्ट में Java के लिए Aspose.Words कैसे सेट कर सकता हूँ?
 
- जावा के लिए Aspose.Words सेट करना सरल है। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/java/) और दस्तावेज़ में दिए गए इंस्टॉलेशन निर्देशों का पालन करें[यहाँ](https://reference.aspose.com/words/java/).
+जावा के लिए Aspose.Words सेट करना सरल है। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/java/) और दस्तावेज़ में दिए गए इंस्टॉलेशन निर्देशों का पालन करें [यहाँ](https://reference.aspose.com/words/java/).
 
 ### क्या Java के लिए Aspose.Words का उपयोग करने के लिए कोई लाइसेंसिंग आवश्यकताएं हैं?
 
@@ -87,9 +89,14 @@ doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
 ### क्या Aspose.Words for Java विभिन्न Java संस्करणों के साथ संगत है?
 
 हां, Aspose.Words for Java, Java के विभिन्न संस्करणों के साथ संगत है। सुनिश्चित करें कि आप Aspose.Words for Java का संगत संस्करण उपयोग कर रहे हैं जो आपके Java विकास परिवेश से मेल खाता है।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

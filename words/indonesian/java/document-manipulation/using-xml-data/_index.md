@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Data XML di Aspose.Words untuk Java
-linktitle: Menggunakan Data XML
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Buka Kekuatan Aspose.Words untuk Java. Pelajari Penanganan Data XML, Mail Merge, dan Sintaks Mustache dengan Tutorial Langkah demi Langkah.
-weight: 12
-url: /id/java/document-manipulation/using-xml-data/
+"description": "Buka Kekuatan Aspose.Words untuk Java. Pelajari Penanganan Data XML, Mail Merge, dan Sintaks Mustache dengan Tutorial Langkah demi Langkah."
+"linktitle": "Menggunakan Data XML"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Data XML di Aspose.Words untuk Java"
+"url": "/id/java/document-manipulation/using-xml-data/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Data XML di Aspose.Words untuk Java
@@ -41,7 +43,7 @@ doc.save("Your Directory Path" + "BasicMailMerge.docx");
 
 ### 2. Gabungan Surat Bertingkat
 
-Untuk gabungan surat bersarang, gunakan kode berikut:
+Untuk gabungan surat bertingkat, gunakan kode berikut:
 
 ```java
 DataSet pizzaDs = new DataSet();
@@ -77,14 +79,19 @@ Pastikan data XML Anda mengikuti struktur yang diperlukan, dengan tabel dan hubu
 
 ### Dapatkah saya menyesuaikan perilaku pemangkasan untuk nilai gabungan surat?
 
- Ya, Anda dapat mengontrol apakah spasi awal dan akhir akan dipangkas selama penggabungan surat dengan menggunakan`doc.getMailMerge().setTrimWhitespaces(false)`.
+Ya, Anda dapat mengontrol apakah spasi awal dan akhir akan dipangkas selama penggabungan surat dengan menggunakan `doc.getMailMerge().setTrimWhitespaces(false)`.
 
 ### Apa sintaksis Mustache, dan kapan saya harus menggunakannya?
 
- Sintaks Mustache memungkinkan Anda memformat bidang gabungan surat dengan cara yang lebih fleksibel. Gunakan`doc.getMailMerge().setUseNonMergeFields(true)` untuk mengaktifkan sintaks Mustache.
+Sintaks Mustache memungkinkan Anda memformat bidang gabungan surat dengan cara yang lebih fleksibel. Gunakan `doc.getMailMerge().setUseNonMergeFields(true)` untuk mengaktifkan sintaks Mustache.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

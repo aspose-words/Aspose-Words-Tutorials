@@ -1,27 +1,29 @@
 ---
-title: Определить нумерацию с пробелами
-linktitle: Определить нумерацию с пробелами
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как использовать Aspose.Words для .NET для обнаружения нумерации с пробелами в текстовых документах и обеспечения правильного распознавания ваших списков.
-weight: 10
-url: /ru/net/programming-with-txtloadoptions/detect-numbering-with-whitespaces/
+"description": "Узнайте, как использовать Aspose.Words для .NET для обнаружения нумерации с пробелами в текстовых документах и обеспечения правильного распознавания ваших списков."
+"linktitle": "Определить нумерацию с помощью пробелов"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Определить нумерацию с помощью пробелов"
+"url": "/ru/net/programming-with-txtloadoptions/detect-numbering-with-whitespaces/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Определить нумерацию с пробелами
+# Определить нумерацию с помощью пробелов
 
 ## Введение
 
-Aspose.Words для энтузиастов .NET! Сегодня мы погрузимся в увлекательную функцию, которая может сделать обработку списков в текстовых документах легкой. Вы когда-нибудь имели дело с текстовыми файлами, где некоторые строки должны быть списками, но они просто не выглядят правильно при загрузке в документ Word? Что ж, у нас есть изящный трюк в рукаве: обнаружение нумерации с пробелами. Этот урок покажет вам, как использовать`DetectNumberingWithWhitespaces` опция в Aspose.Words для .NET, гарантирующая правильное распознавание списков, даже если между числами и текстом есть пробелы.
+Aspose.Words для энтузиастов .NET! Сегодня мы погрузимся в увлекательную функцию, которая может сделать обработку списков в текстовых документах легкой. Вы когда-нибудь имели дело с текстовыми файлами, где некоторые строки должны быть списками, но они просто не выглядят правильно при загрузке в документ Word? Что ж, у нас есть изящный трюк в рукаве: обнаружение нумерации с пробелами. Этот урок покажет вам, как использовать `DetectNumberingWithWhitespaces` опция в Aspose.Words для .NET, гарантирующая правильное распознавание списков, даже если между числами и текстом есть пробелы.
 
 ## Предпосылки
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
--  Aspose.Words для .NET: Вы можете загрузить его с сайта[Релизы Aspose](https://releases.aspose.com/words/net/) страница.
+- Aspose.Words для .NET: Вы можете загрузить его с сайта [Релизы Aspose](https://releases.aspose.com/words/net/) страница.
 - Среда разработки: Visual Studio или любая другая C# IDE.
 - На вашем компьютере установлен .NET Framework.
 - Базовые знания C#: понимание основ поможет вам разобраться в примерах.
@@ -70,9 +72,9 @@ const string textDoc = "Full stop delimiters:\n" +
                        "3 Fourth list item 3";
 ```
 
-## Шаг 3: Настройте параметры загрузки
+## Шаг 3: Настройка параметров загрузки
 
- Чтобы обнаружить нумерацию с пробелами, нам нужно установить`DetectNumberingWithWhitespaces` возможность`true` в`TxtLoadOptions` объект.
+Чтобы обнаружить нумерацию с пробелами, нам нужно установить `DetectNumberingWithWhitespaces` возможность `true` в `TxtLoadOptions` объект.
 
 ```csharp
 TxtLoadOptions loadOptions = new TxtLoadOptions { DetectNumberingWithWhitespaces = true };
@@ -80,7 +82,7 @@ TxtLoadOptions loadOptions = new TxtLoadOptions { DetectNumberingWithWhitespaces
 
 ## Шаг 4: Загрузите документ
 
- Теперь давайте загрузим документ с помощью`TxtLoadOptions` как параметр. Это гарантирует, что четвертый список (с пробелами) будет обнаружен правильно.
+Теперь давайте загрузим документ с помощью `TxtLoadOptions` как параметр. Это гарантирует, что четвертый список (с пробелами) будет обнаружен правильно.
 
 ```csharp
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(textDoc)), loadOptions);
@@ -100,25 +102,30 @@ doc.Save(dataDir + "WorkingWithTxtLoadOptions.DetectNumberingWithWhitespaces.doc
 
 ## Часто задаваемые вопросы
 
-###  Что такое`DetectNumberingWithWhitespaces` in Aspose.Words for .NET?
-`DetectNumberingWithWhitespaces` это вариант в`TxtLoadOptions` что позволяет Aspose.Words распознавать списки даже при наличии пробелов между нумерацией и текстом элемента списка.
+### Что такое `DetectNumberingWithWhitespaces` в Aspose.Words для .NET?
+`DetectNumberingWithWhitespaces` это вариант в `TxtLoadOptions` что позволяет Aspose.Words распознавать списки даже при наличии пробелов между нумерацией и текстом элемента списка.
 
 ### Могу ли я использовать эту функцию для других разделителей, таких как маркеры и скобки?
- Да, Aspose.Words автоматически определяет списки с общими разделителями, такими как маркеры и скобки.`DetectNumberingWithWhitespaces` особенно помогает со списками, содержащими пробелы.
+Да, Aspose.Words автоматически определяет списки с общими разделителями, такими как маркеры и скобки. `DetectNumberingWithWhitespaces` особенно помогает со списками, содержащими пробелы.
 
-###  Что произойдет, если я не буду использовать`DetectNumberingWithWhitespaces`?
+### Что произойдет, если я не буду использовать `DetectNumberingWithWhitespaces`?
 Без этой опции списки с пробелами между нумерацией и текстом могут не распознаваться как списки, а элементы могут отображаться как простые абзацы.
 
 ### Доступна ли эта функция в других продуктах Aspose?
 Эта специфическая функция разработана специально для Aspose.Words for .NET и предназначена для обработки документов Word.
 
 ### Как получить временную лицензию на Aspose.Words для .NET?
- Вы можете получить временную лицензию в[Временная лицензия Aspose](https://purchase.aspose.com/temporary-license/) страница.
+Вы можете получить временную лицензию в [Временная лицензия Aspose](https://purchase.aspose.com/temporary-license/) страница.
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

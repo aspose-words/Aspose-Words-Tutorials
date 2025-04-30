@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Footnotes và Endnotes trong Aspose.Words cho Java
-linktitle: Sử dụng chú thích cuối trang và chú thích cuối trang
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Học cách sử dụng chú thích cuối trang và chú thích cuối văn bản hiệu quả trong Aspose.Words for Java. Nâng cao kỹ năng định dạng tài liệu của bạn ngay hôm nay!
-weight: 13
-url: /vi/java/using-document-elements/using-footnotes-and-endnotes/
+"description": "Học cách sử dụng chú thích cuối trang và chú thích cuối văn bản hiệu quả trong Aspose.Words for Java. Nâng cao kỹ năng định dạng tài liệu của bạn ngay hôm nay!"
+"linktitle": "Sử dụng chú thích cuối trang và chú thích cuối trang"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng Footnotes và Endnotes trong Aspose.Words cho Java"
+"url": "/vi/java/using-document-elements/using-footnotes-and-endnotes/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Footnotes và Endnotes trong Aspose.Words cho Java
@@ -123,18 +125,23 @@ Bây giờ bạn đã biết cách sử dụng chú thích cuối trang và chú
 Chú thích xuất hiện ở cuối trang, trong khi chú thích cuối trang được thu thập ở cuối phần hoặc cuối tài liệu.
 
 ### 2. Làm thế nào để thay đổi vị trí chú thích hoặc chú thích cuối trang?
- Bạn có thể sử dụng`setPosition` phương pháp thay đổi vị trí chú thích hoặc chú thích cuối trang.
+Bạn có thể sử dụng `setPosition` phương pháp thay đổi vị trí chú thích hoặc chú thích cuối trang.
 
 ### 3. Tôi có thể tùy chỉnh định dạng chú thích cuối trang và chú thích cuối văn bản không?
 Có, bạn có thể tùy chỉnh định dạng chú thích cuối trang và chú thích cuối văn bản bằng Aspose.Words cho Java.
 
 ### 4. Chú thích cuối trang và chú thích cuối trang có quan trọng trong việc định dạng tài liệu không?
-Có, chú thích cuối trang và chú thích cuối trang rất cần thiết để cung cấp thông tin tham khảo và bổ sung trong tài liệu.
+Có, chú thích cuối trang và chú thích cuối trang rất cần thiết để cung cấp tài liệu tham khảo và thông tin bổ sung trong tài liệu.
 
 Hãy thoải mái khám phá thêm nhiều tính năng của Aspose.Words for Java và nâng cao khả năng tạo tài liệu của bạn. Chúc bạn viết mã vui vẻ!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

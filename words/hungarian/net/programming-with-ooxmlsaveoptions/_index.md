@@ -1,35 +1,42 @@
 ---
-title: Szövegfeldolgozás az Ooxmlsaveoptions segítségével
-linktitle: Szövegfeldolgozás az Ooxmlsaveoptions segítségével
-second_title: Aspose.Words Document Processing API
-description: Tanuljon meg szövegfeldolgozást az OOXML mentési opcióival az Aspose.Words for .NET-ben. Átfogó oktatóanyagok és mintakód a Word-dokumentumok OOXML formátumban történő mentésének kezeléséhez és testreszabásához.
-weight: 1660
-url: /hu/net/programming-with-ooxmlsaveoptions/
+"description": "Tanuljon szövegszerkesztést az Aspose.Words for .NET OOXML mentési beállításaival. Átfogó oktatóanyagok és mintakód a Word dokumentumok OOXML formátumban történő mentéséhez és kezeléséhez."
+"linktitle": "Szövegszerkesztés az Ooxmlsaveoptions segítségével"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Szövegszerkesztés az Ooxmlsaveoptions segítségével"
+"url": "/hu/net/programming-with-ooxmlsaveoptions/"
+"weight": 1660
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szövegfeldolgozás az Ooxmlsaveoptions segítségével
+# Szövegszerkesztés az Ooxmlsaveoptions segítségével
 
-Az Aspose.Words for .NET oktatóanyagok az OOXMLSaveOptions segítségével végzett szövegfeldolgozásról lépésről lépésre tartalmazzák az OOXML mentési beállításainak módosítását a dokumentumokban. Ezek az oktatóanyagok végigvezetik a biztonsági mentési beállítások testreszabásának lépésein, mint például a visszafelé kompatibilitás, a képtömörítés és a beágyazott betűtípusok kezelése. Megtanulja, hogyan használhatja ezeket a lehetőségeket az Ön egyedi igényeire optimalizált, pontos mentési eredmények eléréséhez.
+Az Aspose.Words for .NET OOXMLSaveOptions szövegszerkesztéssel foglalkozó oktatóanyagai lépésről lépésre bemutatják az OOXML mentési beállításainak kezelését a dokumentumokban. Ezek az oktatóanyagok végigvezetik a biztonsági mentési beállítások testreszabásának lépésein, például a visszafelé kompatibilitáson, a képtömörítésen és a beágyazott betűtípusok kezelésén. Megtanulod, hogyan használhatod ezeket a beállításokat a pontos, az igényeidre optimalizált biztonsági mentési eredmények eléréséhez.
 
- Az oktatóanyagok gyakorlati kódpéldákat is tartalmaznak, amelyek bemutatják az OOXMLSaveOptions különféle funkcióinak használatát. Megtanulja, hogyan adhat meg mentési beállításokat Word-dokumentum létrehozásakor vagy szerkesztésekor, olyan módszerekkel, mint pl`CompatibilityOptions`, `ImageCompression` , és`ExportFontResources`. Az oktatóanyagok segítenek megérteni, hogy ezek a beállítások hogyan befolyásolják a kimeneti formátumot, és segítenek kiválasztani a projektekhez a megfelelő beállításokat.
+Az oktatóanyagok gyakorlati kódpéldákat is tartalmaznak, amelyek bemutatják az OOXMLSaveOptions különböző funkcióinak használatát. Megtanulod, hogyan adhatsz meg mentési beállításokat Word-dokumentum létrehozásakor vagy szerkesztésekor olyan módszerekkel, mint például `CompatibilityOptions`, `ImageCompression`, és `ExportFontResources`Az oktatóanyagok segítenek megérteni, hogy ezek a beállítások hogyan befolyásolják a kimeneti formátumot, és segítenek kiválasztani a projektekhez megfelelő beállításokat.
 
-Akár a Word régebbi verzióival kompatibilis dokumentumokat szeretne létrehozni, akár a képek tömörítésével csökkenteni szeretné a fájlméretet, akár meghatározott betűtípusokat szeretne beágyazni, az Aspose.Words for .NET oktatóanyaga az OOXMLSaveOptions segítségével végzett szövegfeldolgozásról végigvezeti Önt mindezen. szükséges lépéseket. Teljes mértékben kihasználhatja az OOXML mentési funkcióit, és professzionális és optimalizált Word dokumentumokat hozhat létre.
+Akár a Word régebbi verzióival kompatibilis dokumentumokat szeretne létrehozni, akár képek tömörítésével csökkenteni a fájlméretet, akár meghatározott betűtípusokat beágyazni, az Aspose.Words for .NET oktatóanyagai az OOXMLSaveOptions segítségével végzett szövegszerkesztésről végigvezetik Önt minden szükséges lépésen. Így teljes mértékben kihasználhatja az OOXML mentési funkcióit, és professzionális, optimalizált Word-dokumentumokat hozhat létre.
 
  ## Oktatóanyagok
 | Cím | Leírás |
 | --- | --- |
-| [Docx titkosítása jelszóval](./encrypt-docx-with-password/) | Védje Word-dokumentumait az Aspose.Words for .NET használatával jelszóval történő titkosításával. Kövesse lépésenkénti útmutatónkat, hogy megvédje bizalmas adatait. |
-| [Ooxml Compliance Iso 29500_2008_Strict](./ooxml-compliance-iso-29500_2008_strict/) | Ebből a lépésenkénti útmutatóból megtudhatja, hogyan biztosíthatja az OOXML ISO 29500_2008_Strict megfelelőségét az Aspose.Words for .NET használatával. |
-| [Frissítse az utolsó megtakarított idő tulajdonságot](./update-last-saved-time-property/) | Ismerje meg, hogyan frissítheti az utolsó mentett idő tulajdonságot a Word-dokumentumokban az Aspose.Words for .NET használatával. Kövesse részletes, lépésenkénti útmutatónkat. |
-| [Tartsa meg a régi vezérlőkaraktereket](./keep-legacy-control-chars/) | Ebből a lépésenkénti útmutatóból megtudhatja, hogyan őrizheti meg a régi vezérlőkaraktereket a Word dokumentumokban az Aspose.Words for .NET használatával. |
-| [Állítsa be a tömörítési szintet](./set-compression-level/) | Ismerje meg, hogyan állíthatja be a tömörítési szintet Word dokumentumokban az Aspose.Words for .NET használatával. Kövesse lépésről lépésre útmutatónkat a dokumentumok tárolásának és teljesítményének optimalizálásához. |
+| [Docx titkosítása jelszóval](./encrypt-docx-with-password/) | Biztosítsa Word-dokumentumait jelszóval titkosítva az Aspose.Words for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat bizalmas adatainak védelme érdekében. |
+| [Ooxml megfelelőség ISO 29500_2008_Strict](./ooxml-compliance-iso-29500_2008_strict/) | Tanulja meg, hogyan biztosíthatja az ISO 29500_2008_Strict OOXML-megfelelőséget az Aspose.Words for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. |
+| [Utolsó mentés időpontja tulajdonság frissítése](./update-last-saved-time-property/) | Ismerje meg, hogyan frissítheti az utolsó mentés időpontja tulajdonságot Word-dokumentumokban az Aspose.Words for .NET használatával. Kövesse részletes, lépésről lépésre szóló útmutatónkat. |
+| [Tartsa meg a régi vezérlőkaraktereket](./keep-legacy-control-chars/) | Tanulja meg, hogyan őrizheti meg a korábbi vezérlőkaraktereket a Word-dokumentumokban az Aspose.Words for .NET használatával ebből a lépésről lépésre szóló útmutatóból. |
+| [Tömörítési szint beállítása](./set-compression-level/) | Ismerje meg, hogyan állíthatja be a tömörítési szintet Word-dokumentumokban az Aspose.Words for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat a dokumentumtárolás és a teljesítmény optimalizálásához. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

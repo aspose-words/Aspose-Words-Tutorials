@@ -1,14 +1,16 @@
 ---
-title: Membuat Tabel Dalam Dokumen Word
-linktitle: Membuat Tabel Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat tabel dalam dokumen Word menggunakan Aspose.Words for .NET dengan tutorial terperinci dan langkah demi langkah ini. Sempurna untuk pemula dan profesional.
-weight: 10
-url: /id/net/add-content-using-documentbuilder/build-table/
+"description": "Pelajari cara membuat tabel dalam dokumen Word menggunakan Aspose.Words for .NET dengan tutorial terperinci dan langkah demi langkah ini. Sempurna untuk pemula dan profesional."
+"linktitle": "Membuat Tabel Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Membuat Tabel Dalam Dokumen Word"
+"url": "/id/net/add-content-using-documentbuilder/build-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat Tabel Dalam Dokumen Word
@@ -19,13 +21,13 @@ Hai! Apakah Anda ingin membuat tabel dalam dokumen Word secara terprogram? Nah, 
 
 ## Prasyarat
 
-Sebelum memulai petualangan membuat meja, pastikan semua perlengkapan sudah dipersiapkan. Berikut ini yang Anda butuhkan:
+Sebelum memulai petualangan membuat meja, mari kita pastikan semua perlengkapan sudah dipersiapkan. Berikut ini yang Anda butuhkan:
 
 - Visual Studio (atau IDE C# lainnya)
 - .NET Framework (4.0 atau lebih tinggi)
 - Aspose.Words untuk pustaka .NET
 
- Jika Anda belum memiliki Aspose.Words, Anda dapat dengan mudah[unduh disini](https://releases.aspose.com/words/net/) Anda juga bisa memulai dengan[uji coba gratis](https://releases.aspose.com/) jika Anda ingin mencoba. Bagi mereka yang siap untuk mengambil risiko, Anda dapat[beli lisensi](https://purchase.aspose.com/buy) atau jika Anda membutuhkan lebih banyak waktu untuk mengevaluasi, ambil[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+Jika Anda belum memiliki Aspose.Words, Anda dapat dengan mudah [unduh disini](https://releases.aspose.com/words/net/)Anda juga bisa memulai dengan [uji coba gratis](https://releases.aspose.com/) jika Anda ingin mencoba. Bagi mereka yang siap untuk mengambil risiko, Anda dapat [beli lisensi](https://purchase.aspose.com/buy), atau jika Anda membutuhkan lebih banyak waktu untuk mengevaluasi, ambil [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 ## Mengimpor Ruang Nama
 
@@ -41,18 +43,18 @@ Baiklah, mari kita uraikan proses pembuatan tabel dalam dokumen Word menjadi beb
 
 ## Langkah 1: Inisialisasi Dokumen dan DocumentBuilder
 
- Pertama, kita perlu menyiapkan dokumen dan pembuat dokumen kita.`Document` kelas mewakili dokumen Word, dan`DocumentBuilder` adalah alat praktis kami untuk menambahkan konten ke dalamnya.
+Pertama, kita perlu menyiapkan dokumen dan pembuat dokumen kita. `Document` kelas mewakili dokumen Word, dan `DocumentBuilder` adalah alat praktis kami untuk menambahkan konten ke dalamnya.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Bayangkan ini seperti meletakkan kanvas sebelum Anda mulai melukis.`DocumentBuilder` adalah kuas kita, siap untuk menciptakan sebuah mahakarya.
+Bayangkan ini seperti meletakkan kanvas sebelum Anda mulai melukis. `DocumentBuilder` adalah kuas kita, siap untuk menciptakan sebuah mahakarya.
 
 ## Langkah 2: Mulai Tabel
 
- Sekarang, mari kita mulai. Kita sebut saja`StartTable` metode dari`DocumentBuilder` untuk memulai.
+Sekarang, mari kita mulai. Kita sebut saja `StartTable` metode dari `DocumentBuilder` untuk memulai.
 
 ```csharp
 Table table = builder.StartTable();
@@ -60,7 +62,7 @@ builder.InsertCell();
 table.AutoFit(AutoFitBehavior.FixedColumnWidths);
 ```
 
- Dengan menggunakan`StartTable` , kami memberi tahu Aspose.Words bahwa kami akan membuat tabel.`InsertCell` metode menambahkan sel pertama, dan`AutoFit` memastikan kolom kita memiliki lebar tetap.
+Dengan menggunakan `StartTable`, kami memberi tahu Aspose.Words bahwa kami akan membuat tabel. `InsertCell` metode menambahkan sel pertama, dan `AutoFit` memastikan kolom kita memiliki lebar tetap.
 
 ## Langkah 3: Format Baris Pertama
 
@@ -97,7 +99,7 @@ builder.Writeln("This is row 2 cell 2");
 builder.EndRow();
 ```
 
- Di sini, kami mengatur tinggi baris dan memastikannya tetap dengan`HeightRule.Exactly`Perubahan orientasi teks membuat tabel kami menonjol dan menambahkan sentuhan keunikan.
+Di sini, kami mengatur tinggi baris dan memastikannya tetap dengan `HeightRule.Exactly`Perubahan orientasi teks membuat tabel kami menonjol dan menambahkan sentuhan keunikan.
 
 ## Langkah 5: Akhiri Tabel
 
@@ -111,7 +113,7 @@ Langkah ini seperti menambahkan sentuhan akhir pada karya seni kita. Struktur me
 
 ## Langkah 6: Simpan Dokumen
 
- Terakhir, mari kita simpan dokumen kita. Pilih lokasi dan nama untuk file Anda, lalu simpan dengan perintah`.docx` perpanjangan.
+Terakhir, mari kita simpan dokumen kita. Pilih lokasi dan nama untuk file Anda, lalu simpan dengan perintah `.docx` perpanjangan.
 
 ```csharp
 doc.Save("YourDirectoryPath/AddContentUsingDocumentBuilder.BuildTable.docx");
@@ -131,19 +133,24 @@ Ingat, latihan akan menghasilkan kesempurnaan. Jadi, jangan ragu untuk bereksper
 Aspose.Words untuk .NET adalah pustaka yang hebat untuk bekerja dengan dokumen Word secara terprogram. Pustaka ini memungkinkan Anda membuat, mengedit, dan memanipulasi dokumen tanpa memerlukan Microsoft Word.
 
 ### Bagaimana cara menginstal Aspose.Words untuk .NET?
- Kamu bisa[unduh Aspose.Words untuk .NET di sini](https://releases.aspose.com/words/net/)Ikuti petunjuk instalasi yang diberikan untuk mengaturnya di lingkungan pengembangan Anda.
+Kamu bisa [unduh Aspose.Words untuk .NET di sini](https://releases.aspose.com/words/net/)Ikuti petunjuk instalasi yang diberikan untuk mengaturnya di lingkungan pengembangan Anda.
 
-### Dapatkah saya menggunakan Aspose.Words secara gratis?
- Aspose.Words menawarkan[uji coba gratis](https://releases.aspose.com/) sehingga Anda dapat menguji fitur-fiturnya. Untuk penggunaan yang lebih lama, Anda dapat membeli lisensi atau mendapatkan[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+### Bisakah saya menggunakan Aspose.Words secara gratis?
+Aspose.Words menawarkan [uji coba gratis](https://releases.aspose.com/) sehingga Anda dapat menguji fitur-fiturnya. Untuk penggunaan yang lebih lama, Anda dapat membeli lisensi atau mendapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 ### Apa sajakah fitur lain Aspose.Words untuk .NET?
 Selain membuat tabel, Aspose.Words memungkinkan Anda bekerja dengan teks, gambar, gaya, dan banyak elemen dokumen lainnya. Aplikasi ini mendukung berbagai format dokumen, termasuk DOCX, PDF, dan HTML.
 
 ### Di mana saya bisa mendapatkan bantuan jika saya mengalami masalah?
- Jika Anda memerlukan dukungan, lihat[Forum Aspose.Words](https://forum.aspose.com/c/words/8) tempat Anda dapat mengajukan pertanyaan dan mendapatkan bantuan dari komunitas dan pengembang Aspose.
+Jika Anda memerlukan dukungan, lihat [Forum Aspose.Words](https://forum.aspose.com/c/words/8) tempat Anda dapat mengajukan pertanyaan dan mendapatkan bantuan dari komunitas dan pengembang Aspose.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

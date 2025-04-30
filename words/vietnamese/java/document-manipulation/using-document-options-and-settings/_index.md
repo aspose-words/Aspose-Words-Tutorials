@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Tùy chọn và Cài đặt Tài liệu trong Aspose.Words cho Java
-linktitle: Sử dụng Tùy chọn và Cài đặt Tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Mở khóa sức mạnh của Aspose.Words cho Java. Tùy chọn và cài đặt tài liệu chính để quản lý tài liệu liền mạch. Tối ưu hóa, tùy chỉnh và nhiều hơn nữa.
-weight: 31
-url: /vi/java/document-manipulation/using-document-options-and-settings/
+"description": "Mở khóa sức mạnh của Aspose.Words cho Java. Tùy chọn và cài đặt tài liệu chính để quản lý tài liệu liền mạch. Tối ưu hóa, tùy chỉnh và nhiều hơn nữa."
+"linktitle": "Sử dụng Tùy chọn và Cài đặt Tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng Tùy chọn và Cài đặt Tài liệu trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/using-document-options-and-settings/"
+"weight": 31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Tùy chọn và Cài đặt Tài liệu trong Aspose.Words cho Java
@@ -138,9 +140,9 @@ Trong hướng dẫn này, chúng tôi đã đi sâu vào các tùy chọn và c
 
 ## Câu hỏi thường gặp
 
-### Làm thế nào để tối ưu hóa tài liệu cho một phiên bản Word cụ thể?
+### Làm thế nào để tối ưu hóa tài liệu cho phiên bản Word cụ thể?
 
- Để tối ưu hóa một tài liệu cho một phiên bản Word cụ thể, hãy sử dụng`optimizeFor` phương pháp và chỉ định phiên bản mong muốn. Ví dụ, để tối ưu hóa cho Word 2016:
+Để tối ưu hóa một tài liệu cho một phiên bản Word cụ thể, hãy sử dụng `optimizeFor` phương pháp và chỉ định phiên bản mong muốn. Ví dụ, để tối ưu hóa cho Word 2016:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -165,7 +167,7 @@ Dọn dẹp các kiểu và danh sách không sử dụng giúp duy trì cấu t
 
 ### Làm thế nào để xóa các kiểu trùng lặp khỏi tài liệu?
 
-Để xóa các kiểu trùng lặp khỏi tài liệu, hãy sử dụng`cleanup` phương pháp với`duplicateStyle` tùy chọn được thiết lập thành`true`. Đây là một ví dụ:
+Để xóa các kiểu trùng lặp khỏi tài liệu, hãy sử dụng `cleanup` phương pháp với `duplicateStyle` tùy chọn được thiết lập thành `true`. Đây là một ví dụ:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -177,7 +179,7 @@ doc.save("Your Directory Path" + "CleanedDocument.docx");
 
 ### Làm thế nào để tùy chỉnh các tùy chọn xem cho một tài liệu?
 
- Bạn có thể tùy chỉnh các tùy chọn xem tài liệu bằng cách sử dụng`ViewOptions` lớp. Ví dụ, để đặt kiểu xem thành bố cục trang và thu phóng thành 50%:
+Bạn có thể tùy chỉnh các tùy chọn xem tài liệu bằng cách sử dụng `ViewOptions` lớp. Ví dụ, để đặt kiểu xem thành bố cục trang và thu phóng thành 50%:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -185,9 +187,14 @@ doc.getViewOptions().setViewType(ViewType.PAGE_LAYOUT);
 doc.getViewOptions().setZoomPercent(50);
 doc.save("Your Directory Path" + "CustomView.docx");
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

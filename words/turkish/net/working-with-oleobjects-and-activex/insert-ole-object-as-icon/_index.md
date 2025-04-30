@@ -1,14 +1,16 @@
 ---
-title: Ole Nesnesini Word Belgesine Simge Olarak Ekle
-linktitle: Ole Nesnesini Word Belgesine Simge Olarak Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerine bir OLE nesnesini simge olarak nasıl ekleyeceğinizi öğrenin. Belgelerinizi geliştirmek için adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon/
+"description": "Aspose.Words for .NET kullanarak Word belgelerine bir OLE nesnesini simge olarak nasıl ekleyeceğinizi öğrenin. Belgelerinizi geliştirmek için adım adım kılavuzumuzu izleyin."
+"linktitle": "Ole Nesnesini Word Belgesine Simge Olarak Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Ole Nesnesini Word Belgesine Simge Olarak Ekle"
+"url": "/tr/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ole Nesnesini Word Belgesine Simge Olarak Ekle
@@ -21,7 +23,7 @@ Bir PowerPoint sunumu veya Excel elektronik tablosu gibi bir OLE nesnesini bir W
 
 Ayrıntılara dalmadan önce, neye ihtiyacınız olduğunu ele alalım:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. Henüz yüklemediyseniz, şuradan indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. Henüz yüklemediyseniz, şuradan indirebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi entegre bir geliştirme ortamına (IDE) ihtiyacınız var.
 3. Temel C# Bilgisi: C# programlamaya dair temel bir anlayışa sahip olmak faydalı olacaktır.
 
@@ -49,15 +51,15 @@ Bu kod parçacığı yeni bir Word belgesi ve belge içeriğini oluşturmak içi
 
 ## Adım 2: OLE Nesnesini Simge Olarak Ekle
 
- Şimdi OLE nesnesini bir simge olarak ekleyelim.`InsertOleObjectAsIcon` Bu amaçla DocumentBuilder sınıfının metodu kullanılır.
+Şimdi OLE nesnesini bir simge olarak ekleyelim. `InsertOleObjectAsIcon` Bu amaçla DocumentBuilder sınıfının metodu kullanılır.
 
 ```csharp
 builder.InsertOleObjectAsIcon("path_to_your_presentation.pptx", false, "path_to_your_icon.ico", "My embedded file");
 ```
 
 Bu yöntemi parçalayalım:
-- `"path_to_your_presentation.pptx"`: Bu, gömmek istediğiniz OLE nesnesinin yoludur.
-- `false` : Bu boolean parametresi, OLE nesnesinin bir simge olarak gösterilip gösterilmeyeceğini belirtir. Bir simge istediğimiz için, bunu şu şekilde ayarlıyoruz:`false`.
+- `"path_to_your_presentation.pptx"`Bu, gömmek istediğiniz OLE nesnesinin yoludur.
+- `false`: Bu boolean parametresi, OLE nesnesinin bir simge olarak gösterilip gösterilmeyeceğini belirtir. Bir simge istediğimiz için, bunu şu şekilde ayarlıyoruz: `false`.
 - `"path_to_your_icon.ico"`: Bu, OLE nesnesi için kullanmak istediğiniz simge dosyasının yoludur.
 - `"My embedded file"`: Bu, simgenin altında görünecek etikettir.
 
@@ -83,22 +85,27 @@ Evet, Excel elektronik tabloları, PowerPoint sunumları ve hatta PDF'ler gibi �
 
 ### Aspose.Words for .NET'in ücretsiz deneme sürümünü nasıl edinebilirim?
 
- Ücretsiz deneme sürümünü şuradan alabilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/).
+Ücretsiz deneme sürümünü şuradan alabilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/).
 
 ### OLE nesnesi nedir?
 
-OLE (Object Linking and Embedding), Microsoft tarafından geliştirilen ve belgelere ve diğer nesnelere yerleştirme ve bağlantı sağlama olanağı sağlayan bir teknolojidir.
+OLE (Object Linking and Embedding), Microsoft tarafından geliştirilen, belgelere ve diğer nesnelere yerleştirme ve bağlantı sağlama olanağı sağlayan bir teknolojidir.
 
 ### Aspose.Words for .NET'i kullanmak için lisansa ihtiyacım var mı?
 
- Evet, Aspose.Words for .NET lisans gerektirir. Bunu şu adresten satın alabilirsiniz:[Aspose satın alma sayfası](https://purchase.aspose.com/buy) veya bir tane al[geçici lisans](https://purchase.aspose.com/temporary-license/) Değerlendirme için.
+Evet, Aspose.Words for .NET bir lisans gerektirir. Bunu şu adresten satın alabilirsiniz: [Aspose satın alma sayfası](https://purchase.aspose.com/buy) veya bir tane al [geçici lisans](https://purchase.aspose.com/temporary-license/) Değerlendirme için.
 
 ### Aspose.Words for .NET hakkında daha fazla öğreticiyi nerede bulabilirim?
 
- Daha fazla öğretici ve belgeyi şu adreste bulabilirsiniz:[Aspose dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+Daha fazla öğretici ve belgeyi şu adreste bulabilirsiniz: [Aspose dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

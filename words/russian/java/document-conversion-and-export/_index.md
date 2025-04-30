@@ -1,14 +1,16 @@
 ---
-title: Преобразование и экспорт документов
-linktitle: Преобразование и экспорт документов
-second_title: API обработки документов Java Aspose.Words
-description: Откройте для себя мощь Aspose.Words для Java в этом всеобъемлющем руководстве. Узнайте, как конвертировать и экспортировать документы без усилий.
-weight: 22
-url: /ru/java/document-conversion-and-export/
+"description": "Откройте для себя мощь Aspose.Words для Java в этом всеобъемлющем руководстве. Узнайте, как конвертировать и экспортировать документы без усилий."
+"linktitle": "Преобразование и экспорт документов"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Преобразование и экспорт документов"
+"url": "/ru/java/document-conversion-and-export/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Преобразование и экспорт документов
@@ -29,7 +31,7 @@ url: /ru/java/document-conversion-and-export/
 
 Итак, погрузитесь в учебные пособия, перечисленные выше, и раскройте весь потенциал Aspose.Words для Java в своих проектах, связанных с документами. Удачного кодирования!
 
- Для получения более подробной информации посетите[Документация API Aspose.Words для Java](https://reference.aspose.com/words/java/) , и для начала скачайте его с[здесь](https://releases.aspose.com/words/java/) . Если у вас есть вопросы или вам нужна помощь, обращайтесь к нашему[форум поддержки](https://forum.aspose.com/).
+Для получения более подробной информации посетите [Документация API Aspose.Words для Java](https://reference.aspose.com/words/java/), и для начала загрузите его с [здесь](https://releases.aspose.com/words/java/). Если у вас есть вопросы или вам нужна помощь, обращайтесь к нашему [форум поддержки](https://forum.aspose.com/).
 
 ## Учебные пособия по конвертации и экспорту документов
 ### [Создание пользовательских этикеток штрихкода в Aspose.Words для Java](./generating-custom-barcode-labels/)
@@ -46,9 +48,13 @@ url: /ru/java/document-conversion-and-export/
 Узнайте, как добавлять водяные знаки в документы в Aspose.Words для Java. Настройте текстовые и графические водяные знаки для профессионально выглядящих документов.
 ### [Форматирование таблиц и стилей таблиц в Aspose.Words для Java](./formatting-tables-and-table-styles/)
 Узнайте, как форматировать таблицы и применять стили таблиц в Aspose.Words для Java. Изучите пошаговые руководства с исходным кодом для эффективного форматирования таблиц. Улучшите макет документа с помощью Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

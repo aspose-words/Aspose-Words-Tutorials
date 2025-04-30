@@ -1,14 +1,16 @@
 ---
-title: Pozycja kursora w dokumencie Word
-linktitle: Pozycja kursora w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak zarządzać pozycjami kursora w dokumentach Worda za pomocą Aspose.Words dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów .NET.
-weight: 10
-url: /pl/net/add-content-using-documentbuilder/cursor-position/
+"description": "Dowiedz się, jak zarządzać pozycjami kursora w dokumentach Worda za pomocą Aspose.Words dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów .NET."
+"linktitle": "Pozycja kursora w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Pozycja kursora w dokumencie Word"
+"url": "/pl/net/add-content-using-documentbuilder/cursor-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pozycja kursora w dokumencie Word
@@ -22,8 +24,8 @@ Hej, koledzy programiści! Czy zdarzyło ci się kiedyś być głęboko w projek
 Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
 1. Podstawowa znajomość języka C#: W tym samouczku zakładamy, że znasz już język C# i koncepcję .NET.
-2.  Zainstalowany program Visual Studio: Każda niedawna wersja wystarczy. Jeśli jeszcze jej nie masz, możesz ją pobrać z[strona](https://visualstudio.microsoft.com/).
-3.  Aspose.Words dla biblioteki .NET: Musisz pobrać i zainstalować tę bibliotekę. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+2. Zainstalowany program Visual Studio: Każda niedawna wersja wystarczy. Jeśli jeszcze jej nie masz, możesz ją pobrać z [strona](https://visualstudio.microsoft.com/).
+3. Aspose.Words dla biblioteki .NET: Musisz pobrać i zainstalować tę bibliotekę. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 
 No dobrze, jeśli wszystko masz już gotowe, możemy przejść do konfiguracji!
 
@@ -33,7 +35,7 @@ Po pierwsze, uruchom Visual Studio i utwórz nową aplikację konsolową C#. To 
 
 ### Zainstaluj Aspose.Words dla .NET
 
- Gdy projekt będzie gotowy, musisz zainstalować Aspose.Words. Możesz to zrobić za pomocą NuGet Package Manager. Wystarczy wyszukać`Aspose.Words` i zainstaluj go. Alternatywnie możesz użyć konsoli Menedżera Pakietów za pomocą tego polecenia:
+Gdy projekt będzie gotowy, musisz zainstalować Aspose.Words. Możesz to zrobić za pomocą NuGet Package Manager. Wystarczy wyszukać `Aspose.Words` i zainstaluj go. Alternatywnie możesz użyć konsoli Menedżera pakietów za pomocą tego polecenia:
 
 ```bash
 Install-Package Aspose.Words
@@ -41,7 +43,7 @@ Install-Package Aspose.Words
 
 ## Importuj przestrzenie nazw
 
- Po zainstalowaniu biblioteki należy pamiętać o zaimportowaniu niezbędnych przestrzeni nazw na górze`Program.cs` plik:
+Po zainstalowaniu biblioteki należy pamiętać o zaimportowaniu niezbędnych przestrzeni nazw na górze `Program.cs` plik:
 
 ```csharp
 using Aspose.Words;
@@ -52,7 +54,7 @@ using Aspose.Words.Tables;
 
 ### Zainicjuj dokument
 
- Zacznijmy od utworzenia nowego dokumentu Word. Użyjemy`Document` I`DocumentBuilder` zajęcia z Aspose.Words.
+Zacznijmy od utworzenia nowego dokumentu Word. Użyjemy `Document` I `DocumentBuilder` zajęcia z Aspose.Words.
 
 ```csharp
 Document doc = new Document();
@@ -116,11 +118,11 @@ Na koniec zapiszmy dokument, aby zobaczyć zmiany.
 doc.Save("ManipulatedDocument.docx");
 ```
 
-I oto masz! Prosty, ale potężny sposób na manipulowanie pozycją kursora w dokumencie Word przy użyciu Aspose.Words dla .NET.
+oto masz! Prosty, ale potężny sposób na manipulowanie pozycją kursora w dokumencie Word przy użyciu Aspose.Words dla .NET.
 
 ## Wniosek
 
-to już koniec! Przyjrzeliśmy się, jak zarządzać pozycjami kursora w dokumentach Worda za pomocą Aspose.Words dla .NET. Od konfiguracji projektu po manipulowanie kursorem i dodawanie tekstu, masz teraz solidne podstawy, na których możesz budować. Eksperymentuj dalej i zobacz, jakie inne fajne funkcje możesz odkryć w tej solidnej bibliotece. Miłego kodowania!
+I to już koniec! Przyjrzeliśmy się, jak zarządzać pozycjami kursora w dokumentach Worda za pomocą Aspose.Words dla .NET. Od konfiguracji projektu po manipulowanie kursorem i dodawanie tekstu, masz teraz solidne podstawy, na których możesz budować. Eksperymentuj dalej i zobacz, jakie inne fajne funkcje możesz odkryć w tej solidnej bibliotece. Miłego kodowania!
 
 ## Najczęściej zadawane pytania
 
@@ -130,11 +132,11 @@ Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programistom tw
 
 ### Czy mogę używać Aspose.Words za darmo?
 
- Aspose.Words oferuje bezpłatną wersję próbną, ale aby korzystać z pełnych funkcji i użytku komercyjnego, musisz kupić licencję. Możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Aspose.Words oferuje bezpłatną wersję próbną, ale aby korzystać z pełnych funkcji i użytku komercyjnego, musisz kupić licencję. Możesz otrzymać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Jak przenieść kursor do konkretnej komórki tabeli?
 
- Możesz przenieść kursor do komórki tabeli za pomocą`builder.MoveToCell` metoda, określająca indeks tabeli, indeks wiersza i indeks komórki.
+Możesz przenieść kursor do komórki tabeli za pomocą `builder.MoveToCell` metoda, określająca indeks tabeli, indeks wiersza i indeks komórki.
 
 ### Czy Aspose.Words jest kompatybilny z .NET Core?
 
@@ -142,11 +144,16 @@ Tak, Aspose.Words jest w pełni kompatybilny z platformą .NET Core, co pozwala 
 
 ### Gdzie mogę znaleźć dokumentację Aspose.Words?
 
- Można znaleźć kompleksową dokumentację Aspose.Words dla .NET[Tutaj](https://reference.aspose.com/words/net/).
+Można znaleźć kompleksową dokumentację Aspose.Words dla .NET [Tutaj](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

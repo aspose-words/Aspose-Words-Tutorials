@@ -1,14 +1,16 @@
 ---
-title: แสดงซ่อนเนื้อหาที่คั่นหน้าในเอกสาร Word
-linktitle: แสดงซ่อนเนื้อหาที่คั่นหน้าในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแสดงและซ่อนเนื้อหาที่คั่นหน้าในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้
-weight: 10
-url: /th/net/programming-with-bookmarks/show-hide-bookmarked-content/
+"description": "เรียนรู้วิธีแสดงและซ่อนเนื้อหาที่คั่นหน้าในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้"
+"linktitle": "แสดงซ่อนเนื้อหาที่คั่นหน้าในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แสดงซ่อนเนื้อหาที่คั่นหน้าในเอกสาร Word"
+"url": "/th/net/programming-with-bookmarks/show-hide-bookmarked-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แสดงซ่อนเนื้อหาที่คั่นหน้าในเอกสาร Word
@@ -22,7 +24,7 @@ url: /th/net/programming-with-bookmarks/show-hide-bookmarked-content/
 ก่อนที่เราจะเข้าสู่รายละเอียด มีบางสิ่งที่คุณต้องมี:
 
 1. Visual Studio: ทุกเวอร์ชันที่เข้ากันได้กับ .NET
-2.  Aspose.Words สำหรับ .NET: ดาวน์โหลด[ที่นี่](https://releases.aspose.com/words/net/).
+2. Aspose.Words สำหรับ .NET: ดาวน์โหลด [ที่นี่](https://releases-aspose.com/words/net/).
 3. ความเข้าใจพื้นฐานเกี่ยวกับ C#: ถ้าคุณสามารถเขียนโปรแกรม "Hello World" ง่ายๆ ได้ คุณก็สามารถทำได้แล้ว
 4. เอกสาร Word ที่มีบุ๊กมาร์ก: เราจะใช้เอกสารตัวอย่างที่มีบุ๊กมาร์กสำหรับบทช่วยสอนนี้
 
@@ -66,11 +68,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Bookmarks.docx");
 ```
 
- โค้ดสั้นๆ นี้กำหนดเส้นทางไปยังไดเร็กทอรีเอกสารของคุณและโหลดเอกสารลงใน`doc` วัตถุ.
+โค้ดสั้นๆ นี้กำหนดเส้นทางไปยังไดเร็กทอรีเอกสารของคุณและโหลดเอกสารลงใน `doc` วัตถุ.
 
 ## ขั้นตอนที่ 3: แสดง/ซ่อนเนื้อหาที่คั่นหน้าไว้
 
-ตอนนี้มาถึงส่วนที่สนุกแล้ว – การแสดงหรือซ่อนเนื้อหาตามบุ๊กมาร์ก เราจะสร้างวิธีการที่เรียกว่า`ShowHideBookmarkedContent` เพื่อจัดการเรื่องนี้
+ตอนนี้มาถึงส่วนที่สนุกแล้ว – การแสดงหรือซ่อนเนื้อหาตามบุ๊กมาร์ก เราจะสร้างวิธีการที่เรียกว่า `ShowHideBookmarkedContent` เพื่อจัดการเรื่องนี้
 
 นี่คือวิธีการที่จะสลับการมองเห็นเนื้อหาที่คั่นหน้าไว้:
 
@@ -94,9 +96,9 @@ public void ShowHideBookmarkedContent(Document doc, string bookmarkName, bool is
 
 ### การแยกย่อยวิธีการ
 
--  การดึงข้อมูลบุ๊กมาร์ก:`Bookmark bm = doc.Range.Bookmarks[bookmarkName];` ดึงบุ๊คมาร์กมา
+- การดึงข้อมูลบุ๊กมาร์ก: `Bookmark bm = doc.Range.Bookmarks[bookmarkName];` ดึงบุ๊คมาร์กมา
 - การท่องโหนด: เราท่องไปยังโหนดต่างๆ ภายในบุ๊กมาร์ก
--  สลับการมองเห็น: หากโหนดเป็น`Run` (การเรียงข้อความต่อเนื่อง) เรากำหนดไว้`Hidden` คุณสมบัติ.
+- สลับการมองเห็น: หากโหนดเป็น `Run` (การเรียงข้อความต่อเนื่อง) เรากำหนดไว้ `Hidden` คุณสมบัติ.
 
 ## ขั้นตอนที่ 4: การใช้วิธีการ
 
@@ -125,22 +127,27 @@ doc.Save(dataDir + "WorkingWithBookmarks.ShowHideBookmarks.docx");
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถสลับบุ๊กมาร์กหลายรายการพร้อมกันได้ไหม
- ใช่ คุณสามารถโทรได้`ShowHideBookmarkedContent` วิธีการสำหรับแต่ละบุ๊กมาร์กที่คุณต้องการสลับ
+ใช่ คุณสามารถโทรได้ `ShowHideBookmarkedContent` วิธีการสำหรับแต่ละบุ๊กมาร์กที่คุณต้องการสลับ
 
 ### การซ่อนเนื้อหาจะส่งผลต่อโครงสร้างเอกสารหรือไม่?
 ไม่ การซ่อนเนื้อหาจะส่งผลต่อการมองเห็นเท่านั้น เนื้อหาจะยังคงอยู่ในเอกสาร
 
-### ฉันสามารถใช้วิธีนี้กับเนื้อหาประเภทอื่นได้หรือไม่
+### ฉันสามารถใช้วิธีนี้กับเนื้อหาประเภทอื่นได้ไหม?
 วิธีการนี้จะสลับการทำงานของข้อความโดยเฉพาะ สำหรับประเภทเนื้อหาอื่น คุณจะต้องปรับเปลี่ยนตรรกะการท่องโหนด
 
 ### Aspose.Words สำหรับ .NET ฟรีหรือเปล่า?
- Aspose.Words เสนอให้ทดลองใช้งานฟรี[ที่นี่](https://releases.aspose.com/) แต่ต้องมีใบอนุญาตเต็มรูปแบบจึงจะใช้งานจริงได้ คุณสามารถซื้อได้[ที่นี่](https://purchase.aspose.com/buy).
+Aspose.Words เสนอให้ทดลองใช้งานฟรี [ที่นี่](https://releases.aspose.com/)แต่ต้องมีใบอนุญาตเต็มรูปแบบจึงจะใช้งานจริงได้ คุณสามารถซื้อได้ [ที่นี่](https://purchase-aspose.com/buy).
 
 ### ฉันจะได้รับการสนับสนุนได้อย่างไรหากประสบปัญหา?
- คุณสามารถรับการสนับสนุนจากชุมชน Aspose ได้[ที่นี่](https://forum.aspose.com/c/words/8).
+คุณสามารถรับการสนับสนุนจากชุมชน Aspose ได้ [ที่นี่](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

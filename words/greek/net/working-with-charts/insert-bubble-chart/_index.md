@@ -1,49 +1,57 @@
 ---
-title: Εισαγωγή ενός πίνακα φούσκας στο Word χρησιμοποιώντας Aspose.Words για .NET
-weight: 7700
-limit: 
-description: Μάθετε πώς να εισαγάγετε ένα διάγραμμα Bubble σε ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET. Περιλαμβάνονται οι οδηγίες βήμα- βάθμα και το παράδειγμα κώδικα.
-keywords: [Aspose.Words for .NET, insert Bubble chart, Word document, .NET Bubble chart example, create Bubble chart Word]
-url: /el/net/working-with-charts/insert-bubble-chart/
+"description": "Μάθετε πώς να εισάγετε ένα γράφημα Bubble σε ένα έγγραφο του Word χρησιμοποιώντας το Aspose.Words για .NET. Περιλαμβάνονται οδηγίες βήμα προς βήμα και παράδειγμα κώδικα."
+"title": "Εισαγωγή γραφήματος φυσαλίδων στο Word χρησιμοποιώντας το Aspose.Words για .NET"
+"url": "/el/net/working-with-charts/insert-bubble-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Εισαγωγή ενός πίνακα φούσκων στο Word χρησιμοποιώντας Aspose.Words
+# Εισαγωγή γραφήματος φυσαλίδων στο Word χρησιμοποιώντας το Aspose.Words
 
-Ενημέρωσε την προετοιμασία του προγράμματος Word για να χρησιμοποιήσει το Word.  
+Προσθέστε εύκολα ένα γράφημα φυσαλίδων στο έγγραφο του Word σας χρησιμοποιώντας το Aspose.Words για .NET! Αυτός ο οδηγός σας καθοδηγεί στη δημιουργία ενός νέου εγγράφου, στην εισαγωγή ενός γραφήματος φυσαλίδων, στην προσθήκη σειρών δεδομένων με τιμές X, Y και μεγέθους και στην αποθήκευση του εγγράφου. Με το Aspose.Words, η διαχείριση εγγράφων του Word μέσω προγραμματισμού δεν ήταν ποτέ ευκολότερη.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-bubble-chart" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Διδασκαλίες εγκατάστασης  
+## Οδηγίες εγκατάστασης  
 
-1. Κατεβάστε Aspose.Words για .NET  
-   Πάρτε τη βιβλιοθήκη από την ["Αποθέστε.Πράξεις" σελίδα λήψης](https://releases.aspose.com/words/net/)\- Δεν ξέρω .  
+1. Λήψη Aspose.Words για .NET  
+   Αποκτήστε τη βιβλιοθήκη από το [Σελίδα λήψης Aspose.Words](https://releases.aspose.com/words/net/).  
 
-2. Εγκατάσταση μέσω του διαχειριστή πακέτων NuGet  
-   * Ανοίξτε το έργο Visual Studio σας.  
-   * Επιστρέψτε στα εργαλεία > Διαχειριστής πακέτων NuGet > Διαχειρίστε τα πακέτα NuGet για Λύση.  
-   * Ψάξε για`"Αποκοινώνεστε.`Στην καρτέλα Browse.  
-   * Επιλέξτε το πακέτο και κάντε κλικ στην Εγκατάσταση.  
+2. Εγκατάσταση μέσω του NuGet Package Manager  
+   - Ανοίξτε το έργο σας στο Visual Studio.  
+   - Μεταβείτε στα Εργαλεία > Διαχειριστής πακέτων NuGet > Διαχείριση πακέτων NuGet για λύση.  
+   - Αναζήτηση για `Aspose.Words` στην καρτέλα Αναζήτηση.  
+   - Επιλέξτε το πακέτο και κάντε κλικ στην επιλογή Εγκατάσταση.  
 
 3. Εγκατάσταση μέσω της κονσόλας NuGet Package Manager  
-   Εκτελέστε την ακόλουθη εντολή στο κονσόλα διαχειριστή πακέτων:  
+   Εκτελέστε την ακόλουθη εντολή στην Κονσόλα Διαχείρισης Πακέτων:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-4. Προσθήκη άδειας  
-   Για πλήρη λειτουργικότητα, εφαρμόστε άδεια.[Σελίδα Προσωρινής Άδειας](https://purchase.aspose.com/temporary-license/)\- Δεν ξέρω .  
+4. Προσθήκη άδειας χρήσης  
+   Για πλήρη λειτουργικότητα, εφαρμόστε μια άδεια χρήσης. Μπορείτε να λάβετε μια προσωρινή άδεια χρήσης από το [Σελίδα Προσωρινής Άδειας Χρήσης Aspose](https://purchase.aspose.com/temporary-license/).  
 
 ## Δείτε επίσης
-[Aspose.Word για έγγραφο .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word για .NET References](https://reference.aspose.com/words/net/)
+[Aspose.Word για τεκμηρίωση .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word για αναφορές .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

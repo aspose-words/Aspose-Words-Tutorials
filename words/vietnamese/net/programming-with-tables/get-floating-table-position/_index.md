@@ -1,29 +1,31 @@
 ---
-title: Nhận vị trí bảng nổi
-linktitle: Nhận vị trí bảng nổi
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách lấy vị trí bảng nổi trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn chi tiết, từng bước này sẽ hướng dẫn bạn mọi thứ bạn cần biết.
-weight: 10
-url: /vi/net/programming-with-tables/get-floating-table-position/
+"description": "Tìm hiểu cách lấy vị trí bảng nổi trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn chi tiết, từng bước này sẽ hướng dẫn bạn mọi thứ bạn cần biết."
+"linktitle": "Nhận vị trí bảng nổi"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Nhận vị trí bảng nổi"
+"url": "/vi/net/programming-with-tables/get-floating-table-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận vị trí bảng nổi
 
 ## Giới thiệu
 
-Bạn đã sẵn sàng để khám phá thế giới của Aspose.Words cho .NET chưa? Hôm nay, chúng tôi sẽ đưa bạn vào hành trình khám phá bí mật của các bảng nổi trong tài liệu Word. Hãy tưởng tượng bạn có một bảng không chỉ đứng yên mà còn trôi nổi một cách tao nhã xung quanh văn bản. Thật tuyệt phải không? Hướng dẫn này sẽ hướng dẫn bạn cách lấy các thuộc tính định vị của các bảng nổi như vậy. Vậy, hãy bắt đầu thôi!
+Bạn đã sẵn sàng để khám phá thế giới của Aspose.Words cho .NET chưa? Hôm nay, chúng tôi sẽ đưa bạn vào hành trình khám phá những bí mật của bảng nổi trong tài liệu Word. Hãy tưởng tượng bạn có một bảng không chỉ đứng yên mà còn trôi nổi một cách tao nhã xung quanh văn bản. Thật tuyệt phải không? Hướng dẫn này sẽ hướng dẫn bạn cách lấy các thuộc tính định vị của các bảng nổi như vậy. Vậy, hãy bắt đầu thôi!
 
 ## Điều kiện tiên quyết
 
 Trước khi đi vào phần thú vị, bạn cần chuẩn bị một số thứ sau:
 
-1.  Aspose.Words cho .NET: Nếu bạn chưa tải xuống và cài đặt Aspose.Words cho .NET từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Nếu bạn chưa tải xuống và cài đặt Aspose.Words cho .NET từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Đảm bảo bạn đã thiết lập môi trường phát triển .NET. Visual Studio là một lựa chọn tuyệt vời.
-3. Tài liệu mẫu: Bạn sẽ cần một tài liệu Word có bảng nổi. Bạn có thể tạo một bảng hoặc sử dụng một tài liệu hiện có. 
+3. Tài liệu mẫu: Bạn sẽ cần một tài liệu Word có bảng nổi. Bạn có thể tạo một bảng hoặc sử dụng tài liệu hiện có. 
 
 ## Nhập không gian tên
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Table wrapped by text.docx");
 ```
 
- Trong bước này, về cơ bản bạn đang cho Aspose.Words biết nơi tìm tài liệu của bạn. Hãy đảm bảo thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tài liệu của bạn.
+Trong bước này, về cơ bản bạn đang cho Aspose.Words biết nơi tìm tài liệu của bạn. Hãy đảm bảo thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tài liệu của bạn.
 
 ## Bước 2: Truy cập các Bảng trong Tài liệu
 
@@ -60,7 +62,7 @@ foreach (Table table in doc.FirstSection.Body.Tables)
 }
 ```
 
-Ở đây, bạn sẽ lặp qua từng bảng được tìm thấy trong phần thân đầu tiên của tài liệu.
+Ở đây, bạn sẽ lặp qua từng bảng được tìm thấy trong phần đầu tiên của tài liệu.
 
 ## Bước 3: Kiểm tra xem Bảng có Nổi không
 
@@ -106,7 +108,7 @@ Hãy nhớ rằng, làm việc với Aspose.Words cho .NET mở ra một thế g
 Bảng nổi là bảng không cố định vào văn bản nhưng có thể di chuyển xung quanh, thường có văn bản bao quanh bảng.
 
 ### Làm thế nào để biết một bảng có đang nổi hay không khi sử dụng Aspose.Words cho .NET?
- Bạn có thể kiểm tra xem một bảng có nổi không bằng cách kiểm tra nó`TextWrapping` thuộc tính. Nếu nó được đặt thành`TextWrapping.Around`, cái bàn đang nổi.
+Bạn có thể kiểm tra xem một bảng có nổi không bằng cách kiểm tra nó `TextWrapping` thuộc tính. Nếu nó được đặt thành `TextWrapping.Around`, cái bàn đang nổi.
 
 ### Tôi có thể thay đổi thuộc tính định vị của bảng nổi không?
 Có, khi sử dụng Aspose.Words cho .NET, bạn có thể sửa đổi các thuộc tính định vị của bảng nổi để tùy chỉnh bố cục của bảng đó.
@@ -115,10 +117,15 @@ Có, khi sử dụng Aspose.Words cho .NET, bạn có thể sửa đổi các th
 Chắc chắn rồi! Aspose.Words for .NET được thiết kế để tự động hóa tài liệu hiệu suất cao và có thể xử lý hiệu quả các hoạt động quy mô lớn.
 
 ### Tôi có thể tìm thêm thông tin và tài nguyên về Aspose.Words cho .NET ở đâu?
-Bạn có thể tìm thấy tài liệu và tài nguyên chi tiết trên[Trang tài liệu Aspose.Words cho .NET](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu và tài nguyên chi tiết trên [Trang tài liệu Aspose.Words cho .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

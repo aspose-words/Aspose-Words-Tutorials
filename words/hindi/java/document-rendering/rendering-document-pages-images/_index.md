@@ -1,14 +1,16 @@
 ---
-title: दस्तावेज़ पृष्ठों को छवियों के रूप में प्रस्तुत करना
-linktitle: दस्तावेज़ पृष्ठों को छवियों के रूप में प्रस्तुत करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Java के लिए Aspose.Words का उपयोग करके दस्तावेज़ पृष्ठों को छवियों के रूप में प्रस्तुत करना सीखें। कुशल दस्तावेज़ रूपांतरण के लिए कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 10
-url: /hi/java/document-rendering/rendering-document-pages-images/
+"description": "Java के लिए Aspose.Words का उपयोग करके दस्तावेज़ पृष्ठों को छवियों के रूप में प्रस्तुत करना सीखें। कुशल दस्तावेज़ रूपांतरण के लिए कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "दस्तावेज़ पृष्ठों को छवियों के रूप में प्रस्तुत करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "दस्तावेज़ पृष्ठों को छवियों के रूप में प्रस्तुत करना"
+"url": "/hi/java/document-rendering/rendering-document-pages-images/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # दस्तावेज़ पृष्ठों को छवियों के रूप में प्रस्तुत करना
@@ -22,7 +24,7 @@ url: /hi/java/document-rendering/rendering-document-pages-images/
 
 कोडिंग शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
-1.  Aspose.Words for Java: Aspose.Words for Java को यहां से डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/words/java/).
+1. Aspose.Words for Java: Aspose.Words for Java को यहां से डाउनलोड और इंस्टॉल करें [यहाँ](https://releases.aspose.com/words/java/).
 
 2. जावा विकास वातावरण: सुनिश्चित करें कि आपके मशीन पर जावा विकास वातावरण स्थापित है।
 
@@ -41,7 +43,7 @@ public class DocumentToImageConversion {
 
 ## चरण 2: दस्तावेज़ लोड करें
 
-इस चरण में, हम उस Word दस्तावेज़ को लोड करेंगे जिसे हम छवि में बदलना चाहते हैं।`"sample.docx"` अपने दस्तावेज़ के पथ के साथ.
+इस चरण में, हम उस Word दस्तावेज़ को लोड करेंगे जिसे हम छवि में बदलना चाहते हैं। `"sample.docx"` अपने दस्तावेज़ के पथ के साथ.
 
 ```java
 // Word दस्तावेज़ लोड करें
@@ -82,7 +84,7 @@ for (int pageIndex = 0; pageIndex < doc.getPageCount(); pageIndex++) {
 
 ### मैं दस्तावेज़ों को विभिन्न छवि प्रारूपों में कैसे प्रस्तुत कर सकता हूँ?
 
- आप वांछित प्रारूप निर्दिष्ट करके दस्तावेज़ों को विभिन्न छवि प्रारूपों में प्रस्तुत कर सकते हैं`ImageSaveOptions`समर्थित प्रारूपों में PNG, JPEG, BMP, TIFF, आदि शामिल हैं।
+आप वांछित प्रारूप निर्दिष्ट करके दस्तावेज़ों को विभिन्न छवि प्रारूपों में प्रस्तुत कर सकते हैं `ImageSaveOptions`समर्थित प्रारूपों में PNG, JPEG, BMP, TIFF, आदि शामिल हैं।
 
 ### क्या Aspose.Words for Java विभिन्न दस्तावेज़ प्रारूपों के साथ संगत है?
 
@@ -90,7 +92,7 @@ for (int pageIndex = 0; pageIndex < doc.getPageCount(); pageIndex++) {
 
 ### क्या मैं रेंडरिंग के दौरान छवि रिज़ॉल्यूशन को नियंत्रित कर सकता हूँ?
 
- बिल्कुल! Aspose.Words आपको इमेज रेंडरिंग के लिए रिज़ॉल्यूशन सेट करने की अनुमति देता है`setResolution`विधि में`ImageSaveOptions`यह सुनिश्चित करता है कि आउटपुट छवियां आपकी गुणवत्ता आवश्यकताओं को पूरा करती हैं।
+बिल्कुल! Aspose.Words आपको इमेज रेंडरिंग के लिए रिज़ॉल्यूशन सेट करने की अनुमति देता है `setResolution` विधि में `ImageSaveOptions`यह सुनिश्चित करता है कि आउटपुट छवियां आपकी गुणवत्ता आवश्यकताओं को पूरा करती हैं।
 
 ### क्या Aspose.Words बैच दस्तावेज़ प्रसंस्करण के लिए उपयुक्त है?
 
@@ -98,10 +100,15 @@ for (int pageIndex = 0; pageIndex < doc.getPageCount(); pageIndex++) {
 
 ### मैं अधिक दस्तावेज और उदाहरण कहां पा सकता हूं?
 
- विस्तृत दस्तावेज़ीकरण और उदाहरणों के लिए, Aspose.Words for Java API संदर्भ पर जाएँ[यहाँ](https://reference.aspose.com/words/java/).
+विस्तृत दस्तावेज़ीकरण और उदाहरणों के लिए, Aspose.Words for Java API संदर्भ पर जाएँ [यहाँ](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

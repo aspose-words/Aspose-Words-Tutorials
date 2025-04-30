@@ -1,14 +1,16 @@
 ---
-title: Określ poziom listy
-linktitle: Określ poziom listy
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak tworzyć wielopoziomowe listy numerowane i wypunktowane w dokumentach Worda przy użyciu Aspose.Words dla .NET. Zawiera przewodnik krok po kroku. Idealne dla programistów .NET.
-weight: 10
-url: /pl/net/working-with-list/specify-list-level/
+"description": "Dowiedz się, jak tworzyć wielopoziomowe listy numerowane i wypunktowane w dokumentach Worda przy użyciu Aspose.Words dla .NET. Zawiera przewodnik krok po kroku. Idealne dla programistów .NET."
+"linktitle": "Określ poziom listy"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Określ poziom listy"
+"url": "/pl/net/working-with-list/specify-list-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Określ poziom listy
@@ -21,7 +23,7 @@ Hej, kolego programisto! Jeśli kiedykolwiek zmagałeś się z tworzeniem dynami
 
 Zanim przejdziemy do szczegółów, upewnijmy się, że mamy wszystko, czego potrzebujemy. Oto krótka lista kontrolna:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: IDE, takie jak Visual Studio, ułatwi Ci życie.
 3. .NET Framework: Upewnij się, że na Twoim komputerze jest zainstalowany .NET Framework.
 4. Podstawowa znajomość języka C#: W tym samouczku zakładamy, że znasz podstawy programowania w języku C#.
@@ -42,7 +44,7 @@ Przygotowuje to grunt pod pracę z Aspose.Words w projekcie.
 
 ## Krok 1: Konfigurowanie dokumentu i DocumentBuilder
 
- Zacznijmy od utworzenia nowego dokumentu i`DocumentBuilder` sprzeciwiam się pracy z nim.
+Zacznijmy od utworzenia nowego dokumentu i `DocumentBuilder` sprzeciwiam się pracy z nim.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -52,7 +54,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Krok 2: Tworzenie listy numerowanej
 
- Teraz utworzymy listę numerowaną na podstawie jednego z szablonów listy programu Microsoft Word i zastosujemy ją do`DocumentBuilder`'bieżącego akapitu.
+Teraz utworzymy listę numerowaną na podstawie jednego z szablonów listy programu Microsoft Word i zastosujemy ją do `DocumentBuilder`Aktualny akapit.
 
 ```csharp
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberArabicDot);
@@ -120,7 +122,7 @@ Tworzenie ustrukturyzowanych i wielopoziomowych list w dokumentach Word może zn
 Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programowe tworzenie, edycję, konwertowanie i drukowanie dokumentów Word w języku C#.
 
 ### Czy mogę używać Aspose.Words za darmo?
-Aspose.Words oferuje bezpłatną wersję próbną, którą możesz pobrać[Tutaj](https://releases.aspose.com/) . Aby uzyskać pełną wersję, możesz sprawdzić opcje zakupu[Tutaj](https://purchase.aspose.com/buy).
+Aspose.Words oferuje bezpłatną wersję próbną, którą możesz pobrać [Tutaj](https://releases.aspose.com/). Aby uzyskać pełną wersję, możesz sprawdzić opcje zakupu [Tutaj](https://purchase.aspose.com/buy).
 
 ### Ile poziomów mogę określić na liście używając Aspose.Words?
 Za pomocą Aspose.Words można określić maksymalnie dziewięć poziomów na liście.
@@ -129,10 +131,15 @@ Za pomocą Aspose.Words można określić maksymalnie dziewięć poziomów na li
 Tak, możesz mieszać różne typy list w jednym dokumencie, zmieniając szablon listy w razie potrzeby.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words dla .NET?
- Szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/words/net/).
+Szczegółową dokumentację można znaleźć [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

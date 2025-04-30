@@ -1,14 +1,16 @@
 ---
-title: Bật Tắt Thay Thế Phông Chữ
-linktitle: Bật Tắt Thay Thế Phông Chữ
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách bật hoặc tắt tính năng thay thế phông chữ trong tài liệu Word bằng Aspose.Words cho .NET. Đảm bảo tài liệu của bạn trông nhất quán trên mọi nền tảng.
-weight: 10
-url: /vi/net/working-with-fonts/enable-disable-font-substitution/
+"description": "Tìm hiểu cách bật hoặc tắt tính năng thay thế phông chữ trong tài liệu Word bằng Aspose.Words cho .NET. Đảm bảo tài liệu của bạn trông nhất quán trên mọi nền tảng."
+"linktitle": "Bật Tắt Thay Thế Phông Chữ"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Bật Tắt Thay Thế Phông Chữ"
+"url": "/vi/net/working-with-fonts/enable-disable-font-substitution/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bật Tắt Thay Thế Phông Chữ
@@ -21,7 +23,7 @@ Bạn đã bao giờ rơi vào tình huống phông chữ bạn chọn kỹ lư�
 
 Trước khi thực hiện các bước, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
--  Aspose.Words cho .NET: Tải xuống phiên bản mới nhất[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Tải xuống phiên bản mới nhất [đây](https://releases.aspose.com/words/net/).
 - Visual Studio: Bất kỳ phiên bản nào hỗ trợ .NET.
 - Kiến thức cơ bản về C#: Điều này sẽ giúp bạn theo dõi các ví dụ mã hóa.
 
@@ -38,24 +40,24 @@ Bây giờ, chúng ta hãy chia nhỏ quy trình thành các bước đơn giả
 
 ## Bước 1: Thiết lập dự án của bạn
 
-Đầu tiên, hãy thiết lập một dự án mới trong Visual Studio và thêm tham chiếu đến thư viện Aspose.Words cho .NET. Nếu bạn chưa tải xuống, hãy tải xuống từ[Trang web Aspose](https://releases.aspose.com/words/net/).
+Đầu tiên, hãy thiết lập một dự án mới trong Visual Studio và thêm tham chiếu đến thư viện Aspose.Words cho .NET. Nếu bạn chưa tải xuống, hãy tải xuống từ [Trang web Aspose](https://releases.aspose.com/words/net/).
 
 ## Bước 2: Tải tài liệu của bạn
 
-Tiếp theo, tải tài liệu bạn muốn làm việc. Đây là cách thực hiện:
+Tiếp theo, tải tài liệu bạn muốn làm việc. Đây là cách bạn thực hiện:
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn. Mã này tải tài liệu vào bộ nhớ để bạn có thể thao tác.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn. Mã này tải tài liệu vào bộ nhớ để bạn có thể thao tác.
 
 ## Bước 3: Cấu hình cài đặt phông chữ
 
- Bây giờ, chúng ta hãy tạo một`FontSettings` đối tượng để quản lý cài đặt thay thế phông chữ:
+Bây giờ, chúng ta hãy tạo một `FontSettings` đối tượng để quản lý cài đặt thay thế phông chữ:
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -103,7 +105,7 @@ Và bạn đã có nó! Bằng cách làm theo các bước này, bạn có th�
 
 ### Tôi có thể sử dụng phông chữ khác ngoài Arial để thay thế không?
 
- Chắc chắn rồi! Bạn có thể chỉ định bất kỳ phông chữ nào có sẵn trên hệ thống của bạn bằng cách thay đổi tên phông chữ trong`DefaultFontName` tài sản.
+Chắc chắn rồi! Bạn có thể chỉ định bất kỳ phông chữ nào có sẵn trên hệ thống của bạn bằng cách thay đổi tên phông chữ trong `DefaultFontName` tài sản.
 
 ### Điều gì xảy ra nếu phông chữ mặc định được chỉ định không khả dụng?
 
@@ -111,7 +113,7 @@ Nếu phông chữ mặc định không khả dụng, Aspose.Words sẽ sử d�
 
 ### Tôi có thể bật lại tính năng thay thế phông chữ sau khi đã tắt nó không?
 
- Có, bạn có thể chuyển đổi`Enabled` tài sản của`FontInfoSubstitution` trở lại`true` nếu bạn muốn bật lại chức năng thay thế phông chữ.
+Có, bạn có thể chuyển đổi `Enabled` tài sản của `FontInfoSubstitution` trở lại `true` nếu bạn muốn bật lại chức năng thay thế phông chữ.
 
 ### Có cách nào để kiểm tra phông chữ nào đang được thay thế không?
 
@@ -120,9 +122,14 @@ Có, Aspose.Words cung cấp các phương pháp để ghi lại và theo dõi v
 ### Tôi có thể sử dụng phương pháp này cho các định dạng tài liệu khác ngoài DOCX không?
 
 Chắc chắn rồi! Aspose.Words hỗ trợ nhiều định dạng khác nhau và bạn có thể áp dụng các cài đặt phông chữ này cho bất kỳ định dạng nào được hỗ trợ.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

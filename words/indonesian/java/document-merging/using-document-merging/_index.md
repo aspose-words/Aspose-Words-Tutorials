@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Penggabungan Dokumen
-linktitle: Menggunakan Penggabungan Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menggabungkan dokumen Word dengan mudah menggunakan Aspose.Words untuk Java. Gabungkan, format, dan tangani konflik secara efisien hanya dalam beberapa langkah. Mulailah sekarang!
-weight: 10
-url: /id/java/document-merging/using-document-merging/
+"description": "Pelajari cara menggabungkan dokumen Word dengan mudah menggunakan Aspose.Words untuk Java. Gabungkan, format, dan tangani konflik secara efisien hanya dalam beberapa langkah. Mulailah sekarang!"
+"linktitle": "Menggunakan Penggabungan Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Penggabungan Dokumen"
+"url": "/id/java/document-merging/using-document-merging/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Penggabungan Dokumen
@@ -24,7 +26,7 @@ Penggabungan dokumen adalah proses menggabungkan dua atau lebih dokumen Word yan
 Sebelum kita mulai menggabungkan dokumen, mari kita pastikan Aspose.Words for Java sudah terinstal dengan benar di proyek kita. Ikuti langkah-langkah berikut untuk memulai:
 
 ### Dapatkan Aspose.Words untuk Java:
- Kunjungi Rilis Aspose (https://releases.aspose.com/words/java) untuk mendapatkan versi pustaka terkini.
+ Kunjungi Aspose Releases (https://releases.aspose.com/words/java) untuk mendapatkan versi terbaru pustaka.
 
 ### Tambahkan Pustaka Aspose.Words:
  Sertakan file JAR Aspose.Words di classpath proyek Java Anda.
@@ -59,7 +61,7 @@ public class DocumentMerger {
 }
 ```
 
- Dalam contoh di atas, kami memuat dua dokumen menggunakan`Document` kelas dan kemudian menggunakan`appendDocument()`metode untuk menggabungkan konten "document2.docx" ke dalam "document1.docx" sambil mempertahankan format dokumen sumber.
+Dalam contoh di atas, kami memuat dua dokumen menggunakan `Document` kelas dan kemudian menggunakan `appendDocument()` metode untuk menggabungkan konten "document2.docx" ke dalam "document1.docx" sambil mempertahankan format dokumen sumber.
 
 ## 4. Penanganan Pemformatan Dokumen
 
@@ -78,7 +80,7 @@ Pilih mode format impor yang tepat berdasarkan kebutuhan penggabungan Anda.
 
 ## 5. Menggabungkan Beberapa Dokumen
 
- Untuk menggabungkan lebih dari dua dokumen, ikuti pendekatan yang sama seperti di atas dan gunakan`appendDocument()` metode beberapa kali:
+Untuk menggabungkan lebih dari dua dokumen, ikuti pendekatan yang sama seperti di atas dan gunakan `appendDocument()` metode beberapa kali:
 
 ```java
 import com.aspose.words.*;
@@ -114,13 +116,13 @@ Menggabungkan dokumen tanpa jeda.
 Menyisipkan jeda berkesinambungan di antara dokumen.
 
 - `doc1.appendDocument(doc2, ImportFormatMode.KEEP_DIFFERENT_STYLES);`: 
-Menyisipkan jeda halaman apabila gayanya berbeda antara satu dokumen dengan dokumen lainnya.
+Menyisipkan jeda halaman apabila gaya berbeda antara satu dokumen dengan dokumen lainnya.
 
 Pilih metode yang tepat berdasarkan kebutuhan spesifik Anda.
 
 ## 7. Menggabungkan Bagian Dokumen Tertentu
 
- Dalam beberapa skenario, Anda mungkin ingin menggabungkan hanya bagian-bagian tertentu dari dokumen. Misalnya, menggabungkan hanya konten body, tidak termasuk header dan footer. Aspose.Words memungkinkan Anda untuk mencapai tingkat ketelitian ini menggunakan`Range` kelas:
+Dalam beberapa skenario, Anda mungkin ingin menggabungkan hanya bagian-bagian tertentu dari dokumen. Misalnya, menggabungkan hanya konten body, tidak termasuk header dan footer. Aspose.Words memungkinkan Anda untuk mencapai tingkat ketelitian ini menggunakan `Range` kelas:
 
 ```java
 import com.aspose.words.*;
@@ -171,7 +173,7 @@ public class DocumentMerger {
 }
 ```
 
- Dengan menggunakan`ImportFormatMode.KEEP_DIFFERENT_STYLES`Aspose.Words mempertahankan gaya yang berbeda antara dokumen sumber dan tujuan, menyelesaikan konflik dengan baik.
+Dengan menggunakan `ImportFormatMode.KEEP_DIFFERENT_STYLES`Aspose.Words mempertahankan gaya yang berbeda antara dokumen sumber dan tujuan, menyelesaikan konflik dengan baik.
 
 ## Kesimpulan
 
@@ -185,7 +187,7 @@ Ya, Aspose.Words untuk Java menangani penggabungan dokumen dengan berbagai forma
 
 ### Apakah Aspose.Words mendukung penggabungan dokumen besar secara efisien?
 
-Aspose.Words untuk Java dirancang untuk menangani dokumen besar secara efisien. Aplikasi ini menggunakan algoritme yang dioptimalkan untuk penggabungan dokumen, memastikan kinerja tinggi bahkan dengan konten yang ekstensif.
+Aspose.Words untuk Java dirancang untuk menangani dokumen besar secara efisien. Aplikasi ini menggunakan algoritma yang dioptimalkan untuk penggabungan dokumen, memastikan kinerja tinggi bahkan dengan konten yang ekstensif.
 
 ### Bisakah saya menggabungkan dokumen yang dilindungi kata sandi menggunakan Aspose.Words untuk Java?
 
@@ -209,7 +211,7 @@ Aspose.Words terutama dirancang untuk bekerja dengan dokumen Word. Untuk menggab
 
 ### Bagaimana saya dapat menangani versi dokumen selama penggabungan?
 
-Versi dokumen selama penggabungan dapat dicapai dengan menerapkan praktik kontrol versi yang tepat dalam aplikasi Anda. Aspose.Words berfokus pada penggabungan konten dokumen dan tidak secara langsung mengelola versi.
+Pembuatan versi dokumen selama penggabungan dapat dilakukan dengan menerapkan praktik kontrol versi yang tepat dalam aplikasi Anda. Aspose.Words berfokus pada penggabungan konten dokumen dan tidak secara langsung mengelola pembuatan versi.
 
 ### Apakah Aspose.Words untuk Java kompatibel dengan Java 8 dan versi yang lebih baru?
 
@@ -218,9 +220,14 @@ Ya, Aspose.Words untuk Java kompatibel dengan Java 8 dan versi yang lebih baru. 
 ### Apakah Aspose.Words mendukung penggabungan dokumen dari sumber jarak jauh seperti URL?
 
 Ya, Aspose.Words untuk Java dapat memuat dokumen dari berbagai sumber, termasuk URL, aliran, dan jalur file. Anda dapat menggabungkan dokumen yang diambil dari lokasi jarak jauh dengan mudah.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

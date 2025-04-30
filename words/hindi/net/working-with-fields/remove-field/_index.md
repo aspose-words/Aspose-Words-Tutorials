@@ -1,14 +1,16 @@
 ---
-title: फ़ील्ड हटाएँ
-linktitle: फ़ील्ड हटाएँ
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस विस्तृत, चरण-दर-चरण मार्गदर्शिका में जानें कि .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों से फ़ील्ड कैसे निकालें। डेवलपर्स और दस्तावेज़ प्रबंधन के लिए बिल्कुल सही।
-weight: 10
-url: /hi/net/working-with-fields/remove-field/
+"description": "इस विस्तृत, चरण-दर-चरण मार्गदर्शिका में जानें कि .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों से फ़ील्ड कैसे निकालें। डेवलपर्स और दस्तावेज़ प्रबंधन के लिए बिल्कुल सही।"
+"linktitle": "फ़ील्ड हटाएँ"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "फ़ील्ड हटाएँ"
+"url": "/hi/net/working-with-fields/remove-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # फ़ील्ड हटाएँ
@@ -21,7 +23,7 @@ url: /hi/net/working-with-fields/remove-field/
 
 इससे पहले कि हम बारीकियों में जाएं, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  Aspose.Words for .NET: सुनिश्चित करें कि आपने इसे डाउनलोड और इंस्टॉल कर लिया है। अगर आपने ऐसा नहीं किया है, तो इसे डाउनलोड कर लें[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपने इसे डाउनलोड और इंस्टॉल कर लिया है। अगर आपने ऐसा नहीं किया है, तो इसे डाउनलोड कर लें [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: कोई भी .NET विकास वातावरण जैसे विजुअल स्टूडियो.
 3. C# का बुनियादी ज्ञान: यह ट्यूटोरियल मानता है कि आपको C# की बुनियादी समझ है।
 
@@ -33,7 +35,7 @@ url: /hi/net/working-with-fields/remove-field/
 using Aspose.Words;
 ```
 
-ठीक है, अब जब हमने मूल बातें जान ली हैं, तो चलिए चरण-दर-चरण मार्गदर्शिका पर चलते हैं।
+ठीक है, अब जब हमने मूल बातें जान ली हैं, तो चलिए चरण-दर-चरण मार्गदर्शिका में गोता लगाते हैं।
 
 ## चरण 1: अपनी दस्तावेज़ निर्देशिका सेट करें
 
@@ -90,13 +92,18 @@ doc.Save(dataDir + "WorkingWithFields.RemoveField.docx");
 Aspose.Words for .NET निःशुल्क परीक्षण प्रदान करता है, लेकिन पूर्ण सुविधाओं के लिए, आपको लाइसेंस खरीदने की आवश्यकता हो सकती है।
 
 ### क्या मैं फ़ील्ड हटाने को पूर्ववत कर सकता हूँ?
-एक बार जब आप दस्तावेज़ को हटा देते हैं और सहेज लेते हैं, तो आप कार्रवाई को पूर्ववत नहीं कर सकते। हमेशा एक बैकअप रखें!
+एक बार जब आप दस्तावेज़ को हटा देते हैं और सहेज लेते हैं, तो आप कार्रवाई को पूर्ववत नहीं कर सकते। हमेशा बैकअप रखें!
 
 ### क्या यह विधि सभी Word दस्तावेज़ प्रारूपों के साथ काम करती है?
 हां, यह DOCX, DOC और Aspose.Words द्वारा समर्थित अन्य Word प्रारूपों के साथ काम करता है।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

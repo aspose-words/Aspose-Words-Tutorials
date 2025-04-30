@@ -1,44 +1,52 @@
 ---
-title: 在 Word 文档中建立群組形狀,使用 .NET 的 Aspose.Words
-weight: 7700
-limit: 
-description: 學習如何在 Word 文檔中使用 .NET 的 Aspose.Words 创建群組形狀.
-keywords: [Aspose.Words for .NET, group shape in Word, add shapes to document, .NET Word library, create shapes in Word, Word group shapes, shape customization, .NET example]
-url: /zh-hant/net/working-with-shapes/add-group-shape/
+"description": "了解如何使用 Aspose.Words for .NET 在 Word 文件中建立群組形狀。添加多種形狀、自訂尺寸並輕鬆儲存文件。"
+"title": "使用 Aspose.Words for .NET 在 Word 文件中建立群組形狀"
+"url": "/zh-hant/net/working-with-shapes/add-group-shape/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用Aspose.Words在 Word 文档中创建群組形狀
+# 使用 Aspose.Words 在 Word 文件中建立群組形狀
 
-這個教程展示了如何使用 .NET 的Aspose.Words來在 Word 文檔中建立和管理群組形狀.使用這個功能強大的圖書館,您可以輕鬆地結合多個形狀,如口音邊界调用和行動按,成一個群組形狀. 這本書涵蓋了每一步,從初始化文檔到添加形狀,定制尺寸,並插入群組形狀在您的 Word 文件中.最後,示例保存文檔,展示如何在 Word 文檔中連接動態形狀,以獲得視覺吸引力的結果.  
+本教學課程示範如何使用 Aspose.Words for .NET 在 Word 文件中建立和管理群組形狀。有了這個強大的庫，您可以毫不費力地將多個形狀（例如重音邊框標註和操作按鈕）組合成單一組形狀。該指南涵蓋了每個步驟，從初始化文件到添加形狀、自訂尺寸以及將群組形狀插入 Word 文件。最後，此範例保存文檔，展示如何將動態形狀無縫整合到 Word 文檔中以獲得視覺上吸引人的結果。  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-shapes/add-group-shape" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 裝置指令  
+## 安裝說明  
 
-1. 請下載Aspose.Words為 .NET:  
-   參觀[設定下載頁面](https://releases.aspose.com/words/net/)請下載最新版本的Aspose.Words
+1. 下載 Aspose.Words for .NET：  
+   訪問 [Aspose 下載頁面](https://releases.aspose.com/words/net/) 並下載最新版本的 Aspose.Words for .NET。
 
-2. 透過 NuGet 設置:  
-   * 請在視覺工作室開啟您的項目.  
-   * 移動到工具> NuGet 包管理器> 管理 NuGet 包解決方案.  
-   * 在 NuGet 包管理器中搜尋Aspose.Words.  
-   * 點擊安裝,以添加圖書館到您的項目.
+2. 透過 NuGet 安裝：  
+   - 在 Visual Studio 中開啟您的專案。  
+   - 導航到工具>NuGet 套件管理器>管理解決方案的 NuGet 套件。  
+   - 在 NuGet 套件管理器中搜尋 Aspose.Words。  
+   - 按一下「安裝」將該庫新增至您的專案。
 
-3. 許可證啟動:  
-   * 請從該公司獲得許可證.[目標購買頁面](https://purchase.aspose.com/buy)或申請[暫時許可證](https://purchase.aspose.com/temporary-license/)這就是我想要的.  
-   * 透過使用 `請問這些字.`這是一種尬的感覺.
+3. 許可證啟動：  
+   - 從 [Aspose 購買頁面](https://purchase.aspose.com/buy) 或申請 [臨時執照](https://purchase。aspose.com/temporary-license/).  
+   - 使用以下方式啟動項目中的許可證 `Aspose.Words.License` 班級。
 
-## 請見此文
-[標籤.Word為 .NET文档](https://docs.aspose.com/words/net/)
-[適用於 .NET 參考](https://reference.aspose.com/words/net/)
+## 另請參閱
+[Aspose.Word for .NET 文檔](https://docs.aspose.com/words/net/)
+[Aspose.Words for .NET 參考](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

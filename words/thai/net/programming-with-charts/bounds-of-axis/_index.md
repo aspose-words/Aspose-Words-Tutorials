@@ -1,14 +1,16 @@
 ---
-title: ขอบเขตของแกนในแผนภูมิ
-linktitle: ขอบเขตของแกนในแผนภูมิ
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีกำหนดขอบเขตของแกนในแผนภูมิโดยใช้ Aspose.Words สำหรับ .NET ที่ควบคุมช่วงค่าที่แสดงบนแกน
-weight: 10
-url: /th/net/programming-with-charts/bounds-of-axis/
+"description": "เรียนรู้วิธีกำหนดขอบเขตของแกนในแผนภูมิโดยใช้ Aspose.Words สำหรับ .NET ที่ควบคุมช่วงค่าที่แสดงบนแกน"
+"linktitle": "ขอบเขตของแกนในแผนภูมิ"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ขอบเขตของแกนในแผนภูมิ"
+"url": "/th/net/programming-with-charts/bounds-of-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ขอบเขตของแกนในแผนภูมิ
@@ -21,7 +23,7 @@ url: /th/net/programming-with-charts/bounds-of-axis/
 
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
--  Aspose.Words สำหรับ .NET: คุณสามารถ[ดาวน์โหลด](https://releases.aspose.com/words/net/) เวอร์ชันล่าสุดหรือใช้[ทดลองใช้งานฟรี](https://releases.aspose.com/).
+- Aspose.Words สำหรับ .NET: คุณสามารถ [ดาวน์โหลด](https://releases.aspose.com/words/net/) เวอร์ชันล่าสุดหรือใช้ [ทดลองใช้งานฟรี](https://releases-aspose.com/).
 - .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET ไว้ในระบบของคุณแล้ว
 - IDE: สภาพแวดล้อมการพัฒนาเช่น Visual Studio
 
@@ -39,7 +41,7 @@ using Aspose.Words.Drawing.Charts;
 
 ## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสารของคุณ
 
-ขั้นแรก คุณต้องตั้งค่าไดเร็กทอรีที่จะบันทึกเอกสารของคุณ นี่เป็นขั้นตอนง่ายๆ แต่สำคัญมากในการจัดระเบียบไฟล์ของคุณ
+ขั้นแรก คุณต้องตั้งค่าไดเร็กทอรีที่จะบันทึกเอกสารของคุณ นี่เป็นขั้นตอนง่ายๆ แต่สำคัญสำหรับการจัดระเบียบไฟล์ของคุณ
 
 ```csharp
 // เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
@@ -118,19 +120,24 @@ doc.Save(dataDir + "WorkingWithCharts.BoundsOfAxis.docx");
 Aspose.Words สำหรับ .NET เป็นไลบรารีที่ช่วยให้คุณสร้าง แก้ไข และแปลงเอกสาร Word โดยใช้โปรแกรมกรอบงาน .NET
 
 ### ฉันจะตั้งค่า Aspose.Words สำหรับ .NET ได้อย่างไร
- คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/)และปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้
+คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases.aspose.com/words/net/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้
 
 ### ฉันสามารถใช้ Aspose.Words ได้ฟรีหรือไม่?
- ใช่คุณสามารถใช้[ทดลองใช้งานฟรี](https://releases.aspose.com/) หรือรับ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+ใช่คุณสามารถใช้ [ทดลองใช้งานฟรี](https://releases.aspose.com/) หรือรับ [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันสามารถหาเอกสารสำหรับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
- เอกสารรายละเอียดมีให้[ที่นี่](https://reference.aspose.com/words/net/).
+เอกสารรายละเอียดมีให้ [ที่นี่](https://reference-aspose.com/words/net/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words ได้อย่างไร?
- คุณสามารถเยี่ยมชม[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือ
+คุณสามารถเยี่ยมชม [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือ
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

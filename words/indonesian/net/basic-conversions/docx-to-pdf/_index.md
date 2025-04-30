@@ -1,14 +1,16 @@
 ---
-title: Konversi File Word ke PDF
-linktitle: Konversi File Word ke PDF
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mudah mengonversi file Word ke PDF menggunakan Aspose.Words untuk .NET dengan panduan kami. Sempurna bagi pengembang yang menginginkan konversi dokumen yang cepat dan andal.
-weight: 10
-url: /id/net/basic-conversions/docx-to-pdf/
+"description": "Pelajari cara mudah mengonversi file Word ke PDF menggunakan Aspose.Words untuk .NET dengan panduan kami. Sempurna bagi pengembang yang menginginkan konversi dokumen yang cepat dan andal."
+"linktitle": "Konversi File Word ke PDF"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Konversi File Word ke PDF"
+"url": "/id/net/basic-conversions/docx-to-pdf/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konversi File Word ke PDF
@@ -21,7 +23,7 @@ Hai! Pernahkah Anda merasa perlu mengonversi dokumen Word ke PDF? Ini adalah tug
 
 Sebelum kita masuk ke inti pembahasan, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
-1.  Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda.
 3. Visual Studio: Tutorial ini mengasumsikan Anda menggunakan Visual Studio, tetapi IDE apa pun yang kompatibel juga dapat digunakan.
 4. Dokumen Word: Berkas Word yang ingin diubah ke PDF.
@@ -50,7 +52,7 @@ Anda perlu menambahkan pustaka Aspose.Words for .NET ke proyek Anda. Anda dapat 
 
 1. Klik kanan pada proyek Anda di Solution Explorer.
 2. Pilih "Kelola Paket NuGet".
-3.  Pencarian untuk`Aspose.Words` dan menginstalnya.
+3. Pencarian untuk `Aspose.Words` dan menginstalnya.
 
 ## Langkah 2: Muat Dokumen Word
 
@@ -64,7 +66,7 @@ Pertama, tentukan direktori tempat dokumen Word Anda berada.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Word Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Word Anda.
 
 ### Muat Dokumen
 
@@ -74,7 +76,7 @@ Berikutnya, muat dokumen menggunakan Aspose.Words.
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- Baris kode ini menginisialisasi yang baru`Document` objek dengan berkas Word Anda.
+Baris kode ini menginisialisasi yang baru `Document` objek dengan berkas Word Anda.
 
 ## Langkah 3: Simpan Dokumen sebagai PDF
 
@@ -86,7 +88,7 @@ Inilah kalimat ajaib yang melakukan semua pekerjaan itu:
 doc.Save(dataDir + "ConvertedDocument.pdf");
 ```
 
- Ini menyimpan dokumen di direktori yang ditentukan sebagai file PDF bernama`ConvertedDocument.pdf`.
+Ini menyimpan dokumen di direktori yang ditentukan sebagai file PDF bernama `ConvertedDocument.pdf`.
 
 ## Kesimpulan
 
@@ -100,19 +102,24 @@ Jangan ragu untuk menjelajahi lebih banyak fitur Aspose.Words untuk meningkatkan
 Tentu saja! Aspose.Words untuk .NET mendukung berbagai format dokumen seperti DOCX, RTF, ODT, dan HTML, yang semuanya dapat dikonversi ke PDF.
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Words untuk .NET?
- Ya, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+Ya, Anda bisa mendapatkan uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah?
- Anda dapat mengunjungi[Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8) untuk bantuan dan panduan.
+Anda dapat mengunjungi [Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8) untuk bantuan dan panduan.
 
 ### Apakah Aspose.Words untuk .NET berfungsi dengan .NET Core?
 Ya, Aspose.Words untuk .NET kompatibel dengan .NET Framework dan .NET Core.
 
 ### Dapatkah saya mengajukan lisensi sementara untuk Aspose.Words untuk .NET?
- Ya, Anda dapat meminta lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Ya, Anda dapat meminta lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

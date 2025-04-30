@@ -1,14 +1,16 @@
 ---
-title: การเปรียบเทียบเวอร์ชันเอกสาร
-linktitle: การเปรียบเทียบเวอร์ชันเอกสาร
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีเปรียบเทียบเวอร์ชันเอกสารโดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับการควบคุมเวอร์ชันที่มีประสิทธิภาพ
-weight: 11
-url: /th/java/document-revision/comparing-document-versions/
+"description": "เรียนรู้วิธีเปรียบเทียบเวอร์ชันเอกสารโดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับการควบคุมเวอร์ชันที่มีประสิทธิภาพ"
+"linktitle": "การเปรียบเทียบเวอร์ชันเอกสาร"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การเปรียบเทียบเวอร์ชันเอกสาร"
+"url": "/th/java/document-revision/comparing-document-versions/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การเปรียบเทียบเวอร์ชันเอกสาร
@@ -19,12 +21,12 @@ url: /th/java/document-revision/comparing-document-versions/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่จะเริ่มเขียนโค้ด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการแล้ว: 
+ก่อนที่จะเริ่มเขียนโค้ด เรามาตรวจสอบกันก่อนว่าคุณได้เตรียมทุกสิ่งที่คุณต้องการแล้ว: 
 
 1. Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK 8 ขึ้นไปบนเครื่องของคุณ 
-2.  Aspose.Words สำหรับ Java: ดาวน์โหลด[เวอร์ชันล่าสุดอยู่ที่นี่](https://releases.aspose.com/words/java/).  
+2. Aspose.Words สำหรับ Java: ดาวน์โหลด [เวอร์ชันล่าสุดอยู่ที่นี่](https://releases-aspose.com/words/java/).  
 3. สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE): ใช้ Java IDE ใดๆ ที่คุณต้องการ เช่น IntelliJ IDEA หรือ Eclipse
-4.  ใบอนุญาต Aspose: คุณสามารถรับได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อรับคุณสมบัติครบถ้วนหรือทดลองใช้งานฟรี
+4. ใบอนุญาต Aspose: คุณสามารถรับได้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อรับคุณสมบัติครบถ้วนหรือทดลองใช้งานฟรี
 
 
 ## แพ็คเกจนำเข้า
@@ -36,13 +38,13 @@ import com.aspose.words.*;
 import java.util.Date;
 ```
 
-มาแบ่งกระบวนการออกเป็นขั้นตอนที่จัดการได้ พร้อมจะลงมือทำหรือยัง? เริ่มเลย!
+มาแบ่งกระบวนการออกเป็นขั้นตอนที่จัดการได้ พร้อมเริ่มหรือยัง? เริ่มเลย!
 
 ## ขั้นตอนที่ 1: ตั้งค่าสภาพแวดล้อมโครงการของคุณ
 
 ขั้นแรก คุณต้องตั้งค่าโปรเจ็กต์ Java ของคุณด้วย Aspose.Words ทำตามขั้นตอนเหล่านี้: 
 
-1.  เพิ่มไฟล์ JAR Aspose.Words ลงในโปรเจ็กต์ของคุณ หากคุณใช้ Maven เพียงรวมการอ้างอิงต่อไปนี้ในโปรเจ็กต์ของคุณ`pom.xml` ไฟล์:
+1. เพิ่มไฟล์ JAR Aspose.Words ลงในโปรเจ็กต์ของคุณ หากคุณใช้ Maven เพียงรวมการอ้างอิงต่อไปนี้ในโปรเจ็กต์ของคุณ `pom.xml` ไฟล์:
    ```xml
    <dependency>
        <groupId>com.aspose</groupId>
@@ -50,14 +52,14 @@ import java.util.Date;
        <version>Latest-Version</version>
    </dependency>
    ```
-    แทนที่`Latest-Version` พร้อมหมายเลขรุ่นจาก[หน้าดาวน์โหลด](https://releases.aspose.com/words/java/).
+   แทนที่ `Latest-Version` พร้อมหมายเลขรุ่นจาก [หน้าดาวน์โหลด](https://releases-aspose.com/words/java/).
 
 2. เปิดโปรเจ็กต์ของคุณใน IDE และตรวจสอบให้แน่ใจว่าไลบรารี Aspose.Words ถูกเพิ่มลงในคลาสพาธอย่างถูกต้อง
 
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร Word
 
-ในการเปรียบเทียบเอกสาร Word สองฉบับ คุณจะต้องโหลดเอกสารเหล่านั้นลงในแอปพลิเคชันของคุณโดยใช้`Document` ระดับ.
+ในการเปรียบเทียบเอกสาร Word สองฉบับ คุณจะต้องโหลดเอกสารเหล่านั้นลงในแอปพลิเคชันของคุณโดยใช้ `Document` ระดับ.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -66,24 +68,24 @@ Document docB = new Document(dataDir + "DocumentB.doc");
 ```
 
 - `dataDir`:ตัวแปรนี้เก็บเส้นทางไปยังโฟลเดอร์ที่มีเอกสาร Word ของคุณ
-- `DocumentA.doc` และ`DocumentB.doc`:แทนที่ด้วยชื่อไฟล์จริงของคุณ
+- `DocumentA.doc` และ `DocumentB.doc`:แทนที่ด้วยชื่อไฟล์จริงของคุณ
 
 
 ## ขั้นตอนที่ 3: เปรียบเทียบเอกสาร
 
- ตอนนี้เราจะใช้`compare` วิธีการที่จัดทำโดย Aspose.Words วิธีนี้ระบุความแตกต่างระหว่างเอกสารสองฉบับ
+ตอนนี้เราจะใช้ `compare` วิธีการที่จัดทำโดย Aspose.Words วิธีนี้ระบุความแตกต่างระหว่างเอกสารสองฉบับ
 
 ```java
 docA.compare(docB, "user", new Date());
 ```
 
-- `docA.compare(docB, "user", new Date())` : นี่เปรียบเทียบ`docA` กับ`docB`. 
+- `docA.compare(docB, "user", new Date())`:นี่เปรียบเทียบ `docA` กับ `docB`- 
 - `"user"`: สตริงนี้แสดงชื่อผู้เขียนที่กำลังทำการเปลี่ยนแปลง คุณสามารถปรับแต่งได้ตามต้องการ
 - `new Date()`: กำหนดวันที่และเวลาสำหรับการเปรียบเทียบ
 
 ## ขั้นตอนที่ 4: ตรวจสอบผลการเปรียบเทียบ
 
- หลังจากเปรียบเทียบเอกสารแล้ว คุณสามารถวิเคราะห์ความแตกต่างได้โดยใช้`getRevisions` วิธี.
+หลังจากเปรียบเทียบเอกสารแล้ว คุณสามารถวิเคราะห์ความแตกต่างได้โดยใช้ `getRevisions` วิธี.
 
 ```java
 if (docA.getRevisions().getCount() == 0)
@@ -104,7 +106,7 @@ else
 docA.save(dataDir + "ComparedDocument.docx");
 ```
 
--  การ`save`วิธีการเขียนการเปลี่ยนแปลงลงในไฟล์ใหม่โดยรักษาการแก้ไขไว้
+- การ `save` วิธีการเขียนการเปลี่ยนแปลงลงในไฟล์ใหม่โดยรักษาการแก้ไขไว้
 
 
 ## บทสรุป
@@ -113,23 +115,28 @@ docA.save(dataDir + "ComparedDocument.docx");
 
 ## คำถามที่พบบ่อย
 
-###  จุดประสงค์ของการ`compare` method in Aspose.Words?  
- การ`compare` วิธีการนี้ระบุความแตกต่างระหว่างเอกสาร Word สองฉบับและทำเครื่องหมายว่าเป็นการแก้ไข
+### จุดประสงค์ของการ `compare` วิธีการใน Aspose.Words?  
+การ `compare` วิธีการนี้ระบุความแตกต่างระหว่างเอกสาร Word สองฉบับและทำเครื่องหมายว่าเป็นการแก้ไข
 
-###  ฉันสามารถเปรียบเทียบเอกสารในรูปแบบอื่นนอกเหนือจาก`.doc` or `.docx`?  
- ใช่! Aspose.Words รองรับรูปแบบต่างๆ รวมถึง`.rtf`, `.odt` , และ`.txt`.
+### ฉันสามารถเปรียบเทียบเอกสารในรูปแบบอื่นนอกเหนือจาก `.doc` หรือ `.docx`-  
+ใช่! Aspose.Words รองรับรูปแบบต่างๆ รวมถึง `.rtf`- `.odt`, และ `-txt`.
 
 ### ฉันจะละเว้นการเปลี่ยนแปลงบางอย่างระหว่างการเปรียบเทียบได้อย่างไร  
- คุณสามารถปรับแต่งตัวเลือกการเปรียบเทียบได้โดยใช้`CompareOptions` คลาสใน Aspose.Words
+คุณสามารถปรับแต่งตัวเลือกการเปรียบเทียบได้โดยใช้ `CompareOptions` คลาสใน Aspose.Words
 
 ### Aspose.Words สำหรับ Java ใช้ได้ฟรีหรือไม่?  
- ไม่ แต่คุณสามารถสำรวจมันได้ด้วย[ทดลองใช้งานฟรี](https://releases.aspose.com/) หรือร้องขอ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+ไม่ แต่คุณสามารถสำรวจมันได้ด้วย [ทดลองใช้งานฟรี](https://releases.aspose.com/) หรือร้องขอ [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
 
-### อะไรจะเกิดขึ้นกับความแตกต่างของการจัดรูปแบบระหว่างการเปรียบเทียบ?  
+### อะไรจะเกิดขึ้นกับการจัดรูปแบบความแตกต่างระหว่างการเปรียบเทียบ?  
 Aspose.Words สามารถตรวจจับและทำเครื่องหมายการเปลี่ยนแปลงการจัดรูปแบบเป็นการแก้ไขได้ ขึ้นอยู่กับการตั้งค่าของคุณ
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

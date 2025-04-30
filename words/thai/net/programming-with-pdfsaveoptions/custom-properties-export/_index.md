@@ -1,14 +1,16 @@
 ---
-title: ส่งออกคุณสมบัติที่กำหนดเองในเอกสาร PDF
-linktitle: ส่งออกคุณสมบัติที่กำหนดเองในเอกสาร PDF
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการส่งออกคุณสมบัติที่กำหนดเองในเอกสาร PDF โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนโดยละเอียดของเรา
-weight: 10
-url: /th/net/programming-with-pdfsaveoptions/custom-properties-export/
+"description": "เรียนรู้วิธีการส่งออกคุณสมบัติที่กำหนดเองในเอกสาร PDF โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนโดยละเอียดของเรา"
+"linktitle": "ส่งออกคุณสมบัติที่กำหนดเองในเอกสาร PDF"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ส่งออกคุณสมบัติที่กำหนดเองในเอกสาร PDF"
+"url": "/th/net/programming-with-pdfsaveoptions/custom-properties-export/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ส่งออกคุณสมบัติที่กำหนดเองในเอกสาร PDF
@@ -21,7 +23,7 @@ url: /th/net/programming-with-pdfsaveoptions/custom-properties-export/
 
 ก่อนที่จะเจาะลึกโค้ด ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
--  ติดตั้ง Aspose.Words สำหรับ .NET แล้ว หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+- ติดตั้ง Aspose.Words สำหรับ .NET แล้ว หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนาเช่น Visual Studio
 - ความรู้พื้นฐานในการเขียนโปรแกรม C#
 
@@ -56,7 +58,7 @@ doc.CustomDocumentProperties.Add("Company", "Aspose");
 
 ## ขั้นตอนที่ 3: กำหนดค่าตัวเลือกการบันทึก PDF
 
- ตอนนี้ กำหนดค่าตัวเลือกการบันทึก PDF เพื่อให้แน่ใจว่าคุณสมบัติที่กำหนดเองจะรวมอยู่ด้วยเมื่อส่งออกเอกสาร`PdfSaveOptions` คลาสนี้มีการตั้งค่าต่างๆ เพื่อควบคุมวิธีการบันทึกเอกสารเป็น PDF
+ตอนนี้ กำหนดค่าตัวเลือกการบันทึก PDF เพื่อให้แน่ใจว่าคุณสมบัติที่กำหนดเองจะรวมอยู่ด้วยเมื่อส่งออกเอกสาร `PdfSaveOptions` คลาสนี้มีการตั้งค่าต่างๆ เพื่อควบคุมวิธีการบันทึกเอกสารเป็น PDF
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions
@@ -67,7 +69,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 
 ## ขั้นตอนที่ 4: บันทึกเอกสารเป็น PDF
 
- สุดท้ายให้บันทึกเอกสารเป็น PDF ในไดเร็กทอรีที่ระบุ`Save` วิธีการนี้จะรวมขั้นตอนก่อนหน้าทั้งหมดและสร้าง PDF พร้อมคุณสมบัติที่กำหนดเองรวมอยู่ด้วย
+สุดท้ายให้บันทึกเอกสารเป็น PDF ในไดเร็กทอรีที่ระบุ `Save` วิธีการนี้จะรวมขั้นตอนก่อนหน้าทั้งหมดและสร้าง PDF พร้อมคุณสมบัติที่กำหนดเองรวมอยู่ด้วย
 
 ```csharp
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.CustomPropertiesExport.pdf", saveOptions);
@@ -86,17 +88,22 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.CustomPropertiesExport.pdf", saveO
 Aspose.Words สำหรับ .NET มอบ API ที่แข็งแกร่งและใช้งานง่ายสำหรับการจัดการเอกสาร Word และส่งออกเป็น PDF รับประกันว่าคุณสมบัติแบบกำหนดเองจะได้รับการรักษาและเข้าถึงได้
 
 ### ฉันสามารถเพิ่มคุณสมบัติที่กำหนดเองหลายรายการลงในเอกสารได้หรือไม่
- ใช่ คุณสามารถเพิ่มคุณสมบัติที่กำหนดเองได้หลายรายการลงในเอกสารโดยเรียกใช้`Add`วิธีการสำหรับแต่ละคุณสมบัติที่คุณต้องการรวมไว้
+ใช่ คุณสามารถเพิ่มคุณสมบัติที่กำหนดเองได้หลายรายการลงในเอกสารโดยเรียกใช้ `Add` วิธีการสำหรับแต่ละคุณสมบัติที่คุณต้องการรวมไว้
 
 ### ฉันสามารถส่งออกรูปแบบอื่นใดโดยใช้ Aspose.Words สำหรับ .NET ได้บ้าง
 Aspose.Words สำหรับ .NET รองรับการส่งออกเป็นรูปแบบต่างๆ รวมถึง DOCX, HTML, EPUB และอื่นๆ อีกมากมาย
 
 ### ฉันจะได้รับการสนับสนุนได้ที่ไหนหากประสบปัญหา?
- หากต้องการความช่วยเหลือ สามารถเข้าไปเยี่ยมชมได้ที่[ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือ
+หากต้องการความช่วยเหลือ สามารถเข้าไปเยี่ยมชมได้ที่ [ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือ
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

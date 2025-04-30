@@ -1,14 +1,16 @@
 ---
-title: Określ domyślną czcionkę podczas renderowania
-linktitle: Określ domyślną czcionkę podczas renderowania
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak określić domyślną czcionkę podczas renderowania dokumentów Word przy użyciu Aspose.Words dla .NET. Zapewnij spójny wygląd dokumentu na różnych platformach.
-weight: 10
-url: /pl/net/working-with-fonts/specify-default-font-when-rendering/
+"description": "Dowiedz się, jak określić domyślną czcionkę podczas renderowania dokumentów Word przy użyciu Aspose.Words dla .NET. Zapewnij spójny wygląd dokumentu na różnych platformach."
+"linktitle": "Określ domyślną czcionkę podczas renderowania"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Określ domyślną czcionkę podczas renderowania"
+"url": "/pl/net/working-with-fonts/specify-default-font-when-rendering/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Określ domyślną czcionkę podczas renderowania
@@ -21,7 +23,7 @@ Zapewnienie, że dokumenty Word będą poprawnie renderowane na różnych platfo
 
 Zanim przejdziemy do kodu, omówmy, co będzie Ci potrzebne do korzystania z tego samouczka:
 
-- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję. Możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję. Możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Visual Studio lub inne środowisko programistyczne .NET.
 - Podstawowa wiedza o języku C#: W tym samouczku zakładamy, że znasz już programowanie w języku C#.
 
@@ -55,7 +57,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Krok 3: Skonfiguruj ustawienia czcionek
 
- Utwórz instancję`FontSettings` i określ domyślną czcionkę. Jeśli zdefiniowana czcionka nie może zostać znaleziona podczas renderowania, Aspose.Words użyje najbliższej dostępnej czcionki na komputerze.
+Utwórz instancję `FontSettings` i określ domyślną czcionkę. Jeśli zdefiniowana czcionka nie może zostać znaleziona podczas renderowania, Aspose.Words użyje najbliższej dostępnej czcionki na komputerze.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -92,16 +94,21 @@ Określenie domyślnej czcionki gwarantuje, że dokument będzie wyglądał spó
 Aspose.Words użyje najbardziej zbliżonej czcionki dostępnej na komputerze, aby jak najwierniej odtworzyć wygląd dokumentu.
 
 ### Czy mogę określić wiele domyślnych czcionek?
- Nie, możesz określić tylko jedną domyślną czcionkę. Możesz jednak obsługiwać zamianę czcionek w określonych przypadkach, używając`FontSettings` klasa.
+Nie, możesz określić tylko jedną domyślną czcionkę. Możesz jednak obsługiwać zamianę czcionek w określonych przypadkach, używając `FontSettings` klasa.
 
 ### Czy Aspose.Words dla .NET jest kompatybilny ze wszystkimi wersjami dokumentów Word?
 Tak, Aspose.Words dla .NET obsługuje szeroką gamę formatów dokumentów Word, w tym DOC, DOCX, RTF i inne.
 
 ### Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?
- Możesz uzyskać wsparcie od społeczności i deweloperów Aspose na stronie[Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8).
+Możesz uzyskać wsparcie od społeczności i deweloperów Aspose na stronie [Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

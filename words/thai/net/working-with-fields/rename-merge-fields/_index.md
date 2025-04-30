@@ -1,14 +1,16 @@
 ---
-title: เปลี่ยนชื่อเขตข้อมูลรวม
-linktitle: เปลี่ยนชื่อเขตข้อมูลรวม
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการเปลี่ยนชื่อฟิลด์ผสานในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนโดยละเอียดของเราเพื่อจัดการเอกสารของคุณได้อย่างง่ายดาย
-weight: 10
-url: /th/net/working-with-fields/rename-merge-fields/
+"description": "เรียนรู้วิธีการเปลี่ยนชื่อฟิลด์ผสานในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนโดยละเอียดของเราเพื่อจัดการเอกสารของคุณได้อย่างง่ายดาย"
+"linktitle": "เปลี่ยนชื่อเขตข้อมูลรวม"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "เปลี่ยนชื่อเขตข้อมูลรวม"
+"url": "/th/net/working-with-fields/rename-merge-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เปลี่ยนชื่อเขตข้อมูลรวม
@@ -21,7 +23,7 @@ url: /th/net/working-with-fields/rename-merge-fields/
 
 ก่อนที่เราจะเจาะลึกรายละเอียดที่สำคัญ เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการแล้ว:
 
--  Aspose.Words สำหรับ .NET: คุณจะต้องติดตั้ง Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: คุณจะต้องติดตั้ง Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE อื่น ๆ ที่เข้ากันได้กับ .NET
 - ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะเป็นประโยชน์
 
@@ -53,11 +55,11 @@ builder.InsertField(@"MERGEFIELD MyMergeField1 \* MERGEFORMAT");
 builder.InsertField(@"MERGEFIELD MyMergeField2 \* MERGEFORMAT");
 ```
 
- ที่นี่เรากำลังสร้างเอกสารใหม่และใช้`DocumentBuilder` คลาสที่จะแทรกฟิลด์ผสานสองฟิลด์:`MyMergeField1` และ`MyMergeField2`.
+ที่นี่เรากำลังสร้างเอกสารใหม่และใช้ `DocumentBuilder` คลาสที่จะแทรกฟิลด์ผสานสองฟิลด์: `MyMergeField1` และ `MyMergeField2`-
 
 ## ขั้นตอนที่ 2: ทำซ้ำผ่านฟิลด์และเปลี่ยนชื่อ
 
-ตอนนี้เรามาเขียนโค้ดเพื่อค้นหาและเปลี่ยนชื่อฟิลด์ผสานกัน เราจะวนซ้ำฟิลด์ทั้งหมดในเอกสาร ตรวจสอบว่าเป็นฟิลด์ผสานหรือไม่ แล้วจึงเปลี่ยนชื่อ
+ตอนนี้เรามาเขียนโค้ดเพื่อค้นหาและเปลี่ยนชื่อฟิลด์ผสานกัน เราจะวนซ้ำฟิลด์ทั้งหมดในเอกสาร ตรวจสอบว่าเป็นฟิลด์ผสานหรือไม่ แล้วเปลี่ยนชื่อใหม่
 
 ```csharp
 // เปลี่ยนชื่อเขตข้อมูลผสาน
@@ -72,18 +74,18 @@ foreach (Field f in doc.Range.Fields)
 }
 ```
 
- ในสไนปเป็ตนี้ เราใช้`foreach` วนซ้ำเพื่อวนซ้ำผ่านฟิลด์ทั้งหมดในเอกสาร สำหรับแต่ละฟิลด์ เราจะตรวจสอบว่าเป็นฟิลด์ผสานหรือไม่โดยใช้`f.Type == FieldType.FieldMergeField` . ถ้าใช่ก็โยนมันไป`FieldMergeField` และผนวก`_Renamed` ตามชื่อของมัน
+ในสไนปเป็ตนี้ เราใช้ `foreach` วนซ้ำเพื่อวนซ้ำผ่านฟิลด์ทั้งหมดในเอกสาร สำหรับแต่ละฟิลด์ เราจะตรวจสอบว่าเป็นฟิลด์ผสานหรือไม่โดยใช้ `f.Type == FieldType.FieldMergeField`. ถ้าใช่ก็โยนมันไป `FieldMergeField` และผนวก `_Renamed` ตามชื่อของมัน
 
 ## ขั้นตอนที่ 3: บันทึกเอกสาร
 
-สุดท้ายนี้ ให้เราบันทึกเอกสารของเราโดยใช้ฟิลด์ผสานที่เปลี่ยนชื่อแล้ว
+สุดท้ายเรามาบันทึกเอกสารของเราโดยใช้ฟิลด์ผสานที่เปลี่ยนชื่อแล้ว
 
 ```csharp
 // บันทึกเอกสาร
 doc.Save(dataDir + "WorkingWithFields.RenameMergeFields.docx");
 ```
 
- บรรทัดโค้ดนี้จะบันทึกเอกสารไปยังไดเร็กทอรีที่ระบุโดยมีชื่อ`WorkingWithFields.RenameMergeFields.docx`.
+บรรทัดโค้ดนี้จะบันทึกเอกสารไปยังไดเร็กทอรีที่ระบุโดยมีชื่อ `WorkingWithFields-RenameMergeFields.docx`.
 
 ## บทสรุป
 
@@ -101,18 +103,23 @@ doc.Save(dataDir + "WorkingWithFields.RenameMergeFields.docx");
 
 ### ฉันสามารถเปลี่ยนคำนำหน้าแทนการผนวกเข้ากับชื่อได้ไหม?
 
- ใช่ คุณสามารถปรับเปลี่ยนได้`mergeField.FieldName` การมอบหมายให้ตั้งค่าเป็นค่าใด ๆ ตามที่คุณต้องการ
+ใช่ คุณสามารถปรับเปลี่ยนได้ `mergeField.FieldName` การมอบหมายให้ตั้งค่าเป็นค่าใด ๆ ตามที่คุณต้องการ
 
 ### Aspose.Words สำหรับ .NET ฟรีหรือเปล่า?
 
- Aspose.Words สำหรับ .NET เป็นผลิตภัณฑ์เชิงพาณิชย์ แต่คุณสามารถใช้[ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อประเมินมัน
+Aspose.Words สำหรับ .NET เป็นผลิตภัณฑ์เชิงพาณิชย์ แต่คุณสามารถใช้ [ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อประเมินมัน
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ใด
 
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้ [ที่นี่](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

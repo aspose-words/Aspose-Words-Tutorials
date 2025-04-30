@@ -1,14 +1,16 @@
 ---
-title: Belge Revizyonlarının İzlenmesi ve İncelenmesi
-linktitle: Belge Revizyonlarının İzlenmesi ve İncelenmesi
-second_title: Aspose.Words Python Belge Yönetim API'si
-description: Python için Aspose.Words'ü kullanarak belge revizyonlarını nasıl izleyeceğinizi ve inceleyeceğinizi öğrenin. Verimli iş birliği için kaynak kodlu adım adım kılavuz. Belge yönetiminizi bugün geliştirin!
-weight: 23
-url: /tr/python-net/document-structure-and-content-manipulation/document-revisions/
+"description": "Python için Aspose.Words'ü kullanarak belge revizyonlarını nasıl izleyeceğinizi ve inceleyeceğinizi öğrenin. Verimli işbirliği için kaynak kodlu adım adım kılavuz. Belge yönetiminizi bugün geliştirin!"
+"linktitle": "Belge Revizyonlarının İzlenmesi ve İncelenmesi"
+"second_title": "Aspose.Words Python Belge Yönetim API'si"
+"title": "Belge Revizyonlarının İzlenmesi ve İncelenmesi"
+"url": "/tr/python-net/document-structure-and-content-manipulation/document-revisions/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Revizyonlarının İzlenmesi ve İncelenmesi
@@ -22,7 +24,7 @@ Belge revizyonları, zaman içinde bir belgede yapılan değişiklikleri izlemey
 
 ## Python için Aspose.Words Kurulumu
 
-Başlamadan önce, Python için Aspose.Words'ün yüklü olduğundan emin olun. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/python/)Kurulum tamamlandıktan sonra, başlamak için gerekli modülleri Python betiğinize aktarabilirsiniz.
+Başlamadan önce, Python için Aspose.Words'ün yüklü olduğundan emin olun. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/python/)Kurulum tamamlandıktan sonra, başlamak için gerekli modülleri Python betiğinize aktarabilirsiniz.
 
 ```python
 import aspose.words as aw
@@ -39,7 +41,7 @@ print(doc.get_text())
 
 ## İzleme Değişikliklerini Etkinleştirme
 
- Bir belge için değişiklikleri izlemeyi etkinleştirmek için,`TrackRevisions`mülk`True`:
+Bir belge için değişiklikleri izlemeyi etkinleştirmek için, `TrackRevisions` mülk `True`:
 
 ```python
 doc.track_revisions = True
@@ -112,11 +114,11 @@ Python için Aspose.Words, belge revizyonunu ve takibini basitleştirir, iş bir
 
 ### Python için Aspose.Words'ü nasıl kurarım?
 
- Python için Aspose.Words'ü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/python/). Ortamınıza kurmak için kurulum talimatlarını izleyin.
+Python için Aspose.Words'ü şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/python/). Ortamınıza kurmak için kurulum talimatlarını izleyin.
 
 ### Belgenin belirli bölümleri için revizyon izlemeyi devre dışı bırakabilir miyim?
 
-Evet, belgenin belirli bölümleri için revizyon izlemeyi programlı olarak ayarlayarak seçici olarak devre dışı bırakabilirsiniz.`TrackRevisions` bu bölümlere ait mülkiyet.
+Evet, belgenin belirli bölümleri için revizyon izlemeyi programlı olarak ayarlayarak seçici olarak devre dışı bırakabilirsiniz. `TrackRevisions` bu bölümlere ait mülkiyet.
 
 ### Birden fazla katılımcının değişikliklerini birleştirmek mümkün müdür?
 
@@ -126,12 +128,17 @@ Kesinlikle. Aspose.Words, bir belgenin farklı sürümlerini karşılaştırman�
 
 Evet, Aspose.Words kullanarak belgenizi farklı biçimlere dönüştürdüğünüzde revizyon geçmişleri korunur.
 
-### Revizyonları programlı olarak nasıl kabul veya reddedebilirim?
+### Revizyonları programatik olarak nasıl kabul veya reddedebilirim?
 
 Aspose.Words'ün API fonksiyonlarını kullanarak revizyon koleksiyonunda yineleme yapabilir ve her bir revizyonu programlı olarak kabul edebilir veya reddedebilirsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Otomatik bağlantı
-linktitle: Otomatik bağlantı
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu detaylı kılavuzla, Aspose.Words for .NET kullanarak Word belgelerine köprü metinleri eklemeyi ve özelleştirmeyi öğrenin. Belgelerinizi zahmetsizce geliştirin.
-weight: 10
-url: /tr/net/working-with-markdown/autolink/
+"description": "Bu detaylı kılavuzla, Aspose.Words for .NET kullanarak Word belgelerine köprü metinleri eklemeyi ve özelleştirmeyi öğrenin. Belgelerinizi zahmetsizce geliştirin."
+"linktitle": "Otomatik bağlantı"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Otomatik bağlantı"
+"url": "/tr/net/working-with-markdown/autolink/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Otomatik bağlantı
@@ -21,7 +23,7 @@ Cilalı, profesyonel bir belge oluşturmak genellikle köprü metinlerini etkili
 
 Adımlara geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
--  Aspose.Words for .NET: En son sürümü buradan indirin ve kurun[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: En son sürümü buradan indirin ve kurun [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio benzeri bir IDE.
 - .NET Framework: Uygun sürümün yüklü olduğundan emin olun.
 - Temel C# Bilgisi: C# programlamaya aşinalık faydalı olacaktır.
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 ## Adım 3: Bir Web Sitesine Köprü Bağlantısı Ekleyin
 
- Bir web sitesine köprü metni eklemek için şunu kullanın:`InsertHyperlink` yöntem. Görüntüleme metnini, URL'yi ve bağlantının köprü metni olarak görüntülenip görüntülenmeyeceğini belirten bir Boole değeri sağlamanız gerekecektir.
+Bir web sitesine köprü metni eklemek için şunu kullanın: `InsertHyperlink` yöntem. Görüntüleme metnini, URL'yi ve bağlantının köprü metni olarak görüntülenip görüntülenmeyeceğini belirten bir Boole değeri sağlamanız gerekecektir.
 
 ```csharp
 // Bir web sitesine köprü metni ekleyin.
@@ -60,18 +62,18 @@ Bu, Aspose ana sayfasına yönlendiren "Aspose Web Sitesi" metnini içeren tıkl
 
 ## Adım 4: Bir E-posta Adresine Köprü Ekleme
 
- Bir e-posta adresine bağlantı eklemek de aynı derecede kolaydır. Aynısını kullanın`InsertHyperlink` yöntemi ancak URL'de "mailto:" önekiyle.
+Bir e-posta adresine bağlantı eklemek de aynı derecede kolaydır. Aynısını kullanın `InsertHyperlink` yöntemi ancak URL'de "mailto:" önekiyle.
 
 ```csharp
 // Bir e-posta adresine köprü metni ekleyin.
 builder.InsertHyperlink("Contact Support", "mailto:support@aspose.com", false);
 ```
 
- Şimdi, "Desteğe Başvurun"a tıklamak, varsayılan e-posta istemcisini yeni bir e-posta adresine sahip olacak şekilde açacaktır.`support@aspose.com`.
+Şimdi, "Desteğe Başvurun"a tıklamak, varsayılan e-posta istemcisini yeni bir e-posta adresine sahip olacak şekilde açacaktır. `support@aspose.com`.
 
 ## Adım 5: Köprü Bağlantısı Görünümünü Özelleştirin
 
-Köprüler, belgenizin stiline uyacak şekilde özelleştirilebilir. Yazı tipi rengini, boyutunu ve diğer öznitelikleri kullanarak değiştirebilirsiniz.`Font` DocumentBuilder'ın özelliği.
+Köprü metinleri, belgenizin stiline uyacak şekilde özelleştirilebilir. Yazı tipi rengini, boyutunu ve diğer öznitelikleri kullanarak değiştirebilirsiniz. `Font` DocumentBuilder'ın malıdır.
 
 ```csharp
 builder.Font.Style = doc.Styles[StyleIdentifier.Hyperlink];
@@ -90,19 +92,24 @@ Aspose.Words for .NET kullanarak Word belgelerine köprüler eklemek ve özelle�
 Evet, URL olarak dosya yolunu sağlayarak diğer belgelere köprü metinleri ekleyebilirsiniz.
 
 ### Bir köprü metnini nasıl kaldırabilirim?
- Bir köprü metnini şu şekilde kaldırabilirsiniz:`Remove` hiperlink düğümündeki yöntem.
+Bir köprü metnini şu şekilde kaldırabilirsiniz: `Remove` hiperlink düğümündeki yöntem.
 
 ### Hiperlinklere araç ipuçları ekleyebilir miyim?
- Evet, araç ipuçlarını ayarlayarak ekleyebilirsiniz.`ScreenTip`hiperlinkin mülkiyeti.
+Evet, araç ipuçlarını ayarlayarak ekleyebilirsiniz. `ScreenTip` hiperlinkin mülkiyeti.
 
 ### Belge boyunca köprü metinlerini farklı şekilde biçimlendirmek mümkün müdür?
- Evet, köprü metinlerini farklı şekilde biçimlendirebilirsiniz.`Font` Her köprü metnini eklemeden önce özelliklerini kontrol edin.
+Evet, köprü metinlerini farklı şekilde biçimlendirebilirsiniz. `Font` Her köprü metnini eklemeden önce özelliklerini kontrol edin.
 
 ### Mevcut bir köprü metnini nasıl güncelleyebilir veya değiştirebilirim?
 Mevcut bir köprü metnini, belge düğümleri üzerinden erişerek ve özelliklerini değiştirerek güncelleyebilirsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

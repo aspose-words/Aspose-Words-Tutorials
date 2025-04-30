@@ -1,14 +1,16 @@
 ---
-title: दस्तावेज़ों को आसानी से और कुशलता से विभाजित करें
-linktitle: दस्तावेज़ों को आसानी से और कुशलता से विभाजित करें
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Aspose.Words for Java का उपयोग करके दस्तावेज़ों को कुशलतापूर्वक विभाजित करना सीखें। दस्तावेज़ प्रसंस्करण और शब्द हेरफेर के लिए चरण-दर-चरण मार्गदर्शिका। उत्पादकता को अभी बढ़ाएँ!
-weight: 10
-url: /hi/java/document-splitting/split-documents-easily-efficiently/
+"description": "Java के लिए Aspose.Words का उपयोग करके दस्तावेज़ों को कुशलतापूर्वक विभाजित करना सीखें। दस्तावेज़ प्रसंस्करण और शब्द हेरफेर के लिए चरण-दर-चरण मार्गदर्शिका। उत्पादकता को अभी बढ़ाएँ!"
+"linktitle": "दस्तावेज़ों को आसानी से और कुशलता से विभाजित करें"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "दस्तावेज़ों को आसानी से और कुशलता से विभाजित करें"
+"url": "/hi/java/document-splitting/split-documents-easily-efficiently/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # दस्तावेज़ों को आसानी से और कुशलता से विभाजित करें
@@ -24,7 +26,7 @@ Aspose.Words for Java एक Java API है जो डेवलपर्स क
 
 दस्तावेज़ विभाजन में जाने से पहले, आइए संक्षेप में देखें कि अपने जावा प्रोजेक्ट में Aspose.Words for Java को कैसे सेट अप करें:
 
-1. Aspose.Words for Java लाइब्रेरी को डाउनलोड और इंस्टॉल करें: Aspose.Releases ( से Aspose.Words for Java लाइब्रेरी को डाउनलोड करके शुरू करेंhttps://releases.aspose.com/words/java) डाउनलोड करने के बाद, लाइब्रेरी को अपने जावा प्रोजेक्ट में शामिल करें।
+1. Aspose.Words for Java लाइब्रेरी डाउनलोड करें और इंस्टॉल करें: Aspose.Releases (https://releases.aspose.com/words/java) से Aspose.Words for Java लाइब्रेरी डाउनलोड करके शुरू करें। डाउनलोड करने के बाद, लाइब्रेरी को अपने Java प्रोजेक्ट में शामिल करें।
 
 2. Aspose.Words लाइसेंस आरंभ करें: Aspose.Words for Java को इसकी पूर्ण क्षमता में उपयोग करने के लिए, आपको एक वैध लाइसेंस सेट करना होगा। लाइसेंस के बिना, लाइब्रेरी सीमित मूल्यांकन मोड में काम करेगी।
 
@@ -77,7 +79,7 @@ for (Paragraph paragraph : paragraphs) {
 Java के लिए Aspose.Words का उपयोग करके शीर्षकों द्वारा दस्तावेज़ को विभाजित करने के लिए, इन चरणों का पालन करें:
 
 ```java
-//Aspose.Words for Java का उपयोग करके शीर्षकों द्वारा दस्तावेज़ को विभाजित करने के लिए जावा कोड
+// Aspose.Words for Java का उपयोग करके शीर्षकों द्वारा दस्तावेज़ को विभाजित करने के लिए जावा कोड
 Document doc = new Document("input.docx");
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
@@ -103,7 +105,7 @@ for (Paragraph paragraph : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARA
 Java के लिए Aspose.Words का उपयोग करके किसी दस्तावेज़ को अनुभागों में विभाजित करने के लिए, इन चरणों का पालन करें:
 
 ```java
-// Java के लिए Aspose.Words का उपयोग करके दस्तावेज़ को अनुभागों द्वारा विभाजित करने के लिए Java कोड
+// Aspose.Words for Java का उपयोग करके दस्तावेज़ को अनुभागों में विभाजित करने के लिए Java कोड
 Document doc = new Document("input.docx");
 
 for (int i = 0; i < doc.getSections().getCount(); i++) {
@@ -133,15 +135,20 @@ for (int i = 0; i < doc.getSections().getCount(); i++) {
 
 ### यदि मैं लाइब्रेरी में नया हूं तो मैं Aspose.Words for Java के साथ कैसे शुरुआत कर सकता हूं?
 
- आप इसकी खोज करके शुरुआत कर सकते हैं[Aspose.Words for Java API संदर्भ](https://reference.aspose.com/words/java/) और जावा के लिए Aspose.Words द्वारा प्रदान किए गए कोड उदाहरण। दस्तावेज़ में लाइब्रेरी की विशेषताओं और उन्हें प्रभावी ढंग से उपयोग करने के तरीके के बारे में विस्तृत जानकारी है।
+आप इसकी खोज करके शुरुआत कर सकते हैं [Aspose.Words for Java API संदर्भ](https://reference.aspose.com/words/java/) और जावा के लिए Aspose.Words द्वारा प्रदान किए गए कोड उदाहरण। दस्तावेज़ में लाइब्रेरी की विशेषताओं और उन्हें प्रभावी ढंग से उपयोग करने के तरीके के बारे में विस्तृत जानकारी है।
 
 ### क्या Aspose.Words for Java एंटरप्राइज़-स्तरीय दस्तावेज़ प्रसंस्करण के लिए उपयुक्त है?
 
 बिल्कुल! Aspose.Words for Java का उपयोग इसकी मजबूती और व्यापक फीचर सेट के कारण विभिन्न दस्तावेज़ प्रसंस्करण कार्यों के लिए एंटरप्राइज़-स्तरीय अनुप्रयोगों में व्यापक रूप से किया जाता है।
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

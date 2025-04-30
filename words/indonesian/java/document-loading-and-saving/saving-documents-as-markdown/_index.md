@@ -1,14 +1,16 @@
 ---
-title: Menyimpan Dokumen sebagai Markdown di Aspose.Words untuk Java
-linktitle: Menyimpan Dokumen sebagai Markdown
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara mengonversi dokumen Word ke Markdown dengan Aspose.Words untuk Java. Panduan langkah demi langkah ini mencakup penyelarasan tabel, penanganan gambar, dan banyak lagi.
-weight: 18
-url: /id/java/document-loading-and-saving/saving-documents-as-markdown/
+"description": "Pelajari cara mengonversi dokumen Word ke Markdown dengan Aspose.Words untuk Java. Panduan langkah demi langkah ini mencakup penyelarasan tabel, penanganan gambar, dan banyak lagi."
+"linktitle": "Menyimpan Dokumen sebagai Markdown"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menyimpan Dokumen sebagai Markdown di Aspose.Words untuk Java"
+"url": "/id/java/document-loading-and-saving/saving-documents-as-markdown/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menyimpan Dokumen sebagai Markdown di Aspose.Words untuk Java
@@ -23,7 +25,7 @@ Dalam panduan langkah demi langkah ini, kami akan menunjukkan cara menyimpan dok
 Sebelum memulai, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal di sistem Anda.
--  Aspose.Words untuk pustaka Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/java/).
+- Aspose.Words untuk pustaka Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/java/).
 
 ## Langkah 1: Membuat Dokumen Word
 
@@ -47,7 +49,7 @@ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 doc.save("output.md", saveOptions);
 ```
 
- Dalam contoh ini, kita membuat tabel sederhana dengan dua sel dan mengatur perataan paragraf dalam sel-sel ini. Kemudian, kita menyimpan dokumen sebagai Markdown menggunakan`MarkdownSaveOptions`.
+Dalam contoh ini, kita membuat tabel sederhana dengan dua sel dan mengatur perataan paragraf dalam sel-sel ini. Kemudian, kita menyimpan dokumen sebagai Markdown menggunakan `MarkdownSaveOptions`.
 
 ## Langkah 2: Sesuaikan Penyelarasan Konten Tabel
 
@@ -68,16 +70,16 @@ doc.save("right_alignment.md", saveOptions);
 saveOptions.setTableContentAlignment(TableContentAlignment.CENTER);
 doc.save("center_alignment.md", saveOptions);
 
-//Atur perataan konten tabel ke otomatis (ditentukan oleh paragraf pertama)
+// Atur perataan konten tabel ke otomatis (ditentukan oleh paragraf pertama)
 saveOptions.setTableContentAlignment(TableContentAlignment.AUTO);
 doc.save("auto_alignment.md", saveOptions);
 ```
 
- Dengan mengubah`TableContentAlignment` properti, Anda dapat mengontrol bagaimana konten di dalam tabel disejajarkan saat mengonversi ke Markdown.
+Dengan mengubah `TableContentAlignment` properti, Anda dapat mengontrol bagaimana konten di dalam tabel disejajarkan saat mengonversi ke Markdown.
 
 ## Langkah 3: Menangani Gambar
 
- Untuk memasukkan gambar ke dalam dokumen Markdown Anda, Anda perlu menentukan folder tempat gambar tersebut berada. Aspose.Words untuk Java memungkinkan Anda untuk mengatur folder gambar di`MarkdownSaveOptions`.
+Untuk memasukkan gambar ke dalam dokumen Markdown Anda, Anda perlu menentukan folder tempat gambar tersebut berada. Aspose.Words untuk Java memungkinkan Anda untuk mengatur folder gambar di `MarkdownSaveOptions`.
 
 Berikut cara mengatur folder gambar dan menyimpan dokumen dengan gambar:
 
@@ -93,7 +95,7 @@ saveOptions.setImagesFolder("images_folder/");
 doc.save("document_with_images.md", saveOptions);
 ```
 
- Pastikan untuk mengganti`"document_with_images.docx"` dengan jalur ke dokumen Word Anda yang berisi gambar dan`"images_folder/"` dengan jalur sebenarnya ke folder tempat gambar Anda disimpan.
+Pastikan untuk mengganti `"document_with_images.docx"` dengan jalur ke dokumen Word Anda yang berisi gambar dan `"images_folder/"` dengan jalur sebenarnya ke folder tempat gambar Anda disimpan.
 
 ## Kode Sumber Lengkap Untuk Menyimpan Dokumen sebagai Markdown di Aspose.Words untuk Java
 
@@ -118,7 +120,7 @@ public void autoTableContentAlignment() throws Exception
 	doc.save("Your Directory Path" + "WorkingWithMarkdownSaveOptions.RightTableContentAlignment.md", saveOptions);
 	saveOptions.setTableContentAlignment(TableContentAlignment.CENTER);
 	doc.save("Your Directory Path" + "WorkingWithMarkdownSaveOptions.CenterTableContentAlignment.md", saveOptions);
-	// Penjajaran dalam kasus ini akan diambil dari paragraf pertama pada kolom tabel yang sesuai.
+	// Penjajaran dalam kasus ini akan diambil dari paragraf pertama pada kolom tabel yang bersangkutan.
 	saveOptions.setTableContentAlignment(TableContentAlignment.AUTO);
 	doc.save("Your Directory Path" + "WorkingWithMarkdownSaveOptions.AutoTableContentAlignment.md", saveOptions);
 }
@@ -142,7 +144,7 @@ Dalam panduan ini, kami telah menjajaki cara menyimpan dokumen sebagai Markdown 
 
 ### Bagaimana cara menginstal Aspose.Words untuk Java?
 
- Aspose.Words untuk Java dapat diinstal dengan menyertakan pustaka tersebut dalam proyek Java Anda. Anda dapat mengunduh pustaka tersebut dari[Di Sini](https://releases.aspose.com/words/java/) dan ikuti petunjuk instalasi yang disediakan dalam dokumentasi.
+Aspose.Words untuk Java dapat diinstal dengan menyertakan pustaka tersebut dalam proyek Java Anda. Anda dapat mengunduh pustaka tersebut dari [Di Sini](https://releases.aspose.com/words/java/) dan ikuti petunjuk instalasi yang disediakan dalam dokumentasi.
 
 ### Bisakah saya mengonversi dokumen Word yang rumit berisi tabel dan gambar ke Markdown?
 
@@ -150,7 +152,7 @@ Ya, Aspose.Words untuk Java mendukung konversi dokumen Word yang kompleks dengan
 
 ### Bagaimana saya dapat menangani gambar dalam berkas Markdown?
 
- Untuk memasukkan gambar ke dalam file Markdown, atur jalur folder gambar menggunakan`setImagesFolder`metode dalam`MarkdownSaveOptions`Pastikan file gambar disimpan dalam folder yang ditentukan, dan Aspose.Words untuk Java akan menangani referensi gambar sebagaimana mestinya.
+Untuk memasukkan gambar ke dalam file Markdown, atur jalur folder gambar menggunakan `setImagesFolder` metode dalam `MarkdownSaveOptions`Pastikan file gambar disimpan dalam folder yang ditentukan, dan Aspose.Words untuk Java akan menangani referensi gambar sebagaimana mestinya.
 
 ### Apakah ada versi uji coba Aspose.Words untuk Java yang tersedia?
 
@@ -158,10 +160,15 @@ Ya, Anda dapat memperoleh versi uji coba Aspose.Words untuk Java dari situs web 
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
 
- Untuk contoh lebih lanjut, dokumentasi, dan informasi terperinci tentang Aspose.Words untuk Java, silakan kunjungi[dokumentasi](https://reference.aspose.com/words/java/).
+Untuk contoh lebih lanjut, dokumentasi, dan informasi terperinci tentang Aspose.Words untuk Java, silakan kunjungi [dokumentasi](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

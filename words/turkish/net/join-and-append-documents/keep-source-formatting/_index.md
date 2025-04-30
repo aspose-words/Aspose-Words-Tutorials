@@ -1,14 +1,16 @@
 ---
-title: Kaynak Biçimlendirmesini Koru
-linktitle: Kaynak Biçimlendirmesini Koru
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak biçimlendirmeyi koruyarak Word belgelerini nasıl birleştireceğinizi öğrenin. Belge birleştirme görevlerini otomatikleştirmek isteyen geliştiriciler için idealdir.
-weight: 10
-url: /tr/net/join-and-append-documents/keep-source-formatting/
+"description": "Aspose.Words for .NET kullanarak biçimlendirmeyi koruyarak Word belgelerini nasıl birleştireceğinizi öğrenin. Belge birleştirme görevlerini otomatikleştirmek isteyen geliştiriciler için idealdir."
+"linktitle": "Kaynak Biçimlendirmesini Koru"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Kaynak Biçimlendirmesini Koru"
+"url": "/tr/net/join-and-append-documents/keep-source-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kaynak Biçimlendirmesini Koru
@@ -22,7 +24,7 @@ Bu eğitimde, Aspose.Words for .NET kullanarak Word belgelerini birleştirme ve 
 Eğitime başlamadan önce aşağıdaki ön koşulların sağlandığından emin olun:
 
 - Geliştirme Ortamı: Visual Studio veya .NET geliştirmeyi destekleyen herhangi bir IDE.
--  Aspose.Words for .NET Kütüphanesi: Kütüphaneyi şu adresten indirin ve kurun:[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET Kütüphanesi: Kütüphaneyi şu adresten indirin ve kurun: [Burada](https://releases.aspose.com/words/net/).
 - C# Programlamanın Temel Bilgileri: C# sözdizimi ve nesne yönelimli programlama kavramlarına aşinalık.
 
 ## Ad Alanlarını İçe Aktar
@@ -35,7 +37,7 @@ using Aspose.Words;
 
 ## Adım 1: Projenizi Kurun
 
-Visual Studio'da yeni bir C# konsol uygulaması oluşturun ve Aspose.Words NuGet paketini yükleyin. Bu paket, projenizdeki Word belgeleriyle çalışmak için gereken kitaplıkları içerir.
+Visual Studio'da yeni bir C# konsol uygulaması oluşturun ve Aspose.Words NuGet paketini yükleyin. Bu paket, projenizdeki Word belgeleriyle çalışmak için gereken kütüphaneleri içerir.
 
 ## Adım 2: Aspose.Words Ad Alanını Dahil Et
 
@@ -51,7 +53,7 @@ string dataDir = "YOUR_DOCUMENT_DIRECTORY_PATH";
 
 ## Adım 4: Hedef Belge Oluşturun
 
-Birleştirilen içeriğin depolanacağı hedef belgeyi oluşturmak için Belge sınıfının yeni bir örneğini başlatın.
+Birleştirilmiş içeriğin depolanacağı hedef belgeyi oluşturmak için Belge sınıfının yeni bir örneğini başlatın.
 
 ```csharp
 Document dstDoc = new Document();
@@ -94,16 +96,21 @@ Evet, her belgeyi sırayla hedef belgeye ekleyerek birden fazla belgeyi birleşt
 Aspose.Words çeşitli içe aktarma modlarını destekler; KeepSourceFormatting modu çoğu biçimlendirme özniteliğinin korunmasını sağlar.
 
 ### Aspose.Words .NET Core uygulamalarıyla uyumlu mudur?
-Evet, Aspose.Words .NET Core'u destekler ve bu sayede onu farklı platformlarda kullanabilirsiniz.
+Evet, Aspose.Words .NET Core'u destekler ve onu farklı platformlarda kullanmanıza olanak tanır.
 
 ### Aspose.Words kullanarak büyük belgeleri nasıl verimli bir şekilde işleyebilirim?
 Aspose.Words, sayfalama ve bellek yönetimi özellikleri de dahil olmak üzere büyük belgelerle çalışmak için verimli API'ler sağlar.
 
 ### Aspose.Words için daha fazla kaynak ve desteği nerede bulabilirim?
- Ziyaret edin[Aspose.Words for .NET belgeleri](https://reference.aspose.com/words/net/) Ayrıntılı API referansları, örnekler ve kılavuzlar için.
+Ziyaret edin [Aspose.Words for .NET belgeleri](https://reference.aspose.com/words/net/) Ayrıntılı API referansları, örnekler ve kılavuzlar için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

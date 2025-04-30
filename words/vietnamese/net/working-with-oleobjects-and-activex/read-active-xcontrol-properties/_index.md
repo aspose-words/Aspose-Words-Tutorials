@@ -1,14 +1,16 @@
 ---
-title: Đọc Thuộc Tính Active XControl Từ Tệp Word
-linktitle: Đọc Thuộc Tính Active XControl Từ Tệp Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách đọc thuộc tính điều khiển ActiveX từ các tệp Word bằng Aspose.Words cho .NET theo hướng dẫn từng bước. Nâng cao kỹ năng tự động hóa tài liệu của bạn.
-weight: 10
-url: /vi/net/working-with-oleobjects-and-activex/read-active-xcontrol-properties/
+"description": "Tìm hiểu cách đọc thuộc tính điều khiển ActiveX từ các tệp Word bằng Aspose.Words cho .NET theo hướng dẫn từng bước. Nâng cao kỹ năng tự động hóa tài liệu của bạn."
+"linktitle": "Đọc Thuộc Tính Active XControl Từ Tệp Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Đọc Thuộc Tính Active XControl Từ Tệp Word"
+"url": "/vi/net/working-with-oleobjects-and-activex/read-active-xcontrol-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đọc Thuộc Tính Active XControl Từ Tệp Word
@@ -21,7 +23,7 @@ Trong thời đại kỹ thuật số ngày nay, tự động hóa là chìa kh�
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1.  Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Visual Studio hoặc bất kỳ IDE C# nào: Để viết và thực thi mã của bạn.
 3. Một tài liệu Word có điều khiển ActiveX: Ví dụ: "ActiveX controls.docx".
 4. Kiến thức cơ bản về C#: Cần phải quen thuộc với lập trình C# để theo dõi.
@@ -116,20 +118,25 @@ Và bạn đã có nó! Bạn đã học thành công cách đọc thuộc tính
 ### Điều khiển ActiveX trong tài liệu Word là gì?
 Điều khiển ActiveX là các đối tượng tương tác được nhúng trong tài liệu Word, chẳng hạn như hộp kiểm, nút và trường văn bản, được sử dụng để tạo biểu mẫu và tự động hóa tác vụ.
 
-### Tôi có thể sửa đổi các thuộc tính của điều khiển ActiveX bằng Aspose.Words cho .NET không?
+### Tôi có thể sửa đổi thuộc tính của điều khiển ActiveX bằng Aspose.Words cho .NET không?
 Có, Aspose.Words for .NET cho phép bạn sửa đổi các thuộc tính của điều khiển ActiveX theo cách lập trình.
 
 ### Aspose.Words cho .NET có miễn phí sử dụng không?
- Aspose.Words cho .NET cung cấp bản dùng thử miễn phí, nhưng bạn sẽ cần mua giấy phép để tiếp tục sử dụng. Bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+Aspose.Words cho .NET cung cấp bản dùng thử miễn phí, nhưng bạn sẽ cần mua giấy phép để tiếp tục sử dụng. Bạn có thể dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET với các ngôn ngữ .NET khác ngoài C# không?
 Có, Aspose.Words cho .NET có thể được sử dụng với bất kỳ ngôn ngữ .NET nào, bao gồm VB.NET và F#.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
- Bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu chi tiết [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

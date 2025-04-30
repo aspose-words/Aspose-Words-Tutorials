@@ -1,14 +1,16 @@
 ---
-title: Przetwarzanie słów z tabelą treści
-linktitle: Przetwarzanie słów z tabelą treści
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Poznaj programowanie TOC w Aspose.Words dla .NET. Dowiedz się, jak tworzyć i manipulować spisami treści w dokumentach Word, korzystając z samouczków krok po kroku i przykładów kodu C#.
-weight: 1420
-url: /pl/net/programming-with-table-of-content/
+"description": "Poznaj programowanie TOC w Aspose.Words dla .NET. Dowiedz się, jak tworzyć i manipulować spisami treści w dokumentach Word, korzystając z samouczków krok po kroku i przykładów kodu C#."
+"linktitle": "Przetwarzanie słów z tabelą treści"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przetwarzanie słów z tabelą treści"
+"url": "/pl/net/programming-with-table-of-content/"
+"weight": 1420
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przetwarzanie słów z tabelą treści
@@ -23,10 +25,15 @@ Niezależnie od tego, czy jesteś początkującym, czy doświadczonym programist
 | Tytuł | Opis |
 | --- | --- |
 | [Zmień styl spisu treści w dokumencie Word](./change-style-of-toc-level/) | Dowiedz się, jak zmienić styl spisu treści w dokumentach Worda za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Dostosuj swój spis treści bez wysiłku. |
-| [Zmiana tabulatorów spisu treści w dokumencie Word](./change-toc-tab-stops/) | Dowiedz się, jak zmienić tabulatory spisu treści w dokumentach Worda za pomocą Aspose.Words dla .NET. Ten przewodnik krok po kroku pomoże Ci utworzyć profesjonalnie wyglądający spis treści. |
+| [Zmiana tabulatorów spisu treści w dokumencie Word](./change-toc-tab-stops/) | Dowiedz się, jak zmieniać tabulatory spisu treści w dokumentach Word za pomocą Aspose.Words dla .NET. Ten przewodnik krok po kroku pomoże Ci utworzyć profesjonalnie wyglądający spis treści. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

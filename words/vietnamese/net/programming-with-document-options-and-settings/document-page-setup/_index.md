@@ -1,14 +1,16 @@
 ---
-title: Thiết lập trang tài liệu
-linktitle: Thiết lập trang tài liệu
-second_title: API xử lý tài liệu Aspose.Words
-description: Thiết lập trang tài liệu chính với Aspose.Words cho .NET theo các bước dễ dàng. Học cách tải, thiết lập bố cục, xác định ký tự trên mỗi dòng, dòng trên mỗi trang và lưu tài liệu của bạn.
-weight: 10
-url: /vi/net/programming-with-document-options-and-settings/document-page-setup/
+"description": "Thiết lập trang tài liệu chính với Aspose.Words cho .NET theo các bước dễ dàng. Học cách tải, thiết lập bố cục, xác định ký tự trên mỗi dòng, dòng trên mỗi trang và lưu tài liệu của bạn."
+"linktitle": "Thiết lập trang tài liệu"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thiết lập trang tài liệu"
+"url": "/vi/net/programming-with-document-options-and-settings/document-page-setup/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập trang tài liệu
@@ -21,14 +23,14 @@ Bạn đã bao giờ bối rối không biết cách thiết lập bố cục tr
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn đã có mọi thứ mình cần:
 
--  Aspose.Words cho .NET: Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
--  Giấy phép hợp lệ: Bạn có thể mua một giấy phép[đây](https://purchase.aspose.com/buy) hoặc xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words cho .NET: Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
+- Giấy phép hợp lệ: Bạn có thể mua một giấy phép [đây](https://purchase.aspose.com/buy) hoặc xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 - Hiểu biết cơ bản về lập trình C#: Đừng lo, tôi sẽ giải thích một cách đơn giản và dễ hiểu.
 - Môi trường phát triển tích hợp (IDE): Visual Studio là một lựa chọn tốt.
 
 ## Nhập không gian tên
 
-Trước khi bắt đầu phần mã hóa, hãy đảm bảo bạn đã nhập các không gian tên cần thiết vào dự án của mình. Điều này rất cần thiết để sử dụng các chức năng của Aspose.Words.
+Trước khi chuyển sang phần mã hóa, hãy đảm bảo bạn đã nhập các không gian tên cần thiết vào dự án của mình. Điều này rất cần thiết để sử dụng các chức năng của Aspose.Words.
 
 ```csharp
 using System;
@@ -40,7 +42,7 @@ using Aspose.Words.PageSetup;
 
 Trước tiên, bạn cần tải tài liệu của mình. Đây là nền tảng mà bạn sẽ xây dựng thiết lập trang của mình.
 
- Tạo một phiên bản mới của`Document` lớp và tải tài liệu của bạn từ một thư mục được chỉ định.
+Tạo một phiên bản mới của `Document` lớp và tải tài liệu của bạn từ một thư mục được chỉ định.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -91,19 +93,24 @@ Và thế là xong! Với các bước đơn giản này, bạn đã thiết l�
 Đây là thư viện mạnh mẽ để tạo, chỉnh sửa và chuyển đổi tài liệu ở nhiều định dạng khác nhau bằng các ứng dụng .NET.
 
 ### Tôi có thể sử dụng Aspose.Words miễn phí không?
-Có, bạn có thể sử dụng nó với giấy phép tạm thời mà bạn có thể nhận được[đây](https://purchase.aspose.com/temporary-license/).
+Có, bạn có thể sử dụng nó với giấy phép tạm thời mà bạn có thể nhận được [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Làm thế nào để cài đặt Aspose.Words cho .NET?
- Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/) và làm theo hướng dẫn cài đặt.
+Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/) và làm theo hướng dẫn cài đặt.
 
 ### Aspose.Words hỗ trợ những ngôn ngữ nào?
 Nó hỗ trợ nhiều ngôn ngữ khác nhau bao gồm các ngôn ngữ châu Á như tiếng Trung và tiếng Nhật.
 
 ### Tôi có thể tìm tài liệu chi tiết hơn ở đâu?
- Tài liệu chi tiết có sẵn[đây](https://reference.aspose.com/words/net/).
+Tài liệu chi tiết có sẵn [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

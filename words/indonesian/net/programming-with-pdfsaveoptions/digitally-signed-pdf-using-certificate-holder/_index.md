@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Tanda Tangan Digital ke PDF menggunakan Pemegang Sertifikat
-linktitle: Tambahkan Tanda Tangan Digital ke PDF menggunakan Pemegang Sertifikat
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Amankan berkas PDF Anda dengan tanda tangan digital menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah ini untuk menambahkan tanda tangan digital ke PDF Anda dengan mudah.
-weight: 10
-url: /id/net/programming-with-pdfsaveoptions/digitally-signed-pdf-using-certificate-holder/
+"description": "Amankan berkas PDF Anda dengan tanda tangan digital menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah ini untuk menambahkan tanda tangan digital ke PDF Anda dengan mudah."
+"linktitle": "Tambahkan Tanda Tangan Digital ke PDF menggunakan Pemegang Sertifikat"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tambahkan Tanda Tangan Digital ke PDF menggunakan Pemegang Sertifikat"
+"url": "/id/net/programming-with-pdfsaveoptions/digitally-signed-pdf-using-certificate-holder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Tanda Tangan Digital ke PDF menggunakan Pemegang Sertifikat
@@ -21,8 +23,8 @@ Pernahkah Anda bertanya-tanya bagaimana cara mengamankan dokumen PDF Anda dengan
 
 Sebelum kita mulai, ada beberapa hal yang Anda perlukan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Situs web Aspose](https://releases.aspose.com/words/net/).
-2. Berkas Sertifikat: Anda memerlukan berkas sertifikat .pfx untuk menandatangani PDF. Jika Anda tidak memilikinya, Anda dapat membuat sertifikat yang ditandatangani sendiri untuk tujuan pengujian.
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Situs web Aspose](https://releases.aspose.com/words/net/).
+2. Berkas Sertifikat: Anda memerlukan berkas sertifikat .pfx untuk menandatangani PDF. Jika tidak memilikinya, Anda dapat membuat sertifikat yang ditandatangani sendiri untuk tujuan pengujian.
 3. Visual Studio: Tutorial ini mengasumsikan Anda menggunakan Visual Studio sebagai lingkungan pengembangan Anda.
 4. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# dan .NET sangat penting.
 
@@ -69,7 +71,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Mengganti`"your_password"` dengan kata sandi untuk file .pfx Anda.
+Mengganti `"your_password"` dengan kata sandi untuk file .pfx Anda.
 
 ## Langkah 4: Simpan Dokumen sebagai PDF yang Ditandatangani Secara Digital
 
@@ -97,13 +99,18 @@ Ya, Anda memerlukan file sertifikat .pfx untuk menambahkan tanda tangan digital 
 Ya, Anda dapat membuat sertifikat yang ditandatangani sendiri untuk tujuan pengujian. Namun, untuk penggunaan produksi, sebaiknya dapatkan sertifikat dari otoritas sertifikat tepercaya.
 
 ### Apakah Aspose.Words untuk .NET gratis?
- Aspose.Words untuk .NET adalah produk komersial, tetapi Anda dapat mengunduh uji coba gratis dari[Situs web Aspose](https://releases.aspose.com/).
+Aspose.Words untuk .NET adalah produk komersial, tetapi Anda dapat mengunduh uji coba gratis dari [Situs web Aspose](https://releases.aspose.com/).
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET untuk menandatangani jenis dokumen lain?
 Ya, Aspose.Words untuk .NET dapat digunakan untuk menandatangani berbagai jenis dokumen, tidak hanya PDF.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

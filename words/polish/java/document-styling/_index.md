@@ -1,14 +1,16 @@
 ---
-title: Stylizacja dokumentu
-linktitle: Stylizacja dokumentu
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Opanuj stylizację dokumentów dzięki samouczkom Aspose.Words for Java. Poznaj zaawansowane techniki formatowania, aby uzyskać wizualnie atrakcyjne i wydajne dokumenty.
-weight: 12
-url: /pl/java/document-styling/
+"description": "Opanuj stylizację dokumentów dzięki samouczkom Aspose.Words for Java. Poznaj zaawansowane techniki formatowania, aby uzyskać wizualnie atrakcyjne i wydajne dokumenty."
+"linktitle": "Stylizacja dokumentu"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Stylizacja dokumentu"
+"url": "/pl/java/document-styling/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Stylizacja dokumentu
@@ -41,9 +43,13 @@ Dowiedz się, jak dostosować motywy dokumentów za pomocą Aspose.Words for Jav
 Dowiedz się, jak stosować znaki wodne i konfigurować strony za pomocą Aspose.Words dla Java. Kompleksowy przewodnik z kodem źródłowym.
 ### [Stylizacja nagłówka i stopki dokumentu](./document-header-footer-styling/)
 Dowiedz się, jak stylizować nagłówki i stopki dokumentów za pomocą Aspose.Words for Java w tym szczegółowym przewodniku. Dołączono instrukcje krok po kroku i kod źródłowy.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

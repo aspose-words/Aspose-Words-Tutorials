@@ -1,14 +1,16 @@
 ---
-title: Bình luận của neo
-linktitle: Bình luận của neo
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thêm chú thích neo vào tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để cộng tác tài liệu hiệu quả.
-weight: 10
-url: /vi/net/working-with-comments/anchor-comment/
+"description": "Tìm hiểu cách thêm chú thích neo vào tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để cộng tác tài liệu hiệu quả."
+"linktitle": "Bình luận của neo"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Bình luận của neo"
+"url": "/vi/net/working-with-comments/anchor-comment/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bình luận của neo
@@ -21,7 +23,7 @@ Bạn đã bao giờ thấy mình trong tình huống cần thêm chú thích v�
 
 Trước khi bắt đầu, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
--  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Bất kỳ môi trường phát triển .NET nào như Visual Studio.
 - Hiểu biết cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn dễ dàng thực hiện theo các bước.
 
@@ -52,7 +54,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- Trong bước này, chúng tôi khởi tạo một cái mới`Document` đối tượng sẽ được sử dụng để thêm bình luận của chúng ta.
+Trong bước này, chúng tôi khởi tạo một cái mới `Document` đối tượng sẽ được sử dụng để thêm bình luận của chúng ta.
 
 ## Bước 2: Thêm văn bản vào tài liệu
 
@@ -76,7 +78,7 @@ para2.AppendChild(run4);
 doc.FirstSection.Body.AppendChild(para2);
 ```
 
- Ở đây, chúng ta tạo hai đoạn văn với một số văn bản. Mỗi phần văn bản được đóng gói trong một`Run` đối tượng, sau đó được thêm vào các đoạn văn.
+Ở đây, chúng ta tạo hai đoạn văn với một số văn bản. Mỗi phần văn bản được đóng gói trong một `Run` đối tượng, sau đó được thêm vào các đoạn văn.
 
 ## Bước 3: Tạo bình luận
 
@@ -88,7 +90,7 @@ Comment comment = new Comment(doc, "Awais Hafeez", "AH", DateTime.Today);
 comment.SetText("Comment text.");
 ```
 
- Trong bước này, chúng ta tạo ra một`Comment` đối tượng và thêm một đoạn văn và một dòng chú thích.
+Trong bước này, chúng ta tạo ra một `Comment` đối tượng và thêm một đoạn văn và một dòng chú thích.
 
 ## Bước 4: Xác định phạm vi bình luận
 
@@ -107,7 +109,7 @@ run3.ParentNode.InsertAfter(commentRangeEnd, run3);
 commentRangeEnd.ParentNode.InsertAfter(comment, commentRangeEnd);
 ```
 
- Ở đây, chúng tôi tạo ra`CommentRangeStart` Và`CommentRangeEnd` đối tượng, liên kết chúng với bình luận theo ID của nó. Sau đó, chúng tôi chèn các phạm vi này vào tài liệu, neo bình luận của chúng tôi vào văn bản đã chỉ định.
+Ở đây, chúng tôi tạo ra `CommentRangeStart` Và `CommentRangeEnd` đối tượng, liên kết chúng với bình luận theo ID của nó. Sau đó, chúng tôi chèn các phạm vi này vào tài liệu, neo bình luận của chúng tôi vào văn bản đã chỉ định.
 
 ## Bước 5: Lưu tài liệu
 
@@ -133,16 +135,21 @@ Bình luận neo được sử dụng để làm nổi bật và bình luận v�
 Có, bạn có thể thêm nhiều bình luận vào cùng một phần văn bản bằng cách xác định nhiều phạm vi bình luận.
 
 ### Aspose.Words cho .NET có miễn phí sử dụng không?
- Aspose.Words cho .NET cung cấp bản dùng thử miễn phí mà bạn có thể tải xuống[đây](https://releases.aspose.com/) . Để có đầy đủ tính năng, bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
+Aspose.Words cho .NET cung cấp bản dùng thử miễn phí mà bạn có thể tải xuống [đây](https://releases.aspose.com/). Để có đầy đủ tính năng, bạn có thể mua giấy phép [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể tùy chỉnh giao diện của bình luận không?
 Trong khi Aspose.Words tập trung vào chức năng, thì giao diện của các bình luận trong tài liệu Word thường do chính Word kiểm soát.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
- Bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu chi tiết [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

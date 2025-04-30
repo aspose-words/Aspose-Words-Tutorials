@@ -1,14 +1,16 @@
 ---
-title: Thêm Xóa Bình luận Trả lời
-linktitle: Thêm Xóa Bình luận Trả lời
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thêm và xóa trả lời bình luận trong tài liệu Word bằng Aspose.Words cho .NET. Nâng cao khả năng cộng tác tài liệu của bạn với hướng dẫn từng bước này.
-weight: 10
-url: /vi/net/working-with-comments/add-remove-comment-reply/
+"description": "Tìm hiểu cách thêm và xóa trả lời bình luận trong tài liệu Word bằng Aspose.Words cho .NET. Nâng cao khả năng cộng tác tài liệu của bạn với hướng dẫn từng bước này."
+"linktitle": "Thêm Xóa Bình luận Trả lời"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thêm Xóa Bình luận Trả lời"
+"url": "/vi/net/working-with-comments/add-remove-comment-reply/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm Xóa Bình luận Trả lời
@@ -21,7 +23,7 @@ Làm việc với các bình luận và phản hồi của chúng trong tài li�
 
 Trước khi tìm hiểu mã, hãy đảm bảo bạn có những điều sau:
 
--  Aspose.Words cho .NET: Tải xuống và cài đặt từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Tải xuống và cài đặt từ [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ .NET.
 - Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# là điều cần thiết.
 
@@ -83,26 +85,31 @@ Quản lý phản hồi bình luận trong tài liệu Word theo chương trình
 
 ### Làm thế nào để thêm nhiều phản hồi vào một bình luận?
 
- Bạn có thể thêm nhiều phản hồi vào một bình luận bằng cách gọi`AddReply` phương pháp nhiều lần trên cùng một đối tượng bình luận.
+Bạn có thể thêm nhiều phản hồi vào một bình luận bằng cách gọi `AddReply` phương pháp nhiều lần trên cùng một đối tượng bình luận.
 
 ### Tôi có thể tùy chỉnh thông tin tác giả cho mỗi phản hồi không?
 
- Có, bạn có thể chỉ định tên tác giả, chữ viết tắt và ngày giờ cho mỗi phản hồi khi sử dụng`AddReply` phương pháp.
+Có, bạn có thể chỉ định tên tác giả, chữ viết tắt và ngày giờ cho mỗi phản hồi khi sử dụng `AddReply` phương pháp.
 
 ### Có thể xóa tất cả phản hồi khỏi một bình luận cùng một lúc không?
 
-Để xóa tất cả các câu trả lời, bạn sẽ cần phải lặp lại`Replies` thu thập các bình luận và xóa từng bình luận một.
+Để xóa tất cả các câu trả lời, bạn sẽ cần phải lặp lại `Replies` thu thập các bình luận và xóa từng bình luận một.
 
 ### Tôi có thể truy cập vào phần bình luận ở một phần cụ thể của tài liệu không?
 
- Có, bạn có thể điều hướng qua các phần của tài liệu và truy cập các bình luận trong mỗi phần bằng cách sử dụng`GetChild` phương pháp.
+Có, bạn có thể điều hướng qua các phần của tài liệu và truy cập các bình luận trong mỗi phần bằng cách sử dụng `GetChild` phương pháp.
 
 ### Aspose.Words cho .NET có hỗ trợ các tính năng liên quan đến bình luận khác không?
 
 Có, Aspose.Words for .NET cung cấp hỗ trợ toàn diện cho nhiều tính năng liên quan đến chú thích, bao gồm thêm chú thích mới, thiết lập thuộc tính chú thích, v.v.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

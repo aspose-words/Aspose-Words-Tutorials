@@ -1,14 +1,16 @@
 ---
-title: वास्तविक आकार सीमा अंक प्राप्त करें
-linktitle: वास्तविक आकार सीमा अंक प्राप्त करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: जानें कि .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में वास्तविक आकार सीमा बिंदु कैसे प्राप्त करें। इस विस्तृत गाइड के साथ सटीक आकार हेरफेर सीखें।
-weight: 10
-url: /hi/net/programming-with-shapes/get-actual-shape-bounds-points/
+"description": "जानें कि .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में वास्तविक आकार सीमा बिंदु कैसे प्राप्त करें। इस विस्तृत गाइड के साथ सटीक आकार हेरफेर सीखें।"
+"linktitle": "वास्तविक आकार सीमा अंक प्राप्त करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वास्तविक आकार सीमा अंक प्राप्त करें"
+"url": "/hi/net/programming-with-shapes/get-actual-shape-bounds-points/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वास्तविक आकार सीमा अंक प्राप्त करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-shapes/get-actual-shape-bounds-points/
 
 इससे पहले कि हम बारीकियों में जाएं, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी स्थापित है। यदि नहीं, तो आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी स्थापित है। यदि नहीं, तो आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास परिवेश: आपके पास एक विकास परिवेश स्थापित होना चाहिए, जैसे कि विजुअल स्टूडियो।
 3. C# का बुनियादी ज्ञान: यह मार्गदर्शिका मानती है कि आपको C# प्रोग्रामिंग की बुनियादी समझ है।
 
@@ -44,7 +46,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- यहाँ, हम इसका एक उदाहरण बनाते हैं`Document` कक्षा और एक`DocumentBuilder` दस्तावेज़ में सामग्री सम्मिलित करने में हमारी सहायता करने के लिए.
+यहाँ, हम इसका एक उदाहरण बनाते हैं `Document` कक्षा और एक `DocumentBuilder` दस्तावेज़ में सामग्री सम्मिलित करने में हमारी सहायता करने के लिए.
 
 ## चरण 2: एक छवि आकार डालें
 
@@ -54,7 +56,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertImage("YOUR DOCUMENT DIRECTORY/Transparent background logo.png");
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY/Transparent background logo.png"` अपनी छवि फ़ाइल के पथ के साथ। यह पंक्ति दस्तावेज़ में छवि को एक आकृति के रूप में सम्मिलित करती है।
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY/Transparent background logo.png"` अपनी छवि फ़ाइल के पथ के साथ। यह पंक्ति दस्तावेज़ में छवि को एक आकृति के रूप में सम्मिलित करती है।
 
 ## चरण 3: पहलू अनुपात अनलॉक करें
 
@@ -64,7 +66,7 @@ Shape shape = builder.InsertImage("YOUR DOCUMENT DIRECTORY/Transparent backgroun
 shape.AspectRatioLocked = false;
 ```
 
-पहलू अनुपात को अनलॉक करने से हमें आकृति के मूल अनुपात को बनाए रखे बिना उसका आकार स्वतंत्र रूप से बदलने की सुविधा मिलती है।
+पहलू अनुपात को अनलॉक करने से हमें आकृति के मूल अनुपात को बनाए रखे बिना, उसका आकार स्वतंत्र रूप से बदलने की सुविधा मिलती है।
 
 ## चरण 4: आकृति सीमाएँ पुनः प्राप्त करें
 
@@ -75,7 +77,7 @@ Console.Write("\nGets the actual bounds of the shape in points: ");
 Console.WriteLine(shape.GetShapeRenderer().BoundsInPoints);
 ```
 
-`GetShapeRenderer` विधि आकृति के लिए एक रेंडरर प्रदान करती है, और`BoundsInPoints` हमें सटीक आयाम देता है.
+The `GetShapeRenderer` विधि आकृति के लिए एक रेंडरर प्रदान करती है, और `BoundsInPoints` हमें सटीक आयाम देता है.
 
 ## निष्कर्ष
 
@@ -92,14 +94,19 @@ Console.WriteLine(shape.GetShapeRenderer().BoundsInPoints);
 ### यदि मेरी छवि दस्तावेज़ में दिखाई न दे तो क्या होगा?
 सुनिश्चित करें कि फ़ाइल पथ सही है और छवि उस स्थान पर मौजूद है। टाइपो या गलत निर्देशिका संदर्भों के लिए दोबारा जाँच करें।
 
-### मैं अपने आकार का पहलू अनुपात कैसे बनाए रख सकता हूँ?
-तय करना`shape.AspectRatioLocked = true;`आकार बदलते समय मूल अनुपात को बनाए रखने के लिए।
+### मैं अपनी आकृति का पहलू अनुपात कैसे बनाए रख सकता हूँ?
+तय करना `shape.AspectRatioLocked = true;` आकार बदलते समय मूल अनुपात को बनाए रखने के लिए।
 
 ### क्या बिंदुओं के अलावा अन्य इकाइयों में सीमाएं प्राप्त करना संभव है?
 हां, आप उचित रूपांतरण कारकों का उपयोग करके बिंदुओं को इंच या सेंटीमीटर जैसी अन्य इकाइयों में परिवर्तित कर सकते हैं।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Lấy phạm vi trang Jpeg
-linktitle: Lấy phạm vi trang Jpeg
-second_title: API xử lý tài liệu Aspose.Words
-description: Chuyển đổi các trang cụ thể của tài liệu Word sang JPEG với các thiết lập tùy chỉnh bằng Aspose.Words cho .NET. Tìm hiểu cách điều chỉnh độ sáng, độ tương phản và độ phân giải từng bước.
-weight: 10
-url: /vi/net/programming-with-imagesaveoptions/get-jpeg-page-range/
+"description": "Chuyển đổi các trang cụ thể của tài liệu Word sang JPEG với các thiết lập tùy chỉnh bằng Aspose.Words cho .NET. Tìm hiểu cách điều chỉnh độ sáng, độ tương phản và độ phân giải từng bước."
+"linktitle": "Lấy phạm vi trang Jpeg"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Lấy phạm vi trang Jpeg"
+"url": "/vi/net/programming-with-imagesaveoptions/get-jpeg-page-range/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lấy phạm vi trang Jpeg
@@ -21,7 +23,7 @@ Chuyển đổi tài liệu Word sang hình ảnh có thể cực kỳ hữu íc
 
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
--  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Môi trường phát triển AC# như Visual Studio.
 - Tài liệu mẫu: Một tài liệu Word để làm việc. Bạn có thể sử dụng bất kỳ tệp .docx nào cho hướng dẫn này.
 - Kiến thức cơ bản về C#: Có kinh nghiệm lập trình C#.
@@ -39,18 +41,18 @@ using Aspose.Words.Saving;
 
 ## Bước 1: Tải tài liệu của bạn
 
-Đầu tiên, chúng ta cần tải tài liệu Word mà chúng ta muốn chuyển đổi. Giả sử tài liệu của chúng ta có tên là`Rendering.docx` và nằm trong thư mục được chỉ định bởi trình giữ chỗ`YOUR DOCUMENT DIRECTORY`.
+Đầu tiên, chúng ta cần tải tài liệu Word mà chúng ta muốn chuyển đổi. Giả sử tài liệu của chúng ta có tên là `Rendering.docx` và nằm trong thư mục được chỉ định bởi trình giữ chỗ `YOUR DOCUMENT DIRECTORY`.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Mã này khởi tạo đường dẫn đến tài liệu của bạn và tải nó vào Aspose.Words`Document` sự vật.
+Mã này khởi tạo đường dẫn đến tài liệu của bạn và tải nó vào Aspose.Words `Document` sự vật.
 
 ## Bước 2: Thiết lập ImageSaveOptions
 
- Tiếp theo, chúng ta sẽ thiết lập`ImageSaveOptions` để chỉ định cách chúng ta muốn JPEG được tạo ra. Điều này bao gồm thiết lập phạm vi trang, độ sáng, độ tương phản và độ phân giải của hình ảnh.
+Tiếp theo, chúng ta sẽ thiết lập `ImageSaveOptions` để chỉ định cách chúng ta muốn JPEG được tạo ra. Điều này bao gồm thiết lập phạm vi trang, độ sáng, độ tương phản và độ phân giải của hình ảnh.
 
 ```csharp
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
@@ -68,7 +70,7 @@ Cuối cùng, chúng ta lưu tài liệu dưới dạng tệp JPEG bằng cách 
 doc.Save(dataDir + "WorkingWithImageSaveOptions.GetJpegPageRange.jpeg", options);
 ```
 
- Mã này lưu trang đầu tiên của`Rendering.docx` dưới dạng ảnh JPEG với các thiết lập độ sáng, độ tương phản và độ phân giải đã chỉ định.
+Mã này lưu trang đầu tiên của `Rendering.docx` dưới dạng ảnh JPEG với các thiết lập độ sáng, độ tương phản và độ phân giải đã chỉ định.
 
 ## Phần kết luận
 
@@ -77,22 +79,27 @@ Và bạn đã có nó! Bạn đã chuyển đổi thành công một trang cụ
 ## Câu hỏi thường gặp
 
 ### Tôi có thể chuyển đổi nhiều trang cùng lúc không?
- Có, bạn có thể chỉ định một phạm vi trang bằng cách sử dụng`PageSet` tài sản trong`ImageSaveOptions`.
+Có, bạn có thể chỉ định một phạm vi trang bằng cách sử dụng `PageSet` tài sản trong `ImageSaveOptions`.
 
 ### Làm thế nào để điều chỉnh chất lượng hình ảnh?
- Bạn có thể điều chỉnh chất lượng của JPEG bằng cách sử dụng`JpegQuality` tài sản trong`ImageSaveOptions`.
+Bạn có thể điều chỉnh chất lượng của JPEG bằng cách sử dụng `JpegQuality` tài sản trong `ImageSaveOptions`.
 
 ### Tôi có thể lưu ở định dạng hình ảnh khác không?
- Có, Aspose.Words hỗ trợ nhiều định dạng hình ảnh như PNG, BMP và TIFF. Thay đổi`SaveFormat` TRONG`ImageSaveOptions` theo đó.
+Có, Aspose.Words hỗ trợ nhiều định dạng hình ảnh như PNG, BMP và TIFF. Thay đổi `SaveFormat` TRONG `ImageSaveOptions` theo đó.
 
 ### Có cách nào để xem trước hình ảnh trước khi lưu không?
 Bạn sẽ cần phải triển khai cơ chế xem trước riêng biệt vì Aspose.Words không cung cấp tính năng xem trước tích hợp.
 
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Words?
- Bạn có thể yêu cầu một[giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể yêu cầu một [giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

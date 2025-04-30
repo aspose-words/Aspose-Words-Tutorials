@@ -1,14 +1,16 @@
 ---
-title: Chèn trường nâng cao mà không cần trình tạo tài liệu
-linktitle: Chèn trường nâng cao mà không cần trình tạo tài liệu
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn trường nâng cao mà không cần sử dụng DocumentBuilder trong Aspose.Words cho .NET. Thực hiện theo hướng dẫn này để nâng cao kỹ năng xử lý tài liệu của bạn.
-weight: 10
-url: /vi/net/working-with-fields/insert-advance-field-with-out-document-builder/
+"description": "Tìm hiểu cách chèn trường nâng cao mà không cần sử dụng DocumentBuilder trong Aspose.Words cho .NET. Thực hiện theo hướng dẫn này để nâng cao kỹ năng xử lý tài liệu của bạn."
+"linktitle": "Chèn trường nâng cao mà không cần trình tạo tài liệu"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn trường nâng cao mà không cần trình tạo tài liệu"
+"url": "/vi/net/working-with-fields/insert-advance-field-with-out-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn trường nâng cao mà không cần trình tạo tài liệu
@@ -21,10 +23,10 @@ Bạn có muốn cải thiện thao tác tài liệu Word của mình bằng Asp
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
--  Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 - Visual Studio: Bất kỳ phiên bản nào gần đây đều được.
 - Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về lập trình C#.
--  Giấy phép Aspose.Words: Nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) nếu bạn không có.
+- Giấy phép Aspose.Words: Nhận giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/) nếu bạn không có.
 
 ## Nhập không gian tên
 
@@ -50,7 +52,7 @@ Trước tiên, hãy thiết lập dự án Visual Studio của chúng ta.
 
 1. Nhấp chuột phải vào dự án của bạn trong Solution Explorer.
 2. Chọn Quản lý gói NuGet.
-3. Tìm kiếm Aspose.Words và cài đặt phiên bản mới nhất.
+3. Tìm Aspose.Words và cài đặt phiên bản mới nhất.
 
 ## Bước 2: Khởi tạo Tài liệu và Đoạn văn
 
@@ -58,7 +60,7 @@ Bây giờ dự án của chúng ta đã được thiết lập, chúng ta cần
 
 ### Khởi tạo tài liệu
 
-1.  Trong của bạn`Program.cs` tập tin, hãy bắt đầu bằng cách tạo một tài liệu mới:
+1. Trong của bạn `Program.cs` tập tin, hãy bắt đầu bằng cách tạo một tài liệu mới:
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
@@ -79,7 +81,7 @@ Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
 ## Bước 3: Chèn trường Advance
 
-Bây giờ, chúng ta hãy chèn trường nhập liệu trước vào đoạn văn của mình.
+Bây giờ, chúng ta hãy chèn trường nâng cao vào đoạn văn của mình.
 
 ### Tạo trường
 
@@ -146,18 +148,23 @@ Có, bạn có thể sử dụng DocumentBuilder để chèn các trường nân
 
 ### Tôi có thể tìm thêm ví dụ về cách sử dụng Aspose.Words ở đâu?
 
- Bạn có thể tìm thấy tài liệu và ví dụ toàn diện trên[Aspose.Words cho tài liệu .NET](https://reference.aspose.com/words/net/) trang.
+Bạn có thể tìm thấy tài liệu và ví dụ toàn diện trên [Aspose.Words cho tài liệu .NET](https://reference.aspose.com/words/net/) trang.
 
 ### Aspose.Words cho .NET có miễn phí sử dụng không?
 
- Aspose.Words cho .NET cung cấp bản dùng thử miễn phí, bạn có thể tải xuống[đây](https://releases.aspose.com/). Để có đầy đủ chức năng, bạn sẽ cần phải mua giấy phép.
+Aspose.Words cho .NET cung cấp bản dùng thử miễn phí, bạn có thể tải xuống [đây](https://releases.aspose.com/). Để có đầy đủ chức năng, bạn sẽ cần phải mua giấy phép.
 
 ### Làm thế nào để tôi có thể nhận được hỗ trợ cho Aspose.Words dành cho .NET?
 
- Để được hỗ trợ, bạn có thể truy cập[Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
+Để được hỗ trợ, bạn có thể truy cập [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

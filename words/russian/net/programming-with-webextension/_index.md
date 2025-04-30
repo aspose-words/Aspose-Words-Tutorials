@@ -1,14 +1,16 @@
 ---
-title: Обработка слов с помощью Webextension
-linktitle: Обработка слов с помощью Webextension
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как разрабатывать веб-расширения для документов Word с помощью Aspose.Words для .NET. Узнайте, как создавать, изменять и настраивать веб-расширения, интегрировать их в ваши документы Word.
-weight: 1530
-url: /ru/net/programming-with-webextension/
+"description": "Узнайте, как разрабатывать веб-расширения для документов Word с помощью Aspose.Words для .NET. Узнайте, как создавать, изменять и настраивать веб-расширения, интегрировать их в ваши документы Word."
+"linktitle": "Обработка слов с помощью Webextension"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Обработка слов с помощью Webextension"
+"url": "/ru/net/programming-with-webextension/"
+"weight": 1530
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Обработка слов с помощью Webextension
@@ -20,12 +22,17 @@ url: /ru/net/programming-with-webextension/
 Следуя этим руководствам, вы сможете в полной мере использовать возможности веб-расширений в ваших документах Word, предоставляя им интерактивные и динамические функции. Руководства содержат пошаговые примеры кода и понятные объяснения, которые помогут вам максимально использовать эти функции и создавать инновационные и интерактивные документы Word.
 
 ## Учебники
-| Заголовок | Описание |
+| Название | Описание |
 | --- | --- |
 | [Использование панелей задач веб-расширения](./using-web-extension-task-panes/) | Узнайте, как добавлять и настраивать панели задач веб-расширений в документах Word с помощью Aspose.Words для .NET в этом подробном пошаговом руководстве. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

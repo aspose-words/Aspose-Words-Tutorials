@@ -1,14 +1,16 @@
 ---
-title: Belgeleri Birleştirme ve Kopyalama
-linktitle: Belgeleri Birleştirme ve Kopyalama
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Java'da Aspose.Words kullanarak belgeleri zahmetsizce nasıl birleştireceğinizi ve klonlayacağınızı öğrenin. Bu adım adım kılavuz bilmeniz gereken her şeyi kapsar.
-weight: 10
-url: /tr/java/document-merging/combining-cloning-documents/
+"description": "Java'da Aspose.Words kullanarak belgeleri zahmetsizce nasıl birleştireceğinizi ve klonlayacağınızı öğrenin. Bu adım adım kılavuz bilmeniz gereken her şeyi kapsar."
+"linktitle": "Belgeleri Birleştirme ve Kopyalama"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belgeleri Birleştirme ve Kopyalama"
+"url": "/tr/java/document-merging/combining-cloning-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belgeleri Birleştirme ve Kopyalama
@@ -47,7 +49,7 @@ public class DocumentCombination {
 
 ## Adım 2: Kaynak Belgeleri Yükle
 
- Sonra, birleştirmek istediğiniz kaynak belgeleri yüklemeniz gerekir. Birden fazla belgeyi ayrı örneklere yükleyebilirsiniz.`Document` sınıf.
+Sonra, birleştirmek istediğiniz kaynak belgeleri yüklemeniz gerekir. Birden fazla belgeyi ayrı örneklere yükleyebilirsiniz. `Document` sınıf.
 
 ```java
 // Kaynak belgeleri yükle
@@ -154,10 +156,15 @@ Kesinlikle! Aspose.Words, klonlanmış belgelere özel stil ve biçimlendirme uy
 
 ### Aspose.Words for Java için daha fazla kaynak ve belgeyi nerede bulabilirim?
 
- Aspose.Words for Java için kapsamlı dokümanları ve ek kaynakları şu adreste bulabilirsiniz:[Burada](https://reference.aspose.com/words/java/).
+Aspose.Words for Java için kapsamlı dokümanları ve ek kaynakları şu adreste bulabilirsiniz: [Burada](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

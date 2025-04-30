@@ -1,28 +1,30 @@
 ---
-title: Wstaw wykres kolumnowy do dokumentu Word
-linktitle: Wstaw wykres kolumnowy do dokumentu Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawiać wykresy kolumnowe do dokumentów programu Word za pomocą Aspose.Words dla platformy .NET. Ulepsz wizualizację danych w raportach i prezentacjach.
-weight: 10
-url: /pl/net/programming-with-charts/insert-column-chart/
+"description": "Dowiedz się, jak wstawiać wykresy kolumnowe do dokumentów programu Word za pomocą Aspose.Words dla platformy .NET. Ulepsz wizualizację danych w raportach i prezentacjach."
+"linktitle": "Wstaw wykres kolumnowy do dokumentu Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw wykres kolumnowy do dokumentu Word"
+"url": "/pl/net/programming-with-charts/insert-column-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw wykres kolumnowy do dokumentu Word
 
 ## Wstęp
 
-W tym samouczku dowiesz się, jak ulepszyć dokumenty Worda, wstawiając atrakcyjne wizualnie wykresy kolumnowe za pomocą Aspose.Words for .NET. Wykresy kolumnowe są skuteczne w wizualizacji trendów danych i porównań, dzięki czemu dokumenty są bardziej informacyjne i angażujące.
+tym samouczku dowiesz się, jak ulepszyć dokumenty Worda, wstawiając atrakcyjne wizualnie wykresy kolumnowe za pomocą Aspose.Words for .NET. Wykresy kolumnowe są skuteczne w wizualizacji trendów danych i porównań, dzięki czemu dokumenty są bardziej informacyjne i angażujące.
 
 ## Wymagania wstępne
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
 - Podstawowa znajomość programowania w języku C# i środowiska .NET.
--  Aspose.Words dla .NET zainstalowany w Twoim środowisku programistycznym. Możesz go pobrać[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET zainstalowany w Twoim środowisku programistycznym. Możesz go pobrać [Tutaj](https://releases.aspose.com/words/net/).
 - Edytor tekstu lub zintegrowane środowisko programistyczne (IDE), np. Visual Studio.
 
 ## Importowanie przestrzeni nazw
@@ -39,7 +41,7 @@ Aby wstawić wykres kolumnowy do dokumentu Word za pomocą Aspose.Words dla plat
 
 ## Krok 1: Utwórz nowy dokument
 
- Najpierw utwórz nowy dokument Word i zainicjuj`DocumentBuilder` obiekt.
+Najpierw utwórz nowy dokument Word i zainicjuj `DocumentBuilder` obiekt.
 
 ```csharp
 string dataDir = "YOUR_DOCUMENT_DIRECTORY_PATH";
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Krok 2: Wstaw wykres kolumnowy
 
- Użyj`InsertChart` metoda`DocumentBuilder`Klasa umożliwiająca wstawienie wykresu kolumnowego.
+Użyj `InsertChart` metoda `DocumentBuilder` Klasa umożliwiająca wstawienie wykresu kolumnowego.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
@@ -58,7 +60,7 @@ Chart chart = shape.Chart;
 
 ## Krok 3: Dodaj dane do wykresu
 
- Dodaj serię danych do wykresu za pomocą`Series` własność`Chart` obiekt.
+Dodaj serię danych do wykresu za pomocą `Series` własność `Chart` obiekt.
 
 ```csharp
 chart.Series.Add("Aspose Series 1", new string[] { "Category 1", "Category 2" }, new double[] { 1, 2 });
@@ -91,12 +93,17 @@ Dane na wykresie kolumnowym można dynamicznie uzupełniać, pobierając je z ba
 Tak, Aspose.Words for .NET umożliwia zapisywanie dokumentów z wykresami w różnych formatach, w tym PDF, HTML i jako obrazy.
 
 ### Gdzie mogę uzyskać dalszą pomoc lub wsparcie dotyczące Aspose.Words dla .NET?
- Aby uzyskać dalszą pomoc, odwiedź stronę[Aspose.Words dla forum .NET](https://forum.aspose.com/c/words/8) lub skontaktuj się z pomocą techniczną Aspose.
+Aby uzyskać dalszą pomoc, odwiedź stronę [Aspose.Words dla forum .NET](https://forum.aspose.com/c/words/8) lub skontaktuj się z pomocą techniczną Aspose.
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

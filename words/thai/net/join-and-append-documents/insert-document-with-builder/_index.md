@@ -1,14 +1,16 @@
 ---
-title: แทรกเอกสารด้วย Builder
-linktitle: แทรกเอกสารด้วย Builder
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการรวมเอกสาร Word สองฉบับโดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนในการแทรกเอกสารด้วย DocumentBuilder และรักษาการจัดรูปแบบ
-weight: 10
-url: /th/net/join-and-append-documents/insert-document-with-builder/
+"description": "เรียนรู้วิธีการรวมเอกสาร Word สองฉบับโดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนในการแทรกเอกสารด้วย DocumentBuilder และรักษาการจัดรูปแบบ"
+"linktitle": "แทรกเอกสารด้วย Builder"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แทรกเอกสารด้วย Builder"
+"url": "/th/net/join-and-append-documents/insert-document-with-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทรกเอกสารด้วย Builder
@@ -21,7 +23,7 @@ url: /th/net/join-and-append-documents/insert-document-with-builder/
 
 ก่อนที่เราจะเริ่ม เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
-1.  Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลด คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลด คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio หรือ IDE อื่นที่เหมาะสม
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับ C# เพียงเล็กน้อยก็จะเป็นประโยชน์มาก
 
@@ -41,36 +43,36 @@ using Aspose.Words.Saving;
 ก่อนที่เราจะเริ่มเขียนโค้ด คุณต้องกำหนดเส้นทางไปยังไดเร็กทอรีเอกสารของคุณก่อน ซึ่งเป็นที่ที่เอกสารต้นทางและปลายทางของคุณถูกจัดเก็บไว้
 
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงที่เอกสารของคุณอยู่ ซึ่งจะช่วยให้โปรแกรมค้นหาไฟล์ของคุณได้อย่างง่ายดาย
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงที่เอกสารของคุณอยู่ ซึ่งจะช่วยให้โปรแกรมค้นหาไฟล์ของคุณได้อย่างง่ายดาย
 
 ## ขั้นตอนที่ 2: การโหลดเอกสารต้นฉบับและปลายทาง
 
-ขั้นต่อไป เราต้องโหลดเอกสารที่เราต้องการใช้ ในตัวอย่างนี้ เรามีเอกสารต้นทางและเอกสารปลายทาง
+ขั้นตอนต่อไปคือเราต้องโหลดเอกสารที่ต้องการใช้งาน ในตัวอย่างนี้ เรามีเอกสารต้นทางและเอกสารปลายทาง
 
 ```csharp
 Document srcDoc = new Document(dataDir + "Document source.docx");
 Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 ```
 
- ที่นี่เราใช้`Document` คลาสจากไลบรารี Aspose.Words เพื่อโหลดเอกสารของเรา ตรวจสอบให้แน่ใจว่าชื่อไฟล์ตรงกับชื่อในไดเร็กทอรีของคุณ
+ที่นี่เราใช้ `Document` คลาสจากไลบรารี Aspose.Words เพื่อโหลดเอกสารของเรา ตรวจสอบให้แน่ใจว่าชื่อไฟล์ตรงกับชื่อในไดเร็กทอรีของคุณ
 
 ## ขั้นตอนที่ 3: การสร้างวัตถุ DocumentBuilder
 
- การ`DocumentBuilder` คลาสเป็นเครื่องมืออันทรงพลังในไลบรารี Aspose.Words ซึ่งช่วยให้เราสามารถนำทางและจัดการเอกสารได้
+การ `DocumentBuilder` คลาสเป็นเครื่องมืออันทรงพลังในไลบรารี Aspose.Words ซึ่งช่วยให้เราสามารถนำทางและจัดการเอกสารได้
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
 ```
 
- ในขั้นตอนนี้เราสร้าง`DocumentBuilder` วัตถุสำหรับเอกสารปลายทางของเรา ซึ่งจะช่วยให้เราแทรกเนื้อหาลงในเอกสารได้
+ในขั้นตอนนี้เราสร้าง `DocumentBuilder` วัตถุสำหรับเอกสารปลายทางของเรา ซึ่งจะช่วยให้เราแทรกเนื้อหาลงในเอกสารได้
 
 ## ขั้นตอนที่ 4: การย้ายไปยังจุดสิ้นสุดของเอกสาร
 
-เราจำเป็นต้องย้ายเคอร์เซอร์ของตัวสร้างไปยังท้ายเอกสารปลายทางก่อนแทรกเอกสารต้นฉบับ
+เราจำเป็นต้องย้ายเคอร์เซอร์ของตัวสร้างไปที่ท้ายเอกสารปลายทางก่อนแทรกเอกสารต้นฉบับ
 
 ```csharp
 builder.MoveToDocumentEnd();
@@ -96,7 +98,7 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.InsertDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
- การใช้`InsertDocument` วิธีนี้เราสามารถแทรกเอกสารต้นฉบับทั้งหมดลงในเอกสารปลายทางได้`ImportFormatMode.KeepSourceFormatting` ทำให้แน่ใจว่าการจัดรูปแบบของเอกสารต้นฉบับได้รับการรักษาไว้
+การใช้ `InsertDocument` วิธีนี้เราสามารถแทรกเอกสารต้นฉบับทั้งหมดลงในเอกสารปลายทางได้ `ImportFormatMode.KeepSourceFormatting` ทำให้แน่ใจว่าการจัดรูปแบบของเอกสารต้นฉบับได้รับการรักษาไว้
 
 ## ขั้นตอนที่ 7: บันทึกเอกสารที่ผสาน
 
@@ -118,19 +120,24 @@ builder.Document.Save(dataDir + "JoinAndAppendDocuments.InsertDocumentWithBuilde
 Aspose.Words สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง แก้ไข แปลง และจัดการเอกสาร Word ได้โดยผ่านโปรแกรม
 
 ### ฉันสามารถรักษาการจัดรูปแบบของเอกสารต้นฉบับไว้ได้หรือไม่  
- ใช่ โดยการใช้`ImportFormatMode.KeepSourceFormatting`การจัดรูปแบบของเอกสารต้นฉบับจะยังคงอยู่เมื่อแทรกเข้าไปในเอกสารปลายทาง
+ใช่ โดยการใช้ `ImportFormatMode.KeepSourceFormatting`การจัดรูปแบบของเอกสารต้นฉบับจะยังคงอยู่เมื่อแทรกเข้าไปในเอกสารปลายทาง
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Words สำหรับ .NET หรือไม่?  
- ใช่ Aspose.Words สำหรับ .NET ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถรับได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินผล
+ใช่ Aspose.Words สำหรับ .NET ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถรับได้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินผล
 
 ### ฉันสามารถทำให้กระบวนการนี้เป็นแบบอัตโนมัติได้หรือไม่  
 แน่นอน! วิธีการที่อธิบายไว้สามารถนำไปรวมเข้ากับแอปพลิเคชันขนาดใหญ่เพื่อทำให้กระบวนการประมวลผลเอกสารเป็นแบบอัตโนมัติได้
 
 ### ฉันสามารถหาทรัพยากรและการสนับสนุนเพิ่มเติมได้ที่ไหน  
- หากต้องการข้อมูลเพิ่มเติมสามารถตรวจสอบได้ที่[เอกสารประกอบ](https://reference.aspose.com/words/net/) หรือเยี่ยมชม[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือ
+หากต้องการข้อมูลเพิ่มเติมสามารถตรวจสอบได้ที่ [เอกสารประกอบ](https://reference.aspose.com/words/net/)หรือเยี่ยมชม [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือ
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

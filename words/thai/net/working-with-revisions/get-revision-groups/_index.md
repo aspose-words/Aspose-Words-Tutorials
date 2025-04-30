@@ -1,14 +1,16 @@
 ---
-title: รับกลุ่มการแก้ไข
-linktitle: รับกลุ่มการแก้ไข
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีเรียกค้นกลุ่มการแก้ไขจากเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้ เหมาะอย่างยิ่งสำหรับการจัดการเอกสาร
-weight: 10
-url: /th/net/working-with-revisions/get-revision-groups/
+"description": "เรียนรู้วิธีเรียกค้นกลุ่มการแก้ไขจากเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้ เหมาะอย่างยิ่งสำหรับการจัดการเอกสาร"
+"linktitle": "รับกลุ่มการแก้ไข"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "รับกลุ่มการแก้ไข"
+"url": "/th/net/working-with-revisions/get-revision-groups/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับกลุ่มการแก้ไข
@@ -21,7 +23,7 @@ url: /th/net/working-with-revisions/get-revision-groups/
 
 ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
-1.  ไลบรารี Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ .NET เวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+1. ไลบรารี Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ .NET เวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: มีการตั้งค่าสภาพแวดล้อมการพัฒนา .NET (เช่น Visual Studio)
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะเป็นประโยชน์
 
@@ -39,7 +41,7 @@ using Aspose.Words.Revision;
 
 ## ขั้นตอนที่ 1: เริ่มต้นเอกสาร
 
- ขั้นตอนแรกคือการเริ่มต้น`Document` วัตถุที่มีเส้นทางไปยังเอกสาร Word ของคุณ วัตถุนี้จะช่วยให้คุณสามารถเข้าถึงและจัดการเนื้อหาของเอกสารได้
+ขั้นตอนแรกคือการเริ่มต้น `Document` วัตถุที่มีเส้นทางไปยังเอกสาร Word ของคุณ วัตถุนี้จะช่วยให้คุณสามารถเข้าถึงและจัดการเนื้อหาของเอกสารได้
 
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
@@ -91,26 +93,31 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 
 ### ฉันสามารถกรองการแก้ไขตามผู้เขียนเฉพาะได้หรือไม่
 
- ใช่ คุณสามารถกรองการแก้ไขโดยระบุผู้เขียนได้โดยการตรวจสอบ`Author` ทรัพย์สินของแต่ละคน`RevisionGroup` ในระหว่างการวนซ้ำ
+ใช่ คุณสามารถกรองการแก้ไขโดยผู้เขียนเฉพาะได้โดยการตรวจสอบ `Author` ทรัพย์สินของแต่ละคน `RevisionGroup` ในระหว่างการวนซ้ำ
 
 ### ฉันจะได้รับรุ่นทดลองใช้งาน Aspose.Words สำหรับ .NET ฟรีได้อย่างไร
 
- คุณสามารถทดลองใช้ Aspose.Words สำหรับ .NET ได้ฟรี[ที่นี่](https://releases.aspose.com/).
+คุณสามารถทดลองใช้ Aspose.Words สำหรับ .NET ได้ฟรี [ที่นี่](https://releases-aspose.com/).
 
 ### Aspose.Words for .NET มีฟีเจอร์อื่นๆ อะไรอีกบ้างในการจัดการการแก้ไข?
 
- Aspose.Words สำหรับ .NET นำเสนอฟีเจอร์ต่างๆ เช่น การยอมรับหรือปฏิเสธการแก้ไข การเปรียบเทียบเอกสาร และอื่นๆ อีกมากมาย ตรวจสอบ[เอกสารประกอบ](https://reference.aspose.com/words/net/) เพื่อดูข้อมูลโดยละเอียด
+Aspose.Words สำหรับ .NET นำเสนอฟีเจอร์ต่างๆ เช่น การยอมรับหรือปฏิเสธการแก้ไข การเปรียบเทียบเอกสาร และอื่นๆ ตรวจสอบ [เอกสารประกอบ](https://reference.aspose.com/words/net/) เพื่อดูข้อมูลโดยละเอียด
 
 ### เป็นไปได้ไหมที่จะได้รับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET?
 
-ใช่ คุณสามารถรับการสนับสนุนจากชุมชน Aspose ได้[ที่นี่](https://forum.aspose.com/c/words/8).
+ใช่ คุณสามารถรับการสนับสนุนจากชุมชน Aspose ได้ [ที่นี่](https://forum-aspose.com/c/words/8).
 
 ### ฉันสามารถซื้อ Aspose.Words สำหรับ .NET ได้อย่างไร?
 
- คุณสามารถซื้อ Aspose.Words สำหรับ .NET ได้[ที่นี่](https://purchase.aspose.com/buy).
+คุณสามารถซื้อ Aspose.Words สำหรับ .NET ได้ [ที่นี่](https://purchase-aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

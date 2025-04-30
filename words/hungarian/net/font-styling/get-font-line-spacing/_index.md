@@ -1,48 +1,56 @@
 ---
-title: Szerezz fontvonal-szétválasztást a Word dokumentumban.
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan készítsen egy Word dokumentumot és vegye vissza a betűs vonalak közötti távolságot a .NET-hez Aspose.Words segítségével.
-keywords: [Aspose.Words for .NET, get font line spacing, create Word document, .NET Word library, font properties, .NET document creation, line spacing example]
-url: /hu/net/font-styling/get-font-line-spacing/
+"description": "Tanuld meg, hogyan hozhatsz létre Word-dokumentumot és hogyan kérheted le a betűtípus sorközét az Aspose.Words for .NET segítségével. Lépésről lépésre bemutatott utasítások kódpéldákkal."
+"title": "Betűtípus-sorköz lekérése Word dokumentumban | Aspose.Words .NET-hez"
+"url": "/hu/net/font-styling/get-font-line-spacing/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szerezzen fontvonal-távolítást a Word dokumentumban
-Az .NET-hez használt Aspose.Words egyszerűsíti a Word dokumentum létrehozását és manipulálását. Ez a példa bemutatja, hogyan lehet kezdeményezni a Word dokumentumot, beállítani egy egyedi betűt és visszanyerni egy adott betű vonalát. Függetlenül attól, hogy automatikusan generálod a dokumentumot vagy tekststílusokat elemzel, ez a útmutató egyértelmű utasításokat és gyakorlati kódkifejezéseket biztosít a célok hatékony eléréséhez.
+# Betűtípus-sorköz beolvasása Word dokumentumban
+Az Aspose.Words for .NET leegyszerűsíti a Word dokumentumok létrehozását és kezelését. Ez a példa bemutatja, hogyan inicializálhat egy Word dokumentumot, hogyan állíthat be egyéni betűtípust, és hogyan kérheti le egy adott betűtípus sorközét. Akár dokumentumgenerálást automatizál, akár szövegstílusokat elemez, ez az útmutató világos utasításokat és praktikus kódrészleteket tartalmaz a céljai hatékony eléréséhez. Az Aspose.Words for .NET egy hatékony könyvtár a C# vagy VB.NET nyelven Word dokumentumokkal dolgozó fejlesztők számára.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/font-styling/get-font-line-spacing" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítások  
-A következő lépéseket kell követni, hogy ezt a példákat használd:  
-1. Letöltsük és telepítsük az Aspose.Words .NET-re  
-   * Látogasson el a[Aspose.Words a .NET letöltőoldalhoz](https://releases.aspose.com/words/net/)és letöltsük az utolsó verziót.  
-   * Készítsd ki a letöltött csomagot és hivatkozz a `Aspose.Words.dll`A projektedben.  
+## Telepítési utasítások  
+A példa használatához kövesse az alábbi lépéseket:  
+1. Aspose.Words .NET-hez való letöltése és telepítése  
+   - Látogassa meg a [Aspose.Words .NET letöltési oldal](https://releases.aspose.com/words/net/) és töltsd le a legújabb verziót.  
+   - Csomagold ki a letöltött csomagot, és hivatkozz rá `Aspose.Words.dll` fájl a projektedben.  
 
-2. A NuGet segítségével telepítse  
-   * Nyissa ki a projektét a Visual Studio-ban.  
-   * Menjen az eszközök > NuGet csomagkezelő > A megoldáshoz szükséges NuGet csomagok kezelése.  
-   * Keresd a`Aspose.Words`a NuGet csomagkezelőbe, és telepítse a csomagot.  
+2. Telepítés NuGet-en keresztül  
+   - Nyisd meg a projektedet a Visual Studioban.  
+   - Lépjen az Eszközök > NuGet csomagkezelő > Megoldáshoz tartozó NuGet csomagok kezelése menüpontra.  
+   - Keresés `Aspose.Words` a NuGet csomagkezelőben, és telepítse a csomagot.  
 
-3. A licenc kérelmezés (Felvételi, de ajánlott)  
-   * Szerezzenek engedélyt a [Célraállítson Vásárlási oldalt](https://purchase.aspose.com/buy)\- Nem.  
-   * Használja a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/)szükség esetén értékelés céljából.  
-   * A licenc alkalmazásához a kérelmezés elején a következő kódot kell hozzáadni:  
+3. Licenc igénylése (opcionális, de ajánlott)  
+   - Szerezzen be engedélyt a [Aspose Vásárlási oldal](https://purchase.aspose.com/buy).  
+   - Használjon egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) szükség esetén értékeléshez.  
+   - A licenc alkalmazásához a következő kódot kell hozzáadni az alkalmazás elejéhez:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```
 	 
-## Lásd:
-[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
-[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
+## Lásd még
+[Aspose.Word .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word .NET-hez kapcsolódó hivatkozások](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

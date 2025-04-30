@@ -1,14 +1,16 @@
 ---
-title: Jaga Meja Tetap Bersama
-linktitle: Jaga Meja Tetap Bersama
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mencegah tabel agar tidak terpisah di beberapa halaman menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Pastikan dokumen Word terlihat rapi dan profesional
-weight: 10
-url: /id/net/join-and-append-documents/keep-source-together/
+"description": "Pelajari cara mencegah tabel agar tidak terpisah di beberapa halaman menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Pastikan dokumen Word terlihat rapi dan profesional"
+"linktitle": "Jaga Meja Tetap Bersama"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Jaga Meja Tetap Bersama"
+"url": "/id/net/join-and-append-documents/keep-source-together/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Jaga Meja Tetap Bersama
@@ -36,11 +38,11 @@ Anda harus menyiapkan lingkungan pengembangan untuk menjalankan kode C#, seperti
 
 ### Dokumen Word dengan Tabel
 
- Anda memerlukan dokumen Word yang berisi tabel. Dalam tutorial ini, kita akan menggunakan contoh dokumen yang disebut`"Table spanning two pages.docx"`Berkas ini berisi tabel yang saat ini membentang di dua halaman.
+Anda memerlukan dokumen Word yang berisi tabel. Dalam tutorial ini, kita akan menggunakan contoh dokumen yang disebut `"Table spanning two pages.docx"`Berkas ini berisi tabel yang saat ini membentang di dua halaman.
 
 ### Lisensi Sementara (Opsional)
 
- Meskipun Aspose.Words hadir dengan uji coba gratis, Anda mungkin ingin menggunakan[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk membuka potensi penuh perpustakaan.
+Meskipun Aspose.Words hadir dengan uji coba gratis, Anda mungkin ingin menggunakan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk membuka potensi penuh perpustakaan.
 
 ## Paket Impor
 
@@ -51,11 +53,11 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
- Ruang nama ini memberi Anda akses ke kelas seperti`Document`, `Table`, `Cell`, dan lainnya yang akan kita gunakan dalam tutorial ini.
+Ruang nama ini memberi Anda akses ke kelas seperti `Document`Bahasa Indonesia: `Table`Bahasa Indonesia: `Cell`, dan lainnya yang akan kita gunakan dalam tutorial ini.
 
 ## Langkah 1: Muat Dokumen
 
- Hal pertama yang perlu kita lakukan adalah memuat dokumen Word yang berisi tabel. Untuk ini, kita akan menggunakan`Document` kelas dari Aspose.Words. Kelas ini memungkinkan Anda untuk membuka dan memanipulasi file Word secara terprogram.
+Hal pertama yang perlu kita lakukan adalah memuat dokumen Word yang berisi tabel. Untuk ini, kita akan menggunakan `Document` kelas dari Aspose.Words. Kelas ini memungkinkan Anda untuk membuka dan memanipulasi file Word secara terprogram.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -64,7 +66,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document doc = new Document(dataDir + "Table spanning two pages.docx");
 ```
 
- Dalam potongan kode ini, kami menentukan lokasi dokumen kami. Ganti`"YOUR DOCUMENTS DIRECTORY"` dengan direktori sebenarnya tempat dokumen Anda disimpan.
+Dalam potongan kode ini, kami menentukan lokasi dokumen kami. Ganti `"YOUR DOCUMENTS DIRECTORY"` dengan direktori sebenarnya tempat dokumen Anda disimpan.
 
 ## Langkah 2: Akses Tabel
 
@@ -74,7 +76,7 @@ Setelah dokumen dimuat, langkah selanjutnya adalah mengakses tabel yang ingin ki
 Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 ```
 
- Baris kode ini menemukan tabel pertama dalam dokumen.`GetChild` metode mengambil jenis node tertentu, yang dalam kasus ini adalah`NodeType.Table` . Itu`0` menunjukkan kita menginginkan tabel pertama, dan`true`bendera memastikan bahwa kami mencari secara rekursif melalui semua simpul anak.
+Baris kode ini menemukan tabel pertama dalam dokumen. `GetChild` metode mengambil jenis node tertentu, yang dalam kasus ini adalah `NodeType.Table`. Itu `0` menunjukkan kita menginginkan tabel pertama, dan `true` bendera memastikan bahwa kami mencari secara rekursif melalui semua simpul anak.
 
 ## Langkah 3: Melakukan Looping Melalui Sel Tabel
 
@@ -86,11 +88,11 @@ foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
     cell.EnsureMinimum();
 ```
 
- Di Sini,`GetChildNodes` mengambil semua sel dalam tabel, dan kita mengulang setiap sel.`EnsureMinimum()` Metode ini memastikan bahwa setiap sel berisi setidaknya satu paragraf, karena sel yang kosong dapat menyebabkan masalah di kemudian hari.
+Di Sini, `GetChildNodes` mengambil semua sel dalam tabel, dan kita mengulang setiap sel. `EnsureMinimum()` Metode ini memastikan bahwa setiap sel berisi setidaknya satu paragraf, karena sel yang kosong dapat menyebabkan masalah di kemudian hari.
 
 ## Langkah 4: Tetapkan Properti KeepWithNext
 
- Untuk mencegah tabel terpecah di beberapa halaman, kita perlu mengatur`KeepWithNext` properti untuk setiap paragraf dalam tabel. Properti ini memastikan bahwa paragraf tersebut tetap berada di dalam paragraf berikutnya, sehingga secara efektif mencegah terjadinya jeda halaman di antara paragraf tersebut.
+Untuk mencegah tabel terpecah di beberapa halaman, kita perlu mengatur `KeepWithNext` properti untuk setiap paragraf dalam tabel. Properti ini memastikan bahwa paragraf tersebut tetap berada di dalam paragraf berikutnya, sehingga secara efektif mencegah terjadinya jeda halaman di antara paragraf tersebut.
 
 ```csharp
     foreach (Paragraph para in cell.Paragraphs)
@@ -98,11 +100,11 @@ foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
             para.ParagraphFormat.KeepWithNext = true;
 ```
 
- Loop ini memeriksa setiap paragraf di dalam setiap sel. Kondisi ini memastikan bahwa kita tidak menerapkan`KeepWithNext`properti ke paragraf terakhir di baris terakhir. Jika tidak, properti tidak akan berpengaruh karena tidak ada paragraf berikutnya.
+Loop ini memeriksa setiap paragraf di dalam setiap sel. Kondisi ini memastikan bahwa kita tidak menerapkan `KeepWithNext` properti ke paragraf terakhir di baris terakhir. Jika tidak, properti tidak akan berpengaruh karena tidak ada paragraf berikutnya.
 
 ## Langkah 5: Simpan Dokumen
 
- Akhirnya, setelah menerapkan`KeepWithNext` properti, kita perlu menyimpan dokumen yang dimodifikasi.
+Akhirnya, setelah menerapkan `KeepWithNext` properti, kita perlu menyimpan dokumen yang dimodifikasi.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTables.KeepTableTogether.docx");
@@ -120,11 +122,11 @@ Keunggulan Aspose.Words adalah fleksibilitas dan kemudahan penggunaannya, yang m
 
 ### Mengapa tabel saya masih terbagi beberapa halaman setelah menggunakan kode ini?
 
- Jika meja Anda masih rusak, pastikan Anda telah menerapkan`KeepWithNext` properti dengan benar. Periksa kembali bahwa semua paragraf kecuali paragraf terakhir di setiap sel telah menetapkan properti ini.
+Jika meja Anda masih rusak, pastikan Anda telah menerapkan `KeepWithNext` properti dengan benar. Periksa kembali bahwa semua paragraf kecuali paragraf terakhir di setiap sel telah menetapkan properti ini.
 
 ### Bisakah saya hanya menyatukan baris-baris tertentu saja?
 
- Ya, Anda dapat menerapkannya secara selektif`KeepWithNext` properti ke baris atau paragraf tertentu dalam tabel untuk mengontrol bagian mana yang harus tetap bersama.
+Ya, Anda dapat menerapkannya secara selektif `KeepWithNext` properti ke baris atau paragraf tertentu dalam tabel untuk mengontrol bagian mana yang harus tetap bersama.
 
 ### Apakah metode ini berfungsi dengan tabel besar?
 
@@ -136,10 +138,15 @@ Ya! Aspose.Words untuk .NET mendukung banyak format seperti DOC, DOCX, PDF, dan 
 
 ### Apakah Aspose.Words untuk .NET pustaka gratis?
 
- Aspose.Words untuk .NET menawarkan uji coba gratis, tetapi untuk akses penuh ke semua fitur, Anda perlu membeli lisensi. Anda dapat menjelajahi opsi lisensi di[Halaman pembelian Aspose](https://purchase.aspose.com/buy).
+Aspose.Words untuk .NET menawarkan uji coba gratis, tetapi untuk akses penuh ke semua fitur, Anda perlu membeli lisensi. Anda dapat menjelajahi opsi lisensi di [Halaman pembelian Aspose](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

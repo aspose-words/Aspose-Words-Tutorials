@@ -1,14 +1,16 @@
 ---
-title: Sử dụng ký tự Tab cho mỗi cấp độ để thụt lề danh sách
-linktitle: Sử dụng ký tự Tab cho mỗi cấp độ để thụt lề danh sách
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tạo danh sách nhiều cấp với thụt lề theo tab bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn này để định dạng danh sách chính xác trong tài liệu của bạn.
-weight: 10
-url: /vi/net/programming-with-txtsaveoptions/use-tab-character-per-level-for-list-indentation/
+"description": "Tìm hiểu cách tạo danh sách nhiều cấp với thụt lề theo tab bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn này để định dạng danh sách chính xác trong tài liệu của bạn."
+"linktitle": "Sử dụng ký tự Tab cho mỗi cấp độ để thụt lề danh sách"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Sử dụng ký tự Tab cho mỗi cấp độ để thụt lề danh sách"
+"url": "/vi/net/programming-with-txtsaveoptions/use-tab-character-per-level-for-list-indentation/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng ký tự Tab cho mỗi cấp độ để thụt lề danh sách
@@ -21,7 +23,7 @@ Danh sách là thành phần cơ bản trong việc sắp xếp nội dung, cho 
 
 Trước khi đi sâu vào các bước, hãy đảm bảo bạn đã chuẩn bị những điều sau:
 
-1.  Aspose.Words cho .NET đã cài đặt: Bạn cần thư viện Aspose.Words. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ[Tải xuống Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET đã cài đặt: Bạn cần thư viện Aspose.Words. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ [Tải xuống Aspose](https://releases.aspose.com/words/net/).
 
 2. Hiểu biết cơ bản về C# và .NET: Sự quen thuộc với lập trình C# và .NET framework là điều cần thiết để làm theo hướng dẫn này.
 
@@ -55,7 +57,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Ở đây, chúng tôi thiết lập một cái mới`Document` đối tượng và một`DocumentBuilder` để bắt đầu tạo nội dung trong tài liệu.
+Ở đây, chúng tôi thiết lập một cái mới `Document` đối tượng và một `DocumentBuilder` để bắt đầu tạo nội dung trong tài liệu.
 
 ## Bước 2: Áp dụng định dạng danh sách mặc định
 
@@ -73,7 +75,7 @@ Trong bước này, chúng ta áp dụng định dạng đánh số mặc địn
 Chèn mục danh sách và thụt lề
 
 ```csharp
-//Thêm mục danh sách đầu tiên
+// Thêm mục danh sách đầu tiên
 builder.Write("Element 1");
 
 // Thụt lề để tạo cấp độ thứ hai
@@ -85,7 +87,7 @@ builder.ListFormat.ListIndent();
 builder.Write("Element 3");
 ```
 
- Ở đây, chúng tôi thêm ba yếu tố vào danh sách của mình, mỗi yếu tố có mức độ thụt lề tăng dần.`ListIndent` phương pháp này được sử dụng để tăng mức thụt lề cho mỗi mục tiếp theo.
+Ở đây, chúng tôi thêm ba yếu tố vào danh sách của mình, mỗi yếu tố có mức độ thụt lề tăng dần. `ListIndent` phương pháp này được sử dụng để tăng mức thụt lề cho mỗi mục tiếp theo.
 
 ## Bước 4: Cấu hình tùy chọn lưu
 
@@ -98,7 +100,7 @@ saveOptions.ListIndentation.Count = 1;
 saveOptions.ListIndentation.Character = '\t';
 ```
 
- Chúng tôi cấu hình`TxtSaveOptions` sử dụng các ký tự tab để thụt lề trong tệp văn bản đã lưu.`ListIndentation.Character` thuộc tính được thiết lập thành`'\t'`, biểu thị cho ký tự tab.
+Chúng tôi cấu hình `TxtSaveOptions` sử dụng các ký tự tab để thụt lề trong tệp văn bản đã lưu. `ListIndentation.Character` thuộc tính được thiết lập thành `'\t'`, biểu thị cho ký tự tab.
 
 ## Bước 5: Lưu tài liệu
 
@@ -109,7 +111,7 @@ Lưu tài liệu với các tùy chọn được chỉ định
 doc.Save(dataDir + "WorkingWithTxtSaveOptions.UseTabCharacterPerLevelForListIndentation.txt", saveOptions);
 ```
 
- Cuối cùng, chúng tôi lưu tài liệu bằng cách sử dụng`Save` phương pháp với tùy chỉnh của chúng tôi`TxtSaveOptions`. Điều này đảm bảo rằng danh sách được lưu với các ký tự tab cho các mức thụt lề.
+Cuối cùng, chúng tôi lưu tài liệu bằng cách sử dụng `Save` phương pháp với tùy chỉnh của chúng tôi `TxtSaveOptions`. Điều này đảm bảo rằng danh sách được lưu với các ký tự tab cho các mức thụt lề.
 
 ## Phần kết luận
 
@@ -118,22 +120,27 @@ Trong hướng dẫn này, chúng tôi đã hướng dẫn bạn cách tạo dan
 ## Câu hỏi thường gặp
 
 ### Làm thế nào để thay đổi ký tự thụt lề từ tab sang khoảng trắng?
- Bạn có thể sửa đổi`saveOptions.ListIndentation.Character` thuộc tính sử dụng ký tự khoảng trắng thay vì tab.
+Bạn có thể sửa đổi `saveOptions.ListIndentation.Character` thuộc tính sử dụng ký tự khoảng trắng thay vì tab.
 
 ### Tôi có thể áp dụng các kiểu danh sách khác nhau cho các cấp độ khác nhau không?
 Có, Aspose.Words cho phép tùy chỉnh kiểu danh sách ở nhiều cấp độ khác nhau. Bạn có thể sửa đổi các tùy chọn định dạng danh sách để đạt được các kiểu khác nhau.
 
 ### Tôi phải làm sao nếu cần áp dụng dấu đầu dòng thay vì số?
- Sử dụng`ListFormat.ApplyBulletDefault()` phương pháp thay thế`ApplyNumberDefault()` để tạo danh sách có dấu đầu dòng.
+Sử dụng `ListFormat.ApplyBulletDefault()` phương pháp thay thế `ApplyNumberDefault()` để tạo danh sách có dấu đầu dòng.
 
 ### Làm thế nào để điều chỉnh kích thước của ký tự tab dùng để thụt lề?
- Thật không may, kích thước tab trong`TxtSaveOptions`đã được sửa. Để điều chỉnh kích thước thụt lề, bạn có thể cần sử dụng khoảng trắng hoặc tùy chỉnh trực tiếp định dạng danh sách.
+Thật không may, kích thước tab trong `TxtSaveOptions` đã được sửa. Để điều chỉnh kích thước thụt lề, bạn có thể cần sử dụng khoảng trắng hoặc tùy chỉnh trực tiếp định dạng danh sách.
 
 ### Tôi có thể sử dụng những cài đặt này khi xuất sang các định dạng khác như PDF hoặc DOCX không?
 Các thiết lập ký tự tab cụ thể áp dụng cho các tệp văn bản. Đối với các định dạng như PDF hoặc DOCX, bạn sẽ cần điều chỉnh các tùy chọn định dạng trong các định dạng đó.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

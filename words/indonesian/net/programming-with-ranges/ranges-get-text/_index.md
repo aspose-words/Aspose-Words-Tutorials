@@ -1,14 +1,16 @@
 ---
-title: Rentang Mendapatkan Teks Dalam Dokumen Word
-linktitle: Rentang Mendapatkan Teks Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Ekstrak teks dari dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami untuk memulai dengan mudah.
-weight: 10
-url: /id/net/programming-with-ranges/ranges-get-text/
+"description": "Ekstrak teks dari dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami untuk memulai dengan mudah."
+"linktitle": "Rentang Mendapatkan Teks Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Rentang Mendapatkan Teks Dalam Dokumen Word"
+"url": "/id/net/programming-with-ranges/ranges-get-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rentang Mendapatkan Teks Dalam Dokumen Word
@@ -21,7 +23,7 @@ Pernahkah Anda perlu mengekstrak teks dari dokumen Word secara terprogram? Baik 
 
 Sebelum kita masuk ke kode, ada beberapa hal yang perlu Anda siapkan:
 
-1.  Pustaka Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Siapkan lingkungan pengembangan Anda. Visual Studio merupakan pilihan populer untuk pengembangan .NET.
 3. Dokumen Word: Siapkan dokumen Word yang ingin Anda ekstrak teksnya. Simpan di direktori yang dikenal di sistem Anda.
 
@@ -47,7 +49,7 @@ Buat Direktori untuk Dokumen Anda
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Direktori ini akan menyimpan dokumen Word Anda. Pastikan untuk mengganti`"YOUR DOCUMENTS DIRECTORY"` dengan jalur sebenarnya ke direktori Anda.
+Direktori ini akan menyimpan dokumen Word Anda. Pastikan untuk mengganti `"YOUR DOCUMENTS DIRECTORY"` dengan jalur sebenarnya ke direktori Anda.
 
 ## Langkah 2: Muat Dokumen Word
 
@@ -60,7 +62,7 @@ Muat Dokumen
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- Pada langkah ini, Anda membuat instance baru dari`Document` kelas dan muat dokumen Word Anda ke dalamnya. Pastikan nama file dan jalurnya sudah benar.
+Pada langkah ini, Anda membuat instance baru dari `Document` kelas dan muat dokumen Word Anda ke dalamnya. Pastikan nama file dan jalurnya sudah benar.
 
 ## Langkah 3: Ekstrak Teks dari Dokumen
 
@@ -73,7 +75,7 @@ Ekstrak Teks
 string text = doc.Range.Text;
 ```
 
- Itu`Range.Text` properti memberi Anda semua teks yang terdapat dalam rentang dokumen. Ini termasuk teks dari semua bagian, header, footer, dan badan utama.
+Itu `Range.Text` properti memberi Anda semua teks yang terdapat dalam rentang dokumen. Ini termasuk teks dari semua bagian, header, footer, dan badan utama.
 
 ## Langkah 4: Menampilkan Teks yang Diekstrak
 
@@ -100,7 +102,7 @@ Aspose.Words untuk .NET adalah pustaka manipulasi dokumen canggih yang memungkin
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words untuk .NET?
 
- Ya, Aspose.Words untuk .NET adalah produk berlisensi. Anda dapat memperoleh lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/) atau membelinya dari[Di Sini](https://purchase.aspose.com/buy).
+Ya, Aspose.Words untuk .NET adalah produk berlisensi. Anda dapat memperoleh lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/) atau membelinya dari [Di Sini](https://purchase.aspose.com/buy).
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET dengan bahasa .NET lain selain C#?
 
@@ -108,14 +110,19 @@ Tentu saja! Aspose.Words untuk .NET mendukung semua bahasa .NET, termasuk VB.NET
 
 ### Di mana saya dapat menemukan dokumentasi untuk Aspose.Words untuk .NET?
 
- Anda dapat menemukan dokumentasi lengkapnya[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi lengkapnya [Di Sini](https://reference.aspose.com/words/net/).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.Words untuk .NET?
 
- Untuk dukungan, Anda dapat mengunjungi forum Aspose.Words[Di Sini](https://forum.aspose.com/c/words/8).
+Untuk dukungan, Anda dapat mengunjungi forum Aspose.Words [Di Sini](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

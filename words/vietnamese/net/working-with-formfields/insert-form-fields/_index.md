@@ -1,14 +1,16 @@
 ---
-title: Chèn trường biểu mẫu
-linktitle: Chèn trường biểu mẫu
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn trường biểu mẫu hộp kết hợp vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi.
-weight: 10
-url: /vi/net/working-with-formfields/insert-form-fields/
+"description": "Tìm hiểu cách chèn trường biểu mẫu hộp kết hợp vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi."
+"linktitle": "Chèn trường biểu mẫu"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn trường biểu mẫu"
+"url": "/vi/net/working-with-formfields/insert-form-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn trường biểu mẫu
@@ -21,7 +23,7 @@ Các trường biểu mẫu trong tài liệu Word có thể cực kỳ hữu í
 
 Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Nếu chưa, bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Nếu chưa, bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Bạn sẽ cần một IDE như Visual Studio.
 3. .NET Framework: Đảm bảo rằng bạn đã cài đặt .NET Framework trên máy của mình.
 
@@ -46,7 +48,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Trong bước này, chúng ta tạo một thể hiện của`Document` lớp. Trường hợp này đại diện cho tài liệu Word. Sau đó, chúng tôi tạo một trường hợp của`DocumentBuilder` lớp cung cấp các phương thức để chèn nội dung vào tài liệu.
+Trong bước này, chúng ta tạo một phiên bản của `Document` lớp. Trường hợp này đại diện cho tài liệu Word. Sau đó, chúng tôi tạo một trường hợp của `DocumentBuilder` lớp cung cấp các phương thức để chèn nội dung vào tài liệu.
 
 ## Bước 2: Xác định các mục trong hộp kết hợp
 
@@ -56,17 +58,17 @@ Tiếp theo, hãy xác định các mục bạn muốn đưa vào hộp kết h�
 string[] items = { "One", "Two", "Three" };
 ```
 
- Ở đây, chúng ta tạo một mảng chuỗi có tên là`items` bao gồm các tùy chọn "Một", "Hai" và "Ba".
+Ở đây, chúng ta tạo một mảng chuỗi có tên là `items` bao gồm các tùy chọn "Một", "Hai" và "Ba".
 
 ## Bước 3: Chèn hộp kết hợp
 
- Bây giờ, chèn hộp kết hợp vào tài liệu bằng cách sử dụng`DocumentBuilder` ví dụ.
+Bây giờ, chèn hộp kết hợp vào tài liệu bằng cách sử dụng `DocumentBuilder` ví dụ.
 
 ```csharp
 builder.InsertComboBox("DropDown", items, 0);
 ```
 
- Trong bước này, chúng tôi sử dụng`InsertComboBox` phương pháp của`DocumentBuilder` lớp. Tham số đầu tiên là tên của hộp kết hợp ("DropDown"), tham số thứ hai là mảng các mục và tham số thứ ba là chỉ mục của mục được chọn mặc định (trong trường hợp này là mục đầu tiên).
+Trong bước này, chúng tôi sử dụng `InsertComboBox` phương pháp của `DocumentBuilder` lớp. Tham số đầu tiên là tên của hộp kết hợp ("DropDown"), tham số thứ hai là mảng các mục và tham số thứ ba là chỉ mục của mục được chọn mặc định (trong trường hợp này là mục đầu tiên).
 
 ## Bước 4: Lưu tài liệu
 
@@ -92,22 +94,27 @@ Có, bạn có thể thêm nhiều hộp kết hợp hoặc các trường biể
 
 ### Làm thế nào tôi có thể thiết lập một mục mặc định khác được chọn trong hộp kết hợp?
 
-Bạn có thể thay đổi mục được chọn mặc định bằng cách sửa đổi tham số thứ ba trong`InsertComboBox` phương pháp. Ví dụ, thiết lập nó thành`1` sẽ chọn mục thứ hai theo mặc định.
+Bạn có thể thay đổi mục được chọn mặc định bằng cách sửa đổi tham số thứ ba trong `InsertComboBox` phương pháp. Ví dụ, thiết lập nó thành `1` sẽ chọn mục thứ hai theo mặc định.
 
 ### Tôi có thể tùy chỉnh giao diện của hộp kết hợp không?
 
- Giao diện của các trường biểu mẫu có thể được tùy chỉnh bằng nhiều thuộc tính và phương pháp khác nhau trong Aspose.Words. Tham khảo[tài liệu](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
+Giao diện của các trường biểu mẫu có thể được tùy chỉnh bằng nhiều thuộc tính và phương pháp khác nhau trong Aspose.Words. Tham khảo [tài liệu](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
 
 ### Có thể chèn các loại trường biểu mẫu khác như nhập văn bản hoặc hộp kiểm không?
 
- Có, Aspose.Words for .NET hỗ trợ nhiều loại trường biểu mẫu, bao gồm trường nhập văn bản, hộp kiểm và nhiều hơn nữa. Bạn có thể tìm thấy các ví dụ và hướng dẫn chi tiết trong[tài liệu](https://reference.aspose.com/words/net/).
+Có, Aspose.Words for .NET hỗ trợ nhiều loại trường biểu mẫu, bao gồm trường nhập văn bản, hộp kiểm và nhiều hơn nữa. Bạn có thể tìm thấy các ví dụ và hướng dẫn chi tiết trong [tài liệu](https://reference.aspose.com/words/net/).
 
 ### Tôi có thể dùng thử Aspose.Words cho .NET như thế nào trước khi mua?
 
- Bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/) và yêu cầu giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể tải xuống bản dùng thử miễn phí từ [đây](https://releases.aspose.com/) và yêu cầu giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

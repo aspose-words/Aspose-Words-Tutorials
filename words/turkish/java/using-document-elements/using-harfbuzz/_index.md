@@ -1,14 +1,16 @@
 ---
-title: HarfBuzz'ı Aspose.Words for Java'da Kullanma
-linktitle: HarfBuzz'ı kullanma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java'da gelişmiş metin şekillendirme için HarfBuzz'ı kullanmayı öğrenin. Bu adım adım kılavuzla karmaşık betiklerdeki metin oluşturmayı geliştirin.
-weight: 15
-url: /tr/java/using-document-elements/using-harfbuzz/
+"description": "Aspose.Words for Java'da gelişmiş metin şekillendirme için HarfBuzz'ı kullanmayı öğrenin. Bu adım adım kılavuzla karmaşık betiklerdeki metin oluşturmayı geliştirin."
+"linktitle": "HarfBuzz'ı kullanma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "HarfBuzz'ı Aspose.Words for Java'da Kullanma"
+"url": "/tr/java/using-document-elements/using-harfbuzz/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # HarfBuzz'ı Aspose.Words for Java'da Kullanma
@@ -30,11 +32,11 @@ Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 ## Adım 1: Projenizi Kurma
 
-Başlamak için yeni bir Java projesi oluşturun ve proje bağımlılıklarınıza Aspose.Words for Java kütüphanesini ekleyin.
+Başlamak için yeni bir Java projesi oluşturun ve proje bağımlılıklarınıza Aspose.Words for Java kitaplığını ekleyin.
 
 ## Adım 2: Bir Word Belgesi Yükleme
 
- Bu adımda, üzerinde çalışmak istediğimiz örnek bir Word belgesini yükleyeceğiz. Değiştir`"Your Document Directory"` Word belgenizin gerçek yolu ile:
+Bu adımda, üzerinde çalışmak istediğimiz örnek bir Word belgesini yükleyeceğiz. Değiştir `"Your Document Directory"` Word belgenizin gerçek yolu ile:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -52,7 +54,7 @@ doc.getLayoutOptions().setTextShaperFactory(HarfBuzzTextShaperFactory.getInstanc
 
 ## Adım 4: Belgeyi Kaydetme
 
- Artık HarfBuzz metin şekillendirmesini yapılandırdığımıza göre, belgeyi kaydedebiliriz. Değiştir`"Your Output Directory"` İstenilen çıktı dizini ve dosya adı ile:
+Artık HarfBuzz metin şekillendirmesini yapılandırdığımıza göre, belgeyi kaydedebiliriz. Değiştir `"Your Output Directory"` İstenilen çıktı dizini ve dosya adı ile:
 
 ```java
 String outPath = "Your Output Directory";
@@ -94,12 +96,17 @@ Evet, HarfBuzz Java uygulamalarıyla uyumludur ve Aspose.Words for Java ile kola
 
 ### 5. Aspose.Words for Java hakkında daha fazla bilgiyi nereden edinebilirim?
 
-Java için Aspose.Words'e ilişkin ayrıntılı belgeleri ve kaynakları şu adreste bulabilirsiniz:[Aspose.Words API Belgeleri](https://reference.aspose.com/words/java/).
+Java için Aspose.Words'e ilişkin ayrıntılı belgeleri ve kaynakları şu adreste bulabilirsiniz: [Aspose.Words API Belgeleri](https://reference.aspose.com/words/java/).
 
 Artık HarfBuzz'ı Aspose.Words for Java'da kullanma konusunda kapsamlı bir anlayışa sahip olduğunuza göre, gelişmiş metin şekillendirme özelliklerini Java uygulamalarınıza dahil etmeye başlayabilirsiniz. İyi kodlamalar!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Laddar textfiler med Aspose.Words för Java
-linktitle: Laddar textfiler med
-second_title: Aspose.Words Java Document Processing API
-description: Lås upp kraften i Aspose.Words för Java. Lär dig att ladda textdokument, hantera listor, hantera utrymmen och styra textriktning.
-weight: 13
-url: /sv/java/document-loading-and-saving/loading-text-files/
+"description": "Lås upp kraften i Aspose.Words för Java. Lär dig att läsa in textdokument, hantera listor, hantera mellanslag och kontrollera textriktning."
+"linktitle": "Laddar textfiler med"
+"second_title": "Aspose.Words Java-dokumentbehandlings-API"
+"title": "Laddar textfiler med Aspose.Words för Java"
+"url": "/sv/java/document-loading-and-saving/loading-text-files/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Laddar textfiler med Aspose.Words för Java
@@ -16,16 +18,16 @@ url: /sv/java/document-loading-and-saving/loading-text-files/
 
 ## Introduktion till att ladda textfiler med Aspose.Words för Java
 
-I den här guiden kommer vi att utforska hur man laddar textfiler med Aspose.Words för Java och manipulerar dem som Word-dokument. Vi kommer att täcka olika aspekter som att upptäcka listor, hantera utrymmen och styra textriktning.
+I den här guiden ska vi utforska hur man laddar textfiler med Aspose.Words för Java och manipulerar dem som Word-dokument. Vi kommer att gå igenom olika aspekter som att identifiera listor, hantera mellanslag och kontrollera textriktning.
 
-## Steg 1: Upptäck listor
+## Steg 1: Identifiera listor
 
-För att ladda ett textdokument och upptäcka listor kan du följa dessa steg:
+För att läsa in ett textdokument och identifiera listor kan du följa dessa steg:
 
 ```java
 // Skapa ett klartextdokument i form av en sträng med delar som kan tolkas som listor.
-// Vid laddning kommer de tre första listorna alltid att upptäckas av Aspose.Words,
-// och Listobjekt kommer att skapas för dem efter laddning.
+// Vid laddning kommer de tre första listorna alltid att detekteras av Aspose.Words,
+// och List-objekt skapas för dem efter inläsning.
 final String TEXT_DOC = "Full stop delimiters:\n" +
         "1. First list item 1\n" +
         "2. First list item 2\n" +
@@ -42,23 +44,23 @@ final String TEXT_DOC = "Full stop delimiters:\n" +
         "1 Fourth list item 1\n" +
         "2 Fourth list item 2\n" +
         "3 Fourth list item 3";
-//Den fjärde listan, med blanksteg mellan listnumret och listobjektets innehåll,
-// kommer bara att upptäckas som en lista om "DetectNumberingWithWhitespaces" i ett LoadOptions-objekt är satt till true,
-// för att undvika att stycken som börjar med siffror av misstag upptäcks som listor.
+// Den fjärde listan, med mellanslag mellan listnumret och listobjektets innehåll,
+// kommer endast att detekteras som en lista om "DetectNumberingWithWhitespaces" i ett LoadOptions-objekt är satt till sant,
+// för att undvika att stycken som börjar med siffror felaktigt identifieras som listor.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 {
     loadOptions.setDetectNumberingWithWhitespaces(true);
 }
-// Ladda dokumentet medan du använder LoadOptions som en parameter och verifiera resultatet.
+// Ladda dokumentet medan du använder LoadOptions som parameter och verifiera resultatet.
 Document doc = new Document(new ByteArrayInputStream(TEXT_DOC.getBytes()), loadOptions);
 doc.save("Your Directory Path" + "WorkingWithTxtLoadOptions.DetectNumberingWithWhitespaces.docx");
 ```
 
- Den här koden visar hur man laddar ett textdokument med olika listformat och använder`DetectNumberingWithWhitespaces` alternativ för att upptäcka listor korrekt.
+Den här koden visar hur man laddar ett textdokument med olika listformat och använder `DetectNumberingWithWhitespaces` alternativ för att korrekt identifiera listor.
 
-## Steg 2: Hantera utrymmesalternativ
+## Steg 2: Hantera mellanslagsalternativ
 
-För att kontrollera inledande och avslutande mellanslag när du laddar ett textdokument kan du använda följande kod:
+För att kontrollera inledande och efterföljande mellanslag när du laddar ett textdokument kan du använda följande kod:
 
 ```java
 @Test
@@ -76,9 +78,9 @@ public void handleSpacesOptions() throws Exception {
 }
 ```
 
- I det här exemplet laddar vi ett textdokument och trimmar inledande och efterföljande mellanslag med hjälp av`TxtLeadingSpacesOptions.TRIM` och`TxtTrailingSpacesOptions.TRIM`.
+I det här exemplet laddar vi ett textdokument och tar bort inledande och avslutande mellanslag med hjälp av `TxtLeadingSpacesOptions.TRIM` och `TxtTrailingSpacesOptions.TRIM`.
 
-## Steg 3: Styra textriktning
+## Steg 3: Kontrollera textriktning
 
 För att ange textriktningen när du laddar ett textdokument kan du använda följande kod:
 
@@ -96,15 +98,15 @@ public void documentTextDirection() throws Exception {
 }
 ```
 
-Den här koden ställer in dokumentriktningen till automatisk upptäckt (`DocumentDirection.AUTO`och laddar ett textdokument med hebreisk text. Du kan justera dokumentriktningen efter behov.
+Den här koden ställer in dokumentriktningen på automatisk detektering (`DocumentDirection.AUTO`) och laddar ett textdokument med hebreisk text. Du kan justera dokumentets riktning efter behov.
 
 ## Komplett källkod för att ladda textfiler med Aspose.Words för Java
 
 ```java
 public void detectNumberingWithWhitespaces() throws Exception {
 	// Skapa ett klartextdokument i form av en sträng med delar som kan tolkas som listor.
-	// Vid laddning kommer de tre första listorna alltid att upptäckas av Aspose.Words,
-	// och Listobjekt kommer att skapas för dem efter laddning.
+	// Vid laddning kommer de tre första listorna alltid att detekteras av Aspose.Words,
+	// och List-objekt skapas för dem efter inläsning.
 	final String TEXT_DOC = "Full stop delimiters:\n" +
 			"1. First list item 1\n" +
 			"2. First list item 2\n" +
@@ -121,14 +123,14 @@ public void detectNumberingWithWhitespaces() throws Exception {
 			"1 Fourth list item 1\n" +
 			"2 Fourth list item 2\n" +
 			"3 Fourth list item 3";
-	// Den fjärde listan, med blanksteg mellan listnumret och listobjektets innehåll,
-	// kommer bara att upptäckas som en lista om "DetectNumberingWithWhitespaces" i ett LoadOptions-objekt är satt till true,
-	// för att undvika att stycken som börjar med siffror av misstag upptäcks som listor.
+	// Den fjärde listan, med mellanslag mellan listnumret och listobjektets innehåll,
+	// kommer endast att detekteras som en lista om "DetectNumberingWithWhitespaces" i ett LoadOptions-objekt är satt till sant,
+	// för att undvika att stycken som börjar med siffror felaktigt identifieras som listor.
 	TxtLoadOptions loadOptions = new TxtLoadOptions();
 	{
 		loadOptions.setDetectNumberingWithWhitespaces(true);
 	}
-	// Ladda dokumentet medan du använder LoadOptions som en parameter och verifiera resultatet.
+	// Ladda dokumentet medan du använder LoadOptions som parameter och verifiera resultatet.
 	Document doc = new Document(new ByteArrayInputStream(TEXT_DOC.getBytes()), loadOptions);
 	doc.save("Your Directory Path" + "WorkingWithTxtLoadOptions.DetectNumberingWithWhitespaces.docx");
 }
@@ -160,47 +162,52 @@ public void documentTextDirection() throws Exception {
 
 ## Slutsats
 
-I den här guiden har vi utforskat hur man laddar textfiler med Aspose.Words för Java, upptäcker listor, hanterar mellanslag och styr textriktning. Dessa tekniker låter dig manipulera textdokument effektivt i dina Java-program.
+I den här guiden har vi utforskat hur man laddar textfiler med Aspose.Words för Java, identifierar listor, hanterar mellanslag och kontrollerar textriktning. Dessa tekniker låter dig manipulera textdokument effektivt i dina Java-applikationer.
 
-## FAQ's
+## Vanliga frågor
 
 ### Vad är Aspose.Words för Java?
 
-Aspose.Words för Java är ett kraftfullt dokumentbehandlingsbibliotek som låter utvecklare skapa, manipulera och konvertera Word-dokument programmatiskt i Java-applikationer. Det ger ett brett utbud av funktioner för att arbeta med text, tabeller, bilder och andra dokumentelement.
+Aspose.Words för Java är ett kraftfullt dokumentbehandlingsbibliotek som låter utvecklare skapa, manipulera och konvertera Word-dokument programmatiskt i Java-applikationer. Det erbjuder ett brett utbud av funktioner för att arbeta med text, tabeller, bilder och andra dokumentelement.
 
-### Hur kommer jag igång med Aspose.Words för Java?
+### Hur kan jag komma igång med Aspose.Words för Java?
 
 För att komma igång med Aspose.Words för Java, följ dessa steg:
-1. Ladda ner och installera Aspose.Words for Java-biblioteket.
-2.  Se dokumentationen på[Aspose.Words för Java API Referens](https://reference.aspose.com/words/java/) för detaljerad information och exempel.
-3. Utforska exempelkoden och självstudierna för att lära dig hur du använder biblioteket effektivt.
+1. Ladda ner och installera Aspose.Words för Java-biblioteket.
+2. Se dokumentationen på [Aspose.Words för Java API-referens](https://reference.aspose.com/words/java/) för detaljerad information och exempel.
+3. Utforska exempelkoden och handledningarna för att lära dig hur du använder biblioteket effektivt.
 
 ### Hur laddar jag ett textdokument med Aspose.Words för Java?
 
- För att ladda ett textdokument med Aspose.Words för Java kan du använda`TxtLoadOptions` klass och`Document` klass. Se till att du anger lämpliga alternativ för hantering av mellanslag och textriktning efter behov. Se steg-för-steg-guiden i den här artikeln för ett detaljerat exempel.
+För att ladda ett textdokument med Aspose.Words för Java kan du använda `TxtLoadOptions` klass och `Document` klass. Se till att du anger lämpliga alternativ för hantering av mellanslag och textriktning efter behov. Se steg-för-steg-guiden i den här artikeln för ett detaljerat exempel.
 
 ### Kan jag konvertera ett laddat textdokument till andra format?
 
- Ja, Aspose.Words för Java låter dig konvertera ett laddat textdokument till olika format, inklusive DOCX, PDF och mer. Du kan använda`Document` klass för att utföra konverteringar. Se dokumentationen för specifika konverteringsexempel.
+Ja, Aspose.Words för Java låter dig konvertera ett laddat textdokument till olika format, inklusive DOCX, PDF med mera. Du kan använda `Document` klassen för att utföra konverteringar. Kontrollera dokumentationen för specifika konverteringsexempel.
 
-### Hur hanterar jag mellanslag i laddade textdokument?
+### Hur hanterar jag mellanslag i inlästa textdokument?
 
- Du kan styra hur inledande och efterföljande mellanslag hanteras i laddade textdokument med`TxtLoadOptions` . Alternativ som`TxtLeadingSpacesOptions` och`TxtTrailingSpacesOptions`låter dig trimma eller bevara utrymmen efter behov. Se avsnittet "Alternativ för hanteringsutrymmen" i den här guiden för ett exempel.
+Du kan styra hur inledande och efterföljande mellanslag hanteras i inlästa textdokument med hjälp av `TxtLoadOptions`Alternativ som `TxtLeadingSpacesOptions` och `TxtTrailingSpacesOptions` låter dig trimma eller bevara mellanslag efter behov. Se avsnittet "Hantera mellanslagsalternativ" i den här guiden för ett exempel.
 
-### Vad är betydelsen av textriktning i Aspose.Words för Java?
+### Vilken betydelse har textriktning i Aspose.Words för Java?
 
-Textriktning är viktigt för dokument som innehåller blandade skript eller språk, som hebreiska eller arabiska. Aspose.Words för Java tillhandahåller alternativ för att specificera textriktningen, vilket säkerställer korrekt rendering och formatering av text på dessa språk. Avsnittet "Kontrollera textriktning" i den här guiden visar hur du ställer in textriktningen.
+Textriktning är avgörande för dokument som innehåller blandade skrifttyper eller språk, såsom hebreiska eller arabiska. Aspose.Words för Java erbjuder alternativ för att ange textriktningen, vilket säkerställer korrekt återgivning och formatering av text på dessa språk. Avsnittet "Kontrollera textriktning" i den här guiden visar hur man ställer in textriktningen.
 
 ### Var kan jag hitta fler resurser och support för Aspose.Words för Java?
 
- För ytterligare resurser, dokumentation och support, besök[Aspose.Words för Java-dokumentation](https://reference.aspose.com/words/java/). Du kan också delta i Aspose.Words community-forum eller kontakta Asposes support för hjälp med specifika frågor eller förfrågningar.
+För ytterligare resurser, dokumentation och support, besök [Aspose.Words för Java-dokumentation](https://reference.aspose.com/words/java/)Du kan också delta i Aspose.Words communityforum eller kontakta Aspose support för hjälp med specifika problem eller frågor.
 
 ### Är Aspose.Words för Java lämpligt för kommersiella projekt?
 
-Ja, Aspose.Words för Java lämpar sig för både personliga och kommersiella projekt. Den erbjuder licensieringsalternativ för att tillgodose olika användningsscenarier. Se till att granska licensvillkoren och prissättningen på Asposes webbplats för att välja rätt licens för ditt projekt.
+Ja, Aspose.Words för Java är lämpligt för både personliga och kommersiella projekt. Det erbjuder licensalternativ för att tillgodose olika användningsscenarier. Se till att granska licensvillkoren och priserna på Asposes webbplats för att välja rätt licens för ditt projekt.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Keamanan Dokumen
-linktitle: Keamanan Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Tingkatkan keamanan dokumen dengan Aspose.Words untuk Java! Terapkan perlindungan, enkripsi, dan tanda tangan digital untuk perlindungan data yang kuat.
-weight: 17
-url: /id/java/document-security/
+"description": "Tingkatkan keamanan dokumen dengan Aspose.Words untuk Java! Terapkan perlindungan, enkripsi, dan tanda tangan digital untuk perlindungan data yang kuat."
+"linktitle": "Keamanan Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Keamanan Dokumen"
+"url": "/id/java/document-security/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Keamanan Dokumen
@@ -39,9 +41,13 @@ Pelajari cara mengenkripsi dan mendekripsi dokumen dengan Aspose.Words untuk Jav
 Pelajari cara menerapkan tanda tangan digital yang aman dalam dokumen menggunakan Aspose.Words untuk Java. Pastikan integritas dokumen dengan panduan langkah demi langkah dan kode sumber
 ### [Redaksi Dokumen dan Perlindungan Data](./document-redaction-data-protection/)
 Pelajari cara mengamankan dokumen dan menyunting data sensitif menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan kode sumber.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

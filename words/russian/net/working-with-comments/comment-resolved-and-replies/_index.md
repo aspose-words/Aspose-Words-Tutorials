@@ -1,14 +1,16 @@
 ---
-title: Комментарий решен и ответы
-linktitle: Комментарий решен и ответы
-second_title: API обработки документов Aspose.Words
-description: Автоматизируйте разрешение и ответ на комментарии в документах Word с помощью Aspose.Words для .NET. Пошаговое руководство включено.
-weight: 10
-url: /ru/net/working-with-comments/comment-resolved-and-replies/
+"description": "Автоматизируйте разрешение и ответ на комментарии в документах Word с помощью Aspose.Words для .NET. Пошаговое руководство включено."
+"linktitle": "Комментарий решен и ответы"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Комментарий решен и ответы"
+"url": "/ru/net/working-with-comments/comment-resolved-and-replies/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Комментарий решен и ответы
@@ -21,7 +23,7 @@ url: /ru/net/working-with-comments/comment-resolved-and-replies/
 
 Прежде чем приступить к работе, убедитесь, что у вас есть следующее:
 
-1.  Aspose.Words для .NET: Вы можете загрузить его с[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: Вы можете загрузить его с [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: настроена на .NET Framework.
 3. Базовые знания C#: знакомство с синтаксисом и концепциями.
 
@@ -38,24 +40,24 @@ using Aspose.Words.Comments;
 
 ## Шаг 1: Загрузите документ
 
- Для начала загрузите документ Word, содержащий комментарии. Используйте`Document` класс за это.
+Для начала загрузите документ Word, содержащий комментарии. Используйте `Document` класс за это.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Comments.docx");
 ```
 
- Эта строка кода инициализирует новый`Document` объект с путем к вашему документу Word.
+Эта строка кода инициализирует новый `Document` объект с путем к вашему документу Word.
 
 ## Шаг 2: Извлечение комментариев
 
- Далее нам нужно получить все комментарии в документе. Мы будем использовать`GetChildNodes` метод для извлечения коллекции`Comment` узлы.
+Далее нам нужно получить все комментарии в документе. Мы будем использовать `GetChildNodes` метод для извлечения коллекции `Comment` узлы.
 
 ```csharp
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
 ```
 
-Этот код извлекает все комментарии в документе и сохраняет их в`NodeCollection`.
+Этот код извлекает все комментарии в документе и сохраняет их в `NodeCollection`.
 
 ## Шаг 3: Получите доступ к родительскому комментарию
 
@@ -65,11 +67,11 @@ NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
 Comment parentComment = (Comment)comments[0];
 ```
 
- Здесь мы преобразуем первый узел в коллекцию в`Comment` объект.
+Здесь мы преобразуем первый узел в коллекцию в `Comment` объект.
 
 ## Шаг 4: Просмотрите ответы
 
- Теперь давайте пройдемся по ответам на родительский комментарий. Мы будем использовать`foreach` цикл для перебора каждого ответа.
+Теперь давайте пройдемся по ответам на родительский комментарий. Мы будем использовать `foreach` цикл для перебора каждого ответа.
 
 ```csharp
 foreach (Comment childComment in parentComment.Replies)
@@ -99,23 +101,28 @@ doc.Save(dataDir + "WorkingWithComments.CommentResolvedAndReplies.docx");
 
 ## Часто задаваемые вопросы
 
-### Могу ли я автоматизировать другие задачи, связанные с комментированием, с помощью Aspose.Words для .NET?  
+### Могу ли я автоматизировать другие задачи, связанные с комментариями, с помощью Aspose.Words для .NET?  
 Да, вы можете автоматизировать различные задачи, такие как добавление, удаление и изменение комментариев.
 
 ### Совместим ли Aspose.Words для .NET с .NET Core?  
 Да, Aspose.Words для .NET поддерживает как .NET Framework, так и .NET Core.
 
 ### Как получить бесплатную пробную версию Aspose.Words для .NET?  
- Вы можете загрузить бесплатную пробную версию с сайта[здесь](https://releases.aspose.com/).
+Вы можете загрузить бесплатную пробную версию с сайта [здесь](https://releases.aspose.com/).
 
 ### Могу ли я использовать Aspose.Words for .NET для работы с другими типами документов?  
 Да, Aspose.Words поддерживает различные форматы, включая DOCX, PDF, HTML и другие.
 
 ### Где я могу найти подробную документацию по Aspose.Words для .NET?  
- Вы можете получить доступ к документации[здесь](https://reference.aspose.com/words/net/).
+Вы можете получить доступ к документации [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

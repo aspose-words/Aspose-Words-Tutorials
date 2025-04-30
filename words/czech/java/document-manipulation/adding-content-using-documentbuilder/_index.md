@@ -1,37 +1,39 @@
 ---
-title: Přidání obsahu pomocí DocumentBuilder v Aspose.Words for Java
-linktitle: Přidávání obsahu pomocí DocumentBuilder
-second_title: Aspose.Words Java Document Processing API
-description: Vytvoření hlavního dokumentu pomocí Aspose.Words pro Javu. Podrobný průvodce přidáváním textu, tabulek, obrázků a dalších. Vytvářejte úžasné dokumenty Word bez námahy.
-weight: 26
-url: /cs/java/document-manipulation/adding-content-using-documentbuilder/
+"description": "Zvládněte tvorbu dokumentů s Aspose.Words pro Javu. Podrobný návod k přidávání textu, tabulek, obrázků a dalších prvků. Vytvářejte úžasné dokumenty Word bez námahy."
+"linktitle": "Přidávání obsahu pomocí nástroje DocumentBuilder"
+"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
+"title": "Přidávání obsahu pomocí DocumentBuilderu v Aspose.Words pro Javu"
+"url": "/cs/java/document-manipulation/adding-content-using-documentbuilder/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidání obsahu pomocí DocumentBuilder v Aspose.Words for Java
+# Přidávání obsahu pomocí DocumentBuilderu v Aspose.Words pro Javu
 
 
-## Úvod do přidávání obsahu pomocí DocumentBuilder v Aspose.Words for Java
+## Úvod do přidávání obsahu pomocí DocumentBuilderu v Aspose.Words pro Javu
 
-V tomto podrobném průvodci prozkoumáme, jak používat Aspose.Words for Java's DocumentBuilder k přidání různých typů obsahu do dokumentu aplikace Word. Budeme se zabývat vkládáním textu, tabulek, vodorovných pravidel, polí formulářů, HTML, hypertextových odkazů, obsahu, vložených a plovoucích obrázků, odstavců a dalších. Začněme!
+V tomto podrobném návodu se podíváme na to, jak pomocí nástroje DocumentBuilder v jazyce Java od Aspose.Words přidat různé typy obsahu do dokumentu Word. Probereme vkládání textu, tabulek, vodorovných linek, polí formulářů, HTML, hypertextových odkazů, obsahu, vložených a plovoucích obrázků, odstavců a dalších věcí. Začněme!
 
 ## Předpoklady
 
- Než začnete, ujistěte se, že máte v projektu nastavenou knihovnu Aspose.Words for Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/words/java/).
+Než začnete, ujistěte se, že máte ve svém projektu nastavenou knihovnu Aspose.Words pro Javu. Můžete si ji stáhnout z [zde](https://releases.aspose.com/words/java/).
 
-## Přidání textu
+## Přidávání textu
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vložte jednoduchý textový odstavec
+// Vložení jednoduchého odstavce textu
 builder.write("This is a simple text paragraph.");
 
-// Uložte dokument
+// Uložit dokument
 doc.save("path/to/your/document.docx");
 ```
 
@@ -41,37 +43,37 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-//Založte stůl
+// Založit tabulku
 Table table = builder.startTable();
 
-// Vložte buňky a obsah
+// Vložit buňky a obsah
 builder.insertCell();
 builder.write("Cell 1");
 
 builder.insertCell();
 builder.write("Cell 2");
 
-// Ukončete stůl
+// Konec stolu
 builder.endTable();
 
-// Uložte dokument
+// Uložit dokument
 doc.save("path/to/your/document.docx");
 ```
 
-## Přidání horizontálního pravidla
+## Přidání vodorovné pravítka
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vložte vodorovné pravítko
+// Vložit vodorovnou linii
 builder.insertHorizontalRule();
 
-// Uložte dokument
+// Uložit dokument
 doc.save("path/to/your/document.docx");
 ```
 
-## Přidání polí formuláře
+## Přidávání polí formuláře
 
 ### Pole formuláře pro zadávání textu
 
@@ -79,39 +81,39 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vložte pole formuláře pro zadávání textu
+// Vložení textového pole formuláře
 builder.insertTextInput("TextInput", TextFormFieldType.REGULAR, "", "Default text", 0);
 
-// Uložte dokument
+// Uložit dokument
 doc.save("path/to/your/document.docx");
 ```
 
-### Zaškrtávací políčko Pole formuláře
+### Zaškrtávací políčko formuláře
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vložte zaškrtávací pole formuláře
+// Vložení pole formuláře se zaškrtávacím políčkem
 builder.insertCheckBox("CheckBox", true, true, 0);
 
-// Uložte dokument
+// Uložit dokument
 doc.save("path/to/your/document.docx");
 ```
 
-### Pole formuláře Combo Box
+### Pole formuláře se seznamem
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Definujte položky pro pole se seznamem
+// Definování položek pro pole se seznamem
 String[] items = { "Option 1", "Option 2", "Option 3" };
 
-// Vložte pole formuláře pole se seznamem
+// Vložení pole formuláře se seznamem
 builder.insertComboBox("DropDown", items, 0);
 
-// Uložte dokument
+// Uložit dokument
 doc.save("path/to/your/document.docx");
 ```
 
@@ -121,10 +123,10 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vložte obsah HTML
+// Vložit HTML obsah
 builder.insertHtml("<p>This is an HTML paragraph.</p>");
 
-// Uložte dokument
+// Uložit dokument
 doc.save("path/to/your/document.docx");
 ```
 
@@ -134,15 +136,15 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vložte hypertextový odkaz
+// Vložit hypertextový odkaz
 builder.write("Visit ");
 builder.getFont().setColor(Color.BLUE);
 builder.getFont().setUnderline(Underline.SINGLE);
-builder.insertHyperlink("Aspose Website", "http://www.aspose.com", nepravda);
+builder.insertHyperlink("Aspose Website", "http://www.aspose.com", nepravdivé);
 builder.getFont().clearFormatting();
 builder.write(" for more information.");
 
-// Uložte dokument
+// Uložit dokument
 doc.save("path/to/your/document.docx");
 ```
 
@@ -152,16 +154,16 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vložte obsah
+// Vložit obsah
 builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
-// Přidejte obsah dokumentu
+// Přidat obsah dokumentu
 // ...
 
-// Aktualizujte obsah
+// Aktualizovat obsah
 doc.updateFields();
 
-// Uložte dokument
+// Uložit dokument
 doc.save("path/to/your/document.docx");
 ```
 
@@ -173,10 +175,10 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vložte vložený obrázek
+// Vložit vložený obrázek
 builder.insertImage("path/to/your/image.png");
 
-// Uložte dokument
+// Uložit dokument
 doc.save("path/to/your/document.docx");
 ```
 
@@ -186,10 +188,10 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vložte plovoucí obrázek
+// Vložit plovoucí obrázek
 builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN, 100.0, 200.0, 100.0, WrapType.SQUARE);
 
-// Uložte dokument
+// Uložit dokument
 doc.save("path/to/your/document.docx");
 ```
 
@@ -199,7 +201,7 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nastavte formátování odstavce
+// Nastavení formátování odstavce
 Font font = builder.getFont();
 font.setSize(16.0);
 font.setBold(true);
@@ -212,62 +214,62 @@ paragraphFormat.setFirstLineIndent(8.0);
 paragraphFormat.setAlignment(ParagraphAlignment.JUSTIFY);
 paragraphFormat.setKeepTogether(true);
 
-// Vložte odstavec
+// Vložit odstavec
 builder.writeln("This is a formatted paragraph.");
 
-// Uložte dokument
+// Uložit dokument
 doc.save("path/to/your/document.docx");
 ```
 
-## Krok 10: Přesunutí kurzoru
+## Krok 10: Pohyb kurzoru
 
- Pozici kurzoru v dokumentu můžete ovládat různými způsoby, např`moveToParagraph`, `moveToCell`další. Zde je příklad:
+Polohu kurzoru v dokumentu můžete ovládat různými způsoby, jako například `moveToParagraph`, `moveToCell`a další. Zde je příklad:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Přesuňte kurzor na konkrétní odstavec
+// Přesunutí kurzoru na konkrétní odstavec
 builder.moveToParagraph(2, 0);
 
-// Přidejte obsah na novou pozici kurzoru
+// Přidat obsah na novou pozici kurzoru
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-Toto jsou některé běžné operace, které můžete provádět pomocí Aspose.Words pro Java's DocumentBuilder. Prozkoumejte dokumentaci knihovny, kde najdete pokročilejší funkce a možnosti přizpůsobení. Šťastné vytváření dokumentů!
+Toto jsou některé běžné operace, které můžete provádět pomocí nástroje Aspose.Words pro tvorbu dokumentů v Javě. Prostudujte si dokumentaci ke knihovně, kde najdete další pokročilé funkce a možnosti přizpůsobení. Přejeme vám šťastné vytváření dokumentů!
 
 
 ## Závěr
 
-V tomto komplexním průvodci jsme prozkoumali možnosti aplikace Aspose.Words for Java DocumentBuilder pro přidávání různých typů obsahu do dokumentů aplikace Word. Probrali jsme text, tabulky, horizontální pravidla, pole formuláře, HTML, hypertextové odkazy, obsah, obrázky, odstavce a pohyb kurzoru.
+V této komplexní příručce jsme prozkoumali možnosti nástroje DocumentBuilder v jazyce Java, který umožňuje přidávat různé typy obsahu do dokumentů Wordu. Probrali jsme text, tabulky, vodorovné linky, pole formulářů, HTML, hypertextové odkazy, obsah, obrázky, odstavce a pohyb kurzoru.
 
-## FAQ
+## Často kladené otázky
 
-### Otázka: Co je Aspose.Words for Java?
+### Otázka: Co je Aspose.Words pro Javu?
 
-A: Aspose.Words for Java je knihovna Java, která umožňuje vývojářům vytvářet, upravovat a manipulovat s dokumenty Microsoft Word programově. Poskytuje širokou škálu funkcí pro generování dokumentů, formátování a vkládání obsahu.
+A: Aspose.Words pro Javu je knihovna v Javě, která umožňuje vývojářům programově vytvářet, upravovat a manipulovat s dokumenty aplikace Microsoft Word. Nabízí širokou škálu funkcí pro generování dokumentů, formátování a vkládání obsahu.
 
-### Otázka: Jak mohu přidat obsah do svého dokumentu?
+### Otázka: Jak mohu do dokumentu přidat obsah?
 
-A: Chcete-li přidat obsah, použijte`DocumentBuilder` pro vložení pole obsahu do dokumentu. Po přidání obsahu nezapomeňte aktualizovat pole v dokumentu, aby se naplnil obsah. Zde je příklad:
+A: Chcete-li přidat obsah, použijte `DocumentBuilder` vložit do dokumentu pole s obsahem. Po přidání obsahu nezapomeňte aktualizovat pole v dokumentu, aby se obsah naplnil. Zde je příklad:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vložte pole obsahu
+// Vložit pole s obsahem
 builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
-// Přidejte obsah dokumentu
+// Přidat obsah dokumentu
 // ...
 
-// Aktualizujte obsah
+// Aktualizovat obsah
 doc.updateFields();
 ```
 
-### Otázka: Jak vložím obrázky do dokumentu pomocí Aspose.Words for Java?
+### Otázka: Jak vložím obrázky do dokumentu pomocí Aspose.Words pro Javu?
 
- Odpověď: Obrázky, vložené i plovoucí, můžete vkládat pomocí`DocumentBuilder`. Zde jsou příklady obou:
+A: Obrázky můžete vkládat, a to jak přímo v textu, tak i plovoucí, pomocí `DocumentBuilder`Zde jsou příklady obou:
 
 #### Vložený obrázek:
 
@@ -275,7 +277,7 @@ doc.updateFields();
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vložte vložený obrázek
+// Vložit vložený obrázek
 builder.insertImage("path/to/your/image.png");
 ```
 
@@ -285,19 +287,19 @@ builder.insertImage("path/to/your/image.png");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vložte plovoucí obrázek
+// Vložit plovoucí obrázek
 builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN, 100.0, 200.0, 100.0, WrapType.SQUARE);
 ```
 
-### Otázka: Mohu při přidávání obsahu formátovat text a odstavce?
+### Otázka: Mohu formátovat text a odstavce při přidávání obsahu?
 
- Odpověď: Ano, text a odstavce můžete formátovat pomocí`DocumentBuilder`. Můžete nastavit vlastnosti písma, zarovnání odstavce, odsazení a další. Zde je příklad:
+A: Ano, text a odstavce můžete formátovat pomocí `DocumentBuilder`Můžete nastavit vlastnosti písma, zarovnání odstavce, odsazení a další. Zde je příklad:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nastavte písmo a formátování odstavce
+// Nastavení formátování písma a odstavce
 Font font = builder.getFont();
 font.setSize(16.0);
 font.setBold(true);
@@ -310,29 +312,34 @@ paragraphFormat.setFirstLineIndent(8.0);
 paragraphFormat.setAlignment(ParagraphAlignment.JUSTIFY);
 paragraphFormat.setKeepTogether(true);
 
-// Vložte formátovaný odstavec
+// Vložení formátovaného odstavce
 builder.writeln("This is a formatted paragraph.");
 ```
 
 ### Otázka: Jak mohu přesunout kurzor na určité místo v dokumentu?
 
- Odpověď: Pozici kurzoru můžete ovládat pomocí metod jako`moveToParagraph`, `moveToCell`další. Zde je příklad:
+A: Polohu kurzoru můžete ovládat pomocí metod, jako je `moveToParagraph`, `moveToCell`a další. Zde je příklad:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Přesuňte kurzor na konkrétní odstavec
+// Přesunutí kurzoru na konkrétní odstavec
 builder.moveToParagraph(2, 0);
 
-// Přidejte obsah na novou pozici kurzoru
+// Přidat obsah na novou pozici kurzoru
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-Toto jsou některé běžné otázky a odpovědi, které vám pomohou začít s Aspose.Words pro Java's DocumentBuilder. Pokud máte další otázky nebo potřebujete další pomoc, přejděte na stránku[dokumentaci knihovny](https://reference.aspose.com/words/java/) nebo vyhledejte pomoc od komunity Aspose.Words a zdrojů podpory.
+Zde jsou některé běžné otázky a odpovědi, které vám pomohou začít s Aspose.Words pro Java DocumentBuilder. Pokud máte další otázky nebo potřebujete další pomoc, podívejte se na [dokumentace knihovny](https://reference.aspose.com/words/java/) nebo vyhledejte pomoc od komunity a podpůrných zdrojů Aspose.Words.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

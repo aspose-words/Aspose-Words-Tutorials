@@ -1,14 +1,16 @@
 ---
-title: Nomor Daftar Mulai Ulang
-linktitle: Nomor Daftar Mulai Ulang
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memulai ulang nomor daftar dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan terperinci berisi 2000 kata ini mencakup semua hal yang perlu Anda ketahui, mulai dari pengaturan hingga penyesuaian tingkat lanjut.
-weight: 10
-url: /id/net/working-with-list/restart-list-number/
+"description": "Pelajari cara memulai ulang nomor daftar dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan terperinci berisi 2000 kata ini mencakup semua hal yang perlu Anda ketahui, mulai dari pengaturan hingga penyesuaian tingkat lanjut."
+"linktitle": "Nomor Daftar Mulai Ulang"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Nomor Daftar Mulai Ulang"
+"url": "/id/net/working-with-list/restart-list-number/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nomor Daftar Mulai Ulang
@@ -21,7 +23,7 @@ Apakah Anda ingin menguasai seni manipulasi daftar dalam dokumen Word Anda mengg
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Jika Anda belum menginstalnya, Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Jika Anda belum menginstalnya, Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Pastikan Anda memiliki lingkungan pengembangan yang sesuai seperti Visual Studio.
 3. Pengetahuan Dasar C#: Pemahaman dasar tentang C# akan membantu Anda mengikuti tutorial.
 
@@ -61,7 +63,7 @@ Di sini, kami mengatur warna font menjadi merah dan menyelaraskan teks ke kanan.
 
 ## Langkah 3: Tambahkan Item ke Daftar Pertama Anda
 
- Setelah daftar Anda siap, saatnya menambahkan beberapa item. DocumentBuilder`ListFormat.List` Properti membantu dalam menerapkan format daftar ke teks.
+Setelah daftar Anda siap, saatnya menambahkan beberapa item. DocumentBuilder `ListFormat.List` Properti membantu dalam menerapkan format daftar ke teks.
 
 ```csharp
 builder.Writeln("List 1 starts below:");
@@ -114,15 +116,15 @@ Tentu saja! Aspose.Words menawarkan berbagai templat daftar seperti poin, huruf,
 
 ### Bagaimana cara mengubah level daftar?
 
- Anda dapat mengubah level daftar dengan memodifikasi`ListLevels` properti. Misalnya,`list1.ListLevels[1]` akan merujuk pada tingkat kedua dari daftar tersebut.
+Anda dapat mengubah level daftar dengan memodifikasi `ListLevels` properti. Misalnya, `list1.ListLevels[1]` akan merujuk pada tingkat kedua dari daftar tersebut.
 
 ### Bisakah saya memulai ulang penomoran pada nomor berapa pun?
 
- Ya, Anda dapat mengatur nomor awal ke nilai integer apa pun menggunakan`StartAt` properti tingkat daftar.
+Ya, Anda dapat mengatur nomor awal ke nilai integer apa pun menggunakan `StartAt` properti tingkat daftar.
 
 ### Apakah mungkin untuk memiliki format yang berbeda untuk tingkat daftar yang berbeda?
 
-Tentu saja! Setiap level daftar dapat memiliki pengaturan formatnya sendiri, seperti jenis huruf, perataan, dan gaya penomoran.
+Tentu saja! Setiap level daftar dapat memiliki pengaturan formatnya sendiri, seperti font, perataan, dan gaya penomoran.
 
 ### Bagaimana jika saya ingin meneruskan penomoran dari daftar sebelumnya alih-alih memulai ulang?
 
@@ -130,9 +132,14 @@ Jika Anda ingin melanjutkan penomoran, Anda tidak perlu membuat salinan daftar. 
 
 
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,55 +1,57 @@
 ---
-title: Objednaný seznam
-linktitle: Objednaný seznam
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak vytvářet uspořádané seznamy v dokumentech aplikace Word pomocí Aspose.Words for .NET, pomocí našeho podrobného průvodce. Ideální pro automatizaci tvorby dokumentů.
-weight: 10
-url: /cs/net/working-with-markdown/ordered-list/
+"description": "Naučte se, jak vytvářet seřazené seznamy v dokumentech Wordu pomocí Aspose.Words pro .NET s naším podrobným návodem. Ideální pro automatizaci vytváření dokumentů."
+"linktitle": "Seřazený seznam"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Seřazený seznam"
+"url": "/cs/net/working-with-markdown/ordered-list/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Objednaný seznam
+# Seřazený seznam
 
 ## Zavedení
 
-Rozhodli jste se tedy ponořit do Aspose.Words for .NET a vytvořit úžasné dokumenty Wordu programově. Fantastická volba! Dnes si rozebereme, jak vytvořit uspořádaný seznam v dokumentu aplikace Word. Vezmeme to krok za krokem, takže ať už jste začátečník v kódování nebo ostřílený profík, tento průvodce vám bude velmi užitečný. Začněme!
+Takže jste se rozhodli ponořit se do Aspose.Words pro .NET a programově vytvářet úžasné dokumenty Wordu. Skvělá volba! Dnes si rozebereme, jak vytvořit seřazený seznam v dokumentu Wordu. Provedeme to krok za krokem, takže ať už jste v programování začátečník nebo zkušený profesionál, tento návod vám bude velmi užitečný. Pojďme na to!
 
 ## Předpoklady
 
-Než se ponoříme do kódu, budete potřebovat několik věcí:
+Než se ponoříme do kódu, je tu několik věcí, které budete potřebovat:
 
-1. Aspose.Words for .NET: Ujistěte se, že máte nainstalovanou aplikaci Aspose.Words for .NET. Pokud ne, můžete si ji stáhnout[zde](https://releases.aspose.com/words/net/).
+1. Aspose.Words pro .NET: Ujistěte se, že máte nainstalovaný Aspose.Words pro .NET. Pokud ne, můžete si ho stáhnout. [zde](https://releases.aspose.com/words/net/).
 2. Vývojové prostředí: Visual Studio nebo jakékoli jiné IDE kompatibilní s .NET.
-3. Základní znalost C#: Měli byste znát základy C#, abyste je mohli snadno sledovat.
+3. Základní znalost C#: Měli byste se orientovat v základech C#, abyste se v něm snadno orientovali.
 
 ## Importovat jmenné prostory
 
-Chcete-li ve svém projektu použít Aspose.Words, musíte importovat potřebné jmenné prostory. Je to jako nastavit si sadu nástrojů, než začnete pracovat.
+Chcete-li ve svém projektu použít Aspose.Words, musíte importovat potřebné jmenné prostory. Je to jako nastavení sady nástrojů před zahájením práce.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Lists;
 ```
 
-Pojďme si kód rozdělit na malé kroky a vysvětlit každou část. Připraveni? Tady to je!
+Rozdělme si kód na několik kroků a vysvětlíme každou část. Jste připraveni? Jdeme na to!
 
-## Krok 1: Inicializujte dokument
+## Krok 1: Inicializace dokumentu
 
-Nejprve musíte vytvořit nový dokument. Berte to jako otevření prázdného dokumentu aplikace Word v počítači.
+Nejdříve je potřeba vytvořit nový dokument. Představte si to jako otevření prázdného dokumentu Wordu v počítači.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-Zde inicializujeme nový dokument a objekt DocumentBuilder. DocumentBuilder je jako vaše pero, které vám umožňuje zapisovat obsah do dokumentu.
+Zde inicializujeme nový dokument a objekt DocumentBuilder. DocumentBuilder je jako vaše pero, které vám umožňuje psát obsah do dokumentu.
 
-## Krok 2: Použijte formát číslovaného seznamu
+## Krok 2: Použití formátu číslovaného seznamu
 
-Nyní použijeme výchozí formát číslovaného seznamu. Je to jako nastavit dokument aplikace Word tak, aby používal číslované odrážky.
+Nyní použijeme výchozí formát číslovaného seznamu. Je to jako nastavit dokument Word na používání číslovaných odrážek.
 
 ```csharp
 builder.ListFormat.ApplyNumberDefault();
@@ -57,16 +59,16 @@ builder.ListFormat.ApplyNumberDefault();
 
 Tento řádek kódu nastavuje číslování vašeho seznamu. Snadné, že?
 
-## Krok 3: Přidejte položky seznamu
+## Krok 3: Přidání položek seznamu
 
-Dále přidáme některé položky do našeho seznamu. Představte si, že si zapisujete seznam potravin.
+Dále si na seznam přidejme nějaké položky. Představte si, že si píšete nákupní seznam.
 
 ```csharp
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 ```
 
-Pomocí těchto řádků přidáváte první dvě položky do seznamu.
+Těmito řádky přidáváte do svého seznamu první dvě položky.
 
 ## Krok 4: Odsazení seznamu
 
@@ -79,31 +81,36 @@ builder.Writeln("Item 2a");
 builder.Writeln("Item 2b");
 ```
 
- The`ListIndent` metoda odsadí seznam a vytvoří podseznam. Nyní vytváříte hierarchický seznam, podobně jako vnořený seznam úkolů.
+Ten/Ta/To `ListIndent` Metoda odsadí seznam a vytvoří tak podseznam. Nyní vytváříte hierarchický seznam, podobně jako vnořený seznam úkolů.
 
 ## Závěr
 
-Vytváření uspořádaného seznamu v dokumentu aplikace Word programově se může zpočátku zdát skličující, ale s Aspose.Words pro .NET je to hračka. Pomocí těchto jednoduchých kroků můžete snadno přidávat a spravovat seznamy ve svých dokumentech. Ať už generujete sestavy, vytváříte strukturované dokumenty nebo jen automatizujete své pracovní postupy, Aspose.Words pro .NET vám pomůže. Tak proč čekat? Začněte kódovat a uvidíte, jak se kouzlo rozvine!
+Vytvoření uspořádaného seznamu v dokumentu Word programově se může zpočátku zdát náročné, ale s Aspose.Words pro .NET je to hračka. Dodržováním těchto jednoduchých kroků můžete snadno přidávat a spravovat seznamy ve svých dokumentech. Ať už generujete sestavy, vytváříte strukturované dokumenty nebo jen automatizujete své pracovní postupy, Aspose.Words pro .NET vám to pomůže. Tak proč čekat? Začněte programovat a sledujte, jak se kouzla odvíjejí!
 
-## FAQ
+## Často kladené otázky
 
-### Mohu přizpůsobit styl číslování seznamu?  
- Ano, styl číslování můžete upravit pomocí`ListFormat`vlastnosti. Můžete nastavit různé styly číslování, jako jsou římské číslice, písmena atd.
+### Mohu si přizpůsobit styl číslování seznamu?  
+Ano, styl číslování si můžete přizpůsobit pomocí `ListFormat` vlastnosti. Můžete nastavit různé styly číslování, jako jsou římské číslice, písmena atd.
 
 ### Jak přidám další úrovně odsazení?  
- Můžete použít`ListIndent` vícekrát, abyste vytvořili hlubší úrovně dílčích seznamů. Každé volání`ListIndent` přidá jednu úroveň odsazení.
+Můžete použít `ListIndent` metodu několikrát pro vytvoření hlubších úrovní podseznamů. Každé volání metody `ListIndent` přidá jednu úroveň odsazení.
 
 ### Mohu kombinovat odrážky a číslované seznamy?  
- Absolutně! V rámci stejného dokumentu můžete použít různé formáty seznamu pomocí`ListFormat` vlastnictví.
+Rozhodně! V rámci stejného dokumentu můžete použít různé formáty seznamů pomocí `ListFormat` vlastnictví.
 
 ### Je možné pokračovat v číslování z předchozího seznamu?  
-Ano, můžete pokračovat v číslování pomocí stejného formátu seznamu. Aspose.Words vám umožňuje ovládat číslování seznamů v různých odstavcích.
+Ano, v číslování můžete pokračovat s použitím stejného formátu seznamu. Aspose.Words umožňuje ovládat číslování seznamu napříč různými odstavci.
 
 ### Jak mohu odstranit formát seznamu?  
- Formát seznamu můžete odstranit zavoláním`ListFormat.RemoveNumbers()`. Tím se položky seznamu změní zpět na pravidelné odstavce.
+Formát seznamu můžete odstranit voláním `ListFormat.RemoveNumbers()`Tím se položky seznamu vrátí zpět do běžných odstavců.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Pemisah Gaya Paragraf di Dokumen Word
-linktitle: Dapatkan Pemisah Gaya Paragraf di Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengidentifikasi dan menangani pemisah gaya paragraf dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah yang komprehensif ini.
-weight: 10
-url: /id/net/document-formatting/get-paragraph-style-separator/
+"description": "Pelajari cara mengidentifikasi dan menangani pemisah gaya paragraf dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah yang komprehensif ini."
+"linktitle": "Dapatkan Pemisah Gaya Paragraf di Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Dapatkan Pemisah Gaya Paragraf di Dokumen Word"
+"url": "/id/net/document-formatting/get-paragraph-style-separator/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Pemisah Gaya Paragraf di Dokumen Word
@@ -23,7 +25,7 @@ Pernahkah Anda mencoba menavigasi dokumen Word yang rumit, tetapi malah tersandu
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua alat yang Anda perlukan:
 
 - Visual Studio: Pastikan Anda telah menginstalnya. Jika belum, unduh dan instal dari situs web Microsoft.
-- Aspose.Words untuk .NET: Jika Anda belum memilikinya, ambil versi terbaru[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Jika Anda belum memilikinya, ambil versi terbaru [Di Sini](https://releases.aspose.com/words/net/).
 - Contoh Dokumen Word: Dokumen ini harus berisi pemisah gaya paragraf agar dapat digunakan. Anda dapat membuatnya atau menggunakan dokumen yang sudah ada.
 
 ## Mengimpor Ruang Nama
@@ -43,7 +45,7 @@ Baiklah, mari kita bahas ini selangkah demi selangkah. Kita akan mulai dari awal
 Sebelum kita masuk ke kode, mari kita atur proyek Anda di Visual Studio.
 
 1. Buat Proyek Baru: Buka Visual Studio dan buat proyek Aplikasi Konsol (.NET Framework) baru.
-2.  Instal Aspose.Words untuk .NET: Gunakan NuGet Package Manager untuk menginstal Aspose.Words untuk pustaka .NET. Cukup cari`Aspose.Words` dan klik 'Instal'.
+2. Instal Aspose.Words untuk .NET: Gunakan NuGet Package Manager untuk menginstal Aspose.Words untuk pustaka .NET. Cukup cari `Aspose.Words` dan klik 'Instal'.
 
 ## Langkah 2: Muat Dokumen Word Anda
 
@@ -55,7 +57,7 @@ Sekarang proyek Anda sudah disiapkan, mari muat dokumen Word yang akan kita kerj
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
 
-2.  Muat Dokumen: Gunakan`Document` kelas dari Aspose.Words untuk memuat dokumen Anda.
+2. Muat Dokumen: Gunakan `Document` kelas dari Aspose.Words untuk memuat dokumen Anda.
 
     ```csharp
     Document doc = new Document(dataDir + "Document.docx");
@@ -65,7 +67,7 @@ Sekarang proyek Anda sudah disiapkan, mari muat dokumen Word yang akan kita kerj
 
 Setelah dokumen Anda dimuat, saatnya untuk mengulangi paragraf dan mengidentifikasi pemisah gaya.
 
-1.  Dapatkan Semua Paragraf: Ambil semua paragraf dalam dokumen menggunakan`GetChildNodes` metode.
+1. Dapatkan Semua Paragraf: Ambil semua paragraf dalam dokumen menggunakan `GetChildNodes` metode.
 
     ```csharp
     foreach (Paragraph paragraph in doc.GetChildNodes(NodeType.Paragraph, true))
@@ -102,13 +104,18 @@ Meskipun Anda dapat mengidentifikasi pemisah gaya, memodifikasinya secara langsu
 Ya, Aspose.Words untuk .NET kompatibel dengan .NET Framework dan .NET Core.
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Words?
- Anda bisa mendapatkan dukungan dari[Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari [Forum Aspose.Words](https://forum.aspose.com/c/words/8).
 
-### Dapatkah saya menggunakan Aspose.Words secara gratis?
- Aspose.Words menawarkan[uji coba gratis](https://releases.aspose.com/) dan juga menyediakan[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
+### Bisakah saya menggunakan Aspose.Words secara gratis?
+Aspose.Words menawarkan [uji coba gratis](https://releases.aspose.com/) dan juga menyediakan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

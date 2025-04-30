@@ -1,14 +1,16 @@
 ---
-title: Клонировать проект Vba из документа Word
-linktitle: Клонировать проект Vba из документа Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как клонировать проекты VBA в документах Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству для бесперебойной работы с документами!
-weight: 10
-url: /ru/net/working-with-vba-macros/clone-vba-project/
+"description": "Узнайте, как клонировать проекты VBA в документах Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству для бесперебойной работы с документами!"
+"linktitle": "Клонировать проект Vba из документа Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Клонировать проект Vba из документа Word"
+"url": "/ru/net/working-with-vba-macros/clone-vba-project/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Клонировать проект Vba из документа Word
@@ -22,10 +24,10 @@ url: /ru/net/working-with-vba-macros/clone-vba-project/
 
 Прежде чем начать, давайте убедимся, что у вас все готово:
 
-1.  Библиотека Aspose.Words for .NET: Вам понадобится последняя версия Aspose.Words for .NET. Если вы еще этого не сделали, вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words for .NET: Вам понадобится последняя версия Aspose.Words for .NET. Если вы еще этого не сделали, вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: Для написания и тестирования вашего кода необходима среда разработки .NET, например Visual Studio.
 3. Базовые знания C#: Базовые знания C# помогут вам разобраться в фрагментах кода.
-4.  Образец документа Word: есть[Документ Word](https://github.com/aspose-words/Aspose.Words-for-.NET/raw/99ba2a2d8b5d650deb40106225f383376b8b4bc6/Examples/Data/VBA%20project.docm)(.docm), содержащий проект VBA, готовый к работе. Вы можете создать свой собственный или использовать существующий.
+4. Образец документа Word: есть [Документ Word](https://github.com/aspose-words/Aspose.Words-for-.NET/raw/99ba2a2d8b5d650deb40106225f383376b8b4bc6/Examples/Data/VBA%20project.docm) (.docm), содержащий проект VBA, готовый к работе. Вы можете создать свой собственный или использовать существующий.
 
 ## Импорт пространств имен
 
@@ -52,7 +54,7 @@ using Aspose.Words.Vba;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем, где хранятся ваши документы Word. Этот каталог будет нашим рабочим пространством для этого руководства.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем, где хранятся ваши документы Word. Этот каталог будет нашим рабочим пространством для этого руководства.
 
 ## Шаг 2: Загрузка документа Word
 
@@ -66,7 +68,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "VBA project.docm");
 ```
 
-Этот код загружает документ Word с именем «VBA project.docm» из указанного вами каталога в`doc` объект.
+Этот код загружает документ Word с именем «VBA project.docm» из указанного вами каталога в `doc` объект.
 
 ## Шаг 3: Клонирование проекта VBA
 
@@ -80,7 +82,7 @@ Document doc = new Document(dataDir + "VBA project.docm");
 Document destDoc = new Document { VbaProject = doc.VbaProject.Clone() };
 ```
 
- В этой строке мы создаем новый документ`destDoc` и устанавливая свой проект VBA на клон проекта VBA из`doc`. На этом этапе все содержимое VBA из исходного документа дублируется в новый.
+В этой строке мы создаем новый документ `destDoc` и устанавливая свой проект VBA на клон проекта VBA из `doc`На этом этапе все содержимое VBA из исходного документа дублируется в новый.
 
 ## Шаг 4: Сохранение нового документа
 
@@ -100,9 +102,9 @@ destDoc.Save(dataDir + "WorkingWithVba.CloneVbaProject.docm");
 
 И вот оно! Вы только что освоили искусство клонирования проекта VBA в документах Word с помощью Aspose.Words для .NET. Эта мощная библиотека позволяет легко работать со сложными документами Word, от простых текстовых манипуляций до сложных проектов VBA. Следуя этому руководству, вы не только узнали, как клонировать проекты VBA, но и заложили основу для дальнейшего изучения обширных возможностей Aspose.Words.
 
- Если вам интересно узнать больше, не забудьте заглянуть на[API-документация](https://reference.aspose.com/words/net/) . По любым вопросам или для получения поддержки,[форум поддержки](https://forum.aspose.com/c/words/8) всегда отличное место для общения с другими разработчиками.
+Если вам интересно узнать больше, не забудьте заглянуть на [API-документация](https://reference.aspose.com/words/net/). По любым вопросам или для поддержки, [форум поддержки](https://forum.aspose.com/c/words/8) всегда отличное место для общения с другими разработчиками.
 
-Удачного кодирования и помните, каждое приключение по манипулированию документами начинается с одной строки кода!
+Удачного вам программирования и помните, каждое приключение по манипулированию документами начинается с одной строки кода!
 
 ## Часто задаваемые вопросы
 
@@ -110,7 +112,7 @@ destDoc.Save(dataDir + "WorkingWithVba.CloneVbaProject.docm");
 Aspose.Words for .NET — универсальная библиотека для создания, редактирования и преобразования документов Word в приложения .NET. Идеально подходит для автоматизации задач по работе с документами.
 
 ### Могу ли я использовать Aspose.Words бесплатно?  
- Да, вы можете попробовать Aspose.Words с[бесплатная пробная версия](https://releases.aspose.com/) или получить[временная лицензия](https://purchase.aspose.com/temporary-license/) для целей оценки.
+Да, вы можете попробовать Aspose.Words с [бесплатная пробная версия](https://releases.aspose.com/) или получить [временная лицензия](https://purchase.aspose.com/temporary-license/) для целей оценки.
 
 ### Как клонировать проект VBA в Aspose.Words?  
 Чтобы клонировать проект VBA, загрузите исходный документ, клонируйте проект VBA и сохраните новый документ с клонированным проектом.
@@ -119,10 +121,15 @@ Aspose.Words for .NET — универсальная библиотека для
 VBA в документах Word часто используется для автоматизации задач, создания пользовательских макросов и расширения функциональности документов с помощью скриптов.
 
 ### Где можно купить Aspose.Words для .NET?  
- Вы можете приобрести Aspose.Words для .NET на сайте[Aspose.Покупка](https://purchase.aspose.com/buy).
+Вы можете приобрести Aspose.Words для .NET на сайте [Aspose.Покупка](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

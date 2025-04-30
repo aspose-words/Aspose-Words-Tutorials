@@ -1,14 +1,16 @@
 ---
-title: Tạo Mục lục trong Aspose.Words cho Java
-linktitle: Tạo mục lục
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách tạo và tùy chỉnh Mục lục (TOC) bằng Aspose.Words cho Java. Tạo tài liệu có tổ chức và chuyên nghiệp một cách dễ dàng.
-weight: 21
-url: /vi/java/document-manipulation/generating-table-of-contents/
+"description": "Tìm hiểu cách tạo và tùy chỉnh Mục lục (TOC) bằng Aspose.Words cho Java. Tạo tài liệu có tổ chức và chuyên nghiệp một cách dễ dàng."
+"linktitle": "Tạo mục lục"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Tạo Mục lục trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/generating-table-of-contents/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo Mục lục trong Aspose.Words cho Java
@@ -78,7 +80,7 @@ for (Paragraph para : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARAGRAPH
         // Xóa tab cũ.
         para.getParagraphFormat().getTabStops().removeByPosition(tab.getPosition());
         
-        //Chèn một tab mới vào vị trí đã sửa đổi (ví dụ: 50 đơn vị về bên trái).
+        // Chèn một tab mới vào vị trí đã sửa đổi (ví dụ: 50 đơn vị về bên trái).
         para.getParagraphFormat().getTabStops().add(tab.getPosition() - 50.0, tab.getAlignment(), tab.getLeader());
     }
 }
@@ -97,7 +99,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách tạo Mục lục (
 
 ### Làm thế nào để thay đổi định dạng của mục lục?
 
- Bạn có thể sửa đổi các kiểu liên quan đến mức mục lục bằng cách sử dụng`doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`, trong đó X là mức TOC.
+Bạn có thể sửa đổi các kiểu liên quan đến mức mục lục bằng cách sử dụng `doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`, trong đó X là mức TOC.
 
 ### Làm thế nào tôi có thể thêm nhiều cấp độ hơn vào TOC của mình?
 
@@ -106,9 +108,14 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách tạo Mục lục (
 ### Tôi có thể thay đổi vị trí dừng tab cho các mục lục cụ thể không?
 
 Có, như được hiển thị trong ví dụ mã ở trên, bạn có thể thay đổi vị trí dừng tab cho các mục lục cụ thể bằng cách lặp qua các đoạn văn và sửa đổi vị trí dừng tab cho phù hợp.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

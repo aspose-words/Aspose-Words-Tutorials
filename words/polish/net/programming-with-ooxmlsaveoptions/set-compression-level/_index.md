@@ -1,14 +1,16 @@
 ---
-title: Ustaw poziom kompresji
-linktitle: Ustaw poziom kompresji
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak ustawić poziom kompresji w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zoptymalizować przechowywanie i wydajność dokumentów.
-weight: 10
-url: /pl/net/programming-with-ooxmlsaveoptions/set-compression-level/
+"description": "Dowiedz się, jak ustawić poziom kompresji w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zoptymalizować przechowywanie i wydajność dokumentów."
+"linktitle": "Ustaw poziom kompresji"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ustaw poziom kompresji"
+"url": "/pl/net/programming-with-ooxmlsaveoptions/set-compression-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw poziom kompresji
@@ -21,7 +23,7 @@ Gotowy, aby zanurzyć się w świecie kompresji dokumentów z Aspose.Words dla .
 
 Zanim przejdziemy do konkretów, upewnijmy się, że masz wszystko, czego potrzebujesz, aby móc skorzystać z tego samouczka:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/words/net/).
 
 2. Środowisko programistyczne: Należy skonfigurować środowisko programistyczne, np. Visual Studio.
 
@@ -80,7 +82,7 @@ Document doc = new Document(dataDir + "Document.docx");
 
 Tutaj dzieje się magia. Ustawimy poziom kompresji dla dokumentu.
 
- Utwórz instancję`OoxmlSaveOptions` i ustaw poziom kompresji.`CompressionLevel` właściwość może być ustawiona na różnych poziomach, takich jak`Normal`, `Maximum`, `Fast` , I`SuperFast` . W tym przykładzie użyjemy`SuperFast`.
+Utwórz instancję `OoxmlSaveOptions` i ustaw poziom kompresji. `CompressionLevel` właściwość może być ustawiona na różnych poziomach, takich jak `Normal`, `Maximum`, `Fast`, I `SuperFast`. W tym przykładzie użyjemy `SuperFast`.
 
 ```csharp
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
@@ -93,7 +95,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 Na koniec zapisz dokument z nowymi ustawieniami kompresji.
 
- Użyj`Save` metoda umożliwiająca zapisanie dokumentu z określonym poziomem kompresji.
+Użyj `Save` metoda umożliwiająca zapisanie dokumentu z określonym poziomem kompresji.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.SetCompressionLevel.docx", saveOptions);
@@ -107,7 +109,7 @@ Po uruchomieniu aplikacji przejdź do określonego katalogu i sprawdź nowy plik
 
 I masz! Udało Ci się ustawić poziom kompresji dla dokumentu Word przy użyciu Aspose.Words dla .NET. Może to znacznie zmniejszyć rozmiar pliku i poprawić wydajność podczas pracy z dużymi dokumentami. Nie zapomnij sprawdzić innych poziomów kompresji, aby znaleźć najlepszą równowagę między rozmiarem pliku a wydajnością dla swoich potrzeb.
 
-Jeśli masz jakieś pytania lub napotkasz jakiekolwiek problemy, sprawdź[Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) lub skontaktuj się z nimi[Forum wsparcia](https://forum.aspose.com/c/words/8).
+Jeśli masz jakieś pytania lub napotkasz jakiekolwiek problemy, sprawdź [Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) lub skontaktuj się z nimi [Forum wsparcia](https://forum.aspose.com/c/words/8).
 
 ## Najczęściej zadawane pytania
 
@@ -129,11 +131,16 @@ Tak, Aspose.Words for .NET obsługuje kompresję różnych formatów dokumentów
 
 ### Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?
 
- Możesz uzyskać pomoc od społeczności Aspose, odwiedzając ich stronę[Forum wsparcia](https://forum.aspose.com/c/words/8).
+Możesz uzyskać pomoc od społeczności Aspose, odwiedzając ich stronę [Forum wsparcia](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,51 +1,59 @@
 ---
-title: Word ドキュメントに新しいセクションを追加します.
-weight: 7700
-limit: 
-description: Word 文書に新しいセクションを追加する方法について学び, .NET のAspose.Wordsを使用して. Word 自動化作業を簡素化するためにコード例のステップ・バイ・ステップガイド.
-keywords: [Aspose.Words for .NET, add section to Word document, .NET Word automation, create new section, Word document manipulation, Aspose.Words tutorial, .NET examples]
-url: /ja/net/document-sections/add-section/
+"description": "Aspose.Words for .NET を使用して Word 文書に新しいセクションを追加する方法を学びましょう。コード例付きのステップバイステップガイドで、Word の自動化タスクを効率化できます。"
+"title": "Word 文書に新しいセクションを追加する | Aspose.Words for .NET"
+"url": "/ja/net/document-sections/add-section/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ワード文書に新しいセクションを追加する
+# Word文書に新しいセクションを追加する
 
-Word 文書の作成は,複雑な文書構造を処理するための強力な API を提供することで,作業を簡単にする.このチュートリアルでは,Word 文書に新しいセクションをプログラム的に追加する方法を説明します.`文書` 固定リンク`ドキュメントビルダー`文書を初期化し,テキストを追加し,新しいセクションを追加することを学びます. Word ドキュメント生成と操作を精度で自動化したい開発者にとって最適です.  
+Aspose.Words for .NETは、複雑な文書構造を扱うための強力なAPIを提供することで、Word文書の操作を容易にします。このチュートリアルでは、プログラムでWord文書に新しいセクションを追加する方法を説明します。 `Document` そして `DocumentBuilder` クラスでは、ドキュメントの初期化、テキストの追加、新しいセクションの追加方法を学習します。Word文書の生成と操作を高精度に自動化したい開発者に最適です。  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/document-sections/add-section" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## .NET の Aspose.Words のインストール説明書  
+## Aspose.Words for .NET のインストール手順  
 
-1. .NET のためのAspose.Wordsをダウンロードする  
-   訪問する[Aspose.Wordsは.NETダウンロードページ](https://releases.aspose.com/words/net/)ニュースの最新バージョンを入手する
+1. Aspose.Words for .NET をダウンロード:  
+   訪問 [Aspose.Words for .NET のダウンロード ページ](https://releases.aspose.com/words/net/) 最新バージョンを入手してください。
 
-2. NuGet を介してインストールする  
-   * ビジュアルスタジオを 開け  
-   * ツール > NuGet パッケージ管理者 > ソリューションのための NuGet パッケージ管理へ移動します.  
-   * 検索する`"言葉"`NuGet パッケージマネージャーに  
-   * パッケージを選択し,インストールをクリックします.  
+2. NuGet 経由でインストール:  
+   - Visual Studio プロジェクトを開きます。  
+   - [ツール] > [NuGet パッケージ マネージャー] > [ソリューションの NuGet パッケージの管理] に移動します。  
+   - 検索する `Aspose.Words` NuGet パッケージ マネージャーで。  
+   - パッケージを選択し、「インストール」をクリックします。  
 
-3. 参照を手動で追加する (オプション):  
-   * ダウンロードする[アポスリリースページ](https://releases.aspose.com/)やってくれ  
-   * 追加する`"回答.言葉".`ソリューション エクスプローラー の参照点击を右クリックして 参照を追加を選択してプロジェクトにファイルを送信します.  
+3. 参照を手動で追加する（オプション）:  
+   - DLLを以下からダウンロードしてください。 [Aspose リリースページ](https://releases。aspose.com/).  
+   - 追加する `Aspose.Words.dll` ソリューション エクスプローラーで [参照] を右クリックし、[参照の追加] を選択して、ファイルをプロジェクトに追加します。  
 
-4. ライセンス (オプション) を有効にする  
-   ライセンスがあれば,そのライセンスを使って 機能の全部を解除してください.  
+4. ライセンスをアクティブ化する（オプション）:  
+   ライセンスをお持ちの場合は、それを適用して全機能をロック解除してください。  
    ```csharp
    Aspose.Words.License license = new Aspose.Words.License();
    license.SetLicense("path_to_your_license.lic");
    ```  
 
-## また見てください
-[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
-[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
+## こちらもご覧ください
+[Aspose.Word for .NET ドキュメント](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET リファレンス](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Sisipkan Bidang
-linktitle: Sisipkan Bidang
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memasukkan kolom ke dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah. Sempurna untuk otomatisasi dokumen.
-weight: 10
-url: /id/net/working-with-fields/insert-field/
+"description": "Pelajari cara memasukkan kolom ke dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah. Sempurna untuk otomatisasi dokumen."
+"linktitle": "Sisipkan Bidang"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Sisipkan Bidang"
+"url": "/id/net/working-with-fields/insert-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sisipkan Bidang
@@ -21,10 +23,10 @@ Pernahkah Anda merasa perlu mengotomatiskan pembuatan dan manipulasi dokumen? Na
 
 Sebelum kita mulai, mari pastikan kita memiliki semua yang kita butuhkan:
 
-1.  Aspose.Words untuk .NET: Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda.
 3. IDE: Lingkungan pengembangan terintegrasi seperti Visual Studio.
-4.  Lisensi Sementara: Anda bisa mendapatkannya[Di Sini](https://purchase.aspose.com/temporary-license/).
+4. Lisensi Sementara: Anda bisa mendapatkannya [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 Pastikan Anda telah menginstal Aspose.Words untuk .NET dan menyiapkan lingkungan pengembangan Anda. Siap? Mari kita mulai!
 
@@ -51,7 +53,7 @@ Untuk menggunakan Aspose.Words, kita perlu menambahkannya ke proyek kita. Klik k
 
 ### Inisialisasi Direktori Dokumen Anda
 
- Kita memerlukan direktori tempat dokumen kita akan disimpan. Untuk tutorial ini, mari kita gunakan direktori pengganti. Ganti`"YOUR DOCUMENTS DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen Anda.
+Kita memerlukan direktori tempat dokumen kita akan disimpan. Untuk tutorial ini, mari kita gunakan direktori pengganti. Ganti `"YOUR DOCUMENTS DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen Anda.
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
@@ -98,7 +100,7 @@ Selamat! Anda baru saja mempelajari cara memasukkan kolom ke dalam dokumen Word 
 Tentu saja! Aspose.Words mendukung berbagai bidang, termasuk MERGEFIELD, IF, INCLUDETEXT, dan banyak lagi.
 
 ### Bagaimana saya dapat memformat bidang yang dimasukkan ke dalam dokumen saya?  
- Anda dapat menggunakan field switch untuk memformat kolom. Misalnya,`\* MERGEFORMAT` mempertahankan format yang diterapkan ke bidang tersebut.
+Anda dapat menggunakan field switch untuk memformat kolom. Misalnya, `\* MERGEFORMAT` mempertahankan format yang diterapkan ke bidang tersebut.
 
 ### Apakah Aspose.Words untuk .NET kompatibel dengan .NET Core?  
 Ya, Aspose.Words untuk .NET kompatibel dengan .NET Framework dan .NET Core.
@@ -107,10 +109,15 @@ Ya, Aspose.Words untuk .NET kompatibel dengan .NET Framework dan .NET Core.
 Ya, Anda dapat mengotomatiskan penyisipan bidang secara massal dengan melakukan pengulangan melalui data Anda dan menggunakan DocumentBuilder untuk menyisipkan bidang secara terprogram.
 
 ### Di mana saya dapat menemukan dokumentasi yang lebih rinci tentang Aspose.Words untuk .NET?  
- Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi yang lengkap [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

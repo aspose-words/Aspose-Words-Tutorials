@@ -1,14 +1,16 @@
 ---
-title: Madde işaretli liste
-linktitle: Madde işaretli liste
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerinde madde işaretli listelerin nasıl oluşturulacağını ve özelleştirileceğini öğrenin.
-weight: 10
-url: /tr/net/working-with-markdown/bulleted-list/
+"description": "Bu adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerinde madde işaretli listelerin nasıl oluşturulacağını ve özelleştirileceğini öğrenin."
+"linktitle": "Madde işaretli liste"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Madde işaretli liste"
+"url": "/tr/net/working-with-markdown/bulleted-list/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Madde işaretli liste
@@ -21,7 +23,7 @@ Aspose.Words for .NET dünyasına dalmaya hazır mısınız? Bugün, Word belgel
 
 Kodlama eğlencesine başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Aspose.Words kütüphanesinin yüklü olduğundan emin olun. Henüz yüklü değilse,[buradan indirin](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words kütüphanesinin yüklü olduğundan emin olun. Henüz yüklü değilse, [buradan indirin](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio benzeri AC# geliştirme ortamı.
 3. Temel C# Bilgisi: C# programlamaya dair temel bir anlayışa sahip olmak, konuyu takip etmenize yardımcı olacaktır.
 
@@ -72,7 +74,7 @@ builder.Writeln("Item 2");
 
 ## Adım 5: Alt Öğeler Ekleyin
 
-İşleri daha ilginç hale getirmek için "Öğe 2"nin altına bazı alt öğeler ekleyelim. Bu, alt noktaların düzenlenmesine yardımcı olur.
+İşleri daha ilginç hale getirmek için "Öğe 2"nin altına bazı alt öğeler ekleyelim. Bu, alt noktaları düzenlemeye yardımcı olur.
 
 ```csharp
 builder.ListFormat.ListIndent();
@@ -90,22 +92,27 @@ builder.ListFormat.ListOutdent(); // Ana liste düzeyine dön
 ## SSS
 
 ### Listede farklı madde işaretleri kullanabilir miyim?
-    Evet, madde işareti sembollerini değiştirerek özelleştirebilirsiniz.`NumberFormat` mülk.
+   Evet, madde işareti sembollerini değiştirerek özelleştirebilirsiniz. `NumberFormat` mülk.
 
 ### Daha fazla girinti düzeyi nasıl eklerim?
-    Kullanın`ListIndent` daha fazla seviye ekleme yöntemi ve`ListOutdent` daha yüksek bir seviyeye geri dönmek.
+   Kullanın `ListIndent` daha fazla seviye ekleme yöntemi ve `ListOutdent` daha yüksek bir seviyeye geri dönmek.
 
 ### Madde işaretli ve numaralı listeleri karıştırmak mümkün müdür?
-   Kesinlikle! Madde işareti ve sayı biçimleri arasında geçiş yapabilirsiniz.`ApplyNumberDefault` Ve`ApplyBulletDefault` Yöntemler.
+   Kesinlikle! Madde işareti ve sayı biçimleri arasında geçiş yapabilirsiniz. `ApplyNumberDefault` Ve `ApplyBulletDefault` Yöntemler.
 
 ### Liste öğelerindeki metinleri biçimlendirebilir miyim?
-    Evet, liste öğelerindeki metne farklı stiller, yazı tipleri ve biçimlendirme uygulayabilirsiniz.`Font` mülkiyeti`DocumentBuilder`.
+   Evet, liste öğelerindeki metne farklı stiller, yazı tipleri ve biçimlendirme uygulayabilirsiniz. `Font` mülkiyeti `DocumentBuilder`.
 
 ### Çok sütunlu madde işaretli liste nasıl oluşturabilirim?
    Her hücresi ayrı madde işaretli liste içeren çok sütunlu listeler oluşturmak için tablo biçimlendirmesini kullanabilirsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Membagi Dokumen dengan Mudah dan Efisien
-linktitle: Membagi Dokumen dengan Mudah dan Efisien
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara membagi dokumen secara efisien menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah untuk pemrosesan dokumen dan manipulasi kata. Tingkatkan produktivitas sekarang!
-weight: 10
-url: /id/java/document-splitting/split-documents-easily-efficiently/
+"description": "Pelajari cara membagi dokumen secara efisien menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah untuk pemrosesan dokumen dan manipulasi kata. Tingkatkan produktivitas sekarang!"
+"linktitle": "Membagi Dokumen dengan Mudah dan Efisien"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Membagi Dokumen dengan Mudah dan Efisien"
+"url": "/id/java/document-splitting/split-documents-easily-efficiently/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membagi Dokumen dengan Mudah dan Efisien
@@ -77,7 +79,7 @@ Memisahkan dokumen berdasarkan judul merupakan pendekatan yang lebih canggih yan
 Untuk membagi dokumen berdasarkan judul menggunakan Aspose.Words untuk Java, ikuti langkah-langkah berikut:
 
 ```java
-//Kode Java untuk membagi dokumen berdasarkan judul menggunakan Aspose.Words untuk Java
+// Kode Java untuk membagi dokumen berdasarkan judul menggunakan Aspose.Words untuk Java
 Document doc = new Document("input.docx");
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
@@ -133,15 +135,20 @@ Ya, Aspose.Words untuk Java mendukung pemisahan dokumen yang dilindungi kata san
 
 ### Bagaimana saya dapat memulai dengan Aspose.Words untuk Java jika saya baru menggunakan pustaka tersebut?
 
- Anda dapat memulai dengan menjelajahi[Referensi API Aspose.Words untuk Java](https://reference.aspose.com/words/java/) dan contoh kode yang disediakan oleh Aspose.Words untuk Java. Dokumentasi berisi informasi terperinci tentang fitur pustaka dan cara menggunakannya secara efektif.
+Anda dapat memulai dengan menjelajahi [Referensi API Aspose.Words untuk Java](https://reference.aspose.com/words/java/) dan contoh kode yang disediakan oleh Aspose.Words untuk Java. Dokumentasi berisi informasi terperinci tentang fitur pustaka dan cara menggunakannya secara efektif.
 
 ### Apakah Aspose.Words untuk Java cocok untuk pemrosesan dokumen tingkat perusahaan?
 
 Tentu saja! Aspose.Words untuk Java digunakan secara luas dalam aplikasi tingkat perusahaan untuk berbagai tugas pemrosesan dokumen karena ketangguhannya dan rangkaian fiturnya yang luas.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

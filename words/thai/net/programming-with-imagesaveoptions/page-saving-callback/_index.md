@@ -1,14 +1,16 @@
 ---
-title: การบันทึกหน้าการโทรกลับ
-linktitle: การบันทึกหน้าการโทรกลับ
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้การบันทึกแต่ละหน้าของเอกสาร Word เป็นรูปภาพ PNG แยกกันโดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนโดยละเอียดของเรา
-weight: 10
-url: /th/net/programming-with-imagesaveoptions/page-saving-callback/
+"description": "เรียนรู้การบันทึกแต่ละหน้าของเอกสาร Word เป็นรูปภาพ PNG แยกกันโดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนโดยละเอียดของเรา"
+"linktitle": "การบันทึกหน้าการโทรกลับ"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การบันทึกหน้าการโทรกลับ"
+"url": "/th/net/programming-with-imagesaveoptions/page-saving-callback/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การบันทึกหน้าการโทรกลับ
@@ -21,7 +23,7 @@ url: /th/net/programming-with-imagesaveoptions/page-saving-callback/
 
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1.  Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลดและติดตั้งจาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลดและติดตั้งจาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. Visual Studio: เวอร์ชันใดก็ได้ แต่ฉันจะใช้ Visual Studio 2019 สำหรับคู่มือนี้
 3. ความรู้พื้นฐานเกี่ยวกับ C#: คุณต้องมีความเข้าใจพื้นฐานเกี่ยวกับ C# จึงจะปฏิบัติตามได้
 
@@ -63,7 +65,7 @@ ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png)
 };
 ```
 
- ที่นี่,`PageSet` ระบุช่วงของหน้าที่จะบันทึกและ`PageSavingCallback` ชี้ไปยังคลาสการโทรกลับแบบกำหนดเองของเรา
+ที่นี่, `PageSet` ระบุช่วงของหน้าที่จะบันทึกและ `PageSavingCallback` ชี้ไปยังคลาสการโทรกลับแบบกำหนดเองของเรา
 
 ## ขั้นตอนที่ 4: นำการบันทึกหน้ากลับมาใช้งาน
 
@@ -79,7 +81,7 @@ private class HandlePageSavingCallback : IPageSavingCallback
 }
 ```
 
- คลาสนี้ใช้การ`IPageSavingCallback` อินเทอร์เฟซและภายใน`PageSaving` วิธีการนี้เราจะกำหนดรูปแบบการตั้งชื่อให้กับแต่ละหน้าที่บันทึก
+คลาสนี้ใช้การ `IPageSavingCallback` อินเทอร์เฟซและภายใน `PageSaving` วิธีการนี้เราจะกำหนดรูปแบบการตั้งชื่อให้กับแต่ละหน้าที่บันทึก
 
 ## ขั้นตอนที่ 5: บันทึกเอกสารเป็นรูปภาพ
 
@@ -98,22 +100,27 @@ doc.Save(dataDir + "WorkingWithImageSaveOptions.PageSavingCallback.png", imageSa
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถบันทึกหน้าในรูปแบบอื่นนอกจาก PNG ได้หรือไม่  
- ใช่ คุณสามารถบันทึกหน้าเพจในรูปแบบต่างๆ เช่น JPEG, BMP และ TIFF โดยการเปลี่ยนแปลง`SaveFormat` ใน`ImageSaveOptions`.
+ใช่ คุณสามารถบันทึกหน้าเพจในรูปแบบต่างๆ เช่น JPEG, BMP และ TIFF โดยการเปลี่ยนแปลง `SaveFormat` ใน `ImageSaveOptions`-
 
 ### หากฉันต้องการบันทึกเฉพาะหน้าเฉพาะจะทำอย่างไร?  
- คุณสามารถระบุหน้าที่คุณต้องการบันทึกได้โดยการปรับ`PageSet` พารามิเตอร์ใน`ImageSaveOptions`.
+คุณสามารถระบุหน้าที่คุณต้องการบันทึกได้โดยการปรับ `PageSet` พารามิเตอร์ใน `ImageSaveOptions`-
 
 ### สามารถปรับแต่งคุณภาพของภาพได้หรือไม่?  
- แน่นอน! คุณสามารถตั้งค่าคุณสมบัติได้ เช่น`ImageSaveOptions.JpegQuality` เพื่อควบคุมคุณภาพของภาพผลลัพธ์
+แน่นอน! คุณสามารถตั้งค่าคุณสมบัติได้ เช่น `ImageSaveOptions.JpegQuality` เพื่อควบคุมคุณภาพของภาพผลลัพธ์
 
 ### ฉันจะจัดการเอกสารขนาดใหญ่ได้อย่างมีประสิทธิภาพได้อย่างไร  
 สำหรับเอกสารขนาดใหญ่ ควรพิจารณาประมวลผลหน้าเป็นชุดเพื่อจัดการการใช้หน่วยความจำอย่างมีประสิทธิภาพ
 
 ### ฉันสามารถหาข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ใด  
- ตรวจสอบออก[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับคำแนะนำและตัวอย่างที่ครอบคลุม
+ตรวจสอบออก [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับคำแนะนำและตัวอย่างที่ครอบคลุม
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

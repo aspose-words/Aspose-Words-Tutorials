@@ -1,17 +1,19 @@
 ---
-title: Создание миниатюры документа
-linktitle: Создание миниатюры документа
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как создавать миниатюры документов с помощью Aspose.Words для Java. Улучшите пользовательский опыт с помощью визуальных предпросмотров.
-weight: 11
-url: /ru/java/document-rendering/document-thumbnail-generation/
+"description": "Узнайте, как создавать миниатюры документов с помощью Aspose.Words для Java. Улучшите пользовательский опыт с помощью визуальных предпросмотров."
+"linktitle": "Генерация миниатюры документа"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Генерация миниатюры документа"
+"url": "/ru/java/document-rendering/document-thumbnail-generation/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Создание миниатюры документа
+# Генерация миниатюры документа
 
 
 ## Введение в создание миниатюр документов
@@ -23,7 +25,7 @@ url: /ru/java/document-rendering/document-thumbnail-generation/
 Прежде чем углубляться в код, убедитесь, что выполнены следующие предварительные условия:
 
 - Среда разработки Java: убедитесь, что в вашей системе установлена Java.
--  Aspose.Words для Java: Загрузите и установите Aspose.Words для Java с веб-сайта[здесь](https://releases.aspose.com/words/java/).
+- Aspose.Words для Java: Загрузите и установите Aspose.Words для Java с веб-сайта [здесь](https://releases.aspose.com/words/java/).
 - Интегрированная среда разработки (IDE): вы можете использовать любую Java IDE по вашему выбору, например Eclipse или IntelliJ IDEA.
 
 ## Шаг 1: Настройка среды разработки
@@ -72,7 +74,7 @@ stream.writeTo(outputStream);
 
 ### Как установить Aspose.Words для Java?
 
-Чтобы установить Aspose.Words для Java, посетите страницу загрузки[здесь](https://releases.aspose.com/words/java/)и следуйте предоставленным инструкциям по установке.
+Чтобы установить Aspose.Words для Java, посетите страницу загрузки [здесь](https://releases.aspose.com/words/java/) и следуйте предоставленным инструкциям по установке.
 
 ### Могу ли я настроить размер создаваемой миниатюры?
 
@@ -88,10 +90,15 @@ stream.writeTo(outputStream);
 
 ### Где я могу найти дополнительную документацию по Aspose.Words для Java?
 
- Подробную документацию и справочные материалы по API можно найти на странице документации Aspose.Words for Java.[здесь](https://reference.aspose.com/words/java/).
+Подробную документацию и справочные материалы по API можно найти на странице документации Aspose.Words for Java. [здесь](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

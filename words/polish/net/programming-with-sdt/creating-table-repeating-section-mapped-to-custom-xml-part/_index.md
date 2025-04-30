@@ -1,14 +1,16 @@
 ---
-title: Tworzenie powtarzającej się sekcji tabeli zamapowanej na niestandardową część XML
-linktitle: Tworzenie powtarzającej się sekcji tabeli zamapowanej na niestandardową część XML
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak utworzyć tabelę z powtarzalną sekcją zamapowaną na CustomXmlPart w dokumencie programu Word przy użyciu Aspose.Words for .NET.
-weight: 10
-url: /pl/net/programming-with-sdt/creating-table-repeating-section-mapped-to-custom-xml-part/
+"description": "Dowiedz się, jak utworzyć tabelę z powtarzalną sekcją zamapowaną na CustomXmlPart w dokumencie programu Word przy użyciu Aspose.Words for .NET."
+"linktitle": "Tworzenie powtarzającej się sekcji tabeli zamapowanej na niestandardową część XML"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Tworzenie powtarzającej się sekcji tabeli zamapowanej na niestandardową część XML"
+"url": "/pl/net/programming-with-sdt/creating-table-repeating-section-mapped-to-custom-xml-part/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tworzenie powtarzającej się sekcji tabeli zamapowanej na niestandardową część XML
@@ -20,7 +22,7 @@ W tym samouczku przejdziemy przez proces tworzenia tabeli z powtarzającą się 
 ## Wymagania wstępne
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
-1.  Zainstalowano bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony[Strona internetowa Aspose](https://releases.aspose.com/words/net/).
+1. Zainstalowano bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony [Strona internetowa Aspose](https://releases.aspose.com/words/net/).
 2. Podstawowa znajomość języka C# i XML.
 
 ## Importuj przestrzenie nazw
@@ -35,7 +37,7 @@ using Aspose.Words.Tables;
 
 ## Krok 1: Zainicjuj dokument i DocumentBuilder
 
- Najpierw utwórz nowy dokument i zainicjuj`DocumentBuilder`:
+Najpierw utwórz nowy dokument i zainicjuj `DocumentBuilder`:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -57,7 +59,7 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add("Books",
 
 ## Krok 3: Utwórz strukturę tabeli
 
- Następnie użyj`DocumentBuilder` aby utworzyć nagłówek tabeli:
+Następnie użyj `DocumentBuilder` aby utworzyć nagłówek tabeli:
 
 ```csharp
 Table table = builder.StartTable();
@@ -71,7 +73,7 @@ builder.EndTable();
 
 ## Krok 4: Utwórz sekcję powtarzalną
 
- Utwórz`StructuredDocumentTag` (SDT) dla powtarzającej się sekcji i mapuj ją na dane XML:
+Utwórz `StructuredDocumentTag` (SDT) dla powtarzającej się sekcji i zamapuj ją na dane XML:
 
 ```csharp
 StructuredDocumentTag repeatingSectionSdt = new StructuredDocumentTag(doc, SdtType.RepeatingSection, MarkupLevel.Row);
@@ -106,7 +108,7 @@ row.AppendChild(authorSdt);
 
 ## Krok 7: Zapisz dokument
 
-Na koniec zapisz dokument w określonym katalogu:
+Na koniec zapisz dokument w podanym katalogu:
 
 ```csharp
 doc.Save(dataDir + "WorkingWithSdt.CreatingTableRepeatingSectionMappedToCustomXmlPart.docx");
@@ -126,9 +128,14 @@ Tak, możesz utworzyć strukturę własnego pliku XML przy użyciu dowolnych typ
 
 ### Jak dodać więcej wierszy do sekcji powtarzalnej?
 Sekcja powtarzalna automatycznie replikuje strukturę wiersza dla każdego elementu w mapowanej ścieżce XML.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Her Bölümde Yeniden Başlatma Listesi
-linktitle: Her Bölümde Yeniden Başlatma Listesi
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerindeki her bölümdeki listeleri nasıl yeniden başlatacağınızı öğrenin. Listeleri etkili bir şekilde yönetmek için ayrıntılı adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/working-with-list/restart-list-at-each-section/
+"description": "Aspose.Words for .NET kullanarak Word belgelerindeki her bölümdeki listeleri nasıl yeniden başlatacağınızı öğrenin. Listeleri etkili bir şekilde yönetmek için ayrıntılı adım adım kılavuzumuzu izleyin."
+"linktitle": "Her Bölümde Yeniden Başlatma Listesi"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Her Bölümde Yeniden Başlatma Listesi"
+"url": "/tr/net/working-with-list/restart-list-at-each-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Her Bölümde Yeniden Başlatma Listesi
@@ -21,10 +23,10 @@ Yapılandırılmış ve iyi organize edilmiş belgeler oluşturmak bazen karmaş
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET: En son sürümü indirin ve yükleyin[Aspose Sürümleri](https://releases.aspose.com/words/net/) sayfa.
+1. Aspose.Words for .NET: En son sürümü indirin ve yükleyin [Aspose Sürümleri](https://releases.aspose.com/words/net/) sayfa.
 2. .NET Ortamı: Geliştirme ortamınızı .NET yüklü olarak ayarlayın.
 3. C# Temel Anlayışı: C# programlama diline aşinalık tavsiye edilir.
-4.  Aspose Lisansı: Bir lisans seçebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) eğer yoksa.
+4. Aspose Lisansı: Bir lisans seçebilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) eğer yoksa.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -57,7 +59,7 @@ doc.Lists.Add(ListTemplate.NumberDefault);
 
 ## Adım 3: Listeye erişin ve Yeniden Başlatma Özelliğini Ayarlayın
 
-Az önce oluşturduğunuz listeyi alın ve ayarlayın`IsRestartAtEachSection`mülk`true`Bu, listenin her yeni bölümde numaralandırmaya yeniden başlamasını sağlar.
+Az önce oluşturduğunuz listeyi alın ve ayarlayın `IsRestartAtEachSection` mülk `true`Bu, listenin her yeni bölümde numaralandırmaya yeniden başlamasını sağlar.
 
 ```csharp
 List list = doc.Lists[0];
@@ -66,7 +68,7 @@ list.IsRestartAtEachSection = true;
 
 ## Adım 4: Bir Belge Oluşturucu Oluşturun ve Listeyi İlişkilendirin
 
- Bir tane oluştur`DocumentBuilder` Belgeye içerik eklemek ve listeyle ilişkilendirmek için.
+Bir tane oluştur `DocumentBuilder` Belgeye içerik eklemek ve listeyle ilişkilendirmek için.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -106,7 +108,7 @@ doc.Save(dataDir + "WorkingWithList.RestartListAtEachSection.docx", options);
 Evet, Aspose.Words for .NET, madde işaretli ve numaralı listeler de dahil olmak üzere çeşitli liste türlerini yeniden başlatmanıza olanak tanır.
 
 ### Numaralandırma biçimini özelleştirmek istersem ne olur?
- Numaralandırma biçimini değiştirerek özelleştirebilirsiniz.`ListTemplate` Liste oluşturulurken özellik.
+Numaralandırma biçimini değiştirerek özelleştirebilirsiniz. `ListTemplate` Liste oluşturulurken özellik.
 
 ### Bir listedeki öğe sayısının bir sınırı var mıdır?
 Hayır, Aspose.Words for .NET'i kullanarak bir listede olabilecek öğe sayısında belirli bir sınır yoktur.
@@ -115,10 +117,15 @@ Hayır, Aspose.Words for .NET'i kullanarak bir listede olabilecek öğe sayısı
 Evet, liste yapısını koruyarak Word belgelerini PDF gibi diğer formatlara dönüştürmek için Aspose.Words'ü kullanabilirsiniz.
 
 ### Aspose.Words for .NET'in ücretsiz deneme sürümünü nasıl edinebilirim?
- Ücretsiz deneme sürümünü şuradan alabilirsiniz:[Aspose Sürümleri](https://releases.aspose.com/) sayfa.
+Ücretsiz deneme sürümünü şuradan alabilirsiniz: [Aspose Sürümleri](https://releases.aspose.com/) sayfa.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

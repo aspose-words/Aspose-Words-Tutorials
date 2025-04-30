@@ -1,14 +1,16 @@
 ---
-title: Уменьшите размер PDF-файла, отключив встроенные шрифты
-linktitle: Уменьшите размер PDF-файла, отключив встроенные шрифты
-second_title: API обработки документов Aspose.Words
-description: Уменьшите размер PDF, отключив встроенные шрифты с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству, чтобы оптимизировать ваши документы для эффективного хранения и обмена.
-weight: 10
-url: /ru/net/programming-with-pdfsaveoptions/disable-embed-windows-fonts/
+"description": "Уменьшите размер PDF, отключив встроенные шрифты с помощью Aspose.Words for .NET. Следуйте нашему пошаговому руководству, чтобы оптимизировать ваши документы для эффективного хранения и обмена."
+"linktitle": "Уменьшите размер PDF-файла, отключив встроенные шрифты"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Уменьшите размер PDF-файла, отключив встроенные шрифты"
+"url": "/ru/net/programming-with-pdfsaveoptions/disable-embed-windows-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Уменьшите размер PDF-файла, отключив встроенные шрифты
@@ -19,9 +21,9 @@ url: /ru/net/programming-with-pdfsaveoptions/disable-embed-windows-fonts/
 
 ## Предпосылки
 
-Прежде чем приступить к изучению кода, убедитесь, что у вас есть следующее:
+Прежде чем погрузиться в код, убедитесь, что у вас есть следующее:
 
--  Aspose.Words для .NET: если вы еще этого не сделали, загрузите и установите его с сайта[Ссылка для скачивания](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: если вы еще этого не сделали, загрузите и установите его с сайта [Ссылка для скачивания](https://releases.aspose.com/words/net/).
 - Среда разработки .NET: Visual Studio — популярный выбор.
 - Образец документа Word: подготовьте файл DOCX, который вы хотите преобразовать в PDF.
 
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Здесь,`dataDir` это заполнитель для каталога, в котором находится ваш документ. Заменить`"YOUR DOCUMENT DIRECTORY"` с реальным путем.
+Здесь, `dataDir` это заполнитель для каталога, в котором находится ваш документ. Заменить `"YOUR DOCUMENT DIRECTORY"` с реальным путем.
 
 ## Шаг 2: Настройте параметры сохранения PDF-файла
 
@@ -60,9 +62,9 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Установив`FontEmbeddingMode` к`EmbedNone`, мы просим Aspose.Words не включать эти шрифты в PDF-файл, что позволяет уменьшить размер файла.
+Установив `FontEmbeddingMode` к `EmbedNone`, мы просим Aspose.Words не включать эти шрифты в PDF-файл, что позволяет уменьшить размер файла.
 
-## Шаг 3: Сохраните документ как PDF.
+## Шаг 3: Сохраните документ как PDF
 
 Наконец, мы сохраняем документ как PDF, используя настроенные параметры сохранения. Это момент истины, когда ваш DOCX преобразуется в компактный PDF.
 
@@ -70,7 +72,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.DisableEmbedWindowsFonts.pdf", saveOptions);
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с вашим фактическим путем к каталогу еще раз. Выходной PDF теперь будет сохранен в указанном каталоге без встроенных стандартных шрифтов.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с вашим фактическим путем к каталогу еще раз. Выходной PDF теперь будет сохранен в указанном каталоге без встроенных стандартных шрифтов.
 
 ## Заключение
 
@@ -91,11 +93,16 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.DisableEmbedWindowsFonts.pdf", sav
 Да, Aspose.Words для .NET предоставляет функциональные возможности, необходимые для настройки параметров внедрения шрифтов в PDF-файлы.
 
 ### Как мне получить поддержку, если у меня возникнут проблемы?
- Вы можете посетить[Форум поддержки](https://forum.aspose.com/c/words/8) за помощь в решении любых проблем, с которыми вы столкнетесь.
+Вы можете посетить [Форум поддержки](https://forum.aspose.com/c/words/8) за помощь в решении любых проблем, с которыми вы столкнетесь.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

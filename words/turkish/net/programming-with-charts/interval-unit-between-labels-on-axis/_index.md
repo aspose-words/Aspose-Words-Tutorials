@@ -1,14 +1,16 @@
 ---
-title: Bir Grafik Eksenindeki Etiketler Arasındaki Aralık Birimi
-linktitle: Bir Grafik Eksenindeki Etiketler Arasındaki Aralık Birimi
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak bir grafiğin eksenindeki etiketler arasındaki aralık birimini nasıl ayarlayacağınızı öğrenin.
-weight: 10
-url: /tr/net/programming-with-charts/interval-unit-between-labels-on-axis/
+"description": "Aspose.Words for .NET kullanarak bir grafiğin eksenindeki etiketler arasındaki aralık birimini nasıl ayarlayacağınızı öğrenin."
+"linktitle": "Bir Grafik Eksenindeki Etiketler Arasındaki Aralık Birimi"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Bir Grafik Eksenindeki Etiketler Arasındaki Aralık Birimi"
+"url": "/tr/net/programming-with-charts/interval-unit-between-labels-on-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bir Grafik Eksenindeki Etiketler Arasındaki Aralık Birimi
@@ -22,7 +24,7 @@ url: /tr/net/programming-with-charts/interval-unit-between-labels-on-axis/
 Aspose.Words'e dalmadan önce aşağıdaki ayarların yapıldığından emin olun:
 - Makinenizde Visual Studio yüklü
 - C# programlama dilinin temel bilgisi
--  Aspose.Words for .NET kütüphanesine erişim (indirme bağlantısı)[Burada](https://releases.aspose.com/words/net/))
+- Aspose.Words for .NET kütüphanesine erişim (indirme bağlantısı) [Burada](https://releases.aspose.com/words/net/))
 
 ## Ad Alanlarını İçe Aktarma ve Başlama
 
@@ -32,9 +34,9 @@ Gerekli ad alanlarını içe aktararak ve geliştirme ortamımızı ayarlayarak 
 Başlamak için Visual Studio'yu başlatın ve yeni bir C# projesi oluşturun.
 
 ### .NET için Aspose.Words'ü yükleme
- Aspose.Words for .NET'i NuGet Paket Yöneticisi aracılığıyla veya doğrudan şu adresten indirerek yükleyebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/words/net/).
+Aspose.Words for .NET'i NuGet Paket Yöneticisi aracılığıyla veya doğrudan şu adresten indirerek yükleyebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/words/net/).
 
-### Aspose.Words Ad Alanının İçe Aktarılması
+### Aspose.Words Ad Alanını İçe Aktarma
 C# kod dosyanıza, sınıflarına ve yöntemlerine erişim sağlamak için Aspose.Words ad alanını içe aktarın:
 ```csharp
 using Aspose.Words;
@@ -47,7 +49,7 @@ Bir Word belgesine grafik eklemek için şu adımları izleyin:
 
 ### Adım 1.1: DocumentBuilder'ı Başlatın ve Bir Grafik Ekleyin
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 
 Document doc = new Document();
@@ -89,20 +91,25 @@ Tebrikler! Aspose.Words for .NET kullanarak grafikleri nasıl entegre edeceğini
 Aspose.Words for .NET, geliştiricilerin .NET uygulamaları içerisinde Word belgeleri oluşturmalarına, değiştirmelerine ve dönüştürmelerine olanak tanıyan bir belge işleme kütüphanesidir.
 
 ### Aspose.Words for .NET için dokümanları nerede bulabilirim?
- Ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Ayrıntılı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
 
 ### Satın almadan önce Aspose.Words for .NET'i deneyebilir miyim?
- Evet, ücretsiz denemeyi indirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz denemeyi indirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Words for .NET desteğini nasıl alabilirim?
- Destek ve topluluk tartışmaları için şu adresi ziyaret edin:[Aspose.Words forumu](https://forum.aspose.com/c/words/8).
+Destek ve topluluk tartışmaları için şu adresi ziyaret edin: [Aspose.Words forumu](https://forum.aspose.com/c/words/8).
 
 ### Aspose.Words for .NET lisansını nereden satın alabilirim?
- Bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Bir lisans satın alabilirsiniz [Burada](https://purchase.aspose.com/buy).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

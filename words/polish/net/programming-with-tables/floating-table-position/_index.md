@@ -1,14 +1,16 @@
 ---
-title: Pozycja pływającego stołu
-linktitle: Pozycja pływającego stołu
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak kontrolować pozycję zmienną tabel w dokumentach programu Word za pomocą pakietu Aspose.Words dla platformy .NET, korzystając z naszego szczegółowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/programming-with-tables/floating-table-position/
+"description": "Dowiedz się, jak kontrolować pozycję zmienną tabel w dokumentach programu Word za pomocą pakietu Aspose.Words dla platformy .NET, korzystając z naszego szczegółowego przewodnika krok po kroku."
+"linktitle": "Pozycja pływającego stołu"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Pozycja pływającego stołu"
+"url": "/pl/net/programming-with-tables/floating-table-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pozycja pływającego stołu
@@ -21,7 +23,7 @@ Czy jesteś gotowy, aby zanurzyć się w świecie manipulowania pozycjami tabel 
 
 Zanim wyruszymy w tę ekscytującą podróż, upewnijmy się, że mamy wszystko, czego potrzebujemy:
 
-1. Aspose.Words dla biblioteki .NET: Upewnij się, że masz najnowszą wersję. Jeśli nie,[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla biblioteki .NET: Upewnij się, że masz najnowszą wersję. Jeśli nie, [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. .NET Framework: Upewnij się, że Twoje środowisko programistyczne jest skonfigurowane z obsługą .NET.
 3. Środowisko programistyczne: Visual Studio lub inne preferowane środowisko IDE.
 4. Dokument Word: Przygotuj dokument Word zawierający tabelę.
@@ -45,7 +47,7 @@ Teraz podzielimy ten proces na proste i zrozumiałe kroki.
 Po pierwsze, musisz załadować dokument Word. Tutaj znajduje się Twoja tabela.
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Table wrapped by text.docx");
@@ -61,7 +63,7 @@ Następnie musimy uzyskać dostęp do tabeli w dokumencie. Zazwyczaj będziesz p
 Table table = doc.FirstSection.Body.Tables[0];
 ```
 
-Pomyśl o tym kroku jako o zlokalizowaniu tabeli, z którą chcesz pracować w fizycznym dokumencie. Musisz dokładnie wiedzieć, gdzie się znajduje, aby wprowadzić jakiekolwiek zmiany.
+Pomyśl o tym kroku jako o zlokalizowaniu tabeli, z którą chcesz pracować w fizycznym dokumencie. Musisz dokładnie wiedzieć, gdzie ona jest, aby wprowadzić jakiekolwiek zmiany.
 
 ## Krok 3: Ustaw pozycję poziomą
 
@@ -71,7 +73,7 @@ Teraz ustawmy poziomą pozycję tabeli. Określa ona, jak daleko od lewej krawę
 table.AbsoluteHorizontalDistance = 10;
 ```
 
- Wyobraź sobie, że przesuwasz tabelę poziomo w całym dokumencie.`AbsoluteHorizontalDistance` to dokładna odległość od lewej krawędzi.
+Wyobraź sobie, że przesuwasz tabelę poziomo w całym dokumencie. `AbsoluteHorizontalDistance` jest dokładną odległością od lewej krawędzi.
 
 ## Krok 4: Ustaw wyrównanie pionowe
 
@@ -95,32 +97,37 @@ To jest jak naciśnięcie „Zapisz” w edytowanym dokumencie. Wszystkie zmiany
 
 ## Wniosek
 
-masz to! Właśnie opanowałeś kontrolowanie pływającej pozycji tabel w dokumencie Word za pomocą Aspose.Words dla .NET. Dzięki tym umiejętnościom możesz zapewnić, że tabele są idealnie pozycjonowane, aby poprawić czytelność i estetykę dokumentów. Eksperymentuj i odkrywaj ogromne możliwości Aspose.Words dla .NET.
+I masz to! Właśnie opanowałeś kontrolowanie pływającej pozycji tabel w dokumencie Word za pomocą Aspose.Words dla .NET. Dzięki tym umiejętnościom możesz zapewnić, że tabele są idealnie pozycjonowane, aby poprawić czytelność i estetykę dokumentów. Eksperymentuj i odkrywaj ogromne możliwości Aspose.Words dla .NET.
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę ustawić odległość tabeli od górnej krawędzi strony?
 
- Tak, możesz użyć`AbsoluteVerticalDistance` Właściwość umożliwiająca ustawienie odległości pionowej tabeli od górnej krawędzi strony.
+Tak, możesz użyć `AbsoluteVerticalDistance` Właściwość umożliwiająca ustawienie odległości pionowej tabeli od górnej krawędzi strony.
 
 ### Jak wyrównać tabelę do prawej strony dokumentu?
 
- Aby wyrównać tabelę do prawej, możesz ustawić`HorizontalAlignment` właściwość tabeli do`HorizontalAlignment.Right`.
+Aby wyrównać tabelę do prawej, możesz ustawić `HorizontalAlignment` właściwość tabeli do `HorizontalAlignment.Right`.
 
 ### Czy możliwe jest różne pozycjonowanie wielu tabel w tym samym dokumencie?
 
- Oczywiście! Możesz uzyskać dostęp i ustawić pozycje dla wielu tabel indywidualnie, iterując przez`Tables` kolekcja w dokumencie.
+Oczywiście! Możesz uzyskać dostęp i ustawić pozycje dla wielu tabel indywidualnie, iterując przez `Tables` kolekcja w dokumencie.
 
 ### Czy mogę wykorzystać pozycjonowanie względne do wyrównania poziomego?
 
-Tak, Aspose.Words obsługuje względne pozycjonowanie zarówno w przypadku wyrównań poziomych, jak i pionowych, przy użyciu właściwości takich jak`RelativeHorizontalAlignment`.
+Tak, Aspose.Words obsługuje względne pozycjonowanie zarówno w poziomie, jak i w pionie, przy użyciu właściwości takich jak `RelativeHorizontalAlignment`.
 
-### Czy Aspose.Words obsługuje tabele swobodne w różnych sekcjach dokumentu?
+### Czy Aspose.Words obsługuje tabele pływające w różnych sekcjach dokumentu?
 
 Tak, możesz umieszczać tabele pływające w różnych sekcjach, uzyskując dostęp do konkretnej sekcji i jej tabel w dokumencie.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

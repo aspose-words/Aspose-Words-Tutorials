@@ -1,50 +1,52 @@
 ---
-title: Szövegdobozok figyelmen kívül hagyása
-linktitle: Szövegdobozok figyelmen kívül hagyása
-second_title: Aspose.Words Document Processing API
-description: Egyesítse a Word-dokumentumokat az Aspose.Words for .NET-tel, biztosítva a szövegmező formázásának megőrzését. Kövesse ezt a lépésenkénti útmutatót a zökkenőmentes dokumentumfeldolgozáshoz.
-weight: 10
-url: /hu/net/join-and-append-documents/ignore-text-boxes/
+"description": "Egyesítse a Word dokumentumokat az Aspose.Words for .NET programmal, biztosítva a szövegdobozok formázásának megőrzését. Kövesse ezt a lépésenkénti útmutatót a zökkenőmentes dokumentumfeldolgozáshoz."
+"linktitle": "Szövegdobozok figyelmen kívül hagyása"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Szövegdobozok figyelmen kívül hagyása"
+"url": "/hu/net/join-and-append-documents/ignore-text-boxes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Szövegdobozok figyelmen kívül hagyása
 
 ## Bevezetés
 
-Üdvözöljük ebben a részletes oktatóanyagban az Aspose.Words for .NET használatával Word-dokumentumok egyesítésére a szövegdobozok figyelmen kívül hagyásával. Ha egyszerűsíteni szeretné a dokumentumfeldolgozást, és biztosítani szeretné a szövegdobozok formázásának megőrzését, akkor jó helyen jár. Merüljünk el ebben a lépésenkénti útmutatóban.
+Üdvözlünk ebben a részletes útmutatóban, amely bemutatja az Aspose.Words for .NET használatát Word-dokumentumok egyesítéséhez a szövegdobozok figyelmen kívül hagyásával. Ha szeretnéd egyszerűsíteni a dokumentumfeldolgozást, és biztosítani a szövegdobozok formázásának megőrzését, jó helyen jársz. Merüljünk el ebben a lépésről lépésre szóló útmutatóban.
 
 ## Előfeltételek
 
-Mielőtt hozzákezdenénk, győződjön meg arról, hogy mindennel rendelkezik, amire szüksége van:
+Mielőtt belekezdenénk, győződjünk meg róla, hogy minden megvan, amire szükséged van:
 
-1.  Aspose.Words for .NET: Töltse le[itt](https://releases.aspose.com/words/net/).
-2. .NET fejlesztői környezet: Visual Studio vagy bármely más preferált IDE.
-3. C# alapismeretek: A C# programozási alapfogalmak megértése.
+1. Aspose.Words .NET-hez: Töltsd le [itt](https://releases.aspose.com/words/net/).
+2. .NET fejlesztői környezet: Visual Studio vagy bármely más előnyben részesített IDE.
+3. C# alapismeretek: A C# programozási alapfogalmak ismerete.
 
 ## Névterek importálása
 
-A kezdéshez importálnia kell a szükséges névtereket a projektbe:
+A kezdéshez importálnia kell a szükséges névtereket a projektjébe:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Importing;
 ```
 
-## 1. lépés: Állítsa be projektjét
+## 1. lépés: A projekt beállítása
 
-Először győződjön meg arról, hogy a projekt megfelelően van beállítva. Nyissa meg az IDE-jét, hozzon létre egy új projektet, és telepítse az Aspose.Words for .NET könyvtárat a NuGet Package Manager segítségével.
+Először is győződj meg róla, hogy a projekted megfelelően van beállítva. Nyisd meg az IDE-t, hozz létre egy új projektet, és telepítsd az Aspose.Words for .NET könyvtárat a NuGet csomagkezelőn keresztül.
 
 ### Az Aspose.Words telepítése
 
-1. Nyissa meg a NuGet Package Managert az IDE-ben.
-2. Keresse meg az "Aspose.Words" kifejezést.
-3. Kattintson a "Telepítés" gombra.
+1. Nyisd meg a NuGet csomagkezelőt az IDE-ben.
+2. Keresd az „Aspose.Words” kifejezést.
+3. Kattintson a „Telepítés” gombra.
 
-## 2. lépés: Határozza meg a dokumentumkönyvtárat
+## 2. lépés: Dokumentumkönyvtár meghatározása
 
 Ezután adja meg azt a könyvtárat, ahol a forrás- és céldokumentumok találhatók.
 
@@ -52,44 +54,44 @@ Ezután adja meg azt a könyvtárat, ahol a forrás- és céldokumentumok talál
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a dokumentumkönyvtár tényleges elérési útjával.
+Csere `"YOUR DOCUMENT DIRECTORY"` a dokumentumkönyvtár tényleges elérési útjával.
 
-## 3. lépés: Töltse be a dokumentumokat
+## 3. lépés: A dokumentumok betöltése
 
-Most töltse be a forrás- és céldokumentumot is a projektbe.
+Most töltse be mind a forrás-, mind a céldokumentumot a projektbe.
 
 ```csharp
 Document srcDoc = new Document(dataDir + "Document source.docx");
 Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 ```
 
-## 4. lépés: Az importálási beállítások konfigurálása
+## 4. lépés: Importálási beállítások konfigurálása
 
- A szövegdobozok formázásának megőrzéséhez állítsa be a`IgnoreTextBoxes` opciót`false`.
+A szövegdobozok formázásának megőrzéséhez állítsa be a `IgnoreTextBoxes` lehetőség `false`.
 
 ```csharp
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreTextBoxes = false };
 ```
 
-## 5. lépés: Inicializálja a Node Importert
+## 5. lépés: A Csomópont-importáló inicializálása
 
- Inicializálja a`NodeImporter` csomópontok importálásához a forrásdokumentumból a céldokumentumba.
+Inicializálja a `NodeImporter` csomópontok importálásához a forrásdokumentumból a céldokumentumba.
 
 ```csharp
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
 ```
 
-## 6. lépés: Importáljon bekezdéseket a forrásdokumentumból
+## 6. lépés: Bekezdések importálása forrásdokumentumból
 
-Töltse le az összes bekezdést a forrásdokumentum első szakaszából.
+A forrásdokumentum első szakaszának összes bekezdésének lekérése.
 
 ```csharp
 ParagraphCollection srcParas = srcDoc.FirstSection.Body.Paragraphs;
 ```
 
-## 7. lépés: Az importált bekezdések hozzáfűzése a céldokumentumhoz
+## 7. lépés: Importált bekezdések hozzáfűzése a céldokumentumhoz
 
-Lapozzon végig minden bekezdésen, és fűzze hozzá a céldokumentumhoz.
+Végigfutja az egyes bekezdéseket, és hozzáfűzi azokat a céldokumentumhoz.
 
 ```csharp
 foreach (Paragraph srcPara in srcParas)
@@ -99,9 +101,9 @@ foreach (Paragraph srcPara in srcParas)
 }
 ```
 
-## 8. lépés: Mentse el az egyesített dokumentumot
+## 8. lépés: Az egyesített dokumentum mentése
 
-Végül mentse az egyesített dokumentumot új néven, hogy elkerülje az eredeti fájlok felülírását.
+Végül mentse el az egyesített dokumentumot új néven, hogy elkerülje az eredeti fájlok felülírását.
 
 ```csharp
 dstDoc.Save(dataDir + "JoinAndAppendDocuments.IgnoreTextBoxes.docx");
@@ -109,28 +111,33 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.IgnoreTextBoxes.docx");
 
 ## Következtetés
 
-Sikeresen egyesített két Word-dokumentumot az Aspose.Words for .NET használatával, miközben gondoskodott arról, hogy a szövegdobozokat ne hagyja figyelmen kívül az importálás során. Ez a folyamat felbecsülhetetlen értékű a dokumentumok formázási integritásának megőrzésében. Akár jelentésekkel, szerződésekkel vagy bármilyen más típusú dokumentummal foglalkozik, az Aspose.Words for .NET zökkenőmentessé teszi a folyamatot.
+Sikeresen egyesített két Word-dokumentumot az Aspose.Words for .NET segítségével, miközben biztosította, hogy a szövegdobozok ne maradjanak figyelmen kívül az importálás során. Ez a folyamat felbecsülhetetlen értékű a dokumentumok formázási integritásának megőrzése szempontjából. Akár jelentésekkel, szerződésekkel vagy bármilyen más típusú dokumentummal foglalkozik, az Aspose.Words for .NET zökkenőmentessé teszi a folyamatot.
 
 ## GYIK
 
-### Mi az Aspose.Words for .NET?
- Az Aspose.Words for .NET egy hatékony könyvtár Word-dokumentumok létrehozásához, kezeléséhez és konvertálásához .NET-alkalmazásokon belül.[További információ](https://reference.aspose.com/words/net/).
+### Mi az Aspose.Words .NET-hez?
+Az Aspose.Words for .NET egy hatékony függvénytár, amely Word-dokumentumok létrehozására, kezelésére és konvertálására szolgál .NET alkalmazásokon belül. [Tudj meg többet](https://reference.aspose.com/words/net/).
 
-### Kipróbálhatom az Aspose.Words for .NET-et a vásárlás előtt?
- Igen, letölthet egy ingyenes próbaverziót[itt](https://releases.aspose.com/).
+### Kipróbálhatom az Aspose.Words for .NET-et vásárlás előtt?
+Igen, letölthetsz egy ingyenes próbaverziót [itt](https://releases.aspose.com/).
 
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Words for .NET-hez?
-Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+Ideiglenes jogosítványt szerezhet [itt](https://purchase.aspose.com/temporary-license/).
 
 ### Hol találok részletesebb dokumentációt?
- Az átfogó dokumentációt megtalálja[itt](https://reference.aspose.com/words/net/).
+A részletes dokumentációt megtalálod [itt](https://reference.aspose.com/words/net/).
 
 ### Hogyan kaphatok támogatást az Aspose.Words for .NET-hez?
- Támogatásért keresse fel az Aspose fórumait[itt](https://forum.aspose.com/c/words/8).
+Támogatásért látogassa meg az Aspose fórumokat [itt](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Karşılaştırma Granülaritesi
-linktitle: Word Belgesinde Karşılaştırma Granülaritesi
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'in Word belgelerinde Granularity'yi karşılaştırma özelliğini öğrenin; bu özellik, belgelerin karakter karakter karşılaştırılmasını ve yapılan değişikliklerin raporlanmasını sağlar.
-weight: 10
-url: /tr/net/compare-documents/comparison-granularity/
+"description": "Aspose.Words for .NET'in Word belgelerinde Granularity'yi karşılaştırma özelliğini öğrenin; bu özellik, belgelerin karakter karakter karşılaştırılmasını ve yapılan değişikliklerin raporlanmasını sağlar."
+"linktitle": "Word Belgesinde Karşılaştırma Granülaritesi"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Karşılaştırma Granülaritesi"
+"url": "/tr/net/compare-documents/comparison-granularity/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Karşılaştırma Granülaritesi
@@ -62,7 +64,7 @@ CompareOptions compareOptions = new CompareOptions { Granularity = Granularity.C
 builderA.Document.Compare(builderB.Document, "author", DateTime.Now, compareOptions);
 ```
 
- The`Compare`yöntem, belge A'yı belge B ile karşılaştırır ve değişiklikleri belge A'ya kaydeder. Referans için yazarın adını ve karşılaştırma tarihini belirtebilirsiniz.
+The `Compare` yöntem belge A'yı belge B ile karşılaştırır ve değişiklikleri belge A'ya kaydeder. Referans için yazarın adını ve karşılaştırma tarihini belirtebilirsiniz.
 
 ## Çözüm
 
@@ -99,11 +101,11 @@ A: Aspose.Words for .NET'teki Karşılaştırma Granülaritesi, belgeleri karş�
 A: Aspose.Words for .NET'te Karşılaştırma Granülaritesini kullanmak için şu adımları izleyin:
 1. Geliştirme ortamınızı Aspose.Words kütüphanesi ile kurun.
 2. Gerekli derlemeleri Aspose.Words'e başvurarak projenize ekleyin.
-3.  Karşılaştırmak istediğiniz belgeleri kullanarak oluşturun`DocumentBuilder` sınıf.
-4.  Karşılaştırma seçeneklerini bir karşılaştırma oluşturarak yapılandırın`CompareOptions` nesne ve ayarlama`Granularity` mülkü istenilen düzeye (örneğin,`Granularity.CharLevel` (karakter düzeyinde karşılaştırma için).
-5.  Kullanın`Compare`bir belge üzerindeki yöntem, diğer belgeyi geçirerek ve`CompareOptions` nesneyi parametre olarak kullanır. Bu yöntem, belgeleri belirtilen ayrıntı düzeyine göre karşılaştırır ve değişiklikleri ilk belgeye kaydeder.
+3. Karşılaştırmak istediğiniz belgeleri kullanarak oluşturun `DocumentBuilder` sınıf.
+4. Karşılaştırma seçeneklerini bir karşılaştırma oluşturarak yapılandırın `CompareOptions` nesne ve ayarlama `Granularity` mülkü istenilen düzeye (örneğin, `Granularity.CharLevel` (karakter düzeyinde karşılaştırma için).
+5. Kullanın `Compare` bir belge üzerindeki yöntem, diğer belgeyi geçirerek ve `CompareOptions` nesneyi parametre olarak kullanır. Bu yöntem, belgeleri belirtilen ayrıntı düzeyine göre karşılaştırır ve değişiklikleri ilk belgeye kaydeder.
 
-#### S: Aspose.Words for .NET'te Karşılaştırma Ayrıntılılığının hangi düzeyleri mevcuttur?
+#### S: Aspose.Words for .NET'te Karşılaştırma Ayrıntılılığının mevcut düzeyleri nelerdir?
 
 A: Aspose.Words for .NET üç düzeyde Karşılaştırma Ayrıntılılığı sağlar:
 - `Granularity.CharLevel`: Belgeleri karakter düzeyinde karşılaştırır.
@@ -113,9 +115,14 @@ A: Aspose.Words for .NET üç düzeyde Karşılaştırma Ayrıntılılığı sa�
 #### S: Karakter düzeyinde ayrıntılandırma ile karşılaştırma sonuçlarını nasıl yorumlayabilirim?
 
 A: Karakter düzeyinde ayrıntılandırma ile karşılaştırılan belgelerdeki her karakter farklılıklar açısından analiz edilir. Karşılaştırma sonuçları, eklemeler, silmeler ve değişiklikler dahil olmak üzere bireysel karakter düzeyindeki değişiklikleri gösterecektir.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

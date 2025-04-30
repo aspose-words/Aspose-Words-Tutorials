@@ -1,14 +1,16 @@
 ---
-title: प्रारूप 1Bpp अनुक्रमित
-linktitle: प्रारूप 1Bpp अनुक्रमित
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: जानें कि Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ को 1Bpp अनुक्रमित छवि में कैसे परिवर्तित करें। आसान रूपांतरण के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/programming-with-imagesaveoptions/format-1bpp-indexed/
+"description": "जानें कि Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ को 1Bpp अनुक्रमित छवि में कैसे परिवर्तित करें। आसान रूपांतरण के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "प्रारूप 1Bpp अनुक्रमित"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "प्रारूप 1Bpp अनुक्रमित"
+"url": "/hi/net/programming-with-imagesaveoptions/format-1bpp-indexed/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # प्रारूप 1Bpp अनुक्रमित
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-imagesaveoptions/format-1bpp-indexed/
 
 इससे पहले कि हम अपने हाथ गंदे करें, कुछ चीजें हैं जिन्हें आपको तैयार रखना होगा:
 
--  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास लाइब्रेरी स्थापित है। आप कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+- .NET के लिए Aspose.Words: सुनिश्चित करें कि आपके पास लाइब्रेरी स्थापित है। आप कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 - .NET विकास वातावरण: विजुअल स्टूडियो एक अच्छा विकल्प है, लेकिन आप अपनी सुविधानुसार किसी भी वातावरण का उपयोग कर सकते हैं।
 - C# का बुनियादी ज्ञान: चिंता न करें, हम इसे सरल रखेंगे, लेकिन C# से थोड़ी परिचितता सहायक होगी।
 - एक वर्ड दस्तावेज़: रूपांतरण के लिए एक नमूना वर्ड दस्तावेज़ तैयार रखें।
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## चरण 2: वर्ड दस्तावेज़ लोड करें
 
- अब, Word दस्तावेज़ को Aspose.Words में लोड करें`Document` ऑब्जेक्ट. यह ऑब्जेक्ट आपकी वर्ड फ़ाइल का प्रतिनिधित्व करता है और आपको इसमें बदलाव करने की अनुमति देता है.
+अब, Word दस्तावेज़ को Aspose.Words में लोड करें `Document` ऑब्जेक्ट. यह ऑब्जेक्ट आपकी वर्ड फ़ाइल का प्रतिनिधित्व करता है और आपको इसमें बदलाव करने की अनुमति देता है.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -54,7 +56,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## चरण 3: छवि सहेजने के विकल्प कॉन्फ़िगर करें
 
- इसके बाद, हमें इसे सेट अप करना होगा`ImageSaveOptions`यहीं पर जादू होता है। हम इसे 1Bpp इंडेक्स्ड कलर मोड के साथ PNG फॉर्मेट में इमेज को सेव करने के लिए कॉन्फ़िगर करेंगे।
+इसके बाद, हमें इसे सेट अप करना होगा `ImageSaveOptions`. यहीं पर जादू होता है। हम इसे 1Bpp इंडेक्स्ड कलर मोड के साथ PNG फॉर्मेट में इमेज को सेव करने के लिए कॉन्फ़िगर करेंगे।
 
 ```csharp
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png)
@@ -72,7 +74,7 @@ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png)
 
 ## चरण 4: दस्तावेज़ को छवि के रूप में सहेजें
 
- अंत में, हम दस्तावेज़ को छवि के रूप में सहेजते हैं`Save` की विधि`Document` वस्तु।
+अंत में, हम दस्तावेज़ को छवि के रूप में सहेजते हैं `Save` की विधि `Document` वस्तु।
 
 ```csharp
 doc.Save(dataDir + "WorkingWithImageSaveOptions.Format1BppIndexed.Png", saveOptions);
@@ -88,20 +90,25 @@ doc.Save(dataDir + "WorkingWithImageSaveOptions.Format1BppIndexed.Png", saveOpti
 1Bpp (1 बिट प्रति पिक्सेल) अनुक्रमित छवि एक काले और सफेद छवि प्रारूप है, जहां प्रत्येक पिक्सेल को एक एकल बिट, 0 या 1 द्वारा दर्शाया जाता है। यह प्रारूप अत्यधिक स्थान-कुशल है।
 
 ### क्या मैं एक ही बार में Word दस्तावेज़ के एकाधिक पृष्ठों को परिवर्तित कर सकता हूँ?
- हाँ, आप कर सकते हैं।`PageSet` संपत्ति में`ImageSaveOptions` एकाधिक पृष्ठ या संपूर्ण दस्तावेज़ शामिल करने के लिए.
+हाँ, आप कर सकते हैं। `PageSet` संपत्ति में `ImageSaveOptions` एकाधिक पृष्ठ या संपूर्ण दस्तावेज़ शामिल करने के लिए.
 
 ### क्या मुझे .NET के लिए Aspose.Words का उपयोग करने के लिए लाइसेंस की आवश्यकता है?
- हां, .NET के लिए Aspose.Words को पूर्ण कार्यक्षमता के लिए लाइसेंस की आवश्यकता होती है। आप एक प्राप्त कर सकते हैं[अस्थायी लाइसेंस यहाँ](https://purchase.aspose.com/temporary-license/).
+हां, Aspose.Words for .NET को पूर्ण कार्यक्षमता के लिए लाइसेंस की आवश्यकता है। आप एक प्राप्त कर सकते हैं [अस्थायी लाइसेंस यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### मैं अपने वर्ड दस्तावेज़ को अन्य किन छवि प्रारूपों में परिवर्तित कर सकता हूँ?
- Aspose.Words JPEG, BMP, और TIFF सहित विभिन्न छवि प्रारूपों का समर्थन करता है। बस बदलें`SaveFormat` में`ImageSaveOptions`.
+Aspose.Words JPEG, BMP, और TIFF सहित विभिन्न छवि प्रारूपों का समर्थन करता है। बस बदलें `SaveFormat` में `ImageSaveOptions`.
 
 ### मैं .NET के लिए Aspose.Words पर अधिक दस्तावेज़ कहां पा सकता हूं?
- आप विस्तृत दस्तावेज यहाँ पा सकते हैं[.NET के लिए Aspose.Words दस्तावेज़न पृष्ठ](https://reference.aspose.com/words/net/).
+आप विस्तृत दस्तावेज यहाँ पा सकते हैं [.NET के लिए Aspose.Words दस्तावेज़न पृष्ठ](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Kết quả hiển thị trường
-linktitle: Kết quả hiển thị trường
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách cập nhật và hiển thị kết quả trường trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo để tự động hóa các tác vụ tài liệu.
-weight: 10
-url: /vi/net/working-with-fields/field-display-results/
+"description": "Tìm hiểu cách cập nhật và hiển thị kết quả trường trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo để tự động hóa các tác vụ tài liệu."
+"linktitle": "Kết quả hiển thị trường"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Kết quả hiển thị trường"
+"url": "/vi/net/working-with-fields/field-display-results/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kết quả hiển thị trường
@@ -21,7 +23,7 @@ Nếu bạn đã từng làm việc với các tài liệu Microsoft Word, bạn
 
 Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn đã thiết lập mọi thứ:
 
-1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ[Trang web Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ [Trang web Aspose](https://releases.aspose.com/words/net/).
 
 2. Visual Studio: Bạn sẽ cần một IDE như Visual Studio để viết và chạy mã .NET.
 
@@ -53,7 +55,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document document = new Document(dataDir + "Miscellaneous fields.docx");
 ```
 
- Trong bước này, thay thế`"YOUR DOCUMENTS DIRECTORY"` với đường dẫn nơi tài liệu của bạn được lưu trữ.`Document` lớp được sử dụng để tải tệp Word vào bộ nhớ.
+Trong bước này, thay thế `"YOUR DOCUMENTS DIRECTORY"` với đường dẫn nơi tài liệu của bạn được lưu trữ. `Document` lớp được sử dụng để tải tệp Word vào bộ nhớ.
 
 ## Bước 2: Cập nhật các trường
 
@@ -62,11 +64,11 @@ Các trường trong tài liệu Word có thể là động, nghĩa là chúng k
 ### Cập nhật các trường
 
 ```csharp
-//Cập nhật các trường.
+// Cập nhật các trường.
 document.UpdateFields();
 ```
 
- Các`UpdateFields` phương pháp lặp qua tất cả các trường trong tài liệu và cập nhật chúng bằng dữ liệu mới nhất. Bước này rất quan trọng nếu các trường của bạn phụ thuộc vào nội dung động như ngày tháng hoặc phép tính.
+Các `UpdateFields` phương pháp lặp qua tất cả các trường trong tài liệu và cập nhật chúng bằng dữ liệu mới nhất. Bước này rất quan trọng nếu các trường của bạn phụ thuộc vào nội dung động như ngày tháng hoặc phép tính.
 
 ## Bước 3: Hiển thị kết quả trường
 
@@ -82,7 +84,7 @@ foreach (Field field in document.Range.Fields)
 }
 ```
 
- Các`DisplayResult` tài sản của`Field` lớp trả về giá trị được định dạng của trường.`foreach` vòng lặp sẽ duyệt qua tất cả các trường trong tài liệu và in ra kết quả của chúng.
+Các `DisplayResult` tài sản của `Field` lớp trả về giá trị được định dạng của trường. `foreach` vòng lặp sẽ duyệt qua tất cả các trường trong tài liệu và in ra kết quả của chúng.
 
 ## Phần kết luận
 
@@ -94,19 +96,24 @@ Cập nhật và hiển thị kết quả trường trong tài liệu Word bằn
 Bạn có thể cập nhật nhiều loại trường khác nhau, bao gồm trường ngày tháng, thuộc tính tài liệu và trường công thức.
 
 ### Tôi có cần lưu tài liệu sau khi cập nhật các trường không?  
- Không, gọi`UpdateFields` không tự động lưu tài liệu. Sử dụng`Save` phương pháp để lưu mọi thay đổi.
+Không, gọi `UpdateFields` không tự động lưu tài liệu. Sử dụng `Save` phương pháp để lưu mọi thay đổi.
 
 ### Tôi có thể cập nhật các trường trong một phần cụ thể của tài liệu không?  
- Có, bạn có thể sử dụng`Document.Sections` thuộc tính để truy cập vào các phần cụ thể và cập nhật các trường bên trong chúng.
+Có, bạn có thể sử dụng `Document.Sections` thuộc tính để truy cập vào các phần cụ thể và cập nhật các trường bên trong chúng.
 
 ### Tôi phải xử lý các trường yêu cầu người dùng nhập dữ liệu như thế nào?  
 Các trường yêu cầu người dùng nhập dữ liệu (như trường biểu mẫu) sẽ cần phải được điền thủ công hoặc thông qua mã bổ sung.
 
 ### Có thể hiển thị kết quả thực địa theo định dạng khác không?  
- Các`DisplayResult` thuộc tính cung cấp đầu ra được định dạng. Nếu bạn cần định dạng khác, hãy cân nhắc xử lý bổ sung dựa trên yêu cầu của bạn.
+Các `DisplayResult` thuộc tính cung cấp đầu ra được định dạng. Nếu bạn cần định dạng khác, hãy cân nhắc xử lý bổ sung dựa trên yêu cầu của bạn.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

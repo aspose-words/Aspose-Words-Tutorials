@@ -1,14 +1,16 @@
 ---
-title: Mã được rào chắn
-linktitle: Mã được rào chắn
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thêm mã và chuỗi thông tin được rào chắn vào tài liệu Word bằng Aspose.Words cho .NET. Có kèm hướng dẫn từng bước. Nâng cao kỹ năng định dạng tài liệu của bạn.
-weight: 10
-url: /vi/net/working-with-markdown/fenced-code/
+"description": "Tìm hiểu cách thêm mã và chuỗi thông tin có hàng rào vào tài liệu Word bằng Aspose.Words cho .NET. Có kèm hướng dẫn từng bước. Nâng cao kỹ năng định dạng tài liệu của bạn."
+"linktitle": "Mã được rào chắn"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Mã được rào chắn"
+"url": "/vi/net/working-with-markdown/fenced-code/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mã được rào chắn
@@ -22,7 +24,7 @@ Xin chào, các lập trình viên! Hôm nay, chúng ta sẽ khám phá thế gi
 Trước khi bắt đầu hướng dẫn, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
 - Kiến thức cơ bản về C#: Hiểu biết chung về C# sẽ giúp bạn nắm bắt các khái niệm một cách nhanh chóng.
--  Aspose.Words for .NET: Bạn cần cài đặt Aspose.Words for .NET. Nếu bạn chưa có, hãy tải về[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Bạn cần cài đặt Aspose.Words for .NET. Nếu bạn chưa có, hãy tải về [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Visual Studio hoặc bất kỳ IDE C# nào khác mà bạn cảm thấy thoải mái.
 
 ## Nhập không gian tên
@@ -108,16 +110,21 @@ Aspose.Words for .NET là một thư viện mạnh mẽ cho phép các nhà phá
 Aspose.Words chủ yếu hỗ trợ các ngôn ngữ .NET, nhưng cũng có phiên bản dành cho Java, Python và các ngôn ngữ khác.
 
 ### Aspose.Words có miễn phí sử dụng không?
- Aspose.Words là một sản phẩm thương mại, nhưng bạn có thể tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/)để khám phá các tính năng của nó.
+Aspose.Words là một sản phẩm thương mại, nhưng bạn có thể tải xuống bản dùng thử miễn phí [đây](https://releases.aspose.com/) để khám phá các tính năng của nó.
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Words như thế nào?
- Bạn có thể nhận được sự hỗ trợ từ cộng đồng và nhà phát triển Aspose[đây](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ cộng đồng và nhà phát triển Aspose [đây](https://forum.aspose.com/c/words/8).
 
 ### Aspose.Words còn cung cấp những tính năng nào khác?
 Aspose.Words cung cấp nhiều tính năng bao gồm chuyển đổi tài liệu, tạo tài liệu theo mẫu, báo cáo và nhiều tính năng khác.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

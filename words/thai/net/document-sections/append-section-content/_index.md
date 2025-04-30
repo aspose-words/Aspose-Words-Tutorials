@@ -1,58 +1,66 @@
 ---
-title: เพิ่มและเตรียมเนื้อหาในเอกสาร Word โดยใช้ Aspose.Words
-weight: 7700
-limit: 
-description: เรียนรู้วิธีการเติมและเตรียมการเติมเนื้อหาระหว่างส่วนในเอกสาร Word โดยใช้ Aspose.Words สําหรับ .NET. คู่มือขั้นตอน โดยมีตัวอย่างโค้ดชัดเจน
-keywords: [Aspose.Words for .NET, append content, prepend content, Word document sections, manipulate sections, .NET Word library]
-url: /th/net/document-sections/append-section-content/
+"description": "เรียนรู้วิธีการผนวกและเพิ่มเนื้อหาระหว่างส่วนต่างๆ ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดที่ชัดเจน"
+"title": "การผนวกและเพิ่มเนื้อหาในเอกสาร Word โดยใช้ Aspose.Words"
+"url": "/th/net/document-sections/append-section-content/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# เพิ่มและเตรียมเนื้อหาในเอกสาร Word
+# การผนวกและเพิ่มเนื้อหาในเอกสาร Word
 
-Aspose.Words สําหรับ .NET เป็นห้องสมุดที่มีความแรงสําหรับการสร้าง การ thao tác และแปลงเอกสาร Word ในแอปพลิเคชั่น .NET ตัวอย่างนี้แสดงให้เห็นวิธีการเติมและเตรียมการเติมเนื้อหาจากส่วนหนึ่งไปยังอีกส่วนหนึ่งในเอกสาร Word โดยการใช้ API ง่ายและสับสน สามารถ thao tácส่วนต่างๆ การรวมเนื้อหา และดําเนินงานการแก้ไขเอกสารที่สูงสุดได้อย่างเรียบร้อย ไม่ว่าคุณกําลังสร้างกระบวนการทํางานอัตโนมัติ หรือผู้อัดเอกสารที่กําหนดเอง Aspose.Words ทําให้กระบวนการพัฒนาของคุณง่ายขึ้น  
+Aspose.Words สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพสำหรับการสร้าง จัดการ และแปลงเอกสาร Word ในแอปพลิเคชัน .NET ตัวอย่างนี้แสดงวิธีการผนวกและเพิ่มเนื้อหาจากส่วนหนึ่งไปยังอีกส่วนหนึ่งในเอกสาร Word โดยใช้ API ที่เรียบง่ายและใช้งานง่าย คุณสามารถจัดการส่วนต่างๆ รวมเนื้อหา และดำเนินการแก้ไขเอกสารขั้นสูงได้อย่างราบรื่น ไม่ว่าคุณจะกำลังสร้างเวิร์กโฟลว์อัตโนมัติหรือตัวแก้ไขเอกสารแบบกำหนดเอง Aspose.Words จะทำให้กระบวนการพัฒนาของคุณง่ายขึ้น  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/document-sections/append-section-content" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## คําแนะนําการติดตั้ง  
 
-เพื่อใช้ Aspose.Words สําหรับ .NET ติดตามขั้นตอนนี้  
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## คำแนะนำในการติดตั้ง  
+
+ในการใช้ Aspose.Words สำหรับ .NET ให้ทำตามขั้นตอนเหล่านี้:  
 
 1. ดาวน์โหลด Aspose.Words:  
-   * ไปเยี่ยม [Aspose.Words สําหรับหน้าดาวน์โหลด .NET](https://releases.aspose.com/words/net/)เพื่อให้ได้ฉบับล่าสุด  
+   - เยี่ยมชม [หน้าดาวน์โหลด Aspose.Words สำหรับ .NET](https://releases.aspose.com/words/net/) เพื่อรับเวอร์ชันล่าสุด  
 
-2. โครงการผ่าน NuGet Package Manager:  
-   * เปิดโครงการ .NET ของคุณใน Visual Studio  
-   * ไปยังเมนูเครื่องมือ > ผู้จัดการแพ็คเกจ NuGet > การจัดการแพ็คเกจ NuGet สําหรับ Solution  
-   * ค้นหา "Aspose.Words" ใน NuGet Package Manager  
-   * เลือกแพ็คเกจ แล้วคลิกติดตั้ง  
+2. ติดตั้งผ่านตัวจัดการแพ็กเกจ NuGet:  
+   - เปิดโครงการ .NET ของคุณใน Visual Studio  
+   - ไปที่เครื่องมือ > ตัวจัดการแพ็กเกจ NuGet > จัดการแพ็กเกจ NuGet สำหรับเมนูโซลูชัน  
+   - ค้นหา "Aspose.Words" ในตัวจัดการแพ็กเกจ NuGet  
+   - เลือกแพ็กเกจและคลิกติดตั้ง  
 
-3. รวมสถานที่ชื่อที่ต้องการ  
-   - Add the necessary `using` directives to your C# file:  
+3. รวมเนมสเปซที่จำเป็น:  
+   - เพิ่มสิ่งที่จำเป็น `using` คำสั่งไปยังไฟล์ C# ของคุณ:  
      ```csharp  
      using Aspose.Words;  
      using Aspose.Words.Saving;  
      ```  
 
 4. เพิ่มใบอนุญาต:  
-   * หากคุณได้ซื้อใบอนุญาต ใช้คําว่านี้  
+   - หากคุณซื้อใบอนุญาตแล้ว ให้ใช้โค้ดตัวอย่างต่อไปนี้:  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("Aspose.Words.lic");  
      ```  
-   * สําหรับการประเมินหรือทดสอบ คุณสามารถขอ [เอกสารอัตราการ](https://purchase.aspose.com/temporary-license/). .  
+   - สำหรับการประเมินหรือการทดสอบ คุณสามารถร้องขอได้ [ใบอนุญาตชั่วคราวฟรี](https://purchase-aspose.com/temporary-license/).  
 
 
-## ดูอีกด้วย
-[Aspose.Word สําหรับเอกสาร .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word สําหรับ .NET References](https://reference.aspose.com/words/net/)
+## ดูเพิ่มเติม
+[Aspose.Word สำหรับเอกสาร .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word สำหรับการอ้างอิง .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

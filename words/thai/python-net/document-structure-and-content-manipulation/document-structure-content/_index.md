@@ -1,14 +1,16 @@
 ---
-title: การจัดการโครงสร้างและเนื้อหาในเอกสาร Word
-linktitle: การจัดการโครงสร้างและเนื้อหาในเอกสาร Word
-second_title: API การจัดการเอกสาร Aspose.Words Python
-description: เรียนรู้วิธีจัดการเอกสาร Word อย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนนี้ครอบคลุมถึงโครงสร้างเอกสาร การจัดการข้อความ การจัดรูปแบบ รูปภาพ ตาราง และอื่นๆ อีกมากมาย
-weight: 10
-url: /th/python-net/document-structure-and-content-manipulation/document-structure-content/
+"description": "เรียนรู้วิธีจัดการเอกสาร Word อย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนนี้ครอบคลุมถึงโครงสร้างเอกสาร การจัดการข้อความ การจัดรูปแบบ รูปภาพ ตาราง และอื่นๆ อีกมากมาย"
+"linktitle": "การจัดการโครงสร้างและเนื้อหาในเอกสาร Word"
+"second_title": "API การจัดการเอกสาร Aspose.Words Python"
+"title": "การจัดการโครงสร้างและเนื้อหาในเอกสาร Word"
+"url": "/th/python-net/document-structure-and-content-manipulation/document-structure-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การจัดการโครงสร้างและเนื้อหาในเอกสาร Word
@@ -35,10 +37,10 @@ pip install aspose-words
 ```python
 from aspose.words import Document
 
-# Load an existing document
+# โหลดเอกสารที่มีอยู่
 doc = Document("existing_document.docx")
 
-# Create a new document
+# สร้างเอกสารใหม่
 new_doc = Document()
 ```
 
@@ -49,7 +51,7 @@ Aspose.Words ช่วยให้คุณสามารถจัดการ�
 ```python
 from aspose.words import Section, Paragraph
 
-# Add a new section
+# เพิ่มส่วนใหม่
 section = doc.sections.add()
 ```
 
@@ -58,7 +60,7 @@ section = doc.sections.add()
 การจัดการข้อความเป็นส่วนพื้นฐานของการจัดการเอกสาร คุณสามารถแทนที่ แทรก หรือลบข้อความภายในเอกสารของคุณได้:
 
 ```python
-# Replace text
+# แทนที่ข้อความ
 text_to_replace = "replace_this"
 replacement_text = "with_this"
 doc.range.replace(text_to_replace, replacement_text, False, False)
@@ -71,13 +73,13 @@ doc.range.replace(text_to_replace, replacement_text, False, False)
 ```python
 from aspose.words import Font, Color
 
-# Apply formatting to text
+# ใช้การจัดรูปแบบกับข้อความ
 font = paragraph.runs[0].font
 font.bold = True
 font.size = 12
 font.color = Color.red
 
-# Align paragraph
+# จัดตำแหน่งย่อหน้า
 paragraph.alignment = ParagraphAlignment.RIGHT
 ```
 
@@ -88,7 +90,7 @@ paragraph.alignment = ParagraphAlignment.RIGHT
 ```python
 from aspose.words import ShapeType
 
-# Insert an image
+# แทรกภาพ
 shape = section.add_shape(ShapeType.IMAGE, left, top, width, height)
 shape.image_data.set_image("image_path.png")
 ```
@@ -100,10 +102,10 @@ shape.image_data.set_image("image_path.png")
 ```python
 from aspose.words import Table, Cell
 
-# Add a table to the document
+# เพิ่มตารางลงในเอกสาร
 table = section.add_table()
 
-# Add rows and cells to the table
+# เพิ่มแถวและเซลล์ลงในตาราง
 row = table.rows.add()
 cell = row.cells.add()
 cell.text = "Cell content"
@@ -116,7 +118,7 @@ cell.text = "Cell content"
 ```python
 from aspose.words import PageSetup
 
-# Set page size and margins
+# ตั้งค่าขนาดหน้าและระยะขอบ
 page_setup = section.page_setup
 page_setup.page_width = 612
 page_setup.page_height = 792
@@ -130,7 +132,7 @@ page_setup.left_margin = 72
 ```python
 from aspose.words import HeaderFooterType
 
-# Add header and footer
+# เพิ่มส่วนหัวและส่วนท้าย
 header = section.headers_footers.add(HeaderFooterType.HEADER_PRIMARY)
 header_paragraph = header.append_paragraph("Header text")
 
@@ -145,10 +147,10 @@ footer_paragraph = footer.append_paragraph("Footer text")
 ```python
 from aspose.words import Hyperlink
 
-# Add a hyperlink
-hyperlink = paragraph.append_hyperlink("https://www.example.com", "คลิกที่นี่")
+# เพิ่มไฮเปอร์ลิงก์
+hyperlink = paragraph.append_hyperlink("https://www.example.com", "Click here")
 
-# Add a bookmark
+# เพิ่มบุ๊คมาร์ค
 bookmark = paragraph.range.bookmarks.add("section1")
 ```
 
@@ -157,10 +159,10 @@ bookmark = paragraph.range.bookmarks.add("section1")
 บันทึกเอกสารของคุณในรูปแบบต่างๆ:
 
 ```python
-# Save the document
+# บันทึกเอกสาร
 doc.save("output_document.docx")
 
-# Export to PDF
+# ส่งออกเป็น PDF
 doc.save("output_document.pdf", SaveFormat.PDF)
 ```
 
@@ -168,7 +170,7 @@ doc.save("output_document.pdf", SaveFormat.PDF)
 
 - รักษาความเป็นระเบียบโค้ดของคุณโดยใช้ฟังก์ชันสำหรับงานการจัดการเอกสารที่แตกต่างกัน
 - ใช้การจัดการข้อยกเว้นเพื่อจัดการข้อผิดพลาดอย่างเหมาะสมระหว่างการประมวลผลเอกสาร
--  ตรวจสอบ[เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/python-net/) สำหรับข้อมูลอ้างอิงและตัวอย่าง API โดยละเอียด
+- ตรวจสอบ [เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/python-net/) สำหรับข้อมูลอ้างอิงและตัวอย่าง API โดยละเอียด
 
 ## บทสรุป
 
@@ -194,7 +196,7 @@ pip install aspose-words
 
 ### ฉันสามารถหาข้อมูลเพิ่มเติมเกี่ยวกับฟีเจอร์ Aspose.Words Python ได้จากที่ใด
 
- สำหรับข้อมูลที่ครอบคลุมเกี่ยวกับคุณลักษณะ Python ของ Aspose.Words โปรดดูที่[เอกสารประกอบ](https://reference.aspose.com/words/python-net/).
+สำหรับข้อมูลที่ครอบคลุมเกี่ยวกับคุณลักษณะ Python ของ Aspose.Words โปรดดูที่ [เอกสารประกอบ](https://reference-aspose.com/words/python-net/).
 
 ### ฉันจะบันทึกเอกสารในรูปแบบ PDF โดยใช้ Aspose.Words ได้อย่างไร
 
@@ -203,9 +205,14 @@ pip install aspose-words
 ```python
 doc.save("output_document.pdf", SaveFormat.PDF)
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

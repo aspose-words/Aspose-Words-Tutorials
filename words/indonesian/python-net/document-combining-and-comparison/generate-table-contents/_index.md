@@ -1,14 +1,16 @@
 ---
-title: Membuat Daftar Isi yang Komprehensif untuk Dokumen Word
-linktitle: Membuat Daftar Isi yang Komprehensif untuk Dokumen Word
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Buat daftar isi yang mudah dibaca dengan Aspose.Words untuk Python. Pelajari cara membuat, menyesuaikan, dan memperbarui struktur dokumen Anda dengan mudah.
-weight: 15
-url: /id/python-net/document-combining-and-comparison/generate-table-contents/
+"description": "Buat daftar isi yang mudah dibaca dengan Aspose.Words untuk Python. Pelajari cara membuat, menyesuaikan, dan memperbarui struktur dokumen Anda dengan mudah."
+"linktitle": "Membuat Daftar Isi yang Komprehensif untuk Dokumen Word"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Membuat Daftar Isi yang Komprehensif untuk Dokumen Word"
+"url": "/id/python-net/document-combining-and-comparison/generate-table-contents/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat Daftar Isi yang Komprehensif untuk Dokumen Word
@@ -20,14 +22,14 @@ Daftar isi memberikan gambaran singkat tentang struktur dokumen, yang memungkink
 
 ## Menyiapkan Lingkungan
 
- Sebelum kita mulai, pastikan Anda telah menginstal Aspose.Words untuk Python. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/python/)Selain itu, pastikan Anda memiliki contoh dokumen Word yang ingin Anda tingkatkan dengan daftar isi.
+Sebelum kita mulai, pastikan Anda telah menginstal Aspose.Words untuk Python. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/python/)Selain itu, pastikan Anda memiliki contoh dokumen Word yang ingin Anda tingkatkan dengan daftar isi.
 
 ## Memuat Dokumen
 
 ```python
 import aspose.words as aw
 
-# Load the document
+# Muat dokumen
 doc = aw.Document("your_document.docx")
 ```
 
@@ -36,12 +38,12 @@ doc = aw.Document("your_document.docx")
 Untuk membuat daftar isi, Anda perlu menentukan judul dan subjudul dalam dokumen Anda. Gunakan gaya paragraf yang sesuai untuk menandai bagian-bagian ini. Misalnya, gunakan "Judul 1" untuk judul utama dan "Judul 2" untuk subjudul.
 
 ```python
-# Define headings and subheadings
+# Tentukan judul dan subjudul
 for para in doc.get_child_nodes(aw.NodeType.PARAGRAPH, True):
     if para.paragraph_format.style_name == "Heading 1":
-        # Add main heading
+        # Tambahkan judul utama
     elif para.paragraph_format.style_name == "Heading 2":
-        # Add subheading
+        # Tambahkan subjudul
 ```
 
 ## Menyesuaikan Daftar Isi
@@ -49,18 +51,18 @@ for para in doc.get_child_nodes(aw.NodeType.PARAGRAPH, True):
 Anda dapat menyesuaikan tampilan daftar isi dengan menyesuaikan font, gaya, dan format. Pastikan untuk menggunakan format yang konsisten di seluruh dokumen Anda agar terlihat lebih menarik.
 
 ```python
-# Customize the appearance of the table of contents
+# Sesuaikan tampilan daftar isi
 for para in toc_body.get_child_nodes(aw.NodeType.PARAGRAPH, False):
     para.paragraph_format.style_name = "TOC Entries"
-```
-" "Bahasa Indonesia"
+" "Bahasa Indonesia"`
+``
 
 ## Menata Daftar Isi
 
 Menata daftar isi melibatkan penentuan gaya paragraf yang tepat untuk judul, entri, dan elemen lainnya.
 
 ```python
-# Define styles for the table of contents
+# Tentukan gaya untuk daftar isi
 toc_title.style.name = "Table of Contents Title"
 doc.styles.add_style("Table of Contents Title", aw.StyleType.PARAGRAPH)
 ```
@@ -70,14 +72,14 @@ doc.styles.add_style("Table of Contents Title", aw.StyleType.PARAGRAPH)
 Untuk menghemat waktu dan memastikan konsistensi, pertimbangkan untuk membuat skrip yang secara otomatis membuat dan memperbarui daftar isi untuk dokumen Anda.
 
 ```python
-# Automation script
+# Skrip otomatisasi
 def generate_table_of_contents(document_path):
-    # Load the document
+    # Muat dokumen
     doc = aw.Document(document_path)
 
-    # ... (Rest of the code)
+    # ... (Sisa kode)
 
-    # Update the table of contents
+    # Perbarui daftar isi
     doc.update_fields()
     doc.save(document_path)
 ```
@@ -103,9 +105,14 @@ Ya, Anda dapat membuat daftar isi untuk dokumen yang sudah ada. Cukup muat dokum
 ### Bagaimana cara menghapus daftar isi dari dokumen saya?
 
 Jika Anda memutuskan untuk menghapus daftar isi, cukup hapus bagian yang memuat daftar isi tersebut. Jangan lupa untuk memperbarui nomor halaman yang tersisa agar sesuai dengan perubahan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

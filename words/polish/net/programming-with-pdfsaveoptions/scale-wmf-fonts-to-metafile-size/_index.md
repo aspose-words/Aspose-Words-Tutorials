@@ -1,14 +1,16 @@
 ---
-title: Zmniejsz rozmiar pliku PDF za pomocą funkcji Skaluj czcionki WMF do rozmiaru metapliku
-linktitle: Zmniejsz rozmiar pliku PDF za pomocą funkcji Skaluj czcionki WMF do rozmiaru metapliku
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Przewodnik krok po kroku pokazujący, jak zmniejszyć rozmiar pliku PDF, skalując czcionki WMF do rozmiaru metapliku podczas konwersji do pliku PDF za pomocą Aspose.Words dla platformy .NET.
-weight: 10
-url: /pl/net/programming-with-pdfsaveoptions/scale-wmf-fonts-to-metafile-size/
+"description": "Przewodnik krok po kroku pokazujący, jak zmniejszyć rozmiar pliku PDF, skalując czcionki WMF do rozmiaru metapliku podczas konwersji do pliku PDF za pomocą Aspose.Words dla platformy .NET."
+"linktitle": "Zmniejsz rozmiar pliku PDF za pomocą funkcji Skaluj czcionki WMF do rozmiaru metapliku"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zmniejsz rozmiar pliku PDF za pomocą funkcji Skaluj czcionki WMF do rozmiaru metapliku"
+"url": "/pl/net/programming-with-pdfsaveoptions/scale-wmf-fonts-to-metafile-size/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zmniejsz rozmiar pliku PDF za pomocą funkcji Skaluj czcionki WMF do rozmiaru metapliku
@@ -21,9 +23,9 @@ Podczas pracy z plikami PDF, zwłaszcza tymi generowanymi z dokumentów Word zaw
 
 Zanim przejdziesz do dalszych kroków, upewnij się, że masz następujące rzeczy:
 
-1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Jeśli nie, możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Jeśli nie, możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: W tym samouczku przyjęto założenie, że masz skonfigurowane środowisko programistyczne .NET (np. Visual Studio), w którym możesz pisać i wykonywać kod C#.
-3. Podstawowa znajomość programowania .NET: Znajomość podstawowych koncepcji programowania .NET i składni języka C# będzie pomocna.
+3. Podstawowa znajomość programowania .NET: Znajomość podstawowych pojęć programowania .NET i składni języka C# będzie pomocna.
 4. Dokument Word z grafiką WMF: Będziesz potrzebować dokumentu Word zawierającego grafikę WMF. Możesz użyć własnego dokumentu lub utworzyć go do testów.
 
 ## Importuj przestrzenie nazw
@@ -37,7 +39,7 @@ using Aspose.Words.Saving;
 
 ## Krok 1: Załaduj dokument Word
 
- Aby rozpocząć, załaduj dokument Word zawierający grafikę WMF. Można to zrobić za pomocą`Document` klasa z Aspose.Words.
+Aby rozpocząć, załaduj dokument Word zawierający grafikę WMF. Można to zrobić za pomocą `Document` klasa z Aspose.Words.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -47,11 +49,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "WMF with text.docx");
 ```
 
- Tutaj,`dataDir` jest symbolem zastępczym dla ścieżki katalogu dokumentów. Tworzymy wystąpienie`Document` klasa poprzez przekazanie ścieżki do pliku Word. To ładuje dokument do pamięci, gotowy do dalszego przetwarzania.
+Tutaj, `dataDir` jest symbolem zastępczym dla ścieżki katalogu dokumentów. Tworzymy wystąpienie `Document` klasa poprzez przekazanie ścieżki do pliku Word. To ładuje dokument do pamięci, gotowy do dalszego przetwarzania.
 
 ## Krok 2: Skonfiguruj opcje renderowania metaplików
 
- Następnie musisz skonfigurować opcje renderowania metapliku. Dokładniej, ustaw`ScaleWmfFontsToMetafileSize`nieruchomość do`false`. Kontroluje, czy czcionki WMF są skalowane w celu dopasowania do rozmiaru metapliku.
+Następnie musisz skonfigurować opcje renderowania metapliku. Dokładniej, ustaw `ScaleWmfFontsToMetafileSize` nieruchomość do `false`. Kontroluje, czy czcionki WMF są skalowane w celu dopasowania do rozmiaru metapliku.
 
 ```csharp
 // Utwórz nową instancję MetafileRenderingOptions
@@ -61,7 +63,7 @@ MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions
 };
 ```
 
- Ten`MetafileRenderingOptions` Klasa udostępnia opcje dotyczące sposobu renderowania metaplików (takich jak WMF). Poprzez ustawienie`ScaleWmfFontsToMetafileSize` Do`false`, wydajesz Aspose.Words polecenie, aby nie skalował czcionek zgodnie z rozmiarem metapliku, co może pomóc w zmniejszeniu całkowitego rozmiaru pliku PDF.
+Ten `MetafileRenderingOptions` Klasa udostępnia opcje dotyczące sposobu renderowania metaplików (takich jak WMF). Poprzez ustawienie `ScaleWmfFontsToMetafileSize` Do `false`, wydajesz Aspose.Words polecenie, aby nie skalował czcionek zgodnie z rozmiarem metapliku, co może pomóc w zmniejszeniu całkowitego rozmiaru pliku PDF.
 
 ## Krok 3: Ustaw opcje zapisywania pliku PDF
 
@@ -75,7 +77,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Ten`PdfSaveOptions` Klasa pozwala określić różne ustawienia zapisywania dokumentu jako PDF. Przypisując wcześniej skonfigurowane`MetafileRenderingOptions` do`MetafileRenderingOptions` własność`PdfSaveOptions`, upewniasz się, że dokument jest zapisywany zgodnie z wybranymi przez Ciebie ustawieniami renderowania metapliku.
+Ten `PdfSaveOptions` Klasa pozwala określić różne ustawienia zapisywania dokumentu jako PDF. Przypisując wcześniej skonfigurowane `MetafileRenderingOptions` do `MetafileRenderingOptions` własność `PdfSaveOptions`, upewniasz się, że dokument jest zapisywany zgodnie z wybranymi przez Ciebie ustawieniami renderowania metapliku.
 
 ## Krok 4: Zapisz dokument jako PDF
 
@@ -87,7 +89,7 @@ Na koniec zapisz dokument Word jako PDF, używając skonfigurowanych opcji zapis
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.ScaleWmfFontsToMetafileSize.pdf", saveOptions);
 ```
 
- Na tym etapie`Save` metoda`Document` Klasa służy do eksportowania dokumentu do pliku PDF. Ścieżka, w której zostanie zapisany plik PDF, jest określona wraz z`PdfSaveOptions` które zawierają ustawienia renderowania metapliku.
+Na tym etapie `Save` metoda `Document` Klasa służy do eksportowania dokumentu do pliku PDF. Ścieżka, w której zostanie zapisany plik PDF, jest określona wraz z `PdfSaveOptions` które zawierają ustawienia renderowania metapliku.
 
 ## Wniosek
 
@@ -113,10 +115,15 @@ Tak, tę technikę można zastosować w przypadku dowolnego dokumentu Word zawie
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Words?
 
- Możesz dowiedzieć się więcej o Aspose.Words w[Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) Aby pobrać pliki, uzyskać wersje próbne i uzyskać pomoc, odwiedź stronę[Strona do pobrania Aspose.Words](https://releases.aspose.com/words/net/), [Kup Aspose.Words](https://purchase.aspose.com/buy), [Bezpłatna wersja próbna](https://releases.aspose.com/), [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/) , I[Wsparcie](https://forum.aspose.com/c/words/8).
+Możesz dowiedzieć się więcej o Aspose.Words w [Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/)Aby pobrać pliki, uzyskać wersje próbne i uzyskać pomoc, odwiedź stronę [Strona do pobrania Aspose.Words](https://releases.aspose.com/words/net/), [Kup Aspose.Words](https://purchase.aspose.com/buy), [Bezpłatna wersja próbna](https://releases.aspose.com/), [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/), I [Wsparcie](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

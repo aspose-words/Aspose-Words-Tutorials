@@ -1,14 +1,16 @@
 ---
-title: Конструктор документов Вставить закладку в документ Word
-linktitle: Конструктор документов Вставить закладку в документ Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставлять закладки в документы Word с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства. Идеально подходит для автоматизации документов.
-weight: 10
-url: /ru/net/add-content-using-documentbuilder/document-builder-insert-bookmark/
+"description": "Узнайте, как вставлять закладки в документы Word с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства. Идеально подходит для автоматизации документов."
+"linktitle": "Конструктор документов Вставить закладку в документ Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Конструктор документов Вставить закладку в документ Word"
+"url": "/ru/net/add-content-using-documentbuilder/document-builder-insert-bookmark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Конструктор документов Вставить закладку в документ Word
@@ -21,7 +23,7 @@ url: /ru/net/add-content-using-documentbuilder/document-builder-insert-bookmark/
 
 Прежде чем приступить к написанию кода, давайте убедимся, что у нас есть все необходимое:
 
-1.  Aspose.Words для .NET: Загрузите и установите последнюю версию с[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: Загрузите и установите последнюю версию с [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: убедитесь, что у вас настроена среда IDE, например Visual Studio, для разработки .NET.
 3. Базовые знания C#: некоторое знакомство с C# будет полезным.
 
@@ -57,7 +59,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Здесь,`Document` создает новый экземпляр документа и`DocumentBuilder` предоставляет нам инструменты для добавления контента в документ.
+Здесь, `Document` создает новый экземпляр документа и `DocumentBuilder` предоставляет нам инструменты для добавления контента в документ.
 
 ## Шаг 3: Запуск закладки
 
@@ -67,7 +69,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartBookmark("FineBookmark");
 ```
 
- В этой строке,`StartBookmark` инициирует закладку с именем "FineBookmark". Это имя уникально в пределах документа.
+В этой строке, `StartBookmark` инициирует закладку с именем "FineBookmark". Это имя уникально в пределах документа.
 
 ## Шаг 4: Добавьте содержимое в закладку
 
@@ -77,7 +79,7 @@ builder.StartBookmark("FineBookmark");
 builder.Writeln("This is just a fine bookmark.");
 ```
 
- The`Writeln` метод добавляет в документ новый абзац с указанным текстом.
+The `Writeln` метод добавляет в документ новый абзац с указанным текстом.
 
 ## Шаг 5: Завершите закладку
 
@@ -87,9 +89,9 @@ builder.Writeln("This is just a fine bookmark.");
 builder.EndBookmark("FineBookmark");
 ```
 
- The`EndBookmark` метод завершает закладку, которую мы начали ранее.
+The `EndBookmark` метод завершает закладку, которую мы начали ранее.
 
-## Шаг 6: Сохраните документ
+## Шаг 6: Сохраните документ.
 
 Наконец, сохраним наш документ в указанном каталоге.
 
@@ -112,16 +114,21 @@ doc.Save(dataDir + "AddContentUsingDocumentBuilder.DocumentBuilderInsertBookmark
 Да, вы можете добавить несколько закладок. Просто убедитесь, что у каждой закладки уникальное имя.
 
 ### Как можно перейти к закладке программным способом?
- Вы можете использовать`Document.Range.Bookmarks` коллекция для навигации и управления закладками программным способом.
+Вы можете использовать `Document.Range.Bookmarks` коллекция для навигации и управления закладками программным способом.
 
-### Могу ли я добавить сложный контент в закладку?
+### Могу ли я добавить в закладку сложный контент?
 Конечно! Вы можете добавлять текст, таблицы, изображения или любые другие элементы в закладку.
 
 ### Является ли Aspose.Words для .NET бесплатным для использования?
-Aspose.Words for .NET — это коммерческий продукт, но вы можете загрузить бесплатную пробную версию с сайта[здесь](https://releases.aspose.com/).
+Aspose.Words for .NET — это коммерческий продукт, но вы можете загрузить бесплатную пробную версию с сайта [здесь](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: In các trang tài liệu cụ thể
-linktitle: In các trang tài liệu cụ thể
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách in các trang cụ thể từ tài liệu Word bằng Aspose.Words cho Java. Hướng dẫn từng bước dành cho nhà phát triển Java.
-weight: 13
-url: /vi/java/document-printing/printing-specific-document-pages/
+"description": "Tìm hiểu cách in các trang cụ thể từ tài liệu Word bằng Aspose.Words cho Java. Hướng dẫn từng bước dành cho nhà phát triển Java."
+"linktitle": "In các trang tài liệu cụ thể"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "In các trang tài liệu cụ thể"
+"url": "/vi/java/document-printing/printing-specific-document-pages/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # In các trang tài liệu cụ thể
@@ -61,7 +63,7 @@ public class PrintSpecificPages {
 
 ## Chỉ định các trang để in
 
- Bây giờ, hãy chỉ định những trang bạn muốn in. Bạn có thể sử dụng`PageRange` lớp để xác định phạm vi trang bạn cần. Ví dụ, để in trang 3 đến 5:
+Bây giờ, hãy chỉ định những trang bạn muốn in. Bạn có thể sử dụng `PageRange` lớp để xác định phạm vi trang bạn cần. Ví dụ, để in trang 3 đến 5:
 
 ```java
 PageRange pageRange = new PageRange(3, 5);
@@ -72,7 +74,7 @@ PageRange pageRange = new PageRange(3, 5);
 Với phạm vi trang được xác định, bạn có thể in tài liệu bằng các tính năng in của Aspose.Words. Sau đây là cách bạn có thể in các trang được chỉ định vào máy in:
 
 ```java
-//Tạo đối tượng PrintOptions
+// Tạo đối tượng PrintOptions
 PrintOptions printOptions = new PrintOptions();
 printOptions.setPageRanges(new PageRange[] { pageRange });
 
@@ -88,7 +90,7 @@ Trong hướng dẫn này, chúng ta đã học cách in các trang cụ thể c
 
 ### Làm thế nào để in nhiều trang không liên tiếp từ một tài liệu Word?
 
- Để in nhiều trang không liên tiếp, bạn có thể tạo nhiều trang`PageRange` đối tượng và chỉ định phạm vi trang mong muốn. Sau đó, thêm những`PageRange` đối tượng để`PageRanges` mảng trong`PrintOptions` sự vật.
+Để in nhiều trang không liên tiếp, bạn có thể tạo nhiều trang `PageRange` đối tượng và chỉ định phạm vi trang mong muốn. Sau đó, thêm những `PageRange` đối tượng để `PageRanges` mảng trong `PrintOptions` sự vật.
 
 ### Aspose.Words for Java có tương thích với các định dạng tài liệu khác nhau không?
 
@@ -96,18 +98,23 @@ Có, Aspose.Words for Java hỗ trợ nhiều định dạng tài liệu, bao g�
 
 ### Tôi có thể in các phần cụ thể của tài liệu Word không?
 
- Có, bạn có thể in các phần cụ thể của tài liệu Word bằng cách chỉ định các trang trong các phần đó bằng cách sử dụng`PageRange`lớp. Điều này giúp bạn kiểm soát chi tiết nội dung được in.
+Có, bạn có thể in các phần cụ thể của tài liệu Word bằng cách chỉ định các trang trong các phần đó bằng cách sử dụng `PageRange` lớp. Điều này giúp bạn kiểm soát chi tiết nội dung được in.
 
 ### Làm thế nào tôi có thể thiết lập các tùy chọn in bổ sung, chẳng hạn như hướng trang và kích thước giấy?
 
- Bạn có thể thiết lập các tùy chọn in bổ sung, chẳng hạn như hướng trang và kích thước giấy, bằng cách cấu hình`PrintOptions` đối tượng trước khi in tài liệu. Sử dụng các phương pháp như`setOrientation` Và`setPaperSize` để tùy chỉnh cài đặt in.
+Bạn có thể thiết lập các tùy chọn in bổ sung, chẳng hạn như hướng trang và kích thước giấy, bằng cách cấu hình `PrintOptions` đối tượng trước khi in tài liệu. Sử dụng các phương pháp như `setOrientation` Và `setPaperSize` để tùy chỉnh cài đặt in.
 
 ### Có phiên bản dùng thử của Aspose.Words cho Java không?
 
 Có, bạn có thể tải xuống phiên bản dùng thử của Aspose.Words for Java từ trang web. Điều này cho phép bạn khám phá các tính năng của thư viện và xem liệu nó có đáp ứng yêu cầu của bạn trước khi mua giấy phép hay không.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Определить формат файла документа
-linktitle: Определить формат файла документа
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как определять форматы файлов документов с помощью Aspose.Words для .NET, с помощью этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-fileformat/detect-file-format/
+"description": "Узнайте, как определять форматы файлов документов с помощью Aspose.Words для .NET, с помощью этого подробного пошагового руководства."
+"linktitle": "Определить формат файла документа"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Определить формат файла документа"
+"url": "/ru/net/programming-with-fileformat/detect-file-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Определить формат файла документа
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-fileformat/detect-file-format/
 
 Прежде чем погрузиться в код, давайте убедимся, что у вас есть все необходимое:
 
--  Aspose.Words для .NET: Вы можете загрузить его с[здесь](https://releases.aspose.com/words/net/) . Убедитесь, что у вас есть действующая лицензия. Если нет, вы можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words для .NET: Вы можете загрузить его с [здесь](https://releases.aspose.com/words/net/). Убедитесь, что у вас есть действующая лицензия. Если нет, вы можете получить [временная лицензия](https://purchase.aspose.com/temporary-license/).
 - Visual Studio: подойдет любая последняя версия.
 - .NET Framework: убедитесь, что у вас установлена правильная версия.
 
@@ -167,21 +169,26 @@ foreach (string fileName in fileList)
 ### Что такое Aspose.Words для .NET?
 Aspose.Words for .NET — мощная библиотека для программной работы с документами Word. Она позволяет разработчикам создавать, изменять и конвертировать документы в различных форматах.
 
-### Может ли Aspose.Words обнаружить зашифрованные документы?
+### Может ли Aspose.Words обнаруживать зашифрованные документы?
 Да, Aspose.Words может определить, зашифрован ли документ, и обрабатывать такие документы соответствующим образом.
 
 ### Какие форматы может обнаружить Aspose.Words?
 Aspose.Words может распознавать широкий спектр форматов, включая DOC, DOCX, RTF, HTML, MHTML, ODT и многие другие.
 
 ### Как получить временную лицензию для Aspose.Words?
- Вы можете получить временную лицензию в[Покупка Aspose](https://purchase.aspose.com/temporary-license/) страница.
+Вы можете получить временную лицензию в [Покупка Aspose](https://purchase.aspose.com/temporary-license/) страница.
 
 ### Где я могу найти документацию по Aspose.Words?
- Документацию по Aspose.Words можно найти здесь[здесь](https://reference.aspose.com/words/net/).
+Документацию по Aspose.Words можно найти здесь [здесь](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

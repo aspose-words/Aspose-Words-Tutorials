@@ -1,59 +1,61 @@
 ---
-title: Oplocený kód
-linktitle: Oplocený kód
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se přidávat chráněný kód a informační řetězce do dokumentů aplikace Word pomocí Aspose.Words for .NET. Včetně průvodce krok za krokem. Vylepšete své dovednosti v oblasti formátování dokumentů.
-weight: 10
-url: /cs/net/working-with-markdown/fenced-code/
+"description": "Naučte se, jak přidávat chráněný kód a informační řetězce do dokumentů Wordu pomocí Aspose.Words pro .NET. Součástí je podrobný návod. Zlepšete si své dovednosti formátování dokumentů."
+"linktitle": "Oplocený kód"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Oplocený kód"
+"url": "/cs/net/working-with-markdown/fenced-code/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Oplocený kód
 
 ## Zavedení
 
-Ahoj, kolego kodéru! Dnes se ponoříme do světa Aspose.Words for .NET, abychom ovládli umění přidávání chráněného kódu a chráněného kódu s informačními řetězci do vašich dokumentů aplikace Word. Představte si svůj dokument Word jako plátno a vy, umělec, se chystáte malovat s přesností ostříleného vývojáře. S Aspose.Words získáte možnost programově vylepšit své dokumenty pomocí strukturovaných, formátovaných bloků kódu, díky kterým budou vaše technické dokumenty zářit profesionalitou a jasností.
+Ahoj, kolegové programátoři! Dnes se ponoříme do světa Aspose.Words pro .NET, abychom zvládli umění přidávání chráněného kódu a chráněného kódu s informačními řetězci do vašich dokumentů Word. Představte si svůj dokument Word jako plátno a vy, umělec, se chystáte malovat s přesností zkušeného vývojáře. S Aspose.Words získáte možnost programově vylepšit své dokumenty strukturovanými, formátovanými bloky kódu, díky čemuž vaše technické dokumenty vyniknou profesionalitou a jasností.
 
 ## Předpoklady
 
-Než se pustíme do výukového programu, ujistěte se, že máte vše, co potřebujete:
+Než se pustíme do tutoriálu, ujistěme se, že máte vše, co potřebujete:
 
-- Základní znalost C#: Obecná znalost C# vám pomůže rychle pochopit koncepty.
--  Aspose.Words for .NET: Musíte mít nainstalovanou aplikaci Aspose.Words for .NET. Pokud ho ještě nemáte, vezměte si ho[zde](https://releases.aspose.com/words/net/).
-- Vývojové prostředí: Visual Studio nebo jakékoli jiné C# IDE, které vám vyhovuje.
+- Základní znalost jazyka C#: Obecná znalost jazyka C# vám pomůže rychle pochopit dané koncepty.
+- Aspose.Words pro .NET: Musíte mít nainstalovaný Aspose.Words pro .NET. Pokud ho ještě nemáte, stáhněte si ho. [zde](https://releases.aspose.com/words/net/).
+- Vývojové prostředí: Visual Studio nebo jakékoli jiné C# IDE, se kterým jste zvyklí.
 
 ## Importovat jmenné prostory
 
-Nejprve musíte importovat potřebné jmenné prostory. Je to jako shromáždit všechny své nástroje před zahájením projektu.
+Nejdříve je potřeba importovat potřebné jmenné prostory. Je to jako byste si před zahájením projektu shromáždili všechny nástroje.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Style;
 ```
 
-Nyní si proces rozeberme krok za krokem.
+Nyní si celý proces rozebereme krok za krokem.
 
-## Krok 1: Nastavení vašeho projektu
+## Krok 1: Nastavení projektu
 
-Než budeme moci vytvořit krásné, formátované bloky kódu v našem dokumentu aplikace Word, musíme nastavit nový projekt ve Visual Studiu.
+Než budeme moci v dokumentu Word vytvářet krásné, formátované bloky kódu, musíme si v aplikaci Visual Studio nastavit nový projekt.
 
-1. Vytvoření nového projektu: Otevřete Visual Studio a vytvořte novou aplikaci C# Console.
-2. Přidat Aspose.Words Reference: Nainstalujte Aspose.Words přes NuGet Package Manager. Můžete to udělat tak, že v Průzkumníku řešení kliknete pravým tlačítkem na svůj projekt, vyberete „Spravovat balíčky NuGet“ a vyhledáte Aspose.Words.
+1. Vytvoření nového projektu: Otevřete Visual Studio a vytvořte novou konzolovou aplikaci C#.
+2. Přidání Aspose.Words – reference: Nainstalujte Aspose.Words pomocí Správce balíčků NuGet. To provedete kliknutím pravým tlačítkem myši na projekt v Průzkumníku řešení, výběrem možnosti „Spravovat balíčky NuGet“ a vyhledáním Aspose.Words.
 
-## Krok 2: Inicializujte DocumentBuilder
+## Krok 2: Inicializace DocumentBuilderu
 
-Nyní, když je váš projekt nastaven, pojďme inicializovat DocumentBuilder, který bude naším hlavním nástrojem pro přidávání obsahu do dokumentu Word.
+Nyní, když je váš projekt nastavený, inicializujeme DocumentBuilder, což bude náš hlavní nástroj pro přidávání obsahu do dokumentu Wordu.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 ```
 
-## Krok 3: Vytvořte styl pro chráněný kód
+## Krok 3: Vytvořte styl pro ohraničený kód
 
-Chcete-li přidat chráněný kód, musíme nejprve vytvořit styl. Berte to jako nastavení tématu pro náš blok kódu.
+Abychom mohli přidat chráněný kód, musíme nejprve vytvořit styl. Představte si to jako nastavení motivu pro náš blok kódu.
 
 ```csharp
 Style fencedCode = builder.Document.Styles.Add(StyleType.Paragraph, "FencedCode");
@@ -64,18 +66,18 @@ fencedCode.ParagraphFormat.RightIndent = 20;
 fencedCode.ParagraphFormat.Shading.BackgroundPatternColor = Color.LightGray;
 ```
 
-## Krok 4: Přidejte chráněný kód do dokumentu
+## Krok 4: Přidání chráněného kódu do dokumentu
 
-Když je náš styl připraven, můžeme nyní do dokumentu přidat chráněný blok kódu.
+S připraveným stylem můžeme do dokumentu přidat ohraničený blok kódu.
 
 ```csharp
 builder.ParagraphFormat.Style = fencedCode;
 builder.Writeln("This is a fenced code block");
 ```
 
-## Krok 5: Vytvořte styl pro chráněný kód s informačním řetězcem
+## Krok 5: Vytvořte styl pro ohraničený kód s informačním řetězcem
 
-Někdy můžete chtít zadat programovací jazyk nebo přidat další informace do bloku kódu. Vytvořme si k tomu styl.
+Někdy můžete chtít specifikovat programovací jazyk nebo přidat do bloku kódu další informace. Vytvořme pro to styl.
 
 ```csharp
 Style fencedCodeWithInfo = builder.Document.Styles.Add(StyleType.Paragraph, "FencedCode.C#");
@@ -86,9 +88,9 @@ fencedCodeWithInfo.ParagraphFormat.RightIndent = 20;
 fencedCodeWithInfo.ParagraphFormat.Shading.BackgroundPatternColor = Color.LightGray;
 ```
 
-## Krok 6: Přidejte do dokumentu chráněný kód s informačním řetězcem
+## Krok 6: Přidání chráněného kódu s informačním řetězcem do dokumentu
 
-Nyní přidejte oplocený blok kódu s informačním řetězcem, který označí, že se jedná o kód C#.
+Nyní přidejme ohraničený blok kódu s informačním řetězcem, který bude označovat, že se jedná o kód C#.
 
 ```csharp
 builder.ParagraphFormat.Style = fencedCodeWithInfo;
@@ -97,27 +99,32 @@ builder.Writeln("This is a fenced code block with info string - C#");
 
 ## Závěr
 
-Gratuluji! Právě jste přidali bloky chráněného kódu a chráněný kód s informačními řetězci do dokumentů aplikace Word pomocí Aspose.Words for .NET. Toto je jen špička ledovce. S Aspose.Words můžete automatizovat a vylepšit zpracování dokumentů do nových výšin. Pokračujte ve zkoumání a šťastné kódování!
+Gratulujeme! Právě jste do svých dokumentů Wordu přidali ohraničené bloky kódu a ohraničený kód s informačními řetězci pomocí Aspose.Words pro .NET. Toto je jen špička ledovce. S Aspose.Words můžete automatizovat a vylepšit zpracování dokumentů na novou úroveň. Pokračujte v objevování a přejeme vám příjemné programování!
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
-Aspose.Words for .NET je výkonná knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět dokumenty Wordu programově.
+### Co je Aspose.Words pro .NET?
+Aspose.Words pro .NET je výkonná knihovna, která umožňuje vývojářům programově vytvářet, manipulovat a převádět dokumenty Wordu.
 
 ### Mohu používat Aspose.Words s jinými programovacími jazyky?
-Aspose.Words primárně podporuje jazyky .NET, ale jsou k dispozici verze pro Javu, Python a další jazyky.
+Aspose.Words primárně podporuje jazyky .NET, ale existují verze pro Javu, Python a další jazyky.
 
 ### Je Aspose.Words zdarma k použití?
- Aspose.Words je komerční produkt, ale můžete si stáhnout bezplatnou zkušební verzi[zde](https://releases.aspose.com/)prozkoumat jeho vlastnosti.
+Aspose.Words je komerční produkt, ale můžete si stáhnout bezplatnou zkušební verzi. [zde](https://releases.aspose.com/) prozkoumat jeho vlastnosti.
 
 ### Jak mohu získat podporu pro Aspose.Words?
- Můžete získat podporu od komunity Aspose a vývojářů[zde](https://forum.aspose.com/c/words/8).
+Podporu můžete získat od komunity a vývojářů Aspose [zde](https://forum.aspose.com/c/words/8).
 
-### Jaké další funkce Aspose.Words nabízí?
-Aspose.Words nabízí širokou škálu funkcí včetně převodu dokumentů, generování dokumentů na základě šablon, vytváření sestav a mnoho dalšího.
+### Jaké další funkce nabízí Aspose.Words?
+Aspose.Words nabízí širokou škálu funkcí, včetně konverze dokumentů, generování dokumentů na základě šablon, vytváření reportů a mnoho dalšího.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: การบันทึกเอกสารเป็นไฟล์ข้อความใน Aspose.Words สำหรับ Java
-linktitle: การบันทึกเอกสารเป็นไฟล์ข้อความ
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีบันทึกเอกสารเป็นไฟล์ข้อความใน Aspose.Words สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราพร้อมตัวอย่างโค้ด Java
-weight: 24
-url: /th/java/document-loading-and-saving/saving-documents-as-text-files/
+"description": "เรียนรู้วิธีบันทึกเอกสารเป็นไฟล์ข้อความใน Aspose.Words สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราพร้อมตัวอย่างโค้ด Java"
+"linktitle": "การบันทึกเอกสารเป็นไฟล์ข้อความ"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การบันทึกเอกสารเป็นไฟล์ข้อความใน Aspose.Words สำหรับ Java"
+"url": "/th/java/document-loading-and-saving/saving-documents-as-text-files/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การบันทึกเอกสารเป็นไฟล์ข้อความใน Aspose.Words สำหรับ Java
@@ -23,7 +25,7 @@ url: /th/java/document-loading-and-saving/saving-documents-as-text-files/
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - Java Development Kit (JDK) ติดตั้งอยู่บนระบบของคุณ
--  ไลบรารี Aspose.Words สำหรับ Java รวมอยู่ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/java/).
+- ไลบรารี Aspose.Words สำหรับ Java รวมอยู่ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/java/).
 - ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
 
 ## ขั้นตอนที่ 1: สร้างเอกสาร
@@ -53,7 +55,7 @@ saveOptions.setAddBidiMarks(true);
 doc.save("output.txt", saveOptions);
 ```
 
- ในตัวอย่างนี้ เราสร้าง`TxtSaveOptions` วัตถุและตั้งค่า`AddBidiMarks`ทรัพย์สินที่จะ`true` เพื่อรวมเครื่องหมายบิดิลงในผลลัพธ์ข้อความ
+ในตัวอย่างนี้ เราสร้าง `TxtSaveOptions` วัตถุและตั้งค่า `AddBidiMarks` ทรัพย์สินที่จะ `true` เพื่อรวมเครื่องหมายบิดิลงในผลลัพธ์ข้อความ
 
 ### ตัวอย่างที่ 2: การใช้แท็บอักขระสำหรับการเยื้องรายการ
 
@@ -74,7 +76,7 @@ doc.save("output.txt", saveOptions);
 doc.save("output.txt", saveOptions);
 ```
 
- แทนที่`"output.txt"` พร้อมเส้นทางไฟล์ที่ต้องการบันทึกไฟล์ข้อความ
+แทนที่ `"output.txt"` พร้อมเส้นทางไฟล์ที่ต้องการบันทึกไฟล์ข้อความ
 
 ## โค้ดต้นฉบับสมบูรณ์สำหรับการบันทึกเอกสารเป็นไฟล์ข้อความใน Aspose.Words สำหรับ Java
 
@@ -134,7 +136,7 @@ doc.save("output.txt", saveOptions);
 
 ### ฉันจะเพิ่มเครื่องหมายบิดิลงในข้อความเอาท์พุตได้อย่างไร
 
- หากต้องการเพิ่มเครื่องหมายบิดิลงในข้อความเอาต์พุต ให้ตั้งค่า`AddBidiMarks` ทรัพย์สินของ`TxtSaveOptions` ถึง`true`. ตัวอย่างเช่น:
+หากต้องการเพิ่มเครื่องหมายบิดิลงในข้อความเอาต์พุต ให้ตั้งค่า `AddBidiMarks` ทรัพย์สินของ `TxtSaveOptions` ถึง `true`. ตัวอย่างเช่น:
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -143,7 +145,7 @@ saveOptions.setAddBidiMarks(true);
 
 ### ฉันสามารถปรับแต่งอักขระการเยื้องรายการได้หรือไม่
 
- ใช่ คุณสามารถปรับแต่งอักขระการเยื้องรายการได้โดยการกำหนดค่า`ListIndentation` ทรัพย์สินของ`TxtSaveOptions`ตัวอย่างเช่น หากต้องการใช้อักขระแท็บสำหรับการเยื้องรายการ คุณสามารถดำเนินการดังต่อไปนี้:
+ใช่ คุณสามารถปรับแต่งอักขระการเยื้องรายการได้โดยการกำหนดค่า `ListIndentation` ทรัพย์สินของ `TxtSaveOptions`ตัวอย่างเช่น หากต้องการใช้อักขระแท็บสำหรับการเยื้องรายการ คุณสามารถดำเนินการดังต่อไปนี้:
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -157,14 +159,19 @@ saveOptions.getListIndentation().setCharacter('\t');
 
 ### ฉันจะเข้าถึงเอกสารและทรัพยากรเพิ่มเติมสำหรับ Aspose.Words สำหรับ Java ได้อย่างไร
 
- คุณสามารถค้นหาเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.Words สำหรับ Java ได้ที่เว็บไซต์เอกสาร Aspose:[เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/).
+คุณสามารถค้นหาเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.Words สำหรับ Java ได้ที่เว็บไซต์เอกสาร Aspose: [เอกสาร Aspose.Words สำหรับ Java](https://reference-aspose.com/words/java/).
 
 ### ฉันสามารถดาวน์โหลด Aspose.Words สำหรับ Java ได้ที่ไหน
 
- คุณสามารถดาวน์โหลดไลบรารี Aspose.Words สำหรับ Java ได้จากเว็บไซต์ Aspose:[ดาวน์โหลด Aspose.Words สำหรับ Java](https://releases.aspose.com/words/java/).
+คุณสามารถดาวน์โหลดไลบรารี Aspose.Words สำหรับ Java ได้จากเว็บไซต์ Aspose: [ดาวน์โหลด Aspose.Words สำหรับ Java](https://releases-aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

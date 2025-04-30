@@ -1,14 +1,16 @@
 ---
-title: แทรกฟิลด์ล่วงหน้าโดยไม่ต้องใช้ตัวสร้างเอกสาร
-linktitle: แทรกฟิลด์ล่วงหน้าโดยไม่ต้องใช้ตัวสร้างเอกสาร
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแทรกฟิลด์ล่วงหน้าโดยไม่ต้องใช้ DocumentBuilder ใน Aspose.Words สำหรับ .NET ปฏิบัติตามคู่มือนี้เพื่อพัฒนาทักษะการประมวลผลเอกสารของคุณ
-weight: 10
-url: /th/net/working-with-fields/insert-advance-field-with-out-document-builder/
+"description": "เรียนรู้วิธีแทรกฟิลด์ล่วงหน้าโดยไม่ต้องใช้ DocumentBuilder ใน Aspose.Words สำหรับ .NET ปฏิบัติตามคู่มือนี้เพื่อพัฒนาทักษะการประมวลผลเอกสารของคุณ"
+"linktitle": "แทรกฟิลด์ล่วงหน้าโดยไม่ต้องใช้ตัวสร้างเอกสาร"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แทรกฟิลด์ล่วงหน้าโดยไม่ต้องใช้ตัวสร้างเอกสาร"
+"url": "/th/net/working-with-fields/insert-advance-field-with-out-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทรกฟิลด์ล่วงหน้าโดยไม่ต้องใช้ตัวสร้างเอกสาร
@@ -21,10 +23,10 @@ url: /th/net/working-with-fields/insert-advance-field-with-out-document-builder/
 
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
--  Aspose.Words สำหรับไลบรารี .NET: คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับไลบรารี .NET: คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 - Visual Studio: เวอร์ชันล่าสุดใดก็ได้
 - ความรู้พื้นฐานเกี่ยวกับ C#: บทช่วยสอนนี้ถือว่าคุณมีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C#
--  ใบอนุญาต Aspose.Words: รับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/) หากคุณไม่มี
+- ใบอนุญาต Aspose.Words: รับใบอนุญาตชั่วคราว [ที่นี่](https://purchase.aspose.com/temporary-license/) หากคุณไม่มี
 
 ## นำเข้าเนมสเปซ
 
@@ -37,7 +39,7 @@ using Aspose.Words.Fields;
 
 ## ขั้นตอนที่ 1: ตั้งค่าโครงการของคุณ
 
-ขั้นแรกเรามาตั้งค่าโครงการ Visual Studio ของเรากันก่อน
+ขั้นแรกเราจะมาตั้งค่าโครงการ Visual Studio ของเราก่อน
 
 ### สร้างโครงการใหม่
 
@@ -58,14 +60,14 @@ using Aspose.Words.Fields;
 
 ### การเริ่มต้นเอกสาร
 
-1.  ในของคุณ`Program.cs` ไฟล์เริ่มต้นด้วยการสร้างเอกสารใหม่:
+1. ในของคุณ `Program.cs` ไฟล์เริ่มต้นด้วยการสร้างเอกสารใหม่:
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document doc = new Document();
 ```
 
-นี่เป็นการตั้งค่าเอกสารเปล่าใหม่
+นี่จะเป็นการสร้างเอกสารเปล่าใหม่
 
 ### เพิ่มย่อหน้า
 
@@ -142,22 +144,27 @@ doc.Save(dataDir + "InsertionFieldAdvanceWithoutDocumentBuilder.docx");
 
 ### ฉันสามารถใช้ DocumentBuilder กับฟิลด์ขั้นสูงได้หรือไม่
 
-ใช่ คุณสามารถใช้ DocumentBuilder เพื่อแทรกช่องฟิลด์ล่วงหน้าได้ แต่บทช่วยสอนนี้จะสาธิตวิธีการดำเนินการโดยไม่ต้องใช้ DocumentBuilder เพื่อความยืดหยุ่นและการควบคุมที่มากขึ้น
+ใช่ คุณสามารถใช้ DocumentBuilder เพื่อแทรกช่องข้อมูลล่วงหน้าได้ แต่บทช่วยสอนนี้จะสาธิตวิธีการดำเนินการโดยไม่ต้องใช้ DocumentBuilder เพื่อความยืดหยุ่นและการควบคุมที่มากขึ้น
 
 ### ฉันสามารถหาตัวอย่างการใช้ Aspose.Words เพิ่มเติมได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารและตัวอย่างที่ครอบคลุมได้ที่[Aspose.Words สำหรับเอกสาร .NET](https://reference.aspose.com/words/net/) หน้าหนังสือ.
+คุณสามารถค้นหาเอกสารและตัวอย่างที่ครอบคลุมได้ที่ [Aspose.Words สำหรับเอกสาร .NET](https://reference.aspose.com/words/net/) หน้าหนังสือ.
 
 ### Aspose.Words สำหรับ .NET ใช้ได้ฟรีหรือไม่?
 
- Aspose.Words สำหรับ .NET เสนอรุ่นทดลองใช้งานฟรีซึ่งคุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/)หากต้องการใช้งานฟังก์ชันครบถ้วน คุณจะต้องซื้อใบอนุญาต
+Aspose.Words สำหรับ .NET เสนอรุ่นทดลองใช้งานฟรีซึ่งคุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases.aspose.com/)หากต้องการใช้งานฟังก์ชันครบถ้วน คุณจะต้องซื้อใบอนุญาต
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ได้อย่างไร
 
- หากต้องการความช่วยเหลือ สามารถเข้าไปเยี่ยมชมได้ที่[ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8).
+หากต้องการความช่วยเหลือ สามารถเข้าไปเยี่ยมชมได้ที่ [ฟอรั่มสนับสนุน Aspose.Words](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

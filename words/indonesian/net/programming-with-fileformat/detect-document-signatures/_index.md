@@ -1,14 +1,16 @@
 ---
-title: Mendeteksi Tanda Tangan Digital pada Dokumen Word
-linktitle: Mendeteksi Tanda Tangan Digital pada Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mendeteksi tanda tangan digital dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami.
-weight: 10
-url: /id/net/programming-with-fileformat/detect-document-signatures/
+"description": "Pelajari cara mendeteksi tanda tangan digital dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami."
+"linktitle": "Mendeteksi Tanda Tangan Digital pada Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Mendeteksi Tanda Tangan Digital pada Dokumen Word"
+"url": "/id/net/programming-with-fileformat/detect-document-signatures/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mendeteksi Tanda Tangan Digital pada Dokumen Word
@@ -21,7 +23,7 @@ Memastikan integritas dan keaslian dokumen Word Anda sangat penting, terutama di
 
 Sebelum kita memulai, pastikan Anda telah menyiapkan hal-hal berikut:
 
--  Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Aspose merilis halaman](https://releases.aspose.com/words/net/).
+- Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Aspose merilis halaman](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Pastikan Anda telah menyiapkan lingkungan pengembangan .NET, seperti Visual Studio.
 - Pemahaman Dasar C#: Keakraban dengan bahasa pemrograman C# akan membantu Anda mengikutinya dengan lancar.
 
@@ -41,7 +43,7 @@ Sebelum kita dapat mulai mendeteksi tanda tangan digital, kita perlu menyiapkan 
 
 ### 1.1 Buat Proyek Baru
 
- Buka Visual Studio dan buat proyek Aplikasi Konsol (.NET Core) baru. Beri nama`DigitalSignatureDetector`.
+Buka Visual Studio dan buat proyek Aplikasi Konsol (.NET Core) baru. Beri nama `DigitalSignatureDetector`.
 
 ### 1.2 Instal Aspose.Words untuk .NET
 
@@ -60,7 +62,7 @@ Sekarang, kita perlu menentukan jalur ke direktori tempat dokumen Anda disimpan.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda.
 
 ## Langkah 3: Mendeteksi Format File
 
@@ -70,7 +72,7 @@ Berikutnya, kita perlu mendeteksi format file dokumen untuk memastikan itu adala
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(dataDir + "Digitally signed.docx");
 ```
 
- Baris kode ini memeriksa format file dokumen bernama`Digitally signed.docx`.
+Baris kode ini memeriksa format file dokumen bernama `Digitally signed.docx`.
 
 ## Langkah 4: Periksa Tanda Tangan Digital
 
@@ -97,23 +99,28 @@ Tidak, Aspose.Words untuk .NET tidak menyimpan tanda tangan digital saat membuka
 
 ### Apakah ada cara untuk mendeteksi beberapa tanda tangan digital pada suatu dokumen?
 
- Ya, itu`HasDigitalSignature` Properti dapat menunjukkan keberadaan satu atau lebih tanda tangan digital pada dokumen.
+Ya, itu `HasDigitalSignature` Properti dapat menunjukkan keberadaan satu atau lebih tanda tangan digital pada dokumen.
 
 ### Bagaimana cara mendapatkan uji coba gratis Aspose.Words untuk .NET?
 
- Anda dapat mengunduh uji coba gratis dari[Aspose merilis halaman](https://releases.aspose.com/).
+Anda dapat mengunduh uji coba gratis dari [Aspose merilis halaman](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
 
- Anda dapat menemukan dokumentasi lengkap di[Halaman Dokumentasi Aspose](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi lengkap di [Halaman Dokumentasi Aspose](https://reference.aspose.com/words/net/).
 
 ### Bisakah saya mendapatkan dukungan untuk Aspose.Words untuk .NET?
 
- Ya, Anda bisa mendapatkan dukungan dari[Forum dukungan Aspose](https://forum.aspose.com/c/words/8).
+Ya, Anda bisa mendapatkan dukungan dari [Forum dukungan Aspose](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

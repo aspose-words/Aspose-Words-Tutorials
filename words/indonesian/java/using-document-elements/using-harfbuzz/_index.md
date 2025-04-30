@@ -1,14 +1,16 @@
 ---
-title: Menggunakan HarfBuzz di Aspose.Words untuk Java
-linktitle: Menggunakan HarfBuzz
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menggunakan HarfBuzz untuk pembentukan teks tingkat lanjut di Aspose.Words untuk Java. Tingkatkan tampilan teks dalam skrip yang rumit dengan panduan langkah demi langkah ini.
-weight: 15
-url: /id/java/using-document-elements/using-harfbuzz/
+"description": "Pelajari cara menggunakan HarfBuzz untuk pembentukan teks tingkat lanjut di Aspose.Words untuk Java. Tingkatkan tampilan teks dalam skrip yang rumit dengan panduan langkah demi langkah ini."
+"linktitle": "Menggunakan HarfBuzz"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan HarfBuzz di Aspose.Words untuk Java"
+"url": "/id/java/using-document-elements/using-harfbuzz/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan HarfBuzz di Aspose.Words untuk Java
@@ -34,7 +36,7 @@ Untuk memulai, buat proyek Java baru dan sertakan pustaka Aspose.Words untuk Jav
 
 ## Langkah 2: Memuat Dokumen Word
 
- Pada langkah ini, kita akan memuat contoh dokumen Word yang ingin kita gunakan. Ganti`"Your Document Directory"` dengan jalur sebenarnya ke dokumen Word Anda:
+Pada langkah ini, kita akan memuat contoh dokumen Word yang ingin kita gunakan. Ganti `"Your Document Directory"` dengan jalur sebenarnya ke dokumen Word Anda:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -52,7 +54,7 @@ doc.getLayoutOptions().setTextShaperFactory(HarfBuzzTextShaperFactory.getInstanc
 
 ## Langkah 4: Menyimpan Dokumen
 
- Sekarang setelah kita mengonfigurasikan pembentukan teks HarfBuzz, kita dapat menyimpan dokumen. Ganti`"Your Output Directory"` dengan direktori keluaran dan nama file yang diinginkan:
+Sekarang setelah kita mengonfigurasikan pembentukan teks HarfBuzz, kita dapat menyimpan dokumen. Ganti `"Your Output Directory"` dengan direktori keluaran dan nama file yang diinginkan:
 
 ```java
 String outPath = "Your Output Directory";
@@ -94,12 +96,17 @@ Ya, HarfBuzz kompatibel dengan aplikasi Java dan dapat dengan mudah diintegrasik
 
 ### 5. Di mana saya dapat mempelajari lebih lanjut tentang Aspose.Words untuk Java?
 
-Anda dapat menemukan dokumentasi dan sumber daya terperinci untuk Aspose.Words untuk Java di[Dokumentasi API Aspose.Words](https://reference.aspose.com/words/java/).
+Anda dapat menemukan dokumentasi dan sumber daya terperinci untuk Aspose.Words untuk Java di [Dokumentasi API Aspose.Words](https://reference.aspose.com/words/java/).
 
 Sekarang setelah Anda memiliki pemahaman menyeluruh tentang penggunaan HarfBuzz di Aspose.Words untuk Java, Anda dapat mulai menggabungkan fitur pembentukan teks tingkat lanjut ke dalam aplikasi Java Anda. Selamat membuat kode!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Kode Sebaris
-linktitle: Kode Sebaris
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menerapkan gaya kode sebaris dalam dokumen Word menggunakan Aspose.Words untuk .NET. Tutorial ini mencakup tanda petik tunggal dan ganda untuk pemformatan kode.
-weight: 10
-url: /id/net/working-with-markdown/inline-code/
+"description": "Pelajari cara menerapkan gaya kode sebaris dalam dokumen Word menggunakan Aspose.Words untuk .NET. Tutorial ini mencakup tanda petik tunggal dan ganda untuk pemformatan kode."
+"linktitle": "Kode Sebaris"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Kode Sebaris"
+"url": "/id/net/working-with-markdown/inline-code/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kode Sebaris
@@ -21,7 +23,7 @@ Jika Anda sedang membuat atau memanipulasi dokumen Word secara terprogram, Anda 
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1.  Pustaka Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words di lingkungan .NET Anda. Anda dapat mengunduhnya dari[Halaman rilis Aspose.Words untuk .NET](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words di lingkungan .NET Anda. Anda dapat mengunduhnya dari [Halaman rilis Aspose.Words untuk .NET](https://releases.aspose.com/words/net/).
 
 2. Pengetahuan Dasar Pemrograman .NET: Panduan ini mengasumsikan Anda memiliki pemahaman dasar tentang pemrograman C# dan .NET.
 
@@ -40,7 +42,7 @@ Mari kita uraikan prosesnya menjadi beberapa langkah yang jelas:
 
 ## Langkah 1: Inisialisasi Dokumen dan DocumentBuilder
 
- Pertama, Anda perlu membuat dokumen baru dan`DocumentBuilder` contoh.`DocumentBuilder`Kelas membantu Anda menambahkan konten dan memformatnya dalam dokumen Word.
+Pertama, Anda perlu membuat dokumen baru dan `DocumentBuilder` contoh. `DocumentBuilder` Kelas membantu Anda menambahkan konten dan memformatnya dalam dokumen Word.
 
 ```csharp
 // Inisialisasi DocumentBuilder dengan Dokumen baru.
@@ -83,7 +85,7 @@ Berikutnya, kita akan mendefinisikan gaya untuk kode sebaris dengan tiga tanda c
 Style inlineCode3BackTicks = builder.Document.Styles.Add(StyleType.Character, "InlineCode.3");
 inlineCode3BackTicks.Font.Name = "Courier New"; // Font yang konsisten untuk kode.
 inlineCode3BackTicks.Font.Size = 10.5; // Ukuran font untuk blok kode.
-inlineCode3BackTicks.Font.Color = System.Drawing.Color.Green; //Warna berbeda untuk visibilitas.
+inlineCode3BackTicks.Font.Color = System.Drawing.Color.Green; // Warna berbeda untuk visibilitas.
 inlineCode3BackTicks.Font.Bold = true; // Cetak tebal untuk penekanan.
 ```
 
@@ -101,7 +103,7 @@ builder.Writeln("Text with InlineCode style with 3 backticks");
 
 Memformat teks sebagai kode sebaris dalam dokumen Word menggunakan Aspose.Words untuk .NET mudah dilakukan setelah Anda mengetahui langkah-langkahnya. Dengan menentukan dan menerapkan gaya khusus dengan satu atau beberapa tanda petik terbalik, Anda dapat membuat cuplikan kode Anda menonjol dengan jelas. Metode ini sangat berguna untuk dokumentasi teknis atau dokumen apa pun yang sangat penting untuk keterbacaan kode.
 
-Jangan ragu untuk bereksperimen dengan berbagai gaya dan opsi pemformatan agar sesuai dengan kebutuhan Anda. Aspose.Words menawarkan fleksibilitas yang luas, yang memungkinkan Anda untuk menyesuaikan tampilan dokumen Anda secara maksimal.
+Jangan ragu untuk bereksperimen dengan berbagai gaya dan opsi pemformatan agar paling sesuai dengan kebutuhan Anda. Aspose.Words menawarkan fleksibilitas yang luas, yang memungkinkan Anda untuk menyesuaikan tampilan dokumen Anda secara maksimal.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -109,19 +111,24 @@ Jangan ragu untuk bereksperimen dengan berbagai gaya dan opsi pemformatan agar s
 Ya, Anda dapat menggunakan font apa pun yang sesuai dengan kebutuhan Anda. Font seperti "Courier New" biasanya digunakan untuk kode karena sifatnya yang monospaced.
 
 ### Bagaimana cara mengubah warna teks kode sebaris?
- Anda dapat mengubah warna dengan mengatur`Font.Color` properti gaya untuk apa pun`System.Drawing.Color`.
+Anda dapat mengubah warna dengan mengatur `Font.Color` properti gaya untuk apa pun `System.Drawing.Color`.
 
 ### Bisakah saya menerapkan beberapa gaya pada teks yang sama?
 Di Aspose.Words, Anda hanya dapat menerapkan satu gaya dalam satu waktu. Jika Anda perlu menggabungkan gaya, pertimbangkan untuk membuat gaya baru yang menggabungkan semua format yang diinginkan.
 
 ### Bagaimana cara menerapkan gaya ke teks yang ada dalam dokumen?
- Untuk menerapkan gaya pada teks yang ada, Anda perlu memilih teks terlebih dahulu lalu menerapkan gaya yang diinginkan menggunakan`Font.Style` milik.
+Untuk menerapkan gaya pada teks yang ada, Anda perlu memilih teks terlebih dahulu lalu menerapkan gaya yang diinginkan menggunakan `Font.Style` milik.
 
 ### Dapatkah saya menggunakan Aspose.Words untuk format dokumen lain?
 Aspose.Words dirancang khusus untuk dokumen Word. Untuk format lain, Anda mungkin perlu menggunakan pustaka yang berbeda atau mengonversi dokumen ke format yang kompatibel.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

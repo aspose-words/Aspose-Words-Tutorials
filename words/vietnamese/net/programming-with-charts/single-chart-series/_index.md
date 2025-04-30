@@ -1,14 +1,16 @@
 ---
-title: Tùy chỉnh chuỗi biểu đồ đơn trong biểu đồ
-linktitle: Tùy chỉnh chuỗi biểu đồ đơn trong biểu đồ
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tùy chỉnh chuỗi biểu đồ đơn trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm liền mạch.
-weight: 10
-url: /vi/net/programming-with-charts/single-chart-series/
+"description": "Tìm hiểu cách tùy chỉnh chuỗi biểu đồ đơn trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm liền mạch."
+"linktitle": "Tùy chỉnh chuỗi biểu đồ đơn trong biểu đồ"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tùy chỉnh chuỗi biểu đồ đơn trong biểu đồ"
+"url": "/vi/net/programming-with-charts/single-chart-series/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tùy chỉnh chuỗi biểu đồ đơn trong biểu đồ
@@ -21,7 +23,7 @@ Xin chào! Bạn đã bao giờ muốn làm cho các tài liệu Word của mìn
 
 Trước khi bắt đầu, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết. Sau đây là danh sách kiểm tra nhanh:
 
-1.  Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Visual Studio: Bất kỳ phiên bản nào gần đây đều có thể thực hiện được.
 3. Hiểu biết cơ bản về C#: Không cần quá cầu kỳ, chỉ cần những kiến thức cơ bản là được.
 
@@ -118,19 +120,24 @@ Và bạn đã có nó! Bạn đã tùy chỉnh thành công một loạt biểu
 Aspose.Words for .NET là một thư viện mạnh mẽ cho phép bạn tạo, chỉnh sửa, chuyển đổi và thao tác các tài liệu Word theo cách lập trình.
 
 ### Tôi có thể sử dụng Aspose.Words miễn phí không?
-Vâng, bạn có thể bắt đầu với một[dùng thử miễn phí](https://releases.aspose.com/).
+Vâng, bạn có thể bắt đầu với một [dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Words?
- Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose trên[diễn đàn](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose trên [diễn đàn](https://forum.aspose.com/c/words/8).
 
 ### Có thể tùy chỉnh các loại biểu đồ khác không?
 Chắc chắn rồi! Aspose.Words hỗ trợ nhiều loại biểu đồ như biểu đồ thanh, biểu đồ tròn và biểu đồ phân tán.
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Kiểm tra các[tài liệu](https://reference.aspose.com/words/net/) để biết hướng dẫn và ví dụ chi tiết hơn.
+Kiểm tra các [tài liệu](https://reference.aspose.com/words/net/) để biết hướng dẫn và ví dụ chi tiết hơn.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Cấu trúc tài liệu và thao tác nội dung
-linktitle: Cấu trúc tài liệu và thao tác nội dung
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Khám phá hướng dẫn Aspose.Words cho Python và .NET, tập trung vào cấu trúc tài liệu và thao tác nội dung. Tìm hiểu cách điều hướng, trích xuất và sửa đổi các thành phần tài liệu một cách hiệu quả. Cung cấp ví dụ về mã nguồn.
-weight: 10
-url: /vi/python-net/document-structure-and-content-manipulation/
+"description": "Khám phá hướng dẫn Aspose.Words cho Python và .NET, tập trung vào cấu trúc tài liệu và thao tác nội dung. Tìm hiểu cách điều hướng, trích xuất và sửa đổi các thành phần tài liệu một cách hiệu quả. Cung cấp ví dụ về mã nguồn."
+"linktitle": "Cấu trúc tài liệu và thao tác nội dung"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Cấu trúc tài liệu và thao tác nội dung"
+"url": "/vi/python-net/document-structure-and-content-manipulation/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cấu trúc tài liệu và thao tác nội dung
@@ -67,10 +69,14 @@ Tìm hiểu cách quản lý các phần và bố cục tài liệu bằng Aspos
 ### [Cải thiện nội dung trực quan bằng hộp văn bản trong tài liệu Word](./document-textboxes/)
 Cải thiện hình ảnh tài liệu bằng Aspose.Words Python! Tìm hiểu từng bước cách tạo và tùy chỉnh hộp văn bản trong tài liệu Word. Nâng cao bố cục nội dung, định dạng và kiểu dáng cho tài liệu hấp dẫn.
 ### [Mở khóa Tự động hóa Nâng cao với Macro VBA trong Tài liệu Word](./document-vba-macros/)
- Mở khóa tính năng tự động hóa nâng cao trong tài liệu Word bằng Aspose.Words Python API và macro VBA. Tìm hiểu từng bước với mã nguồn và Câu hỏi thường gặp. Nâng cao năng suất ngay bây giờ. Truy cập tại[Liên kết].
+Mở khóa tính năng tự động hóa nâng cao trong tài liệu Word bằng Aspose.Words Python API và macro VBA. Tìm hiểu từng bước với mã nguồn và Câu hỏi thường gặp. Nâng cao năng suất ngay bây giờ. Truy cập tại [Liên kết].
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

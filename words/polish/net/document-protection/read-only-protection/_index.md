@@ -1,14 +1,16 @@
 ---
-title: Ochrona tylko do odczytu w dokumencie Word
-linktitle: Ochrona tylko do odczytu w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak chronić dokumenty Word, stosując ochronę tylko do odczytu za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku.
-weight: 10
-url: /pl/net/document-protection/read-only-protection/
+"description": "Dowiedz się, jak chronić dokumenty Word, stosując ochronę tylko do odczytu za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku."
+"linktitle": "Ochrona tylko do odczytu w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ochrona tylko do odczytu w dokumencie Word"
+"url": "/pl/net/document-protection/read-only-protection/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ochrona tylko do odczytu w dokumencie Word
@@ -21,7 +23,7 @@ Jeśli chodzi o zarządzanie dokumentami Word, zdarzają się sytuacje, gdy trze
 
 Zanim zagłębimy się w kod, musisz spełnić kilka warunków wstępnych:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Skonfiguruj środowisko programistyczne z zainstalowanym .NET. Visual Studio jest dobrym wyborem.
 3. Podstawowa znajomość języka C#: W tym samouczku zakładamy, że posiadasz podstawową wiedzę na temat programowania w języku C#.
 
@@ -51,7 +53,7 @@ builder.Write("Open document as read-only");
 Wyjaśnienie:
 
 - Zacznijmy od zdefiniowania ścieżki do katalogu, w którym zostanie zapisany dokument.
--  Nowy`Document` obiekt jest tworzony i`DocumentBuilder` jest z tym związane.
+- Nowy `Document` obiekt jest tworzony i `DocumentBuilder` jest z tym związane.
 - Używając kreatora dodajemy do dokumentu prostą linię tekstu.
 
 ## Krok 2: Ustaw hasło zabezpieczające przed zapisem
@@ -65,12 +67,12 @@ doc.WriteProtection.SetPassword("MyPassword");
 
 Wyjaśnienie:
 
--  Ten`SetPassword` metoda jest wywoływana na`WriteProtection` własność dokumentu.
+- Ten `SetPassword` metoda jest wywoływana na `WriteProtection` własność dokumentu.
 - Podajemy hasło (w tym przypadku „MojeHasło”), które będzie wymagane do usunięcia zabezpieczenia.
 
 ## Krok 3: Włącz rekomendację tylko do odczytu
 
-tym kroku zalecamy, aby dokument był tylko do odczytu. Oznacza to, że po otwarciu dokumentu zostanie wyświetlony monit o otwarcie go w trybie tylko do odczytu.
+W tym kroku zalecamy, aby dokument był tylko do odczytu. Oznacza to, że po otwarciu dokumentu zostanie wyświetlony monit o otwarcie go w trybie tylko do odczytu.
 
 ```csharp
 // Zaleca się, aby dokument był dostępny tylko do odczytu.
@@ -79,7 +81,7 @@ doc.WriteProtection.ReadOnlyRecommended = true;
 
 Wyjaśnienie:
 
--  Ten`ReadOnlyRecommended` właściwość jest ustawiona na`true`.
+- Ten `ReadOnlyRecommended` właściwość jest ustawiona na `true`.
 - Spowoduje to, że użytkownicy zostaną poproszeni o otwarcie dokumentu w trybie tylko do odczytu, chociaż mogą zignorować to zalecenie.
 
 ## Krok 4: Zastosuj ochronę tylko do odczytu
@@ -93,7 +95,7 @@ doc.Protect(ProtectionType.ReadOnly);
 
 Wyjaśnienie:
 
--  Ten`Protect` metoda jest wywoływana w dokumencie z`ProtectionType.ReadOnly` jako argument.
+- Ten `Protect` metoda jest wywoływana w dokumencie z `ProtectionType.ReadOnly` jako argument.
 - Ta metoda wymusza ochronę „tylko do odczytu”, uniemożliwiając jakąkolwiek modyfikację dokumentu bez podania hasła.
 
 ## Krok 5: Zapisz dokument
@@ -107,12 +109,12 @@ doc.Save(dataDir + "DocumentProtection.ReadOnlyProtection.docx");
 
 Wyjaśnienie:
 
--  Ten`Save` Metoda ta jest wywoływana w dokumencie, podając ścieżkę i nazwę pliku.
+- Ten `Save` Metoda ta jest wywoływana w dokumencie, podając ścieżkę i nazwę pliku.
 - Dokument zostanie zapisany z włączonym zabezpieczeniem „tylko do odczytu”.
 
 ## Wniosek
 
-masz! Udało Ci się utworzyć dokument Word chroniony tylko do odczytu przy użyciu Aspose.Words dla .NET. Ta funkcja zapewnia, że zawartość dokumentu pozostanie nienaruszona i niezmieniona, zapewniając dodatkową warstwę bezpieczeństwa. Niezależnie od tego, czy udostępniasz poufne informacje, czy dokumenty prawne, ochrona tylko do odczytu jest niezbędnym narzędziem w Twoim arsenale zarządzania dokumentami.
+I masz! Udało Ci się utworzyć dokument Word chroniony tylko do odczytu przy użyciu Aspose.Words dla .NET. Ta funkcja zapewnia, że zawartość dokumentu pozostanie nienaruszona i niezmieniona, zapewniając dodatkową warstwę bezpieczeństwa. Niezależnie od tego, czy udostępniasz poufne informacje, czy dokumenty prawne, ochrona tylko do odczytu jest niezbędnym narzędziem w Twoim arsenale zarządzania dokumentami.
 
 ## Najczęściej zadawane pytania
 
@@ -120,7 +122,7 @@ masz! Udało Ci się utworzyć dokument Word chroniony tylko do odczytu przy uż
 Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programistom tworzenie, modyfikowanie, konwertowanie i ochronę dokumentów Word programowo przy użyciu języka C# lub innych języków .NET.
 
 ### Czy mogę usunąć zabezpieczenie dokumentu „tylko do odczytu”?
- Tak, możesz usunąć ochronę tylko do odczytu, korzystając z`Unprotect` metodę i podając prawidłowe hasło.
+Tak, możesz usunąć ochronę tylko do odczytu, używając `Unprotect` metodę i podając prawidłowe hasło.
 
 ### Czy hasło podane w dokumencie jest zaszyfrowane?
 Tak, Aspose.Words szyfruje hasło w celu zagwarantowania bezpieczeństwa chronionego dokumentu.
@@ -129,10 +131,15 @@ Tak, Aspose.Words szyfruje hasło w celu zagwarantowania bezpieczeństwa chronio
 Tak, Aspose.Words dla platformy .NET obsługuje różne typy zabezpieczeń, w tym zezwalanie wyłącznie na komentarze, wypełnianie formularzy lub śledzenie zmian.
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Words dla .NET?
- Tak, możesz pobrać bezpłatną wersję próbną ze strony[Strona wydań Aspose](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną ze strony [Strona wydań Aspose](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

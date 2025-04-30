@@ -1,14 +1,16 @@
 ---
-title: Создание комплексного оглавления для документов Word
-linktitle: Создание комплексного оглавления для документов Word
-second_title: API управления документами Python Aspose.Words
-description: Создайте удобное для чтения оглавление с помощью Aspose.Words для Python. Научитесь легко генерировать, настраивать и обновлять структуру документа.
-weight: 15
-url: /ru/python-net/document-combining-and-comparison/generate-table-contents/
+"description": "Создайте удобное для чтения оглавление с помощью Aspose.Words для Python. Научитесь легко генерировать, настраивать и обновлять структуру документа."
+"linktitle": "Создание комплексного оглавления для документов Word"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Создание комплексного оглавления для документов Word"
+"url": "/ru/python-net/document-combining-and-comparison/generate-table-contents/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создание комплексного оглавления для документов Word
@@ -20,14 +22,14 @@ url: /ru/python-net/document-combining-and-comparison/generate-table-contents/
 
 ## Настройка окружающей среды
 
- Прежде чем начать, убедитесь, что у вас установлен Aspose.Words for Python. Вы можете загрузить его с[здесь](https://releases.aspose.com/words/python/). Кроме того, убедитесь, что у вас есть образец документа Word, который вы хотите улучшить, добавив в него оглавление.
+Прежде чем начать, убедитесь, что у вас установлен Aspose.Words for Python. Вы можете загрузить его с [здесь](https://releases.aspose.com/words/python/). Кроме того, убедитесь, что у вас есть образец документа Word, который вы хотите улучшить, добавив в него оглавление.
 
 ## Загрузка документа
 
 ```python
 import aspose.words as aw
 
-# Load the document
+# Загрузить документ
 doc = aw.Document("your_document.docx")
 ```
 
@@ -36,12 +38,12 @@ doc = aw.Document("your_document.docx")
 Чтобы создать оглавление, вам необходимо определить заголовки и подзаголовки в вашем документе. Используйте соответствующие стили абзацев, чтобы отметить эти разделы. Например, используйте «Заголовок 1» для основных заголовков и «Заголовок 2» для подзаголовков.
 
 ```python
-# Define headings and subheadings
+# Определите заголовки и подзаголовки
 for para in doc.get_child_nodes(aw.NodeType.PARAGRAPH, True):
     if para.paragraph_format.style_name == "Heading 1":
-        # Add main heading
+        # Добавить основной заголовок
     elif para.paragraph_format.style_name == "Heading 2":
-        # Add subheading
+        # Добавить подзаголовок
 ```
 
 ## Настройка оглавления
@@ -49,7 +51,7 @@ for para in doc.get_child_nodes(aw.NodeType.PARAGRAPH, True):
 Вы можете настроить внешний вид вашего оглавления, настроив шрифты, стили и форматирование. Обязательно используйте единообразное форматирование во всем документе для придания ему изысканного вида.
 
 ```python
-# Customize the appearance of the table of contents
+# Настройте внешний вид оглавления
 for para in toc_body.get_child_nodes(aw.NodeType.PARAGRAPH, False):
     para.paragraph_format.style_name = "TOC Entries"
 ```
@@ -60,7 +62,7 @@ for para in toc_body.get_child_nodes(aw.NodeType.PARAGRAPH, False):
 Оформление оглавления включает определение соответствующих стилей абзацев для заголовка, записей и других элементов.
 
 ```python
-# Define styles for the table of contents
+# Определить стили для оглавления
 toc_title.style.name = "Table of Contents Title"
 doc.styles.add_style("Table of Contents Title", aw.StyleType.PARAGRAPH)
 ```
@@ -70,14 +72,14 @@ doc.styles.add_style("Table of Contents Title", aw.StyleType.PARAGRAPH)
 Чтобы сэкономить время и обеспечить единообразие, рассмотрите возможность создания скрипта, который автоматически генерирует и обновляет оглавление ваших документов.
 
 ```python
-# Automation script
+# Скрипт автоматизации
 def generate_table_of_contents(document_path):
-    # Load the document
+    # Загрузить документ
     doc = aw.Document(document_path)
 
-    # ... (Rest of the code)
+    # ... (Остальная часть кода)
 
-    # Update the table of contents
+    # Обновить оглавление
     doc.update_fields()
     doc.save(document_path)
 ```
@@ -103,9 +105,14 @@ def generate_table_of_contents(document_path):
 ### Как удалить оглавление из документа?
 
 Если вы решили удалить оглавление, просто удалите раздел, содержащий оглавление. Не забудьте обновить оставшиеся номера страниц, чтобы отразить изменения.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Wstaw pole formularza pola wyboru w dokumencie Word
-linktitle: Wstaw pole formularza pola wyboru w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawiać pola formularza pola wyboru w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów.
-weight: 10
-url: /pl/net/add-content-using-documentbuilder/insert-check-box-form-field/
+"description": "Dowiedz się, jak wstawiać pola formularza pola wyboru w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów."
+"linktitle": "Wstaw pole formularza pola wyboru w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw pole formularza pola wyboru w dokumencie Word"
+"url": "/pl/net/add-content-using-documentbuilder/insert-check-box-form-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw pole formularza pola wyboru w dokumencie Word
@@ -20,7 +22,7 @@ url: /pl/net/add-content-using-documentbuilder/insert-check-box-form-field/
 
 Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
--  Biblioteka Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz ją ze strony[Tutaj](https://releases.aspose.com/words/net/) . Możesz również zdecydować się na[bezpłatny okres próbny](https://releases.aspose.com/) jeśli zwiedzasz bibliotekę.
+- Biblioteka Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz ją ze strony [Tutaj](https://releases.aspose.com/words/net/). Możesz również zdecydować się na [bezpłatny okres próbny](https://releases.aspose.com/) jeśli zwiedzasz bibliotekę.
 - Środowisko programistyczne: Twoim placem zabaw będzie środowisko IDE, np. Visual Studio.
 - Podstawowa znajomość języka C#: Choć omówimy wszystko szczegółowo, podstawowa znajomość języka C# będzie korzystna.
 
@@ -46,7 +48,7 @@ Zanim będziemy mogli manipulować dokumentami, musimy określić, gdzie nasz do
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` ze ścieżką do folderu, w którym chcesz zapisać swój dokument. Informuje to Aspose.Words, gdzie znaleźć i zapisać pliki.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` ze ścieżką do folderu, w którym chcesz zapisać swój dokument. Informuje to Aspose.Words, gdzie znaleźć i zapisać pliki.
 
 ## Krok 2: Tworzenie nowego dokumentu
 
@@ -56,17 +58,17 @@ Teraz, gdy mamy już ustawiony katalog, czas utworzyć nowy dokument. Ten dokume
 Document doc = new Document();
 ```
 
- Ta linia inicjuje nową instancję`Document` klasa, dając nam pusty dokument do pracy.
+Ta linia inicjuje nową instancję `Document` klasa, dając nam pusty dokument do pracy.
 
-## Krok 3: Inicjalizacja narzędzia Document Builder
+## Krok 3: Inicjalizacja Kreatora dokumentów
 
- Ten`DocumentBuilder` class to narzędzie, które wybierasz, aby dodać treść do dokumentu. Pomyśl o nim jak o swoim pędzlu i palecie.
+Ten `DocumentBuilder` class to narzędzie, które wybierasz, aby dodać treść do dokumentu. Pomyśl o nim jak o swoim pędzlu i palecie.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Ta linia tworzy`DocumentBuilder`obiekt powiązany z naszym nowym dokumentem, umożliwiający nam dodanie do niego treści.
+Ta linia tworzy `DocumentBuilder` obiekt powiązany z naszym nowym dokumentem, umożliwiający nam dodanie do niego treści.
 
 ## Krok 4: Wstawianie pola formularza z polem wyboru
 
@@ -80,7 +82,7 @@ Przyjrzyjmy się temu bliżej:
 - `"CheckBox"`:To jest nazwa pola formularza pola wyboru.
 - `true`:Oznacza, że pole wyboru jest domyślnie zaznaczone.
 - `true`: Ten parametr określa, czy pole wyboru powinno być zaznaczone jako wartość logiczna.
-- `0` : Ten parametr ustawia rozmiar pola wyboru.`0` oznacza rozmiar domyślny.
+- `0`: Ten parametr ustawia rozmiar pola wyboru. `0` oznacza rozmiar domyślny.
 
 ## Krok 5: Zapisywanie dokumentu
 
@@ -90,7 +92,7 @@ Dodaliśmy nasze pole wyboru i teraz czas zapisać dokument. Ten krok jest jak u
 doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
 ```
 
- Ten wiersz zapisuje dokument w katalogu, który określiliśmy wcześniej, pod nazwą pliku`AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx`.
+Ten wiersz zapisuje dokument w katalogu, który określiliśmy wcześniej, pod nazwą pliku `AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx`.
 
 ## Wniosek
 
@@ -104,7 +106,7 @@ Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programistom tw
 
 ### Jak mogę uzyskać Aspose.Words dla .NET?
 
- Aspose.Words dla .NET można pobrać ze strony[strona internetowa](https://releases.aspose.com/words/net/) . Istnieje również opcja dla[bezpłatny okres próbny](https://releases.aspose.com/) jeśli chcesz poznać jego funkcje.
+Aspose.Words dla .NET można pobrać ze strony [strona internetowa](https://releases.aspose.com/words/net/). Istnieje również opcja dla [bezpłatny okres próbny](https://releases.aspose.com/) jeśli chcesz poznać jego funkcje.
 
 ### Czy mogę używać Aspose.Words dla .NET z dowolną aplikacją .NET?
 
@@ -116,11 +118,16 @@ Oczywiście! Aspose.Words dla .NET udostępnia różne parametry do dostosowywan
 
 ### Gdzie mogę znaleźć więcej samouczków dotyczących Aspose.Words dla .NET?
 
- Obszerne samouczki i dokumentację można znaleźć na stronie[Strona dokumentacji Aspose.Words](https://reference.aspose.com/words/net/).
+Obszerne samouczki i dokumentację można znaleźć na stronie [Strona dokumentacji Aspose.Words](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

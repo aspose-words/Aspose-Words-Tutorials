@@ -1,14 +1,16 @@
 ---
-title: Tìm và thay thế văn bản trong Aspose.Words cho Java
-linktitle: Tìm và thay thế văn bản
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách tìm và thay thế văn bản trong tài liệu Word bằng Aspose.Words for Java. Hướng dẫn từng bước với các ví dụ về mã. Nâng cao kỹ năng thao tác tài liệu Java của bạn.
-weight: 15
-url: /vi/java/document-manipulation/finding-and-replacing-text/
+"description": "Tìm hiểu cách tìm và thay thế văn bản trong tài liệu Word bằng Aspose.Words for Java. Hướng dẫn từng bước với các ví dụ về mã. Nâng cao kỹ năng thao tác tài liệu Java của bạn."
+"linktitle": "Tìm và thay thế văn bản"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Tìm và thay thế văn bản trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/finding-and-replacing-text/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tìm và thay thế văn bản trong Aspose.Words cho Java
@@ -26,7 +28,7 @@ Trước khi đi sâu vào chi tiết về cách tìm và thay thế văn bản,
 - Aspose.Words cho thư viện Java
 - Một tài liệu Word mẫu để làm việc
 
- Bạn có thể tải xuống thư viện Aspose.Words cho Java từ[đây](https://releases.aspose.com/words/java/).
+Bạn có thể tải xuống thư viện Aspose.Words cho Java từ [đây](https://releases.aspose.com/words/java/).
 
 ## Tìm và thay thế văn bản đơn giản
 
@@ -44,7 +46,7 @@ builder.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 doc.save("modified-document.docx");
 ```
 
- Trong ví dụ này, chúng tôi tải một tài liệu Word, tạo một`DocumentBuilder` và sử dụng`replace` phương pháp tìm và thay thế "văn bản cũ" bằng "văn bản mới" trong tài liệu.
+Trong ví dụ này, chúng tôi tải một tài liệu Word, tạo một `DocumentBuilder`và sử dụng `replace` phương pháp tìm và thay thế "văn bản cũ" bằng "văn bản mới" trong tài liệu.
 
 ## Sử dụng biểu thức chính quy
 
@@ -149,7 +151,7 @@ doc.getRange().replace("text-to-replace", "new-html-content", options);
 doc.save("modified-document.docx");
 ```
 
- Trong ví dụ này, chúng tôi sử dụng một tùy chỉnh`ReplaceWithHtmlEvaluator` để thay thế văn bản bằng nội dung HTML.
+Trong ví dụ này, chúng tôi sử dụng một tùy chỉnh `ReplaceWithHtmlEvaluator` để thay thế văn bản bằng nội dung HTML.
 
 ## Thay thế văn bản trong tiêu đề và chân trang
 
@@ -186,7 +188,7 @@ Document doc = new Document("your-document.docx");
 // Nhận phần đầu tiên
 Section firstPageSection = doc.getFirstSection();
 
-//Tạo một thể hiện FindReplaceOptions và áp dụng nó vào phạm vi của tài liệu
+// Tạo một thể hiện FindReplaceOptions và áp dụng nó vào phạm vi của tài liệu
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceLog());
 
@@ -218,7 +220,7 @@ doc.getRange().replace(Pattern.compile("PlaceHolder(\\d+)"), "", options);
 doc.save("modified-document.docx");
 ```
 
- Trong ví dụ này, chúng tôi thay thế văn bản bằng các trường và chỉ định loại trường (ví dụ:`FieldType.FIELD_MERGE_FIELD`).
+Trong ví dụ này, chúng tôi thay thế văn bản bằng các trường và chỉ định loại trường (ví dụ: `FieldType.FIELD_MERGE_FIELD`).
 
 ## Thay thế bằng Người đánh giá
 
@@ -328,7 +330,7 @@ Document doc = new Document("your-document.docx");
 // Lấy một bảng cụ thể (ví dụ: bảng đầu tiên)
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 
-//Sử dụng FindReplaceOptions để thay thế văn bản trong bảng
+// Sử dụng FindReplaceOptions để thay thế văn bản trong bảng
 table.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 
 // Lưu tài liệu đã sửa đổi
@@ -345,7 +347,7 @@ Aspose.Words for Java cung cấp khả năng toàn diện để tìm và thay th
 
 ### Làm thế nào để tải xuống Aspose.Words cho Java?
 
- Bạn có thể tải xuống Aspose.Words cho Java từ trang web bằng cách truy cập[liên kết này](https://releases.aspose.com/words/java/).
+Bạn có thể tải xuống Aspose.Words cho Java từ trang web bằng cách truy cập [liên kết này](https://releases.aspose.com/words/java/).
 
 ### Tôi có thể sử dụng biểu thức chính quy để thay thế văn bản không?
 
@@ -353,18 +355,23 @@ Có, bạn có thể sử dụng biểu thức chính quy để thay thế văn 
 
 ### Làm thế nào tôi có thể bỏ qua văn bản bên trong các trường trong quá trình thay thế?
 
-Để bỏ qua văn bản bên trong các trường trong quá trình thay thế, bạn có thể thiết lập`IgnoreFields` tài sản của`FindReplaceOptions` ĐẾN`true`. Điều này đảm bảo rằng văn bản trong các trường, chẳng hạn như trường hợp nhập, sẽ bị loại trừ khỏi mục thay thế.
+Để bỏ qua văn bản bên trong các trường trong quá trình thay thế, bạn có thể thiết lập `IgnoreFields` tài sản của `FindReplaceOptions` ĐẾN `true`Điều này đảm bảo rằng văn bản trong các trường, chẳng hạn như trường hợp nhập, sẽ bị loại trừ khỏi mục thay thế.
 
 ### Tôi có thể thay thế văn bản bên trong đầu trang và chân trang không?
 
- Có, bạn có thể thay thế văn bản bên trong tiêu đề và chân trang của tài liệu Word. Chỉ cần truy cập tiêu đề hoặc chân trang thích hợp và sử dụng`replace` phương pháp với mong muốn`FindReplaceOptions`.
+Có, bạn có thể thay thế văn bản bên trong tiêu đề và chân trang của tài liệu Word. Chỉ cần truy cập tiêu đề hoặc chân trang thích hợp và sử dụng `replace` phương pháp với mong muốn `FindReplaceOptions`.
 
 ### Tùy chọn UseLegacyOrder có tác dụng gì?
 
- Các`UseLegacyOrder` tùy chọn trong`FindReplaceOptions` cho phép bạn sử dụng thứ tự cũ khi thực hiện các thao tác tìm và thay thế. Điều này có thể hữu ích trong một số trường hợp nhất định khi mong muốn hành vi thứ tự cũ.
+Các `UseLegacyOrder` tùy chọn trong `FindReplaceOptions` cho phép bạn sử dụng thứ tự cũ khi thực hiện các thao tác tìm và thay thế. Điều này có thể hữu ích trong một số trường hợp nhất định khi mong muốn hành vi thứ tự cũ.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

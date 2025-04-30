@@ -1,14 +1,16 @@
 ---
-title: Wyodrębnianie zawartości dokumentu według stron
-linktitle: Wyodrębnianie zawartości dokumentu według stron
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak wyodrębnić zawartość dokumentu według stron za pomocą Aspose.Words dla Java. Ten przewodnik krok po kroku z kodem źródłowym w mgnieniu oka uczyni z Ciebie eksperta.
-weight: 13
-url: /pl/java/document-splitting/extracting-document-content-pages/
+"description": "Dowiedz się, jak wyodrębnić zawartość dokumentu według stron za pomocą Aspose.Words dla Java. Ten przewodnik krok po kroku z kodem źródłowym w mgnieniu oka uczyni z Ciebie eksperta."
+"linktitle": "Wyodrębnianie zawartości dokumentu według stron"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Wyodrębnianie zawartości dokumentu według stron"
+"url": "/pl/java/document-splitting/extracting-document-content-pages/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyodrębnianie zawartości dokumentu według stron
@@ -28,7 +30,7 @@ Zanim zaczniemy pracę z Aspose.Words dla Java, musimy skonfigurować nasze śro
 
 1. Zainstaluj Javę: Jeśli nie masz zainstalowanej Javy, pobierz i zainstaluj najnowszą wersję ze strony internetowej.
 
-2.  Pobierz Aspose.Words dla Javy: Przejdź do[Aspose.Words dla Javy](https://releases.aspose.com/words/java/) i pobierz najnowszą wersję biblioteki.
+2. Pobierz Aspose.Words dla Javy: Przejdź do [Aspose.Words dla Javy](https://releases.aspose.com/words/java/) i pobierz najnowszą wersję biblioteki.
 
 3. Zintegruj Aspose.Words ze swoim projektem: Dodaj pliki JAR Aspose.Words do ścieżki klas swojego projektu Java.
 
@@ -46,7 +48,7 @@ public class DocumentExtractor {
 
 ### Dodawanie Aspose.Words do projektu
 
-Aby dodać Aspose.Words do swojego projektu, skopiuj pobrane pliki JAR do katalogu swojego projektu`lib` folder i dodaj je do swojej ścieżki klas. Teraz jesteś gotowy, aby zanurzyć się w świecie ekstrakcji dokumentów!
+Aby dodać Aspose.Words do swojego projektu, skopiuj pobrane pliki JAR do katalogu swojego projektu `lib` folder i dodaj je do swojej ścieżki klas. Teraz jesteś gotowy, aby zanurzyć się w świecie ekstrakcji dokumentów!
 
 ## Ładowanie i analizowanie dokumentów
 
@@ -96,7 +98,7 @@ String pageText = doc.extractText(pageInfo);
 Aby wyodrębnić zawartość ze wszystkich stron, możesz użyć prostej pętli:
 
 ```java
-//Pobierz całkowitą liczbę stron w dokumencie
+// Pobierz całkowitą liczbę stron w dokumencie
 int pageCount = doc.getPageCount();
 
 for (int i = 0; i < pageCount; i++) {
@@ -163,9 +165,14 @@ Aspose.Words for Java wymaga ważnej licencji do użytku komercyjnego. Upewnij s
 ## Wniosek
 
 Gratulacje! Ukończyłeś przewodnik krok po kroku dotyczący wyodrębniania zawartości dokumentu według stron za pomocą Aspose.Words dla Java. Posiadasz teraz cenne umiejętności do pracy z dokumentami Word programowo. Możesz swobodnie odkrywać więcej funkcji Aspose.Words i uwolnić swoją kreatywność w manipulacji dokumentami.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

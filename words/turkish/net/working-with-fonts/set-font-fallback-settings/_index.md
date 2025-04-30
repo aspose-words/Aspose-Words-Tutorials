@@ -1,14 +1,16 @@
 ---
-title: Yazı Tipi Yedek Ayarlarını Ayarla
-linktitle: Yazı Tipi Yedek Ayarlarını Ayarla
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'te Font Geri Dönüş Ayarlarının nasıl ayarlanacağını öğrenin. Bu kapsamlı kılavuz, belgelerinizdeki tüm karakterlerin doğru şekilde görüntülenmesini sağlar.
-weight: 10
-url: /tr/net/working-with-fonts/set-font-fallback-settings/
+"description": "Aspose.Words for .NET'te Font Geri Dönüş Ayarlarını nasıl ayarlayacağınızı öğrenin. Bu kapsamlı kılavuz, belgelerinizdeki tüm karakterlerin doğru şekilde görüntülenmesini sağlar."
+"linktitle": "Yazı Tipi Yedek Ayarlarını Ayarla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yazı Tipi Yedek Ayarlarını Ayarla"
+"url": "/tr/net/working-with-fonts/set-font-fallback-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yazı Tipi Yedek Ayarlarını Ayarla
@@ -22,9 +24,9 @@ Farklı diller veya özel karakterler gibi çeşitli metin öğeleri içeren bel
 Eğitime başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Temel C# Bilgisi: C# programlama dili ve .NET framework'üne aşinalık.
--  Aspose.Words for .NET: Şuradan indirin ve kurun:[indirme bağlantısı](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Şuradan indirin ve kurun: [indirme bağlantısı](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Kodunuzu yazıp çalıştırabileceğiniz Visual Studio benzeri bir kurulum.
--  Örnek Belge: Örnek bir belgeniz olsun (örneğin,`Rendering.docx`) test edilmeye hazır.
+- Örnek Belge: Örnek bir belgeniz olsun (örneğin, `Rendering.docx`) test edilmeye hazır.
 - Yazı Tipi Geri Dönüş Kuralları XML: Yazı tipi geri dönüş kurallarını tanımlayan bir XML dosyası hazırlayın.
 
 ## Ad Alanlarını İçe Aktar
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Adım 2: Belgeyi Yükleyin
 
- Belgenizi bir Aspose.Words'e yükleyin`Document` nesne. Bu adım, belgeyle programlı olarak çalışmanıza olanak tanır.
+Belgenizi bir Aspose.Words'e yükleyin `Document` nesne. Bu adım, belgeyle programlı olarak çalışmanıza olanak tanır.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -56,7 +58,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Adım 3: Yazı Tipi Ayarlarını Yapılandırın
 
- Yeni bir tane oluştur`FontSettings` nesne ve yazı tipi geri dönüş ayarlarını bir XML dosyasından yükleyin. Bu XML dosyası yazı tipi geri dönüşü için kuralları içerir.
+Yeni bir tane oluştur `FontSettings` nesne ve yazı tipi geri dönüş ayarlarını bir XML dosyasından yükleyin. Bu XML dosyası yazı tipi geri dönüşü için kuralları içerir.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -65,7 +67,7 @@ fontSettings.FallbackSettings.Load(dataDir + "Font fallback rules.xml");
 
 ## Adım 4: Yazı Tipi Ayarlarını Belgeye Uygula
 
- Yapılandırılanı atayın`FontSettings`belgeye. Bu, belgenin işlenmesi sırasında yazı tipi yedek kurallarının uygulanmasını sağlar.
+Yapılandırılanı atayın `FontSettings` belgeye. Bu, belgenin işlenmesi sırasında yazı tipi yedek kurallarının uygulanmasını sağlar.
 
 ```csharp
 doc.FontSettings = fontSettings;
@@ -113,7 +115,7 @@ Evet, XML kurallarında birden fazla yedek yazı tipi belirtebilirsiniz. Aspose.
 
 ### S3: Aspose.Words for .NET'i nereden indirebilirim?
 
- Bunu şuradan indirebilirsiniz:[Aspose indirme sayfası](https://releases.aspose.com/words/net/).
+Bunu şuradan indirebilirsiniz: [Aspose indirme sayfası](https://releases.aspose.com/words/net/).
 
 ### S4: Yazı tipi geri dönüş kuralları için XML dosyasını nasıl oluştururum?
 
@@ -121,10 +123,15 @@ XML dosyası herhangi bir metin düzenleyicisi kullanılarak oluşturulabilir. B
 
 ### S5: Aspose.Words için destek mevcut mu?
 
- Evet, destek bulabilirsiniz[Aspose.Words destek forumu](https://forum.aspose.com/c/words/8).
+Evet, destek bulabilirsiniz [Aspose.Words destek forumu](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

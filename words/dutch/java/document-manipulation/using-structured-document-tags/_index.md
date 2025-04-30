@@ -1,26 +1,28 @@
 ---
-title: Gebruik van gestructureerde documenttags (SDT) in Aspose.Words voor Java
-linktitle: Gebruik van gestructureerde documenttags (SDT)
-second_title: Aspose.Words Java Documentverwerkings-API
-description: Leer hoe u Structured Document Tags (SDT) in Aspose.Words voor Java gebruikt met deze uitgebreide gids. Maak, wijzig en bind SDT's aan aangepaste XML-gegevens.
-weight: 19
-url: /nl/java/document-manipulation/using-structured-document-tags/
+"description": "Leer hoe u Structured Document Tags (SDT) in Aspose.Words voor Java gebruikt met deze uitgebreide handleiding. Maak, wijzig en koppel SDT's aan aangepaste XML-gegevens."
+"linktitle": "Het gebruik van gestructureerde documenttags (SDT)"
+"second_title": "Aspose.Words Java Documentverwerking API"
+"title": "Het gebruik van gestructureerde documenttags (SDT) in Aspose.Words voor Java"
+"url": "/nl/java/document-manipulation/using-structured-document-tags/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gebruik van gestructureerde documenttags (SDT) in Aspose.Words voor Java
+# Het gebruik van gestructureerde documenttags (SDT) in Aspose.Words voor Java
 
 
 ## Inleiding tot het gebruik van gestructureerde documenttags (SDT) in Aspose.Words voor Java
 
-Structured Document Tags (SDT) zijn een krachtige functie in Aspose.Words voor Java waarmee u gestructureerde inhoud in uw documenten kunt maken en bewerken. In deze uitgebreide gids leiden we u door de verschillende aspecten van het gebruik van SDT's in Aspose.Words voor Java. Of u nu een beginner of een ervaren ontwikkelaar bent, u vindt waardevolle inzichten en praktische voorbeelden in dit artikel.
+Structured Document Tags (SDT) zijn een krachtige functie in Aspose.Words voor Java waarmee u gestructureerde inhoud in uw documenten kunt maken en bewerken. In deze uitgebreide handleiding leiden we u door de verschillende aspecten van het gebruik van SDT's in Aspose.Words voor Java. Of u nu een beginner of een ervaren ontwikkelaar bent, u vindt waardevolle inzichten en praktische voorbeelden in dit artikel.
 
 ## Aan de slag
 
-Voordat we in de details duiken, gaan we onze omgeving opzetten en een basis-SDT maken. In deze sectie behandelen we de volgende onderwerpen:
+Voordat we in de details duiken, gaan we onze omgeving opzetten en een basis-SDT creëren. In deze sectie behandelen we de volgende onderwerpen:
 
 - Een nieuw document maken
 - Een gestructureerde documenttag toevoegen
@@ -40,7 +42,7 @@ doc.save("WorkingWithSDT.docx");
 
 ## De huidige status van een selectievakje SDT controleren
 
-Nadat u een checkbox SDT aan uw document hebt toegevoegd, wilt u mogelijk de huidige status ervan programmatisch controleren. Dit kan handig zijn wanneer u gebruikersinvoer moet valideren of specifieke acties moet uitvoeren op basis van de checkboxstatus.
+Nadat u een selectievakje-SDT aan uw document hebt toegevoegd, wilt u de huidige status mogelijk programmatisch controleren. Dit kan handig zijn wanneer u gebruikersinvoer moet valideren of specifieke acties moet uitvoeren op basis van de status van het selectievakje.
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
@@ -56,7 +58,7 @@ doc.save("UpdatedDocument.docx");
 
 ## Inhoudsbesturingselementen wijzigen
 
-In deze sectie gaan we onderzoeken hoe u inhoudsbesturingen in uw document kunt wijzigen. We behandelen drie typen inhoudsbesturingen: platte tekst, vervolgkeuzelijst en afbeelding.
+In deze sectie bespreken we hoe u inhoudselementen in uw document kunt wijzigen. We behandelen drie soorten inhoudselementen: platte tekst, vervolgkeuzelijst en afbeelding.
 
 ### Wijzigen van de inhoud van platte tekst
 
@@ -77,7 +79,7 @@ if (sdtPlainText.getSdtType() == SdtType.PLAIN_TEXT) {
 doc.save("ModifiedDocument.docx");
 ```
 
-### Wijzigen van de inhoud van de vervolgkeuzelijst
+### Het wijzigen van de inhoud van de vervolgkeuzelijst
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
@@ -92,7 +94,7 @@ if (sdtDropDown.getSdtType() == SdtType.DROP_DOWN_LIST) {
 doc.save("ModifiedDocument.docx");
 ```
 
-### Afbeeldinginhoudsbeheer wijzigen
+### Het wijzigen van de afbeeldinginhoudsbesturing
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
@@ -109,7 +111,7 @@ doc.save("ModifiedDocument.docx");
 
 ## Een ComboBox-inhoudsbesturingselement maken
 
-Met een ComboBox Content Control kunnen gebruikers kiezen uit een vooraf gedefinieerde lijst met opties. Laten we er een maken in ons document.
+Met een ComboBox-inhoudsbesturingselement kunnen gebruikers kiezen uit een vooraf gedefinieerde lijst met opties. Laten we er een maken in ons document.
 
 ```java
 Document doc = new Document();
@@ -124,7 +126,7 @@ doc.save("ComboBoxDocument.docx");
 
 ## Werken met Rich Text Content Control
 
-Rich Text Content Controls zijn perfect voor het toevoegen van geformatteerde tekst aan uw documenten. Laten we er een maken en de inhoud ervan instellen.
+Rich Text Content Controls zijn perfect om opgemaakte tekst aan je documenten toe te voegen. Laten we er een maken en de inhoud ervan instellen.
 
 ```java
 Document doc = new Document();
@@ -142,7 +144,7 @@ doc.save("RichTextDocument.docx");
 
 ## Inhoudsbesturingsstijlen instellen
 
-U kunt stijlen toepassen op inhoudsbesturingselementen om het visuele uiterlijk van uw document te verbeteren. Laten we eens kijken hoe u de stijl van een inhoudsbesturingselement instelt.
+U kunt stijlen toepassen op inhoudsbesturingselementen om de visuele weergave van uw document te verbeteren. Laten we eens kijken hoe u de stijl van een inhoudsbesturingselement instelt.
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
@@ -157,7 +159,7 @@ doc.save("StyledDocument.docx");
 
 ## Een SDT binden aan aangepaste XML-gegevens
 
-In sommige scenario's moet u mogelijk een SDT binden aan aangepaste XML-gegevens voor dynamische contentgeneratie. Laten we eens kijken hoe u dit kunt bereiken.
+In sommige scenario's moet u mogelijk een SDT koppelen aan aangepaste XML-gegevens voor dynamische contentgeneratie. Laten we eens kijken hoe u dit kunt bereiken.
 
 ```java
 Document doc = new Document();
@@ -171,7 +173,7 @@ doc.save("CustomXMLBinding.docx");
 
 ## Een tabel maken met herhalende secties die zijn toegewezen aan aangepaste XML-gegevens
 
-Tabellen met herhalende secties kunnen extreem nuttig zijn voor het presenteren van gestructureerde data. Laten we zo'n tabel maken en deze toewijzen aan aangepaste XML-data.
+Tabellen met herhalende secties kunnen zeer nuttig zijn voor het presenteren van gestructureerde data. Laten we zo'n tabel maken en deze koppelen aan aangepaste XML-gegevens.
 
 ```java
 Document doc = new Document();
@@ -208,7 +210,7 @@ doc.save("RepeatingTableDocument.docx");
 
 ## Werken met gestructureerde documenttags met meerdere secties
 
-Gestructureerde documenttags kunnen meerdere secties in een document omvatten. In deze sectie gaan we onderzoeken hoe u met multi-section SDT's kunt werken.
+Gestructureerde documenttags kunnen meerdere secties in een document beslaan. In deze sectie bespreken we hoe u met SDT's met meerdere secties kunt werken.
 
 ```java
 Document doc = new Document("MultiSectionDocument.docx");
@@ -223,17 +225,17 @@ doc.save("ModifiedMultiSectionDocument.docx");
 
 ## Conclusie
 
-Gestructureerde documenttags in Aspose.Words voor Java bieden een veelzijdige manier om inhoud in uw documenten te beheren en op te maken. Of u nu sjablonen, formulieren of dynamische documenten moet maken, SDT's bieden de flexibiliteit en controle die u nodig hebt. Door de voorbeelden en richtlijnen in dit artikel te volgen, kunt u de kracht van SDT's benutten om uw documentverwerkingstaken te verbeteren.
+Gestructureerde documenttags in Aspose.Words voor Java bieden een veelzijdige manier om de inhoud van uw documenten te beheren en op te maken. Of u nu sjablonen, formulieren of dynamische documenten wilt maken, SDT's bieden de flexibiliteit en controle die u nodig hebt. Door de voorbeelden en richtlijnen in dit artikel te volgen, kunt u de kracht van SDT's benutten om uw documentverwerking te verbeteren.
 
 ## Veelgestelde vragen
 
 ### Wat is het doel van Structured Document Tags (SDT's)?
 
-Met gestructureerde documenttags (SDT's) kunt u de inhoud van documenten ordenen en opmaken. Zo kunt u eenvoudiger sjablonen, formulieren en gestructureerde documenten maken.
+Met Structured Document Tags (SDT's) kunt u de inhoud van documenten organiseren en opmaken. Hierdoor kunt u gemakkelijker sjablonen, formulieren en gestructureerde documenten maken.
 
 ### Hoe kan ik de huidige status van een Checkbox SDT controleren?
 
- U kunt de huidige status van een Checkbox SDT controleren met behulp van de`setChecked` methode, zoals aangetoond in het artikel.
+U kunt de huidige status van een Checkbox SDT controleren met behulp van de `setChecked` methode, zoals gedemonstreerd in het artikel.
 
 ### Kan ik stijlen toepassen op inhoudsbesturingselementen?
 
@@ -241,14 +243,19 @@ Ja, u kunt stijlen toepassen op inhoudsbesturingselementen om hun weergave in he
 
 ### Is het mogelijk om een SDT te koppelen aan aangepaste XML-gegevens?
 
-Ja, u kunt een SDT koppelen aan aangepaste XML-gegevens, waardoor dynamische inhoudsgeneratie en gegevenstoewijzing mogelijk zijn.
+Ja, u kunt een SDT koppelen aan aangepaste XML-gegevens, waardoor dynamische generatie van inhoud en gegevenstoewijzing mogelijk is.
 
 ### Wat zijn herhalende secties in SDT's?
 
 Met herhalende secties in SDT's kunt u tabellen met dynamische gegevens maken, waarbij rijen kunnen worden herhaald op basis van de toegewezen XML-gegevens.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

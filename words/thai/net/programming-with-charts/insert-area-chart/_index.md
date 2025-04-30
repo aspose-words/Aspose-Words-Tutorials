@@ -1,14 +1,16 @@
 ---
-title: แทรกแผนภูมิพื้นที่ลงในเอกสาร Word
-linktitle: แทรกแผนภูมิพื้นที่ลงในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแทรกแผนภูมิพื้นที่ลงในเอกสารโดยใช้ Aspose.Words สำหรับ .NET เพิ่มข้อมูลชุดข้อมูลและบันทึกเอกสารด้วยแผนภูมิ
-weight: 10
-url: /th/net/programming-with-charts/insert-area-chart/
+"description": "เรียนรู้วิธีการแทรกแผนภูมิพื้นที่ลงในเอกสารโดยใช้ Aspose.Words สำหรับ .NET เพิ่มข้อมูลชุดข้อมูลและบันทึกเอกสารด้วยแผนภูมิ"
+"linktitle": "แทรกแผนภูมิพื้นที่ลงในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แทรกแผนภูมิพื้นที่ลงในเอกสาร Word"
+"url": "/th/net/programming-with-charts/insert-area-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทรกแผนภูมิพื้นที่ลงในเอกสาร Word
@@ -21,7 +23,7 @@ url: /th/net/programming-with-charts/insert-area-chart/
 
 ก่อนที่เราจะเริ่มต้น เรามาตรวจสอบก่อนว่าคุณมีทุกสิ่งที่จำเป็นสำหรับการเริ่มต้น:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 2. .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework ไว้ในเครื่องของคุณแล้ว
 3. IDE: สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น Visual Studio เพื่อเขียนและดำเนินการโค้ดของคุณ
 4. ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C# จะเป็นประโยชน์
@@ -30,7 +32,7 @@ url: /th/net/programming-with-charts/insert-area-chart/
 
 ## นำเข้าเนมสเปซ
 
-ขั้นแรก เรามาทำการนำเข้าเนมสเปซที่จำเป็นกันก่อน เนมสเปซเหล่านี้มีคลาสและเมธอดที่จำเป็นสำหรับการทำงานกับเอกสาร Word และแผนภูมิใน Aspose.Words สำหรับ .NET
+ขั้นแรก เรามาทำการนำเข้าเนมสเปซที่จำเป็นกันก่อน เนมสเปซเหล่านี้มีคลาสและเมธอดที่จำเป็นสำหรับการใช้งานเอกสาร Word และแผนภูมิใน Aspose.Words สำหรับ .NET
 
 ```csharp
 using Aspose.Words;
@@ -45,34 +47,34 @@ using System;
 เริ่มต้นด้วยการสร้างเอกสาร Word ใหม่ ซึ่งจะเป็นฐานที่เราจะแทรกแผนภูมิพื้นที่
 
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 ```
 
- ในขั้นตอนนี้เราจะเริ่มต้นใหม่`Document` วัตถุที่แสดงถึงเอกสาร Word ของเรา
+ในขั้นตอนนี้เราจะเริ่มต้นใหม่ `Document` วัตถุที่แสดงถึงเอกสาร Word ของเรา
 
 ## ขั้นตอนที่ 2: ใช้ DocumentBuilder เพื่อแทรกแผนภูมิ
 
- ต่อไปเราจะใช้`DocumentBuilder` คลาสที่จะแทรกแผนภูมิพื้นที่เข้าไปในเอกสารของเรา
+ต่อไปเราจะใช้ `DocumentBuilder` คลาสที่จะแทรกแผนภูมิพื้นที่เข้าไปในเอกสารของเรา
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
 ```
 
- ที่นี่เราสร้าง`DocumentBuilder` วัตถุและใช้เพื่อแทรกแผนภูมิพื้นที่ที่มีมิติเฉพาะ (432x252) ลงในเอกสารของเรา
+ที่นี่เราสร้าง `DocumentBuilder` วัตถุและใช้เพื่อแทรกแผนภูมิพื้นที่ที่มีมิติเฉพาะ (432x252) ลงในเอกสารของเรา
 
 ## ขั้นตอนที่ 3: เข้าถึงวัตถุแผนภูมิ
 
- หลังจากแทรกแผนภูมิแล้ว เราต้องเข้าถึง`Chart` วัตถุที่จะปรับแต่งแผนภูมิพื้นที่ของเรา
+หลังจากแทรกแผนภูมิแล้ว เราต้องเข้าถึง `Chart` วัตถุที่จะปรับแต่งแผนภูมิพื้นที่ของเรา
 
 ```csharp
 Chart chart = shape.Chart;
 ```
 
- บรรทัดโค้ดนี้จะดึงข้อมูล`Chart` วัตถุจากรูปร่างที่เราเพิ่งแทรกเข้ามา
+บรรทัดโค้ดนี้จะดึงข้อมูล `Chart` วัตถุจากรูปร่างที่เราเพิ่งแทรกเข้ามา
 
 ## ขั้นตอนที่ 4: เพิ่มข้อมูลชุดข้อมูลลงในแผนภูมิ
 
@@ -112,7 +114,7 @@ doc.Save(dataDir + "WorkingWithCharts.InsertAreaChart.docx");
 ใช่ Aspose.Words สำหรับ .NET รองรับภาษา .NET อื่นๆ เช่น VB.NET
 
 ### สามารถปรับแต่งลักษณะของแผนภูมิได้หรือไม่
-แน่นอน! Aspose.Words สำหรับ .NET มีตัวเลือกมากมายในการปรับแต่งลักษณะที่ปรากฏของแผนภูมิของคุณ
+แน่นอน! Aspose.Words สำหรับ .NET มีตัวเลือกมากมายในการปรับแต่งลักษณะของแผนภูมิของคุณ
 
 ### ฉันสามารถเพิ่มแผนภูมิหลายรายการลงในเอกสาร Word เดียวได้หรือไม่
 ใช่ คุณสามารถแทรกแผนภูมิได้มากเท่าที่คุณต้องการในเอกสาร Word เดียว
@@ -121,10 +123,15 @@ doc.Save(dataDir + "WorkingWithCharts.InsertAreaChart.docx");
 ใช่ Aspose.Words สำหรับ .NET รองรับแผนภูมิประเภทต่างๆ รวมถึงแผนภูมิแท่ง แผนภูมิเส้น แผนภูมิวงกลม และอื่นๆ อีกมากมาย
 
 ### ฉันสามารถรับใบอนุญาตชั่วคราวสำหรับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
- คุณสามารถขอใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+คุณสามารถขอใบอนุญาตชั่วคราวได้จาก [ที่นี่](https://purchase-aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

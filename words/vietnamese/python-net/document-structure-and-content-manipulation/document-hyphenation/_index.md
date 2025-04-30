@@ -1,14 +1,16 @@
 ---
-title: Quản lý ngắt dòng và luồng văn bản trong tài liệu Word
-linktitle: Quản lý ngắt dòng và luồng văn bản trong tài liệu Word
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Tìm hiểu cách quản lý ngắt dòng và luồng văn bản trong tài liệu Word bằng Aspose.Words for Python. Tạo tài liệu trau chuốt, thân thiện với người đọc với các ví dụ từng bước và mã nguồn.
-weight: 17
-url: /vi/python-net/document-structure-and-content-manipulation/document-hyphenation/
+"description": "Tìm hiểu cách quản lý ngắt dòng và luồng văn bản trong tài liệu Word bằng Aspose.Words for Python. Tạo tài liệu trau chuốt, thân thiện với người đọc với các ví dụ từng bước và mã nguồn."
+"linktitle": "Quản lý ngắt dòng và luồng văn bản trong tài liệu Word"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Quản lý ngắt dòng và luồng văn bản trong tài liệu Word"
+"url": "/vi/python-net/document-structure-and-content-manipulation/document-hyphenation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Quản lý ngắt dòng và luồng văn bản trong tài liệu Word
@@ -23,7 +25,7 @@ Ngắt dòng là quá trình ngắt một từ ở cuối dòng để cải thi�
 
 ### Tầm quan trọng của việc ngắt dòng
 
-Ngắt dòng đảm bảo tài liệu của bạn trông chuyên nghiệp và hấp dẫn về mặt thị giác. Nó giúp duy trì luồng văn bản nhất quán và đều đặn, loại bỏ sự mất tập trung do khoảng cách không đều.
+Ngắt dòng đảm bảo tài liệu của bạn trông chuyên nghiệp và hấp dẫn về mặt thị giác. Nó giúp duy trì luồng văn bản nhất quán và đều, loại bỏ sự mất tập trung do khoảng cách không đều.
 
 ## Kiểm soát ngắt dòng
 
@@ -110,13 +112,13 @@ Góa phụ (các dòng đơn ở đầu trang) và mồ côi (các dòng đơn �
 
 Quản lý hiệu quả việc ngắt dòng và luồng văn bản là điều cần thiết để tạo ra các tài liệu Word được trau chuốt và thân thiện với người đọc. Với Aspose.Words for Python, bạn có các công cụ để triển khai các chiến lược ngắt dòng, kiểm soát luồng văn bản và nâng cao tính thẩm mỹ của toàn bộ tài liệu.
 
- Để biết thêm thông tin chi tiết và ví dụ, hãy tham khảo[Tài liệu API](https://reference.aspose.com/words/python-net/).
+Để biết thêm thông tin chi tiết và ví dụ, hãy tham khảo [Tài liệu API](https://reference.aspose.com/words/python-net/).
 
 ## Câu hỏi thường gặp
 
 ### Làm thế nào để bật chức năng ngắt dòng tự động trong tài liệu của tôi?
 
- Để bật chức năng ngắt dòng tự động, hãy đặt`auto_hyphenation` tùy chọn để`True` sử dụng Aspose.Words cho Python.
+Để bật chức năng ngắt dòng tự động, hãy đặt `auto_hyphenation` tùy chọn để `True` sử dụng Aspose.Words cho Python.
 
 ### Tôi có thể kiểm soát thủ công vị trí ngắt từ không?
 
@@ -132,11 +134,16 @@ Sử dụng cài đặt khoảng cách dòng trong Aspose.Words cho Python để
 
 ### Tôi có thể truy cập tài liệu Aspose.Words cho Python ở đâu?
 
- Bạn có thể truy cập tài liệu API tại[https://reference.aspose.com/words/python-net/](https://reference.aspose.com/words/python-net/).
+Bạn có thể truy cập tài liệu API tại [https://reference.aspose.com/words/python-net/](https://reference.aspose.com/words/python-net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

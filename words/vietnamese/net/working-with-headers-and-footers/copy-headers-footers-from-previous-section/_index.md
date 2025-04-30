@@ -1,14 +1,16 @@
 ---
-title: Sao chép Tiêu đề Chân trang Từ Phần Trước
-linktitle: Sao chép Tiêu đề Chân trang Từ Phần Trước
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách sao chép tiêu đề và chân trang giữa các phần trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn chi tiết này đảm bảo tính nhất quán và tính chuyên nghiệp.
-weight: 10
-url: /vi/net/working-with-headers-and-footers/copy-headers-footers-from-previous-section/
+"description": "Tìm hiểu cách sao chép tiêu đề và chân trang giữa các phần trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn chi tiết này đảm bảo tính nhất quán và tính chuyên nghiệp."
+"linktitle": "Sao chép Tiêu đề Chân trang Từ Phần Trước"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Sao chép Tiêu đề Chân trang Từ Phần Trước"
+"url": "/vi/net/working-with-headers-and-footers/copy-headers-footers-from-previous-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sao chép Tiêu đề Chân trang Từ Phần Trước
@@ -21,7 +23,7 @@ Việc thêm và sao chép header và footer trong tài liệu của bạn có t
 
 Trước khi bắt đầu hướng dẫn, hãy đảm bảo bạn có những điều sau:
 
--  Aspose.Words cho .NET: Tải xuống và cài đặt từ[liên kết tải xuống](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Tải xuống và cài đặt từ [liên kết tải xuống](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Chẳng hạn như Visual Studio, để viết và chạy mã C# của bạn.
 - Kiến thức cơ bản về C#: Có hiểu biết về lập trình C# và .NET framework.
 - Tài liệu mẫu: Sử dụng tài liệu hiện có hoặc tạo tài liệu mới như hướng dẫn trong bài hướng dẫn này.
@@ -38,7 +40,7 @@ using System;
 
 ## Bước 1: Tạo một tài liệu mới
 
- Đầu tiên, tạo một tài liệu mới và một`DocumentBuilder` để tạo điều kiện thuận lợi cho việc thêm và chỉnh sửa nội dung.
+Đầu tiên, tạo một tài liệu mới và một `DocumentBuilder` để tạo điều kiện thuận lợi cho việc thêm và chỉnh sửa nội dung.
 
 ```csharp
 Document doc = new Document();
@@ -73,7 +75,7 @@ currentSection.HeadersFooters.Clear();
 
 ## Bước 5: Sao chép Tiêu đề và Chân trang
 
-Sao chép tiêu đề và chân trang từ phần trước vào phần hiện tại. Điều này đảm bảo định dạng và nội dung nhất quán giữa các phần.
+Sao chép tiêu đề và chân trang từ phần trước sang phần hiện tại. Điều này đảm bảo định dạng và nội dung nhất quán giữa các phần.
 
 ```csharp
 foreach (HeaderFooter headerFooter in previousSection.HeadersFooters)
@@ -100,22 +102,27 @@ Aspose.Words for .NET là một thư viện mạnh mẽ cho phép các nhà phá
 
 ### Tôi có thể sao chép phần đầu trang và phần chân trang từ phần này sang phần khác không?
 
-Có, bạn có thể sao chép phần đầu trang và phần chân trang giữa bất kỳ phần nào trong tài liệu Word bằng phương pháp được mô tả trong hướng dẫn này.
+Có, bạn có thể sao chép tiêu đề và chân trang giữa bất kỳ phần nào trong tài liệu Word bằng phương pháp được mô tả trong hướng dẫn này.
 
 ### Tôi phải xử lý các tiêu đề và chân trang khác nhau cho các trang lẻ và trang chẵn như thế nào?
 
- Bạn có thể thiết lập các tiêu đề và chân trang khác nhau cho các trang lẻ và trang chẵn bằng cách sử dụng`PageSetup.OddAndEvenPagesHeaderFooter` tài sản.
+Bạn có thể thiết lập các tiêu đề và chân trang khác nhau cho các trang lẻ và trang chẵn bằng cách sử dụng `PageSetup.OddAndEvenPagesHeaderFooter` tài sản.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Words cho .NET ở đâu?
 
- Bạn có thể tìm thấy tài liệu toàn diện về[Trang tài liệu API Aspose.Words](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về [Trang tài liệu API Aspose.Words](https://reference.aspose.com/words/net/).
 
 ### Có bản dùng thử miễn phí Aspose.Words dành cho .NET không?
 
- Có, bạn có thể tải xuống bản dùng thử miễn phí từ[trang tải xuống](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí từ [trang tải xuống](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

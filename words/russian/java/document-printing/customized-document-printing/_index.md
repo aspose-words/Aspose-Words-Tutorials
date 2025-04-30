@@ -1,14 +1,16 @@
 ---
-title: Печать индивидуальных документов
-linktitle: Печать индивидуальных документов
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как без труда добиться индивидуальной печати документов с помощью Aspose.Words для Java. Это пошаговое руководство охватывает все от настройки до расширенной настройки.
-weight: 12
-url: /ru/java/document-printing/customized-document-printing/
+"description": "Узнайте, как без труда добиться индивидуальной печати документов с помощью Aspose.Words для Java. Это пошаговое руководство охватывает все&#58; от настройки до расширенной настройки."
+"linktitle": "Печать индивидуальных документов"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Печать индивидуальных документов"
+"url": "/ru/java/document-printing/customized-document-printing/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Печать индивидуальных документов
@@ -28,7 +30,7 @@ url: /ru/java/document-printing/customized-document-printing/
 
 ## Настройка Aspose.Words для Java
 
- Для начала загрузите библиотеку Aspose.Words для Java с сайта[здесь](https://releases.aspose.com/words/java/). Следуйте инструкциям по установке, чтобы интегрировать его в свой проект Java.
+Для начала загрузите библиотеку Aspose.Words для Java с сайта [здесь](https://releases.aspose.com/words/java/). Следуйте инструкциям по установке, чтобы интегрировать его в свой проект Java.
 
 ## Создание пустого документа
 
@@ -44,7 +46,7 @@ Document doc = new Document();
 Теперь давайте добавим немного контента в наш документ:
 
 ```java
-// Java-код для добавления контента в документ
+// Код Java для добавления контента в документ
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.write("Hello, Aspose.Words!");
 ```
@@ -64,7 +66,7 @@ Aspose.Words for Java предлагает расширенные возможн
 
 ## Поиск неисправностей
 
-Возникли проблемы? Советы по устранению неполадок см. в документации Aspose.Words for Java.
+Возникли проблемы? Обратитесь к документации Aspose.Words for Java за советами по устранению неполадок.
 
 ## Заключение
 
@@ -74,13 +76,13 @@ Aspose.Words for Java предлагает расширенные возможн
 
 ### Как установить Aspose.Words для Java?
 
- Чтобы установить Aspose.Words для Java, загрузите библиотеку с сайта[здесь](https://releases.aspose.com/words/java/)и следуйте предоставленным инструкциям по установке.
+Чтобы установить Aspose.Words для Java, загрузите библиотеку с сайта [здесь](https://releases.aspose.com/words/java/) и следуйте предоставленным инструкциям по установке.
 
 ### Могу ли я настроить макет документа?
 
 Да, Aspose.Words для Java позволяет настраивать макет документа, включая размер страницы, поля, верхние и нижние колонтитулы.
 
-### Подходит ли Aspose.Words for Java для создания сложных документов?
+### Подходит ли Aspose.Words для Java для создания сложных документов?
 
 Конечно! Aspose.Words для Java легко обрабатывает сложные документы, что делает его пригодным для широкого спектра приложений.
 
@@ -91,9 +93,14 @@ Aspose.Words for Java предлагает расширенные возможн
 ### Доступна ли пробная версия Aspose.Words для Java?
 
 Да, вы можете получить доступ к пробной версии Aspose.Words для Java на их веб-сайте.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

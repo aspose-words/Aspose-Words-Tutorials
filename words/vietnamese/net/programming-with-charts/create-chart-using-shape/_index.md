@@ -1,14 +1,16 @@
 ---
-title: Tạo & Tùy chỉnh Biểu đồ Sử dụng Shape
-linktitle: Tạo & Tùy chỉnh Biểu đồ Sử dụng Shape
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tạo và tùy chỉnh biểu đồ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho việc trực quan hóa dữ liệu.
-weight: 10
-url: /vi/net/programming-with-charts/create-chart-using-shape/
+"description": "Tìm hiểu cách tạo và tùy chỉnh biểu đồ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho việc trực quan hóa dữ liệu."
+"linktitle": "Tạo & Tùy chỉnh Biểu đồ Sử dụng Shape"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tạo & Tùy chỉnh Biểu đồ Sử dụng Shape"
+"url": "/vi/net/programming-with-charts/create-chart-using-shape/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo & Tùy chỉnh Biểu đồ Sử dụng Shape
@@ -21,7 +23,7 @@ Tạo và tùy chỉnh biểu đồ trong tài liệu của bạn là một kỹ
 
 Trước khi tìm hiểu mã, hãy đảm bảo bạn có những điều sau:
 
--  Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 - Visual Studio: Bất kỳ phiên bản nào hỗ trợ .NET.
 - Kiến thức cơ bản về C#: Hiểu được những kiến thức cơ bản về C# sẽ giúp bạn theo dõi hướng dẫn.
 
@@ -37,7 +39,7 @@ using Aspose.Words.Drawing.Charts;
 
 ## Bước 1: Tạo một tài liệu mới
 
-Đầu tiên, bạn cần tạo một tài liệu Word mới. Tài liệu này sẽ đóng vai trò là khung vẽ cho biểu đồ của bạn.
+Trước tiên, bạn cần tạo một tài liệu Word mới. Tài liệu này sẽ đóng vai trò là khung vẽ cho biểu đồ của bạn.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu của bạn
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Bước 2: Chèn biểu đồ
 
- Tiếp theo, bạn sẽ chèn biểu đồ đường vào tài liệu.`DocumentBuilder.InsertChart` phương pháp này được sử dụng cho mục đích này.
+Tiếp theo, bạn sẽ chèn biểu đồ đường vào tài liệu. `DocumentBuilder.InsertChart` phương pháp này được sử dụng cho mục đích này.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
@@ -86,33 +88,38 @@ doc.Save(dataDir + "WorkingWithCharts.CreateChartUsingShape.docx");
 
 ## Phần kết luận
 
-Trong hướng dẫn này, chúng tôi đã đề cập đến cách tạo và tùy chỉnh biểu đồ đường trong tài liệu Word bằng Aspose.Words cho .NET. Bằng cách làm theo hướng dẫn từng bước, giờ đây bạn có thể tạo biểu đồ hấp dẫn về mặt trực quan, truyền đạt dữ liệu của mình một cách hiệu quả. Aspose.Words cho .NET cung cấp nhiều tùy chọn tùy chỉnh, cho phép bạn tùy chỉnh biểu đồ theo nhu cầu cụ thể của mình.
+Trong hướng dẫn này, chúng tôi đã đề cập đến cách tạo và tùy chỉnh biểu đồ đường trong tài liệu Word bằng Aspose.Words cho .NET. Bằng cách làm theo hướng dẫn từng bước, giờ đây bạn có thể tạo biểu đồ hấp dẫn trực quan để truyền đạt dữ liệu của mình một cách hiệu quả. Aspose.Words cho .NET cung cấp nhiều tùy chọn tùy chỉnh, cho phép bạn tùy chỉnh biểu đồ theo nhu cầu cụ thể của mình.
 
 ## Câu hỏi thường gặp
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET để tạo các loại biểu đồ khác không?
 
- Có, Aspose.Words cho .NET hỗ trợ nhiều loại biểu đồ, bao gồm biểu đồ thanh, biểu đồ tròn và nhiều loại khác. Bạn có thể khám phá tài liệu[đây](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
+Có, Aspose.Words cho .NET hỗ trợ nhiều loại biểu đồ, bao gồm biểu đồ thanh, biểu đồ tròn và nhiều loại khác. Bạn có thể khám phá tài liệu [đây](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
 
 ### Tôi có thể dùng thử Aspose.Words cho .NET như thế nào trước khi mua?
 
- Bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/). Điều này cho phép bạn kiểm tra thư viện và các tính năng của nó trước khi mua.
+Bạn có thể tải xuống phiên bản dùng thử miễn phí từ [đây](https://releases.aspose.com/). Điều này cho phép bạn kiểm tra thư viện và các tính năng của nó trước khi mua.
 
 ### Có cách nào để được hỗ trợ nếu tôi gặp vấn đề không?
 
- Chắc chắn rồi. Bạn có thể truy cập hỗ trợ thông qua diễn đàn cộng đồng Aspose[đây](https://forum.aspose.com/c/words/8)Cộng đồng và đội ngũ nhân viên Aspose rất nhiệt tình.
+Chắc chắn rồi. Bạn có thể truy cập hỗ trợ thông qua diễn đàn cộng đồng Aspose [đây](https://forum.aspose.com/c/words/8). Cộng đồng và đội ngũ nhân viên Aspose rất nhiệt tình.
 
 ### Làm thế nào để mua giấy phép Aspose.Words cho .NET?
 
- Bạn có thể mua giấy phép trực tiếp từ trang web Aspose[đây](https://purchase.aspose.com/buy). Có nhiều lựa chọn cấp phép khác nhau để phù hợp với các nhu cầu khác nhau.
+Bạn có thể mua giấy phép trực tiếp từ trang web Aspose [đây](https://purchase.aspose.com/buy). Có nhiều lựa chọn cấp phép khác nhau để phù hợp với các nhu cầu khác nhau.
 
 ### Tôi phải làm sao nếu cần giấy phép tạm thời cho một dự án ngắn hạn?
 
- Aspose cung cấp giấy phép tạm thời mà bạn có thể yêu cầu[đây](https://purchase.aspose.com/temporary-license/).
+Aspose cung cấp giấy phép tạm thời mà bạn có thể yêu cầu [đây](https://purchase.aspose.com/temporary-license/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

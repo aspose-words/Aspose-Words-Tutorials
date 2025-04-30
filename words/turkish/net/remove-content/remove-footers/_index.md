@@ -1,14 +1,16 @@
 ---
-title: Word Belgesindeki Altbilgileri Kaldır
-linktitle: Word Belgesindeki Altbilgileri Kaldır
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kapsamlı adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerinden altbilgileri nasıl kaldıracağınızı öğrenin.
-weight: 10
-url: /tr/net/remove-content/remove-footers/
+"description": "Bu kapsamlı adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerinden altbilgileri nasıl kaldıracağınızı öğrenin."
+"linktitle": "Word Belgesindeki Altbilgileri Kaldır"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesindeki Altbilgileri Kaldır"
+"url": "/tr/net/remove-content/remove-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesindeki Altbilgileri Kaldır
@@ -21,7 +23,7 @@ Hiç Word belgesinden altbilgileri kaldırmakta zorlandınız mı? Yalnız deği
 
 Ayrıntılara dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-- .NET için Aspose.Words: Henüz yapmadıysanız, şu adresten indirin:[Burada](https://releases.aspose.com/words/net/).
+- .NET için Aspose.Words: Henüz yapmadıysanız, şu adresten indirin: [Burada](https://releases.aspose.com/words/net/).
 - .NET Framework: .NET Framework'ün yüklü olduğundan emin olun.
 - Entegre Geliştirme Ortamı (IDE): Kusursuz entegrasyon ve kodlama deneyimi için tercihen Visual Studio.
 
@@ -46,11 +48,11 @@ Document doc = new Document(dataDir + "Header and footer types.docx");
 ```
 
 - dataDir: Bu değişken belge dizininize giden yolu depolar.
--  Belge doc: Bu satır belgeyi`doc` nesne.
+- Belge doc: Bu satır belgeyi yükler `doc` nesne.
 
 ## Adım 2: Bölümler Arasında Yineleme Yapın
 
-Word belgelerinin her biri kendi başlık ve altbilgi kümesine sahip birden fazla bölümü olabilir. Altbilgileri kaldırmak için belgenin her bölümünde yineleme yapmanız gerekir.
+Word belgelerinin her biri kendi başlık ve altbilgi kümesine sahip birden fazla bölümü olabilir. Altbilgileri kaldırmak için belgenin her bölümünü yinelemeniz gerekir.
 
 ```csharp
 foreach (Section section in doc)
@@ -98,10 +100,10 @@ doc.Save(dataDir + "RemoveContent.RemoveFooters.docx");
 ## SSS
 
 ### Aynı yöntemi kullanarak başlıkları kaldırabilir miyim?
- Evet, başlıkları kaldırmak için benzer bir yaklaşımı şuraya erişerek kullanabilirsiniz:`HeaderFooterType.HeaderFirst`, `HeaderFooterType.HeaderPrimary` , Ve`HeaderFooterType.HeaderEven`.
+Evet, başlıkları kaldırmak için benzer bir yaklaşımı şuraya erişerek kullanabilirsiniz: `HeaderFooterType.HeaderFirst`, `HeaderFooterType.HeaderPrimary`, Ve `HeaderFooterType.HeaderEven`.
 
 ### Aspose.Words for .NET'i kullanmak ücretsiz mi?
- Aspose.Words for .NET ticari bir üründür, ancak bir tane edinebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) Özelliklerini test etmek için.
+Aspose.Words for .NET ticari bir üründür, ancak bir tane edinebilirsiniz [ücretsiz deneme](https://releases.aspose.com/) Özelliklerini test etmek için.
 
 ### Aspose.Words kullanarak Word belgesinin diğer öğelerini düzenleyebilir miyim?
 Kesinlikle! Aspose.Words, Word belgelerinde metinleri, resimleri, tabloları ve daha fazlasını düzenlemek için kapsamlı işlevler sunar.
@@ -110,10 +112,15 @@ Kesinlikle! Aspose.Words, Word belgelerinde metinleri, resimleri, tabloları ve 
 Aspose.Words, .NET Core da dahil olmak üzere .NET framework'ün çeşitli sürümlerini destekler.
 
 ### Daha detaylı dokümantasyon ve desteği nerede bulabilirim?
- Ayrıntılı bilgiye erişebilirsiniz[belgeleme](https://reference.aspose.com/words/net/) ve destek alın[Aspose.Words forumu](https://forum.aspose.com/c/words/8).
+Ayrıntılı bilgiye erişebilirsiniz [belgeleme](https://reference.aspose.com/words/net/) ve destek alın [Aspose.Words forumu](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

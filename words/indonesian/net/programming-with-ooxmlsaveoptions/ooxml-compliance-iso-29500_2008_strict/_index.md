@@ -1,14 +1,16 @@
 ---
-title: Kepatuhan Ooxml terhadap Iso 29500_2008_Ketat
-linktitle: Kepatuhan Ooxml terhadap Iso 29500_2008_Ketat
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memastikan kepatuhan OOXML ISO 29500_2008_Strict menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini.
-weight: 10
-url: /id/net/programming-with-ooxmlsaveoptions/ooxml-compliance-iso-29500_2008_strict/
+"description": "Pelajari cara memastikan kepatuhan OOXML ISO 29500_2008_Strict menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini."
+"linktitle": "Kepatuhan Ooxml terhadap Iso 29500_2008_Ketat"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Kepatuhan Ooxml terhadap Iso 29500_2008_Ketat"
+"url": "/id/net/programming-with-ooxmlsaveoptions/ooxml-compliance-iso-29500_2008_strict/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kepatuhan Ooxml terhadap Iso 29500_2008_Ketat
@@ -21,7 +23,7 @@ Apakah Anda siap untuk menyelami dunia kepatuhan dokumen dengan OOXML ISO 29500_
 
 Sebelum kita masuk ke inti permasalahan, mari pastikan Anda memiliki semua yang dibutuhkan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Jika belum, unduh[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Jika belum, unduh [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Siapkan lingkungan pengembangan Anda (misalnya, Visual Studio).
 3. Direktori Dokumen: Siapkan direktori tempat dokumen Word Anda disimpan.
 
@@ -46,7 +48,7 @@ Sebelum kita dapat mulai bekerja dengan dokumen tersebut, kita perlu mengatur ja
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Penjelasan: Baris kode ini menyiapkan variabel string`dataDir` yang menyimpan jalur ke direktori tempat dokumen Anda disimpan. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada sistem Anda.
+Penjelasan: Baris kode ini menyiapkan variabel string `dataDir` yang menyimpan jalur ke direktori tempat dokumen Anda disimpan. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada sistem Anda.
 
 ## Langkah 2: Muat Dokumen Word Anda
 
@@ -56,7 +58,7 @@ Berikutnya, kita akan memuat dokumen Word yang ingin Anda kerjakan.
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- Penjelasan:`Document` kelas dari Aspose.Words digunakan untuk memuat dokumen Word. Jalur dokumen dibuat dengan menggabungkan`dataDir` dengan nama dokumen`"Document.docx"`Pastikan dokumen ada di direktori yang ditentukan.
+Penjelasan: `Document` kelas dari Aspose.Words digunakan untuk memuat dokumen Word. Jalur dokumen dibuat dengan menggabungkan `dataDir` dengan nama dokumen `"Document.docx"`Pastikan dokumen ada di direktori yang ditentukan.
 
 ## Langkah 3: Optimalkan Dokumen untuk Word 2016
 
@@ -66,7 +68,7 @@ Untuk memastikan kompatibilitas dan kinerja optimal, kami perlu mengoptimalkan d
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2016);
 ```
 
- Penjelasan: Baris ini memanggil`OptimizeFor` metode pada`CompatibilityOptions` milik`doc` objek, menentukan`MsWordVersion.Word2016` untuk mengoptimalkan dokumen untuk Microsoft Word 2016.
+Penjelasan: Baris ini memanggil `OptimizeFor` metode pada `CompatibilityOptions` milik `doc` objek, menentukan `MsWordVersion.Word2016` untuk mengoptimalkan dokumen untuk Microsoft Word 2016.
 
 ## Langkah 4: Tetapkan Kepatuhan OOXML ke ISO 29500_2008_Strict
 
@@ -76,7 +78,7 @@ Sekarang, mari atur tingkat kepatuhan OOXML ke ISO 29500_2008_Strict.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions() { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 ```
 
- Penjelasan: Kami membuat sebuah instance dari`OoxmlSaveOptions` dan mengaturnya`Compliance`properti untuk`OoxmlCompliance.Iso29500_2008_Strict`Ini memastikan dokumen akan disimpan sesuai dengan standar ISO 29500_2008_Strict.
+Penjelasan: Kami membuat sebuah instance dari `OoxmlSaveOptions` dan mengaturnya `Compliance` properti untuk `OoxmlCompliance.Iso29500_2008_Strict`Ini memastikan dokumen akan disimpan sesuai dengan standar ISO 29500_2008_Strict.
 
 ## Langkah 5: Simpan Dokumen
 
@@ -86,7 +88,7 @@ Terakhir, mari simpan dokumen dengan pengaturan kepatuhan yang baru.
 doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.OoxmlComplianceIso29500_2008_Strict.docx", saveOptions);
 ```
 
- Penjelasan:`Save` metode dipanggil pada`doc` objek untuk menyimpan dokumen. Jalur tersebut mencakup direktori dan nama file baru`"WorkingWithOoxmlSaveOptions.OoxmlComplianceIso29500_2008_Strict.docx"` , dan menggunakan`saveOptions` kita konfigurasikan sebelumnya.
+Penjelasan: `Save` metode dipanggil pada `doc` objek untuk menyimpan dokumen. Jalur tersebut mencakup direktori dan nama file baru `"WorkingWithOoxmlSaveOptions.OoxmlComplianceIso29500_2008_Strict.docx"`, dan menggunakan `saveOptions` kita konfigurasikan sebelumnya.
 
 ## Kesimpulan
 
@@ -98,20 +100,25 @@ Nah, itu dia! Anda telah berhasil mengonfigurasi dokumen Word agar mematuhi OOXM
 Kepatuhan OOXML memastikan bahwa dokumen Anda kompatibel dengan berbagai versi Microsoft Word, meningkatkan aksesibilitas dan konsistensi.
 
 ### Dapatkah saya menggunakan metode ini untuk tingkat kepatuhan lainnya?
-Ya, Anda dapat mengatur tingkat kepatuhan yang berbeda dengan mengubah`OoxmlCompliance` properti di`OoxmlSaveOptions`.
+Ya, Anda dapat mengatur tingkat kepatuhan yang berbeda dengan mengubah `OoxmlCompliance` properti di `OoxmlSaveOptions`.
 
 ### Apa yang terjadi jika jalur dokumen salah?
- Jika jalur dokumen salah,`Document` konstruktor akan melempar`FileNotFoundException`Pastikan jalurnya benar.
+Jika jalur dokumen salah, `Document` konstruktor akan melempar `FileNotFoundException`Pastikan jalurnya benar.
 
 ### Apakah saya perlu mengoptimalkan untuk Word 2016?
 Meskipun tidak wajib, mengoptimalkan versi Word tertentu dapat meningkatkan kompatibilitas dan kinerja.
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya tentang Aspose.Words untuk .NET?
- Anda dapat menemukan lebih banyak sumber daya dan dokumentasi[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan lebih banyak sumber daya dan dokumentasi [Di Sini](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,124 +1,131 @@
 ---
-title: Kérje le a körlevél mezőneveket
-linktitle: Kérje le a körlevél mezőneveket
-second_title: Aspose.Words Document Processing API
-description: Ebből a részletes, lépésenkénti útmutatóból megtudhatja, hogyan vonhatja ki a körlevél-mezők neveit Word-dokumentumból az Aspose.Words for .NET használatával.
-weight: 10
-url: /hu/net/working-with-fields/get-mail-merge-field-names/
+"description": "Tanulja meg, hogyan kinyerheti a körlevelezési mezők nevét egy Word-dokumentumból az Aspose.Words for .NET segítségével ebből a részletes, lépésről lépésre haladó útmutatóból."
+"linktitle": "Körlevelezési mezőnevek lekérése"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Körlevelezési mezőnevek lekérése"
+"url": "/hu/net/working-with-fields/get-mail-merge-field-names/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kérje le a körlevél mezőneveket
+# Körlevelezési mezőnevek lekérése
 
 ## Bevezetés
 
-Üdvözöljük ebben az útmutatóban, amely az Aspose.Words for .NET segítségével kivonja a körlevél-mezőneveket Word-dokumentumból. Akár személyre szabott leveleket, akár egyéni jelentéseket készít, akár egyszerűen automatizálja a dokumentumok munkafolyamatait, a körlevél-mezők elengedhetetlenek. Helyőrzőként működnek a dokumentumban, amelyeket valós adatokkal helyettesítenek az egyesítési folyamat során. Ha az Aspose.Words for .NET programmal dolgozik, szerencséje van – ez a hatékony könyvtár hihetetlenül egyszerűvé teszi az interakciót ezekkel a mezőkkel. Ebben az oktatóanyagban egy egyszerű, de hatékony módszert mutatunk be a dokumentumban lévő körlevél-mezők nevének lekérésére, amely lehetővé teszi a körlevél-műveletek jobb megértését és kezelését.
+Üdvözöljük ebben az útmutatóban, amely bemutatja a körlevélmezők nevének kinyerését Word-dokumentumokból az Aspose.Words for .NET segítségével. Akár személyre szabott leveleket generál, akár egyéni jelentéseket készít, vagy egyszerűen csak automatizálja a dokumentumok munkafolyamatait, a körlevélmezők elengedhetetlenek. Helyőrzőkként működnek a dokumentumban, amelyeket az egyesítési folyamat során valódi adatokkal cserélnek le. Ha az Aspose.Words for .NET-tel dolgozik, szerencséje van – ez a hatékony könyvtár hihetetlenül egyszerűvé teszi a mezők kezelését. Ebben az oktatóanyagban egy egyszerű, mégis hatékony módszert mutatunk be a dokumentum körlevélmezők nevének kinyerésére, lehetővé téve a körlevélműveletek jobb megértését és kezelését.
 
 ## Előfeltételek
 
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt belevágnál az oktatóanyagba, győződj meg róla, hogy a következőkkel rendelkezel:
 
-1.  Aspose.Words for .NET Library: Győződjön meg arról, hogy telepítve van az Aspose.Words könyvtár. Ha nem, akkor letöltheti a[Aspose honlapja](https://releases.aspose.com/words/net/).
+1. Aspose.Words .NET könyvtárhoz: Győződjön meg róla, hogy telepítve van az Aspose.Words könyvtár. Ha nem, letöltheti innen: [Aspose weboldal](https://releases.aspose.com/words/net/).
 
-2. Fejlesztői környezet: A .NET-hez be kell állítani egy fejlesztői környezetet, például a Visual Studio-t.
+2. Fejlesztői környezet: Rendelkeznie kell egy .NET-hez beállított fejlesztői környezettel, például a Visual Studio-val.
 
-3. Word-dokumentum körlevél-mezőkkel: Készítsen Word-dokumentumot, amely körlevél-mezőket tartalmaz. Ezzel a dokumentummal fog dolgozni a mezőnevek kinyeréséhez.
+3. Körlevélmezőket tartalmazó Word-dokumentum: Készítsen elő egy körlevélmezőket tartalmazó Word-dokumentumot. Ezzel a dokumentummal fog dolgozni a mezőnevek kinyeréséhez.
 
-4. Alapvető C# ismeretek: A C# és .NET programozás ismerete hasznos lesz a példák mellett.
+4. C# alapismeretek: A C# és .NET programozásban való jártasság hasznos lesz a példák követéséhez.
 
 ## Névterek importálása
 
-A kezdéshez importálnia kell a szükséges névtereket a C# kódba. Ez lehetővé teszi az Aspose.Words funkció elérését. A következőképpen veheti fel őket:
+A kezdéshez importálnod kell a szükséges névtereket a C# kódodba. Ez lehetővé teszi az Aspose.Words funkciók elérését. Így illesztheted be őket:
 
 ```csharp
 using Aspose.Words;
 using System;
 ```
 
- A`Aspose.Words` A névtér hozzáférést biztosít a Word dokumentumok kezeléséhez szükséges összes osztályhoz és metódushoz`System` olyan alapvető funkciókhoz használják, mint a konzol kimenet.
+A `Aspose.Words` A névtér hozzáférést biztosít a Word dokumentumok kezeléséhez szükséges összes osztályhoz és metódushoz, miközben `System` alapvető funkciókhoz, például a konzolkimenethez használatos.
 
-Bontsuk le a körlevél-mezőnevek kibontásának folyamatát egy világos, lépésenkénti útmutatóban.
+Nézzük meg a körlevelezési mezők nevének kinyerésének folyamatát egy világos, lépésről lépésre bemutatott útmutatóban.
 
-## 1. lépés: Határozza meg a dokumentumkönyvtárat
+## 1. lépés: A dokumentumkönyvtár meghatározása
 
 Címsor: Adja meg a dokumentumok elérési útját
 
-Először is be kell állítania annak a könyvtárnak az elérési útját, ahol a Word-dokumentum található. Ez döntő fontosságú, mert megmondja az alkalmazásnak, hogy hol találja a fájlt. Íme, hogyan kell csinálni:
+Először is be kell állítania annak a könyvtárnak az elérési útját, ahol a Word-dokumentuma található. Ez azért kulcsfontosságú, mert ez jelzi az alkalmazásnak, hogy hol keresse a fájlt. Így teheti meg:
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Cserélje ki`"YOUR DOCUMENTS DIRECTORY"` a tényleges elérési úttal, ahol a dokumentum található. Ez valami ilyesmi lehet`"C:\\Documents\\MyDoc.docx"`.
+Csere `"YOUR DOCUMENTS DIRECTORY"` a dokumentum tényleges elérési útjával. Ez valami ilyesmi lehet `"C:\\Documents\\MyDoc.docx"`.
 
-## 2. lépés: Töltse be a dokumentumot
+## 2. lépés: A dokumentum betöltése
 
-Címsor: Töltse be a Word dokumentumot
+Cím: Word dokumentum betöltése
 
- Ezután betölti a dokumentumot a`Document` osztály által biztosított Aspose.Words. Ez lehetővé teszi, hogy programozottan kommunikáljon a dokumentummal.
+Ezután betölti a dokumentumot a(z) egy példányába. `Document` Az Aspose.Words által biztosított osztály. Ez lehetővé teszi a dokumentummal való programozott interakciót.
 
 ```csharp
 // Töltse be a dokumentumot.
 Document doc = new Document(dataDir + "YOUR DOCUMENT FILE");
 ```
 
- Cserélje ki`"YOUR DOCUMENT FILE"` a Word dokumentumfájl nevével, mint pl`"example.docx"`. Ez a kódsor beolvassa a dokumentumot a megadott könyvtárból, és előkészíti a további manipulációra.
+Csere `"YOUR DOCUMENT FILE"` a Word-dokumentumfájl nevével, például `"example.docx"`Ez a kódsor beolvassa a dokumentumot a megadott könyvtárból, és előkészíti a további feldolgozásra.
 
-## 3. lépés: Keresse le a körlevél mezőneveket
+## 3. lépés: A körlevelezési mezők nevének lekérése
 
-Címsor: Körlevél-mezőnevek kibontása
+Címsor: Körlevél mezőnevek kinyerése
 
- Most készen áll a dokumentumban található körlevél-mezők nevének lekérésére. Itt ragyog Aspose.Words – annak`MailMerge` osztály egyszerű módot biztosít a mezőnevek lekérésére.
+Most már készen állsz arra, hogy megkapd a dokumentumban szereplő körlevelező mezők nevét. Itt ragyog az Aspose.Words – a `MailMerge` Az osztály egyszerű módszert kínál a mezőnevek lekérésére.
 
 ```csharp
-// Az egyesítési mezők neveinek lekérése.
+// Egyesítési mezők nevének lekérése.
 string[] fieldNames = doc.MailMerge.GetFieldNames();
 ```
 
- A`GetFieldNames()`metódus karakterláncok tömbjét adja vissza, amelyek mindegyike a dokumentumban található körlevél-mezőnevet képviseli. Ezek azok a helyőrzők, amelyeket a Word-dokumentumban láthat.
+A `GetFieldNames()` A metódus karakterláncok tömbjét adja vissza, amelyek mindegyike a dokumentumban található körlevelező mező nevét jelöli. Ezek a helyőrzők, amelyeket a Word-dokumentumban látni fog.
 
-## 4. lépés: Jelenítse meg az egyesítési mezők számát
+## 4. lépés: Az egyesítési mezők számának megjelenítése
 
-Címsor: adja meg a mezők számát
+Címsor: Mezők számának kimenete
 
-A mezőnevek sikeres lekérésének ellenőrzéséhez a konzol segítségével megjelenítheti a mezők számát.
+A mezőnevek sikeres lekérésének megerősítéséhez a konzol segítségével megjelenítheti a mezők számát.
 
 ```csharp
-// Az egyesítési mezők számának megjelenítése.
+// Megjeleníti az egyesítési mezők számát.
 Console.WriteLine("\nDocument contains " + fieldNames.Length + " merge fields.");
 ```
 
-Ez a kódsor kinyomtatja a dokumentumban lévő körlevél-mezők teljes számát, így segít ellenőrizni, hogy a kibontási folyamat megfelelően működött.
+Ez a kódsor kinyomtatja a dokumentumban található körlevelező mezők teljes számát, így segít ellenőrizni, hogy a kinyerési folyamat megfelelően működött-e.
 
 ## Következtetés
 
-Gratulálok! Most megtanulta, hogyan lehet kivonatolni a körlevél-mezők neveit Word-dokumentumból az Aspose.Words for .NET segítségével. Ez a technika értékes eszköz a dokumentumok munkafolyamatainak kezelésére és automatizálására, megkönnyítve a személyre szabott tartalmak kezelését. Ha követi ezeket a lépéseket, hatékonyan azonosíthatja és kezelheti a dokumentumok körlevél-mezőit.
+Gratulálunk! Most már megtanulta, hogyan kinyerheti a körlevelező mezők nevét egy Word-dokumentumból az Aspose.Words for .NET segítségével. Ez a technika értékes eszköz a dokumentum-munkafolyamatok kezeléséhez és automatizálásához, megkönnyítve a személyre szabott tartalom kezelését. A következő lépéseket követve hatékonyan azonosíthatja és kezelheti a körlevelező mezőket a dokumentumokban.
 
-Ha bármilyen kérdése van, vagy további segítségre van szüksége, keresse fel a[Aspose.Words dokumentáció](https://reference.aspose.com/words/net/) vagy csatlakozzon a[Aspose közösség](https://forum.aspose.com/c/words/8) támogatásért. Boldog kódolást!
+Ha bármilyen kérdése van, vagy további segítségre van szüksége, bátran tekintse meg a [Aspose.Words dokumentáció](https://reference.aspose.com/words/net/) vagy csatlakozz a [Aspose közösség](https://forum.aspose.com/c/words/8) a támogatásért. Jó kódolást!
 
 ## GYIK
 
-### Mi az Aspose.Words for .NET?
-Az Aspose.Words for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára Word-dokumentumok programozott létrehozását, módosítását és kezelését .NET-alkalmazásokban.
+### Mi az Aspose.Words .NET-hez?
+Az Aspose.Words for .NET egy hatékony függvénytár, amely lehetővé teszi a fejlesztők számára, hogy Word dokumentumokat hozzanak létre, módosítsanak és kezeljenek programozottan a .NET alkalmazásokban.
 
-### Hogyan juthatok hozzá az Aspose.Words ingyenes próbaverziójához?
- Ingyenes próbaverziót kaphat, ha felkeresi a[Az Aspose kiadási oldala](https://releases.aspose.com/).
+### Hogyan szerezhetek ingyenes próbaverziót az Aspose.Words-ből?
+Ingyenes próbaverziót kérhet, ha ellátogat a következő oldalra: [Aspose kiadási oldal](https://releases.aspose.com/).
 
-### Használhatom az Aspose.Words-t licenc megvásárlása nélkül?
- Igen, használhatja a próbaidőszak alatt, de a folyamatos használathoz licencet kell vásárolnia a[Aspose vásárlási oldala](https://purchase.aspose.com/buy).
+### Használhatom az Aspose.Words-öt licenc vásárlása nélkül?
+Igen, használhatod a próbaidőszak alatt, de a folyamatos használathoz licencet kell vásárolnod a következőtől: [Az Aspose vásárlási oldala](https://purchase.aspose.com/buy).
 
-### Mi a teendő, ha problémákat tapasztalok az Aspose.Words programmal?
- Támogatásért látogassa meg a[Aspose fórum](https://forum.aspose.com/c/words/8) ahol kérdéseket tehet fel, és segítséget kérhet a közösségtől.
+### Mit tegyek, ha problémákba ütközöm az Aspose.Words használatával?
+Támogatásért látogassa meg a következőt: [Aspose fórum](https://forum.aspose.com/c/words/8) ahol kérdéseket tehet fel és segítséget kaphat a közösségtől.
 
-### Hogyan szerezhetek ideiglenes licencet az Aspose.Words számára?
- Ideiglenes jogosítványt igényelhetsz[Aspose ideiglenes licenc oldala](https://purchase.aspose.com/temporary-license/).
+### Hogyan szerezhetek ideiglenes licencet az Aspose.Words-höz?
+Ideiglenes jogosítványt igényelhet a következő címen: [Az Aspose ideiglenes licencoldala](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

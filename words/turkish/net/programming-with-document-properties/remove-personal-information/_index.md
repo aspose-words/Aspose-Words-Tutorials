@@ -1,14 +1,16 @@
 ---
-title: Kişisel Bilgileri Kaldır
-linktitle: Kişisel Bilgileri Kaldır
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Words for .NET kullanarak belgelerden kişisel bilgileri nasıl kaldıracağınızı öğrenin. Belge yönetimini basitleştirin.
-weight: 10
-url: /tr/net/programming-with-document-properties/remove-personal-information/
+"description": "Bu adım adım kılavuzla Aspose.Words for .NET kullanarak belgelerden kişisel bilgileri nasıl kaldıracağınızı öğrenin. Belge yönetimini basitleştirin."
+"linktitle": "Kişisel Bilgileri Kaldır"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Kişisel Bilgileri Kaldır"
+"url": "/tr/net/programming-with-document-properties/remove-personal-information/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kişisel Bilgileri Kaldır
@@ -21,7 +23,7 @@ Merhaba! Hiç kendinizi belge yönetimi görevlerinde boğulurken buldunuz mu? H
 
 İşin içine girmeden önce ihtiyacınız olan her şeyin yanınızda olduğundan emin olalım:
 
-1.  Aspose.Words for .NET: Henüz yapmadıysanız indirin[Burada](https://releases.aspose.com/words/net/) Ayrıca bir tane de alabilirsiniz[ücretsiz deneme](https://releases.aspose.com/) eğer yeni başlıyorsanız.
+1. Aspose.Words for .NET: Henüz yapmadıysanız indirin [Burada](https://releases.aspose.com/words/net/)Ayrıca bir tane de alabilirsiniz [ücretsiz deneme](https://releases.aspose.com/) eğer yeni başlıyorsanız.
 2. Geliştirme Ortamı: Visual Studio veya tercih ettiğiniz herhangi bir .NET geliştirme ortamı.
 3. Temel C# Bilgisi: Sihirbaz olmanıza gerek yok, ancak biraz aşinalık çok işinize yarayacaktır.
 
@@ -82,7 +84,7 @@ Kişisel bilgiler; yazar adları, belge özellikleri ve belgenin yaratıcısın�
 
 ### Aspose.Words for .NET ücretsiz mi?
 
- Aspose.Words şunları sunar:[ücretsiz deneme](https://releases.aspose.com/) böylece bunu deneyebilirsiniz, ancak tam işlevsellik için bir lisans satın almanız gerekir. Şuraya göz atın:[fiyatlandırma](https://purchase.aspose.com/buy) Daha detaylı bilgi için.
+Aspose.Words şunları sunar: [ücretsiz deneme](https://releases.aspose.com/) böylece bunu deneyebilirsiniz, ancak tam işlevsellik için bir lisans satın almanız gerekir. Şuraya göz atın [fiyatlandırma](https://purchase.aspose.com/buy) Daha detaylı bilgi için.
 
 ### Aspose.Words'ü diğer belge formatlarında kullanabilir miyim?
 
@@ -90,14 +92,19 @@ Kesinlikle! Aspose.Words DOCX, PDF, HTML ve daha fazlası dahil olmak üzere çe
 
 ### Sorun yaşarsam nasıl destek alabilirim?
 
- Aspose.Words'ü ziyaret edebilirsiniz[destek forumu](https://forum.aspose.com/c/words/8) Herhangi bir sorun veya sorunuz olduğunda yardım için.
+Aspose.Words'ü ziyaret edebilirsiniz [destek forumu](https://forum.aspose.com/c/words/8) Herhangi bir sorun veya sorunuz olduğunda yardım için.
 
 ### Aspose.Words başka hangi özellikleri sunuyor?
 
-Aspose.Words özelliklerle doludur. Belgeleri çok sayıda yolla oluşturabilir, düzenleyebilir, dönüştürebilir ve işleyebilirsiniz. Tam liste için şuraya bakın:[belgeleme](https://reference.aspose.com/words/net/).
+Aspose.Words özelliklerle doludur. Belgeleri çok sayıda yolla oluşturabilir, düzenleyebilir, dönüştürebilir ve işleyebilirsiniz. Tam liste için şuraya bakın: [belgeleme](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

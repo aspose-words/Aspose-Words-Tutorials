@@ -1,14 +1,16 @@
 ---
-title: ตั้งค่าตัวเลือกโครงร่างในเอกสาร PDF
-linktitle: ตั้งค่าตัวเลือกโครงร่างในเอกสาร PDF
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีตั้งค่าตัวเลือกโครงร่างในเอกสาร PDF โดยใช้ Aspose.Words สำหรับ .NET ปรับปรุงการนำทาง PDF โดยการกำหนดค่าระดับหัวเรื่องและโครงร่างที่ขยาย
-weight: 10
-url: /th/net/programming-with-pdfsaveoptions/set-outline-options/
+"description": "เรียนรู้วิธีตั้งค่าตัวเลือกโครงร่างในเอกสาร PDF โดยใช้ Aspose.Words สำหรับ .NET ปรับปรุงการนำทาง PDF โดยการกำหนดค่าระดับหัวเรื่องและโครงร่างที่ขยาย"
+"linktitle": "ตั้งค่าตัวเลือกโครงร่างในเอกสาร PDF"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ตั้งค่าตัวเลือกโครงร่างในเอกสาร PDF"
+"url": "/th/net/programming-with-pdfsaveoptions/set-outline-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตั้งค่าตัวเลือกโครงร่างในเอกสาร PDF
@@ -21,7 +23,7 @@ url: /th/net/programming-with-pdfsaveoptions/set-outline-options/
 
 ก่อนที่คุณจะเริ่มต้น มีบางสิ่งที่คุณจะต้องแน่ใจว่าคุณมี:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถทำได้ดังนี้:[ดาวน์โหลดเวอร์ชันล่าสุดได้ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถทำได้ดังนี้: [ดาวน์โหลดเวอร์ชันล่าสุดได้ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา .NET: คุณจะต้องมีสภาพแวดล้อมการพัฒนา .NET ที่ใช้งานได้ เช่น Visual Studio
 3. ความเข้าใจพื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับภาษาการเขียนโปรแกรม C# จะช่วยให้คุณทำตามได้อย่างง่ายดาย
 4. เอกสาร Word: เตรียมเอกสาร Word ที่จะแปลงเป็น PDF ไว้
@@ -44,21 +46,21 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- ในโค้ดตัวอย่างด้านบน ให้แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ ซึ่งจะแจ้งให้โปรแกรมทราบว่าจะค้นหาเอกสาร Word ได้จากที่ใด
+ในโค้ดตัวอย่างด้านบน ให้แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ ซึ่งจะแจ้งให้โปรแกรมทราบว่าจะค้นหาเอกสาร Word ได้จากที่ใด
 
 ## ขั้นตอนที่ 2: กำหนดค่าตัวเลือกการบันทึก PDF
 
- ขั้นต่อไป คุณต้องกำหนดค่าตัวเลือกการบันทึก PDF ซึ่งรวมถึงการตั้งค่าวิธีจัดการโครงร่างในผลลัพธ์ PDF คุณจะใช้`PdfSaveOptions` ชั้นเรียนที่จะทำสิ่งนี้
+ขั้นต่อไป คุณต้องกำหนดค่าตัวเลือกการบันทึก PDF ซึ่งรวมถึงการตั้งค่าวิธีจัดการโครงร่างในผลลัพธ์ PDF คุณจะใช้ `PdfSaveOptions` ชั้นเรียนที่จะทำสิ่งนี้
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 ```
 
-ต่อไปเรามาตั้งค่าตัวเลือกโครงร่างกัน 
+ต่อไปเรามาตั้งค่าตัวเลือกเค้าร่างกัน 
 
 ### กำหนดระดับโครงร่างหัวข้อ
 
- การ`HeadingsOutlineLevels` คุณสมบัติจะกำหนดว่าควรใส่หัวเรื่องกี่ระดับในโครงร่าง PDF ตัวอย่างเช่น หากคุณตั้งค่าเป็น 3 ระบบจะใส่หัวเรื่องได้สูงสุดสามระดับในโครงร่าง PDF
+การ `HeadingsOutlineLevels` คุณสมบัติจะกำหนดว่าควรใส่หัวเรื่องกี่ระดับในโครงร่าง PDF ตัวอย่างเช่น หากคุณตั้งค่าเป็น 3 ระบบจะใส่หัวเรื่องได้สูงสุดสามระดับในโครงร่าง PDF
 
 ```csharp
 saveOptions.OutlineOptions.HeadingsOutlineLevels = 3;
@@ -66,7 +68,7 @@ saveOptions.OutlineOptions.HeadingsOutlineLevels = 3;
 
 ### ตั้งค่าระดับเค้าร่างขยาย
 
- การ`ExpandedOutlineLevels`คุณสมบัติจะควบคุมจำนวนระดับของโครงร่างที่ควรขยายตามค่าเริ่มต้นเมื่อเปิด PDF การตั้งค่านี้เป็น 1 จะขยายหัวเรื่องระดับบนสุด ทำให้มองเห็นส่วนหลักได้ชัดเจน
+การ `ExpandedOutlineLevels` คุณสมบัติจะควบคุมจำนวนระดับของโครงร่างที่ควรขยายตามค่าเริ่มต้นเมื่อเปิด PDF การตั้งค่านี้เป็น 1 จะขยายหัวเรื่องระดับบนสุด ทำให้มองเห็นส่วนหลักได้ชัดเจน
 
 ```csharp
 saveOptions.OutlineOptions.ExpandedOutlineLevels = 1;
@@ -74,7 +76,7 @@ saveOptions.OutlineOptions.ExpandedOutlineLevels = 1;
 
 ## ขั้นตอนที่ 3: บันทึกเอกสารเป็น PDF
 
- เมื่อกำหนดค่าตัวเลือกแล้ว คุณก็พร้อมที่จะบันทึกเอกสารเป็น PDF ใช้`Save` วิธีการของ`Document` คลาสและส่งผ่านเส้นทางไฟล์และบันทึกตัวเลือก
+เมื่อกำหนดค่าตัวเลือกแล้ว คุณก็พร้อมที่จะบันทึกเอกสารเป็น PDF ใช้ `Save` วิธีการของ `Document` คลาสและส่งผ่านเส้นทางไฟล์และบันทึกตัวเลือก
 
 ```csharp
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.SetOutlineOptions.pdf", saveOptions);
@@ -107,9 +109,14 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.SetOutlineOptions.pdf", saveOption
 ### ฉันสามารถกำหนดค่าตัวเลือกการบันทึก PDF อื่น ๆ อะไรได้บ้างด้วย Aspose.Words
 
 Aspose.Words มีตัวเลือกต่างๆ เช่น การตั้งค่าระดับความสอดคล้องกับ PDF การฝังฟอนต์ และการปรับคุณภาพของรูปภาพ
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

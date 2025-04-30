@@ -1,14 +1,16 @@
 ---
-title: Klonowanie modułu Vba z dokumentu Word
-linktitle: Klonowanie modułu Vba z dokumentu Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Klonuj moduły VBA w dokumentach Word bez wysiłku dzięki Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby płynnie manipulować dokumentami!
-weight: 10
-url: /pl/net/working-with-vba-macros/clone-vba-module/
+"description": "Klonuj moduły VBA w dokumentach Word bez wysiłku dzięki Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby płynnie manipulować dokumentami!"
+"linktitle": "Klonowanie modułu Vba z dokumentu Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Klonowanie modułu Vba z dokumentu Word"
+"url": "/pl/net/working-with-vba-macros/clone-vba-module/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Klonowanie modułu Vba z dokumentu Word
@@ -22,10 +24,10 @@ Hej, koledzy programiści! Jesteście gotowi zanurzyć się w świecie Aspose.Wo
 
 Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, czego potrzebujesz. Oto krótka lista kontrolna:
 
-1.  Biblioteka Aspose.Words dla platformy .NET: Upewnij się, że masz najnowszą wersję[Biblioteka Aspose.Words dla .NET](https://releases.aspose.com/words/net/). Możesz pobrać go z oficjalnej strony.
+1. Biblioteka Aspose.Words dla platformy .NET: Upewnij się, że masz najnowszą wersję [Biblioteka Aspose.Words dla .NET](https://releases.aspose.com/words/net/). Możesz pobrać go z oficjalnej strony.
 2. Środowisko programistyczne: Będziesz potrzebować środowiska programistycznego .NET, np. Visual Studio.
 3. Podstawowa znajomość języka C#: Podstawowa znajomość języka C# będzie pomocna podczas poruszania się po kodzie.
-4.  Przykładowy dokument: Posiadanie[Dokument Word](https://github.com/aspose-words/Aspose.Words-for-.NET/raw/99ba2a2d8b5d650deb40106225f383376b8b4bc6/Examples/Data/VBA%20project.docm) (.docm) z projektem VBA gotowym do pracy. Możesz utworzyć własny lub użyć istniejącego.
+4. Przykładowy dokument: Posiadanie [Dokument Word](https://github.com/aspose-words/Aspose.Words-for-.NET/raw/99ba2a2d8b5d650deb40106225f383376b8b4bc6/Examples/Data/VBA%20project.docm) (.docm) z projektem VBA gotowym do pracy. Możesz utworzyć własny lub użyć istniejącego.
 
 ## Importuj przestrzenie nazw
 
@@ -50,7 +52,7 @@ Zacznijmy od zdefiniowania ścieżki:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twoich dokumentów. To jest miejsce, w którym będzie się znajdował Twój dokument źródłowy z projektem VBA i gdzie zostanie zapisany nowy dokument.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twoich dokumentów. To jest miejsce, w którym będzie się znajdował Twój dokument źródłowy z projektem VBA i gdzie zostanie zapisany nowy dokument.
 
 ## Krok 2: Ładowanie dokumentu za pomocą projektu VBA
 
@@ -78,7 +80,7 @@ Oto kod umożliwiający utworzenie nowego dokumentu:
 Document destDoc = new Document { VbaProject = new VbaProject() };
 ```
 
- Tworzy to nową instancję`Document` klasa z pustym projektem VBA.
+Tworzy to nową instancję `Document` klasa z pustym projektem VBA.
 
 ## Krok 4: Klonowanie modułu VBA
 
@@ -113,17 +115,17 @@ Ten wiersz zapisuje nowy dokument pod nazwą „WorkingWithVba.CloneVbaModule.do
 
 masz to! Udało Ci się sklonować moduł VBA z jednego dokumentu Word do drugiego przy użyciu Aspose.Words dla .NET. Ta potężna biblioteka sprawia, że manipulowanie dokumentami Word jest niezwykle łatwe, a kroki, które omówiliśmy, to tylko wierzchołek góry lodowej. Niezależnie od tego, czy automatyzujesz tworzenie dokumentów, modyfikujesz zawartość, czy zarządzasz projektami VBA, Aspose.Words ma dla Ciebie rozwiązanie.
 
- Jeśli chcesz poznać więcej funkcji, zapoznaj się z[Dokumentacja API](https://reference.aspose.com/words/net/) . Potrzebujesz pomocy? Odwiedź[forum wsparcia](https://forum.aspose.com/c/words/8) po pomoc.
+Jeśli chcesz poznać więcej funkcji, zapoznaj się z [Dokumentacja API](https://reference.aspose.com/words/net/). Potrzebujesz pomocy? Odwiedź [forum wsparcia](https://forum.aspose.com/c/words/8) po pomoc.
 
 Życzymy udanego kodowania i pamiętajcie — praktyka czyni mistrza!
 
 ## Często zadawane pytania
 
 ### Czym jest Aspose.Words dla .NET?  
-Aspose.Words for .NET to potężna biblioteka do tworzenia, modyfikowania i konwertowania dokumentów Word w aplikacjach .NET. Jest idealna do automatyzacji przepływów pracy dokumentów.
+Aspose.Words for .NET to potężna biblioteka do tworzenia, modyfikowania i konwertowania dokumentów Word w aplikacjach .NET. Jest idealna do automatyzacji przepływów pracy nad dokumentami.
 
 ### Czy mogę używać Aspose.Words za darmo?  
- Tak, możesz wypróbować Aspose.Words z[bezpłatny okres próbny](https://releases.aspose.com/) lub zdobądź[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) w celach ewaluacyjnych.
+Tak, możesz wypróbować Aspose.Words z [bezpłatny okres próbny](https://releases.aspose.com/) lub zdobądź [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) w celach ewaluacyjnych.
 
 ### Jak sklonować moduł VBA w Aspose.Words?  
 Aby sklonować moduł VBA, załaduj oryginalny dokument, sklonuj żądany moduł i dodaj go do projektu VBA nowego dokumentu. Następnie zapisz nowy dokument.
@@ -132,10 +134,15 @@ Aby sklonować moduł VBA, załaduj oryginalny dokument, sklonuj żądany moduł
 Język VBA w dokumentach programu Word jest powszechnie używany do automatyzowania powtarzających się zadań, tworzenia niestandardowych funkcji i rozszerzania funkcjonalności dokumentów za pomocą makr.
 
 ### Gdzie mogę kupić Aspose.Words dla .NET?  
- Aspose.Words dla .NET można zakupić w sklepie[Aspose.Zakup](https://purchase.aspose.com/buy).
+Aspose.Words dla .NET można zakupić w sklepie [Aspose.Zakup](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

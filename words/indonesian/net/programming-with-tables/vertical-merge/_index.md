@@ -1,14 +1,16 @@
 ---
-title: Penggabungan Vertikal
-linktitle: Penggabungan Vertikal
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Kuasai penggabungan vertikal dalam tabel Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci ini. Pelajari petunjuk langkah demi langkah untuk pemformatan dokumen profesional.
-weight: 10
-url: /id/net/programming-with-tables/vertical-merge/
+"description": "Kuasai penggabungan vertikal dalam tabel Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci ini. Pelajari petunjuk langkah demi langkah untuk pemformatan dokumen profesional."
+"linktitle": "Penggabungan Vertikal"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Penggabungan Vertikal"
+"url": "/id/net/programming-with-tables/vertical-merge/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Penggabungan Vertikal
@@ -21,7 +23,7 @@ Pernahkah Anda merasa terjerat dalam kerumitan penanganan tabel dalam dokumen Wo
 
 Sebelum kita masuk ke inti penggabungan vertikal, mari pastikan Anda telah menyiapkan semuanya agar pengalaman Anda berjalan lancar. Berikut ini yang Anda perlukan:
 
--  Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Jika belum, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Jika belum, Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Lingkungan pengembangan yang berfungsi seperti Visual Studio.
 - Pengetahuan Dasar C#: Keakraban dengan bahasa pemrograman C# akan bermanfaat.
 
@@ -60,7 +62,7 @@ builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 ```
 
- Pada langkah ini, kita masukkan sel pertama dan atur properti penggabungan vertikal ke`CellMerge.First`, yang menunjukkan bahwa ini adalah sel awal penggabungan. Kemudian, kita tambahkan beberapa teks ke sel ini.
+Pada langkah ini, kita masukkan sel pertama dan atur properti penggabungan vertikal ke `CellMerge.First`, yang menunjukkan bahwa ini adalah sel awal penggabungan. Kemudian, kita tambahkan beberapa teks ke sel ini.
 
 ## Langkah 3: Memasukkan Sel Kedua di Baris yang Sama
 
@@ -73,7 +75,7 @@ builder.Write("Text in one cell");
 builder.EndRow();
 ```
 
- Di sini, kita masukkan sel, atur properti penggabungan vertikal ke`CellMerge.None`, dan menambahkan beberapa teks ke dalamnya. Kemudian kita akhiri baris saat ini.
+Di sini, kita memasukkan sel, mengatur properti penggabungan vertikal menjadi `CellMerge.None`, dan menambahkan beberapa teks ke dalamnya. Kemudian kita akhiri baris saat ini.
 
 ## Langkah 4: Memasukkan Baris Kedua dan Menggabungkan Secara Vertikal
 
@@ -90,7 +92,7 @@ builder.EndRow();
 builder.EndTable();
 ```
 
- Kita mulai dengan memasukkan sel dan mengatur properti penggabungan vertikal ke`CellMerge.Previous`, yang menunjukkan bahwa sel tersebut harus digabungkan dengan sel di atasnya. Kemudian, kita masukkan sel lain di baris yang sama, tambahkan beberapa teks ke dalamnya, dan akhiri tabel.
+Kita mulai dengan memasukkan sel dan mengatur properti penggabungan vertikal ke `CellMerge.Previous`, yang menunjukkan bahwa sel tersebut harus digabungkan dengan sel di atasnya. Kemudian, kita masukkan sel lain di baris yang sama, tambahkan beberapa teks ke dalamnya, dan akhiri tabel.
 
 ## Langkah 5: Menyimpan Dokumen
 
@@ -122,9 +124,14 @@ Tidak, Aspose.Words untuk .NET bekerja secara independen dari Microsoft Word. An
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET untuk memanipulasi dokumen Word yang ada?
 Tentu saja! Aspose.Words untuk .NET memungkinkan Anda membuat, memodifikasi, dan mengelola dokumen Word yang ada dengan mudah.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

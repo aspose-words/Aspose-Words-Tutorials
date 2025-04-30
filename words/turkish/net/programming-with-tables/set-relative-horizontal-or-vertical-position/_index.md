@@ -1,29 +1,31 @@
 ---
-title: Göreceli Yatay veya Dikey Pozisyonu Ayarla
-linktitle: Göreceli Yatay veya Dikey Pozisyonu Ayarla
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzla, Aspose.Words for .NET kullanarak Word belgelerindeki tablolar için göreceli yatay ve dikey konumların nasıl ayarlanacağını öğrenin.
-weight: 10
-url: /tr/net/programming-with-tables/set-relative-horizontal-or-vertical-position/
+"description": "Bu adım adım kılavuzla, Aspose.Words for .NET'i kullanarak Word belgelerindeki tablolar için göreceli yatay ve dikey konumların nasıl ayarlanacağını öğrenin."
+"linktitle": "Göreceli Yatay veya Dikey Pozisyonu Ayarla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Göreceli Yatay veya Dikey Pozisyonu Ayarla"
+"url": "/tr/net/programming-with-tables/set-relative-horizontal-or-vertical-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Göreceli Yatay veya Dikey Pozisyonu Ayarla
 
 ## giriiş
 
-Word belgelerinizde tabloları istediğiniz gibi nasıl konumlandıracağınız konusunda hiç sıkışmış hissettiniz mi? Eh, yalnız değilsiniz. İster profesyonel bir rapor ister şık bir broşür oluşturuyor olun, tabloları hizalamak büyük fark yaratabilir. İşte tam bu noktada Aspose.Words for .NET işe yarıyor. Bu eğitim, Word belgelerinizde tablolar için göreceli yatay veya dikey konumların nasıl ayarlanacağı konusunda size adım adım rehberlik edecek. Hadi başlayalım!
+Word belgelerinizde tabloları istediğiniz şekilde nasıl konumlandıracağınız konusunda hiç sıkışmış hissettiniz mi? Eh, yalnız değilsiniz. İster profesyonel bir rapor ister şık bir broşür oluşturuyor olun, tabloları hizalamak büyük fark yaratabilir. İşte tam bu noktada Aspose.Words for .NET işe yarıyor. Bu eğitim, Word belgelerinizde tablolar için göreceli yatay veya dikey konumların nasıl ayarlanacağı konusunda size adım adım yol gösterecek. Hadi başlayalım!
 
 ## Ön koşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET: Henüz indirmediyseniz, indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Henüz indirmediyseniz, indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir .NET uyumlu IDE.
-3. Temel C# Bilgisi: Bu eğitim, C# programlamanın temellerine aşina olduğunuzu varsayar.
+3. C# Temel Bilgisi: Bu eğitim, C# programlamanın temellerine aşina olduğunuzu varsayar.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -39,7 +41,7 @@ using Aspose.Words.Tables;
 Başlamak için Word belgenizi programa yüklemeniz gerekir. Bunu şu şekilde yapabilirsiniz:
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Table wrapped by text.docx");
@@ -65,7 +67,7 @@ Bu kod satırı belgenin gövdesinden ilk tabloyu getirir. Belgenizde birden faz
 table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 ```
 
- Ayarlayarak`HorizontalAnchor` ile`RelativeHorizontalPosition.Column`, tabloya, bulunduğu sütuna göre yatay olarak hizalanmasını söylüyorsunuz.
+Ayarlayarak `HorizontalAnchor` ile `RelativeHorizontalPosition.Column`, tabloya, bulunduğu sütuna göre yatay olarak hizalanmasını söylüyorsunuz.
 
 ## Adım 4: Dikey Pozisyonu Ayarlayın
 
@@ -75,7 +77,7 @@ Yatay konumlandırmaya benzer şekilde, dikey konumu da ayarlayabilirsiniz. Bura
 table.VerticalAnchor = RelativeVerticalPosition.Page;
 ```
 
- Ayarlama`VerticalAnchor` ile`RelativeVerticalPosition.Page` Tablonun sayfaya göre dikey olarak hizalanmasını sağlar.
+Ayarlama `VerticalAnchor` ile `RelativeVerticalPosition.Page` Tablonun sayfaya göre dikey olarak hizalanmasını sağlar.
 
 ## Adım 5: Belgenizi Kaydedin
 
@@ -97,19 +99,24 @@ Bu komut, değiştirilen belgeyi yeni bir adla kaydeder ve orijinal dosyanızın
 Evet, Aspose.Words tabloları kenar boşlukları, sayfalar, sütunlar ve daha fazlası gibi çeşitli öğelere göre konumlandırmanıza olanak tanır.
 
 ### Aspose.Words for .NET'i kullanmak için lisansa ihtiyacım var mı?  
- Evet, bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) veya geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
+Evet, bir lisans satın alabilirsiniz [Burada](https://purchase.aspose.com/buy) veya geçici bir lisans alın [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words for .NET için ücretsiz deneme sürümü mevcut mu?  
- Kesinlikle! Ücretsiz denemeyi indirebilirsiniz[Burada](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz denemeyi indirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Words'ü diğer programlama dilleriyle kullanabilir miyim?  
 Aspose.Words öncelikle .NET için tasarlanmıştır, ancak Java, Python ve diğer platformlar için de sürümleri mevcuttur.
 
 ### Daha detaylı dokümanları nerede bulabilirim?  
-Daha ayrıntılı bilgi için Aspose.Words belgelerine bakın[Burada](https://reference.aspose.com/words/net/).
+Daha ayrıntılı bilgi için Aspose.Words belgelerine bakın [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Mã thụt lề
-linktitle: Mã thụt lề
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thêm và định dạng khối mã thụt lề trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này.
-weight: 10
-url: /vi/net/working-with-markdown/indented-code/
+"description": "Tìm hiểu cách thêm và định dạng khối mã thụt lề trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này."
+"linktitle": "Mã thụt lề"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Mã thụt lề"
+"url": "/vi/net/working-with-markdown/indented-code/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mã thụt lề
@@ -21,7 +23,7 @@ Bạn đã bao giờ tự hỏi làm thế nào để thêm một chút tùy ch�
 
 Trước khi đi sâu vào vấn đề chính, bạn cần chuẩn bị một số điều sau:
 
-1.  Aspose.Words cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words. Bạn có thể tải xuống từ[địa điểm](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words. Bạn có thể tải xuống từ [địa điểm](https://releases.aspose.com/words/net/).
    
 2. Visual Studio hoặc bất kỳ IDE .NET nào: Bạn sẽ cần một IDE để viết và thực thi mã của mình. Visual Studio là lựa chọn phổ biến, nhưng bất kỳ IDE nào tương thích với .NET đều có thể hoạt động.
    
@@ -29,7 +31,7 @@ Trước khi đi sâu vào vấn đề chính, bạn cần chuẩn bị một s�
 
 4. .NET Framework: Đảm bảo rằng dự án của bạn được thiết lập để sử dụng .NET Framework tương thích với Aspose.Words.
 
-5.  Tài liệu Aspose.Words: Làm quen với[Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) để biết thêm thông tin chi tiết và tham khảo.
+5. Tài liệu Aspose.Words: Làm quen với [Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) để biết thêm thông tin chi tiết và tham khảo.
 
 Bạn đã chuẩn bị mọi thứ chưa? Tuyệt! Chúng ta hãy chuyển sang phần thú vị nhé.
 
@@ -48,13 +50,13 @@ Bây giờ, chúng ta hãy cùng tìm hiểu quy trình thêm và định dạng
 
 ## Bước 1: Thiết lập tài liệu của bạn
 
- Đầu tiên, bạn cần tạo một tài liệu mới hoặc tải một tài liệu hiện có. Bước này bao gồm việc khởi tạo`Document` đối tượng sẽ đóng vai trò là nền tảng cho công việc của bạn.
+Đầu tiên, bạn cần tạo một tài liệu mới hoặc tải một tài liệu hiện có. Bước này bao gồm việc khởi tạo `Document` đối tượng sẽ đóng vai trò là nền tảng cho công việc của bạn.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 ```
 
-Ở đây, chúng tôi đang tạo một tài liệu mới và sử dụng`DocumentBuilder` để bắt đầu thêm nội dung.
+Ở đây, chúng tôi đang tạo một tài liệu mới và sử dụng `DocumentBuilder` để bắt đầu thêm nội dung.
 
 ## Bước 2: Xác định Phong cách Tùy chỉnh
 
@@ -67,7 +69,7 @@ indentedCode.Font.Name = "Courier New"; // Sử dụng phông chữ đơn cách 
 indentedCode.Font.Size = 10; // Đặt kích thước phông chữ nhỏ hơn cho mã
 ```
 
-Ở bước này, chúng ta sẽ tạo một kiểu đoạn văn mới có tên là "IndentedCode", đặt thụt lề trái thành 20 điểm và áp dụng phông chữ đơn cách (thường dùng cho mã).
+Ở bước này, chúng ta sẽ tạo một kiểu đoạn văn mới có tên là "IndentedCode", thiết lập thụt lề trái thành 20 điểm và áp dụng phông chữ đơn cách (thường dùng cho mã).
 
 ## Bước 3: Áp dụng Kiểu và Thêm Nội dung
 
@@ -89,10 +91,10 @@ Hãy thoải mái thử nghiệm nhiều kiểu dáng và thiết lập khác nh
 ## Câu hỏi thường gặp
 
 ### Tôi có thể điều chỉnh thụt lề của khối mã không?  
- Có, bạn có thể sửa đổi`LeftIndent` tính chất của kiểu này là tăng hoặc giảm thụt lề.
+Có, bạn có thể sửa đổi `LeftIndent` tính chất của kiểu này là tăng hoặc giảm thụt lề.
 
 ### Làm thế nào để tôi có thể thay đổi phông chữ được sử dụng cho khối mã?  
- Bạn có thể thiết lập`Font.Name` thuộc tính cho bất kỳ phông chữ đơn cách nào bạn chọn, như "Courier New" hoặc "Consolas".
+Bạn có thể thiết lập `Font.Name` thuộc tính cho bất kỳ phông chữ đơn cách nào bạn chọn, như "Courier New" hoặc "Consolas".
 
 ### Có thể thêm nhiều khối mã với nhiều kiểu khác nhau không?  
 Chắc chắn rồi! Bạn có thể định nghĩa nhiều kiểu với tên khác nhau và áp dụng chúng vào nhiều khối mã khác nhau khi cần.
@@ -102,9 +104,14 @@ Có, bạn có thể tùy chỉnh kiểu chữ bằng nhiều tùy chọn địn
 
 ### Làm thế nào để mở tài liệu đã lưu sau khi tạo?  
 Bạn có thể mở tài liệu bằng bất kỳ trình xử lý Word nào như Microsoft Word hoặc phần mềm tương thích để xem nội dung đã định dạng.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

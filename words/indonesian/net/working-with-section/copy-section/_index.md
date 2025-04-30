@@ -1,14 +1,16 @@
 ---
-title: Salin Bagian
-linktitle: Salin Bagian
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyalin bagian-bagian di antara dokumen Word menggunakan Aspose.Words untuk .NET. Panduan ini mencakup petunjuk langkah demi langkah untuk manajemen dokumen yang efisien.
-weight: 10
-url: /id/net/working-with-section/copy-section/
+"description": "Pelajari cara menyalin bagian-bagian di antara dokumen Word menggunakan Aspose.Words untuk .NET. Panduan ini mencakup petunjuk langkah demi langkah untuk manajemen dokumen yang efisien."
+"linktitle": "Salin Bagian"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Salin Bagian"
+"url": "/id/net/working-with-section/copy-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Salin Bagian
@@ -20,9 +22,9 @@ Hai, penggemar Word! 📄 Pernahkah Anda perlu menyalin bagian dari satu dokumen
 
 ## Prasyarat
 
-Sebelum kita masuk ke inti permasalahan, pastikan Anda telah menyiapkan hal berikut:
+Sebelum kita masuk ke inti permasalahan, pastikan Anda telah menyiapkan hal-hal berikut:
 
-1.  Pustaka Aspose.Words untuk .NET: Unduh versi terbaru[Di Sini](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Unduh versi terbaru [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: IDE yang kompatibel dengan .NET seperti Visual Studio.
 3. Pengetahuan Dasar C#: Keakraban dengan C# akan membantu Anda mengikutinya.
 4. Contoh Dokumen Word: Kami akan menggunakan dua contoh dokumen untuk tutorial ini.
@@ -37,13 +39,13 @@ using Aspose.Words;
 
 Ruang nama ini penting untuk bekerja dengan dokumen Word menggunakan Aspose.Words.
 
-Mari kita uraikan contoh tersebut menjadi panduan terperinci langkah demi langkah. Setiap langkah akan dijelaskan dengan jelas untuk memastikan Anda dapat mengikuti dan menerapkannya dalam proyek Anda.
+Mari kita uraikan contoh tersebut menjadi panduan terperinci dan langkah demi langkah. Setiap langkah akan dijelaskan dengan jelas untuk memastikan Anda dapat mengikuti dan menerapkannya dalam proyek Anda.
 
 ## Langkah 1: Inisialisasi Lingkungan Anda
 
 Sebelum masuk ke kode, pastikan Anda telah menginstal pustaka Aspose.Words dan menyiapkan dua contoh dokumen Word.
 
-1.  Unduh dan Instal Aspose.Words: Dapatkan[Di Sini](https://releases.aspose.com/words/net/).
+1. Unduh dan Instal Aspose.Words: Dapatkan [Di Sini](https://releases.aspose.com/words/net/).
 2. Siapkan Proyek Anda: Buka Visual Studio dan buat proyek .NET baru.
 3. Tambahkan Referensi Aspose.Words: Sertakan pustaka Aspose.Words dalam proyek Anda.
 
@@ -52,7 +54,7 @@ Sebelum masuk ke kode, pastikan Anda telah menginstal pustaka Aspose.Words dan m
 Kita perlu memuat dokumen sumber dan tujuan. Dokumen sumber adalah tempat kita akan menyalin bagian tersebut, dan dokumen tujuan adalah tempat kita akan menempelkan bagian yang disalin.
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document srcDoc = new Document(dataDir + "Document.docx");
@@ -93,7 +95,7 @@ Terakhir, simpan dokumen tujuan Anda untuk memastikan semua perubahan telah disi
 dstDoc.Save(dataDir + "WorkingWithSection.CopySection.docx");
 ```
 
- Mengganti`dataDir + "WorkingWithSection.CopySection.docx"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen. Baris kode ini akan menyimpan berkas Word tujuan dengan bagian yang disalin.
+Mengganti `dataDir + "WorkingWithSection.CopySection.docx"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen. Baris kode ini akan menyimpan berkas Word tujuan dengan bagian yang disalin.
 
 ## Kesimpulan
 
@@ -115,14 +117,19 @@ Ya, Aspose.Words mendukung berbagai format Word, termasuk DOC, DOCX, RTF, dan la
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya tentang Aspose.Words?
 
- Untuk informasi lebih lanjut, Anda dapat mengunjungi[Dokumentasi API Aspose.Words](https://reference.aspose.com/words/net/) atau[forum dukungan](https://forum.aspose.com/c/words/8) untuk bantuan dan diskusi.
+Untuk informasi lebih lanjut, Anda dapat mengunjungi [Dokumentasi API Aspose.Words](https://reference.aspose.com/words/net/) atau [forum dukungan](https://forum.aspose.com/c/words/8) untuk bantuan dan diskusi.
 
 ### Dapatkah saya mencoba Aspose.Words untuk .NET secara gratis?
 
- Ya, Anda dapat mengunduh uji coba gratis[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh uji coba gratis [Di Sini](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

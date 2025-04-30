@@ -1,14 +1,16 @@
 ---
-title: อ่านคุณสมบัติ Active XControl จากไฟล์ Word
-linktitle: อ่านคุณสมบัติ Active XControl จากไฟล์ Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการอ่านคุณสมบัติของตัวควบคุม ActiveX จากไฟล์ Word โดยใช้ Aspose.Words สำหรับ .NET ในคู่มือทีละขั้นตอน พัฒนาทักษะการจัดการเอกสารอัตโนมัติของคุณ
-weight: 10
-url: /th/net/working-with-oleobjects-and-activex/read-active-xcontrol-properties/
+"description": "เรียนรู้วิธีการอ่านคุณสมบัติของตัวควบคุม ActiveX จากไฟล์ Word โดยใช้ Aspose.Words สำหรับ .NET ในคู่มือทีละขั้นตอน พัฒนาทักษะการจัดการเอกสารอัตโนมัติของคุณ"
+"linktitle": "อ่านคุณสมบัติ Active XControl จากไฟล์ Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "อ่านคุณสมบัติ Active XControl จากไฟล์ Word"
+"url": "/th/net/working-with-oleobjects-and-activex/read-active-xcontrol-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # อ่านคุณสมบัติ Active XControl จากไฟล์ Word
@@ -21,7 +23,7 @@ url: /th/net/working-with-oleobjects-and-activex/read-active-xcontrol-properties
 
 ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1.  Aspose.Words สำหรับไลบรารี .NET: คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับไลบรารี .NET: คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. Visual Studio หรือ IDE C# ใดๆ: เพื่อเขียนและดำเนินการโค้ดของคุณ
 3. เอกสาร Word ที่มีตัวควบคุม ActiveX: ตัวอย่างเช่น "ActiveX controls.docx"
 4. ความรู้พื้นฐานเกี่ยวกับ C#: ต้องมีความคุ้นเคยกับการเขียนโปรแกรม C# เพื่อปฏิบัติตาม
@@ -49,7 +51,7 @@ Document doc = new Document(dataDir + "ActiveX controls.docx");
 
 ## ขั้นตอนที่ 2: สร้างสตริงเพื่อเก็บคุณสมบัติ
 
-ขั้นตอนต่อไป คือการกำหนดค่าเริ่มต้นของสตริงว่างเพื่อจัดเก็บคุณสมบัติของตัวควบคุม ActiveX
+ขั้นตอนต่อไป คือการเริ่มต้นสตริงว่างเพื่อจัดเก็บคุณสมบัติของตัวควบคุม ActiveX
 
 ```csharp
 string properties = "";
@@ -74,7 +76,7 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
 
 ## ขั้นตอนที่ 4: แยกคุณสมบัติจากตัวควบคุม ActiveX
 
-ตรวจสอบว่าตัวควบคุมนั้นเป็น Forms2OleControl ภายในลูปหรือไม่ หากใช่ ให้แคสต์และแยกคุณสมบัติออกมา
+ตรวจสอบว่าตัวควบคุมเป็น Forms2OleControl ภายในลูปหรือไม่ หากใช่ ให้แคสต์และแยกคุณสมบัติออกมา
 
 ```csharp
 Forms2OleControl checkBox = (Forms2OleControl) oleControl;
@@ -120,16 +122,21 @@ Console.WriteLine("\n" + properties);
 ใช่ Aspose.Words สำหรับ .NET ช่วยให้คุณสามารถปรับเปลี่ยนคุณสมบัติของตัวควบคุม ActiveX ได้โดยทางโปรแกรม
 
 ### Aspose.Words สำหรับ .NET ใช้ได้ฟรีหรือไม่?
- Aspose.Words for .NET เสนอให้ทดลองใช้งานฟรี แต่คุณจะต้องซื้อใบอนุญาตเพื่อใช้งานต่อ คุณสามารถทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+Aspose.Words for .NET เสนอให้ทดลองใช้งานฟรี แต่คุณจะต้องซื้อใบอนุญาตเพื่อใช้งานต่อ คุณสามารถทดลองใช้งานฟรีได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ .NET กับภาษา .NET อื่นๆ นอกเหนือจาก C# ได้หรือไม่
 ใช่ Aspose.Words สำหรับ .NET สามารถใช้ได้กับภาษา .NET ใดๆ ก็ได้ รวมถึง VB.NET และ F#
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ใด
- คุณสามารถค้นหาเอกสารรายละเอียดได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารรายละเอียดได้ [ที่นี่](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

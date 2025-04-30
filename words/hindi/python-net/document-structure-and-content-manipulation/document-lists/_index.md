@@ -1,14 +1,16 @@
 ---
-title: Word दस्तावेज़ों में सूचियाँ बनाना और प्रबंधित करना
-linktitle: Word दस्तावेज़ों में सूचियाँ बनाना और प्रबंधित करना
-second_title: Aspose.Words पायथन दस्तावेज़ प्रबंधन API
-description: Aspose.Words Python API का उपयोग करके Word दस्तावेज़ों में सूचियाँ बनाना और प्रबंधित करना सीखें। सूची स्वरूपण, अनुकूलन, नेस्टिंग, और अधिक के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 18
-url: /hi/python-net/document-structure-and-content-manipulation/document-lists/
+"description": "Aspose.Words Python API का उपयोग करके Word दस्तावेज़ों में सूचियाँ बनाना और प्रबंधित करना सीखें। सूची स्वरूपण, अनुकूलन, नेस्टिंग, और अधिक के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "Word दस्तावेज़ों में सूचियाँ बनाना और प्रबंधित करना"
+"second_title": "Aspose.Words पायथन दस्तावेज़ प्रबंधन API"
+"title": "Word दस्तावेज़ों में सूचियाँ बनाना और प्रबंधित करना"
+"url": "/hi/python-net/document-structure-and-content-manipulation/document-lists/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word दस्तावेज़ों में सूचियाँ बनाना और प्रबंधित करना
@@ -22,31 +24,31 @@ url: /hi/python-net/document-structure-and-content-manipulation/document-lists/
 
 ## वातावरण की स्थापना
 
- इससे पहले कि हम सूचियाँ बनाना और प्रबंधित करना शुरू करें, सुनिश्चित करें कि आपके पास Aspose.Words for Python लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/python/) इसके अतिरिक्त, API दस्तावेज़ देखें[इस लिंक](https://reference.aspose.com/words/python-net/) विस्तृत जानकारी के लिए.
+इससे पहले कि हम सूचियाँ बनाना और प्रबंधित करना शुरू करें, सुनिश्चित करें कि आपके पास Aspose.Words for Python लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/python/)इसके अतिरिक्त, API दस्तावेज़ देखें [इस लिंक](https://reference.aspose.com/words/python-net/) विस्तृत जानकारी के लिए.
 
 ## बुलेटेड सूचियाँ बनाना
 
 बुलेटेड सूचियों का उपयोग तब किया जाता है जब आइटम का क्रम महत्वपूर्ण नहीं होता है। Aspose.Words Python का उपयोग करके बुलेटेड सूची बनाने के लिए, इन चरणों का पालन करें:
 
 ```python
-# Import the necessary classes
+# आवश्यक कक्षाएं आयात करें
 from aspose.words import Document, ListTemplate, ListLevel
 
-# Create a new document
+# नया दस्तावेज़ बनाएँ
 doc = Document()
 
-# Create a list template and add it to the document
+# एक सूची टेम्पलेट बनाएँ और उसे दस्तावेज़ में जोड़ें
 list_template = ListTemplate(doc)
 doc.list_templates.add(list_template)
 
-# Add a list level to the template
+# टेम्पलेट में सूची स्तर जोड़ें
 list_level = ListLevel(list_template)
 list_template.list_levels.append(list_level)
 
-# Customize the list formatting if needed
-list_level.number_format = "\u2022"  # Bullet character
+# यदि आवश्यक हो तो सूची स्वरूपण को अनुकूलित करें
+list_level.number_format = "\u2022"  # बुलेट कैरेक्टर
 
-# Add list items
+# सूची आइटम जोड़ें
 list_item_texts = ["Item 1", "Item 2", "Item 3"]
 for text in list_item_texts:
     paragraph = doc.builder.insert_paragraph()
@@ -61,21 +63,21 @@ for text in list_item_texts:
 क्रमांकित सूचियाँ तब उपयुक्त होती हैं जब आइटम का क्रम मायने रखता है। यहाँ बताया गया है कि आप Aspose.Words Python का उपयोग करके क्रमांकित सूची कैसे बना सकते हैं:
 
 ```python
-# Import the necessary classes
+# आवश्यक कक्षाएं आयात करें
 from aspose.words import Document, ListTemplate, ListLevel
 
-# Create a new document
+# नया दस्तावेज़ बनाएँ
 doc = Document()
 
-# Create a list template and add it to the document
+# एक सूची टेम्पलेट बनाएँ और उसे दस्तावेज़ में जोड़ें
 list_template = ListTemplate(doc)
 doc.list_templates.add(list_template)
 
-# Add a list level to the template
+# टेम्पलेट में सूची स्तर जोड़ें
 list_level = ListLevel(list_template)
 list_template.list_levels.append(list_level)
 
-# Add list items
+# सूची आइटम जोड़ें
 list_item_texts = ["Item A", "Item B", "Item C"]
 for text in list_item_texts:
     paragraph = doc.builder.insert_paragraph()
@@ -116,10 +118,10 @@ for text in list_item_texts:
 ## पूछे जाने वाले प्रश्न
 
 ### मैं Python के लिए Aspose.Words कैसे स्थापित करूं?
- आप लाइब्रेरी को यहां से डाउनलोड कर सकते हैं[इस लिंक](https://releases.aspose.com/words/python/) और दस्तावेज़ में दिए गए स्थापना निर्देशों का पालन करें।
+आप लाइब्रेरी को यहां से डाउनलोड कर सकते हैं [इस लिंक](https://releases.aspose.com/words/python/) और दस्तावेज़ में दिए गए स्थापना निर्देशों का पालन करें।
 
 ### क्या मैं अपनी सूचियों के लिए क्रमांकन शैली को अनुकूलित कर सकता हूँ?
-बिल्कुल! Aspose.Words पायथन आपको अपनी सूचियों को अपनी विशिष्ट आवश्यकताओं के अनुरूप बनाने के लिए नंबरिंग प्रारूप, बुलेट शैलियों और संरेखण को अनुकूलित करने की अनुमति देता है।
+बिल्कुल! Aspose.Words पायथन आपको अपनी सूचियों को अपनी विशिष्ट आवश्यकताओं के अनुरूप बनाने के लिए क्रमांकन प्रारूप, बुलेट शैलियों और संरेखण को अनुकूलित करने की अनुमति देता है।
 
 ### क्या Aspose.Words का उपयोग करके नेस्टेड सूचियाँ बनाना संभव है?
 हां, आप अपनी मुख्य सूची में उपसूचियाँ जोड़कर नेस्टेड सूचियाँ बना सकते हैं। यह जानकारी को पदानुक्रमिक रूप से प्रस्तुत करने के लिए उपयोगी है।
@@ -128,10 +130,15 @@ for text in list_item_texts:
 हां, Aspose.Words पायथन सादे पाठ को सूचियों में पार्स और प्रारूपित करने के तरीके प्रदान करता है, जिससे आपकी सामग्री को संरचित करना आसान हो जाता है।
 
 ### सूचियाँ बनाने के बाद मैं अपना दस्तावेज़ कैसे सहेज सकता हूँ?
- आप अपने दस्तावेज़ को सहेज सकते हैं`doc.save()` विधि और वांछित आउटपुट प्रारूप, जैसे DOCX या PDF, निर्दिष्ट करना।
+आप अपने दस्तावेज़ को सहेज सकते हैं `doc.save()` विधि और वांछित आउटपुट प्रारूप, जैसे DOCX या PDF, निर्दिष्ट करना।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Resim
-linktitle: Resim
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Words for .NET kullanarak belgelerinize nasıl resim ekleyeceğinizi öğrenin. Belgelerinizi görsellerle kısa sürede geliştirin.
-weight: 10
-url: /tr/net/working-with-markdown/image/
+"description": "Bu adım adım kılavuzla Aspose.Words for .NET kullanarak belgelerinize nasıl resim ekleyeceğinizi öğrenin. Belgelerinizi görsellerle kısa sürede zenginleştirin."
+"linktitle": "Resim"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Resim"
+"url": "/tr/net/working-with-markdown/image/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Resim
@@ -21,7 +23,7 @@ Aspose.Words for .NET dünyasına dalmaya hazır mısınız? Bugün, belgelerini
 
 Koda geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Bunu şu adresten indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Bunu şu adresten indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi herhangi bir .NET geliştirme ortamı.
 3. Temel C# Bilgisi: Eğer C#'a aşinaysanız, hazırsınız demektir!
 
@@ -38,7 +40,7 @@ using Aspose.Words.Drawing;
 
 ## Adım 1: DocumentBuilder'ı Başlatın
 
- Başlamak için bir tane oluşturmanız gerekir`DocumentBuilder` nesne. Bu nesne belgenize içerik eklemenize yardımcı olacaktır.
+Başlamak için bir tane oluşturmanız gerekir `DocumentBuilder` nesne. Bu nesne belgenize içerik eklemenize yardımcı olacaktır.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
@@ -52,7 +54,7 @@ Sonra, belgenize bir resim ekleyeceksiniz. Bunu nasıl yapacağınız aşağıda
 Shape shape = builder.InsertImage("path_to_your_image.jpg");
 ```
 
- Yer değiştirmek`"path_to_your_image.jpg"` Görüntü dosyanızın gerçek yolu ile.`InsertImage` yöntemi, resmi belgenize ekleyecektir.
+Yer değiştirmek `"path_to_your_image.jpg"` Görüntü dosyanızın gerçek yolu ile. `InsertImage` yöntemi, resmi belgenize ekleyecektir.
 
 ## Adım 3: Görüntü Özelliklerini Ayarlayın
 
@@ -69,22 +71,27 @@ Belgelerinize görseller eklemek görsel çekiciliğini ve etkinliğini büyük 
 ## SSS
 
 ### Tek bir belgeye birden fazla resim ekleyebilir miyim?  
-Evet, işlemi tekrarlayarak istediğiniz kadar resim ekleyebilirsiniz.`InsertImage` Her görüntü için bir yöntem.
+Evet, işlemi tekrarlayarak istediğiniz kadar resim ekleyebilirsiniz. `InsertImage` Her görüntü için bir yöntem.
 
 ### Aspose.Words for .NET hangi resim formatlarını destekliyor?  
 Aspose.Words, JPEG, PNG, BMP, GIF ve daha fazlası dahil olmak üzere çeşitli resim formatlarını destekler.
 
 ### Belge içindeki görsellerin boyutunu değiştirebilir miyim?  
- Kesinlikle! Yükseklik ve genişlik özelliklerini ayarlayabilirsiniz.`Shape` Resimleri yeniden boyutlandırmak için nesne.
+Kesinlikle! Yükseklik ve genişlik özelliklerini ayarlayabilirsiniz. `Shape` Resimleri yeniden boyutlandırmak için nesne.
 
 ### URL'den resim eklemek mümkün mü?  
- Evet, URL'yi URL'de sağlayarak resim ekleyebilirsiniz.`InsertImage` yöntem.
+Evet, URL'yi URL'de sağlayarak resim ekleyebilirsiniz. `InsertImage` yöntem.
 
 ### Aspose.Words for .NET'in ücretsiz deneme sürümünü nasıl edinebilirim?  
- Ücretsiz deneme sürümünü şuradan alabilirsiniz:[Aspose web sitesi](https://releases.aspose.com/).
+Ücretsiz deneme sürümünü şuradan alabilirsiniz: [Aspose web sitesi](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

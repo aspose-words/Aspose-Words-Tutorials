@@ -1,14 +1,16 @@
 ---
-title: Ubah Nama Bidang Gabungan
-linktitle: Ubah Nama Bidang Gabungan
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengganti nama kolom gabungan dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami langkah demi langkah untuk memanipulasi dokumen Anda dengan mudah.
-weight: 10
-url: /id/net/working-with-fields/rename-merge-fields/
+"description": "Pelajari cara mengganti nama kolom gabungan dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami langkah demi langkah untuk memanipulasi dokumen Anda dengan mudah."
+"linktitle": "Ubah Nama Bidang Gabungan"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Ubah Nama Bidang Gabungan"
+"url": "/id/net/working-with-fields/rename-merge-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ubah Nama Bidang Gabungan
@@ -19,9 +21,9 @@ Mengganti nama bidang gabungan dalam dokumen Word bisa menjadi tugas yang sulit 
 
 ## Prasyarat
 
-Sebelum kita menyelami detailnya, mari pastikan Anda memiliki semua yang Anda butuhkan:
+Sebelum kita menyelami detailnya, mari pastikan Anda memiliki semua yang dibutuhkan:
 
--  Aspose.Words untuk .NET: Anda harus menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Anda harus menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Visual Studio atau IDE lain yang kompatibel dengan .NET.
 - Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan sangat membantu.
 
@@ -53,11 +55,11 @@ builder.InsertField(@"MERGEFIELD MyMergeField1 \* MERGEFORMAT");
 builder.InsertField(@"MERGEFIELD MyMergeField2 \* MERGEFORMAT");
 ```
 
- Di sini, kita membuat dokumen baru dan menggunakan`DocumentBuilder` kelas untuk menyisipkan dua bidang gabungan:`MyMergeField1` Dan`MyMergeField2`.
+Di sini, kita membuat dokumen baru dan menggunakan `DocumentBuilder` kelas untuk menyisipkan dua bidang gabungan: `MyMergeField1` Dan `MyMergeField2`.
 
 ## Langkah 2: Ulangi Melalui Bidang dan Ubah Namanya
 
-Sekarang, mari tulis kode untuk menemukan dan mengganti nama kolom gabungan. Kita akan mengulang semua kolom dalam dokumen, memeriksa apakah kolom tersebut merupakan kolom gabungan, dan mengganti namanya.
+Sekarang, mari kita tulis kode untuk menemukan dan mengganti nama kolom gabungan. Kita akan mengulang semua kolom dalam dokumen, memeriksa apakah kolom tersebut merupakan kolom gabungan, dan mengganti namanya.
 
 ```csharp
 // Ubah nama gabungan bidang.
@@ -72,7 +74,7 @@ foreach (Field f in doc.Range.Fields)
 }
 ```
 
- Dalam cuplikan ini, kami menggunakan`foreach` loop untuk mengulang semua bidang dalam dokumen. Untuk setiap bidang, kami memeriksa apakah itu bidang gabungan menggunakan`f.Type == FieldType.FieldMergeField` Jika ya, kita cast ke`FieldMergeField` dan menambahkan`_Renamed` sesuai namanya.
+Dalam cuplikan ini, kami menggunakan `foreach` loop untuk mengulang semua bidang dalam dokumen. Untuk setiap bidang, kami memeriksa apakah itu bidang gabungan menggunakan `f.Type == FieldType.FieldMergeField`Jika ya, kita cast ke `FieldMergeField` dan menambahkan `_Renamed` sesuai namanya.
 
 ## Langkah 3: Simpan Dokumen
 
@@ -83,7 +85,7 @@ Terakhir, mari simpan dokumen kita dengan bidang gabungan yang telah diubah nama
 doc.Save(dataDir + "WorkingWithFields.RenameMergeFields.docx");
 ```
 
- Baris kode ini menyimpan dokumen ke direktori yang ditentukan dengan nama`WorkingWithFields.RenameMergeFields.docx`.
+Baris kode ini menyimpan dokumen ke direktori yang ditentukan dengan nama `WorkingWithFields.RenameMergeFields.docx`.
 
 ## Kesimpulan
 
@@ -101,18 +103,23 @@ Jika kolom gabungan tidak ada, kode akan melewatinya begitu saja. Tidak akan ada
 
 ### Bisakah saya mengubah awalan, tanpa menambahkannya pada nama?
 
- Ya, Anda dapat memodifikasi`mergeField.FieldName` penugasan untuk menetapkannya ke nilai apa pun yang Anda inginkan.
+Ya, Anda dapat memodifikasi `mergeField.FieldName` penugasan untuk menetapkannya ke nilai apa pun yang Anda inginkan.
 
 ### Apakah Aspose.Words untuk .NET gratis?
 
- Aspose.Words untuk .NET adalah produk komersial, tetapi Anda dapat menggunakannya[uji coba gratis](https://releases.aspose.com/) untuk mengevaluasinya.
+Aspose.Words untuk .NET adalah produk komersial, tetapi Anda dapat menggunakannya [uji coba gratis](https://releases.aspose.com/) untuk mengevaluasinya.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
 
- Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi yang lengkap [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Удаление содержимого из документов в Aspose.Words для Java
-linktitle: Удаление контента из документов
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как удалить содержимое из документов Word в Java с помощью Aspose.Words для Java. Удалите разрывы страниц, разделов и многое другое. Оптимизируйте обработку документов.
-weight: 16
-url: /ru/java/document-manipulation/removing-content-from-documents/
+"description": "Узнайте, как удалить содержимое из документов Word в Java с помощью Aspose.Words для Java. Удалите разрывы страниц, разделов и многое другое. Оптимизируйте обработку документов."
+"linktitle": "Удаление контента из документов"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Удаление содержимого из документов в Aspose.Words для Java"
+"url": "/ru/java/document-manipulation/removing-content-from-documents/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Удаление содержимого из документов в Aspose.Words для Java
@@ -42,7 +44,7 @@ doc.save("Your Directory Path" + "RemoveContent.RemovePageBreaks.docx");
 
 ## Удаление разрывов разделов
 
-Разрывы разделов делят документ на отдельные разделы с различным форматированием. Чтобы удалить разрывы разделов, выполните следующие действия:
+Разделы разделов делят документ на отдельные разделы с различным форматированием. Чтобы удалить разделы разделов, выполните следующие действия:
 
 ```java
 for (int i = doc.getSections().getCount() - 2; i >= 0; i--) {
@@ -55,7 +57,7 @@ for (int i = doc.getSections().getCount() - 2; i >= 0; i--) {
 
 ## Удаление нижних колонтитулов
 
-Колонтитулы в документах Word часто содержат номера страниц, даты или другую информацию. Если вам нужно удалить их, вы можете использовать следующий код:
+Колонтитулы в документах Word часто содержат номера страниц, даты или другую информацию. Если вам нужно их удалить, вы можете использовать следующий код:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Header and footer types.docx");
@@ -82,7 +84,7 @@ removeTableOfContents(doc, 0);
 doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 ```
 
- Этот код определяет метод`removeTableOfContents` который удаляет указанное оглавление из документа.
+Этот код определяет метод `removeTableOfContents` который удаляет указанное оглавление из документа.
 
 
 ## Заключение
@@ -106,9 +108,14 @@ doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 ### Какие еще функции обработки документов предлагает Aspose.Words для Java?
 
 Aspose.Words для Java предлагает широкий спектр функций, включая создание документов, редактирование, преобразование и многое другое. Вы можете изучить документацию для получения подробной информации.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

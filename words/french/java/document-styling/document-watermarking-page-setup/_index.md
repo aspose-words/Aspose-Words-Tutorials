@@ -1,27 +1,29 @@
 ---
-title: Filigranage de documents et mise en page
-linktitle: Filigranage de documents et mise en page
-second_title: API de traitement de documents Java Aspose.Words
-description: Découvrez comment appliquer des filigranes et configurer des pages avec Aspose.Words pour Java. Un guide complet avec code source.
-weight: 13
-url: /fr/java/document-styling/document-watermarking-page-setup/
+"description": "Apprenez à appliquer des filigranes et à configurer des pages avec Aspose.Words pour Java. Un guide complet avec code source."
+"linktitle": "Filigrane de documents et mise en page"
+"second_title": "API de traitement de documents Java Aspose.Words"
+"title": "Filigrane de documents et mise en page"
+"url": "/fr/java/document-styling/document-watermarking-page-setup/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Filigranage de documents et mise en page
+# Filigrane de documents et mise en page
 
 ## Introduction
 
-Dans le domaine de la manipulation de documents, Aspose.Words pour Java est un outil puissant, permettant aux développeurs de contrôler tous les aspects du traitement des documents. Dans ce guide complet, nous allons nous plonger dans les subtilités du filigranage de documents et de la mise en page à l'aide d'Aspose.Words pour Java. Que vous soyez un développeur chevronné ou que vous débutiez dans le monde du traitement de documents Java, ce guide étape par étape vous fournira les connaissances et le code source dont vous avez besoin.
+Dans le domaine de la manipulation de documents, Aspose.Words pour Java est un outil puissant qui permet aux développeurs de contrôler tous les aspects du traitement des documents. Dans ce guide complet, nous explorerons les subtilités du filigrane et de la mise en page des documents avec Aspose.Words pour Java. Que vous soyez un développeur expérimenté ou que vous débutiez dans le traitement de documents Java, ce guide étape par étape vous fournira les connaissances et le code source nécessaires.
 
-## Filigranage de documents
+## Filigrane de documents
 
 ### Ajout de filigranes
 
-L'ajout de filigranes aux documents peut être crucial pour la valorisation de votre marque ou la sécurisation de votre contenu. Aspose.Words pour Java simplifie cette tâche. Voici comment :
+L'ajout de filigranes aux documents peut être crucial pour la valorisation de votre marque ou la sécurisation de votre contenu. Aspose.Words pour Java simplifie cette tâche. Voici comment :
 
 ```java
 // Charger le document
@@ -49,13 +51,13 @@ doc.save("document_with_watermark.docx");
 
 ### Personnalisation des filigranes
 
-Vous pouvez personnaliser davantage les filigranes en ajustant la police, la taille, la couleur et la rotation. Cette flexibilité garantit que votre filigrane correspond parfaitement au style de votre document.
+Vous pouvez personnaliser davantage vos filigranes en ajustant la police, la taille, la couleur et la rotation. Cette flexibilité garantit que votre filigrane s'adapte parfaitement au style de votre document.
 
 ## Mise en page
 
 ### Taille et orientation de la page
 
-La mise en page est essentielle dans la mise en forme des documents. Aspose.Words pour Java offre un contrôle complet sur la taille et l'orientation des pages :
+La mise en page est essentielle à la mise en forme d'un document. Aspose.Words pour Java offre un contrôle total sur la taille et l'orientation des pages :
 
 ```java
 // Charger le document
@@ -97,9 +99,9 @@ doc.save("formatted_document.docx");
 
 ## FAQ
 
-### Comment puis-je supprimer un filigrane d'un document ?
+### Comment puis-je supprimer un filigrane d’un document ?
 
-Pour supprimer un filigrane d'un document, vous pouvez parcourir les formes du document et supprimer celles qui représentent des filigranes. Voici un extrait :
+Pour supprimer un filigrane d'un document, vous pouvez parcourir les formes du document et supprimer celles qui représentent des filigranes. Voici un extrait :
 
 ```java
 Document doc = new Document("document_with_watermark.docx");
@@ -113,11 +115,11 @@ for (Shape shape : doc.getChildNodes(NodeType.SHAPE, true).<Shape>toArray()) {
 doc.save("document_without_watermark.docx");
 ```
 
-### Puis-je ajouter plusieurs filigranes à un seul document ?
+### Puis-je ajouter plusieurs filigranes à un seul document ?
 
 Oui, vous pouvez ajouter plusieurs filigranes à un document en créant des objets Shape supplémentaires et en les positionnant selon vos besoins.
 
-### Comment puis-je modifier la taille de la page en format légal en orientation paysage ?
+### Comment puis-je modifier la taille de la page en format légal en orientation paysage ?
 
 Pour définir la taille de la page sur légal en orientation paysage, modifiez la largeur et la hauteur de la page comme suit :
 
@@ -126,11 +128,11 @@ doc.getFirstSection().getPageSetup().setPageWidth(842.0);
 doc.getFirstSection().getPageSetup().setPageHeight(595.0);
 ```
 
-### Quelle est la police par défaut pour les filigranes ?
+### Quelle est la police par défaut pour les filigranes ?
 
 La police par défaut pour les filigranes est Calibri avec une taille de police de 36.
 
-### Comment puis-je ajouter des numéros de page à partir d’une page spécifique ?
+### Comment puis-je ajouter des numéros de page à partir d'une page spécifique ?
 
 Vous pouvez y parvenir en définissant le numéro de page de départ de votre document comme suit :
 
@@ -138,18 +140,23 @@ Vous pouvez y parvenir en définissant le numéro de page de départ de votre do
 doc.getFirstSection().getPageSetup().setPageStartingNumber(5);
 ```
 
-### Comment aligner au centre du texte dans l’en-tête ou le pied de page ?
+### Comment aligner au centre le texte dans l'en-tête ou le pied de page ?
 
 Vous pouvez aligner le texte au centre dans l'en-tête ou le pied de page en utilisant la méthode setAlignment sur l'objet Paragraph dans l'en-tête ou le pied de page.
 
 ## Conclusion
 
-Dans ce guide complet, nous avons exploré l'art du filigranage de documents et de la mise en page à l'aide d'Aspose.Words pour Java. Armé des extraits de code source et des informations fournies, vous possédez désormais les outils nécessaires pour manipuler et formater vos documents avec finesse. Aspose.Words pour Java vous permet de créer des documents professionnels et de marque adaptés à vos spécifications exactes.
+Dans ce guide complet, nous avons exploré l'art du filigrane et de la mise en page de documents avec Aspose.Words pour Java. Grâce aux extraits de code source et aux conseils fournis, vous disposez désormais des outils nécessaires pour manipuler et mettre en forme vos documents avec finesse. Aspose.Words pour Java vous permet de créer des documents professionnels et personnalisés, adaptés à vos besoins.
 
-La maîtrise de la manipulation de documents est une compétence précieuse pour les développeurs, et Aspose.Words for Java est votre compagnon de confiance dans ce parcours. Commencez à créer des documents époustouflants dès aujourd'hui !
+Maîtriser la manipulation de documents est une compétence précieuse pour les développeurs, et Aspose.Words pour Java est votre fidèle compagnon dans cette aventure. Créez des documents époustouflants dès aujourd'hui !
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

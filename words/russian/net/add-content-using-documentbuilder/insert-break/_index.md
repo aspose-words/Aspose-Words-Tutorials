@@ -1,14 +1,16 @@
 ---
-title: Вставить разрыв в документ Word
-linktitle: Вставить разрыв в документ Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставить разрыв в документ Word с помощью Aspose.Words для .NET с помощью этого подробного руководства. Идеально подходит для разработчиков, желающих освоить манипуляции с документами.
-weight: 10
-url: /ru/net/add-content-using-documentbuilder/insert-break/
+"description": "Узнайте, как вставить разрыв в документ Word с помощью Aspose.Words для .NET с помощью этого подробного руководства. Идеально подходит для разработчиков, желающих освоить манипуляцию документами."
+"linktitle": "Вставить разрыв в документ Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить разрыв в документ Word"
+"url": "/ru/net/add-content-using-documentbuilder/insert-break/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить разрыв в документ Word
@@ -21,7 +23,7 @@ url: /ru/net/add-content-using-documentbuilder/insert-break/
 
 Прежде чем приступить к коду, давайте убедимся, что у нас есть все необходимое:
 
-1.  Библиотека Aspose.Words для .NET: Вы можете[скачать здесь](https://releases.aspose.com/words/net/) . Если вы новичок в Aspose, вам, возможно, захочется начать с[бесплатная пробная версия](https://releases.aspose.com/).
+1. Библиотека Aspose.Words для .NET: Вы можете [скачать здесь](https://releases.aspose.com/words/net/). Если вы новичок в Aspose, вам, возможно, захочется начать с [бесплатная пробная версия](https://releases.aspose.com/).
 2. Среда разработки: Visual Studio или любая другая совместимая с .NET IDE.
 3. .NET Framework: Убедитесь, что у вас установлен .NET Framework.
 4. Базовые знания C#: в этом руководстве предполагается, что вы знакомы с программированием на C#.
@@ -46,11 +48,11 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` на фактический путь, по которому вы хотите сохранить документ.
+Заменять `"YOUR DOCUMENT DIRECTORY"` на фактический путь, по которому вы хотите сохранить документ.
 
 ## Шаг 2: Создание нового документа
 
- Далее нам нужно создать новый экземпляр`Document` класс. Думайте об этом как о чистом холсте, на который вы можете начать добавлять свой контент.
+Далее нам нужно создать новый экземпляр `Document` класс. Думайте об этом как о чистом холсте, на который вы можете начать добавлять свой контент.
 
 ```csharp
 Document doc = new Document();
@@ -58,7 +60,7 @@ Document doc = new Document();
 
 ## Шаг 3: Инициализация DocumentBuilder
 
- The`DocumentBuilder` это как ваша кисть. Она помогает вам добавлять содержимое в ваш документ. Давайте инициализируем ее.
+The `DocumentBuilder` это как ваша кисть. Она помогает вам добавлять содержимое в ваш документ. Давайте инициализируем ее.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -74,7 +76,7 @@ builder.Writeln("This is page 1.");
 
 ## Шаг 5: Вставка разрыва страницы
 
- Теперь самое интересное. Нам нужно вставить разрыв страницы, чтобы перейти на следующую страницу. Это так же просто, как вызвать`InsertBreak` метод.
+Теперь начинается самое интересное. Нам нужно вставить разрыв страницы, чтобы перейти на следующую страницу. Это так же просто, как вызвать `InsertBreak` метод.
 
 ```csharp
 builder.InsertBreak(BreakType.PageBreak);
@@ -124,19 +126,24 @@ doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertBreak.docx");
 Aspose.Words for .NET — мощная библиотека для программной работы с документами Word. Она поддерживает широкий спектр функций: от создания и редактирования документов до конвертации между различными форматами.
 
 ### Могу ли я использовать Aspose.Words бесплатно?
-Да, вы можете начать с[бесплатная пробная версия](https://releases.aspose.com/) для изучения его особенностей. Для долгосрочного использования вы можете[купить лицензию](https://purchase.aspose.com/buy).
+Да, вы можете начать с [бесплатная пробная версия](https://releases.aspose.com/) для изучения его особенностей. Для долгосрочного использования вы можете [купить лицензию](https://purchase.aspose.com/buy).
 
 ### Как получить поддержку по Aspose.Words?
- Вы можете получить поддержку от[Форум сообщества Aspose](https://forum.aspose.com/c/words/8). Это отличное место, чтобы задать вопросы и поделиться своим опытом.
+Вы можете получить поддержку от [Форум сообщества Aspose](https://forum.aspose.com/c/words/8). Это отличное место, чтобы задать вопросы и поделиться своим опытом.
 
 ### Совместим ли Aspose.Words с .NET Core?
 Да, Aspose.Words совместим как с .NET Core, так и с .NET Framework.
 
 ### Могу ли я автоматизировать сложные задачи по работе с документами с помощью Aspose.Words?
 Конечно! Aspose.Words предназначен для решения сложных задач автоматизации документооборота, что делает его мощным инструментом для разработчиков.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

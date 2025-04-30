@@ -1,14 +1,16 @@
 ---
-title: Zamień na ciąg
-linktitle: Zamień na ciąg
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak zamieniać ciągi w dokumentach Worda za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów, którzy chcą zautomatyzować edycję dokumentów.
-weight: 10
-url: /pl/net/find-and-replace-text/replace-with-string/
+"description": "Dowiedz się, jak zamieniać ciągi w dokumentach Worda za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów, którzy chcą zautomatyzować edycję dokumentów."
+"linktitle": "Zamień na ciąg"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zamień na ciąg"
+"url": "/pl/net/find-and-replace-text/replace-with-string/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zamień na ciąg
@@ -22,7 +24,7 @@ Cześć! Czy kiedykolwiek znalazłeś się po kolana w dokumencie Worda, potrzeb
 
 Zanim zaczniemy pisać kod, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Pobierz najnowszą wersję[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Pobierz najnowszą wersję [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub dowolne środowisko IDE C#.
 3. Podstawowa znajomość języka C#: Przydatna będzie pewna znajomość języka C#.
 
@@ -46,7 +48,7 @@ Na początek potrzebujemy katalogu, w którym będą się znajdować nasze dokum
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` ze ścieżką do katalogu dokumentów. To jest baza domowa dla naszych plików.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` ze ścieżką do katalogu dokumentów. To jest baza domowa dla naszych plików.
 
 ## Krok 2: Zainicjuj dokument i kreator
 
@@ -57,7 +59,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Tutaj,`Document` reprezentuje dokument Word, z którym będziemy pracować, i`DocumentBuilder` jest naszym narzędziem do jego modyfikacji.
+Tutaj, `Document` reprezentuje dokument Word, z którym będziemy pracować, i `DocumentBuilder` jest naszym narzędziem do jego modyfikacji.
 
 ## Krok 3: Dodaj początkową treść
 
@@ -77,7 +79,7 @@ Tutaj dzieje się prawdziwa akcja. Znajdziemy słowo „smutny” i zastąpimy j
 doc.Range.Replace("sad", "bad", new FindReplaceOptions(FindReplaceDirection.Forward));
 ```
 
- Ten`Replace`Metoda jest prosta. Określamy słowo do znalezienia, słowo zastępcze i opcje operacji znajdowania i zamiany.
+Ten `Replace` Metoda jest prosta. Określamy słowo do znalezienia, słowo zastępcze i opcje operacji znajdowania i zamiany.
 
 ## Krok 5: Zapisz dokument
 
@@ -87,7 +89,7 @@ Na koniec zapisujemy zmodyfikowany dokument. To jest moment, w którym oprawiamy
 doc.Save(dataDir + "FindAndReplace.ReplaceWithString.docx");
 ```
 
- Dokument zostanie zapisany w podanym katalogu pod nazwą`FindAndReplace.ReplaceWithString.docx`. I voila! Udało nam się wykonać operację „znajdź i zamień”.
+Dokument zostanie zapisany w podanym katalogu pod nazwą `FindAndReplace.ReplaceWithString.docx`. I voila! Udało nam się wykonać operację „znajdź i zamień”.
 
 ## Wniosek
 
@@ -95,11 +97,11 @@ Oto masz! Dzięki Aspose.Words dla .NET zamiana ciągów w dokumencie Word jest 
 
 ## Najczęściej zadawane pytania
 
-### Czy mogę zastąpić wiele słów w jednej operacji?
+### Czy mogę zastąpić kilka słów w jednej operacji?
 Tak, możesz łączyć ze sobą wiele operacji zastępowania lub używać wyrażeń regularnych w celu dopasowywania i zastępowania wielu wzorców.
 
 ### Czy Aspose.Words dla .NET jest darmowy?
- Aspose.Words dla .NET to płatna biblioteka, ale można ją pobrać[bezpłatny okres próbny](https://releases.aspose.com/) aby przetestować jego funkcje.
+Aspose.Words dla .NET to płatna biblioteka, ale można ją pobrać [bezpłatny okres próbny](https://releases.aspose.com/) aby przetestować jego funkcje.
 
 ### Czy mogę zastąpić tekst treścią sformatowaną?
 Oczywiście! Aspose.Words pozwala zastąpić tekst sformatowaną treścią, w tym różnymi czcionkami, kolorami i stylami.
@@ -108,10 +110,15 @@ Oczywiście! Aspose.Words pozwala zastąpić tekst sformatowaną treścią, w ty
 Jeśli słowo nie zostanie znalezione, operacja zamiany po prostu niczego nie zmieni. Żadnych błędów, po prostu żadnych zmian.
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Words dla platformy .NET?
- Możesz uzyskać wsparcie od[Społeczność Aspose](https://forum.aspose.com/c/words/8) lub w razie potrzeby zakup wsparcia premium.
+Możesz uzyskać wsparcie od [Społeczność Aspose](https://forum.aspose.com/c/words/8) lub w razie potrzeby zakup wsparcia premium.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

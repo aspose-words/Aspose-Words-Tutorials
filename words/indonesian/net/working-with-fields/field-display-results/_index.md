@@ -1,14 +1,16 @@
 ---
-title: Hasil Tampilan Lapangan
-linktitle: Hasil Tampilan Lapangan
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memperbarui dan menampilkan hasil kolom dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk mengotomatiskan tugas dokumen.
-weight: 10
-url: /id/net/working-with-fields/field-display-results/
+"description": "Pelajari cara memperbarui dan menampilkan hasil kolom dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk mengotomatiskan tugas dokumen."
+"linktitle": "Hasil Tampilan Lapangan"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Hasil Tampilan Lapangan"
+"url": "/id/net/working-with-fields/field-display-results/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hasil Tampilan Lapangan
@@ -21,7 +23,7 @@ Jika Anda pernah bekerja dengan dokumen Microsoft Word, Anda tahu betapa hebatny
 
 Sebelum menyelami kodenya, mari pastikan Anda telah menyiapkan semuanya:
 
-1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Jika Anda belum menginstalnya, Anda bisa mendapatkannya dari[Situs web Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Jika Anda belum menginstalnya, Anda bisa mendapatkannya dari [Situs web Aspose](https://releases.aspose.com/words/net/).
 
 2. Visual Studio: Anda memerlukan IDE seperti Visual Studio untuk menulis dan menjalankan kode .NET Anda.
 
@@ -53,7 +55,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document document = new Document(dataDir + "Miscellaneous fields.docx");
 ```
 
- Pada langkah ini, ganti`"YOUR DOCUMENTS DIRECTORY"` dengan jalur tempat dokumen Anda disimpan.`Document` kelas digunakan untuk memuat berkas Word ke dalam memori.
+Pada langkah ini, ganti `"YOUR DOCUMENTS DIRECTORY"` dengan jalur tempat dokumen Anda disimpan. `Document` Kelas ini digunakan untuk memuat berkas Word ke dalam memori.
 
 ## Langkah 2: Perbarui Bidang
 
@@ -62,11 +64,11 @@ Kolom dalam dokumen Word bersifat dinamis, artinya kolom tersebut mungkin tidak 
 ### Memperbarui Bidang
 
 ```csharp
-//Perbarui bidang.
+// Perbarui bidang.
 document.UpdateFields();
 ```
 
- Itu`UpdateFields` Metode ini mengulang semua kolom dalam dokumen dan memperbaruinya dengan data terbaru. Langkah ini penting jika kolom Anda bergantung pada konten dinamis seperti tanggal atau perhitungan.
+Itu `UpdateFields` Metode ini mengulang semua kolom dalam dokumen dan memperbaruinya dengan data terbaru. Langkah ini penting jika kolom Anda bergantung pada konten dinamis seperti tanggal atau perhitungan.
 
 ## Langkah 3: Menampilkan Hasil Lapangan
 
@@ -82,7 +84,7 @@ foreach (Field field in document.Range.Fields)
 }
 ```
 
- Itu`DisplayResult` milik`Field` kelas mengembalikan nilai yang diformat dari bidang tersebut.`foreach` loop menelusuri semua bidang dalam dokumen dan mencetak hasilnya.
+Itu `DisplayResult` milik `Field` kelas mengembalikan nilai yang diformat dari bidang tersebut. `foreach` loop menelusuri semua bidang dalam dokumen dan mencetak hasilnya.
 
 ## Kesimpulan
 
@@ -94,19 +96,24 @@ Memperbarui dan menampilkan hasil kolom dalam dokumen Word dengan Aspose.Words u
 Anda dapat memperbarui berbagai jenis bidang, termasuk bidang tanggal, properti dokumen, dan bidang rumus.
 
 ### Apakah saya perlu menyimpan dokumen setelah memperbarui bidang?  
- Tidak, menelepon`UpdateFields` tidak menyimpan dokumen secara otomatis. Gunakan`Save` metode untuk menyimpan segala perubahan.
+Tidak, menelepon `UpdateFields` tidak menyimpan dokumen secara otomatis. Gunakan `Save` metode untuk menyimpan segala perubahan.
 
-### Bisakah saya memperbarui bidang di bagian tertentu dalam dokumen?  
- Ya, Anda bisa menggunakan`Document.Sections` properti untuk mengakses bagian tertentu dan memperbarui bidang di dalamnya.
+### Bisakah saya memperbarui bidang di bagian tertentu dokumen?  
+Ya, Anda bisa menggunakan `Document.Sections` properti untuk mengakses bagian tertentu dan memperbarui bidang di dalamnya.
 
 ### Bagaimana cara menangani kolom yang memerlukan masukan pengguna?  
 Kolom yang memerlukan masukan pengguna (seperti kolom formulir) perlu diisi secara manual atau melalui kode tambahan.
 
 ### Apakah mungkin untuk menampilkan hasil lapangan dalam format yang berbeda?  
- Itu`DisplayResult` properti menyediakan output yang diformat. Jika Anda memerlukan format yang berbeda, pertimbangkan pemrosesan tambahan berdasarkan kebutuhan Anda.
+Itu `DisplayResult` properti menyediakan output yang diformat. Jika Anda memerlukan format yang berbeda, pertimbangkan pemrosesan tambahan berdasarkan kebutuhan Anda.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

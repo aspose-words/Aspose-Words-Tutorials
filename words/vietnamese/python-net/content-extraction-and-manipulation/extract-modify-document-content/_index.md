@@ -1,14 +1,16 @@
 ---
-title: Trích xuất và sửa đổi nội dung trong tài liệu Word
-linktitle: Trích xuất và sửa đổi nội dung trong tài liệu Word
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Tìm hiểu cách trích xuất và sửa đổi nội dung trong tài liệu Word bằng Aspose.Words cho Python. Hướng dẫn từng bước có mã nguồn.
-weight: 10
-url: /vi/python-net/content-extraction-and-manipulation/extract-modify-document-content/
+"description": "Tìm hiểu cách trích xuất và sửa đổi nội dung trong tài liệu Word bằng Aspose.Words cho Python. Hướng dẫn từng bước có mã nguồn."
+"linktitle": "Trích xuất và sửa đổi nội dung trong tài liệu Word"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Trích xuất và sửa đổi nội dung trong tài liệu Word"
+"url": "/vi/python-net/content-extraction-and-manipulation/extract-modify-document-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất và sửa đổi nội dung trong tài liệu Word
@@ -58,7 +60,7 @@ run.get_font().set_color(255, 0, 0)
 
 ## Thay thế văn bản
 
- Có thể thay thế văn bản bằng cách sử dụng`replace` phương pháp:
+Có thể thay thế văn bản bằng cách sử dụng `replace` phương pháp:
 
 ```python
 doc.get_range().replace("old_text", "new_text", False, False)
@@ -66,7 +68,7 @@ doc.get_range().replace("old_text", "new_text", False, False)
 
 ## Thêm và sửa đổi hình ảnh
 
- Hình ảnh có thể được thêm vào hoặc thay thế bằng cách sử dụng`insert_image` phương pháp:
+Hình ảnh có thể được thêm vào hoặc thay thế bằng cách sử dụng `insert_image` phương pháp:
 
 ```python
 shape = doc.get_first_section().get_body().append_child(asposewords.Drawing.Shape(doc, asposewords.Drawing.ShapeType.IMAGE))
@@ -103,7 +105,7 @@ header.get_paragraphs().add("Header content")
 
 ## Thêm siêu liên kết
 
- Có thể thêm siêu liên kết bằng cách sử dụng`insert_hyperlink` phương pháp:
+Có thể thêm siêu liên kết bằng cách sử dụng `insert_hyperlink` phương pháp:
 
 ```python
 run = doc.get_first_section().get_body().get_first_paragraph().get_runs().get(0)
@@ -131,26 +133,31 @@ Aspose.Words for Python là một thư viện đa năng cho phép bạn thao tá
 
 ### Làm thế nào để cài đặt Aspose.Words cho Python?
 
- Để cài đặt Aspose.Words cho Python, hãy sử dụng lệnh`pip install aspose-words`.
+Để cài đặt Aspose.Words cho Python, hãy sử dụng lệnh `pip install aspose-words`.
 
 ### Tôi có thể sửa đổi định dạng văn bản bằng thư viện này không?
 
-Có, bạn có thể sửa đổi định dạng văn bản, chẳng hạn như in đậm, màu sắc và kích thước phông chữ, bằng cách sử dụng Aspose.Words for Python API.
+Có, bạn có thể sửa đổi định dạng văn bản, chẳng hạn như in đậm, màu sắc và kích thước phông chữ, bằng cách sử dụng API Aspose.Words cho Python.
 
 ### Có thể thay thế một đoạn văn bản cụ thể trong tài liệu không?
 
- Chắc chắn, bạn có thể sử dụng`replace` phương pháp thay thế văn bản cụ thể trong tài liệu.
+Chắc chắn, bạn có thể sử dụng `replace` phương pháp thay thế văn bản cụ thể trong tài liệu.
 
 ### Tôi có thể thêm siêu liên kết vào tài liệu Word của mình không?
 
- Hoàn toàn có thể thêm siêu liên kết vào tài liệu của bạn bằng cách sử dụng`insert_hyperlink` phương pháp được cung cấp bởi Aspose.Words.
+Hoàn toàn có thể thêm siêu liên kết vào tài liệu của bạn bằng cách sử dụng `insert_hyperlink` phương pháp được cung cấp bởi Aspose.Words.
 
 ### Tôi có thể chuyển đổi tài liệu Word của mình sang những định dạng nào khác?
 
 Aspose.Words hỗ trợ chuyển đổi sang nhiều định dạng khác nhau như PDF, HTML, EPUB, v.v.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

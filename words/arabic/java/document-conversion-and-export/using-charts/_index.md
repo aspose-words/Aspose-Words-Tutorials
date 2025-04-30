@@ -1,22 +1,24 @@
 ---
-title: استخدام المخططات البيانية في Aspose.Words للغة Java
-linktitle: استخدام المخططات البيانية
-second_title: واجهة برمجة تطبيقات معالجة المستندات في Java Aspose.Words
-description: تعرف على كيفية إنشاء المخططات وتخصيصها في Aspose.Words for Java. استكشف أنواع المخططات وتنسيقها وخصائص المحور لتصور البيانات.
-weight: 12
-url: /ar/java/document-conversion-and-export/using-charts/
+"description": "تعرّف على كيفية إنشاء المخططات وتخصيصها في Aspose.Words لجافا. استكشف أنواع المخططات وتنسيقها وخصائص المحاور لتصور البيانات."
+"linktitle": "استخدام المخططات البيانية"
+"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
+"title": "استخدام المخططات البيانية في Aspose.Words للغة Java"
+"url": "/ar/java/document-conversion-and-export/using-charts/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # استخدام المخططات البيانية في Aspose.Words للغة Java
 
 
-## مقدمة حول استخدام المخططات البيانية في Aspose.Words للغة Java
+## مقدمة لاستخدام المخططات البيانية في Aspose.Words للغة Java
 
-في هذا البرنامج التعليمي، سنستكشف كيفية العمل مع المخططات باستخدام Aspose.Words for Java. ستتعلم كيفية إنشاء أنواع مختلفة من المخططات، وتخصيص خصائص المحور، وتنسيق تسميات البيانات، والمزيد. لنبدأ!
+في هذا البرنامج التعليمي، سنستكشف كيفية العمل مع المخططات البيانية باستخدام Aspose.Words لجافا. ستتعلم كيفية إنشاء أنواع مختلفة من المخططات البيانية، وتخصيص خصائص المحاور، وتنسيق تسميات البيانات، والمزيد. هيا بنا!
 
 ## إنشاء مخطط خطي
 
@@ -29,7 +31,7 @@ Shape shape = builder.insertChart(ChartType.LINE, 432.0, 252.0);
 Chart chart = shape.getChart();
 chart.getTitle().setText("Data Labels With Different Number Format");
 
-// حذف السلسلة المولدة افتراضيا.
+// حذف السلسلة المولدة افتراضيًا.
 chart.getSeries().clear();
 
 // إضافة سلسلة تحتوي على بيانات وعناوين بيانات.
@@ -51,7 +53,7 @@ doc.save("Your Directory Path" + "WorkingWithCharts.FormatNumberOfDataLabel.docx
 
 ## إنشاء أنواع أخرى من المخططات البيانية
 
-يمكنك إنشاء أنواع مختلفة من المخططات مثل المخطط العمودي والمخطط المساحي والمخطط الفقاعي والمخطط المبعثر وغير ذلك باستخدام تقنيات مماثلة. فيما يلي مثال لإدراج مخطط عمودي بسيط:
+يمكنك إنشاء أنواع مختلفة من المخططات البيانية، مثل المخطط العمودي، والمخطط المساحي، والمخطط الفقاعي، والمخطط المبعثر، وغيرها باستخدام تقنيات مشابهة. إليك مثال على إدراج مخطط بياني عمودي بسيط:
 
 ```java
 Document doc = new Document();
@@ -59,7 +61,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
 Chart chart = shape.getChart();
 
-// حذف السلسلة المولدة افتراضيا.
+// حذف السلسلة المولدة افتراضيًا.
 chart.getSeries().clear();
 
 // إنشاء الفئات وإضافة البيانات.
@@ -72,7 +74,7 @@ doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx
 
 ## تخصيص خصائص المحور
 
-يمكنك تخصيص خصائص المحور، مثل تغيير نوع المحور، وتعيين علامات التجزئة، وتنسيق العلامات، والمزيد. فيما يلي مثال لتحديد خصائص المحور X وY:
+يمكنك تخصيص خصائص المحور، مثل تغيير نوع المحور، وتعيين علامات التجزئة، وتنسيق التسميات، وغيرها. إليك مثال على تعريف خصائص المحور X وY:
 
 ```java
 Document doc = new Document();
@@ -80,15 +82,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.insertChart(ChartType.AREA, 432.0, 252.0);
 Chart chart = shape.getChart();
 
-// مسح السلسلة الافتراضية وإضافة البيانات الخاصة بك.
+// مسح السلسلة الافتراضية وإضافة بياناتك.
 
 ChartAxis xAxis = chart.getAxisX();
 ChartAxis yAxis = chart.getAxisY();
 
-// تغيير المحور X ليكون فئة بدلاً من التاريخ.
+// قم بتغيير المحور X ليكون فئة بدلاً من التاريخ.
 xAxis.setCategoryType(AxisCategoryType.CATEGORY);
 xAxis.setCrosses(AxisCrosses.CUSTOM);
-xAxis.setCrossesAt(3.0); //يتم قياسها بوحدات العرض لمحور Y (المئات).
+xAxis.setCrossesAt(3.0); // يتم قياسها بوحدات العرض على المحور Y (المئات).
 xAxis.setReverseOrder(true);
 xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
@@ -106,7 +108,7 @@ doc.save("Your Directory Path" + "WorkingWithCharts.DefineXYAxisProperties.docx"
 
 ## تنسيق تسميات البيانات
 
-يمكنك تنسيق تسميات البيانات باستخدام تنسيقات أرقام مختلفة. إليك مثال:
+يمكنك تنسيق تسميات البيانات بتنسيقات أرقام مختلفة. إليك مثال:
 
 ```java
 Document doc = new Document();
@@ -114,45 +116,50 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
 Chart chart = shape.getChart();
 
-// مسح السلسلة الافتراضية وإضافة البيانات الخاصة بك.
+// مسح السلسلة الافتراضية وإضافة بياناتك.
 
 chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
 
 doc.save("Your Directory Path" + "WorkingWithCharts.NumberFormatForAxis.docx");
 ```
 
-## تخصيصات إضافية للرسم البياني
+## تخصيصات إضافية للمخطط
 
-يمكنك تخصيص مخططاتك بشكل أكبر عن طريق ضبط الحدود ووحدات الفاصل بين العلامات وإخفاء محاور المخطط والمزيد. استكشف مقتطفات التعليمات البرمجية المقدمة لمعرفة المزيد حول هذه الخيارات.
+يمكنك تخصيص مخططاتك بشكل أكبر عن طريق ضبط الحدود، ووحدات الفواصل بين التسميات، وإخفاء محاور المخطط، والمزيد. استكشف مقتطفات التعليمات البرمجية المُقدمة لمعرفة المزيد عن هذه الخيارات.
 
 ## خاتمة
 
-في هذا البرنامج التعليمي، استكشفنا كيفية العمل مع المخططات باستخدام Aspose.Words for Java. لقد تعلمت كيفية إنشاء أنواع مختلفة من المخططات، وتخصيص خصائص المحور، وتنسيق تسميات البيانات، والمزيد. يوفر Aspose.Words for Java أدوات قوية لإضافة تمثيلات مرئية للبيانات إلى مستنداتك، مما يعزز الطريقة التي تقدم بها المعلومات.
+في هذا البرنامج التعليمي، استكشفنا كيفية العمل مع المخططات البيانية باستخدام Aspose.Words لجافا. تعلمت كيفية إنشاء أنواع مختلفة من المخططات البيانية، وتخصيص خصائص المحاور، وتنسيق تسميات البيانات، والمزيد. يوفر Aspose.Words لجافا أدوات فعّالة لإضافة تمثيلات بصرية للبيانات إلى مستنداتك، مما يُحسّن طريقة عرض المعلومات.
 
 ## الأسئلة الشائعة
 
-### كيف يمكنني إضافة سلاسل متعددة إلى مخطط؟
+### كيف يمكنني إضافة سلاسل متعددة إلى الرسم البياني؟
 
- يمكنك إضافة سلاسل متعددة إلى مخطط باستخدام`chart.getSeries().add()` الطريقة. تأكد من تحديد اسم السلسلة والفئات وقيم البيانات.
+يمكنك إضافة سلاسل متعددة إلى مخطط باستخدام `chart.getSeries().add()` الطريقة. تأكد من تحديد اسم السلسلة والفئات وقيم البيانات.
 
 ### كيف يمكنني تنسيق تسميات البيانات باستخدام تنسيقات الأرقام المخصصة؟
 
-يمكنك تنسيق تسميات البيانات عن طريق الوصول إلى`DataLabels` خصائص السلسلة وتعيين كود التنسيق المطلوب باستخدام`getNumberFormat().setFormatCode()`.
+يمكنك تنسيق تسميات البيانات عن طريق الوصول إلى `DataLabels` خصائص السلسلة وتعيين رمز التنسيق المطلوب باستخدام `getNumberFormat().setFormatCode()`.
 
 ### كيف أقوم بتخصيص خصائص المحور في الرسم البياني؟
 
- يمكنك تخصيص خصائص المحور مثل النوع وعلامات التجزئة والعلامات والمزيد من خلال الوصول إلى`ChartAxis` خصائص مثل`setCategoryType()`, `setCrosses()` ، و`setMajorTickMark()`.
+يمكنك تخصيص خصائص المحور مثل النوع وعلامات التجزئة والعلامات والمزيد عن طريق الوصول إلى `ChartAxis` خصائص مثل `setCategoryType()`، `setCrosses()`، و `setMajorTickMark()`.
 
 ### كيف يمكنني إنشاء أنواع أخرى من الرسوم البيانية مثل الرسوم البيانية المنتشرة أو الرسوم البيانية المساحية؟
 
- يمكنك إنشاء أنواع مختلفة من المخططات من خلال تحديد النوع المناسب`ChartType` عند إدخال الرسم البياني باستخدام`builder.insertChart(ChartType.TYPE, width, height)`.
+يمكنك إنشاء أنواع مختلفة من المخططات عن طريق تحديد الأنواع المناسبة `ChartType` عند إدخال الرسم البياني باستخدام `builder.insertChart(ChartType.TYPE, width, height)`.
 
 ### كيف يمكنني إخفاء محور الرسم البياني؟
 
- يمكنك إخفاء محور الرسم البياني عن طريق ضبط`setHidden(true)` خاصية المحور.
+يمكنك إخفاء محور الرسم البياني عن طريق ضبط `setHidden(true)` خاصية المحور.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

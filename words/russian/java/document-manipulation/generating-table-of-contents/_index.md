@@ -1,14 +1,16 @@
 ---
-title: Создание оглавления в Aspose.Words для Java
-linktitle: Создание оглавления
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как создавать и настраивать оглавление (TOC) с помощью Aspose.Words для Java. Создавайте организованные и профессиональные документы без усилий.
-weight: 21
-url: /ru/java/document-manipulation/generating-table-of-contents/
+"description": "Узнайте, как создавать и настраивать оглавление (TOC) с помощью Aspose.Words для Java. Создавайте организованные и профессиональные документы без усилий."
+"linktitle": "Создание оглавления"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Создание оглавления в Aspose.Words для Java"
+"url": "/ru/java/document-manipulation/generating-table-of-contents/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создание оглавления в Aspose.Words для Java
@@ -78,7 +80,7 @@ for (Paragraph para : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARAGRAPH
         // Удалите старую вкладку.
         para.getParagraphFormat().getTabStops().removeByPosition(tab.getPosition());
         
-        //Вставьте новую вкладку в измененной позиции (например, на 50 единиц влево).
+        // Вставьте новую вкладку в измененной позиции (например, на 50 единиц влево).
         para.getParagraphFormat().getTabStops().add(tab.getPosition() - 50.0, tab.getAlignment(), tab.getLeader());
     }
 }
@@ -91,13 +93,13 @@ doc.save("output.docx");
 
 ## Заключение
 
-В этом уроке мы изучили, как создать оглавление (TOC) с помощью Aspose.Words для Java, мощной библиотеки для работы с документами Word. Хорошо структурированное оглавление необходимо для организации и навигации по длинным документам, и Aspose.Words предоставляет инструменты для создания и настройки оглавлений без особых усилий.
+В этом уроке мы изучили, как создать оглавление (TOC) с помощью Aspose.Words для Java, мощной библиотеки для работы с документами Word. Хорошо структурированное оглавление необходимо для организации и навигации по длинным документам, и Aspose.Words предоставляет инструменты для создания и настройки оглавлений без усилий.
 
 ## Часто задаваемые вопросы
 
 ### Как изменить форматирование записей TOC?
 
- Вы можете изменить стили, связанные с уровнями TOC, используя`doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`, где X — уровень TOC.
+Вы можете изменить стили, связанные с уровнями TOC, используя `doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`, где X — уровень TOC.
 
 ### Как добавить больше уровней в TOC?
 
@@ -106,9 +108,14 @@ doc.save("output.docx");
 ### Могу ли я изменить позиции табуляции для определенных записей оглавления?
 
 Да, как показано в примере кода выше, вы можете изменить позиции табуляции для определенных записей оглавления, перебирая абзацы и изменяя позиции табуляции соответствующим образом.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

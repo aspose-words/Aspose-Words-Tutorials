@@ -1,14 +1,16 @@
 ---
-title: तालिका शीर्षक और विवरण सेट करें
-linktitle: तालिका शीर्षक और विवरण सेट करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में तालिका शीर्षक और विवरण सेट करना सीखें। अपने दस्तावेज़ की व्यावसायिकता बढ़ाने के लिए हमारी विस्तृत मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/programming-with-table-styles-and-formatting/set-table-title-and-description/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में तालिका शीर्षक और विवरण सेट करना सीखें। अपने दस्तावेज़ की व्यावसायिकता बढ़ाने के लिए हमारी विस्तृत मार्गदर्शिका का पालन करें।"
+"linktitle": "तालिका शीर्षक और विवरण सेट करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "तालिका शीर्षक और विवरण सेट करें"
+"url": "/hi/net/programming-with-table-styles-and-formatting/set-table-title-and-description/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # तालिका शीर्षक और विवरण सेट करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-table-styles-and-formatting/set-table-title-and-de
 
 इससे पहले कि हम बारीकियों में जाएं, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए। यहाँ आपकी चेकलिस्ट है:
 
-1.  Aspose.Words for .NET: अगर आपने अभी तक ऐसा नहीं किया है, तो आपको इसे डाउनलोड करना होगा। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: अगर आपने अभी तक ऐसा नहीं किया है, तो आपको इसे डाउनलोड करना होगा। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो या कोई अन्य C# IDE.
 3. C# की बुनियादी समझ: कुछ भी ज्यादा जटिल नहीं, सिर्फ मूल बातें।
 4. एक नमूना वर्ड दस्तावेज़: हम एक ऐसे दस्तावेज़ के साथ काम करेंगे जिसमें तालिकाएँ हैं। आप एक बना सकते हैं या किसी मौजूदा दस्तावेज़ का उपयोग कर सकते हैं।
@@ -72,7 +74,7 @@ table.Description = "Test description";
 
 ## चरण 5: विशिष्ट विकल्पों के साथ सहेजें
 
-अंत में, हमें संगतता सुनिश्चित करने के लिए कुछ विशिष्ट विकल्पों के साथ अपने दस्तावेज़ को सहेजने की आवश्यकता है। इसे खजाने की पेटी को सील करने और इसे अगले साहसिक कार्य के लिए तैयार करने के रूप में सोचें।
+अंत में, हमें संगतता सुनिश्चित करने के लिए कुछ विशिष्ट विकल्पों के साथ अपने दस्तावेज़ को सहेजने की आवश्यकता है। इसे खजाने की पेटी को सील करने और अगले साहसिक कार्य के लिए इसे तैयार करने के रूप में सोचें।
 
 ```csharp
 OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
@@ -93,16 +95,21 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.SetTableTitleAndDescript
 वे संदर्भ प्रदान करने में सहायता करते हैं, विशेष रूप से अनेक तालिकाओं वाले बड़े दस्तावेज़ों में।
 
 ### क्या Aspose.Words for .NET निःशुल्क है?
- नहीं, लेकिन आप एक से शुरू कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/).
+नहीं, लेकिन आप एक से शुरू कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/).
 
 ### क्या मैं .NET के लिए Aspose.Words का उपयोग करके तालिका के अन्य पहलुओं को अनुकूलित कर सकता हूं?
 बिल्कुल! आप अपनी तालिकाओं और दस्तावेजों के लगभग हर पहलू को अनुकूलित कर सकते हैं।
 
 ### यदि मैं दस्तावेज़ को किसी भिन्न प्रारूप में सहेजना चाहूं तो क्या होगा?
 Aspose.Words पीडीएफ, HTML, आदि जैसे विभिन्न प्रारूपों में सहेजने का समर्थन करता है।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

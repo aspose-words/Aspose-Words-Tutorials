@@ -1,14 +1,16 @@
 ---
-title: รวมแถว
-linktitle: รวมแถว
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการรวมแถวจากหลายตารางเป็นหนึ่งโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนของเรา
-weight: 10
-url: /th/net/programming-with-tables/combine-rows/
+"description": "เรียนรู้วิธีการรวมแถวจากหลายตารางเป็นหนึ่งโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนของเรา"
+"linktitle": "รวมแถว"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "รวมแถว"
+"url": "/th/net/programming-with-tables/combine-rows/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รวมแถว
@@ -21,11 +23,11 @@ url: /th/net/programming-with-tables/combine-rows/
 
 ก่อนที่จะเริ่มเขียนโค้ด เรามาตรวจสอบก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
-1.  Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE อื่น ๆ ที่เข้ากันได้กับ .NET
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจเกี่ยวกับ C# จะเป็นประโยชน์
 
- หากคุณยังไม่มี Aspose.Words สำหรับ .NET คุณสามารถรับได้[ทดลองใช้งานฟรี](https://releases.aspose.com/) หรือซื้อมัน[ที่นี่](https://purchase.aspose.com/buy) . หากมีคำถามใด ๆ[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8) เป็นจุดเริ่มต้นที่ดี
+หากคุณยังไม่มี Aspose.Words สำหรับ .NET คุณสามารถรับได้ [ทดลองใช้งานฟรี](https://releases.aspose.com/) หรือซื้อมัน [ที่นี่](https://purchase.aspose.com/buy). หากมีคำถามใดๆ [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8) เป็นจุดเริ่มต้นที่ดี
 
 ## นำเข้าเนมสเปซ
 
@@ -49,11 +51,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- ในตัวอย่างนี้ให้แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางไปยังเอกสารของคุณ
+ในตัวอย่างนี้ให้แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางไปยังเอกสารของคุณ
 
 ## ขั้นตอนที่ 2: ระบุตาราง
 
- ขั้นต่อไป คุณต้องระบุตารางที่คุณต้องการรวมเข้าด้วยกัน Aspose.Words ช่วยให้คุณสามารถรับตารางจากเอกสารโดยใช้`GetChild` วิธีการมีดังนี้:
+ขั้นต่อไป คุณต้องระบุตารางที่คุณต้องการรวมเข้าด้วยกัน Aspose.Words ช่วยให้คุณสามารถรับตารางจากเอกสารโดยใช้ `GetChild` วิธีการมีดังนี้:
 
 ```csharp
 Table firstTable = (Table) doc.GetChild(NodeType.Table, 0, true);
@@ -76,7 +78,7 @@ while (secondTable.HasChildNodes)
 
 ## ขั้นตอนที่ 4: ถอดโต๊ะตัวที่สองออก
 
- หลังจากผนวกแถวแล้ว ตารางที่สองจะไม่จำเป็นอีกต่อไป คุณสามารถลบออกได้โดยใช้`Remove` วิธี:
+หลังจากผนวกแถวแล้ว ตารางที่สองจะไม่จำเป็นอีกต่อไป คุณสามารถลบออกได้โดยใช้ `Remove` วิธี:
 
 ```csharp
 secondTable.Remove();
@@ -96,7 +98,7 @@ doc.Save(dataDir + "WorkingWithTables.CombineRows.docx");
 
 การรวมแถวจากหลายตารางเป็นหนึ่งเดียวสามารถช่วยลดความซับซ้อนของงานประมวลผลเอกสารของคุณได้อย่างมาก ด้วย Aspose.Words สำหรับ .NET งานนี้จะกลายเป็นเรื่องง่ายและมีประสิทธิภาพ ด้วยการทำตามคำแนะนำทีละขั้นตอนนี้ คุณสามารถรวมตารางและปรับปรุงเวิร์กโฟลว์ของคุณได้อย่างง่ายดาย
 
-หากคุณต้องการข้อมูลเพิ่มเติมหรือมีคำถามใดๆ[เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) เป็นแหล่งข้อมูลที่ยอดเยี่ยม คุณยังสามารถสำรวจตัวเลือกการซื้อได้อีกด้วย[ที่นี่](https://purchase.aspose.com/buy) หรือรับ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการทดสอบ
+หากคุณต้องการข้อมูลเพิ่มเติมหรือมีคำถามใดๆ [เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) เป็นแหล่งข้อมูลที่ยอดเยี่ยม คุณยังสามารถสำรวจตัวเลือกการซื้อได้อีกด้วย [ที่นี่](https://purchase.aspose.com/buy) หรือรับ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการทดสอบ
 
 ## คำถามที่พบบ่อย
 
@@ -118,10 +120,15 @@ doc.Save(dataDir + "WorkingWithTables.CombineRows.docx");
 
 ### ฉันจะได้รับความช่วยเหลือหากประสบปัญหาได้ที่ไหน?
 
- การ[ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8) เป็นสถานที่ที่ยอดเยี่ยมในการขอความช่วยเหลือและค้นหาวิธีแก้ไขปัญหาทั่วไป
+การ [ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8) เป็นสถานที่ที่ยอดเยี่ยมในการขอความช่วยเหลือและค้นหาวิธีแก้ไขปัญหาทั่วไป
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

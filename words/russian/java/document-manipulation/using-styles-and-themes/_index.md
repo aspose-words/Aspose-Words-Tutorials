@@ -1,14 +1,16 @@
 ---
-title: Использование стилей и тем в Aspose.Words для Java
-linktitle: Использование стилей и тем
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как улучшить форматирование документов с помощью Aspose.Words для Java. Изучите стили, темы и многое другое в этом подробном руководстве с примерами исходного кода.
-weight: 20
-url: /ru/java/document-manipulation/using-styles-and-themes/
+"description": "Узнайте, как улучшить форматирование документов с помощью Aspose.Words для Java. Изучите стили, темы и многое другое в этом подробном руководстве с примерами исходного кода."
+"linktitle": "Использование стилей и тем"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Использование стилей и тем в Aspose.Words для Java"
+"url": "/ru/java/document-manipulation/using-styles-and-themes/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Использование стилей и тем в Aspose.Words для Java
@@ -25,7 +27,7 @@ url: /ru/java/document-manipulation/using-styles-and-themes/
 ```java
 Document doc = new Document();
 String styleName = "";
-//Получить коллекцию стилей из документа.
+// Получить коллекцию стилей из документа.
 StyleCollection styles = doc.getStyles();
 for (Style style : styles)
 {
@@ -46,7 +48,7 @@ for (Style style : styles)
 
 ## Копирование стилей
 
- Чтобы скопировать стили из одного документа в другой, вы можете использовать`copyStylesFromTemplate` метод, как показано ниже:
+Чтобы скопировать стили из одного документа в другой, вы можете использовать `copyStylesFromTemplate` метод, как показано ниже:
 
 ```java
 @Test
@@ -132,10 +134,15 @@ public void insertStyleSeparator() throws Exception
 
 ### Как использовать разделители стилей для переключения стилей в пределах одного абзаца?
 
- Разделители стилей можно вставлять с помощью`insertStyleSeparator` Метод`DocumentBuilder` сорт.
+Разделители стилей можно вставлять с помощью `insertStyleSeparator` Метод `DocumentBuilder` сорт.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

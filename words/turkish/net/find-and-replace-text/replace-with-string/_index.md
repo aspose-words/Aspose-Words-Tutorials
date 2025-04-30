@@ -1,14 +1,16 @@
 ---
-title: Dize ile Değiştir
-linktitle: Dize ile Değiştir
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzla .NET için Aspose.Words'ü kullanarak Word belgelerindeki dizeleri nasıl değiştireceğinizi öğrenin. Belge düzenlemeyi otomatikleştirmek isteyen geliştiriciler için mükemmeldir.
-weight: 10
-url: /tr/net/find-and-replace-text/replace-with-string/
+"description": "Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerindeki dizeleri nasıl değiştireceğinizi öğrenin. Belge düzenlemeyi otomatikleştirmek isteyen geliştiriciler için mükemmeldir."
+"linktitle": "Dize ile Değiştir"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Dize ile Değiştir"
+"url": "/tr/net/find-and-replace-text/replace-with-string/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dize ile Değiştir
@@ -22,7 +24,7 @@ Merhaba! Kendinizi bir Word belgesinin içinde dizlerinize kadar batmış halde 
 
 Kodlarla uğraşmaya başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: En son sürümü indirin[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: En son sürümü indirin [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir C# IDE.
 3. Temel C# Bilgisi: C# konusunda biraz bilgi sahibi olmak faydalı olacaktır.
 
@@ -35,7 +37,7 @@ using Aspose.Words;
 using Aspose.Words.Replacing;
 ```
 
-Örneğimizi birden fazla, kolay takip edilebilir adıma bölelim.
+Örneğimizi birden fazla, takip edilmesi kolay adıma bölelim.
 
 ## Adım 1: Proje Dizininizi Ayarlayın
 
@@ -46,7 +48,7 @@ Başlamak için, belgelerimizin bulunacağı bir dizine ihtiyacımız var. Word 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` belge dizininize giden yol ile. Bu, dosyalarımız için ana üs.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` belge dizininize giden yol ile. Bu, dosyalarımız için ana üs.
 
 ## Adım 2: Belgeyi ve Oluşturucuyu Başlatın
 
@@ -57,7 +59,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Burada,`Document` üzerinde çalışacağımız Word belgesini temsil eder ve`DocumentBuilder` onu değiştirmek için kullandığımız araçtır.
+Burada, `Document` üzerinde çalışacağımız Word belgesini temsil eder ve `DocumentBuilder` onu değiştirmek için kullandığımız araçtır.
 
 ## Adım 3: İlk İçeriği Ekleyin
 
@@ -77,7 +79,7 @@ builder.Writeln("sad mad bad");
 doc.Range.Replace("sad", "bad", new FindReplaceOptions(FindReplaceDirection.Forward));
 ```
 
- The`Replace`yöntem basittir. Bulunacak kelimeyi, değiştirme kelimesini ve bul-değiştir işlemi için seçenekleri belirtiriz.
+The `Replace` yöntem basittir. Bulunacak kelimeyi, değiştirme kelimesini ve bul-değiştir işlemi için seçenekleri belirtiriz.
 
 ## Adım 5: Belgeyi Kaydedin
 
@@ -87,7 +89,7 @@ Son olarak, değiştirilmiş belgeyi kaydederiz. Bu, bitmiş şaheserimizi çer�
 doc.Save(dataDir + "FindAndReplace.ReplaceWithString.docx");
 ```
 
- Belge belirtilen dizine şu adla kaydedilir:`FindAndReplace.ReplaceWithString.docx`. Ve işte! Bul ve değiştir işlemini başarıyla gerçekleştirdik.
+Belge belirtilen dizine şu adla kaydedilir: `FindAndReplace.ReplaceWithString.docx`. Ve işte! Bul ve değiştir işlemini başarıyla gerçekleştirdik.
 
 ## Çözüm
 
@@ -99,7 +101,7 @@ doc.Save(dataDir + "FindAndReplace.ReplaceWithString.docx");
 Evet, birden fazla değiştirme işlemini zincirleyebilir veya birden fazla deseni eşleştirmek ve değiştirmek için düzenli ifadeler kullanabilirsiniz.
 
 ### Aspose.Words for .NET ücretsiz mi?
- Aspose.Words for .NET ücretli bir kütüphanedir, ancak bir tane alabilirsiniz[ücretsiz deneme](https://releases.aspose.com/) Özelliklerini test etmek için.
+Aspose.Words for .NET ücretli bir kütüphanedir, ancak bir tane alabilirsiniz [ücretsiz deneme](https://releases.aspose.com/) Özelliklerini test etmek için.
 
 ### Metni biçimlendirilmiş içerikle değiştirebilir miyim?
 Kesinlikle! Aspose.Words, farklı yazı tipleri, renkler ve stiller de dahil olmak üzere metni biçimlendirilmiş içerikle değiştirmenize olanak tanır.
@@ -108,10 +110,15 @@ Kesinlikle! Aspose.Words, farklı yazı tipleri, renkler ve stiller de dahil olm
 Kelime bulunamazsa, değiştirme işlemi hiçbir şeyi değiştirmeyecektir. Hata yok, sadece değişiklik yok.
 
 ### Aspose.Words for .NET desteğini nasıl alabilirim?
- Destek alabilirsiniz[Aspose topluluğu](https://forum.aspose.com/c/words/8) veya ihtiyaç halinde premium destek satın alabilirsiniz.
+Destek alabilirsiniz [Aspose topluluğu](https://forum.aspose.com/c/words/8) veya ihtiyaç halinde premium destek satın alabilirsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

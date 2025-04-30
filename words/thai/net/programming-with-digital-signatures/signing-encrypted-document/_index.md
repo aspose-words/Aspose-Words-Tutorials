@@ -1,14 +1,16 @@
 ---
-title: การลงนามในเอกสาร Word ที่เข้ารหัส
-linktitle: การลงนามในเอกสาร Word ที่เข้ารหัส
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการลงนามในเอกสาร Word ที่เข้ารหัสโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้ เหมาะสำหรับนักพัฒนา
-weight: 10
-url: /th/net/programming-with-digital-signatures/signing-encrypted-document/
+"description": "เรียนรู้วิธีการลงนามในเอกสาร Word ที่เข้ารหัสโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้ เหมาะสำหรับนักพัฒนา"
+"linktitle": "การลงนามในเอกสาร Word ที่เข้ารหัส"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การลงนามในเอกสาร Word ที่เข้ารหัส"
+"url": "/th/net/programming-with-digital-signatures/signing-encrypted-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การลงนามในเอกสาร Word ที่เข้ารหัส
@@ -19,9 +21,9 @@ url: /th/net/programming-with-digital-signatures/signing-encrypted-document/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนจะเจาะลึกโค้ด เรามาตรวจสอบก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
+ก่อนที่จะเจาะลึกโค้ด เรามาตรวจสอบก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
-1.  Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้งจาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้งจาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. Visual Studio: ให้แน่ใจว่าคุณได้ติดตั้งแล้ว
 3. ใบรับรองที่ถูกต้อง: คุณจะต้องมีไฟล์ใบรับรอง .pfx
 4. ความรู้พื้นฐานเกี่ยวกับ C#: การทำความเข้าใจพื้นฐานจะทำให้บทช่วยสอนนี้ราบรื่นยิ่งขึ้น
@@ -45,7 +47,7 @@ using Aspose.Words.DigitalSignatures;
 
 ## ขั้นตอนที่ 2: การเพิ่ม Aspose.Words ลงในโปรเจ็กต์ของคุณ
 
-ขั้นตอนต่อไปคือการเพิ่ม Aspose.Words ลงในโปรเจ็กต์ของคุณ สามารถทำได้หลายวิธี แต่การใช้ NuGet ถือเป็นวิธีที่ง่ายที่สุด 
+ขั้นตอนต่อไปคือการเพิ่ม Aspose.Words ลงในโปรเจ็กต์ของคุณ สามารถทำได้หลายวิธี แต่การใช้ NuGet เป็นวิธีที่ง่ายที่สุด 
 
 1. เปิดคอนโซลตัวจัดการแพ็กเกจ NuGet จากเครื่องมือ > ตัวจัดการแพ็กเกจ NuGet > คอนโซลตัวจัดการแพ็กเกจ
 2. รันคำสั่งต่อไปนี้:
@@ -63,7 +65,7 @@ Install-Package Aspose.Words
 
 ## ขั้นตอนที่ 4: การเขียนโค้ด
 
- ตอนนี้มาเจาะลึกโค้ดกัน เปิด`Program.cs` ไฟล์และเริ่มต้นด้วยการตั้งค่าเส้นทางไปยังไดเร็กทอรีเอกสารของคุณและเริ่มต้นใช้งาน`SignOptions` พร้อมรหัสผ่านในการถอดรหัส
+ตอนนี้มาเจาะลึกโค้ดกัน เปิด `Program.cs` ไฟล์และเริ่มต้นด้วยการตั้งค่าเส้นทางไปยังไดเร็กทอรีเอกสารของคุณและเริ่มต้นใช้งาน `SignOptions` พร้อมรหัสผ่านในการถอดรหัส
 
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
@@ -73,7 +75,7 @@ SignOptions signOptions = new SignOptions { DecryptionPassword = "decryptionPass
 
 ## ขั้นตอนที่ 5: การโหลดใบรับรอง
 
- ขั้นตอนต่อไป โหลดใบรับรองของคุณโดยใช้`CertificateHolder`คลาสนี้จะต้องมีเส้นทางไปยังไฟล์ .pfx ของคุณและรหัสผ่านของใบรับรอง
+ขั้นตอนต่อไป โหลดใบรับรองของคุณโดยใช้ `CertificateHolder` คลาสนี้จะต้องมีเส้นทางไปยังไฟล์ .pfx ของคุณและรหัสผ่านของใบรับรอง
 
 ```csharp
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
@@ -81,7 +83,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 
 ## ขั้นตอนที่ 6: การลงนามในเอกสาร
 
- สุดท้ายใช้`DigitalSignatureUtil.Sign` วิธีการลงนามในเอกสาร Word ที่เข้ารหัสของคุณ วิธีนี้ต้องใช้ไฟล์อินพุต ไฟล์เอาท์พุต ผู้ถือใบรับรอง และตัวเลือกการลงนาม
+สุดท้ายใช้ `DigitalSignatureUtil.Sign` วิธีการลงนามในเอกสาร Word ที่เข้ารหัสของคุณ วิธีนี้ต้องใช้ไฟล์อินพุต ไฟล์เอาท์พุต ผู้ถือใบรับรอง และตัวเลือกการลงนาม
 
 ```csharp
 DigitalSignatureUtil.Sign(
@@ -104,20 +106,25 @@ DigitalSignatureUtil.Sign(
 ### ฉันสามารถใช้ใบรับรองประเภทอื่นได้หรือไม่
 ใช่ Aspose.Words รองรับใบรับรองประเภทต่างๆ ตราบใดที่อยู่ในรูปแบบที่ถูกต้อง
 
-### สามารถลงนามเอกสารหลายฉบับพร้อมกันได้หรือไม่?
+### สามารถลงนามเอกสารหลายฉบับพร้อมกันได้ไหม?
 แน่นอน! คุณสามารถวนซ้ำเอกสารต่างๆ และลงนามในแต่ละเอกสารได้ด้วยโปรแกรม
 
 ### จะเกิดอะไรขึ้นหากฉันลืมรหัสผ่านการถอดรหัส?
-น่าเสียดาย หากไม่มีรหัสผ่านสำหรับการถอดรหัส คุณจะไม่สามารถลงนามในเอกสารได้
+น่าเสียดายที่หากไม่มีรหัสผ่านสำหรับการถอดรหัส คุณจะไม่สามารถลงนามในเอกสารได้
 
 ### ฉันสามารถเพิ่มลายเซ็นที่มองเห็นได้ลงในเอกสารได้หรือไม่
 ใช่ Aspose.Words ช่วยให้คุณสามารถเพิ่มลายเซ็นดิจิทัลที่มองเห็นได้ด้วยเช่นกัน
 
 ### มีวิธีตรวจสอบลายเซ็นหรือไม่?
- ใช่คุณสามารถใช้`DigitalSignatureUtil.Verify` วิธีการตรวจสอบลายเซ็น
+ใช่คุณสามารถใช้ `DigitalSignatureUtil.Verify` วิธีการตรวจสอบลายเซ็น
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

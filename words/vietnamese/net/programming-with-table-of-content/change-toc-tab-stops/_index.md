@@ -1,14 +1,16 @@
 ---
-title: Thay đổi điểm dừng tab Toc trong tài liệu Word
-linktitle: Thay đổi điểm dừng tab Toc trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thay đổi tab TOC trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước này sẽ giúp bạn tạo Mục lục trông chuyên nghiệp.
-weight: 10
-url: /vi/net/programming-with-table-of-content/change-toc-tab-stops/
+"description": "Tìm hiểu cách thay đổi tab TOC trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước này sẽ giúp bạn tạo Mục lục trông chuyên nghiệp."
+"linktitle": "Thay đổi điểm dừng tab Toc trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thay đổi điểm dừng tab Toc trong tài liệu Word"
+"url": "/vi/net/programming-with-table-of-content/change-toc-tab-stops/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thay đổi điểm dừng tab Toc trong tài liệu Word
@@ -21,9 +23,9 @@ Bạn đã bao giờ tự hỏi làm thế nào để làm cho Mục lục (TOC)
 
 Trước khi bắt đầu, hãy đảm bảo bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào tương thích với C#.
-3. Một tài liệu Word: Cụ thể là tài liệu có chứa mục lục.
+3. Một tài liệu Word: Cụ thể hơn, là tài liệu có chứa mục lục.
 
 Bạn đã hiểu chưa? Tuyệt vời! Bắt đầu thôi.
 
@@ -66,7 +68,7 @@ foreach(Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
     if (para.ParagraphFormat.Style.StyleIdentifier >= StyleIdentifier.Toc1 &&
         para.ParagraphFormat.Style.StyleIdentifier <= StyleIdentifier.Toc9)
     {
-        // Đã tìm thấy đoạn văn TOC
+        // Đã tìm thấy đoạn TOC
     }
 }
 ```
@@ -117,19 +119,24 @@ Thay đổi các điểm dừng tab TOC trong tài liệu Word bằng Aspose.Wor
 Có, bạn có thể! Chỉ cần kiểm tra từng mức TOC cụ thể (Toc1, Toc2, v.v.) và điều chỉnh cho phù hợp.
 
 ### Nếu tài liệu của tôi có nhiều mục lục thì sao?
-Mã này sẽ quét tất cả các đoạn văn theo kiểu TOC, do đó sẽ sửa đổi tất cả các TOC có trong tài liệu.
+Mã này sẽ quét tất cả các đoạn văn theo kiểu mục lục, do đó sẽ sửa đổi tất cả mục lục có trong tài liệu.
 
 ### Có thể thêm nhiều điểm dừng tab vào một mục lục không?
- Chắc chắn rồi! Bạn có thể thêm nhiều điểm dừng tab tùy theo nhu cầu bằng cách điều chỉnh`para.ParagraphFormat.TabStops` bộ sưu tập.
+Chắc chắn rồi! Bạn có thể thêm nhiều điểm dừng tab tùy theo nhu cầu bằng cách điều chỉnh `para.ParagraphFormat.TabStops` bộ sưu tập.
 
 ### Tôi có thể thay đổi cách căn chỉnh điểm dừng tab và kiểu dẫn dòng không?
-Có, bạn có thể chỉ định các kiểu căn chỉnh và dòng dẫn khác nhau khi thêm một điểm dừng tab mới.
+Có, bạn có thể chỉ định các kiểu căn chỉnh và kiểu dẫn hướng khác nhau khi thêm một điểm dừng tab mới.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?
- Có, bạn cần có giấy phép hợp lệ để sử dụng Aspose.Words cho .NET sau thời gian dùng thử. Bạn có thể nhận được[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc[mua một cái](https://purchase.aspose.com/buy).
+Có, bạn cần giấy phép hợp lệ để sử dụng Aspose.Words cho .NET sau thời gian dùng thử. Bạn có thể nhận được [giấy phép tạm thời](https://purchase.aspose.com/temphoặcary-license/) or [mua một cái](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

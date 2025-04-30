@@ -1,31 +1,33 @@
 ---
-title: Stel de instellingen voor het terugvallen van lettertypen in
-linktitle: Stel de instellingen voor het terugvallen van lettertypen in
-second_title: Aspose.Words API voor documentverwerking
-description: Leer hoe u de lettertype-fallbackinstellingen in Aspose.Words voor .NET instelt. Deze uitgebreide handleiding zorgt ervoor dat alle tekens in uw documenten correct worden weergegeven.
-weight: 10
-url: /nl/net/working-with-fonts/set-font-fallback-settings/
+"description": "Leer hoe u de instellingen voor lettertype-fallback instelt in Aspose.Words voor .NET. Deze uitgebreide handleiding zorgt ervoor dat alle tekens in uw documenten correct worden weergegeven."
+"linktitle": "Lettertype-fallbackinstellingen instellen"
+"second_title": "Aspose.Words API voor documentverwerking"
+"title": "Lettertype-fallbackinstellingen instellen"
+"url": "/nl/net/working-with-fonts/set-font-fallback-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Stel de instellingen voor het terugvallen van lettertypen in
+# Lettertype-fallbackinstellingen instellen
 
 ## Invoering
 
-Bij het werken met documenten die verschillende tekstelementen bevatten, zoals verschillende talen of speciale tekens, is het cruciaal om ervoor te zorgen dat deze elementen correct worden weergegeven. Aspose.Words voor .NET biedt een krachtige functie genaamd Font Fallback Settings, die helpt bij het definiëren van regels voor het vervangen van lettertypen wanneer het oorspronkelijke lettertype bepaalde tekens niet ondersteunt. In deze handleiding onderzoeken we hoe u Font Fallback Settings instelt met Aspose.Words voor .NET in een stapsgewijze zelfstudie.
+Bij het werken met documenten die diverse tekstelementen bevatten, zoals verschillende talen of speciale tekens, is het cruciaal om ervoor te zorgen dat deze elementen correct worden weergegeven. Aspose.Words voor .NET biedt een krachtige functie genaamd 'Fallback Settings', die helpt bij het definiëren van regels voor het vervangen van lettertypen wanneer het oorspronkelijke lettertype bepaalde tekens niet ondersteunt. In deze handleiding leggen we stapsgewijs uit hoe u 'Fallback Settings' instelt met Aspose.Words voor .NET.
 
 ## Vereisten
 
 Voordat u met de tutorial begint, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
 - Basiskennis van C#: Kennis van de programmeertaal C# en het .NET Framework.
--  Aspose.Words voor .NET: Downloaden en installeren vanaf de[downloadlink](https://releases.aspose.com/words/net/).
+- Aspose.Words voor .NET: Downloaden en installeren vanaf de [downloadlink](https://releases.aspose.com/words/net/).
 - Ontwikkelomgeving: Een omgeving zoals Visual Studio om uw code te schrijven en uit te voeren.
--  Voorbeeld document: Heb een voorbeeld document (bijv.`Rendering.docx`) klaar om te testen.
-- XML-regels voor lettertype-fallback: maak een XML-bestand waarin de lettertype-fallbackregels worden gedefinieerd.
+- Voorbeeld document: Heb een voorbeeld document (bijv. `Rendering.docx`) klaar voor testen.
+- XML-bestand met de regels voor terugval van lettertypen: maak een XML-bestand waarin de regels voor terugval van lettertypen worden gedefinieerd.
 
 ## Naamruimten importeren
 
@@ -37,7 +39,7 @@ using Aspose.Words.Fonts;
 using System;
 ```
 
-## Stap 1: Definieer de documentdirectory
+## Stap 1: Definieer de documentmap
 
 Definieer eerst de directory waar uw document is opgeslagen. Dit is essentieel voor het vinden en verwerken van uw document.
 
@@ -46,17 +48,17 @@ Definieer eerst de directory waar uw document is opgeslagen. Dit is essentieel v
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-## Stap 2: Laad het document
+## Stap 2: Het document laden
 
- Laad uw document in een Aspose.Words`Document` object. Met deze stap kunt u programmatisch met het document werken.
+Laad uw document in een Aspose.Words `Document` object. Met deze stap kunt u programmatisch met het document werken.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
-## Stap 3: Configureer lettertype-instellingen
+## Stap 3: Lettertype-instellingen configureren
 
- Maak een nieuwe`FontSettings` object en laad de font fallback-instellingen van een XML-bestand. Dit XML-bestand bevat de regels voor font fallback.
+Maak een nieuwe `FontSettings` object en laad de instellingen voor de fallback van lettertypen vanuit een XML-bestand. Dit XML-bestand bevat de regels voor de fallback van lettertypen.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -65,7 +67,7 @@ fontSettings.FallbackSettings.Load(dataDir + "Font fallback rules.xml");
 
 ## Stap 4: Lettertype-instellingen toepassen op het document
 
- Wijs de geconfigureerde toe`FontSettings`aan het document. Dit zorgt ervoor dat de regels voor lettertype-fallback worden toegepast bij het renderen van het document.
+Wijs de geconfigureerde toe `FontSettings` aan het document. Dit zorgt ervoor dat de fallback-regels voor lettertypen worden toegepast bij het renderen van het document.
 
 ```csharp
 doc.FontSettings = fontSettings;
@@ -73,7 +75,7 @@ doc.FontSettings = fontSettings;
 
 ## Stap 5: Sla het document op
 
-Sla ten slotte het document op. De font fallback-instellingen worden gebruikt tijdens de opslagbewerking om correcte fontvervanging te garanderen.
+Sla ten slotte het document op. De fallback-instellingen voor het lettertype worden tijdens het opslaan gebruikt om correcte lettertypevervanging te garanderen.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithFonts.SetFontFallbackSettings.pdf");
@@ -99,32 +101,37 @@ Hier ziet u een voorbeeld van hoe uw XML-bestand met de fallback-regels voor let
 
 ## Conclusie
 
-Door deze stappen te volgen, kunt u effectief Font Fallback Settings instellen en gebruiken in Aspose.Words voor .NET. Dit zorgt ervoor dat uw documenten alle tekens correct weergeven, zelfs als het originele lettertype bepaalde tekens niet ondersteunt. Het implementeren van deze instellingen zal de kwaliteit en leesbaarheid van uw documenten aanzienlijk verbeteren.
+Door deze stappen te volgen, kunt u effectief de instellingen voor lettertype-fallback in Aspose.Words voor .NET instellen en gebruiken. Dit zorgt ervoor dat uw documenten alle tekens correct weergeven, zelfs als het oorspronkelijke lettertype bepaalde tekens niet ondersteunt. Het implementeren van deze instellingen verbetert de kwaliteit en leesbaarheid van uw documenten aanzienlijk.
 
 ## Veelgestelde vragen
 
 ### V1: Wat is Font Fallback?
 
-Met Font Fallback kunt u lettertypen vervangen als het oorspronkelijke lettertype bepaalde tekens niet ondersteunt. Zo wordt gezorgd voor een correcte weergave van alle tekstelementen.
+Met de functie Font Fallback kunt u lettertypen vervangen als het oorspronkelijke lettertype bepaalde tekens niet ondersteunt. Zo weet u zeker dat alle tekstelementen correct worden weergegeven.
 
 ### V2: Kan ik meerdere fallback-lettertypen opgeven?
 
-Ja, u kunt meerdere fallback-lettertypen opgeven in de XML-regels. Aspose.Words controleert elk lettertype in de opgegeven volgorde totdat er een wordt gevonden die het teken ondersteunt.
+Ja, u kunt meerdere fallback-lettertypen opgeven in de XML-regels. Aspose.Words controleert elk lettertype in de opgegeven volgorde totdat er een lettertype wordt gevonden dat het teken ondersteunt.
 
 ### V3: Waar kan ik Aspose.Words voor .NET downloaden?
 
- Je kunt het downloaden van de[Aspose downloadpagina](https://releases.aspose.com/words/net/).
+Je kunt het downloaden van de [Aspose downloadpagina](https://releases.aspose.com/words/net/).
 
 ### V4: Hoe maak ik het XML-bestand voor de fallback-regels voor lettertypen?
 
-Het XML-bestand kan worden gemaakt met elke teksteditor. Het moet de structuur volgen die wordt getoond in het voorbeeld in deze tutorial.
+Het XML-bestand kan met elke teksteditor worden aangemaakt. Het moet de structuur volgen die in het voorbeeld in deze tutorial wordt getoond.
 
 ### V5: Is er ondersteuning beschikbaar voor Aspose.Words?
 
- Ja, u kunt ondersteuning vinden op de[Aspose.Words ondersteuningsforum](https://forum.aspose.com/c/words/8).
+Ja, u kunt ondersteuning vinden op de [Aspose.Words ondersteuningsforum](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

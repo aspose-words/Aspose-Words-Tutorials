@@ -1,14 +1,16 @@
 ---
-title: Chèn Đối Tượng Ole Vào Tài Liệu Word Làm Biểu Tượng
-linktitle: Chèn Đối Tượng Ole Vào Tài Liệu Word Làm Biểu Tượng
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn đối tượng OLE dưới dạng biểu tượng trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để cải thiện tài liệu của bạn.
-weight: 10
-url: /vi/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon/
+"description": "Tìm hiểu cách chèn đối tượng OLE dưới dạng biểu tượng trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để cải thiện tài liệu của bạn."
+"linktitle": "Chèn Đối Tượng Ole Vào Tài Liệu Word Làm Biểu Tượng"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn Đối Tượng Ole Vào Tài Liệu Word Làm Biểu Tượng"
+"url": "/vi/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn Đối Tượng Ole Vào Tài Liệu Word Làm Biểu Tượng
@@ -21,7 +23,7 @@ Bạn đã bao giờ cần nhúng một đối tượng OLE, như bản trình b
 
 Trước khi đi sâu vào chi tiết, chúng ta hãy cùng tìm hiểu những gì bạn cần:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Bạn cần một môi trường phát triển tích hợp (IDE) như Visual Studio.
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ rất hữu ích.
 
@@ -49,15 +51,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Bước 2: Chèn Đối tượng OLE làm Biểu tượng
 
- Bây giờ, hãy chèn đối tượng OLE dưới dạng biểu tượng.`InsertOleObjectAsIcon` phương thức của lớp DocumentBuilder được sử dụng cho mục đích này.
+Bây giờ, hãy chèn đối tượng OLE dưới dạng biểu tượng. `InsertOleObjectAsIcon` phương thức của lớp DocumentBuilder được sử dụng cho mục đích này.
 
 ```csharp
 builder.InsertOleObjectAsIcon("path_to_your_presentation.pptx", false, "path_to_your_icon.ico", "My embedded file");
 ```
 
 Chúng ta hãy phân tích phương pháp này:
-- `"path_to_your_presentation.pptx"`: Đây là đường dẫn đến đối tượng OLE mà bạn muốn nhúng.
-- `false` : Tham số boolean này chỉ định xem có hiển thị đối tượng OLE dưới dạng biểu tượng hay không. Vì chúng ta muốn có biểu tượng, chúng ta đặt nó thành`false`.
+- `"path_to_your_presentation.pptx"`Đây là đường dẫn đến đối tượng OLE mà bạn muốn nhúng.
+- `false`: Tham số boolean này chỉ định xem có hiển thị đối tượng OLE dưới dạng biểu tượng hay không. Vì chúng ta muốn có biểu tượng, chúng ta đặt nó thành `false`.
 - `"path_to_your_icon.ico"`: Đây là đường dẫn đến tệp biểu tượng mà bạn muốn sử dụng cho đối tượng OLE.
 - `"My embedded file"`: Đây là nhãn sẽ xuất hiện bên dưới biểu tượng.
 
@@ -83,7 +85,7 @@ Có, bạn có thể nhúng nhiều loại đối tượng OLE khác nhau như b
 
 ### Làm thế nào để tôi có thể dùng thử miễn phí Aspose.Words cho .NET?
 
- Bạn có thể nhận được bản dùng thử miễn phí từ[Trang phát hành Aspose](https://releases.aspose.com/).
+Bạn có thể nhận được bản dùng thử miễn phí từ [Trang phát hành Aspose](https://releases.aspose.com/).
 
 ### Đối tượng OLE là gì?
 
@@ -91,14 +93,19 @@ OLE (Liên kết và nhúng đối tượng) là công nghệ do Microsoft phát
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?
 
- Có, Aspose.Words cho .NET yêu cầu phải có giấy phép. Bạn có thể mua nó từ[Trang mua hàng Aspose](https://purchase.aspose.com/buy) hoặc nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
+Có, Aspose.Words cho .NET yêu cầu phải có giấy phép. Bạn có thể mua nó từ [Trang mua hàng Aspose](https://purchase.aspose.com/buy) hoặc nhận được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
 
 ### Tôi có thể tìm thêm hướng dẫn về Aspose.Words cho .NET ở đâu?
 
- Bạn có thể tìm thêm hướng dẫn và tài liệu trên[Trang tài liệu Aspose](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thêm hướng dẫn và tài liệu trên [Trang tài liệu Aspose](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

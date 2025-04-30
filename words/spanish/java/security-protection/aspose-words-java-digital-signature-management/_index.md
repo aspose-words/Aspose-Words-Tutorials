@@ -172,7 +172,7 @@ if (!"Test Sign".equals(signature.getComments())) {
 }
 
 // Validar el nombre del emisor
-String expectedIssuerName = "CN=VeriSign Class 3 Code Signing 2009-2 CA, OU=Terms of use at https://www.verisign.com/rpa (c)09, OU=VeriSign Trust Network, O=\\"VeriSign, Inc.\\", C=US";
+String expectedIssuerName = "CN=VeriSign Class 3 Code Signing 2009-2 CA, OU=Terms of use at https://www.verisign.com/rpa (c)09, OU=VeriSign Trust Network, O=\"VeriSign, Inc.\", C=US";
 if (!expectedIssuerName.equals(signature.getIssuerName())) {
     throw new IllegalStateException("Unexpected issuer name.");
 }

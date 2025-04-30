@@ -1,14 +1,16 @@
 ---
-title: Opsi dan Pengaturan Dokumen
-linktitle: Opsi dan Pengaturan Dokumen
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Jelajahi tutorial Aspose.Words tentang opsi dan pengaturan dokumen dalam Python dan .NET. Pelajari cara mengoptimalkan pembuatan dan pemformatan dokumen menggunakan panduan langkah demi langkah dan contoh kode sumber.
-weight: 14
-url: /id/python-net/document-options-and-settings/
+"description": "Jelajahi tutorial Aspose.Words tentang opsi dan pengaturan dokumen dalam Python dan .NET. Pelajari cara mengoptimalkan pembuatan dan pemformatan dokumen menggunakan panduan langkah demi langkah dan contoh kode sumber."
+"linktitle": "Opsi dan Pengaturan Dokumen"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Opsi dan Pengaturan Dokumen"
+"url": "/id/python-net/document-options-and-settings/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Opsi dan Pengaturan Dokumen
@@ -47,9 +49,13 @@ Pelajari cara memanipulasi dokumen Word secara efisien menggunakan Aspose.Words 
 Pelajari cara mengelola properti dan metadata dokumen menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber.
 ### [Memperluas Fungsionalitas Dokumen dengan Ekstensi Web](./document-functionality-web-extensions/)
 Pelajari cara memperluas fungsionalitas dokumen dengan ekstensi web menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber untuk integrasi yang lancar.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Sesuaikan Tabel Secara Otomatis dengan Isi
-linktitle: Sesuaikan Tabel Secara Otomatis dengan Isi
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyesuaikan tabel secara otomatis dengan konten dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan ini. Sempurna untuk pemformatan dokumen yang dinamis dan rapi.
-weight: 10
-url: /id/net/programming-with-tables/auto-fit-table-to-contents/
+"description": "Pelajari cara menyesuaikan tabel secara otomatis dengan konten dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan ini. Sempurna untuk pemformatan dokumen yang dinamis dan rapi."
+"linktitle": "Sesuaikan Tabel Secara Otomatis dengan Isi"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Sesuaikan Tabel Secara Otomatis dengan Isi"
+"url": "/id/net/programming-with-tables/auto-fit-table-to-contents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sesuaikan Tabel Secara Otomatis dengan Isi
@@ -21,7 +23,7 @@ Pernahkah Anda mengalami kesulitan dengan tabel yang terlihat seperti dijejalkan
 
 Sebelum kita masuk ke kode, berikut ini yang perlu Anda siapkan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Visual Studio: Lingkungan pengembangan seperti Visual Studio untuk menulis dan menguji kode Anda.
 3. Pengetahuan Dasar C#: Kemampuan dalam pemrograman C# akan sangat membantu, karena kita akan menggunakannya untuk memanipulasi dokumen Word.
 
@@ -34,18 +36,18 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
- Itu`Aspose.Words` namespace menyediakan fungsionalitas inti untuk menangani dokumen Word, sementara`Aspose.Words.Tables` termasuk kelas-kelas khusus untuk bekerja dengan tabel.
+Itu `Aspose.Words` namespace menyediakan fungsionalitas inti untuk menangani dokumen Word, sementara `Aspose.Words.Tables` termasuk kelas-kelas khusus untuk bekerja dengan tabel.
 
 ## Langkah 1: Siapkan Direktori Dokumen Anda
 
 Pertama, tentukan jalur penyimpanan dokumen Anda. Ini akan menjadi titik awal untuk memuat dan menyimpan file.
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda berada. Ini seperti menyiapkan ruang kerja sebelum memulai proyek.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda berada. Ini seperti menyiapkan ruang kerja sebelum memulai proyek.
 
 ## Langkah 2: Muat Dokumen Anda
 
@@ -55,7 +57,7 @@ Sekarang, mari muat dokumen Word yang berisi tabel yang ingin Anda format.
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- Pada langkah ini, kita membuka dokumen bernama`Tables.docx`Pastikan berkas tersebut ada di direktori yang ditentukan, atau Anda akan mendapatkan galat. Anggap saja ini seperti membuka berkas di editor teks favorit Anda sebelum membuat perubahan.
+Pada langkah ini, kita membuka dokumen bernama `Tables.docx`Pastikan berkas tersebut ada di direktori yang ditentukan, atau Anda akan mendapatkan galat. Anggap saja ini seperti membuka berkas di editor teks favorit Anda sebelum membuat perubahan.
 
 ## Langkah 3: Akses Tabel
 
@@ -94,10 +96,10 @@ Menyesuaikan tabel secara otomatis dengan konten menggunakan Aspose.Words untuk 
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya secara otomatis menyesuaikan hanya kolom tertentu dalam suatu tabel?
- Itu`AutoFit` metode ini berlaku untuk seluruh tabel. Jika Anda perlu menyesuaikan kolom tertentu, Anda mungkin perlu mengatur lebar kolom secara manual.
+Itu `AutoFit` metode ini berlaku untuk seluruh tabel. Jika Anda perlu menyesuaikan kolom tertentu, Anda mungkin perlu mengatur lebar kolom secara manual.
 
 ### Bagaimana jika dokumen saya berisi beberapa tabel?
- Anda dapat mengulang semua tabel dalam dokumen menggunakan`doc.GetChildNodes(NodeType.Table, true)` dan terapkan penyesuaian otomatis bila diperlukan.
+Anda dapat mengulang semua tabel dalam dokumen menggunakan `doc.GetChildNodes(NodeType.Table, true)` dan terapkan penyesuaian otomatis bila diperlukan.
 
 ### Bagaimana saya dapat mengembalikan perubahan jika diperlukan?
 Simpan cadangan dokumen asli Anda sebelum menerapkan perubahan, atau simpan versi dokumen yang berbeda saat Anda bekerja.
@@ -107,9 +109,14 @@ Ya, tetapi pastikan Anda memiliki izin yang diperlukan untuk mengubah dokumen te
 
 ### Bagaimana saya mengetahui apakah penyesuaian otomatis berhasil?
 Buka dokumen yang tersimpan dan periksa tata letak tabel. Tata letak tabel harus disesuaikan dengan konten.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

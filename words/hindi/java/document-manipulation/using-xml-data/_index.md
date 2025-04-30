@@ -1,14 +1,16 @@
 ---
-title: जावा के लिए Aspose.Words में XML डेटा का उपयोग करना
-linktitle: XML डेटा का उपयोग करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: जावा के लिए Aspose.Words की शक्ति अनलॉक करें। चरण-दर-चरण ट्यूटोरियल के साथ XML डेटा हैंडलिंग, मेल मर्ज और मस्टैच सिंटैक्स सीखें।
-weight: 12
-url: /hi/java/document-manipulation/using-xml-data/
+"description": "जावा के लिए Aspose.Words की शक्ति अनलॉक करें। चरण-दर-चरण ट्यूटोरियल के साथ XML डेटा हैंडलिंग, मेल मर्ज और मस्टैच सिंटैक्स सीखें।"
+"linktitle": "XML डेटा का उपयोग करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "जावा के लिए Aspose.Words में XML डेटा का उपयोग करना"
+"url": "/hi/java/document-manipulation/using-xml-data/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के लिए Aspose.Words में XML डेटा का उपयोग करना
@@ -77,14 +79,19 @@ doc.save("Your Directory Path" + "MustacheSyntaxUsingDataSet.docx");
 
 ### क्या मैं मेल मर्ज मानों के लिए ट्रिम व्यवहार को अनुकूलित कर सकता हूँ?
 
- हां, आप यह नियंत्रित कर सकते हैं कि मेल मर्ज के दौरान अग्रणी और अंतिम रिक्त स्थान को ट्रिम किया जाए या नहीं`doc.getMailMerge().setTrimWhitespaces(false)`.
+हां, आप यह नियंत्रित कर सकते हैं कि मेल मर्ज के दौरान अग्रणी और अंतिम रिक्त स्थान को ट्रिम किया जाए या नहीं `doc.getMailMerge().setTrimWhitespaces(false)`.
 
 ### मस्टैच सिंटैक्स क्या है, और मुझे इसका उपयोग कब करना चाहिए?
 
- मस्टैश सिंटैक्स आपको मेल मर्ज फ़ील्ड को अधिक लचीले तरीके से फ़ॉर्मेट करने की अनुमति देता है।`doc.getMailMerge().setUseNonMergeFields(true)` मूंछ वाक्यविन्यास को सक्षम करने के लिए.
+मस्टैश सिंटैक्स आपको मेल मर्ज फ़ील्ड को अधिक लचीले तरीके से फ़ॉर्मेट करने की अनुमति देता है। `doc.getMailMerge().setUseNonMergeFields(true)` मूंछ वाक्यविन्यास को सक्षम करने के लिए.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

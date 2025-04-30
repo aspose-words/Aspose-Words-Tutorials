@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Yalnızca Form Alanlarını Korumaya İzin Ver
-linktitle: Word Belgesinde Yalnızca Form Alanlarını Korumaya İzin Ver
-second_title: Aspose.Words Belge İşleme API'si
-description: Word belgelerini nasıl koruyacağınızı öğrenin, yalnızca form alanlarının Aspose.Words for .NET kullanılarak düzenlenmesine izin verin. Belgelerinizin güvenli ve kolayca düzenlenebilir olduğundan emin olmak için kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/document-protection/allow-only-form-fields-protect/
+"description": "Word belgelerini nasıl koruyacağınızı öğrenin, yalnızca form alanlarının Aspose.Words for .NET kullanılarak düzenlenmesine izin verin. Belgelerinizin güvenli ve kolayca düzenlenebilir olduğundan emin olmak için kılavuzumuzu izleyin."
+"linktitle": "Word Belgesinde Yalnızca Form Alanlarını Korumaya İzin Ver"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Yalnızca Form Alanlarını Korumaya İzin Ver"
+"url": "/tr/net/document-protection/allow-only-form-fields-protect/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Yalnızca Form Alanlarını Korumaya İzin Ver
@@ -21,7 +23,7 @@ Merhaba! Bir Word belgesinin belirli kısımlarını korurken diğer kısımlar�
 
 Kodlama kısmına dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET Kütüphanesi: Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Visual Studio: Güncel herhangi bir sürümü sorunsuz çalışacaktır.
 3. C# Temel Bilgisi: Temelleri anlamak, eğitimi takip etmenize yardımcı olacaktır.
 
@@ -42,7 +44,7 @@ Visual Studio'yu açın ve yeni bir Konsol Uygulaması (.NET Core) projesi oluş
 ## Adım 2: Aspose.Words for .NET'i yükleyin
 
 NuGet Paket Yöneticisi aracılığıyla yükleyin  
-Çözüm Gezgini'nde projenize sağ tıklayın, "NuGet Paketlerini Yönet" seçeneğini seçin ve şunu arayın:`Aspose.Words`. Kurun.
+Çözüm Gezgini'nde projenize sağ tıklayın, "NuGet Paketlerini Yönet" seçeneğini seçin ve şunu arayın: `Aspose.Words`. Kurun.
 
 ## Adım 3: Belgeyi Başlatın
 
@@ -59,7 +61,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Text added to a document.");
 ```
 
- Burada yeni bir tane yaratıyoruz`Document` Ve`DocumentBuilder` örnek.`DocumentBuilder` belgemize metin eklememizi sağlar.
+Burada yeni bir tane yaratıyoruz `Document` Ve `DocumentBuilder` örnek. `DocumentBuilder` belgemize metin eklememizi sağlar.
 
 ## Adım 4: Belgeyi Koruyun
 
@@ -92,23 +94,28 @@ Ve işte karşınızda! Aspose.Words for .NET kullanarak yalnızca form alanlar�
 ## SSS
 
 ###	 Bir belgenin korumasını nasıl kaldırabilirim?  
- Korumayı kaldırmak için şunu kullanın:`doc.Unprotect("password")` Burada "şifre" belgeyi korumak için kullanılan şifredir.
+Korumayı kaldırmak için şunu kullanın: `doc.Unprotect("password")` Burada "şifre" belgeyi korumak için kullanılan şifredir.
 
 ###	 Aspose.Words for .NET kullanarak farklı koruma türleri uygulayabilir miyim?  
- Evet, Aspose.Words çeşitli koruma türlerini destekler:`ReadOnly`, `NoProtection` , Ve`AllowOnlyRevisions`.
+Evet, Aspose.Words çeşitli koruma türlerini destekler: `ReadOnly`, `NoProtection`, Ve `AllowOnlyRevisions`.
 
 ###	 Farklı bölümler için farklı şifre kullanmak mümkün mü?  
 Hayır, Aspose.Words'deki belge düzeyindeki koruma tüm belgeye uygulanır. Farklı bölümlere farklı parolalar atayamazsınız.
 
 ###	 Yanlış şifre kullanılırsa ne olur?  
-Yanlış şifre kullanılması durumunda belge korunacak ve belirtilen değişiklikler uygulanmayacaktır.
+Yanlış şifre kullanılması durumunda belge korunmaya devam edecek ve belirtilen değişiklikler uygulanmayacaktır.
 
 ###	 Bir belgenin korunup korunmadığını program aracılığıyla kontrol edebilir miyim?  
- Evet, kullanabilirsiniz`doc.ProtectionType` Bir belgenin koruma durumunu kontrol etmeye yarayan özellik.
+Evet, kullanabilirsiniz `doc.ProtectionType` Bir belgenin koruma durumunu kontrol etmeye yarayan özellik.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

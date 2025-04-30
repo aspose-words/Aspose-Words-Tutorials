@@ -1,42 +1,50 @@
 ---
-title: Δημιουργήστε ένα Τράπεζα Σχεδιασμού στο Word με Aspose.Words για .NET
-weight: 7700
-limit: 
-description: Μάθετε να δημιουργείτε ένα έγγραφο Word με ένα μορφοποιημένο πίνακα χρησιμοποιώντας το Aspose.Words για το .NET με αυτό το βήμα-με-βήμα παράδειγμα.
-keywords: [Aspose.Words, .NET, Word document, formatted table, DocumentBuilder, table formatting, C# example]
-url: /el/net/working-with-table-styles-and-formatting/set-table-row-formatting/
+"description": "Μάθετε πώς να δημιουργείτε ένα έγγραφο του Word με μορφοποιημένο πίνακα χρησιμοποιώντας το Aspose.Words για .NET με αυτό το παράδειγμα βήμα προς βήμα."
+"title": "Δημιουργήστε έναν μορφοποιημένο πίνακα στο Word με το Aspose.Words για .NET"
+"url": "/el/net/working-with-table-styles-and-formatting/set-table-row-formatting/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργήστε ένα Τράπεζα με Τροποποιημένο Τραπέζι στο Word με το Aspose.Words
+# Δημιουργήστε έναν μορφοποιημένο πίνακα στο Word με το Aspose.Words
 
-Αυτό το παράδειγμα δείχνει πώς να δημιουργήσετε ένα έγγραφο Word που περιέχει ένα μορφοποιημένο πίνακα χρησιμοποιώντας το Aspose.Words για το .NET. Θα μάθετε να αρχιερώσετε ένα νέο έγγραφο, να δημιουργήσετε ένα πίνακα με συγκεκριμένη μορφοποίηση γραμμών και συμπλέκωση, και να αποθηκεύσετε το έγγραφο σε μια συγκεκριμένη διαδρομή. Αυτό το οδηγό είναι ιδανικό για τους προγραμματιστές που θέλουν να ενισχύσουν τις δυνατότητές δημιουργίας εγγράφων τους με το Aspose.Words.
+Αυτό το παράδειγμα δείχνει πώς να δημιουργήσετε ένα έγγραφο του Word που περιέχει έναν μορφοποιημένο πίνακα χρησιμοποιώντας το Aspose.Words για .NET. Θα μάθετε να αρχικοποιείτε ένα νέο έγγραφο, να ρυθμίζετε έναν πίνακα με συγκεκριμένη μορφοποίηση γραμμών και συμπλήρωση και να αποθηκεύετε το έγγραφο σε μια καθορισμένη διαδρομή. Αυτός ο οδηγός είναι ιδανικός για προγραμματιστές που θέλουν να βελτιώσουν τις δυνατότητες δημιουργίας εγγράφων τους με το Aspose.Words.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/set-table-row-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Διδασκαλίες εγκατάστασης
-1. Εγκαταστήστε Aspose.Words για .NET: Χρησιμοποιήστε το NuGet Package Manager για να εγκαταστήσετε Aspose.Words. Μπορείτε να εκτελέσετε την ακόλουθη εντολή στην κονσόλα διαχειριστή πακέτων:
+## Οδηγίες εγκατάστασης
+1. Εγκατάσταση του Aspose.Words για .NET: Χρησιμοποιήστε το NuGet Package Manager για να εγκαταστήσετε το Aspose.Words. Μπορείτε να εκτελέσετε την ακόλουθη εντολή στην Κονσόλα Διαχείρισης Πακέτων:
    ```
    Install-Package Aspose.Words
    ```
 
-2. Create a New Project: Open Visual Studio and create a new C# project (Console Application or any type you prefer).
+2. Δημιουργία νέου έργου: Ανοίξτε το Visual Studio και δημιουργήστε ένα νέο έργο C# (Εφαρμογή κονσόλας ή οποιονδήποτε τύπο προτιμάτε).
 
-3. Προσθέστε Αναφορά: Βεβαιωθείτε ότι η βιβλιοθήκη Aspose.Words αναφέρεται στο έργο σας.
+3. Προσθήκη αναφοράς: Βεβαιωθείτε ότι η βιβλιοθήκη Aspose.Words αναφέρεται στο έργο σας.
 
-4. Εφαρμογή άδειας (Επιαιρετική):  
-   Για να χρησιμοποιήσεις την πλήρη έκδοση,[να εφαρμόσει άδεια](https://purchase.aspose.com/temporary-license/)ή χρησιμοποιήστε [δωρεάν δοκιμή](https://releases.aspose.com/words/net/)\- Δεν ξέρω .
+4. Εφαρμογή Άδειας Χρήσης (Προαιρετικό):  
+   Για να χρησιμοποιήσετε την πλήρη έκδοση, [αίτηση άδειας](https://purchase.aspose.com/temporary-license/) ή χρησιμοποιήστε ένα [δωρεάν δοκιμή](https://releases.aspose.com/words/net/).
    
 ## Δείτε επίσης
-[Aspose.Word για έγγραφο .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word για .NET References](https://reference.aspose.com/words/net/)
+[Aspose.Word για τεκμηρίωση .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word για αναφορές .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

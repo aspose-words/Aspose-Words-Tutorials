@@ -1,14 +1,16 @@
 ---
-title: Txtloadoptions के साथ शब्द प्रसंस्करण
-linktitle: Txtloadoptions के साथ शब्द प्रसंस्करण
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words में टेक्स्ट फ़ाइल लोडिंग विकल्पों के साथ प्रोग्राम करना सीखें। C# में चरण-दर-चरण ट्यूटोरियल और नमूना कोड के साथ एन्कोडिंग निर्दिष्ट करना, अज्ञात वर्णों को अनदेखा करना, लाइन ब्रेक को संभालना और बहुत कुछ सीखें।
-weight: 1640
-url: /hi/net/programming-with-txtloadoptions/
+"description": ".NET के लिए Aspose.Words में टेक्स्ट फ़ाइल लोडिंग विकल्पों के साथ प्रोग्राम करना सीखें। C# में चरण-दर-चरण ट्यूटोरियल और नमूना कोड के साथ एन्कोडिंग निर्दिष्ट करना, अज्ञात वर्णों को अनदेखा करना, लाइन ब्रेक को संभालना और बहुत कुछ सीखें।"
+"linktitle": "Txtloadoptions के साथ शब्द प्रसंस्करण"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "Txtloadoptions के साथ शब्द प्रसंस्करण"
+"url": "/hi/net/programming-with-txtloadoptions/"
+"weight": 1640
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Txtloadoptions के साथ शब्द प्रसंस्करण
@@ -23,11 +25,16 @@ Aspose.Words का उपयोग करके, आप Word दस्ताव
 | शीर्षक | विवरण |
 | --- | --- |
 | [रिक्त स्थानों के साथ क्रमांकन का पता लगाना](./detect-numbering-with-whitespaces/) | जानें कि सादे टेक्स्ट दस्तावेज़ों में रिक्त स्थानों के साथ क्रमांकन का पता लगाने के लिए .NET के लिए Aspose.Words का उपयोग कैसे करें और सुनिश्चित करें कि आपकी सूचियाँ सही ढंग से पहचानी गई हैं। |
-| [रिक्त स्थान विकल्प संभालें](./handle-spaces-options/) | .NET के लिए Aspose.Words के साथ टेक्स्ट दस्तावेज़ों में अग्रणी और अनुगामी रिक्त स्थान को संभालना सीखें। यह ट्यूटोरियल टेक्स्ट फ़ॉर्मेटिंग को साफ़ करने के लिए एक गाइड प्रदान करता है। |
+| [रिक्त स्थान विकल्प संभालें](./handle-spaces-options/) | .NET के लिए Aspose.Words के साथ टेक्स्ट दस्तावेज़ों में आरंभिक और अंतिम रिक्त स्थान को संभालना सीखें। यह ट्यूटोरियल टेक्स्ट फ़ॉर्मेटिंग को साफ़ करने के लिए एक गाइड प्रदान करता है। |
 | [दस्तावेज़ पाठ दिशा](./document-text-direction/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word में दस्तावेज़ टेक्स्ट दिशा सेट करना सीखें। दाएँ से बाएँ भाषाओं को संभालने के लिए बिल्कुल सही। |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

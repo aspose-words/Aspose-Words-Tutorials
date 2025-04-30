@@ -1,14 +1,16 @@
 ---
-title: Tipe Kontrol Pilihan Dalam Dokumen Word
-linktitle: Tipe Kontrol Pilihan Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyisipkan kolom formulir kotak kombo dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah ini untuk integrasi konten HTML yang lancar.
-weight: 10
-url: /id/net/programming-with-htmlloadoptions/preferred-control-type/
+"description": "Pelajari cara menyisipkan kolom formulir kotak kombo dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah ini untuk integrasi konten HTML yang lancar."
+"linktitle": "Tipe Kontrol Pilihan Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tipe Kontrol Pilihan Dalam Dokumen Word"
+"url": "/id/net/programming-with-htmlloadoptions/preferred-control-type/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tipe Kontrol Pilihan Dalam Dokumen Word
@@ -21,7 +23,7 @@ Kami akan menyelami tutorial menarik tentang cara bekerja dengan opsi pemuatan H
 
 Sebelum kita masuk ke kode, ada beberapa hal yang perlu Anda siapkan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [situs web](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Anda harus menyiapkan lingkungan pengembangan, seperti Visual Studio.
 3. Pengetahuan Dasar C#: Pemahaman mendasar tentang pemrograman C# diperlukan untuk mengikuti tutorial ini.
 4. Konten HTML: Pengetahuan dasar tentang HTML sangat membantu karena kita akan bekerja dengan konten HTML dalam contoh ini.
@@ -65,17 +67,17 @@ Selanjutnya, tentukan direktori tempat dokumen Word Anda akan disimpan. Ini memb
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen Word Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen Word Anda.
 
 ## Langkah 3: Konfigurasikan Opsi Pemuatan HTML
 
- Di sini, kami mengonfigurasi opsi pemuatan HTML, terutama berfokus pada`PreferredControlType`properti. Ini menentukan bagaimana kotak kombo akan ditampilkan dalam dokumen Word.
+Di sini, kami mengonfigurasi opsi pemuatan HTML, terutama berfokus pada `PreferredControlType` properti. Ini menentukan bagaimana kotak kombo akan ditampilkan dalam dokumen Word.
 
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions { PreferredControlType = HtmlControlType.StructuredDocumentTag };
 ```
 
- Dengan pengaturan`PreferredControlType` ke`HtmlControlType.StructuredDocumentTag`, kami memastikan bahwa kotak kombo ditampilkan sebagai tag dokumen terstruktur (SDT) dalam dokumen Word.
+Dengan pengaturan `PreferredControlType` ke `HtmlControlType.StructuredDocumentTag`, kami memastikan bahwa kotak kombo ditampilkan sebagai tag dokumen terstruktur (SDT) dalam dokumen Word.
 
 ## Langkah 4: Muat Konten HTML ke dalam Dokumen
 
@@ -110,17 +112,22 @@ Aspose.Words untuk .NET adalah pustaka manipulasi dokumen canggih yang memungkin
 Ya, Aspose.Words untuk .NET mendukung berbagai jenis kontrol HTML. Anda dapat menyesuaikan cara kontrol yang berbeda ditampilkan dalam dokumen Word.
 
 ### Bagaimana cara menangani konten HTML yang kompleks di Aspose.Words untuk .NET?
- Aspose.Words untuk .NET menyediakan dukungan komprehensif untuk HTML, termasuk elemen yang kompleks. Pastikan Anda mengonfigurasi`HtmlLoadOptions`dengan tepat untuk menangani konten HTML spesifik Anda.
+Aspose.Words untuk .NET menyediakan dukungan komprehensif untuk HTML, termasuk elemen yang kompleks. Pastikan Anda mengonfigurasi `HtmlLoadOptions` dengan tepat untuk menangani konten HTML spesifik Anda.
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
- Anda dapat menemukan dokumentasi dan contoh terperinci di[Halaman dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi dan contoh terperinci di [Halaman dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Words untuk .NET?
- Ya, Anda dapat mengunduh uji coba gratis dari[Situs web Aspose](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh uji coba gratis dari [Situs web Aspose](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: डाउनसैंपलिंग छवियों के साथ पीडीएफ दस्तावेज़ का आकार कम करें
-linktitle: डाउनसैंपलिंग छवियों के साथ पीडीएफ दस्तावेज़ का आकार कम करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके छवियों को डाउनसैंपलिंग करके PDF दस्तावेज़ का आकार कम करें। तेज़ अपलोड और डाउनलोड समय के लिए अपने PDF को अनुकूलित करें।
-weight: 10
-url: /hi/net/programming-with-pdfsaveoptions/downsampling-images/
+"description": ".NET के लिए Aspose.Words का उपयोग करके छवियों को डाउनसैंपलिंग करके PDF दस्तावेज़ का आकार कम करें। तेज़ अपलोड और डाउनलोड समय के लिए अपने PDF को अनुकूलित करें।"
+"linktitle": "डाउनसैंपलिंग छवियों के साथ पीडीएफ दस्तावेज़ का आकार कम करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "डाउनसैंपलिंग छवियों के साथ पीडीएफ दस्तावेज़ का आकार कम करें"
+"url": "/hi/net/programming-with-pdfsaveoptions/downsampling-images/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # डाउनसैंपलिंग छवियों के साथ पीडीएफ दस्तावेज़ का आकार कम करें
@@ -21,10 +23,10 @@ url: /hi/net/programming-with-pdfsaveoptions/downsampling-images/
 
 इससे पहले कि हम कोड में आगे बढ़ें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  .NET के लिए Aspose.Words: सुनिश्चित करें कि आपके पास Aspose.Words लाइब्रेरी स्थापित है। यदि नहीं, तो आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. .NET के लिए Aspose.Words: सुनिश्चित करें कि आपके पास Aspose.Words लाइब्रेरी स्थापित है। यदि नहीं, तो आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: कोई भी .NET विकास वातावरण जैसे विजुअल स्टूडियो.
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग की मूल बातें समझना उपयोगी होगा।
-4.  एक नमूना दस्तावेज़: एक वर्ड दस्तावेज़ (उदाहरण के लिए,`Rendering.docx`) छवियों के साथ पीडीएफ में परिवर्तित करने के लिए।
+4. एक नमूना दस्तावेज़: एक वर्ड दस्तावेज़ (उदाहरण के लिए, `Rendering.docx`) छवियों के साथ पीडीएफ में परिवर्तित करने के लिए।
 
 ## नामस्थान आयात करें
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
-इस चरण में, हम निर्दिष्ट निर्देशिका से Word दस्तावेज़ लोड कर रहे हैं।`"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहां आपका दस्तावेज़ स्थित है.
+इस चरण में, हम निर्दिष्ट निर्देशिका से Word दस्तावेज़ लोड कर रहे हैं। प्रतिस्थापित करना सुनिश्चित करें `"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहां आपका दस्तावेज़ स्थित है.
 
 ## चरण 2: डाउनसैंपलिंग विकल्प कॉन्फ़िगर करें
 
@@ -62,7 +64,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- यहाँ, हम एक नया उदाहरण बना रहे हैं`PdfSaveOptions` और सेटिंग`Resolution` 36 डीपीआई और`ResolutionThreshold` 128 DPI तक। इसका मतलब है कि 128 DPI से अधिक रिज़ॉल्यूशन वाली किसी भी छवि को 36 DPI तक डाउनसैंपल किया जाएगा।
+यहाँ, हम एक नया उदाहरण बना रहे हैं `PdfSaveOptions` और सेटिंग `Resolution` 36 डीपीआई और `ResolutionThreshold` 128 DPI तक। इसका मतलब है कि 128 DPI से अधिक रिज़ॉल्यूशन वाली किसी भी छवि को 36 DPI तक डाउनसैंपल किया जाएगा।
 
 ## चरण 3: दस्तावेज़ को PDF के रूप में सहेजें
 
@@ -87,16 +89,21 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.DownsamplingImages.pdf", saveOptio
 हां, डाउनसैंपलिंग से छवि की गुणवत्ता कम हो जाएगी। हालांकि, इसका प्रभाव रिज़ॉल्यूशन में कमी की डिग्री पर निर्भर करता है। यह फ़ाइल आकार और छवि गुणवत्ता के बीच एक समझौता है।
 
 ### क्या मैं चुन सकता हूँ कि कौन सी छवियों को डाउनसैंपल करना है?
- हाँ, सेट करके`ResolutionThreshold`आप यह नियंत्रित कर सकते हैं कि कौन सी छवियों को उनके मूल रिज़ॉल्यूशन के आधार पर डाउनसैंपल किया जाए।
+हाँ, सेट करके `ResolutionThreshold`आप यह नियंत्रित कर सकते हैं कि कौन सी छवियों को उनके मूल रिज़ॉल्यूशन के आधार पर डाउनसैंपल किया जाए।
 
 ### डाउनसैंपलिंग के लिए आदर्श रिज़ॉल्यूशन क्या है?
 आदर्श रिज़ॉल्यूशन आपकी विशिष्ट ज़रूरतों पर निर्भर करता है। आम तौर पर, 72 DPI का उपयोग वेब छवियों के लिए किया जाता है, जबकि उच्च रिज़ॉल्यूशन का उपयोग प्रिंट गुणवत्ता के लिए किया जाता है।
 
 ### क्या Aspose.Words for .NET निःशुल्क है?
- Aspose.Words for .NET एक वाणिज्यिक उत्पाद है, लेकिन आप एक निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/) या आवेदन करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
+Aspose.Words for .NET एक वाणिज्यिक उत्पाद है, लेकिन आप एक निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/) या आवेदन करें [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

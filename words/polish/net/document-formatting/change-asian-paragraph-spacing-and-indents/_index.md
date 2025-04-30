@@ -1,14 +1,16 @@
 ---
-title: Zmień odstępy i wcięcia akapitów azjatyckich w dokumencie Word
-linktitle: Zmień odstępy i wcięcia akapitów azjatyckich w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak zmienić odstępy między akapitami i wcięcia w językach azjatyckich w dokumentach programu Word za pomocą narzędzia Aspose.Words for .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/document-formatting/change-asian-paragraph-spacing-and-indents/
+"description": "Dowiedz się, jak zmienić odstępy między akapitami i wcięcia w językach azjatyckich w dokumentach programu Word za pomocą narzędzia Aspose.Words for .NET, korzystając z tego kompleksowego przewodnika krok po kroku."
+"linktitle": "Zmień odstępy i wcięcia akapitów azjatyckich w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zmień odstępy i wcięcia akapitów azjatyckich w dokumencie Word"
+"url": "/pl/net/document-formatting/change-asian-paragraph-spacing-and-indents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zmień odstępy i wcięcia akapitów azjatyckich w dokumencie Word
@@ -21,7 +23,7 @@ Cześć! Czy kiedykolwiek zastanawiałeś się, jak dostosować odstępy i wcię
 
 Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Biblioteka Aspose.Words dla .NET: Upewnij się, że masz bibliotekę Aspose.Words dla .NET. Jeśli jeszcze jej nie masz, możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Upewnij się, że masz bibliotekę Aspose.Words dla .NET. Jeśli jeszcze jej nie masz, możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Musisz skonfigurować środowisko programistyczne. Visual Studio jest popularnym wyborem do tworzenia oprogramowania .NET.
 3. Dokument Word: Przygotuj dokument Word, z którym możesz się pobawić. Użyjemy przykładowego dokumentu o nazwie „Asian typography.docx”.
 4. Podstawowa znajomość języka C#: Aby móc korzystać z przykładów kodu, należy znać programowanie w języku C#.
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Asian typography.docx");
 ```
 
- W tym kroku określamy ścieżkę do naszego katalogu dokumentów i ładujemy dokument do`Document` obiekt. Proste, prawda?
+W tym kroku określamy ścieżkę do naszego katalogu dokumentów i ładujemy dokument do `Document` obiekt. Proste, prawda?
 
 ## Krok 2: Uzyskaj dostęp do formatu akapitu
 
@@ -58,7 +60,7 @@ Następnie musimy uzyskać dostęp do formatu akapitu pierwszego akapitu w dokum
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 ```
 
- Tutaj chwytamy`ParagraphFormat` obiekt z pierwszego akapitu w dokumencie. Ten obiekt zawiera wszystkie właściwości formatowania dla akapitu.
+Tutaj chwytamy `ParagraphFormat` obiekt z pierwszego akapitu w dokumencie. Ten obiekt zawiera wszystkie właściwości formatowania dla akapitu.
 
 ## Krok 3: Ustaw wcięcia jednostek znakowych
 
@@ -103,20 +105,25 @@ masz to! Właśnie nauczyłeś się, jak zmieniać odstępy między akapitami i 
 Tak, ustawienia te można zastosować do dowolnego tekstu, ale są one szczególnie przydatne w typografii azjatyckiej ze względu na wyjątkowe wymagania dotyczące odstępów i wcięć.
 
 ### Czy potrzebuję licencji, aby używać Aspose.Words dla .NET?
- Tak, Aspose.Words dla .NET jest płatną biblioteką, ale można ją pobrać[bezpłatny okres próbny](https://releases.aspose.com/) lub[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby wypróbować.
+Tak, Aspose.Words dla .NET jest płatną biblioteką, ale można ją pobrać [bezpłatny okres próbny](https://releases.aspose.com/) lub [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby wypróbować.
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
- Pełną dokumentację można znaleźć na stronie[Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+Pełną dokumentację można znaleźć na stronie [Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
 
 ### Czy mogę zautomatyzować ten proces dla wielu dokumentów?
 Oczywiście! Możesz przejść przez zbiór dokumentów i programowo zastosować te ustawienia do każdego z nich.
 
 ### Co zrobić, jeśli napotkam problemy lub będę miał pytania?
- Jeśli napotkasz jakiekolwiek problemy lub będziesz mieć dalsze pytania,[Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8) jest doskonałym miejscem, w którym można szukać pomocy.
+Jeśli napotkasz jakiekolwiek problemy lub będziesz mieć dalsze pytania, [Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8) jest doskonałym miejscem, w którym można szukać pomocy.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

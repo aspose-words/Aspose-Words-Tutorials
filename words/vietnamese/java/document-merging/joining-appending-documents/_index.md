@@ -1,14 +1,16 @@
 ---
-title: Tham gia và Thêm tài liệu
-linktitle: Tham gia và Thêm tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách nối và thêm tài liệu bằng Aspose.Words cho Java. Hướng dẫn từng bước với các ví dụ mã để thao tác tài liệu hiệu quả.
-weight: 11
-url: /vi/java/document-merging/joining-appending-documents/
+"description": "Tìm hiểu cách nối và thêm tài liệu bằng Aspose.Words cho Java. Hướng dẫn từng bước với các ví dụ mã để thao tác tài liệu hiệu quả."
+"linktitle": "Tham gia và Thêm tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Tham gia và Thêm tài liệu"
+"url": "/vi/java/document-merging/joining-appending-documents/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tham gia và Thêm tài liệu
@@ -23,7 +25,7 @@ Aspose.Words for Java là một thư viện giàu tính năng cho phép bạn l�
 Trước khi tìm hiểu sâu hơn về mã, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
 - Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
--  Aspose.Words cho thư viện Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/java/).
+- Aspose.Words cho thư viện Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
 
 ## Bước 1: Thiết lập dự án Java của bạn
 
@@ -45,7 +47,7 @@ public class DocumentJoiner {
 }
 ```
 
- Đảm bảo rằng bạn thay thế`"Aspose.Words.Java.lic"` với đường dẫn đến tệp giấy phép của bạn.
+Đảm bảo rằng bạn thay thế `"Aspose.Words.Java.lic"` với đường dẫn đến tệp giấy phép của bạn.
 
 ## Bước 3: Tải tài liệu
 
@@ -59,14 +61,14 @@ Document doc2 = new Document("document2.docx");
 
 ## Bước 4: Nối tài liệu
 
- Bây giờ chúng ta đã tải xong các tài liệu, hãy xem cách ghép chúng lại với nhau. Trong ví dụ này, chúng ta sẽ ghép`doc2` đến cuối`doc1`:
+Bây giờ chúng ta đã tải xong các tài liệu, hãy xem cách ghép chúng lại với nhau. Trong ví dụ này, chúng ta sẽ ghép `doc2` đến cuối `doc1`:
 
 ```java
 // Tham gia tài liệu
 doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
- Các`ImportFormatMode.KEEP_SOURCE_FORMATTING` Tùy chọn này đảm bảo định dạng của tài liệu nguồn được giữ nguyên.
+Các `ImportFormatMode.KEEP_SOURCE_FORMATTING` Tùy chọn này đảm bảo định dạng của tài liệu nguồn được giữ nguyên.
 
 ## Bước 5: Lưu kết quả
 
@@ -85,11 +87,11 @@ Xin chúc mừng! Bạn đã học thành công cách nối và thêm tài liệ
 
 ### Làm thế nào để cài đặt Aspose.Words cho Java?
 
- Cài đặt Aspose.Words for Java rất đơn giản. Bạn có thể tải xuống từ trang web Aspose[đây](https://releases.aspose.com/words/java/). Đảm bảo bạn có giấy phép cần thiết để sử dụng cho mục đích thương mại.
+Cài đặt Aspose.Words for Java rất đơn giản. Bạn có thể tải xuống từ trang web Aspose [đây](https://releases.aspose.com/words/java/). Đảm bảo bạn có giấy phép cần thiết để sử dụng cho mục đích thương mại.
 
 ### Tôi có thể hợp nhất nhiều hơn hai tài liệu bằng Aspose.Words cho Java không?
 
- Có, bạn có thể hợp nhất nhiều tài liệu bằng cách thêm chúng theo trình tự bằng cách sử dụng`appendDocument` phương pháp như thể hiện trong ví dụ.
+Có, bạn có thể hợp nhất nhiều tài liệu bằng cách thêm chúng theo trình tự bằng cách sử dụng `appendDocument` phương pháp như thể hiện trong ví dụ.
 
 ### Aspose.Words có phù hợp để xử lý tài liệu quy mô lớn không?
 
@@ -101,10 +103,15 @@ Mặc dù Aspose.Words cung cấp khả năng xử lý tài liệu mạnh mẽ, 
 
 ### Tôi có cần phải trả tiền để mua giấy phép sử dụng Aspose.Words cho Java không?
 
- Có, Aspose.Words for Java yêu cầu giấy phép hợp lệ để sử dụng thương mại. Bạn có thể lấy giấy phép từ trang web Aspose[Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/)
+Có, Aspose.Words for Java yêu cầu giấy phép hợp lệ để sử dụng thương mại. Bạn có thể lấy giấy phép từ trang web Aspose [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

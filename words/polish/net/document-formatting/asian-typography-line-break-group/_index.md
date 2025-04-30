@@ -1,14 +1,16 @@
 ---
-title: Grupa podziału wiersza typografii azjatyckiej w dokumencie Word
-linktitle: Grupa podziału wiersza typografii azjatyckiej w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Opanuj podziały wierszy typografii azjatyckiej w dokumentach Word za pomocą Aspose.Words dla .NET. Ten przewodnik zawiera samouczek krok po kroku dotyczący precyzyjnego formatowania.
-weight: 10
-url: /pl/net/document-formatting/asian-typography-line-break-group/
+"description": "Opanuj podziały wierszy typografii azjatyckiej w dokumentach Word za pomocą Aspose.Words dla .NET. Ten przewodnik zawiera samouczek krok po kroku dotyczący precyzyjnego formatowania."
+"linktitle": "Grupa podziału wiersza typografii azjatyckiej w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Grupa podziału wiersza typografii azjatyckiej w dokumencie Word"
+"url": "/pl/net/document-formatting/asian-typography-line-break-group/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Grupa podziału wiersza typografii azjatyckiej w dokumencie Word
@@ -21,7 +23,7 @@ Czy kiedykolwiek zastanawiałeś się, jak dopracować typografię dokumentów W
 
 Zanim przejdziemy do szczegółów, jest kilka rzeczy, które musisz mieć na miejscu. Oto, czego będziesz potrzebować:
 
-- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Jeśli jeszcze tego nie zrobiłeś, możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Jeśli jeszcze tego nie zrobiłeś, możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Będziesz potrzebować środowiska programistycznego, takiego jak Visual Studio.
 - Podstawowa znajomość języka C#: Choć wszystko zostanie wyjaśnione, podstawowa znajomość języka C# będzie korzystna.
 - Dokument Word z typografią azjatycką: Posiadaj dokument Word zawierający typografię azjatycką. To będzie nasz plik roboczy.
@@ -81,7 +83,7 @@ format.HangingPunctuation = false;
 
 ## Krok 6: Zapisz dokument
 
-Na koniec, po dokonaniu wszystkich tych zmian, nadszedł czas, aby zapisać dokument. Spowoduje to zastosowanie wszystkich zmian formatowania, które wprowadziliśmy.
+Na koniec, po dokonaniu wszystkich tych zmian, nadszedł czas, aby zapisać dokument. Spowoduje to zastosowanie wszystkich wprowadzonych przez nas zmian formatowania.
 
 ```csharp
 doc.Save(dataDir + "DocumentFormatting.AsianTypographyLineBreakGroup.docx");
@@ -106,11 +108,16 @@ Tak, możesz przejrzeć wszystkie akapity w dokumencie i zastosować te ustawien
 Chociaż zalecany jest program Visual Studio, można użyć dowolnego środowiska programistycznego obsługującego języki C# i .NET.
 
 ### Gdzie mogę znaleźć więcej materiałów na temat Aspose.Words dla .NET?
- Można znaleźć kompleksową dokumentację[Tutaj](https://reference.aspose.com/words/net/) i w razie pytań bardzo pomocne jest forum wsparcia[Tutaj](https://forum.aspose.com/c/words/8).
+Można znaleźć kompleksową dokumentację [Tutaj](https://reference.aspose.com/words/net/)i w razie pytań bardzo pomocne jest forum wsparcia [Tutaj](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: แทรกวัตถุ Ole ในเอกสาร Word เป็นไอคอน
-linktitle: แทรกวัตถุ Ole ในเอกสาร Word เป็นไอคอน
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแทรกวัตถุ OLE เป็นไอคอนในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อปรับปรุงเอกสารของคุณ
-weight: 10
-url: /th/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon/
+"description": "เรียนรู้วิธีแทรกวัตถุ OLE เป็นไอคอนในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อปรับปรุงเอกสารของคุณ"
+"linktitle": "แทรกวัตถุ Ole ในเอกสาร Word เป็นไอคอน"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แทรกวัตถุ Ole ในเอกสาร Word เป็นไอคอน"
+"url": "/th/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทรกวัตถุ Ole ในเอกสาร Word เป็นไอคอน
@@ -21,7 +23,7 @@ url: /th/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon/
 
 ก่อนที่เราจะเจาะลึกรายละเอียด มาดูสิ่งที่คุณต้องการกันก่อน:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก[หน้าวางจำหน่าย Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก [หน้าวางจำหน่าย Aspose](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: คุณต้องมีสภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น Visual Studio
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C# จะเป็นประโยชน์
 
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## ขั้นตอนที่ 2: แทรกวัตถุ OLE เป็นไอคอน
 
- ตอนนี้เรามาแทรกวัตถุ OLE เป็นไอคอนกัน`InsertOleObjectAsIcon` วิธีการของคลาส DocumentBuilder ถูกใช้เพื่อจุดประสงค์นี้
+ตอนนี้เรามาแทรกวัตถุ OLE เป็นไอคอนกัน `InsertOleObjectAsIcon` วิธีการของคลาส DocumentBuilder ถูกใช้เพื่อจุดประสงค์นี้
 
 ```csharp
 builder.InsertOleObjectAsIcon("path_to_your_presentation.pptx", false, "path_to_your_icon.ico", "My embedded file");
@@ -57,7 +59,7 @@ builder.InsertOleObjectAsIcon("path_to_your_presentation.pptx", false, "path_to_
 
 มาแยกวิธีการนี้กัน:
 - `"path_to_your_presentation.pptx"`:นี่คือเส้นทางไปยังวัตถุ OLE ที่คุณต้องการฝัง
-- `false` :พารามิเตอร์บูลีนนี้ระบุว่าจะแสดงวัตถุ OLE เป็นไอคอนหรือไม่ เนื่องจากเราต้องการไอคอน เราจึงตั้งค่าเป็น`false`.
+- `false`:พารามิเตอร์บูลีนนี้ระบุว่าจะแสดงวัตถุ OLE เป็นไอคอนหรือไม่ เนื่องจากเราต้องการไอคอน เราจึงตั้งค่าเป็น `false`-
 - `"path_to_your_icon.ico"`:นี่คือเส้นทางไปยังไฟล์ไอคอนที่คุณต้องการใช้สำหรับอ็อบเจ็กต์ OLE
 - `"My embedded file"`:นี่คือป้ายกำกับที่จะปรากฏอยู่ใต้ไอคอน
 
@@ -83,7 +85,7 @@ doc.Save(dataDir + "WorkingWithOleObjectsAndActiveX.InsertOleObjectAsIcon.docx")
 
 ### ฉันจะได้รับรุ่นทดลองใช้งาน Aspose.Words สำหรับ .NET ฟรีได้อย่างไร
 
- คุณสามารถรับการทดลองใช้ฟรีได้จาก[หน้าวางจำหน่าย Aspose](https://releases.aspose.com/).
+คุณสามารถรับการทดลองใช้ฟรีได้จาก [หน้าวางจำหน่าย Aspose](https://releases-aspose.com/).
 
 ### OLE Object คืออะไร?
 
@@ -91,14 +93,19 @@ OLE (Object Linking and Embedding) เป็นเทคโนโลยีที
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Words สำหรับ .NET หรือไม่?
 
- ใช่ Aspose.Words สำหรับ .NET ต้องมีใบอนุญาต คุณสามารถซื้อได้จาก[หน้าสั่งซื้อ Aspose](https://purchase.aspose.com/buy) หรือรับ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินผล
+ใช่ Aspose.Words สำหรับ .NET ต้องมีใบอนุญาต คุณสามารถซื้อได้จาก [หน้าสั่งซื้อ Aspose](https://purchase.aspose.com/buy) หรือรับ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินผล
 
 ### ฉันสามารถหาบทช่วยสอนเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
 
- คุณสามารถค้นหาบทช่วยสอนและเอกสารเพิ่มเติมได้ที่[หน้าเอกสาร Aspose](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาบทช่วยสอนและเอกสารเพิ่มเติมได้ที่ [หน้าเอกสาร Aspose](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

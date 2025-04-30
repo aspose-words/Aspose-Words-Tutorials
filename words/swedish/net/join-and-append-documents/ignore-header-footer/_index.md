@@ -1,34 +1,36 @@
 ---
-title: Ignorera sidhuvud
-linktitle: Ignorera sidhuvud
-second_title: Aspose.Words Document Processing API
-description: Lär dig hur du slår samman Word-dokument samtidigt som du ignorerar sidhuvuden och sidfötter med Aspose.Words för .NET med denna steg-för-steg-guide.
-weight: 10
-url: /sv/net/join-and-append-documents/ignore-header-footer/
+"description": "Lär dig hur du sammanfogar Word-dokument utan att använda sidhuvuden och sidfot med Aspose.Words för .NET med den här steg-för-steg-guiden."
+"linktitle": "Ignorera sidhuvudets sidfot"
+"second_title": "Aspose.Words dokumentbehandlings-API"
+"title": "Ignorera sidhuvudets sidfot"
+"url": "/sv/net/join-and-append-documents/ignore-header-footer/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ignorera sidhuvud
+# Ignorera sidhuvudets sidfot
 
 ## Introduktion
 
-Att slå samman Word-dokument kan ibland vara lite knepigt, särskilt när du vill behålla vissa delar intakta samtidigt som du ignorerar andra, som sidhuvuden och sidfötter. Lyckligtvis erbjuder Aspose.Words för .NET ett elegant sätt att hantera detta. I den här handledningen går jag igenom processen steg-för-steg, så att du förstår varje del. Vi kommer att hålla det lätt, konversationsrikt och engagerande, precis som att chatta med en vän. Redo? Låt oss dyka in!
+Att sammanfoga Word-dokument kan ibland vara lite knepigt, särskilt när du vill behålla vissa delar intakta medan du ignorerar andra, som sidhuvuden och sidfot. Som tur är erbjuder Aspose.Words för .NET ett elegant sätt att hantera detta. I den här handledningen kommer jag att guida dig genom processen steg för steg, så att du förstår varje del. Vi kommer att hålla det lättsamt, samtalsliknande och engagerande, precis som att chatta med en vän. Redo? Nu kör vi!
 
-## Förutsättningar
+## Förkunskapskrav
 
 Innan vi börjar, låt oss se till att vi har allt vi behöver:
 
--  Aspose.Words för .NET: Du kan ladda ner det från[här](https://releases.aspose.com/words/net/).
-- Visual Studio: Alla nyare versioner bör fungera.
+- Aspose.Words för .NET: Du kan ladda ner det från [här](https://releases.aspose.com/words/net/).
+- Visual Studio: Alla nyare versioner borde fungera.
 - Grundläggande förståelse för C#: Oroa dig inte, jag guidar dig genom koden.
-- Två Word-dokument: Det ena ska läggas till det andra.
+- Två Word-dokument: Det ena ska bifogas det andra.
 
-## Importera namnområden
+## Importera namnrymder
 
-Först och främst måste vi importera de nödvändiga namnrymden i vårt C#-projekt. Detta är avgörande eftersom det tillåter oss att använda klasser och metoder i Aspose.Words utan att ständigt referera till hela namnområdet.
+Först och främst behöver vi importera de nödvändiga namnrymderna i vårt C#-projekt. Detta är avgörande eftersom det låter oss använda Aspose.Words-klasser och -metoder utan att ständigt referera till hela namnrymden.
 
 ```csharp
 using Aspose.Words;
@@ -39,24 +41,24 @@ using Aspose.Words.Saving;
 
 ### Skapa ett nytt projekt
 
-Låt oss börja med att skapa ett nytt konsolappprojekt i Visual Studio.
+Låt oss börja med att skapa ett nytt Console App-projekt i Visual Studio.
 
 1. Öppna Visual Studio.
 2. Välj "Skapa ett nytt projekt".
-3. Välj "Console App (.NET Core)".
+3. Välj "Konsolapp (.NET Core)".
 4. Namnge ditt projekt och klicka på "Skapa".
 
 ### Installera Aspose.Words för .NET
 
-Därefter måste vi lägga till Aspose.Words för .NET till vårt projekt. Du kan göra detta via NuGet Package Manager:
+Nästa steg är att lägga till Aspose.Words för .NET i vårt projekt. Du kan göra detta via NuGet Package Manager:
 
-1. Högerklicka på ditt projekt i Solution Explorer.
+1. Högerklicka på ditt projekt i lösningsutforskaren.
 2. Välj "Hantera NuGet-paket".
 3. Sök efter "Aspose.Words" och installera det.
 
 ## Steg 2: Ladda dina dokument
 
-Nu när vårt projekt är konfigurerat, låt oss ladda Word-dokumenten som vi vill slå samman. För den här handledningens skull kommer vi att kalla dem "Document source.docx" och "Northwind traders.docx".
+Nu när vårt projekt är klart, låt oss ladda Word-dokumenten som vi vill sammanfoga. För den här handledningens skull kommer vi att kalla dem "Dokumentkälla.docx" och "Northwind traders.docx".
 
 Så här laddar du dem med Aspose.Words:
 
@@ -71,7 +73,7 @@ Det här kodavsnittet anger sökvägen till din dokumentkatalog och laddar dokum
 
 ## Steg 3: Konfigurera importalternativ
 
-Innan vi slår samman dokumenten måste vi ställa in våra importalternativ. Detta steg är viktigt eftersom det tillåter oss att specificera att vi vill ignorera sidhuvuden och sidfötter.
+Innan vi sammanfogar dokumenten måste vi konfigurera våra importalternativ. Detta steg är viktigt eftersom det låter oss ange att vi vill ignorera sidhuvuden och sidfot.
 
 Här är koden för att konfigurera importalternativen:
 
@@ -79,11 +81,11 @@ Här är koden för att konfigurera importalternativen:
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreHeaderFooter = true };
 ```
 
- Genom att ställa in`IgnoreHeaderFooter` till`true`, säger vi till Aspose.Words att ignorera sidhuvuden och sidfötter under sammanslagningsprocessen.
+Genom att ställa in `IgnoreHeaderFooter` till `true`, vi säger till Aspose.Words att ignorera sidhuvuden och sidfot under sammanfogningsprocessen.
 
-## Steg 4: Slå samman dokumenten
+## Steg 4: Sammanfoga dokumenten
 
-Med våra dokument laddade och importalternativ konfigurerade är det dags att slå samman dokumenten.
+Med våra dokument laddade och importalternativ konfigurerade är det dags att sammanfoga dokumenten.
 
 Så här gör du:
 
@@ -91,7 +93,7 @@ Så här gör du:
 dstDocument.AppendDocument(srcDocument, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
 ```
 
-Denna kodrad lägger till källdokumentet till måldokumentet samtidigt som källformateringen behålls och sidhuvuden och sidfötter ignoreras.
+Den här kodraden lägger till källdokumentet i destinationsdokumentet samtidigt som källformateringen behålls och sidhuvuden och sidfot ignoreras.
 
 ## Steg 5: Spara det sammanslagna dokumentet
 
@@ -103,39 +105,44 @@ Här är koden för att spara ditt sammanslagna dokument:
 dstDocument.Save(dataDir + "JoinAndAppendDocuments.IgnoreHeaderFooter.docx");
 ```
 
-Detta kommer att spara det sammanslagna dokumentet i den angivna katalogen med filnamnet "JoinAndAppendDocuments.IgnoreHeaderFooter.docx".
+Detta sparar det sammanfogade dokumentet i den angivna katalogen med filnamnet "JoinAndAppendDocuments.IgnoreHeaderFooter.docx".
 
 ## Slutsats
 
-Och där har du det! Du har framgångsrikt slagit samman två Word-dokument samtidigt som du ignorerar deras sidhuvuden och sidfötter med Aspose.Words för .NET. Denna metod är praktisk för olika dokumenthanteringsuppgifter där underhåll av specifika dokumentavsnitt är avgörande.
+Och där har du det! Du har lyckats slå samman två Word-dokument samtidigt som du ignorerar deras sidhuvuden och sidfot med hjälp av Aspose.Words för .NET. Den här metoden är praktisk för olika dokumenthanteringsuppgifter där det är avgörande att underhålla specifika dokumentavsnitt.
 
-Att arbeta med Aspose.Words för .NET kan avsevärt effektivisera dina arbetsflöden för dokumentbearbetning. Kom ihåg att om du någon gång fastnar eller behöver mer information kan du alltid kolla in[dokumentation](https://reference.aspose.com/words/net/).
+Att arbeta med Aspose.Words för .NET kan avsevärt effektivisera dina dokumenthanteringsarbetsflöden. Kom ihåg att om du någonsin kör fast eller behöver mer information kan du alltid kolla in [dokumentation](https://reference.aspose.com/words/net/).
 
-## FAQ's
+## Vanliga frågor
 
-### Kan jag ignorera andra delar av dokumentet förutom sidhuvuden och sidfötter?
+### Kan jag ignorera andra delar av dokumentet förutom sidhuvud och sidfot?
 
 Ja, Aspose.Words erbjuder olika alternativ för att anpassa importprocessen, inklusive att ignorera olika avsnitt och formatering.
 
-### Är det möjligt att behålla sidhuvuden och sidfötter istället för att ignorera dem?
+### Är det möjligt att behålla sidhuvuden och sidfoten istället för att ignorera dem?
 
- Absolut. Enkelt inställt`IgnoreHeaderFooter` till`false` i`ImportFormatOptions`.
+Absolut. Enkelt att ställa in. `IgnoreHeaderFooter` till `false` i `ImportFormatOptions`.
 
 ### Behöver jag en licens för att använda Aspose.Words för .NET?
 
- Ja, Aspose.Words för .NET är en kommersiell produkt. Du kan få en[gratis provperiod](https://releases.aspose.com/) eller köp en licens[här](https://purchase.aspose.com/buy).
+Ja, Aspose.Words för .NET är en kommersiell produkt. Du kan få en [gratis provperiod](https://releases.aspose.com/) eller köpa en licens [här](https://purchase.aspose.com/buy).
 
-### Kan jag slå samman fler än två dokument med den här metoden?
+### Kan jag sammanfoga fler än två dokument med den här metoden?
 
- Ja, du kan lägga till flera dokument i en loop genom att upprepa`AppendDocument` metod för varje ytterligare dokument.
+Ja, du kan lägga till flera dokument i en loop genom att upprepa `AppendDocument` metod för varje ytterligare dokument.
 
 ### Var kan jag hitta fler exempel och dokumentation för Aspose.Words för .NET?
 
- Du kan hitta omfattande dokumentation och exempel på[Aspose hemsida](https://reference.aspose.com/words/net/).
+Du hittar omfattande dokumentation och exempel på [Aspose webbplats](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

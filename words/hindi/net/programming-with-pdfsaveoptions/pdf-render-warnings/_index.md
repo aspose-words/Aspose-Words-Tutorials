@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ रेंडर चेतावनियाँ
-linktitle: पीडीएफ रेंडर चेतावनियाँ
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: जानें कि .NET के लिए Aspose.Words में PDF रेंडर चेतावनियों को कैसे हैंडल किया जाए। यह विस्तृत गाइड सुनिश्चित करता है कि आपके दस्तावेज़ सही तरीके से प्रोसेस और सेव किए गए हैं।
-weight: 10
-url: /hi/net/programming-with-pdfsaveoptions/pdf-render-warnings/
+"description": "जानें कि .NET के लिए Aspose.Words में PDF रेंडर चेतावनियों को कैसे हैंडल किया जाए। यह विस्तृत गाइड सुनिश्चित करता है कि आपके दस्तावेज़ सही तरीके से प्रोसेस और सेव किए गए हैं।"
+"linktitle": "पीडीएफ रेंडर चेतावनियाँ"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "पीडीएफ रेंडर चेतावनियाँ"
+"url": "/hi/net/programming-with-pdfsaveoptions/pdf-render-warnings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ रेंडर चेतावनियाँ
@@ -22,9 +24,9 @@ url: /hi/net/programming-with-pdfsaveoptions/pdf-render-warnings/
 ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
 - C# का मूलभूत ज्ञान: C# प्रोग्रामिंग भाषा से परिचित होना।
--  Aspose.Words for .NET: डाउनलोड करें और इंस्टॉल करें[लिंक को डाउनलोड करें](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: डाउनलोड करें और इंस्टॉल करें [लिंक को डाउनलोड करें](https://releases.aspose.com/words/net/).
 - विकास पर्यावरण: अपना कोड लिखने और चलाने के लिए विजुअल स्टूडियो जैसा सेटअप।
--  नमूना दस्तावेज़: एक नमूना दस्तावेज़ रखें (जैसे,`WMF with image.docx`) परीक्षण के लिए तैयार है।
+- नमूना दस्तावेज़: एक नमूना दस्तावेज़ रखें (जैसे, `WMF with image.docx`) परीक्षण के लिए तैयार है।
 
 ## नामस्थान आयात करें
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## चरण 2: दस्तावेज़ लोड करें
 
- अपने दस्तावेज़ को Aspose.Words में लोड करें`Document` यह चरण आपको दस्तावेज़ के साथ प्रोग्रामेटिक रूप से काम करने की अनुमति देता है।
+अपने दस्तावेज़ को Aspose.Words में लोड करें `Document` यह चरण आपको दस्तावेज़ के साथ प्रोग्रामेटिक रूप से काम करने की अनुमति देता है।
 
 ```csharp
 Document doc = new Document(dataDir + "WMF with image.docx");
@@ -79,7 +81,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 
 ## चरण 5: चेतावनी कॉलबैक लागू करें
 
- एक ऐसा वर्ग बनाएं जो कार्यान्वित करता है`IWarningCallback` दस्तावेज़ प्रसंस्करण के दौरान उत्पन्न किसी भी चेतावनी को संभालने के लिए इंटरफ़ेस।
+एक ऐसा वर्ग बनाएं जो कार्यान्वित करता है `IWarningCallback` दस्तावेज़ प्रसंस्करण के दौरान उत्पन्न किसी भी चेतावनी को संभालने के लिए इंटरफ़ेस।
 
 ```csharp
 public class HandleDocumentWarnings : IWarningCallback
@@ -132,11 +134,11 @@ foreach (WarningInfo warningInfo in callback.mWarnings)
 
 ### प्रश्न 1: क्या मैं इस विधि से अन्य प्रकार की चेतावनियों को भी संभाल सकता हूँ?
 
- हां`IWarningCallback` इंटरफ़ेस विभिन्न प्रकार की चेतावनियों को संभाल सकता है, न कि केवल पीडीएफ रेंडरिंग से संबंधित चेतावनियों को।
+हां `IWarningCallback` इंटरफ़ेस विभिन्न प्रकार की चेतावनियों को संभाल सकता है, न कि केवल पीडीएफ रेंडरिंग से संबंधित चेतावनियों को।
 
 ### प्रश्न 2: मैं .NET के लिए Aspose.Words का निःशुल्क परीक्षण संस्करण कहां से डाउनलोड कर सकता हूं?
 
- आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं[Aspose निःशुल्क परीक्षण पृष्ठ](https://releases.aspose.com/).
+आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं [Aspose निःशुल्क परीक्षण पृष्ठ](https://releases.aspose.com/).
 
 ### प्रश्न 3: मेटाफ़ाइलरेंडरिंग विकल्प क्या हैं?
 
@@ -144,14 +146,19 @@ foreach (WarningInfo warningInfo in callback.mWarnings)
 
 ### प्रश्न 4: मैं Aspose.Words के लिए समर्थन कहां पा सकता हूं?
 
- दौरा करना[Aspose.Words समर्थन मंच](https://forum.aspose.com/c/words/8) सहायता के लिए.
+दौरा करना [Aspose.Words समर्थन मंच](https://forum.aspose.com/c/words/8) सहायता के लिए.
 
 ### प्रश्न 5: क्या Aspose.Words के लिए अस्थायी लाइसेंस प्राप्त करना संभव है?
 
- हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/).
+हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं [अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

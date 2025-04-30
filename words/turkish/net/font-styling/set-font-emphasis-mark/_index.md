@@ -1,54 +1,62 @@
 ---
-title: Word Belgesinde vurgu simgesini .NET için Aspose.Words kullanarak ayarlayın 
-weight: 7700
-limit: 
-description: .NET için Aspose.Words kullanarak Word belgeleri üzerinde vurgu işaretini nasıl ayarlayacağınızı öğrenin. Bu adım adım kılavuz kurulum talimatlarını ve örnek kodu içerir.
-keywords: [Aspose.Words for .NET, set emphasis mark, Word document, .NET library, document formatting, Word automation, C# examples]
-url: /tr/net/font-styling/set-font-emphasis-mark/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinde vurgu işaretinin nasıl ayarlanacağını öğrenin. Bu adım adım kılavuz, kurulum talimatlarını ve örnek kodu içerir."
+"title": "Aspose.Words for .NET Kullanarak Word Belgesinde Vurgu İşaretini Ayarlama"
+"url": "/tr/net/font-styling/set-font-emphasis-mark/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words kullanarak Word Belgesinde Temizleme İşaretini Göster
+# Aspose.Words Kullanarak Word Belgesinde Vurgu İşaretini Ayarlama
 
-Word belgeleri üzerinde vurgu işaretini koymak, belirli metinleri vurgulamak için mükemmel bir yoldur ve içeriğinizdeki belirginliğini sağlar. .NET için Aspose.Words ile, birkaç satır kod kullanarak sert bir çevrede gibi vurgu işaretlerini kolayca uygulayabilirsiniz. Bu örnek, `DocumentBuilder`Word belgeleri ile manipüle etmek, vurgu işaretleri ile metni biçimlendirmek ve sonucu DOCX biçiminde kaydetmek için sınıf.
+Word belgelerinde vurgu işareti belirlemek, belirli bir metni vurgulamanın ve içeriğinizde öne çıkmasını sağlamanın mükemmel bir yoludur. .NET için Aspose.Words ile, birkaç satır kod kullanarak, dolu dairenin altında olduğu gibi vurgu işaretlerini zahmetsizce uygulayabilirsiniz. Bu örnek, `DocumentBuilder` Word belgelerini düzenlemek, metni vurgu işaretleriyle biçimlendirmek ve sonucu DOCX biçiminde kaydetmek için bu kılavuzu izleyin. Belge biçimlendirme görevlerinizi profesyonel bir hassasiyetle kolaylaştırmak için bu kılavuzu izleyin.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/font-styling/set-font-emphasis-mark" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum talimatları  
-Verilen kod örneğini çalıştırmak ve .NET için Aspose.Words kullanmak için, bu adımları takip edin:  
+## Kurulum Talimatları  
+Sağlanan kod örneğini çalıştırmak ve Aspose.Words for .NET'i kullanmak için şu adımları izleyin:  
 
-1. .NET için Aspose.Words indir:  
-   * Kütüphaneyi al .[Aspose serbest bırakmaları](https://releases.aspose.com/words/net/)Sayfa.  
+1. .NET için Aspose.Words'ü indirin:  
+   - Kütüphaneyi şu adresten edinin: [Aspose Sürümleri](https://releases.aspose.com/words/net/) sayfa.  
 
-2. Kütüphaneyi yükle:  
-   * Visual Studio'da NuGet Paket Yöneticisi üzerinden yükleyin:  
-     * Açık Visual Studio.  
-     * Araçlara > NuGet Paket Yöneticisi > Çözüm için NuGet Paketleri Yönetin.  
-     * Arama`"Sözler. Sözler"`ve kurulum düğmesine tıklayın.  
+2. Kütüphaneyi yükleyin:  
+   - Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla yükleyin:  
+     - Visual Studio’yu açın.  
+     - Araçlar > NuGet Paket Yöneticisi > Çözüm için NuGet Paketlerini Yönet'e gidin.  
+     - Arama `Aspose.Words` ve Yükle'ye tıklayın.  
 
-   * Alternatif olarak NuGet Paket Yöneticisi Konsolu kullanın:  
+   - Alternatif olarak, NuGet Paket Yöneticisi Konsolunu kullanın:  
      ```shell
      Install-Package Aspose.Words
      ```  
 
-3. Geçici Bir Lisans Kur (Önemli):  
-   * Sınırsız kullanım için, bir [ücretsiz geçici lisans](https://purchase.aspose.com/temporary-license/)\- Evet .  
-   * Projeye lisans uygulamak için:  
+3. Geçici Lisans Ayarlayın (İsteğe bağlı):  
+   - Sınırsız kullanım için bir tane edinin [ücretsiz geçici lisans](https://purchase.aspose.com/temporary-license/).  
+   - Lisansı projenize uygulayın:  
      ```csharp
      var license = new Aspose.Words.License();
      license.SetLicense("Aspose.Words.lic");
      ```  
    
-## Ayrıca bakın
-[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
+## Ayrıca Bakınız
+[Aspose.Word for .NET Belgeleri](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET Referansları](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

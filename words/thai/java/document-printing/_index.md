@@ -1,14 +1,16 @@
 ---
-title: การพิมพ์เอกสาร
-linktitle: การพิมพ์เอกสาร
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: พิมพ์เอกสารอย่างมืออาชีพด้วย Aspose.Words สำหรับ Java! ตั้งค่าการพิมพ์อัตโนมัติ เพิ่มประสิทธิภาพการทำงาน และให้ผลลัพธ์ระดับมืออาชีพได้อย่างง่ายดาย
-weight: 16
-url: /th/java/document-printing/
+"description": "ควบคุมการพิมพ์เอกสารด้วย Aspose.Words สำหรับ Java! ตั้งค่าการพิมพ์อัตโนมัติ เพิ่มประสิทธิภาพการทำงาน และให้ผลลัพธ์ระดับมืออาชีพได้อย่างง่ายดาย"
+"linktitle": "การพิมพ์เอกสาร"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การพิมพ์เอกสาร"
+"url": "/th/java/document-printing/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การพิมพ์เอกสาร
@@ -40,9 +42,13 @@ url: /th/java/document-printing/
 เรียนรู้วิธีพิมพ์หน้าเฉพาะจากเอกสาร Word โดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา Java
 ### [พิมพ์เอกสารด้วย PrintDialog](./print-document-printdialog/)
 เรียนรู้วิธีพิมพ์เอกสารโดยใช้ Aspose.Words สำหรับ Java พร้อมด้วย PrintDialog ปรับแต่งการตั้งค่า พิมพ์หน้าเฉพาะ และอื่นๆ อีกมากมายในคู่มือทีละขั้นตอนนี้
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Извлечение и изменение содержимого в документах Word
-linktitle: Извлечение и изменение содержимого в документах Word
-second_title: API управления документами Python Aspose.Words
-description: Узнайте, как извлекать и изменять содержимое документов Word с помощью Aspose.Words для Python. Пошаговое руководство с исходным кодом.
-weight: 10
-url: /ru/python-net/content-extraction-and-manipulation/extract-modify-document-content/
+"description": "Узнайте, как извлекать и изменять содержимое в документах Word с помощью Aspose.Words для Python. Пошаговое руководство с исходным кодом."
+"linktitle": "Извлечение и изменение содержимого в документах Word"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Извлечение и изменение содержимого в документах Word"
+"url": "/ru/python-net/content-extraction-and-manipulation/extract-modify-document-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Извлечение и изменение содержимого в документах Word
@@ -58,7 +60,7 @@ run.get_font().set_color(255, 0, 0)
 
 ## Замена текста
 
- Замену текста можно осуществить с помощью`replace` метод:
+Замену текста можно осуществить с помощью `replace` метод:
 
 ```python
 doc.get_range().replace("old_text", "new_text", False, False)
@@ -66,7 +68,7 @@ doc.get_range().replace("old_text", "new_text", False, False)
 
 ## Добавление и изменение изображений
 
- Изображения можно добавлять или заменять с помощью`insert_image` метод:
+Изображения можно добавлять или заменять с помощью `insert_image` метод:
 
 ```python
 shape = doc.get_first_section().get_body().append_child(asposewords.Drawing.Shape(doc, asposewords.Drawing.ShapeType.IMAGE))
@@ -103,7 +105,7 @@ header.get_paragraphs().add("Header content")
 
 ## Добавление гиперссылок
 
- Гиперссылки можно добавлять с помощью`insert_hyperlink` метод:
+Гиперссылки можно добавлять с помощью `insert_hyperlink` метод:
 
 ```python
 run = doc.get_first_section().get_body().get_first_paragraph().get_runs().get(0)
@@ -131,7 +133,7 @@ Aspose.Words for Python — это универсальная библиотек
 
 ### Как установить Aspose.Words для Python?
 
- Чтобы установить Aspose.Words для Python, используйте команду`pip install aspose-words`.
+Чтобы установить Aspose.Words для Python, используйте команду `pip install aspose-words`.
 
 ### Могу ли я изменить форматирование текста с помощью этой библиотеки?
 
@@ -139,18 +141,23 @@ Aspose.Words for Python — это универсальная библиотек
 
 ### Можно ли заменить определенный текст в документе?
 
- Конечно, вы можете использовать`replace` метод замены определенного текста в документе.
+Конечно, вы можете использовать `replace` метод замены определенного текста в документе.
 
-### Могу ли я добавлять гиперссылки в документ Word?
+### Могу ли я добавлять гиперссылки в свой документ Word?
 
- Конечно, вы можете добавлять гиперссылки в свой документ с помощью`insert_hyperlink` метод, предоставленный Aspose.Words.
+Конечно, вы можете добавлять гиперссылки в свой документ, используя `insert_hyperlink` метод, предоставленный Aspose.Words.
 
 ### В какие еще форматы я могу конвертировать документы Word?
 
 Aspose.Words поддерживает конвертацию в различные форматы, такие как PDF, HTML, EPUB и другие.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

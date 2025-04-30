@@ -1,14 +1,16 @@
 ---
-title: Группа разрывов строк азиатской типографии в документе Word
-linktitle: Группа разрывов строк азиатской типографии в документе Word
-second_title: API обработки документов Aspose.Words
-description: Освойте переносы строк азиатской типографики в документах Word с помощью Aspose.Words для .NET. Это руководство представляет собой пошаговое руководство по точному форматированию.
-weight: 10
-url: /ru/net/document-formatting/asian-typography-line-break-group/
+"description": "Освойте переносы строк азиатской типографики в документах Word с помощью Aspose.Words для .NET. Это руководство представляет собой пошаговое руководство по точному форматированию."
+"linktitle": "Группа разрывов строк азиатской типографии в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Группа разрывов строк азиатской типографии в документе Word"
+"url": "/ru/net/document-formatting/asian-typography-line-break-group/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Группа разрывов строк азиатской типографии в документе Word
@@ -21,7 +23,7 @@ url: /ru/net/document-formatting/asian-typography-line-break-group/
 
 Прежде чем мы перейдем к деталям, вам нужно будет подготовить несколько вещей. Вот что вам понадобится:
 
-- Aspose.Words для .NET: Убедитесь, что у вас установлена библиотека Aspose.Words. Если вы еще этого не сделали, вы можете скачать ее[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: Убедитесь, что у вас установлена библиотека Aspose.Words. Если вы еще этого не сделали, вы можете ее скачать [здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: вам понадобится среда разработки, например Visual Studio.
 - Базовые знания C#: Хотя мы все объясним, базовые знания C# будут полезны.
 - Word Document with Asian Typography: Иметь Word document, который включает азиатскую типографику. Это будет наш рабочий файл.
@@ -79,7 +81,7 @@ format.WordWrap = true;
 format.HangingPunctuation = false;
 ```
 
-## Шаг 6: Сохраните документ
+## Шаг 6: Сохраните документ.
 
 Наконец, после внесения всех этих изменений, пришло время сохранить ваш документ. Это применит все внесенные нами изменения форматирования.
 
@@ -106,11 +108,16 @@ doc.Save(dataDir + "DocumentFormatting.AsianTypographyLineBreakGroup.docx");
 Хотя рекомендуется использовать Visual Studio, вы можете использовать любую среду разработки, поддерживающую C# и .NET.
 
 ### Где я могу найти больше ресурсов по Aspose.Words для .NET?
- Вы можете найти полную документацию[здесь](https://reference.aspose.com/words/net/) , а для любых вопросов форум поддержки очень полезен[здесь](https://forum.aspose.com/c/words/8).
+Вы можете найти полную документацию [здесь](https://reference.aspose.com/words/net/), а для любых вопросов форум поддержки очень полезен [здесь](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

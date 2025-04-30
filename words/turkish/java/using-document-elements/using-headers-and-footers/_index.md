@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Başlıklar ve Altbilgiler Kullanımı
-linktitle: Başlıklar ve Altbilgileri Kullanma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java'da başlık ve altbilgilerin nasıl kullanılacağını adım adım öğrenin. Zahmetsizce profesyonel belgeler oluşturun.
-weight: 16
-url: /tr/java/using-document-elements/using-headers-and-footers/
+"description": "Aspose.Words for Java'da başlık ve altbilgilerin nasıl kullanılacağını adım adım öğrenin. Zahmetsizce profesyonel belgeler oluşturun."
+"linktitle": "Başlıklar ve Altbilgileri Kullanma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Başlıklar ve Altbilgiler Kullanımı"
+"url": "/tr/java/using-document-elements/using-headers-and-footers/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Başlıklar ve Altbilgiler Kullanımı
@@ -24,7 +26,7 @@ Aspose.Words, Word belgelerini programatik olarak oluşturmanıza, düzenlemeniz
 
 ## 2. Java Ortamınızı Kurma
 
- Aspose.Words'ü kullanmaya başlamadan önce, Java geliştirme ortamınızın doğru şekilde ayarlandığından emin olun. Gerekli kurulum talimatlarını Aspose.Words dokümantasyon sayfasında bulabilirsiniz:[Aspose.Words Java Belgeleri](https://reference.aspose.com/words/java/).
+Aspose.Words'ü kullanmaya başlamadan önce, Java geliştirme ortamınızın doğru şekilde ayarlandığından emin olun. Gerekli kurulum talimatlarını Aspose.Words dokümantasyon sayfasında bulabilirsiniz: [Aspose.Words Java Belgeleri](https://reference.aspose.com/words/java/).
 
 ## 3. Yeni Bir Belge Oluşturma
 
@@ -39,7 +41,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## 4. Sayfa Düzenini Anlamak
 
- Sayfa düzeni, belgenizin düzenini kontrol etmek için çok önemlidir. Başlıklar ve altbilgilerle ilgili çeşitli özellikleri kullanarak belirtebilirsiniz.`PageSetup` sınıf. Örneğin:
+Sayfa düzeni, belgenizin düzenini kontrol etmek için çok önemlidir. Başlıklar ve altbilgilerle ilgili çeşitli özellikleri kullanarak belirtebilirsiniz. `PageSetup` sınıf. Örneğin:
 
 ```java
 // Sayfa özelliklerini ayarlama
@@ -51,13 +53,13 @@ pageSetup.setHeaderDistance(20.0);
 
 ## 5. Farklı İlk Sayfa Üstbilgisi/Altbilgisi
 
-Aspose.Words, belgenizin ilk sayfası için farklı üstbilgiler ve altbilgiler kullanmanıza olanak tanır.`pageSetup.setDifferentFirstPageHeaderFooter(true);` Bu özelliği etkinleştirmek için.
+Aspose.Words, belgenizin ilk sayfası için farklı üstbilgiler ve altbilgiler kullanmanıza olanak tanır. `pageSetup.setDifferentFirstPageHeaderFooter(true);` Bu özelliği etkinleştirmek için.
 
 ## 6. Başlıklarla Çalışma
 
 ### 6.1. Başlıklara Metin Ekleme
 
- Başlıklara metin eklemek için şunu kullanabilirsiniz:`DocumentBuilder`İşte bir örnek:
+Başlıklara metin eklemek için şunu kullanabilirsiniz: `DocumentBuilder`İşte bir örnek:
 
 ```java
 // İlk sayfa başlığına metin ekleme
@@ -71,7 +73,7 @@ builder.write("Aspose.Words Header/Footer Creation Primer - Title Page.");
 
 ### 6.2. Başlıklara Resim Ekleme
 
- Başlıklara resim eklemek için şunu kullanabilirsiniz:`insertImage` yöntem. İşte bir örnek:
+Başlıklara resim eklemek için şunu kullanabilirsiniz: `insertImage` yöntem. İşte bir örnek:
 
 ```java
 // Başlığa bir resim ekleme
@@ -87,7 +89,7 @@ Yukarıdaki örneklerde gösterildiği gibi, yazı tipi, hizalama ve daha fazlas
 
 ### 7.1. Altbilgilere Metin Ekleme
 
- Başlıklara benzer şekilde, altbilgilere de metin ekleyebilirsiniz.`DocumentBuilder`İşte bir örnek:
+Başlıklara benzer şekilde, altbilgilere de metin ekleyebilirsiniz. `DocumentBuilder`İşte bir örnek:
 
 ```java
 // Birincil alt bilgiye metin ekleme
@@ -97,15 +99,15 @@ builder.moveToHeaderFooter(HeaderFooterType.FOOTER_PRIMARY);
 
 ### 7.2. Altbilgilere Resim Ekleme
 
- Altbilgilere resim eklemek için şunu kullanın:`insertImage` Başlıklarda olduğu gibi yöntem.
+Altbilgilere resim eklemek için şunu kullanın: `insertImage` Başlıklarda olduğu gibi yöntem.
 
 ### 7.3. Altbilgi Stillerini Özelleştirme
 
- Altbilgi stillerini özelleştirmek için şunu kullanın:`DocumentBuilder`başlıkları özelleştirmeye benzer.
+Altbilgi stillerini özelleştirmek için şunu kullanın: `DocumentBuilder`, başlıkları özelleştirmeye benzer.
 
 ## 8. Sayfa Numaralandırması
 
- Başlık ve altbilgilerinize şu alanları kullanarak sayfa numaraları ekleyebilirsiniz:`PAGE` Ve`NUMPAGES`. Sayfa ekledikçe veya kaldırdıkça bu alanlar otomatik olarak güncellenir.
+Başlık ve altbilgilerinize şu alanları kullanarak sayfa numaraları ekleyebilirsiniz: `PAGE` Ve `NUMPAGES`. Sayfa ekledikçe veya kaldırdıkça bu alanlar otomatik olarak güncellenir.
 
 ## 9. Altbilgilerdeki Telif Hakkı Bilgileri
 
@@ -125,7 +127,7 @@ Karmaşık belgeler oluştururken önceki bölümlerden üstbilgi ve altbilgiler
 
 ## 13. Belgenizi Kaydetme
 
-Belgenizi oluşturup özelleştirdikten sonra, onu kullanarak kaydetmeyi unutmayın.`doc.save()` yöntem.
+Belgenizi oluşturup özelleştirdikten sonra, onu kullanarak kaydetmeyi unutmayın. `doc.save()` yöntem.
 
 ## Tam Kaynak Kodu
 ```java
@@ -134,7 +136,7 @@ Belgenizi oluşturup özelleştirdikten sonra, onu kullanarak kaydetmeyi unutmay
         Section currentSection = builder.getCurrentSection();
         PageSetup pageSetup = currentSection.getPageSetup();
         // İlk sayfanın üstbilgilerinin/altbilgilerinin diğer sayfalardan farklı olmasını isteyip istemediğimizi belirtin.
-        // Ayrıca, belirtmek için PageSetup.OddAndEvenPagesHeaderFooter özelliğini de kullanabilirsiniz.
+        // Ayrıca, belirtmek için PageSetup.OddAndEvenPagesHeaderFooter özelliğini de kullanabilirsiniz
         // tek ve çift sayfalar için farklı üstbilgiler/altbilgiler.
         pageSetup.setDifferentFirstPageHeaderFooter(true);
         pageSetup.setHeaderDistance(20.0);
@@ -179,7 +181,7 @@ Belgenizi oluşturup özelleştirdikten sonra, onu kullanarak kaydetmeyi unutmay
         pageSetup = currentSection.getPageSetup();
         pageSetup.setOrientation(Orientation.LANDSCAPE);
         // Bu bölümün ayrı bir ilk sayfa üstbilgisi/altbilgisine ihtiyacı yoktur, belgede yalnızca bir başlık sayfasına ihtiyacımız vardır.
-        //ve bu sayfanın üstbilgisi/altbilgisi daha önceki bölümde tanımlanmıştır.
+        // ve bu sayfanın üstbilgisi/altbilgisi daha önceki bölümde tanımlanmıştır.
         pageSetup.setDifferentFirstPageHeaderFooter(false);
         // Bu bölüm, önceki bölümden başlıkları/altbilgileri görüntüler
         // varsayılan olarak bu sayfa genişliğini iptal etmek için currentSection.HeadersFooters.LinkToPrevious(false) çağırın
@@ -198,7 +200,7 @@ Belgenizi oluşturup özelleştirdikten sonra, onu kullanarak kaydetmeyi unutmay
 copyHeadersFootersFromPreviousSection yönteminin kaynak kodu
 ```java
     /// <özet>
-    /// Önceki bölümdeki üstbilgileri/altbilgileri belirtilen bölüme kopyalar ve klonlar.
+    //Önceki bölümdeki üstbilgileri/altbilgileri belirtilen bölüme kopyalar ve klonlar.
     /// </özet>
     private void copyHeadersFootersFromPreviousSection(Section section)
     {
@@ -215,12 +217,12 @@ copyHeadersFootersFromPreviousSection yönteminin kaynak kodu
 
 Bu eğitimde, Java için Aspose.Words'de başlıklar ve altbilgilerle çalışmanın temellerini ele aldık. Başlıklar ve altbilgileri nasıl oluşturacağınızı, özelleştireceğinizi ve biçimlendireceğinizi ve diğer temel belge biçimlendirme tekniklerini öğrendiniz.
 
- Daha fazla ayrıntı ve gelişmiş özellikler için şuraya bakın:[Aspose.Words Java Belgeleri](https://reference.aspose.com/words/java/).
+Daha fazla ayrıntı ve gelişmiş özellikler için şuraya bakın: [Aspose.Words Java Belgeleri](https://reference.aspose.com/words/java/).
 
 ## SSS
 
 ### 1. Belgemin alt bilgisine sayfa numaraları nasıl ekleyebilirim?
- Sayfa numaralarını ekleyerek sayfa numaraları ekleyebilirsiniz.`PAGE` Aspose.Words kullanarak alanı alt bilgiye ekleyin.
+Sayfa numaralarını ekleyerek sayfa numaraları ekleyebilirsiniz. `PAGE` Aspose.Words kullanarak alanı alt bilgiye ekleyin.
 
 ### 2. Aspose.Words Java geliştirme ortamlarıyla uyumlu mudur?
 Evet, Aspose.Words Java geliştirme desteği sağlar. Gerekli kurulumunuzun yerinde olduğundan emin olun.
@@ -229,13 +231,18 @@ Evet, Aspose.Words Java geliştirme desteği sağlar. Gerekli kurulumunuzun yeri
 Elbette, başlıklarınız ve altbilgilerinizin görsel olarak çekici olmasını sağlamak için yazı tiplerini, hizalamayı ve diğer stilleri özelleştirebilirsiniz.
 
 ### 4. Tek ve çift sayfalar için farklı başlıklar kullanmak mümkün müdür?
- Evet, kullanabilirsiniz`PageSetup.OddAndEvenPagesHeaderFooter` tek ve çift sayfalar için farklı başlıklar belirtmek.
+Evet, kullanabilirsiniz `PageSetup.OddAndEvenPagesHeaderFooter` tek ve çift sayfalar için farklı başlıklar belirtmek.
 
 ### 5. Aspose.Words for Java'yı kullanmaya nasıl başlarım?
- Başlamak için, şu adresi ziyaret edin:[Aspose.Words Java Belgeleri](https://reference.aspose.com/words/java/) API'yi kullanma konusunda kapsamlı rehberlik için.
+Başlamak için, şu adresi ziyaret edin: [Aspose.Words Java Belgeleri](https://reference.aspose.com/words/java/) API'yi kullanma konusunda kapsamlı rehberlik için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,44 +1,46 @@
 ---
-title: Távolítsa el a táblázatot körülvevő szöveget
-linktitle: Távolítsa el a táblázatot körülvevő szöveget
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan kérheti le a táblázat és a környező szöveg közötti távolságot a Word dokumentumokban az Aspose.Words for .NET segítségével. Ezzel az útmutatóval javíthatja a dokumentum elrendezését.
-weight: 10
-url: /hu/net/programming-with-table-styles-and-formatting/get-distance-between-table-surrounding-text/
+"description": "Tanulja meg, hogyan kérheti le egy táblázat és a környező szöveg közötti távolságot Word-dokumentumokban az Aspose.Words for .NET használatával. Javítsa dokumentuma elrendezését ezzel az útmutatóval."
+"linktitle": "Táblázatot körülvevő szöveg közötti távolság lekérése"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Táblázatot körülvevő szöveg közötti távolság lekérése"
+"url": "/hu/net/programming-with-table-styles-and-formatting/get-distance-between-table-surrounding-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Távolítsa el a táblázatot körülvevő szöveget
+# Táblázatot körülvevő szöveg közötti távolság lekérése
 
 ## Bevezetés
 
-Képzelje el, hogy egy elegáns jelentést vagy egy fontos dokumentumot készít, és azt szeretné, hogy a táblázatok jól nézzenek ki. Biztosítania kell, hogy elegendő hely legyen a táblázatok és a körülöttük lévő szöveg között, hogy a dokumentum könnyen olvasható és tetszetős legyen. Az Aspose.Words for .NET használatával könnyedén lekérheti és programozottan beállíthatja ezeket a távolságokat. Ez az oktatóanyag végigvezeti Önt az eléréséhez szükséges lépéseken, így dokumentumai kitűnhetnek a professzionalizmus extra finomságával.
+Képzeld el, hogy egy letisztult jelentést vagy egy fontos dokumentumot készítesz, és azt szeretnéd, hogy a táblázataid tökéletesen nézzenek ki. Ügyelned kell arra, hogy elegendő hely legyen a táblázatok és a körülöttük lévő szöveg között, hogy a dokumentum könnyen olvasható és vizuálisan vonzó legyen. Az Aspose.Words for .NET segítségével ezeket a távolságokat könnyen lekérdezheted és beállíthatod programozottan. Ez az oktatóanyag végigvezet a lépéseken, hogy ezt elérd, és dokumentumaid egy extra professzionalizmussal kitűnjenek.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a kódba, győződjünk meg arról, hogy mindennel rendelkezik, amire szüksége van:
+Mielőtt belevágnánk a kódba, győződjünk meg róla, hogy minden szükséges dolog megvan:
 
-1.  Aspose.Words for .NET Library: telepítenie kell az Aspose.Words for .NET könyvtárat. Ha még nem tette meg, letöltheti a[Aspose Releases](https://releases.aspose.com/words/net/) oldalon.
-2. Fejlesztői környezet: Működő fejlesztői környezet telepített .NET-keretrendszerrel. A Visual Studio jó választás.
-3. Mintadokumentum: Word-dokumentum (.docx), amely legalább egy táblázatot tartalmaz a kód teszteléséhez.
+1. Aspose.Words for .NET könyvtár: Telepítenie kell az Aspose.Words for .NET könyvtárat. Ha még nem tette meg, letöltheti innen: [Aspose kiadások](https://releases.aspose.com/words/net/) oldal.
+2. Fejlesztői környezet: Egy működő fejlesztői környezet telepített .NET keretrendszerrel. A Visual Studio jó választás.
+3. Mintadokumentum: Egy Word-dokumentum (.docx), amely legalább egy táblázatot tartalmaz a kód teszteléséhez.
 
 ## Névterek importálása
 
-Először is importáljuk a szükséges névtereket a projektbe. Ez lehetővé teszi a Word dokumentumok Aspose.Words for .NET használatával történő kezeléséhez szükséges osztályok és módszerek elérését.
+Először is importáljuk a szükséges névtereket a projektedbe. Ez lehetővé teszi, hogy hozzáférj azokhoz az osztályokhoz és metódusokhoz, amelyek a Word dokumentumok Aspose.Words for .NET használatával történő kezeléséhez szükségesek.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-Most bontsuk le a folyamatot könnyen követhető lépésekre. A dokumentum betöltésétől az asztal körüli távolságok lekéréséig mindenre kiterjedünk.
+Most bontsuk le a folyamatot könnyen követhető lépésekre. Mindent lefedünk a dokumentum betöltésétől kezdve az asztal körüli távolságok lekéréséig.
 
 ## 1. lépés: Töltse be a dokumentumot
 
- Az első lépés a Word-dokumentum betöltése az Aspose.Wordsba`Document` objektum. Ez az objektum a teljes dokumentumot reprezentálja.
+Az első lépés a Word dokumentum betöltése az Aspose.Words fájlba. `Document` objektum. Ez az objektum a teljes dokumentumot képviseli.
 
 ```csharp
 // A dokumentumkönyvtár elérési útja
@@ -48,21 +50,21 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
-## 2. lépés: Nyissa meg a táblázatot
+## 2. lépés: Hozzáférés a táblázathoz
 
- Ezután hozzá kell férnie a dokumentumban lévő táblázathoz. A`GetChild` metódus lehetővé teszi a dokumentumban található első táblázat lekérését.
+Ezután hozzá kell férned a táblázathoz a dokumentumodban. `GetChild` A metódus lehetővé teszi a dokumentumban található első tábla lekérését.
 
 ```csharp
-// Szerezze meg a dokumentum első táblázatát
+// Szerezd meg az első táblázatot a dokumentumban
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 ```
 
 ## 3. lépés: Távolságértékek lekérése
 
-Most, hogy megvan a táblázat, ideje lekérni a távolságértékeket. Ezek az értékek a táblázat és a környező szöveg közötti teret jelentik mindkét oldalról: fent, lent, balról és jobbról.
+Most, hogy megvan a táblázat, itt az ideje, hogy megkapjuk a távolságértékeket. Ezek az értékek a táblázat és a környező szöveg közötti távolságot jelölik mindkét oldalon: felül, alul, balra és jobbra.
 
 ```csharp
-// Mérje meg a távolságot a táblázat és a környező szöveg között
+// Táblázat és a környező szöveg közötti távolság lekérése
 Console.WriteLine("\nGet distance between table left, right, bottom, top and the surrounding text.");
 Console.WriteLine("Distance from Top: " + table.DistanceTop);
 Console.WriteLine("Distance from Bottom: " + table.DistanceBottom);
@@ -70,12 +72,12 @@ Console.WriteLine("Distance from Right: " + table.DistanceRight);
 Console.WriteLine("Distance from Left: " + table.DistanceLeft);
 ```
 
-## 4. lépés: Jelenítse meg a távolságokat
+## 4. lépés: Távolságok megjelenítése
 
-Végül megjelenítheti a távolságokat. Ezzel ellenőrizheti a térközt, és elvégezheti a szükséges módosításokat annak érdekében, hogy a táblázat tökéletesen nézzen ki a dokumentumban.
+Végül megjelenítheti a távolságokat. Ez segíthet ellenőrizni a térközöket, és elvégezni a szükséges módosításokat, hogy a táblázat tökéletesen nézzen ki a dokumentumban.
 
 ```csharp
-// A távolságok megjelenítése
+// Távolságok megjelenítése
 Console.WriteLine("Distance from Top: " + table.DistanceTop);
 Console.WriteLine("Distance from Bottom: " + table.DistanceBottom);
 Console.WriteLine("Distance from Right: " + table.DistanceRight);
@@ -84,27 +86,32 @@ Console.WriteLine("Distance from Left: " + table.DistanceLeft);
 
 ## Következtetés
 
-És megvan! Ha követi ezeket a lépéseket, az Aspose.Words for .NET segítségével könnyedén lekérheti a táblázat és a környező szöveg közötti távolságokat a Word-dokumentumokban. Ez az egyszerű, de hatékony technika lehetővé teszi a dokumentum elrendezésének finomhangolását, így olvashatóbbá és látványosabbá téve azt. Boldog kódolást!
+És íme! A következő lépéseket követve könnyedén lekérdezheted a táblázat és a környező szöveg közötti távolságot a Word-dokumentumaidban az Aspose.Words for .NET segítségével. Ez az egyszerű, mégis hatékony technika lehetővé teszi a dokumentum elrendezésének finomhangolását, így az olvashatóbb és vizuálisan vonzóbb lesz. Jó kódolást!
 
 ## GYIK
 
-### Beállíthatom programozottan a távolságokat?
- Igen, az Aspose.Words segítségével programozottan beállíthatja a távolságokat a`DistanceTop`, `DistanceBottom`, `DistanceRight` , és`DistanceLeft` tulajdonságai a`Table` objektum.
+### Programozottan is beállíthatom a távolságokat?
+Igen, a távolságokat programozottan is beállíthatja az Aspose.Words segítségével a következő beállítással: `DistanceTop`, `DistanceBottom`, `DistanceRight`, és `DistanceLeft` a tulajdonságai `Table` objektum.
 
-### Mi a teendő, ha a dokumentumom több táblával rendelkezik?
- A dokumentum utódcsomópontjait végigcsinálhatja, és ugyanazt a módszert alkalmazhatja minden táblára. Használat`GetChildNodes(NodeType.Table, true)` hogy megkapja az összes asztalt.
+### Mi van, ha a dokumentumom több táblázatot tartalmaz?
+Végigmehetsz a dokumentum gyermekcsomópontjain, és ugyanazt a metódust alkalmazhatod minden táblára. `GetChildNodes(NodeType.Table, true)` hogy megkapjuk az összes asztalt.
 
-### Használhatom az Aspose.Words-t .NET Core-al?
-Teljesen! Az Aspose.Words támogatja a .NET Core-t, és ugyanazt a kódot kisebb módosításokkal használhatja a .NET Core projektekhez.
+### Használhatom az Aspose.Words-öt a .NET Core-ral?
+Abszolút! Az Aspose.Words támogatja a .NET Core-t, és ugyanazt a kódot kisebb módosításokkal használhatod .NET Core projektekhez.
 
-### Hogyan telepíthetem az Aspose.Words for .NET fájlt?
-Az Aspose.Words for .NET a Visual Studio NuGet Package Manager segítségével telepíthető. Egyszerűen keresse meg az "Aspose.Words" kifejezést, és telepítse a csomagot.
+### Hogyan telepíthetem az Aspose.Words for .NET programot?
+Az Aspose.Words for .NET csomagot a Visual Studio NuGet csomagkezelőjén keresztül telepítheted. Egyszerűen keresd meg az „Aspose.Words” kifejezést, és telepítsd a csomagot.
 
-### Vannak korlátozások az Aspose.Words által támogatott dokumentumtípusokra vonatkozóan?
- Az Aspose.Words a dokumentumformátumok széles skáláját támogatja, beleértve a DOCX-et, DOC-t, PDF-t, HTML-t és még sok mást. Ellenőrizze a[dokumentáció](https://reference.aspose.com/words/net/) a támogatott formátumok teljes listájához.
+### Vannak-e korlátozások az Aspose.Words által támogatott dokumentumtípusokra vonatkozóan?
+Az Aspose.Words számos dokumentumformátumot támogat, beleértve a DOCX, DOC, PDF, HTML és egyebeket. Ellenőrizze a [dokumentáció](https://reference.aspose.com/words/net/) a támogatott formátumok teljes listájáért.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

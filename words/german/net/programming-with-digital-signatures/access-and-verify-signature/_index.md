@@ -1,33 +1,35 @@
 ---
-title: Auf die Signatur im Word-Dokument zugreifen und diese überprüfen
-linktitle: Auf die Signatur im Word-Dokument zugreifen und diese überprüfen
-second_title: Aspose.Words Dokumentverarbeitungs-API
-description: Greifen Sie mit Aspose.Words für .NET auf digitale Signaturen in Word-Dokumenten zu und überprüfen Sie diese mit dieser umfassenden Schritt-für-Schritt-Anleitung. Stellen Sie mühelos die Authentizität von Dokumenten sicher.
-weight: 10
-url: /de/net/programming-with-digital-signatures/access-and-verify-signature/
+"description": "Greifen Sie mit Aspose.Words für .NET auf digitale Signaturen in Word-Dokumenten zu und überprüfen Sie diese mit dieser umfassenden Schritt-für-Schritt-Anleitung. Stellen Sie mühelos die Authentizität von Dokumenten sicher."
+"linktitle": "Zugriff auf und Überprüfung der Signatur im Word-Dokument"
+"second_title": "Aspose.Words Dokumentverarbeitungs-API"
+"title": "Zugriff auf und Überprüfung der Signatur im Word-Dokument"
+"url": "/de/net/programming-with-digital-signatures/access-and-verify-signature/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Auf die Signatur im Word-Dokument zugreifen und diese überprüfen
+# Zugriff auf und Überprüfung der Signatur im Word-Dokument
 
 ## Einführung
 
-Hallo, liebe Technikbegeisterte! Waren Sie schon einmal in einer Situation, in der Sie auf digitale Signaturen in einem Word-Dokument zugreifen und diese überprüfen mussten, aber keine Ahnung hatten, wo Sie anfangen sollten? Nun, Sie haben Glück! Heute tauchen wir in die wunderbare Welt von Aspose.Words für .NET ein, einer leistungsstarken Bibliothek, die die Handhabung von Word-Dokumenten zum Kinderspiel macht. Wir führen Sie Schritt für Schritt durch den Prozess, sodass Sie am Ende dieses Handbuchs ein Profi im Überprüfen digitaler Signaturen in Word-Dokumenten sind. Lassen Sie uns anfangen!
+Hallo liebe Technikbegeisterte! Mussten Sie schon einmal digitale Signaturen in einem Word-Dokument abrufen und überprüfen, wussten aber nicht, wo Sie anfangen sollten? Dann haben Sie Glück! Heute tauchen wir in die wunderbare Welt von Aspose.Words für .NET ein, einer leistungsstarken Bibliothek, die die Handhabung von Word-Dokumenten zum Kinderspiel macht. Wir führen Sie Schritt für Schritt durch den Prozess, sodass Sie am Ende dieser Anleitung ein Profi in der Überprüfung digitaler Signaturen in Word-Dokumenten sind. Los geht's!
 
 ## Voraussetzungen
 
 Bevor wir in die Einzelheiten eintauchen, müssen Sie einige Dinge vorbereitet haben:
 
 1. Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist. Hier schreiben und führen Sie Ihren Code aus.
-2.  Aspose.Words für .NET: Sie müssen Aspose.Words für .NET installiert haben. Sie können es herunterladen[Hier](https://releases.aspose.com/words/net/) Vergessen Sie nicht, Ihre kostenlose Testversion zu erhalten[Hier](https://releases.aspose.com/) falls Sie das nicht schon getan haben!
-3. Ein digital signiertes Word-Dokument: Sie verfügen über ein Word-Dokument, das bereits digital signiert ist. Mit dieser Datei werden Sie arbeiten, um die Signaturen zu überprüfen.
+2. Aspose.Words für .NET: Sie benötigen Aspose.Words für .NET. Sie können es herunterladen [Hier](https://releases.aspose.com/words/net/). Vergessen Sie nicht, Ihre kostenlose Testversion zu erhalten [Hier](https://releases.aspose.com/) falls Sie das nicht schon getan haben!
+3. Ein digital signiertes Word-Dokument: Sie verfügen über ein bereits digital signiertes Word-Dokument. Mit dieser Datei überprüfen Sie die Signaturen.
 
 ## Namespaces importieren
 
-Als Erstes importieren wir die erforderlichen Namespaces. Mit diesen Namespaces können Sie die Aspose.Words-Funktionen in Ihrem Projekt verwenden.
+Zunächst importieren wir die erforderlichen Namespaces. Mit diesen Namespaces können Sie die Aspose.Words-Funktionen in Ihrem Projekt verwenden.
 
 ```csharp
 using System;
@@ -35,7 +37,7 @@ using Aspose.Words;
 using Aspose.Words.DigitalSignatures;
 ```
 
-Okay, lassen Sie uns das Ganze in überschaubare Schritte unterteilen. Jeder Schritt führt Sie durch einen bestimmten Teil des Prozesses. Bereit? Los geht‘s!
+Okay, teilen wir das Ganze in überschaubare Schritte auf. Jeder Schritt führt Sie durch einen bestimmten Teil des Prozesses. Bereit? Los geht’s!
 
 ## Schritt 1: Richten Sie Ihr Projekt ein
 
@@ -44,7 +46,7 @@ Bevor Sie eine digitale Signatur überprüfen können, müssen Sie Ihr Projekt i
 ### Neues Projekt erstellen
 
 1. Öffnen Sie Visual Studio.
-2. Klicken Sie auf Neues Projekt erstellen.
+2. Klicken Sie auf „Neues Projekt erstellen“.
 3. Wählen Sie je nach Wunsch „Konsolen-App (.NET Core)“ oder „Konsolen-App (.NET Framework)“ aus.
 4. Klicken Sie auf „Weiter“, geben Sie Ihrem Projekt einen Namen und klicken Sie auf „Erstellen“.
 
@@ -59,12 +61,12 @@ Bevor Sie eine digitale Signatur überprüfen können, müssen Sie Ihr Projekt i
 Nachdem Ihr Projekt nun eingerichtet ist, laden wir das digital signierte Word-Dokument.
 
 ```csharp
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Digitally signed.docx");
 ```
 
- Ersetzen`"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad zu Ihrem Dokumentverzeichnis. Dieser Codeausschnitt initialisiert ein neues`Document` Objekt und lädt Ihr signiertes Word-Dokument.
+Ersetzen `"YOUR DOCUMENT DIRECTORY"` mit dem tatsächlichen Pfad zu Ihrem Dokumentverzeichnis. Dieser Codeausschnitt initialisiert ein neues `Document` Objekt und lädt Ihr signiertes Word-Dokument.
 
 ## Schritt 3: Zugriff auf die digitalen Signaturen
 
@@ -83,18 +85,18 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 }
 ```
 
-Dieser Code durchläuft jede digitale Signatur im Dokument und gibt verschiedene Details zur Signatur aus. Lassen Sie uns im Einzelnen aufschlüsseln, was jeder Teil bewirkt:
+Dieser Code durchläuft jede digitale Signatur im Dokument und gibt verschiedene Details dazu aus. Im Folgenden sehen wir uns an, was die einzelnen Teile bewirken:
 
 1. Signatur gefunden: Zeigt an, dass eine Signatur gefunden wurde.
 2. Ist gültig: Überprüft, ob die Signatur gültig ist.
-3. Grund für die Signatur: Zeigt den Grund für die Signatur an, sofern verfügbar.
-4. Zeitpunkt der Signatur: Zeigt den Zeitstempel der Signatur des Dokuments an.
+3. Grund für die Unterschrift: Zeigt den Grund für die Unterschrift an, sofern verfügbar.
+4. Zeitpunkt der Unterzeichnung: Zeigt den Zeitstempel der Unterzeichnung des Dokuments an.
 5. Betreffname: Ruft den Betreffnamen aus dem Zertifikat ab.
 6. Ausstellername: Ruft den Ausstellernamen aus dem Zertifikat ab.
 
 ## Schritt 4: Führen Sie Ihren Code aus
 
-Nachdem alles eingerichtet ist, ist es Zeit, Ihren Code auszuführen und die Ergebnisse anzuzeigen.
+Wenn alles eingerichtet ist, ist es an der Zeit, Ihren Code auszuführen und die Ergebnisse anzuzeigen.
 
 
 1. Drücken Sie F5 oder klicken Sie in Visual Studio auf die Schaltfläche „Start“, um Ihr Programm auszuführen.
@@ -102,12 +104,12 @@ Nachdem alles eingerichtet ist, ist es Zeit, Ihren Code auszuführen und die Erg
 
 ## Schritt 5: Behandeln Sie potenzielle Fehler
 
-Es ist immer eine gute Idee, mögliche Fehler zu behandeln. Fügen wir unserem Code eine grundlegende Fehlerbehandlung hinzu.
+Es ist immer sinnvoll, mögliche Fehler zu behandeln. Fügen wir unserem Code eine grundlegende Fehlerbehandlung hinzu.
 
 ```csharp
 try
 {
-    // Der Pfad zum Dokumentverzeichnis.
+    // Der Pfad zum Dokumentenverzeichnis.
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     Document doc = new Document(dataDir + "Digitally signed.docx");
 
@@ -132,13 +134,13 @@ Dadurch werden alle möglicherweise auftretenden Ausnahmen abgefangen und eine F
 
 ## Abschluss
 
-Und da haben Sie es! Sie haben erfolgreich auf digitale Signaturen in einem Word-Dokument zugegriffen und diese mithilfe von Aspose.Words für .NET überprüft. Das ist nicht so entmutigend, wie es scheint, oder? Mit diesen Schritten können Sie digitale Signaturen in Ihren Word-Dokumenten sicher handhaben und deren Authentizität und Integrität sicherstellen. Viel Spaß beim Programmieren!
+Und da haben Sie es! Sie haben mit Aspose.Words für .NET erfolgreich auf digitale Signaturen in einem Word-Dokument zugegriffen und diese überprüft. Es ist gar nicht so schwer, wie es scheint, oder? Mit diesen Schritten können Sie digitale Signaturen in Ihren Word-Dokumenten sicher handhaben und deren Authentizität und Integrität sicherstellen. Viel Spaß beim Programmieren!
 
 ## Häufig gestellte Fragen
 
 ### Kann ich Aspose.Words für .NET verwenden, um einem Word-Dokument digitale Signaturen hinzuzufügen?
 
-Ja, Sie können Aspose.Words für .NET verwenden, um Word-Dokumenten digitale Signaturen hinzuzufügen. Die Bibliothek bietet umfassende Funktionen zum Hinzufügen und Überprüfen digitaler Signaturen.
+Ja, Sie können Aspose.Words für .NET verwenden, um Word-Dokumente digital zu signieren. Die Bibliothek bietet umfassende Funktionen zum Hinzufügen und Überprüfen digitaler Signaturen.
 
 ### Welche Arten digitaler Signaturen kann Aspose.Words für .NET überprüfen?
 
@@ -150,14 +152,19 @@ Aspose.Words für .NET unterstützt alle Versionen von Microsoft Word-Dokumenten
 
 ### Wie erhalte ich eine temporäre Lizenz für Aspose.Words für .NET?
 
- Sie können eine temporäre Lizenz für Aspose.Words für .NET erhalten von[Hier](https://purchase.aspose.com/temporary-license/). Dadurch können Sie den kompletten Funktionsumfang der Bibliothek ohne Einschränkungen ausprobieren.
+Sie können eine temporäre Lizenz für Aspose.Words für .NET erhalten von [Hier](https://purchase.aspose.com/temporary-license/). Dadurch können Sie den vollen Funktionsumfang der Bibliothek ohne Einschränkungen ausprobieren.
 
 ### Wo finde ich weitere Dokumentation zu Aspose.Words für .NET?
 
- Eine ausführliche Dokumentation zu Aspose.Words für .NET finden Sie[Hier](https://reference.aspose.com/words/net/).
+Eine ausführliche Dokumentation zu Aspose.Words für .NET finden Sie [Hier](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

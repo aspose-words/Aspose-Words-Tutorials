@@ -1,14 +1,16 @@
 ---
-title: Değişkenleri Al
-linktitle: Değişkenleri Al
-second_title: Aspose.Words Belge İşleme API'si
-description: .NET için Aspose.Words'ü öğrenin. Bu adım adım kılavuzla Word belgelerinden değişkenleri yüklemeyi ve çıkarmayı öğrenin.
-weight: 10
-url: /tr/net/programming-with-document-properties/get-variables/
+"description": ".NET için Aspose.Words'ü öğrenin. Bu adım adım kılavuzla Word belgelerinden değişkenleri yüklemeyi ve çıkarmayı öğrenin."
+"linktitle": "Değişkenleri Al"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Değişkenleri Al"
+"url": "/tr/net/programming-with-document-properties/get-variables/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Değişkenleri Al
@@ -22,7 +24,7 @@ Merhaba, kodlayıcı arkadaşım! Aspose.Words for .NET dünyasına dalmaya haz�
 Ayrıntılara girmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
 1. C# ve .NET'in Temel Bilgileri: C# ve .NET framework'ünün temellerine aşina olmalısınız.
-2.  Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesini şu adresten indirin:[Burada](https://releases.aspose.com/words/net/).
+2. Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesini şu adresten indirin: [Burada](https://releases.aspose.com/words/net/).
 3. Visual Studio: Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun.
 
 ## Ad Alanlarını İçe Aktar
@@ -54,14 +56,14 @@ using Aspose.Words;
 
 ## Adım 2: Bir Word Belgesi Yükleme
 
- Uygulamamıza bir Word belgesi yükleyelim. Basit bir yöntem kullanacağız`Document` bunu yapmaya itiraz ediyorum.
+Uygulamamıza bir Word belgesi yükleyelim. Basit bir yöntem kullanacağız `Document` bunu yapmaya itiraz ediyorum.
 
 1. Belge dizininize giden yolu tutacak yeni bir dize değişkeni oluşturun:
     ```csharp
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
 
-2.  Bir tane oluştur`Document` nesneyi seçin ve belgeyi yükleyin:
+2. Bir tane oluştur `Document` nesneyi seçin ve belgeyi yükleyin:
     ```csharp
     Document doc = new Document(dataDir + "Document.docx");
     ```
@@ -94,7 +96,7 @@ Bu adım bir kitabı açmak gibidir. Programımıza sadece belgeyi nerede bulaca
     }
     ```
 
-3. Değişkenleri yazdır:
+3. Değişkenleri yazdırın:
     ```csharp
     Console.WriteLine("\nDocument has the following variables: " + variables);
     ```
@@ -112,7 +114,7 @@ Ve işte oldu! Aspose.Words for .NET'i bir Word belgesini yüklemek ve değişke
 Evet, Aspose.Words birden fazla dili destekliyor, ancak bu eğitimde C#'a odaklandık.
 
 ### Aspose.Words için geçici lisansı nasıl alabilirim?
- Geçici lisansı şuradan alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
+Geçici lisansı şuradan alabilirsiniz: [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words ile diğer belge formatlarını düzenlemenin bir yolu var mı?
 Kesinlikle! Aspose.Words DOC, DOCX, ODT, RTF ve daha fazlası gibi çeşitli formatları destekler.
@@ -121,11 +123,16 @@ Kesinlikle! Aspose.Words DOC, DOCX, ODT, RTF ve daha fazlası gibi çeşitli for
 Evet, Aspose.Words'ü web uygulamalarına, masaüstü uygulamalarına ve daha fazlasına entegre edebilirsiniz.
 
 ### Daha fazla örnek ve dokümanı nerede bulabilirim?
- Şuna bir göz atın:[Aspose.Words belgeleri](https://reference.aspose.com/words/net/) Daha fazla örnek ve detaylı rehberler için.
+Şuna bir göz atın: [Aspose.Words belgeleri](https://reference.aspose.com/words/net/) Daha fazla örnek ve detaylı rehberler için.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

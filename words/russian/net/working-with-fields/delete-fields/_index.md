@@ -1,14 +1,16 @@
 ---
-title: Удалить поля
-linktitle: Удалить поля
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как программно удалять поля из документов Word с помощью Aspose.Words для .NET. Понятное пошаговое руководство с примерами кода.
-weight: 10
-url: /ru/net/working-with-fields/delete-fields/
+"description": "Узнайте, как программно удалять поля из документов Word с помощью Aspose.Words для .NET. Понятное пошаговое руководство с примерами кода."
+"linktitle": "Удалить поля"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Удалить поля"
+"url": "/ru/net/working-with-fields/delete-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Удалить поля
@@ -24,7 +26,7 @@ url: /ru/net/working-with-fields/delete-fields/
 ### Требования к программному обеспечению
 
 1. Visual Studio: установлен и настроен в вашей системе.
-2.  Aspose.Words for .NET: Скачивается и интегрируется в ваш проект Visual Studio. Вы можете скачать его с[здесь](https://releases.aspose.com/words/net/).
+2. Aspose.Words for .NET: Скачивается и интегрируется в ваш проект Visual Studio. Вы можете скачать его с [здесь](https://releases.aspose.com/words/net/).
 3. Документ Word: подготовьте образец документа Word (.docx) с полями, которые вы хотите удалить.
 
 ### Требования к знаниям
@@ -55,7 +57,7 @@ using Aspose.Words;
 
 ## Шаг 3: Подготовьте документ
 
- Поместите документ, который вы хотите изменить (например,`your-document.docx`в каталоге вашего проекта или укажите полный путь к нему.
+Поместите документ, который вы хотите изменить (например, `your-document.docx`) в каталоге вашего проекта или укажите полный путь к нему.
 
 ## Шаг 4: Инициализация объекта документа Aspose.Words
 
@@ -67,7 +69,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "your-document.docx");
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу ваших документов.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу ваших документов.
 
 ## Шаг 5: Удалить поля
 
@@ -106,11 +108,16 @@ doc.Save(dataDir + "modified-document.docx", SaveFormat.Docx);
 Да, показанный здесь метод нацелен только на поля и оставляет остальное содержимое без изменений.
 
 ### Где я могу найти дополнительные ресурсы и поддержку для Aspose.Words?
- Посетите[Документация API Aspose.Words для .NET](https://reference.aspose.com/words/net/) и[Форум Aspose.Words](https://forum.aspose.com/c/words/8) для дальнейшей помощи.
+Посетите [Документация API Aspose.Words для .NET](https://reference.aspose.com/words/net/) и [Форум Aspose.Words](https://forum.aspose.com/c/words/8) для дальнейшей помощи.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

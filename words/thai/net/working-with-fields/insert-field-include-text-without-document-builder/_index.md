@@ -1,14 +1,16 @@
 ---
-title: แทรกฟิลด์รวมข้อความโดยไม่ต้องใช้ตัวสร้างเอกสาร
-linktitle: แทรก FieldIncludeText โดยไม่ต้องใช้ตัวสร้างเอกสาร
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแทรก FieldIncludeText โดยไม่ใช้ DocumentBuilder ใน Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนโดยละเอียดของเรา
-weight: 10
-url: /th/net/working-with-fields/insert-field-include-text-without-document-builder/
+"description": "เรียนรู้วิธีแทรก FieldIncludeText โดยไม่ใช้ DocumentBuilder ใน Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนโดยละเอียดของเรา"
+"linktitle": "แทรก FieldIncludeText โดยไม่ต้องใช้ตัวสร้างเอกสาร"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แทรกฟิลด์รวมข้อความโดยไม่ต้องใช้ตัวสร้างเอกสาร"
+"url": "/th/net/working-with-fields/insert-field-include-text-without-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทรกฟิลด์รวมข้อความโดยไม่ต้องใช้ตัวสร้างเอกสาร
@@ -21,7 +23,7 @@ url: /th/net/working-with-fields/insert-field-include-text-without-document-buil
 
 ก่อนที่เราจะเจาะลึกโค้ด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการแล้ว:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งเวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งเวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา .NET: IDE ที่เข้ากันได้กับ .NET เช่น Visual Studio
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณทำตามได้
 
@@ -107,7 +109,7 @@ doc.Save(dataDir + "InsertionFieldFieldIncludeTextWithoutDocumentBuilder.docx");
 Aspose.Words สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพสำหรับการทำงานกับเอกสาร Word ในแอปพลิเคชัน .NET ช่วยให้สามารถสร้าง แก้ไข และแปลงเอกสารด้วยโปรแกรมได้
 
 ### เหตุใดจึงต้องใช้ FieldIncludeText?  
-FieldIncludeText มีประโยชน์ในการรวมเนื้อหาจากเอกสารหนึ่งไปยังอีกเอกสารหนึ่งแบบไดนามิก ช่วยให้เอกสารมีความเป็นโมดูลและบำรุงรักษาได้มากขึ้น
+FieldIncludeText มีประโยชน์สำหรับการรวมเนื้อหาจากเอกสารหนึ่งไปยังอีกเอกสารหนึ่งแบบไดนามิก ช่วยให้เอกสารมีความเป็นโมดูลและบำรุงรักษาได้มากขึ้น
 
 ### ฉันสามารถใช้วิธีนี้เพื่อรวมข้อความจากรูปแบบไฟล์อื่นได้หรือไม่  
 FieldIncludeText ทำงานกับเอกสาร Word โดยเฉพาะ สำหรับรูปแบบอื่น คุณอาจต้องใช้วิธีการหรือคลาสอื่นที่ Aspose.Words จัดเตรียมไว้ให้
@@ -116,10 +118,15 @@ FieldIncludeText ทำงานกับเอกสาร Word โดยเฉ
 ใช่ Aspose.Words สำหรับ .NET รองรับ .NET Framework, .NET Core และ .NET 5/6
 
 ### ฉันจะได้รับรุ่นทดลองใช้งาน Aspose.Words สำหรับ .NET ฟรีได้อย่างไร  
- คุณสามารถรับการทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+คุณสามารถรับการทดลองใช้ฟรีได้จาก [ที่นี่](https://releases-aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Запишите все правила CSS в один файл
-linktitle: Запишите все правила CSS в один файл
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как преобразовывать документы Word в HTML с помощью Aspose.Words для .NET со всеми правилами CSS в одном файле для более чистого кода и более простого обслуживания.
-weight: 10
-url: /ru/net/programming-with-htmlfixedsaveoptions/write-all-css-rules-in-single-file/
+"description": "Узнайте, как преобразовывать документы Word в HTML с помощью Aspose.Words для .NET со всеми правилами CSS в одном файле для более чистого кода и более простого обслуживания."
+"linktitle": "Запишите все правила CSS в один файл"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Запишите все правила CSS в один файл"
+"url": "/ru/net/programming-with-htmlfixedsaveoptions/write-all-css-rules-in-single-file/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Запишите все правила CSS в один файл
@@ -21,14 +23,14 @@ url: /ru/net/programming-with-htmlfixedsaveoptions/write-all-css-rules-in-single
 
 Прежде чем мы погрузимся в подробности, давайте выстроим наши утки в ряд. Вот что вам нужно, чтобы начать:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас есть библиотека Aspose.Words for .NET. Если у вас ее еще нет, вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас есть библиотека Aspose.Words for .NET. Если у вас ее еще нет, вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки .NET: Вам понадобится среда разработки .NET, установленная на вашем компьютере. Visual Studio — популярный выбор.
 3. Базовые знания C#: Базовые знания программирования на C# будут полезны.
 4. Документ Word: подготовьте документ Word (.docx), который вы хотите преобразовать.
 
 ## Импорт пространств имен
 
-Для начала давайте импортируем необходимые пространства имен в ваш проект C#. Это позволит нам легко получить доступ к функциям Aspose.Words.
+Для начала давайте импортируем необходимые пространства имен в ваш проект C#. Это позволит нам легко получить доступ к функциональным возможностям Aspose.Words.
 
 ```csharp
 using Aspose.Words;
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 ## Шаг 2: Загрузите документ Word
 
- Далее загружаем документ Word, который нужно преобразовать в HTML. Это делается с помощью`Document` класс из библиотеки Aspose.Words.
+Далее загружаем документ Word, который нужно преобразовать в HTML. Это делается с помощью `Document` класс из библиотеки Aspose.Words.
 
 ```csharp
 // Загрузите документ Word
@@ -57,7 +59,7 @@ Document doc = new Document(dataDir + "Document.docx");
 
 ## Шаг 3: Настройте параметры сохранения HTML
 
- Теперь нам нужно настроить параметры сохранения HTML. В частности, мы хотим включить функцию, которая записывает все правила CSS в один файл. Это достигается путем установки`SaveFontFaceCssSeparately`собственность`false`.
+Теперь нам нужно настроить параметры сохранения HTML. В частности, мы хотим включить функцию, которая записывает все правила CSS в один файл. Это достигается путем установки `SaveFontFaceCssSeparately` собственность `false`.
 
 ```csharp
 // Настройте параметры резервного копирования с помощью функции «Записать все правила CSS в один файл»
@@ -86,20 +88,25 @@ doc.Save(dataDir + "WorkingWithHtmlFixedSaveOptions.WriteAllCssRulesInSingleFile
 Использование одного CSS-файла упрощает управление и обслуживание ваших стилей. Это делает ваш HTML чище и эффективнее.
 
 ### Могу ли я при необходимости разделить CSS-правила шрифтов?
- Да, установив`SaveFontFaceCssSeparately` к`true`, вы можете выделить CSS-правила шрифтов в отдельный файл.
+Да, установив `SaveFontFaceCssSeparately` к `true`, вы можете выделить CSS-правила шрифтов в отдельный файл.
 
 ### Является ли Aspose.Words для .NET бесплатным для использования?
- Aspose.Words предлагает бесплатную пробную версию, которую вы можете[скачать здесь](https://releases.aspose.com/) . Для дальнейшего использования рассмотрите возможность приобретения лицензии.[здесь](https://purchase.aspose.com/buy).
+Aspose.Words предлагает бесплатную пробную версию, которую вы можете [скачать здесь](https://releases.aspose.com/). Для дальнейшего использования рассмотрите возможность приобретения лицензии. [здесь](https://purchase.aspose.com/buy).
 
 ### В какие еще форматы Aspose.Words for .NET может конвертировать?
 Aspose.Words для .NET поддерживает различные форматы, включая PDF, TXT и форматы изображений, такие как JPEG и PNG.
 
 ### Где я могу найти больше ресурсов по Aspose.Words для .NET?
- Проверьте[документация](https://reference.aspose.com/words/net/) для получения подробных руководств и справок по API.
+Проверьте [документация](https://reference.aspose.com/words/net/) для получения подробных руководств и справок по API.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

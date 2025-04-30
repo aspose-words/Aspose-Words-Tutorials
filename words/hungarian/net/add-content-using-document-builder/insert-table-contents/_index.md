@@ -1,38 +1,46 @@
 ---
-title: Létrehozza a Word dokumentumot a tartalmak listájával .NET-ben
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan készítsen egy Word dokumentumot tartalomjegyzékkel a .NET-hez Aspose.Words segítségével.
-keywords: [Aspose.Words, .NET, Word document, Table of Contents, DocumentBuilder, example, code snippet]
-url: /hu/net/add-content-using-document-builder/insert-table-contents/
+"description": "Tanuld meg, hogyan készíthetsz tartalomjegyzékkel ellátott Word-dokumentumot az Aspose.Words for .NET segítségével. Lépésről lépésre útmutató mellékelve."
+"title": "Tartalomjegyzékkel ellátott Word-dokumentum létrehozása .NET-ben"
+"url": "/hu/net/add-content-using-document-builder/insert-table-contents/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Készítsen egy Word dokumentumot tartalomtermeléssel
-Ez a példa bemutatja, hogyan lehet használni az Aspose.Words a .NET-hez egy olyan Word dokumentumot létrehozni, amely tartalmazza az Interaktív Tartalomtáblát (TOC), amelyet a DocumentBuilder osztály segítségével generáltak. A kód bemutatja, hogyan kell beilleszteni a különböző szintek címeket, formázni őket, és a kapott dokumentumot .docx fájlként menteni. Kövesse az alábbi lépéseket egyszerű végrehajtás érdekében.
+# Word dokumentum létrehozása tartalomjegyzékkel
+Ez a példa bemutatja, hogyan használható az Aspose.Words for .NET egy olyan Word-dokumentum létrehozására, amely egy, a DocumentBuilder osztály segítségével generált interaktív tartalomjegyzéket (TOC) tartalmaz. A kód bemutatja, hogyan lehet különböző szintű címsorokat beszúrni, formázni őket, és a kapott dokumentumot .docx fájlként menteni. Az egyszerű megvalósításhoz kövesse az alábbi lépéseket.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-table-contents" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítások
-1. Előfeltételek: Győződjön meg arról, hogy a gépén .NET van telepítve.
-2. A Aspose.Words beállítása: 
-   * Használja a NuGet csomagkezelő konzolt:
+## Telepítési utasítások
+1. Előfeltételek: Győződjön meg róla, hogy a .NET telepítve van a gépén.
+2. Telepítsd az Aspose.Words-t: 
+   - Használja a NuGet csomagkezelő konzolt:
      ```
      Install-Package Aspose.Words
      ```
-   * Vagy keressük a Aspose.Words népet a NuGet csomagkezelő GUI-ben.
+   - Vagy keressen rá az „Aspose.Words” kifejezésre a NuGet csomagkezelő grafikus felhasználói felületén.
 
-## Lásd:
-[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
-[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
+## Lásd még
+[Aspose.Word .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word .NET-hez kapcsolódó hivatkozások](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

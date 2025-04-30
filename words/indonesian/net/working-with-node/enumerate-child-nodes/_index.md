@@ -1,14 +1,16 @@
 ---
-title: Hitung Node Anak
-linktitle: Hitung Node Anak
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menghitung simpul anak dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah ini.
-weight: 10
-url: /id/net/working-with-node/enumerate-child-nodes/
+"description": "Pelajari cara menghitung simpul anak dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah ini."
+"linktitle": "Hitung Node Anak"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Hitung Node Anak"
+"url": "/id/net/working-with-node/enumerate-child-nodes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hitung Node Anak
@@ -22,8 +24,8 @@ Bekerja dengan dokumen secara terprogram dapat menjadi mudah dengan alat yang te
 Sebelum menyelami kodenya, mari kita bahas prasyarat penting untuk memastikan pengalaman yang lancar:
 
 1. Lingkungan Pengembangan: Pastikan Anda telah menginstal Visual Studio atau IDE lain yang kompatibel dengan .NET.
-2.  Aspose.Words untuk .NET: Unduh pustaka Aspose.Words untuk .NET dari[halaman rilis](https://releases.aspose.com/words/net/).
-3.  Lisensi: Dapatkan uji coba gratis atau lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+2. Aspose.Words untuk .NET: Unduh pustaka Aspose.Words untuk .NET dari [halaman rilis](https://releases.aspose.com/words/net/).
+3. Lisensi: Dapatkan uji coba gratis atau lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ## Mengimpor Ruang Nama
 
@@ -60,13 +62,13 @@ Kode ini mengambil simpul paragraf pertama dalam dokumen. Jika dokumen Anda memi
 
 ## Langkah 3: Ambil Node Anak
 
-Setelah paragraf kita jadi, saatnya mengambil simpul anak. Simpul anak bisa berupa lari, bentuk, atau jenis simpul lain di dalam paragraf.
+Setelah paragraf kita buat, saatnya mengambil simpul anak. Simpul anak dapat berupa lari, bentuk, atau jenis simpul lain dalam paragraf.
 
 ```csharp
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 ```
 
-Baris kode ini mengumpulkan semua simpul anak dari jenis apa pun dalam paragraf yang ditentukan.
+Baris kode ini mengumpulkan semua simpul anak jenis apa pun dalam paragraf yang ditentukan.
 
 ## Langkah 4: Ulangi Melalui Node Anak
 
@@ -91,7 +93,7 @@ Kompilasi dan jalankan aplikasi Anda. Jika Anda telah menyiapkan semuanya dengan
 
 Menghitung simpul anak dalam dokumen Word menggunakan Aspose.Words untuk .NET mudah dilakukan setelah Anda memahami langkah-langkah dasarnya. Dengan menginisialisasi dokumen, mengakses paragraf tertentu, mengambil simpul anak, dan mengulanginya, Anda dapat memanipulasi dokumen Word secara terprogram dengan mudah. Aspose.Words menawarkan API yang tangguh untuk menangani berbagai elemen dokumen, menjadikannya alat yang sangat diperlukan bagi pengembang .NET.
 
- Untuk dokumentasi lebih rinci dan penggunaan lanjutan, kunjungi[Dokumentasi API Aspose.Words untuk .NET](https://reference.aspose.com/words/net/) Jika Anda memerlukan dukungan tambahan, lihat[forum dukungan](https://forum.aspose.com/c/words/8).
+Untuk dokumentasi lebih rinci dan penggunaan lanjutan, kunjungi [Dokumentasi API Aspose.Words untuk .NET](https://reference.aspose.com/words/net/)Jika Anda memerlukan dukungan tambahan, lihat [forum dukungan](https://forum.aspose.com/c/words/8).
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -99,20 +101,25 @@ Menghitung simpul anak dalam dokumen Word menggunakan Aspose.Words untuk .NET mu
 Suatu paragraf dapat berisi simpul-simpul seperti garis, bentuk, komentar, dan elemen sebaris lainnya.
 
 ### Bagaimana cara memuat dokumen Word yang sudah ada?
- Anda dapat memuat dokumen yang ada menggunakan`Document doc = new Document("path/to/your/document.docx");`.
+Anda dapat memuat dokumen yang ada menggunakan `Document doc = new Document("path/to/your/document.docx");`.
 
 ### Bisakah saya memanipulasi tipe node lain selain Run?
- Ya, Anda dapat memanipulasi berbagai jenis node seperti bentuk, komentar, dan lainnya dengan memeriksanya`NodeType`.
+Ya, Anda dapat memanipulasi berbagai jenis node seperti bentuk, komentar, dan lainnya dengan memeriksanya `NodeType`.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words untuk .NET?
- Anda dapat memulai dengan uji coba gratis atau mendapatkan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+Anda dapat memulai dengan uji coba gratis atau mendapatkan lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
- Kunjungi[Dokumentasi API Aspose.Words untuk .NET](https://reference.aspose.com/words/net/)untuk contoh lebih lanjut dan dokumentasi terperinci.
+Kunjungi [Dokumentasi API Aspose.Words untuk .NET](https://reference.aspose.com/words/net/) untuk contoh lebih lanjut dan dokumentasi terperinci.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Получить разделитель стилей абзаца в документе Word
-linktitle: Получить разделитель стилей абзаца в документе Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как определять и обрабатывать разделители стилей абзацев в документах Word с помощью Aspose.Words для .NET, из этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/document-formatting/get-paragraph-style-separator/
+"description": "Узнайте, как определять и обрабатывать разделители стилей абзацев в документах Word с помощью Aspose.Words для .NET, из этого подробного пошагового руководства."
+"linktitle": "Получить разделитель стилей абзаца в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Получить разделитель стилей абзаца в документе Word"
+"url": "/ru/net/document-formatting/get-paragraph-style-separator/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получить разделитель стилей абзаца в документе Word
@@ -23,7 +25,7 @@ url: /ru/net/document-formatting/get-paragraph-style-separator/
 Прежде чем приступить к написанию кода, давайте убедимся, что у вас есть все необходимые инструменты:
 
 - Visual Studio: Убедитесь, что он у вас установлен. Если нет, загрузите и установите его с сайта Microsoft.
-- Aspose.Words для .NET: если у вас его еще нет, скачайте последнюю версию[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: если у вас его еще нет, скачайте последнюю версию [здесь](https://releases.aspose.com/words/net/).
 - Образец документа Word: Он должен содержать разделители стилей абзацев, с которыми мы можем работать. Вы можете создать его или использовать существующий документ.
 
 ## Импорт пространств имен
@@ -36,14 +38,14 @@ using Aspose.Words.Tables;
 using System;
 ```
 
-Хорошо, давайте разберем это шаг за шагом. Мы начнем с нуля и постепенно дойдем до поиска этих надоедливых разделителей абзацев.
+Хорошо, давайте разберем это шаг за шагом. Мы начнем с нуля и постепенно дойдем до поиска этих надоедливых разделителей стилей абзацев.
 
 ## Шаг 1: Настройка вашего проекта
 
 Прежде чем приступить к коду, давайте настроим ваш проект в Visual Studio.
 
 1. Создайте новый проект: откройте Visual Studio и создайте новый проект консольного приложения (.NET Framework).
-2.  Установить Aspose.Words для .NET: Используйте NuGet Package Manager для установки библиотеки Aspose.Words для .NET. Просто найдите`Aspose.Words` и нажмите «Установить».
+2. Установить Aspose.Words для .NET: Используйте NuGet Package Manager для установки библиотеки Aspose.Words для .NET. Просто найдите `Aspose.Words` и нажмите «Установить».
 
 ## Шаг 2: Загрузите документ Word
 
@@ -55,7 +57,7 @@ using System;
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
 
-2.  Загрузите документ: используйте`Document` класс из Aspose.Words для загрузки вашего документа.
+2. Загрузите документ: используйте `Document` класс из Aspose.Words для загрузки вашего документа.
 
     ```csharp
     Document doc = new Document(dataDir + "Document.docx");
@@ -65,7 +67,7 @@ using System;
 
 После загрузки документа пришло время пройтись по абзацам и определить разделители стилей.
 
-1.  Получить все абзацы: извлеките все абзацы в документе с помощью`GetChildNodes` метод.
+1. Получить все абзацы: извлеките все абзацы в документе с помощью `GetChildNodes` метод.
 
     ```csharp
     foreach (Paragraph paragraph in doc.GetChildNodes(NodeType.Paragraph, true))
@@ -102,13 +104,18 @@ using System;
 Да, Aspose.Words для .NET совместим как с .NET Framework, так и с .NET Core.
 
 ### Где я могу получить поддержку по Aspose.Words?
- Вы можете получить поддержку от[Форум Aspose.Words](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от [Форум Aspose.Words](https://forum.aspose.com/c/words/8).
 
 ### Могу ли я использовать Aspose.Words бесплатно?
- Aspose.Words предлагает[бесплатная пробная версия](https://releases.aspose.com/) а также обеспечивает[временные лицензии](https://purchase.aspose.com/temporary-license/) для оценки.
+Aspose.Words предлагает [бесплатная пробная версия](https://releases.aspose.com/) а также обеспечивает [временные лицензии](https://purchase.aspose.com/temporary-license/) для оценки.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

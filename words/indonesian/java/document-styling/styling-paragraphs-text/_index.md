@@ -1,14 +1,16 @@
 ---
-title: Menata Paragraf dan Teks dalam Dokumen
-linktitle: Menata Paragraf dan Teks dalam Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menata paragraf dan teks dalam dokumen menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan kode sumber untuk pemformatan dokumen yang efektif.
-weight: 11
-url: /id/java/document-styling/styling-paragraphs-text/
+"description": "Pelajari cara menata paragraf dan teks dalam dokumen menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan kode sumber untuk pemformatan dokumen yang efektif."
+"linktitle": "Menata Paragraf dan Teks dalam Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menata Paragraf dan Teks dalam Dokumen"
+"url": "/id/java/document-styling/styling-paragraphs-text/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menata Paragraf dan Teks dalam Dokumen
@@ -23,7 +25,7 @@ Aspose.Words untuk Java adalah pustaka Java yang memungkinkan pengembang untuk b
 
 ## Menyiapkan Lingkungan Pengembangan Anda
 
-Sebelum kita menyelami aspek pengkodean, sangat penting untuk menyiapkan lingkungan pengembangan Anda. Pastikan Anda telah menginstal Java, lalu unduh dan konfigurasikan pustaka Aspose.Words untuk Java. Anda dapat menemukan petunjuk penginstalan terperinci di[dokumentasi](https://reference.aspose.com/words/java/).
+Sebelum kita menyelami aspek pengkodean, sangat penting untuk menyiapkan lingkungan pengembangan Anda. Pastikan Anda telah menginstal Java, lalu unduh dan konfigurasikan pustaka Aspose.Words untuk Java. Anda dapat menemukan petunjuk penginstalan terperinci di [dokumentasi](https://reference.aspose.com/words/java/).
 
 ## Membuat Dokumen Baru
 
@@ -94,7 +96,7 @@ doc.getFirstSection().getBody().appendChild(para);
 doc.save("StyledTextDocument.docx");
 ```
 
-Dalam contoh ini, kita membuat paragraf dengan teks, lalu kita memberi gaya berbeda pada bagian teks tersebut dengan mengubah font dan warna.
+Dalam contoh ini, kita membuat paragraf dengan teks, lalu kita memberi gaya berbeda pada bagian teks tertentu dengan mengubah font dan warna.
 
 ## Menerapkan Gaya dan Pemformatan
 
@@ -399,7 +401,7 @@ Anda dapat memeriksa situs web Aspose atau repositori Maven untuk versi terbaru 
 Ya, Aspose.Words untuk Java kompatibel dengan Java 11 dan versi yang lebih baru.
 
 ### Bagaimana cara mengatur margin halaman untuk bagian tertentu di dokumen saya?
- Anda dapat mengatur margin halaman untuk bagian tertentu dari dokumen Anda menggunakan`PageSetup` kelas. Berikut contohnya:
+Anda dapat mengatur margin halaman untuk bagian tertentu dari dokumen Anda menggunakan `PageSetup` kelas. Berikut contohnya:
 
 ```java
 Section section = doc.getSections().get(0); // Dapatkan bagian pertama
@@ -414,10 +416,15 @@ pageSetup.setBottomMargin(72); // Margin bawah dalam poin
 
 Dalam panduan lengkap ini, kami telah menjelajahi kemampuan hebat Aspose.Words untuk Java untuk menata paragraf dan teks dalam dokumen. Anda telah mempelajari cara membuat, memformat, dan menyempurnakan dokumen Anda secara terprogram, dari manipulasi teks dasar hingga fitur lanjutan. Aspose.Words untuk Java memberdayakan pengembang untuk mengotomatiskan tugas pemformatan dokumen secara efisien. Teruslah berlatih dan bereksperimen dengan berbagai fitur untuk menjadi ahli dalam menata dokumen dengan Aspose.Words untuk Java.
 
-Sekarang setelah Anda memiliki pemahaman yang mendalam tentang cara menata paragraf dan teks dalam dokumen menggunakan Aspose.Words untuk Java, Anda siap untuk membuat dokumen berformat indah yang disesuaikan dengan kebutuhan spesifik Anda. Selamat membuat kode!
+Sekarang setelah Anda memiliki pemahaman yang mendalam tentang cara memberi gaya pada paragraf dan teks dalam dokumen menggunakan Aspose.Words untuk Java, Anda siap untuk membuat dokumen berformat indah yang disesuaikan dengan kebutuhan spesifik Anda. Selamat membuat kode!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

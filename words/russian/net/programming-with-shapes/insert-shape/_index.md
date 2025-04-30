@@ -1,14 +1,16 @@
 ---
-title: Вставить форму
-linktitle: Вставить форму
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставлять и изменять фигуры в документах Word с помощью Aspose.Words для .NET, следуя нашему пошаговому руководству.
-weight: 10
-url: /ru/net/programming-with-shapes/insert-shape/
+"description": "Узнайте, как вставлять и изменять фигуры в документах Word с помощью Aspose.Words для .NET, следуя нашему пошаговому руководству."
+"linktitle": "Вставить форму"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить форму"
+"url": "/ru/net/programming-with-shapes/insert-shape/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить форму
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-shapes/insert-shape/
 
 Прежде чем приступить к изучению руководства, убедитесь, что у вас выполнены следующие предварительные условия:
 
-1.  Aspose.Words для .NET: Загрузите и установите последнюю версию с сайта[Страница релизов Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: Загрузите и установите последнюю версию с сайта [Страница релизов Aspose](https://releases.aspose.com/words/net/).
 2. Среда разработки: подходящая среда разработки .NET, например Visual Studio.
 3. Базовые знания C#: знакомство с языком программирования C# и основными концепциями.
 
@@ -56,7 +58,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Инициализировать новый документ
 Document doc = new Document();
 
-// Инициализируйте DocumentBuilder, чтобы помочь создать документ
+// Инициализируйте DocumentBuilder, чтобы помочь создать документ.
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
@@ -90,7 +92,7 @@ secondShape.Rotation = 30.0;
 
 ## Шаг 5: Сохраните документ.
 
- После добавления фигур последний шаг — сохранить документ. Мы будем использовать`OoxmlSaveOptions` для указания формата сохранения.
+После добавления фигур последний шаг — сохранить документ. Мы будем использовать `OoxmlSaveOptions` для указания формата сохранения.
 
 ```csharp
 // Определите параметры сохранения с соблюдением требований
@@ -107,27 +109,32 @@ doc.Save(dataDir + "WorkingWithShapes.InsertShape.docx", saveOptions);
 
 И вот оно! Вы успешно вставили и обработали фигуры в документе Word с помощью Aspose.Words для .NET. В этом руководстве были рассмотрены основы, но Aspose.Words предлагает множество дополнительных функций для работы с фигурами, например, пользовательские стили, соединители и групповые фигуры.
 
- Для более подробной информации посетите[Документация Aspose.Words для .NET](https://reference.aspose.com/words/net/).
+Для более подробной информации посетите [Документация Aspose.Words для .NET](https://reference.aspose.com/words/net/).
 
 ## Часто задаваемые вопросы
 
 ### Как вставлять различные типы фигур?
-Вы можете изменить`ShapeType` в`InsertShape` метод вставки различных типов фигур, таких как круги, прямоугольники и стрелки.
+Вы можете изменить `ShapeType` в `InsertShape` метод вставки различных типов фигур, таких как круги, прямоугольники и стрелки.
 
 ### Могу ли я добавить текст внутри фигур?
- Да, вы можете использовать`builder.Write` метод добавления текста внутрь фигур после их вставки.
+Да, вы можете использовать `builder.Write` метод добавления текста внутрь фигур после их вставки.
 
 ### Можно ли стилизовать формы?
- Да, вы можете стилизовать фигуры, задавая такие свойства, как`FillColor`, `StrokeColor` , и`StrokeWeight`.
+Да, вы можете стилизовать фигуры, задавая такие свойства, как `FillColor`, `StrokeColor`, и `StrokeWeight`.
 
 ### Как позиционировать фигуры относительно других элементов?
- Используйте`RelativeHorizontalPosition` и`RelativeVerticalPosition` свойства для позиционирования фигур относительно других элементов в документе.
+Используйте `RelativeHorizontalPosition` и `RelativeVerticalPosition` свойства для позиционирования фигур относительно других элементов в документе.
 
 ### Могу ли я сгруппировать несколько фигур вместе?
- Да, Aspose.Words для .NET позволяет группировать фигуры с помощью`GroupShape` сорт.
+Да, Aspose.Words для .NET позволяет группировать фигуры с помощью `GroupShape` сорт.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

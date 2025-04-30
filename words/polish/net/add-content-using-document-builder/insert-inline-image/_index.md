@@ -1,46 +1,54 @@
 ---
-title: Wkładać obraz w linii w dokumencie Word za pomocą Aspose.Words
-weight: 7700
-limit: 
-description: Dowiedz się, jak wstawić obraz w linii w dokumencie Word z Aspose.Words dla .NET w tym przykładzie krok po kroku.
-keywords: [Aspose.Words, .NET, inline image, Word document, DocumentBuilder, image insertion, code example]
-url: /pl/net/add-content-using-document-builder/insert-inline-image/
+"description": "W tym przykładzie krok po kroku dowiesz się, jak wstawić obraz osadzony w dokumencie Word za pomocą Aspose.Words for .NET."
+"title": "Wstawianie obrazu w dokumencie Word za pomocą Aspose.Words"
+"url": "/pl/net/add-content-using-document-builder/insert-inline-image/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wkładać obraz w linii w dokumencie Word za pomocą Aspose.Words
-W tym przykładzie pokazano, jak wstawić obraz w linii w dokumencie Word za pomocą biblioteki Aspose.Words dla .NET.`DokumentBuilder`w klasie, można łatwo położenie i wstawić obrazy w aktualnej lokalizacji kursor w dokumencie.
+# Wstawianie obrazu w dokumencie Word za pomocą Aspose.Words
+Ten przykład pokazuje, jak wstawić obraz inline do dokumentu Word przy użyciu biblioteki Aspose.Words dla .NET. Wykorzystując `DocumentBuilder` class, możesz łatwo pozycjonować i wstawiać obrazy w bieżącej lokalizacji kursora w dokumencie. Ten przewodnik zapewnia prostą implementację, która pomoże Ci rozpocząć pracę z obsługą obrazów w dokumentach Word.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-inline-image" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instrukcje instalacji
-1. Zainstalowanie Aspose.Words dla .NET:
-   * Użyj menedżera pakietów NuGet w Visual Studio.
-   * Wyślij następujące polecenie w konsoli zarządzającego pakietami:
+1. Zainstaluj Aspose.Words dla .NET:
+   - Użyj Menedżera pakietów NuGet w programie Visual Studio.
+   - Uruchom następujące polecenie w konsoli Menedżera pakietów:
      ```
      Install-Package Aspose.Words
      ```
 
-2. Zrób swój projekt:
-   * Tworzyć nowy projekt .NET lub otworzyć istniejący.
-   * Dodaj wymagane instrukcje w górnej części pliku kodu:
+2. Skonfiguruj swój projekt:
+   - Utwórz nowy projekt .NET lub otwórz istniejący.
+   - Dodaj niezbędne dyrektywy using na górze pliku kodu:
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Drawing;
      ```
 
 
-## Zobacz również
-[Aspose.Word dla dokumentacji .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word dla odniesienia .NET](https://reference.aspose.com/words/net/)
+## Zobacz także
+[Dokumentacja Aspose.Word dla .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word dla .NET Odwołania](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

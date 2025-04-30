@@ -1,14 +1,16 @@
 ---
-title: Lưu tài liệu dưới dạng định dạng ODT trong Aspose.Words cho Java
-linktitle: Lưu tài liệu dưới dạng định dạng ODT
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách lưu tài liệu ở định dạng ODT bằng Aspose.Words cho Java. Đảm bảo khả năng tương thích với các bộ ứng dụng văn phòng nguồn mở.
-weight: 19
-url: /vi/java/document-loading-and-saving/saving-documents-as-odt-format/
+"description": "Tìm hiểu cách lưu tài liệu ở định dạng ODT bằng Aspose.Words cho Java. Đảm bảo khả năng tương thích với bộ ứng dụng văn phòng nguồn mở."
+"linktitle": "Lưu tài liệu dưới dạng định dạng ODT"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Lưu tài liệu dưới dạng định dạng ODT trong Aspose.Words cho Java"
+"url": "/vi/java/document-loading-and-saving/saving-documents-as-odt-format/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lưu tài liệu dưới dạng định dạng ODT trong Aspose.Words cho Java
@@ -24,7 +26,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các �
 
 1. Môi trường phát triển Java: Đảm bảo rằng bạn đã cài đặt Java Development Kit (JDK) trên hệ thống của mình.
 
-2.  Aspose.Words for Java: Tải xuống và cài đặt thư viện Aspose.Words for Java. Bạn có thể tìm thấy liên kết tải xuống[đây](https://releases.aspose.com/words/java/).
+2. Aspose.Words for Java: Tải xuống và cài đặt thư viện Aspose.Words for Java. Bạn có thể tìm thấy liên kết tải xuống [đây](https://releases.aspose.com/words/java/).
 
 3. Tài liệu mẫu: Có một tài liệu Word mẫu (ví dụ: "Document.docx") mà bạn muốn chuyển đổi sang định dạng ODT.
 
@@ -36,7 +38,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các �
 Document doc = new Document("Your Directory Path" + "Document.docx");
 ```
 
- Đây,`"Your Directory Path"` phải trỏ đến thư mục chứa tài liệu của bạn.
+Đây, `"Your Directory Path"` phải trỏ đến thư mục chứa tài liệu của bạn.
 
 ## Bước 2: Chỉ định Tùy chọn lưu ODT
 
@@ -55,13 +57,13 @@ Bây giờ đã đến lúc lưu tài liệu ở định dạng ODT:
 doc.save("Your Directory Path" + "WorkingWithOdtSaveOptions.MeasureUnit.odt", saveOptions);
 ```
 
- Đây,`"Your Directory Path"` phải trỏ đến thư mục mà bạn muốn lưu tệp ODT đã chuyển đổi.
+Đây, `"Your Directory Path"` phải trỏ đến thư mục mà bạn muốn lưu tệp ODT đã chuyển đổi.
 
 ## Mã nguồn đầy đủ để lưu tài liệu dưới dạng ODT trong Aspose.Words cho Java
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
-// Open Office sử dụng cm khi chỉ định chiều dài, chiều rộng và các định dạng có thể đo lường khác
+// Open Office sử dụng centimet khi chỉ định chiều dài, chiều rộng và các định dạng có thể đo lường khác
 // và các thuộc tính nội dung trong tài liệu trong khi MS Office sử dụng inch.
 OdtSaveOptions saveOptions = new OdtSaveOptions(); { saveOptions.setMeasureUnit(OdtSaveMeasureUnit.INCHES); }
 doc.save("Your Directory Path" + "WorkingWithOdtSaveOptions.MeasureUnit.odt", saveOptions);
@@ -75,7 +77,7 @@ Trong bài viết này, chúng ta đã tìm hiểu cách lưu tài liệu dướ
 
 ### Làm thế nào tôi có thể tải xuống Aspose.Words cho Java?
 
- Bạn có thể tải xuống Aspose.Words cho Java từ trang web Aspose. Truy cập[liên kết này](https://releases.aspose.com/words/java/) để truy cập trang tải xuống.
+Bạn có thể tải xuống Aspose.Words cho Java từ trang web Aspose. Truy cập [liên kết này](https://releases.aspose.com/words/java/) để truy cập trang tải xuống.
 
 ### Lợi ích của việc lưu tài liệu ở định dạng ODT là gì?
 
@@ -92,9 +94,14 @@ Có, bạn có thể tự động chuyển đổi nhiều tài liệu sang đị
 ### Aspose.Words for Java có tương thích với các phiên bản Java mới nhất không?
 
 Aspose.Words for Java được cập nhật thường xuyên để hỗ trợ các phiên bản Java mới nhất, đảm bảo khả năng tương thích và cải thiện hiệu suất. Hãy đảm bảo kiểm tra các yêu cầu hệ thống trong tài liệu để biết thông tin mới nhất.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

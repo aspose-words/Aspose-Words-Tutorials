@@ -1,14 +1,16 @@
 ---
-title: Получить позицию за столом
-linktitle: Получить позицию за столом
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как определить положение таблицы в документах Word с помощью Aspose.Words для .NET, с помощью нашего пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-tables/get-table-position/
+"description": "Узнайте, как определить положение таблицы в документах Word с помощью Aspose.Words для .NET, с помощью нашего пошагового руководства."
+"linktitle": "Получить позицию за столом"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Получить позицию за столом"
+"url": "/ru/net/programming-with-tables/get-table-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получить позицию за столом
@@ -20,10 +22,10 @@ url: /ru/net/programming-with-tables/get-table-position/
 ## Предпосылки
 
 Прежде чем перейти к деталям, давайте убедимся, что у вас есть все необходимое:
--  Aspose.Words for .NET: Убедитесь, что у вас последняя версия. Если нет, вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Убедитесь, что у вас последняя версия. Если нет, вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 - Visual Studio: подойдет любая версия, но всегда рекомендуется последняя.
 - .NET Framework: убедитесь, что у вас установлен .NET Framework 4.0 или более поздней версии.
-- Документ Word: в этом уроке мы будем использовать документ с именем`Tables.docx`.
+- Документ Word: в этом уроке мы будем использовать документ с именем `Tables.docx`.
 
 ## Импорт пространств имен
 
@@ -95,7 +97,7 @@ Aspose.Words для .NET — это мощная библиотека обраб
 
 ### Как установить Aspose.Words для .NET?
 
- Вы можете установить Aspose.Words для .NET через диспетчер пакетов NuGet в Visual Studio или[скачать его напрямую](https://releases.aspose.com/words/net/).
+Вы можете установить Aspose.Words для .NET через диспетчер пакетов NuGet в Visual Studio или [скачать его напрямую](https://releases.aspose.com/words/net/).
 
 ### Могу ли я получить положение нескольких таблиц?
 
@@ -107,10 +109,15 @@ Aspose.Words для .NET — это мощная библиотека обраб
 
 ### Доступна ли пробная версия?
 
- Да, вы можете получить[бесплатная пробная версия](https://releases.aspose.com/) или[временная лицензия](https://purchase.aspose.com/temporary-license/) попробовать Aspose.Words для .NET.
+Да, вы можете получить [бесплатная пробная версия](https://releases.aspose.com/) или [временная лицензия](https://purchase.aspose.com/temporary-license/) попробовать Aspose.Words для .NET.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,45 +1,53 @@
 ---
-title: قم بإنشاء مخطط خط في Word باستخدام Aspose.Words ل .NET
-weight: 7700
-limit: 
-description: تعلم كيفية إنشاء مخطط خط في مستند Word باستخدام Aspose.Words ل .NET. دليل خطوة بخطوة مع أمثلة رمز وصور لسهولة التنفيذ.
-keywords: [Aspose.Words for .NET, create line chart, Word document chart, .NET chart example, Word line chart, chart creation in Word, Aspose tutorial, C# Word chart example]
-url: /ar/net/working-with-charts/create-chart-using-shape/
+"description": "تعرّف على كيفية إنشاء مخطط خطي في مستند Word باستخدام Aspose.Words لـ .NET. دليل خطوة بخطوة مع أمثلة برمجية وصور لسهولة التنفيذ."
+"title": "إنشاء مخطط خطي في Word باستخدام Aspose.Words لـ .NET"
+"url": "/ar/net/working-with-charts/create-chart-using-shape/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# قم بإنشاء جدول خط في Word باستخدام Aspose.Words  
+# إنشاء مخطط خطي في Word باستخدام Aspose.Words  
 
-Aspose.Words لـ .NET تمكن المطورين من إنشاء وثائق جذابة بصرياً ومحترفة بسهولة. يمركزك هذا التعليم عبر إنشاء مخطط خط في مستند Word خطوة بخطوة باستخدام Aspose.Words لـ .NET. سواء كنت تقوم ببناء تقارير أو لوحات التحكم أو عروض ، فإن القدرة على إدراج مخططات ديناميكية تعزز تأثير وثائقك. اتبع مثال البرمجة البسيطة المقدمة للبدء ، بالإضافة إلى تفسيرات مفصلة وصور ونصائح لضمان التكامل السلس في مشروعك.
+يُمكّن Aspose.Words for .NET المطورين من إنشاء مستندات جذابة بصريًا واحترافية بسهولة. يرشدك هذا البرنامج التعليمي خطوة بخطوة لإنشاء مخطط خطي في مستند Word باستخدام Aspose.Words for .NET. سواء كنت تُنشئ تقارير أو لوحات معلومات أو عروضًا تقديمية، فإن إمكانية تضمين مخططات ديناميكية تُعزز تأثير مستنداتك. اتبع مثال الكود البسيط المُقدم للبدء، والذي يتضمن شرحًا مفصلاً وصورًا ونصائح لضمان دمج سلس في مشروعك.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/create-chart-using-shape" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت  
 
-1. قم بتنزيل Aspose.Words لـ .NET:  
-   احصل على أحدث نسخة من المسؤول[Aspose.Words لصفحة تنزيل .NET](https://releases.aspose.com/words/net/). . .  
+1. تنزيل Aspose.Words لـ .NET:  
+   احصل على أحدث إصدار من الموقع الرسمي [صفحة تنزيل Aspose.Words لـ .NET](https://releases.aspose.com/words/net/).  
 
-2. إثباط عبر NuGet:  
-   إضافة المكتبة إلى مشروعك باستخدام مدير الحزمة NuGet. قم بتشغيل الأمر التالي في جهاز إدارة الحزمة:  
+2. التثبيت عبر NuGet:  
+   أضف المكتبة إلى مشروعك باستخدام مدير حزم NuGet. شغّل الأمر التالي في وحدة تحكم مدير الحزم:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-3. الحصول على رخصة:  
-   * للحصول على تقييم، اطلب[رخصة مؤقتة](https://purchase.aspose.com/temporary-license/). . .  
-   * شراء رخصة كاملة من [متجر "أسبو"](https://purchase.aspose.com/buy). . .  
+3. الحصول على الترخيص:  
+   - للتقييم، اطلب [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/).  
+   - شراء ترخيص كامل من [متجر أسبووز](https://purchase.aspose.com/buy).  
 
 
-## انظر أيضاً
-[Aspose.Word للمستندات .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word للمراجع .NET](https://reference.aspose.com/words/net/)
+## انظر أيضا
+[توثيق Aspose.Word لـ .NET](https://docs.aspose.com/words/net/)
+[مراجع Aspose.Word لـ .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

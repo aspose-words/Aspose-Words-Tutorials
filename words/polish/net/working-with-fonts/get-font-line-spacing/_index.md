@@ -1,14 +1,16 @@
 ---
-title: Uzyskaj odstęp między wierszami czcionki
-linktitle: Uzyskaj odstęp między wierszami czcionki
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak uzyskać odstęp między wierszami czcionki za pomocą Aspose.Words dla .NET dzięki temu samouczkowi krok po kroku. Idealne dla programistów.
-weight: 10
-url: /pl/net/working-with-fonts/get-font-line-spacing/
+"description": "Dowiedz się, jak uzyskać odstęp między wierszami czcionki za pomocą Aspose.Words dla .NET dzięki temu samouczkowi krok po kroku. Idealne dla programistów."
+"linktitle": "Uzyskaj odstęp między wierszami czcionki"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Uzyskaj odstęp między wierszami czcionki"
+"url": "/pl/net/working-with-fonts/get-font-line-spacing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Uzyskaj odstęp między wierszami czcionki
@@ -21,7 +23,7 @@ Aspose.Words for .NET to potężna biblioteka, która umożliwia programowe twor
 
 Zanim zagłębimy się w kod, upewnij się, że spełnione są następujące wymagania wstępne:
 
-1.  Biblioteka Aspose.Words dla .NET: Pobierz i zainstaluj najnowszą wersję z[Tutaj](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Pobierz i zainstaluj najnowszą wersję z [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Upewnij się, że masz skonfigurowane środowisko IDE, np. Visual Studio.
 3. Podstawowa wiedza o języku C#: W tym samouczku zakładamy, że posiadasz podstawową wiedzę na temat programowania w języku C#.
 
@@ -47,7 +49,7 @@ Document doc = new Document();
 
 ## Krok 2: Zainicjuj DocumentBuilder
 
-Następnie musimy zainicjować`DocumentBuilder` obiekt. Ten obiekt pomoże nam konstruować i manipulować zawartością dokumentu.
+Następnie musimy zainicjować `DocumentBuilder` obiekt. Ten obiekt pomoże nam konstruować i manipulować zawartością dokumentu.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -63,7 +65,7 @@ builder.Font.Name = "Calibri";
 
 ## Krok 4: Wpisz tekst do dokumentu
 
- Korzystanie z`DocumentBuilder` obiekt, wpisz tekst do dokumentu. Ten tekst będzie używał właściwości czcionki, które ustawiliśmy w poprzednim kroku.
+Korzystanie z `DocumentBuilder` obiekt, wpisz tekst do dokumentu. Ten tekst będzie używał właściwości czcionki, które ustawiliśmy w poprzednim kroku.
 
 ```csharp
 builder.Writeln("Sample Text");
@@ -87,7 +89,7 @@ Console.WriteLine($"lineSpacing = {font.LineSpacing}");
 
 ## Wniosek
 
-masz! Pobieranie odstępu między wierszami czcionki za pomocą Aspose.Words dla .NET jest proste, gdy podzielisz je na te proste kroki. Niezależnie od tego, czy tworzysz nowy dokument, czy pracujesz z istniejącym, Aspose.Words zapewnia wszystkie narzędzia potrzebne do efektywnego zarządzania właściwościami czcionki.
+I masz! Pobieranie odstępu między wierszami czcionki za pomocą Aspose.Words dla .NET jest proste, gdy podzielisz je na te proste kroki. Niezależnie od tego, czy tworzysz nowy dokument, czy pracujesz z istniejącym, Aspose.Words zapewnia wszystkie narzędzia potrzebne do efektywnego zarządzania właściwościami czcionki.
 
 ## Najczęściej zadawane pytania
 
@@ -98,16 +100,21 @@ Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programistom tw
 Tak, możesz używać Aspose.Words dla .NET z dowolnym językiem .NET, w tym VB.NET i F#.
 
 ### Jak mogę pobrać Aspose.Words dla platformy .NET?
- Najnowszą wersję Aspose.Words dla .NET można pobrać ze strony[Tutaj](https://releases.aspose.com/words/net/).
+Najnowszą wersję Aspose.Words dla .NET można pobrać ze strony [Tutaj](https://releases.aspose.com/words/net/).
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Words dla .NET?
- Tak, możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Tak, możesz otrzymać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć dokumentację Aspose.Words dla .NET?
- Dokumentacja Aspose.Words dla .NET jest dostępna[Tutaj](https://reference.aspose.com/words/net/).
+Dokumentacja Aspose.Words dla .NET jest dostępna [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

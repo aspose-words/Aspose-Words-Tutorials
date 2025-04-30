@@ -1,27 +1,29 @@
 ---
-title: Hantera digitala signaturer och autenticitet
-linktitle: Hantera digitala signaturer och autenticitet
-second_title: Aspose.Words Python Document Management API
-description: Lär dig hur du hanterar digitala signaturer och säkerställer dokumentets autenticitet med Aspose.Words för Python. Steg-för-steg guide med källkod.
-weight: 17
-url: /sv/python-net/document-combining-and-comparison/manage-digital-signatures/
+"description": "Lär dig hur du hanterar digitala signaturer och säkerställer dokumentäkthet med Aspose.Words för Python. Steg-för-steg-guide med källkod."
+"linktitle": "Hantera digitala signaturer och autenticitet"
+"second_title": "Aspose.Words Python-dokumenthanterings-API"
+"title": "Hantera digitala signaturer och autenticitet"
+"url": "/sv/python-net/document-combining-and-comparison/manage-digital-signatures/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hantera digitala signaturer och autenticitet
 
 ## Introduktion till digitala signaturer
 
-Digitala signaturer fungerar som elektroniska motsvarigheter till handskrivna signaturer. De tillhandahåller ett sätt att verifiera äktheten, integriteten och ursprunget för elektroniska dokument. När ett dokument signeras digitalt genereras en kryptografisk hash baserat på innehållet i dokumentet. Denna hash krypteras sedan med undertecknarens privata nyckel, vilket skapar den digitala signaturen. Vem som helst med motsvarande publika nyckel kan verifiera signaturen och försäkra sig om dokumentets äkthet.
+Digitala signaturer fungerar som elektroniska motsvarigheter till handskrivna signaturer. De ger ett sätt att verifiera äktheten, integriteten och ursprunget hos elektroniska dokument. När ett dokument signeras digitalt genereras en kryptografisk hash baserat på dokumentets innehåll. Denna hash krypteras sedan med undertecknarens privata nyckel, vilket skapar den digitala signaturen. Vem som helst med motsvarande offentliga nyckel kan verifiera signaturen och fastställa dokumentets äkthet.
 
-## Ställa in Aspose.Words för Python
+## Konfigurera Aspose.Words för Python
 
 För att komma igång med att hantera digitala signaturer med Aspose.Words för Python, följ dessa steg:
 
-1. Installera Aspose.Words: Du kan installera Aspose.Words för Python med hjälp av pip med följande kommando:
+1. Installera Aspose.Words: Du kan installera Aspose.Words för Python med pip med följande kommando:
    
    ```python
    pip install aspose-words
@@ -33,7 +35,7 @@ För att komma igång med att hantera digitala signaturer med Aspose.Words för 
    import aspose.words as aw
    ```
 
-## Ladda och komma åt dokument
+## Läsa in och komma åt dokument
 
 Innan du lägger till eller verifierar digitala signaturer måste du ladda dokumentet med Aspose.Words:
 
@@ -41,7 +43,7 @@ Innan du lägger till eller verifierar digitala signaturer måste du ladda dokum
 document = aw.Document("document.docx")
 ```
 
-## Lägga till digitala signaturer till dokument
+## Lägga till digitala signaturer i dokument
 
 För att lägga till en digital signatur i ett dokument behöver du ett digitalt certifikat:
 
@@ -58,7 +60,7 @@ aw.digitalsignatures.DigitalSignatureUtil.sign(MY_DIR + "Digitally signed.docx",
 
 ## Verifiera digitala signaturer
 
-Verifiera äktheten av ett signerat dokument med Aspose.Words:
+Verifiera äktheten hos ett signerat dokument med hjälp av Aspose.Words:
 
 ```python
 for signature in document.digital_signatures:
@@ -68,7 +70,7 @@ for signature in document.digital_signatures:
         print("Signature is invalid.")
 ```
 
-## Anpassa den digitala signaturens utseende
+## Anpassa utseendet på digitala signaturer
 
 Du kan anpassa utseendet på digitala signaturer:
 
@@ -80,9 +82,9 @@ sign_options.sign_time = datetime.datetime.now()
 
 ## Slutsats
 
-Att hantera digitala signaturer och säkerställa dokumentets autenticitet är avgörande i dagens digitala landskap. Aspose.Words för Python förenklar processen att lägga till, verifiera och anpassa digitala signaturer, vilket ger utvecklare möjlighet att förbättra säkerheten och pålitligheten för sina dokument.
+Att hantera digitala signaturer och säkerställa dokumentäkthet är avgörande i dagens digitala landskap. Aspose.Words för Python förenklar processen att lägga till, verifiera och anpassa digitala signaturer, vilket ger utvecklare möjlighet att förbättra säkerheten och tillförlitligheten hos sina dokument.
 
-## FAQ's
+## Vanliga frågor
 
 ### Hur fungerar digitala signaturer?
 
@@ -94,18 +96,23 @@ Nej, manipulering av ett digitalt signerat dokument skulle ogiltigförklara sign
 
 ### Kan flera signaturer läggas till i ett enda dokument?
 
-Ja, du kan lägga till flera digitala signaturer till ett enda dokument, var och en från en annan undertecknare.
+Ja, du kan lägga till flera digitala signaturer i ett enda dokument, var och en från en annan undertecknare.
 
 ### Vilka typer av certifikat är kompatibla?
 
-Aspose.Words stöder X.509-certifikat, inklusive PFX-filer, som vanligtvis används för digitala signaturer.
+Aspose.Words stöder X.509-certifikat, inklusive PFX-filer, vilka vanligtvis används för digitala signaturer.
 
 ### Är digitala signaturer juridiskt giltiga?
 
-Ja, digitala signaturer är juridiskt giltiga i många länder och anses ofta vara likvärdiga med handskrivna signaturer.
+Ja, digitala signaturer är juridiskt giltiga i många länder och anses ofta likvärdiga med handskrivna signaturer.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

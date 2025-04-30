@@ -1,14 +1,16 @@
 ---
-title: รับตัวแปร
-linktitle: รับตัวแปร
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้ Aspose.Words สำหรับ .NET เรียนรู้การโหลดและแยกตัวแปรจากเอกสาร Word ด้วยคู่มือทีละขั้นตอนนี้
-weight: 10
-url: /th/net/programming-with-document-properties/get-variables/
+"description": "เรียนรู้ Aspose.Words สำหรับ .NET เรียนรู้การโหลดและแยกตัวแปรจากเอกสาร Word ด้วยคู่มือทีละขั้นตอนนี้"
+"linktitle": "รับตัวแปร"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "รับตัวแปร"
+"url": "/th/net/programming-with-document-properties/get-variables/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับตัวแปร
@@ -21,8 +23,8 @@ url: /th/net/programming-with-document-properties/get-variables/
 
 ก่อนที่จะเข้าสู่รายละเอียด เรามาตรวจสอบกันก่อนว่าคุณได้ทุกสิ่งที่คุณต้องการแล้ว:
 
-1. ความรู้พื้นฐานเกี่ยวกับ C# และ .NET: คุณควรมีความคุ้นเคยกับพื้นฐานของ C# และกรอบงาน .NET
-2.  ไลบรารี Aspose.Words สำหรับ .NET: ดาวน์โหลดไลบรารี Aspose.Words สำหรับ .NET จาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. ความรู้พื้นฐานเกี่ยวกับ C# และ .NET: คุณควรมีความคุ้นเคยกับพื้นฐานของ C# และ .NET framework
+2. ไลบรารี Aspose.Words สำหรับ .NET: ดาวน์โหลดไลบรารี Aspose.Words สำหรับ .NET จาก [ที่นี่](https://releases-aspose.com/words/net/).
 3. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio บนเครื่องของคุณแล้ว
 
 ## นำเข้าเนมสเปซ
@@ -54,19 +56,19 @@ using Aspose.Words;
 
 ## ขั้นตอนที่ 2: การโหลดเอกสาร Word
 
- มาโหลดเอกสาร Word ลงในแอปพลิเคชันของเรากัน เราจะใช้โปรแกรมง่ายๆ`Document` คัดค้านที่จะทำเช่นนี้
+มาโหลดเอกสาร Word ลงในแอปพลิเคชันของเรากัน เราจะใช้คำสั่งง่ายๆ `Document` คัดค้านที่จะทำเช่นนี้
 
 1. สร้างตัวแปรสตริงใหม่เพื่อเก็บเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ:
     ```csharp
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
 
-2.  สร้าง`Document` วัตถุและโหลดเอกสาร:
+2. สร้าง `Document` วัตถุและโหลดเอกสาร:
     ```csharp
     Document doc = new Document(dataDir + "Document.docx");
     ```
 
-ขั้นตอนนี้เหมือนกับการเปิดหนังสือ เราแค่บอกโปรแกรมว่าจะค้นหาเอกสารได้จากที่ใด จากนั้นจึงเปิดเอกสารนั้นขึ้นมาเพื่อที่เราจะเริ่มทำงานกับเอกสารนั้นได้
+ขั้นตอนนี้เหมือนกับการเปิดหนังสือ เราเพียงบอกโปรแกรมของเราว่าจะค้นหาเอกสารได้จากที่ใด จากนั้นจึงเปิดเอกสารนั้นขึ้นมาเพื่อที่เราจะเริ่มทำงานกับเอกสารนั้นได้
 
 ## ขั้นตอนที่ 3: การแยกตัวแปรเอกสาร
 
@@ -77,7 +79,7 @@ using Aspose.Words;
     string variables = "";
     ```
 
-2. วนซ้ำผ่านตัวแปรเอกสารและเชื่อมโยงเข้าในตัวแปรสตริง:
+2. วนซ้ำผ่านตัวแปรเอกสารและเชื่อมโยงเข้ากับตัวแปรสตริง:
     ```csharp
     foreach (KeyValuePair<string, string> entry in doc.Variables)
     {
@@ -112,7 +114,7 @@ using Aspose.Words;
 ใช่ Aspose.Words รองรับหลายภาษา แต่ในบทช่วยสอนนี้เราจะเน้นที่ C#
 
 ### ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.Words ได้อย่างไร
- คุณสามารถรับใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+คุณสามารถรับใบอนุญาตชั่วคราวได้จาก [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### มีวิธีจัดการรูปแบบเอกสารอื่น ๆ ด้วย Aspose.Words หรือไม่
 แน่นอน! Aspose.Words รองรับรูปแบบต่างๆ เช่น DOC, DOCX, ODT, RTF และอื่นๆ อีกมากมาย
@@ -121,11 +123,16 @@ using Aspose.Words;
 ใช่ คุณสามารถรวม Aspose.Words เข้ากับแอพพลิเคชันเว็บ แอพพลิเคชันเดสก์ท็อป และอื่นๆ ได้
 
 ### ฉันสามารถหาตัวอย่างและเอกสารเพิ่มเติมได้ที่ไหน
- ตรวจสอบออก[เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) สำหรับตัวอย่างเพิ่มเติมและคำแนะนำโดยละเอียด
+ตรวจสอบออก [เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) สำหรับตัวอย่างเพิ่มเติมและคำแนะนำโดยละเอียด
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

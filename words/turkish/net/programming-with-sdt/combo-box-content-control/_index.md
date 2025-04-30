@@ -1,14 +1,16 @@
 ---
-title: Combo Box İçerik Kontrolü
-linktitle: Combo Box İçerik Kontrolü
-second_title: Aspose.Words Belge İşleme API'si
-description: Ayrıntılı eğitimimiz ile Aspose.Words for .NET kullanarak Word belgelerinde birleşik kutu içerik denetimi oluşturun. Belgenizin etkileşimini artırmak için mükemmeldir.
-weight: 10
-url: /tr/net/programming-with-sdt/combo-box-content-control/
+"description": "Ayrıntılı eğitimimiz ile Aspose.Words for .NET kullanarak Word belgelerinde birleşik kutu içerik denetimi oluşturun. Belgenizin etkileşimini artırmak için mükemmeldir."
+"linktitle": "Combo Box İçerik Kontrolü"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Combo Box İçerik Kontrolü"
+"url": "/tr/net/programming-with-sdt/combo-box-content-control/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Combo Box İçerik Kontrolü
@@ -21,7 +23,7 @@ Word belgelerinize etkileşimli öğeler eklemek mi istiyorsunuz? Doğru yerdesi
 
 Kodlamanın inceliklerine dalmadan önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: En son sürümün yüklü olduğundan emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: En son sürümün yüklü olduğundan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. .NET Framework: Bilgisayarınızda .NET Framework'ün yüklü olduğundan emin olun.
 3. Entegre Geliştirme Ortamı (IDE): .NET geliştirme için Visual Studio önerilir.
 4. C# Temel Anlayışı: Bu eğitimde C# programlama konusunda temel bir anlayışa sahip olduğunuzu varsayıyoruz.
@@ -80,7 +82,7 @@ sdt.ListItems.Add(new SdtListItem("Item 1", "1"));
 sdt.ListItems.Add(new SdtListItem("Item 2", "2"));
 ```
 
-## Adım 5: Combo Box'ı Belgeye Ekleyin
+## Adım 5: Combo Box'ı Belgeye Ekle
 
 Sonra, bu birleşik kutuyu belgeye eklememiz gerekiyor. Bunu belgemizin ilk bölümünün gövdesine ekleyeceğiz.
 
@@ -113,16 +115,21 @@ Aspose.Words for .NET, Word belgeleriyle programatik olarak çalışmak için g�
 Evet, Aspose.Words for .NET, .NET Core ve .NET Standard dahil olmak üzere çeşitli .NET çerçevelerini destekler.
 
 ### Aspose.Words for .NET'in ücretsiz deneme sürümünü nasıl edinebilirim?
- Aspose.Words for .NET'in ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
+Aspose.Words for .NET'in ücretsiz deneme sürümünü indirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Words kullanarak başka hangi tür içerik denetimleri oluşturabilirim?
-Birleşik kutulara ek olarak, metin girişi denetimleri, onay kutuları, tarih seçiciler ve daha fazlasını oluşturabilirsiniz.
+Birleşik kutucukların yanı sıra, metin girişi denetimleri, onay kutuları, tarih seçiciler ve daha fazlasını oluşturabilirsiniz.
 
 ### Aspose.Words for .NET hakkında daha detaylı dokümanları nerede bulabilirim?
- Ayrıntılı belgeler için şu adresi ziyaret edin:[Aspose.Words for .NET belgeleri](https://reference.aspose.com/words/net/).
+Ayrıntılı belgeler için şu adresi ziyaret edin: [Aspose.Words for .NET belgeleri](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

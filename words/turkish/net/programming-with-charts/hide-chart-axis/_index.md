@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Grafik Eksenini Gizle
-linktitle: Word Belgesinde Grafik Eksenini Gizle
-second_title: Aspose.Words Belge İşleme API'si
-description: Ayrıntılı, adım adım eğitimimiz ile Aspose.Words for .NET'i kullanarak Word belgesinde grafik eksenini nasıl gizleyeceğinizi öğrenin.
-weight: 10
-url: /tr/net/programming-with-charts/hide-chart-axis/
+"description": "Ayrıntılı, adım adım eğitimimiz ile Aspose.Words for .NET'i kullanarak bir Word belgesinde grafik eksenini nasıl gizleyeceğinizi öğrenin."
+"linktitle": "Word Belgesinde Grafik Eksenini Gizle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Grafik Eksenini Gizle"
+"url": "/tr/net/programming-with-charts/hide-chart-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Grafik Eksenini Gizle
@@ -21,10 +23,10 @@ Dinamik ve görsel olarak çekici Word belgeleri oluşturmak genellikle çizelge
 
 Eğitime başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
--  Aspose.Words for .NET: Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio gibi .NET geliştirmeyi destekleyen herhangi bir IDE.
 - .NET Framework: Bilgisayarınızda .NET Framework'ün yüklü olduğundan emin olun.
-- Temel C# Bilgisi: C# programlama diline aşinalık faydalı olacaktır.
+- Temel C# Bilgisi: C# programlama diline aşina olmak faydalı olacaktır.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -50,18 +52,18 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Bu adımda, belgenin kaydedileceği yolu tanımlarız. Daha sonra yeni bir`Document` nesne ve bir`DocumentBuilder` Belgemizi oluşturmaya başlama nesnesi.
+Bu adımda, belgenin kaydedileceği yolu tanımlarız. Daha sonra yeni bir `Document` nesne ve bir `DocumentBuilder` Belgemizi oluşturmaya başlama nesnesi.
 
 ## Adım 2: Bir Grafik Ekle
 
- Daha sonra, belgeye bir grafik ekleyeceğiz.`DocumentBuilder` nesne.
+Daha sonra, belgeye bir grafik ekleyeceğiz. `DocumentBuilder` nesne.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 ```
 
- Burada, belirtilen boyutlara sahip bir sütun grafiği ekliyoruz.`InsertChart` yöntem bir döndürür`Shape` grafiği içeren nesne.
+Burada, belirtilen boyutlara sahip bir sütun grafiği ekliyoruz. `InsertChart` yöntem bir döndürür `Shape` grafiği içeren nesne.
 
 ## Adım 3: Mevcut Seriyi Temizle
 
@@ -87,7 +89,7 @@ Bu adımda, "Aspose Serisi 1" başlıklı bir seri ekliyoruz ve buna karşılık
 
 ## Adım 5: Y Eksenini Gizle
 
- Grafiğin Y eksenini gizlemek için, basitçe şunu ayarlarız:`Hidden` Y ekseninin özelliği`true`.
+Grafiğin Y eksenini gizlemek için, basitçe şunu ayarlarız: `Hidden` Y ekseninin özelliği `true`.
 
 ```csharp
 chart.AxisY.Hidden = true;
@@ -115,20 +117,25 @@ Tebrikler! Aspose.Words for .NET kullanarak bir Word belgesinde bir grafik eksen
 Aspose.Words for .NET, .NET uygulamaları içerisinde Word belgeleri oluşturmak, düzenlemek, dönüştürmek ve düzenlemek için güçlü bir API'dir.
 
 ### Bir grafikte hem X hem de Y eksenlerini gizleyebilir miyim?
- Evet, her iki ekseni de ayarlayarak gizleyebilirsiniz.`Hidden` ikisinin de mülkü`AxisX` Ve`AxisY` ile`true`.
+Evet, her iki ekseni de ayarlayarak gizleyebilirsiniz. `Hidden` ikisinin de mülkü `AxisX` Ve `AxisY` ile `true`.
 
 ### Aspose.Words for .NET için ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz deneme alabilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz deneme alabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Daha fazla dokümanı nerede bulabilirim?
- Aspose.Words for .NET hakkında ayrıntılı belgeler bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+.NET için Aspose.Words hakkında ayrıntılı belgeler bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
 
 ### Aspose.Words for .NET desteğini nasıl alabilirim?
- Aspose topluluğundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/words/8).
+Aspose topluluğundan destek alabilirsiniz [Burada](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

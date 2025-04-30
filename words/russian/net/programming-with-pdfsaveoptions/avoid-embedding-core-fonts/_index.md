@@ -1,14 +1,16 @@
 ---
-title: Уменьшите размер PDF-файла, не внедряя основные шрифты
-linktitle: Уменьшите размер PDF-файла, не внедряя основные шрифты
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как уменьшить размер файла PDF, не встраивая основные шрифты с помощью Aspose.Words for .NET. Следуйте нашему пошаговому руководству, чтобы оптимизировать ваши PDF-файлы.
-weight: 10
-url: /ru/net/programming-with-pdfsaveoptions/avoid-embedding-core-fonts/
+"description": "Узнайте, как уменьшить размер файла PDF, не встраивая основные шрифты с помощью Aspose.Words for .NET. Следуйте нашему пошаговому руководству, чтобы оптимизировать ваши PDF-файлы."
+"linktitle": "Уменьшите размер PDF-файла, не внедряя основные шрифты"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Уменьшите размер PDF-файла, не внедряя основные шрифты"
+"url": "/ru/net/programming-with-pdfsaveoptions/avoid-embedding-core-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Уменьшите размер PDF-файла, не внедряя основные шрифты
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-pdfsaveoptions/avoid-embedding-core-fonts/
 
 Прежде чем отправиться в это захватывающее путешествие, давайте убедимся, что у вас есть все необходимое. Вот краткий контрольный список:
 
--  Aspose.Words for .NET: Убедитесь, что у вас установлен Aspose.Words for .NET. Если у вас его еще нет, вы можете его скачать[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Убедитесь, что у вас установлен Aspose.Words for .NET. Если у вас его еще нет, вы можете его скачать [здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: вам понадобится среда разработки, например Visual Studio.
 - Документ Word: для этого урока мы будем использовать документ Word (например, «Rendering.docx»).
 - Базовые знания C#: Базовые знания C# помогут вам в дальнейшем изучении.
@@ -47,7 +49,7 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем расположения вашего документа Word.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем расположения вашего документа Word.
 
 ## Шаг 2: Загрузите документ Word
 
@@ -70,9 +72,9 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Параметр`UseCoreFonts` к`true` гарантирует, что основные шрифты, такие как Arial и Times New Roman, не будут встроены в PDF-файл, что значительно уменьшает размер файла.
+Параметр `UseCoreFonts` к `true` гарантирует, что основные шрифты, такие как Arial и Times New Roman, не будут встроены в PDF-файл, что значительно уменьшает размер файла.
 
-## Шаг 4: Сохраните документ как PDF.
+## Шаг 4: Сохраните документ как PDF
 
 Наконец, мы сохраняем документ Word как PDF, используя настроенные параметры сохранения. Этот шаг генерирует файл PDF без внедрения основных шрифтов.
 
@@ -92,19 +94,24 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.AvoidEmbeddingCoreFonts.pdf", save
 Отказ от внедрения основных шрифтов уменьшает размер файла, что упрощает его хранение и распространение.
 
 ### Могу ли я корректно просматривать PDF-файл без встроенных основных шрифтов?
-Да, основные шрифты, такие как Arial и Times New Roman, обычно доступны в большинстве систем.
+Да, основные шрифты, такие как Arial и Times New Roman, как правило, доступны в большинстве систем.
 
 ### Что делать, если мне нужно встроить пользовательские шрифты?
- Вы можете настроить`PdfSaveOptions`для встраивания определенных шрифтов по мере необходимости.
+Вы можете настроить `PdfSaveOptions` для встраивания определенных шрифтов по мере необходимости.
 
 ### Является ли Aspose.Words для .NET бесплатным для использования?
- Aspose.Words for .NET требует лицензию. Вы можете получить бесплатную пробную версию[здесь](https://releases.aspose.com/).
+Aspose.Words for .NET требует лицензию. Вы можете получить бесплатную пробную версию [здесь](https://releases.aspose.com/).
 
 ### Где я могу найти дополнительную документацию по Aspose.Words для .NET?
- Подробную документацию вы можете найти[здесь](https://reference.aspose.com/words/net/).
+Подробную документацию вы можете найти [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

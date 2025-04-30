@@ -1,14 +1,16 @@
 ---
-title: Porównanie granularności w dokumencie Word
-linktitle: Porównanie granularności w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Poznaj funkcję Aspose.Words for .NET umożliwiającą porównywanie dokumentów znak po znaku i raportowanie wprowadzonych zmian.
-weight: 10
-url: /pl/net/compare-documents/comparison-granularity/
+"description": "Poznaj funkcję Aspose.Words for .NET umożliwiającą porównywanie dokumentów znak po znaku i raportowanie wprowadzonych zmian."
+"linktitle": "Porównanie granularności w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Porównanie granularności w dokumencie Word"
+"url": "/pl/net/compare-documents/comparison-granularity/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Porównanie granularności w dokumencie Word
@@ -34,7 +36,7 @@ using Aspose.Words.DocumentBuilder;
 
 ## Krok 4: Tworzenie dokumentów
 
-W tym kroku utworzymy dwa dokumenty przy użyciu klasy DocumentBuilder. Dokumenty te zostaną użyte do porównania.
+tym kroku utworzymy dwa dokumenty przy użyciu klasy DocumentBuilder. Dokumenty te zostaną użyte do porównania.
 
 ```csharp
 // Utwórz dokument A.
@@ -62,7 +64,7 @@ Teraz porównajmy dokumenty używając metody Compare klasy Document. Zmiany zos
 builderA.Document.Compare(builderB.Document, "author", DateTime.Now, compareOptions);
 ```
 
- Ten`Compare`Metoda porównuje dokument A z dokumentem B i zapisuje zmiany w dokumencie A. Można określić nazwisko autora i datę porównania w celach informacyjnych.
+Ten `Compare` Metoda porównuje dokument A z dokumentem B i zapisuje zmiany w dokumencie A. Można określić nazwisko autora i datę porównania w celach informacyjnych.
 
 ## Wniosek
 
@@ -99,9 +101,9 @@ A: Granularność porównania w Aspose.Words dla .NET pozwala określić poziom 
 A: Aby użyć granularności porównawczej w Aspose.Words dla platformy .NET, wykonaj następujące kroki:
 1. Skonfiguruj środowisko programistyczne za pomocą biblioteki Aspose.Words.
 2. Dodaj niezbędne zestawy do swojego projektu, odwołując się do Aspose.Words.
-3.  Utwórz dokumenty, które chcesz porównać, korzystając z`DocumentBuilder` klasa.
-4.  Skonfiguruj opcje porównania, tworząc`CompareOptions` obiekt i ustawienie`Granularity` nieruchomość do pożądanego poziomu (np.`Granularity.CharLevel` do porównania na poziomie postaci).
-5.  Użyj`Compare`metodę na jednym dokumencie, przekazując drugi dokument i`CompareOptions` obiekt jako parametry. Ta metoda porówna dokumenty na podstawie określonej granularności i zapisze zmiany w pierwszym dokumencie.
+3. Utwórz dokumenty, które chcesz porównać, korzystając z `DocumentBuilder` klasa.
+4. Skonfiguruj opcje porównania, tworząc `CompareOptions` obiekt i ustawienie `Granularity` nieruchomość do pożądanego poziomu (np. `Granularity.CharLevel` do porównania na poziomie postaci).
+5. Użyj `Compare` metodę na jednym dokumencie, przekazując drugi dokument i `CompareOptions` obiekt jako parametry. Ta metoda porówna dokumenty na podstawie określonej szczegółowości i zapisze zmiany w pierwszym dokumencie.
 
 #### P: Jakie poziomy szczegółowości porównania są dostępne w Aspose.Words dla platformy .NET?
 
@@ -113,9 +115,14 @@ A: Aspose.Words dla platformy .NET zapewnia trzy poziomy szczegółowości poró
 #### P: Jak mogę interpretować wyniki porównania z uwzględnieniem szczegółowości na poziomie znaków?
 
 A: Przy granularności na poziomie znaku każdy znak w porównywanych dokumentach jest analizowany pod kątem różnic. Wyniki porównania pokażą zmiany na poziomie pojedynczego znaku, w tym dodatki, usunięcia i modyfikacje.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

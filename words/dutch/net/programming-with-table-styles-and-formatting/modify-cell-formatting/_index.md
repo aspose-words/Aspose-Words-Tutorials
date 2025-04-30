@@ -1,34 +1,36 @@
 ---
-title: Celopmaak wijzigen
-linktitle: Celopmaak wijzigen
-second_title: Aspose.Words API voor documentverwerking
-description: Leer hoe u de celopmaak in Word-documenten kunt wijzigen met Aspose.Words voor .NET met deze gedetailleerde stapsgewijze handleiding.
-weight: 10
-url: /nl/net/programming-with-table-styles-and-formatting/modify-cell-formatting/
+"description": "Leer hoe u de celopmaak in Word-documenten kunt wijzigen met Aspose.Words voor .NET met deze gedetailleerde stapsgewijze handleiding."
+"linktitle": "Celopmaak wijzigen"
+"second_title": "Aspose.Words API voor documentverwerking"
+"title": "Celopmaak wijzigen"
+"url": "/nl/net/programming-with-table-styles-and-formatting/modify-cell-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Celopmaak wijzigen
 
 ## Invoering
 
-Als je ooit worstelt met Word-documenten en probeert de celopmaak precies goed te krijgen, dan staat je een traktatie te wachten. In deze tutorial nemen we je mee door de stappen om de celopmaak in Word-documenten aan te passen met Aspose.Words voor .NET. Van het aanpassen van de celbreedte tot het wijzigen van de tekstoriëntatie en -schaduw, we hebben het allemaal behandeld. Dus laten we erin duiken en het bewerken van je document een fluitje van een cent maken!
+Als je ooit hebt geworsteld met Word-documenten en geprobeerd hebt de celopmaak precies goed te krijgen, dan staat je een traktatie te wachten. In deze tutorial laten we je de stappen zien om de celopmaak in Word-documenten aan te passen met Aspose.Words voor .NET. Van het aanpassen van de celbreedte tot het wijzigen van de tekstrichting en -arcering, we hebben het allemaal behandeld. Laten we aan de slag gaan en je documentbewerking een fluitje van een cent maken!
 
 ## Vereisten
 
 Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 
-1. Aspose.Words voor .NET - U kunt het downloaden[hier](https://releases.aspose.com/words/net/).
-2. Visual Studio - Of een andere IDE naar keuze.
+1. Aspose.Words voor .NET - U kunt het downloaden [hier](https://releases.aspose.com/words/net/).
+2. Visual Studio - of een andere IDE naar keuze.
 3. Basiskennis van C# - Hiermee kunt u de codevoorbeelden beter volgen.
-4.  Een Word-document - Specifiek, een document dat een tabel bevat. We gebruiken een bestand met de naam`Tables.docx`.
+4. Een Word-document - met name een document met een tabel. We gebruiken een bestand met de naam `Tables.docx`.
 
 ## Naamruimten importeren
 
-Voordat u in de code duikt, moet u de benodigde namespaces importeren. Dit zorgt ervoor dat u toegang hebt tot alle functies die Aspose.Words voor .NET biedt.
+Voordat u de code induikt, moet u de benodigde naamruimten importeren. Zo hebt u toegang tot alle functies van Aspose.Words voor .NET.
 
 ```csharp
 using Aspose.Words;
@@ -40,36 +42,36 @@ Laten we het proces voor het aanpassen van de celopmaak opsplitsen in eenvoudige
 
 ## Stap 1: Laad uw document
 
-Allereerst moet u het Word-document laden dat de tabel bevat die u wilt wijzigen. Dit is hetzelfde als het openen van het bestand in uw favoriete tekstverwerker, maar we doen het programmatisch.
+Allereerst moet je het Word-document openen met de tabel die je wilt wijzigen. Dit is vergelijkbaar met het openen van het bestand in je favoriete tekstverwerker, maar dan via een programma.
 
 ```csharp
-// Pad naar uw documentenmap
+// Pad naar uw documentenmap 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- In deze stap gebruiken we de`Document` klasse van Aspose.Words om het document te laden. Zorg ervoor dat u vervangt`"YOUR DOCUMENT DIRECTORY"` met het daadwerkelijke pad naar uw document.
+In deze stap gebruiken we de `Document` klasse van Aspose.Words om het document te laden. Zorg ervoor dat u `"YOUR DOCUMENT DIRECTORY"` met het daadwerkelijke pad naar uw document.
 
 ## Stap 2: Toegang tot de tabel
 
-Vervolgens moet u de tabel in uw document benaderen. Zie dit als het visueel lokaliseren van de tabel in uw document, maar we doen dit via code.
+Vervolgens moet je de tabel in je document benaderen. Zie dit als het visueel lokaliseren van de tabel in je document, maar dan via code.
 
 ```csharp
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 ```
 
-Hier gebruiken we de`GetChild` methode om de eerste tabel in het document te krijgen. De`NodeType.Table` parameter geeft aan dat we op zoek zijn naar een tabel, en`0` geeft de eerste tabel aan. De`true` parameter zorgt ervoor dat er diep wordt gezocht, wat betekent dat alle onderliggende knooppunten worden doorzocht.
+Hier gebruiken we de `GetChild` methode om de eerste tabel in het document te krijgen. De `NodeType.Table` parameter geeft aan dat we op zoek zijn naar een tabel, en `0` geeft de eerste tabel aan. De `true` parameter zorgt ervoor dat er diep wordt gezocht, wat betekent dat alle onderliggende knooppunten worden doorzocht.
 
 ## Stap 3: Selecteer de eerste cel
 
-Nu we onze tabel hebben, richten we ons op de eerste cel. Dit is waar we onze opmaakwijzigingen doorvoeren.
+Nu we onze tabel hebben, zoomen we in op de eerste cel. Hier gaan we de opmaak aanpassen.
 
 ```csharp
 Cell firstCell = table.FirstRow.FirstCell;
 ```
 
-In deze regel benaderen we de eerste rij van de tabel en vervolgens de eerste cel in die rij. Simpel toch?
+In deze regel hebben we toegang tot de eerste rij van de tabel en vervolgens tot de eerste cel in die rij. Simpel toch?
 
 ## Stap 4: Celbreedte wijzigen
 
@@ -79,39 +81,39 @@ Een van de meest voorkomende opmaaktaken is het aanpassen van de celbreedte. Lat
 firstCell.CellFormat.Width = 30;
 ```
 
- Hier stellen we de`Width` eigenschap van de celopmaak om`30`. Hiermee wordt de breedte van de eerste cel gewijzigd naar 30 punten.
+Hier stellen we de `Width` eigenschap van de celopmaak om `30`. Hiermee verandert de breedte van de eerste cel naar 30 punten.
 
 ## Stap 5: Wijzig de tekstrichting
 
-Laten we nu wat lol hebben met de tekstoriëntatie. We roteren de tekst naar beneden.
+Laten we nu eens wat experimenteren met de tekstoriëntatie. We roteren de tekst naar beneden.
 
 ```csharp
 firstCell.CellFormat.Orientation = TextOrientation.Downward;
 ```
 
- Door de`Orientation`eigendom van`TextOrientation.Downward`hebben we de tekst in de cel gedraaid zodat deze naar beneden wijst. Dit kan handig zijn voor het maken van unieke tabelkoppen of kanttekeningen.
+Door het instellen van de `Orientation` eigendom van `TextOrientation.Downward`We hebben de tekst in de cel gedraaid, zodat deze naar beneden wijst. Dit kan handig zijn om unieke tabelkoppen of kanttekeningen te maken.
 
-## Stap 6: Celschaduw toepassen
+## Stap 6: Celarcering toepassen
 
-Laten we tot slot wat kleur toevoegen aan onze cel. We schaduwen hem met een lichtgroene kleur.
+Laten we tot slot wat kleur aan onze cel toevoegen. We arceren hem met een lichtgroene kleur.
 
 ```csharp
 firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
 ```
 
- In deze stap gebruiken we de`Shading` eigenschap om de`ForegroundPatternColor` naar`Color.LightGreen`Hiermee wordt een lichtgroene achtergrondkleur aan de cel toegevoegd, waardoor deze beter opvalt.
+In deze stap gebruiken we de `Shading` eigenschap om de `ForegroundPatternColor` naar `Color.LightGreen`Hierdoor wordt een lichtgroene achtergrondkleur aan de cel toegevoegd, waardoor deze beter opvalt.
 
 ## Conclusie
 
-En daar heb je het! We hebben de celopmaak in een Word-document succesvol aangepast met Aspose.Words voor .NET. Van het laden van het document tot het toepassen van schaduw, elke stap is cruciaal om je document er precies zo uit te laten zien als je wilt. Vergeet niet dat dit slechts een paar voorbeelden zijn van wat je kunt doen met celopmaak. Aspose.Words voor .NET biedt een overvloed aan andere functies om te verkennen.
+En voilà! We hebben de celopmaak in een Word-document succesvol aangepast met Aspose.Words voor .NET. Van het laden van het document tot het toepassen van arcering, elke stap is cruciaal om uw document er precies zo uit te laten zien als u wilt. Onthoud: dit zijn slechts enkele voorbeelden van wat u met celopmaak kunt doen. Aspose.Words voor .NET biedt een overvloed aan andere functies om te ontdekken.
 
 ## Veelgestelde vragen
 
 ### Kan ik meerdere cellen tegelijk wijzigen?
 Ja, u kunt door de cellen in uw tabel heen bladeren en dezelfde opmaak op elke cel toepassen.
 
-### Hoe kan ik het gewijzigde document opslaan?
- Gebruik de`doc.Save("output.docx")` methode om uw wijzigingen op te slaan.
+### Hoe sla ik het gewijzigde document op?
+Gebruik de `doc.Save("output.docx")` methode om uw wijzigingen op te slaan.
 
 ### Is het mogelijk om verschillende tinten op verschillende cellen toe te passen?
 Absoluut! Ga gewoon individueel naar elke cel en stel de schaduw in.
@@ -120,10 +122,15 @@ Absoluut! Ga gewoon individueel naar elke cel en stel de schaduw in.
 Aspose.Words voor .NET is ontworpen voor .NET-talen zoals C#, maar er zijn ook versies voor andere platforms.
 
 ### Waar kan ik meer gedetailleerde documentatie vinden?
- U kunt de volledige documentatie vinden[hier](https://reference.aspose.com/words/net/).
+De volledige documentatie vindt u hier [hier](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

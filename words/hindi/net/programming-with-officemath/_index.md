@@ -1,14 +1,16 @@
 ---
-title: Officemath के साथ शब्द प्रसंस्करण
-linktitle: Officemath के साथ शब्द प्रसंस्करण
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: Aspose.Words for .NET में Office Math फ़ार्मुलों के साथ वर्ड प्रोसेसिंग का अन्वेषण करें। Word दस्तावेज़ों में गणितीय समीकरण बनाने, संपादित करने और फ़ॉर्मेट करने के लिए चरण-दर-चरण ट्यूटोरियल और नमूना कोड।
-weight: 1550
-url: /hi/net/programming-with-officemath/
+"description": "Aspose.Words for .NET में Office Math फ़ार्मुलों के साथ वर्ड प्रोसेसिंग का अन्वेषण करें। Word दस्तावेज़ों में गणितीय समीकरण बनाने, संपादित करने और फ़ॉर्मेट करने के लिए चरण-दर-चरण ट्यूटोरियल और नमूना कोड।"
+"linktitle": "Officemath के साथ शब्द प्रसंस्करण"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "Officemath के साथ शब्द प्रसंस्करण"
+"url": "/hi/net/programming-with-officemath/"
+"weight": 1550
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Officemath के साथ शब्द प्रसंस्करण
@@ -18,10 +20,15 @@ OfficeMath के साथ वर्ड प्रोसेसिंग पर A
  ## ट्यूटोरियल
 | शीर्षक | विवरण |
 | --- | --- |
-| [गणित समीकरण](./math-equations/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में गणितीय समीकरणों को कॉन्फ़िगर करना सीखें। उदाहरणों, FAQ और अधिक के साथ चरण-दर-चरण मार्गदर्शिका। |
+| [गणित समीकरण](./math-equations/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में गणितीय समीकरणों को कॉन्फ़िगर करना सीखें। उदाहरणों, अक्सर पूछे जाने वाले प्रश्नों और अधिक के साथ चरण-दर-चरण मार्गदर्शिका। |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

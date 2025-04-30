@@ -1,14 +1,16 @@
 ---
-title: Aspose.Words for Java'da OLE Nesneleri ve ActiveX Denetimlerini Kullanma
-linktitle: OLE Nesneleri ve ActiveX Denetimlerini Kullanma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java'da OLE nesnelerini ve ActiveX denetimlerini kullanmayı öğrenin. Kolayca etkileşimli belgeler oluşturun. Hemen başlayın!
-weight: 21
-url: /tr/java/using-document-elements/using-ole-objects-and-activex/
+"description": "Aspose.Words for Java'da OLE nesnelerini ve ActiveX denetimlerini kullanmayı öğrenin. Kolayca etkileşimli belgeler oluşturun. Hemen başlayın!"
+"linktitle": "OLE Nesneleri ve ActiveX Denetimlerini Kullanma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Aspose.Words for Java'da OLE Nesneleri ve ActiveX Denetimlerini Kullanma"
+"url": "/tr/java/using-document-elements/using-ole-objects-and-activex/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Words for Java'da OLE Nesneleri ve ActiveX Denetimlerini Kullanma
@@ -19,7 +21,7 @@ Bu eğitimde, Java için Aspose.Words'de OLE (Nesne Bağlama ve Gömme) nesneler
 
 Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-1.  Java için Aspose.Words: Java projenizde Aspose.Words kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/words/java/).
+1. Java için Aspose.Words: Java projenizde Aspose.Words kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/words/java/).
 
 2. Java Geliştirme Ortamı: Sisteminizde çalışan bir Java geliştirme ortamının kurulu olması gerekir.
 
@@ -135,13 +137,18 @@ Tebrikler! Aspose.Words for Java'da OLE nesneleri ve ActiveX denetimleriyle nas�
    - Evet, Aspose.Words for Java, Java uygulamalarında belge oluşturma ve düzenlemeyi otomatikleştirmek için güçlü bir kütüphanedir.
 
 ### Aspose.Words for Java'ya nereden erişebilirim? 
-   -  Java için Aspose.Words'ü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/java/).
+   - Java için Aspose.Words'ü şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/java/).
 
 Bugün Aspose.Words for Java'yı kullanmaya başlayın ve belge otomasyonunun ve özelleştirmesinin tüm potansiyelini ortaya çıkarın!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

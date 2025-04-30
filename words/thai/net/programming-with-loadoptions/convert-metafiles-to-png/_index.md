@@ -1,27 +1,29 @@
 ---
-title: แปลงไฟล์ Metafile เป็น PNG
-linktitle: แปลงไฟล์ Metafile เป็น PNG
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: แปลงไฟล์เมตาเป็น PNG ในเอกสาร Word ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนนี้ ทำให้การจัดการเอกสารของคุณง่ายขึ้น
-weight: 10
-url: /th/net/programming-with-loadoptions/convert-metafiles-to-png/
+"description": "แปลงไฟล์เมตาเป็น PNG ในเอกสาร Word ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนนี้ ทำให้การจัดการเอกสารของคุณง่ายขึ้น"
+"linktitle": "แปลงไฟล์ Metafile เป็น PNG"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แปลงไฟล์ Metafile เป็น PNG"
+"url": "/th/net/programming-with-loadoptions/convert-metafiles-to-png/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แปลงไฟล์ Metafile เป็น PNG
 
 ## การแนะนำ
 
-การแปลงเมตาไฟล์เป็น PNG ในเอกสาร Word เป็นเรื่องง่ายด้วยเครื่องมือและคำแนะนำที่เหมาะสม บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการโดยใช้ Aspose.Words สำหรับ .NET เมื่อเสร็จสิ้น คุณจะสามารถจัดการเมตาไฟล์ได้อย่างมืออาชีพ!
+การแปลงไฟล์เมตาเป็น PNG ในเอกสาร Word เป็นเรื่องง่ายด้วยเครื่องมือและคำแนะนำที่เหมาะสม บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการโดยใช้ Aspose.Words สำหรับ .NET เมื่อเสร็จสิ้น คุณจะสามารถจัดการไฟล์เมตาได้อย่างมืออาชีพ!
 
 ## ข้อกำหนดเบื้องต้น
 
 ก่อนที่จะดำน้ำ ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1.  Aspose.Words สำหรับ .NET - ดาวน์โหลดเวอร์ชันล่าสุดจาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET - ดาวน์โหลดเวอร์ชันล่าสุดจาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา - Visual Studio หรือ IDE อื่น ๆ ที่เข้ากันได้กับ .NET
 3. ความรู้พื้นฐานเกี่ยวกับ C# - ความเข้าใจพื้นฐานการเขียนโปรแกรม C# จะเป็นประโยชน์
 4. เอกสาร Word - ตรวจสอบว่าคุณมีเอกสาร Word ที่มีเมตาไฟล์ที่คุณต้องการแปลง
@@ -88,23 +90,28 @@ Document doc = new Document(dataDir + "WMF with image.docx", loadOptions);
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถแปลงประเภทไฟล์อื่นนอกจากเมตาไฟล์เป็น PNG ได้หรือไม่
- Aspose.Words สำหรับ .NET รองรับรูปแบบไฟล์ต่างๆ มากมาย ตรวจสอบ[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายละเอียดเพิ่มเติม
+Aspose.Words สำหรับ .NET รองรับรูปแบบไฟล์ต่างๆ มากมาย ตรวจสอบ [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายละเอียดเพิ่มเติม
 
 ### มีวิธีประมวลผลเอกสารหลายชุดเป็นชุดหรือไม่
 ใช่ คุณสามารถวนซ้ำผ่านไดเร็กทอรีของเอกสารและใช้ตัวเลือกการโหลดแบบเดียวกันกับแต่ละไฟล์ได้
 
-###  จะเกิดอะไรขึ้นถ้าฉันไม่ตั้งค่า`ConvertMetafilesToPng` to true?
+### จะเกิดอะไรขึ้นถ้าฉันไม่ตั้งค่า `ConvertMetafilesToPng` จริงหรอ?
 ไฟล์เมตาจะยังคงอยู่ในรูปแบบดั้งเดิม ซึ่งอาจไม่เข้ากันได้กับแอปพลิเคชันหรืออุปกรณ์ทั้งหมด
 
 ### ฉันต้องมีใบอนุญาตสำหรับ Aspose.Words สำหรับ .NET หรือไม่?
- ใช่ ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถรับได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อวัตถุประสงค์ในการทดลองใช้
+ใช่ ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถรับได้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อวัตถุประสงค์ในการทดลองใช้
 
 ### ฉันสามารถใช้วิธีนี้กับรูปแบบกราฟิกอื่นเช่น JPEG หรือ GIF ได้หรือไม่
- วิธีการเฉพาะนี้มีไว้สำหรับเมตาไฟล์ แต่ Aspose.Words สำหรับ .NET รองรับรูปแบบภาพต่างๆ โปรดดูที่[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับข้อมูลเพิ่มเติม
+วิธีการเฉพาะนี้มีไว้สำหรับเมตาไฟล์ แต่ Aspose.Words สำหรับ .NET รองรับรูปแบบภาพต่างๆ โปรดดูที่ [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับข้อมูลเพิ่มเติม
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

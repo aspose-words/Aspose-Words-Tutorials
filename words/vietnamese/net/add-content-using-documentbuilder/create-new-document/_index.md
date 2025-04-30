@@ -1,14 +1,16 @@
 ---
-title: Tạo tài liệu Word mới
-linktitle: Tạo tài liệu Word mới
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tạo tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện quy trình, giúp tự động hóa tài liệu dễ dàng.
-weight: 10
-url: /vi/net/add-content-using-documentbuilder/create-new-document/
+"description": "Tìm hiểu cách tạo tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện quy trình, giúp tự động hóa tài liệu dễ dàng."
+"linktitle": "Tạo tài liệu Word mới"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tạo tài liệu Word mới"
+"url": "/vi/net/add-content-using-documentbuilder/create-new-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo tài liệu Word mới
@@ -20,9 +22,9 @@ Chúng tôi đang đi sâu vào thế giới của Aspose.Words cho .NET, một 
 
 Trước khi đi sâu vào vấn đề chính, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết:
 
-1.  Visual Studio: Sân chơi mã hóa của chúng tôi. Nếu bạn chưa có, hãy tải xuống từ[Tải xuống Visual Studio](https://visualstudio.microsoft.com/downloads/).
-2.  Aspose.Words cho .NET: Ngôi sao của chương trình. Bạn có thể lấy nó từ[đây](https://releases.aspose.com/words/net/).
-3.  .NET Framework: Đảm bảo bạn đã cài đặt ít nhất .NET Framework 4.0. Bạn có thể kiểm tra và cài đặt nó thông qua[Trang tải xuống Microsoft .NET](https://dotnet.microsoft.com/download/dotnet-framework).
+1. Visual Studio: Sân chơi mã hóa của chúng tôi. Nếu bạn chưa có, hãy tải xuống từ [Tải xuống Visual Studio](https://visualstudio.microsoft.com/downloads/).
+2. Aspose.Words cho .NET: Ngôi sao của chương trình. Bạn có thể lấy nó từ [đây](https://releases.aspose.com/words/net/).
+3. .NET Framework: Đảm bảo bạn đã cài đặt ít nhất .NET Framework 4.0. Bạn có thể kiểm tra và cài đặt nó thông qua [Trang tải xuống Microsoft .NET](https://dotnet.microsoft.com/download/dotnet-framework).
 
 ## Nhập không gian tên
 
@@ -45,11 +47,11 @@ Hãy tưởng tượng bạn là một đầu bếp đang chuẩn bị nguyên l
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tài liệu của mình. Đây là cơ sở dữ liệu của tài liệu của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tài liệu của mình. Đây là cơ sở dữ liệu của tài liệu của bạn.
 
 ## Bước 2: Tạo tài liệu
 
-Bây giờ, hãy tạo một tài liệu mới. Hãy nghĩ về điều này như việc chuẩn bị một trang giấy trắng.
+Bây giờ, hãy tạo một tài liệu mới. Hãy nghĩ đến việc này như việc chuẩn bị một trang giấy trắng.
 
 ```csharp
 Document doc = new Document();
@@ -61,7 +63,7 @@ Chúng ta vừa tạo một tài liệu Word trống. Thật tuyệt phải khô
 
 ### Khởi tạo DocumentBuilder
 
- Tiếp theo, chúng ta cần thêm một số nội dung vào tài liệu của mình. Đối với điều này, chúng ta sẽ sử dụng`DocumentBuilder`. Giống như cây bút của chúng ta viết trên vải vậy.
+Tiếp theo, chúng ta cần thêm một số nội dung vào tài liệu của mình. Đối với điều này, chúng ta sẽ sử dụng `DocumentBuilder`. Giống như cây bút của chúng ta viết trên vải vậy.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -101,7 +103,7 @@ Có, Aspose.Words cho .NET tương thích với .NET Core, .NET Standard và .NE
 
 ### Làm thế nào tôi có thể dùng thử miễn phí Aspose.Words cho .NET?
 
- Bạn có thể nhận được bản dùng thử miễn phí từ[Trang phát hành Aspose](https://releases.aspose.com/).
+Bạn có thể nhận được bản dùng thử miễn phí từ [Trang phát hành Aspose](https://releases.aspose.com/).
 
 ### Tôi có thể tạo những loại tài liệu nào bằng Aspose.Words cho .NET?
 
@@ -109,11 +111,16 @@ Bạn có thể tạo và chỉnh sửa DOC, DOCX, PDF, HTML và nhiều định
 
 ### Tôi có thể tìm thêm tài liệu và ví dụ ở đâu?
 
- Kiểm tra các[Aspose.Words cho Tài liệu .NET](https://reference.aspose.com/words/net/) để biết thêm ví dụ và hướng dẫn chi tiết.
+Kiểm tra các [Aspose.Words cho Tài liệu .NET](https://reference.aspose.com/words/net/) để biết thêm ví dụ và hướng dẫn chi tiết.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

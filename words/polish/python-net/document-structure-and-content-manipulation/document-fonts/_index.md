@@ -1,14 +1,16 @@
 ---
-title: Zrozumienie czcionek i stylu tekstu w dokumentach Word
-linktitle: Zrozumienie czcionek i stylu tekstu w dokumentach Word
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Poznaj świat czcionek i stylów tekstu w dokumentach Word. Dowiedz się, jak zwiększyć czytelność i atrakcyjność wizualną za pomocą Aspose.Words for Python. Kompleksowy przewodnik z przykładami krok po kroku.
-weight: 13
-url: /pl/python-net/document-structure-and-content-manipulation/document-fonts/
+"description": "Poznaj świat czcionek i stylów tekstu w dokumentach Word. Dowiedz się, jak zwiększyć czytelność i atrakcyjność wizualną za pomocą Aspose.Words for Python. Kompleksowy przewodnik z przykładami krok po kroku."
+"linktitle": "Zrozumienie czcionek i stylu tekstu w dokumentach Word"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Zrozumienie czcionek i stylu tekstu w dokumentach Word"
+"url": "/pl/python-net/document-structure-and-content-manipulation/document-fonts/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zrozumienie czcionek i stylu tekstu w dokumentach Word
@@ -58,21 +60,21 @@ Aspose.Words for Python to potężne narzędzie do programowego tworzenia i mani
 Możesz użyć Aspose.Words, aby zastosować kursywę do określonych fragmentów tekstu. Oto przykład, jak to osiągnąć:
 
 ```python
-# Import the required classes
+# Zaimportuj wymagane klasy
 from aspose.words import Document, Font, Style
 import aspose.words as aw
 
-# Load the document
+# Załaduj dokument
 doc = Document("document.docx")
 
-# Access a specific run of text
+# Uzyskaj dostęp do określonego fragmentu tekstu
 run = doc.get_child(aw.NodeType.RUN, 0, True).as_run()
 
-# Apply italic style
+# Zastosuj styl kursywy
 font = run.font
 font.italic = True
 
-# Save the modified document
+# Zapisz zmodyfikowany dokument
 doc.save("modified_document.docx")
 ```
 
@@ -81,20 +83,20 @@ doc.save("modified_document.docx")
 Aby wyróżnić tekst, możesz dostosować kolor tła przebiegu. Oto jak to zrobić za pomocą Aspose.Words:
 
 ```python
-# Import the required classes
+# Zaimportuj wymagane klasy
 from aspose.words import Document, Color
 import aspose.words as aw
 
-# Load the document
+# Załaduj dokument
 doc = Document("document.docx")
 
-# Access a specific run of text
+# Uzyskaj dostęp do określonego fragmentu tekstu
 run = doc.get_child(aw.NodeType.RUN, 0, True).as_run()
 
-# Apply background color
+# Zastosuj kolor tła
 run.font.highlight_color = Color.YELLOW
 
-# Save the modified document
+# Zapisz zmodyfikowany dokument
 doc.save("modified_document.docx")
 ```
 
@@ -103,43 +105,43 @@ doc.save("modified_document.docx")
 Wyrównanie można ustawić za pomocą stylów. Oto przykład:
 
 ```python
-# Import the required classes
+# Zaimportuj wymagane klasy
 from aspose.words import Document, ParagraphAlignment
 import aspose.words as aw
 
-# Load the document
+# Załaduj dokument
 doc = Document("document.docx")
 
-# Access a specific paragraph
+# Uzyskaj dostęp do konkretnego akapitu
 paragraph = doc.get_child(aw.NodeType.PARAGRAPH, 0, True).as_paragraph()
 
-# Set alignment
+# Ustaw wyrównanie
 paragraph.paragraph_format.alignment = aw.ParagraphAlignment.RIGHT
 
-# Save the modified document
+# Zapisz zmodyfikowany dokument
 doc.save("modified_document.docx")
 ```
 
 ### Odstępy między wierszami dla czytelności
 
-Stosowanie odpowiednich odstępów między wierszami zwiększa czytelność. Możesz to osiągnąć za pomocą Aspose.Words:
+Zastosowanie odpowiedniego odstępu między wierszami zwiększa czytelność. Możesz to osiągnąć za pomocą Aspose.Words:
 
 ```python
-# Import the required classes
+# Zaimportuj wymagane klasy
 from aspose.words import Document, LineSpacingRule
 import aspose.words as aw
 
-# Load the document
+# Załaduj dokument
 doc = Document("document.docx")
 
-# Access a specific paragraph
+# Uzyskaj dostęp do konkretnego akapitu
 paragraph = doc.get_child(aw.NodeType.PARAGRAPH, 0, True).as_paragraph()
 
-# Set line spacing
+# Ustaw odstęp między wierszami
 paragraph.paragraph_format.line_spacing_rule = LineSpacingRule.MULTIPLE
 paragraph.paragraph_format.line_spacing = 1.5
 
-# Save the modified document
+# Zapisz zmodyfikowany dokument
 doc.save("modified_document.docx")
 ```
 
@@ -149,13 +151,13 @@ Aspose.Words for Python oferuje szeroki zakres opcji dla czcionek i stylów teks
 
 ## Wniosek
 
-W dziedzinie tworzenia dokumentów czcionki i styl tekstu to potężne narzędzia do zwiększania atrakcyjności wizualnej i skutecznego przekazywania informacji. Rozumiejąc podstawy czcionek, stylów tekstu i wykorzystując narzędzia takie jak Aspose.Words for Python, możesz tworzyć profesjonalne dokumenty, które przyciągają i zatrzymują uwagę odbiorców.
+dziedzinie tworzenia dokumentów czcionki i styl tekstu to potężne narzędzia do zwiększania atrakcyjności wizualnej i skutecznego przekazywania informacji. Rozumiejąc podstawy czcionek, stylów tekstu i wykorzystując narzędzia takie jak Aspose.Words for Python, możesz tworzyć profesjonalne dokumenty, które przyciągają i zatrzymują uwagę odbiorców.
 
 ## Najczęściej zadawane pytania
 
 ### Jak zmienić kolor czcionki za pomocą Aspose.Words dla Pythona?
 
- Aby zmienić kolor czcionki, możesz uzyskać dostęp do`Font` klasa i ustaw`color` właściwość na żądaną wartość koloru.
+Aby zmienić kolor czcionki, możesz uzyskać dostęp do `Font` klasa i ustaw `color` właściwość na żądaną wartość koloru.
 
 ### Czy mogę zastosować wiele stylów do tego samego tekstu używając Aspose.Words?
 
@@ -163,7 +165,7 @@ Tak, możesz zastosować wiele stylów do tego samego tekstu, odpowiednio modyfi
 
 ### Czy można dostosować odstępy między znakami?
 
-Tak, Aspose.Words pozwala na dostosowanie odstępów między znakami za pomocą`kerning` własność`Font` klasa.
+Tak, Aspose.Words pozwala na dostosowanie odstępów między znakami za pomocą `kerning` własność `Font` klasa.
 
 ### Czy Aspose.Words obsługuje importowanie czcionek ze źródeł zewnętrznych?
 
@@ -171,11 +173,16 @@ Tak, Aspose.Words obsługuje osadzanie czcionek z zewnętrznych źródeł w celu
 
 ### Gdzie mogę uzyskać dostęp do dokumentacji Aspose.Words for Python i pobrać ją?
 
- Aby zapoznać się z dokumentacją Aspose.Words dla języka Python, odwiedź stronę[Tutaj](https://reference.aspose.com/words/python-net/) Aby pobrać bibliotekę, odwiedź[Tutaj](https://releases.aspose.com/words/python/).
+Aby zapoznać się z dokumentacją Aspose.Words dla języka Python, odwiedź stronę [Tutaj](https://reference.aspose.com/words/python-net/)Aby pobrać bibliotekę, odwiedź [Tutaj](https://releases.aspose.com/words/python/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

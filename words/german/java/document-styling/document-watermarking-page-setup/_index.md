@@ -1,27 +1,29 @@
 ---
-title: Dokument-Wasserzeichen und Seiteneinrichtung
-linktitle: Dokument-Wasserzeichen und Seiteneinrichtung
-second_title: Aspose.Words Java-API zur Dokumentverarbeitung
-description: Erfahren Sie, wie Sie mit Aspose.Words für Java Wasserzeichen anwenden und Seitenkonfigurationen einrichten. Eine umfassende Anleitung mit Quellcode.
-weight: 13
-url: /de/java/document-styling/document-watermarking-page-setup/
+"description": "Erfahren Sie, wie Sie mit Aspose.Words für Java Wasserzeichen anwenden und Seitenkonfigurationen einrichten. Eine umfassende Anleitung mit Quellcode."
+"linktitle": "Dokumentwasserzeichen und Seiteneinrichtung"
+"second_title": "Aspose.Words Java-Dokumentverarbeitungs-API"
+"title": "Dokumentwasserzeichen und Seiteneinrichtung"
+"url": "/de/java/document-styling/document-watermarking-page-setup/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dokument-Wasserzeichen und Seiteneinrichtung
+# Dokumentwasserzeichen und Seiteneinrichtung
 
 ## Einführung
 
-Im Bereich der Dokumentbearbeitung ist Aspose.Words für Java ein leistungsstarkes Tool, mit dem Entwickler jeden Aspekt der Dokumentverarbeitung kontrollieren können. In diesem umfassenden Handbuch werden wir uns mit den Feinheiten der Dokumentwasserzeichen und der Seiteneinrichtung mit Aspose.Words für Java befassen. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst in die Welt der Java-Dokumentenverarbeitung einsteigen, dieses Schritt-für-Schritt-Handbuch vermittelt Ihnen das Wissen und den Quellcode, den Sie benötigen.
+Im Bereich der Dokumentenbearbeitung ist Aspose.Words für Java ein leistungsstarkes Tool, mit dem Entwickler jeden Aspekt der Dokumentenverarbeitung steuern können. In diesem umfassenden Leitfaden vertiefen wir uns in die Feinheiten der Dokumentwasserzeichen und der Seiteneinrichtung mit Aspose.Words für Java. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst in die Welt der Java-Dokumentenverarbeitung einsteigen, diese Schritt-für-Schritt-Anleitung vermittelt Ihnen das nötige Wissen und den Quellcode.
 
 ## Dokument-Wasserzeichen
 
 ### Wasserzeichen hinzufügen
 
-Das Hinzufügen von Wasserzeichen zu Dokumenten kann für das Branding oder die Sicherung Ihrer Inhalte entscheidend sein. Aspose.Words für Java macht diese Aufgabe unkompliziert. So geht's:
+Das Hinzufügen von Wasserzeichen zu Dokumenten kann für das Branding oder die Sicherung Ihrer Inhalte entscheidend sein. Aspose.Words für Java vereinfacht diese Aufgabe. So geht's:
 
 ```java
 // Laden Sie das Dokument
@@ -74,7 +76,7 @@ doc.save("formatted_document.docx");
 
 ### Ränder und Seitennummerierung
 
-Eine präzise Kontrolle über Ränder und Seitennummerierung ist für professionelle Dokumente unerlässlich. Erreichen Sie dies mit Aspose.Words für Java:
+Präzise Kontrolle über Ränder und Seitennummerierung ist für professionelle Dokumente unerlässlich. Mit Aspose.Words für Java erreichen Sie dies:
 
 ```java
 // Laden Sie das Dokument
@@ -119,20 +121,20 @@ Ja, Sie können einem Dokument mehrere Wasserzeichen hinzufügen, indem Sie zus�
 
 ### Wie ändere ich die Seitengröße im Querformat auf Legal?
 
-Um die Seitengröße im Querformat auf Legal einzustellen, ändern Sie die Seitenbreite und -höhe wie folgt:
+Um die Seitengröße im Querformat auf legal einzustellen, ändern Sie die Seitenbreite und -höhe wie folgt:
 
 ```java
 doc.getFirstSection().getPageSetup().setPageWidth(842.0);
 doc.getFirstSection().getPageSetup().setPageHeight(595.0);
 ```
 
-### Was ist die Standardschriftart für Wasserzeichen?
+### Welche Schriftart wird standardmäßig für Wasserzeichen verwendet?
 
 Die Standardschriftart für Wasserzeichen ist Calibri mit einer Schriftgröße von 36.
 
-### Wie kann ich ab einer bestimmten Seite Seitenzahlen hinzufügen?
+### Wie kann ich Seitenzahlen ab einer bestimmten Seite hinzufügen?
 
-Dies erreichen Sie, indem Sie die Seitenzahl der Startseite in Ihrem Dokument wie folgt festlegen:
+Dies erreichen Sie, indem Sie die Seitenzahl der ersten Seite in Ihrem Dokument wie folgt festlegen:
 
 ```java
 doc.getFirstSection().getPageSetup().setPageStartingNumber(5);
@@ -144,12 +146,17 @@ Sie können Text in der Kopf- oder Fußzeile zentrieren, indem Sie die Methode �
 
 ## Abschluss
 
-In diesem ausführlichen Handbuch haben wir die Kunst des Dokumentwasserzeichens und der Seiteneinrichtung mit Aspose.Words für Java erkundet. Ausgestattet mit den bereitgestellten Quellcodeausschnitten und Erkenntnissen verfügen Sie nun über die Werkzeuge, um Ihre Dokumente mit Finesse zu bearbeiten und zu formatieren. Aspose.Words für Java ermöglicht es Ihnen, professionelle, markenbezogene Dokumente zu erstellen, die genau auf Ihre Anforderungen zugeschnitten sind.
+In diesem ausführlichen Leitfaden haben wir die Kunst des Dokumentwasserzeichens und der Seitengestaltung mit Aspose.Words für Java erkundet. Mit den bereitgestellten Quellcode-Ausschnitten und Erkenntnissen verfügen Sie nun über die Werkzeuge, um Ihre Dokumente mit Finesse zu bearbeiten und zu formatieren. Aspose.Words für Java ermöglicht Ihnen die Erstellung professioneller, markenbezogener Dokumente, die genau auf Ihre Anforderungen zugeschnitten sind.
 
 Die Beherrschung der Dokumentbearbeitung ist eine wertvolle Fähigkeit für Entwickler, und Aspose.Words für Java ist Ihr zuverlässiger Begleiter auf diesem Weg. Beginnen Sie noch heute mit der Erstellung beeindruckender Dokumente!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ में मौजूदा हस्ताक्षर पंक्ति पर हस्ताक्षर करना
-linktitle: वर्ड दस्तावेज़ में मौजूदा हस्ताक्षर पंक्ति पर हस्ताक्षर करना
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: हमारे विस्तृत चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में मौजूदा हस्ताक्षर पंक्ति पर हस्ताक्षर करना सीखें। डेवलपर्स के लिए बिल्कुल सही।
-weight: 10
-url: /hi/net/programming-with-digital-signatures/signing-existing-signature-line/
+"description": "हमारे विस्तृत चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में मौजूदा हस्ताक्षर पंक्ति पर हस्ताक्षर करना सीखें। डेवलपर्स के लिए बिल्कुल सही।"
+"linktitle": "वर्ड दस्तावेज़ में मौजूदा हस्ताक्षर पंक्ति पर हस्ताक्षर करना"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड दस्तावेज़ में मौजूदा हस्ताक्षर पंक्ति पर हस्ताक्षर करना"
+"url": "/hi/net/programming-with-digital-signatures/signing-existing-signature-line/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ में मौजूदा हस्ताक्षर पंक्ति पर हस्ताक्षर करना
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-digital-signatures/signing-existing-signature-line
 
 इससे पहले कि हम बारीकियों में उतरें, आइए सुनिश्चित करें कि हमारे पास वह सब कुछ है जो हमें चाहिए:
 
-1.  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी इंस्टॉल है। यदि आपने अभी तक ऐसा नहीं किया है, तो आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी इंस्टॉल है। यदि आपने अभी तक ऐसा नहीं किया है, तो आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो या कोई अन्य C# संगत IDE.
 3. दस्तावेज़ और प्रमाणपत्र: एक हस्ताक्षर पंक्ति और एक डिजिटल प्रमाणपत्र (PFX फ़ाइल) वाला एक Word दस्तावेज़।
 4. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होना लाभदायक होगा।
@@ -96,11 +98,11 @@ DigitalSignatureUtil.Sign(
 
 ### .NET के लिए Aspose.Words क्या है?
 
-Aspose.Words for .NET .NET अनुप्रयोगों में Word दस्तावेज़ों के साथ काम करने के लिए एक शक्तिशाली लाइब्रेरी है। यह आपको प्रोग्रामेटिक रूप से Word दस्तावेज़ बनाने, संशोधित करने और परिवर्तित करने की अनुमति देता है।
+Aspose.Words for .NET .NET अनुप्रयोगों में Word दस्तावेज़ों के साथ काम करने के लिए एक शक्तिशाली लाइब्रेरी है। यह आपको Word दस्तावेज़ों को प्रोग्रामेटिक रूप से बनाने, संशोधित करने और परिवर्तित करने की अनुमति देता है।
 
 ### मैं .NET के लिए Aspose.Words का निःशुल्क परीक्षण कहां से प्राप्त कर सकता हूं?
 
- आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### क्या मैं हस्ताक्षर के लिए किसी भी छवि प्रारूप का उपयोग कर सकता हूँ?
 
@@ -112,10 +114,15 @@ Aspose.Words विभिन्न छवि प्रारूपों का 
 
 ### मैं .NET के लिए Aspose.Words पर अधिक दस्तावेज़ कहां पा सकता हूं?
 
- आप विस्तृत दस्तावेज पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप विस्तृत दस्तावेज पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

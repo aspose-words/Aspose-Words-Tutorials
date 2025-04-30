@@ -1,14 +1,16 @@
 ---
-title: Ekspor Struktur Dokumen Word ke Dokumen PDF
-linktitle: Ekspor Struktur Dokumen Word ke Dokumen PDF
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Ekspor struktur dokumen Word ke PDF dengan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk mempertahankan tata letak dokumen dan meningkatkan navigasi PDF.
-weight: 10
-url: /id/net/programming-with-pdfsaveoptions/export-document-structure/
+"description": "Ekspor struktur dokumen Word ke PDF dengan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk mempertahankan tata letak dokumen dan meningkatkan navigasi PDF."
+"linktitle": "Ekspor Struktur Dokumen Word ke Dokumen PDF"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Ekspor Struktur Dokumen Word ke Dokumen PDF"
+"url": "/id/net/programming-with-pdfsaveoptions/export-document-structure/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekspor Struktur Dokumen Word ke Dokumen PDF
@@ -21,9 +23,9 @@ Menjelajahi dunia manipulasi dokumen terkadang terasa seperti menjelajahi hutan 
 
 Sebelum kita memulai perjalanan ini, mari kumpulkan semua perlengkapan penting yang Anda perlukan untuk memulai.
 
-- Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Jika belum, Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Jika belum, Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Lingkungan pengembangan yang kompatibel dengan .NET seperti Visual Studio.
--  Contoh Dokumen: Dokumen Word (misalnya,`Paragraphs.docx`) yang akan Anda ubah ke PDF.
+- Contoh Dokumen: Dokumen Word (misalnya, `Paragraphs.docx`) yang akan Anda ubah ke PDF.
 
 ## Mengimpor Ruang Nama
 
@@ -38,7 +40,7 @@ Mari kita bagi prosesnya menjadi beberapa langkah yang mudah dikelola. Setiap la
 
 ## Langkah 1: Siapkan Direktori Dokumen Anda
 
-Pertama-tama, mari tentukan jalur ke direktori dokumen Anda. Di sinilah dokumen Word sumber Anda berada dan tempat penyimpanan PDF yang dikonversi.
+Pertama-tama, mari tentukan jalur ke direktori dokumen Anda. Di sinilah dokumen Word sumber Anda berada dan tempat PDF yang dikonversi akan disimpan.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Langkah 2: Muat Dokumen Word
 
- Selanjutnya, kita perlu memuat dokumen Word yang ingin kita ubah ke PDF. Dalam contoh ini, kita akan menggunakan file bernama`Paragraphs.docx`.
+Selanjutnya, kita perlu memuat dokumen Word yang ingin kita ubah ke PDF. Dalam contoh ini, kita akan menggunakan file bernama `Paragraphs.docx`.
 
 ```csharp
 Document doc = new Document(dataDir + "Paragraphs.docx");
@@ -54,7 +56,7 @@ Document doc = new Document(dataDir + "Paragraphs.docx");
 
 ## Langkah 3: Konfigurasikan Opsi Penyimpanan PDF
 
- Untuk mengekspor struktur dokumen, kita perlu mengonfigurasi opsi penyimpanan PDF. Ini melibatkan pengaturan`ExportDocumentStructure`properti untuk`true`Ini memastikan bahwa struktur dokumen terlihat di panel navigasi "Konten" Adobe Acrobat Pro.
+Untuk mengekspor struktur dokumen, kita perlu mengonfigurasi opsi penyimpanan PDF. Ini melibatkan pengaturan `ExportDocumentStructure` properti untuk `true`Ini memastikan bahwa struktur dokumen terlihat di panel navigasi "Konten" Adobe Acrobat Pro.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions
@@ -87,13 +89,18 @@ Ya, Aspose.Words untuk .NET menawarkan berbagai opsi untuk mengekspor fitur sepe
 Tentu saja! Anda dapat mengotomatiskan proses ini menggunakan skrip dan pemrosesan batch di lingkungan pengembangan Anda.
 
 ### Bagaimana saya bisa mendapatkan uji coba gratis Aspose.Words untuk .NET?
- Anda bisa mendapatkan uji coba gratis dari[Situs web Aspose](https://releases.aspose.com/).
+Anda bisa mendapatkan uji coba gratis dari [Situs web Aspose](https://releases.aspose.com/).
 
 ### Apa yang harus saya lakukan jika saya menemui masalah?
- Anda dapat mencari bantuan dari[Forum dukungan Aspose](https://forum.aspose.com/c/words/8).
+Anda dapat mencari bantuan dari [Forum dukungan Aspose](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

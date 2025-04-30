@@ -1,14 +1,16 @@
 ---
-title: Rozplątywanie w dokumencie Word
-linktitle: Rozplątywanie w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Opanuj rozplątywanie zakładek w dokumentach Worda za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów .NET.
-weight: 10
-url: /pl/net/programming-with-bookmarks/untangle/
+"description": "Opanuj rozplątywanie zakładek w dokumentach Worda za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów .NET."
+"linktitle": "Rozplątywanie w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Rozplątywanie w dokumencie Word"
+"url": "/pl/net/programming-with-bookmarks/untangle/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rozplątywanie w dokumencie Word
@@ -21,7 +23,7 @@ Nawigowanie po dokumencie Word programowo może przypominać znajdowanie drogi p
 
 Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Będziesz potrzebować biblioteki Aspose.Words dla .NET. Jeśli jej nie masz, możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Będziesz potrzebować biblioteki Aspose.Words dla .NET. Jeśli jej nie masz, możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: środowisko programistyczne .NET, takie jak Visual Studio.
 3. Podstawowa wiedza o języku C#: Znajomość podstaw języka C# ułatwi Ci zrozumienie fragmentów kodu i wyjaśnień.
 
@@ -55,7 +57,7 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 }
 ```
 
- Tutaj używamy`foreach` pętla do przejścia przez każdą zakładkę w zakresie dokumentu. Ta pętla umożliwi nam obsługę każdej zakładki indywidualnie.
+Tutaj używamy `foreach` pętla do przejścia przez każdą zakładkę w zakresie dokumentu. Ta pętla umożliwi nam obsługę każdej zakładki indywidualnie.
 
 ## Krok 3: Zidentyfikuj wiersze początkowe i końcowe zakładek
 
@@ -66,7 +68,7 @@ Row row1 = (Row)bookmark.BookmarkStart.GetAncestor(typeof(Row));
 Row row2 = (Row)bookmark.BookmarkEnd.GetAncestor(typeof(Row));
 ```
 
- W tym kroku używamy`GetAncestor` metoda znajdowania wiersza nadrzędnego zarówno węzła początkowego, jak i końcowego zakładki. Pomaga nam to dokładnie określić zaangażowane wiersze.
+W tym kroku używamy `GetAncestor` metoda znajdowania wiersza nadrzędnego zarówno węzła początkowego, jak i końcowego zakładki. Pomaga nam to dokładnie określić zaangażowane wiersze.
 
 ## Krok 4: Sprawdź sąsiadujące rzędy
 
@@ -79,7 +81,7 @@ if (row1 != null && row2 != null && row1.NextSibling == row2)
 }
 ```
 
- Tutaj dodajemy warunek sprawdzający, czy oba wiersze zostały znalezione i czy są sąsiadujące.`NextSibling` nieruchomość pomaga nam zweryfikować sąsiedztwo.
+Tutaj dodajemy warunek sprawdzający, czy oba wiersze zostały znalezione i czy są sąsiadujące. `NextSibling` nieruchomość pomaga nam zweryfikować sąsiedztwo.
 
 ## Krok 5: Przesuń koniec zakładki
 
@@ -89,7 +91,7 @@ Na koniec, jeśli warunki są spełnione, przenosimy węzeł końcowy zakładki 
 row1.LastCell.LastParagraph.AppendChild(bookmark.BookmarkEnd);
 ```
 
- W tym kroku używamy`AppendChild`metoda przenoszenia węzła końcowego zakładki. Dodając go do ostatniego akapitu ostatniej komórki górnego wiersza, upewniamy się, że zakładka jest poprawnie rozplątana.
+W tym kroku używamy `AppendChild` metoda przenoszenia węzła końcowego zakładki. Dodając go do ostatniego akapitu ostatniej komórki górnego wiersza, upewniamy się, że zakładka jest poprawnie rozplątana.
 
 ## Wniosek
 
@@ -107,18 +109,23 @@ Ten samouczek dotyczy zakładek, które rozciągają się na dwa sąsiadujące w
 
 ### Czy jest dostępna wersja próbna Aspose.Words dla .NET?
 
- Tak, możesz[pobierz bezpłatną wersję próbną](https://releases.aspose.com/) ze strony internetowej Aspose, aby zapoznać się z funkcjami biblioteki.
+Tak, możesz [pobierz bezpłatną wersję próbną](https://releases.aspose.com/) ze strony internetowej Aspose, aby zapoznać się z funkcjami biblioteki.
 
 ### Jak mogę uzyskać pomoc, jeśli napotkam problemy?
 
- Możesz odwiedzić[Forum wsparcia Aspose](https://forum.aspose.com/c/words/8) aby uzyskać pomoc w rozwiązaniu jakichkolwiek problemów lub pytań.
+Możesz odwiedzić [Forum wsparcia Aspose](https://forum.aspose.com/c/words/8) aby uzyskać pomoc w rozwiązaniu jakichkolwiek problemów lub pytań.
 
 ### Czy potrzebuję licencji, aby używać Aspose.Words dla .NET?
 
- Tak, Aspose.Words dla .NET wymaga licencji dla pełnej funkcjonalności. Możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy) lub poproś o[licencja tymczasowa](https://purchase.aspose.com/temporary-license) w celach ewaluacyjnych.
+Tak, Aspose.Words dla .NET wymaga licencji dla pełnej funkcjonalności. Możesz kupić licencję [Tutaj](https://purchase.aspose.com/buy) lub poproś o [licencja tymczasowa](https://purchase.aspose.com/temporary-license) w celach ewaluacyjnych.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Hợp nhất theo chiều dọc
-linktitle: Hợp nhất theo chiều dọc
-second_title: API xử lý tài liệu Aspose.Words
-description: Làm chủ việc hợp nhất theo chiều dọc trong các bảng Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết này. Tìm hiểu hướng dẫn từng bước để định dạng tài liệu chuyên nghiệp.
-weight: 10
-url: /vi/net/programming-with-tables/vertical-merge/
+"description": "Làm chủ việc hợp nhất theo chiều dọc trong các bảng Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết này. Tìm hiểu hướng dẫn từng bước để định dạng tài liệu chuyên nghiệp."
+"linktitle": "Hợp nhất theo chiều dọc"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Hợp nhất theo chiều dọc"
+"url": "/vi/net/programming-with-tables/vertical-merge/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hợp nhất theo chiều dọc
@@ -21,7 +23,7 @@ Bạn đã bao giờ thấy mình vướng vào sự phức tạp của việc x
 
 Trước khi đi sâu vào chi tiết về việc hợp nhất theo chiều dọc, hãy đảm bảo bạn đã thiết lập mọi thứ để có trải nghiệm mượt mà. Sau đây là những gì bạn cần:
 
--  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Nếu chưa, bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Nếu chưa, bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Một môi trường phát triển như Visual Studio.
 - Kiến thức cơ bản về C#: Sự quen thuộc với ngôn ngữ lập trình C# sẽ có lợi.
 
@@ -34,7 +36,7 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-Bây giờ chúng ta đã có đủ các điều kiện tiên quyết và các không gian tên đã được nhập, hãy chuyển sang hướng dẫn từng bước để hợp nhất theo chiều dọc.
+Bây giờ chúng ta đã có đủ các điều kiện tiên quyết và không gian tên đã được nhập, hãy chuyển sang hướng dẫn từng bước để hợp nhất theo chiều dọc.
 
 ## Bước 1: Thiết lập tài liệu của bạn
 
@@ -48,7 +50,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-Ở đây, chúng ta tạo một tài liệu mới và khởi tạo đối tượng DocumentBuilder để làm việc với tài liệu này.
+Tại đây, chúng ta tạo một tài liệu mới và khởi tạo đối tượng DocumentBuilder để làm việc với tài liệu này.
 
 ## Bước 2: Chèn ô đầu tiên
 
@@ -60,7 +62,7 @@ builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 ```
 
- Trong bước này, chúng ta chèn ô đầu tiên và đặt thuộc tính hợp nhất theo chiều dọc của nó thành`CellMerge.First`, cho biết đây là ô bắt đầu của phép hợp nhất. Sau đó, chúng ta thêm một số văn bản vào ô này.
+Trong bước này, chúng ta chèn ô đầu tiên và đặt thuộc tính hợp nhất theo chiều dọc của nó thành `CellMerge.First`, cho biết đây là ô bắt đầu của phép hợp nhất. Sau đó, chúng ta thêm một số văn bản vào ô này.
 
 ## Bước 3: Chèn ô thứ hai vào cùng hàng
 
@@ -73,7 +75,7 @@ builder.Write("Text in one cell");
 builder.EndRow();
 ```
 
- Ở đây, chúng ta chèn một ô, thiết lập thuộc tính hợp nhất theo chiều dọc của nó thành`CellMerge.None`và thêm một số văn bản vào đó. Sau đó chúng ta kết thúc hàng hiện tại.
+Ở đây, chúng ta chèn một ô, thiết lập thuộc tính hợp nhất theo chiều dọc của nó thành `CellMerge.None`và thêm một số văn bản vào đó. Sau đó, chúng ta kết thúc hàng hiện tại.
 
 ## Bước 4: Chèn hàng thứ hai và hợp nhất theo chiều dọc
 
@@ -90,7 +92,7 @@ builder.EndRow();
 builder.EndTable();
 ```
 
- Chúng tôi bắt đầu bằng cách chèn một ô và thiết lập thuộc tính hợp nhất theo chiều dọc của nó thành`CellMerge.Previous`, cho biết nó phải được hợp nhất với ô ở trên nó. Sau đó, chúng ta chèn một ô khác vào cùng hàng, thêm một số văn bản vào đó và kết thúc bảng.
+Chúng tôi bắt đầu bằng cách chèn một ô và thiết lập thuộc tính hợp nhất theo chiều dọc của nó thành `CellMerge.Previous`, cho biết nó phải được hợp nhất với ô ở trên nó. Sau đó, chúng ta chèn một ô khác vào cùng hàng, thêm một số văn bản vào đó và kết thúc bảng.
 
 ## Bước 5: Lưu tài liệu
 
@@ -121,10 +123,15 @@ Có, Aspose.Words for .NET tương thích với nhiều phiên bản Microsoft W
 Không, Aspose.Words for .NET hoạt động độc lập với Microsoft Word. Bạn không cần cài đặt Word trên máy để tạo hoặc thao tác với tài liệu Word.
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET để xử lý các tài liệu Word hiện có không?
-Chắc chắn rồi! Aspose.Words for .NET cho phép bạn tạo, chỉnh sửa và quản lý các tài liệu Word hiện có một cách dễ dàng.
+Hoàn toàn đúng! Aspose.Words for .NET cho phép bạn tạo, chỉnh sửa và quản lý các tài liệu Word hiện có một cách dễ dàng.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

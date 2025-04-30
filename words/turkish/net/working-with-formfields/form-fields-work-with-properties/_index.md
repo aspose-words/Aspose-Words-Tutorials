@@ -1,26 +1,28 @@
 ---
-title: Form Alanları Özelliklerle Çalışır
-linktitle: Form Alanları Özelliklerle Çalışır
-second_title: Aspose.Words Belge İşleme API'si
-description: Ayrıntılı adım adım kılavuzumuzla Aspose.Words for .NET'i kullanarak Word belgelerindeki form alanlarını nasıl değiştireceğinizi öğrenin.
-weight: 10
-url: /tr/net/working-with-formfields/form-fields-work-with-properties/
+"description": "Ayrıntılı adım adım kılavuzumuzla Aspose.Words for .NET'i kullanarak Word belgelerindeki form alanlarını nasıl değiştireceğinizi öğrenin."
+"linktitle": "Form Alanları Özelliklerle Çalışır"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Form Alanları Özelliklerle Çalışır"
+"url": "/tr/net/working-with-formfields/form-fields-work-with-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Form Alanları Özelliklerle Çalışır
 
 ## giriiş
 
-Bu eğitimde, .NET için Aspose.Words kullanarak Word belgelerindeki form alanlarının büyüleyici dünyasına dalıyoruz. Form alanlarını programatik olarak nasıl yöneteceğinizi merak ettiyseniz, sizi bir şölene götüreceğiz. Projenizi kurmaktan Word belgesindeki form alanlarını değiştirmeye kadar her şeyi adım adım anlatacağız. Bu makalenin sonunda, bir form alanı uzmanı olacaksınız!
+Bu eğitimde, .NET için Aspose.Words kullanarak Word belgelerindeki form alanlarının büyüleyici dünyasına dalıyoruz. Form alanlarını programatik olarak nasıl yöneteceğinizi merak ettiyseniz, sizi bir ziyafet bekliyor. Projenizi kurmaktan Word belgesindeki form alanlarını değiştirmeye kadar her şeyi adım adım anlatacağız. Bu makalenin sonunda, bir form alanı uzmanı olacaksınız!
 
 ## Ön koşullar
 
 Başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
--  Aspose.Words for .NET: En son sürümü indirin[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: En son sürümü indirin [Burada](https://releases.aspose.com/words/net/).
 - .NET Geliştirme Ortamı: Visual Studio önerilir.
 - Temel C# Bilgisi: Temelleri anlamak, konuyu akıcı bir şekilde takip etmenize yardımcı olacaktır.
 
@@ -45,7 +47,7 @@ Visual Studio'yu açın ve yeni bir Konsol Uygulaması (.NET Core) projesi oluş
 
 ### Adım 1.2: .NET için Aspose.Words'ü yükleyin
 
- Aspose.Words'ü NuGet Paket Yöneticisi aracılığıyla yükleyebilirsiniz. Git`Tools` ->`NuGet Package Manager` ->`Manage NuGet Packages for Solution`ve "Aspose.Words"ü arayın. Paketi yükleyin.
+Aspose.Words'ü NuGet Paket Yöneticisi aracılığıyla yükleyebilirsiniz. Git `Tools` -> `NuGet Package Manager` -> `Manage NuGet Packages for Solution`ve "Aspose.Words"ü arayın. Paketi yükleyin.
 
 Alternatif olarak, NuGet Paket Yöneticisi Konsolunu kullanabilirsiniz:
 
@@ -59,7 +61,7 @@ Artık projeniz kurulduğuna göre, form alanlarını içeren Word belgesini yü
 
 ### Adım 2.1: Belge Dizinini Belirleyin
 
- Belge dizininize giden yolu ayarlayın. Değiştir`"YOUR DOCUMENT DIRECTORY"` Belgenizin saklandığı gerçek yol ile.
+Belge dizininize giden yolu ayarlayın. Değiştir `"YOUR DOCUMENT DIRECTORY"` Belgenizin saklandığı gerçek yol ile.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -87,7 +89,7 @@ FormField formField = doc.Range.FormFields[3];
 
 ### Adım 3.2: Form Alan Türünü Kontrol Edin
 
- Form alanının şu türde olduğundan emin olun:`FieldFormTextInput` Değiştirmeden önce.
+Form alanının şu türde olduğundan emin olun: `FieldFormTextInput` Değiştirmeden önce.
 
 ```csharp
 if (formField.Type == FieldType.FieldFormTextInput)
@@ -118,19 +120,24 @@ Karmaşık bir belge otomasyon çözümü geliştiriyor veya sadece basit deği�
 Evet, Aspose.Words for .NET, VB.NET ve F# dahil olmak üzere tüm .NET dilleriyle uyumludur.
 
 ### Aspose.Words for .NET ücretsiz mi?
-Aspose.Words for .NET ücretsiz deneme sunuyor, ancak tam işlevsellik için bir lisans satın almanız gerekecek. Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Aspose.Words for .NET ücretsiz deneme sunuyor, ancak tam işlevsellik için bir lisans satın almanız gerekecek. Geçici bir lisans alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words for .NET ile Word belgesindeki diğer öğeleri düzenleyebilir miyim?
 Kesinlikle! Aspose.Words for .NET, Word belgesindeki metinleri, resimleri, tabloları ve diğer birçok öğeyi düzenlemenize olanak tanır.
 
 ### Aspose.Words for .NET desteğini nasıl alabilirim?
- Destek için Aspose.Words forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/words/8).
+Destek için Aspose.Words forumunu ziyaret edebilirsiniz [Burada](https://forum.aspose.com/c/words/8).
 
 ### Aspose.Words for .NET'in belgelerini nerede bulabilirim?
- Tam dokümantasyonu burada bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Tam dokümantasyonu burada bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

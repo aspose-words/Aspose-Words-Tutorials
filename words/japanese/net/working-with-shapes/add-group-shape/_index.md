@@ -1,44 +1,52 @@
 ---
-title: .NET のAspose.Wordsを使用して Word ドキュメントでグループ形を作ります
-weight: 7700
-limit: 
-description: .NET の Aspose.Words を使用して Word ドキュメントでグループ形状を作成する方法について学びます.複数の形状を追加し,次元をカスタマイズし,ドキュメントを簡単に保存します.
-keywords: [Aspose.Words for .NET, group shape in Word, add shapes to document, .NET Word library, create shapes in Word, Word group shapes, shape customization, .NET example]
-url: /ja/net/working-with-shapes/add-group-shape/
+"description": "Aspose.Words for .NET を使用して、Word 文書にグループ図形を作成する方法を学びます。複数の図形を追加し、寸法をカスタマイズして、簡単に文書を保存できます。"
+"title": "Aspose.Words for .NET を使用して Word 文書にグループ図形を作成する"
+"url": "/ja/net/working-with-shapes/add-group-shape/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Wordsを使用してWord ドキュメントでグループ形を作ります
+# Aspose.Words を使用して Word 文書にグループ図形を作成する
 
-このチュートリアルでは, .NET のAspose.Wordsを使用してWord ドキュメントでグループ形を作成し管理する方法を示します.この強力なライブラリを使用して,アクセント境界呼び出しとアクションボタンのような複数の形を単一のグループ形に簡単に組み合わせることができます.ガイドは,ドキュメントの初期化から形を追加,次元をカスタマイズし,グループ形をWordファイルに挿入するまでのすべてのステップをカバーします.最後に,例はドキュメントを保存し,視覚的に魅力的な結果のために動力形をWord ドキュメントにシームレスに統合する方法を示します.  
+このチュートリアルでは、Aspose.Words for .NET を使用して Word 文書内でグループ図形を作成および管理する方法を説明します。この強力なライブラリを使えば、アクセント枠の吹き出しやアクションボタンなど、複数の図形を 1 つのグループ図形に簡単にまとめることができます。このガイドでは、文書の初期化から図形の追加、寸法のカスタマイズ、Word ファイルへのグループ図形の挿入まで、すべての手順を網羅しています。最後に、サンプルで文書を保存し、動的な図形を Word 文書にシームレスに統合して、視覚的に魅力的な結果を得る方法を紹介します。  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-shapes/add-group-shape" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 設置指示  
+## インストール手順  
 
-1. .NET のためのAspose.Wordsをダウンロードする  
-   訪問する[アポス ダウンロードページ](https://releases.aspose.com/words/net/)ダウンロードする.NETの最新バージョンのAspose.Words
+1. Aspose.Words for .NET をダウンロード:  
+   訪問 [Aspose ダウンロードページ](https://releases.aspose.com/words/net/) Aspose.Words for .NET の最新バージョンをダウンロードしてください。
 
-2. NuGet を介してインストールする  
-   * プロジェクトをビジュアルスタジオで開け  
-   * ツール > NuGet パッケージ管理者 > ソリューションのための NuGet パッケージ管理へ移動します.  
-   * NuGet パッケージ管理器でAspose.Wordsを検索する.  
-   * プロジェクトにライブラリを追加するには,インストールをクリックしてください.
+2. NuGet 経由でインストール:  
+   - Visual Studio でプロジェクトを開きます。  
+   - [ツール] > [NuGet パッケージ マネージャー] > [ソリューションの NuGet パッケージの管理] に移動します。  
+   - NuGet パッケージ マネージャーで Aspose.Words を検索します。  
+   - 「インストール」をクリックして、ライブラリをプロジェクトに追加します。
 
-3. ライセンス アクティベーション  
-   * 許可証を取得する[目標 購入ページ](https://purchase.aspose.com/buy)申請する[派遣許可証](https://purchase.aspose.com/temporary-license/)やってくれ  
-   * プロジェクトにライセンスを有効にします `Aspose.Words.ライセンス`授業です
+3. ライセンスのアクティベーション:  
+   - ライセンスを取得する [Aspose 購入ページ](https://purchase.aspose.com/buy) または申請する [一時ライセンス](https://purchase。aspose.com/temporary-license/).  
+   - プロジェクトでライセンスを有効化するには、 `Aspose.Words.License` クラス。
 
-## また見てください
-[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
-[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
+## こちらもご覧ください
+[Aspose.Word for .NET ドキュメント](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET リファレンス](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

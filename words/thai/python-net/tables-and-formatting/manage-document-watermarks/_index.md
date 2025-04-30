@@ -1,14 +1,16 @@
 ---
-title: การสร้างและการจัดรูปแบบลายน้ำเพื่อความสวยงามของเอกสาร
-linktitle: การสร้างและการจัดรูปแบบลายน้ำเพื่อความสวยงามของเอกสาร
-second_title: API การจัดการเอกสาร Aspose.Words Python
-description: เรียนรู้วิธีสร้างและจัดรูปแบบลายน้ำในเอกสารโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการเพิ่มลายน้ำข้อความและรูปภาพ เพิ่มความสวยงามให้กับเอกสารของคุณด้วยบทช่วยสอนนี้
-weight: 10
-url: /th/python-net/tables-and-formatting/manage-document-watermarks/
+"description": "เรียนรู้วิธีสร้างและจัดรูปแบบลายน้ำในเอกสารโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการเพิ่มลายน้ำข้อความและรูปภาพ เพิ่มความสวยงามให้กับเอกสารของคุณด้วยบทช่วยสอนนี้"
+"linktitle": "การสร้างและการจัดรูปแบบลายน้ำเพื่อความสวยงามของเอกสาร"
+"second_title": "API การจัดการเอกสาร Aspose.Words Python"
+"title": "การสร้างและการจัดรูปแบบลายน้ำเพื่อความสวยงามของเอกสาร"
+"url": "/th/python-net/tables-and-formatting/manage-document-watermarks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การสร้างและการจัดรูปแบบลายน้ำเพื่อความสวยงามของเอกสาร
@@ -22,17 +24,17 @@ url: /th/python-net/tables-and-formatting/manage-document-watermarks/
 
 ## เริ่มต้นใช้งาน Aspose.Words สำหรับ Python
 
- ในการเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ Python แล้ว คุณสามารถดาวน์โหลดได้จาก Aspose Releases:[ดาวน์โหลด Aspose.Words สำหรับ Python](https://releases.aspose.com/words/python/).
+ในการเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ Python แล้ว คุณสามารถดาวน์โหลดได้จาก Aspose Releases: [ดาวน์โหลด Aspose.Words สำหรับ Python](https://releases-aspose.com/words/python/).
 
 หลังจากการติดตั้ง คุณสามารถนำเข้าโมดูลที่จำเป็น และตั้งค่าวัตถุเอกสารได้
 
 ```python
 import aspose.words as aw
 
-# Load or create a document
+# โหลดหรือสร้างเอกสาร
 doc = aw.Document()
 
-# Your code continues here
+# รหัสของคุณดำเนินต่อไปที่นี่
 ```
 
 ## การเพิ่มลายน้ำข้อความ
@@ -44,13 +46,13 @@ doc = aw.Document()
 3. เพิ่มลายน้ำลงในเอกสาร
 
 ```python
-# Create a watermark object
+# สร้างวัตถุลายน้ำ
 watermark = aw.drawing.Watermark()
 
-# Set text for the watermark
+# ตั้งค่าข้อความสำหรับลายน้ำ
 watermark.text = "Confidential"
 
-# Add the watermark to the document
+# เพิ่มลายน้ำลงในเอกสาร
 doc.watermark = watermark
 ```
 
@@ -59,7 +61,7 @@ doc.watermark = watermark
 คุณสามารถปรับแต่งลักษณะที่ปรากฏของลายน้ำข้อความได้โดยปรับคุณสมบัติต่างๆ ดังนี้:
 
 ```python
-# Customize text watermark appearance
+# ปรับแต่งลักษณะลายน้ำข้อความ
 watermark.font.size = 36
 watermark.font.bold = True
 watermark.color = aw.drawing.Color.GRAY
@@ -74,14 +76,14 @@ watermark.color = aw.drawing.Color.GRAY
 3. เพิ่มลายน้ำภาพลงในเอกสาร
 
 ```python
-# Load the image for the watermark
+# โหลดภาพสำหรับลายน้ำ
 image_path = "path/to/watermark.png"
 watermark_image = aw.drawing.Image(image_path)
 
-# Create an image watermark object
+# สร้างวัตถุลายน้ำภาพ
 image_watermark = aw.drawing.ImageWatermark(watermark_image)
 
-# Add the image watermark to the document
+# เพิ่มลายน้ำภาพลงในเอกสาร
 doc.watermark = image_watermark
 ```
 
@@ -90,7 +92,7 @@ doc.watermark = image_watermark
 คุณสามารถควบคุมขนาดและตำแหน่งของลายน้ำภาพได้:
 
 ```python
-# Adjust image watermark properties
+# ปรับแต่งคุณสมบัติลายน้ำภาพ
 image_watermark.size = aw.drawing.SizeF(200, 100)
 image_watermark.relative_horizontal_position = aw.drawing.RelativeHorizontalPosition.CENTER
 image_watermark.relative_vertical_position = aw.drawing.RelativeVerticalPosition.MIDDLE
@@ -98,10 +100,10 @@ image_watermark.relative_vertical_position = aw.drawing.RelativeVerticalPosition
 
 ## การใช้ลายน้ำกับส่วนเฉพาะของเอกสาร
 
-หากคุณต้องการใส่ลายน้ำลงในส่วนเฉพาะของเอกสาร คุณสามารถใช้วิธีการดังต่อไปนี้:
+หากคุณต้องการใส่ลายน้ำลงในส่วนเฉพาะของเอกสาร คุณสามารถใช้วิธีการต่อไปนี้ได้:
 
 ```python
-# Apply watermark to a specific section
+# ใช้ลายน้ำกับส่วนที่เฉพาะเจาะจง
 section = doc.sections[0]
 section.watermark = watermark
 ```
@@ -111,8 +113,8 @@ section.watermark = watermark
 ในการสร้างลายน้ำโปร่งใส ให้ปรับระดับความโปร่งใส:
 
 ```python
-# Create a transparent watermark
-watermark.transparency = 0.5  # Range: 0 (opaque) to 1 (fully transparent)
+# สร้างลายน้ำโปร่งใส
+watermark.transparency = 0.5  # ช่วง: 0 (ทึบแสง) ถึง 1 (โปร่งใสเต็มที่)
 ```
 
 ## การบันทึกเอกสารด้วยลายน้ำ
@@ -120,7 +122,7 @@ watermark.transparency = 0.5  # Range: 0 (opaque) to 1 (fully transparent)
 เมื่อคุณเพิ่มลายน้ำแล้ว ให้บันทึกเอกสารโดยใช้ลายน้ำที่นำไปใช้:
 
 ```python
-# Save the document with watermarks
+# บันทึกเอกสารด้วยลายน้ำ
 output_path = "path/to/output/document_with_watermark.docx"
 doc.save(output_path)
 ```
@@ -133,7 +135,7 @@ doc.save(output_path)
 
 ### ฉันจะลบลายน้ำออกจากเอกสารได้อย่างไร
 
- หากต้องการลบลายน้ำ ให้ตั้งค่าคุณสมบัติลายน้ำของเอกสารเป็น`None`.
+หากต้องการลบลายน้ำ ให้ตั้งค่าคุณสมบัติลายน้ำของเอกสารเป็น `None`-
 
 ### ฉันสามารถใช้ลายน้ำที่แตกต่างกันในแต่ละหน้าได้หรือไม่
 
@@ -151,10 +153,15 @@ doc.save(output_path)
 
 ใช่ Aspose.Words สำหรับ Python สามารถใช้งานได้กับทั้งสภาพแวดล้อม Windows และ Linux
 
- สำหรับรายละเอียดเพิ่มเติมและการอ้างอิง API ที่ครอบคลุม โปรดไปที่เอกสาร Aspose.Words:[เอกสารอ้างอิง API Aspose.Words สำหรับ Python](https://reference.aspose.com/words/python-net/)
+สำหรับรายละเอียดเพิ่มเติมและการอ้างอิง API ที่ครอบคลุม โปรดไปที่เอกสาร Aspose.Words: [เอกสารอ้างอิง API Aspose.Words สำหรับ Python](https://reference.aspose.com/words/python-net/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

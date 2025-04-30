@@ -1,14 +1,16 @@
 ---
-title: ลงนามในเอกสาร Word
-linktitle: ลงนามในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการลงนามในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ รักษาความปลอดภัยเอกสารของคุณได้อย่างง่ายดาย
-weight: 10
-url: /th/net/programming-with-digital-signatures/sign-document/
+"description": "เรียนรู้วิธีการลงนามในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ รักษาความปลอดภัยเอกสารของคุณได้อย่างง่ายดาย"
+"linktitle": "ลงนามในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ลงนามในเอกสาร Word"
+"url": "/th/net/programming-with-digital-signatures/sign-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลงนามในเอกสาร Word
@@ -21,7 +23,7 @@ url: /th/net/programming-with-digital-signatures/sign-document/
 
 ก่อนที่จะเจาะลึกโค้ด มีบางสิ่งที่คุณต้องมี:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET เวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET เวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อม .NET: ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อมการพัฒนา .NET ไว้แล้ว (เช่น Visual Studio)
 3. ใบรับรองดิจิทัล: รับใบรับรองดิจิทัล (เช่น ไฟล์ .pfx) สำหรับการลงนามเอกสาร
 4. เอกสารที่จะลงนาม: เตรียมเอกสาร Word ที่คุณต้องการลงนามไว้
@@ -53,7 +55,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 ### คำอธิบาย
 
 - `dataDir`:นี่คือไดเร็กทอรีที่จัดเก็บใบรับรองและเอกสารของคุณ
-- `CertificateHolder.Create` : วิธีการนี้จะโหลดใบรับรองจากเส้นทางที่ระบุ แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงไปยังไดเร็กทอรีของคุณและ`"morzal.pfx"` ด้วยชื่อไฟล์ใบรับรองของคุณ`"aw"` คือรหัสผ่านสำหรับใบรับรอง
+- `CertificateHolder.Create`: วิธีการนี้จะโหลดใบรับรองจากเส้นทางที่ระบุ แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงไปยังไดเร็กทอรีของคุณและ `"morzal.pfx"` ด้วยชื่อไฟล์ใบรับรองของคุณ `"aw"` คือรหัสผ่านสำหรับใบรับรอง
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร Word
 
@@ -66,11 +68,11 @@ Document doc = new Document(dataDir + "Digitally signed.docx");
 
 ### คำอธิบาย
 
-- `Document` : คลาสนี้แสดงถึงเอกสาร Word แทนที่`"Digitally signed.docx"`พร้อมชื่อเอกสารของคุณ
+- `Document`คลาสนี้แสดงถึงเอกสาร Word แทนที่ `"Digitally signed.docx"` พร้อมชื่อเอกสารของคุณ
 
 ## ขั้นตอนที่ 3: ลงนามในเอกสาร
 
- ตอนนี้ใช้`DigitalSignatureUtil.Sign` วิธีการลงนามเอกสาร
+ตอนนี้ใช้ `DigitalSignatureUtil.Sign` วิธีการลงนามเอกสาร
 
 ```csharp
 // ลงนามในเอกสาร
@@ -92,7 +94,7 @@ doc.Save(dataDir + "Document.Signed.docx");
 
 ### คำอธิบาย
 
-- `doc.Save` : วิธีการนี้จะบันทึกเอกสารที่ลงนามแล้ว แทนที่`"Document.Signed.docx"` พร้อมชื่อเอกสารที่คุณต้องการลงนาม
+- `doc.Save`: วิธีการนี้จะบันทึกเอกสารที่ลงนามแล้ว แทนที่ `"Document.Signed.docx"` พร้อมชื่อเอกสารที่คุณต้องการลงนาม
 
 ## บทสรุป
 
@@ -110,13 +112,18 @@ doc.Save(dataDir + "Document.Signed.docx");
 ใช่ ตราบใดที่ไฟล์ .pfx มีใบรับรองดิจิทัลที่ถูกต้องและคุณมีรหัสผ่านในการเข้าถึงไฟล์นั้น
 
 ### Aspose.Words สำหรับ .NET ใช้ได้ฟรีหรือไม่?
- Aspose.Words สำหรับ .NET เป็นไลบรารีเชิงพาณิชย์ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/) แต่คุณจะต้องซื้อใบอนุญาตเพื่อใช้งานฟังก์ชันเต็มรูปแบบ คุณสามารถซื้อได้[ที่นี่](https://purchase.aspose.com/buy).
+Aspose.Words สำหรับ .NET เป็นไลบรารีเชิงพาณิชย์ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้ [ที่นี่](https://releases.aspose.com/)แต่คุณจะต้องซื้อใบอนุญาตเพื่อใช้งานฟังก์ชันเต็มรูปแบบ คุณสามารถซื้อได้ [ที่นี่](https://purchase-aspose.com/buy).
 
 ### ฉันสามารถหาข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้[ที่นี่](https://reference.aspose.com/words/net/) และการสนับสนุน[ที่นี่](https://forum.aspose.com/c/words/8).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้ [ที่นี่](https://reference.aspose.com/words/net/) และการสนับสนุน [ที่นี่](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

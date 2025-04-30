@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Birleştirme Alanına Taşı
-linktitle: Word Belgesinde Birleştirme Alanına Taşı
-second_title: Aspose.Words Belge İşleme API'si
-description: Kapsamlı adım adım kılavuzumuzla .NET için Aspose.Words'ü kullanarak bir Word belgesinde birleştirme alanına nasıl taşınacağınızı öğrenin. .NET geliştiricileri için mükemmeldir.
-weight: 10
-url: /tr/net/add-content-using-documentbuilder/move-to-merge-field/
+"description": "Kapsamlı adım adım kılavuzumuzla .NET için Aspose.Words'ü kullanarak bir Word belgesinde birleştirme alanına nasıl taşınacağınızı öğrenin. .NET geliştiricileri için mükemmeldir."
+"linktitle": "Word Belgesinde Birleştirme Alanına Taşı"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Birleştirme Alanına Taşı"
+"url": "/tr/net/add-content-using-documentbuilder/move-to-merge-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Birleştirme Alanına Taşı
@@ -19,15 +21,15 @@ Merhaba! Kendinizi bir Word belgesinin içinde gömülü halde buldunuz mu, beli
 
 ## Ön koşullar
 
-Ayrıntılara girmeden önce, işleri bir sıraya koyalım. Başlamak için ihtiyacınız olanlar şunlardır:
+İnce ayrıntılara dalmadan önce, işleri bir sıraya koyalım. Başlamak için ihtiyacınız olanlar şunlardır:
 
--  Visual Studio: Visual Studio'nun makinenizde yüklü olduğundan emin olun. Değilse, indirebilirsiniz[Burada](https://visualstudio.microsoft.com/).
--  .NET için Aspose.Words: Aspose.Words kütüphanesine ihtiyacınız var. Bunu şuradan indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/words/net/).
+- Visual Studio: Visual Studio'nun makinenizde yüklü olduğundan emin olun. Değilse, indirebilirsiniz [Burada](https://visualstudio.microsoft.com/).
+- .NET için Aspose.Words: Aspose.Words kütüphanesine ihtiyacınız var. Bunu şuradan indirebilirsiniz: [bu bağlantı](https://releases.aspose.com/words/net/).
 - .NET Framework: .NET Framework'ün yüklü olduğundan emin olun.
 
 ## Ad Alanlarını İçe Aktar
 
-İlk önce, gerekli ad alanlarını içe aktaralım. Bu, bir projeye başlamadan önce çalışma alanınızı ayarlamaya benzer.
+İlk önce, gerekli ad alanlarını içe aktaralım. Bu, bir projeye başlamadan önce çalışma alanınızı ayarlamak gibidir.
 
 ```csharp
 using Aspose.Words;
@@ -45,7 +47,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Bu adımda yeni bir belge başlatıyoruz ve`DocumentBuilder` nesne.`DocumentBuilder` belgenizi oluşturmanız için bir araçtır.
+Bu adımda yeni bir belge başlatıyoruz ve `DocumentBuilder` nesne. `DocumentBuilder` belgenizi oluşturmanız için bir araçtır.
 
 ## Adım 2: Birleştirme Alanı Ekle
 
@@ -66,7 +68,7 @@ Burada, "alan" adında bir birleştirme alanı ekliyoruz ve hemen ardından bira
 builder.MoveToDocumentEnd();
 ```
 
- Bu komut,`DocumentBuilder` imleci belgenin sonuna getirerek bizi bir sonraki adımlara hazırlar.
+Bu komut, `DocumentBuilder` imleci belgenin sonuna getirerek bizi bir sonraki adımlara hazırlar.
 
 ## Adım 4: Birleştirme Alanına Geçin
 
@@ -115,19 +117,24 @@ Ve işte karşınızda! Aspose.Words for .NET kullanarak bir Word belgesinde bir
 Aspose.Words for .NET, geliştiricilerin .NET çerçevesini kullanarak Word belgelerini programlı bir şekilde oluşturmalarına, değiştirmelerine ve dönüştürmelerine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.Words for .NET'i nasıl yüklerim?
- Aspose.Words for .NET'i şu adresten indirip yükleyebilirsiniz:[Burada](https://releases.aspose.com/words/net/). Web sitesinde verilen kurulum talimatlarını izleyin.
+Aspose.Words for .NET'i şu adresten indirip yükleyebilirsiniz: [Burada](https://releases.aspose.com/words/net/). Web sitesinde verilen kurulum talimatlarını izleyin.
 
 ### Aspose.Words for .NET'i .NET Core ile kullanabilir miyim?
- Evet, Aspose.Words for .NET, .NET Core ile uyumludur. Daha fazla ayrıntıyı şurada bulabilirsiniz:[belgeleme](https://reference.aspose.com/words/net/).
+Evet, Aspose.Words for .NET, .NET Core ile uyumludur. Daha fazla ayrıntıyı şurada bulabilirsiniz: [belgeleme](https://reference.aspose.com/words/net/).
 
 ### Aspose.Words için geçici lisansı nasıl alabilirim?
- Geçici lisansı şuradan alabilirsiniz:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+Geçici lisansı şuradan alabilirsiniz: [bu bağlantı](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words for .NET için daha fazla örnek ve desteği nerede bulabilirim?
- Daha fazla örnek ve destek için şu adresi ziyaret edin:[Aspose.Words for .NET forumu](https://forum.aspose.com/c/words/8).
+Daha fazla örnek ve destek için şu adresi ziyaret edin: [Aspose.Words for .NET forumu](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

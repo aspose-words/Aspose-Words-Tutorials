@@ -1,30 +1,32 @@
 ---
-title: Použití poznámek pod čarou a vysvětlivky v Aspose.Words pro Java
-linktitle: Používání poznámek pod čarou a vysvětlivky
-second_title: Aspose.Words Java Document Processing API
-description: Naučte se efektivně používat poznámky pod čarou a vysvětlivky v Aspose.Words for Java. Vylepšete své dovednosti v oblasti formátování dokumentů ještě dnes!
-weight: 13
-url: /cs/java/using-document-elements/using-footnotes-and-endnotes/
+"description": "Naučte se efektivně používat poznámky pod čarou a vysvětlivky v Aspose.Words pro Javu. Zlepšete si své dovednosti formátování dokumentů ještě dnes!"
+"linktitle": "Používání poznámek pod čarou a poznámek na konci"
+"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
+"title": "Používání poznámek pod čarou a koncových poznámek v Aspose.Words pro Javu"
+"url": "/cs/java/using-document-elements/using-footnotes-and-endnotes/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Použití poznámek pod čarou a vysvětlivky v Aspose.Words pro Java
+# Používání poznámek pod čarou a koncových poznámek v Aspose.Words pro Javu
 
 
-V tomto tutoriálu vás provedeme procesem používání poznámek pod čarou a vysvětlivek v Aspose.Words pro Java. Poznámky pod čarou a vysvětlivky jsou základními prvky formátování dokumentu, často se používají pro citace, odkazy a další informace. Aspose.Words for Java poskytuje robustní funkce pro bezproblémovou práci s poznámkami pod čarou a vysvětlivkami.
+tomto tutoriálu vás provedeme procesem používání poznámek pod čarou a koncových poznámek v Aspose.Words pro Javu. Poznámky pod čarou a koncové poznámky jsou základními prvky formátování dokumentů a často se používají pro citace, odkazy a další informace. Aspose.Words pro Javu poskytuje robustní funkce pro bezproblémovou práci s poznámkami pod čarou a koncovými poznámkami.
 
-## 1. Úvod do poznámek pod čarou a vysvětlivky
+## 1. Úvod do poznámek pod čarou a poznámek na konci textu
 
-Poznámky pod čarou a vysvětlivky jsou anotace, které poskytují doplňující informace nebo citace v dokumentu. Poznámky pod čarou se zobrazují ve spodní části stránky, zatímco vysvětlivky se shromažďují na konci oddílu nebo dokumentu. Běžně se používají v akademických pracích, zprávách a právních dokumentech k odkazování na zdroje nebo objasnění obsahu.
+Poznámky pod čarou a koncové poznámky jsou anotace, které poskytují doplňující informace nebo citace v dokumentu. Poznámky pod čarou se zobrazují ve spodní části stránky, zatímco koncové poznámky se shromažďují na konci části nebo dokumentu. Běžně se používají v akademických pracích, zprávách a právních dokumentech k odkazování na zdroje nebo k objasnění obsahu.
 
-## 2. Nastavení vašeho prostředí
+## 2. Nastavení prostředí
 
-Než se pustíme do práce s poznámkami pod čarou a vysvětlivkami, musíte nastavit vývojové prostředí. Ujistěte se, že máte ve svém projektu nainstalované a nakonfigurované rozhraní Aspose.Words for Java API.
+Než se pustíme do práce s poznámkami pod čarou a vysvětlivkami, je třeba si nastavit vývojové prostředí. Ujistěte se, že máte ve svém projektu nainstalované a nakonfigurované rozhraní Aspose.Words pro Java API.
 
-## 3. Přidání poznámek pod čarou do vašeho dokumentu
+## 3. Přidání poznámek pod čarou do dokumentu
 
 Chcete-li do dokumentu přidat poznámky pod čarou, postupujte takto:
 ```java
@@ -34,7 +36,7 @@ string outPath = "Your Output Directory";
 public void getFootnoteOptions(){
     Document doc = new Document(dataDir + "Document.docx");
     
-    // Zadejte počet sloupců, se kterými je oblast poznámek pod čarou formátována.
+    // Zadejte počet sloupců, s nimiž bude formátována oblast poznámek pod čarou.
     doc.getFootnoteOptions().setColumns(3);
     doc.save("Your Directory Path" + "WorkingWithFootnotes.SetFootNoteColumns.docx");
 }
@@ -42,7 +44,7 @@ public void getFootnoteOptions(){
 
 ## 4. Úprava možností poznámky pod čarou
 
-Můžete upravit možnosti poznámek pod čarou a přizpůsobit jejich vzhled a chování. Zde je postup:
+Vzhled a chování poznámek pod čarou můžete upravit úpravou možností. Postupujte takto:
 ```java
 @Test
 public void setFootnoteAndEndNotePosition() throws Exception {
@@ -55,9 +57,9 @@ public void setFootnoteAndEndNotePosition() throws Exception {
 }
 ```
 
-## 5. Přidání vysvětlivek do vašeho dokumentu
+## 5. Přidání poznámek na konci dokumentu
 
-Přidání vysvětlivky do dokumentu je jednoduché. Zde je příklad:
+Přidání poznámek na konci dokumentu je jednoduché. Zde je příklad:
 ```java
 @Test
 public void setEndnoteOptions() throws Exception {
@@ -75,9 +77,9 @@ public void setEndnoteOptions() throws Exception {
 }
 ```
 
-## 6. Přizpůsobení nastavení Endnote
+## 6. Úprava nastavení poznámky na konci
 
-Nastavení koncových poznámek můžete dále upravit tak, aby vyhovovalo vašim požadavkům na dokument.
+Nastavení poznámky na konci textu si můžete dále přizpůsobit tak, aby splňovala požadavky vašeho dokumentu.
 
 ## Kompletní zdrojový kód
 ```java
@@ -85,7 +87,7 @@ Nastavení koncových poznámek můžete dále upravit tak, aby vyhovovalo vaši
 	string outPath = "Your Output Directory";
 	public void getFootnoteOptions(){
         Document doc = new Document(dataDir + "Document.docx");
-        // Zadejte počet sloupců, se kterými je oblast poznámek pod čarou formátována.
+        // Zadejte počet sloupců, s nimiž bude formátována oblast poznámek pod čarou.
         doc.getFootnoteOptions().setColumns(3);
         doc.save("Your Directory Path" + "WorkingWithFootnotes.SetFootNoteColumns.docx");
     }
@@ -113,28 +115,33 @@ Nastavení koncových poznámek můžete dále upravit tak, aby vyhovovalo vaši
 
 ## 7. Závěr
 
-V tomto tutoriálu jsme prozkoumali, jak pracovat s poznámkami pod čarou a vysvětlivkami v Aspose.Words for Java. Tyto funkce jsou neocenitelné pro vytváření dobře strukturovaných dokumentů se správnými citacemi a odkazy.
+V tomto tutoriálu jsme prozkoumali, jak pracovat s poznámkami pod čarou a vysvětlivkami v Aspose.Words pro Javu. Tyto funkce jsou neocenitelné pro vytváření dobře strukturovaných dokumentů se správnými citacemi a odkazy.
 
-Nyní, když jste se naučili používat poznámky pod čarou a vysvětlivky, můžete vylepšit formátování dokumentu a učinit svůj obsah profesionálnějším.
+Nyní, když jste se naučili používat poznámky pod čarou a vysvětlivky, můžete vylepšit formátování dokumentu a zkvalitnit jeho obsah.
 
 ### Často kladené otázky
 
-### 1. Jaký je rozdíl mezi poznámkami pod čarou a vysvětlivkami?
-Poznámky pod čarou se zobrazují ve spodní části stránky, zatímco vysvětlivky se shromažďují na konci oddílu nebo dokumentu.
+### 1. Jaký je rozdíl mezi poznámkami pod čarou a poznámkami na konci?
+Poznámky pod čarou se zobrazují ve spodní části stránky, zatímco poznámky na konci sekce nebo dokumentu se shromažďují na konci.
 
-### 2. Jak mohu změnit pozici poznámek pod čarou nebo vysvětlivky?
- Můžete použít`setPosition` metoda pro změnu pozice poznámek pod čarou nebo vysvětlivky.
+### 2. Jak mohu změnit umístění poznámek pod čarou nebo koncových poznámek?
+Můžete použít `setPosition` metoda pro změnu umístění poznámek pod čarou nebo koncových poznámek.
 
-### 3. Mohu přizpůsobit formátování poznámek pod čarou a vysvětlivky?
-Ano, můžete upravit formátování poznámek pod čarou a vysvětlivky pomocí Aspose.Words for Java.
+### 3. Mohu si přizpůsobit formátování poznámek pod čarou a vysvětlivek?
+Ano, formátování poznámek pod čarou a vysvětlivek si můžete přizpůsobit pomocí Aspose.Words pro Javu.
 
-### 4. Jsou poznámky pod čarou a vysvětlivky důležité při formátování dokumentu?
-Ano, poznámky pod čarou a vysvětlivky jsou nezbytné pro poskytování odkazů a dalších informací v dokumentech.
+### 4. Jsou poznámky pod čarou a vysvětlivky důležité pro formátování dokumentu?
+Ano, poznámky pod čarou a koncové poznámky jsou nezbytné pro uvádění odkazů a dalších informací v dokumentech.
 
-Neváhejte a prozkoumejte další funkce Aspose.Words for Java a vylepšete své možnosti vytváření dokumentů. Šťastné kódování!
+Neváhejte a prozkoumejte další funkce Aspose.Words pro Javu a vylepšete si své možnosti tvorby dokumentů. Přejeme vám příjemné programování!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

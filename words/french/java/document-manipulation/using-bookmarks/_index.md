@@ -1,14 +1,16 @@
 ---
-title: Utilisation des signets dans Aspose.Words pour Java
-linktitle: Utilisation des signets
-second_title: API de traitement de documents Java Aspose.Words
-description: Optimisez le traitement de vos documents avec Aspose.Words pour Java. Apprenez à utiliser les signets pour une navigation et une manipulation efficaces du contenu dans ce guide étape par étape.
-weight: 17
-url: /fr/java/document-manipulation/using-bookmarks/
+"description": "Optimisez le traitement de vos documents avec Aspose.Words pour Java. Apprenez à utiliser les signets pour une navigation et une manipulation efficaces du contenu grâce à ce guide étape par étape."
+"linktitle": "Utiliser les signets"
+"second_title": "API de traitement de documents Java Aspose.Words"
+"title": "Utilisation des signets dans Aspose.Words pour Java"
+"url": "/fr/java/document-manipulation/using-bookmarks/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utilisation des signets dans Aspose.Words pour Java
@@ -16,9 +18,9 @@ url: /fr/java/document-manipulation/using-bookmarks/
 
 ## Introduction à l'utilisation des signets dans Aspose.Words pour Java
 
-Les signets sont une fonctionnalité puissante d'Aspose.Words pour Java qui vous permet de marquer et de manipuler des parties spécifiques d'un document. Dans ce guide étape par étape, nous découvrirons comment utiliser les signets dans Aspose.Words pour Java pour améliorer le traitement de vos documents. 
+Les signets sont une fonctionnalité puissante d'Aspose.Words pour Java qui vous permet de marquer et de manipuler des parties spécifiques d'un document. Dans ce guide étape par étape, nous allons découvrir comment utiliser les signets dans Aspose.Words pour Java pour optimiser le traitement de vos documents. 
 
-## Étape 1 : Créer un signet
+## Étape 1 : Créer un signet
 
 Pour créer un signet, suivez ces étapes :
 
@@ -30,13 +32,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.startBookmark("My Bookmark");
 builder.writeln("Text inside a bookmark.");
 
-//Mettre fin au signet
+// Terminer le signet
 builder.endBookmark("My Bookmark");
 ```
 
 ## Étape 2 : Accéder aux signets
 
-Vous pouvez accéder aux signets d'un document à l'aide de leur index ou de leur nom. Voici comment procéder :
+Vous pouvez accéder aux signets d'un document grâce à leur index ou à leur nom. Voici comment :
 
 ```java
 Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -44,7 +46,7 @@ Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
 // Par index :
 Bookmark bookmark1 = doc.getRange().getBookmarks().get(0);
 
-// Par nom:
+// Par nom :
 Bookmark bookmark2 = doc.getRange().getBookmarks().get("MyBookmark3");
 ```
 
@@ -63,7 +65,7 @@ bookmark.setText("This is new bookmarked text.");
 
 ## Étape 4 : Travailler avec du texte marqué d'un signet
 
-Vous pouvez copier le texte marqué d'un signet et l'ajouter à un autre document. Voici comment procéder :
+Vous pouvez copier le texte marqué d'un signet et l'ajouter à un autre document. Voici comment :
 
 ```java
 Document srcDoc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -76,7 +78,7 @@ dstDoc.save("Your Directory Path" + "WorkingWithBookmarks.CopyBookmarkedText.doc
 
 ## Étape 5 : Afficher et masquer les signets
 
-Vous pouvez afficher ou masquer les signets dans un document. Voici un exemple :
+Vous pouvez afficher ou masquer les signets d'un document. Voici un exemple :
 
 ```java
 Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -84,7 +86,7 @@ showHideBookmarkedContent(doc, "MyBookmark1", false);
 doc.save("Your Directory Path" + "WorkingWithBookmarks.ShowHideBookmarks.docx");
 ```
 
-## Étape 6 : Démêler les signets de rangée
+## Étape 6 : Démêler les signets de rangée
 
 Démêler les signets de rangée vous permet de travailler avec eux plus efficacement :
 
@@ -97,17 +99,17 @@ doc.save("Your Directory Path" + "WorkingWithBookmarks.UntangleRowBookmarks.docx
 
 ## Conclusion
 
-L'utilisation de signets dans Aspose.Words pour Java peut grandement simplifier les tâches de traitement de documents. Que vous ayez besoin de parcourir, d'extraire ou de manipuler du contenu, les signets fournissent un mécanisme puissant pour le faire efficacement.
+L'utilisation de signets dans Aspose.Words pour Java simplifie considérablement le traitement des documents. Que vous ayez besoin de naviguer, d'extraire ou de manipuler du contenu, les signets offrent un mécanisme puissant pour le faire efficacement.
 
 ## FAQ
 
-### Comment créer un signet dans une cellule d'un tableau ?
+### Comment créer un signet dans une cellule de tableau ?
 
- Pour créer un signet dans une cellule de tableau, utilisez le`DocumentBuilder` classe et démarre et termine le signet dans la cellule.
+Pour créer un signet dans une cellule de tableau, utilisez le `DocumentBuilder` classe et démarre et termine le signet dans la cellule.
 
 ### Puis-je copier un signet dans un autre document ?
 
- Oui, vous pouvez copier un signet vers un autre document à l'aide de l'`NodeImporter` classe pour garantir que la mise en forme est préservée.
+Oui, vous pouvez copier un signet vers un autre document en utilisant le `NodeImporter` classe pour garantir que la mise en forme est préservée.
 
 ### Comment puis-je supprimer une ligne par son signet ?
 
@@ -119,10 +121,15 @@ Les signets sont couramment utilisés pour générer une table des matières, ex
 
 ### Où puis-je trouver plus d'informations sur Aspose.Words pour Java ?
 
- Pour une documentation détaillée et des téléchargements, visitez[Documentation Aspose.Words pour Java](https://reference.aspose.com/words/java/).
+Pour une documentation détaillée et des téléchargements, visitez [Documentation Aspose.Words pour Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

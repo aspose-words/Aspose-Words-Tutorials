@@ -1,49 +1,51 @@
 ---
-title: Přesunout uzel ve sledovaném dokumentu
-linktitle: Přesunout uzel ve sledovaném dokumentu
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se přesouvat uzly ve sledovaném dokumentu Word pomocí Aspose.Words for .NET s naším podrobným průvodcem krok za krokem. Ideální pro vývojáře.
-weight: 10
-url: /cs/net/working-with-revisions/move-node-in-tracked-document/
+"description": "Naučte se, jak přesouvat uzly ve sledovaném dokumentu Wordu pomocí Aspose.Words pro .NET s naším podrobným návodem krok za krokem. Ideální pro vývojáře."
+"linktitle": "Přesunout uzel ve sledovaném dokumentu"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Přesunout uzel ve sledovaném dokumentu"
+"url": "/cs/net/working-with-revisions/move-node-in-tracked-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Přesunout uzel ve sledovaném dokumentu
 
 ## Zavedení
 
-Ahoj, nadšenci Aspose.Words! Pokud jste někdy potřebovali přesunout uzel v dokumentu aplikace Word při sledování revizí, jste na správném místě. Dnes se ponoříme do toho, jak toho dosáhnout pomocí Aspose.Words pro .NET. Nejen, že se naučíte postup krok za krokem, ale také si vyzvednete několik tipů a triků, díky kterým bude manipulace s dokumenty hladká a efektivní.
+Ahoj, nadšenci do Aspose.Words! Pokud jste někdy potřebovali přesunout uzel v dokumentu Wordu a zároveň sledovat revize, jste na správném místě. Dnes se ponoříme do toho, jak toho dosáhnout pomocí Aspose.Words pro .NET. Nejenže se naučíte postup krok za krokem, ale také se dozvíte několik tipů a triků, jak manipulaci s dokumenty zefektivnit a zefektivnit.
 
 ## Předpoklady
 
-Než si ušpiníme ruce nějakým kódem, ujistěte se, že máte vše, co potřebujete:
+Než se pustíme do kódování, ujistěme se, že máte vše potřebné:
 
--  Aspose.Words pro .NET: Stáhněte si ji[zde](https://releases.aspose.com/words/net/).
-- Prostředí .NET: Ujistěte se, že máte nastaveno kompatibilní vývojové prostředí .NET.
-- Základní znalosti C#: Tento tutoriál předpokládá, že máte základní znalosti C#.
+- Aspose.Words pro .NET: Stáhněte si jej [zde](https://releases.aspose.com/words/net/).
+- Prostředí .NET: Ujistěte se, že máte nastavené kompatibilní vývojové prostředí .NET.
+- Základní znalost jazyka C#: Tento tutoriál předpokládá, že máte základní znalosti jazyka C#.
 
-Máš všechno? Velký! Pojďme k jmenným prostorům, které potřebujeme importovat.
+Máte všechno hotovo? Skvělé! Pojďme se přesunout k jmenným prostorům, které potřebujeme importovat.
 
 ## Importovat jmenné prostory
 
-Nejprve musíme importovat potřebné jmenné prostory. Ty jsou nezbytné pro práci s Aspose.Words a manipulaci s uzly dokumentu.
+Nejdříve musíme importovat potřebné jmenné prostory. Ty jsou nezbytné pro práci s Aspose.Words a manipulaci s uzly dokumentů.
 
 ```csharp
 using Aspose.Words;
 using System;
 ```
 
-Dobře, pojďme si tento proces rozdělit na zvládnutelné kroky. Každý krok bude podrobně vysvětlen, aby bylo zajištěno, že porozumíte tomu, co se v každém bodě děje.
+Dobře, rozdělme si proces na zvládnutelné kroky. Každý krok bude podrobně vysvětlen, abyste pochopili, co se v každém okamžiku děje.
 
-## Krok 1: Inicializujte dokument
+## Krok 1: Inicializace dokumentu
 
- Pro začátek musíme inicializovat nový dokument a použít a`DocumentBuilder` přidat nějaké odstavce.
+Pro začátek musíme inicializovat nový dokument a použít `DocumentBuilder` přidat nějaké odstavce.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -61,26 +63,26 @@ Body body = doc.FirstSection.Body;
 Console.WriteLine("Paragraph count: {0}", body.Paragraphs.Count);
 ```
 
-## Krok 2: Spusťte sledování revizí
+## Krok 2: Začněte sledovat revize
 
-Dále musíme začít se sledováním revizí. To je zásadní, protože nám to umožňuje vidět změny provedené v dokumentu.
+Dále musíme začít sledovat revize. To je klíčové, protože nám to umožňuje vidět změny provedené v dokumentu.
 
 ```csharp
-// Začněte sledovat revize
+// Začít sledovat revize
 doc.StartTrackRevisions("Author", new DateTime(2020, 12, 23, 14, 0, 0));
 ```
 
 ## Krok 3: Přesun uzlů
 
-Nyní přichází hlavní část našeho úkolu: přesunutí uzlu z jednoho místa na druhé. Přesuneme třetí odstavec a umístíme jej před odstavec první.
+Nyní přichází na řadu klíčová část našeho úkolu: přesunutí uzlu z jednoho místa na druhé. Přesuneme třetí odstavec a umístíme ho před první odstavec.
 
 ```csharp
-// Definujte uzel, který se má přesunout, a jeho koncový rozsah
+// Definujte uzel, který má být přesunut, a jeho koncový rozsah
 Node node = body.Paragraphs[3];
 Node endNode = body.Paragraphs[5].NextSibling;
 Node referenceNode = body.Paragraphs[0];
 
-// Přesuňte uzly v definovaném rozsahu
+// Přesunout uzly v rámci definovaného rozsahu
 while (node != endNode)
 {
     Node nextNode = node.NextSibling;
@@ -89,9 +91,9 @@ while (node != endNode)
 }
 ```
 
-## Krok 4: Zastavte sledování revizí
+## Krok 4: Zastavení sledování revizí
 
-Jakmile jsme přesunuli uzly, musíme zastavit sledování revizí.
+Jakmile přesuneme uzly, musíme přestat sledovat revize.
 
 ```csharp
 // Zastavit sledování revizí
@@ -100,44 +102,49 @@ doc.StopTrackRevisions();
 
 ## Krok 5: Uložte dokument
 
-Nakonec uložme náš upravený dokument do zadaného adresáře.
+Nakonec uložme upravený dokument do zadaného adresáře.
 
 ```csharp
-// Uložte upravený dokument
+// Uložit upravený dokument
 doc.Save(dataDir + "WorkingWithRevisions.MoveNodeInTrackedDocument.docx");
 
-// Zadejte konečný počet odstavců
+// Vypište konečný počet odstavců
 Console.WriteLine("Paragraph count: {0}", body.Paragraphs.Count);
 ```
 
 ## Závěr
 
-A tady to máte! Úspěšně jste přesunuli uzel ve sledovaném dokumentu pomocí Aspose.Words for .NET. Tato výkonná knihovna usnadňuje programovou manipulaci s dokumenty Wordu. Ať už vytváříte, upravujete nebo sledujete změny, Aspose.Words vám pomůže. Takže do toho a vyzkoušejte to. Šťastné kódování!
+A tady to máte! Úspěšně jste přesunuli uzel ve sledovaném dokumentu pomocí Aspose.Words pro .NET. Tato výkonná knihovna usnadňuje programovou manipulaci s dokumenty Wordu. Ať už vytváříte, upravujete nebo sledujete změny, Aspose.Words vám s tím pomůže. Tak se do toho pusťte. Hodně štěstí při programování!
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
+### Co je Aspose.Words pro .NET?
 
-Aspose.Words for .NET je knihovna tříd pro programovou práci s dokumenty Wordu. Umožňuje vývojářům vytvářet, upravovat, převádět a tisknout dokumenty Wordu v aplikacích .NET.
+Aspose.Words pro .NET je knihovna tříd pro programovou práci s dokumenty Wordu. Umožňuje vývojářům vytvářet, upravovat, převádět a tisknout dokumenty Wordu v aplikacích .NET.
 
-### Jak mohu sledovat revize v dokumentu aplikace Word pomocí Aspose.Words?
+### Jak mohu sledovat revize v dokumentu Word pomocí Aspose.Words?
 
- Chcete-li sledovat revize, použijte`StartTrackRevisions` metoda na`Document` objekt. To povolí sledování revizí a zobrazí všechny změny provedené v dokumentu.
+Pro sledování revizí použijte `StartTrackRevisions` metoda na `Document` objekt. To umožní sledování revizí a zobrazení všech provedených změn v dokumentu.
 
 ### Mohu v Aspose.Words přesunout více uzlů?
 
-Ano, můžete přesunout více uzlů jejich opakováním a použitím metod jako`InsertBefore` nebo`InsertAfter` abyste je umístili na požadované místo.
+Ano, můžete přesouvat více uzlů iterací nad nimi a použitím metod jako `InsertBefneboe` or `InsertAfter` aby je umístili na požadované místo.
 
 ### Jak zastavím sledování revizí v Aspose.Words?
 
- Použijte`StopTrackRevisions` metoda na`Document` objekt zastavit sledování revizí.
+Použijte `StopTrackRevisions` metoda na `Document` objekt pro zastavení sledování revizí.
 
 ### Kde najdu další dokumentaci k Aspose.Words pro .NET?
 
- Můžete najít podrobnou dokumentaci[zde](https://reference.aspose.com/words/net/).
+Podrobnou dokumentaci naleznete [zde](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

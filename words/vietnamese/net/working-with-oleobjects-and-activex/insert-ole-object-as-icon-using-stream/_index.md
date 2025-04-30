@@ -1,14 +1,16 @@
 ---
-title: Chèn Đối tượng Ole làm Biểu tượng Sử dụng Stream
-linktitle: Chèn Đối tượng Ole làm Biểu tượng Sử dụng Stream
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn đối tượng OLE dưới dạng biểu tượng bằng luồng với Aspose.Words cho .NET trong hướng dẫn chi tiết từng bước này.
-weight: 10
-url: /vi/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon-using-stream/
+"description": "Tìm hiểu cách chèn đối tượng OLE dưới dạng biểu tượng bằng luồng với Aspose.Words cho .NET trong hướng dẫn chi tiết từng bước này."
+"linktitle": "Chèn Đối tượng Ole làm Biểu tượng Sử dụng Stream"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn Đối tượng Ole làm Biểu tượng Sử dụng Stream"
+"url": "/vi/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon-using-stream/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn Đối tượng Ole làm Biểu tượng Sử dụng Stream
@@ -21,7 +23,7 @@ Trong hướng dẫn này, chúng ta sẽ tìm hiểu một tính năng cực k�
 
 Trước khi tìm hiểu về mã, bạn cần có một số thứ sau:
 
--  Aspose.Words cho .NET: Nếu bạn chưa làm,[tải về](https://releases.aspose.com/words/net/) và cài đặt Aspose.Words cho .NET.
+- Aspose.Words cho .NET: Nếu bạn chưa làm, [tải về](https://releases.aspose.com/words/net/) và cài đặt Aspose.Words cho .NET.
 - Môi trường phát triển: Visual Studio hoặc bất kỳ môi trường phát triển C# nào khác.
 - Tệp đầu vào: Tệp bạn muốn nhúng (ví dụ: bản trình bày PowerPoint) và hình ảnh biểu tượng.
 
@@ -40,7 +42,7 @@ Chúng ta hãy chia nhỏ quy trình theo từng bước để bạn dễ theo d
 
 ## Bước 1: Tạo một tài liệu mới
 
-Đầu tiên, chúng ta sẽ tạo một tài liệu mới và một trình xây dựng tài liệu để làm việc với nó.
+Đầu tiên, chúng ta sẽ tạo một tài liệu mới và trình xây dựng tài liệu để làm việc với nó.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu của bạn
@@ -49,7 +51,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Nghĩ về`Document` như bức tranh vải trắng của bạn và`DocumentBuilder` như cọ vẽ của bạn. Chúng tôi đang thiết lập các công cụ để bắt đầu tạo ra kiệt tác của mình.
+Nghĩ về `Document` như bức tranh vải trắng của bạn và `DocumentBuilder` như cọ vẽ của bạn. Chúng tôi đang thiết lập các công cụ để bắt đầu tạo ra kiệt tác của mình.
 
 ## Bước 2: Chuẩn bị luồng
 
@@ -75,7 +77,7 @@ builder.InsertOleObjectAsIcon(stream, "Package", "Path_to_your_directory/Logo ic
 
 ## Bước 4: Lưu tài liệu
 
-Cuối cùng, chúng ta lưu tài liệu vào một đường dẫn đã chỉ định.
+Cuối cùng, chúng ta lưu tài liệu vào đường dẫn đã chỉ định.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithOleObjectsAndActiveX.InsertOleObjectAsIconUsingStream.docx");
@@ -93,19 +95,24 @@ Và bạn đã có nó! Bạn đã nhúng thành công một đối tượng OLE
 Có, bạn có thể nhúng bất kỳ loại tệp nào được OLE hỗ trợ, bao gồm Word, Excel, PowerPoint, v.v.
 
 ### Tôi có cần giấy phép đặc biệt để sử dụng Aspose.Words cho .NET không?
- Có, Aspose.Words cho .NET yêu cầu phải có giấy phép. Bạn có thể nhận được[dùng thử miễn phí](https://releases.aspose.com/) hoặc mua một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để thử nghiệm.
+Có, Aspose.Words cho .NET yêu cầu phải có giấy phép. Bạn có thể nhận được [dùng thử miễn phí](https://releases.aspose.com/) hoặc mua một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để thử nghiệm.
 
 ### Tôi có thể tùy chỉnh biểu tượng được sử dụng cho đối tượng OLE không?
- Chắc chắn rồi! Bạn có thể sử dụng bất kỳ tệp hình ảnh nào cho biểu tượng bằng cách chỉ định đường dẫn của nó trong`InsertOleObjectAsIcon` phương pháp.
+Chắc chắn rồi! Bạn có thể sử dụng bất kỳ tệp hình ảnh nào cho biểu tượng bằng cách chỉ định đường dẫn của nó trong `InsertOleObjectAsIcon` phương pháp.
 
 ### Điều gì xảy ra nếu đường dẫn tệp hoặc biểu tượng không chính xác?
 Phương pháp này sẽ đưa ra ngoại lệ. Đảm bảo đường dẫn đến tệp của bạn là chính xác để tránh lỗi.
 
 ### Có thể liên kết đối tượng nhúng thay vì nhúng nó không?
 Có, Aspose.Words cho phép bạn chèn các đối tượng OLE được liên kết, tham chiếu đến tệp mà không nhúng nội dung của tệp.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

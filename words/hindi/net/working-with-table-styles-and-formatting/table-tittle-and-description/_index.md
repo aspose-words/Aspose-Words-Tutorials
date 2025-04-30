@@ -1,42 +1,50 @@
 ---
-title: Aspose.Words का उपयोग करके Word में तालिका में शीर्षक और विवरण जोड़ें
-weight: 7700
-limit: 
-description: इस आसान उदाहरण में .NET के लिए Aspose.Words के साथ वर्ड दस्तावेज़ में तालिका में शीर्षक और विवरण जोड़ने का तरीका जानें।
-keywords: [Aspose.Words, Word document, table title, table description, .NET example, table formatting, Aspose, OoxmlSaveOptions, document processing]
-url: /hi/net/working-with-table-styles-and-formatting/table-tittle-and-description/
+"description": "इस आसान-से-अनुसरण उदाहरण में Aspose.Words for .NET के साथ Word दस्तावेज़ में तालिका में शीर्षक और विवरण जोड़ना सीखें।"
+"title": "Aspose.Words का उपयोग करके Word में तालिका में शीर्षक और विवरण जोड़ें"
+"url": "/hi/net/working-with-table-styles-and-formatting/table-tittle-and-description/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Words का उपयोग करके Word में तालिका में शीर्षक और विवरण जोड़ें
 
-इस गाइड में दिखाया गया है कि कैसे वर्ड दस्तावेज़ों को बेहतर बनाने के लिए .NET के लिए Aspose.Words का उपयोग करके तालिकाओं में एक शीर्षक और विवरण जोड़कर। आप सीखेंगे कि मौजूदा वर्ड दस्तावेज़ में तालिका गुणों को कैसे हेरफेर किया जाए, वांछित संगतता के लिए सहेजने के विकल्पों को कॉन्फ़िगर किया जाए, और वर्ड 2016 के लिए अनुकूलित स्वरूपण सुनिश्चित किया जाए। उदाहरण कोड आपको एक दस्तावेज़ लोड करने, इसकी तालिका गुणों को अपडेट करने और सटीक कॉन्फ़िगरेशन सेटिंग्स के साथ फ़ाइल को सहेजने के माध्यम से मार्गदर्शन करता है।
+यह मार्गदर्शिका दर्शाती है कि Aspose.Words for .NET का उपयोग करके तालिकाओं में शीर्षक और विवरण जोड़कर अपने Word दस्तावेज़ों को कैसे बेहतर बनाया जाए। आप सीखेंगे कि मौजूदा Word दस्तावेज़ में तालिका गुणों में हेरफेर कैसे करें, वांछित संगतता के लिए सहेजने के विकल्पों को कॉन्फ़िगर करें और Word 2016 के लिए अनुकूलित स्वरूपण सुनिश्चित करें। उदाहरण कोड आपको दस्तावेज़ लोड करने, उसकी तालिका गुणों को अपडेट करने और सटीक कॉन्फ़िगरेशन सेटिंग्स के साथ फ़ाइल को सहेजने के बारे में बताता है।
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/table-tittle-and-description" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## स्थापना निर्देशः
+## स्थापना निर्देश:
 
-.NET के लिए Aspose.Words के साथ शुरू करने के लिए और इस उदाहरण को चलाने के लिए, इन सरल चरणों का पालन करेंः
+.NET के लिए Aspose.Words के साथ आरंभ करने और इस उदाहरण को चलाने के लिए, इन सरल चरणों का पालन करें:
 
-1. .NET के लिए Aspose.Words स्थापित करेंः
-   आप आसानी से NuGet के माध्यम से .NET के लिए Aspose.Words स्थापित कर सकते हैं. अपने पैकेज प्रबंधक कंसोल में निम्न कमांड चलाएंः
+1. .NET के लिए Aspose.Words स्थापित करें:
+   आप NuGet के ज़रिए .NET के लिए Aspose.Words को आसानी से इंस्टॉल कर सकते हैं। अपने पैकेज मैनेजर कंसोल में निम्न कमांड चलाएँ:
    ```
    Install-Package Aspose.Words
    ```
 
-2. लाइसेंस आवेदन (वैकल्पिक):  
-   पूर्ण संस्करण का उपयोग करने के लिए, [लाइसेंस लागू करना](https://purchase.aspose.com/temporary-license/)या एक [निःशुल्क परीक्षण](https://releases.aspose.com/words/net/). .
+2. लाइसेंस लागू करें (वैकल्पिक):  
+   पूर्ण संस्करण का उपयोग करने के लिए, [लाइसेंस लागू करें](https://purchase.aspose.com/temporary-license/) या का उपयोग करें [मुफ्त परीक्षण](https://releases.aspose.com/words/net/).
    
 ## यह भी देखें
-[.NET दस्तावेज़ीकरण के लिए शब्द](https://docs.aspose.com/words/net/)
+[.NET दस्तावेज़ीकरण के लिए Aspose.Word](https://docs.aspose.com/words/net/)
 [.NET संदर्भों के लिए Aspose.Word](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

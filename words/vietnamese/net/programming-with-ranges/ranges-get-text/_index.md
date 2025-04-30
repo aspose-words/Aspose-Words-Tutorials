@@ -1,27 +1,29 @@
 ---
-title: Phạm vi Lấy văn bản trong tài liệu Word
-linktitle: Phạm vi Lấy văn bản trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Trích xuất văn bản từ tài liệu Word một cách dễ dàng bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi để bắt đầu dễ dàng.
-weight: 10
-url: /vi/net/programming-with-ranges/ranges-get-text/
+"description": "Trích xuất văn bản từ tài liệu Word một cách dễ dàng bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi để bắt đầu dễ dàng."
+"linktitle": "Phạm vi Lấy văn bản trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Phạm vi Lấy văn bản trong tài liệu Word"
+"url": "/vi/net/programming-with-ranges/ranges-get-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Phạm vi Lấy văn bản trong tài liệu Word
 
 ## Giới thiệu
 
-Bạn đã bao giờ cần trích xuất văn bản từ một tài liệu Word theo chương trình chưa? Cho dù bạn đang tự động hóa quá trình xử lý tài liệu hay chỉ cần lấy nội dung cụ thể từ một tệp Word, Aspose.Words for .NET đều có thể giúp bạn. Thư viện mạnh mẽ này cho phép bạn dễ dàng thao tác với các tài liệu Word, cung cấp các công cụ mạnh mẽ để trích xuất, chỉnh sửa và tạo nội dung. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình trích xuất văn bản từ một tài liệu Word bằng Aspose.Words for .NET, chia nhỏ từng bước để đảm bảo bạn có thể theo dõi liền mạch.
+Bạn đã bao giờ cần trích xuất văn bản từ một tài liệu Word theo chương trình chưa? Cho dù bạn đang tự động hóa quá trình xử lý tài liệu hay chỉ cần lấy nội dung cụ thể từ một tệp Word, Aspose.Words for .NET đều có thể giúp bạn. Thư viện mạnh mẽ này cho phép bạn dễ dàng thao tác các tài liệu Word, cung cấp các công cụ mạnh mẽ để trích xuất, chỉnh sửa và tạo nội dung. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình trích xuất văn bản từ một tài liệu Word bằng Aspose.Words for .NET, chia nhỏ từng bước để đảm bảo bạn có thể theo dõi liền mạch.
 
 ## Điều kiện tiên quyết
 
 Trước khi đi sâu vào mã, bạn cần chuẩn bị một số thứ sau:
 
-1.  Aspose.Words cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Thiết lập môi trường phát triển của bạn. Visual Studio là lựa chọn phổ biến cho phát triển .NET.
 3. Tài liệu Word: Chuẩn bị sẵn một tài liệu Word mà bạn muốn trích xuất văn bản. Lưu nó vào một thư mục đã biết trên hệ thống của bạn.
 
@@ -34,7 +36,7 @@ using System;
 using Aspose.Words;
 ```
 
-Chúng ta hãy chia nhỏ quá trình trích xuất văn bản từ tài liệu Word thành các bước đơn giản và dễ quản lý.
+Chúng ta hãy chia nhỏ quá trình trích xuất văn bản từ tài liệu Word thành các bước đơn giản, dễ quản lý.
 
 ## Bước 1: Thiết lập thư mục dự án
 
@@ -47,7 +49,7 @@ Tạo một thư mục cho tài liệu của bạn
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Thư mục này sẽ lưu trữ tài liệu Word của bạn. Hãy đảm bảo thay thế`"YOUR DOCUMENTS DIRECTORY"` với đường dẫn thực tế đến thư mục của bạn.
+Thư mục này sẽ chứa tài liệu Word của bạn. Hãy đảm bảo thay thế `"YOUR DOCUMENTS DIRECTORY"` với đường dẫn thực tế đến thư mục của bạn.
 
 ## Bước 2: Tải tài liệu Word
 
@@ -60,7 +62,7 @@ Tải Tài liệu
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- Trong bước này, bạn tạo một phiên bản mới của`Document` lớp và tải tài liệu Word của bạn vào đó. Đảm bảo tên tệp và đường dẫn là chính xác.
+Trong bước này, bạn tạo một phiên bản mới của `Document` lớp và tải tài liệu Word của bạn vào đó. Đảm bảo tên tệp và đường dẫn là chính xác.
 
 ## Bước 3: Trích xuất văn bản từ tài liệu
 
@@ -73,7 +75,7 @@ Trích xuất văn bản
 string text = doc.Range.Text;
 ```
 
- Các`Range.Text` thuộc tính cung cấp cho bạn tất cả văn bản có trong phạm vi của tài liệu. Bao gồm văn bản từ tất cả các phần, tiêu đề, chân trang và nội dung chính.
+Các `Range.Text` thuộc tính cung cấp cho bạn tất cả văn bản có trong phạm vi của tài liệu. Bao gồm văn bản từ tất cả các phần, tiêu đề, chân trang và nội dung chính.
 
 ## Bước 4: Hiển thị văn bản đã trích xuất
 
@@ -100,7 +102,7 @@ Aspose.Words for .NET là một thư viện xử lý tài liệu mạnh mẽ cho
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?
 
- Có, Aspose.Words for .NET là sản phẩm được cấp phép. Bạn có thể xin giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/) hoặc mua nó từ[đây](https://purchase.aspose.com/buy).
+Có, Aspose.Words for .NET là sản phẩm được cấp phép. Bạn có thể xin giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/) hoặc mua nó từ [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET với các ngôn ngữ .NET khác ngoài C# không?
 
@@ -108,14 +110,19 @@ Chắc chắn rồi! Aspose.Words for .NET hỗ trợ tất cả các ngôn ng�
 
 ### Tôi có thể tìm tài liệu về Aspose.Words cho .NET ở đâu?
 
- Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu toàn diện [đây](https://reference.aspose.com/words/net/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Words dành cho .NET?
 
- Để được hỗ trợ, bạn có thể truy cập diễn đàn Aspose.Words[đây](https://forum.aspose.com/c/words/8).
+Để được hỗ trợ, bạn có thể truy cập diễn đàn Aspose.Words [đây](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

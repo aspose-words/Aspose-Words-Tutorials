@@ -1,30 +1,32 @@
 ---
-title: Java용 Aspose.Words에서 문서에서 콘텐츠 추출
-linktitle: 문서에서 콘텐츠 추출
-second_title: Aspose.Words Java 문서 처리 API
-description: Aspose.Words for Java를 사용하여 문서에서 콘텐츠를 쉽게 추출하는 방법을 알아보세요. 단계별 가이드와 코드 샘플이 프로세스를 간소화합니다.
-weight: 13
-url: /ko/java/document-manipulation/extracting-content-from-documents/
+"description": "Aspose.Words for Java를 사용하여 문서에서 콘텐츠를 쉽게 추출하는 방법을 알아보세요. 단계별 가이드와 코드 샘플을 통해 프로세스를 간소화할 수 있습니다."
+"linktitle": "문서에서 콘텐츠 추출"
+"second_title": "Aspose.Words Java 문서 처리 API"
+"title": "Java용 Aspose.Words에서 문서의 콘텐츠 추출"
+"url": "/ko/java/document-manipulation/extracting-content-from-documents/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.Words에서 문서에서 콘텐츠 추출
+# Java용 Aspose.Words에서 문서의 콘텐츠 추출
 
 
-## Aspose.Words for Java에서 문서에서 콘텐츠 추출 소개
+## Aspose.Words for Java에서 문서의 콘텐츠 추출 소개
 
-문서 처리 분야에서 문서에서 콘텐츠를 추출하는 것은 일반적인 요구 사항입니다. 텍스트, 표, 이미지 또는 특정 문서 요소를 추출해야 하는지 여부에 관계없이 Aspose.Words for Java는 이 작업을 쉽게 수행할 수 있는 강력한 도구를 제공합니다. 이 포괄적인 가이드에서는 Aspose.Words for Java를 사용하여 문서에서 콘텐츠를 추출하는 프로세스를 안내합니다. 
+문서 처리 분야에서는 문서에서 콘텐츠를 추출하는 것이 일반적인 요구 사항입니다. 텍스트, 표, 이미지 또는 특정 문서 요소를 추출해야 할 때 Aspose.Words for Java는 이 작업을 손쉽게 수행할 수 있는 강력한 도구를 제공합니다. 이 포괄적인 가이드에서는 Aspose.Words for Java를 사용하여 문서에서 콘텐츠를 추출하는 과정을 안내합니다. 
 
 ## 필수 조건
 
-추출 과정을 시작하기 전에 다음과 같은 전제 조건이 충족되었는지 확인하세요.
+추출 과정을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
-1.  Aspose.Words for Java: Java 개발 환경에 Aspose.Words for Java를 설치하고 설정해야 합니다. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/words/java/).
+1. Aspose.Words for Java: Java 개발 환경에 Aspose.Words for Java가 설치되어 있어야 합니다. 다음에서 다운로드할 수 있습니다. [여기](https://releases.aspose.com/words/java/).
 
-2. 콘텐츠를 추출할 문서: 이 가이드에서는 "Extract content.docx"라는 샘플 문서를 사용합니다. 추출할 비슷한 문서가 준비되어 있는지 확인하세요.
+2. 콘텐츠 추출 대상 문서: 이 가이드에서는 "Extract content.docx"라는 샘플 문서를 사용합니다. 추출할 유사한 문서를 준비해 두세요.
 
 ## 블록 수준 노드 간 콘텐츠 추출
 
@@ -45,7 +47,7 @@ doc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBlockLevel
 ## 북마크 간 콘텐츠 추출
 
 ```java
-//북마크 사이의 컨텐츠 추출을 위한 Java 코드 샘플
+// 북마크 간 콘텐츠 추출을 위한 Java 코드 샘플
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Bookmark bookmark = doc.getRange().getBookmarks().get("Bookmark1");
 BookmarkStart bookmarkStart = bookmark.getBookmarkStart();
@@ -73,10 +75,10 @@ dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodesExclusive);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenCommentRange.WithoutComment.docx");
 ```
 
-## 문단 사이의 내용 추출
+## 문단 간 콘텐츠 추출
 
 ```java
-// 문단 사이의 내용을 추출하기 위한 Java 코드 샘플
+// 문단 간 콘텐츠 추출을 위한 Java 코드 샘플
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph startPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 6, true);
 Paragraph endPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 10, true);
@@ -85,7 +87,7 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagraphs.docx");
 ```
 
-## 문단 스타일 사이의 콘텐츠 추출
+## 문단 스타일 간 콘텐츠 추출
 
 ```java
 // 문단 스타일 간의 콘텐츠 추출을 위한 Java 코드 샘플
@@ -102,7 +104,7 @@ dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagra
 ## 실행 간 콘텐츠 추출
 
 ```java
-// 실행 간에 콘텐츠를 추출하기 위한 Java 코드 샘플
+// 실행 간 콘텐츠 추출을 위한 Java 코드 샘플
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 7, true);
 Run startRun = para.getRuns().get(1);
@@ -219,7 +221,7 @@ System.out.println("\nContents of the cell: ");
 System.out.println(table.getLastRow().getLastCell().getRange().getText());
 ```
 
-## 이미지를 파일로 추출하기
+## 이미지를 파일로 추출
 
 ```java
 // 이미지를 파일로 추출하기 위한 Java 코드 샘플
@@ -238,32 +240,37 @@ for (Shape shape : (Iterable<Shape>) shapes) {
 
 ## 결론
 
-축하합니다! Aspose.Words for Java를 사용하여 문서에서 콘텐츠를 추출하는 방법을 배웠습니다. 이 가이드에서는 블록 수준 노드, 북마크, 주석 범위, 문단 등 간의 콘텐츠를 포함한 다양한 추출 기술을 다루었습니다. 이제 Java 애플리케이션에서 문서 콘텐츠 추출을 효율적으로 처리할 준비가 되었습니다.
+축하합니다! Aspose.Words for Java를 사용하여 문서에서 콘텐츠를 추출하는 방법을 알아보았습니다. 이 가이드에서는 블록 수준 노드, 북마크, 주석 범위, 단락 등 다양한 추출 기법을 다루었습니다. 이제 Java 애플리케이션에서 문서 콘텐츠 추출을 효율적으로 처리할 수 있게 되었습니다.
 
 ## 자주 묻는 질문
 
 ### 특정 문서 섹션에서 콘텐츠를 추출하려면 어떻게 해야 하나요?
 
-특정 문서 섹션에서 내용을 추출하려면 섹션의 시작 및 종료 지점을 식별하고 적절한 Aspose.Words for Java 메서드를 사용하여 그 사이의 내용을 추출할 수 있습니다.
+특정 문서 섹션에서 콘텐츠를 추출하려면 섹션의 시작 및 종료 지점을 식별하고 적절한 Aspose.Words for Java 메서드를 사용하여 섹션 사이의 콘텐츠를 추출할 수 있습니다.
 
-### 암호로 보호된 문서에서 콘텐츠를 추출할 수 있나요?
+### 암호로 보호된 문서에서 내용을 추출할 수 있나요?
 
-네, Aspose.Words for Java는 암호로 보호된 문서에서 콘텐츠를 추출하는 기능을 제공합니다. 문서를 열 때 암호를 제공할 수 있습니다.`Document` 클래스 생성자.
+네, Aspose.Words for Java는 암호로 보호된 문서에서 콘텐츠를 추출하는 기능을 제공합니다. 문서를 열 때 암호를 입력할 수 있습니다. `Document` 클래스 생성자.
 
-### 일반 텍스트나 HTML 등 다양한 형식으로 콘텐츠를 추출하여 저장하려면 어떻게 해야 하나요?
+### 콘텐츠를 추출하여 일반 텍스트나 HTML 등 다양한 형식으로 저장하려면 어떻게 해야 하나요?
 
- Aspose.Words for Java를 사용하여 문서에서 콘텐츠를 추출하고 다양한 형식으로 저장할 수 있습니다. 콘텐츠를 추출한 후 다음을 사용할 수 있습니다.`Document` 일반 텍스트, HTML 등의 형식으로 저장하기 위한 클래스 메서드.
+Aspose.Words for Java를 사용하여 문서에서 콘텐츠를 추출하고 다양한 형식으로 저장할 수 있습니다. 콘텐츠를 추출한 후에는 `Document` 일반 텍스트, HTML 등의 형식으로 저장하는 클래스 메서드입니다.
 
-### 표나 이미지와 같은 특정 문서 요소에서 콘텐츠를 추출하는 방법이 있나요?
+### 표나 이미지 등 특정 문서 요소에서 콘텐츠를 추출하는 방법이 있나요?
 
-네, Aspose.Words for Java를 사용하여 테이블이나 이미지와 같은 특정 문서 요소에서 콘텐츠를 추출할 수 있습니다. 추출하려는 요소를 식별한 다음 적절한 방법을 사용하여 콘텐츠를 추출합니다.
+네, Aspose.Words for Java를 사용하면 표나 이미지와 같은 특정 문서 요소에서 콘텐츠를 추출할 수 있습니다. 추출할 요소를 파악한 후 적절한 방법을 사용하여 콘텐츠를 추출하세요.
 
-### Java 애플리케이션에서 콘텐츠 추출 프로세스를 자동화하려면 어떻게 해야 합니까?
+### Java 애플리케이션에서 콘텐츠 추출 프로세스를 자동화하려면 어떻게 해야 하나요?
 
-Java 애플리케이션에서 콘텐츠 추출 프로세스를 자동화하려면 이 가이드에 설명된 기술을 기반으로 사용자 지정 코드를 만들 수 있습니다. 또한 여러 문서를 반복하고 필요에 따라 콘텐츠를 추출하는 논리를 구현할 수도 있습니다.
+Java 애플리케이션에서 콘텐츠 추출 프로세스를 자동화하려면 이 가이드에 설명된 기술을 기반으로 사용자 지정 코드를 생성할 수 있습니다. 또한, 여러 문서를 반복하면서 필요에 따라 콘텐츠를 추출하는 로직을 구현할 수도 있습니다.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

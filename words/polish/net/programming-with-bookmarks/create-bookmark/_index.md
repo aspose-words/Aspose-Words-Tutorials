@@ -1,14 +1,16 @@
 ---
-title: Utwórz zakładkę w dokumencie Word
-linktitle: Utwórz zakładkę w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak tworzyć zakładki w dokumentach Worda za pomocą Aspose.Words dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Idealne do nawigacji i organizacji dokumentów.
-weight: 10
-url: /pl/net/programming-with-bookmarks/create-bookmark/
+"description": "Dowiedz się, jak tworzyć zakładki w dokumentach Worda za pomocą Aspose.Words dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Idealne do nawigacji i organizacji dokumentów."
+"linktitle": "Utwórz zakładkę w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Utwórz zakładkę w dokumencie Word"
+"url": "/pl/net/programming-with-bookmarks/create-bookmark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz zakładkę w dokumencie Word
@@ -21,7 +23,7 @@ Tworzenie zakładek w dokumencie Word może być przełomem, zwłaszcza gdy chce
 
 Zanim zaczniemy, musisz mieć następujące rzeczy:
 
-1.  Biblioteka Aspose.Words dla .NET: Pobierz i zainstaluj z[Tutaj](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Pobierz i zainstaluj z [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub inne środowisko programistyczne .NET.
 3. Podstawowa wiedza o języku C#: Zrozumienie podstawowych koncepcji programowania w języku C#.
 
@@ -38,7 +40,7 @@ using Aspose.Words.Saving;
 
 Zainicjuj dokument
 
-Najpierw musimy utworzyć nowy dokument i zainicjować go`DocumentBuilder`. To jest punkt wyjścia do dodawania treści i zakładek do dokumentu.
+Najpierw musimy utworzyć nowy dokument i zainicjować go `DocumentBuilder`. To jest punkt wyjścia do dodawania treści i zakładek do dokumentu.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -47,7 +49,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Wyjaśnienie:`Document` Obiekt jest twoim płótnem.`DocumentBuilder` jest czymś w rodzaju długopisu, który umożliwia pisanie treści i tworzenie zakładek w dokumencie.
+Wyjaśnienie: `Document` Obiekt jest twoim płótnem. `DocumentBuilder` jest czymś w rodzaju długopisu, który umożliwia pisanie treści i tworzenie zakładek w dokumencie.
 
 ## Krok 2: Utwórz główną zakładkę
 
@@ -60,7 +62,7 @@ builder.StartBookmark("My Bookmark");
 builder.Writeln("Text inside a bookmark.");
 ```
 
- Wyjaśnienie:`StartBookmark` metoda oznacza początek zakładki i`Writeln` dodaje tekst w zakładce.
+Wyjaśnienie: `StartBookmark` metoda oznacza początek zakładki i `Writeln` dodaje tekst w zakładce.
 
 ## Krok 3: Utwórz zagnieżdżoną zakładkę
 
@@ -74,7 +76,7 @@ builder.Writeln("Text inside a NestedBookmark.");
 builder.EndBookmark("Nested Bookmark");
 ```
 
- Wyjaśnienie: Zagnieżdżanie zakładek umożliwia bardziej ustrukturyzowaną i hierarchiczną organizację treści.`EndBookmark` Metoda zamyka bieżącą zakładkę.
+Wyjaśnienie: Zagnieżdżanie zakładek umożliwia bardziej ustrukturyzowaną i hierarchiczną organizację treści. `EndBookmark` Metoda zamyka bieżącą zakładkę.
 
 ## Krok 4: Dodaj tekst poza zagnieżdżoną zakładką
 
@@ -101,7 +103,7 @@ options.OutlineOptions.BookmarksOutlineLevels.Add("My Bookmark", 1);
 options.OutlineOptions.BookmarksOutlineLevels.Add("Nested Bookmark", 2);
 ```
 
- Wyjaśnienie:`PdfSaveOptions` Klasa pozwala określić, jak dokument powinien zostać zapisany jako PDF.`BookmarksOutlineLevels` Właściwość definiuje hierarchię zakładek w pliku PDF.
+Wyjaśnienie: `PdfSaveOptions` Klasa pozwala określić, jak dokument powinien zostać zapisany jako PDF. `BookmarksOutlineLevels` Właściwość definiuje hierarchię zakładek w pliku PDF.
 
 ## Krok 6: Zapisz dokument
 
@@ -113,7 +115,7 @@ Na koniec zapisz dokument z wybranymi opcjami.
 doc.Save(dataDir + "WorkingWithBookmarks.CreateBookmark.pdf", options);
 ```
 
- Wyjaśnienie:`Save` Metoda zapisuje dokument w określonym formacie i lokalizacji. Plik PDF będzie teraz zawierał zakładki, które utworzyliśmy.
+Wyjaśnienie: `Save` Metoda zapisuje dokument w określonym formacie i lokalizacji. Plik PDF będzie teraz zawierał zakładki, które utworzyliśmy.
 
 ## Wniosek
 
@@ -127,11 +129,11 @@ Oczywiście! Możesz utworzyć tyle zakładek, ile potrzebujesz i zdefiniować i
 
 ### Jak zaktualizować tekst zakładki?
 
- Możesz przejść do zakładki za pomocą`DocumentBuilder.MoveToBookmark` a następnie zaktualizuj tekst.
+Możesz przejść do zakładki za pomocą `DocumentBuilder.MoveToBookmark` a następnie zaktualizuj tekst.
 
 ### Czy można usunąć zakładkę?
 
- Tak, możesz usunąć zakładkę za pomocą`Bookmarks.Remove` metodę poprzez podanie nazwy zakładki.
+Tak, możesz usunąć zakładkę za pomocą `Bookmarks.Remove` metodę poprzez podanie nazwy zakładki.
 
 ### Czy mogę tworzyć zakładki w innych formatach niż PDF?
 
@@ -139,10 +141,15 @@ Tak, Aspose.Words obsługuje zakładki w różnych formatach, w tym DOCX, HTML i
 
 ### Jak mogę mieć pewność, że zakładki będą prawidłowo wyświetlane w pliku PDF?
 
- Pamiętaj o zdefiniowaniu`BookmarksOutlineLevels` właściwie w`PdfSaveOptions`. Dzięki temu zakładki zostaną uwzględnione w konspekcie pliku PDF.
+Pamiętaj o zdefiniowaniu `BookmarksOutlineLevels` właściwie w `PdfSaveOptions`. Dzięki temu zakładki zostaną uwzględnione w konspekcie pliku PDF.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

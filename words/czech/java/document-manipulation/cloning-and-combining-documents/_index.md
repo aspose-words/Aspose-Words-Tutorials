@@ -1,14 +1,16 @@
 ---
-title: Klonování a kombinování dokumentů v Aspose.Words pro Javu
-linktitle: Klonování a kombinování dokumentů
-second_title: Aspose.Words Java Document Processing API
-description: Naučte se klonovat a kombinovat dokumenty v Aspose.Words for Java. Průvodce krok za krokem s příklady zdrojového kódu.
-weight: 27
-url: /cs/java/document-manipulation/cloning-and-combining-documents/
+"description": "Naučte se, jak klonovat a kombinovat dokumenty v Aspose.Words pro Javu. Podrobný návod s příklady zdrojového kódu."
+"linktitle": "Klonování a kombinování dokumentů"
+"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
+"title": "Klonování a kombinování dokumentů v Aspose.Words pro Javu"
+"url": "/cs/java/document-manipulation/cloning-and-combining-documents/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Klonování a kombinování dokumentů v Aspose.Words pro Javu
@@ -16,11 +18,11 @@ url: /cs/java/document-manipulation/cloning-and-combining-documents/
 
 ## Úvod do klonování a kombinování dokumentů v Aspose.Words pro Javu
 
-V tomto tutoriálu prozkoumáme, jak klonovat a kombinovat dokumenty pomocí Aspose.Words for Java. Probereme různé scénáře, včetně klonování dokumentu, vkládání dokumentů do bodů nahrazení, záložek a během operací hromadné korespondence.
+tomto tutoriálu se podíváme na to, jak klonovat a kombinovat dokumenty pomocí Aspose.Words pro Javu. Probereme různé scénáře, včetně klonování dokumentu, vkládání dokumentů do bodů nahrazení, záložek a během operací hromadné korespondence.
 
 ## Krok 1: Klonování dokumentu
 
- Chcete-li klonovat dokument v Aspose.Words pro Java, můžete použít`deepClone()` metoda. Zde je jednoduchý příklad:
+Chcete-li klonovat dokument v Aspose.Words pro Javu, můžete použít `deepClone()` metoda. Zde je jednoduchý příklad:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -28,11 +30,11 @@ Document clone = doc.deepClone();
 clone.save("Your Directory Path" + "CloneAndCombineDocuments.CloningDocument.docx");
 ```
 
-Tento kód vytvoří hluboký klon původního dokumentu a uloží jej jako nový soubor.
+Tento kód vytvoří hloubkovou kopii původního dokumentu a uloží ji jako nový soubor.
 
-## Krok 2: Vkládání dokumentů v bodech nahrazení
+## Krok 2: Vkládání dokumentů do bodů nahrazení
 
-Dokumenty můžete vložit do určitých bodů nahrazení v jiném dokumentu. Můžete to udělat takto:
+Dokumenty můžete vkládat na konkrétní místa nahrazení v jiném dokumentu. Postupujte takto:
 
 ```java
 Document mainDoc = new Document("Your Directory Path" + "Document insertion 1.docx");
@@ -43,7 +45,7 @@ mainDoc.getRange().replace(Pattern.compile("\\[MY_DOCUMENT\\]"), "", options);
 mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtReplace.docx");
 ```
 
- V tomto příkladu používáme a`FindReplaceOptions` objekt k určení obsluhy zpětného volání pro nahrazení. The`InsertDocumentAtReplaceHandler` třída zpracovává logiku vkládání.
+V tomto příkladu používáme `FindReplaceOptions` objekt pro určení obslužné rutiny zpětného volání pro nahrazení. `InsertDocumentAtReplaceHandler` třída zpracovává logiku vkládání.
 
 ## Krok 3: Vkládání dokumentů do záložek
 
@@ -57,11 +59,11 @@ insertDocument(bookmark.getBookmarkStart().getParentNode(), subDoc);
 mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtBookmark.docx");
 ```
 
- Zde najdeme záložku podle názvu a použijeme`insertDocument` způsob vložení obsahu`subDoc` dokument v umístění záložky.
+Zde najdeme záložku podle názvu a použijeme `insertDocument` metoda pro vložení obsahu `subDoc` dokument v umístění záložky.
 
 ## Krok 4: Vkládání dokumentů během hromadné korespondence
 
-Dokumenty můžete vkládat během operace hromadné korespondence v Aspose.Words for Java. Zde je postup:
+Během hromadné korespondence v Aspose.Words pro Javu můžete vkládat dokumenty. Postupujte takto:
 
 ```java
 Document mainDoc = new Document("Your Directory Path" + "Document insertion 1.docx");
@@ -70,17 +72,17 @@ mainDoc.getMailMerge().execute(new String[] { "Document_1" }, new Object[] { "Yo
 mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtMailMerge.doc");
 ```
 
- V tomto příkladu jsme nastavili zpětné volání slučování polí pomocí`InsertDocumentAtMailMergeHandler` třídy pro zpracování vložení dokumentu určeného polem "Dokument_1".
+V tomto příkladu nastavujeme zpětné volání pro slučování polí pomocí `InsertDocumentAtMailMergeHandler` třída pro zpracování vložení dokumentu určeného polem „Document_1“.
 
 ## Závěr
 
-Klonování a kombinování dokumentů v Aspose.Words pro Java lze provést pomocí různých technik. Ať už potřebujete klonovat dokument, vkládat obsah do bodů nahrazení, záložek nebo během hromadné korespondence, Aspose.Words poskytuje výkonné funkce pro bezproblémovou manipulaci s dokumenty.
+Klonování a kombinování dokumentů v Aspose.Words pro Javu lze provádět pomocí různých technik. Ať už potřebujete klonovat dokument, vkládat obsah do bodů nahrazení, záložek nebo během hromadné korespondence, Aspose.Words poskytuje výkonné funkce pro bezproblémovou manipulaci s dokumenty.
 
-## FAQ
+## Často kladené otázky
 
-### Jak naklonuji dokument v Aspose.Words for Java?
+### Jak naklonuji dokument v Aspose.Words pro Javu?
 
- Můžete klonovat dokument v Aspose.Words pro Java pomocí`deepClone()` metoda. Zde je příklad:
+Dokument v Aspose.Words pro Javu můžete naklonovat pomocí `deepClone()` metoda. Zde je příklad:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -88,9 +90,9 @@ Document clone = doc.deepClone();
 clone.save("Your Directory Path" + "ClonedDocument.docx");
 ```
 
-### Jak mohu vložit dokument do záložky?
+### Jak mohu vložit dokument na místo záložky?
 
- Chcete-li vložit dokument na záložku v Aspose.Words pro Java, můžete záložku najít podle názvu a poté použít`insertDocument` způsob vložení obsahu. Zde je příklad:
+Chcete-li vložit dokument na místo záložky v Aspose.Words pro Javu, můžete záložku vyhledat podle názvu a poté použít `insertDocument` metoda pro vložení obsahu. Zde je příklad:
 
 ```java
 Document mainDoc = new Document("Your Directory Path" + "MainDocument.docx");
@@ -100,9 +102,9 @@ insertDocument(bookmark.getBookmarkStart().getParentNode(), subDoc);
 mainDoc.save("Your Directory Path" + "CombinedDocument.docx");
 ```
 
-### Jak vložím dokumenty během hromadné korespondence v Aspose.Words for Java?
+### Jak vložím dokumenty během hromadné korespondence v Aspose.Words pro Javu?
 
-Dokumenty můžete vkládat během hromadné korespondence v Aspose.Words for Java nastavením zpětného volání sloučení polí a určením dokumentu, který má být vložen. Zde je příklad:
+V Aspose.Words pro Javu můžete během hromadné korespondence vkládat dokumenty nastavením zpětného volání pro slučování polí a zadáním dokumentu, který má být vložen. Zde je příklad:
 
 ```java
 Document mainDoc = new Document("Your Directory Path" + "MainDocument.docx");
@@ -111,10 +113,15 @@ mainDoc.getMailMerge().execute(new String[] { "DocumentField" }, new Object[] { 
 mainDoc.save("Your Directory Path" + "MergedDocument.docx");
 ```
 
- V tomto příkladu je`InsertDocumentAtMailMergeHandler`class zpracovává logiku vkládání pro "DocumentField" během hromadné korespondence.
+V tomto příkladu `InsertDocumentAtMailMergeHandler` Třída zpracovává logiku vkládání pro „DocumentField“ během hromadné korespondence.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Belgeleri Birleştirme ve Ekleme
-linktitle: Belgeleri Birleştirme ve Ekleme
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java kullanarak belgeleri zahmetsizce nasıl birleştireceğinizi ve ekleyeceğinizi öğrenin. Biçimlendirmeyi koruyun, üstbilgileri ve altbilgileri yönetin ve daha fazlasını yapın.
-weight: 30
-url: /tr/java/document-manipulation/joining-and-appending-documents/
+"description": "Aspose.Words for Java kullanarak belgeleri zahmetsizce nasıl birleştireceğinizi ve ekleyeceğinizi öğrenin. Biçimlendirmeyi koruyun, üstbilgileri ve altbilgileri yönetin ve daha fazlasını yapın."
+"linktitle": "Belgeleri Birleştirme ve Ekleme"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Belgeleri Birleştirme ve Ekleme"
+"url": "/tr/java/document-manipulation/joining-and-appending-documents/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Belgeleri Birleştirme ve Ekleme
@@ -32,7 +34,7 @@ Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### İçe Aktarma Biçim Seçenekleriyle Ekle
+### İçe Aktarma Biçimi Seçenekleriyle Ekle
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -130,26 +132,31 @@ Java için Aspose.Words, biçimlendirmeyi korumanız, farklı sayfa kurulumları
 
 ### Farklı stillere sahip belgeleri sorunsuz bir şekilde nasıl birleştirebilirim?
 
- Farklı stillere sahip belgeleri birleştirmek için şunu kullanın:`ImportFormatMode.USE_DESTINATION_STYLES` eklerken.
+Farklı stillere sahip belgeleri birleştirmek için şunu kullanın: `ImportFormatMode.USE_DESTINATION_STYLES` eklerken.
 
 ### Belge eklerken sayfa numaralandırmasını koruyabilir miyim?
 
- Evet, sayfa numaralandırmasını kullanarak koruyabilirsiniz.`convertNumPageFieldsToPageRef` yöntem ve sayfa düzenini güncelleme.
+Evet, sayfa numaralandırmasını kullanarak koruyabilirsiniz. `convertNumPageFieldsToPageRef` yöntem ve sayfa düzenini güncelleme.
 
 ### Akıllı Stil Davranışı Nedir?
 
- Akıllı Stil Davranışı, belgeler eklerken tutarlı stilleri korumaya yardımcı olur. Bunu şununla kullanın:`ImportFormatOptions` Daha iyi sonuçlar için.
+Akıllı Stil Davranışı, belgeler eklerken tutarlı stilleri korumaya yardımcı olur. Bunu şununla kullanın: `ImportFormatOptions` Daha iyi sonuçlar için.
 
 ### Belge eklerken metin kutularını nasıl kullanabilirim?
 
-Ayarlamak`importFormatOptions.setIgnoreTextBoxes(false)` Ekleme sırasında metin kutuları eklemek için.
+Ayarlamak `importFormatOptions.setIgnoreTextBoxes(false)` Ekleme sırasında metin kutuları eklemek için.
 
 ### Belgeler arasındaki üstbilgi ve altbilgileri birbirine bağlamak/bağlantısını kaldırmak istersem ne olur?
 
- Başlıkları ve altbilgileri şu şekilde bağlayabilirsiniz:`linkToPrevious(true)` veya onları bağlantısını kes`linkToPrevious(false)` ihtiyaç duyulduğu takdirde.
+Başlıkları ve altbilgileri şu şekilde bağlayabilirsiniz: `linkToPrevious(true)` veya onları bağlantısını kes `linkToPrevious(false)` ihtiyaç duyulduğu takdirde.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

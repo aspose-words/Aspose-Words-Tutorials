@@ -1,27 +1,29 @@
 ---
-title: Tải Với Mã Hóa Trong Tài Liệu Word
-linktitle: Tải Với Mã Hóa Trong Tài Liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tải tài liệu Word với mã hóa cụ thể bằng Aspose.Words cho .NET. Hướng dẫn từng bước có giải thích chi tiết.
-weight: 10
-url: /vi/net/programming-with-loadoptions/load-with-encoding/
+"description": "Tìm hiểu cách tải tài liệu Word với mã hóa cụ thể bằng Aspose.Words cho .NET. Hướng dẫn từng bước có giải thích chi tiết."
+"linktitle": "Tải Với Mã Hóa Trong Tài Liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tải Với Mã Hóa Trong Tài Liệu Word"
+"url": "/vi/net/programming-with-loadoptions/load-with-encoding/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tải Với Mã Hóa Trong Tài Liệu Word
 
 ## Giới thiệu
 
-Xin chào! Vậy là bạn đang làm việc với các tài liệu Word và cần tải một tài liệu có mã hóa cụ thể? Có thể bạn đã gặp phải các tài liệu có văn bản được mã hóa theo thứ gì đó như UTF-7 và bạn đang đau đầu không biết phải xử lý chúng như thế nào. Vâng, bạn đã đến đúng nơi rồi! Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách bạn có thể tải một tài liệu Word có mã hóa cụ thể bằng Aspose.Words for .NET. Thư viện mạnh mẽ này cho phép bạn thao tác các tài liệu Word theo những cách mà bạn có thể chưa bao giờ nghĩ là có thể. Hãy bắt đầu thôi!
+Xin chào! Vậy là bạn đang làm việc với các tài liệu Word và cần tải một tài liệu có mã hóa cụ thể? Có thể bạn đã gặp phải các tài liệu có văn bản được mã hóa theo thứ gì đó như UTF-7 và bạn đang đau đầu không biết phải xử lý chúng như thế nào. Vâng, bạn đã đến đúng nơi rồi! Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách bạn có thể tải một tài liệu Word có mã hóa cụ thể bằng Aspose.Words cho .NET. Thư viện mạnh mẽ này cho phép bạn thao tác các tài liệu Word theo những cách mà bạn có thể chưa bao giờ nghĩ là có thể. Hãy bắt đầu thôi!
 
 ## Điều kiện tiên quyết
 
 Trước khi đi sâu vào vấn đề chính, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Bạn có thể[tải về](https://releases.aspose.com/words/net/) phiên bản mới nhất.
+1. Aspose.Words cho .NET: Bạn có thể [tải về](https://releases.aspose.com/words/net/) phiên bản mới nhất.
 2. Môi trường phát triển .NET: Visual Studio hoạt động hoàn hảo.
 3. Tài liệu Word: Đảm bảo rằng tài liệu được mã hóa theo định dạng bạn đang sử dụng, như UTF-7.
 
@@ -61,11 +63,11 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 LoadOptions loadOptions = new LoadOptions { Encoding = Encoding.UTF7 };
 ```
 
- Ở đây, chúng tôi đang tạo ra một`LoadOptions` đối tượng và thiết lập của nó`Encoding`tài sản để`Encoding.UTF7`Điều này yêu cầu Aspose.Words sử dụng mã hóa UTF-7 khi tải tài liệu.
+Ở đây, chúng tôi đang tạo ra một `LoadOptions` đối tượng và thiết lập của nó `Encoding` tài sản để `Encoding.UTF7`. Điều này yêu cầu Aspose.Words sử dụng mã hóa UTF-7 khi tải tài liệu.
 
 ## Bước 4: Tải tài liệu
 
-Sau khi cấu hình xong các tùy chọn tải, giờ đây chúng ta có thể tải tài liệu.
+Sau khi cấu hình xong các tùy chọn tải, giờ chúng ta có thể tải tài liệu.
 
 ```csharp
 // Tải tài liệu với mã hóa được chỉ định
@@ -76,7 +78,7 @@ Dòng mã này tải tài liệu từ đường dẫn đã chỉ định bằng 
 
 ## Phần kết luận
 
-Và bạn đã có nó! Bạn đã tải thành công một tài liệu Word với mã hóa cụ thể bằng Aspose.Words cho .NET. Thư viện mạnh mẽ này giúp bạn xử lý các mã hóa văn bản khác nhau một cách dễ dàng và đảm bảo rằng các tài liệu của bạn được xử lý chính xác. Cho dù bạn đang xử lý các tài liệu cũ hay làm việc với văn bản quốc tế, Aspose.Words đều có thể giúp bạn.
+Và thế là xong! Bạn đã tải thành công một tài liệu Word với mã hóa cụ thể bằng Aspose.Words for .NET. Thư viện mạnh mẽ này giúp bạn xử lý các mã hóa văn bản khác nhau một cách dễ dàng và đảm bảo rằng tài liệu của bạn được xử lý chính xác. Cho dù bạn đang xử lý các tài liệu cũ hay làm việc với văn bản quốc tế, Aspose.Words đều có thể giúp bạn.
 
 ## Câu hỏi thường gặp
 
@@ -84,20 +86,25 @@ Và bạn đã có nó! Bạn đã tải thành công một tài liệu Word v�
 UTF-7 (Định dạng chuyển đổi Unicode 7 bit) là một chuẩn mã hóa được thiết kế để biểu diễn văn bản Unicode bằng chuỗi ký tự ASCII.
 
 ### Tôi có thể sử dụng mã hóa khác với Aspose.Words không?
- Có, Aspose.Words hỗ trợ nhiều mã hóa khác nhau như UTF-8, UTF-16, v.v. Chỉ cần đặt`Encoding` tài sản trong`LoadOptions` theo đó.
+Có, Aspose.Words hỗ trợ nhiều mã hóa khác nhau như UTF-8, UTF-16, v.v. Chỉ cần đặt `Encoding` tài sản trong `LoadOptions` theo đó.
 
 ### Aspose.Words có miễn phí sử dụng không?
- Đặt ra.Words cung cấp bản dùng thử miễn phí mà bạn có thể tải xuống[đây](https://releases.aspose.com/) Để có đầy đủ tính năng, bạn sẽ cần phải mua giấy phép từ[Aspose](https://purchase.aspose.com/buy).
+Aspose.Words cung cấp bản dùng thử miễn phí mà bạn có thể tải xuống [đây](https://releases.aspose.com/). Để có đầy đủ tính năng, bạn sẽ cần phải mua giấy phép từ [Đặt ra](https://purchase.aspose.com/buy).
 
 ### Tôi có thể tải tài liệu từ luồng thay vì đường dẫn tệp không?
- Chắc chắn rồi! Aspose.Words hỗ trợ tải tài liệu từ luồng. Bạn chỉ cần truyền luồng và tải các tùy chọn đến`Document` người xây dựng.
+Chắc chắn rồi! Aspose.Words hỗ trợ tải tài liệu từ luồng. Bạn chỉ cần truyền luồng và tải các tùy chọn đến `Document` người xây dựng.
 
 ### Tôi có thể nhận được hỗ trợ ở đâu nếu gặp vấn đề?
- Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8) để được cộng đồng và nhóm hỗ trợ Aspose giúp đỡ.
+Bạn có thể ghé thăm [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8) để được cộng đồng và nhóm hỗ trợ Aspose giúp đỡ.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

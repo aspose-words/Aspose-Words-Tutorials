@@ -1,28 +1,30 @@
 ---
-title: A Cleanup Options használata az Aspose.Words for Java programban
-linktitle: A tisztítási beállítások használata
-second_title: Aspose.Words Java Document Processing API
-description: Növelje a dokumentumok egyértelműségét az Aspose.Words a Java tisztítási opciókkal. Ismerje meg, hogyan távolíthat el üres bekezdéseket, nem használt régiókat stb.
-weight: 10
-url: /hu/java/document-manipulation/using-cleanup-options/
+"description": "Növelje dokumentumai érthetőségét az Aspose.Words Java Cleanup beállításaival. Ismerje meg, hogyan távolíthat el üres bekezdéseket, nem használt területeket és egyebeket."
+"linktitle": "Tisztítási beállítások használata"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Tisztítási beállítások használata az Aspose.Words for Java programban"
+"url": "/hu/java/document-manipulation/using-cleanup-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A Cleanup Options használata az Aspose.Words for Java programban
+# Tisztítási beállítások használata az Aspose.Words for Java programban
 
 
-## Bevezetés a Cleanup Options használatába az Aspose.Words for Java programban
+## Bevezetés a takarítási beállítások használatába az Aspose.Words for Java programban
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan használhatjuk az Aspose.Words for Java tisztítási beállításait a dokumentumok kezeléséhez és megtisztításához a körlevél-egyesítési folyamat során. A tisztítási beállítások lehetővé teszik a dokumentumtisztítás különféle aspektusainak vezérlését, például az üres bekezdések, a nem használt régiók és egyebek eltávolítását.
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan használhatjuk az Aspose.Words for Java tisztítási beállításait a dokumentumok kezelésére és tisztítására a körlevelezési folyamat során. A tisztítási beállítások lehetővé teszik a dokumentumtisztítás különböző aspektusainak szabályozását, például az üres bekezdések, a nem használt területek eltávolítását és egyebeket.
 
 ## Előfeltételek
 
- Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Words for Java könyvtár integrálva van a projektjébe. Letöltheti innen[itt](https://releases.aspose.com/words/java/).
+Mielőtt elkezdenénk, győződjünk meg róla, hogy az Aspose.Words for Java könyvtár integrálva van a projektedbe. Letöltheted innen: [itt](https://releases.aspose.com/words/java/).
 
-## 1. lépés: Az üres bekezdések eltávolítása
+## 1. lépés: Üres bekezdések eltávolítása
 
 ```java
 Document doc = new Document();
@@ -35,10 +37,10 @@ builder.write(" ? ");
 FieldMergeField mergeFieldOption2 = (FieldMergeField) builder.insertField("MERGEFIELD", "Option_2");
 mergeFieldOption2.setFieldName("Option_2");
 
-// Állítsa be a tisztítási beállításokat
+// Takarítási beállítások megadása
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS);
 
-// Az írásjelekkel ellátott bekezdések tisztításának engedélyezése
+// Írásjelekkel ellátott bekezdések tisztításának engedélyezése
 doc.getMailMerge().setCleanupParagraphsWithPunctuationMarks(true);
 
 // Körlevél végrehajtása
@@ -48,32 +50,32 @@ doc.getMailMerge().execute(new String[] { "Option_1", "Option_2" }, new Object[]
 doc.save("WorkingWithCleanupOptions.CleanupParagraphsWithPunctuationMarks.docx");
 ```
 
-Ebben a példában új dokumentumot hozunk létre, egyesítési mezőket szúrunk be, és a tisztítási beállításokat az üres bekezdések eltávolítására állítjuk be. Ezenkívül lehetővé tesszük az írásjeleket tartalmazó bekezdések eltávolítását. A körlevél-összevonás végrehajtása után a dokumentum elmentésre kerül a megadott tisztítás alkalmazásával.
+Ebben a példában létrehozunk egy új dokumentumot, beszúrunk egyesítési mezőket, és beállítjuk a tisztítási beállításokat az üres bekezdések eltávolításához. Ezenkívül engedélyezzük az írásjeleket tartalmazó bekezdések eltávolítását. A körlevél végrehajtása után a dokumentum a megadott tisztítási beállításokkal kerül mentésre.
 
-## 2. lépés: A nem egyesített régiók eltávolítása
+## 2. lépés: Nem egyesített régiók eltávolítása
 
 ```java
 Document doc = new Document("Your Directory Path" + "Mail merge destination - Northwind suppliers.docx");
 DataSet data = new DataSet();
 
-// Állítsa be a tisztítási beállításokat a nem használt régiók eltávolításához
+// Tisztítási beállítások beállítása a nem használt területek eltávolításához
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS);
 
-// Levélegyesítés végrehajtása a régiókkal
+// Körlevél végrehajtása régiókkal
 doc.getMailMerge().executeWithRegions(data);
 
 // Mentse el a dokumentumot
 doc.save("WorkingWithCleanupOptions.RemoveUnmergedRegions.docx");
 ```
 
-Ebben a példában megnyitunk egy meglévő dokumentumot egyesítési régiókkal, beállítjuk a tisztítási beállításokat a nem használt régiók eltávolítására, majd végrehajtjuk a körlevél-összevonást üres adatokkal. Ez a folyamat automatikusan eltávolítja a nem használt régiókat a dokumentumból.
+Ebben a példában megnyitunk egy meglévő dokumentumot egyesítési régiókkal, beállítjuk a tisztítási beállításokat a nem használt régiók eltávolítására, majd végrehajtjuk a körlevélkészítést üres adatokkal. Ez a folyamat automatikusan eltávolítja a nem használt régiókat a dokumentumból.
 
-## 3. lépés: Az üres mezők eltávolítása
+## 3. lépés: Üres mezők eltávolítása
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Állítsa be a tisztítási beállításokat az üres mezők eltávolításához
+// Tisztítási beállítások megadása az üres mezők eltávolításához
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_FIELDS);
 
 // Körlevél végrehajtása
@@ -84,14 +86,14 @@ doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Add
 doc.save("WorkingWithCleanupOptions.RemoveEmptyFields.docx");
 ```
 
-Ebben a példában megnyitunk egy dokumentumot egyesítési mezőkkel, beállítjuk a tisztítási beállításokat az üres mezők eltávolításához, és végrehajtjuk a körlevél-egyesítést az adatokkal. Az összevonás után az üres mezők törlődnek a dokumentumból.
+Ebben a példában megnyitunk egy dokumentumot, amely tartalmaz egyesítési mezőket, beállítjuk a tisztítási beállításokat az üres mezők eltávolítására, és végrehajtjuk a körlevélkészítést az adatokkal. Az egyesítés után az üres mezők eltávolításra kerülnek a dokumentumból.
 
-## 4. lépés: Távolítsa el a nem használt mezőket
+## 4. lépés: Nem használt mezők eltávolítása
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Állítsa be a tisztítási beállításokat a nem használt mezők eltávolításához
+// Tisztítási beállítások beállítása a nem használt mezők eltávolításához
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS);
 
 // Körlevél végrehajtása
@@ -102,14 +104,14 @@ doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Add
 doc.save("WorkingWithCleanupOptions.RemoveUnusedFields.docx");
 ```
 
-Ebben a példában megnyitunk egy dokumentumot egyesítési mezőkkel, beállítjuk a tisztítási beállításokat a nem használt mezők eltávolításához, és végrehajtjuk az adatokkal való körlevél-összevonást. Az egyesítés után a fel nem használt mezők törlődnek a dokumentumból.
+Ebben a példában megnyitunk egy dokumentumot, amely tartalmaz egyesítési mezőket, beállítjuk a tisztítási beállításokat a nem használt mezők eltávolításához, és végrehajtjuk a körlevélkészítést az adatokkal. Az egyesítés után a nem használt mezők eltávolításra kerülnek a dokumentumból.
 
-## 5. lépés: Távolítsa el a tartalmazott mezőket
+## 5. lépés: Tartalmazó mezők eltávolítása
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Állítsa be a tisztítási beállításokat a tartalmazó mezők eltávolításához
+// Tisztítási beállítások beállítása a mezők eltávolításához
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS);
 
 // Körlevél végrehajtása
@@ -120,14 +122,14 @@ doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Add
 doc.save("WorkingWithCleanupOptions.RemoveContainingFields.docx");
 ```
 
-Ebben a példában megnyitunk egy dokumentumot egyesítési mezőkkel, beállítjuk a tisztítási beállításokat a tartalmazó mezők eltávolításához, és végrehajtjuk az adatokkal való levélegyesítést. Az összevonás után maguk a mezők törlődnek a dokumentumból.
+Ebben a példában megnyitunk egy dokumentumot, amely tartalmaz egyesítési mezőket, beállítjuk a tisztítási beállításokat a mezőket tartalmazó mezők eltávolítására, és végrehajtjuk az adatokkal való körlevélkészítést. Az egyesítés után maguk a mezők is eltávolításra kerülnek a dokumentumból.
 
-## 6. lépés: Az üres táblázatsorok eltávolítása
+## 6. lépés: Üres táblázatsorok eltávolítása
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Állítsa be a tisztítási beállításokat az üres táblázatsorok eltávolításához
+// Tisztítási beállítások megadása az üres táblázatsorok eltávolításához
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS);
 
 // Körlevél végrehajtása
@@ -138,52 +140,57 @@ doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Add
 doc.save("WorkingWithCleanupOptions.RemoveEmptyTableRows.docx");
 ```
 
-Ebben a példában megnyitunk egy dokumentumot egy táblázattal és egyesítési mezőkkel, beállítjuk a tisztítási beállításokat az üres táblasorok eltávolításához, és végrehajtjuk a körlevél-összevonást az adatokkal. Az összevonás után az üres táblázatsorok eltávolításra kerülnek a dokumentumból.
+Ebben a példában megnyitunk egy táblázatot és egyesítési mezőket tartalmazó dokumentumot, beállítjuk a tisztítási beállításokat az üres táblázatsorok eltávolításához, és végrehajtjuk a körlevélkészítést az adatokkal. Az egyesítés után az üres táblázatsorok eltávolításra kerülnek a dokumentumból.
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanulta, hogyan használhatja az Aspose.Words for Java törlési beállításait dokumentumok kezeléséhez és tisztításához a körlevél-egyesítési folyamat során. Ezek az opciók finom vezérlést biztosítanak a dokumentumtisztítás felett, lehetővé téve a csiszolt és testreszabott dokumentumok könnyű létrehozását.
+Ebben az oktatóanyagban megtanultad, hogyan használhatod az Aspose.Words for Java tisztítási beállításait a dokumentumok kezeléséhez és tisztításához a körlevelezési folyamat során. Ezek a beállítások részletes szabályozást biztosítanak a dokumentumok tisztítása felett, lehetővé téve a letisztult és testreszabott dokumentumok egyszerű létrehozását.
 
 ## GYIK
 
-### Mik az Aspose.Words for Java tisztítási lehetőségei?
+### Milyen tisztítási lehetőségek vannak az Aspose.Words Java-ban?
 
-Az Aspose.Words for Java tisztítási beállításai olyan beállítások, amelyek lehetővé teszik a dokumentumtisztítás különféle szempontjainak szabályozását a körlevél-egyesítési folyamat során. Lehetővé teszik a felesleges elemek, például az üres bekezdések, a nem használt régiók és egyebek eltávolítását, így biztosítva, hogy a végleges dokumentum jól strukturált és csiszolt legyen.
+Az Aspose.Words for Java takarítási beállításai lehetővé teszik a dokumentumtisztítás különböző aspektusainak szabályozását a körlevélkészítési folyamat során. Lehetővé teszik a felesleges elemek, például az üres bekezdések, a nem használt területek és egyebek eltávolítását, biztosítva, hogy a végső dokumentum jól strukturált és kidolgozott legyen.
 
-### Hogyan távolíthatom el az üres bekezdéseket a dokumentumomból?
+### Hogyan tudom eltávolítani az üres bekezdéseket a dokumentumomból?
 
- Az üres bekezdések eltávolításához a dokumentumból az Aspose.Words for Java segítségével beállíthatja a`MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` opció igazra. Ez automatikusan kiküszöböli azokat a bekezdéseket, amelyeknek nincs tartalmuk, ami tisztább dokumentumot eredményez.
+Az Aspose.Words for Java használatával üres bekezdések eltávolításához beállíthatja a következőt: `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` opciót igazra. Ez automatikusan eltávolítja a tartalom nélküli bekezdéseket, ami tisztább dokumentumot eredményez.
 
-###  Mi a célja a`REMOVE_UNUSED_REGIONS` cleanup option?
+### Mi a célja a `REMOVE_UNUSED_REGIONS` takarítási lehetőség?
 
- A`MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` Az opció a körlevél-összevonási folyamat során a dokumentumok azon régióinak eltávolítására szolgál, amelyek nem rendelkeznek megfelelő adatokkal. Segít megőrizni a dokumentum rendezettségét azáltal, hogy megszabadul a nem használt helyőrzőktől.
+A `MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` A beállítással a körlevélkészítés során eltávolíthatók a dokumentum azon régiói, amelyekhez nem tartozik adat. Segít a dokumentum rendezetten tartásában a nem használt helyőrzők eltávolításával.
 
-### Eltávolíthatom az üres táblázatsorokat a dokumentumból az Aspose.Words for Java segítségével?
+### Eltávolíthatok üres táblázatsorokat egy dokumentumból az Aspose.Words for Java használatával?
 
- Igen, eltávolíthatja az üres táblázatsorokat a dokumentumból a`MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS`tisztítási lehetőség igazra. Ez automatikusan törli az összes adatot nem tartalmazó táblázatsort, így biztosítva a jól strukturált táblázatot a dokumentumban.
+Igen, a beállítással eltávolíthatja az üres táblázatsorokat egy dokumentumból. `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS` cleanup opciót igazra kell állítani. Ez automatikusan törli az adatokat nem tartalmazó táblázatsorokat, biztosítva ezzel a dokumentumban a jól strukturált táblázatot.
 
-###  Mi történik, ha beállítom a`REMOVE_CONTAINING_FIELDS` option?
+### Mi történik, ha beállítom a `REMOVE_CONTAINING_FIELDS` opció?
 
- Beállítása a`MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` Az opció eltávolítja a teljes egyesítési mezőt, beleértve a bekezdést is, a dokumentumból a körlevél-egyesítési folyamat során. Ez akkor hasznos, ha el szeretné távolítani az egyesítési mezőket és a hozzájuk tartozó szöveget.
+A beállítás `MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` A „körlevél” opció eltávolítja a teljes körlevélmezőt a dokumentumból a körlevélkészítés során, beleértve a benne lévő bekezdést is. Ez akkor hasznos, ha el szeretné távolítani az körlevélmezőket és a hozzájuk tartozó szöveget.
 
-### Hogyan távolíthatom el a fel nem használt egyesítési mezőket a dokumentumomból?
+### Hogyan távolíthatok el nem használt mezőket a dokumentumomból?
 
- A nem használt egyesítési mezők dokumentumból való eltávolításához beállíthatja a`MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` opció igazra. Ez automatikusan megszünteti azokat az egyesítési mezőket, amelyek nem töltődnek ki a körlevélkészítés során, így tisztább dokumentumot kap.
+A nem használt egyesítési mezők eltávolításához egy dokumentumból beállíthatja a `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` opciót igaz értékre állítja. Ez automatikusan eltávolítja azokat az egyesítési mezőket, amelyek nem kerülnek kitöltésre a körlevelezés során, így tisztább dokumentumot eredményez.
 
-###  Mi a különbség között`REMOVE_EMPTY_FIELDS` and `REMOVE_UNUSED_FIELDS` cleanup options?
+### Mi a különbség a ... és ... között? `REMOVE_EMPTY_FIELDS` és `REMOVE_UNUSED_FIELDS` takarítási lehetőségek?
 
- A`REMOVE_EMPTY_FIELDS` Az opció eltávolítja azokat az egyesítési mezőket, amelyek nem tartalmaznak adatokat, vagy üresek a körlevél-egyesítési folyamat során. Másrészt a`REMOVE_UNUSED_FIELDS`Az opció eltávolítja azokat az egyesítési mezőket, amelyek nem töltődnek fel adatokkal az egyesítés során. A közöttük való választás attól függ, hogy el kívánja-e távolítani a tartalom nélküli mezőket, vagy azokat, amelyeket az adott egyesítési művelet során nem használnak.
+A `REMOVE_EMPTY_FIELDS` opció eltávolítja az adatokat nem tartalmazó vagy üres mezőket a körlevélkészítési folyamat során. Másrészt a `REMOVE_UNUSED_FIELDS` Az egyesítési opció eltávolítja azokat az egyesítési mezőket, amelyeket az egyesítés során nem töltöttek ki adatokkal. A választás attól függ, hogy a tartalom nélküli mezőket vagy a konkrét egyesítési műveletben fel nem használt mezőket szeretné-e eltávolítani.
 
 ### Hogyan engedélyezhetem az írásjeleket tartalmazó bekezdések eltávolítását?
 
- Az írásjeleket tartalmazó bekezdések eltávolításának engedélyezéséhez beállíthatja a`cleanupParagraphsWithPunctuationMarks` opciót igazra állítsa, és adja meg a tisztításkor figyelembe veendő írásjeleket. Ez lehetővé teszi, hogy kifinomultabb dokumentumot hozzon létre a szükségtelen, csak írásjeleket tartalmazó bekezdések eltávolításával.
+Az írásjeleket tartalmazó bekezdések eltávolításának engedélyezéséhez beállíthatja a `cleanupParagraphsWithPunctuationMarks` opciót igazra kell állítani, és meg kell adni a tisztítás során figyelembe veendő írásjeleket. Ez lehetővé teszi egy finomabb dokumentum létrehozását a felesleges, csak írásjeleket tartalmazó bekezdések eltávolításával.
 
-### Testreszabhatom az Aspose.Words for Java tisztítási beállításait?
+### Testreszabhatom a tisztítási beállításokat az Aspose.Words for Java fájlban?
 
-Igen, testreszabhatja a tisztítási beállításokat az Ön egyedi igényei szerint. Kiválaszthatja, hogy mely tisztítási beállításokat kívánja alkalmazni, és beállíthatja azokat a dokumentumtisztítási követelményeknek megfelelően, így biztosítva, hogy a végleges dokumentum megfeleljen a kívánt szabványoknak.
+Igen, testreszabhatja a tisztítási beállításokat az Ön igényei szerint. Kiválaszthatja, hogy mely tisztítási beállításokat alkalmazza, és konfigurálhatja azokat a dokumentumtisztítási követelményeinek megfelelően, biztosítva, hogy a végső dokumentum megfeleljen a kívánt szabványoknak.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

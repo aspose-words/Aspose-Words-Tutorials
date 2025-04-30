@@ -1,25 +1,31 @@
 ---
-title: Lavorare con campi di modulo in Aspose.Words per .NET
-weight: 10
-limit:
-description: Impara come lavorare con i campi di modulo in Aspose.Words per .NET. Esplora le funzionalità per aggiungere, modificare e gestire facilmente le entrate di testo, le caselle combo e i campi di contrassegno.
-keywords:
-url: /it/net/working-with-form-fields/
+"description": "Scopri come utilizzare i campi modulo in Aspose.Words per .NET. Esplora le funzionalità per aggiungere, modificare e gestire facilmente i campi di testo, le caselle combinate e le caselle di controllo."
+"title": "Lavorare con i campi del modulo in Aspose.Words per .NET"
+"url": "/it/net/working-with-form-fields/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Introduzione
 
-I campi di modulo sono essenziali per la creazione di documenti Word interattivi e riempiebili, e Aspose.Words per .NET rende il processo senza soluzione di continuità ed efficiente. Che si debba aggiungere un campo di input di testo per raccogliere informazioni sull'utente, una casella combo per fornire una selezione a discesa o una casella di controllo per semplici opzioni sì / no, questa libreria offre funzionalità completa. Gli sviluppatori possono facilmente aggiungere, modificare e gestire campi di modulo in modo programmatico, rendendolo uno strumento perfetto per l'automazione dei flussi di lavoro di documenti.
+campi modulo sono essenziali per la creazione di documenti Word interattivi e compilabili, e Aspose.Words per .NET rende il processo fluido ed efficiente. Che si tratti di aggiungere un campo di immissione di testo per raccogliere informazioni utente, una casella combinata per fornire una selezione a discesa o una casella di controllo per semplici opzioni sì/no, questa libreria offre funzionalità complete. Gli sviluppatori possono facilmente aggiungere, modificare e gestire i campi modulo a livello di codice, rendendola uno strumento perfetto per automatizzare i flussi di lavoro dei documenti.
 
-Aspose.Words per .NET supporta vari tipi di campi di modulo, consentendo di progettare moduli complessi con precisione e flessibilità. Con la sua ricca API, è possibile controllare le proprietà del campo, riempire i dati e persino elaborare le entrate dell'utente con un minimo sforzo. Che si stia generando sondaggi, contratti o modelli personalizzati, lavorare con campi di modulo utilizzando Aspose.Words garantisce un'esperienza professionale e user- friendly.
+Aspose.Words per .NET supporta vari tipi di campi modulo, consentendo di progettare moduli complessi con precisione e flessibilità. Grazie alla sua ricca API, è possibile controllare le proprietà dei campi, popolare i dati e persino elaborare l'input dell'utente con il minimo sforzo. Che si tratti di generare sondaggi, contratti o modelli personalizzati, lavorare con i campi modulo con Aspose.Words garantisce un'esperienza professionale e intuitiva.
 
-{{< tutorial-card link="./insert-form-fields/" title="Inserire il campo di modulo nella casella combo nel documento Word" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-form-fields/" title="Inserisci campo modulo casella combinata nel documento Word" imgSrc="./insert-form-fields/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

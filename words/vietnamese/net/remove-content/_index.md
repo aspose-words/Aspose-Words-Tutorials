@@ -1,14 +1,16 @@
 ---
-title: Tài liệu Word - Cách xóa nội dung
-linktitle: Xóa Nội dung
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách xóa nội dung hiệu quả khỏi tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước và sử dụng các mẫu mã C# để tìm hiểu các kỹ thuật xóa nội dung khác nhau.
-weight: 1370
-url: /vi/net/remove-content/
+"description": "Tìm hiểu cách xóa nội dung hiệu quả khỏi tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước và sử dụng các mẫu mã C# để tìm hiểu các kỹ thuật xóa nội dung khác nhau."
+"linktitle": "Xóa Nội dung"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tài liệu Word - Cách xóa nội dung"
+"url": "/vi/net/remove-content/"
+"weight": 1370
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tài liệu Word - Cách xóa nội dung
@@ -20,15 +22,20 @@ Các hướng dẫn này cung cấp các ví dụ mã rõ ràng và súc tích v
 Cho dù bạn cần thao tác, tạo, chuyển đổi hay tạo tài liệu Word, hướng dẫn Aspose.Words for .NET cung cấp cho bạn kiến thức và kỹ năng để khai thác đầy đủ chức năng của thư viện Aspose.Words. Bằng cách hiểu các khái niệm chính này, bạn sẽ có thể phát triển các ứng dụng mạnh mẽ, tùy chỉnh để đáp ứng nhu cầu xử lý tài liệu Word cụ thể của mình.
 
  ## Hướng dẫn
-| Tiêu đề | Sự miêu tả |
+| Tiêu đề | Mô tả |
 | --- | --- |
 | [Xóa Ngắt Trang Trong Tài Liệu Word](./remove-page-breaks/) | Tìm hiểu cách xóa ngắt trang trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Nâng cao kỹ năng thao tác tài liệu của bạn. |
-| [Xóa ngắt phần trong tài liệu Word](./remove-section-breaks/) | Tìm hiểu cách xóa ngắt phần trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn chi tiết từng bước này đảm bảo quản lý và chỉnh sửa tài liệu trơn tru.|
-| [Xóa chân trang trong tài liệu Word](./remove-footers/) | Tìm hiểu cách xóa chân trang khỏi tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này. |
+| [Xóa ngắt phần trong tài liệu Word](./remove-section-breaks/) | Tìm hiểu cách xóa ngắt phần trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn chi tiết, từng bước này đảm bảo quản lý và chỉnh sửa tài liệu trơn tru.|
+| [Xóa chân trang trong tài liệu Word](./remove-footers/) Tìm hiểu cách xóa chân trang khỏi tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này. |
 | [Xóa Mục Lục Trong Tài Liệu Word](./remove-table-of-contents/) | Tìm hiểu cách xóa mục lục trong tài liệu Word bằng Aspose.Words cho .NET. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Usuń pole
-linktitle: Usuń pole
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak usuwać pola z dokumentów Word za pomocą Aspose.Words dla .NET w tym szczegółowym przewodniku krok po kroku. Idealne dla deweloperów i zarządzania dokumentami.
-weight: 10
-url: /pl/net/working-with-fields/remove-field/
+"description": "Dowiedz się, jak usuwać pola z dokumentów Word za pomocą Aspose.Words dla .NET w tym szczegółowym przewodniku krok po kroku. Idealne dla deweloperów i zarządzania dokumentami."
+"linktitle": "Usuń pole"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Usuń pole"
+"url": "/pl/net/working-with-fields/remove-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuń pole
@@ -21,7 +23,7 @@ Czy kiedykolwiek utknąłeś próbując usunąć niechciane pola z dokumentów W
 
 Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Upewnij się, że pobrałeś i zainstalowałeś. Jeśli nie, pobierz[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że pobrałeś i zainstalowałeś. Jeśli nie, pobierz [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: dowolne środowisko programistyczne .NET, np. Visual Studio.
 3. Podstawowa wiedza o języku C#: W tym samouczku zakładamy, że posiadasz podstawową wiedzę o języku C#.
 
@@ -72,7 +74,7 @@ Na koniec musimy zapisać nasz dokument. Ten krok zapewnia, że cała Twoja cię
 doc.Save(dataDir + "WorkingWithFields.RemoveField.docx");
 ```
 
-I masz! Udało Ci się usunąć pole z dokumentu Word za pomocą Aspose.Words dla .NET. Ale czekaj, to nie wszystko! Rozłóżmy to na czynniki pierwsze, aby upewnić się, że rozumiesz każdy szczegół.
+masz! Udało Ci się usunąć pole z dokumentu Word za pomocą Aspose.Words dla .NET. Ale czekaj, to nie wszystko! Rozłóżmy to na czynniki pierwsze, aby upewnić się, że rozumiesz każdy szczegół.
 
 ## Wniosek
 
@@ -94,9 +96,14 @@ Po usunięciu i zapisaniu dokumentu nie można cofnąć tej czynności. Zawsze r
 
 ### Czy ta metoda działa ze wszystkimi formatami dokumentów Word?
 Tak, działa z formatami DOCX, DOC i innymi formatami Word obsługiwanymi przez Aspose.Words.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

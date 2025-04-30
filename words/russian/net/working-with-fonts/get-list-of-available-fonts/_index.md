@@ -1,14 +1,16 @@
 ---
-title: Получить список доступных шрифтов
-linktitle: Получить список доступных шрифтов
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как получить список доступных шрифтов с помощью Aspose.Words для .NET в этом подробном пошаговом руководстве. Повысьте свои навыки управления шрифтами.
-weight: 10
-url: /ru/net/working-with-fonts/get-list-of-available-fonts/
+"description": "Узнайте, как получить список доступных шрифтов с помощью Aspose.Words для .NET в этом подробном пошаговом руководстве. Повысьте свои навыки управления шрифтами."
+"linktitle": "Получить список доступных шрифтов"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Получить список доступных шрифтов"
+"url": "/ru/net/working-with-fonts/get-list-of-available-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получить список доступных шрифтов
@@ -21,7 +23,7 @@ url: /ru/net/working-with-fonts/get-list-of-available-fonts/
 
 Прежде чем мы начнем, вам понадобится несколько вещей:
 
--  Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words for .NET. Вы можете загрузить ее с[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words for .NET. Вы можете загрузить ее с [здесь](https://releases.aspose.com/words/net/).
 - Visual Studio: в этом примере в качестве среды разработки используется Visual Studio.
 - .NET Framework: Убедитесь, что на вашем компьютере установлен .NET Framework.
 - Каталог документов: путь к каталогу, в котором хранятся ваши документы.
@@ -57,7 +59,7 @@ List<FontSourceBase> fontSources = new List<FontSourceBase>(fontSettings.GetFont
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
--  dataDir: Эта строковая переменная содержит путь к каталогу, где находятся ваши шрифты. Заменить`"YOUR DOCUMENT DIRECTORY"` с реальным путем.
+- dataDir: Эта строковая переменная содержит путь к каталогу, где находятся ваши шрифты. Заменить `"YOUR DOCUMENT DIRECTORY"` с реальным путем.
 
 ## Шаг 3: Добавьте папку с пользовательскими шрифтами
 
@@ -67,7 +69,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FolderFontSource folderFontSource = new FolderFontSource(dataDir, true);
 ```
 
-- FolderFontSource: Этот класс представляет источник шрифта папки. Второй параметр (`true`) указывает, следует ли выполнять рекурсивный поиск шрифтов во вложенных папках.
+- FolderFontSource: Этот класс представляет источник шрифта папки. Второй параметр (`true`указывает, следует ли выполнять рекурсивный поиск шрифтов во вложенных папках.
 
 ## Шаг 4: Обновите источники шрифтов
 
@@ -96,7 +98,7 @@ foreach (PhysicalFontInfo fontInfo in updatedFontSources[0].GetAvailableFonts())
 ```
 
 - GetAvailableFonts(): извлекает список доступных шрифтов из первого источника шрифтов в обновленном списке.
--  fontInfo: Экземпляр`PhysicalFontInfo` содержащий подробную информацию о каждом шрифте.
+- fontInfo: Экземпляр `PhysicalFontInfo` содержащий подробную информацию о каждом шрифте.
 
 ## Заключение
 
@@ -111,16 +113,21 @@ foreach (PhysicalFontInfo fontInfo in updatedFontSources[0].GetAvailableFonts())
 Вы можете установить его через диспетчер пакетов NuGet в Visual Studio, выполнив поиск по запросу «Aspose.Words».
 
 ### Можно ли добавить несколько пользовательских папок шрифтов?
- Да, вы можете добавить несколько папок пользовательских шрифтов, создав несколько`FolderFontSource` экземпляров и добавление их в список источников шрифтов.
+Да, вы можете добавить несколько папок пользовательских шрифтов, создав несколько `FolderFontSource` экземпляров и добавление их в список источников шрифтов.
 
 ### Могу ли я получить сведения о шрифте из определенного источника шрифтов?
- Да, вы можете получить сведения о шрифте из любого источника шрифтов, указав индекс источника шрифтов в`updatedFontSources` множество.
+Да, вы можете получить сведения о шрифте из любого источника шрифтов, указав индекс источника шрифта в `updatedFontSources` множество.
 
 ### Поддерживает ли Aspose.Words для .NET замену шрифтов?
 Да, он поддерживает замену шрифтов, что гарантирует корректную визуализацию текста, даже если исходный шрифт недоступен.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

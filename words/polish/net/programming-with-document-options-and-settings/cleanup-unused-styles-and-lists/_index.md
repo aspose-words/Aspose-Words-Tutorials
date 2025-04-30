@@ -1,14 +1,16 @@
 ---
-title: Wyczyść nieużywane style i listy
-linktitle: Wyczyść nieużywane style i listy
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Wyczyść swoje dokumenty Word za pomocą Aspose.Words dla .NET, usuwając nieużywane style i listy. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby bez wysiłku usprawnić swoje dokumenty.
-weight: 10
-url: /pl/net/programming-with-document-options-and-settings/cleanup-unused-styles-and-lists/
+"description": "Wyczyść swoje dokumenty Word za pomocą Aspose.Words dla .NET, usuwając nieużywane style i listy. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby bez wysiłku usprawnić swoje dokumenty."
+"linktitle": "Wyczyść nieużywane style i listy"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wyczyść nieużywane style i listy"
+"url": "/pl/net/programming-with-document-options-and-settings/cleanup-unused-styles-and-lists/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyczyść nieużywane style i listy
@@ -22,7 +24,7 @@ Cześć! Czy kiedykolwiek czułeś, że Twoje dokumenty Worda stają się troch�
 Zanim zagłębimy się w szczegóły, upewnijmy się, że masz wszystko, czego potrzebujesz. Oto krótka lista kontrolna:
 
 - Podstawowa znajomość języka C#: Powinieneś swobodnie posługiwać się programowaniem w języku C#.
--  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną tę bibliotekę. Jeśli nie, możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną tę bibliotekę. Jeśli nie, możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: dowolne środowisko IDE zgodne z językiem C#, np. Visual Studio.
 - Przykładowy dokument: Dokument Word z kilkoma nieużywanymi stylami i listami do uporządkowania.
 
@@ -88,7 +90,7 @@ doc.Save(dataDir + "CleanedDocument.docx");
 
 ## Wniosek
 
-I masz! Udało Ci się uporządkować dokument Worda, usuwając nieużywane style i listy za pomocą Aspose.Words dla .NET. To jak uporządkowanie cyfrowego biurka, dzięki czemu Twoje dokumenty będą łatwiejsze w zarządzaniu i wydajniejsze. Pochwal się za dobrze wykonaną pracę!
+I masz! Udało Ci się uporządkować dokument Worda, usuwając nieużywane style i listy za pomocą Aspose.Words dla .NET. To jak uporządkowanie cyfrowego biurka, dzięki czemu Twoje dokumenty są łatwiejsze w zarządzaniu i wydajniejsze. Pochwal się za dobrze wykonaną pracę!
 
 ## Najczęściej zadawane pytania
 
@@ -96,20 +98,25 @@ I masz! Udało Ci się uporządkować dokument Worda, usuwając nieużywane styl
 Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programowe tworzenie, modyfikowanie i konwertowanie dokumentów Word przy użyciu języka C#.
 
 ### Czy mogę jednocześnie usunąć nieużywane style i listy?
-Tak, możesz ustawić oba`UnusedLists` I`UnusedStyles` Do`true` w`CleanupOptions` aby usunąć oba.
+Tak, możesz ustawić oba `UnusedLists` I `UnusedStyles` Do `true` w `CleanupOptions` aby usunąć oba.
 
 ### Czy można cofnąć czyszczenie?
 Nie, po zakończeniu czyszczenia i zapisaniu dokumentu nie można cofnąć zmian. Zawsze rób kopię zapasową oryginalnego dokumentu.
 
 ### Czy potrzebuję licencji na Aspose.Words dla .NET?
- Tak, Aspose.Words dla .NET wymaga licencji dla pełnej funkcjonalności. Możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license) Lub[kup jeden](https://purchase.aspose.com/buy).
+Tak, Aspose.Words dla .NET wymaga licencji dla pełnej funkcjonalności. Możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/tempLubary-license) or [kup jeden](https://purchase.aspose.com/buy).
 
 ### Gdzie mogę znaleźć więcej informacji i pomoc?
- Szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/words/net/) i uzyskaj wsparcie od[Forum Aspose](https://forum.aspose.com/c/words/8).
+Szczegółową dokumentację można znaleźć [Tutaj](https://reference.aspose.com/words/net/) i uzyskaj wsparcie od [Forum Aspose](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

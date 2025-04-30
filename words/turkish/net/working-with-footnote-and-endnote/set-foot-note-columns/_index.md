@@ -1,14 +1,16 @@
 ---
-title: Dipnot Sütunlarını Ayarla
-linktitle: Dipnot Sütunlarını Ayarla
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinde dipnot sütunlarının nasıl ayarlanacağını öğrenin. Adım adım kılavuzumuzla dipnot düzeninizi kolayca özelleştirin.
-weight: 10
-url: /tr/net/working-with-footnote-and-endnote/set-foot-note-columns/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinde dipnot sütunlarının nasıl ayarlanacağını öğrenin. Adım adım kılavuzumuzla dipnot düzeninizi kolayca özelleştirin."
+"linktitle": "Dipnot Sütunlarını Ayarla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Dipnot Sütunlarını Ayarla"
+"url": "/tr/net/working-with-footnote-and-endnote/set-foot-note-columns/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dipnot Sütunlarını Ayarla
@@ -21,7 +23,7 @@ Aspose.Words for .NET ile Word belge düzenleme dünyasına dalmaya hazır mıs�
 
 Koda geçmeden önce ihtiyacımız olan her şeyin mevcut olduğundan emin olalım:
 
-1.  Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET'in en son sürümünü indirip yüklediğinizden emin olun.[İndirme bağlantısı](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET'in en son sürümünü indirip yüklediğinizden emin olun. [İndirme bağlantısı](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: .NET geliştirme ortamını kurmuş olmanız gerekir. Visual Studio popüler bir seçimdir.
 3. Temel C# Bilgisi: C# programlamaya dair temel bir anlayışa sahip olmak, konuyu kolayca takip etmenize yardımcı olacaktır.
 
@@ -38,14 +40,14 @@ using Aspose.Words.Saving;
 
 ## Adım 1: Belgenizi Yükleyin
 
-İlk adım, değiştirmek istediğiniz belgeyi yüklemektir. Bu eğitim için, adında bir belgeniz olduğunu varsayacağız.`Document.docx` çalışma dizininizde.
+İlk adım, değiştirmek istediğiniz belgeyi yüklemektir. Bu eğitim için, adında bir belgeniz olduğunu varsayacağız. `Document.docx` çalışma dizininizde.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; 
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- Burada,`dataDir` belgenizin saklandığı dizindir. Değiştir`"YOUR DOCUMENT DIRECTORY"` belgenizin gerçek yolunu belirtin.
+Burada, `dataDir` belgenizin saklandığı dizindir. Değiştir `"YOUR DOCUMENT DIRECTORY"` belgenizin gerçek yolunu belirtin.
 
 ## Adım 2: Dipnot Sütunlarının Sayısını Ayarlayın
 
@@ -87,9 +89,14 @@ Hayır, dipnot sütunlarını ayarlamak yalnızca dipnot alanını etkiler. Ana 
 
 ### Belgeyi kaydetmeden önce değişiklikleri önizleyebilir miyim?  
 Evet, belgeyi önizlemek için Aspose.Words'ün işleme seçeneklerini kullanabilirsiniz. Ancak bunun için ek adımlar ve kurulum gerekir.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

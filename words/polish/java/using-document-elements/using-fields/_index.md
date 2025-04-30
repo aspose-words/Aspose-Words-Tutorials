@@ -1,20 +1,22 @@
 ---
-title: Korzystanie z pól w Aspose.Words dla Java
-linktitle: Korzystanie z pól
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Naucz się efektywnie używać Aspose.Words dla pól Java w tym samouczku krok po kroku. Twórz dynamiczne dokumenty Word z łatwością.
-weight: 11
-url: /pl/java/using-document-elements/using-fields/
+"description": "Naucz się efektywnie używać Aspose.Words dla pól Java w tym samouczku krok po kroku. Twórz dynamiczne dokumenty Word z łatwością."
+"linktitle": "Korzystanie z pól"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Korzystanie z pól w Aspose.Words dla Java"
+"url": "/pl/java/using-document-elements/using-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie z pól w Aspose.Words dla Java
 
 
-tym samouczku krok po kroku pokażemy Ci, jak używać pól w Aspose.Words for Java, aby z łatwością manipulować dokumentami. Aspose.Words for Java to potężne API, które pozwala programowo pracować z dokumentami Word, dając Ci pełną kontrolę nad ich zawartością i formatowaniem.
+W tym samouczku krok po kroku pokażemy Ci, jak używać pól w Aspose.Words for Java, aby z łatwością manipulować dokumentami. Aspose.Words for Java to potężne API, które pozwala programowo pracować z dokumentami Word, dając Ci pełną kontrolę nad ich zawartością i formatowaniem.
 
 ## 1. Wprowadzenie
 
@@ -22,7 +24,7 @@ Aspose.Words for Java to niezbędne narzędzie dla każdego, kto ma do czynienia
 
 ## 2. Konfigurowanie środowiska
 
- Zanim zaczniesz, upewnij się, że masz zainstalowany Aspose.Words for Java. Możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/words/java/). Upewnij się również, że masz zainstalowaną na swoim systemie Javę i zintegrowane środowisko programistyczne (IDE), takie jak Eclipse lub IntelliJ IDEA.
+Zanim zaczniesz, upewnij się, że masz zainstalowany Aspose.Words for Java. Możesz go pobrać ze strony [Tutaj](https://releases.aspose.com/words/java/). Upewnij się również, że masz zainstalowaną na swoim systemie Javę i zintegrowane środowisko programistyczne (IDE), takie jak Eclipse lub IntelliJ IDEA.
 
 ## 3. Ładowanie dokumentu Word
 
@@ -34,7 +36,7 @@ string outPath = "Your Output Directory";
 Document doc = new Document(dataDir + "Mail merge destinations - Fax.docx");
 ```
 
- Zastępować`"Your Document Directory"` I`"Your Output Directory"` z odpowiednimi ścieżkami.
+Zastępować `"Your Document Directory"` I `"Your Output Directory"` z odpowiednimi ścieżkami.
 
 ## 4. Dostosowywanie korespondencji seryjnej
 
@@ -68,7 +70,7 @@ Po dostosowaniu dokumentu możesz go zapisać, korzystając z następującego ko
 doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 ```
 
- Zastępować`"Your Output Directory"` z żądaną ścieżką wyjściową.
+Zastępować `"Your Output Directory"` z żądaną ścieżką wyjściową.
 
 ## Kompletny kod źródłowy
 ```java
@@ -99,12 +101,12 @@ Kod źródłowy klasy HandleMergeField
         /// Ten moduł obsługi jest wywoływany dla każdego pola korespondencji seryjnej znalezionego w dokumencie,
         /// dla każdego rekordu znalezionego w źródle danych.
         /// </podsumowanie>
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
+        public void /*Funkcja IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
         {
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
             // Postanowiliśmy, że wszystkie wartości logiczne będą wyprowadzane jako pola wyboru formularza.
-            if (e.getFieldValue() instanceof /*boolean*/Boolean)
+            if (e.getFieldValue() instanceof /*wartość logiczna*/Boolean)
             {
                 // Przesuń „kursor” do bieżącego pola scalania.
                 mBuilder.moveToMergeField(e.getFieldName());
@@ -140,9 +142,12 @@ Kod źródłowy klasy HandleMergeField
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        builder.writeln("{{#foreach example}}");
-        builder.writeln("{{Image(126pt;126pt):stempel}}");
-        builder.writeln("{{/foreach example}}");
+        builder.writeln("
+{{#foreach example}}");
+        builder.writeln("
+{{Image(126pt;126pt):stempel}}");
+        builder.writeln("
+{{/foreach example}}");
         doc.getMailMerge().setUseNonMergeFields(true);
         doc.getMailMerge().setTrimWhitespaces(true);
         doc.getMailMerge().setUseWholeParagraphAsRegion(false);
@@ -158,7 +163,7 @@ Kod źródłowy klasy HandleMergeField
     {
         public void fieldMerging(FieldMergingArgs args)
         {
-            // Wdrożenie nie jest wymagane.
+            //  Wdrożenie nie jest wymagane.
         }
         public void imageFieldMerging(ImageFieldMergingArgs args) throws Exception
         {
@@ -211,7 +216,7 @@ Kod źródłowy klasy HandleMergeField
         DocumentBuilder builder = new DocumentBuilder(doc);
         // Wstaw pole MERGEFIELD zagnieżdżone wewnątrz pola IF.
         // Ponieważ instrukcja pola IF jest fałszywa, wynik wewnętrznego pola MERGEFIELD nie zostanie wyświetlony,
-        // pole MERGEFIELD nie będzie odbierać żadnych danych podczas korespondencji seryjnej.
+        // a pole MERGEFIELD nie będzie odbierać żadnych danych podczas korespondencji seryjnej.
         FieldIf fieldIf = (FieldIf)builder.insertField(" IF 1 = 2 ");
         builder.moveTo(fieldIf.getSeparator());
         builder.insertField(" MERGEFIELD  FullName ");
@@ -243,15 +248,15 @@ Kod źródłowy klasy HandleMergeField
     }
     public static class HandleMergeImageFieldFromBlob implements IFieldMergingCallback
     {
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs args)
+        public void /*Funkcja IFieldMergingCallback.*/fieldMerging(FieldMergingArgs args)
         {
             // Nie rób nic.
         }
         /// <podsumowanie>
         /// Ta funkcja jest wywoływana, gdy moduł korespondencji seryjnej napotka w dokumencie pole korespondencji seryjnej Obraz:XXX.
-        /// Masz możliwość zwrócenia obiektu Image, nazwy pliku lub strumienia zawierającego obraz.
+        /// Masz szansę zwrócić obiekt Image, nazwę pliku lub strumień zawierający obraz.
         /// </podsumowanie>
-        public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs e) throws Exception
+        public void /*Funkcja IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs e) throws Exception
         {
             // Wartość pola jest tablicą bajtów, wystarczy ją rzutować i utworzyć na jej podstawie strumień.
             ByteArrayInputStream imageStream = new ByteArrayInputStream((byte[]) e.getFieldValue());
@@ -270,7 +275,7 @@ Kod źródłowy klasy HandleMergeField
     }
     public static class MailMergeSwitches implements IFieldMergingCallback
     {
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
+        public void /*Funkcja IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
         {
             if (e.getFieldName().startsWith("HTML"))
             {
@@ -285,7 +290,7 @@ Kod źródłowy klasy HandleMergeField
                 }
             }
         }
-        public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs args)
+        public void /*Funkcja IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs args)
         {
         }
     }
@@ -305,7 +310,7 @@ Kod źródłowy klasy HandleMergeField
         /// Możemy zwrócić pewne dane do modułu korespondencji seryjnej lub wykonać inną czynność z dokumentem.
         /// W tym przypadku modyfikujemy formatowanie komórek.
         /// </podsumowanie>
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e)
+        public void /*Funkcja IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e)
         {
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
@@ -315,7 +320,7 @@ Kod źródłowy klasy HandleMergeField
                 Color rowColor = isOdd(mRowIdx) 
                     ? new Color((213), (227), (235)) 
                     : new Color((242), (242), (242));
-                // tej chwili nie ma możliwości ustawienia właściwości komórki dla całego wiersza, dlatego musimy powtórzyć iterację po wszystkich komórkach w wierszu.
+                // W tej chwili nie ma możliwości ustawienia właściwości komórki dla całego wiersza, dlatego musimy powtórzyć iterację po wszystkich komórkach w wierszu.
                 for (int colIdx = 0; colIdx < 4; colIdx++)
                 {
                     mBuilder.moveToCell(0, mRowIdx, colIdx, 0);
@@ -324,7 +329,7 @@ Kod źródłowy klasy HandleMergeField
                 mRowIdx++;
             }
         }
-        public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs args)
+        public void /*Funkcja IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs args)
         {
             // Nie rób nic.
         }
@@ -366,26 +371,31 @@ Gratulacje! Nauczyłeś się, jak używać pól w Aspose.Words for Java, aby dyn
 ## 7. Często zadawane pytania
 
 ### P1: Gdzie mogę pobrać Aspose.Words dla Java?
- Możesz pobrać Aspose.Words dla Javy ze strony[Tutaj](https://releases.aspose.com/words/java/).
+Możesz pobrać Aspose.Words dla Javy ze strony [Tutaj](https://releases.aspose.com/words/java/).
 
 ### P2: Jak mogę uzyskać tymczasową licencję na Aspose.Words dla Java?
- Możesz uzyskać tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/).
+Możesz uzyskać tymczasową licencję od [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### P3: Gdzie mogę uzyskać pomoc dotyczącą Aspose.Words dla Java?
- Jeśli potrzebujesz wsparcia, możesz odwiedzić forum Aspose.Words[Tutaj](https://forum.aspose.com/).
+Jeśli potrzebujesz wsparcia, możesz odwiedzić forum Aspose.Words [Tutaj](https://forum.aspose.com/).
 
 ### P4: Czy Aspose.Words for Java nadaje się do obsługi zawartości HTML w dokumentach Word?
 Tak, Aspose.Words for Java zapewnia doskonałą obsługę treści HTML w dokumentach Word.
 
 ### P5: Czy mogę używać Aspose.Words for Java za darmo?
- Aspose.Words for Java to produkt komercyjny, ale możesz zapoznać się z jego funkcjami, korzystając z bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+Aspose.Words for Java to produkt komercyjny, ale możesz zapoznać się z jego funkcjami, korzystając z bezpłatnej wersji próbnej [Tutaj](https://releases.aspose.com/).
 
 Zacznij korzystać z Aspose.Words for Java już dziś i przejmij kontrolę nad swoimi dokumentami Word, jak nigdy dotąd!
 
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

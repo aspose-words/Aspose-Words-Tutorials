@@ -1,14 +1,16 @@
 ---
-title: การยอมรับและปฏิเสธการเปลี่ยนแปลงเอกสาร
-linktitle: การยอมรับและปฏิเสธการเปลี่ยนแปลงเอกสาร
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีจัดการการเปลี่ยนแปลงเอกสารอย่างง่ายดายด้วย Aspose.Words สำหรับ Java ยอมรับและปฏิเสธการแก้ไขได้อย่างราบรื่น
-weight: 12
-url: /th/java/document-revision/accepting-rejecting-document-changes/
+"description": "เรียนรู้วิธีจัดการการเปลี่ยนแปลงเอกสารอย่างง่ายดายด้วย Aspose.Words สำหรับ Java ยอมรับและปฏิเสธการแก้ไขได้อย่างราบรื่น"
+"linktitle": "การยอมรับและปฏิเสธการเปลี่ยนแปลงเอกสาร"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การยอมรับและปฏิเสธการเปลี่ยนแปลงเอกสาร"
+"url": "/th/java/document-revision/accepting-rejecting-document-changes/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การยอมรับและปฏิเสธการเปลี่ยนแปลงเอกสาร
@@ -64,7 +66,7 @@ doc.getRevisions().get(1).reject();
 
 ## การบันทึกเอกสาร
 
-หลังจากยอมรับหรือปฏิเสธการเปลี่ยนแปลงแล้ว สิ่งสำคัญคือต้องบันทึกเอกสารพร้อมแก้ไขตามต้องการ:
+หลังจากยอมรับหรือปฏิเสธการเปลี่ยนแปลงแล้ว สิ่งสำคัญคือต้องบันทึกเอกสารพร้อมการแก้ไขที่ต้องการ:
 
 ```java
 // บันทึกเอกสารที่แก้ไข
@@ -83,7 +85,7 @@ doc.save("document_with_accepted_changes.docx");
 
 ### ฉันจะพิจารณาได้อย่างไรว่าใครเป็นผู้ทำการเปลี่ยนแปลงที่เฉพาะเจาะจงในเอกสาร
 
- คุณสามารถเข้าถึงข้อมูลผู้เขียนสำหรับการแก้ไขแต่ละครั้งได้โดยใช้`getAuthor` วิธีการบน`Revision` วัตถุ.
+คุณสามารถเข้าถึงข้อมูลผู้เขียนสำหรับการแก้ไขแต่ละครั้งได้โดยใช้ `getAuthor` วิธีการบน `Revision` วัตถุ.
 
 ### ฉันสามารถปรับแต่งลักษณะที่ปรากฏของการติดตามการเปลี่ยนแปลงในเอกสารได้หรือไม่
 
@@ -99,10 +101,15 @@ doc.save("document_with_accepted_changes.docx");
 
 ### ฉันสามารถหาข้อมูลและเอกสารเพิ่มเติมสำหรับ Aspose.Words สำหรับ Java ได้ที่ไหน
 
- สำหรับเอกสารรายละเอียดและตัวอย่าง โปรดไปที่[เอกสารอ้างอิง API Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/).
+สำหรับเอกสารรายละเอียดและตัวอย่าง โปรดไปที่ [เอกสารอ้างอิง Aspose.Words สำหรับ Java API](https://reference-aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

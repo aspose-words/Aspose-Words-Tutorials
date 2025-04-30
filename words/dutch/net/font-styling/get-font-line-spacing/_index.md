@@ -1,38 +1,42 @@
 ---
-title: Regelafstand lettertype in Word-document ophalen
-weight: 7700
-limit: 
-description: Leer hoe je een Word-document kunt maken en letterlijnspacing kunt vinden met behulp van Aspose.Words voor .NET. Stap-voor-stap instructies met code voorbeelden inbegrepen.
-keywords: [Aspose.Words for .NET, get font line spacing, create Word document, .NET Word library, font properties, .NET document creation, line spacing example]
-url: /nl/net/font-styling/get-font-line-spacing/
+"description": "Leer hoe u een Word-document maakt en de regelafstand van het lettertype ophaalt met Aspose.Words voor .NET. Stapsgewijze instructies met codevoorbeelden."
+"title": "Regelafstand in Word-document aanpassen | Aspose.Words voor .NET"
+"url": "/nl/net/font-styling/get-font-line-spacing/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word document in Word
-Aspose.Words voor .NET vereenvoudigt het maken en manipuleren van Word- documenten. Dit voorbeeld toont aan hoe u een Word-document kunt initialiseren, een aangepaste lettertype instellen en de lijnruimte van een specifiek lettertype kunt terugvinden. Of u nu documentgeneratie automatisert of tekststijlen analyseert, deze gids biedt duidelijke instructies en praktische code snippets om uw doelen efficiënt te bereiken. Aspose.Words voor .NET is een krachtige bibliotheek voor ontwikkelaars die werken met Word- documenten in C # of VB.NET.
+# Regelafstand in Word-document ophalen
+Aspose.Words voor .NET vereenvoudigt het maken en bewerken van Word-documenten. Dit voorbeeld laat zien hoe u een Word-document initialiseert, een aangepast lettertype instelt en de regelafstand van een specifiek lettertype ophaalt. Of u nu de documentgeneratie automatiseert of tekststijlen analyseert, deze handleiding biedt duidelijke instructies en praktische codefragmenten om uw doelen efficiënt te bereiken. Aspose.Words voor .NET is een krachtige bibliotheek voor ontwikkelaars die met Word-documenten in C# of VB.NET werken.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/font-styling/get-font-line-spacing" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installatie-instructies  
-Om dit voorbeeld te gebruiken, volg deze stappen:  
+Om dit voorbeeld te gebruiken, volgt u deze stappen:  
 1. Download en installeer Aspose.Words voor .NET  
-   * Bezoek de [Aspose.Words voor .NET downloadpagina](https://releases.aspose.com/words/net/)en download de nieuwste versie.  
-   * Haal het gedownload pakket uit en verwijzen naar de `Aspose.Words.`\- Dat is een project.  
+   - Bezoek de [Aspose.Words voor .NET downloadpagina](https://releases.aspose.com/words/net/) en download de nieuwste versie.  
+   - Pak het gedownloade pakket uit en verwijs naar de `Aspose.Words.dll` bestand in uw project.  
 
-2. Installeer via NuGet  
-   * Open je project in Visual Studio.  
-   * Ga naar Tools > NuGet Pakket Manager > NuGet Pakketten beheren voor oplossing.  
-   * Zoek naar `Aspose.Words`In de NuGet Package Manager en installeer het pakket.  
+2. Installeren via NuGet  
+   - Open uw project in Visual Studio.  
+   - Ga naar Extra > NuGet Package Manager > NuGet-pakketten beheren voor oplossing.  
+   - Zoeken naar `Aspose.Words` in de NuGet Package Manager en installeer het pakket.  
 
-3. Een licentie aanvragen (optioneel maar aanbevolen)  
-   * Verkoop een vergunning van de .[Aansporing Aankooppagina](https://purchase.aspose.com/buy)\- Ik heb het niet gedaan .  
-   * Gebruik een [tijdelijke vergunning](https://purchase.aspose.com/temporary-license/)voor evaluatie indien nodig.  
-   * Voeg aan het begin van uw aanvraag de volgende code toe om de licentie aan te vragen:  
+3. Een licentie aanvragen (optioneel, maar aanbevolen)  
+   - Verkrijg een licentie van de [Aspose Aankooppagina](https://purchase.aspose.com/buy).  
+   - Gebruik een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor evaluatie indien nodig.  
+   - Voeg de volgende code toe aan het begin van uw aanvraag om de licentie toe te passen:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
@@ -40,9 +44,13 @@ Om dit voorbeeld te gebruiken, volg deze stappen:
 	 
 ## Zie ook
 [Aspose.Word voor .NET-documentatie](https://docs.aspose.com/words/net/)
-[Aspose.Word voor .NET Referenties](https://reference.aspose.com/words/net/)
+[Aspose.Word voor .NET-referenties](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

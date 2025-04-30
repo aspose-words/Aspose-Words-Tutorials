@@ -1,26 +1,28 @@
 ---
-title: Utilizzo di Structured Document Tags (SDT) in Aspose.Words per Java
-linktitle: Utilizzo di tag di documenti strutturati (SDT)
-second_title: API di elaborazione dei documenti Java Aspose.Words
-description: Scopri come usare Structured Document Tags (SDT) in Aspose.Words per Java con questa guida completa. Crea, modifica e associa SDT a dati XML personalizzati.
-weight: 19
-url: /it/java/document-manipulation/using-structured-document-tags/
+"description": "Scopri come utilizzare gli Structured Document Tag (SDT) in Aspose.Words per Java con questa guida completa. Crea, modifica e associa gli SDT a dati XML personalizzati."
+"linktitle": "Utilizzo di tag di documenti strutturati (SDT)"
+"second_title": "API di elaborazione dei documenti Java Aspose.Words"
+"title": "Utilizzo di Structured Document Tag (SDT) in Aspose.Words per Java"
+"url": "/it/java/document-manipulation/using-structured-document-tags/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utilizzo di Structured Document Tags (SDT) in Aspose.Words per Java
+# Utilizzo di Structured Document Tag (SDT) in Aspose.Words per Java
 
 
 ## Introduzione all'utilizzo dei tag di documento strutturato (SDT) in Aspose.Words per Java
 
-Gli Structured Document Tags (SDT) sono una potente funzionalità di Aspose.Words per Java che consente di creare e manipolare contenuti strutturati all'interno dei documenti. In questa guida completa, ti guideremo attraverso i vari aspetti dell'utilizzo degli SDT in Aspose.Words per Java. Che tu sia un principiante o uno sviluppatore esperto, troverai spunti preziosi ed esempi pratici in questo articolo.
+Gli Structured Document Tag (SDT) sono una potente funzionalità di Aspose.Words per Java che consente di creare e manipolare contenuti strutturati all'interno dei documenti. In questa guida completa, vi illustreremo i vari aspetti dell'utilizzo degli SDT in Aspose.Words per Java. Che siate sviluppatori principianti o esperti, in questo articolo troverete spunti preziosi ed esempi pratici.
 
 ## Iniziare
 
-Prima di immergerci nei dettagli, impostiamo il nostro ambiente e creiamo un SDT di base. In questa sezione, tratteremo i seguenti argomenti:
+Prima di entrare nei dettagli, configuriamo il nostro ambiente e creiamo un SDT di base. In questa sezione, tratteremo i seguenti argomenti:
 
 - Creazione di un nuovo documento
 - Aggiunta di un tag di documento strutturato
@@ -38,9 +40,9 @@ builder.insertNode(sdtCheckBox);
 doc.save("WorkingWithSDT.docx");
 ```
 
-## Controllo dello stato corrente di una casella di controllo SDT
+## Controllo dello stato corrente di un SDT della casella di controllo
 
-Una volta aggiunto un SDT di casella di controllo al documento, potresti voler controllare il suo stato attuale a livello di programmazione. Ciò può essere utile quando devi convalidare l'input dell'utente o eseguire azioni specifiche in base allo stato della casella di controllo.
+Dopo aver aggiunto un SDT di tipo checkbox al documento, potresti volerne verificare lo stato attuale a livello di codice. Questo può essere utile quando devi convalidare l'input dell'utente o eseguire azioni specifiche in base allo stato della casella di controllo.
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
@@ -56,7 +58,7 @@ doc.save("UpdatedDocument.docx");
 
 ## Modifica dei controlli del contenuto
 
-In questa sezione, esploreremo come modificare i controlli di contenuto all'interno del tuo documento. Tratteremo tre tipi di controlli di contenuto: Testo normale, Elenco a discesa e Immagine.
+In questa sezione, esploreremo come modificare i controlli contenuto all'interno del documento. Parleremo di tre tipi di controlli contenuto: Testo normale, Elenco a discesa e Immagine.
 
 ### Modifica del controllo del contenuto di testo normale
 
@@ -124,7 +126,7 @@ doc.save("ComboBoxDocument.docx");
 
 ## Lavorare con il controllo del contenuto di testo avanzato
 
-controlli di contenuto Rich Text sono perfetti per aggiungere testo formattato ai tuoi documenti. Creiamone uno e impostiamone il contenuto.
+controlli di contenuto RTF sono perfetti per aggiungere testo formattato ai tuoi documenti. Creiamone uno e impostiamone il contenuto.
 
 ```java
 Document doc = new Document();
@@ -142,7 +144,7 @@ doc.save("RichTextDocument.docx");
 
 ## Impostazione degli stili di controllo del contenuto
 
-Puoi applicare stili ai controlli contenuto per migliorare l'aspetto visivo del tuo documento. Vediamo come impostare lo stile di un controllo contenuto.
+È possibile applicare stili ai controlli contenuto per migliorare l'aspetto visivo del documento. Vediamo come impostare lo stile di un controllo contenuto.
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
@@ -157,7 +159,7 @@ doc.save("StyledDocument.docx");
 
 ## Associazione di un SDT a dati XML personalizzati
 
-In alcuni scenari, potrebbe essere necessario associare un SDT a dati XML personalizzati per la generazione di contenuti dinamici. Vediamo come ottenere questo risultato.
+In alcuni scenari, potrebbe essere necessario associare un SDT a dati XML personalizzati per la generazione di contenuti dinamici. Vediamo come farlo.
 
 ```java
 Document doc = new Document();
@@ -169,9 +171,9 @@ sdt.getXmlMapping().setMapping(xmlPart, "/root[1]/text[1]", "");
 doc.save("CustomXMLBinding.docx");
 ```
 
-## Creazione di una tabella con sezioni ripetute mappate su dati XML personalizzati
+## Creazione di una tabella con sezioni ripetute mappate a dati XML personalizzati
 
-Le tabelle con sezioni ripetute possono essere estremamente utili per presentare dati strutturati. Creiamo una tabella del genere e la mappiamo a dati XML personalizzati.
+Le tabelle con sezioni ripetute possono essere estremamente utili per presentare dati strutturati. Creiamo una tabella di questo tipo e associamola a dati XML personalizzati.
 
 ```java
 Document doc = new Document();
@@ -208,7 +210,7 @@ doc.save("RepeatingTableDocument.docx");
 
 ## Lavorare con i tag dei documenti strutturati multisezione
 
-I tag di documento strutturato possono estendersi su più sezioni in un documento. In questa sezione, esploreremo come lavorare con gli SDT multi-sezione.
+I tag di documento strutturato possono estendersi su più sezioni di un documento. In questa sezione, esploreremo come utilizzare i tag di documento strutturato multi-sezione.
 
 ```java
 Document doc = new Document("MultiSectionDocument.docx");
@@ -223,7 +225,7 @@ doc.save("ModifiedMultiSectionDocument.docx");
 
 ## Conclusione
 
-tag di documento strutturati in Aspose.Words per Java forniscono un modo versatile per gestire e formattare i contenuti nei tuoi documenti. Che tu debba creare modelli, moduli o documenti dinamici, gli SDT offrono la flessibilità e il controllo di cui hai bisogno. Seguendo gli esempi e le linee guida fornite in questo articolo, puoi sfruttare la potenza degli SDT per migliorare le tue attività di elaborazione dei documenti.
+tag di documento strutturati in Aspose.Words per Java offrono un modo versatile per gestire e formattare i contenuti dei documenti. Che si tratti di creare modelli, moduli o documenti dinamici, gli SDT offrono la flessibilità e il controllo necessari. Seguendo gli esempi e le linee guida forniti in questo articolo, è possibile sfruttare la potenza degli SDT per migliorare le attività di elaborazione dei documenti.
 
 ## Domande frequenti
 
@@ -233,9 +235,9 @@ Gli Structured Document Tag (SDT) servono a organizzare e formattare il contenut
 
 ### Come posso verificare lo stato attuale di un Checkbox SDT?
 
- È possibile controllare lo stato corrente di un Checkbox SDT utilizzando`setChecked` metodo, come dimostrato nell'articolo.
+È possibile controllare lo stato corrente di un SDT Checkbox utilizzando `setChecked` metodo, come dimostrato nell'articolo.
 
-### Posso applicare stili ai controlli dei contenuti?
+### Posso applicare stili ai controlli contenuto?
 
 Sì, puoi applicare stili ai Controlli contenuto per personalizzarne l'aspetto nel documento.
 
@@ -246,9 +248,14 @@ Sì, è possibile associare un SDT a dati XML personalizzati, consentendo la gen
 ### Cosa sono le sezioni ripetute negli SDT?
 
 Le sezioni ripetute negli SDT consentono di creare tabelle con dati dinamici, in cui le righe possono essere ripetute in base ai dati XML mappati.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

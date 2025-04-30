@@ -1,14 +1,16 @@
 ---
-title: Belge Oluşturucu Olmadan TOA Alanı Ekle
-linktitle: Belge Oluşturucu Olmadan TOA Alanı Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'te belge oluşturucu kullanmadan TOA alanının nasıl ekleneceğini öğrenin. Yasal atıfları verimli bir şekilde yönetmek için adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/working-with-fields/insert-toafield-without-document-builder/
+"description": "Aspose.Words for .NET'te belge oluşturucu kullanmadan TOA alanı eklemeyi öğrenin. Yasal atıfları verimli bir şekilde yönetmek için adım adım kılavuzumuzu izleyin."
+"linktitle": "Belge Oluşturucu Olmadan TOA Alanı Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Belge Oluşturucu Olmadan TOA Alanı Ekle"
+"url": "/tr/net/working-with-fields/insert-toafield-without-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Oluşturucu Olmadan TOA Alanı Ekle
@@ -21,7 +23,7 @@ Word belgesinde bir Yetki Tablosu (TOA) alanı oluşturmak karmaşık bir bulmac
 
 Eğitime başlamadan önce, ihtiyacınız olacak temel bilgileri ele alalım:
 
--  Aspose.Words for .NET: En son sürümün yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: En son sürümün yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio gibi .NET uyumlu bir IDE.
 - Temel C# Bilgisi: Temel C# sözdizimini ve kavramlarını anlamak faydalı olacaktır.
 - Örnek Word Belgesi: TOA alanını eklemek istediğiniz yere bir örnek belge oluşturun veya hazır bulundurun.
@@ -40,7 +42,7 @@ Süreci basit, takip etmesi kolay adımlara bölelim. Her aşamada size rehberli
 
 ## Adım 1: Belgeyi Başlatın
 
- İlk olarak, bir örnek oluşturmanız gerekir`Document` sınıf. Bu nesne üzerinde çalıştığınız Word belgesini temsil eder.
+İlk olarak, bir örnek oluşturmanız gerekir `Document` sınıf. Bu nesne üzerinde çalıştığınız Word belgesini temsil eder.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -69,14 +71,14 @@ doc.FirstSection.Body.AppendChild(para);
 
 İşte bir özet:
 - Paragraf para = new Paragraph(doc);: Belge içerisinde yeni bir paragraf oluşturur.
--  FieldTA fieldTA = (FieldTA) para.AppendField(FieldType.FieldTOAEntry, false);: Paragrafa bir TA alanı ekler.`FieldType.FieldTOAEntry` bunun bir TOA giriş alanı olduğunu belirtir.
+- FieldTA fieldTA = (FieldTA) para.AppendField(FieldType.FieldTOAEntry, false);: Paragrafa bir TA alanı ekler. `FieldType.FieldTOAEntry` bunun bir TOA giriş alanı olduğunu belirtir.
 - fieldTA.EntryCategory = "1";: Giriş kategorisini ayarlar. Bu, farklı giriş türlerini kategorilere ayırmak için yararlıdır.
 - fieldTA.LongCitation = "Value 0";: Uzun alıntı metnini belirtir. Bu, TOA'da görünecek metindir.
 - doc.FirstSection.Body.AppendChild(para);: TA alanını içeren paragrafı belgenin gövdesine ekler.
 
 ## Adım 3: TOA Alanını Ekleyin
 
-Şimdi, tüm TA girişlerini bir tabloya derleyen gerçek TOA alanını ekleyeceğiz.
+Şimdi, tüm TA girdilerini bir tabloya derleyen gerçek TOA alanını ekleyeceğiz.
 
 ```csharp
 para = new Paragraph(doc);
@@ -108,31 +110,36 @@ Son olarak belgenizi yeni eklenen TOA alanıyla kaydedin.
 doc.Save(dataDir + "WorkingWithFields.InsertTOAFieldWithoutDocumentBuilder.docx");
 ```
 
- Bu kod satırı belgeyi belirtilen dizine kaydeder. Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` dosyanızı kaydetmek istediğiniz gerçek yol ile.
+Bu kod satırı belgeyi belirtilen dizine kaydeder. Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` dosyanızı kaydetmek istediğiniz gerçek yol ile.
 
 ## Çözüm
 
-Ve işte karşınızda! Bir belge oluşturucu kullanmadan bir Word belgesine TOA alanını başarıyla eklediniz. Bu adımları izleyerek, yasal belgelerinizde alıntıları etkili bir şekilde yönetebilir ve kapsamlı yetki tabloları oluşturabilirsiniz. .NET için Aspose.Words bu süreci pürüzsüz ve verimli hale getirerek karmaşık belge görevlerini kolaylıkla halletmeniz için gereken araçları sağlar.
+Ve işte karşınızda! Bir belge oluşturucu kullanmadan bir Word belgesine TOA alanını başarıyla eklediniz. Bu adımları izleyerek, yasal belgelerinizde alıntıları etkili bir şekilde yönetebilir ve kapsamlı yetki tabloları oluşturabilirsiniz. .NET için Aspose.Words bu süreci pürüzsüz ve verimli hale getirerek karmaşık belge görevlerini kolayca halletmeniz için gereken araçları sağlar.
 
 ## SSS
 
 ### Farklı kategorilere sahip birden fazla TA alanı ekleyebilir miyim?
- Evet, farklı kategorilere sahip birden fazla TA alanını ayarlayarak ekleyebilirsiniz.`EntryCategory`mülkiyet buna göre.
+Evet, farklı kategorilere sahip birden fazla TA alanını ayarlayarak ekleyebilirsiniz. `EntryCategory` mülkiyet buna göre.
 
 ### TOA'nın görünümünü nasıl özelleştirebilirim?
 Giriş biçimlendirmesi ve kategori etiketleri gibi TOA alanının özelliklerini değiştirerek TOA'nın görünümünü özelleştirebilirsiniz.
 
 ### TOA alanını otomatik olarak güncellemek mümkün müdür?
- TOA alanını manuel olarak güncelleyebilirsiniz.`Update` yöntem, Aspose.Words şu anda belge değişikliklerinde otomatik güncellemeleri desteklemiyor.
+TOA alanını manuel olarak güncelleyebilirsiniz. `Update` yöntem, Aspose.Words şu anda belge değişikliklerinde otomatik güncellemeleri desteklemiyor.
 
 ### Belgenin belirli bölümlerine program aracılığıyla TA alanları ekleyebilir miyim?
 Evet, istediğiniz paragraflara veya bölümlere yerleştirerek belirli yerlere TA alanları ekleyebilirsiniz.
 
 ### Tek bir belgede birden fazla TOA alanını nasıl işlerim?
- Farklı TOA alanlarını atayarak birden fazla TOA alanını yönetebilirsiniz.`EntryCategory` değerlerinin sağlanması ve her TOA alanının kendi kategorisine göre girdileri filtrelemesi.
+Farklı TOA alanlarını atayarak birden fazla TOA alanını yönetebilirsiniz. `EntryCategory` değerlerinin sağlanması ve her TOA alanının kendi kategorisine göre girdileri filtrelemesi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

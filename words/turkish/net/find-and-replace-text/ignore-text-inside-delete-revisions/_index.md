@@ -1,14 +1,16 @@
 ---
-title: İçindeki Metni Yoksay Revizyonları Sil
-linktitle: İçindeki Metni Yoksay Revizyonları Sil
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerindeki izlenen revizyonların nasıl işleneceğini öğrenin. Bu kapsamlı eğitimle belge otomasyonunda ustalaşın.
-weight: 10
-url: /tr/net/find-and-replace-text/ignore-text-inside-delete-revisions/
+"description": "Aspose.Words for .NET kullanarak Word belgelerindeki izlenen revizyonların nasıl işleneceğini öğrenin. Bu kapsamlı eğitimle belge otomasyonunda ustalaşın."
+"linktitle": "İçindeki Metni Yoksay Revizyonları Sil"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "İçindeki Metni Yoksay Revizyonları Sil"
+"url": "/tr/net/find-and-replace-text/ignore-text-inside-delete-revisions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # İçindeki Metni Yoksay Revizyonları Sil
@@ -22,8 +24,8 @@ url: /tr/net/find-and-replace-text/ignore-text-inside-delete-revisions/
 Bu eğitime başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 - C# programlama dilinin temel bilgisi.
 - Sisteminizde Visual Studio yüklü.
--  Projenize entegre edilmiş .NET kütüphanesi için Aspose.Words. Bunu şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/).
--  Aspose.Words for .NET'e erişim[belgeleme](https://reference.aspose.com/words/net/) Referans için.
+- Projenize entegre edilmiş .NET kütüphanesi için Aspose.Words. Bunu şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET'e erişim [belgeleme](https://reference.aspose.com/words/net/) Referans için.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -36,7 +38,7 @@ using Aspose.Words.Replacing;
 ```
 ## Adım 1: Yeni Bir Belge Oluşturun ve Metin Ekleyin
 
- İlk olarak, yeni bir örnek başlatın`Document` ve bir`DocumentBuilder` belgenizi oluşturmaya başlamak için:
+İlk olarak, yeni bir örnek başlatın `Document` ve bir `DocumentBuilder` belgenizi oluşturmaya başlamak için:
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -90,11 +92,16 @@ Evet, Aspose.Words for .NET'i kullanarak izlenen revizyonları programlı bir ş
 Aspose.Words for .NET, kapsamlı revizyon takibi içerenler de dahil olmak üzere büyük belgeleri verimli bir şekilde işlemek için optimize edilmiştir.
 
 ### Aspose.Words for .NET için daha fazla kaynak ve desteği nerede bulabilirim?
- Aspose.Words for .NET topluluğundan kapsamlı belgeleri inceleyebilir ve destek alabilirsiniz.[Aspose.Words Forum](https://forum.aspose.com/c/words/8).
+Aspose.Words for .NET topluluğundan kapsamlı belgeleri inceleyebilir ve destek alabilirsiniz. [Aspose.Words Forum](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

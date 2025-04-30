@@ -1,29 +1,36 @@
 ---
-title: Zpracování slov s možnostmi Markdownsave
-linktitle: Zpracování slov s možnostmi Markdownsave
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se zpracování slov s MarkdownSaveOptions v Aspose.Words pro .NET. Podrobné návody s ukázkovým kódem pro ukládání dokumentů aplikace Word ve formátu Markdown.
-weight: 1640
-url: /cs/net/programming-with-markdownsaveoptions/
+"description": "Naučte se zpracovávat text s MarkdownSaveOptions v Aspose.Words pro .NET. Podrobné návody s ukázkovým kódem pro ukládání dokumentů Word ve formátu Markdown."
+"linktitle": "Zpracování textu pomocí Markdownu, možnosti uložení"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Zpracování textu pomocí Markdownu, možnosti uložení"
+"url": "/cs/net/programming-with-markdownsaveoptions/"
+"weight": 1640
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zpracování slov s možnostmi Markdownsave
+# Zpracování textu pomocí Markdownu, možnosti uložení
 
 
-Zpracování textu s MarkdownSaveOptions je podrobný zdroj, který vás provede textovým zpracováním s MarkdownSaveOptions pomocí knihovny Aspose.Words pro .NET. Výukové programy vám poskytnou podrobná vysvětlení, kompletní zdrojový kód a praktické příklady pro pochopení a použití MarkdownSaveOptions k exportu dokumentů aplikace Word do formátu Markdown. Dozvíte se, jak přizpůsobit možnosti exportu, jako je správa obrázků, zarovnání obsahu tabulky, převod stylů a další. Tento zdroj je nezbytný pro vývojáře, kteří chtějí integrovat funkci exportu Markdown do svých aplikací pomocí Aspose.Words for .NET.
+Zpracování textu pomocí MarkdownSaveOptions je podrobný návod, který vás provede zpracováním textu pomocí MarkdownSaveOptions s využitím knihovny Aspose.Words pro .NET. Návody vám poskytnou podrobná vysvětlení, kompletní zdrojový kód a praktické příklady pro pochopení a použití MarkdownSaveOptions k exportu dokumentů Word do formátu Markdown. Naučíte se, jak přizpůsobit možnosti exportu, jako je správa obrázků, zarovnání obsahu tabulek, převod stylů a další. Tento zdroj je nezbytný pro vývojáře, kteří chtějí integrovat funkce exportu Markdown do svých aplikací pomocí Aspose.Words pro .NET.
 
- ## Tutoriály
-| Titul | Popis |
+ ## Návody
+| Název | Popis |
 | --- | --- |
-| [Export do Markdown se zarovnáním obsahu tabulky](./export-into-markdown-with-table-content-alignment/) | Naučte se exportovat dokumenty Wordu do Markdown se zarovnanými tabulkami pomocí Aspose.Words for .NET. Postupujte podle našeho podrobného průvodce pro dokonalé stoly Markdown. |
-| [Nastavte složku obrázků](./set-images-folder/) | Převeďte dokumenty aplikace Word do formátu Markdown se správným zarovnáním tabulek pomocí Aspose.Words for .NET. Pro dokonalé výsledky postupujte podle našeho podrobného průvodce. |
+| [Export do Markdownu se zarovnáním obsahu tabulky](./export-into-markdown-with-table-content-alignment/) | Naučte se, jak exportovat dokumenty Wordu do Markdownu se zarovnanými tabulkami pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu pro perfektní tabulky v Markdownu. |
+| [Nastavit složku s obrázky](./set-images-folder/) Převeďte dokumenty Wordu do Markdownu se správným zarovnáním tabulek pomocí Aspose.Words pro .NET. Pro perfektní výsledky se řiďte naším podrobným návodem. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

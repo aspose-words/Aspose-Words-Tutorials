@@ -1,25 +1,27 @@
 ---
-title: Verwenden von OLE-Objekten und ActiveX-Steuerelementen in Aspose.Words für Java
-linktitle: Verwenden von OLE-Objekten und ActiveX-Steuerelementen
-second_title: Aspose.Words Java-API zur Dokumentverarbeitung
-description: Erfahren Sie, wie Sie OLE-Objekte und ActiveX-Steuerelemente in Aspose.Words für Java verwenden. Erstellen Sie mühelos interaktive Dokumente. Jetzt loslegen!
-weight: 21
-url: /de/java/using-document-elements/using-ole-objects-and-activex/
+"description": "Erfahren Sie, wie Sie OLE-Objekte und ActiveX-Steuerelemente in Aspose.Words für Java verwenden. Erstellen Sie mühelos interaktive Dokumente. Jetzt starten!"
+"linktitle": "Verwenden von OLE-Objekten und ActiveX-Steuerelementen"
+"second_title": "Aspose.Words Java-Dokumentverarbeitungs-API"
+"title": "Verwenden von OLE-Objekten und ActiveX-Steuerelementen in Aspose.Words für Java"
+"url": "/de/java/using-document-elements/using-ole-objects-and-activex/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Verwenden von OLE-Objekten und ActiveX-Steuerelementen in Aspose.Words für Java
 
-In diesem Tutorial erfahren Sie, wie Sie mit OLE-Objekten (Object Linking and Embedding) und ActiveX-Steuerelementen in Aspose.Words für Java arbeiten. OLE-Objekte und ActiveX-Steuerelemente sind leistungsstarke Tools, mit denen Sie Ihre Dokumente verbessern können, indem Sie externe Inhalte wie Tabellen, Multimediadateien oder interaktive Steuerelemente einbetten oder verknüpfen. Folgen Sie uns, während wir uns mit den Codebeispielen befassen und lernen, wie Sie diese Funktionen effektiv nutzen können.
+In diesem Tutorial erfahren Sie, wie Sie mit OLE-Objekten (Object Linking and Embedding) und ActiveX-Steuerelementen in Aspose.Words für Java arbeiten. OLE-Objekte und ActiveX-Steuerelemente sind leistungsstarke Tools, mit denen Sie Ihre Dokumente durch das Einbetten oder Verknüpfen externer Inhalte wie Tabellenkalkulationen, Multimediadateien oder interaktiver Steuerelemente verbessern können. Folgen Sie uns, während wir uns mit den Codebeispielen befassen und lernen, wie Sie diese Funktionen effektiv nutzen.
 
 ### Voraussetzungen
 
 Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1.  Aspose.Words für Java: Stellen Sie sicher, dass die Aspose.Words-Bibliothek in Ihrem Java-Projekt installiert ist. Sie können sie hier herunterladen:[Hier](https://releases.aspose.com/words/java/).
+1. Aspose.Words für Java: Stellen Sie sicher, dass die Aspose.Words-Bibliothek in Ihrem Java-Projekt installiert ist. Sie können sie herunterladen von [Hier](https://releases.aspose.com/words/java/).
 
 2. Java-Entwicklungsumgebung: Auf Ihrem System sollte eine funktionierende Java-Entwicklungsumgebung eingerichtet sein.
 
@@ -33,7 +35,7 @@ public void insertOleObject() throws Exception
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
-    builder.insertOleObject("http://www.aspose.com", "html-Datei", true, true, null);
+    builder.insertOleObject("http://www.aspose.com", "htmlfile", true, true, null);
     doc.save("Your Directory Path" + "WorkingWithOleObjectsAndActiveX.InsertOleObject.docx");
 }
 ```
@@ -42,7 +44,7 @@ In diesem Code erstellen wir ein neues Dokument und fügen ein OLE-Objekt ein, d
 
 ### Einfügen eines OLE-Objekts mit OlePackage
 
-Als Nächstes sehen wir uns an, wie Sie mithilfe eines OlePackage ein OLE-Objekt einfügen. Auf diese Weise können Sie externe Dateien als OLE-Objekte in Ihr Dokument einbetten.
+Als Nächstes sehen wir uns an, wie Sie mithilfe eines OlePackage ein OLE-Objekt einfügen. Dadurch können Sie externe Dateien als OLE-Objekte in Ihr Dokument einbetten.
 
 ```java
 @Test
@@ -83,7 +85,7 @@ In diesem Code fügen wir ein OLE-Objekt als Symbol ein, um eine optisch ansprec
 
 ### Lesen der Eigenschaften von ActiveX-Steuerelementen
 
-Jetzt wollen wir uns auf ActiveX-Steuerelemente konzentrieren. Wir lernen, wie man Eigenschaften von ActiveX-Steuerelementen in einem Word-Dokument liest.
+Konzentrieren wir uns nun auf ActiveX-Steuerelemente. Wir lernen, wie man Eigenschaften von ActiveX-Steuerelementen in einem Word-Dokument liest.
 
 ```java
 @Test
@@ -118,7 +120,7 @@ In diesem Code durchlaufen wir die Formen in einem Word-Dokument, identifizieren
 
 ### Abschluss
 
-Herzlichen Glückwunsch! Sie haben gelernt, wie Sie in Aspose.Words für Java mit OLE-Objekten und ActiveX-Steuerelementen arbeiten. Diese Funktionen eröffnen eine Welt voller Möglichkeiten zum Erstellen dynamischer und interaktiver Dokumente.
+Herzlichen Glückwunsch! Sie haben gelernt, wie Sie mit OLE-Objekten und ActiveX-Steuerelementen in Aspose.Words für Java arbeiten. Diese Funktionen eröffnen Ihnen unzählige Möglichkeiten zur Erstellung dynamischer und interaktiver Dokumente.
 
 ### FAQs
 
@@ -135,13 +137,18 @@ Herzlichen Glückwunsch! Sie haben gelernt, wie Sie in Aspose.Words für Java mi
    - Ja, Aspose.Words für Java ist eine leistungsstarke Bibliothek zur Automatisierung der Dokumenterstellung und -bearbeitung in Java-Anwendungen.
 
 ### Wo erhalte ich Zugriff auf Aspose.Words für Java? 
-   -  Sie können Aspose.Words für Java herunterladen von[Hier](https://releases.aspose.com/words/java/).
+   - Sie können Aspose.Words für Java herunterladen von [Hier](https://releases.aspose.com/words/java/).
 
 Beginnen Sie noch heute mit Aspose.Words für Java und schöpfen Sie das volle Potenzial der Dokumentenautomatisierung und -anpassung aus!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,27 +1,29 @@
 ---
-title: Verwalten digitaler Signaturen und Authentizität
-linktitle: Verwalten digitaler Signaturen und Authentizität
-second_title: Aspose.Words Python-Dokumentenverwaltungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Words für Python digitale Signaturen verwalten und die Authentizität von Dokumenten sicherstellen. Schritt-für-Schritt-Anleitung mit Quellcode.
-weight: 17
-url: /de/python-net/document-combining-and-comparison/manage-digital-signatures/
+"description": "Erfahren Sie, wie Sie mit Aspose.Words für Python digitale Signaturen verwalten und die Authentizität von Dokumenten sicherstellen. Schritt-für-Schritt-Anleitung mit Quellcode."
+"linktitle": "Verwalten digitaler Signaturen und Authentizität"
+"second_title": "Aspose.Words Python-Dokumentenverwaltungs-API"
+"title": "Verwalten digitaler Signaturen und Authentizität"
+"url": "/de/python-net/document-combining-and-comparison/manage-digital-signatures/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Verwalten digitaler Signaturen und Authentizität
 
 ## Einführung in digitale Signaturen
 
-Digitale Signaturen dienen als elektronisches Äquivalent handschriftlicher Unterschriften. Sie bieten eine Möglichkeit, die Authentizität, Integrität und Herkunft elektronischer Dokumente zu überprüfen. Wenn ein Dokument digital signiert wird, wird basierend auf dem Inhalt des Dokuments ein kryptografischer Hash generiert. Dieser Hash wird dann mit dem privaten Schlüssel des Unterzeichners verschlüsselt, wodurch die digitale Signatur erstellt wird. Jeder mit dem entsprechenden öffentlichen Schlüssel kann die Signatur überprüfen und die Authentizität des Dokuments feststellen.
+Digitale Signaturen dienen als elektronisches Äquivalent zu handschriftlichen Unterschriften. Sie ermöglichen die Überprüfung der Authentizität, Integrität und Herkunft elektronischer Dokumente. Bei der digitalen Signatur eines Dokuments wird basierend auf dessen Inhalt ein kryptografischer Hash generiert. Dieser Hash wird anschließend mit dem privaten Schlüssel des Unterzeichners verschlüsselt, wodurch die digitale Signatur entsteht. Jeder, der über den entsprechenden öffentlichen Schlüssel verfügt, kann die Signatur überprüfen und die Authentizität des Dokuments feststellen.
 
 ## Einrichten von Aspose.Words für Python
 
 Um mit der Verwaltung digitaler Signaturen mithilfe von Aspose.Words für Python zu beginnen, führen Sie die folgenden Schritte aus:
 
-1. Installieren Sie Aspose.Words: Sie können Aspose.Words für Python mit pip mit dem folgenden Befehl installieren:
+1. Installieren Sie Aspose.Words: Sie können Aspose.Words für Python mithilfe von pip mit dem folgenden Befehl installieren:
    
    ```python
    pip install aspose-words
@@ -86,26 +88,31 @@ Die Verwaltung digitaler Signaturen und die Gewährleistung der Dokumentenauthen
 
 ### Wie funktionieren digitale Signaturen?
 
-Bei digitalen Signaturen wird mithilfe der Kryptografie ein eindeutiger Hash basierend auf dem Dokumentinhalt generiert, der mit dem privaten Schlüssel des Unterzeichners verschlüsselt ist.
+Digitale Signaturen nutzen Kryptografie, um basierend auf dem Inhalt des Dokuments einen eindeutigen Hash zu generieren, der mit dem privaten Schlüssel des Unterzeichners verschlüsselt ist.
 
 ### Kann ein digital signiertes Dokument manipuliert werden?
 
-Nein, durch die Manipulation eines digital signierten Dokuments würde die Signatur ungültig werden, was auf potenziell unbefugte Änderungen hinweisen würde.
+Nein, durch die Manipulation eines digital signierten Dokuments würde die Signatur ungültig werden, was auf potenziell unbefugte Änderungen hinweist.
 
 ### Können einem einzelnen Dokument mehrere Signaturen hinzugefügt werden?
 
-Ja, Sie können einem einzelnen Dokument mehrere digitale Signaturen hinzufügen, jeweils von einem anderen Unterzeichner.
+Ja, Sie können einem einzelnen Dokument mehrere digitale Signaturen hinzufügen, jede von einem anderen Unterzeichner.
 
-### Welche Zertifikatstypen sind kompatibel?
+### Welche Arten von Zertifikaten sind kompatibel?
 
 Aspose.Words unterstützt X.509-Zertifikate, einschließlich PFX-Dateien, die häufig für digitale Signaturen verwendet werden.
 
 ### Sind digitale Signaturen rechtsgültig?
 
 Ja, digitale Signaturen sind in vielen Ländern rechtsgültig und werden oft als handschriftlichen Unterschriften gleichwertig angesehen.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

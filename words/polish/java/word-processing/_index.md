@@ -1,14 +1,16 @@
 ---
-title: Przetwarzanie tekstu
-linktitle: Przetwarzanie tekstu
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Naucz się przetwarzania tekstu z Aspose.Words dla Java. Twórz, edytuj i manipuluj dokumentami programowo. Popraw swoje umiejętności przetwarzania dokumentów już dziś.
-weight: 10
-url: /pl/java/word-processing/
+"description": "Naucz się przetwarzania tekstu z Aspose.Words dla Java. Twórz, edytuj i manipuluj dokumentami programowo. Popraw swoje umiejętności przetwarzania dokumentów już dziś."
+"linktitle": "Przetwarzanie tekstu"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Przetwarzanie tekstu"
+"url": "/pl/java/word-processing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przetwarzanie tekstu
@@ -32,7 +34,7 @@ Oto kilka najważniejszych korzyści wynikających ze stosowania Aspose.Words dl
 
 ## Samouczki dotyczące przetwarzania tekstu
 
-### [Wygeneruj dokument Word](./generate-word-document/)
+### [Generuj dokument Word](./generate-word-document/)
 
 Naucz się generować dokumenty Word w Javie za pomocą Aspose.Words! Łatwe wstawianie tekstu, obrazów i tabel. Automatyzacja raportów i konwersji. Uproszczenie przetwarzania dokumentów.
 ### [Obsługa różnych formatów dokumentów](./handling-different-document-formats/)
@@ -45,9 +47,13 @@ Poznaj efektywne zapisywanie dokumentów za pomocą Aspose.Words dla Java. Ten p
 Opanuj zaawansowane ustawienia zapisywania dokumentów dzięki Aspose.Words dla Java. Naucz się formatować, chronić, optymalizować i automatyzować tworzenie dokumentów bez wysiłku.
 ### [Manipulowanie zawartością dokumentu za pomocą czyszczenia, pól i danych XML](./manipulating-document-content/)
 Dowiedz się, jak manipulować zawartością dokumentu za pomocą Aspose.Words for Java. Ten przewodnik krok po kroku zawiera przykłady kodu źródłowego do wydajnego zarządzania dokumentami.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

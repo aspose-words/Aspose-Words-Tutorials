@@ -1,42 +1,44 @@
 ---
-title: Osztott táblázat
-linktitle: Osztott táblázat
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan oszthat fel táblázatokat Word dokumentumokban az Aspose.Words for .NET használatával. Lépésről lépésre mutató útmutatónk egyszerűvé és hatékonysá teszi a táblázatkezelést.
-weight: 10
-url: /hu/net/programming-with-tables/split-table/
+"description": "Tanuld meg, hogyan oszthatsz fel táblázatokat Word dokumentumokban az Aspose.Words for .NET segítségével. Lépésről lépésre útmutatónk egyszerűvé és hatékonnyá teszi a táblázatok kezelését."
+"linktitle": "Táblázat felosztása"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Táblázat felosztása"
+"url": "/hu/net/programming-with-tables/split-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Osztott táblázat
+# Táblázat felosztása
 
 ## Bevezetés
 
-Előfordult már, hogy egy Word-dokumentumban egy nagy táblázattal dolgozik, és azt kívánta, bárcsak két kisebb, jobban kezelhető táblázatra oszthatná? Nos, ma belemerülünk abba, hogy pontosan hogyan érheti el ezt az Aspose.Words for .NET használatával. Legyen szó kiterjedt adattáblázatokról vagy összetett dokumentumstruktúrákról, a táblázatok felosztása javíthatja az olvashatóságot és a rendszerezést. Nézzük meg lépésről lépésre a tábla felosztásának folyamatát az Aspose.Words for .NET használatával.
+Előfordult már veled, hogy egy nagy táblázattal dolgozol egy Word dokumentumban, és azt kívántad, bárcsak két kisebb, könnyebben kezelhető táblázatra tudnád osztani? Nos, ma belemerülünk abba, hogyan érheted ezt el az Aspose.Words for .NET segítségével. Akár kiterjedt adattáblákkal, akár összetett dokumentumstruktúrákkal dolgozol, a táblázatok felosztása segíthet az olvashatóság és a rendszerezés javításában. Nézzük meg lépésről lépésre a táblázatok Aspose.Words for .NET használatával történő felosztásának folyamatát.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt belevágnánk az oktatóanyagba, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 
-1.  Aspose.Words for .NET Library: Győződjön meg arról, hogy letöltötte és telepítette az Aspose.Words for .NET könyvtárat. Beszerezheti a[Az Aspose kiadási oldala](https://releases.aspose.com/words/net/).
-2. Fejlesztői környezet: Hozzon létre egy fejlesztői környezetet .NET-keretrendszer támogatással, például a Visual Studio-val.
-3. Mintadokumentum: Készítsen Word dokumentumot (`Tables.docx`) legalább egy táblázattal a felosztási művelet alkalmazásához.
+1. Aspose.Words for .NET könyvtár: Győződjön meg róla, hogy letöltötte és telepítette az Aspose.Words for .NET könyvtárat. Letöltheti innen: [Aspose kiadási oldal](https://releases.aspose.com/words/net/).
+2. Fejlesztői környezet: Hozzon létre egy .NET keretrendszert támogató fejlesztői környezetet, például a Visual Studio-t.
+3. Mintadokumentum: Word-dokumentum készítése (`Tables.docx`) legalább egy táblázattal a felosztási művelet alkalmazásához.
 
 ## Névterek importálása
 
-Először is importálja a szükséges névtereket a projektbe. Ez lehetővé teszi az Aspose.Words által biztosított osztályok és metódusok elérését.
+Először importáld a szükséges névtereket a projektedbe. Ez lehetővé teszi az Aspose.Words által biztosított osztályok és metódusok elérését.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-## 1. lépés: Töltse be a dokumentumot
+## 1. lépés: A dokumentum betöltése
 
-Kezdjük a felosztani kívánt táblázatot tartalmazó dokumentum betöltésével. Ügyeljen arra, hogy a dokumentum helyes elérési útját adja meg.
+Kezdjük a felosztani kívánt táblázatot tartalmazó dokumentum betöltésével. Győződjön meg róla, hogy a dokumentum helyes elérési útját adta meg.
 
 ```csharp
 // A dokumentumkönyvtár elérési útja
@@ -45,49 +47,49 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
-## 2. lépés: Határozza meg a felosztandó táblázatot
+## 2. lépés: A felosztandó tábla azonosítása
 
-Ezután azonosítsa és kérje le a felosztani kívánt táblát. Ebben a példában a dokumentum első táblázatát célozzuk meg.
+Ezután azonosítsa és kérje le a felosztani kívánt táblázatot. Ebben a példában a dokumentum első táblázatát fogjuk megcélozni.
 
 ```csharp
 Table firstTable = (Table)doc.GetChild(NodeType.Table, 0, true);
 ```
 
-## 3. lépés: Válassza ki a sort a felosztáshoz
+## 3. lépés: Válassza ki a felosztandó sort
 
-Határozza meg azt a sort, ahol a táblázatot fel szeretné osztani. Itt felosztjuk a táblázatot a harmadik sorban (beleértve).
+Határozza meg azt a sort, ahol fel szeretné osztani a táblázatot. Itt a táblázatot a harmadik sorban (beleértve) osztjuk fel.
 
 ```csharp
 Row row = firstTable.Rows[2];
 ```
 
-## 4. lépés: Hozzon létre egy új táblázattárolót
+## 4. lépés: Új táblatároló létrehozása
 
-Hozzon létre egy új táblázattárolót az eredeti táblából áthelyezett sorok tárolására.
+Hozz létre egy új táblatárolót az eredeti táblából áthelyezni kívánt sorok tárolására.
 
 ```csharp
 Table table = (Table)firstTable.Clone(false);
 ```
 
-## 5. lépés: Helyezze be az új asztali tárolót
+## 5. lépés: Helyezze be az új táblatárolót
 
-Helyezze be az új táblázattárolót közvetlenül az eredeti táblázat után a dokumentumba.
+Szúrja be az új táblatárolót közvetlenül az eredeti tábla után a dokumentumban.
 
 ```csharp
 firstTable.ParentNode.InsertAfter(table, firstTable);
 ```
 
-## 6. lépés: Puffer bekezdés hozzáadása
+## 6. lépés: Pufferbekezdés hozzáadása
 
-Adjon hozzá egy puffer bekezdést a két tábla közé, hogy biztosítsa, hogy különállóak maradjanak.
+Helyezzen el egy puffer bekezdést a két táblázat között, hogy azok továbbra is különállóak maradjanak.
 
 ```csharp
 firstTable.ParentNode.InsertAfter(new Paragraph(doc), firstTable);
 ```
 
-## 7. lépés: Helyezze át a sorokat az új táblázatba
+## 7. lépés: Sorok áthelyezése az új táblázatba
 
-Helyezze át a sorokat az eredeti táblából az új táblázattárolóba. Ez a ciklus addig folytatódik, amíg a megadott sort (beleértve) el nem helyezi.
+Áthelyezi a sorokat az eredeti táblából az új táblatárolóba. Ez a ciklus addig folytatódik, amíg a megadott sor (beleértve) át nem kerül.
 
 ```csharp
 Row currentRow;
@@ -98,9 +100,9 @@ do
 } while (currentRow != row);
 ```
 
-## 8. lépés: Mentse el a dokumentumot
+## 8. lépés: A dokumentum mentése
 
-Végül mentse el a módosított dokumentumot felosztott táblázatokkal.
+Végül mentse el a módosított dokumentumot a táblázatok felosztásával.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTables.SplitTable.docx");
@@ -108,27 +110,32 @@ doc.Save(dataDir + "WorkingWithTables.SplitTable.docx");
 
 ## Következtetés
 
-És megvan! Az alábbi lépések követésével egyszerűen feloszthat egy táblázatot egy Word-dokumentumban az Aspose.Words for .NET segítségével. Ez a megközelítés segít a nagy táblák hatékonyabb kezelésében, javítva a dokumentumok olvashatóságát és rendszerezését. Próbálja ki, és nézze meg, hogyan egyszerűsíti le a Word dokumentumok táblázataival végzett munkát.
+És íme! A következő lépéseket követve könnyedén feloszthatsz egy táblázatot egy Word-dokumentumban az Aspose.Words for .NET segítségével. Ez a megközelítés segít a nagy táblázatok hatékonyabb kezelésében, javítva a dokumentumok olvashatóságát és rendszerezését. Próbáld ki, és nézd meg, hogyan egyszerűsíti le a táblázatokkal való munkát a Word-dokumentumokban.
 
 ## GYIK
 
-### Feloszthatok egy táblázatot több sorra?
-Igen, feloszthat egy táblázatot több sorra, ha megismétli a folyamatot minden felosztási pontra.
+### Fel lehet osztani egy táblázatot több sorra?
+Igen, több sorban is feloszthat egy táblázatot a folyamat megismétlésével minden felosztási pontnál.
 
 ### Mi történik az eredeti táblázat formázásával?
-Az új tábla örökli az eredeti tábla formázását. Bármilyen formázási módosítás szükség szerint alkalmazható az új táblára.
+Az új táblázat örökli az eredeti táblázat formázását. Bármilyen konkrét formázási módosítás szükség szerint alkalmazható az új táblázatra.
 
-### Lehetséges a táblák összevonása?
-Igen, összevonhat táblázatokat, ha sorokat helyez át egyik táblázatból a másikba hasonló módszerekkel.
+### Lehetséges a táblákat újra egyesíteni?
+Igen, táblázatokat egyesíthet úgy, hogy sorokat helyez át egyik táblázatból a másikba hasonló módszerekkel.
 
-### Működik ez a módszer beágyazott táblákkal?
+### Ez a módszer működik beágyazott táblákkal?
 Igen, az Aspose.Words for .NET támogatja a beágyazott táblákon végzett műveleteket is.
 
 ### Automatizálhatom ezt a folyamatot több dokumentum esetében?
-Teljesen! Létrehozhat egy szkriptet vagy alkalmazást a több dokumentum táblázatfelosztási folyamatának automatizálásához.
+Természetesen! Létrehozhatsz egy szkriptet vagy alkalmazást, amely automatizálja a táblázatok felosztását több dokumentum esetén.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

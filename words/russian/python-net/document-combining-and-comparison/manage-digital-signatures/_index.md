@@ -1,14 +1,16 @@
 ---
-title: Управление цифровыми подписями и подлинностью
-linktitle: Управление цифровыми подписями и подлинностью
-second_title: API управления документами Python Aspose.Words
-description: Узнайте, как управлять цифровыми подписями и обеспечивать подлинность документов с помощью Aspose.Words для Python. Пошаговое руководство с исходным кодом.
-weight: 17
-url: /ru/python-net/document-combining-and-comparison/manage-digital-signatures/
+"description": "Узнайте, как управлять цифровыми подписями и обеспечивать подлинность документов с помощью Aspose.Words для Python. Пошаговое руководство с исходным кодом."
+"linktitle": "Управление цифровыми подписями и подлинностью"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Управление цифровыми подписями и подлинностью"
+"url": "/ru/python-net/document-combining-and-comparison/manage-digital-signatures/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Управление цифровыми подписями и подлинностью
@@ -94,7 +96,7 @@ sign_options.sign_time = datetime.datetime.now()
 
 ### Можно ли добавить несколько подписей к одному документу?
 
-Да, вы можете добавить несколько цифровых подписей к одному документу, каждую от разных подписантов.
+Да, вы можете добавить несколько цифровых подписей к одному документу, каждую от разных подписавших.
 
 ### Какие типы сертификатов совместимы?
 
@@ -103,9 +105,14 @@ Aspose.Words поддерживает сертификаты X.509, включа
 ### Имеют ли цифровые подписи юридическую силу?
 
 Да, цифровые подписи имеют юридическую силу во многих странах и часто считаются эквивалентными собственноручным подписям.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

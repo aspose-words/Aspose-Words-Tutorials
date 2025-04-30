@@ -1,14 +1,16 @@
 ---
-title: Xuất tài liệu sang PDF
-linktitle: Xuất tài liệu sang PDF
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách xuất tài liệu sang PDF bằng Aspose.Words for Java. Hướng dẫn từng bước này đơn giản hóa quy trình chuyển đổi tài liệu liền mạch.
-weight: 10
-url: /vi/java/document-converting/exporting-documents-to-pdf/
+"description": "Tìm hiểu cách xuất tài liệu sang PDF bằng Aspose.Words for Java. Hướng dẫn từng bước này đơn giản hóa quy trình chuyển đổi tài liệu liền mạch."
+"linktitle": "Xuất tài liệu sang PDF"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Xuất tài liệu sang PDF"
+"url": "/vi/java/document-converting/exporting-documents-to-pdf/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xuất tài liệu sang PDF
@@ -24,7 +26,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các �
 
 - Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java trên hệ thống của mình.
 
--  Aspose.Words cho Java: Tải xuống và cài đặt Aspose.Words cho Java từ[đây](https://releases.aspose.com/words/java/).
+- Aspose.Words cho Java: Tải xuống và cài đặt Aspose.Words cho Java từ [đây](https://releases.aspose.com/words/java/).
 
 ## Thiết lập dự án
 
@@ -79,10 +81,15 @@ Có, Aspose.Words có thể xử lý các tài liệu Word được bảo vệ b
 
 ### Tôi có thể tìm thêm tài liệu và ví dụ ở đâu?
 
- Để biết tài liệu toàn diện và ví dụ về mã, hãy truy cập tài liệu Aspose.Words cho Java[đây](https://reference.aspose.com/words/java/).
+Để biết tài liệu toàn diện và ví dụ về mã, hãy truy cập tài liệu Aspose.Words cho Java [đây](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: मापन इकाइयों के बीच रूपांतरण
-linktitle: मापन इकाइयों के बीच रूपांतरण
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: जानें कि .NET के लिए Aspose.Words में मापन इकाइयों को कैसे परिवर्तित किया जाता है। दस्तावेज़ मार्जिन, हेडर और फ़ुटर को इंच और पॉइंट में सेट करने के लिए हमारे चरण-दर-चरण गाइड का पालन करें।
-weight: 10
-url: /hi/net/programming-with-document-properties/convert-between-measurement-units/
+"description": ".NET के लिए Aspose.Words में मापन इकाइयों को परिवर्तित करने का तरीका जानें। दस्तावेज़ मार्जिन, हेडर और फ़ुटर को इंच और पॉइंट में सेट करने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "मापन इकाइयों के बीच रूपांतरण"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "मापन इकाइयों के बीच रूपांतरण"
+"url": "/hi/net/programming-with-document-properties/convert-between-measurement-units/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # मापन इकाइयों के बीच रूपांतरण
@@ -21,10 +23,10 @@ url: /hi/net/programming-with-document-properties/convert-between-measurement-un
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1.  .NET लाइब्रेरी के लिए Aspose.Words: यदि आपने अभी तक इसे डाउनलोड नहीं किया है, तो इसे डाउनलोड करें[यहाँ](https://releases.aspose.com/words/net/).
+1. .NET लाइब्रेरी के लिए Aspose.Words: यदि आपने अभी तक इसे डाउनलोड नहीं किया है, तो इसे डाउनलोड करें [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विज़ुअल स्टूडियो या कोई अन्य .NET-संगत IDE.
 3. C# का बुनियादी ज्ञान: C# की मूल बातें समझने से आपको आसानी से आगे बढ़ने में मदद मिलेगी।
-4.  Aspose लाइसेंस: वैकल्पिक लेकिन पूर्ण कार्यक्षमता के लिए अनुशंसित। आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+4. Aspose लाइसेंस: वैकल्पिक लेकिन पूर्ण कार्यक्षमता के लिए अनुशंसित। आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ## नामस्थान आयात करें
 
@@ -46,11 +48,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- यह एक नया वर्ड दस्तावेज़ आरंभ करता है और`DocumentBuilder` सामग्री निर्माण और स्वरूपण को सुविधाजनक बनाने के लिए।
+यह एक नया वर्ड दस्तावेज़ आरंभ करता है और `DocumentBuilder` सामग्री निर्माण और स्वरूपण को सुविधाजनक बनाने के लिए।
 
 ## चरण 2: एक्सेस पेज सेटअप
 
- मार्जिन, हेडर और फ़ुटर सेट करने के लिए, आपको एक्सेस करने की आवश्यकता है`PageSetup` वस्तु।
+मार्जिन, हेडर और फ़ुटर सेट करने के लिए, आपको एक्सेस करने की आवश्यकता है `PageSetup` वस्तु।
 
 ```csharp
 PageSetup pageSetup = builder.PageSetup;
@@ -60,7 +62,7 @@ PageSetup pageSetup = builder.PageSetup;
 
 ## चरण 3: इंच को पॉइंट में बदलें
 
- Aspose.Words डिफ़ॉल्ट रूप से माप की इकाई के रूप में पॉइंट का उपयोग करता है। इंच में मार्जिन सेट करने के लिए, आपको इंच को पॉइंट में बदलने की आवश्यकता होगी`ConvertUtil.InchToPoint` तरीका।
+Aspose.Words डिफ़ॉल्ट रूप से माप की इकाई के रूप में पॉइंट का उपयोग करता है। इंच में मार्जिन सेट करने के लिए, आपको इंच को पॉइंट में बदलने की आवश्यकता होगी `ConvertUtil.InchToPoint` तरीका।
 
 ```csharp
 pageSetup.TopMargin = ConvertUtil.InchToPoint(1.0);
@@ -93,22 +95,27 @@ doc.Save("ConvertedDocument.docx");
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### क्या मैं Aspose.Words का उपयोग करके सेंटीमीटर जैसी अन्य इकाइयों को पॉइंट में परिवर्तित कर सकता हूँ?
- हाँ, Aspose.Words जैसे तरीके प्रदान करता है`ConvertUtil.CmToPoint` सेंटीमीटर को पॉइंट में बदलने के लिए.
+हाँ, Aspose.Words जैसे तरीके प्रदान करता है `ConvertUtil.CmToPoint` सेंटीमीटर को पॉइंट में बदलने के लिए.
 
 ### क्या .NET के लिए Aspose.Words का उपयोग करने के लिए लाइसेंस आवश्यक है?
 हालाँकि आप लाइसेंस के बिना Aspose.Words का उपयोग कर सकते हैं, लेकिन कुछ उन्नत सुविधाएँ प्रतिबंधित हो सकती हैं। लाइसेंस प्राप्त करने से पूर्ण कार्यक्षमता सुनिश्चित होती है।
 
 ### मैं .NET के लिए Aspose.Words कैसे स्थापित करूं?
- आप इसे यहाँ से डाउनलोड कर सकते हैं[वेबसाइट](https://releases.aspose.com/words/net/) और स्थापना निर्देशों का पालन करें.
+आप इसे यहाँ से डाउनलोड कर सकते हैं [वेबसाइट](https://releases.aspose.com/words/net/) और स्थापना निर्देशों का पालन करें.
 
 ### क्या मैं किसी दस्तावेज़ के विभिन्न अनुभागों के लिए अलग-अलग इकाइयाँ निर्धारित कर सकता हूँ?
- हां, आप इसका उपयोग करके विभिन्न अनुभागों के लिए मार्जिन और अन्य सेटिंग्स को अनुकूलित कर सकते हैं`Section` कक्षा।
+हां, आप इसका उपयोग करके विभिन्न अनुभागों के लिए मार्जिन और अन्य सेटिंग्स को अनुकूलित कर सकते हैं `Section` कक्षा।
 
 ### Aspose.Words क्या अन्य सुविधाएँ प्रदान करता है?
- Aspose.Words दस्तावेज़ रूपांतरण, मेल मर्ज और व्यापक स्वरूपण विकल्पों सहित सुविधाओं की एक विस्तृत श्रृंखला का समर्थन करता है।[प्रलेखन](https://reference.aspose.com/words/net/) अधिक जानकारी के लिए.
+Aspose.Words दस्तावेज़ रूपांतरण, मेल मर्ज और व्यापक स्वरूपण विकल्पों सहित सुविधाओं की एक विस्तृत श्रृंखला का समर्थन करता है। [प्रलेखन](https://reference.aspose.com/words/net/) अधिक जानकारी के लिए.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

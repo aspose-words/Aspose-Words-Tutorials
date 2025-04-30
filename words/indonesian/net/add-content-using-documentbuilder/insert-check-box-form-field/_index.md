@@ -1,14 +1,16 @@
 ---
-title: Masukkan Bidang Formulir Kotak Centang Dalam Dokumen Word
-linktitle: Masukkan Bidang Formulir Kotak Centang Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyisipkan kolom formulir kotak centang dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci langkah demi langkah ini. Sempurna untuk pengembang.
-weight: 10
-url: /id/net/add-content-using-documentbuilder/insert-check-box-form-field/
+"description": "Pelajari cara menyisipkan kolom formulir kotak centang dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah ini. Sempurna untuk pengembang."
+"linktitle": "Masukkan Bidang Formulir Kotak Centang Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Masukkan Bidang Formulir Kotak Centang Dalam Dokumen Word"
+"url": "/id/net/add-content-using-documentbuilder/insert-check-box-form-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Masukkan Bidang Formulir Kotak Centang Dalam Dokumen Word
@@ -20,7 +22,7 @@ Dalam dunia otomatisasi dokumen, Aspose.Words untuk .NET merupakan pusat kekuata
 
 Sebelum masuk ke inti pembahasan, pastikan Anda sudah menyiapkan semua yang dibutuhkan:
 
--  Pustaka Aspose.Words untuk .NET: Jika Anda belum memilikinya, unduh dari[Di Sini](https://releases.aspose.com/words/net/) Anda juga dapat memilih[uji coba gratis](https://releases.aspose.com/) jika Anda menjelajahi perpustakaan.
+- Pustaka Aspose.Words untuk .NET: Jika Anda belum memilikinya, unduh dari [Di Sini](https://releases.aspose.com/words/net/)Anda juga dapat memilih [uji coba gratis](https://releases.aspose.com/) jika Anda menjelajahi perpustakaan.
 - Lingkungan Pengembangan: IDE seperti Visual Studio akan menjadi taman bermain Anda.
 - Pemahaman Dasar tentang C#: Meskipun kami akan membahas semuanya secara rinci, pemahaman dasar tentang C# akan bermanfaat.
 
@@ -46,7 +48,7 @@ Sebelum kita dapat memanipulasi dokumen, kita perlu menentukan di mana dokumen k
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur ke folder tempat Anda ingin menyimpan dokumen. Ini memberi tahu Aspose.Words tempat menemukan dan menyimpan file Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur ke folder tempat Anda ingin menyimpan dokumen. Ini memberi tahu Aspose.Words tempat menemukan dan menyimpan file Anda.
 
 ## Langkah 2: Membuat Dokumen Baru
 
@@ -56,17 +58,17 @@ Setelah direktori kita ditetapkan, saatnya membuat dokumen baru. Dokumen ini aka
 Document doc = new Document();
 ```
 
- Baris ini menginisialisasi instance baru dari`Document` kelas, memberi kita dokumen kosong untuk dikerjakan.
+Baris ini menginisialisasi instance baru dari `Document` kelas, memberi kita dokumen kosong untuk dikerjakan.
 
 ## Langkah 3: Menginisialisasi Pembuat Dokumen
 
- Itu`DocumentBuilder` class adalah alat pilihan Anda untuk menambahkan konten ke dokumen. Anggap saja sebagai kuas dan palet Anda.
+Itu `DocumentBuilder` class adalah alat pilihan Anda untuk menambahkan konten ke dokumen. Anggap saja sebagai kuas dan palet Anda.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Baris ini menciptakan`DocumentBuilder`objek yang terkait dengan dokumen baru kita, yang memungkinkan kita menambahkan konten ke dalamnya.
+Baris ini menciptakan `DocumentBuilder` objek yang terkait dengan dokumen baru kita, yang memungkinkan kita menambahkan konten ke dalamnya.
 
 ## Langkah 4: Memasukkan Bidang Formulir Kotak Centang
 
@@ -80,7 +82,7 @@ Mari kita uraikan ini:
 - `"CheckBox"`: Ini adalah nama bidang formulir kotak centang.
 - `true`: Ini menunjukkan bahwa kotak centang dicentang secara default.
 - `true`: Parameter ini menetapkan apakah kotak centang harus dicentang sebagai boolean.
-- `0` : Parameter ini mengatur ukuran kotak centang.`0` berarti ukuran default.
+- `0`: Parameter ini mengatur ukuran kotak centang. `0` berarti ukuran default.
 
 ## Langkah 5: Menyimpan Dokumen
 
@@ -90,7 +92,7 @@ Kita telah menambahkan kotak centang, dan sekarang saatnya untuk menyimpan dokum
 doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
 ```
 
- Baris ini menyimpan dokumen ke direktori yang kita tentukan sebelumnya, dengan nama file`AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx`.
+Baris ini menyimpan dokumen ke direktori yang kita tentukan sebelumnya, dengan nama file `AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx`.
 
 ## Kesimpulan
 
@@ -104,7 +106,7 @@ Aspose.Words untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk 
 
 ### Bagaimana cara mendapatkan Aspose.Words untuk .NET?
 
- Anda dapat mengunduh Aspose.Words untuk .NET dari[situs web](https://releases.aspose.com/words/net/) Ada juga pilihan untuk[uji coba gratis](https://releases.aspose.com/) jika Anda ingin menjelajahi fitur-fiturnya.
+Anda dapat mengunduh Aspose.Words untuk .NET dari [situs web](https://releases.aspose.com/words/net/)Ada juga pilihan untuk [uji coba gratis](https://releases.aspose.com/) jika Anda ingin menjelajahi fitur-fiturnya.
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET dengan aplikasi .NET apa pun?
 
@@ -116,11 +118,16 @@ Tentu saja! Aspose.Words untuk .NET menyediakan berbagai parameter untuk menyesu
 
 ### Di mana saya dapat menemukan lebih banyak tutorial tentang Aspose.Words untuk .NET?
 
- Anda dapat menemukan tutorial dan dokumentasi lengkap di[Halaman dokumentasi Aspose.Words](https://reference.aspose.com/words/net/).
+Anda dapat menemukan tutorial dan dokumentasi lengkap di [Halaman dokumentasi Aspose.Words](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

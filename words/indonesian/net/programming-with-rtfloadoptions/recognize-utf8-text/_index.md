@@ -1,14 +1,16 @@
 ---
-title: Mengenali Teks Utf8
-linktitle: Mengenali Teks Utf8
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengenali teks UTF-8 dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini.
-weight: 10
-url: /id/net/programming-with-rtfloadoptions/recognize-utf8-text/
+"description": "Pelajari cara mengenali teks UTF-8 dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini."
+"linktitle": "Mengenali Teks Utf8"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Mengenali Teks Utf8"
+"url": "/id/net/programming-with-rtfloadoptions/recognize-utf8-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengenali Teks Utf8
@@ -21,7 +23,7 @@ Siap menyelami hal-hal teknologi yang mengagumkan? Hari ini, kita akan mempelaja
 
 Sebelum kita masuk ke bagian yang menyenangkan, mari pastikan Anda memiliki semua yang dibutuhkan:
 
-1.  Aspose.Words untuk Pustaka .NET: Anda dapat[unduh disini](https://releases.aspose.com/words/net/) Jika Anda belum membelinya, ambil saja[uji coba gratis](https://releases.aspose.com/) atau[belinya disini](https://purchase.aspose.com/buy).
+1. Aspose.Words untuk Pustaka .NET: Anda dapat [unduh disini](https://releases.aspose.com/words/net/)Jika Anda belum membelinya, ambil saja [uji coba gratis](https://releases.aspose.com/) atau [belinya disini](https://purchase.aspose.com/buy).
 2. Lingkungan Pengembangan: Visual Studio atau IDE lain yang mendukung .NET.
 3. Pengetahuan Dasar C#: Anda harus merasa nyaman dengan C# untuk mengikutinya.
 
@@ -45,7 +47,7 @@ Pertama-tama, Anda perlu menentukan direktori tempat dokumen Anda disimpan. Di s
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda. Hal ini penting bagi Aspose.Words untuk menemukan berkas Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda. Hal ini penting bagi Aspose.Words untuk menemukan berkas Anda.
 
 ## Langkah 2: Konfigurasikan Opsi Muat untuk Teks UTF-8
 
@@ -55,7 +57,7 @@ Selanjutnya, kita perlu mengonfigurasi opsi pemuatan untuk mengenali teks UTF-8.
 RtfLoadOptions loadOptions = new RtfLoadOptions { RecognizeUtf8Text = true };
 ```
 
- Dengan pengaturan`RecognizeUtf8Text` ke`true`, kami memberi tahu Aspose.Words untuk mewaspadai teks UTF-8. Ini sangat berguna saat menangani dokumen yang berisi berbagai karakter.
+Dengan pengaturan `RecognizeUtf8Text` ke `true`kami memberi tahu Aspose.Words untuk mewaspadai teks UTF-8. Ini sangat berguna saat menangani dokumen yang berisi berbagai karakter.
 
 ## Langkah 3: Muat Dokumen
 
@@ -65,7 +67,7 @@ Sekarang, saatnya memuat dokumen menggunakan opsi muat yang telah kita konfigura
 Document doc = new Document(dataDir + "UTF-8 characters.rtf", loadOptions);
 ```
 
- Pada baris ini, kita membuat yang baru`Document` objek dan memuat berkas RTF kami. Pastikan nama berkas Anda sama persis, termasuk ekstensinya.
+Pada baris ini, kita membuat yang baru `Document` objek dan memuat berkas RTF kami. Pastikan nama berkas Anda sama persis, termasuk ekstensinya.
 
 ## Langkah 4: Simpan Dokumen yang Diproses
 
@@ -95,7 +97,7 @@ Tentu saja! Aspose.Words untuk .NET mendukung berbagai format, termasuk DOC, DOC
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Words untuk .NET?
 
- Anda bisa mendapatkan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/)Ini memungkinkan Anda mencoba semua fitur tanpa batasan apa pun.
+Anda bisa mendapatkan lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/)Ini memungkinkan Anda mencoba semua fitur tanpa batasan apa pun.
 
 ### Apakah Aspose.Words untuk .NET kompatibel dengan .NET Core?
 
@@ -103,10 +105,15 @@ Ya, Aspose.Words untuk .NET kompatibel dengan .NET Core, membuatnya serbaguna un
 
 ### Di mana saya dapat menemukan dokumentasi dan dukungan lebih lanjut?
 
- Untuk dokumentasi lebih lanjut, kunjungi[Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/) Jika Anda memerlukan dukungan, lihat[Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8).
+Untuk dokumentasi lebih lanjut, kunjungi [Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/)Jika Anda membutuhkan dukungan, lihat [Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

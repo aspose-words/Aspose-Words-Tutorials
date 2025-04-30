@@ -1,14 +1,16 @@
 ---
-title: Membuat Bagian Pengulangan Tabel yang Dipetakan ke Bagian XML Kustom
-linktitle: Membuat Bagian Pengulangan Tabel yang Dipetakan ke Bagian XML Kustom
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat tabel dengan bagian berulang yang dipetakan ke CustomXmlPart dalam dokumen Word menggunakan Aspose.Words untuk .NET.
-weight: 10
-url: /id/net/programming-with-sdt/creating-table-repeating-section-mapped-to-custom-xml-part/
+"description": "Pelajari cara membuat tabel dengan bagian berulang yang dipetakan ke CustomXmlPart dalam dokumen Word menggunakan Aspose.Words untuk .NET."
+"linktitle": "Membuat Bagian Pengulangan Tabel yang Dipetakan ke Bagian XML Kustom"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Membuat Bagian Pengulangan Tabel yang Dipetakan ke Bagian XML Kustom"
+"url": "/id/net/programming-with-sdt/creating-table-repeating-section-mapped-to-custom-xml-part/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat Bagian Pengulangan Tabel yang Dipetakan ke Bagian XML Kustom
@@ -20,7 +22,7 @@ Dalam tutorial ini, kita akan membahas proses pembuatan tabel dengan bagian beru
 ## Prasyarat
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
-1.  Pustaka Aspose.Words untuk .NET telah terinstal. Anda dapat mengunduhnya dari[Situs web Aspose](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET telah terinstal. Anda dapat mengunduhnya dari [Situs web Aspose](https://releases.aspose.com/words/net/).
 2. Pemahaman dasar tentang C# dan XML.
 
 ## Mengimpor Ruang Nama
@@ -35,7 +37,7 @@ using Aspose.Words.Tables;
 
 ## Langkah 1: Inisialisasi Dokumen dan DocumentBuilder
 
- Pertama, buat dokumen baru dan inisialisasi`DocumentBuilder`:
+Pertama, buat dokumen baru dan inisialisasi `DocumentBuilder`:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -57,7 +59,7 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add("Books",
 
 ## Langkah 3: Buat Struktur Tabel
 
- Selanjutnya, gunakan`DocumentBuilder` untuk membuat tajuk tabel:
+Selanjutnya, gunakan `DocumentBuilder` untuk membuat tajuk tabel:
 
 ```csharp
 Table table = builder.StartTable();
@@ -71,7 +73,7 @@ builder.EndTable();
 
 ## Langkah 4: Buat Bagian Berulang
 
- Membuat sebuah`StructuredDocumentTag` (SDT) untuk bagian yang berulang dan memetakannya ke data XML:
+Membuat sebuah `StructuredDocumentTag` (SDT) untuk bagian yang berulang dan memetakannya ke data XML:
 
 ```csharp
 StructuredDocumentTag repeatingSectionSdt = new StructuredDocumentTag(doc, SdtType.RepeatingSection, MarkupLevel.Row);
@@ -126,9 +128,14 @@ Ya, Anda dapat menyusun bagian XML khusus Anda dengan tipe data apa pun dan meme
 
 ### Bagaimana cara menambahkan lebih banyak baris ke bagian yang berulang?
 Bagian yang berulang secara otomatis mereplikasi struktur baris untuk setiap item di jalur XML yang dipetakan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

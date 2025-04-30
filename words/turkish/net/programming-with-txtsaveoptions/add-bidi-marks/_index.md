@@ -1,14 +1,16 @@
 ---
-title: Word Belgesine Bidi İşaretleri Ekleme
-linktitle: Word Belgesine Bidi İşaretleri Ekleme
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kılavuzla Aspose.Words for .NET kullanarak Word belgelerine çift yönlü (Bidi) işaretlerin nasıl ekleneceğini öğrenin. Çok dilli içerik için uygun metin yönünü sağlayın.
-weight: 10
-url: /tr/net/programming-with-txtsaveoptions/add-bidi-marks/
+"description": "Bu kılavuzla Aspose.Words for .NET kullanarak Word belgelerine çift yönlü (Bidi) işaretlerin nasıl ekleneceğini öğrenin. Çok dilli içerik için uygun metin yönünü sağlayın."
+"linktitle": "Word Belgesine Bidi İşaretleri Ekleme"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesine Bidi İşaretleri Ekleme"
+"url": "/tr/net/programming-with-txtsaveoptions/add-bidi-marks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesine Bidi İşaretleri Ekleme
@@ -21,7 +23,7 @@ Belge işleme dünyasında, çift yönlü (Bidi) metinleri yönetmek genellikle 
 
 Koda dalmadan önce aşağıdakilerin mevcut olduğundan emin olun:
 
-1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Bunu şuradan indirebilirsiniz:[Aspose İndirmeler sayfası](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Bunu şuradan indirebilirsiniz: [Aspose İndirmeler sayfası](https://releases.aspose.com/words/net/).
 2. .NET Framework veya .NET Core: Örnekleri çalıştırmak için uyumlu bir .NET ortamınızın kurulu olduğundan emin olun.
 3. Temel C# Bilgisi: C# programlama dili ve .NET'teki temel işlemlere aşinalık.
 
@@ -38,7 +40,7 @@ Word belgesine Bidi işaretleri ekleme sürecini net adımlara bölelim. Her ad�
 
 ## Adım 1: Belgenizi Ayarlayın
 
- Yeni bir örnek oluşturarak başlayın`Document` sınıf ve bir`DocumentBuilder` belgeye içerik eklemek için.
+Yeni bir örnek oluşturarak başlayın `Document` sınıf ve bir `DocumentBuilder` belgeye içerik eklemek için.
 
 ```csharp
 // Belgelerinizin dizinine giden yol
@@ -49,7 +51,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Bu adımda yeni bir Word belgesi başlatır ve bir`DocumentBuilder` içerik eklemeyi kolaylaştırmak için.
+Bu adımda yeni bir Word belgesi başlatır ve bir `DocumentBuilder` içerik eklemeyi kolaylaştırmak için.
 
 ## Adım 2: Belgenize İçerik Ekleyin
 
@@ -66,7 +68,7 @@ Burada, önce standart bir İngilizce cümle ekliyoruz. Ardından, İbranice ve 
 
 ## Adım 3: Bidi İşaretleri için Kaydetme Seçeneklerini Yapılandırın
 
- Bidi işaretlerinin belgeye doğru şekilde kaydedildiğinden emin olmak için,`TxtSaveOptions` ve etkinleştirin`AddBidiMarks` seçenek.
+Bidi işaretlerinin belgeye doğru şekilde kaydedildiğinden emin olmak için, `TxtSaveOptions` ve etkinleştirin `AddBidiMarks` seçenek.
 
 ```csharp
 // Bidi işaretleri ekle
@@ -74,7 +76,7 @@ TxtSaveOptions saveOptions = new TxtSaveOptions { AddBidiMarks = true };
 doc.Save(dataDir + "WorkingWithTxtSaveOptions.AddBidiMarks.txt", saveOptions);
 ```
 
- Bu adımda, bir örnek oluşturuyoruz`TxtSaveOptions` ve ayarla`AddBidiMarks`mülk`true`Bu, belgenin metin dosyası olarak kaydedilmesi sırasında Bidi işaretlerinin dahil edilmesini sağlar.
+Bu adımda, bir örnek oluşturuyoruz `TxtSaveOptions` ve ayarla `AddBidiMarks` mülk `true`Bu, belgenin metin dosyası olarak kaydedilmesi sırasında Bidi işaretlerinin dahil edilmesini sağlar.
 
 ## Çözüm
 
@@ -95,10 +97,15 @@ Evet, Bidi biçimlendirmesini ihtiyaç duyduğunuzda belgenizin belirli paragraf
 Verilen örnekte, belge bir metin dosyası olarak kaydedilir. Ancak, Aspose.Words ayrıca Bidi işaretlerini korurken belgeleri çeşitli biçimlerde kaydetmeyi destekler.
 
 ### Aspose.Words for .NET hakkında daha fazla bilgiyi nerede bulabilirim?
- Aspose.Words for .NET hakkında daha fazla bilgi edinmek için şuraya tıklayabilirsiniz:[Aspose Belgeleri](https://reference.aspose.com/words/net/) ve erişim[Destek Forumu](https://forum.aspose.com/c/words/8) ek yardım için.
+Aspose.Words for .NET hakkında daha fazla bilgi edinmek için şuraya tıklayabilirsiniz: [Aspose Belgeleri](https://reference.aspose.com/words/net/) ve erişim [Destek Forumu](https://forum.aspose.com/c/words/8) ek yardım için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

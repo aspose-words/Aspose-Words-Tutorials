@@ -1,32 +1,34 @@
 ---
-title: Leggi le proprietà di Active XControl dal file Word
-linktitle: Leggi le proprietà di Active XControl dal file Word
-second_title: API di elaborazione dei documenti Aspose.Words
-description: Scopri come leggere le proprietà del controllo ActiveX dai file Word usando Aspose.Words per .NET in una guida passo-passo. Migliora le tue competenze di automazione dei documenti.
-weight: 10
-url: /it/net/working-with-oleobjects-and-activex/read-active-xcontrol-properties/
+"description": "Scopri come leggere le proprietà dei controlli ActiveX dai file Word utilizzando Aspose.Words per .NET in una guida passo passo. Migliora le tue competenze di automazione dei documenti."
+"linktitle": "Leggi le proprietà di Active XControl dal file Word"
+"second_title": "API di elaborazione dei documenti Aspose.Words"
+"title": "Leggi le proprietà di Active XControl dal file Word"
+"url": "/it/net/working-with-oleobjects-and-activex/read-active-xcontrol-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Leggi le proprietà di Active XControl dal file Word
 
 ## Introduzione
 
-Nell'era digitale odierna, l'automazione è fondamentale per migliorare la produttività. Se lavori con documenti Word che contengono controlli ActiveX, potresti aver bisogno di leggere le loro proprietà per vari scopi. I controlli ActiveX, come le caselle di controllo e i pulsanti, possono contenere dati importanti. Utilizzando Aspose.Words per .NET, puoi estrarre e manipolare in modo efficiente questi dati a livello di programmazione.
+Nell'era digitale odierna, l'automazione è fondamentale per migliorare la produttività. Se si lavora con documenti Word che contengono controlli ActiveX, potrebbe essere necessario leggerne le proprietà per vari scopi. I controlli ActiveX, come caselle di controllo e pulsanti, possono contenere dati importanti. Utilizzando Aspose.Words per .NET, è possibile estrarre e manipolare questi dati in modo efficiente a livello di codice.
 
 ## Prerequisiti
 
 Prima di iniziare, assicurati di avere quanto segue:
 
-1.  Aspose.Words per la libreria .NET: puoi scaricarla da[Qui](https://releases.aspose.com/words/net/).
+1. Aspose.Words per la libreria .NET: puoi scaricarla da [Qui](https://releases.aspose.com/words/net/).
 2. Visual Studio o qualsiasi IDE C#: per scrivere ed eseguire il codice.
-3. Un documento Word con controlli ActiveX: ad esempio, "controlli ActiveX.docx".
-4. Conoscenza di base di C#: per seguire il corso è necessaria la familiarità con la programmazione in C#.
+3. Un documento Word con controlli ActiveX: ad esempio, "Controlli ActiveX.docx".
+4. Conoscenza di base di C#: per seguire il corso è necessaria la familiarità con la programmazione C#.
 
-## Importazione degli spazi dei nomi
+## Importa spazi dei nomi
 
 Per prima cosa, importiamo gli spazi dei nomi necessari per lavorare con Aspose.Words per .NET.
 
@@ -39,10 +41,10 @@ using System;
 
 ## Passaggio 1: caricare il documento Word
 
-Per iniziare, è necessario caricare il documento Word che contiene i controlli ActiveX.
+Per iniziare, dovrai caricare il documento Word che contiene i controlli ActiveX.
 
 ```csharp
-// Percorso alla directory del documento
+// Percorso alla directory dei documenti
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "ActiveX controls.docx");
 ```
@@ -74,7 +76,7 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
 
 ## Passaggio 4: estrarre le proprietà dai controlli ActiveX
 
-All'interno del ciclo, controlla se il controllo è un Forms2OleControl. Se lo è, esegui il cast ed estrai le proprietà.
+All'interno del ciclo, verifica se il controllo è un Forms2OleControl. In tal caso, esegui il cast ed estrai le proprietà.
 
 ```csharp
 Forms2OleControl checkBox = (Forms2OleControl) oleControl;
@@ -109,7 +111,7 @@ Console.WriteLine("\n" + properties);
 
 ## Conclusione
 
-Ed ecco fatto! Hai imparato con successo come leggere le proprietà dei controlli ActiveX da un documento Word usando Aspose.Words per .NET. Questo tutorial ha trattato il caricamento di un documento, l'iterazione attraverso le forme e l'estrazione delle proprietà dai controlli ActiveX. Seguendo questi passaggi, puoi automatizzare l'estrazione di dati importanti dai tuoi documenti Word, migliorando l'efficienza del tuo flusso di lavoro.
+Ed ecco fatto! Hai imparato con successo a leggere le proprietà dei controlli ActiveX da un documento Word utilizzando Aspose.Words per .NET. Questo tutorial ha trattato il caricamento di un documento, l'iterazione tra le forme e l'estrazione delle proprietà dai controlli ActiveX. Seguendo questi passaggi, puoi automatizzare l'estrazione di dati importanti dai tuoi documenti Word, migliorando l'efficienza del flusso di lavoro.
 
 ## Domande frequenti
 
@@ -120,16 +122,21 @@ I controlli ActiveX sono oggetti interattivi incorporati nei documenti Word, com
 Sì, Aspose.Words per .NET consente di modificare le proprietà dei controlli ActiveX a livello di programmazione.
 
 ### Aspose.Words per .NET è gratuito?
- Aspose.Words per .NET offre una prova gratuita, ma dovrai acquistare una licenza per continuare a utilizzarlo. Puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/).
+Aspose.Words per .NET offre una prova gratuita, ma è necessario acquistare una licenza per continuare a utilizzarlo. Puoi ottenere una prova gratuita. [Qui](https://releases.aspose.com/).
 
-### Posso usare Aspose.Words per .NET con altri linguaggi .NET oltre a C#?
+### Posso utilizzare Aspose.Words per .NET con altri linguaggi .NET oltre a C#?
 Sì, Aspose.Words per .NET può essere utilizzato con qualsiasi linguaggio .NET, inclusi VB.NET e F#.
 
 ### Dove posso trovare ulteriore documentazione su Aspose.Words per .NET?
- Puoi trovare la documentazione dettagliata[Qui](https://reference.aspose.com/words/net/).
+Puoi trovare la documentazione dettagliata [Qui](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

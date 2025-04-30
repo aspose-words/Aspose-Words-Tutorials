@@ -1,30 +1,32 @@
 ---
-title: Kelime Türlerinin Gözden Geçirilmesini Alın
-linktitle: Kelime Türlerinin Gözden Geçirilmesini Alın
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak bir Word belgesindeki kelimelerin revizyon türlerini nasıl alacağınızı öğrenin. Bu adım adım kılavuz, belge revizyonlarını verimli bir şekilde yönetmenize yardımcı olur.
-weight: 10
-url: /tr/net/working-with-revisions/get-revision-types/
+"description": "Aspose.Words for .NET kullanarak bir Word belgesindeki kelimelerin revizyon türlerini nasıl alacağınızı öğrenin. Bu adım adım kılavuz, belge revizyonlarını verimli bir şekilde yönetmenize yardımcı olur."
+"linktitle": "Kelime Türlerinin Gözden Geçirilmesini Alın"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Kelime Türlerinin Gözden Geçirilmesini Alın"
+"url": "/tr/net/working-with-revisions/get-revision-types/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kelime Türlerinin Gözden Geçirilmesini Alın
 
 ## giriiş
 
-Hiç kendinizi belge revizyonlarının denizinde, kimin neyi ne zaman taşıdığını merak ederken buldunuz mu? Yalnız değilsiniz. Belge revizyonlarını yönetmek, özellikle kapsamlı belgelerle uğraşırken sıkıcı bir görev olabilir. Ancak endişelenmeyin! Aspose.Words for .NET ile bu revizyonları kolayca belirleyebilir ve yönetebilirsiniz. Bu kılavuzda, Aspose.Words for .NET kullanarak bir Word belgesindeki kelimelerin revizyon türlerini nasıl edineceğinize dair adım adım bir süreçte size yol göstereceğiz. O halde kemerlerinizi bağlayın ve başlayalım!
+Hiç kendinizi belge revizyonlarının denizinde, kimin neyi ne zaman taşıdığını merak ederken buldunuz mu? Yalnız değilsiniz. Belge revizyonlarını yönetmek, özellikle kapsamlı belgelerle uğraşırken sıkıcı bir görev olabilir. Ancak endişelenmeyin! Aspose.Words for .NET ile bu revizyonları kolayca belirleyebilir ve yönetebilirsiniz. Bu kılavuzda, Aspose.Words for .NET kullanarak bir Word belgesinde revizyon türlerini nasıl alacağınıza dair adım adım bir süreçte size yol göstereceğiz. O halde kemerlerinizi bağlayın ve başlayalım!
 
 ## Ön koşullar
 
 Kodlarla uğraşmaya başlamadan önce, ihtiyacınız olacak birkaç şey var:
 
-1.  Aspose.Words for .NET Kütüphanesi: Henüz yapmadıysanız, şu adresten indirin:[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Henüz yapmadıysanız, şu adresten indirin: [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir .NET uyumlu IDE.
 3. Temel C# Bilgisi: C# programlama dilini anlamak faydalı olacaktır.
-4.  Revizyonları Olan Bir Word Belgesi: Bir tane olduğundan emin olun`.docx`Kodu test etmek için izlenen değişiklikleri içeren dosya.
+4. Revizyonları Olan Bir Word Belgesi: Bir tane olduğundan emin olun `.docx` Kodu test etmek için izlenen değişiklikleri içeren dosya.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -46,7 +48,7 @@ Daha iyi anlaşılması ve uygulanması için örneği birden fazla adıma böle
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` Belgelerinizin bulunduğu klasöre giden gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` Belgelerinizin bulunduğu klasöre giden gerçek yol ile.
 
 ## Adım 2: Word Belgenizi Yükleyin
 
@@ -56,7 +58,7 @@ Sonra, Word belgesini projenize yüklemeniz gerekir. Bu belgede analiz etmek ist
 Document doc = new Document(dataDir + "Revisions.docx");
 ```
 
- Dosyanın güvenli olduğundan emin olun`Revisions.docx` belirtilen dizinde mevcuttur.
+Dosyanın güvenli olduğundan emin olun `Revisions.docx` belirtilen dizinde mevcuttur.
 
 ## Adım 3: Paragraf Koleksiyonuna Erişim
 
@@ -80,7 +82,7 @@ for (int i = 0; i < paragraphs.Count; i++)
 }
 ```
 
- Bu döngü her paragrafı dolaşır ve kullanır`IsMoveFromRevision` Ve`IsMoveToRevision` Paragrafın taşındığını (silindiğini) veya taşındığını (eklendiğini) belirlemek için özellikler.
+Bu döngü her paragrafı dolaşır ve kullanır `IsMoveFromRevision` Ve `IsMoveToRevision` Paragrafın taşınıp taşınmadığını (silindiğini) veya taşındığını (eklendiğini) belirlemek için özellikler.
 
 ## Çözüm
 
@@ -94,22 +96,27 @@ Evet, Aspose.Words for .NET, değişikliklerin yazarı da dahil olmak üzere rev
 
 ### Aspose.Words for .NET için ücretsiz deneme sürümü mevcut mu?
 
- Kesinlikle! Ücretsiz deneme alabilirsiniz[Burada](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz deneme alabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Words for .NET için geçici lisans başvurusunu nasıl yapabilirim?
 
- Geçici lisans talebinde bulunabilir ve başvuruda bulunabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+Geçici lisans talebinde bulunabilir ve başvuruda bulunabilirsiniz. [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words for .NET için daha detaylı dokümanları nerede bulabilirim?
 
- Ayrıntılı dokümantasyon şu adreste mevcuttur:[Aspose web sitesi](https://reference.aspose.com/words/net/).
+Ayrıntılı dokümantasyon şu adreste mevcuttur: [Aspose web sitesi](https://reference.aspose.com/words/net/).
 
 ### Aspose.Words for .NET'i ticari olmayan bir projede kullanabilir miyim?
 
 Evet, Aspose.Words for .NET hem ticari hem de ticari olmayan projelerde kullanılabilir, ancak lisans koşullarını kontrol ettiğinizden emin olun.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

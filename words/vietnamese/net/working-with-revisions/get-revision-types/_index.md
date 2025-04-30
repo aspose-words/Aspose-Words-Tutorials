@@ -1,14 +1,16 @@
 ---
-title: Nhận các loại từ sửa đổi
-linktitle: Nhận các loại từ sửa đổi
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách lấy các loại sửa đổi của từ trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước này giúp bạn xử lý các bản sửa đổi tài liệu một cách hiệu quả.
-weight: 10
-url: /vi/net/working-with-revisions/get-revision-types/
+"description": "Tìm hiểu cách lấy các loại sửa đổi của từ trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước này giúp bạn xử lý các bản sửa đổi tài liệu một cách hiệu quả."
+"linktitle": "Nhận các loại từ sửa đổi"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Nhận các loại từ sửa đổi"
+"url": "/vi/net/working-with-revisions/get-revision-types/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận các loại từ sửa đổi
@@ -21,10 +23,10 @@ Bạn đã bao giờ thấy mình ngập đầu trong biển các bản sửa đ
 
 Trước khi bắt tay vào viết mã, bạn cần chuẩn bị một số thứ sau:
 
-1.  Aspose.Words cho Thư viện .NET: Nếu bạn chưa tải xuống, hãy tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Nếu bạn chưa tải xuống, hãy tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác tương thích với .NET.
 3. Kiến thức cơ bản về C#: Hiểu biết về ngôn ngữ lập trình C# sẽ rất có lợi.
-4.  Một tài liệu Word có bản sửa đổi: Đảm bảo bạn có`.docx`tệp có các thay đổi được theo dõi để kiểm tra mã.
+4. Một tài liệu Word có bản sửa đổi: Đảm bảo bạn có `.docx` tệp có các thay đổi được theo dõi để kiểm tra mã.
 
 ## Nhập không gian tên
 
@@ -46,7 +48,7 @@ Trước tiên, bạn cần xác định đường dẫn đến thư mục tài 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` bằng đường dẫn thực tế đến thư mục tài liệu của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` bằng đường dẫn thực tế đến thư mục tài liệu của bạn.
 
 ## Bước 2: Tải tài liệu Word của bạn
 
@@ -56,7 +58,7 @@ Tiếp theo, bạn cần tải tài liệu Word vào dự án của mình. Tài 
 Document doc = new Document(dataDir + "Revisions.docx");
 ```
 
- Đảm bảo rằng tập tin`Revisions.docx` tồn tại trong thư mục được chỉ định.
+Đảm bảo rằng tập tin `Revisions.docx` tồn tại trong thư mục được chỉ định.
 
 ## Bước 3: Truy cập Bộ sưu tập đoạn văn
 
@@ -80,7 +82,7 @@ for (int i = 0; i < paragraphs.Count; i++)
 }
 ```
 
- Vòng lặp này đi qua từng đoạn văn và sử dụng`IsMoveFromRevision` Và`IsMoveToRevision` thuộc tính để xác định xem đoạn văn đã được di chuyển (xóa) hay di chuyển (chèn).
+Vòng lặp này đi qua từng đoạn văn và sử dụng `IsMoveFromRevision` Và `IsMoveToRevision` thuộc tính để xác định xem đoạn văn đã được di chuyển (xóa) hay di chuyển (chèn).
 
 ## Phần kết luận
 
@@ -94,22 +96,27 @@ Có, Aspose.Words cho .NET cung cấp chức năng truy cập thông tin chi ti�
 
 ### Có bản dùng thử miễn phí Aspose.Words dành cho .NET không?
 
- Chắc chắn rồi! Bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Làm thế nào tôi có thể áp dụng giấy phép tạm thời cho Aspose.Words cho .NET?
 
- Bạn có thể yêu cầu và áp dụng giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể yêu cầu và áp dụng giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể tìm tài liệu chi tiết hơn về Aspose.Words cho .NET ở đâu?
 
- Tài liệu chi tiết có sẵn trên[Trang web Aspose](https://reference.aspose.com/words/net/).
+Tài liệu chi tiết có sẵn trên [Trang web Aspose](https://reference.aspose.com/words/net/).
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET trong một dự án phi thương mại không?
 
 Có, Aspose.Words cho .NET có thể được sử dụng trong cả dự án thương mại và phi thương mại, nhưng hãy đảm bảo kiểm tra các điều khoản cấp phép.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

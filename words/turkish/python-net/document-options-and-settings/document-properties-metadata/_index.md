@@ -1,14 +1,16 @@
 ---
-title: Belge Özellikleri ve Meta Veri Yönetimi
-linktitle: Belge Özellikleri ve Meta Veri Yönetimi
-second_title: Aspose.Words Python Belge Yönetim API'si
-description: Python için Aspose.Words'ü kullanarak belge özelliklerini ve meta verilerini nasıl yöneteceğinizi öğrenin. Kaynak kodlu adım adım kılavuz.
-weight: 12
-url: /tr/python-net/document-options-and-settings/document-properties-metadata/
+"description": "Python için Aspose.Words'ü kullanarak belge özelliklerini ve meta verilerini nasıl yöneteceğinizi öğrenin. Kaynak kodlu adım adım kılavuz."
+"linktitle": "Belge Özellikleri ve Meta Veri Yönetimi"
+"second_title": "Aspose.Words Python Belge Yönetim API'si"
+"title": "Belge Özellikleri ve Meta Veri Yönetimi"
+"url": "/tr/python-net/document-options-and-settings/document-properties-metadata/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Özellikleri ve Meta Veri Yönetimi
@@ -16,17 +18,17 @@ url: /tr/python-net/document-options-and-settings/document-properties-metadata/
 
 ## Belge Özellikleri ve Meta Verilere Giriş
 
-Belge özellikleri ve meta veriler elektronik belgelerin temel bileşenleridir. Yazarlık, oluşturma tarihi ve anahtar sözcükler gibi belge hakkında önemli bilgiler sağlarlar. Meta veriler, belge kategorizasyonu ve aramada yardımcı olan ek bağlamsal bilgiler içerebilir. Python için Aspose.Words, bu yönleri programatik olarak yönetme sürecini basitleştirir.
+Belge özellikleri ve meta veriler elektronik belgelerin temel bileşenleridir. Yazarlık, oluşturma tarihi ve anahtar sözcükler gibi belge hakkında önemli bilgiler sağlarlar. Meta veriler, belge kategorizasyonuna ve aramaya yardımcı olan ek bağlamsal bilgiler içerebilir. Python için Aspose.Words, bu yönleri programatik olarak yönetme sürecini basitleştirir.
 
 ## Python için Aspose.Words'e Başlarken
 
 Belge özelliklerini ve meta verilerini yönetmeye başlamadan önce, Python için Aspose.Words ile ortamımızı ayarlayalım.
 
 ```python
-# Install the Aspose.Words for Python package
+# Aspose.Words for Python paketini yükleyin
 pip install aspose-words
 
-# Import the necessary classes
+# Gerekli sınıfları içe aktarın
 import aspose.words as aw
 ```
 
@@ -35,10 +37,10 @@ import aspose.words as aw
 Aspose.Words API'sini kullanarak belge özelliklerini kolayca alabilirsiniz. İşte bir belgenin yazarını ve başlığını nasıl alacağınıza dair bir örnek:
 
 ```python
-# Load the document
+# Belgeyi yükle
 doc = aw.Document("document.docx")
 
-# Retrieve document properties
+# Belge özelliklerini al
 author = doc.built_in_document_properties["Author"]
 title = doc.built_in_document_properties["Title"]
 
@@ -51,11 +53,11 @@ print("Title:", title)
 Belge özelliklerini güncellemek de aynı derecede basittir. Diyelim ki yazarın adını ve başlığı güncellemek istiyorsunuz:
 
 ```python
-# Update document properties
+# Belge özelliklerini güncelle
 doc.built_in_document_properties["Author"] = "John Doe"
 doc.built_in_document_properties["Title"] = "My Updated Document"
 
-# Save the changes
+# Değişiklikleri kaydet
 doc.save("updated_document.docx")
 ```
 
@@ -64,10 +66,10 @@ doc.save("updated_document.docx")
 Özel belge özellikleri, belge içinde ek bilgiler depolamanıza olanak tanır. "Departman" adlı özel bir özellik ekleyelim:
 
 ```python
-# Add a custom document property
+# Özel bir belge özelliği ekleyin
 doc.custom_document_properties.add("Department", "Marketing")
 
-# Save the changes
+# Değişiklikleri kaydet
 doc.save("document_with_custom_property.docx")
 ```
 
@@ -76,7 +78,7 @@ doc.save("document_with_custom_property.docx")
 Meta veri yönetimi, değişiklikleri izleme, belge istatistikleri ve daha fazlası gibi bilgileri kontrol etmeyi içerir. Aspose.Words, bu meta verilere programlı olarak erişmenizi ve bunları değiştirmenizi sağlar.
 
 ```python
-# Access and modify metadata
+# Meta verilere erişin ve bunları değiştirin
 doc.metadata["Keywords"] = "Python, Aspose.Words, Metadata"
 ```
 
@@ -85,7 +87,7 @@ doc.metadata["Keywords"] = "Python, Aspose.Words, Metadata"
 Sık meta veri güncellemeleri Aspose.Words kullanılarak otomatikleştirilebilir. Örneğin, "Son Değiştiren" özelliğini otomatik olarak güncelleyebilirsiniz:
 
 ```python
-# Automatically update "Last Modified By"
+# "Son Değiştiren"i otomatik olarak güncelle
 doc.built_in_document_properties["LastModifiedBy"] = "Automated Process"
 ```
 
@@ -94,7 +96,7 @@ doc.built_in_document_properties["LastModifiedBy"] = "Automated Process"
 Meta veriler bazen hassas bilgiler içerebilir. Veri gizliliğini sağlamak için belirli özellikleri kaldırabilirsiniz:
 
 ```python
-# Remove sensitive metadata properties
+# Hassas meta veri özelliklerini kaldırın
 sensitive_properties = ["LastPrinted", "LastSavedBy"]
 for prop in sensitive_properties:
     if prop in doc.built_in_document_properties:
@@ -106,7 +108,7 @@ for prop in sensitive_properties:
 Sürümleme, belge geçmişini korumak için çok önemlidir. Aspose.Words, sürümleri etkili bir şekilde yönetmenizi sağlar:
 
 ```python
-# Add version history information
+# Sürüm geçmişi bilgilerini ekle
 version_info = doc.built_in_document_properties.add("VersionInfo")
 version_info.value = "Version 1.0 - Initial Release"
 ```
@@ -138,7 +140,7 @@ Evet, Aspose.Words kullanarak meta veri güncellemelerini otomatikleştirebilirs
 
 ### Meta verilerdeki hassas bilgileri nasıl koruyabilirim?
 
- Meta verilerdeki hassas bilgileri korumak için, belirli özellikleri kullanarak kaldırabilirsiniz.`remove` yöntem.
+Meta verilerdeki hassas bilgileri korumak için, belirli özellikleri kullanarak kaldırabilirsiniz. `remove` yöntem.
 
 ### Belge özelliklerini yönetmek için en iyi uygulamalar nelerdir?
 
@@ -146,9 +148,14 @@ Evet, Aspose.Words kullanarak meta veri güncellemelerini otomatikleştirebilirs
 - Ek bağlam için özel özellikleri kullanın.
 - Meta verileri düzenli olarak inceleyin ve güncelleyin.
 - Meta verilerde bulunan hassas bilgileri koruyun.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

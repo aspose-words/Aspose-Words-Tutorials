@@ -1,14 +1,16 @@
 ---
-title: Печать документов в Aspose.Words для Java
-linktitle: Печать документов
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как печатать документы с помощью Aspose.Words для Java. Пошаговое руководство для бесперебойной печати в ваших приложениях Java.
-weight: 10
-url: /ru/java/printing-documents/printing-documents/
+"description": "Узнайте, как печатать документы с помощью Aspose.Words для Java. Пошаговое руководство для бесперебойной печати в ваших приложениях Java."
+"linktitle": "Печать документов"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Печать документов в Aspose.Words для Java"
+"url": "/ru/java/printing-documents/printing-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Печать документов в Aspose.Words для Java
@@ -29,7 +31,7 @@ url: /ru/java/printing-documents/printing-documents/
 
 ## Загрузка документа
 
- Для начала вам нужно загрузить документ Word, который вы хотите распечатать. Заменить`"Your Document Directory"` с путем к вашему документу и`"Your Output Directory"` с желаемым выходным каталогом.
+Для начала вам нужно загрузить документ Word, который вы хотите распечатать. Заменить `"Your Document Directory"` с путем к вашему документу и `"Your Output Directory"` с желаемым выходным каталогом.
 
 ```java
 string dataDir = "Your Document Directory";
@@ -85,7 +87,7 @@ class MultipagePrintDocument implements Printable
     private final AttributeSet mAttributeSet;
     /// <резюме>
     /// Конструктор пользовательского класса PrintDocument.
-    // / </резюме>
+    /// </резюме> 
     public MultipagePrintDocument(Document document, int pagesPerSheet, boolean printPageBorders,
                                   AttributeSet attributes) {
         if (document == null)
@@ -96,7 +98,7 @@ class MultipagePrintDocument implements Printable
         mAttributeSet = attributes;
     }
     public int print(Graphics g, PageFormat pf, int page) {
-        //Начальный и конечный индексы страницы, определенные в наборе атрибутов.
+        // Начальный и конечный индексы страницы, определенные в наборе атрибутов.
         int[][] pageRanges = ((PageRanges) mAttributeSet.get(PageRanges.class)).getMembers();
         int fromPage = pageRanges[0][0] - 1;
         int toPage = pageRanges[0][1] - 1;
@@ -132,7 +134,7 @@ class MultipagePrintDocument implements Printable
                 // Полезным возвращаемым значением является масштаб, в котором была отображена страница.
                 float scale = mDocument.renderToSize(pageIndex, (Graphics2D) g, leftPos, topPos, (int) thumbSize.x,
                         (int) thumbSize.y);
-                //Нарисуйте границы страницы (миниатюра страницы может быть меньше миниатюры
+                // Нарисуйте границы страницы (миниатюра страницы может быть меньше миниатюры
                 // размер заполнителя).
                 if (mPrintPageBorders) {
                     // Получите реальный 100% размер страницы в пунктах.
@@ -194,7 +196,7 @@ class MultipagePrintDocument implements Printable
 
 ### В1: Могу ли я распечатать определенные страницы документа с помощью Aspose.Words для Java?
 
- Да, вы можете указать диапазон страниц при печати документа. В примере кода мы использовали`attributes.add(new PageRanges(1, doc.getPageCount()))`для печати всех страниц. Вы можете настроить диапазон страниц по мере необходимости.
+Да, вы можете указать диапазон страниц при печати документа. В примере кода мы использовали `attributes.add(new PageRanges(1, doc.getPageCount()))` для печати всех страниц. Вы можете настроить диапазон страниц по мере необходимости.
 
 ### В2: Подходит ли Aspose.Words для Java для пакетной печати?
 
@@ -210,14 +212,19 @@ class MultipagePrintDocument implements Printable
 
 ### В5: Где я могу получить дополнительную помощь и поддержку по Aspose.Words для Java?
 
- Для получения дополнительной поддержки и помощи вы можете посетить[Форум Aspose.Words для Java](https://forum.aspose.com/).
+Для получения дополнительной поддержки и помощи вы можете посетить [Форум Aspose.Words для Java](https://forum.aspose.com/).
 
 ---
 
 Теперь, когда вы успешно научились печатать документы с помощью Aspose.Words для Java, вы можете начать внедрять эту функциональность в свои приложения Java. Удачного кодирования!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

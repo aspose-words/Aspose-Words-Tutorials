@@ -1,14 +1,16 @@
 ---
-title: Przetwarzanie słów z Pclsaveoptions
-linktitle: Przetwarzanie słów z Pclsaveoptions
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Poznaj przetwarzanie słów z opcjami zapisu PCL w Aspose.Words dla .NET. Dowiedz się, jak manipulować i dostosowywać zapisywanie dokumentów Word w formacie PCL dzięki samouczkom krok po kroku i przykładom kodu.
-weight: 1670
-url: /pl/net/programming-with-pclsaveoptions/
+"description": "Poznaj przetwarzanie słów z opcjami zapisu PCL w Aspose.Words dla .NET. Dowiedz się, jak manipulować i dostosowywać zapisywanie dokumentów Word w formacie PCL dzięki samouczkom krok po kroku i przykładom kodu."
+"linktitle": "Przetwarzanie słów z Pclsaveoptions"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przetwarzanie słów z Pclsaveoptions"
+"url": "/pl/net/programming-with-pclsaveoptions/"
+"weight": 1670
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przetwarzanie słów z Pclsaveoptions
@@ -20,10 +22,15 @@ Samouczki Aspose.Words for .NET zapewniają cenne źródło wiedzy, dzięki któ
  ## Samouczki
 | Tytuł | Opis |
 | --- | --- |
-| [Rasteryzuj przekształcone elementy](./rasterize-transformed-elements/) | Dowiedz się, jak rasteryzować przekształcone elementy podczas konwersji dokumentów Word do formatu PCL przy użyciu Aspose.Words dla .NET. Zawiera przewodnik krok po kroku. |
+| [Rasteryzuj przekształcone elementy](./rasterize-transformed-elements/) | Dowiedz się, jak rasteryzować przekształcone elementy podczas konwersji dokumentów Word do formatu PCL przy użyciu Aspose.Words dla .NET. W zestawie przewodnik krok po kroku. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

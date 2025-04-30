@@ -1,14 +1,16 @@
 ---
-title: Meta Dosyalarını Svg'ye Dönüştür
-linktitle: Meta Dosyalarını Svg'ye Dönüştür
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım kılavuzla .NET için Aspose.Words'ü kullanarak Word belgelerindeki meta dosyalarını SVG'ye dönüştürün. Her seviyedeki geliştirici için mükemmeldir.
-weight: 10
-url: /tr/net/programming-with-htmlsaveoptions/convert-metafiles-to-svg/
+"description": "Bu ayrıntılı, adım adım kılavuzla .NET için Aspose.Words'ü kullanarak Word belgelerindeki meta dosyalarını SVG'ye dönüştürün. Her seviyedeki geliştirici için mükemmeldir."
+"linktitle": "Meta Dosyalarını Svg'ye Dönüştür"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Meta Dosyalarını Svg'ye Dönüştür"
+"url": "/tr/net/programming-with-htmlsaveoptions/convert-metafiles-to-svg/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Meta Dosyalarını Svg'ye Dönüştür
@@ -21,7 +23,7 @@ Merhaba, kodlama meraklıları! Aspose.Words for .NET kullanarak Word belgelerin
 
 Ayrıntılara girmeden önce, başlamak için ihtiyacımız olan her şeye sahip olduğumuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Bunu şu adresten indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Bunu şu adresten indirebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
 2. .NET Framework: Bilgisayarınızda .NET Framework'ün yüklü olduğundan emin olun.
 3. Geliştirme Ortamı: Visual Studio gibi herhangi bir IDE işinizi görecektir.
 4. Temel C# Bilgisi: C# konusunda biraz bilgi sahibi olmak faydalı olacaktır, ancak yeni başlayan biriyseniz endişelenmeyin; her şeyi ayrıntılı olarak açıklayacağız.
@@ -39,7 +41,7 @@ Artık ön koşullarımızı ve ad alanlarımızı belirlediğimize göre, meta 
 
 ## Adım 1: Belgeyi ve Belge Oluşturucuyu Başlatın
 
- Tamam, yeni bir Word belgesi oluşturarak ve başlatarak başlayalım`DocumentBuilder` nesne. Bu oluşturucu, belgemize içerik eklememize yardımcı olacak.
+Tamam, yeni bir Word belgesi oluşturarak ve başlatarak başlayalım `DocumentBuilder` nesne. Bu oluşturucu, belgemize içerik eklememize yardımcı olacak.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -48,11 +50,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Burada yeni bir belge ve bir belge oluşturucu başlatıyoruz.`dataDir` değişkeni, dosyalarınızı kaydedeceğiniz belge dizininize giden yolu tutar.
+Burada yeni bir belge ve bir belge oluşturucu başlatıyoruz. `dataDir` değişkeni, dosyalarınızı kaydedeceğiniz belge dizininize giden yolu tutar.
 
 ## Adım 2: Belgeye Metin Ekleyin
 
- Şimdi, belgemize biraz metin ekleyelim.`Write` yöntemi`DocumentBuilder` metin eklemek için.
+Şimdi, belgemize biraz metin ekleyelim. `Write` yöntemi `DocumentBuilder` metin eklemek için.
 
 ```csharp
 builder.Write("Here is an SVG image: ");
@@ -62,7 +64,7 @@ Bu satır, belgenize "İşte bir SVG resmi: " metnini ekler. Eklemek üzere oldu
 
 ## Adım 3: SVG Resmini Ekle
 
- Şimdi eğlenceli kısma geçelim! Belgemize bir SVG resmi ekleyeceğiz.`InsertHtml` yöntem.
+Şimdi eğlenceli kısma geçelim! Belgemize bir SVG resmi ekleyeceğiz. `InsertHtml` yöntem.
 
 ```csharp
 builder.InsertHtml(
@@ -76,7 +78,7 @@ Bu kod parçası belgeye bir SVG resmi ekler. SVG kodu belirtilen noktalar, renk
 
 ## Adım 4: HtmlSaveOptions'ı tanımlayın
 
- Meta dosyalarımızın SVG olarak kaydedildiğinden emin olmak için,`HtmlSaveOptions` ve ayarla`MetafileFormat`mülk`HtmlMetafileFormat.Svg`.
+Meta dosyalarımızın SVG olarak kaydedildiğinden emin olmak için, `HtmlSaveOptions` ve ayarla `MetafileFormat` mülk `HtmlMetafileFormat.Svg`.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions
@@ -89,13 +91,13 @@ Bu, Aspose.Words'e HTML'e aktarırken belgedeki tüm meta dosyalarını SVG olar
 
 ## Adım 5: Belgeyi Kaydedin
 
- Son olarak belgemizi kaydedelim. Şunu kullanacağız:`Save` yöntemi`Document` sınıf ve dizin yolunu geçip seçenekleri kaydedin.
+Son olarak belgemizi kaydedelim. Şunu kullanacağız: `Save` yöntemi `Document` sınıf ve dizin yolunu geçip seçenekleri kaydedin.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ConvertMetafilesToSvg.html", saveOptions);
 ```
 
- Bu satır, belgeyi belirtilen dizine dosya adıyla kaydeder`WorkingWithHtmlSaveOptions.ConvertMetafilesToSvg.html` .`saveOptions` meta dosyalarının SVG'ye dönüştürüldüğünden emin olun.
+Bu satır, belgeyi belirtilen dizine dosya adıyla kaydeder `WorkingWithHtmlSaveOptions.ConvertMetafilesToSvg.html`. `saveOptions` meta dosyalarının SVG'ye dönüştürüldüğünden emin olun.
 
 ## Çözüm
 
@@ -110,17 +112,22 @@ Aspose.Words for .NET, C# kullanarak Word belgelerini programlı bir şekilde ol
 Evet, Aspose.Words for .NET, .NET Core'u destekler ve bu da onu farklı .NET uygulamaları için çok yönlü hale getirir.
 
 ### Aspose.Words for .NET'in ücretsiz deneme sürümünü nasıl edinebilirim?
- Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/).
+Ücretsiz deneme sürümünü şuradan indirebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/).
 
 ### Aspose.Words kullanarak diğer resim formatlarını SVG'ye dönüştürmek mümkün müdür?
 Evet, Aspose.Words meta dosyaları da dahil olmak üzere çeşitli resim formatlarını SVG'ye dönüştürmeyi destekler.
 
 ### Aspose.Words for .NET'in belgelerini nerede bulabilirim?
- Ayrıntılı belgeleri şu adreste bulabilirsiniz:[Aspose dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+Ayrıntılı belgeleri şu adreste bulabilirsiniz: [Aspose dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

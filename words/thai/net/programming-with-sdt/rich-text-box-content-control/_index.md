@@ -1,14 +1,16 @@
 ---
-title: การควบคุมเนื้อหากล่องข้อความแบบ Rich Text
-linktitle: การควบคุมเนื้อหากล่องข้อความแบบ Rich Text
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการเพิ่มและปรับแต่งตัวควบคุมเนื้อหากล่องข้อความที่มีรูปแบบ Rich Text ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้
-weight: 10
-url: /th/net/programming-with-sdt/rich-text-box-content-control/
+"description": "เรียนรู้วิธีการเพิ่มและปรับแต่งตัวควบคุมเนื้อหากล่องข้อความที่มีรูปแบบ Rich Text ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้"
+"linktitle": "การควบคุมเนื้อหากล่องข้อความแบบ Rich Text"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การควบคุมเนื้อหากล่องข้อความแบบ Rich Text"
+"url": "/th/net/programming-with-sdt/rich-text-box-content-control/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การควบคุมเนื้อหากล่องข้อความแบบ Rich Text
@@ -21,7 +23,7 @@ url: /th/net/programming-with-sdt/rich-text-box-content-control/
 
 ก่อนจะเริ่มบทช่วยสอนนี้ โปรดแน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 
 2. Visual Studio: สภาพแวดล้อมการพัฒนาเช่น Visual Studio จะช่วยคุณเขียนและดำเนินการโค้ด
 
@@ -50,11 +52,11 @@ using System.Drawing;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกเอกสารของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกเอกสารของคุณ
 
 ## ขั้นตอนที่ 2: สร้างเอกสารใหม่
 
- สร้างใหม่`Document` วัตถุซึ่งจะทำหน้าที่เป็นรากฐานให้เอกสาร Word ของคุณ
+สร้างใหม่ `Document` วัตถุซึ่งจะทำหน้าที่เป็นรากฐานให้เอกสาร Word ของคุณ
 
 ```csharp
 Document doc = new Document();
@@ -64,17 +66,17 @@ Document doc = new Document();
 
 ## ขั้นตอนที่ 3: สร้างแท็กเอกสารที่มีโครงสร้างสำหรับข้อความที่มีโครงสร้าง
 
- หากต้องการเพิ่มกล่องข้อความแบบ Rich Text คุณต้องสร้าง`StructuredDocumentTag` (SDT) ประเภท`RichText`.
+หากต้องการเพิ่มกล่องข้อความแบบ Rich Text คุณต้องสร้าง `StructuredDocumentTag` (SDT) ประเภท `RichText`-
 
 ```csharp
 StructuredDocumentTag sdtRichText = new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Block);
 ```
 
- ที่นี่,`SdtType.RichText` ระบุว่า SDT จะเป็น Rich Text Box และ`MarkupLevel.Block` กำหนดพฤติกรรมของมันในเอกสาร
+ที่นี่, `SdtType.RichText` ระบุว่า SDT จะเป็น Rich Text Box และ `MarkupLevel.Block` กำหนดพฤติกรรมของมันในเอกสาร
 
 ## ขั้นตอนที่ 4: เพิ่มเนื้อหาลงในกล่องข้อความแบบ Rich Text
 
- สร้าง`Paragraph` และก`Run` วัตถุที่จะเก็บเนื้อหาที่คุณต้องการแสดงในกล่องข้อความแบบ Rich Text ปรับแต่งข้อความและการจัดรูปแบบตามต้องการ
+สร้าง `Paragraph` และก `Run` วัตถุที่จะเก็บเนื้อหาที่คุณต้องการแสดงในกล่องข้อความแบบ Rich Text ปรับแต่งข้อความและการจัดรูปแบบตามต้องการ
 
 ```csharp
 Paragraph para = new Paragraph(doc);
@@ -89,7 +91,7 @@ sdtRichText.ChildNodes.Add(para);
 
 ## ขั้นตอนที่ 5: ผนวกกล่องข้อความ Rich Text ลงในเอกสาร
 
- เพิ่ม`StructuredDocumentTag` เข้าสู่เนื้อหาของเอกสาร
+เพิ่ม `StructuredDocumentTag` เข้าสู่เนื้อหาของเอกสาร
 
 ```csharp
 doc.FirstSection.Body.AppendChild(sdtRichText);
@@ -117,20 +119,25 @@ doc.Save(dataDir + "WorkingWithSdt.RichTextBoxContentControl.docx");
 แท็กเอกสารที่มีโครงสร้าง (SDT) เป็นประเภทของการควบคุมเนื้อหาในเอกสาร Word ที่ใช้สำหรับเพิ่มองค์ประกอบแบบโต้ตอบ เช่น กล่องข้อความและรายการแบบดรอปดาวน์
 
 ### ฉันสามารถปรับแต่งลักษณะของกล่องข้อความ Rich Text ได้หรือไม่
- ใช่ คุณสามารถปรับแต่งรูปลักษณ์โดยการแก้ไขคุณสมบัติของ`Run`วัตถุ เช่น สีแบบอักษร ขนาด และรูปแบบ
+ใช่ คุณสามารถปรับแต่งรูปลักษณ์โดยการแก้ไขคุณสมบัติของ `Run` วัตถุ เช่น สีแบบอักษร ขนาด และรูปแบบ
 
 ### ฉันสามารถใช้ SDT ประเภทอื่นๆ อะไรกับ Aspose.Words ได้บ้าง
 นอกจาก Rich Text แล้ว Aspose.Words ยังรองรับ SDT ประเภทอื่นๆ เช่น Plain Text, Date Picker และ Drop-Down List
 
 ### ฉันจะเพิ่ม Rich Text Box หลายกล่องลงในเอกสารได้อย่างไร
- คุณสามารถสร้างได้หลาย`StructuredDocumentTag` และเพิ่มอินสแตนซ์ตามลำดับลงในเนื้อหาของเอกสาร
+คุณสามารถสร้างได้หลาย `StructuredDocumentTag` และเพิ่มอินสแตนซ์ตามลำดับลงในเนื้อหาของเอกสาร
 
 ### ฉันสามารถใช้ Aspose.Words เพื่อแก้ไขเอกสารที่มีอยู่ได้หรือไม่
 ใช่ Aspose.Words ช่วยให้คุณเปิด แก้ไข และบันทึกเอกสาร Word ที่มีอยู่ รวมถึงการเพิ่มหรืออัปเดต SDT
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

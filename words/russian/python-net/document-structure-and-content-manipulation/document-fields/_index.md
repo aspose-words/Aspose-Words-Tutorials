@@ -1,14 +1,16 @@
 ---
-title: Обработка полей и данных в документах Word
-linktitle: Обработка полей и данных в документах Word
-second_title: API управления документами Python Aspose.Words
-description: Узнайте, как обрабатывать поля и данные в документах Word с помощью Aspose.Words для Python. Пошаговое руководство с примерами кода для динамического контента, автоматизации и многого другого.
-weight: 12
-url: /ru/python-net/document-structure-and-content-manipulation/document-fields/
+"description": "Узнайте, как обрабатывать поля и данные в документах Word с помощью Aspose.Words для Python. Пошаговое руководство с примерами кода для динамического контента, автоматизации и многого другого."
+"linktitle": "Обработка полей и данных в документах Word"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Обработка полей и данных в документах Word"
+"url": "/ru/python-net/document-structure-and-content-manipulation/document-fields/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Обработка полей и данных в документах Word
@@ -26,7 +28,7 @@ url: /ru/python-net/document-structure-and-content-manipulation/document-fields/
 
 ## Вставка простых полей
 
- Чтобы вставить поле, вы можете использовать`FieldBuilder` класс. Например, чтобы вставить поле текущей даты:
+Чтобы вставить поле, вы можете использовать `FieldBuilder` класс. Например, чтобы вставить поле текущей даты:
 
 ```python
 from aspose.words import Document, FieldBuilder
@@ -55,7 +57,7 @@ builder.insert_field('= 5 + 3')
 
 ## Извлечение данных из полей
 
- Вы можете извлечь полевые данные, используя`Field` сорт:
+Вы можете извлечь полевые данные, используя `Field` сорт:
 
 ```python
 field = doc.range.fields[0]
@@ -85,7 +87,7 @@ builder.insert_field('FORMCHECKBOX "Check this"')
 Поля могут создавать гиперссылки и перекрестные ссылки:
 
 ```python
-builder.insert_field('HYPERLINK "https://www.example.com" "Посетите наш веб-сайт"')
+builder.insert_field('HYPERLINK "https://www.example.com" "Visit our website"')
 ```
 
 ## Настройка форматов полей
@@ -112,7 +114,7 @@ doc.update_fields()
 
 ### Как обновить значения полей вручную?
 
- Чтобы обновить значения полей вручную, выберите поле и нажмите`F9`.
+Чтобы обновить значения полей вручную, выберите поле и нажмите `F9`.
 
 ### Могу ли я использовать поля в верхних и нижних колонтитулах?
 
@@ -132,10 +134,15 @@ doc.update_fields()
 
 ## Получите доступ к большему количеству ресурсов
 
- Для получения более подробной информации и примеров кода посетите[Справочник API Aspose.Words для Python](https://reference.aspose.com/words/python-net/) . Чтобы загрузить последнюю версию библиотеки, посетите[Страница загрузки Aspose.Words для Python](https://releases.aspose.com/words/python/).
+Для получения более подробной информации и примеров кода посетите [Справочник API Aspose.Words для Python](https://reference.aspose.com/words/python-net/). Чтобы загрузить последнюю версию библиотеки, посетите [Страница загрузки Aspose.Words для Python](https://releases.aspose.com/words/python/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

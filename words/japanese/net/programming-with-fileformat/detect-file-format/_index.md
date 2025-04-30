@@ -1,27 +1,29 @@
 ---
-title: ドキュメントファイル形式の検出
-linktitle: ドキュメントファイル形式の検出
-second_title: Aspose.Words ドキュメント処理 API
-description: この包括的なステップバイステップ ガイドを使用して、Aspose.Words for .NET を使用してドキュメント ファイル形式を検出する方法を学習します。
-weight: 10
-url: /ja/net/programming-with-fileformat/detect-file-format/
+"description": "この包括的なステップバイステップ ガイドを使用して、Aspose.Words for .NET を使用してドキュメント ファイル形式を検出する方法を学習します。"
+"linktitle": "ドキュメントファイル形式の検出"
+"second_title": "Aspose.Words ドキュメント処理 API"
+"title": "ドキュメントファイル形式の検出"
+"url": "/ja/net/programming-with-fileformat/detect-file-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ドキュメントファイル形式の検出
 
 ## 導入
 
-今日のデジタル世界では、さまざまなドキュメント形式を効率的に管理することが重要です。Word、PDF、HTML、その他の形式を扱う場合でも、これらのファイルを正しく検出して処理できれば、多くの時間と労力を節約できます。このチュートリアルでは、Aspose.Words for .NET を使用してドキュメント ファイル形式を検出する方法について説明します。このガイドでは、前提条件から詳細なステップ バイ ステップ ガイドまで、知っておく必要のあるすべてのことを説明します。
+今日のデジタル世界では、様々なドキュメント形式を効率的に管理することが不可欠です。Word、PDF、HTMLなど、どのような形式のファイルを扱う場合でも、これらのファイルを正しく検出・処理できれば、時間と労力を大幅に節約できます。このチュートリアルでは、Aspose.Words for .NETを使用してドキュメントファイル形式を検出する方法を説明します。このガイドでは、前提条件から詳細な手順まで、必要な情報をすべて網羅しています。
 
 ## 前提条件
 
 コードに進む前に、必要なものがすべて揃っていることを確認しましょう。
 
--  Aspose.Words for .NET: ダウンロードはこちらから[ここ](https://releases.aspose.com/words/net/)有効なライセンスを持っていることを確認してください。そうでない場合は、[一時ライセンス](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words for .NET: ダウンロードはこちらから [ここ](https://releases.aspose.com/words/net/)有効な免許証をお持ちであることをご確認ください。そうでない場合は、 [一時ライセンス](https://purchase。aspose.com/temporary-license/).
 - Visual Studio: 最新バージョンであれば問題なく動作します。
 - .NET Framework: 正しいバージョンがインストールされていることを確認してください。
 
@@ -43,17 +45,17 @@ using System.Linq;
 
 ## ステップ1: ディレクトリを設定する
 
-まず、ファイルを形式に基づいて並べ替えるディレクトリを設定する必要があります。
+まず、ファイルを形式に基づいて分類するディレクトリを設定する必要があります。
 
 ```csharp
-//ドキュメント ディレクトリへのパス。
+// ドキュメント ディレクトリへのパス。
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 string supportedDir = dataDir + "Supported";
 string unknownDir = dataDir + "Unknown";
 string encryptedDir = dataDir + "Encrypted";
 string pre97Dir = dataDir + "Pre97";
 
-//ディレクトリがまだ存在しない場合は作成します。
+// ディレクトリがまだ存在しない場合は作成します。
 if (!Directory.Exists(supportedDir))
     Directory.CreateDirectory(supportedDir);
 if (!Directory.Exists(unknownDir))
@@ -66,7 +68,7 @@ if (!Directory.Exists(pre97Dir))
 
 ## ステップ2: ファイルのリストを取得する
 
-次に、破損したドキュメントを除いたディレクトリからファイルのリストを取得します。
+次に、破損したドキュメントを除外して、ディレクトリからファイルのリストを取得します。
 
 ```csharp
 IEnumerable<string> fileList = Directory.GetFiles(dataDir).Where(name => !name.EndsWith("Corrupted document.docx"));
@@ -85,7 +87,7 @@ foreach (string fileName in fileList)
 
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(fileName);
 
-    //ドキュメントの種類を表示する
+    // ドキュメントの種類を表示する
     switch (info.LoadFormat)
     {
         case LoadFormat.Doc:
@@ -160,12 +162,12 @@ foreach (string fileName in fileList)
 
 ## 結論
 
-Aspose.Words for .NET を使用してドキュメント ファイル形式を検出するのは簡単なプロセスです。ディレクトリを設定し、ファイルのリストを取得し、Aspose.Words を使用してファイル形式を検出することで、ドキュメントを効率的に整理および管理できます。このアプローチは時間を節約するだけでなく、さまざまなドキュメント形式を正しく処理することも保証します。
+Aspose.Words for .NET を使ったドキュメントファイル形式の検出は簡単です。ディレクトリを設定し、ファイルリストを取得し、Aspose.Words によるファイル形式検出を利用することで、ドキュメントを効率的に整理・管理できます。このアプローチは時間を節約するだけでなく、様々なドキュメント形式を正しく処理することを保証します。
 
 ## よくある質問
 
 ### Aspose.Words for .NET とは何ですか?
-Aspose.Words for .NET は、Word 文書をプログラムで操作するための強力なライブラリです。開発者は、さまざまな形式で文書を作成、変更、変換できます。
+Aspose.Words for .NET は、Word 文書をプログラムで操作するための強力なライブラリです。開発者は、このライブラリを使用することで、さまざまな形式の文書を作成、変更、変換できます。
 
 ### Aspose.Words は暗号化されたドキュメントを検出できますか?
 はい、Aspose.Words はドキュメントが暗号化されているかどうかを検出し、それに応じてドキュメントを処理できます。
@@ -174,14 +176,19 @@ Aspose.Words for .NET は、Word 文書をプログラムで操作するため�
 Aspose.Words は、DOC、DOCX、RTF、HTML、MHTML、ODT など、さまざまな形式を検出できます。
 
 ### Aspose.Words の一時ライセンスを取得するにはどうすればよいですか?
-臨時免許証は[Aspose 購入](https://purchase.aspose.com/temporary-license/)ページ。
+臨時免許証は、 [Aspose 購入](https://purchase.aspose.com/temporary-license/) ページ。
 
 ### Aspose.Words のドキュメントはどこにありますか?
-Aspose.Wordsのドキュメントは以下にあります。[ここ](https://reference.aspose.com/words/net/).
+Aspose.Wordsのドキュメントは以下にあります。 [ここ](https://reference。aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

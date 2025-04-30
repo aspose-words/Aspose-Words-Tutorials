@@ -1,27 +1,29 @@
 ---
-title: Dostęp do zakładek w dokumencie Word
-linktitle: Dostęp do zakładek w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak uzyskać dostęp do zakładek w dokumentach programu Word i zarządzać nimi za pomocą pakietu Aspose.Words for .NET, korzystając ze szczegółowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/programming-with-bookmarks/access-bookmarks/
+"description": "Dowiedz się, jak uzyskać dostęp do zakładek w dokumentach programu Word i zarządzać nimi za pomocą pakietu Aspose.Words for .NET, korzystając ze szczegółowego przewodnika krok po kroku."
+"linktitle": "Dostęp do zakładek w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Dostęp do zakładek w dokumencie Word"
+"url": "/pl/net/programming-with-bookmarks/access-bookmarks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dostęp do zakładek w dokumencie Word
 
 ## Wstęp
 
-W dzisiejszej erze cyfrowej automatyzacja zadań przetwarzania dokumentów jest koniecznością. Niezależnie od tego, czy masz do czynienia z dużymi zestawami dokumentów, czy po prostu chcesz usprawnić swój przepływ pracy, zrozumienie, jak programowo manipulować dokumentami Word, może zaoszczędzić mnóstwo czasu. Jednym z istotnych aspektów tego jest dostęp do zakładek w dokumencie Word. Ten przewodnik przeprowadzi Cię przez proces dostępu do zakładek w dokumencie Word przy użyciu Aspose.Words dla .NET. Więc zanurzmy się i rozruszajmy Cię!
+dzisiejszej erze cyfrowej automatyzacja zadań przetwarzania dokumentów jest koniecznością. Niezależnie od tego, czy masz do czynienia z dużymi zestawami dokumentów, czy po prostu chcesz usprawnić swój przepływ pracy, zrozumienie, jak programowo manipulować dokumentami Word, może zaoszczędzić mnóstwo czasu. Jednym z istotnych aspektów tego jest dostęp do zakładek w dokumencie Word. Ten przewodnik przeprowadzi Cię przez proces dostępu do zakładek w dokumencie Word przy użyciu Aspose.Words dla .NET. Więc zanurzmy się i rozruszajmy Cię!
 
 ## Wymagania wstępne
 
 Zanim przejdziemy do szczegółowego przewodnika, jest kilka rzeczy, których będziesz potrzebować:
 
--  Aspose.Words dla .NET: Pobierz i zainstaluj z[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Pobierz i zainstaluj z [Tutaj](https://releases.aspose.com/words/net/).
 - .NET Framework: Upewnij się, że jest zainstalowany na komputerze, na którym rozwijasz oprogramowanie.
 - Podstawowa znajomość języka C#: W tym samouczku zakładamy, że posiadasz podstawową wiedzę na temat programowania w języku C#.
 - Dokument Word: Upewnij się, że masz dokument Word z zakładkami, aby przeprowadzić test.
@@ -47,11 +49,11 @@ Document doc = new Document(dataDir + "Bookmarks.docx");
 
 Wyjaśnienie:
 - `dataDir`: Ta zmienna powinna zawierać ścieżkę do katalogu dokumentów.
-- `Document doc = new Document(dataDir + "Bookmarks.docx");` :Ten wiersz ładuje dokument Word o nazwie „Zakładki.docx” do`doc` obiekt.
+- `Document doc = new Document(dataDir + "Bookmarks.docx");`:Ten wiersz ładuje dokument Word o nazwie „Zakładki.docx” do `doc` obiekt.
 
 ## Krok 2: Dostęp do zakładek według indeksu
 
- Możesz uzyskać dostęp do zakładek w dokumencie Worda poprzez ich indeks. Zakładki są przechowywane w`Bookmarks` kolekcja`Range` obiekt w`Document`.
+Możesz uzyskać dostęp do zakładek w dokumencie Worda poprzez ich indeks. Zakładki są przechowywane w `Bookmarks` kolekcja `Range` obiekt w `Document`.
 
 ```csharp
 // Dostęp do pierwszej zakładki poprzez indeks.
@@ -60,7 +62,7 @@ Bookmark bookmark1 = doc.Range.Bookmarks[0];
 
 Wyjaśnienie:
 - `doc.Range.Bookmarks[0]`:Oto dostęp do pierwszej zakładki w dokumencie.
-- `Bookmark bookmark1 = doc.Range.Bookmarks[0];` :Zapisuje dostępną zakładkę w`bookmark1` zmienny.
+- `Bookmark bookmark1 = doc.Range.Bookmarks[0];`:Zapisuje dostępną zakładkę w `bookmark1` zmienny.
 
 ## Krok 3: Dostęp do zakładki według nazwy
 
@@ -73,7 +75,7 @@ Bookmark bookmark2 = doc.Range.Bookmarks["MyBookmark3"];
 
 Wyjaśnienie:
 - `doc.Range.Bookmarks["MyBookmark3"]`:Uzyskuje dostęp do zakładki o nazwie „MyBookmark3”.
-- `Bookmark bookmark2 = doc.Range.Bookmarks["MyBookmark3"];` :Zapisuje dostępną zakładkę w`bookmark2` zmienny.
+- `Bookmark bookmark2 = doc.Range.Bookmarks["MyBookmark3"];`:Zapisuje dostępną zakładkę w `bookmark2` zmienny.
 
 ## Krok 4: Manipuluj zawartością zakładki
 
@@ -100,9 +102,9 @@ builder.EndBookmark("NewBookmark");
 ```
 
 Wyjaśnienie:
-- `DocumentBuilder builder = new DocumentBuilder(doc);` :To inicjuje`DocumentBuilder` obiekt z załadowanym dokumentem.
+- `DocumentBuilder builder = new DocumentBuilder(doc);`:To inicjuje `DocumentBuilder` obiekt z załadowanym dokumentem.
 - `builder.StartBookmark("NewBookmark");`:Otworzy nową zakładkę o nazwie „NowaZakładka”.
-- `builder.Write("This is a new bookmark.");`:To pisze tekst „To jest nowa zakładka.” wewnątrz zakładki.
+- `builder.Write("This is a new bookmark.");`: W zakładce pojawia się tekst „To jest nowa zakładka”.
 - `builder.EndBookmark("NewBookmark");`:To kończy zakładkę o nazwie „NowaZakładka”.
 
 ## Krok 6: Zapisz dokument
@@ -130,17 +132,22 @@ Zakładka w dokumencie programu Word to symbol zastępczy oznaczający określon
 Tak, ale będziesz musiał podać hasło podczas ładowania dokumentu za pomocą Aspose.Words.
 
 ### Jak mogę wyświetlić wszystkie zakładki w dokumencie?
- Możesz iterować przez`Bookmarks` kolekcja w`Range` obiekt`Document`.
+Możesz iterować przez `Bookmarks` kolekcja w `Range` obiekt `Document`.
 
 ### Czy mogę usunąć zakładkę używając Aspose.Words dla .NET?
- Tak, możesz usunąć zakładkę dzwoniąc pod numer`Remove` metodę na obiekcie zakładki.
+Tak, możesz usunąć zakładkę dzwoniąc pod numer `Remove` metodę na obiekcie zakładki.
 
 ### Czy Aspose.Words dla .NET jest kompatybilny z .NET Core?
 Tak, Aspose.Words dla .NET jest kompatybilny z .NET Core.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

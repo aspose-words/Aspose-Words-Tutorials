@@ -1,14 +1,16 @@
 ---
-title: Pobierz style dokumentów w programie Word
-linktitle: Pobierz style dokumentów w programie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak uzyskać style dokumentów w programie Word za pomocą Aspose.Words dla .NET dzięki temu szczegółowemu samouczkowi krok po kroku. Uzyskaj dostęp i zarządzaj stylami programowo w swoich aplikacjach .NET.
-weight: 10
-url: /pl/net/programming-with-styles-and-themes/access-styles/
+"description": "Dowiedz się, jak uzyskać style dokumentów w programie Word za pomocą Aspose.Words dla .NET dzięki temu szczegółowemu samouczkowi krok po kroku. Uzyskaj dostęp i zarządzaj stylami programowo w swoich aplikacjach .NET."
+"linktitle": "Pobierz style dokumentów w programie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Pobierz style dokumentów w programie Word"
+"url": "/pl/net/programming-with-styles-and-themes/access-styles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz style dokumentów w programie Word
@@ -21,13 +23,13 @@ Czy jesteś gotowy, aby zanurzyć się w świecie stylów dokumentów w programi
 
 Zanim przejdziemy dalej, upewnij się, że masz następujące rzeczy:
 
-1.  Aspose.Words dla .NET: Musisz mieć zainstalowaną tę bibliotekę w swoim środowisku .NET. Możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Musisz mieć zainstalowaną tę bibliotekę w swoim środowisku .NET. Możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. Podstawowa znajomość platformy .NET: Znajomość języka C# lub innego języka platformy .NET pomoże Ci zrozumieć udostępnione fragmenty kodu.
 3. Środowisko programistyczne: upewnij się, że masz środowisko IDE, np. Visual Studio, skonfigurowane do pisania i wykonywania kodu .NET.
 
 ## Importuj przestrzenie nazw
 
-Aby rozpocząć pracę z Aspose.Words, musisz zaimportować niezbędne przestrzenie nazw. Dzięki temu Twój kod będzie mógł rozpoznać i wykorzystać klasy i metody Aspose.Words.
+Aby rozpocząć pracę z Aspose.Words, musisz zaimportować niezbędne przestrzenie nazw. Dzięki temu Twój kod będzie mógł rozpoznawać i wykorzystywać klasy i metody Aspose.Words.
 
 ```csharp
 using Aspose.Words;
@@ -36,13 +38,13 @@ using System;
 
 ## Krok 1: Utwórz nowy dokument
 
-Najpierw musisz utworzyć instancję`Document` class. Ta klasa reprezentuje Twój dokument Word i zapewnia dostęp do różnych właściwości dokumentu, w tym stylów.
+Najpierw musisz utworzyć instancję `Document` class. Ta klasa reprezentuje Twój dokument Word i zapewnia dostęp do różnych właściwości dokumentu, w tym stylów.
 
 ```csharp
 Document doc = new Document();
 ```
 
- Tutaj,`Document` jest klasą udostępnianą przez Aspose.Words, która umożliwia programową pracę z dokumentami Word.
+Tutaj, `Document` jest klasą udostępnianą przez Aspose.Words, która umożliwia programową pracę z dokumentami Word.
 
 ## Krok 2: Uzyskaj dostęp do kolekcji stylów
 
@@ -52,7 +54,7 @@ Gdy masz obiekt dokumentu, możesz uzyskać dostęp do jego kolekcji stylów. Ta
 StyleCollection styles = doc.Styles;
 ```
 
-`StyleCollection` jest zbiorem`Style` obiekty. Każdy`Style` obiekt reprezentuje pojedynczy styl w dokumencie.
+`StyleCollection` jest zbiorem `Style` obiekty. Każdy `Style` obiekt reprezentuje pojedynczy styl w dokumencie.
 
 ## Krok 3: Przejrzyj style
 
@@ -78,9 +80,9 @@ foreach (Style style in styles)
 
 Oto opis działania tego kodu:
 
--  Zainicjuj`styleName`:Zaczynamy od pustego ciągu znaków, aby zbudować listę nazw stylów.
--  Przejrzyj style:`foreach` pętla iteruje po każdym`Style` w`styles` kolekcja.
-- Aktualizuj i wyświetlaj`styleName` :Do każdego stylu dodajemy jego nazwę`styleName` i wydrukuj.
+- Zainicjuj `styleName`:Zaczynamy od pustego ciągu znaków, aby zbudować listę nazw stylów.
+- Przejrzyj style: `foreach` pętla iteruje po każdym `Style` w `styles` kolekcja.
+- Aktualizuj i wyświetlaj `styleName`:Do każdego stylu dodajemy jego nazwę `styleName` i wydrukuj.
 
 ## Krok 4: Dostosowywanie wyników
 
@@ -100,7 +102,7 @@ foreach (Style style in styles)
 }
 ```
 
- W tym przykładzie rozróżniamy style wbudowane i niestandardowe, sprawdzając`IsBuiltin` nieruchomość.
+W tym przykładzie rozróżniamy style wbudowane i niestandardowe, sprawdzając `IsBuiltin` nieruchomość.
 
 ## Wniosek
 
@@ -118,13 +120,18 @@ Nie, Aspose.Words jest samodzielną biblioteką i nie wymaga dodatkowych bibliot
 Tak, możesz uzyskiwać dostęp do stylów i manipulować nimi zarówno w istniejących dokumentach, jak i w nowo tworzonych.
 
 ### Jak mogę filtrować style, aby wyświetlać tylko określone typy?
- Możesz filtrować style, sprawdzając właściwości takie jak:`IsBuiltin` lub stosując niestandardową logikę bazującą na atrybutach stylu.
+Możesz filtrować style, sprawdzając właściwości takie jak: `IsBuiltin` lub stosując niestandardową logikę bazującą na atrybutach stylu.
 
 ### Gdzie mogę znaleźć więcej materiałów na temat Aspose.Words dla .NET?
- Możesz odkryć więcej[Tutaj](https://reference.aspose.com/words/net/).
+Możesz odkryć więcej [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

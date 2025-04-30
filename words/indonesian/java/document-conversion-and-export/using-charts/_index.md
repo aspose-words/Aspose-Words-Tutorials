@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Bagan di Aspose.Words untuk Java
-linktitle: Menggunakan Grafik
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara membuat dan menyesuaikan bagan di Aspose.Words untuk Java. Jelajahi jenis bagan, pemformatan, dan properti sumbu untuk visualisasi data.
-weight: 12
-url: /id/java/document-conversion-and-export/using-charts/
+"description": "Pelajari cara membuat dan menyesuaikan bagan di Aspose.Words untuk Java. Jelajahi jenis bagan, pemformatan, dan properti sumbu untuk visualisasi data."
+"linktitle": "Menggunakan Grafik"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Bagan di Aspose.Words untuk Java"
+"url": "/id/java/document-conversion-and-export/using-charts/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Bagan di Aspose.Words untuk Java
@@ -88,7 +90,7 @@ ChartAxis yAxis = chart.getAxisY();
 // Ubah sumbu X menjadi kategori, bukan tanggal.
 xAxis.setCategoryType(AxisCategoryType.CATEGORY);
 xAxis.setCrosses(AxisCrosses.CUSTOM);
-xAxis.setCrossesAt(3.0); //Diukur dalam satuan tampilan sumbu Y (ratusan).
+xAxis.setCrossesAt(3.0); // Diukur dalam satuan tampilan sumbu Y (ratusan).
 xAxis.setReverseOrder(true);
 xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
@@ -133,26 +135,31 @@ Dalam tutorial ini, kami telah mempelajari cara bekerja dengan bagan menggunakan
 
 ### Bagaimana cara menambahkan beberapa seri ke bagan?
 
- Anda dapat menambahkan beberapa seri ke bagan menggunakan`chart.getSeries().add()` metode. Pastikan untuk menentukan nama seri, kategori, dan nilai data.
+Anda dapat menambahkan beberapa seri ke bagan menggunakan `chart.getSeries().add()` metode. Pastikan untuk menentukan nama seri, kategori, dan nilai data.
 
 ### Bagaimana cara memformat label data dengan format angka khusus?
 
-Anda dapat memformat label data dengan mengakses`DataLabels` properti seri dan pengaturan kode format yang diinginkan menggunakan`getNumberFormat().setFormatCode()`.
+Anda dapat memformat label data dengan mengakses `DataLabels` properti seri dan pengaturan kode format yang diinginkan menggunakan `getNumberFormat().setFormatCode()`.
 
 ### Bagaimana cara menyesuaikan properti sumbu dalam bagan?
 
- Anda dapat menyesuaikan properti sumbu seperti jenis, tanda centang, label, dan lainnya dengan mengakses`ChartAxis` properti seperti`setCategoryType()`, `setCrosses()` , Dan`setMajorTickMark()`.
+Anda dapat menyesuaikan properti sumbu seperti jenis, tanda centang, label, dan lainnya dengan mengakses `ChartAxis` properti seperti `setCategoryType()`Bahasa Indonesia: `setCrosses()`, Dan `setMajorTickMark()`.
 
 ### Bagaimana cara membuat jenis grafik lain seperti grafik sebar atau area?
 
- Anda dapat membuat berbagai jenis grafik dengan menentukan jenis yang sesuai`ChartType` saat memasukkan grafik menggunakan`builder.insertChart(ChartType.TYPE, width, height)`.
+Anda dapat membuat berbagai jenis grafik dengan menentukan jenis yang sesuai `ChartType` saat memasukkan grafik menggunakan `builder.insertChart(ChartType.TYPE, width, height)`.
 
 ### Bagaimana cara menyembunyikan sumbu grafik?
 
- Anda dapat menyembunyikan sumbu grafik dengan mengatur`setHidden(true)` properti sumbu.
+Anda dapat menyembunyikan sumbu grafik dengan mengatur `setHidden(true)` properti sumbu.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

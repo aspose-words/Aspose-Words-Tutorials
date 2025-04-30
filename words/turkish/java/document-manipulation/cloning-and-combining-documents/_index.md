@@ -1,26 +1,28 @@
 ---
-title: Java için Aspose.Words'de Belgeleri Klonlama ve Birleştirme
-linktitle: Belgeleri Klonlama ve Birleştirme
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java'da belgeleri nasıl klonlayacağınızı ve birleştireceğinizi öğrenin. Kaynak kod örnekleriyle adım adım kılavuz.
-weight: 27
-url: /tr/java/document-manipulation/cloning-and-combining-documents/
+"description": "Aspose.Words for Java'da belgeleri nasıl klonlayacağınızı ve birleştireceğinizi öğrenin. Kaynak kod örnekleriyle adım adım kılavuz."
+"linktitle": "Belgeleri Klonlama ve Birleştirme"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Belgeleri Klonlama ve Birleştirme"
+"url": "/tr/java/document-manipulation/cloning-and-combining-documents/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Belgeleri Klonlama ve Birleştirme
 
 
-## Aspose.Words for Java'da Belgeleri Klonlama ve Birleştirmeye Giriş
+## Java için Aspose.Words'de Belgeleri Klonlama ve Birleştirmeye Giriş
 
 Bu eğitimde, Java için Aspose.Words kullanarak belgelerin nasıl klonlanacağını ve birleştirileceğini inceleyeceğiz. Bir belgenin klonlanması, belgelerin değiştirme noktalarına, yer imlerine ve posta birleştirme işlemleri sırasında eklenmesi dahil olmak üzere çeşitli senaryoları ele alacağız.
 
 ## Adım 1: Bir Belgeyi Klonlama
 
- Aspose.Words for Java'da bir belgeyi klonlamak için şunu kullanabilirsiniz:`deepClone()` yöntem. İşte basit bir örnek:
+Java için Aspose.Words'de bir belgeyi klonlamak için şunu kullanabilirsiniz: `deepClone()` yöntem. İşte basit bir örnek:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -43,7 +45,7 @@ mainDoc.getRange().replace(Pattern.compile("\\[MY_DOCUMENT\\]"), "", options);
 mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtReplace.docx");
 ```
 
- Bu örnekte, şunu kullanıyoruz:`FindReplaceOptions` değiştirme için bir geri arama işleyicisi belirtmek için nesne.`InsertDocumentAtReplaceHandler` sınıf, ekleme mantığını yönetir.
+Bu örnekte, şunu kullanıyoruz: `FindReplaceOptions` değiştirme için bir geri arama işleyicisi belirtmek için nesne. `InsertDocumentAtReplaceHandler` sınıf, ekleme mantığını yönetir.
 
 ## Adım 3: Belgeleri Yer İşaretlerine Ekleme
 
@@ -57,7 +59,7 @@ insertDocument(bookmark.getBookmarkStart().getParentNode(), subDoc);
 mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtBookmark.docx");
 ```
 
- Burada, yer imini adına göre buluyoruz ve`insertDocument` içeriğini ekleme yöntemi`subDoc` yer imi konumunda belge.
+Burada, yer imini adına göre buluyoruz ve `insertDocument` içeriğini ekleme yöntemi `subDoc` yer imi konumunda belge.
 
 ## Adım 4: Posta Birleştirme Sırasında Belgeleri Ekleme
 
@@ -70,7 +72,7 @@ mainDoc.getMailMerge().execute(new String[] { "Document_1" }, new Object[] { "Yo
 mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtMailMerge.doc");
 ```
 
- Bu örnekte, şunu kullanarak bir alan birleştirme geri araması ayarlıyoruz:`InsertDocumentAtMailMergeHandler` "Document_1" alanıyla belirtilen belgenin eklenmesini işleyen sınıf.
+Bu örnekte, şunu kullanarak bir alan birleştirme geri araması ayarlıyoruz: `InsertDocumentAtMailMergeHandler` "Document_1" alanıyla belirtilen belgenin eklenmesini işleyen sınıf.
 
 ## Çözüm
 
@@ -80,7 +82,7 @@ Aspose.Words for Java'da belgeleri klonlama ve birleştirme çeşitli teknikler 
 
 ### Aspose.Words for Java'da bir belgeyi nasıl klonlarım?
 
- Java için Aspose.Words'de bir belgeyi klonlamak için şunu kullanabilirsiniz:`deepClone()` yöntem. İşte bir örnek:
+Java için Aspose.Words'de bir belgeyi klonlamak için şunu kullanabilirsiniz: `deepClone()` yöntem. İşte bir örnek:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -90,7 +92,7 @@ clone.save("Your Directory Path" + "ClonedDocument.docx");
 
 ### Bir belgeyi yer imlerine nasıl ekleyebilirim?
 
- Aspose.Words for Java'da bir yer imine belge eklemek için, yer imini adına göre bulabilir ve ardından`insertDocument` İçeriği ekleme yöntemi. İşte bir örnek:
+Aspose.Words for Java'da bir yer imine belge eklemek için, yer imini adına göre bulabilir ve ardından `insertDocument` İçeriği ekleme yöntemi. İşte bir örnek:
 
 ```java
 Document mainDoc = new Document("Your Directory Path" + "MainDocument.docx");
@@ -111,10 +113,15 @@ mainDoc.getMailMerge().execute(new String[] { "DocumentField" }, new Object[] { 
 mainDoc.save("Your Directory Path" + "MergedDocument.docx");
 ```
 
- Bu örnekte,`InsertDocumentAtMailMergeHandler`sınıf, posta birleştirme sırasında "DocumentField" için ekleme mantığını yönetir.
+Bu örnekte, `InsertDocumentAtMailMergeHandler` sınıf, posta birleştirme sırasında "DocumentField" için ekleme mantığını yönetir.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

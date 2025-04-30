@@ -1,14 +1,16 @@
 ---
-title: Membuat Tabel Sederhana
-linktitle: Membuat Tabel Sederhana
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat tabel sederhana dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami yang komprehensif.
-weight: 10
-url: /id/net/programming-with-tables/create-simple-table/
+"description": "Pelajari cara membuat tabel sederhana dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami yang komprehensif."
+"linktitle": "Membuat Tabel Sederhana"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Membuat Tabel Sederhana"
+"url": "/id/net/programming-with-tables/create-simple-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat Tabel Sederhana
@@ -21,7 +23,7 @@ Bekerja dengan dokumen secara terprogram bisa jadi sedikit menakutkan jika Anda 
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
-1.  Aspose.Words untuk .NET: Anda perlu mengunduh dan menginstal Aspose.Words untuk .NET. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda perlu mengunduh dan menginstal Aspose.Words untuk .NET. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Instalasi Visual Studio atau IDE lain yang mendukung pengembangan .NET.
 3. Pemahaman Dasar tentang C#: Keakraban dengan pemrograman C# akan bermanfaat karena kita akan menggunakannya sebagai contoh kita.
 
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Langkah 2: Inisialisasi Dokumen dan DocumentBuilder
 
- Selanjutnya, kita inisialisasikan instance baru dari`Document` kelas. Contoh ini mewakili dokumen Word kita. Kita juga membuat contoh dari`DocumentBuilder` kelas, yang akan membantu kita membangun konten dokumen.
+Selanjutnya, kita inisialisasikan instance baru dari `Document` kelas. Contoh ini mewakili dokumen Word kita. Kita juga membuat contoh dari `DocumentBuilder` kelas, yang akan membantu kita membangun konten dokumen.
 
 ```csharp
 Document doc = new Document();
@@ -55,7 +57,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Langkah 3: Mulai Membangun Tabel
 
- Untuk memulai membangun tabel kita, kita memanggil`StartTable` metode pada`DocumentBuilder`contoh. Metode ini menginisialisasi tabel baru dalam dokumen.
+Untuk memulai membangun tabel kita, kita memanggil `StartTable` metode pada `DocumentBuilder` contoh. Metode ini menginisialisasi tabel baru dalam dokumen.
 
 ```csharp
 builder.StartTable();
@@ -63,7 +65,7 @@ builder.StartTable();
 
 ## Langkah 4: Masukkan Sel Pertama dan Tambahkan Konten
 
- Sekarang, kita masukkan sel pertama ke dalam tabel dan tambahkan beberapa konten ke dalamnya. Kita menggunakan`InsertCell` metode untuk memasukkan sel baru dan`Write` metode untuk menambahkan teks ke sel.
+Sekarang, kita masukkan sel pertama ke dalam tabel dan tambahkan beberapa konten ke dalamnya. Kita menggunakan `InsertCell` metode untuk memasukkan sel baru dan `Write` metode untuk menambahkan teks ke sel.
 
 ```csharp
 builder.InsertCell();
@@ -81,7 +83,7 @@ builder.Write("Row 1, Cell 2 Content.");
 
 ## Langkah 6: Akhiri Baris Pertama
 
- Untuk menunjukkan bahwa kita telah selesai membangun baris pertama, kita memanggil`EndRow` metode. Metode ini juga memulai baris baru.
+Untuk menunjukkan bahwa kita telah selesai membangun baris pertama, kita memanggil `EndRow` metode. Metode ini juga memulai baris baru.
 
 ```csharp
 builder.EndRow();
@@ -103,7 +105,7 @@ builder.EndRow();
 
 ## Langkah 8: Selesaikan Pembuatan Tabel
 
- Setelah semua baris dan sel dimasukkan, kita memanggil`EndTable` metode untuk memberi sinyal bahwa kita telah selesai membuat tabel.
+Setelah semua baris dan sel dimasukkan, kita memanggil `EndTable` metode untuk memberi sinyal bahwa kita telah selesai membuat tabel.
 
 ```csharp
 builder.EndTable();
@@ -111,7 +113,7 @@ builder.EndTable();
 
 ## Langkah 9: Simpan Dokumen
 
- Terakhir, kami menyimpan dokumen ke direktori yang ditentukan menggunakan`Save` metode.
+Terakhir, kami menyimpan dokumen ke direktori yang ditentukan menggunakan `Save` metode.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTables.CreateSimpleTable.docx");
@@ -130,16 +132,21 @@ Aspose.Words untuk .NET adalah pustaka manipulasi dokumen canggih yang memungkin
 Ya, Aspose.Words untuk .NET mendukung berbagai bahasa pemrograman yang berjalan pada kerangka .NET, termasuk VB.NET dan C#.
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Words untuk .NET?
- Ya, Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh uji coba gratis dari [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Words untuk .NET?
- Anda bisa mendapatkan dukungan dengan mengunjungi Aspose.Words[forum dukungan](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dengan mengunjungi Aspose.Words [forum dukungan](https://forum.aspose.com/c/words/8).
 
 ### Di mana saya dapat menemukan dokumentasi yang lebih rinci untuk Aspose.Words untuk .NET?
- Dokumentasi terperinci dapat ditemukan[Di Sini](https://reference.aspose.com/words/net/).
+Dokumentasi terperinci dapat ditemukan [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

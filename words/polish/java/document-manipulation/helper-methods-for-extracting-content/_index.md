@@ -1,26 +1,28 @@
 ---
-title: Metody pomocnicze do wyodrębniania zawartości w Aspose.Words dla Java
-linktitle: Metody pomocnicze do wyodrębniania treści
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak wydajnie wyodrębniać zawartość z dokumentów Word za pomocą Aspose.Words for Java. Poznaj metody pomocnicze, niestandardowe formatowanie i wiele więcej w tym kompleksowym przewodniku.
-weight: 14
-url: /pl/java/document-manipulation/helper-methods-for-extracting-content/
+"description": "Dowiedz się, jak wydajnie wyodrębniać zawartość z dokumentów Word za pomocą Aspose.Words for Java. Poznaj metody pomocnicze, niestandardowe formatowanie i wiele więcej w tym kompleksowym przewodniku."
+"linktitle": "Metody pomocnicze do wyodrębniania treści"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Metody pomocnicze do wyodrębniania zawartości w Aspose.Words dla Java"
+"url": "/pl/java/document-manipulation/helper-methods-for-extracting-content/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Metody pomocnicze do wyodrębniania zawartości w Aspose.Words dla Java
 
 
-## Wprowadzenie do metod pomocniczych do wyodrębniania zawartości w Aspose.Words dla Java
+## Wprowadzenie do metod pomocniczych do wyodrębniania zawartości w Aspose.Words dla języka Java
 
 Aspose.Words for Java to potężna biblioteka, która pozwala programistom programowo pracować z dokumentami Word. Jednym z typowych zadań podczas pracy z dokumentami Word jest wyodrębnianie z nich treści. W tym artykule przyjrzymy się kilku metodom pomocniczym do wydajnego wyodrębniania treści przy użyciu Aspose.Words for Java.
 
 ## Wymagania wstępne
 
-Zanim przejdziemy do przykładów kodu, upewnij się, że masz zainstalowany i skonfigurowany Aspose.Words for Java w swoim projekcie Java. Możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/words/java/).
+Zanim przejdziemy do przykładów kodu, upewnij się, że masz zainstalowany i skonfigurowany Aspose.Words for Java w swoim projekcie Java. Możesz go pobrać ze strony [Tutaj](https://releases.aspose.com/words/java/).
 
 ## Metoda pomocnicza 1: Wyodrębnianie akapitów według stylu
 
@@ -30,7 +32,7 @@ public static ArrayList<Paragraph> paragraphsByStyleName(Document doc, String st
     ArrayList<Paragraph> paragraphsWithStyle = new ArrayList<Paragraph>();
     NodeCollection paragraphs = doc.getChildNodes(NodeType.PARAGRAPH, true);
 
-    // Przejrzyj wszystkie akapity, aby znaleźć te, które spełniają określony styl.
+    // Przejrzyj wszystkie akapity, aby znaleźć te, które odpowiadają określonemu stylowi.
     for (Paragraph paragraph : (Iterable<Paragraph>) paragraphs) {
         if (paragraph.getParagraphFormat().getStyle().getName().equals(styleName))
             paragraphsWithStyle.add(paragraph);
@@ -48,7 +50,7 @@ public static ArrayList<Node> extractContentBetweenNodes(Node startNode, Node en
     // Najpierw sprawdź, czy węzły przekazane tej metodzie nadają się do użycia.
     verifyParameterNodes(startNode, endNode);
     
-    // Utwórz listę do przechowywania wyodrębnionych węzłów.
+    // Utwórz listę, na której będą przechowywane wyodrębnione węzły.
     ArrayList<Node> nodes = new ArrayList<Node>();
 
     // Jeśli którykolwiek ze znaczników jest częścią komentarza, łącznie z samym komentarzem, musimy przesunąć wskaźnik
@@ -63,7 +65,7 @@ public static ArrayList<Node> extractContentBetweenNodes(Node startNode, Node en
     Node originalStartNode = startNode;
     Node originalEndNode = endNode;
 
-    //Wyodrębnij zawartość na podstawie węzłów na poziomie bloku (akapity i tabele). Przejdź przez węzły nadrzędne, aby je znaleźć.
+    // Wyodrębnij zawartość na podstawie węzłów na poziomie bloku (akapity i tabele). Przejdź przez węzły nadrzędne, aby je znaleźć.
     // Podzielimy zawartość pierwszego i ostatniego węzła w zależności od tego, czy węzły znaczników są inline.
     startNode = getAncestorInBody(startNode);
     endNode = getAncestorInBody(endNode);
@@ -89,7 +91,7 @@ public static ArrayList<Node> extractContentBetweenNodes(Node startNode, Node en
                         false, !isStartingNode, false);
                 isExtracting = false;
             }
-            //Warunki muszą być oddzielne, ponieważ znaczniki początku i końca bloku mogą znajdować się w tym samym węźle.
+            // Warunki muszą być oddzielne, ponieważ znaczniki początku i końca bloku mogą znajdować się w tym samym węźle.
             if (isStartingNode) {
                 processMarker(cloneNode, nodes, originalStartNode, currNode, isInclusive,
                         true, true, false);
@@ -146,13 +148,13 @@ Ta metoda pozwala na wygenerowanie nowego dokumentu poprzez zaimportowanie listy
 
 ## Wniosek
 
-Ekstrakcja treści z dokumentów Word może być kluczową częścią wielu zadań przetwarzania dokumentów. Aspose.Words for Java zapewnia potężne metody pomocnicze, które upraszczają ten proces. Niezależnie od tego, czy musisz wyodrębnić akapity według stylu, treści między węzłami, czy wygenerować nowe dokumenty, te metody pomogą Ci wydajnie pracować z dokumentami Word w aplikacjach Java.
+Wyodrębnianie treści z dokumentów Word może być kluczową częścią wielu zadań przetwarzania dokumentów. Aspose.Words for Java zapewnia potężne metody pomocnicze, które upraszczają ten proces. Niezależnie od tego, czy musisz wyodrębnić akapity według stylu, treści między węzłami, czy wygenerować nowe dokumenty, te metody pomogą Ci wydajnie pracować z dokumentami Word w aplikacjach Java.
 
 ## Najczęściej zadawane pytania
 
 ### Jak zainstalować Aspose.Words dla Java?
 
- Aby zainstalować Aspose.Words dla Javy, możesz pobrać go ze strony internetowej Aspose. Odwiedź[Tutaj](https://releases.aspose.com/words/java/) aby pobrać najnowszą wersję.
+Aby zainstalować Aspose.Words dla Javy, możesz pobrać go ze strony internetowej Aspose. Odwiedź [Tutaj](https://releases.aspose.com/words/java/) aby pobrać najnowszą wersję.
 
 ### Czy mogę wyodrębnić treść z określonych sekcji dokumentu Word?
 
@@ -168,10 +170,15 @@ Tak, możesz dostosować formatowanie wyodrębnionej zawartości, modyfikując i
 
 ### Gdzie mogę znaleźć więcej dokumentacji i przykładów dla Aspose.Words dla Java?
 
- Pełną dokumentację i przykłady dla Aspose.Words dla Java można znaleźć na stronie internetowej Aspose. Odwiedź[https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) aby uzyskać szczegółową dokumentację i zasoby.
+Pełną dokumentację i przykłady dla Aspose.Words dla Java można znaleźć na stronie internetowej Aspose. Odwiedź [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) aby uzyskać szczegółową dokumentację i zasoby.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

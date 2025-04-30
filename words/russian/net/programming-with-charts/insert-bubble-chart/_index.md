@@ -1,14 +1,16 @@
 ---
-title: Вставить пузырьковую диаграмму в документ Word
-linktitle: Вставить пузырьковую диаграмму в документ Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставить пузырьковую диаграмму в документ Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Улучшите свои документы.
-weight: 10
-url: /ru/net/programming-with-charts/insert-bubble-chart/
+"description": "Узнайте, как вставить пузырьковую диаграмму в документ Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Улучшите свои документы."
+"linktitle": "Вставить пузырьковую диаграмму в документ Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить пузырьковую диаграмму в документ Word"
+"url": "/ru/net/programming-with-charts/insert-bubble-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить пузырьковую диаграмму в документ Word
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-charts/insert-bubble-chart/
 
 Прежде чем начать, давайте убедимся, что у вас есть все необходимое:
 
-- Aspose.Words for .NET: Если вы еще этого не сделали, вам нужно загрузить и установить Aspose.Words for .NET. Вы можете взять его с[страница загрузки](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Если вы еще этого не сделали, вам нужно загрузить и установить Aspose.Words for .NET. Вы можете взять его с [страница загрузки](https://releases.aspose.com/words/net/).
 - Среда разработки: у вас должна быть настроена среда разработки, в которой вы можете писать и выполнять код .NET. Visual Studio — популярный выбор.
 - Базовые знания C#: Хотя это руководство рассчитано на новичков, базовые знания C# помогут вам легче усвоить материал.
 
@@ -42,7 +44,7 @@ using Aspose.Words.Drawing.Charts;
 Прежде чем приступить к созданию диаграммы, нам необходимо определить путь к каталогу, в котором будет сохранен наш документ. Это гарантирует, что наш документ будет сохранен в правильном месте.
 
 ```csharp
-// Путь к каталогу ваших документов
+// Путь к каталогу ваших документов 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -64,7 +66,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Шаг 4: Вставьте пузырьковую диаграмму
 
- Теперь самое интересное - вставка пузырьковой диаграммы. Мы используем`InsertChart` метод добавления диаграммы типа`Bubble` к нашему документу.
+Теперь самое интересное - вставка пузырьковой диаграммы. Мы используем `InsertChart` метод добавления диаграммы типа `Bubble` к нашему документу.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Bubble, 432, 252);
@@ -79,9 +81,9 @@ Chart chart = shape.Chart;
 chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[] { 2.7, 3.2, 0.8 }, new double[] { 10, 4, 8 });
 ```
 
-## Шаг 6: Сохраните документ
+## Шаг 6: Сохраните документ.
 
-Наконец, сохраняем наш документ с пузырьковой диаграммой в указанную директорию. На этом процесс завершается.
+Наконец, сохраняем наш документ с пузырьковой диаграммой в указанный каталог. На этом процесс завершается.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithCharts.InsertBubbleChart.docx");
@@ -95,7 +97,7 @@ doc.Save(dataDir + "WorkingWithCharts.InsertBubbleChart.docx");
 
 ### Могу ли я настроить внешний вид пузырьковой диаграммы?
 
- Конечно! Aspose.Words для .NET предлагает широкий спектр возможностей настройки: от цветов и меток до форматирования рядов данных. Ознакомьтесь с[документация](https://reference.aspose.com/words/net/) для более подробной информации.
+Конечно! Aspose.Words для .NET предлагает широкий спектр возможностей настройки: от цветов и меток до форматирования рядов данных. Ознакомьтесь с [документация](https://reference.aspose.com/words/net/) для более подробной информации.
 
 ### Можно ли добавить несколько диаграмм в один документ?
 
@@ -107,14 +109,19 @@ doc.Save(dataDir + "WorkingWithCharts.InsertBubbleChart.docx");
 
 ### Как получить бесплатную пробную версию Aspose.Words для .NET?
 
- Вы можете получить бесплатную пробную версию[веб-сайт](https://releases.aspose.com/). Это позволяет вам протестировать функции перед покупкой.
+Вы можете получить бесплатную пробную версию [веб-сайт](https://releases.aspose.com/). Это позволяет вам протестировать функции перед покупкой.
 
 ### Где я могу найти больше учебных пособий и поддержки по Aspose.Words для .NET?
 
- Для получения дополнительных руководств и поддержки посетите[Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8).
+Для получения дополнительных руководств и поддержки посетите [Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Tham gia trang mới
-linktitle: Tham gia trang mới
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách nối và thêm tài liệu trong Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để hợp nhất tài liệu hiệu quả.
-weight: 10
-url: /vi/net/join-and-append-documents/join-new-page/
+"description": "Tìm hiểu cách nối và thêm tài liệu trong Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để hợp nhất tài liệu hiệu quả."
+"linktitle": "Tham gia trang mới"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tham gia trang mới"
+"url": "/vi/net/join-and-append-documents/join-new-page/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tham gia trang mới
@@ -21,7 +23,7 @@ Khi làm việc với các tài liệu lớn hoặc hợp nhất nhiều tài li
 
 Trước khi bắt đầu hướng dẫn này, hãy đảm bảo bạn có những điều sau:
 - Đã cài đặt Visual Studio trên máy của bạn.
--  Aspose.Words cho thư viện .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho thư viện .NET. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 - Kiến thức cơ bản về lập trình C# và môi trường .NET.
 
 ## Nhập không gian tên
@@ -42,7 +44,7 @@ Bắt đầu bằng cách tạo một ứng dụng bảng điều khiển C# m�
 ## Bước 2: Tải tài liệu nguồn và đích
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Tải tài liệu nguồn và đích
@@ -50,9 +52,9 @@ Document srcDoc = new Document(dataDir + "Document source.docx");
 Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tệp tài liệu của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tệp tài liệu của bạn.
 
-## Bước 3: Đặt Phần Bắt đầu thành Trang Mới
+## Bước 3: Đặt Phần Bắt đầu thành Trang mới
 
 Đặt phần bắt đầu của phần đầu tiên trong tài liệu nguồn để bắt đầu trên một trang mới:
 
@@ -79,7 +81,7 @@ Lưu tài liệu đích đã sửa đổi vào một tệp mới:
 dstDoc.Save(dataDir + "JoinAndAppendDocuments.JoinNewPage.docx");
 ```
 
-Thao tác này sẽ lưu tài liệu kết hợp với nội dung được thêm vào bắt đầu từ một trang mới.
+Thao tác này sẽ lưu tài liệu kết hợp với nội dung được thêm vào bắt đầu trên một trang mới.
 
 ## Phần kết luận
 
@@ -101,9 +103,14 @@ Aspose.Words hỗ trợ thêm macro và trường biểu mẫu vào tài liệu,
 
 ### Tôi có thể tự động hóa các tác vụ thêm tài liệu trong quy trình hàng loạt bằng Aspose.Words không?
 Aspose.Words for .NET cho phép bạn tự động hóa các tác vụ thêm tài liệu theo quy trình hàng loạt, nâng cao năng suất trong quản lý tài liệu.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

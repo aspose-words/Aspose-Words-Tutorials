@@ -1,14 +1,16 @@
 ---
-title: Merender Bentuk dan Grafik dalam Dokumen
-linktitle: Merender Bentuk dan Grafik dalam Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menyempurnakan dokumen Anda dengan bentuk dan grafik menggunakan Aspose.Words untuk Java. Ciptakan konten yang memukau secara visual dengan mudah.
-weight: 12
-url: /id/java/document-rendering/rendering-shapes-graphics/
+"description": "Pelajari cara menyempurnakan dokumen Anda dengan bentuk dan grafik menggunakan Aspose.Words untuk Java. Ciptakan konten yang memukau secara visual dengan mudah."
+"linktitle": "Merender Bentuk dan Grafik dalam Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Merender Bentuk dan Grafik dalam Dokumen"
+"url": "/id/java/document-rendering/rendering-shapes-graphics/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Merender Bentuk dan Grafik dalam Dokumen
@@ -144,7 +146,7 @@ Mempercantik dokumen Anda dengan bentuk dan grafik dapat meningkatkan daya tarik
 
 ### Bagaimana cara mengubah ukuran bentuk pada dokumen saya?
 
- Untuk mengubah ukuran bentuk, gunakan`setWidth` Dan`setHeight` metode pada objek bentuk. Misalnya, untuk membuat bentuk dengan lebar 150 piksel dan tinggi 75 piksel:
+Untuk mengubah ukuran bentuk, gunakan `setWidth` Dan `setHeight` metode pada objek bentuk. Misalnya, untuk membuat bentuk dengan lebar 150 piksel dan tinggi 75 piksel:
 
 ```java
 shape.setWidth(150);
@@ -166,14 +168,19 @@ shape.setFillColor(Color.GREEN);
 
 ### Bisakah saya menambahkan teks di dalam bentuk?
 
- Ya, Anda dapat menambahkan teks di dalam bentuk. Gunakan`getTextPath` properti bentuk untuk mengatur teks dan menyesuaikan formatnya.
+Ya, Anda dapat menambahkan teks di dalam bentuk. Gunakan `getTextPath` properti bentuk untuk mengatur teks dan menyesuaikan formatnya.
 
 ### Bagaimana saya dapat menyusun bentuk dalam urutan tertentu?
 
- Anda dapat mengontrol urutan bentuk menggunakan properti Z-order. Atur`ZOrder` properti suatu bentuk untuk menentukan posisinya dalam tumpukan bentuk. Nilai yang lebih rendah dikirim ke belakang, sedangkan nilai yang lebih tinggi dibawa ke depan.
+Anda dapat mengontrol urutan bentuk menggunakan properti Z-order. Atur `ZOrder` properti suatu bentuk untuk menentukan posisinya dalam tumpukan bentuk. Nilai yang lebih rendah dikirim ke belakang, sedangkan nilai yang lebih tinggi dibawa ke depan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

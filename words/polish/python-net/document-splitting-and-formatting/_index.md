@@ -1,14 +1,16 @@
 ---
-title: Dzielenie i formatowanie dokumentów
-linktitle: Dzielenie i formatowanie dokumentów
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Poznaj samouczki Aspose.Words dotyczące dzielenia i formatowania dokumentów w Pythonie i .NET. Naucz się dzielić i formatować dokumenty wydajnie, usprawniając zadania przetwarzania dokumentów.
-weight: 13
-url: /pl/python-net/document-splitting-and-formatting/
+"description": "Poznaj samouczki Aspose.Words dotyczące dzielenia i formatowania dokumentów w Pythonie i .NET. Naucz się dzielić i formatować dokumenty wydajnie, usprawniając zadania przetwarzania dokumentów."
+"linktitle": "Dzielenie i formatowanie dokumentów"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Dzielenie i formatowanie dokumentów"
+"url": "/pl/python-net/document-splitting-and-formatting/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dzielenie i formatowanie dokumentów
@@ -48,9 +50,13 @@ Dowiedz się, jak skutecznie łączyć i klonować dokumenty za pomocą Aspose.W
 Dowiedz się, jak skutecznie porównywać wersje dokumentów za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym do kontroli wersji. Ulepsz współpracę i zapobiegaj błędom.
 ### [Opanowanie technik formatowania dokumentów w celu uzyskania efektu wizualnego](./document-formatting-techniques/)
 Dowiedz się, jak opanować formatowanie dokumentów za pomocą Aspose.Words dla Pythona. Twórz atrakcyjne wizualnie dokumenty ze stylami czcionek, tabelami, obrazami i nie tylko. Przewodnik krok po kroku z przykładami kodu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

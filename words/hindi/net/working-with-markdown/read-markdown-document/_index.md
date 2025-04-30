@@ -1,14 +1,16 @@
 ---
-title: मार्कडाउन दस्तावेज़ पढ़ें
-linktitle: मार्कडाउन दस्तावेज़ पढ़ें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस विस्तृत, चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके मार्कडाउन दस्तावेज़ों को पढ़ना और उनमें हेरफेर करना सीखें। सभी स्तरों के डेवलपर्स के लिए बिल्कुल सही।
-weight: 10
-url: /hi/net/working-with-markdown/read-markdown-document/
+"description": "इस विस्तृत, चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके मार्कडाउन दस्तावेज़ों को पढ़ना और उनमें हेरफेर करना सीखें। सभी स्तरों के डेवलपर्स के लिए बिल्कुल सही।"
+"linktitle": "मार्कडाउन दस्तावेज़ पढ़ें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "मार्कडाउन दस्तावेज़ पढ़ें"
+"url": "/hi/net/working-with-markdown/read-markdown-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # मार्कडाउन दस्तावेज़ पढ़ें
@@ -19,10 +21,10 @@ url: /hi/net/working-with-markdown/read-markdown-document/
 
 ## आवश्यक शर्तें
 
-इससे पहले कि हम कुछ कोड के साथ अपना काम शुरू करें, कुछ चीजें हैं जिन्हें आपको ध्यान में रखना होगा:
+इससे पहले कि हम कुछ कोड के साथ अपने हाथ गंदे करें, कुछ चीजें हैं जिन्हें आपको व्यवस्थित करने की आवश्यकता होगी:
 
-1. Visual Studio स्थापित: सुनिश्चित करें कि आपके मशीन पर Visual Studio स्थापित है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://visualstudio.microsoft.com/downloads/).
-2.  Aspose.Words for .NET लाइब्रेरी: यदि आपने पहले से ऐसा नहीं किया है, तो Aspose.Words for .NET लाइब्रेरी को यहां से डाउनलोड करें[इस लिंक](https://releases.aspose.com/words/net/).
+1. Visual Studio स्थापित: सुनिश्चित करें कि आपके मशीन पर Visual Studio स्थापित है। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://visualstudio.microsoft.com/downloads/).
+2. Aspose.Words for .NET लाइब्रेरी: यदि आपने पहले से ऐसा नहीं किया है, तो यहां से Aspose.Words for .NET लाइब्रेरी डाउनलोड करें। [इस लिंक](https://releases.aspose.com/words/net/).
 3. C# का बुनियादी ज्ञान: यह ट्यूटोरियल मानता है कि आपको C# और .NET फ्रेमवर्क की बुनियादी समझ है।
 4. मार्कडाउन दस्तावेज़: एक मार्कडाउन दस्तावेज़ तैयार रखें जिसे हम संशोधित कर सकें। आप कुछ उद्धरणों के साथ एक सरल दस्तावेज़ बना सकते हैं।
 
@@ -39,7 +41,7 @@ using Aspose.Words.Markdown;
 
 ## चरण 1: मार्कडाउन दस्तावेज़ लोड करें
 
- आरंभ करने के लिए, हमें अपने मार्कडाउन दस्तावेज़ को Aspose.Words में लोड करना होगा`Document` ऑब्जेक्ट। यह ऑब्जेक्ट हमें प्रोग्रामेटिक रूप से सामग्री में हेरफेर करने की अनुमति देगा।
+आरंभ करने के लिए, हमें अपने मार्कडाउन दस्तावेज़ को Aspose.Words में लोड करना होगा `Document` ऑब्जेक्ट। यह ऑब्जेक्ट हमें प्रोग्रामेटिक रूप से सामग्री में हेरफेर करने की अनुमति देगा।
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -64,7 +66,7 @@ paragraph.ParagraphFormat.Style = doc.Styles["Quote"];
 
 ## चरण 4: दस्तावेज़ सहेजें
 
-अंत में, हमें अपने परिवर्तनों को सहेजना होगा। Aspose.Words विभिन्न प्रारूपों में दस्तावेज़ों को सहेजने का समर्थन करता है, लेकिन हम इस ट्यूटोरियल के लिए Markdown का उपयोग करेंगे।
+अंत में, हमें अपने परिवर्तनों को सहेजने की आवश्यकता है। Aspose.Words विभिन्न प्रारूपों में दस्तावेज़ों को सहेजने का समर्थन करता है, लेकिन हम इस ट्यूटोरियल के लिए Markdown का उपयोग करेंगे।
 
 ```csharp
 doc.Save(dataDir + "WorkingWithMarkdown.ReadMarkdownDocument.md");
@@ -88,18 +90,23 @@ doc.Save(dataDir + "WorkingWithMarkdown.ReadMarkdownDocument.md");
 
 ### क्या .NET के लिए Aspose.Words का निःशुल्क परीक्षण उपलब्ध है?
 
- हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### मैं .NET के लिए Aspose.Words का दस्तावेज़ कहां पा सकता हूं?
 
- दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/words/net/).
+दस्तावेज़ उपलब्ध है [यहाँ](https://reference.aspose.com/words/net/).
 
 ### यदि मुझे Aspose.Words for .NET में कोई समस्या आती है तो मैं सहायता कैसे प्राप्त कर सकता हूँ?
 
- आप Aspose समुदाय मंचों से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/words/8).
+आप Aspose समुदाय मंचों से सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

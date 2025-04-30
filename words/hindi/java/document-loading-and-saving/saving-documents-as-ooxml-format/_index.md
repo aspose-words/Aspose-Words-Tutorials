@@ -1,14 +1,16 @@
 ---
-title: Java के लिए Aspose.Words में OOXML प्रारूप में दस्तावेज़ों को सहेजना
-linktitle: दस्तावेज़ों को OOXML प्रारूप में सहेजना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Java के लिए Aspose.Words के साथ OOXML फ़ॉर्मेट में दस्तावेज़ों को सहेजना सीखें। अपनी फ़ाइलों को सुरक्षित, अनुकूलित और आसानी से कस्टमाइज़ करें।
-weight: 20
-url: /hi/java/document-loading-and-saving/saving-documents-as-ooxml-format/
+"description": "Java के लिए Aspose.Words के साथ OOXML फ़ॉर्मेट में दस्तावेज़ों को सहेजना सीखें। अपनी फ़ाइलों को आसानी से सुरक्षित, अनुकूलित और कस्टमाइज़ करें।"
+"linktitle": "दस्तावेज़ों को OOXML प्रारूप में सहेजना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "Java के लिए Aspose.Words में OOXML प्रारूप में दस्तावेज़ों को सहेजना"
+"url": "/hi/java/document-loading-and-saving/saving-documents-as-ooxml-format/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java के लिए Aspose.Words में OOXML प्रारूप में दस्तावेज़ों को सहेजना
@@ -24,7 +26,7 @@ url: /hi/java/document-loading-and-saving/saving-documents-as-ooxml-format/
 
 ## पासवर्ड एन्क्रिप्शन के साथ दस्तावेज़ सहेजना
 
-आप अपने दस्तावेज़ को OOXML फ़ॉर्मेट में सहेजते समय पासवर्ड से एन्क्रिप्ट कर सकते हैं। आप यह कैसे कर सकते हैं, यहाँ बताया गया है:
+आप अपने दस्तावेज़ को OOXML फ़ॉर्मेट में सहेजते समय पासवर्ड से एन्क्रिप्ट कर सकते हैं। आप यह कैसे कर सकते हैं:
 
 ```java
 import com.aspose.words.Document;
@@ -93,7 +95,7 @@ import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.SaveFormat;
 
-//विरासत नियंत्रण वर्णों के साथ दस्तावेज़ लोड करें
+// विरासत नियंत्रण वर्णों के साथ दस्तावेज़ लोड करें
 Document doc = new Document("LegacyControlChars.doc");
 
 // FLAT_OPC प्रारूप के साथ OoxmlSaveOptions बनाएं और विरासत नियंत्रण वर्णों को रखने में सक्षम करें
@@ -178,14 +180,19 @@ public void setCompressionLevel() throws Exception
 
 ### क्या मैं किसी दस्तावेज़ को OOXML प्रारूप में सहेजते समय कस्टम गुण सेट कर सकता हूँ?
 
- हां, आप किसी दस्तावेज़ को OOXML फ़ॉर्मेट में सहेजने से पहले उसके लिए कस्टम गुण सेट कर सकते हैं।`BuiltInDocumentProperties` और`CustomDocumentProperties` विभिन्न गुण जैसे लेखक, शीर्षक, कीवर्ड और कस्टम गुण सेट करने के लिए कक्षाएं।
+हां, आप किसी दस्तावेज़ को OOXML फ़ॉर्मेट में सहेजने से पहले उसके लिए कस्टम गुण सेट कर सकते हैं। `BuiltInDocumentProperties` और `CustomDocumentProperties` विभिन्न गुण जैसे लेखक, शीर्षक, कीवर्ड और कस्टम गुण सेट करने के लिए कक्षाएं।
 
 ### किसी दस्तावेज़ को OOXML प्रारूप में सहेजते समय डिफ़ॉल्ट संपीड़न स्तर क्या है?
 
- Aspose.Words for Java का उपयोग करके OOXML प्रारूप में दस्तावेज़ सहेजते समय डिफ़ॉल्ट संपीड़न स्तर है`NORMAL` . आप संपीड़न स्तर को बदल सकते हैं`SUPER_FAST` या`MAXIMUM` जरुरत के अनुसार।
+Java के लिए Aspose.Words का उपयोग करके OOXML प्रारूप में दस्तावेज़ सहेजते समय डिफ़ॉल्ट संपीड़न स्तर है `NORMAL`. आप संपीड़न स्तर को बदल सकते हैं `SUPER_FAST` या `MAXIMUM` जरुरत के अनुसार।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

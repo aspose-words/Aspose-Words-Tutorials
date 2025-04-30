@@ -1,14 +1,16 @@
 ---
-title: Membuat Tabel Dengan Batas
-linktitle: Membuat Tabel Dengan Batas
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat dan menyesuaikan batas tabel dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk petunjuk terperinci.
-weight: 10
-url: /id/net/programming-with-table-styles-and-formatting/build-table-with-borders/
+"description": "Pelajari cara membuat dan menyesuaikan batas tabel dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk petunjuk terperinci."
+"linktitle": "Membuat Tabel Dengan Batas"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Membuat Tabel Dengan Batas"
+"url": "/id/net/programming-with-table-styles-and-formatting/build-table-with-borders/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat Tabel Dengan Batas
@@ -21,7 +23,7 @@ Membuat tabel dengan batas yang disesuaikan dalam dokumen Word dapat membuat kon
 
 Sebelum memulai tutorial, pastikan Anda memiliki prasyarat berikut:
 
-1.  Aspose.Words untuk Pustaka .NET: Unduh dan instal[Aspose.Words untuk .NET](https://releases.aspose.com/words/net/) perpustakaan.
+1. Aspose.Words untuk Pustaka .NET: Unduh dan instal [Aspose.Words untuk .NET](https://releases.aspose.com/words/net/) perpustakaan.
 2. Lingkungan Pengembangan: Pastikan Anda memiliki lingkungan pengembangan seperti Visual Studio yang disiapkan di komputer Anda.
 3. Pengetahuan Dasar C#: Keakraban dengan bahasa pemrograman C# akan sangat membantu.
 4. Direktori Dokumen: Direktori tempat dokumen masukan dan keluaran Anda akan disimpan.
@@ -49,18 +51,18 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- Pada langkah ini, kami menentukan jalur ke direktori dokumen dan memuat dokumen menggunakan`Document` kelas.
+Pada langkah ini, kami menentukan jalur ke direktori dokumen dan memuat dokumen menggunakan `Document` kelas.
 
 ## Langkah 2: Akses Tabel
 
- Selanjutnya, Anda perlu mengakses tabel di dalam dokumen. Ini dapat dilakukan dengan menggunakan`GetChild` metode untuk mengambil simpul tabel:
+Selanjutnya, Anda perlu mengakses tabel di dalam dokumen. Ini dapat dilakukan dengan menggunakan `GetChild` metode untuk mengambil simpul tabel:
 
 ```csharp
 // Akses tabel pertama dalam dokumen
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 ```
 
- Di sini, kita mengakses tabel pertama dalam dokumen.`NodeType.Table` memastikan kita mengambil simpul tabel, dan indeks`0` menunjukkan kita menginginkan tabel pertama.
+Di sini, kita mengakses tabel pertama dalam dokumen. `NodeType.Table` memastikan kita mengambil simpul tabel, dan indeks `0` menunjukkan kita menginginkan tabel pertama.
 
 ## Langkah 3: Hapus Batas yang Ada
 
@@ -82,7 +84,7 @@ Sekarang, Anda dapat mengatur batas baru di sekeliling dan di dalam tabel. Anda 
 table.SetBorders(LineStyle.Single, 1.5, Color.Green);
 ```
 
-Pada langkah ini, kita menetapkan batas ke gaya garis tunggal, dengan lebar 1,5 poin, dan warna hijau.
+Pada langkah ini, kita mengatur batas ke gaya garis tunggal, dengan lebar 1,5 poin, dan warna hijau.
 
 ## Langkah 5: Simpan Dokumen
 
@@ -105,19 +107,24 @@ Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah membuat dan menyes
 Ya, Aspose.Words untuk .NET memungkinkan Anda menerapkan gaya batas yang berbeda ke berbagai bagian tabel, seperti sel, baris, atau kolom individual.
 
 ### Bisakah menetapkan batas untuk sel tertentu saja?
- Tentu saja. Anda dapat menargetkan sel tertentu dan mengatur batas untuk sel tersebut secara individual menggunakan`CellFormat` milik.
+Tentu saja. Anda dapat menargetkan sel tertentu dan mengatur batas untuk sel tersebut secara individual menggunakan `CellFormat` milik.
 
 ### Bagaimana cara menghapus batas dari tabel?
- Anda dapat menghapus batas dengan menggunakan`ClearBorders` metode, yang menghapus semua batas yang ada dari tabel.
+Anda dapat menghapus batas dengan menggunakan `ClearBorders` metode, yang menghapus semua batas yang ada dari tabel.
 
 ### Bisakah saya menggunakan warna khusus untuk batasnya?
- Ya, Anda dapat menggunakan warna apa pun untuk batas dengan menentukan`Color` properti. Warna kustom dapat diatur menggunakan`Color.FromArgb` metode jika Anda membutuhkan warna tertentu.
+Ya, Anda dapat menggunakan warna apa pun untuk batas dengan menentukan `Color` properti. Warna kustom dapat diatur menggunakan `Color.FromArgb` metode jika Anda membutuhkan warna tertentu.
 
 ### Apakah perlu membersihkan batas-batas yang ada sebelum menetapkan batas-batas yang baru?
 Meskipun tidak wajib, menghapus batas yang ada sebelum menetapkan yang baru memastikan bahwa pengaturan batas baru Anda diterapkan tanpa gangguan dari gaya sebelumnya.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

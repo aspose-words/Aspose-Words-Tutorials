@@ -1,31 +1,33 @@
 ---
-title: การจัดรูปแบบตารางในเอกสาร
-linktitle: การจัดรูปแบบตารางในเอกสาร
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้ศิลปะของการจัดรูปแบบตารางในเอกสารโดยใช้ Aspose.Words สำหรับ Java สำรวจคำแนะนำทีละขั้นตอนและตัวอย่างโค้ดต้นฉบับสำหรับการจัดรูปแบบตารางอย่างแม่นยำ
-weight: 13
-url: /th/java/table-processing/formatting-tables/
+"description": "เรียนรู้ศิลปะของการจัดรูปแบบตารางในเอกสารโดยใช้ Aspose.Words สำหรับ Java สำรวจคำแนะนำทีละขั้นตอนและตัวอย่างโค้ดต้นฉบับสำหรับการจัดรูปแบบตารางที่แม่นยำ"
+"linktitle": "การจัดรูปแบบตารางในเอกสาร"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การจัดรูปแบบตารางในเอกสาร"
+"url": "/th/java/table-processing/formatting-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การจัดรูปแบบตารางในเอกสาร
 
 ## การแนะนำ
 
-คุณพร้อมที่จะเริ่มสร้างตารางในเอกสาร Word ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ Java หรือไม่ ตารางมีความจำเป็นสำหรับการจัดระเบียบข้อมูล และด้วยไลบรารีอันทรงพลังนี้ คุณสามารถสร้าง เติมข้อมูล และแม้แต่ซ้อนตารางในเอกสาร Word ของคุณได้ด้วยโปรแกรม ในคู่มือทีละขั้นตอนนี้ เราจะมาสำรวจวิธีการสร้างตาราง รวมเซลล์ และเพิ่มตารางซ้อน
+คุณพร้อมที่จะเริ่มสร้างตารางในเอกสาร Word ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ Java หรือไม่ ตารางมีความจำเป็นสำหรับการจัดระเบียบข้อมูล และด้วยไลบรารีอันทรงพลังนี้ คุณสามารถสร้าง เติมข้อมูล และแม้แต่ซ้อนตารางในเอกสาร Word ของคุณได้ด้วยโปรแกรม ในคู่มือทีละขั้นตอนนี้ เราจะสำรวจวิธีการสร้างตาราง รวมเซลล์ และเพิ่มตารางซ้อน
 
 ## ข้อกำหนดเบื้องต้น
 
 ก่อนที่คุณจะเริ่มเขียนโค้ด ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
 - Java Development Kit (JDK) ติดตั้งอยู่บนระบบของคุณ
--  Aspose.Words สำหรับไลบรารี Java[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/java/).
+- Aspose.Words สำหรับไลบรารี Java [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/java/).
 - ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
 - IDE เช่น IntelliJ IDEA, Eclipse หรืออื่นๆ ที่คุณคุ้นเคย
--  เอ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อปลดล็อคความสามารถทั้งหมดของ Aspose.Words
+- เอ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อปลดล็อคความสามารถทั้งหมดของ Aspose.Words
 
 ## แพ็คเกจนำเข้า
 
@@ -35,7 +37,7 @@ url: /th/java/table-processing/formatting-tables/
 import com.aspose.words.*;
 ```
 
-มาแบ่งขั้นตอนออกเป็นขั้นตอนเล็กๆ น้อยๆ เพื่อให้ง่ายต่อการปฏิบัติตาม
+มาแบ่งขั้นตอนออกเป็นขั้นตอนเล็กๆ น้อยๆ เพื่อให้ปฏิบัติตามได้ง่ายยิ่งขึ้น
 
 ## ขั้นตอนที่ 1: สร้างเอกสารและตาราง
 
@@ -65,7 +67,7 @@ Cell firstCell = new Cell(doc);
 firstRow.appendChild(firstCell);
 ```
 
-- `Row`หมายถึงแถวในตาราง
+- `Row`: หมายถึงแถวในตาราง
 - `Cell`: แสดงถึงเซลล์ในแถว
 - `appendChild`: เพิ่มแถวและเซลล์ลงในตาราง
 
@@ -102,7 +104,7 @@ builder.endRow();
 
 - `DocumentBuilder`: ทำให้การจัดทำเอกสารเป็นเรื่องง่าย
 - `setHorizontalMerge`: รวมเซลล์ในแนวนอน
-- `write`: เพิ่มเนื้อหาให้กับเซลล์ที่ผสานกัน
+- `write`เพิ่มเนื้อหาให้กับเซลล์ที่ผสานกัน
 
 ## ขั้นตอนที่ 5: เพิ่มตารางแบบซ้อนกัน
 
@@ -142,19 +144,24 @@ builder.insertHyperlink("Google website", "https://www.google.com", เท็จ
 ```
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ Java ได้ฟรีหรือไม่?  
- ใช้ได้แบบมีข้อจำกัดหรือรับได้[ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อสำรวจศักยภาพเต็มที่ของมัน
+ใช้ได้แบบมีข้อจำกัดหรือรับได้ [ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อสำรวจศักยภาพเต็มที่ของมัน
 
 ### ฉันจะผสานเซลล์ในแนวตั้งในตารางได้อย่างไร  
- ใช้`setVerticalMerge` วิธีการของ`CellFormat` คลาสที่คล้ายกับการผสานแนวนอน
+ใช้ `setVerticalMerge` วิธีการของ `CellFormat` คลาสที่คล้ายกับการผสานแนวนอน
 
 ### ฉันสามารถเพิ่มรูปภาพลงในเซลล์ตารางได้หรือไม่  
- ใช่คุณสามารถใช้`DocumentBuilder` การแทรกภาพลงในเซลล์ตาราง
+ใช่คุณสามารถใช้ `DocumentBuilder` การแทรกภาพลงในเซลล์ตาราง
 
 ### ฉันสามารถหาทรัพยากรเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ Java ได้ที่ไหน  
- ตรวจสอบ[เอกสารประกอบ](https://reference.aspose.com/words/java/) หรือว่า[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8/) เพื่อดูคำแนะนำโดยละเอียด
+ตรวจสอบ [เอกสารประกอบ](https://reference.aspose.com/words/java/) หรือว่า [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8/) เพื่อดูคำแนะนำโดยละเอียด
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

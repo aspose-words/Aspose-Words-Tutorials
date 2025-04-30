@@ -1,14 +1,16 @@
 ---
-title: Đặt Cột Chú thích
-linktitle: Đặt cột chú thích
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thiết lập cột chú thích trong tài liệu Word bằng Aspose.Words cho .NET. Tùy chỉnh bố cục chú thích của bạn một cách dễ dàng với hướng dẫn từng bước của chúng tôi.
-weight: 10
-url: /vi/net/working-with-footnote-and-endnote/set-foot-note-columns/
+"description": "Tìm hiểu cách thiết lập cột chú thích trong tài liệu Word bằng Aspose.Words cho .NET. Tùy chỉnh bố cục chú thích của bạn một cách dễ dàng với hướng dẫn từng bước của chúng tôi."
+"linktitle": "Đặt cột chú thích"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Đặt Cột Chú thích"
+"url": "/vi/net/working-with-footnote-and-endnote/set-foot-note-columns/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt Cột Chú thích
@@ -21,7 +23,7 @@ Bạn đã sẵn sàng để đắm mình vào thế giới thao tác tài liệ
 
 Trước khi bắt đầu viết mã, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết:
 
-1.  Thư viện Aspose.Words cho .NET: Đảm bảo bạn đã tải xuống và cài đặt phiên bản mới nhất của Aspose.Words cho .NET từ[Liên kết tải xuống](https://releases.aspose.com/words/net/).
+1. Thư viện Aspose.Words cho .NET: Đảm bảo bạn đã tải xuống và cài đặt phiên bản mới nhất của Aspose.Words cho .NET từ [Liên kết tải xuống](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Bạn nên thiết lập môi trường phát triển .NET. Visual Studio là lựa chọn phổ biến.
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ giúp bạn dễ dàng theo dõi.
 
@@ -38,14 +40,14 @@ Bây giờ, chúng ta hãy chia nhỏ quy trình thành các bước đơn giả
 
 ## Bước 1: Tải tài liệu của bạn
 
-Bước đầu tiên là tải tài liệu bạn muốn sửa đổi. Đối với hướng dẫn này, chúng tôi sẽ giả sử bạn có một tài liệu có tên`Document.docx` trong thư mục làm việc của bạn.
+Bước đầu tiên là tải tài liệu bạn muốn sửa đổi. Đối với hướng dẫn này, chúng tôi sẽ giả sử bạn có một tài liệu có tên `Document.docx` trong thư mục làm việc của bạn.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; 
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- Đây,`dataDir` là thư mục nơi tài liệu của bạn được lưu trữ. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tài liệu của bạn.
+Đây, `dataDir` là thư mục nơi tài liệu của bạn được lưu trữ. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tài liệu của bạn.
 
 ## Bước 2: Thiết lập số cột chú thích
 
@@ -87,9 +89,14 @@ Không, việc thiết lập các cột chú thích chỉ ảnh hưởng đến 
 
 ### Tôi có thể xem trước những thay đổi trước khi lưu tài liệu không?  
 Có, bạn có thể sử dụng tùy chọn kết xuất của Aspose.Words để xem trước tài liệu. Tuy nhiên, điều này đòi hỏi các bước và thiết lập bổ sung.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

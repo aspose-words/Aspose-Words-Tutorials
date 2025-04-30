@@ -1,14 +1,16 @@
 ---
-title: Word Belgelerinde Gelişmiş Bul ve Değiştir Teknikleri
-linktitle: Word Belgelerinde Gelişmiş Bul ve Değiştir Teknikleri
-second_title: Aspose.Words Python Belge Yönetim API'si
-description: Python için Aspose.Words kullanarak Word belgelerinde gelişmiş bul ve değiştir tekniklerini öğrenin. Metni değiştirin, regex kullanın, biçimlendirme yapın ve daha fazlasını yapın.
-weight: 12
-url: /tr/python-net/content-extraction-and-manipulation/find-replace-documents/
+"description": "Python için Aspose.Words kullanarak Word belgelerinde gelişmiş bul ve değiştir tekniklerini öğrenin. Metni değiştirin, regex kullanın, biçimlendirme yapın ve daha fazlasını yapın."
+"linktitle": "Word Belgelerinde Gelişmiş Bul ve Değiştir Teknikleri"
+"second_title": "Aspose.Words Python Belge Yönetim API'si"
+"title": "Word Belgelerinde Gelişmiş Bul ve Değiştir Teknikleri"
+"url": "/tr/python-net/content-extraction-and-manipulation/find-replace-documents/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgelerinde Gelişmiş Bul ve Değiştir Teknikleri
@@ -22,9 +24,9 @@ Günümüzün dijital dünyasında, belgelerle çalışmak temel bir görevdir. 
 
 Gelişmiş tekniklere dalmadan önce, aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-1.  Python Kurulumu: Python'un sisteminize kurulu olduğundan emin olun. Python'u şu adresten indirebilirsiniz:[Burada](https://www.python.org/downloads/).
+1. Python Kurulumu: Python'un sisteminize kurulu olduğundan emin olun. Bunu şu adresten indirebilirsiniz: [Burada](https://www.python.org/downloads/).
 
-2.  Python için Aspose.Words: Python için Aspose.Words'ün yüklü olması gerekir. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/python/).
+2. Python için Aspose.Words: Python için Aspose.Words'ün yüklü olması gerekir. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/python/).
 
 3. Belge Hazırlığı: Üzerinde bul ve değiştir işlemlerini yapacağınız bir Word belgesi hazır bulundurun.
 
@@ -108,11 +110,11 @@ Word belgelerini etkin bir şekilde yönetmek ve düzenlemek genellikle bul ve d
 
 ### Büyük/küçük harfe duyarlı olmayan bul ve değiştir işlemini nasıl gerçekleştiririm?
 
- Büyük/küçük harfe duyarlı olmayan bir bul ve değiştir işlemi gerçekleştirmek için, üçüncü parametreyi ayarlayın`replace` yöntem`True`.
+Büyük/küçük harfe duyarlı olmayan bir bul ve değiştir işlemi gerçekleştirmek için, üçüncü parametreyi ayarlayın `replace` yöntem `True`.
 
 ### Sadece belirli bir sayfa aralığındaki metni değiştirebilir miyim?
 
- Evet yapabilirsiniz. Değiştirmeyi gerçekleştirmeden önce, sayfa aralığını kullanarak belirtin`doc.get_child_nodes()` Belirli sayfaların içeriğini alma yöntemi.
+Evet yapabilirsiniz. Değiştirmeyi gerçekleştirmeden önce, sayfa aralığını kullanarak belirtin `doc.get_child_nodes()` Belirli sayfaların içeriğini alma yöntemi.
 
 ### Bul ve değiştir işlemini geri almak mümkün müdür?
 
@@ -124,10 +126,15 @@ Evet, gelişmiş bul ve değiştir işlemlerini gerçekleştirmek için joker ka
 
 ### Yapılan değişiklikleri takip ederken metni değiştirebilir miyim?
 
- Evet, değişiklikleri kullanarak takip edebilirsiniz.`revision`Aspose.Words'ün özelliği. Belgede yapılan tüm değişiklikleri takip etmenizi sağlar.
+Evet, değişiklikleri kullanarak takip edebilirsiniz. `revision` Aspose.Words'ün özelliği. Belgede yapılan tüm değişiklikleri takip etmenizi sağlar.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

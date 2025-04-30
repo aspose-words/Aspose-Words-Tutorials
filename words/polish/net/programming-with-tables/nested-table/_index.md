@@ -1,14 +1,16 @@
 ---
-title: Zagnieżdżona tabela
-linktitle: Zagnieżdżona tabela
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak tworzyć zagnieżdżone tabele w dokumentach Worda przy użyciu Aspose.Words dla .NET z naszym przewodnikiem. Idealne do generowania złożonych układów dokumentów programowo.
-weight: 10
-url: /pl/net/programming-with-tables/nested-table/
+"description": "Dowiedz się, jak tworzyć zagnieżdżone tabele w dokumentach Worda przy użyciu Aspose.Words dla .NET z naszym przewodnikiem. Idealne do generowania złożonych układów dokumentów programowo."
+"linktitle": "Zagnieżdżona tabela"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zagnieżdżona tabela"
+"url": "/pl/net/programming-with-tables/nested-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zagnieżdżona tabela
@@ -21,7 +23,7 @@ Czy kiedykolwiek potrzebowałeś programowo utworzyć zagnieżdżoną tabelę w 
 
 Zanim przejdziemy do kodu, jest kilka rzeczy, których będziesz potrzebować:
 
--  Aspose.Words dla .NET: Można go pobrać ze strony[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Można go pobrać ze strony [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Visual Studio lub inne środowisko IDE C#.
 - Podstawowa wiedza o języku C#: zrozumienie składni i pojęć języka C#.
 
@@ -29,7 +31,7 @@ Upewnij się, że wszystko jest skonfigurowane zanim przejdziesz dalej.
 
 ## Importuj przestrzenie nazw
 
-Najpierw zaimportujmy niezbędne przestrzenie nazw. Te przestrzenie nazw pozwolą nam uzyskać dostęp do klas i metod wymaganych do pracy z dokumentami Word.
+Po pierwsze, zaimportujmy niezbędne przestrzenie nazw. Te przestrzenie nazw pozwolą nam uzyskać dostęp do klas i metod wymaganych do pracy z dokumentami Word.
 
 ```csharp
 using Aspose.Words;
@@ -38,7 +40,7 @@ using Aspose.Words.Tables;
 
 ## Krok 1: Zainicjuj dokument i DocumentBuilder
 
- Na początek utworzymy nowy dokument Word i zainicjujemy go`DocumentBuilder` obiekt, który pomoże nam skonstruować tabelę.
+Na początek utworzymy nowy dokument Word i zainicjujemy go `DocumentBuilder` obiekt, który pomoże nam skonstruować tabelę.
 
 ```csharp
 // Ścieżka do katalogu dokumentów
@@ -142,12 +144,17 @@ Tak, możesz utworzyć wiele poziomów zagnieżdżonych tabel, powtarzając proc
 
 Aspose.Words for .NET jest kompatybilny z szeroką gamą formatów dokumentów Word, w tym DOC, DOCX, RTF i innymi.
 
-### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Words dla .NET?
+### Jak mogę uzyskać pomoc techniczną dotyczącą Aspose.Words dla .NET?
 
- Możesz uzyskać wsparcie od[Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8).
+Możesz uzyskać wsparcie od [Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

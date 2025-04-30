@@ -1,54 +1,62 @@
 ---
-title: Word ドキュメント ヘッダーに画像を挿入する.
-weight: 7700
-limit: 
-description: .NETのAspose.Wordsを使用して,Word文書のヘッダーに画像を挿入する方法について学びます. サンプルコードとインストール指示を付随するステップバイ・ステップガイド.
-keywords: [Aspose.Words for .NET, insert image in header, Word document, .NET library, Word automation, header customization, document processing, C# example]
-url: /ja/net/header-footer-formatting/insert-image/
+"description": "Aspose.Words for .NET を使用して、Word 文書のヘッダーに画像を挿入する方法を学びます。サンプルコードとインストール手順を含むステップバイステップガイドです。"
+"title": "Word 文書のヘッダーに画像を挿入する | Aspose.Words for .NET"
+"url": "/ja/net/header-footer-formatting/insert-image/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 画像をWord ドキュメントヘッダーに挿入する
+# Word文書のヘッダーに画像を挿入する
 
-.NET の Aspose.Words は,開発者がヘッダーに画像を挿入するなどのタスクを自動化することで,Word ドキュメント処理を簡素化します.このチュートリアルでは,ドキュメントとドキュメントビルダークラスをどのように使って,Word ドキュメントの主要なヘッダーに正確な調整,次元,包装オプションを持つ画像を追加するかを示します.プロセスはシンプルで,ドキュメントテンプレートを動的に向上させることを目指す開発者にとって理想的です.詳細なステップとサンプルコードにより,この機能をあなたの .NET アプリケーションに簡単に統合することができます.  
+Aspose.Words for .NET は、ヘッダーへの画像挿入などのタスクを自動化することで、Word 文書の処理を簡素化します。このチュートリアルでは、Document クラスと DocumentBuilder クラスを使用して、Word 文書のメインヘッダーに、正確な配置、サイズ、折り返しオプションを備えた画像を追加する方法を説明します。プロセスはシンプルで、ドキュメントテンプレートを動的に拡張したい開発者に最適です。詳細な手順とサンプルコードを使用すれば、この機能を .NET アプリケーションに簡単に統合できます。  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/header-footer-formatting/insert-image" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 設置指示  
+## インストール手順  
 
-.NETのAspose.Wordsを始めてみましょう.  
+Aspose.Words for .NET を使い始めるには、次の簡単な手順に従ってください。  
 
-1. Aspose.Wordsをダウンロードする  
-   * [最新バージョンをダウンロードする](https://releases.aspose.com/words/net/).NETのAspose.Wordsの  
+1. Aspose.Wordsをダウンロード  
+   - [最新バージョンをダウンロード](https://releases.aspose.com/words/net/) Aspose.Words for .NET の。  
 
-2. NuGet でAspose.Wordsをインストールする  
-   * プロジェクトをビジュアルスタジオで開け  
-   * ツールメニューに移動し,NuGet パッケージ管理者>解決のためのNuGet パッケージ管理を選択します.  
-   * 検索する`"言葉"`NuGet パッケージマネージャーにインストールします.  
+2. NuGet経由でAspose.Wordsをインストールする  
+   - Visual Studio でプロジェクトを開きます。  
+   - [ツール] メニューに移動し、[NuGet パッケージ マネージャー] > [ソリューションの NuGet パッケージの管理] を選択します。  
+   - 検索する `Aspose.Words` NuGet パッケージ マネージャーでインストールします。  
 
-   または,パッケージ管理コンソールを使用します.  
+   または、パッケージ マネージャー コンソールを使用します。  
    ```shell
    Install-Package Aspose.Words
    ```  
 
-3. 許可証 を 申請 する  
-   * 取れ[無料試験ライセンス](https://releases.aspose.com/) 及び[ライセンスを購入する](https://purchase.aspose.com/buy)やってくれ  
-   * プロジェクトにライセンスを使用するには次のコードを使用してください.  
+3. ライセンスを適用する  
+   - 取得する [無料試用ライセンス](https://releases.aspose.com/) または [ライセンスを購入する](https://purchase。aspose.com/buy).  
+   - プロジェクトにライセンスを適用するには、次のコードを使用します。  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```  
 
-## また見てください
-[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
-[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
+## こちらもご覧ください
+[Aspose.Word for .NET ドキュメント](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET リファレンス](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

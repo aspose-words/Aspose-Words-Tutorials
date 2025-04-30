@@ -1,34 +1,36 @@
 ---
-title: Digitális aláírás hozzáadása a PDF-hez a tanúsítványtartó segítségével
-linktitle: Digitális aláírás hozzáadása a PDF-hez a tanúsítványtartó segítségével
-second_title: Aspose.Words Document Processing API
-description: Biztosítsa PDF fájljait digitális aláírással az Aspose.Words for .NET segítségével. Kövesse ezt a lépésenkénti útmutatót, hogy könnyedén adjon digitális aláírást PDF-fájljaihoz.
-weight: 10
-url: /hu/net/programming-with-pdfsaveoptions/digitally-signed-pdf-using-certificate-holder/
+"description": "Védje PDF-fájljait digitális aláírással az Aspose.Words for .NET segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót, hogy könnyedén hozzáadhasson digitális aláírást PDF-fájljaihoz."
+"linktitle": "Digitális aláírás hozzáadása PDF-hez a tanúsítványtulajdonos használatával"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Digitális aláírás hozzáadása PDF-hez a tanúsítványtulajdonos használatával"
+"url": "/hu/net/programming-with-pdfsaveoptions/digitally-signed-pdf-using-certificate-holder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Digitális aláírás hozzáadása a PDF-hez a tanúsítványtartó segítségével
+# Digitális aláírás hozzáadása PDF-hez a tanúsítványtulajdonos használatával
 
 ## Bevezetés
 
-Gondolkozott már azon, hogyan védheti PDF-dokumentumait digitális aláírással? Nos, jó helyen jársz! A digitális aláírás a kézzel írott aláírás modern megfelelője, amely lehetőséget kínál a digitális dokumentumok hitelességének és sértetlenségének ellenőrzésére. Ebben az oktatóanyagban bemutatjuk, hogyan adhat hozzá digitális aláírást PDF-fájlhoz az Aspose.Words for .NET használatával. A környezet beállításától a kód lépésről lépésre történő végrehajtásáig mindent lefedünk. Az útmutató végére biztonságos és megbízható, digitálisan aláírt PDF-fájlja lesz.
+Elgondolkodott már azon, hogyan védheti PDF-dokumentumait digitális aláírással? Nos, jó helyen jár! A digitális aláírások a kézzel írott aláírások modern megfelelői, amelyek lehetővé teszik a digitális dokumentumok hitelességének és integritásának ellenőrzését. Ebben az oktatóanyagban megmutatjuk, hogyan adhat hozzá digitális aláírást egy PDF-hez az Aspose.Words for .NET segítségével. Mindent áttekintünk a környezet beállításától a kód végrehajtásáig lépésről lépésre. Az útmutató végére egy digitálisan aláírt, biztonságos és megbízható PDF-fájllal fog rendelkezni.
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, van néhány dolog, amire szüksége lesz:
+Mielőtt belekezdenénk, van néhány dolog, amire szükséged lesz:
 
-1.  Aspose.Words for .NET: Győződjön meg arról, hogy az Aspose.Words for .NET telepítve van. Letöltheti a[Aspose honlapja](https://releases.aspose.com/words/net/).
-2. Tanúsítványfájl: A PDF aláírásához .pfx tanúsítványfájlra lesz szüksége. Ha nem rendelkezik ilyennel, tesztelési célból létrehozhat egy önaláírt tanúsítványt.
-3. Visual Studio: Ez az oktatóanyag feltételezi, hogy a Visual Studiot használja fejlesztői környezetként.
-4. Alapszintű C# ismerete: A C# és .NET programozás ismerete elengedhetetlen.
+1. Aspose.Words .NET-hez: Győződjön meg róla, hogy telepítve van az Aspose.Words .NET-hez. Letöltheti innen: [Aspose weboldal](https://releases.aspose.com/words/net/).
+2. Tanúsítványfájl: A PDF aláírásához .pfx tanúsítványfájlra lesz szüksége. Ha nincs ilyen, tesztelési célokra létrehozhat egy önaláírt tanúsítványt.
+3. Visual Studio: Ez az oktatóanyag feltételezi, hogy a Visual Studio-t használod fejlesztői környezetként.
+4. C# alapismeretek: A C# és .NET programozásban való jártasság elengedhetetlen.
 
 ## Névterek importálása
 
-Először is importáljuk a szükséges névtereket. Ezek elengedhetetlenek a dokumentumkezeléshez és a digitális aláírásokhoz szükséges osztályok és módszerek eléréséhez.
+Először importáljuk a szükséges névtereket. Ezek elengedhetetlenek a dokumentumkezeléshez és a digitális aláírásokhoz szükséges osztályok és metódusok eléréséhez.
 
 ```csharp
 using Aspose.Words;
@@ -36,15 +38,15 @@ using Aspose.Words.Saving;
 using System;
 ```
 
-Bontsuk le a folyamatot egyszerű, kezelhető lépésekre.
+Bontsuk le a folyamatot egyszerű, könnyen követhető lépésekre.
 
-## 1. lépés: Állítsa be projektjét
+## 1. lépés: A projekt beállítása
 
-Hozzon létre egy új C#-projektet a Visual Studióban. Adjon hozzá egy hivatkozást az Aspose.Words for .NET-hez. Ezt a NuGet Package Manager segítségével teheti meg, ha rákeres az „Aspose.Words” kifejezésre, és telepíti.
+Hozz létre egy új C# projektet a Visual Studióban. Adj hozzá egy hivatkozást az Aspose.Words for .NET fájlhoz. Ezt a NuGet csomagkezelőn keresztül teheted meg az „Aspose.Words” fájlra keresve és telepítve.
 
-## 2. lépés: Töltse be vagy hozzon létre egy dokumentumot
+## 2. lépés: Dokumentum betöltése vagy létrehozása
 
-Az aláíráshoz szükséged lesz egy dokumentumra. Betölthet egy meglévő dokumentumot, vagy létrehozhat egy újat. Ehhez az oktatóanyaghoz létrehozunk egy új dokumentumot, és hozzáadunk néhány minta szöveget.
+Szükséged lesz egy dokumentumra az aláíráshoz. Betölthetsz egy meglévő dokumentumot, vagy létrehozhatsz egy újat. Ebben az oktatóanyagban létrehozunk egy új dokumentumot, és hozzáadunk néhány mintaszöveget.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
@@ -58,7 +60,7 @@ builder.Writeln("Test Signed PDF.");
 
 ## 3. lépés: Adja meg a digitális aláírás részleteit
 
-Most itt az ideje beállítani a digitális aláírás részleteit. Meg kell adnia a .pfx tanúsítványfájl elérési útját, az aláírás okát, a helyét és az aláírás dátumát.
+Most itt az ideje beállítani a digitális aláírás részleteit. Meg kell adnia a .pfx tanúsítványfájl elérési útját, az aláírás okát, a helyet és az aláírás dátumát.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions
@@ -69,41 +71,46 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Cserélje ki`"your_password"` a .pfx fájl jelszavával.
+Csere `"your_password"` a .pfx fájl jelszavával.
 
 ## 4. lépés: Mentse el a dokumentumot digitálisan aláírt PDF formátumban
 
-Végül mentse a dokumentumot PDF formátumban a digitális aláírással.
+Végül mentse el a dokumentumot PDF formátumban digitális aláírással.
 
 ```csharp
 doc.Save(dataDir + "DigitallySignedPdfUsingCertificateHolder.pdf", saveOptions);
 ```
 
-És ennyi! A dokumentum aláírása megtörtént, és PDF-ként mentve.
+És ennyi! A dokumentumot aláírta és PDF formátumban mentette.
 
 ## Következtetés
 
-A digitális aláírás hatékony eszköz a dokumentumok integritásának és hitelességének biztosítására. Az Aspose.Words for .NET segítségével a digitális aláírás hozzáadása a PDF-fájlokhoz egyszerű és hatékony. Ennek a lépésről-lépésre szóló útmutatónak a követésével biztonságossá teheti PDF-dokumentumait, és nyugalmat biztosíthat a címzetteknek azok hitelességét illetően. Boldog kódolást!
+A digitális aláírások hatékony eszközök a dokumentumok integritásának és hitelességének biztosítására. Az Aspose.Words for .NET segítségével a digitális aláírás hozzáadása PDF-fájlokhoz egyszerű és hatékony. A lépésről lépésre szóló útmutató követésével biztonságossá teheti PDF-dokumentumait, és megnyugtathatja a címzetteket azok hitelességével kapcsolatban. Jó kódolást!
 
 ## GYIK
 
 ### Mi az a digitális aláírás?
-A digitális aláírás az aláírás elektronikus formája, amely igazolja a digitális dokumentum hitelességét és sértetlenségét.
+digitális aláírás egy elektronikus aláírási forma, amely igazolja a digitális dokumentum hitelességét és integritását.
 
-### Szükségem van tanúsítványra a digitális aláírás hozzáadásához?
-Igen, szüksége lesz egy .pfx tanúsítványfájlra, hogy digitális aláírást adjon a PDF-hez.
+### Szükségem van tanúsítványra digitális aláírás hozzáadásához?
+Igen, szüksége lesz egy .pfx tanúsítványfájlra ahhoz, hogy digitális aláírást adjon a PDF-hez.
 
 ### Létrehozhatok önaláírt tanúsítványt teszteléshez?
-Igen, tesztelési célból létrehozhat önaláírt tanúsítványt. Éles használatra azonban ajánlott egy tanúsítvány beszerzése egy megbízható tanúsító hatóságtól.
+Igen, létrehozhat önaláírt tanúsítványt tesztelési célokra. Éles használatra azonban ajánlott egy megbízható hitelesítésszolgáltatótól származó tanúsítványt beszerezni.
 
-### Az Aspose.Words for .NET ingyenes?
- Az Aspose.Words for .NET kereskedelmi termék, de ingyenes próbaverziót letölthet a[Aspose honlapja](https://releases.aspose.com/).
+### Ingyenes az Aspose.Words .NET-hez?
+Az Aspose.Words for .NET egy kereskedelmi termék, de letölthet egy ingyenes próbaverziót a következő címről: [Aspose weboldal](https://releases.aspose.com/).
 
 ### Használhatom az Aspose.Words for .NET-et más típusú dokumentumok aláírására?
-Igen, az Aspose.Words for .NET különféle típusú dokumentumok aláírására használható, nem csak PDF-ek.
+Igen, az Aspose.Words for .NET különféle típusú dokumentumok aláírására használható, nem csak PDF-ek aláírására.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

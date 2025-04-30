@@ -1,14 +1,16 @@
 ---
-title: Не сжимайте небольшие метафайлы
-linktitle: Не сжимайте небольшие метафайлы
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как использовать Aspose.Words для .NET, чтобы гарантировать, что небольшие метафайлы в документах Word не будут сжаты, сохраняя их качество и целостность. Пошаговое руководство включено.
-weight: 10
-url: /ru/net/programming-with-docsaveoptions/do-not-compress-small-metafiles/
+"description": "Узнайте, как использовать Aspose.Words для .NET, чтобы гарантировать, что небольшие метафайлы в документах Word не будут сжаты, сохраняя их качество и целостность. Пошаговое руководство включено."
+"linktitle": "Не сжимайте небольшие метафайлы"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Не сжимайте небольшие метафайлы"
+"url": "/ru/net/programming-with-docsaveoptions/do-not-compress-small-metafiles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Не сжимайте небольшие метафайлы
@@ -21,10 +23,10 @@ url: /ru/net/programming-with-docsaveoptions/do-not-compress-small-metafiles/
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
--  Aspose.Words для .NET: Загрузите и установите последнюю версию с[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: Загрузите и установите последнюю версию с [здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: Visual Studio или любая другая совместимая IDE.
 - Базовое понимание C#: знакомство с языком программирования C# и платформой .NET.
--  Лицензия Aspose: чтобы раскрыть весь потенциал Aspose.Words, рассмотрите возможность получения[лицензия](https://purchase.aspose.com/buy) . Вы также можете использовать[временная лицензия](https://purchase.aspose.com/temporary-license/) для оценки.
+- Лицензия Aspose: чтобы раскрыть весь потенциал Aspose.Words, рассмотрите возможность получения [лицензия](https://purchase.aspose.com/buy). Вы также можете использовать [временная лицензия](https://purchase.aspose.com/temporary-license/) для оценки.
 
 ## Импорт пространств имен
 
@@ -35,7 +37,7 @@ using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Теперь давайте разберем процесс использования функции «Не сжимать малые метафайлы» в Aspose.Words для .NET. Мы подробно рассмотрим каждый шаг, чтобы вы могли легко разобраться.
+Теперь давайте разберем процесс использования функции «Не сжимать малые метафайлы» в Aspose.Words для .NET. Мы подробно рассмотрим каждый шаг, чтобы вам было легко следовать.
 
 ## Шаг 1: Настройте каталог документов
 
@@ -46,7 +48,7 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENTS DIRECTORY"` на фактический путь, по которому вы хотите сохранить документ.
+Заменять `"YOUR DOCUMENTS DIRECTORY"` на фактический путь, по которому вы хотите сохранить документ.
 
 ## Шаг 2: Создайте новый документ
 
@@ -59,11 +61,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Text added to a document.");
 ```
 
- Здесь мы инициализируем`Document` объект и использование`DocumentBuilder` чтобы добавить к нему текст.`Writeln` метод добавляет строку текста в документ.
+Здесь мы инициализируем `Document` объект и использование `DocumentBuilder` чтобы добавить к нему текст. `Writeln` метод добавляет строку текста в документ.
 
 ## Шаг 3: Настройте параметры сохранения
 
- Теперь мы настраиваем параметры сохранения для использования функции «Не сжимать малые метафайлы». Это делается с помощью`DocSaveOptions` сорт.
+Теперь мы настраиваем параметры сохранения для использования функции «Не сжимать малые метафайлы». Это делается с помощью `DocSaveOptions` сорт.
 
 ```csharp
 // Настройте параметры сохранения с помощью функции «Не сжимать небольшие метафайлы»
@@ -71,7 +73,7 @@ DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.Compliance = PdfCompliance.PdfA1a;
 ```
 
- На этом этапе мы создаем экземпляр`DocSaveOptions` и установите`Compliance`собственность`PdfCompliance.PdfA1a`. Это гарантирует соответствие документа стандарту PDF/A-1a.
+На этом этапе мы создаем экземпляр `DocSaveOptions` и установите `Compliance` собственность `PdfCompliance.PdfA1a`. Это гарантирует соответствие документа стандарту PDF/A-1a.
 
 ## Шаг 4: Сохраните документ.
 
@@ -82,7 +84,7 @@ saveOptions.Compliance = PdfCompliance.PdfA1a;
 doc.Save(dataDir + "DocumentWithDoNotCompressMetafiles.pdf", saveOptions);
 ```
 
- Здесь мы используем`Save` Метод`Document` класс для сохранения документа. Путь включает каталог и имя файла "DocumentWithDoNotCompressMetafiles.pdf".
+Здесь мы используем `Save` Метод `Document` класс для сохранения документа. Путь включает каталог и имя файла "DocumentWithDoNotCompressMetafiles.pdf".
 
 ## Заключение
 
@@ -100,19 +102,24 @@ doc.Save(dataDir + "DocumentWithDoNotCompressMetafiles.pdf", saveOptions);
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?
 
- Хотя вы можете использовать Aspose.Words for .NET без лицензии для оценки, для разблокировки полной функциональности требуется лицензия. Вы можете получить лицензию[здесь](https://purchase.aspose.com/buy) или используйте[временная лицензия](https://purchase.aspose.com/temporary-license/) для оценки.
+Хотя вы можете использовать Aspose.Words for .NET без лицензии для оценки, для разблокировки полной функциональности требуется лицензия. Вы можете получить лицензию [здесь](https://purchase.aspose.com/buy) или используйте [временная лицензия](https://purchase.aspose.com/temporary-license/) для оценки.
 
 ### Как я могу гарантировать, что мои документы соответствуют стандартам PDF/A?
 
- Aspose.Words для .NET позволяет вам устанавливать параметры соответствия, такие как`PdfCompliance.PdfA1a` чтобы гарантировать, что ваши документы соответствуют определенным стандартам.
+Aspose.Words для .NET позволяет вам устанавливать параметры соответствия, такие как `PdfCompliance.PdfA1a` чтобы гарантировать, что ваши документы соответствуют определенным стандартам.
 
 ### Где я могу найти более подробную информацию об Aspose.Words для .NET?
 
- Вы можете найти полную документацию[здесь](https://reference.aspose.com/words/net/) , и вы можете скачать последнюю версию[здесь](https://releases.aspose.com/words/net/).
+Вы можете найти полную документацию [здесь](https://reference.aspose.com/words/net/), и вы можете скачать последнюю версию [здесь](https://releases.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

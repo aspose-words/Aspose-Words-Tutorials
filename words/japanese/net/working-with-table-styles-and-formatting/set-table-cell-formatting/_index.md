@@ -1,60 +1,68 @@
 ---
-title: Aspose.WordsでWord ドキュメントに表を作成してフォーマットする
-weight: 7700
-limit: 
-description: Aspose.Words ドキュメントビルダークラスを使用して,Word ドキュメントに表を作成しフォーマットする方法について学びます.ステップバイ・ステップ指示とサンプルコードが含まれます.
-keywords: [Aspose.Words for .NET, create table in Word, format table cell, DocumentBuilder example, Word automation .NET, table formatting, Aspose.Words tutorial, .NET library for Word]
-url: /ja/net/working-with-table-styles-and-formatting/set-table-cell-formatting/
+"description": "Aspose.Words DocumentBuilderクラスを使用して、Word文書に表を作成し、書式設定する方法を学びます。ステップバイステップの説明とサンプルコードが含まれています。"
+"title": "Aspose.Words を使用して Word 文書に表を作成し、書式設定する"
+"url": "/ja/net/working-with-table-styles-and-formatting/set-table-cell-formatting/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.WordsでWord ドキュメントに表を作成してフォーマットする
+# Aspose.Words を使用して Word 文書に表を作成し、書式設定する
 
-強力な ツールを使って 文字文書の操作を簡素化します.`ドキュメントビルダー`プログラム的にコンテンツを挿入し,テーブルを作成する方法を説明します.このチュートリアルでは,テーブルを作成し,パッディングや幅などのセルプロパティを設定し,セルにテキストを追加する方法を示します.レポートを自動化したり,ドキュメントを作成したりしているかどうかにかかわらず,このガイドは,Wordテーブルフォーマットの完全な可能性を解き放すのに役立ちます.今日Word自動化プロジェクトを深入して強化してください!
+Aspose.Words for .NETはWord文書の操作を簡素化し、表の作成や書式設定などの作業を容易にします。強力な `DocumentBuilder` クラスを使えば、開発者は簡単に表を作成し、セルの書式を調整し、プログラムでコンテンツを挿入できます。このチュートリアルでは、表の作成方法、セルのパディングや幅などのプロパティの設定方法、セルへのテキストの追加方法を段階的に説明します。レポートの自動化でもドキュメントの生成でも、このガイドはAspose.WordsのWord表書式設定における潜在能力を最大限に引き出すのに役立ちます。今すぐAspose.Wordsを使いこなして、Word自動化プロジェクトを強化しましょう！
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/set-table-cell-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 設置指示  
-この手順に従って,プロジェクトで .NET のAspose.Wordsをインストールして使用します.  
+## インストール手順  
+プロジェクトに Aspose.Words for .NET をインストールして使用するには、次の手順に従います。  
 
-1. Aspose.Wordsをダウンロードする:  
-   訪問する[Aspose.Wordsは.NETダウンロードページ](https://releases.aspose.com/words/net/)図書館の最新バージョンをダウンロードする  
+1. Aspose.Words をダウンロード:  
+   訪問 [Aspose.Words for .NET のダウンロード ページ](https://releases.aspose.com/words/net/) 最新バージョンのライブラリをダウンロードしてください。  
 
-2. NuGet を介してインストールする  
-   Visual Studio で .NET プロジェクトを開く.NuGet パッケージマネージャー (ツール > NuGet パッケージマネージャー > ソリューションのための NuGet パッケージを管理) に移動し, "Aspose.Words を検索してパッケージをインストールします.  
+2. NuGet 経由でインストール:  
+   Visual Studio で .NET プロジェクトを開き、NuGet パッケージ マネージャー ([ツール] > [NuGet パッケージ マネージャー] > [ソリューションの NuGet パッケージの管理]) に移動し、「Aspose.Words」を検索してパッケージをインストールします。  
 
-   パッケージ管理コンソールで次のコマンドを実行します.  
+   または、パッケージ マネージャー コンソールで次のコマンドを実行します。  
    ```shell
    Install-Package Aspose.Words
    ```  
 
-3. ライセンス申請 (オプション):  
-   評価制限をなくすために ライセンスを取得します[やってみよう](https://purchase.aspose.com/buy) [派遣許可証](https://purchase.aspose.com/temporary-license/)ライセンス申請には次のコードを使用します  
+3. ライセンスを適用する（オプション）:  
+   評価の制限を解除するには、ライセンスを適用してください。ライセンスを購入するには、 [ここ](https://purchase.aspose.com/buy) または [一時ライセンス](https://purchase.aspose.com/temporary-license/)次に、次のコードを使用してライセンスを適用します。  
    ```csharp
    License license = new License();
    license.SetLicense("Aspose.Words.lic");
    ```  
 
-4. 参照を追加する  
-   確保する`"言葉"`名前空間は,次の項目でプロジェクトに輸入されます:  
+4. 参照を追加:  
+   確実に `Aspose.Words` 名前空間は次のようにプロジェクトにインポートされます:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    ```  
 
-4. 申請許可 (オプション):  
-   完全なバージョンを使用するために[ライセンス申請](https://purchase.aspose.com/temporary-license/) [無料試験](https://releases.aspose.com/words/net/)やってくれ
+4. ライセンスの適用（オプション）:  
+   フルバージョンを使用するには、 [ライセンスを適用する](https://purchase.aspose.com/temporary-license/) または [無料トライアル](https://releases。aspose.com/words/net/).
    
-## また見てください
-[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
-[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/) 
+## こちらもご覧ください
+[Aspose.Word for .NET ドキュメント](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET リファレンス](https://reference.aspose.com/words/net/) 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

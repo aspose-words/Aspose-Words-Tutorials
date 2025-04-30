@@ -1,14 +1,16 @@
 ---
-title: สร้างบรรทัดลายเซ็นใหม่และตั้งค่ารหัสผู้ให้บริการ
-linktitle: สร้างบรรทัดลายเซ็นใหม่และตั้งค่ารหัสผู้ให้บริการ
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการสร้างบรรทัดลายเซ็นใหม่และตั้งค่า ID ผู้ให้บริการในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอน
-weight: 10
-url: /th/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/
+"description": "เรียนรู้วิธีการสร้างบรรทัดลายเซ็นใหม่และกำหนด ID ผู้ให้บริการในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอน"
+"linktitle": "สร้างบรรทัดลายเซ็นใหม่และตั้งค่ารหัสผู้ให้บริการ"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "สร้างบรรทัดลายเซ็นใหม่และตั้งค่ารหัสผู้ให้บริการ"
+"url": "/th/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สร้างบรรทัดลายเซ็นใหม่และตั้งค่ารหัสผู้ให้บริการ
@@ -21,7 +23,7 @@ url: /th/net/programming-with-digital-signatures/create-new-signature-line-and-s
 
 ก่อนที่เราจะลงมือทำ เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีทุกสิ่งที่จำเป็น:
 
-1.  Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลด โปรดดาวน์โหลด[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลด โปรดดาวน์โหลด [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: Visual Studio หรือสภาพแวดล้อมการพัฒนา C# อื่นๆ
 3. .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework แล้ว
 4. ใบรับรอง PFX: สำหรับการลงนามเอกสาร คุณจะต้องมีใบรับรอง PFX คุณสามารถรับใบรับรองได้จากผู้มีอำนาจออกใบรับรองที่เชื่อถือได้
@@ -50,7 +52,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- ในสไนปเป็ตนี้ เรากำลังเริ่มต้นสิ่งใหม่`Document` และก`DocumentBuilder` . การ`DocumentBuilder` ช่วยให้เราเพิ่มองค์ประกอบต่างๆ ให้กับเอกสารของเรา
+ในสไนปเป็ตนี้ เรากำลังเริ่มต้นสิ่งใหม่ `Document` และก `DocumentBuilder`. การ `DocumentBuilder` ช่วยให้เราเพิ่มองค์ประกอบต่างๆ ให้กับเอกสารของเรา
 
 ## ขั้นตอนที่ 2: กำหนดตัวเลือกบรรทัดลายเซ็น
 
@@ -80,7 +82,7 @@ SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).
 signatureLine.ProviderId = Guid.Parse("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2");
 ```
 
- ที่นี่`InsertSignatureLine` วิธีการเพิ่มบรรทัดลายเซ็น และเรากำหนด ID ผู้ให้บริการเฉพาะให้กับบรรทัดนั้น
+ที่นี่ `InsertSignatureLine` วิธีการเพิ่มบรรทัดลายเซ็น และเรากำหนด ID ผู้ให้บริการเฉพาะให้กับบรรทัดนั้น
 
 ## ขั้นตอนที่ 4: บันทึกเอกสาร
 
@@ -116,7 +118,7 @@ SignOptions signOptions = new SignOptions
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
 ```
 
- อย่าลืมเปลี่ยน`"morzal.pfx"` ด้วยไฟล์ใบรับรองจริงของคุณและ`"aw"` ด้วยรหัสผ่านใบรับรองของคุณ
+อย่าลืมเปลี่ยน `"morzal.pfx"` ด้วยไฟล์ใบรับรองจริงของคุณและ `"aw"` ด้วยรหัสผ่านใบรับรองของคุณ
 
 ## ขั้นตอนที่ 7: ลงนามในเอกสาร
 
@@ -136,7 +138,7 @@ DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLineProviderId.docx"
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถปรับแต่งลักษณะของเส้นลายเซ็นได้หรือไม่?
- แน่นอน! คุณสามารถปรับเปลี่ยนตัวเลือกต่างๆ ได้ใน`SignatureLineOptions`เพื่อให้เหมาะกับความต้องการของคุณ
+แน่นอน! คุณสามารถปรับเปลี่ยนตัวเลือกต่างๆ ได้ใน `SignatureLineOptions` เพื่อให้เหมาะกับความต้องการของคุณ
 
 ### จะเกิดอะไรขึ้นหากฉันไม่มีใบรับรอง PFX?
 คุณจะต้องขอรับใบรับรองจากผู้มีอำนาจออกใบรับรองที่เชื่อถือได้ ซึ่งถือเป็นสิ่งสำคัญสำหรับการลงนามเอกสารแบบดิจิทัล
@@ -147,11 +149,16 @@ DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLineProviderId.docx"
 ### Aspose.Words สำหรับ .NET เข้ากันได้กับ .NET Core หรือไม่
 ใช่ Aspose.Words สำหรับ .NET รองรับ .NET Core ทำให้มีความยืดหยุ่นสำหรับสภาพแวดล้อมการพัฒนาที่แตกต่างกัน
 
-### ลายเซ็นดิจิทัลมีความปลอดภัยแค่ไหน?
+### ลายเซ็นดิจิทัลมีความปลอดภัยเพียงใด?
 ลายเซ็นดิจิทัลที่สร้างด้วย Aspose.Words มีความปลอดภัยสูง โดยขอให้คุณใช้ใบรับรองที่ถูกต้องและเชื่อถือได้
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

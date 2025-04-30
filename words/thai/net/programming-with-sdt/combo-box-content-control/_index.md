@@ -1,14 +1,16 @@
 ---
-title: การควบคุมเนื้อหากล่องคอมโบ
-linktitle: การควบคุมเนื้อหากล่องคอมโบ
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: สร้างการควบคุมเนื้อหากล่องรวมในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนโดยละเอียดของเรา เหมาะอย่างยิ่งสำหรับการปรับปรุงการโต้ตอบของเอกสารของคุณ
-weight: 10
-url: /th/net/programming-with-sdt/combo-box-content-control/
+"description": "สร้างการควบคุมเนื้อหากล่องรวมในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนโดยละเอียดของเรา เหมาะอย่างยิ่งสำหรับการปรับปรุงการโต้ตอบของเอกสารของคุณ"
+"linktitle": "การควบคุมเนื้อหากล่องคอมโบ"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การควบคุมเนื้อหากล่องคอมโบ"
+"url": "/th/net/programming-with-sdt/combo-box-content-control/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การควบคุมเนื้อหากล่องคอมโบ
@@ -21,7 +23,7 @@ url: /th/net/programming-with-sdt/combo-box-content-control/
 
 ก่อนที่เราจะเจาะลึกถึงรายละเอียดของการเขียนโค้ด เรามาตรวจสอบก่อนว่าคุณมีทุกสิ่งที่คุณต้องการแล้ว:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งเวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งเวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 2. .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework ไว้ในเครื่องของคุณแล้ว
 3. สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE): Visual Studio แนะนำสำหรับการพัฒนา .NET
 4. ความเข้าใจพื้นฐานเกี่ยวกับ C#: บทช่วยสอนนี้ถือว่าคุณมีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C#
@@ -110,19 +112,24 @@ doc.Save(dataDir + "WorkingWithSdt.ComboBoxContentControl.docx");
 Aspose.Words สำหรับ .NET เป็นไลบรารีอันทรงพลังสำหรับการทำงานกับเอกสาร Word ด้วยโปรแกรม ช่วยให้คุณสามารถสร้าง แก้ไข แปลง และเรนเดอร์เอกสาร Word ในรูปแบบต่างๆ ได้
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ .NET ร่วมกับเฟรมเวิร์ก .NET อื่นๆ ได้หรือไม่
-ใช่ Aspose.Words สำหรับ .NET รองรับเฟรมเวิร์ก .NET ต่างๆ รวมถึง .NET Core และ .NET Standard
+ใช่ Aspose.Words สำหรับ .NET รองรับกรอบงาน .NET ต่างๆ รวมถึง .NET Core และ .NET Standard
 
 ### ฉันจะได้รับรุ่นทดลองใช้งาน Aspose.Words สำหรับ .NET ฟรีได้อย่างไร
- คุณสามารถดาวน์โหลด Aspose.Words สำหรับ .NET รุ่นทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+คุณสามารถดาวน์โหลดรุ่นทดลองใช้งาน Aspose.Words สำหรับ .NET ได้ฟรี [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถสร้างการควบคุมเนื้อหาประเภทอื่นๆ อะไรได้บ้างโดยใช้ Aspose.Words
 นอกเหนือจากกล่องคอมโบแล้ว คุณยังสามารถสร้างตัวควบคุมการป้อนข้อความ กล่องกาเครื่องหมาย ตัวเลือกวันที่ และอื่นๆ อีกมากมาย
 
 ### ฉันสามารถหาเอกสารโดยละเอียดเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
- สำหรับเอกสารรายละเอียด โปรดไปที่[Aspose.Words สำหรับเอกสาร .NET](https://reference.aspose.com/words/net/).
+สำหรับเอกสารรายละเอียด โปรดไปที่ [Aspose.Words สำหรับเอกสาร .NET](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

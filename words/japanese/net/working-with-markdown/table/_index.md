@@ -1,28 +1,30 @@
 ---
-title: テーブル
-linktitle: テーブル
-second_title: Aspose.Words ドキュメント処理 API
-description: このステップバイステップ ガイドでは、Aspose.Words for .NET でテーブルを作成し、カスタマイズする方法を学習します。構造化された視覚的に魅力的なドキュメントを生成するのに最適です。
-weight: 10
-url: /ja/net/working-with-markdown/table/
+"description": "このステップバイステップガイドでは、Aspose.Words for .NET で表を作成およびカスタマイズする方法を学習します。構造化され、視覚的に魅力的なドキュメントを作成するのに最適です。"
+"linktitle": "テーブル"
+"second_title": "Aspose.Words ドキュメント処理 API"
+"title": "テーブル"
+"url": "/ja/net/working-with-markdown/table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # テーブル
 
 ## 導入
 
-ドキュメント内のテーブルを操作することは、一般的な要件です。レポート、請求書、または構造化データを生成する場合、テーブルは不可欠です。このチュートリアルでは、Aspose.Words for .NET を使用してテーブルを作成およびカスタマイズする方法について説明します。さっそく始めましょう。
+ドキュメント内で表を扱うことは、よくある要件です。レポート、請求書、その他構造化データを作成する場合、表は不可欠です。このチュートリアルでは、Aspose.Words for .NET を使用して表を作成およびカスタマイズする方法について説明します。さあ、始めましょう！
 
 ## 前提条件
 
-始める前に、次の前提条件を満たしていることを確認してください。
+始める前に、次の前提条件が満たされていることを確認してください。
 
-- Visual Studio: コードを記述してテストするには開発環境が必要です。Visual Studio は良い選択です。
--  Aspose.Words for .NET: Aspose.Wordsライブラリがインストールされていることを確認してください。インストールされていない場合はダウンロードできます。[ここ](https://releases.aspose.com/words/net/).
+- Visual Studio: コードを記述してテストするには開発環境が必要です。Visual Studio は良い選択肢です。
+- Aspose.Words for .NET: Aspose.Wordsライブラリがインストールされていることを確認してください。まだインストールされていない場合はダウンロードできます。 [ここ](https://releases。aspose.com/words/net/).
 - C# の基本的な理解: この手順を実行するには、C# プログラミングに関するある程度の知識が必要です。
 
 ## 名前空間のインポート
@@ -34,7 +36,7 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-## ステップ 1: Document と DocumentBuilder を初期化する
+## ステップ1: DocumentとDocumentBuilderを初期化する
 
 まず最初に、新しいドキュメントを作成し、テーブルの構築に役立つ DocumentBuilder クラスを初期化する必要があります。
 
@@ -43,14 +45,14 @@ using Aspose.Words.Tables;
 DocumentBuilder builder = new DocumentBuilder();
 ```
 
-このステップはワークスペースの設定に似ています。空白のドキュメントとペンを用意します。
+このステップはワークスペースの設定に似ています。白紙の書類とペンを用意してください。
 
-## ステップ2: テーブルの作成を開始する
+## ステップ2：テーブルの作成を開始する
 
-ツールが揃ったので、テーブルの作成を始めましょう。まず、最初の行の最初のセルを挿入します。
+ツールが揃ったので、表の作成を始めましょう。まずは1行目の最初のセルを挿入します。
 
 ```csharp
-//最初の行を追加します。
+// 最初の行を追加します。
 builder.InsertCell();
 builder.Writeln("a");
 
@@ -58,11 +60,11 @@ builder.Writeln("a");
 builder.InsertCell();
 builder.Writeln("b");
 
-//最初の行を終了します。
+// 最初の行を終了します。
 builder.EndRow();
 ```
 
-この手順は、表の最初の行を紙に描き、最初の 2 つのセルに「a」と「b」を入力するようなものと考えてください。
+この手順は、表の最初の行を紙に描き、最初の 2 つのセルに「a」と「b」を入力するようなものだと考えてください。
 
 ## ステップ3: 行を追加する
 
@@ -80,27 +82,31 @@ builder.Writeln("d");
 
 ## 結論
 
-Aspose.Words for .NET でテーブルを作成およびカスタマイズするのは、一度コツをつかめば簡単です。次の手順に従うことで、構造化された視覚的に魅力的なテーブルをドキュメントに生成できます。コーディングを楽しんでください!
+Aspose.Words for .NET での表の作成とカスタマイズは、一度コツをつかめば簡単です。以下の手順に従うだけで、構造化された魅力的な表をドキュメントに作成できます。コーディングを楽しみましょう！
 
 ## よくある質問
 
-### 2 つ以上のセルを連続して追加できますか?
-はい、繰り返して必要な数のセルを連続して追加できます。`InsertCell()`そして`Writeln()`方法。
+### 2つ以上のセルを連続して追加できますか?
+はい、繰り返して必要な数のセルを連続して追加できます。 `InsertCell()` そして `Writeln()` 方法。
 
 ### 表内のセルを結合するにはどうすればいいですか?
-セルを結合するには、`CellFormat.HorizontalMerge`そして`CellFormat.VerticalMerge`プロパティ。
+セルを結合するには、 `CellFormat.HorizontalMerge` そして `CellFormat.VerticalMerge` プロパティ。
 
 ### 表のセルに画像を追加することは可能ですか?
-もちろんです！セルに画像を挿入するには、`DocumentBuilder.InsertImage`方法。
+もちろんです！セルに画像を挿入するには、 `DocumentBuilder.InsertImage` 方法。
 
 ### 個々のセルに異なるスタイルを設定できますか?
-はい、個々のセルに異なるスタイルを適用することができます。`Cells`行のコレクション。
+はい、個々のセルに異なるスタイルを適用することができます。 `Cells` 行のコレクション。
 
 ### 表から境界線を削除するにはどうすればよいですか?
-境界線スタイルを次のように設定することで境界線を削除できます。`LineStyle.None`各境界線の種類ごとに。
+境界線スタイルを次のように設定すると境界線を削除できます。 `LineStyle.None` 各境界線の種類ごとに。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

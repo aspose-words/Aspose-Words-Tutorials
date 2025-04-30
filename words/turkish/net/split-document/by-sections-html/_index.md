@@ -1,14 +1,16 @@
 ---
-title: Word Belgesini Bölümlere Göre Böl HTML
-linktitle: Bölümlere Göre Html
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım kılavuzla, Aspose.Words for .NET kullanarak bir Word belgesini bölümlere ayırarak HTML'e nasıl dönüştüreceğinizi öğrenin.
-weight: 10
-url: /tr/net/split-document/by-sections-html/
+"description": "Bu ayrıntılı, adım adım kılavuzla, Aspose.Words for .NET kullanarak bir Word belgesini bölümlere ayırarak HTML'e nasıl dönüştüreceğinizi öğrenin."
+"linktitle": "Bölümlere Göre Html"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesini Bölümlere Göre Böl HTML"
+"url": "/tr/net/split-document/by-sections-html/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesini Bölümlere Göre Böl HTML
@@ -21,7 +23,7 @@ Belge otomasyonu dünyasına mı dalıyorsunuz ve Aspose.Words for .NET kullanar
 
 Aksiyona geçmeden önce, elinizde olması gereken birkaç şey var:
 
-1.  Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio benzeri bir geliştirme ortamı.
 3. Temel C# Bilgisi: C# programlamaya dair temel bir anlayışa sahip olmak faydalı olacaktır.
 4. Word Belgesi: Bölümlere ayırmak istediğiniz bir Word belgesi.
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Adım 2: Word Belgesini Yükleyin
 
- Artık dizinimiz ayarlandığına göre, bölmek istediğimiz Word belgesini yüklememiz gerekiyor. Bu, şu şekilde yapılır:`Document` Aspose.Words'den sınıf.
+Artık dizinimiz ayarlandığına göre, bölmek istediğimiz Word belgesini yüklememiz gerekiyor. Bu, şu şekilde yapılır: `Document` Aspose.Words'den sınıf.
 
 ```csharp
 // Word belgesini yükleyin.
@@ -59,7 +61,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Adım 3: HTML Kaydetme Seçeneklerini Yapılandırın
 
- Belgeyi bölümlere ayırmak için uygun kaydetme seçeneklerini ayarlamamız gerekir.`HtmlSaveOptions`sınıfı, belgeyi HTML'ye nasıl kaydetmek istediğimizi belirtmemize olanak tanır.
+Belgeyi bölümlere ayırmak için uygun kaydetme seçeneklerini ayarlamamız gerekir. `HtmlSaveOptions` sınıfı, belgeyi HTML'ye nasıl kaydetmek istediğimizi belirtmemize olanak tanır.
 
 ```csharp
 // HTML kaydetme seçeneklerini yapılandırın.
@@ -96,18 +98,23 @@ Evet, Aspose.Words for .NET belgeleri sayfa sonları, başlıklar ve özel mant�
 
 ### Aspose.Words for .NET ücretsiz mi?
 
- Aspose.Words for .NET ticari bir üründür, ancak ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/).
+Aspose.Words for .NET ticari bir üründür, ancak ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/).
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
 
- Kapsamlı belgeleri şurada bulabilirsiniz:[Aspose.Words for .NET dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+Kapsamlı belgeleri şurada bulabilirsiniz: [Aspose.Words for .NET dokümantasyon sayfası](https://reference.aspose.com/words/net/).
 
 ### Word belgelerini hangi başka biçimlere dönüştürebilirim?
 
 Aspose.Words for .NET, PDF, DOCX, TXT ve daha birçok formatı destekler.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

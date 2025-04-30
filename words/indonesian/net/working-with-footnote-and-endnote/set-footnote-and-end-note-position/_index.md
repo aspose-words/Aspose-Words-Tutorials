@@ -1,14 +1,16 @@
 ---
-title: Mengatur Posisi Catatan Kaki dan Catatan Akhir
-linktitle: Mengatur Posisi Catatan Kaki dan Catatan Akhir
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengatur posisi catatan kaki dan catatan akhir dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini.
-weight: 10
-url: /id/net/working-with-footnote-and-endnote/set-footnote-and-end-note-position/
+"description": "Pelajari cara mengatur posisi catatan kaki dan catatan akhir dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini."
+"linktitle": "Mengatur Posisi Catatan Kaki dan Catatan Akhir"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Mengatur Posisi Catatan Kaki dan Catatan Akhir"
+"url": "/id/net/working-with-footnote-and-endnote/set-footnote-and-end-note-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengatur Posisi Catatan Kaki dan Catatan Akhir
@@ -21,7 +23,7 @@ Jika Anda bekerja dengan dokumen Word dan perlu mengelola catatan kaki dan catat
 
 Sebelum memulai tutorial, pastikan Anda memiliki hal berikut:
 
--  Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - Visual Studio: Versi terbaru apa pun akan berfungsi dengan baik.
 - Pengetahuan Dasar C#: Memahami dasar-dasarnya akan membantu Anda mengikutinya dengan mudah.
 
@@ -43,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
-Dalam kode ini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda berada.
+Dalam kode ini, ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda berada.
 
 ## Langkah 2: Mengatur Posisi Catatan Kaki
 
@@ -53,7 +55,7 @@ Berikutnya, Anda akan mengatur posisi catatan kaki. Aspose.Words for .NET memung
 doc.FootnoteOptions.Position = FootnotePosition.BeneathText;
 ```
 
- Di sini, kami telah mengatur catatan kaki agar muncul di bawah teks. Jika Anda lebih suka catatan kaki berada di bagian bawah halaman, gunakan`FootnotePosition.BottomOfPage`.
+Di sini, kami telah mengatur catatan kaki agar muncul di bawah teks. Jika Anda lebih suka catatan kaki berada di bagian bawah halaman, gunakan `FootnotePosition.BottomOfPage`.
 
 ## Langkah 3: Mengatur Posisi Catatan Akhir
 
@@ -63,7 +65,7 @@ Demikian pula, Anda dapat mengatur posisi catatan akhir. Catatan akhir dapat dip
 doc.EndnoteOptions.Position = EndnotePosition.EndOfSection;
 ```
 
- Dalam contoh ini, catatan akhir ditempatkan di akhir setiap bagian. Untuk menempatkannya di akhir dokumen, gunakan`EndnotePosition.EndOfDocument`.
+Dalam contoh ini, catatan akhir ditempatkan di akhir setiap bagian. Untuk menempatkannya di akhir dokumen, gunakan `EndnotePosition.EndOfDocument`.
 
 ## Langkah 4: Simpan Dokumen
 
@@ -95,14 +97,19 @@ Aspose.Words untuk .NET dirancang untuk aplikasi .NET, tetapi Anda dapat menggun
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Words untuk .NET?
 
- Ya, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+Ya, Anda bisa mendapatkan uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasi yang lebih rinci untuk Aspose.Words untuk .NET?
 
- Dokumentasi terperinci tersedia[Di Sini](https://reference.aspose.com/words/net/).
+Dokumentasi terperinci tersedia [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

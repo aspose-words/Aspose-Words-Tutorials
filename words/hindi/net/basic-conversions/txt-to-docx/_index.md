@@ -1,14 +1,16 @@
 ---
-title: टेक्स्ट फ़ाइल को वर्ड डॉक्यूमेंट में बदलें
-linktitle: टेक्स्ट फ़ाइल को वर्ड डॉक्यूमेंट में बदलें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके टेक्स्ट फ़ाइलों को Word दस्तावेज़ों में परिवर्तित करना सीखें। हमारे व्यापक गाइड के साथ दस्तावेज़ रूपांतरणों को कुशलतापूर्वक प्रबंधित करें।
-weight: 10
-url: /hi/net/basic-conversions/txt-to-docx/
+"description": ".NET के लिए Aspose.Words का उपयोग करके टेक्स्ट फ़ाइलों को Word दस्तावेज़ों में परिवर्तित करना सीखें। हमारे व्यापक गाइड के साथ दस्तावेज़ रूपांतरणों को कुशलतापूर्वक प्रबंधित करें।"
+"linktitle": "टेक्स्ट फ़ाइल को वर्ड डॉक्यूमेंट में बदलें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "टेक्स्ट फ़ाइल को वर्ड डॉक्यूमेंट में बदलें"
+"url": "/hi/net/basic-conversions/txt-to-docx/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # टेक्स्ट फ़ाइल को वर्ड डॉक्यूमेंट में बदलें
@@ -21,7 +23,7 @@ url: /hi/net/basic-conversions/txt-to-docx/
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 - आपके मशीन पर Microsoft Visual Studio स्थापित है।
--  Aspose.Words for .NET लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 - C# प्रोग्रामिंग भाषा की बुनियादी समझ।
 
 ## नामस्थान आयात करें
@@ -35,7 +37,7 @@ using Aspose.Words;
 
 ### चरण 1: टेक्स्ट फ़ाइल लोड करें
 
- सबसे पहले, टेक्स्ट फ़ाइल को Aspose.Words में लोड करें`Document` वस्तु:
+सबसे पहले, टेक्स्ट फ़ाइल को Aspose.Words में लोड करें `Document` वस्तु:
 ```csharp
 // वह निर्देशिका पथ निर्दिष्ट करें जहां आपकी पाठ फ़ाइल स्थित है
 string dataDir = "YOUR_DOCUMENT_DIRECTORY/";
@@ -71,10 +73,15 @@ Aspose.Words प्रदर्शन के लिए अनुकूलित 
 हां, आप अपने दस्तावेज़ रूपांतरण कार्यों को कारगर बनाने के लिए Aspose.Words API का उपयोग करके कई टेक्स्ट फ़ाइलों को बैच प्रोसेस कर सकते हैं।
 
 ### मैं Aspose.Words के लिए अधिक संसाधन और समर्थन कहां पा सकता हूं?
- दौरा करना[Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) और[सहयता मंच](https://forum.aspose.com/c/words/8) अधिक जानकारी और सहायता के लिए.
+दौरा करना [Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) और [सहयता मंच](https://forum.aspose.com/c/words/8) अधिक जानकारी और सहायता के लिए.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

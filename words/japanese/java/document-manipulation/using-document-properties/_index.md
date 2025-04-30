@@ -1,14 +1,16 @@
 ---
-title: Aspose.Words for Java でのドキュメント プロパティの使用
-linktitle: ドキュメントプロパティの使用
-second_title: Aspose.Words Java ドキュメント処理 API
-description: Aspose.Words for Java を使用してドキュメント管理を最適化します。この包括的なチュートリアルでは、ドキュメント プロパティの操作、カスタム メタデータの追加などについて学習します。
-weight: 32
-url: /ja/java/document-manipulation/using-document-properties/
+"description": "Aspose.Words for Javaでドキュメント管理を最適化しましょう。この包括的なチュートリアルでは、ドキュメントプロパティの操作、カスタムメタデータの追加など、様々な方法を学習できます。"
+"linktitle": "ドキュメントプロパティの使用"
+"second_title": "Aspose.Words Java ドキュメント処理 API"
+"title": "Aspose.Words for Java でのドキュメント プロパティの使用"
+"url": "/ja/java/document-manipulation/using-document-properties/"
+"weight": 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Words for Java でのドキュメント プロパティの使用
@@ -16,7 +18,7 @@ url: /ja/java/document-manipulation/using-document-properties/
 
 ## ドキュメントプロパティの概要
 
-ドキュメント プロパティは、あらゆるドキュメントの重要な部分です。ドキュメント プロパティは、タイトル、作成者、件名、キーワードなど、ドキュメント自体に関する追加情報を提供します。Aspose.Words for Java では、組み込みのドキュメント プロパティとカスタムのドキュメント プロパティの両方を操作できます。
+ドキュメントプロパティは、あらゆるドキュメントにとって不可欠な要素です。タイトル、作成者、件名、キーワードなど、ドキュメント自体に関する追加情報を提供します。Aspose.Words for Javaでは、組み込みプロパティとカスタムプロパティの両方を操作できます。
 
 ## ドキュメントプロパティの列挙
 
@@ -78,7 +80,7 @@ public void removeCustomDocumentProperties() throws Exception
 
 ## コンテンツへのリンクの設定
 
-場合によっては、ドキュメント内にリンクを作成する必要があります。その方法は次のとおりです。
+場合によっては、ドキュメント内にリンクを作成したいことがあります。その方法は次のとおりです。
 
 ```java
 @Test
@@ -92,7 +94,7 @@ public void configuringLinkToContent() throws Exception
 
     CustomDocumentProperties customProperties = doc.getCustomDocumentProperties();
 
-    //コンテンツプロパティへのリンクを追加します。
+    // コンテンツプロパティにリンクを追加します。
     DocumentProperty customProperty = customProperties.addLinkToContent("Bookmark", "MyBookmark");
     customProperty = customProperties.get("Bookmark");
     boolean isLinkedToContent = customProperty.isLinkToContent();
@@ -105,7 +107,7 @@ public void configuringLinkToContent() throws Exception
 
 ## 測定単位の変換
 
-Aspose.Words for Java では、測定単位を簡単に変換できます。以下にその方法の例を示します。
+Aspose.Words for Java では、測定単位を簡単に変換できます。以下に例を示します。
 
 ```java
 @Test
@@ -115,7 +117,7 @@ public void convertBetweenMeasurementUnits() throws Exception
     DocumentBuilder builder = new DocumentBuilder(doc);
     PageSetup pageSetup = builder.getPageSetup();
 
-    //余白をインチ単位で設定します。
+    // 余白をインチ単位で設定します。
     pageSetup.setTopMargin(ConvertUtil.inchToPoint(1.0));
     pageSetup.setBottomMargin(ConvertUtil.inchToPoint(1.0));
     pageSetup.setLeftMargin(ConvertUtil.inchToPoint(1.5));
@@ -129,7 +131,7 @@ public void convertBetweenMeasurementUnits() throws Exception
 
 ## 制御文字の使用
 
-制御文字はテキストを扱うときに便利です。テキスト内の制御文字を置き換える方法は次のとおりです。
+制御文字はテキストを扱う際に便利です。テキスト内の制御文字を置換する方法は次のとおりです。
 
 ```java
 @Test
@@ -142,36 +144,41 @@ public void useControlCharacters()
 }
 ```
 
-この例では、キャリッジリターン（`\r`) の後に改行 (`\r\n`）。
+この例では、キャリッジリターン（`\r`）に続いて改行（`\r\n`）。
 
 ## 結論
 
-ドキュメント プロパティは、Aspose.Words for Java でドキュメントを効果的に管理および整理する上で重要な役割を果たします。組み込みプロパティ、カスタム プロパティ、または制御文字の使用のいずれの場合でも、ドキュメント管理機能を強化するために利用できるさまざまなツールがあります。
+Aspose.Words for Java では、ドキュメントプロパティがドキュメントを効果的に管理・整理する上で重要な役割を果たします。組み込みプロパティ、カスタムプロパティ、制御文字など、ドキュメント管理機能を強化するための様々なツールをご利用いただけます。
 
 ## よくある質問
 
-### 組み込みのドキュメント プロパティにアクセスするにはどうすればよいですか?
+### 組み込みドキュメント プロパティにアクセスするにはどうすればよいですか?
 
- Aspose.Words for Javaの組み込みドキュメントプロパティにアクセスするには、`getBuiltInDocumentProperties`方法`Document`オブジェクト。このメソッドは、反復処理できる組み込みプロパティのコレクションを返します。
+Aspose.Words for Javaの組み込みドキュメントプロパティにアクセスするには、 `getBuiltInDocumentProperties` 方法 `Document` オブジェクト。このメソッドは、反復処理できる組み込みプロパティのコレクションを返します。
 
 ### ドキュメントにカスタム ドキュメント プロパティを追加できますか?
 
-はい、ドキュメントにカスタムドキュメントプロパティを追加できます。`CustomDocumentProperties`コレクション。文字列、ブール値、日付、数値など、さまざまなデータ型を使用してカスタム プロパティを定義できます。
+はい、カスタムドキュメントプロパティをドキュメントに追加できます。 `CustomDocumentProperties` コレクション。文字列、ブール値、日付、数値など、さまざまなデータ型のカスタム プロパティを定義できます。
 
 ### 特定のカスタム ドキュメント プロパティを削除するにはどうすればよいですか?
 
-特定のカスタムドキュメントプロパティを削除するには、`remove`方法`CustomDocumentProperties`コレクションに、削除するプロパティの名前をパラメータとして渡します。
+特定のカスタムドキュメントプロパティを削除するには、 `remove` 方法 `CustomDocumentProperties` コレクションに、削除するプロパティの名前をパラメータとして渡します。
 
 ### ドキュメント内のコンテンツにリンクする目的は何ですか?
 
-ドキュメント内のコンテンツにリンクすると、ドキュメントの特定の部分への動的な参照を作成できます。これは、インタラクティブなドキュメントやセクション間の相互参照を作成する場合に便利です。
+ドキュメント内のコンテンツへのリンクを設定すると、ドキュメントの特定の部分への動的な参照を作成できます。これは、インタラクティブなドキュメントやセクション間の相互参照を作成する際に便利です。
 
 ### Aspose.Words for Java で異なる測定単位を変換するにはどうすればよいですか?
 
- Aspose.Words for Javaでは、以下の方法で異なる測定単位を変換することができます。`ConvertUtil`クラス。インチをポイントに、ポイントをセンチメートルになど、単位を変換するメソッドを提供します。
+Aspose.Words for Javaでは、以下の方法で異なる測定単位を変換することができます。 `ConvertUtil` クラスです。インチをポイントに、ポイントをセンチメートルになど、単位を変換するメソッドを提供します。
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

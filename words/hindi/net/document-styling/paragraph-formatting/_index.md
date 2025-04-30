@@ -1,46 +1,53 @@
 ---
-title: .NET के लिए Aspose.Words का उपयोग करके पैराग्राफ प्रारूपित करें
-weight: 7700
-limit: 
-description: वर्ड दस्तावेज़ में पैराग्राफ को संरेखण, इंडेंट और स्पेसिंग सहित .NET के लिए Aspose.Words के साथ कैसे प्रारूपित किया जाए, जानें।
-keywords: [Aspose.Words, .NET, paragraph formatting, Word document, document builder, alignment, indentation, Word API]
-url: /hi/net/document-styling/paragraph-formatting/
+"description": ".NET के लिए Aspose.Words के साथ Word दस्तावेज़ में पैराग्राफ़ को फ़ॉर्मेट करना सीखें, जिसमें संरेखण, इंडेंटेशन और स्पेसिंग शामिल है।"
+"title": ".NET के लिए Aspose.Words का उपयोग करके पैराग्राफ़ को फ़ॉर्मेट करें"
+"url": "/hi/net/document-styling/paragraph-formatting/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words का प्रयोग करके पैराग्राफों को प्रारूपित करें
-यह गाइड .NET के लिए Aspose.Words का उपयोग करके वर्ड दस्तावेज़ में पैराग्राफ कैसे प्रारूपित करें, इसका एक उदाहरण प्रदान करता है। आप सीखेंगे कि पैराग्राफ के बाद पैराग्राफ प्रारूपण विकल्पों जैसे संरेखण, इंडेंटेशन और स्थान को कैसे सेट किया जाए। उदाहरण दस्तावेज़ और दस्तावेज़निर्माता वर्गों के उपयोग को दर्शाता है, जिससे अच्छी तरह से संरचित दस्तावेजों का निर्माण प्रोग्राममैटिक रूप से संभव हो जाता है।
+# Aspose.Words का उपयोग करके पैराग्राफ़ को फ़ॉर्मेट करें
+यह मार्गदर्शिका .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में पैराग्राफ़ को फ़ॉर्मेट करने का एक उदाहरण प्रदान करती है। आप सीखेंगे कि पैराग्राफ़ के बाद संरेखण, इंडेंटेशन और स्पेस जैसे विभिन्न पैराग्राफ़ फ़ॉर्मेटिंग विकल्प कैसे सेट करें। यह उदाहरण डॉक्यूमेंट और डॉक्यूमेंटबिल्डर क्लास के उपयोग को दर्शाता है, जो प्रोग्रामेटिक रूप से अच्छी तरह से संरचित दस्तावेज़ों के निर्माण को सक्षम बनाता है।
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/document-styling/multilevel-list-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## स्थापना निर्देश
-1. .NET के लिए Aspose.Words डाउनलोड करेंः [वेबसाइट को लक्ष्य करना](https://www.aspose.com/downloads/words/net).NET के लिए Aspose.Words के नवीनतम संस्करण डाउनलोड करने के लिए।
+1. .NET के लिए Aspose.Words डाउनलोड करें: यहाँ जाएँ [Aspose वेबसाइट](https://www.aspose.com/downloads/words/net) .NET के लिए Aspose.Words का नवीनतम संस्करण डाउनलोड करने के लिए।
 
-2. संदर्भ जोड़ेंः अपनी .NET परियोजना में, समाधान एक्सप्लोरर में परियोजना पर राइट-क्लिक करें, जोड़ें > संदर्भ चुनें, और "एस्पोज.वर्ड्स" डीएलएल फ़ाइल जोड़ने के लिए ब्राउज़ करें।
+2. संदर्भ जोड़ें: अपने .NET प्रोजेक्ट में, समाधान एक्सप्लोरर में प्रोजेक्ट पर राइट-क्लिक करें, जोड़ें > संदर्भ चुनें, और Aspose.Words DLL फ़ाइल जोड़ने के लिए ब्राउज़ करें।
 
-3. NuGet पैकेज का उपयोग करना (वैकल्पिक): वैकल्पिक रूप से, आप निम्न कमांड के साथ NuGet पैकेज प्रबंधक के माध्यम से Aspose.Words स्थापित कर सकते हैंः
+3. NuGet पैकेज का उपयोग करना (वैकल्पिक): वैकल्पिक रूप से, आप निम्नलिखित कमांड के साथ NuGet पैकेज मैनेजर के माध्यम से Aspose.Words को इंस्टॉल कर सकते हैं:
    ```
    Install-Package Aspose.Words
    ```
 
-4. आयात नामस्थानः अपनी कोड फ़ाइल में कथन का उपयोग करके निम्नलिखित जोड़ेंः
+4. नामस्थान आयात करें: अपनी कोड फ़ाइल में निम्नलिखित using कथन जोड़ें:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
-5. लाइसेंस आवेदन (वैकल्पिक):  
-   पूर्ण संस्करण का उपयोग करने के लिए, [लाइसेंस लागू करना](https://purchase.aspose.com/temporary-license/)या एक [निःशुल्क परीक्षण](https://releases.aspose.com/words/net/). .  
+5. लाइसेंस लागू करें (वैकल्पिक):  
+   पूर्ण संस्करण का उपयोग करने के लिए, [लाइसेंस लागू करें](https://purchase.aspose.com/temporary-license/) या का उपयोग करें [मुफ्त परीक्षण](https://releases.aspose.com/words/net/).  
 
 
 ## यह भी देखें
-[.NET दस्तावेज़ीकरण के लिए शब्द](https://docs.aspose.com/words/net/)
+[.NET दस्तावेज़ीकरण के लिए Aspose.Word](https://docs.aspose.com/words/net/)
 [.NET संदर्भों के लिए Aspose.Word](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}

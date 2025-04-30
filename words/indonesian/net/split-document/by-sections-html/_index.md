@@ -1,14 +1,16 @@
 ---
-title: Membagi Dokumen Word Berdasarkan Bagian HTML
-linktitle: Berdasarkan Bagian Html
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membagi dokumen Word menjadi beberapa bagian menjadi HTML menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini.
-weight: 10
-url: /id/net/split-document/by-sections-html/
+"description": "Pelajari cara membagi dokumen Word menjadi beberapa bagian menjadi HTML menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini."
+"linktitle": "Berdasarkan Bagian Html"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Membagi Dokumen Word Berdasarkan Bagian HTML"
+"url": "/id/net/split-document/by-sections-html/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membagi Dokumen Word Berdasarkan Bagian HTML
@@ -21,7 +23,7 @@ Apakah Anda terjun ke dunia otomatisasi dokumen dan ingin mempelajari cara memba
 
 Sebelum kita mulai beraksi, ada beberapa hal yang perlu Anda siapkan:
 
-1.  Pustaka Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Aspose merilis halaman](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Aspose merilis halaman](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan seperti Visual Studio.
 3. Pengetahuan Dasar C#: Pemahaman dasar tentang pemrograman C# akan sangat membantu.
 4. Dokumen Word: Dokumen Word yang ingin Anda bagi menjadi beberapa bagian.
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Langkah 2: Muat Dokumen Word
 
- Sekarang setelah kita menyiapkan direktori, kita perlu memuat dokumen Word yang ingin kita bagi. Ini dilakukan dengan menggunakan`Document` kelas dari Aspose.Words.
+Sekarang setelah kita menyiapkan direktori, kita perlu memuat dokumen Word yang ingin kita bagi. Ini dilakukan dengan menggunakan `Document` kelas dari Aspose.Words.
 
 ```csharp
 // Muat dokumen Word.
@@ -59,7 +61,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Langkah 3: Konfigurasikan Opsi Penyimpanan HTML
 
- Untuk membagi dokumen menjadi beberapa bagian, kita perlu mengatur opsi penyimpanan yang sesuai.`HtmlSaveOptions`kelas memungkinkan kita menentukan bagaimana kita ingin menyimpan dokumen ke HTML.
+Untuk membagi dokumen menjadi beberapa bagian, kita perlu mengatur opsi penyimpanan yang sesuai. `HtmlSaveOptions` kelas memungkinkan kita menentukan bagaimana kita ingin menyimpan dokumen ke HTML.
 
 ```csharp
 // Konfigurasikan opsi penyimpanan HTML.
@@ -96,18 +98,23 @@ Ya, Aspose.Words untuk .NET memungkinkan Anda membagi dokumen berdasarkan berbag
 
 ### Apakah Aspose.Words untuk .NET gratis?
 
- Aspose.Words untuk .NET adalah produk komersial, tetapi Anda dapat mengunduh uji coba gratis dari[Aspose merilis halaman](https://releases.aspose.com/).
+Aspose.Words untuk .NET adalah produk komersial, tetapi Anda dapat mengunduh uji coba gratis dari [Aspose merilis halaman](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
 
- Anda dapat menemukan dokumentasi lengkap di[Halaman dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi lengkap di [Halaman dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
 
 ### Format apa lagi yang dapat saya ubah dari dokumen Word?
 
 Aspose.Words untuk .NET mendukung berbagai format, termasuk PDF, DOCX, TXT, dan masih banyak lagi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Yükleme Seçeneklerini Kullanma
-linktitle: Yükleme Seçeneklerini Kullanma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Java için Aspose.Words'de Yükleme Seçeneklerinde Ustalaşma. Verimli Java belge işleme için belge yüklemeyi özelleştirin, şifrelemeyi yönetin, şekilleri dönüştürün, Word sürümlerini ayarlayın ve daha fazlasını yapın.
-weight: 11
-url: /tr/java/document-loading-and-saving/using-load-options/
+"description": "Java için Aspose.Words'de Yükleme Seçeneklerinde Ustalaşma. Verimli Java belge işleme için belge yüklemeyi özelleştirin, şifrelemeyi yönetin, şekilleri dönüştürün, Word sürümlerini ayarlayın ve daha fazlasını yapın."
+"linktitle": "Yükleme Seçeneklerini Kullanma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Yükleme Seçeneklerini Kullanma"
+"url": "/tr/java/document-loading-and-saving/using-load-options/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Yükleme Seçeneklerini Kullanma
@@ -28,7 +30,7 @@ Document doc = new Document("Your Directory Path" + "Dirty field.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.UpdateDirtyFields.docx");
 ```
 
- Bu kod parçacığı bir belgedeki kirli alanların nasıl güncelleneceğini gösterir.`setUpdateDirtyFields(true)` Yöntem, belge yükleme sırasında kirli alanların güncellenmesini sağlamak için kullanılır.
+Bu kod parçacığı bir belgedeki kirli alanların nasıl güncelleneceğini gösterir. `setUpdateDirtyFields(true)` Yöntem, belge yükleme sırasında kirli alanların güncellenmesini sağlamak için kullanılır.
 
 ## Şifrelenmiş Belgeyi Yükle
 
@@ -40,7 +42,7 @@ public void loadEncryptedDocument() throws Exception {
 }
 ```
 
- Burada, bir parola kullanarak şifrelenmiş bir belge yüklüyoruz.`LoadOptions` oluşturucu belge parolasını kabul eder ve ayrıca belgeyi kaydederken yeni bir parola da belirtebilirsiniz`OdtSaveOptions`.
+Burada, bir parola kullanarak şifrelenmiş bir belge yüklüyoruz. `LoadOptions` oluşturucu belge parolasını kabul eder ve ayrıca belgeyi kaydederken yeni bir parola da belirtebilirsiniz `OdtSaveOptions`.
 
 ## Şekli Office Matematiğe Dönüştür
 
@@ -52,7 +54,7 @@ Document doc = new Document("Your Directory Path" + "Office math.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.ConvertShapeToOfficeMath.docx");
 ```
 
- Bu kod, belge yükleme sırasında şekillerin Office Math nesnelerine nasıl dönüştürüleceğini gösterir.`setConvertShapeToOfficeMath(true)`yöntem bu dönüşümü mümkün kılar.
+Bu kod, belge yükleme sırasında şekillerin Office Math nesnelerine nasıl dönüştürüleceğini gösterir. `setConvertShapeToOfficeMath(true)` yöntem bu dönüşümü mümkün kılar.
 
 ## MS Word Sürümünü Ayarla
 
@@ -67,7 +69,7 @@ public void setMsWordVersion() throws Exception {
 }
 ```
 
- Belge yükleme için MS Word sürümünü belirtebilirsiniz. Bu örnekte, sürümü Microsoft Word 2010 olarak ayarlıyoruz`setMswVersion`.
+Belge yükleme için MS Word sürümünü belirtebilirsiniz. Bu örnekte, sürümü Microsoft Word 2010 olarak ayarlıyoruz `setMswVersion`.
 
 ## Geçici Klasörü Kullan
 
@@ -81,7 +83,7 @@ public void useTempFolder() throws Exception {
 }
 ```
 
- Geçici klasörü kullanarak ayarlayarak`setTempFolder`, belge işleme sırasında geçici dosyaların nerede saklanacağını kontrol edebilirsiniz.
+Geçici klasörü kullanarak ayarlayarak `setTempFolder`, belge işleme sırasında geçici dosyaların nerede saklanacağını kontrol edebilirsiniz.
 
 ## Uyarı Geri Araması
 
@@ -117,7 +119,7 @@ public void convertMetafilesToPng() throws Exception {
 }
 ```
 
- Belge yükleme sırasında meta dosyalarını (örneğin WMF) PNG görüntülerine dönüştürmek için şunu kullanabilirsiniz:`setConvertMetafilesToPng(true)` yöntem.
+Belge yükleme sırasında meta dosyalarını (örneğin WMF) PNG görüntülerine dönüştürmek için şunu kullanabilirsiniz: `setConvertMetafilesToPng(true)` yöntem.
 
 ## Java için Aspose.Words'de Yükleme Seçenekleriyle Çalışmak İçin Tam Kaynak Kodu
 
@@ -173,7 +175,7 @@ public void warningCallback() throws Exception {
 }
 public static class DocumentLoadingWarningCallback implements IWarningCallback {
 	public void warning(WarningInfo info) {
-		//Belge yükleme sırasında ortaya çıkan uyarıları ve ayrıntılarını yazdırır.
+		// Belge yükleme sırasında ortaya çıkan uyarıları ve ayrıntılarını yazdırır.
 		System.out.println(MessageFormat.format("WARNING: {0}, source: {1}", info.getWarningType(), info.getSource()));
 		System.out.println(MessageFormat.format("\tDescription: {0}", info.getDescription()));
 	}
@@ -202,24 +204,29 @@ Bu eğitimde, Java için Aspose.Words'de Yükleme Seçenekleri ile çalışmanı
 
 ## SSS
 
-### Belge yükleme sırasında uyarıları nasıl yönetebilirim?
+### Belge yüklenirken uyarıları nasıl yönetebilirim?
 
- Aşağıda gösterildiği gibi bir uyarı geri araması ayarlayabilirsiniz.`warningCallback()` Yukarıdaki yöntemi özelleştirin.`DocumentLoadingWarningCallback` Uygulamanızın gereksinimlerine göre uyarıları işleyen sınıf.
+Aşağıda gösterildiği gibi bir uyarı geri araması ayarlayabilirsiniz. `warningCallback()` Yukarıdaki yöntemi özelleştirin. `DocumentLoadingWarningCallback` Uygulamanızın gereksinimlerine göre uyarıları işleyen sınıf.
 
 ### Bir belgeyi yüklerken şekilleri Office Math nesnelerine dönüştürebilir miyim?
 
- Evet, şekilleri kullanarak Office Math nesnelerine dönüştürebilirsiniz`loadOptions.setConvertShapeToOfficeMath(true)`.
+Evet, şekilleri kullanarak Office Math nesnelerine dönüştürebilirsiniz. `loadOptions.setConvertShapeToOfficeMath(true)`.
 
 ### Belge yükleme için MS Word sürümünü nasıl belirlerim?
 
- Kullanmak`loadOptions.setMswVersion(MsWordVersion.WORD_2010)` Belgenin yüklenmesi için MS Word sürümünü belirtmek için.
+Kullanmak `loadOptions.setMswVersion(MsWordVersion.WORD_2010)` Belgenin yüklenmesi için MS Word sürümünü belirtmek için.
 
-###  Amacı nedir?`setTempFolder` method in Load Options?
+### Amacı nedir? `setTempFolder` Yükleme Seçenekleri'nde yöntem nedir?
 
- The`setTempFolder`yöntemi, belge işleme sırasında geçici dosyaların depolanacağı klasörü belirtmenize olanak tanır.
+The `setTempFolder` yöntemi, belge işleme sırasında geçici dosyaların depolanacağı klasörü belirtmenize olanak tanır.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

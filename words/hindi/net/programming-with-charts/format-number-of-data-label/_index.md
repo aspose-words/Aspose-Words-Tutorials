@@ -1,14 +1,16 @@
 ---
-title: चार्ट में डेटा लेबल की संख्या को प्रारूपित करें
-linktitle: चार्ट में डेटा लेबल की संख्या को प्रारूपित करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके चार्ट में डेटा लेबल को फ़ॉर्मेट करना सीखें। अपने Word दस्तावेज़ों को आसानी से बेहतर बनाएँ।
-weight: 10
-url: /hi/net/programming-with-charts/format-number-of-data-label/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके चार्ट में डेटा लेबल को फ़ॉर्मेट करना सीखें। अपने Word दस्तावेज़ों को आसानी से बेहतर बनाएँ।"
+"linktitle": "चार्ट में डेटा लेबल की संख्या को प्रारूपित करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "चार्ट में डेटा लेबल की संख्या को प्रारूपित करें"
+"url": "/hi/net/programming-with-charts/format-number-of-data-label/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # चार्ट में डेटा लेबल की संख्या को प्रारूपित करें
@@ -21,10 +23,10 @@ url: /hi/net/programming-with-charts/format-number-of-data-label/
 
 कोड में आगे बढ़ने से पहले, कुछ पूर्व-आवश्यकताएं हैं जिनका आपको पालन करना होगा:
 
--  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी स्थापित है। यदि आपने इसे अभी तक स्थापित नहीं किया है, तो आप[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी स्थापित है। यदि आपने इसे अभी तक स्थापित नहीं किया है, तो आप [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 - विकास पर्यावरण: आपके पास .NET विकास पर्यावरण होना चाहिए। Visual Studio अत्यधिक अनुशंसित है।
 - C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होना आवश्यक है क्योंकि इस ट्यूटोरियल में C# कोड लिखना और समझना शामिल है।
--  अस्थायी लाइसेंस: Aspose.Words को बिना किसी सीमा के उपयोग करने के लिए, आप एक प्राप्त कर सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
+- अस्थायी लाइसेंस: Aspose.Words को बिना किसी सीमा के उपयोग करने के लिए, आप एक प्राप्त कर सकते हैं [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
 
 अब, आइए चार्ट में संख्या लेबल को प्रारूपित करने की चरण-दर-चरण प्रक्रिया को समझें।
 
@@ -46,11 +48,11 @@ using Aspose.Words.Drawing.Charts;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
 
 ## चरण 2: दस्तावेज़ और दस्तावेज़बिल्डर को आरंभ करें
 
- अगला कदम एक नया आरंभ करना है`Document` और एक`DocumentBuilder` . द`DocumentBuilder` एक सहायक वर्ग है जो हमें दस्तावेज़ सामग्री का निर्माण करने की अनुमति देता है।
+अगला कदम एक नया आरंभ करना है `Document` और एक `DocumentBuilder`. द `DocumentBuilder` एक सहायक वर्ग है जो हमें दस्तावेज़ सामग्री का निर्माण करने की अनुमति देता है।
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +61,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## चरण 3: दस्तावेज़ में चार्ट डालें
 
- अब, आइए दस्तावेज़ में एक चार्ट डालें`DocumentBuilder`इस ट्यूटोरियल में, हम एक उदाहरण के रूप में लाइन चार्ट का उपयोग करेंगे।
+अब, आइए दस्तावेज़ में एक चार्ट डालें `DocumentBuilder`इस ट्यूटोरियल में, हम एक उदाहरण के रूप में लाइन चार्ट का उपयोग करेंगे।
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
@@ -102,7 +104,7 @@ series1.DataLabels[1].NumberFormat.FormatCode = "dd/mm/yyyy"; // तारिख
 series1.DataLabels[2].NumberFormat.FormatCode = "0.00%"; // प्रतिशत प्रारूप
 ```
 
- इसके अतिरिक्त, आप डेटा लेबल के प्रारूप को स्रोत सेल से लिंक कर सकते हैं। लिंक किए जाने पर,`NumberFormat` सामान्य पर रीसेट कर दिया जाएगा और स्रोत सेल से विरासत में प्राप्त किया जाएगा।
+इसके अतिरिक्त, आप डेटा लेबल के प्रारूप को स्रोत सेल से लिंक कर सकते हैं। लिंक होने पर, `NumberFormat` सामान्य पर रीसेट कर दिया जाएगा और स्रोत सेल से विरासत में प्राप्त किया जाएगा।
 
 ```csharp
 series1.DataLabels[2].NumberFormat.IsLinkedToSource = true;
@@ -131,17 +133,22 @@ Aspose.Words for .NET का उपयोग करके चार्ट मे
 हां, .NET के लिए Aspose.Words विभिन्न प्रकार के चार्ट का समर्थन करता है, जिसमें बार, कॉलम, पाई और बहुत कुछ शामिल है।
 
 ### मैं .NET के लिए Aspose.Words हेतु अस्थायी लाइसेंस कैसे प्राप्त करूं?
-आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+आप अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### क्या एक्सेल में डेटा लेबल को स्रोत कक्षों से लिंक करना संभव है?
 हां, आप डेटा लेबल को स्रोत कक्षों से लिंक कर सकते हैं, जिससे स्रोत कक्ष से संख्या प्रारूप प्राप्त किया जा सकता है।
 
 ### मैं .NET के लिए Aspose.Words के अधिक विस्तृत दस्तावेज़ कहां पा सकता हूं?
- आप विस्तृत दस्तावेज पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप विस्तृत दस्तावेज पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Word दस्तावेज़ में थीम गुण सेट करें
-linktitle: थीम गुण सेट करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में थीम गुण सेट करना सीखें। फ़ॉन्ट और रंगों को आसानी से कस्टमाइज़ करने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/programming-with-styles-and-themes/set-theme-properties/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में थीम गुण सेट करना सीखें। फ़ॉन्ट और रंगों को आसानी से कस्टमाइज़ करने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "थीम गुण सेट करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "Word दस्तावेज़ में थीम गुण सेट करें"
+"url": "/hi/net/programming-with-styles-and-themes/set-theme-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word दस्तावेज़ में थीम गुण सेट करें
@@ -22,7 +24,7 @@ url: /hi/net/programming-with-styles-and-themes/set-theme-properties/
 इससे पहले कि हम ट्यूटोरियल में आगे बढ़ें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 
 - C# प्रोग्रामिंग का बुनियादी ज्ञान: यह ट्यूटोरियल मानता है कि आप C# और .NET फ्रेमवर्क से परिचित हैं।
--  .NET के लिए Aspose.Words: नवीनतम संस्करण डाउनलोड करें और इंस्टॉल करें[Aspose.Words डाउनलोड पृष्ठ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: नवीनतम संस्करण डाउनलोड करें और इंस्टॉल करें [Aspose.Words डाउनलोड पृष्ठ](https://releases.aspose.com/words/net/).
 - विकास वातावरण: विजुअल स्टूडियो या कोई अन्य पसंदीदा C# IDE.
 
 ## नामस्थान आयात करें
@@ -38,7 +40,7 @@ using System.Drawing;
 
 ## चरण 1: दस्तावेज़ को आरंभ करें
 
- शुरू करने के लिए, आपको एक नया इंस्टेंस बनाना होगा`Document` क्लास. यह ऑब्जेक्ट उस वर्ड दस्तावेज़ का प्रतिनिधित्व करता है जिसके साथ आप काम करेंगे.
+शुरू करने के लिए, आपको एक नया इंस्टेंस बनाना होगा `Document` क्लास. यह ऑब्जेक्ट उस वर्ड दस्तावेज़ का प्रतिनिधित्व करता है जिसके साथ आप काम करेंगे.
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +48,7 @@ Document doc = new Document();
 
 ## चरण 2: थीम ऑब्जेक्ट तक पहुंचें
 
-इसके बाद, आपको एक्सेस करने की आवश्यकता है`Theme` दस्तावेज़ से ऑब्जेक्ट.`Theme` ऑब्जेक्ट में दस्तावेज़ के विषय से संबंधित गुण शामिल होते हैं, जिनमें फ़ॉन्ट और रंग शामिल हैं।
+इसके बाद, आपको एक्सेस करने की आवश्यकता है `Theme` दस्तावेज़ से ऑब्जेक्ट. `Theme` ऑब्जेक्ट में दस्तावेज़ के विषय से संबंधित गुण शामिल होते हैं, जिनमें फ़ॉन्ट और रंग शामिल हैं।
 
 ```csharp
 Aspose.Words.Themes.Theme theme = doc.Theme;
@@ -86,19 +88,24 @@ doc.Save("StyledDocument.docx");
 हां, .NET के लिए Aspose.Words का उपयोग किसी भी .NET-संगत भाषा, जैसे VB.NET के साथ किया जा सकता है।
 
 ### मैं .NET के लिए Aspose.Words का निःशुल्क परीक्षण कैसे प्राप्त कर सकता हूँ?  
- आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं[Aspose.Words निःशुल्क परीक्षण पृष्ठ](https://releases.aspose.com/).
+आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं [Aspose.Words निःशुल्क परीक्षण पृष्ठ](https://releases.aspose.com/).
 
 ### क्या अधिक थीम गुणों को अनुकूलित करने का कोई तरीका है?  
 बिल्कुल! Aspose.Words for .NET फ़ॉन्ट और रंगों से परे थीम गुणों को अनुकूलित करने के लिए व्यापक विकल्प प्रदान करता है।
 
 ### मैं अधिक विस्तृत दस्तावेज कहां पा सकता हूं?  
- आप इसका संदर्भ ले सकते हैं[Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) अधिक गहन जानकारी के लिए.
+आप इसका संदर्भ ले सकते हैं [Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) अधिक गहन जानकारी के लिए.
 
 ### यदि मुझे कोई समस्या आती है तो क्या सहायता विकल्प उपलब्ध हैं?  
- Aspose एक प्रदान करता है[सहयता मंच](https://forum.aspose.com/c/words/8) जहाँ आप समुदाय और Aspose टीम से सहायता प्राप्त कर सकते हैं।
+Aspose एक प्रदान करता है [सहयता मंच](https://forum.aspose.com/c/words/8) जहाँ आप समुदाय और Aspose टीम से सहायता प्राप्त कर सकते हैं।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

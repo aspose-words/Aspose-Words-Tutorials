@@ -1,14 +1,16 @@
 ---
-title: Dostrajanie opcji i ustawień dokumentu w celu zwiększenia wydajności
-linktitle: Dostrajanie opcji i ustawień dokumentu w celu zwiększenia wydajności
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Dowiedz się, jak skutecznie manipulować dokumentami Worda za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym.
-weight: 11
-url: /pl/python-net/document-options-and-settings/manage-document-options-settings/
+"description": "Dowiedz się, jak skutecznie manipulować dokumentami Worda za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym."
+"linktitle": "Dostrajanie opcji i ustawień dokumentu w celu zwiększenia wydajności"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Dostrajanie opcji i ustawień dokumentu w celu zwiększenia wydajności"
+"url": "/pl/python-net/document-options-and-settings/manage-document-options-settings/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dostrajanie opcji i ustawień dokumentu w celu zwiększenia wydajności
@@ -111,7 +113,7 @@ doc.save("output.pdf", aw.SaveFormat.PDF)
 
 ## Wniosek:
 
-Aspose.Words for Python umożliwia programistom wydajne zarządzanie opcjami i ustawieniami dokumentów, oferując szczegółową kontrolę nad każdym aspektem tworzenia i manipulowania dokumentami. Jego intuicyjny interfejs API i obszerna dokumentacja sprawiają, że jest to nieocenione narzędzie do zadań związanych z dokumentami.
+Aspose.Words for Python umożliwia programistom efektywne zarządzanie opcjami i ustawieniami dokumentów, oferując szczegółową kontrolę nad każdym aspektem tworzenia i manipulowania dokumentami. Jego intuicyjny interfejs API i obszerna dokumentacja sprawiają, że jest to nieocenione narzędzie do zadań związanych z dokumentami.
 
 ## Najczęściej zadawane pytania
 
@@ -129,7 +131,7 @@ Tak, możesz tworzyć niestandardowe nagłówki i stopki za pomocą Aspose.Words
 
 ### Jak dostosować marginesy strony za pomocą API?
 
- Możesz dostosować marginesy strony za pomocą`PageSetup` klasa. Na przykład:
+Możesz dostosować marginesy strony za pomocą `PageSetup` klasa. Na przykład:
 
 ```python
 page_setup = doc.sections[0].page_setup
@@ -139,7 +141,7 @@ page_setup.right_margin = aw.ConvertUtil.inch_to_point(1)
 
 ### Czy mogę wyeksportować mój dokument do formatu PDF za pomocą Aspose.Words?
 
- Oczywiście, możesz eksportować swój dokument do różnych formatów, w tym PDF, korzystając z`save` metoda. Na przykład:
+Oczywiście, możesz eksportować swój dokument do różnych formatów, w tym PDF, korzystając z `save` metoda. Na przykład:
 
 ```python
 doc.save("output.pdf", aw.SaveFormat.PDF)
@@ -147,10 +149,15 @@ doc.save("output.pdf", aw.SaveFormat.PDF)
 
 ### Gdzie mogę znaleźć więcej informacji o Aspose.Words dla języka Python?
 
- Dokumentację można znaleźć pod adresem[Tutaj](https://reference.aspose.com/words/python-net/).
+Dokumentację można znaleźć pod adresem [Tutaj](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

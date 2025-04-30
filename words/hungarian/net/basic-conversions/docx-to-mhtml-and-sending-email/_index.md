@@ -1,34 +1,36 @@
 ---
-title: A Docx konvertálása Mhtml-re és e-mail küldése
-linktitle: A Docx konvertálása Mhtml-re és e-mail küldése
-second_title: Aspose.Words Document Processing API
-description: Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan konvertálhat DOCX-et MHTML-re, és hogyan küldhet e-maileket az Aspose.Words for .NET használatával. Növelje termelékenységét az egyszerű automatizálással.
-weight: 10
-url: /hu/net/basic-conversions/docx-to-mhtml-and-sending-email/
+"description": "Tanuld meg, hogyan konvertálhatsz DOCX fájlokat MHTML-lé, és hogyan küldhetsz e-maileket az Aspose.Words for .NET segítségével ebben a lépésről lépésre szóló útmutatóban. Növeld a termelékenységedet egyszerű automatizálással."
+"linktitle": "Docx konvertálása Mhtml-be és e-mail küldése"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Docx konvertálása Mhtml-be és e-mail küldése"
+"url": "/hu/net/basic-conversions/docx-to-mhtml-and-sending-email/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A Docx konvertálása Mhtml-re és e-mail küldése
+# Docx konvertálása Mhtml-be és e-mail küldése
 
 ## Bevezetés
 
-mai digitális korban gyakori feladat a dokumentumok egyik formátumból a másikba konvertálása és e-mailben történő elküldése. Ez a cikk végigvezeti a DOCX-fájlok MHTML formátumba konvertálásának folyamatán, majd az Aspose.Words for .NET használatával e-mailben történő elküldésén. Az egyes lépéseket egy részletes, könnyen követhető útmutatóban részletezzük, biztosítva, hogy az elejétől a végéig megértse a folyamatot. Merüljünk el!
+mai digitális korban a dokumentumok egyik formátumból a másikba konvertálása és e-mailben történő elküldése gyakori feladat. Ez a cikk végigvezeti Önt egy DOCX fájl MHTML formátumba konvertálásának folyamatán, majd az Aspose.Words for .NET segítségével e-mailben történő elküldésének folyamatán. Minden lépést részletesen, könnyen követhető útmutatóban ismertetünk, biztosítva, hogy az elejétől a végéig megértse a folyamatot. Vágjunk bele!
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-1.  Aspose.Words for .NET: Töltse le és telepítse az Aspose.Words for .NET könyvtárat a[Az Aspose kiadási oldala](https://releases.aspose.com/words/net/).
-2.  Aspose.Email for .NET: Töltse le és telepítse az Aspose.Email for .NET könyvtárat a[Az Aspose kiadási oldala](https://releases.aspose.com/email/net/).
-3. .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer telepítve van a számítógépen.
-4. SMTP-szerver: E-mailek küldéséhez hozzá kell férnie egy SMTP-kiszolgálóhoz.
+1. Aspose.Words .NET-hez: Töltse le és telepítse az Aspose.Words .NET-hez könyvtárat a következő helyről: [Aspose kiadási oldal](https://releases.aspose.com/words/net/).
+2. Aspose.Email .NET-hez: Töltse le és telepítse az Aspose.Email .NET-hez könyvtárat a következő helyről: [Aspose kiadási oldal](https://releases.aspose.com/email/net/).
+3. .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer telepítve van a gépén.
+4. SMTP-kiszolgáló: E-mailek küldéséhez hozzáférésre van szükség egy SMTP-kiszolgálóhoz.
 
 ## Névterek importálása
 
-Az Aspose.Words és az Aspose.Email használatához a projektben importálnia kell a szükséges névtereket. Adja hozzá a következőket a C# fájl tetején található direktívák használatával:
+Az Aspose.Words és az Aspose.Email használatához a projektedben importálnod kell a szükséges névtereket. Add hozzá a következőket a C# fájlod elejéhez direktívák használatával:
 
 ```csharp
 using Aspose.Words;
@@ -38,11 +40,11 @@ using Aspose.Email.Mime;
 using Aspose.Email.Clients.Smtp;
 ```
 
-Bontsuk le a folyamatot több lépésre, hogy biztosan megértse az egyes részeket.
+Bontsuk a folyamatot több lépésre, hogy biztosan minden egyes részt világosan megértsünk.
 
-## 1. lépés: Töltse be a DOCX-dokumentumot
+## 1. lépés: Töltse be a DOCX dokumentumot
 
- Először is be kell töltenie a konvertálni kívánt DOCX dokumentumot. Használja a`Document` osztályt az Aspose.Words webhelyről a DOCX fájl betöltéséhez.
+Először is be kell töltened a konvertálni kívánt DOCX dokumentumot. Használd a `Document` osztály az Aspose.Words fájlból a DOCX fájl betöltéséhez.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
@@ -50,36 +52,36 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
-## 2. lépés: Mentse el a dokumentumot MHTML-ként
+## 2. lépés: Mentse el a dokumentumot MHTML formátumban
 
- Ezután mentse a betöltött dokumentumot MHTML-fájlként. Ez a`Save` módszere a`Document` osztály.
+Ezután mentse el a betöltött dokumentumot MHTML fájlként. Ezt a következővel teheti meg: `Save` a módszer `Document` osztály.
 
 ```csharp
 Stream stream = new MemoryStream();
 doc.Save(stream, SaveFormat.Mhtml);
 
-// Tekerje vissza az adatfolyamot az elejére, hogy az Aspose.Email elolvashassa.
+// Tekerd vissza a streamet az elejére, hogy az Aspose.Email el tudja olvasni.
 stream.Position = 0;
 ```
 
-## 3. lépés: Hozzon létre egy e-mail üzenetet
+## 3. lépés: E-mail üzenet létrehozása
 
- Most hozzon létre egy e-mail üzenetet az MHTML-folyamból az Aspose.Email segítségével. Használni fogod a`MailMessage` osztályt erre a célra.
+Most hozz létre egy e-mail üzenetet az MHTML-folyamból az Aspose.Email használatával. Használni fogod a `MailMessage` osztály erre a célra.
 
 ```csharp
-// Hozzon létre egy Aspose.Email MIME e-mail üzenetet az adatfolyamból.
+// Hozz létre egy Aspose.Email MIME e-mail üzenetet a streamből.
 MailMessage message = MailMessage.Load(stream, new MhtmlLoadOptions());
 message.From = "your_from@email.com";
 message.To = "your_to@email.com";
 message.Subject = "Aspose.Words + Aspose.Email MHTML Test Message";
 ```
 
-## 4. lépés: Küldje el az e-mailt
+## 4. lépés: Küldd el az e-mailt
 
- Végül küldje el az e-mailt egy SMTP-kliens segítségével. Konfigurálja az SMTP-klienst az SMTP-kiszolgáló adataival, és használja a`Send` az üzenet küldésének módja.
+Végül küldje el az e-mailt egy SMTP kliens segítségével. Konfigurálja az SMTP klienst az SMTP szerver adataival, és használja a `Send` módszer az üzenet elküldésére.
 
 ```csharp
-// Küldje el az üzenetet az Aspose.Email használatával.
+// Küldd el az üzenetet az Aspose.Email használatával.
 SmtpClient client = new SmtpClient();
 client.Host = "your_smtp.com";
 client.Send(message);
@@ -87,28 +89,33 @@ client.Send(message);
 
 ## Következtetés
 
-Gratulálok! Sikeresen konvertált egy DOCX-dokumentumot MHTML-re, és elküldte e-mailben az Aspose.Words for .NET használatával. Ez a folyamat magában foglalja a dokumentum betöltését, MHTML formátumba konvertálását, e-mail üzenet létrehozását és SMTP kliens segítségével történő elküldését. Ezekkel a lépésekkel egyszerűen automatizálhatja az alkalmazásokban található dokumentumok konvertálását és e-mailben történő elküldését.
+Gratulálunk! Sikeresen konvertáltál egy DOCX dokumentumot MHTML formátumba, és elküldted e-mailben az Aspose.Words for .NET segítségével. Ez a folyamat magában foglalja a dokumentum betöltését, MHTML formátumba konvertálását, egy e-mail üzenet létrehozását és elküldését egy SMTP klienssel. Ezekkel a lépésekkel könnyedén automatizálhatod a dokumentumok konvertálását és e-mailben küldését az alkalmazásaidban.
 
 ## GYIK
 
 ### Használhatom ezt a módszert más dokumentumformátumok konvertálására?
-Igen, az Aspose.Words különféle formátumokat támogat, és olyan dokumentumokat konvertálhat MHTML formátumba, mint a DOC, DOCX, RTF és egyebek.
+Igen, az Aspose.Words különféle formátumokat támogat, és olyan dokumentumokat konvertálhatsz MHTML-re, mint a DOC, DOCX, RTF és egyebek.
 
-### Hogyan adhatok mellékleteket az e-mailhez?
- Használhatja a`Attachments` tulajdona a`MailMessage` osztályt, hogy mellékleteket adjon az e-mailekhez.
+### Hogyan tudok mellékleteket hozzáadni az e-mailhez?
+Használhatod a `Attachments` a tulajdona `MailMessage` osztály mellékletek hozzáadásához az e-mailhez.
 
-### Az Aspose.Words kompatibilis a .NET Core-al?
-Igen, az Aspose.Words kompatibilis a .NET Core-al. Használhatja .NET Core alkalmazásokban is.
+### Kompatibilis az Aspose.Words a .NET Core-ral?
+Igen, az Aspose.Words kompatibilis a .NET Core-ral. .NET Core alkalmazásokban is használható.
 
-### Szükségem van licencre az Aspose.Words és az Aspose.Email használatához?
- Igen, mindkét könyvtárhoz licenc szükséges. Ideiglenes jogosítványt kaphat a[Aspose vásárlási oldal](https://purchase.aspose.com/temporary-license/) értékelési célokra.
+### Szükségem van licencre az Aspose.Words és az Aspose.Email alkalmazásokhoz?
+Igen, mindkét könyvtárhoz licenc szükséges. Ideiglenes licencet szerezhet be a [Aspose vásárlási oldal](https://purchase.aspose.com/temporary-license/) értékelési célokra.
 
 ### Hol találok további dokumentációt?
- Az Aspose.Words részletes dokumentációja megtalálható[itt](https://reference.aspose.com/words/net/) és az Aspose.Email számára[itt](https://reference.aspose.com/email/net/).
+Az Aspose.Words részletes dokumentációját itt találod. [itt](https://reference.aspose.com/words/net/) és az Aspose.Email számára [itt](https://reference.aspose.com/email/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

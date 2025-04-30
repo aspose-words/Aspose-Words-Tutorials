@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Office Math Objects trong Aspose.Words cho Java
-linktitle: Sử dụng Office Math Objects
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Mở khóa sức mạnh của các phương trình toán học trong tài liệu với Aspose.Words cho Java. Học cách thao tác và hiển thị các đối tượng Office Math một cách dễ dàng.
-weight: 13
-url: /vi/java/document-conversion-and-export/using-office-math-objects/
+"description": "Mở khóa sức mạnh của các phương trình toán học trong tài liệu với Aspose.Words cho Java. Học cách thao tác và hiển thị các đối tượng Office Math một cách dễ dàng."
+"linktitle": "Sử dụng Office Math Objects"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng Office Math Objects trong Aspose.Words cho Java"
+"url": "/vi/java/document-conversion-and-export/using-office-math-objects/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Office Math Objects trong Aspose.Words cho Java
@@ -25,7 +27,7 @@ Trước khi đi sâu vào những phức tạp khi làm việc với Office Mat
 - Đã cài đặt Aspose.Words cho Java.
 - Một tài liệu chứa các phương trình Office Math (trong hướng dẫn này, chúng tôi sẽ sử dụng "OfficeMath.docx").
 
-## Hiểu về các đối tượng toán học của Office
+## Hiểu về các đối tượng Office Math
 
 Đối tượng Office Math được sử dụng để biểu diễn các phương trình toán học trong một tài liệu. Aspose.Words for Java cung cấp hỗ trợ mạnh mẽ cho Office Math, cho phép bạn kiểm soát cách hiển thị và định dạng của chúng. 
 
@@ -51,7 +53,7 @@ OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true)
 
 ### Đặt Kiểu Hiển Thị
 
- Bạn có thể kiểm soát cách phương trình được hiển thị trong tài liệu. Sử dụng`setDisplayType` phương pháp để chỉ định xem nó sẽ được hiển thị cùng dòng với văn bản hay trên dòng của nó:
+Bạn có thể kiểm soát cách phương trình được hiển thị trong tài liệu. Sử dụng `setDisplayType` phương pháp để chỉ định xem nó sẽ được hiển thị cùng dòng với văn bản hay trên dòng của nó:
 
 ```java
 officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
@@ -59,7 +61,7 @@ officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
 
 ### Đặt căn chỉnh
 
-Bạn cũng có thể thiết lập căn chỉnh của phương trình. Ví dụ, hãy căn chỉnh nó sang bên trái:
+Bạn cũng có thể thiết lập sự căn chỉnh của phương trình. Ví dụ, hãy căn chỉnh nó sang bên trái:
 
 ```java
 officeMath.setJustification(OfficeMathJustification.LEFT);
@@ -96,7 +98,7 @@ Các đối tượng Office Math trong Aspose.Words for Java cho phép bạn bi�
 
 ### Tôi có thể căn chỉnh các phương trình Office Math theo cách khác nhau trong tài liệu của mình không?
 
- Có, bạn có thể kiểm soát sự căn chỉnh của các phương trình Office Math. Sử dụng`setJustification`phương pháp để chỉ định các tùy chọn căn chỉnh như trái, phải hoặc giữa.
+Có, bạn có thể kiểm soát sự căn chỉnh của các phương trình Office Math. Sử dụng `setJustification` phương pháp để chỉ định các tùy chọn căn chỉnh như trái, phải hoặc giữa.
 
 ### Aspose.Words for Java có phù hợp để xử lý các tài liệu toán học phức tạp không?
 
@@ -104,14 +106,19 @@ Chắc chắn rồi! Aspose.Words for Java rất phù hợp để xử lý các 
 
 ### Tôi có thể tìm hiểu thêm về Aspose.Words cho Java bằng cách nào?
 
- Để có tài liệu và tải xuống đầy đủ, hãy truy cập[Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/).
+Để có tài liệu và tải xuống đầy đủ, hãy truy cập [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/).
 
 ### Tôi có thể tải Aspose.Words cho Java ở đâu?
 
- Bạn có thể tải xuống Aspose.Words cho Java từ trang web:[Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/).
+Bạn có thể tải xuống Aspose.Words cho Java từ trang web: [Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

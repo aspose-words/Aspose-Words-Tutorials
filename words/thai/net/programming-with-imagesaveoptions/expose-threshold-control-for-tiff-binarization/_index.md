@@ -1,14 +1,16 @@
 ---
-title: เปิดเผยการควบคุมเกณฑ์สำหรับการแปลงเป็นไบนารีแบบ Tiff
-linktitle: เปิดเผยการควบคุมเกณฑ์สำหรับการแปลงเป็นไบนารีแบบ Tiff
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีเปิดเผยการควบคุมขีดจำกัดสำหรับการแปลงไฟล์ TIFF เป็นไบนารีในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้
-weight: 10
-url: /th/net/programming-with-imagesaveoptions/expose-threshold-control-for-tiff-binarization/
+"description": "เรียนรู้วิธีเปิดเผยการควบคุมขีดจำกัดสำหรับการแปลงไฟล์ TIFF เป็นไบนารีในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้"
+"linktitle": "เปิดเผยการควบคุมเกณฑ์สำหรับการแปลงเป็นไบนารีแบบ Tiff"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "เปิดเผยการควบคุมเกณฑ์สำหรับการแปลงเป็นไบนารีแบบ Tiff"
+"url": "/th/net/programming-with-imagesaveoptions/expose-threshold-control-for-tiff-binarization/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เปิดเผยการควบคุมเกณฑ์สำหรับการแปลงเป็นไบนารีแบบ Tiff
@@ -21,7 +23,7 @@ url: /th/net/programming-with-imagesaveoptions/expose-threshold-control-for-tiff
 
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1.  Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้จาก[หน้าวางจำหน่าย Aspose](https://releases.aspose.com/words/net/) . หากคุณยังไม่มีใบอนุญาต คุณสามารถขอรับได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้จาก [หน้าวางจำหน่าย Aspose](https://releases.aspose.com/words/net/). หากคุณยังไม่มีใบอนุญาต คุณสามารถขอรับได้ [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
 2. สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE อื่น ๆ ที่เข้ากันได้กับ .NET
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับ C# เพียงเล็กน้อยจะเป็นประโยชน์ แต่ไม่ต้องกังวลหากคุณเป็นมือใหม่ เราจะอธิบายทุกอย่างให้ทราบ
 
@@ -43,21 +45,21 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณ
 
 ## ขั้นตอนที่ 2: โหลดเอกสารของคุณ
 
- ต่อไปเราต้องโหลดเอกสารที่เราต้องการประมวลผล ในตัวอย่างนี้เราจะใช้เอกสารชื่อ`Rendering.docx`.
+ต่อไปเราต้องโหลดเอกสารที่เราต้องการประมวลผล ในตัวอย่างนี้เราจะใช้เอกสารชื่อ `Rendering-docx`.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- บรรทัดโค้ดนี้จะสร้างสิ่งใหม่`Document` วัตถุและโหลดไฟล์ที่ระบุ
+บรรทัดโค้ดนี้จะสร้างสิ่งใหม่ `Document` วัตถุและโหลดไฟล์ที่ระบุ
 
 ## ขั้นตอนที่ 3: กำหนดค่าตัวเลือกการบันทึกภาพ
 
- ตอนนี้มาถึงส่วนที่สนุกแล้ว! เราต้องกำหนดค่าตัวเลือกการบันทึกภาพเพื่อควบคุมการแปลงไฟล์ TIFF เป็นไบนารี เราจะใช้`ImageSaveOptions` คลาสที่จะตั้งค่าคุณสมบัติต่างๆ
+ตอนนี้มาถึงส่วนที่สนุกแล้ว! เราต้องกำหนดค่าตัวเลือกการบันทึกภาพเพื่อควบคุมการแปลงไฟล์ TIFF เป็นไบนารี เราจะใช้ `ImageSaveOptions` คลาสที่จะตั้งค่าคุณสมบัติต่างๆ
 
 ```csharp
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Tiff)
@@ -70,9 +72,9 @@ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Tiff)
 ```
 
 มาแยกส่วนนี้ออก:
--  TiffCompression: กำหนดประเภทการบีบอัดสำหรับภาพ TIFF ที่นี่เราจะใช้`Ccitt3`.
--  ImageColorMode: ตั้งค่าโหมดสี เราตั้งค่าเป็น`Grayscale` เพื่อสร้างภาพโทนสีเทา
--  TiffBinarizationMethod: ระบุวิธีการไบนารี เรากำลังใช้`FloydSteinbergDithering`.
+- TiffCompression: กำหนดประเภทการบีบอัดสำหรับภาพ TIFF ที่นี่เราจะใช้ `Ccitt3`-
+- ImageColorMode: ตั้งค่าโหมดสี เราตั้งค่าเป็น `Grayscale` เพื่อสร้างภาพโทนสีเทา
+- TiffBinarizationMethod: ระบุวิธีการไบนารี เรากำลังใช้ `FloydSteinbergDithering`-
 - ThresholdForFloydSteinbergDithering: กำหนดเกณฑ์สำหรับ Floyd-Steinberg dithering ค่ายิ่งสูงขึ้น พิกเซลสีดำก็จะยิ่งน้อยลง
 
 ## ขั้นตอนที่ 4: บันทึกเอกสารเป็น TIFF
@@ -95,7 +97,7 @@ doc.Save(dataDir + "WorkingWithImageSaveOptions.ExposeThresholdControlForTiffBin
 การแปลงภาพ TIFF เป็นไบนารี คือกระบวนการแปลงภาพโทนสีเทาหรือภาพสีให้เป็นภาพขาวดำ (ไบนารี)
 
 ### เหตุใดจึงต้องใช้การสุ่มจุดแบบ Floyd-Steinberg?
-การสั่นแบบ Floyd-Steinberg จะช่วยกระจายข้อผิดพลาดของพิกเซลในลักษณะที่ลดสิ่งแปลกปลอมทางภาพในภาพสุดท้าย ทำให้ดูเรียบเนียนขึ้น
+การสุ่มกระจายแบบ Floyd-Steinberg จะช่วยกระจายข้อผิดพลาดของพิกเซลในลักษณะที่ลดสิ่งแปลกปลอมทางภาพในภาพสุดท้าย ทำให้ภาพดูเรียบเนียนขึ้น
 
 ### ฉันสามารถใช้รูปแบบการบีบอัดอื่นสำหรับ TIFF ได้หรือไม่
 ใช่ Aspose.Words รองรับวิธีการบีบอัด TIFF ต่างๆ เช่น LZW, CCITT4 และ RLE
@@ -104,11 +106,16 @@ doc.Save(dataDir + "WorkingWithImageSaveOptions.ExposeThresholdControlForTiffBin
 Aspose.Words สำหรับ .NET เป็นไลบรารีเชิงพาณิชย์ แต่คุณสามารถรับรุ่นทดลองใช้งานฟรีหรือใบอนุญาตชั่วคราวเพื่อประเมินคุณลักษณะต่างๆ ของมันได้
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมได้ที่ไหน
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมสำหรับ Aspose.Words สำหรับ .NET ได้ที่[เว็บไซต์อาโพส](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมสำหรับ Aspose.Words สำหรับ .NET ได้ที่ [เว็บไซต์อาโพส](https://reference-aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Menyimpan Gambar dari Dokumen di Aspose.Words untuk Java
-linktitle: Menyimpan Gambar dari Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menyimpan gambar dari dokumen menggunakan Aspose.Words untuk Java dengan panduan langkah demi langkah yang komprehensif. Sesuaikan format, kompresi, dan banyak lagi.
-weight: 17
-url: /id/java/document-loading-and-saving/saving-images-from-documents/
+"description": "Pelajari cara menyimpan gambar dari dokumen menggunakan Aspose.Words untuk Java dengan panduan langkah demi langkah yang komprehensif. Sesuaikan format, kompresi, dan banyak lagi."
+"linktitle": "Menyimpan Gambar dari Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menyimpan Gambar dari Dokumen di Aspose.Words untuk Java"
+"url": "/id/java/document-loading-and-saving/saving-images-from-documents/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menyimpan Gambar dari Dokumen di Aspose.Words untuk Java
@@ -20,7 +22,7 @@ Dalam tutorial ini, kita akan menjelajahi cara menyimpan gambar dari dokumen men
 
 ## Prasyarat
 
- Sebelum memulai, pastikan Anda telah mengintegrasikan pustaka Aspose.Words for Java ke dalam proyek Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/java/).
+Sebelum memulai, pastikan Anda telah mengintegrasikan pustaka Aspose.Words for Java ke dalam proyek Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/java/).
 
 ## Langkah 1: Menyimpan Gambar sebagai TIFF dengan Kontrol Ambang Batas
 
@@ -177,7 +179,7 @@ Anda telah mempelajari cara menyimpan gambar dari dokumen menggunakan Aspose.Wor
 
 ### Bagaimana cara mengubah format gambar saat menyimpan dengan Aspose.Words untuk Java?
 
- Anda dapat mengubah format gambar dengan menentukan format yang diinginkan di`ImageSaveOptions` Misalnya, untuk menyimpan sebagai PNG, gunakan`SaveFormat.PNG` seperti yang ditunjukkan dalam kode:
+Anda dapat mengubah format gambar dengan menentukan format yang diinginkan di `ImageSaveOptions`Misalnya, untuk menyimpan sebagai PNG, gunakan `SaveFormat.PNG` seperti yang ditunjukkan dalam kode:
 
 ```java
 ImageSaveOptions saveOptions = new ImageSaveOptions();
@@ -193,7 +195,7 @@ saveOptions.setTiffCompression(TiffCompression.CCITT_3);
 
 ### Bagaimana cara menyimpan halaman tertentu dari dokumen sebagai gambar terpisah?
 
- Untuk menyimpan halaman tertentu sebagai gambar, gunakan`setPageSet`metode dalam`ImageSaveOptions` Misalnya, untuk menyimpan hanya halaman pertama, atur`PageSet` ke`new PageSet(0)`.
+Untuk menyimpan halaman tertentu sebagai gambar, gunakan `setPageSet` metode dalam `ImageSaveOptions`Misalnya, untuk menyimpan hanya halaman pertama, atur `PageSet` ke `new PageSet(0)`.
 
 ```java
 saveOptions.setPageSet(new PageSet(0)); // Simpan halaman pertama sebagai gambar
@@ -201,7 +203,7 @@ saveOptions.setPageSet(new PageSet(0)); // Simpan halaman pertama sebagai gambar
 
 ### Bagaimana cara menerapkan pengaturan khusus pada gambar JPEG saat menyimpan?
 
-Anda dapat menerapkan pengaturan khusus ke gambar JPEG menggunakan`ImageSaveOptions`. Sesuaikan properti seperti kecerahan, kontras, dan resolusi. Misalnya, untuk mengubah kecerahan menjadi 0,3 dan kontras menjadi 0,7, gunakan kode ini:
+Anda dapat menerapkan pengaturan khusus ke gambar JPEG menggunakan `ImageSaveOptions`. Sesuaikan properti seperti kecerahan, kontras, dan resolusi. Misalnya, untuk mengubah kecerahan menjadi 0,3 dan kontras menjadi 0,7, gunakan kode ini:
 
 ```java
 options.setImageBrightness(0.3f);
@@ -210,13 +212,13 @@ options.setImageContrast(0.7f);
 
 ### Bagaimana saya dapat menggunakan panggilan balik untuk menyesuaikan penyimpanan gambar?
 
- Untuk menggunakan panggilan balik untuk menyesuaikan penyimpanan gambar, atur`PageSavingCallback` di dalam`ImageSaveOptions` . Buatlah kelas yang mengimplementasikan`IPageSavingCallback` antarmuka dan mengganti`pageSaving` metode.
+Untuk menggunakan panggilan balik untuk menyesuaikan penyimpanan gambar, atur `PageSavdi dalamgCallback` in `ImageSaveOptions`. Buatlah kelas yang mengimplementasikan `IPageSavingCallback` antarmuka dan mengganti `pageSaving` metode.
 
 ```java
 imageSaveOptions.setPageSavingCallback(new HandlePageSavingCallback());
 ```
 
- Kemudian, buatlah kelas yang mengimplementasikan`IPageSavingCallback` antarmuka dan menyesuaikan nama file dan lokasi di`pageSaving` metode.
+Kemudian, buatlah kelas yang mengimplementasikan `IPageSavingCallback` antarmuka dan menyesuaikan nama file dan lokasi di `pageSaving` metode.
 
 ```java
 private static class HandlePageSavingCallback implements IPageSavingCallback {
@@ -225,9 +227,14 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
     }
 }
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

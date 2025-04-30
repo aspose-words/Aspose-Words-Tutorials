@@ -1,14 +1,16 @@
 ---
-title: Αποθήκευση εικόνων από έγγραφα στο Aspose.Words για Java
-linktitle: Αποθήκευση εικόνων από έγγραφα
-second_title: Aspose.Words Java Document Processing API
-description: Μάθετε πώς να αποθηκεύετε εικόνες από έγγραφα χρησιμοποιώντας το Aspose.Words για Java με τον αναλυτικό οδηγό μας βήμα προς βήμα. Προσαρμόστε μορφές, συμπίεση και πολλά άλλα.
-weight: 17
-url: /el/java/document-loading-and-saving/saving-images-from-documents/
+"description": "Μάθετε πώς να αποθηκεύετε εικόνες από έγγραφα χρησιμοποιώντας το Aspose.Words για Java με τον ολοκληρωμένο οδηγό μας βήμα προς βήμα. Προσαρμόστε τις μορφές, τη συμπίεση και πολλά άλλα."
+"linktitle": "Αποθήκευση εικόνων από έγγραφα"
+"second_title": "API επεξεργασίας εγγράφων Java Aspose.Words"
+"title": "Αποθήκευση εικόνων από έγγραφα στο Aspose.Words για Java"
+"url": "/el/java/document-loading-and-saving/saving-images-from-documents/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Αποθήκευση εικόνων από έγγραφα στο Aspose.Words για Java
@@ -16,15 +18,15 @@ url: /el/java/document-loading-and-saving/saving-images-from-documents/
 
 ## Εισαγωγή στην αποθήκευση εικόνων από έγγραφα στο Aspose.Words για Java
 
-Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να αποθηκεύσετε εικόνες από έγγραφα χρησιμοποιώντας το Aspose.Words για Java. Θα καλύψουμε διάφορα σενάρια και επιλογές προσαρμογής για την αποθήκευση εικόνας. Αυτός ο οδηγός παρέχει οδηγίες βήμα προς βήμα με παραδείγματα πηγαίου κώδικα.
+Σε αυτό το σεμινάριο, θα εξερευνήσουμε πώς να αποθηκεύουμε εικόνες από έγγραφα χρησιμοποιώντας το Aspose.Words για Java. Θα καλύψουμε διάφορα σενάρια και επιλογές προσαρμογής για την αποθήκευση εικόνων. Αυτός ο οδηγός παρέχει οδηγίες βήμα προς βήμα με παραδείγματα πηγαίου κώδικα.
 
 ## Προαπαιτούμενα
 
- Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε ενσωματωμένη τη βιβλιοθήκη Aspose.Words for Java στο έργο σας. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/words/java/).
+Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε ενσωματώσει στο έργο σας τη βιβλιοθήκη Aspose.Words για Java. Μπορείτε να την κατεβάσετε από [εδώ](https://releases.aspose.com/words/java/).
 
 ## Βήμα 1: Αποθήκευση εικόνων ως TIFF με έλεγχο κατωφλίου
 
-Για να αποθηκεύσετε εικόνες σε μορφή TIFF με έλεγχο κατωφλίου, ακολουθήστε τα εξής βήματα:
+Για να αποθηκεύσετε εικόνες σε μορφή TIFF με έλεγχο ορίου, ακολουθήστε τα εξής βήματα:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -36,9 +38,9 @@ saveOptions.setThresholdForFloydSteinbergDithering((byte) 254);
 doc.save("Your Directory Path" + "ThresholdControlledImage.tiff", saveOptions);
 ```
 
-## Βήμα 2: Αποθήκευση συγκεκριμένης σελίδας ως TIFF πολλαπλών σελίδων
+## Βήμα 2: Αποθήκευση συγκεκριμένης σελίδας ως αρχείο TIFF πολλαπλών σελίδων
 
-Για να αποθηκεύσετε μια συγκεκριμένη σελίδα ως πολυσέλιδο TIFF, χρησιμοποιήστε τον ακόλουθο κώδικα:
+Για να αποθηκεύσετε μια συγκεκριμένη σελίδα ως αρχείο TIFF πολλαπλών σελίδων, χρησιμοποιήστε τον ακόλουθο κώδικα:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -62,7 +64,7 @@ saveOptions.setPixelFormat(ImagePixelFormat.FORMAT_1_BPP_INDEXED);
 doc.save("Your Directory Path" + "1BPPIndexed.png", saveOptions);
 ```
 
-## Βήμα 4: Αποθήκευση σελίδας ως JPEG με Προσαρμογή
+## Βήμα 4: Αποθήκευση σελίδας ως JPEG με προσαρμογή
 
 Για να αποθηκεύσετε μια συγκεκριμένη σελίδα ως JPEG με επιλογές προσαρμογής, χρησιμοποιήστε αυτόν τον κώδικα:
 
@@ -76,9 +78,9 @@ options.setHorizontalResolution(72f);
 doc.save("Your Directory Path" + "CustomizedJPEG.jpeg", options);
 ```
 
-## Βήμα 5: Χρήση επιστροφής κλήσης για αποθήκευση σελίδας
+## Βήμα 5: Χρήση της Επανάκλησης Αποθήκευσης Σελίδας
 
-Μπορείτε να χρησιμοποιήσετε μια επιστροφή κλήσης για να προσαρμόσετε την αποθήκευση σελίδας. Εδώ είναι ένα παράδειγμα:
+Μπορείτε να χρησιμοποιήσετε μια επανάκληση για να προσαρμόσετε την αποθήκευση σελίδας. Ακολουθεί ένα παράδειγμα:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -96,7 +98,7 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
 }
 ```
 
-## Πλήρης πηγαίος κώδικας για αποθήκευση εικόνων από έγγραφα στο Aspose.Words για Java
+## Πλήρης πηγαίος κώδικας για την αποθήκευση εικόνων από έγγραφα στο Aspose.Words για Java
 
 ```java
 public void exposeThresholdControlForTiffBinarization() throws Exception
@@ -142,7 +144,7 @@ public void getJpegPageRange() throws Exception
 	// Ορίστε το "PageSet" σε "0" για να μετατρέψετε μόνο την πρώτη σελίδα ενός εγγράφου.
 	options.setPageSet(new PageSet(0));
 	// Αλλάξτε τη φωτεινότητα και την αντίθεση της εικόνας.
-	// Και τα δύο είναι σε κλίμακα 0-1 και είναι στο 0,5 από προεπιλογή.
+	// Και τα δύο βρίσκονται σε κλίμακα 0-1 και από προεπιλογή στο 0,5.
 	options.setImageBrightness(0.3f);
 	options.setImageContrast(0.7f);
 	// Αλλάξτε την οριζόντια ανάλυση.
@@ -171,13 +173,13 @@ private static class HandlePageSavingCallback implements IPageSavingCallback
 
 ## Σύναψη
 
-Έχετε μάθει πώς να αποθηκεύετε εικόνες από έγγραφα χρησιμοποιώντας το Aspose.Words για Java. Αυτά τα παραδείγματα δείχνουν διάφορες επιλογές προσαρμογής για την αποθήκευση εικόνας, συμπεριλαμβανομένης της χρήσης μορφής, συμπίεσης και επανάκλησης. Εξερευνήστε περισσότερες δυνατότητες με το Aspose.Words για τις ισχυρές δυνατότητες της Java.
+Μάθατε πώς να αποθηκεύετε εικόνες από έγγραφα χρησιμοποιώντας το Aspose.Words για Java. Αυτά τα παραδείγματα παρουσιάζουν διάφορες επιλογές προσαρμογής για την αποθήκευση εικόνων, όπως η μορφή, η συμπίεση και η χρήση επανάκλησης. Εξερευνήστε περισσότερες δυνατότητες με το Aspose.Words για τις ισχυρές δυνατότητες της Java.
 
 ## Συχνές ερωτήσεις
 
 ### Πώς μπορώ να αλλάξω τη μορφή εικόνας κατά την αποθήκευση με το Aspose.Words για Java;
 
- Μπορείτε να αλλάξετε τη μορφή εικόνας καθορίζοντας την επιθυμητή μορφή στο`ImageSaveOptions` . Για παράδειγμα, για αποθήκευση ως PNG, χρησιμοποιήστε`SaveFormat.PNG` όπως φαίνεται στον κώδικα:
+Μπορείτε να αλλάξετε τη μορφή εικόνας καθορίζοντας την επιθυμητή μορφή στο `ImageSaveOptions`Για παράδειγμα, για να αποθηκεύσετε ως PNG, χρησιμοποιήστε `SaveFormat.PNG` όπως φαίνεται στον κώδικα:
 
 ```java
 ImageSaveOptions saveOptions = new ImageSaveOptions();
@@ -193,30 +195,30 @@ saveOptions.setTiffCompression(TiffCompression.CCITT_3);
 
 ### Πώς μπορώ να αποθηκεύσω μια συγκεκριμένη σελίδα από ένα έγγραφο ως ξεχωριστή εικόνα;
 
- Για να αποθηκεύσετε μια συγκεκριμένη σελίδα ως εικόνα, χρησιμοποιήστε το`setPageSet`μέθοδος σε`ImageSaveOptions` . Για παράδειγμα, για να αποθηκεύσετε μόνο την πρώτη σελίδα, ορίστε το`PageSet` να`new PageSet(0)`.
+Για να αποθηκεύσετε μια συγκεκριμένη σελίδα ως εικόνα, χρησιμοποιήστε το `setPageSet` μέθοδος σε `ImageSaveOptions`Για παράδειγμα, για να αποθηκεύσετε μόνο την πρώτη σελίδα, ορίστε το `PageSet` να `new PageSet(0)`.
 
 ```java
-saveOptions.setPageSet(new PageSet(0)); // Αποθηκεύστε την πρώτη σελίδα ως εικόνα
+saveOptions.setPageSet(new PageSet(0)); // Αποθήκευση της πρώτης σελίδας ως εικόνα
 ```
 
 ### Πώς μπορώ να εφαρμόσω προσαρμοσμένες ρυθμίσεις σε εικόνες JPEG κατά την αποθήκευση;
 
-Μπορείτε να εφαρμόσετε προσαρμοσμένες ρυθμίσεις σε εικόνες JPEG χρησιμοποιώντας`ImageSaveOptions`. Προσαρμόστε ιδιότητες όπως φωτεινότητα, αντίθεση και ανάλυση. Για παράδειγμα, για να αλλάξετε τη φωτεινότητα σε 0,3 και την αντίθεση σε 0,7, χρησιμοποιήστε αυτόν τον κωδικό:
+Μπορείτε να εφαρμόσετε προσαρμοσμένες ρυθμίσεις σε εικόνες JPEG χρησιμοποιώντας `ImageSaveOptions`Προσαρμόστε ιδιότητες όπως η φωτεινότητα, η αντίθεση και η ανάλυση. Για παράδειγμα, για να αλλάξετε τη φωτεινότητα σε 0,3 και την αντίθεση σε 0,7, χρησιμοποιήστε αυτόν τον κώδικα:
 
 ```java
 options.setImageBrightness(0.3f);
 options.setImageContrast(0.7f);
 ```
 
-### Πώς μπορώ να χρησιμοποιήσω μια επιστροφή κλήσης για την προσαρμογή της αποθήκευσης εικόνας;
+### Πώς μπορώ να χρησιμοποιήσω μια επανάκληση για την προσαρμογή της αποθήκευσης εικόνων;
 
- Για να χρησιμοποιήσετε μια επανάκληση για την προσαρμογή της αποθήκευσης εικόνας, ορίστε το`PageSavingCallback` σε`ImageSaveOptions` . Δημιουργήστε μια κλάση που υλοποιεί το`IPageSavingCallback` διεπαφή και παράκαμψη του`pageSaving` μέθοδος.
+Για να χρησιμοποιήσετε μια επανάκληση για την προσαρμογή της αποθήκευσης εικόνας, ορίστε το `PageSavσεgCallback` in `ImageSaveOptions`Δημιουργήστε μια κλάση που υλοποιεί το `IPageSavingCallback` διεπαφή και να παρακάμψετε το `pageSaving` μέθοδος.
 
 ```java
 imageSaveOptions.setPageSavingCallback(new HandlePageSavingCallback());
 ```
 
- Στη συνέχεια, δημιουργήστε μια κλάση που υλοποιεί το`IPageSavingCallback` διεπαφή και προσαρμόστε το όνομα και τη θέση του αρχείου στο`pageSaving` μέθοδος.
+Στη συνέχεια, δημιουργήστε μια κλάση που υλοποιεί το `IPageSavingCallback` διεπαφή και προσαρμόστε το όνομα και τη θέση του αρχείου στο `pageSaving` μέθοδος.
 
 ```java
 private static class HandlePageSavingCallback implements IPageSavingCallback {
@@ -225,9 +227,14 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
     }
 }
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

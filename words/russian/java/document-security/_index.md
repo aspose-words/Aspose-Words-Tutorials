@@ -1,14 +1,16 @@
 ---
-title: Безопасность документов
-linktitle: Безопасность документов
-second_title: API обработки документов Java Aspose.Words
-description: Повысьте безопасность документов с помощью Aspose.Words для Java! Внедрите защиту, шифрование и цифровые подписи для надежной защиты данных.
-weight: 17
-url: /ru/java/document-security/
+"description": "Повысьте безопасность документов с помощью Aspose.Words для Java! Внедрите защиту, шифрование и цифровые подписи для надежной защиты данных."
+"linktitle": "Безопасность документов"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Безопасность документов"
+"url": "/ru/java/document-security/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Безопасность документов
@@ -39,9 +41,13 @@ url: /ru/java/document-security/
 Узнайте, как реализовать безопасные цифровые подписи в документах с помощью Aspose.Words для Java. Обеспечьте целостность документа с помощью пошагового руководства и исходного кода
 ### [Редактирование документов и защита данных](./document-redaction-data-protection/)
 Узнайте, как защитить ваши документы и отредактировать конфиденциальные данные с помощью Aspose.Words для Java. Пошаговое руководство с исходным кодом.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

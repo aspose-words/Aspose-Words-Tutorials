@@ -1,14 +1,16 @@
 ---
-title: เครื่องมือสร้างเอกสาร เพิ่มบุ๊กมาร์กในเอกสาร Word
-linktitle: เครื่องมือสร้างเอกสาร เพิ่มบุ๊กมาร์กในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแทรกบุ๊กมาร์กในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้ เหมาะอย่างยิ่งสำหรับการจัดการเอกสารอัตโนมัติ
-weight: 10
-url: /th/net/add-content-using-documentbuilder/document-builder-insert-bookmark/
+"description": "เรียนรู้วิธีแทรกบุ๊กมาร์กในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้ เหมาะอย่างยิ่งสำหรับการจัดการเอกสารอัตโนมัติ"
+"linktitle": "เครื่องมือสร้างเอกสาร เพิ่มบุ๊กมาร์กในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "เครื่องมือสร้างเอกสาร เพิ่มบุ๊กมาร์กในเอกสาร Word"
+"url": "/th/net/add-content-using-documentbuilder/document-builder-insert-bookmark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เครื่องมือสร้างเอกสาร เพิ่มบุ๊กมาร์กในเอกสาร Word
@@ -21,13 +23,13 @@ url: /th/net/add-content-using-documentbuilder/document-builder-insert-bookmark/
 
 ก่อนที่เราจะลงมือทำโค้ด เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีทุกสิ่งที่จำเป็น:
 
-1.  Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้งเวอร์ชันล่าสุดจาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้งเวอร์ชันล่าสุดจาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: ตรวจสอบให้แน่ใจว่าคุณมี IDE เช่น Visual Studio ที่ตั้งค่าไว้สำหรับการพัฒนา .NET
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับ C# เล็กน้อยจะเป็นประโยชน์
 
 ## นำเข้าเนมสเปซ
 
-ขั้นแรก คุณต้องนำเข้าเนมสเปซที่จำเป็น ซึ่งจะทำให้คุณเข้าถึงคลาสและเมธอดต่างๆ ที่จัดเตรียมไว้โดยไลบรารี Aspose.Words ได้
+สิ่งแรกที่ต้องทำคือนำเข้าเนมสเปซที่จำเป็น ซึ่งจะทำให้คุณเข้าถึงคลาสและเมธอดต่างๆ ที่จัดเตรียมไว้โดยไลบรารี Aspose.Words ได้
 
 ```csharp
 using Aspose.Words;
@@ -57,7 +59,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- ที่นี่,`Document` สร้างอินสแตนซ์เอกสารใหม่และ`DocumentBuilder` ให้เครื่องมือแก่เราสำหรับการเพิ่มเนื้อหาลงในเอกสาร
+ที่นี่, `Document` สร้างอินสแตนซ์เอกสารใหม่และ `DocumentBuilder` ให้เครื่องมือแก่เราสำหรับการเพิ่มเนื้อหาลงในเอกสาร
 
 ## ขั้นตอนที่ 3: เริ่มต้นการสร้างบุ๊กมาร์ก
 
@@ -67,7 +69,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartBookmark("FineBookmark");
 ```
 
- ในบรรทัดนี้`StartBookmark` เริ่มบุ๊กมาร์กด้วยชื่อ "FineBookmark" ชื่อนี้จะไม่ซ้ำกันภายในเอกสาร
+ในบรรทัดนี้ `StartBookmark` เริ่มบุ๊กมาร์กด้วยชื่อ "FineBookmark" ชื่อนี้จะไม่ซ้ำกันภายในเอกสาร
 
 ## ขั้นตอนที่ 4: เพิ่มเนื้อหาภายในบุ๊กมาร์ก
 
@@ -77,7 +79,7 @@ builder.StartBookmark("FineBookmark");
 builder.Writeln("This is just a fine bookmark.");
 ```
 
- การ`Writeln` วิธีการเพิ่มย่อหน้าใหม่พร้อมข้อความที่ระบุลงในเอกสาร
+การ `Writeln` วิธีการเพิ่มย่อหน้าใหม่พร้อมข้อความที่ระบุลงในเอกสาร
 
 ## ขั้นตอนที่ 5: สิ้นสุดการบุ๊กมาร์ก
 
@@ -87,7 +89,7 @@ builder.Writeln("This is just a fine bookmark.");
 builder.EndBookmark("FineBookmark");
 ```
 
- การ`EndBookmark` วิธีการนี้จะทำให้บุ๊กมาร์กที่เราเริ่มไว้ก่อนหน้านี้เสร็จสมบูรณ์
+การ `EndBookmark` วิธีการนี้จะทำให้บุ๊กมาร์กที่เราเริ่มไว้ก่อนหน้านี้เสร็จสมบูรณ์
 
 ## ขั้นตอนที่ 6: บันทึกเอกสาร
 
@@ -101,7 +103,7 @@ doc.Save(dataDir + "AddContentUsingDocumentBuilder.DocumentBuilderInsertBookmark
 
 ## บทสรุป
 
-และแล้วคุณก็ทำได้สำเร็จ! คุณได้แทรกบุ๊กมาร์กลงในเอกสาร Word สำเร็จแล้วโดยใช้ Aspose.Words สำหรับ .NET ขั้นตอนนี้อาจดูเหมือนเป็นขั้นตอนเล็กๆ น้อยๆ แต่เป็นเครื่องมือที่มีประสิทธิภาพในแวดวงการทำงานอัตโนมัติของเอกสาร ด้วยบุ๊กมาร์ก คุณสามารถสร้างเอกสารแบบไดนามิกและโต้ตอบได้ซึ่งนำทางได้ง่าย
+และแล้วคุณก็ทำได้สำเร็จ! คุณได้แทรกบุ๊กมาร์กลงในเอกสาร Word สำเร็จแล้วโดยใช้ Aspose.Words สำหรับ .NET ขั้นตอนนี้อาจดูเหมือนเป็นขั้นตอนเล็กๆ น้อยๆ แต่เป็นเครื่องมือที่มีประสิทธิภาพในแวดวงการทำงานอัตโนมัติของเอกสาร ด้วยบุ๊กมาร์ก คุณสามารถสร้างเอกสารแบบไดนามิกและโต้ตอบได้ซึ่งใช้งานง่าย
 
 ## คำถามที่พบบ่อย
 
@@ -112,16 +114,21 @@ doc.Save(dataDir + "AddContentUsingDocumentBuilder.DocumentBuilderInsertBookmark
 ใช่ คุณสามารถเพิ่มบุ๊กมาร์กได้หลายรายการ เพียงแต่ให้แน่ใจว่าบุ๊กมาร์กแต่ละรายการมีชื่อเฉพาะ
 
 ### ฉันสามารถนำทางไปยังโปรแกรมบุ๊กมาร์กได้อย่างไร?
- คุณสามารถใช้`Document.Range.Bookmarks` คอลเลกชันเพื่อนำทางหรือจัดการบุ๊กมาร์กด้วยโปรแกรม
+คุณสามารถใช้ `Document.Range.Bookmarks` คอลเลกชันเพื่อนำทางหรือจัดการบุ๊กมาร์กด้วยโปรแกรม
 
 ### ฉันสามารถเพิ่มเนื้อหาที่ซับซ้อนลงในบุ๊กมาร์กได้หรือไม่
 แน่นอน! คุณสามารถเพิ่มข้อความ ตาราง รูปภาพ หรือองค์ประกอบอื่น ๆ ภายในบุ๊กมาร์กได้
 
 ### Aspose.Words สำหรับ .NET ใช้ได้ฟรีหรือไม่?
-Aspose.Words สำหรับ .NET เป็นผลิตภัณฑ์เชิงพาณิชย์ แต่คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+Aspose.Words สำหรับ .NET เป็นผลิตภัณฑ์เชิงพาณิชย์ แต่คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก [ที่นี่](https://releases-aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

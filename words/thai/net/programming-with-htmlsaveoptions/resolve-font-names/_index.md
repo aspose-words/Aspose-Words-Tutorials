@@ -1,14 +1,16 @@
 ---
-title: แก้ไขชื่อแบบอักษร
-linktitle: แก้ไขชื่อแบบอักษร
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการแก้ไขชื่อแบบอักษรในเอกสาร Word เมื่อแปลงเป็น HTML โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมคำอธิบายโดยละเอียด
-weight: 10
-url: /th/net/programming-with-htmlsaveoptions/resolve-font-names/
+"description": "เรียนรู้วิธีการแก้ไขชื่อแบบอักษรในเอกสาร Word เมื่อแปลงเป็น HTML โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมคำอธิบายโดยละเอียด"
+"linktitle": "แก้ไขชื่อแบบอักษร"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แก้ไขชื่อแบบอักษร"
+"url": "/th/net/programming-with-htmlsaveoptions/resolve-font-names/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แก้ไขชื่อแบบอักษร
@@ -21,8 +23,8 @@ url: /th/net/programming-with-htmlsaveoptions/resolve-font-names/
 
 ก่อนที่เราจะเริ่ม เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
-1.  Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลด คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
-2.  ใบอนุญาตที่ถูกต้อง: คุณสามารถซื้อใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy) หรือรับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลด คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
+2. ใบอนุญาตที่ถูกต้อง: คุณสามารถซื้อใบอนุญาตได้ [ที่นี่](https://purchase.aspose.com/buy) หรือรับใบอนุญาตชั่วคราว [ที่นี่](https://purchase-aspose.com/temporary-license/).
 3. ความรู้พื้นฐานเกี่ยวกับ C# และ .NET: บทช่วยสอนนี้ถือว่าคุณคุ้นเคยกับแนวคิดการเขียนโปรแกรมขั้นพื้นฐานใน C# แล้ว
 4. Visual Studio: เวอร์ชันใดก็ตามที่รองรับ .NET framework
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
 คำอธิบาย:
- ที่นี่,`dataDir` เก็บเส้นทางไปยังไดเรกทอรีเอกสารของคุณ แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงบนระบบของคุณ
+ที่นี่, `dataDir` เก็บเส้นทางไปยังไดเรกทอรีเอกสารของคุณ แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงบนระบบของคุณ
 
 ## ขั้นตอนที่ 2: การโหลดเอกสาร Word
 
@@ -58,7 +60,7 @@ Document doc = new Document(dataDir + "Missing font.docx");
 ```
 
 คำอธิบาย:
- เราสร้าง`Document` วัตถุและโหลดเอกสาร Word ชื่อ "Missing font.docx" จากของเรา`dataDir`.
+เราสร้าง `Document` วัตถุและโหลดเอกสาร Word ชื่อ "Missing font.docx" จากของเรา `dataDir`-
 
 ## ขั้นตอนที่ 3: การกำหนดค่าตัวเลือกการบันทึก HTML
 
@@ -73,7 +75,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html)
 ```
 
 คำอธิบาย:
- เราสร้างอินสแตนซ์ของ`HtmlSaveOptions` กับ`SaveFormat.Html` . การ`PrettyFormat` ตัวเลือกนี้ทำให้ผลลัพธ์ HTML อ่านได้ง่ายขึ้น และ`ResolveFontNames` ช่วยให้แน่ใจว่าชื่อแบบอักษรได้รับการแก้ไขแล้ว
+เราสร้างอินสแตนซ์ของ `HtmlSaveOptions` กับ `SaveFormat.Html`. การ `PrettyFormat` ตัวเลือกนี้ทำให้ผลลัพธ์ HTML อ่านได้ง่ายขึ้น และ `ResolveFontNames` ช่วยให้แน่ใจว่าชื่อแบบอักษรได้รับการแก้ไขแล้ว
 
 ## ขั้นตอนที่ 4: บันทึกเอกสารเป็น HTML
 
@@ -84,7 +86,7 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ResolveFontNames.html", saveOptio
 ```
 
 คำอธิบาย:
- เราเรียกว่า`Save` วิธีการบน`Document` วัตถุ โดยระบุเส้นทางเอาต์พุตและตัวเลือกการบันทึกที่เราตั้งค่าไว้ ซึ่งจะสร้างไฟล์ HTML ที่มีชื่อฟอนต์ที่แก้ไขแล้ว
+เราเรียกว่า `Save` วิธีการบน `Document` วัตถุ โดยระบุเส้นทางเอาต์พุตและตัวเลือกการบันทึกที่เราตั้งค่าไว้ ซึ่งจะสร้างไฟล์ HTML ที่มีชื่อฟอนต์ที่แก้ไขแล้ว
 
 ## บทสรุป
 
@@ -96,19 +98,24 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ResolveFontNames.html", saveOptio
 Aspose.Words สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง แก้ไข และแปลงเอกสาร Word ได้โดยการใช้โปรแกรม
 
 ### ฉันจะติดตั้ง Aspose.Words สำหรับ .NET ได้อย่างไร?
- คุณสามารถดาวน์โหลด Aspose.Words สำหรับ .NET ได้จาก[ที่นี่](https://releases.aspose.com/words/net/). ปฏิบัติตามคำแนะนำในการติดตั้งซึ่งมีอยู่ในเอกสารประกอบ
+คุณสามารถดาวน์โหลด Aspose.Words สำหรับ .NET ได้จาก [ที่นี่](https://releases.aspose.com/words/net/). ปฏิบัติตามคำแนะนำในการติดตั้งซึ่งมีอยู่ในเอกสารประกอบ
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ .NET โดยไม่ต้องมีใบอนุญาตได้หรือไม่
- ใช่ แต่จะมีข้อจำกัดบางประการ หากต้องการใช้งานเต็มรูปแบบ คุณสามารถซื้อใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy) หรือรับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ใช่ แต่จะมีข้อจำกัดบางประการ หากต้องการใช้งานเต็มรูปแบบ คุณสามารถซื้อใบอนุญาตได้ [ที่นี่](https://purchase.aspose.com/buy) หรือรับใบอนุญาตชั่วคราว [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### เหตุใดแบบอักษรของฉันจึงไม่แสดงอย่างถูกต้องใน HTML
- สิ่งนี้อาจเกิดขึ้นได้หากแบบอักษรไม่ได้รับการแก้ไขอย่างถูกต้องในระหว่างการแปลง การใช้`ResolveFontNames = true` ใน`HtmlSaveOptions` สามารถช่วยแก้ไขปัญหานี้ได้
+สิ่งนี้อาจเกิดขึ้นได้หากแบบอักษรไม่ได้รับการแก้ไขอย่างถูกต้องในระหว่างการแปลง การใช้ `ResolveFontNames = true` ใน `HtmlSaveOptions` สามารถช่วยแก้ไขปัญหานี้ได้
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
- คุณสามารถรับการสนับสนุนได้จาก[ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8).
+คุณสามารถรับการสนับสนุนได้จาก [ฟอรั่มสนับสนุน Aspose.Words](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

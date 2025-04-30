@@ -1,14 +1,16 @@
 ---
-title: Cytat
-linktitle: Cytat
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dodawać cudzysłowy i zagnieżdżone cytaty blokowe do dokumentów Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby opanować tworzenie dokumentów.
-weight: 10
-url: /pl/net/working-with-markdown/quote/
+"description": "Dowiedz się, jak dodawać cudzysłowy i zagnieżdżone cytaty blokowe do dokumentów Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby opanować tworzenie dokumentów."
+"linktitle": "Cytat"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Cytat"
+"url": "/pl/net/working-with-markdown/quote/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cytat
@@ -23,7 +25,7 @@ Aspose.Words for .NET to niesamowita biblioteka, która sprawia, że praca z dok
 
 Zanim zaczniemy, jest kilka rzeczy, które musisz mieć na miejscu:
 
--  Aspose.Words dla .NET: Można go pobrać[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Można go pobrać [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne .NET: Upewnij się, że masz zainstalowany program Visual Studio lub inne środowisko IDE .NET.
 - Podstawowa wiedza o języku C#: W tym samouczku zakładamy, że posiadasz podstawową wiedzę na temat programowania w języku C#.
 
@@ -43,14 +45,14 @@ Te przestrzenie nazw dają dostęp do klas i metod, których będziesz potrzebow
 
 ## Krok 1: Utwórz instancję DocumentBuilder
 
- Na początek musimy utworzyć instancję`DocumentBuilder` klasa. Ta klasa pozwala nam dodawać treść do naszego dokumentu.
+Na początek musimy utworzyć instancję `DocumentBuilder` klasa. Ta klasa pozwala nam dodawać treść do naszego dokumentu.
 
 ```csharp
 // Użyj kreatora dokumentów, aby dodać treść do dokumentu.
 DocumentBuilder builder = new DocumentBuilder();
 ```
 
- Ten`DocumentBuilder` class jest twoją bramą do budowania i dostosowywania twojego dokumentu. Pomyśl o tym jak o swojej magicznej różdżce do tworzenia dokumentów Word!
+Ten `DocumentBuilder` class jest twoją bramą do budowania i dostosowywania twojego dokumentu. Pomyśl o tym jak o swojej magicznej różdżce do tworzenia dokumentów Word!
 
 ## Krok 2: Dodaj cytat blokowy
 
@@ -90,22 +92,27 @@ Aspose.Words for .NET to potężna biblioteka do pracy z dokumentami Word w apli
 
 ### Czy mogę używać Aspose.Words dla .NET za darmo?
 
-Możesz wypróbować Aspose.Words dla .NET za darmo z licencją tymczasową. Możesz go pobrać[Tutaj](https://purchase.aspose.com/temporary-license/).
+Możesz wypróbować Aspose.Words dla .NET za darmo z licencją tymczasową. Możesz go pobrać [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Czy istnieje szczegółowa dokumentacja Aspose.Words dla .NET?
 
- Tak, możesz znaleźć szczegółową dokumentację[Tutaj](https://reference.aspose.com/words/net/).
+Tak, możesz znaleźć szczegółową dokumentację [Tutaj](https://reference.aspose.com/words/net/).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Words dla platformy .NET?
 
- Jeśli potrzebujesz wsparcia, możesz odwiedzić forum Aspose.Words[Tutaj](https://forum.aspose.com/c/words/8).
+Jeśli potrzebujesz wsparcia, możesz odwiedzić forum Aspose.Words [Tutaj](https://forum.aspose.com/c/words/8).
 
 ### Gdzie mogę pobrać Aspose.Words dla .NET?
 
- Możesz pobrać Aspose.Words dla .NET z[Tutaj](https://releases.aspose.com/words/net/).
+Możesz pobrać Aspose.Words dla .NET z [Tutaj](https://releases.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

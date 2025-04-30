@@ -1,60 +1,68 @@
 ---
-title: Maak en format een tabel in Word-document met Aspose.Words
-weight: 7700
-limit: 
-description: Leer hoe je een tabel in een Word-document kunt maken en formateren met de documentbuilder-klasse Aspose.Words.
-keywords: [Aspose.Words for .NET, create table in Word, format table cell, DocumentBuilder example, Word automation .NET, table formatting, Aspose.Words tutorial, .NET library for Word]
-url: /nl/net/working-with-table-styles-and-formatting/set-table-cell-formatting/
+"description": "Leer hoe u een tabel in een Word-document maakt en opmaakt met behulp van de Aspose.Words DocumentBuilder-klasse. Inclusief stapsgewijze instructies en voorbeeldcode."
+"title": "Een tabel maken en opmaken in een Word-document met Aspose.Words"
+"url": "/nl/net/working-with-table-styles-and-formatting/set-table-cell-formatting/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Maak en format een tabel in Word-document met Aspose.Words
+# Een tabel maken en opmaken in een Word-document met Aspose.Words
 
-Aspose.Words voor .NET vereenvoudigt de Word documentmanipulatie, waardoor taken zoals het maken en opmaken van tabellen eenvoudig worden gemaakt.`DocumentBuilder`In deze handleiding wordt stap voor stap aangetoond hoe je een tabel kunt maken, cel eigenschappen zoals padding en breedte kunt instellen en tekst aan cellen kunt toevoegen. Of je nu rapporten automatisert of documenten genereert, deze gids helpt je om het volledige potentieel van Aspose.Words voor Word-tabelformatting te ontgrendelen.
+Aspose.Words voor .NET vereenvoudigt het bewerken van Word-documenten, waardoor taken zoals het maken en opmaken van tabellen eenvoudig worden. Met de krachtige `DocumentBuilder` Met de klasse kunnen ontwikkelaars eenvoudig tabellen bouwen, celopmaak aanpassen en programmatisch inhoud invoegen. Deze tutorial laat stap voor stap zien hoe je een tabel maakt, celeigenschappen zoals opvulling en breedte instelt en tekst aan cellen toevoegt. Of je nu rapporten automatiseert of documenten genereert, deze handleiding helpt je de volledige mogelijkheden van Aspose.Words voor tabelopmaak in Word te benutten. Duik er vandaag nog in en verbeter je Word-automatiseringsprojecten!
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/set-table-cell-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installatie-instructies  
-Volg deze stappen om Aspose.Words voor .NET in uw project te installeren en te gebruiken:  
+Volg deze stappen om Aspose.Words voor .NET in uw project te installeren en gebruiken:  
 
-1. Download Aspose.Words:  
-   Bezoek de [Aspose.Words voor .NET downloadpagina](https://releases.aspose.com/words/net/)en download de nieuwste versie van de bibliotheek.  
+1. Download Aspose.Woorden:  
+   Bezoek de [Aspose.Words voor .NET downloadpagina](https://releases.aspose.com/words/net/) en download de nieuwste versie van de bibliotheek.  
 
-2. Installeer via NuGet:  
-   Open je .NET-project in Visual Studio, ga naar de NuGet Package Manager (Tools > NuGet Package Manager > Manage NuGet Packages for Solution), zoek naar "Aspose.Words", en installeer het pakket.  
+2. Installeren via NuGet:  
+   Open uw .NET-project in Visual Studio, ga naar NuGet Package Manager (Extra > NuGet Package Manager > NuGet-pakketten beheren voor oplossing), zoek naar 'Aspose.Words' en installeer het pakket.  
 
-   Als alternatief, voer het volgende commando uit in de pakketmanagerconsole:  
+   U kunt ook de volgende opdracht uitvoeren in de Package Manager Console:  
    ```shell
    Install-Package Aspose.Words
    ```  
 
-3. De aanvraag van de licentie (optioneel):  
-   Om de beoordelingsbeperkingen te verwijderen, moet je een licentie aanvragen.[Hier .](https://purchase.aspose.com/buy)Of een .[tijdelijke vergunning](https://purchase.aspose.com/temporary-license/)Gebruik dan de volgende code om de licentie te gebruiken:  
+3. Licentie toepassen (optioneel):  
+   Om evaluatiebeperkingen te verwijderen, dient u een licentie aan te vragen. Koop een licentie bij [hier](https://purchase.aspose.com/buy) of krijg een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/)Gebruik vervolgens de volgende code om de licentie toe te passen:  
    ```csharp
    License license = new License();
    license.SetLicense("Aspose.Words.lic");
    ```  
 
-4. Voeg Referenties toe:  
-   Zorg ervoor dat `Aspose.Words`het namespace wordt ingevoerd in uw project met:  
+4. Referenties toevoegen:  
+   Zorg ervoor dat de `Aspose.Words` naamruimte wordt geïmporteerd in uw project met:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    ```  
 
-4. Verzoek licentie (optioneel):  
-   Om de volledige versie te gebruiken, [een vergunning aanvragen](https://purchase.aspose.com/temporary-license/)of gebruik van een [gratis proefproef](https://releases.aspose.com/words/net/)\- Ik heb het niet gedaan .
+4. Licentie toepassen (optioneel):  
+   Om de volledige versie te gebruiken, [een licentie aanvragen](https://purchase.aspose.com/temporary-license/) of gebruik een [gratis proefperiode](https://releases.aspose.com/words/net/).
    
 ## Zie ook
 [Aspose.Word voor .NET-documentatie](https://docs.aspose.com/words/net/)
-[Aspose.Word voor .NET Referenties](https://reference.aspose.com/words/net/) 
+[Aspose.Word voor .NET-referenties](https://reference.aspose.com/words/net/) 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

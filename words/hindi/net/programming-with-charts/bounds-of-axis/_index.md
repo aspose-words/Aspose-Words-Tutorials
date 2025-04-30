@@ -1,14 +1,16 @@
 ---
-title: चार्ट में अक्ष की सीमा
-linktitle: चार्ट में अक्ष की सीमा
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: Aspose.Words for .NET का उपयोग करके चार्ट में अक्ष की सीमा निर्धारित करना सीखें, अक्ष पर प्रदर्शित मानों की सीमा को नियंत्रित करें।
-weight: 10
-url: /hi/net/programming-with-charts/bounds-of-axis/
+"description": ".NET के लिए Aspose.Words का उपयोग करके चार्ट में अक्ष की सीमा निर्धारित करना सीखें, अक्ष पर प्रदर्शित मानों की सीमा को नियंत्रित करें।"
+"linktitle": "चार्ट में अक्ष की सीमा"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "चार्ट में अक्ष की सीमा"
+"url": "/hi/net/programming-with-charts/bounds-of-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # चार्ट में अक्ष की सीमा
@@ -21,11 +23,11 @@ url: /hi/net/programming-with-charts/bounds-of-axis/
 
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
--  .NET के लिए Aspose.Words: आप कर सकते हैं[डाउनलोड करना](https://releases.aspose.com/words/net/) नवीनतम संस्करण या उपयोग करें[मुफ्त परीक्षण](https://releases.aspose.com/).
+- .NET के लिए Aspose.Words: आप कर सकते हैं [डाउनलोड करना](https://releases.aspose.com/words/net/) नवीनतम संस्करण या उपयोग करें [मुफ्त परीक्षण](https://releases.aspose.com/).
 - .NET फ्रेमवर्क: सुनिश्चित करें कि आपके सिस्टम पर .NET स्थापित है।
 - आईडीई: विजुअल स्टूडियो जैसा एक विकास वातावरण।
 
-एक बार जब आपकी सारी चीजें तैयार हो जाएंगी, तो हम अगले चरण पर आगे बढ़ सकते हैं।
+एक बार जब आपकी सारी चीजें तैयार हो जाएंगी, तो हम अगले चरण पर आगे बढ़ सकेंगे।
 
 ## नामस्थान आयात करें
 
@@ -118,19 +120,24 @@ doc.Save(dataDir + "WorkingWithCharts.BoundsOfAxis.docx");
 Aspose.Words for .NET एक लाइब्रेरी है जो आपको .NET फ्रेमवर्क का उपयोग करके प्रोग्रामेटिक रूप से Word दस्तावेज़ बनाने, संशोधित करने और परिवर्तित करने की अनुमति देती है।
 
 ### मैं .NET के लिए Aspose.Words कैसे सेट अप करूँ?
- आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/)और दिए गए स्थापना निर्देशों का पालन करें।
+आप इसे यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/) और दिए गए स्थापना निर्देशों का पालन करें।
 
 ### क्या मैं Aspose.Words का निःशुल्क उपयोग कर सकता हूँ?
- हां, आप इसका उपयोग कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) या प्राप्त करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
+हां, आप इसका उपयोग कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) या प्राप्त करें [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
 
 ### मैं .NET के लिए Aspose.Words हेतु दस्तावेज़ कहां पा सकता हूं?
- विस्तृत दस्तावेज उपलब्ध है[यहाँ](https://reference.aspose.com/words/net/).
+विस्तृत दस्तावेज उपलब्ध है [यहाँ](https://reference.aspose.com/words/net/).
 
 ### मैं Aspose.Words के लिए समर्थन कैसे प्राप्त कर सकता हूं?
- आप यहां जा सकते हैं[सहयता मंच](https://forum.aspose.com/c/words/8) सहायता के लिए.
+आप यहां जा सकते हैं [सहयता मंच](https://forum.aspose.com/c/words/8) सहायता के लिए.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

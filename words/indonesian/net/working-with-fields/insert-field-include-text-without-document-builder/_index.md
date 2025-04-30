@@ -1,14 +1,16 @@
 ---
-title: Sisipkan Bidang Sertakan Teks Tanpa Pembuat Dokumen
-linktitle: Sisipkan FieldIncludeText Tanpa Pembuat Dokumen
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyisipkan FieldIncludeText tanpa menggunakan DocumentBuilder di Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci kami.
-weight: 10
-url: /id/net/working-with-fields/insert-field-include-text-without-document-builder/
+"description": "Pelajari cara menyisipkan FieldIncludeText tanpa menggunakan DocumentBuilder di Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci kami."
+"linktitle": "Sisipkan FieldIncludeText Tanpa Pembuat Dokumen"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Sisipkan Bidang Sertakan Teks Tanpa Pembuat Dokumen"
+"url": "/id/net/working-with-fields/insert-field-include-text-without-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sisipkan Bidang Sertakan Teks Tanpa Pembuat Dokumen
@@ -21,7 +23,7 @@ Dalam dunia otomatisasi dan manipulasi dokumen, Aspose.Words untuk .NET merupaka
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal versi terbaru. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal versi terbaru. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan .NET: Semua IDE yang kompatibel dengan .NET seperti Visual Studio.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda mengikutinya.
 
@@ -34,7 +36,7 @@ using Aspose.Words;
 using Aspose.Words.Fields;
 ```
 
-Sekarang, mari kita bagi contoh tersebut menjadi beberapa langkah. Setiap langkah akan dijelaskan secara terperinci untuk memastikan kejelasan.
+Sekarang, mari kita uraikan contoh tersebut menjadi beberapa langkah. Setiap langkah akan dijelaskan secara terperinci untuk memastikan kejelasan.
 
 ## Langkah 1: Tetapkan Jalur Direktori
 
@@ -116,10 +118,15 @@ FieldIncludeText secara khusus berfungsi dengan dokumen Word. Untuk format lain,
 Ya, Aspose.Words untuk .NET mendukung .NET Framework, .NET Core, dan .NET 5/6.
 
 ### Bagaimana saya bisa mendapatkan uji coba gratis Aspose.Words untuk .NET?  
- Anda bisa mendapatkan uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+Anda bisa mendapatkan uji coba gratis dari [Di Sini](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

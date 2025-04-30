@@ -1,14 +1,16 @@
 ---
-title: Sertifika Sahibini kullanarak PDF'ye Dijital İmza Ekleme
-linktitle: Sertifika Sahibini kullanarak PDF'ye Dijital İmza Ekleme
-second_title: Aspose.Words Belge İşleme API'si
-description: PDF dosyalarınızı Aspose.Words for .NET kullanarak dijital imzayla güvenceye alın. PDF'lerinize zahmetsizce dijital imza eklemek için bu adım adım kılavuzu izleyin.
-weight: 10
-url: /tr/net/programming-with-pdfsaveoptions/digitally-signed-pdf-using-certificate-holder/
+"description": "PDF dosyalarınızı Aspose.Words for .NET kullanarak dijital imzayla güvenceye alın. PDF'lerinize zahmetsizce dijital imza eklemek için bu adım adım kılavuzu izleyin."
+"linktitle": "Sertifika Sahibini kullanarak PDF'ye Dijital İmza Ekleme"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Sertifika Sahibini kullanarak PDF'ye Dijital İmza Ekleme"
+"url": "/tr/net/programming-with-pdfsaveoptions/digitally-signed-pdf-using-certificate-holder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sertifika Sahibini kullanarak PDF'ye Dijital İmza Ekleme
@@ -21,7 +23,7 @@ PDF belgelerinizi dijital imzayla nasıl güvence altına alacağınızı hiç m
 
 Başlamadan önce ihtiyacınız olacak birkaç şey var:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/words/net/).
 2. Bir Sertifika Dosyası: PDF'yi imzalamak için bir .pfx sertifika dosyasına ihtiyacınız olacak. Eğer yoksa, test amaçlı kendi kendine imzalanmış bir sertifika oluşturabilirsiniz.
 3. Visual Studio: Bu eğitimde geliştirme ortamınız olarak Visual Studio kullandığınız varsayılmaktadır.
 4. Temel C# Bilgisi: C# ve .NET programlamaya aşinalık şarttır.
@@ -69,7 +71,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Yer değiştirmek`"your_password"` .pfx dosyanızın şifresiyle.
+Yer değiştirmek `"your_password"` .pfx dosyanızın şifresiyle.
 
 ## Adım 4: Belgeyi Dijital Olarak İmzalanmış PDF Olarak Kaydedin
 
@@ -97,13 +99,18 @@ Evet, PDF'nize dijital imza eklemek için bir .pfx sertifika dosyasına ihtiyac�
 Evet, test amaçlı kendi kendine imzalanmış bir sertifika oluşturabilirsiniz. Ancak, üretim kullanımı için güvenilir bir sertifika yetkilisinden sertifika edinmeniz önerilir.
 
 ### Aspose.Words for .NET ücretsiz mi?
- Aspose.Words for .NET ticari bir üründür, ancak ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/).
+Aspose.Words for .NET ticari bir üründür, ancak ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/).
 
 ### Aspose.Words for .NET'i diğer belge türlerini imzalamak için kullanabilir miyim?
 Evet, Aspose.Words for .NET yalnızca PDF'leri değil, çeşitli türdeki belgeleri imzalamak için kullanılabilir.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,28 +1,30 @@
 ---
-title: Utwórz styl tabeli
-linktitle: Utwórz styl tabeli
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Twórz i stylizuj tabele w dokumentach Word za pomocą Aspose.Words dla .NET. Dowiedz się krok po kroku, jak ulepszyć swoje dokumenty za pomocą profesjonalnego formatowania tabel.
-weight: 10
-url: /pl/net/programming-with-table-styles-and-formatting/create-table-style/
+"description": "Twórz i stylizuj tabele w dokumentach Word za pomocą Aspose.Words dla .NET. Dowiedz się krok po kroku, jak ulepszyć swoje dokumenty za pomocą profesjonalnego formatowania tabel."
+"linktitle": "Utwórz styl tabeli"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Utwórz styl tabeli"
+"url": "/pl/net/programming-with-table-styles-and-formatting/create-table-style/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz styl tabeli
 
 ## Wstęp
 
-Czy kiedykolwiek utknąłeś, próbując stylizować tabele w dokumentach Worda za pomocą .NET? Nie martw się! Dzisiaj zanurzamy się w fantastyczny świat Aspose.Words dla .NET. Przeprowadzimy Cię przez proces tworzenia tabeli, stosowania niestandardowych stylów i zapisywania dokumentu — wszystko w prostym, konwersacyjnym tonie. Niezależnie od tego, czy jesteś początkującym, czy doświadczonym profesjonalistą, ten przewodnik ma coś dla Ciebie. Jesteś gotowy, aby zamienić swoje nudne tabele w stylowe, profesjonalne? Zaczynajmy!
+Czy kiedykolwiek utknąłeś, próbując stylizować tabele w dokumentach Worda za pomocą .NET? Nie martw się! Dzisiaj zanurzamy się w fantastyczny świat Aspose.Words dla .NET. Przeprowadzimy Cię przez proces tworzenia tabeli, stosowania niestandardowych stylów i zapisywania dokumentu — wszystko w prostym, konwersacyjnym tonie. Niezależnie od tego, czy jesteś początkującym, czy doświadczonym profesjonalistą, ten przewodnik ma coś dla Ciebie. Gotowy, aby zamienić swoje nudne tabele w stylowe, profesjonalne? Zaczynajmy!
 
 ## Wymagania wstępne
 
 Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, czego potrzebujesz:
-- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną tę potężną bibliotekę. Możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną tę potężną bibliotekę. Możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Visual Studio lub inne środowisko programistyczne .NET.
-- Podstawowa wiedza z zakresu języka C#: Przydatna będzie pewna znajomość programowania w języku C#.
+- Podstawowa wiedza o języku C#: Przydatna będzie pewna znajomość programowania w języku C#.
 
 ## Importuj przestrzenie nazw
 
@@ -36,17 +38,17 @@ using Aspose.Words.Tables;
 
 ## Krok 1: Zainicjuj dokument i DocumentBuilder
 
- W tym kroku zainicjujemy nowy dokument i`DocumentBuilder` . Ten`DocumentBuilder` Klasa ta umożliwia łatwe tworzenie i formatowanie treści w dokumencie programu Word.
+W tym kroku zainicjujemy nowy dokument i `DocumentBuilder`. Ten `DocumentBuilder` Klasa ta umożliwia łatwe tworzenie i formatowanie treści w dokumencie programu Word.
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Wyjaśnienie: Tworzymy nowy dokument i`DocumentBuilder` wystąpienie, które pomoże nam dodawać i formatować treść w naszym dokumencie.
+Wyjaśnienie: Tworzymy nowy dokument i `DocumentBuilder` wystąpienie, które pomoże nam dodawać i formatować treść w naszym dokumencie.
 
 ## Krok 2: Uruchom tabelę i wstaw komórki
 
@@ -64,7 +66,7 @@ builder.InsertCell();
 builder.EndTable();
 ```
 
- Wyjaśnienie: Tutaj używamy`StartTable` metodę, aby rozpocząć naszą tabelę. Następnie wstawiamy komórki i dodajemy tekst („Nazwa” i „Wartość”). Na koniec kończymy wiersz i tabelę.
+Wyjaśnienie: Tutaj używamy `StartTable` metodę, aby rozpocząć naszą tabelę. Następnie wstawiamy komórki i dodajemy tekst („Nazwa” i „Wartość”). Na koniec kończymy wiersz i tabelę.
 
 ## Krok 3: Dodaj i dostosuj styl tabeli
 
@@ -85,7 +87,7 @@ Wyjaśnienie: Dodajemy nowy styl tabeli o nazwie „MyTableStyle1” i dostosowu
 
 ## Krok 4: Zapisz dokument
 
-Po nadaniu stylu naszej tabeli, czas zapisać dokument. Ten krok zapewnia, że nasze zmiany zostaną zapisane i będziemy mogli otworzyć dokument, aby zobaczyć naszą stylizowaną tabelę.
+Po nadaniu stylu naszej tabeli, czas zapisać dokument. Ten krok zapewnia, że nasze zmiany zostaną zapisane i możemy otworzyć dokument, aby zobaczyć naszą stylowaną tabelę.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.CreateTableStyle.docx");
@@ -106,16 +108,21 @@ Aspose.Words for .NET to potężna biblioteka do programowej pracy z dokumentami
 Tak, możesz używać Aspose.Words dla .NET z dowolnym językiem .NET, w tym VB.NET i F#.
 
 ### Jak zastosować styl tabeli do istniejącej tabeli?
- Możesz zastosować styl tabeli do istniejącej tabeli, tworząc styl, a następnie ustawiając styl tabeli.`Style` nieruchomość do nowego stylu.
+Możesz zastosować styl tabeli do istniejącej tabeli, tworząc styl, a następnie ustawiając styl tabeli. `Style` nieruchomość do nowego stylu.
 
 ### Czy istnieją inne sposoby dostosowania stylów tabeli?
 Tak, możesz dostosować style tabeli na wiele sposobów, m.in. zmieniając kolor tła, style czcionek i inne.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words dla .NET?
- Bardziej szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/words/net/).
+Bardziej szczegółową dokumentację można znaleźć [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

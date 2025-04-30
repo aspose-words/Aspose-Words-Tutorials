@@ -1,14 +1,16 @@
 ---
-title: โค้ดอินไลน์
-linktitle: โค้ดอินไลน์
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีใช้รูปแบบโค้ดอินไลน์ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET บทช่วยสอนนี้ครอบคลุมแบ็กทิกแบบเดี่ยวและหลายแบ็กทิกสำหรับการจัดรูปแบบโค้ด
-weight: 10
-url: /th/net/working-with-markdown/inline-code/
+"description": "เรียนรู้วิธีใช้รูปแบบโค้ดอินไลน์ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET บทช่วยสอนนี้ครอบคลุมแบ็กทิกแบบเดี่ยวและหลายแบ็กทิกสำหรับการจัดรูปแบบโค้ด"
+"linktitle": "โค้ดอินไลน์"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "โค้ดอินไลน์"
+"url": "/th/net/working-with-markdown/inline-code/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # โค้ดอินไลน์
@@ -21,7 +23,7 @@ url: /th/net/working-with-markdown/inline-code/
 
 ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1.  Aspose.Words สำหรับไลบรารี .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words ในสภาพแวดล้อม .NET ของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[หน้าเผยแพร่ Aspose.Words สำหรับ .NET](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับไลบรารี .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words ในสภาพแวดล้อม .NET ของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก [หน้าเผยแพร่ Aspose.Words สำหรับ .NET](https://releases-aspose.com/words/net/).
 
 2. ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรม .NET: คู่มือนี้ถือว่าคุณมีความเข้าใจพื้นฐานเกี่ยวกับ C# และการเขียนโปรแกรม .NET
 
@@ -40,7 +42,7 @@ using Aspose.Words.Drawing;
 
 ## ขั้นตอนที่ 1: เริ่มต้นใช้งาน Document และ DocumentBuilder
 
- ขั้นแรกคุณต้องสร้างเอกสารใหม่และ`DocumentBuilder` ตัวอย่าง.`DocumentBuilder`คลาสช่วยให้คุณสามารถเพิ่มเนื้อหาและจัดรูปแบบในเอกสาร Word ได้
+ขั้นแรกคุณต้องสร้างเอกสารใหม่และ `DocumentBuilder` ตัวอย่าง. `DocumentBuilder` คลาสช่วยให้คุณสามารถเพิ่มเนื้อหาและจัดรูปแบบในเอกสาร Word ได้
 
 ```csharp
 // เริ่มต้น DocumentBuilder ด้วยเอกสารใหม่
@@ -72,7 +74,7 @@ builder.Font.Style = inlineCode1BackTicks;
 builder.Writeln("Text with InlineCode style with 1 backtick");
 ```
 
-## ขั้นตอนที่ 3: เพิ่มสไตล์โค้ดอินไลน์ด้วยแบ็กทิกสามอัน
+## ขั้นตอนที่ 3: เพิ่มสไตล์โค้ดอินไลน์ด้วยแบ็กติ๊กสามอัน
 
 ต่อไปเราจะกำหนดรูปแบบสำหรับโค้ดอินไลน์ด้วยแบ็กทิกสามตัว ซึ่งโดยทั่วไปใช้สำหรับบล็อกโค้ดหลายบรรทัด
 
@@ -83,7 +85,7 @@ builder.Writeln("Text with InlineCode style with 1 backtick");
 Style inlineCode3BackTicks = builder.Document.Styles.Add(StyleType.Character, "InlineCode.3");
 inlineCode3BackTicks.Font.Name = "Courier New"; // แบบอักษรที่สอดคล้องกันสำหรับรหัส
 inlineCode3BackTicks.Font.Size = 10.5; // ขนาดตัวอักษรสำหรับบล็อคโค้ด
-inlineCode3BackTicks.Font.Color = System.Drawing.Color.Green; //มีสีที่แตกต่างกันเพื่อการมองเห็น
+inlineCode3BackTicks.Font.Color = System.Drawing.Color.Green; // มีสีที่แตกต่างกันเพื่อการมองเห็น
 inlineCode3BackTicks.Font.Bold = true; // ใช้ตัวหนาเพื่อเน้นย้ำ
 ```
 
@@ -109,19 +111,24 @@ builder.Writeln("Text with InlineCode style with 3 backticks");
 ใช่ คุณสามารถใช้แบบอักษรใดก็ได้ที่เหมาะกับความต้องการของคุณ แบบอักษรเช่น "Courier New" มักใช้สำหรับโค้ดเนื่องจากมีลักษณะเป็นโมโนสเปซ
 
 ### ฉันจะเปลี่ยนสีของข้อความโค้ดอินไลน์ได้อย่างไร
- คุณสามารถเปลี่ยนสีได้โดยการตั้งค่า`Font.Color` คุณสมบัติของสไตล์ใด ๆ`System.Drawing.Color`.
+คุณสามารถเปลี่ยนสีได้โดยการตั้งค่า `Font.Color` คุณสมบัติของสไตล์ใด ๆ `System-Drawing.Color`.
 
 ### ฉันสามารถใช้รูปแบบต่างๆ กับข้อความเดียวกันได้ไหม
 ใน Aspose.Words คุณสามารถใช้รูปแบบได้ครั้งละหนึ่งรูปแบบเท่านั้น หากคุณต้องการรวมรูปแบบเข้าด้วยกัน ให้พิจารณาสร้างรูปแบบใหม่ที่รวมการจัดรูปแบบที่ต้องการทั้งหมดไว้ด้วยกัน
 
 ### ฉันจะใช้สไตล์กับข้อความที่มีอยู่แล้วในเอกสารได้อย่างไร
- หากต้องการใช้รูปแบบกับข้อความที่มีอยู่ คุณต้องเลือกข้อความก่อน จากนั้นจึงใช้รูปแบบที่ต้องการโดยใช้`Font.Style` คุณสมบัติ.
+หากต้องการใช้รูปแบบกับข้อความที่มีอยู่ คุณต้องเลือกข้อความก่อน จากนั้นจึงใช้รูปแบบที่ต้องการโดยใช้ `Font.Style` คุณสมบัติ.
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับรูปแบบเอกสารอื่นได้หรือไม่
 Aspose.Words ได้รับการออกแบบมาโดยเฉพาะสำหรับเอกสาร Word สำหรับรูปแบบอื่น คุณอาจต้องใช้ไลบรารีอื่นหรือแปลงเอกสารเป็นรูปแบบที่เข้ากันได้
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: दस्तावेज़ गुण और मेटाडेटा प्रबंधन
-linktitle: दस्तावेज़ गुण और मेटाडेटा प्रबंधन
-second_title: Aspose.Words पायथन दस्तावेज़ प्रबंधन API
-description: पायथन के लिए Aspose.Words का उपयोग करके दस्तावेज़ गुण और मेटाडेटा को प्रबंधित करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 12
-url: /hi/python-net/document-options-and-settings/document-properties-metadata/
+"description": "पायथन के लिए Aspose.Words का उपयोग करके दस्तावेज़ गुण और मेटाडेटा को प्रबंधित करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "दस्तावेज़ गुण और मेटाडेटा प्रबंधन"
+"second_title": "Aspose.Words पायथन दस्तावेज़ प्रबंधन API"
+"title": "दस्तावेज़ गुण और मेटाडेटा प्रबंधन"
+"url": "/hi/python-net/document-options-and-settings/document-properties-metadata/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # दस्तावेज़ गुण और मेटाडेटा प्रबंधन
@@ -23,10 +25,10 @@ url: /hi/python-net/document-options-and-settings/document-properties-metadata/
 इससे पहले कि हम दस्तावेज़ गुण और मेटाडेटा का प्रबंधन करना शुरू करें, आइए Python के लिए Aspose.Words के साथ अपना वातावरण सेट करें।
 
 ```python
-# Install the Aspose.Words for Python package
+# पायथन पैकेज के लिए Aspose.Words स्थापित करें
 pip install aspose-words
 
-# Import the necessary classes
+# आवश्यक कक्षाएं आयात करें
 import aspose.words as aw
 ```
 
@@ -35,10 +37,10 @@ import aspose.words as aw
 आप Aspose.Words API का उपयोग करके आसानी से दस्तावेज़ गुण प्राप्त कर सकते हैं। यहाँ एक उदाहरण दिया गया है कि दस्तावेज़ के लेखक और शीर्षक को कैसे प्राप्त किया जाए:
 
 ```python
-# Load the document
+# दस्तावेज़ लोड करें
 doc = aw.Document("document.docx")
 
-# Retrieve document properties
+# दस्तावेज़ गुण पुनर्प्राप्त करें
 author = doc.built_in_document_properties["Author"]
 title = doc.built_in_document_properties["Title"]
 
@@ -51,11 +53,11 @@ print("Title:", title)
 दस्तावेज़ के गुणों को अपडेट करना भी उतना ही सरल है। मान लीजिए कि आप लेखक का नाम और शीर्षक अपडेट करना चाहते हैं:
 
 ```python
-# Update document properties
+# दस्तावेज़ गुण अपडेट करें
 doc.built_in_document_properties["Author"] = "John Doe"
 doc.built_in_document_properties["Title"] = "My Updated Document"
 
-# Save the changes
+# परिवर्तन सहेजें
 doc.save("updated_document.docx")
 ```
 
@@ -64,10 +66,10 @@ doc.save("updated_document.docx")
 कस्टम दस्तावेज़ गुण आपको दस्तावेज़ के भीतर अतिरिक्त जानकारी संग्रहीत करने की अनुमति देते हैं। आइए "विभाग" नामक एक कस्टम गुण जोड़ें:
 
 ```python
-# Add a custom document property
+# कस्टम दस्तावेज़ गुण जोड़ें
 doc.custom_document_properties.add("Department", "Marketing")
 
-# Save the changes
+# परिवर्तन सहेजें
 doc.save("document_with_custom_property.docx")
 ```
 
@@ -76,7 +78,7 @@ doc.save("document_with_custom_property.docx")
 मेटाडेटा प्रबंधन में ट्रैक परिवर्तन, दस्तावेज़ सांख्यिकी और अधिक जैसी जानकारी को नियंत्रित करना शामिल है। Aspose.Words आपको इस मेटाडेटा को प्रोग्रामेटिक रूप से एक्सेस और संशोधित करने देता है।
 
 ```python
-# Access and modify metadata
+# मेटाडेटा तक पहुंचें और उसे संशोधित करें
 doc.metadata["Keywords"] = "Python, Aspose.Words, Metadata"
 ```
 
@@ -85,16 +87,16 @@ doc.metadata["Keywords"] = "Python, Aspose.Words, Metadata"
 Aspose.Words का उपयोग करके बार-बार मेटाडेटा अपडेट को स्वचालित किया जा सकता है। उदाहरण के लिए, आप "अंतिम संशोधित तिथि" प्रॉपर्टी को स्वचालित रूप से अपडेट कर सकते हैं:
 
 ```python
-# Automatically update "Last Modified By"
+# "अंतिम बार संशोधित" को स्वचालित रूप से अपडेट करें
 doc.built_in_document_properties["LastModifiedBy"] = "Automated Process"
 ```
 
 ## मेटाडेटा में संवेदनशील जानकारी की सुरक्षा
 
-मेटाडेटा में कभी-कभी संवेदनशील जानकारी हो सकती है। डेटा गोपनीयता सुनिश्चित करने के लिए, आप कुछ खास गुण हटा सकते हैं:
+मेटाडेटा में कभी-कभी संवेदनशील जानकारी हो सकती है। डेटा गोपनीयता सुनिश्चित करने के लिए, आप विशिष्ट गुण हटा सकते हैं:
 
 ```python
-# Remove sensitive metadata properties
+# संवेदनशील मेटाडेटा गुण हटाएं
 sensitive_properties = ["LastPrinted", "LastSavedBy"]
 for prop in sensitive_properties:
     if prop in doc.built_in_document_properties:
@@ -106,7 +108,7 @@ for prop in sensitive_properties:
 दस्तावेज़ इतिहास को बनाए रखने के लिए संस्करणीकरण महत्वपूर्ण है। Aspose.Words आपको संस्करणों को प्रभावी ढंग से प्रबंधित करने की अनुमति देता है:
 
 ```python
-# Add version history information
+# संस्करण इतिहास जानकारी जोड़ें
 version_info = doc.built_in_document_properties.add("VersionInfo")
 version_info.value = "Version 1.0 - Initial Release"
 ```
@@ -134,11 +136,11 @@ pip install aspose-words
 
 ### क्या मैं Aspose.Words का उपयोग करके मेटाडेटा अपडेट को स्वचालित कर सकता हूं?
 
-हां, आप Aspose.Words का उपयोग करके मेटाडेटा अपडेट को स्वचालित कर सकते हैं। उदाहरण के लिए, आप "अंतिम संशोधित द्वारा" प्रॉपर्टी को स्वचालित रूप से अपडेट कर सकते हैं।
+हां, आप Aspose.Words का उपयोग करके मेटाडेटा अपडेट को स्वचालित कर सकते हैं। उदाहरण के लिए, आप "अंतिम संशोधित तिथि" प्रॉपर्टी को स्वचालित रूप से अपडेट कर सकते हैं।
 
 ### मैं मेटाडेटा में संवेदनशील जानकारी की सुरक्षा कैसे कर सकता हूँ?
 
- मेटाडेटा में संवेदनशील जानकारी की सुरक्षा के लिए, आप इसका उपयोग करके विशिष्ट गुणों को हटा सकते हैं`remove` तरीका।
+मेटाडेटा में संवेदनशील जानकारी की सुरक्षा के लिए, आप इसका उपयोग करके विशिष्ट गुणों को हटा सकते हैं `remove` तरीका।
 
 ### दस्तावेज़ गुणों के प्रबंधन के लिए कुछ सर्वोत्तम अभ्यास क्या हैं?
 
@@ -146,9 +148,14 @@ pip install aspose-words
 - अतिरिक्त संदर्भ के लिए कस्टम गुणों का उपयोग करें.
 - मेटाडेटा की नियमित समीक्षा करें और उसे अद्यतन करें.
 - मेटाडेटा में निहित संवेदनशील जानकारी की सुरक्षा करें।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

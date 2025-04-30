@@ -1,14 +1,16 @@
 ---
-title: Terapkan Lisensi Terukur
-linktitle: Terapkan Lisensi Terukur
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menerapkan lisensi terukur di Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Lisensi yang fleksibel dan hemat biaya menjadi mudah.
-weight: 10
-url: /id/net/apply-license/apply-metered-license/
+"description": "Pelajari cara menerapkan lisensi terukur di Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Lisensi yang fleksibel dan hemat biaya menjadi mudah."
+"linktitle": "Terapkan Lisensi Terukur"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Terapkan Lisensi Terukur"
+"url": "/id/net/apply-license/apply-metered-license/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Terapkan Lisensi Terukur
@@ -21,8 +23,8 @@ Aspose.Words untuk .NET adalah pustaka canggih yang memungkinkan Anda bekerja de
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduh pustaka dari[Situs web Aspose](https://releases.aspose.com/words/net/).
-2.  Kunci Lisensi Terukur yang Valid: Anda memerlukan kunci untuk mengaktifkan lisensi terukur. Anda dapat memperolehnya dari[Halaman Pembelian Aspose](https://purchase.aspose.com/buy).
+1. Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduh pustaka dari [Situs web Aspose](https://releases.aspose.com/words/net/).
+2. Kunci Lisensi Terukur yang Sah: Anda memerlukan kunci untuk mengaktifkan lisensi terukur. Anda dapat memperolehnya dari [Halaman Pembelian Aspose](https://purchase.aspose.com/buy).
 3. Lingkungan Pengembangan: Pastikan Anda telah menyiapkan lingkungan pengembangan .NET. Visual Studio merupakan pilihan yang populer, tetapi Anda dapat menggunakan IDE apa pun yang mendukung .NET.
 
 ## Mengimpor Ruang Nama
@@ -38,7 +40,7 @@ Baiklah, mari kita bahas satu per satu. Kita akan bahas prosesnya langkah demi l
 
 ## Langkah 1: Inisialisasi Kelas Terukur
 
- Hal pertama yang harus dilakukan adalah membuat instance dari`Metered` Kelas ini bertanggung jawab untuk menetapkan lisensi terukur.
+Hal pertama yang harus kita lakukan adalah membuat sebuah instance dari `Metered` Kelas ini bertanggung jawab untuk menetapkan lisensi terukur.
 
 ```csharp
 Metered metered = new Metered();
@@ -46,17 +48,17 @@ Metered metered = new Metered();
 
 ## Langkah 2: Mengatur Tombol Terukur
 
- Sekarang setelah kita memiliki`Metered` Misalnya, kita perlu mengatur kunci terukur. Kunci ini disediakan oleh Aspose dan bersifat unik untuk langganan Anda.
+Sekarang setelah kita memiliki `Metered` Misalnya, kita perlu mengatur kunci terukur. Kunci ini disediakan oleh Aspose dan bersifat khusus untuk langganan Anda.
 
 ```csharp
 metered.SetMeteredKey("your_public_key", "your_private_key");
 ```
 
- Mengganti`"your_public_key"` Dan`"your_private_key"` dengan kunci sebenarnya yang Anda terima dari Aspose. Langkah ini pada dasarnya memberi tahu Aspose bahwa Anda ingin menggunakan lisensi terukur.
+Mengganti `"your_public_key"` Dan `"your_private_key"` dengan kunci sebenarnya yang Anda terima dari Aspose. Langkah ini pada dasarnya memberi tahu Aspose bahwa Anda ingin menggunakan lisensi terukur.
 
 ## Langkah 3: Muat Dokumen Anda
 
- Selanjutnya, mari kita memuat dokumen Word menggunakan Aspose.Words. Untuk contoh ini, kita akan menggunakan dokumen bernama`Document.docx`Pastikan Anda memiliki dokumen ini di direktori proyek Anda.
+Selanjutnya, mari kita memuat dokumen Word menggunakan Aspose.Words. Untuk contoh ini, kita akan menggunakan dokumen bernama `Document.docx`Pastikan Anda memiliki dokumen ini di direktori proyek Anda.
 
 ```csharp
 Document doc = new Document("Document.docx");
@@ -92,7 +94,7 @@ catch (Exception e)
 }
 ```
 
-Hal ini memastikan bahwa jika terjadi kesalahan, Anda akan mendapatkan pesan kesalahan yang berarti dan aplikasi Anda tidak akan mogok.
+Hal ini memastikan bahwa jika terjadi kesalahan, Anda akan mendapatkan pesan kesalahan yang berarti dan bukan aplikasi Anda yang mogok.
 
 ## Kesimpulan
 
@@ -104,7 +106,7 @@ Nah, itu dia! Menerapkan lisensi terukur di Aspose.Words untuk .NET mudah dilaku
 Lisensi terukur adalah model bayar sesuai pemakaian di mana Anda hanya membayar untuk penggunaan sebenarnya Aspose.Words untuk pustaka .NET, yang menawarkan fleksibilitas dan efisiensi biaya.
 
 ### Di mana saya bisa mendapatkan kunci lisensi terukur saya?
- Anda dapat memperoleh kunci lisensi terukur Anda dari[Halaman Pembelian Aspose](https://purchase.aspose.com/buy).
+Anda dapat memperoleh kunci lisensi terukur Anda dari [Halaman Pembelian Aspose](https://purchase.aspose.com/buy).
 
 ### Dapatkah saya menggunakan lisensi terukur dengan proyek .NET apa pun?
 Ya, Anda dapat menggunakan lisensi terukur dengan proyek .NET mana pun yang memanfaatkan pustaka Aspose.Words untuk .NET.
@@ -114,9 +116,13 @@ Jika kuncinya salah, lisensi tidak akan diterapkan, dan aplikasi Anda akan memun
 
 ### Bagaimana cara memverifikasi bahwa lisensi terukur diterapkan dengan benar?
 Anda dapat memverifikasi lisensi terukur dengan melakukan operasi apa pun pada dokumen Word (seperti mencetak jumlah halaman) dan memastikannya dijalankan tanpa kesalahan lisensi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Chèn trường khối địa chỉ trộn thư bằng DOM
-linktitle: Chèn trường khối địa chỉ trộn thư bằng DOM
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn trường Khối địa chỉ trộn thư vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này.
-weight: 10
-url: /vi/net/working-with-fields/insert-mail-merge-address-block-field-using-dom/
+"description": "Tìm hiểu cách chèn trường Khối địa chỉ trộn thư vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này."
+"linktitle": "Chèn trường khối địa chỉ trộn thư bằng DOM"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn trường khối địa chỉ trộn thư bằng DOM"
+"url": "/vi/net/working-with-fields/insert-mail-merge-address-block-field-using-dom/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn trường khối địa chỉ trộn thư bằng DOM
@@ -21,10 +23,10 @@ Bạn đã bao giờ tự hỏi làm thế nào để quản lý và thao tác h
 
 Trước khi đi sâu vào vấn đề chính, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống phiên bản mới nhất từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống phiên bản mới nhất từ [đây](https://releases.aspose.com/words/net/).
 2. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình.
 3. Hiểu biết cơ bản về C#: Hướng dẫn này giả định rằng bạn đã quen với lập trình C#.
-4.  Giấy phép Aspose: Bạn có thể sử dụng bản dùng thử miễn phí từ[đây](https://releases.aspose.com/) hoặc xin giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+4. Giấy phép Aspose: Bạn có thể sử dụng bản dùng thử miễn phí từ [đây](https://releases.aspose.com/) hoặc xin giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập không gian tên
 
@@ -66,7 +68,7 @@ builder.MoveTo(para);
 
 ## Bước 4: Chèn Trường Khối Địa Chỉ
 
-Đây là nơi phép thuật xảy ra. Chúng tôi sẽ chèn một trường Khối địa chỉ trộn thư bằng cách sử dụng trình xây dựng.`InsertField` phương pháp được sử dụng để tạo trường.
+Đây là nơi phép thuật xảy ra. Chúng tôi sẽ chèn một trường Khối địa chỉ trộn thư bằng cách sử dụng trình xây dựng. `InsertField` phương pháp được sử dụng để tạo trường.
 
 ```csharp
 FieldAddressBlock field = (FieldAddressBlock) builder.InsertField(FieldType.FieldAddressBlock, false);
@@ -119,19 +121,24 @@ Và bạn đã có nó! Bạn đã chèn thành công trường Mail Merge Addre
 Aspose.Words for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa, chuyển đổi và in các tài liệu Word theo chương trình bằng các ứng dụng .NET.
 
 ### Tôi có thể sử dụng Aspose.Words miễn phí không?
- Aspose.Words cung cấp bản dùng thử miễn phí mà bạn có thể tải xuống[đây](https://releases.aspose.com/) . Để sử dụng lâu dài, bạn có thể cân nhắc mua giấy phép[đây](https://purchase.aspose.com/buy).
+Aspose.Words cung cấp bản dùng thử miễn phí mà bạn có thể tải xuống [đây](https://releases.aspose.com/). Để sử dụng lâu dài, bạn có thể cân nhắc mua giấy phép [đây](https://purchase.aspose.com/buy).
 
 ### Khối địa chỉ trộn thư là gì?
 Khối địa chỉ trộn thư là một trường trong Word cho phép bạn chèn thông tin địa chỉ từ nguồn dữ liệu, được định dạng theo cách cụ thể, rất lý tưởng để tạo nhãn hoặc thư cá nhân hóa.
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Words?
- Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose và nhóm kỹ thuật[đây](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose và nhóm kỹ thuật [đây](https://forum.aspose.com/c/words/8).
 
 ### Tôi có thể tự động hóa các khía cạnh khác của tài liệu Word bằng Aspose.Words không?
-Chắc chắn rồi! Aspose.Words cho .NET cung cấp nhiều tính năng để tự động tạo tài liệu, chỉnh sửa, chuyển đổi và nhiều hơn nữa. Hãy xem[tài liệu](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
+Chắc chắn rồi! Aspose.Words cho .NET cung cấp nhiều tính năng để tự động tạo tài liệu, chỉnh sửa, chuyển đổi và nhiều hơn nữa. Hãy xem [tài liệu](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Pemeriksaan Urutan TextBox di Word
-linktitle: Pemeriksaan Urutan TextBox di Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Temukan cara memeriksa urutan kotak teks dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami untuk menguasai alur dokumen!
-weight: 10
-url: /id/net/working-with-textboxes/check-sequence/
+"description": "Temukan cara memeriksa urutan kotak teks dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami untuk menguasai alur dokumen!"
+"linktitle": "Pemeriksaan Urutan TextBox di Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Pemeriksaan Urutan TextBox di Word"
+"url": "/id/net/working-with-textboxes/check-sequence/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pemeriksaan Urutan TextBox di Word
@@ -21,7 +23,7 @@ Halo, para pengembang dan penggemar dokumen! 🌟 Pernahkah Anda merasa kesulita
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
-1.  Aspose.Words untuk Pustaka .NET: Pastikan Anda memiliki versi terbaru.[Unduh di sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk Pustaka .NET: Pastikan Anda memiliki versi terbaru. [Unduh di sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan yang kompatibel dengan .NET seperti Visual Studio.
 3. Pengetahuan Dasar C#: Keakraban dengan sintaksis dan konsep C# akan membantu Anda mengikutinya.
 4. Contoh Dokumen Word: Sangat berguna untuk memiliki dokumen Word guna menguji kode Anda, tetapi untuk contoh ini, kita akan membuat semuanya dari awal.
@@ -95,7 +97,7 @@ if (textBox.Next == null && textBox.Previous != null)
 - `textBox.Next`: Menunjuk ke kotak teks berikutnya dalam urutan.
 - `textBox.Previous`: Menunjuk ke kotak teks sebelumnya dalam urutan.
 
- Kode ini memeriksa properti`Next` Dan`Previous` untuk menentukan posisi kotak teks dalam urutan.
+Kode ini memeriksa properti `Next` Dan `Previous` untuk menentukan posisi kotak teks dalam urutan.
 
 ## Langkah 4: Menghubungkan Kotak Teks (Opsional)
 
@@ -118,7 +120,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 }
 ```
 
- Cuplikan ini menetapkan`textBox2` sebagai kotak teks berikutnya untuk`textBox1`, menciptakan urutan yang terhubung.
+Cuplikan ini menetapkan `textBox2` sebagai kotak teks berikutnya untuk `textBox1`, menciptakan urutan yang terhubung.
 
 ## Langkah 5: Menyelesaikan dan Menyimpan Dokumen
 
@@ -138,7 +140,7 @@ Perintah ini menyimpan dokumen sebagai "TextBoxSequenceCheck.docx", mempertahank
 
 Selesai! 🎉 Anda telah mempelajari cara membuat kotak teks, menautkannya, dan memeriksa urutannya dalam dokumen Word menggunakan Aspose.Words untuk .NET. Keterampilan ini sangat berguna untuk mengelola dokumen kompleks dengan beberapa elemen teks yang ditautkan, seperti buletin, formulir, atau panduan instruksional.
 
- Ingat, memahami urutan kotak teks dapat membantu memastikan konten Anda mengalir secara logis dan mudah diikuti oleh pembaca Anda. Jika Anda ingin mempelajari lebih dalam kemampuan Aspose.Words,[Dokumentasi API](https://reference.aspose.com/words/net/) merupakan sumber yang sangat bagus.
+Ingat, memahami urutan kotak teks dapat membantu memastikan konten Anda mengalir secara logis dan mudah diikuti oleh pembaca Anda. Jika Anda ingin mempelajari lebih dalam kemampuan Aspose.Words, [Dokumentasi API](https://reference.aspose.com/words/net/) merupakan sumber yang sangat bagus.
 
 Selamat membuat kode, dan jaga agar dokumen-dokumen tersebut terstruktur dengan sempurna! 🚀
 
@@ -151,16 +153,21 @@ Memeriksa urutan membantu Anda memahami urutan kotak teks, memastikan bahwa kont
 Ya, kotak teks dapat ditautkan dalam urutan apa pun, termasuk pengaturan non-linier. Namun, penting untuk memastikan tautan tersebut masuk akal bagi pembaca.
 
 ### Bagaimana cara menghapus tautan kotak teks dari suatu urutan?
- Anda dapat menghapus tautan kotak teks dengan mengaturnya`Next` atau`Previous` properti untuk`null`, tergantung pada titik pemutusan tautan yang dikehendaki.
+Anda dapat menghapus tautan kotak teks dengan mengaturnya `Next` atau `Previous` properti untuk `null`, tergantung pada titik pemutusan tautan yang dikehendaki.
 
-### Apakah mungkin untuk memberi gaya teks dalam kotak teks yang terhubung secara berbeda?
+### Apakah mungkin untuk memberi gaya pada teks dalam kotak teks yang terhubung secara berbeda?
 Ya, Anda dapat mengatur gaya teks dalam setiap kotak teks secara independen, memberikan Anda fleksibilitas dalam desain dan pemformatan.
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya tentang bekerja dengan kotak teks di Aspose.Words?
- Untuk informasi lebih lanjut, silakan lihat[Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) Dan[forum dukungan](https://forum.aspose.com/c/words/8).
+Untuk informasi lebih lanjut, silakan lihat [Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) Dan [forum dukungan](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

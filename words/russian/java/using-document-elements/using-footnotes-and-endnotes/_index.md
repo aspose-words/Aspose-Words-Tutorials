@@ -1,14 +1,16 @@
 ---
-title: Использование сносок и концевых сносок в Aspose.Words для Java
-linktitle: Использование сносок и концевых примечаний
-second_title: API обработки документов Java Aspose.Words
-description: Научитесь эффективно использовать сноски и концевые сноски в Aspose.Words для Java. Улучшите свои навыки форматирования документов сегодня!
-weight: 13
-url: /ru/java/using-document-elements/using-footnotes-and-endnotes/
+"description": "Научитесь эффективно использовать сноски и концевые сноски в Aspose.Words для Java. Улучшите свои навыки форматирования документов сегодня!"
+"linktitle": "Использование сносок и концевых примечаний"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Использование сносок и концевых сносок в Aspose.Words для Java"
+"url": "/ru/java/using-document-elements/using-footnotes-and-endnotes/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Использование сносок и концевых сносок в Aspose.Words для Java
@@ -119,11 +121,11 @@ public void setEndnoteOptions() throws Exception {
 
 ### Часто задаваемые вопросы
 
-### 1. В чем разница между обычными и концевыми сносками?
+### 1. В чем разница между сносками и концевыми сносками?
 Сноски располагаются внизу страницы, а концевые сноски — в конце раздела или документа.
 
 ### 2. Как изменить положение сносок или концевых сносок?
- Вы можете использовать`setPosition` метод изменения положения сносок или концевых сносок.
+Вы можете использовать `setPosition` метод изменения положения сносок или концевых сносок.
 
 ### 3. Могу ли я настроить форматирование сносок и концевых сносок?
 Да, вы можете настроить форматирование сносок и концевых сносок с помощью Aspose.Words для Java.
@@ -132,9 +134,14 @@ public void setEndnoteOptions() throws Exception {
 Да, сноски и примечания необходимы для предоставления ссылок и дополнительной информации в документах.
 
 Не стесняйтесь изучать больше возможностей Aspose.Words для Java и расширять свои возможности создания документов. Удачного кодирования!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

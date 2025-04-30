@@ -1,63 +1,65 @@
 ---
-title: Indítsa újra az oldalszámozást
-linktitle: Indítsa újra az oldalszámozást
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan indíthatja újra az oldalszámozást Word-dokumentumok egyesítése és hozzáfűzése közben az Aspose.Words for .NET használatával.
-weight: 10
-url: /hu/net/join-and-append-documents/restart-page-numbering/
+"description": "Ismerje meg, hogyan indíthatja újra az oldalszámozást Word-dokumentumok összeillesztésekor és hozzáfűzésekor az Aspose.Words for .NET használatával."
+"linktitle": "Oldalszámozás újraindítása"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Oldalszámozás újraindítása"
+"url": "/hu/net/join-and-append-documents/restart-page-numbering/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Indítsa újra az oldalszámozást
+# Oldalszámozás újraindítása
 
 ## Bevezetés
 
-Küzdött már valaha, hogy olyan finomított dokumentumot hozzon létre, amelynek külön szakaszai vannak, amelyek mindegyike az 1. oldalszámmal kezdődik? Képzeljünk el egy jelentést, amelyben a fejezetek elölről kezdődnek, vagy egy hosszú javaslatot, amely külön szakaszokat tartalmaz a vezetői összefoglalóhoz és a részletes mellékletekhez. Az Aspose.Words for .NET egy nagy teljesítményű dokumentumfeldolgozó könyvtár, amely lehetővé teszi, hogy ezt finoman érje el. Ez az átfogó útmutató leleplezi az oldalszámozás újraindításának titkait, és felkészíti Önt a professzionális megjelenésű dokumentumok könnyű elkészítésére.
+Nehezen tudott már olyan letisztult dokumentumot létrehozni, amely különálló részekből áll, és mindegyik az 1. oldallal kezdődik? Képzeljen el egy jelentést, ahol a fejezetek újrakezdődnek, vagy egy hosszú javaslatot különálló részekkel az összefoglalónak és a részletes függelékeknek. Az Aspose.Words for .NET, egy hatékony dokumentumfeldolgozó könyvtár, lehetővé teszi, hogy ezt kifinomultan elérje. Ez az átfogó útmutató feltárja az oldalszámozás újraindításának titkait, és felkészíti Önt arra, hogy könnyedén professzionális megjelenésű dokumentumokat készítsen.
 
 ## Előfeltételek
 
-Mielőtt elindulna ezen az úton, győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt elindulna erre az útra, győződjön meg arról, hogy rendelkezik a következőkkel:
 
-1.  Aspose.Words for .NET: Töltse le a könyvtárat a hivatalos webhelyről[Letöltési link](https://releases.aspose.com/words/net/) . Megtekintheti az ingyenes próbaverziót[Ingyenes próba link](https://releases.aspose.com/) vagy vásároljon licencet[Vásárlás link](https://purchase.aspose.com/buy) az Ön igényei alapján.
-2. AC# fejlesztői környezet: A Visual Studio vagy bármely olyan környezet, amely támogatja a .NET fejlesztést, tökéletesen működik.
-3. Mintadokumentum: Keresse meg azt a Word-dokumentumot, amellyel kísérletezni szeretne.
+1. Aspose.Words .NET-hez: Töltse le a könyvtárat a hivatalos weboldalról [Letöltési link](https://releases.aspose.com/words/net/)Ingyenes próbaverziót is kipróbálhatsz [Ingyenes próbaverzió linkje](https://releases.aspose.com/) vagy vásároljon licencet [Vásárlási link](https://purchase.aspose.com/buy) az Ön igényei alapján.
+2. AC# fejlesztői környezet: A Visual Studio vagy bármilyen .NET fejlesztést támogató környezet tökéletesen fog működni.
+3. Mintadokumentum: Keressen meg egy Word-dokumentumot, amellyel kísérletezni szeretne.
 
-## Az alapvető névterek importálása
+## Alapvető névterek importálása
 
-Az Aspose.Words objektumokkal és funkcióival való interakcióhoz importálnunk kell a szükséges névtereket. Íme, hogyan kell csinálni:
+Az Aspose.Words objektumokkal és funkciókkal való interakcióhoz importálnunk kell a szükséges névtereket. Íme, hogyan teheti meg:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Settings;
 ```
 
- Ez a kódrészlet importálja a`Aspose.Words` névtér, amely hozzáférést biztosít az alapvető dokumentumkezelési osztályokhoz. Ezen kívül importálunk a`Aspose.Words.Settings` névtér, amely lehetőséget kínál a dokumentumok viselkedésének testreszabására.
+Ez a kódrészlet importálja a `Aspose.Words` névtér, amely hozzáférést biztosít az alapvető dokumentumkezelési osztályokhoz. Ezenkívül importáljuk a `Aspose.Words.Settings` névtér, amely a dokumentumok viselkedésének testreszabására kínál lehetőségeket.
 
 
 Most pedig nézzük meg a dokumentumokon belüli oldalszámozás újraindításának gyakorlati lépéseit:
 
-## 1. lépés: Töltse be a forrás- és céldokumentumot:
+## 1. lépés: A forrás- és céldokumentumok betöltése:
 
-Határozzon meg egy karakterlánc-változót`dataDir` hogy tárolja a dokumentumkönyvtár elérési útját. Cserélje ki a „DOKUMENTUMKÖNYVTÁR” elemet a tényleges hellyel.
+Szövegváltozó definiálása `dataDir` a dokumentumkönyvtár elérési útjának tárolásához. Cserélje ki a „AZ ÖN DOKUMENTUMKÖNYVTÁRA” részt a tényleges hellyel.
 
- Hozzon létre kettőt`Document` objektumok segítségével`Aspose.Words.Document` konstruktőr. Az első (`srcDoc`) fogja tárolni a csatolandó tartalmat tartalmazó forrásdokumentumot. A második (`dstDoc`) jelenti azt a céldokumentumot, amelybe integráljuk a forrástartalmat az újraindított oldalszámozással.
+Hozz létre kettőt `Document` tárgyak a `Aspose.Words.Document` konstruktor. Az első (`srcDoc`) a hozzáfűzendő tartalmat tartalmazó forrásdokumentumot fogja tartalmazni. A második (`dstDoc`a céldokumentumot jelöli, ahová az újrakezdett oldalszámozással integráljuk a forrástartalmat.
 
 ```csharp
-string dataDir = @"C:\MyDocuments\"; // Cserélje le a tényleges könyvtárával
+string dataDir = @"C:\MyDocuments\"; // Cserélje le a tényleges könyvtárára
 Document srcDoc = new Document(dataDir + "source.docx");
 Document dstDoc = new Document(dataDir + "destination.docx");
 ```
 
 ## 2. lépés: A szakasztörés beállítása:
 
- Hozzáférés a`FirstSection` a forrásdokumentum tulajdonsága (`srcDoc`) a kezdeti szakasz manipulálásához. Ennek a szakasznak az oldalszámozása újraindul.
+Hozzáférés a `FirstSection` a forrásdokumentum tulajdonsága (`srcDoc`) a kezdeti szakasz manipulálásához. Ennek a szakasznak az oldalszámozása újraindul.
 
- Használja ki a`PageSetup` a szakasz tulajdonsága az elrendezési viselkedés konfigurálásához.
+Használd ki a `PageSetup` a szakasz tulajdonságát az elrendezési viselkedés konfigurálásához.
 
- Állítsa be a`SectionStart` tulajdona`PageSetup` hogy`SectionStart.NewPage`. Ez biztosítja egy új oldal létrehozását, mielőtt a forrástartalom hozzáfűződik a céldokumentumhoz.
+Állítsa be a `SectionStart` tulajdona `PageSetup` hogy `SectionStart.NewPage`Ez biztosítja, hogy egy új oldal jöjjön létre, mielőtt a forrástartalom hozzáfűződne a céldokumentumhoz.
 
 ```csharp
 srcDoc.FirstSection.PageSetup.SectionStart = SectionStart.NewPage;
@@ -65,7 +67,7 @@ srcDoc.FirstSection.PageSetup.SectionStart = SectionStart.NewPage;
 
 ## 3. lépés: Az oldalszámozás újraindításának engedélyezése:
 
- Ugyanezen belül`PageSetup` a forrásdokumentum első szakaszának objektumát, állítsa be a`RestartPageNumbering`tulajdonát`true`Ez a döntő lépés arra utasítja az Aspose.Words-t, hogy kezdje újra az oldalszámozást a hozzáfűzött tartalomhoz.
+Ugyanazon belül `PageSetup` a forrásdokumentum első szakaszának objektumát, állítsa be a `RestartPageNumbering` ingatlan `true`Ez a kulcsfontosságú lépés arra utasítja az Aspose.Words-t, hogy a hozzáfűzött tartalomhoz újrakezdje az oldalszámozást.
 
 ```csharp
 srcDoc.FirstSection.PageSetup.RestartPageNumbering = true;
@@ -73,19 +75,19 @@ srcDoc.FirstSection.PageSetup.RestartPageNumbering = true;
 
 ## 4. lépés: A forrásdokumentum csatolása:
 
-Most, hogy a forrásdokumentum a kívánt oldaltörés- és számozási konfigurációval elkészült, ideje integrálni a céldokumentumba.
+Most, hogy a forrásdokumentum elkészült a kívánt oldaltöréssel és számozási konfigurációval, itt az ideje integrálni azt a céldokumentumba.
 
- Alkalmazza a`AppendDocument` a céldokumentum módszere (`dstDoc`) a forrástartalom zökkenőmentes hozzáadásához.
+Alkalmazd a `AppendDocument` a céldokumentum metódusa (`dstDoc`) a forrástartalom zökkenőmentes hozzáadásához.
 
-Adja át a forrásdokumentumot (`srcDoc` ) és egy`ImportFormatMode.KeepSourceFormatting` érv ehhez a módszerhez. Ez az argumentum hozzáfűzéskor megőrzi a forrásdokumentum eredeti formázását.
+Adja át a forrásdokumentumot (`srcDoc`) és egy `ImportFormatMode.KeepSourceFormatting` argumentumot ehhez a metódushoz. Ez az argumentum megőrzi a forrásdokumentum eredeti formázását hozzáfűzéskor.
 
 ```csharp
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
-## 5. lépés: A záródokumentum mentése:
+## 5. lépés: A végleges dokumentum mentése:
 
- Végül használja a`Save` a céldokumentum módszere (`dstDoc`) a kombinált dokumentum újraindított oldalszámozással történő tárolására. Adjon meg egy megfelelő fájlnevet és helyet a mentett dokumentum számára.
+Végül használd ki a `Save` a céldokumentum metódusa (`dstDoc`) az egyesített dokumentum újrakezdett oldalszámozással történő tárolásához. Adjon meg egy megfelelő fájlnevet és helyet a mentett dokumentumnak.
 
 ```csharp
 dstDoc.Save(dataDir + "final_document.docx");
@@ -93,32 +95,37 @@ dstDoc.Save(dataDir + "final_document.docx");
 
 ## Következtetés
 
-Összefoglalva, az Aspose.Words for .NET-ben az oldaltörések és a számozás elsajátítása lehetővé teszi, hogy csiszolt és jól strukturált dokumentumokat készítsen. Az ebben az útmutatóban felvázolt technikák alkalmazásával zökkenőmentesen integrálhatja a tartalmat az újraindított oldalszámozással, így biztosítva a professzionális és olvasóbarát megjelenítést. Ne feledje, az Aspose.Words rengeteg további funkciót kínál a dokumentumok kezeléséhez.
+Összefoglalva, az oldaltörések és az oldalszámozás elsajátítása az Aspose.Words for .NET programban lehetővé teszi, hogy letisztult és jól strukturált dokumentumokat hozzon létre. Az útmutatóban ismertetett technikák alkalmazásával zökkenőmentesen integrálhatja a tartalmat az újrakezdett oldalszámozással, biztosítva a professzionális és olvasóbarát prezentációt. Ne feledje, hogy az Aspose.Words számos további funkciót kínál a dokumentumok kezeléséhez.
 
 ## GYIK
 
 ### Újraindíthatom az oldalszámozást egy szakasz közepén?
 
- Sajnos az Aspose.Words for .NET nem támogatja közvetlenül az oldalszámozás újraindítását egyetlen szakaszon belül. Azonban hasonló hatást érhet el, ha új szakaszt hoz létre a kívánt ponton és beállítással`RestartPageNumbering` hogy`true` ahhoz a szakaszhoz.
+Sajnos az Aspose.Words for .NET nem támogatja közvetlenül az oldalszámozás újraindítását egyetlen szakaszon belül. Hasonló hatást érhet el azonban, ha létrehoz egy új szakaszt a kívánt ponton, és beállítja a következőt: `RestartPageNumbering` hogy `true` arra a szakaszra.
 
-### Hogyan szabhatom testre a kezdőoldal számát újraindítás után?
+### Hogyan tudom testreszabni a kezdőoldal számát újraindítás után?
 
- Míg a megadott kód 1-től kezdeményezi a számozást, ezt személyre szabhatja. Használja ki a`PageNumber` tulajdona a`HeaderFooter` objektum az új szakaszon belül. Ennek a tulajdonságnak a beállítása lehetővé teszi a kezdőoldal számának meghatározását.
+Bár a megadott kód 1-től kezdi a számozást, testreszabhatja azt. Használja a `PageNumber` a tulajdona `HeaderFooter` objektum az új szakaszon belül. Ennek a tulajdonságnak a beállításával meghatározhatja a kezdő oldalszámot.
 
-### Mi történik a forrásdokumentum meglévő oldalszámaival?
+### Mi történik a forrásdokumentumban található meglévő oldalszámokkal?
 
-A forrásdokumentum meglévő oldalszámai változatlanok maradnak. Csak a céldokumentumhoz csatolt tartalom lesz újraindított számozás.
+A forrásdokumentumban meglévő oldalszámozások változatlanok maradnak. Csak a céldokumentumon belüli hozzáfűzött tartalom számozása kezdődik újra.
 
-### Használhatok különböző számozási formátumokat (pl. római számokat)?
+### Alkalmazhatok különböző számozási formátumokat (pl. római számokat)?
 
- Teljesen! Az Aspose.Words széles körű szabályozást kínál az oldalszámozási formátumok felett. Fedezze fel a`NumberStyle` tulajdona a`HeaderFooter` objektumot különböző számozási stílusok, például római számok, betűk vagy egyéni formátumok közül választhat.
+Abszolút! Az Aspose.Words széleskörű kontrollt kínál az oldalszámozási formátumok felett. Fedezze fel a `NumberStyle` a tulajdona `HeaderFooter` objektumot, hogy különféle számozási stílusok, például római számok, betűk vagy egyéni formátumok közül választhasson.
 
-### Hol találhatok további forrásokat vagy segítséget?
+### Hol találok további forrásokat vagy segítséget?
 
- Az Aspose átfogó dokumentációs portált biztosít[Dokumentációs link](https://reference.aspose.com/words/net/) amely mélyebbre ás az oldalszámozási funkciókban és az Aspose.Words egyéb szolgáltatásaiban. Ráadásul az aktív fórumuk[Támogatási link](https://forum.aspose.com/c/words/8) egy nagyszerű platform a fejlesztői közösséggel való kapcsolattartáshoz, és segítséget kérhet konkrét kihívásokhoz.
+Az Aspose átfogó dokumentációs portált biztosít [Dokumentációs link](https://reference.aspose.com/words/net/) amely mélyebben foglalkozik az oldalszámozási funkciókkal és az Aspose.Words egyéb funkcióival. Ezenkívül az aktív fórumuk [Támogatási link](https://forum.aspose.com/c/words/8) nagyszerű platform a fejlesztői közösséggel való kapcsolatfelvételre és a konkrét kihívásokkal kapcsolatos segítségkérésekre.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

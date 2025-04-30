@@ -1,14 +1,16 @@
 ---
-title: Показать изменения в воздушных шарах
-linktitle: Показать изменения в воздушных шарах
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как отображать изменения в выносках с помощью Aspose.Words для .NET. Это подробное руководство проведет вас через каждый шаг, гарантируя, что изменения в вашем документе будут понятными и организованными.
-weight: 10
-url: /ru/net/working-with-revisions/show-revisions-in-balloons/
+"description": "Узнайте, как отображать изменения в выносках с помощью Aspose.Words для .NET. Это подробное руководство проведет вас через каждый шаг, гарантируя, что изменения в вашем документе будут понятными и организованными."
+"linktitle": "Показать изменения в воздушных шарах"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Показать изменения в воздушных шарах"
+"url": "/ru/net/working-with-revisions/show-revisions-in-balloons/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Показать изменения в воздушных шарах
@@ -21,8 +23,8 @@ url: /ru/net/working-with-revisions/show-revisions-in-balloons/
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
--  Библиотека Aspose.Words for .NET. Вы можете скачать ее[здесь](https://releases.aspose.com/words/net/).
--  Действующая лицензия Aspose. Если у вас ее нет, вы можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/).
+- Библиотека Aspose.Words for .NET. Вы можете скачать ее [здесь](https://releases.aspose.com/words/net/).
+- Действующая лицензия Aspose. Если у вас ее нет, вы можете получить [временная лицензия](https://purchase.aspose.com/temporary-license/).
 - Visual Studio или любая другая IDE, поддерживающая разработку .NET.
 - Базовые знания C# и .NET Framework.
 
@@ -88,16 +90,21 @@ doc.Save(dataDir + "WorkingWithRevisions.ShowRevisionsInBalloons.pdf");
 Конечно. Вы можете настроить Aspose.Words для отображения только определенных типов правок, таких как удаления или изменения форматирования, в подсказках.
 
 ### Как получить временную лицензию для Aspose.Words?
-Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+Вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Могу ли я использовать Aspose.Words для .NET с другими языками программирования?
-Aspose.Words в первую очередь разработан для .NET, но вы можете использовать его с любым языком, поддерживаемым .NET, включая VB.NET и C.++/КЛИ.
+Aspose.Words в первую очередь разработан для .NET, но вы можете использовать его с любым языком, поддерживаемым .NET, включая VB.NET и C++/CLI.
 
 ### Поддерживает ли Aspose.Words другие форматы документов, помимо Word?
 Да, Aspose.Words поддерживает различные форматы документов, включая PDF, HTML, EPUB и другие.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

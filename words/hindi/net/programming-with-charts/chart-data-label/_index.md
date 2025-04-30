@@ -1,14 +1,16 @@
 ---
-title: चार्ट डेटा लेबल अनुकूलित करें
-linktitle: चार्ट डेटा लेबल अनुकूलित करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Words का उपयोग करके चार्ट डेटा लेबल को कस्टमाइज़ करना सीखें। .NET डेवलपर्स के लिए बिल्कुल सही।
-weight: 10
-url: /hi/net/programming-with-charts/chart-data-label/
+"description": "चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Words का उपयोग करके चार्ट डेटा लेबल को कस्टमाइज़ करना सीखें। .NET डेवलपर्स के लिए बिल्कुल सही।"
+"linktitle": "चार्ट डेटा लेबल अनुकूलित करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "चार्ट डेटा लेबल अनुकूलित करें"
+"url": "/hi/net/programming-with-charts/chart-data-label/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # चार्ट डेटा लेबल अनुकूलित करें
@@ -23,9 +25,9 @@ url: /hi/net/programming-with-charts/chart-data-label/
 
 1. Visual Studio: Visual Studio 2019 या बाद का संस्करण स्थापित करें.
 2. .NET फ्रेमवर्क: सुनिश्चित करें कि आपके पास .NET फ्रेमवर्क 4.0 या बाद का संस्करण है।
-3.  Aspose.Words for .NET: Aspose.Words for .NET को डाउनलोड करें और इंस्टॉल करें[लिंक को डाउनलोड करें](https://releases.aspose.com/words/net/).
+3. Aspose.Words for .NET: Aspose.Words for .NET को डाउनलोड करें और इंस्टॉल करें [लिंक को डाउनलोड करें](https://releases.aspose.com/words/net/).
 4. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होना आवश्यक है।
-5.  वैध लाइसेंस: प्राप्त करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) या यहाँ से खरीदें[खरीदें लिंक](https://purchase.aspose.com/buy).
+5. वैध लाइसेंस: प्राप्त करें [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) या यहाँ से खरीदें [खरीदें लिंक](https://purchase.aspose.com/buy).
 
 ## नामस्थान आयात करें
 
@@ -40,7 +42,7 @@ using Aspose.Words.Charts;
 
 ## चरण 1: दस्तावेज़ और दस्तावेज़बिल्डर को आरंभ करें
 
-वर्ड दस्तावेज़ बनाने और उसमें बदलाव करने के लिए, हमें सबसे पहले एक उदाहरण को आरंभीकृत करना होगा`Document` कक्षा और एक`DocumentBuilder` वस्तु।
+वर्ड दस्तावेज़ बनाने और उसमें बदलाव करने के लिए, हमें सबसे पहले एक उदाहरण को आरंभीकृत करना होगा `Document` कक्षा और एक `DocumentBuilder` वस्तु।
 
 ```csharp
 // आपके दस्तावेज़ निर्देशिका का पथ
@@ -53,11 +55,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 ### स्पष्टीकरण
 
 - दस्तावेज़ doc: दस्तावेज़ वर्ग का एक नया उदाहरण बनाता है.
-- डॉक्यूमेंटबिल्डर बिल्डर: डॉक्यूमेंटबिल्डर डॉक्यूमेंट ऑब्जेक्ट में सामग्री सम्मिलित करने में मदद करता है।
+- डॉक्यूमेंटबिल्डर बिल्डर: डॉक्यूमेंटबिल्डर डॉक्यूमेंट ऑब्जेक्ट में सामग्री डालने में मदद करता है।
 
 ## चरण 2: चार्ट डालें
 
- इसके बाद, हम दस्तावेज़ में एक बार चार्ट डालेंगे`DocumentBuilder` वस्तु।
+इसके बाद, हम दस्तावेज़ में एक बार चार्ट डालेंगे `DocumentBuilder` वस्तु।
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Bar, 432, 252);
@@ -121,7 +123,7 @@ doc.Save(dataDir + "WorkingWithCharts.ChartDataLabel.docx");
 
 ## निष्कर्ष
 
- बधाई हो! आपने .NET के लिए Aspose.Words का उपयोग करके चार्ट डेटा लेबल को सफलतापूर्वक अनुकूलित किया है। यह लाइब्रेरी Word दस्तावेज़ों को प्रोग्रामेटिक रूप से संभालने के लिए एक मजबूत समाधान प्रदान करती है, जिससे डेवलपर्स के लिए परिष्कृत और गतिशील दस्तावेज़ प्रसंस्करण अनुप्रयोग बनाना आसान हो जाता है।[प्रलेखन](https://reference.aspose.com/words/net/) अधिक सुविधाओं और क्षमताओं का पता लगाने के लिए.
+बधाई हो! आपने .NET के लिए Aspose.Words का उपयोग करके चार्ट डेटा लेबल को सफलतापूर्वक अनुकूलित किया है। यह लाइब्रेरी Word दस्तावेज़ों को प्रोग्रामेटिक रूप से संभालने के लिए एक मजबूत समाधान प्रदान करती है, जिससे डेवलपर्स के लिए परिष्कृत और गतिशील दस्तावेज़ प्रसंस्करण अनुप्रयोग बनाना आसान हो जाता है। [प्रलेखन](https://reference.aspose.com/words/net/) अधिक सुविधाओं और क्षमताओं का पता लगाने के लिए.
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
@@ -129,20 +131,25 @@ doc.Save(dataDir + "WorkingWithCharts.ChartDataLabel.docx");
 Aspose.Words for .NET एक शक्तिशाली दस्तावेज़ प्रसंस्करण लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से Word दस्तावेज़ बनाने, संशोधित करने और परिवर्तित करने की अनुमति देता है।
 
 ### मैं .NET के लिए Aspose.Words कैसे स्थापित करूं?
- आप इसे यहाँ से डाउनलोड और इंस्टॉल कर सकते हैं[लिंक को डाउनलोड करें](https://releases.aspose.com/words/net/)दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
+आप इसे यहाँ से डाउनलोड और इंस्टॉल कर सकते हैं [लिंक को डाउनलोड करें](https://releases.aspose.com/words/net/)दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
 
 ### क्या मैं .NET के लिए Aspose.Words को निःशुल्क आज़मा सकता हूँ?
- हाँ, आप प्राप्त कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) या एक[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)उत्पाद का मूल्यांकन करने के लिए.
+हाँ, आप प्राप्त कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) या एक [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) उत्पाद का मूल्यांकन करने के लिए.
 
 ### क्या Aspose.Words for .NET .NET कोर के साथ संगत है?
 हां, .NET के लिए Aspose.Words .NET कोर, .NET स्टैंडर्ड और .NET फ्रेमवर्क के साथ संगत है।
 
 ### मुझे .NET के लिए Aspose.Words का समर्थन कहां मिल सकता है?
- आप यहां जा सकते हैं[सहयता मंच](https://forum.aspose.com/c/words/8) Aspose समुदाय और विशेषज्ञों से सहायता और सहयोग के लिए।
+आप यहां जा सकते हैं [सहयता मंच](https://forum.aspose.com/c/words/8) Aspose समुदाय और विशेषज्ञों से सहायता और सहयोग के लिए।
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

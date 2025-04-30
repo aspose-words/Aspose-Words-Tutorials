@@ -1,33 +1,35 @@
 ---
-title: Pengaturan Lebar Pilihan
-linktitle: Pengaturan Lebar Pilihan
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat tabel dengan pengaturan lebar absolut, relatif, dan otomatis di Aspose.Words untuk .NET dengan panduan langkah demi langkah ini.
-weight: 10
-url: /id/net/programming-with-tables/preferred-width-settings/
+"description": "Pelajari cara membuat tabel dengan pengaturan lebar absolut, relatif, dan otomatis di Aspose.Words untuk .NET dengan panduan langkah demi langkah ini."
+"linktitle": "Pengaturan Lebar Pilihan"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Pengaturan Lebar Pilihan"
+"url": "/id/net/programming-with-tables/preferred-width-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pengaturan Lebar Pilihan
 
 ## Perkenalan
 
-Tabel merupakan cara yang ampuh untuk mengatur dan menyajikan informasi dalam dokumen Word Anda. Saat bekerja dengan tabel di Aspose.Words for .NET, Anda memiliki beberapa opsi untuk mengatur lebar sel tabel guna memastikan tabel tersebut sesuai dengan tata letak dokumen Anda dengan sempurna. Panduan ini akan memandu Anda melalui proses pembuatan tabel dengan pengaturan lebar yang diinginkan menggunakan Aspose.Words for .NET, dengan fokus pada opsi ukuran absolut, relatif, dan otomatis. 
+Tabel merupakan cara yang ampuh untuk mengatur dan menyajikan informasi dalam dokumen Word Anda. Saat bekerja dengan tabel di Aspose.Words for .NET, Anda memiliki beberapa opsi untuk mengatur lebar sel tabel guna memastikannya sesuai dengan tata letak dokumen Anda dengan sempurna. Panduan ini akan memandu Anda melalui proses pembuatan tabel dengan pengaturan lebar yang diinginkan menggunakan Aspose.Words for .NET, dengan fokus pada opsi ukuran absolut, relatif, dan otomatis. 
 
 ## Prasyarat
 
 Sebelum memulai tutorial, pastikan Anda memiliki hal berikut:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET di lingkungan pengembangan Anda. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET di lingkungan pengembangan Anda. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 
 2. Lingkungan Pengembangan .NET: Siapkan lingkungan pengembangan .NET, seperti Visual Studio.
 
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dan contoh dengan lebih baik.
 
-4.  Dokumentasi Aspose.Words: Lihat[Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) untuk informasi API terperinci dan bacaan lebih lanjut.
+4. Dokumentasi Aspose.Words: Lihat [Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) untuk informasi API terperinci dan bacaan lebih lanjut.
 
 ## Mengimpor Ruang Nama
 
@@ -46,7 +48,7 @@ Mari kita uraikan proses pembuatan tabel dengan pengaturan lebar berbeda yang di
 
 Judul: Membuat Dokumen Baru dan DocumentBuilder
 
- Penjelasan: Mulailah dengan membuat dokumen Word baru dan`DocumentBuilder` contoh.`DocumentBuilder` kelas menyediakan cara sederhana untuk menambahkan konten ke dokumen Anda.
+Penjelasan: Mulailah dengan membuat dokumen Word baru dan `DocumentBuilder` contoh. `DocumentBuilder` kelas menyediakan cara sederhana untuk menambahkan konten ke dokumen Anda.
 
 ```csharp
 // Tentukan jalur untuk menyimpan dokumen.
@@ -59,11 +61,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Di sini, Anda menentukan direktori tempat dokumen akan disimpan dan menginisialisasi`Document` Dan`DocumentBuilder` objek.
+Di sini, Anda menentukan direktori tempat dokumen akan disimpan dan menginisialisasi `Document` Dan `DocumentBuilder` objek.
 
 ## Langkah 2: Masukkan Sel Tabel Pertama dengan Lebar Absolut
 
-Masukkan sel pertama ke dalam tabel dengan lebar tetap 40 poin. Ini akan memastikan bahwa sel ini selalu mempertahankan lebar 40 poin, berapa pun ukuran tabelnya.
+Masukkan sel pertama ke dalam tabel dengan lebar tetap 40 poin. Ini akan memastikan bahwa sel ini selalu mempertahankan lebar 40 poin terlepas dari ukuran tabel.
 
 ```csharp
 // Masukkan sel berukuran absolut.
@@ -73,7 +75,7 @@ builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln("Cell at 40 points width");
 ```
 
-Pada langkah ini, Anda mulai membuat tabel dan memasukkan sel dengan lebar absolut.`PreferredWidth.FromPoints(40)` metode mengatur lebar sel menjadi 40 poin, dan`Shading.BackgroundPatternColor` menerapkan warna latar belakang kuning muda.
+Pada langkah ini, Anda mulai membuat tabel dan memasukkan sel dengan lebar absolut. `PreferredWidth.FromPoints(40)` metode mengatur lebar sel menjadi 40 poin, dan `Shading.BackgroundPatternColor` menerapkan warna latar belakang kuning muda.
 
 ## Langkah 3: Masukkan Sel Berukuran Relatif
 
@@ -98,11 +100,11 @@ Terakhir, masukkan sel yang ukurannya secara otomatis berdasarkan sisa ruang yan
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightGreen;
-builder.Writeln("Cell automatically sized. The size of this cell is calculated from the table preferred width.");
+builder.Writeln("Cell automatically sized. Itu size of this cell is calculated from the table preferred width.");
 builder.Writeln("In this case the cell will fill up the rest of the available space.");
 ```
 
- Itu`PreferredWidth.Auto` pengaturan ini memungkinkan sel ini mengembang atau mengecil berdasarkan ruang yang tersisa setelah sel lainnya diperhitungkan. Ini memastikan tata letak tabel terlihat seimbang dan profesional.
+The `PreferredWidth.Auto` pengaturan ini memungkinkan sel ini mengembang atau mengecil berdasarkan ruang yang tersisa setelah sel lainnya diperhitungkan. Ini memastikan tata letak tabel terlihat seimbang dan profesional.
 
 ## Langkah 5: Selesaikan dan Simpan Dokumen
 
@@ -135,9 +137,14 @@ Ya, Anda dapat menerapkan berbagai gaya dan pemformatan ke sel terlepas dari pen
 
 ### Apa yang terjadi jika lebar total tabel kurang dari jumlah semua lebar sel?
 Tabel akan secara otomatis menyesuaikan lebar sel agar sesuai dengan ruang yang tersedia, yang dapat menyebabkan beberapa sel menyusut.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

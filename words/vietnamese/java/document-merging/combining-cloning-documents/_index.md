@@ -1,14 +1,16 @@
 ---
-title: Kết hợp và sao chép tài liệu
-linktitle: Kết hợp và sao chép tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách kết hợp và sao chép tài liệu dễ dàng trong Java bằng Aspose.Words. Hướng dẫn từng bước này bao gồm mọi thứ bạn cần biết.
-weight: 10
-url: /vi/java/document-merging/combining-cloning-documents/
+"description": "Tìm hiểu cách kết hợp và sao chép tài liệu dễ dàng trong Java bằng Aspose.Words. Hướng dẫn từng bước này bao gồm mọi thứ bạn cần biết."
+"linktitle": "Kết hợp và sao chép tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Kết hợp và sao chép tài liệu"
+"url": "/vi/java/document-merging/combining-cloning-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kết hợp và sao chép tài liệu
@@ -47,7 +49,7 @@ public class DocumentCombination {
 
 ## Bước 2: Tải tài liệu nguồn
 
- Tiếp theo, bạn sẽ cần tải các tài liệu nguồn mà bạn muốn kết hợp. Bạn có thể tải nhiều tài liệu vào các phiên bản riêng biệt của`Document` lớp học.
+Tiếp theo, bạn sẽ cần tải các tài liệu nguồn mà bạn muốn kết hợp. Bạn có thể tải nhiều tài liệu vào các phiên bản riêng biệt của `Document` lớp học.
 
 ```java
 // Tải tài liệu nguồn
@@ -136,7 +138,7 @@ Trong phần này, chúng ta sẽ khám phá các kỹ thuật nâng cao để l
 
 ## Phần kết luận
 
-Aspose.Words for Java là một công cụ mạnh mẽ để kết hợp và sao chép tài liệu trong các ứng dụng Java của bạn. Hướng dẫn này đã đề cập đến những điều cơ bản của cả hai quy trình, nhưng bạn có thể khám phá nhiều hơn nữa. Thử nghiệm với các định dạng tài liệu khác nhau, áp dụng định dạng nâng cao và hợp lý hóa quy trình quản lý tài liệu của bạn với Aspose.Words.
+Aspose.Words for Java là một công cụ mạnh mẽ để kết hợp và sao chép tài liệu trong các ứng dụng Java của bạn. Hướng dẫn này đã đề cập đến những điều cơ bản của cả hai quy trình, nhưng vẫn còn nhiều điều bạn có thể khám phá. Thử nghiệm với các định dạng tài liệu khác nhau, áp dụng định dạng nâng cao và hợp lý hóa quy trình quản lý tài liệu của bạn với Aspose.Words.
 
 ## Câu hỏi thường gặp
 
@@ -154,10 +156,15 @@ Chắc chắn rồi! Aspose.Words cho phép bạn áp dụng kiểu dáng và đ
 
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Words cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu toàn diện và các nguồn bổ sung cho Aspose.Words for Java tại[đây](https://reference.aspose.com/words/java/).
+Bạn có thể tìm thấy tài liệu toàn diện và các nguồn bổ sung cho Aspose.Words for Java tại [đây](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: जावा के लिए Aspose.Words में बारकोड जेनरेशन का उपयोग करना
-linktitle: बारकोड जेनरेशन का उपयोग करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Aspose.Words for Java का उपयोग करके Java में कस्टम बारकोड जेनरेट करना सीखें। बारकोड जेनरेशन के लिए सोर्स कोड के साथ चरण-दर-चरण गाइड। Aspose.Words के साथ दस्तावेज़ स्वचालन को बेहतर बनाएँ।
-weight: 11
-url: /hi/java/document-conversion-and-export/using-barcode-generation/
+"description": "Aspose.Words for Java का उपयोग करके Java में कस्टम बारकोड जेनरेट करना सीखें। बारकोड जेनरेशन के लिए सोर्स कोड के साथ चरण-दर-चरण गाइड। Aspose.Words के साथ दस्तावेज़ स्वचालन को बेहतर बनाएँ।"
+"linktitle": "बारकोड जेनरेशन का उपयोग करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "जावा के लिए Aspose.Words में बारकोड जेनरेशन का उपयोग करना"
+"url": "/hi/java/document-conversion-and-export/using-barcode-generation/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के लिए Aspose.Words में बारकोड जेनरेशन का उपयोग करना
@@ -23,7 +25,7 @@ url: /hi/java/document-conversion-and-export/using-barcode-generation/
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.Words for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/java/).
+- Aspose.Words for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/java/).
 
 ## आवश्यक कक्षाएं आयात करें
 
@@ -36,7 +38,7 @@ import com.aspose.words.FieldOptions;
 
 ## दस्तावेज़ ऑब्जेक्ट बनाएँ
 
- आरंभ करें`Document` किसी मौजूदा Word दस्तावेज़ को लोड करके ऑब्जेक्ट को बदलें जिसमें बारकोड फ़ील्ड हो।`"Field sample - BARCODE.docx"` अपने वर्ड दस्तावेज़ के पथ के साथ:
+आरंभ करें `Document` किसी मौजूदा Word दस्तावेज़ को लोड करके ऑब्जेक्ट को बदलें जिसमें बारकोड फ़ील्ड हो। `"Field sample - BARCODE.docx"` अपने वर्ड दस्तावेज़ के पथ के साथ:
 
 ```java
 Document doc = new Document("Field sample - BARCODE.docx");
@@ -44,7 +46,7 @@ Document doc = new Document("Field sample - BARCODE.docx");
 
 ## बारकोड जनरेटर सेट करें
 
- का उपयोग करके एक कस्टम बारकोड जनरेटर सेट करें`FieldOptions` इस उदाहरण में, हम मानते हैं कि आपने एक क्लास लागू किया है।`CustomBarcodeGenerator`बारकोड जनरेट करने के लिए क्लास। बदलें`CustomBarcodeGenerator` आपके वास्तविक बारकोड पीढ़ी तर्क के साथ:
+का उपयोग करके एक कस्टम बारकोड जनरेटर सेट करें `FieldOptions` इस उदाहरण में, हम मानते हैं कि आपने एक क्लास लागू किया है। `CustomBarcodeGenerator` बारकोड जनरेट करने के लिए क्लास। बदलें `CustomBarcodeGenerator` आपके वास्तविक बारकोड पीढ़ी तर्क के साथ:
 
 ```java
 doc.getFieldOptions().setBarcodeGenerator(new CustomBarcodeGenerator());
@@ -52,7 +54,7 @@ doc.getFieldOptions().setBarcodeGenerator(new CustomBarcodeGenerator());
 
 ## दस्तावेज़ को PDF के रूप में सहेजें
 
- अंत में, संशोधित दस्तावेज़ को PDF या अपने पसंदीदा प्रारूप में सहेजें।`"WorkingWithBarcodeGenerator.GenerateACustomBarCodeImage.pdf"` अपने इच्छित आउटपुट फ़ाइल पथ के साथ:
+अंत में, संशोधित दस्तावेज़ को PDF या अपने पसंदीदा प्रारूप में सहेजें। `"WorkingWithBarcodeGenerator.GenerateACustomBarCodeImage.pdf"` अपने इच्छित आउटपुट फ़ाइल पथ के साथ:
 
 ```java
 doc.save("WorkingWithBarcodeGenerator.GenerateACustomBarCodeImage.pdf");
@@ -74,7 +76,7 @@ doc.save("WorkingWithBarcodeGenerator.GenerateACustomBarCodeImage.pdf");
 
 ### मैं उत्पन्न बारकोड की उपस्थिति को कैसे अनुकूलित कर सकता हूं?
 
- आप सेटिंग में बदलाव करके बारकोड के स्वरूप को अनुकूलित कर सकते हैं।`CustomBarcodeGenerator` वर्ग। अपनी आवश्यकताओं को पूरा करने के लिए बारकोड प्रकार, आकार और रंग जैसे मापदंडों को समायोजित करें।
+आप सेटिंग में बदलाव करके बारकोड के स्वरूप को अनुकूलित कर सकते हैं। `CustomBarcodeGenerator` वर्ग। अपनी आवश्यकताओं को पूरा करने के लिए बारकोड प्रकार, आकार और रंग जैसे मापदंडों को समायोजित करें।
 
 ### क्या मैं टेक्स्ट डेटा से बारकोड उत्पन्न कर सकता हूँ?
 
@@ -90,10 +92,15 @@ doc.save("WorkingWithBarcodeGenerator.GenerateACustomBarCodeImage.pdf");
 
 ### मैं अधिक दस्तावेज और उदाहरण कहां पा सकता हूं?
 
- विस्तृत दस्तावेज़ीकरण और अधिक कोड उदाहरणों के लिए, यहां जाएं[जावा एपीआई संदर्भ के लिए Aspose.Words](https://reference.aspose.com/words/java/).
+विस्तृत दस्तावेज़ीकरण और अधिक कोड उदाहरणों के लिए, यहां जाएं [जावा एपीआई संदर्भ के लिए Aspose.Words](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

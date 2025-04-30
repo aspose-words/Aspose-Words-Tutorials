@@ -1,14 +1,16 @@
 ---
-title: Menemukan dan Mengganti Teks di Aspose.Words untuk Java
-linktitle: Menemukan dan Mengganti Teks
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara mencari dan mengganti teks dalam dokumen Word dengan Aspose.Words untuk Java. Panduan langkah demi langkah dengan contoh kode. Tingkatkan keterampilan manipulasi dokumen Java Anda.
-weight: 15
-url: /id/java/document-manipulation/finding-and-replacing-text/
+"description": "Pelajari cara mencari dan mengganti teks dalam dokumen Word dengan Aspose.Words untuk Java. Panduan langkah demi langkah dengan contoh kode. Tingkatkan keterampilan manipulasi dokumen Java Anda."
+"linktitle": "Menemukan dan Mengganti Teks"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menemukan dan Mengganti Teks di Aspose.Words untuk Java"
+"url": "/id/java/document-manipulation/finding-and-replacing-text/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menemukan dan Mengganti Teks di Aspose.Words untuk Java
@@ -20,13 +22,13 @@ Aspose.Words untuk Java adalah API Java yang canggih yang memungkinkan Anda beke
 
 ## Prasyarat
 
-Sebelum kita menyelami detail tentang mencari dan mengganti teks, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita menyelami detail tentang menemukan dan mengganti teks, pastikan Anda memiliki prasyarat berikut:
 
 - Lingkungan Pengembangan Java
 - Aspose.Words untuk pustaka Java
 - Contoh dokumen Word untuk digunakan
 
- Anda dapat mengunduh pustaka Aspose.Words untuk Java dari[Di Sini](https://releases.aspose.com/words/java/).
+Anda dapat mengunduh pustaka Aspose.Words untuk Java dari [Di Sini](https://releases.aspose.com/words/java/).
 
 ## Menemukan dan Mengganti Teks Sederhana
 
@@ -44,7 +46,7 @@ builder.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 doc.save("modified-document.docx");
 ```
 
- Dalam contoh ini, kita memuat dokumen Word, membuat`DocumentBuilder` , dan gunakan`replace` metode untuk menemukan dan mengganti "teks lama" dengan "teks baru" dalam dokumen.
+Dalam contoh ini, kita memuat dokumen Word, membuat `DocumentBuilder`, dan gunakan `replace` metode untuk menemukan dan mengganti "teks lama" dengan "teks baru" dalam dokumen.
 
 ## Menggunakan Ekspresi Reguler
 
@@ -149,7 +151,7 @@ doc.getRange().replace("text-to-replace", "new-html-content", options);
 doc.save("modified-document.docx");
 ```
 
- Dalam contoh ini, kami menggunakan custom`ReplaceWithHtmlEvaluator` untuk mengganti teks dengan konten HTML.
+Dalam contoh ini, kami menggunakan custom `ReplaceWithHtmlEvaluator` untuk mengganti teks dengan konten HTML.
 
 ## Mengganti Teks di Header dan Footer
 
@@ -186,7 +188,7 @@ Document doc = new Document("your-document.docx");
 // Dapatkan bagian pertama
 Section firstPageSection = doc.getFirstSection();
 
-//Buat instance FindReplaceOptions dan terapkan ke rentang dokumen
+// Buat instance FindReplaceOptions dan terapkan ke rentang dokumen
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceLog());
 
@@ -218,7 +220,7 @@ doc.getRange().replace(Pattern.compile("PlaceHolder(\\d+)"), "", options);
 doc.save("modified-document.docx");
 ```
 
- Dalam contoh ini, kami mengganti teks dengan bidang dan menentukan jenis bidang (misalnya,`FieldType.FIELD_MERGE_FIELD`).
+Dalam contoh ini, kami mengganti teks dengan bidang dan menentukan jenis bidang (misalnya, `FieldType.FIELD_MERGE_FIELD`).
 
 ## Mengganti dengan Evaluator
 
@@ -328,7 +330,7 @@ Document doc = new Document("your-document.docx");
 // Dapatkan tabel tertentu (misalnya, tabel pertama)
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 
-//Gunakan FindReplaceOptions untuk mengganti teks dalam tabel
+// Gunakan FindReplaceOptions untuk mengganti teks dalam tabel
 table.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 
 // Simpan dokumen yang dimodifikasi
@@ -345,7 +347,7 @@ Aspose.Words untuk Java menyediakan kemampuan komprehensif untuk menemukan dan m
 
 ### Bagaimana cara mengunduh Aspose.Words untuk Java?
 
- Anda dapat mengunduh Aspose.Words untuk Java dari situs web dengan mengunjungi[tautan ini](https://releases.aspose.com/words/java/).
+Anda dapat mengunduh Aspose.Words untuk Java dari situs web dengan mengunjungi [tautan ini](https://releases.aspose.com/words/java/).
 
 ### Dapatkah saya menggunakan ekspresi reguler untuk penggantian teks?
 
@@ -353,18 +355,23 @@ Ya, Anda dapat menggunakan ekspresi reguler untuk penggantian teks di Aspose.Wor
 
 ### Bagaimana saya bisa mengabaikan teks di dalam kolom selama penggantian?
 
-Untuk mengabaikan teks di dalam bidang selama penggantian, Anda dapat mengatur`IgnoreFields` milik`FindReplaceOptions` ke`true`Ini memastikan bahwa teks dalam bidang, seperti bidang gabungan, dikecualikan dari penggantian.
+Untuk mengabaikan teks di dalam bidang selama penggantian, Anda dapat mengatur `IgnoreFields` milik `FindReplaceOptions` ke `true`Ini memastikan bahwa teks dalam bidang, seperti bidang gabungan, dikecualikan dari penggantian.
 
 ### Bisakah saya mengganti teks di dalam header dan footer?
 
- Ya, Anda dapat mengganti teks di dalam header dan footer dokumen Word Anda. Cukup akses header atau footer yang sesuai dan gunakan`replace` metode dengan yang diinginkan`FindReplaceOptions`.
+Ya, Anda dapat mengganti teks di dalam header dan footer dokumen Word Anda. Cukup akses header atau footer yang sesuai dan gunakan `replace` metode dengan yang diinginkan `FindReplaceOptions`.
 
 ### Apa fungsi opsi UseLegacyOrder?
 
- Itu`UseLegacyOrder` pilihan di`FindReplaceOptions` memungkinkan Anda menggunakan perintah lama saat melakukan operasi pencarian dan penggantian. Ini dapat berguna dalam skenario tertentu di mana perilaku perintah lama diinginkan.
+Itu `UseLegacyOrder` pilihan di `FindReplaceOptions` memungkinkan Anda menggunakan perintah lama saat melakukan operasi pencarian dan penggantian. Ini dapat berguna dalam skenario tertentu di mana perilaku perintah lama diinginkan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

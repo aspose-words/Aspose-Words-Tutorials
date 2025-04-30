@@ -1,36 +1,38 @@
 ---
-title: Szerezze be a Jpeg oldaltartományt
-linktitle: Szerezze be a Jpeg oldaltartományt
-second_title: Aspose.Words Document Processing API
-description: Az Aspose.Words for .NET segítségével egyéni beállításokkal konvertálja a Word dokumentumok adott oldalait JPEG formátumba. Ismerje meg, hogyan állíthatja be lépésről lépésre a fényerőt, a kontrasztot és a felbontást.
-weight: 10
-url: /hu/net/programming-with-imagesaveoptions/get-jpeg-page-range/
+"description": "Word dokumentumok adott oldalait JPEG formátumba konvertálhatja egyéni beállításokkal az Aspose.Words for .NET segítségével. Tanulja meg, hogyan állíthatja be a fényerőt, a kontrasztot és a felbontást lépésről lépésre."
+"linktitle": "JPEG oldaltartomány beolvasása"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "JPEG oldaltartomány beolvasása"
+"url": "/hu/net/programming-with-imagesaveoptions/get-jpeg-page-range/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szerezze be a Jpeg oldaltartományt
+# JPEG oldaltartomány beolvasása
 
 ## Bevezetés
 
-Word-dokumentumok képekké konvertálása hihetetlenül hasznos lehet, legyen szó bélyegképek létrehozásáról, dokumentumok online előnézetének megtekintéséről, vagy tartalmak könnyebben hozzáférhető formátumban való megosztásáról. Az Aspose.Words for .NET segítségével könnyedén konvertálhatja Word-dokumentumai egyes oldalait JPEG formátumba, miközben testreszabhatja a különféle beállításokat, például a fényerőt, a kontrasztot és a felbontást. Lépésről lépésre belemerülünk abba, hogyan érhetjük el ezt!
+Word-dokumentumok képekké konvertálása hihetetlenül hasznos lehet, akár miniatűröket hoz létre, akár online megtekinti a dokumentumokat, akár tartalmakat oszt meg egy könnyebben hozzáférhető formátumban. Az Aspose.Words for .NET segítségével könnyedén konvertálhatja Word-dokumentumainak egyes oldalait JPEG formátumba, miközben testreszabhatja a különböző beállításokat, például a fényerőt, a kontrasztot és a felbontást. Nézzük meg lépésről lépésre, hogyan érheti el ezt!
 
 ## Előfeltételek
 
-Mielőtt elkezdené, meg kell tennie néhány dolgot:
+Mielőtt elkezdenénk, néhány dologra szükséged lesz:
 
--  Aspose.Words for .NET: Győződjön meg arról, hogy az Aspose.Words for .NET telepítve van. Megteheti[töltse le itt](https://releases.aspose.com/words/net/).
-- Fejlesztői környezet: AC# fejlesztői környezet, például a Visual Studio.
-- Mintadokumentum: Word dokumentum, amellyel dolgozni. Ehhez az oktatóanyaghoz bármilyen .docx fájlt használhat.
-- C# alapismeretek: C# programozás ismerete.
+- Aspose.Words .NET-hez: Győződjön meg róla, hogy telepítve van az Aspose.Words .NET-hez. Megteheti [töltsd le itt](https://releases.aspose.com/words/net/).
+- Fejlesztői környezet: AC# fejlesztői környezet, mint például a Visual Studio.
+- Mintadokumentum: Egy Word-dokumentum, amellyel dolgozhatsz. Ehhez az oktatóanyaghoz bármilyen .docx fájlt használhatsz.
+- C# alapismeretek: Jártasság a C# programozásban.
 
-Ha ezek készen vannak, kezdjük is!
+Ha ezek készen vannak, kezdjük is el!
 
 ## Névterek importálása
 
-Az Aspose.Words for .NET használatához importálnia kell a szükséges névtereket a kód elejére. Ez biztosítja, hogy hozzáférjen a dokumentumkezeléshez szükséges összes osztályhoz és metódushoz.
+Az Aspose.Words .NET-es használatához importálni kell a szükséges névtereket a kód elejére. Ez biztosítja, hogy hozzáférj a dokumentumkezeléshez szükséges összes osztályhoz és metódushoz.
 
 ```csharp
 using Aspose.Words;
@@ -39,60 +41,65 @@ using Aspose.Words.Saving;
 
 ## 1. lépés: Töltse be a dokumentumot
 
-Először is be kell töltenünk a konvertálni kívánt Word dokumentumot. Tegyük fel, hogy a dokumentumunk neve`Rendering.docx` és a helyőrző által megadott könyvtárban található`YOUR DOCUMENT DIRECTORY`.
+Először is be kell töltenünk a konvertálni kívánt Word dokumentumot. Tegyük fel, hogy a dokumentumunk neve `Rendering.docx` és a helyőrző által megadott könyvtárban található `YOUR DOCUMENT DIRECTORY`.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Ez a kód inicializálja a dokumentum elérési útját, és betölti az Aspose.Words-be`Document` objektum.
+Ez a kód inicializálja a dokumentumod elérési útját, és betölti azt egy Aspose.Words fájlba. `Document` objektum.
 
 ## 2. lépés: Az ImageSaveOptions beállítása
 
- Ezután beállítjuk a`ImageSaveOptions` a JPEG létrehozásának módját. Ez magában foglalja az oldaltartomány, a kép fényerejének, kontrasztjának és felbontásának beállítását.
+Ezután beállítjuk a `ImageSaveOptions` ..., hogy megadjuk, hogyan szeretnénk létrehozni a JPEG fájlokat. Ez magában foglalja az oldaltartomány, a kép fényerejének, kontrasztjának és felbontásának beállítását.
 
 ```csharp
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-options.PageSet = new PageSet(0); // Konvertálja csak az első oldalt
-options.ImageBrightness = 0.3f;   // Állítsa be a fényerőt
-options.ImageContrast = 0.7f;     // Állítsa be a kontrasztot
-options.HorizontalResolution = 72f; // Állítsa be a felbontást
+options.PageSet = new PageSet(0); // Csak az első oldal konvertálása
+options.ImageBrightness = 0.3f;   // Fényerő beállítása
+options.ImageContrast = 0.7f;     // Kontraszt beállítása
+options.HorizontalResolution = 72f; // Felbontás beállítása
 ```
 
 ## 3. lépés: Mentse el a dokumentumot JPEG formátumban
 
-Végül elmentjük a dokumentumot JPEG fájlként az általunk meghatározott beállításokkal.
+Végül JPEG fájlként mentjük el a dokumentumot a megadott beállításokkal.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithImageSaveOptions.GetJpegPageRange.jpeg", options);
 ```
 
- Ez a kód elmenti az első oldalt`Rendering.docx` JPEG-képként a megadott fényerő-, kontraszt- és felbontás-beállításokkal.
+Ez a kód elmenti az első oldalt `Rendering.docx` JPEG képként a megadott fényerő-, kontraszt- és felbontásbeállításokkal.
 
 ## Következtetés
 
-És megvan! Sikeresen átalakította egy Word-dokumentum adott oldalát JPEG-képpé, testreszabott beállításokkal az Aspose.Words for .NET használatával. Ez a folyamat különféle igényekhez szabható, legyen szó akár egy webhely képeinek előkészítéséről, dokumentum-előnézetek létrehozásáról vagy egyebekről.
+És íme! Sikeresen konvertáltál egy Word-dokumentum adott oldalát JPEG képpé testreszabott beállításokkal az Aspose.Words for .NET segítségével. Ez a folyamat testreszabható a különböző igényekhez, akár egy weboldalhoz készítesz képeket, akár dokumentum előnézeteket hozol létre, vagy bármi mást.
 
 ## GYIK
 
-### Konvertálhatok több oldalt egyszerre?
- Igen, a segítségével megadhat egy oldaltartományt`PageSet` ingatlan be`ImageSaveOptions`.
+### Több oldalt is konvertálhatok egyszerre?
+Igen, megadhat oldalak tartományát a `PageSet` ingatlan `ImageSaveOptions`.
 
-### Hogyan állíthatom be a képminőséget?
- A JPEG minőségét a gombbal állíthatja be`JpegQuality` ingatlan be`ImageSaveOptions`.
+### Hogyan tudom beállítani a képminőséget?
+A JPEG minőségét a következővel állíthatja be: `JpegQuality` ingatlan `ImageSaveOptions`.
 
-### Menthetek más képformátumba?
- Igen, az Aspose.Words különféle képformátumokat támogat, például PNG, BMP és TIFF. Változtasd meg a`SaveFormat` be`ImageSaveOptions` ennek megfelelően.
+### Elmenthetem más képformátumban is?
+Igen, az Aspose.Words különféle képformátumokat támogat, például PNG-t, BMP-t és TIFF-et. Változtassa meg a `SaveFormat` ban `ImageSaveOptions` ennek megfelelően.
 
-### Van mód a kép előnézetére mentés előtt?
-Külön meg kell valósítania egy előnézeti mechanizmust, mivel az Aspose.Words nem biztosít beépített előnézeti funkciót.
+### Van mód a kép előnézetének megtekintésére mentés előtt?
+Mivel az Aspose.Words nem rendelkezik beépített előnézeti funkcióval, külön kellene implementálnia egy előnézeti mechanizmust.
 
-### Hogyan szerezhetek ideiglenes licencet az Aspose.Words számára?
- Kérheti a[ideiglenes engedély itt](https://purchase.aspose.com/temporary-license/).
+### Hogyan szerezhetek ideiglenes licencet az Aspose.Words-höz?
+Kérhet egy [ideiglenes jogosítvány itt](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

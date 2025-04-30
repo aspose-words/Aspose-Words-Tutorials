@@ -1,14 +1,16 @@
 ---
-title: Chia tài liệu Word theo trang
-linktitle: Chia tài liệu Word theo trang
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chia tài liệu Word theo trang bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. Hoàn hảo để quản lý hiệu quả các tài liệu lớn.
-weight: 10
-url: /vi/net/split-document/page-by-page/
+"description": "Tìm hiểu cách chia tài liệu Word theo trang bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. Hoàn hảo để quản lý hiệu quả các tài liệu lớn."
+"linktitle": "Chia tài liệu Word theo trang"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chia tài liệu Word theo trang"
+"url": "/vi/net/split-document/page-by-page/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chia tài liệu Word theo trang
@@ -21,7 +23,7 @@ Việc chia một tài liệu Word theo từng trang có thể cực kỳ hữu 
 
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
-1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words. Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words. Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Bạn sẽ cần một môi trường phát triển được thiết lập bằng .NET. Visual Studio là một lựa chọn phổ biến.
 3. Tài liệu mẫu: Có một tài liệu Word mẫu mà bạn muốn tách. Lưu nó vào thư mục tài liệu được chỉ định.
 
@@ -74,7 +76,7 @@ Chia tài liệu Word theo trang bằng Aspose.Words cho .NET rất đơn giản
 Có, Aspose.Words for .NET xử lý các tài liệu có định dạng phức tạp một cách liền mạch.
 
 ### Có thể trích xuất nhiều trang cùng lúc thay vì trích xuất từng trang một không?
- Chắc chắn rồi. Bạn có thể sửa đổi`ExtractPages` phương pháp để xác định một phạm vi.
+Chắc chắn rồi. Bạn có thể sửa đổi `ExtractPages` phương pháp để xác định một phạm vi.
 
 ### Phương pháp này có áp dụng được với các định dạng tệp khác như PDF không?
 Phương pháp được hiển thị dành riêng cho tài liệu Word. Đối với PDF, bạn sẽ sử dụng Aspose.PDF.
@@ -84,9 +86,14 @@ Aspose.Words giữ nguyên định dạng và hướng ban đầu của mỗi tr
 
 ### Tôi có thể tự động hóa quy trình này cho nhiều tài liệu không?
 Có, bạn có thể tạo một tập lệnh để tự động hóa quá trình tách nhiều tài liệu trong một thư mục.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

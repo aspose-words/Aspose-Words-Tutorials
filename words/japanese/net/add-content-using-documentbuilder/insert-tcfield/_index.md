@@ -1,34 +1,36 @@
 ---
-title: Word文書にTCFieldを挿入する
-linktitle: Word文書にTCFieldを挿入する
-second_title: Aspose.Words ドキュメント処理 API
-description: Aspose.Words for .NET を使用して Word 文書に TC フィールドを挿入する方法を学びます。シームレスな文書自動化については、ステップバイステップ ガイドに従ってください。
-weight: 10
-url: /ja/net/add-content-using-documentbuilder/insert-tcfield/
+"description": "Aspose.Words for .NET を使用して、Word 文書に TC フィールドを挿入する方法を学びましょう。ステップバイステップのガイドに従って、シームレスなドキュメント自動化を実現しましょう。"
+"linktitle": "Word文書にTCFieldを挿入する"
+"second_title": "Aspose.Words ドキュメント処理 API"
+"title": "Word文書にTCFieldを挿入する"
+"url": "/ja/net/add-content-using-documentbuilder/insert-tcfield/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word文書にTCFieldを挿入する
 
 ## 導入
 
-こんにちは! ドキュメント自動化の世界に飛び込んでみようという方、ここは最適な場所です。今日は、Aspose.Words for .NET を使用して Word ドキュメントに TC (目次) フィールドを挿入する方法を説明します。このチュートリアルを最後まで読み終えると、Word ドキュメントに魔法をかける魔法使いになったような気分になれるはずです。準備はできましたか? さあ、始めましょう!
+こんにちは！ドキュメント自動化の世界に飛び込みたいなら、ここはまさにうってつけの場所です。今日は、Aspose.Words for .NET を使って Word 文書に TC（目次）フィールドを挿入する方法を学びます。このチュートリアルを最後まで見れば、Word 文書に魔法をかける魔法使いになったような気分になれるはずです。さあ、始めましょう！
 
 ## 前提条件
 
-細かい点に入る前に、必要なものがすべて揃っているかどうか確認しましょう。
+本題に入る前に、必要なものがすべて揃っているかどうか確認しましょう。
 
-1.  Aspose.Words for .NET: まだインストールしていない場合は、Aspose.Words for .NETをダウンロードしてインストールする必要があります。[ダウンロードページ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: まだインストールしていない場合は、Aspose.Words for .NETをダウンロードしてインストールする必要があります。 [ダウンロードページ](https://releases。aspose.com/words/net/).
 2. 開発環境: どの .NET 開発環境でも構いませんが、Visual Studio を強くお勧めします。
-3. C# の基礎知識: C# プログラミングの基礎を理解している必要があります。
-4. 一時ライセンス: Aspose.Wordsの全機能を利用するには、一時ライセンスが必要になる場合があります。[ここ](https://purchase.aspose.com/temporary-license/).
+3. C# の基本知識: C# プログラミングの基礎を理解している必要があります。
+4. 一時ライセンス: Aspose.Wordsの全機能を使用するには、一時ライセンスが必要になる場合があります。 [ここ](https://purchase。aspose.com/temporary-license/).
 
 ## 名前空間のインポート
 
-まず最初に、必要な名前空間をインポートしましょう。これは、マジックショーの舞台を設定するようなものです。
+まずは必要な名前空間をインポートしましょう。これはまるでマジックショーの舞台設定のようなものです。
 
 ```csharp
 using System;
@@ -36,11 +38,11 @@ using Aspose.Words;
 using Aspose.Words.Fields;
 ```
 
-さて、前置きはここまでにして、早速始めましょう！
+さて、準備は整いましたので、早速始めましょう！
 
-## ステップ1: プロジェクトを設定する
+## ステップ1: プロジェクトの設定
 
-コーディングを始める前に、プロジェクトをセットアップしましょう。開発環境を開いて、新しい .NET プロジェクトを作成します。Aspose.Words for .NET ライブラリへの参照を必ず追加してください。NuGet を使用している場合は、パッケージ マネージャー コンソールから簡単にインストールできます。
+コーディングを始める前に、プロジェクトをセットアップしましょう。開発環境を開き、新しい.NETプロジェクトを作成してください。Aspose.Words for .NETライブラリへの参照を追加してください。NuGetを使用している場合は、パッケージマネージャーコンソールから簡単にインストールできます。
 
 ```shell
 Install-Package Aspose.Words
@@ -48,44 +50,44 @@ Install-Package Aspose.Words
 
 ## ステップ2: 新しいドキュメントを作成する
 
-では、まずは新しいWord文書を作成しましょう。`Document`そして`DocumentBuilder`作業を開始するための Aspose.Words のクラス。
+では、まずは新しいWord文書を作成しましょう。 `Document` そして `DocumentBuilder` 物事を開始するための Aspose.Words のクラス。
 
 ```csharp
-//ドキュメント ディレクトリへのパス。
+// ドキュメント ディレクトリへのパス。
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-//新しいドキュメントを作成する
+// 新しいドキュメントを作成する
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-これにより、ドキュメントが設定され、作成を開始する準備が整います。
+これによりドキュメントが設定され、作成を開始する準備が整います。
 
 ## ステップ3: TCフィールドを挿入する
 
-さて、ここからが楽しい部分です。文書に TC フィールドを挿入します。TC フィールドは、目次のエントリをマークするために使用されます。
+さて、ここからが楽しいところです。文書にTCフィールドを挿入します。TCフィールドは、目次の項目をマークするために使用します。
 
 ```csharp
 // TCフィールドを挿入する
 builder.InsertField("TC \"Entry Text\" \\f t");
 ```
 
-このコード行は、Aspose.Wordsにエントリテキスト「Entry Text」を含むTCフィールドを挿入するように指示します。`\\f t`部分は、目次でエントリをどのように表示するかを決定するスイッチです。
+このコード行は、Aspose.Wordsにエントリテキスト「Entry Text」を持つTCフィールドを挿入するように指示します。 `\\f t` 部分は、エントリが目次にどのように表示されるかを決定するスイッチです。
 
 ## ステップ4: ドキュメントを保存する
 
-最後に、ドキュメントを保存しましょう。ここで、これまでの努力がすべて結実します。
+最後に、ドキュメントを保存しましょう。これで、これまでの努力が全て結実します。
 
 ```csharp
-//文書を保存する
+// ドキュメントを保存する
 doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
 ```
 
-すごい！TC フィールドを含む Word 文書が作成されました。すごいと思いませんか?
+ドカン！TCフィールド付きのWord文書が完成しました。すごいと思いませんか？
 
 ## 結論
 
-これで完了です。Aspose.Words for .NET を使用して Word 文書に TC フィールドを挿入する方法を説明しました。とても簡単ですね。これらのスキルがあれば、Word 文書をプロのように自動化およびカスタマイズできます。質問や問題がある場合は、[Aspose.Words ドキュメント](https://reference.aspose.com/words/net/)または彼らに連絡してください[サポートフォーラム](https://forum.aspose.com/c/words/8). 楽しいコーディングを！
+これで完了です！Aspose.Words for .NETを使ってWord文書にTCフィールドを挿入する方法を解説しました。とても簡単ですよね？これらのスキルがあれば、Word文書をプロのように自動化・カスタマイズできるようになります。ご質問や問題が発生した場合は、お気軽にお問い合わせください。 [Aspose.Words ドキュメント](https://reference.aspose.com/words/net/) または彼らに連絡を取る [サポートフォーラム](https://forum.aspose.com/c/words/8)楽しいコーディングを！
 
 ## よくある質問
 
@@ -95,7 +97,7 @@ Word の TC (目次) フィールドは、目次に含める特定のエント�
 
 ### 2. Aspose.Words for .NET を使用するにはライセンスが必要ですか?
 
-はい、一時ライセンスを使用してAspose.Wordsの全機能を利用できます。[ここ](https://purchase.aspose.com/temporary-license/).
+はい、Aspose.Wordsの全機能を利用するには、一時ライセンスをご利用ください。 [ここ](https://purchase。aspose.com/temporary-license/).
 
 ### 3. Aspose.Words を他のプログラミング言語で使用できますか?
 
@@ -103,15 +105,20 @@ Aspose.Words は主に C# などの .NET 言語をサポートしていますが
 
 ### 4. Aspose.Words for .NET の使用例をもっと知りたい場合は、どこに行けばよいですか?
 
-より多くの例と詳細なドキュメントについては、[Aspose.Words ドキュメント ページ](https://reference.aspose.com/words/net/).
+さらに多くの例と詳細なドキュメントについては、 [Aspose.Words ドキュメントページ](https://reference。aspose.com/words/net/).
 
 ### 5. 問題が発生した場合、どうすればサポートを受けることができますか?
 
-何か問題が起こった場合は、[Aspose.Words サポート フォーラム](https://forum.aspose.com/c/words/8).
+何か問題が発生した場合は、 [Aspose.Words サポートフォーラム](https://forum。aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

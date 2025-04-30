@@ -1,21 +1,23 @@
 ---
-title: Text in eingefügten Revisionen ignorieren
-linktitle: Text in eingefügten Revisionen ignorieren
-second_title: Aspose.Words Dokumentverarbeitungs-API
-description: Erfahren Sie, wie Sie Dokumentrevisionen mit Aspose.Words für .NET effektiv verwalten. Entdecken Sie Techniken zum Ignorieren von Text in eingefügten Revisionen für optimiertes Bearbeiten.
-weight: 10
-url: /de/net/find-and-replace-text/ignore-text-inside-insert-revisions/
+"description": "Erfahren Sie, wie Sie Dokumentrevisionen mit Aspose.Words für .NET effektiv verwalten. Entdecken Sie Techniken zum Ignorieren von Text in eingefügten Revisionen für eine optimierte Bearbeitung."
+"linktitle": "Text in eingefügten Revisionen ignorieren"
+"second_title": "Aspose.Words Dokumentverarbeitungs-API"
+"title": "Text in eingefügten Revisionen ignorieren"
+"url": "/de/net/find-and-replace-text/ignore-text-inside-insert-revisions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Text in eingefügten Revisionen ignorieren
 
 ## Einführung
 
-In diesem umfassenden Leitfaden werden wir uns mit der Verwendung von Aspose.Words für .NET befassen, um Dokumentrevisionen effektiv zu verwalten. Egal, ob Sie Entwickler oder Technikbegeisterter sind, das Wissen, wie Sie Text in eingefügten Revisionen ignorieren, kann Ihre Dokumentverarbeitungsabläufe optimieren. Dieses Tutorial vermittelt Ihnen die notwendigen Fähigkeiten, um die leistungsstarken Funktionen von Aspose.Words für die nahtlose Verwaltung von Dokumentrevisionen zu nutzen.
+In diesem umfassenden Leitfaden erfahren Sie mehr über die Verwendung von Aspose.Words für .NET zur effektiven Verwaltung von Dokumentrevisionen. Egal, ob Sie Entwickler oder Technikbegeisterter sind: Wenn Sie wissen, wie Sie Text in eingefügten Revisionen ignorieren, können Sie Ihre Dokumentverarbeitungsabläufe optimieren. Dieses Tutorial vermittelt Ihnen die notwendigen Fähigkeiten, um die leistungsstarken Funktionen von Aspose.Words für die nahtlose Verwaltung von Dokumentrevisionen zu nutzen.
 
 ## Voraussetzungen
 
@@ -34,16 +36,16 @@ using System;
 using System.Text.RegularExpressions;
 ```
 
-## Schritt 1: Neues Dokument erstellen und Revisionen nachverfolgen
+## Schritt 1: Erstellen Sie ein neues Dokument und beginnen Sie mit der Nachverfolgung von Revisionen
 
-Initialisieren Sie zunächst ein neues Dokument und beginnen Sie mit der Revisionsverfolgung:
+Initialisieren Sie zunächst ein neues Dokument und beginnen Sie mit der Nachverfolgung von Revisionen:
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Starten Sie die Revisionsverfolgung
 doc.StartTrackRevisions("author", DateTime.Now);
-builder.Writeln("Inserted"); // Einfügen von Text mit Revisionsverfolgung
+builder.Writeln("Inserted"); // Text mit Revisionsverfolgung einfügen
 doc.StopTrackRevisions();
 ```
 
@@ -66,12 +68,12 @@ doc.Range.Replace(regex, "*", options);
 
 ## Schritt 4: Dokumenttext ausgeben
 
-Dokumenttext nach Ignorieren eingefügter Revisionen anzeigen:
+Zeigen Sie den Dokumenttext an, nachdem eingefügte Revisionen ignoriert wurden:
 ```csharp
 Console.WriteLine(doc.GetText());
 ```
 
-## Schritt 5: Option „Eingefügten Text ignorieren“ rückgängig machen
+## Schritt 5: Option „Eingefügten Text ignorieren“ zurücksetzen
 
 Um das Ignorieren von eingefügtem Text rückgängig zu machen, ändern Sie die FindReplaceOptions:
 ```csharp
@@ -81,27 +83,32 @@ doc.Range.Replace(regex, "*", options);
 
 ## Abschluss
 
-Wenn Sie die Technik beherrschen, Text in eingefügten Revisionen mit Aspose.Words für .NET zu ignorieren, verbessern Sie Ihre Dokumentbearbeitungsfunktionen. Indem Sie diese Schritte befolgen, können Sie Revisionen in Ihren Dokumenten effektiv verwalten und so Klarheit und Präzision bei Ihren Textverarbeitungsaufgaben sicherstellen.
+Das Beherrschen der Technik zum Ignorieren von Text in eingefügten Revisionen mit Aspose.Words für .NET verbessert Ihre Dokumentbearbeitungsfunktionen. Mit diesen Schritten können Sie Revisionen in Ihren Dokumenten effektiv verwalten und so Klarheit und Präzision bei Ihren Textverarbeitungsaufgaben gewährleisten.
 
 ## Häufig gestellte Fragen
 
-### Wie kann ich mit Aspose.Words für .NET mit der Revisionsverfolgung in einem Word-Dokument beginnen?
- Um mit der Nachverfolgung von Revisionen zu beginnen, verwenden Sie`doc.StartTrackRevisions(author, date)` Verfahren.
+### Wie kann ich mit Aspose.Words für .NET mit der Nachverfolgung von Revisionen in einem Word-Dokument beginnen?
+Um mit der Nachverfolgung von Revisionen zu beginnen, verwenden Sie `doc.StartTrackRevisions(author, date)` Verfahren.
 
-### Welchen Vorteil bietet das Ignorieren eingefügten Textes bei Dokumentrevisionen?
-Durch das Ignorieren von eingefügtem Text bleibt der Fokus auf dem Kerninhalt erhalten, während Dokumentänderungen effizient verwaltet werden.
+### Welchen Vorteil bietet es, eingefügten Text bei Dokumentrevisionen zu ignorieren?
+Durch das Ignorieren von eingefügtem Text können Sie sich auf den Kerninhalt konzentrieren und gleichzeitig Dokumentänderungen effizient verwalten.
 
-### Kann ich ignorierten eingefügten Text in Aspose.Words für .NET auf seinen Originaltext zurücksetzen?
-Ja, Sie können ignorierten eingefügten Text mit den entsprechenden FindReplaceOptions-Einstellungen rückgängig machen.
+### Kann ich in Aspose.Words für .NET ignorierten eingefügten Text wieder auf den Originaltext zurücksetzen?
+Ja, Sie können ignorierten eingefügten Text mithilfe der entsprechenden FindReplaceOptions-Einstellungen rückgängig machen.
 
 ### Wo finde ich weitere Dokumentation zu Aspose.Words für .NET?
- Besuchen Sie die[Aspose.Words für .NET-Dokumentation](https://reference.aspose.com/words/net/) für ausführliche Anleitungen und API-Referenzen.
+Besuchen Sie die [Aspose.Words für .NET-Dokumentation](https://reference.aspose.com/words/net/) für ausführliche Anleitungen und API-Referenzen.
 
-### Gibt es ein Community-Forum zur Diskussion von Aspose.Words für .NET-bezogene Anfragen?
- Ja, Sie können die[Aspose.Words-Forum](https://forum.aspose.com/c/words/8) für Community-Unterstützung und Diskussionen.
+### Gibt es ein Community-Forum zur Diskussion von Aspose.Words für .NET-bezogene Fragen?
+Ja, Sie können die [Aspose.Words-Forum](https://forum.aspose.com/c/words/8) für Community-Support und Diskussionen.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

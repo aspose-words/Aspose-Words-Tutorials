@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Posisi Tabel
-linktitle: Dapatkan Posisi Tabel
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Temukan cara menentukan posisi tabel dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami.
-weight: 10
-url: /id/net/programming-with-tables/get-table-position/
+"description": "Temukan cara menentukan posisi tabel dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami."
+"linktitle": "Dapatkan Posisi Tabel"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Dapatkan Posisi Tabel"
+"url": "/id/net/programming-with-tables/get-table-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Posisi Tabel
@@ -20,10 +22,10 @@ Pernahkah Anda merasa kesulitan saat mencoba mencari tahu posisi tabel yang tepa
 ## Prasyarat
 
 Sebelum kita masuk ke inti pembahasan, mari pastikan Anda sudah memiliki semua yang dibutuhkan:
--  Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru. Jika tidak, Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru. Jika tidak, Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 - Visual Studio: Versi apa pun bisa digunakan, tetapi versi terbaru selalu direkomendasikan.
 - .NET Framework: Pastikan Anda memiliki .NET Framework 4.0 atau yang lebih baru.
-- Dokumen Word: Untuk tutorial ini, kita akan menggunakan dokumen bernama`Tables.docx`.
+- Dokumen Word: Untuk tutorial ini, kita akan menggunakan dokumen bernama `Tables.docx`.
 
 ## Mengimpor Ruang Nama
 
@@ -95,7 +97,7 @@ Aspose.Words untuk .NET adalah pustaka pemrosesan dokumen canggih yang memungkin
 
 ### Bagaimana cara menginstal Aspose.Words untuk .NET?
 
- Anda dapat menginstal Aspose.Words untuk .NET melalui NuGet Package Manager di Visual Studio atau[unduh langsung](https://releases.aspose.com/words/net/).
+Anda dapat menginstal Aspose.Words untuk .NET melalui NuGet Package Manager di Visual Studio atau [unduh langsung](https://releases.aspose.com/words/net/).
 
 ### Bisakah saya mendapatkan posisi beberapa tabel?
 
@@ -107,10 +109,15 @@ Anda perlu menavigasi melalui pohon simpul dokumen untuk mengakses tabel bersara
 
 ### Apakah ada versi uji coba yang tersedia?
 
- Ya, Anda bisa mendapatkannya[uji coba gratis](https://releases.aspose.com/) atau sebuah[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk mencoba Aspose.Words untuk .NET.
+Ya, Anda bisa mendapatkannya [uji coba gratis](https://releases.aspose.com/) atau sebuah [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk mencoba Aspose.Words untuk .NET.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

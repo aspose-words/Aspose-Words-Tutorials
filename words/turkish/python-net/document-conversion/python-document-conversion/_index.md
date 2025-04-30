@@ -1,14 +1,16 @@
 ---
-title: Python Belge Dönüştürme - Tam Kılavuz
-linktitle: Python Belge Dönüştürme
-second_title: Aspose.Words Python Belge Yönetim API'si
-description: Python için Aspose.Words ile Python belge dönüşümünü öğrenin. Belgeleri zahmetsizce dönüştürün, düzenleyin ve özelleştirin. Şimdi üretkenliği artırın!
-weight: 10
-url: /tr/python-net/document-conversion/python-document-conversion/
+"description": "Python için Aspose.Words ile Python belge dönüşümünü öğrenin. Belgeleri zahmetsizce dönüştürün, düzenleyin ve özelleştirin. Şimdi üretkenliği artırın!"
+"linktitle": "Python Belge Dönüştürme"
+"second_title": "Aspose.Words Python Belge Yönetim API'si"
+"title": "Python Belge Dönüştürme - Tam Kılavuz"
+"url": "/tr/python-net/document-conversion/python-document-conversion/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Python Belge Dönüştürme - Tam Kılavuz
@@ -54,7 +56,7 @@ Aspose.Words, dönüştürme işlemi sırasında üstbilgileri, altbilgileri ve 
 
 ### Ön koşullar
 
-Aspose.Words for Python'ı yüklemeden önce, sisteminizde Python'ın yüklü olması gerekir. Python'ı Aspose.Releases'ten indirebilirsiniz.https://releases.aspose.com/words/python/) ve kurulum talimatlarını izleyin.
+Aspose.Words for Python'ı yüklemeden önce, sisteminizde Python'ın yüklü olması gerekir. Python'ı Aspose.Releases(https://releases.aspose.com/words/python/) adresinden indirebilir ve kurulum talimatlarını takip edebilirsiniz.
 
 ### Kurulum Adımları
 
@@ -76,13 +78,13 @@ pip install aspose-words
 Aspose.Words for Python kullanarak bir Word belgesini PDF'ye dönüştürmek için aşağıdaki kodu kullanın:
 
 ```python
-# Python code for Word to PDF conversion
+# Word'den PDF'e dönüştürme için Python kodu
 import aspose.words as aw
 
-# Load the Word document
+# Word belgesini yükleyin
 doc = aw.Document("input.docx")
 
-# Save the document as PDF
+# Belgeyi PDF olarak kaydet
 doc.save("output.pdf", aw.SaveFormat.PDF)
 ```
 
@@ -91,13 +93,13 @@ doc.save("output.pdf", aw.SaveFormat.PDF)
 Bir PDF belgesini Word formatına dönüştürmek için şu kodu kullanın:
 
 ```python
-# Python code for PDF to Word conversion
+# PDF'yi Word'e dönüştürme için Python kodu
 import aspose.words as aw
 
-# Load the PDF document
+# PDF belgesini yükleyin
 doc = aw.Document("input.pdf")
 
-# Save the document as Word
+# Belgeyi Word olarak kaydedin
 doc.save("output.docx", aw.SaveFormat.DOCX)
 ```
 
@@ -112,20 +114,20 @@ Python için Aspose.Words, Word ve PDF'in yanı sıra HTML, TXT, EPUB ve daha fa
 Aspose.Words, dönüştürülen belgelerin görünümünü özelleştirmenize olanak tanır. Yazı tipi stilleri, renkler, hizalama ve paragraf aralığı gibi biçimlendirme seçenekleri uygulayabilirsiniz.
 
 ```python
-# Python code for applying formatting during conversion
+# Dönüştürme sırasında biçimlendirme uygulamak için Python kodu
 import aspose.words as aw
 
-# Load the Word document
+# Word belgesini yükleyin
 doc = aw.Document("input.docx")
 
-# Get the first paragraph
+# İlk paragrafı al
 paragraph = doc.first_section.body.first_paragraph
 
-# Apply bold formatting to the text
+# Metne kalın biçimlendirme uygulayın
 run = paragraph.runs[0]
 run.font.bold = True
 
-# Save the formatted document as PDF
+# Biçimlendirilmiş belgeyi PDF olarak kaydedin
 doc.save("formatted_output.pdf", aw.SaveFormat.PDF)
 ```
 
@@ -134,23 +136,23 @@ doc.save("formatted_output.pdf", aw.SaveFormat.PDF)
 Aspose.Words, dönüştürme işlemi sırasında resimleri ve tabloları işlemenize olanak tanır. Resimleri çıkarabilir, yeniden boyutlandırabilir ve belgenin yapısını korumak için tabloları düzenleyebilirsiniz.
 
 ```python
-# Python code for handling images and tables during conversion
+# Dönüştürme sırasında resim ve tabloların işlenmesine yönelik Python kodu
 import aspose.words as aw
 
-# Load the Word document
+# Word belgesini yükleyin
 doc = aw.Document("input.docx")
 
-# Access the first table in the document
+# Belgedeki ilk tabloya erişin
 table = doc.first_section.body.tables[0]
 
-# Get the first image in the document
+# Belgedeki ilk resmi al
 image = doc.get_child(aw.NodeType.SHAPE, 0, True)
 
-# Resize the image
+# Resmi yeniden boyutlandır
 image.width = 200
 image.height = 150
 
-# Save the modified document as PDF
+# Değiştirilen belgeyi PDF olarak kaydet
 doc.save("modified_output.pdf", aw.SaveFormat.PDF)
 ```
 
@@ -159,44 +161,44 @@ doc.save("modified_output.pdf", aw.SaveFormat.PDF)
 Aspose.Words ile tutarlı yazı tipi oluşturmayı sağlayabilir ve dönüştürülen belgelerin düzenini yönetebilirsiniz. Bu özellik, özellikle farklı biçimler arasında belge tutarlılığını korurken faydalıdır.
 
 ```python
-# Python code for managing fonts and layout during conversion
+# Dönüştürme sırasında yazı tiplerini ve düzeni yönetmek için Python kodu
 import aspose.words as aw
 
-# Load the Word document
+# Word belgesini yükleyin
 doc = aw.Document("input.docx")
 
-# Set the default font for the document
+# Belge için varsayılan yazı tipini ayarlayın
 doc.styles.default_font.name = "Arial"
 doc.styles.default_font.size = 12
 
-# Save the document with the modified font settings as PDF
+# Belgeyi değiştirilmiş yazı tipi ayarlarıyla PDF olarak kaydedin
 doc.save("font_modified_output.pdf", aw.SaveFormat.PDF)
 ```
 
-## Belge Dönüştürme İşleminin Otomatikleştirilmesi
+## Belge Dönüşümünün Otomatikleştirilmesi
 
 ### Otomasyon için Python Komut Dosyaları Yazma
 
 Python'un betikleme yetenekleri onu tekrarlayan görevleri otomatikleştirmek için mükemmel bir seçim haline getirir. Toplu belge dönüştürmeyi gerçekleştirmek için Python betikleri yazabilir, zamandan ve emekten tasarruf edebilirsiniz.
 
 ```python
-# Python script for batch document conversion
+# Toplu belge dönüştürme için Python betiği
 import os
 import aspose.words as aw
 
-# Set the input and output directories
+# Giriş ve çıkış dizinlerini ayarlayın
 input_dir = "input_documents"
 output_dir = "output_documents"
 
-# Get a list of all files in the input directory
+# Giriş dizinindeki tüm dosyaların listesini al
 input_files = os.listdir(input_dir)
 
-# Loop through each file and perform the conversion
+# Her dosyada döngüye girin ve dönüştürmeyi gerçekleştirin
 for filename in input_files:
-    # Load the document
+    # Belgeyi yükle
     doc = aw.Document(os.path.join(input_dir, filename))
     
-    # Convert the document to PDF
+    # Belgeyi PDF'ye dönüştür
     output_filename = filename.replace(".docx", ".pdf")
     doc.save(os.path.join(output_dir, output_filename), aw.SaveFormat.PDF)
 ```
@@ -206,29 +208,29 @@ for filename in input_files:
 Python ve Aspose.Words'ün gücünü birleştirerek, belgelerin toplu dönüşümünü otomatikleştirebilir, üretkenliği ve verimliliği artırabilirsiniz.
 
 ```python
-# Python script for batch document conversion using Aspose.Words
+# Aspose.Words kullanarak toplu belge dönüştürme için Python betiği
 import os
 import aspose.words as aw
 
-# Set the input and output directories
+# Giriş ve çıkış dizinlerini ayarlayın
 input_dir = "input_documents"
 output_dir = "output_documents"
 
-# Get a list of all files in the input directory
+# Giriş dizinindeki tüm dosyaların listesini al
 input_files = os.listdir(input_dir)
 
-# Loop through each file and perform the conversion
+# Her dosyada döngüye girin ve dönüştürmeyi gerçekleştirin
 for filename in input_files:
-    # Get the file extension
+    # Dosya uzantısını al
     file_ext = os.path.splitext(filename)[1].lower()
 
-    # Load the document based on its format
+    # Belgeyi biçimine göre yükleyin
     if file_ext == ".docx":
         doc = aw.Document(os.path.join(input_dir, filename))
     elif file_ext == ".pdf":
         doc = aw.Document(os.path.join(input_dir, filename))
 
-    # Convert the document to the opposite format
+    # Belgeyi zıt biçime dönüştürün
     output_filename = filename.replace(file_ext, ".pdf" if file_ext == ".docx" else ".docx")
     doc.save(os.path.join(output_dir, output_filename))
 ```
@@ -243,7 +245,7 @@ Belge dönüştürme, bilgi alışverişini basitleştirmede ve iş birliğini g
 
 Aspose.Words for Python, Python 2.7 ve Python 3.x sürümleriyle uyumludur. Kullanıcılar, geliştirme ortamlarına ve gereksinimlerine en uygun sürümü seçebilirler.
 
-### Aspose.Words kullanarak şifrelenmiş Word belgelerini dönüştürebilir miyim?
+### Şifrelenmiş Word belgelerini Aspose.Words kullanarak dönüştürebilir miyim?
 
 Evet, Aspose.Words for Python şifreli Word belgelerinin dönüştürülmesini destekler. Dönüştürme işlemi sırasında parola korumalı belgeleri işleyebilir.
 
@@ -254,9 +256,14 @@ Evet, Aspose.Words, Word belgelerinin JPEG, PNG, BMP ve GIF gibi çeşitli resim
 ### Dönüştürme sırasında büyük Word belgelerini nasıl işleyebilirim?
 
 Python için Aspose.Words, büyük Word belgelerini verimli bir şekilde işlemek için tasarlanmıştır. Geliştiriciler, kapsamlı dosyaları işlerken bellek kullanımını ve performansı optimize edebilir.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

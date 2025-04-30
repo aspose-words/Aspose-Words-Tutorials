@@ -1,14 +1,16 @@
 ---
-title: Dostosuj etykietę danych wykresu
-linktitle: Dostosuj etykietę danych wykresu
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dostosować etykiety danych wykresu za pomocą Aspose.Words dla .NET w przewodniku krok po kroku. Idealne dla programistów .NET.
-weight: 10
-url: /pl/net/programming-with-charts/chart-data-label/
+"description": "Dowiedz się, jak dostosować etykiety danych wykresu za pomocą Aspose.Words dla .NET w przewodniku krok po kroku. Idealne dla programistów .NET."
+"linktitle": "Dostosuj etykietę danych wykresu"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Dostosuj etykietę danych wykresu"
+"url": "/pl/net/programming-with-charts/chart-data-label/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dostosuj etykietę danych wykresu
@@ -23,9 +25,9 @@ Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
 1. Visual Studio: zainstaluj program Visual Studio 2019 lub nowszy.
 2. .NET Framework: Upewnij się, że masz .NET Framework 4.0 lub nowszy.
-3.  Aspose.Words dla .NET: Pobierz i zainstaluj Aspose.Words dla .NET z[link do pobrania](https://releases.aspose.com/words/net/).
+3. Aspose.Words dla .NET: Pobierz i zainstaluj Aspose.Words dla .NET z [link do pobrania](https://releases.aspose.com/words/net/).
 4. Podstawowa znajomość języka C#: Znajomość programowania w języku C# jest niezbędna.
-5.  Ważna licencja: Uzyskaj[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub kup jeden z[kup link](https://purchase.aspose.com/buy).
+5. Ważna licencja: Uzyskaj [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub kup jeden z [kup link](https://purchase.aspose.com/buy).
 
 ## Importuj przestrzenie nazw
 
@@ -40,7 +42,7 @@ using Aspose.Words.Charts;
 
 ## Krok 1: Zainicjuj dokument i DocumentBuilder
 
-Aby tworzyć i manipulować dokumentami programu Word, najpierw musimy zainicjować wystąpienie`Document` klasa i`DocumentBuilder` obiekt.
+Aby tworzyć i manipulować dokumentami programu Word, musimy najpierw zainicjować wystąpienie `Document` klasa i `DocumentBuilder` obiekt.
 
 ```csharp
 // Ścieżka do katalogu dokumentów
@@ -57,7 +59,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Krok 2: Wstaw wykres
 
- Następnie wstawimy wykres słupkowy do dokumentu za pomocą`DocumentBuilder` obiekt.
+Następnie wstawimy wykres słupkowy do dokumentu za pomocą `DocumentBuilder` obiekt.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Bar, 432, 252);
@@ -100,7 +102,7 @@ labels.Separator = "/";
 
 - Etykiety ChartDataLabelCollection: uzyskuje dostęp do etykiet danych serii.
 - labels.ShowLegendKey: Wyświetla klucz legendy.
-- labels.ShowLeaderLines: Pokazuje linie odniesienia dla etykiet danych umieszczonych daleko poza punktami danych.
+- etykiety.ShowLeaderLines: Pokazuje linie odniesienia dla etykiet danych umieszczonych daleko poza punktami danych.
 - labels.ShowCategoryName: Ukrywa nazwę kategorii.
 - labels.ShowPercentage: Ukrywa wartość procentową.
 - labels.ShowSeriesName: Wyświetla nazwę serii.
@@ -121,7 +123,7 @@ doc.Save(dataDir + "WorkingWithCharts.ChartDataLabel.docx");
 
 ## Wniosek
 
- Gratulacje! Udało Ci się dostosować etykiety danych wykresu przy użyciu Aspose.Words dla .NET. Ta biblioteka oferuje solidne rozwiązanie do obsługi dokumentów Word programowo, ułatwiając programistom tworzenie zaawansowanych i dynamicznych aplikacji do przetwarzania dokumentów. Zanurz się w[dokumentacja](https://reference.aspose.com/words/net/) aby odkryć więcej funkcji i możliwości.
+Gratulacje! Udało Ci się dostosować etykiety danych wykresu przy użyciu Aspose.Words dla .NET. Ta biblioteka oferuje solidne rozwiązanie do obsługi dokumentów Word programowo, ułatwiając programistom tworzenie zaawansowanych i dynamicznych aplikacji do przetwarzania dokumentów. Zanurz się w [dokumentacja](https://reference.aspose.com/words/net/) aby odkryć więcej funkcji i możliwości.
 
 ## Najczęściej zadawane pytania
 
@@ -129,20 +131,25 @@ doc.Save(dataDir + "WorkingWithCharts.ChartDataLabel.docx");
 Aspose.Words for .NET to zaawansowana biblioteka do przetwarzania dokumentów, która umożliwia programistom programistyczne tworzenie, modyfikowanie i konwertowanie dokumentów Word.
 
 ### Jak zainstalować Aspose.Words dla .NET?
- Możesz pobrać i zainstalować go ze strony[link do pobrania](https://releases.aspose.com/words/net/). Postępuj zgodnie z dostarczonymi instrukcjami instalacji.
+Możesz pobrać i zainstalować go ze strony [link do pobrania](https://releases.aspose.com/words/net/). Postępuj zgodnie z dostarczoną instrukcją instalacji.
 
 ### Czy mogę wypróbować Aspose.Words dla .NET za darmo?
- Tak, możesz dostać[bezpłatny okres próbny](https://releases.aspose.com/) lub[licencja tymczasowa](https://purchase.aspose.com/temporary-license/)aby ocenić produkt.
+Tak, możesz dostać [bezpłatny okres próbny](https://releases.aspose.com/) lub [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby ocenić produkt.
 
 ### Czy Aspose.Words dla .NET jest kompatybilny z .NET Core?
 Tak, Aspose.Words dla .NET jest zgodny z .NET Core, .NET Standard i .NET Framework.
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Words dla .NET?
- Możesz odwiedzić[forum wsparcia](https://forum.aspose.com/c/words/8) Aby uzyskać pomoc i wsparcie od społeczności Aspose i ekspertów.
+Możesz odwiedzić [forum wsparcia](https://forum.aspose.com/c/words/8) Aby uzyskać pomoc i wsparcie od społeczności Aspose i ekspertów.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

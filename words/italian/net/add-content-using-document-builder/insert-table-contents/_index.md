@@ -1,38 +1,46 @@
 ---
-title: Crea un documento Word con tabella di contenuti in .NET
-weight: 7700
-limit: 
-description: Impara a creare un documento Word con una tabella di contenuti utilizzando Aspose.Words per .NET. Guida passo-passo inclusa.
-keywords: [Aspose.Words, .NET, Word document, Table of Contents, DocumentBuilder, example, code snippet]
-url: /it/net/add-content-using-document-builder/insert-table-contents/
+"description": "Impara a creare un documento Word con indice usando Aspose.Words per .NET. Guida passo passo inclusa."
+"title": "Creare un documento Word con indice in .NET"
+"url": "/it/net/add-content-using-document-builder/insert-table-contents/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crea un documento Word con tabella di contenuti
-Questo esempio dimostra come utilizzare Aspose.Words per .NET per creare un documento Word che include una tabella di contenuti interattiva (TOC) generata utilizzando la classe DocumentBuilder. Il codice illustra come inserire titoli di vari livelli, formattarli e salvare il documento risultante come file .docx. Seguire i passaggi di seguito per una facile implementazione.
+# Creare un documento Word con indice
+Questo esempio illustra come utilizzare Aspose.Words per .NET per creare un documento Word che include un indice interattivo (TOC) generato tramite la classe DocumentBuilder. Il codice illustra come inserire titoli di vari livelli, formattarli e salvare il documento risultante come file .docx. Per una semplice implementazione, seguire i passaggi seguenti.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-table-contents" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Instruzioni di installazione
-1. Prequisit: assicurarsi di avere installato .NET sulla macchina.
-2. Installare Aspose.Words: 
-   * Utilizzare NuGet Package Manager Console:
+## Istruzioni per l'installazione
+1. Prerequisiti: assicurati di avere .NET installato sul tuo computer.
+2. Installa Aspose.Words: 
+   - Utilizzare la console di NuGet Package Manager:
      ```
      Install-Package Aspose.Words
      ```
-   * Oppure, cercare "Aspose.Words" nella GUI NuGet Package Manager.
+   - Oppure cerca "Aspose.Words" nell'interfaccia utente grafica di NuGet Package Manager.
 
 ## Vedi anche
-[Aspose.Word per Documentazione .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word per i riferimenti .NET](https://reference.aspose.com/words/net/)
+[Documentazione di Aspose.Word per .NET](https://docs.aspose.com/words/net/)
+[Riferimenti ad Aspose.Word per .NET](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

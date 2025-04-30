@@ -1,14 +1,16 @@
 ---
-title: Revizyon Gruplarını Alın
-linktitle: Revizyon Gruplarını Alın
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kapsamlı adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerinden revizyon gruplarının nasıl alınacağını öğrenin. Belge yönetimi için mükemmeldir.
-weight: 10
-url: /tr/net/working-with-revisions/get-revision-groups/
+"description": "Bu kapsamlı adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerinden revizyon gruplarının nasıl alınacağını öğrenin. Belge yönetimi için mükemmeldir."
+"linktitle": "Revizyon Gruplarını Alın"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Revizyon Gruplarını Alın"
+"url": "/tr/net/working-with-revisions/get-revision-groups/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Revizyon Gruplarını Alın
@@ -21,7 +23,7 @@ Belge işlemenin dinamik dünyasında, Word belgelerinizdeki değişiklikleri ve
 
 Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-1.  Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET'in en son sürümünü indirip yüklediğinizden emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET'in en son sürümünü indirip yüklediğinizden emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Bir .NET geliştirme ortamı kurun (örneğin, Visual Studio).
 3. Temel C# Bilgisi: C# programlamaya aşinalık faydalı olacaktır.
 
@@ -39,7 +41,7 @@ using Aspose.Words.Revision;
 
 ## Adım 1: Belgeyi Başlatın
 
- İlk adım, başlatmaktır`Document` Word belgenizin yolunu içeren nesne. Bu nesne, belgenin içeriğine erişmenizi ve bunları düzenlemenizi sağlayacaktır.
+İlk adım, başlatmaktır `Document` Word belgenizin yolunu içeren nesne. Bu nesne, belgenin içeriğine erişmenizi ve bunları düzenlemenizi sağlayacaktır.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -91,26 +93,31 @@ Aspose.Words for .NET kullanarak bir Word belgesinden revizyon gruplarını alma
 
 ### Revizyonları belirli bir yazara göre filtreleyebilir miyim?
 
- Evet, revizyonları belirli bir yazara göre filtreleyebilirsiniz.`Author` her birinin mülkü`RevisionGroup` yineleme sırasında.
+Evet, revizyonları belirli bir yazara göre filtreleyebilirsiniz. `Author` her birinin mülkü `RevisionGroup` yineleme sırasında.
 
 ### Aspose.Words for .NET'in ücretsiz deneme sürümünü nasıl edinebilirim?
 
- Aspose.Words for .NET'in ücretsiz deneme sürümünü edinebilirsiniz[Burada](https://releases.aspose.com/).
+Aspose.Words for .NET'in ücretsiz deneme sürümünü edinebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Words for .NET revizyonları yönetmek için başka hangi özellikleri sunuyor?
 
- Aspose.Words for .NET, revizyonları kabul etme veya reddetme, belgeleri karşılaştırma ve daha fazlası gibi özellikler sunar.[belgeleme](https://reference.aspose.com/words/net/) Detaylı bilgi için.
+Aspose.Words for .NET, revizyonları kabul etme veya reddetme, belgeleri karşılaştırma ve daha fazlası gibi özellikler sunar. [belgeleme](https://reference.aspose.com/words/net/) Detaylı bilgi için.
 
 ### Aspose.Words for .NET desteği almak mümkün mü?
 
-Evet, Aspose topluluğundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/words/8).
+Evet, Aspose topluluğundan destek alabilirsiniz [Burada](https://forum.aspose.com/c/words/8).
 
 ### Aspose.Words for .NET'i nasıl satın alabilirim?
 
- Aspose.Words for .NET'i satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Aspose.Words for .NET'i satın alabilirsiniz [Burada](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

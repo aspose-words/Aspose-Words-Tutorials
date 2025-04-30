@@ -1,33 +1,35 @@
 ---
-title: Herkennen en vervangen binnen vervangingspatronen
-linktitle: Herkennen en vervangen binnen vervangingspatronen
-second_title: Aspose.Words API voor documentverwerking
-description: Leer hoe u tekst binnen vervangingspatronen herkent en vervangt met Aspose.Words voor .NET. Stapsgewijze handleiding met gedetailleerde voorbeelden.
-weight: 10
-url: /nl/net/find-and-replace-text/recognize-and-substitutions-within-replacement-patterns/
+"description": "Leer hoe u tekst binnen vervangingspatronen herkent en vervangt met Aspose.Words voor .NET. Stapsgewijze handleiding met gedetailleerde voorbeelden."
+"linktitle": "Herkennen en vervangen van patronen binnen vervanging"
+"second_title": "Aspose.Words API voor documentverwerking"
+"title": "Herkennen en vervangen van patronen binnen vervanging"
+"url": "/nl/net/find-and-replace-text/recognize-and-substitutions-within-replacement-patterns/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Herkennen en vervangen binnen vervangingspatronen
+# Herkennen en vervangen van patronen binnen vervanging
 
 ## Invoering
 
-Welkom bij een spannende reis in de wereld van tekstmanipulatie met Aspose.Words voor .NET! Vandaag gaan we onderzoeken hoe je tekst herkent en vervangt binnen vervangingspatronen, een cruciale vaardigheid voor het automatiseren en verbeteren van je documentverwerkingstaken. Laten we erin duiken!
+Welkom bij een spannende reis door de wereld van tekstmanipulatie met Aspose.Words voor .NET! Vandaag onderzoeken we hoe je tekst kunt herkennen en vervangen binnen vervangingspatronen, een cruciale vaardigheid voor het automatiseren en verbeteren van je documentverwerkingstaken. Laten we erin duiken!
 
 ## Vereisten
 
-Voordat we aan de slag gaan met code, willen we eerst controleren of je alles hebt wat je nodig hebt:
+Voordat we aan de slag gaan met code, controleren we eerst of je alles hebt wat je nodig hebt:
 
--  Aspose.Words voor .NET: U kunt het downloaden van[hier](https://releases.aspose.com/words/net/).
-- Ontwikkelomgeving: Elke IDE, zoals Visual Studio, is geschikt.
-- Basiskennis van C#: Als u bekend bent met C#, bent u klaar om te beginnen!
+- Aspose.Words voor .NET: U kunt het downloaden van [hier](https://releases.aspose.com/words/net/).
+- Ontwikkelomgeving: Elke IDE, bijvoorbeeld Visual Studio, is geschikt.
+- Basiskennis van C#: Als u bekend bent met C#, kunt u aan de slag!
 
 ## Naamruimten importeren
 
-Om te beginnen moet u de benodigde namespaces importeren in uw project. Dit is hoe u dat kunt doen:
+Om te beginnen moet je de benodigde naamruimten in je project importeren. Zo doe je dat:
 
 ```csharp
 using Aspose.Words;
@@ -35,38 +37,38 @@ using Aspose.Words.Replacing;
 using System.Text.RegularExpressions;
 ```
 
-Laten we het voorbeeld nu opsplitsen in beheersbare stappen. Elke stap begeleidt u door het proces van het herkennen en vervangen van tekst binnen vervangingspatronen met behulp van Aspose.Words voor .NET.
+Laten we het voorbeeld nu opsplitsen in hanteerbare stappen. Elke stap begeleidt je door het proces van het herkennen en vervangen van tekst binnen vervangingspatronen met behulp van Aspose.Words voor .NET.
 
 ## Stap 1: Initialiseer het document
 
-Allereerst moet u een nieuw document maken. Dit document dient als uw canvas voor de tekstvervanging.
+Allereerst moet je een nieuw document aanmaken. Dit document dient als basis voor de tekstvervanging.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- De`Document` object is de kern van Aspose.Words. Het vertegenwoordigt het gehele Word-document.
+De `Document` Object is de kern van Aspose.Words. Het vertegenwoordigt het volledige Word-document.
 
 ## Stap 2: Tekst toevoegen aan het document
 
-Laten we vervolgens wat tekst aan het document toevoegen. Deze tekst zal het doel zijn van onze vervangingsoperaties.
+Laten we nu wat tekst aan het document toevoegen. Deze tekst zal het doel zijn van onze vervangingsoperaties.
 
 ```csharp
 builder.Write("Jason give money to Paul.");
 ```
 
- De`DocumentBuilder` class is een krachtig hulpmiddel voor het toevoegen van tekst en andere elementen aan uw document.
+De `DocumentBuilder` class is een krachtig hulpmiddel waarmee u tekst en andere elementen aan uw document kunt toevoegen.
 
 ## Stap 3: Definieer het Regex-patroon
 
-Om de tekst te herkennen die u wilt vervangen, moet u een regex-patroon definiëren. Dit patroon komt overeen met de specifieke tekst in uw document.
+Om de tekst die u wilt vervangen te herkennen, moet u een regex-patroon definiëren. Dit patroon komt overeen met de specifieke tekst in uw document.
 
 ```csharp
 Regex regex = new Regex(@"([A-z]+) give money to ([A-z]+)");
 ```
 
- In deze regex,`([A-z]+)` komt overeen met elk woord dat uit letters bestaat, waardoor het voor verschillende namen geschikt is.
+In deze reguliere expressie, `([A-z]+)` komt overeen met elk woord dat uit letters bestaat, waardoor het voor verschillende namen geschikt is.
 
 ## Stap 4: Vervangingsopties instellen
 
@@ -76,7 +78,7 @@ Met Aspose.Words kunt u substituties gebruiken in uw vervangingen. U moet deze o
 FindReplaceOptions options = new FindReplaceOptions { UseSubstitutions = true };
 ```
 
- De`FindReplaceOptions` klasse biedt verschillende opties voor het aanpassen van uw zoek- en vervangbewerkingen.
+De `FindReplaceOptions` klasse biedt verschillende opties voor het aanpassen van uw zoek- en vervangbewerkingen.
 
 ## Stap 5: Voer de vervanging uit
 
@@ -86,11 +88,11 @@ Nu gaan we de vervangingsoperatie uitvoeren. Dit is waar de magie gebeurt!
 doc.Range.Replace(regex, @"$2 take money from $1", options);
 ```
 
- Hier,`$2` En`$1` zijn substitutiepatronen.`$2` verwijst naar de tweede gevangen groep (Paul), en`$1` verwijst naar de eerste gevangen groep (Jason). Het resultaat zal zijn "Paul neemt geld van Jason."
+Hier, `$2` En `$1` zijn substitutiepatronen. `$2` verwijst naar de tweede gevangen groep (Paul), en `$1` Verwijst naar de eerste gevangengenomen groep (Jason). Het resultaat is: "Paul neemt geld van Jason."
 
 ## Stap 6: Sla het document op
 
-Vergeet ten slotte niet om uw document op te slaan, zodat u de wijzigingen kunt zien.
+Vergeet ten slotte niet om uw document op te slaan om de wijzigingen te zien.
 
 ```csharp
 doc.Save("Output.docx");
@@ -100,28 +102,33 @@ U kunt het document opslaan in verschillende formaten, zoals DOCX, PDF, HTML, en
 
 ## Conclusie
 
-Gefeliciteerd! U hebt succesvol geleerd hoe u tekst kunt herkennen en vervangen binnen vervangingspatronen met Aspose.Words voor .NET. Deze krachtige functie kan u veel tijd en moeite besparen bij documentverwerkingstaken. Of u nu rapporten automatiseert, documenten genereert of gewoon tekst beheert, Aspose.Words heeft alles voor u.
+Gefeliciteerd! Je hebt succesvol geleerd hoe je tekst binnen vervangingspatronen kunt herkennen en vervangen met Aspose.Words voor .NET. Deze krachtige functie bespaart je veel tijd en moeite bij documentverwerking. Of je nu rapporten automatiseert, documenten genereert of gewoon tekst beheert, Aspose.Words helpt je daarbij.
 
 ## Veelgestelde vragen
 
 ### Wat is Aspose.Words voor .NET?
-Aspose.Words voor .NET is een krachtige bibliotheek voor het werken met Word-documenten in .NET-toepassingen. Hiermee kunt u programmatisch documenten maken, wijzigen en converteren.
+Aspose.Words voor .NET is een krachtige bibliotheek voor het werken met Word-documenten in .NET-applicaties. Hiermee kunt u documenten programmatisch maken, wijzigen en converteren.
 
 ### Hoe kan ik Aspose.Words voor .NET installeren?
- U kunt Aspose.Words voor .NET installeren vanaf de[downloadlink](https://releases.aspose.com/words/net/)Volg de meegeleverde installatie-instructies.
+U kunt Aspose.Words voor .NET installeren vanaf de [downloadlink](https://releases.aspose.com/words/net/)Volg de meegeleverde installatie-instructies.
 
 ### Kan ik reguliere expressies gebruiken met Aspose.Words voor .NET?
-Ja, Aspose.Words ondersteunt reguliere expressies voor zoek- en vervangbewerkingen, waardoor complexe tekstbewerkingen mogelijk zijn.
+Ja, Aspose.Words ondersteunt reguliere expressies voor zoek- en vervangbewerkingen, waardoor complexe tekstmanipulaties mogelijk zijn.
 
 ### Wat zijn substitutiepatronen in regex?
- Substitutiepatronen, zoals`$1` En`$2`, verwijzen naar vastgelegde groepen in de regex-match. Ze worden gebruikt om delen van de gematchte tekst in de vervangende string opnieuw te ordenen of te hergebruiken.
+Substitutiepatronen, zoals `$1` En `$2`, verwijzen naar vastgelegde groepen in de reguliere expressie. Ze worden gebruikt om delen van de overeenkomende tekst in de vervangende tekenreeks te herschikken of hergebruiken.
 
 ### Hoe krijg ik ondersteuning voor Aspose.Words voor .NET?
- U kunt ondersteuning krijgen via de Aspose-communityforums[hier](https://forum.aspose.com/c/words/8).
+U kunt ondersteuning krijgen via de Aspose-communityforums [hier](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

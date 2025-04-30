@@ -1,14 +1,16 @@
 ---
-title: Kaynak Steam Yazı Tipi Kaynak Örneği
-linktitle: Kaynak Steam Yazı Tipi Kaynak Örneği
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı kılavuzda Aspose.Words for .NET ile bir kaynak akışı yazı tipi kaynağının nasıl kullanılacağını öğrenin. Belgelerinizin her seferinde doğru şekilde işlendiğinden emin olun.
-weight: 10
-url: /tr/net/working-with-fonts/resource-steam-font-source-example/
+"description": "Bu ayrıntılı kılavuzda Aspose.Words for .NET ile bir kaynak akışı yazı tipi kaynağının nasıl kullanılacağını öğrenin. Belgelerinizin her seferinde doğru şekilde işlendiğinden emin olun."
+"linktitle": "Kaynak Steam Yazı Tipi Kaynak Örneği"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Kaynak Steam Yazı Tipi Kaynak Örneği"
+"url": "/tr/net/working-with-fonts/resource-steam-font-source-example/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kaynak Steam Yazı Tipi Kaynak Örneği
@@ -22,9 +24,9 @@ url: /tr/net/working-with-fonts/resource-steam-font-source-example/
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 - Temel C# Bilgisi: C# programlamaya aşina olmanız, takip etmenize yardımcı olacaktır.
--  Aspose.Words for .NET Kütüphanesi: Buradan indirin ve kurun[indirme bağlantısı](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET Kütüphanesi: Buradan indirin ve kurun [indirme bağlantısı](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Kodunuzu yazıp çalıştırabileceğiniz Visual Studio benzeri bir kurulum.
--  Örnek Belge: Örnek bir belgeniz olsun (örneğin,`Rendering.docx`) yazı tipi ayarlarını test etmeye hazır.
+- Örnek Belge: Örnek bir belgeniz olsun (örneğin, `Rendering.docx`) yazı tipi ayarlarını test etmeye hazır.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Adım 2: Belgeyi Yükleyin
 
- Belgenizi bir Aspose.Words'e yükleyin`Document` nesne. Bu, belgeyi programlı olarak düzenlemenize olanak tanır.
+Belgenizi bir Aspose.Words'e yükleyin `Document` nesne. Bu, belgeyi programlı olarak düzenlemenize olanak tanır.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -68,7 +70,7 @@ FontSettings.DefaultInstance.SetFontsSources(new FontSourceBase[]
 
 ## Adım 4: Kaynak Akışı Yazı Tipi Kaynağını Uygula
 
- Genişleyen bir sınıf oluşturun`StreamFontSource` gömülü bir kaynak akışından gelen yazı tiplerini işlemek için. Bu sınıf, yazı tipi verilerini derlemenin kaynaklarından alacaktır.
+Genişleyen bir sınıf oluşturun `StreamFontSource` gömülü bir kaynak akışından gelen yazı tiplerini işlemek için. Bu sınıf, yazı tipi verilerini derlemenin kaynaklarından alacaktır.
 
 ```csharp
 internal class ResourceSteamFontSource : StreamFontSource
@@ -88,7 +90,7 @@ Son olarak, yazı tipi ayarlarını uyguladıktan sonra belgeyi kaydedin. İsted
 doc.Save(dataDir + "WorkingWithFonts.SetFontsFolders.pdf");
 ```
 
-Bu adımları izleyerek, uygulamanızı bir kaynak akışını yazı tipi kaynağı olarak kullanacak şekilde yapılandırmış ve gerekli yazı tiplerinin belgeleriniz için gömülü ve kullanılabilir olmasını sağlamış olursunuz.
+Bu adımları izleyerek, uygulamanızı bir kaynak akışını yazı tipi kaynağı olarak kullanacak şekilde yapılandırmış olursunuz; böylece gerekli yazı tiplerinin gömülü ve belgeleriniz için kullanılabilir olduğundan emin olursunuz.
 
 ## Çözüm
 
@@ -98,27 +100,32 @@ Artık Aspose.Words for .NET ile bir kaynak akışını font kaynağı olarak ku
 
 ### S1: Farklı yazı tipleri için birden fazla kaynak akışı kullanabilir miyim?
 
- Evet, birden fazla uygulayabilirsiniz`StreamFontSource` Farklı kaynak akışları için sınıflar oluşturun ve bunları yazı tipi kaynaklarına ekleyin.
+Evet, birden fazla uygulayabilirsiniz `StreamFontSource` Farklı kaynak akışları için sınıflar oluşturun ve bunları yazı tipi kaynaklarına ekleyin.
 
 ### S2: Aspose.Words for .NET'in ücretsiz deneme sürümünü nereden edinebilirim?
 
- Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Aspose ücretsiz deneme sayfası](https://releases.aspose.com/).
+Ücretsiz deneme sürümünü şuradan indirebilirsiniz: [Aspose ücretsiz deneme sayfası](https://releases.aspose.com/).
 
-###  S3: Diğer uyarı türlerini de işleyebilir miyim?`IWarningCallback`?
+### S3: Diğer uyarı türlerini de işleyebilir miyim? `IWarningCallback`?
 
- Evet,`IWarningCallback`arayüz sadece yazı tipi değiştirmeyi değil, çeşitli uyarı tiplerini de işleyebilir.
+Evet, `IWarningCallback` arayüz sadece yazı tipi değiştirmeyi değil, çeşitli uyarı tiplerini de işleyebilir.
 
 ### S4: Aspose.Words için desteği nereden bulabilirim?
 
- Ziyaret edin[Aspose.Words destek forumu](https://forum.aspose.com/c/words/8) yardım için.
+Ziyaret edin [Aspose.Words destek forumu](https://forum.aspose.com/c/words/8) yardım için.
 
 ### S5: Aspose.Words için geçici lisans almak mümkün mü?
 
- Evet, geçici bir lisans alabilirsiniz.[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+Evet, geçici bir lisans alabilirsiniz. [geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

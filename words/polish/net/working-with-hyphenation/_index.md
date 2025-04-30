@@ -1,14 +1,16 @@
 ---
-title: Przetwarzanie słów z podziałem wyrazów
-linktitle: Przetwarzanie słów z podziałem wyrazów
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak zarządzać dzieleniem wyrazów w dokumentach Word za pomocą Aspose.Words dla .NET. Zawiera kompletne samouczki i praktyczne przykłady.
-weight: 750
-url: /pl/net/working-with-hyphenation/
+"description": "Dowiedz się, jak zarządzać podziałem wyrazów w dokumentach Word za pomocą Aspose.Words dla .NET. Zawiera kompletne samouczki i praktyczne przykłady."
+"linktitle": "Przetwarzanie słów z podziałem wyrazów"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przetwarzanie słów z podziałem wyrazów"
+"url": "/pl/net/working-with-hyphenation/"
+"weight": 750
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przetwarzanie słów z podziałem wyrazów
@@ -19,11 +21,16 @@ Words Processing with Hyphenation to kompleksowe źródło, które przeprowadzi 
 | Tytuł | Opis |
 | --- | --- |
 | [Łączenie wyrazów w językach](./hyphenate-words-of-languages/) | Dowiedz się, jak dzielić wyrazy w różnych językach za pomocą Aspose.Words dla .NET. Postępuj zgodnie z tym szczegółowym przewodnikiem krok po kroku, aby zwiększyć czytelność dokumentu. |
-| [Załaduj słownik dzielenia wyrazów dla języka](./load-hyphenation-dictionary-for-language/) | Dowiedz się, jak załadować słownik dzielenia wyrazów dla dowolnego języka za pomocą Aspose.Words dla platformy .NET, korzystając z tego kompleksowego samouczka krok po kroku. |
-| [Wywołanie zwrotne dzielenia wyrazów](./hyphenation-callback/) | Naucz się implementować funkcję zwrotną dzielenia wyrazów w Aspose.Words dla platformy .NET, aby ulepszyć formatowanie dokumentów, korzystając z tego kompleksowego przewodnika krok po kroku. |
+| [Załaduj słownik dzielenia wyrazów dla języka](./load-hyphenation-dictionary-for-language/) Dowiedz się, jak załadować słownik dzielenia wyrazów dla dowolnego języka przy użyciu Aspose.Words dla platformy .NET w tym kompleksowym samouczku krok po kroku. |
+| [Wywołanie zwrotne dzielenia wyrazów](./hyphenation-callback/) | Dowiedz się, jak wdrożyć funkcję wywołania zwrotnego dzielenia wyrazów w Aspose.Words dla platformy .NET, aby ulepszyć formatowanie dokumentów, korzystając z tego kompleksowego przewodnika krok po kroku. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

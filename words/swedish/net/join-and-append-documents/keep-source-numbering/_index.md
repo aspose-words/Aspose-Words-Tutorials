@@ -1,32 +1,34 @@
 ---
-title: Behåll källnumrering
-linktitle: Behåll källnumrering
-second_title: Aspose.Words Document Processing API
-description: Lär dig hur du importerar dokument samtidigt som du bevarar formateringen med Aspose.Words för .NET. Steg-för-steg guide med kodexempel.
-weight: 10
-url: /sv/net/join-and-append-documents/keep-source-numbering/
+"description": "Lär dig hur du importerar dokument samtidigt som du bevarar formateringen med Aspose.Words för .NET. Steg-för-steg-guide med kodexempel."
+"linktitle": "Behåll källnumreringen"
+"second_title": "Aspose.Words dokumentbehandlings-API"
+"title": "Behåll källnumreringen"
+"url": "/sv/net/join-and-append-documents/keep-source-numbering/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Behåll källnumrering
+# Behåll källnumreringen
 
 ## Introduktion
 
- När du arbetar med Aspose.Words för .NET kan import av dokument från en källa till en annan med bibehållen formatering hanteras effektivt med hjälp av`NodeImporter` klass. Denna handledning guidar dig genom processen steg för steg.
+När man arbetar med Aspose.Words för .NET kan import av dokument från en källa till en annan med bibehållen formatering hanteras effektivt med hjälp av `NodeImporter` klass. Den här handledningen kommer att vägleda dig genom processen steg för steg.
 
-## Förutsättningar
+## Förkunskapskrav
 
 Innan du börjar, se till att du har följande:
 - Visual Studio installerat på din dator.
--  Aspose.Words för .NET installerat. Om inte, ladda ner den från[här](https://releases.aspose.com/words/net/).
+- Aspose.Words för .NET installerat. Om inte, ladda ner det från [här](https://releases.aspose.com/words/net/).
 - Grundläggande kunskaper i C# och .NET programmering.
 
-## Importera namnområden
+## Importera namnrymder
 
-Inkludera först de nödvändiga namnrymden i ditt projekt:
+Först, inkludera de nödvändiga namnrymderna i ditt projekt:
 
 ```csharp
 using Aspose.Words;
@@ -39,10 +41,10 @@ using Aspose.Words.Tables;
 Börja med att skapa ett nytt C#-projekt i Visual Studio och installera Aspose.Words via NuGet Package Manager.
 
 ## Steg 2: Initiera dokument
-Skapa instanser av källan (`srcDoc`) och destination (`dstDoc`) dokument.
+Skapa instanser av källkoden (`srcDoc`) och destination (`dstDoc`) dokument.
 
 ```csharp
-// Sökväg till din dokumentkatalog
+// Sökväg till din dokumentkatalog 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document srcDoc = new Document(dataDir + "Document source.docx");
@@ -50,7 +52,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 ```
 
 ## Steg 3: Konfigurera importalternativ
-Ställ in importalternativ för att behålla källformateringen, inklusive numrerade stycken.
+Konfigurera importalternativ för att bibehålla källformatering, inklusive numrerade stycken.
 
 ```csharp
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { KeepSourceNumbering = true };
@@ -59,7 +61,7 @@ NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSo
 ```
 
 ## Steg 4: Importera stycken
-Iterera genom stycken i källdokumentet och importera dem till måldokumentet.
+Iterera igenom stycken i källdokumentet och importera dem till måldokumentet.
 
 ```csharp
 ParagraphCollection srcParas = srcDoc.FirstSection.Body.Paragraphs;
@@ -79,28 +81,33 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.KeepSourceNumbering.docx");
 
 ## Slutsats
 
- Sammanfattningsvis är det enkelt att använda Aspose.Words för .NET för att importera dokument med bibehållen formatering med`NodeImporter` klass. Den här metoden säkerställer att dina dokument behåller sitt ursprungliga utseende och struktur sömlöst.
+Sammanfattningsvis är det enkelt att använda Aspose.Words för .NET för att importera dokument samtidigt som formateringen bevaras. `NodeImporter` klass. Den här metoden säkerställer att dina dokument behåller sitt ursprungliga utseende och struktur sömlöst.
 
-## FAQ's
+## Vanliga frågor
 
 ### Kan jag importera dokument med olika formateringsstilar?
- Ja, den`NodeImporter` class stöder import av dokument med olika formateringsstilar.
+Ja, den `NodeImporter` klassen stöder import av dokument med olika formateringsstilar.
 
 ### Vad händer om mina dokument innehåller komplexa tabeller och bilder?
-Aspose.Words för .NET hanterar komplexa strukturer som tabeller och bilder under importoperationer.
+Aspose.Words för .NET hanterar komplexa strukturer som tabeller och bilder under importåtgärder.
 
-### Är Aspose.Words kompatibel med alla versioner av .NET?
-Aspose.Words stöder .NET Framework och .NET Core versioner för sömlös integration.
+### Är Aspose.Words kompatibelt med alla versioner av .NET?
+Aspose.Words stöder .NET Framework och .NET Core-versioner för sömlös integration.
 
-### Hur kan jag hantera fel under dokumentimport?
-Använd try-catch-block för att hantera undantag som kan inträffa under importprocessen.
+### Hur kan jag hantera fel vid dokumentimport?
+Använd try-catch-block för att hantera undantag som kan uppstå under importprocessen.
 
 ### Var kan jag hitta mer detaljerad dokumentation om Aspose.Words för .NET?
- Besök[dokumentation](https://reference.aspose.com/words/net/) för omfattande guider och API-referenser.
+Besök [dokumentation](https://reference.aspose.com/words/net/) för omfattande guider och API-referenser.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

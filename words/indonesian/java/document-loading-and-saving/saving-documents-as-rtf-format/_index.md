@@ -1,14 +1,16 @@
 ---
-title: Menyimpan Dokumen sebagai Format RTF di Aspose.Words untuk Java
-linktitle: Menyimpan Dokumen sebagai Format RTF
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menyimpan dokumen dalam format RTF menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan kode sumber untuk konversi dokumen yang efisien.
-weight: 23
-url: /id/java/document-loading-and-saving/saving-documents-as-rtf-format/
+"description": "Pelajari cara menyimpan dokumen dalam format RTF menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan kode sumber untuk konversi dokumen yang efisien."
+"linktitle": "Menyimpan Dokumen sebagai Format RTF"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menyimpan Dokumen sebagai Format RTF di Aspose.Words untuk Java"
+"url": "/id/java/document-loading-and-saving/saving-documents-as-rtf-format/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menyimpan Dokumen sebagai Format RTF di Aspose.Words untuk Java
@@ -22,7 +24,7 @@ Dalam panduan ini, kami akan memandu Anda melalui proses penyimpanan dokumen seb
 
 Sebelum memulai, pastikan Anda memiliki prasyarat berikut:
 
-1.  Pustaka Aspose.Words untuk Java: Pastikan Anda telah mengintegrasikan pustaka Aspose.Words untuk Java ke dalam proyek Java Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/java/).
+1. Pustaka Aspose.Words untuk Java: Pastikan Anda telah mengintegrasikan pustaka Aspose.Words untuk Java ke dalam proyek Java Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/java/).
 
 2. Dokumen untuk Disimpan: Anda harus memiliki dokumen Word (misalnya, "Document.docx") yang ingin Anda simpan dalam format RTF.
 
@@ -37,11 +39,11 @@ import com.aspose.words.Document;
 Document doc = new Document("path/to/Document.docx");
 ```
 
- Pastikan untuk mengganti`"path/to/Document.docx"` dengan jalur sebenarnya ke dokumen sumber Anda.
+Pastikan untuk mengganti `"path/to/Document.docx"` dengan jalur sebenarnya ke dokumen sumber Anda.
 
 ## Langkah 2: Mengonfigurasi Opsi Penyimpanan RTF
 
- Aspose.Words menyediakan berbagai pilihan untuk mengonfigurasi output RTF. Dalam contoh ini, kita akan menggunakan`RtfSaveOptions` dan menetapkan opsi untuk menyimpan gambar sebagai format WMF (Windows Metafile) dalam dokumen RTF.
+Aspose.Words menyediakan berbagai pilihan untuk mengonfigurasi output RTF. Dalam contoh ini, kita akan menggunakan `RtfSaveOptions` dan menetapkan opsi untuk menyimpan gambar sebagai format WMF (Windows Metafile) dalam dokumen RTF.
 
 ```java
 import com.aspose.words.RtfSaveOptions;
@@ -65,7 +67,7 @@ Sekarang setelah kita memuat dokumen dan mengonfigurasi opsi penyimpanan RTF, sa
 doc.save("path/to/output.rtf", saveOptions);
 ```
 
- Mengganti`"path/to/output.rtf"` dengan jalur dan nama file yang diinginkan untuk file keluaran RTF.
+Mengganti `"path/to/output.rtf"` dengan jalur dan nama file yang diinginkan untuk file keluaran RTF.
 
 ## Source Code Lengkap Untuk Menyimpan Dokumen dalam Format RTF di Aspose.Words untuk Java
 
@@ -83,22 +85,27 @@ Dalam panduan ini, kami telah menunjukkan cara menyimpan dokumen dalam format RT
 
 ### Bagaimana cara mengubah opsi penyimpanan RTF lainnya?
 
- Anda dapat mengubah berbagai opsi penyimpanan RTF menggunakan`RtfSaveOptions` kelas. Lihat dokumentasi Aspose.Words untuk Java untuk daftar lengkap opsi yang tersedia.
+Anda dapat mengubah berbagai opsi penyimpanan RTF menggunakan `RtfSaveOptions` kelas. Lihat dokumentasi Aspose.Words untuk Java untuk daftar lengkap opsi yang tersedia.
 
 ### Bisakah saya menyimpan dokumen RTF dalam penyandian yang berbeda?
 
- Ya, Anda dapat menentukan pengkodean untuk dokumen RTF menggunakan`saveOptions.setEncoding(Charset.forName("UTF-8"))`, misalnya, untuk menyimpannya dalam penyandian UTF-8.
+Ya, Anda dapat menentukan pengkodean untuk dokumen RTF menggunakan `saveOptions.setEncoding(Charset.forName("UTF-8"))`misalnya, untuk menyimpannya dalam penyandian UTF-8.
 
 ### Apakah mungkin untuk menyimpan dokumen RTF tanpa gambar?
 
- Tentu saja. Anda dapat menonaktifkan penyimpanan gambar dengan menggunakan`saveOptions.setSaveImagesAsWmf(false)`.
+Tentu saja. Anda dapat menonaktifkan penyimpanan gambar dengan menggunakan `saveOptions.setSaveImagesAsWmf(false)`.
 
 ### Bagaimana saya dapat menangani pengecualian selama proses penyimpanan?
 
 Anda harus mempertimbangkan penerapan mekanisme penanganan kesalahan, seperti blok try-catch, untuk menangani pengecualian yang mungkin terjadi selama proses penyimpanan dokumen.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

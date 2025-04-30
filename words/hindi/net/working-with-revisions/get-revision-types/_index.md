@@ -1,14 +1,16 @@
 ---
-title: शब्दों के प्रकार का पुनरीक्षण प्राप्त करें
-linktitle: शब्दों के प्रकार का पुनरीक्षण प्राप्त करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में शब्दों के संशोधन प्रकार प्राप्त करना सीखें। यह चरण-दर-चरण मार्गदर्शिका आपको दस्तावेज़ संशोधनों को कुशलतापूर्वक संभालने में मदद करती है।
-weight: 10
-url: /hi/net/working-with-revisions/get-revision-types/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में शब्दों के संशोधन प्रकार प्राप्त करना सीखें। यह चरण-दर-चरण मार्गदर्शिका आपको दस्तावेज़ संशोधनों को कुशलतापूर्वक संभालने में मदद करती है।"
+"linktitle": "शब्दों के प्रकार का पुनरीक्षण प्राप्त करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "शब्दों के प्रकार का पुनरीक्षण प्राप्त करें"
+"url": "/hi/net/working-with-revisions/get-revision-types/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # शब्दों के प्रकार का पुनरीक्षण प्राप्त करें
@@ -21,10 +23,10 @@ url: /hi/net/working-with-revisions/get-revision-types/
 
 इससे पहले कि हम कोड के साथ अपना हाथ गंदा करें, आपको कुछ चीजों की आवश्यकता होगी:
 
-1.  Aspose.Words for .NET लाइब्रेरी: यदि आपने पहले से ऐसा नहीं किया है, तो इसे यहां से डाउनलोड करें[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET लाइब्रेरी: यदि आपने पहले से ऐसा नहीं किया है, तो इसे यहां से डाउनलोड करें [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो या कोई अन्य .NET संगत IDE.
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग भाषा की समझ लाभदायक होगी।
-4.  संशोधनों के साथ एक वर्ड दस्तावेज़: सुनिश्चित करें कि आपके पास एक`.docx`कोड का परीक्षण करने के लिए ट्रैक किए गए परिवर्तनों वाली फ़ाइल बनाएँ।
+4. संशोधनों के साथ एक वर्ड दस्तावेज़: सुनिश्चित करें कि आपके पास एक `.docx` कोड का परीक्षण करने के लिए ट्रैक किए गए परिवर्तनों वाली फ़ाइल बनाएँ।
 
 ## नामस्थान आयात करें
 
@@ -46,7 +48,7 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` अपने दस्तावेज़ फ़ोल्डर के वास्तविक पथ के साथ.
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` अपने दस्तावेज़ फ़ोल्डर के वास्तविक पथ के साथ.
 
 ## चरण 2: अपना वर्ड दस्तावेज़ लोड करें
 
@@ -56,7 +58,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Revisions.docx");
 ```
 
- सुनिश्चित करें कि फ़ाइल`Revisions.docx` निर्दिष्ट निर्देशिका में मौजूद है.
+सुनिश्चित करें कि फ़ाइल `Revisions.docx` निर्दिष्ट निर्देशिका में मौजूद है.
 
 ## चरण 3: पैराग्राफ़ संग्रह तक पहुँचें
 
@@ -80,7 +82,7 @@ for (int i = 0; i < paragraphs.Count; i++)
 }
 ```
 
- यह लूप प्रत्येक पैराग्राफ से गुजरता है और इसका उपयोग करता है`IsMoveFromRevision` और`IsMoveToRevision` गुण यह निर्धारित करने के लिए कि पैराग्राफ़ स्थानांतरित (हटाया) गया था या स्थानांतरित (सम्मिलित) किया गया था।
+यह लूप प्रत्येक पैराग्राफ से गुजरता है और इसका उपयोग करता है `IsMoveFromRevision` और `IsMoveToRevision` गुण यह निर्धारित करने के लिए कि पैराग्राफ़ स्थानांतरित (हटाया) गया था या स्थानांतरित (सम्मिलित) किया गया था।
 
 ## निष्कर्ष
 
@@ -94,22 +96,27 @@ for (int i = 0; i < paragraphs.Count; i++)
 
 ### क्या .NET के लिए Aspose.Words का निःशुल्क परीक्षण उपलब्ध है?
 
- बिलकुल! आप निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+बिलकुल! आप निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### मैं .NET के लिए Aspose.Words हेतु अस्थायी लाइसेंस कैसे लागू कर सकता हूँ?
 
- आप एक अस्थायी लाइसेंस का अनुरोध और आवेदन कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+आप अस्थायी लाइसेंस का अनुरोध और आवेदन कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### मैं .NET के लिए Aspose.Words के अधिक विस्तृत दस्तावेज़ कहां पा सकता हूं?
 
- विस्तृत दस्तावेज यहां उपलब्ध है[Aspose वेबसाइट](https://reference.aspose.com/words/net/).
+विस्तृत दस्तावेज यहां उपलब्ध है [Aspose वेबसाइट](https://reference.aspose.com/words/net/).
 
 ### क्या मैं गैर-व्यावसायिक परियोजना में .NET के लिए Aspose.Words का उपयोग कर सकता हूं?
 
 हां, .NET के लिए Aspose.Words का उपयोग वाणिज्यिक और गैर-वाणिज्यिक दोनों परियोजनाओं में किया जा सकता है, लेकिन लाइसेंसिंग शर्तों की जांच करना सुनिश्चित करें।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

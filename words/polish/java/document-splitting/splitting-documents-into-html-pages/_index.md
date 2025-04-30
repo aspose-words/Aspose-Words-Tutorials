@@ -1,14 +1,16 @@
 ---
-title: Dzielenie dokumentów na strony HTML
-linktitle: Dzielenie dokumentów na strony HTML
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak dzielić dokumenty Word na strony HTML za pomocą Aspose.Words for Java. Nasz przewodnik krok po kroku z kodem źródłowym sprawia, że proces ten jest łatwy i wydajny. Zacznij konwertować swoje dokumenty już dziś!
-weight: 11
-url: /pl/java/document-splitting/splitting-documents-into-html-pages/
+"description": "Dowiedz się, jak dzielić dokumenty Word na strony HTML za pomocą Aspose.Words for Java. Nasz przewodnik krok po kroku z kodem źródłowym sprawia, że proces ten jest łatwy i wydajny. Zacznij konwertować swoje dokumenty już dziś!"
+"linktitle": "Dzielenie dokumentów na strony HTML"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Dzielenie dokumentów na strony HTML"
+"url": "/pl/java/document-splitting/splitting-documents-into-html-pages/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dzielenie dokumentów na strony HTML
@@ -21,7 +23,7 @@ W tym kompleksowym przewodniku przyjrzymy się, jak dzielić dokumenty na strony
 Zanim zagłębimy się w kod, upewnij się, że spełnione są następujące wymagania wstępne:
 
 - Java Development Kit (JDK) zainstalowany w Twoim systemie.
--  Biblioteka Aspose.Words dla Java. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/java/).
+- Biblioteka Aspose.Words dla Java. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/java/).
 
 
 ## Wstęp
@@ -34,13 +36,13 @@ Na początek utwórz projekt Java i dodaj bibliotekę Aspose.Words for Java do �
 
 ## Ładowanie dokumentu Word
 
-kodzie Java musisz najpierw załadować dokument Word, który chcesz podzielić. Oto przykład, jak to zrobić:
+W kodzie Java musisz najpierw załadować dokument Word, który chcesz podzielić. Oto przykład, jak to zrobić:
 
 ```java
 Document doc = new Document("your-document.docx");
 ```
 
- Zastępować`"your-document.docx"` ze ścieżką do dokumentu Word.
+Zastępować `"your-document.docx"` ze ścieżką do dokumentu Word.
 
 ## Dzielenie dokumentu
 
@@ -53,7 +55,7 @@ splitOptions.setDocumentSplitCriteria(DocumentSplitCriteria.PAGE_BREAK);
 List<Document> pages = DocumentSplitter.split(doc, splitOptions);
 ```
 
- Ten kod dzieli dokument na podstawie podziałów stron i przechowuje każdą stronę w`pages` lista.
+Ten kod dzieli dokument na podstawie podziałów stron i przechowuje każdą stronę w `pages` lista.
 
 ## Zapisywanie jako HTML
 
@@ -77,11 +79,11 @@ Teraz możesz z łatwością konwertować dokumenty Word na strony HTML, dzięki
 
 ### Jak zainstalować Aspose.Words dla Java?
 
- Aby zainstalować Aspose.Words dla Java, pobierz bibliotekę ze strony[Tutaj](https://releases.aspose.com/words/java/) i dołącz pliki JAR do ścieżki klas swojego projektu Java.
+Aby zainstalować Aspose.Words dla Java, pobierz bibliotekę ze strony [Tutaj](https://releases.aspose.com/words/java/) i dołącz pliki JAR do ścieżki klas swojego projektu Java.
 
 ### Czy mogę dostosować kryteria podziału?
 
-Tak, możesz dostosować kryteria podziału według swoich potrzeb. Aspose.Words oferuje różne opcje, w tym podziały stron, nagłówki i wiele innych.
+Tak, możesz dostosować kryteria podziału do swoich potrzeb. Aspose.Words oferuje różne opcje, w tym podziały stron, nagłówki i wiele innych.
 
 ### Czy Aspose.Words nadaje się do dużych dokumentów?
 
@@ -93,13 +95,17 @@ Tak, jeśli zajdzie taka potrzeba, możesz przekonwertować strony HTML z powrot
 
 ### Gdzie mogę znaleźć więcej dokumentacji i przykładów?
 
- Szczegółową dokumentację i przykłady kodu można znaleźć na stronie dokumentacji Aspose.Words for Java[Tutaj](https://reference.aspose.com/words/java/).
+Szczegółową dokumentację i przykłady kodu można znaleźć na stronie dokumentacji Aspose.Words for Java [Tutaj](https://reference.aspose.com/words/java/).
 
 
 Teraz, gdy masz już solidne zrozumienie, jak dzielić dokumenty Word na strony HTML za pomocą Aspose.Words dla Java, możesz zacząć implementować tę funkcję w swoich projektach. Miłego kodowania!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Thêm Bảng Vào Word
-linktitle: Thêm Bảng Vào Word
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Học cách thêm bảng trong Word bằng Aspose.Words for Java. Tạo bảng được định dạng tốt một cách dễ dàng trong tài liệu Word.
-weight: 10
-url: /vi/java/table-processing/add-table-in-word/
+"description": "Học cách thêm bảng trong Word bằng Aspose.Words for Java. Tạo bảng được định dạng tốt một cách dễ dàng trong tài liệu Word."
+"linktitle": "Thêm Bảng Vào Word"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Thêm Bảng Vào Word"
+"url": "/vi/java/table-processing/add-table-in-word/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm Bảng Vào Word
@@ -27,9 +29,9 @@ Mở Môi trường phát triển tích hợp (IDE) hoặc trình soạn thảo 
 
 ## Bước 3: Thêm Aspose.Words Dependency
 
- Để làm việc với Aspose.Words for Java, bạn cần đưa tệp JAR Aspose.Words vào classpath của dự án. Tải xuống phiên bản mới nhất của Aspose.Words for Java từ[Aspose.Phát hành](https://releases.aspose.com/words/java) và thêm tệp JAR vào dự án của bạn.
+Để làm việc với Aspose.Words for Java, bạn cần đưa tệp JAR Aspose.Words vào classpath của dự án. Tải xuống phiên bản mới nhất của Aspose.Words for Java từ [Aspose.Phát hành](https://releases.aspose.com/words/java) và thêm tệp JAR vào dự án của bạn.
 
-## Bước 4: Nhập các lớp bắt buộc
+## Bước 4: Nhập các lớp học bắt buộc
 
 Trong mã Java của bạn, hãy nhập các lớp cần thiết từ gói Aspose.Words để tương tác với các tài liệu Word.
 
@@ -39,7 +41,7 @@ import com.aspose.words.*;
 
 ## Bước 5: Tạo một tài liệu Word mới
 
- Khởi tạo một cái mới`Document` đối tượng để tạo một tài liệu Word mới.
+Khởi tạo một cái mới `Document` đối tượng để tạo một tài liệu Word mới.
 
 ```java
 Document doc = new Document();
@@ -47,7 +49,7 @@ Document doc = new Document();
 
 ## Bước 6: Tạo bảng và thêm hàng
 
- Tạo một cái mới`Table` đối tượng và chỉ định số hàng và số cột.
+Tạo một cái mới `Table` đối tượng và chỉ định số hàng và số cột.
 
 ```java
 Table table = new Table(doc);
@@ -71,7 +73,7 @@ for (int row = 0; row < rowCount; row++) {
 
 ## Bước 7: Thêm Bảng vào Tài liệu
 
- Chèn bảng vào tài liệu bằng cách sử dụng`appendChild()` phương pháp của`Document` sự vật.
+Chèn bảng vào tài liệu bằng cách sử dụng `appendChild()` phương pháp của `Document` sự vật.
 
 ```java
 doc.getFirstSection().getBody().appendChild(table);
@@ -79,7 +81,7 @@ doc.getFirstSection().getBody().appendChild(table);
 
 ## Bước 8: Lưu tài liệu
 
-Lưu tài liệu Word vào vị trí mong muốn bằng cách sử dụng`save()` phương pháp.
+Lưu tài liệu Word vào vị trí mong muốn bằng cách sử dụng `save()` phương pháp.
 
 ```java
 doc.save("output.docx");
@@ -112,9 +114,13 @@ Có, Aspose.Words cho phép bạn áp dụng nhiều tùy chọn định dạng 
 ### Câu hỏi 5: Aspose.Words được cập nhật thường xuyên như thế nào?
 
 Aspose.Words thường xuyên nhận được các bản cập nhật và cải tiến để đảm bảo khả năng tương thích với các phiên bản mới nhất của Microsoft Word và Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

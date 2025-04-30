@@ -1,46 +1,53 @@
 ---
-title: Format Paragraf Menggunakan Aspose.Words untuk .NET
-weight: 7700
-limit: 
-description: Pelajari cara memformat paragraf dalam dokumen Word dengan Aspose.Words untuk .NET, termasuk penyelarasan, indentasi, dan spasi.
-keywords: [Aspose.Words, .NET, paragraph formatting, Word document, document builder, alignment, indentation, Word API]
-url: /id/net/document-styling/paragraph-formatting/
+"description": "Pelajari cara memformat paragraf dalam dokumen Word dengan Aspose.Words untuk .NET, termasuk perataan, indentasi, dan spasi."
+"title": "Format Paragraf Menggunakan Aspose.Words untuk .NET"
+"url": "/id/net/document-styling/paragraph-formatting/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Format Paragraf Dengan Menggunakan Aspose.Words
-Panduan ini memberikan contoh cara memformat paragraf dalam dokumen Word menggunakan Aspose.Words untuk .NET. Anda akan belajar cara mengatur berbagai opsi pemformatan paragraf seperti penyelarasan, indentasi, dan ruang setelah paragraf. Contoh ini menggambarkan penggunaan kelas Document dan DocumentBuilder, memungkinkan pembuatan dokumen terstruktur dengan baik secara programatik.
+# Format Paragraf Menggunakan Aspose.Words
+Panduan ini memberikan contoh cara memformat paragraf dalam dokumen Word menggunakan Aspose.Words untuk .NET. Anda akan mempelajari cara mengatur berbagai opsi pemformatan paragraf seperti perataan, indentasi, dan spasi setelah paragraf. Contoh ini mengilustrasikan penggunaan kelas Document dan DocumentBuilder, yang memungkinkan pembuatan dokumen terstruktur dengan baik secara terprogram.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/document-styling/multilevel-list-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Instruksi Instalasi
-1. Unduh Aspose.Words untuk .NET: Kunjungi [Aspose situs web](https://www.aspose.com/downloads/words/net)Untuk mengunduh versi terbaru dari Aspose.Words untuk .NET.
+## Petunjuk Instalasi
+1. Unduh Aspose.Words untuk .NET: Kunjungi [Situs web Aspose](https://www.aspose.com/downloads/words/net) untuk mengunduh versi terbaru Aspose.Words untuk .NET.
 
-2. Tambahkan Referensi: Dalam proyek .NET Anda, klik kanan pada proyek di Solution Explorer, pilih Tambahkan > Referensi, dan menelusuri untuk menambahkan file DLL Aspose.Words.
+2. Tambahkan Referensi: Di proyek .NET Anda, klik kanan pada proyek di Solution Explorer, pilih Tambahkan > Referensi, lalu telusuri untuk menambahkan file DLL Aspose.Words.
 
-3. Menggunakan NuGet Package (Optional): Sebagai alternatif, Anda dapat menginstal Aspose.Words melalui NuGet Package Manager dengan perintah berikut:
+3. Menggunakan Paket NuGet (Opsional): Alternatifnya, Anda dapat menginstal Aspose.Words melalui NuGet Package Manager dengan perintah berikut:
    ```
    Install-Package Aspose.Words
    ```
 
-4. Import Namespace: Tambahkan berikut menggunakan statement ke file kode Anda:
+4. Impor Namespace: Tambahkan pernyataan penggunaan berikut ke berkas kode Anda:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
-5. Permohonan Lisensi (Pilih):  
-   Untuk menggunakan versi lengkap, [menerapkan lisensi](https://purchase.aspose.com/temporary-license/)atau menggunakan [uji coba gratis](https://releases.aspose.com/words/net/)Aku tidak tahu.  
+5. Terapkan Lisensi (Opsional):  
+   Untuk menggunakan versi lengkap, [menerapkan lisensi](https://purchase.aspose.com/temporary-license/) atau menggunakan [uji coba gratis](https://releases.aspose.com/words/net/).  
 
 
-## Lihat juga
-[Aspose.Word untuk Dokumen .NET](https://docs.aspose.com/words/net/)
+## Lihat Juga
+[Dokumentasi Aspose.Word untuk .NET](https://docs.aspose.com/words/net/)
 [Aspose.Word untuk Referensi .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}

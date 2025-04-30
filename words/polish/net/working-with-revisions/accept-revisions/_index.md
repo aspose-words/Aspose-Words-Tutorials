@@ -1,21 +1,23 @@
 ---
-title: Zaakceptuj poprawki
-linktitle: Zaakceptuj poprawki
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Opanuj rewizje dokumentów dzięki Aspose.Words dla .NET. Naucz się śledzić, akceptować i odrzucać zmiany bez wysiłku. Popraw swoje umiejętności zarządzania dokumentami.
-weight: 10
-url: /pl/net/working-with-revisions/accept-revisions/
+"description": "Opanuj rewizje dokumentów dzięki Aspose.Words dla .NET. Naucz się śledzić, akceptować i odrzucać zmiany bez wysiłku. Popraw swoje umiejętności zarządzania dokumentami."
+"linktitle": "Zaakceptuj poprawki"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zaakceptuj poprawki"
+"url": "/pl/net/working-with-revisions/accept-revisions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zaakceptuj poprawki
 
 ## Wstęp
 
-Czy kiedykolwiek znalazłeś się w labiryncie rewizji dokumentów, zmagając się ze śledzeniem każdej zmiany wprowadzonej przez wielu współpracowników? Dzięki Aspose.Words dla .NET zarządzanie rewizjami w dokumentach Word staje się dziecinnie proste. Ta potężna biblioteka pozwala deweloperom śledzić, akceptować i odrzucać zmiany bez wysiłku, zapewniając, że Twoje dokumenty pozostają uporządkowane i aktualne. W tym samouczku zagłębimy się w proces obsługi rewizji dokumentów za pomocą Aspose.Words dla .NET krok po kroku, od zainicjowania dokumentu do zaakceptowania wszystkich zmian.
+Czy kiedykolwiek znalazłeś się w labiryncie rewizji dokumentów, zmagając się ze śledzeniem każdej zmiany wprowadzonej przez wielu współpracowników? Dzięki Aspose.Words dla .NET zarządzanie rewizjami w dokumentach Word staje się dziecinnie proste. Ta potężna biblioteka pozwala deweloperom śledzić, akceptować i odrzucać zmiany bez wysiłku, zapewniając, że Twoje dokumenty pozostają uporządkowane i aktualne. W tym samouczku zagłębimy się w proces obsługi rewizji dokumentów za pomocą Aspose.Words dla .NET krok po kroku, od inicjalizacji dokumentu do akceptowania wszystkich zmian.
 
 ## Wymagania wstępne
 
@@ -23,7 +25,7 @@ Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstęp
 
 - Na Twoim komputerze zainstalowano program Visual Studio.
 - .NET Framework (najlepiej najnowsza wersja).
--  Biblioteka Aspose.Words dla .NET. Możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+- Biblioteka Aspose.Words dla .NET. Możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 - Podstawowa znajomość programowania w języku C#.
 
 Przejdźmy teraz do szczegółów i zobaczmy, jak można opanować wprowadzanie zmian w dokumentach za pomocą Aspose.Words dla platformy .NET.
@@ -67,7 +69,7 @@ Następnie musimy włączyć śledzenie rewizji. Pozwala nam to na przechwycenie
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 ```
 
- Dzwoniąc`StartTrackRevisions`, umożliwiamy dokumentowi śledzenie wszystkich kolejnych zmian. Imię i nazwisko autora oraz bieżąca data są przekazywane jako parametry.
+Dzwoniąc `StartTrackRevisions`umożliwiamy dokumentowi śledzenie wszystkich kolejnych zmian. Imię i nazwisko autora oraz bieżąca data są przekazywane jako parametry.
 
 ## Krok 3: Dodaj wersję
 
@@ -102,7 +104,7 @@ Na koniec zaakceptujmy wszystkie śledzone zmiany, utrwalając w ten sposób zmi
 doc.AcceptAllRevisions();
 ```
 
- Dzwoniąc`AcceptAllRevisions`, zapewniamy, że wszystkie zmiany (dodatki i usunięcia) są akceptowane i stosowane w dokumencie. Poprawki nie są już oznaczane i są zintegrowane z dokumentem.
+Dzwoniąc `AcceptAllRevisions`, zapewniamy, że wszystkie zmiany (dodatki i usunięcia) są akceptowane i stosowane w dokumencie. Poprawki nie są już oznaczane i są zintegrowane z dokumentem.
 
 ## Krok 6: Zatrzymaj śledzenie wersji
 
@@ -136,26 +138,31 @@ Zarządzanie rewizjami dokumentów może być trudnym zadaniem, ale dzięki Aspo
 
 ### Jak rozpocząć śledzenie wersji w Aspose.Words dla platformy .NET?
 
- Możesz rozpocząć śledzenie rewizji, dzwoniąc pod numer`StartTrackRevisions` metodę na obiekcie dokumentu i przekazując imię i nazwisko autora oraz bieżącą datę.
+Możesz rozpocząć śledzenie rewizji, dzwoniąc pod numer `StartTrackRevisions` metodę na obiekcie dokumentu i przekazując imię i nazwisko autora oraz bieżącą datę.
 
 ### Czy mogę w dowolnym momencie przestać śledzić wersje?
 
-Tak, możesz zatrzymać śledzenie rewizji, dzwoniąc pod numer`StopTrackRevisions` metodę na obiekcie dokumentu.
+Tak, możesz zatrzymać śledzenie rewizji, dzwoniąc pod numer `StopTrackRevisions` metodę na obiekcie dokumentu.
 
 ### Jak zaakceptować wszystkie zmiany w dokumencie?
 
- Aby zaakceptować wszystkie poprawki, użyj`AcceptAllRevisions` metodę na obiekcie dokumentu.
+Aby zaakceptować wszystkie poprawki, użyj `AcceptAllRevisions` metodę na obiekcie dokumentu.
 
 ### Czy mogę odrzucić konkretne poprawki?
 
- Tak, możesz odrzucić konkretne poprawki, przechodząc do nich i używając`Reject` metoda.
+Tak, możesz odrzucić konkretne poprawki, przechodząc do nich i używając `Reject` metoda.
 
 ### Gdzie mogę pobrać Aspose.Words dla .NET?
 
- Aspose.Words dla .NET można pobrać ze strony[link do pobrania](https://releases.aspose.com/words/net/).
+Aspose.Words dla .NET można pobrać ze strony [link do pobrania](https://releases.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

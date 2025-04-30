@@ -1,14 +1,16 @@
 ---
-title: जावा के लिए Aspose.Words में चार्ट का उपयोग करना
-linktitle: चार्ट का उपयोग करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Java के लिए Aspose.Words में चार्ट बनाने और उन्हें कस्टमाइज़ करने का तरीका जानें। डेटा विज़ुअलाइज़ेशन के लिए चार्ट प्रकार, फ़ॉर्मेटिंग और अक्ष गुणों का अन्वेषण करें।
-weight: 12
-url: /hi/java/document-conversion-and-export/using-charts/
+"description": "Java के लिए Aspose.Words में चार्ट बनाने और उन्हें कस्टमाइज़ करने का तरीका जानें। डेटा विज़ुअलाइज़ेशन के लिए चार्ट प्रकार, फ़ॉर्मेटिंग और अक्ष गुणों का अन्वेषण करें।"
+"linktitle": "चार्ट का उपयोग करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "जावा के लिए Aspose.Words में चार्ट का उपयोग करना"
+"url": "/hi/java/document-conversion-and-export/using-charts/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के लिए Aspose.Words में चार्ट का उपयोग करना
@@ -16,7 +18,7 @@ url: /hi/java/document-conversion-and-export/using-charts/
 
 ## जावा के लिए Aspose.Words में चार्ट का उपयोग करने का परिचय
 
-इस ट्यूटोरियल में, हम सीखेंगे कि Aspose.Words for Java का उपयोग करके चार्ट के साथ कैसे काम किया जाए। आप सीखेंगे कि विभिन्न प्रकार के चार्ट कैसे बनाएं, अक्ष गुणों को कस्टमाइज़ करें, डेटा लेबल को फ़ॉर्मेट करें, और बहुत कुछ। आइए शुरू करते हैं!
+इस ट्यूटोरियल में, हम जावा के लिए Aspose.Words का उपयोग करके चार्ट के साथ काम करने का तरीका जानेंगे। आप सीखेंगे कि विभिन्न प्रकार के चार्ट कैसे बनाएं, अक्ष गुणों को कस्टमाइज़ करें, डेटा लेबल को फ़ॉर्मेट करें, और बहुत कुछ। आइए शुरू करते हैं!
 
 ## लाइन चार्ट बनाना
 
@@ -88,7 +90,7 @@ ChartAxis yAxis = chart.getAxisY();
 // X अक्ष को दिनांक के स्थान पर श्रेणी में बदलें।
 xAxis.setCategoryType(AxisCategoryType.CATEGORY);
 xAxis.setCrosses(AxisCrosses.CUSTOM);
-xAxis.setCrossesAt(3.0); //वाई अक्ष (सैकड़ों) की प्रदर्शन इकाइयों में मापा जाता है।
+xAxis.setCrossesAt(3.0); // वाई अक्ष (सैकड़ों) की प्रदर्शन इकाइयों में मापा जाता है।
 xAxis.setReverseOrder(true);
 xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
@@ -133,26 +135,31 @@ doc.save("Your Directory Path" + "WorkingWithCharts.NumberFormatForAxis.docx");
 
 ### मैं एक चार्ट में एकाधिक श्रृंखलाएं कैसे जोड़ सकता हूं?
 
- आप इसका उपयोग करके चार्ट में एकाधिक श्रृंखलाएँ जोड़ सकते हैं`chart.getSeries().add()` विधि। श्रृंखला नाम, श्रेणियाँ और डेटा मान निर्दिष्ट करना सुनिश्चित करें।
+आप इसका उपयोग करके चार्ट में एकाधिक श्रृंखलाएँ जोड़ सकते हैं `chart.getSeries().add()` विधि। श्रृंखला नाम, श्रेणियाँ और डेटा मान निर्दिष्ट करना सुनिश्चित करें।
 
 ### मैं कस्टम संख्या प्रारूपों के साथ डेटा लेबल को कैसे प्रारूपित कर सकता हूं?
 
-आप डेटा लेबल को एक्सेस करके फ़ॉर्मेट कर सकते हैं`DataLabels` किसी श्रृंखला के गुणधर्मों का उपयोग करके वांछित प्रारूप कोड सेट करना`getNumberFormat().setFormatCode()`.
+आप डेटा लेबल को एक्सेस करके फ़ॉर्मेट कर सकते हैं `DataLabels` किसी श्रृंखला के गुणधर्मों का उपयोग करके वांछित प्रारूप कोड सेट करना `getNumberFormat().setFormatCode()`.
 
 ### मैं चार्ट में अक्ष गुण कैसे अनुकूलित करूँ?
 
- आप एक्सेस करके अक्ष गुण जैसे प्रकार, टिक मार्क, लेबल और अधिक को अनुकूलित कर सकते हैं`ChartAxis` जैसे गुण`setCategoryType()`, `setCrosses()` , और`setMajorTickMark()`.
+आप एक्सेस करके अक्ष गुण जैसे प्रकार, टिक मार्क, लेबल और अधिक को अनुकूलित कर सकते हैं `ChartAxis` जैसे गुण `setCategoryType()`, `setCrosses()`, और `setMajorTickMark()`.
 
 ### मैं स्कैटर या क्षेत्र चार्ट जैसे अन्य प्रकार के चार्ट कैसे बना सकता हूं?
 
- आप उपयुक्त चार्ट निर्दिष्ट करके विभिन्न चार्ट प्रकार बना सकते हैं`ChartType` चार्ट का उपयोग करते समय`builder.insertChart(ChartType.TYPE, width, height)`.
+आप उपयुक्त चार्ट निर्दिष्ट करके विभिन्न चार्ट प्रकार बना सकते हैं `ChartType` चार्ट का उपयोग करते समय `builder.insertChart(ChartType.TYPE, width, height)`.
 
 ### मैं चार्ट अक्ष को कैसे छिपा सकता हूँ?
 
- आप चार्ट अक्ष को सेट करके छिपा सकते हैं`setHidden(true)` अक्ष की संपत्ति.
+आप चार्ट अक्ष को सेट करके छिपा सकते हैं `setHidden(true)` अक्ष की संपत्ति.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: แทรกเอกสารที่แทนที่
-linktitle: แทรกเอกสารที่แทนที่
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการแทรกเอกสาร Word ลงในเอกสารอื่นได้อย่างราบรื่นโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนโดยละเอียดของเรา เหมาะสำหรับนักพัฒนาที่ต้องการปรับปรุงการประมวลผลเอกสารให้มีประสิทธิภาพ
-weight: 10
-url: /th/net/clone-and-combine-documents/insert-document-at-replace/
+"description": "เรียนรู้วิธีการแทรกเอกสาร Word ลงในเอกสารอื่นได้อย่างราบรื่นโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนโดยละเอียดของเรา เหมาะสำหรับนักพัฒนาที่ต้องการปรับปรุงการประมวลผลเอกสารให้มีประสิทธิภาพ"
+"linktitle": "แทรกเอกสารที่แทนที่"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แทรกเอกสารที่แทนที่"
+"url": "/th/net/clone-and-combine-documents/insert-document-at-replace/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทรกเอกสารที่แทนที่
@@ -21,8 +23,8 @@ url: /th/net/clone-and-combine-documents/insert-document-at-replace/
 
 ก่อนที่เราจะเริ่มต้นเขียนโค้ด มีบางสิ่งที่คุณต้องมี:
 
--  Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว หากยังไม่มี คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://visualstudio.microsoft.com/).
--  Aspose.Words สำหรับ .NET: คุณจะต้องมีไลบรารี Aspose.Words คุณสามารถรับได้จาก[เว็บไซต์อาโพส](https://releases.aspose.com/words/net/).
+- Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว หากยังไม่มี คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://visualstudio-microsoft.com/).
+- Aspose.Words สำหรับ .NET: คุณจะต้องมีไลบรารี Aspose.Words คุณสามารถรับได้จาก [เว็บไซต์อาโพส](https://releases-aspose.com/words/net/).
 - ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจพื้นฐานเกี่ยวกับ C# และ .NET จะช่วยให้คุณปฏิบัติตามบทช่วยสอนนี้ได้
 
 เอาล่ะ เมื่อจัดการทุกอย่างเรียบร้อยแล้ว เรามาเริ่มลงมือเขียนโค้ดกันเลย!
@@ -49,7 +51,7 @@ using Aspose.Words.Tables;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางไปยังไดเร็กทอรีของคุณ นี่คือที่ที่เอกสารของคุณจะดำรงอยู่และมีชีวิตชีวา
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางไปยังไดเร็กทอรีของคุณ นี่คือที่ที่เอกสารของคุณจะดำรงอยู่และมีชีวิตชีวา
 
 ## ขั้นตอนที่ 2: โหลดเอกสารหลัก
 
@@ -162,22 +164,27 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 ## คำถามที่พบบ่อย
 
 ### Aspose.Words สำหรับ .NET คืออะไร?
-Aspose.Words สำหรับ .NET เป็นไลบรารีอันทรงพลังสำหรับการจัดการเอกสาร Word ด้วยโปรแกรม ช่วยให้คุณสามารถสร้าง แก้ไข แปลง และประมวลผลเอกสาร Word ได้อย่างง่ายดาย
+Aspose.Words สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพสำหรับการจัดการเอกสาร Word ด้วยโปรแกรม ช่วยให้คุณสามารถสร้าง แก้ไข แปลง และประมวลผลเอกสาร Word ได้อย่างง่ายดาย
 
 ### ฉันสามารถแทรกเอกสารหลายฉบับพร้อมกันได้ไหม?
 ใช่ คุณสามารถปรับเปลี่ยนตัวจัดการการโทรกลับเพื่อจัดการการแทรกหลายรายการได้โดยการวนซ้ำผ่านคอลเลกชันของเอกสาร
 
 ### มีการทดลองใช้ฟรีหรือไม่?
- แน่นอน! คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+แน่นอน! คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words ได้อย่างไร
- คุณสามารถรับการสนับสนุนได้โดยการเยี่ยมชม[ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8).
+คุณสามารถรับการสนับสนุนได้โดยการเยี่ยมชม [ฟอรั่ม Aspose.Words](https://forum-aspose.com/c/words/8).
 
 ### ฉันสามารถรักษาการจัดรูปแบบของเอกสารที่แทรกเข้าไปได้หรือไม่
- ใช่ครับ`NodeImporter` คลาสช่วยให้คุณสามารถระบุวิธีการจัดการการจัดรูปแบบเมื่อนำเข้าโหนดจากเอกสารหนึ่งไปยังอีกเอกสารหนึ่ง
+ใช่ครับ `NodeImporter` คลาสช่วยให้คุณระบุวิธีการจัดการการจัดรูปแบบเมื่อนำเข้าโหนดจากเอกสารหนึ่งไปยังอีกเอกสารหนึ่ง
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

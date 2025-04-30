@@ -1,14 +1,16 @@
 ---
-title: फ़ील्ड के अंदर टेक्स्ट को अनदेखा करें
-linktitle: फ़ील्ड के अंदर टेक्स्ट को अनदेखा करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ील्ड के अंदर टेक्स्ट को कैसे मैनिपुलेट करें, यह जानें। यह ट्यूटोरियल व्यावहारिक उदाहरणों के साथ चरण-दर-चरण मार्गदर्शन प्रदान करता है।
-weight: 10
-url: /hi/net/find-and-replace-text/ignore-text-inside-fields/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ील्ड के अंदर टेक्स्ट को कैसे मैनिपुलेट करें, यह जानें। यह ट्यूटोरियल व्यावहारिक उदाहरणों के साथ चरण-दर-चरण मार्गदर्शन प्रदान करता है।"
+"linktitle": "फ़ील्ड के अंदर टेक्स्ट को अनदेखा करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "फ़ील्ड के अंदर टेक्स्ट को अनदेखा करें"
+"url": "/hi/net/find-and-replace-text/ignore-text-inside-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # फ़ील्ड के अंदर टेक्स्ट को अनदेखा करें
@@ -37,7 +39,7 @@ using System.Text.RegularExpressions;
 
 ## चरण 1: नया दस्तावेज़ और बिल्डर बनाएँ
 
- सबसे पहले, एक नया वर्ड दस्तावेज़ और एक प्रारंभ करें`DocumentBuilder` दस्तावेज़ निर्माण को सुविधाजनक बनाने के लिए उद्देश्य:
+सबसे पहले, एक नया वर्ड दस्तावेज़ और एक प्रारंभ करें `DocumentBuilder` दस्तावेज़ निर्माण को सुविधाजनक बनाने के लिए उद्देश्य:
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -45,21 +47,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## चरण 2: टेक्स्ट वाला फ़ील्ड डालें
 
- उपयोग`InsertField` की विधि`DocumentBuilder` पाठ युक्त फ़ील्ड जोड़ने के लिए:
+उपयोग `InsertField` की विधि `DocumentBuilder` पाठ युक्त फ़ील्ड जोड़ने के लिए:
 ```csharp
 builder.InsertField("INCLUDETEXT", "Text in field");
 ```
 
 ## चरण 3: फ़ील्ड के अंदर टेक्स्ट को अनदेखा करें
 
- फ़ील्ड के भीतर सामग्री को अनदेखा करते हुए पाठ में हेरफेर करने के लिए,`FindReplaceOptions` साथ`IgnoreFields` संपत्ति सेट करने के लिए`true`:
+फ़ील्ड के भीतर सामग्री को अनदेखा करते हुए पाठ में हेरफेर करने के लिए, `FindReplaceOptions` साथ `IgnoreFields` संपत्ति सेट करने के लिए `true`:
 ```csharp
 FindReplaceOptions options = new FindReplaceOptions { IgnoreFields = true };
 ```
 
 ## चरण 4: पाठ प्रतिस्थापन करें
 
-टेक्स्ट प्रतिस्थापन के लिए नियमित अभिव्यक्तियों का उपयोग करें। यहाँ, हम अक्षर 'e' की उपस्थिति को तारांकन चिह्न ' से प्रतिस्थापित करते हैं*' दस्तावेज़ की संपूर्ण सीमा में:
+टेक्स्ट प्रतिस्थापन के लिए नियमित अभिव्यक्तियों का उपयोग करें। यहाँ, हम दस्तावेज़ की पूरी रेंज में अक्षर 'e' की उपस्थिति को तारांकन चिह्न '*' से प्रतिस्थापित करते हैं:
 ```csharp
 Regex regex = new Regex("e");
 doc.Range.Replace(regex, "*", options);
@@ -74,7 +76,7 @@ Console.WriteLine(doc.GetText());
 
 ## चरण 6: फ़ील्ड के अंदर टेक्स्ट शामिल करें
 
- फ़ील्ड के अंदर टेक्स्ट को संसाधित करने के लिए, रीसेट करें`IgnoreFields`संपत्ति को`false` और प्रतिस्थापन ऑपरेशन पुनः करें:
+फ़ील्ड के अंदर टेक्स्ट को संसाधित करने के लिए, रीसेट करें `IgnoreFields` संपत्ति को `false` और प्रतिस्थापन ऑपरेशन पुनः करें:
 ```csharp
 options.IgnoreFields = false;
 doc.Range.Replace(regex, "*", options);
@@ -96,13 +98,18 @@ doc.Range.Replace(regex, "*", options);
 हां, Aspose.Words .NET कोर का समर्थन करता है, जो आपके दस्तावेज़ स्वचालन आवश्यकताओं के लिए क्रॉस-प्लेटफ़ॉर्म संगतता सुनिश्चित करता है।
 
 ### मैं Aspose.Words के लिए और अधिक उदाहरण और संसाधन कहां पा सकता हूं?
- मिलने जाना[Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) व्यापक गाइड, एपीआई संदर्भ और कोड उदाहरणों के लिए.
+मिलने जाना [Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) व्यापक गाइड, एपीआई संदर्भ और कोड उदाहरणों के लिए.
 
 ### मैं Aspose.Words के लिए तकनीकी सहायता कैसे प्राप्त कर सकता हूं?
- तकनीकी सहायता के लिए कृपया यहां जाएं[Aspose.Words समर्थन फ़ोरम](https://forum.aspose.com/c/words/8) जहां आप अपने प्रश्न पोस्ट कर सकते हैं और समुदाय के साथ बातचीत कर सकते हैं।
+तकनीकी सहायता के लिए कृपया यहां जाएं [Aspose.Words समर्थन फ़ोरम](https://forum.aspose.com/c/words/8) जहां आप अपने प्रश्न पोस्ट कर सकते हैं और समुदाय के साथ बातचीत कर सकते हैं।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Sao chép một tài liệu Word
-linktitle: Sao chép một tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách sao chép tài liệu Word dễ dàng bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Hoàn hảo cho cả người mới bắt đầu và nhà phát triển có kinh nghiệm.
-weight: 10
-url: /vi/net/clone-and-combine-documents/cloning-document/
+"description": "Tìm hiểu cách sao chép tài liệu Word dễ dàng bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Hoàn hảo cho cả người mới bắt đầu và nhà phát triển có kinh nghiệm."
+"linktitle": "Sao chép một tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Sao chép một tài liệu Word"
+"url": "/vi/net/clone-and-combine-documents/cloning-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sao chép một tài liệu Word
@@ -21,10 +23,10 @@ Xin chào! Bạn đã bao giờ thấy mình cần sao chép một tài liệu W
 
 Trước khi bắt tay vào viết mã, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết:
 
-1.  Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống từ[Aspose phát hành](https://releases.aspose.com/words/net/) trang.
+1. Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống từ [Aspose phát hành](https://releases.aspose.com/words/net/) trang.
 2. Visual Studio: Bất kỳ phiên bản nào gần đây đều có thể thực hiện được.
 3. Kiến thức cơ bản về C#: Bạn không cần phải là chuyên gia, nhưng một chút quen thuộc sẽ giúp ích.
-4.  Một tài liệu Word mẫu: Đối với hướng dẫn này, chúng tôi sẽ gọi nó là`Document.docx`.
+4. Một tài liệu Word mẫu: Đối với hướng dẫn này, chúng tôi sẽ gọi nó là `Document.docx`.
 
 ## Nhập không gian tên
 
@@ -41,27 +43,27 @@ using Aspose.Words;
 Trước tiên, bạn cần thiết lập dự án của mình trong Visual Studio. Nếu bạn đã có dự án sẵn sàng, bạn có thể bỏ qua bước này. Nếu chưa, hãy làm theo:
 
 1. Mở Visual Studio: Khởi động Visual Studio và tạo một dự án C# Console App mới.
-2.  Đặt tên cho dự án của bạn: Đặt cho dự án của bạn một cái tên có ý nghĩa. Một cái gì đó như`CloneWordDocumentDemo` sẽ làm.
-3.  Thêm tham chiếu Aspose.Words: Nhấp chuột phải vào dự án của bạn trong Solution Explorer, chọn`Manage NuGet Packages` và tìm kiếm`Aspose.Words`. Cài đặt nó.
+2. Đặt tên cho dự án của bạn: Đặt cho dự án của bạn một cái tên có ý nghĩa. Một cái gì đó như `CloneWordDocumentDemo` sẽ làm.
+3. Thêm tham chiếu Aspose.Words: Nhấp chuột phải vào dự án của bạn trong Solution Explorer, chọn `Manage NuGet Packages`và tìm kiếm `Aspose.Words`. Cài đặt nó.
 
 ## Bước 2: Chuẩn bị môi trường của bạn
 
 Bây giờ dự án của bạn đã được thiết lập, hãy chuẩn bị môi trường:
 
-1.  Tạo một thư mục cho các tài liệu của bạn: Bạn sẽ cần một thư mục nơi các tài liệu của bạn sẽ được lưu trữ. Hãy gọi nó là`Documents`.
-2.  Thêm tài liệu mẫu của bạn: Đặt`Document.docx` bên trong`Documents` thư mục. Đây là tập tin chúng ta sẽ sao chép.
+1. Tạo một thư mục cho các tài liệu của bạn: Bạn sẽ cần một thư mục nơi các tài liệu của bạn sẽ được lưu trữ. Hãy gọi nó là `Documents`.
+2. Thêm tài liệu mẫu của bạn: Đặt `Document.docx` bên trong `Documents` thư mục. Đây là tập tin chúng ta sẽ sao chép.
 
 ## Bước 3: Tải tài liệu gốc
 
 Đây là nơi phép thuật bắt đầu. Chúng ta sẽ tải tài liệu gốc bằng Aspose.Words:
 
-1.  Xác định Đường dẫn đến Thư mục Tài liệu của Bạn: Trong`Program.cs` tệp, xác định đường dẫn đến thư mục tài liệu của bạn.
+1. Xác định Đường dẫn đến Thư mục Tài liệu của Bạn: Trong `Program.cs` tệp, xác định đường dẫn đến thư mục tài liệu của bạn.
    
     ```csharp
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
 
-2.  Tải Tài liệu: Sử dụng`Document` lớp để tải tài liệu mẫu của bạn.
+2. Tải Tài liệu: Sử dụng `Document` lớp để tải tài liệu mẫu của bạn.
 
     ```csharp
     Document doc = new Document(dataDir + "Document.docx");
@@ -71,7 +73,7 @@ Bây giờ dự án của bạn đã được thiết lập, hãy chuẩn bị m
 
 Việc sao chép tài liệu trở nên dễ dàng với Aspose.Words:
 
-1.  Sao chép Tài liệu: Sử dụng`Clone` phương pháp tạo bản sao tài liệu của bạn.
+1. Sao chép Tài liệu: Sử dụng `Clone` phương pháp tạo bản sao tài liệu của bạn.
 
     ```csharp
     Document clone = doc.Clone();
@@ -87,15 +89,15 @@ Việc sao chép tài liệu trở nên dễ dàng với Aspose.Words:
 
 Khi mọi thứ đã sẵn sàng, đã đến lúc chạy mã của bạn và xem kết quả:
 
-1. Xây dựng dự án của bạn: Nhấp vào`Build` menu và chọn`Build Solution`. Đảm bảo không có lỗi.
-2.  Chạy dự án của bạn: Nhấn`F5` hoặc nhấp vào`Start` để chạy dự án của bạn. Nếu mọi thứ được thiết lập đúng, một tài liệu sao chép mới sẽ xuất hiện trong thư mục tài liệu của bạn.
+1. Xây dựng dự án của bạn: Nhấp vào `Build` menu và chọn `Build Solution`Đảm bảo không có lỗi.
+2. Chạy dự án của bạn: Nhấn `F5` hoặc nhấp vào `Start` để chạy dự án của bạn. Nếu mọi thứ được thiết lập đúng, một tài liệu sao chép mới sẽ xuất hiện trong thư mục tài liệu của bạn.
 
-## Bước 6: Xác minh đầu ra
+## Bước 6: Kiểm tra đầu ra
 
 Cuối cùng, hãy kiểm tra xem tài liệu đã sao chép của chúng ta có như mong đợi không:
 
-1.  Điều hướng đến Thư mục Tài liệu của Bạn: Mở`Documents` thư mục và tìm tài liệu đã sao chép có tên`CloneAndCombineDocuments.CloningDocument.docx`.
-2.  Mở Tài liệu đã sao chép: Nhấp đúp để mở trong Microsoft Word và xác minh rằng đó là bản sao chính xác của bản gốc của bạn`Document.docx`.
+1. Điều hướng đến Thư mục Tài liệu của Bạn: Mở `Documents` thư mục và tìm tài liệu đã sao chép có tên `CloneAndCombineDocuments.CloningDocument.docx`.
+2. Mở Tài liệu đã sao chép: Nhấp đúp để mở trong Microsoft Word và xác minh rằng đó là bản sao chính xác của bản gốc của bạn `Document.docx`.
 
 ## Phần kết luận
 
@@ -109,7 +111,7 @@ Chắc chắn rồi! Aspose.Words for .NET hỗ trợ nhiều định dạng tà
 
 ### Có thể sao chép một tài liệu nhiều lần không?
 
- Có, bạn có thể sao chép một tài liệu nhiều lần tùy theo nhu cầu. Chỉ cần gọi`Clone` phương pháp lặp đi lặp lại.
+Có, bạn có thể sao chép một tài liệu nhiều lần tùy theo nhu cầu. Chỉ cần gọi `Clone` phương pháp lặp đi lặp lại.
 
 ### Tôi có thể sửa đổi tài liệu đã sao chép không?
 
@@ -117,14 +119,19 @@ Tất nhiên rồi! Sau khi bạn đã sao chép một tài liệu, bạn có th
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?
 
- Mặc dù bạn có thể sử dụng Aspose.Words cho .NET với bản dùng thử miễn phí, nhưng bạn nên mua[giấy phép](https://purchase.aspose.com/buy) để có đầy đủ chức năng và tránh mọi hạn chế.
+Mặc dù bạn có thể sử dụng Aspose.Words cho .NET với bản dùng thử miễn phí, nhưng bạn nên mua [giấy phép](https://purchase.aspose.com/buy) để có đầy đủ chức năng và tránh mọi hạn chế.
 
 ### Tôi có thể tìm thêm hướng dẫn về Aspose.Words cho .NET ở đâu?
 
- Kiểm tra các[tài liệu](https://reference.aspose.com/words/net/) và[Diễn đàn cộng đồng Aspose](https://forum.aspose.com/c/words/8) để có thêm tài nguyên và hỗ trợ.
+Kiểm tra các [tài liệu](https://reference.aspose.com/words/net/) và [Diễn đàn cộng đồng Aspose](https://forum.aspose.com/c/words/8) để có thêm tài nguyên và hỗ trợ.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

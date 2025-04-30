@@ -1,14 +1,16 @@
 ---
-title: Zmień styl spisu treści w dokumencie Word
-linktitle: Zmień styl spisu treści w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak zmienić styl spisu treści w dokumentach Worda za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Dostosuj swój spis treści bez wysiłku.
-weight: 10
-url: /pl/net/programming-with-table-of-content/change-style-of-toc-level/
+"description": "Dowiedz się, jak zmienić styl spisu treści w dokumentach Worda za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Dostosuj swój spis treści bez wysiłku."
+"linktitle": "Zmień styl spisu treści w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zmień styl spisu treści w dokumencie Word"
+"url": "/pl/net/programming-with-table-of-content/change-style-of-toc-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zmień styl spisu treści w dokumencie Word
@@ -21,7 +23,7 @@ Jeśli kiedykolwiek musiałeś utworzyć profesjonalny dokument Word, wiesz, jak
 
 Zanim przejdziemy do kodu, upewnij się, że masz następujące elementy:
 
-1.  Aspose.Words dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.Words dla .NET. Jeśli jeszcze jej nie zainstalowałeś, możesz ją pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.Words dla .NET. Jeśli jeszcze jej nie zainstalowałeś, możesz ją pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Środowisko programistyczne, takie jak Visual Studio.
 3. Podstawowa wiedza o języku C#: Zrozumienie języka programowania C#.
 
@@ -80,16 +82,21 @@ Aspose.Words for .NET to biblioteka klas umożliwiająca tworzenie, modyfikowani
 Tak, możesz modyfikować różne style w spisie treści, uzyskując dostęp do różnych poziomów i właściwości stylów.
 
 ### Czy Aspose.Words dla .NET jest darmowy?
- Aspose.Words dla .NET to płatna biblioteka, ale można ją pobrać[bezpłatny okres próbny](https://releases.aspose.com/) lub[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+Aspose.Words dla .NET to płatna biblioteka, ale można ją pobrać [bezpłatny okres próbny](https://releases.aspose.com/) lub [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 
 ### Czy muszę zainstalować program Microsoft Word, aby korzystać z Aspose.Words dla platformy .NET?
 Nie, Aspose.Words for .NET nie wymaga zainstalowania na komputerze programu Microsoft Word.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words dla .NET?
- Bardziej szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/words/net/).
+Bardziej szczegółową dokumentację można znaleźć [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Сохранить PDF как JPEG
-linktitle: Сохранить PDF как JPEG
-second_title: API обработки документов Aspose.Words
-description: Легко конвертируйте PDF в JPEG с помощью Aspose.Words для .NET. Следуйте нашему подробному руководству с примерами и часто задаваемыми вопросами. Идеально подходит для разработчиков и энтузиастов.
-weight: 10
-url: /ru/net/basic-conversions/pdf-to-jpeg/
+"description": "Легко конвертируйте PDF в JPEG с помощью Aspose.Words для .NET. Следуйте нашему подробному руководству с примерами и часто задаваемыми вопросами. Идеально подходит для разработчиков и энтузиастов."
+"linktitle": "Сохранить PDF как JPEG"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Сохранить PDF как JPEG"
+"url": "/ru/net/basic-conversions/pdf-to-jpeg/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Сохранить PDF как JPEG
@@ -21,10 +23,10 @@ url: /ru/net/basic-conversions/pdf-to-jpeg/
 
 Прежде чем мы перейдем к сути, давайте убедимся, что у нас все в порядке. Вот что вам нужно:
 
-1. Aspose.Words for .NET: Убедитесь, что у вас установлена эта мощная библиотека. Если нет, вы можете скачать ее[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлена эта мощная библиотека. Если нет, вы можете скачать ее [здесь](https://releases.aspose.com/words/net/).
 2. .NET Framework: убедитесь, что на вашем компьютере настроена среда .NET.
 3. Visual Studio: подойдет любая версия, главное, чтобы вам было удобно в ней работать.
-4.  Файл PDF: Подготовьте свой файл PDF к конвертации. Для этого урока мы будем использовать файл с именем`Pdf Document.pdf`.
+4. Файл PDF: Подготовьте свой файл PDF к конвертации. Для этого урока мы будем использовать файл с именем `Pdf Document.pdf`.
 
 ## Импорт пространств имен
 
@@ -42,7 +44,7 @@ using Aspose.Words;
 Прежде чем погрузиться в код, вам нужно настроить свой проект. Вот как:
 
 1. Откройте Visual Studio: начните с запуска Visual Studio и создания нового проекта C#.
-2.  Установка Aspose.Words: Используйте NuGet Package Manager для установки Aspose.Words для .NET. Вы можете найти его[здесь](https://releases.aspose.com/words/net/).
+2. Установка Aspose.Words: Используйте NuGet Package Manager для установки Aspose.Words для .NET. Вы можете найти его [здесь](https://releases.aspose.com/words/net/).
 
 ```shell
 Install-Package Aspose.Words
@@ -60,7 +62,7 @@ Install-Package Aspose.Words
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
 
-2.  Загрузите PDF: Используйте`Document` класс из Aspose.Words для загрузки вашего PDF-файла.
+2. Загрузите PDF: Используйте `Document` класс из Aspose.Words для загрузки вашего PDF-файла.
 
     ```csharp
     Document doc = new Document(dataDir + "Pdf Document.pdf");
@@ -70,7 +72,7 @@ Install-Package Aspose.Words
 
 После загрузки PDF-файла пришло время выполнить конвертацию. Этот шаг на удивление прост.
 
-1.  Сохранить как JPEG: используйте`Save` метод преобразования PDF в изображение JPEG.
+1. Сохранить как JPEG: используйте `Save` метод преобразования PDF в изображение JPEG.
 
     ```csharp
     doc.Save(dataDir + "BaseConversions.PdfToJpeg.jpeg");
@@ -80,7 +82,7 @@ Install-Package Aspose.Words
 
 ## Заключение
 
-И вот вам! Конвертация PDF в JPEG с помощью Aspose.Words для .NET так же проста, как пирог. Всего несколько строк кода, и вы можете преобразовать свои документы и открыть мир возможностей. Независимо от того, являетесь ли вы разработчиком, который хочет оптимизировать свой рабочий процесс, или просто любителем возиться с кодом, Aspose.Words поможет вам.
+И вот оно! Конвертация PDF в JPEG с помощью Aspose.Words для .NET проще простого. Всего несколько строк кода — и вы можете преобразовать свои документы и открыть целый мир возможностей. Независимо от того, являетесь ли вы разработчиком, который хочет оптимизировать свой рабочий процесс, или просто любите возиться с кодом, Aspose.Words поможет вам.
 
 ## Часто задаваемые вопросы
 
@@ -94,14 +96,19 @@ Install-Package Aspose.Words
 Действительно, это так. Aspose.Words поддерживает как .NET Framework, так и .NET Core.
 
 ### Нужна ли мне лицензия для использования Aspose.Words?
- Вы можете получить бесплатную пробную версию[здесь](https://releases.aspose.com/) или приобрести лицензию[здесь](https://purchase.aspose.com/buy).
+Вы можете получить бесплатную пробную версию [здесь](https://releases.aspose.com/) или приобрести лицензию [здесь](https://purchase.aspose.com/buy).
 
 ### Где я могу найти больше руководств по Aspose.Words?
- Проверьте[документация](https://reference.aspose.com/words/net/) для множества учебных пособий и руководств.
+Проверьте [документация](https://reference.aspose.com/words/net/) для множества учебных пособий и руководств.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: सशर्त स्वरूपण परिभाषित करें
-linktitle: सशर्त स्वरूपण परिभाषित करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में सशर्त स्वरूपण को परिभाषित करना सीखें। हमारे गाइड के साथ अपने दस्तावेज़ की दृश्य अपील और पठनीयता को बढ़ाएँ।
-weight: 10
-url: /hi/net/programming-with-table-styles-and-formatting/define-conditional-formatting/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में सशर्त स्वरूपण को परिभाषित करना सीखें। हमारे गाइड के साथ अपने दस्तावेज़ की दृश्य अपील और पठनीयता को बढ़ाएँ।"
+"linktitle": "सशर्त स्वरूपण परिभाषित करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "सशर्त स्वरूपण परिभाषित करें"
+"url": "/hi/net/programming-with-table-styles-and-formatting/define-conditional-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # सशर्त स्वरूपण परिभाषित करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-table-styles-and-formatting/define-conditional-for
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1. Aspose.Words for .NET: आपको Aspose.Words for .NET लाइब्रेरी की आवश्यकता है। आप ऐसा कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: आपको Aspose.Words for .NET लाइब्रेरी की आवश्यकता है। आप ऐसा कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो जैसा उपयुक्त विकास वातावरण।
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होना उपयोगी होगा।
 4. वर्ड दस्तावेज़: एक वर्ड दस्तावेज़ जहाँ आप सशर्त स्वरूपण लागू करना चाहते हैं।
@@ -44,7 +46,7 @@ using Aspose.Words.Tables;
 सबसे पहले, अपने डॉक्यूमेंट डायरेक्टरी का पथ निर्धारित करें। यहीं पर आपका वर्ड डॉक्यूमेंट सेव होगा।
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -126,9 +128,14 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.DefineConditionalFormatt
 
 ### क्या मैं बड़े दस्तावेज़ों के लिए सशर्त स्वरूपण को स्वचालित कर सकता हूँ?
 हां, आप अपने कोड में लूप और शर्तों का उपयोग करके प्रक्रिया को स्वचालित कर सकते हैं, जिससे यह बड़े दस्तावेज़ों के लिए कुशल बन जाएगा।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

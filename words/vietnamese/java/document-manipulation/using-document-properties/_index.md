@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Thuộc tính Tài liệu trong Aspose.Words cho Java
-linktitle: Sử dụng Thuộc tính Tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tối ưu hóa quản lý tài liệu với Aspose.Words for Java. Tìm hiểu cách làm việc với các thuộc tính tài liệu, thêm siêu dữ liệu tùy chỉnh và nhiều hơn nữa trong hướng dẫn toàn diện này.
-weight: 32
-url: /vi/java/document-manipulation/using-document-properties/
+"description": "Tối ưu hóa quản lý tài liệu với Aspose.Words for Java. Tìm hiểu cách làm việc với các thuộc tính tài liệu, thêm siêu dữ liệu tùy chỉnh và nhiều hơn nữa trong hướng dẫn toàn diện này."
+"linktitle": "Sử dụng Thuộc tính Tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng Thuộc tính Tài liệu trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/using-document-properties/"
+"weight": 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Thuộc tính Tài liệu trong Aspose.Words cho Java
@@ -152,15 +154,15 @@ Thuộc tính tài liệu đóng vai trò quan trọng trong việc quản lý v
 
 ### Làm thế nào để truy cập vào các thuộc tính tích hợp của tài liệu?
 
- Để truy cập các thuộc tính tài liệu tích hợp trong Aspose.Words cho Java, bạn có thể sử dụng`getBuiltInDocumentProperties` phương pháp trên`Document` đối tượng. Phương pháp này trả về một tập hợp các thuộc tính tích hợp mà bạn có thể lặp lại.
+Để truy cập các thuộc tính tài liệu tích hợp trong Aspose.Words cho Java, bạn có thể sử dụng `getBuiltInDocumentProperties` phương pháp trên `Document` đối tượng. Phương pháp này trả về một tập hợp các thuộc tính tích hợp mà bạn có thể lặp lại.
 
 ### Tôi có thể thêm thuộc tính tùy chỉnh vào tài liệu không?
 
- Có, bạn có thể thêm các thuộc tính tài liệu tùy chỉnh vào tài liệu bằng cách sử dụng`CustomDocumentProperties` bộ sưu tập. Bạn có thể xác định các thuộc tính tùy chỉnh với nhiều kiểu dữ liệu khác nhau, bao gồm chuỗi, giá trị boolean, ngày tháng và giá trị số.
+Có, bạn có thể thêm các thuộc tính tài liệu tùy chỉnh vào tài liệu bằng cách sử dụng `CustomDocumentProperties` bộ sưu tập. Bạn có thể xác định các thuộc tính tùy chỉnh với nhiều kiểu dữ liệu khác nhau, bao gồm chuỗi, giá trị boolean, ngày tháng và giá trị số.
 
 ### Làm thế nào để tôi có thể xóa một thuộc tính tùy chỉnh cụ thể của tài liệu?
 
- Để xóa một thuộc tính tài liệu tùy chỉnh cụ thể, bạn có thể sử dụng`remove` phương pháp trên`CustomDocumentProperties`bộ sưu tập, truyền tên thuộc tính bạn muốn xóa dưới dạng tham số.
+Để xóa một thuộc tính tài liệu tùy chỉnh cụ thể, bạn có thể sử dụng `remove` phương pháp trên `CustomDocumentProperties` bộ sưu tập, truyền tên thuộc tính bạn muốn xóa dưới dạng tham số.
 
 ### Mục đích của việc liên kết đến nội dung trong tài liệu là gì?
 
@@ -168,10 +170,15 @@ Liên kết đến nội dung trong tài liệu cho phép bạn tạo tham chi�
 
 ### Làm thế nào tôi có thể chuyển đổi giữa các đơn vị đo lường khác nhau trong Aspose.Words cho Java?
 
- Bạn có thể chuyển đổi giữa các đơn vị đo lường khác nhau trong Aspose.Words cho Java bằng cách sử dụng`ConvertUtil` lớp. Nó cung cấp các phương pháp để chuyển đổi các đơn vị như inch sang point, point sang cm, v.v.
+Bạn có thể chuyển đổi giữa các đơn vị đo lường khác nhau trong Aspose.Words cho Java bằng cách sử dụng `ConvertUtil` lớp. Nó cung cấp các phương pháp để chuyển đổi các đơn vị như inch sang point, point sang cm, v.v.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

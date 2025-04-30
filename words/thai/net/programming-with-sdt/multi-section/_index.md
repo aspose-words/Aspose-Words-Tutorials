@@ -1,14 +1,16 @@
 ---
-title: หลายส่วน
-linktitle: หลายส่วน
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการทำงานกับแท็กเอกสารที่มีโครงสร้างหลายส่วนใน Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการจัดการเอกสารแบบไดนามิก
-weight: 10
-url: /th/net/programming-with-sdt/multi-section/
+"description": "เรียนรู้วิธีการทำงานกับแท็กเอกสารที่มีโครงสร้างหลายส่วนใน Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการจัดการเอกสารแบบไดนามิก"
+"linktitle": "หลายส่วน"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "หลายส่วน"
+"url": "/th/net/programming-with-sdt/multi-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # หลายส่วน
@@ -21,7 +23,7 @@ url: /th/net/programming-with-sdt/multi-section/
 
 ก่อนที่จะเจาะลึกโค้ด ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1.  Aspose.Words สำหรับ .NET: คุณต้องมีไลบรารี Aspose.Words เพื่อโต้ตอบกับเอกสาร Word คุณสามารถดาวน์โหลดได้จาก[หน้าดาวน์โหลด Aspose.Words สำหรับ .NET](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: คุณต้องมีไลบรารี Aspose.Words เพื่อโต้ตอบกับเอกสาร Word คุณสามารถดาวน์โหลดได้จาก [หน้าดาวน์โหลด Aspose.Words สำหรับ .NET](https://releases-aspose.com/words/net/).
 
 2. Visual Studio: IDE เช่น Visual Studio สำหรับเขียนและรันโค้ด C# ของคุณ
 
@@ -29,7 +31,7 @@ url: /th/net/programming-with-sdt/multi-section/
 
 4. เอกสารที่มีแท็กเอกสารที่มีโครงสร้าง: สำหรับบทช่วยสอนนี้ คุณจะต้องมีเอกสาร Word ที่มีแท็กเอกสารที่มีโครงสร้าง คุณสามารถใช้เอกสารตัวอย่างหรือสร้างเอกสารที่มี SDT เพื่อการทดสอบได้
 
-5.  เอกสารประกอบ Aspose.Words: เก็บ[เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) มีประโยชน์สำหรับการอ้างอิงและรายละเอียดเพิ่มเติม
+5. เอกสารประกอบ Aspose.Words: เก็บ [เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) มีประโยชน์สำหรับการอ้างอิงและรายละเอียดเพิ่มเติม
 
 ## นำเข้าเนมสเปซ
 
@@ -43,28 +45,28 @@ using Aspose.Words.Markup;
 
 ## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสารของคุณ
 
-ขั้นแรก คุณต้องระบุเส้นทางไปยังไดเร็กทอรีที่เก็บเอกสาร Word ของคุณ ซึ่งเป็นสิ่งสำคัญสำหรับการโหลดเอกสารอย่างถูกต้อง
+ขั้นแรก คุณต้องระบุเส้นทางไปยังไดเรกทอรีที่เก็บเอกสาร Word ของคุณ ซึ่งเป็นสิ่งสำคัญสำหรับการโหลดเอกสารอย่างถูกต้อง
 
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงไปยังเอกสารของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงไปยังเอกสารของคุณ
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร
 
- ใช้`Document` คลาสสำหรับโหลดเอกสาร Word ของคุณ คลาสนี้ช่วยให้คุณสามารถเปิดและจัดการเอกสารด้วยโปรแกรมได้
+ใช้ `Document` คลาสสำหรับโหลดเอกสาร Word ของคุณ คลาสนี้ช่วยให้คุณสามารถเปิดและจัดการเอกสารด้วยโปรแกรมได้
 
 ```csharp
 Document doc = new Document(dataDir + "Multi-section structured document tags.docx");
 ```
 
- ที่นี่,`"Multi-section structured document tags.docx"`ควรแทนที่ด้วยชื่อไฟล์เอกสารของคุณ ตรวจสอบให้แน่ใจว่าไฟล์นี้อยู่ในไดเร็กทอรีที่ระบุ
+ที่นี่, `"Multi-section structured document tags.docx"` ควรแทนที่ด้วยชื่อไฟล์เอกสารของคุณ ตรวจสอบให้แน่ใจว่าไฟล์นี้อยู่ในไดเร็กทอรีที่ระบุ
 
 ## ขั้นตอนที่ 3: ดึงแท็กเอกสารที่มีโครงสร้าง
 
- Aspose.Words ช่วยให้คุณสามารถเข้าถึงแท็กเอกสารที่มีโครงสร้างผ่านทาง`GetChildNodes` วิธีการนี้ช่วยให้คุณดึงโหนดประเภทเฉพาะจากเอกสารได้
+Aspose.Words ช่วยให้คุณสามารถเข้าถึงแท็กเอกสารที่มีโครงสร้างผ่านทาง `GetChildNodes` วิธีการนี้ช่วยให้คุณดึงโหนดประเภทเฉพาะจากเอกสารได้
 
 ```csharp
 NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTagRangeStart, true);
@@ -88,12 +90,12 @@ foreach (StructuredDocumentTagRangeStart tag in tags)
 
 ขอแสดงความยินดี! ตอนนี้คุณได้เรียนรู้วิธีใช้แท็กเอกสารที่มีโครงสร้างหลายส่วนโดยใช้ Aspose.Words สำหรับ .NET แล้ว โดยทำตามขั้นตอนเหล่านี้ คุณจะสามารถจัดการแท็กเอกสารที่มีโครงสร้างในเอกสาร Word ของคุณได้อย่างมีประสิทธิภาพ ไม่ว่าคุณจะกำลังทำให้เวิร์กโฟลว์เอกสารเป็นแบบอัตโนมัติหรือจัดการเอกสารที่ซับซ้อน ทักษะเหล่านี้จะช่วยเพิ่มความสามารถในการจัดการเนื้อหาที่มีโครงสร้างแบบไดนามิกของคุณ
 
- อย่าลังเลที่จะทดลองใช้โค้ดและปรับให้เหมาะกับความต้องการของคุณ สำหรับคุณสมบัติขั้นสูงและเอกสารรายละเอียด โปรดดูที่[เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/).
+อย่าลังเลที่จะทดลองใช้โค้ดและปรับให้เหมาะกับความต้องการของคุณ สำหรับคุณสมบัติขั้นสูงและเอกสารรายละเอียด โปรดดูที่ [เอกสารประกอบ Aspose.Words](https://reference-aspose.com/words/net/).
 
 ## คำถามที่พบบ่อย
 
 ### แท็กเอกสารที่มีโครงสร้างคืออะไร?
-แท็กเอกสารที่มีโครงสร้าง (SDT) เป็นตัวแทนในเอกสาร Word ที่สามารถมีเนื้อหาหลายประเภท รวมถึงข้อความ รูปภาพ และฟิลด์แบบฟอร์ม
+แท็กเอกสารที่มีโครงสร้าง (SDT) เป็นตัวแทนในเอกสาร Word ที่สามารถมีเนื้อหาหลายประเภทได้ รวมถึงข้อความ รูปภาพ และฟิลด์แบบฟอร์ม
 
 ### ฉันจะสร้างเอกสาร Word ด้วย SDT ได้อย่างไร
 คุณสามารถสร้าง SDT โดยใช้ Microsoft Word ได้โดยการแทรกตัวควบคุมเนื้อหาจากแท็บนักพัฒนา บันทึกเอกสารและใช้กับ Aspose.Words สำหรับ .NET
@@ -102,17 +104,17 @@ foreach (StructuredDocumentTagRangeStart tag in tags)
 ใช่ คุณสามารถปรับเปลี่ยนเนื้อหาของ SDT ได้โดยการเข้าถึงและอัปเดตคุณสมบัติผ่านทาง Aspose.Words API
 
 ### จะเกิดอะไรขึ้นหากเอกสารของฉันมี SDT หลายประเภท?
- คุณสามารถกรองและเรียกค้น SDT ประเภทต่างๆ ได้โดยการปรับ`NodeType` พารามิเตอร์ใน`GetChildNodes` วิธี.
+คุณสามารถกรองและดึงข้อมูล SDT ประเภทต่างๆ ได้โดยการปรับ `NodeType` พารามิเตอร์ใน `GetChildNodes` วิธี.
 
 ### ฉันสามารถรับความช่วยเหลือเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ใด
- หากต้องการความช่วยเหลือเพิ่มเติม คุณสามารถเยี่ยมชม[ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8).
+หากต้องการความช่วยเหลือเพิ่มเติม คุณสามารถเยี่ยมชม [ฟอรั่มสนับสนุน Aspose.Words](https://forum-aspose.com/c/words/8).
 
 
 
 ### ตัวอย่างซอร์สโค้ดสำหรับ Multi Section โดยใช้ Aspose.Words สำหรับ .NET 
 
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Multi-section structured document tags.docx");
@@ -122,9 +124,14 @@ foreach (StructuredDocumentTagRangeStart tag in tags)
 ```
 
 เสร็จเรียบร้อย! คุณได้เรียกค้นและประมวลผลแท็กเอกสารที่มีโครงสร้างหลายส่วนในเอกสาร Word ของคุณสำเร็จแล้วโดยใช้ Aspose.Words สำหรับ .NET
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Zaawansowane techniki łączenia i dołączania dokumentów
-linktitle: Zaawansowane techniki łączenia i dołączania dokumentów
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Poznaj zaawansowane techniki łączenia i dołączania dokumentów za pomocą Aspose.Words w Pythonie. Przewodnik krok po kroku z przykładami kodu.
-weight: 10
-url: /pl/python-net/document-options-and-settings/join-append-documents/
+"description": "Poznaj zaawansowane techniki łączenia i dołączania dokumentów za pomocą Aspose.Words w Pythonie. Przewodnik krok po kroku z przykładami kodu."
+"linktitle": "Zaawansowane techniki łączenia i dołączania dokumentów"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Zaawansowane techniki łączenia i dołączania dokumentów"
+"url": "/pl/python-net/document-options-and-settings/join-append-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zaawansowane techniki łączenia i dołączania dokumentów
@@ -24,7 +26,7 @@ Zanim przejdziemy do przykładów kodu, upewnij się, że masz zainstalowany Pyt
 
 ## Instalowanie Aspose.Words dla Pythona
 
- Aby rozpocząć, musisz zainstalować bibliotekę Aspose.Words dla Pythona. Możesz ją zainstalować za pomocą`pip` uruchamiając następujące polecenie:
+Aby rozpocząć, musisz zainstalować bibliotekę Aspose.Words dla Pythona. Możesz ją zainstalować za pomocą `pip` uruchamiając następujące polecenie:
 
 ```bash
 pip install aspose-words
@@ -37,14 +39,14 @@ pip install aspose-words
 ```python
 import aspose.words as aw
 
-# Load the source documents
+# Załaduj dokumenty źródłowe
 doc1 = aw.Document("document1.docx")
 doc2 = aw.Document("document2.docx")
 
-# Append the content of doc2 to doc1
+# Dołącz zawartość dokumentu doc2 do dokumentu doc1
 doc1.append_document(doc2)
 
-# Save the merged document
+# Zapisz scalony dokument
 doc1.save("merged_document.docx")
 ```
 
@@ -55,14 +57,14 @@ Dołączanie treści do istniejącego dokumentu jest równie proste. Ta funkcja 
 ```python
 import aspose.words as aw
 
-# Load the source document
+# Załaduj dokument źródłowy
 existing_doc = aw.Document("existing_document.docx")
 new_content = aw.Document("new_content.docx")
 
-# Append new content to the existing document
+# Dołącz nową treść do istniejącego dokumentu
 existing_doc.append_document(new_content)
 
-# Save the updated document
+# Zapisz zaktualizowany dokument
 existing_doc.save("updated_document.docx")
 ```
 
@@ -122,10 +124,15 @@ Oczywiście, możesz umieścić logikę scalania w funkcjach lub klasach, aby za
 
 ### Gdzie mogę znaleźć więcej informacji o Aspose.Words dla języka Python?
 
- Aby uzyskać bardziej szczegółowe informacje, dokumentację i przykłady, odwiedź stronę[Aspose.Words dla API Pythona Odwołania](https://reference.aspose.com/words/python-net/) strona.
+Aby uzyskać bardziej szczegółowe informacje, dokumentację i przykłady, odwiedź stronę [Aspose.Words dla API Pythona Odwołania](https://reference.aspose.com/words/python-net/) strona.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

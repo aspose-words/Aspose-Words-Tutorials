@@ -1,14 +1,16 @@
 ---
-title: Hợp tác và Đánh giá Tài liệu
-linktitle: Hợp tác và Đánh giá Tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Mở khóa cộng tác và xem xét tài liệu hiệu quả với Aspose.Words cho Java. Tìm hiểu cách theo dõi thay đổi, chia sẻ tài liệu và hợp lý hóa quy trình làm việc.
-weight: 14
-url: /vi/java/document-revision/document-collaboration-review/
+"description": "Mở khóa cộng tác và xem xét tài liệu hiệu quả với Aspose.Words cho Java. Tìm hiểu cách theo dõi thay đổi, chia sẻ tài liệu và hợp lý hóa quy trình làm việc."
+"linktitle": "Hợp tác và Đánh giá Tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Hợp tác và Đánh giá Tài liệu"
+"url": "/vi/java/document-revision/document-collaboration-review/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hợp tác và Đánh giá Tài liệu
@@ -22,7 +24,7 @@ Aspose.Words for Java là một thư viện Java mạnh mẽ và đa năng cho p
 
 Trước khi đi sâu vào cộng tác và xem xét tài liệu, trước tiên hãy thiết lập Aspose.Words for Java trong dự án của bạn. Thực hiện theo các bước đơn giản sau:
 
-1.  Tải xuống Aspose.Words cho Java: Bạn có thể tải xuống thư viện từ[đây](https://releases.aspose.com/words/java/).
+1. Tải xuống Aspose.Words cho Java: Bạn có thể tải xuống thư viện từ [đây](https://releases.aspose.com/words/java/).
 
 2. Thêm Aspose.Words vào dự án của bạn: Thêm tệp JAR Aspose.Words đã tải xuống vào dự án Java của bạn.
 
@@ -72,11 +74,11 @@ Hợp tác và xem xét tài liệu là những khía cạnh quan trọng của 
 
 ### Làm thế nào để cài đặt Aspose.Words cho Java?
 
- Bạn có thể cài đặt Aspose.Words cho Java bằng cách tải xuống thư viện từ[đây](https://releases.aspose.com/words/java/) và thêm tệp JAR vào dự án Java của bạn.
+Bạn có thể cài đặt Aspose.Words cho Java bằng cách tải xuống thư viện từ [đây](https://releases.aspose.com/words/java/) và thêm tệp JAR vào dự án Java của bạn.
 
 ### Tôi có thể theo dõi những thay đổi trong tài liệu Word bằng Aspose.Words cho Java không?
 
- Có, Aspose.Words for Java cho phép bạn theo dõi những thay đổi trong tài liệu Word. Bạn có thể sử dụng`startTrackRevisions` phương pháp cho phép theo dõi thay đổi.
+Có, Aspose.Words for Java cho phép bạn theo dõi những thay đổi trong tài liệu Word. Bạn có thể sử dụng `startTrackRevisions` phương pháp cho phép theo dõi thay đổi.
 
 ### Làm thế nào để tôi có thể xem lại những thay đổi đã thực hiện trong tài liệu?
 
@@ -88,10 +90,15 @@ Có, Aspose.Words for Java là lựa chọn tuyệt vời cho việc quản lý 
 
 ### Tôi có thể tìm thêm thông tin và tài liệu về Aspose.Words cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu toàn diện về Aspose.Words cho Java tại[đây](https://reference.aspose.com/words/java/).
+Bạn có thể tìm thấy tài liệu toàn diện về Aspose.Words cho Java tại [đây](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

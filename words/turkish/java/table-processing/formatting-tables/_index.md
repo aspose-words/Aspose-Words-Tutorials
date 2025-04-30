@@ -1,31 +1,33 @@
 ---
-title: Belgelerdeki Tabloları Biçimlendirme
-linktitle: Belgelerdeki Tabloları Biçimlendirme
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java kullanarak belgelerdeki tabloları biçimlendirme sanatında ustalaşın. Kesin tablo biçimlendirmesi için adım adım kılavuzu ve kaynak kodu örneklerini keşfedin.
-weight: 13
-url: /tr/java/table-processing/formatting-tables/
+"description": "Aspose.Words for Java kullanarak belgelerdeki tabloları biçimlendirme sanatında ustalaşın. Kesin tablo biçimlendirmesi için adım adım kılavuzu ve kaynak kodu örneklerini keşfedin."
+"linktitle": "Belgelerdeki Tabloları Biçimlendirme"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belgelerdeki Tabloları Biçimlendirme"
+"url": "/tr/java/table-processing/formatting-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belgelerdeki Tabloları Biçimlendirme
 
 ## giriiş
 
-Aspose.Words for Java kullanarak Word belgelerinde tablo oluşturmaya kolayca dalmaya hazır mısınız? Tablolar, verileri düzenlemek için olmazsa olmazdır ve bu güçlü kütüphaneyle Word belgelerinizde programatik olarak tablolar oluşturabilir, doldurabilir ve hatta iç içe yerleştirebilirsiniz. Bu adım adım kılavuzda, tabloların nasıl oluşturulacağını, hücrelerin nasıl birleştirileceğini ve iç içe tabloların nasıl ekleneceğini inceleyeceğiz.
+Aspose.Words for Java kullanarak Word belgelerinde kolayca tablo oluşturmaya hazır mısınız? Tablolar, verileri düzenlemek için olmazsa olmazdır ve bu güçlü kütüphaneyle Word belgelerinizde programatik olarak tablolar oluşturabilir, doldurabilir ve hatta iç içe yerleştirebilirsiniz. Bu adım adım kılavuzda, tabloların nasıl oluşturulacağını, hücrelerin nasıl birleştirileceğini ve iç içe tabloların nasıl ekleneceğini inceleyeceğiz.
 
 ## Ön koşullar
 
 Kodlamaya başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
--  Java için Aspose.Words kütüphanesi.[Buradan indirin](https://releases.aspose.com/words/java/).
+- Sisteminizde Java Development Kit (JDK) yüklü.
+- Java için Aspose.Words kütüphanesi. [Buradan indirin](https://releases.aspose.com/words/java/).
 - Java programlamanın temellerini anlamak.
 - IntelliJ IDEA, Eclipse veya kendinizi rahat hissettiğiniz herhangi bir IDE.
--  A[geçici lisans](https://purchase.aspose.com/temporary-license/) Aspose.Words'ün tüm yeteneklerini açmak için.
+- A [geçici lisans](https://purchase.aspose.com/temporary-license/) Aspose.Words'ün tüm yeteneklerini açmak için.
 
 ## Paketleri İçe Aktar
 
@@ -65,7 +67,7 @@ Cell firstCell = new Cell(doc);
 firstRow.appendChild(firstCell);
 ```
 
-- `Row`Tablodaki bir satırı temsil eder.
+- `Row`: Tablodaki bir satırı temsil eder.
 - `Cell`: Satırdaki bir hücreyi temsil eder.
 - `appendChild`: Tabloya satır ve hücre ekler.
 
@@ -84,9 +86,9 @@ paragraph.appendChild(run);
 - `Paragraph`: Hücreye bir paragraf ekler.
 - `Run`: Paragrafa metin ekler.
 
-## Adım 4: Tablodaki Hücreleri Birleştirin
+## Adım 4: Bir Tablodaki Hücreleri Birleştirin
 
-Hücreleri birleştirerek bir başlık veya bir aralık oluşturmak mı istiyorsunuz? Çok kolay!
+Hücreleri birleştirerek bir başlık veya bir açıklık mı oluşturmak istiyorsunuz? Çok kolay!
 
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -102,7 +104,7 @@ builder.endRow();
 
 - `DocumentBuilder`: Belge oluşturmayı basitleştirir.
 - `setHorizontalMerge`: Hücreleri yatay olarak birleştirir.
-- `write`: Birleştirilmiş hücrelere içerik ekler.
+- `write`Birleştirilmiş hücrelere içerik ekler.
 
 ## Adım 5: İç İçe Tablolar Ekleyin
 
@@ -135,26 +137,31 @@ Evet, Aspose.Words for Java'da tablo hücrelerine köprüler ekleyebilirsiniz. B
 builder.moveTo(table.getRows().get(0).getCells().get(0).getFirstParagraph());
 
 // Bir köprü metni ekleyin ve özel biçimlendirmeyle vurgulayın.
-// Köprü metni, bizi URL'de belirtilen yere götürecek tıklanabilir bir metin parçası olacaktır.
+// Köprü metni, URL'de belirtilen yere bizi götürecek tıklanabilir bir metin parçası olacaktır.
 builder.getFont().setColor(Color.BLUE);
 builder.getFont().setUnderline(Underline.SINGLE);
 builder.insertHyperlink("Google website", "https://www.google.com", yanlış);
 ```
 
 ### Aspose.Words for Java'yı ücretsiz kullanabilir miyim?  
- Sınırlamalarla kullanabilir veya bir tane alabilirsiniz[ücretsiz deneme](https://releases.aspose.com/) tüm potansiyelini keşfetmek için.
+Sınırlamalarla kullanabilir veya bir tane alabilirsiniz [ücretsiz deneme](https://releases.aspose.com/) tüm potansiyelini keşfetmek için.
 
 ### Bir tabloda hücreleri dikey olarak nasıl birleştiririm?  
- Kullanın`setVerticalMerge` yöntemi`CellFormat` sınıf, yatay birleştirmeye benzer.
+Kullanın `setVerticalMerge` yöntemi `CellFormat` sınıf, yatay birleştirmeye benzer.
 
 ### Tablo hücresine resim ekleyebilir miyim?  
- Evet, kullanabilirsiniz`DocumentBuilder` Tablo hücrelerine resim eklemek için.
+Evet, kullanabilirsiniz `DocumentBuilder` Tablo hücrelerine resim eklemek için.
 
 ### Aspose.Words for Java hakkında daha fazla kaynağı nerede bulabilirim?  
- Kontrol et[belgeleme](https://reference.aspose.com/words/java/) veya[destek forumu](https://forum.aspose.com/c/words/8/) Detaylı rehberler için.
+Kontrol et [belgeleme](https://reference.aspose.com/words/java/) veya [destek forumu](https://forum.aspose.com/c/words/8/) Detaylı rehberler için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

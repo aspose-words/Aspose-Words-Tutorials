@@ -1,24 +1,26 @@
 ---
-title: ドキュメントリストの操作
-linktitle: ドキュメントリストの操作
-second_title: Aspose.Words Java ドキュメント処理 API
-description: Aspose.Words for Java を使用して Java でドキュメント リストを操作する方法を学習します。このステップ バイ ステップ ガイドには、効率的なドキュメント操作のためのソース コード例が含まれています。
-weight: 11
-url: /ja/java/table-processing/working-with-document-lists/
+"description": "Aspose.Words for Javaを使用して、Javaでドキュメントリストを操作する方法を学びましょう。このステップバイステップガイドには、効率的なドキュメント操作のためのソースコード例が含まれています。"
+"linktitle": "ドキュメントリストの操作"
+"second_title": "Aspose.Words Java ドキュメント処理 API"
+"title": "ドキュメントリストの操作"
+"url": "/ja/java/table-processing/working-with-document-lists/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ドキュメントリストの操作
 
 
-Aspose.Words を使用して Java でドキュメント操作の世界に飛び込む準備はできていますか? この包括的なガイドでは、Aspose.Words for Java を使用してドキュメント リストを操作する複雑な手順について説明します。この多用途の Java API のパワーを最大限に活用できるように、ステップ バイ ステップの手順とソース コードの例を提供します。さあ、始めましょう!
+Aspose.Words を使ったJavaドキュメント操作の世界に飛び込む準備はできていますか？この包括的なガイドでは、Aspose.Words for Java を使ったドキュメントリストの操作の奥深さを詳しく解説します。ステップバイステップの説明とソースコード例も用意されているので、この多用途なJava APIのパワーを最大限に活用できます。さあ、始めましょう！
 
 ## 導入
 
-Aspose.Words for Java は、Java 開発者がドキュメント処理のさまざまな側面を操作できるようにする強力な API です。このガイドでは、ドキュメント自動化の基本的なタスクであるドキュメント リストの管理に焦点を当てます。ドキュメント リストの作成、変更、またはドキュメント リストからの情報の抽出のいずれが必要な場合でも、Aspose.Words for Java が対応します。
+Aspose.Words for Javaは、Java開発者がドキュメント処理の様々な側面を操作できるようにする堅牢なAPIです。このガイドでは、ドキュメント自動化における基本的なタスクであるドキュメントリストの管理に焦点を当てます。ドキュメントリストの作成、変更、または情報抽出など、あらゆるニーズにAspose.Words for Javaが対応します。
 
 ## Aspose.Words for Java を使い始める
 
@@ -26,7 +28,7 @@ Aspose.Words for Java は、Java 開発者がドキュメント処理のさま�
 
 ### 前提条件
 
-- システムに Java 開発キット (JDK) がインストールされています。
+- Java Development Kit (JDK) がシステムにインストールされています。
 - Aspose.Words for Java ライブラリがダウンロードされ、プロジェクトに追加されました。
 
 ## ドキュメントリストの作成
@@ -41,7 +43,7 @@ Aspose.Words for Java は、Java 開発者がドキュメント処理のさま�
 始めるためのサンプル コード スニペットを次に示します。
 
 ```java
-//必要なパッケージをインポートする
+// 必要なパッケージをインポートする
 import com.aspose.words.*;
 
 List list = doc.getLists().add(ListTemplate.NUMBER_DEFAULT);
@@ -53,7 +55,7 @@ builder.writeln("Item 3");
 
 ## ドキュメントリストの変更
 
-ドキュメント リストを作成したら、リスト項目を追加、削除、または更新して変更する必要がある場合があります。手順は次のとおりです。
+ドキュメントリストを作成したら、リスト項目を追加、削除、更新するなどして変更する必要がある場合があります。変更方法は次のとおりです。
 
 1. 既存のドキュメントを読み込みます。
 2. 変更したいリストにアクセスします。
@@ -66,9 +68,9 @@ builder.writeln("Item 3");
 Paragraph lastListParagraph = null;
 NodeCollection paragraphs = doc.getChildNodes(NodeType.PARAGRAPH, true);
 for (Paragraph paragraph : (Iterable<Paragraph>) paragraphs) {
-    //段落がリストの一部であるかどうかを確認します。
+    // 段落がリストの一部であるかどうかを確認します。
     if (paragraph.isListItem()) {
-        //リストの最後の段落を更新します。
+        // リストの最後の段落を更新します。
         lastListParagraph = paragraph;
     }
 }
@@ -77,15 +79,15 @@ builder.moveTo(lastListParagraph);
 builder.writeln("Item 4");
 ```
 
-## ドキュメントリストから情報を抽出する
+## 文書リストからの情報抽出
 
-場合によっては、すべてのリスト項目や条件に基づいた特定の項目を取得するなど、ドキュメント リストから情報を抽出する必要があります。その方法は次のとおりです。
+場合によっては、ドキュメントリストから情報を抽出する必要があるかもしれません。例えば、リスト内のすべてのアイテムを取得する場合や、条件に基づいて特定のアイテムを取得する場合などです。その方法は次のとおりです。
 
 1. リストを含むドキュメントを読み込みます。
 2. リストにアクセスします。
 3. リスト項目を反復処理し、必要な情報を抽出します。
 
-ドキュメント リストから情報を抽出するためのコード スニペットを次に示します。
+以下は、ドキュメント リストから情報を抽出するためのコード スニペットです。
 
 ```java
 NodeCollection paragraphs = doc.getChildNodes(NodeType.PARAGRAPH, true);
@@ -99,13 +101,13 @@ for (Paragraph paragraph : (Iterable<Paragraph>) paragraphs) {
 
 ## 結論
 
-この包括的なガイドでは、Aspose.Words for Java を使用してドキュメント リストを操作する世界について説明しました。Aspose.Words for Java のパワーと柔軟性を活用して、ドキュメント リストを作成、変更、および情報を抽出する方法を学びました。今すぐこれらのテクニックを Java プロジェクトに実装し、ドキュメント自動化タスクを効率化しましょう。
+この包括的なガイドでは、Aspose.Words for Java を用いたドキュメントリストの操作方法を詳しく解説しました。Aspose.Words for Java の強力さと柔軟性を活かし、ドキュメントリストの作成、変更、そして情報抽出の方法を学びました。これらのテクニックを今すぐ Java プロジェクトに実装し、ドキュメント自動化タスクを効率化しましょう。
 
 
 ## よくある質問
 
 ### ドキュメント リストに箇条書きを追加するにはどうすればよいですか?
-文書リストに箇条書きを追加するには、リストを作成するときに適切なリストテンプレートを使用します。たとえば、`ListTemplate.BULLET_DEFAULT`の代わりに`ListTemplate.NUMBER_DEFAULT`.
+文書リストに箇条書きを追加するには、リストを作成する際に適切なリストテンプレートを使用します。例えば、 `ListTemplate.BULLET_DEFAULT` の代わりに `ListTemplate。NUMBER_DEFAULT`.
 
 ### リスト項目の書式を変更できますか?
 はい、Aspose.Words for Java の書式設定機能を使用して、フォント、サイズ、色など、リスト項目の書式設定をカスタマイズできます。
@@ -114,13 +116,18 @@ for (Paragraph paragraph : (Iterable<Paragraph>) paragraphs) {
 もちろんです! Aspose.Words for Java は、DOCX、PDF、HTML など、幅広いドキュメント形式をサポートしています。
 
 ### ドキュメントリストを PDF に変換するにはどうすればよいですか?
-ドキュメント リストを PDF に変換するには、Aspose.Words for Java を使用してドキュメントを読み込み、PDF 形式で保存するだけです。とても簡単です。
+ドキュメントリストをPDFに変換するには、Aspose.Words for Javaを使ってドキュメントを読み込み、PDF形式で保存するだけです。とても簡単です！
 
 ### Aspose.Words for Java はドキュメント内の表の操作をサポートしていますか?
-はい、Aspose.Words for Java はテーブルを操作するための広範なサポートを提供しており、表形式のデータを簡単に作成、変更、抽出できます。
+はい、Aspose.Words for Java はテーブル操作を幅広くサポートしており、表形式のデータを簡単に作成、変更、抽出できます。
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

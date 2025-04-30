@@ -1,14 +1,16 @@
 ---
-title: ข้ามรูปภาพ PDF
-linktitle: ข้ามรูปภาพ PDF
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีข้ามรูปภาพเมื่อโหลดเอกสาร PDF โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการแยกข้อความอย่างราบรื่น
-weight: 10
-url: /th/net/programming-with-loadoptions/skip-pdf-images/
+"description": "เรียนรู้วิธีข้ามรูปภาพเมื่อโหลดเอกสาร PDF โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการแยกข้อความอย่างราบรื่น"
+"linktitle": "ข้ามรูปภาพ PDF"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ข้ามรูปภาพ PDF"
+"url": "/th/net/programming-with-loadoptions/skip-pdf-images/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ข้ามรูปภาพ PDF
@@ -21,9 +23,9 @@ url: /th/net/programming-with-loadoptions/skip-pdf-images/
 
 ก่อนที่เราจะเริ่ม เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
--  Aspose.Words สำหรับ .NET: ดาวน์โหลดเวอร์ชันล่าสุด[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ดาวน์โหลดเวอร์ชันล่าสุด [ที่นี่](https://releases-aspose.com/words/net/).
 - Visual Studio: เวอร์ชันล่าสุดใดๆ ก็ควรจะทำงานได้ดี
-- ความเข้าใจพื้นฐานเกี่ยวกับ C#: คุณไม่จำเป็นต้องเป็นมืออาชีพ แต่การเข้าใจขั้นพื้นฐานก็จะช่วยได้
+- ความเข้าใจพื้นฐานเกี่ยวกับ C#: คุณไม่จำเป็นต้องเป็นมืออาชีพ แต่การเข้าใจขั้นพื้นฐานก็ช่วยได้
 - เอกสาร PDF: เตรียมเอกสาร PDF ตัวอย่างไว้สำหรับการทดสอบ
 
 ## นำเข้าเนมสเปซ
@@ -41,7 +43,7 @@ using Aspose.Words.Loading;
 
 ### สร้างโครงการใหม่
 
-ขั้นแรก ให้เปิด Visual Studio และสร้างโปรเจ็กต์ C# Console Application ใหม่ ตั้งชื่อโปรเจ็กต์เป็น "AsposeSkipPdfImages" เพื่อให้ทุกอย่างเป็นระเบียบ
+ขั้นแรก ให้เปิด Visual Studio และสร้างโปรเจ็กต์ C# Console Application ใหม่ ตั้งชื่อเป็น "AsposeSkipPdfImages" เพื่อให้ทุกอย่างเป็นระเบียบ
 
 ### เพิ่มการอ้างอิง Aspose.Words
 
@@ -55,13 +57,13 @@ using Aspose.Words.Loading;
 
 ### กำหนดไดเรกทอรีข้อมูล
 
- ในโครงการของคุณ`Program.cs` ไฟล์ เริ่มต้นด้วยการกำหนดเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ นี่คือที่ที่ไฟล์ PDF ของคุณอยู่
+ในโครงการของคุณ `Program.cs` ไฟล์ เริ่มต้นด้วยการกำหนดเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ นี่คือที่ที่ไฟล์ PDF ของคุณอยู่
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENTS DIRECTORY"` พร้อมเส้นทางจริงไปยังโฟลเดอร์เอกสารของคุณ
+แทนที่ `"YOUR DOCUMENTS DIRECTORY"` พร้อมเส้นทางจริงไปยังโฟลเดอร์เอกสารของคุณ
 
 ### ตั้งค่าตัวเลือกการโหลดเพื่อข้ามรูปภาพ PDF
 
@@ -79,7 +81,7 @@ PdfLoadOptions loadOptions = new PdfLoadOptions { SkipPdfImages = true };
 Document doc = new Document(dataDir + "Pdf Document.pdf", loadOptions);
 ```
 
- ให้แน่ใจว่า`"Pdf Document.pdf"` คือชื่อไฟล์ PDF ของคุณในไดเร็กทอรีที่ระบุ
+ให้แน่ใจว่า `"Pdf Document.pdf"` คือชื่อไฟล์ PDF ของคุณในไดเร็กทอรีที่ระบุ
 
 ## บทสรุป
 
@@ -89,7 +91,7 @@ Document doc = new Document(dataDir + "Pdf Document.pdf", loadOptions);
 
 ### ฉันสามารถข้ามภาพบางภาพใน PDF ได้หรือไม่
 
- ไม่,`SkipPdfImages` ตัวเลือกนี้จะข้ามรูปภาพทั้งหมดใน PDF หากคุณต้องการการควบคุมแบบเลือกสรร โปรดพิจารณาดำเนินการ PDF ล่วงหน้า
+ไม่, `SkipPdfImages` ตัวเลือกนี้จะข้ามรูปภาพทั้งหมดใน PDF หากคุณต้องการการควบคุมแบบเลือกสรร โปรดพิจารณาดำเนินการ PDF ล่วงหน้า
 
 ### คุณสมบัตินี้ส่งผลต่อข้อความใน PDF หรือไม่?
 
@@ -97,7 +99,7 @@ Document doc = new Document(dataDir + "Pdf Document.pdf", loadOptions);
 
 ### ฉันสามารถใช้คุณสมบัตินี้กับรูปแบบเอกสารอื่นได้หรือไม่
 
- การ`SkipPdfImages` ตัวเลือกนี้มีไว้สำหรับเอกสาร PDF โดยเฉพาะ สำหรับรูปแบบอื่น ๆ มีตัวเลือกและวิธีการอื่น ๆ ให้เลือก
+การ `SkipPdfImages` ตัวเลือกนี้มีไว้สำหรับเอกสาร PDF โดยเฉพาะ สำหรับรูปแบบอื่น มีตัวเลือกและวิธีการอื่นให้เลือกใช้
 
 ### ฉันจะตรวจสอบได้อย่างไรว่าภาพถูกข้ามไป?
 
@@ -105,11 +107,16 @@ Document doc = new Document(dataDir + "Pdf Document.pdf", loadOptions);
 
 ### จะเกิดอะไรขึ้นถ้า PDF ไม่มีรูปภาพ?
 
- เอกสารจะโหลดตามปกติโดยไม่มีผลกระทบต่อกระบวนการ`SkipPdfImages` ตัวเลือกนี้ไม่มีผลอะไรในกรณีนี้
+เอกสารจะโหลดตามปกติโดยไม่มีผลกระทบต่อกระบวนการ `SkipPdfImages` ตัวเลือกนี้ไม่มีผลอะไรในกรณีนี้
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

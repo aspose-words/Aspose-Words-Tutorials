@@ -1,29 +1,31 @@
 ---
-title: 檢測文件文件格式
-linktitle: 檢測文件文件格式
-second_title: Aspose.Words 文件處理 API
-description: 透過這份全面的逐步指南，了解如何使用 Aspose.Words for .NET 偵測文件檔案格式。
-weight: 10
-url: /zh-hant/net/programming-with-fileformat/detect-file-format/
+"description": "透過本全面的逐步指南了解如何使用 Aspose.Words for .NET 偵測文件檔案格式。"
+"linktitle": "檢測文件文件格式"
+"second_title": "Aspose.Words文件處理API"
+"title": "檢測文件文件格式"
+"url": "/zh-hant/net/programming-with-fileformat/detect-file-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 檢測文件文件格式
 
 ## 介紹
 
-在當今的數位世界中，有效管理不同的文件格式至關重要。無論您處理的是 Word、PDF、HTML 或其他格式，能夠正確檢測和處理這些文件都可以為您節省大量時間和精力。在本教學中，我們將探討如何使用 Aspose.Words for .NET 偵測文件檔案格式。本指南將引導您完成您需要了解的所有內容，從先決條件到詳細的逐步指南。
+在當今的數位世界中，有效管理不同的文件格式至關重要。無論您處理的是 Word、PDF、HTML 或其他格式，能夠正確檢測和處理這些文件可以為您節省大量時間和精力。在本教學中，我們將探討如何使用 Aspose.Words for .NET 偵測文件檔案格式。本指南將引導您了解您需要知道的所有內容，從先決條件到詳細的逐步指南。
 
 ## 先決條件
 
-在我們深入研究程式碼之前，讓我們確保您擁有所需的一切：
+在深入研究程式碼之前，請確保您擁有所需的一切：
 
--  Aspose.Words for .NET：您可以從以下位置下載它[這裡](https://releases.aspose.com/words/net/) 。確保您擁有有效的許可證。如果沒有，您可以獲得[臨時執照](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words for .NET：您可以從 [這裡](https://releases.aspose.com/words/net/)。確保您擁有有效的許可證。如果沒有，你可以得到 [臨時執照](https://purchase。aspose.com/temporary-license/).
 - Visual Studio：任何最新版本都可以正常運作。
-- .NET Framework：確保安裝了正確的版本。
+- .NET Framework：確保您安裝了正確的版本。
 
 ## 導入命名空間
 
@@ -39,21 +41,21 @@ using System.IO;
 using System.Linq;
 ```
 
-讓我們將該範例分解為多個步驟，以便於理解。
+我們將範例分解為多個步驟，以便於理解。
 
-## 第 1 步：設定目錄
+## 步驟 1：設定目錄
 
-首先，我們需要設定目錄，根據文件的格式對文件進行排序。
+首先，我們需要設定目錄，以便根據文件的格式對其進行排序。
 
 ```csharp
-//文檔目錄的路徑。
+// 文檔目錄的路徑。
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 string supportedDir = dataDir + "Supported";
 string unknownDir = dataDir + "Unknown";
 string encryptedDir = dataDir + "Encrypted";
 string pre97Dir = dataDir + "Pre97";
 
-//如果目錄尚不存在，則建立它們。
+// 如果目錄不存在，則建立目錄。
 if (!Directory.Exists(supportedDir))
     Directory.CreateDirectory(supportedDir);
 if (!Directory.Exists(unknownDir))
@@ -64,17 +66,17 @@ if (!Directory.Exists(pre97Dir))
     Directory.CreateDirectory(pre97Dir);
 ```
 
-## 步驟2：取得文件列表
+## 第 2 步：取得文件列表
 
-接下來，我們將從目錄中取得文件列表，不包括任何損壞的文件。
+接下來，我們將從目錄中取得文件列表，排除任何損壞的文件。
 
 ```csharp
 IEnumerable<string> fileList = Directory.GetFiles(dataDir).Where(name => !name.EndsWith("Corrupted document.docx"));
 ```
 
-## 步驟 3：檢測文件格式
+## 步驟3：檢測文件格式
 
-現在，我們迭代每個檔案並使用 Aspose.Words 偵測其格式。
+現在，我們遍歷每個檔案並使用 Aspose.Words 偵測其格式。
 
 ```csharp
 foreach (string fileName in fileList)
@@ -85,7 +87,7 @@ foreach (string fileName in fileList)
 
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(fileName);
 
-    //顯示文檔類型
+    // 顯示文檔類型
     switch (info.LoadFormat)
     {
         case LoadFormat.Doc:
@@ -160,12 +162,12 @@ foreach (string fileName in fileList)
 
 ## 結論
 
-使用 Aspose.Words for .NET 偵測文件檔案格式是一個簡單的過程。透過設定目錄、取得文件清單以及利用 Aspose.Words 偵測文件格式，您可以有效地組織和管理文件。這種方法不僅可以節省時間，還可以確保您正確處理各種文件格式。
+使用 Aspose.Words for .NET 偵測文件檔案格式是一個簡單的過程。透過設定目錄、取得文件清單以及利用 Aspose.Words 偵測文件格式，您可以有效地組織和管理文件。這種方法不僅節省時間，還能確保您正確處理各種文件格式。
 
 ## 常見問題解答
 
 ### 什麼是 Aspose.Words for .NET？
-Aspose.Words for .NET 是一個功能強大的程式庫，用於以程式設計方式處理 Word 文件。它允許開發人員創建、修改和轉換各種格式的文件。
+Aspose.Words for .NET 是一個功能強大的函式庫，可以透過程式處理 Word 文件。它允許開發人員創建、修改和轉換各種格式的文件。
 
 ### Aspose.Words 可以偵測加密文件嗎？
 是的，Aspose.Words 可以偵測文件是否已加密，您可以相應地處理此類文件。
@@ -174,14 +176,19 @@ Aspose.Words for .NET 是一個功能強大的程式庫，用於以程式設計�
 Aspose.Words 可以偵測多種格式，包括 DOC、DOCX、RTF、HTML、MHTML、ODT 等。
 
 ### 如何取得 Aspose.Words 的臨時授權？
-您可以從以下機構獲得臨時許可證[提出購買](https://purchase.aspose.com/temporary-license/)頁。
+您可以從 [Aspose 購買](https://purchase.aspose.com/temporary-license/) 頁。
 
 ### 在哪裡可以找到 Aspose.Words 的文檔？
-Aspose.Words 的文檔可以找到[這裡](https://reference.aspose.com/words/net/).
+Aspose.Words 的文檔可以在 [這裡](https://reference。aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

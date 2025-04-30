@@ -1,30 +1,37 @@
 ---
-title: Szövegfeldolgozás fejlécekkel és láblécekkel
-linktitle: Szövegfeldolgozás fejlécekkel és láblécekkel
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan dolgozhat fejlécekkel és láblécekkel Word dokumentumokban az Aspose.Words for .NET használatával. Teljes oktatóanyagok és gyakorlati példák.
-weight: 730
-url: /hu/net/working-with-headers-and-footers/
+"description": "Tanulja meg, hogyan kell fejlécekkel és láblécekkel dolgozni Word dokumentumokban az Aspose.Words for .NET segítségével. Teljes körű oktatóanyagok és gyakorlati példák."
+"linktitle": "Szövegszerkesztés fejlécekkel és láblécekkel"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Szövegszerkesztés fejlécekkel és láblécekkel"
+"url": "/hu/net/working-with-headers-and-footers/"
+"weight": 730
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szövegfeldolgozás fejlécekkel és láblécekkel
+# Szövegszerkesztés fejlécekkel és láblécekkel
 
 
-A fejlécekkel és láblécekkel ellátott szövegfeldolgozás átfogó forrás a Word-dokumentumok fejléceinek és lábléceinek kezeléséhez és testreszabásához az Aspose.Words könyvtár .NET-hez segítségével. Az oktatóanyagok részletes magyarázatokat, kódpéldákat és lépésről lépésre szóló utasításokat adnak fejlécek és láblécek hozzáadásához, módosításához és eltávolításához, különböző fejlécek és láblécek beállításához a dokumentum különböző szakaszaihoz, képek, táblázatok, dinamikus mezők beszúrásához és még sok máshoz. Ez az erőforrás elengedhetetlen azoknak a fejlesztőknek, akik professzionális, egyedi Word-dokumentumokat szeretnének létrehozni speciális igényeiknek megfelelő fejlécekkel és láblécekkel.
+Szövegszerkesztés fejlécekkel és láblécekkel egy átfogó forrás, amely segít elsajátítani a fejlécek és láblécek kezelését és testreszabását Word-dokumentumokban az Aspose.Words .NET könyvtár használatával. Az oktatóanyagok részletes magyarázatokat, kódpéldákat és lépésenkénti utasításokat tartalmaznak a fejlécek és láblécek hozzáadásához, módosításához és eltávolításához, a dokumentum különböző szakaszaihoz különböző fejlécek és láblécek beállításához, képek, táblázatok, dinamikus mezők beszúrásához és sok máshoz. Ez a forrás elengedhetetlen azoknak a fejlesztőknek, akik professzionális, egyéni Word-dokumentumokat szeretnének létrehozni, amelyek fejlécei és láblécei az igényeikre vannak szabva.
 
 
  ## Oktatóanyagok
 | Cím | Leírás |
 | --- | --- |
-| [Hozzon létre fejléc láblécet](./create-header-footer/) | Ismerje meg, hogyan hozhat létre fejlécet és láblécet Word-dokumentumaiban az Aspose.Words for .NET segítségével. Az egyes oldalak fejlécét és láblécét testreszabhatja. |
-| [Másolja a fejlécek lábléceit az előző szakaszból](./copy-headers-footers-from-previous-section/) | Ismerje meg, hogyan másolhat fejlécet és láblécet a Word dokumentumok előző szakaszából az Aspose.Words for .NET használatával. |
+| [Fejléc és lábléc létrehozása](./create-header-footer/) | Tanulja meg, hogyan hozhat létre fejléceket és lábléceket Word-dokumentumokban az Aspose.Words for .NET segítségével. Testreszabhatja a fejléceket és lábléceket minden oldalhoz. |
+| [Fejlécek és láblécek másolása az előző szakaszból](./copy-headers-footers-from-previous-section/) Ismerje meg, hogyan másolhatja a fejléceket és lábléceket az előző szakaszból Word-dokumentumokba az Aspose.Words for .NET használatával. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

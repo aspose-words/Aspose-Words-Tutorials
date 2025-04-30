@@ -1,14 +1,16 @@
 ---
-title: Stylizacja nagłówka i stopki dokumentu
-linktitle: Stylizacja nagłówka i stopki dokumentu
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak stylizować nagłówki i stopki dokumentów za pomocą Aspose.Words for Java w tym szczegółowym przewodniku. Dołączono instrukcje krok po kroku i kod źródłowy.
-weight: 14
-url: /pl/java/document-styling/document-header-footer-styling/
+"description": "Dowiedz się, jak stylizować nagłówki i stopki dokumentów za pomocą Aspose.Words for Java w tym szczegółowym przewodniku. Dołączono instrukcje krok po kroku i kod źródłowy."
+"linktitle": "Stylizacja nagłówka i stopki dokumentu"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Stylizacja nagłówka i stopki dokumentu"
+"url": "/pl/java/document-styling/document-header-footer-styling/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Stylizacja nagłówka i stopki dokumentu
@@ -20,7 +22,7 @@ Czy chcesz poprawić swoje umiejętności formatowania dokumentów za pomocą Ja
 
 Formatowanie dokumentów odgrywa kluczową rolę w tworzeniu profesjonalnie wyglądających dokumentów. Nagłówki i stopki to niezbędne komponenty, które zapewniają kontekst i strukturę treści. Dzięki Aspose.Words for Java, potężnemu API do manipulacji dokumentami, możesz łatwo dostosować nagłówki i stopki, aby spełnić swoje specyficzne wymagania.
 
-W tym przewodniku przyjrzymy się różnym aspektom stylizacji nagłówków i stopek dokumentów przy użyciu Aspose.Words for Java. Omówimy wszystko, od podstawowego formatowania po zaawansowane techniki, i przedstawimy praktyczne przykłady kodu, aby zilustrować każdy krok. Pod koniec tego artykułu będziesz mieć wiedzę i umiejętności, aby tworzyć dopracowane i wizualnie atrakcyjne dokumenty.
+tym przewodniku przyjrzymy się różnym aspektom stylizacji nagłówków i stopek dokumentów przy użyciu Aspose.Words for Java. Omówimy wszystko, od podstawowego formatowania po zaawansowane techniki, i przedstawimy praktyczne przykłady kodu, aby zilustrować każdy krok. Pod koniec tego artykułu będziesz mieć wiedzę i umiejętności, aby tworzyć dopracowane i wizualnie atrakcyjne dokumenty.
 
 ## Stylizowanie nagłówków i stopek
 
@@ -30,7 +32,7 @@ Zanim zagłębimy się w szczegóły, zacznijmy od podstaw nagłówków i stopek
 
 #### Tworzenie nagłówka:
 
- Aby utworzyć nagłówek w dokumencie za pomocą Aspose.Words dla Java, możesz użyć`HeaderFooter` klasa. Oto prosty przykład:
+Aby utworzyć nagłówek w dokumencie za pomocą Aspose.Words dla Java, możesz użyć `HeaderFooter` klasa. Oto prosty przykład:
 
 ```java
 Document doc = new Document();
@@ -93,23 +95,23 @@ Aby zapewnić bezproblemową pracę podczas stylizacji nagłówków i stopek dok
 
 ### Jak mogę usunąć nagłówki i stopki z określonych sekcji?
 
- Możesz usunąć nagłówki lub stopki z określonych sekcji, uzyskując dostęp do`HeaderFooter` obiekty i ustawianie ich zawartości na null. Na przykład:
+Możesz usunąć nagłówki lub stopki z określonych sekcji, uzyskując dostęp do `HeaderFooter` obiekty i ustawianie ich zawartości na null. Na przykład:
 
 ```java
 header.removeAllChildren();
 ```
 
-### Czy mogę mieć różne nagłówki i stopki dla stron nieparzystych i parzystych?
+### Czy mogę mieć różne nagłówki i stopki dla stron parzystych i nieparzystych?
 
 Tak, możesz mieć różne nagłówki i stopki dla stron nieparzystych i parzystych. Aspose.Words for Java pozwala określić oddzielne nagłówki i stopki dla różnych typów stron, takich jak strony nieparzyste, parzyste i pierwsze.
 
 ### Czy można dodawać hiperłącza w nagłówkach lub stopkach?
 
- Oczywiście! Możesz dodać hiperłącza w nagłówkach lub stopkach, używając Aspose.Words dla Java. Użyj`Hyperlink` Klasa umożliwiająca tworzenie hiperłączy i wstawianie ich do treści nagłówka lub stopki.
+Oczywiście! Możesz dodać hiperłącza w nagłówkach lub stopkach, używając Aspose.Words dla Java. Użyj `Hyperlink` Klasa umożliwiająca tworzenie hiperłączy i wstawianie ich do treści nagłówka lub stopki.
 
 ### Jak wyrównać zawartość nagłówka lub stopki do lewej lub prawej strony?
 
- Aby wyrównać zawartość nagłówka lub stopki do lewej lub prawej strony, możesz ustawić wyrównanie akapitu za pomocą`ParagraphAlignment` enum. Na przykład, aby wyrównać zawartość do prawej:
+Aby wyrównać zawartość nagłówka lub stopki do lewej lub prawej strony, możesz ustawić wyrównanie akapitu za pomocą `ParagraphAlignment` enum. Na przykład, aby wyrównać zawartość do prawej:
 
 ```java
 header.getFirstParagraph().getParagraphFormat().setAlignment(ParagraphAlignment.RIGHT);
@@ -117,7 +119,7 @@ header.getFirstParagraph().getParagraphFormat().setAlignment(ParagraphAlignment.
 
 ### Czy mogę dodać pola niestandardowe, np. tytuły dokumentów, do nagłówków lub stopek?
 
- Tak, możesz dodać pola niestandardowe do nagłówków lub stopek. Utwórz`Run` element i wstaw go do treści nagłówka lub stopki, podając żądany tekst. Dostosuj formatowanie według potrzeb.
+Tak, możesz dodać pola niestandardowe do nagłówków lub stopek. Utwórz `Run` element i wstaw go do treści nagłówka lub stopki, podając żądany tekst. Dostosuj formatowanie według potrzeb.
 
 ### Czy Aspose.Words dla Java jest kompatybilny z różnymi formatami dokumentów?
 
@@ -130,9 +132,13 @@ W tym obszernym przewodniku zgłębiliśmy sztukę stylizacji nagłówków i sto
 Pamiętaj, aby ćwiczyć te umiejętności i eksperymentować z różnymi stylami, aby znaleźć najlepsze dopasowanie do swoich dokumentów. Aspose.Words for Java pozwala Ci przejąć pełną kontrolę nad formatowaniem dokumentów, otwierając nieskończone możliwości tworzenia oszałamiających treści.
 
 Więc śmiało, zacznij tworzyć dokumenty, które pozostawiają trwałe wrażenie. Twoja nowo odkryta wiedza na temat stylizacji nagłówków i stopek dokumentów niewątpliwie wskaże Ci drogę do doskonałości w dokumentach.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,22 +1,24 @@
 ---
-title: 在 Aspose.Words for Java 中使用樣式和主題
-linktitle: 使用樣式和主題
-second_title: Aspose.Words Java 文件處理 API
-description: 了解如何使用 Aspose.Words for Java 增強文件格式。在這份包含原始碼範例的綜合指南中探索樣式、主題等。
-weight: 20
-url: /zh-hant/java/document-manipulation/using-styles-and-themes/
+"description": "了解如何使用 Aspose.Words for Java 增強文件格式。在此包含原始程式碼範例的綜合指南中探索樣式、主題等。"
+"linktitle": "使用樣式和主題"
+"second_title": "Aspose.Words Java文件處理API"
+"title": "在 Aspose.Words for Java 中使用樣式和主題"
+"url": "/zh-hant/java/document-manipulation/using-styles-and-themes/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 在 Aspose.Words for Java 中使用樣式和主題
 
 
-## 在 Aspose.Words for Java 中使用樣式和主題簡介
+## Aspose.Words for Java 中樣式和主題的使用簡介
 
-在本指南中，我們將探討如何在 Aspose.Words for Java 中使用樣式和主題來增強文件的格式和外觀。我們將涵蓋檢索樣式、複製樣式、管理主題和插入樣式分隔符號等主題。讓我們開始吧！
+在本指南中，我們將探討如何使用 Aspose.Words for Java 中的樣式和主題來增強文件的格式和外觀。我們將涵蓋檢索樣式、複製樣式、管理主題和插入樣式分隔符號等主題。讓我們開始吧！
 
 ## 檢索樣式
 
@@ -25,7 +27,7 @@ url: /zh-hant/java/document-manipulation/using-styles-and-themes/
 ```java
 Document doc = new Document();
 String styleName = "";
-//從文件中取得樣式集合。
+// 從文件中取得樣式集合。
 StyleCollection styles = doc.getStyles();
 for (Style style : styles)
 {
@@ -42,11 +44,11 @@ for (Style style : styles)
 }
 ```
 
-此程式碼會取得文件中定義的樣式並列印它們的名稱。
+此程式碼會取得文件中定義的樣式並列印其名稱。
 
 ## 複製樣式
 
-若要將樣式從一個文檔複製到另一個文檔，您可以使用`copyStylesFromTemplate`方法如下圖：
+若要將樣式從一個文檔複製到另一個文檔，可以使用 `copyStylesFromTemplate` 方法如下圖：
 
 ```java
 @Test
@@ -90,7 +92,7 @@ public void setThemeProperties() throws Exception
 
 ## 插入樣式分隔符
 
-樣式分隔符號對於在單一段落中套用不同的樣式非常有用。以下是如何插入樣式分隔符號的範例：
+樣式分隔符號對於在單一段落內套用不同的樣式很有用。以下是如何插入樣式分隔符號的範例：
 
 ```java
 @Test
@@ -102,22 +104,22 @@ public void insertStyleSeparator() throws Exception
     paraStyle.getFont().setBold(false);
     paraStyle.getFont().setSize(8.0);
     paraStyle.getFont().setName("Arial");
-    //新增「標題 1」樣式的文字。
+    // 附加具有“標題 1”樣式的文字。
     builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
     builder.write("Heading 1");
     builder.insertStyleSeparator();
-    //使用另一種樣式附加文字。
+    // 附加具有另一種樣式的文字。
     builder.getParagraphFormat().setStyleName(paraStyle.getName());
     builder.write("This is text with some other formatting ");
     doc.save("Your Directory Path" + "WorkingWithStylesAndThemes.InsertStyleSeparator.docx");
 }
 ```
 
-在此程式碼中，我們建立自訂段落樣式並插入樣式分隔符號以在同一段落內切換樣式。
+在這段程式碼中，我們建立了一個自訂段落樣式，並插入了一個樣式分隔符，以便在同一段落內切換樣式。
 
 ## 結論
 
-本指南涵蓋了在 Aspose.Words for Java 中使用樣式和主題的基礎知識。您已經學習如何擷取和複製樣式、管理主題以及插入樣式分隔符號以建立具有視覺吸引力且格式良好的文件。嘗試使用這些技術來根據您的要求自訂您的文件。
+本指南介紹了在 Aspose.Words for Java 中使用樣式和主題的基礎知識。您已經學習如何擷取和複製樣式、管理主題以及插入樣式分隔符號以建立視覺上吸引人且格式良好的文件。嘗試這些技術來根據您的要求自訂您的文件。
 
 
 ## 常見問題解答
@@ -132,10 +134,15 @@ public void insertStyleSeparator() throws Exception
 
 ### 如何使用樣式分隔符號在同一段落內切換樣式？
 
-您可以使用插入樣式分隔符`insertStyleSeparator`的方法`DocumentBuilder`班級。
+您可以使用 `insertStyleSeparator` 方法 `DocumentBuilder` 班級。
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

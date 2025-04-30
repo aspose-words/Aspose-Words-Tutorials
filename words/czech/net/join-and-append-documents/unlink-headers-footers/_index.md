@@ -1,30 +1,32 @@
 ---
-title: Odpojit záhlaví a zápatí
-linktitle: Odpojit záhlaví a zápatí
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Přečtěte si, jak zrušit propojení záhlaví a zápatí v dokumentech aplikace Word pomocí Aspose.Words for .NET. Postupujte podle našeho podrobného průvodce krok za krokem pro manipulaci s hlavním dokumentem.
-weight: 10
-url: /cs/net/join-and-append-documents/unlink-headers-footers/
+"description": "Naučte se, jak odpojit záhlaví a zápatí v dokumentech Word pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu krok za krokem, abyste zvládli manipulaci s dokumenty."
+"linktitle": "Odpojit záhlaví a zápatí"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Odpojit záhlaví a zápatí"
+"url": "/cs/net/join-and-append-documents/unlink-headers-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Odpojit záhlaví a zápatí
 
 ## Zavedení
 
-Ve světě zpracování dokumentů může být někdy problém udržet konzistentní záhlaví a zápatí. Ať už slučujete dokumenty nebo jen chcete mít různá záhlaví a zápatí pro různé sekce, vědět, jak je odpojit, je zásadní. Dnes se ponoříme do toho, jak toho můžete dosáhnout pomocí Aspose.Words pro .NET. Rozebereme to krok za krokem, abyste to mohli snadno sledovat. Jste připraveni zvládnout manipulaci s dokumenty? Začněme!
+Ve světě zpracování dokumentů může být udržování konzistence záhlaví a zápatí někdy náročné. Ať už slučujete dokumenty, nebo jen chcete mít různá záhlaví a zápatí pro různé sekce, je nezbytné vědět, jak je odpojit. Dnes se ponoříme do toho, jak toho můžete dosáhnout pomocí Aspose.Words pro .NET. Rozebereme si to krok za krokem, abyste mohli snadno sledovat. Jste připraveni zvládnout manipulaci s dokumenty? Pojďme na to!
 
 ## Předpoklady
 
-Než se pustíme do toho nejzákladnějšího, je tu několik věcí, které budete potřebovat:
+Než se ponoříme do detailů, je tu pár věcí, které budete potřebovat:
 
--  Aspose.Words for .NET Library: Můžete si ji stáhnout z[Aspose stránku vydání](https://releases.aspose.com/words/net/).
+- Knihovna Aspose.Words pro .NET: Můžete si ji stáhnout z [Stránka s vydáním Aspose](https://releases.aspose.com/words/net/).
 - .NET Framework: Ujistěte se, že máte nainstalovaný kompatibilní .NET Framework.
 - IDE: Visual Studio nebo jakékoli jiné integrované vývojové prostředí kompatibilní s .NET.
-- Základní porozumění C#: Budete potřebovat základní znalosti programovacího jazyka C#.
+- Základní znalost C#: Budete potřebovat základní znalost programovacího jazyka C#.
 
 ## Importovat jmenné prostory
 
@@ -34,54 +36,54 @@ Chcete-li začít, nezapomeňte do projektu importovat potřebné jmenné prosto
 using Aspose.Words;
 ```
 
-Pojďme si tento proces rozdělit na zvládnutelné kroky, které vám pomohou odpojit záhlaví a zápatí v dokumentech aplikace Word.
+Rozdělme si proces na srozumitelné kroky, které vám pomohou odpojit záhlaví a zápatí v dokumentech Wordu.
 
-## Krok 1: Nastavte svůj projekt
+## Krok 1: Nastavení projektu
 
-Nejprve budete muset nastavit prostředí vašeho projektu. Otevřete své IDE a vytvořte nový projekt .NET. Přidejte odkaz na knihovnu Aspose.Words, kterou jste stáhli dříve.
+Nejprve budete muset nastavit prostředí projektu. Otevřete IDE a vytvořte nový projekt .NET. Přidejte odkaz na knihovnu Aspose.Words, kterou jste si dříve stáhli.
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-## Krok 2: Načtěte zdrojový dokument
+## Krok 2: Načtení zdrojového dokumentu
 
-Dále musíte načíst zdrojový dokument, který chcete upravit. Tento dokument bude mít odpojená záhlaví a zápatí.
+Dále je třeba načíst zdrojový dokument, který chcete upravit. Záhlaví a zápatí tohoto dokumentu budou odpojena.
 
 ```csharp
 Document srcDoc = new Document(dataDir + "Document source.docx");
 ```
 
-## Krok 3: Vložte cílový dokument
+## Krok 3: Vložení cílového dokumentu
 
-Nyní načtěte cílový dokument, kam připojíte zdrojový dokument po zrušení propojení jeho záhlaví a zápatí.
+Nyní načtěte cílový dokument, kam po odpojení záhlaví a zápatí připojíte zdrojový dokument.
 
 ```csharp
 Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 ```
 
-## Krok 4: Odpojte záhlaví a zápatí
+## Krok 4: Zrušení propojení záhlaví a zápatí
 
- Tento krok je zásadní. Chcete-li odpojit záhlaví a zápatí zdrojového dokumentu od záhlaví a zápatí cílového dokumentu, použijte`LinkToPrevious` metoda. Tato metoda zajišťuje, že se záhlaví a zápatí nepřenesou do připojeného dokumentu.
+Tento krok je klíčový. Chcete-li odpojit záhlaví a zápatí zdrojového dokumentu od záhlaví a zápatí cílového dokumentu, použijete `LinkToPrevious` metoda. Tato metoda zajišťuje, že se záhlaví a zápatí nepřenesou do připojeného dokumentu.
 
 ```csharp
-// Chcete-li to zastavit, zrušte propojení záhlaví a zápatí ve zdrojovém dokumentu
-//od pokračování v záhlaví a zápatí cílového dokumentu.
+// Zrušte propojení záhlaví a zápatí ve zdrojovém dokumentu, abyste tomu zabránili.
+// z pokračování záhlaví a zápatí cílového dokumentu.
 srcDoc.FirstSection.HeadersFooters.LinkToPrevious(false);
 ```
 
-## Krok 5: Připojte zdrojový dokument
+## Krok 5: Připojení zdrojového dokumentu
 
- Po zrušení propojení záhlaví a zápatí můžete připojit zdrojový dokument k cílovému dokumentu. Použijte`AppendDocument` a nastavte režim formátu importu na`KeepSourceFormatting` zachovat původní formátování zdrojového dokumentu.
+Po odpojení záhlaví a zápatí můžete připojit zdrojový dokument k cílovému dokumentu. Použijte `AppendDocument` metodu a nastavte režim formátu importu na `KeepSourceFormatting` aby se zachovalo původní formátování zdrojového dokumentu.
 
 ```csharp
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
-## Krok 6: Uložte konečný dokument
+## Krok 6: Uložte finální dokument
 
-Nakonec nově vytvořený dokument uložte. Tento dokument bude mít obsah zdrojového dokumentu připojený k cílovému dokumentu, přičemž záhlaví a zápatí nebudou propojena.
+Nakonec uložte nově vytvořený dokument. Obsah zdrojového dokumentu bude připojen k cílovému dokumentu, záhlaví a zápatí budou nepropojené.
 
 ```csharp
 dstDoc.Save(dataDir + "JoinAndAppendDocuments.UnlinkHeadersFooters.docx");
@@ -89,28 +91,33 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.UnlinkHeadersFooters.docx");
 
 ## Závěr
 
-A tady to máte! Pomocí těchto kroků jste úspěšně odpojili záhlaví a zápatí ve zdrojovém dokumentu a připojili je k cílovému dokumentu pomocí Aspose.Words for .NET. Tato technika může být zvláště užitečná, když pracujete se složitými dokumenty, které vyžadují různá záhlaví a zápatí pro různé sekce. Šťastné kódování!
+tady to máte! Dodržením těchto kroků jste úspěšně odpojili záhlaví a zápatí ve zdrojovém dokumentu a připojili jej k cílovému dokumentu pomocí Aspose.Words pro .NET. Tato technika může být obzvláště užitečná při práci se složitými dokumenty, které vyžadují různé záhlaví a zápatí pro různé sekce. Přejeme vám příjemné programování!
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?  
-Aspose.Words for .NET je výkonná knihovna pro práci s dokumenty Wordu v aplikacích .NET. Umožňuje vývojářům vytvářet, upravovat, převádět a tisknout dokumenty programově.
+### Co je Aspose.Words pro .NET?  
+Aspose.Words pro .NET je výkonná knihovna pro práci s dokumenty Word v aplikacích .NET. Umožňuje vývojářům programově vytvářet, upravovat, převádět a tisknout dokumenty.
 
-### Mohu odpojit záhlaví a zápatí pouze pro konkrétní sekce?  
- Ano, můžete odpojit záhlaví a zápatí pro konkrétní sekce přístupem k`HeadersFooters` vlastnost požadované sekce a pomocí`LinkToPrevious` metoda.
+### Mohu odpojit záhlaví a zápatí pouze u konkrétních sekcí?  
+Ano, záhlaví a zápatí konkrétních sekcí můžete zrušit přístupem k `HeadersFooters` vlastnost požadované sekce a pomocí `LinkToPrevious` metoda.
 
 ### Je možné zachovat původní formátování zdrojového dokumentu?  
- Ano, při přidávání zdrojového dokumentu použijte`ImportFormatMode.KeepSourceFormatting` možnost zachovat původní formátování.
+Ano, při připojování zdrojového dokumentu použijte `ImportFormatMode.KeepSourceFormatting` možnost zachovat původní formátování.
 
 ### Mohu používat Aspose.Words pro .NET s jinými jazyky .NET kromě C#?  
-Absolutně! Aspose.Words for .NET lze použít s jakýmkoli jazykem .NET, včetně VB.NET a F#.
+Rozhodně! Aspose.Words pro .NET lze použít s jakýmkoli jazykem .NET, včetně VB.NET a F#.
 
 ### Kde najdu další dokumentaci a podporu pro Aspose.Words pro .NET?  
- Komplexní dokumentaci naleznete na[Stránka dokumentace Aspose.Words for .NET](https://reference.aspose.com/words/net/) a podpora je k dispozici na[Aspose fórum](https://forum.aspose.com/c/words/8).
+Komplexní dokumentaci naleznete na [Dokumentace k Aspose.Words pro .NET](https://reference.aspose.com/words/net/)a podpora je k dispozici na [Fórum Aspose](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

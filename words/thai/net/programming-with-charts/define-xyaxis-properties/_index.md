@@ -1,14 +1,16 @@
 ---
-title: กำหนดคุณสมบัติของแกน XY ในแผนภูมิ
-linktitle: กำหนดคุณสมบัติของแกน XY ในแผนภูมิ
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีกำหนดคุณสมบัติแกน XY ในแผนภูมิโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนา .NET
-weight: 10
-url: /th/net/programming-with-charts/define-xyaxis-properties/
+"description": "เรียนรู้วิธีกำหนดคุณสมบัติของแกน XY ในแผนภูมิโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนา .NET"
+"linktitle": "กำหนดคุณสมบัติของแกน XY ในแผนภูมิ"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "กำหนดคุณสมบัติของแกน XY ในแผนภูมิ"
+"url": "/th/net/programming-with-charts/define-xyaxis-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # กำหนดคุณสมบัติของแกน XY ในแผนภูมิ
@@ -21,7 +23,7 @@ url: /th/net/programming-with-charts/define-xyaxis-properties/
 
 ก่อนที่จะเริ่มเขียนโค้ด มีข้อกำหนดเบื้องต้นบางประการที่คุณต้องมี:
 
-1. Aspose.Words สำหรับ .NET: ตรวจสอบว่าคุณมีไลบรารี Aspose.Words สำหรับ .NET แล้ว คุณสามารถ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบว่าคุณมีไลบรารี Aspose.Words สำหรับ .NET แล้ว คุณสามารถ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: คุณต้องมีสภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น Visual Studio
 3. .NET Framework: ตรวจสอบให้แน่ใจว่าสภาพแวดล้อมการพัฒนาของคุณได้รับการตั้งค่าสำหรับการพัฒนา .NET
 4. ความรู้พื้นฐานเกี่ยวกับ C#: คู่มือนี้ถือว่าคุณมีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C#
@@ -41,10 +43,10 @@ using Aspose.Words.Drawing.Charts;
 
 ## ขั้นตอนที่ 1: เริ่มต้นใช้งาน Document และ DocumentBuilder
 
- ขั้นแรกคุณต้องสร้างเอกสารใหม่และ`DocumentBuilder` วัตถุ.`DocumentBuilder` ช่วยในการแทรกเนื้อหาเข้าไปในเอกสาร
+ขั้นแรกคุณต้องสร้างเอกสารใหม่และ `DocumentBuilder` วัตถุ. `DocumentBuilder` ช่วยในการแทรกเนื้อหาเข้าไปในเอกสาร
 
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -53,7 +55,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## ขั้นตอนที่ 2: แทรกแผนภูมิ
 
-ขั้นต่อไป คุณจะแทรกแผนภูมิลงในเอกสาร ในตัวอย่างนี้ เราจะใช้แผนภูมิพื้นที่ คุณสามารถปรับแต่งขนาดของแผนภูมิได้ตามต้องการ
+ขั้นต่อไป คุณจะแทรกแผนภูมิลงในเอกสาร ในตัวอย่างนี้ เราจะใช้แผนภูมิพื้นที่ คุณสามารถกำหนดขนาดของแผนภูมิได้ตามต้องการ
 
 ```csharp
 // แทรกแผนภูมิ
@@ -61,7 +63,7 @@ Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
 Chart chart = shape.Chart;
 ```
 
-## ขั้นตอนที่ 3: ล้างชุดเริ่มต้นและเพิ่มข้อมูลที่กำหนดเอง
+## ขั้นตอนที่ 3: ล้างซีรีส์เริ่มต้นและเพิ่มข้อมูลที่กำหนดเอง
 
 โดยค่าเริ่มต้น แผนภูมิจะมีชุดข้อมูลที่กำหนดไว้ล่วงหน้า เราจะล้างข้อมูลเหล่านี้และเพิ่มชุดข้อมูลที่กำหนดเอง
 
@@ -84,7 +86,7 @@ chart.Series.Add("Aspose Series 1",
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Custom;
-xAxis.CrossesAt = 3; //วัดเป็นหน่วยแสดงผลของแกน Y (ร้อย)
+xAxis.CrossesAt = 3; // วัดเป็นหน่วยแสดงผลของแกน Y (ร้อย)
 xAxis.ReverseOrder = true;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorTickMark = AxisTickMark.Outside;
@@ -123,20 +125,25 @@ doc.Save(dataDir + "WorkingWithCharts.DefineXYAxisProperties.docx");
 คุณสามารถสร้างแผนภูมิได้หลากหลายประเภท เช่น แผนภูมิพื้นที่ แผนภูมิแท่ง แผนภูมิเส้น แผนภูมิวงกลม และอื่นๆ อีกมากมาย
 
 ### ฉันจะติดตั้ง Aspose.Words สำหรับ .NET ได้อย่างไร?
- คุณสามารถดาวน์โหลด Aspose.Words สำหรับ .NET ได้จาก[ที่นี่](https://releases.aspose.com/words/net/)และปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้
+คุณสามารถดาวน์โหลด Aspose.Words สำหรับ .NET ได้จาก [ที่นี่](https://releases.aspose.com/words/net/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้
 
 ### ฉันสามารถปรับแต่งลักษณะของแผนภูมิของฉันได้หรือไม่
 ใช่ Aspose.Words สำหรับ .NET อนุญาตให้ปรับแต่งแผนภูมิได้มากมาย รวมถึงสี แบบอักษร และคุณสมบัติของแกน
 
 ### มี Aspose.Words สำหรับ .NET ให้ทดลองใช้งานฟรีหรือไม่
- ใช่ คุณสามารถรับการทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถรับการทดลองใช้ฟรีได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถหาบทช่วยสอนและเอกสารเพิ่มเติมได้ที่ไหน
- คุณสามารถค้นหาบทช่วยสอนและเอกสารรายละเอียดเพิ่มเติมได้ที่[หน้าเอกสาร Aspose.Words สำหรับ .NET](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาบทช่วยสอนและเอกสารรายละเอียดเพิ่มเติมได้ที่ [หน้าเอกสาร Aspose.Words สำหรับ .NET](https://reference-aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

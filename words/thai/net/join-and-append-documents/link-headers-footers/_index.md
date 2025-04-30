@@ -1,14 +1,16 @@
 ---
-title: ลิงค์ส่วนหัวส่วนท้าย
-linktitle: ลิงค์ส่วนหัวส่วนท้าย
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีเชื่อมโยงส่วนหัวและส่วนท้ายระหว่างเอกสารใน Aspose.Words สำหรับ .NET รับรองความสอดคล้องและความสมบูรณ์ของการจัดรูปแบบได้อย่างง่ายดาย
-weight: 10
-url: /th/net/join-and-append-documents/link-headers-footers/
+"description": "เรียนรู้วิธีเชื่อมโยงส่วนหัวและส่วนท้ายระหว่างเอกสารใน Aspose.Words สำหรับ .NET รับรองความสอดคล้องและความสมบูรณ์ของการจัดรูปแบบได้อย่างง่ายดาย"
+"linktitle": "ลิงค์ส่วนหัวส่วนท้าย"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ลิงค์ส่วนหัวส่วนท้าย"
+"url": "/th/net/join-and-append-documents/link-headers-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลิงค์ส่วนหัวส่วนท้าย
@@ -37,7 +39,7 @@ using Aspose.Words;
 
 ## ขั้นตอนที่ 1: โหลดเอกสาร
 
- ขั้นแรกให้โหลดเอกสารต้นฉบับและปลายทางลงใน`Document` วัตถุ:
+ขั้นแรกให้โหลดเอกสารต้นฉบับและปลายทางลงใน `Document` วัตถุ:
 
 ```csharp
 // เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
@@ -49,7 +51,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## ขั้นตอนที่ 2: ตั้งค่าส่วนเริ่มต้น
 
- เพื่อให้แน่ใจว่าเอกสารผนวกเริ่มต้นบนหน้าใหม่ ให้กำหนดค่า`SectionStart` คุณสมบัติของส่วนแรกของเอกสารต้นฉบับ:
+เพื่อให้แน่ใจว่าเอกสารผนวกเริ่มต้นบนหน้าใหม่ ให้กำหนดค่า `SectionStart` คุณสมบัติของส่วนแรกของเอกสารต้นฉบับ:
 
 ```csharp
 srcDoc.FirstSection.PageSetup.SectionStart = SectionStart.NewPage;
@@ -89,19 +91,24 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.LinkHeadersFooters.docx");
 ใช่ Aspose.Words จัดการเค้าโครงต่างๆ ได้อย่างราบรื่น โดยยังคงความสมบูรณ์ของส่วนหัวและส่วนท้ายไว้
 
 ### การเชื่อมโยงส่วนหัวและส่วนท้ายจะส่งผลต่อการจัดรูปแบบอื่น ๆ ในเอกสารหรือไม่
-ไม่ การเชื่อมโยงส่วนหัวและส่วนท้ายจะมีผลกับเฉพาะส่วนที่ระบุเท่านั้น โดยปล่อยให้เนื้อหาและการจัดรูปแบบอื่นๆ ยังคงอยู่
+ไม่ การลิงก์ส่วนหัวและส่วนท้ายจะมีผลเฉพาะส่วนที่ระบุเท่านั้น โดยปล่อยให้เนื้อหาและการจัดรูปแบบอื่นๆ ยังคงอยู่
 
 ### Aspose.Words สามารถทำงานร่วมกับ .NET ทุกเวอร์ชันได้หรือไม่
 Aspose.Words รองรับ .NET Framework และ .NET Core หลายเวอร์ชัน ช่วยให้มั่นใจได้ว่าสามารถใช้งานร่วมกันได้ในทุกแพลตฟอร์ม
 
-### ฉันสามารถยกเลิกการเชื่อมโยงส่วนหัวและส่วนท้ายหลังจากเชื่อมโยงแล้วได้หรือไม่
+### ฉันสามารถยกเลิกการลิงก์ส่วนหัวและส่วนท้ายหลังจากลิงก์แล้วได้หรือไม่
 ใช่ คุณสามารถยกเลิกการเชื่อมโยงส่วนหัวและส่วนท้ายได้โดยใช้เมธอด Aspose.Words API เพื่อคืนค่าการจัดรูปแบบเอกสารแต่ละฉบับ
 
 ### ฉันสามารถหาเอกสารโดยละเอียดเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
- เยี่ยม[Aspose.Words สำหรับเอกสาร .NET](https://reference.aspose.com/words/net/) สำหรับคำแนะนำที่ครอบคลุมและการอ้างอิง API
+เยี่ยม [Aspose.Words สำหรับเอกสาร .NET](https://reference.aspose.com/words/net/) สำหรับคำแนะนำที่ครอบคลุมและการอ้างอิง API
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

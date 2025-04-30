@@ -1,14 +1,16 @@
 ---
-title: Hasilkan Tabel dari Datatable
-linktitle: Hasilkan Tabel dari Datatable
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara membuat tabel dari DataTable menggunakan Aspose.Words untuk Java. Buat dokumen Word profesional dengan tabel yang diformat dengan mudah.
-weight: 11
-url: /id/java/table-processing/generate-table-from-datatable/
+"description": "Pelajari cara membuat tabel dari DataTable menggunakan Aspose.Words untuk Java. Buat dokumen Word profesional dengan tabel yang diformat dengan mudah."
+"linktitle": "Hasilkan Tabel dari Datatable"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Hasilkan Tabel dari Datatable"
+"url": "/id/java/table-processing/generate-table-from-datatable/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hasilkan Tabel dari Datatable
@@ -21,9 +23,9 @@ Membuat tabel secara dinamis dari sumber data merupakan tugas umum dalam banyak 
 
 Sebelum menyelami kodenya, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
-1.  Java Development Kit (JDK): Pastikan Anda telah menginstal JDK di komputer Anda. Anda dapat mengunduhnya dari[Situs web Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+1. Java Development Kit (JDK): Pastikan Anda telah menginstal JDK di komputer Anda. Anda dapat mengunduhnya dari [Situs web Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
    
-2.  Aspose.Words untuk Java: Anda memerlukan pustaka Aspose.Words. Anda dapat mengunduh versi terbaru dari[Halaman rilis Aspose](https://releases.aspose.com/words/java/).
+2. Aspose.Words untuk Java: Anda memerlukan pustaka Aspose.Words. Anda dapat mengunduh versi terbaru dari [Halaman rilis Aspose](https://releases.aspose.com/words/java/).
 
 3. IDE: Lingkungan Pengembangan Terpadu (IDE) seperti IntelliJ IDEA atau Eclipse akan membuat pengkodean lebih mudah.
 
@@ -39,17 +41,17 @@ Pertama, kita perlu membuat dokumen baru tempat tabel akan berada. Ini adalah ka
 Document doc = new Document();
 ```
 
- Di sini, kita membuat instance baru`Document` objek. Ini akan berfungsi sebagai dokumen kerja tempat kita akan membuat tabel.
+Di sini, kita membuat instance baru `Document` objek. Ini akan berfungsi sebagai dokumen kerja tempat kita akan membuat tabel.
 
 ## Langkah 2: Inisialisasi DocumentBuilder
 
- Selanjutnya, kita akan menggunakan`DocumentBuilder` kelas, yang memungkinkan kita memanipulasi dokumen dengan lebih mudah.
+Selanjutnya kita akan menggunakan `DocumentBuilder` kelas, yang memungkinkan kita memanipulasi dokumen dengan lebih mudah.
 
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Itu`DocumentBuilder` Objek menyediakan metode untuk menyisipkan tabel, teks, dan elemen lain ke dalam dokumen.
+Itu `DocumentBuilder` Objek menyediakan metode untuk menyisipkan tabel, teks, dan elemen lain ke dalam dokumen.
 
 ## Langkah 3: Mengatur Orientasi Halaman
 
@@ -63,7 +65,7 @@ Langkah ini krusial karena memastikan tabel kita pas di halaman tanpa terpotong.
 
 ## Langkah 4: Memuat Data dari XML
 
- Sekarang, kita perlu memuat data kita dari file XML ke dalam`DataTable`Dari sinilah data kami berasal.
+Sekarang, kita perlu memuat data kita dari file XML ke dalam `DataTable`Dari sinilah data kami berasal.
 
 ```java
 DataSet ds = new DataSet();
@@ -71,7 +73,7 @@ ds.readXml(getMyDir() + "List of people.xml");
 DataTable dataTable = ds.getTables().get(0);
 ```
 
- Di sini, kita membaca file XML dan mengambil tabel pertama dari dataset. Ini`DataTable` akan menampung data yang ingin kita tampilkan dalam dokumen kita.
+Di sini, kita membaca file XML dan mengambil tabel pertama dari dataset. Ini `DataTable` akan menampung data yang ingin kita tampilkan dalam dokumen kita.
 
 ## Langkah 5: Impor Tabel dari DataTable
 
@@ -81,11 +83,11 @@ Sekarang tibalah bagian yang menarik: mengimpor data kita ke dalam dokumen sebag
 Table table = importTableFromDataTable(builder, dataTable, true);
 ```
 
- Kami menyebut metode tersebut`importTableFromDataTable` , melewati`DocumentBuilder` , kita`DataTable`, dan boolean untuk menunjukkan apakah akan menyertakan judul kolom.
+Kami menyebut metode tersebut `importTableFromDataTable`, melewati `DocumentBuilder`, kita `DataTable`, dan boolean untuk menunjukkan apakah akan menyertakan judul kolom.
 
 ## Langkah 6: Tata Gaya Tabel
 
-Setelah kita memiliki meja, kita dapat menerapkan beberapa gaya agar terlihat bagus.
+Setelah kita memiliki meja, kita dapat menerapkan beberapa gaya untuk membuatnya tampak bagus.
 
 ```java
 table.setStyleIdentifier(StyleIdentifier.MEDIUM_LIST_2_ACCENT_1);
@@ -116,7 +118,7 @@ Baris ini menyimpan dokumen dalam direktori yang ditentukan, sehingga Anda dapat
 
 ## Metode importTableFromDataTable
 
- Mari kita lihat lebih dekat`importTableFromDataTable` metode. Metode ini bertanggung jawab untuk membuat struktur tabel dan mengisinya dengan data.
+Mari kita lihat lebih dekat `importTableFromDataTable` metode. Metode ini bertanggung jawab untuk membuat struktur tabel dan mengisinya dengan data.
 
 ### Langkah 1: Mulai Tabel
 
@@ -130,7 +132,7 @@ Ini menginisialisasi tabel baru dalam dokumen kita.
 
 ### Langkah 2: Tambahkan Judul Kolom
 
- Jika kita ingin memasukkan judul kolom, kita centang`importColumnHeadings` bendera.
+Jika kita ingin memasukkan judul kolom, kita centang `importColumnHeadings` bendera.
 
 ```java
 if (importColumnHeadings) {
@@ -156,11 +158,11 @@ if (importColumnHeadings) {
 }
 ```
 
- Blok kode ini memformat baris judul dan memasukkan nama kolom dari`DataTable`.
+Blok kode ini memformat baris judul dan memasukkan nama kolom dari `DataTable`.
 
 ### Langkah 3: Isi Tabel dengan Data
 
- Sekarang, kita mengulang setiap baris`DataTable` untuk memasukkan data ke dalam tabel.
+Sekarang, kita mengulang setiap baris `DataTable` untuk memasukkan data ke dalam tabel.
 
 ```java
 for (DataRow dataRow : (Iterable<DataRow>) dataTable.getRows()) {
@@ -191,7 +193,7 @@ Terakhir, kita selesaikan tabel setelah semua data dimasukkan.
 builder.endTable();
 ```
 
- Baris ini menandai akhir tabel kita, yang memungkinkan`DocumentBuilder` untuk mengetahui bahwa kita telah selesai dengan bagian ini.
+Baris ini menandai akhir tabel kita, yang memungkinkan `DocumentBuilder` untuk mengetahui bahwa kita telah selesai dengan bagian ini.
 
 ## Kesimpulan
 
@@ -202,8 +204,8 @@ Nah, itu dia! Anda telah berhasil mempelajari cara membuat tabel dari DataTable 
 ### Apa itu Aspose.Words untuk Java?
 Aspose.Words untuk Java adalah pustaka yang hebat untuk membuat, memanipulasi, dan mengonversi dokumen Word secara terprogram.
 
-### Dapatkah saya menggunakan Aspose.Words secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/).
+### Bisakah saya menggunakan Aspose.Words secara gratis?
+Ya, Aspose menawarkan versi uji coba gratis. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana cara menata tabel di Aspose.Words?
 Anda dapat menerapkan gaya menggunakan pengenal gaya dan opsi yang telah ditentukan sebelumnya yang disediakan oleh perpustakaan.
@@ -212,10 +214,15 @@ Anda dapat menerapkan gaya menggunakan pengenal gaya dan opsi yang telah ditentu
 Anda dapat memasukkan berbagai jenis data, termasuk teks, angka, dan tanggal, yang dapat diformat sesuai kebutuhan.
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Words?
- Anda dapat menemukan dukungan dan mengajukan pertanyaan di[Forum Aspose](https://forum.aspose.com/c/words/8/).
+Anda dapat menemukan dukungan dan mengajukan pertanyaan di [Forum Aspose](https://forum.aspose.com/c/words/8/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

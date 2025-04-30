@@ -1,14 +1,16 @@
 ---
-title: Освоение полей форм и сбора данных в документах Word
-linktitle: Освоение полей форм и сбора данных в документах Word
-second_title: API управления документами Python Aspose.Words
-description: Освойте искусство создания и управления полями форм в документах Word с помощью Aspose.Words для Python. Научитесь эффективно собирать данные и повышать вовлеченность пользователей.
-weight: 15
-url: /ru/python-net/document-structure-and-content-manipulation/document-form-fields/
+"description": "Освойте искусство создания и управления полями форм в документах Word с помощью Aspose.Words для Python. Научитесь эффективно собирать данные и повышать вовлеченность пользователей."
+"linktitle": "Освоение полей форм и сбора данных в документах Word"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Освоение полей форм и сбора данных в документах Word"
+"url": "/ru/python-net/document-structure-and-content-manipulation/document-form-fields/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Освоение полей форм и сбора данных в документах Word
@@ -46,7 +48,7 @@ url: /ru/python-net/document-structure-and-content-manipulation/document-form-fi
 Поля ввода текста позволяют пользователям вводить текст. Чтобы создать поле ввода текста, используйте следующий фрагмент кода:
 
 ```python
-# Create a new text input form field
+# Создать новое поле формы ввода текста
 text_input_field = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_TEXT, 100, 100, 200, 20)
 ```
 
@@ -55,12 +57,12 @@ text_input_field = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_TEXT, 1
 Флажки и радиокнопки используются для множественного выбора. Вот как их можно создать:
 
 ```python
-# Create a checkbox form field
+# Создать поле формы флажка
 checkbox = aw.drawing.Shape(doc, aw.drawing.ShapeType.CHECK_BOX, 100, 150, 15, 15)
 ```
 
 ```python
-# Create a radio button form field
+# Создать поле формы с переключателем
 radio_button = aw.drawing.Shape(doc, aw.drawing.ShapeType.OLE_OBJECT, 100, 200, 15, 15)
 ```
 
@@ -69,7 +71,7 @@ radio_button = aw.drawing.Shape(doc, aw.drawing.ShapeType.OLE_OBJECT, 100, 200, 
 Выпадающие списки предоставляют выбор вариантов для пользователей. Создайте один из них следующим образом:
 
 ```python
-# Create a drop-down list form field
+# Создать поле формы раскрывающегося списка
 drop_down = aw.drawing.Shape(doc, aw.drawing.ShapeType.COMBO_BOX, 100, 250, 100, 20)
 ```
 
@@ -78,7 +80,7 @@ drop_down = aw.drawing.Shape(doc, aw.drawing.ShapeType.COMBO_BOX, 100, 250, 100,
 Выбор даты позволяет пользователям удобно выбирать даты. Вот как создать такой выбор:
 
 ```python
-# Create a date picker form field
+# Создать поле формы выбора даты
 date_picker = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_DATE, 100, 300, 100, 20)
 ```
 
@@ -88,7 +90,7 @@ date_picker = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_DATE, 100, 3
 
 ### Установка имен полей
 
-Имена полей предоставляют уникальный идентификатор для каждого поля формы, что упрощает управление собранными данными. Задайте имя поля с помощью`Name` свойство:
+Имена полей предоставляют уникальный идентификатор для каждого поля формы, что упрощает управление собранными данными. Задайте имя поля с помощью `Name` свойство:
 
 ```python
 text_input_field.name = "full_name"
@@ -99,7 +101,7 @@ date_picker.name = "birth_date"
 
 ### Добавление текста-заполнителя
 
- Замещающий текст в полях ввода текста указывает пользователям ожидаемый формат ввода. Используйте`PlaceholderText` свойство для добавления заполнителей:
+Замещающий текст в полях ввода текста указывает пользователям ожидаемый формат ввода. Используйте `PlaceholderText` свойство для добавления заполнителей:
 
 ```python
 text_input_field.placeholder_text = "Enter your full name"
@@ -124,23 +126,23 @@ date_picker.text = "2023-08-31"
 
 ### Поля ввода текста
 
-Поля ввода текста универсальны и обычно используются для сбора текстовой информации. Их можно использовать для сбора имен, адресов, комментариев и многого другого. Создание поля ввода текста включает указание его положения и размера, как показано в фрагменте кода ниже:
+Поля ввода текста универсальны и обычно используются для сбора текстовой информации. Их можно использовать для сбора имен, адресов, комментариев и многого другого. Создание поля ввода текста включает указание его положения и размера, как показано в приведенном ниже фрагменте кода:
 
 ```python
-# Create a new text input form field
+# Создать новое поле формы ввода текста
 text_input_field = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_TEXT, 100, 100, 200, 20)
 ```
 
 После создания поля вы можете задать его свойства, такие как имя, значение по умолчанию и текст-заполнитель. Давайте посмотрим, как это сделать:
 
 ```python
-# Set the name of the text input field
+# Задайте имя поля ввода текста
 text_input_field.name = "full_name"
 
-# Set a default value for the field
+# Установите значение по умолчанию для поля
 text_input_field.text = "John Doe"
 
-# Add placeholder text to guide users
+# Добавьте замещающий текст для помощи пользователям
 text_input_field.placeholder_text = "Enter your full name"
 ```
 
@@ -155,28 +157,28 @@ text_input_field.placeholder_text = "Enter your full name"
  следующий код:
 
 ```python
-# Create a checkbox form field
+# Создать поле формы флажка
 checkbox = aw.drawing.Shape(doc, aw.drawing.ShapeType.CHECK_BOX, 100, 150, 15, 15)
 ```
 
 Для создания переключателей можно использовать тип фигуры OLE_OBJECT:
 
 ```python
-# Create a radio button form field
+# Создать поле формы с переключателем
 radio_button = aw.drawing.Shape(doc, aw.drawing.ShapeType.OLE_OBJECT, 100, 200, 15, 15)
 ```
 
 После создания этих полей вы можете настроить их свойства, такие как имя, выбор по умолчанию и текст метки:
 
 ```python
-# Set the name of the checkbox and radio button
+# Задайте имя флажка и переключателя
 checkbox.name = "subscribe_newsletter"
 radio_button.name = "gender_selection"
 
-# Set the default selection for the checkbox
+# Установите значение по умолчанию для флажка
 checkbox.checked = True
 
-# Add label text to the checkbox and radio button
+# Добавьте текст метки к флажку и переключателю
 checkbox.text = "Subscribe to newsletter"
 radio_button.text = "Male"
 ```
@@ -188,24 +190,24 @@ radio_button.text = "Male"
 Раскрывающиеся списки полезны для сценариев, где пользователям необходимо выбрать вариант из предопределенного списка. Они обычно используются для выбора стран, штатов или категорий. Давайте рассмотрим, как создавать и настраивать раскрывающиеся списки:
 
 ```python
-# Create a drop-down list form field
+# Создать поле формы раскрывающегося списка
 drop_down = aw.drawing.Shape(doc, aw.drawing.ShapeType.COMBO_BOX, 100, 250, 100, 20)
 ```
 
 После создания раскрывающегося списка вы можете указать список опций, доступных пользователям:
 
 ```python
-# Set the name of the drop-down list
+# Задайте имя раскрывающегося списка
 drop_down.name = "country_selection"
 
-# Provide a list of options for the drop-down list
+# Предоставьте список опций для раскрывающегося списка
 drop_down.list_entries = ["USA", "Canada", "UK", "Australia", "Germany"]
 ```
 
 Кроме того, вы можете установить выбор по умолчанию для раскрывающегося списка:
 
 ```python
-# Set the default selection for the drop-down list
+# Установите выбор по умолчанию для раскрывающегося списка
 drop_down.text = "USA"
 ```
 
@@ -216,17 +218,17 @@ drop_down.text = "USA"
 Выборщики дат упрощают процесс сбора дат у пользователей. Они предоставляют удобный интерфейс для выбора дат, снижая вероятность ошибок ввода. Чтобы создать поле формы выбора дат, используйте следующий код:
 
 ```python
-# Create a date picker form field
+# Создать поле формы выбора даты
 date_picker = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_DATE, 100, 300, 100, 20)
 ```
 
 После создания элемента выбора даты вы можете задать его свойства, такие как имя и дату по умолчанию:
 
 ```python
-# Set the name of the date picker
+# Задайте имя выбора даты
 date_picker.name = "birth_date"
 
-# Set the default date for the date picker
+# Установите дату по умолчанию для выбора даты
 date_picker.text = "2023-08-31"
 ```
 
@@ -248,7 +250,7 @@ pip install aspose-words
 
 ### Могу ли я установить значения по умолчанию для полей формы?
 
- Да, вы можете задать значения по умолчанию для полей формы, используя соответствующие свойства. Например, чтобы задать текст по умолчанию для поля ввода текста, используйте`text` свойство.
+Да, вы можете задать значения по умолчанию для полей формы, используя соответствующие свойства. Например, чтобы задать текст по умолчанию для поля ввода текста, используйте `text` свойство.
 
 ### Доступны ли поля форм для пользователей с ограниченными возможностями?
 
@@ -257,9 +259,14 @@ pip install aspose-words
 ### Могу ли я экспортировать полученные данные во внешние базы данных?
 
 Да, вы можете программно извлекать данные из полей формы и интегрировать их с внешними базами данных или другими системами. Это обеспечивает бесперебойную передачу и обработку данных.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Podziel dokument Word według zakresu stron
-linktitle: Podziel dokument Word według zakresu stron
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak podzielić dokument Word według zakresu stron za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów.
-weight: 10
-url: /pl/net/split-document/by-page-range/
+"description": "Dowiedz się, jak podzielić dokument Word według zakresu stron za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów."
+"linktitle": "Podziel dokument Word według zakresu stron"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Podziel dokument Word według zakresu stron"
+"url": "/pl/net/split-document/by-page-range/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Podziel dokument Word według zakresu stron
@@ -21,7 +23,7 @@ Czy kiedykolwiek zdarzyło Ci się potrzebować tylko kilku stron z obszernego d
 
 Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Jeśli jeszcze go nie masz, możesz go pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Jeśli jeszcze go nie masz, możesz go pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: odpowiednie środowisko programistyczne, np. Visual Studio.
 3. Podstawowa znajomość języka C#: Chociaż przeprowadzimy Cię przez każdy krok, podstawowa znajomość języka C# będzie pomocna.
 
@@ -48,7 +50,7 @@ Aby użyć Aspose.Words, musisz dodać go do swojego projektu. Możesz to zrobi�
 
 ## Krok 3: Załaduj swój dokument
 
- Teraz załadujmy dokument, który chcesz podzielić. Zastąp`"YOUR DOCUMENT DIRECTORY"` ze ścieżką do Twojego dokumentu:
+Teraz załadujmy dokument, który chcesz podzielić. Zastąp `"YOUR DOCUMENT DIRECTORY"` ze ścieżką do Twojego dokumentu:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -83,7 +85,7 @@ Tak, możesz. Będziesz musiał powtórzyć proces ekstrakcji dla każdego potrz
 
 ### Co zrobić, jeśli chcę dokonać podziału według określonych sekcji, a nie zakresów stron?
 
-Aspose.Words udostępnia różne metody manipulowania sekcjami dokumentu. Sekcje można wyodrębnić w podobny sposób, identyfikując początek i koniec sekcji.
+Aspose.Words udostępnia różne metody manipulowania sekcjami dokumentu. Możesz wyodrębnić sekcje w podobny sposób, identyfikując początek i koniec sekcji.
 
 ### Czy liczba stron, które mogę wyodrębnić, jest ograniczona?
 
@@ -97,9 +99,14 @@ Tak, ale będziesz musiał wykonać wiele operacji wyodrębniania dla każdej st
 
 Oczywiście! Aspose.Words dla .NET obsługuje szeroki zakres formatów, w tym DOC, PDF, HTML i inne.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

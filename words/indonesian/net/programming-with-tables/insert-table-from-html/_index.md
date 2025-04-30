@@ -1,14 +1,16 @@
 ---
-title: Sisipkan Tabel Dari Html
-linktitle: Sisipkan Tabel Dari Html
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyisipkan tabel dari HTML ke dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami untuk integrasi dokumen yang lancar.
-weight: 10
-url: /id/net/programming-with-tables/insert-table-from-html/
+"description": "Pelajari cara menyisipkan tabel dari HTML ke dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami untuk integrasi dokumen yang lancar."
+"linktitle": "Sisipkan Tabel Dari Html"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Sisipkan Tabel Dari Html"
+"url": "/id/net/programming-with-tables/insert-table-from-html/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sisipkan Tabel Dari Html
@@ -21,7 +23,7 @@ Pernahkah Anda perlu memasukkan tabel dari HTML ke dalam dokumen Word? Baik Anda
 
 Sebelum kita masuk ke inti penyisipan tabel dari HTML, pastikan Anda memiliki prasyarat berikut:
 
-1.  Aspose.Words untuk .NET: Unduh dan instal pustaka Aspose.Words untuk .NET dari[halaman unduhan](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Unduh dan instal pustaka Aspose.Words untuk .NET dari [halaman unduhan](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan yang kompatibel dengan .NET seperti Visual Studio.
 3. Pengetahuan Dasar C#: Memahami konsep dasar pemrograman C#.
 4. Kode Tabel HTML: Kode HTML untuk tabel yang ingin Anda sisipkan.
@@ -58,10 +60,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Langkah 3: Masukkan Tabel HTML
 
- Sekarang tibalah bagian yang menyenangkan! Anda akan menggunakan`DocumentBuilder` untuk memasukkan tabel HTML ke dalam dokumen Word. Perhatikan bahwa pengaturan AutoFit tidak berlaku untuk tabel yang disisipkan dari HTML, jadi tabel Anda akan terlihat persis seperti yang ditentukan dalam kode HTML Anda.
+Sekarang tibalah bagian yang menyenangkan! Anda akan menggunakan `DocumentBuilder` untuk memasukkan tabel HTML ke dalam dokumen Word. Perhatikan bahwa pengaturan AutoFit tidak berlaku untuk tabel yang disisipkan dari HTML, jadi tabel Anda akan terlihat persis seperti yang ditentukan dalam kode HTML Anda.
 
 ```csharp
-//Sisipkan Tabel HTML
+// Sisipkan Tabel HTML
 builder.InsertHtml("<table>" +
                    "<tr>" +
                    "<td>Row 1, Cell 1</td>" +
@@ -98,16 +100,21 @@ Ya, Anda dapat menyesuaikan tampilan tabel HTML menggunakan HTML dan CSS standar
 Tentu saja! Aspose.Words untuk .NET mendukung berbagai elemen HTML, yang memungkinkan Anda memasukkan berbagai jenis konten ke dalam dokumen Word Anda.
 
 ### Apakah mungkin untuk menyisipkan beberapa tabel HTML ke dalam satu dokumen Word?
- Ya, Anda dapat memasukkan beberapa tabel HTML dengan memanggil`InsertHtml` metode beberapa kali dengan kode tabel HTML yang berbeda.
+Ya, Anda dapat memasukkan beberapa tabel HTML dengan memanggil `InsertHtml` metode beberapa kali dengan kode tabel HTML yang berbeda.
 
 ### Bagaimana saya dapat menangani tabel HTML besar yang mencakup beberapa halaman?
 Aspose.Words untuk .NET secara otomatis menangani tabel besar, memastikan tabel tersebut terbagi dengan benar di beberapa halaman dalam dokumen Word.
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET dalam aplikasi web?
 Ya, Aspose.Words untuk .NET dapat digunakan di aplikasi desktop dan web, menjadikannya alat serbaguna untuk manipulasi dokumen.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

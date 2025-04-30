@@ -1,14 +1,16 @@
 ---
-title: Akıllı Sanat Çizimini Güncelle
-linktitle: Akıllı Sanat Çizimini Güncelle
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerindeki Smart Art çizimlerini nasıl güncelleyeceğinizi öğrenin. Görsellerinizin her zaman doğru olduğundan emin olun.
-weight: 10
-url: /tr/net/programming-with-shapes/update-smart-art-drawing/
+"description": "Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerindeki Smart Art çizimlerini nasıl güncelleyeceğinizi öğrenin. Görsellerinizin her zaman doğru olduğundan emin olun."
+"linktitle": "Akıllı Sanat Çizimini Güncelle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Akıllı Sanat Çizimini Güncelle"
+"url": "/tr/net/programming-with-shapes/update-smart-art-drawing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Akıllı Sanat Çizimini Güncelle
@@ -21,11 +23,11 @@ Akıllı Sanat grafikleri, Word belgelerindeki bilgileri görsel olarak temsil e
 
 Adımlara dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Aspose Sürümleri sayfası](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Aspose Sürümleri sayfası](https://releases.aspose.com/words/net/).
 
 2. .NET Ortamı: Visual Studio gibi bir .NET geliştirme ortamı kurmuş olmanız gerekir.
 
-3. Temel C# Bilgisi: Eğitim kodlamayı içerdiğinden C# ile aşinalık faydalı olacaktır.
+3. Temel C# Bilgisi: Eğitim kodlama içerdiğinden C# ile aşinalık faydalı olacaktır.
 
 4. Örnek Belge: Güncellemek istediğiniz Smart Art'lı bir Word belgesi. Bu eğitim için "SmartArt.docx" adlı bir belge kullanacağız.
 
@@ -38,17 +40,17 @@ using Aspose.Words;
 using Aspose.Words.Drawing;
 ```
 
-Bu ad alanları, Word belgeleri ve Akıllı Resimler ile etkileşim kurmak için gerekli sınıfları ve yöntemleri sağlar.
+Bu ad alanları, Word belgeleri ve Akıllı Sanat ile etkileşim kurmak için gerekli sınıfları ve yöntemleri sağlar.
 
 ## 1. Belgenizi Başlatın
 
 Başlık: Belgeyi Yükle
 
 Açıklama:
- Öncelikle, Smart Art grafiklerini içeren Word belgesini yüklemeniz gerekir. Bu, bir örneği oluşturarak yapılır`Document` sınıf ve belgenize giden yolu sağlama.
+Öncelikle, Smart Art grafiklerini içeren Word belgesini yüklemeniz gerekir. Bu, bir örneği oluşturarak yapılır `Document` sınıf ve belgenize giden yolu sağlama.
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Belgeyi yükle
@@ -86,7 +88,7 @@ Akıllı Sanat şekillerini tanımlamak, yalnızca gerçekten buna ihtiyaç duya
 Başlık: Akıllı Sanat Grafiklerini Yenile
 
 Açıklama:
- The`UpdateSmartArtDrawing` yöntem, Akıllı Sanat grafiğini yeniler ve belgenin verilerindeki veya düzenindeki herhangi bir değişikliği yansıttığından emin olur. Bu yöntem, önceki adımda tanımlanan her Akıllı Sanat şekli için çağrılmalıdır.
+The `UpdateSmartArtDrawing` yöntem, Akıllı Sanat grafiğini yeniler ve belgenin verilerindeki veya düzenindeki herhangi bir değişikliği yansıttığından emin olur. Bu yöntem, önceki adımda tanımlanan her Akıllı Sanat şekli için çağrılmalıdır.
 
 ```csharp
 // Her Akıllı Sanat şekli için Akıllı Sanat çizimini güncelle
@@ -130,13 +132,18 @@ Akıllı Sanatı güncellemek, grafiklerin belgenizdeki en son değişiklikleri 
 Evet, bir dosya koleksiyonu üzerinde yineleme yaparak ve aynı adımları uygulayarak Akıllı Sanatı birden fazla belgede güncelleme sürecini otomatikleştirebilirsiniz.
 
 ### Bu özellikleri kullanabilmek için Aspose.Words için özel bir lisansa ihtiyacım var mı?
- Değerlendirme süresinin ötesinde özelliklerini kullanmak için geçerli bir Aspose.Words lisansı gereklidir. Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Değerlendirme süresinin ötesinde özelliklerini kullanmak için geçerli bir Aspose.Words lisansı gereklidir. Geçici bir lisans alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words hakkında daha fazla dokümanı nerede bulabilirim?
- Belgelere erişebilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Belgelere erişebilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: สารบัญ รุ่น
-linktitle: สารบัญ รุ่น
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีสร้างสารบัญแบบไดนามิกโดยใช้ Aspose.Words สำหรับ Java เรียนรู้การสร้างสารบัญด้วยคำแนะนำทีละขั้นตอนและตัวอย่างโค้ดต้นฉบับ
-weight: 14
-url: /th/java/table-processing/table-contents-generation/
+"description": "เรียนรู้วิธีสร้างสารบัญแบบไดนามิกโดยใช้ Aspose.Words สำหรับ Java เรียนรู้การสร้างสารบัญด้วยคำแนะนำทีละขั้นตอนและตัวอย่างโค้ดต้นฉบับ"
+"linktitle": "สารบัญ รุ่น"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "สารบัญ รุ่น"
+"url": "/th/java/table-processing/table-contents-generation/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สารบัญ รุ่น
@@ -21,10 +23,10 @@ url: /th/java/table-processing/table-contents-generation/
 
 ก่อนที่เราจะเริ่มเขียนโค้ด ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1.  Java Development Kit (JDK): ติดตั้งบนระบบของคุณ คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์ของออราเคิล](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.Words สำหรับ Java Library: ดาวน์โหลดเวอร์ชันล่าสุดจาก[หน้าวางจำหน่าย](https://releases.aspose.com/words/java/).
+1. Java Development Kit (JDK): ติดตั้งบนระบบของคุณ คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์ของออราเคิล](https://www-oracle.com/java/technologies/javase-downloads.html).
+2. Aspose.Words สำหรับ Java Library: ดาวน์โหลดเวอร์ชันล่าสุดจาก [หน้าวางจำหน่าย](https://releases-aspose.com/words/java/).
 3. สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE): เช่น IntelliJ IDEA, Eclipse หรือ NetBeans
-4.  ใบอนุญาตชั่วคราว Aspose: เพื่อหลีกเลี่ยงข้อจำกัดในการประเมิน ให้รับ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+4. ใบอนุญาตชั่วคราว Aspose: เพื่อหลีกเลี่ยงข้อจำกัดในการประเมิน ให้รับ [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
 
 ## แพ็คเกจนำเข้า
 
@@ -38,7 +40,7 @@ import com.aspose.words.*;
 
 ## ขั้นตอนที่ 1: เริ่มต้นใช้งาน Document และ DocumentBuilder
 
- ขั้นตอนแรกคือการสร้างเอกสารใหม่และใช้`DocumentBuilder` คลาสที่จะจัดการมัน
+ขั้นตอนแรกคือการสร้างเอกสารใหม่และใช้ `DocumentBuilder` คลาสที่จะจัดการมัน
 
 
 ```java
@@ -84,8 +86,8 @@ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
 builder.writeln("Heading 2");
 ```
 
-- `setStyleIdentifier` : กำหนดรูปแบบย่อหน้าเป็นระดับหัวเรื่องที่เฉพาะเจาะจง (เช่น`HEADING_1`, `HEADING_2`-
-- `writeln`: เพิ่มข้อความลงในเอกสารตามรูปแบบที่ระบุ
+- `setStyleIdentifier`: กำหนดรูปแบบย่อหน้าเป็นระดับหัวเรื่องที่เฉพาะเจาะจง (เช่น `HEADING_1`- `HEADING_2`-
+- `writeln`เพิ่มข้อความลงในเอกสารตามรูปแบบที่ระบุ
 
 ## ขั้นตอนที่ 4: เพิ่มหัวข้อที่ซ้อนกัน
 
@@ -125,7 +127,7 @@ doc.updateFields();
 doc.save(dataDir + "DocumentBuilder.InsertToc.docx");
 ```
 
-- `save` : ส่งออกเอกสารไปยัง`.docx` ไฟล์ คุณสามารถระบุรูปแบบอื่น ๆ เช่น`.pdf` หรือ`.txt` หากจำเป็น
+- `save`: ส่งออกเอกสารไปยัง `.docx` ไฟล์ คุณสามารถระบุรูปแบบอื่น ๆ เช่น `.pdf` หรือ `.txt` หากจำเป็น
 
 ## บทสรุป
 
@@ -137,19 +139,24 @@ doc.save(dataDir + "DocumentBuilder.InsertToc.docx");
 แน่นอน! คุณสามารถปรับพารามิเตอร์ TOC ได้ เช่น การรวมหมายเลขหน้า การจัดตำแหน่งข้อความ หรือการใช้รูปแบบหัวเรื่องแบบกำหนดเอง
 
 ### จำเป็นต้องมีใบอนุญาตสำหรับ Aspose.Words สำหรับ Java หรือไม่
- ใช่ ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถเริ่มต้นด้วย[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+ใช่ ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถเริ่มต้นด้วย [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันสามารถสร้าง TOC สำหรับเอกสารที่มีอยู่ได้หรือไม่
- ใช่! โหลดเอกสารลงใน`Document` วัตถุและทำตามขั้นตอนเดียวกันเพื่อแทรกและอัพเดต TOC
+ใช่! โหลดเอกสารลงใน `Document` วัตถุและทำตามขั้นตอนเดียวกันเพื่อแทรกและอัพเดต TOC
 
 ### วิธีนี้ใช้ได้กับการส่งออก PDF ไหม
- ใช่ TOC จะปรากฏใน PDF หากคุณบันทึกเอกสารใน`.pdf` รูปแบบ
+ใช่ TOC จะปรากฏใน PDF หากคุณบันทึกเอกสารใน `.pdf` รูปแบบ
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมได้ที่ไหน
- ตรวจสอบออก[Aspose.Words สำหรับเอกสาร Java](https://reference.aspose.com/words/java/) สำหรับตัวอย่างและรายละเอียดเพิ่มเติม
+ตรวจสอบออก [Aspose.Words สำหรับเอกสาร Java](https://reference.aspose.com/words/java/) สำหรับตัวอย่างและรายละเอียดเพิ่มเติม
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

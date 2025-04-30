@@ -1,27 +1,34 @@
 ---
-title: Zpracování textu s Officemath
-linktitle: Zpracování textu s Officemath
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Prozkoumejte textový procesor pomocí vzorců Office Math v Aspose.Words pro .NET. Výukové programy krok za krokem a ukázkový kód pro vytváření, úpravy a formátování matematických rovnic v dokumentech aplikace Word.
-weight: 1550
-url: /cs/net/programming-with-officemath/
+"description": "Prozkoumejte zpracování textu pomocí vzorců Office Math v Aspose.Words pro .NET. Podrobné návody a ukázkový kód pro vytváření, úpravy a formátování matematických rovnic v dokumentech Word."
+"linktitle": "Zpracování textu v Officemath"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Zpracování textu v Officemath"
+"url": "/cs/net/programming-with-officemath/"
+"weight": 1550
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zpracování textu s Officemath
+# Zpracování textu v Officemath
 
-Výukové programy Aspose.Words for .NET o textovém zpracování pomocí OfficeMath vás provedou používáním funkcí OfficeMath k manipulaci a formátování matematických rovnic ve vašich dokumentech aplikace Word. Dozvíte se, jak vytvářet, upravovat a mazat matematické rovnice, a také jak používat konkrétní styly a formátování. Tyto výukové programy vám poskytnou důkladné pochopení manipulace s matematickými rovnicemi v dokumentech aplikace Word.
+Výukové programy Aspose.Words pro .NET o zpracování textu v OfficeMath vás provedou používáním funkcí OfficeMath pro manipulaci s matematickými rovnicemi a jejich formátování v dokumentech Word. Naučíte se, jak vytvářet, upravovat a mazat matematické rovnice a také jak používat specifické styly a formátování. Tyto výukové programy vám poskytnou hluboké znalosti o manipulaci s matematickými rovnicemi v dokumentech Word.
 
- ## Tutoriály
-| Titul | Popis |
+ ## Návody
+| Název | Popis |
 | --- | --- |
-| [Matematické rovnice](./math-equations/) | Naučte se konfigurovat matematické rovnice v dokumentech aplikace Word pomocí Aspose.Words for .NET. Podrobný průvodce s příklady, často kladenými dotazy a dalšími. |
+| [Matematické rovnice](./math-equations/) | Naučte se, jak konfigurovat matematické rovnice v dokumentech Wordu pomocí Aspose.Words pro .NET. Podrobný návod s příklady, nejčastějšími dotazy a dalšími informacemi. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

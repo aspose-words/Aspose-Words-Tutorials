@@ -1,17 +1,19 @@
 ---
-title: Расширенные возможности сохранения с Aspose.Words для Java
-linktitle: Сохранение документов в различных форматах с помощью
-second_title: API обработки документов Java Aspose.Words
-description: Изучите расширенные возможности работы с документами с помощью Aspose.Words для Java. Шифруйте, обрабатывайте метафайлы и многое другое. Ваши документы Word, ваш способ.
-weight: 14
-url: /ru/java/document-loading-and-saving/advance-saving-options/
+"description": "Изучите расширенные возможности работы с документами с помощью Aspose.Words для Java. Шифруйте, обрабатывайте метафайлы и многое другое. Ваши документы Word, ваш способ."
+"linktitle": "Сохранение документов в различных форматах с помощью"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Расширенные возможности сохранения с помощью Aspose.Words для Java"
+"url": "/ru/java/document-loading-and-saving/advance-saving-options/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Расширенные возможности сохранения с Aspose.Words для Java
+# Расширенные возможности сохранения с помощью Aspose.Words для Java
 
 
 # Пошаговое руководство: расширенные параметры сохранения с помощью Aspose.Words для Java
@@ -64,7 +66,7 @@ public void doNotCompressSmallMetafiles() throws Exception {
 
 ## Избегание сохранения маркеров изображений
 
-Списки с картинками могут привлекать внимание, но вы можете исключить их. Вот как это сделать:
+Списки-картинки могут привлекать внимание, но вы можете исключить их. Вот как:
 
 ```java
 @Test
@@ -119,15 +121,15 @@ public void doNotSavePictureBullet() throws Exception {
 
 ### 1. Является ли Aspose.Words для Java бесплатной библиотекой?
 
- Нет, Aspose.Words for Java — это коммерческая библиотека. Подробности лицензирования можно найти[здесь](https://purchase.aspose.com/buy).
+Нет, Aspose.Words for Java — это коммерческая библиотека. Подробности лицензирования можно найти [здесь](https://purchase.aspose.com/buy).
 
 ### 2. Как получить бесплатную пробную версию Aspose.Words для Java?
 
-Вы можете получить бесплатную пробную версию Aspose.Words для Java[здесь](https://releases.aspose.com/).
+Вы можете получить бесплатную пробную версию Aspose.Words для Java [здесь](https://releases.aspose.com/).
 
 ### 3. Где я могу найти поддержку Aspose.Words для Java?
 
- Для поддержки и обсуждения в сообществе посетите[Форум Aspose.Words для Java](https://forum.aspose.com/).
+Для поддержки и обсуждения в сообществе посетите [Форум Aspose.Words для Java](https://forum.aspose.com/).
 
 ### 4. Могу ли я использовать Aspose.Words для Java с другими библиотеками Java?
 
@@ -135,13 +137,18 @@ public void doNotSavePictureBullet() throws Exception {
 
 ### 5. Есть ли возможность получить временную лицензию?
 
- Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+Да, вы можете получить временную лицензию. [здесь](https://purchase.aspose.com/temporary-license/).
 
 Начните работу с Aspose.Words для Java уже сегодня и раскройте весь потенциал обработки документов в ваших приложениях Java.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

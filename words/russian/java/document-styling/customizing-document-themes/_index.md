@@ -1,14 +1,16 @@
 ---
-title: Настройка тем документов
-linktitle: Настройка тем документов
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как настраивать темы документов с помощью Aspose.Words для Java. Это всеобъемлющее руководство содержит пошаговые инструкции и примеры исходного кода.
-weight: 12
-url: /ru/java/document-styling/customizing-document-themes/
+"description": "Узнайте, как настраивать темы документов с помощью Aspose.Words для Java. Это всеобъемлющее руководство содержит пошаговые инструкции и примеры исходного кода."
+"linktitle": "Настройка тем документов"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Настройка тем документов"
+"url": "/ru/java/document-styling/customizing-document-themes/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Настройка тем документов
@@ -24,9 +26,9 @@ url: /ru/java/document-styling/customizing-document-themes/
 
 Прежде чем мы углубимся в детали, давайте убедимся, что у вас настроена правильная среда для разработки Java с Aspose.Words. Выполните следующие шаги, чтобы начать:
 
-1.  Установите Java: Если у вас не установлена Java, загрузите и установите последнюю версию с сайта[java.com](https://www.java.com/).
+1. Установите Java: Если у вас не установлена Java, загрузите и установите последнюю версию с сайта [java.com](https://www.java.com/).
 
-2.  Загрузите Aspose.Words для Java: Посетите[Документация Aspose.Words для Java](https://reference.aspose.com/words/java/) и загрузите последнюю версию.
+2. Загрузите Aspose.Words для Java: Посетите [Документация Aspose.Words для Java](https://reference.aspose.com/words/java/) и скачайте последнюю версию.
 
 3. Интеграция Aspose.Words: добавьте Aspose.Words в свой проект Java, включив JAR-файл, загруженный на предыдущем шаге.
 
@@ -129,9 +131,14 @@ Aspose.Words for Java предоставляет набор предопреде
 Настройка тем документов с помощью Aspose.Words для Java позволяет вам создавать визуально привлекательные и согласованные документы в ваших приложениях Java. В этом руководстве мы рассмотрели основы настройки тем, включая изменение цветов и шрифтов. Следуя приведенным примерам и рекомендациям, вы сможете овладеть искусством настройки тем документов.
 
 Теперь, когда у вас есть знания и код, продолжайте и улучшайте свои возможности обработки документов Java с помощью Aspose.Words. Создавайте потрясающие документы, которые выделяются и впечатляют ваших пользователей.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

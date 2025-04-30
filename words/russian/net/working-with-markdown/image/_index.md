@@ -1,14 +1,16 @@
 ---
-title: Изображение
-linktitle: Изображение
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как добавлять изображения в документы с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Улучшите свои документы визуальными эффектами в кратчайшие сроки.
-weight: 10
-url: /ru/net/working-with-markdown/image/
+"description": "Узнайте, как добавлять изображения в документы с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Улучшите свои документы визуальными эффектами в кратчайшие сроки."
+"linktitle": "Изображение"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Изображение"
+"url": "/ru/net/working-with-markdown/image/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Изображение
@@ -21,7 +23,7 @@ url: /ru/net/working-with-markdown/image/
 
 Прежде чем перейти к коду, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words для .NET: Вы можете загрузить его с сайта[Сайт Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: Вы можете загрузить его с сайта [Сайт Aspose](https://releases.aspose.com/words/net/).
 2. Среда разработки: любая среда разработки .NET, например Visual Studio.
 3. Базовые знания C#: Если вы знакомы с C#, то вы готовы!
 
@@ -38,7 +40,7 @@ using Aspose.Words.Drawing;
 
 ## Шаг 1: Инициализация DocumentBuilder
 
- Для начала вам нужно создать`DocumentBuilder` объект. Этот объект поможет вам добавить содержимое в ваш документ.
+Для начала вам нужно создать `DocumentBuilder` объект. Этот объект поможет вам добавить содержимое в ваш документ.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
@@ -52,7 +54,7 @@ DocumentBuilder builder = new DocumentBuilder();
 Shape shape = builder.InsertImage("path_to_your_image.jpg");
 ```
 
- Заменять`"path_to_your_image.jpg"` фактическим путем к файлу вашего изображения.`InsertImage` метод добавит изображение в ваш документ.
+Заменять `"path_to_your_image.jpg"` с фактическим путем к файлу вашего изображения. `InsertImage` метод добавит изображение в ваш документ.
 
 ## Шаг 3: Задайте свойства изображения
 
@@ -69,22 +71,27 @@ shape.ImageData.Title = "Your Image Title";
 ## Часто задаваемые вопросы
 
 ### Могу ли я добавить несколько изображений в один документ?  
-Да, вы можете добавить столько изображений, сколько захотите, повторяя`InsertImage` метод для каждого изображения.
+Да, вы можете добавить столько изображений, сколько захотите, повторяя `InsertImage` метод для каждого изображения.
 
 ### Какие форматы изображений поддерживает Aspose.Words для .NET?  
 Aspose.Words поддерживает различные форматы изображений, включая JPEG, PNG, BMP, GIF и другие.
 
 ### Могу ли я изменить размер изображений в документе?  
- Конечно! Вы можете задать высоту и ширину свойств`Shape` объект для изменения размера изображений.
+Конечно! Вы можете задать высоту и ширину свойств `Shape` объект для изменения размера изображений.
 
 ### Можно ли добавлять изображения из URL?  
- Да, вы можете добавлять изображения с URL-адреса, указав URL-адрес в поле`InsertImage` метод.
+Да, вы можете добавлять изображения с URL-адреса, указав URL-адрес в поле `InsertImage` метод.
 
 ### Как получить бесплатную пробную версию Aspose.Words для .NET?  
- Вы можете получить бесплатную пробную версию[Сайт Aspose](https://releases.aspose.com/).
+Вы можете получить бесплатную пробную версию [Сайт Aspose](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

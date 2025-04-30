@@ -1,41 +1,49 @@
 ---
-title: Tworzenie formatowania czcionek w Word za pomocą Aspose.Words dla .NET
-weight: 7700
-limit: 
-description: Dowiedz się, jak tworzyć dokument Word z dostosowanym formatem czcionek w .NET za pomocą Aspose.Words.
-keywords: [Aspose.Words, .NET, Word document, font formatting, programming example, DocumentBuilder, font properties]
-url: /pl/net/font-styling/font-formatting/
+"description": "Dowiedz się, jak utworzyć dokument Word z niestandardowym formatowaniem czcionki w .NET przy użyciu Aspose.Words. Dołączono prosty przykład krok po kroku."
+"title": "Tworzenie formatowania czcionki w programie Word przy użyciu Aspose.Words dla platformy .NET"
+"url": "/pl/net/font-styling/font-formatting/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tworzenie formatu czcionek w Word za pomocą Aspose.Words
+# Utwórz formatowanie czcionki w programie Word za pomocą Aspose.Words
 
-W tym przewodniku przedstawiono prosty przykład tworzenia i formatowania dokumentu Word za pomocą Aspose.Words dla .NET. Nauczysz się dostosowywać właściwości czcionki, takie jak wielkość, styl i kolor, a następnie pisać tekst do dokumentu.
+Ten przewodnik zawiera prosty przykład tworzenia i formatowania dokumentu Word przy użyciu Aspose.Words dla .NET. Nauczysz się dostosowywać właściwości czcionki, takie jak rozmiar, styl i kolor, a następnie wpisywać tekst do dokumentu. Instrukcje krok po kroku ułatwiają zarówno początkującym, jak i doświadczonym programistom włączanie Aspose.Words do swoich aplikacji.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/font-styling/font-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instrukcje instalacji 
-1. Warunki wstępne: Upewnij się, że masz zainstalowaną .NET na komputerze.
-2. Zainstalować Aspose.Words: 
-   * Użyj menedżera pakietów NuGet w Visual Studio:
+1. Wymagania wstępne: Upewnij się, że na Twoim komputerze jest zainstalowany .NET.
+2. Zainstaluj Aspose.Words: 
+   - Użyj Menedżera pakietów NuGet w programie Visual Studio:
      ```
      Install-Package Aspose.Words
      ```
-   * Albo pobierz DLL bezpośrednio z [Strona internetowa](https://www.aspose.com)\- Nie .
-3. Licencja na wniosek (opcjonalna):  
-   Aby użyć pełnej wersji,[stosować licencję](https://purchase.aspose.com/temporary-license/)lub użyć [bezpłatna próba](https://releases.aspose.com/words/net/)\- Nie .  
+   - Lub pobierz plik DLL bezpośrednio z [Strona internetowa Aspose](https://www.aspose.com).
+3. Zastosuj licencję (opcjonalnie):  
+   Aby korzystać z pełnej wersji, [zastosować licencję](https://purchase.aspose.com/temporary-license/) lub użyj [bezpłatny okres próbny](https://releases.aspose.com/words/net/).  
 
-## Zobacz również
-[Aspose.Word dla dokumentacji .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word dla odniesienia .NET](https://reference.aspose.com/words/net/)
+## Zobacz także
+[Dokumentacja Aspose.Word dla .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word dla .NET Odwołania](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

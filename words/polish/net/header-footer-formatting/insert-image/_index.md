@@ -1,54 +1,62 @@
 ---
-title: Wkładać obraz w nagłówek dokumentu Word.
-weight: 7700
-limit: 
-description: Dowiedz się, jak wstawić obraz w nagłówek dokumentu Word za pomocą Aspose.Words dla .NET. Przewodnik krok po kroku z przykładem kodu i instrukcjami instalacji.
-keywords: [Aspose.Words for .NET, insert image in header, Word document, .NET library, Word automation, header customization, document processing, C# example]
-url: /pl/net/header-footer-formatting/insert-image/
+"description": "Dowiedz się, jak wstawić obraz do nagłówka dokumentu Word za pomocą Aspose.Words dla .NET. Przewodnik krok po kroku z przykładowym kodem i instrukcjami instalacji."
+"title": "Wstaw obraz do nagłówka dokumentu Word | Aspose.Words dla .NET"
+"url": "/pl/net/header-footer-formatting/insert-image/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wkładać obraz w nagłówek dokumentu Word
+# Wstawianie obrazu do nagłówka dokumentu Word
 
-Aspose.Words dla .NET ułatwia przetwarzanie dokumentów Word, umożliwiając deweloperom automatyzowanie zadań takich jak wprowadzenie obrazów do nagłówków. W tym tutoriale pokazano, jak używać klas Dokumentów i DocumentBuilder do dodawania obrazu z precyzyjną wykazem, wymiarami i opcjami pakowania do głównej nagłówki dokumentu Word. Proces jest prosty, co sprawia, że jest idealne dla deweloperów mających na celu dynamiczne ulepszenie szablon dokumentów. Dzięki szczegółowym krokom i kodom próbkowym, będziesz mógł z łatwością zintegrować tę funkcjonalność w aplikacjach .NET.  
+Aspose.Words for .NET upraszcza przetwarzanie dokumentów Word, umożliwiając programistom automatyzację zadań, takich jak wstawianie obrazów do nagłówków. Ten samouczek pokazuje, jak używać klas Document i DocumentBuilder, aby dodać obraz z precyzyjnym wyrównaniem, wymiarami i opcjami zawijania do głównego nagłówka dokumentu Word. Proces jest prosty, co czyni go idealnym dla programistów, którzy chcą dynamicznie ulepszać szablony dokumentów. Dzięki szczegółowym krokom i przykładowemu kodowi będziesz w stanie bez wysiłku zintegrować tę funkcjonalność ze swoimi aplikacjami .NET.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/header-footer-formatting/insert-image" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instrukcje instalacji  
 
-Aby zacząć z Aspose.Words dla .NET, wykonaj te proste kroki:  
+Aby rozpocząć korzystanie z Aspose.Words dla platformy .NET, wykonaj następujące proste kroki:  
 
 1. Pobierz Aspose.Words  
-   * [Pobierz najnowszą wersję](https://releases.aspose.com/words/net/)Aspose.Words dla .NET.  
+   - [Pobierz najnowszą wersję](https://releases.aspose.com/words/net/) Aspose.Words dla .NET.  
 
-2. Instaluj Aspose.Words za pośrednictwem programu NuGet  
-   * Otwórz swój projekt w Visual Studio.  
-   * Przejdź do menu Narzędzia i wybierz Zarządzacz pakietów NuGet > Zarządzać pakietami NuGet dla rozwiązania.  
-   * Szukaj `"Aspose.Word"`w menedżer pakietów NuGet i zainstalować go.  
+2. Zainstaluj Aspose.Words przez NuGet  
+   - Otwórz projekt w programie Visual Studio.  
+   - Przejdź do menu Narzędzia i wybierz Menedżer pakietów NuGet > Zarządzaj pakietami NuGet dla rozwiązania.  
+   - Szukaj `Aspose.Words` w menedżerze pakietów NuGet i zainstaluj go.  
 
-   Albo użyj konsoli do zarządzania pakietami:  
+   Można też skorzystać z Konsoli Menedżera Pakietów:  
    ```shell
    Install-Package Aspose.Words
    ```  
 
-3. Zgłaszaj się do licencji  
-   * \- Zróbcie coś .[Bezpłatna licencja próbna](https://releases.aspose.com/)lub [zakup licencji](https://purchase.aspose.com/buy)\- Nie .  
-   * W projekcie użyj następującego kodu:  
+3. Zastosuj licencję  
+   - Zdobądź [bezpłatna licencja próbna](https://releases.aspose.com/) Lub [kupić licencję](https://purchase.aspose.com/buy).  
+   - Aby zastosować licencję w swoim projekcie, użyj następującego kodu:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```  
 
-## Zobacz również
-[Aspose.Word dla dokumentacji .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word dla odniesienia .NET](https://reference.aspose.com/words/net/)
+## Zobacz także
+[Dokumentacja Aspose.Word dla .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word dla .NET Odwołania](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Membagi Dokumen menjadi Halaman HTML di Aspose.Words untuk Java
-linktitle: Membagi Dokumen menjadi Halaman HTML
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara membagi dokumen menjadi halaman HTML dengan Aspose.Words untuk Java. Ikuti panduan langkah demi langkah kami untuk konversi dokumen yang lancar.
-weight: 25
-url: /id/java/document-manipulation/splitting-documents-into-html-pages/
+"description": "Pelajari cara membagi dokumen menjadi halaman HTML dengan Aspose.Words untuk Java. Ikuti panduan langkah demi langkah kami untuk konversi dokumen yang lancar."
+"linktitle": "Membagi Dokumen menjadi Halaman HTML"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Membagi Dokumen menjadi Halaman HTML di Aspose.Words untuk Java"
+"url": "/id/java/document-manipulation/splitting-documents-into-html-pages/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membagi Dokumen menjadi Halaman HTML di Aspose.Words untuk Java
@@ -23,7 +25,7 @@ Dalam panduan langkah demi langkah ini, kita akan menjelajahi cara membagi dokum
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal di sistem Anda.
--  Aspose.Words untuk pustaka Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/java/).
+- Aspose.Words untuk pustaka Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/java/).
 
 ## Langkah 1: Impor Paket yang Diperlukan
 
@@ -145,11 +147,11 @@ Dalam panduan lengkap ini, kami telah membahas proses pemisahan dokumen menjadi 
 
 ### Bagaimana cara menginstal Aspose.Words untuk Java?
 
- Untuk menginstal Aspose.Words untuk Java, Anda dapat mengunduh pustaka dari[Di Sini](https://releases.aspose.com/words/java/) dan ikuti petunjuk instalasi yang disediakan dalam dokumentasi.
+Untuk menginstal Aspose.Words untuk Java, Anda dapat mengunduh pustaka dari [Di Sini](https://releases.aspose.com/words/java/) dan ikuti petunjuk instalasi yang disediakan dalam dokumentasi.
 
 ### Bisakah saya menyesuaikan keluaran HTML?
 
- Ya, Anda dapat menyesuaikan output HTML dengan menyesuaikan opsi penyimpanan di`HtmlSaveOptions` kelas. Ini memungkinkan Anda untuk mengontrol format dan tampilan file HTML yang dihasilkan.
+Ya, Anda dapat menyesuaikan output HTML dengan menyesuaikan opsi penyimpanan di `HtmlSaveOptions` kelas. Ini memungkinkan Anda untuk mengontrol format dan tampilan file HTML yang dihasilkan.
 
 ### Versi Microsoft Word apa yang didukung oleh Aspose.Words untuk Java?
 
@@ -162,9 +164,14 @@ Aspose.Words untuk Java dapat menangani gambar dalam HTML yang dikonversi dengan
 ### Apakah ada versi uji coba Aspose.Words untuk Java yang tersedia?
 
 Ya, Anda dapat meminta versi uji coba gratis Aspose.Words untuk Java dari situs web Aspose untuk mengevaluasi fitur dan kemampuannya sebelum membeli lisensi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

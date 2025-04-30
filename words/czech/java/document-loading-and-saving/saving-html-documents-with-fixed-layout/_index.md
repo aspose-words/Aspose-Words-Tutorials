@@ -1,43 +1,45 @@
 ---
-title: Ukládání HTML dokumentů s pevným rozložením v Aspose.Words pro Java
-linktitle: Ukládání HTML dokumentů s pevným rozložením
-second_title: Aspose.Words Java Document Processing API
-description: Naučte se ukládat dokumenty HTML s pevným rozložením v Aspose.Words pro Java. Postupujte podle našeho podrobného průvodce pro bezproblémové formátování dokumentů.
-weight: 15
-url: /cs/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/
+"description": "Naučte se, jak ukládat HTML dokumenty s pevným rozvržením v Aspose.Words pro Javu. Postupujte podle našeho podrobného návodu pro bezproblémové formátování dokumentů."
+"linktitle": "Ukládání HTML dokumentů s pevným rozvržením"
+"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
+"title": "Ukládání HTML dokumentů s pevným rozvržením v Aspose.Words pro Javu"
+"url": "/cs/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ukládání HTML dokumentů s pevným rozložením v Aspose.Words pro Java
+# Ukládání HTML dokumentů s pevným rozvržením v Aspose.Words pro Javu
 
 
-## Úvod do ukládání dokumentů HTML s pevným rozložením v Aspose.Words pro Java
+## Úvod do ukládání HTML dokumentů s pevným rozvržením v Aspose.Words pro Javu
 
-tomto komplexním průvodci vás provedeme procesem ukládání HTML dokumentů s pevným rozložením pomocí Aspose.Words for Java. Pomocí podrobných pokynů a příkladů kódu se naučíte, jak toho hladce dosáhnout. Takže, pojďme se rovnou ponořit!
+V tomto komplexním průvodci vás provedeme procesem ukládání HTML dokumentů s pevným rozvržením pomocí Aspose.Words pro Javu. S podrobnými pokyny a příklady kódu se naučíte, jak toho bez problémů dosáhnout. Tak se do toho pusťme!
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
-- Nastavení vývojového prostředí Java.
-- Nainstalovaná a nakonfigurovaná knihovna Aspose.Words for Java.
+- Nastavení vývojového prostředí v Javě.
+- Knihovna Aspose.Words pro Javu nainstalována a nakonfigurována.
 
-## Krok 1: Vložení dokumentu
+## Krok 1: Načtení dokumentu
 
-Nejprve musíme načíst dokument, který chceme uložit ve formátu HTML. Můžete to udělat takto:
+Nejprve musíme načíst dokument, který chceme uložit, ve formátu HTML. Zde je návod, jak to udělat:
 
 ```java
 Document doc = new Document("Your Directory Path" + "YourDocument.docx");
 ```
 
- Nahradit`"YourDocument.docx"` s cestou k dokumentu aplikace Word.
+Nahradit `"YourDocument.docx"` s cestou k vašemu dokumentu Word.
 
-## Krok 2: Nakonfigurujte pevné možnosti uložení HTML
+## Krok 2: Konfigurace možností ukládání s pevnou hodnotou HTML
 
- Chcete-li uložit dokument s pevným rozložením, musíme nakonfigurovat`HtmlFixedSaveOptions` třída. Nastavíme`useTargetMachineFonts`majetek do`true` abyste zajistili, že se ve výstupu HTML použijí fonty cílového počítače:
+Abychom dokument uložili s pevným rozvržením, musíme nakonfigurovat `HtmlFixedSaveOptions` třída. Nastavíme `useTargetMachineFonts` majetek `true` aby se ve výstupu HTML použily fonty cílového počítače:
 
 ```java
 HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
@@ -46,15 +48,15 @@ saveOptions.setUseTargetMachineFonts(true);
 
 ## Krok 3: Uložte dokument jako HTML
 
-Nyní uložme dokument jako HTML s pevným rozložením pomocí dříve nakonfigurovaných možností:
+Nyní uložme dokument jako HTML s pevným rozvržením s použitím dříve nakonfigurovaných možností:
 
 ```java
 doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
 ```
 
- Nahradit`"FixedLayoutDocument.html"` s požadovaným názvem souboru HTML.
+Nahradit `"FixedLayoutDocument.html"` s požadovaným názvem pro váš HTML soubor.
 
-## Kompletní zdrojový kód pro ukládání HTML dokumentů s pevným rozložením v Aspose.Words pro Java
+## Kompletní zdrojový kód pro ukládání HTML dokumentů s pevným rozvržením v Aspose.Words pro Javu
 
 ```java
         Document doc = new Document("Your Directory Path" + "Bullet points with alternative font.docx");
@@ -68,28 +70,33 @@ doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
 
 ## Závěr
 
-tomto tutoriálu jsme se naučili, jak uložit HTML dokumenty s pevným rozložením pomocí Aspose.Words for Java. Dodržením těchto jednoduchých kroků můžete zajistit, že si vaše dokumenty udrží konzistentní vizuální strukturu na různých platformách.
+V tomto tutoriálu jsme se naučili, jak ukládat HTML dokumenty s pevným rozvržením pomocí Aspose.Words pro Javu. Dodržením těchto jednoduchých kroků zajistíte, že si vaše dokumenty zachovají konzistentní vizuální strukturu napříč různými platformami.
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu nastavit Aspose.Words pro Java ve svém projektu?
+### Jak mohu nastavit Aspose.Words pro Javu ve svém projektu?
 
- Nastavení Aspose.Words pro Java je jednoduché. Knihovnu si můžete stáhnout z[zde](https://releases.aspose.com/words/java/) a postupujte podle pokynů k instalaci uvedených v dokumentaci[zde](https://reference.aspose.com/words/java/).
+Nastavení Aspose.Words pro Javu je jednoduché. Knihovnu si můžete stáhnout z [zde](https://releases.aspose.com/words/java/) a postupujte podle pokynů k instalaci uvedených v dokumentaci [zde](https://reference.aspose.com/words/java/).
 
-### Existují nějaké licenční požadavky pro používání Aspose.Words for Java?
+### Existují nějaké licenční požadavky pro používání Aspose.Words pro Javu?
 
-Ano, Aspose.Words for Java vyžaduje platnou licenci k použití v produkčním prostředí. Licenci můžete získat z webu Aspose. Více podrobností naleznete v dokumentaci.
+Ano, Aspose.Words pro Javu vyžaduje pro použití v produkčním prostředí platnou licenci. Licenci můžete získat na webových stránkách Aspose. Více informací naleznete v dokumentaci.
 
-### Mohu dále upravit výstup HTML?
+### Mohu si HTML výstup dále přizpůsobit?
 
-Jistě! Aspose.Words for Java poskytuje širokou škálu možností pro přizpůsobení výstupu HTML tak, aby vyhovoval vašim specifickým požadavkům. Podrobné informace o možnostech přizpůsobení najdete v dokumentaci.
+Jistě! Aspose.Words pro Javu nabízí širokou škálu možností pro přizpůsobení HTML výstupu vašim specifickým požadavkům. Podrobné informace o možnostech přizpůsobení naleznete v dokumentaci.
 
-### Je Aspose.Words for Java kompatibilní s různými verzemi Java?
+### Je Aspose.Words pro Javu kompatibilní s různými verzemi Javy?
 
-Ano, Aspose.Words for Java je kompatibilní s různými verzemi Java. Ujistěte se, že používáte kompatibilní verzi Aspose.Words for Java, která odpovídá vašemu vývojovému prostředí Java.
+Ano, Aspose.Words pro Javu je kompatibilní s různými verzemi Javy. Ujistěte se, že používáte kompatibilní verzi Aspose.Words pro Javu, která odpovídá vašemu vývojovému prostředí Java.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

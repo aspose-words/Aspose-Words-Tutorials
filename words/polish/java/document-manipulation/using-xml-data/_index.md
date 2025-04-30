@@ -1,14 +1,16 @@
 ---
-title: Korzystanie z danych XML w Aspose.Words dla Java
-linktitle: Korzystanie z danych XML
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Odblokuj moc Aspose.Words dla Javy. Poznaj obsługę danych XML, korespondencję seryjną i składnię Mustache dzięki samouczkom krok po kroku.
-weight: 12
-url: /pl/java/document-manipulation/using-xml-data/
+"description": "Odblokuj moc Aspose.Words dla Javy. Poznaj obsługę danych XML, korespondencję seryjną i składnię Mustache dzięki samouczkom krok po kroku."
+"linktitle": "Korzystanie z danych XML"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Korzystanie z danych XML w Aspose.Words dla Java"
+"url": "/pl/java/document-manipulation/using-xml-data/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie z danych XML w Aspose.Words dla Java
@@ -52,7 +54,7 @@ doc.getMailMerge().executeWithRegions(pizzaDs);
 doc.save("Your Directory Path" + "NestedMailMerge.docx");
 ```
 
-## Składnia Mustache przy użyciu DataSet
+## Składnia Mustache przy użyciu zestawu danych
 
 Aby wykorzystać składnię Mustache z zestawem danych, wykonaj następujące kroki:
 
@@ -67,7 +69,7 @@ doc.save("Your Directory Path" + "MustacheSyntaxUsingDataSet.docx");
 
 ## Wniosek
 
-tym kompleksowym przewodniku zbadaliśmy, jak skutecznie używać danych XML z Aspose.Words for Java. Nauczyłeś się, jak wykonywać różne operacje korespondencji seryjnej, w tym podstawową korespondencję seryjną, zagnieżdżoną korespondencję seryjną i jak wykorzystywać składnię Mustache z DataSet. Te techniki pozwalają z łatwością automatyzować generowanie i dostosowywanie dokumentów.
+W tym kompleksowym przewodniku zbadaliśmy, jak skutecznie używać danych XML z Aspose.Words for Java. Nauczyłeś się, jak wykonywać różne operacje korespondencji seryjnej, w tym podstawową korespondencję seryjną, zagnieżdżoną korespondencję seryjną i jak wykorzystywać składnię Mustache z DataSet. Te techniki pozwalają z łatwością automatyzować generowanie i dostosowywanie dokumentów.
 
 ## Najczęściej zadawane pytania
 
@@ -77,14 +79,19 @@ Upewnij się, że Twoje dane XML mają wymaganą strukturę, a tabele i relacje 
 
 ### Czy mogę dostosować zachowanie przycinania dla wartości korespondencji seryjnej?
 
- Tak, możesz kontrolować, czy początkowe i końcowe odstępy mają zostać przycięte podczas scalania korespondencji, używając`doc.getMailMerge().setTrimWhitespaces(false)`.
+Tak, możesz kontrolować, czy początkowe i końcowe odstępy mają zostać przycięte podczas scalania korespondencji, używając `doc.getMailMerge().setTrimWhitespaces(false)`.
 
 ### Czym jest składnia Mustache i kiedy powinienem jej używać?
 
- Składnia Mustache pozwala na bardziej elastyczne formatowanie pól korespondencji seryjnej. Użyj`doc.getMailMerge().setUseNonMergeFields(true)` aby włączyć składnię Mustache.
+Składnia Mustache pozwala na bardziej elastyczne formatowanie pól korespondencji seryjnej. Użyj `doc.getMailMerge().setUseNonMergeFields(true)` aby włączyć składnię Mustache.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,75 +1,77 @@
 ---
-title: Komentář vyřešen a odpovědi
-linktitle: Komentář vyřešen a odpovědi
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Automatizujte řešení a odpovídání na komentáře v dokumentech aplikace Word pomocí Aspose.Words for .NET. Včetně průvodce krok za krokem.
-weight: 10
-url: /cs/net/working-with-comments/comment-resolved-and-replies/
+"description": "Automatizujte řešení a odpovídání na komentáře v dokumentech Word pomocí Aspose.Words pro .NET. Součástí je podrobný návod."
+"linktitle": "Komentář vyřešen a odpovědi"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Komentář vyřešen a odpovědi"
+"url": "/cs/net/working-with-comments/comment-resolved-and-replies/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Komentář vyřešen a odpovědi
 
 ## Zavedení
 
-Pokud pracujete s dokumenty Wordu, pravděpodobně jste se zabývali komentáři. Jsou skvělé pro spolupráci, ale jejich správa může být obtížná. S Aspose.Words pro .NET můžete automatizovat proces řešení a odpovídání na komentáře. Tento průvodce vás provede kroky, jak toho dosáhnout.
+Pokud pracujete s dokumenty aplikace Word, pravděpodobně jste se již setkali s komentáři. Jsou skvělé pro spolupráci, ale jejich správa může být potíž. S Aspose.Words pro .NET můžete automatizovat proces řešení a odpovídání na komentáře. Tato příručka vás provede jednotlivými kroky, jak toho dosáhnout.
 
 ## Předpoklady
 
-Před potápěním se ujistěte, že máte následující:
+Než se ponoříte, ujistěte se, že máte následující:
 
-1.  Aspose.Words for .NET: Můžete si jej stáhnout z[zde](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí: Nastavení pomocí rozhraní .NET Framework.
-3. Základní znalost C#: Seznámení se syntaxí a pojmy.
+1. Aspose.Words pro .NET: Můžete si jej stáhnout z [zde](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí: Nastavení pomocí .NET Frameworku.
+3. Základní znalost C#: Znalost syntaxe a konceptů.
 
 ## Importovat jmenné prostory
 
-Nejprve importujme potřebné jmenné prostory. To zajišťuje, že všechny třídy a metody, které potřebujeme, jsou snadno dostupné.
+Nejdříve si importujme potřebné jmenné prostory. Tím zajistíme, že všechny potřebné třídy a metody budou snadno dostupné.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Comments;
 ```
 
-Pojďme si tento proces rozdělit do jednoduchých, snadno pochopitelných kroků. Každý krok vám pomůže pochopit kód a jeho funkce.
+Rozdělme si proces na jednoduché a snadno sledovatelné kroky. Každý krok vám pomůže pochopit kód a jeho funkčnost.
 
-## Krok 1: Vložte dokument
+## Krok 1: Vložení dokumentu
 
- Chcete-li začít, načtěte dokument aplikace Word obsahující komentáře. Použijte`Document` třídy za to.
+Chcete-li začít, načtěte dokument Wordu obsahující komentáře. Použijte `Document` třída pro toto.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Comments.docx");
 ```
 
- Tento řádek kódu inicializuje nový`Document` objekt s cestou k dokumentu aplikace Word.
+Tento řádek kódu inicializuje nový `Document` objekt s cestou k vašemu dokumentu Word.
 
-## Krok 2: Načtěte komentáře
+## Krok 2: Načtení komentářů
 
- Dále musíme získat všechny komentáře v dokumentu. Použijeme`GetChildNodes` způsob načtení sbírky`Comment` uzly.
+Dále potřebujeme získat všechny komentáře v dokumentu. Použijeme k tomu `GetChildNodes` metoda pro načtení kolekce `Comment` uzly.
 
 ```csharp
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
 ```
 
-Tento kód načte všechny komentáře v dokumentu a uloží je do a`NodeCollection`.
+Tento kód načte všechny komentáře v dokumentu a uloží je do `NodeCollection`.
 
-## Krok 3: Přístup k rodičovskému komentáři
+## Krok 3: Otevření nadřazeného komentáře
 
-V našem příkladu se zaměříme na první komentář ve sbírce. Toto bude náš rodičovský komentář.
+V našem příkladu se zaměříme na první komentář v kolekci. To bude náš nadřazený komentář.
 
 ```csharp
 Comment parentComment = (Comment)comments[0];
 ```
 
- Zde přetypujeme první uzel v kolekci na a`Comment` objekt.
+Zde přetypujeme první uzel v kolekci na `Comment` objekt.
 
-## Krok 4: Procházet odpovědi
+## Krok 4: Procházení odpovědí
 
- Nyní si projdeme odpovědi na nadřazený komentář. Použijeme a`foreach` smyčka pro opakování každé odpovědi.
+Nyní si projdeme odpovědi na nadřazený komentář. Použijeme `foreach` smyčka pro iterování přes každou odpověď.
 
 ```csharp
 foreach (Comment childComment in parentComment.Replies)
@@ -81,41 +83,46 @@ foreach (Comment childComment in parentComment.Replies)
 }
 ```
 
-V této smyčce vytiskneme ID komentáře předka a jeho stav (zda je hotovo nebo ne). Poté každou odpověď označíme jako hotovou.
+V této smyčce vypíšeme ID komentáře předka a jeho stav (zda je hotový či nikoli). Poté označíme každou odpověď jako hotovou.
 
 ## Krok 5: Uložte dokument
 
-Nakonec upravený dokument uložte do svého adresáře.
+Nakonec uložte upravený dokument do svého adresáře.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithComments.CommentResolvedAndReplies.docx");
 ```
 
-Tento kód uloží změny do nového dokumentu a zajistí, že váš původní soubor zůstane nedotčen.
+Tento kód uloží změny do nového dokumentu a zajistí, že původní soubor zůstane nedotčen.
 
 ## Závěr
 
-Zpracování komentářů v dokumentech aplikace Word nemusí být ruční práce. S Aspose.Words for .NET můžete automatizovat proces, šetřit čas a omezovat chyby. Postupujte podle tohoto průvodce, abyste mohli efektivně řešit komentáře ve svých dokumentech a odpovídat na ně.
+Zpracování komentářů v dokumentech Word nemusí být manuální povinností. S Aspose.Words pro .NET můžete tento proces automatizovat, ušetřit čas a snížit počet chyb. Postupujte podle tohoto průvodce, abyste mohli efektivně řešit a odpovídat na komentáře ve vašich dokumentech.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu pomocí Aspose.Words for .NET automatizovat další úkoly související s komentáři?  
+### Mohu automatizovat další úkoly související s komentáři pomocí Aspose.Words pro .NET?  
 Ano, můžete automatizovat různé úkoly, jako je přidávání, mazání a úprava komentářů.
 
-### Je Aspose.Words for .NET kompatibilní s .NET Core?  
-Ano, Aspose.Words for .NET podporuje .NET Framework i .NET Core.
+### Je Aspose.Words pro .NET kompatibilní s .NET Core?  
+Ano, Aspose.Words pro .NET podporuje .NET Framework i .NET Core.
 
 ### Jak mohu získat bezplatnou zkušební verzi Aspose.Words pro .NET?  
- Bezplatnou zkušební verzi si můžete stáhnout z[zde](https://releases.aspose.com/).
+Zkušební verzi zdarma si můžete stáhnout z [zde](https://releases.aspose.com/).
 
 ### Mohu použít Aspose.Words pro .NET pro práci s jinými typy dokumentů?  
 Ano, Aspose.Words podporuje různé formáty včetně DOCX, PDF, HTML a dalších.
 
 ### Kde najdu podrobnou dokumentaci k Aspose.Words pro .NET?  
- Máte přístup k dokumentaci[zde](https://reference.aspose.com/words/net/).
+Dokumentaci si můžete prohlédnout [zde](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

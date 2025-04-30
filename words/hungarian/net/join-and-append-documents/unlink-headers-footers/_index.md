@@ -1,53 +1,55 @@
 ---
-title: Fejléc-láblécek leválasztása
-linktitle: Fejléc-láblécek leválasztása
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan szüntesse meg a fejlécek és a láblécek kapcsolatát a Word dokumentumokban az Aspose.Words for .NET használatával. Kövesse részletes, lépésenkénti útmutatónkat a dokumentumkezelés elsajátításához.
-weight: 10
-url: /hu/net/join-and-append-documents/unlink-headers-footers/
+"description": "Ismerje meg, hogyan szüntetheti meg a fejlécek és láblécek összekapcsolását Word-dokumentumokban az Aspose.Words for .NET segítségével. Kövesse részletes, lépésről lépésre szóló útmutatónkat a dokumentumkezelés elsajátításához."
+"linktitle": "Fejlécek és láblécek leválasztása"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Fejlécek és láblécek leválasztása"
+"url": "/hu/net/join-and-append-documents/unlink-headers-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Fejléc-láblécek leválasztása
+# Fejlécek és láblécek leválasztása
 
 ## Bevezetés
 
-dokumentumfeldolgozás világában a fejlécek és láblécek következetes tartása néha kihívást jelenthet. Akár dokumentumokat egyesít, akár csak különböző fejlécet és láblécet szeretne a különböző szakaszokhoz, elengedhetetlen a szétválasztásuk ismerete. Ma megvizsgáljuk, hogyan érheti el ezt az Aspose.Words for .NET használatával. Lépésről lépésre lebontjuk, hogy könnyen követhesd. Készen áll a dokumentumkezelés elsajátítására? Kezdjük is!
+dokumentumfeldolgozás világában a fejlécek és láblécek egységesítése néha kihívást jelenthet. Akár dokumentumokat egyesít, akár csak különböző fejléceket és lábléceket szeretne a különböző szakaszokhoz, elengedhetetlen tudni, hogyan lehet szétválasztani őket. Ma belemerülünk abba, hogyan érheti el ezt az Aspose.Words for .NET használatával. Lépésről lépésre lebontjuk, hogy könnyen követhesse a folyamatot. Készen áll a dokumentumkezelés elsajátítására? Kezdjük is!
 
 ## Előfeltételek
 
-Mielőtt belevetnénk magunkat a finomságokba, van néhány dolog, amire szüksége lesz:
+Mielőtt belevágnánk a részletekbe, van néhány dolog, amire szükséged lesz:
 
--  Aspose.Words for .NET Library: Letöltheti a[Az Aspose kiadási oldala](https://releases.aspose.com/words/net/).
-- .NET-keretrendszer: Győződjön meg arról, hogy kompatibilis .NET-keretrendszer van telepítve.
+- Aspose.Words .NET könyvtárhoz: Letöltheti innen: [Aspose kiadási oldal](https://releases.aspose.com/words/net/).
+- .NET-keretrendszer: Győződjön meg arról, hogy telepítve van egy kompatibilis .NET-keretrendszer.
 - IDE: Visual Studio vagy bármely más .NET-kompatibilis integrált fejlesztői környezet.
-- A C# alapismerete: A C# programozási nyelv alapjaira lesz szüksége.
+- C# alapismeretek: Szükséged lesz a C# programozási nyelv alapvető ismeretére.
 
 ## Névterek importálása
 
-A kezdéshez feltétlenül importálja a szükséges névtereket a projektbe. Ezzel elérheti az Aspose.Words könyvtárat és annak funkcióit.
+Első lépésként importáld a szükséges névtereket a projektedbe. Ez lehetővé teszi majd az Aspose.Words könyvtár és annak funkcióinak elérését.
 
 ```csharp
 using Aspose.Words;
 ```
 
-Bontsuk le a folyamatot kezelhető lépésekre, amelyek segítségével leválaszthatja a fejléceket és a lábléceket a Word-dokumentumokban.
+Bontsuk le a folyamatot kezelhető lépésekre, hogy segítsünk a fejlécek és láblécek leválasztásában a Word-dokumentumokban.
 
-## 1. lépés: Állítsa be projektjét
+## 1. lépés: A projekt beállítása
 
-Először is be kell állítania a projektkörnyezetet. Nyissa meg az IDE-jét, és hozzon létre egy új .NET-projektet. Adjon hozzá egy hivatkozást a korábban letöltött Aspose.Words könyvtárra.
+Először is be kell állítanod a projektkörnyezetedet. Nyisd meg az IDE-t, és hozz létre egy új .NET projektet. Adj hozzá egy hivatkozást az Aspose.Words könyvtárhoz, amelyet korábban letöltöttél.
 
 ```csharp
-// A dokumentumkönyvtár elérési útja
+// A dokumentumkönyvtár elérési útja 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-## 2. lépés: Töltse be a forrásdokumentumot
+## 2. lépés: A forrásdokumentum betöltése
 
-Ezután be kell töltenie a módosítani kívánt forrásdokumentumot. Ennek a dokumentumnak a fejlécei és láblécei nincsenek összekapcsolva.
+Ezután be kell töltenie a módosítani kívánt forrásdokumentumot. Ebben a dokumentumban a fejlécek és láblécek le lesznek választva.
 
 ```csharp
 Document srcDoc = new Document(dataDir + "Document source.docx");
@@ -55,33 +57,33 @@ Document srcDoc = new Document(dataDir + "Document source.docx");
 
 ## 3. lépés: Töltse be a céldokumentumot
 
-Most töltse be a céldokumentumot, ahová a forrásdokumentumot hozzáfűzi, miután megszüntette a fejlécek és láblécek összekapcsolását.
+Most töltse be a céldokumentumot, ahová a fejlécek és láblécek leválasztása után hozzáfűzi a forrásdokumentumot.
 
 ```csharp
 Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 ```
 
-## 4. lépés: Szüntesse meg a fejlécek és láblécek összekapcsolását
+## 4. lépés: Fejlécek és láblécek leválasztása
 
- Ez a lépés döntő fontosságú. A forrásdokumentum fejléceinek és lábléceinek a céldokumentum fejléceinek és lábléceinek leválasztásához használja a`LinkToPrevious` módszer. Ez a módszer biztosítja, hogy a fejlécek és láblécek ne kerüljenek át a csatolt dokumentumba.
+Ez a lépés kulcsfontosságú. A forrásdokumentum fejléceinek és lábléceinek a céldokumentumtól való elválasztásához használja a következőt: `LinkToPrevious` metódus. Ez a metódus biztosítja, hogy a fejlécek és láblécek ne kerüljenek át a hozzáfűzött dokumentumba.
 
 ```csharp
-// Ennek megállításához válassza le a fejléceket és a lábléceket a forrásdokumentumban
-// céldokumentum fejléceinek és lábléceinek folytatásától.
+// A forrásdokumentum fejléceinek és lábléceinek leválasztása a probléma leállításához
+// a céldokumentum fejléceinek és lábléceinek folytatásából.
 srcDoc.FirstSection.HeadersFooters.LinkToPrevious(false);
 ```
 
-## 5. lépés: Csatolja a forrásdokumentumot
+## 5. lépés: A forrásdokumentum csatolása
 
- A fejlécek és láblécek összekapcsolásának megszüntetése után a forrásdokumentumot hozzáfűzheti a céldokumentumhoz. Használja a`AppendDocument` módszert, és állítsa be az importálási formátum módot`KeepSourceFormatting` hogy megőrizze a forrásdokumentum eredeti formázását.
+A fejlécek és láblécek szétválasztása után hozzáfűzheti a forrásdokumentumot a céldokumentumhoz. Használja a `AppendDocument` metódust, és állítsa be az importálási formátumot a következőre: `KeepSourceFormatting` hogy megőrizze a forrásdokumentum eredeti formázását.
 
 ```csharp
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
-## 6. lépés: Mentse el a záródokumentumot
+## 6. lépés: Mentse el a végleges dokumentumot
 
-Végül mentse el az újonnan létrehozott dokumentumot. Ehhez a dokumentumhoz a forrásdokumentum tartalma hozzá lesz fűzve a céldokumentumhoz, a fejlécek és láblécek összekapcsolása nélkül.
+Végül mentse el az újonnan létrehozott dokumentumot. A dokumentum a forrásdokumentum tartalmát hozzáfűzi a céldokumentumhoz, a fejlécek és láblécek leválasztott állapotban lesznek.
 
 ```csharp
 dstDoc.Save(dataDir + "JoinAndAppendDocuments.UnlinkHeadersFooters.docx");
@@ -89,28 +91,33 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.UnlinkHeadersFooters.docx");
 
 ## Következtetés
 
-És megvan! Az alábbi lépések végrehajtásával sikeresen leválasztotta a fejléceket és a lábléceket a forrásdokumentumban, és hozzáfűzte azokat a céldokumentumhoz az Aspose.Words for .NET segítségével. Ez a technika különösen hasznos lehet, ha olyan összetett dokumentumokkal dolgozik, amelyek különböző szakaszokhoz eltérő fejlécet és láblécet igényelnek. Boldog kódolást!
+És íme! A következő lépések követésével sikeresen leválasztottad a fejléceket és lábléceket a forrásdokumentumban, és hozzáfűzted azokat a céldokumentumhoz az Aspose.Words for .NET segítségével. Ez a technika különösen hasznos lehet, ha összetett dokumentumokkal dolgozol, amelyek különböző szakaszokhoz különböző fejléceket és lábléceket igényelnek. Jó kódolást!
 
 ## GYIK
 
-### Mi az Aspose.Words for .NET?  
-Az Aspose.Words for .NET egy hatékony könyvtár a Word dokumentumokkal való munkavégzéshez .NET alkalmazásokban. Lehetővé teszi a fejlesztők számára a dokumentumok programozott létrehozását, módosítását, konvertálását és nyomtatását.
+### Mi az Aspose.Words .NET-hez?  
+Az Aspose.Words for .NET egy hatékony függvénytár, amely lehetővé teszi a Word dokumentumokkal való munkát .NET alkalmazásokban. Lehetővé teszi a fejlesztők számára, hogy programozottan hozzanak létre, módosítsanak, konvertáljanak és nyomtassanak dokumentumokat.
 
-### Megszünthatom a fejlécek és a láblécek összekapcsolását csak bizonyos szakaszok esetében?  
- Igen, leválaszthatja a fejléceket és a lábléceket bizonyos szakaszokhoz, ha eléri a`HeadersFooters` a kívánt szakasz tulajdonsága és a`LinkToPrevious` módszer.
+### Leválaszthatom a fejléceket és lábléceket csak bizonyos szakaszokra vonatkozóan?  
+Igen, leválaszthatja a fejléceket és lábléceket adott szakaszoktól a következő eléréssel: `HeadersFooters` a kívánt szakasz tulajdonságát és a `LinkToPrevious` módszer.
 
-### Megtartható-e a forrásdokumentum eredeti formázása?  
- Igen, a forrásdokumentum csatolásakor használja a`ImportFormatMode.KeepSourceFormatting` lehetőséget az eredeti formázás megőrzésére.
+### Lehetséges megőrizni a forrásdokumentum eredeti formázását?  
+Igen, a forrásdokumentum hozzáfűzésekor használja a `ImportFormatMode.KeepSourceFormatting` lehetőség az eredeti formázás megőrzésére.
 
-### Használhatom az Aspose.Words for .NET-et a C#-on kívül más .NET-nyelvekkel is?  
-Teljesen! Az Aspose.Words for .NET bármely .NET nyelvvel használható, beleértve a VB.NET-et és az F#-ot is.
+### Használhatom az Aspose.Words for .NET-et más .NET nyelvekkel is a C#-on kívül?  
+Abszolút! Az Aspose.Words for .NET bármilyen .NET nyelvvel használható, beleértve a VB.NET-et és az F#-ot is.
 
 ### Hol találok további dokumentációt és támogatást az Aspose.Words for .NET-hez?  
- Részletes dokumentációt találhat a[Aspose.Words for .NET dokumentációs oldal](https://reference.aspose.com/words/net/) , és a támogatás a következő oldalon érhető el[Aspose fórum](https://forum.aspose.com/c/words/8).
+Átfogó dokumentációt találhat a [Aspose.Words .NET dokumentációs oldal](https://reference.aspose.com/words/net/), és a támogatás elérhető a következő címen: [Aspose fórum](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

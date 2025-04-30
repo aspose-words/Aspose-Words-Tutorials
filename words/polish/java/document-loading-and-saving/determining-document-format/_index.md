@@ -1,14 +1,16 @@
 ---
-title: Określanie formatu dokumentu w Aspose.Words dla Java
-linktitle: Określanie formatu dokumentu
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak wykrywać formaty dokumentów w Javie za pomocą Aspose.Words. Rozpoznawaj DOC, DOCX i inne. Organizuj pliki wydajnie.
-weight: 25
-url: /pl/java/document-loading-and-saving/determining-document-format/
+"description": "Dowiedz się, jak wykrywać formaty dokumentów w Javie za pomocą Aspose.Words. Rozpoznawaj DOC, DOCX i inne. Organizuj pliki wydajnie."
+"linktitle": "Określanie formatu dokumentu"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Określanie formatu dokumentu w Aspose.Words dla Java"
+"url": "/pl/java/document-loading-and-saving/determining-document-format/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Określanie formatu dokumentu w Aspose.Words dla Java
@@ -195,7 +197,7 @@ Określanie formatów dokumentów w Aspose.Words for Java jest niezbędne do wyd
 
 ### Jak zainstalować Aspose.Words dla Java?
 
- Możesz pobrać Aspose.Words dla Java ze strony[Tutaj](https://releases.aspose.com/words/java/) postępuj zgodnie z wyświetlanymi instrukcjami instalacji.
+Możesz pobrać Aspose.Words dla Java ze strony [Tutaj](https://releases.aspose.com/words/java/) i postępuj zgodnie z wyświetlanymi instrukcjami instalacji.
 
 ### Jakie formaty dokumentów są obsługiwane?
 
@@ -203,7 +205,7 @@ Aspose.Words for Java obsługuje różne formaty dokumentów, w tym DOC, DOCX, R
 
 ### W jaki sposób mogę wykryć zaszyfrowane dokumenty za pomocą Aspose.Words dla Java?
 
- Możesz użyć`FileFormatUtil.detectFileFormat()` metoda wykrywania zaszyfrowanych dokumentów, jak pokazano w tym przewodniku.
+Możesz użyć `FileFormatUtil.detectFileFormat()` metoda wykrywania zaszyfrowanych dokumentów, jak pokazano w tym przewodniku.
 
 ### Czy istnieją jakieś ograniczenia przy pracy ze starszymi formatami dokumentów?
 
@@ -212,9 +214,14 @@ Starsze formaty dokumentów, takie jak MS Word 6 lub Word 95, mogą mieć ograni
 ### Czy mogę zautomatyzować wykrywanie formatu dokumentu w mojej aplikacji Java?
 
 Tak, możesz zautomatyzować wykrywanie formatu dokumentu, integrując dostarczony kod z aplikacją Java. Pozwala to na przetwarzanie dokumentów na podstawie wykrytych formatów.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

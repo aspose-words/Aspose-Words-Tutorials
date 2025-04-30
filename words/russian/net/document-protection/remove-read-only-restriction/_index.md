@@ -1,14 +1,16 @@
 ---
-title: Удалить ограничение «Только чтение»
-linktitle: Удалить ограничение «Только чтение»
-second_title: API обработки документов Aspose.Words
-description: Легко удаляйте ограничения «только для чтения» из документов Word с помощью Aspose.Words для .NET с нашим подробным пошаговым руководством. Идеально подходит для разработчиков.
-weight: 10
-url: /ru/net/document-protection/remove-read-only-restriction/
+"description": "Легко удаляйте ограничения «только для чтения» из документов Word с помощью Aspose.Words для .NET с нашим подробным пошаговым руководством. Идеально подходит для разработчиков."
+"linktitle": "Удалить ограничение «Только чтение»"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Удалить ограничение «Только чтение»"
+"url": "/ru/net/document-protection/remove-read-only-restriction/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Удалить ограничение «Только чтение»
@@ -21,8 +23,8 @@ url: /ru/net/document-protection/remove-read-only-restriction/
 
 Прежде чем приступить к пошаговому руководству, убедитесь, что у вас выполнены следующие предварительные условия:
 
--  Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Если вы еще не установили его, вы можете загрузить его с[здесь](https://releases.aspose.com/words/net/).
-- Среда разработки: среда разработки .NET, например Visual Studio.
+- Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Если вы еще не установили его, вы можете загрузить его с [здесь](https://releases.aspose.com/words/net/).
+- Среда разработки: среда разработки .NET, такая как Visual Studio.
 - Базовые знания C#: Понимание основных концепций программирования на C# будет полезным.
 
 ## Импорт пространств имен
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "YourDocument.docx");
 ```
 
- На этом этапе замените`"YOUR DOCUMENT DIRECTORY"` с фактическим путем хранения вашего документа.`"YourDocument.docx"` — имя документа, который вы хотите изменить.
+На этом этапе замените `"YOUR DOCUMENT DIRECTORY"` с фактическим путем хранения вашего документа. `"YourDocument.docx"` — имя документа, который вы хотите изменить.
 
 ## Шаг 3: Установите пароль (необязательно)
 
@@ -70,7 +72,7 @@ doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = false;
 ```
 
-Эта строка кода удаляет рекомендацию «Только чтение» из вашего документа, делая его редактируемым.
+Эта строка кода удаляет рекомендацию «только для чтения» из вашего документа, делая его редактируемым.
 
 ## Шаг 5: Не применять защиту
 
@@ -83,7 +85,7 @@ doc.Protect(ProtectionType.NoProtection);
 
 Этот шаг имеет решающее значение, поскольку он гарантирует, что к вашему документу не будет применена защита от записи.
 
-## Шаг 6: Сохраните документ
+## Шаг 6: Сохраните документ.
 
 Наконец, сохраните измененный документ в желаемом месте.
 
@@ -91,7 +93,7 @@ doc.Protect(ProtectionType.NoProtection);
 doc.Save(dataDir + "DocumentProtection.RemoveReadOnlyRestriction.docx");
 ```
 
- На этом этапе измененный документ сохраняется под именем`"DocumentProtection.RemoveReadOnlyRestriction.docx"`.
+На этом этапе измененный документ сохраняется под именем `"DocumentProtection.RemoveReadOnlyRestriction.docx"`.
 
 ## Заключение
 
@@ -107,11 +109,11 @@ doc.Save(dataDir + "DocumentProtection.RemoveReadOnlyRestriction.docx");
 
 ### Что произойдет, если документ уже имеет другой тип защиты?
 
- The`doc.Protect(ProtectionType.NoProtection)` Метод гарантирует снятие всех видов защиты с документа.
+The `doc.Protect(ProtectionType.NoProtection)` Метод гарантирует снятие всех видов защиты с документа.
 
 ### Есть ли способ узнать, доступен ли документ только для чтения, прежде чем снять ограничение?
 
- Да, вы можете проверить`ReadOnlyRecommended` свойство, чтобы проверить, рекомендуется ли сделать документ доступным только для чтения, прежде чем вносить какие-либо изменения.
+Да, вы можете проверить `ReadOnlyRecommended` свойство, позволяющее проверить, доступен ли документ только для чтения, прежде чем вносить какие-либо изменения.
 
 ### Можно ли использовать этот метод для снятия ограничений с нескольких документов одновременно?
 
@@ -120,9 +122,14 @@ doc.Save(dataDir + "DocumentProtection.RemoveReadOnlyRestriction.docx");
 ### Что делать, если документ защищен паролем, а я его не знаю?
 
 К сожалению, для снятия ограничений вам необходимо знать пароль. Без пароля вы не сможете изменить настройки защиты.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

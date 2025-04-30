@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Document Ranges trong Aspose.Words cho Java
-linktitle: Sử dụng Phạm vi Tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Làm chủ thao tác phạm vi tài liệu trong Aspose.Words cho Java. Học cách xóa, trích xuất và định dạng văn bản với hướng dẫn toàn diện này.
-weight: 18
-url: /vi/java/document-manipulation/using-document-ranges/
+"description": "Làm chủ thao tác phạm vi tài liệu trong Aspose.Words cho Java. Tìm hiểu cách xóa, trích xuất và định dạng văn bản với hướng dẫn toàn diện này."
+"linktitle": "Sử dụng Phạm vi Tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng Document Ranges trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/using-document-ranges/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Document Ranges trong Aspose.Words cho Java
@@ -20,7 +22,7 @@ Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá cách khai th�
 
 ## Bắt đầu
 
- Trước khi đi sâu vào mã, hãy đảm bảo bạn đã thiết lập thư viện Aspose.Words for Java trong dự án của mình. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/java/).
+Trước khi đi sâu vào mã, hãy đảm bảo bạn đã thiết lập thư viện Aspose.Words for Java trong dự án của mình. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
 
 ## Tạo một tài liệu
 
@@ -67,7 +69,7 @@ Phạm vi tài liệu trong Aspose.Words for Java là một phần cụ thể c�
 
 ### Làm thế nào để xóa nội dung trong phạm vi tài liệu?
 
- Để xóa nội dung trong phạm vi tài liệu, bạn có thể sử dụng`delete()` phương pháp. Ví dụ,`doc.getRange().delete()` sẽ xóa nội dung trong toàn bộ phạm vi tài liệu.
+Để xóa nội dung trong phạm vi tài liệu, bạn có thể sử dụng `delete()` phương pháp. Ví dụ, `doc.getRange().delete()` sẽ xóa nội dung trong toàn bộ phạm vi tài liệu.
 
 ### Tôi có thể định dạng văn bản trong phạm vi tài liệu không?
 
@@ -79,10 +81,15 @@ Hoàn toàn đúng! Phạm vi tài liệu rất tiện lợi để trích xuất
 
 ### Tôi có thể tìm thấy thư viện Aspose.Words cho Java ở đâu?
 
- Bạn có thể tải xuống thư viện Aspose.Words cho Java từ trang web Aspose[đây](https://releases.aspose.com/words/java/).
+Bạn có thể tải xuống thư viện Aspose.Words cho Java từ trang web Aspose [đây](https://releases.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

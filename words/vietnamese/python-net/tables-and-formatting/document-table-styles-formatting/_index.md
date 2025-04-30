@@ -1,14 +1,16 @@
 ---
-title: Kiểu bảng tài liệu và định dạng sử dụng Aspose.Words Python
-linktitle: Kiểu bảng tài liệu và định dạng
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Tìm hiểu cách định dạng và tạo kiểu cho bảng tài liệu bằng Aspose.Words for Python. Tạo, tùy chỉnh và xuất bảng với hướng dẫn từng bước và ví dụ về mã. Cải thiện bài thuyết trình tài liệu của bạn ngay hôm nay!
-weight: 12
-url: /vi/python-net/tables-and-formatting/document-table-styles-formatting/
+"description": "Tìm hiểu cách định dạng và tạo kiểu cho bảng tài liệu bằng Aspose.Words for Python. Tạo, tùy chỉnh và xuất bảng với hướng dẫn từng bước và ví dụ về mã. Cải thiện bài thuyết trình tài liệu của bạn ngay hôm nay!"
+"linktitle": "Kiểu bảng tài liệu và định dạng"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Kiểu bảng tài liệu và định dạng sử dụng Aspose.Words Python"
+"url": "/vi/python-net/tables-and-formatting/document-table-styles-formatting/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kiểu bảng tài liệu và định dạng sử dụng Aspose.Words Python
@@ -38,14 +40,14 @@ Trước khi đi sâu vào chi tiết về kiểu và định dạng bảng tài
 
 Để tạo và chèn bảng vào tài liệu bằng Aspose.Words cho Python, hãy làm theo các bước sau:
 
-1.  Tạo một bảng: Sử dụng`DocumentBuilder` lớp để tạo một bảng mới và chỉ định số hàng và cột.
+1. Tạo một bảng: Sử dụng `DocumentBuilder` lớp để tạo một bảng mới và chỉ định số hàng và cột.
 
     ```python
     builder = aw.DocumentBuilder(doc)
     table = builder.start_table()
     ```
 
-2.  Chèn dữ liệu: Thêm dữ liệu vào bảng bằng cách sử dụng trình xây dựng`insert_cell` Và`write` phương pháp.
+2. Chèn dữ liệu: Thêm dữ liệu vào bảng bằng cách sử dụng trình xây dựng `insert_cell` Và `write` phương pháp.
 
     ```python
     builder.insert_cell()
@@ -57,7 +59,7 @@ Trước khi đi sâu vào chi tiết về kiểu và định dạng bảng tài
 
 3. Lặp lại hàng: Thêm hàng và ô khi cần, theo một mẫu tương tự.
 
-4.  Chèn bảng vào tài liệu: Cuối cùng, chèn bảng vào tài liệu bằng cách sử dụng`end_table` phương pháp.
+4. Chèn bảng vào tài liệu: Cuối cùng, chèn bảng vào tài liệu bằng cách sử dụng `end_table` phương pháp.
 
     ```python
     builder.end_table()
@@ -65,7 +67,7 @@ Trước khi đi sâu vào chi tiết về kiểu và định dạng bảng tài
 
 ## Áp dụng Định dạng Bảng Cơ bản
 
- Định dạng bảng cơ bản có thể đạt được bằng cách sử dụng các phương pháp được cung cấp bởi`Table` Và`Cell` lớp. Sau đây là cách bạn có thể cải thiện giao diện của bảng:
+Định dạng bảng cơ bản có thể đạt được bằng cách sử dụng các phương pháp được cung cấp bởi `Table` Và `Cell` lớp. Sau đây là cách bạn có thể cải thiện giao diện của bảng:
 
 1. Thiết lập độ rộng cột: Điều chỉnh độ rộng của cột để đảm bảo căn chỉnh phù hợp và hấp dẫn về mặt thị giác.
 
@@ -194,19 +196,24 @@ Có, bạn có thể áp dụng các kiểu tùy chỉnh cho bảng của mình 
 
 ### Có thể gộp các ô trong một bảng không?
 
- Có, bạn có thể hợp nhất các ô trong một bảng bằng cách sử dụng`CellMerge` thuộc tính được cung cấp bởi Aspose.Words.
+Có, bạn có thể hợp nhất các ô trong một bảng bằng cách sử dụng `CellMerge` thuộc tính được cung cấp bởi Aspose.Words.
 
 ### Làm thế nào để xuất bảng của tôi sang các định dạng khác nhau?
 
- Bạn có thể xuất bảng của mình sang các định dạng khác nhau như PDF hoặc DOCX bằng cách sử dụng`save` phương pháp và chỉ định định dạng mong muốn.
+Bạn có thể xuất bảng của mình sang các định dạng khác nhau như PDF hoặc DOCX bằng cách sử dụng `save` phương pháp và chỉ định định dạng mong muốn.
 
 ### Tôi có thể tìm hiểu thêm về Aspose.Words cho Python ở đâu?
 
- Để có tài liệu và tham khảo đầy đủ, hãy truy cập[Tài liệu tham khảo API Aspose.Words cho Python](https://reference.aspose.com/words/python-net/).
+Để có tài liệu và tham khảo đầy đủ, hãy truy cập [Tài liệu tham khảo API Aspose.Words cho Python](https://reference.aspose.com/words/python-net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

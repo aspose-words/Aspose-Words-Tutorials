@@ -1,14 +1,16 @@
 ---
-title: Wstaw obiekt Ole do programu Word za pomocą pakietu Ole
-linktitle: Wstaw obiekt Ole do programu Word za pomocą pakietu Ole
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawiać obiekty OLE do dokumentów Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku, aby bezproblemowo osadzać pliki.
-weight: 10
-url: /pl/net/working-with-oleobjects-and-activex/insert-ole-object-with-ole-package/
+"description": "Dowiedz się, jak wstawiać obiekty OLE do dokumentów Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku, aby bezproblemowo osadzać pliki."
+"linktitle": "Wstaw obiekt Ole do programu Word za pomocą pakietu Ole"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw obiekt Ole do programu Word za pomocą pakietu Ole"
+"url": "/pl/net/working-with-oleobjects-and-activex/insert-ole-object-with-ole-package/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw obiekt Ole do programu Word za pomocą pakietu Ole
@@ -21,7 +23,7 @@ Jeśli kiedykolwiek chciałeś osadzić plik w dokumencie Word, jesteś we wła�
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
-1. Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz je ze strony[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz je ze strony [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub inne środowisko programistyczne .NET.
 3. Podstawowa znajomość języka C#: Nie musisz być ekspertem, ale dobra znajomość języka C# będzie pomocna.
 4. Katalog dokumentów: folder, w którym można przechowywać i wyszukiwać dokumenty.
@@ -76,7 +78,7 @@ using (Stream stream = new MemoryStream(bs))
 }
 ```
 
- Tutaj tworzymy strumień pamięci z tablicy bajtów i używamy`InsertOleObject` metodę osadzania go w dokumencie. Ustawiamy również nazwę pliku i nazwę wyświetlaną dla osadzonego obiektu.
+Tutaj tworzymy strumień pamięci z tablicy bajtów i używamy `InsertOleObject` metodę osadzania go w dokumencie. Ustawiamy również nazwę pliku i nazwę wyświetlaną dla osadzonego obiektu.
 
 ## Krok 4: Zapisz swój dokument
 
@@ -98,19 +100,24 @@ I masz! Udało Ci się osadzić obiekt OLE w dokumencie Word za pomocą Aspose.W
 Tak, możesz osadzać różne typy plików, takie jak arkusze Excela, pliki PDF i obrazy.
 
 ### Czy potrzebuję licencji na Aspose.Words?
- Tak, potrzebujesz ważnej licencji. Możesz ją uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do oceny.
+Tak, potrzebujesz ważnej licencji. Możesz ją uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do oceny.
 
 ### Jak mogę dostosować nazwę wyświetlaną obiektu OLE?
- Możesz ustawić`DisplayName` własność`OlePackage` aby go dostosować.
+Możesz ustawić `DisplayName` własność `OlePackage` aby go dostosować.
 
 ### Czy Aspose.Words jest kompatybilny z .NET Core?
 Tak, Aspose.Words obsługuje zarówno .NET Framework, jak i .NET Core.
 
 ### Czy mogę edytować osadzony obiekt OLE w dokumencie Word?
 Nie, nie możesz edytować obiektu OLE bezpośrednio w programie Word. Musisz go otworzyć w jego natywnej aplikacji.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

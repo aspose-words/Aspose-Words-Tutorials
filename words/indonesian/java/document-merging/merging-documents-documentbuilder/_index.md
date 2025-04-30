@@ -1,14 +1,16 @@
 ---
-title: Menggabungkan Dokumen dengan DocumentBuilder
-linktitle: Menggabungkan Dokumen dengan DocumentBuilder
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara memanipulasi dokumen Word dengan Aspose.Words untuk Java. Buat, edit, gabungkan, dan konversi dokumen secara terprogram dalam Java.
-weight: 13
-url: /id/java/document-merging/merging-documents-documentbuilder/
+"description": "Pelajari cara memanipulasi dokumen Word dengan Aspose.Words untuk Java. Buat, edit, gabungkan, dan konversi dokumen secara terprogram dalam Java."
+"linktitle": "Menggabungkan Dokumen dengan DocumentBuilder"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggabungkan Dokumen dengan DocumentBuilder"
+"url": "/id/java/document-merging/merging-documents-documentbuilder/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggabungkan Dokumen dengan DocumentBuilder
@@ -28,7 +30,7 @@ Sebelum memulai proses penggabungan dokumen, pastikan Anda memiliki prasyarat be
 
 ## Memulai
 
- Mari kita mulai dengan membuat proyek Java baru dan menambahkan pustaka Aspose.Words ke dalamnya. Anda dapat mengunduh pustaka tersebut dari[Di Sini](https://releases.aspose.com/words/java/).
+Mari kita mulai dengan membuat proyek Java baru dan menambahkan pustaka Aspose.Words ke dalamnya. Anda dapat mengunduh pustaka tersebut dari [Di Sini](https://releases.aspose.com/words/java/).
 
 ## Membuat Dokumen Baru
 
@@ -99,10 +101,15 @@ Ya, Aspose.Words mendukung berbagai format dokumen, termasuk DOC, RTF, HTML, PDF
 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan sumber daya?
 
- Anda dapat menemukan dokumentasi dan sumber daya yang komprehensif untuk Aspose.Words untuk Java di situs web Aspose:[Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/).
+Anda dapat menemukan dokumentasi dan sumber daya yang komprehensif untuk Aspose.Words untuk Java di situs web Aspose: [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

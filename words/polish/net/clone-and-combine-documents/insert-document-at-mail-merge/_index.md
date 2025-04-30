@@ -1,14 +1,16 @@
 ---
-title: Wstaw dokument do korespondencji seryjnej
-linktitle: Wstaw dokument do korespondencji seryjnej
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawiać dokumenty w polach korespondencji seryjnej za pomocą Aspose.Words for .NET, korzystając z tego kompleksowego samouczka krok po kroku.
-weight: 10
-url: /pl/net/clone-and-combine-documents/insert-document-at-mail-merge/
+"description": "W tym kompleksowym samouczku krok po kroku dowiesz się, jak wstawiać dokumenty w polach korespondencji seryjnej za pomocą Aspose.Words for .NET."
+"linktitle": "Wstaw dokument do korespondencji seryjnej"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw dokument do korespondencji seryjnej"
+"url": "/pl/net/clone-and-combine-documents/insert-document-at-mail-merge/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw dokument do korespondencji seryjnej
@@ -21,7 +23,7 @@ Witamy w świecie automatyzacji dokumentów z Aspose.Words dla .NET! Czy kiedyko
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
-1.  Aspose.Words dla .NET: Możesz[pobierz najnowszą wersję tutaj](https://releases.aspose.com/words/net/) . Jeśli potrzebujesz kupić licencję, możesz to zrobić[Tutaj](https://purchase.aspose.com/buy) Alternatywnie możesz otrzymać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub wypróbuj z[bezpłatny okres próbny](https://releases.aspose.com/).
+1. Aspose.Words dla .NET: Możesz [pobierz najnowszą wersję tutaj](https://releases.aspose.com/words/net/). Jeśli potrzebujesz kupić licencję, możesz to zrobić [Tutaj](https://purchase.aspose.com/buy)Alternatywnie możesz otrzymać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub wypróbuj z [bezpłatny okres próbny](https://releases.aspose.com/).
 2. Środowisko programistyczne: Visual Studio lub inne środowisko IDE C#.
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# sprawi, że zapoznanie się z tym kursem będzie proste.
 
@@ -140,27 +142,32 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 ## Wniosek
 
-I masz to! Udało Ci się wstawić dokumenty do określonych pól podczas operacji korespondencji seryjnej przy użyciu Aspose.Words dla .NET. Ta potężna funkcja może zaoszczędzić Ci mnóstwo czasu i wysiłku, zwłaszcza przy pracy z dużymi wolumenami dokumentów. Pomyśl o tym jak o osobistym asystencie, który wykona za Ciebie całą ciężką robotę. Więc śmiało, spróbuj. Miłego kodowania!
+masz to! Udało Ci się wstawić dokumenty do określonych pól podczas operacji korespondencji seryjnej przy użyciu Aspose.Words dla .NET. Ta potężna funkcja może zaoszczędzić Ci mnóstwo czasu i wysiłku, zwłaszcza przy pracy z dużymi wolumenami dokumentów. Pomyśl o tym jak o osobistym asystencie, który wykona za Ciebie całą ciężką robotę. Więc śmiało, spróbuj. Miłego kodowania!
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę wstawić wiele dokumentów w różnych polach scalania?
-Tak, możesz. Wystarczy określić odpowiednie pola scalania i odpowiadające im ścieżki dokumentów w`MailMerge.Execute` metoda.
+Tak, możesz. Po prostu określ odpowiednie pola scalania i odpowiadające im ścieżki dokumentów w `MailMerge.Execute` metoda.
 
 ### Czy istnieje możliwość sformatowania wstawionego dokumentu inaczej niż dokumentu głównego?
- Oczywiście! Możesz użyć`ImportFormatMode` parametr w`NodeImporter` aby kontrolować formatowanie.
+Oczywiście! Możesz użyć `ImportFormatMode` parametr w `NodeImporter` aby kontrolować formatowanie.
 
 ### A co jeśli nazwa pola scalania jest dynamiczna?
-Można obsługiwać dynamiczne nazwy pól scalania, przekazując je jako parametry do funkcji obsługi wywołania zwrotnego.
+Można obsługiwać dynamiczne nazwy pól scalania, przekazując je jako parametry do obsługi wywołania zwrotnego.
 
 ### Czy mogę stosować tę metodę do różnych formatów plików?
 Tak, Aspose.Words obsługuje różne formaty plików, w tym DOCX, PDF i inne.
 
 ### Jak postępować w przypadku błędów podczas wstawiania dokumentu?
 Zaimplementuj obsługę błędów w programie obsługi wywołań zwrotnych, aby zarządzać wszelkimi wyjątkami, które mogą wystąpić.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

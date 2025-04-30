@@ -1,14 +1,16 @@
 ---
-title: การใช้รายการใน Aspose.Words สำหรับ Java
-linktitle: การใช้รายการ
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้การใช้รายการใน Aspose.Words สำหรับ Java ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ จัดระเบียบและจัดรูปแบบเอกสารของคุณอย่างมีประสิทธิภาพ
-weight: 18
-url: /th/java/using-document-elements/using-lists/
+"description": "เรียนรู้การใช้รายการใน Aspose.Words สำหรับ Java ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ จัดระเบียบและจัดรูปแบบเอกสารของคุณอย่างมีประสิทธิภาพ"
+"linktitle": "การใช้รายการ"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การใช้รายการใน Aspose.Words สำหรับ Java"
+"url": "/th/java/using-document-elements/using-lists/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การใช้รายการใน Aspose.Words สำหรับ Java
@@ -22,7 +24,7 @@ url: /th/java/using-document-elements/using-lists/
 
 ### การตั้งค่าสภาพแวดล้อมของคุณ
 
- ในการเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งและตั้งค่า Aspose.Words สำหรับ Java ในสภาพแวดล้อมการพัฒนาของคุณแล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/java/). 
+ในการเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งและตั้งค่า Aspose.Words สำหรับ Java ในสภาพแวดล้อมการพัฒนาของคุณแล้ว คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/java/). 
 
 ## การเริ่มต้นรายการใหม่ในแต่ละส่วน
 
@@ -38,7 +40,7 @@ Document doc = new Document();
 ```
 
 ### เพิ่มรายการหมายเลข: 
-เพิ่มรายการหมายเลขลงในเอกสารของคุณ เราจะใช้รูปแบบหมายเลขเริ่มต้น
+เพิ่มรายการที่มีหมายเลขลงในเอกสารของคุณ เราจะใช้รูปแบบหมายเลขเริ่มต้น
 
 ```java
 doc.getLists().add(ListTemplate.NUMBER_DEFAULT);
@@ -171,7 +173,7 @@ builder.getDocument().save(outPath + "SpecifyListLevel.docx");
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
         // สร้างรายการที่มีหมายเลขโดยอิงจากเทมเพลตรายการ Microsoft Word หนึ่งรายการ
-        //และนำมาใช้กับย่อหน้าปัจจุบันของตัวสร้างเอกสาร
+        // และนำมาใช้กับย่อหน้าปัจจุบันของตัวสร้างเอกสาร
         builder.getListFormat().setList(doc.getLists().add(ListTemplate.NUMBER_ARABIC_DOT));
         // รายการนี้มีทั้งหมด 9 ระดับ มาลองเล่นให้ครบทุกระดับกันเลย
         for (int i = 0; i < 9; i++)
@@ -180,7 +182,7 @@ builder.getDocument().save(outPath + "SpecifyListLevel.docx");
             builder.writeln("Level " + i);
         }
         // สร้างรายการแบบมีหัวข้อย่อยโดยอิงจากเทมเพลตรายการของ Microsoft Word
-        //และนำมาใช้กับย่อหน้าปัจจุบันของตัวสร้างเอกสาร
+        // และนำมาใช้กับย่อหน้าปัจจุบันของตัวสร้างเอกสาร
         builder.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DIAMONDS));
         for (int i = 0; i < 9; i++)
         {
@@ -222,12 +224,12 @@ builder.getDocument().save(outPath + "SpecifyListLevel.docx");
 
 ขอแสดงความยินดี! คุณได้เรียนรู้วิธีการทำงานกับรายการใน Aspose.Words สำหรับ Java อย่างมีประสิทธิภาพแล้ว รายการมีความสำคัญต่อการจัดระเบียบและนำเสนอเนื้อหาในเอกสารของคุณ ไม่ว่าคุณจะต้องเริ่มรายการใหม่ในแต่ละส่วนหรือระบุระดับรายการ Aspose.Words สำหรับ Java ก็มีเครื่องมือที่คุณต้องการเพื่อสร้างเอกสารที่ดูเป็นมืออาชีพ
 
-ตอนนี้คุณสามารถใช้ฟีเจอร์เหล่านี้ได้อย่างมั่นใจเพื่อเพิ่มประสิทธิภาพการสร้างและจัดรูปแบบเอกสารของคุณ หากคุณมีคำถามหรือต้องการความช่วยเหลือเพิ่มเติม โปรดอย่าลังเลที่จะติดต่อ[ฟอรั่มชุมชน Aspose](https://forum.aspose.com/) เพื่อรองรับ
+ตอนนี้คุณสามารถใช้ฟีเจอร์เหล่านี้ได้อย่างมั่นใจเพื่อเพิ่มประสิทธิภาพการสร้างและจัดรูปแบบเอกสารของคุณ หากคุณมีคำถามหรือต้องการความช่วยเหลือเพิ่มเติม โปรดอย่าลังเลที่จะติดต่อ [ฟอรั่มชุมชน Aspose](https://forum.aspose.com/) เพื่อรองรับ
 
 ## คำถามที่พบบ่อย
 
 ### ฉันจะติดตั้ง Aspose.Words สำหรับ Java ได้อย่างไร?
- คุณสามารถดาวน์โหลด Aspose.Words สำหรับ Java ได้จาก[ที่นี่](https://releases.aspose.com/words/java/) และปฏิบัติตามคำแนะนำการติดตั้งในเอกสารประกอบ
+คุณสามารถดาวน์โหลด Aspose.Words สำหรับ Java ได้จาก [ที่นี่](https://releases.aspose.com/words/java/) และปฏิบัติตามคำแนะนำในการติดตั้งที่อยู่ในเอกสาร
 
 ### ฉันสามารถปรับแต่งรูปแบบการนับหมายเลขของรายการได้หรือไม่
 ใช่ Aspose.Words สำหรับ Java มีตัวเลือกมากมายสำหรับการปรับแต่งรูปแบบการนับรายการ คุณสามารถดูรายละเอียดเพิ่มเติมได้ในเอกสารประกอบ API
@@ -239,11 +241,16 @@ builder.getDocument().save(outPath + "SpecifyListLevel.docx");
 แน่นอน! Aspose.Words สำหรับ Java รองรับการจัดรูปแบบเอกสารขั้นสูง รวมถึงตาราง รูปภาพ และอื่นๆ อีกมากมาย ตรวจสอบเอกสารเพื่อดูตัวอย่าง
 
 ### ฉันสามารถรับใบอนุญาตชั่วคราวสำหรับ Aspose.Words สำหรับ Java ได้จากที่ใด
-คุณสามารถขอใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+คุณสามารถขอใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

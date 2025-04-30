@@ -1,14 +1,16 @@
 ---
-title: Разделение документов с помощью Content Builder для точности
-linktitle: Разделение документов с помощью Content Builder для точности
-second_title: API управления документами Python Aspose.Words
-description: Разделяйте и властвуйте над своими документами с точностью, используя Aspose.Words для Python. Узнайте, как использовать Content Builder для эффективного извлечения и организации контента.
-weight: 11
-url: /ru/python-net/document-splitting-and-formatting/divide-documents-content-builder/
+"description": "Разделяйте и властвуйте над своими документами с точностью, используя Aspose.Words для Python. Узнайте, как использовать Content Builder для эффективного извлечения и организации контента."
+"linktitle": "Разделение документов с помощью Content Builder для точности"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Разделение документов с помощью Content Builder для точности"
+"url": "/ru/python-net/document-splitting-and-formatting/divide-documents-content-builder/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Разделение документов с помощью Content Builder для точности
@@ -24,7 +26,7 @@ Aspose.Words для Python предоставляет надежный API дл�
 
 Прежде чем углубляться в реализацию, давайте настроим Aspose.Words для Python.
 
-1.  Установка: Установите библиотеку Aspose.Words с помощью`pip`:
+1. Установка: Установите библиотеку Aspose.Words с помощью `pip`:
    
    ```python
    pip install aspose-words
@@ -41,7 +43,7 @@ Aspose.Words для Python предоставляет надежный API дл�
 Начнем с создания нового документа Word с помощью Aspose.Words для Python.
 
 ```python
-# Create a new document
+# Создать новый документ
 doc = aw.Document()
 ```
 
@@ -52,12 +54,12 @@ doc = aw.Document()
 ```python
 builder = aw.DocumentBuilder(doc)
 
-# Add a title
+# Добавить заголовок
 builder.bold()
 builder.font.size = 16
 builder.write("Document Precision with Content Builder\n\n")
 
-# Add an introduction
+# Добавить введение
 builder.font.clear_formatting()
 builder.writeln("Dividing documents is essential for maintaining precision and organization in lengthy content.")
 builder.writeln("In this tutorial, we will explore how to use the Content Builder module to achieve this.")
@@ -68,18 +70,18 @@ builder.writeln("In this tutorial, we will explore how to use the Content Builde
 Теперь основная функциональность – разделение документа на разделы. Мы будем использовать Content Builder для вставки разрывов разделов.
 
 ```python
-# Insert a section break
+# Вставить разрыв раздела
 builder.insert_break(aw.BreakType.SECTION_BREAK_NEW_PAGE)
 ```
 
- Вы можете вставлять различные типы разрывов разделов в зависимости от ваших требований, например:`SECTION_BREAK_NEW_PAGE`, `SECTION_BREAK_CONTINUOUS` , или`SECTION_BREAK_EVEN_PAGE`.
+Вы можете вставлять различные типы разрывов разделов в зависимости от ваших требований, например: `SECTION_BREAK_NEW_PAGE`, `SECTION_BREAK_CONTINUOUS`, или `SECTION_BREAK_EVEN_PAGE`.
 
 ## Пример использования: создание резюме
 
 Давайте рассмотрим практический пример использования: создание резюме (CV) с отдельными разделами.
 
 ```python
-# Add CV sections
+# Добавить разделы резюме
 sections = ["Personal Information", "Education", "Work Experience", "Skills", "References"]
 
 for section in sections:
@@ -95,7 +97,7 @@ for section in sections:
 ## Часто задаваемые вопросы
 
 ### Как установить Aspose.Words для Python?
- Установить его можно с помощью команды:`pip install aspose-words`.
+Установить его можно с помощью команды: `pip install aspose-words`.
 
 ### Какие типы разрывов разделов доступны?
 Aspose.Words для Python предоставляет различные типы разрывов разделов, такие как новая страница, непрерывный и даже разрывы страниц.
@@ -107,11 +109,16 @@ Aspose.Words для Python предоставляет различные тип�
 Конечно! Aspose.Words для Python широко используется для создания различных типов отчетов и документов с точным форматированием.
 
 ### Где я могу получить доступ к документации и загрузкам?
- Посетите[Документация Aspose.Words для Python](https://reference.aspose.com/words/python-net/) и скачать библиотеку с[Релизы Python Aspose.Words](https://releases.aspose.com/words/python/).
+Посетите [Документация Aspose.Words для Python](https://reference.aspose.com/words/python-net/) и скачать библиотеку с [Релизы Python Aspose.Words](https://releases.aspose.com/words/python/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

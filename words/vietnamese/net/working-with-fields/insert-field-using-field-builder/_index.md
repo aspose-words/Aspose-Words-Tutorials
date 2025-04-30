@@ -1,27 +1,29 @@
 ---
-title: Chèn Trường Sử dụng Trình tạo Trường
-linktitle: Chèn Trường Sử dụng Trình tạo Trường
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn trường động vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển.
-weight: 10
-url: /vi/net/working-with-fields/insert-field-using-field-builder/
+"description": "Tìm hiểu cách chèn trường động vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển."
+"linktitle": "Chèn Trường Sử Dụng Trình Tạo Trường"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn Trường Sử Dụng Trình Tạo Trường"
+"url": "/vi/net/working-with-fields/insert-field-using-field-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chèn Trường Sử dụng Trình tạo Trường
+# Chèn Trường Sử Dụng Trình Tạo Trường
 
 ## Giới thiệu
 
-Xin chào! Bạn đã bao giờ thấy mình bối rối, tự hỏi làm thế nào để chèn các trường động vào tài liệu Word theo chương trình chưa? Vâng, đừng lo lắng nữa! Trong hướng dẫn này, chúng ta sẽ khám phá những điều kỳ diệu của Aspose.Words for .NET, một thư viện mạnh mẽ cho phép bạn tạo, thao tác và chuyển đổi tài liệu Word một cách liền mạch. Cụ thể, chúng ta sẽ hướng dẫn cách chèn các trường bằng Field Builder. Hãy bắt đầu nào!
+Xin chào! Bạn đã bao giờ thấy mình bối rối, tự hỏi làm thế nào để chèn các trường động vào tài liệu Word theo chương trình chưa? Vâng, đừng lo lắng nữa! Trong hướng dẫn này, chúng ta sẽ khám phá những điều kỳ diệu của Aspose.Words for .NET, một thư viện mạnh mẽ cho phép bạn tạo, thao tác và chuyển đổi tài liệu Word một cách liền mạch. Cụ thể, chúng ta sẽ hướng dẫn cách chèn các trường bằng Field Builder. Hãy bắt đầu thôi!
 
 ## Điều kiện tiên quyết
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn đã có mọi thứ mình cần:
 
-1. Aspose.Words cho .NET: Bạn sẽ cần phải cài đặt Aspose.Words cho .NET. Nếu bạn chưa làm điều đó, bạn có thể lấy nó[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Bạn sẽ cần phải cài đặt Aspose.Words cho .NET. Nếu bạn chưa làm điều đó, bạn có thể lấy nó [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Một môi trường phát triển phù hợp như Visual Studio.
 3. Kiến thức cơ bản về C#: Sẽ rất hữu ích nếu bạn quen thuộc với kiến thức cơ bản về C# và .NET.
 
@@ -61,7 +63,7 @@ Document doc = new Document();
 FieldBuilder là thành phần chính ở đây. Nó cho phép chúng ta xây dựng các trường một cách động.
 
 ```csharp
-//Xây dựng trường IF bằng FieldBuilder.
+// Xây dựng trường IF bằng FieldBuilder.
 FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldIf)
     .AddArgument("left expression")
     .AddArgument("=")
@@ -113,19 +115,24 @@ Xin chúc mừng! Bạn vừa học được cách chèn trường động vào 
 Aspose.Words for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tài liệu Word theo chương trình bằng C#.
 
 ### Tôi có thể sử dụng Aspose.Words miễn phí không?
- Aspose.Words cung cấp bản dùng thử miễn phí mà bạn có thể tải xuống[đây](https://releases.aspose.com/) . Để sử dụng lâu dài, bạn sẽ cần phải mua giấy phép[đây](https://purchase.aspose.com/buy).
+Aspose.Words cung cấp bản dùng thử miễn phí mà bạn có thể tải xuống [đây](https://releases.aspose.com/). Để sử dụng lâu dài, bạn sẽ cần phải mua giấy phép [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể chèn những loại trường nào bằng FieldBuilder?
- FieldBuilder hỗ trợ nhiều trường, bao gồm IF, MERGEFIELD và nhiều trường khác. Bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/words/net/).
+FieldBuilder hỗ trợ nhiều trường, bao gồm IF, MERGEFIELD và nhiều trường khác. Bạn có thể tìm thấy tài liệu chi tiết [đây](https://reference.aspose.com/words/net/).
 
 ### Làm thế nào để cập nhật một trường sau khi chèn nó?
- Bạn có thể cập nhật một trường bằng cách sử dụng`Update` phương pháp như đã trình bày trong hướng dẫn.
+Bạn có thể cập nhật một trường bằng cách sử dụng `Update` phương pháp như đã trình bày trong hướng dẫn.
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Words ở đâu?
- Nếu có bất kỳ câu hỏi hoặc hỗ trợ nào, hãy truy cập diễn đàn hỗ trợ Aspose.Words[đây](https://forum.aspose.com/c/words/8).
+Nếu có bất kỳ câu hỏi hoặc hỗ trợ nào, hãy truy cập diễn đàn hỗ trợ Aspose.Words [đây](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

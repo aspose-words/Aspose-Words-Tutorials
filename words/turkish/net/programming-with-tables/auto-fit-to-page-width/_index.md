@@ -1,14 +1,16 @@
 ---
-title: Pencereye Otomatik Uyum
-linktitle: Pencereye Otomatik Uyum
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerindeki tabloları pencereye kolayca otomatik olarak sığdırın. Daha temiz, profesyonel belgeler için mükemmeldir.
-weight: 10
-url: /tr/net/programming-with-tables/auto-fit-to-page-width/
+"description": "Bu adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerindeki tabloları pencereye kolayca otomatik olarak sığdırın. Daha temiz, profesyonel belgeler için mükemmeldir."
+"linktitle": "Pencereye Otomatik Uyum"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Pencereye Otomatik Uyum"
+"url": "/tr/net/programming-with-tables/auto-fit-to-page-width/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pencereye Otomatik Uyum
@@ -22,10 +24,10 @@ Word belgelerindeki tabloların sayfaya tam olarak uymamasıyla ilgili hayal kı
 Koda dalmadan önce her şeyin yerli yerinde olduğundan emin olalım:
 
 1. Visual Studio: .NET kodunuzu yazmak ve çalıştırmak için Visual Studio gibi bir IDE'ye ihtiyacınız olacak.
-2.  Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+2. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 3. Temel C# Bilgisi: C# programlama diline aşina olmak, kod parçacıklarını daha kolay anlamanıza yardımcı olacaktır.
 
-Bu ön koşulları yerine getirdikten sonra heyecan verici kısma, yani kodlamaya geçebiliriz!
+Bu ön koşulları tamamladıktan sonra heyecan verici kısma, yani kodlamaya geçebiliriz!
 
 ## Ad Alanlarını İçe Aktar
 
@@ -38,11 +40,11 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
- The`Aspose.Words` namespace, Word belgelerini düzenlemek için çekirdek sınıfları içerirken`Aspose.Words.Tables` özellikle tabloların işlenmesi içindir.
+The `Aspose.Words` namespace, Word belgelerini düzenlemek için çekirdek sınıfları içerirken `Aspose.Words.Tables` özellikle tabloların işlenmesi içindir.
 
 ## Adım 1: Belgenizi Ayarlayın
 
- İlk olarak, otomatik olarak sığdırmak istediğiniz tabloyu içeren Word belgesini yüklemeniz gerekir. Bunun için,`Document` Aspose.Words tarafından sağlanan sınıf.
+İlk olarak, otomatik olarak sığdırmak istediğiniz tabloyu içeren Word belgesini yüklemeniz gerekir. Bunun için, `Document` Aspose.Words tarafından sağlanan sınıf.
 
 ```csharp
 // Belgelerinizin dizinine giden yolu tanımlayın
@@ -52,7 +54,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- Bu adımda, belgenizin depolandığı yolu tanımlarsınız ve onu bir`Document` nesne. Değiştir`"YOUR DOCUMENT DIRECTORY"` Belgenizin bulunduğu gerçek yol ile.
+Bu adımda, belgenizin depolandığı yolu tanımlarsınız ve onu bir `Document` nesne. Değiştir `"YOUR DOCUMENT DIRECTORY"` Belgenizin bulunduğu gerçek yol ile.
 
 ## Adım 2: Tabloya Erişim
 
@@ -74,7 +76,7 @@ Artık tablonuz olduğuna göre, otomatik sığdırma işlevini uygulayabilirsin
 table.AutoFit(AutoFitBehavior.AutoFitToWindow);
 ```
 
- The`AutoFit` yöntem ile`AutoFitBehavior.AutoFitToWindow` tablo genişliğinin sayfanın tüm genişliğine uyacak şekilde ayarlanmasını sağlar.
+The `AutoFit` yöntem ile `AutoFitBehavior.AutoFitToWindow` Tablo genişliğinin sayfanın tüm genişliğine uyacak şekilde ayarlanmasını sağlar.
 
 ## Adım 4: Değiştirilen Belgeyi Kaydedin
 
@@ -106,10 +108,15 @@ Otomatik uyum, belirli sütun genişliklerini geçersiz kılar. Belirli genişli
 Aspose.Words öncelikle Word belgelerini (.docx) destekler. Diğer biçimler için, önce bunları .docx'e dönüştürmeniz gerekebilir.
 
 ### Aspose.Words'ün deneme sürümünü nasıl edinebilirim?  
- Ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
+Ücretsiz deneme sürümünü indirebilirsiniz [Burada](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

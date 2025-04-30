@@ -1,14 +1,16 @@
 ---
-title: Word Belgeleri İçin Kapsamlı İçindekiler Tablosu Oluşturma
-linktitle: Word Belgeleri İçin Kapsamlı İçindekiler Tablosu Oluşturma
-second_title: Aspose.Words Python Belge Yönetim API'si
-description: Aspose.Words for Python ile okuyucu dostu bir içerik tablosu oluşturun. Belgenizin yapısını sorunsuz bir şekilde oluşturmayı, özelleştirmeyi ve güncellemeyi öğrenin.
-weight: 15
-url: /tr/python-net/document-combining-and-comparison/generate-table-contents/
+"description": "Aspose.Words for Python ile okuyucu dostu bir içerik tablosu oluşturun. Belgenizin yapısını sorunsuz bir şekilde oluşturmayı, özelleştirmeyi ve güncellemeyi öğrenin."
+"linktitle": "Word Belgeleri İçin Kapsamlı İçindekiler Tablosu Oluşturma"
+"second_title": "Aspose.Words Python Belge Yönetim API'si"
+"title": "Word Belgeleri İçin Kapsamlı İçindekiler Tablosu Oluşturma"
+"url": "/tr/python-net/document-combining-and-comparison/generate-table-contents/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgeleri İçin Kapsamlı İçindekiler Tablosu Oluşturma
@@ -20,14 +22,14 @@ url: /tr/python-net/document-combining-and-comparison/generate-table-contents/
 
 ## Ortamın Kurulması
 
- Başlamadan önce, Python için Aspose.Words'ün yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/words/python/)Ayrıca, içindekiler tablosuyla zenginleştirmek isteyeceğiniz örnek bir Word belgeniz olduğundan emin olun.
+Başlamadan önce, Python için Aspose.Words'ün yüklü olduğundan emin olun. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/python/)Ayrıca, içindekiler tablosuyla zenginleştirmek isteyeceğiniz örnek bir Word belgeniz olduğundan emin olun.
 
 ## Bir Belgeyi Yükleme
 
 ```python
 import aspose.words as aw
 
-# Load the document
+# Belgeyi yükle
 doc = aw.Document("your_document.docx")
 ```
 
@@ -36,12 +38,12 @@ doc = aw.Document("your_document.docx")
 İçindekiler tablosu oluşturmak için, belgenizdeki başlıkları ve alt başlıkları tanımlamanız gerekir. Bu bölümleri işaretlemek için uygun paragraf stillerini kullanın. Örneğin, ana başlıklar için "Başlık 1" ve alt başlıklar için "Başlık 2" kullanın.
 
 ```python
-# Define headings and subheadings
+# Başlıkları ve alt başlıkları tanımlayın
 for para in doc.get_child_nodes(aw.NodeType.PARAGRAPH, True):
     if para.paragraph_format.style_name == "Heading 1":
-        # Add main heading
+        # Ana başlığı ekle
     elif para.paragraph_format.style_name == "Heading 2":
-        # Add subheading
+        # Alt başlık ekle
 ```
 
 ## İçindekiler Tablosunu Özelleştirme
@@ -49,7 +51,7 @@ for para in doc.get_child_nodes(aw.NodeType.PARAGRAPH, True):
 İçindekiler tablonuzun görünümünü yazı tiplerini, stilleri ve biçimlendirmeyi ayarlayarak özelleştirebilirsiniz. Cilalı bir görünüm için belgeniz boyunca tutarlı biçimlendirme kullandığınızdan emin olun.
 
 ```python
-# Customize the appearance of the table of contents
+# İçindekiler tablosunun görünümünü özelleştirin
 for para in toc_body.get_child_nodes(aw.NodeType.PARAGRAPH, False):
     para.paragraph_format.style_name = "TOC Entries"
 ```
@@ -60,7 +62,7 @@ for para in toc_body.get_child_nodes(aw.NodeType.PARAGRAPH, False):
 İçindekiler tablosunun stilini belirlemek, başlık, girdiler ve diğer öğeler için uygun paragraf stilleri tanımlamayı içerir.
 
 ```python
-# Define styles for the table of contents
+# İçindekiler tablosu için stilleri tanımlayın
 toc_title.style.name = "Table of Contents Title"
 doc.styles.add_style("Table of Contents Title", aw.StyleType.PARAGRAPH)
 ```
@@ -70,14 +72,14 @@ doc.styles.add_style("Table of Contents Title", aw.StyleType.PARAGRAPH)
 Zamandan tasarruf etmek ve tutarlılığı sağlamak için, belgelerinizin içindekiler tablosunu otomatik olarak oluşturan ve güncelleyen bir komut dosyası oluşturmayı düşünün.
 
 ```python
-# Automation script
+# Otomasyon betiği
 def generate_table_of_contents(document_path):
-    # Load the document
+    # Belgeyi yükle
     doc = aw.Document(document_path)
 
-    # ... (Rest of the code)
+    # ... (Kodun geri kalanı)
 
-    # Update the table of contents
+    # İçindekiler tablosunu güncelle
     doc.update_fields()
     doc.save(document_path)
 ```
@@ -103,9 +105,14 @@ Evet, mevcut belgeler için bir içerik tablosu oluşturabilirsiniz. Sadece Aspo
 ### İçindekiler tablosunu belgemden nasıl kaldırabilirim?
 
 İçindekiler tablosunu kaldırmaya karar verirseniz, içindekiler tablosunu içeren bölümü silmeniz yeterlidir. Kalan sayfa numaralarını değişiklikleri yansıtacak şekilde güncellemeyi unutmayın.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

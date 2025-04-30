@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Fields trong Aspose.Words cho Java
-linktitle: Sử dụng các trường
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Mở khóa Tự động hóa Tài liệu với Aspose.Words cho Java. Tìm hiểu cách hợp nhất, định dạng và chèn hình ảnh vào tài liệu Java. Hướng dẫn toàn diện và ví dụ mã để xử lý tài liệu hiệu quả.
-weight: 11
-url: /vi/java/document-manipulation/using-fields/
+"description": "Mở khóa Tự động hóa Tài liệu với Aspose.Words cho Java. Tìm hiểu cách hợp nhất, định dạng và chèn hình ảnh vào tài liệu Java. Hướng dẫn toàn diện và ví dụ mã để xử lý tài liệu hiệu quả."
+"linktitle": "Sử dụng các trường"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng Fields trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/using-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Fields trong Aspose.Words cho Java
@@ -20,7 +22,7 @@ Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách sử d
 
 ## Điều kiện tiên quyết
 
- Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Words for Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/java/).
+Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Words for Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
 
 ## Hợp nhất trường cơ bản
 
@@ -41,7 +43,7 @@ doc.getMailMerge().execute(fieldNames, fieldValues);
 doc.save("MergedDocument.docx");
 ```
 
- Trong mã này, chúng tôi tải một mẫu tài liệu, thiết lập các trường hợp nhất thư và thực hiện hợp nhất.`HandleMergeField` Lớp xử lý các kiểu trường cụ thể như hộp kiểm và nội dung HTML.
+Trong mã này, chúng tôi tải một mẫu tài liệu, thiết lập các trường hợp nhất thư và thực hiện hợp nhất. `HandleMergeField` Lớp xử lý các kiểu trường cụ thể như hộp kiểm và nội dung thân HTML.
 
 ## Các trường có điều kiện
 
@@ -58,7 +60,7 @@ dataTable.getRows().add("James Bond");
 doc.getMailMerge().execute(dataTable);
 ```
 
- Mã này chèn một trường IF và một MERGEFIELD vào bên trong nó. Mặc dù câu lệnh IF là sai, chúng ta đặt`setUnconditionalMergeFieldsAndRegions(true)` để đếm MERGEFIELD bên trong các trường IF có câu lệnh sai trong quá trình trộn thư.
+Mã này chèn một trường IF và một MERGEFIELD vào bên trong nó. Mặc dù câu lệnh IF là sai, chúng ta đặt `setUnconditionalMergeFieldsAndRegions(true)` để đếm MERGEFIELD bên trong các trường IF có câu lệnh sai trong quá trình trộn thư.
 
 ## Làm việc với hình ảnh
 
@@ -91,7 +93,7 @@ doc.getMailMerge().executeWithRegions(dataTable);
 doc.save("FormattedDocument.doc");
 ```
 
- Mã này định dạng các hàng trong một bảng với các màu xen kẽ dựa trên`CompanyName` cánh đồng.
+Mã này định dạng các hàng trong một bảng với các màu xen kẽ dựa trên `CompanyName` cánh đồng.
 
 ## Phần kết luận
 
@@ -113,22 +115,27 @@ Các trường có điều kiện trong Aspose.Words for Java cho phép bạn t�
 
 ### Làm thế nào tôi có thể định dạng các hàng xen kẽ trong bảng bằng Aspose.Words cho Java?
 
- Để định dạng các hàng xen kẽ trong một bảng, bạn có thể sử dụng Aspose.Words for Java để áp dụng định dạng cụ thể cho các hàng dựa trên tiêu chí của bạn. Trong phần "Định dạng hàng xen kẽ", bạn sẽ tìm thấy một ví dụ minh họa cách định dạng các hàng có màu xen kẽ dựa trên`CompanyName` cánh đồng.
+Để định dạng các hàng xen kẽ trong một bảng, bạn có thể sử dụng Aspose.Words for Java để áp dụng định dạng cụ thể cho các hàng dựa trên tiêu chí của bạn. Trong phần "Định dạng hàng xen kẽ", bạn sẽ tìm thấy một ví dụ minh họa cách định dạng các hàng có màu xen kẽ dựa trên `CompanyName` cánh đồng.
 
 ### Tôi có thể tìm thêm tài liệu và tài nguyên về Aspose.Words cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu toàn diện, mẫu mã và hướng dẫn về Aspose.Words for Java trên trang web Aspose:[Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/)Tài nguyên này sẽ giúp bạn khám phá các tính năng và chức năng bổ sung của thư viện.
+Bạn có thể tìm thấy tài liệu toàn diện, mẫu mã và hướng dẫn về Aspose.Words for Java trên trang web Aspose: [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/)Tài nguyên này sẽ giúp bạn khám phá các tính năng và chức năng bổ sung của thư viện.
 
 ### Tôi có thể nhận được hỗ trợ hoặc tìm kiếm trợ giúp với Aspose.Words cho Java như thế nào?
 
- Nếu bạn cần trợ giúp, có thắc mắc hoặc gặp sự cố khi sử dụng Aspose.Words cho Java, bạn có thể truy cập diễn đàn Aspose.Words để được cộng đồng hỗ trợ và thảo luận:[Diễn đàn Aspose.Words](https://forum.aspose.com/c/words).
+Nếu bạn cần trợ giúp, có thắc mắc hoặc gặp sự cố khi sử dụng Aspose.Words cho Java, bạn có thể truy cập diễn đàn Aspose.Words để được cộng đồng hỗ trợ và thảo luận: [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words).
 
 ### Aspose.Words for Java có tương thích với các IDE Java khác không?
 
 Có, Aspose.Words for Java tương thích với nhiều Môi trường phát triển tích hợp Java (IDE) như Eclipse, IntelliJ IDEA và NetBeans. Bạn có thể tích hợp nó vào IDE ưa thích của mình để hợp lý hóa các tác vụ xử lý tài liệu của mình.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

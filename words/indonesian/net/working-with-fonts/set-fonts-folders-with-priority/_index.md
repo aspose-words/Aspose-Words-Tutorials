@@ -1,14 +1,16 @@
 ---
-title: Atur Folder Font Dengan Prioritas
-linktitle: Atur Folder Font Dengan Prioritas
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengatur folder font dengan prioritas dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan kami memastikan dokumen Anda ditampilkan dengan sempurna setiap saat.
-weight: 10
-url: /id/net/working-with-fonts/set-fonts-folders-with-priority/
+"description": "Pelajari cara mengatur folder font dengan prioritas dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan kami memastikan dokumen Anda ditampilkan dengan sempurna setiap saat."
+"linktitle": "Atur Folder Font Dengan Prioritas"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Atur Folder Font Dengan Prioritas"
+"url": "/id/net/working-with-fonts/set-fonts-folders-with-priority/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Atur Folder Font Dengan Prioritas
@@ -21,9 +23,9 @@ Dalam dunia manipulasi dokumen, pengaturan folder font khusus dapat membuat perb
 
 Sebelum kita mulai, mari kita pastikan kita memiliki semua yang kita butuhkan. Berikut ini daftar periksa singkatnya:
 
--  Aspose.Words untuk .NET: Anda perlu menginstal pustaka ini. Jika Anda belum memilikinya, Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Anda perlu menginstal pustaka ini. Jika Anda belum memilikinya, Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Pastikan Anda memiliki lingkungan pengembangan .NET yang berfungsi, seperti Visual Studio.
--  Direktori Dokumen: Pastikan Anda memiliki direktori untuk dokumen Anda. Untuk contoh kita, kita akan menggunakan`"YOUR DOCUMENT DIRECTORY"` sebagai pengganti jalur ini.
+- Direktori Dokumen: Pastikan Anda memiliki direktori untuk dokumen Anda. Untuk contoh kita, kita akan menggunakan `"YOUR DOCUMENT DIRECTORY"` sebagai pengganti jalur ini.
 
 ## Mengimpor Ruang Nama
 
@@ -54,7 +56,7 @@ FontSettings.DefaultInstance.SetFontsSources(new FontSourceBase[]
 
 Dalam contoh ini, kami menetapkan dua sumber font:
 - SystemFontSource: Ini adalah sumber font default yang mencakup semua font yang terinstal pada sistem Anda.
--  FolderFontSource: Ini adalah folder font kustom yang terletak di`C:\\MyFonts\\` . Itu`true` parameter menentukan bahwa folder ini harus dipindai secara rekursif, dan`1` menetapkan prioritasnya.
+- FolderFontSource: Ini adalah folder font kustom yang terletak di `C:\\MyFonts\\`. Itu `true` parameter menentukan bahwa folder ini harus dipindai secara rekursif, dan `1` menetapkan prioritasnya.
 
 ## Langkah 2: Muat Dokumen Anda
 
@@ -64,7 +66,7 @@ Selanjutnya, muat dokumen yang ingin Anda kerjakan. Pastikan dokumen tersebut be
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Baris kode ini memuat dokumen bernama`Rendering.docx` dari direktori dokumen Anda.
+Baris kode ini memuat dokumen bernama `Rendering.docx` dari direktori dokumen Anda.
 
 ## Langkah 3: Simpan Dokumen Anda dengan Pengaturan Font Baru
 
@@ -74,7 +76,7 @@ Terakhir, simpan dokumen Anda. Saat Anda menyimpan dokumen, Aspose.Words akan me
 doc.Save(dataDir + "WorkingWithFonts.SetFontsFoldersWithPriority.pdf");
 ```
 
- Ini menyimpan dokumen sebagai PDF di direktori dokumen Anda dengan nama`WorkingWithFonts.SetFontsFoldersWithPriority.pdf`.
+Ini menyimpan dokumen sebagai PDF di direktori dokumen Anda dengan nama `WorkingWithFonts.SetFontsFoldersWithPriority.pdf`.
 
 ## Kesimpulan
 
@@ -96,9 +98,14 @@ Font sistem selalu disertakan secara default, tetapi Anda dapat mengatur priorit
 
 ### Apakah mungkin menggunakan jalur jaringan untuk folder font khusus?
 Ya, Anda dapat menentukan jalur jaringan sebagai folder font kustom, yang memungkinkan Anda memusatkan sumber daya font pada lokasi jaringan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

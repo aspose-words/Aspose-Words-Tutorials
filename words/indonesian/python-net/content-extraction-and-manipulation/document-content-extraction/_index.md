@@ -1,14 +1,16 @@
 ---
-title: Ekstraksi Konten yang Efisien dalam Dokumen Word
-linktitle: Ekstraksi Konten yang Efisien dalam Dokumen Word
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Ekstrak konten dari dokumen Word secara efisien menggunakan Aspose.Words untuk Python. Pelajari langkah demi langkah dengan contoh kode.
-weight: 11
-url: /id/python-net/content-extraction-and-manipulation/document-content-extraction/
+"description": "Ekstrak konten dari dokumen Word secara efisien menggunakan Aspose.Words untuk Python. Pelajari langkah demi langkah dengan contoh kode."
+"linktitle": "Ekstraksi Konten yang Efisien dalam Dokumen Word"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Ekstraksi Konten yang Efisien dalam Dokumen Word"
+"url": "/id/python-net/content-extraction-and-manipulation/document-content-extraction/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekstraksi Konten yang Efisien dalam Dokumen Word
@@ -20,7 +22,7 @@ Mengekstrak konten dari dokumen Word secara efisien merupakan persyaratan umum d
 
 ## Prasyarat
 
- Sebelum kita menyelami kodenya, pastikan Anda telah menginstal Python dan pustaka Aspose.Words. Anda dapat mengunduh pustaka tersebut dari situs web[Di Sini](https://releases.aspose.com/words/python/)Selain itu, pastikan Anda memiliki dokumen Word yang siap untuk pengujian.
+Sebelum kita menyelami kodenya, pastikan Anda telah menginstal Python dan pustaka Aspose.Words. Anda dapat mengunduh pustaka tersebut dari situs web [Di Sini](https://releases.aspose.com/words/python/)Selain itu, pastikan Anda memiliki dokumen Word yang siap untuk pengujian.
 
 ## Menginstal Aspose.Words untuk Python
 
@@ -103,7 +105,7 @@ Ekstraksi konten yang efisien dari dokumen Word dapat dilakukan dengan Aspose.Wo
 
 ### Bagaimana cara menginstal Aspose.Words untuk Python?
 
- Untuk menginstal Aspose.Words untuk Python, gunakan perintah berikut:`pip install aspose-words`.
+Untuk menginstal Aspose.Words untuk Python, gunakan perintah berikut: `pip install aspose-words`.
 
 ### Bisakah saya mengekstrak gambar dan teks secara bersamaan?
 
@@ -119,10 +121,15 @@ Ya, Anda dapat mengekstrak konten dari header dan footer menggunakan kode yang s
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Words untuk Python?
 
- Untuk dokumentasi dan referensi yang lengkap, kunjungi[Di Sini](https://reference.aspose.com/words/python-net/).
+Untuk dokumentasi dan referensi yang lengkap, kunjungi [Di Sini](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

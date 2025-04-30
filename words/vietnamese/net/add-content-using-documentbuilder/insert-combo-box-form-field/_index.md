@@ -1,14 +1,16 @@
 ---
-title: Chèn Trường Biểu Mẫu Hộp Kết Hợp Vào Tài Liệu Word
-linktitle: Chèn Trường Biểu Mẫu Hộp Kết Hợp Vào Tài Liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn trường biểu mẫu hộp kết hợp vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi.
-weight: 10
-url: /vi/net/add-content-using-documentbuilder/insert-combo-box-form-field/
+"description": "Tìm hiểu cách chèn trường biểu mẫu hộp kết hợp vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi."
+"linktitle": "Chèn Trường Biểu Mẫu Hộp Kết Hợp Vào Tài Liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn Trường Biểu Mẫu Hộp Kết Hợp Vào Tài Liệu Word"
+"url": "/vi/net/add-content-using-documentbuilder/insert-combo-box-form-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn Trường Biểu Mẫu Hộp Kết Hợp Vào Tài Liệu Word
@@ -21,10 +23,10 @@ Xin chào! Bạn đã sẵn sàng để đắm mình vào thế giới tự đ�
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo bạn có mọi thứ cần thiết. Sau đây là danh sách kiểm tra nhanh để giúp bạn chuẩn bị và sẵn sàng:
 
-1.  Aspose.Words cho .NET: Trước hết, bạn cần thư viện Aspose.Words cho .NET. Nếu bạn chưa tải xuống, bạn có thể lấy nó từ[Trang Tải xuống Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Trước hết, bạn cần thư viện Aspose.Words cho .NET. Nếu bạn chưa tải xuống, bạn có thể lấy nó từ [Trang Tải xuống Aspose](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Đảm bảo bạn đã thiết lập môi trường phát triển bằng Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ .NET.
 3. Hiểu biết cơ bản về C#: Mặc dù hướng dẫn này dành cho người mới bắt đầu, nhưng việc hiểu biết cơ bản về C# sẽ giúp mọi việc trở nên dễ dàng hơn.
-4.  Giấy phép tạm thời (Tùy chọn): Nếu bạn muốn khám phá đầy đủ các tính năng mà không có giới hạn, bạn có thể muốn có một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+4. Giấy phép tạm thời (Tùy chọn): Nếu bạn muốn khám phá đầy đủ các tính năng mà không có giới hạn, bạn có thể muốn có một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 Với những điều kiện tiên quyết này, bạn đã sẵn sàng bắt đầu cuộc hành trình thú vị này!
 
@@ -50,7 +52,7 @@ Trước tiên, hãy thiết lập đường dẫn đến thư mục nơi tài l
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tài liệu của mình. Bước này đảm bảo rằng tài liệu của bạn được lưu ở đúng vị trí.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tài liệu của mình. Bước này đảm bảo rằng tài liệu của bạn được lưu ở đúng vị trí.
 
 ## Bước 2: Xác định các mục trong hộp kết hợp
 
@@ -64,7 +66,7 @@ Trong ví dụ này, chúng tôi đã tạo một mảng có ba mục: "Một", 
 
 ## Bước 3: Tạo một tài liệu mới
 
- Bây giờ, chúng ta hãy tạo một phiên bản mới của`Document` lớp. Đây là tài liệu Word mà chúng ta sẽ làm việc.
+Bây giờ, chúng ta hãy tạo một phiên bản mới của `Document` lớp. Đây là tài liệu Word mà chúng ta sẽ làm việc.
 
 ```csharp
 Document doc = new Document();
@@ -74,17 +76,17 @@ Dòng mã này khởi tạo một tài liệu Word mới, trống.
 
 ## Bước 4: Khởi tạo DocumentBuilder
 
- Để thêm nội dung vào tài liệu của chúng tôi, chúng tôi sẽ sử dụng`DocumentBuilder` Lớp này cung cấp một cách thuận tiện để chèn nhiều thành phần khác nhau vào tài liệu Word.
+Để thêm nội dung vào tài liệu của chúng tôi, chúng tôi sẽ sử dụng `DocumentBuilder` Lớp này cung cấp một cách thuận tiện để chèn nhiều thành phần khác nhau vào tài liệu Word.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Bằng cách tạo ra một trường hợp của`DocumentBuilder` và chuyển tài liệu của chúng ta vào đó, chúng ta đã sẵn sàng để bắt đầu thêm nội dung.
+Bằng cách tạo ra một trường hợp của `DocumentBuilder` và chuyển tài liệu của chúng ta vào đó, chúng ta đã sẵn sàng để bắt đầu thêm nội dung.
 
 ## Bước 5: Chèn Trường Biểu mẫu Hộp Kết hợp
 
- Đây là nơi phép thuật xảy ra. Chúng ta sẽ sử dụng`InsertComboBox` phương pháp thêm trường biểu mẫu hộp kết hợp vào tài liệu của chúng ta.
+Đây là nơi phép thuật xảy ra. Chúng ta sẽ sử dụng `InsertComboBox` phương pháp thêm trường biểu mẫu hộp kết hợp vào tài liệu của chúng ta.
 
 ```csharp
 builder.InsertComboBox("DropDown", items, 0);
@@ -93,7 +95,7 @@ builder.InsertComboBox("DropDown", items, 0);
 Trong dòng này:
 - `"DropDown"` là tên của hộp kết hợp.
 - `items` là mảng các mục chúng ta đã xác định trước đó.
-- `0`là chỉ mục của mục được chọn mặc định (trong trường hợp này là "Một").
+- `0` là chỉ mục của mục được chọn mặc định (trong trường hợp này là "Một").
 
 ## Bước 6: Lưu tài liệu
 
@@ -103,7 +105,7 @@ Cuối cùng, hãy lưu tài liệu của chúng ta. Bước này sẽ ghi tất
 doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
 ```
 
- Thay thế`dataDir` với đường dẫn bạn đã thiết lập trước đó. Thao tác này sẽ lưu tài liệu với tên đã chỉ định trong thư mục bạn đã chọn.
+Thay thế `dataDir` với đường dẫn bạn đã thiết lập trước đó. Thao tác này sẽ lưu tài liệu với tên đã chỉ định trong thư mục bạn đã chọn.
 
 ## Phần kết luận
 
@@ -124,10 +126,15 @@ Không, nhưng giấy phép tạm thời cho phép bạn khám phá đầy đủ
 Có, Aspose.Words hỗ trợ nhiều trường biểu mẫu như hộp văn bản, hộp kiểm, v.v.
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?  
- Bạn có thể tìm thấy tài liệu chi tiết về[Trang tài liệu Aspose.Words](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu chi tiết về [Trang tài liệu Aspose.Words](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

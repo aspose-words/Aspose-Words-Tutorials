@@ -1,14 +1,16 @@
 ---
-title: Документ владельца
-linktitle: Документ владельца
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как работать с «Документом владельца» в Aspose.Words для .NET. Это пошаговое руководство охватывает создание и управление узлами в документе.
-weight: 10
-url: /ru/net/working-with-node/owner-document/
+"description": "Узнайте, как работать с «Документом владельца» в Aspose.Words для .NET. Это пошаговое руководство охватывает создание и управление узлами в документе."
+"linktitle": "Документ владельца"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Документ владельца"
+"url": "/ru/net/working-with-node/owner-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Документ владельца
@@ -21,7 +23,7 @@ url: /ru/net/working-with-node/owner-document/
 
 Прежде чем начать, давайте убедимся, что у нас есть все необходимое. Вот краткий контрольный список:
 
-1.  Библиотека Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words for .NET. Вы можете скачать ее[здесь](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words for .NET. Вы можете скачать ее [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: IDE, например Visual Studio, для написания и выполнения кода.
 3. Базовые знания C#: это руководство предполагает, что у вас есть базовые знания программирования на C#.
 
@@ -62,7 +64,7 @@ Paragraph para = new Paragraph(doc);
 Console.WriteLine("Paragraph has no parent node: " + (para.ParentNode == null));
 ```
 
- Это выведет`true` поскольку параграфу еще не назначен родительский элемент.
+Это выведет `true` поскольку параграфу еще не назначен родительский элемент.
 
 ## Шаг 4: Проверка права собственности на документ
 
@@ -98,7 +100,7 @@ doc.FirstSection.Body.AppendChild(para);
 Console.WriteLine("Paragraph has a parent node: " + (para.ParentNode != null));
 ```
 
- Это выведет`true`, подтверждая, что абзац успешно добавлен в документ.
+Это выведет `true`, подтверждая, что абзац успешно добавлен в документ.
 
 ## Заключение
 
@@ -113,16 +115,21 @@ Console.WriteLine("Paragraph has a parent node: " + (para.ParentNode != null));
 Нет, каждый узел в Aspose.Words for .NET должен принадлежать документу. Это гарантирует, что узлы могут получить доступ к свойствам и данным, специфичным для документа.
 
 ### Как проверить, есть ли у узла родительский элемент?  
-Вы можете проверить, есть ли у узла родительский узел, обратившись к его`ParentNode` свойство. Если он возвращается`null`, узел не имеет родителя.
+Вы можете проверить, есть ли у узла родительский узел, обратившись к его `ParentNode` свойство. Если он возвращается `null`, узел не имеет родителя.
 
 ### Можно ли изменить свойства узла, не добавляя его в документ?  
 Да, пока узел принадлежит документу, вы можете изменять его свойства, даже если он еще не добавлен в документ.
 
 ### Что произойдет, если я добавлю узел в другой документ?  
 Узел может принадлежать только одному документу. Если вы попытаетесь добавить его в другой документ, вам нужно будет создать новый узел в новом документе.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

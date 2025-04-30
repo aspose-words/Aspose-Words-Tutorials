@@ -1,14 +1,16 @@
 ---
-title: Daftar Mulai Ulang Di Setiap Bagian
-linktitle: Daftar Mulai Ulang Di Setiap Bagian
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memulai ulang daftar di setiap bagian dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah terperinci kami untuk mengelola daftar secara efektif.
-weight: 10
-url: /id/net/working-with-list/restart-list-at-each-section/
+"description": "Pelajari cara memulai ulang daftar di setiap bagian dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah terperinci kami untuk mengelola daftar secara efektif."
+"linktitle": "Daftar Mulai Ulang Di Setiap Bagian"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Daftar Mulai Ulang Di Setiap Bagian"
+"url": "/id/net/working-with-list/restart-list-at-each-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Daftar Mulai Ulang Di Setiap Bagian
@@ -21,10 +23,10 @@ Membuat dokumen yang terstruktur dan terorganisasi dengan baik terkadang terasa 
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1.  Aspose.Words untuk .NET: Unduh dan instal versi terbaru dari[Rilis Aspose](https://releases.aspose.com/words/net/) halaman.
+1. Aspose.Words untuk .NET: Unduh dan instal versi terbaru dari [Rilis Aspose](https://releases.aspose.com/words/net/) halaman.
 2. Lingkungan .NET: Siapkan lingkungan pengembangan Anda dengan .NET terinstal.
 3. Pemahaman Dasar tentang C#: Disarankan untuk terbiasa dengan bahasa pemrograman C#.
-4.  Lisensi Aspose: Anda dapat memilih[lisensi sementara](https://purchase.aspose.com/temporary-license/) jika Anda tidak memilikinya.
+4. Lisensi Aspose: Anda dapat memilih [lisensi sementara](https://purchase.aspose.com/temporary-license/) jika Anda tidak memilikinya.
 
 ## Mengimpor Ruang Nama
 
@@ -57,7 +59,7 @@ doc.Lists.Add(ListTemplate.NumberDefault);
 
 ## Langkah 3: Akses Daftar dan Tetapkan Properti Restart
 
-Ambil daftar yang baru saja Anda buat dan atur`IsRestartAtEachSection`properti untuk`true`Ini memastikan daftar memulai ulang penomoran di setiap bagian baru.
+Ambil daftar yang baru saja Anda buat dan atur `IsRestartAtEachSection` properti untuk `true`Ini memastikan daftar memulai ulang penomoran di setiap bagian baru.
 
 ```csharp
 List list = doc.Lists[0];
@@ -66,7 +68,7 @@ list.IsRestartAtEachSection = true;
 
 ## Langkah 4: Buat Pembuat Dokumen dan Kaitkan Daftar
 
- Membuat sebuah`DocumentBuilder` untuk memasukkan konten ke dalam dokumen dan mengaitkannya dengan daftar.
+Membuat sebuah `DocumentBuilder` untuk memasukkan konten ke dalam dokumen dan mengaitkannya dengan daftar.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -106,7 +108,7 @@ Nah, itu dia! Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah memu
 Ya, Aspose.Words untuk .NET memungkinkan Anda memulai ulang berbagai jenis daftar, termasuk daftar berpoin dan bernomor.
 
 ### Bagaimana jika saya ingin menyesuaikan format penomoran?
- Anda dapat menyesuaikan format penomoran dengan memodifikasi`ListTemplate` properti saat membuat daftar.
+Anda dapat menyesuaikan format penomoran dengan memodifikasi `ListTemplate` properti saat membuat daftar.
 
 ### Apakah ada batasan jumlah item dalam daftar?
 Tidak, tidak ada batasan khusus untuk jumlah item yang dapat Anda miliki dalam daftar menggunakan Aspose.Words untuk .NET.
@@ -115,10 +117,15 @@ Tidak, tidak ada batasan khusus untuk jumlah item yang dapat Anda miliki dalam d
 Ya, Anda dapat menggunakan Aspose.Words untuk mengonversi dokumen Word ke format lain seperti PDF sambil mempertahankan struktur daftar.
 
 ### Bagaimana saya bisa mendapatkan uji coba gratis Aspose.Words untuk .NET?
- Anda bisa mendapatkan uji coba gratis dari[Rilis Aspose](https://releases.aspose.com/) halaman.
+Anda bisa mendapatkan uji coba gratis dari [Rilis Aspose](https://releases.aspose.com/) halaman.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

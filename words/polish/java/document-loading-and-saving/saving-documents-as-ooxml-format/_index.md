@@ -1,14 +1,16 @@
 ---
-title: Zapisywanie dokumentów w formacie OOXML w Aspose.Words dla Java
-linktitle: Zapisywanie dokumentów w formacie OOXML
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak zapisywać dokumenty w formacie OOXML za pomocą Aspose.Words dla Java. Bezproblemowo zabezpieczaj, optymalizuj i dostosowuj swoje pliki.
-weight: 20
-url: /pl/java/document-loading-and-saving/saving-documents-as-ooxml-format/
+"description": "Dowiedz się, jak zapisywać dokumenty w formacie OOXML za pomocą Aspose.Words dla Java. Bezproblemowo zabezpieczaj, optymalizuj i dostosowuj swoje pliki."
+"linktitle": "Zapisywanie dokumentów w formacie OOXML"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Zapisywanie dokumentów w formacie OOXML w Aspose.Words dla Java"
+"url": "/pl/java/document-loading-and-saving/saving-documents-as-ooxml-format/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zapisywanie dokumentów w formacie OOXML w Aspose.Words dla Java
@@ -16,7 +18,7 @@ url: /pl/java/document-loading-and-saving/saving-documents-as-ooxml-format/
 
 ## Wprowadzenie do zapisywania dokumentów w formacie OOXML w Aspose.Words dla Java
 
-W tym przewodniku przyjrzymy się sposobowi zapisywania dokumentów w formacie OOXML przy użyciu Aspose.Words for Java. OOXML (Office Open XML) to format pliku używany przez Microsoft Word i inne aplikacje biurowe. Omówimy różne opcje i ustawienia zapisywania dokumentów w formacie OOXML.
+tym przewodniku przyjrzymy się sposobowi zapisywania dokumentów w formacie OOXML przy użyciu Aspose.Words for Java. OOXML (Office Open XML) to format pliku używany przez Microsoft Word i inne aplikacje biurowe. Omówimy różne opcje i ustawienia zapisywania dokumentów w formacie OOXML.
 
 ## Wymagania wstępne
 
@@ -93,7 +95,7 @@ import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.SaveFormat;
 
-//Załaduj dokument ze starszymi znakami kontrolnymi
+// Załaduj dokument ze starszymi znakami kontrolnymi
 Document doc = new Document("LegacyControlChars.doc");
 
 // Utwórz OoxmlSaveOptions z formatem FLAT_OPC i włącz zachowywanie starszych znaków kontrolnych
@@ -168,24 +170,29 @@ public void setCompressionLevel() throws Exception
 
 ## Wniosek
 
-tym kompleksowym przewodniku przyjrzeliśmy się sposobom zapisywania dokumentów w formacie OOXML przy użyciu Aspose.Words for Java. Niezależnie od tego, czy musisz zaszyfrować dokumenty hasłami, zapewnić zgodność ze szczególnymi standardami OOXML, zaktualizować właściwości dokumentu, zachować starsze znaki kontrolne lub dostosować poziomy kompresji, Aspose.Words zapewnia wszechstronny zestaw narzędzi, aby spełnić Twoje wymagania.
+W tym kompleksowym przewodniku przyjrzeliśmy się sposobom zapisywania dokumentów w formacie OOXML przy użyciu Aspose.Words for Java. Niezależnie od tego, czy musisz zaszyfrować dokumenty hasłami, zapewnić zgodność ze szczególnymi standardami OOXML, zaktualizować właściwości dokumentu, zachować starsze znaki kontrolne lub dostosować poziomy kompresji, Aspose.Words zapewnia wszechstronny zestaw narzędzi, aby spełnić Twoje wymagania.
 
 ## Najczęściej zadawane pytania
 
-### Jak usunąć zabezpieczenie hasłem z dokumentu chronionego hasłem?
+### Jak usunąć ochronę hasłem z dokumentu chronionego hasłem?
 
 Aby usunąć ochronę hasłem z dokumentu chronionego hasłem, możesz otworzyć dokument z prawidłowym hasłem, a następnie zapisać go bez określania hasła w opcjach zapisywania. Spowoduje to zapisanie dokumentu bez ochrony hasłem.
 
 ### Czy mogę ustawić niestandardowe właściwości podczas zapisywania dokumentu w formacie OOXML?
 
- Tak, możesz ustawić niestandardowe właściwości dokumentu przed zapisaniem go w formacie OOXML. Użyj`BuiltInDocumentProperties` I`CustomDocumentProperties` klasy umożliwiające ustawienie różnych właściwości, takich jak autor, tytuł, słowa kluczowe i właściwości niestandardowe.
+Tak, możesz ustawić niestandardowe właściwości dokumentu przed zapisaniem go w formacie OOXML. Użyj `BuiltInDocumentProperties` I `CustomDocumentProperties` klasy umożliwiające ustawienie różnych właściwości, takich jak autor, tytuł, słowa kluczowe i właściwości niestandardowe.
 
 ### Jaki jest domyślny poziom kompresji przy zapisywaniu dokumentu w formacie OOXML?
 
- Domyślny poziom kompresji podczas zapisywania dokumentu w formacie OOXML przy użyciu Aspose.Words dla Java to`NORMAL` . Możesz zmienić poziom kompresji na`SUPER_FAST` Lub`MAXIMUM` w razie potrzeby.
+Domyślny poziom kompresji podczas zapisywania dokumentu w formacie OOXML przy użyciu Aspose.Words dla Java to `NORMAL`. Możesz zmienić poziom kompresji na `SUPER_FAST` Lub `MAXIMUM` w razie potrzeby.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

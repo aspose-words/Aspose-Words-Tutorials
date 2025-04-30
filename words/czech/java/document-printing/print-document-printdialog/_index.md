@@ -1,45 +1,47 @@
 ---
-title: Tisk dokumentu pomocí PrintDialog
-linktitle: Tisk dokumentu pomocí PrintDialog
-second_title: Aspose.Words Java Document Processing API
-description: Naučte se tisknout dokumenty pomocí Aspose.Words for Java s PrintDialog. Upravte nastavení, vytiskněte konkrétní stránky a další v tomto podrobném průvodci.
-weight: 14
-url: /cs/java/document-printing/print-document-printdialog/
+"description": "Naučte se, jak tisknout dokumenty pomocí Aspose.Words pro Javu s PrintDialog. V tomto podrobném návodu si můžete přizpůsobit nastavení, vytisknout konkrétní stránky a provést další kroky."
+"linktitle": "Tisk dokumentu pomocí PrintDialogu"
+"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
+"title": "Tisk dokumentu pomocí PrintDialogu"
+"url": "/cs/java/document-printing/print-document-printdialog/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tisk dokumentu pomocí PrintDialog
+# Tisk dokumentu pomocí PrintDialogu
 
 
 
 ## Zavedení
 
-Tisk dokumentů je běžným požadavkem mnoha aplikací Java. Aspose.Words for Java zjednodušuje tento úkol tím, že poskytuje pohodlné API pro manipulaci s dokumenty a tisk.
+Tisk dokumentů je běžným požadavkem v mnoha aplikacích Java. Aspose.Words pro Javu tento úkol zjednodušuje tím, že poskytuje pohodlné API pro manipulaci s dokumenty a tisk.
 
 ## Předpoklady
 
-Než se ponoříme do kódu, ujistěte se, že máte splněny následující předpoklady:
+Než se pustíme do kódu, ujistěte se, že máte splněny následující předpoklady:
 
-- Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovanou Java.
--  Aspose.Words for Java: Knihovnu si můžete stáhnout z[zde](https://releases.aspose.com/words/java/).
+- Vývojová sada pro Javu (JDK): Ujistěte se, že máte v systému nainstalovanou Javu.
+- Aspose.Words pro Javu: Knihovnu si můžete stáhnout z [zde](https://releases.aspose.com/words/java/).
 
-## Nastavení vašeho projektu Java
+## Nastavení projektu v Javě
 
-Chcete-li začít, vytvořte nový projekt Java ve vašem preferovaném integrovaném vývojovém prostředí (IDE). Ujistěte se, že máte nainstalovaný JDK.
+Chcete-li začít, vytvořte nový projekt Java ve vámi preferovaném integrovaném vývojovém prostředí (IDE). Ujistěte se, že máte nainstalovaný JDK.
 
-## Přidání Aspose.Words pro Java do vašeho projektu
+## Přidání Aspose.Words pro Javu do vašeho projektu
 
-Chcete-li ve svém projektu použít Aspose.Words for Java, postupujte takto:
+Chcete-li ve svém projektu použít Aspose.Words pro Javu, postupujte takto:
 
-- Stáhněte si knihovnu Aspose.Words for Java z webu.
-- Přidejte soubor JAR do cesty třídy vašeho projektu.
+- Stáhněte si knihovnu Aspose.Words pro Javu z webových stránek.
+- Přidejte soubor JAR do cesty tříd vašeho projektu.
 
-## Tisk dokumentu pomocí PrintDialog
+## Tisk dokumentu pomocí PrintDialogu
 
-Nyní napíšeme nějaký Java kód pro tisk dokumentu pomocí PrintDialog pomocí Aspose.Words. Níže je uveden základní příklad:
+Nyní si napišme kód v Javě pro tisk dokumentu s PrintDialog pomocí Aspose.Words. Níže je uveden základní příklad:
 
 ```java
 import com.aspose.words.Document;
@@ -48,10 +50,10 @@ import java.awt.print.PrinterJob;
 
 public class PrintDocumentWithDialog {
     public static void main(String[] args) throws Exception {
-        // Vložte dokument
+        // Načíst dokument
         Document doc = new Document("sample.docx");
 
-        // Inicializujte PrinterSettings
+        // Inicializace nastavení tiskárny
         PrinterSettings settings = new PrinterSettings();
 
         // Zobrazit dialogové okno tisku
@@ -63,21 +65,21 @@ public class PrintDocumentWithDialog {
 }
 ```
 
- V tomto kódu nejprve načteme dokument pomocí Aspose.Words a poté inicializujeme PrinterSettings. Používáme`showPrintDialog()` způsob zobrazení PrintDialog uživateli. Jakmile uživatel zvolí svá nastavení tisku, vytiskneme dokument pomocí`doc.print(settings)`.
+V tomto kódu nejprve načteme dokument pomocí Aspose.Words a poté inicializujeme PrinterSettings. Použijeme `showPrintDialog()` metoda pro zobrazení PrintDialog uživateli. Jakmile si uživatel vybere nastavení tisku, vytiskneme dokument pomocí `doc.print(settings)`.
 
-## Přizpůsobení nastavení tisku
+## Úprava nastavení tisku
 
-Nastavení tisku můžete upravit tak, aby vyhovovalo vašim specifickým požadavkům. Aspose.Words for Java poskytuje různé možnosti řízení procesu tisku, jako je nastavení okrajů stránky, výběr tiskárny a další. Podrobné informace o přizpůsobení naleznete v dokumentaci.
+Nastavení tisku si můžete přizpůsobit podle svých specifických požadavků. Aspose.Words pro Javu nabízí různé možnosti pro řízení procesu tisku, jako je nastavení okrajů stránky, výběr tiskárny a další. Podrobné informace o přizpůsobení naleznete v dokumentaci.
 
 ## Závěr
 
-V této příručce jsme prozkoumali, jak vytisknout dokument pomocí PrintDialog pomocí Aspose.Words for Java. Tato knihovna zjednodušuje manipulaci s dokumenty a tisk pro vývojáře v jazyce Java a šetří čas a námahu při úlohách souvisejících s dokumenty.
+V této příručce jsme prozkoumali, jak vytisknout dokument pomocí PrintDialog pomocí knihovny Aspose.Words pro Javu. Tato knihovna usnadňuje vývojářům v Javě manipulaci s dokumenty a jejich tisk, což šetří čas a úsilí při úkolech souvisejících s dokumenty.
 
-## Nejčastější dotazy
+## Často kladené otázky
 
 ### Jak mohu nastavit orientaci stránky pro tisk?
 
- Chcete-li nastavit orientaci stránky (na výšku nebo na šířku) pro tisk, můžete použít`PageSetup` třídy v Aspose.Words. Zde je příklad:
+Chcete-li nastavit orientaci stránky (na výšku nebo na šířku) pro tisk, můžete použít `PageSetup` třída v Aspose.Words. Zde je příklad:
 
 ```java
 Document doc = new Document("sample.docx");
@@ -87,7 +89,7 @@ pageSetup.setOrientation(Orientation.LANDSCAPE);
 
 ### Mohu vytisknout konkrétní stránky z dokumentu?
 
- Ano, můžete vytisknout konkrétní stránky z dokumentu zadáním rozsahu stránek v`PrinterSettings` objekt. Zde je příklad:
+Ano, můžete vytisknout konkrétní stránky z dokumentu zadáním rozsahu stránek v `PrinterSettings` objekt. Zde je příklad:
 
 ```java
 PrinterSettings settings = new PrinterSettings();
@@ -96,7 +98,7 @@ settings.setPageRange("1-3, 5");
 
 ### Jak mohu změnit velikost papíru pro tisk?
 
-Chcete-li změnit velikost papíru pro tisk, můžete použít`PageSetup` třídu a nastavte`PaperSize` vlastnictví. Zde je příklad:
+Chcete-li změnit velikost papíru pro tisk, můžete použít `PageSetup` třídu a nastavit `PaperSize` vlastnost. Zde je příklad:
 
 ```java
 Document doc = new Document("sample.docx");
@@ -104,16 +106,21 @@ PageSetup pageSetup = doc.getFirstSection().getPageSetup();
 pageSetup.setPaperSize(PaperSize.A4);
 ```
 
-### Je Aspose.Words for Java kompatibilní s různými operačními systémy?
+### Je Aspose.Words pro Javu kompatibilní s různými operačními systémy?
 
-Ano, Aspose.Words for Java je kompatibilní s různými operačními systémy, včetně Windows, Linux a macOS.
+Ano, Aspose.Words pro Javu je kompatibilní s různými operačními systémy, včetně Windows, Linuxu a macOS.
 
 ### Kde najdu další dokumentaci a příklady?
 
- Obsáhlou dokumentaci a příklady pro Aspose.Words pro Java můžete najít na webu:[Aspose.Words pro dokumentaci Java](https://reference.aspose.com/words/java/).
+Komplexní dokumentaci a příklady pro Aspose.Words pro Javu naleznete na webových stránkách: [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

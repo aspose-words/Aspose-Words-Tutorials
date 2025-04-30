@@ -1,14 +1,16 @@
 ---
-title: ตั้งค่ารหัสผู้ให้บริการลายเซ็นในเอกสาร Word
-linktitle: ตั้งค่ารหัสผู้ให้บริการลายเซ็นในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: ตั้งค่า ID ผู้ให้บริการลายเซ็นในเอกสาร Word อย่างปลอดภัยโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำโดยละเอียด 2,000 คำของเราเพื่อลงนามในเอกสารของคุณแบบดิจิทัล
-weight: 10
-url: /th/net/programming-with-digital-signatures/set-signature-provider-id/
+"description": "ตั้งค่า ID ผู้ให้บริการลายเซ็นในเอกสาร Word อย่างปลอดภัยโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำโดยละเอียด 2,000 คำของเราเพื่อลงนามเอกสารของคุณในรูปแบบดิจิทัล"
+"linktitle": "ตั้งค่ารหัสผู้ให้บริการลายเซ็นในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ตั้งค่ารหัสผู้ให้บริการลายเซ็นในเอกสาร Word"
+"url": "/th/net/programming-with-digital-signatures/set-signature-provider-id/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตั้งค่ารหัสผู้ให้บริการลายเซ็นในเอกสาร Word
@@ -21,10 +23,10 @@ url: /th/net/programming-with-digital-signatures/set-signature-provider-id/
 
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1. Aspose.Words สำหรับไลบรารี .NET: หากคุณยังไม่ได้ทำ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับไลบรารี .NET: หากคุณยังไม่ได้ทำ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE ที่เข้ากันได้กับ C#
 3. เอกสาร Word: เอกสารที่มีบรรทัดลายเซ็น (`Signature line.docx`-
-4.  ใบรับรองดิจิทัล: A`.pfx` ไฟล์ใบรับรอง (เช่น`morzal.pfx`-
+4. ใบรับรองดิจิทัล: A `.pfx` ไฟล์ใบรับรอง (เช่น `morzal.pfx`-
 5. ความรู้พื้นฐานเกี่ยวกับ C#: พื้นฐานเท่านั้น ไม่ต้องกังวล เราพร้อมช่วยเหลือคุณ!
 
 ตอนนี้เรามาเริ่มดำเนินการกันเลย!
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Signature line.docx");
 ```
 
- ที่นี่เราจะระบุไดเรกทอรีที่เอกสารของคุณตั้งอยู่ แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงไปยังเอกสารของคุณ
+ที่นี่เราจะระบุไดเรกทอรีที่เอกสารของคุณตั้งอยู่ แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงไปยังเอกสารของคุณ
 
 ## ขั้นตอนที่ 2: เข้าถึงสายลายเซ็น
 
@@ -60,7 +62,7 @@ Document doc = new Document(dataDir + "Signature line.docx");
 SignatureLine signatureLine = ((Shape)doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true)).SignatureLine;
 ```
 
- บรรทัดโค้ดนี้รับรูปร่างแรกในเนื้อหาของส่วนแรกของเอกสารและส่งไปยัง`SignatureLine` วัตถุ.
+บรรทัดโค้ดนี้รับรูปร่างแรกในเนื้อหาของส่วนแรกของเอกสารและส่งไปยัง `SignatureLine` วัตถุ.
 
 ## ขั้นตอนที่ 3: ตั้งค่าตัวเลือกป้าย
 
@@ -78,38 +80,38 @@ SignOptions signOptions = new SignOptions
 
 ## ขั้นตอนที่ 4: โหลดใบรับรอง
 
- หากต้องการลงนามในเอกสารแบบดิจิทัล คุณจะต้องมีใบรับรอง นี่คือวิธีการโหลดเอกสารของคุณ`.pfx` ไฟล์:
+หากต้องการลงนามในเอกสารแบบดิจิทัล คุณจะต้องมีใบรับรอง นี่คือวิธีการโหลดเอกสารของคุณ `.pfx` ไฟล์:
 
 ```csharp
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
 ```
 
- แทนที่`"aw"` พร้อมรหัสผ่านสำหรับไฟล์ใบรับรองของคุณ หากมี
+แทนที่ `"aw"` พร้อมรหัสผ่านสำหรับไฟล์ใบรับรองของคุณ หากมี
 
 ## ขั้นตอนที่ 5: ลงนามในเอกสาร
 
- ในที่สุด ก็ถึงเวลาลงนามเอกสารโดยใช้`DigitalSignatureUtil.Sign` วิธี.
+ในที่สุด ก็ถึงเวลาลงนามเอกสารโดยใช้ `DigitalSignatureUtil.Sign` วิธี.
 
 ```csharp
 DigitalSignatureUtil.Sign(dataDir + "Digitally signed.docx",
     dataDir + "SignDocuments.SetSignatureProviderId.docx", certHolder, signOptions);
 ```
 
- การดำเนินการนี้จะลงนามในเอกสารของคุณและบันทึกเป็นไฟล์ใหม่`Digitally signed.docx`.
+การดำเนินการนี้จะลงนามในเอกสารของคุณและบันทึกเป็นไฟล์ใหม่ `Digitally signed-docx`.
 
 ## บทสรุป
 
-และแล้วคุณก็ทำได้! คุณได้ตั้งค่า Signature Provider ID ในเอกสาร Word สำเร็จแล้วโดยใช้ Aspose.Words สำหรับ .NET กระบวนการนี้ไม่เพียงแต่จะรักษาความปลอดภัยเอกสารของคุณเท่านั้น แต่ยังช่วยให้แน่ใจว่าเอกสารนั้นเป็นไปตามมาตรฐานลายเซ็นดิจิทัลอีกด้วย ตอนนี้ ลองทำกับเอกสารของคุณดู มีคำถามหรือไม่? ดูคำถามที่พบบ่อยด้านล่างหรือไปที่[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/words/8).
+และแล้วคุณก็ทำได้! คุณได้ตั้งค่า Signature Provider ID ในเอกสาร Word สำเร็จแล้วโดยใช้ Aspose.Words สำหรับ .NET กระบวนการนี้ไม่เพียงแต่จะรักษาความปลอดภัยเอกสารของคุณเท่านั้น แต่ยังช่วยให้แน่ใจว่าเอกสารนั้นเป็นไปตามมาตรฐานลายเซ็นดิจิทัลอีกด้วย ตอนนี้ ลองทำกับเอกสารของคุณดู มีคำถามหรือไม่? ดูคำถามที่พบบ่อยด้านล่างหรือไปที่ [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/words/8).
 
 ## คำถามที่พบบ่อย
 
 ### Signature Provider ID คืออะไร?
 
-รหัสผู้ให้บริการลายเซ็นจะระบุผู้ให้บริการลายเซ็นดิจิทัลอย่างชัดเจน ทำให้มั่นใจได้ถึงความถูกต้องและปลอดภัย
+รหัสผู้ให้บริการลายเซ็นจะระบุผู้ให้บริการลายเซ็นดิจิทัลอย่างชัดเจน ทำให้มั่นใจถึงความถูกต้องและปลอดภัย
 
 ### ฉันสามารถใช้ไฟล์ .pfx สำหรับการลงนามได้หรือไม่
 
-ใช่ ตราบใดที่เป็นใบรับรองดิจิทัลที่ถูกต้อง ตรวจสอบให้แน่ใจว่าคุณมีรหัสผ่านที่ถูกต้องหากได้รับการป้องกัน
+ใช่ ตราบใดที่เป็นใบรับรองดิจิทัลที่ถูกต้อง ตรวจสอบว่าคุณมีรหัสผ่านที่ถูกต้องหากได้รับการป้องกัน
 
 ### ฉันจะได้รับไฟล์ .pfx ได้อย่างไร?
 
@@ -121,11 +123,16 @@ DigitalSignatureUtil.Sign(dataDir + "Digitally signed.docx",
 
 ### จะเกิดอะไรขึ้นหากฉันไม่มีบรรทัดลายเซ็นในเอกสารของฉัน?
 
-คุณจะต้องแทรกบรรทัดลายเซ็นก่อน Aspose.Words มีวิธีการต่างๆ เพื่อเพิ่มบรรทัดลายเซ็นโดยโปรแกรม
+คุณจะต้องแทรกบรรทัดลายเซ็นก่อน Aspose.Words มีวิธีการเพิ่มบรรทัดลายเซ็นโดยโปรแกรม
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

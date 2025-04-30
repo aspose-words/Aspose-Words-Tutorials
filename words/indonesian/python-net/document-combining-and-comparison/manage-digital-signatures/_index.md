@@ -1,14 +1,16 @@
 ---
-title: Mengelola Tanda Tangan Digital dan Keaslian
-linktitle: Mengelola Tanda Tangan Digital dan Keaslian
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari cara mengelola tanda tangan digital dan memastikan keaslian dokumen menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber.
-weight: 17
-url: /id/python-net/document-combining-and-comparison/manage-digital-signatures/
+"description": "Pelajari cara mengelola tanda tangan digital dan memastikan keaslian dokumen menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber."
+"linktitle": "Mengelola Tanda Tangan Digital dan Keaslian"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Mengelola Tanda Tangan Digital dan Keaslian"
+"url": "/id/python-net/document-combining-and-comparison/manage-digital-signatures/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengelola Tanda Tangan Digital dan Keaslian
@@ -103,9 +105,14 @@ Aspose.Words mendukung sertifikat X.509, termasuk file PFX, yang umum digunakan 
 ### Apakah tanda tangan digital sah secara hukum?
 
 Ya, tanda tangan digital sah secara hukum di banyak negara dan sering dianggap setara dengan tanda tangan tulisan tangan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

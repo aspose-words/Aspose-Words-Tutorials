@@ -1,14 +1,16 @@
 ---
-title: वर्ड डॉक्यूमेंट में पुराने ऑब्जेक्ट को आइकन के रूप में डालें
-linktitle: वर्ड डॉक्यूमेंट में पुराने ऑब्जेक्ट को आइकन के रूप में डालें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में आइकन के रूप में OLE ऑब्जेक्ट सम्मिलित करना सीखें। अपने दस्तावेज़ों को बेहतर बनाने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में आइकन के रूप में OLE ऑब्जेक्ट सम्मिलित करना सीखें। अपने दस्तावेज़ों को बेहतर बनाने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "वर्ड डॉक्यूमेंट में पुराने ऑब्जेक्ट को आइकन के रूप में डालें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड डॉक्यूमेंट में पुराने ऑब्जेक्ट को आइकन के रूप में डालें"
+"url": "/hi/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड डॉक्यूमेंट में पुराने ऑब्जेक्ट को आइकन के रूप में डालें
@@ -21,7 +23,7 @@ url: /hi/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon/
 
 इससे पहले कि हम विस्तृत विवरण में उतरें, आइए जानें कि आपको क्या चाहिए:
 
-1.  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET इंस्टॉल है। अगर आपने इसे अभी तक इंस्टॉल नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं।[Aspose रिलीज़ पेज](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET इंस्टॉल है। अगर आपने इसे अभी तक इंस्टॉल नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं। [Aspose रिलीज़ पेज](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: आपको विजुअल स्टूडियो जैसे एकीकृत विकास वातावरण (IDE) की आवश्यकता है।
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग की बुनियादी समझ उपयोगी होगी।
 
@@ -49,15 +51,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## चरण 2: OLE ऑब्जेक्ट को आइकन के रूप में सम्मिलित करें
 
- अब, OLE ऑब्जेक्ट को एक आइकन के रूप में डालें।`InsertOleObjectAsIcon` इस उद्देश्य के लिए DocumentBuilder वर्ग की विधि का उपयोग किया जाता है।
+अब, OLE ऑब्जेक्ट को एक आइकन के रूप में सम्मिलित करते हैं। `InsertOleObjectAsIcon` इस उद्देश्य के लिए DocumentBuilder वर्ग की विधि का उपयोग किया जाता है।
 
 ```csharp
 builder.InsertOleObjectAsIcon("path_to_your_presentation.pptx", false, "path_to_your_icon.ico", "My embedded file");
 ```
 
 आइये इस विधि को समझें:
-- `"path_to_your_presentation.pptx"`: यह उस OLE ऑब्जेक्ट का पथ है जिसे आप एम्बेड करना चाहते हैं।
-- `false` : यह बूलियन पैरामीटर निर्दिष्ट करता है कि OLE ऑब्जेक्ट को आइकन के रूप में प्रदर्शित किया जाए या नहीं। चूँकि हम एक आइकन चाहते हैं, इसलिए हम इसे सेट करते हैं`false`.
+- `"path_to_your_presentation.pptx"`यह उस OLE ऑब्जेक्ट का पथ है जिसे आप एम्बेड करना चाहते हैं।
+- `false`: यह बूलियन पैरामीटर निर्दिष्ट करता है कि OLE ऑब्जेक्ट को आइकन के रूप में प्रदर्शित किया जाए या नहीं। चूँकि हम एक आइकन चाहते हैं, इसलिए हम इसे सेट करते हैं `false`.
 - `"path_to_your_icon.ico"`: यह उस आइकन फ़ाइल का पथ है जिसे आप OLE ऑब्जेक्ट के लिए उपयोग करना चाहते हैं।
 - `"My embedded file"`: यह वह लेबल है जो आइकन के नीचे दिखाई देगा।
 
@@ -73,7 +75,7 @@ doc.Save(dataDir + "WorkingWithOleObjectsAndActiveX.InsertOleObjectAsIcon.docx")
 
 ## निष्कर्ष
 
-बधाई हो! आपने सफलतापूर्वक सीख लिया है कि Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में एक OLE ऑब्जेक्ट को आइकन के रूप में कैसे सम्मिलित किया जाए। यह तकनीक न केवल जटिल ऑब्जेक्ट को एम्बेड करने में मदद करती है बल्कि आपके दस्तावेज़ को साफ-सुथरा और पेशेवर भी रखती है।
+बधाई हो! आपने सफलतापूर्वक सीख लिया है कि Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में एक OLE ऑब्जेक्ट को आइकन के रूप में कैसे सम्मिलित किया जाए। यह तकनीक न केवल जटिल ऑब्जेक्ट को एम्बेड करने में मदद करती है, बल्कि आपके दस्तावेज़ को साफ-सुथरा और पेशेवर भी रखती है।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
@@ -83,7 +85,7 @@ doc.Save(dataDir + "WorkingWithOleObjectsAndActiveX.InsertOleObjectAsIcon.docx")
 
 ### मैं .NET के लिए Aspose.Words का निःशुल्क परीक्षण कैसे प्राप्त कर सकता हूँ?
 
- आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं[Aspose रिलीज़ पेज](https://releases.aspose.com/).
+आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं [Aspose रिलीज़ पेज](https://releases.aspose.com/).
 
 ### OLE ऑब्जेक्ट क्या है?
 
@@ -91,14 +93,19 @@ OLE (ऑब्जेक्ट लिंकिंग और एम्बेडि
 
 ### क्या मुझे .NET के लिए Aspose.Words का उपयोग करने के लिए लाइसेंस की आवश्यकता है?
 
- हां, .NET के लिए Aspose.Words को लाइसेंस की आवश्यकता होती है। आप इसे यहाँ से खरीद सकते हैं[Aspose खरीद पृष्ठ](https://purchase.aspose.com/buy) या प्राप्त करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) मूल्यांकन हेतु.
+हां, .NET के लिए Aspose.Words को लाइसेंस की आवश्यकता होती है। आप इसे यहाँ से खरीद सकते हैं [Aspose खरीद पृष्ठ](https://purchase.aspose.com/buy) या प्राप्त करें [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) मूल्यांकन हेतु.
 
 ### मैं .NET के लिए Aspose.Words पर अधिक ट्यूटोरियल कहां पा सकता हूं?
 
- आप अधिक ट्यूटोरियल और दस्तावेज़ यहाँ पा सकते हैं[Aspose दस्तावेज़ीकरण पृष्ठ](https://reference.aspose.com/words/net/).
+आप अधिक ट्यूटोरियल और दस्तावेज़ यहाँ पा सकते हैं [Aspose दस्तावेज़ीकरण पृष्ठ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,30 +1,32 @@
 ---
-title: Použití Markdown v Aspose.Words pro Java
-linktitle: Pomocí Markdown
-second_title: Aspose.Words Java Document Processing API
-description: Naučte se používat Markdown v Aspose.Words pro Java pomocí tohoto podrobného návodu. Vytvářejte, upravujte a ukládejte dokumenty Markdown bez námahy.
-weight: 19
-url: /cs/java/using-document-elements/using-markdown/
+"description": "Naučte se používat Markdown v Aspose.Words pro Javu s tímto podrobným návodem. Vytvářejte, upravujte a ukládejte dokumenty Markdown bez námahy."
+"linktitle": "Používání Markdownu"
+"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
+"title": "Použití Markdownu v Aspose.Words pro Javu"
+"url": "/cs/java/using-document-elements/using-markdown/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Použití Markdown v Aspose.Words pro Java
+# Použití Markdownu v Aspose.Words pro Javu
 
 
-Ve světě zpracování dokumentů je Aspose.Words for Java mocným nástrojem, který umožňuje vývojářům pracovat s dokumenty aplikace Word bez námahy. Jednou z jeho funkcí je schopnost generovat dokumenty Markdown, díky čemuž je univerzální pro různé aplikace. V tomto tutoriálu vás provedeme procesem používání Markdown v Aspose.Words for Java.
+Ve světě zpracování dokumentů je Aspose.Words pro Javu výkonným nástrojem, který vývojářům umožňuje bez námahy pracovat s dokumenty Wordu. Jednou z jeho funkcí je schopnost generovat dokumenty v Markdownu, díky čemuž je všestranný pro různé aplikace. V tomto tutoriálu vás provedeme procesem používání Markdownu v Aspose.Words pro Javu.
 
 ## Předpoklady
 
-Než se ponoříme do kódu, ujistěte se, že máte splněny následující předpoklady:
+Než se pustíme do kódu, ujistěte se, že máte splněny následující předpoklady:
 
-### Aspose.Words for Java 
-Měli byste mít nainstalovanou a nastavenou knihovnu Aspose.Words for Java ve svém vývojovém prostředí.
+### Aspose.Words pro Javu 
+Měli byste mít ve svém vývojovém prostředí nainstalovanou a nastavenou knihovnu Aspose.Words pro Javu.
 
-### Vývojové prostředí Java 
-Ujistěte se, že máte vývojové prostředí Java připravené k použití.
+### Vývojové prostředí v Javě 
+Ujistěte se, že máte připravené vývojové prostředí Java k použití.
 
 ## Nastavení prostředí
 
@@ -37,13 +39,13 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Styl vašeho dokumentu
+## Stylizace dokumentu
 
-této části probereme, jak aplikovat styly na váš dokument Markdown. Pokryjeme nadpisy, důraz, seznamy a další.
+této části si probereme, jak aplikovat styly na dokument Markdown. Probereme nadpisy, zdůraznění, seznamy a další.
 
 ### Nadpisy
 
-Nadpisy markdown jsou nezbytné pro strukturování vašeho dokumentu. Pro hlavní nadpis použijeme styl "Nadpis 1".
+Nadpisy v Markdownu jsou nezbytné pro strukturování dokumentu. Pro hlavní nadpis použijeme styl „Nadpis 1“.
 
 ```java
 builder.getParagraphFormat().setStyleName("Heading 1");
@@ -52,7 +54,7 @@ builder.writeln("Heading 1");
 
 ### Důraz
 
-Text v Markdown můžete zdůraznit pomocí různých stylů, jako je kurzíva, tučné a přeškrtnuté.
+Text v Markdownu můžete zvýraznit pomocí různých stylů, jako je kurzíva, tučné písmo a přeškrtnutí.
 
 ```java
 builder.getFont().setItalic(true);
@@ -70,7 +72,7 @@ builder.getFont().setStrikeThrough(false);
 
 ### Seznamy
 
-Markdown podporuje uspořádané a neuspořádané seznamy. Zde upřesníme seřazený seznam.
+Markdown podporuje seřazené i neuspořádané seznamy. Zde si vybereme seřazený seznam.
 
 ```java
 builder.getListFormat().applyNumberDefault();
@@ -78,7 +80,7 @@ builder.getListFormat().applyNumberDefault();
 
 ### Citáty
 
-Citáty jsou vynikajícím způsobem, jak zvýraznit text v Markdown.
+Citace jsou skvělým způsobem, jak zvýraznit text v Markdownu.
 
 ```java
 builder.getParagraphFormat().setStyleName("Quote");
@@ -87,17 +89,17 @@ builder.writeln("A Quote block");
 
 ### Hypertextové odkazy
 
-Markdown umožňuje vkládat hypertextové odkazy. Zde vložíme hypertextový odkaz na web Aspose.
+Markdown umožňuje vkládat hypertextové odkazy. Zde vložíme hypertextový odkaz na webové stránky Aspose.
 
 ```java
 builder.getFont().setBold(true);
-builder.insertHyperlink("Aspose", "https://www.aspose.com", nepravda);
+builder.insertHyperlink("Aspose", "https://www.aspose.com", nepravdivé);
 builder.getFont().setBold(false);
 ```
 
-## Tabulky
+## Stoly
 
-Přidání tabulek do vašeho dokumentu Markdown je s Aspose.Words pro Java přímočaré.
+Přidávání tabulek do dokumentu Markdown je s Aspose.Words pro Javu snadné.
 
 ```java
 builder.startTable();
@@ -121,44 +123,44 @@ doc.save(outPath + "WorkingWithMarkdown.CreateMarkdownDocument.md");
 string outPath = "Your Output Directory";
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Určete styl "Nadpis 1" pro odstavec.
+// Zadejte styl „Nadpis 1“ pro odstavec.
 builder.getParagraphFormat().setStyleName("Heading 1");
 builder.writeln("Heading 1");
-//Obnovte styly z předchozího odstavce, aby se styly mezi odstavci nekombinovaly.
+// Obnovte styly z předchozího odstavce, aby se styly mezi odstavci nekombinovaly.
 builder.getParagraphFormat().setStyleName("Normal");
 // Vložte vodorovné pravítko.
 builder.insertHorizontalRule();
 // Zadejte seřazený seznam.
 builder.insertParagraph();
 builder.getListFormat().applyNumberDefault();
-// Zadejte pro text důraz na kurzívu.
+// Zadejte kurzívu pro zvýraznění textu.
 builder.getFont().setItalic(true);
 builder.writeln("Italic Text");
 builder.getFont().setItalic(false);
-// Určete zvýraznění textu tučným písmem.
+// Zadejte tučné zvýraznění textu.
 builder.getFont().setBold(true);
 builder.writeln("Bold Text");
 builder.getFont().setBold(false);
-// Určete důraz StrikeThrough pro text.
+// Určete zvýraznění přeškrtnutého textu.
 builder.getFont().setStrikeThrough(true);
 builder.writeln("StrikeThrough Text");
 builder.getFont().setStrikeThrough(false);
 // Zastavit číslování odstavců.
 builder.getListFormat().removeNumbers();
-// Určete styl "Citace" pro odstavec.
+// Zadejte styl „Citace“ pro odstavec.
 builder.getParagraphFormat().setStyleName("Quote");
 builder.writeln("A Quote block");
-// Zadejte nabídku vnoření.
+// Zadejte vnořenou nabídku.
 Style nestedQuote = doc.getStyles().add(StyleType.PARAGRAPH, "Quote1");
 nestedQuote.setBaseStyleName("Quote");
 builder.getParagraphFormat().setStyleName("Quote1");
 builder.writeln("A nested Quote block");
-// Chcete-li zastavit bloky uvozovek, obnovte styl odstavce na Normální.
+// Obnovte styl odstavce na Normální, chcete-li zastavit bloky citací. 
 builder.getParagraphFormat().setStyleName("Normal");
 // Zadejte hypertextový odkaz pro požadovaný text.
 builder.getFont().setBold(true);
-// Poznámka, text hypertextového odkazu může být zdůrazněn.
-builder.insertHyperlink("Aspose", "https://www.aspose.com", nepravda);
+// Poznámka: Text hypertextového odkazu lze zdůraznit.
+builder.insertHyperlink("Aspose", "https://www.aspose.com", nepravdivé);
 builder.getFont().setBold(false);
 // Vložte jednoduchou tabulku.
 builder.startTable();
@@ -173,30 +175,35 @@ doc.save(outPath + "WorkingWithMarkdown.CreateMarkdownDocument.md");
 
 ## Závěr
 
-V tomto tutoriálu jsme probrali základy používání Markdown v Aspose.Words for Java. Naučili jste se, jak nastavit prostředí, použít styly, přidat tabulky a uložit dokument Markdown. S těmito znalostmi můžete začít používat Aspose.Words for Java k efektivnímu generování dokumentů Markdown.
+tomto tutoriálu jsme se seznámili se základy používání Markdownu v Aspose.Words pro Javu. Naučili jste se, jak nastavit prostředí, aplikovat styly, přidávat tabulky a ukládat dokumenty Markdown. S těmito znalostmi můžete začít používat Aspose.Words pro Javu k efektivnímu generování dokumentů Markdown.
 
-### Nejčastější dotazy
+### Často kladené otázky
 
-### Co je Aspose.Words for Java? 
-   Aspose.Words for Java je knihovna Java, která umožňuje vývojářům vytvářet, manipulovat a převádět dokumenty aplikace Word v aplikacích Java.
+### Co je Aspose.Words pro Javu? 
+   Aspose.Words pro Javu je knihovna v Javě, která umožňuje vývojářům vytvářet, manipulovat a převádět dokumenty Word v aplikacích v Javě.
 
-### Mohu použít Aspose.Words for Java k převodu Markdown na dokumenty Word? 
-   Ano, můžete použít Aspose.Words pro Java k převodu dokumentů Markdown na dokumenty Word a naopak.
+### Mohu použít Aspose.Words pro Javu k převodu Markdownu do dokumentů Wordu? 
+   Ano, můžete použít Aspose.Words pro Javu k převodu dokumentů Markdown do dokumentů Word a naopak.
 
-### Je Aspose.Words for Java k použití zdarma? 
-    Aspose.Words for Java je komerční produkt a k použití je vyžadována licence. Licenci můžete získat od[zde](https://purchase.aspose.com/buy).
+### Je Aspose.Words pro Javu zdarma k použití? 
+   Aspose.Words pro Javu je komerční produkt a pro jeho použití je vyžadována licence. Licenci můžete získat od [zde](https://purchase.aspose.com/buy).
 
-### Jsou k dispozici nějaké návody nebo dokumentace pro Aspose.Words for Java? 
-    Ano, na webu najdete komplexní návody a dokumentaci[Aspose.Words for Java API dokumentace](https://reference.aspose.com/words/java/).
+### Jsou k dispozici nějaké tutoriály nebo dokumentace pro Aspose.Words pro Javu? 
+   Ano, komplexní návody a dokumentaci naleznete na [Dokumentace k Aspose.Words pro Java API](https://reference.aspose.com/words/java/).
 
-### Kde mohu získat podporu pro Aspose.Words pro Java? 
-    Pro podporu a pomoc můžete navštívit stránku[Aspose.Words for Java forum](https://forum.aspose.com/).
+### Kde mohu získat podporu pro Aspose.Words pro Javu? 
+   Pro podporu a pomoc můžete navštívit [Fórum Aspose.Words pro Javu](https://forum.aspose.com/).
 
-Nyní, když jste zvládli základy, začněte zkoumat nekonečné možnosti použití Aspose.Words for Java ve vašich projektech zpracování dokumentů.
+Nyní, když jste zvládli základy, začněte prozkoumávat nekonečné možnosti použití Aspose.Words pro Javu ve vašich projektech zpracování dokumentů.
    
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

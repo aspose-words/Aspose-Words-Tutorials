@@ -1,14 +1,16 @@
 ---
-title: Aspose.Words for Java でドキュメントから画像を保存する
-linktitle: ドキュメントから画像を保存する
-second_title: Aspose.Words Java ドキュメント処理 API
-description: 包括的なステップバイステップ ガイドを使用して、Aspose.Words for Java を使用してドキュメントから画像を保存する方法を学びます。形式、圧縮などをカスタマイズします。
-weight: 17
-url: /ja/java/document-loading-and-saving/saving-images-from-documents/
+"description": "Aspose.Words for Java を使用してドキュメントから画像を保存する方法を、包括的なステップバイステップガイドで学びましょう。フォーマットや圧縮などをカスタマイズできます。"
+"linktitle": "ドキュメントから画像を保存する"
+"second_title": "Aspose.Words Java ドキュメント処理 API"
+"title": "Aspose.Words for Java でドキュメントから画像を保存する"
+"url": "/ja/java/document-loading-and-saving/saving-images-from-documents/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Words for Java でドキュメントから画像を保存する
@@ -16,11 +18,11 @@ url: /ja/java/document-loading-and-saving/saving-images-from-documents/
 
 ## Aspose.Words for Java でドキュメントから画像を保存する方法の紹介
 
-このチュートリアルでは、Aspose.Words for Java を使用してドキュメントから画像を保存する方法について説明します。画像保存のさまざまなシナリオとカスタマイズ オプションについて説明します。このガイドでは、ソース コードの例を使用して手順を追って説明します。
+このチュートリアルでは、Aspose.Words for Java を使用してドキュメントから画像を保存する方法を説明します。画像保存の様々なシナリオとカスタマイズオプションについて説明します。このガイドでは、ソースコードの例とともに、ステップバイステップの手順を説明します。
 
 ## 前提条件
 
-始める前に、Aspose.Words for Javaライブラリがプロジェクトに統合されていることを確認してください。ダウンロードはこちらからできます。[ここ](https://releases.aspose.com/words/java/).
+始める前に、Aspose.Words for Javaライブラリがプロジェクトに統合されていることを確認してください。ダウンロードはこちらから可能です。 [ここ](https://releases。aspose.com/words/java/).
 
 ## ステップ1: しきい値制御を使用して画像をTIFFとして保存する
 
@@ -38,7 +40,7 @@ doc.save("Your Directory Path" + "ThresholdControlledImage.tiff", saveOptions);
 
 ## ステップ2: 特定のページをマルチページTIFFとして保存する
 
-特定のページをマルチページ TIFF として保存するには、次のコードを使用します。
+特定のページを複数ページの TIFF として保存するには、次のコードを使用します。
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -78,7 +80,7 @@ doc.save("Your Directory Path" + "CustomizedJPEG.jpeg", options);
 
 ## ステップ5: ページ保存コールバックの使用
 
-コールバックを使用してページの保存をカスタマイズできます。次に例を示します。
+コールバックを使ってページの保存をカスタマイズできます。例を以下に示します。
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -96,7 +98,7 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
 }
 ```
 
-## Aspose.Words for Java でドキュメントから画像を保存するための完全なソース コード
+## Aspose.Words for Java でドキュメントから画像を保存するための完全なソースコード
 
 ```java
 public void exposeThresholdControlForTiffBinarization() throws Exception
@@ -139,14 +141,14 @@ public void getJpegPageRange() throws Exception
 {
 	Document doc = new Document("Your Directory Path" + "Rendering.docx");
 	ImageSaveOptions options = new ImageSaveOptions();
-	//ドキュメントの最初のページのみを変換するには、「PageSet」を「0」に設定します。
+	// ドキュメントの最初のページのみを変換するには、「PageSet」を「0」に設定します。
 	options.setPageSet(new PageSet(0));
-	//画像の明るさとコントラストを変更します。
-	//どちらも 0 ～ 1 のスケールで、デフォルトでは 0.5 になっています。
+	// 画像の明るさとコントラストを変更します。
+	// どちらも 0 ～ 1 のスケールで、デフォルトでは 0.5 になっています。
 	options.setImageBrightness(0.3f);
 	options.setImageContrast(0.7f);
-	//水平解像度を変更します。
-	//これらのプロパティのデフォルト値は 96.0 (解像度 96dpi) です。
+	// 水平解像度を変更します。
+	// これらのプロパティのデフォルト値は 96.0 (解像度 96dpi) です。
 	options.setHorizontalResolution(72f);
 	doc.save("Your Directory Path" + "WorkingWithImageSaveOptions.GetJpegPageRange.jpeg", options);
 }
@@ -171,13 +173,13 @@ private static class HandlePageSavingCallback implements IPageSavingCallback
 
 ## 結論
 
-Aspose.Words for Java を使用してドキュメントから画像を保存する方法を学習しました。これらの例では、形式、圧縮、コールバックの使用など、画像保存のさまざまなカスタマイズ オプションを示します。Aspose.Words for Java の強力な機能で、さらに多くの可能性を探ります。
+Aspose.Words for Java を使用してドキュメントから画像を保存する方法を学習しました。これらの例では、画像保存の形式、圧縮、コールバックの使用など、さまざまなカスタマイズオプションを示しています。Aspose.Words for Java の強力な機能で、さらなる可能性を探ってみましょう。
 
 ## よくある質問
 
 ### Aspose.Words for Java で保存するときに画像形式を変更するにはどうすればよいですか?
 
-希望のフォーマットを指定することで画像フォーマットを変更することができます。`ImageSaveOptions`たとえば、PNGとして保存するには、`SaveFormat.PNG`コードに示されているように:
+希望のフォーマットを指定することで画像フォーマットを変更できます。 `ImageSaveOptions`たとえばPNGとして保存するには、 `SaveFormat.PNG` コードに示されているように:
 
 ```java
 ImageSaveOptions saveOptions = new ImageSaveOptions();
@@ -185,7 +187,7 @@ ImageSaveOptions saveOptions = new ImageSaveOptions();
 
 ### TIFF 画像の圧縮設定をカスタマイズできますか?
 
-はい、TIFF イメージの圧縮設定をカスタマイズできます。たとえば、圧縮方法を CCITT_3 に設定するには、次のコードを使用します。
+はい、TIFF画像の圧縮設定をカスタマイズできます。例えば、圧縮方式をCCITT_3に設定するには、次のコードを使用します。
 
 ```java
 saveOptions.setTiffCompression(TiffCompression.CCITT_3);
@@ -193,15 +195,15 @@ saveOptions.setTiffCompression(TiffCompression.CCITT_3);
 
 ### ドキュメントの特定のページを別の画像として保存するにはどうすればよいですか?
 
-特定のページを画像として保存するには、`setPageSet`方法`ImageSaveOptions`たとえば、最初のページだけを保存するには、`PageSet`に`new PageSet(0)`.
+特定のページを画像として保存するには、 `setPageSet` 方法 `ImageSaveOptions`たとえば、最初のページだけを保存するには、 `PageSet` に `new PageSet(0)`。
 
 ```java
-saveOptions.setPageSet(new PageSet(0)); //最初のページを画像として保存する
+saveOptions.setPageSet(new PageSet(0)); // 最初のページを画像として保存する
 ```
 
 ### 保存時に JPEG 画像にカスタム設定を適用するにはどうすればよいですか?
 
-JPEG画像にカスタム設定を適用するには、`ImageSaveOptions`明るさ、コントラスト、解像度などのプロパティを調整します。たとえば、明るさを 0.3 に、コントラストを 0.7 に変更するには、次のコードを使用します。
+JPEG画像にカスタム設定を適用するには、 `ImageSaveOptions`明るさ、コントラスト、解像度などのプロパティを調整します。例えば、明るさを0.3、コントラストを0.7に変更するには、次のコードを使用します。
 
 ```java
 options.setImageBrightness(0.3f);
@@ -210,13 +212,13 @@ options.setImageContrast(0.7f);
 
 ### 画像の保存をカスタマイズするためにコールバックを使用するにはどうすればよいですか?
 
-イメージ保存をカスタマイズするためのコールバックを使用するには、`PageSavingCallback`で`ImageSaveOptions`を実装するクラスを作成します`IPageSavingCallback`インターフェースをオーバーライドし、`pageSaving`方法。
+画像保存をカスタマイズするためのコールバックを使用するには、 `PageSavでgCallback` in `ImageSaveOptions`を実装するクラスを作成します。 `IPageSavingCallback` インターフェースをオーバーライドし、 `pageSaving` 方法。
 
 ```java
 imageSaveOptions.setPageSavingCallback(new HandlePageSavingCallback());
 ```
 
-次に、`IPageSavingCallback`インターフェースでファイル名と場所をカスタマイズし、`pageSaving`方法。
+次に、 `IPageSavingCallback` インターフェースでファイル名と場所をカスタマイズし、 `pageSaving` 方法。
 
 ```java
 private static class HandlePageSavingCallback implements IPageSavingCallback {
@@ -225,9 +227,14 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
     }
 }
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Menanamkan Objek OLE dan Kontrol ActiveX dalam Dokumen Word
-linktitle: Menanamkan Objek OLE dan Kontrol ActiveX dalam Dokumen Word
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari cara menyematkan objek OLE dan kontrol ActiveX dalam dokumen Word menggunakan Aspose.Words untuk Python. Buat dokumen interaktif dan dinamis dengan mudah.
-weight: 21
-url: /id/python-net/document-structure-and-content-manipulation/document-ole-objects-active-x/
+"description": "Pelajari cara menyematkan objek OLE dan kontrol ActiveX dalam dokumen Word menggunakan Aspose.Words untuk Python. Buat dokumen interaktif dan dinamis dengan mudah."
+"linktitle": "Menanamkan Objek OLE dan Kontrol ActiveX dalam Dokumen Word"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Menanamkan Objek OLE dan Kontrol ActiveX dalam Dokumen Word"
+"url": "/id/python-net/document-structure-and-content-manipulation/document-ole-objects-active-x/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menanamkan Objek OLE dan Kontrol ActiveX dalam Dokumen Word
@@ -48,7 +50,7 @@ Sekarang, Anda dapat menyisipkan objek OLE ke dalam dokumen Anda. Misalnya, mari
 ```python
 builder = aw.DocumentBuilder(doc)
 
-builder.insert_ole_object("http://www.aspose.com", "htmlfile", Benar, Benar, Tidak Ada)
+builder.insert_ole_object("http://www.aspose.com", "htmlfile", True, True, None)
 
 doc.save(ARTIFACTS_DIR + "WorkingWithOleObjectsAndActiveX.insert_ole_object.docx")
 ```
@@ -76,9 +78,14 @@ Jika kontrol ActiveX tidak berfungsi, hal itu mungkin disebabkan oleh pengaturan
 ## Kesimpulan
 
 Menggabungkan objek OLE dan kontrol ActiveX menggunakan Aspose.Words untuk Python membuka banyak kemungkinan untuk membuat dokumen Word yang dinamis dan interaktif. Apakah Anda ingin menyematkan spreadsheet, multimedia, atau formulir interaktif, fitur ini memberdayakan Anda untuk mengomunikasikan ide-ide Anda secara efektif.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

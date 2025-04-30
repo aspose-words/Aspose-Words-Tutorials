@@ -1,14 +1,16 @@
 ---
-title: Chèn Biểu đồ Cột Đơn giản Vào Tài liệu Word
-linktitle: Chèn Biểu đồ Cột Đơn giản Vào Tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn biểu đồ cột đơn giản vào Word bằng Aspose.Words cho .NET. Nâng cao tài liệu của bạn bằng các bài thuyết trình dữ liệu trực quan động.
-weight: 10
-url: /vi/net/programming-with-charts/insert-simple-column-chart/
+"description": "Tìm hiểu cách chèn biểu đồ cột đơn giản vào Word bằng Aspose.Words cho .NET. Nâng cao tài liệu của bạn bằng các bài thuyết trình dữ liệu trực quan động."
+"linktitle": "Chèn Biểu đồ Cột Đơn giản Vào Tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn Biểu đồ Cột Đơn giản Vào Tài liệu Word"
+"url": "/vi/net/programming-with-charts/insert-simple-column-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn Biểu đồ Cột Đơn giản Vào Tài liệu Word
@@ -100,10 +102,15 @@ Có, bạn có thể xuất tài liệu có chứa biểu đồ sang nhiều đ�
 Có, Aspose.Words for .NET cho phép bạn tự động điền dữ liệu từ các nguồn bên ngoài như cơ sở dữ liệu hoặc API vào biểu đồ.
 
 ### Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Words dành cho .NET ở đâu?
- Ghé thăm[Aspose.Words cho Tài liệu .NET](https://reference.aspose.com/words/net/) để biết thêm chi tiết về API và các ví dụ. Để được hỗ trợ, bạn cũng có thể truy cập[Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8).
+Ghé thăm [Aspose.Words cho Tài liệu .NET](https://reference.aspose.com/words/net/) để biết thêm chi tiết về API và các ví dụ. Để được hỗ trợ, bạn cũng có thể truy cập [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

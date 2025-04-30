@@ -1,34 +1,36 @@
 ---
-title: Neomezená sekce v dokumentu aplikace Word
-linktitle: Neomezená sekce v dokumentu aplikace Word
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Pomocí tohoto podrobného průvodce odemkněte konkrétní sekce v dokumentu aplikace Word pomocí Aspose.Words for .NET. Ideální pro ochranu citlivého obsahu.
-weight: 10
-url: /cs/net/document-protection/unrestricted-section/
+"description": "Odemkněte konkrétní sekce v dokumentu Word pomocí Aspose.Words pro .NET s tímto podrobným návodem. Ideální pro ochranu citlivého obsahu."
+"linktitle": "Neomezená sekce v dokumentu Word"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Neomezená sekce v dokumentu Word"
+"url": "/cs/net/document-protection/unrestricted-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Neomezená sekce v dokumentu aplikace Word
+# Neomezená sekce v dokumentu Word
 
 ## Zavedení
 
-Ahoj! Jste připraveni ponořit se do světa Aspose.Words pro .NET? Dnes řešíme něco super praktického: jak odemknout konkrétní sekce v dokumentu aplikace Word a zároveň zachovat ochranu ostatních částí. Pokud jste někdy potřebovali zabezpečit některé části vašeho dokumentu, ale ostatní jste nechali otevřené pro úpravy, tento návod je pro vás. Začněme!
+Ahoj! Jste připraveni ponořit se do světa Aspose.Words pro .NET? Dnes se budeme zabývat něčím super praktickým: jak odemknout určité části v dokumentu Word a zároveň chránit ostatní části. Pokud jste někdy potřebovali chránit některé části dokumentu, ale jiné nechat otevřené pro úpravy, tento tutoriál je pro vás. Pojďme na to!
 
 ## Předpoklady
 
-Než se vrhneme na to, co potřebujete, ujistěte se, že máte vše, co potřebujete:
+Než se pustíme do detailů, ujistěte se, že máte vše potřebné:
 
--  Aspose.Words for .NET: Pokud jste to ještě neudělali, můžete[stáhněte si to zde](https://releases.aspose.com/words/net/).
+- Aspose.Words pro .NET: Pokud jste tak ještě neučinili, můžete [stáhněte si to zde](https://releases.aspose.com/words/net/).
 - Visual Studio: Nebo jakékoli jiné IDE kompatibilní s .NET.
-- Základní porozumění C#: Trocha obeznámenosti s C# vám pomůže projít tento tutoriál.
--  Aspose Licence: Chyťte a[zkušební verze zdarma](https://releases.aspose.com/) nebo získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) pokud to potřebujete na testování.
+- Základní znalost C#: Trocha znalosti C# vám pomůže s tímto tutoriálem.
+- Licence Aspose: Získejte [bezplatná zkušební verze](https://releases.aspose.com/) nebo si pořiďte [dočasná licence](https://purchase.aspose.com/temporary-license/) pokud to potřebujete k vyzkoušení.
 
 ## Importovat jmenné prostory
 
-Než začnete kódovat, ujistěte se, že jste do svého projektu C# importovali potřebné jmenné prostory:
+Než začnete s kódováním, ujistěte se, že jste do projektu C# importovali potřebné jmenné prostory:
 
 ```csharp
 using System;
@@ -36,32 +38,32 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-Pojďme si to nyní rozebrat krok za krokem!
+A teď si to rozebereme krok za krokem!
 
-## Krok 1: Nastavte svůj projekt
+## Krok 1: Nastavení projektu
 
-### Inicializujte svůj adresář dokumentů
+### Inicializace adresáře dokumentů
 
-Nejprve musíte nastavit cestu k adresáři dokumentů. Zde budou uloženy vaše soubory aplikace Word.
+Nejdříve je potřeba nastavit cestu k adresáři s dokumenty. Sem budou uloženy vaše soubory Wordu.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kam chcete dokumenty uložit. To je zásadní, protože zajišťuje, že vaše soubory budou uloženy na správném místě.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kam chcete dokumenty uložit. To je zásadní, protože zajišťuje, že vaše soubory budou uloženy na správném místě.
 
 ### Vytvořit nový dokument
 
-Dále vytvoříme nový dokument pomocí Aspose.Words. Tento dokument bude plátnem, na které použijeme naše kouzlo.
+Dále vytvoříme nový dokument pomocí Aspose.Words. Tento dokument bude plátnem, na kterém budeme aplikovat naše kouzla.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- The`Document` třída inicializuje nový dokument a`DocumentBuilder` nám pomáhá snadno přidávat obsah do našeho dokumentu.
+Ten/Ta/To `Document` třída inicializuje nový dokument a `DocumentBuilder` nám pomáhá snadno přidávat obsah do dokumentu.
 
-## Krok 2: Vložte sekce
+## Krok 2: Vložení sekcí
 
 ### Přidat nechráněnou sekci
 
@@ -71,44 +73,44 @@ Začněme přidáním první sekce, která zůstane nechráněná.
 builder.Writeln("Section 1. Unprotected.");
 ```
 
-Tento řádek kódu přidá text "Oddíl 1. Nechráněno." k dokumentu. Jednoduché, že?
+Tento řádek kódu přidá do dokumentu text „Sekce 1. Nechráněno.“ Jednoduché, že?
 
 ### Přidat chráněnou sekci
 
-Nyní přidáme druhý oddíl a vložíme konec oddílu, který jej oddělí od prvního.
+Nyní přidejme druhou sekci a vložme zalomení sekce, které ji oddělí od první.
 
 ```csharp
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("Section 2. Protected.");
 ```
 
- The`InsertBreak` metoda vkládá souvislý konec sekce, což nám umožňuje mít různá nastavení pro každou sekci.
+Ten/Ta/To `InsertBreak` Metoda vkládá souvislý konec sekce, což nám umožňuje mít pro každou sekci různá nastavení.
 
-## Krok 3: Chraňte dokument
+## Krok 3: Ochrana dokumentu
 
 ### Povolit ochranu dokumentů
 
- K ochraně dokumentu použijeme`Protect` metoda. Tato metoda zajišťuje, že lze upravovat pouze pole formuláře, pokud není uvedeno jinak.
+Pro ochranu dokumentu použijeme `Protect` metoda. Tato metoda zajišťuje, že lze upravovat pouze pole formuláře, pokud není uvedeno jinak.
 
 ```csharp
 doc.Protect(ProtectionType.AllowOnlyFormFields, "password");
 ```
 
- Zde je dokument chráněn heslem a lze upravovat pouze pole formuláře. Nezapomeňte vyměnit`"password"` s požadovaným heslem.
+Zde je dokument chráněn heslem a upravovat lze pouze pole formuláře. Nezapomeňte nahradit `"password"` s požadovaným heslem.
 
-### Odemknout specifickou sekci
+### Odemknout konkrétní sekci
 
-Ve výchozím nastavení jsou chráněny všechny sekce. Musíme selektivně vypnout ochranu pro první sekci.
+Ve výchozím nastavení jsou všechny sekce chráněny. Pro první sekci je třeba selektivně vypnout ochranu.
 
 ```csharp
 doc.Sections[0].ProtectedForForms = false;
 ```
 
-Tento řádek zajišťuje, že první část zůstane nechráněná, zatímco zbytek dokumentu bude zabezpečen.
+Tato čára zajišťuje, že první část zůstane nechráněná, zatímco zbytek dokumentu je zabezpečený.
 
-## Krok 4: Uložte a načtěte dokument
+## Krok 4: Uložení a načtení dokumentu
 
-### Uložte dokument
+### Uložit dokument
 
 Nyní je čas uložit dokument s použitým nastavením ochrany.
 
@@ -116,41 +118,46 @@ Nyní je čas uložit dokument s použitým nastavením ochrany.
 doc.Save(dataDir + "DocumentProtection.UnrestrictedSection.docx");
 ```
 
- Tím se dokument uloží do zadaného adresáře s názvem`DocumentProtection.UnrestrictedSection.docx`.
+Tím se dokument uloží do zadaného adresáře s názvem `DocumentProtection.UnrestrictedSection.docx`.
 
-### Vložte dokument
+### Načíst dokument
 
-Nakonec dokument načteme, abychom ověřili, že je vše správně nastaveno.
+Nakonec načteme dokument, abychom ověřili, že je vše správně nastaveno.
 
 ```csharp
 doc = new Document(dataDir + "DocumentProtection.UnrestrictedSection.docx");
 ```
 
-Tento krok zajistí správné uložení dokumentu a jeho opětovné načtení bez ztráty nastavení ochrany.
+Tento krok zajistí, že dokument bude správně uložen a bude možné jej znovu načíst bez ztráty nastavení ochrany.
 
 ## Závěr
 
-tady to máte! Pomocí těchto kroků jste úspěšně vytvořili dokument aplikace Word se směsí chráněných a nechráněných částí pomocí Aspose.Words for .NET. Tato metoda je neuvěřitelně užitečná, když potřebujete zamknout určité části dokumentu a ponechat jiné části upravitelné.
+A tady to máte! Dodržováním těchto kroků jste úspěšně vytvořili dokument Wordu se směsí chráněných a nechráněných sekcí pomocí Aspose.Words pro .NET. Tato metoda je neuvěřitelně užitečná, když potřebujete uzamknout určité části dokumentu a zároveň ponechat jiné části upravitelné.
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu chránit více než jednu sekci?
-Ano, podle potřeby můžete selektivně chránit a zrušit ochranu více sekcí.
+Ano, můžete dle potřeby selektivně chránit a odemykat více sekcí.
 
-### Je možné po uložení dokumentu změnit typ ochrany?
-Ano, dokument můžete znovu otevřít a upravit nastavení ochrany podle potřeby.
+### Je možné změnit typ ochrany po uložení dokumentu?
+Ano, dokument můžete znovu otevřít a podle potřeby upravit nastavení ochrany.
 
-### Jaké další typy ochrany jsou dostupné v Aspose.Words?
- Aspose.Words podporuje několik typů ochrany včetně`ReadOnly`, `Comments` a`TrackedChanges`.
+### Jaké další typy ochrany jsou k dispozici v Aspose.Words?
+Aspose.Words podporuje několik typů ochrany, včetně `ReadOnly`, `Comments`a `TrackedChanges`.
 
-### Mohu chránit dokument bez hesla?
+### Mohu dokument chránit bez hesla?
 Ano, dokument můžete chránit bez zadání hesla.
 
-### Jak mohu zkontrolovat, zda je sekce chráněna?
- Můžete zkontrolovat`ProtectedForForms` vlastnost sekce, která určí, zda je chráněna.
+### Jak mohu zkontrolovat, zda je sekce chráněná?
+Můžete zkontrolovat `ProtectedForForms` vlastnost sekce k určení, zda je chráněna.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Mã nội tuyến
-linktitle: Mã nội tuyến
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách áp dụng các kiểu mã nội tuyến trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm các dấu ngoặc đơn và nhiều dấu ngoặc kép để định dạng mã.
-weight: 10
-url: /vi/net/working-with-markdown/inline-code/
+"description": "Tìm hiểu cách áp dụng các kiểu mã nội tuyến trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm các dấu ngoặc đơn và nhiều dấu ngoặc kép để định dạng mã."
+"linktitle": "Mã nội tuyến"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Mã nội tuyến"
+"url": "/vi/net/working-with-markdown/inline-code/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mã nội tuyến
@@ -21,7 +23,7 @@ Nếu bạn đang làm việc để tạo hoặc thao tác các tài liệu Word
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1.  Aspose.Words cho Thư viện .NET: Đảm bảo bạn đã cài đặt Aspose.Words trong môi trường .NET của mình. Bạn có thể tải xuống từ[Trang phát hành Aspose.Words cho .NET](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Đảm bảo bạn đã cài đặt Aspose.Words trong môi trường .NET của mình. Bạn có thể tải xuống từ [Trang phát hành Aspose.Words cho .NET](https://releases.aspose.com/words/net/).
 
 2. Kiến thức cơ bản về lập trình .NET: Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về lập trình C# và .NET.
 
@@ -40,7 +42,7 @@ Chúng ta hãy chia nhỏ quy trình thành các bước rõ ràng:
 
 ## Bước 1: Khởi tạo Document và DocumentBuilder
 
- Đầu tiên, bạn cần tạo một tài liệu mới và một`DocumentBuilder` Ví dụ. Các`DocumentBuilder`Lớp này giúp bạn thêm nội dung và định dạng nội dung đó trong tài liệu Word.
+Đầu tiên, bạn cần tạo một tài liệu mới và một `DocumentBuilder` Ví dụ. Các `DocumentBuilder` Lớp này giúp bạn thêm nội dung và định dạng nội dung đó trong tài liệu Word.
 
 ```csharp
 // Khởi tạo DocumentBuilder với Document mới.
@@ -83,7 +85,7 @@ Tiếp theo, chúng ta sẽ định nghĩa một kiểu cho mã nội tuyến v�
 Style inlineCode3BackTicks = builder.Document.Styles.Add(StyleType.Character, "InlineCode.3");
 inlineCode3BackTicks.Font.Name = "Courier New"; // Phông chữ thống nhất cho mã.
 inlineCode3BackTicks.Font.Size = 10.5; // Kích thước phông chữ cho khối mã.
-inlineCode3BackTicks.Font.Color = System.Drawing.Color.Green; //Màu sắc khác nhau để dễ nhìn.
+inlineCode3BackTicks.Font.Color = System.Drawing.Color.Green; // Màu sắc khác nhau để dễ nhìn.
 inlineCode3BackTicks.Font.Bold = true; // In đậm để nhấn mạnh.
 ```
 
@@ -109,19 +111,24 @@ Hãy thoải mái thử nghiệm các kiểu dáng và tùy chọn định dạn
 Có, bạn có thể sử dụng bất kỳ phông chữ nào phù hợp với nhu cầu của mình. Các phông chữ như "Courier New" thường được sử dụng cho mã do bản chất đơn khoảng cách của chúng.
 
 ### Làm thế nào để thay đổi màu của văn bản mã nội tuyến?
- Bạn có thể thay đổi màu sắc bằng cách thiết lập`Font.Color` tài sản của phong cách cho bất kỳ`System.Drawing.Color`.
+Bạn có thể thay đổi màu sắc bằng cách thiết lập `Font.Color` tài sản của phong cách cho bất kỳ `System.Drawing.Color`.
 
 ### Tôi có thể áp dụng nhiều kiểu cho cùng một văn bản không?
 Trong Aspose.Words, bạn chỉ có thể áp dụng một kiểu tại một thời điểm. Nếu bạn cần kết hợp các kiểu, hãy cân nhắc tạo một kiểu mới kết hợp tất cả các định dạng mong muốn.
 
 ### Làm thế nào để áp dụng kiểu cho văn bản hiện có trong tài liệu?
- Để áp dụng kiểu cho văn bản hiện có, trước tiên bạn cần chọn văn bản và sau đó áp dụng kiểu mong muốn bằng cách sử dụng`Font.Style` tài sản.
+Để áp dụng kiểu cho văn bản hiện có, trước tiên bạn cần chọn văn bản và sau đó áp dụng kiểu mong muốn bằng cách sử dụng `Font.Style` tài sản.
 
 ### Tôi có thể sử dụng Aspose.Words cho các định dạng tài liệu khác không?
 Aspose.Words được thiết kế dành riêng cho các tài liệu Word. Đối với các định dạng khác, bạn có thể cần sử dụng các thư viện khác nhau hoặc chuyển đổi tài liệu sang định dạng tương thích.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

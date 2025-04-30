@@ -1,14 +1,16 @@
 ---
-title: Bỏ qua hình ảnh PDF
-linktitle: Bỏ qua hình ảnh PDF
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách bỏ qua hình ảnh khi tải tài liệu PDF bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn từng bước này để trích xuất văn bản liền mạch.
-weight: 10
-url: /vi/net/programming-with-loadoptions/skip-pdf-images/
+"description": "Tìm hiểu cách bỏ qua hình ảnh khi tải tài liệu PDF bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn từng bước này để trích xuất văn bản liền mạch."
+"linktitle": "Bỏ qua hình ảnh PDF"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Bỏ qua hình ảnh PDF"
+"url": "/vi/net/programming-with-loadoptions/skip-pdf-images/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bỏ qua hình ảnh PDF
@@ -21,7 +23,7 @@ Xin chào, những người đam mê Aspose.Words! Hôm nay, chúng ta sẽ tìm
 
 Trước khi bắt đầu, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
--  Aspose.Words cho .NET: Tải xuống phiên bản mới nhất[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Tải xuống phiên bản mới nhất [đây](https://releases.aspose.com/words/net/).
 - Visual Studio: Bất kỳ phiên bản gần đây nào cũng có thể hoạt động tốt.
 - Hiểu biết cơ bản về C#: Bạn không cần phải là người chuyên nghiệp, nhưng nắm được những kiến thức cơ bản sẽ giúp ích.
 - Tài liệu PDF: Chuẩn bị một tài liệu PDF mẫu để thử nghiệm.
@@ -55,13 +57,13 @@ Tiếp theo, bạn cần thêm tham chiếu đến Aspose.Words cho .NET. Bạn 
 
 ### Xác định thư mục dữ liệu
 
- Trong dự án của bạn`Program.cs` tệp, hãy bắt đầu bằng cách xác định đường dẫn đến thư mục tài liệu của bạn. Đây là nơi tệp PDF của bạn nằm.
+Trong dự án của bạn `Program.cs` tệp, hãy bắt đầu bằng cách xác định đường dẫn đến thư mục tài liệu của bạn. Đây là nơi tệp PDF của bạn nằm.
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENTS DIRECTORY"` bằng đường dẫn thực tế đến thư mục tài liệu của bạn.
+Thay thế `"YOUR DOCUMENTS DIRECTORY"` bằng đường dẫn thực tế đến thư mục tài liệu của bạn.
 
 ### Đặt Tùy chọn Tải để Bỏ qua Hình ảnh PDF
 
@@ -79,7 +81,7 @@ Với các tùy chọn tải được thiết lập, bạn đã sẵn sàng tả
 Document doc = new Document(dataDir + "Pdf Document.pdf", loadOptions);
 ```
 
- Đảm bảo rằng`"Pdf Document.pdf"` là tên tệp PDF của bạn trong thư mục được chỉ định.
+Đảm bảo rằng `"Pdf Document.pdf"` là tên tệp PDF của bạn trong thư mục đã chỉ định.
 
 ## Phần kết luận
 
@@ -89,7 +91,7 @@ Và bạn đã có nó! Bạn vừa học cách bỏ qua hình ảnh trong tài 
 
 ### Tôi có thể bỏ qua một số hình ảnh nhất định trong tệp PDF không?
 
- Không,`SkipPdfImages` tùy chọn bỏ qua tất cả hình ảnh trong PDF. Nếu bạn cần kiểm soát có chọn lọc, hãy cân nhắc xử lý trước PDF.
+Không, `SkipPdfImages` tùy chọn bỏ qua tất cả hình ảnh trong PDF. Nếu bạn cần kiểm soát có chọn lọc, hãy cân nhắc xử lý trước PDF.
 
 ### Tính năng này có ảnh hưởng đến văn bản trong PDF không?
 
@@ -97,7 +99,7 @@ Không, việc bỏ qua hình ảnh chỉ ảnh hưởng đến hình ảnh. Vă
 
 ### Tôi có thể sử dụng tính năng này với các định dạng tài liệu khác không?
 
- Các`SkipPdfImages` tùy chọn này dành riêng cho tài liệu PDF. Đối với các định dạng khác, có các tùy chọn và phương pháp khác nhau.
+Các `SkipPdfImages` tùy chọn này dành riêng cho tài liệu PDF. Đối với các định dạng khác, có các tùy chọn và phương pháp khác nhau.
 
 ### Làm sao tôi có thể xác minh rằng hình ảnh đã bị bỏ qua?
 
@@ -105,11 +107,16 @@ Bạn có thể mở tài liệu đầu ra trong trình xử lý Word để xác
 
 ### Điều gì xảy ra nếu tệp PDF không có hình ảnh?
 
- Tài liệu tải như bình thường, không ảnh hưởng đến quá trình.`SkipPdfImages` tùy chọn này không có tác dụng gì trong trường hợp này.
+Tài liệu tải như bình thường, không ảnh hưởng đến quá trình. `SkipPdfImages` tùy chọn này không có tác dụng gì trong trường hợp này.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

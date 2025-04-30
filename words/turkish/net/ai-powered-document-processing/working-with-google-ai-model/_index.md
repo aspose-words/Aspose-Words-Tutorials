@@ -1,14 +1,16 @@
 ---
-title: Google AI Modeli ile Çalışma
-linktitle: Google AI Modeli ile Çalışma
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET ve Google AI ile belge işleme sürecinizi bir üst seviyeye taşıyın ve zahmetsizce özlü özetler oluşturun.
-weight: 10
-url: /tr/net/ai-powered-document-processing/working-with-google-ai-model/
+"description": "Aspose.Words for .NET ve Google AI ile belge işleme sürecinizi bir üst seviyeye taşıyın ve zahmetsizce özlü özetler oluşturun."
+"linktitle": "Google AI Modeli ile Çalışma"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Google AI Modeli ile Çalışma"
+"url": "/tr/net/ai-powered-document-processing/working-with-google-ai-model/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Google AI Modeli ile Çalışma
@@ -23,9 +25,9 @@ Pratik kısma dalmadan önce, başarıya hazır olduğunuzdan emin olalım. İht
 
 1. Temel C# ve .NET Bilgisi: Programlama kavramlarına aşinalık, örnekleri daha iyi kavramanıza yardımcı olacaktır.
    
-2.  Aspose.Words for .NET Kütüphanesi: Bu güçlü kütüphane, Word belgelerini sorunsuz bir şekilde oluşturmanıza ve düzenlemenize olanak tanır.[buradan indirin](https://releases.aspose.com/words/net/).
+2. Aspose.Words for .NET Kütüphanesi: Bu güçlü kütüphane, Word belgelerini sorunsuz bir şekilde oluşturmanıza ve düzenlemenize olanak tanır. [buradan indirin](https://releases.aspose.com/words/net/).
 
-3. Google AI Modeli için API Anahtarı: AI modellerini kullanmak için kimlik doğrulaması için bir API anahtarına ihtiyacınız vardır. Bunu ortam değişkenlerinizde güvenli bir şekilde saklayın.
+3. Google AI Modeli için API Anahtarı: AI modellerini kullanmak için kimlik doğrulaması için bir API anahtarına ihtiyacınız var. Bunu ortam değişkenlerinizde güvenli bir şekilde saklayın.
 
 4. Geliştirme Ortamı: Çalışan bir .NET ortamının (Visual Studio veya başka bir IDE) kurulu olduğundan emin olun.
 
@@ -57,7 +59,7 @@ string MyDir = "YOUR_DOCUMENT_DIRECTORY";
 string ArtifactsDir = "YOUR_ARTIFACTS_DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR_DOCUMENT_DIRECTORY"` Ve`"YOUR_ARTIFACTS_DIRECTORY"` belgelerinizin saklandığı sisteminizdeki gerçek yollarla. Bu, belgeleri okumak ve kaydetmek için temel oluşturacaktır.
+Yer değiştirmek `"YOUR_DOCUMENT_DIRECTORY"` Ve `"YOUR_ARTIFACTS_DIRECTORY"` belgelerinizin saklandığı sisteminizdeki gerçek yollarla. Bu, belgeleri okumak ve kaydetmek için temel oluşturacaktır.
 
 ## Adım 2: Belgeleri Yükleme
 
@@ -68,7 +70,7 @@ Document firstDoc = new Document(MyDir + "Big document.docx");
 Document secondDoc = new Document(MyDir + "Document.docx");
 ```
 
- The`Document` Aspose.Words'den gelen sınıf, Word dosyalarını belleğe yüklemenize olanak tanır. Dosya adlarının dizininizdeki gerçek belgelerle eşleştiğinden emin olun, aksi takdirde dosya bulunamadı hatalarıyla karşılaşırsınız!
+The `Document` Aspose.Words'den gelen sınıf, Word dosyalarını belleğe yüklemenize olanak tanır. Dosya adlarının dizininizdeki gerçek belgelerle eşleştiğinden emin olun, aksi takdirde dosya bulunamadı hatalarıyla karşılaşırsınız!
 
 ## Adım 3: API Anahtarını Alma
 
@@ -88,7 +90,7 @@ Bu kod satırı, ortam değişkenlerinizde sakladığınız API anahtarını get
 IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
 ```
 
- Bu satır, belge özetleme için kullanacağınız AI modelini belirler. Danıştığınızdan emin olun[belgeler](https://reference.aspose.com/words/net/) Farklı modeller ve yetenekleri hakkında ayrıntılı bilgi için.
+Bu satır, belge özetleme için kullanacağınız AI modelini belirler. Danıştığınızdan emin olun [belgeler](https://reference.aspose.com/words/net/) Farklı modeller ve yetenekleri hakkında ayrıntılı bilgi için.
 
 ## Adım 5: Tek Bir Belgeyi Özetleme
 
@@ -99,7 +101,7 @@ Document oneDocumentSummary = model.Summarize(firstDoc, new SummarizeOptions() {
 oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
 ```
 
- Bu adımda şunu kullanırız:`Summarize`AI model örneğinden ilk belgenin yoğunlaştırılmış halini almak için yöntem. Özet uzunluğu kısa olarak ayarlanmıştır, ancak bunu ihtiyaçlarınıza göre özelleştirebilirsiniz. Son olarak, özetlenen belge yapıtlar dizininize kaydedilir.
+Bu adımda şunu kullanırız: `Summarize` AI model örneğinden ilk belgenin yoğunlaştırılmış halini almak için yöntem. Özet uzunluğu kısa olarak ayarlanmıştır, ancak bunu ihtiyaçlarınıza göre özelleştirebilirsiniz. Son olarak, özetlenen belge yapıtlar dizininize kaydedilir.
 
 ## Adım 6: Birden Fazla Belgeyi Özetleme
 
@@ -110,7 +112,7 @@ Document multiDocumentSummary = model.Summarize(new Document[] { firstDoc, secon
 multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
 ```
 
- Burada, şunu çağırıyoruz:`Summarize` yöntem yine, ancak bu sefer bir dizi belgeyle. Bu size her iki dosyanın özünü kapsayan uzun bir özet verecektir. Daha önce olduğu gibi, sonuç belirtilen artifacts dizinine kaydedilir.
+Burada, şunu çağırıyoruz: `Summarize` yöntem yine, ancak bu sefer bir dizi belgeyle. Bu size her iki dosyanın özünü kapsayan uzun bir özet verecektir. Daha önce olduğu gibi, sonuç belirtilen artifacts dizinine kaydedilir.
 
 ## Çözüm
 
@@ -131,11 +133,16 @@ Evet! Gösterildiği gibi, özetleme metoduna bir dizi belge geçirebilirsiniz.
 İhtiyaçlarınıza göre kısa, orta ve uzun özetler arasından seçim yapabilirsiniz.
 
 ### Daha fazla Aspose.Words kaynağını nerede bulabilirim?
- Şuna bir göz atın:[belgeleme](https://reference.aspose.com/words/net/) Daha fazla örnek ve rehberlik için.
+Şuna bir göz atın: [belgeleme](https://reference.aspose.com/words/net/) Daha fazla örnek ve rehberlik için.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

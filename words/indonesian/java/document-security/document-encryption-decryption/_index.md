@@ -1,14 +1,16 @@
 ---
-title: Enkripsi dan Dekripsi Dokumen
-linktitle: Enkripsi dan Dekripsi Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara mengenkripsi dan mendekripsi dokumen dengan Aspose.Words untuk Java. Amankan data Anda secara efisien dengan panduan langkah demi langkah dan contoh kode sumber.
-weight: 12
-url: /id/java/document-security/document-encryption-decryption/
+"description": "Pelajari cara mengenkripsi dan mendekripsi dokumen dengan Aspose.Words untuk Java. Amankan data Anda secara efisien dengan panduan langkah demi langkah dan contoh kode sumber."
+"linktitle": "Enkripsi dan Dekripsi Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Enkripsi dan Dekripsi Dokumen"
+"url": "/id/java/document-security/document-encryption-decryption/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Enkripsi dan Dekripsi Dokumen
@@ -24,7 +26,7 @@ Dalam tutorial ini, kita akan mempelajari cara mengenkripsi dan mendekripsi doku
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
 - [Kit Pengembangan Java (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) terpasang.
-- [Aspose.Words untuk Java](https://products.aspose.com/words/java) perpustakaan. Anda dapat mengunduhnya dari[Di Sini](https://downloads.aspose.com/words/java).
+- [Aspose.Words untuk Java](https://products.aspose.com/words/java) perpustakaan. Anda dapat mengunduhnya dari [Di Sini](https://downloads.aspose.com/words/java).
 
 ## Langkah 1: Buat Proyek Java
 
@@ -70,7 +72,7 @@ import com.aspose.words.SaveFormat;
 
 public class DocumentDecryptionExample {
     public static void main(String[] args) throws Exception {
-        //Muat dokumen terenkripsi
+        // Muat dokumen terenkripsi
         Document doc = new Document("encrypted_document.docx");
         
         // Berikan kata sandi untuk dekripsi
@@ -108,9 +110,13 @@ Penting untuk diingat bahwa enkripsi dokumen merupakan langkah pengamanan yang p
 Dengan mengikuti langkah-langkah yang diuraikan dalam tutorial ini, Anda dapat meningkatkan keamanan aplikasi Java Anda dan melindungi informasi sensitif dalam dokumen Anda secara efektif.
 
 Aspose.Words untuk Java menyederhanakan proses manipulasi dan keamanan dokumen, memberdayakan pengembang untuk membuat aplikasi tangguh yang memenuhi kebutuhan pemrosesan dokumen mereka.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

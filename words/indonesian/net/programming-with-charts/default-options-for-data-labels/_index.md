@@ -1,17 +1,19 @@
 ---
-title: Mengatur Opsi Default untuk Label Data dalam Bagan
-linktitle: Mengatur Opsi Default untuk Label Data dalam Bagan
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menetapkan opsi default untuk label data dalam bagan menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk membuat dan menyesuaikan bagan dengan mudah.
-weight: 10
-url: /id/net/programming-with-charts/default-options-for-data-labels/
+"description": "Pelajari cara menetapkan opsi default untuk label data dalam bagan menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk membuat dan menyesuaikan bagan dengan mudah."
+"linktitle": "Mengatur Opsi Default Untuk Label Data Dalam Bagan"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Mengatur Opsi Default Untuk Label Data Dalam Bagan"
+"url": "/id/net/programming-with-charts/default-options-for-data-labels/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengatur Opsi Default untuk Label Data dalam Bagan
+# Mengatur Opsi Default Untuk Label Data Dalam Bagan
 
 ## Perkenalan
 
@@ -22,10 +24,10 @@ Hai! Apakah Anda bersemangat untuk terjun ke dunia otomatisasi dokumen? Hari ini
 Sebelum memulai, pastikan Anda memiliki semua yang dibutuhkan untuk mengikuti tutorial ini. Berikut ini daftar periksa singkatnya:
 
 - Visual Studio atau IDE lain yang kompatibel dengan .NET: Di sinilah Anda menulis dan menjalankan kode Anda.
--  Aspose.Words untuk .NET: Anda dapat[unduh versi terbaru](https://releases.aspose.com/words/net/) dan menginstalnya di proyek Anda.
+- Aspose.Words untuk .NET: Anda dapat [unduh versi terbaru](https://releases.aspose.com/words/net/) dan menginstalnya di proyek Anda.
 - Pengetahuan dasar pemrograman C#: Meskipun panduan ini ramah bagi pemula, sedikit pengetahuan tentang C# akan sangat membantu.
 - .NET Framework terinstal: Pastikan Anda telah menginstal .NET Framework di komputer Anda.
--  Lisensi sementara untuk Aspose.Words: Dapatkan satu[Di Sini](https://purchase.aspose.com/temporary-license/) untuk membuka fungsionalitas penuh.
+- Lisensi sementara untuk Aspose.Words: Dapatkan satu [Di Sini](https://purchase.aspose.com/temporary-license/) untuk membuka fungsionalitas penuh.
 
 Setelah Anda menyelesaikan prasyarat ini, kita siap berangkat!
 
@@ -43,7 +45,7 @@ using Aspose.Words.ReportingServices;
 ## Langkah 1: Buat Dokumen Baru
 
 
- Perjalanan dimulai dengan membuat dokumen baru dan menginisialisasi`DocumentBuilder` . Itu`DocumentBuilder` Kelas menyediakan serangkaian metode untuk memanipulasi konten dokumen dengan mudah.
+Perjalanan dimulai dengan membuat dokumen baru dan menginisialisasi `DocumentBuilder`. Itu `DocumentBuilder` Kelas menyediakan serangkaian metode untuk memanipulasi konten dokumen dengan mudah.
 
 ```csharp
 // Jalur ke direktori dokumen Anda
@@ -58,11 +60,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ### Penjelasan
 
- Pada langkah ini, kami telah menyiapkan dokumen dan pembangun yang akan kami gunakan untuk memasukkan dan memformat konten kami.`dataDir` Variabel ini menyimpan jalur tempat kita menyimpan dokumen akhir kita.
+Pada langkah ini, kami telah menyiapkan dokumen dan pembangun yang akan kami gunakan untuk memasukkan dan memformat konten kami. `dataDir` Variabel ini menyimpan jalur tempat kita menyimpan dokumen akhir kita.
 
 ## Langkah 2: Masukkan Bagan
 
- Selanjutnya, kita akan menambahkan diagram lingkaran ke dokumen kita.`InsertChart` metode dari`DocumentBuilder` kelas membuat hal ini sangat mudah.
+Selanjutnya, kita akan menambahkan diagram lingkaran ke dokumen kita. `InsertChart` metode dari `DocumentBuilder` kelas membuat hal ini sangat mudah.
 
 ```csharp
 // Masukkan diagram lingkaran
@@ -74,7 +76,7 @@ Chart chart = shape.Chart;
 
 ### Penjelasan
 
-Di sini, kita memasukkan diagram lingkaran ke dalam dokumen kita.`InsertChart` Metode ini memerlukan tipe grafik, lebar, dan tinggi sebagai parameter. Setelah memasukkan grafik, kita mengakses objek grafik untuk memanipulasinya lebih lanjut.
+Di sini, kita memasukkan diagram lingkaran ke dalam dokumen kita. `InsertChart` Metode ini memerlukan tipe bagan, lebar, dan tinggi sebagai parameter. Setelah memasukkan bagan, kita mengakses objek bagan untuk memanipulasinya lebih lanjut.
 
 ## Langkah 3: Sesuaikan Seri Bagan
 
@@ -111,7 +113,7 @@ labels.Separator = " - ";
 
 ### Penjelasan
 
- Di sini, kita mengakses`DataLabels`properti seri kami untuk menyesuaikan tampilan dan informasi yang ditampilkan pada setiap label data. Kami telah memilih untuk menampilkan persentase dan nilai, menyembunyikan garis pembatas, dan menetapkan pemisah khusus.
+Di sini, kita mengakses `DataLabels` properti seri kami untuk menyesuaikan tampilan dan informasi yang ditampilkan pada setiap label data. Kami telah memilih untuk menampilkan persentase dan nilai, menyembunyikan garis pembatas, dan menetapkan pemisah khusus.
 
 ## Langkah 5: Simpan Dokumen
 
@@ -124,35 +126,40 @@ doc.Save(dataDir + "WorkingWithCharts.DefaultOptionsForDataLabels.docx");
 
 ### Penjelasan
 
- Pada langkah terakhir ini, kita menyimpan dokumen kita menggunakan`Save` metode. Dokumen akan disimpan di direktori yang ditentukan oleh`dataDir`, dengan nama "WorkingWithCharts.DefaultOptionsForDataLabels.docx".
+Pada langkah terakhir ini, kita menyimpan dokumen kita menggunakan `Save` metode. Dokumen akan disimpan di direktori yang ditentukan oleh `dataDir`, dengan nama "WorkingWithCharts.DefaultOptionsForDataLabels.docx".
 
 ## Kesimpulan
 
-Nah, itu dia! Anda telah berhasil membuat dokumen Word dengan diagram lingkaran yang disesuaikan menggunakan Aspose.Words untuk .NET. Pustaka canggih ini memudahkan Anda mengotomatiskan pembuatan dan manipulasi dokumen, sehingga menghemat waktu dan tenaga. Baik Anda membuat laporan, faktur, atau jenis dokumen lainnya, Aspose.Words siap membantu Anda.
+Nah, itu dia! Anda telah berhasil membuat dokumen Word dengan diagram lingkaran yang disesuaikan menggunakan Aspose.Words untuk .NET. Pustaka canggih ini memudahkan Anda untuk mengotomatiskan pembuatan dan manipulasi dokumen, sehingga menghemat waktu dan tenaga Anda. Baik Anda membuat laporan, faktur, atau jenis dokumen lainnya, Aspose.Words siap membantu Anda.
 
- Jangan ragu untuk menjelajahi[Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) untuk fitur dan contoh lebih lanjut. Selamat membuat kode!
+Jangan ragu untuk menjelajahi [Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) untuk fitur dan contoh lebih lanjut. Selamat membuat kode!
 
 ## Pertanyaan yang Sering Diajukan
 
-### Dapatkah saya menggunakan Aspose.Words secara gratis?
-Anda dapat menggunakan Aspose.Words secara gratis dengan[lisensi sementara](https://purchase.aspose.com/temporary-license/) atau jelajahi fitur-fiturnya menggunakan[uji coba gratis](https://releases.aspose.com/).
+### Bisakah saya menggunakan Aspose.Words secara gratis?
+Anda dapat menggunakan Aspose.Words secara gratis dengan [lisensi sementara](https://purchase.aspose.com/temporary-license/) atau jelajahi fitur-fiturnya menggunakan [uji coba gratis](https://releases.aspose.com/).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.Words?
- Anda bisa mendapatkan dukungan melalui[Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan melalui [Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8).
 
 ### Bisakah saya menambahkan jenis grafik lainnya?
- Ya, Aspose.Words mendukung berbagai jenis grafik seperti grafik batang, garis, dan kolom. Periksa[dokumentasi](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
+Ya, Aspose.Words mendukung berbagai jenis grafik seperti grafik batang, garis, dan kolom. Periksa [dokumentasi](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
 
 ### Apakah Aspose.Words kompatibel dengan .NET Core?
- Ya, Aspose.Words kompatibel dengan .NET Core. Anda dapat menemukan informasi lebih lanjut di[dokumentasi](https://reference.aspose.com/words/net/).
+Ya, Aspose.Words kompatibel dengan .NET Core. Anda dapat menemukan informasi lebih lanjut di [dokumentasi](https://reference.aspose.com/words/net/).
 
 ### Bagaimana saya dapat membeli lisensi untuk Aspose.Words?
- Anda dapat membeli lisensi dari[Toko Aspose](https://purchase.aspose.com/buy).
+Anda dapat membeli lisensi dari [Toko Aspose](https://purchase.aspose.com/buy).
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

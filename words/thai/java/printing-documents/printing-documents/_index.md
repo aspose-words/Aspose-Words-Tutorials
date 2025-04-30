@@ -1,14 +1,16 @@
 ---
-title: การพิมพ์เอกสารใน Aspose.Words สำหรับ Java
-linktitle: การพิมพ์เอกสาร
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีพิมพ์เอกสารโดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับการพิมพ์ที่ราบรื่นในแอปพลิเคชัน Java ของคุณ
-weight: 10
-url: /th/java/printing-documents/printing-documents/
+"description": "เรียนรู้วิธีพิมพ์เอกสารโดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับการพิมพ์ที่ราบรื่นในแอปพลิเคชัน Java ของคุณ"
+"linktitle": "การพิมพ์เอกสาร"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การพิมพ์เอกสารใน Aspose.Words สำหรับ Java"
+"url": "/th/java/printing-documents/printing-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การพิมพ์เอกสารใน Aspose.Words สำหรับ Java
@@ -29,7 +31,7 @@ url: /th/java/printing-documents/printing-documents/
 
 ## การโหลดเอกสาร
 
- ในการเริ่มต้น คุณจะต้องโหลดเอกสาร Word ที่คุณต้องการพิมพ์ แทนที่`"Your Document Directory"` ด้วยเส้นทางไปยังเอกสารของคุณและ`"Your Output Directory"` พร้อมไดเร็กทอรีเอาท์พุตตามต้องการ
+ในการเริ่มต้น คุณจะต้องโหลดเอกสาร Word ที่คุณต้องการพิมพ์ แทนที่ `"Your Document Directory"` ด้วยเส้นทางไปยังเอกสารของคุณและ `"Your Output Directory"` พร้อมไดเร็กทอรีเอาท์พุตตามต้องการ
 
 ```java
 string dataDir = "Your Document Directory";
@@ -85,7 +87,7 @@ class MultipagePrintDocument implements Printable
     private final AttributeSet mAttributeSet;
     /// <สรุป>
     /// ตัวสร้างของคลาส PrintDocument แบบกำหนดเอง
-    // / </สรุป>
+    /// </สรุป> 
     public MultipagePrintDocument(Document document, int pagesPerSheet, boolean printPageBorders,
                                   AttributeSet attributes) {
         if (document == null)
@@ -96,7 +98,7 @@ class MultipagePrintDocument implements Printable
         mAttributeSet = attributes;
     }
     public int print(Graphics g, PageFormat pf, int page) {
-        //ดัชนีเริ่มต้นและสิ้นสุดของหน้าตามที่กำหนดไว้ในชุดแอตทริบิวต์
+        // ดัชนีเริ่มต้นและสิ้นสุดของหน้าตามที่กำหนดไว้ในชุดแอตทริบิวต์
         int[][] pageRanges = ((PageRanges) mAttributeSet.get(PageRanges.class)).getMembers();
         int fromPage = pageRanges[0][0] - 1;
         int toPage = pageRanges[0][1] - 1;
@@ -129,10 +131,10 @@ class MultipagePrintDocument implements Printable
                 int topPos = (int) (thumbTop + pf.getImageableY());
                 // เรนเดอร์หน้าเอกสารไปยังวัตถุกราฟิกโดยใช้พิกัดที่คำนวณได้
                 // และขนาดตัวแทนภาพขนาดย่อ
-                // ค่าผลตอบแทนที่มีประโยชน์คือมาตราส่วนที่แสดงผลหน้า
+                // ค่าส่งคืนที่มีประโยชน์คือมาตราส่วนที่แสดงผลหน้า
                 float scale = mDocument.renderToSize(pageIndex, (Graphics2D) g, leftPos, topPos, (int) thumbSize.x,
                         (int) thumbSize.y);
-                //วาดเส้นขอบหน้า (ภาพขนาดย่อของหน้าอาจมีขนาดเล็กกว่าภาพขนาดย่อ)
+                // วาดเส้นขอบหน้า (ขนาดย่อของหน้าอาจมีขนาดเล็กกว่าขนาดย่อ)
                 // ขนาดตัวแทน)
                 if (mPrintPageBorders) {
                     // รับขนาดจริง 100% ของหน้าในหน่วยพอยต์
@@ -188,13 +190,13 @@ class MultipagePrintDocument implements Printable
 
 ## บทสรุป
 
-ขอแสดงความยินดี! คุณได้พิมพ์เอกสาร Word สำเร็จโดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนนี้ควรช่วยให้คุณผสานการพิมพ์เอกสารเข้ากับแอปพลิเคชัน Java ได้อย่างราบรื่น
+ขอแสดงความยินดี! คุณได้พิมพ์เอกสาร Word สำเร็จโดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนนี้ควรช่วยให้คุณผสานการพิมพ์เอกสารเข้ากับแอปพลิเคชัน Java ของคุณได้อย่างราบรื่น
 
 ## คำถามที่พบบ่อย
 
 ### คำถามที่ 1: ฉันสามารถพิมพ์หน้าเฉพาะของเอกสารโดยใช้ Aspose.Words สำหรับ Java ได้หรือไม่
 
- ใช่ คุณสามารถระบุช่วงหน้าเมื่อพิมพ์เอกสารได้ ในตัวอย่างโค้ด เราใช้`attributes.add(new PageRanges(1, doc.getPageCount()))`เพื่อพิมพ์หน้าทั้งหมด คุณสามารถปรับช่วงหน้าได้ตามต้องการ
+ใช่ คุณสามารถระบุช่วงหน้าเมื่อพิมพ์เอกสารได้ ในตัวอย่างโค้ด เราใช้ `attributes.add(new PageRanges(1, doc.getPageCount()))` เพื่อพิมพ์หน้าทั้งหมด คุณสามารถปรับช่วงหน้าได้ตามต้องการ
 
 ### คำถามที่ 2: Aspose.Words สำหรับ Java เหมาะสำหรับการพิมพ์แบบแบตช์หรือไม่
 
@@ -210,14 +212,19 @@ class MultipagePrintDocument implements Printable
 
 ### คำถามที่ 5: ฉันสามารถรับความช่วยเหลือและการสนับสนุนเพิ่มเติมสำหรับ Aspose.Words สำหรับ Java ได้จากที่ใด
 
- หากต้องการการสนับสนุนและความช่วยเหลือเพิ่มเติม คุณสามารถเยี่ยมชมได้ที่[ฟอรั่ม Aspose.Words สำหรับ Java](https://forum.aspose.com/).
+หากต้องการการสนับสนุนและความช่วยเหลือเพิ่มเติม คุณสามารถเยี่ยมชม [ฟอรั่ม Aspose.Words สำหรับ Java](https://forum-aspose.com/).
 
 ---
 
 ตอนนี้คุณได้เรียนรู้วิธีพิมพ์เอกสารโดยใช้ Aspose.Words สำหรับ Java เรียบร้อยแล้ว คุณสามารถเริ่มต้นใช้งานฟังก์ชันนี้ในแอปพลิเคชัน Java ของคุณได้ ขอให้สนุกกับการเขียนโค้ด!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

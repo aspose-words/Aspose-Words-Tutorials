@@ -1,14 +1,16 @@
 ---
-title: ลดขนาดไฟล์ PDF โดยไม่ต้องฝังฟอนต์หลัก
-linktitle: ลดขนาดไฟล์ PDF โดยไม่ต้องฝังฟอนต์หลัก
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีลดขนาดไฟล์ PDF โดยไม่ต้องฝังฟอนต์หลักโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อเพิ่มประสิทธิภาพไฟล์ PDF ของคุณ
-weight: 10
-url: /th/net/programming-with-pdfsaveoptions/avoid-embedding-core-fonts/
+"description": "เรียนรู้วิธีลดขนาดไฟล์ PDF โดยไม่ต้องฝังฟอนต์หลักโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อเพิ่มประสิทธิภาพไฟล์ PDF ของคุณ"
+"linktitle": "ลดขนาดไฟล์ PDF โดยไม่ต้องฝังฟอนต์หลัก"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ลดขนาดไฟล์ PDF โดยไม่ต้องฝังฟอนต์หลัก"
+"url": "/th/net/programming-with-pdfsaveoptions/avoid-embedding-core-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลดขนาดไฟล์ PDF โดยไม่ต้องฝังฟอนต์หลัก
@@ -21,7 +23,7 @@ url: /th/net/programming-with-pdfsaveoptions/avoid-embedding-core-fonts/
 
 ก่อนที่เราจะเริ่มต้นการเดินทางที่น่าตื่นเต้นนี้ เรามาตรวจสอบกันก่อนว่าคุณได้เตรียมทุกสิ่งที่คุณต้องการแล้ว นี่คือรายการตรวจสอบด่วน:
 
--  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว หากยังไม่มี คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว หากยังไม่มี คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: คุณจะต้องมีสภาพแวดล้อมการพัฒนาเช่น Visual Studio
 - เอกสาร Word: เราจะใช้เอกสาร Word (เช่น "Rendering.docx") สำหรับบทช่วยสอนนี้
 - ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจพื้นฐานเกี่ยวกับ C# จะช่วยให้คุณทำตามได้
@@ -47,7 +49,7 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่เอกสาร Word ของคุณตั้งอยู่
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่เอกสาร Word ของคุณตั้งอยู่
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร Word
 
@@ -70,7 +72,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- การตั้งค่า`UseCoreFonts` ถึง`true` ช่วยให้แน่ใจว่าฟอนต์หลักเช่น Arial และ Times New Roman จะไม่ถูกฝังอยู่ใน PDF ซึ่งจะช่วยลดขนาดไฟล์ได้อย่างมาก
+การตั้งค่า `UseCoreFonts` ถึง `true` ช่วยให้แน่ใจว่าฟอนต์หลักเช่น Arial และ Times New Roman จะไม่ถูกฝังอยู่ใน PDF ซึ่งจะช่วยลดขนาดไฟล์ได้อย่างมาก
 
 ## ขั้นตอนที่ 4: บันทึกเอกสารเป็น PDF
 
@@ -89,22 +91,27 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.AvoidEmbeddingCoreFonts.pdf", save
 ## คำถามที่พบบ่อย
 
 ### เหตุใดฉันจึงควรหลีกเลี่ยงการฝังฟอนต์หลักใน PDF
-การหลีกเลี่ยงการฝังฟอนต์หลักจะช่วยลดขนาดไฟล์ ทำให้ง่ายต่อการแบ่งปันและจัดเก็บ
+การหลีกเลี่ยงการฝังฟอนต์หลักจะช่วยลดขนาดไฟล์ ทำให้แชร์และจัดเก็บได้ง่ายยิ่งขึ้น
 
 ### ฉันยังสามารถดู PDF ได้อย่างถูกต้องโดยไม่ต้องฝังฟอนต์หลักหรือไม่
 ใช่แล้ว แบบอักษรหลักเช่น Arial และ Times New Roman มักมีให้ใช้ในระบบส่วนใหญ่
 
 ### จะเกิดอะไรขึ้นหากฉันต้องการฝังแบบอักษรที่กำหนดเอง?
- คุณสามารถปรับแต่งได้`PdfSaveOptions`เพื่อฝังแบบอักษรเฉพาะตามต้องการ
+คุณสามารถปรับแต่งได้ `PdfSaveOptions` เพื่อฝังแบบอักษรเฉพาะตามต้องการ
 
 ### Aspose.Words สำหรับ .NET ใช้ได้ฟรีหรือไม่?
- Aspose.Words สำหรับ .NET ต้องมีใบอนุญาต คุณสามารถทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+Aspose.Words สำหรับ .NET ต้องมีใบอนุญาต คุณสามารถทดลองใช้งานฟรีได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ใด
- คุณสามารถค้นหาเอกสารรายละเอียดได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารรายละเอียดได้ [ที่นี่](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

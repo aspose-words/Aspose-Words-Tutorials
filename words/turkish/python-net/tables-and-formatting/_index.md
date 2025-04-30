@@ -1,14 +1,16 @@
 ---
-title: Tablolar ve Biçimlendirme
-linktitle: Tablolar ve Biçimlendirme
-second_title: Aspose.Words Python Belge Yönetim API'si
-description: Python ve .NET uygulamalarında tablolar ve biçimlendirme hakkında Aspose.Words eğitimlerine dalın. Görsel olarak ilgi çekici belgeler için tablolar oluşturmayı, özelleştirmeyi ve biçimlendirmeyi öğrenin.
-weight: 16
-url: /tr/python-net/tables-and-formatting/
+"description": "Python ve .NET uygulamalarında tablolar ve biçimlendirme hakkında Aspose.Words eğitimlerine dalın. Görsel olarak ilgi çekici belgeler için tablolar oluşturmayı, özelleştirmeyi ve biçimlendirmeyi öğrenin."
+"linktitle": "Tablolar ve Biçimlendirme"
+"second_title": "Aspose.Words Python Belge Yönetim API'si"
+"title": "Tablolar ve Biçimlendirme"
+"url": "/tr/python-net/tables-and-formatting/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tablolar ve Biçimlendirme
@@ -45,10 +47,14 @@ Python için Aspose.Words kullanarak belgelerde filigran oluşturmayı ve biçim
 ### [Word Belgelerinde Veri Sunumu İçin Tabloları Optimize Etme](./document-tables/)
 Python için Aspose.Words'ü kullanarak Word belgelerinde veri sunumu için tabloları nasıl optimize edeceğinizi öğrenin. Adım adım rehberlik ve kaynak kodu örnekleriyle okunabilirliği ve görsel çekiciliği artırın.
 ### [Belge Tablo Stilleri ve Biçimlendirme](./document-table-styles-formatting/)
-Python için Aspose.Words kullanarak belge tablolarını nasıl biçimlendireceğinizi ve biçimlendireceğinizi öğrenin. Adım adım kılavuzlar ve kod örnekleriyle tablolar oluşturun, özelleştirin ve dışa aktarın. Belge sunumlarınızı bugün geliştirin! 
+Aspose.Words for Python kullanarak belge tablolarını nasıl biçimlendireceğinizi ve biçimlendireceğinizi öğrenin. Adım adım kılavuzlar ve kod örnekleriyle tablolar oluşturun, özelleştirin ve dışa aktarın. Belge sunumlarınızı bugün geliştirin! 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

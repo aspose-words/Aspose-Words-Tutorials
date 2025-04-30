@@ -1,14 +1,16 @@
 ---
-title: चर प्राप्त करें
-linktitle: चर प्राप्त करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words में महारत हासिल करें। इस चरण-दर-चरण मार्गदर्शिका के साथ Word दस्तावेज़ों से चर लोड करना और निकालना सीखें।
-weight: 10
-url: /hi/net/programming-with-document-properties/get-variables/
+"description": ".NET के लिए Aspose.Words में महारत हासिल करें। इस चरण-दर-चरण मार्गदर्शिका के साथ Word दस्तावेज़ों से चर लोड करना और निकालना सीखें।"
+"linktitle": "चर प्राप्त करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "चर प्राप्त करें"
+"url": "/hi/net/programming-with-document-properties/get-variables/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # चर प्राप्त करें
@@ -22,7 +24,7 @@ url: /hi/net/programming-with-document-properties/get-variables/
 इससे पहले कि हम बारीकियों में जाएं, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
 1. C# और .NET का बुनियादी ज्ञान: आपको C# और .NET फ्रेमवर्क की मूल बातों से परिचित होना चाहिए।
-2.  Aspose.Words for .NET लाइब्रेरी: Aspose.Words for .NET लाइब्रेरी को यहाँ से डाउनलोड करें[यहाँ](https://releases.aspose.com/words/net/).
+2. Aspose.Words for .NET लाइब्रेरी: Aspose.Words for .NET लाइब्रेरी को यहाँ से डाउनलोड करें [यहाँ](https://releases.aspose.com/words/net/).
 3. विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके मशीन पर विज़ुअल स्टूडियो स्थापित है।
 
 ## नामस्थान आयात करें
@@ -54,14 +56,14 @@ using Aspose.Words;
 
 ## चरण 2: वर्ड दस्तावेज़ लोड करना
 
- चलिए अपने एप्लीकेशन में एक वर्ड डॉक्यूमेंट लोड करते हैं। हम एक सरल प्रयोग करेंगे`Document` ऐसा करने पर आपत्ति जताएं।
+चलिए अपने एप्लीकेशन में एक वर्ड डॉक्यूमेंट लोड करते हैं। हम एक सरल प्रयोग करेंगे `Document` ऐसा करने पर आपत्ति जताएं।
 
-1. अपने दस्तावेज़ निर्देशिका का पथ रखने के लिए एक नया स्ट्रिंग वैरिएबल बनाएँ:
+1. अपने दस्तावेज़ निर्देशिका का पथ रखने के लिए एक नया स्ट्रिंग वेरिएबल बनाएँ:
     ```csharp
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
 
-2.  एक बनाने के`Document` ऑब्जेक्ट और दस्तावेज़ लोड करें:
+2. एक बनाने के `Document` ऑब्जेक्ट और दस्तावेज़ लोड करें:
     ```csharp
     Document doc = new Document(dataDir + "Document.docx");
     ```
@@ -112,7 +114,7 @@ using Aspose.Words;
 हां, Aspose.Words कई भाषाओं का समर्थन करता है, लेकिन इस ट्यूटोरियल में, हमने C# पर ध्यान केंद्रित किया है।
 
 ### मैं Aspose.Words के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?
- आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### क्या Aspose.Words के साथ अन्य दस्तावेज़ प्रारूपों में हेरफेर करने का कोई तरीका है?
 बिल्कुल! Aspose.Words विभिन्न प्रारूपों जैसे DOC, DOCX, ODT, RTF, आदि का समर्थन करता है।
@@ -121,11 +123,16 @@ using Aspose.Words;
 हां, आप Aspose.Words को वेब अनुप्रयोगों, डेस्कटॉप अनुप्रयोगों और अन्य में एकीकृत कर सकते हैं।
 
 ### मैं और अधिक उदाहरण और दस्तावेज कहां पा सकता हूं?
- इसकी जाँच पड़ताल करो[Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) अधिक उदाहरणों और विस्तृत मार्गदर्शिकाओं के लिए.
+इसकी जाँच पड़ताल करो [Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) अधिक उदाहरणों और विस्तृत मार्गदर्शिकाओं के लिए.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

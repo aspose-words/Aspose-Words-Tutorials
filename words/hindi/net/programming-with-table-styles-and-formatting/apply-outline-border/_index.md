@@ -1,14 +1,16 @@
 ---
-title: आउटलाइन बॉर्डर लागू करें
-linktitle: आउटलाइन बॉर्डर लागू करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word में किसी टेबल पर आउटलाइन बॉर्डर लगाना सीखें। सही टेबल फ़ॉर्मेटिंग के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/programming-with-table-styles-and-formatting/apply-outline-border/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word में किसी टेबल पर आउटलाइन बॉर्डर लगाना सीखें। सही टेबल फ़ॉर्मेटिंग के लिए हमारे चरण-दर-चरण गाइड का पालन करें।"
+"linktitle": "आउटलाइन बॉर्डर लागू करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "आउटलाइन बॉर्डर लागू करें"
+"url": "/hi/net/programming-with-table-styles-and-formatting/apply-outline-border/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # आउटलाइन बॉर्डर लागू करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-table-styles-and-formatting/apply-outline-border/
 
 इससे पहले कि हम कोड में प्रवेश करें, आपको कुछ चीजों की आवश्यकता होगी:
 
-1.  Aspose.Words for .NET: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो जैसा उपयुक्त विकास वातावरण।
 3. C# का मूलभूत ज्ञान: C# की मूलभूत समझ आपको ट्यूटोरियल का अनुसरण करने में मदद करेगी।
 
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- इस चरण में, हम उपयोग कर रहे हैं`Document` Aspose.Words से क्लास का उपयोग करके मौजूदा दस्तावेज़ लोड करें।`"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहां आपका दस्तावेज़ संग्रहीत है.
+इस चरण में, हम उपयोग कर रहे हैं `Document` Aspose.Words से क्लास का उपयोग करके मौजूदा दस्तावेज़ लोड करें। `"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहां आपका दस्तावेज़ संग्रहीत है.
 
 ## चरण 2: टेबल तक पहुंचें
 
@@ -59,7 +61,7 @@ Document doc = new Document(dataDir + "Tables.docx");
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 ```
 
- यहाँ,`GetChild` विधि दस्तावेज़ में पहली तालिका लाती है। पैरामीटर`NodeType.Table, 0, true` सुनिश्चित करें कि हमें सही नोड प्रकार मिले.
+यहाँ, `GetChild` विधि दस्तावेज़ में पहली तालिका लाती है। पैरामीटर `NodeType.Table, 0, true` सुनिश्चित करें कि हमें सही नोड प्रकार मिले.
 
 ## चरण 3: तालिका संरेखित करें
 
@@ -92,7 +94,7 @@ table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 ```
 
- प्रत्येक बॉर्डर प्रकार (बाएं, दाएं, ऊपर, नीचे) अलग से सेट किया गया है। हम उपयोग करते हैं`LineStyle.Single` एक ठोस रेखा के लिए,`1.5` रेखा की चौड़ाई के लिए, और`Color.Green` सीमा रंग के लिए.
+प्रत्येक बॉर्डर प्रकार (बाएं, दाएं, ऊपर, नीचे) अलग से सेट किया गया है। हम उपयोग करते हैं `LineStyle.Single` एक ठोस रेखा के लिए, `1.5` रेखा की चौड़ाई के लिए, और `Color.Green` सीमा रंग के लिए.
 
 ## चरण 6: सेल शेडिंग लागू करें
 
@@ -102,11 +104,11 @@ table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 ```
 
- यहाँ,`SetShading` इसका उपयोग कोशिकाओं पर एक ठोस हल्का हरा रंग लगाने के लिए किया जाता है, जिससे तालिका अलग दिखाई देती है।
+यहाँ, `SetShading` इसका उपयोग कोशिकाओं पर एक ठोस हल्का हरा रंग लगाने के लिए किया जाता है, जिससे तालिका अलग दिखाई देती है।
 
 ## चरण 7: दस्तावेज़ सहेजें
 
-अंत में, संशोधित दस्तावेज़ को सहेजें.
+अंत में, संशोधित दस्तावेज़ को सहेजें।
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
@@ -123,22 +125,27 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx"
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### क्या मैं तालिका की प्रत्येक सीमा पर अलग-अलग शैलियाँ लागू कर सकता हूँ?  
- हां, आप पैरामीटर समायोजित करके प्रत्येक बॉर्डर पर अलग-अलग शैलियाँ और रंग लागू कर सकते हैं`SetBorder` तरीका।
+हां, आप पैरामीटर समायोजित करके प्रत्येक बॉर्डर पर अलग-अलग शैलियाँ और रंग लागू कर सकते हैं `SetBorder` तरीका।
 
 ### मैं बॉर्डर की चौड़ाई कैसे बदल सकता हूँ?  
- आप तीसरे पैरामीटर को संशोधित करके चौड़ाई बदल सकते हैं`SetBorder` विधि। उदाहरण के लिए,`1.5` 1.5 अंक की चौड़ाई निर्धारित करता है.
+आप तीसरे पैरामीटर को संशोधित करके चौड़ाई बदल सकते हैं `SetBorder` विधि। उदाहरण के लिए, `1.5` 1.5 अंक की चौड़ाई निर्धारित करता है.
 
 ### क्या व्यक्तिगत कोशिकाओं पर छायांकन लागू करना संभव है?  
- हां, आप प्रत्येक सेल तक पहुंचकर और इसका उपयोग करके व्यक्तिगत सेल पर छायांकन लागू कर सकते हैं`SetShading` तरीका।
+हां, आप प्रत्येक सेल तक पहुंचकर और इसका उपयोग करके व्यक्तिगत सेल पर छायांकन लागू कर सकते हैं `SetShading` तरीका।
 
 ### क्या मैं बॉर्डर और छायांकन के लिए अन्य रंगों का उपयोग कर सकता हूँ?  
- बिल्कुल! आप किसी भी उपलब्ध रंग का उपयोग कर सकते हैं`System.Drawing.Color` कक्षा।
+बिल्कुल! आप किसी भी उपलब्ध रंग का उपयोग कर सकते हैं `System.Drawing.Color` कक्षा।
 
 ### मैं तालिका को क्षैतिज रूप से केंद्र-संरेखित कैसे करूं?  
-`table.Alignment = TableAlignment.Center;` कोड में पंक्ति तालिका को पृष्ठ पर क्षैतिज रूप से केन्द्रित करती है।
+The `table.Alignment = TableAlignment.Center;` कोड में पंक्ति तालिका को पृष्ठ पर क्षैतिज रूप से केन्द्रित करती है।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

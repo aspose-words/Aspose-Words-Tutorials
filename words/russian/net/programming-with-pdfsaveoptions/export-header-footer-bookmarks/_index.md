@@ -1,14 +1,16 @@
 ---
-title: Экспорт закладок верхнего и нижнего колонтитула документа Word в документ PDF
-linktitle: Экспорт закладок верхнего и нижнего колонтитула документа Word в документ PDF
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как экспортировать закладки верхнего и нижнего колонтитула из документа Word в PDF с помощью Aspose.Words для .NET, следуя нашему пошаговому руководству.
-weight: 10
-url: /ru/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/
+"description": "Узнайте, как экспортировать закладки верхнего и нижнего колонтитула из документа Word в PDF с помощью Aspose.Words для .NET, следуя нашему пошаговому руководству."
+"linktitle": "Экспорт закладок верхнего и нижнего колонтитула документа Word в документ PDF"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Экспорт закладок верхнего и нижнего колонтитула документа Word в документ PDF"
+"url": "/ru/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Экспорт закладок верхнего и нижнего колонтитула документа Word в документ PDF
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/
 
 Прежде чем мы начнем, убедитесь, что у вас есть следующее:
 
-- Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Вы можете загрузить его с[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Вы можете загрузить его с [здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: Настройте среду разработки. Вы можете использовать Visual Studio или любую другую совместимую с .NET IDE.
 - Базовые знания C#: для понимания примеров кода необходимы навыки программирования на C#.
 
@@ -58,9 +60,9 @@ saveOptions.OutlineOptions.DefaultBookmarksOutlineLevel = 1;
 saveOptions.HeaderFooterBookmarksExportMode = HeaderFooterBookmarksExportMode.First;
 ```
 
- Здесь мы настраиваем`PdfSaveOptions` .`DefaultBookmarksOutlineLevel` свойство устанавливает уровень структуры для закладок, а`HeaderFooterBookmarksExportMode` свойство гарантирует, что экспортируется только первое вхождение закладок в верхних и нижних колонтитулах.
+Здесь мы настраиваем `PdfSaveOptions`. `DefaultBookmarksOutlineLevel` свойство устанавливает уровень структуры для закладок, а `HeaderFooterBookmarksExportMode` свойство гарантирует, что экспортируется только первое вхождение закладок в верхних и нижних колонтитулах.
 
-## Шаг 3: Сохраните документ как PDF.
+## Шаг 3: Сохраните документ как PDF
 
 Наконец, сохраните документ в формате PDF с настроенными параметрами.
 
@@ -78,15 +80,15 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.ExportHeaderFooterBookmarks.pdf", 
 
 ### Могу ли я экспортировать все закладки из документа Word в PDF?
 
- Да, можно. В`PdfSaveOptions`, вы можете настроить параметры так, чтобы включить все закладки, если это необходимо.
+Да, можно. В `PdfSaveOptions`, вы можете настроить параметры так, чтобы включить все закладки, если это необходимо.
 
 ### Что делать, если я хочу экспортировать закладки также из текста документа?
 
- Вы можете настроить`OutlineOptions` в`PdfSaveOptions` для включения закладок из текста документа.
+Вы можете настроить `OutlвeOptions` in `PdfSaveOptions` для включения закладок из текста документа.
 
 ### Можно ли настроить уровни закладок в PDF-файле?
 
- Конечно! Вы можете настроить`DefaultBookmarksOutlineLevel` свойство для установки различных уровней контура для ваших закладок.
+Конечно! Вы можете настроить `DefaultBookmarksOutlineLevel` свойство для установки различных уровней контура для ваших закладок.
 
 ### Как работать с документами без закладок?
 
@@ -95,9 +97,14 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.ExportHeaderFooterBookmarks.pdf", 
 ### Могу ли я использовать этот метод для других типов документов, таких как DOCX или RTF?
 
 Да, Aspose.Words для .NET поддерживает различные типы документов, включая DOCX, RTF и другие.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

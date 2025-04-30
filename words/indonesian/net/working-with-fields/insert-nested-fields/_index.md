@@ -1,14 +1,16 @@
 ---
-title: Sisipkan Bidang Bersarang
-linktitle: Sisipkan Bidang Bersarang
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyisipkan kolom bersarang dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Sempurna bagi pengembang yang ingin mengotomatiskan pembuatan dokumen.
-weight: 10
-url: /id/net/working-with-fields/insert-nested-fields/
+"description": "Pelajari cara menyisipkan kolom bersarang dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Sempurna bagi pengembang yang ingin mengotomatiskan pembuatan dokumen."
+"linktitle": "Sisipkan Bidang Bersarang"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Sisipkan Bidang Bersarang"
+"url": "/id/net/working-with-fields/insert-nested-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sisipkan Bidang Bersarang
@@ -21,7 +23,7 @@ Pernahkah Anda merasa perlu memasukkan kolom bersarang ke dalam dokumen Word sec
 
 Sebelum kita mulai, ada beberapa hal yang Anda perlukan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda memiliki pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda memiliki pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: IDE seperti Visual Studio.
 3. Pengetahuan Dasar C#: Pemahaman tentang bahasa pemrograman C#.
 
@@ -62,7 +64,7 @@ for (int i = 0; i < 5; i++)
 
 ## Langkah 3: Pindah ke Footer
 
-Setelah menyisipkan pemisah halaman, kita perlu pindah ke bagian bawah dokumen. Di sinilah kita akan menyisipkan kolom bersarang.
+Setelah memasukkan pemisah halaman, kita perlu pindah ke bagian bawah dokumen. Di sinilah kita akan memasukkan kolom bersarang.
 
 ```csharp
 // Pindah ke footer.
@@ -115,16 +117,21 @@ Kolom bersarang adalah kolom yang memuat kolom lain di dalamnya. Kolom ini memun
 Ya, Anda dapat menyarangkan berbagai bidang seperti TANGGAL, WAKTU, dan PENULIS dalam bidang IF untuk membuat konten dinamis.
 
 ### Apakah Aspose.Words untuk .NET gratis?
- Aspose.Words untuk .NET adalah pustaka komersial, tetapi Anda bisa mendapatkannya[uji coba gratis](https://releases.aspose.com/) untuk mencobanya.
+Aspose.Words untuk .NET adalah pustaka komersial, tetapi Anda bisa mendapatkannya [uji coba gratis](https://releases.aspose.com/) untuk mencobanya.
 
 ### Bisakah saya menggunakan Aspose.Words dengan bahasa .NET lainnya?
 Ya, Aspose.Words mendukung semua bahasa .NET, termasuk VB.NET dan F#.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
- Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi terperinci [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

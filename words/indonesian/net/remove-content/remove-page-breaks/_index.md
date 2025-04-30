@@ -1,14 +1,16 @@
 ---
-title: Hapus Hentian Halaman di Dokumen Word
-linktitle: Hapus Hentian Halaman
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menghapus pemisah halaman dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Tingkatkan keterampilan manipulasi dokumen Anda.
-weight: 10
-url: /id/net/remove-content/remove-page-breaks/
+"description": "Pelajari cara menghapus pemisah halaman dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Tingkatkan keterampilan manipulasi dokumen Anda."
+"linktitle": "Hapus Hentian Halaman"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Hapus Hentian Halaman di Dokumen Word"
+"url": "/id/net/remove-content/remove-page-breaks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Hentian Halaman di Dokumen Word
@@ -21,7 +23,7 @@ Menghapus pemisah halaman dari dokumen Word sangat penting untuk menjaga konsist
 
 Sebelum kita menyelami panduan langkah demi langkah, pastikan Anda memiliki prasyarat berikut:
 
--  Aspose.Words untuk .NET: Unduh dan instal pustaka dari[Rilis Aspose](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Unduh dan instal pustaka dari [Rilis Aspose](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: IDE seperti Visual Studio.
 - .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda.
 - Contoh Dokumen: Dokumen Word (.docx) yang berisi jeda halaman.
@@ -41,7 +43,7 @@ Mari kita uraikan prosesnya menjadi beberapa langkah yang sederhana dan mudah di
 
 Pertama, Anda perlu menyiapkan lingkungan pengembangan dan membuat proyek baru.
 
-Buat Proyek Baru di Visual Studio
+Membuat Proyek Baru di Visual Studio
 1. Buka Visual Studio dan buat aplikasi konsol C# baru.
 2. Beri nama proyek Anda dan klik "Buat."
 
@@ -58,7 +60,7 @@ Muat Dokumen
 string dataDir = "YOUR DOCUMENT DIRECTORY"; 
 Document doc = new Document(dataDir + "your-document.docx");
 ```
- Pada langkah ini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur ke dokumen Anda.
+Pada langkah ini, ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur ke dokumen Anda.
 
 ## Langkah 3: Akses Node Paragraf
 
@@ -101,7 +103,7 @@ Simpan Dokumen
 ```csharp
 doc.Save(dataDir + "modified-document.docx", SaveFormat.Docx);
 ```
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur tempat Anda ingin menyimpan dokumen yang dimodifikasi.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur tempat Anda ingin menyimpan dokumen yang dimodifikasi.
 
 ## Kesimpulan
 
@@ -113,19 +115,24 @@ Nah, itu dia! Hanya dengan beberapa baris kode, kami berhasil menghapus pemisah 
 Ya, Aspose.Words mendukung semua bahasa .NET, termasuk VB.NET, F#, dan lainnya.
 
 ### Apakah Aspose.Words untuk .NET gratis untuk digunakan?
- Aspose.Words menawarkan uji coba gratis. Untuk penggunaan jangka panjang, Anda dapat membeli lisensi dari[Aspose Pembelian](https://purchase.aspose.com/buy).
+Aspose.Words menawarkan uji coba gratis. Untuk penggunaan jangka panjang, Anda dapat membeli lisensi dari [Aspose Pembelian](https://purchase.aspose.com/buy).
 
 ### Bisakah saya menghapus jenis jeda lainnya (seperti jeda bagian) menggunakan Aspose.Words?
 Ya, Anda dapat memanipulasi berbagai jenis jeda dalam dokumen menggunakan Aspose.Words.
 
 ### Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah?
- Anda bisa mendapatkan dukungan dari komunitas dan forum Aspose di[Dukungan Aspose](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari komunitas dan forum Aspose di [Dukungan Aspose](https://forum.aspose.com/c/words/8).
 
 ### Format file apa yang didukung Aspose.Words?
-Aspose.Words mendukung banyak format file, termasuk DOCX, DOC, PDF, HTML, dan banyak lagi. Anda dapat menemukan daftar lengkapnya di[Dokumentasi Aspose](https://reference.aspose.com/words/net/).
+Aspose.Words mendukung banyak format file, termasuk DOCX, DOC, PDF, HTML, dan banyak lagi. Anda dapat menemukan daftar lengkapnya di [Dokumentasi Aspose](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

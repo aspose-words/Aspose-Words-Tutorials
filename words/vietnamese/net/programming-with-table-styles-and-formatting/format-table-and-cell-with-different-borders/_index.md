@@ -1,14 +1,16 @@
 ---
-title: Định dạng bảng và ô có đường viền khác nhau
-linktitle: Định dạng bảng và ô có đường viền khác nhau
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách định dạng bảng và ô với các đường viền khác nhau bằng Aspose.Words cho .NET. Cải thiện tài liệu Word của bạn với các kiểu bảng tùy chỉnh và tô bóng ô.
-weight: 10
-url: /vi/net/programming-with-table-styles-and-formatting/format-table-and-cell-with-different-borders/
+"description": "Tìm hiểu cách định dạng bảng và ô với các đường viền khác nhau bằng Aspose.Words cho .NET. Cải thiện tài liệu Word của bạn với các kiểu bảng tùy chỉnh và tô bóng ô."
+"linktitle": "Định dạng bảng và ô có đường viền khác nhau"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Định dạng bảng và ô có đường viền khác nhau"
+"url": "/vi/net/programming-with-table-styles-and-formatting/format-table-and-cell-with-different-borders/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Định dạng bảng và ô có đường viền khác nhau
@@ -22,8 +24,8 @@ Bạn đã bao giờ thử làm cho tài liệu Word của mình trông chuyên 
 Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 - Hiểu biết cơ bản về lập trình C#.
 - Đã cài đặt Visual Studio trên máy tính của bạn.
--  Aspose.Words cho thư viện .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
--  Giấy phép Aspose hợp lệ. Bạn có thể nhận được bản dùng thử miễn phí hoặc giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words cho thư viện .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
+- Giấy phép Aspose hợp lệ. Bạn có thể nhận được bản dùng thử miễn phí hoặc giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập không gian tên
 
@@ -40,7 +42,7 @@ using System.Drawing;
 Đầu tiên, bạn cần tạo một tài liệu mới và khởi tạo DocumentBuilder, giúp xây dựng nội dung tài liệu. 
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -138,22 +140,27 @@ Và bạn đã có nó! Bạn vừa học cách định dạng bảng và ô v�
 ## Câu hỏi thường gặp
 
 ### Tôi có thể sử dụng các kiểu đường viền khác nhau cho mỗi ô không?
- Có, bạn có thể thiết lập các kiểu đường viền khác nhau cho mỗi ô bằng cách sử dụng`CellFormat.Borders` tài sản.
+Có, bạn có thể thiết lập các kiểu đường viền khác nhau cho mỗi ô bằng cách sử dụng `CellFormat.Borders` tài sản.
 
 ### Làm thế nào để xóa toàn bộ đường viền khỏi bảng?
- Bạn có thể xóa tất cả các đường viền bằng cách thiết lập kiểu đường viền thành`LineStyle.None`.
+Bạn có thể xóa tất cả các đường viền bằng cách thiết lập kiểu đường viền thành `LineStyle.None`.
 
 ### Có thể thiết lập màu đường viền khác nhau cho mỗi ô không?
- Chắc chắn rồi! Bạn có thể tùy chỉnh màu đường viền cho mỗi ô bằng cách sử dụng`CellFormat.Borders.Color` tài sản.
+Chắc chắn rồi! Bạn có thể tùy chỉnh màu đường viền cho mỗi ô bằng cách sử dụng `CellFormat.Borders.Color` tài sản.
 
 ### Tôi có thể sử dụng hình ảnh làm hình nền điện thoại không?
 Mặc dù Aspose.Words không hỗ trợ trực tiếp hình ảnh làm hình nền ô, bạn vẫn có thể chèn hình ảnh vào ô và điều chỉnh kích thước để phủ kín vùng ô đó.
 
 ### Làm thế nào để tôi có thể hợp nhất các ô trong bảng?
- Bạn có thể hợp nhất các ô bằng cách sử dụng`CellFormat.HorizontalMerge` Và`CellFormat.VerticalMerge` của cải.
+Bạn có thể hợp nhất các ô bằng cách sử dụng `CellFormat.HorizontalMerge` Và `CellFormat.VerticalMerge` của cải.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

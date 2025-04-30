@@ -1,14 +1,16 @@
 ---
-title: Korzystanie ze strukturalnych znaczników dokumentu (SDT) w Aspose.Words dla języka Java
-linktitle: Korzystanie ze strukturalnych znaczników dokumentu (SDT)
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak używać Structured Document Tags (SDT) w Aspose.Words for Java dzięki temu kompleksowemu przewodnikowi. Twórz, modyfikuj i wiąż SDT z niestandardowymi danymi XML.
-weight: 19
-url: /pl/java/document-manipulation/using-structured-document-tags/
+"description": "Dowiedz się, jak używać Structured Document Tags (SDT) w Aspose.Words for Java dzięki temu kompleksowemu przewodnikowi. Twórz, modyfikuj i wiąż SDT z niestandardowymi danymi XML."
+"linktitle": "Korzystanie ze strukturalnych znaczników dokumentu (SDT)"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Korzystanie ze strukturalnych znaczników dokumentu (SDT) w Aspose.Words dla języka Java"
+"url": "/pl/java/document-manipulation/using-structured-document-tags/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie ze strukturalnych znaczników dokumentu (SDT) w Aspose.Words dla języka Java
@@ -23,7 +25,7 @@ Structured Document Tags (SDT) to potężna funkcja w Aspose.Words for Java, kt�
 Zanim przejdziemy do szczegółów, skonfigurujmy nasze środowisko i utwórzmy podstawowy SDT. W tej sekcji omówimy następujące tematy:
 
 - Tworzenie nowego dokumentu
-- Dodawanie znacznika dokumentu strukturalnego
+- Dodawanie strukturalnego znacznika dokumentu
 - Zapisywanie dokumentu
 
 ```java
@@ -233,7 +235,7 @@ Ustrukturyzowane Tagi Dokumentów (SDT) służą do organizowania i formatowania
 
 ### Jak mogę sprawdzić aktualny stan Checkbox SDT?
 
- Aktualny stan pola wyboru SDT można sprawdzić za pomocą`setChecked` metoda, jak pokazano w artykule.
+Aktualny stan pola wyboru SDT można sprawdzić za pomocą `setChecked` metoda, jak pokazano w artykule.
 
 ### Czy mogę stosować style do kontrolek zawartości?
 
@@ -246,9 +248,14 @@ Tak, można powiązać SDT z niestandardowymi danymi XML, co umożliwia dynamicz
 ### Czym są sekcje powtarzalne w SDT?
 
 Powtarzalne sekcje w SDT umożliwiają tworzenie tabel z dynamicznymi danymi, w których wiersze mogą być powtarzane na podstawie mapowanych danych XML.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

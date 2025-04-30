@@ -1,46 +1,48 @@
 ---
-title: Dokumentumok mentése ODT formátumban az Aspose.Words for Java programban
-linktitle: Dokumentumok mentése ODT formátumban
-second_title: Aspose.Words Java Document Processing API
-description: Ismerje meg, hogyan menthet dokumentumokat ODT formátumban az Aspose.Words for Java használatával. Biztosítsa a kompatibilitást a nyílt forráskódú irodai programcsomagokkal.
-weight: 19
-url: /hu/java/document-loading-and-saving/saving-documents-as-odt-format/
+"description": "Tanulja meg, hogyan menthet dokumentumokat ODT formátumban az Aspose.Words for Java használatával. Biztosítsa a kompatibilitást a nyílt forráskódú irodai csomagokkal."
+"linktitle": "Dokumentumok mentése ODT formátumban"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Dokumentumok mentése ODT formátumban az Aspose.Words for Java programban"
+"url": "/hu/java/document-loading-and-saving/saving-documents-as-odt-format/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dokumentumok mentése ODT formátumban az Aspose.Words for Java programban
 
 
-## Bevezetés a dokumentumok ODT formátumban történő mentésébe az Aspose.Words for Java programban
+## Bevezetés a dokumentumok ODT formátumban történő mentéséhez az Aspose.Words for Java programban
 
-Ebben a cikkben megvizsgáljuk, hogyan lehet dokumentumokat menteni ODT (Open Document Text) formátumban az Aspose.Words for Java használatával. Az ODT egy népszerű nyílt szabványú dokumentumformátum, amelyet különféle irodai csomagok, köztük az OpenOffice és a LibreOffice használnak. A dokumentumok ODT formátumban történő mentésével biztosíthatja a kompatibilitást ezekkel a szoftvercsomagokkal.
+Ebben a cikkben azt vizsgáljuk meg, hogyan menthetünk dokumentumokat ODT (Open Document Text) formátumban az Aspose.Words for Java segítségével. Az ODT egy népszerű, nyílt szabványú dokumentumformátum, amelyet különféle irodai csomagok, köztük az OpenOffice és a LibreOffice használnak. A dokumentumok ODT formátumban történő mentésével biztosíthatja a kompatibilitást ezekkel a szoftvercsomagokkal.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
 1. Java fejlesztői környezet: Győződjön meg arról, hogy a Java Development Kit (JDK) telepítve van a rendszerén.
 
-2.  Aspose.Words for Java: Töltse le és telepítse az Aspose.Words for Java könyvtárat. A letöltési linket megtalálod[itt](https://releases.aspose.com/words/java/).
+2. Aspose.Words for Java: Töltse le és telepítse az Aspose.Words for Java könyvtárat. A letöltési linket itt találja: [itt](https://releases.aspose.com/words/java/).
 
-3. Mintadokumentum: rendelkezzen egy minta Word-dokumentummal (pl. "Document.docx"), amelyet ODT formátumba szeretne konvertálni.
+3. Mintadokumentum: Készítsen egy minta Word-dokumentumot (pl. „Dokumentum.docx”), amelyet ODT formátumba szeretne konvertálni.
 
-## 1. lépés: Töltse be a dokumentumot
+## 1. lépés: A dokumentum betöltése
 
-Először töltsük be a Word dokumentumot az Aspose.Words for Java használatával:
+Először is, töltsük be a Word dokumentumot az Aspose.Words for Java használatával:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
 ```
 
- Itt,`"Your Directory Path"` arra a könyvtárra kell mutatnia, ahol a dokumentum található.
+Itt, `"Your Directory Path"` arra a könyvtárra kell mutatnia, ahol a dokumentum található.
 
-## 2. lépés: Adja meg az ODT mentési beállításokat
+## 2. lépés: ODT mentési beállítások megadása
 
-dokumentum ODT-ként való mentéséhez meg kell adnunk az ODT mentési beállításokat. Ezenkívül beállíthatjuk a dokumentum mértékegységét. Az Open Office centimétereket, míg az MS Office hüvelyket használ. Hüvelykre állítjuk be:
+A dokumentum ODT formátumban történő mentéséhez meg kell adnunk az ODT mentési beállításait. Ezenkívül beállíthatjuk a dokumentum mértékegységét is. Az Open Office centimétert, míg az MS Office hüvelyket használ. Mi hüvelykre fogjuk állítani:
 
 ```java
 OdtSaveOptions saveOptions = new OdtSaveOptions();
@@ -49,52 +51,57 @@ saveOptions.setMeasureUnit(OdtSaveMeasureUnit.INCHES);
 
 ## 3. lépés: Mentse el a dokumentumot
 
-Itt az ideje, hogy a dokumentumot ODT formátumban mentse:
+Most itt az ideje, hogy mentsük a dokumentumot ODT formátumban:
 
 ```java
 doc.save("Your Directory Path" + "WorkingWithOdtSaveOptions.MeasureUnit.odt", saveOptions);
 ```
 
- Itt,`"Your Directory Path"` arra a könyvtárra kell mutatnia, ahová menteni szeretné a konvertált ODT fájlt.
+Itt, `"Your Directory Path"` arra a könyvtárra kell mutatnia, ahová a konvertált ODT fájlt menteni szeretné.
 
-## Teljes forráskód a dokumentumok ODT formátumban történő mentéséhez az Aspose.Words for Java programban
+## Teljes forráskód dokumentumok ODT formátumban történő mentéséhez Aspose.Words for Java programban
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
-// Az Open Office centimétereket használ a hosszúság, szélesség és egyéb mérhető formázás megadásakor
-// és tartalomtulajdonságok a dokumentumokban, míg az MS Office hüvelykeket használ.
+// Az Open Office centimétereket használ a hosszúságok, szélességek és egyéb mérhető formázások meghatározásakor
+// és a dokumentumok tartalmi tulajdonságait, míg az MS Office hüvelykben használja.
 OdtSaveOptions saveOptions = new OdtSaveOptions(); { saveOptions.setMeasureUnit(OdtSaveMeasureUnit.INCHES); }
 doc.save("Your Directory Path" + "WorkingWithOdtSaveOptions.MeasureUnit.odt", saveOptions);
 ```
 
 ## Következtetés
 
-Ebből a cikkből megtudtuk, hogyan lehet dokumentumokat menteni ODT formátumban az Aspose.Words for Java használatával. Ez különösen akkor lehet hasznos, ha biztosítania kell a kompatibilitást a nyílt forráskódú irodai programcsomagokkal, például az OpenOffice és a LibreOffice.
+Ebben a cikkben megtanultuk, hogyan menthetünk dokumentumokat ODT formátumban az Aspose.Words for Java használatával. Ez különösen hasznos lehet, ha biztosítani kell a kompatibilitást a nyílt forráskódú irodai csomagokkal, például az OpenOffice-szal és a LibreOffice-szal.
 
 ## GYIK
 
-### Hogyan tölthetem le az Aspose.Words for Java programot?
+### Hogyan tudom letölteni az Aspose.Words programot Java-hoz?
 
- Az Aspose.Words for Java letölthető az Aspose webhelyéről. Látogatás[ezt a linket](https://releases.aspose.com/words/java/) a letöltési oldal eléréséhez.
+Az Aspose.Words for Java programot letöltheted az Aspose weboldaláról. Látogass el a következőre: [ezt a linket](https://releases.aspose.com/words/java/) a letöltési oldal eléréséhez.
 
-### Milyen előnyökkel jár a dokumentumok ODT formátumban történő mentése?
+### Mi az előnye a dokumentumok ODT formátumban történő mentésének?
 
-A dokumentumok ODT formátumban történő mentése biztosítja a kompatibilitást az olyan nyílt forráskódú irodai programcsomagokkal, mint az OpenOffice és a LibreOffice, megkönnyítve e szoftvercsomagok felhasználóinak a dokumentumok elérését és szerkesztését.
+A dokumentumok ODT formátumban történő mentése biztosítja a kompatibilitást a nyílt forráskódú irodai csomagokkal, mint például az OpenOffice és a LibreOffice, megkönnyítve ezen szoftvercsomagok felhasználói számára a dokumentumok elérését és szerkesztését.
 
-### Meg kell adnom a mértékegységet ODT formátumú mentéskor?
+### Meg kell adnom a mértékegységet ODT formátumban mentéskor?
 
-Igen, jó gyakorlat a mértékegység megadása. Az Open Office alapértelmezés szerint centimétert használ, így hüvelykre állítása biztosítja a konzisztens formázást.
+Igen, jó gyakorlat a mértékegység megadása. Az Open Office alapértelmezés szerint centimétert használ, így a hüvelykre állítás biztosítja az egységes formázást.
 
-### Konvertálhatok több dokumentumot ODT formátumba kötegelt folyamatban?
+### Konvertálhatok több dokumentumot ODT formátumba kötegelt feldolgozással?
 
-Igen, automatizálhatja több dokumentum konvertálását ODT formátumba az Aspose.Words for Java segítségével a dokumentumfájlok ismétlésével és az átalakítási folyamat alkalmazásával.
+Igen, automatizálhatja több dokumentum ODT formátumba konvertálását az Aspose.Words for Java segítségével a dokumentumfájlok végigkeresésével és a konvertálási folyamat alkalmazásával.
 
-### Az Aspose.Words for Java kompatibilis a legújabb Java-verziókkal?
+### Kompatibilis az Aspose.Words for Java a legújabb Java verziókkal?
 
-Az Aspose.Words for Java programot rendszeresen frissítik, hogy támogassa a legújabb Java-verziókat, biztosítva ezzel a kompatibilitást és a teljesítménynövekedést. A legfrissebb információkért feltétlenül ellenőrizze a rendszerkövetelményeket a dokumentációban.
+Az Aspose.Words for Java rendszeresen frissül, hogy támogassa a legújabb Java verziókat, biztosítva a kompatibilitást és a teljesítménybeli javulást. A legfrissebb információkért ellenőrizze a dokumentációban található rendszerkövetelményeket.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

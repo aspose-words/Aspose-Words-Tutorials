@@ -1,14 +1,16 @@
 ---
-title: Mỏ neo dọc
-linktitle: Mỏ neo dọc
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thiết lập vị trí neo dọc cho hộp văn bản trong tài liệu Word bằng Aspose.Words cho .NET. Có kèm hướng dẫn từng bước dễ dàng.
-weight: 10
-url: /vi/net/programming-with-shapes/vertical-anchor/
+"description": "Tìm hiểu cách thiết lập vị trí neo dọc cho hộp văn bản trong tài liệu Word bằng Aspose.Words cho .NET. Có kèm hướng dẫn từng bước dễ dàng."
+"linktitle": "Mỏ neo dọc"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Mỏ neo dọc"
+"url": "/vi/net/programming-with-shapes/vertical-anchor/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mỏ neo dọc
@@ -21,7 +23,7 @@ Bạn đã bao giờ thấy mình cần kiểm soát chính xác vị trí văn 
 
 Trước khi đi sâu vào các chi tiết cơ bản của neo thẳng đứng, bạn cần chuẩn bị một số thứ sau:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Nếu bạn chưa có, bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Nếu bạn chưa có, bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. Visual Studio: Hướng dẫn này giả định rằng bạn đang sử dụng Visual Studio hoặc một IDE .NET khác để viết mã.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với C# và .NET sẽ giúp bạn theo dõi dễ dàng.
 
@@ -41,14 +43,14 @@ Các không gian tên này cung cấp các lớp bạn cần để làm việc v
 Trước tiên, bạn cần tạo một tài liệu Word mới. Hãy nghĩ về điều này như việc thiết lập canvas trước khi bạn bắt đầu vẽ.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Đây,`Document` là bức tranh trắng của bạn, và`DocumentBuilder` là cọ vẽ của bạn, cho phép bạn thêm hình dạng và văn bản.
+Đây, `Document` là bức tranh trắng của bạn, và `DocumentBuilder` là cọ vẽ của bạn, cho phép bạn thêm hình dạng và văn bản.
 
 ## Bước 2: Chèn Hình Hộp Văn Bản
 
@@ -58,7 +60,7 @@ Bây giờ, hãy thêm một hộp văn bản vào tài liệu của chúng ta. 
 Shape textBox = builder.InsertShape(ShapeType.TextBox, 200, 200);
 ```
 
- Trong ví dụ này,`ShapeType.TextBox` chỉ định hình dạng bạn muốn và`200, 200` là chiều rộng và chiều cao của hộp văn bản tính bằng điểm.
+Trong ví dụ này, `ShapeType.TextBox` chỉ định hình dạng bạn muốn và `200, 200` là chiều rộng và chiều cao của hộp văn bản tính bằng điểm.
 
 ## Bước 3: Đặt neo dọc
 
@@ -68,7 +70,7 @@ Shape textBox = builder.InsertShape(ShapeType.TextBox, 200, 200);
 textBox.TextBox.VerticalAnchor = TextBoxAnchor.Bottom;
 ```
 
- Trong trường hợp này,`TextBoxAnchor.Bottom`đảm bảo rằng văn bản sẽ được neo vào dưới cùng của hộp văn bản. Nếu bạn muốn nó được căn giữa hoặc căn chỉnh lên trên cùng, bạn sẽ sử dụng`TextBoxAnchor.Center` hoặc`TextBoxAnchor.Top`, tương ứng.
+Trong trường hợp này, `TextBoxAnchor.Bottom` đảm bảo rằng văn bản sẽ được neo vào dưới cùng của hộp văn bản. Nếu bạn muốn nó được căn giữa hoặc căn chỉnh lên trên cùng, bạn sẽ sử dụng `TextBoxAnchhoặc.Center` or `TextBoxAnchor.Top`, tương ứng.
 
 ## Bước 4: Thêm văn bản vào hộp văn bản
 
@@ -79,7 +81,7 @@ builder.MoveTo(textBox.FirstParagraph);
 builder.Write("Textbox contents");
 ```
 
- Đây,`MoveTo` đảm bảo rằng văn bản được chèn vào hộp văn bản và`Write` thêm văn bản thực tế.
+Đây, `MoveTo` đảm bảo rằng văn bản được chèn vào hộp văn bản và `Write` thêm văn bản thực tế.
 
 ## Bước 5: Lưu tài liệu
 
@@ -102,16 +104,21 @@ Neo theo chiều dọc kiểm soát vị trí văn bản được định vị t
 Có, bạn có thể sử dụng neo theo chiều dọc với các hình dạng khác, mặc dù hộp văn bản là trường hợp sử dụng phổ biến nhất.
 
 ### Làm thế nào để thay đổi điểm neo sau khi tạo hộp văn bản?
- Bạn có thể thay đổi điểm neo bằng cách thiết lập`VerticalAnchor` thuộc tính trên đối tượng hình dạng hộp văn bản.
+Bạn có thể thay đổi điểm neo bằng cách thiết lập `VerticalAnchor` thuộc tính trên đối tượng hình dạng hộp văn bản.
 
 ### Có thể neo văn bản vào giữa hộp văn bản không?
- Chắc chắn rồi! Chỉ cần sử dụng`TextBoxAnchor.Center` để căn giữa văn bản theo chiều dọc trong hộp văn bản.
+Chắc chắn rồi! Chỉ cần sử dụng `TextBoxAnchor.Center` để căn giữa văn bản theo chiều dọc trong hộp văn bản.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Words cho .NET ở đâu?
- Kiểm tra các[Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) để biết thêm chi tiết và hướng dẫn.
+Kiểm tra các [Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) để biết thêm chi tiết và hướng dẫn.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

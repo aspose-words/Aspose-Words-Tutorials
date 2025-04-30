@@ -1,14 +1,16 @@
 ---
-title: Удалить личную информацию
-linktitle: Удалить личную информацию
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как удалить персональные данные из документов с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Упростите управление документами.
-weight: 10
-url: /ru/net/programming-with-document-properties/remove-personal-information/
+"description": "Узнайте, как удалить персональные данные из документов с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Упростите управление документами."
+"linktitle": "Удалить личную информацию"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Удалить личную информацию"
+"url": "/ru/net/programming-with-document-properties/remove-personal-information/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Удалить личную информацию
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-document-properties/remove-personal-information/
 
 Прежде чем приступить к делу, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words для .NET: если вы еще этого не сделали, загрузите его[здесь](https://releases.aspose.com/words/net/) . Вы также можете взять[бесплатная пробная версия](https://releases.aspose.com/) если вы только начинаете.
+1. Aspose.Words для .NET: если вы еще этого не сделали, загрузите его [здесь](https://releases.aspose.com/words/net/). Вы также можете взять [бесплатная пробная версия](https://releases.aspose.com/) если вы только начинаете.
 2. Среда разработки: Visual Studio или любая другая среда разработки .NET по вашему выбору.
 3. Базовые знания C#: Вам не нужно быть волшебником, но небольшое знакомство будет иметь большое значение.
 
@@ -76,13 +78,13 @@ doc.Save(dataDir + "DocumentPropertiesAndVariables.RemovePersonalInformation.doc
 
 ## Часто задаваемые вопросы
 
-### Какие типы личной информации можно удалить?
+### Какие типы личной информации могут быть удалены?
 
-Персональные данные включают имена авторов, свойства документа и другие метаданные, которые могут идентифицировать создателя документа.
+Персональная информация включает имена авторов, свойства документа и другие метаданные, которые могут идентифицировать создателя документа.
 
 ### Является ли Aspose.Words для .NET бесплатным?
 
- Aspose.Words предлагает[бесплатная пробная версия](https://releases.aspose.com/) так что вы можете протестировать его, но вам нужно будет приобрести лицензию для полной функциональности. Проверьте[ценообразование](https://purchase.aspose.com/buy) для более подробной информации.
+Aspose.Words предлагает [бесплатная пробная версия](https://releases.aspose.com/) так что вы можете протестировать его, но вам нужно будет приобрести лицензию для полной функциональности. Проверьте [ценообразование](https://purchase.aspose.com/buy) для более подробной информации.
 
 ### Могу ли я использовать Aspose.Words для других форматов документов?
 
@@ -90,14 +92,19 @@ doc.Save(dataDir + "DocumentPropertiesAndVariables.RemovePersonalInformation.doc
 
 ### Как мне получить поддержку, если у меня возникнут проблемы?
 
- Вы можете посетить Aspose.Words[форум поддержки](https://forum.aspose.com/c/words/8) для получения помощи по любым возникшим у вас вопросам или проблемам.
+Вы можете посетить Aspose.Words [форум поддержки](https://forum.aspose.com/c/words/8) для получения помощи по любым возникшим у вас вопросам или проблемам.
 
 ### Какие еще функции предлагает Aspose.Words?
 
-Aspose.Words полон функций. Вы можете создавать, редактировать, конвертировать и манипулировать документами множеством способов. Полный список см. в[документация](https://reference.aspose.com/words/net/).
+Aspose.Words полон функций. Вы можете создавать, редактировать, конвертировать и манипулировать документами множеством способов. Полный список см. в [документация](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Tautan Otomatis
-linktitle: Tautan Otomatis
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyisipkan dan menyesuaikan hyperlink dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci ini. Sempurnakan dokumen Anda dengan mudah.
-weight: 10
-url: /id/net/working-with-markdown/autolink/
+"description": "Pelajari cara menyisipkan dan menyesuaikan hyperlink dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci ini. Sempurnakan dokumen Anda dengan mudah."
+"linktitle": "Tautan Otomatis"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tautan Otomatis"
+"url": "/id/net/working-with-markdown/autolink/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tautan Otomatis
@@ -21,7 +23,7 @@ Membuat dokumen yang profesional dan sempurna sering kali memerlukan kemampuan u
 
 Sebelum masuk ke langkah-langkahnya, mari pastikan Anda memiliki semua yang dibutuhkan:
 
--  Aspose.Words untuk .NET: Unduh dan instal versi terbaru dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Unduh dan instal versi terbaru dari [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: IDE seperti Visual Studio.
 - .NET Framework: Pastikan Anda menginstal versi yang sesuai.
 - Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan sangat membantu.
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 ## Langkah 3: Masukkan Hyperlink ke Situs Web
 
- Untuk memasukkan hyperlink ke situs web, gunakan`InsertHyperlink` metode. Anda perlu memberikan teks tampilan, URL, dan boolean yang menunjukkan apakah tautan harus ditampilkan sebagai hyperlink.
+Untuk memasukkan hyperlink ke situs web, gunakan `InsertHyperlink` metode. Anda perlu memberikan teks tampilan, URL, dan boolean yang menunjukkan apakah tautan harus ditampilkan sebagai hyperlink.
 
 ```csharp
 // Sisipkan hyperlink ke situs web.
@@ -60,18 +62,18 @@ Ini akan menyisipkan tautan yang dapat diklik dengan teks "Situs Web Aspose" yan
 
 ## Langkah 4: Masukkan Hyperlink ke Alamat Email
 
- Memasukkan tautan ke alamat email juga mudah. Gunakan yang sama`InsertHyperlink` metode tetapi dengan awalan "mailto:" di URL.
+Memasukkan tautan ke alamat email juga mudah. Gunakan yang sama `InsertHyperlink` metode tetapi dengan awalan "mailto:" di URL.
 
 ```csharp
 // Sisipkan hyperlink ke alamat email.
 builder.InsertHyperlink("Contact Support", "mailto:support@aspose.com", false);
 ```
 
- Sekarang, mengklik "Hubungi Dukungan" akan membuka klien email default dengan email baru yang ditujukan kepada`support@aspose.com`.
+Sekarang, mengklik "Hubungi Dukungan" akan membuka klien email default dengan email baru yang ditujukan kepada `support@aspose.com`.
 
 ## Langkah 5: Sesuaikan Tampilan Hyperlink
 
-Hyperlink dapat disesuaikan agar sesuai dengan gaya dokumen Anda. Anda dapat mengubah warna font, ukuran, dan atribut lainnya menggunakan`Font` properti dari DocumentBuilder.
+Hyperlink dapat disesuaikan agar sesuai dengan gaya dokumen Anda. Anda dapat mengubah warna font, ukuran, dan atribut lainnya menggunakan `Font` properti dari DocumentBuilder.
 
 ```csharp
 builder.Font.Style = doc.Styles[StyleIdentifier.Hyperlink];
@@ -90,19 +92,24 @@ Memasukkan dan menyesuaikan hyperlink dalam dokumen Word menggunakan Aspose.Word
 Ya, Anda dapat menyisipkan hyperlink ke dokumen lain dengan memberikan jalur file sebagai URL.
 
 ### Bagaimana cara menghapus hyperlink?
- Anda dapat menghapus hyperlink dengan menggunakan`Remove` metode pada simpul hyperlink.
+Anda dapat menghapus hyperlink dengan menggunakan `Remove` metode pada simpul hyperlink.
 
 ### Bisakah saya menambahkan tooltip ke hyperlink?
- Ya, Anda dapat menambahkan tooltip dengan mengatur`ScreenTip`properti hyperlink.
+Ya, Anda dapat menambahkan tooltip dengan mengatur `ScreenTip` properti hyperlink.
 
 ### Apakah mungkin untuk memberi gaya hyperlink secara berbeda pada seluruh dokumen?
- Ya, Anda dapat memberi gaya hyperlink secara berbeda dengan mengatur`Font` properti sebelum memasukkan setiap hyperlink.
+Ya, Anda dapat memberi gaya hyperlink secara berbeda dengan mengatur `Font` properti sebelum memasukkan setiap hyperlink.
 
 ### Bagaimana cara memperbarui atau mengubah hyperlink yang ada?
 Anda dapat memperbarui hyperlink yang ada dengan mengaksesnya melalui simpul dokumen dan memodifikasi propertinya.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

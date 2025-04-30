@@ -1,14 +1,16 @@
 ---
-title: แทรก ASKField โดยไม่ต้องใช้ตัวสร้างเอกสาร
-linktitle: แทรก ASKField โดยไม่ต้องใช้ตัวสร้างเอกสาร
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแทรกฟิลด์ ASK โดยไม่ใช้ Document Builder ใน Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำนี้เพื่อปรับปรุงเอกสาร Word ของคุณแบบไดนามิก
-weight: 10
-url: /th/net/working-with-fields/insert-askfield-with-out-document-builder/
+"description": "เรียนรู้วิธีแทรกฟิลด์ ASK โดยไม่ใช้ Document Builder ใน Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำนี้เพื่อปรับปรุงเอกสาร Word ของคุณแบบไดนามิก"
+"linktitle": "แทรก ASKField โดยไม่ต้องใช้ตัวสร้างเอกสาร"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แทรก ASKField โดยไม่ต้องใช้ตัวสร้างเอกสาร"
+"url": "/th/net/working-with-fields/insert-askfield-with-out-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทรก ASKField โดยไม่ต้องใช้ตัวสร้างเอกสาร
@@ -21,7 +23,7 @@ url: /th/net/working-with-fields/insert-askfield-with-out-document-builder/
 
 ก่อนที่เราจะลงมือทำโค้ด เรามาตรวจสอบให้แน่ใจก่อนว่าเราได้ตั้งค่าทุกอย่างเรียบร้อยแล้ว:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารีนี้แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารีนี้แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: IDE ที่เหมาะสม เช่น Visual Studio
 3. .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework แล้ว
 
@@ -117,19 +119,24 @@ doc.Save(dataDir + "InsertionChampASKSansDocumentBuilder.docx");
 ฟิลด์ ASK ใน Aspose.Words คือฟิลด์ที่แจ้งผู้ใช้ให้ป้อนข้อมูลเฉพาะเมื่อเปิดเอกสาร ช่วยให้ป้อนข้อมูลแบบไดนามิกได้
 
 ### ฉันสามารถใช้ช่อง ASK หลายช่องในเอกสารเดียวได้หรือไม่
-ใช่ คุณสามารถแทรกช่อง ASK หลายช่องในเอกสารได้ โดยแต่ละช่องจะมีคำแจ้งเตือนและคำตอบเฉพาะตัว
+ใช่ คุณสามารถแทรกช่อง ASK หลายช่องในเอกสารได้ โดยแต่ละช่องจะมีคำถามและคำตอบเฉพาะตัว
 
-###  จุดประสงค์ของการ`PromptOnceOnMailMerge` property?
- การ`PromptOnceOnMailMerge` คุณสมบัติจะกำหนดว่าคำเตือน ASK จะปรากฏขึ้นเพียงครั้งเดียวในระหว่างการดำเนินการผสานจดหมายหรือทุกครั้ง
+### จุดประสงค์ของการ `PromptOnceOnMailMerge` คุณสมบัติ?
+การ `PromptOnceOnMailMerge` คุณสมบัติจะกำหนดว่าคำเตือน ASK จะปรากฏขึ้นเพียงครั้งเดียวในระหว่างการดำเนินการผสานจดหมายหรือทุกครั้ง
 
 ### ฉันจำเป็นต้องอัปเดตฟิลด์ ASK หลังจากตั้งค่าคุณสมบัติหรือไม่
 ใช่ การอัปเดตฟิลด์ ASK จะช่วยให้แน่ใจว่าคุณสมบัติทั้งหมดถูกนำไปใช้ได้อย่างถูกต้อง และฟิลด์ทำงานตามที่คาดหวัง
 
 ### ฉันสามารถปรับแต่งข้อความแจ้งเตือนและการตอบกลับเริ่มต้นได้หรือไม่
 แน่นอน! คุณสามารถตั้งค่าข้อความแจ้งเตือนแบบกำหนดเองและคำตอบเริ่มต้นเพื่อปรับแต่งช่อง ASK ให้เหมาะกับความต้องการเฉพาะของคุณได้
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Lưu tài liệu dưới dạng định dạng PCL trong Aspose.Words cho Java
-linktitle: Lưu tài liệu dưới dạng định dạng PCL
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách lưu tài liệu ở định dạng PCL bằng Aspose.Words cho Java. Hướng dẫn từng bước và ví dụ mã để chuyển đổi tài liệu hiệu quả.
-weight: 21
-url: /vi/java/document-loading-and-saving/saving-documents-as-pcl-format/
+"description": "Tìm hiểu cách lưu tài liệu ở định dạng PCL bằng Aspose.Words cho Java. Hướng dẫn từng bước và ví dụ mã để chuyển đổi tài liệu hiệu quả."
+"linktitle": "Lưu tài liệu dưới dạng định dạng PCL"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Lưu tài liệu dưới dạng định dạng PCL trong Aspose.Words cho Java"
+"url": "/vi/java/document-loading-and-saving/saving-documents-as-pcl-format/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lưu tài liệu dưới dạng định dạng PCL trong Aspose.Words cho Java
@@ -32,7 +34,7 @@ Trước khi đi sâu vào mã và quy trình từng bước, hãy đảm bảo 
 Document doc = new Document("Your Directory Path" + "YourDocument.docx");
 ```
 
- Thay thế`"YourDocument.docx"` bằng đường dẫn đến tài liệu Word của bạn.
+Thay thế `"YourDocument.docx"` bằng đường dẫn đến tài liệu Word của bạn.
 
 ## Bước 2: Cấu hình Tùy chọn Lưu PCL
 
@@ -54,7 +56,7 @@ Bây giờ bạn đã tải tài liệu và cấu hình tùy chọn lưu PCL, đ
 doc.save("Your Directory Path" + "YourPCLDocument.pcl", saveOptions);
 ```
 
- Thay thế`"YourPCLDocument.pcl"` với tên mong muốn cho tệp PCL của bạn.
+Thay thế `"YourPCLDocument.pcl"` với tên mong muốn cho tệp PCL của bạn.
 
 ## Mã nguồn đầy đủ để lưu tài liệu dưới dạng định dạng PCL trong Aspose.Words cho Java
 
@@ -91,10 +93,15 @@ Có, bạn có thể truy cập phiên bản dùng thử của Aspose.Words for 
 
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Words cho Java ở đâu?
 
- Để có tài liệu và tài nguyên toàn diện, hãy truy cập tài liệu Aspose.Words cho Java tại[đây](https://reference.aspose.com/words/java/).
+Để có tài liệu và tài nguyên toàn diện, hãy truy cập tài liệu Aspose.Words cho Java tại [đây](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

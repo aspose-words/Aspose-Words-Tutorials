@@ -1,14 +1,16 @@
 ---
-title: Xác định định dạng tài liệu trong Aspose.Words cho Java
-linktitle: Xác định định dạng tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách phát hiện định dạng tài liệu trong Java với Aspose.Words. Xác định DOC, DOCX và nhiều định dạng khác. Sắp xếp tệp hiệu quả.
-weight: 25
-url: /vi/java/document-loading-and-saving/determining-document-format/
+"description": "Tìm hiểu cách phát hiện định dạng tài liệu trong Java với Aspose.Words. Xác định DOC, DOCX và nhiều định dạng khác. Sắp xếp tệp hiệu quả."
+"linktitle": "Xác định định dạng tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Xác định định dạng tài liệu trong Aspose.Words cho Java"
+"url": "/vi/java/document-loading-and-saving/determining-document-format/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xác định định dạng tài liệu trong Aspose.Words cho Java
@@ -195,7 +197,7 @@ Xác định định dạng tài liệu trong Aspose.Words for Java là điều 
 
 ### Làm thế nào để cài đặt Aspose.Words cho Java?
 
- Bạn có thể tải xuống Aspose.Words cho Java từ[đây](https://releases.aspose.com/words/java/)và làm theo hướng dẫn cài đặt được cung cấp.
+Bạn có thể tải xuống Aspose.Words cho Java từ [đây](https://releases.aspose.com/words/java/) và làm theo hướng dẫn cài đặt được cung cấp.
 
 ### Những định dạng tài liệu nào được hỗ trợ?
 
@@ -203,7 +205,7 @@ Aspose.Words for Java hỗ trợ nhiều định dạng tài liệu khác nhau, 
 
 ### Làm thế nào tôi có thể phát hiện tài liệu được mã hóa bằng Aspose.Words cho Java?
 
- Bạn có thể sử dụng`FileFormatUtil.detectFileFormat()` phương pháp phát hiện tài liệu được mã hóa, như được trình bày trong hướng dẫn này.
+Bạn có thể sử dụng `FileFormatUtil.detectFileFormat()` phương pháp phát hiện tài liệu được mã hóa, như được trình bày trong hướng dẫn này.
 
 ### Có hạn chế nào khi làm việc với các định dạng tài liệu cũ không?
 
@@ -212,9 +214,14 @@ Các định dạng tài liệu cũ hơn, chẳng hạn như MS Word 6 hoặc Wo
 ### Tôi có thể tự động phát hiện định dạng tài liệu trong ứng dụng Java của mình không?
 
 Có, bạn có thể tự động phát hiện định dạng tài liệu bằng cách tích hợp mã được cung cấp vào ứng dụng Java của bạn. Điều này cho phép bạn xử lý tài liệu dựa trên các định dạng được phát hiện của chúng.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

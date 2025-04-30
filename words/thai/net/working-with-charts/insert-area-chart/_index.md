@@ -1,53 +1,61 @@
 ---
-title: ใส่แผนที่พื้นที่ในเอกสาร Word ครับ Aspose.Words สําหรับ .NET
-weight: 7700
-limit: 
-description: เรียนรู้วิธีการใส่แผนที่พื้นที่ในเอกสาร Word โดยใช้ Aspose.Words สําหรับ .NET ติดตามคําแนะนําขั้นตอนขั้นตอน พร้อมตัวอย่างรหัสและภาพภาพ
-keywords: [Aspose.Words for .NET, insert area chart, Word document chart, area chart example, C# Word chart tutorial, Aspose.Words charting, Word chart example]
-url: /th/net/working-with-charts/insert-area-chart/
+"description": "เรียนรู้วิธีแทรกแผนภูมิพื้นที่ลงในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดและภาพประกอบ"
+"title": "การแทรกแผนภูมิพื้นที่ในเอกสาร Word | Aspose.Words สำหรับ .NET"
+"url": "/th/net/working-with-charts/insert-area-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ใส่แผนที่พื้นที่ในเอกสาร Word 
+# การแทรกแผนภูมิพื้นที่ในเอกสาร Word 
 
-Aspose.Words สําหรับ .NET ทําให้การเพิ่มแผนที่ไดนามิกและภาพที่น่าสนใจง่ายๆในเอกสาร Word. คู่มือนี้แสดงวิธีการใส่แผนที่พื้นที่ในเอกสาร Word โดยวิธีโปรแกรม. คู่มือขั้นตอนที่ให้บริการรวมถึงการเริ่มต้นเอกสาร, การใส่แผนที่พื้นที่, การเพิ่มเรียงรายการข้อมูลที่มีจุดข้อมูลที่กําหนดเอง, และการบันทึกเอกสารสุดท้าย. เหมาะสําหรับผู้พัฒนาที่ต้องการเพิ่มกระบวนการทํางานอัตโนมัติเอกสารของพวกเขาด้วยความสามารถการวางแผนที่.
+Aspose.Words สำหรับ .NET ช่วยให้การเพิ่มแผนภูมิแบบไดนามิกและน่าสนใจให้กับเอกสาร Word เป็นเรื่องง่าย บทช่วยสอนนี้จะแสดงวิธีการแทรกแผนภูมิพื้นที่ลงในเอกสาร Word ด้วยโปรแกรม คำแนะนำทีละขั้นตอนที่ให้มาประกอบด้วยการเริ่มต้นเอกสาร การแทรกแผนภูมิพื้นที่ การเพิ่มชุดข้อมูลที่มีจุดข้อมูลที่กำหนดเอง และการบันทึกเอกสารขั้นสุดท้าย เหมาะอย่างยิ่งสำหรับนักพัฒนาที่ต้องการปรับปรุงเวิร์กโฟลว์การทำงานอัตโนมัติของเอกสารด้วยความสามารถในการสร้างแผนภูมิ
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/bounds-of-axis" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## คําแนะนําการติดตั้ง  
+## คำแนะนำในการติดตั้ง  
 
-เพื่อทําตามตัวอย่างนี้, ยืนยันว่าคุณติดตั้ง Aspose.Words สําหรับ .NET. นี่คือวิธีการเริ่มต้น:  
+หากต้องการทำตามตัวอย่างนี้ โปรดตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว วิธีเริ่มต้นใช้งานมีดังนี้:  
 
-1. ดาวน์โหลด Aspose.Words สําหรับ .NET:  
-   ไปเยี่ยม [หน้าดาวน์โหลด Aspose.Words](https://releases.aspose.com/words/net/)และดาวน์โหลดฉบับล่าสุด  
+1. ดาวน์โหลด Aspose.Words สำหรับ .NET:  
+   เยี่ยมชม [หน้าดาวน์โหลด Aspose.Words](https://releases.aspose.com/words/net/) และดาวน์โหลดเวอร์ชันล่าสุด  
 
-2. โครงการผ่าน NuGet Package Manager:  
-   เปิดโครงการของคุณใน Visual Studio และทําคําสั่งต่อไปนี้ใน คอนโซลผู้จัดการแพ็คเกจ  
+2. ติดตั้งผ่านตัวจัดการแพ็กเกจ NuGet:  
+   เปิดโปรเจ็กต์ของคุณใน Visual Studio และรันคำสั่งต่อไปนี้ในคอนโซลตัวจัดการแพ็คเกจ:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-3. สมัครใบอนุญาต (เป็นทางเลือก)  
-   สําหรับการทํางานอย่างเต็มที่ โดยไม่มีข้อจํากัดในการประเมิน, ลงทะเบียนใบอนุญาต. ซื้อใบอนุญาต [นี่](https://purchase.aspose.com/buy)หรือขอ[เอกสารอัตราการ](https://purchase.aspose.com/temporary-license). .  
+3. สมัครใบอนุญาต (ทางเลือก):  
+   หากต้องการใช้งานฟังก์ชันเต็มรูปแบบโดยไม่มีข้อจำกัดในการประเมิน ให้ใช้สิทธิ์การใช้งาน ซื้อสิทธิ์การใช้งาน [ที่นี่](https://purchase.aspose.com/buy) หรือร้องขอ [ใบอนุญาตชั่วคราวฟรี](https://purchase-aspose.com/temporary-license).  
 
-4. เพิ่มที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่ระดับที่  
-   รับรองว่ามี namespaces ต่อไปในโครงการของคุณ  
+4. เพิ่มการอ้างอิงเนมสเปซ:  
+   ตรวจสอบให้แน่ใจว่ามีการรวมเนมสเปซต่อไปนี้ในโครงการของคุณ:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    using Aspose.Words.Drawing.Charts;
    ```  
 
-## ดูอีกด้วย
-[Aspose.Word สําหรับเอกสาร .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word สําหรับ .NET References](https://reference.aspose.com/words/net/)
+## ดูเพิ่มเติม
+[Aspose.Word สำหรับเอกสาร .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word สำหรับการอ้างอิง .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,68 +1,70 @@
 ---
-title: Tartalomjegyzék létrehozása az Aspose.Words for Java programban
-linktitle: Tartalomjegyzék létrehozása
-second_title: Aspose.Words Java Document Processing API
-description: Ismerje meg, hogyan hozhat létre és szabhat testre tartalomjegyzéket (TOC) az Aspose.Words for Java használatával. Rendezett és professzionális dokumentumokat készíthet könnyedén.
-weight: 21
-url: /hu/java/document-manipulation/generating-table-of-contents/
+"description": "Tanuld meg, hogyan hozhatsz létre és szabhatsz testre tartalomjegyzéket (TOC) az Aspose.Words for Java segítségével. Készíts könnyedén szervezett és professzionális dokumentumokat."
+"linktitle": "Tartalomjegyzék létrehozása"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Tartalomjegyzék generálása az Aspose.Words programban Java-hoz"
+"url": "/hu/java/document-manipulation/generating-table-of-contents/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tartalomjegyzék létrehozása az Aspose.Words for Java programban
+# Tartalomjegyzék generálása az Aspose.Words programban Java-hoz
 
 
-## Bevezetés az Aspose.Words for Java tartalomjegyzék létrehozásába
+## Bevezetés a tartalomjegyzék létrehozásába az Aspose.Words Java-ban
 
-Ebben az oktatóanyagban végigvezetjük a tartalomjegyzék (TOC) létrehozásának folyamatán az Aspose.Words for Java használatával. A TOC kulcsfontosságú funkció a szervezett dokumentumok létrehozásához. Kitérünk arra, hogyan szabhatjuk testre a TOC megjelenését és elrendezését.
+Ebben az oktatóanyagban végigvezetünk a tartalomjegyzék (TOC) létrehozásának folyamatán az Aspose.Words for Java használatával. A TOC kulcsfontosságú funkció a rendezett dokumentumok létrehozásához. Bemutatjuk, hogyan szabhatod testre a TOC megjelenését és elrendezését.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Words for Java telepítve van, és be van állítva a Java projektben.
+Mielőtt elkezdenéd, győződj meg róla, hogy az Aspose.Words for Java telepítve és beállítva van a Java projektedben.
 
-## 1. lépés: Hozzon létre egy új dokumentumot
+## 1. lépés: Új dokumentum létrehozása
 
-Először is hozzunk létre egy új dokumentumot, amellyel dolgozni szeretnénk.
+Először is hozzunk létre egy új dokumentumot, amellyel dolgozhatunk.
 
 ```java
 Document doc = new Document();
 ```
 
-## 2. lépés: A TOC stílusok testreszabása
+## 2. lépés: Tartalomjegyzék stílusok testreszabása
 
-A TOC megjelenésének testreszabásához módosíthatja a hozzá tartozó stílusokat. Ebben a példában az első szintű TOC bejegyzéseket félkövérre szedjük.
+A tartalomjegyzék megjelenésének testreszabásához módosíthatja a hozzá tartozó stílusokat. Ebben a példában az első szintű tartalomjegyzék-bejegyzéseket félkövér betűtípussal fogjuk szedni.
 
 ```java
 doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_1).getFont().setBold(true);
 ```
 
-## 3. lépés: Adjon hozzá tartalmat a dokumentumhoz
+## 3. lépés: Tartalom hozzáadása a dokumentumhoz
 
-A tartalmat hozzáadhatja a dokumentumhoz. Ez a tartalom lesz felhasználva a TOC létrehozásához.
+Hozzáadhatja a tartalmát a dokumentumhoz. Ezt a tartalmat fogja felhasználni a tartalomjegyzék létrehozásához.
 
-## 4. lépés: A TOC létrehozása
+## 4. lépés: Tartalomjegyzék létrehozása
 
-A TOC létrehozásához szúrjon be egy tartalomjegyzék mezőt a dokumentum kívánt helyére. Ez a mező automatikusan kitöltődik a dokumentumban található címsorok és stílusok alapján.
+A tartalomjegyzék létrehozásához illesszen be egy tartalomjegyzék mezőt a dokumentum kívánt helyére. Ez a mező automatikusan kitöltődik a dokumentum címsorai és stílusai alapján.
 
 ```java
-// Szúrjon be egy TOC mezőt a dokumentum kívánt helyére.
+// Szúrjon be egy tartalomjegyzék mezőt a dokumentum kívánt helyére.
 FieldToc fieldToc = new FieldToc();
 doc.getFirstSection().getBody().getFirstParagraph().appendChild(fieldToc);
 ```
 
-## 5. lépés: Mentse el a dokumentumot
+## 5. lépés: A dokumentum mentése
 
-Végül mentse el a dokumentumot a tartalomjegyzékkel.
+Végül mentse el a dokumentumot a tartalomjegyzékkel együtt.
 
 ```java
 doc.save("your_output_path_here");
 ```
 
-## Tabulátorok testreszabása a TOC-ban
+## Tabulátorpozíciók testreszabása a tartalomjegyzékben
 
-Az oldalszámok elrendezésének szabályozásához testreszabhatja a TOC tabulátorpontjait is. Így módosíthatja a tabulátorokat:
+A tartalomjegyzékben a tabulátorpozíciókat is testreszabhatja az oldalszámok elrendezésének szabályozásához. A tabulátorpozíciók módosításának módja:
 
 ```java
 Document doc = new Document("Table of contents.docx");
@@ -72,13 +74,13 @@ for (Paragraph para : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARAGRAPH
     if (para.getParagraphFormat().getStyle().getStyleIdentifier() >= StyleIdentifier.TOC_1 &&
         para.getParagraphFormat().getStyle().getStyleIdentifier() <= StyleIdentifier.TOC_9)
     {
-        // Szerezze be az ebben a bekezdésben használt első tabulátort, amely az oldalszámokat igazítja.
+        // Szerezd meg az ebben a bekezdésben használt első tabulátort, amely igazítja az oldalszámokat.
         TabStop tab = para.getParagraphFormat().getTabStops().get(0);
         
         // Távolítsa el a régi fület.
         para.getParagraphFormat().getTabStops().removeByPosition(tab.getPosition());
         
-        //Szúrjon be egy új fület egy módosított pozícióba (pl. 50 egységgel balra).
+        // Helyezzen be egy új fület módosított pozícióba (pl. 50 egységgel balra).
         para.getParagraphFormat().getTabStops().add(tab.getPosition() - 50.0, tab.getAlignment(), tab.getLeader());
     }
 }
@@ -86,29 +88,34 @@ for (Paragraph para : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARAGRAPH
 doc.save("output.docx");
 ```
 
-Most már van egy személyre szabott tartalomjegyzéke a dokumentumban, beállított tabulátorokkal az oldalszámok igazításához.
+Most már van egy testreszabott tartalomjegyzéke a dokumentumban, amelyben az oldalszámok igazításához igazított tabulátorhelyek vannak.
 
 
 ## Következtetés
 
-Ebben az oktatóanyagban megvizsgáltuk, hogyan hozhat létre tartalomjegyzéket (TOC) az Aspose.Words for Java segítségével, amely egy hatékony könyvtár a Word-dokumentumokkal való munkavégzéshez. A jól strukturált tartalomjegyzék elengedhetetlen a hosszadalmas dokumentumok rendszerezéséhez és navigálásához, az Aspose.Words pedig eszközöket biztosít a tartalomjegyzékek könnyű létrehozásához és testreszabásához.
+Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan hozhatunk létre tartalomjegyzéket (TOC) az Aspose.Words for Java segítségével, amely egy hatékony könyvtár a Word dokumentumokkal való munkához. Egy jól strukturált TOC elengedhetetlen a hosszú dokumentumok rendszerezéséhez és navigálásához, az Aspose.Words pedig eszközöket biztosít a TOC-ok egyszerű létrehozásához és testreszabásához.
 
 ## GYIK
 
-### Hogyan változtathatom meg a TOC-bejegyzések formázását?
+### Hogyan módosíthatom a tartalomjegyzék-bejegyzések formázását?
 
- A tartalomjegyzék-szintekhez társított stílusokat a segítségével módosíthatja`doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`, ahol X a TOC szint.
+tartalomjegyzék szintjeihez társított stílusokat a következővel módosíthatja: `doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`, ahol X a tartalomjegyzék szintje.
 
-### Hogyan adhatok több szintet a TOC-hoz?
+### Hogyan adhatok hozzá több szintet a tartalomjegyzékhez?
 
-Ha több szintet szeretne felvenni a TOC-ba, módosíthatja a TOC mezőt, és megadhatja a szintek kívánt számát.
+Ha több szintet szeretne a tartalomjegyzékbe foglalni, módosíthatja a tartalomjegyzék mezőt, és megadhatja a kívánt szintek számát.
 
-### Módosíthatom a tabulátorpozíciókat bizonyos tartalomjegyzék-bejegyzéseknél?
+### Módosíthatom a tabulátorpozíciókat bizonyos tartalomjegyzék-bejegyzésekhez?
 
-Igen, ahogy a fenti kódpéldában is látható, módosíthatja az adott tartalomjegyzék-bejegyzések tabulátorpozícióit a bekezdések iterációjával és a tabulátorok megfelelő módosításával.
+Igen, ahogy a fenti kódpéldában is látható, a tabulátorpozíciókat a bekezdéseken végighaladva, ennek megfelelően módosíthatod.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

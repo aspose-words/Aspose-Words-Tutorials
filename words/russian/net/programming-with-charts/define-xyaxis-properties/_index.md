@@ -1,14 +1,16 @@
 ---
-title: Определить свойства оси XY на диаграмме
-linktitle: Определить свойства оси XY на диаграмме
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как определить свойства оси XY в диаграмме с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Идеально подходит для разработчиков .NET.
-weight: 10
-url: /ru/net/programming-with-charts/define-xyaxis-properties/
+"description": "Узнайте, как определить свойства оси XY в диаграмме с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Идеально подходит для разработчиков .NET."
+"linktitle": "Определить свойства оси XY на диаграмме"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Определить свойства оси XY на диаграмме"
+"url": "/ru/net/programming-with-charts/define-xyaxis-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Определить свойства оси XY на диаграмме
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-charts/define-xyaxis-properties/
 
 Прежде чем приступить к кодированию, необходимо выполнить несколько предварительных условий:
 
-1. Aspose.Words for .NET: Убедитесь, что у вас есть библиотека Aspose.Words for .NET. Вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас есть библиотека Aspose.Words for .NET. Вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: вам понадобится интегрированная среда разработки (IDE), например Visual Studio.
 3. .NET Framework: убедитесь, что ваша среда разработки настроена для разработки .NET.
 4. Базовые знания C#: это руководство предполагает, что у вас есть базовые знания программирования на C#.
@@ -41,10 +43,10 @@ using Aspose.Words.Drawing.Charts;
 
 ## Шаг 1: Инициализация документа и DocumentBuilder
 
- Сначала вам нужно инициализировать новый документ и`DocumentBuilder` объект.`DocumentBuilder` помогает вставлять содержимое в документ.
+Сначала вам нужно инициализировать новый документ и `DocumentBuilder` объект. `DocumentBuilder` помогает вставлять содержимое в документ.
 
 ```csharp
-// Путь к каталогу ваших документов
+// Путь к каталогу ваших документов 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -53,7 +55,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Шаг 2: Вставьте диаграмму
 
-Далее вы вставите диаграмму в документ. В этом примере мы будем использовать диаграмму областей. Вы можете настроить размеры диаграммы по мере необходимости.
+Далее вы вставите диаграмму в документ. В этом примере мы будем использовать диаграмму Area. Вы можете настроить размеры диаграммы по мере необходимости.
 
 ```csharp
 // Вставить диаграмму
@@ -84,7 +86,7 @@ chart.Series.Add("Aspose Series 1",
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Custom;
-xAxis.CrossesAt = 3; //Измеряется в единицах отображения оси Y (сотни).
+xAxis.CrossesAt = 3; // Измеряется в единицах отображения оси Y (сотни).
 xAxis.ReverseOrder = true;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorTickMark = AxisTickMark.Outside;
@@ -105,7 +107,7 @@ yAxis.Scaling.Minimum = new AxisBound(100);
 yAxis.Scaling.Maximum = new AxisBound(700);
 ```
 
-## Шаг 6: Сохраните документ
+## Шаг 6: Сохраните документ.
 
 Наконец, сохраните документ в указанном вами каталоге. Это сгенерирует документ Word с настроенной диаграммой.
 
@@ -123,20 +125,25 @@ doc.Save(dataDir + "WorkingWithCharts.DefineXYAxisProperties.docx");
 Вы можете создавать различные типы диаграмм, включая диаграммы с областями, столбчатые, линейные, круговые и другие.
 
 ### Как установить Aspose.Words для .NET?
- Вы можете загрузить Aspose.Words для .NET с сайта[здесь](https://releases.aspose.com/words/net/)и следуйте предоставленным инструкциям по установке.
+Вы можете загрузить Aspose.Words для .NET с сайта [здесь](https://releases.aspose.com/words/net/) и следуйте предоставленным инструкциям по установке.
 
 ### Могу ли я настроить внешний вид своих диаграмм?
 Да, Aspose.Words для .NET позволяет выполнять расширенную настройку диаграмм, включая цвета, шрифты и свойства осей.
 
 ### Существует ли бесплатная пробная версия Aspose.Words для .NET?
- Да, вы можете получить бесплатную пробную версию.[здесь](https://releases.aspose.com/).
+Да, вы можете получить бесплатную пробную версию. [здесь](https://releases.aspose.com/).
 
 ### Где я могу найти больше учебных пособий и документации?
- Дополнительные руководства и подробную документацию можно найти на сайте[Страница документации Aspose.Words для .NET](https://reference.aspose.com/words/net/).
+Дополнительные руководства и подробную документацию вы можете найти на сайте [Страница документации Aspose.Words для .NET](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Yazı Tipleri Klasörünü Ayarla
-linktitle: Yazı Tipleri Klasörünü Ayarla
-second_title: Aspose.Words Belge İşleme API'si
-description: Word belgelerinizin eksik yazı tipleri olmadan doğru şekilde işlenmesini sağlamak için Aspose.Words for .NET'te özel yazı tipleri klasörünün nasıl ayarlanacağını öğrenin.
-weight: 10
-url: /tr/net/working-with-fonts/set-fonts-folder/
+"description": "Word belgelerinizin eksik yazı tipleri olmadan doğru şekilde işlenmesini sağlamak için Aspose.Words for .NET'te özel yazı tipleri klasörünün nasıl ayarlanacağını öğrenin."
+"linktitle": "Yazı Tipleri Klasörünü Ayarla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yazı Tipleri Klasörünü Ayarla"
+"url": "/tr/net/working-with-fonts/set-fonts-folder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yazı Tipleri Klasörünü Ayarla
@@ -23,7 +25,7 @@ Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 - Makinenizde Visual Studio yüklü
 - .NET Framework kurulumu
--  Aspose.Words for .NET kütüphanesi. Eğer henüz indirmediyseniz, şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET kütüphanesi. Eğer henüz indirmediyseniz, şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/words/net/).
 
 ## Ad Alanlarını İçe Aktar
 
@@ -45,11 +47,11 @@ Her şeyden önce, belge dizininize giden yolu tanımlayın. Bu dizin Word belge
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` dizininize giden gerçek yol ile.
+Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` dizininize giden gerçek yol ile.
 
-## Adım 2: FontSettings'i başlatın
+## Adım 2: FontSettings'i Başlatın
 
- Şimdi, başlatmanız gerekiyor`FontSettings` nesne. Bu nesne özel yazı tipi klasörlerini belirtmenize olanak tanır.
+Şimdi, başlatmanız gerekiyor `FontSettings` nesne. Bu nesne özel yazı tipi klasörlerini belirtmenize olanak tanır.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -57,17 +59,17 @@ FontSettings fontSettings = new FontSettings();
 
 ## Adım 3: Yazı Tipleri Klasörünü Ayarlayın
 
- Kullanımı`SetFontsFolder` yöntemi`FontSettings` nesne, özel yazı tiplerinizin saklandığı klasörü belirtin.
+Kullanımı `SetFontsFolder` yöntemi `FontSettings` nesne, özel yazı tiplerinizin saklandığı klasörü belirtin.
 
 ```csharp
 fontSettings.SetFontsFolder(dataDir + "Fonts", false);
 ```
 
- Burada,`dataDir + "Fonts"` belge dizininizdeki "Fonts" adlı klasörü işaret eder. İkinci parametre,`false`, klasörün yinelemeli olmadığını gösterir.
+Burada, `dataDir + "Fonts"` belge dizininizdeki "Fonts" adlı klasörü işaret eder. İkinci parametre, `false`, klasörün yinelemeli olmadığını gösterir.
 
 ## Adım 4: LoadOptions'ı Oluşturun
 
- Sonra, şunun bir örneğini oluşturun:`LoadOptions` sınıf. Bu sınıf, belgeyi belirtilen yazı tipi ayarlarıyla yüklemenize yardımcı olacaktır.
+Sonra, şunun bir örneğini oluşturun: `LoadOptions` sınıf. Bu sınıf, belgeyi belirtilen yazı tipi ayarlarıyla yüklemenize yardımcı olacaktır.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
@@ -76,13 +78,13 @@ loadOptions.FontSettings = fontSettings;
 
 ## Adım 5: Belgeyi Yükleyin
 
- Son olarak, Word belgesini kullanarak yükleyin`Document` sınıf ve`LoadOptions` nesne.
+Son olarak, Word belgesini kullanarak yükleyin `Document` sınıf ve `LoadOptions` nesne.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx", loadOptions);
 ```
 
- Emin olun ki`"Rendering.docx"` Word belgenizin adıdır. Bunu dosyanızın adıyla değiştirebilirsiniz.
+Emin olun ki `"Rendering.docx"` Word belgenizin adıdır. Bunu dosyanızın adıyla değiştirebilirsiniz.
 
 ## Çözüm
 
@@ -94,7 +96,7 @@ Document doc = new Document(dataDir + "Rendering.docx", loadOptions);
 Özel bir yazı tipleri klasörü ayarlamak, Word belgelerinizde kullanılan tüm yazı tiplerinin doğru şekilde işlenmesini sağlar ve eksik yazı tipi sorunlarının önüne geçer.
 
 ### Birden fazla font klasörü ayarlayabilir miyim?
- Evet, kullanabilirsiniz`SetFontsFolders` birden fazla klasörü belirtme yöntemi.
+Evet, kullanabilirsiniz `SetFontsFolders` birden fazla klasörü belirtme yöntemi.
 
 ### Bir yazı tipi bulunamazsa ne olur?
 Aspose.Words eksik yazı tipini sistem yazı tiplerinden benzer bir yazı tipiyle değiştirmeye çalışacaktır.
@@ -103,10 +105,15 @@ Aspose.Words eksik yazı tipini sistem yazı tiplerinden benzer bir yazı tipiyl
 Evet, Aspose.Words .NET Framework'ün yanı sıra .NET Core'u da destekler.
 
 ### Sorun yaşarsam nereden destek alabilirim?
- Destek alabilirsiniz[Aspose.Words destek forumu](https://forum.aspose.com/c/words/8).
+Destek alabilirsiniz [Aspose.Words destek forumu](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,34 +1,36 @@
 ---
-title: Imposta le opzioni di struttura in un documento PDF
-linktitle: Imposta le opzioni di struttura in un documento PDF
-second_title: API di elaborazione dei documenti Aspose.Words
-description: Scopri come impostare le opzioni di struttura in un documento PDF usando Aspose.Words per .NET. Migliora la navigazione PDF configurando i livelli di intestazione e le strutture espanse.
-weight: 10
-url: /it/net/programming-with-pdfsaveoptions/set-outline-options/
+"description": "Scopri come impostare le opzioni di struttura in un documento PDF utilizzando Aspose.Words per .NET. Migliora la navigazione nei PDF configurando i livelli di intestazione e le strutture espanse."
+"linktitle": "Impostare le opzioni di struttura in un documento PDF"
+"second_title": "API di elaborazione dei documenti Aspose.Words"
+"title": "Impostare le opzioni di struttura in un documento PDF"
+"url": "/it/net/programming-with-pdfsaveoptions/set-outline-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Imposta le opzioni di struttura in un documento PDF
+# Impostare le opzioni di struttura in un documento PDF
 
 ## Introduzione
 
-Quando si lavora con documenti, specialmente per scopi professionali o accademici, organizzare efficacemente i contenuti è fondamentale. Un modo per migliorare l'usabilità dei documenti PDF è impostare le opzioni di struttura. Le strutture, o segnalibri, consentono agli utenti di navigare nel documento in modo efficiente, proprio come i capitoli di un libro. In questa guida, approfondiremo come impostare queste opzioni utilizzando Aspose.Words per .NET, assicurando che i file PDF siano ben organizzati e intuitivi.
+Quando si lavora con i documenti, soprattutto per scopi professionali o accademici, organizzare efficacemente i contenuti è fondamentale. Un modo per migliorare l'usabilità dei documenti PDF è impostare le opzioni di struttura. Le strutture, o segnalibri, consentono agli utenti di navigare nel documento in modo efficiente, proprio come i capitoli di un libro. In questa guida, approfondiremo come impostare queste opzioni utilizzando Aspose.Words per .NET, garantendo che i file PDF siano ben organizzati e intuitivi.
 
 ## Prerequisiti
 
 Prima di iniziare, ecco alcune cose che devi assicurarti di avere:
 
-1.  Aspose.Words per .NET: assicurati di avere Aspose.Words per .NET installato. In caso contrario, puoi[scarica l'ultima versione qui](https://releases.aspose.com/words/net/).
+1. Aspose.Words per .NET: assicurati di aver installato Aspose.Words per .NET. In caso contrario, puoi [scarica l'ultima versione qui](https://releases.aspose.com/words/net/).
 2. Un ambiente di sviluppo .NET: avrai bisogno di un ambiente di sviluppo .NET funzionante, come Visual Studio.
-3. Nozioni di base di C#: la familiarità con il linguaggio di programmazione C# ti aiuterà a seguire facilmente il corso.
+3. Nozioni di base di C#: la familiarità con il linguaggio di programmazione C# ti aiuterà a seguire facilmente il tutorial.
 4. Un documento Word: tieni pronto un documento Word che convertirai in PDF.
 
-## Importazione degli spazi dei nomi
+## Importa spazi dei nomi
 
-Per prima cosa, dovrai importare i namespace necessari. Qui è dove includerai la libreria Aspose.Words per interagire con il tuo documento. Ecco come impostarla:
+Per prima cosa, devi importare i namespace necessari. È qui che includerai la libreria Aspose.Words per interagire con il tuo documento. Ecco come configurarla:
 
 ```csharp
 using Aspose.Words;
@@ -37,18 +39,18 @@ using Aspose.Words.Saving;
 
 ## Passaggio 1: definire il percorso del documento
 
-Per iniziare, dovrai specificare il percorso del tuo documento Word. Questo è il file che vuoi convertire in un PDF con opzioni di struttura. 
+Per iniziare, devi specificare il percorso del tuo documento Word. Questo è il file che vuoi convertire in PDF con opzioni di struttura. 
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Nel frammento di codice sopra, sostituisci`"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo della directory del tuo documento. Questo indica al programma dove trovare il documento Word.
+Nel frammento di codice sopra, sostituisci `"YOUR DOCUMENT DIRECTORY"` Con il percorso effettivo della directory del documento. Questo indica al programma dove trovare il documento Word.
 
 ## Passaggio 2: configurare le opzioni di salvataggio PDF
 
- Successivamente, devi configurare le opzioni di salvataggio PDF. Ciò include l'impostazione di come i contorni devono essere gestiti nell'output PDF. Utilizzerai`PdfSaveOptions` classe per farlo.
+Successivamente, è necessario configurare le opzioni di salvataggio del PDF. Questo include l'impostazione della gestione dei contorni nell'output PDF. Utilizzerai `PdfSaveOptions` classe per farlo.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -58,23 +60,23 @@ Ora impostiamo le opzioni del contorno.
 
 ### Imposta livelli struttura titoli
 
- IL`HeadingsOutlineLevels` proprietà definisce quanti livelli di titoli devono essere inclusi nello schema PDF. Ad esempio, se lo imposti a 3, includerà fino a tre livelli di titoli nello schema PDF.
+IL `HeadingsOutlineLevels` La proprietà definisce quanti livelli di intestazioni devono essere inclusi nella struttura del PDF. Ad esempio, se la si imposta su 3, verranno inclusi fino a tre livelli di intestazioni nella struttura del PDF.
 
 ```csharp
 saveOptions.OutlineOptions.HeadingsOutlineLevels = 3;
 ```
 
-### Imposta livelli di struttura espansa
+### Imposta livelli di struttura espansi
 
- IL`ExpandedOutlineLevels`proprietà controlla quanti livelli della struttura devono essere espansi di default quando si apre il PDF. Impostando questo su 1 si espanderanno le intestazioni di livello superiore, dando una chiara visione delle sezioni principali.
+IL `ExpandedOutlineLevels` Questa proprietà controlla quanti livelli della struttura devono essere espansi per impostazione predefinita all'apertura del PDF. Impostandola su 1, le intestazioni di primo livello verranno espanse, offrendo una visualizzazione chiara delle sezioni principali.
 
 ```csharp
 saveOptions.OutlineOptions.ExpandedOutlineLevels = 1;
 ```
 
-## Passaggio 3: Salva il documento come PDF
+## Passaggio 3: salva il documento come PDF
 
- Con le opzioni configurate, sei pronto a salvare il documento come PDF. Utilizza il`Save` metodo del`Document` classe e passare il percorso del file e le opzioni di salvataggio.
+Con le opzioni configurate, sei pronto per salvare il documento come PDF. Utilizza il `Save` metodo del `Document` classe e passare il percorso del file e le opzioni di salvataggio.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.SetOutlineOptions.pdf", saveOptions);
@@ -84,21 +86,21 @@ Questa riga di codice salva il documento Word come PDF, applicando le opzioni di
 
 ## Conclusione
 
-Impostare le opzioni di struttura in un documento PDF può migliorare notevolmente la sua navigabilità, rendendo più facile per gli utenti trovare e accedere alle sezioni di cui hanno bisogno. Con Aspose.Words per .NET, puoi facilmente configurare queste impostazioni in base alle tue esigenze, assicurandoti che i tuoi documenti PDF siano il più possibile intuitivi.
+L'impostazione delle opzioni di struttura in un documento PDF può migliorarne notevolmente la navigabilità, facilitando la ricerca e l'accesso alle sezioni desiderate. Con Aspose.Words per .NET, puoi configurare facilmente queste impostazioni in base alle tue esigenze, garantendo che i tuoi documenti PDF siano il più intuitivi possibile.
 
 ## Domande frequenti
 
-### Qual è lo scopo dell'impostazione delle opzioni di struttura in un PDF?
+### Qual è lo scopo di impostare le opzioni di struttura in un PDF?
 
-L'impostazione delle opzioni di struttura aiuta gli utenti a navigare più facilmente nei documenti PDF di grandi dimensioni, fornendo un indice strutturato e cliccabile.
+Impostando le opzioni di struttura, gli utenti possono navigare più facilmente nei documenti PDF di grandi dimensioni, fornendo un indice strutturato e cliccabile.
 
 ### Posso impostare livelli di intestazione diversi per le diverse sezioni del mio documento?
 
-No, le impostazioni di outline si applicano globalmente all'intero documento. Tuttavia, puoi strutturare il tuo documento con livelli di intestazione appropriati per ottenere un effetto simile.
+No, le impostazioni di struttura si applicano globalmente all'intero documento. Tuttavia, è possibile strutturare il documento con livelli di intestazione appropriati per ottenere un effetto simile.
 
 ### Come posso visualizzare in anteprima le modifiche prima di salvare il PDF?
 
-Puoi usare visualizzatori PDF che supportano la navigazione outline per controllare come appare l'outline. Alcune applicazioni forniscono una funzionalità di anteprima per questo.
+È possibile utilizzare visualizzatori PDF che supportano la navigazione tramite struttura per verificarne l'aspetto. Alcune applicazioni offrono una funzione di anteprima a questo scopo.
 
 ### È possibile rimuovere il contorno dopo aver salvato il PDF?
 
@@ -106,10 +108,15 @@ Sì, è possibile rimuovere i contorni utilizzando un software di modifica PDF, 
 
 ### Quali altre opzioni di salvataggio PDF posso configurare con Aspose.Words?
 
-Aspose.Words offre varie opzioni, come l'impostazione del livello di conformità PDF, l'incorporamento dei font e la regolazione della qualità delle immagini.
+Aspose.Words offre diverse opzioni, come l'impostazione del livello di conformità PDF, l'incorporamento dei font e la regolazione della qualità delle immagini.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Preferowane ustawienia szerokości
-linktitle: Preferowane ustawienia szerokości
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak tworzyć tabele z bezwzględnymi, względnymi i automatycznymi ustawieniami szerokości w Aspose.Words dla platformy .NET, korzystając z tego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/programming-with-tables/preferred-width-settings/
+"description": "Dowiedz się, jak tworzyć tabele z bezwzględnymi, względnymi i automatycznymi ustawieniami szerokości w Aspose.Words dla platformy .NET, korzystając z tego przewodnika krok po kroku."
+"linktitle": "Preferowane ustawienia szerokości"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Preferowane ustawienia szerokości"
+"url": "/pl/net/programming-with-tables/preferred-width-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Preferowane ustawienia szerokości
@@ -21,13 +23,13 @@ Tabele to potężny sposób na organizowanie i prezentowanie informacji w dokume
 
 Zanim przejdziesz do samouczka, upewnij się, że posiadasz następujące rzeczy:
 
-1.  Aspose.Words dla .NET: Upewnij się, że Aspose.Words dla .NET jest zainstalowany w Twoim środowisku programistycznym. Możesz go pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że Aspose.Words dla .NET jest zainstalowany w Twoim środowisku programistycznym. Możesz go pobrać [Tutaj](https://releases.aspose.com/words/net/).
 
 2. Środowisko programistyczne .NET: Skonfiguruj środowisko programistyczne .NET, np. Visual Studio.
 
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu i przykłady.
 
-4.  Dokumentacja Aspose.Words: Zapoznaj się z[Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) aby uzyskać szczegółowe informacje na temat interfejsu API i dalsze informacje.
+4. Dokumentacja Aspose.Words: Zapoznaj się z [Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) aby uzyskać szczegółowe informacje na temat interfejsu API i dalsze informacje.
 
 ## Importuj przestrzenie nazw
 
@@ -46,7 +48,7 @@ Podzielmy proces tworzenia tabeli z różnymi preferowanymi ustawieniami szeroko
 
 Nagłówek: Tworzenie nowego dokumentu i DocumentBuilder
 
- Wyjaśnienie: Zacznij od utworzenia nowego dokumentu Word i`DocumentBuilder` instancja.`DocumentBuilder` Klasa ta zapewnia prosty sposób dodawania treści do dokumentu.
+Wyjaśnienie: Zacznij od utworzenia nowego dokumentu Word i `DocumentBuilder` instancja. `DocumentBuilder` Klasa ta zapewnia prosty sposób dodawania treści do dokumentu.
 
 ```csharp
 // Zdefiniuj ścieżkę do zapisania dokumentu.
@@ -59,7 +61,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Tutaj określasz katalog, w którym zostanie zapisany dokument i inicjujesz`Document` I`DocumentBuilder` obiekty.
+Tutaj określasz katalog, w którym zostanie zapisany dokument i inicjujesz `Document` I `DocumentBuilder` obiekty.
 
 ## Krok 2: Wstaw pierwszą komórkę tabeli o szerokości bezwzględnej
 
@@ -73,7 +75,7 @@ builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln("Cell at 40 points width");
 ```
 
- tym kroku rozpoczynasz tworzenie tabeli i wstawiasz komórkę o szerokości bezwzględnej.`PreferredWidth.FromPoints(40)` metoda ustawia szerokość komórki na 40 punktów i`Shading.BackgroundPatternColor` stosuje jasnożółty kolor tła.
+W tym kroku rozpoczynasz tworzenie tabeli i wstawiasz komórkę o szerokości bezwzględnej. `PreferredWidth.FromPoints(40)` metoda ustawia szerokość komórki na 40 punktów i `Shading.BackgroundPatternColor` stosuje jasnożółty kolor tła.
 
 ## Krok 3: Wstaw komórkę o względnym rozmiarze
 
@@ -98,11 +100,11 @@ Na koniec wstaw komórkę, która automatycznie dopasuje swój rozmiar do ilośc
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightGreen;
-builder.Writeln("Cell automatically sized. The size of this cell is calculated from the table preferred width.");
+builder.Writeln("Cell automatically sized. Ten size of this cell is calculated from the table preferred width.");
 builder.Writeln("In this case the cell will fill up the rest of the available space.");
 ```
 
- Ten`PreferredWidth.Auto` ustawienie pozwala tej komórce rozszerzać się lub kurczyć w oparciu o przestrzeń pozostałą po uwzględnieniu innych komórek. Dzięki temu układ tabeli wygląda na zrównoważony i profesjonalny.
+The `PreferredWidth.Auto` ustawienie pozwala tej komórce rozszerzać się lub kurczyć w oparciu o przestrzeń pozostałą po uwzględnieniu innych komórek. Dzięki temu układ tabeli wygląda na zrównoważony i profesjonalny.
 
 ## Krok 5: Zakończ i zapisz dokument
 
@@ -135,9 +137,14 @@ Tak, możesz stosować różne style i formatowanie do komórek bez względu na 
 
 ### Co się stanie, jeśli całkowita szerokość tabeli będzie mniejsza od sumy szerokości wszystkich komórek?
 Tabela automatycznie dostosuje szerokość komórek do dostępnej przestrzeni, co może spowodować zmniejszenie rozmiaru niektórych komórek.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

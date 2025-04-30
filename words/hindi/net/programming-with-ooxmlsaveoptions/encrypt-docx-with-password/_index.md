@@ -1,14 +1,16 @@
 ---
-title: पासवर्ड के साथ Docx एन्क्रिप्ट करें
-linktitle: पासवर्ड के साथ Docx एन्क्रिप्ट करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: Aspose.Words for .NET का उपयोग करके अपने Word दस्तावेज़ों को पासवर्ड से एन्क्रिप्ट करके सुरक्षित करें। अपनी संवेदनशील जानकारी की सुरक्षा के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/programming-with-ooxmlsaveoptions/encrypt-docx-with-password/
+"description": "Aspose.Words for .NET का उपयोग करके अपने Word दस्तावेज़ों को पासवर्ड से एन्क्रिप्ट करके सुरक्षित करें। अपनी संवेदनशील जानकारी की सुरक्षा के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "पासवर्ड के साथ Docx एन्क्रिप्ट करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "पासवर्ड के साथ Docx एन्क्रिप्ट करें"
+"url": "/hi/net/programming-with-ooxmlsaveoptions/encrypt-docx-with-password/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पासवर्ड के साथ Docx एन्क्रिप्ट करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-ooxmlsaveoptions/encrypt-docx-with-password/
 
 इससे पहले कि हम विवरण में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
--  Aspose.Words for .NET: यदि आपने पहले से ऐसा नहीं किया है, तो यहां से Aspose.Words for .NET डाउनलोड और इंस्टॉल करें।[यहाँ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: यदि आपने पहले से ऐसा नहीं किया है, तो यहां से Aspose.Words for .NET डाउनलोड और इंस्टॉल करें। [यहाँ](https://releases.aspose.com/words/net/).
 - .NET फ्रेमवर्क: सुनिश्चित करें कि आपके मशीन पर .NET फ्रेमवर्क स्थापित है।
 - विकास वातावरण: विजुअल स्टूडियो जैसा IDE कोडिंग को आसान बना देगा।
 - C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको कोड को समझने और कार्यान्वित करने में मदद मिलेगी।
@@ -39,17 +41,17 @@ using Aspose.Words.Saving;
 
 ## चरण 1: दस्तावेज़ लोड करें
 
- पहला कदम उस दस्तावेज़ को लोड करना है जिसे आप एन्क्रिप्ट करना चाहते हैं। हम इसका उपयोग करेंगे`Document` इसे प्राप्त करने के लिए Aspose.Words से क्लास का उपयोग करें।
+पहला कदम उस दस्तावेज़ को लोड करना है जिसे आप एन्क्रिप्ट करना चाहते हैं। हम इसका उपयोग करेंगे `Document` इसे प्राप्त करने के लिए Aspose.Words से क्लास का उपयोग करें।
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";  
 
 // दस्तावेज़ लोड करें
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- इस चरण में, हम उस निर्देशिका का पथ निर्दिष्ट करते हैं जहाँ आपका दस्तावेज़ स्थित है।`Document` क्लास का उपयोग इस निर्देशिका से DOCX फ़ाइल लोड करने के लिए किया जाता है। सुनिश्चित करें कि प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
+इस चरण में, हम उस निर्देशिका का पथ निर्दिष्ट करते हैं जहाँ आपका दस्तावेज़ स्थित है। `Document` क्लास का उपयोग इस निर्देशिका से DOCX फ़ाइल लोड करने के लिए किया जाता है। प्रतिस्थापित करना सुनिश्चित करें `"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
 
 ## चरण 2: सहेजें विकल्प कॉन्फ़िगर करें
 
@@ -60,7 +62,7 @@ Document doc = new Document(dataDir + "Document.docx");
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Password = "password" };
 ```
 
-`OoxmlSaveOptions`क्लास हमें DOCX फ़ाइलों को सहेजने के लिए विभिन्न विकल्प निर्दिष्ट करने की अनुमति देता है। यहाँ, हम सेट करते हैं`Password`संपत्ति को`"password"` . आप प्रतिस्थापित कर सकते हैं`"password"` अपनी पसंद के किसी भी पासवर्ड के साथ। एन्क्रिप्टेड DOCX फ़ाइल को खोलने के लिए इस पासवर्ड की आवश्यकता होगी।
+The `OoxmlSaveOptions` क्लास हमें DOCX फ़ाइलों को सहेजने के लिए विभिन्न विकल्प निर्दिष्ट करने की अनुमति देता है। यहाँ, हम सेट करते हैं `Password` संपत्ति को `"password"`. आप प्रतिस्थापित कर सकते हैं `"password"` अपनी पसंद के किसी भी पासवर्ड के साथ। एन्क्रिप्टेड DOCX फ़ाइल को खोलने के लिए इस पासवर्ड की आवश्यकता होगी।
 
 ## चरण 3: एन्क्रिप्टेड दस्तावेज़ को सहेजें
 
@@ -71,7 +73,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Password = "password" };
 doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.EncryptDocxWithPassword.docx", saveOptions);
 ```
 
-`Save` की विधि`Document` क्लास का उपयोग दस्तावेज़ को सहेजने के लिए किया जाता है। हम एन्क्रिप्टेड दस्तावेज़ के लिए पथ और फ़ाइल नाम प्रदान करते हैं, साथ ही`saveOptions` हमने पहले कॉन्फ़िगर किया था। दस्तावेज़ अब एन्क्रिप्टेड DOCX फ़ाइल के रूप में सहेजा गया है।
+The `Save` की विधि `Document` क्लास का उपयोग दस्तावेज़ को सहेजने के लिए किया जाता है। हम एन्क्रिप्टेड दस्तावेज़ के लिए पथ और फ़ाइल नाम प्रदान करते हैं, साथ ही `saveOptions` हमने पहले कॉन्फ़िगर किया था। दस्तावेज़ अब एन्क्रिप्टेड DOCX फ़ाइल के रूप में सहेजा गया है।
 
 ## निष्कर्ष
 
@@ -79,9 +81,9 @@ doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.EncryptDocxWithPassword.docx", s
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### क्या मैं .NET के लिए Aspose.Words के साथ एक अलग एन्क्रिप्शन एल्गोरिथ्म का उपयोग कर सकता हूं?
+### क्या मैं .NET के लिए Aspose.Words के साथ एक अलग एन्क्रिप्शन एल्गोरिथ्म का उपयोग कर सकता हूँ?
 
-हां, Aspose.Words for .NET विभिन्न एन्क्रिप्शन एल्गोरिदम का समर्थन करता है। आप एन्क्रिप्शन सेटिंग्स को कस्टमाइज़ कर सकते हैं`OoxmlSaveOptions` कक्षा।
+हां, Aspose.Words for .NET विभिन्न एन्क्रिप्शन एल्गोरिदम का समर्थन करता है। आप एन्क्रिप्शन सेटिंग्स को कस्टमाइज़ कर सकते हैं `OoxmlSaveOptions` कक्षा।
 
 ### क्या DOCX फ़ाइल से एन्क्रिप्शन हटाना संभव है?
 
@@ -99,9 +101,14 @@ doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.EncryptDocxWithPassword.docx", s
 
 हां, आप एक स्क्रिप्ट लिख सकते हैं जो एकाधिक दस्तावेजों को लूप कर सकती है तथा इस ट्यूटोरियल में बताए गए चरणों का उपयोग करके प्रत्येक पर एन्क्रिप्शन लागू कर सकती है।
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

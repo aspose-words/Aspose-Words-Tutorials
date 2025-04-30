@@ -1,14 +1,16 @@
 ---
-title: ใช้เส้นขอบโครงร่าง
-linktitle: ใช้เส้นขอบโครงร่าง
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีใช้เส้นขอบโครงร่างกับตารางใน Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อจัดรูปแบบตารางอย่างสมบูรณ์แบบ
-weight: 10
-url: /th/net/programming-with-table-styles-and-formatting/apply-outline-border/
+"description": "เรียนรู้วิธีใช้เส้นขอบโครงร่างกับตารางใน Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อจัดรูปแบบตารางอย่างสมบูรณ์แบบ"
+"linktitle": "ใช้เส้นขอบโครงร่าง"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ใช้เส้นขอบโครงร่าง"
+"url": "/th/net/programming-with-table-styles-and-formatting/apply-outline-border/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ใช้เส้นขอบโครงร่าง
@@ -21,7 +23,7 @@ url: /th/net/programming-with-table-styles-and-formatting/apply-outline-border/
 
 ก่อนที่เราจะเริ่มต้นเขียนโค้ด มีบางสิ่งที่คุณต้องมี:
 
-1.  Aspose.Words สำหรับ .NET: คุณต้องติดตั้ง Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: คุณต้องติดตั้ง Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: สภาพแวดล้อมการพัฒนาที่เหมาะสมเช่น Visual Studio
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจพื้นฐานเกี่ยวกับ C# จะช่วยให้คุณติดตามบทช่วยสอนได้
 
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- ในขั้นตอนนี้เราจะใช้`Document` คลาสจาก Aspose.Words เพื่อโหลดเอกสารที่มีอยู่ แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณเก็บเอกสารไว้
+ในขั้นตอนนี้เราจะใช้ `Document` คลาสจาก Aspose.Words เพื่อโหลดเอกสารที่มีอยู่ แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณเก็บเอกสารไว้
 
 ## ขั้นตอนที่ 2: เข้าถึงตาราง
 
@@ -59,7 +61,7 @@ Document doc = new Document(dataDir + "Tables.docx");
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 ```
 
- ที่นี่,`GetChild` วิธีการดึงตารางแรกในเอกสาร พารามิเตอร์`NodeType.Table, 0, true` ให้แน่ใจว่าเราได้รับประเภทโหนดที่ถูกต้อง
+ที่นี่, `GetChild` วิธีการดึงตารางแรกในเอกสาร พารามิเตอร์ `NodeType.Table, 0, true` ให้แน่ใจว่าเราได้รับประเภทโหนดที่ถูกต้อง
 
 ## ขั้นตอนที่ 3: จัดวางตาราง
 
@@ -92,7 +94,7 @@ table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 ```
 
- แต่ละประเภทของเส้นขอบ (ซ้าย ขวา บน ล่าง) จะถูกตั้งค่าแยกกัน เราใช้`LineStyle.Single` สำหรับเส้นทึบ`1.5` สำหรับความกว้างของเส้นและ`Color.Green` สำหรับสีเส้นขอบ
+แต่ละประเภทของเส้นขอบ (ซ้าย ขวา บน ล่าง) จะถูกตั้งค่าแยกกัน เราใช้ `LineStyle.Single` สำหรับเส้นทึบ `1.5` สำหรับความกว้างของเส้นและ `Color.Green` สำหรับสีเส้นขอบ
 
 ## ขั้นตอนที่ 6: ใช้การแรเงาเซลล์
 
@@ -102,11 +104,11 @@ table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 ```
 
- ที่นี่,`SetShading` ใช้เพื่อทาสีเขียวอ่อนทึบลงบนเซลล์ เพื่อให้ตารางโดดเด่นขึ้นมา
+ที่นี่, `SetShading` ใช้ในการทาสีเขียวอ่อนทึบลงบนเซลล์ เพื่อให้ตารางโดดเด่นขึ้นมา
 
 ## ขั้นตอนที่ 7: บันทึกเอกสาร
 
-สุดท้ายให้บันทึกเอกสารที่แก้ไข
+ขั้นสุดท้ายให้บันทึกเอกสารที่แก้ไข
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx");
@@ -123,22 +125,27 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyOutlineBorder.docx"
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถใช้รูปแบบที่แตกต่างกันกับขอบแต่ละขอบของตารางได้ไหม  
- ใช่ คุณสามารถใช้รูปแบบและสีที่แตกต่างกันกับแต่ละเส้นขอบได้โดยปรับพารามิเตอร์ใน`SetBorder` วิธี.
+ใช่ คุณสามารถใช้รูปแบบและสีที่แตกต่างกันกับแต่ละเส้นขอบได้โดยปรับพารามิเตอร์ใน `SetBorder` วิธี.
 
 ### ฉันจะเปลี่ยนความกว้างของเส้นขอบได้อย่างไร?  
- คุณสามารถเปลี่ยนความกว้างได้โดยการแก้ไขพารามิเตอร์ที่สามใน`SetBorder` วิธีการ เช่น`1.5` กำหนดความกว้าง 1.5 จุด
+คุณสามารถเปลี่ยนความกว้างได้โดยการแก้ไขพารามิเตอร์ที่สามใน `SetBorder` วิธีการ เช่น `1.5` กำหนดความกว้าง 1.5 จุด
 
 ### เป็นไปได้ไหมที่จะใส่เงาให้กับเซลล์แต่ละเซลล์?  
- ใช่ คุณสามารถใช้การแรเงากับเซลล์แต่ละเซลล์ได้โดยการเข้าถึงแต่ละเซลล์และใช้`SetShading` วิธี.
+ใช่ คุณสามารถใช้การแรเงากับเซลล์แต่ละเซลล์ได้โดยการเข้าถึงแต่ละเซลล์และใช้ `SetShading` วิธี.
 
 ### ฉันสามารถใช้สีอื่นสำหรับขอบและการแรเงาได้หรือไม่  
- แน่นอน! คุณสามารถใช้สีใดก็ได้ที่มีใน`System.Drawing.Color` ระดับ.
+แน่นอน! คุณสามารถใช้สีใดก็ได้ที่มีใน `System.Drawing.Color` ระดับ.
 
 ### ฉันจะจัดตำแหน่งตารางให้กึ่งกลางในแนวนอนได้อย่างไร?  
- การ`table.Alignment = TableAlignment.Center;` บรรทัดในโค้ดจะจัดตารางให้อยู่กึ่งกลางแนวนอนบนหน้า
+การ `table.Alignment = TableAlignment.Center;` บรรทัดในโค้ดจะจัดตารางให้อยู่กึ่งกลางแนวนอนบนหน้า
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

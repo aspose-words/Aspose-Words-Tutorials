@@ -1,14 +1,16 @@
 ---
-title: फेंस्ड कोड
-linktitle: फेंस्ड कोड
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ेंस्ड कोड और जानकारी स्ट्रिंग जोड़ना सीखें। चरण-दर-चरण मार्गदर्शिका शामिल है। अपने दस्तावेज़ स्वरूपण कौशल को बढ़ाएँ।
-weight: 10
-url: /hi/net/working-with-markdown/fenced-code/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ेंस्ड कोड और जानकारी स्ट्रिंग जोड़ना सीखें। चरण-दर-चरण मार्गदर्शिका शामिल है। अपने दस्तावेज़ स्वरूपण कौशल को बढ़ाएँ।"
+"linktitle": "फेंस्ड कोड"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "फेंस्ड कोड"
+"url": "/hi/net/working-with-markdown/fenced-code/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # फेंस्ड कोड
@@ -22,7 +24,7 @@ url: /hi/net/working-with-markdown/fenced-code/
 ट्यूटोरियल में जाने से पहले, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
 - C# का बुनियादी ज्ञान: C# की सामान्य समझ आपको अवधारणाओं को शीघ्रता से समझने में मदद करेगी।
--  Aspose.Words for .NET: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। अगर आपके पास अभी तक यह नहीं है, तो इसे ले लें[यहाँ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। अगर आपके पास अभी तक यह नहीं है, तो इसे ले लें [यहाँ](https://releases.aspose.com/words/net/).
 - विकास वातावरण: विजुअल स्टूडियो या कोई अन्य C# IDE जिससे आप सहज हों।
 
 ## नामस्थान आयात करें
@@ -45,7 +47,7 @@ using Aspose.Words.Style;
 
 ## चरण 2: डॉक्यूमेंटबिल्डर को आरंभ करें
 
-अब जब आपका प्रोजेक्ट तैयार हो गया है, तो चलिए डॉक्यूमेंटबिल्डर को आरंभ करते हैं, जो वर्ड डॉक्यूमेंट में सामग्री जोड़ने के लिए हमारा मुख्य उपकरण होगा।
+अब जब आपका प्रोजेक्ट सेट हो गया है, तो चलिए डॉक्यूमेंटबिल्डर को आरंभ करते हैं, जो वर्ड डॉक्यूमेंट में सामग्री जोड़ने के लिए हमारा मुख्य उपकरण होगा।
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
@@ -88,7 +90,7 @@ fencedCodeWithInfo.ParagraphFormat.Shading.BackgroundPatternColor = Color.LightG
 
 ## चरण 6: दस्तावेज़ में जानकारी स्ट्रिंग के साथ फ़ेंस्ड कोड जोड़ें
 
-अब, आइए एक फेंस्ड कोड ब्लॉक को एक जानकारी स्ट्रिंग के साथ जोड़ें जो यह इंगित करे कि यह C# कोड है।
+अब, आइए एक फेंस्ड कोड ब्लॉक को एक सूचना स्ट्रिंग के साथ जोड़ें जो यह इंगित करे कि यह C# कोड है।
 
 ```csharp
 builder.ParagraphFormat.Style = fencedCodeWithInfo;
@@ -108,16 +110,21 @@ builder.Writeln("This is a fenced code block with info string - C#");
 Aspose.Words मुख्यतः .NET भाषाओं का समर्थन करता है, लेकिन Java, Python और अन्य भाषाओं के लिए भी इसके संस्करण उपलब्ध हैं।
 
 ### क्या Aspose.Words का उपयोग निःशुल्क है?
- Aspose.Words एक वाणिज्यिक उत्पाद है, लेकिन आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/)इसकी विशेषताओं का पता लगाने के लिए।
+Aspose.Words एक वाणिज्यिक उत्पाद है, लेकिन आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/) इसकी विशेषताओं का पता लगाने के लिए।
 
 ### मैं Aspose.Words के लिए समर्थन कैसे प्राप्त कर सकता हूं?
- आप Aspose समुदाय और डेवलपर्स से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/words/8).
+आप Aspose समुदाय और डेवलपर्स से सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/words/8).
 
 ### Aspose.Words क्या अन्य सुविधाएँ प्रदान करता है?
 Aspose.Words दस्तावेज़ रूपांतरण, टेम्पलेट-आधारित दस्तावेज़ निर्माण, रिपोर्टिंग और बहुत कुछ सहित सुविधाओं की एक विस्तृत श्रृंखला प्रदान करता है।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

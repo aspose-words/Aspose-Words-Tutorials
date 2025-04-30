@@ -1,14 +1,16 @@
 ---
-title: सभी अनुभाग हटाएं
-linktitle: सभी अनुभाग हटाएं
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस आसान-से-अनुसरण, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में सभी अनुभागों को हटाना सीखें।
-weight: 10
-url: /hi/net/working-with-section/delete-all-sections/
+"description": "इस आसान-से-अनुसरण, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में सभी अनुभागों को हटाना सीखें।"
+"linktitle": "सभी अनुभाग हटाएं"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "सभी अनुभाग हटाएं"
+"url": "/hi/net/working-with-section/delete-all-sections/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # सभी अनुभाग हटाएं
@@ -21,14 +23,14 @@ url: /hi/net/working-with-section/delete-all-sections/
 
 इससे पहले कि हम आगे बढ़ें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए। आरंभ करने के लिए आपको निम्न चीज़ों की आवश्यकता होगी:
 
--  .NET के लिए Aspose.Words: आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+- .NET के लिए Aspose.Words: आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 - विकास वातावरण: कोई भी .NET संगत IDE (जैसे विज़ुअल स्टूडियो).
 - C# का बुनियादी ज्ञान: इससे आपको कोड स्निपेट को बेहतर ढंग से समझने में मदद मिलेगी।
 - वर्ड दस्तावेज़: कार्य करने के लिए एक इनपुट दस्तावेज़।
 
 ## नामस्थान आयात करें
 
-सबसे पहले, आपको आवश्यक नेमस्पेस आयात करने की आवश्यकता होगी। यह सुनिश्चित करता है कि आपका प्रोजेक्ट Aspose.Words लाइब्रेरी को पहचानता है।
+सबसे पहले, आपको आवश्यक नामस्थान आयात करने होंगे। यह सुनिश्चित करता है कि आपका प्रोजेक्ट Aspose.Words लाइब्रेरी को पहचानता है।
 
 ```csharp
 using Aspose.Words;
@@ -44,7 +46,7 @@ using Aspose.Words;
 Document doc = new Document("input.docx");
 ```
 
- कोड की इस पंक्ति में, हम "input.docx" नामक दस्तावेज़ को एक ऑब्जेक्ट में लोड कर रहे हैं`doc`.
+कोड की इस पंक्ति में, हम "input.docx" नामक दस्तावेज़ को एक ऑब्जेक्ट में लोड कर रहे हैं `doc`.
 
 ## चरण 2: सभी अनुभाग साफ़ करें
 
@@ -66,22 +68,27 @@ doc.Sections.Clear();
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### .NET के लिए Aspose.Words क्या है?
- Aspose.Words for .NET, Word दस्तावेज़ों को प्रोग्रामेटिक रूप से मैनिपुलेट करने के लिए एक शक्तिशाली लाइब्रेरी है। आप अधिक जानकारी पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+Aspose.Words for .NET, Word दस्तावेज़ों को प्रोग्रामेटिक रूप से मैनिपुलेट करने के लिए एक शक्तिशाली लाइब्रेरी है। आप अधिक जानकारी पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
 
 ### क्या मैं .NET के लिए Aspose.Words को निःशुल्क आज़मा सकता हूँ?
- हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### मैं .NET के लिए Aspose.Words कैसे खरीद सकता हूँ?
- आप इसे यहाँ से खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+आप इसे यहाँ से खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy).
 
 ### क्या .NET के लिए Aspose.Words हेतु कोई समर्थन उपलब्ध है?
-हां, आप Aspose समुदाय से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/words/8).
+हां, आप Aspose समुदाय से सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/words/8).
 
 ### यदि मुझे अस्थायी लाइसेंस की आवश्यकता हो तो क्या होगा?
- आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,28 +1,30 @@
 ---
-title: Usando campos em Aspose.Words para Java
-linktitle: Usando campos
-second_title: API de processamento de documentos Java Aspose.Words
-description: Aprenda a usar o Aspose.Words para campos Java de forma eficaz neste tutorial passo a passo. Crie documentos dinâmicos do Word com facilidade.
-weight: 11
-url: /pt/java/using-document-elements/using-fields/
+"description": "Aprenda a usar o Aspose.Words para campos Java de forma eficaz neste tutorial passo a passo. Crie documentos dinâmicos do Word com facilidade."
+"linktitle": "Usando campos"
+"second_title": "API de processamento de documentos Java Aspose.Words"
+"title": "Usando campos em Aspose.Words para Java"
+"url": "/pt/java/using-document-elements/using-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usando campos em Aspose.Words para Java
 
 
-Neste tutorial passo a passo, nós o guiaremos sobre como usar campos no Aspose.Words para Java para manipular documentos com facilidade. O Aspose.Words para Java é uma API poderosa que permite que você trabalhe com documentos do Word programaticamente, dando a você controle total sobre seu conteúdo e formatação.
+Neste tutorial passo a passo, mostraremos como usar campos no Aspose.Words para Java para manipular documentos com facilidade. O Aspose.Words para Java é uma API poderosa que permite trabalhar com documentos do Word programaticamente, oferecendo controle total sobre seu conteúdo e formatação.
 
 ## 1. Introdução
 
-Aspose.Words para Java é uma ferramenta essencial para qualquer um que lide com documentos do Word em aplicativos Java. Campos são espaços reservados que podem armazenar dados dinâmicos em seu documento. Este tutorial mostrará como trabalhar com campos de forma eficaz.
+Aspose.Words para Java é uma ferramenta essencial para quem trabalha com documentos do Word em aplicativos Java. Campos são espaços reservados que podem armazenar dados dinâmicos no seu documento. Este tutorial mostrará como trabalhar com campos de forma eficaz.
 
 ## 2. Configurando seu ambiente
 
- Antes de começar, certifique-se de ter o Aspose.Words para Java instalado. Você pode baixá-lo em[aqui](https://releases.aspose.com/words/java/). Além disso, certifique-se de ter o Java e um ambiente de desenvolvimento integrado (IDE) como Eclipse ou IntelliJ IDEA instalado no seu sistema.
+Antes de começar, certifique-se de ter o Aspose.Words para Java instalado. Você pode baixá-lo em [aqui](https://releases.aspose.com/words/java/). Além disso, certifique-se de ter o Java e um ambiente de desenvolvimento integrado (IDE), como Eclipse ou IntelliJ IDEA, instalado no seu sistema.
 
 ## 3. Carregando um documento do Word
 
@@ -34,11 +36,11 @@ string outPath = "Your Output Directory";
 Document doc = new Document(dataDir + "Mail merge destinations - Fax.docx");
 ```
 
- Substituir`"Your Document Directory"` e`"Your Output Directory"` com os caminhos apropriados.
+Substituir `"Your Document Directory"` e `"Your Output Directory"` com os caminhos apropriados.
 
 ## 4. Personalizando a mala direta
 
-Aspose.Words para Java fornece excelente suporte para operações de mala direta. Você pode personalizar o processo de mala direta configurando um manipulador de eventos de mala direta. Veja como fazer isso:
+O Aspose.Words para Java oferece excelente suporte para operações de mala direta. Você pode personalizar o processo de mala direta configurando um manipulador de eventos de mala direta. Veja como fazer isso:
 
 ```java
 // Configure o manipulador de eventos de mala direta para fazer o trabalho personalizado.
@@ -68,9 +70,9 @@ Depois de personalizar seu documento, você pode salvá-lo usando o seguinte có
 doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 ```
 
- Substituir`"Your Output Directory"` com o caminho de saída desejado.
+Substituir `"Your Output Directory"` com o caminho de saída desejado.
 
-## Código fonte completo
+## Código-fonte completo
 ```java
 string dataDir = "Your Document Directory";
 string outPath = "Your Output Directory";
@@ -90,7 +92,7 @@ Object[] fieldValues = {
 doc.getMailMerge().execute(fieldNames, fieldValues);
 doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 ```
-Código fonte da classe HandleMergeField
+Código-fonte da classe HandleMergeField
 
 ```java
     private static class HandleMergeField implements IFieldMergingCallback
@@ -98,13 +100,13 @@ Código fonte da classe HandleMergeField
         /// <resumo>
         /// Este manipulador é chamado para cada campo de mala direta encontrado no documento,
         /// para cada registro encontrado na fonte de dados.
-        /// </resumo>
+        /// </sumário>
         public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
         {
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
             // Decidimos que queríamos que todos os valores booleanos fossem exibidos como campos de formulário de caixa de seleção.
-            if (e.getFieldValue() instanceof /*boolean*/Boolean)
+            if (e.getFieldValue() instanceof /*booleano*/Boolean)
             {
                 // Mova o "cursor" para o campo de mesclagem atual.
                 mBuilder.moveToMergeField(e.getFieldName());
@@ -140,9 +142,12 @@ Código fonte da classe HandleMergeField
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        builder.writeln("{{#foreach example}}");
-        builder.writeln("{{Image(126pt;126pt):stempel}}");
-        builder.writeln("{{/foreach example}}");
+        builder.writeln("
+{{#foreach example}}");
+        builder.writeln("
+{{Image(126pt;126pt):stempel}}");
+        builder.writeln("
+{{/foreach example}}");
         doc.getMailMerge().setUseNonMergeFields(true);
         doc.getMailMerge().setTrimWhitespaces(true);
         doc.getMailMerge().setUseWholeParagraphAsRegion(false);
@@ -158,7 +163,7 @@ Código fonte da classe HandleMergeField
     {
         public void fieldMerging(FieldMergingArgs args)
         {
-            // A implementação não é necessária.
+            //  A implementação não é necessária.
         }
         public void imageFieldMerging(ImageFieldMergingArgs args) throws Exception
         {
@@ -211,11 +216,11 @@ Código fonte da classe HandleMergeField
         DocumentBuilder builder = new DocumentBuilder(doc);
         // Insira um MERGEFIELD aninhado dentro de um campo IF.
         // Como a instrução do campo IF é falsa, o resultado do MERGEFIELD interno não será exibido,
-        // o MERGEFIELD não receberá nenhum dado durante uma mala direta.
+        // e o MERGEFIELD não receberá nenhum dado durante uma mala direta.
         FieldIf fieldIf = (FieldIf)builder.insertField(" IF 1 = 2 ");
         builder.moveTo(fieldIf.getSeparator());
         builder.insertField(" MERGEFIELD  FullName ");
-        // Ainda podemos contar MERGEFIELDs dentro de campos IF com instruções falsas se definirmos esse sinalizador como verdadeiro.
+        // Ainda podemos contar MERGEFIELDs dentro de campos IF com declaração falsa se definirmos esse sinalizador como verdadeiro.
         doc.getMailMerge().setUnconditionalMergeFieldsAndRegions(true);
         DataTable dataTable = new DataTable();
         dataTable.getColumns().add("FullName");
@@ -250,7 +255,7 @@ Código fonte da classe HandleMergeField
         /// <resumo>
         /// Isso é chamado quando o mecanismo de mala direta encontra o campo de mesclagem Image:XXX no documento.
         /// Você tem a chance de retornar um objeto Image, nome de arquivo ou um fluxo que contém a imagem.
-        /// </resumo>
+        /// </sumário>
         public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs e) throws Exception
         {
             // O valor do campo é uma matriz de bytes, basta convertê-lo e criar um fluxo nele.
@@ -303,8 +308,8 @@ Código fonte da classe HandleMergeField
         /// <resumo>
         /// Chamado para cada campo de mesclagem encontrado no documento.
         /// Podemos retornar alguns dados ao mecanismo de mala direta ou fazer outra coisa com o documento.
-        /// Neste caso modificamos a formatação da célula.
-        /// </resumo>
+        /// Neste caso, modificamos a formatação da célula.
+        /// </sumário>
         public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e)
         {
             if (mBuilder == null)
@@ -315,7 +320,7 @@ Código fonte da classe HandleMergeField
                 Color rowColor = isOdd(mRowIdx) 
                     ? new Color((213), (227), (235)) 
                     : new Color((242), (242), (242));
-                //Não há como definir propriedades de célula para a linha inteira no momento, então temos que iterar em todas as células da linha.
+                // Não há como definir propriedades de célula para a linha inteira no momento, então temos que iterar sobre todas as células da linha.
                 for (int colIdx = 0; colIdx < 4; colIdx++)
                 {
                     mBuilder.moveToCell(0, mRowIdx, colIdx, 0);
@@ -333,7 +338,7 @@ Código fonte da classe HandleMergeField
     }
     /// <resumo>
     /// Retorna verdadeiro se o valor for ímpar; falso se o valor for par.
-    /// </resumo>
+    /// </sumário>
     private static boolean isOdd(int value)
     {
         return (value / 2 * 2) == value;
@@ -341,7 +346,7 @@ Código fonte da classe HandleMergeField
     /// <resumo>
     /// Crie uma DataTable e preencha-a com dados.
     /// Na vida real, esta DataTable deve ser preenchida a partir de um banco de dados.
-    /// </resumo>
+    /// </sumário>
     private DataTable getSuppliersDataTable()
     {
         DataTable dataTable = new DataTable("Suppliers");
@@ -361,31 +366,36 @@ Código fonte da classe HandleMergeField
 
 ## 6. Conclusão
 
-Parabéns! Você aprendeu a usar campos no Aspose.Words para Java para manipular documentos do Word dinamicamente. Esta API poderosa dá a você controle completo sobre seus documentos, tornando-a um recurso valioso para desenvolvedores Java.
+Parabéns! Você aprendeu a usar campos no Aspose.Words para Java para manipular documentos do Word dinamicamente. Esta poderosa API oferece controle total sobre seus documentos, tornando-se um recurso valioso para desenvolvedores Java.
 
 ## 7. Perguntas frequentes
 
 ### P1: Onde posso baixar o Aspose.Words para Java?
- Você pode baixar Aspose.Words para Java em[aqui](https://releases.aspose.com/words/java/).
+Você pode baixar Aspose.Words para Java em [aqui](https://releases.aspose.com/words/java/).
 
 ### P2: Como posso obter uma licença temporária para o Aspose.Words para Java?
- Você pode obter uma licença temporária em[aqui](https://purchase.aspose.com/temporary-license/).
+Você pode obter uma licença temporária em [aqui](https://purchase.aspose.com/temporary-license/).
 
 ### Q3: Onde posso obter suporte para o Aspose.Words para Java?
- Para obter suporte, você pode visitar o fórum Aspose.Words[aqui](https://forum.aspose.com/).
+Para obter suporte, você pode visitar o fórum Aspose.Words [aqui](https://forum.aspose.com/).
 
-### P4: O Aspose.Words para Java é adequado para manipular conteúdo HTML em documentos do Word?
-Sim, o Aspose.Words para Java oferece excelente suporte para manipular conteúdo HTML em documentos do Word.
+### T4: O Aspose.Words para Java é adequado para manipular conteúdo HTML em documentos do Word?
+Sim, o Aspose.Words para Java oferece excelente suporte para manipulação de conteúdo HTML em documentos do Word.
 
 ### P5: Posso usar o Aspose.Words para Java gratuitamente?
- Aspose.Words para Java é um produto comercial, mas você pode explorar seus recursos com uma avaliação gratuita disponível[aqui](https://releases.aspose.com/).
+Aspose.Words para Java é um produto comercial, mas você pode explorar seus recursos com um teste gratuito disponível [aqui](https://releases.aspose.com/).
 
 Comece a usar o Aspose.Words para Java hoje mesmo e assuma o controle dos seus documentos do Word como nunca antes!
 
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

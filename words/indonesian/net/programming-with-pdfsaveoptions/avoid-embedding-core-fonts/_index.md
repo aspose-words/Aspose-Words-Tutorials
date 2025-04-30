@@ -1,14 +1,16 @@
 ---
-title: Kurangi Ukuran File PDF dengan Tidak Menyertakan Font Inti
-linktitle: Kurangi Ukuran File PDF dengan Tidak Menyertakan Font Inti
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengurangi ukuran file PDF dengan tidak menyematkan font inti menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk mengoptimalkan PDF Anda.
-weight: 10
-url: /id/net/programming-with-pdfsaveoptions/avoid-embedding-core-fonts/
+"description": "Pelajari cara mengurangi ukuran file PDF dengan tidak menyematkan font inti menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk mengoptimalkan PDF Anda."
+"linktitle": "Kurangi Ukuran File PDF dengan Tidak Menyertakan Font Inti"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Kurangi Ukuran File PDF dengan Tidak Menyertakan Font Inti"
+"url": "/id/net/programming-with-pdfsaveoptions/avoid-embedding-core-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kurangi Ukuran File PDF dengan Tidak Menyertakan Font Inti
@@ -21,7 +23,7 @@ Pernahkah Anda merasa bingung, bertanya-tanya mengapa file PDF Anda begitu besar
 
 Sebelum memulai perjalanan yang mengasyikkan ini, mari pastikan Anda memiliki semua yang Anda butuhkan. Berikut daftar periksa singkatnya:
 
--  Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Jika Anda belum memilikinya, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Jika Anda belum memilikinya, Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Anda memerlukan lingkungan pengembangan seperti Visual Studio.
 - Dokumen Word: Kami akan menggunakan dokumen Word (misalnya, "Rendering.docx") untuk tutorial ini.
 - Pengetahuan Dasar C#: Pemahaman dasar tentang C# akan membantu Anda mengikutinya.
@@ -47,7 +49,7 @@ Sebelum kita mulai memanipulasi dokumen kita, kita perlu menentukan direktori te
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Word Anda berada.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Word Anda berada.
 
 ## Langkah 2: Muat Dokumen Word
 
@@ -70,11 +72,11 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Pengaturan`UseCoreFonts` ke`true` memastikan bahwa font inti seperti Arial dan Times New Roman tidak tertanam dalam PDF, yang secara signifikan mengurangi ukuran file.
+Pengaturan `UseCoreFonts` ke `true` memastikan bahwa font inti seperti Arial dan Times New Roman tidak tertanam dalam PDF, yang secara signifikan mengurangi ukuran file.
 
 ## Langkah 4: Simpan Dokumen sebagai PDF
 
-Terakhir, kami menyimpan dokumen Word sebagai PDF menggunakan opsi penyimpanan yang telah dikonfigurasi. Langkah ini menghasilkan file PDF tanpa menyertakan font inti.
+Terakhir, kami menyimpan dokumen Word sebagai PDF menggunakan opsi penyimpanan yang dikonfigurasi. Langkah ini menghasilkan file PDF tanpa menyertakan font inti.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.AvoidEmbeddingCoreFonts.pdf", saveOptions);
@@ -95,16 +97,21 @@ Menghindari penyematan font inti akan mengurangi ukuran berkas, membuatnya lebih
 Ya, font inti seperti Arial dan Times New Roman umumnya tersedia di sebagian besar sistem.
 
 ### Bagaimana jika saya perlu menanamkan font khusus?
- Anda dapat menyesuaikan`PdfSaveOptions`untuk menanamkan font tertentu sesuai kebutuhan.
+Anda dapat menyesuaikan `PdfSaveOptions` untuk menanamkan font tertentu sesuai kebutuhan.
 
 ### Apakah Aspose.Words untuk .NET gratis untuk digunakan?
- Aspose.Words untuk .NET memerlukan lisensi. Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+Aspose.Words untuk .NET memerlukan lisensi. Anda bisa mendapatkan uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
- Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi terperinci [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

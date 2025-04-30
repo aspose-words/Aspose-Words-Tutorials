@@ -1,14 +1,16 @@
 ---
-title: การผสานและเปรียบเทียบเอกสารใน Word
-linktitle: การผสานและเปรียบเทียบเอกสารใน Word
-second_title: API การจัดการเอกสาร Aspose.Words Python
-description: รวมและเปรียบเทียบเอกสาร Word ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ Python เรียนรู้วิธีการจัดการเอกสาร เน้นความแตกต่าง และทำงานอัตโนมัติ
-weight: 10
-url: /th/python-net/document-combining-and-comparison/merge-compare-documents/
+"description": "รวมและเปรียบเทียบเอกสาร Word ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ Python เรียนรู้วิธีการจัดการเอกสาร เน้นความแตกต่าง และทำงานอัตโนมัติ"
+"linktitle": "การผสานและเปรียบเทียบเอกสารใน Word"
+"second_title": "API การจัดการเอกสาร Aspose.Words Python"
+"title": "การผสานและเปรียบเทียบเอกสารใน Word"
+"url": "/th/python-net/document-combining-and-comparison/merge-compare-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การผสานและเปรียบเทียบเอกสารใน Word
@@ -109,14 +111,19 @@ pip install aspose-words
 
 ### ฉันสามารถรวมเอกสารมากกว่าสองฉบับโดยใช้ไลบรารีนี้ได้หรือไม่
 
-ใช่ คุณสามารถรวมเอกสารจำนวนเท่าใดก็ได้โดยใช้`append_document` วิธีการดังที่แสดงไว้ในบทช่วยสอน
+ใช่ คุณสามารถรวมเอกสารจำนวนเท่าใดก็ได้โดยใช้ `append_document` วิธีการดังที่แสดงไว้ในบทช่วยสอน
 
 ### ฉันสามารถเข้าถึงห้องสมุดและทรัพยากรได้ที่ไหน
 
- เข้าถึงห้องสมุดและเรียนรู้เพิ่มเติมได้ที่[ที่นี่](https://releases.aspose.com/words/python/).
+เข้าถึงห้องสมุดและเรียนรู้เพิ่มเติมได้ที่ [ที่นี่](https://releases-aspose.com/words/python/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,32 +1,34 @@
 ---
-title: Aspose.Words for Java でのフィールドの使用
-linktitle: フィールドの使用
-second_title: Aspose.Words Java ドキュメント処理 API
-description: このステップバイステップのチュートリアルで、Aspose.Words for Java フィールドを効果的に使用する方法を学習します。動的な Word ドキュメントを簡単に作成します。
-weight: 11
-url: /ja/java/using-document-elements/using-fields/
+"description": "このステップバイステップのチュートリアルで、Aspose.Words for Java のフィールドを効果的に使用する方法を学びましょう。動的な Word 文書を簡単に作成できます。"
+"linktitle": "フィールドの使用"
+"second_title": "Aspose.Words Java ドキュメント処理 API"
+"title": "Aspose.Words for Java でのフィールドの使用"
+"url": "/ja/java/using-document-elements/using-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Words for Java でのフィールドの使用
 
 
-このステップバイステップのチュートリアルでは、Aspose.Words for Java のフィールドを使用してドキュメントを簡単に操作する方法を説明します。Aspose.Words for Java は、Word ドキュメントをプログラムで操作して、そのコンテンツと書式を完全に制御できる強力な API です。
+このステップバイステップのチュートリアルでは、Aspose.Words for Java のフィールドを使ってドキュメントを簡単に操作する方法を解説します。Aspose.Words for Java は、Word ドキュメントをプログラムで操作し、コンテンツと書式を完全に制御できる強力な API です。
 
 ## 1. はじめに
 
-Aspose.Words for Java は、Java アプリケーションで Word 文書を扱う人にとって不可欠なツールです。フィールドは、文書内に動的なデータを保存できるプレースホルダーです。このチュートリアルでは、フィールドを効果的に操作する方法を説明します。
+Aspose.Words for Javaは、JavaアプリケーションでWord文書を扱うすべての人にとって必須のツールです。フィールドは、文書内の動的なデータを保存できるプレースホルダーです。このチュートリアルでは、フィールドを効果的に操作する方法を説明します。
 
 ## 2. 環境の設定
 
-始める前に、Aspose.Words for Javaがインストールされていることを確認してください。ここからダウンロードできます。[ここ](https://releases.aspose.com/words/java/)また、システムに Java と、Eclipse や IntelliJ IDEA などの統合開発環境 (IDE) がインストールされていることを確認してください。
+始める前に、Aspose.Words for Javaがインストールされていることを確認してください。こちらからダウンロードできます。 [ここ](https://releases.aspose.com/words/java/)また、Java と、Eclipse や IntelliJ IDEA などの統合開発環境 (IDE) がシステムにインストールされていることを確認してください。
 
 ## 3. Word文書の読み込み
 
-Java アプリケーションでは、操作する Word 文書を読み込む必要があります。開始するためのコード スニペットを次に示します。
+Javaアプリケーションでは、作業対象のWord文書を読み込む必要があります。まずは、以下のコードをご覧ください。
 
 ```java
 string dataDir = "Your Document Directory";
@@ -34,17 +36,17 @@ string outPath = "Your Output Directory";
 Document doc = new Document(dataDir + "Mail merge destinations - Fax.docx");
 ```
 
-交換する`"Your Document Directory"`そして`"Your Output Directory"`適切なパスを使用します。
+交換する `"Your Document Directory"` そして `"Your Output Directory"` 適切なパスを使用します。
 
 ## 4. 差し込み印刷のカスタマイズ
 
-Aspose.Words for Java は、差し込み印刷操作の優れたサポートを提供します。差し込み印刷イベント ハンドラーを設定することで、差し込み印刷プロセスをカスタマイズできます。手順は次のとおりです。
+Aspose.Words for Java は、差し込み印刷操作を強力にサポートします。差し込み印刷イベントハンドラーを設定することで、差し込み印刷プロセスをカスタマイズできます。設定方法は以下の通りです。
 
 ```java
-//カスタム作業を実行するために、差し込み印刷イベント ハンドラーを設定します。
+// カスタム作業を実行するために、メール マージ イベント ハンドラーを設定します。
 doc.getMailMerge().setFieldMergingCallback(new HandleMergeField());
 
-//差し込み印刷値の末尾と先頭の空白をトリミングします。
+// 差し込み印刷値の末尾と先頭の空白をトリミングします。
 doc.getMailMerge().setTrimWhitespaces(false);
 
 String[] fieldNames = {
@@ -60,7 +62,7 @@ Object[] fieldValues = {
 doc.getMailMerge().execute(fieldNames, fieldValues);
 ```
 
-## 5. ドキュメントを保存する
+## 5. ドキュメントの保存
 
 ドキュメントをカスタマイズしたら、次のコードを使用して保存できます。
 
@@ -68,16 +70,16 @@ doc.getMailMerge().execute(fieldNames, fieldValues);
 doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 ```
 
-交換する`"Your Output Directory"`希望する出力パスを指定します。
+交換する `"Your Output Directory"` 希望する出力パスを指定します。
 
 ## 完全なソースコード
 ```java
 string dataDir = "Your Document Directory";
 string outPath = "Your Output Directory";
 Document doc = new Document(dataDir + "Mail merge destinations - Fax.docx");
-//カスタム作業を実行するために、差し込み印刷イベント ハンドラーを設定します。
+// カスタム作業を実行するために、メール マージ イベント ハンドラーを設定します。
 doc.getMailMerge().setFieldMergingCallback(new HandleMergeField());
-//差し込み印刷値の末尾と先頭の空白をトリミングします。
+// 差し込み印刷値の末尾と先頭の空白をトリミングします。
 doc.getMailMerge().setTrimWhitespaces(false);
 String[] fieldNames = {
 	"RecipientName", "SenderName", "FaxNumber", "PhoneNumber",
@@ -90,23 +92,23 @@ Object[] fieldValues = {
 doc.getMailMerge().execute(fieldNames, fieldValues);
 doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 ```
-HandleMergeField クラスのソースコード
+HandleMergeFieldクラスのソースコード
 
 ```java
     private static class HandleMergeField implements IFieldMergingCallback
     {
-        //<要約>
-        //このハンドラは文書内の差し込み印刷フィールドごとに呼び出されます。
-        //データ ソースで見つかったすべてのレコードに対して / を実行します。
-        /// </要約>
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
+        /// <要約>
+        /// このハンドラは文書内の差し込み印刷フィールドごとに呼び出されます。
+        //データ ソース内で見つかったすべてのレコードに対して / を実行します。
+        /// </サマリー>
+        public void /*IFieldMergingコールバック。*/fieldMerging(FieldMergingArgs e) throws Exception
         {
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
-            //すべてのブール値をチェック ボックス フォーム フィールドとして出力することにしました。
-            if (e.getFieldValue() instanceof /*boolean*/Boolean)
+            // すべてのブール値をチェック ボックス フォーム フィールドとして出力することにしました。
+            if (e.getFieldValue() instanceof /*ブール値*/Boolean)
             {
-                // 「カーソル」を現在のマージ フィールドに移動します。
+                // 「カーソル」を現在の差し込みフィールドに移動します。
                 mBuilder.moveToMergeField(e.getFieldName());
                 String checkBoxName = MessageFormat.format("{0}{1}", e.getFieldName(), e.getRecordIndex());
                 mBuilder.insertCheckBox(checkBoxName, (Boolean) e.getFieldValue(), 0);
@@ -140,9 +142,12 @@ HandleMergeField クラスのソースコード
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        builder.writeln("{{#foreach example}}");
-        builder.writeln("{{Image(126pt;126pt):stempel}}");
-        builder.writeln("{{/foreach example}}");
+        builder.writeln("
+{{#foreach example}}");
+        builder.writeln("
+{{Image(126pt;126pt):stempel}}");
+        builder.writeln("
+{{/foreach example}}");
         doc.getMailMerge().setUseNonMergeFields(true);
         doc.getMailMerge().setTrimWhitespaces(true);
         doc.getMailMerge().setUseWholeParagraphAsRegion(false);
@@ -158,7 +163,7 @@ HandleMergeField クラスのソースコード
     {
         public void fieldMerging(FieldMergingArgs args)
         {
-            //実装は必須ではありません。
+            //  実装は必須ではありません。
         }
         public void imageFieldMerging(ImageFieldMergingArgs args) throws Exception
         {
@@ -211,18 +216,18 @@ HandleMergeField クラスのソースコード
         DocumentBuilder builder = new DocumentBuilder(doc);
         // IF フィールド内にネストされた MERGEFIELD を挿入します。
         // IFフィールドステートメントが偽であるため、内部のMERGEFIELDの結果は表示されません。
-        //MERGEFIELD は、差し込み印刷中にデータを受信しません。
+        // MERGEFIELD は、差し込み印刷中にデータを一切受信しません。
         FieldIf fieldIf = (FieldIf)builder.insertField(" IF 1 = 2 ");
         builder.moveTo(fieldIf.getSeparator());
         builder.insertField(" MERGEFIELD  FullName ");
-        //このフラグを true に設定すると、偽ステートメントの IF フィールド内の MERGEFIELD をカウントできます。
+        // このフラグを true に設定すると、偽ステートメントの IF フィールド内の MERGEFIELD をカウントすることができます。
         doc.getMailMerge().setUnconditionalMergeFieldsAndRegions(true);
         DataTable dataTable = new DataTable();
         dataTable.getColumns().add("FullName");
         dataTable.getRows().add("James Bond");
         doc.getMailMerge().execute(dataTable);
         // IFフィールドが偽であるため、結果は文書に表示されません。
-        //しかし、内部の MERGEFIELD は確かにデータを受信しました。
+        // しかし、内部の MERGEFIELD は確かにデータを受信しました。
         doc.save("Your Directory Path" + "WorkingWithFields.MailMergeAndConditionalField.docx");
     }
     @Test
@@ -243,19 +248,19 @@ HandleMergeField クラスのソースコード
     }
     public static class HandleMergeImageFieldFromBlob implements IFieldMergingCallback
     {
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs args)
+        public void /*IFieldMergingコールバック。*/fieldMerging(FieldMergingArgs args)
         {
-            //何もしないでください。
+            // 何もしないでください。
         }
-        //<要約>
+        /// <要約>
         /// これは、差し込み印刷エンジンがドキュメント内で Image:XXX 差し込み印刷フィールドに遭遇したときに呼び出されます。
         /// Image オブジェクト、ファイル名、または画像を含むストリームを返すことができます。
-        /// </要約>
-        public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs e) throws Exception
+        /// </サマリー>
+        public void /*IFieldMergingコールバック。*/imageFieldMerging(ImageFieldMergingArgs e) throws Exception
         {
-            //フィールド値はバイト配列なので、それをキャストしてストリームを作成するだけです。
+            // フィールド値はバイト配列なので、それをキャストしてストリームを作成するだけです。
             ByteArrayInputStream imageStream = new ByteArrayInputStream((byte[]) e.getFieldValue());
-            //これで、差し込み印刷エンジンがストリームから画像を取得します。
+            // これで、差し込み印刷エンジンはストリームから画像を取得します。
             e.setImageStream(imageStream);
         }
     }
@@ -270,7 +275,7 @@ HandleMergeField クラスのソースコード
     }
     public static class MailMergeSwitches implements IFieldMergingCallback
     {
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
+        public void /*IFieldMergingコールバック。*/fieldMerging(FieldMergingArgs e) throws Exception
         {
             if (e.getFieldName().startsWith("HTML"))
             {
@@ -285,7 +290,7 @@ HandleMergeField クラスのソースコード
                 }
             }
         }
-        public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs args)
+        public void /*IFieldMergingコールバック。*/imageFieldMerging(ImageFieldMergingArgs args)
         {
         }
     }
@@ -300,22 +305,22 @@ HandleMergeField クラスのソースコード
     }
     private static class HandleMergeFieldAlternatingRows implements IFieldMergingCallback
     {
-        //<要約>
-        /// ドキュメント内で検出されたすべての差し込みフィールドに対して呼び出されます。
+        /// <要約>
+        /// ドキュメント内で検出されたすべてのマージ フィールドに対して呼び出されます。
         /// 差し込み印刷エンジンにデータを返すか、ドキュメントに対して他の処理を実行することができます。
-        /// この場合はセルの書式を変更します。
-        /// </要約>
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e)
+        /// この場合は、セルの書式を変更します。
+        /// </サマリー>
+        public void /*IFieldMergingコールバック。*/fieldMerging(FieldMergingArgs e)
         {
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
             if ("CompanyName".equals(e.getFieldName()))
             {
-                //行番号が偶数か奇数かに応じて色を選択します。
+                // 行番号が偶数か奇数かに応じて色を選択します。
                 Color rowColor = isOdd(mRowIdx) 
                     ? new Color((213), (227), (235)) 
                     : new Color((242), (242), (242));
-                //現時点では行全体のセルのプロパティを設定する方法はないため、行内のすべてのセルを反復処理する必要があります。
+                // 現時点では行全体のセルのプロパティを設定する方法はないため、行内のすべてのセルを反復処理する必要があります。
                 for (int colIdx = 0; colIdx < 4; colIdx++)
                 {
                     mBuilder.moveToCell(0, mRowIdx, colIdx, 0);
@@ -324,24 +329,24 @@ HandleMergeField クラスのソースコード
                 mRowIdx++;
             }
         }
-        public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs args)
+        public void /*IFieldMergingコールバック。*/imageFieldMerging(ImageFieldMergingArgs args)
         {
-            //何もしないでください。
+            // 何もしないでください。
         }
         private DocumentBuilder mBuilder;
         private int mRowIdx;
     }
-    //<要約>
+    /// <要約>
     /// 値が奇数の場合は true を返し、偶数の場合は false を返します。
-    /// </要約>
+    /// </サマリー>
     private static boolean isOdd(int value)
     {
         return (value / 2 * 2) == value;
     }
-    //<要約>
+    /// <要約>
     /// DataTable を作成し、データを入力します。
-    /// 実際には、この DataTable はデータベースから入力される必要があります。
-    /// </要約>
+    /// 実際には、この DataTable にはデータベースからデータが入力される必要があります。
+    /// </サマリー>
     private DataTable getSuppliersDataTable()
     {
         DataTable dataTable = new DataTable("Suppliers");
@@ -361,31 +366,36 @@ HandleMergeField クラスのソースコード
 
 ## 6. 結論
 
-おめでとうございます! Aspose.Words for Java のフィールドを使用して Word ドキュメントを動的に操作する方法を学びました。この強力な API を使用すると、ドキュメントを完全に制御できるため、Java 開発者にとって貴重な資産になります。
+おめでとうございます！Aspose.Words for Javaのフィールドを使ってWord文書を動的に操作する方法を学習しました。この強力なAPIは文書を完全に制御できるため、Java開発者にとって貴重な資産となります。
 
 ## 7. よくある質問
 
 ### Q1: Aspose.Words for Java はどこからダウンロードできますか?
- Aspose.Words for Javaは以下からダウンロードできます。[ここ](https://releases.aspose.com/words/java/).
+Aspose.Words for Javaは以下からダウンロードできます。 [ここ](https://releases。aspose.com/words/java/).
 
 ### Q2: Aspose.Words for Java の一時ライセンスを取得するにはどうすればよいですか?
-一時ライセンスは以下から取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+臨時免許証は以下から取得できます。 [ここ](https://purchase。aspose.com/temporary-license/).
 
 ### Q3: Aspose.Words for Java のサポートはどこで受けられますか?
-サポートについては、Aspose.Wordsフォーラムをご覧ください。[ここ](https://forum.aspose.com/).
+サポートについては、Aspose.Words フォーラムをご覧ください。 [ここ](https://forum。aspose.com/).
 
 ### Q4: Aspose.Words for Java は Word 文書内の HTML コンテンツの処理に適していますか?
 はい、Aspose.Words for Java は、Word 文書内の HTML コンテンツの処理に優れたサポートを提供します。
 
 ### Q5: Aspose.Words for Java を無料で使用できますか?
- Aspose.Words for Javaは商用製品ですが、無料トライアルでその機能を試すことができます。[ここ](https://releases.aspose.com/).
+Aspose.Words for Javaは商用製品ですが、無料トライアルでその機能を試すことができます。 [ここ](https://releases。aspose.com/).
 
 今すぐ Aspose.Words for Java を使い始めて、これまでにない方法で Word 文書を制御しましょう。
 
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

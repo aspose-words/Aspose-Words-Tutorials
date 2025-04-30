@@ -1,14 +1,16 @@
 ---
-title: การใส่ลายน้ำเอกสารและการตั้งค่าหน้า
-linktitle: การใส่ลายน้ำเอกสารและการตั้งค่าหน้า
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีการใช้ลายน้ำและตั้งค่าคอนฟิกูเรชันหน้าด้วย Aspose.Words สำหรับ Java คู่มือฉบับสมบูรณ์พร้อมโค้ดต้นฉบับ
-weight: 13
-url: /th/java/document-styling/document-watermarking-page-setup/
+"description": "เรียนรู้วิธีการใช้ลายน้ำและตั้งค่าคอนฟิกูเรชันหน้าด้วย Aspose.Words สำหรับ Java คู่มือที่ครอบคลุมพร้อมโค้ดต้นฉบับ"
+"linktitle": "การใส่ลายน้ำเอกสารและการตั้งค่าหน้า"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การใส่ลายน้ำเอกสารและการตั้งค่าหน้า"
+"url": "/th/java/document-styling/document-watermarking-page-setup/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การใส่ลายน้ำเอกสารและการตั้งค่าหน้า
@@ -147,9 +149,14 @@ doc.getFirstSection().getPageSetup().setPageStartingNumber(5);
 ในคู่มือที่ครอบคลุมนี้ เราได้สำรวจศิลปะของการใส่ลายน้ำในเอกสารและการตั้งค่าหน้าโดยใช้ Aspose.Words สำหรับ Java เมื่อคุณมีโค้ดตัวอย่างและข้อมูลเชิงลึกที่ให้มา ตอนนี้คุณก็มีเครื่องมือในการจัดการและจัดรูปแบบเอกสารของคุณอย่างประณีตแล้ว Aspose.Words สำหรับ Java ช่วยให้คุณสามารถสร้างเอกสารที่มีตราสินค้าอย่างมืออาชีพที่ปรับแต่งตามข้อกำหนดเฉพาะของคุณได้
 
 การเรียนรู้การจัดการเอกสารถือเป็นทักษะอันมีค่าสำหรับนักพัฒนา และ Aspose.Words for Java คือเพื่อนคู่ใจของคุณในการเดินทางครั้งนี้ เริ่มสร้างเอกสารที่สวยงามได้แล้ววันนี้!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

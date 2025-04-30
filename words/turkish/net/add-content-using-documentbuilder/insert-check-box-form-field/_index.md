@@ -1,14 +1,16 @@
 ---
-title: Word Belgesine Onay Kutusu Form Alanı Ekle
-linktitle: Word Belgesine Onay Kutusu Form Alanı Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerine onay kutusu form alanlarının nasıl ekleneceğini öğrenin. Geliştiriciler için mükemmel.
-weight: 10
-url: /tr/net/add-content-using-documentbuilder/insert-check-box-form-field/
+"description": "Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerine onay kutusu form alanlarının nasıl ekleneceğini öğrenin. Geliştiriciler için mükemmel."
+"linktitle": "Word Belgesine Onay Kutusu Form Alanı Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesine Onay Kutusu Form Alanı Ekle"
+"url": "/tr/net/add-content-using-documentbuilder/insert-check-box-form-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesine Onay Kutusu Form Alanı Ekle
@@ -20,7 +22,7 @@ Belge otomasyonu dünyasında, Aspose.Words for .NET, geliştiricilere Word belg
 
 Ayrıntılara dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
--  Aspose.Words for .NET Kütüphanesi: Henüz yapmadıysanız, şu adresten indirin:[Burada](https://releases.aspose.com/words/net/) Ayrıca bir tane de seçebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) eğer kütüphaneyi keşfediyorsanız.
+- Aspose.Words for .NET Kütüphanesi: Henüz yapmadıysanız, şu adresten indirin: [Burada](https://releases.aspose.com/words/net/)Ayrıca bir tane de seçebilirsiniz [ücretsiz deneme](https://releases.aspose.com/) eğer kütüphaneyi keşfediyorsanız.
 - Geliştirme Ortamı: Visual Studio gibi bir IDE sizin oyun alanınız olacak.
 - C#'ın Temel Anlayışı: Her şeyi detaylı bir şekilde ele alacağız ancak C#'ın temellerine hakim olmak faydalı olacaktır.
 
@@ -46,7 +48,7 @@ Belgeleri düzenleyebilmemiz için, belgemizin nereye kaydedileceğini belirtmem
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` belgenizi kaydetmek istediğiniz klasörün yolu ile. Bu, Aspose.Words'e dosyalarınızı nerede bulacağını ve kaydedeceğini söyler.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` belgenizi kaydetmek istediğiniz klasörün yolu ile. Bu, Aspose.Words'e dosyalarınızı nerede bulacağını ve kaydedeceğini söyler.
 
 ## Adım 2: Yeni Bir Belge Oluşturma
 
@@ -56,17 +58,17 @@ Artık dizin ayarlarımız hazır olduğuna göre, yeni bir belge oluşturmanın
 Document doc = new Document();
 ```
 
- Bu satır, yeni bir örneğini başlatır`Document` Sınıfa geldiğimizde bize üzerinde çalışmamız için boş bir belge veriyor.
+Bu satır, yeni bir örneğini başlatır `Document` Sınıfa geldiğimizde bize üzerinde çalışmamız için boş bir belge veriyor.
 
 ## Adım 3: Belge Oluşturucuyu Başlatma
 
- The`DocumentBuilder` class, belgeye içerik eklemek için tercih ettiğiniz araçtır. Bunu fırçanız ve paletiniz olarak düşünün.
+The `DocumentBuilder` class, belgeye içerik eklemek için tercih ettiğiniz araçtır. Bunu fırçanız ve paletiniz olarak düşünün.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Bu satır bir`DocumentBuilder`Yeni belgemizle ilişkilendirilen ve ona içerik eklememize olanak tanıyan nesne.
+Bu satır bir `DocumentBuilder` Yeni belgemizle ilişkilendirilen ve ona içerik eklememize olanak tanıyan nesne.
 
 ## Adım 4: Onay Kutusu Form Alanı Ekleme
 
@@ -80,7 +82,7 @@ Bunu biraz açalım:
 - `"CheckBox"`: Bu, onay kutusu form alanının adıdır.
 - `true`: Bu, onay kutusunun varsayılan olarak işaretli olduğunu gösterir.
 - `true`: Bu parametre, onay kutusunun boolean olarak işaretlenip işaretlenmeyeceğini ayarlar.
-- `0` : Bu parametre onay kutusunun boyutunu ayarlar.`0` varsayılan boyut anlamına gelir.
+- `0`: Bu parametre onay kutusunun boyutunu ayarlar. `0` varsayılan boyut anlamına gelir.
 
 ## Adım 5: Belgeyi Kaydetme
 
@@ -90,7 +92,7 @@ Onay kutumuzu ekledik ve şimdi belgeyi kaydetme zamanı. Bu adım, şaheseriniz
 doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
 ```
 
- Bu satır, belgeyi daha önce belirttiğimiz dizine, dosya adı ile kaydeder`AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx`.
+Bu satır, belgeyi daha önce belirttiğimiz dizine dosya adıyla kaydeder `AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx`.
 
 ## Çözüm
 
@@ -104,23 +106,28 @@ Aspose.Words for .NET, geliştiricilerin .NET kullanarak Word belgelerini progra
 
 ### Aspose.Words for .NET'i nasıl edinebilirim?
 
- Aspose.Words for .NET'i şu adresten indirebilirsiniz:[web sitesi](https://releases.aspose.com/words/net/) Ayrıca bir seçenek de var[ücretsiz deneme](https://releases.aspose.com/) Eğer özelliklerini keşfetmek istiyorsanız.
+Aspose.Words for .NET'i şu adresten indirebilirsiniz: [web sitesi](https://releases.aspose.com/words/net/)Ayrıca bir seçenek de var [ücretsiz deneme](https://releases.aspose.com/) Eğer özelliklerini keşfetmek istiyorsanız.
 
 ### Aspose.Words for .NET'i herhangi bir .NET uygulamasıyla kullanabilir miyim?
 
 Evet, Aspose.Words for .NET, ASP.NET, Windows Forms ve WPF dahil olmak üzere herhangi bir .NET uygulamasıyla entegre edilebilir.
 
-### Onay kutusu form alanını özelleştirmek mümkün mü?
+### Onay kutusu form alanını özelleştirmek mümkün müdür?
 
 Kesinlikle! Aspose.Words for .NET, onay kutusu form alanını özelleştirmek için boyut, varsayılan durum ve daha fazlası dahil olmak üzere çeşitli parametreler sağlar.
 
 ### Aspose.Words for .NET hakkında daha fazla öğreticiyi nerede bulabilirim?
 
- Kapsamlı eğitimleri ve belgeleri şu adreste bulabilirsiniz:[Aspose.Words dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+Kapsamlı eğitimleri ve belgeleri şu adreste bulabilirsiniz: [Aspose.Words dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

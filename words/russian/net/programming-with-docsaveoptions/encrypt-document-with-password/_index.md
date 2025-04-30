@@ -1,14 +1,16 @@
 ---
-title: Зашифровать документ паролем
-linktitle: Зашифровать документ паролем
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как зашифровать документ паролем с помощью Aspose.Words для .NET в этом подробном пошаговом руководстве. Защитите свою конфиденциальную информацию без усилий.
-weight: 10
-url: /ru/net/programming-with-docsaveoptions/encrypt-document-with-password/
+"description": "Узнайте, как зашифровать документ паролем с помощью Aspose.Words для .NET в этом подробном пошаговом руководстве. Защитите свою конфиденциальную информацию без усилий."
+"linktitle": "Зашифровать документ паролем"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Зашифровать документ паролем"
+"url": "/ru/net/programming-with-docsaveoptions/encrypt-document-with-password/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Зашифровать документ паролем
@@ -20,16 +22,16 @@ url: /ru/net/programming-with-docsaveoptions/encrypt-document-with-password/
 ## Предпосылки
 
 Прежде чем приступить к написанию кода, вам понадобится несколько вещей:
-1.  Aspose.Words для .NET: Вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: Вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая C# IDE по вашему выбору.
 3. .NET Framework: убедитесь, что он у вас установлен.
-4.  Лицензия: Вы можете начать с[бесплатная пробная версия](https://releases.aspose.com/) или получить[временная лицензия](https://purchase.aspose.com/temporary-license/) для получения полных функций.
+4. Лицензия: Вы можете начать с [бесплатная пробная версия](https://releases.aspose.com/) или получить [временная лицензия](https://purchase.aspose.com/temporary-license/) для получения полных функций.
 
 Все поняли? Отлично! Давайте перейдем к настройке нашего проекта.
 
 ## Импорт пространств имен
 
-Прежде чем мы начнем, вам нужно будет импортировать необходимые пространства имен. Думайте о пространствах имен как о наборе инструментов, который вам нужен для вашего проекта DIY.
+Прежде чем мы начнем, вам нужно будет импортировать необходимые пространства имен. Думайте о пространствах имен как о наборе инструментов, необходимых для вашего проекта DIY.
 
 ```csharp
 using Aspose.Words;
@@ -97,7 +99,7 @@ doc.Save(dataDir + "WorkingWithDocSaveOptions.EncryptDocumentWithPassword.docx",
 ## Часто задаваемые вопросы
 
 ### Могу ли я использовать другой тип шифрования?
- Да, Aspose.Words for .NET поддерживает различные методы шифрования. Проверьте[документация](https://reference.aspose.com/words/net/) для более подробной информации.
+Да, Aspose.Words for .NET поддерживает различные методы шифрования. Проверьте [документация](https://reference.aspose.com/words/net/) для более подробной информации.
 
 ### Что делать, если я забуду пароль к документу?
 К сожалению, если вы забудете пароль, вы не сможете получить доступ к документу. Обязательно сохраните свои пароли в безопасности!
@@ -110,9 +112,14 @@ doc.Save(dataDir + "WorkingWithDocSaveOptions.EncryptDocumentWithPassword.docx",
 
 ### Насколько безопасно шифрование, предоставляемое Aspose.Words для .NET?
 Aspose.Words для .NET использует надежные стандарты шифрования, гарантируя надежную защиту ваших документов.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

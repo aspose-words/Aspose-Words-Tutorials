@@ -1,14 +1,16 @@
 ---
-title: ละเว้นข้อความภายในฟิลด์
-linktitle: ละเว้นข้อความภายในฟิลด์
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการจัดการข้อความภายในฟิลด์ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET บทช่วยสอนนี้ให้คำแนะนำทีละขั้นตอนพร้อมตัวอย่างในทางปฏิบัติ
-weight: 10
-url: /th/net/find-and-replace-text/ignore-text-inside-fields/
+"description": "เรียนรู้วิธีการจัดการข้อความภายในฟิลด์ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET บทช่วยสอนนี้ให้คำแนะนำทีละขั้นตอนพร้อมตัวอย่างในทางปฏิบัติ"
+"linktitle": "ละเว้นข้อความภายในฟิลด์"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ละเว้นข้อความภายในฟิลด์"
+"url": "/th/net/find-and-replace-text/ignore-text-inside-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ละเว้นข้อความภายในฟิลด์
@@ -37,7 +39,7 @@ using System.Text.RegularExpressions;
 
 ## ขั้นตอนที่ 1: สร้างเอกสารและตัวสร้างใหม่
 
- ขั้นแรก ให้เริ่มต้นเอกสาร Word ใหม่และ`DocumentBuilder` วัตถุประสงค์เพื่ออำนวยความสะดวกในการจัดทำเอกสาร:
+ขั้นแรก ให้เริ่มต้นเอกสาร Word ใหม่และ `DocumentBuilder` วัตถุประสงค์เพื่ออำนวยความสะดวกในการจัดทำเอกสาร:
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -45,21 +47,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## ขั้นตอนที่ 2: แทรกฟิลด์ที่มีข้อความ
 
- ใช้`InsertField` วิธีการของ`DocumentBuilder` เพื่อเพิ่มฟิลด์ที่มีข้อความ:
+ใช้ `InsertField` วิธีการของ `DocumentBuilder` เพื่อเพิ่มฟิลด์ที่มีข้อความ:
 ```csharp
 builder.InsertField("INCLUDETEXT", "Text in field");
 ```
 
 ## ขั้นตอนที่ 3: ละเว้นข้อความภายในฟิลด์
 
- เพื่อจัดการข้อความโดยละเว้นเนื้อหาภายในฟิลด์ ให้ใช้`FindReplaceOptions` ด้วย`IgnoreFields` ทรัพย์สินที่ตั้งไว้`true`-
+เพื่อจัดการข้อความโดยละเว้นเนื้อหาภายในฟิลด์ ให้ใช้ `FindReplaceOptions` ด้วย `IgnoreFields` ทรัพย์สินที่ตั้งไว้ `true`-
 ```csharp
 FindReplaceOptions options = new FindReplaceOptions { IgnoreFields = true };
 ```
 
 ## ขั้นตอนที่ 4: ดำเนินการเปลี่ยนข้อความ
 
-ใช้นิพจน์ทั่วไปในการแทนที่ข้อความ ในที่นี้ เราจะแทนที่ตัวอักษร 'e' ที่เกิดขึ้นด้วยเครื่องหมายดอกจัน '-' ตลอดช่วงของเอกสาร:
+ใช้นิพจน์ทั่วไปในการแทนที่ข้อความ ในที่นี้ เราจะแทนที่ตัวอักษร 'e' ที่เกิดขึ้นด้วยเครื่องหมายดอกจัน '*' ตลอดช่วงของเอกสาร:
 ```csharp
 Regex regex = new Regex("e");
 doc.Range.Replace(regex, "*", options);
@@ -74,7 +76,7 @@ Console.WriteLine(doc.GetText());
 
 ## ขั้นตอนที่ 6: ใส่ข้อความลงในช่อง
 
- หากต้องการประมวลผลข้อความภายในฟิลด์ ให้รีเซ็ต`IgnoreFields`ทรัพย์สินที่จะ`false` และดำเนินการเปลี่ยนใหม่อีกครั้ง:
+หากต้องการประมวลผลข้อความภายในฟิลด์ ให้รีเซ็ต `IgnoreFields` ทรัพย์สินที่จะ `false` และดำเนินการเปลี่ยนใหม่อีกครั้ง:
 ```csharp
 options.IgnoreFields = false;
 doc.Range.Replace(regex, "*", options);
@@ -86,7 +88,7 @@ doc.Range.Replace(regex, "*", options);
 
 ## คำถามที่พบบ่อย
 
-### ฉันจะจัดการฟิลด์ซ้อนกันภายในเอกสาร Word ได้อย่างไร
+### ฉันจะจัดการฟิลด์ซ้อนกันในเอกสาร Word ได้อย่างไร
 คุณสามารถจัดการฟิลด์ที่ซ้อนกันได้โดยการนำทางซ้ำๆ ผ่านเนื้อหาของเอกสารโดยใช้ API ของ Aspose.Words
 
 ### ฉันสามารถใช้ตรรกะแบบมีเงื่อนไขเพื่อแทนที่ข้อความแบบเลือกได้หรือไม่
@@ -96,13 +98,18 @@ doc.Range.Replace(regex, "*", options);
 ใช่ Aspose.Words รองรับ .NET Core ช่วยให้มั่นใจได้ว่าสามารถใช้งานร่วมกับแพลตฟอร์มต่างๆ เพื่อตอบสนองความต้องการการจัดการเอกสารอัตโนมัติของคุณ
 
 ### ฉันสามารถหาตัวอย่างและแหล่งข้อมูลเพิ่มเติมสำหรับ Aspose.Words ได้ที่ไหน
- เยี่ยม[เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) สำหรับคำแนะนำที่ครอบคลุม เอกสารอ้างอิง API และตัวอย่างโค้ด
+เยี่ยม [เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) สำหรับคำแนะนำที่ครอบคลุม เอกสารอ้างอิง API และตัวอย่างโค้ด
 
 ### ฉันจะได้รับการสนับสนุนด้านเทคนิคสำหรับ Aspose.Words ได้อย่างไร
- สำหรับความช่วยเหลือด้านเทคนิค โปรดไปที่[ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8) ซึ่งคุณสามารถโพสต์ข้อสงสัยและโต้ตอบกับชุมชนได้
+สำหรับความช่วยเหลือด้านเทคนิค โปรดไปที่ [ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8) ซึ่งคุณสามารถโพสต์คำถามของคุณและโต้ตอบกับชุมชนได้
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

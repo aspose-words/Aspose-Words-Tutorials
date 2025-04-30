@@ -1,14 +1,16 @@
 ---
-title: Поля формы Получить по имени
-linktitle: Поля формы Получить по имени
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как получать и изменять поля форм по имени в документах Word с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/working-with-formfields/form-fields-get-by-name/
+"description": "Узнайте, как получать и изменять поля форм по имени в документах Word с помощью Aspose.Words для .NET, с помощью этого подробного пошагового руководства."
+"linktitle": "Поля формы Получить по имени"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Поля формы Получить по имени"
+"url": "/ru/net/working-with-formfields/form-fields-get-by-name/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Поля формы Получить по имени
@@ -21,7 +23,7 @@ url: /ru/net/working-with-formfields/form-fields-get-by-name/
 
 Прежде чем погрузиться в код, давайте убедимся, что у вас есть все необходимое:
 
-1.  Библиотека Aspose.Words for .NET: если вы еще этого не сделали, загрузите ее с сайта[здесь](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words for .NET: если вы еще этого не сделали, загрузите ее с [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: любая среда разработки .NET, например Visual Studio.
 3. Базовые знания C#: некоторое знакомство с C# будет полезным, но не обязательным.
 
@@ -121,7 +123,7 @@ doc.Save(dataDir + "ModifiedFormFields.docx");
 
 ### Существует ли бесплатная пробная версия Aspose.Words для .NET?
 
- Да, вы можете загрузить бесплатную пробную версию с сайта[здесь](https://releases.aspose.com/).
+Да, вы можете загрузить бесплатную пробную версию с сайта [здесь](https://releases.aspose.com/).
 
 ### Могу ли я манипулировать другими элементами документа Word, помимо полей формы?
 
@@ -129,14 +131,19 @@ doc.Save(dataDir + "ModifiedFormFields.docx");
 
 ### Как мне получить поддержку, если у меня возникнут какие-либо проблемы?
 
- Вы можете посетить[Форум поддержки Aspose](https://forum.aspose.com/c/words/8) для получения помощи по любым возникшим у вас проблемам.
+Вы можете посетить [Форум поддержки Aspose](https://forum.aspose.com/c/words/8) для получения помощи по любым возникшим у вас проблемам.
 
 ### Где я могу найти дополнительную документацию по Aspose.Words для .NET?
 
- Подробная документация доступна[здесь](https://reference.aspose.com/words/net/).
+Подробная документация доступна [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

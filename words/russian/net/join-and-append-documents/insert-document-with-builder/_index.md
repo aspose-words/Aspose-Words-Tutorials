@@ -1,17 +1,19 @@
 ---
-title: Вставить документ с помощью конструктора
-linktitle: Вставить документ с помощью конструктора
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как объединить два документа Word с помощью Aspose.Words для .NET. Пошаговое руководство по вставке документа с помощью DocumentBuilder и сохранению форматирования.
-weight: 10
-url: /ru/net/join-and-append-documents/insert-document-with-builder/
+"description": "Узнайте, как объединить два документа Word с помощью Aspose.Words для .NET. Пошаговое руководство по вставке документа с помощью DocumentBuilder и сохранению форматирования."
+"linktitle": "Вставить документ с помощью Builder"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить документ с помощью Builder"
+"url": "/ru/net/join-and-append-documents/insert-document-with-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Вставить документ с помощью конструктора
+# Вставить документ с помощью Builder
 
 ## Введение
 
@@ -21,7 +23,7 @@ url: /ru/net/join-and-append-documents/insert-document-with-builder/
 
 Прежде чем начать, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words для .NET: если вы еще этого не сделали, вы можете загрузить его здесь[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: если вы еще этого не сделали, вы можете загрузить его здесь [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: убедитесь, что у вас установлена Visual Studio или любая другая подходящая IDE.
 3. Базовые знания C#: небольшое знакомство с C# будет иметь большое значение.
 
@@ -41,11 +43,11 @@ using Aspose.Words.Saving;
 Прежде чем начать кодирование, вам нужно задать путь к вашему каталогу документов. Это место, где хранятся ваши исходные и конечные документы.
 
 ```csharp
-// Путь к каталогу ваших документов
+// Путь к каталогу ваших документов 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем, где находятся ваши документы. Это поможет программе легко найти ваши файлы.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем, где находятся ваши документы. Это поможет программе легко найти ваши файлы.
 
 ## Шаг 2: Загрузка исходных и целевых документов
 
@@ -56,17 +58,17 @@ Document srcDoc = new Document(dataDir + "Document source.docx");
 Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 ```
 
- Здесь мы используем`Document` класс из библиотеки Aspose.Words для загрузки наших документов. Убедитесь, что имена файлов соответствуют именам в вашем каталоге.
+Здесь мы используем `Document` класс из библиотеки Aspose.Words для загрузки наших документов. Убедитесь, что имена файлов соответствуют именам в вашем каталоге.
 
 ## Шаг 3: Создание объекта DocumentBuilder
 
- The`DocumentBuilder` класс — мощный инструмент в библиотеке Aspose.Words. Он позволяет нам перемещаться и манипулировать документом.
+The `DocumentBuilder` класс — мощный инструмент в библиотеке Aspose.Words. Он позволяет нам перемещаться и манипулировать документом.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
 ```
 
- На этом этапе мы создали`DocumentBuilder` объект для нашего конечного документа. Это поможет нам вставить содержимое в документ.
+На этом этапе мы создали `DocumentBuilder` объект для нашего конечного документа. Это поможет нам вставить содержимое в документ.
 
 ## Шаг 4: Переход к концу документа
 
@@ -96,7 +98,7 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.InsertDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
- Используя`InsertDocument` Метод позволяет вставить весь исходный документ в целевой документ.`ImportFormatMode.KeepSourceFormatting` обеспечивает сохранение форматирования исходного документа.
+Используя `InsertDocument` Метод позволяет вставить весь исходный документ в целевой документ. `ImportFormatMode.KeepSourceFormatting` обеспечивает сохранение форматирования исходного документа.
 
 ## Шаг 7: Сохранение объединенного документа
 
@@ -118,19 +120,24 @@ builder.Document.Save(dataDir + "JoinAndAppendDocuments.InsertDocumentWithBuilde
 Aspose.Words для .NET — это мощная библиотека, которая позволяет разработчикам создавать, редактировать, конвертировать и обрабатывать документы Word программными средствами.
 
 ### Могу ли я сохранить форматирование исходного документа?  
- Да, с помощью`ImportFormatMode.KeepSourceFormatting`форматирование исходного документа сохраняется при его вставке в целевой документ.
+Да, с помощью `ImportFormatMode.KeepSourceFormatting`форматирование исходного документа сохраняется при его вставке в целевой документ.
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?  
- Да, Aspose.Words for .NET требует лицензию для полной функциональности. Вы можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/) для оценки.
+Да, Aspose.Words for .NET требует лицензию для полной функциональности. Вы можете получить [временная лицензия](https://purchase.aspose.com/temporary-license/) для оценки.
 
 ### Могу ли я автоматизировать этот процесс?  
 Конечно! Описанный метод можно включить в более крупные приложения для автоматизации задач обработки документов.
 
 ### Где я могу найти дополнительные ресурсы и поддержку?  
- Для получения более подробной информации вы можете проверить[документация](https://reference.aspose.com/words/net/) , или посетите[форум поддержки](https://forum.aspose.com/c/words/8) за помощь.
+Для получения более подробной информации вы можете проверить [документация](https://reference.aspose.com/words/net/), или посетите [форум поддержки](https://forum.aspose.com/c/words/8) за помощь.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

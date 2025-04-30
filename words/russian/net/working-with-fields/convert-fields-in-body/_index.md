@@ -1,14 +1,16 @@
 ---
-title: Преобразовать поля в теле
-linktitle: Преобразовать поля в теле
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как преобразовать поля документа в статический текст с помощью Aspose.Words для .NET, чтобы повысить эффективность обработки документов.
-weight: 10
-url: /ru/net/working-with-fields/convert-fields-in-body/
+"description": "Узнайте, как преобразовать поля документа в статический текст с помощью Aspose.Words для .NET, чтобы повысить эффективность обработки документов."
+"linktitle": "Преобразовать поля в теле"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Преобразовать поля в теле"
+"url": "/ru/net/working-with-fields/convert-fields-in-body/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Преобразовать поля в теле
@@ -22,7 +24,7 @@ url: /ru/net/working-with-fields/convert-fields-in-body/
 Прежде чем приступить к изучению руководства по преобразованию полей в тексте документа с помощью Aspose.Words для .NET, убедитесь, что у вас выполнены следующие предварительные условия:
 
 - Visual Studio: установлена и настроена для разработки .NET.
--  Aspose.Words для .NET: Загружается и упоминается в вашем проекте Visual Studio. Вы можете получить его здесь[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: Загружается и упоминается в вашем проекте Visual Studio. Вы можете получить его здесь [здесь](https://releases.aspose.com/words/net/).
 - Базовые знания C#: знакомство с языком программирования C# для понимания и изменения предоставленных фрагментов кода.
 
 ## Импорт пространств имен
@@ -45,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Linked fields.docx");
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с путем к вашему фактическому документу.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с путем к вашему фактическому документу.
 
 ## Шаг 2: Определите и преобразуйте поля
 
@@ -60,7 +62,7 @@ doc.FirstSection.Body.Range.Fields
 
 Этот фрагмент кода использует LINQ для поиска всех полей PAGE в теле документа, а затем отменяет их связь, фактически преобразуя их в статический текст.
 
-## Шаг 3: Сохраните документ
+## Шаг 3: Сохраните документ.
 
 Сохраните измененный документ после преобразования полей:
 
@@ -68,7 +70,7 @@ doc.FirstSection.Body.Range.Fields
 doc.Save(dataDir + "WorkingWithFields.ConvertFieldsInBody.docx");
 ```
 
- Регулировать`"WorkingWithFields.ConvertFieldsInBody.docx"` чтобы указать желаемый путь к выходному файлу.
+Регулировать `"WorkingWithFields.ConvertFieldsInBody.docx"` чтобы указать желаемый путь к выходному файлу.
 
 ## Заключение
 
@@ -86,13 +88,18 @@ Aspose.Words поддерживает различные типы полей, т
 Да, Aspose.Words для .NET может легко конвертировать и обрабатывать поля в таких форматах, как DOCX, DOC, RTF и других.
 
 ### Где я могу найти полную документацию по Aspose.Words для .NET?
- Подробная документация и ссылки на API доступны.[здесь](https://reference.aspose.com/words/net/).
+Подробная документация и ссылки на API доступны. [здесь](https://reference.aspose.com/words/net/).
 
 ### Существует ли пробная версия Aspose.Words для .NET?
- Да, вы можете загрузить бесплатную пробную версию с сайта[здесь](https://releases.aspose.com/).
+Да, вы можете загрузить бесплатную пробную версию с сайта [здесь](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

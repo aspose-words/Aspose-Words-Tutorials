@@ -1,14 +1,16 @@
 ---
-title: Menyesuaikan Titik Data Bagan Tunggal Dalam Bagan
-linktitle: Menyesuaikan Titik Data Bagan Tunggal Dalam Bagan
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyesuaikan titik data grafik tunggal menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah yang terperinci. Sempurnakan grafik Anda dengan penanda dan ukuran yang unik.
-weight: 10
-url: /id/net/programming-with-charts/single-chart-data-point/
+"description": "Pelajari cara menyesuaikan titik data grafik tunggal menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah yang terperinci. Sempurnakan grafik Anda dengan penanda dan ukuran yang unik."
+"linktitle": "Menyesuaikan Titik Data Bagan Tunggal Dalam Bagan"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Menyesuaikan Titik Data Bagan Tunggal Dalam Bagan"
+"url": "/id/net/programming-with-charts/single-chart-data-point/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menyesuaikan Titik Data Bagan Tunggal Dalam Bagan
@@ -19,9 +21,9 @@ Pernahkah Anda bertanya-tanya bagaimana Anda dapat membuat grafik Anda menonjol 
 
 ## Prasyarat
 
-Sebelum kita memulai, mari pastikan Anda telah menyiapkan semua hal penting:
+Sebelum kita mulai, mari pastikan Anda sudah menyiapkan semua hal penting:
 
--  Aspose.Words untuk Pustaka .NET: Pastikan Anda memiliki versi terbaru.[Unduh di sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk Pustaka .NET: Pastikan Anda memiliki versi terbaru. [Unduh di sini](https://releases.aspose.com/words/net/).
 - .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda.
 - Pemahaman Dasar C#: Pemahaman dasar tentang pemrograman C# akan sangat membantu.
 - Lingkungan Pengembangan Terpadu (IDE): Visual Studio direkomendasikan.
@@ -46,7 +48,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Di Sini,`dataDir` adalah jalur direktori tempat Anda menyimpan dokumen Anda.`DocumentBuilder` kelas membantu dalam menyusun dokumen.
+Di Sini, `dataDir` adalah jalur direktori tempat Anda menyimpan dokumen Anda. `DocumentBuilder` kelas membantu dalam menyusun dokumen.
 
 ## Langkah 2: Masukkan Bagan
 
@@ -57,7 +59,7 @@ Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
 Chart chart = shape.Chart;
 ```
 
- Itu`InsertChart` Metode ini mengambil tipe grafik, lebar, dan tinggi sebagai parameter. Dalam kasus ini, kita memasukkan grafik garis dengan lebar 432 dan tinggi 252.
+Itu `InsertChart` Metode ini mengambil tipe grafik, lebar, dan tinggi sebagai parameter. Dalam kasus ini, kita memasukkan grafik garis dengan lebar 432 dan tinggi 252.
 
 ## Langkah 3: Akses Seri Bagan
 
@@ -90,7 +92,7 @@ dataPoint00.Marker.Symbol = MarkerSymbol.Circle;
 dataPoint00.Marker.Size = 15;
 ```
 
- Untuk`dataPoint00`, kami menetapkan ledakan (berguna untuk diagram lingkaran), mengubah simbol penanda menjadi lingkaran, dan menetapkan ukuran penanda menjadi 15.
+Untuk `dataPoint00`, kami menetapkan ledakan (berguna untuk diagram lingkaran), mengubah simbol penanda menjadi lingkaran, dan menetapkan ukuran penanda menjadi 15.
 
 ### Sesuaikan Titik Data 01
 
@@ -99,7 +101,7 @@ dataPoint01.Marker.Symbol = MarkerSymbol.Diamond;
 dataPoint01.Marker.Size = 20;
 ```
 
- Untuk`dataPoint01`, kita mengubah simbol penanda menjadi berlian dan mengatur ukuran penanda menjadi 20.
+Untuk `dataPoint01`, kita mengubah simbol penanda menjadi berlian dan mengatur ukuran penanda menjadi 20.
 
 ### Kustomisasi Titik Data di Seri 1
 
@@ -110,7 +112,7 @@ dataPoint12.Marker.Symbol = MarkerSymbol.Star;
 dataPoint12.Marker.Size = 20;
 ```
 
- Untuk titik data ketiga di`series1`, kita mengaturnya untuk terbalik jika nilainya negatif, mengubah simbol penanda menjadi bintang, dan mengatur ukuran penanda menjadi 20.
+Untuk titik data ketiga di `series1`, kita mengaturnya untuk terbalik jika nilainya negatif, mengubah simbol penanda menjadi bintang, dan mengatur ukuran penanda menjadi 20.
 
 ## Langkah 5: Simpan Dokumen
 
@@ -120,7 +122,7 @@ Terakhir, mari simpan dokumen kita dengan semua penyesuaian.
 doc.Save(dataDir + "WorkingWithCharts.SingleChartDataPoint.docx");
 ```
 
- Baris ini menyimpan dokumen di direktori yang Anda tentukan dengan nama`WorkingWithCharts.SingleChartDataPoint.docx`.
+Baris ini menyimpan dokumen di direktori yang Anda tentukan dengan nama `WorkingWithCharts.SingleChartDataPoint.docx`.
 
 ## Kesimpulan
 
@@ -134,11 +136,11 @@ Tentu saja! Anda dapat menyesuaikan titik data dalam berbagai jenis bagan, terma
 
 ### Apakah mungkin untuk menambahkan label khusus ke titik data?
 
- Ya, Anda dapat menambahkan label khusus ke titik data menggunakan`ChartDataPoint.Label` properti. Hal ini memungkinkan Anda untuk memberikan lebih banyak konteks untuk setiap titik data.
+Ya, Anda dapat menambahkan label khusus ke titik data menggunakan `ChartDataPoint.Label` properti. Hal ini memungkinkan Anda untuk memberikan konteks lebih lanjut untuk setiap titik data.
 
 ### Bagaimana cara menghapus titik data dari suatu seri?
 
- Anda dapat menghapus titik data dengan menyetel visibilitasnya menjadi salah menggunakan`dataPoint.IsVisible = false`.
+Anda dapat menghapus titik data dengan menyetel visibilitasnya menjadi salah menggunakan `dataPoint.IsVisible = false`.
 
 ### Dapatkah saya menggunakan gambar sebagai penanda titik data?
 
@@ -147,9 +149,14 @@ Meskipun Aspose.Words tidak mendukung penggunaan gambar secara langsung sebagai 
 ### Mungkinkah menganimasikan titik data pada bagan?
 
 Aspose.Words untuk .NET tidak mendukung animasi untuk titik data bagan. Namun, Anda dapat membuat bagan animasi menggunakan alat lain dan menyematkannya ke dalam dokumen Word Anda.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

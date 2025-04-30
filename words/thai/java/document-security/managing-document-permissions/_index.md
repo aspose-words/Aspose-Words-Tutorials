@@ -1,14 +1,16 @@
 ---
-title: การจัดการสิทธิ์การอนุญาตเอกสาร
-linktitle: การจัดการสิทธิ์การอนุญาตเอกสาร
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีจัดการสิทธิ์อนุญาตเอกสารอย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Java คู่มือที่ครอบคลุมนี้มีคำแนะนำทีละขั้นตอนและตัวอย่างโค้ดต้นฉบับ
-weight: 11
-url: /th/java/document-security/managing-document-permissions/
+"description": "เรียนรู้วิธีจัดการสิทธิ์อนุญาตเอกสารอย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Java คู่มือที่ครอบคลุมนี้มีคำแนะนำทีละขั้นตอนและตัวอย่างโค้ดต้นฉบับ"
+"linktitle": "การจัดการสิทธิ์การอนุญาตเอกสาร"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การจัดการสิทธิ์การอนุญาตเอกสาร"
+"url": "/th/java/document-security/managing-document-permissions/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การจัดการสิทธิ์การอนุญาตเอกสาร
@@ -22,7 +24,7 @@ url: /th/java/document-security/managing-document-permissions/
 
 ก่อนที่เราจะลงลึกถึงการจัดการสิทธิ์ของเอกสาร เรามาเริ่มต้นด้วยการตั้งค่า Aspose.Words สำหรับ Java กันก่อน ทำตามขั้นตอนเหล่านี้เพื่อเริ่มต้น:
 
-1.  ดาวน์โหลด Aspose.Words สำหรับ Java: เยี่ยมชม[https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/)ดาวน์โหลด Aspose.Words เวอร์ชันล่าสุดสำหรับ Java
+1. ดาวน์โหลด Aspose.Words สำหรับ Java: เยี่ยมชม [https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/) ดาวน์โหลด Aspose.Words เวอร์ชันล่าสุดสำหรับ Java
 
 2. ติดตั้ง Aspose.Words สำหรับ Java: หลังจากดาวน์โหลดไลบรารีแล้ว ให้ทำตามคำแนะนำในการติดตั้งเพื่อตั้งค่าในสภาพแวดล้อมการพัฒนา Java ของคุณ
 
@@ -32,7 +34,7 @@ url: /th/java/document-security/managing-document-permissions/
 
 ## ทำความเข้าใจเกี่ยวกับการอนุญาตสิทธิ์เอกสาร
 
-ก่อนที่คุณจะสามารถจัดการสิทธิ์ในการเข้าถึงเอกสารได้ สิ่งสำคัญคือต้องเข้าใจถึงแง่มุมต่างๆ ของการรักษาความปลอดภัยเอกสาร Aspose.Words สำหรับ Java มีคุณสมบัติมากมายในการควบคุมว่าใครสามารถเข้าถึงและแก้ไขเอกสารของคุณได้ มาแยกย่อยแนวคิดสำคัญๆ กัน:
+ก่อนที่คุณจะสามารถจัดการสิทธิ์ในการเข้าถึงเอกสารได้ สิ่งสำคัญคือต้องเข้าใจแง่มุมต่างๆ ของการรักษาความปลอดภัยเอกสาร Aspose.Words สำหรับ Java มีคุณสมบัติมากมายในการควบคุมว่าใครสามารถเข้าถึงและแก้ไขเอกสารของคุณได้ มาแยกแนวคิดสำคัญๆ กัน:
 
 - การป้องกันเอกสาร: Aspose.Words สำหรับ Java ช่วยให้คุณป้องกันเอกสารด้วยรหัสผ่าน เฉพาะผู้ใช้ที่มีรหัสผ่านที่ถูกต้องเท่านั้นจึงจะเปิดและแก้ไขเอกสารได้
 
@@ -100,9 +102,13 @@ doc.save("unprotected_document.docx");
 ตอนนี้คุณมีความเข้าใจที่มั่นคงเกี่ยวกับการจัดการสิทธิ์เอกสารโดยใช้ Aspose.Words สำหรับ Java แล้ว ถึงเวลาที่จะนำความรู้นี้ไปปฏิบัติจริง ปรับปรุงกระบวนการจัดการเอกสารของคุณและปกป้องข้อมูลของคุณได้อย่างง่ายดาย
 
 โปรดจำไว้ว่าการรักษาความปลอดภัยเอกสารเป็นกระบวนการต่อเนื่อง ดังนั้นจงเฝ้าระวังและใช้ประโยชน์จากฟีเจอร์อันทรงพลังที่นำเสนอโดย Aspose.Words สำหรับ Java เพื่อปกป้องเอกสารอันมีค่าของคุณ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

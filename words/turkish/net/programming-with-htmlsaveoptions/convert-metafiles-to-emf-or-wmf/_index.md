@@ -1,14 +1,16 @@
 ---
-title: Metafile'ları Emf veya Wmf'ye Dönüştür
-linktitle: Metafile'ları Emf veya Wmf'ye Dönüştür
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET ile bir belgeyi HTML'e dönüştürürken meta dosyalarını EMF veya WMF formatlarına dönüştürmeye yönelik adım adım kılavuz.
-weight: 10
-url: /tr/net/programming-with-htmlsaveoptions/convert-metafiles-to-emf-or-wmf/
+"description": "Aspose.Words for .NET ile bir belgeyi HTML'e dönüştürürken meta dosyalarını EMF veya WMF formatlarına dönüştürmeye yönelik adım adım kılavuz."
+"linktitle": "Metafile'ları Emf veya Wmf'ye Dönüştür"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Metafile'ları Emf veya Wmf'ye Dönüştür"
+"url": "/tr/net/programming-with-htmlsaveoptions/convert-metafiles-to-emf-or-wmf/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Metafile'ları Emf veya Wmf'ye Dönüştür
@@ -21,7 +23,7 @@ Aspose.Words for .NET dünyasına bir başka derin dalışa hoş geldiniz. Bugü
 
 Koda dalmadan önce her şeyin ayarlandığından emin olalım. İhtiyacınız olanlar şunlar:
 
-1.  Aspose.Words for .NET Kütüphanesi: En son sürüme sahip olduğunuzdan emin olun. Eğer sahip değilseniz, şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: En son sürüme sahip olduğunuzdan emin olun. Eğer sahip değilseniz, şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/words/net/).
 2. .NET Framework: Bilgisayarınızda .NET Framework'ün yüklü olduğundan emin olun.
 3. Geliştirme Ortamı: Visual Studio gibi bir IDE hayatınızı kolaylaştıracaktır.
 4. C# Temel Bilgisi: Uzman olmanıza gerek yok, ancak temel bir anlayışa sahip olmak faydalı olacaktır.
@@ -47,7 +49,7 @@ Belgelerinizin dizinine giden yolu tanımlayarak başlayalım. Meta dosyaların�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` Belgenizi kaydetmek istediğiniz gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` Belgenizi kaydetmek istediğiniz gerçek yol ile.
 
 ## Adım 2: SVG ile HTML Dizesini Oluşturun
 
@@ -66,18 +68,18 @@ Bu HTML kod parçası "Merhaba dünya!" diyen basit bir SVG içeriyor.
 
 ## Adım 3: ConvertSvgToEmf Seçeneğiyle HTML'yi yükleyin
 
- Şimdi, şunu kullanıyoruz:`HtmlLoadOptions` SVG resimlerini HTML'de nasıl işlemek istediğimizi belirtmek için. Ayar`ConvertSvgToEmf` ile`true` SVG görüntülerinin EMF formatına dönüştürülmesini sağlar.
+Şimdi, şunu kullanıyoruz: `HtmlLoadOptions` HTML'deki SVG resimlerini nasıl işlemek istediğimizi belirtmek için. Ayar `ConvertSvgToEmf` ile `true` SVG görüntülerinin EMF formatına dönüştürülmesini sağlar.
 
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions { ConvertSvgToEmf = true };
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), loadOptions);
 ```
 
- Bu kod parçacığı yeni bir`Document` Belirtilen yükleme seçenekleriyle HTML dizesini içine yükleyerek nesneyi yükleyebilirsiniz.
+Bu kod parçacığı yeni bir `Document` Belirtilen yükleme seçenekleriyle HTML dizesini içine yükleyerek nesneyi yükleyebilirsiniz.
 
 ## Adım 4: Meta Dosyası Biçimi için HtmlSaveOptions'ı Ayarlayın
 
- Belgeyi doğru meta dosyası biçimiyle kaydetmek için şunu kullanırız:`HtmlSaveOptions` Burada, ayarladık`MetafileFormat` ile`HtmlMetafileFormat.Png` , ancak bunu şu şekilde değiştirebilirsiniz`Emf` veya`Wmf` ihtiyaçlarınıza bağlı olarak.
+Belgeyi doğru meta dosyası biçimiyle kaydetmek için şunu kullanırız: `HtmlSaveOptions`Burada, ayarladık `MetafileFormat` ile `HtmlMetafileFormat.Png`, ancak bunu şu şekilde değiştirebilirsiniz `Emf` veya `Wmf` ihtiyaçlarınıza bağlı olarak.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions { MetafileFormat = HtmlMetafileFormat.Png };
@@ -112,10 +114,15 @@ SVG'yi EMF veya WMF'ye dönüştürmek, vektör grafiklerin SVG'yi tam olarak de
 Kesinlikle! Toplu işleme için dönüşümü otomatikleştirmek amacıyla aynı işlemi uygulayarak birden fazla HTML dosyası arasında geçiş yapabilirsiniz.
 
 ### Aspose.Words for .NET için daha fazla kaynak ve desteği nerede bulabilirim?
- Kapsamlı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/) ve Aspose topluluğundan destek alın[Burada](https://forum.aspose.com/c/words/8).
+Kapsamlı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/) ve Aspose topluluğundan destek alın [Burada](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

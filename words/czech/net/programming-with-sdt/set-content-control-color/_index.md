@@ -1,32 +1,34 @@
 ---
-title: Nastavte barvu ovládání obsahu
-linktitle: Nastavte barvu ovládání obsahu
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Pomocí Aspose.Words for .NET můžete snadno nastavit barvu značek strukturovaného dokumentu ve Wordu. Přizpůsobte si své SDT a vylepšete vzhled dokumentu pomocí tohoto jednoduchého průvodce.
-weight: 10
-url: /cs/net/programming-with-sdt/set-content-control-color/
+"description": "Snadno nastavte barvu tagů strukturovaných dokumentů ve Wordu pomocí Aspose.Words pro .NET. Přizpůsobte si své tagy strukturovaných dokumentů a vylepšete vzhled dokumentu pomocí tohoto jednoduchého návodu."
+"linktitle": "Nastavení barvy ovládacího prvku obsahu"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Nastavení barvy ovládacího prvku obsahu"
+"url": "/cs/net/programming-with-sdt/set-content-control-color/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavte barvu ovládání obsahu
+# Nastavení barvy ovládacího prvku obsahu
 
 ## Zavedení
 
-Pokud pracujete s dokumenty aplikace Word a potřebujete upravit vzhled značek strukturovaných dokumentů (SDT), možná budete chtít změnit jejich barvu. To je zvláště užitečné, když pracujete s formuláři nebo šablonami, kde je zásadní vizuální odlišení prvků. V této příručce projdeme procesem nastavení barvy SDT pomocí Aspose.Words for .NET.
+Pokud pracujete s dokumenty aplikace Word a potřebujete si přizpůsobit vzhled tagů strukturovaných dokumentů (SDT), můžete chtít změnit jejich barvu. To je obzvláště užitečné, když pracujete s formuláři nebo šablonami, kde je vizuální rozlišení prvků nezbytné. V této příručce si ukážeme proces nastavení barvy SDT pomocí Aspose.Words pro .NET.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte následující:
--  Aspose.Words for .NET: Tuto knihovnu musíte mít nainstalovanou. Můžete si jej stáhnout z[Web Aspose](https://releases.aspose.com/words/net/).
-- Základní porozumění C#: Tento tutoriál předpokládá, že jste obeznámeni se základními koncepty programování v C#.
-- Dokument aplikace Word: Měli byste mít dokument aplikace Word, který obsahuje alespoň jednu značku strukturovaného dokumentu.
+- Aspose.Words pro .NET: Musíte mít tuto knihovnu nainstalovanou. Můžete si ji stáhnout z [Webové stránky společnosti Aspose](https://releases.aspose.com/words/net/).
+- Základní znalost jazyka C#: Tento tutoriál předpokládá, že jste obeznámeni se základními koncepty programování v jazyce C#.
+- Dokument Wordu: Měli byste mít dokument Wordu, který obsahuje alespoň jeden tag strukturovaného dokumentu.
 
 ## Importovat jmenné prostory
 
-Nejprve musíte importovat potřebné jmenné prostory do vašeho projektu C#. Přidejte následující pomocí direktiv v horní části souboru kódu:
+Nejprve je potřeba importovat potřebné jmenné prostory do vašeho projektu v C#. Na začátek souboru s kódem přidejte následující using direktivy:
 
 ```csharp
 using Aspose.Words;
@@ -34,18 +36,18 @@ using Aspose.Words.Fields;
 using System.Drawing;
 ```
 
-## Krok 1: Nastavte cestu k dokumentu
+## Krok 1: Nastavení cesty k dokumentu
 
-Zadejte cestu k adresáři dokumentů a načtěte dokument:
+Zadejte cestu k adresáři s dokumenty a načtěte dokument:
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-## Krok 2: Vložte dokument
+## Krok 2: Vložení dokumentu
 
- Vytvořte a`Document` objekt načtením souboru aplikace Word:
+Vytvořte `Document` objekt načtením souboru Word:
 
 ```csharp
 Document doc = new Document(dataDir + "Structured document tags.docx");
@@ -53,13 +55,13 @@ Document doc = new Document(dataDir + "Structured document tags.docx");
 
 ## Krok 3: Přístup ke značce strukturovaného dokumentu
 
-Získejte z dokumentu štítek strukturovaného dokumentu (SDT). V tomto příkladu přistupujeme k prvnímu SDT:
+Načíst tag strukturovaného dokumentu (SDT) z dokumentu. V tomto příkladu přistupujeme k prvnímu SDT:
 
 ```csharp
 StructuredDocumentTag sdt = (StructuredDocumentTag) doc.GetChild(NodeType.StructuredDocumentTag, 0, true);
 ```
 
-## Krok 4: Nastavte barvu SDT
+## Krok 4: Nastavení barvy SDT
 
 Upravte vlastnost barvy SDT. Zde nastavíme barvu na červenou:
 
@@ -77,32 +79,37 @@ doc.Save(dataDir + "WorkingWithSdt.SetContentControlColor.docx");
 
 ## Závěr
 
-Změna barvy tagu strukturovaného dokumentu v dokumentu aplikace Word pomocí Aspose.Words for .NET je přímočará. Podle výše uvedených kroků můžete snadno aplikovat vizuální změny na vaše SDT, čímž vylepšíte vzhled a funkčnost vašich dokumentů.
+Změna barvy tagu strukturovaného dokumentu v dokumentu Word pomocí Aspose.Words pro .NET je jednoduchá. Dodržováním výše uvedených kroků můžete snadno aplikovat vizuální změny na vaše SDT, čímž vylepšíte vzhled a funkčnost vašich dokumentů.
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu pro SDT použít různé barvy?
 
- Ano, můžete použít jakoukoli barvu dostupnou v`System.Drawing.Color` třída. Můžete například použít`Color.Blue`, `Color.Green`atd.
+Ano, můžete použít jakoukoli barvu dostupnou v `System.Drawing.Color` třída. Můžete například použít `Color.Blue`, `Color.Green`atd.
 
 ### Jak změním barvu více SDT v dokumentu?
 
-Budete muset projít všechny SDT v dokumentu a aplikovat změnu barvy na každý z nich. Můžete toho dosáhnout pomocí smyčky, která prochází všemi SDT.
+Museli byste projít všechny SDT v dokumentu a na každý z nich aplikovat změnu barvy. Toho můžete dosáhnout pomocí smyčky, která iteruje všemi SDT.
 
-### Je možné nastavit jiné vlastnosti SDT kromě barvy?
+### Je možné nastavit i jiné vlastnosti SDT kromě barvy?
 
- Ano,`StructuredDocumentTag` class má různé vlastnosti, které můžete nastavit, včetně velikosti písma, stylu písma a dalších. Další podrobnosti naleznete v dokumentaci Aspose.Words.
+Ano, `StructuredDocumentTag` Třída má různé vlastnosti, které můžete nastavit, včetně velikosti písma, stylu písma a dalších. Další podrobnosti naleznete v dokumentaci k Aspose.Words.
 
-### Mohu přidat události do SDT, jako jsou události kliknutí?
+### Mohu do SDT přidávat události, například události kliknutí?
 
-Aspose.Words přímo nepodporuje zpracování událostí pro SDT. Můžete však spravovat interakce SDT prostřednictvím polí formuláře nebo použít jiné metody pro zpracování uživatelských vstupů a interakcí.
+Aspose.Words přímo nepodporuje zpracování událostí pro SDT. Interakce SDT však můžete spravovat prostřednictvím polí formuláře nebo použít jiné metody pro zpracování uživatelských vstupů a interakcí.
 
 ### Je možné z dokumentu odstranit SDT?
 
- Ano, SDT můžete odstranit zavoláním na`Remove()` metoda na nadřazeném uzlu SDT.
+Ano, SDT můžete odstranit voláním `Remove()` metoda na nadřazeném uzlu SDT.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

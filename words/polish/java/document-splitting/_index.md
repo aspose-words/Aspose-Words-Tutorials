@@ -1,14 +1,16 @@
 ---
-title: Podział dokumentów
-linktitle: Podział dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: 
-weight: 18
-url: /pl/java/document-splitting/
+"description": null
+"linktitle": "Podział dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Podział dokumentów"
+"url": "/pl/java/document-splitting/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Podział dokumentów
@@ -35,15 +37,19 @@ Dowiedz się, jak efektywnie dzielić dokumenty za pomocą Aspose.Words for Java
 Odblokuj moc Aspose.Words dla Javy dzięki naszemu przewodnikowi krok po kroku dotyczącemu dzielenia dokumentów na wiele plików. Uzyskaj fachowe spostrzeżenia i przykłady kodu źródłowego.
 ### [Dzielenie dokumentów na strony HTML](./splitting-documents-into-html-pages/)
 Dowiedz się, jak dzielić dokumenty Word na strony HTML za pomocą Aspose.Words for Java. Nasz przewodnik krok po kroku z kodem źródłowym sprawia, że proces ten jest łatwy i wydajny. Zacznij konwertować swoje dokumenty już dziś!
-### [Separacja stron dokumentu](./document-page-separation/)
+### [Oddzielenie stron dokumentu](./document-page-separation/)
 Dowiedz się, jak wykonać rozdzielenie stron dokumentu za pomocą Aspose.Words dla Java. Ten kompleksowy przewodnik zawiera instrukcje krok po kroku i kod źródłowy do wydajnego przetwarzania dokumentów.
 ### [Wyodrębnianie zawartości dokumentu według stron](./extracting-document-content-pages/)
 Dowiedz się, jak wyodrębnić zawartość dokumentu według stron za pomocą Aspose.Words dla Java. Ten przewodnik krok po kroku z kodem źródłowym w mgnieniu oka uczyni z Ciebie eksperta.
-### [Techniki dzielenia i ekstrakcji dokumentów](./document-splitting-extraction-techniques/)
+### [Techniki podziału i ekstrakcji dokumentów](./document-splitting-extraction-techniques/)
 Naucz się dzielić i wyodrębniać dokumenty za pomocą Aspose.Words dla Java. Przewodnik krok po kroku z kodem źródłowym do wydajnej manipulacji. Odblokuj moc Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

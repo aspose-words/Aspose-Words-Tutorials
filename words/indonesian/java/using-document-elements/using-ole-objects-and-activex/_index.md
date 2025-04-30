@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Objek OLE dan Kontrol ActiveX di Aspose.Words untuk Java
-linktitle: Menggunakan Objek OLE dan Kontrol ActiveX
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menggunakan objek OLE dan kontrol ActiveX di Aspose.Words untuk Java. Buat dokumen interaktif dengan mudah. Mulailah sekarang!
-weight: 21
-url: /id/java/using-document-elements/using-ole-objects-and-activex/
+"description": "Pelajari cara menggunakan objek OLE dan kontrol ActiveX di Aspose.Words untuk Java. Buat dokumen interaktif dengan mudah. Mulailah sekarang!"
+"linktitle": "Menggunakan Objek OLE dan Kontrol ActiveX"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Objek OLE dan Kontrol ActiveX di Aspose.Words untuk Java"
+"url": "/id/java/using-document-elements/using-ole-objects-and-activex/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Objek OLE dan Kontrol ActiveX di Aspose.Words untuk Java
@@ -19,7 +21,7 @@ Dalam tutorial ini, kita akan menjelajahi cara bekerja dengan objek OLE (Object 
 
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
-1.  Aspose.Words untuk Java: Pastikan Anda telah menginstal pustaka Aspose.Words di proyek Java Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/java/).
+1. Aspose.Words untuk Java: Pastikan Anda telah menginstal pustaka Aspose.Words di proyek Java Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/java/).
 
 2. Lingkungan Pengembangan Java: Anda harus memiliki lingkungan pengembangan Java yang berfungsi pada sistem Anda.
 
@@ -135,13 +137,18 @@ Selamat! Anda telah mempelajari cara bekerja dengan objek OLE dan kontrol Active
    - Ya, Aspose.Words untuk Java adalah pustaka yang hebat untuk mengotomatiskan pembuatan dan manipulasi dokumen dalam aplikasi Java.
 
 ### Di mana saya bisa mendapatkan akses ke Aspose.Words untuk Java? 
-   -  Anda dapat mengunduh Aspose.Words untuk Java dari[Di Sini](https://releases.aspose.com/words/java/).
+   - Anda dapat mengunduh Aspose.Words untuk Java dari [Di Sini](https://releases.aspose.com/words/java/).
 
 Mulailah dengan Aspose.Words untuk Java hari ini dan dapatkan potensi penuh otomatisasi dan penyesuaian dokumen!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

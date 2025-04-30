@@ -1,14 +1,16 @@
 ---
-title: Revisi Bentuk
-linktitle: Revisi Bentuk
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menangani revisi bentuk dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap ini. Kuasai pelacakan perubahan, penyisipan bentuk, dan banyak lagi.
-weight: 10
-url: /id/net/working-with-revisions/shape-revision/
+"description": "Pelajari cara menangani revisi bentuk dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap ini. Kuasai pelacakan perubahan, penyisipan bentuk, dan banyak lagi."
+"linktitle": "Revisi Bentuk"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Revisi Bentuk"
+"url": "/id/net/working-with-revisions/shape-revision/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Revisi Bentuk
@@ -21,7 +23,7 @@ Mengedit dokumen Word secara terprogram dapat menjadi tugas yang berat, terutama
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
--  Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Anda harus menyiapkan lingkungan pengembangan, seperti Visual Studio.
 - Pemahaman Dasar C#: Keakraban dengan bahasa pemrograman C# dan konsep dasar pemrograman berorientasi objek.
 - Dokumen Word: Dokumen Word untuk digunakan, atau Anda dapat membuatnya selama tutorial.
@@ -89,7 +91,7 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(shape);
 
 ## Langkah 6: Mengambil dan Memodifikasi Bentuk
 
-Kita dapat mengambil semua bentuk dalam dokumen dan memodifikasinya sesuai kebutuhan. Di sini, kita akan mengambil bentuk dan menghapus bentuk pertama.
+Kita dapat mengambil semua bentuk dalam dokumen dan memodifikasinya sesuai kebutuhan. Di sini, kita akan mengambil bentuk dan menghapus yang pertama.
 
 ```csharp
 List<Shape> shapes = doc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().ToList();
@@ -126,16 +128,21 @@ Aspose.Words untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk 
 Ya, Aspose.Words untuk .NET mendukung pelacakan perubahan pada berbagai elemen, termasuk teks, tabel, dan lainnya.
 
 ### Bagaimana saya bisa mendapatkan uji coba gratis Aspose.Words untuk .NET?
- Anda bisa mendapatkan uji coba gratis Aspose.Words untuk .NET[Di Sini](https://releases.aspose.com/).
+Anda bisa mendapatkan uji coba gratis Aspose.Words untuk .NET [Di Sini](https://releases.aspose.com/).
 
 ### Apakah mungkin untuk menerima atau menolak revisi secara terprogram?
 Ya, Aspose.Words untuk .NET menyediakan metode untuk menerima atau menolak revisi secara terprogram.
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET dengan bahasa .NET lain selain C#?
 Tentu saja! Aspose.Words untuk .NET dapat digunakan dengan bahasa .NET apa pun, termasuk VB.NET dan F#.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

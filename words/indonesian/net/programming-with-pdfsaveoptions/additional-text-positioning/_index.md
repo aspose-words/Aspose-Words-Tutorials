@@ -1,14 +1,16 @@
 ---
-title: Meningkatkan Penempatan Teks PDF dengan Penempatan Teks Tambahan
-linktitle: Meningkatkan Penempatan Teks PDF dengan Penempatan Teks Tambahan
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memperbaiki posisi teks PDF dengan Aspose.Words untuk .NET dalam beberapa langkah mudah. Sempurnakan tampilan dokumen Anda.
-weight: 10
-url: /id/net/programming-with-pdfsaveoptions/additional-text-positioning/
+"description": "Pelajari cara memperbaiki posisi teks PDF dengan Aspose.Words untuk .NET dalam beberapa langkah mudah. Sempurnakan tampilan dokumen Anda."
+"linktitle": "Meningkatkan Penempatan Teks PDF dengan Penempatan Teks Tambahan"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Meningkatkan Penempatan Teks PDF dengan Penempatan Teks Tambahan"
+"url": "/id/net/programming-with-pdfsaveoptions/additional-text-positioning/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Meningkatkan Penempatan Teks PDF dengan Penempatan Teks Tambahan
@@ -21,7 +23,7 @@ Apakah Anda siap untuk menyelami dunia Aspose.Words untuk .NET dan membuka keaja
 
 Sebelum kita memulai, mari pastikan kita memiliki semua alat dan sumber daya yang diperlukan:
 
--  Aspose.Words untuk .NET: Pastikan Anda telah menginstal versi terbaru Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Situs web Aspose](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words versi terbaru untuk .NET. Anda dapat mengunduhnya dari [Situs web Aspose](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Lingkungan pengembangan terpadu (IDE) seperti Visual Studio.
 - .NET Framework: Pastikan Anda telah menginstal .NET Framework 4.0 atau yang lebih tinggi.
 - Pengetahuan Dasar C#: Keakraban dengan bahasa pemrograman C# akan bermanfaat.
@@ -53,20 +55,20 @@ Setelah proyek Anda disiapkan, langkah berikutnya adalah memuat dokumen Word yan
     ```csharp
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
-2.  Muat Dokumen: Gunakan`Document` kelas untuk memuat dokumen Word Anda.
+2. Muat Dokumen: Gunakan `Document` kelas untuk memuat dokumen Word Anda.
     ```csharp
     Document doc = new Document(dataDir + "Rendering.docx");
     ```
 
 ## Langkah 3: Konfigurasikan Opsi Penyimpanan PDF
 
- Keajaiban terjadi di sini! Kami akan mengonfigurasi`PdfSaveOptions` untuk mengaktifkan penempatan teks tambahan.
+Keajaiban terjadi di sini! Kami akan mengonfigurasi `PdfSaveOptions` untuk mengaktifkan penempatan teks tambahan.
 
-1.  Buat Objek PdfSaveOptions: Buat Instansiasi`PdfSaveOptions` kelas.
+1. Buat Objek PdfSaveOptions: Buat Instansiasi `PdfSaveOptions` kelas.
     ```csharp
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     ```
-2.  Aktifkan Penempatan Teks Tambahan: Atur`AdditionalTextPositioning`properti untuk`true`.
+2. Aktifkan Penempatan Teks Tambahan: Atur `AdditionalTextPositioning` properti untuk `true`.
     ```csharp
     saveOptions.AdditionalTextPositioning = true;
     ```
@@ -92,17 +94,22 @@ Penempatan Teks Tambahan meningkatkan ketepatan penempatan teks dalam PDF, memas
 Tidak, fitur Penempatan Teks Tambahan khusus untuk konversi PDF.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words untuk .NET?
- Ya, Anda bisa mendapatkannya[lisensi sementara](https://purchase.aspose.com/temporary-license/) atau membeli lisensi penuh[Di Sini](https://purchase.aspose.com/buy).
+Ya, Anda bisa mendapatkannya [lisensi sementara](https://purchase.aspose.com/temporary-license/) atau membeli lisensi penuh [Di Sini](https://purchase.aspose.com/buy).
 
 ### Apakah ada uji coba gratis yang tersedia?
- Ya, Anda dapat mengunduh[uji coba gratis](https://releases.aspose.com/) dari Aspose.Words untuk .NET.
+Ya, Anda dapat mengunduh [uji coba gratis](https://releases.aspose.com/) dari Aspose.Words untuk .NET.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
- Dokumentasi terperinci tersedia di[Situs web Aspose](https://reference.aspose.com/words/net/).
+Dokumentasi terperinci tersedia di [Situs web Aspose](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

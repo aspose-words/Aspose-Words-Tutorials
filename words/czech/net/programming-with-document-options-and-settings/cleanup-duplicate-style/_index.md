@@ -1,34 +1,36 @@
 ---
-title: Vyčištění duplicitního stylu
-linktitle: Vyčištění duplicitního stylu
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak vyčistit duplicitní styly v dokumentech aplikace Word pomocí Aspose.Words for .NET s naším komplexním průvodcem krok za krokem.
-weight: 10
-url: /cs/net/programming-with-document-options-and-settings/cleanup-duplicate-style/
+"description": "Naučte se, jak v dokumentech Wordu pomocí Aspose.Words pro .NET vyčistit duplicitní styly s pomocí našeho komplexního podrobného návodu."
+"linktitle": "Vyčištění duplicitního stylu"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Vyčištění duplicitního stylu"
+"url": "/cs/net/programming-with-document-options-and-settings/cleanup-duplicate-style/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vyčištění duplicitního stylu
 
 ## Zavedení
 
-Ahoj, nadšenci do kódování! Stalo se vám, že jste se při práci na dokumentu aplikace Word zapletli do sítě duplicitních stylů? Všichni jsme tam byli a není to hezký pohled. Ale nebojte se, Aspose.Words pro .NET je tu, aby zachránil situaci! V tomto tutoriálu se ponoříme do toho nejnutnějšího čištění duplicitních stylů v dokumentech aplikace Word pomocí Aspose.Words for .NET. Ať už jste zkušený vývojář nebo teprve začínáte, tento průvodce vás provede každým krokem s jasnými a snadno pochopitelnými pokyny. Takže, vyhrňme si rukávy a začněme!
+Ahoj, nadšenci do programování! Už jste se někdy při práci na dokumentu Word zamotali do sítě duplicitních stylů? Všichni jsme si to už prošli a není to hezký pohled. Ale nebojte se, Aspose.Words pro .NET je tu, aby vám pomohl! V tomto tutoriálu se ponoříme do detailů čištění duplicitních stylů ve vašich dokumentech Word pomocí Aspose.Words pro .NET. Ať už jste zkušený vývojář, nebo teprve začínáte, tento průvodce vás provede každým krokem s jasnými a snadno srozumitelnými pokyny. Tak si vyhrňme rukávy a pusťme se do toho!
 
 ## Předpoklady
 
 Než se pustíme do akce, ujistěte se, že máte vše, co potřebujete:
 
-1. Základní znalost C#: Nemusíte být průvodcem C#, ale základní znalost jazyka vám pomůže.
-2. Aspose.Words for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words for .NET. Pokud ne, můžete si jej stáhnout[zde](https://releases.aspose.com/words/net/).
-3. Vývojové prostředí: Dobré vývojové prostředí, jako je Visual Studio, vám hodně usnadní život.
-4. Ukázkový dokument: Připravte si k testování ukázkový dokument aplikace Word (.docx), který obsahuje duplicitní styly.
+1. Základní znalost C#: Nemusíte být mágem v C#, ale základní znalost jazyka bude užitečná.
+2. Aspose.Words pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words pro .NET. Pokud ne, můžete si ji stáhnout. [zde](https://releases.aspose.com/words/net/).
+3. Vývojové prostředí: Dobré vývojové prostředí, jako je Visual Studio, vám výrazně usnadní život.
+4. Ukázkový dokument: Připravte si ukázkový dokument Wordu (.docx), který obsahuje duplicitní styly, k otestování.
 
 ## Importovat jmenné prostory
 
-Nejprve importujme potřebné jmenné prostory. Tento krok zajistí, že budete mít přístup ke všem třídám a metodám, které budete potřebovat.
+Nejdříve si importujme potřebné jmenné prostory. Tento krok vám zajistí přístup ke všem třídám a metodám, které budete potřebovat.
 
 ```csharp
 using System;
@@ -36,48 +38,48 @@ using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-## Krok 1: Vložte svůj dokument
+## Krok 1: Vložte dokument
 
-Chcete-li začít, musíte do projektu načíst dokument aplikace Word. Zde vstupuje do hry váš vzorový dokument.
+Nejprve je potřeba načíst dokument aplikace Word do projektu. Zde přichází na řadu váš vzorový dokument.
 
-1. Zadejte adresář dokumentů: Definujte cestu k adresáři, kde je uložen váš dokument.
-2.  Vložte dokument: Použijte`Document` třídy k načtení dokumentu.
+1. Zadejte adresář dokumentů: Definujte cestu k adresáři, kde je dokument uložen.
+2. Vložení dokumentu: Použijte `Document` třída pro načtení dokumentu.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
 ## Krok 2: Spočítejte styly před čištěním
 
-Než provedeme úklid, podívejme se, kolik stylů je aktuálně v dokumentu. To nám dává základní linii, se kterou lze po vyčištění porovnat.
+Než začneme s úklidem, podívejme se, kolik stylů je v dokumentu aktuálně. To nám poskytne výchozí bod pro porovnání po úklidu.
 
-1.  Přístup ke kolekci stylů: Použijte`Styles` vlastnictvím`Document` třída.
-2. Vytiskněte počet stylů: Použít`Console.WriteLine` pro zobrazení počtu stylů.
+1. Přístup ke kolekci stylů: Použijte `Styles` majetek `Document` třída.
+2. Vytiskněte počet stylů: Použijte `Console.WriteLine` pro zobrazení počtu stylů.
 
 ```csharp
 // Počet stylů před vyčištěním.
 Console.WriteLine(doc.Styles.Count);
 ```
 
-## Krok 3: Nastavte možnosti čištění
+## Krok 3: Nastavení možností čištění
 
 Nyní je čas nakonfigurovat možnosti čištění. Zde říkáme Aspose.Words, aby se zaměřil na čištění duplicitních stylů.
 
-1.  Create CleanupOptions: Vytvořte instanci`CleanupOptions` třída.
-2.  Povolit DuplicateStyle Cleanup: Nastavte`DuplicateStyle`majetek do`true`.
+1. Vytvořit možnosti čištění: Vytvořit instanci `CleanupOptions` třída.
+2. Povolit čištění DuplicateStyle: Nastavte `DuplicateStyle` majetek `true`.
 
 ```csharp
-// Vyčistí duplicitní styly z dokumentu.
+// Odstraní duplicitní styly z dokumentu.
 CleanupOptions options = new CleanupOptions { DuplicateStyle = true };
 ```
 
-## Krok 4: Proveďte vyčištění
+## Krok 4: Proveďte čištění
 
-S nastavenými možnostmi čištění je čas vyčistit ty otravné duplicitní styly.
+Po nastavení možností čištění je čas vyčistit ty otravné duplicitní styly.
 
- Vyvolejte metodu čištění: Použijte`Cleanup` metoda`Document` třídy, absolvování v možnostech úklidu.
+Vyvolání metody čištění: Použijte `Cleanup` metoda `Document` třída, předávání možností čištění.
 
 ```csharp
 doc.Cleanup(options);
@@ -85,9 +87,9 @@ doc.Cleanup(options);
 
 ## Krok 5: Spočítejte styly po vyčištění
 
-Podívejme se na výsledek naší operace čištění opětovným počítáním stylů. To nám ukáže, kolik stylů bylo odstraněno.
+Podívejme se na výsledek naší operace čištění opětovným spočítáním stylů. To nám ukáže, kolik stylů bylo odstraněno.
 
- Vytiskněte počet nových stylů: Použít`Console.WriteLine` pro zobrazení aktualizovaného počtu stylů.
+Vytiskněte nový počet stylů: Použijte `Console.WriteLine` pro zobrazení aktualizovaného počtu stylů.
 
 ```csharp
 // Počet stylů po vyčištění byl snížen.
@@ -96,9 +98,9 @@ Console.WriteLine(doc.Styles.Count);
 
 ## Krok 6: Uložte aktualizovaný dokument
 
-Nakonec uložte vyčištěný dokument do určeného adresáře.
+Nakonec uložte vyčištěný dokument do vámi určeného adresáře.
 
- Uložit dokument: Použijte`Save` metoda`Document` třída.
+Uložení dokumentu: Použijte `Save` metoda `Document` třída.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithDocumentOptionsAndSettings.CleanupDuplicateStyle.docx");
@@ -106,27 +108,32 @@ doc.Save(dataDir + "WorkingWithDocumentOptionsAndSettings.CleanupDuplicateStyle.
 
 ## Závěr
 
-A tady to máte! Úspěšně jste vyčistili duplicitní styly z dokumentu aplikace Word pomocí Aspose.Words for .NET. Dodržováním těchto kroků můžete udržovat své dokumenty čisté a organizované, což usnadňuje jejich správu a méně náchylné k problémům se stylizací. Pamatujte, že klíčem ke zvládnutí jakéhokoli nástroje je praxe, takže pokračujte v experimentování s Aspose.Words a objevte všechny výkonné funkce, které nabízí.
+A tady to máte! Úspěšně jste vyčistili duplicitní styly z dokumentu Word pomocí Aspose.Words pro .NET. Dodržováním těchto kroků můžete udržet své dokumenty čisté a organizované, což vám usnadní správu a usnadní jejich používání. Nezapomeňte, že klíčem k zvládnutí jakéhokoli nástroje je praxe, takže s Aspose.Words neustále experimentujte a objevujte všechny výkonné funkce, které nabízí.
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
-Aspose.Words for .NET je výkonná knihovna, která umožňuje vývojářům vytvářet, upravovat, převádět a manipulovat s dokumenty Wordu programově pomocí jazyků .NET.
+### Co je Aspose.Words pro .NET?
+Aspose.Words pro .NET je výkonná knihovna, která umožňuje vývojářům programově vytvářet, upravovat, převádět a manipulovat s dokumenty Wordu pomocí jazyků .NET.
 
-### Proč je důležité vyčistit duplicitní styly v dokumentu aplikace Word?
-Vyčištění duplicitních stylů pomáhá zachovat konzistentní a profesionální vzhled vašich dokumentů, snižuje velikost souboru a usnadňuje správu dokumentu.
+### Proč je důležité vyčistit duplicitní styly v dokumentu Wordu?
+Odstranění duplicitních stylů pomáhá udržovat konzistentní a profesionální vzhled dokumentů, zmenšuje velikost souboru a usnadňuje správu dokumentu.
 
 ### Mohu používat Aspose.Words pro .NET s jinými jazyky .NET kromě C#?
-Ano, Aspose.Words for .NET lze použít s jakýmkoli jazykem .NET, včetně VB.NET a F#.
+Ano, Aspose.Words pro .NET lze použít s jakýmkoli jazykem .NET, včetně VB.NET a F#.
 
 ### Kde najdu další dokumentaci k Aspose.Words pro .NET?
- Můžete najít podrobnou dokumentaci[zde](https://reference.aspose.com/words/net/).
+Podrobnou dokumentaci naleznete [zde](https://reference.aspose.com/words/net/).
 
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Words pro .NET?
- Ano, můžete si stáhnout bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
+Ano, můžete si stáhnout bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

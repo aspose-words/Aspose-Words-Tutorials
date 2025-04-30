@@ -1,14 +1,16 @@
 ---
-title: Kiểm soát nội dung rõ ràng
-linktitle: Kiểm soát nội dung rõ ràng
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách xóa quyền kiểm soát nội dung trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi.
-weight: 10
-url: /vi/net/programming-with-sdt/clear-contents-control/
+"description": "Tìm hiểu cách xóa quyền kiểm soát nội dung trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi."
+"linktitle": "Kiểm soát nội dung rõ ràng"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Kiểm soát nội dung rõ ràng"
+"url": "/vi/net/programming-with-sdt/clear-contents-control/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kiểm soát nội dung rõ ràng
@@ -21,7 +23,7 @@ Bạn đã sẵn sàng để khám phá thế giới Aspose.Words cho .NET chưa
 
 Trước khi bắt đầu, hãy đảm bảo bạn đáp ứng các điều kiện tiên quyết sau:
 
-1.  Aspose.Words cho .NET: Tải xuống thư viện từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Tải xuống thư viện từ [đây](https://releases.aspose.com/words/net/).
 2. .NET Framework: Đảm bảo rằng bạn đã cài đặt .NET Framework trên máy của mình.
 3. IDE: Môi trường phát triển tích hợp như Visual Studio.
 4. Tài liệu: Một tài liệu Word có thẻ tài liệu có cấu trúc.
@@ -44,7 +46,7 @@ Chúng ta hãy chia nhỏ quy trình xóa kiểm soát nội dung thành các b�
 Đầu tiên, hãy thiết lập môi trường dự án của bạn.
 
 1. Mở Visual Studio: Khởi động Visual Studio hoặc IDE mà bạn thích.
-2.  Tạo một dự án mới: Đi tới`File` >`New` >`Project`và chọn Ứng dụng bảng điều khiển C#.
+2. Tạo một dự án mới: Đi tới `File` > `New` > `Project`và chọn Ứng dụng bảng điều khiển C#.
 3. Cài đặt Aspose.Words cho .NET: Sử dụng NuGet Package Manager để cài đặt Aspose.Words. Chạy lệnh sau trong Package Manager Console:
 ```sh
 Install-Package Aspose.Words
@@ -58,7 +60,7 @@ Tiếp theo, hãy tải tài liệu Word có chứa các thẻ tài liệu có c
    ```csharp
    string dataDir = "YOUR DOCUMENT DIRECTORY";
    ```
-2.  Tải Tài liệu: Sử dụng`Document` lớp để tải tài liệu Word của bạn.
+2. Tải Tài liệu: Sử dụng `Document` lớp để tải tài liệu Word của bạn.
    ```csharp
    Document doc = new Document(dataDir + "Structured document tags.docx");
    ```
@@ -76,7 +78,7 @@ Bây giờ, chúng ta hãy truy cập thẻ tài liệu có cấu trúc (SDT) tr
 
 Xóa nội dung của thẻ tài liệu có cấu trúc.
 
-1.  Xóa nội dung SDT: Sử dụng`Clear` phương pháp loại bỏ nội dung.
+1. Xóa nội dung SDT: Sử dụng `Clear` phương pháp loại bỏ nội dung.
    ```csharp
    sdt.Clear();
    ```
@@ -102,11 +104,11 @@ Aspose.Words for .NET là một thư viện mạnh mẽ để làm việc với 
 
 ### Tôi có thể sử dụng Aspose.Words miễn phí không?
 
- Aspose.Words cung cấp bản dùng thử miễn phí mà bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Aspose.Words cung cấp bản dùng thử miễn phí mà bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Words?
 
- Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose[đây](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose [đây](https://forum.aspose.com/c/words/8).
 
 ### Thẻ tài liệu có cấu trúc là gì?
 
@@ -114,11 +116,16 @@ Thẻ tài liệu có cấu trúc (SDT) là các nút điều khiển nội dung
 
 ### Tôi có thể tìm tài liệu về Aspose.Words ở đâu?
 
- Tài liệu có sẵn[đây](https://reference.aspose.com/words/net/).
+Tài liệu có sẵn [đây](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

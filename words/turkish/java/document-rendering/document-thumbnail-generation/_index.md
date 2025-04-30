@@ -1,14 +1,16 @@
 ---
-title: Belge Küçük Resim Oluşturma
-linktitle: Belge Küçük Resim Oluşturma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Java için Aspose.Words'ü kullanarak belge küçük resimlerinin nasıl oluşturulacağını öğrenin. Görsel önizlemelerle kullanıcı deneyimlerini geliştirin.
-weight: 11
-url: /tr/java/document-rendering/document-thumbnail-generation/
+"description": "Java için Aspose.Words'ü kullanarak belge küçük resimlerinin nasıl oluşturulacağını öğrenin. Görsel önizlemelerle kullanıcı deneyimlerini geliştirin."
+"linktitle": "Belge Küçük Resim Oluşturma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belge Küçük Resim Oluşturma"
+"url": "/tr/java/document-rendering/document-thumbnail-generation/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Küçük Resim Oluşturma
@@ -23,12 +25,12 @@ Belge küçük resmi oluşturma, genellikle önizleme resmi olarak görüntülen
 Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Java Geliştirme Ortamı: Sisteminizde Java'nın yüklü olduğundan emin olun.
--  Aspose.Words for Java: Aspose.Words for Java'yı web sitesinden indirin ve yükleyin[Burada](https://releases.aspose.com/words/java/).
+- Aspose.Words for Java: Aspose.Words for Java'yı web sitesinden indirin ve yükleyin [Burada](https://releases.aspose.com/words/java/).
 - Entegre Geliştirme Ortamı (IDE): Eclipse veya IntelliJ IDEA gibi dilediğiniz herhangi bir Java IDE'sini kullanabilirsiniz.
 
 ## Adım 1: Geliştirme Ortamınızı Kurma
 
-Başlamak için sisteminizde Java ve Aspose.Words for Java'nın yüklü olduğundan emin olun. Ayrıca kodlama için bir IDE'ye ihtiyacınız olacak.
+Başlamak için, sisteminizde Java ve Aspose.Words for Java'nın yüklü olduğundan emin olun. Ayrıca kodlama için bir IDE'ye ihtiyacınız olacak.
 
 ## Adım 2: Bir Word Belgesi Yükleme
 
@@ -72,7 +74,7 @@ Java için Aspose.Words kullanarak belge küçük resmi oluşturma, belgelerin g
 
 ### Java için Aspose.Words'ü nasıl yüklerim?
 
-Java için Aspose.Words'ü yüklemek için indirme sayfasını ziyaret edin[Burada](https://releases.aspose.com/words/java/)ve verilen kurulum talimatlarını izleyin.
+Java için Aspose.Words'ü yüklemek için indirme sayfasını ziyaret edin [Burada](https://releases.aspose.com/words/java/) ve verilen kurulum talimatlarını izleyin.
 
 ### Oluşturulan küçük resmin boyutunu özelleştirebilir miyim?
 
@@ -88,10 +90,15 @@ Evet, Aspose.Words for Java ticari kullanım için geçerli bir lisans gerektiri
 
 ### Aspose.Words for Java için ek belgeleri nerede bulabilirim?
 
- Aspose.Words for Java dokümantasyon sayfasında kapsamlı dokümantasyon ve API referansları bulabilirsiniz[Burada](https://reference.aspose.com/words/java/).
+Aspose.Words for Java dokümantasyon sayfasında kapsamlı dokümantasyon ve API referansları bulabilirsiniz [Burada](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Otrzymaj powiadomienie ostrzegawcze
-linktitle: Otrzymaj powiadomienie ostrzegawcze
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak otrzymywać powiadomienia o zamianie czcionek w Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi. Upewnij się, że Twoje dokumenty są za każdym razem renderowane poprawnie.
-weight: 10
-url: /pl/net/working-with-fonts/receive-warning-notification/
+"description": "Dowiedz się, jak otrzymywać powiadomienia o zamianie czcionek w Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi. Upewnij się, że Twoje dokumenty są za każdym razem renderowane poprawnie."
+"linktitle": "Otrzymaj powiadomienie ostrzegawcze"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Otrzymaj powiadomienie ostrzegawcze"
+"url": "/pl/net/working-with-fonts/receive-warning-notification/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Otrzymaj powiadomienie ostrzegawcze
@@ -22,9 +24,9 @@ Czy jesteś zmęczony nieoczekiwanymi problemami z czcionkami w swoich dokumenta
 Zanim przejdziemy do konkretów, upewnij się, że masz następujące rzeczy:
 
 - Podstawowa znajomość języka C#: Znajomość języka C# pomoże Ci zrozumieć i wdrożyć poszczególne kroki.
--  Biblioteka Aspose.Words dla .NET: Pobierz i zainstaluj ją z[link do pobrania](https://releases.aspose.com/words/net/).
+- Biblioteka Aspose.Words dla .NET: Pobierz i zainstaluj ją z [link do pobrania](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: środowisko podobne do Visual Studio, służące do pisania i uruchamiania kodu.
--  Przykładowy dokument: Posiadaj przykładowy dokument (np.`Rendering.docx`) do pracy.
+- Przykładowy dokument: Posiadaj przykładowy dokument (np. `Rendering.docx`) do pracy.
 
 ## Importuj przestrzenie nazw
 
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Krok 2: Załaduj dokument
 
- Załaduj swój dokument do Aspose.Words`Document` obiekt. Pozwala to na manipulowanie dokumentem programowo.
+Załaduj swój dokument do Aspose.Words `Document` obiekt. Pozwala to na manipulowanie dokumentem programowo.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -54,7 +56,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Krok 3: Skonfiguruj wywołanie zwrotne ostrzeżenia
 
- Aby przechwytywać i obsługiwać ostrzeżenia, utwórz klasę implementującą`IWarningCallback` interfejs. Ta klasa będzie rejestrować wszelkie ostrzeżenia, które wystąpią podczas przetwarzania dokumentu.
+Aby przechwytywać i obsługiwać ostrzeżenia, utwórz klasę implementującą `IWarningCallback` interfejs. Ta klasa będzie rejestrować wszelkie ostrzeżenia, które wystąpią podczas przetwarzania dokumentu.
 
 ```csharp
 public class HandleDocumentWarnings : IWarningCallback
@@ -76,7 +78,7 @@ doc.WarningCallback = callback;
 ```
 ## Krok 5: Aktualizacja układu strony
 
- Zadzwoń`UpdatePageLayout` Metoda ta renderuje dokument w pamięci i przechwytuje wszelkie ostrzeżenia, które występują podczas renderowania.
+Zadzwoń `UpdatePageLayout` Metoda ta renderuje dokument w pamięci i przechwytuje wszelkie ostrzeżenia, które występują podczas renderowania.
 
 ```csharp
 doc.UpdatePageLayout();
@@ -104,22 +106,27 @@ Nie, możesz określić tylko jedną domyślną czcionkę do zastąpienia. Może
 
 ### P2: Gdzie mogę uzyskać bezpłatną wersję próbną Aspose.Words dla .NET?
 
- Darmową wersję próbną możesz pobrać ze strony[Strona z bezpłatną wersją próbną](https://releases.aspose.com/).
+Darmową wersję próbną możesz pobrać ze strony [Strona z bezpłatną wersją próbną](https://releases.aspose.com/).
 
-###  P3: Czy mogę obsługiwać inne rodzaje ostrzeżeń za pomocą`IWarningCallback`?
+### P3: Czy mogę obsługiwać inne rodzaje ostrzeżeń za pomocą `IWarningCallback`?
 
- Tak,`IWarningCallback`Interfejs może obsługiwać różne typy ostrzeżeń, nie tylko te dotyczące zamiany czcionek.
+Tak, `IWarningCallback` Interfejs może obsługiwać różne typy ostrzeżeń, nie tylko te dotyczące zamiany czcionek.
 
 ### P4: Gdzie mogę znaleźć pomoc dotyczącą Aspose.Words?
 
- Odwiedź[Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8) po pomoc.
+Odwiedź [Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8) po pomoc.
 
 ### P5: Czy można uzyskać tymczasową licencję na Aspose.Words?
 
- Tak, możesz uzyskać tymczasową licencję od[tymczasowa strona licencji](https://purchase.aspose.com/temporary-license/).
+Tak, możesz uzyskać tymczasową licencję od [tymczasowa strona licencji](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

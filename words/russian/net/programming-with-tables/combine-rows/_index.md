@@ -1,14 +1,16 @@
 ---
-title: Объединить ряды
-linktitle: Объединить ряды
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как объединить строки из нескольких таблиц в одну с помощью Aspose.Words для .NET, следуя нашему пошаговому руководству.
-weight: 10
-url: /ru/net/programming-with-tables/combine-rows/
+"description": "Узнайте, как объединить строки из нескольких таблиц в одну с помощью Aspose.Words для .NET, следуя нашему пошаговому руководству."
+"linktitle": "Объединить ряды"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Объединить ряды"
+"url": "/ru/net/programming-with-tables/combine-rows/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Объединить ряды
@@ -21,11 +23,11 @@ url: /ru/net/programming-with-tables/combine-rows/
 
 Прежде чем приступить к написанию кода, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words для .NET: Вы можете скачать его[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: Вы можете скачать его [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая другая совместимая с .NET IDE.
 3. Базовые знания C#: Понимание C# будет преимуществом.
 
- Если у вас еще нет Aspose.Words для .NET, вы можете получить[бесплатная пробная версия](https://releases.aspose.com/) или купить его[здесь](https://purchase.aspose.com/buy) . По любым вопросам обращайтесь[форум поддержки](https://forum.aspose.com/c/words/8) — отличное место для начала.
+Если у вас еще нет Aspose.Words для .NET, вы можете получить [бесплатная пробная версия](https://releases.aspose.com/) или купить его [здесь](https://purchase.aspose.com/buy). По любым вопросам обращайтесь [форум поддержки](https://forum.aspose.com/c/words/8) — отличное место для начала.
 
 ## Импорт пространств имен
 
@@ -49,11 +51,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- В этом примере замените`"YOUR DOCUMENT DIRECTORY"` с путем к вашему документу.
+В этом примере замените `"YOUR DOCUMENT DIRECTORY"` с путем к вашему документу.
 
 ## Шаг 2: Определите таблицы
 
- Далее вам нужно определить таблицы, которые вы хотите объединить. Aspose.Words позволяет вам получить таблицы из документа с помощью`GetChild` Метод. Вот как:
+Далее вам нужно определить таблицы, которые вы хотите объединить. Aspose.Words позволяет вам получить таблицы из документа с помощью `GetChild` метод. Вот как:
 
 ```csharp
 Table firstTable = (Table) doc.GetChild(NodeType.Table, 0, true);
@@ -76,7 +78,7 @@ while (secondTable.HasChildNodes)
 
 ## Шаг 4: Уберите вторую таблицу.
 
- После добавления строк вторая таблица больше не нужна. Вы можете удалить ее с помощью`Remove` метод:
+После добавления строк вторая таблица больше не нужна. Вы можете удалить ее с помощью `Remove` метод:
 
 ```csharp
 secondTable.Remove();
@@ -96,7 +98,7 @@ doc.Save(dataDir + "WorkingWithTables.CombineRows.docx");
 
 Объединение строк из нескольких таблиц в одну может значительно упростить ваши задачи по обработке документов. С Aspose.Words для .NET эта задача становится простой и эффективной. Следуя этому пошаговому руководству, вы сможете легко объединить таблицы и оптимизировать свой рабочий процесс.
 
-Если вам нужна дополнительная информация или у вас есть вопросы,[Документация Aspose.Words](https://reference.aspose.com/words/net/) отличный ресурс. Вы также можете изучить варианты покупки[здесь](https://purchase.aspose.com/buy) или получить[временная лицензия](https://purchase.aspose.com/temporary-license/) для тестирования.
+Если вам нужна дополнительная информация или у вас есть вопросы, [Документация Aspose.Words](https://reference.aspose.com/words/net/) отличный ресурс. Вы также можете изучить варианты покупки [здесь](https://purchase.aspose.com/buy) или получить [временная лицензия](https://purchase.aspose.com/temporary-license/) для тестирования.
 
 ## Часто задаваемые вопросы
 
@@ -118,10 +120,15 @@ doc.Save(dataDir + "WorkingWithTables.CombineRows.docx");
 
 ### Где я могу получить помощь, если у меня возникнут проблемы?
 
- The[Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8) — это отличное место, где можно получить помощь и найти решения распространенных проблем.
+The [Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8) — это отличное место, где можно получить помощь и найти решения распространенных проблем.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,34 +1,36 @@
 ---
-title: Hozzon létre új aláírási sort és állítsa be a szolgáltatói azonosítót
-linktitle: Hozzon létre új aláírási sort és állítsa be a szolgáltatói azonosítót
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan hozhat létre új aláírási sort, és hogyan állíthatja be a szolgáltatói azonosítót a Word dokumentumokban az Aspose.Words for .NET használatával. Lépésről lépésre útmutató.
-weight: 10
-url: /hu/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/
+"description": "Ismerje meg, hogyan hozhat létre új aláírási sort és állíthat be szolgáltatói azonosítót Word-dokumentumokban az Aspose.Words for .NET használatával. Lépésről lépésre útmutató."
+"linktitle": "Új aláírási sor létrehozása és szolgáltató azonosítójának beállítása"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Új aláírási sor létrehozása és szolgáltató azonosítójának beállítása"
+"url": "/hu/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hozzon létre új aláírási sort és állítsa be a szolgáltatói azonosítót
+# Új aláírási sor létrehozása és szolgáltató azonosítójának beállítása
 
 ## Bevezetés
 
-Sziasztok, a technika szerelmesei! Gondolkozott már azon, hogyan lehet programozottan aláírássort hozzáadni a Word-dokumentumokhoz? Nos, ma éppen ebben merülünk el az Aspose.Words for .NET használatával. Ez az útmutató végigvezeti Önt minden lépésen, így egyszerűen létrehozhat egy új aláírási sort, és beállíthatja a szolgáltatói azonosítót a Word-dokumentumokban. Akár automatizálja a dokumentumfeldolgozást, akár csak a munkafolyamat egyszerűsítését szeretné elérni, ez az oktatóanyag mindenre kiterjed.
+Sziasztok, tech-rajongók! Elgondolkodtatok már azon, hogyan lehet programozottan aláírássort hozzáadni a Word-dokumentumaitokhoz? Nos, ma pontosan ebbe fogunk belevágni az Aspose.Words for .NET használatával. Ez az útmutató végigvezet minden lépésen, így gyerekjáték létrehozni egy új aláírássort és beállítani a szolgáltató azonosítóját a Word-dokumentumaitokban. Akár automatizáljátok a dokumentumfeldolgozást, akár csak egyszerűsíteni szeretnétek a munkafolyamatotokat, ez az oktatóanyag segít nektek.
 
 ## Előfeltételek
 
-Mielőtt bemocskolnánk a kezünket, győződjünk meg arról, hogy mindennel rendelkezünk, amire szükségünk van:
+Mielőtt belevágnánk, nézzük meg, hogy mindenünk megvan-e, amire szükségünk van:
 
-1.  Aspose.Words for .NET: Ha még nem tette meg, töltse le[itt](https://releases.aspose.com/words/net/).
-2. Fejlesztői környezet: Visual Studio vagy bármely más C# fejlesztői környezet.
+1. Aspose.Words .NET-hez: Ha még nem tetted meg, töltsd le [itt](https://releases.aspose.com/words/net/).
+2. Fejlesztői környezet: Visual Studio vagy bármilyen más C# fejlesztői környezet.
 3. .NET-keretrendszer: Győződjön meg arról, hogy telepítve van a .NET-keretrendszer.
-4. PFX-tanúsítvány: A dokumentumok aláírásához PFX-tanúsítványra lesz szüksége. Megbízható hitelesítésszolgáltatótól szerezhet be egyet.
+4. PFX tanúsítvány: Dokumentumok aláírásához PFX tanúsítványra lesz szüksége. Ilyet egy megbízható hitelesítésszolgáltatótól szerezhet be.
 
 ## Névterek importálása
 
-Először is importáljuk a szükséges névtereket a C# projektbe:
+Először is, importáljuk a szükséges névtereket a C# projektedbe:
 
 ```csharp
 using Aspose.Words;
@@ -37,11 +39,11 @@ using Aspose.Words.Signing;
 using System;
 ```
 
-Rendben, térjünk a lényegre. Itt található az új aláírási sor létrehozásához és a szolgáltatói azonosító beállításához szükséges lépések részletes lebontása.
+Rendben, térjünk a lényegre. Íme egy részletes leírás az új aláírási sor létrehozásának és a szolgáltatói azonosító beállításának lépéseiről.
 
-## 1. lépés: Hozzon létre egy új dokumentumot
+## 1. lépés: Új dokumentum létrehozása
 
-A kezdéshez létre kell hoznunk egy új Word dokumentumot. Ez lesz a vászon az aláírási sorunkhoz.
+Kezdésként létre kell hoznunk egy új Word-dokumentumot. Ez lesz az aláírási sorunk alapja.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
@@ -50,11 +52,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Ebben a részletben egy újat inicializálunk`Document` és a`DocumentBuilder` . A`DocumentBuilder` segít elemeket hozzáadni a dokumentumunkhoz.
+Ebben a kódrészletben egy újat inicializálunk `Document` és egy `DocumentBuilder`. A `DocumentBuilder` segít elemeket hozzáadni a dokumentumunkhoz.
 
-## 2. lépés: Adja meg az aláírási sor beállításait
+## 2. lépés: Aláírási sor beállításainak meghatározása
 
-Ezután meghatározzuk az aláírási sorunk beállításait. Ez magában foglalja az aláíró nevét, beosztását, e-mail-címét és egyéb adatait.
+Ezután meghatározzuk az aláírás sor beállításait. Ez magában foglalja az aláíró nevét, beosztását, e-mail címét és egyéb adatokat.
 
 ```csharp
 SignatureLineOptions signatureLineOptions = new SignatureLineOptions
@@ -69,32 +71,32 @@ SignatureLineOptions signatureLineOptions = new SignatureLineOptions
 };
 ```
 
-Ezek a lehetőségek személyre szabják az aláírási vonalat, egyértelművé és professzionálissá téve azt.
+Ezek a beállítások személyre szabják az aláírási sort, így az világos és professzionális.
 
-## 3. lépés: Illessze be az aláírási sort
+## 3. lépés: Az aláírás sor beillesztése
 
-A beállított opciókkal már beilleszthetjük az aláírási sort a dokumentumba.
+A beállítások megadásával most már beilleszthetjük az aláírás sort a dokumentumba.
 
 ```csharp
 SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).SignatureLine;
 signatureLine.ProviderId = Guid.Parse("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2");
 ```
 
- Itt, a`InsertSignatureLine` metódus hozzáadja az aláírási sort, és egyedi szolgáltatói azonosítót rendelünk hozzá.
+Itt a `InsertSignatureLine` A metódus hozzáadja az aláírási sort, és hozzárendelünk egy egyedi szolgáltatói azonosítót.
 
-## 4. lépés: Mentse el a dokumentumot
+## 4. lépés: A dokumentum mentése
 
-Az aláírási sor beszúrása után mentsük el a dokumentumot.
+Az aláírás sor beillesztése után mentsük el a dokumentumot.
 
 ```csharp
 doc.Save(dataDir + "SignDocuments.SignatureLineProviderId.docx");
 ```
 
-Ezzel elmenti a dokumentumot az újonnan hozzáadott aláírási sorral.
+Ez a dokumentumot az újonnan hozzáadott aláírássorral menti.
 
-## 5. lépés: Az aláírási beállítások beállítása
+## 5. lépés: Aláírási beállítások megadása
 
-Most be kell állítanunk a dokumentum aláírásának lehetőségeit. Ez magában foglalja az aláírási sor azonosítóját, a szolgáltató azonosítóját, a megjegyzéseket és az aláírási időt.
+Most be kell állítanunk a dokumentum aláírásának beállításait. Ez magában foglalja az aláírási sor azonosítóját, a szolgáltató azonosítóját, a megjegyzéseket és az aláírás időpontját.
 
 ```csharp
 SignOptions signOptions = new SignOptions
@@ -106,52 +108,57 @@ SignOptions signOptions = new SignOptions
 };
 ```
 
-Ezek az opciók biztosítják, hogy a dokumentumot a megfelelő adatokkal írják alá.
+Ezek a beállítások biztosítják, hogy a dokumentum a megfelelő adatokkal legyen aláírva.
 
-## 6. lépés: Hozzon létre tanúsítványtulajdonost
+## 6. lépés: Tanúsítványtulajdonos létrehozása
 
-A dokumentum aláírásához PFX tanúsítványt használunk. Hozzunk létre egy tanúsítvány tulajdonost hozzá.
+A dokumentum aláírásához egy PFX tanúsítványt fogunk használni. Hozzunk létre hozzá egy tanúsítványtulajdonost.
 
 ```csharp
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
 ```
 
- Ügyeljen arra, hogy cserélje ki`"morzal.pfx"` a tényleges tanúsítványfájljával és`"aw"` a tanúsítvány jelszavával.
+Mindenképpen cserélje ki `"morzal.pfx"` a tényleges tanúsítványfájloddal és `"aw"` a tanúsítványod jelszavával.
 
-## 7. lépés: Aláírja a dokumentumot
+## 7. lépés: A dokumentum aláírása
 
-Végül a digitális aláírási segédprogrammal aláírjuk a dokumentumot.
+Végül a digitális aláírás segédprogrammal aláírjuk a dokumentumot.
 
 ```csharp
 DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLineProviderId.docx", 
     dataDir + "SignDocuments.CreateNewSignatureLineAndSetProviderId.docx", certHolder, signOptions);
 ```
 
-Ez aláírja a dokumentumot, és új fájlként menti.
+Ez aláírja a dokumentumot, és új fájlként menti el.
 
 ## Következtetés
 
-És megvan! Sikeresen létrehozott egy új aláírási sort, és beállította a szolgáltatói azonosítót egy Word-dokumentumban az Aspose.Words for .NET használatával. Ez a nagy teljesítményű könyvtár hihetetlenül egyszerűvé teszi a dokumentumfeldolgozási feladatok kezelését és automatizálását. Próbálja ki, és nézze meg, hogyan tudja egyszerűsíteni a munkafolyamatot.
+És íme! Sikeresen létrehoztál egy új aláírássort és beállítottad a szolgáltatói azonosítót egy Word-dokumentumban az Aspose.Words for .NET segítségével. Ez a hatékony függvénykönyvtár hihetetlenül egyszerűvé teszi a dokumentumfeldolgozási feladatok kezelését és automatizálását. Próbáld ki, és nézd meg, hogyan egyszerűsítheti a munkafolyamatodat.
 
 ## GYIK
 
 ### Testreszabhatom az aláírássor megjelenését?
- Teljesen! Különféle lehetőségeket módosíthat a`SignatureLineOptions`hogy megfeleljen az Ön igényeinek.
+Természetesen! Különböző beállításokat módosíthatsz a `SignatureLineOptions` hogy megfeleljen az igényeidnek.
 
-### Mi a teendő, ha nincs PFX tanúsítványom?
-Be kell szereznie egyet egy megbízható tanúsító hatóságtól. Ez elengedhetetlen a dokumentumok digitális aláírásához.
+### Mi van, ha nincs PFX tanúsítványom?
+Megbízható hitelesítésszolgáltatótól kell beszereznie egyet. Ez elengedhetetlen a dokumentumok digitális aláírásához.
 
 ### Hozzáadhatok több aláírási sort egy dokumentumhoz?
-Igen, tetszőleges számú aláírási sort hozzáadhat a beillesztési folyamat különböző opciókkal történő megismétlésével.
+Igen, annyi aláírási sort adhat hozzá, amennyire szüksége van, a beszúrási folyamat különböző beállításokkal történő megismétlésével.
 
-### Az Aspose.Words for .NET kompatibilis a .NET Core-al?
-Igen, az Aspose.Words for .NET támogatja a .NET Core-t, így sokoldalúan használható különböző fejlesztői környezetekben.
+### Kompatibilis az Aspose.Words for .NET a .NET Core-ral?
+Igen, az Aspose.Words for .NET támogatja a .NET Core-t, így sokoldalúan használható különböző fejlesztési környezetekben.
 
 ### Mennyire biztonságosak a digitális aláírások?
 Az Aspose.Words segítségével létrehozott digitális aláírások rendkívül biztonságosak, feltéve, hogy érvényes és megbízható tanúsítványt használ.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

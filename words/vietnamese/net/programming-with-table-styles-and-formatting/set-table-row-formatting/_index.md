@@ -1,14 +1,16 @@
 ---
-title: Thiết lập định dạng hàng bảng
-linktitle: Thiết lập định dạng hàng bảng
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thiết lập định dạng hàng bảng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn của chúng tôi. Hoàn hảo để tạo tài liệu được định dạng tốt và chuyên nghiệp.
-weight: 10
-url: /vi/net/programming-with-table-styles-and-formatting/set-table-row-formatting/
+"description": "Tìm hiểu cách thiết lập định dạng hàng bảng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn của chúng tôi. Hoàn hảo để tạo tài liệu được định dạng tốt và chuyên nghiệp."
+"linktitle": "Thiết lập định dạng hàng bảng"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thiết lập định dạng hàng bảng"
+"url": "/vi/net/programming-with-table-styles-and-formatting/set-table-row-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập định dạng hàng bảng
@@ -21,7 +23,7 @@ Nếu bạn đang muốn thành thạo nghệ thuật định dạng bảng tron
 
 Trước khi bắt đầu hướng dẫn, hãy đảm bảo bạn đáp ứng các điều kiện tiên quyết sau:
 
-1.  Aspose.Words cho .NET - Nếu bạn chưa tải xuống và cài đặt nó từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET - Nếu bạn chưa tải xuống và cài đặt nó từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển - Bất kỳ IDE nào như Visual Studio hỗ trợ .NET.
 3. Kiến thức cơ bản về C# - Hiểu các khái niệm cơ bản về C# sẽ giúp bạn theo dõi dễ dàng.
 
@@ -50,7 +52,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Bước 2: Bắt đầu một bảng
 
- Tiếp theo, bạn sẽ bắt đầu tạo bảng.`DocumentBuilder` Lớp này cung cấp một cách trực tiếp để chèn và định dạng bảng.
+Tiếp theo, bạn sẽ bắt đầu tạo bảng. `DocumentBuilder` Lớp này cung cấp một cách trực tiếp để chèn và định dạng bảng.
 
 ```csharp
 Table table = builder.StartTable();
@@ -103,23 +105,28 @@ Và bạn đã có nó! Bạn đã tạo thành công một bảng định dạn
 ## Câu hỏi thường gặp
 
 ### Tôi có thể thiết lập định dạng khác nhau cho mỗi hàng trong bảng không?
- Có, bạn có thể thiết lập định dạng riêng cho từng hàng bằng cách áp dụng các định dạng khác nhau`RowFormat` thuộc tính cho mỗi hàng bạn tạo.
+Có, bạn có thể thiết lập định dạng riêng cho từng hàng bằng cách áp dụng các định dạng khác nhau `RowFormat` thuộc tính cho mỗi hàng bạn tạo.
 
 ### Có thể thêm các thành phần khác, như hình ảnh, vào các ô của bảng không?
- Chắc chắn rồi! Bạn có thể chèn hình ảnh, hình dạng và các thành phần khác vào các ô của bảng bằng cách sử dụng`DocumentBuilder` lớp học.
+Chắc chắn rồi! Bạn có thể chèn hình ảnh, hình dạng và các thành phần khác vào các ô của bảng bằng cách sử dụng `DocumentBuilder` lớp học.
 
 ### Làm thế nào để thay đổi căn chỉnh văn bản trong các ô của bảng?
- Bạn có thể thay đổi căn chỉnh văn bản bằng cách thiết lập`ParagraphFormat.Alignment` tài sản của`DocumentBuilder` sự vật.
+Bạn có thể thay đổi căn chỉnh văn bản bằng cách thiết lập `ParagraphFormat.Alignment` tài sản của `DocumentBuilder` sự vật.
 
 ### Tôi có thể hợp nhất các ô trong bảng bằng Aspose.Words cho .NET không?
- Có, bạn có thể hợp nhất các ô bằng cách sử dụng`CellFormat.HorizontalMerge` Và`CellFormat.VerticalMerge` của cải.
+Có, bạn có thể hợp nhất các ô bằng cách sử dụng `CellFormat.HorizontalMerge` Và `CellFormat.VerticalMerge` của cải.
 
 ### Có cách nào để định dạng bảng theo các kiểu được xác định trước không?
- Có, Aspose.Words cho .NET cho phép bạn áp dụng các kiểu bảng được xác định trước bằng cách sử dụng`Table.Style` tài sản.
+Có, Aspose.Words cho .NET cho phép bạn áp dụng các kiểu bảng được xác định trước bằng cách sử dụng `Table.Style` tài sản.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

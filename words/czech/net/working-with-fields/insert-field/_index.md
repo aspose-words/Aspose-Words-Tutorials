@@ -1,116 +1,123 @@
 ---
-title: Vložit pole
-linktitle: Vložit pole
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se vkládat pole do dokumentů aplikace Word pomocí Aspose.Words for .NET pomocí našeho podrobného průvodce krok za krokem. Ideální pro automatizaci dokumentů.
-weight: 10
-url: /cs/net/working-with-fields/insert-field/
+"description": "Naučte se, jak vkládat pole do dokumentů Wordu pomocí Aspose.Words pro .NET s naším podrobným návodem krok za krokem. Ideální pro automatizaci dokumentů."
+"linktitle": "Vložit pole"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Vložit pole"
+"url": "/cs/net/working-with-fields/insert-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vložit pole
 
 ## Zavedení
 
-Stalo se vám někdy, že jste potřebovali automatizovat vytváření dokumentů a manipulaci s nimi? Tak to jste na správném místě. Dnes se ponoříme do Aspose.Words for .NET, výkonné knihovny, se kterou je práce s dokumenty Wordu hračkou. Ať už vkládáte pole, slučujete data nebo upravujete dokumenty, Aspose.Words vám pomůže. Vyhrňme si rukávy a prozkoumáme, jak vložit pole do dokumentu aplikace Word pomocí tohoto šikovného nástroje.
+Už jste někdy zjistili, že potřebujete automatizovat vytváření a manipulaci s dokumenty? Pak jste na správném místě. Dnes se ponoříme do Aspose.Words pro .NET, výkonné knihovny, která usnadňuje práci s dokumenty Wordu. Ať už vkládáte pole, slučujete data nebo upravujete dokumenty, Aspose.Words vám pomůže. Pojďme si vyhrnout rukávy a prozkoumat, jak vkládat pole do dokumentu Wordu pomocí tohoto šikovného nástroje.
 
 ## Předpoklady
 
-Než se ponoříme, ujistěte se, že máme vše, co potřebujeme:
+Než se do toho pustíme, ujistěme se, že máme vše potřebné:
 
-1.  Aspose.Words for .NET: Můžete si ji stáhnout[zde](https://releases.aspose.com/words/net/).
-2. .NET Framework: Ujistěte se, že máte na svém počítači nainstalované rozhraní .NET Framework.
-3. IDE: Integrované vývojové prostředí jako Visual Studio.
-4.  Dočasná licence: Můžete získat jednu[zde](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words pro .NET: Můžete si ho stáhnout [zde](https://releases.aspose.com/words/net/).
+2. .NET Framework: Ujistěte se, že máte na svém počítači nainstalovaný .NET Framework.
+3. IDE: Integrované vývojové prostředí, jako je Visual Studio.
+4. Dočasný řidičský průkaz: Můžete si ho pořídit [zde](https://purchase.aspose.com/temporary-license/).
 
-Ujistěte se, že jste nainstalovali Aspose.Words for .NET a nastavili své vývojové prostředí. Připraveni? Začněme!
+Ujistěte se, že máte nainstalovaný Aspose.Words pro .NET a nastavené vývojové prostředí. Jste připraveni? Pojďme začít!
 
 ## Importovat jmenné prostory
 
-Nejprve musíme importovat potřebné jmenné prostory pro přístup k funkcím Aspose.Words. Postup je následující:
+Nejdříve musíme importovat potřebné jmenné prostory pro přístup k funkcím Aspose.Words. Postupujte takto:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Fields;
 ```
 
-Tyto jmenné prostory nám poskytují všechny třídy a metody, které potřebujeme pro práci s dokumenty aplikace Word.
+Tyto jmenné prostory nám poskytují všechny třídy a metody, které potřebujeme pro práci s dokumenty Wordu.
 
-## Krok 1: Nastavte svůj projekt
+## Krok 1: Nastavení projektu
 
 ### Vytvořit nový projekt
 
-Spusťte Visual Studio a vytvořte nový projekt C#. Můžete to udělat tak, že přejdete na Soubor > Nový > Projekt a vyberete Console App (.NET Framework). Zadejte název projektu a klikněte na Vytvořit.
+Spusťte Visual Studio a vytvořte nový projekt v C#. To provedete tak, že přejdete do nabídky Soubor > Nový > Projekt a vyberete Konzolová aplikace (.NET Framework). Zadejte název projektu a klikněte na Vytvořit.
 
-### Přidejte odkaz Aspose.Words
+### Přidat odkaz na Aspose.Words
 
-Abychom mohli Aspose.Words používat, musíme je přidat do našeho projektu. Klikněte pravým tlačítkem na References v Průzkumníku řešení a vyberte Spravovat balíčky NuGet. Vyhledejte Aspose.Words a nainstalujte nejnovější verzi.
+Abychom mohli používat Aspose.Words, musíme jej přidat do našeho projektu. V Průzkumníku řešení klikněte pravým tlačítkem myši na Reference a vyberte Spravovat balíčky NuGet. Vyhledejte Aspose.Words a nainstalujte nejnovější verzi.
 
-### Inicializujte svůj adresář dokumentů
+### Inicializace adresáře dokumentů
 
- Potřebujeme adresář, kam bude náš dokument uložen. V tomto tutoriálu použijeme zástupný adresář. Nahradit`"YOUR DOCUMENTS DIRECTORY"` se skutečnou cestou, kam chcete dokument uložit.
+Potřebujeme adresář, kam bude náš dokument uložen. V tomto tutoriálu použijeme zástupný adresář. Nahraďme `"YOUR DOCUMENTS DIRECTORY"` se skutečnou cestou, kam chcete dokument uložit.
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
-## Krok 2: Vytvořte a nastavte dokument
+## Krok 2: Vytvoření a nastavení dokumentu
 
-### Vytvořte objekt dokumentu
+### Vytvoření objektu dokumentu
 
-Dále vytvoříme nový dokument a objekt DocumentBuilder. DocumentBuilder nám pomáhá vkládat obsah do dokumentu.
+Dále vytvoříme nový dokument a objekt DocumentBuilder. DocumentBuilder nám pomůže vkládat obsah do dokumentu.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-### Vložte pole
+### Vložit pole
 
-S připraveným DocumentBuilderem můžeme nyní vložit pole. Pole jsou dynamické prvky, které mohou zobrazovat data, provádět výpočty nebo dokonce zahrnovat další dokumenty.
+S připraveným nástrojem DocumentBuilder nyní můžeme vložit pole. Pole jsou dynamické prvky, které mohou zobrazovat data, provádět výpočty nebo dokonce obsahovat další dokumenty.
 
 ```csharp
 builder.InsertField(@"MERGEFIELD MyFieldName \* MERGEFORMAT");
 ```
 
-tomto příkladu vkládáme MERGEFIELD, který se obvykle používá pro operace hromadné korespondence.
+V tomto příkladu vkládáme pole MERGEFIELD, které se obvykle používá pro operace hromadné korespondence.
 
-### Uložte dokument
+### Uložit dokument
 
-Po vložení pole musíme náš dokument uložit. Zde je postup:
+Po vložení pole musíme dokument uložit. Postupujte takto:
 
 ```csharp
 doc.Save(dataDir + "InsertionField.docx");
 ```
 
-A je to! Úspěšně jste vložili pole do dokumentu aplikace Word.
+A to je vše! Úspěšně jste vložili pole do dokumentu Word.
 
 ## Závěr
 
-Gratuluji! Právě jste se naučili, jak vložit pole do dokumentu aplikace Word pomocí Aspose.Words for .NET. Tato výkonná knihovna nabízí nepřeberné množství funkcí, díky kterým je automatizace dokumentů procházkou růžovým sadem. Pokračujte v experimentování a zkoumání různých funkcí, které Aspose.Words nabízí. Šťastné kódování!
+Gratulujeme! Právě jste se naučili, jak vložit pole do dokumentu Wordu pomocí knihovny Aspose.Words pro .NET. Tato výkonná knihovna nabízí nepřeberné množství funkcí, díky nimž je automatizace dokumentů procházka růžovým sadem. Experimentujte a objevujte různé funkce, které Aspose.Words nabízí. Přejeme vám příjemné programování!
 
-## FAQ
+## Často kladené otázky
 
-### Mohu pomocí Aspose.Words pro .NET vložit různé typy polí?  
-Absolutně! Aspose.Words podporuje širokou škálu polí, včetně MERGEFIELD, IF, INCLUDETEXT a dalších.
+### Mohu vkládat různé typy polí pomocí Aspose.Words pro .NET?  
+Rozhodně! Aspose.Words podporuje širokou škálu polí, včetně MERGEFIELD, IF, INCLUDETEXT a dalších.
 
-### Jak mohu formátovat pole vložená do mého dokumentu?  
- K formátování polí můžete použít přepínače polí. Například,`\* MERGEFORMAT` zachová formátování použité na pole.
+### Jak mohu formátovat pole vložená do dokumentu?  
+K formátování polí můžete použít přepínače polí. Například `\* MERGEFORMAT` zachová formátování použité na pole.
 
-### Je Aspose.Words for .NET kompatibilní s .NET Core?  
-Ano, Aspose.Words for .NET je kompatibilní s .NET Framework i .NET Core.
+### Je Aspose.Words pro .NET kompatibilní s .NET Core?  
+Ano, Aspose.Words pro .NET je kompatibilní s .NET Framework i .NET Core.
 
 ### Mohu automatizovat proces hromadného vkládání polí?  
-Ano, hromadné vkládání polí můžete automatizovat procházením dat a programovým vkládáním polí pomocí DocumentBuilder.
+Ano, hromadné vkládání polí můžete automatizovat tak, že projdete data smyčkou a pomocí nástroje DocumentBuilder budete pole programově vkládat.
 
 ### Kde najdu podrobnější dokumentaci k Aspose.Words pro .NET?  
- Můžete najít komplexní dokumentaci[zde](https://reference.aspose.com/words/net/).
+Najdete zde komplexní dokumentaci [zde](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Akses dan Verifikasi Tanda Tangan di Dokumen Word
-linktitle: Akses dan Verifikasi Tanda Tangan di Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Akses dan verifikasi tanda tangan digital dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Pastikan keaslian dokumen dengan mudah.
-weight: 10
-url: /id/net/programming-with-digital-signatures/access-and-verify-signature/
+"description": "Akses dan verifikasi tanda tangan digital dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Pastikan keaslian dokumen dengan mudah."
+"linktitle": "Akses dan Verifikasi Tanda Tangan di Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Akses dan Verifikasi Tanda Tangan di Dokumen Word"
+"url": "/id/net/programming-with-digital-signatures/access-and-verify-signature/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Akses dan Verifikasi Tanda Tangan di Dokumen Word
@@ -22,7 +24,7 @@ Hai, para penggemar teknologi! Pernahkah Anda berada dalam situasi di mana Anda 
 Sebelum kita menyelami detailnya, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Di sinilah Anda akan menulis dan menjalankan kode.
-2.  Aspose.Words untuk .NET: Anda harus menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/) Jangan lupa dapatkan uji coba gratis Anda[Di Sini](https://releases.aspose.com/) jika Anda belum melakukannya!
+2. Aspose.Words untuk .NET: Anda harus menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/)Jangan lupa dapatkan uji coba gratis Anda [Di Sini](https://releases.aspose.com/) jika Anda belum melakukannya!
 3. Dokumen Word yang Ditandatangani Secara Digital: Miliki dokumen Word yang sudah ditandatangani secara digital. Ini adalah berkas yang akan Anda gunakan untuk memverifikasi tanda tangan.
 
 ## Mengimpor Ruang Nama
@@ -64,7 +66,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Digitally signed.docx");
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda. Potongan kode ini menginisialisasi yang baru`Document` objek dan memuat dokumen Word yang telah Anda tandatangani.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda. Potongan kode ini menginisialisasi yang baru `Document` objek dan memuat dokumen Word yang telah Anda tandatangani.
 
 ## Langkah 3: Akses Tanda Tangan Digital
 
@@ -150,14 +152,19 @@ Aspose.Words untuk .NET mendukung semua versi dokumen Microsoft Word, termasuk D
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Words untuk .NET?
 
- Anda bisa mendapatkan lisensi sementara untuk Aspose.Words untuk .NET dari[Di Sini](https://purchase.aspose.com/temporary-license/)Ini memungkinkan Anda mencoba fitur-fitur pustaka secara lengkap tanpa batasan apa pun.
+Anda bisa mendapatkan lisensi sementara untuk Aspose.Words untuk .NET dari [Di Sini](https://purchase.aspose.com/temporary-license/)Ini memungkinkan Anda mencoba fitur-fitur pustaka secara lengkap tanpa batasan apa pun.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
 
- Anda dapat menemukan dokumentasi terperinci untuk Aspose.Words untuk .NET[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi terperinci untuk Aspose.Words untuk .NET [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

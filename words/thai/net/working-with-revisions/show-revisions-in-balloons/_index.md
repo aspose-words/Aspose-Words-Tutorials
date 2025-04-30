@@ -1,14 +1,16 @@
 ---
-title: แสดงการแก้ไขในลูกโป่ง
-linktitle: แสดงการแก้ไขในลูกโป่ง
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแสดงการแก้ไขในบอลลูนโดยใช้ Aspose.Words สำหรับ .NET คำแนะนำโดยละเอียดนี้จะแนะนำคุณในแต่ละขั้นตอนเพื่อให้แน่ใจว่าการเปลี่ยนแปลงเอกสารของคุณชัดเจนและเป็นระเบียบ
-weight: 10
-url: /th/net/working-with-revisions/show-revisions-in-balloons/
+"description": "เรียนรู้วิธีแสดงการแก้ไขในบอลลูนโดยใช้ Aspose.Words สำหรับ .NET คำแนะนำโดยละเอียดนี้จะแนะนำคุณในแต่ละขั้นตอนเพื่อให้แน่ใจว่าการเปลี่ยนแปลงเอกสารของคุณชัดเจนและเป็นระเบียบ"
+"linktitle": "แสดงการแก้ไขในลูกโป่ง"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แสดงการแก้ไขในลูกโป่ง"
+"url": "/th/net/working-with-revisions/show-revisions-in-balloons/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แสดงการแก้ไขในลูกโป่ง
@@ -21,8 +23,8 @@ url: /th/net/working-with-revisions/show-revisions-in-balloons/
 
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
--  Aspose.Words สำหรับไลบรารี .NET คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
--  ใบอนุญาต Aspose ที่ถูกต้อง หากคุณไม่มี คุณสามารถขอรับได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words สำหรับไลบรารี .NET คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
+- ใบอนุญาต Aspose ที่ถูกต้อง หากคุณไม่มี คุณสามารถขอรับได้ [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
 - Visual Studio หรือ IDE อื่นๆ ที่รองรับการพัฒนา .NET
 - ความเข้าใจพื้นฐานเกี่ยวกับ C# และ .NET framework
 
@@ -50,7 +52,7 @@ Document doc = new Document(dataDir + "Revisions.docx");
 
 ## ขั้นตอนที่ 2: กำหนดค่าตัวเลือกการแก้ไข
 
-ต่อไปเราจะกำหนดค่าตัวเลือกการแก้ไขเพื่อแสดงการแทรกการแก้ไขแบบอินไลน์ และการลบและจัดรูปแบบการแก้ไขในบอลลูน วิธีนี้จะช่วยให้แยกความแตกต่างระหว่างการแก้ไขประเภทต่างๆ ได้ง่ายขึ้น
+ต่อไปเราจะกำหนดค่าตัวเลือกการแก้ไขเพื่อแสดงการแทรกการแก้ไขแบบอินไลน์และการลบและการจัดรูปแบบการแก้ไขในบอลลูน วิธีนี้จะช่วยให้แยกความแตกต่างระหว่างการแก้ไขประเภทต่างๆ ได้ง่ายขึ้น
 
 ```csharp
 // เรนเดอร์การแทรกการแก้ไขแบบอินไลน์ การลบ และการจัดรูปแบบการแก้ไขในบอลลูน
@@ -60,7 +62,7 @@ doc.LayoutOptions.RevisionOptions.MeasurementUnit = MeasurementUnits.Inches;
 
 ## ขั้นตอนที่ 3: กำหนดตำแหน่งแถบแก้ไข
 
-เพื่อให้เอกสารอ่านง่ายขึ้น เราสามารถกำหนดตำแหน่งของแถบแก้ไขได้ ในตัวอย่างนี้ เราจะวางไว้ทางด้านขวาของหน้า
+เพื่อให้เอกสารอ่านง่ายขึ้น เราสามารถกำหนดตำแหน่งของแถบแก้ไขได้ ในตัวอย่างนี้ เราจะวางไว้ที่ด้านขวาของหน้า
 
 ```csharp
 // แสดงแถบแก้ไขที่ด้านขวาของหน้า
@@ -88,16 +90,21 @@ doc.Save(dataDir + "WorkingWithRevisions.ShowRevisionsInBalloons.pdf");
 แน่นอน คุณสามารถกำหนดค่า Aspose.Words ให้แสดงเฉพาะการแก้ไขบางประเภท เช่น การลบหรือการเปลี่ยนแปลงการจัดรูปแบบในบอลลูนได้
 
 ### ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.Words ได้อย่างไร
-คุณสามารถขอใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+คุณสามารถขอใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ .NET ร่วมกับภาษาการเขียนโปรแกรมอื่น ๆ ได้หรือไม่
-Aspose.Words ได้รับการออกแบบมาโดยเฉพาะสำหรับ .NET แต่คุณสามารถใช้กับภาษาที่รองรับ .NET ใดๆ ก็ได้ รวมถึง VB.NET และ C-/CLI.
+Aspose.Words ได้รับการออกแบบมาโดยเฉพาะสำหรับ .NET แต่คุณสามารถใช้กับภาษาใดๆ ที่รองรับ .NET ได้ รวมถึง VB.NET และ C++/CLI
 
 ### Aspose.Words รองรับรูปแบบเอกสารอื่นนอกเหนือจาก Word หรือไม่
 ใช่ Aspose.Words รองรับรูปแบบเอกสารต่างๆ รวมถึง PDF, HTML, EPUB และอื่นๆ อีกมากมาย
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

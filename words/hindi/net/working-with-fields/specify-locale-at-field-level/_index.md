@@ -1,14 +1,16 @@
 ---
-title: फ़ील्ड स्तर पर लोकेल निर्दिष्ट करें
-linktitle: फ़ील्ड स्तर पर लोकेल निर्दिष्ट करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ील्ड के लिए लोकेल निर्दिष्ट करना सीखें। अपने दस्तावेज़ स्वरूपण को आसानी से अनुकूलित करने के लिए हमारी मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/working-with-fields/specify-locale-at-field-level/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ील्ड के लिए लोकेल निर्दिष्ट करना सीखें। अपने दस्तावेज़ स्वरूपण को आसानी से अनुकूलित करने के लिए हमारी मार्गदर्शिका का पालन करें।"
+"linktitle": "फ़ील्ड स्तर पर लोकेल निर्दिष्ट करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "फ़ील्ड स्तर पर लोकेल निर्दिष्ट करें"
+"url": "/hi/net/working-with-fields/specify-locale-at-field-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # फ़ील्ड स्तर पर लोकेल निर्दिष्ट करें
@@ -21,10 +23,10 @@ url: /hi/net/working-with-fields/specify-locale-at-field-level/
 
 इससे पहले कि हम कोड में आगे बढ़ें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास नवीनतम संस्करण स्थापित है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास नवीनतम संस्करण स्थापित है। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो या कोई अन्य .NET विकास वातावरण।
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको उदाहरणों को समझने में मदद मिलेगी।
-4. एस्पोज लाइसेंस: यदि आपके पास लाइसेंस नहीं है, तो आप प्राप्त कर सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) सभी सुविधाओं को आज़माने के लिए.
+4. एस्पोज लाइसेंस: यदि आपके पास लाइसेंस नहीं है, तो आप प्राप्त कर सकते हैं [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) सभी सुविधाओं को आज़माने के लिए.
 
 ## नामस्थान आयात करें
 
@@ -47,11 +49,11 @@ using Aspose.Words.Fields;
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR_DOCUMENT_DIRECTORY"` आपकी निर्देशिका के वास्तविक पथ के साथ.
+प्रतिस्थापित करें `"YOUR_DOCUMENT_DIRECTORY"` आपकी निर्देशिका के वास्तविक पथ के साथ.
 
 ## चरण 2: डॉक्यूमेंटबिल्डर को आरंभ करें
 
- इसके बाद, हम इसका एक नया उदाहरण बनाएंगे`DocumentBuilder`यह वर्ड डॉक्यूमेंट बनाने और संपादित करने के लिए हमारे पेन और पेपर की तरह है।
+इसके बाद, हम इसका एक नया उदाहरण बनाएंगे `DocumentBuilder`यह वर्ड डॉक्यूमेंट बनाने और संपादित करने के लिए हमारे पेन और पेपर की तरह है।
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
@@ -67,7 +69,7 @@ Field field = builder.InsertField(FieldType.FieldDate, true);
 
 ## चरण 4: लोकेल निर्दिष्ट करें
 
- अब जादू शुरू हो गया! हम फ़ील्ड के लिए लोकेल सेट करेंगे। लोकेल आईडी`1049`रूसी भाषा से मेल खाता है। इसका मतलब है कि हमारा दिनांक फ़ील्ड रूसी फ़ॉर्मेटिंग नियमों का पालन करेगा।
+अब जादू शुरू हो गया! हम फ़ील्ड के लिए लोकेल सेट करेंगे। लोकेल आईडी `1049` रूसी भाषा से मेल खाता है। इसका मतलब है कि हमारा दिनांक फ़ील्ड रूसी फ़ॉर्मेटिंग नियमों का पालन करेगा।
 
 ```csharp
 field.LocaleId = 1049;
@@ -101,14 +103,19 @@ Aspose.Words में लोकेल आईडी एक संख्यात
 
 ### क्या मुझे .NET के लिए Aspose.Words का उपयोग करने के लिए लाइसेंस की आवश्यकता है?
 
- जब आप मूल्यांकन मोड में लाइसेंस के बिना .NET के लिए Aspose.Words का उपयोग कर सकते हैं, तो यह अनुशंसा की जाती है कि आप एक लाइसेंस प्राप्त करें।[लाइसेंस](https://purchase.aspose.com/buy) पूर्ण कार्यक्षमता को अनलॉक करने के लिए.
+जब आप मूल्यांकन मोड में लाइसेंस के बिना .NET के लिए Aspose.Words का उपयोग कर सकते हैं, तो यह अनुशंसा की जाती है कि आप एक लाइसेंस प्राप्त करें। [लाइसेंस](https://purchase.aspose.com/buy) पूर्ण कार्यक्षमता को अनलॉक करने के लिए.
 
 ### मैं Aspose.Words लाइब्रेरी को नवीनतम संस्करण में कैसे अपडेट करूं?
 
- आप .NET के लिए Aspose.Words का नवीनतम संस्करण यहाँ से डाउनलोड कर सकते हैं।[डाउनलोड पृष्ठ](https://releases.aspose.com/words/net/).
+आप .NET के लिए Aspose.Words का नवीनतम संस्करण यहाँ से डाउनलोड कर सकते हैं। [डाउनलोड पृष्ठ](https://releases.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

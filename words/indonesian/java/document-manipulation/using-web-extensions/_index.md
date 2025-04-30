@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Ekstensi Web di Aspose.Words untuk Java
-linktitle: Menggunakan Ekstensi Web
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Sempurnakan Dokumen dengan Ekstensi Web di Aspose.Words untuk Java. Pelajari cara mengintegrasikan konten berbasis web dengan lancar.
-weight: 33
-url: /id/java/document-manipulation/using-web-extensions/
+"description": "Sempurnakan Dokumen dengan Ekstensi Web di Aspose.Words untuk Java. Pelajari cara mengintegrasikan konten berbasis web dengan lancar."
+"linktitle": "Menggunakan Ekstensi Web"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Ekstensi Web di Aspose.Words untuk Java"
+"url": "/id/java/document-manipulation/using-web-extensions/"
+"weight": 33
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Ekstensi Web di Aspose.Words untuk Java
@@ -20,7 +22,7 @@ Dalam tutorial ini, kita akan menjelajahi cara menggunakan ekstensi web di Aspos
 
 ## Prasyarat
 
- Sebelum memulai, pastikan Anda telah menyiapkan Aspose.Words untuk Java di proyek Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/java/).
+Sebelum memulai, pastikan Anda telah menyiapkan Aspose.Words untuk Java di proyek Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/java/).
 
 ## Menambahkan Panel Tugas Ekstensi Web
 
@@ -32,7 +34,7 @@ Untuk menambahkan panel tugas ekstensi web ke dokumen, ikuti langkah-langkah ber
 Document doc = new Document();
 ```
 
-##  Membuat sebuah`TaskPane` instance and add it to the document's web extension task panes:
+## Membuat sebuah `TaskPane` contoh dan menambahkannya ke panel tugas ekstensi web dokumen:
 
 ```java
 TaskPane taskPane = new TaskPane();
@@ -109,10 +111,15 @@ Meskipun Aspose.Words untuk Java menyediakan dukungan yang kuat untuk ekstensi w
 
 ### Bagaimana saya dapat menemukan informasi dan sumber daya lebih lanjut tentang penggunaan ekstensi web di Aspose.Words untuk Java?
 
- Untuk dokumentasi dan sumber daya terperinci tentang penggunaan ekstensi web di Aspose.Words untuk Java, Anda dapat merujuk ke dokumentasi Aspose di[Di Sini](https://reference.aspose.com/words/java/)Buku ini menyediakan informasi mendalam, contoh, dan panduan untuk bekerja dengan ekstensi web guna meningkatkan fungsionalitas dokumen Anda.
+Untuk dokumentasi dan sumber daya terperinci tentang penggunaan ekstensi web di Aspose.Words untuk Java, Anda dapat merujuk ke dokumentasi Aspose di [Di Sini](https://reference.aspose.com/words/java/)Buku ini menyediakan informasi mendalam, contoh, dan panduan untuk bekerja dengan ekstensi web guna meningkatkan fungsionalitas dokumen Anda.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

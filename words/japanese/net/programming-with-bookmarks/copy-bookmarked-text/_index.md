@@ -1,27 +1,29 @@
 ---
-title: Word文書内のブックマークされたテキストをコピーする
-linktitle: Word文書内のブックマークされたテキストをコピーする
-second_title: Aspose.Words ドキュメント処理 API
-description: Aspose.Words for .NET を使用すると、ブックマークされたテキストを Word 文書間で簡単にコピーできます。このステップ バイ ステップ ガイドでその方法を学習します。
-weight: 10
-url: /ja/net/programming-with-bookmarks/copy-bookmarked-text/
+"description": "Aspose.Words for .NET を使えば、ブックマークされたテキストを Word 文書間で簡単にコピーできます。このステップバイステップガイドでその方法を学びましょう。"
+"linktitle": "Word文書内のブックマークされたテキストをコピーする"
+"second_title": "Aspose.Words ドキュメント処理 API"
+"title": "Word文書内のブックマークされたテキストをコピーする"
+"url": "/ja/net/programming-with-bookmarks/copy-bookmarked-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word文書内のブックマークされたテキストをコピーする
 
 ## 導入
 
-ある Word 文書から別の Word 文書に特定のセクションをコピーする必要に迫られたことはありませんか? 幸運です! このチュートリアルでは、Aspose.Words for .NET を使用して、ブックマークされたテキストをある Word 文書から別の Word 文書にコピーする方法を説明します。動的なレポートを作成する場合でも、ドキュメント生成を自動化する場合でも、このガイドはプロセスを簡素化します。
+あるWord文書から別のWord文書に特定のセクションをコピーしたいと思ったことはありませんか？そんな時、ぜひご活用ください！このチュートリアルでは、Aspose.Words for .NETを使って、ブックマークされたテキストをあるWord文書から別のWord文書にコピーする方法を詳しく説明します。動的なレポートを作成する場合でも、ドキュメント生成を自動化する場合でも、このガイドがプロセスを簡素化します。
 
 ## 前提条件
 
-始める前に、以下のものを用意しておいてください。
+始める前に、次のものを用意しておいてください。
 
--  Aspose.Words for .NETライブラリ:以下からダウンロードできます。[ここ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET ライブラリ: ダウンロードはこちらから [ここ](https://releases。aspose.com/words/net/).
 - 開発環境: Visual Studio またはその他の .NET 開発環境。
 - C# の基礎知識: C# プログラミングと .NET フレームワークに精通していること。
 
@@ -44,7 +46,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document srcDoc = new Document(dataDir + "Bookmarks.docx");
 ```
 
-ここ、`dataDir`ドキュメントディレクトリへのパスであり、`Bookmarks.docx`ソースドキュメントです。
+ここ、 `dataDir` ドキュメントディレクトリへのパスであり、 `Bookmarks.docx` ソースドキュメントです。
 
 ## ステップ2: ブックマークを特定する
 
@@ -54,7 +56,7 @@ Document srcDoc = new Document(dataDir + "Bookmarks.docx");
 Bookmark srcBookmark = srcDoc.Range.Bookmarks["MyBookmark1"];
 ```
 
-交換する`"MyBookmark1"`ブックマークの実際の名前を入力します。
+交換する `"MyBookmark1"` ブックマークの実際の名前を入力します。
 
 ## ステップ3: 宛先ドキュメントを作成する
 
@@ -67,7 +69,7 @@ CompositeNode dstNode = dstDoc.LastSection.Body;
 
 ## ステップ4: ブックマークしたコンテンツをインポートする
 
-スタイルと書式設定が保持されるようにするには、`NodeImporter`ブックマークされたコンテンツをソース ドキュメントから宛先ドキュメントにインポートします。
+スタイルと書式設定が保持されるようにするには、 `NodeImporter` ブックマークされたコンテンツをソース ドキュメントから宛先ドキュメントにインポートします。
 
 ```csharp
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting);
@@ -102,7 +104,7 @@ private void AppendBookmarkedText(NodeImporter importer, Bookmark srcBookmark, C
 
 ## ステップ6: 宛先ドキュメントを保存する
 
-最後に、コピー先のドキュメントを保存して、コピーしたコンテンツを確認します。
+最後に、コピー先のドキュメントを保存して、コピーした内容を確認します。
 
 ```csharp
 dstDoc.Save(dataDir + "WorkingWithBookmarks.CopyBookmarkedText.docx");
@@ -110,7 +112,7 @@ dstDoc.Save(dataDir + "WorkingWithBookmarks.CopyBookmarkedText.docx");
 
 ## 結論
 
-これで完了です。Aspose.Words for .NET を使用して、ブックマークされたテキストを 1 つの Word 文書から別の Word 文書にコピーできました。この方法は、文書操作タスクを自動化するのに強力で、ワークフローをより効率的かつ合理化します。
+これで完了です！Aspose.Words for .NET を使って、ブックマークされたテキストをある Word 文書から別の Word 文書にコピーできました。この方法は、文書操作タスクを自動化するのに非常に効果的で、ワークフローをより効率的かつ合理化します。
 
 ## よくある質問
 
@@ -118,19 +120,24 @@ dstDoc.Save(dataDir + "WorkingWithBookmarks.CopyBookmarkedText.docx");
 はい、複数のブックマークを反復処理し、同じ方法を使用してそれぞれをコピーできます。
 
 ### ブックマークが見つからない場合はどうなりますか?
-の`Range.Bookmarks`財産は返還される`null`したがって、例外を回避するためにこのケースを処理するようにしてください。
+その `Range.Bookmarks` 財産は返還される `null`したがって、例外を回避するためにこのケースを処理するようにしてください。
 
-### 元のブックマークの書式設定を保持できますか?
-絶対に！使用`ImportFormatMode.KeepSourceFormatting`元の書式が保持されます。
+### 元のブックマークの書式を保持できますか?
+絶対に！ `ImportFormatMode.KeepSourceFormatting` 元の書式が保持されます。
 
 ### ブックマークしたテキストのサイズに制限はありますか?
-具体的な制限はありませんが、非常に大きなドキュメントの場合はパフォーマンスが異なる場合があります。
+特定の制限はありませんが、ドキュメントが非常に大きい場合はパフォーマンスが異なる場合があります。
 
 ### 異なる Word 文書形式間でテキストをコピーできますか?
 はい、Aspose.Words はさまざまな Word 形式をサポートしており、このメソッドはこれらの形式で機能します。
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,17 +1,19 @@
 ---
-title: Teknik Pencarian dan Penggantian Tingkat Lanjut dalam Dokumen Word
-linktitle: Teknik Pencarian dan Penggantian Tingkat Lanjut dalam Dokumen Word
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari teknik pencarian dan penggantian tingkat lanjut dalam dokumen Word menggunakan Aspose.Words untuk Python. Ganti teks, gunakan regex, format, dan banyak lagi.
-weight: 12
-url: /id/python-net/content-extraction-and-manipulation/find-replace-documents/
+"description": "Pelajari teknik pencarian dan penggantian tingkat lanjut dalam dokumen Word menggunakan Aspose.Words untuk Python. Ganti teks, gunakan regex, format, dan banyak lagi."
+"linktitle": "Teknik Pencarian dan Penggantian Lanjutan dalam Dokumen Word"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Teknik Pencarian dan Penggantian Lanjutan dalam Dokumen Word"
+"url": "/id/python-net/content-extraction-and-manipulation/find-replace-documents/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Teknik Pencarian dan Penggantian Tingkat Lanjut dalam Dokumen Word
+# Teknik Pencarian dan Penggantian Lanjutan dalam Dokumen Word
 
 
 ## Pengenalan Teknik Temukan dan Ganti Tingkat Lanjut dalam Dokumen Word
@@ -22,9 +24,9 @@ Di dunia digital saat ini, bekerja dengan dokumen merupakan tugas mendasar. Doku
 
 Sebelum kita menyelami teknik lanjutan, pastikan Anda memiliki prasyarat berikut:
 
-1.  Instalasi Python: Pastikan Python telah terinstal di sistem Anda. Anda dapat mengunduhnya dari[Di Sini](https://www.python.org/downloads/).
+1. Instalasi Python: Pastikan Python telah terinstal di sistem Anda. Anda dapat mengunduhnya dari [Di Sini](https://www.python.org/downloads/).
 
-2.  Aspose.Words untuk Python: Anda perlu menginstal Aspose.Words untuk Python. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/python/).
+2. Aspose.Words untuk Python: Anda perlu menginstal Aspose.Words untuk Python. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/python/).
 
 3. Persiapan Dokumen: Siapkan dokumen Word yang ingin Anda lakukan operasi temukan dan ganti.
 
@@ -108,11 +110,11 @@ Mengelola dan memanipulasi dokumen Word secara efisien sering kali melibatkan op
 
 ### Bagaimana cara melakukan pencarian dan penggantian tanpa memperhatikan huruf besar/kecil?
 
- Untuk melakukan pencarian dan penggantian tanpa memperhatikan huruf besar/kecil, tetapkan parameter ketiga`replace` metode untuk`True`.
+Untuk melakukan pencarian dan penggantian tanpa memperhatikan huruf besar/kecil, tetapkan parameter ketiga `replace` metode untuk `True`.
 
 ### Bisakah saya mengganti teks hanya dalam rentang halaman tertentu?
 
- Ya, Anda bisa. Sebelum melakukan penggantian, tentukan rentang halaman menggunakan`doc.get_child_nodes()` metode untuk mendapatkan konten halaman tertentu.
+Ya, Anda bisa. Sebelum melakukan penggantian, tentukan rentang halaman menggunakan `doc.get_child_nodes()` metode untuk mendapatkan konten halaman tertentu.
 
 ### Apakah mungkin untuk membatalkan operasi temukan dan ganti?
 
@@ -124,10 +126,15 @@ Ya, Anda dapat menggunakan karakter pengganti dan ekspresi reguler untuk melakuk
 
 ### Bisakah saya mengganti teks sambil melacak perubahan yang dibuat?
 
- Ya, Anda dapat melacak perubahan dengan menggunakan`revision`Fitur Aspose.Words. Fitur ini memungkinkan Anda untuk melacak semua modifikasi yang dilakukan pada dokumen.
+Ya, Anda dapat melacak perubahan dengan menggunakan `revision` Fitur Aspose.Words. Fitur ini memungkinkan Anda untuk melacak semua modifikasi yang dilakukan pada dokumen.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

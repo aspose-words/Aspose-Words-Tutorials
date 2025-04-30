@@ -1,14 +1,16 @@
 ---
-title: Muat Dengan Pengodean Dalam Dokumen Word
-linktitle: Muat Dengan Pengodean Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memuat dokumen Word dengan pengodean tertentu menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah dengan penjelasan terperinci.
-weight: 10
-url: /id/net/programming-with-loadoptions/load-with-encoding/
+"description": "Pelajari cara memuat dokumen Word dengan pengodean tertentu menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah dengan penjelasan terperinci."
+"linktitle": "Muat Dengan Pengodean Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Muat Dengan Pengodean Dalam Dokumen Word"
+"url": "/id/net/programming-with-loadoptions/load-with-encoding/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Muat Dengan Pengodean Dalam Dokumen Word
@@ -21,7 +23,7 @@ Hai! Jadi, Anda bekerja dengan dokumen Word dan perlu memuat dokumen dengan peny
 
 Sebelum kita masuk ke inti permasalahan, mari pastikan Anda memiliki semua yang dibutuhkan:
 
-1.  Aspose.Words untuk .NET: Anda dapat[Unduh](https://releases.aspose.com/words/net/) versi terbaru.
+1. Aspose.Words untuk .NET: Anda dapat [Unduh](https://releases.aspose.com/words/net/) versi terbaru.
 2. Lingkungan Pengembangan .NET: Visual Studio bekerja dengan sempurna.
 3. Dokumen Word: Pastikan dokumen dikodekan dalam format yang Anda gunakan, seperti UTF-7.
 
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 LoadOptions loadOptions = new LoadOptions { Encoding = Encoding.UTF7 };
 ```
 
- Di sini, kita sedang membuat`LoadOptions` objek dan pengaturannya`Encoding`properti untuk`Encoding.UTF7`Ini memberi tahu Aspose.Words untuk menggunakan penyandian UTF-7 saat memuat dokumen.
+Di sini, kita sedang membuat `LoadOptions` objek dan pengaturannya `Encoding` properti untuk `Encoding.UTF7`Ini memberi tahu Aspose.Words untuk menggunakan penyandian UTF-7 saat memuat dokumen.
 
 ## Langkah 4: Muat Dokumen
 
@@ -84,20 +86,25 @@ Nah, itu dia! Anda telah berhasil memuat dokumen Word dengan penyandian tertentu
 UTF-7 (7-bit Unicode Transformation Format) adalah pengkodean yang dirancang untuk merepresentasikan teks Unicode menggunakan urutan karakter ASCII.
 
 ### Bisakah saya menggunakan penyandian lain dengan Aspose.Words?
- Ya, Aspose.Words mendukung berbagai penyandian seperti UTF-8, UTF-16, dan lainnya. Cukup atur`Encoding` properti di`LoadOptions` demikian.
+Ya, Aspose.Words mendukung berbagai penyandian seperti UTF-8, UTF-16, dan lainnya. Cukup atur `Encoding` properti di `LoadOptions` demikian.
 
 ### Apakah Aspose.Words gratis untuk digunakan?
- Asumsikan.Words menawarkan uji coba gratis yang dapat Anda unduh[Di Sini](https://releases.aspose.com/)Untuk fitur lengkap, Anda perlu membeli lisensi dari[Aspose](https://purchase.aspose.com/buy).
+Aspose.Words menawarkan uji coba gratis yang dapat Anda unduh [Di Sini](https://releases.aspose.com/)Untuk fitur lengkap, Anda perlu membeli lisensi dari [Asumsikan](https://purchase.aspose.com/buy).
 
 ### Bisakah saya memuat dokumen dari aliran dan bukan dari jalur berkas?
- Tentu saja! Aspose.Words mendukung pemuatan dokumen dari aliran. Anda hanya perlu meneruskan aliran dan opsi pemuatan ke`Document` konstruktor.
+Tentu saja! Aspose.Words mendukung pemuatan dokumen dari aliran. Anda hanya perlu meneruskan aliran dan opsi pemuatan ke `Document` konstruktor.
 
 ### Di mana saya bisa mendapatkan dukungan jika saya mengalami masalah?
- Anda dapat mengunjungi[Forum Dukungan Aspose.Words](https://forum.aspose.com/c/words/8) untuk bantuan dari komunitas dan tim dukungan Aspose.
+Anda dapat mengunjungi [Forum Dukungan Aspose.Words](https://forum.aspose.com/c/words/8) untuk bantuan dari komunitas dan tim dukungan Aspose.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

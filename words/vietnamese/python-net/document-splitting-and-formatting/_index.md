@@ -1,14 +1,16 @@
 ---
-title: Phân chia và định dạng tài liệu
-linktitle: Phân chia và định dạng tài liệu
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Khám phá hướng dẫn Aspose.Words về việc chia tách và định dạng tài liệu trong Python và .NET. Học cách chia tách và định dạng tài liệu hiệu quả, nâng cao các tác vụ xử lý tài liệu của bạn.
-weight: 13
-url: /vi/python-net/document-splitting-and-formatting/
+"description": "Khám phá hướng dẫn Aspose.Words về việc chia tách và định dạng tài liệu trong Python và .NET. Học cách chia tách và định dạng tài liệu hiệu quả, nâng cao các tác vụ xử lý tài liệu của bạn."
+"linktitle": "Phân chia và định dạng tài liệu"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Phân chia và định dạng tài liệu"
+"url": "/vi/python-net/document-splitting-and-formatting/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Phân chia và định dạng tài liệu
@@ -46,11 +48,15 @@ Phân chia và xử lý tài liệu của bạn một cách chính xác bằng A
 Tìm hiểu cách kết hợp và sao chép tài liệu hiệu quả bằng Aspose.Words cho Python. Hướng dẫn từng bước với mã nguồn để thao tác tài liệu. Nâng cao quy trình làm việc tài liệu của bạn ngay hôm nay!
 ### [So sánh các phiên bản tài liệu để kiểm soát hiệu quả việc sửa đổi](./compare-document-versions/)
 Tìm hiểu cách so sánh hiệu quả các phiên bản tài liệu bằng Aspose.Words cho Python. Hướng dẫn từng bước với mã nguồn để kiểm soát bản sửa đổi. Tăng cường cộng tác và ngăn ngừa lỗi.
-### [Làm chủ các kỹ thuật định dạng tài liệu để có tác động trực quan](./document-formatting-techniques/)
+### [Làm chủ các kỹ thuật định dạng tài liệu để tạo ra tác động trực quan](./document-formatting-techniques/)
 Tìm hiểu cách làm chủ định dạng tài liệu bằng Aspose.Words for Python. Tạo tài liệu hấp dẫn về mặt hình ảnh với kiểu phông chữ, bảng, hình ảnh, v.v. Hướng dẫn từng bước với các ví dụ về mã.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

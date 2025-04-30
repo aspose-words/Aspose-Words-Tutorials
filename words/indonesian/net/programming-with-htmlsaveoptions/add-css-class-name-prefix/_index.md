@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Awalan Nama Kelas CSS
-linktitle: Tambahkan Awalan Nama Kelas CSS
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menambahkan awalan nama kelas CSS saat menyimpan dokumen Word sebagai HTML menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah, cuplikan kode, dan Tanya Jawab Umum disertakan.
-weight: 10
-url: /id/net/programming-with-htmlsaveoptions/add-css-class-name-prefix/
+"description": "Pelajari cara menambahkan awalan nama kelas CSS saat menyimpan dokumen Word sebagai HTML menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah, cuplikan kode, dan Tanya Jawab Umum disertakan."
+"linktitle": "Tambahkan Awalan Nama Kelas CSS"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tambahkan Awalan Nama Kelas CSS"
+"url": "/id/net/programming-with-htmlsaveoptions/add-css-class-name-prefix/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Awalan Nama Kelas CSS
@@ -21,9 +23,9 @@ Selamat datang! Jika Anda ingin mendalami dunia Aspose.Words untuk .NET, Anda ak
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
--  Aspose.Words untuk .NET: Jika Anda belum menginstalnya,[unduh disini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Jika Anda belum menginstalnya, [unduh disini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Visual Studio atau IDE C# lainnya.
--  Dokumen Word: Kami akan menggunakan dokumen bernama`Rendering.docx`Letakkan di direktori proyek Anda.
+- Dokumen Word: Kami akan menggunakan dokumen bernama `Rendering.docx`Letakkan di direktori proyek Anda.
 
 ## Mengimpor Ruang Nama
 
@@ -43,7 +45,7 @@ Sebelum kita dapat mulai menambahkan awalan nama kelas CSS, mari kita siapkan pr
 
 ### Langkah 1.1: Buat Proyek Baru
 
- Jalankan Visual Studio Anda dan buat proyek Aplikasi Konsol baru. Beri nama yang menarik seperti`AsposeCssPrefixExample`.
+Jalankan Visual Studio Anda dan buat proyek Aplikasi Konsol baru. Beri nama yang menarik seperti `AsposeCssPrefixExample`.
 
 ### Langkah 1.2: Tambahkan Aspose.Words untuk .NET
 
@@ -61,7 +63,7 @@ Hal pertama yang perlu kita lakukan adalah memuat dokumen Word yang ingin kita u
 
 ### Langkah 2.1: Tentukan Jalur Dokumen
 
- Atur jalur ke direktori dokumen Anda. Untuk tutorial ini, mari kita asumsikan dokumen Anda ada di folder bernama`Documents` dalam direktori proyek Anda.
+Atur jalur ke direktori dokumen Anda. Untuk tutorial ini, mari kita asumsikan dokumen Anda ada di folder bernama `Documents` dalam direktori proyek Anda.
 
 ```csharp
 string dataDir = @"C:\YourProject\Documents\";
@@ -81,7 +83,7 @@ Berikutnya, kita perlu mengonfigurasi opsi penyimpanan HTML untuk menyertakan aw
 
 ### Langkah 3.1: Buat Opsi Penyimpanan HTML
 
- Membuat contoh`HtmlSaveOptions` objek dan atur jenis lembar gaya CSS ke`External`.
+Membuat contoh `HtmlSaveOptions` objek dan atur jenis lembar gaya CSS ke `External`.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions
@@ -92,7 +94,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions
 
 ### Langkah 3.2: Mengatur Awalan Nama Kelas CSS
 
- Sekarang, mari kita atur`CssClassNamePrefix` properti ke awalan yang Anda inginkan. Untuk contoh ini, kami akan menggunakan`"pfx_"`.
+Sekarang, mari kita atur `CssClassNamePrefix` properti ke awalan yang Anda inginkan. Untuk contoh ini, kami akan menggunakan `"pfx_"`.
 
 ```csharp
 saveOptions.CssClassNamePrefix = "pfx_";
@@ -103,7 +105,7 @@ saveOptions.CssClassNamePrefix = "pfx_";
 Terakhir, mari simpan dokumen sebagai berkas HTML dengan opsi yang telah kita konfigurasikan.
 
 
-Tentukan jalur file HTML keluaran dan simpan dokumen.
+Tentukan jalur berkas HTML keluaran dan simpan dokumen.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithHtmlSaveOptions.AddCssClassNamePrefix.html", saveOptions);
@@ -111,7 +113,7 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.AddCssClassNamePrefix.html", save
 
 ## Langkah 5: Verifikasi Output
 
- Setelah menjalankan proyek Anda, navigasikan ke`Documents` folder. Anda akan menemukan file HTML bernama`WorkingWithHtmlSaveOptions.AddCssClassNamePrefix.html` Buka file ini di editor teks atau browser untuk memverifikasi bahwa kelas CSS memiliki awalan`pfx_`.
+Setelah menjalankan proyek Anda, navigasikan ke `Documents` folder. Anda akan menemukan file HTML bernama `WorkingWithHtmlSaveOptions.AddCssClassNamePrefix.html`Buka file ini di editor teks atau browser untuk memverifikasi bahwa kelas CSS memiliki awalan `pfx_`.
 
 ## Kesimpulan
 
@@ -120,22 +122,27 @@ Nah, itu dia! Dengan mengikuti langkah-langkah ini, Anda telah berhasil menambah
 ## Pertanyaan yang Sering Diajukan
 
 ### Dapatkah saya menggunakan awalan yang berbeda untuk setiap operasi penyimpanan?
- Ya, Anda dapat menyesuaikan awalan setiap kali Anda menyimpan dokumen dengan mengubah`CssClassNamePrefix` milik.
+Ya, Anda dapat menyesuaikan awalan setiap kali Anda menyimpan dokumen dengan mengubah `CssClassNamePrefix` milik.
 
 ### Apakah metode ini mendukung CSS sebaris?
- Itu`CssClassNamePrefix`properti bekerja dengan CSS eksternal. Untuk CSS sebaris, Anda memerlukan pendekatan yang berbeda.
+Itu `CssClassNamePrefix` properti bekerja dengan CSS eksternal. Untuk CSS sebaris, Anda memerlukan pendekatan yang berbeda.
 
 ### Bagaimana saya bisa menyertakan opsi penyimpanan HTML lainnya?
- Anda dapat mengonfigurasi berbagai properti`HtmlSaveOptions` untuk menyesuaikan keluaran HTML Anda. Periksa[dokumentasi](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
+Anda dapat mengonfigurasi berbagai properti `HtmlSaveOptions` untuk menyesuaikan keluaran HTML Anda. Periksa [dokumentasi](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
 
 ### Apakah mungkin untuk menyimpan HTML ke aliran?
- Tentu saja! Anda dapat menyimpan dokumen ke aliran dengan meneruskan objek aliran ke`Save` metode.
+Tentu saja! Anda dapat menyimpan dokumen ke aliran dengan meneruskan objek aliran ke `Save` metode.
 
 ### Bagaimana cara mendapatkan dukungan jika saya mengalami masalah?
- Anda bisa mendapatkan dukungan dari[Forum Aspose](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari [Forum Aspose](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

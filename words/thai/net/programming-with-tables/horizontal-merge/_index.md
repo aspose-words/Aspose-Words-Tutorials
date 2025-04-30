@@ -1,14 +1,16 @@
 ---
-title: การผสานแนวนอน
-linktitle: การผสานแนวนอน
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการผสานเซลล์ในแนวนอนในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนโดยละเอียดนี้
-weight: 10
-url: /th/net/programming-with-tables/horizontal-merge/
+"description": "เรียนรู้วิธีการผสานเซลล์ในแนวนอนในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนโดยละเอียดนี้"
+"linktitle": "การผสานแนวนอน"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การผสานแนวนอน"
+"url": "/th/net/programming-with-tables/horizontal-merge/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การผสานแนวนอน
@@ -19,9 +21,9 @@ url: /th/net/programming-with-tables/horizontal-merge/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเข้าสู่รายละเอียด มีบางสิ่งบางอย่างที่คุณจะต้องมี:
+ก่อนที่เราจะเข้าสู่รายละเอียด มีบางสิ่งที่คุณต้องมี:
 
-1. ไลบรารี Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลดไลบรารี Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+1. ไลบรารี Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลดไลบรารี Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: ตรวจสอบให้แน่ใจว่าคุณมีการตั้งค่าสภาพแวดล้อมการพัฒนาที่เหมาะสม เช่น Visual Studio
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C# จะเป็นประโยชน์
 
@@ -40,21 +42,21 @@ using Aspose.Words.Tables;
 
 ## ขั้นตอนที่ 1: การตั้งค่าเอกสารของคุณ
 
- สิ่งแรกที่ต้องทำคือเราต้องสร้างเอกสาร Word ใหม่และเริ่มต้นใช้งาน`DocumentBuilder`-
+สิ่งแรกที่ต้องทำคือเราต้องสร้างเอกสาร Word ใหม่และเริ่มต้นใช้งาน `DocumentBuilder`-
 
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- โค้ดสั้นๆ นี้จะตั้งค่าเอกสารใหม่และเตรียมพร้อม`DocumentBuilder` เพื่อการดำเนินการ
+โค้ดสั้นๆ นี้จะตั้งค่าเอกสารใหม่และเตรียมพร้อม `DocumentBuilder` เพื่อการดำเนินการ
 
 ## ขั้นตอนที่ 2: การแทรกเซลล์แรก
 
-ขั้นต่อไป เราเริ่มต้นด้วยการแทรกเซลล์แรกและทำเครื่องหมายไว้สำหรับการผสานแนวนอน:
+ต่อไปเราเริ่มต้นด้วยการแทรกเซลล์แรกและทำเครื่องหมายไว้สำหรับการผสานแนวนอน:
 
 ```csharp
 builder.InsertCell();
@@ -62,7 +64,7 @@ builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 ```
 
- ที่นี่เราแทรกเซลล์ใหม่และตั้งค่า`HorizontalMerge`ทรัพย์สินที่จะ`CellMerge.First`ซึ่งระบุว่าเซลล์นี้เป็นจุดเริ่มต้นของลำดับเซลล์ที่ผสานกัน
+ที่นี่เราแทรกเซลล์ใหม่และตั้งค่า `HorizontalMerge` ทรัพย์สินที่จะ `CellMerge.First`ซึ่งระบุว่าเซลล์นี้เป็นจุดเริ่มต้นของลำดับเซลล์ที่รวมกัน
 
 ## ขั้นตอนที่ 3: การแทรกเซลล์ที่ผสาน
 
@@ -74,7 +76,7 @@ builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 ```
 
- เซลล์นี้ถูกตั้งค่าให้ผสานกับเซลล์ก่อนหน้าโดยใช้`CellMerge.Previous` สังเกตว่าเราจบแถวด้วย`builder.EndRow()`.
+เซลล์นี้ถูกตั้งค่าให้ผสานกับเซลล์ก่อนหน้าโดยใช้ `CellMerge.Previous`. สังเกตว่าเราจบแถวด้วย `builder-EndRow()`.
 
 ## ขั้นตอนที่ 4: การแทรกเซลล์ที่ไม่ได้ผสาน
 
@@ -112,19 +114,24 @@ doc.Save(dataDir + "WorkingWithTables.HorizontalMerge.docx");
 Aspose.Words สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง แก้ไข และจัดการเอกสาร Word ด้วยโปรแกรมในแอปพลิเคชัน .NET ได้
 
 ### ฉันสามารถผสานเซลล์แนวตั้งโดยใช้ Aspose.Words สำหรับ .NET ได้หรือไม่
- ใช่ คุณสามารถผสานเซลล์ในแนวตั้งได้โดยใช้`CellFormat.VerticalMerge` คุณสมบัติ.
+ใช่ คุณสามารถผสานเซลล์ในแนวตั้งได้โดยใช้ `CellFormat.VerticalMerge` คุณสมบัติ.
 
 ### Aspose.Words สำหรับ .NET ใช้ได้ฟรีหรือไม่?
- Aspose.Words สำหรับ .NET นำเสนอรุ่นทดลองใช้งานฟรี แต่หากต้องการฟังก์ชันการทำงานเต็มรูปแบบ คุณจะต้องซื้อใบอนุญาต คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+Aspose.Words สำหรับ .NET นำเสนอรุ่นทดลองใช้งานฟรี แต่หากต้องการฟังก์ชันการทำงานเต็มรูปแบบ คุณจะต้องซื้อใบอนุญาต คุณสามารถรับใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันจะเรียนรู้เพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้อย่างไร
- คุณสามารถสำรวจเอกสารรายละเอียดได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถสำรวจเอกสารรายละเอียดได้ [ที่นี่](https://reference-aspose.com/words/net/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
- หากมีคำถามหรือปัญหาใดๆ คุณสามารถเยี่ยมชมฟอรัมสนับสนุน Aspose ได้[ที่นี่](https://forum.aspose.com/c/words/8).
+หากมีคำถามหรือปัญหาใดๆ คุณสามารถเยี่ยมชมฟอรัมสนับสนุน Aspose ได้ [ที่นี่](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

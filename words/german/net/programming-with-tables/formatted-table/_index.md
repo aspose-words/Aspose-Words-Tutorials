@@ -1,27 +1,29 @@
 ---
-title: Formatierte Tabelle
-linktitle: Formatierte Tabelle
-second_title: Aspose.Words Dokumentverarbeitungs-API
-description: Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET Tabellen in Word-Dokumenten erstellen und formatieren.
-weight: 10
-url: /de/net/programming-with-tables/formatted-table/
+"description": "Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET Tabellen in Word-Dokumenten erstellen und formatieren."
+"linktitle": "Formatierte Tabelle"
+"second_title": "Aspose.Words Dokumentverarbeitungs-API"
+"title": "Formatierte Tabelle"
+"url": "/de/net/programming-with-tables/formatted-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatierte Tabelle
 
 ## Einführung
 
-Das programmgesteuerte Erstellen und Formatieren von Tabellen in Word-Dokumenten kann eine gewaltige Aufgabe sein, aber mit Aspose.Words für .NET wird es unkompliziert und handhabbar. In diesem Tutorial zeigen wir Ihnen, wie Sie mit Aspose.Words für .NET eine formatierte Tabelle in einem Word-Dokument erstellen. Wir behandeln alles, vom Einrichten Ihrer Umgebung bis zum Speichern Ihres Dokuments mit einer schön formatierten Tabelle.
+Das programmgesteuerte Erstellen und Formatieren von Tabellen in Word-Dokumenten kann eine gewaltige Aufgabe sein, aber mit Aspose.Words für .NET wird es einfach und machbar. In diesem Tutorial zeigen wir Ihnen, wie Sie mit Aspose.Words für .NET eine formatierte Tabelle in einem Word-Dokument erstellen. Wir behandeln alles, von der Einrichtung Ihrer Umgebung bis zum Speichern Ihres Dokuments mit einer ansprechend formatierten Tabelle.
 
 ## Voraussetzungen
 
 Bevor wir uns in den Code vertiefen, stellen wir sicher, dass Sie alles haben, was Sie brauchen:
 
-1. Aspose.Words für .NET-Bibliothek: Laden Sie es herunter von[Hier](https://releases.aspose.com/words/net/).
+1. Aspose.Words für .NET-Bibliothek: Laden Sie es herunter von [Hier](https://releases.aspose.com/words/net/).
 2. Entwicklungsumgebung: Eine IDE wie Visual Studio.
 3. .NET Framework: Stellen Sie sicher, dass .NET Framework auf Ihrem Computer installiert ist.
 
@@ -38,39 +40,39 @@ using Aspose.Words.Tables;
 
 ## Schritt 1: Richten Sie Ihr Dokumentverzeichnis ein
 
-Zuerst müssen Sie den Pfad festlegen, in dem Ihr Dokument gespeichert wird.
+Zuerst müssen Sie den Pfad definieren, in dem Ihr Dokument gespeichert wird.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ersetzen`"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad, in dem Sie das Dokument speichern möchten.
+Ersetzen `"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad, in dem Sie das Dokument speichern möchten.
 
 ## Schritt 2: Initialisieren Sie das Dokument und den DocumentBuilder
 
-Initialisieren Sie jetzt ein neues Dokument und ein DocumentBuilder-Objekt.
+Initialisieren Sie nun ein neues Dokument und ein DocumentBuilder-Objekt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Der`DocumentBuilder` ist eine Hilfsklasse, die den Prozess der Dokumenterstellung vereinfacht.
+Der `DocumentBuilder` ist eine Hilfsklasse, die den Prozess der Dokumenterstellung vereinfacht.
 
 ## Schritt 3: Starten Sie die Tabelle
 
- Als nächstes beginnen Sie mit der Erstellung der Tabelle mit dem`StartTable` Verfahren.
+Beginnen Sie als Nächstes mit der Erstellung der Tabelle mit dem `StartTable` Verfahren.
 
 ```csharp
 Table table = builder.StartTable();
 builder.InsertCell();
 ```
 
-Um mit der Tabelle zu beginnen, ist das Einfügen einer Zelle erforderlich.
+Das Einfügen einer Zelle ist erforderlich, um die Tabelle zu beginnen.
 
 ## Schritt 4: Tabellenweite Formatierung anwenden
 
-Sie können Formatierungen anwenden, die sich auf die gesamte Tabelle auswirken. So können Sie beispielsweise den linken Einzug festlegen:
+Sie können Formatierungen anwenden, die sich auf die gesamte Tabelle auswirken. Beispielsweise können Sie den linken Einzug festlegen:
 
 ```csharp
 table.LeftIndent = 20.0;
@@ -163,27 +165,32 @@ Dadurch wird ein Word-Dokument mit der formatierten Tabelle erstellt und gespeic
 
 ## Abschluss
 
-Und da haben Sie es! Indem Sie diese Schritte befolgen, können Sie mit Aspose.Words für .NET eine gut formatierte Tabelle in einem Word-Dokument erstellen. Diese leistungsstarke Bibliothek erleichtert die programmgesteuerte Bearbeitung von Word-Dokumenten und spart Ihnen Zeit und Mühe.
+Und da haben Sie es! Mit diesen Schritten können Sie mit Aspose.Words für .NET eine gut formatierte Tabelle in einem Word-Dokument erstellen. Diese leistungsstarke Bibliothek erleichtert die programmgesteuerte Bearbeitung von Word-Dokumenten und spart Ihnen Zeit und Mühe.
 
 ## Häufig gestellte Fragen
 
 ### Was ist Aspose.Words für .NET?
 Aspose.Words für .NET ist eine leistungsstarke Bibliothek zum programmgesteuerten Erstellen, Bearbeiten und Konvertieren von Word-Dokumenten.
 
-### Kann ich für unterschiedliche Reihen unterschiedliche Farben verwenden?
+### Kann ich für verschiedene Reihen unterschiedliche Farben verwenden?
 Ja, Sie können auf unterschiedliche Zeilen oder Zellen unterschiedliche Formatierungen, einschließlich Farben, anwenden.
 
 ### Ist Aspose.Words für .NET kostenlos?
- Aspose.Words für .NET ist eine kostenpflichtige Bibliothek, aber Sie können eine[Kostenlose Testversion](https://releases.aspose.com/).
+Aspose.Words für .NET ist eine kostenpflichtige Bibliothek, aber Sie können eine [kostenlose Testversion](https://releases.aspose.com/).
 
 ### Wie erhalte ich Unterstützung für Aspose.Words für .NET?
- Unterstützung erhalten Sie vom[Aspose-Community-Foren](https://forum.aspose.com/c/words/8).
+Unterstützung erhalten Sie von der [Aspose-Community-Foren](https://forum.aspose.com/c/words/8).
 
 ### Kann ich mit Aspose.Words für .NET andere Dokumenttypen erstellen?
 Ja, Aspose.Words für .NET unterstützt verschiedene Dokumentformate, darunter PDF, HTML und TXT.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

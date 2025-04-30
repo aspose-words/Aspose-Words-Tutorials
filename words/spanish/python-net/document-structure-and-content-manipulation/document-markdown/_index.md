@@ -57,7 +57,7 @@ builder.writeln(markdown_text)
 Markdown ofrece una forma sencilla de aplicar estilos a tu texto. Puedes combinar varios elementos para crear encabezados, listas y más. Aquí tienes un ejemplo:
 
 ```python
-markdown_styled_text = "# Encabezado 1\\n\\n**Texto en negrita**\\n\\n- Artículo 1\\n- Artículo 2"
+markdown_styled_text = "# Encabezado 1\n\n**Texto en negrita**\n\n- Artículo 1\n- Artículo 2"
 builder.writeln(markdown_styled_text)
 ```
 

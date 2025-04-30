@@ -1,14 +1,16 @@
 ---
-title: स्रोत स्वरूपण रखें
-linktitle: स्रोत स्वरूपण रखें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके फ़ॉर्मेटिंग को संरक्षित करते हुए Word दस्तावेज़ों को मर्ज करना सीखें। दस्तावेज़ असेंबली कार्यों को स्वचालित करने की चाह रखने वाले डेवलपर्स के लिए आदर्श।
-weight: 10
-url: /hi/net/join-and-append-documents/keep-source-formatting/
+"description": ".NET के लिए Aspose.Words का उपयोग करके स्वरूपण को संरक्षित करते हुए Word दस्तावेज़ों को मर्ज करना सीखें। दस्तावेज़ असेंबली कार्यों को स्वचालित करने की चाह रखने वाले डेवलपर्स के लिए आदर्श।"
+"linktitle": "स्रोत स्वरूपण रखें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "स्रोत स्वरूपण रखें"
+"url": "/hi/net/join-and-append-documents/keep-source-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # स्रोत स्वरूपण रखें
@@ -22,7 +24,7 @@ url: /hi/net/join-and-append-documents/keep-source-formatting/
 ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 
 - विकास वातावरण: विज़ुअल स्टूडियो या कोई भी IDE जो .NET विकास का समर्थन करता है।
--  .NET लाइब्रेरी के लिए Aspose.Words: लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/words/net/).
+- .NET लाइब्रेरी के लिए Aspose.Words: लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल करें [यहाँ](https://releases.aspose.com/words/net/).
 - C# प्रोग्रामिंग का बुनियादी ज्ञान: C# सिंटैक्स और ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग अवधारणाओं से परिचित होना।
 
 ## नामस्थान आयात करें
@@ -100,10 +102,15 @@ Aspose.Words विभिन्न आयात मोडों का समर
 Aspose.Words बड़े दस्तावेज़ों के साथ काम करने के लिए कुशल API प्रदान करता है, जिसमें पृष्ठांकन और मेमोरी प्रबंधन की सुविधाएं भी शामिल हैं।
 
 ### मैं Aspose.Words के लिए अधिक संसाधन और समर्थन कहां पा सकता हूं?
- दौरा करना[.NET दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/net/) विस्तृत API संदर्भ, उदाहरण और मार्गदर्शिका के लिए.
+दौरा करना [.NET दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/net/) विस्तृत API संदर्भ, उदाहरण और मार्गदर्शिका के लिए.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

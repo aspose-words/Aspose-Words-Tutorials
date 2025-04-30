@@ -1,14 +1,16 @@
 ---
-title: แทนที่ไฮเปอร์ลิงก์
-linktitle: แทนที่ไฮเปอร์ลิงก์
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการแทนที่ไฮเปอร์ลิงก์ในเอกสาร .NET โดยใช้ Aspose.Words เพื่อการจัดการเอกสารที่มีประสิทธิภาพและการอัปเดตเนื้อหาแบบไดนามิก
-weight: 10
-url: /th/net/working-with-fields/replace-hyperlinks/
+"description": "เรียนรู้วิธีการแทนที่ไฮเปอร์ลิงก์ในเอกสาร .NET โดยใช้ Aspose.Words เพื่อการจัดการเอกสารที่มีประสิทธิภาพและการอัปเดตเนื้อหาแบบไดนามิก"
+"linktitle": "แทนที่ไฮเปอร์ลิงก์"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แทนที่ไฮเปอร์ลิงก์"
+"url": "/th/net/working-with-fields/replace-hyperlinks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทนที่ไฮเปอร์ลิงก์
@@ -22,7 +24,7 @@ url: /th/net/working-with-fields/replace-hyperlinks/
 ก่อนจะดำเนินการแทนที่ไฮเปอร์ลิงก์ด้วย Aspose.Words สำหรับ .NET โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
 - Visual Studio: ติดตั้งและตั้งค่าสำหรับการพัฒนา .NET
--  Aspose.Words สำหรับ .NET: ดาวน์โหลดและอ้างอิงในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ดาวน์โหลดและอ้างอิงในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 - ความคุ้นเคยกับ C#: ความเข้าใจพื้นฐานในการเขียนและคอมไพล์โค้ด
 
 ## นำเข้าเนมสเปซ
@@ -39,13 +41,13 @@ using Aspose.Words.Fields;
 เริ่มต้นโดยโหลดเอกสารที่คุณต้องการแทนที่ไฮเปอร์ลิงก์:
 
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Hyperlinks.docx");
 ```
 
- แทนที่`"Hyperlinks.docx"` พร้อมเส้นทางไปยังเอกสารจริงของคุณ
+แทนที่ `"Hyperlinks.docx"` พร้อมเส้นทางไปยังเอกสารจริงของคุณ
 
 ## ขั้นตอนที่ 2: ทำซ้ำผ่านฟิลด์
 
@@ -71,13 +73,13 @@ foreach (Field field in doc.Range.Fields)
 
 ## ขั้นตอนที่ 3: บันทึกเอกสาร
 
-สุดท้าย ให้บันทึกเอกสารที่แก้ไขแล้วโดยแทนที่ไฮเปอร์ลิงก์:
+สุดท้ายให้บันทึกเอกสารที่แก้ไขแล้วโดยแทนที่ไฮเปอร์ลิงก์:
 
 ```csharp
-doc.Save(dataDir + "WorkingWithFields.ReplaceHyperlinks.docx");
+doc.Save(dataDir + "WorkingWithFields.แทนที่Hyperlinks.docx");
 ```
 
- แทนที่`"WorkingWithFields.ReplaceHyperlinks.docx"` ตามเส้นทางไฟล์เอาท์พุตที่คุณต้องการ
+Replace `"WorkingWithFields.ReplaceHyperlinks.docx"` ตามเส้นทางไฟล์เอาท์พุตที่คุณต้องการ
 
 ## บทสรุป
 
@@ -89,19 +91,23 @@ doc.Save(dataDir + "WorkingWithFields.ReplaceHyperlinks.docx");
 ใช่ Aspose.Words รองรับโครงสร้างที่ซับซ้อน เช่น ตาราง รูปภาพ และไฮเปอร์ลิงก์ได้อย่างราบรื่น
 
 ### มีเวอร์ชันทดลองใช้สำหรับ Aspose.Words สำหรับ .NET หรือไม่
- ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถหาเอกสารสำหรับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
- เอกสารรายละเอียดมีให้[ที่นี่](https://reference.aspose.com/words/net/).
+เอกสารรายละเอียดมีให้ [ที่นี่](https://reference-aspose.com/words/net/).
 
 ### ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.Words สำหรับ .NET ได้อย่างไร
- สามารถขอใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+สามารถขอใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### มีตัวเลือกการสนับสนุนอะไรบ้างสำหรับ Aspose.Words สำหรับ .NET?
- คุณสามารถรับการสนับสนุนจากชุมชนหรือส่งคำถามได้ที่[ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8).
+คุณสามารถรับการสนับสนุนจากชุมชนหรือส่งคำถามได้ที่ [ฟอรั่ม Aspose.Words](https://forum-aspose.com/c/words/8).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

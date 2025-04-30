@@ -1,14 +1,16 @@
 ---
-title: Разрешить названия шрифтов
-linktitle: Разрешить названия шрифтов
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как разрешить имена шрифтов в документах Word при конвертации в HTML с помощью Aspose.Words для .NET. Пошаговое руководство с подробными объяснениями.
-weight: 10
-url: /ru/net/programming-with-htmlsaveoptions/resolve-font-names/
+"description": "Узнайте, как разрешить имена шрифтов в документах Word при конвертации в HTML с помощью Aspose.Words для .NET. Пошаговое руководство с подробными объяснениями."
+"linktitle": "Разрешить названия шрифтов"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Разрешить названия шрифтов"
+"url": "/ru/net/programming-with-htmlsaveoptions/resolve-font-names/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Разрешить названия шрифтов
@@ -21,8 +23,8 @@ url: /ru/net/programming-with-htmlsaveoptions/resolve-font-names/
 
 Прежде чем начать, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words для .NET: если вы еще этого не сделали, вы можете загрузить его[здесь](https://releases.aspose.com/words/net/).
-2.  Действующая лицензия: Вы можете приобрести лицензию[здесь](https://purchase.aspose.com/buy) или получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words для .NET: если вы еще этого не сделали, вы можете загрузить его [здесь](https://releases.aspose.com/words/net/).
+2. Действующая лицензия: Вы можете приобрести лицензию [здесь](https://purchase.aspose.com/buy) или получите временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 3. Базовые знания C# и .NET: в этом руководстве предполагается, что вы знакомы с основными концепциями программирования на C#.
 4. Visual Studio: любая версия, поддерживающая .NET Framework.
 
@@ -39,7 +41,7 @@ using Aspose.Words.Saving;
 
 ## Шаг 1: Настройка каталога документов
 
-Для начала давайте настроим путь к каталогу ваших документов. Это место, где находится ваш документ Word и где вы будете сохранять вывод.
+Для начала давайте настроим путь к каталогу ваших документов. Это место, где находится ваш документ Word и где вы будете сохранять выводимые данные.
 
 ```csharp
 // Путь к каталогу документов.
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
 Объяснение:
- Здесь,`dataDir` содержит путь к каталогу ваших документов. Заменить`"YOUR DOCUMENT DIRECTORY"` с фактическим путем в вашей системе.
+Здесь, `dataDir` содержит путь к каталогу ваших документов. Заменить `"YOUR DOCUMENT DIRECTORY"` с фактическим путем в вашей системе.
 
 ## Шаг 2: Загрузка документа Word
 
@@ -58,7 +60,7 @@ Document doc = new Document(dataDir + "Missing font.docx");
 ```
 
 Объяснение:
- Мы создаем`Document` объект и загрузить документ Word с именем «Missing font.docx» из нашего`dataDir`.
+Мы создаем `Document` объект и загрузить документ Word с именем «Missing font.docx» из нашего `dataDir`.
 
 ## Шаг 3: Настройка параметров сохранения HTML
 
@@ -73,7 +75,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html)
 ```
 
 Объяснение:
- Мы создаем экземпляр`HtmlSaveOptions` с`SaveFormat.Html` .`PrettyFormat` опция делает вывод HTML более читабельным, и`ResolveFontNames` обеспечивает разрешение имен шрифтов.
+Мы создаем экземпляр `HtmlSaveOptions` с `SaveFormat.Html`. `PrettyFormat` опция делает вывод HTML более читабельным, и `ResolveFontNames` обеспечивает разрешение имен шрифтов.
 
 ## Шаг 4: Сохранение документа как HTML
 
@@ -84,7 +86,7 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ResolveFontNames.html", saveOptio
 ```
 
 Объяснение:
- Мы называем`Save` метод на`Document` объект, указав выходной путь и параметры сохранения, которые мы настроили. Это сгенерирует HTML-файл с разрешенными именами шрифтов.
+Мы называем `Save` метод на `Document` объект, указав выходной путь и параметры сохранения, которые мы настроили. Это сгенерирует HTML-файл с разрешенными именами шрифтов.
 
 ## Заключение
 
@@ -96,19 +98,24 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ResolveFontNames.html", saveOptio
 Aspose.Words для .NET — мощная библиотека, позволяющая разработчикам программно создавать, изменять и конвертировать документы Word.
 
 ### Как установить Aspose.Words для .NET?
- Вы можете загрузить Aspose.Words для .NET с сайта[здесь](https://releases.aspose.com/words/net/). Следуйте инструкциям по установке, приведенным в документации.
+Вы можете загрузить Aspose.Words для .NET с сайта [здесь](https://releases.aspose.com/words/net/). Следуйте инструкциям по установке, приведенным в документации.
 
 ### Могу ли я использовать Aspose.Words для .NET без лицензии?
- Да, но будут некоторые ограничения. Для полной функциональности вы можете приобрести лицензию[здесь](https://purchase.aspose.com/buy) или получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+Да, но будут некоторые ограничения. Для полной функциональности вы можете приобрести лицензию [здесь](https://purchase.aspose.com/buy) или получите временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Почему мои шрифты некорректно отображаются в HTML?
- Это может произойти, если шрифты не были правильно разрешены во время конвертации. Использование`ResolveFontNames = true` в`HtmlSaveOptions` может помочь решить эту проблему.
+Это может произойти, если шрифты не были правильно разрешены во время конвертации. Использование `ResolveFontNames = true` в `HtmlSaveOptions` может помочь решить эту проблему.
 
 ### Где я могу получить поддержку по Aspose.Words для .NET?
- Вы можете получить поддержку от[Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от [Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

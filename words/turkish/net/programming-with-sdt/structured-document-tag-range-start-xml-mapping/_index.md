@@ -1,14 +1,16 @@
 ---
-title: Yapılandırılmış Belge Etiket Aralığı Başlat Xml Eşlemesi
-linktitle: Yapılandırılmış Belge Etiket Aralığı Başlat Xml Eşlemesi
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word'de XML verilerini yapılandırılmış belge etiketlerine dinamik olarak nasıl bağlayacağınızı öğrenin. Adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/programming-with-sdt/structured-document-tag-range-start-xml-mapping/
+"description": "Aspose.Words for .NET kullanarak Word'de XML verilerini yapılandırılmış belge etiketlerine dinamik olarak nasıl bağlayacağınızı öğrenin. Adım adım kılavuzumuzu izleyin."
+"linktitle": "Yapılandırılmış Belge Etiket Aralığı Başlat Xml Eşlemesi"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yapılandırılmış Belge Etiket Aralığı Başlat Xml Eşlemesi"
+"url": "/tr/net/programming-with-sdt/structured-document-tag-range-start-xml-mapping/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yapılandırılmış Belge Etiket Aralığı Başlat Xml Eşlemesi
@@ -21,14 +23,14 @@ XML verilerini dinamik olarak bir Word belgesine eklemek istediniz mi hiç? Şan
 
 Kodlama kısmına geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET Kütüphanesi: En son sürüme sahip olduğunuzdan emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: En son sürüme sahip olduğunuzdan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya C# destekleyen herhangi bir IDE.
 3. Temel C# Bilgisi: C# programlamaya aşinalık şarttır.
 4. Word Belgesi: Üzerinde çalışabileceğiniz örnek bir Word belgesi.
 
 ## Ad Alanlarını İçe Aktar
 
-İlk önce gerekli ad alanlarını içe aktaralım. Bu, Aspose.Words for .NET'te gerekli tüm sınıflara ve yöntemlere erişimimizi sağlayacaktır.
+İlk önce gerekli ad alanlarını içe aktaralım. Bu, .NET için Aspose.Words'deki tüm gerekli sınıflara ve yöntemlere erişimimizi sağlayacaktır.
 
 ```csharp
 using System;
@@ -42,13 +44,13 @@ using System.Text;
 Her projenin bir temele ihtiyacı vardır, değil mi? Burada, belge dizininize giden yolu ayarlıyoruz.
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
 ## Adım 2: Word Belgesini Yükleyin
 
-Sonra Word belgesini yüklüyoruz. Bu, XML verilerimizi ekleyeceğimiz belgedir.
+Sonra, Word belgesini yüklüyoruz. Bu, XML verilerimizi ekleyeceğimiz belgedir.
 
 ```csharp
 Document doc = new Document(dataDir + "Multi-section structured document tags.docx");
@@ -91,7 +93,7 @@ StructuredDocumentTagRangeStart sdtRangeStart = (StructuredDocumentTagRangeStart
 
 Şimdi, XML parçamızı SDT'ye bağlamanın zamanı geldi. Bir XML eşlemesi ayarlayarak, XML verisinin hangi kısmının SDT'de gösterileceğini belirtiyoruz.
 
- XPath, görüntülemek istediğimiz XML bölümündeki belirli öğeye işaret eder. Burada, ikinci öğeye işaret ediyoruz`<text>` içindeki öğe`<root>` öğe.
+XPath, görüntülemek istediğimiz XML bölümündeki belirli öğeye işaret eder. Burada, ikinci öğeye işaret ediyoruz `<text>` içindeki öğe `<root>` öğe.
 
 ```csharp
 // StructuredDocumentTag için bir eşleme ayarlayın
@@ -116,7 +118,7 @@ doc.Save(dataDir + "WorkingWithSdt.StructuredDocumentTagRangeStartXmlMapping.doc
 Yapılandırılmış belge etiketleri, içerik denetimleri olarak da bilinir, Word belgelerindeki belirli içerik türleri için kapsayıcılardır. Verileri bağlamak, düzenlemeyi kısıtlamak veya kullanıcıları belge oluşturmada yönlendirmek için kullanılabilirler.
 
 ### XML parçasının içeriğini dinamik olarak nasıl güncelleyebilirim?
- XML parçası içeriğini değiştirerek güncelleyebilirsiniz.`xmlPartContent` dizeyi belgeye eklemeden önce. Dizeyi yeni verilerle güncelleyin ve ekleyin`CustomXmlParts` koleksiyon.
+XML parçası içeriğini değiştirerek güncelleyebilirsiniz. `xmlPartContent` dizeyi belgeye eklemeden önce. Dizeyi yeni verilerle güncelleyin ve ekleyin `CustomXmlParts` koleksiyon.
 
 ### Aynı belgedeki farklı SDT'lere birden fazla XML parçası bağlayabilir miyim?
 Evet, aynı belgedeki farklı SDT'lere birden fazla XML parçası bağlayabilirsiniz. Her SDT'nin kendine özgü XML parçası ve XPath eşlemesi olabilir.
@@ -125,10 +127,15 @@ Evet, aynı belgedeki farklı SDT'lere birden fazla XML parçası bağlayabilirs
 Kesinlikle! Karmaşık XML yapılarını, XML parçası içindeki istenen öğelere doğru bir şekilde işaret eden ayrıntılı XPath ifadelerini kullanarak SDT'lere eşleyebilirsiniz.
 
 ### Bir belgeden XML parçasını nasıl kaldırabilirim?
- Bir XML parçasını, çağırarak kaldırabilirsiniz.`Remove` yöntem üzerinde`CustomXmlParts` koleksiyon, geçiş`xmlPartId` Kaldırmak istediğiniz XML parçasının.
+Bir XML parçasını, çağırarak kaldırabilirsiniz. `Remove` yöntem üzerinde `CustomXmlParts` koleksiyon, geçiş `xmlPartId` Kaldırmak istediğiniz XML parçasının.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

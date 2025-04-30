@@ -1,14 +1,16 @@
 ---
-title: Kontrol Versi dan Riwayat Dokumen
-linktitle: Kontrol Versi dan Riwayat Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara mengontrol versi dokumen secara efisien menggunakan Aspose.Words untuk Java. Kelola perubahan, berkolaborasi dengan lancar, dan lacak revisi dengan mudah.
-weight: 13
-url: /id/java/document-revision/document-version-control-history/
+"description": "Pelajari cara mengontrol versi dokumen secara efisien menggunakan Aspose.Words untuk Java. Kelola perubahan, berkolaborasi dengan lancar, dan lacak revisi dengan mudah."
+"linktitle": "Kontrol Versi dan Riwayat Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Kontrol Versi dan Riwayat Dokumen"
+"url": "/id/java/document-revision/document-version-control-history/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kontrol Versi dan Riwayat Dokumen
@@ -53,7 +55,7 @@ doc.startTrackRevisions();
 Sekarang, Anda dapat membuat perubahan pada dokumen sesuai kebutuhan. Perubahan ini akan dilacak oleh Aspose.Words.
 
 ```java
-// Buat perubahan dokumen
+// Membuat perubahan dokumen
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.writeln("Updated content goes here.");
 ```
@@ -100,10 +102,15 @@ Tentu saja, Aspose.Words untuk Java dapat dengan mudah diintegrasikan dengan pus
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi?
 
- Anda dapat mengakses dokumentasi lengkap dan sumber daya tambahan untuk Aspose.Words untuk Java di[Di Sini](https://reference.aspose.com/words/java/).
+Anda dapat mengakses dokumentasi lengkap dan sumber daya tambahan untuk Aspose.Words untuk Java di [Di Sini](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

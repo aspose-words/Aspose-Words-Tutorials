@@ -1,34 +1,36 @@
 ---
-title: Layout I Cell
-linktitle: Layout I Cell
-second_title: Aspose.Words Document Processing API
-description: Lär dig hur du ställer in layouten i cellen med Aspose.Words för .NET med denna omfattande guide. Perfekt för utvecklare som vill anpassa Word-dokument.
-weight: 10
-url: /sv/net/programming-with-shapes/layout-in-cell/
+"description": "Lär dig hur du ställer in layouten i celler med Aspose.Words för .NET med den här omfattande guiden. Perfekt för utvecklare som vill anpassa Word-dokument."
+"linktitle": "Layout i cell"
+"second_title": "Aspose.Words dokumentbehandlings-API"
+"title": "Layout i cell"
+"url": "/sv/net/programming-with-shapes/layout-in-cell/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Layout I Cell
+# Layout i cell
 
 ## Introduktion
 
-Om du någonsin har velat finjustera layouten på dina tabellceller i Word-dokument programmatiskt, är du på rätt plats. Idag ska vi dyka in i hur man ställer in layouten i cellen med Aspose.Words för .NET. Vi går igenom ett praktiskt exempel och delar upp det steg för steg så att du enkelt kan följa med.
+Om du någonsin velat finjustera layouten för dina tabellceller i Word-dokument programmatiskt har du kommit rätt. Idag ska vi dyka ner i hur man ställer in layouten i celler med Aspose.Words för .NET. Vi går igenom ett praktiskt exempel och bryter ner det steg för steg så att du enkelt kan följa med.
 
-## Förutsättningar
+## Förkunskapskrav
 
-Innan vi hoppar in i koden, låt oss se till att du har allt du behöver:
+Innan vi går in i koden, låt oss se till att du har allt du behöver:
 
-1.  Aspose.Words for .NET: Se till att du har Aspose.Words for .NET-biblioteket installerat. Om du inte har det kan du[ladda ner den här](https://releases.aspose.com/words/net/).
-2. Utvecklingsmiljö: Du behöver en utvecklingsmiljö med .NET. Visual Studio är ett utmärkt val om du letar efter rekommendationer.
-3. Grundläggande kunskaper om C#: Även om jag kommer att förklara varje steg, kommer en grundläggande förståelse av C# att hjälpa dig att följa med enklare.
-4.  Dokumentkatalog: Förbered en katalogsökväg där du ska spara dina dokument. Vi kommer att hänvisa till detta som`YOUR DOCUMENT DIRECTORY`.
+1. Aspose.Words för .NET: Se till att du har Aspose.Words för .NET-biblioteket installerat. Om du inte har det kan du [ladda ner den här](https://releases.aspose.com/words/net/).
+2. Utvecklingsmiljö: Du behöver en utvecklingsmiljö konfigurerad med .NET. Visual Studio är ett bra val om du letar efter rekommendationer.
+3. Grundläggande kunskaper i C#: Även om jag kommer att förklara varje steg, kommer en grundläggande förståelse för C# att hjälpa dig att följa med lättare.
+4. Dokumentkatalog: Förbered en sökväg till katalogen där du ska spara dina dokument. Vi kommer att kalla detta `YOUR DOCUMENT DIRECTORY`.
 
-## Importera namnområden
+## Importera namnrymder
 
-För att komma igång, se till att du importerar de nödvändiga namnrymden i ditt projekt:
+För att komma igång, se till att du importerar de nödvändiga namnrymderna i ditt projekt:
 
 ```csharp
 using System;
@@ -42,7 +44,7 @@ Låt oss dela upp processen i hanterbara steg.
 
 ## Steg 1: Skapa ett nytt dokument
 
- Först skapar vi ett nytt Word-dokument och initierar ett`DocumentBuilder` objekt för att hjälpa oss att konstruera vårt innehåll.
+Först skapar vi ett nytt Word-dokument och initierar ett `DocumentBuilder` objekt som hjälper oss att konstruera vårt innehåll.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -50,9 +52,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Steg 2: Starta en tabell och ställ in radformat
+## Steg 2: Starta en tabell och ange radformat
 
-Vi börjar konstruera en tabell och specificerar höjd- och höjdregeln för raderna.
+Vi börjar konstruera en tabell och anger höjden och höjdregeln för raderna.
 
 ```csharp
 builder.StartTable();
@@ -60,9 +62,9 @@ builder.RowFormat.Height = 100;
 builder.RowFormat.HeightRule = HeightRule.Exactly;
 ```
 
-## Steg 3: Infoga celler och fylla med innehåll
+## Steg 3: Infoga celler och fyll i med innehåll
 
-Därefter slingrar vi för att infoga celler i tabellen. För var 7:e cell avslutar vi raden för att skapa en ny.
+Nästa steg är att loopa cellerna för att infoga dem i tabellen. För var sjunde cell avslutar vi raden för att skapa en ny.
 
 ```csharp
 for (int i = 0; i < 31; i++)
@@ -76,7 +78,7 @@ builder.EndTable();
 
 ## Steg 4: Lägg till en vattenstämpelform
 
- Låt oss nu lägga till en vattenstämpel till vårt dokument. Vi skapar en`Shape` objekt och ställ in dess egenskaper.
+Nu ska vi lägga till en vattenstämpel i vårt dokument. Vi skapar en `Shape` objektet och ange dess egenskaper.
 
 ```csharp
 Shape watermark = new Shape(doc, ShapeType.TextPlainText)
@@ -115,9 +117,9 @@ builder.MoveTo(run);
 builder.InsertNode(watermark);
 ```
 
-## Steg 7: Optimera dokument för Word 2010
+## Steg 7: Optimera dokumentet för Word 2010
 
-För att säkerställa kompatibilitet kommer vi att optimera dokumentet för Word 2010.
+För att säkerställa kompatibilitet optimerar vi dokumentet för Word 2010.
 
 ```csharp
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2010);
@@ -125,7 +127,7 @@ doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2010);
 
 ## Steg 8: Spara dokumentet
 
-Slutligen kommer vi att spara vårt dokument i den angivna katalogen.
+Slutligen sparar vi vårt dokument i den angivna katalogen.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithShapes.LayoutInCell.docx");
@@ -133,27 +135,32 @@ doc.Save(dataDir + "WorkingWithShapes.LayoutInCell.docx");
 
 ## Slutsats
 
-Och där har du det! Du har framgångsrikt skapat ett Word-dokument med en anpassad tabelllayout och lagt till en vattenstämpel med Aspose.Words för .NET. Denna handledning syftade till att ge en tydlig, steg-för-steg-guide som hjälper dig att förstå varje del av processen. Med dessa färdigheter kan du nu skapa mer sofistikerade och anpassade Word-dokument programmatiskt.
+Och där har du det! Du har skapat ett Word-dokument med en anpassad tabelllayout och lagt till en vattenstämpel med Aspose.Words för .NET. Den här handledningen syftar till att ge en tydlig steg-för-steg-guide som hjälper dig att förstå varje del av processen. Med dessa färdigheter kan du nu skapa mer sofistikerade och anpassade Word-dokument programmatiskt.
 
-## FAQ's
+## Vanliga frågor
 
-### Kan jag använda ett annat teckensnitt för vattenstämpeltexten?
- Ja, du kan ändra teckensnittet genom att ställa in`watermark.TextPath.FontFamily` egenskap till önskat typsnitt.
+### Kan jag använda ett annat teckensnitt för vattenstämpeln?
+Ja, du kan ändra teckensnittet genom att ställa in `watermark.TextPath.FontFamily` egenskap till ditt önskade teckensnitt.
 
-### Hur justerar jag positionen för vattenstämpeln?
- Du kan ändra`RelativeHorizontalPosition`, `RelativeVerticalPosition`, `HorizontalAlignment` , och`VerticalAlignment` egenskaper för att justera vattenstämpelns position.
+### Hur justerar jag vattenstämpelns position?
+Du kan ändra `RelativeHorizontalPosition`, `RelativeVerticalPosition`, `HorizontalAlignment`och `VerticalAlignment` egenskaper för att justera vattenstämpelns position.
 
 ### Är det möjligt att använda en bild istället för text för vattenstämpeln?
- Absolut! Du kan skapa en`Shape` med typen`ShapeType.Image` och ställ in dess bild med hjälp av`ImageData.SetImage` metod.
+Absolut! Du kan skapa en `Shape` med typen `ShapeType.Image` och ställ in dess bild med hjälp av `ImageData.SetImage` metod.
 
-### Kan jag skapa tabeller med olika radhöjder?
-Ja, du kan ställa in olika höjder för varje rad genom att ändra`RowFormat.Height` egenskap innan du infogar celler i den raden.
+### Kan jag skapa tabeller med varierande radhöjder?
+Ja, du kan ställa in olika höjder för varje rad genom att ändra `RowFormat.Height` egenskapen innan celler infogas i den raden.
 
-### Hur tar jag bort en vattenstämpel från dokumentet?
- Du kan ta bort vattenstämpeln genom att lokalisera den i dokumentets formsamling och anropa den`Remove` metod.
+### Hur tar jag bort en vattenstämpel från ett dokument?
+Du kan ta bort vattenstämpeln genom att leta upp den i dokumentets formsamling och anropa den. `Remove` metod.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

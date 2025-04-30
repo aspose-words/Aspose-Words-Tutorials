@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde İşaretlenmiş İçeriği Göster Gizle
-linktitle: Word Belgesinde İşaretlenmiş İçeriği Göster Gizle
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerinde yer imlerine eklenen içeriğin nasıl gösterileceğini ve gizleneceğini öğrenin.
-weight: 10
-url: /tr/net/programming-with-bookmarks/show-hide-bookmarked-content/
+"description": "Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerinde yer imlerine eklenen içeriğin nasıl gösterileceğini ve gizleneceğini öğrenin."
+"linktitle": "Word Belgesinde İşaretlenmiş İçeriği Göster Gizle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde İşaretlenmiş İçeriği Göster Gizle"
+"url": "/tr/net/programming-with-bookmarks/show-hide-bookmarked-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde İşaretlenmiş İçeriği Göster Gizle
@@ -22,7 +24,7 @@ Aspose.Words for .NET ile belge düzenleme dünyasına dalmaya hazır mısınız
 Ayrıntılara girmeden önce ihtiyacınız olacak birkaç şey var:
 
 1. Visual Studio: .NET ile uyumlu herhangi bir sürüm.
-2.  Aspose.Words for .NET: İndirin[Burada](https://releases.aspose.com/words/net/).
+2. Aspose.Words for .NET: İndirin [Burada](https://releases.aspose.com/words/net/).
 3. C#'ın Temel Anlayışı: Basit bir "Merhaba Dünya" programı yazabiliyorsanız, hazırsınız demektir.
 4. Yer İmleri İçeren Bir Word Belgesi: Bu eğitimde yer imleri içeren bir örnek belge kullanacağız.
 
@@ -66,11 +68,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Bookmarks.docx");
 ```
 
- Bu kod parçacığı belge dizininize giden yolu ayarlar ve belgeyi şuraya yükler:`doc` nesne.
+Bu kod parçacığı belge dizininize giden yolu ayarlar ve belgeyi şuraya yükler: `doc` nesne.
 
 ## Adım 3: Yer İşaretli İçeriği Göster/Gizle
 
-Şimdi eğlenceli kısma geliyoruz - yer imlerine göre içeriği gösterme veya gizleme. Adı verilen bir yöntem oluşturacağız`ShowHideBookmarkedContent` Bunu halletmek için.
+Şimdi eğlenceli kısma geliyoruz - yer imlerine göre içeriği gösterme veya gizleme. Adı verilen bir yöntem oluşturacağız `ShowHideBookmarkedContent` Bunu halletmek için.
 
 İşte yer imlerine eklenen içeriğin görünürlüğünü değiştirecek yöntem:
 
@@ -94,9 +96,9 @@ public void ShowHideBookmarkedContent(Document doc, string bookmarkName, bool is
 
 ### Yöntemin Ayrıntılı Açıklaması
 
--  Yer İşareti Alma:`Bookmark bm = doc.Range.Bookmarks[bookmarkName];` yer imini getirir.
+- Yer İşareti Alma: `Bookmark bm = doc.Range.Bookmarks[bookmarkName];` yer imini getirir.
 - Düğüm Gezinmesi: Yer imi içindeki düğümleri geziyoruz.
--  Görünürlük Geçişi: Düğüm bir`Run` (birbirini izleyen bir metin dizisi), bunu ayarlıyoruz`Hidden` mülk.
+- Görünürlük Geçişi: Düğüm bir `Run` (birbirini izleyen bir metin dizisi), bunu ayarlıyoruz `Hidden` mülk.
 
 ## Adım 4: Yöntemin Uygulanması
 
@@ -125,7 +127,7 @@ Ve işte karşınızda! Aspose.Words for .NET kullanarak Word belgesinde yer iml
 ## SSS
 
 ### Birden fazla yer imini aynı anda açıp kapatabilir miyim?
- Evet, arayabilirsiniz`ShowHideBookmarkedContent` Geçiş yapmak istediğiniz her yer imi için bir yöntem.
+Evet, arayabilirsiniz `ShowHideBookmarkedContent` Geçiş yapmak istediğiniz her yer imi için bir yöntem.
 
 ### İçeriği gizlemek belgenin yapısını etkiler mi?
 Hayır, içeriği gizlemek yalnızca görünürlüğünü etkiler. İçerik belgede kalır.
@@ -134,13 +136,18 @@ Hayır, içeriği gizlemek yalnızca görünürlüğünü etkiler. İçerik belg
 Bu yöntem özellikle metin çalıştırmalarını değiştirir. Diğer içerik türleri için düğüm geçiş mantığını değiştirmeniz gerekir.
 
 ### Aspose.Words for .NET ücretsiz mi?
- Aspose.Words ücretsiz deneme sunuyor[Burada](https://releases.aspose.com/) , ancak üretim kullanımı için tam lisans gereklidir. Bunu satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Aspose.Words ücretsiz deneme sunuyor [Burada](https://releases.aspose.com/), ancak üretim kullanımı için tam lisans gereklidir. Bunu satın alabilirsiniz [Burada](https://purchase.aspose.com/buy).
 
 ### Sorun yaşarsam nasıl destek alabilirim?
- Aspose topluluğundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/words/8).
+Aspose topluluğundan destek alabilirsiniz [Burada](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

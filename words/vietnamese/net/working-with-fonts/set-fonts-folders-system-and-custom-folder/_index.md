@@ -1,14 +1,16 @@
 ---
-title: Thiết lập hệ thống thư mục phông chữ và thư mục tùy chỉnh
-linktitle: Thiết lập hệ thống thư mục phông chữ và thư mục tùy chỉnh
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thiết lập thư mục phông chữ hệ thống và tùy chỉnh trong tài liệu Word bằng Aspose.Words cho .NET, đảm bảo tài liệu của bạn hiển thị chính xác trên nhiều môi trường khác nhau.
-weight: 10
-url: /vi/net/working-with-fonts/set-fonts-folders-system-and-custom-folder/
+"description": "Tìm hiểu cách thiết lập thư mục phông chữ hệ thống và tùy chỉnh trong tài liệu Word bằng Aspose.Words cho .NET, đảm bảo tài liệu của bạn hiển thị chính xác trên nhiều môi trường khác nhau."
+"linktitle": "Thiết lập hệ thống thư mục phông chữ và thư mục tùy chỉnh"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thiết lập hệ thống thư mục phông chữ và thư mục tùy chỉnh"
+"url": "/vi/net/working-with-fonts/set-fonts-folders-system-and-custom-folder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập hệ thống thư mục phông chữ và thư mục tùy chỉnh
@@ -21,7 +23,7 @@ Hãy tưởng tượng bạn đang tạo một tài liệu với kiểu phông c
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
--  Aspose.Words cho Thư viện .NET: Nếu bạn chưa tải xuống, hãy tải xuống[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho Thư viện .NET: Nếu bạn chưa tải xuống, hãy tải xuống [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Một IDE như Visual Studio.
 - Kiến thức cơ bản về C#: Sự quen thuộc với C# sẽ giúp bạn theo dõi các ví dụ về mã.
 
@@ -40,7 +42,7 @@ Bây giờ, chúng ta hãy chia nhỏ quy trình thành các bước đơn giả
 
 ## Bước 1: Tải tài liệu
 
- Để bắt đầu, hãy tải tài liệu Word của bạn vào Aspose.Words`Document` đối tượng. Đây sẽ là tài liệu mà bạn muốn thiết lập các thư mục phông chữ.
+Để bắt đầu, hãy tải tài liệu Word của bạn vào Aspose.Words `Document` đối tượng. Đây sẽ là tài liệu mà bạn muốn thiết lập các thư mục phông chữ.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu của bạn
@@ -51,7 +53,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Bước 2: Khởi tạo cài đặt phông chữ
 
- Tạo một phiên bản mới của`FontSettings`. Đối tượng này sẽ cho phép bạn quản lý nguồn phông chữ.
+Tạo một phiên bản mới của `FontSettings`. Đối tượng này sẽ cho phép bạn quản lý nguồn phông chữ.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -59,7 +61,7 @@ FontSettings fontSettings = new FontSettings();
 
 ## Bước 3: Truy xuất nguồn phông chữ hệ thống
 
-Truy xuất các nguồn phông chữ hệ thống mặc định. Trên máy Windows, điều này thường bao gồm "Windows\Fonts\"thư mục.
+Truy xuất nguồn phông chữ hệ thống mặc định. Trên máy Windows, điều này thường bao gồm thư mục "Windows\Fonts".
 
 ```csharp
 List<FontSourceBase> fontSources = new List<FontSourceBase>(fontSettings.GetFontsSources());
@@ -76,7 +78,7 @@ fontSources.Add(folderFontSource);
 
 ## Bước 5: Cập nhật nguồn phông chữ
 
- Chuyển đổi danh sách các nguồn phông chữ trở lại thành một mảng và đặt nó thành`FontSettings` sự vật.
+Chuyển đổi danh sách các nguồn phông chữ trở lại thành một mảng và đặt nó thành `FontSettings` sự vật.
 
 ```csharp
 FontSourceBase[] updatedFontSources = fontSources.ToArray();
@@ -85,7 +87,7 @@ fontSettings.SetFontsSources(updatedFontSources);
 
 ## Bước 6: Áp dụng Cài đặt Phông chữ cho Tài liệu
 
- Cuối cùng, áp dụng cấu hình`FontSettings` vào tài liệu của bạn và lưu ở định dạng mong muốn, chẳng hạn như PDF.
+Cuối cùng, áp dụng cấu hình `FontSettings` vào tài liệu của bạn và lưu ở định dạng mong muốn, chẳng hạn như PDF.
 
 ```csharp
 doc.FontSettings = fontSettings;
@@ -104,11 +106,11 @@ Aspose.Words sẽ sử dụng phông chữ mặc định để thay thế phông
 
 ### Tôi có thể thêm nhiều thư mục phông chữ tùy chỉnh không?
 
- Có, bạn có thể thêm nhiều thư mục phông chữ tùy chỉnh bằng cách lặp lại quy trình tạo`FolderFontSource` đối tượng và thêm chúng vào danh sách nguồn phông chữ.
+Có, bạn có thể thêm nhiều thư mục phông chữ tùy chỉnh bằng cách lặp lại quy trình tạo `FolderFontSource` đối tượng và thêm chúng vào danh sách nguồn phông chữ.
 
 ### Có thể sử dụng đường dẫn mạng cho thư mục phông chữ tùy chỉnh không?
 
- Có, bạn có thể chỉ định đường dẫn mạng trong`FolderFontSource` người xây dựng.
+Có, bạn có thể chỉ định đường dẫn mạng trong `FolderFontSource` người xây dựng.
 
 ### Aspose.Words hỗ trợ những định dạng tệp nào để lưu tài liệu?
 
@@ -116,10 +118,15 @@ Aspose.Words hỗ trợ nhiều định dạng khác nhau, bao gồm DOCX, PDF, 
 
 ### Tôi phải xử lý thông báo thay thế phông chữ như thế nào?
 
- Bạn có thể xử lý thông báo thay thế phông chữ bằng cách sử dụng`FontSettings` lớp học`FontSubstitutionWarning`sự kiện.
+Bạn có thể xử lý thông báo thay thế phông chữ bằng cách sử dụng `FontSettings` lớp học `FontSubstitutionWarning` sự kiện.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

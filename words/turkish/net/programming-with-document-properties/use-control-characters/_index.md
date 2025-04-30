@@ -1,14 +1,16 @@
 ---
-title: Kontrol Karakterlerini Kullan
-linktitle: Kontrol Karakterlerini Kullan
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belge görevlerinin nasıl otomatikleştirileceğini keşfedin. Bu kılavuz, iş akışınızı verimli hale getirerek kurulum, metin değiştirme ve daha fazlasını kapsar.
-weight: 10
-url: /tr/net/programming-with-document-properties/use-control-characters/
+"description": "Aspose.Words for .NET kullanarak Word belge görevlerinin nasıl otomatikleştirileceğini keşfedin. Bu kılavuz, iş akışınızı verimli hale getirerek kurulum, metin değiştirme ve daha fazlasını kapsar."
+"linktitle": "Kontrol Karakterlerini Kullan"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Kontrol Karakterlerini Kullan"
+"url": "/tr/net/programming-with-document-properties/use-control-characters/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kontrol Karakterlerini Kullan
@@ -22,8 +24,8 @@ Belge otomasyonu dünyasına dalmaya hazır mısınız? Word belgelerini manuel 
 Eğlenceli kısımlara geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
 1. C#'ın Temel Anlayışı: C# konusunda uzman olmanıza gerek yok, ancak temelleri bilmek yardımcı olacaktır.
-2. .NET Framework Yüklü: Makinenizde .NET'in yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz:[Microsoft .NET web sitesi](https://dotnet.microsoft.com/download).
-3.  Aspose.Words for .NET Kütüphanesi: En son sürümü şu adresten edinin:[Aspose indirme sayfası](https://releases.aspose.com/words/net/).
+2. .NET Framework Yüklü: Makinenizde .NET'in yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz: [Microsoft .NET web sitesi](https://dotnet.microsoft.com/download).
+3. Aspose.Words for .NET Kütüphanesi: En son sürümü şu adresten edinin: [Aspose indirme sayfası](https://releases.aspose.com/words/net/).
 
 ## Ad Alanlarını İçe Aktar
 
@@ -55,7 +57,7 @@ Mevcut bir Word belgesini yükleyerek başlayalım. Bu, elinizde bulunan herhang
 Document doc = new Document("path/to/your/document.docx");
 ```
 
- Bu kod satırı belgenizi şuraya yükler:`doc`nesne. Bunu, bir Word dosyasını elle açmak yerine bir programla açmak olarak düşünün.
+Bu kod satırı belgenizi şuraya yükler: `doc` nesne. Bunu, bir Word dosyasını elle açmak yerine bir programla açmak olarak düşünün.
 
 ## Adım 3: Belgedeki Metni Değiştirme
 
@@ -80,11 +82,11 @@ doc.Range.Replace(oldText, newText, new FindReplaceOptions());
 
 ### Kontrol Karakterlerini Anlamak
 
- Kontrol karakterleri, değiştirmek isteyebileceğiniz özel karakterlerdir. Örneğin, şunu değiştirelim:`\r` karakteri kontrol et`\r\n`.
+Kontrol karakterleri, değiştirmek isteyebileceğiniz özel karakterlerdir. Örneğin, şunu değiştirelim: `\r` karakteri kontrol et `\r\n`.
 
 ### Kontrol Karakterlerini Değiştir
 
- İşte değiştirilecek kod`\r` ile`\r\n`:
+İşte değiştirilecek kod `\r` ile `\r\n`:
 
 ```csharp
 const string text = "test\r";
@@ -113,7 +115,7 @@ Tebrikler! Aspose.Words for .NET ile belge otomasyonu dünyasına ilk adımları
 Aspose.Words for .NET, geliştiricilerin Word belgelerini programlı bir şekilde oluşturmalarına, değiştirmelerine ve dönüştürmelerine olanak tanıyan bir kütüphanedir.
 
 ### Aspose.Words'ü ücretsiz kullanabilir miyim?
- İndirerek ücretsiz deneyebilirsiniz[ücretsiz deneme](https://releases.aspose.com/). Tüm özelliklerden faydalanmak için lisans satın almanız gerekmektedir.
+İndirerek ücretsiz deneyebilirsiniz [ücretsiz deneme](https://releases.aspose.com/). Tüm özelliklerden faydalanmak için lisans satın almanız gerekmektedir.
 
 ### Aspose.Words hangi formatları işleyebilir?
 .doc, .docx, .pdf, .html ve daha fazlası dahil olmak üzere çeşitli formatları destekler.
@@ -122,11 +124,16 @@ Aspose.Words for .NET, geliştiricilerin Word belgelerini programlı bir şekild
 Temel C# bilgisine sahip olmak faydalı olacaktır, ancak kütüphane her seviyedeki geliştirici için kullanıcı dostu olacak şekilde tasarlanmıştır.
 
 ### Daha fazla bilgiye nereden ulaşabilirim veya destek alabilirim?
- Şuna bir göz atın:[Aspose.Words belgeleri](https://reference.aspose.com/words/net/) veya ziyaret edin[destek forumu](https://forum.aspose.com/c/words/8).
+Şuna bir göz atın: [Aspose.Words belgeleri](https://reference.aspose.com/words/net/) veya ziyaret edin [destek forumu](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

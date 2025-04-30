@@ -1,14 +1,16 @@
 ---
-title: In tài liệu với thiết lập trang
-linktitle: In tài liệu với thiết lập trang
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách in tài liệu với thiết lập trang chính xác bằng Aspose.Words for Java. Tùy chỉnh bố cục, kích thước giấy và nhiều hơn nữa.
-weight: 11
-url: /vi/java/document-printing/printing-documents-page-setup/
+"description": "Tìm hiểu cách in tài liệu với thiết lập trang chính xác bằng Aspose.Words for Java. Tùy chỉnh bố cục, kích thước giấy và nhiều hơn nữa."
+"linktitle": "In tài liệu với thiết lập trang"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "In tài liệu với thiết lập trang"
+"url": "/vi/java/document-printing/printing-documents-page-setup/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # In tài liệu với thiết lập trang
@@ -34,7 +36,7 @@ Bắt đầu bằng cách tạo một dự án Java mới trong IDE bạn chọn
 
 Để sử dụng Aspose.Words cho Java, bạn cần thêm thư viện vào dự án của mình. Thực hiện theo các bước sau:
 
-1.  Tải xuống thư viện Aspose.Words cho Java từ[đây](https://releases.aspose.com/words/java/).
+1. Tải xuống thư viện Aspose.Words cho Java từ [đây](https://releases.aspose.com/words/java/).
 
 2. Thêm tệp JAR vào classpath của dự án.
 
@@ -81,11 +83,11 @@ Trong bài viết này, chúng tôi đã khám phá cách in tài liệu với t
 
 ### Làm thế nào để tôi có thể thay đổi kích thước giấy của tài liệu?
 
- Để thay đổi kích thước giấy của tài liệu, hãy sử dụng`setPageWidth` Và`setPageHeight` phương pháp của`PageSetup` lớp và chỉ định kích thước mong muốn theo điểm.
+Để thay đổi kích thước giấy của tài liệu, hãy sử dụng `setPageWidth` Và `setPageHeight` phương pháp của `PageSetup` lớp và chỉ định kích thước mong muốn theo điểm.
 
 ### Tôi có thể in nhiều bản sao của một tài liệu không?
 
- Có, bạn có thể in nhiều bản sao của một tài liệu bằng cách thiết lập số lượng bản sao trong cài đặt in trước khi gọi lệnh.`print()` phương pháp.
+Có, bạn có thể in nhiều bản sao của một tài liệu bằng cách thiết lập số lượng bản sao trong cài đặt in trước khi gọi lệnh. `print()` phương pháp.
 
 ### Aspose.Words for Java có tương thích với các định dạng tài liệu khác nhau không?
 
@@ -93,14 +95,19 @@ Có, Aspose.Words for Java hỗ trợ nhiều định dạng tài liệu, bao g�
 
 ### Tôi có thể in tới một máy in cụ thể không?
 
- Chắc chắn rồi! Bạn có thể chỉ định một máy in cụ thể bằng cách sử dụng`setPrintService` phương pháp và cung cấp mong muốn`PrintService` sự vật.
+Chắc chắn rồi! Bạn có thể chỉ định một máy in cụ thể bằng cách sử dụng `setPrintService` phương pháp và cung cấp mong muốn `PrintService` sự vật.
 
 ### Làm thế nào để lưu tài liệu đã in dưới dạng PDF?
 
 Để lưu tài liệu đã in dưới dạng PDF, bạn có thể sử dụng Aspose.Words for Java để lưu tài liệu dưới dạng tệp PDF sau khi in.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

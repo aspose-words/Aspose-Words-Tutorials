@@ -1,50 +1,52 @@
 ---
-title: Sor törlése könyvjelzővel a Word dokumentumban
-linktitle: Sor törlése könyvjelzővel a Word dokumentumban
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan törölhet sorokat könyvjelzővel egy Word-dokumentumban az Aspose.Words for .NET használatával. Kövesse lépésenkénti útmutatónkat a hatékony dokumentumkezelés érdekében.
-weight: 10
-url: /hu/net/programming-with-bookmarks/delete-row-by-bookmark/
+"description": "Tanulja meg, hogyan törölhet egy sort könyvjelzővel egy Word-dokumentumban az Aspose.Words for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat a hatékony dokumentumkezeléshez."
+"linktitle": "Sor törlése könyvjelzővel Word dokumentumban"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Sor törlése könyvjelzővel Word dokumentumban"
+"url": "/hu/net/programming-with-bookmarks/delete-row-by-bookmark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sor törlése könyvjelzővel a Word dokumentumban
+# Sor törlése könyvjelzővel Word dokumentumban
 
 ## Bevezetés
 
-Egy sor könyvjelzővel történő törlése egy Word-dokumentumban bonyolultnak tűnhet, de az Aspose.Words for .NET használatával gyerekjáték. Ez az útmutató végigvezeti Önt mindenen, amit tudnia kell a feladat hatékony elvégzéséhez. Készen állsz a merülésre? Kezdjük is!
+Egy sor törlése könyvjelzővel egy Word dokumentumban bonyolultnak tűnhet, de az Aspose.Words for .NET segítségével ez gyerekjáték. Ez az útmutató végigvezet mindent, amit tudnod kell a feladat hatékony elvégzéséhez. Készen állsz a belevágni? Kezdjük is!
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a kódba, győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt belevágnánk a kódba, győződjünk meg róla, hogy a következők megvannak:
 
--  Aspose.Words for .NET: Győződjön meg arról, hogy az Aspose.Words for .NET telepítve van. Letöltheti a[Az Aspose kiadási oldala](https://releases.aspose.com/words/net/).
-- Fejlesztői környezet: Visual Studio vagy bármely más IDE, amely támogatja a .NET fejlesztést.
-- C# alapismeretei: A C# programozás ismerete segít az oktatóanyag követésében.
+- Aspose.Words .NET-hez: Győződjön meg róla, hogy telepítve van az Aspose.Words .NET-hez. Letöltheti innen: [Aspose kiadási oldal](https://releases.aspose.com/words/net/).
+- Fejlesztői környezet: Visual Studio vagy bármilyen más IDE, amely támogatja a .NET fejlesztést.
+- C# alapismeretek: A C# programozásban való jártasság segít a tutoriál követésében.
 
 ## Névterek importálása
 
-A kezdéshez importálnia kell a szükséges névtereket. Ezek a névterek biztosítják az Aspose.Words Word-dokumentumokkal való munkához szükséges osztályokat és metódusokat.
+Kezdésként importálnia kell a szükséges névtereket. Ezek a névterek biztosítják azokat az osztályokat és metódusokat, amelyek szükségesek a Word dokumentumokkal való munkához az Aspose.Words fájlban.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-Bontsuk fel a folyamatot kezelhető lépésekre. Minden lépést részletesen elmagyarázunk annak érdekében, hogy megértse, hogyan törölhet egy sort könyvjelzővel a Word-dokumentumban.
+Bontsuk le a folyamatot kezelhető lépésekre. Minden lépést részletesen elmagyarázunk, hogy biztosan megértsd, hogyan törölhetsz egy sort könyvjelzővel a Word-dokumentumban.
 
-## 1. lépés: Töltse be a dokumentumot
+## 1. lépés: A dokumentum betöltése
 
-Először is be kell töltenie a könyvjelzőt tartalmazó Word-dokumentumot. Ez a dokumentum lesz az, amelyből törölni szeretne egy sort.
+Először is be kell töltened a könyvjelzőt tartalmazó Word-dokumentumot. Ebből a dokumentumból szeretnél egy sort törölni.
 
 ```csharp
 Document doc = new Document("your-document.docx");
 ```
 
-## 2. lépés: Keresse meg a könyvjelzőt
+## 2. lépés: Keresd meg a könyvjelzőt
 
 Ezután keresse meg a könyvjelzőt a dokumentumban. A könyvjelző segít azonosítani a törölni kívánt sort.
 
@@ -52,25 +54,25 @@ Ezután keresse meg a könyvjelzőt a dokumentumban. A könyvjelző segít azono
 Bookmark bookmark = doc.Range.Bookmarks["YourBookmarkName"];
 ```
 
-## 3. lépés: Határozza meg a sort
+## 3. lépés: A sor azonosítása
 
- Miután megvan a könyvjelző, meg kell határoznia a könyvjelzőt tartalmazó sort. Ez azt jelenti, hogy a könyvjelző őséhez kell navigálni, amely típus`Row`.
+Miután megvan a könyvjelző, meg kell határoznia a könyvjelzőt tartalmazó sort. Ez magában foglalja a könyvjelző őséhez való navigálást, amely típusa: `Row`.
 
 ```csharp
 Row row = (Row)bookmark?.BookmarkStart.GetAncestor(typeof(Row));
 ```
 
-## 4. lépés: Távolítsa el a sort
+## 4. lépés: A sor eltávolítása
 
-Most, hogy azonosította a sort, folytathatja annak eltávolítását a dokumentumból. Győződjön meg arról, hogy kezel minden lehetséges null értéket a kivételek elkerülése érdekében.
+Most, hogy azonosította a sort, eltávolíthatja azt a dokumentumból. A kivételek elkerülése érdekében ügyeljen az esetleges null értékek kezelésére.
 
 ```csharp
 row?.Remove();
 ```
 
-## 5. lépés: Mentse el a dokumentumot
+## 5. lépés: A dokumentum mentése
 
-A sor törlése után mentse el a dokumentumot, hogy tükrözze a változásokat. Ezzel befejeződik a sor könyvjelzőnkénti törlésének folyamata.
+A sor törlése után mentse el a dokumentumot a módosítások érvénybe lépéséhez. Ezzel befejeződik a sor könyvjelzővel történő törlésének folyamata.
 
 ```csharp
 doc.Save("output-document.docx");
@@ -78,27 +80,32 @@ doc.Save("output-document.docx");
 
 ## Következtetés
 
-És megvan! Egy sor könyvjelzővel történő törlése egy Word-dokumentumban az Aspose.Words for .NET használatával egyszerű, ha egyszerű lépésekre bontja. Ez a módszer biztosítja a sorok pontos célzását és eltávolítását a könyvjelzők alapján, így hatékonyabbá válik a dokumentumkezelési feladatai.
+És íme! Egy sor törlése könyvjelzővel egy Word-dokumentumban az Aspose.Words for .NET segítségével pofonegyszerű lépésekre bontva. Ez a módszer biztosítja, hogy pontosan megcélozhassa és eltávolíthassa a sorokat a könyvjelzők alapján, így hatékonyabbá téve a dokumentumkezelési feladatokat.
 
 ## GYIK
 
-### Törölhetek több sort könyvjelzőkkel?
-Igen, több sort is törölhet, ha több könyvjelzőt ismételget, és ugyanazt a módszert alkalmazza.
+### Törölhetek több sort könyvjelzők segítségével?
+Igen, több sort is törölhetsz úgy, hogy több könyvjelzőn végighaladsz, és ugyanazt a módszert alkalmazod.
 
 ### Mi történik, ha a könyvjelző nem található?
- Ha a könyvjelző nem található, a`row` változó null lesz, és a`Remove` metódus nem kerül meghívásra, elkerülve a hibákat.
+Ha a könyvjelző nem található, a `row` változó null értékű lesz, és a `Remove` A metódus nem kerül meghívásra, így elkerülhetők a hibák.
 
 ### Visszavonhatom a törlést a dokumentum mentése után?
-dokumentum mentése után a változtatások véglegesek. Ha vissza kell vonni a változtatásokat, készítsen biztonsági másolatot.
+A dokumentum mentése után a módosítások véglegesek. Készítsen biztonsági másolatot, ha vissza szeretné vonni a módosításokat.
 
-### Lehetséges egy sor törlése más kritériumok alapján?
-Igen, az Aspose.Words for .NET különféle módszereket kínál a dokumentumelemek különböző kritériumok alapján történő navigálásához és kezeléséhez.
+### Lehetséges egy sort más kritériumok alapján törölni?
+Igen, az Aspose.Words for .NET különféle metódusokat kínál a dokumentumelemek közötti navigálásra és manipulálásra különböző kritériumok alapján.
 
-### Ez a módszer minden Word-dokumentumhoz működik?
-Ez a módszer az Aspose.Words for .NET programmal kompatibilis dokumentumok esetén működik. Győződjön meg arról, hogy a dokumentum formátuma támogatott.
+### Ez a módszer minden típusú Word dokumentummal működik?
+Ez a módszer az Aspose.Words for .NET-tel kompatibilis dokumentumok esetén működik. Győződjön meg arról, hogy a dokumentum formátuma támogatott.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

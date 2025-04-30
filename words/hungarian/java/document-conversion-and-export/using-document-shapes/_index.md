@@ -1,32 +1,34 @@
 ---
-title: Dokumentum alakzatok használata az Aspose.Words for Java programban
-linktitle: Dokumentumformák használata
-second_title: Aspose.Words Java Document Processing API
-description: Fedezze fel a dokumentumalakzatok erejét az Aspose.Words for Java programban. Ismerje meg, hogyan hozhat létre vizuálisan lebilincselő dokumentumokat lépésről lépésre példákkal.
-weight: 14
-url: /hu/java/document-conversion-and-export/using-document-shapes/
+"description": "Engedd szabadjára a dokumentumalakzatok erejét az Aspose.Words for Java programban. Tanulj meg vizuálisan lebilincselő dokumentumokat létrehozni lépésről lépésre bemutatott példákkal."
+"linktitle": "Dokumentumformák használata"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Dokumentumformák használata az Aspose.Words Java-ban"
+"url": "/hu/java/document-conversion-and-export/using-document-shapes/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dokumentum alakzatok használata az Aspose.Words for Java programban
+# Dokumentumformák használata az Aspose.Words Java-ban
 
 
-## Bevezetés a dokumentumalakzatok használatába az Aspose.Words for Java programban
+## Bevezetés a dokumentumalakzatok használatába az Aspose.Words Java-ban
 
-Ebben az átfogó útmutatóban elmélyülünk az Aspose.Words for Java dokumentumformáinak világában. A formák elengedhetetlenek a tetszetős és interaktív dokumentumok létrehozásához. Függetlenül attól, hogy feliratokat, gombokat, képeket vagy vízjeleket kell hozzáadnia, az Aspose.Words for Java eszközöket biztosít a hatékony végrehajtáshoz. Fedezze fel, hogyan használhatja ezeket az alakzatokat lépésről lépésre forráskód-példákkal.
+Ebben az átfogó útmutatóban elmerülünk az Aspose.Words for Java dokumentumformák világában. Az alakzatok elengedhetetlen elemek a vizuálisan vonzó és interaktív dokumentumok létrehozásához. Akár feliratokat, gombokat, képeket vagy vízjeleket kell hozzáadnia, az Aspose.Words for Java biztosítja az ehhez szükséges eszközöket. Fedezzük fel lépésről lépésre, forráskódpéldákkal bemutatva, hogyan használhatja ezeket az alakzatokat.
 
-## Ismerkedés a dokumentumalakzatokkal
+## Dokumentumformák használatának első lépései
 
- Mielőtt belevágnánk a kódba, állítsuk be a környezetünket. Győződjön meg arról, hogy az Aspose.Words for Java integrálva van a projektjébe. Ha még nem tette meg, letöltheti az Aspose webhelyéről[Töltse le az Aspose.Words for Java programot](https://releases.aspose.com/words/java/)
+Mielőtt belevágnánk a kódba, állítsuk be a környezetünket. Győződjünk meg róla, hogy az Aspose.Words for Java integrálva van a projektünkbe. Ha még nem tetted meg, letöltheted az Aspose weboldaláról. [Aspose.Words letöltése Java-hoz](https://releases.aspose.com/words/java/)
 
-## Alakzatok hozzáadása a dokumentumokhoz
+## Alakzatok hozzáadása dokumentumokhoz
 
 ### Csoportalakzat beszúrása
 
- A`GroupShape` lehetővé teszi több alakzat csoportosítását. Így hozhat létre és illeszthet be a`GroupShape`:
+Egy `GroupShape` lehetővé teszi több alakzat csoportosítását. Így hozhat létre és szúrhat be egyet `GroupShape`:
 
 ```java
 Document doc = new Document();
@@ -58,7 +60,7 @@ doc.save("Your Directory Path" + "WorkingWithShapes.AddGroupShape.docx");
 
 ### Szövegdoboz alakzat beszúrása
 
- Szövegdoboz alakzat beszúrásához használhatja a`insertShape` módszer az alábbi példában látható módon:
+Szövegdoboz alakzat beszúrásához használhatja a `insertShape` a módszer, ahogy az az alábbi példában látható:
 
 ```java
 Document doc = new Document();
@@ -79,11 +81,11 @@ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
 doc.save("Your Directory Path" + "WorkingWithShapes.InsertShape.docx", saveOptions);
 ```
 
-## Az alak tulajdonságainak manipulálása
+## Alakzattulajdonságok manipulálása
 
 ### Képarány kezelése
 
-Beállíthatja, hogy egy alakzat képaránya zárolva legyen-e vagy sem. A következőképpen oldhatja fel egy alakzat képarányát:
+Beállíthatja, hogy egy alakzat képaránya zárolva legyen-e vagy sem. Így oldhatja fel egy alakzat képarányának feloldását:
 
 ```java
 Document doc = new Document();
@@ -95,9 +97,9 @@ shape.setAspectRatioLocked(false);
 doc.save("Your Directory Path" + "WorkingWithShapes.AspectRatioLocked.docx");
 ```
 
-### Alakzat elhelyezése táblázatcellában
+### Alakzat elhelyezése egy táblázatcellában
 
-Ha egy alakzatot el kell helyeznie egy táblázat cellájába, ezt a következő kóddal érheti el:
+Ha egy alakzatot kell elhelyezned egy táblázatcellában, ezt a következő kóddal teheted meg:
 
 ```java
 Document doc = new Document();
@@ -120,7 +122,7 @@ builder.endTable();
 Shape watermark = new Shape(doc, ShapeType.TEXT_PLAIN_TEXT);
 watermark.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
 watermark.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
-watermark.isLayoutInCell(true); // Az alakzat megjelenítése a táblázatcellán kívül, ha cellába kerül.
+watermark.isLayoutInCell(true); // Jelenítse meg az alakzatot a táblázatcellán kívül, ha az egy cellába kerül.
 watermark.setWidth(300.0);
 watermark.setHeight(70.0);
 watermark.setHorizontalAlignment(HorizontalAlignment.CENTER);
@@ -141,11 +143,11 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010);
 doc.save("Your Directory Path" + "WorkingWithShapes.LayoutInCell.docx");
 ```
 
-## Munkavégzés SmartArt alakzatokkal
+## SmartArt alakzatok használata
 
-### SmartArt alakzatok észlelése
+### SmartArt alakzatok felismerése
 
-A SmartArt alakzatokat a következő kód segítségével észlelheti egy dokumentumban:
+A következő kóddal észlelheti a SmartArt alakzatokat egy dokumentumban:
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -154,9 +156,9 @@ int count = (int) shapes.stream().filter(s -> s.hasSmartArt()).count();
 System.out.println("The document has " + count + " shapes with SmartArt.");
 ```
 
-### SmartArt rajzok frissítése
+### SmartArt-rajzok frissítése
 
-A SmartArt-rajzok dokumentumon belüli frissítéséhez használja a következő kódot:
+A SmartArt-rajzok frissítéséhez egy dokumentumon belül használja a következő kódot:
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -168,32 +170,37 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 
 ## Következtetés
 
-Ebben az útmutatóban az Aspose.Words for Java dokumentumformáinak világát fedeztük fel. Megtanulta, hogyan adhat hozzá különféle alakzatokat a dokumentumokhoz, hogyan kezelheti tulajdonságaikat, és hogyan dolgozhat SmartArt-alakzatokkal. Ezzel a tudással könnyedén készíthet tetszetős és interaktív dokumentumokat.
+Ebben az útmutatóban az Aspose.Words for Java dokumentumalakzatainak világát fedeztük fel. Megtanultad, hogyan adhatsz hozzá különféle alakzatokat a dokumentumokhoz, hogyan kezelheted a tulajdonságaikat, és hogyan dolgozhatsz SmartArt alakzatokkal. Ezzel a tudással könnyedén készíthetsz vizuálisan vonzó és interaktív dokumentumokat.
 
 ## GYIK
 
-### Mi az Aspose.Words for Java?
+### Mi az Aspose.Words Java-hoz?
 
-Az Aspose.Words for Java egy Java-könyvtár, amely lehetővé teszi a fejlesztők számára Word-dokumentumok programozott létrehozását, módosítását és konvertálását. Funkciók és eszközök széles skáláját kínálja a különféle formátumú dokumentumok kezeléséhez.
+Az Aspose.Words for Java egy Java könyvtár, amely lehetővé teszi a fejlesztők számára Word dokumentumok programozott létrehozását, módosítását és konvertálását. Számos funkciót és eszközt kínál a különféle formátumú dokumentumokkal való munkához.
 
-### Hogyan tölthetem le az Aspose.Words for Java programot?
+### Hogyan tudom letölteni az Aspose.Words programot Java-hoz?
 
- Az Aspose.Words for Java fájlt az Aspose webhelyéről töltheti le, ha követi ezt a hivatkozást:[Töltse le az Aspose.Words for Java programot](https://releases.aspose.com/words/java/)
+Az Aspose.Words for Java programot letöltheted az Aspose weboldaláról a következő linkre kattintva: [Aspose.Words letöltése Java-hoz](https://releases.aspose.com/words/java/)
 
-### Milyen előnyei vannak a dokumentumformák használatának?
+### Milyen előnyei vannak a dokumentumalakzatok használatának?
 
-A dokumentumformák vizuális elemeket és interaktivitást adnak a dokumentumokhoz, így vonzóbbá és informatívabbá teszik azokat. Az alakzatokkal kiemeléseket, gombokat, képeket, vízjeleket és egyebeket hozhat létre, javítva az általános felhasználói élményt.
+A dokumentumalakzatok vizuális elemeket és interaktivitást adnak a dokumentumokhoz, így azok vonzóbbak és informatívabbak. Az alakzatok segítségével feliratokat, gombokat, képeket, vízjeleket és egyebeket hozhat létre, ami javítja az általános felhasználói élményt.
 
 ### Testreszabhatom az alakzatok megjelenését?
 
-Igen, testreszabhatja az alakzatok megjelenését a tulajdonságaik, például a méret, a helyzet, az elforgatás és a kitöltési szín módosításával. Az Aspose.Words for Java kiterjedt lehetőségeket kínál az alakzatok testreszabásához.
+Igen, testreszabhatja az alakzatok megjelenését olyan tulajdonságok módosításával, mint a méret, pozíció, forgatás és kitöltési szín. Az Aspose.Words for Java széleskörű lehetőségeket kínál az alakzatok testreszabásához.
 
-### Az Aspose.Words for Java kompatibilis a SmartArt-tal?
+### Kompatibilis az Aspose.Words for Java a SmartArt-tal?
 
-Igen, az Aspose.Words for Java támogatja a SmartArt alakzatokat, lehetővé téve a dokumentumok összetett diagramjaival és grafikáival való munkát.
+Igen, az Aspose.Words for Java támogatja a SmartArt alakzatokat, lehetővé téve az összetett diagramok és grafikák használatát a dokumentumokban.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

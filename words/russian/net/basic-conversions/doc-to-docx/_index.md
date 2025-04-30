@@ -1,14 +1,16 @@
 ---
-title: Конвертировать Doc в Docx
-linktitle: Конвертировать Doc в Docx
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как конвертировать DOC в DOCX с помощью Aspose.Words для .NET. Пошаговое руководство с примерами кода. Идеально подходит для разработчиков.
-weight: 10
-url: /ru/net/basic-conversions/doc-to-docx/
+"description": "Узнайте, как преобразовать DOC в DOCX с помощью Aspose.Words для .NET. Пошаговое руководство с примерами кода. Идеально подходит для разработчиков."
+"linktitle": "Конвертировать Doc в Docx"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Конвертировать Doc в Docx"
+"url": "/ru/net/basic-conversions/doc-to-docx/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Конвертировать Doc в Docx
@@ -21,7 +23,7 @@ url: /ru/net/basic-conversions/doc-to-docx/
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 - Visual Studio установлена в вашей системе.
--  Aspose.Words for .NET установлен. Вы можете скачать его с[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET установлен. Вы можете скачать его с [здесь](https://releases.aspose.com/words/net/).
 - Базовые знания языка программирования C#.
 
 ## Импорт пространств имен
@@ -48,7 +50,7 @@ Document doc = new Document(dataDir + "Document.doc");
 
 Далее сохраните загруженный документ в формате DOCX:
 ```csharp
-//Сохраните документ как DOCX
+// Сохраните документ как DOCX
 doc.Save(dataDir + "ConvertedDocument.docx", SaveFormat.Docx);
 ```
 
@@ -70,20 +72,25 @@ doc.Save(dataDir + "ConvertedDocument.docx", SaveFormat.Docx);
 Да, Aspose.Words поддерживает преобразование между различными форматами, включая DOC, DOCX, RTF, HTML, PDF и другие.
 
 ### Где я могу найти документацию по Aspose.Words?
- Вы можете получить доступ к документации[здесь](https://reference.aspose.com/words/net/).
+Вы можете получить доступ к документации [здесь](https://reference.aspose.com/words/net/).
 
 ### Существует ли бесплатная пробная версия Aspose.Words?
- Да, вы можете получить бесплатную пробную версию от[здесь](https://releases.aspose.com/).
+Да, вы можете получить бесплатную пробную версию от [здесь](https://releases.aspose.com/).
 
 ### Как я могу приобрести лицензию на Aspose.Words?
- Вы можете купить лицензию[здесь](https://purchase.aspose.com/buy).
+Вы можете купить лицензию [здесь](https://purchase.aspose.com/buy).
 
 ### Где я могу получить поддержку по Aspose.Words?
- Для получения поддержки посетите Aspose.Words[форум](https://forum.aspose.com/c/words/8).
+Для получения поддержки посетите Aspose.Words [форум](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

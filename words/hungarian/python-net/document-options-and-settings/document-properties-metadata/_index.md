@@ -1,44 +1,46 @@
 ---
-title: Dokumentumtulajdonságok és metaadatkezelés
-linktitle: Dokumentumtulajdonságok és metaadatkezelés
-second_title: Aspose.Words Python Document Management API
-description: Ismerje meg, hogyan kezelheti a dokumentum tulajdonságait és metaadatait az Aspose.Words for Python használatával. Lépésről lépésre útmutató forráskóddal.
-weight: 12
-url: /hu/python-net/document-options-and-settings/document-properties-metadata/
+"description": "Tanuld meg, hogyan kezelheted a dokumentumok tulajdonságait és metaadatait az Aspose.Words for Python használatával. Lépésről lépésre útmutató forráskóddal."
+"linktitle": "Dokumentumtulajdonságok és metaadat-kezelés"
+"second_title": "Aspose.Words Python dokumentumkezelő API"
+"title": "Dokumentumtulajdonságok és metaadat-kezelés"
+"url": "/hu/python-net/document-options-and-settings/document-properties-metadata/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dokumentumtulajdonságok és metaadatkezelés
+# Dokumentumtulajdonságok és metaadat-kezelés
 
 
 ## Bevezetés a dokumentumtulajdonságokba és a metaadatokba
 
-dokumentum tulajdonságai és metaadatai az elektronikus dokumentumok alapvető összetevői. Fontos információkat nyújtanak a dokumentumról, például a szerzőséget, a létrehozás dátumát és a kulcsszavakat. A metaadatok tartalmazhatnak további kontextuális információkat, amelyek segítik a dokumentumok kategorizálását és keresését. Az Aspose.Words for Python leegyszerűsíti ezen szempontok programozott kezelésének folyamatát.
+dokumentumtulajdonságok és a metaadatok az elektronikus dokumentumok alapvető összetevői. Kulcsfontosságú információkat nyújtanak a dokumentumról, például a szerzőségről, a létrehozás dátumáról és a kulcsszavakról. A metaadatok további kontextuális információkat is tartalmazhatnak, amelyek segítik a dokumentumok kategorizálását és keresését. Az Aspose.Words for Python leegyszerűsíti ezen szempontok programozott kezelésének folyamatát.
 
-## Az Aspose.Words for Python használatának megkezdése
+## Első lépések az Aspose.Words Pythonhoz használatával
 
-Mielőtt belemerülnénk a dokumentumtulajdonságok és metaadatok kezelésébe, állítsuk be környezetünket az Aspose.Words for Python segítségével.
+Mielőtt belemerülnénk a dokumentumok tulajdonságainak és metaadatainak kezelésébe, állítsuk be a környezetünket az Aspose.Words for Python segítségével.
 
 ```python
-# Install the Aspose.Words for Python package
+# Telepítse az Aspose.Words for Python csomagot
 pip install aspose-words
 
-# Import the necessary classes
+# Importálja a szükséges osztályokat
 import aspose.words as aw
 ```
 
-## Dokumentum tulajdonságainak lekérése
+## Dokumentumtulajdonságok lekérése
 
-Az Aspose.Words API segítségével egyszerűen lekérheti a dokumentum tulajdonságait. Íme egy példa egy dokumentum szerzőjének és címének lekérésére:
+A dokumentum tulajdonságait könnyedén lekérheti az Aspose.Words API segítségével. Íme egy példa arra, hogyan kérheti le egy dokumentum szerzőjét és címét:
 
 ```python
-# Load the document
+# Töltse be a dokumentumot
 doc = aw.Document("document.docx")
 
-# Retrieve document properties
+# Dokumentumtulajdonságok lekérése
 author = doc.built_in_document_properties["Author"]
 title = doc.built_in_document_properties["Title"]
 
@@ -46,87 +48,87 @@ print("Author:", author)
 print("Title:", title)
 ```
 
-## A dokumentum tulajdonságainak beállítása
+## Dokumentumtulajdonságok beállítása
 
-A dokumentum tulajdonságainak frissítése ugyanolyan egyszerű. Tegyük fel, hogy frissíteni szeretné a szerző nevét és címét:
+dokumentum tulajdonságainak frissítése ugyanilyen egyszerű. Tegyük fel, hogy frissíteni szeretnéd a szerző nevét és a címet:
 
 ```python
-# Update document properties
+# Dokumentumtulajdonságok frissítése
 doc.built_in_document_properties["Author"] = "John Doe"
 doc.built_in_document_properties["Title"] = "My Updated Document"
 
-# Save the changes
+# Mentse el a módosításokat
 doc.save("updated_document.docx")
 ```
 
-## Egyedi dokumentumtulajdonságok kezelése
+## Egyéni dokumentumtulajdonságok használata
 
-Az egyéni dokumentum tulajdonságai lehetővé teszik további információk tárolását a dokumentumon belül. Adjunk hozzá egy "Osztály" nevű egyéni tulajdonságot:
+Az egyéni dokumentumtulajdonságok lehetővé teszik további információk tárolását a dokumentumon belül. Adjunk hozzá egy „Osztály” nevű egyéni tulajdonságot:
 
 ```python
-# Add a custom document property
+# Egyéni dokumentumtulajdonság hozzáadása
 doc.custom_document_properties.add("Department", "Marketing")
 
-# Save the changes
+# Mentse el a módosításokat
 doc.save("document_with_custom_property.docx")
 ```
 
-## Metaadat-információk kezelése
+## Metaadatok kezelése
 
-A metaadatkezelés magában foglalja az olyan információk ellenőrzését, mint a változások nyomon követése, a dokumentumstatisztikák és egyebek. Az Aspose.Words segítségével programozottan elérheti és módosíthatja ezeket a metaadatokat.
+A metaadat-kezelés olyan információk kezelését foglalja magában, mint a változások követése, a dokumentumstatisztikák és egyebek. Az Aspose.Words lehetővé teszi ezeknek a metaadatoknak a programozott elérését és módosítását.
 
 ```python
-# Access and modify metadata
+# Metaadatok elérése és módosítása
 doc.metadata["Keywords"] = "Python, Aspose.Words, Metadata"
 ```
 
-## A metaadat-frissítések automatizálása
+## Metaadat-frissítések automatizálása
 
-A metaadatok gyakori frissítése az Aspose.Words segítségével automatizálható. Például automatikusan frissítheti a "Utoljára módosította" tulajdonságot:
+A metaadatok gyakori frissítései automatizálhatók az Aspose.Words segítségével. Például automatikusan frissítheti az „Utolsó módosítás” tulajdonságot:
 
 ```python
-# Automatically update "Last Modified By"
+# Az „Utolsó módosítás” automatikus frissítése
 doc.built_in_document_properties["LastModifiedBy"] = "Automated Process"
 ```
 
 ## Érzékeny információk védelme a metaadatokban
 
-A metaadatok néha érzékeny információkat tartalmazhatnak. Az adatvédelem érdekében eltávolíthat bizonyos tulajdonságokat:
+metaadatok néha bizalmas információkat tartalmazhatnak. Az adatvédelem biztosítása érdekében eltávolíthat bizonyos tulajdonságokat:
 
 ```python
-# Remove sensitive metadata properties
+# Bizalmas metaadat-tulajdonságok eltávolítása
 sensitive_properties = ["LastPrinted", "LastSavedBy"]
 for prop in sensitive_properties:
     if prop in doc.built_in_document_properties:
         doc.built_in_document_properties.remove(prop)
 ```
 
-## A dokumentumok verzióinak és előzményeinek kezelése
+## Dokumentumverziók és előzmények kezelése
 
-A verziószámozás kulcsfontosságú a dokumentumelőzmények megőrzéséhez. Az Aspose.Words lehetővé teszi a verziók hatékony kezelését:
+A verziókezelés elengedhetetlen a dokumentumok előzményeinek kezeléséhez. Az Aspose.Words lehetővé teszi a verziók hatékony kezelését:
 
 ```python
-# Add version history information
+# Verzióelőzmény-információk hozzáadása
 version_info = doc.built_in_document_properties.add("VersionInfo")
 version_info.value = "Version 1.0 - Initial Release"
 ```
 
-## Dokumentumtulajdonosi bevált gyakorlatok
+## Dokumentumtulajdonságok – ajánlott eljárások
 
-- Tartsa a dokumentum tulajdonságait pontosan és naprakészen.
+- Tartsa a dokumentum tulajdonságait pontosnak és naprakésznek.
 - Használjon egyéni tulajdonságokat további kontextushoz.
 - Rendszeresen ellenőrizze és frissítse a metaadatokat.
-- Védje a metaadatokban található érzékeny információkat.
+- Védje a metaadatokban található bizalmas információkat.
 
 ## Következtetés
 
-A dokumentumtulajdonságok és metaadatok hatékony kezelése létfontosságú a dokumentumok rendszerezéséhez és visszakereséséhez. Az Aspose.Words for Python leegyszerűsíti ezt a folyamatot, lehetővé téve a fejlesztők számára, hogy könnyedén kezeljék és programozottan szabályozzák a dokumentumattribútumokat.
+A dokumentumtulajdonságok és metaadatok hatékony kezelése elengedhetetlen a dokumentumok rendszerezéséhez és visszakereséséhez. Az Aspose.Words for Python leegyszerűsíti ezt a folyamatot, lehetővé téve a fejlesztők számára, hogy könnyedén manipulálják és kezeljék a dokumentumattribútumokat programozottan.
 
 ## GYIK
 
-### Hogyan telepíthetem az Aspose.Words for Python programot?
+### Hogyan telepíthetem az Aspose.Words Pythonhoz készült verzióját?
 
-Az Aspose.Words for Python programot a következő paranccsal telepítheti:
+Az Aspose.Words Pythonhoz való telepítéséhez használja a következő parancsot:
 
 ```python
 pip install aspose-words
@@ -134,21 +136,26 @@ pip install aspose-words
 
 ### Automatizálhatom a metaadatok frissítését az Aspose.Words használatával?
 
-Igen, automatizálhatja a metaadatok frissítését az Aspose.Words használatával. Például automatikusan frissítheti a „Utoljára módosította” tulajdonságot.
+Igen, automatizálhatja a metaadatok frissítését az Aspose.Words segítségével. Például automatikusan frissítheti az „Utolsó módosítás” tulajdonságot.
 
-### Hogyan védhetem meg a metaadatokban található érzékeny információkat?
+### Hogyan védhetem meg a metaadatokban található bizalmas információkat?
 
- A metaadatok érzékeny információinak védelme érdekében eltávolíthat bizonyos tulajdonságokat a`remove` módszer.
+A metaadatokban található bizalmas információk védelme érdekében eltávolíthat bizonyos tulajdonságokat a `remove` módszer.
 
-### Melyek a bevált módszerek a dokumentumtulajdonságok kezeléséhez?
+### Milyen bevált gyakorlatok vannak a dokumentumtulajdonságok kezelésére?
 
-- Biztosítsa a dokumentum tulajdonságainak pontosságát és pontosságát.
+- Biztosítsa a dokumentumtulajdonságok pontosságát és időszerűségét.
 - Használjon egyéni tulajdonságokat további kontextushoz.
 - Rendszeresen ellenőrizze és frissítse a metaadatokat.
-- A metaadatokban található érzékeny információk védelme.
+- Védje a metaadatokban található bizalmas információkat.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Получить предпочтительный тип ширины
-linktitle: Получить предпочтительный тип ширины
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как получить предпочтительный тип ширины ячеек таблиц в документах Word с помощью Aspose.Words для .NET, следуя нашему пошаговому руководству.
-weight: 10
-url: /ru/net/programming-with-tables/retrieve-preferred-width-type/
+"description": "Узнайте, как получить предпочтительный тип ширины ячеек таблиц в документах Word с помощью Aspose.Words для .NET, следуя нашему пошаговому руководству."
+"linktitle": "Получить предпочтительный тип ширины"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Получить предпочтительный тип ширины"
+"url": "/ru/net/programming-with-tables/retrieve-preferred-width-type/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получить предпочтительный тип ширины
@@ -21,10 +23,10 @@ url: /ru/net/programming-with-tables/retrieve-preferred-width-type/
 
 Прежде чем мы начнем, вам понадобится несколько вещей:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия. Вы можете загрузить ее с[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия. Вы можете загрузить ее с [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: вам понадобится IDE, например Visual Studio.
 3. Базовые знания C#: понимание основ C# поможет вам в дальнейшем изучении.
-4.  Образец документа: Подготовьте документ Word с таблицами, над которыми вы можете работать. Вы можете использовать любой документ, но мы будем называть его`Tables.docx` в этом уроке.
+4. Образец документа: Подготовьте документ Word с таблицами, над которыми вы можете работать. Вы можете использовать любой документ, но мы будем называть его `Tables.docx` в этом уроке.
 
 ## Импорт пространств имен
 
@@ -41,11 +43,11 @@ using Aspose.Words.Tables;
 Прежде чем манипулировать нашим документом, нам нужно указать каталог, в котором он находится. Это простой, но важный шаг.
 
 ```csharp
-// Путь к каталогу ваших документов
+// Путь к каталогу ваших документов 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу вашего документа. Это сообщает нашей программе, где найти файл, с которым мы хотим работать.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу вашего документа. Это сообщает нашей программе, где найти файл, с которым мы хотим работать.
 
 ## Шаг 2: Загрузите документ
 
@@ -55,7 +57,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- Эта строка кода открывает`Tables.docx` документ из указанного каталога. Теперь наш документ готов к дальнейшим операциям.
+Эта строка кода открывает `Tables.docx` документ из указанного каталога. Теперь наш документ готов к дальнейшим операциям.
 
 ## Шаг 3: Доступ к таблице
 
@@ -75,7 +77,7 @@ Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 table.AllowAutoFit = true;
 ```
 
- Параметр`AllowAutoFit` к`true` обеспечивает изменение размера столбцов таблицы в зависимости от их содержимого, придавая нашей таблице динамичный вид.
+Параметр `AllowAuкFit` to `true` обеспечивает изменение размера столбцов таблицы в зависимости от их содержимого, придавая нашей таблице динамичный вид.
 
 ## Шаг 5: Получите предпочтительный тип ширины первой ячейки
 
@@ -87,7 +89,7 @@ PreferredWidthType type = firstCell.CellFormat.PreferredWidth.Type;
 double value = firstCell.CellFormat.PreferredWidth.Value;
 ```
 
- Эти строки кода обращаются к первой ячейке в первой строке таблицы и извлекают ее предпочтительный тип ширины и значение.`PreferredWidthType` может быть`Auto`, `Percent` , или`Point`, указывающий, как определяется ширина.
+Эти строки кода обращаются к первой ячейке в первой строке таблицы и извлекают ее предпочтительный тип ширины и значение. `PreferredWidthType` может быть `Auto`, `Percent`, или `Point`, указывающий, как определяется ширина.
 
 ## Шаг 6: Отображение результатов
 
@@ -110,13 +112,13 @@ Console.WriteLine("Preferred Width Value: " + value);
 
 Да, вы можете просмотреть каждую ячейку таблицы и получить для нее предпочитаемые типы ширины по отдельности.
 
-###  Каковы возможные значения для`PreferredWidthType`?
+### Каковы возможные значения для `PreferredWidthType`?
 
-`PreferredWidthType` может быть`Auto`, `Percent` , или`Point`.
+`PreferredWidthType` может быть `Auto`, `Percent`, или `Point`.
 
 ### Можно ли программно задать предпочтительный тип ширины?
 
- Конечно! Вы можете задать предпочитаемый тип ширины и значение с помощью`PreferredWidth` собственность`CellFormat` сорт.
+Конечно! Вы можете задать предпочитаемый тип ширины и значение с помощью `PreferredWidth` собственность `CellFormat` сорт.
 
 ### Можно ли использовать этот метод для таблиц в документах, отличных от Word?
 
@@ -124,10 +126,15 @@ Console.WriteLine("Preferred Width Value: " + value);
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?
 
- Да, Aspose.Words for .NET — это лицензионный продукт. Вы можете получить бесплатную пробную версию[здесь](https://releases.aspose.com/) или временная лицензия[здесь](https://purchase.aspose.com/temporary-license/).
+Да, Aspose.Words for .NET — это лицензионный продукт. Вы можете получить бесплатную пробную версию [здесь](https://releases.aspose.com/) или временная лицензия [здесь](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

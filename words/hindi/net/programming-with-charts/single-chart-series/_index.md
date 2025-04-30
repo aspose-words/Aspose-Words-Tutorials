@@ -1,14 +1,16 @@
 ---
-title: एक चार्ट में एकल चार्ट श्रृंखला को अनुकूलित करें
-linktitle: एक चार्ट में एकल चार्ट श्रृंखला को अनुकूलित करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में एकल चार्ट श्रृंखला को कस्टमाइज़ करना सीखें। सहज अनुभव के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/programming-with-charts/single-chart-series/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में एकल चार्ट श्रृंखला को कस्टमाइज़ करना सीखें। सहज अनुभव के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "एक चार्ट में एकल चार्ट श्रृंखला को अनुकूलित करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "एक चार्ट में एकल चार्ट श्रृंखला को अनुकूलित करें"
+"url": "/hi/net/programming-with-charts/single-chart-series/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एक चार्ट में एकल चार्ट श्रृंखला को अनुकूलित करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-charts/single-chart-series/
 
 शुरू करने से पहले, आइए सुनिश्चित करें कि हमारे पास वह सब कुछ है जिसकी हमें ज़रूरत है। यहाँ एक त्वरित चेकलिस्ट दी गई है:
 
-1.  .NET लाइब्रेरी के लिए Aspose.Words: आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. .NET लाइब्रेरी के लिए Aspose.Words: आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विजुअल स्टूडियो: कोई भी नवीनतम संस्करण काम कर सकता है।
 3. C# की बुनियादी समझ: कुछ भी ज्यादा जटिल नहीं, सिर्फ मूल बातें ही काफी होंगी।
 
@@ -65,7 +67,7 @@ ChartSeries series1 = chart.Series[1];
 
 ## चरण 4: चार्ट श्रृंखला का नाम बदलें
 
-आइए अपनी चार्ट श्रृंखला को कुछ सार्थक नाम दें। यह पेंटिंग शुरू करने से पहले अपने पेंटब्रश पर लेबल लगाने जैसा है।
+आइए अपनी चार्ट श्रृंखला को कुछ सार्थक नाम दें। यह वैसा ही है जैसे आप पेंटिंग शुरू करने से पहले अपने पेंटब्रश पर लेबल लगाते हैं।
 
 ```csharp
 series0.Name = "Chart Series Name 1";
@@ -118,19 +120,24 @@ doc.Save(dataDir + "WorkingWithCharts.SingleChartSeries.docx");
 Aspose.Words for .NET एक शक्तिशाली लाइब्रेरी है जो आपको प्रोग्रामेटिक रूप से Word दस्तावेज़ों को बनाने, संपादित करने, परिवर्तित करने और हेरफेर करने की अनुमति देती है।
 
 ### क्या मैं Aspose.Words का निःशुल्क उपयोग कर सकता हूँ?
-हां, आप शुरुआत कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/).
+हां, आप शुरुआत कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/).
 
 ### मैं Aspose.Words के लिए समर्थन कैसे प्राप्त करूं?
- आप Aspose समुदाय से उनके यहां सहायता प्राप्त कर सकते हैं[मंच](https://forum.aspose.com/c/words/8).
+आप Aspose समुदाय से उनके यहां सहायता प्राप्त कर सकते हैं [मंच](https://forum.aspose.com/c/words/8).
 
 ### क्या अन्य चार्ट प्रकारों को अनुकूलित करना संभव है?
-बिल्कुल! Aspose.Words विभिन्न चार्ट प्रकारों जैसे बार, पाई और स्कैटर चार्ट का समर्थन करता है।
+बिल्कुल! Aspose.Words बार, पाई और स्कैटर चार्ट जैसे विभिन्न चार्ट प्रकारों का समर्थन करता है।
 
 ### मैं अधिक दस्तावेज कहां पा सकता हूं?
- इसकी जाँच पड़ताल करो[प्रलेखन](https://reference.aspose.com/words/net/) अधिक विस्तृत मार्गदर्शिका और उदाहरण के लिए.
+इसकी जाँच पड़ताल करो [प्रलेखन](https://reference.aspose.com/words/net/) अधिक विस्तृत मार्गदर्शिका और उदाहरण के लिए.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

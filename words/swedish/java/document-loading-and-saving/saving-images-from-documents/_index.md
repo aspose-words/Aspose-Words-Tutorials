@@ -1,14 +1,16 @@
 ---
-title: Spara bilder från dokument i Aspose.Words för Java
-linktitle: Spara bilder från dokument
-second_title: Aspose.Words Java Document Processing API
-description: Lär dig hur du sparar bilder från dokument med Aspose.Words för Java med vår omfattande steg-för-steg-guide. Anpassa format, komprimering och mer.
-weight: 17
-url: /sv/java/document-loading-and-saving/saving-images-from-documents/
+"description": "Lär dig hur du sparar bilder från dokument med Aspose.Words för Java med vår omfattande steg-för-steg-guide. Anpassa format, komprimering och mer."
+"linktitle": "Spara bilder från dokument"
+"second_title": "Aspose.Words Java-dokumentbehandlings-API"
+"title": "Spara bilder från dokument i Aspose.Words för Java"
+"url": "/sv/java/document-loading-and-saving/saving-images-from-documents/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Spara bilder från dokument i Aspose.Words för Java
@@ -16,15 +18,15 @@ url: /sv/java/document-loading-and-saving/saving-images-from-documents/
 
 ## Introduktion till att spara bilder från dokument i Aspose.Words för Java
 
-I den här handledningen kommer vi att utforska hur man sparar bilder från dokument med Aspose.Words för Java. Vi kommer att täcka olika scenarier och anpassningsalternativ för att spara bilder. Den här guiden ger steg-för-steg-instruktioner med exempel på källkod.
+I den här handledningen ska vi utforska hur man sparar bilder från dokument med Aspose.Words för Java. Vi kommer att gå igenom olika scenarier och anpassningsalternativ för att spara bilder. Den här guiden ger steg-för-steg-instruktioner med exempel på källkod.
 
-## Förutsättningar
+## Förkunskapskrav
 
- Innan du börjar, se till att du har Aspose.Words for Java-biblioteket integrerat i ditt projekt. Du kan ladda ner den från[här](https://releases.aspose.com/words/java/).
+Innan du börjar, se till att du har Aspose.Words för Java-biblioteket integrerat i ditt projekt. Du kan ladda ner det från [här](https://releases.aspose.com/words/java/).
 
 ## Steg 1: Spara bilder som TIFF med tröskelkontroll
 
-För att spara bilder som TIFF-format med tröskelkontroll, följ dessa steg:
+För att spara bilder i TIFF-format med tröskelkontroll, följ dessa steg:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -49,7 +51,7 @@ saveOptions.setResolution(160f);
 doc.save("Your Directory Path" + "SpecificPageMultipage.tiff", saveOptions);
 ```
 
-## Steg 3: Spara bilder som 1 BPP Indexerad PNG
+## Steg 3: Spara bilder som 1 BPP-indexerad PNG
 
 För att spara bilder som 1 BPP-indexerad PNG, följ dessa steg:
 
@@ -76,9 +78,9 @@ options.setHorizontalResolution(72f);
 doc.save("Your Directory Path" + "CustomizedJPEG.jpeg", options);
 ```
 
-## Steg 5: Använda Page Saving Callback
+## Steg 5: Använda återuppringning för att spara sidor
 
-Du kan använda en återuppringning för att anpassa sidsparandet. Här är ett exempel:
+Du kan använda en återuppringning för att anpassa sidsparning. Här är ett exempel:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -139,10 +141,10 @@ public void getJpegPageRange() throws Exception
 {
 	Document doc = new Document("Your Directory Path" + "Rendering.docx");
 	ImageSaveOptions options = new ImageSaveOptions();
-	// Ställ in "Siduppsättning" till "0" för att endast konvertera den första sidan i ett dokument.
+	// Ställ in "PageSet" till "0" för att endast konvertera den första sidan i ett dokument.
 	options.setPageSet(new PageSet(0));
 	// Ändra bildens ljusstyrka och kontrast.
-	// Båda är på en 0-1 skala och är på 0,5 som standard.
+	// Båda är på en skala från 0–1 och är som standard på 0,5.
 	options.setImageBrightness(0.3f);
 	options.setImageContrast(0.7f);
 	// Ändra den horisontella upplösningen.
@@ -171,13 +173,13 @@ private static class HandlePageSavingCallback implements IPageSavingCallback
 
 ## Slutsats
 
-Du har lärt dig hur du sparar bilder från dokument med Aspose.Words för Java. Dessa exempel visar olika anpassningsalternativ för bildsparande, inklusive format, komprimering och återuppringning. Utforska fler möjligheter med Aspose.Words för Javas kraftfulla funktioner.
+Du har lärt dig hur man sparar bilder från dokument med Aspose.Words för Java. Dessa exempel visar olika anpassningsalternativ för att spara bilder, inklusive format, komprimering och återuppringning. Utforska fler möjligheter med Aspose.Words för Javas kraftfulla funktioner.
 
-## FAQ's
+## Vanliga frågor
 
 ### Hur ändrar jag bildformatet när jag sparar med Aspose.Words för Java?
 
- Du kan ändra bildformatet genom att ange önskat format i`ImageSaveOptions` . Använd till exempel för att spara som PNG`SaveFormat.PNG` som visas i koden:
+Du kan ändra bildformatet genom att ange önskat format i `ImageSaveOptions`Till exempel, för att spara som PNG, använd `SaveFormat.PNG` som visas i koden:
 
 ```java
 ImageSaveOptions saveOptions = new ImageSaveOptions();
@@ -185,7 +187,7 @@ ImageSaveOptions saveOptions = new ImageSaveOptions();
 
 ### Kan jag anpassa komprimeringsinställningarna för TIFF-bilder?
 
-Ja, du kan anpassa inställningarna för TIFF-bildkomprimering. Till exempel, för att ställa in komprimeringsmetoden till CCITT_3, använd följande kod:
+Ja, du kan anpassa inställningarna för TIFF-bildkomprimering. Om du till exempel vill ställa in komprimeringsmetoden till CCITT_3 använder du följande kod:
 
 ```java
 saveOptions.setTiffCompression(TiffCompression.CCITT_3);
@@ -193,7 +195,7 @@ saveOptions.setTiffCompression(TiffCompression.CCITT_3);
 
 ### Hur kan jag spara en specifik sida från ett dokument som en separat bild?
 
- För att spara en specifik sida som en bild, använd`setPageSet`metod i`ImageSaveOptions` . Om du till exempel bara vill spara den första sidan ställer du in`PageSet` till`new PageSet(0)`.
+För att spara en specifik sida som en bild, använd `setPageSet` metod i `ImageSaveOptions`Om du till exempel bara vill spara den första sidan ställer du in `PageSet` till `new PageSet(0)`.
 
 ```java
 saveOptions.setPageSet(new PageSet(0)); // Spara den första sidan som en bild
@@ -201,22 +203,22 @@ saveOptions.setPageSet(new PageSet(0)); // Spara den första sidan som en bild
 
 ### Hur tillämpar jag anpassade inställningar på JPEG-bilder när jag sparar?
 
-Du kan använda anpassade inställningar på JPEG-bilder med hjälp av`ImageSaveOptions`. Justera egenskaper som ljusstyrka, kontrast och upplösning. Till exempel, för att ändra ljusstyrka till 0,3 och kontrast till 0,7, använd den här koden:
+Du kan använda anpassade inställningar för JPEG-bilder med hjälp av `ImageSaveOptions`Justera egenskaper som ljusstyrka, kontrast och upplösning. För att till exempel ändra ljusstyrka till 0,3 och kontrast till 0,7, använd den här koden:
 
 ```java
 options.setImageBrightness(0.3f);
 options.setImageContrast(0.7f);
 ```
 
-### Hur kan jag använda en återuppringning för att anpassa bildsparandet?
+### Hur kan jag använda en återanropsfunktion för att anpassa bildsparning?
 
- För att använda en återuppringning för att anpassa bildsparandet, ställ in`PageSavingCallback` i`ImageSaveOptions` . Skapa en klass som implementerar`IPageSavingCallback` gränssnittet och åsidosätt`pageSaving` metod.
+För att använda en återuppringning för att anpassa bildsparning, ställ in `PageSavigCallback` in `ImageSaveOptions`Skapa en klass som implementerar `IPageSavingCallback` gränssnittet och åsidosätta `pageSaving` metod.
 
 ```java
 imageSaveOptions.setPageSavingCallback(new HandlePageSavingCallback());
 ```
 
- Skapa sedan en klass som implementerar`IPageSavingCallback` gränssnittet och anpassa filnamnet och platsen i`pageSaving` metod.
+Skapa sedan en klass som implementerar `IPageSavingCallback` gränssnittet och anpassa filnamnet och platsen i `pageSaving` metod.
 
 ```java
 private static class HandlePageSavingCallback implements IPageSavingCallback {
@@ -225,9 +227,14 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
     }
 }
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

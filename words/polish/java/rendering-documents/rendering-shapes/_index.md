@@ -1,14 +1,16 @@
 ---
-title: Renderowanie kształtów w Aspose.Words dla Java
-linktitle: Renderowanie kształtów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Naucz się renderować kształty w Aspose.Words dla Java dzięki temu samouczkowi krok po kroku. Twórz obrazy EMF programowo.
-weight: 10
-url: /pl/java/rendering-documents/rendering-shapes/
+"description": "Naucz się renderować kształty w Aspose.Words dla Java dzięki temu samouczkowi krok po kroku. Twórz obrazy EMF programowo."
+"linktitle": "Renderowanie kształtów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Renderowanie kształtów w Aspose.Words dla Java"
+"url": "/pl/java/rendering-documents/rendering-shapes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Renderowanie kształtów w Aspose.Words dla Java
@@ -45,7 +47,7 @@ ShapeRenderer render = shape.getShapeRenderer();
 
 ## 5. Renderowanie kształtu jako obrazu EMF
 
- Teraz nadchodzi ekscytująca część - renderowanie kształtu jako obrazu EMF. Użyjemy`ImageSaveOptions` Klasa umożliwiająca określenie formatu wyjściowego i dostosowanie renderowania.
+Teraz nadchodzi ekscytująca część - renderowanie kształtu jako obrazu EMF. Użyjemy `ImageSaveOptions` Klasa umożliwiająca określenie formatu wyjściowego i dostosowanie renderowania.
 
 ```java
 ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.EMF);
@@ -95,21 +97,26 @@ Tak, Aspose.Words for Java obsługuje szeroką gamę formatów dokumentów, w ty
 
 ### P3: Czy są dostępne jakieś opcje licencjonowania dla Aspose.Words dla Java?
 
-Tak, możesz zapoznać się z opcjami licencjonowania i zakupić Aspose.Words dla Java na[Strona internetowa Aspose](https://purchase.aspose.com/buy).
+Tak, możesz zapoznać się z opcjami licencjonowania i zakupić Aspose.Words dla Java na [Strona internetowa Aspose](https://purchase.aspose.com/buy).
 
 ### P4: Czy mogę wypróbować Aspose.Words dla Java przed zakupem?
 
- Oczywiście! Możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Words for Java na[Aspose.Wydania](https://releases.aspose.com/).
+Oczywiście! Możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Words dla Javy na [Aspose.Wydania](https://releases.aspose.com/).
 
 ### P5: Gdzie mogę uzyskać pomoc lub zadać pytania dotyczące Aspose.Words dla Java?
 
- W przypadku pytań lub chęci uzyskania pomocy odwiedź stronę[Aspose.Words dla forum Java](https://forum.aspose.com/).
+W przypadku pytań lub chęci uzyskania pomocy odwiedź stronę [Aspose.Words dla forum Java](https://forum.aspose.com/).
 
 Teraz, gdy opanowałeś renderowanie kształtów za pomocą Aspose.Words for Java, jesteś gotowy, aby uwolnić pełen potencjał tego wszechstronnego API w swoich projektach przetwarzania dokumentów. Miłego kodowania!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

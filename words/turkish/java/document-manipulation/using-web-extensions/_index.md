@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Web Uzantılarını Kullanma
-linktitle: Web Uzantılarını Kullanma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java'da Web Uzantılarıyla Belgeleri Geliştirin. Web tabanlı içeriği sorunsuz bir şekilde entegre etmeyi öğrenin.
-weight: 33
-url: /tr/java/document-manipulation/using-web-extensions/
+"description": "Aspose.Words for Java'da Web Uzantılarıyla Belgeleri Geliştirin. Web tabanlı içeriği sorunsuz bir şekilde entegre etmeyi öğrenin."
+"linktitle": "Web Uzantılarını Kullanma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Web Uzantılarını Kullanma"
+"url": "/tr/java/document-manipulation/using-web-extensions/"
+"weight": 33
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Web Uzantılarını Kullanma
@@ -20,7 +22,7 @@ Bu eğitimde, belgenizin işlevselliğini artırmak için Aspose.Words for Java'
 
 ## Ön koşullar
 
- Başlamadan önce projenizde Aspose.Words for Java'nın kurulu olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/words/java/).
+Başlamadan önce projenizde Aspose.Words for Java'nın kurulu olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/words/java/).
 
 ## Bir Web Uzantısı Görev Bölmesi Ekleme
 
@@ -32,7 +34,7 @@ Bir belgeye web uzantısı görev bölmesi eklemek için şu adımları izleyin:
 Document doc = new Document();
 ```
 
-##  Bir tane oluştur`TaskPane` instance and add it to the document's web extension task panes:
+## Bir tane oluştur `TaskPane` örneği oluşturun ve belgenin web uzantısı görev bölmelerine ekleyin:
 
 ```java
 TaskPane taskPane = new TaskPane();
@@ -109,10 +111,15 @@ Java için Aspose.Words web uzantıları için sağlam destek sağlarken, belgen
 
 ### Aspose.Words for Java'da web uzantılarını kullanma hakkında daha fazla bilgi ve kaynağı nasıl bulabilirim?
 
- Aspose.Words for Java'da web uzantılarının kullanımıyla ilgili ayrıntılı belgeler ve kaynaklar için Aspose belgelerine başvurabilirsiniz.[Burada](https://reference.aspose.com/words/java/)Belgenizin işlevselliğini artırmak için web uzantılarıyla çalışmaya ilişkin derinlemesine bilgiler, örnekler ve yönergeler sağlar.
+Aspose.Words for Java'da web uzantılarının kullanımıyla ilgili ayrıntılı belgeler ve kaynaklar için Aspose belgelerine başvurabilirsiniz. [Burada](https://reference.aspose.com/words/java/)Belgenizin işlevselliğini artırmak için web uzantılarıyla çalışmaya ilişkin derinlemesine bilgiler, örnekler ve yönergeler sağlar.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

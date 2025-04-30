@@ -1,35 +1,37 @@
 ---
-title: Använda XML-data i Aspose.Words för Java
-linktitle: Använda XML-data
-second_title: Aspose.Words Java Document Processing API
-description: Lås upp kraften i Aspose.Words för Java. Lär dig XML-datahantering, brevkoppling och mustaschsyntax med steg-för-steg handledning.
-weight: 12
-url: /sv/java/document-manipulation/using-xml-data/
+"description": "Lås upp kraften i Aspose.Words för Java. Lär dig XML-datahantering, dokumentkoppling och mustaschsyntax med steg-för-steg-handledningar."
+"linktitle": "Använda XML-data"
+"second_title": "Aspose.Words Java-dokumentbehandlings-API"
+"title": "Använda XML-data i Aspose.Words för Java"
+"url": "/sv/java/document-manipulation/using-xml-data/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Använda XML-data i Aspose.Words för Java
 
 
-## Introduktion till att använda XML-data i Aspose.Words för Java
+## Introduktion till användning av XML-data i Aspose.Words för Java
 
-I den här guiden kommer vi att utforska hur man arbetar med XML-data med Aspose.Words för Java. Du lär dig hur du utför kopplingsoperationer, inklusive kapslade kopplingar, och hur du använder Mustache-syntaxen med en datauppsättning. Vi kommer att tillhandahålla steg-för-steg-instruktioner och källkodsexempel för att hjälpa dig komma igång.
+I den här guiden utforskar vi hur man arbetar med XML-data med Aspose.Words för Java. Du lär dig hur du utför dokumentkopplingsåtgärder, inklusive kapslade dokumentkopplingar, och använder Mustache-syntaxen med en DataSet. Vi ger dig steg-för-steg-instruktioner och källkodsexempel som hjälper dig att komma igång.
 
-## Förutsättningar
+## Förkunskapskrav
 
 Innan vi börjar, se till att du har följande förutsättningar på plats:
-- [Aspose.Words för Java](https://products.aspose.com/words/java/) installerat.
-- Exempel på XML-datafiler för kunder, beställningar och leverantörer.
-- Exempel på Word-dokument för kopplingsdestinationer.
+- [Aspose.Words för Java](https://products.aspose.com/words/java/) installerad.
+- Exempel på XML-datafiler för kunder, order och leverantörer.
+- Exempel på Word-dokument för dokumentkopplingsdestinationer.
 
-## Mail Merge med XML-data
+## Koppla dokument med XML-data
 
-### 1. Grundläggande brevkoppling
+### 1. Grundläggande dokumentkoppling
 
-Följ dessa steg för att utföra en grundläggande sammankoppling med XML-data:
+Så här gör du en enkel dokumentkoppling med XML-data:
 
 ```java
 DataSet customersDs = new DataSet();
@@ -39,9 +41,9 @@ doc.getMailMerge().execute(customersDs.getTables().get("Customer"));
 doc.save("Your Directory Path" + "BasicMailMerge.docx");
 ```
 
-### 2. Kapslad brevkoppling
+### 2. Kapslad dokumentkoppling
 
-För kapslade sammanslagningar, använd följande kod:
+För kapslade dokumentkopplingar, använd följande kod:
 
 ```java
 DataSet pizzaDs = new DataSet();
@@ -52,9 +54,9 @@ doc.getMailMerge().executeWithRegions(pizzaDs);
 doc.save("Your Directory Path" + "NestedMailMerge.docx");
 ```
 
-## Mustaschsyntax med hjälp av dataset
+## Mustaschsyntax med hjälp av DataSet
 
-Följ dessa steg för att utnyttja Mustache-syntaxen med en datauppsättning:
+För att utnyttja Mustache-syntaxen med en datauppsättning, följ dessa steg:
 
 ```java
 DataSet ds = new DataSet();
@@ -67,24 +69,29 @@ doc.save("Your Directory Path" + "MustacheSyntaxUsingDataSet.docx");
 
 ## Slutsats
 
-den här omfattande guiden har vi utforskat hur man effektivt använder XML-data med Aspose.Words för Java. Du har lärt dig hur du utför olika kopplingsoperationer, inklusive grundläggande koppling av e-post, kapslad koppling av e-post och hur du använder Mustache-syntaxen med en datauppsättning. Dessa tekniker ger dig möjlighet att automatisera dokumentgenerering och anpassning med lätthet.
+I den här omfattande guiden har vi utforskat hur man effektivt använder XML-data med Aspose.Words för Java. Du har lärt dig hur man utför olika dokumentkopplingsåtgärder, inklusive grundläggande dokumentkoppling, kapslad dokumentkoppling och hur man använder Mustache-syntaxen med en DataSet. Dessa tekniker gör det möjligt för dig att automatisera dokumentgenerering och anpassning med lätthet.
 
-## FAQ's
+## Vanliga frågor
 
-### Hur kan jag förbereda mina XML-data för sammanslagning?
+### Hur kan jag förbereda mina XML-data för dokumentkoppling?
 
-Se till att dina XML-data följer den struktur som krävs, med tabeller och relationer definierade, som visas i exemplen.
+Se till att dina XML-data följer den obligatoriska strukturen, med tabeller och relationer definierade, som visas i de medföljande exemplen.
 
-### Kan jag anpassa trimbeteendet för sammanslagningsvärden?
+### Kan jag anpassa beskärningsbeteendet för dokumentkopplingsvärden?
 
- Ja, du kan styra om inledande och efterföljande blanksteg beskärs under kopplingen med hjälp av`doc.getMailMerge().setTrimWhitespaces(false)`.
+Ja, du kan styra om inledande och efterföljande blanksteg ska tas bort under dokumentkoppling genom att använda `doc.getMailMerge().setTrimWhitespaces(false)`.
 
 ### Vad är Mustache-syntaxen, och när ska jag använda den?
 
- Mustache-syntaxen låter dig formatera sammanslagningsfält på ett mer flexibelt sätt. Använda`doc.getMailMerge().setUseNonMergeFields(true)` för att aktivera Mustache-syntax.
+Med Mustache-syntaxen kan du formatera fält för koppling av dokument på ett mer flexibelt sätt. `doc.getMailMerge().setUseNonMergeFields(true)` för att aktivera Mustache-syntax.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

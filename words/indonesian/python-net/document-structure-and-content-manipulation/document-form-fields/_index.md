@@ -1,14 +1,16 @@
 ---
-title: Menguasai Bidang Formulir dan Pengambilan Data dalam Dokumen Word
-linktitle: Menguasai Bidang Formulir dan Pengambilan Data dalam Dokumen Word
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Kuasai seni membuat dan mengelola kolom formulir di dokumen Word dengan Aspose.Words untuk Python. Pelajari cara mengambil data secara efisien dan meningkatkan keterlibatan pengguna.
-weight: 15
-url: /id/python-net/document-structure-and-content-manipulation/document-form-fields/
+"description": "Kuasai seni membuat dan mengelola kolom formulir di dokumen Word dengan Aspose.Words untuk Python. Pelajari cara mengambil data secara efisien dan meningkatkan keterlibatan pengguna."
+"linktitle": "Menguasai Bidang Formulir dan Pengambilan Data dalam Dokumen Word"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Menguasai Bidang Formulir dan Pengambilan Data dalam Dokumen Word"
+"url": "/id/python-net/document-structure-and-content-manipulation/document-form-fields/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menguasai Bidang Formulir dan Pengambilan Data dalam Dokumen Word
@@ -37,16 +39,16 @@ Sebelum kita mempelajari cara membuat dan menguasai kolom formulir, mari kita si
 
 Setelah pengaturan selesai, mari lanjut ke konsep inti dalam membuat dan mengelola kolom formulir.
 
-## Membuat Kolom Formulir
+## Membuat Bidang Formulir
 
 Kolom formulir merupakan komponen penting dari dokumen interaktif. Mari pelajari cara membuat berbagai jenis kolom formulir menggunakan Aspose.Words untuk Python.
 
 ### Bidang Input Teks
 
-Kolom input teks memungkinkan pengguna memasukkan teks. Untuk membuat kolom input teks, gunakan cuplikan kode berikut:
+Kolom input teks memungkinkan pengguna memasukkan teks. Untuk membuat kolom input teks, gunakan potongan kode berikut:
 
 ```python
-# Create a new text input form field
+# Buat bidang formulir input teks baru
 text_input_field = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_TEXT, 100, 100, 200, 20)
 ```
 
@@ -55,12 +57,12 @@ text_input_field = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_TEXT, 1
 Kotak centang dan tombol radio digunakan untuk pilihan ganda. Berikut cara membuatnya:
 
 ```python
-# Create a checkbox form field
+# Buat bidang formulir kotak centang
 checkbox = aw.drawing.Shape(doc, aw.drawing.ShapeType.CHECK_BOX, 100, 150, 15, 15)
 ```
 
 ```python
-# Create a radio button form field
+# Buat bidang formulir tombol radio
 radio_button = aw.drawing.Shape(doc, aw.drawing.ShapeType.OLE_OBJECT, 100, 200, 15, 15)
 ```
 
@@ -69,7 +71,7 @@ radio_button = aw.drawing.Shape(doc, aw.drawing.ShapeType.OLE_OBJECT, 100, 200, 
 Daftar drop-down menyediakan pilihan bagi pengguna. Buat daftar seperti ini:
 
 ```python
-# Create a drop-down list form field
+# Buat bidang formulir daftar drop-down
 drop_down = aw.drawing.Shape(doc, aw.drawing.ShapeType.COMBO_BOX, 100, 250, 100, 20)
 ```
 
@@ -78,7 +80,7 @@ drop_down = aw.drawing.Shape(doc, aw.drawing.ShapeType.COMBO_BOX, 100, 250, 100,
 Pemilih tanggal memungkinkan pengguna memilih tanggal dengan mudah. Berikut cara membuatnya:
 
 ```python
-# Create a date picker form field
+# Buat bidang formulir pemilih tanggal
 date_picker = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_DATE, 100, 300, 100, 20)
 ```
 
@@ -88,7 +90,7 @@ Setiap kolom formulir memiliki berbagai properti yang dapat disesuaikan untuk me
 
 ### Mengatur Nama Bidang
 
-Nama bidang menyediakan pengenal unik untuk setiap bidang formulir, sehingga memudahkan pengelolaan data yang diambil. Tetapkan nama bidang menggunakan`Name` milik:
+Nama bidang menyediakan pengenal unik untuk setiap bidang formulir, sehingga memudahkan pengelolaan data yang diambil. Tetapkan nama bidang menggunakan `Name` milik:
 
 ```python
 text_input_field.name = "full_name"
@@ -99,7 +101,7 @@ date_picker.name = "birth_date"
 
 ### Menambahkan Teks Placeholder
 
- Teks placeholder di bidang input teks memandu pengguna pada format input yang diharapkan. Gunakan`PlaceholderText` properti untuk menambahkan placeholder:
+Teks placeholder di bidang input teks memandu pengguna pada format input yang diharapkan. Gunakan `PlaceholderText` properti untuk menambahkan placeholder:
 
 ```python
 text_input_field.placeholder_text = "Enter your full name"
@@ -127,20 +129,20 @@ Seperti yang telah kita lihat, ada berbagai jenis kolom formulir yang tersedia u
 Kolom input teks bersifat serbaguna dan umum digunakan untuk menangkap informasi tekstual. Kolom ini dapat digunakan untuk mengumpulkan nama, alamat, komentar, dan banyak lagi. Pembuatan kolom input teks melibatkan penentuan posisi dan ukurannya, seperti yang ditunjukkan dalam cuplikan kode di bawah ini:
 
 ```python
-# Create a new text input form field
+# Buat bidang formulir input teks baru
 text_input_field = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_TEXT, 100, 100, 200, 20)
 ```
 
 Setelah kolom dibuat, Anda dapat mengatur propertinya, seperti nama, nilai default, dan teks pengganti. Mari kita lihat cara melakukannya:
 
 ```python
-# Set the name of the text input field
+# Mengatur nama bidang input teks
 text_input_field.name = "full_name"
 
-# Set a default value for the field
+# Tetapkan nilai default untuk bidang tersebut
 text_input_field.text = "John Doe"
 
-# Add placeholder text to guide users
+# Tambahkan teks pengganti untuk memandu pengguna
 text_input_field.placeholder_text = "Enter your full name"
 ```
 
@@ -155,28 +157,28 @@ Untuk membuat bidang formulir kotak centang, gunakan
  kode berikut:
 
 ```python
-# Create a checkbox form field
+# Buat bidang formulir kotak centang
 checkbox = aw.drawing.Shape(doc, aw.drawing.ShapeType.CHECK_BOX, 100, 150, 15, 15)
 ```
 
 Untuk tombol radio, Anda dapat membuatnya menggunakan tipe bentuk OLE_OBJECT:
 
 ```python
-# Create a radio button form field
+# Buat bidang formulir tombol radio
 radio_button = aw.drawing.Shape(doc, aw.drawing.ShapeType.OLE_OBJECT, 100, 200, 15, 15)
 ```
 
 Setelah membuat bidang ini, Anda dapat menyesuaikan propertinya, seperti nama, pilihan default, dan teks label:
 
 ```python
-# Set the name of the checkbox and radio button
+# Tetapkan nama kotak centang dan tombol radio
 checkbox.name = "subscribe_newsletter"
 radio_button.name = "gender_selection"
 
-# Set the default selection for the checkbox
+# Tetapkan pilihan default untuk kotak centang
 checkbox.checked = True
 
-# Add label text to the checkbox and radio button
+# Tambahkan teks label ke kotak centang dan tombol radio
 checkbox.text = "Subscribe to newsletter"
 radio_button.text = "Male"
 ```
@@ -188,24 +190,24 @@ Kotak centang dan tombol radio menyediakan cara interaktif bagi pengguna untuk m
 Daftar drop-down berguna untuk skenario saat pengguna perlu memilih opsi dari daftar yang telah ditetapkan sebelumnya. Daftar ini biasanya digunakan untuk memilih negara, negara bagian, atau kategori. Mari kita bahas cara membuat dan menyesuaikan daftar drop-down:
 
 ```python
-# Create a drop-down list form field
+# Buat bidang formulir daftar drop-down
 drop_down = aw.drawing.Shape(doc, aw.drawing.ShapeType.COMBO_BOX, 100, 250, 100, 20)
 ```
 
 Setelah membuat daftar drop-down, Anda dapat menentukan daftar opsi yang tersedia bagi pengguna:
 
 ```python
-# Set the name of the drop-down list
+# Mengatur nama daftar drop-down
 drop_down.name = "country_selection"
 
-# Provide a list of options for the drop-down list
+# Berikan daftar opsi untuk daftar drop-down
 drop_down.list_entries = ["USA", "Canada", "UK", "Australia", "Germany"]
 ```
 
 Selain itu, Anda dapat mengatur pilihan default untuk daftar drop-down:
 
 ```python
-# Set the default selection for the drop-down list
+# Tetapkan pilihan default untuk daftar drop-down
 drop_down.text = "USA"
 ```
 
@@ -216,17 +218,17 @@ Daftar drop-down menyederhanakan proses pemilihan opsi dari rangkaian yang telah
 Pemilih tanggal menyederhanakan proses pengambilan tanggal dari pengguna. Pemilih tanggal menyediakan antarmuka yang mudah digunakan untuk memilih tanggal, sehingga mengurangi kemungkinan kesalahan input. Untuk membuat kolom formulir pemilih tanggal, gunakan kode berikut:
 
 ```python
-# Create a date picker form field
+# Buat bidang formulir pemilih tanggal
 date_picker = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_DATE, 100, 300, 100, 20)
 ```
 
 Setelah membuat pemilih tanggal, Anda dapat mengatur propertinya, seperti nama dan tanggal default:
 
 ```python
-# Set the name of the date picker
+# Tetapkan nama pemilih tanggal
 date_picker.name = "birth_date"
 
-# Set the default date for the date picker
+# Tetapkan tanggal default untuk pemilih tanggal
 date_picker.text = "2023-08-31"
 ```
 
@@ -248,7 +250,7 @@ pip install aspose-words
 
 ### Bisakah saya menetapkan nilai default untuk kolom formulir?
 
- Ya, Anda dapat menetapkan nilai default untuk kolom formulir menggunakan properti yang sesuai. Misalnya, untuk menetapkan teks default untuk kolom input teks, gunakan`text` milik.
+Ya, Anda dapat menetapkan nilai default untuk kolom formulir menggunakan properti yang sesuai. Misalnya, untuk menetapkan teks default untuk kolom input teks, gunakan `text` milik.
 
 ### Apakah kolom formulir dapat diakses oleh pengguna penyandang disabilitas?
 
@@ -257,9 +259,14 @@ Tentu saja. Saat mendesain formulir, pertimbangkan panduan aksesibilitas untuk m
 ### Bisakah saya mengekspor data yang diambil ke basis data eksternal?
 
 Ya, Anda dapat mengekstrak data dari kolom formulir secara terprogram dan mengintegrasikannya dengan basis data eksternal atau sistem lain. Hal ini memungkinkan transfer dan pemrosesan data yang lancar.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

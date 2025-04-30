@@ -1,27 +1,29 @@
 ---
-title: ओपन टाइप विशेषताएँ
-linktitle: ओपन टाइप विशेषताएँ
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस विस्तृत, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में ओपनटाइप सुविधाओं को सक्षम करने का तरीका जानें।
-weight: 10
-url: /hi/net/enable-opentype-features/open-type-features/
+"description": "इस विस्तृत, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में ओपनटाइप सुविधाओं को सक्षम करने का तरीका जानें।"
+"linktitle": "ओपन टाइप विशेषताएँ"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "ओपन टाइप विशेषताएँ"
+"url": "/hi/net/enable-opentype-features/open-type-features/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ओपन टाइप विशेषताएँ
 
 ## परिचय
 
-क्या आप .NET के लिए Aspose.Words का उपयोग करके OpenType सुविधाओं की दुनिया में गोता लगाने के लिए तैयार हैं? तैयार हो जाइए, क्योंकि हम एक आकर्षक यात्रा पर निकलने वाले हैं जो न केवल आपके Word दस्तावेज़ों को बेहतर बनाएगी बल्कि आपको Aspose.Words विशेषज्ञ भी बनाएगी। चलिए शुरू करते हैं!
+क्या आप .NET के लिए Aspose.Words का उपयोग करके OpenType सुविधाओं की दुनिया में उतरने के लिए तैयार हैं? तैयार हो जाइए, क्योंकि हम एक आकर्षक यात्रा पर निकलने वाले हैं जो न केवल आपके Word दस्तावेज़ों को बेहतर बनाएगी बल्कि आपको Aspose.Words विशेषज्ञ भी बनाएगी। चलिए शुरू करते हैं!
 
 ## आवश्यक शर्तें
 
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1.  .NET के लिए Aspose.Words: आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. .NET के लिए Aspose.Words: आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. .NET फ्रेमवर्क: सुनिश्चित करें कि आपके पास .NET फ्रेमवर्क का संगत संस्करण स्थापित है।
 3. विजुअल स्टूडियो: कोडिंग के लिए एक एकीकृत विकास वातावरण (आईडीई)।
 4. C# का बुनियादी ज्ञान: यह ट्यूटोरियल मानता है कि आपको C# प्रोग्रामिंग की बुनियादी समझ है।
@@ -62,7 +64,7 @@ Aspose.Words का उपयोग करने के लिए, आपको 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहां आपका दस्तावेज़ स्थित है.
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहां आपका दस्तावेज़ स्थित है.
 
 ### दस्तावेज़ लोड करना
 
@@ -76,7 +78,7 @@ Document doc = new Document(dataDir + "OpenType text shaping.docx");
 
 ## चरण 3: ओपनटाइप सुविधाएँ सक्षम करें
 
- हार्फ़बज़ एक ओपन-सोर्स टेक्स्ट शेपिंग इंजन है जो Aspose.Words के साथ सहजता से काम करता है। ओपनटाइप सुविधाओं को सक्षम करने के लिए, हमें सेट करना होगा`TextShaperFactory` की संपत्ति`LayoutOptions` वस्तु।
+हार्फ़बज़ एक ओपन-सोर्स टेक्स्ट शेपिंग इंजन है जो Aspose.Words के साथ सहजता से काम करता है। ओपनटाइप सुविधाओं को सक्षम करने के लिए, हमें सेट करना होगा `TextShaperFactory` की संपत्ति `LayoutOptions` वस्तु।
 
 ```csharp
 doc.LayoutOptions.TextShaperFactory = HarfBuzzTextShaperFactory.Instance;
@@ -103,7 +105,7 @@ doc.Save(dataDir + "WorkingWithHarfBuzz.OpenTypeFeatures.pdf");
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### ओपनटाइप की विशेषताएं क्या हैं?
-ओपनटाइप सुविधाओं में उन्नत टाइपोग्राफिक क्षमताएं जैसे लिगचर, कर्निंग और स्टाइलिस्टिक सेट शामिल हैं जो दस्तावेजों में पाठ की उपस्थिति में सुधार करते हैं।
+ओपनटाइप सुविधाओं में उन्नत टाइपोग्राफिक क्षमताएं शामिल हैं, जैसे लिगचर, कर्निंग और स्टाइलिस्टिक सेट, जो दस्तावेजों में पाठ के स्वरूप को बेहतर बनाते हैं।
 
 ### Aspose.Words के साथ HarfBuzz का उपयोग क्यों करें?
 हार्फबज़ एक ओपन-सोर्स टेक्स्ट शेपिंग इंजन है जो ओपनटाइप सुविधाओं के लिए मजबूत समर्थन प्रदान करता है, तथा आपके दस्तावेजों की टाइपोग्राफिक गुणवत्ता को बढ़ाता है।
@@ -112,13 +114,18 @@ doc.Save(dataDir + "WorkingWithHarfBuzz.OpenTypeFeatures.pdf");
 हां, Aspose.Words अलग-अलग टेक्स्ट शेपिंग इंजन का समर्थन करता है। हालाँकि, इसके व्यापक ओपनटाइप फीचर समर्थन के कारण HarfBuzz की अत्यधिक अनुशंसा की जाती है।
 
 ### क्या Aspose.Words सभी .NET संस्करणों के साथ संगत है?
- Aspose.Words विभिन्न .NET संस्करणों का समर्थन करता है, जिसमें .NET Framework, .NET Core, और .NET Standard शामिल हैं।[प्रलेखन](https://reference.aspose.com/words/net/) विस्तृत संगतता जानकारी के लिए.
+Aspose.Words विभिन्न .NET संस्करणों का समर्थन करता है, जिसमें .NET Framework, .NET Core, और .NET Standard शामिल हैं। [प्रलेखन](https://reference.aspose.com/words/net/) विस्तृत संगतता जानकारी के लिए.
 
 ### मैं खरीदने से पहले Aspose.Words कैसे आज़मा सकता हूँ?
- आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं[Aspose वेबसाइट](https://releases.aspose.com/) और एक अस्थायी लाइसेंस का अनुरोध करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं [Aspose वेबसाइट](https://releases.aspose.com/) और एक अस्थायी लाइसेंस का अनुरोध करें [यहाँ](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

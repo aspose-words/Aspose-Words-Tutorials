@@ -1,14 +1,16 @@
 ---
-title: Границы оси на диаграмме
-linktitle: Границы оси на диаграмме
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как установить границы оси на диаграмме с помощью Aspose.Words для .NET, управляя диапазоном значений, отображаемых на оси.
-weight: 10
-url: /ru/net/programming-with-charts/bounds-of-axis/
+"description": "Узнайте, как установить границы оси на диаграмме с помощью Aspose.Words для .NET, управляя диапазоном значений, отображаемых на оси."
+"linktitle": "Границы оси на диаграмме"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Границы оси на диаграмме"
+"url": "/ru/net/programming-with-charts/bounds-of-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Границы оси на диаграмме
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-charts/bounds-of-axis/
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
--  Aspose.Words для .NET: Вы можете[скачать](https://releases.aspose.com/words/net/) последнюю версию или используйте[бесплатная пробная версия](https://releases.aspose.com/).
+- Aspose.Words для .NET: Вы можете [скачать](https://releases.aspose.com/words/net/) последнюю версию или используйте [бесплатная пробная версия](https://releases.aspose.com/).
 - .NET Framework: убедитесь, что в вашей системе установлен .NET.
 - IDE: среда разработки, подобная Visual Studio.
 
@@ -118,19 +120,24 @@ doc.Save(dataDir + "WorkingWithCharts.BoundsOfAxis.docx");
 Aspose.Words для .NET — это библиотека, которая позволяет создавать, изменять и преобразовывать документы Word программным способом с использованием платформы .NET.
 
 ### Как настроить Aspose.Words для .NET?
- Вы можете скачать его здесь[здесь](https://releases.aspose.com/words/net/)и следуйте предоставленным инструкциям по установке.
+Вы можете скачать его здесь [здесь](https://releases.aspose.com/words/net/) и следуйте предоставленным инструкциям по установке.
 
 ### Могу ли я использовать Aspose.Words бесплатно?
- Да, вы можете использовать[бесплатная пробная версия](https://releases.aspose.com/) или получить[временная лицензия](https://purchase.aspose.com/temporary-license/).
+Да, вы можете использовать [бесплатная пробная версия](https://releases.aspose.com/) или получить [временная лицензия](https://purchase.aspose.com/temporary-license/).
 
 ### Где я могу найти документацию по Aspose.Words для .NET?
- Подробная документация доступна[здесь](https://reference.aspose.com/words/net/).
+Подробная документация доступна [здесь](https://reference.aspose.com/words/net/).
 
 ### Как я могу получить поддержку по Aspose.Words?
- Вы можете посетить[форум поддержки](https://forum.aspose.com/c/words/8) за помощь.
+Вы можете посетить [форум поддержки](https://forum.aspose.com/c/words/8) за помощь.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

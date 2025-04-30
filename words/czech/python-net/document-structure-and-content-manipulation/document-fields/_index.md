@@ -1,32 +1,34 @@
 ---
-title: Manipulace s poli a daty v dokumentech aplikace Word
-linktitle: Manipulace s poli a daty v dokumentech aplikace Word
-second_title: Aspose.Words Python Document Management API
-description: Naučte se, jak zacházet s poli a daty v dokumentech aplikace Word pomocí Aspose.Words pro Python. Podrobný průvodce s příklady kódu pro dynamický obsah, automatizaci a další.
-weight: 12
-url: /cs/python-net/document-structure-and-content-manipulation/document-fields/
+"description": "Naučte se, jak pracovat s poli a daty v dokumentech Wordu pomocí Aspose.Words pro Python. Podrobný návod s příklady kódu pro dynamický obsah, automatizaci a další."
+"linktitle": "Zpracování polí a dat v dokumentech Wordu"
+"second_title": "API pro správu dokumentů Aspose.Words v Pythonu"
+"title": "Zpracování polí a dat v dokumentech Wordu"
+"url": "/cs/python-net/document-structure-and-content-manipulation/document-fields/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Manipulace s poli a daty v dokumentech aplikace Word
+# Zpracování polí a dat v dokumentech Wordu
 
 
-Manipulace s poli a daty v dokumentech aplikace Word může výrazně zlepšit automatizaci dokumentů a reprezentaci dat. V této příručce prozkoumáme, jak pracovat s poli a daty pomocí rozhraní Aspose.Words for Python API. Od vkládání dynamického obsahu po extrakci dat probereme základní kroky spolu s příklady kódu.
+Manipulace s poli a daty v dokumentech Wordu může výrazně vylepšit automatizaci dokumentů a reprezentaci dat. V této příručce se podíváme na to, jak pracovat s poli a daty pomocí rozhraní Aspose.Words pro Python API. Od vkládání dynamického obsahu až po extrakci dat se budeme zabývat základními kroky spolu s příklady kódu.
 
 ## Zavedení
 
-Dokumenty Microsoft Word často vyžadují dynamický obsah, jako jsou data, výpočty nebo data z externích zdrojů. Aspose.Words pro Python poskytuje výkonný způsob programové interakce s těmito prvky.
+Dokumenty aplikace Microsoft Word často vyžadují dynamický obsah, jako jsou data, výpočty nebo data z externích zdrojů. Aspose.Words pro Python poskytuje výkonný způsob, jak s těmito prvky programově interagovat.
 
-## Pochopení polí dokumentu aplikace Word
+## Principy polí dokumentu Word
 
-Pole jsou zástupné symboly v dokumentu, které dynamicky zobrazují data. Mohou být použity pro různé účely, jako je zobrazení aktuálního data, křížové odkazy na obsah nebo provádění výpočtů.
+Pole jsou zástupné symboly v dokumentu, které dynamicky zobrazují data. Lze je použít k různým účelům, jako je zobrazení aktuálního data, křížové odkazování na obsah nebo provádění výpočtů.
 
 ## Vkládání jednoduchých polí
 
- Chcete-li vložit pole, můžete použít`FieldBuilder` třída. Chcete-li například vložit pole aktuálního data:
+Chcete-li vložit pole, můžete použít `FieldBuilder` třída. Například pro vložení pole s aktuálním datem:
 
 ```python
 from aspose.words import Document, FieldBuilder
@@ -37,9 +39,9 @@ builder.insert_field('DATE')
 doc.save('document_with_date_field.docx')
 ```
 
-## Práce s datovými a časovými poli
+## Práce s poli data a času
 
-Pole data a času lze upravit pomocí přepínačů formátu. Chcete-li například zobrazit datum v jiném formátu:
+Pole data a času lze přizpůsobit pomocí přepínačů formátu. Například pro zobrazení data v jiném formátu:
 
 ```python
 builder.insert_field('DATE \\@ "dd/MM/yyyy"')
@@ -47,15 +49,15 @@ builder.insert_field('DATE \\@ "dd/MM/yyyy"')
 
 ## Začlenění číselných a vypočítaných polí
 
-Číselná pole lze použít pro automatické výpočty. Chcete-li například vytvořit pole, které vypočítá součet dvou čísel:
+Číselná pole lze použít pro automatické výpočty. Například pro vytvoření pole, které vypočítává součet dvou čísel:
 
 ```python
 builder.insert_field('= 5 + 3')
 ```
 
-## Extrahování dat z polí
+## Extrakce dat z polí
 
- Data pole můžete extrahovat pomocí`Field` třída:
+Data z pole můžete extrahovat pomocí `Field` třída:
 
 ```python
 field = doc.range.fields[0]
@@ -66,15 +68,15 @@ if field:
 
 ## Integrace polí se zdroji dat
 
-Pole lze propojit s externími zdroji dat, jako je Excel. To umožňuje aktualizace hodnot polí v reálném čase, když se změní zdroj dat.
+Pole lze propojit s externími zdroji dat, jako je Excel. To umožňuje aktualizace hodnot polí v reálném čase při změně zdroje dat.
 
 ```python
 builder.insert_field('LINK Excel.Sheet "path_to_excel_file" "Sheet1!A1"')
 ```
 
-## Vylepšení interakce uživatele s poli formuláře
+## Vylepšení interakce uživatelů pomocí polí formuláře
 
-Pole formuláře dělají dokumenty interaktivní. Můžete vložit pole formuláře, jako jsou zaškrtávací políčka nebo textové vstupy:
+Pole formuláře umožňují interaktivní vkládání dokumentů. Do polí formuláře můžete vkládat například zaškrtávací políčka nebo textové vstupy:
 
 ```python
 builder.insert_field('FORMCHECKBOX "Check this"')
@@ -85,7 +87,7 @@ builder.insert_field('FORMCHECKBOX "Check this"')
 Pole mohou vytvářet hypertextové odkazy a křížové odkazy:
 
 ```python
-builder.insert_field('HYPERLINK "https://www.example.com" "Navštivte náš web"')
+builder.insert_field('HYPERLINK "https://www.example.com" "Visit our website"')
 ```
 
 ## Přizpůsobení formátů polí
@@ -96,7 +98,7 @@ Pole lze formátovat pomocí přepínačů:
 builder.insert_field('DATE \\@ "MMMM yyyy"')
 ```
 
-## Odstraňování problémů s terénem
+## Řešení problémů v terénu
 
 Pole se nemusí aktualizovat podle očekávání. Ujistěte se, že je povolena automatická aktualizace:
 
@@ -106,36 +108,41 @@ doc.update_fields()
 
 ## Závěr
 
-Efektivní manipulace s poli a daty v dokumentech aplikace Word vám umožňuje vytvářet dynamické a automatizované dokumenty. Aspose.Words pro Python tento proces zjednodušuje a nabízí širokou škálu funkcí.
+Efektivní práce s poli a daty v dokumentech Wordu vám umožňuje vytvářet dynamické a automatizované dokumenty. Aspose.Words pro Python tento proces zjednodušuje a nabízí širokou škálu funkcí.
 
-## FAQ
+## Často kladené otázky
 
-### Jak ručně aktualizuji hodnoty polí?
+### Jak mohu ručně aktualizovat hodnoty polí?
 
- Chcete-li hodnoty pole aktualizovat ručně, vyberte pole a stiskněte`F9`.
+Chcete-li hodnoty polí aktualizovat ručně, vyberte pole a stiskněte `F9`.
 
-### Mohu použít pole v oblastech záhlaví a zápatí?
+### Mohu použít pole v záhlaví a zápatí?
 
-Ano, pole lze použít v oblastech záhlaví a zápatí stejně jako v hlavním dokumentu.
+Ano, pole lze použít v záhlaví a zápatí stejně jako v hlavním dokumentu.
 
-### Jsou pole podporována ve všech formátech aplikace Word?
+### Jsou pole podporována ve všech formátech Wordu?
 
 Většina typů polí je podporována v různých formátech aplikace Word, ale některé se mohou v různých formátech chovat odlišně.
 
-### Jak mohu chránit pole před náhodnými úpravami?
+### Jak mohu chránit pole před nechtěnými úpravami?
 
-Pole můžete chránit před náhodnými úpravami jejich uzamčením. Klikněte pravým tlačítkem na pole, zvolte "Upravit pole" a povolte možnost "Zamčeno".
+Pole můžete chránit před nechtěnými úpravami jejich uzamčením. Klikněte pravým tlačítkem myši na pole, vyberte možnost „Upravit pole“ a zaškrtněte políčko „Uzamčeno“.
 
-### Je možné hnízdit pole do sebe?
+### Je možné vnořovat pole do sebe?
 
-Ano, pole lze vnořovat do sebe a vytvářet tak komplexní dynamický obsah.
+Ano, pole lze do sebe vnořovat a vytvářet tak komplexní dynamický obsah.
 
-## Získejte přístup k dalším zdrojům
+## Přístup k dalším zdrojům
 
- Pro podrobnější informace a příklady kódu navštivte stránku[Odkaz Aspose.Words pro Python API](https://reference.aspose.com/words/python-net/) . Chcete-li stáhnout nejnovější verzi knihovny, navštivte[Stránka ke stažení Aspose.Words pro Python](https://releases.aspose.com/words/python/).
+Pro podrobnější informace a příklady kódu navštivte [Referenční příručka k Aspose.Words pro Python API](https://reference.aspose.com/words/python-net/)Chcete-li si stáhnout nejnovější verzi knihovny, navštivte [Stránka ke stažení Aspose.Words pro Python](https://releases.aspose.com/words/python/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

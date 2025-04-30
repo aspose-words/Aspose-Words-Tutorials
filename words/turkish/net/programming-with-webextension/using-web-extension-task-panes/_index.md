@@ -1,14 +1,16 @@
 ---
-title: Web Uzantısı Görev Bölmelerini Kullanma
-linktitle: Web Uzantısı Görev Bölmelerini Kullanma
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım eğitimde Aspose.Words for .NET kullanarak Word belgelerine Web Uzantısı Görev Bölmeleri'nin nasıl ekleneceğini ve yapılandırılacağını öğrenin.
-weight: 10
-url: /tr/net/programming-with-webextension/using-web-extension-task-panes/
+"description": "Bu ayrıntılı, adım adım eğitimde Aspose.Words for .NET kullanarak Word belgelerine Web Uzantısı Görev Bölmeleri'nin nasıl ekleneceğini ve yapılandırılacağını öğrenin."
+"linktitle": "Web Uzantısı Görev Bölmelerini Kullanma"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Web Uzantısı Görev Bölmelerini Kullanma"
+"url": "/tr/net/programming-with-webextension/using-web-extension-task-panes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Web Uzantısı Görev Bölmelerini Kullanma
@@ -21,10 +23,10 @@ Aspose.Words for .NET kullanarak bir Word belgesinde Web Uzantısı Görev Bölm
 
 Başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
--  Aspose.Words for .NET: İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - .NET Geliştirme Ortamı: Visual Studio veya tercih ettiğiniz herhangi bir IDE.
 - Temel C# Bilgisi: Bu, kod örneklerini takip etmenize yardımcı olacaktır.
--  Aspose.Words için lisans: Bir tane satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) veya geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words için lisans: Bir tane satın alabilirsiniz [Burada](https://purchase.aspose.com/buy) veya geçici bir lisans alın [Burada](https://purchase.aspose.com/temporary-license/).
 
 ## Ad Alanlarını İçe Aktar
 
@@ -48,7 +50,7 @@ using Aspose.Words.WebExtensions;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` Belgelerinizin bulunduğu klasöre giden gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` Belgelerinizin bulunduğu klasöre giden gerçek yol ile.
 
 ### Adım 2: Yeni Bir Belge Oluşturma
 
@@ -58,18 +60,18 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- Bu satır, yeni bir örneğini başlatır`Document` Word belgesini temsil eden sınıf.
+Bu satır, yeni bir örneğini başlatır `Document` Word belgesini temsil eden sınıf.
 
 ### Adım 3: Görev Bölmesi Ekleme
 
-Şimdi, belgemize bir Görev Bölmesi ekleyeceğiz. Görev Bölmeleri, bir Word belgesi içinde ek işlevler ve araçlar sağlamak için yararlıdır.
+Şimdi, belgemize bir Görev Bölmesi ekleyeceğiz. Görev Bölmeleri, bir Word belgesi içinde ek işlevler ve araçlar sağlamak için kullanışlıdır.
 
 ```csharp
 TaskPane taskPane = new TaskPane();
 doc.WebExtensionTaskPanes.Add(taskPane);
 ```
 
- Burada yeni bir tane yaratıyoruz`TaskPane` nesneyi seçin ve belgenin`WebExtensionTaskPanes` koleksiyon.
+Burada yeni bir tane yaratıyoruz `TaskPane` nesneyi seçin ve belgenin `WebExtensionTaskPanes` koleksiyon.
 
 ### Adım 4: Görev Bölmesini Yapılandırma
 
@@ -81,7 +83,7 @@ taskPane.IsVisible = true;
 taskPane.Width = 300;
 ```
 
-- `DockState` Görev Bölmesinin nerede görüneceğini ayarlar. Bu durumda, sağdadır.
+- `DockState` Görev Bölmesinin nerede görüneceğini ayarlar. Bu durumda, sağ taraftadır.
 - `IsVisible` Görev Bölmesinin görünür olmasını sağlar.
 - `Width` Görev Bölmesinin genişliğini ayarlar.
 
@@ -96,7 +98,7 @@ taskPane.WebExtension.Reference.StoreType = WebExtensionStoreType.OMEX;
 taskPane.WebExtension.Reference.Store = "th-TH";
 ```
 
-- `Id`web uzantısı için benzersiz bir tanımlayıcıdır.
+- `Id` web uzantısı için benzersiz bir tanımlayıcıdır.
 - `Version` uzantının sürümünü belirtir.
 - `StoreType` mağazanın türünü belirtir (bu durumda OMEX).
 - `Store` Mağazanın dil/kültür kodunu belirtir.
@@ -109,7 +111,7 @@ Web uzantınıza davranışını veya içeriğini tanımlamak için özellikler 
 taskPane.WebExtension.Properties.Add(new WebExtensionProperty("mailchimpCampaign", "mailchimpCampaign"));
 ```
 
- Burada, adında bir özellik ekliyoruz`mailchimpCampaign`.
+Burada, adında bir özellik ekliyoruz `mailchimpCampaign`.
 
 ### Adım 7: Web Uzantısını Bağlama
 
@@ -153,7 +155,7 @@ Bu kod belgeyi yükler ve konsoldaki her görev bölmesinin sağlayıcısını, 
 
 ## Çözüm
 
-Ve işte bu kadar! Aspose.Words for .NET kullanarak bir Word belgesine Web Uzantısı Görev Bölmesi'ni başarıyla eklediniz ve yapılandırdınız. Bu güçlü özellik, doğrudan belge içinde ek işlevler sağlayarak Word belgelerinizi önemli ölçüde iyileştirebilir. 
+Ve işte bu kadar! Aspose.Words for .NET kullanarak bir Word belgesine Web Uzantısı Görev Bölmesi'ni başarıyla eklediniz ve yapılandırdınız. Bu güçlü özellik, doğrudan belge içinde ek işlevler sağlayarak Word belgelerinizi önemli ölçüde geliştirebilir. 
 
 ## SSS
 
@@ -161,19 +163,24 @@ Ve işte bu kadar! Aspose.Words for .NET kullanarak bir Word belgesine Web Uzant
 Görev Bölmesi, Word belgesi içerisinde ek araçlar ve işlevler sağlayan, kullanıcı etkileşimini ve üretkenliği artıran bir arayüz öğesidir.
 
 ### Görev Bölmesinin görünümünü özelleştirebilir miyim?
- Evet, Görev Bölmesinin görünümünü şu gibi özellikleri ayarlayarak özelleştirebilirsiniz:`DockState`, `IsVisible` , Ve`Width`.
+Evet, Görev Bölmesinin görünümünü şu gibi özellikleri ayarlayarak özelleştirebilirsiniz: `DockState`, `IsVisible`, Ve `Width`.
 
 ### Web Uzantı Özellikleri Nelerdir?
 Web Uzantısı Özellikleri, bir web uzantısının davranışını veya içeriğini tanımlamak için ekleyebileceğiniz özel özelliklerdir.
 
 ### Bir Web Uzantısını belgenin bir bölümüne nasıl bağlarım?
- Bir Web Uzantısını, kullanarak belgenin bir bölümüne bağlayabilirsiniz.`WebExtensionBinding` Bağlayıcı türünü ve hedef kimliğini belirten sınıf.
+Bir Web Uzantısını, kullanarak belgenin bir bölümüne bağlayabilirsiniz. `WebExtensionBinding` Bağlayıcı türünü ve hedef kimliğini belirten sınıf.
 
 ### Aspose.Words for .NET hakkında daha fazla bilgiyi nerede bulabilirim?
- Ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Ayrıntılı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Terapkan Lisensi Dari File
-linktitle: Terapkan Lisensi Dari File
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menerapkan lisensi dari file di Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah kami. Manfaatkan sepenuhnya potensi pustaka Anda dengan mudah.
-weight: 10
-url: /id/net/apply-license/apply-license-from-file/
+"description": "Pelajari cara menerapkan lisensi dari file di Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah kami. Manfaatkan potensi penuh pustaka Anda dengan mudah."
+"linktitle": "Terapkan Lisensi Dari File"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Terapkan Lisensi Dari File"
+"url": "/id/net/apply-license/apply-license-from-file/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Terapkan Lisensi Dari File
@@ -19,10 +21,10 @@ Hai! Jika Anda ingin mencoba Aspose.Words untuk .NET, Anda akan dimanjakan. Pust
 
 ## Prasyarat
 
-Sebelum kita menyelami detailnya, mari pastikan Anda memiliki semua yang Anda butuhkan:
+Sebelum kita menyelami detailnya, mari pastikan Anda memiliki semua yang dibutuhkan:
 
-1.  Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Aspose merilis halaman](https://releases.aspose.com/words/net/).
-2.  File Lisensi Aspose yang Valid: Jika Anda belum memilikinya, Anda bisa mendapatkan uji coba gratis dari[Di Sini](https://releases.aspose.com/) atau beli satu dari[Di Sini](https://purchase.aspose.com/buy).
+1. Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Aspose merilis halaman](https://releases.aspose.com/words/net/).
+2. File Lisensi Aspose yang Valid: Jika Anda belum memilikinya, Anda bisa mendapatkan uji coba gratis dari [Di Sini](https://releases.aspose.com/) atau beli satu dari [Di Sini](https://purchase.aspose.com/buy).
 3. Lingkungan Pengembangan: IDE seperti Visual Studio.
 4. Pemahaman Dasar C#: Ini akan membantu Anda mengikuti contoh kode.
 
@@ -55,7 +57,7 @@ License license = new License();
 
 ## Langkah 3: Tetapkan Lisensi
 
- Sekarang tibalah bagian yang krusial—pengaturan lisensi. Anda perlu menentukan jalur ke berkas lisensi Anda. Ini dapat dilakukan dengan menggunakan`SetLicense` metode dari`License` kelas. Bungkus ini dalam blok try-catch untuk menangani potensi kesalahan.
+Sekarang tibalah bagian yang penting—pengaturan lisensi. Anda perlu menentukan jalur ke berkas lisensi Anda. Ini dapat dilakukan dengan menggunakan `SetLicense` metode dari `License` kelas. Bungkus ini dalam blok try-catch untuk menangani potensi kesalahan.
 
 ```csharp
 try
@@ -71,7 +73,7 @@ catch (Exception e)
 
 ## Langkah 4: Verifikasi Lisensi
 
-Setelah Anda menetapkan lisensi, ada baiknya untuk memverifikasi bahwa lisensi telah diterapkan dengan benar. Anda dapat melakukannya dengan memeriksa`IsLicensed` milik`License` kelas.
+Setelah Anda menetapkan lisensi, ada baiknya untuk memverifikasi bahwa lisensi telah diterapkan dengan benar. Anda dapat melakukannya dengan memeriksa `IsLicensed` milik `License` kelas.
 
 ```csharp
 if (license.IsLicensed)
@@ -94,19 +96,24 @@ Nah, itu dia! Anda telah berhasil menerapkan lisensi dari sebuah file di Aspose.
 Jika Anda tidak menetapkan lisensi, Aspose.Words akan beroperasi dalam mode evaluasi, yang memiliki batasan seperti dokumen bertanda air dan fungsionalitas terbatas.
 
 ### Bisakah saya menggunakan lisensi dari aliran?  
- Ya, Anda dapat memuat lisensi dari aliran jika berkas lisensi tertanam sebagai sumber daya. Gunakan`SetLicense` metode yang menerima aliran.
+Ya, Anda dapat memuat lisensi dari aliran jika berkas lisensi tertanam sebagai sumber daya. Gunakan `SetLicense` metode yang menerima aliran.
 
 ### Di mana saya harus menaruh berkas lisensi saya?  
 Anda dapat meletakkan berkas lisensi Anda di direktori yang sama dengan file yang dapat dieksekusi atau di jalur mana pun yang dapat diakses oleh aplikasi Anda.
 
 ### Bagaimana cara mendapatkan lisensi sementara?  
- Anda dapat memperoleh lisensi sementara dari[Situs web Aspose](https://purchase.aspose.com/temporary-license/) yang berlaku selama 30 hari.
+Anda dapat memperoleh lisensi sementara dari [Situs web Aspose](https://purchase.aspose.com/temporary-license/) yang berlaku selama 30 hari.
 
 ### Apakah berkas lisensi bersifat khusus untuk suatu mesin?  
 Tidak, berkas lisensi tidak terikat pada komputer tertentu. Anda dapat menggunakannya pada komputer mana pun asalkan masih dalam ketentuan perjanjian lisensi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

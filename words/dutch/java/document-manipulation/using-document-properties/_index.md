@@ -1,14 +1,16 @@
 ---
-title: Documenteigenschappen gebruiken in Aspose.Words voor Java
-linktitle: Documenteigenschappen gebruiken
-second_title: Aspose.Words Java Documentverwerkings-API
-description: Optimaliseer documentbeheer met Aspose.Words voor Java. Leer werken met documenteigenschappen, voeg aangepaste metadata toe en meer in deze uitgebreide tutorial.
-weight: 32
-url: /nl/java/document-manipulation/using-document-properties/
+"description": "Optimaliseer documentbeheer met Aspose.Words voor Java. Leer werken met documenteigenschappen, aangepaste metadata toevoegen en meer in deze uitgebreide tutorial."
+"linktitle": "Documenteigenschappen gebruiken"
+"second_title": "Aspose.Words Java Documentverwerking API"
+"title": "Documenteigenschappen gebruiken in Aspose.Words voor Java"
+"url": "/nl/java/document-manipulation/using-document-properties/"
+"weight": 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Documenteigenschappen gebruiken in Aspose.Words voor Java
@@ -16,7 +18,7 @@ url: /nl/java/document-manipulation/using-document-properties/
 
 ## Inleiding tot documenteigenschappen
 
-Documenteigenschappen zijn een essentieel onderdeel van elk document. Ze bieden aanvullende informatie over het document zelf, zoals de titel, auteur, onderwerp, trefwoorden en meer. In Aspose.Words voor Java kunt u zowel ingebouwde als aangepaste documenteigenschappen manipuleren.
+Documenteigenschappen zijn een essentieel onderdeel van elk document. Ze bieden aanvullende informatie over het document zelf, zoals de titel, auteur, het onderwerp, trefwoorden en meer. In Aspose.Words voor Java kunt u zowel ingebouwde als aangepaste documenteigenschappen bewerken.
 
 ## Documenteigenschappen opsommen
 
@@ -36,11 +38,11 @@ public void enumerateProperties() throws Exception
 }
 ```
 
-Met deze code worden de naam van het document en de ingebouwde eigenschappen weergegeven, waaronder eigenschappen als 'Titel', 'Auteur' en 'Trefwoorden'.
+Met deze code worden de naam van het document en de ingebouwde eigenschappen weergegeven, waaronder eigenschappen zoals 'Titel', 'Auteur' en 'Trefwoorden'.
 
 ### Aangepaste eigenschappen
 
-Om met aangepaste documenteigenschappen te werken, kunt u het volgende codefragment gebruiken:
+Als u met aangepaste documenteigenschappen wilt werken, kunt u het volgende codefragment gebruiken:
 
 ```java
 @Test
@@ -78,7 +80,7 @@ Met deze code wordt de aangepaste eigenschap 'Geautoriseerde datum' uit het docu
 
 ## Link naar inhoud configureren
 
-In sommige gevallen wilt u wellicht links in uw document maken. Dit is hoe u dat kunt doen:
+In sommige gevallen wilt u mogelijk links in uw document maken. Zo doet u dat:
 
 ```java
 @Test
@@ -92,7 +94,7 @@ public void configuringLinkToContent() throws Exception
 
     CustomDocumentProperties customProperties = doc.getCustomDocumentProperties();
 
-    // Voeg gekoppelde inhoudseigenschap toe.
+    // Voeg een gekoppelde inhoudseigenschap toe.
     DocumentProperty customProperty = customProperties.addLinkToContent("Bookmark", "MyBookmark");
     customProperty = customProperties.get("Bookmark");
     boolean isLinkedToContent = customProperty.isLinkToContent();
@@ -105,7 +107,7 @@ Dit codefragment laat zien hoe u een bladwijzer in uw document maakt en een aang
 
 ## Converteren tussen meeteenheden
 
-In Aspose.Words voor Java kunt u eenvoudig meeteenheden converteren. Hier is een voorbeeld van hoe u dat doet:
+In Aspose.Words voor Java kun je eenvoudig maateenheden omzetten. Hier is een voorbeeld van hoe je dat doet:
 
 ```java
 @Test
@@ -129,7 +131,7 @@ Met dit codefragment worden verschillende marges en afstanden in inches ingestel
 
 ## Controlekarakters gebruiken
 
-Control characters kunnen handig zijn bij het werken met tekst. Zo vervangt u een control character in uw tekst:
+Stuurtekens kunnen handig zijn bij het werken met tekst. Zo vervang je een stuurteken in je tekst:
 
 ```java
 @Test
@@ -137,7 +139,7 @@ public void useControlCharacters()
 {
     final String TEXT = "test\r";
 
-    // Vervang het besturingsteken "\r" door "\r\n".
+    // Vervang het controlekarakter "\r" door "\r\n".
     String replace = TEXT.replace(ControlChar.CR, ControlChar.CR_LF);
 }
 ```
@@ -146,32 +148,37 @@ In dit voorbeeld vervangen we de wagenretour (`\r`) met een wagenretour gevolgd 
 
 ## Conclusie
 
-Documenteigenschappen spelen een belangrijke rol bij het effectief beheren en organiseren van uw documenten in Aspose.Words voor Java. Of u nu werkt met ingebouwde eigenschappen, aangepaste eigenschappen of controlekarakters gebruikt, u hebt een scala aan hulpmiddelen tot uw beschikking om uw documentbeheermogelijkheden te verbeteren.
+Documenteigenschappen spelen een belangrijke rol bij het effectief beheren en organiseren van uw documenten in Aspose.Words voor Java. Of u nu werkt met ingebouwde eigenschappen, aangepaste eigenschappen of het gebruik van controlekarakters, u beschikt over een scala aan tools om uw documentbeheermogelijkheden te verbeteren.
 
 ## Veelgestelde vragen
 
 ### Hoe krijg ik toegang tot ingebouwde documenteigenschappen?
 
- Om toegang te krijgen tot ingebouwde documenteigenschappen in Aspose.Words voor Java, kunt u de`getBuiltInDocumentProperties` methode op de`Document` object. Deze methode retourneert een verzameling ingebouwde eigenschappen waar u doorheen kunt itereren.
+Om toegang te krijgen tot ingebouwde documenteigenschappen in Aspose.Words voor Java, kunt u de `getBuiltInDocumentProperties` methode op de `Document` object. Deze methode retourneert een verzameling ingebouwde eigenschappen waar u doorheen kunt itereren.
 
 ### Kan ik aangepaste documenteigenschappen aan een document toevoegen?
 
- Ja, u kunt aangepaste documenteigenschappen aan een document toevoegen met behulp van de`CustomDocumentProperties` verzameling. U kunt aangepaste eigenschappen definiëren met verschillende gegevenstypen, waaronder strings, booleans, datums en numerieke waarden.
+Ja, u kunt aangepaste documenteigenschappen aan een document toevoegen met behulp van de `CustomDocumentProperties` verzameling. U kunt aangepaste eigenschappen definiëren met verschillende gegevenstypen, waaronder tekenreeksen, Booleaanse waarden, datums en numerieke waarden.
 
 ### Hoe kan ik een specifieke aangepaste documenteigenschap verwijderen?
 
- Om een specifieke aangepaste documenteigenschap te verwijderen, kunt u de`remove` methode op de`CustomDocumentProperties`verzameling, waarbij u de naam van de eigenschap die u wilt verwijderen als parameter doorgeeft.
+Om een specifieke aangepaste documenteigenschap te verwijderen, kunt u de `remove` methode op de `CustomDocumentProperties` verzameling, waarbij u de naam van de eigenschap die u wilt verwijderen als parameter doorgeeft.
 
 ### Wat is het doel van het linken naar inhoud binnen een document?
 
-Door te linken naar content binnen een document kunt u dynamische verwijzingen naar specifieke delen van het document maken. Dit kan handig zijn voor het maken van interactieve documenten of kruisverwijzingen tussen secties.
+Door te linken naar inhoud binnen een document kunt u dynamische verwijzingen naar specifieke delen van het document maken. Dit kan handig zijn voor het maken van interactieve documenten of kruisverwijzingen tussen secties.
 
-### Hoe kan ik in Aspose.Words voor Java converteren tussen verschillende maateenheden?
+### Hoe kan ik in Aspose.Words voor Java tussen verschillende maateenheden converteren?
 
- U kunt in Aspose.Words voor Java tussen verschillende meeteenheden converteren met behulp van de`ConvertUtil` klasse. Het biedt methoden om eenheden zoals inches naar punten, punten naar centimeters en meer te converteren.
+U kunt in Aspose.Words voor Java tussen verschillende maateenheden converteren met behulp van de `ConvertUtil` klasse. Het biedt methoden om eenheden zoals inches naar punten, punten naar centimeters en meer om te zetten.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

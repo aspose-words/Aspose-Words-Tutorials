@@ -1,27 +1,29 @@
 ---
-title: الحفاظ على ترقيم المصدر
-linktitle: الحفاظ على ترقيم المصدر
-second_title: واجهة برمجة تطبيقات معالجة المستندات Aspose.Words
-description: تعرف على كيفية استيراد المستندات مع الحفاظ على التنسيق باستخدام Aspose.Words for .NET. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
-weight: 10
-url: /ar/net/join-and-append-documents/keep-source-numbering/
+"description": "تعرّف على كيفية استيراد المستندات مع الحفاظ على التنسيق باستخدام Aspose.Words لـ .NET. دليل خطوة بخطوة مع أمثلة برمجية."
+"linktitle": "الحفاظ على ترقيم المصدر"
+"second_title": "واجهة برمجة تطبيقات معالجة المستندات Aspose.Words"
+"title": "الحفاظ على ترقيم المصدر"
+"url": "/ar/net/join-and-append-documents/keep-source-numbering/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # الحفاظ على ترقيم المصدر
 
 ## مقدمة
 
- عند العمل مع Aspose.Words لـ .NET، يمكن التعامل بكفاءة مع استيراد المستندات من مصدر إلى آخر مع الحفاظ على التنسيق باستخدام`NodeImporter` هذا البرنامج التعليمي سوف يرشدك خلال العملية خطوة بخطوة.
+عند العمل مع Aspose.Words لـ .NET، يمكن التعامل بكفاءة مع استيراد المستندات من مصدر إلى آخر مع الحفاظ على التنسيق باستخدام `NodeImporter` هذا البرنامج التعليمي سوف يرشدك خلال العملية خطوة بخطوة.
 
 ## المتطلبات الأساسية
 
-قبل البدء، تأكد من توفر ما يلي:
+قبل البدء، تأكد من أن لديك ما يلي:
 - تم تثبيت Visual Studio على جهازك.
--  تم تثبيت Aspose.Words لـ .NET. إذا لم يكن الأمر كذلك، فقم بتنزيله من[هنا](https://releases.aspose.com/words/net/).
+- تم تثبيت Aspose.Words لـ .NET. إذا لم يكن مثبتًا، فقم بتنزيله من [هنا](https://releases.aspose.com/words/net/).
 - المعرفة الأساسية ببرمجة C# و.NET.
 
 ## استيراد مساحات الأسماء
@@ -42,7 +44,7 @@ using Aspose.Words.Tables;
 إنشاء حالات المصدر (`srcDoc`) والوجهة (`dstDoc`) وثائق.
 
 ```csharp
-// المسار إلى دليل المستند الخاص بك
+// المسار إلى دليل المستندات الخاص بك 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document srcDoc = new Document(dataDir + "Document source.docx");
@@ -70,7 +72,7 @@ foreach (Paragraph srcPara in srcParas)
 }
 ```
 
-## الخطوة 5: احفظ المستند
+## الخطوة 5: حفظ المستند
 احفظ المستند المدمج في الموقع المطلوب.
 
 ```csharp
@@ -79,12 +81,12 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.KeepSourceNumbering.docx");
 
 ## خاتمة
 
- في الختام، يعد استخدام Aspose.Words لـ .NET لاستيراد المستندات مع الحفاظ على التنسيق أمرًا مباشرًا مع`NodeImporter` تضمن هذه الطريقة أن مستنداتك تحافظ على مظهرها وبنيتها الأصلية بسلاسة.
+في الختام، يعد استخدام Aspose.Words لـ .NET لاستيراد المستندات مع الحفاظ على التنسيق أمرًا مباشرًا مع `NodeImporter` تضمن هذه الطريقة أن تحافظ مستنداتك على مظهرها وبنيتها الأصلية بسلاسة.
 
 ## الأسئلة الشائعة
 
 ### هل يمكنني استيراد مستندات ذات أنماط تنسيق مختلفة؟
- نعم،`NodeImporter` تدعم الفئة استيراد المستندات باستخدام أنماط التنسيق المتنوعة.
+نعم، `NodeImporter` تدعم الفئة استيراد المستندات ذات أنماط التنسيق المتنوعة.
 
 ### ماذا لو كانت مستنداتي تحتوي على جداول وصور معقدة؟
 يتعامل Aspose.Words for .NET مع الهياكل المعقدة مثل الجداول والصور أثناء عمليات الاستيراد.
@@ -92,15 +94,20 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.KeepSourceNumbering.docx");
 ### هل Aspose.Words متوافق مع كافة إصدارات .NET؟
 يدعم Aspose.Words إصدارات .NET Framework و.NET Core للتكامل السلس.
 
-### كيف يمكنني التعامل مع الأخطاء أثناء استيراد المستند؟
+### كيف يمكنني التعامل مع الأخطاء أثناء استيراد المستندات؟
 استخدم كتل try-catch للتعامل مع الاستثناءات التي قد تحدث أثناء عملية الاستيراد.
 
-### أين يمكنني العثور على مزيد من الوثائق التفصيلية حول Aspose.Words لـ .NET؟
- قم بزيارة[التوثيق](https://reference.aspose.com/words/net/) للحصول على أدلة شاملة ومراجع API.
+### أين يمكنني العثور على المزيد من الوثائق التفصيلية حول Aspose.Words لـ .NET؟
+قم بزيارة [التوثيق](https://reference.aspose.com/words/net/) للحصول على أدلة شاملة ومراجع API.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

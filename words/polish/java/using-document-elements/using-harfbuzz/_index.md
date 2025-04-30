@@ -1,14 +1,16 @@
 ---
-title: Używanie HarfBuzz w Aspose.Words dla Java
-linktitle: Korzystanie z HarfBuzz
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Naucz się używać HarfBuzz do zaawansowanego kształtowania tekstu w Aspose.Words for Java. Ulepsz renderowanie tekstu w złożonych skryptach dzięki temu przewodnikowi krok po kroku.
-weight: 15
-url: /pl/java/using-document-elements/using-harfbuzz/
+"description": "Naucz się używać HarfBuzz do zaawansowanego kształtowania tekstu w Aspose.Words for Java. Ulepsz renderowanie tekstu w złożonych skryptach dzięki temu przewodnikowi krok po kroku."
+"linktitle": "Korzystanie z HarfBuzz"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Używanie HarfBuzz w Aspose.Words dla Java"
+"url": "/pl/java/using-document-elements/using-harfbuzz/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Używanie HarfBuzz w Aspose.Words dla Java
@@ -34,7 +36,7 @@ Aby rozpocząć, utwórz nowy projekt Java i dołącz bibliotekę Aspose.Words f
 
 ## Krok 2: Ładowanie dokumentu Word
 
- W tym kroku załadujemy przykładowy dokument Word, z którym chcemy pracować. Zastąp`"Your Document Directory"` z rzeczywistą ścieżką do dokumentu Word:
+W tym kroku załadujemy przykładowy dokument Word, z którym chcemy pracować. Zastąp `"Your Document Directory"` z rzeczywistą ścieżką do dokumentu Word:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -52,7 +54,7 @@ doc.getLayoutOptions().setTextShaperFactory(HarfBuzzTextShaperFactory.getInstanc
 
 ## Krok 4: Zapisywanie dokumentu
 
- Teraz, gdy skonfigurowaliśmy kształtowanie tekstu HarfBuzz, możemy zapisać dokument. Zastąp`"Your Output Directory"` z żądanym katalogiem wyjściowym i nazwą pliku:
+Teraz, gdy skonfigurowaliśmy kształtowanie tekstu HarfBuzz, możemy zapisać dokument. Zastąp `"Your Output Directory"` z żądanym katalogiem wyjściowym i nazwą pliku:
 
 ```java
 String outPath = "Your Output Directory";
@@ -94,12 +96,17 @@ Tak, HarfBuzz jest kompatybilny z aplikacjami Java i można go łatwo zintegrowa
 
 ### 5. Gdzie mogę dowiedzieć się więcej o Aspose.Words dla Java?
 
-Szczegółową dokumentację i zasoby dotyczące Aspose.Words dla języka Java można znaleźć pod adresem[Dokumentacja API Aspose.Words](https://reference.aspose.com/words/java/).
+Szczegółową dokumentację i zasoby dotyczące Aspose.Words dla języka Java można znaleźć pod adresem [Dokumentacja API Aspose.Words](https://reference.aspose.com/words/java/).
 
 Teraz, gdy masz już pełne zrozumienie korzystania z HarfBuzz w Aspose.Words for Java, możesz zacząć włączać zaawansowane funkcje kształtowania tekstu do swoich aplikacji Java. Miłego kodowania!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

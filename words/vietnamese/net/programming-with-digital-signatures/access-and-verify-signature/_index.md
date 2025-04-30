@@ -1,14 +1,16 @@
 ---
-title: Truy cập và xác minh chữ ký trong tài liệu Word
-linktitle: Truy cập và xác minh chữ ký trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Truy cập và xác minh chữ ký số trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này. Đảm bảo tính xác thực của tài liệu một cách dễ dàng.
-weight: 10
-url: /vi/net/programming-with-digital-signatures/access-and-verify-signature/
+"description": "Truy cập và xác minh chữ ký số trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này. Đảm bảo tính xác thực của tài liệu một cách dễ dàng."
+"linktitle": "Truy cập và xác minh chữ ký trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Truy cập và xác minh chữ ký trong tài liệu Word"
+"url": "/vi/net/programming-with-digital-signatures/access-and-verify-signature/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Truy cập và xác minh chữ ký trong tài liệu Word
@@ -22,7 +24,7 @@ Xin chào, những người đam mê công nghệ! Bạn đã bao giờ thấy m
 Trước khi đi sâu vào các chi tiết cụ thể, bạn cần phải chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là nơi bạn sẽ viết và chạy mã của mình.
-2.  Aspose.Words cho .NET: Bạn sẽ cần phải cài đặt Aspose.Words cho .NET. Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/) . Đừng quên nhận bản dùng thử miễn phí[đây](https://releases.aspose.com/) nếu bạn chưa làm!
+2. Aspose.Words cho .NET: Bạn sẽ cần phải cài đặt Aspose.Words cho .NET. Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/). Đừng quên nhận bản dùng thử miễn phí [đây](https://releases.aspose.com/) nếu bạn chưa làm!
 3. Tài liệu Word được ký số: Có một tài liệu Word đã được ký số. Đây là tệp bạn sẽ sử dụng để xác minh chữ ký.
 
 ## Nhập không gian tên
@@ -54,7 +56,7 @@ Trước khi bạn có thể xác minh chữ ký số, bạn cần thiết lập
 2. Trong Trình quản lý gói NuGet, hãy tìm Aspose.Words.
 3. Nhấp vào Cài đặt để thêm vào dự án của bạn.
 
-## Bước 2: Tải Tài liệu Word đã ký số
+## Bước 2: Tải tài liệu Word đã ký số
 
 Bây giờ dự án của bạn đã được thiết lập, hãy tải tài liệu Word đã được ký số lên.
 
@@ -64,7 +66,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Digitally signed.docx");
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn. Đoạn mã này khởi tạo một`Document` đối tượng và tải tài liệu Word đã ký của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn. Đoạn mã này khởi tạo một `Document` đối tượng và tải tài liệu Word đã ký của bạn.
 
 ## Bước 3: Truy cập chữ ký số
 
@@ -150,14 +152,19 @@ Aspose.Words for .NET hỗ trợ tất cả các phiên bản tài liệu Micros
 
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Words dành cho .NET?
 
- Bạn có thể nhận được giấy phép tạm thời cho Aspose.Words cho .NET từ[đây](https://purchase.aspose.com/temporary-license/). Điều này cho phép bạn dùng thử đầy đủ các tính năng của thư viện mà không có bất kỳ hạn chế nào.
+Bạn có thể nhận được giấy phép tạm thời cho Aspose.Words cho .NET từ [đây](https://purchase.aspose.com/temporary-license/). Điều này cho phép bạn dùng thử đầy đủ các tính năng của thư viện mà không có bất kỳ hạn chế nào.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
 
- Bạn có thể tìm thấy tài liệu chi tiết về Aspose.Words cho .NET[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu chi tiết về Aspose.Words cho .NET [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

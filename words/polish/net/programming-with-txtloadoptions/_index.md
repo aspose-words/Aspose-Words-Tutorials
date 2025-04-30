@@ -1,14 +1,16 @@
 ---
-title: Przetwarzanie słów z Txtloadoptions
-linktitle: Przetwarzanie słów z Txtloadoptions
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak programować z opcjami ładowania plików tekstowych w Aspose.Words dla .NET. Dowiedz się, jak określić kodowanie, ignorować nieznane znaki, obsługiwać podziały wierszy i wiele więcej dzięki samouczkom krok po kroku i przykładowemu kodowi w języku C#.
-weight: 1640
-url: /pl/net/programming-with-txtloadoptions/
+"description": "Dowiedz się, jak programować z opcjami ładowania plików tekstowych w Aspose.Words dla .NET. Dowiedz się, jak określić kodowanie, ignorować nieznane znaki, obsługiwać podziały wierszy i wiele więcej dzięki samouczkom krok po kroku i przykładowemu kodowi w języku C#."
+"linktitle": "Przetwarzanie słów z Txtloadoptions"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przetwarzanie słów z Txtloadoptions"
+"url": "/pl/net/programming-with-txtloadoptions/"
+"weight": 1640
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przetwarzanie słów z Txtloadoptions
@@ -23,11 +25,16 @@ Korzystając z Aspose.Words, możesz skutecznie zautomatyzować zadania przetwar
 | Tytuł | Opis |
 | --- | --- |
 | [Wykryj numerację z odstępami](./detect-numbering-with-whitespaces/) | Dowiedz się, jak używać Aspose.Words for .NET do wykrywania numeracji zawierającej spacje w dokumentach zwykłego tekstu i mieć pewność, że Twoje listy będą prawidłowo rozpoznawane. |
-| [Opcje obsługi przestrzeni](./handle-spaces-options/) | Dowiedz się, jak radzić sobie z początkowymi i końcowymi spacjami w dokumentach tekstowych za pomocą Aspose.Words dla .NET. Ten samouczek zawiera przewodnik po czyszczeniu formatowania tekstu. |
+| [Opcje obsługi przestrzeni](./handle-spaces-options/) | Dowiedz się, jak radzić sobie z początkowymi i końcowymi spacjami w dokumentach tekstowych za pomocą Aspose.Words dla .NET. Ten samouczek zawiera przewodnik po porządkowaniu formatowania tekstu. |
 | [Kierunek tekstu dokumentu](./document-text-direction/) | Dowiedz się, jak ustawić kierunek tekstu dokumentu w programie Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne do obsługi języków pisanych od prawej do lewej. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

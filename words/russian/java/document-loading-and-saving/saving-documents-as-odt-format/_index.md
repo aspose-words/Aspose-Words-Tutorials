@@ -1,14 +1,16 @@
 ---
-title: Сохранение документов в формате ODT в Aspose.Words для Java
-linktitle: Сохранение документов в формате ODT
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как сохранять документы в формате ODT с помощью Aspose.Words для Java. Обеспечьте совместимость с офисными пакетами с открытым исходным кодом.
-weight: 19
-url: /ru/java/document-loading-and-saving/saving-documents-as-odt-format/
+"description": "Узнайте, как сохранять документы в формате ODT с помощью Aspose.Words для Java. Обеспечьте совместимость с офисными пакетами с открытым исходным кодом."
+"linktitle": "Сохранение документов в формате ODT"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Сохранение документов в формате ODT в Aspose.Words для Java"
+"url": "/ru/java/document-loading-and-saving/saving-documents-as-odt-format/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Сохранение документов в формате ODT в Aspose.Words для Java
@@ -24,7 +26,7 @@ url: /ru/java/document-loading-and-saving/saving-documents-as-odt-format/
 
 1. Среда разработки Java: убедитесь, что в вашей системе установлен Java Development Kit (JDK).
 
-2.  Aspose.Words for Java: Загрузите и установите библиотеку Aspose.Words for Java. Ссылку на скачивание вы найдете[здесь](https://releases.aspose.com/words/java/).
+2. Aspose.Words for Java: Загрузите и установите библиотеку Aspose.Words for Java. Ссылку на скачивание вы найдете [здесь](https://releases.aspose.com/words/java/).
 
 3. Образец документа: у вас должен быть образец документа Word (например, «Document.docx»), который вы хотите преобразовать в формат ODT.
 
@@ -36,7 +38,7 @@ url: /ru/java/document-loading-and-saving/saving-documents-as-odt-format/
 Document doc = new Document("Your Directory Path" + "Document.docx");
 ```
 
- Здесь,`"Your Directory Path"` должен указывать на каталог, в котором находится ваш документ.
+Здесь, `"Your Directory Path"` должен указывать на каталог, в котором находится ваш документ.
 
 ## Шаг 2: Укажите параметры сохранения ODT
 
@@ -47,7 +49,7 @@ OdtSaveOptions saveOptions = new OdtSaveOptions();
 saveOptions.setMeasureUnit(OdtSaveMeasureUnit.INCHES);
 ```
 
-## Шаг 3: Сохраните документ
+## Шаг 3: Сохраните документ.
 
 Теперь пришло время сохранить документ в формате ODT:
 
@@ -55,7 +57,7 @@ saveOptions.setMeasureUnit(OdtSaveMeasureUnit.INCHES);
 doc.save("Your Directory Path" + "WorkingWithOdtSaveOptions.MeasureUnit.odt", saveOptions);
 ```
 
- Здесь,`"Your Directory Path"` должен указывать на каталог, в котором вы хотите сохранить преобразованный ODT-файл.
+Здесь, `"Your Directory Path"` должен указывать на каталог, в котором вы хотите сохранить преобразованный ODT-файл.
 
 ## Полный исходный код для сохранения документов в формате ODT в Aspose.Words для Java
 
@@ -75,7 +77,7 @@ doc.save("Your Directory Path" + "WorkingWithOdtSaveOptions.MeasureUnit.odt", sa
 
 ### Как загрузить Aspose.Words для Java?
 
- Вы можете загрузить Aspose.Words для Java с веб-сайта Aspose. Посетите[эта ссылка](https://releases.aspose.com/words/java/) для доступа к странице загрузки.
+Вы можете загрузить Aspose.Words для Java с веб-сайта Aspose. Посетите [эта ссылка](https://releases.aspose.com/words/java/) для доступа к странице загрузки.
 
 ### В чем преимущество сохранения документов в формате ODT?
 
@@ -92,9 +94,14 @@ doc.save("Your Directory Path" + "WorkingWithOdtSaveOptions.MeasureUnit.odt", sa
 ### Совместим ли Aspose.Words для Java с последними версиями Java?
 
 Aspose.Words for Java регулярно обновляется для поддержки последних версий Java, обеспечивая совместимость и улучшение производительности. Обязательно проверьте системные требования в документации для получения последней информации.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

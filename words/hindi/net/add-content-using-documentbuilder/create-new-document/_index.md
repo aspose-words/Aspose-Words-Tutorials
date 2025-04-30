@@ -1,14 +1,16 @@
 ---
-title: नया वर्ड दस्तावेज़ बनाएँ
-linktitle: नया वर्ड दस्तावेज़ बनाएँ
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: जानें कि .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ कैसे बनाएँ। यह चरण-दर-चरण मार्गदर्शिका आपको प्रक्रिया के माध्यम से ले जाएगी, जिससे दस्तावेज़ स्वचालन आसान हो जाएगा।
-weight: 10
-url: /hi/net/add-content-using-documentbuilder/create-new-document/
+"description": "जानें कि .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ कैसे बनाएं। यह चरण-दर-चरण मार्गदर्शिका आपको प्रक्रिया के माध्यम से ले जाएगी, जिससे दस्तावेज़ स्वचालन आसान हो जाएगा।"
+"linktitle": "नया वर्ड दस्तावेज़ बनाएँ"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "नया वर्ड दस्तावेज़ बनाएँ"
+"url": "/hi/net/add-content-using-documentbuilder/create-new-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # नया वर्ड दस्तावेज़ बनाएँ
@@ -20,9 +22,9 @@ url: /hi/net/add-content-using-documentbuilder/create-new-document/
 
 इससे पहले कि हम बारीकियों में जाएं, आइए सुनिश्चित करें कि हमारे पास वह सब कुछ है जो हमें चाहिए:
 
-1.  विज़ुअल स्टूडियो: हमारा कोडिंग प्लेग्राउंड। अगर आपके पास अभी तक यह नहीं है, तो आगे बढ़ें और इसे यहाँ से डाउनलोड करें[विज़ुअल स्टूडियो डाउनलोड](https://visualstudio.microsoft.com/downloads/).
-2.  .NET के लिए Aspose.Words: शो का सितारा। आप इसे यहाँ से प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
-3.  .NET फ्रेमवर्क: सुनिश्चित करें कि आपके पास कम से कम .NET फ्रेमवर्क 4.0 स्थापित है। आप इसे जाँच कर इंस्टॉल कर सकते हैं[Microsoft .NET डाउनलोड पृष्ठ](https://dotnet.microsoft.com/download/dotnet-framework).
+1. विज़ुअल स्टूडियो: हमारा कोडिंग प्लेग्राउंड। अगर आपके पास अभी तक यह नहीं है, तो आगे बढ़ें और इसे यहाँ से डाउनलोड करें [विज़ुअल स्टूडियो डाउनलोड](https://visualstudio.microsoft.com/downloads/).
+2. .NET के लिए Aspose.Words: शो का सितारा। आप इसे यहाँ से प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
+3. .NET फ्रेमवर्क: सुनिश्चित करें कि आपके पास कम से कम .NET फ्रेमवर्क 4.0 स्थापित है। आप इसे जाँच कर इंस्टॉल कर सकते हैं [Microsoft .NET डाउनलोड पृष्ठ](https://dotnet.microsoft.com/download/dotnet-framework).
 
 ## नामस्थान आयात करें
 
@@ -45,7 +47,7 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहाँ आप अपना दस्तावेज़ सहेजना चाहते हैं। यह आपके दस्तावेज़ का होम बेस है।
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहाँ आप अपना दस्तावेज़ सहेजना चाहते हैं। यह आपके दस्तावेज़ का होम बेस है।
 
 ## चरण 2: दस्तावेज़ बनाना
 
@@ -61,7 +63,7 @@ Document doc = new Document();
 
 ### डॉक्यूमेंटबिल्डर आरंभ करें
 
- आगे, हमें अपने दस्तावेज़ में कुछ सामग्री जोड़ने की आवश्यकता है। इसके लिए, हम उपयोग करेंगे`DocumentBuilder`यह हमारी कलम की तरह है जो कैनवास पर लिखती है।
+आगे, हमें अपने दस्तावेज़ में कुछ सामग्री जोड़ने की आवश्यकता है। इसके लिए, हम उपयोग करेंगे `DocumentBuilder`यह हमारी कलम की तरह है जो कैनवास पर लिखती है।
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -93,7 +95,7 @@ doc.Save(dataDir + "AddContentUsingDocumentBuilder.CreateNewDocument.docx");
 
 ### क्या मैं .NET के लिए Aspose.Words का उपयोग करके अपने Word दस्तावेज़ में छवियाँ जोड़ सकता हूँ?
 
-बिल्कुल! आप इमेज, टेबल, हेडर, फ़ुटर और बहुत कुछ जोड़ सकते हैं। Aspose.Words एक पूर्ण दस्तावेज़ स्वचालन लाइब्रेरी है।
+बिल्कुल! आप इमेज, टेबल, हेडर, फूटर और बहुत कुछ जोड़ सकते हैं। Aspose.Words एक पूर्ण दस्तावेज़ स्वचालन लाइब्रेरी है।
 
 ### क्या Aspose.Words for .NET .NET कोर के साथ संगत है?
 
@@ -101,7 +103,7 @@ doc.Save(dataDir + "AddContentUsingDocumentBuilder.CreateNewDocument.docx");
 
 ### मैं .NET के लिए Aspose.Words का निःशुल्क परीक्षण कैसे प्राप्त कर सकता हूँ?
 
- आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं[Aspose रिलीज़ पृष्ठ](https://releases.aspose.com/).
+आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं [Aspose रिलीज़ पृष्ठ](https://releases.aspose.com/).
 
 ### मैं .NET के लिए Aspose.Words के साथ किस प्रकार के दस्तावेज़ बना सकता हूँ?
 
@@ -109,11 +111,16 @@ doc.Save(dataDir + "AddContentUsingDocumentBuilder.CreateNewDocument.docx");
 
 ### मैं अधिक दस्तावेज और उदाहरण कहां पा सकता हूं?
 
- इसकी जाँच पड़ताल करो[.NET दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/net/) अधिक उदाहरणों और विस्तृत मार्गदर्शिकाओं के लिए.
+इसकी जाँच पड़ताल करो [.NET दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/net/) अधिक उदाहरणों और विस्तृत मार्गदर्शिकाओं के लिए.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

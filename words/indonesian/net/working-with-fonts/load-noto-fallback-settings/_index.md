@@ -1,14 +1,16 @@
 ---
-title: Muat Pengaturan Fallback Noto
-linktitle: Muat Pengaturan Fallback Noto
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memuat pengaturan fallback Noto dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk memastikan semua karakter ditampilkan dengan benar.
-weight: 10
-url: /id/net/working-with-fonts/load-noto-fallback-settings/
+"description": "Pelajari cara memuat pengaturan fallback Noto dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk memastikan semua karakter ditampilkan dengan benar."
+"linktitle": "Muat Pengaturan Fallback Noto"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Muat Pengaturan Fallback Noto"
+"url": "/id/net/working-with-fonts/load-noto-fallback-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Muat Pengaturan Fallback Noto
@@ -21,10 +23,10 @@ Dalam tutorial ini, kita akan menjelajahi cara memuat pengaturan fallback Noto d
 
 Sebelum kita menyelami panduan langkah demi langkah, mari kita bahas prasyarat yang Anda perlukan:
 
-1.  Pustaka Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru Aspose.Words untuk .NET. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru Aspose.Words untuk .NET. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau lingkungan pengembangan .NET lain yang kompatibel.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# sangatlah penting.
-4. Dokumen Word: Contoh dokumen Word untuk menerapkan pengaturan cadangan Noto.
+4. Dokumen Word: Contoh dokumen Word untuk menerapkan pengaturan fallback Noto.
 
 ## Mengimpor Ruang Nama
 
@@ -35,7 +37,7 @@ using Aspose.Words;
 using Aspose.Words.Fonts;
 ```
 
-Sekarang, mari kita uraikan prosesnya menjadi langkah-langkah yang sederhana dan mudah dikelola. Ikuti langkah-langkah berikut untuk memuat pengaturan fallback Noto di dokumen Word Anda.
+Sekarang, mari kita uraikan prosesnya menjadi beberapa langkah yang sederhana dan mudah dikelola. Ikuti langkah-langkah berikut untuk memuat pengaturan fallback Noto di dokumen Word Anda.
 
 ## Langkah 1: Siapkan Proyek Anda
 
@@ -52,11 +54,11 @@ Selanjutnya, tentukan jalur ke direktori dokumen Anda. Di sinilah dokumen Word A
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke folder dokumen Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke folder dokumen Anda.
 
 ## Langkah 3: Muat Dokumen Anda
 
-Muat dokumen Word yang ingin Anda terapkan pengaturan fallback Noto. Gunakan`Document` kelas dari namespace Aspose.Words.
+Muat dokumen Word yang ingin Anda terapkan pengaturan fallback Noto. Gunakan `Document` kelas dari namespace Aspose.Words.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -66,7 +68,7 @@ Pastikan dokumen Anda diberi nama "Rendering.docx" atau ubah nama file sebagaima
 
 ## Langkah 4: Konfigurasikan Pengaturan Font
 
- Buat contoh dari`FontSettings` kelas dan memuat pengaturan fallback Noto. Langkah ini mengonfigurasi pengaturan font untuk menggunakan font Noto sebagai fallback.
+Buat contoh dari `FontSettings` kelas dan memuat pengaturan fallback Noto. Langkah ini mengonfigurasi pengaturan font untuk menggunakan font Noto sebagai fallback.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -108,10 +110,15 @@ Ya, Aspose.Words memungkinkan Anda mengonfigurasi pengaturan fallback lainnya be
 Anda dapat menginstal Aspose.Words untuk .NET melalui NuGet Package Manager di Visual Studio.
 
 ### Apakah ada uji coba gratis untuk Aspose.Words untuk .NET?
- Ya, Anda dapat mengunduh uji coba gratis[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh uji coba gratis [Di Sini](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

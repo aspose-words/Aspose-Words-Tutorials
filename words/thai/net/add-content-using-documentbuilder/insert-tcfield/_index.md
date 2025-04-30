@@ -1,14 +1,16 @@
 ---
-title: แทรก TCField ในเอกสาร Word
-linktitle: แทรก TCField ในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแทรกฟิลด์ TC ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการทำงานอัตโนมัติของเอกสารอย่างราบรื่น
-weight: 10
-url: /th/net/add-content-using-documentbuilder/insert-tcfield/
+"description": "เรียนรู้วิธีแทรกฟิลด์ TC ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการทำงานอัตโนมัติของเอกสารอย่างราบรื่น"
+"linktitle": "แทรก TCField ในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แทรก TCField ในเอกสาร Word"
+"url": "/th/net/add-content-using-documentbuilder/insert-tcfield/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทรก TCField ในเอกสาร Word
@@ -21,10 +23,10 @@ url: /th/net/add-content-using-documentbuilder/insert-tcfield/
 
 ก่อนที่จะเข้าสู่รายละเอียด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
-1.  Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ .NET คุณสามารถรับได้จาก[หน้าดาวน์โหลด](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ .NET คุณสามารถรับได้จาก [หน้าดาวน์โหลด](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: สภาพแวดล้อมการพัฒนา .NET ใดๆ ก็ใช้ได้ แต่ขอแนะนำ Visual Studio เป็นอย่างยิ่ง
 3. ความรู้พื้นฐานเกี่ยวกับ C#: คุณควรจะคุ้นเคยกับพื้นฐานการเขียนโปรแกรม C#
-4.  ใบอนุญาตชั่วคราว: เพื่อปลดล็อคความสามารถทั้งหมดของ Aspose.Words คุณอาจต้องมีใบอนุญาตชั่วคราวที่คุณสามารถรับได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+4. ใบอนุญาตชั่วคราว: เพื่อปลดล็อคความสามารถทั้งหมดของ Aspose.Words คุณอาจต้องมีใบอนุญาตชั่วคราวที่คุณสามารถรับได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ## นำเข้าเนมสเปซ
 
@@ -36,7 +38,7 @@ using Aspose.Words;
 using Aspose.Words.Fields;
 ```
 
-เอาล่ะ เมื่อผ่านขั้นตอนเบื้องต้นไปแล้ว เรามาเริ่มดำเนินการกันเลย!
+เอาล่ะ เมื่อผ่านขั้นตอนเบื้องต้นไปแล้ว มาเริ่มดำเนินการกันเลย!
 
 ## ขั้นตอนที่ 1: ตั้งค่าโครงการของคุณ
 
@@ -48,7 +50,7 @@ Install-Package Aspose.Words
 
 ## ขั้นตอนที่ 2: สร้างเอกสารใหม่
 
- เอาล่ะ เรามาเริ่มต้นด้วยการสร้างเอกสาร Word ใหม่กันก่อน เราจะใช้`Document` และ`DocumentBuilder` คลาสจาก Aspose.Words เพื่อให้ทุกอย่างดำเนินไป
+เอาล่ะ เรามาเริ่มต้นด้วยการสร้างเอกสาร Word ใหม่กันก่อน เราจะใช้ `Document` และ `DocumentBuilder` คลาสจาก Aspose.Words เพื่อให้ทุกอย่างดำเนินไป
 
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
@@ -70,7 +72,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("TC \"Entry Text\" \\f t");
 ```
 
- บรรทัดโค้ดนี้จะบอกให้ Aspose.Words แทรกฟิลด์ TC ด้วยข้อความรายการ "Entry Text"`\\f t`ส่วนหนึ่งเป็นสวิตช์ที่กำหนดว่ารายการจะแสดงอย่างไรในสารบัญ
+บรรทัดโค้ดนี้จะบอกให้ Aspose.Words แทรกฟิลด์ TC ด้วยข้อความรายการ "Entry Text" `\\f t` ส่วนหนึ่งเป็นสวิตช์ที่กำหนดว่ารายการจะแสดงอย่างไรในสารบัญ
 
 ## ขั้นตอนที่ 4: บันทึกเอกสาร
 
@@ -85,7 +87,7 @@ doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
 
 ## บทสรุป
 
- และแล้วคุณก็จะได้มัน! เราได้แนะนำวิธีการแทรกฟิลด์ TC ลงในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET เรียบร้อยแล้ว เป็นเรื่องง่ายมากใช่ไหม ด้วยทักษะเหล่านี้ ตอนนี้คุณสามารถทำให้เอกสาร Word ของคุณเป็นแบบอัตโนมัติและปรับแต่งได้เหมือนมืออาชีพ หากคุณมีคำถามหรือประสบปัญหาใดๆ อย่าลังเลที่จะตรวจสอบ[เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) หรือติดต่อพวกเขา[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8). สนุกกับการเขียนโค้ด!
+และแล้วคุณก็จะได้มัน! เราได้แนะนำวิธีการแทรกฟิลด์ TC ลงในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET เรียบร้อยแล้ว เป็นเรื่องง่ายมากใช่ไหม ด้วยทักษะเหล่านี้ ตอนนี้คุณสามารถทำให้เอกสาร Word ของคุณเป็นแบบอัตโนมัติและปรับแต่งได้เหมือนมืออาชีพ หากคุณมีคำถามหรือประสบปัญหาใดๆ อย่าลังเลที่จะตรวจสอบ [เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) หรือติดต่อพวกเขา [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8). สนุกกับการเขียนโค้ด!
 
 ## คำถามที่พบบ่อย
 
@@ -95,7 +97,7 @@ doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
 
 ### 2. ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Words สำหรับ .NET หรือไม่?
 
- ใช่ คุณสามารถใช้ใบอนุญาตชั่วคราวเพื่อปลดล็อกคุณสมบัติทั้งหมดของ Aspose.Words ได้ คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ใช่ คุณสามารถใช้ใบอนุญาตชั่วคราวเพื่อปลดล็อกคุณสมบัติทั้งหมดของ Aspose.Words ได้ คุณสามารถขอรับใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### 3. ฉันสามารถใช้ Aspose.Words กับภาษาการเขียนโปรแกรมอื่นได้หรือไม่
 
@@ -103,15 +105,20 @@ Aspose.Words รองรับภาษา .NET เป็นหลัก เช
 
 ### 4. ฉันสามารถหาตัวอย่างเพิ่มเติมเกี่ยวกับการใช้ Aspose.Words สำหรับ .NET ได้ที่ไหน
 
- คุณสามารถค้นหาตัวอย่างเพิ่มเติมและเอกสารรายละเอียดได้ที่[หน้าเอกสาร Aspose.Words](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาตัวอย่างเพิ่มเติมและเอกสารรายละเอียดได้ที่ [หน้าเอกสาร Aspose.Words](https://reference-aspose.com/words/net/).
 
 ### 5. ฉันจะได้รับการสนับสนุนได้อย่างไรหากประสบปัญหา?
 
- หากคุณประสบปัญหาใดๆ คุณสามารถรับการสนับสนุนได้จาก[ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8).
+หากคุณประสบปัญหาใดๆ คุณสามารถรับการสนับสนุนได้จาก [ฟอรั่มสนับสนุน Aspose.Words](https://forum-aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

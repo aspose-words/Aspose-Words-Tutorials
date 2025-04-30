@@ -1,14 +1,16 @@
 ---
-title: Konwersja dokumentów Pythona — kompletny przewodnik
-linktitle: Konwersja dokumentów Python
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Naucz się konwersji dokumentów Pythona z Aspose.Words for Python. Konwertuj, manipuluj i dostosowuj dokumenty bez wysiłku. Zwiększ produktywność już teraz!
-weight: 10
-url: /pl/python-net/document-conversion/python-document-conversion/
+"description": "Naucz się konwersji dokumentów Pythona z Aspose.Words for Python. Konwertuj, manipuluj i dostosowuj dokumenty bez wysiłku. Zwiększ produktywność już teraz!"
+"linktitle": "Konwersja dokumentów Python"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Konwersja dokumentów Pythona — kompletny przewodnik"
+"url": "/pl/python-net/document-conversion/python-document-conversion/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwersja dokumentów Pythona — kompletny przewodnik
@@ -54,7 +56,7 @@ Aspose.Words umożliwia zachowanie nagłówków, stopek i ustawień strony podcz
 
 ### Wymagania wstępne
 
-Przed zainstalowaniem Aspose.Words dla Pythona musisz mieć zainstalowanego Pythona w swoim systemie. Możesz pobrać Pythona z Aspose.Releases(https://releases.aspose.com/words/python/) i postępuj zgodnie z instrukcjami instalacji.
+Przed zainstalowaniem Aspose.Words dla Pythona musisz mieć zainstalowanego Pythona w swoim systemie. Możesz pobrać Pythona z Aspose.Releases(https://releases.aspose.com/words/python/) i postępować zgodnie z instrukcjami instalacji.
 
 ### Kroki instalacji
 
@@ -76,28 +78,28 @@ pip install aspose-words
 Aby przekonwertować dokument Word na PDF za pomocą Aspose.Words dla języka Python, użyj następującego kodu:
 
 ```python
-# Python code for Word to PDF conversion
+# Kod Pythona do konwersji Worda do PDF
 import aspose.words as aw
 
-# Load the Word document
+# Załaduj dokument Word
 doc = aw.Document("input.docx")
 
-# Save the document as PDF
+# Zapisz dokument jako PDF
 doc.save("output.pdf", aw.SaveFormat.PDF)
 ```
 
 ### Konwersja PDF do Worda
 
-Aby przekonwertować dokument PDF do formatu Word, użyj następującego kodu:
+Aby przekonwertować dokument PDF do formatu Word, użyj tego kodu:
 
 ```python
-# Python code for PDF to Word conversion
+# Kod Pythona do konwersji PDF do Word
 import aspose.words as aw
 
-# Load the PDF document
+# Załaduj dokument PDF
 doc = aw.Document("input.pdf")
 
-# Save the document as Word
+# Zapisz dokument jako Word
 doc.save("output.docx", aw.SaveFormat.DOCX)
 ```
 
@@ -112,20 +114,20 @@ Oprócz plików Word i PDF, Aspose.Words for Python obsługuje różne formaty d
 Aspose.Words pozwala dostosować wygląd konwertowanych dokumentów. Możesz zastosować opcje formatowania, takie jak style czcionek, kolory, wyrównanie i odstępy między akapitami.
 
 ```python
-# Python code for applying formatting during conversion
+# Kod Pythona do stosowania formatowania podczas konwersji
 import aspose.words as aw
 
-# Load the Word document
+# Załaduj dokument Word
 doc = aw.Document("input.docx")
 
-# Get the first paragraph
+# Pobierz pierwszy akapit
 paragraph = doc.first_section.body.first_paragraph
 
-# Apply bold formatting to the text
+# Zastosuj pogrubienie do tekstu
 run = paragraph.runs[0]
 run.font.bold = True
 
-# Save the formatted document as PDF
+# Zapisz sformatowany dokument jako PDF
 doc.save("formatted_output.pdf", aw.SaveFormat.PDF)
 ```
 
@@ -134,23 +136,23 @@ doc.save("formatted_output.pdf", aw.SaveFormat.PDF)
 Aspose.Words umożliwia obsługę obrazów i tabel podczas procesu konwersji. Możesz wyodrębnić obrazy, zmienić ich rozmiar i manipulować tabelami, aby zachować strukturę dokumentu.
 
 ```python
-# Python code for handling images and tables during conversion
+# Kod Pythona do obsługi obrazów i tabel podczas konwersji
 import aspose.words as aw
 
-# Load the Word document
+# Załaduj dokument Word
 doc = aw.Document("input.docx")
 
-# Access the first table in the document
+# Uzyskaj dostęp do pierwszej tabeli w dokumencie
 table = doc.first_section.body.tables[0]
 
-# Get the first image in the document
+# Pobierz pierwszy obraz w dokumencie
 image = doc.get_child(aw.NodeType.SHAPE, 0, True)
 
-# Resize the image
+# Zmień rozmiar obrazu
 image.width = 200
 image.height = 150
 
-# Save the modified document as PDF
+# Zapisz zmodyfikowany dokument jako PDF
 doc.save("modified_output.pdf", aw.SaveFormat.PDF)
 ```
 
@@ -159,17 +161,17 @@ doc.save("modified_output.pdf", aw.SaveFormat.PDF)
 Dzięki Aspose.Words możesz zapewnić spójne renderowanie czcionek i zarządzać układem konwertowanych dokumentów. Ta funkcja jest szczególnie przydatna, gdy zachowujesz spójność dokumentów w różnych formatach.
 
 ```python
-# Python code for managing fonts and layout during conversion
+# Kod Pythona do zarządzania czcionkami i układem podczas konwersji
 import aspose.words as aw
 
-# Load the Word document
+# Załaduj dokument Word
 doc = aw.Document("input.docx")
 
-# Set the default font for the document
+# Ustaw domyślną czcionkę dla dokumentu
 doc.styles.default_font.name = "Arial"
 doc.styles.default_font.size = 12
 
-# Save the document with the modified font settings as PDF
+# Zapisz dokument ze zmienionymi ustawieniami czcionki jako PDF
 doc.save("font_modified_output.pdf", aw.SaveFormat.PDF)
 ```
 
@@ -180,23 +182,23 @@ doc.save("font_modified_output.pdf", aw.SaveFormat.PDF)
 Możliwości skryptowania Pythona sprawiają, że jest to doskonały wybór do automatyzacji powtarzających się zadań. Możesz pisać skrypty Pythona, aby wykonywać konwersję dokumentów wsadowych, oszczędzając czas i wysiłek.
 
 ```python
-# Python script for batch document conversion
+# Skrypt Pythona do wsadowej konwersji dokumentów
 import os
 import aspose.words as aw
 
-# Set the input and output directories
+# Ustaw katalogi wejściowe i wyjściowe
 input_dir = "input_documents"
 output_dir = "output_documents"
 
-# Get a list of all files in the input directory
+# Pobierz listę wszystkich plików w katalogu wejściowym
 input_files = os.listdir(input_dir)
 
-# Loop through each file and perform the conversion
+# Przejdź przez każdy plik i wykonaj konwersję
 for filename in input_files:
-    # Load the document
+    # Załaduj dokument
     doc = aw.Document(os.path.join(input_dir, filename))
     
-    # Convert the document to PDF
+    # Konwertuj dokument do formatu PDF
     output_filename = filename.replace(".docx", ".pdf")
     doc.save(os.path.join(output_dir, output_filename), aw.SaveFormat.PDF)
 ```
@@ -206,29 +208,29 @@ for filename in input_files:
 Łącząc możliwości języka Python i pakietu Aspose.Words, można zautomatyzować masową konwersję dokumentów, zwiększając produktywność i efektywność.
 
 ```python
-# Python script for batch document conversion using Aspose.Words
+# Skrypt Pythona do konwersji dokumentów wsadowych przy użyciu Aspose.Words
 import os
 import aspose.words as aw
 
-# Set the input and output directories
+# Ustaw katalogi wejściowe i wyjściowe
 input_dir = "input_documents"
 output_dir = "output_documents"
 
-# Get a list of all files in the input directory
+# Pobierz listę wszystkich plików w katalogu wejściowym
 input_files = os.listdir(input_dir)
 
-# Loop through each file and perform the conversion
+# Przejdź przez każdy plik i wykonaj konwersję
 for filename in input_files:
-    # Get the file extension
+    # Pobierz rozszerzenie pliku
     file_ext = os.path.splitext(filename)[1].lower()
 
-    # Load the document based on its format
+    # Załaduj dokument na podstawie jego formatu
     if file_ext == ".docx":
         doc = aw.Document(os.path.join(input_dir, filename))
     elif file_ext == ".pdf":
         doc = aw.Document(os.path.join(input_dir, filename))
 
-    # Convert the document to the opposite format
+    # Konwertuj dokument do formatu przeciwnego
     output_filename = filename.replace(file_ext, ".pdf" if file_ext == ".docx" else ".docx")
     doc.save(os.path.join(output_dir, output_filename))
 ```
@@ -253,10 +255,15 @@ Tak, Aspose.Words obsługuje konwersję dokumentów Word do różnych formatów 
 
 ### Jak poradzić sobie z dużymi dokumentami Word podczas konwersji?
 
-Aspose.Words for Python jest przeznaczony do wydajnego obsługiwania dużych dokumentów Word. Programiści mogą optymalizować wykorzystanie pamięci i wydajność podczas przetwarzania rozległych plików.
+Aspose.Words for Python jest zaprojektowany do wydajnego obsługiwania dużych dokumentów Word. Programiści mogą optymalizować wykorzystanie pamięci i wydajność podczas przetwarzania rozległych plików.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

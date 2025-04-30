@@ -1,27 +1,29 @@
 ---
-title: Lettertype opmaak
-linktitle: Lettertype opmaak
-second_title: Aspose.Words API voor documentverwerking
-description: Leer hoe u lettertypen in Word-documenten opmaakt met Aspose.Words voor .NET met een gedetailleerde, stapsgewijze handleiding.
-weight: 10
-url: /nl/net/working-with-fonts/font-formatting/
+"description": "Leer hoe u lettertypen in Word-documenten opmaakt met Aspose.Words voor .NET met behulp van een gedetailleerde, stapsgewijze handleiding."
+"linktitle": "Lettertypeopmaak"
+"second_title": "Aspose.Words API voor documentverwerking"
+"title": "Lettertypeopmaak"
+"url": "/nl/net/working-with-fonts/font-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lettertype opmaak
+# Lettertypeopmaak
 
 ## Invoering
 
-Het opmaken van het lettertype in uw Word-documenten kan een groot verschil maken in hoe uw content wordt waargenomen. Of u nu een punt wilt benadrukken, uw tekst leesbaarder wilt maken of gewoon wilt voldoen aan een stijlgids, lettertypeopmaak is essentieel. In deze tutorial duiken we in hoe u lettertypen kunt opmaken met Aspose.Words voor .NET, een krachtige bibliotheek die het verwerken van Word-documenten een fluitje van een cent maakt.
+Het opmaken van het lettertype in je Word-documenten kan een enorm verschil maken in hoe je content wordt ervaren. Of je nu een punt wilt benadrukken, je tekst leesbaarder wilt maken of gewoon een stijlgids wilt volgen, lettertypeopmaak is essentieel. In deze tutorial duiken we in hoe je lettertypen kunt opmaken met Aspose.Words voor .NET, een krachtige bibliotheek die het werken met Word-documenten een fluitje van een cent maakt.
 
 ## Vereisten
 
 Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 
-1.  Aspose.Words voor .NET-bibliotheek: U kunt het downloaden van de[Aspose releases pagina](https://releases.aspose.com/words/net/).
+1. Aspose.Words voor .NET-bibliotheek: U kunt het downloaden van de [Aspose releases pagina](https://releases.aspose.com/words/net/).
 2. Ontwikkelomgeving: Visual Studio of een andere C# IDE.
 3. Basiskennis van C#: Als u de basisbeginselen van C#-programmering begrijpt, kunt u de voorbeelden beter volgen.
 
@@ -37,10 +39,10 @@ using Aspose.Words;
 
 ## Stap 1: Het document instellen
 
- Om te beginnen maken we een nieuw document en stellen we een`DocumentBuilder`:
+Om te beginnen maken we een nieuw document en stellen we een `DocumentBuilder`:
 
 ```csharp
-// Pad naar uw documentenmap
+// Pad naar uw documentenmap 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Stap 2: Het lettertype configureren
 
-Vervolgens configureren we de lettertype-eigenschappen. Dit omvat het instellen van de grootte, het vet maken van de tekst, het wijzigen van de kleur, het specificeren van de lettertypenaam en het toevoegen van een onderstrepingsstijl:
+Vervolgens configureren we de lettertype-eigenschappen. Dit omvat het instellen van de grootte, het vet maken van de tekst, het wijzigen van de kleur, het specificeren van de lettertypenaam en het toevoegen van een onderstrepingsstijl.
 
 ```csharp
 Font font = builder.Font;
@@ -78,12 +80,12 @@ doc.Save(dataDir + "WorkingWithFonts.FontFormatting.docx");
 
 ## Conclusie
 
-En daar heb je het! Door deze eenvoudige stappen te volgen, kun je lettertypen opmaken in je Word-documenten met Aspose.Words voor .NET. Deze krachtige bibliotheek geeft je nauwkeurige controle over de opmaak van documenten, zodat je eenvoudig professionele en gepolijste documenten kunt maken.
+En voilà! Door deze eenvoudige stappen te volgen, kunt u lettertypen in uw Word-documenten opmaken met Aspose.Words voor .NET. Deze krachtige bibliotheek geeft u nauwkeurige controle over de documentopmaak, zodat u gemakkelijk professionele en verzorgde documenten kunt maken.
 
 ## Veelgestelde vragen
 
 ### Welke andere lettertype-eigenschappen kan ik instellen met Aspose.Words voor .NET?
- U kunt eigenschappen instellen zoals Italic, StrikeThrough, Subscript, Superscript en meer. Controleer de[documentatie](https://reference.aspose.com/words/net/) voor een compleet overzicht.
+U kunt eigenschappen instellen zoals Cursief, Doorhalen, Subscript, Superscript en meer. Controleer de [documentatie](https://reference.aspose.com/words/net/) voor een complete lijst.
 
 ### Kan ik het lettertype van bestaande tekst in een document wijzigen?
 Ja, u kunt door het document bladeren en lettertypewijzigingen toepassen op bestaande tekst. 
@@ -91,14 +93,19 @@ Ja, u kunt door het document bladeren en lettertypewijzigingen toepassen op best
 ### Is het mogelijk om aangepaste lettertypen te gebruiken met Aspose.Words voor .NET?
 Absoluut! U kunt elk lettertype gebruiken dat op uw systeem is geïnstalleerd of aangepaste lettertypen rechtstreeks in het document insluiten.
 
-### Hoe kan ik verschillende lettertypes op verschillende delen van de tekst toepassen?
- Gebruik meerdere`DocumentBuilder` instanties of wissel lettertype-instellingen tussen`Write` roept op om verschillende stijlen toe te passen op verschillende tekstsegmenten.
+### Hoe kan ik verschillende lettertypen op verschillende tekstdelen toepassen?
+Gebruik meerdere `DocumentBuilder` instanties of wissel lettertype-instellingen tussen `Write` roept op om verschillende stijlen op verschillende tekstsegmenten toe te passen.
 
-### Ondersteunt Aspose.Words voor .NET andere documentformaten dan DOCX?
+### Ondersteunt Aspose.Words voor .NET andere documentformaten naast DOCX?
 Ja, het ondersteunt verschillende formaten, waaronder PDF, HTML, EPUB en meer. 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

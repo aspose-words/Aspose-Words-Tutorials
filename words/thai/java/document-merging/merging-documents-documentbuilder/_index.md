@@ -1,14 +1,16 @@
 ---
-title: การผสานเอกสารด้วย DocumentBuilder
-linktitle: การผสานเอกสารด้วย DocumentBuilder
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีการจัดการเอกสาร Word ด้วย Aspose.Words สำหรับ Java สร้าง แก้ไข รวม และแปลงเอกสารด้วยโปรแกรมใน Java
-weight: 13
-url: /th/java/document-merging/merging-documents-documentbuilder/
+"description": "เรียนรู้วิธีการจัดการเอกสาร Word ด้วย Aspose.Words สำหรับ Java สร้าง แก้ไข รวม และแปลงเอกสารด้วยโปรแกรมใน Java"
+"linktitle": "การผสานเอกสารด้วย DocumentBuilder"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การผสานเอกสารด้วย DocumentBuilder"
+"url": "/th/java/document-merging/merging-documents-documentbuilder/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การผสานเอกสารด้วย DocumentBuilder
@@ -28,11 +30,11 @@ url: /th/java/document-merging/merging-documents-documentbuilder/
 
 ## การเริ่มต้น
 
- เริ่มต้นด้วยการสร้างโปรเจ็กต์ Java ใหม่และเพิ่มไลบรารี Aspose.Words เข้าไป คุณสามารถดาวน์โหลดไลบรารีได้จาก[ที่นี่](https://releases.aspose.com/words/java/).
+เริ่มต้นด้วยการสร้างโปรเจ็กต์ Java ใหม่และเพิ่มไลบรารี Aspose.Words เข้าไป คุณสามารถดาวน์โหลดไลบรารีได้จาก [ที่นี่](https://releases-aspose.com/words/java/).
 
 ## การสร้างเอกสารใหม่
 
-ในการผสานเอกสาร เราจำเป็นต้องสร้างเอกสารใหม่เพื่อแทรกเนื้อหาลงไป โดยคุณสามารถทำได้ดังนี้:
+หากต้องการรวมเอกสาร เราจำเป็นต้องสร้างเอกสารใหม่เพื่อแทรกเนื้อหาลงไป โดยคุณสามารถทำได้ดังนี้:
 
 ```java
 // เริ่มต้นวัตถุเอกสาร
@@ -99,10 +101,15 @@ doc.save("merged_document.docx");
 
 ### ฉันสามารถหาเอกสารและทรัพยากรเพิ่มเติมได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.Words สำหรับ Java ได้ที่เว็บไซต์ Aspose:[เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/).
+คุณสามารถค้นหาเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.Words สำหรับ Java ได้ที่เว็บไซต์ Aspose: [เอกสาร Aspose.Words สำหรับ Java](https://reference-aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

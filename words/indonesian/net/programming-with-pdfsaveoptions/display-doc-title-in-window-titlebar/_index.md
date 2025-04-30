@@ -1,14 +1,16 @@
 ---
-title: Menampilkan Judul Dokumen di Bilah Judul Jendela
-linktitle: Menampilkan Judul Dokumen di Bilah Judul Jendela
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menampilkan judul dokumen di bilah judul jendela PDF Anda menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini.
-weight: 10
-url: /id/net/programming-with-pdfsaveoptions/display-doc-title-in-window-titlebar/
+"description": "Pelajari cara menampilkan judul dokumen di bilah judul jendela PDF Anda menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini."
+"linktitle": "Menampilkan Judul Dokumen di Bilah Judul Jendela"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Menampilkan Judul Dokumen di Bilah Judul Jendela"
+"url": "/id/net/programming-with-pdfsaveoptions/display-doc-title-in-window-titlebar/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menampilkan Judul Dokumen di Bilah Judul Jendela
@@ -21,7 +23,7 @@ Apakah Anda siap membuat PDF Anda terlihat lebih profesional? Satu perubahan kec
 
 Sebelum kita masuk ke langkah-langkahnya, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
--  Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+- Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Visual Studio atau IDE lain yang kompatibel.
 - Pengetahuan Dasar C#: Kita akan menulis kode dalam C#.
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Pada langkah ini, Anda menentukan jalur ke dokumen Anda. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda disimpan.
+Pada langkah ini, Anda menentukan jalur ke dokumen Anda. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda disimpan.
 
 ## Langkah 2: Konfigurasikan Opsi Penyimpanan PDF
 
@@ -60,7 +62,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Dengan pengaturan`DisplayDocTitle` ke`true`, kami menginstruksikan Aspose.Words untuk menggunakan judul dokumen di bilah judul jendela PDF.
+Dengan pengaturan `DisplayDocTitle` ke `true`, kami menginstruksikan Aspose.Words untuk menggunakan judul dokumen di bilah judul jendela PDF.
 
 ## Langkah 3: Simpan Dokumen sebagai PDF
 
@@ -70,7 +72,7 @@ Terakhir, kami menyimpan dokumen sebagai PDF, menerapkan opsi yang telah kami ko
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.DisplayDocTitleInWindowTitlebar.pdf", saveOptions);
 ```
 
-Baris kode ini akan menyimpan dokumen Anda dalam format PDF dengan judul yang ditampilkan di bilah judul. Sekali lagi, pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur direktori sebenarnya.
+Baris kode ini akan menyimpan dokumen Anda dalam format PDF dengan judul yang ditampilkan di bilah judul. Sekali lagi, pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur direktori sebenarnya.
 
 ## Kesimpulan
 
@@ -91,11 +93,16 @@ Ya, Aspose.Words untuk .NET mendukung berbagai kerangka kerja .NET, membuatnya s
 Ya, Anda dapat mengonversi berbagai format file seperti DOCX, RTF, HTML, dan lainnya ke PDF menggunakan Aspose.Words untuk .NET.
 
 ### Bagaimana cara mendapatkan dukungan jika saya mengalami masalah?
- Anda dapat mengunjungi[Forum Dukungan Aspose.Words](https://forum.aspose.com/c/words/8) untuk bantuan terkait masalah atau pertanyaan yang mungkin Anda miliki.
+Anda dapat mengunjungi [Forum Dukungan Aspose.Words](https://forum.aspose.com/c/words/8) untuk bantuan terkait masalah atau pertanyaan yang mungkin Anda miliki.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Konwertuj Docx do TXT
-linktitle: Konwertuj Docx do TXT
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Konwertuj DOCX na TXT za pomocą Aspose.Words dla .NET z naszym przewodnikiem krok po kroku. Naucz się przekształcać dokumenty wydajnie i bez wysiłku.
-weight: 10
-url: /pl/net/basic-conversions/docx-to-txt/
+"description": "Konwertuj DOCX na TXT za pomocą Aspose.Words dla .NET z naszym przewodnikiem krok po kroku. Naucz się przekształcać dokumenty wydajnie i bez wysiłku."
+"linktitle": "Konwertuj Docx do TXT"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Konwertuj Docx do TXT"
+"url": "/pl/net/basic-conversions/docx-to-txt/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwertuj Docx do TXT
@@ -21,7 +23,7 @@ Konwersja plików DOCX do formatu TXT może być niezbędna dla różnych aplika
 
 Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania wstępne:
 
-1.  Biblioteka Aspose.Words dla platformy .NET: Pobierz i zainstaluj najnowszą wersję Aspose.Words dla platformy .NET ze strony[Strona wydań Aspose](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Pobierz i zainstaluj najnowszą wersję Aspose.Words dla .NET ze strony [Strona wydań Aspose](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub inne środowisko programistyczne C#.
 3. Podstawowa znajomość języka C#: Znajomość języka programowania C# i platformy .NET.
 
@@ -46,7 +48,7 @@ Zanim zaczniesz pisać kod, upewnij się, że projekt jest poprawnie skonfigurow
 
 Następnie musisz określić ścieżkę do katalogu dokumentów. To tutaj przechowywane są pliki DOCX i gdzie zostaną zapisane przekonwertowane pliki TXT.
 
-1.  Zdefiniuj ścieżkę do katalogu danych: W swoim kodzie zdefiniuj ścieżkę do katalogu dokumentów. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką.
+1. Zdefiniuj ścieżkę do katalogu danych: W swoim kodzie zdefiniuj ścieżkę do katalogu dokumentów. Zastąp `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -58,7 +60,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Teraz załadujmy dokument DOCX, który chcesz przekonwertować.
 
-1.  Zainicjuj dokument: Użyj`Document` Klasa z Aspose.Words do załadowania pliku DOCX.
+1. Zainicjuj dokument: Użyj `Document` Klasa z Aspose.Words do załadowania pliku DOCX.
 
 ```csharp
 Document doc = new Document(dataDir + "Document.docx");
@@ -70,7 +72,7 @@ Document doc = new Document(dataDir + "Document.docx");
 
 Na koniec zapisz załadowany dokument DOCX w formacie TXT.
 
-1.  Zapisz dokument: Użyj`Save` metoda konwersji i zapisania dokumentu jako pliku TXT.
+1. Zapisz dokument: Użyj `Save` metoda konwersji i zapisania dokumentu jako pliku TXT.
 
 ```csharp
 doc.Save(dataDir + "BaseConversions.DocxToTxt.txt");
@@ -100,14 +102,19 @@ Pliki TXT nie obsługują formatowania tekstu sformatowanego, dlatego dane wyjś
 
 Tak, Aspose.Words dla .NET obsługuje konwersję plików DOCX do różnych formatów, takich jak PDF, HTML i inne.
 
-### Gdzie mogę znaleźć więcej samouczków i pomocy dotyczącej Aspose.Words dla .NET?
+### Gdzie mogę znaleźć więcej samouczków i pomocy dotyczącej Aspose.Words dla platformy .NET?
 
- Więcej samouczków znajdziesz na[Dokumentacja Aspose](https://reference.aspose.com/words/net/) i w celu uzyskania wsparcia odwiedź stronę[Forum Aspose](https://forum.aspose.com/c/words/8).
+Więcej samouczków znajdziesz na [Dokumentacja Aspose](https://reference.aspose.com/words/net/)i w celu uzyskania wsparcia odwiedź stronę [Forum Aspose](https://forum.aspose.com/c/words/8).
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

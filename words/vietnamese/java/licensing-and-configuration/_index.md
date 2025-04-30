@@ -1,14 +1,16 @@
 ---
-title: Cấp phép và Cấu hình
-linktitle: Cấp phép và Cấu hình
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Khám phá cách cấp phép và cấu hình Aspose.Words for Java một cách dễ dàng. Khám phá sự phức tạp của việc thiết lập bộ công cụ mạnh mẽ này để xử lý tài liệu trong các ứng dụng Java của bạn.
-weight: 23
-url: /vi/java/licensing-and-configuration/
+"description": "Khám phá cách cấp phép và cấu hình Aspose.Words cho Java một cách dễ dàng. Khám phá sự phức tạp của việc thiết lập bộ công cụ mạnh mẽ này để xử lý tài liệu trong các ứng dụng Java của bạn."
+"linktitle": "Cấp phép và Cấu hình"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Cấp phép và Cấu hình"
+"url": "/vi/java/licensing-and-configuration/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cấp phép và Cấu hình
@@ -19,11 +21,11 @@ Trong lĩnh vực xử lý tài liệu Java, Aspose.Words là một bộ công c
 
 Khi bắt đầu hành trình sử dụng Aspose.Words for Java, bước đầu tiên là cấp phép. Điều này đảm bảo rằng bạn có thể tận dụng tối đa khả năng của thư viện. Sau đây là hướng dẫn từng bước:
 
-1.  Nhận Giấy phép: Truy cập[Trang mua hàng Aspose](https://purchase.aspose.com/buy)để có được giấy phép cho Aspose.Words for Java. Bạn có thể chọn từ nhiều tùy chọn cấp phép khác nhau, bao gồm giấy phép tạm thời cho các dự án ngắn hạn.
+1. Nhận Giấy phép: Truy cập [Trang mua hàng Aspose](https://purchase.aspose.com/buy) để có được giấy phép cho Aspose.Words for Java. Bạn có thể chọn từ nhiều tùy chọn cấp phép khác nhau, bao gồm giấy phép tạm thời cho các dự án ngắn hạn.
 
-2. Nhận tệp giấy phép: Sau khi mua, bạn sẽ nhận được tệp giấy phép. Tệp này rất quan trọng để cấu hình Aspose.Words trong dự án Java của bạn.
+2. Nhận Tệp Giấy phép: Sau khi mua, bạn sẽ nhận được tệp giấy phép. Tệp này rất quan trọng để cấu hình Aspose.Words trong dự án Java của bạn.
 
-3.  Tích hợp Giấy phép: Để kích hoạt Aspose.Words, hãy tích hợp giấy phép vào ứng dụng Java của bạn. Điều này thường liên quan đến việc tải tệp giấy phép và áp dụng nó vào Aspose.Words. Tham khảo[Tài liệu API](https://reference.aspose.com/words/java/) để biết mẫu mã chi tiết.
+3. Tích hợp Giấy phép: Để kích hoạt Aspose.Words, hãy tích hợp giấy phép vào ứng dụng Java của bạn. Điều này thường liên quan đến việc tải tệp giấy phép và áp dụng nó vào Aspose.Words. Tham khảo [Tài liệu API](https://reference.aspose.com/words/java/) để biết mẫu mã chi tiết.
 
 ## Cài đặt cấu hình
 
@@ -41,14 +43,18 @@ Bằng cách tùy chỉnh các thiết lập này, bạn có thể điều chỉ
 
 Cấp phép và cấu hình Aspose.Words cho Java là khía cạnh cơ bản để sử dụng hiệu quả bộ công cụ mạnh mẽ này. Với giấy phép và cài đặt cấu hình phù hợp, bạn có thể tích hợp liền mạch các khả năng xử lý tài liệu vào các ứng dụng Java của mình. Khai thác toàn bộ tiềm năng của Aspose.Words và nâng cao các tác vụ quản lý tài liệu của bạn lên tầm cao mới.
 
- Hãy nhớ rằng, để biết ví dụ mã chi tiết và hướng dẫn thêm, hãy tham khảo[Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/). Hãy bắt đầu hành trình của bạn ngay hôm nay và mở khóa thế giới đầy tiềm năng mà Aspose.Words mang đến cho các nhà phát triển Java.
+Hãy nhớ rằng, để biết ví dụ mã chi tiết và hướng dẫn thêm, hãy tham khảo [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/). Hãy bắt đầu hành trình của bạn ngay hôm nay và mở khóa thế giới đầy tiềm năng mà Aspose.Words mang đến cho các nhà phát triển Java.
 
 ## Hướng dẫn cấp phép và cấu hình
 ### [Áp dụng cấp phép cho Aspose.Words cho Java](./applying-licensing/)
 Tìm hiểu cách áp dụng cấp phép cho Aspose.Words for Java từng bước. Truy cập ngay và mở khóa toàn bộ tiềm năng của nó.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

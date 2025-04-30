@@ -1,34 +1,36 @@
 ---
-title: Limpar estilos e listas não utilizados
-linktitle: Limpar estilos e listas não utilizados
-second_title: API de processamento de documentos Aspose.Words
-description: Limpe seus documentos do Word com o Aspose.Words para .NET removendo estilos e listas não utilizados. Siga este guia passo a passo para simplificar seus documentos sem esforço.
-weight: 10
-url: /pt/net/programming-with-document-options-and-settings/cleanup-unused-styles-and-lists/
+"description": "Limpe seus documentos do Word com o Aspose.Words para .NET, removendo estilos e listas não utilizados. Siga este guia passo a passo para otimizar seus documentos sem esforço."
+"linktitle": "Limpar estilos e listas não utilizados"
+"second_title": "API de processamento de documentos Aspose.Words"
+"title": "Limpar estilos e listas não utilizados"
+"url": "/pt/net/programming-with-document-options-and-settings/cleanup-unused-styles-and-lists/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Limpar estilos e listas não utilizados
 
 ## Introdução
 
-Olá! Você já sentiu que seus documentos do Word estão ficando um pouco desorganizados? Sabe, aqueles estilos e listas não utilizados que ficam ali, ocupando espaço e fazendo seu documento parecer mais complexo do que precisa ser? Bem, você está com sorte! Hoje, vamos mergulhar em um pequeno truque bacana usando o Aspose.Words para .NET para limpar esses estilos e listas não utilizados. É como dar ao seu documento um banho agradável e refrescante. Então, pegue seu café, sente-se e vamos começar!
+Olá! Você já sentiu que seus documentos do Word estão ficando um pouco bagunçados? Sabe aqueles estilos e listas não utilizados que ficam parados, ocupando espaço e fazendo seu documento parecer mais complexo do que precisa ser? Bem, você está com sorte! Hoje, vamos explorar um truque bacana usando o Aspose.Words para .NET para limpar esses estilos e listas não utilizados. É como dar um banho refrescante no seu documento. Então, pegue seu café, relaxe e vamos começar!
 
 ## Pré-requisitos
 
-Antes de mergulharmos nos detalhes essenciais, vamos garantir que você tenha tudo o que precisa. Aqui está uma lista de verificação rápida:
+Antes de entrarmos em detalhes, vamos garantir que você tenha tudo o que precisa. Aqui está uma lista de verificação rápida:
 
-- Conhecimento básico de C#: você deve estar familiarizado com a programação em C#.
--  Aspose.Words para .NET: Certifique-se de ter esta biblioteca instalada. Se não, você pode baixá-la[aqui](https://releases.aspose.com/words/net/).
+- Conhecimento básico de C#: você deve estar familiarizado com programação em C#.
+- Aspose.Words para .NET: Certifique-se de ter esta biblioteca instalada. Caso contrário, você pode baixá-la. [aqui](https://releases.aspose.com/words/net/).
 - Ambiente de desenvolvimento: qualquer IDE compatível com C#, como o Visual Studio.
 - Documento de exemplo: um documento do Word com alguns estilos e listas não utilizados para limpar.
 
 ## Importar namespaces
 
-Primeiro, vamos colocar nossos namespaces em ordem. Você precisará importar alguns namespaces essenciais para trabalhar com Aspose.Words.
+Antes de mais nada, vamos organizar nossos namespaces. Você precisará importar alguns namespaces essenciais para trabalhar com o Aspose.Words.
 
 ```csharp
 using Aspose.Words;
@@ -37,7 +39,7 @@ using Aspose.Words.Cleaning;
 
 ## Etapa 1: carregue seu documento
 
-O primeiro passo é carregar o documento que você quer limpar. Você precisará especificar o caminho para o diretório do seu documento. É aqui que seu arquivo Word está localizado.
+O primeiro passo é carregar o documento que você deseja limpar. Você precisará especificar o caminho para o diretório do seu documento. É lá que seu arquivo do Word está localizado.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -46,7 +48,7 @@ Document doc = new Document(dataDir + "Unused styles.docx");
 
 ## Etapa 2: Verifique os estilos e listas atuais
 
-Antes de começarmos a limpeza, é uma boa ideia ver quantos estilos e listas estão atualmente no seu documento. Isso nos dará uma linha de base para comparar depois da limpeza.
+Antes de começarmos a limpeza, é uma boa ideia ver quantos estilos e listas existem atualmente no seu documento. Isso nos dará uma base para comparação após a limpeza.
 
 ```csharp
 Console.WriteLine($"Count of styles before Cleanup: {doc.Styles.Count}");
@@ -55,7 +57,7 @@ Console.WriteLine($"Count of lists before Cleanup: {doc.Lists.Count}");
 
 ## Etapa 3: Definir opções de limpeza
 
-Agora, é hora de definir as opções de limpeza. Neste exemplo, vamos remover estilos não utilizados, mas manter as listas não utilizadas. Você pode ajustar essas opções com base em suas necessidades.
+Agora, é hora de definir as opções de limpeza. Neste exemplo, removeremos os estilos não utilizados, mas manteremos as listas não utilizadas. Você pode ajustar essas opções de acordo com suas necessidades.
 
 ```csharp
 CleanupOptions cleanupOptions = new CleanupOptions { UnusedLists = false, UnusedStyles = true };
@@ -63,7 +65,7 @@ CleanupOptions cleanupOptions = new CleanupOptions { UnusedLists = false, Unused
 
 ## Etapa 4: Execute a limpeza
 
-Com nossas opções de limpeza definidas, agora podemos limpar o documento. Esta etapa removerá os estilos não utilizados e manterá as listas não utilizadas intactas.
+Com nossas opções de limpeza definidas, podemos limpar o documento. Esta etapa removerá os estilos não utilizados e manterá as listas não utilizadas intactas.
 
 ```csharp
 doc.Cleanup(cleanupOptions);
@@ -88,7 +90,7 @@ doc.Save(dataDir + "CleanedDocument.docx");
 
 ## Conclusão
 
-E aí está! Você limpou com sucesso seu documento do Word removendo estilos e listas não utilizados usando o Aspose.Words para .NET. É como organizar sua mesa digital, tornando seus documentos mais gerenciáveis e eficientes. Dê um tapinha nas costas por um trabalho bem feito!
+E pronto! Você limpou seu documento do Word com sucesso, removendo estilos e listas não utilizados usando o Aspose.Words para .NET. É como organizar sua mesa digital, tornando seus documentos mais fáceis de gerenciar e eficientes. Parabenize-se pelo trabalho bem feito!
 
 ## Perguntas frequentes
 
@@ -96,20 +98,25 @@ E aí está! Você limpou com sucesso seu documento do Word removendo estilos e 
 Aspose.Words para .NET é uma biblioteca poderosa que permite criar, modificar e converter documentos do Word programaticamente usando C#.
 
 ### Posso remover estilos e listas não utilizados simultaneamente?
-Sim, você pode definir ambos`UnusedLists` e`UnusedStyles` para`true` no`CleanupOptions` para remover ambos.
+Sim, você pode definir ambos `UnusedLists` e `UnusedStyles` para `true` no `CleanupOptions` para remover ambos.
 
 ### É possível desfazer a limpeza?
-Não, uma vez que a limpeza é feita e o documento é salvo, você não pode desfazer as alterações. Sempre mantenha um backup do seu documento original.
+Não, depois que a limpeza for concluída e o documento salvo, você não poderá desfazer as alterações. Sempre mantenha um backup do seu documento original.
 
 ### Preciso de uma licença para o Aspose.Words para .NET?
- Sim, Aspose.Words para .NET requer uma licença para funcionalidade completa. Você pode obter uma[licença temporária](https://purchase.aspose.com/temporary-license) ou[compre um](https://purchase.aspose.com/buy).
+Sim, o Aspose.Words para .NET requer uma licença para funcionalidade completa. Você pode obter uma [licença temporária](https://purchase.aspose.com/tempouary-license) or [compre um](https://purchase.aspose.com/buy).
 
 ### Onde posso encontrar mais informações e suporte?
- Você pode encontrar documentação detalhada[aqui](https://reference.aspose.com/words/net/) e obter apoio do[Fórum Aspose](https://forum.aspose.com/c/words/8).
+Você pode encontrar documentação detalhada [aqui](https://reference.aspose.com/words/net/) e obter apoio do [Fórum Aspose](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

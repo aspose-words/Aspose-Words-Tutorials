@@ -1,14 +1,16 @@
 ---
-title: Hapus Properti Dokumen Kustom
-linktitle: Hapus Properti Dokumen Kustom
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Hapus properti dokumen kustom dalam file Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk solusi yang cepat dan mudah. Sempurna untuk pengembang.
-weight: 10
-url: /id/net/programming-with-document-properties/remove-custom-document-properties/
+"description": "Hapus properti dokumen kustom dalam file Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk solusi yang cepat dan mudah. Sempurna untuk pengembang."
+"linktitle": "Hapus Properti Dokumen Kustom"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Hapus Properti Dokumen Kustom"
+"url": "/id/net/programming-with-document-properties/remove-custom-document-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Properti Dokumen Kustom
@@ -21,7 +23,7 @@ Pernahkah Anda merasa terjerat dalam jaringan properti dokumen kustom di file Wo
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Aspose.Words untuk Pustaka .NET: Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk Pustaka .NET: Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 2. .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan sangat membantu.
 
@@ -107,16 +109,21 @@ Aspose.Words untuk .NET adalah pustaka yang hebat untuk bekerja dengan dokumen W
 Aspose.Words for .NET dirancang khusus untuk aplikasi .NET. Namun, Aspose menawarkan pustaka serupa untuk Java dan platform lainnya.
 
 ### 3. Bagaimana cara mendapatkan uji coba gratis Aspose.Words untuk .NET?
- Kamu bisa[unduh uji coba gratis](https://releases.aspose.com/) dari situs web Aspose.
+Kamu bisa [unduh uji coba gratis](https://releases.aspose.com/) dari situs web Aspose.
 
 ### 4. Di mana saya dapat menemukan lebih banyak tutorial tentang Aspose.Words untuk .NET?
- Lihat di sini[dokumentasi](https://reference.aspose.com/words/net/) untuk tutorial dan contoh lebih lanjut.
+Lihat di sini [dokumentasi](https://reference.aspose.com/words/net/) untuk tutorial dan contoh lebih lanjut.
 
 ### 5. Bagaimana cara membeli lisensi Aspose.Words untuk .NET?
- Kamu bisa[beli lisensi](https://purchase.aspose.com/buy) langsung dari situs web Aspose.
+Kamu bisa [beli lisensi](https://purchase.aspose.com/buy) langsung dari situs web Aspose.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

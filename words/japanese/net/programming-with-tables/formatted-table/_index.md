@@ -1,27 +1,29 @@
 ---
-title: フォーマットされた表
-linktitle: フォーマットされた表
-second_title: Aspose.Words ドキュメント処理 API
-description: この詳細なステップバイステップ ガイドでは、Aspose.Words for .NET を使用して Word 文書で表を作成し、書式設定する方法を学習します。
-weight: 10
-url: /ja/net/programming-with-tables/formatted-table/
+"description": "この詳細なステップバイステップ ガイドでは、Aspose.Words for .NET を使用して Word 文書で表を作成し、書式設定する方法を学習します。"
+"linktitle": "フォーマットされた表"
+"second_title": "Aspose.Words ドキュメント処理 API"
+"title": "フォーマットされた表"
+"url": "/ja/net/programming-with-tables/formatted-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # フォーマットされた表
 
 ## 導入
 
-プログラムを使用して Word 文書に表を作成し、書式設定するのは困難な作業のように思えるかもしれませんが、Aspose.Words for .NET を使用すると、簡単かつ管理しやすくなります。このチュートリアルでは、Aspose.Words for .NET を使用して Word 文書に書式設定された表を作成する方法について説明します。環境の設定から、美しく書式設定された表を含む文書の保存まで、すべてをカバーします。
+Word文書でプログラム的に表を作成し、書式設定するのは大変な作業に思えるかもしれませんが、Aspose.Words for .NETを使えば、簡単かつ容易に管理できます。このチュートリアルでは、Aspose.Words for .NETを使ってWord文書に書式設定された表を作成する方法を詳しく説明します。環境設定から、美しく書式設定された表を含む文書の保存まで、すべてを網羅しています。
 
 ## 前提条件
 
 コードに進む前に、必要なものがすべて揃っていることを確認しましょう。
 
-1. Aspose.Words for .NETライブラリ: ダウンロードはこちらから[ここ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET ライブラリ: ダウンロードはこちら [ここ](https://releases。aspose.com/words/net/).
 2. 開発環境: Visual Studio のような IDE。
 3. .NET Framework: マシンに .NET Framework がインストールされていることを確認します。
 
@@ -44,9 +46,9 @@ using Aspose.Words.Tables;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-交換する`"YOUR DOCUMENT DIRECTORY"`ドキュメントを保存する実際のパスを入力します。
+交換する `"YOUR DOCUMENT DIRECTORY"` ドキュメントを保存する実際のパスを入力します。
 
-## ステップ 2: ドキュメントと DocumentBuilder を初期化する
+## ステップ2: DocumentとDocumentBuilderを初期化する
 
 ここで、新しいドキュメントと DocumentBuilder オブジェクトを初期化します。
 
@@ -55,11 +57,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-の`DocumentBuilder`ドキュメント構築のプロセスを簡素化するヘルパー クラスです。
+その `DocumentBuilder` ドキュメント構築のプロセスを簡素化するヘルパー クラスです。
 
-## ステップ3: テーブルを開始する
+## ステップ3：テーブルを開始する
 
-次に、`StartTable`方法。
+次に、 `StartTable` 方法。
 
 ```csharp
 Table table = builder.StartTable();
@@ -68,9 +70,9 @@ builder.InsertCell();
 
 表を開始するにはセルを挿入する必要があります。
 
-## ステップ4: 表全体の書式設定を適用する
+## ステップ4: 表全体に書式を適用する
 
-表全体に影響する書式を適用できます。たとえば、左インデントを設定するには、次のようにします。
+表全体に適用される書式設定を適用できます。例えば、左インデントを設定するには、次のようにします。
 
 ```csharp
 table.LeftIndent = 20.0;
@@ -92,7 +94,7 @@ builder.CellFormat.Width = 100.0;
 builder.Write("Header Row,\n Cell 1");
 ```
 
-このステップでは、背景色、フォント サイズ、配置を設定して、ヘッダー行を目立たせます。
+この手順では、背景色、フォント サイズ、配置を設定して、ヘッダー行を目立たせます。
 
 ## ステップ6: 追加のヘッダーセルを挿入する
 
@@ -119,7 +121,7 @@ builder.RowFormat.Height = 30.0;
 builder.RowFormat.HeightRule = HeightRule.Auto;
 ```
 
-## ステップ8: 本文の行を挿入する
+## ステップ8: 本文行を挿入する
 
 コンテンツを含む本文行を挿入します。
 
@@ -136,7 +138,7 @@ builder.Write("Row 1, Cell 3 Content");
 builder.EndRow();
 ```
 
-追加の行についても繰り返します。
+追加の行について繰り返します。
 
 ```csharp
 builder.InsertCell();
@@ -163,7 +165,7 @@ doc.Save(dataDir + "WorkingWithTables.FormattedTable.docx");
 
 ## 結論
 
-これで完了です。これらの手順に従うと、Aspose.Words for .NET を使用して Word 文書内に適切にフォーマットされた表を作成できます。この強力なライブラリを使用すると、Word 文書をプログラムで簡単に操作できるため、時間と労力を節約できます。
+これで完了です！これらの手順に従うだけで、Aspose.Words for .NET を使用して、Word 文書内に整然とした表を作成できます。この強力なライブラリを使えば、Word 文書をプログラムで簡単に操作でき、時間と労力を節約できます。
 
 ## よくある質問
 
@@ -174,16 +176,21 @@ Aspose.Words for .NET は、Word 文書をプログラムで作成、編集、�
 はい、色を含むさまざまな書式を、異なる行またはセルに適用できます。
 
 ### Aspose.Words for .NET は無料ですか?
- Aspose.Words for .NETは有料のライブラリですが、[無料トライアル](https://releases.aspose.com/).
+Aspose.Words for .NETは有料のライブラリですが、 [無料トライアル](https://releases。aspose.com/).
 
 ### Aspose.Words for .NET のサポートを受けるにはどうすればよいですか?
-サポートを受けるには[Aspose コミュニティ フォーラム](https://forum.aspose.com/c/words/8).
+サポートを受けるには [Aspose コミュニティフォーラム](https://forum。aspose.com/c/words/8).
 
 ### Aspose.Words for .NET を使用して他の種類のドキュメントを作成できますか?
 はい、Aspose.Words for .NET は、PDF、HTML、TXT など、さまざまなドキュメント形式をサポートしています。
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,28 +1,30 @@
 ---
-title: Převést pole v těle
-linktitle: Převést pole v těle
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se převádět pole dokumentu na statický text pomocí Aspose.Words for .NET, abyste zvýšili efektivitu zpracování dokumentů.
-weight: 10
-url: /cs/net/working-with-fields/convert-fields-in-body/
+"description": "Naučte se, jak převést pole dokumentu na statický text pomocí Aspose.Words pro .NET a zvýšit tak efektivitu zpracování dokumentů."
+"linktitle": "Převést pole v těle"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Převést pole v těle"
+"url": "/cs/net/working-with-fields/convert-fields-in-body/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Převést pole v těle
 
 ## Zavedení
 
-V oblasti vývoje .NET je dynamická správa obsahu dokumentů zásadní, často vyžaduje manipulaci s různými typy polí v dokumentech. Aspose.Words for .NET vyniká jako výkonná sada nástrojů pro vývojáře a nabízí robustní funkce pro efektivní zpracování polí dokumentů. Tato obsáhlá příručka se zaměřuje na to, jak převádět pole v těle dokumentu pomocí Aspose.Words for .NET, a poskytuje podrobné pokyny, které umožní vývojářům zlepšit automatizaci a správu dokumentů.
+V oblasti vývoje v .NET je dynamická správa obsahu dokumentů zásadní a často vyžaduje manipulaci s různými typy polí v rámci dokumentů. Aspose.Words pro .NET vyniká jako výkonná sada nástrojů pro vývojáře, která nabízí robustní funkce pro efektivní práci s poli dokumentů. Tato komplexní příručka se zaměřuje na to, jak převést pole v těle dokumentu pomocí Aspose.Words pro .NET a poskytuje podrobné pokyny, které vývojářům pomohou vylepšit automatizaci a správu dokumentů.
 
 ## Předpoklady
 
-Než se pustíte do výukového programu o převodu polí v těle dokumentu pomocí Aspose.Words for .NET, ujistěte se, že máte následující předpoklady:
+Než se ponoříte do tutoriálu o převodu polí v těle dokumentu pomocí Aspose.Words pro .NET, ujistěte se, že máte následující předpoklady:
 
-- Visual Studio: Nainstalované a nakonfigurované pro vývoj .NET.
--  Aspose.Words for .NET: Staženo a odkazováno ve vašem projektu sady Visual Studio. Můžete jej získat z[zde](https://releases.aspose.com/words/net/).
+- Visual Studio: Nainstalováno a nakonfigurováno pro vývoj v .NET.
+- Aspose.Words pro .NET: Staženo a odkazováno ve vašem projektu Visual Studia. Můžete si jej stáhnout z [zde](https://releases.aspose.com/words/net/).
 - Základní znalost C#: Znalost programovacího jazyka C# pro pochopení a úpravu poskytnutých úryvků kódu.
 
 ## Importovat jmenné prostory
@@ -36,20 +38,20 @@ using System.Linq;
 
 Tyto jmenné prostory jsou nezbytné pro přístup k funkcím Aspose.Words a dotazům LINQ.
 
-## Krok 1: Vložte dokument
+## Krok 1: Vložení dokumentu
 
-Začněte načtením dokumentu, do kterého chcete pole převést:
+Začněte načtením dokumentu, do kterého chcete převést pole:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Linked fields.docx");
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` s cestou k vašemu skutečnému dokumentu.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` s cestou k vašemu skutečnému dokumentu.
 
-## Krok 2: Identifikujte a převeďte pole
+## Krok 2: Identifikace a převod polí
 
-Identifikujte a převeďte konkrétní pole v těle dokumentu. Chcete-li například převést pole PAGE na text:
+Identifikujte a převeďte konkrétní pole v těle dokumentu. Například pro převod polí PAGE na text:
 
 ```csharp
 doc.FirstSection.Body.Range.Fields
@@ -58,41 +60,46 @@ doc.FirstSection.Body.Range.Fields
     .ForEach(f => f.Unlink());
 ```
 
-Tento fragment kódu používá LINQ k nalezení všech polí PAGE v těle dokumentu a poté je odpojí, čímž je efektivně převede na statický text.
+Tento úryvek kódu používá LINQ k nalezení všech polí PAGE v těle dokumentu a poté je odpojí, čímž je efektivně převede na statický text.
 
 ## Krok 3: Uložte dokument
 
-Uložte upravený dokument po převodu polí:
+Po převodu polí uložte upravený dokument:
 
 ```csharp
 doc.Save(dataDir + "WorkingWithFields.ConvertFieldsInBody.docx");
 ```
 
- Upravit`"WorkingWithFields.ConvertFieldsInBody.docx"` zadejte požadovanou cestu k výstupnímu souboru.
+Upravit `"WorkingWithFields.ConvertFieldsInBody.docx"` pro zadání požadované cesty k výstupnímu souboru.
 
 ## Závěr
 
-Zvládnutí umění manipulace s poli dokumentu pomocí Aspose.Words for .NET umožňuje vývojářům efektivně automatizovat pracovní toky dokumentů. Ať už převádíte pole na prostý text nebo zpracováváte složitější typy polí, Aspose.Words tyto úkoly zjednodušuje pomocí intuitivního rozhraní API a robustní sady funkcí a zajišťuje bezproblémovou integraci do aplikací .NET.
+Zvládnutí umění manipulace s poli dokumentů pomocí Aspose.Words pro .NET umožňuje vývojářům efektivně automatizovat pracovní postupy s dokumenty. Ať už převádíte pole na prostý text nebo pracujete se složitějšími typy polí, Aspose.Words tyto úkoly zjednodušuje díky intuitivnímu API a robustní sadě funkcí, což zajišťuje bezproblémovou integraci do .NET aplikací.
 
-## FAQ
+## Často kladené otázky
 
 ### Co jsou pole dokumentu v Aspose.Words pro .NET?
 Pole dokumentu v Aspose.Words jsou zástupné symboly, které mohou ukládat a zobrazovat dynamická data, jako jsou data, čísla stránek a výpočty.
 
-### Jak mohu zacházet s různými typy polí v Aspose.Words pro .NET?
-Aspose.Words podporuje různé typy polí jako DATE, PAGE, MERGEFIELD a další, což umožňuje vývojářům s nimi programově manipulovat.
+### Jak mohu v Aspose.Words pro .NET zpracovat různé typy polí?
+Aspose.Words podporuje různé typy polí, jako například DATE, PAGE, MERGEFIELD a další, což vývojářům umožňuje s nimi programově manipulovat.
 
-### Může Aspose.Words for .NET převádět pole v různých formátech dokumentů?
-Ano, Aspose.Words for .NET dokáže bez problémů převádět a manipulovat s poli napříč formáty jako DOCX, DOC, RTF a další.
+### Může Aspose.Words pro .NET převádět pole v různých formátech dokumentů?
+Ano, Aspose.Words pro .NET dokáže bez problémů převádět a manipulovat s poli ve formátech jako DOCX, DOC, RTF a dalších.
 
 ### Kde najdu komplexní dokumentaci k Aspose.Words pro .NET?
- K dispozici je podrobná dokumentace a reference API[zde](https://reference.aspose.com/words/net/).
+K dispozici je podrobná dokumentace a reference API [zde](https://reference.aspose.com/words/net/).
 
-### Je k dispozici zkušební verze pro Aspose.Words pro .NET?
- Ano, můžete si stáhnout bezplatnou zkušební verzi z[zde](https://releases.aspose.com/).
+### Je k dispozici zkušební verze Aspose.Words pro .NET?
+Ano, můžete si stáhnout bezplatnou zkušební verzi z [zde](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

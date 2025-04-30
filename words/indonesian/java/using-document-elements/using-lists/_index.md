@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Daftar di Aspose.Words untuk Java
-linktitle: Menggunakan Daftar
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menggunakan daftar di Aspose.Words untuk Java dengan tutorial langkah demi langkah ini. Atur dan format dokumen Anda secara efektif.
-weight: 18
-url: /id/java/using-document-elements/using-lists/
+"description": "Pelajari cara menggunakan daftar di Aspose.Words untuk Java dengan tutorial langkah demi langkah ini. Atur dan format dokumen Anda secara efektif."
+"linktitle": "Menggunakan Daftar"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Daftar di Aspose.Words untuk Java"
+"url": "/id/java/using-document-elements/using-lists/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Daftar di Aspose.Words untuk Java
@@ -22,7 +24,7 @@ Sebelum kita mulai bekerja dengan daftar, mari kita kenali Aspose.Words untuk Ja
 
 ### Menyiapkan Lingkungan Anda
 
- Untuk memulai, pastikan Anda telah menginstal dan mengatur Aspose.Words untuk Java di lingkungan pengembangan Anda. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/java/). 
+Untuk memulai, pastikan Anda telah menginstal dan mengatur Aspose.Words untuk Java di lingkungan pengembangan Anda. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/java/). 
 
 ## Memulai Ulang Daftar di Setiap Bagian
 
@@ -142,7 +144,7 @@ Simpan dokumen.
 builder.getDocument().save(outPath + "SpecifyListLevel.docx");
 ```
 
-Dengan mengikuti langkah-langkah ini, Anda dapat membuat dokumen dengan tingkat daftar khusus, yang memungkinkan Anda mengontrol pemformatan daftar dalam dokumen Anda.
+Dengan mengikuti langkah-langkah ini, Anda dapat membuat dokumen dengan tingkat daftar kustom, yang memungkinkan Anda mengontrol pemformatan daftar dalam dokumen Anda.
 
 ## Kode Sumber Lengkap
 ```java
@@ -171,7 +173,7 @@ Dengan mengikuti langkah-langkah ini, Anda dapat membuat dokumen dengan tingkat 
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
         // Buat daftar bernomor berdasarkan salah satu templat daftar Microsoft Word
-        //dan menerapkannya pada paragraf pembuat dokumen saat ini.
+        // dan menerapkannya pada paragraf pembuat dokumen saat ini.
         builder.getListFormat().setList(doc.getLists().add(ListTemplate.NUMBER_ARABIC_DOT));
         // Ada sembilan level dalam daftar ini, mari kita coba semuanya.
         for (int i = 0; i < 9; i++)
@@ -180,7 +182,7 @@ Dengan mengikuti langkah-langkah ini, Anda dapat membuat dokumen dengan tingkat 
             builder.writeln("Level " + i);
         }
         // Buat daftar berpoin berdasarkan salah satu templat daftar Microsoft Word
-        //dan menerapkannya pada paragraf pembuat dokumen saat ini.
+        // dan menerapkannya pada paragraf pembuat dokumen saat ini.
         builder.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DIAMONDS));
         for (int i = 0; i < 9; i++)
         {
@@ -222,12 +224,12 @@ Dengan mengikuti langkah-langkah ini, Anda dapat membuat dokumen dengan tingkat 
 
 Selamat! Anda telah mempelajari cara bekerja dengan daftar di Aspose.Words untuk Java secara efektif. Daftar sangat penting untuk mengatur dan menyajikan konten dalam dokumen Anda. Apakah Anda perlu memulai ulang daftar di setiap bagian atau menentukan tingkat daftar, Aspose.Words untuk Java menyediakan alat yang Anda butuhkan untuk membuat dokumen yang tampak profesional.
 
-Sekarang Anda dapat dengan yakin menggunakan fitur-fitur ini untuk meningkatkan tugas pembuatan dan pemformatan dokumen Anda. Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, jangan ragu untuk menghubungi[Forum komunitas Aspose](https://forum.aspose.com/) untuk dukungan.
+Sekarang Anda dapat dengan yakin menggunakan fitur-fitur ini untuk meningkatkan tugas pembuatan dan pemformatan dokumen Anda. Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, jangan ragu untuk menghubungi [Forum komunitas Aspose](https://forum.aspose.com/) untuk dukungan.
 
 ## Tanya Jawab Umum
 
 ### Bagaimana cara menginstal Aspose.Words untuk Java?
- Anda dapat mengunduh Aspose.Words untuk Java dari[Di Sini](https://releases.aspose.com/words/java/) dan ikuti petunjuk instalasi dalam dokumentasi.
+Anda dapat mengunduh Aspose.Words untuk Java dari [Di Sini](https://releases.aspose.com/words/java/) dan ikuti petunjuk instalasi dalam dokumentasi.
 
 ### Bisakah saya menyesuaikan format penomoran daftar?
 Ya, Aspose.Words untuk Java menyediakan opsi yang luas untuk menyesuaikan format penomoran daftar. Anda dapat merujuk ke dokumentasi API untuk detailnya.
@@ -239,11 +241,16 @@ Ya, Anda dapat mengonfigurasi Aspose.Words untuk Java agar mematuhi berbagai sta
 Tentu saja! Aspose.Words untuk Java mendukung pemformatan dokumen tingkat lanjut, termasuk tabel, gambar, dan banyak lagi. Periksa dokumentasi untuk contoh.
 
 ### Di mana saya bisa mendapatkan lisensi sementara untuk Aspose.Words untuk Java?
-Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Anda bisa mendapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,46 +1,54 @@
 ---
-title: ใส่รูปในเส้นในเอกสาร Word โดยใช้ Aspose.Words
-weight: 7700
-limit: 
-description: เรียนรู้วิธีการใส่รูปแบบในเส้นในเอกสาร Word ด้วย Aspose.Words สําหรับ .NET ในตัวอย่างขั้นตอนนี้
-keywords: [Aspose.Words, .NET, inline image, Word document, DocumentBuilder, image insertion, code example]
-url: /th/net/add-content-using-document-builder/insert-inline-image/
+"description": "เรียนรู้วิธีการแทรกภาพอินไลน์ในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ในตัวอย่างทีละขั้นตอนนี้"
+"title": "แทรกภาพอินไลน์ในเอกสาร Word โดยใช้ Aspose.Words"
+"url": "/th/net/add-content-using-document-builder/insert-inline-image/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ใส่รูปในเส้นในเอกสาร Word โดยใช้ Aspose.Words
-ตัวอย่างนี้แสดงให้เห็นวิธีการใส่รูปแบบในเส้นในเอกสาร Word โดยใช้ห้องสมุด Aspose.Words สําหรับ .NET โดยการใช้ `DocumentBuilder`คลาส คุณสามารถตั้งภาพและใส่ภาพได้ง่ายๆ ในตําแหน่งคาร์สเซอร์ปัจจุบันในเอกสารของคุณ
+# แทรกภาพอินไลน์ในเอกสาร Word โดยใช้ Aspose.Words
+ตัวอย่างนี้สาธิตวิธีการแทรกภาพอินไลน์ลงในเอกสาร Word โดยใช้ไลบรารี Aspose.Words สำหรับ .NET โดยใช้ `DocumentBuilder` คุณสามารถวางตำแหน่งและแทรกภาพในตำแหน่งเคอร์เซอร์ปัจจุบันในเอกสารได้อย่างง่ายดาย คู่มือนี้ให้แนวทางการใช้งานที่ตรงไปตรงมาเพื่อช่วยให้คุณเริ่มต้นใช้งานการจัดการภาพในเอกสาร Word ได้
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-inline-image" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## คําแนะนําการติดตั้ง
-1. ติดตั้ง Aspose.Words สําหรับ .NET:
-   * ใช้ NuGet Package Manager ใน Visual Studio
-   * กรอกคําสั่งต่อไปนี้ใน คอนโซลผู้จัดการแพ็คเกจ
+## คำแนะนำในการติดตั้ง
+1. ติดตั้ง Aspose.Words สำหรับ .NET:
+   - ใช้ตัวจัดการแพ็คเกจ NuGet ใน Visual Studio
+   - เรียกใช้คำสั่งต่อไปนี้ในคอนโซลตัวจัดการแพ็คเกจ:
      ```
      Install-Package Aspose.Words
      ```
 
-2. ก่อโปรเจคของคุณ
-   * สร้างโครงการ .NET ใหม่ หรือเปิดโครงการที่มีอยู่
-   * เพิ่มข้อมูลที่จําเป็น โดยใช้คําแนะนําที่ด้านบนของไฟล์โค้ดของคุณ
+2. ตั้งค่าโครงการของคุณ:
+   - สร้างโครงการ .NET ใหม่หรือเปิดโครงการที่มีอยู่
+   - เพิ่มคำสั่ง using ที่จำเป็นไว้ที่ด้านบนของไฟล์โค้ดของคุณ:
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Drawing;
      ```
 
 
-## ดูอีกด้วย
-[Aspose.Word สําหรับเอกสาร .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word สําหรับ .NET References](https://reference.aspose.com/words/net/)
+## ดูเพิ่มเติม
+[Aspose.Word สำหรับเอกสาร .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word สำหรับการอ้างอิง .NET](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

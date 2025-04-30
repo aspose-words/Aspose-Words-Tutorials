@@ -1,14 +1,16 @@
 ---
-title: Tabele i formatowanie
-linktitle: Tabele i formatowanie
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Zanurz się w samouczkach Aspose.Words dotyczących tabel i formatowania w aplikacjach Python i .NET. Naucz się tworzyć, dostosowywać i stylizować tabele, aby uzyskać wizualnie atrakcyjne dokumenty.
-weight: 16
-url: /pl/python-net/tables-and-formatting/
+"description": "Zanurz się w samouczkach Aspose.Words dotyczących tabel i formatowania w aplikacjach Python i .NET. Naucz się tworzyć, dostosowywać i stylizować tabele, aby uzyskać wizualnie atrakcyjne dokumenty."
+"linktitle": "Tabele i formatowanie"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Tabele i formatowanie"
+"url": "/pl/python-net/tables-and-formatting/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabele i formatowanie
@@ -25,7 +27,7 @@ Tabele są potężnymi narzędziami do organizowania i prezentowania informacji 
 
 ## Czego się nauczysz
 
-tej serii samouczków wyruszysz w podróż zrozumienia i wykorzystania tabel i formatowania w kontekście Aspose.Words. Samouczki obejmują szeroki zakres tematów, w tym:
+W tej serii samouczków wyruszysz w podróż zrozumienia i wykorzystania tabel i formatowania w kontekście Aspose.Words. Samouczki obejmują szeroki zakres tematów, w tym:
 
 - Tworzenie tabel: Dowiedz się, jak tworzyć tabele od podstaw lub wstawiać je do istniejących dokumentów.
 - Dostosowywanie komórek: zapoznaj się z formatowaniem komórek, dostosowywaniem obramowań, cieniowania i wyrównania.
@@ -46,9 +48,13 @@ Dowiedz się, jak tworzyć i formatować znaki wodne w dokumentach za pomocą As
 Dowiedz się, jak optymalizować tabele pod kątem prezentacji danych w dokumentach Word za pomocą Aspose.Words dla Pythona. Zwiększ czytelność i atrakcyjność wizualną dzięki wskazówkom krok po kroku i przykładom kodu źródłowego.
 ### [Style i formatowanie tabeli dokumentu](./document-table-styles-formatting/)
 Dowiedz się, jak stylizować i formatować tabele dokumentów za pomocą Aspose.Words dla Pythona. Twórz, dostosowuj i eksportuj tabele za pomocą przewodników krok po kroku i przykładów kodu. Ulepsz swoje prezentacje dokumentów już dziś! 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: เปลี่ยนระยะห่างย่อหน้าและการเยื้องย่อหน้าแบบเอเชียในเอกสาร Word
-linktitle: เปลี่ยนระยะห่างย่อหน้าและการเยื้องย่อหน้าแบบเอเชียในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการเปลี่ยนระยะห่างย่อหน้าและการเยื้องย่อหน้าในภาษาเอเชียในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้
-weight: 10
-url: /th/net/document-formatting/change-asian-paragraph-spacing-and-indents/
+"description": "เรียนรู้วิธีการเปลี่ยนระยะห่างย่อหน้าและการเยื้องย่อหน้าในภาษาเอเชียในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้"
+"linktitle": "เปลี่ยนระยะห่างย่อหน้าและการเยื้องย่อหน้าแบบเอเชียในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "เปลี่ยนระยะห่างย่อหน้าและการเยื้องย่อหน้าแบบเอเชียในเอกสาร Word"
+"url": "/th/net/document-formatting/change-asian-paragraph-spacing-and-indents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เปลี่ยนระยะห่างย่อหน้าและการเยื้องย่อหน้าแบบเอเชียในเอกสาร Word
@@ -21,7 +23,7 @@ url: /th/net/document-formatting/change-asian-paragraph-spacing-and-indents/
 
 ก่อนที่เราจะเจาะลึกโค้ด เรามาตรวจสอบกันก่อนว่าคุณได้ทำทุกสิ่งที่จำเป็นในการปฏิบัติตามแล้ว:
 
-1.  Aspose.Words สำหรับไลบรารี .NET: ตรวจสอบให้แน่ใจว่าคุณมีไลบรารี Aspose.Words สำหรับ .NET แล้ว หากคุณยังไม่มี คุณสามารถทำได้[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับไลบรารี .NET: ตรวจสอบให้แน่ใจว่าคุณมีไลบรารี Aspose.Words สำหรับ .NET หากคุณยังไม่มี คุณสามารถทำได้ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: คุณต้องมีการตั้งค่าสภาพแวดล้อมการพัฒนา Visual Studio เป็นตัวเลือกยอดนิยมสำหรับการพัฒนา .NET
 3. เอกสาร Word: เตรียมเอกสาร Word ที่คุณสามารถเล่นได้ เราจะใช้เอกสารตัวอย่างชื่อ "Asian typography.docx"
 4. ความรู้พื้นฐานเกี่ยวกับ C#: คุณควรมีความคุ้นเคยกับการเขียนโปรแกรม C# จึงจะทำตามตัวอย่างโค้ดได้
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Asian typography.docx");
 ```
 
- ในขั้นตอนนี้ เราจะระบุเส้นทางไปยังไดเร็กทอรีเอกสารของเราและโหลดเอกสารลงใน`Document` วัตถุ. ง่ายๆ ใช่ไหม?
+ในขั้นตอนนี้ เราจะระบุเส้นทางไปยังไดเร็กทอรีเอกสารของเราและโหลดเอกสารลงใน `Document` วัตถุ. ง่ายๆ ใช่ไหม?
 
 ## ขั้นตอนที่ 2: เข้าถึงรูปแบบย่อหน้า
 
@@ -58,7 +60,7 @@ Document doc = new Document(dataDir + "Asian typography.docx");
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 ```
 
- นี่เรากำลังคว้า`ParagraphFormat` วัตถุจากย่อหน้าแรกในเอกสาร วัตถุนี้มีคุณสมบัติการจัดรูปแบบทั้งหมดสำหรับย่อหน้า
+นี่เรากำลังคว้า `ParagraphFormat` วัตถุจากย่อหน้าแรกในเอกสาร วัตถุนี้มีคุณสมบัติการจัดรูปแบบทั้งหมดสำหรับย่อหน้า
 
 ## ขั้นตอนที่ 3: ตั้งค่าการเยื้องหน่วยอักขระ
 
@@ -103,20 +105,25 @@ doc.Save(dataDir + "DocumentFormatting.ChangeAsianParagraphSpacingAndIndents.doc
 ใช่ การตั้งค่าเหล่านี้ใช้ได้กับข้อความใด ๆ ก็ได้ แต่มีประโยชน์อย่างยิ่งสำหรับการพิมพ์แบบเอเชีย เนื่องจากมีข้อกำหนดระยะห่างและการเยื้องที่ไม่เหมือนกัน
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Words สำหรับ .NET หรือไม่?
- ใช่ Aspose.Words สำหรับ .NET เป็นไลบรารีที่ต้องชำระเงิน แต่คุณสามารถรับได้[ทดลองใช้งานฟรี](https://releases.aspose.com/) หรือ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อลองดูมันดู
+ใช่ Aspose.Words สำหรับ .NET เป็นไลบรารีที่ต้องชำระเงิน แต่คุณสามารถรับได้ [ทดลองใช้งานฟรี](https://releases.aspose.com/) หรือ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อลองดูมันดู
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมได้ที่ไหน
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้ที่[หน้าเอกสาร Aspose.Words สำหรับ .NET](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้ที่ [หน้าเอกสาร Aspose.Words สำหรับ .NET](https://reference-aspose.com/words/net/).
 
 ### ฉันสามารถทำให้กระบวนการนี้เป็นแบบอัตโนมัติสำหรับเอกสารหลายฉบับได้ไหม
-แน่นอน! คุณสามารถวนซ้ำผ่านคอลเลกชันเอกสารและนำการตั้งค่าเหล่านี้ไปใช้กับเอกสารแต่ละฉบับโดยการเขียนโปรแกรมได้
+แน่นอน! คุณสามารถวนซ้ำผ่านคอลเลกชันเอกสารและนำการตั้งค่าเหล่านี้ไปใช้กับเอกสารแต่ละฉบับได้ด้วยการเขียนโปรแกรม
 
 ### จะเกิดอะไรขึ้นหากฉันประสบปัญหาหรือมีคำถาม?
- หากคุณประสบปัญหาใดๆ หรือมีคำถามเพิ่มเติม[ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8) เป็นสถานที่ที่ดีในการขอความช่วยเหลือ
+หากคุณประสบปัญหาใดๆ หรือมีคำถามเพิ่มเติม [ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8) เป็นสถานที่ที่ดีในการขอความช่วยเหลือ
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

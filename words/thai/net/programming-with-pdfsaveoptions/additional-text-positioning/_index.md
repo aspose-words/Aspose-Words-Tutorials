@@ -1,14 +1,16 @@
 ---
-title: ปรับปรุงการจัดตำแหน่งข้อความ PDF ด้วยการจัดตำแหน่งข้อความเพิ่มเติม
-linktitle: ปรับปรุงการจัดตำแหน่งข้อความ PDF ด้วยการจัดตำแหน่งข้อความเพิ่มเติม
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการปรับปรุงการวางตำแหน่งข้อความ PDF ด้วย Aspose.Words สำหรับ .NET ในขั้นตอนง่ายๆ เพียงไม่กี่ขั้นตอน ปรับปรุงรูปลักษณ์ของเอกสารของคุณ
-weight: 10
-url: /th/net/programming-with-pdfsaveoptions/additional-text-positioning/
+"description": "เรียนรู้วิธีการปรับปรุงการวางตำแหน่งข้อความ PDF ด้วย Aspose.Words สำหรับ .NET ในขั้นตอนง่ายๆ เพียงไม่กี่ขั้นตอน ปรับปรุงรูปลักษณ์ของเอกสารของคุณ"
+"linktitle": "ปรับปรุงการจัดตำแหน่งข้อความ PDF ด้วยการจัดตำแหน่งข้อความเพิ่มเติม"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ปรับปรุงการจัดตำแหน่งข้อความ PDF ด้วยการจัดตำแหน่งข้อความเพิ่มเติม"
+"url": "/th/net/programming-with-pdfsaveoptions/additional-text-positioning/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ปรับปรุงการจัดตำแหน่งข้อความ PDF ด้วยการจัดตำแหน่งข้อความเพิ่มเติม
@@ -21,7 +23,7 @@ url: /th/net/programming-with-pdfsaveoptions/additional-text-positioning/
 
 ก่อนที่เราจะเริ่ม เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีเครื่องมือและทรัพยากรที่จำเป็นทั้งหมด:
 
--  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET เวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์อาโพส](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET เวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์อาโพส](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น Visual Studio
 - .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework 4.0 ขึ้นไป
 - ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับภาษาการเขียนโปรแกรม C# จะเป็นประโยชน์
@@ -47,26 +49,26 @@ using Aspose.Words.Saving;
 
 ## ขั้นตอนที่ 2: โหลดเอกสารของคุณ
 
-เมื่อตั้งค่าโครงการของคุณเสร็จแล้ว ขั้นตอนถัดไปคือการโหลดเอกสาร Word ที่คุณต้องการแปลงเป็น PDF พร้อมการจัดตำแหน่งข้อความที่ปรับปรุงแล้ว
+เมื่อตั้งค่าโครงการของคุณเรียบร้อยแล้ว ขั้นตอนถัดไปคือการโหลดเอกสาร Word ที่คุณต้องการแปลงเป็น PDF พร้อมการจัดตำแหน่งข้อความที่ปรับปรุงแล้ว
 
 1. กำหนดเส้นทางเอกสาร: ระบุเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ
     ```csharp
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
-2.  โหลดเอกสาร: ใช้`Document` ชั้นเรียนเพื่อโหลดเอกสาร Word ของคุณ
+2. โหลดเอกสาร: ใช้ `Document` ชั้นเรียนเพื่อโหลดเอกสาร Word ของคุณ
     ```csharp
     Document doc = new Document(dataDir + "Rendering.docx");
     ```
 
 ## ขั้นตอนที่ 3: กำหนดค่าตัวเลือกการบันทึก PDF
 
- ความมหัศจรรย์เกิดขึ้นที่นี่! เราจะกำหนดค่า`PdfSaveOptions` เพื่อเปิดใช้งานการวางตำแหน่งข้อความเพิ่มเติม
+ความมหัศจรรย์เกิดขึ้นที่นี่! เราจะกำหนดค่า `PdfSaveOptions` เพื่อเปิดใช้งานการวางตำแหน่งข้อความเพิ่มเติม
 
-1.  สร้างวัตถุ PdfSaveOptions: สร้างอินสแตนซ์`PdfSaveOptions` ระดับ.
+1. สร้างวัตถุ PdfSaveOptions: สร้างอินสแตนซ์ `PdfSaveOptions` ระดับ.
     ```csharp
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     ```
-2.  เปิดใช้งานการจัดตำแหน่งข้อความเพิ่มเติม: ตั้งค่า`AdditionalTextPositioning`ทรัพย์สินที่จะ`true`.
+2. เปิดใช้งานการจัดตำแหน่งข้อความเพิ่มเติม: ตั้งค่า `AdditionalTextPositioning` ทรัพย์สินที่จะ `true`-
     ```csharp
     saveOptions.AdditionalTextPositioning = true;
     ```
@@ -81,7 +83,7 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.AdditionalTextPositioning.pdf", sa
 
 ## บทสรุป
 
-และแล้วคุณก็ทำได้! ด้วยการทำตามขั้นตอนเหล่านี้ คุณจะสามารถปรับปรุงตำแหน่งข้อความใน PDF ได้สำเร็จโดยใช้ Aspose.Words สำหรับ .NET ฟีเจอร์อันทรงพลังนี้จะช่วยให้ PDF ของคุณดูคมชัดและเป็นมืออาชีพ โดยข้อความจะอยู่ในตำแหน่งที่ควรอยู่พอดี
+และแล้วคุณก็ทำได้สำเร็จ! ด้วยการทำตามขั้นตอนเหล่านี้ คุณจะสามารถปรับปรุงตำแหน่งข้อความใน PDF ได้สำเร็จโดยใช้ Aspose.Words สำหรับ .NET ฟีเจอร์อันทรงพลังนี้จะช่วยให้ PDF ของคุณดูคมชัดและเป็นมืออาชีพ โดยข้อความจะอยู่ในตำแหน่งที่ควรอยู่พอดี
 
 ## คำถามที่พบบ่อย
 
@@ -92,17 +94,22 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.AdditionalTextPositioning.pdf", sa
 ไม่ คุณสมบัติการจัดตำแหน่งข้อความเพิ่มเติมนั้นมีเฉพาะสำหรับการแปลง PDF เท่านั้น
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Words สำหรับ .NET หรือไม่?
- ใช่ คุณสามารถรับได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หรือซื้อใบอนุญาตเต็มรูปแบบ[ที่นี่](https://purchase.aspose.com/buy).
+ใช่ คุณสามารถรับได้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หรือซื้อใบอนุญาตเต็มรูปแบบ [ที่นี่](https://purchase-aspose.com/buy).
 
 ### มีการทดลองใช้ฟรีหรือไม่?
- ใช่ คุณสามารถดาวน์โหลดได้[ทดลองใช้งานฟรี](https://releases.aspose.com/) ของ Aspose.Words สำหรับ .NET
+ใช่ คุณสามารถดาวน์โหลดได้ [ทดลองใช้งานฟรี](https://releases.aspose.com/) ของ Aspose.Words สำหรับ .NET
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ใด
- เอกสารรายละเอียดสามารถดูได้ที่[เว็บไซต์อาโพส](https://reference.aspose.com/words/net/).
+เอกสารรายละเอียดสามารถดูได้ที่ [เว็บไซต์อาโพส](https://reference-aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

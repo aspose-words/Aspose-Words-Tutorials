@@ -1,14 +1,16 @@
 ---
-title: Buat Gaya Tabel
-linktitle: Buat Gaya Tabel
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Buat dan tata gaya tabel dalam dokumen Word menggunakan Aspose.Words for .NET. Pelajari langkah demi langkah untuk menyempurnakan dokumen Anda dengan format tabel profesional.
-weight: 10
-url: /id/net/programming-with-table-styles-and-formatting/create-table-style/
+"description": "Buat dan tata gaya tabel dalam dokumen Word menggunakan Aspose.Words for .NET. Pelajari langkah demi langkah untuk menyempurnakan dokumen Anda dengan format tabel profesional."
+"linktitle": "Buat Gaya Tabel"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Buat Gaya Tabel"
+"url": "/id/net/programming-with-table-styles-and-formatting/create-table-style/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Buat Gaya Tabel
@@ -20,7 +22,7 @@ Pernahkah Anda mengalami kendala saat mencoba menata tabel di dokumen Word Anda 
 ## Prasyarat
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang Anda butuhkan:
-- Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka canggih ini. Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka canggih ini. Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Visual Studio atau lingkungan pengembangan .NET lainnya.
 - Pengetahuan Dasar C#: Sedikit pengetahuan tentang pemrograman C# akan sangat membantu.
 
@@ -36,17 +38,17 @@ using Aspose.Words.Tables;
 
 ## Langkah 1: Inisialisasi Dokumen dan DocumentBuilder
 
- Pada langkah ini, kita akan menginisialisasi dokumen baru dan`DocumentBuilder` . Itu`DocumentBuilder` kelas menyediakan cara mudah untuk membuat dan memformat konten dalam dokumen Word.
+Pada langkah ini, kita akan menginisialisasi dokumen baru dan `DocumentBuilder`. Itu `DocumentBuilder` kelas menyediakan cara mudah untuk membuat dan memformat konten dalam dokumen Word.
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Penjelasan: Kami sedang membuat dokumen baru dan`DocumentBuilder` contoh yang akan membantu kita menambahkan dan memformat konten dalam dokumen kita.
+Penjelasan: Kami sedang membuat dokumen baru dan `DocumentBuilder` contoh yang akan membantu kita menambahkan dan memformat konten dalam dokumen kita.
 
 ## Langkah 2: Mulai Tabel dan Sisipkan Sel
 
@@ -64,7 +66,7 @@ builder.InsertCell();
 builder.EndTable();
 ```
 
- Penjelasan: Di sini, kita menggunakan`StartTable` metode untuk memulai tabel kita. Kemudian kita masukkan sel dan tambahkan teks ("Nama" dan "Nilai"). Terakhir, kita akhiri baris dan tabel.
+Penjelasan: Di sini, kita menggunakan `StartTable` metode untuk memulai tabel kita. Kemudian kita masukkan sel dan tambahkan teks ("Nama" dan "Nilai"). Terakhir, kita akhiri baris dan tabel.
 
 ## Langkah 3: Tambahkan dan Sesuaikan Gaya Tabel
 
@@ -106,16 +108,21 @@ Aspose.Words untuk .NET adalah pustaka yang hebat untuk bekerja dengan dokumen W
 Ya, Anda dapat menggunakan Aspose.Words untuk .NET dengan bahasa .NET apa pun, termasuk VB.NET dan F#.
 
 ### Bagaimana cara menerapkan gaya tabel ke tabel yang sudah ada?
- Anda dapat menerapkan gaya tabel ke tabel yang sudah ada dengan membuat gaya dan kemudian mengatur gaya tabel.`Style` properti ke gaya baru.
+Anda dapat menerapkan gaya tabel ke tabel yang sudah ada dengan membuat gaya dan kemudian mengatur gaya tabel. `Style` properti ke gaya baru.
 
 ### Apakah ada cara lain untuk menyesuaikan gaya tabel?
 Ya, Anda dapat menyesuaikan gaya tabel dengan banyak cara, termasuk mengubah warna latar belakang, gaya font, dan banyak lagi.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
- Anda dapat menemukan dokumentasi yang lebih rinci[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi yang lebih rinci [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

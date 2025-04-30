@@ -1,14 +1,16 @@
 ---
-title: Hapus Bidang
-linktitle: Hapus Bidang
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menghapus kolom dari dokumen Word menggunakan Aspose.Words untuk .NET dalam panduan terperinci dan langkah demi langkah ini. Sempurna untuk pengembang dan manajemen dokumen.
-weight: 10
-url: /id/net/working-with-fields/remove-field/
+"description": "Pelajari cara menghapus kolom dari dokumen Word menggunakan Aspose.Words untuk .NET dalam panduan terperinci dan langkah demi langkah ini. Sempurna untuk pengembang dan manajemen dokumen."
+"linktitle": "Hapus Bidang"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Hapus Bidang"
+"url": "/id/net/working-with-fields/remove-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Bidang
@@ -21,7 +23,7 @@ Pernahkah Anda mengalami kesulitan saat mencoba menghapus kolom yang tidak diing
 
 Sebelum kita masuk ke inti permasalahan, mari pastikan Anda memiliki semua yang dibutuhkan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah mengunduh dan menginstalnya. Jika belum, unduh dan instal[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah mengunduh dan menginstalnya. Jika belum, unduh saja [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan .NET seperti Visual Studio.
 3. Pengetahuan Dasar C#: Tutorial ini mengasumsikan Anda memiliki pemahaman dasar tentang C#.
 
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 ## Langkah 2: Muat Dokumen
 
-Selanjutnya, mari kita masukkan dokumen Word ke dalam program kita. Anggap saja ini seperti membuka peti harta karun Anda.
+Selanjutnya, mari kita muat dokumen Word ke dalam program kita. Anggap saja ini seperti membuka peti harta karun Anda.
 
 ```csharp
 // Muat dokumen.
@@ -94,9 +96,14 @@ Setelah Anda menghapus dan menyimpan dokumen, Anda tidak dapat membatalkan tinda
 
 ### Apakah metode ini berfungsi dengan semua format dokumen Word?
 Ya, ini berfungsi dengan DOCX, DOC, dan format Word lainnya yang didukung oleh Aspose.Words.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

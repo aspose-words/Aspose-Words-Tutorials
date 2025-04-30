@@ -1,14 +1,16 @@
 ---
-title: Zusammenfügen und Anhängen von Dokumenten in Aspose.Words für Java
-linktitle: Dokumente zusammenfügen und anhängen
-second_title: Aspose.Words Java-API zur Dokumentverarbeitung
-description: Erfahren Sie, wie Sie mit Aspose.Words für Java mühelos Dokumente zusammenfügen und anhängen. Behalten Sie die Formatierung bei, verwalten Sie Kopf- und Fußzeilen und mehr.
-weight: 30
-url: /de/java/document-manipulation/joining-and-appending-documents/
+"description": "Erfahren Sie, wie Sie mit Aspose.Words für Java mühelos Dokumente zusammenfügen und anhängen. Behalten Sie die Formatierung bei, verwalten Sie Kopf- und Fußzeilen und vieles mehr."
+"linktitle": "Zusammenfügen und Anhängen von Dokumenten"
+"second_title": "Aspose.Words Java-Dokumentverarbeitungs-API"
+"title": "Zusammenfügen und Anhängen von Dokumenten in Aspose.Words für Java"
+"url": "/de/java/document-manipulation/joining-and-appending-documents/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zusammenfügen und Anhängen von Dokumenten in Aspose.Words für Java
@@ -16,7 +18,7 @@ url: /de/java/document-manipulation/joining-and-appending-documents/
 
 ## Einführung in das Zusammenfügen und Anhängen von Dokumenten in Aspose.Words für Java
 
-In diesem Tutorial erfahren Sie, wie Sie Dokumente mithilfe der Bibliothek Aspose.Words für Java zusammenfügen und anhängen. Sie lernen, wie Sie mehrere Dokumente nahtlos zusammenführen und dabei Formatierung und Struktur beibehalten.
+In diesem Tutorial erfahren Sie, wie Sie Dokumente mithilfe der Java-Bibliothek Aspose.Words zusammenfügen und anhängen. Sie lernen, mehrere Dokumente nahtlos zusammenzuführen und dabei Formatierung und Struktur beizubehalten.
 
 ## Voraussetzungen
 
@@ -61,7 +63,7 @@ dstDoc.updatePageLayout(); // Aktualisieren Sie das Seitenlayout für die korrek
 
 ## Umgang mit unterschiedlichen Seiteneinstellungen
 
-Beim Anhängen von Dokumenten mit unterschiedlichem Seitenaufbau:
+Beim Anhängen von Dokumenten mit unterschiedlichen Seitenaufbauten:
 
 ```java
 srcDoc.getFirstSection().getPageSetup().setSectionStart(SectionStart.CONTINUOUS);
@@ -124,32 +126,37 @@ dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 
 ## Abschluss
 
-Aspose.Words für Java bietet flexible und leistungsstarke Tools zum Zusammenfügen und Anhängen von Dokumenten, egal ob Sie die Formatierung beibehalten, verschiedene Seiteneinstellungen handhaben oder Kopf- und Fußzeilen verwalten müssen. Experimentieren Sie mit diesen Techniken, um Ihre spezifischen Anforderungen an die Dokumentverarbeitung zu erfüllen.
+Aspose.Words für Java bietet flexible und leistungsstarke Tools zum Zusammenfügen und Anhängen von Dokumenten, egal ob Sie die Formatierung beibehalten, verschiedene Seitenlayouts bearbeiten oder Kopf- und Fußzeilen verwalten müssen. Experimentieren Sie mit diesen Techniken, um Ihre spezifischen Anforderungen an die Dokumentverarbeitung zu erfüllen.
 
 ## Häufig gestellte Fragen
 
 ### Wie kann ich Dokumente mit unterschiedlichen Stilen nahtlos zusammenführen?
 
- Um Dokumente mit unterschiedlichen Stilen zusammenzuführen, verwenden Sie`ImportFormatMode.USE_DESTINATION_STYLES` beim Anhängen.
+Um Dokumente mit unterschiedlichen Stilen zu verbinden, verwenden Sie `ImportFormatMode.USE_DESTINATION_STYLES` beim Anhängen.
 
 ### Kann ich beim Anhängen von Dokumenten die Seitennummerierung beibehalten?
 
- Ja, Sie können die Seitennummerierung beibehalten, indem Sie`convertNumPageFieldsToPageRef` Methode und Aktualisieren des Seitenlayouts.
+Ja, Sie können die Seitennummerierung beibehalten, indem Sie die `convertNumPageFieldsToPageRef` Methode und Aktualisierung des Seitenlayouts.
 
 ### Was ist Smart Style Behavior?
 
- Smart Style Behavior hilft dabei, konsistente Stile beim Anhängen von Dokumenten beizubehalten. Verwenden Sie es mit`ImportFormatOptions` für bessere Ergebnisse.
+Smart Style Behavior hilft beim Anhängen von Dokumenten, konsistente Stile beizubehalten. Verwenden Sie es mit `ImportFormatOptions` für bessere Ergebnisse.
 
 ### Wie kann ich beim Anhängen von Dokumenten mit Textfeldern umgehen?
 
-Satz`importFormatOptions.setIgnoreTextBoxes(false)` um Textfelder beim Anhängen einzuschließen.
+Satz `importFormatOptions.setIgnoreTextBoxes(false)` um beim Anhängen Textfelder einzuschließen.
 
-### Was passiert, wenn ich Kopf- und Fußzeilen zwischen Dokumenten verknüpfen/die Verknüpfung aufheben möchte?
+### Was ist, wenn ich Kopf- und Fußzeilen zwischen Dokumenten verknüpfen/aufheben möchte?
 
- Sie können Kopf- und Fußzeilen verknüpfen mit`linkToPrevious(true)` oder trennen Sie sie mit`linkToPrevious(false)` nach Bedarf.
+Sie können Kopf- und Fußzeilen verknüpfen mit `linkToPrevious(true)` oder trennen Sie die Verknüpfung mit `linkToPrevious(false)` nach Bedarf.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

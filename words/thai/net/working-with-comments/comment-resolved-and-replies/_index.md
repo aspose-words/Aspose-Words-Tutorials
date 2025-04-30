@@ -1,14 +1,16 @@
 ---
-title: ความคิดเห็นได้รับการแก้ไขและตอบกลับ
-linktitle: ความคิดเห็นได้รับการแก้ไขและตอบกลับ
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: สร้างระบบอัตโนมัติในการแก้ไขและตอบกลับความคิดเห็นในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
-weight: 10
-url: /th/net/working-with-comments/comment-resolved-and-replies/
+"description": "สร้างระบบอัตโนมัติในการแก้ไขและตอบกลับความคิดเห็นในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน"
+"linktitle": "ความคิดเห็นได้รับการแก้ไขและตอบกลับ"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ความคิดเห็นได้รับการแก้ไขและตอบกลับ"
+"url": "/th/net/working-with-comments/comment-resolved-and-replies/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ความคิดเห็นได้รับการแก้ไขและตอบกลับ
@@ -21,7 +23,7 @@ url: /th/net/working-with-comments/comment-resolved-and-replies/
 
 ก่อนที่จะดำน้ำ ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1.  Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: ตั้งค่าด้วย .NET Framework
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับโครงสร้างและแนวคิด
 
@@ -38,24 +40,24 @@ using Aspose.Words.Comments;
 
 ## ขั้นตอนที่ 1: โหลดเอกสาร
 
- ในการเริ่มต้น ให้โหลดเอกสาร Word ที่ประกอบด้วยข้อคิดเห็น ใช้`Document` ชั้นเรียนสำหรับสิ่งนี้
+ในการเริ่มต้น ให้โหลดเอกสาร Word ที่ประกอบด้วยข้อคิดเห็น ใช้ `Document` ชั้นเรียนสำหรับสิ่งนี้
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Comments.docx");
 ```
 
- บรรทัดโค้ดนี้จะเริ่มต้นสิ่งใหม่`Document` วัตถุที่มีเส้นทางไปยังเอกสาร Word ของคุณ
+บรรทัดโค้ดนี้จะเริ่มต้นสิ่งใหม่ `Document` วัตถุที่มีเส้นทางไปยังเอกสาร Word ของคุณ
 
 ## ขั้นตอนที่ 2: ดึงความคิดเห็น
 
- ต่อไปเราต้องได้รับความคิดเห็นทั้งหมดในเอกสาร เราจะใช้`GetChildNodes` วิธีการดึงข้อมูลคอลเลกชัน`Comment` โหนด
+ต่อไปเราต้องได้รับความคิดเห็นทั้งหมดในเอกสาร เราจะใช้ `GetChildNodes` วิธีการดึงข้อมูลคอลเลกชัน `Comment` โหนด
 
 ```csharp
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
 ```
 
-โค้ดนี้จะดึงความคิดเห็นทั้งหมดในเอกสารและจัดเก็บไว้ใน`NodeCollection`.
+โค้ดนี้จะดึงความคิดเห็นทั้งหมดในเอกสารและจัดเก็บไว้ใน `NodeCollection`-
 
 ## ขั้นตอนที่ 3: เข้าถึงความคิดเห็นของผู้ปกครอง
 
@@ -65,11 +67,11 @@ NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
 Comment parentComment = (Comment)comments[0];
 ```
 
- ที่นี่ เรากำลังแคสต์โหนดแรกในคอลเล็กชันเป็น`Comment` วัตถุ.
+ที่นี่ เรากำลังแคสต์โหนดแรกในคอลเล็กชันเป็น `Comment` วัตถุ.
 
 ## ขั้นตอนที่ 4: วนซ้ำผ่านการตอบกลับ
 
- ตอนนี้มาดูการตอบกลับความคิดเห็นของผู้ปกครองกัน เราจะใช้`foreach` วนซ้ำเพื่อทำซ้ำในแต่ละการตอบกลับ
+ตอนนี้มาดูการตอบกลับความคิดเห็นของผู้ปกครองกัน เราจะใช้ `foreach` วนซ้ำเพื่อทำซ้ำในแต่ละการตอบกลับ
 
 ```csharp
 foreach (Comment childComment in parentComment.Replies)
@@ -106,16 +108,21 @@ doc.Save(dataDir + "WorkingWithComments.CommentResolvedAndReplies.docx");
 ใช่ Aspose.Words สำหรับ .NET รองรับทั้ง .NET Framework และ .NET Core
 
 ### ฉันจะได้รับรุ่นทดลองใช้งาน Aspose.Words สำหรับ .NET ฟรีได้อย่างไร  
- คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ .NET เพื่อทำงานกับประเภทเอกสารอื่นๆ ได้หรือไม่  
 ใช่ Aspose.Words รองรับรูปแบบต่างๆ รวมถึง DOCX, PDF, HTML และอื่นๆ อีกมากมาย
 
 ### ฉันสามารถหาเอกสารโดยละเอียดเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ไหน  
- คุณสามารถเข้าถึงเอกสารได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถเข้าถึงเอกสารได้ [ที่นี่](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

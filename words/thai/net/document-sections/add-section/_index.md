@@ -1,51 +1,59 @@
 ---
-title: เพิ่มส่วนใหม่ต่อเอกสาร Word Aspose.Words สําหรับ .NET
-weight: 7700
-limit: 
-description: เรียนรู้วิธีการเพิ่มส่วนใหม่ในเอกสาร Word โดยใช้ Aspose.Words สําหรับ .NET. คู่มือขั้นตอนพร้อมตัวอย่างรหัสเพื่อกระบวนการอัตโนมัติงานของ Word
-keywords: [Aspose.Words for .NET, add section to Word document, .NET Word automation, create new section, Word document manipulation, Aspose.Words tutorial, .NET examples]
-url: /th/net/document-sections/add-section/
+"description": "เรียนรู้วิธีการเพิ่มส่วนใหม่ลงในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดเพื่อเพิ่มประสิทธิภาพงานอัตโนมัติใน Word ของคุณ"
+"title": "เพิ่มส่วนใหม่ลงในเอกสาร Word | Aspose.Words สำหรับ .NET"
+"url": "/th/net/document-sections/add-section/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# เพิ่มส่วนใหม่ต่อเอกสาร Word
+# เพิ่มส่วนใหม่ลงในเอกสาร Word
 
-Aspose.Words สําหรับ .NET ทําให้การทํางานกับเอกสาร Word ได้ง่ายขึ้นโดยการให้บริการ API ที่มีพลังในการจัดการโครงสร้างเอกสารที่ซับซ้อน. เทูทีโอนี้จะนําคุณไปสู่การเพิ่มส่วนใหม่ในเอกสาร Word ได้แบบโปรแกรม. โดยใช้ `เอกสาร`และ`DocumentBuilder`คลาส, คุณจะได้เรียนรู้การเริ่มต้นเอกสาร, เพิ่มข้อความ, และเพิ่มส่วนใหม่. เหมาะสําหรับผู้พัฒนาที่ต้องการที่จะอัตโนมัติการสร้างเอกสาร Word และการ thao tácด้วยความแม่นยํา.  
+Aspose.Words สำหรับ .NET ช่วยให้ทำงานกับเอกสาร Word ได้อย่างง่ายดายโดยจัดเตรียม API ที่มีประสิทธิภาพเพื่อจัดการโครงสร้างเอกสารที่ซับซ้อน บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับการเพิ่มส่วนใหม่ลงในเอกสาร Word โดยใช้โปรแกรม `Document` และ `DocumentBuilder` ชั้นเรียนนี้จะช่วยให้คุณเรียนรู้การเริ่มต้นเอกสาร การเพิ่มข้อความ และการผนวกส่วนใหม่ เหมาะอย่างยิ่งสำหรับนักพัฒนาที่ต้องการทำให้การสร้างและจัดการเอกสาร Word เป็นแบบอัตโนมัติด้วยความแม่นยำ  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/document-sections/add-section" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## คําแนะนําการติดตั้งสําหรับ Aspose.Words สําหรับ .NET  
+## คำแนะนำการติดตั้ง Aspose.Words สำหรับ .NET  
 
-1. ดาวน์โหลด Aspose.Words สําหรับ .NET:  
-   ไปเยี่ยม [Aspose.Words สําหรับหน้าดาวน์โหลด .NET](https://releases.aspose.com/words/net/)เพื่อให้ได้ฉบับล่าสุด
+1. ดาวน์โหลด Aspose.Words สำหรับ .NET:  
+   เยี่ยมชม [หน้าดาวน์โหลด Aspose.Words สำหรับ .NET](https://releases.aspose.com/words/net/) เพื่อรับเวอร์ชันล่าสุด
 
-2. โครงการผ่าน NuGet:  
-   * เปิดโครงการ Visual Studio  
-   * ไปยัง Tools > NuGet Package Manager > การจัดการ NuGet Packages for Solution  
-   * ค้นหา`"พูดคําพูด"`ในผู้จัดการพัสดุ NuGet  
-   * เลือกแพ็คเกจ แล้วคลิกติดตั้ง  
+2. ติดตั้งผ่าน NuGet:  
+   - เปิดโครงการ Visual Studio ของคุณ  
+   - ไปที่เครื่องมือ > ตัวจัดการแพ็กเกจ NuGet > จัดการแพ็กเกจ NuGet สำหรับโซลูชัน  
+   - ค้นหา `Aspose.Words` ในตัวจัดการแพ็กเกจ NuGet  
+   - เลือกแพ็กเกจและคลิกติดตั้ง  
 
-3. เพิ่มเติมอ้างอิงด้วยมือ (ทางเลือก):  
-   * ดาวน์โหลด DLL จาก [หน้าการปล่อย Aspose](https://releases.aspose.com/). .  
-   * เพิ่ม `"ตอบสนอง คําพูด"`เพิ่มเติมไปยังโครงการของคุณ โดยคลิกขวาที่ References ใน Solution Explorer และเลือก Add Reference  
+3. เพิ่มการอ้างอิงด้วยตนเอง (ทางเลือก):  
+   - ดาวน์โหลด DLL จาก [หน้าวางจำหน่าย Aspose](https://releases-aspose.com/).  
+   - เพิ่ม `Aspose.Words.dll` เพิ่มไฟล์ไปยังโครงการของคุณโดยคลิกขวาที่การอ้างอิงใน Solution Explorer และเลือกเพิ่มการอ้างอิง  
 
-4. ปรับประกาศ (เป็นทางเลือก):  
-   ถ้าคุณมีใบอนุญาต ใช้มันเพื่อเปิดฟังก์ชันทั้งหมด  
+4. เปิดใช้งานใบอนุญาต (ทางเลือก):  
+   หากคุณมีใบอนุญาต โปรดใช้เพื่อปลดล็อคฟังก์ชันเต็มรูปแบบ:  
    ```csharp
    Aspose.Words.License license = new Aspose.Words.License();
    license.SetLicense("path_to_your_license.lic");
    ```  
 
-## ดูอีกด้วย
-[Aspose.Word สําหรับเอกสาร .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word สําหรับ .NET References](https://reference.aspose.com/words/net/)
+## ดูเพิ่มเติม
+[Aspose.Word สำหรับเอกสาร .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word สำหรับการอ้างอิง .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

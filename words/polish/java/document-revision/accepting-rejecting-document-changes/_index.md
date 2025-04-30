@@ -1,14 +1,16 @@
 ---
-title: Akceptowanie i odrzucanie zmian w dokumencie
-linktitle: Akceptowanie i odrzucanie zmian w dokumencie
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak bez wysiłku zarządzać zmianami w dokumentach dzięki Aspose.Words for Java. Akceptuj i odrzucaj poprawki bezproblemowo.
-weight: 12
-url: /pl/java/document-revision/accepting-rejecting-document-changes/
+"description": "Dowiedz się, jak bez wysiłku zarządzać zmianami w dokumentach dzięki Aspose.Words for Java. Akceptuj i odrzucaj poprawki bezproblemowo."
+"linktitle": "Akceptowanie i odrzucanie zmian w dokumencie"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Akceptowanie i odrzucanie zmian w dokumencie"
+"url": "/pl/java/document-revision/accepting-rejecting-document-changes/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Akceptowanie i odrzucanie zmian w dokumencie
@@ -20,7 +22,7 @@ Aspose.Words for Java to solidna biblioteka, która umożliwia programistom Java
 
 ## Zrozumienie zmian w dokumencie
 
-Zanim przejdziemy do implementacji, zrozumiemy, czym są zmiany w dokumencie. Zmiany w dokumencie obejmują edycje, wstawienia, usunięcia i modyfikacje formatowania dokonywane w dokumencie. Te zmiany są zazwyczaj śledzone za pomocą funkcji rewizji.
+Zanim przejdziemy do implementacji, zrozumiemy, czym są zmiany w dokumencie. Zmiany w dokumencie obejmują edycje, wstawienia, usunięcia i modyfikacje formatowania dokonane w dokumencie. Te zmiany są zazwyczaj śledzone za pomocą funkcji rewizji.
 
 ## Ładowanie dokumentu
 
@@ -33,7 +35,7 @@ Document doc = new Document("document_with_changes.docx");
 
 ## Przeglądanie zmian w dokumencie
 
-Po załadowaniu dokumentu konieczne jest przejrzenie zmian. Możesz przejrzeć poprawki, aby zobaczyć, jakie modyfikacje zostały wprowadzone:
+Po załadowaniu dokumentu, konieczne jest przejrzenie zmian. Możesz przejrzeć poprawki, aby zobaczyć, jakie modyfikacje zostały wprowadzone:
 
 ```java
 // Przeprowadź iterację przez rewizje
@@ -55,7 +57,7 @@ doc.getRevisions().get(0).accept();
 
 ## Odrzucanie zmian
 
-W niektórych przypadkach może być konieczne odrzucenie pewnych zmian. Aspose.Words for Java zapewnia elastyczność odrzucania rewizji w razie potrzeby:
+niektórych przypadkach może być konieczne odrzucenie pewnych zmian. Aspose.Words for Java zapewnia elastyczność odrzucania rewizji w razie potrzeby:
 
 ```java
 // Odrzuć wszystkie poprawki
@@ -73,7 +75,7 @@ doc.save("document_with_accepted_changes.docx");
 
 ## Automatyzacja procesu
 
-Aby jeszcze bardziej usprawnić proces, możesz zautomatyzować akceptację lub odrzucenie zmian na podstawie określonych kryteriów, takich jak komentarze recenzentów lub rodzaje rewizji. Zapewnia to bardziej wydajny przepływ dokumentów.
+Aby jeszcze bardziej usprawnić proces, możesz zautomatyzować akceptację lub odrzucenie zmian na podstawie określonych kryteriów, takich jak komentarze recenzentów lub typy rewizji. Zapewnia to bardziej wydajny przepływ dokumentów.
 
 ## Wniosek
 
@@ -83,7 +85,7 @@ Podsumowując, opanowanie sztuki akceptowania i odrzucania zmian w dokumentach z
 
 ### Jak mogę ustalić, kto dokonał konkretnej zmiany w dokumencie?
 
- Dostęp do informacji o autorze każdej rewizji można uzyskać za pomocą`getAuthor` metoda na`Revision` obiekt.
+Dostęp do informacji o autorze każdej rewizji można uzyskać za pomocą `getAuthor` metoda na `Revision` obiekt.
 
 ### Czy mogę dostosować wygląd śledzonych zmian w dokumencie?
 
@@ -99,10 +101,15 @@ Niestety, zaakceptowanych lub odrzuconych zmian nie można łatwo cofnąć w bib
 
 ### Gdzie mogę znaleźć więcej informacji i dokumentację dotyczącą Aspose.Words dla Java?
 
- Aby uzyskać szczegółową dokumentację i przykłady, odwiedź stronę[Aspose.Words dla Java API Reference](https://reference.aspose.com/words/java/).
+Aby uzyskać szczegółową dokumentację i przykłady, odwiedź stronę [Aspose.Words dla Java API Reference](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

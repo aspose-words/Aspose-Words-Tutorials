@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Revizyonları Kullanma
-linktitle: Revizyonları Kullanma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java'nın revizyonunu verimli bir şekilde kullanmayı öğrenin. Geliştiriciler için adım adım kılavuz. Belge yönetiminizi optimize edin.
-weight: 22
-url: /tr/java/using-document-elements/using-revisions/
+"description": "Aspose.Words for Java'nın revizyonunu verimli bir şekilde kullanmayı öğrenin. Geliştiriciler için adım adım kılavuz. Belge yönetiminizi optimize edin."
+"linktitle": "Revizyonları Kullanma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Revizyonları Kullanma"
+"url": "/tr/java/using-document-elements/using-revisions/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Revizyonları Kullanma
@@ -26,7 +28,7 @@ Aspose.Words for Java'yı kullanmaya başlamadan önce, geliştirme ortamınız�
 
 ## 3. Yeni Bir Belge Oluşturma
 
-Aspose.Words for Java kullanarak yeni bir Word belgesi oluşturarak başlayalım. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+Aspose.Words for Java kullanarak yeni bir Word belgesi oluşturarak başlayalım. Bunu nasıl yapabileceğinizi burada bulabilirsiniz:
 
 ```java
 string outPath = "Your Output Directory";
@@ -118,7 +120,7 @@ doc.acceptAllRevisions();
 Assert.assertEquals(3, paragraphs.getCount());
 Assert.assertEquals(para.getRuns().getCount(), 0); //Is.Empty idi
 // Revizyonların takibini durdurduğunuzda bu metin normal metin gibi görünür.
-//Belgede değişiklik yapıldığında revizyonlar sayılmaz.
+// Belgede değişiklik yapıldığında revizyonlar sayılmaz.
 doc.stopTrackRevisions();
 // Belgeyi kaydedin.
 doc.save(outPath + "WorkingWithRevisions.AcceptRevisions.docx");
@@ -141,17 +143,22 @@ Evet, mevcut Word belgelerinizdeki revizyonları izlemek için Aspose.Words for 
 
 ### 4. Aspose.Words for Java'yı kullanmak için herhangi bir lisanslama gereksinimi var mı?
 
- Evet, projelerinizde Aspose.Words for Java'yı kullanmak için bir lisans edinmeniz gerekir.[lisansa buradan erişin](https://purchase.aspose.com/buy).
+Evet, projelerinizde Aspose.Words for Java'yı kullanmak için bir lisans edinmeniz gerekir. [lisansa buradan erişin](https://purchase.aspose.com/buy).
 
 ### 5. Java için Aspose.Words desteğini nerede bulabilirim?
 
- Herhangi bir soru veya sorununuz varsa, şu adresi ziyaret edebilirsiniz:[Aspose.Words for Java destek forumu](https://forum.aspose.com/).
+Herhangi bir soru veya sorununuz varsa, şu adresi ziyaret edebilirsiniz: [Aspose.Words for Java destek forumu](https://forum.aspose.com/).
 
 Bugün Aspose.Words for Java'yı kullanmaya başlayın ve belge yönetimi süreçlerinizi kolaylaştırın.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

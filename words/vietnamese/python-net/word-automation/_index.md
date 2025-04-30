@@ -1,14 +1,16 @@
 ---
-title: Tự động hóa từ
-linktitle: Tự động hóa từ
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Tự động hóa các tác vụ xử lý văn bản với Aspose.Words cho Python. Tối ưu hóa việc quản lý tài liệu và tăng hiệu quả trong tự động hóa văn bản.
-weight: 11
-url: /vi/python-net/word-automation/
+"description": "Tự động hóa các tác vụ xử lý văn bản với Aspose.Words cho Python. Tối ưu hóa việc quản lý tài liệu và tăng hiệu quả trong tự động hóa văn bản."
+"linktitle": "Tự động hóa từ"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Tự động hóa từ"
+"url": "/vi/python-net/word-automation/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tự động hóa từ
@@ -32,9 +34,13 @@ Bằng cách làm chủ tự động hóa từ ngữ bằng Aspose.Words for Pyt
 ## Hướng dẫn tự động hóa Python Word
 ### [Tự động hóa từ ngữ dễ dàng](./word-automation-made-easy/)
 Tự động hóa xử lý Word dễ dàng bằng Aspose.Words for Python. Tạo, định dạng và thao tác tài liệu theo chương trình. Tăng năng suất ngay!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

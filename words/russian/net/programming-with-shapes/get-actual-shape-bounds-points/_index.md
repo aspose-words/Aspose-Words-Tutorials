@@ -1,14 +1,16 @@
 ---
-title: Получить фактические точки границ формы
-linktitle: Получить фактические точки границ формы
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как получить фактические точки границ формы в документах Word с помощью Aspose.Words для .NET. Изучите точную манипуляцию формой с помощью этого подробного руководства.
-weight: 10
-url: /ru/net/programming-with-shapes/get-actual-shape-bounds-points/
+"description": "Узнайте, как получить фактические точки границ формы в документах Word с помощью Aspose.Words для .NET. Изучите точную манипуляцию формой с помощью этого подробного руководства."
+"linktitle": "Получить фактические точки границ формы"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Получить фактические точки границ формы"
+"url": "/ru/net/programming-with-shapes/get-actual-shape-bounds-points/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получить фактические точки границ формы
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-shapes/get-actual-shape-bounds-points/
 
 Прежде чем перейти к деталям, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words for .NET. Если нет, вы можете скачать ее[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words for .NET. Если нет, вы можете скачать ее [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: у вас должна быть настроена среда разработки, например Visual Studio.
 3. Базовые знания C#: это руководство предполагает, что у вас есть базовые знания программирования на C#.
 
@@ -44,7 +46,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Здесь мы создаем экземпляр`Document` класс и а`DocumentBuilder` чтобы помочь нам вставить контент в документ.
+Здесь мы создаем экземпляр `Document` класс и а `DocumentBuilder` чтобы помочь нам вставить контент в документ.
 
 ## Шаг 2: Вставьте форму изображения
 
@@ -54,7 +56,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertImage("YOUR DOCUMENT DIRECTORY/Transparent background logo.png");
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY/Transparent background logo.png"` с путем к файлу изображения. Эта строка вставляет изображение в документ как форму.
+Заменять `"YOUR DOCUMENT DIRECTORY/Transparent background logo.png"` с путем к файлу изображения. Эта строка вставляет изображение в документ как форму.
 
 ## Шаг 3: Разблокируйте соотношение сторон
 
@@ -75,7 +77,7 @@ Console.Write("\nGets the actual bounds of the shape in points: ");
 Console.WriteLine(shape.GetShapeRenderer().BoundsInPoints);
 ```
 
- The`GetShapeRenderer` метод предоставляет средство визуализации для формы, и`BoundsInPoints` дает нам точные размеры.
+The `GetShapeRenderer` метод предоставляет средство визуализации для формы, и `BoundsInPoints` дает нам точные размеры.
 
 ## Заключение
 
@@ -87,19 +89,24 @@ Console.WriteLine(shape.GetShapeRenderer().BoundsInPoints);
 Знание границ помогает точно позиционировать и выравнивать фигуры в документе, обеспечивая профессиональный вид.
 
 ### Могу ли я использовать другие типы фигур, помимо изображений?
-Конечно! Вы можете использовать любую форму, например, прямоугольники, круги и пользовательские рисунки.
+Конечно! Вы можете использовать любую форму, например, прямоугольники, круги и собственные рисунки.
 
 ### Что делать, если мое изображение не отображается в документе?
 Убедитесь, что путь к файлу правильный и изображение существует в этом месте. Дважды проверьте на наличие опечаток или неправильных ссылок на каталоги.
 
 ### Как мне сохранить пропорции моей фигуры?
-Набор`shape.AspectRatioLocked = true;`для сохранения исходных пропорций при изменении размера.
+Набор `shape.AspectRatioLocked = true;` для сохранения исходных пропорций при изменении размера.
 
 ### Можно ли получить границы в единицах, отличных от пунктов?
 Да, вы можете конвертировать баллы в другие единицы измерения, такие как дюймы или сантиметры, используя соответствующие коэффициенты конвертации.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

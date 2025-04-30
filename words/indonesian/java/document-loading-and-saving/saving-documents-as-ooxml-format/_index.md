@@ -1,14 +1,16 @@
 ---
-title: Menyimpan Dokumen sebagai Format OOXML di Aspose.Words untuk Java
-linktitle: Menyimpan Dokumen sebagai Format OOXML
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menyimpan dokumen dalam format OOXML dengan Aspose.Words untuk Java. Amankan, optimalkan, dan sesuaikan file Anda dengan mudah.
-weight: 20
-url: /id/java/document-loading-and-saving/saving-documents-as-ooxml-format/
+"description": "Pelajari cara menyimpan dokumen dalam format OOXML dengan Aspose.Words untuk Java. Amankan, optimalkan, dan sesuaikan file Anda dengan mudah."
+"linktitle": "Menyimpan Dokumen sebagai Format OOXML"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menyimpan Dokumen sebagai Format OOXML di Aspose.Words untuk Java"
+"url": "/id/java/document-loading-and-saving/saving-documents-as-ooxml-format/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menyimpan Dokumen sebagai Format OOXML di Aspose.Words untuk Java
@@ -93,7 +95,7 @@ import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.SaveFormat;
 
-//Memuat dokumen dengan karakter kontrol lama
+// Memuat dokumen dengan karakter kontrol lama
 Document doc = new Document("LegacyControlChars.doc");
 
 // Buat OoxmlSaveOptions dengan format FLAT_OPC dan aktifkan penyimpanan karakter kontrol lama
@@ -178,14 +180,19 @@ Untuk menghapus proteksi kata sandi dari dokumen yang dilindungi kata sandi, And
 
 ### Dapatkah saya mengatur properti khusus saat menyimpan dokumen dalam format OOXML?
 
- Ya, Anda dapat mengatur properti khusus untuk dokumen sebelum menyimpannya dalam format OOXML. Gunakan`BuiltInDocumentProperties` Dan`CustomDocumentProperties` kelas untuk menetapkan berbagai properti seperti penulis, judul, kata kunci, dan properti khusus.
+Ya, Anda dapat mengatur properti khusus untuk dokumen sebelum menyimpannya dalam format OOXML. Gunakan `BuiltInDocumentProperties` Dan `CustomDocumentProperties` kelas untuk menetapkan berbagai properti seperti penulis, judul, kata kunci, dan properti khusus.
 
 ### Berapa tingkat kompresi default saat menyimpan dokumen dalam format OOXML?
 
- Tingkat kompresi default saat menyimpan dokumen dalam format OOXML menggunakan Aspose.Words untuk Java adalah`NORMAL` Anda dapat mengubah tingkat kompresi menjadi`SUPER_FAST` atau`MAXIMUM` sesuai kebutuhan.
+Tingkat kompresi default saat menyimpan dokumen dalam format OOXML menggunakan Aspose.Words untuk Java adalah `NORMAL`Anda dapat mengubah tingkat kompresi menjadi `SUPER_FAST` atau `MAXIMUM` sesuai kebutuhan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

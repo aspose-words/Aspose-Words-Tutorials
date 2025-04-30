@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi HTML sang Tài liệu
-linktitle: Chuyển đổi HTML sang Tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Chuyển đổi tài liệu HTML sang Word dễ dàng với Aspose.Words for Java. Tìm hiểu cách thực hiện chuyển đổi này chỉ trong vài bước với hướng dẫn toàn diện của chúng tôi.
-weight: 12
-url: /vi/java/document-converting/converting-html-documents/
+"description": "Chuyển đổi tài liệu HTML sang Word dễ dàng với Aspose.Words for Java. Tìm hiểu cách thực hiện chuyển đổi này chỉ trong vài bước với hướng dẫn toàn diện của chúng tôi."
+"linktitle": "Chuyển đổi HTML sang Tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Chuyển đổi HTML sang Tài liệu"
+"url": "/vi/java/document-converting/converting-html-documents/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi HTML sang Tài liệu
@@ -24,7 +26,7 @@ Trước khi bắt đầu viết mã, bạn cần chuẩn bị một số thứ 
 
 1. Java Development Kit (JDK): Đảm bảo bạn đã cài đặt JDK 8 trở lên trên hệ thống của mình. Điều này rất quan trọng vì Aspose.Words for Java yêu cầu JDK tương thích để hoạt động bình thường.
 2. Môi trường phát triển tích hợp (IDE): Một IDE tốt như IntelliJ IDEA hoặc Eclipse sẽ giúp bạn quản lý các tệp dự án dễ dàng hơn và cung cấp các tính năng hữu ích như tô sáng cú pháp và hoàn thiện mã.
-3.  Aspose.Words for Java Library: Bạn cần có thư viện Aspose.Words for Java. Bạn có thể tải xuống phiên bản mới nhất[đây](https://releases.aspose.com/words/java/). Hãy đảm bảo đưa thư viện này vào đường dẫn xây dựng dự án của bạn.
+3. Aspose.Words for Java Library: Bạn cần có thư viện Aspose.Words for Java. Bạn có thể tải xuống phiên bản mới nhất [đây](https://releases.aspose.com/words/java/). Hãy đảm bảo đưa thư viện này vào đường dẫn xây dựng dự án của bạn.
 4. Tệp HTML đầu vào: Bạn sẽ cần một tệp HTML mà bạn muốn chuyển đổi. Tệp này sẽ là tài liệu nguồn được chuyển đổi thành tài liệu Word.
 
 ## Nhập gói
@@ -39,7 +41,7 @@ Câu lệnh import duy nhất này đưa vào tất cả các lớp cần thiế
 
 ## Bước 1: Tải tài liệu HTML
 
-Bước đầu tiên trong việc chuyển đổi tệp HTML sang tài liệu Word là tải tệp HTML vào`Document` đối tượng. Điều này`Document` đối tượng sẽ hoạt động như biểu diễn trong bộ nhớ của tệp HTML của bạn.
+Bước đầu tiên trong việc chuyển đổi tệp HTML sang tài liệu Word là tải tệp HTML vào `Document` đối tượng. Điều này `Document` đối tượng sẽ hoạt động như biểu diễn trong bộ nhớ của tệp HTML của bạn.
 
 ```java
 Document doc = new Document("Input.html");
@@ -47,11 +49,11 @@ Document doc = new Document("Input.html");
 
 ### Giải thích:
 
- Ở đây,`Document` class được sử dụng để tải tệp HTML. Hàm tạo lấy đường dẫn tệp của tệp HTML làm đối số. Khi bước này hoàn tất, nội dung HTML của bạn đã sẵn sàng để xử lý thêm.
+Ở đây, `Document` class được sử dụng để tải tệp HTML. Hàm tạo lấy đường dẫn tệp của tệp HTML làm đối số. Khi bước này hoàn tất, nội dung HTML của bạn đã sẵn sàng để xử lý thêm.
 
 ## Bước 2: Lưu tài liệu dưới dạng tệp Word
 
- Sau khi tải tệp HTML vào`Document` đối tượng, bước tiếp theo là lưu nó dưới dạng tài liệu Word. Đây là nơi chuyển đổi thực sự diễn ra.
+Sau khi tải tệp HTML vào `Document` đối tượng, bước tiếp theo là lưu nó dưới dạng tài liệu Word. Đây là nơi chuyển đổi thực sự diễn ra.
 
 ```java
 doc.save("Output.docx");
@@ -59,7 +61,7 @@ doc.save("Output.docx");
 
 ### Giải thích:
 
- Các`save` phương pháp được gọi là`Document` đối tượng để lưu tập tin trong`.docx` định dạng. Đối số được cung cấp là đường dẫn tệp nơi tài liệu Word sẽ được lưu. Đây là bước cuối cùng trong quá trình chuyển đổi.
+Các `save` phương pháp được gọi là `Document` đối tượng để lưu tập tin trong `.docx` định dạng. Đối số được cung cấp là đường dẫn tệp nơi tài liệu Word sẽ được lưu. Đây là bước cuối cùng trong quá trình chuyển đổi.
 
 ## Phần kết luận
 
@@ -71,7 +73,7 @@ Aspose.Words for Java cực kỳ mạnh mẽ và cung cấp nhiều hơn là ch�
 
 ### 1. Tôi có thể chuyển đổi các phần cụ thể của tệp HTML thành tài liệu Word không?
 
- Có, bạn có thể thao tác nội dung HTML trước khi lưu dưới dạng tài liệu Word. Bạn có thể sử dụng API mở rộng của Aspose.Words để sửa đổi`Document` đối tượng sau khi tải tệp HTML.
+Có, bạn có thể thao tác nội dung HTML trước khi lưu dưới dạng tài liệu Word. Bạn có thể sử dụng API mở rộng của Aspose.Words để sửa đổi `Document` đối tượng sau khi tải tệp HTML.
 
 ### 2. Aspose.Words for Java có hỗ trợ các định dạng tệp khác không?
 
@@ -87,10 +89,15 @@ Có, bạn có thể tự động hóa quá trình chuyển đổi bằng cách 
 
 ### 5. Tôi có thể tìm tài liệu chi tiết hơn ở đâu?
 
- Bạn có thể khám phá thêm trong[tài liệu](https://reference.aspose.com/words/java/) để tìm hiểu sâu hơn về khả năng của Aspose.Words dành cho Java.
+Bạn có thể khám phá thêm trong [tài liệu](https://reference.aspose.com/words/java/) để tìm hiểu sâu hơn về khả năng của Aspose.Words dành cho Java.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

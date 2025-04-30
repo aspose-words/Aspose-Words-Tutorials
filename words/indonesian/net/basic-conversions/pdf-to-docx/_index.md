@@ -1,14 +1,16 @@
 ---
-title: Simpan PDF ke Format Word (Docx)
-linktitle: Simpan PDF ke Format Word (Docx)
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengonversi PDF ke dokumen Word (Docx) menggunakan Aspose.Words untuk .NET dalam panduan terperinci dan langkah demi langkah ini. Sempurna untuk pengembang.
-weight: 10
-url: /id/net/basic-conversions/pdf-to-docx/
+"description": "Pelajari cara mengonversi PDF ke dokumen Word (Docx) menggunakan Aspose.Words untuk .NET dalam panduan terperinci dan langkah demi langkah ini. Sempurna untuk pengembang."
+"linktitle": "Simpan PDF ke Format Word (Docx)"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Simpan PDF ke Format Word (Docx)"
+"url": "/id/net/basic-conversions/pdf-to-docx/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Simpan PDF ke Format Word (Docx)
@@ -21,14 +23,14 @@ Hai, penggemar teknologi! Pernahkah Anda merasa terjerat dalam proses mengonvers
 
 Sebelum kita terjun ke dunia ajaib konversi file, mari pastikan kita memiliki semua yang kita butuhkan:
 
--  Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru. Jika tidak, unduh versi terbarunya[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru. Jika tidak, unduh versi terbarunya [Di Sini](https://releases.aspose.com/words/net/).
 - .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda.
 - Dokumen PDF: Berkas PDF yang ingin Anda konversi.
 - Lingkungan Pengembangan: Visual Studio atau IDE lain yang disukai.
 
 ### Menyiapkan Lingkungan Anda
 
-1.  Unduh dan Instal Aspose.Words untuk .NET: Buka[Situs web Aspose](https://releases.aspose.com/words/net/) dan ambil versi terbaru.
+1. Unduh dan Instal Aspose.Words untuk .NET: Buka [Situs web Aspose](https://releases.aspose.com/words/net/) dan ambil versi terbaru.
 2. Buat Proyek Baru: Buka IDE Anda, buat proyek .NET baru, dan tambahkan referensi ke Aspose.Words.
 3. Siapkan Dokumen PDF Anda: Siapkan dokumen PDF yang ingin Anda konversi di direktori proyek Anda.
 
@@ -47,7 +49,7 @@ Mari kita uraikan proses konversi menjadi beberapa langkah yang dapat dikelola, 
 
 ## Langkah 1: Menyiapkan Direktori Proyek
 
-Pertama-tama, kita perlu menentukan jalur ke direktori dokumen kita. Di sinilah PDF Anda berada dan di mana dokumen Word yang dikonversi akan disimpan.
+Pertama-tama, kita perlu menentukan jalur ke direktori dokumen kita. Di sinilah PDF Anda berada dan dokumen Word yang dikonversi akan disimpan.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -62,7 +64,7 @@ Sekarang, mari muat dokumen PDF ke dalam proyek kita menggunakan Aspose.Words.
 Document doc = new Document(dataDir + "Pdf Document.pdf");
 ```
 
- Di sini, kita membuat sebuah instance dari`Document` class dan meneruskan path file PDF kita ke sana. Tindakan ini memuat PDF ke dalam memori, siap untuk dikonversi.
+Di sini, kita membuat sebuah instance dari `Document` class dan meneruskan jalur file PDF kita ke sana. Tindakan ini memuat PDF ke dalam memori, siap untuk dikonversi.
 
 ## Langkah 3: Menyimpan PDF sebagai Dokumen Word
 
@@ -72,7 +74,7 @@ Langkah terakhir adalah menyimpan dokumen PDF yang dimuat sebagai dokumen Word (
 doc.Save(dataDir + "BaseConversions.PdfToDocx.docx");
 ```
 
- Dengan menelepon`Save` metode pada kami`Document` Misalnya, kami menentukan jalur dan format file output. Dalam kasus ini, kami menyimpannya sebagai file Docx.
+Dengan menelepon `Save` metode pada kami `Document` Misalnya, kami menentukan jalur dan format file output. Dalam kasus ini, kami menyimpannya sebagai file Docx.
 
 ## Langkah 4: Menjalankan Konversi
 
@@ -91,16 +93,21 @@ Ya, Anda dapat mengulang beberapa PDF dan mengonversi masing-masing menggunakan 
 Ya, Aspose.Words bekerja sangat baik dalam mempertahankan format asli.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words untuk .NET?
- Meskipun Anda dapat menggunakan lisensi sementara untuk evaluasi, Anda perlu membeli lisensi penuh untuk penggunaan komersial. Lihat[halaman pembelian](https://purchase.aspose.com/buy) untuk lebih jelasnya.
+Meskipun Anda dapat menggunakan lisensi sementara untuk evaluasi, Anda perlu membeli lisensi penuh untuk penggunaan komersial. Lihat [halaman pembelian](https://purchase.aspose.com/buy) untuk lebih jelasnya.
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET pada sistem operasi yang berbeda?
 Ya, Aspose.Words untuk .NET bersifat lintas platform dan dapat digunakan pada Windows, Linux, dan macOS.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
- Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi yang lengkap [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

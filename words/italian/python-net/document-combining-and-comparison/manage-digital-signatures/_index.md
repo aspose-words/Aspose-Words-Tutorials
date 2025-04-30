@@ -1,21 +1,23 @@
 ---
-title: Gestione delle firme digitali e dell'autenticità
-linktitle: Gestione delle firme digitali e dell'autenticità
-second_title: API di gestione dei documenti Python Aspose.Words
-description: Scopri come gestire le firme digitali e garantire l'autenticità dei documenti utilizzando Aspose.Words per Python. Guida passo passo con codice sorgente.
-weight: 17
-url: /it/python-net/document-combining-and-comparison/manage-digital-signatures/
+"description": "Scopri come gestire le firme digitali e garantire l'autenticità dei documenti utilizzando Aspose.Words per Python. Guida passo passo con codice sorgente."
+"linktitle": "Gestione delle firme digitali e dell'autenticità"
+"second_title": "API di gestione dei documenti Python Aspose.Words"
+"title": "Gestione delle firme digitali e dell'autenticità"
+"url": "/it/python-net/document-combining-and-comparison/manage-digital-signatures/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gestione delle firme digitali e dell'autenticità
 
 ## Introduzione alle firme digitali
 
-Le firme digitali servono come equivalenti elettronici delle firme manoscritte. Forniscono un modo per verificare l'autenticità, l'integrità e l'origine dei documenti elettronici. Quando un documento è firmato digitalmente, viene generato un hash crittografico basato sul contenuto del documento. Questo hash viene quindi crittografato utilizzando la chiave privata del firmatario, creando la firma digitale. Chiunque abbia la chiave pubblica corrispondente può verificare la firma e accertare l'autenticità del documento.
+Le firme digitali sono l'equivalente elettronico delle firme autografe. Forniscono un modo per verificare l'autenticità, l'integrità e l'origine dei documenti elettronici. Quando un documento viene firmato digitalmente, viene generato un hash crittografico basato sul contenuto del documento. Questo hash viene quindi crittografato utilizzando la chiave privata del firmatario, creando la firma digitale. Chiunque disponga della chiave pubblica corrispondente può verificare la firma e accertare l'autenticità del documento.
 
 ## Impostazione di Aspose.Words per Python
 
@@ -80,7 +82,7 @@ sign_options.sign_time = datetime.datetime.now()
 
 ## Conclusione
 
-La gestione delle firme digitali e la garanzia dell'autenticità dei documenti sono essenziali nel panorama digitale odierno. Aspose.Words per Python semplifica il processo di aggiunta, verifica e personalizzazione delle firme digitali, consentendo agli sviluppatori di migliorare la sicurezza e l'affidabilità dei loro documenti.
+Gestire le firme digitali e garantire l'autenticità dei documenti è fondamentale nel panorama digitale odierno. Aspose.Words per Python semplifica il processo di aggiunta, verifica e personalizzazione delle firme digitali, consentendo agli sviluppatori di migliorare la sicurezza e l'affidabilità dei propri documenti.
 
 ## Domande frequenti
 
@@ -103,9 +105,14 @@ Aspose.Words supporta i certificati X.509, inclusi i file PFX, comunemente utili
 ### Le firme digitali sono legalmente valide?
 
 Sì, le firme digitali sono legalmente valide in molti Paesi e sono spesso considerate equivalenti alle firme autografe.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

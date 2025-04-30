@@ -1,14 +1,16 @@
 ---
-title: Вставить ASKField без конструктора документов
-linktitle: Вставить ASKField без конструктора документов
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставить поле ASK без использования Document Builder в Aspose.Words для .NET. Следуйте этому руководству, чтобы динамически улучшить ваши документы Word.
-weight: 10
-url: /ru/net/working-with-fields/insert-askfield-with-out-document-builder/
+"description": "Узнайте, как вставить поле ASK без использования Document Builder в Aspose.Words для .NET. Следуйте этому руководству, чтобы динамически улучшить ваши документы Word."
+"linktitle": "Вставить ASKField без конструктора документов"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить ASKField без конструктора документов"
+"url": "/ru/net/working-with-fields/insert-askfield-with-out-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить ASKField без конструктора документов
@@ -21,7 +23,7 @@ url: /ru/net/working-with-fields/insert-askfield-with-out-document-builder/
 
 Прежде чем приступить к написанию кода, давайте убедимся, что у нас все настроено:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас установлена эта библиотека. Если нет, вы можете загрузить ее с[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлена эта библиотека. Если нет, вы можете загрузить ее с [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: подходящая IDE, например Visual Studio.
 3. .NET Framework: Убедитесь, что у вас установлен .NET Framework.
 
@@ -97,7 +99,7 @@ field.Update();
 
 Эта команда гарантирует, что наше поле ASK готово и правильно настроено в документе.
 
-## Шаг 6: Сохраните документ
+## Шаг 6: Сохраните документ.
 
 Наконец, сохраним документ в указанном нами каталоге:
 
@@ -119,17 +121,22 @@ doc.Save(dataDir + "InsertionChampASKSansDocumentBuilder.docx");
 ### Могу ли я использовать несколько полей ASK в одном документе?
 Да, вы можете вставить в документ несколько полей ASK, каждое из которых будет содержать уникальные запросы и ответы.
 
-###  Какова цель`PromptOnceOnMailMerge` property?
- The`PromptOnceOnMailMerge` Свойство определяет, будет ли запрос ASK появляться только один раз во время операции слияния почты или каждый раз.
+### Какова цель `PromptOnceOnMailMerge` свойство?
+The `PromptOnceOnMailMerge` Свойство определяет, будет ли запрос ASK появляться только один раз во время операции слияния почты или каждый раз.
 
 ### Нужно ли обновлять поле ASK после настройки его свойств?
 Да, обновление поля ASK гарантирует, что все свойства будут применены правильно и поле будет функционировать должным образом.
 
 ### Могу ли я настроить текст подсказки и ответ по умолчанию?
 Конечно! Вы можете задать собственный текст подсказки и ответы по умолчанию, чтобы настроить поле ASK под свои конкретные потребности.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

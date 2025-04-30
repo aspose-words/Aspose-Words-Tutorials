@@ -1,14 +1,16 @@
 ---
-title: การปกป้องเอกสารใน Aspose.Words สำหรับ Java
-linktitle: การคุ้มครองเอกสาร
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีรักษาความปลอดภัยเอกสาร Java Word ของคุณด้วย Aspose.Words สำหรับ Java ปกป้องข้อมูลของคุณด้วยรหัสผ่านและอื่นๆ อีกมากมาย
-weight: 22
-url: /th/java/document-manipulation/protecting-documents/
+"description": "เรียนรู้วิธีรักษาความปลอดภัยเอกสาร Java Word ของคุณด้วย Aspose.Words สำหรับ Java ปกป้องข้อมูลของคุณด้วยรหัสผ่านและอื่นๆ อีกมากมาย"
+"linktitle": "การคุ้มครองเอกสาร"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การปกป้องเอกสารใน Aspose.Words สำหรับ Java"
+"url": "/th/java/document-manipulation/protecting-documents/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การปกป้องเอกสารใน Aspose.Words สำหรับ Java
@@ -38,7 +40,7 @@ Document doc = new Document("Your Directory Path" + "Document.docx");
 doc.unprotect();
 ```
 
- การ`unprotect` วิธีการนี้จะลบการป้องกันใดๆ ที่ใช้กับเอกสาร ทำให้สามารถเข้าถึงได้โดยไม่ต้องใช้รหัสผ่าน
+การ `unprotect` วิธีการนี้จะลบการป้องกันใดๆ ที่ใช้กับเอกสาร ทำให้สามารถเข้าถึงได้โดยไม่ต้องใช้รหัสผ่าน
 
 ## การตรวจสอบประเภทการป้องกันเอกสาร
 
@@ -49,7 +51,7 @@ Document doc = new Document("Your Directory Path" + "Document.docx");
 int protectionType = doc.getProtectionType();
 ```
 
- การ`getProtectionType` วิธีการส่งคืนค่าจำนวนเต็มที่แสดงถึงประเภทการป้องกันที่ใช้กับเอกสาร
+การ `getProtectionType` วิธีการส่งคืนค่าจำนวนเต็มที่แสดงถึงประเภทการป้องกันที่ใช้กับเอกสาร
 
 
 ## บทสรุป
@@ -60,11 +62,11 @@ int protectionType = doc.getProtectionType();
 
 ### ฉันจะป้องกันเอกสารโดยไม่ต้องใช้รหัสผ่านได้อย่างไร
 
- หากคุณต้องการปกป้องเอกสารโดยไม่ต้องใช้รหัสผ่าน คุณสามารถใช้ประเภทการป้องกันอื่นๆ ได้ เช่น`ProtectionType.NO_PROTECTION` หรือ`ProtectionType.READ_ONLY`.
+หากคุณต้องการปกป้องเอกสารโดยไม่ต้องใช้รหัสผ่าน คุณสามารถใช้ประเภทการป้องกันอื่นๆ ได้ เช่น `ProtectionType.NO_PROTECTION` หรือ `ProtectionType-READ_ONLY`.
 
 ### ฉันสามารถเปลี่ยนรหัสผ่านสำหรับเอกสารที่ได้รับการป้องกันได้หรือไม่
 
-ใช่ คุณสามารถเปลี่ยนรหัสผ่านสำหรับเอกสารที่ได้รับการป้องกันได้โดยใช้`protect` วิธีการด้วยรหัสผ่านใหม่
+ใช่ คุณสามารถเปลี่ยนรหัสผ่านสำหรับเอกสารที่ได้รับการป้องกันได้โดยใช้ `protect` วิธีการด้วยรหัสผ่านใหม่
 
 ### จะเกิดอะไรขึ้นหากฉันลืมรหัสผ่านสำหรับเอกสารที่ได้รับการป้องกัน?
 
@@ -77,9 +79,14 @@ int protectionType = doc.getProtectionType();
 ### สามารถป้องกันเอกสารในรูปแบบอื่นเช่น PDF หรือ HTML ได้หรือไม่
 
 Aspose.Words สำหรับ Java จัดการเอกสาร Word เป็นหลัก แต่คุณสามารถแปลงเอกสารของคุณเป็นรูปแบบอื่นเช่น PDF หรือ HTML จากนั้นใช้การป้องกันหากจำเป็น
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

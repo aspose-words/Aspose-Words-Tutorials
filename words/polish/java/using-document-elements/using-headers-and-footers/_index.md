@@ -1,14 +1,16 @@
 ---
-title: Używanie nagłówków i stopek w Aspose.Words dla Java
-linktitle: Korzystanie z nagłówków i stopek
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się krok po kroku, jak używać nagłówków i stopek w Aspose.Words dla Java. Twórz profesjonalne dokumenty bez wysiłku.
-weight: 16
-url: /pl/java/using-document-elements/using-headers-and-footers/
+"description": "Dowiedz się krok po kroku, jak używać nagłówków i stopek w Aspose.Words dla Java. Twórz profesjonalne dokumenty bez wysiłku."
+"linktitle": "Korzystanie z nagłówków i stopek"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Używanie nagłówków i stopek w Aspose.Words dla Java"
+"url": "/pl/java/using-document-elements/using-headers-and-footers/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Używanie nagłówków i stopek w Aspose.Words dla Java
@@ -24,7 +26,7 @@ Aspose.Words to potężne API Java, które umożliwia programowe tworzenie, mani
 
 ## 2. Konfigurowanie środowiska Java
 
- Zanim zaczniesz używać Aspose.Words, upewnij się, że Twoje środowisko programistyczne Java jest poprawnie skonfigurowane. Niezbędne instrukcje konfiguracji znajdziesz na stronie dokumentacji Aspose.Words:[Dokumentacja Aspose.Words Java](https://reference.aspose.com/words/java/).
+Zanim zaczniesz używać Aspose.Words, upewnij się, że Twoje środowisko programistyczne Java jest poprawnie skonfigurowane. Niezbędne instrukcje konfiguracji znajdziesz na stronie dokumentacji Aspose.Words: [Dokumentacja Aspose.Words Java](https://reference.aspose.com/words/java/).
 
 ## 3. Tworzenie nowego dokumentu
 
@@ -39,7 +41,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## 4. Zrozumienie ustawień strony
 
- Ustawienia strony są kluczowe dla kontrolowania układu dokumentu. Możesz określić różne właściwości związane z nagłówkami i stopkami za pomocą`PageSetup` klasa. Na przykład:
+Ustawienia strony są kluczowe dla kontrolowania układu dokumentu. Możesz określić różne właściwości związane z nagłówkami i stopkami za pomocą `PageSetup` klasa. Na przykład:
 
 ```java
 // Konfigurowanie właściwości strony
@@ -51,13 +53,13 @@ pageSetup.setHeaderDistance(20.0);
 
 ## 5. Inny nagłówek/stopka pierwszej strony
 
-Aspose.Words pozwala na posiadanie różnych nagłówków i stopek dla pierwszej strony dokumentu. Użyj`pageSetup.setDifferentFirstPageHeaderFooter(true);` aby włączyć tę funkcję.
+Aspose.Words pozwala na posiadanie różnych nagłówków i stopek dla pierwszej strony dokumentu. Użyj `pageSetup.setDifferentFirstPageHeaderFooter(true);` aby włączyć tę funkcję.
 
 ## 6. Praca z nagłówkami
 
 ### 6.1. Dodawanie tekstu do nagłówków
 
- Możesz dodać tekst do nagłówków za pomocą`DocumentBuilder`Oto przykład:
+Możesz dodać tekst do nagłówków za pomocą `DocumentBuilder`Oto przykład:
 
 ```java
 // Dodawanie tekstu do nagłówka pierwszej strony
@@ -71,7 +73,7 @@ builder.write("Aspose.Words Header/Footer Creation Primer - Title Page.");
 
 ### 6.2. Wstawianie obrazów do nagłówków
 
- Aby wstawić obrazy do nagłówków, możesz użyć`insertImage` metoda. Oto przykład:
+Aby wstawić obrazy do nagłówków, możesz użyć `insertImage` metoda. Oto przykład:
 
 ```java
 // Wstawianie obrazu do nagłówka
@@ -87,7 +89,7 @@ Możesz dostosować style nagłówka, ustawiając różne właściwości, takie 
 
 ### 7.1. Dodawanie tekstu do stopek
 
- Podobnie jak w przypadku nagłówków, do stopek można dodawać tekst za pomocą`DocumentBuilder`Oto przykład:
+Podobnie jak w przypadku nagłówków, do stopek można dodawać tekst za pomocą `DocumentBuilder`Oto przykład:
 
 ```java
 // Dodawanie tekstu do stopki głównej
@@ -97,15 +99,15 @@ builder.moveToHeaderFooter(HeaderFooterType.FOOTER_PRIMARY);
 
 ### 7.2. Wstawianie obrazków do stopek
 
- Aby wstawić obrazy do stopek, użyj`insertImage` metody, podobnie jak w nagłówkach.
+Aby wstawić obrazy do stopek, użyj `insertImage` metody, podobnie jak w nagłówkach.
 
 ### 7.3. Dostosowywanie stylów stopki
 
- Dostosuj style stopki za pomocą`DocumentBuilder`podobnie jak dostosowywanie nagłówków.
+Dostosuj style stopki za pomocą `DocumentBuilder`, podobnie jak dostosowywanie nagłówków.
 
 ## 8. Numerowanie stron
 
- Numery stron można umieszczać w nagłówkach i stopkach za pomocą pól takich jak:`PAGE` I`NUMPAGES`. Pola te są automatycznie aktualizowane w miarę dodawania i usuwania stron.
+Numery stron można umieszczać w nagłówkach i stopkach za pomocą pól takich jak: `PAGE` I `NUMPAGES`. Pola te są automatycznie aktualizowane w miarę dodawania i usuwania stron.
 
 ## 9. Informacje o prawach autorskich w stopkach
 
@@ -125,7 +127,7 @@ Kopiowanie nagłówków i stopek z poprzednich sekcji może zaoszczędzić czas 
 
 ## 13. Zapisywanie dokumentu
 
-Po utworzeniu i dostosowaniu dokumentu nie zapomnij go zapisać za pomocą`doc.save()` metoda.
+Po utworzeniu i dostosowaniu dokumentu nie zapomnij go zapisać za pomocą `doc.save()` metoda.
 
 ## Kompletny kod źródłowy
 ```java
@@ -153,7 +155,7 @@ Po utworzeniu i dostosowaniu dokumentu nie zapomnij go zapisać za pomocą`doc.s
         builder.getParagraphFormat().setAlignment(ParagraphAlignment.RIGHT);
         builder.write("Aspose.Words Header/Footer Creation Primer.");
         builder.moveToHeaderFooter(HeaderFooterType.FOOTER_PRIMARY);
-        // Używamy tabeli z dwiema komórkami, aby utworzyć jedną część tekstu w wierszu (z numeracją stron).
+        // Używamy tabeli składającej się z dwóch komórek, aby utworzyć jedną część tekstu w wierszu (z numeracją stron).
         // Należy wyrównać do lewej, a pozostałą część tekstu (z prawami autorskimi) do prawej.
         builder.startTable();
         builder.getCellFormat().clearFormatting();
@@ -179,7 +181,7 @@ Po utworzeniu i dostosowaniu dokumentu nie zapomnij go zapisać za pomocą`doc.s
         pageSetup = currentSection.getPageSetup();
         pageSetup.setOrientation(Orientation.LANDSCAPE);
         // Ta sekcja nie wymaga odrębnego nagłówka/stopki na pierwszej stronie, w dokumencie potrzebujemy tylko jednej strony tytułowej,
-        // nagłówek/stopka tej strony zostały już zdefiniowane w poprzedniej sekcji.
+        // a nagłówek/stopka tej strony została już zdefiniowana w poprzedniej sekcji.
         pageSetup.setDifferentFirstPageHeaderFooter(false);
         // W tej sekcji wyświetlane są nagłówki/stopki z poprzedniej sekcji
         // domyślnie wywołaj currentSection.HeadersFooters.LinkToPrevious(false), aby anulować tę szerokość strony
@@ -187,7 +189,7 @@ Po utworzeniu i dostosowaniu dokumentu nie zapomnij go zapisać za pomocą`doc.s
         currentSection.getHeadersFooters().linkToPrevious(false);
         // Jeśli chcemy wykorzystać już istniejący zestaw nagłówków/stopek dla tej sekcji.
         // Ale po wprowadzeniu drobnych modyfikacji może być wskazane skopiowanie nagłówków i stopek
-        // z poprzedniej sekcji i zastosuj niezbędne modyfikacje tam, gdzie ich chcemy.
+        // z poprzedniej sekcji i zastosuj niezbędne modyfikacje tam, gdzie ich potrzebujemy.
         copyHeadersFootersFromPreviousSection(currentSection);
         HeaderFooter primaryFooter = currentSection.getHeadersFooters().getByHeaderFooterType(HeaderFooterType.FOOTER_PRIMARY);
         Row row = primaryFooter.getTables().get(0).getFirstRow();
@@ -198,7 +200,7 @@ Po utworzeniu i dostosowaniu dokumentu nie zapomnij go zapisać za pomocą`doc.s
 Kod źródłowy metody copyHeadersFootersFromPreviousSection
 ```java
     /// <podsumowanie>
-    /// Klonuje i kopiuje nagłówki/stopki z poprzedniej sekcji do określonej sekcji.
+    //Klonuje i kopiuje nagłówki/stopki z poprzedniej sekcji do określonej sekcji.
     /// </podsumowanie>
     private void copyHeadersFootersFromPreviousSection(Section section)
     {
@@ -213,14 +215,14 @@ Kod źródłowy metody copyHeadersFootersFromPreviousSection
 
 ## Wniosek
 
-tym samouczku omówiliśmy podstawy pracy z nagłówkami i stopkami w Aspose.Words for Java. Nauczyłeś się, jak tworzyć, dostosowywać i stylizować nagłówki i stopki, a także innych podstawowych technik formatowania dokumentów.
+W tym samouczku omówiliśmy podstawy pracy z nagłówkami i stopkami w Aspose.Words for Java. Nauczyłeś się, jak tworzyć, dostosowywać i stylizować nagłówki i stopki, a także innych podstawowych technik formatowania dokumentów.
 
- Więcej szczegółów i zaawansowanych funkcji znajdziesz w[Dokumentacja Aspose.Words Java](https://reference.aspose.com/words/java/).
+Więcej szczegółów i zaawansowanych funkcji znajdziesz w [Dokumentacja Aspose.Words Java](https://reference.aspose.com/words/java/).
 
 ## Często zadawane pytania
 
 ### 1. Jak mogę dodać numery stron do stopki dokumentu?
- Możesz dodać numery stron, wstawiając`PAGE` pole do stopki za pomocą Aspose.Words.
+Możesz dodać numery stron, wstawiając `PAGE` pole do stopki za pomocą Aspose.Words.
 
 ### 2. Czy Aspose.Words jest kompatybilny ze środowiskami programistycznymi Java?
 Tak, Aspose.Words zapewnia wsparcie dla rozwoju Java. Upewnij się, że masz niezbędne ustawienia.
@@ -228,14 +230,19 @@ Tak, Aspose.Words zapewnia wsparcie dla rozwoju Java. Upewnij się, że masz nie
 ### 3. Czy mogę dostosować czcionkę i styl nagłówków i stopek?
 Oczywiście, możesz dostosować czcionki, wyrównanie i inne style, aby Twoje nagłówki i stopki wyglądały atrakcyjnie.
 
-### 4. Czy możliwe jest posiadanie różnych nagłówków dla stron nieparzystych i parzystych?
- Tak, możesz użyć`PageSetup.OddAndEvenPagesHeaderFooter` aby określić różne nagłówki dla stron nieparzystych i parzystych.
+### 4. Czy możliwe jest ustawienie różnych nagłówków dla stron nieparzystych i parzystych?
+Tak, możesz użyć `PageSetup.OddAndEvenPagesHeaderFooter` aby określić różne nagłówki dla stron nieparzystych i parzystych.
 
 ### 5. Jak rozpocząć pracę z Aspose.Words dla Java?
- Aby rozpocząć, odwiedź[Dokumentacja Aspose.Words Java](https://reference.aspose.com/words/java/) aby uzyskać kompleksowe wskazówki dotyczące korzystania z API.
+Aby rozpocząć, odwiedź [Dokumentacja Aspose.Words Java](https://reference.aspose.com/words/java/) aby uzyskać kompleksowe wskazówki dotyczące korzystania z API.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

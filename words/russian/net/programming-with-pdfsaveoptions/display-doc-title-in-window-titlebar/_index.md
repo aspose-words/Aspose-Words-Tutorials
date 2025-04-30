@@ -1,14 +1,16 @@
 ---
-title: Отображение заголовка документа в заголовке окна
-linktitle: Отображение заголовка документа в заголовке окна
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как отобразить заголовок документа в строке заголовка окна PDF-файлов с помощью Aspose.Words для .NET, следуя этому пошаговому руководству.
-weight: 10
-url: /ru/net/programming-with-pdfsaveoptions/display-doc-title-in-window-titlebar/
+"description": "Узнайте, как отобразить заголовок документа в строке заголовка окна PDF-файлов с помощью Aspose.Words для .NET, следуя этому пошаговому руководству."
+"linktitle": "Отображение заголовка документа в заголовке окна"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Отображение заголовка документа в заголовке окна"
+"url": "/ru/net/programming-with-pdfsaveoptions/display-doc-title-in-window-titlebar/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Отображение заголовка документа в заголовке окна
@@ -19,9 +21,9 @@ url: /ru/net/programming-with-pdfsaveoptions/display-doc-title-in-window-titleba
 
 ## Предпосылки
 
-Прежде чем приступить к выполнению шагов, давайте убедимся, что у вас есть все необходимое:
+Прежде чем приступить к действиям, давайте убедимся, что у вас есть все необходимое:
 
--  Библиотека Aspose.Words for .NET: Вы можете загрузить ее[здесь](https://releases.aspose.com/words/net/).
+- Библиотека Aspose.Words for .NET: Вы можете загрузить ее [здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: Visual Studio или любая другая совместимая IDE.
 - Базовые знания C#: Мы будем писать код на C#.
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- На этом шаге вы указываете путь к вашему документу. Заменить`"YOUR DOCUMENT DIRECTORY"` с фактическим путем хранения вашего документа.
+На этом шаге вы указываете путь к вашему документу. Заменить `"YOUR DOCUMENT DIRECTORY"` с фактическим путем хранения вашего документа.
 
 ## Шаг 2: Настройте параметры сохранения PDF-файла
 
@@ -60,7 +62,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Установив`DisplayDocTitle` к`true`, мы указываем Aspose.Words использовать заголовок документа в строке заголовка окна PDF-файла.
+Установив `DisplayDocTitle` к `true`, мы указываем Aspose.Words использовать заголовок документа в строке заголовка окна PDF-файла.
 
 ## Шаг 3: Сохраните документ как PDF-файл.
 
@@ -70,7 +72,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.DisplayDocTitleInWindowTitlebar.pdf", saveOptions);
 ```
 
-Эта строка кода сохраняет ваш документ в формате PDF с заголовком, отображаемым в строке заголовка. Опять же, не забудьте заменить`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу.
+Эта строка кода сохраняет ваш документ в формате PDF с заголовком, отображаемым в строке заголовка. Опять же, не забудьте заменить `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу.
 
 ## Заключение
 
@@ -91,11 +93,16 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.DisplayDocTitleInWindowTitlebar.pd
 Да, вы можете конвертировать различные форматы файлов, такие как DOCX, RTF, HTML и другие, в PDF с помощью Aspose.Words для .NET.
 
 ### Как мне получить поддержку, если у меня возникнут проблемы?
- Вы можете посетить[Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8) для получения помощи по любым вопросам или проблемам, которые могут у вас возникнуть.
+Вы можете посетить [Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8) для получения помощи по любым вопросам или проблемам, которые могут у вас возникнуть.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

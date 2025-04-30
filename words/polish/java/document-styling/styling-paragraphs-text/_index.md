@@ -1,14 +1,16 @@
 ---
-title: Stylizowanie akapitów i tekstu w dokumentach
-linktitle: Stylizowanie akapitów i tekstu w dokumentach
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak stylizować akapity i tekst w dokumentach za pomocą Aspose.Words for Java. Przewodnik krok po kroku z kodem źródłowym do efektywnego formatowania dokumentów.
-weight: 11
-url: /pl/java/document-styling/styling-paragraphs-text/
+"description": "Dowiedz się, jak stylizować akapity i tekst w dokumentach za pomocą Aspose.Words for Java. Przewodnik krok po kroku z kodem źródłowym do efektywnego formatowania dokumentów."
+"linktitle": "Stylizowanie akapitów i tekstu w dokumentach"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Stylizowanie akapitów i tekstu w dokumentach"
+"url": "/pl/java/document-styling/styling-paragraphs-text/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Stylizowanie akapitów i tekstu w dokumentach
@@ -23,7 +25,7 @@ Aspose.Words for Java to biblioteka Java, która umożliwia programistom pracę 
 
 ## Konfigurowanie środowiska programistycznego
 
-Zanim zagłębimy się w aspekty kodowania, kluczowe jest skonfigurowanie środowiska programistycznego. Upewnij się, że masz zainstalowaną Javę, a następnie pobierz i skonfiguruj bibliotekę Aspose.Words for Java. Szczegółowe instrukcje instalacji znajdziesz w[dokumentacja](https://reference.aspose.com/words/java/).
+Zanim zagłębimy się w aspekty kodowania, kluczowe jest skonfigurowanie środowiska programistycznego. Upewnij się, że masz zainstalowaną Javę, a następnie pobierz i skonfiguruj bibliotekę Aspose.Words for Java. Szczegółowe instrukcje instalacji znajdziesz w [dokumentacja](https://reference.aspose.com/words/java/).
 
 ## Tworzenie nowego dokumentu
 
@@ -125,7 +127,7 @@ W tym kodzie stosujemy styl „Nagłówek 1” do akapitu, który automatycznie 
 
 ## Praca z czcionkami i kolorami
 
-Dostrajanie wyglądu tekstu często wiąże się z modyfikowaniem czcionek i kolorów. Aspose.Words for Java oferuje rozbudowane opcje zarządzania czcionkami i kolorami. Oto przykład zmiany rozmiaru i koloru czcionki:
+Dostrajanie wyglądu tekstu często wiąże się z modyfikowaniem czcionek i kolorów. Aspose.Words for Java zapewnia rozbudowane opcje zarządzania czcionkami i kolorami. Oto przykład zmiany rozmiaru i koloru czcionki:
 
 ```java
 // Utwórz nowy dokument
@@ -148,7 +150,7 @@ doc.getFirstSection().getBody().appendChild(para);
 doc.save("FontAndColorDocument.docx");
 ```
 
-W tym kodzie dostosowujemy rozmiar czcionki i kolor tekstu w akapicie.
+tym kodzie dostosowujemy rozmiar czcionki i kolor tekstu w akapicie.
 
 ## Zarządzanie wyrównaniem i odstępami
 
@@ -299,7 +301,7 @@ builder.write("Row 1, Col 2");
 builder.endRow();
 
 // Zmiana formatowania spowoduje jego zastosowanie do bieżącej komórki,
-// i wszystkie nowe komórki, które później utworzymy za pomocą konstruktora.
+// i wszelkie nowe komórki, które później utworzymy za pomocą konstruktora.
 // Nie będzie to miało wpływu na komórki, które dodaliśmy wcześniej.
 builder.getCellFormat().getShading().clearFormatting();
 
@@ -399,7 +401,7 @@ Najnowszą wersję Aspose.Words dla Javy można znaleźć na stronie internetowe
 Tak, Aspose.Words for Java jest kompatybilny z Java 11 i nowszymi wersjami.
 
 ### Jak mogę ustawić marginesy strony dla określonych sekcji dokumentu?
- Możesz ustawić marginesy strony dla określonych sekcji dokumentu za pomocą`PageSetup` klasa. Oto przykład:
+Możesz ustawić marginesy strony dla określonych sekcji dokumentu za pomocą `PageSetup` klasa. Oto przykład:
 
 ```java
 Section section = doc.getSections().get(0); // Pobierz pierwszą sekcję
@@ -415,9 +417,14 @@ pageSetup.setBottomMargin(72); // Dolny margines w punktach
 tym kompleksowym przewodniku zbadaliśmy potężne możliwości Aspose.Words for Java do stylizowania akapitów i tekstu w dokumentach. Nauczyłeś się, jak programowo tworzyć, formatować i ulepszać dokumenty, od podstawowej manipulacji tekstem po zaawansowane funkcje. Aspose.Words for Java umożliwia programistom wydajną automatyzację zadań formatowania dokumentów. Ćwicz i eksperymentuj z różnymi funkcjami, aby stać się biegłym w stylizowaniu dokumentów za pomocą Aspose.Words for Java.
 
 Teraz, gdy masz solidne zrozumienie tego, jak stylizować akapity i tekst w dokumentach za pomocą Aspose.Words for Java, jesteś gotowy, aby tworzyć pięknie sformatowane dokumenty dostosowane do Twoich konkretnych potrzeb. Miłego kodowania!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,27 +1,29 @@
 ---
-title: Word'de Belge Stilleri Alın
-linktitle: Word'de Belge Stilleri Alın
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı adım adım eğitimle Aspose.Words for .NET kullanarak Word'de belge stilleri edinmeyi öğrenin. .NET uygulamalarınızda stillere programlı olarak erişin ve yönetin.
-weight: 10
-url: /tr/net/programming-with-styles-and-themes/access-styles/
+"description": "Bu ayrıntılı adım adım eğitimle Aspose.Words for .NET kullanarak Word'de belge stilleri edinmeyi öğrenin. .NET uygulamalarınızda stillere programlı olarak erişin ve yönetin."
+"linktitle": "Word'de Belge Stilleri Alın"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word'de Belge Stilleri Alın"
+"url": "/tr/net/programming-with-styles-and-themes/access-styles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word'de Belge Stilleri Alın
 
 ## giriiş
 
-Word'de belge stili dünyasına dalmaya hazır mısınız? İster karmaşık bir rapor hazırlıyor olun, ister özgeçmişinizi basitçe ayarlıyor olun, stillere nasıl erişeceğinizi ve bunları nasıl yöneteceğinizi anlamak oyunun kurallarını değiştirebilir. Bu eğitimde, Word belgeleriyle programlı olarak etkileşim kurmanızı sağlayan güçlü bir kütüphane olan Aspose.Words for .NET'i kullanarak belge stillerini nasıl edineceğinizi keşfedeceğiz.
+Word'de belge stili dünyasına dalmaya hazır mısınız? İster karmaşık bir rapor hazırlıyor olun, ister özgeçmişinizi basitçe ayarlıyor olun, stillere nasıl erişeceğinizi ve bunları nasıl yöneteceğinizi anlamak oyunun kurallarını değiştirebilir. Bu eğitimde, Word belgeleriyle programlı bir şekilde etkileşim kurmanızı sağlayan güçlü bir kütüphane olan Aspose.Words for .NET'i kullanarak belge stillerini nasıl edineceğinizi keşfedeceğiz.
 
 ## Ön koşullar
 
 Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET: Bu kütüphanenin .NET ortamınıza kurulu olması gerekir.[buradan indirin](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Bu kütüphanenin .NET ortamınıza kurulu olması gerekir. [buradan indirin](https://releases.aspose.com/words/net/).
 2. Temel .NET Bilgisi: C# veya başka bir .NET diline aşinalık, verilen kod parçacıklarını anlamanıza yardımcı olacaktır.
 3. Geliştirme Ortamı: .NET kodunu yazmak ve çalıştırmak için Visual Studio gibi bir IDE'nizin olduğundan emin olun.
 
@@ -36,13 +38,13 @@ using System;
 
 ## Adım 1: Yeni Bir Belge Oluşturun
 
-İlk olarak, bir örnek oluşturmanız gerekecek`Document` sınıf. Bu sınıf Word belgenizi temsil eder ve stiller de dahil olmak üzere çeşitli belge özelliklerine erişim sağlar.
+İlk olarak, bir örnek oluşturmanız gerekecek `Document` sınıf. Bu sınıf Word belgenizi temsil eder ve stiller de dahil olmak üzere çeşitli belge özelliklerine erişim sağlar.
 
 ```csharp
 Document doc = new Document();
 ```
 
- Burada,`Document` Aspose.Words tarafından sağlanan ve Word belgeleriyle programlı olarak çalışmanıza olanak sağlayan bir sınıftır.
+Burada, `Document` Aspose.Words tarafından sağlanan ve Word belgeleriyle programlı olarak çalışmanıza olanak sağlayan bir sınıftır.
 
 ## Adım 2: Stiller Koleksiyonuna Erişim
 
@@ -52,7 +54,7 @@ Belge nesneniz olduğunda, onun stil koleksiyonuna erişebilirsiniz. Bu koleksiy
 StyleCollection styles = doc.Styles;
 ```
 
-`StyleCollection` bir koleksiyondur`Style` nesneler. Her biri`Style` nesne, belge içindeki tek bir stili temsil eder.
+`StyleCollection` bir koleksiyondur `Style` nesneler. Her biri `Style` nesne, belge içindeki tek bir stili temsil eder.
 
 ## Adım 3: Stiller Arasında Yineleme Yapın
 
@@ -78,9 +80,9 @@ foreach (Style style in styles)
 
 Bu kodun ne işe yaradığının bir dökümü şöyle:
 
--  Başlat`styleName`: Stil adlarının listesini oluşturmak için boş bir dizeyle başlıyoruz.
--  Stiller arasında geçiş yapın:`foreach` döngü her biri üzerinde yineleme yapar`Style` içinde`styles` koleksiyon.
-- Güncelle ve Görüntüle`styleName` : Her stil için adını ekliyoruz`styleName` ve yazdırın.
+- Başlat `styleName`: Stil adlarının listesini oluşturmak için boş bir dizeyle başlıyoruz.
+- Stiller arasında geçiş yapın: `foreach` döngü her biri üzerinde yineleme yapar `Style` içinde `styles` koleksiyon.
+- Güncelle ve Görüntüle `styleName`: Her stil için adını ekliyoruz `styleName` ve yazdırın.
 
 ## Adım 4: Çıktıyı Özelleştirme
 
@@ -100,7 +102,7 @@ foreach (Style style in styles)
 }
 ```
 
- Bu örnekte, yerleşik ve özel stiller arasında, aşağıdakileri kontrol ederek ayrım yapıyoruz:`IsBuiltin` mülk.
+Bu örnekte, yerleşik ve özel stiller arasında, aşağıdakileri kontrol ederek ayrım yapıyoruz: `IsBuiltin` mülk.
 
 ## Çözüm
 
@@ -117,14 +119,19 @@ Hayır, Aspose.Words bağımsız bir kütüphanedir ve temel işlevsellik için 
 ### Zaten içeriği olan bir Word belgesinden stillere erişebilir miyim?
 Evet, hem mevcut belgelerdeki hem de yeni oluşturulan belgelerdeki stillere erişebilir ve bunları değiştirebilirsiniz.
 
-### Stilleri yalnızca belirli türleri gösterecek şekilde nasıl filtreleyebilirim?
- Özellikleri kontrol ederek stilleri filtreleyebilirsiniz.`IsBuiltin` veya stil niteliklerine dayalı özel mantık kullanarak.
+### Stilleri yalnızca belirli türleri görüntüleyecek şekilde nasıl filtreleyebilirim?
+Özellikleri kontrol ederek stilleri filtreleyebilirsiniz. `IsBuiltin` veya stil niteliklerine dayalı özel mantık kullanarak.
 
 ### Aspose.Words for .NET hakkında daha fazla kaynağı nerede bulabilirim?
- Daha fazlasını keşfedebilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Daha fazlasını keşfedebilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

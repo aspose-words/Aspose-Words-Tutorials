@@ -1,14 +1,16 @@
 ---
-title: Documenten samenvoegen en toevoegen in Aspose.Words voor Java
-linktitle: Documenten samenvoegen en toevoegen
-second_title: Aspose.Words Java Documentverwerkings-API
-description: Leer hoe u moeiteloos documenten kunt samenvoegen en toevoegen met Aspose.Words voor Java. Behoud opmaak, beheer headers, footers en meer.
-weight: 30
-url: /nl/java/document-manipulation/joining-and-appending-documents/
+"description": "Leer hoe je moeiteloos documenten kunt samenvoegen en toevoegen met Aspose.Words voor Java. Behoud opmaak, beheer kopteksten, voetteksten en meer."
+"linktitle": "Documenten samenvoegen en toevoegen"
+"second_title": "Aspose.Words Java Documentverwerking API"
+"title": "Documenten samenvoegen en toevoegen in Aspose.Words voor Java"
+"url": "/nl/java/document-manipulation/joining-and-appending-documents/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Documenten samenvoegen en toevoegen in Aspose.Words voor Java
@@ -16,7 +18,7 @@ url: /nl/java/document-manipulation/joining-and-appending-documents/
 
 ## Inleiding tot het samenvoegen en toevoegen van documenten in Aspose.Words voor Java
 
-In deze tutorial gaan we onderzoeken hoe je documenten kunt samenvoegen en toevoegen met behulp van de Aspose.Words for Java-bibliotheek. Je leert hoe je naadloos meerdere documenten kunt samenvoegen met behoud van opmaak en structuur.
+In deze tutorial onderzoeken we hoe je documenten kunt samenvoegen en toevoegen met behulp van de Aspose.Words for Java-bibliotheek. Je leert hoe je meerdere documenten naadloos kunt samenvoegen met behoud van opmaak en structuur.
 
 ## Vereisten
 
@@ -56,7 +58,7 @@ Document srcDoc = new Document("source.docx");
 Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 convertNumPageFieldsToPageRef(dstDoc); // Converteer NUMPAGES-velden
-dstDoc.updatePageLayout(); // Pagina-indeling bijwerken voor correcte nummering
+dstDoc.updatePageLayout(); // Werk de pagina-indeling bij voor correcte nummering
 ```
 
 ## Omgaan met verschillende pagina-instellingen
@@ -75,7 +77,7 @@ srcDoc.getFirstSection().getPageSetup().setRestartPageNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES);
 ```
 
-## Slimme Stijl Gedrag
+## Slimme stijlgedrag
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -98,7 +100,7 @@ importFormatOptions.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, importFormatOptions);
 ```
 
-## Tekstvakken verwerken
+## Omgaan met tekstvakken
 
 ```java
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
@@ -106,7 +108,7 @@ importFormatOptions.setIgnoreTextBoxes(false);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, importFormatOptions);
 ```
 
-## Kop- en voetteksten beheren
+## Kopteksten en voetteksten beheren
 
 ### Kopteksten en voetteksten koppelen
 
@@ -115,7 +117,7 @@ srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Kop- en voetteksten ontkoppelen
+### Kopteksten en voetteksten ontkoppelen
 
 ```java
 srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(false);
@@ -124,32 +126,37 @@ dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 
 ## Conclusie
 
-Aspose.Words voor Java biedt flexibele en krachtige tools voor het samenvoegen en toevoegen van documenten, of u nu opmaak wilt behouden, verschillende pagina-instellingen wilt verwerken of kop- en voetteksten wilt beheren. Experimenteer met deze technieken om aan uw specifieke documentverwerkingsbehoeften te voldoen.
+Aspose.Words voor Java biedt flexibele en krachtige tools voor het samenvoegen en toevoegen van documenten, of u nu de opmaak wilt behouden, verschillende pagina-instellingen wilt verwerken of kop- en voetteksten wilt beheren. Experimenteer met deze technieken om aan uw specifieke documentverwerkingsbehoeften te voldoen.
 
 ## Veelgestelde vragen
 
 ### Hoe kan ik documenten met verschillende stijlen naadloos samenvoegen?
 
- Om documenten met verschillende stijlen samen te voegen, gebruikt u`ImportFormatMode.USE_DESTINATION_STYLES` bij het toevoegen.
+Om documenten met verschillende stijlen samen te voegen, gebruikt u `ImportFormatMode.USE_DESTINATION_STYLES` bij het toevoegen.
 
 ### Kan ik de paginanummering behouden bij het toevoegen van documenten?
 
- Ja, u kunt de paginanummering behouden door de`convertNumPageFieldsToPageRef` methode en het bijwerken van de pagina-indeling.
+Ja, u kunt de paginanummering behouden door de `convertNumPageFieldsToPageRef` methode en het bijwerken van de pagina-indeling.
 
-### Wat is slim stijlgedrag?
+### Wat is Smart Style-gedrag?
 
- Smart Style Behavior helpt consistente stijlen te behouden bij het toevoegen van documenten. Gebruik het met`ImportFormatOptions` voor betere resultaten.
+Slim stijlgedrag helpt consistente stijlen te behouden bij het toevoegen van documenten. Gebruik het met `ImportFormatOptions` voor betere resultaten.
 
 ### Hoe kan ik tekstvakken verwerken bij het toevoegen van documenten?
 
-Set`importFormatOptions.setIgnoreTextBoxes(false)` om tekstvakken op te nemen tijdens het toevoegen.
+Set `importFormatOptions.setIgnoreTextBoxes(false)` om tekstvakken op te nemen tijdens het toevoegen.
 
-### Wat moet ik doen als ik kop- en voetteksten tussen documenten wil koppelen/ontkoppelen?
+### Wat moet ik doen als ik kopteksten en voetteksten tussen documenten wil koppelen/ontkoppelen?
 
- U kunt kop- en voetteksten koppelen met`linkToPrevious(true)` of ontkoppel ze met`linkToPrevious(false)` indien nodig.
+U kunt kop- en voetteksten koppelen met `linkToPrevious(true)` of ontkoppel ze met `linkToPrevious(false)` indien nodig.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

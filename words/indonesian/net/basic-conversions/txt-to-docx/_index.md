@@ -1,14 +1,16 @@
 ---
-title: Konversi File Teks Ke Dokumen Word
-linktitle: Konversi File Teks Ke Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengonversi berkas teks ke dokumen Word menggunakan Aspose.Words untuk .NET. Kelola konversi dokumen secara efisien dengan panduan lengkap kami.
-weight: 10
-url: /id/net/basic-conversions/txt-to-docx/
+"description": "Pelajari cara mengonversi berkas teks ke dokumen Word menggunakan Aspose.Words untuk .NET. Kelola konversi dokumen secara efisien dengan panduan lengkap kami."
+"linktitle": "Konversi File Teks Ke Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Konversi File Teks Ke Dokumen Word"
+"url": "/id/net/basic-conversions/txt-to-docx/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konversi File Teks Ke Dokumen Word
@@ -21,7 +23,7 @@ Mengonversi berkas teks ke dokumen Word merupakan persyaratan umum dalam aplikas
 
 Sebelum memulai, pastikan Anda memiliki hal berikut:
 - Microsoft Visual Studio terinstal di komputer Anda.
--  Pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - Pemahaman dasar tentang bahasa pemrograman C#.
 
 ## Mengimpor Ruang Nama
@@ -35,7 +37,7 @@ Mari kita telusuri langkah-langkah untuk mengonversi berkas teks ke dokumen Word
 
 ### Langkah 1: Muat File Teks
 
- Pertama, muat file teks ke Aspose.Words`Document` obyek:
+Pertama, muat file teks ke Aspose.Words `Document` obyek:
 ```csharp
 // Tentukan jalur direktori tempat file teks Anda berada
 string dataDir = "YOUR_DOCUMENT_DIRECTORY/";
@@ -71,10 +73,15 @@ Ya, Aspose.Words mendukung berbagai kerangka kerja .NET, memastikan kompatibilit
 Ya, Anda dapat memproses beberapa file teks secara batch menggunakan API Aspose.Words untuk menyederhanakan tugas konversi dokumen Anda.
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Words?
- Kunjungi[Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) Dan[forum dukungan](https://forum.aspose.com/c/words/8) untuk informasi dan bantuan lebih lanjut.
+Kunjungi [Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) Dan [forum dukungan](https://forum.aspose.com/c/words/8) untuk informasi dan bantuan lebih lanjut.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,57 +1,59 @@
 ---
-title: Gerar tabela a partir de Datatable
-linktitle: Gerar tabela a partir de Datatable
-second_title: API de processamento de documentos Java Aspose.Words
-description: Aprenda a gerar uma tabela a partir de uma DataTable usando Aspose.Words para Java. Crie documentos profissionais do Word com tabelas formatadas sem esforço.
-weight: 11
-url: /pt/java/table-processing/generate-table-from-datatable/
+"description": "Aprenda a gerar uma tabela a partir de uma DataTable usando o Aspose.Words para Java. Crie documentos profissionais do Word com tabelas formatadas sem esforço."
+"linktitle": "Gerar tabela a partir de tabela de dados"
+"second_title": "API de processamento de documentos Java Aspose.Words"
+"title": "Gerar tabela a partir de tabela de dados"
+"url": "/pt/java/table-processing/generate-table-from-datatable/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gerar tabela a partir de Datatable
+# Gerar tabela a partir de tabela de dados
 
 ## Introdução
 
-Criar tabelas dinamicamente a partir de fontes de dados é uma tarefa comum em muitos aplicativos. Quer você esteja gerando relatórios, faturas ou resumos de dados, ser capaz de preencher uma tabela com dados programaticamente pode economizar muito tempo e esforço. Neste tutorial, exploraremos como gerar uma tabela a partir de uma DataTable usando Aspose.Words para Java. Dividiremos o processo em etapas gerenciáveis, garantindo que você tenha um entendimento claro de cada parte.
+Criar tabelas dinamicamente a partir de fontes de dados é uma tarefa comum em muitas aplicações. Seja gerando relatórios, faturas ou resumos de dados, poder preencher uma tabela com dados programaticamente pode economizar muito tempo e esforço. Neste tutorial, exploraremos como gerar uma tabela a partir de uma DataTable usando o Aspose.Words para Java. Dividiremos o processo em etapas gerenciáveis, garantindo que você tenha uma compreensão clara de cada parte.
 
 ## Pré-requisitos
 
 Antes de mergulhar no código, vamos garantir que você tenha tudo o que precisa para começar:
 
-1.  Java Development Kit (JDK): Certifique-se de ter o JDK instalado em sua máquina. Você pode baixá-lo do[Site da Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+1. Java Development Kit (JDK): Certifique-se de ter o JDK instalado em sua máquina. Você pode baixá-lo do site [Site da Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
    
-2.  Aspose.Words para Java: Você precisará da biblioteca Aspose.Words. Você pode baixar a versão mais recente em[Página de lançamentos da Aspose](https://releases.aspose.com/words/java/).
+2. Aspose.Words para Java: Você precisará da biblioteca Aspose.Words. Você pode baixar a versão mais recente em [Página de lançamentos da Aspose](https://releases.aspose.com/words/java/).
 
 3. IDE: Um Ambiente de Desenvolvimento Integrado (IDE) como IntelliJ IDEA ou Eclipse tornará a codificação mais fácil.
 
 4. Conhecimento básico de Java: a familiaridade com os conceitos de programação Java ajudará você a entender melhor os trechos de código.
 
-5. Dados de exemplo: Para este tutorial, usaremos um arquivo XML chamado "List of people.xml" para simular uma fonte de dados. Você pode criar este arquivo com dados de exemplo para teste.
+5. Dados de exemplo: Neste tutorial, usaremos um arquivo XML chamado "Lista de pessoas.xml" para simular uma fonte de dados. Você pode criar este arquivo com dados de exemplo para teste.
 
-## Etapa 1: Crie um novo documento
+## Etapa 1: Criar um novo documento
 
-Primeiro, precisamos criar um novo documento onde nossa tabela residirá. Esta é a tela para nosso trabalho.
+Primeiro, precisamos criar um novo documento onde nossa tabela ficará. Esta será a tela para o nosso trabalho.
 
 ```java
 Document doc = new Document();
 ```
 
- Aqui, instanciamos um novo`Document` objeto. Isso servirá como nosso documento de trabalho onde construiremos nossa tabela.
+Aqui, instanciamos um novo `Document` objeto. Este servirá como nosso documento de trabalho, onde construiremos nossa tabela.
 
 ## Etapa 2: Inicializar o DocumentBuilder
 
- A seguir, usaremos o`DocumentBuilder` classe, o que nos permite manipular o documento com mais facilidade.
+A seguir, usaremos o `DocumentBuilder` classe, que nos permite manipular o documento mais facilmente.
 
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- O`DocumentBuilder` objeto fornece métodos para inserir tabelas, texto e outros elementos no documento.
+O `DocumentBuilder` objeto fornece métodos para inserir tabelas, texto e outros elementos no documento.
 
-## Etapa 3: Defina a orientação da página
+## Etapa 3: definir a orientação da página
 
 Como esperamos que nossa tabela seja larga, definiremos a orientação da página como paisagem.
 
@@ -59,11 +61,11 @@ Como esperamos que nossa tabela seja larga, definiremos a orientação da págin
 doc.getFirstSection().getPageSetup().setOrientation(Orientation.LANDSCAPE);
 ```
 
-Esta etapa é crucial porque garante que nossa tabela se encaixe perfeitamente na página sem ser cortada.
+Esta etapa é crucial porque garante que nossa tabela caiba perfeitamente na página sem ser cortada.
 
 ## Etapa 4: Carregar dados do XML
 
- Agora, precisamos carregar nossos dados do arquivo XML em um`DataTable`. É daí que vêm nossos dados.
+Agora, precisamos carregar nossos dados do arquivo XML em um `DataTable`. É daí que vêm os nossos dados.
 
 ```java
 DataSet ds = new DataSet();
@@ -71,7 +73,7 @@ ds.readXml(getMyDir() + "List of people.xml");
 DataTable dataTable = ds.getTables().get(0);
 ```
 
- Aqui, lemos o arquivo XML e recuperamos a primeira tabela do conjunto de dados. Isto`DataTable` conterá os dados que queremos exibir em nosso documento.
+Aqui, lemos o arquivo XML e recuperamos a primeira tabela do conjunto de dados. Isto `DataTable` conterá os dados que queremos exibir em nosso documento.
 
 ## Etapa 5: Importar a tabela do DataTable
 
@@ -81,7 +83,7 @@ Agora vem a parte emocionante: importar nossos dados para o documento como uma t
 Table table = importTableFromDataTable(builder, dataTable, true);
 ```
 
- Nós chamamos o método`importTableFromDataTable` , passando o`DocumentBuilder` , nosso`DataTable`, e um booleano para indicar se deve incluir títulos de coluna.
+Nós chamamos o método `importTableFromDataTable`, passando o `DocumentBuilder`, nosso `DataTable`, e um booleano para indicar se os títulos das colunas devem ser incluídos.
 
 ## Etapa 6: estilize a tabela
 
@@ -116,9 +118,9 @@ Esta linha salva o documento no diretório especificado, permitindo que você re
 
 ## O método importTableFromDataTable
 
- Vamos dar uma olhada mais de perto no`importTableFromDataTable` método. Este método é responsável por criar a estrutura da tabela e preenchê-la com dados.
+Vamos dar uma olhada mais de perto no `importTableFromDataTable` método. Este método é responsável por criar a estrutura da tabela e preenchê-la com dados.
 
-### Etapa 1: Inicie a tabela
+### Etapa 1: iniciar a tabela
 
 Primeiro, precisamos iniciar uma nova tabela no documento.
 
@@ -128,9 +130,9 @@ Table table = builder.startTable();
 
 Isso inicializa uma nova tabela em nosso documento.
 
-### Etapa 2: Adicionar títulos de coluna
+### Etapa 2: adicionar títulos de coluna
 
- Se quisermos incluir títulos de coluna, verificamos o`importColumnHeadings` bandeira.
+Se quisermos incluir títulos de colunas, verificamos o `importColumnHeadings` bandeira.
 
 ```java
 if (importColumnHeadings) {
@@ -156,11 +158,11 @@ if (importColumnHeadings) {
 }
 ```
 
- Este bloco de código formata a linha de título e insere os nomes das colunas do`DataTable`.
+Este bloco de código formata a linha de título e insere os nomes das colunas do `DataTable`.
 
 ### Etapa 3: preencher a tabela com dados
 
- Agora, fazemos um loop em cada linha do`DataTable` para inserir dados na tabela.
+Agora, fazemos um loop em cada linha do `DataTable` para inserir dados na tabela.
 
 ```java
 for (DataRow dataRow : (Iterable<DataRow>) dataTable.getRows()) {
@@ -191,11 +193,11 @@ Por fim, finalizamos a tabela quando todos os dados foram inseridos.
 builder.endTable();
 ```
 
- Esta linha marca o fim da nossa tabela, permitindo que`DocumentBuilder` para saber que terminamos esta seção.
+Esta linha marca o fim da nossa tabela, permitindo que `DocumentBuilder` para saber que terminamos esta seção.
 
 ## Conclusão
 
-E aí está! Você aprendeu com sucesso como gerar uma tabela a partir de uma DataTable usando Aspose.Words para Java. Seguindo essas etapas, você pode facilmente criar tabelas dinâmicas em seus documentos com base em várias fontes de dados. Quer você esteja gerando relatórios ou faturas, esse método simplificará seu fluxo de trabalho e aprimorará seu processo de criação de documentos.
+E pronto! Você aprendeu com sucesso a gerar uma tabela a partir de uma DataTable usando o Aspose.Words para Java. Seguindo esses passos, você poderá criar facilmente tabelas dinâmicas em seus documentos com base em diversas fontes de dados. Seja para gerar relatórios ou faturas, este método simplificará seu fluxo de trabalho e aprimorará seu processo de criação de documentos.
 
 ## Perguntas frequentes
 
@@ -203,7 +205,7 @@ E aí está! Você aprendeu com sucesso como gerar uma tabela a partir de uma Da
 Aspose.Words para Java é uma biblioteca poderosa para criar, manipular e converter documentos do Word programaticamente.
 
 ### Posso usar o Aspose.Words gratuitamente?
- Sim, o Aspose oferece uma versão de teste gratuita. Você pode baixá-lo em[aqui](https://releases.aspose.com/).
+Sim, o Aspose oferece uma versão de teste gratuita. Você pode baixá-la em [aqui](https://releases.aspose.com/).
 
 ### Como estilizar tabelas no Aspose.Words?
 Você pode aplicar estilos usando identificadores de estilo predefinidos e opções fornecidas pela biblioteca.
@@ -212,10 +214,15 @@ Você pode aplicar estilos usando identificadores de estilo predefinidos e opç�
 Você pode inserir vários tipos de dados, incluindo texto, números e datas, que podem ser formatados adequadamente.
 
 ### Onde posso obter suporte para o Aspose.Words?
- Você pode encontrar suporte e fazer perguntas no[Fórum Aspose](https://forum.aspose.com/c/words/8/).
+Você pode encontrar suporte e fazer perguntas no [Fórum Aspose](https://forum.aspose.com/c/words/8/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Belge Bölme
-linktitle: Belge Bölme
-second_title: Aspose.Words Java Belge İşleme API'si
-description: 
-weight: 18
-url: /tr/java/document-splitting/
+"description": null
+"linktitle": "Belge Bölme"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belge Bölme"
+"url": "/tr/java/document-splitting/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Bölme
@@ -41,9 +43,13 @@ Java için Aspose.Words kullanarak Belge Sayfa Ayrımı'nın nasıl gerçekleşt
 Java için Aspose.Words kullanarak sayfalara göre belge içeriğini nasıl çıkaracağınızı öğrenin. Kaynak kodlu bu adım adım kılavuz sizi kısa sürede uzman yapacaktır.
 ### [Belge Bölme ve Çıkarma Teknikleri](./document-splitting-extraction-techniques/)
 Java için Aspose.Words kullanarak belge bölme ve çıkarmayı öğrenin. Verimli manipülasyon için kaynak kodlu adım adım kılavuz. Aspose'un gücünü açığa çıkarın
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

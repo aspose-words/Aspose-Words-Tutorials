@@ -1,14 +1,16 @@
 ---
-title: Pokaż Ukryj Zawartości Zakładek W Dokumencie Word
-linktitle: Pokaż Ukryj Zawartości Zakładek W Dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wyświetlać i ukrywać zawartość zakładek w dokumentach programu Word za pomocą Aspose.Words dla platformy .NET, korzystając ze szczegółowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/programming-with-bookmarks/show-hide-bookmarked-content/
+"description": "Dowiedz się, jak wyświetlać i ukrywać zawartość zakładek w dokumentach programu Word za pomocą pakietu Aspose.Words for .NET, korzystając ze szczegółowego przewodnika krok po kroku."
+"linktitle": "Pokaż Ukryj Zawartości Zakładek W Dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Pokaż Ukryj Zawartości Zakładek W Dokumencie Word"
+"url": "/pl/net/programming-with-bookmarks/show-hide-bookmarked-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pokaż Ukryj Zawartości Zakładek W Dokumencie Word
@@ -22,7 +24,7 @@ Gotowy, aby zanurzyć się w świecie manipulacji dokumentami z Aspose.Words dla
 Zanim przejdziemy do konkretów, jest kilka rzeczy, których będziesz potrzebować:
 
 1. Visual Studio: dowolna wersja zgodna z .NET.
-2.  Aspose.Words dla .NET: Pobierz[Tutaj](https://releases.aspose.com/words/net/).
+2. Aspose.Words dla .NET: Pobierz [Tutaj](https://releases.aspose.com/words/net/).
 3. Podstawowa znajomość języka C#: Jeśli potrafisz napisać prosty program „Hello World”, to jesteś gotowy do działania.
 4. Dokument Word z zakładkami: W tym samouczku będziemy korzystać z przykładowego dokumentu z zakładkami.
 
@@ -40,7 +42,7 @@ Mając już te przestrzenie nazw, możemy rozpocząć naszą podróż.
 
 ## Krok 1: Konfigurowanie projektu
 
-No dobrze, zacznijmy od skonfigurowania naszego projektu w programie Visual Studio.
+Dobrze, zacznijmy od skonfigurowania naszego projektu w programie Visual Studio.
 
 ### Utwórz nowy projekt
 
@@ -66,11 +68,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Bookmarks.docx");
 ```
 
- Ten fragment kodu ustawia ścieżkę do katalogu dokumentów i ładuje dokument do`doc` obiekt.
+Ten fragment kodu ustawia ścieżkę do katalogu dokumentów i ładuje dokument do `doc` obiekt.
 
 ## Krok 3: Pokaż/ukryj zakładkę do treści
 
-Teraz nadchodzi zabawna część – pokazywanie lub ukrywanie treści na podstawie zakładek. Stworzymy metodę o nazwie`ShowHideBookmarkedContent` aby sobie z tym poradzić.
+Teraz nadchodzi zabawna część – pokazywanie lub ukrywanie treści na podstawie zakładek. Stworzymy metodę o nazwie `ShowHideBookmarkedContent` aby sobie z tym poradzić.
 
 Oto metoda, która przełącza widoczność treści dodanych do zakładek:
 
@@ -94,9 +96,9 @@ public void ShowHideBookmarkedContent(Document doc, string bookmarkName, bool is
 
 ### Podział metody
 
--  Pobieranie zakładek:`Bookmark bm = doc.Range.Bookmarks[bookmarkName];` pobiera zakładkę.
+- Pobieranie zakładek: `Bookmark bm = doc.Range.Bookmarks[bookmarkName];` pobiera zakładkę.
 - Przechodzenie przez węzły: Przechodzimy przez węzły w zakładce.
--  Przełączanie widoczności: jeśli węzeł jest`Run` (ciągły ciąg tekstu), ustawiamy jego`Hidden` nieruchomość.
+- Przełączanie widoczności: jeśli węzeł jest `Run` (ciągły ciąg tekstu), ustawiamy jego `Hidden` nieruchomość.
 
 ## Krok 4: Stosowanie metody
 
@@ -120,12 +122,12 @@ Dokument zostanie zapisany ze zmianami, które wprowadziliśmy.
 
 ## Wniosek
 
-masz to! Właśnie nauczyłeś się, jak wyświetlać i ukrywać zawartość zakładek w dokumencie Word za pomocą Aspose.Words dla .NET. To potężne narzędzie sprawia, że manipulacja dokumentami staje się dziecinnie prosta, niezależnie od tego, czy automatyzujesz raporty, tworzysz szablony, czy po prostu majstrujesz przy plikach Word. Miłego kodowania!
+I masz to! Właśnie nauczyłeś się, jak wyświetlać i ukrywać zawartość zakładek w dokumencie Word za pomocą Aspose.Words dla .NET. To potężne narzędzie sprawia, że manipulacja dokumentami staje się dziecinnie prosta, niezależnie od tego, czy automatyzujesz raporty, tworzysz szablony, czy po prostu majstrujesz przy plikach Word. Miłego kodowania!
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę przełączać się między wieloma zakładkami jednocześnie?
- Tak, możesz zadzwonić`ShowHideBookmarkedContent` dla każdej zakładki, którą chcesz przełączyć, wybierz odpowiednią metodę.
+Tak, możesz zadzwonić `ShowHideBookmarkedContent` dla każdej zakładki, którą chcesz przełączyć.
 
 ### Czy ukrycie treści ma wpływ na strukturę dokumentu?
 Nie, ukrywanie treści wpływa tylko na jej widoczność. Treść pozostaje w dokumencie.
@@ -134,13 +136,18 @@ Nie, ukrywanie treści wpływa tylko na jej widoczność. Treść pozostaje w do
 Ta metoda specjalnie przełącza przebiegi tekstu. W przypadku innych typów treści należy zmodyfikować logikę przechodzenia węzłów.
 
 ### Czy Aspose.Words dla .NET jest darmowy?
- Aspose.Words oferuje bezpłatny okres próbny[Tutaj](https://releases.aspose.com/) , ale do użytku produkcyjnego wymagana jest pełna licencja. Możesz ją kupić[Tutaj](https://purchase.aspose.com/buy).
+Aspose.Words oferuje bezpłatny okres próbny [Tutaj](https://releases.aspose.com/), ale do użytku produkcyjnego wymagana jest pełna licencja. Możesz ją kupić [Tutaj](https://purchase.aspose.com/buy).
 
 ### Jak mogę uzyskać pomoc, jeśli napotkam problemy?
- Możesz uzyskać wsparcie od społeczności Aspose[Tutaj](https://forum.aspose.com/c/words/8).
+Możesz uzyskać wsparcie od społeczności Aspose [Tutaj](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

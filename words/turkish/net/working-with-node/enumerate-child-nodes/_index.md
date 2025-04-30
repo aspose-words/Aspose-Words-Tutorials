@@ -1,14 +1,16 @@
 ---
-title: Çocuk Düğümlerini Say
-linktitle: Çocuk Düğümlerini Say
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım eğitimle Aspose.Words for .NET kullanarak bir Word belgesindeki alt düğümleri nasıl numaralandıracağınızı öğrenin.
-weight: 10
-url: /tr/net/working-with-node/enumerate-child-nodes/
+"description": "Bu adım adım eğitimle Aspose.Words for .NET kullanarak bir Word belgesindeki alt düğümleri nasıl numaralandıracağınızı öğrenin."
+"linktitle": "Çocuk Düğümlerini Say"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Çocuk Düğümlerini Say"
+"url": "/tr/net/working-with-node/enumerate-child-nodes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çocuk Düğümlerini Say
@@ -22,8 +24,8 @@ Doğru araçlarla belgelerle programatik olarak çalışmak çocuk oyuncağı ol
 Koda dalmadan önce, sorunsuz bir deneyim sağlamak için gerekli ön koşulları ele alalım:
 
 1. Geliştirme Ortamı: Visual Studio veya başka bir .NET uyumlu IDE'nin yüklü olduğundan emin olun.
-2.  Aspose.Words for .NET: Aspose.Words for .NET kitaplığını şu adresten indirin:[yayın sayfası](https://releases.aspose.com/words/net/).
-3.  Lisans: Ücretsiz deneme veya geçici lisans edinin[Burada](https://purchase.aspose.com/temporary-license/).
+2. Aspose.Words for .NET: Aspose.Words for .NET kitaplığını şu adresten indirin: [yayın sayfası](https://releases.aspose.com/words/net/).
+3. Lisans: Ücretsiz deneme veya geçici lisans edinin [Burada](https://purchase.aspose.com/temporary-license/).
 
 ## Ad Alanlarını İçe Aktar
 
@@ -91,7 +93,7 @@ Uygulamanızı derleyin ve çalıştırın. Her şeyi doğru bir şekilde ayarla
 
 .NET için Aspose.Words kullanarak bir Word belgesindeki alt düğümleri numaralandırmak, temel adımları anladığınızda basittir. Belgeyi başlatarak, belirli paragraflara erişerek, alt düğümleri alarak ve bunlar arasında yineleme yaparak Word belgelerini programatik olarak kolaylıkla işleyebilirsiniz. Aspose.Words, çeşitli belge öğelerini işlemek için sağlam bir API sunar ve bu da onu .NET geliştiricileri için vazgeçilmez bir araç haline getirir.
 
- Daha ayrıntılı belgeler ve gelişmiş kullanım için şu adresi ziyaret edin:[Aspose.Words for .NET API belgeleri](https://reference.aspose.com/words/net/) Ek desteğe ihtiyacınız varsa, şuraya göz atın:[destek forumları](https://forum.aspose.com/c/words/8).
+Daha ayrıntılı belgeler ve gelişmiş kullanım için şurayı ziyaret edin: [Aspose.Words for .NET API belgeleri](https://reference.aspose.com/words/net/)Ek desteğe ihtiyacınız varsa, şuraya göz atın: [destek forumları](https://forum.aspose.com/c/words/8).
 
 ## SSS
 
@@ -99,20 +101,25 @@ Uygulamanızı derleyin ve çalıştırın. Her şeyi doğru bir şekilde ayarla
 Bir paragraf, satırlar, şekiller, yorumlar ve diğer satır içi öğeler gibi düğümler içerebilir.
 
 ### Mevcut bir Word belgesini nasıl yükleyebilirim?
- Mevcut bir belgeyi kullanarak yükleyebilirsiniz`Document doc = new Document("path/to/your/document.docx");`.
+Mevcut bir belgeyi kullanarak yükleyebilirsiniz `Document doc = new Document("path/to/your/document.docx");`.
 
 ### Çalıştır dışında diğer düğüm tiplerini de manipüle edebilir miyim?
- Evet, şekiller, yorumlar ve daha fazlası gibi çeşitli düğüm türlerini kontrol ederek değiştirebilirsiniz.`NodeType`.
+Evet, şekiller, yorumlar ve daha fazlası gibi çeşitli düğüm türlerini kontrol ederek değiştirebilirsiniz. `NodeType`.
 
 ### Aspose.Words for .NET'i kullanmak için lisansa ihtiyacım var mı?
- Ücretsiz denemeyle başlayabilir veya geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+Ücretsiz denemeyle başlayabilir veya geçici bir lisans alabilirsiniz. [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Daha fazla örnek ve dokümanı nerede bulabilirim?
- Ziyaret edin[Aspose.Words for .NET API belgeleri](https://reference.aspose.com/words/net/)Daha fazla örnek ve detaylı dokümanlar için.
+Ziyaret edin [Aspose.Words for .NET API belgeleri](https://reference.aspose.com/words/net/) Daha fazla örnek ve detaylı dokümanlar için.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

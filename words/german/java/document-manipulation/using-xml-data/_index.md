@@ -1,14 +1,16 @@
 ---
-title: Verwenden von XML-Daten in Aspose.Words für Java
-linktitle: Verwenden von XML-Daten
-second_title: Aspose.Words Java-API zur Dokumentverarbeitung
-description: Entfesseln Sie die Leistungsfähigkeit von Aspose.Words für Java. Lernen Sie XML-Datenverarbeitung, Seriendruck und Mustache-Syntax mit Schritt-für-Schritt-Tutorials.
-weight: 12
-url: /de/java/document-manipulation/using-xml-data/
+"description": "Nutzen Sie die Leistungsfähigkeit von Aspose.Words für Java. Lernen Sie XML-Datenverarbeitung, Seriendruck und Mustache-Syntax mit Schritt-für-Schritt-Tutorials."
+"linktitle": "Verwenden von XML-Daten"
+"second_title": "Aspose.Words Java-Dokumentverarbeitungs-API"
+"title": "Verwenden von XML-Daten in Aspose.Words für Java"
+"url": "/de/java/document-manipulation/using-xml-data/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Verwenden von XML-Daten in Aspose.Words für Java
@@ -16,7 +18,7 @@ url: /de/java/document-manipulation/using-xml-data/
 
 ## Einführung in die Verwendung von XML-Daten in Aspose.Words für Java
 
-In diesem Handbuch erfahren Sie, wie Sie mit XML-Daten unter Verwendung von Aspose.Words für Java arbeiten. Sie erfahren, wie Sie Serienbriefvorgänge, einschließlich verschachtelter Serienbriefe, durchführen und die Mustache-Syntax mit einem DataSet verwenden. Wir stellen Ihnen schrittweise Anleitungen und Quellcodebeispiele zur Verfügung, um Ihnen den Einstieg zu erleichtern.
+In dieser Anleitung erfahren Sie, wie Sie mit XML-Daten mithilfe von Aspose.Words für Java arbeiten. Sie lernen, Serienbriefe, einschließlich verschachtelter Serienbriefe, auszuführen und die Mustache-Syntax mit einem DataSet zu verwenden. Wir bieten Ihnen Schritt-für-Schritt-Anleitungen und Quellcodebeispiele, um Ihnen den Einstieg zu erleichtern.
 
 ## Voraussetzungen
 
@@ -27,7 +29,7 @@ Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfü
 
 ## Serienbriefe mit XML-Daten
 
-### 1. Einfacher Serienbrief
+### 1. Einfache Serienbrieffunktion
 
 Um einen einfachen Serienbrief mit XML-Daten durchzuführen, gehen Sie folgendermaßen vor:
 
@@ -54,7 +56,7 @@ doc.save("Your Directory Path" + "NestedMailMerge.docx");
 
 ## Mustache-Syntax mit DataSet
 
-Um die Mustache-Syntax mit einem DataSet zu nutzen, führen Sie diese Schritte aus:
+Um die Mustache-Syntax mit einem DataSet zu nutzen, führen Sie die folgenden Schritte aus:
 
 ```java
 DataSet ds = new DataSet();
@@ -67,7 +69,7 @@ doc.save("Your Directory Path" + "MustacheSyntaxUsingDataSet.docx");
 
 ## Abschluss
 
-In diesem umfassenden Handbuch haben wir untersucht, wie Sie XML-Daten mit Aspose.Words für Java effektiv nutzen können. Sie haben gelernt, wie Sie verschiedene Serienbriefvorgänge ausführen, darunter einfache Serienbriefvorgänge, verschachtelte Serienbriefvorgänge und wie Sie die Mustache-Syntax mit einem DataSet verwenden. Mit diesen Techniken können Sie die Dokumenterstellung und -anpassung mühelos automatisieren.
+In diesem umfassenden Leitfaden haben wir die effektive Nutzung von XML-Daten mit Aspose.Words für Java untersucht. Sie haben gelernt, wie Sie verschiedene Serienbriefvorgänge durchführen, darunter einfache Serienbriefe, verschachtelte Serienbriefe und die Mustache-Syntax mit einem DataSet. Mit diesen Techniken können Sie die Dokumenterstellung und -anpassung mühelos automatisieren.
 
 ## Häufig gestellte Fragen
 
@@ -75,16 +77,21 @@ In diesem umfassenden Handbuch haben wir untersucht, wie Sie XML-Daten mit Aspos
 
 Stellen Sie sicher, dass Ihre XML-Daten der erforderlichen Struktur mit definierten Tabellen und Beziehungen folgen, wie in den bereitgestellten Beispielen gezeigt.
 
-### Kann ich das Kürzungsverhalten für Serienbriefwerte anpassen?
+### Kann ich das Trimmverhalten für Serienbriefwerte anpassen?
 
- Ja, Sie können steuern, ob führende und nachfolgende Leerzeichen während des Seriendrucks entfernt werden, indem Sie`doc.getMailMerge().setTrimWhitespaces(false)`.
+Ja, Sie können steuern, ob führende und nachfolgende Leerzeichen während der Serienbriefverarbeitung abgeschnitten werden, indem Sie `doc.getMailMerge().setTrimWhitespaces(false)`.
 
 ### Was ist die Mustache-Syntax und wann sollte ich sie verwenden?
 
- Mit der Mustache-Syntax können Sie Serienbrieffelder flexibler formatieren. Verwenden Sie`doc.getMailMerge().setUseNonMergeFields(true)` um die Mustache-Syntax zu aktivieren.
+Mit der Mustache-Syntax können Sie Serienbrieffelder flexibler formatieren. Verwenden Sie `doc.getMailMerge().setUseNonMergeFields(true)` um die Mustache-Syntax zu aktivieren.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

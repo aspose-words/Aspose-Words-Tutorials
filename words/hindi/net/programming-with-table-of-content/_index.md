@@ -1,14 +1,16 @@
 ---
-title: सामग्री तालिका के साथ शब्द प्रसंस्करण
-linktitle: सामग्री तालिका के साथ शब्द प्रसंस्करण
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words में TOC प्रोग्रामिंग का अन्वेषण करें। चरण-दर-चरण ट्यूटोरियल और C# कोड उदाहरणों के साथ अपने Word दस्तावेज़ों में सामग्री की तालिकाएँ बनाना और उनमें हेरफेर करना सीखें।
-weight: 1420
-url: /hi/net/programming-with-table-of-content/
+"description": ".NET के लिए Aspose.Words में TOC प्रोग्रामिंग का अन्वेषण करें। चरण-दर-चरण ट्यूटोरियल और C# कोड उदाहरणों के साथ अपने Word दस्तावेज़ों में सामग्री की तालिकाएँ बनाना और उनमें हेरफेर करना सीखें।"
+"linktitle": "सामग्री तालिका के साथ शब्द प्रसंस्करण"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "सामग्री तालिका के साथ शब्द प्रसंस्करण"
+"url": "/hi/net/programming-with-table-of-content/"
+"weight": 1420
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # सामग्री तालिका के साथ शब्द प्रसंस्करण
@@ -23,10 +25,15 @@ url: /hi/net/programming-with-table-of-content/
 | शीर्षक | विवरण |
 | --- | --- |
 | [वर्ड दस्तावेज़ में TOC शैली बदलें](./change-style-of-toc-level/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में TOC शैली को बदलने का तरीका जानें। अपने TOC को आसानी से अनुकूलित करें। |
-| [वर्ड दस्तावेज़ में TOC टैब स्टॉप बदलें](./change-toc-tab-stops/) | जानें कि .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में TOC टैब स्टॉप कैसे बदलें। यह चरण-दर-चरण मार्गदर्शिका आपको एक पेशेवर दिखने वाली विषय-सूची बनाने में मदद करेगी। |
+| [वर्ड दस्तावेज़ में TOC टैब स्टॉप बदलें](./change-toc-tab-stops/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में TOC टैब स्टॉप को बदलने का तरीका जानें। यह चरण-दर-चरण मार्गदर्शिका आपको एक पेशेवर दिखने वाली विषय-सूची बनाने में मदद करेगी। |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

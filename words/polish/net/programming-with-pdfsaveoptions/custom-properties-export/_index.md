@@ -1,14 +1,16 @@
 ---
-title: Eksportuj właściwości niestandardowe w dokumencie PDF
-linktitle: Eksportuj właściwości niestandardowe w dokumencie PDF
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak eksportować niestandardowe właściwości w dokumencie PDF za pomocą Aspose.Words for .NET, korzystając z naszego szczegółowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/programming-with-pdfsaveoptions/custom-properties-export/
+"description": "Dowiedz się, jak eksportować niestandardowe właściwości w dokumencie PDF za pomocą Aspose.Words for .NET, korzystając z naszego szczegółowego przewodnika krok po kroku."
+"linktitle": "Eksportuj właściwości niestandardowe w dokumencie PDF"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Eksportuj właściwości niestandardowe w dokumencie PDF"
+"url": "/pl/net/programming-with-pdfsaveoptions/custom-properties-export/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Eksportuj właściwości niestandardowe w dokumencie PDF
@@ -21,7 +23,7 @@ Eksportowanie niestandardowych właściwości w dokumencie PDF może być niezwy
 
 Zanim zagłębisz się w kod, upewnij się, że masz następujące elementy:
 
--  Aspose.Words dla .NET zainstalowany. Jeśli jeszcze go nie zainstalowałeś, możesz go pobrać[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET zainstalowany. Jeśli jeszcze go nie zainstalowałeś, możesz go pobrać [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne, takie jak Visual Studio.
 - Podstawowa znajomość programowania w języku C#.
 
@@ -56,7 +58,7 @@ doc.CustomDocumentProperties.Add("Company", "Aspose");
 
 ## Krok 3: Skonfiguruj opcje zapisywania pliku PDF
 
- Teraz skonfiguruj opcje zapisywania PDF, aby upewnić się, że właściwości niestandardowe zostaną uwzględnione podczas eksportowania dokumentu.`PdfSaveOptions` Klasa udostępnia różne ustawienia kontrolujące sposób zapisywania dokumentu w formacie PDF.
+Teraz skonfiguruj opcje zapisywania PDF, aby upewnić się, że właściwości niestandardowe zostaną uwzględnione podczas eksportowania dokumentu. `PdfSaveOptions` Klasa udostępnia różne ustawienia kontrolujące sposób zapisywania dokumentu w formacie PDF.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions
@@ -67,7 +69,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 
 ## Krok 4: Zapisz dokument jako plik PDF
 
- Na koniec zapisz dokument jako PDF w określonym katalogu.`Save` Metoda ta łączy wszystkie poprzednie kroki i tworzy plik PDF zawierający niestandardowe właściwości.
+Na koniec zapisz dokument jako PDF w określonym katalogu. `Save` Metoda ta łączy wszystkie poprzednie kroki i tworzy plik PDF zawierający niestandardowe właściwości.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.CustomPropertiesExport.pdf", saveOptions);
@@ -86,17 +88,22 @@ Właściwości niestandardowe to metadane dodawane do dokumentu, które mogą za
 Aspose.Words for .NET to niezawodny i łatwy w użyciu interfejs API do edycji dokumentów Word i eksportowania ich jako plików PDF, gwarantujący zachowanie i dostępność niestandardowych właściwości.
 
 ### Czy mogę dodać do dokumentu wiele właściwości niestandardowych?
- Tak, możesz dodać wiele niestandardowych właściwości do dokumentu, wywołując`Add`metodę dla każdej właściwości, którą chcesz uwzględnić.
+Tak, możesz dodać wiele niestandardowych właściwości do dokumentu, wywołując `Add` metodę dla każdej właściwości, którą chcesz uwzględnić.
 
 ### Do jakich innych formatów mogę eksportować dane za pomocą Aspose.Words dla .NET?
 Aspose.Words for .NET obsługuje eksportowanie do różnych formatów, w tym DOCX, HTML, EPUB i wielu innych.
 
 ### Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?
- Aby uzyskać pomoc, możesz odwiedzić stronę[Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8) po pomoc.
+Aby uzyskać pomoc, możesz odwiedzić stronę [Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8) po pomoc.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: जावा के लिए Aspose.Words के साथ उन्नत बचत विकल्प
-linktitle: विभिन्न प्रारूपों में दस्तावेज़ों को सहेजना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Aspose.Words for Java के साथ उन्नत दस्तावेज़ हेरफेर सीखें। एन्क्रिप्ट करें, मेटाफ़ाइल्स को संभालें, और बहुत कुछ। आपके Word दस्तावेज़, आपकी शैली में।
-weight: 14
-url: /hi/java/document-loading-and-saving/advance-saving-options/
+"description": "Aspose.Words for Java के साथ उन्नत दस्तावेज़ हेरफेर सीखें। एन्क्रिप्ट करें, मेटाफ़ाइल्स को संभालें, और बहुत कुछ। आपके Word दस्तावेज़, आपकी शैली में।"
+"linktitle": "विभिन्न प्रारूपों में दस्तावेज़ों को सहेजना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "जावा के लिए Aspose.Words के साथ उन्नत बचत विकल्प"
+"url": "/hi/java/document-loading-and-saving/advance-saving-options/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के लिए Aspose.Words के साथ उन्नत बचत विकल्प
@@ -48,7 +50,7 @@ doc.save("Your Directory Path" + "EncryptedDocument.docx", saveOptions);
 
 ## छोटी मेटाफाइल्स को संपीड़ित न करना
 
-वर्ड दस्तावेज़ों में मेटाफ़ाइल्स ज़रूरी हैं, लेकिन हो सकता है कि आप छोटी फ़ाइलों को संपीड़ित न करना चाहें। इसे प्राप्त करने का तरीका इस प्रकार है:
+मेटाफाइल्स वर्ड डॉक्यूमेंट्स में बहुत ज़रूरी हैं, लेकिन हो सकता है कि आप छोटे मेटाफाइल्स को कंप्रेस न करना चाहें। इसे पाने का तरीका इस प्रकार है:
 
 ```java
 @Test
@@ -113,21 +115,21 @@ public void doNotSavePictureBullet() throws Exception {
 
 ## निष्कर्ष
 
-बधाई हो! आपने उन्नत सेविंग विकल्पों को निष्पादित करने के लिए Aspose.Words for Java का उपयोग करना सीख लिया है। चाहे वह दस्तावेज़ों को एन्क्रिप्ट करना हो, मेटाफ़ाइल्स को संभालना हो, या पिक्चर बुलेट्स को प्रबंधित करना हो, Aspose.Words for Java आपको अपने Word दस्तावेज़ों पर नियंत्रण रखने में सक्षम बनाता है।
+बधाई हो! आपने सीखा है कि उन्नत सेविंग विकल्पों को निष्पादित करने के लिए Aspose.Words for Java का उपयोग कैसे करें। चाहे वह दस्तावेज़ों को एन्क्रिप्ट करना हो, मेटाफ़ाइल्स को संभालना हो, या पिक्चर बुलेट्स को प्रबंधित करना हो, Aspose.Words for Java आपको अपने Word दस्तावेज़ों पर नियंत्रण रखने में सक्षम बनाता है।
 
 ## पूछे जाने वाले प्रश्न
 
 ### 1. क्या Aspose.Words for Java एक निःशुल्क लाइब्रेरी है?
 
- नहीं, Aspose.Words for Java एक व्यावसायिक लाइब्रेरी है। आप लाइसेंसिंग विवरण पा सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+नहीं, Aspose.Words for Java एक व्यावसायिक लाइब्रेरी है। आप लाइसेंसिंग विवरण पा सकते हैं [यहाँ](https://purchase.aspose.com/buy).
 
 ### 2. मैं Java के लिए Aspose.Words का निःशुल्क परीक्षण कैसे प्राप्त कर सकता हूँ?
 
-आप Java के लिए Aspose.Words का निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+आप Java के लिए Aspose.Words का निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### 3. मैं Java के लिए Aspose.Words का समर्थन कहां पा सकता हूं?
 
- समर्थन और सामुदायिक चर्चा के लिए, यहां जाएं[Aspose.Words जावा मंच के लिए](https://forum.aspose.com/).
+समर्थन और सामुदायिक चर्चा के लिए, यहां जाएं [Aspose.Words जावा मंच के लिए](https://forum.aspose.com/).
 
 ### 4. क्या मैं अन्य Java लाइब्रेरीज़ के साथ Aspose.Words for Java का उपयोग कर सकता हूँ?
 
@@ -135,13 +137,18 @@ public void doNotSavePictureBullet() throws Exception {
 
 ### 5. क्या कोई अस्थायी लाइसेंस विकल्प उपलब्ध है?
 
- हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 आज ही Aspose.Words for Java के साथ आरंभ करें और अपने Java अनुप्रयोगों में दस्तावेज़ हेरफेर की पूरी क्षमता को अनलॉक करें।
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

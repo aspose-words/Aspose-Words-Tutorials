@@ -1,14 +1,16 @@
 ---
-title: Korzystanie z rozszerzeń internetowych w Aspose.Words dla Java
-linktitle: Korzystanie z rozszerzeń internetowych
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Ulepsz dokumenty za pomocą rozszerzeń internetowych w Aspose.Words dla Java. Naucz się bezproblemowo integrować treści internetowe.
-weight: 33
-url: /pl/java/document-manipulation/using-web-extensions/
+"description": "Ulepsz dokumenty za pomocą rozszerzeń internetowych w Aspose.Words dla Java. Naucz się bezproblemowo integrować treści internetowe."
+"linktitle": "Korzystanie z rozszerzeń internetowych"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Korzystanie z rozszerzeń internetowych w Aspose.Words dla Java"
+"url": "/pl/java/document-manipulation/using-web-extensions/"
+"weight": 33
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie z rozszerzeń internetowych w Aspose.Words dla Java
@@ -20,7 +22,7 @@ W tym samouczku pokażemy, jak używać rozszerzeń internetowych w Aspose.Words
 
 ## Wymagania wstępne
 
- Zanim zaczniesz, upewnij się, że masz Aspose.Words for Java skonfigurowane w swoim projekcie. Możesz je pobrać ze strony[Tutaj](https://releases.aspose.com/words/java/).
+Zanim zaczniesz, upewnij się, że masz Aspose.Words for Java skonfigurowane w swoim projekcie. Możesz je pobrać ze strony [Tutaj](https://releases.aspose.com/words/java/).
 
 ## Dodawanie panelu zadań rozszerzenia internetowego
 
@@ -32,7 +34,7 @@ Aby dodać panel zadań rozszerzenia internetowego do dokumentu, wykonaj następ
 Document doc = new Document();
 ```
 
-##  Utwórz`TaskPane` instance and add it to the document's web extension task panes:
+## Utwórz `TaskPane` wystąpienie i dodaj je do paneli zadań rozszerzenia internetowego dokumentu:
 
 ```java
 TaskPane taskPane = new TaskPane();
@@ -101,7 +103,7 @@ Aspose.Words for Java obsługuje różne typy rozszerzeń internetowych, w tym t
 
 ### Jak mogę testować i wyświetlać podgląd rozszerzeń internetowych w moim dokumencie?
 
-Testowanie i podgląd rozszerzeń internetowych w dokumencie można wykonać, otwierając dokument w środowisku, które obsługuje konkretny typ rozszerzenia internetowego, który dodałeś. Na przykład, jeśli dodałeś dodatek Office (OMEX), możesz otworzyć dokument w aplikacji Office, która obsługuje dodatki, takiej jak Microsoft Word. Umożliwia to interakcję i testowanie funkcjonalności rozszerzenia internetowego w dokumencie.
+Testowanie i podgląd rozszerzeń internetowych w dokumencie można wykonać, otwierając dokument w środowisku, które obsługuje konkretny typ rozszerzenia internetowego, który dodałeś. Na przykład, jeśli dodałeś dodatek Office (OMEX), możesz otworzyć dokument w aplikacji Office, która obsługuje dodatki, takiej jak Microsoft Word. Umożliwia to interakcję z funkcjonalnością rozszerzenia internetowego i testowanie jej w dokumencie.
 
 ### Czy istnieją jakieś ograniczenia lub kwestie związane ze zgodnością podczas korzystania z rozszerzeń internetowych w Aspose.Words dla Java?
 
@@ -109,10 +111,15 @@ Podczas gdy Aspose.Words for Java zapewnia solidne wsparcie dla rozszerzeń inte
 
 ### Gdzie mogę znaleźć więcej informacji i zasobów na temat korzystania z rozszerzeń internetowych w Aspose.Words dla Java?
 
- Aby uzyskać szczegółową dokumentację i zasoby dotyczące korzystania z rozszerzeń internetowych w Aspose.Words dla języka Java, zapoznaj się z dokumentacją Aspose pod adresem[Tutaj](https://reference.aspose.com/words/java/)Zawiera szczegółowe informacje, przykłady i wytyczne dotyczące pracy z rozszerzeniami internetowymi w celu zwiększenia funkcjonalności dokumentu.
+Aby uzyskać szczegółową dokumentację i zasoby dotyczące korzystania z rozszerzeń internetowych w Aspose.Words dla języka Java, zapoznaj się z dokumentacją Aspose pod adresem [Tutaj](https://reference.aspose.com/words/java/)Zawiera szczegółowe informacje, przykłady i wytyczne dotyczące pracy z rozszerzeniami internetowymi w celu zwiększenia funkcjonalności dokumentu.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Menggabungkan dan Menambahkan Dokumen di Aspose.Words untuk Java
-linktitle: Menggabungkan dan Menambahkan Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menggabungkan dan menambahkan dokumen dengan mudah menggunakan Aspose.Words untuk Java. Pertahankan format, kelola header, footer, dan banyak lagi.
-weight: 30
-url: /id/java/document-manipulation/joining-and-appending-documents/
+"description": "Pelajari cara menggabungkan dan menambahkan dokumen dengan mudah menggunakan Aspose.Words untuk Java. Pertahankan format, kelola header, footer, dan banyak lagi."
+"linktitle": "Menggabungkan dan Menambahkan Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggabungkan dan Menambahkan Dokumen di Aspose.Words untuk Java"
+"url": "/id/java/document-manipulation/joining-and-appending-documents/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggabungkan dan Menambahkan Dokumen di Aspose.Words untuk Java
@@ -130,26 +132,31 @@ Aspose.Words untuk Java menyediakan alat yang fleksibel dan canggih untuk mengga
 
 ### Bagaimana cara menggabungkan dokumen dengan gaya berbeda dengan mudah?
 
- Untuk menggabungkan dokumen dengan gaya yang berbeda, gunakan`ImportFormatMode.USE_DESTINATION_STYLES` saat menambahkan.
+Untuk menggabungkan dokumen dengan gaya yang berbeda, gunakan `ImportFormatMode.USE_DESTINATION_STYLES` saat menambahkan.
 
 ### Bisakah saya mempertahankan penomoran halaman saat menambahkan dokumen?
 
- Ya, Anda dapat mempertahankan penomoran halaman dengan menggunakan`convertNumPageFieldsToPageRef` metode dan memperbarui tata letak halaman.
+Ya, Anda dapat mempertahankan penomoran halaman dengan menggunakan `convertNumPageFieldsToPageRef` metode dan memperbarui tata letak halaman.
 
 ### Apa itu Perilaku Gaya Cerdas?
 
- Perilaku Gaya Cerdas membantu mempertahankan gaya yang konsisten saat menambahkan dokumen. Gunakan dengan`ImportFormatOptions` untuk hasil yang lebih baik.
+Perilaku Gaya Cerdas membantu mempertahankan gaya yang konsisten saat menambahkan dokumen. Gunakan dengan `ImportFormatOptions` untuk hasil yang lebih baik.
 
 ### Bagaimana saya dapat menangani kotak teks saat menambahkan dokumen?
 
-Mengatur`importFormatOptions.setIgnoreTextBoxes(false)` untuk menyertakan kotak teks selama penambahan.
+Mengatur `importFormatOptions.setIgnoreTextBoxes(false)` untuk menyertakan kotak teks selama penambahan.
 
 ### Bagaimana jika saya ingin menautkan/melepas tautan header dan footer antar dokumen?
 
- Anda dapat menghubungkan header dan footer dengan`linkToPrevious(true)` atau putuskan tautannya dengan`linkToPrevious(false)` sesuai kebutuhan.
+Anda dapat menghubungkan header dan footer dengan `linkToPrevious(true)` atau putuskan tautannya dengan `linkToPrevious(false)` sesuai kebutuhan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

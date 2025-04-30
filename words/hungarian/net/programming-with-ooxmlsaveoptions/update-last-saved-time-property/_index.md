@@ -1,64 +1,66 @@
 ---
-title: Frissítse az utolsó megtakarított idő tulajdonságot
-linktitle: Frissítse az utolsó megtakarított idő tulajdonságot
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan frissítheti az utolsó mentett idő tulajdonságot a Word-dokumentumokban az Aspose.Words for .NET használatával. Kövesse részletes, lépésenkénti útmutatónkat.
-weight: 10
-url: /hu/net/programming-with-ooxmlsaveoptions/update-last-saved-time-property/
+"description": "Ismerje meg, hogyan frissítheti az utolsó mentés időpontja tulajdonságot Word-dokumentumokban az Aspose.Words for .NET használatával. Kövesse részletes, lépésről lépésre szóló útmutatónkat."
+"linktitle": "Utolsó mentés időpontja tulajdonság frissítése"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Utolsó mentés időpontja tulajdonság frissítése"
+"url": "/hu/net/programming-with-ooxmlsaveoptions/update-last-saved-time-property/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Frissítse az utolsó megtakarított idő tulajdonságot
+# Utolsó mentés időpontja tulajdonság frissítése
 
 ## Bevezetés
 
-Gondolkozott már azon, hogyan lehet programozottan nyomon követni az utolsó megtakarított időtulajdonságot a Word-dokumentumokban? Ha több dokumentummal van dolgunk, és karban kell tartania azok metaadatait, az utolsó megtakarított idő tulajdonság frissítése nagyon hasznos lehet. Ma végigvezetem ezen a folyamaton az Aspose.Words for .NET használatával. Szóval, csatt, és merüljünk bele!
+Elgondolkodtál már azon, hogyan lehet programozottan nyomon követni a Word-dokumentumokban az utolsó mentés időpontja tulajdonságot? Ha több dokumentummal dolgozol, és karban kell tartanod a metaadataikat, az utolsó mentés időpontja tulajdonság frissítése igen hasznos lehet. Ma végigvezetlek ezen a folyamaton az Aspose.Words for .NET használatával. Szóval, csatold be a biztonsági öved, és vágjunk bele!
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a lépésről lépésre szóló útmutatóba, néhány dologra szüksége lesz:
+Mielőtt belevágnánk a lépésről lépésre szóló útmutatóba, van néhány dolog, amire szükséged lesz:
 
-1.  Aspose.Words for .NET: Győződjön meg arról, hogy az Aspose.Words for .NET telepítve van. Ha nem, akkor megteheti[töltse le itt](https://releases.aspose.com/words/net/).
-2. Fejlesztői környezet: Olyan fejlesztői környezet, mint a Visual Studio.
-3. Alapvető C# ismerete: Hasznos lesz a C# programozás alapjainak megértése.
+1. Aspose.Words .NET-hez: Győződjön meg róla, hogy telepítve van az Aspose.Words .NET-hez. Ha még nem, akkor megteheti [töltsd le itt](https://releases.aspose.com/words/net/).
+2. Fejlesztői környezet: Egy fejlesztői környezet, mint például a Visual Studio.
+3. C# alapismeretek: A C# programozás alapjainak ismerete hasznos lesz.
 
 ## Névterek importálása
 
-Kezdésként mindenképpen importálja a szükséges névtereket a projektbe. Ez lehetővé teszi a Word dokumentumok kezeléséhez szükséges osztályok és módszerek elérését.
+Először is, importáld a szükséges névtereket a projektedbe. Ez lehetővé teszi a Word dokumentumok kezeléséhez szükséges osztályok és metódusok elérését.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Most bontsuk le a folyamatot egyszerű lépésekre. Minden lépés végigvezeti Önt a Word-dokumentum utolsó megtakarított időtulajdonságának frissítési folyamatán.
+Most bontsuk le a folyamatot egyszerű lépésekre. Minden lépés végigvezeti Önt a Word-dokumentum utolsó mentési idejének tulajdonságának frissítésén.
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
+## 1. lépés: Dokumentumkönyvtár beállítása
 
-Először is meg kell adnia a dokumentumkönyvtár elérési útját. Itt tárolja a meglévő dokumentumot, és a frissített dokumentumot.
+Először meg kell adnia a dokumentumkönyvtár elérési útját. Ez az a hely, ahol a meglévő dokumentum tárolódik, és ahová a frissített dokumentum mentésre kerül.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a címtár tényleges elérési útjával.
+Csere `"YOUR DOCUMENT DIRECTORY"` a könyvtár tényleges elérési útjával.
 
 ## 2. lépés: Töltse be a Word-dokumentumot
 
- Ezután töltse be a frissíteni kívánt Word-dokumentumot. Ezt úgy teheti meg, hogy létrehoz egy példányt a`Document` osztályt, és átadja a dokumentuma útvonalát.
+Ezután töltse be a frissíteni kívánt Word-dokumentumot. Ezt úgy teheti meg, hogy létrehoz egy példányt a `Document` osztály és a dokumentum elérési útjának átadása.
 
 ```csharp
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- Győződjön meg arról, hogy a dokumentum neve`Document.docx` jelen van a megadott könyvtárban.
+Győződjön meg arról, hogy a dokumentum neve `Document.docx` megtalálható a megadott könyvtárban.
 
-## 3. lépés: Konfigurálja a mentési beállításokat
+## 3. lépés: Mentési beállítások konfigurálása
 
- Most hozzon létre egy példányt a`OoxmlSaveOptions` osztály. Ez az osztály lehetővé teszi a dokumentumok Office Open XML (OOXML) formátumban történő mentésére vonatkozó beállítások megadását. Itt beállítod a`UpdateLastSavedTimeProperty` hogy`true`.
+Most hozzon létre egy példányt a `OoxmlSaveOptions` osztály. Ez az osztály lehetővé teszi a dokumentum Office Open XML (OOXML) formátumban történő mentéséhez szükséges beállítások megadását. Itt állíthatja be a `UpdateLastSavedTimeProperty` hogy `true`.
 
 ```csharp
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
@@ -67,42 +69,47 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 };
 ```
 
-Ez utasítja az Aspose.Words-t, hogy frissítse a dokumentum legutóbbi mentett idő tulajdonságát.
+Ez utasítja az Aspose.Words-t, hogy frissítse a dokumentum utolsó mentésének időpontját.
 
 ## 4. lépés: Mentse el a frissített dokumentumot
 
- Végül mentse el a dokumentumot a`Save` módszere a`Document` osztályt, átadja azt az elérési utat, ahová a frissített dokumentumot és a mentési beállításokat menteni szeretné.
+Végül mentse el a dokumentumot a `Save` a módszer `Document` osztályt, átadva azt az elérési utat, ahová a frissített dokumentumot menteni szeretné, valamint a mentési beállításokat.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.UpdateLastSavedTimeProperty.docx", saveOptions);
 ```
 
-Ezzel elmenti a dokumentumot a frissített utolsó mentett idő tulajdonsággal.
+Ez a dokumentumot a frissített utolsó mentés időpontja tulajdonsággal menti el.
 
 ## Következtetés
 
-És megvan! Ha követi ezeket a lépéseket, az Aspose.Words for .NET használatával egyszerűen frissítheti a Word-dokumentumok utolsó megtakarított időtulajdonságát. Ez különösen hasznos a dokumentumok pontos metaadatainak megőrzéséhez, amelyek kulcsfontosságúak lehetnek a dokumentumkezelő rendszerek és más alkalmazások számára.
+És íme! A következő lépéseket követve könnyedén frissítheted a Word-dokumentumaid utolsó mentésének időpontját az Aspose.Words for .NET segítségével. Ez különösen hasznos a dokumentumokban található pontos metaadatok karbantartásához, ami kulcsfontosságú lehet a dokumentumkezelő rendszerek és különféle más alkalmazások számára.
 
 ## GYIK
 
-### Mi az Aspose.Words for .NET?
-Az Aspose.Words for .NET egy hatékony könyvtár Word dokumentumok létrehozásához, szerkesztéséhez és konvertálásához .NET alkalmazásokban.
+### Mi az Aspose.Words .NET-hez?
+Az Aspose.Words for .NET egy hatékony függvénytár Word-dokumentumok létrehozásához, szerkesztéséhez és konvertálásához .NET alkalmazásokban.
 
-### Miért frissítsem az utolsó megtakarított idő tulajdonságot?
-Az utolsó megtakarított idő tulajdonság frissítése segít a pontos metaadatok megőrzésében, ami elengedhetetlen a dokumentumok nyomon követéséhez és kezeléséhez.
+### Miért kellene frissítenem az utolsó mentés időpontja tulajdonságot?
+Az utolsó mentés időpontja tulajdonság frissítése segít a pontos metaadatok fenntartásában, ami elengedhetetlen a dokumentumok nyomon követéséhez és kezeléséhez.
 
 ### Frissíthetek más tulajdonságokat az Aspose.Words for .NET használatával?
-Igen, az Aspose.Words for .NET lehetővé teszi a dokumentum különféle tulajdonságainak, például címének, szerzőjének és tárgyának frissítését.
+Igen, az Aspose.Words for .NET lehetővé teszi a dokumentum különböző tulajdonságainak, például a cím, a szerző és a tárgy frissítését.
 
-### Az Aspose.Words for .NET ingyenes?
- Az Aspose.Words for .NET ingyenes próbaverziót kínál, de a teljes funkcionalitáshoz licenc szükséges. Engedélyt szerezhet[itt](https://purchase.aspose.com/buy).
+### Ingyenes az Aspose.Words .NET-hez?
+Az Aspose.Words for .NET ingyenes próbaverziót kínál, de a teljes funkcionalitáshoz licenc szükséges. Licencet szerezhet be [itt](https://purchase.aspose.com/buy).
 
-### Hol találok további oktatóanyagokat az Aspose.Words for .NET-hez?
-További oktatóanyagokat és dokumentációt találhat[itt](https://reference.aspose.com/words/net/).
+### Hol találok további oktatóanyagokat az Aspose.Words for .NET-ről?
+További oktatóanyagokat és dokumentációkat találhat [itt](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

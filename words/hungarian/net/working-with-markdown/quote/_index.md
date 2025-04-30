@@ -1,37 +1,39 @@
 ---
-title: Idézet
-linktitle: Idézet
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan adhat idézőjeleket és beágyazott idézőjeleket Word-dokumentumaihoz az Aspose.Words for .NET használatával. Kövesse ezt a lépésenkénti útmutatót a dokumentumkészítés elsajátításához.
-weight: 10
-url: /hu/net/working-with-markdown/quote/
+"description": "Tanuld meg, hogyan adhatsz hozzá idézőjeleket és beágyazott blokkidézeteket Word-dokumentumaidhoz az Aspose.Words for .NET segítségével. Kövesd ezt a lépésről lépésre szóló útmutatót a dokumentumkészítés elsajátításához."
+"linktitle": "Idézet"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Idézet"
+"url": "/hu/net/working-with-markdown/quote/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Idézet
 
 ## Bevezetés
 
-Előfordult már, hogy elakadt, amikor .NET használatával próbált idézőjeleket hozzáadni egy Word-dokumentumhoz? Igazi gond lehet, nem? De ne aggódjon, mert ma megmutatom, hogyan sajátíthatja el az idézetek beszúrásának művészetét az Aspose.Words for .NET segítségével. Ennek az oktatóanyagnak a végére profiként szeli át a dokumentumkészítést!
+Elakadtál már azzal, hogy idézőjeleket próbáltál beszúrni egy .NET-es Word-dokumentumba? Igazi macera lehet, igaz? De ne aggódj, mert ma megmutatom, hogyan sajátíthatod el az idézőjelek beszúrásának művészetét a dokumentumokba az Aspose.Words for .NET segítségével. A bemutató végére profiként fogsz haladni a dokumentumok létrehozásával!
 
-Az Aspose.Words for .NET egy hihetetlen könyvtár, amely a Word-dokumentumokkal való munkát egyszerűvé teszi. Akár tapasztalt fejlesztő, akár csak most kezdi, ez az útmutató végigvezeti Önt mindenen, amit tudnia kell az idézetek hozzáadásával kapcsolatban, beleértve a beágyazott idézőjeleket is, oly módon, hogy vonzó és könnyen követhető legyen. Szóval, merüljünk bele!
+Az Aspose.Words for .NET egy hihetetlen könyvtár, amely gyerekjátékká teszi a Word dokumentumokkal való munkát. Akár tapasztalt fejlesztő vagy, akár most kezded, ez az útmutató végigvezet mindent, amit az idézetek, beleértve a beágyazott blokkidézeteket is, hozzáadásáról tudni kell, egy lebilincselő és könnyen követhető módon. Szóval, vágjunk bele!
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, néhány dolgot meg kell tennie:
+Mielőtt belekezdenénk, van néhány dolog, amire szükséged lesz:
 
--  Aspose.Words for .NET: Letöltheti[itt](https://releases.aspose.com/words/net/).
-- .NET fejlesztői környezet: Győződjön meg arról, hogy telepítve van a Visual Studio vagy bármely más .NET IDE.
-- Alapvető C# ismeretek: Ez az oktatóanyag feltételezi, hogy rendelkezik alapvető ismeretekkel a C# programozásról.
+- Aspose.Words .NET-hez: Letöltheti [itt](https://releases.aspose.com/words/net/).
+- .NET fejlesztői környezet: Győződjön meg róla, hogy telepítve van a Visual Studio vagy bármilyen más .NET IDE.
+- C# alapismeretek: Ez az oktatóanyag feltételezi, hogy rendelkezel C# programozási alapismeretekkel.
 
-Minden készen van? Nagy! Lépjünk be a névterek importálásának és a projektünk beállításának aprólékos dolgaiba.
+Minden készen áll? Remek! Vágjunk bele a névterek importálásának és a projekt beállításának részleteibe.
 
 ## Névterek importálása
 
-Először is importálnunk kell a szükséges névtereket az Aspose.Words használatához. Ez elég egyértelmű. Csak adja hozzá a következőket a C# fájl tetején található direktívák használatával:
+Először is importálnunk kell a szükséges névtereket az Aspose.Words használatához. Ez elég egyszerű. Csak add hozzá a következőket direktívák használatával a C# fájlod elejéhez:
 
 ```csharp
 using Aspose.Words;
@@ -39,73 +41,78 @@ using Aspose.Words.Drawing;
 using Aspose.Words.Tables;
 ```
 
-Ezek a névterek hozzáférést biztosítanak a Word-dokumentumok kezeléséhez szükséges osztályokhoz és metódusokhoz. Most bontsuk fel a példát kezelhető lépésekre.
+Ezek a névterek hozzáférést biztosítanak azokhoz az osztályokhoz és metódusokhoz, amelyekre szükséged lesz a Word-dokumentumok kezeléséhez. Most bontsuk le a példát kezelhető lépésekre.
 
-## 1. lépés: Hozzon létre egy DocumentBuilder-példányt
+## 1. lépés: DocumentBuilder-példány létrehozása
 
- A kezdéshez létre kell hoznunk egy példányt a`DocumentBuilder` osztály. Ez az osztály lehetővé teszi számunkra, hogy tartalmat adjunk a dokumentumunkhoz.
+Kezdésként létre kell hoznunk egy példányt a `DocumentBuilder` osztály. Ez az osztály lehetővé teszi számunkra, hogy tartalmat adjunk a dokumentumunkhoz.
 
 ```csharp
-// Használjon dokumentumkészítőt, hogy tartalmat adjon a dokumentumhoz.
+// Használjon dokumentumszerkesztőt tartalom hozzáadásához a dokumentumhoz.
 DocumentBuilder builder = new DocumentBuilder();
 ```
 
- A`DocumentBuilder` osztály az Ön átjárója a dokumentum elkészítéséhez és testreszabásához. Tekintsd ezt varázspálcádnak a Word-dokumentumok létrehozásához!
+A `DocumentBuilder` A kurzus a kapu a dokumentumok elkészítéséhez és testreszabásához. Gondolj rá úgy, mint egy varázspálcára Word-dokumentumok létrehozásához!
 
-## 2. lépés: Adjon hozzá egy blokk idézetet
+## 2. lépés: Blokkidézet hozzáadása
 
-Ezután adunk hozzá egy alapvető idézetet a dokumentumunkhoz. Alapértelmezés szerint a dokumentum az első szintre tárolja a blockquote stílust. Íme a kódrészlet ennek eléréséhez:
+Következő lépésként hozzáadunk egy alapvető idézetblokkot a dokumentumunkhoz. Alapértelmezés szerint a dokumentum az első szinten tárolja az idézetblokkot. Íme a kódrészlet, amellyel ezt elérhetjük:
 
 ```csharp
-// Alapértelmezés szerint a dokumentum az első szintre tárolja a blockquote stílust.
+// Alapértelmezés szerint a dokumentum az első szinthez a blokkidézet stílust tárolja.
 builder.ParagraphFormat.StyleName = "Quote";
 builder.Writeln("Blockquote");
 ```
 
-Ez a kód „Idézet”-re állítja a bekezdésstílust, és blokk idézetet ír a dokumentumba. Egyszerű, igaz?
+Ez a kód a bekezdésstílust „Idézet”-re állítja, és egy blokkidézetet ír a dokumentumba. Egyszerű, ugye?
 
-## 3. lépés: Hozzon létre stílusokat a beágyazott szintek számára
+## 3. lépés: Stílusok létrehozása beágyazott szintekhez
 
-Most egy kicsit fűszerezzük a dolgokat azzal, hogy stílusokat hozunk létre a beágyazott idézőjel-szintekhez. Itt válnak érdekessé a dolgok. Létrehozunk egy új stílust, és alapstílusát "Idézet"-re állítjuk:
+Most pedig dobjuk fel egy kicsit a dolgokat azzal, hogy stílusokat hozunk létre a beágyazott blokkidézet-szintekhez. Itt válik érdekessé a dolog. Létrehozunk egy új stílust, és az alapstílusát "Idézet"-re állítjuk:
 
 ```csharp
-// Hozzon létre stílusokat a beágyazott szintek számára a stílusörökléssel.
+// Stílusok létrehozása beágyazott szintekhez stílusöröklés segítségével.
 Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
 builder.Writeln("1. Nested blockquote");
 ```
 
-Ez a kódrészlet létrehoz egy új stílust „Idézet1” néven, alapstílusát „Idézet”-re állítja, és beágyazott idézőjelet ír. Most már van egy beágyazott idézet a dokumentumban!
+Ez a kódrészlet létrehoz egy új stílust, melynek neve „Quote1”, az alapstílusát „Quote”-ra állítja, és egy beágyazott idézetblokkot ír. Most már van egy beágyazott idézeted a dokumentumodban!
 
 ## Következtetés
 
-És megvan! Létrehozott egy Word-dokumentumot idézőjelekkel és beágyazott idézőjelekkel az Aspose.Words for .NET használatával. Hát nem fantasztikus? Ezekkel az egyszerű lépésekkel most egy csipetnyi eleganciát varázsolhat dokumentumaiba gyönyörűen formázott idézetekkel. Ne feledje, a gyakorlás teszi a mestert, ezért folytassa a kísérletezést és a képességek fejlesztését.
+És tessék! Most létrehoztál egy idézetekkel és beágyazott blokkidézetekkel ellátott Word-dokumentumot az Aspose.Words for .NET segítségével. Ugye, milyen nagyszerű? Ezekkel az egyszerű lépésekkel mostantól egy csipetnyi eleganciát adhatsz a dokumentumaidnak gyönyörűen formázott idézetekkel. Ne feledd, a gyakorlat teszi a mestert, ezért folyamatosan kísérletezz és fejleszd a képességeidet.
 
 ## GYIK
 
-### Mi az Aspose.Words for .NET?
+### Mi az Aspose.Words .NET-hez?
 
-Az Aspose.Words for .NET egy hatékony könyvtár a Word dokumentumokkal való munkavégzéshez .NET alkalmazásokban. Lehetővé teszi Word-dokumentumok programozott létrehozását, módosítását és konvertálását.
+Az Aspose.Words for .NET egy hatékony függvénytár, amely lehetővé teszi Word-dokumentumok .NET-alkalmazásokban történő kezelését. Lehetővé teszi Word-dokumentumok programozott létrehozását, módosítását és konvertálását.
 
-### Használhatom ingyenesen az Aspose.Words for .NET-et?
+### Ingyenesen használhatom az Aspose.Words for .NET-et?
 
-Ideiglenes licenccel ingyenesen kipróbálhatja az Aspose.Words for .NET-et. Megkaphatod[itt](https://purchase.aspose.com/temporary-license/).
+Az Aspose.Words for .NET programot ingyenesen kipróbálhatod egy ideiglenes licenccel. Megszerezheted [itt](https://purchase.aspose.com/temporary-license/).
 
-### Létezik részletes dokumentáció az Aspose.Words for .NET-hez?
+### Van részletes dokumentáció az Aspose.Words for .NET-hez?
 
- Igen, megtalálja a részletes dokumentációt[itt](https://reference.aspose.com/words/net/).
+Igen, részletes dokumentációt találhat [itt](https://reference.aspose.com/words/net/).
 
 ### Hogyan kaphatok támogatást az Aspose.Words for .NET-hez?
 
- Támogatásért keresse fel az Aspose.Words fórumot[itt](https://forum.aspose.com/c/words/8).
+Támogatásért látogassa meg az Aspose.Words fórumot [itt](https://forum.aspose.com/c/words/8).
 
-### Honnan tölthetem le az Aspose.Words for .NET fájlt?
+### Hol tudom letölteni az Aspose.Words .NET-hez készült verzióját?
 
- Az Aspose.Words for .NET letölthető innen[itt](https://releases.aspose.com/words/net/).
+Az Aspose.Words .NET-hez való verzióját innen töltheti le: [itt](https://releases.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

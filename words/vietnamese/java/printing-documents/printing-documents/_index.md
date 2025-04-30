@@ -1,14 +1,16 @@
 ---
-title: In tài liệu trong Aspose.Words cho Java
-linktitle: In ấn tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách in tài liệu bằng Aspose.Words cho Java. Hướng dẫn từng bước để in liền mạch trong các ứng dụng Java của bạn.
-weight: 10
-url: /vi/java/printing-documents/printing-documents/
+"description": "Tìm hiểu cách in tài liệu bằng Aspose.Words cho Java. Hướng dẫn từng bước để in liền mạch trong các ứng dụng Java của bạn."
+"linktitle": "In ấn tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "In tài liệu trong Aspose.Words cho Java"
+"url": "/vi/java/printing-documents/printing-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # In tài liệu trong Aspose.Words cho Java
@@ -29,7 +31,7 @@ Trước khi tìm hiểu sâu hơn về mã, hãy đảm bảo bạn đã đáp 
 
 ## Đang tải tài liệu
 
- Để bắt đầu, bạn sẽ cần tải tài liệu Word mà bạn muốn in. Thay thế`"Your Document Directory"` với đường dẫn đến tài liệu của bạn và`"Your Output Directory"` với thư mục đầu ra mong muốn.
+Để bắt đầu, bạn sẽ cần tải tài liệu Word mà bạn muốn in. Thay thế `"Your Document Directory"` với đường dẫn đến tài liệu của bạn và `"Your Output Directory"` với thư mục đầu ra mong muốn.
 
 ```java
 string dataDir = "Your Document Directory";
@@ -85,7 +87,7 @@ class MultipagePrintDocument implements Printable
     private final AttributeSet mAttributeSet;
     /// <tóm tắt>
     /// Hàm khởi tạo của lớp PrintDocument tùy chỉnh.
-    // / </tóm tắt>
+    /// </tóm tắt> 
     public MultipagePrintDocument(Document document, int pagesPerSheet, boolean printPageBorders,
                                   AttributeSet attributes) {
         if (document == null)
@@ -96,7 +98,7 @@ class MultipagePrintDocument implements Printable
         mAttributeSet = attributes;
     }
     public int print(Graphics g, PageFormat pf, int page) {
-        //Chỉ mục bắt đầu và kết thúc của trang được xác định trong tập thuộc tính.
+        // Chỉ mục bắt đầu và kết thúc của trang được xác định trong tập thuộc tính.
         int[][] pageRanges = ((PageRanges) mAttributeSet.get(PageRanges.class)).getMembers();
         int fromPage = pageRanges[0][0] - 1;
         int toPage = pageRanges[0][1] - 1;
@@ -132,12 +134,12 @@ class MultipagePrintDocument implements Printable
                 // Giá trị trả về hữu ích là tỷ lệ hiển thị của trang.
                 float scale = mDocument.renderToSize(pageIndex, (Graphics2D) g, leftPos, topPos, (int) thumbSize.x,
                         (int) thumbSize.y);
-                //Vẽ đường viền trang (hình thu nhỏ của trang có thể nhỏ hơn hình thu nhỏ
+                // Vẽ đường viền trang (hình thu nhỏ của trang có thể nhỏ hơn hình thu nhỏ
                 // kích thước chỗ giữ chỗ).
                 if (mPrintPageBorders) {
                     // Nhận được kích thước thực 100% của trang theo điểm.
                     Point2D.Float pageSize = mDocument.getPageInfo(pageIndex).getSizeInPoints();
-                    // Vẽ đường viền xung quanh trang đã chia tỷ lệ bằng hệ số tỷ lệ đã biết.
+                    // Vẽ đường viền xung quanh trang đã chia tỷ lệ bằng cách sử dụng hệ số tỷ lệ đã biết.
                     g.setColor(Color.black);
                     g.drawRect(leftPos, topPos, (int) (pageSize.x * scale), (int) (pageSize.y * scale));
                     // Vẽ đường viền xung quanh chỗ giữ hình thu nhỏ.
@@ -194,7 +196,7 @@ Xin chúc mừng! Bạn đã in thành công một tài liệu Word bằng Aspos
 
 ### Câu hỏi 1: Tôi có thể in các trang cụ thể của tài liệu bằng Aspose.Words cho Java không?
 
- Có, bạn có thể chỉ định phạm vi trang khi in tài liệu. Trong ví dụ mã, chúng tôi đã sử dụng`attributes.add(new PageRanges(1, doc.getPageCount()))`để in tất cả các trang. Bạn có thể điều chỉnh phạm vi trang khi cần.
+Có, bạn có thể chỉ định phạm vi trang khi in tài liệu. Trong ví dụ mã, chúng tôi đã sử dụng `attributes.add(new PageRanges(1, doc.getPageCount()))` để in tất cả các trang. Bạn có thể điều chỉnh phạm vi trang khi cần.
 
 ### Câu hỏi 2: Aspose.Words cho Java có phù hợp để in hàng loạt không?
 
@@ -210,14 +212,19 @@ Có, bạn có thể tùy chỉnh cài đặt in để đáp ứng các yêu c�
 
 ### Câu hỏi 5: Tôi có thể nhận thêm trợ giúp và hỗ trợ cho Aspose.Words for Java ở đâu?
 
- Để được hỗ trợ và trợ giúp thêm, bạn có thể truy cập[Diễn đàn Aspose.Words cho Java](https://forum.aspose.com/).
+Để được hỗ trợ và trợ giúp thêm, bạn có thể truy cập [Diễn đàn Aspose.Words cho Java](https://forum.aspose.com/).
 
 ---
 
 Bây giờ bạn đã học thành công cách in tài liệu bằng Aspose.Words for Java, bạn có thể bắt đầu triển khai chức năng này trong các ứng dụng Java của mình. Chúc bạn viết mã vui vẻ!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

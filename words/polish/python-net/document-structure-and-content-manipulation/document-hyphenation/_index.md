@@ -1,14 +1,16 @@
 ---
-title: Zarządzanie podziałem wyrazów i przepływem tekstu w dokumentach Word
-linktitle: Zarządzanie podziałem wyrazów i przepływem tekstu w dokumentach Word
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Dowiedz się, jak zarządzać dzieleniem wyrazów i przepływem tekstu w dokumentach Worda za pomocą Aspose.Words dla Pythona. Twórz dopracowane, przyjazne dla czytelnika dokumenty z przykładami krok po kroku i kodem źródłowym.
-weight: 17
-url: /pl/python-net/document-structure-and-content-manipulation/document-hyphenation/
+"description": "Dowiedz się, jak zarządzać dzieleniem wyrazów i przepływem tekstu w dokumentach Worda za pomocą Aspose.Words dla Pythona. Twórz dopracowane, przyjazne dla czytelnika dokumenty z przykładami krok po kroku i kodem źródłowym."
+"linktitle": "Zarządzanie podziałem wyrazów i przepływem tekstu w dokumentach Word"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Zarządzanie podziałem wyrazów i przepływem tekstu w dokumentach Word"
+"url": "/pl/python-net/document-structure-and-content-manipulation/document-hyphenation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zarządzanie podziałem wyrazów i przepływem tekstu w dokumentach Word
@@ -110,15 +112,15 @@ Wdowy (pojedyncze linie na górze strony) i sieroty (pojedyncze linie na dole) m
 
 Skuteczne zarządzanie dzieleniem wyrazów i przepływem tekstu jest niezbędne do tworzenia dopracowanych i przyjaznych dla czytelnika dokumentów Word. Dzięki Aspose.Words for Python masz narzędzia do wdrażania strategii dzielenia wyrazów, kontrolowania przepływu tekstu i poprawy ogólnej estetyki dokumentu.
 
- Aby uzyskać bardziej szczegółowe informacje i przykłady, zapoznaj się z[Dokumentacja API](https://reference.aspose.com/words/python-net/).
+Aby uzyskać bardziej szczegółowe informacje i przykłady, zapoznaj się z [Dokumentacja API](https://reference.aspose.com/words/python-net/).
 
 ## Często zadawane pytania
 
 ### Jak włączyć automatyczne dzielenie wyrazów w dokumencie?
 
- Aby włączyć automatyczne dzielenie wyrazów, ustaw`auto_hyphenation` opcja do`True` używając Aspose.Words dla Pythona.
+Aby włączyć automatyczne dzielenie wyrazów, ustaw `auto_hyphenation` opcja do `True` używając Aspose.Words dla Pythona.
 
-### Czy mogę ręcznie kontrolować, gdzie dane słowo ma się dzielić?
+### Czy mogę ręcznie kontrolować, gdzie następuje podział wyrazu?
 
 Tak, możesz ręcznie wstawić myślnik w wybranym punkcie podziału, aby kontrolować podział wyrazów.
 
@@ -132,11 +134,16 @@ Aby zapobiec powstawaniu wdów i sierot, skorzystaj z opcji udostępnionych prze
 
 ### Gdzie mogę uzyskać dostęp do dokumentacji Aspose.Words dla języka Python?
 
- Dokumentację API można uzyskać pod adresem[https://reference.aspose.com/words/python-net/](https://reference.aspose.com/words/python-net/).
+Dokumentację API można uzyskać pod adresem [https://reference.aspose.com/words/python-net/](https://reference.aspose.com/words/python-net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: ปรับเปลี่ยนการจัดรูปแบบเซลล์
-linktitle: ปรับเปลี่ยนการจัดรูปแบบเซลล์
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการปรับเปลี่ยนการจัดรูปแบบเซลล์ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้
-weight: 10
-url: /th/net/programming-with-table-styles-and-formatting/modify-cell-formatting/
+"description": "เรียนรู้วิธีการปรับเปลี่ยนการจัดรูปแบบเซลล์ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้"
+"linktitle": "ปรับเปลี่ยนการจัดรูปแบบเซลล์"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ปรับเปลี่ยนการจัดรูปแบบเซลล์"
+"url": "/th/net/programming-with-table-styles-and-formatting/modify-cell-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ปรับเปลี่ยนการจัดรูปแบบเซลล์
@@ -21,10 +23,10 @@ url: /th/net/programming-with-table-styles-and-formatting/modify-cell-formatting
 
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1. Aspose.Words สำหรับ .NET - คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET - คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 2. Visual Studio - หรือ IDE อื่น ๆ ตามที่คุณเลือก
 3. ความรู้พื้นฐานเกี่ยวกับ C# - จะช่วยให้คุณทำตามตัวอย่างโค้ดได้
-4.  เอกสาร Word - โดยเฉพาะเอกสารที่มีตาราง เราจะใช้ไฟล์ชื่อ`Tables.docx`.
+4. เอกสาร Word - โดยเฉพาะเอกสารที่มีตาราง เราจะใช้ไฟล์ชื่อ `Tables-docx`.
 
 ## นำเข้าเนมสเปซ
 
@@ -43,13 +45,13 @@ using System.Drawing;
 ขั้นแรก คุณต้องโหลดเอกสาร Word ที่มีตารางที่คุณต้องการแก้ไข ซึ่งก็เหมือนกับการเปิดไฟล์ในโปรแกรมประมวลผลคำที่คุณชอบ แต่เราจะใช้วิธีเขียนโปรแกรม
 
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- ในขั้นตอนนี้เราจะใช้`Document` คลาสจาก Aspose.Words เพื่อโหลดเอกสาร อย่าลืมแทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงไปยังเอกสารของคุณ
+ในขั้นตอนนี้เราจะใช้ `Document` คลาสจาก Aspose.Words เพื่อโหลดเอกสาร อย่าลืมแทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงไปยังเอกสารของคุณ
 
 ## ขั้นตอนที่ 2: เข้าถึงตาราง
 
@@ -59,7 +61,7 @@ Document doc = new Document(dataDir + "Tables.docx");
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 ```
 
-ที่นี่เราใช้`GetChild` วิธีการรับตารางแรกในเอกสาร`NodeType.Table` พารามิเตอร์ระบุว่าเรากำลังมองหาตารางและ`0` หมายถึงตารางแรก`true` พารามิเตอร์ช่วยให้แน่ใจว่าการค้นหาจะลึกลงไป ซึ่งหมายความว่าจะค้นหาผ่านโหนดย่อยทั้งหมด
+ที่นี่เราใช้ `GetChild` วิธีการรับตารางแรกในเอกสาร `NodeType.Table` พารามิเตอร์ระบุว่าเรากำลังมองหาตารางและ `0` หมายถึงตารางแรก `true` พารามิเตอร์ช่วยให้แน่ใจว่าการค้นหาจะลึกลงไป ซึ่งหมายความว่าจะค้นหาผ่านโหนดย่อยทั้งหมด
 
 ## ขั้นตอนที่ 3: เลือกเซลล์แรก
 
@@ -79,7 +81,7 @@ Cell firstCell = table.FirstRow.FirstCell;
 firstCell.CellFormat.Width = 30;
 ```
 
- ที่นี่เราจะตั้งค่า`Width` คุณสมบัติของรูปแบบเซลล์`30`การเปลี่ยนแปลงนี้จะเปลี่ยนความกว้างของเซลล์แรกเป็น 30 จุด
+ที่นี่เราจะตั้งค่า `Width` คุณสมบัติของรูปแบบเซลล์ `30`การเปลี่ยนแปลงนี้จะเปลี่ยนความกว้างของเซลล์แรกเป็น 30 จุด
 
 ## ขั้นตอนที่ 5: เปลี่ยนทิศทางข้อความ
 
@@ -89,7 +91,7 @@ firstCell.CellFormat.Width = 30;
 firstCell.CellFormat.Orientation = TextOrientation.Downward;
 ```
 
- โดยการตั้งค่า`Orientation`ทรัพย์สินที่จะ`TextOrientation.Downward`เราได้หมุนข้อความภายในเซลล์ให้คว่ำลง ซึ่งอาจมีประโยชน์ในการสร้างส่วนหัวตารางหรือหมายเหตุย่อยที่มีเอกลักษณ์เฉพาะ
+โดยการตั้งค่า `Orientation` ทรัพย์สินที่จะ `TextOrientation.Downward`เราได้หมุนข้อความภายในเซลล์ให้คว่ำลง ซึ่งอาจมีประโยชน์ในการสร้างส่วนหัวตารางหรือหมายเหตุย่อยที่มีเอกลักษณ์เฉพาะ
 
 ## ขั้นตอนที่ 6: ใช้การแรเงาเซลล์
 
@@ -99,7 +101,7 @@ firstCell.CellFormat.Orientation = TextOrientation.Downward;
 firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
 ```
 
- ในขั้นตอนนี้เราจะใช้`Shading` คุณสมบัติในการตั้งค่า`ForegroundPatternColor` ถึง`Color.LightGreen`การดำเนินการนี้จะเพิ่มสีพื้นหลังสีเขียวอ่อนให้กับเซลล์ ทำให้เซลล์โดดเด่นขึ้นมา
+ในขั้นตอนนี้เราจะใช้ `Shading` คุณสมบัติในการตั้งค่า `ForegroundPatternColor` ถึง `Color.LightGreen`การดำเนินการนี้จะเพิ่มสีพื้นหลังสีเขียวอ่อนให้กับเซลล์ ทำให้เซลล์โดดเด่นขึ้นมา
 
 ## บทสรุป
 
@@ -111,7 +113,7 @@ firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
 ใช่ คุณสามารถวนซ้ำผ่านเซลล์ในตารางของคุณและนำการจัดรูปแบบเดียวกันกับแต่ละเซลล์ได้
 
 ### ฉันจะบันทึกเอกสารที่แก้ไขได้อย่างไร?
- ใช้`doc.Save("output.docx")` วิธีการบันทึกการเปลี่ยนแปลงของคุณ
+ใช้ `doc.Save("output.docx")` วิธีการบันทึกการเปลี่ยนแปลงของคุณ
 
 ### เป็นไปได้ไหมที่จะทาเฉดสีที่แตกต่างกันลงบนเซลล์ต่างๆ กัน?
 แน่นอน! เพียงเข้าถึงแต่ละเซลล์ทีละเซลล์และตั้งค่าการแรเงา
@@ -120,10 +122,15 @@ firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
 Aspose.Words สำหรับ .NET ได้รับการออกแบบมาสำหรับภาษา .NET เช่น C# แต่ยังมีเวอร์ชันสำหรับแพลตฟอร์มอื่นด้วย
 
 ### ฉันสามารถหาเอกสารรายละเอียดเพิ่มเติมได้ที่ไหน
- คุณสามารถค้นหาเอกสารฉบับสมบูรณ์ได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารฉบับสมบูรณ์ได้ [ที่นี่](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

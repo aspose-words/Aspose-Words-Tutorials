@@ -1,14 +1,16 @@
 ---
-title: Korzystanie z paneli zadań rozszerzeń internetowych
-linktitle: Korzystanie z paneli zadań rozszerzeń internetowych
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dodawać i konfigurować panele zadań rozszerzeń internetowych w dokumentach programu Word przy użyciu Aspose.Words dla platformy .NET, korzystając ze szczegółowego samouczka krok po kroku.
-weight: 10
-url: /pl/net/programming-with-webextension/using-web-extension-task-panes/
+"description": "W tym szczegółowym samouczku krok po kroku dowiesz się, jak dodawać i konfigurować panele zadań rozszerzeń internetowych w dokumentach programu Word przy użyciu pakietu Aspose.Words for .NET."
+"linktitle": "Korzystanie z paneli zadań rozszerzeń internetowych"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Korzystanie z paneli zadań rozszerzeń internetowych"
+"url": "/pl/net/programming-with-webextension/using-web-extension-task-panes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie z paneli zadań rozszerzeń internetowych
@@ -21,10 +23,10 @@ Witamy w tym dogłębnym samouczku dotyczącym korzystania z okienek zadań rozs
 
 Zanim przejdziemy do konkretów, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
--  Aspose.Words dla .NET: Można go pobrać[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Można go pobrać [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne .NET: Visual Studio lub inne preferowane środowisko IDE.
 - Podstawowa znajomość języka C#: Ułatwi Ci to śledzenie przykładów kodu.
--  Licencja na Aspose.Words: Możesz kupić jedną[Tutaj](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+- Licencja na Aspose.Words: Możesz kupić jedną [Tutaj](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ## Importuj przestrzenie nazw
 
@@ -48,7 +50,7 @@ Po pierwsze, musimy ustawić ścieżkę do katalogu dokumentów. To tutaj zostan
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do folderu z dokumentami.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do folderu z dokumentami.
 
 ### Krok 2: Tworzenie nowego dokumentu
 
@@ -58,7 +60,7 @@ Następnie utworzymy nowy dokument Word za pomocą Aspose.Words.
 Document doc = new Document();
 ```
 
- Ta linia inicjuje nową instancję`Document` Klasa, która reprezentuje dokument Worda.
+Ta linia inicjuje nową instancję `Document` Klasa, która reprezentuje dokument Worda.
 
 ### Krok 3: Dodawanie panelu zadań
 
@@ -69,11 +71,11 @@ TaskPane taskPane = new TaskPane();
 doc.WebExtensionTaskPanes.Add(taskPane);
 ```
 
- Tutaj tworzymy nowy`TaskPane` obiekt i dodaj go do dokumentu`WebExtensionTaskPanes` kolekcja.
+Tutaj tworzymy nowy `TaskPane` obiekt i dodaj go do dokumentu `WebExtensionTaskPanes` kolekcja.
 
 ### Krok 4: Konfigurowanie panelu zadań
 
-Aby uczynić nasz Panel zadań widocznym i ustawić jego właściwości, używamy następującego kodu:
+Aby wyświetlić nasz Panel zadań i ustawić jego właściwości, używamy następującego kodu:
 
 ```csharp
 taskPane.DockState = TaskPaneDockState.Right;
@@ -96,7 +98,7 @@ taskPane.WebExtension.Reference.StoreType = WebExtensionStoreType.OMEX;
 taskPane.WebExtension.Reference.Store = "th-TH";
 ```
 
-- `Id`jest unikalnym identyfikatorem rozszerzenia internetowego.
+- `Id` jest unikalnym identyfikatorem rozszerzenia internetowego.
 - `Version` określa wersję rozszerzenia.
 - `StoreType` wskazuje rodzaj sklepu (w tym przypadku OMEX).
 - `Store` określa kod językowy/kulturowy sklepu.
@@ -109,11 +111,11 @@ Możesz dodać właściwości do swojego rozszerzenia internetowego, aby zdefini
 taskPane.WebExtension.Properties.Add(new WebExtensionProperty("mailchimpCampaign", "mailchimpCampaign"));
 ```
 
- Tutaj dodajemy właściwość o nazwie`mailchimpCampaign`.
+Tutaj dodajemy właściwość o nazwie `mailchimpCampaign`.
 
 ### Krok 7: Powiązanie rozszerzenia internetowego
 
-Na koniec dodajemy powiązania do naszego rozszerzenia internetowego. Powiązania pozwalają na łączenie rozszerzenia z określonymi częściami dokumentu.
+Na koniec dodajemy powiązania do naszego rozszerzenia internetowego. Powiązania pozwalają na połączenie rozszerzenia z określonymi częściami dokumentu.
 
 ```csharp
 taskPane.WebExtension.Bindings.Add(new WebExtensionBinding("UnnamedBinding_0_1506535429545", WebExtensionBindingType.Text, "194740422"));
@@ -161,19 +163,24 @@ I to wszystko! Udało Ci się dodać i skonfigurować panel zadań rozszerzenia 
 Okienko zadań to element interfejsu, który udostępnia dodatkowe narzędzia i funkcjonalności w dokumencie programu Word, zwiększając interakcję użytkownika i jego produktywność.
 
 ### Czy mogę dostosować wygląd Panelu zadań?
- Tak, możesz dostosować wygląd Panelu zadań, ustawiając takie właściwości, jak:`DockState`, `IsVisible` , I`Width`.
+Tak, możesz dostosować wygląd Panelu zadań, ustawiając takie właściwości, jak: `DockState`, `IsVisible`, I `Width`.
 
 ### Czym są właściwości rozszerzeń internetowych?
 Właściwości rozszerzenia internetowego to niestandardowe właściwości, które można dodać do rozszerzenia internetowego w celu zdefiniowania jego zachowania lub zawartości.
 
 ### Jak powiązać rozszerzenie internetowe z częścią dokumentu?
- Możesz powiązać rozszerzenie internetowe z częścią dokumentu za pomocą`WebExtensionBinding` Klasa, określająca typ powiązania i identyfikator docelowy.
+Możesz powiązać rozszerzenie internetowe z częścią dokumentu za pomocą `WebExtensionBinding` Klasa, określająca typ powiązania i identyfikator docelowy.
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Words dla .NET?
- Szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/words/net/).
+Szczegółową dokumentację można znaleźć [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

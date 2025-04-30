@@ -1,14 +1,16 @@
 ---
-title: Đánh dấu cột bảng trong tài liệu Word
-linktitle: Đánh dấu cột bảng trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách đánh dấu các cột bảng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn toàn diện, từng bước này.
-weight: 10
-url: /vi/net/programming-with-bookmarks/bookmark-table-columns/
+"description": "Tìm hiểu cách đánh dấu các cột bảng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này."
+"linktitle": "Đánh dấu cột bảng trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Đánh dấu cột bảng trong tài liệu Word"
+"url": "/vi/net/programming-with-bookmarks/bookmark-table-columns/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đánh dấu cột bảng trong tài liệu Word
@@ -21,7 +23,7 @@ Nếu bạn đang muốn nâng cao kỹ năng tự động hóa tài liệu củ
 
 Trước khi tìm hiểu về mã, bạn cần chuẩn bị một số thứ sau:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Thiết lập môi trường phát triển như Visual Studio.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ rất hữu ích.
 
@@ -39,7 +41,7 @@ Bây giờ, chúng ta hãy chia nhỏ quy trình thành các bước chi tiết.
 
 ## Bước 1: Khởi tạo Document và DocumentBuilder
 
- Đầu tiên, chúng ta cần tạo một tài liệu Word mới và khởi tạo`DocumentBuilder` để làm việc với nó.
+Đầu tiên, chúng ta cần tạo một tài liệu Word mới và khởi tạo `DocumentBuilder` để làm việc với nó.
 
 ```csharp
 Document doc = new Document();
@@ -121,20 +123,25 @@ Và bạn đã có nó! Bạn đã đánh dấu thành công các cột bảng t
 Aspose.Words for .NET là một thư viện mạnh mẽ để làm việc với các tài liệu Word theo chương trình. Nó cho phép bạn tạo, sửa đổi và chuyển đổi tài liệu mà không cần cài đặt Microsoft Word.
 
 ### Làm thế nào để cài đặt Aspose.Words cho .NET?
- Bạn có thể tải xuống Aspose.Words cho .NET từ[trang web](https://releases.aspose.com/words/net/). Thực hiện theo hướng dẫn cài đặt được cung cấp.
+Bạn có thể tải xuống Aspose.Words cho .NET từ [trang web](https://releases.aspose.com/words/net/). Thực hiện theo hướng dẫn cài đặt được cung cấp.
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET với các ngôn ngữ lập trình khác không?
 Có, Aspose.Words cho .NET có thể được sử dụng với bất kỳ ngôn ngữ nào hỗ trợ .NET, bao gồm C#, VB.NET và F#.
 
 ### Làm thế nào tôi có thể nhận được hỗ trợ cho Aspose.Words dành cho .NET?
- Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose và các chuyên gia bằng cách truy cập[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose và các chuyên gia bằng cách truy cập [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8).
 
 ### Có phiên bản dùng thử của Aspose.Words dành cho .NET không?
- Có, bạn có thể nhận được bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Có, bạn có thể nhận được bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

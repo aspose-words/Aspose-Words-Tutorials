@@ -1,14 +1,16 @@
 ---
-title: Clonage et combinaison de documents dans Aspose.Words pour Java
-linktitle: Clonage et combinaison de documents
-second_title: API de traitement de documents Java Aspose.Words
-description: Découvrez comment cloner et combiner des documents dans Aspose.Words pour Java. Guide étape par étape avec des exemples de code source.
-weight: 27
-url: /fr/java/document-manipulation/cloning-and-combining-documents/
+"description": "Apprenez à cloner et combiner des documents dans Aspose.Words pour Java. Guide étape par étape avec exemples de code source."
+"linktitle": "Clonage et combinaison de documents"
+"second_title": "API de traitement de documents Java Aspose.Words"
+"title": "Clonage et combinaison de documents dans Aspose.Words pour Java"
+"url": "/fr/java/document-manipulation/cloning-and-combining-documents/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Clonage et combinaison de documents dans Aspose.Words pour Java
@@ -16,11 +18,11 @@ url: /fr/java/document-manipulation/cloning-and-combining-documents/
 
 ## Introduction au clonage et à la combinaison de documents dans Aspose.Words pour Java
 
-Dans ce didacticiel, nous allons découvrir comment cloner et combiner des documents à l'aide d'Aspose.Words pour Java. Nous aborderons divers scénarios, notamment le clonage d'un document, l'insertion de documents aux points de remplacement, les signets et pendant les opérations de publipostage.
+Dans ce tutoriel, nous découvrirons comment cloner et combiner des documents avec Aspose.Words pour Java. Nous aborderons différents scénarios, notamment le clonage d'un document, l'insertion de documents aux points de remplacement, les signets et les opérations de publipostage.
 
-## Étape 1 : Cloner un document
+## Étape 1 : Clonage d'un document
 
- Pour cloner un document dans Aspose.Words pour Java, vous pouvez utiliser le`deepClone()` méthode. Voici un exemple simple :
+Pour cloner un document dans Aspose.Words pour Java, vous pouvez utiliser le `deepClone()` méthode. Voici un exemple simple :
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -30,9 +32,9 @@ clone.save("Your Directory Path" + "CloneAndCombineDocuments.CloningDocument.doc
 
 Ce code créera un clone profond du document d'origine et l'enregistrera en tant que nouveau fichier.
 
-## Étape 2 : insertion de documents aux points de remplacement
+## Étape 2 : Insertion de documents aux points de remplacement
 
-Vous pouvez insérer des documents à des points de remplacement spécifiques dans un autre document. Voici comment procéder :
+Vous pouvez insérer des documents à des emplacements spécifiques dans un autre document. Voici comment procéder :
 
 ```java
 Document mainDoc = new Document("Your Directory Path" + "Document insertion 1.docx");
@@ -43,7 +45,7 @@ mainDoc.getRange().replace(Pattern.compile("\\[MY_DOCUMENT\\]"), "", options);
 mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtReplace.docx");
 ```
 
- Dans cet exemple, nous utilisons un`FindReplaceOptions` objet pour spécifier un gestionnaire de rappel pour le remplacement.`InsertDocumentAtReplaceHandler` la classe gère la logique d'insertion.
+Dans cet exemple, nous utilisons un `FindReplaceOptions` objet pour spécifier un gestionnaire de rappel pour le remplacement. `InsertDocumentAtReplaceHandler` la classe gère la logique d'insertion.
 
 ## Étape 3 : Insérer des documents dans les signets
 
@@ -57,11 +59,11 @@ insertDocument(bookmark.getBookmarkStart().getParentNode(), subDoc);
 mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtBookmark.docx");
 ```
 
- Ici, nous trouvons le signet par nom et utilisons le`insertDocument` méthode pour insérer le contenu du`subDoc` document à l'emplacement du signet.
+Ici, nous trouvons le signet par nom et utilisons le `insertDocument` méthode pour insérer le contenu du `subDoc` document à l'emplacement du signet.
 
-## Étape 4 : insertion de documents lors du publipostage
+## Étape 4 : Insertion de documents lors du publipostage
 
-Vous pouvez insérer des documents lors d'une opération de publipostage dans Aspose.Words pour Java. Voici comment procéder :
+Vous pouvez insérer des documents lors d'une opération de publipostage dans Aspose.Words pour Java. Voici comment :
 
 ```java
 Document mainDoc = new Document("Your Directory Path" + "Document insertion 1.docx");
@@ -70,17 +72,17 @@ mainDoc.getMailMerge().execute(new String[] { "Document_1" }, new Object[] { "Yo
 mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtMailMerge.doc");
 ```
 
- Dans cet exemple, nous définissons un rappel de fusion de champs à l'aide de la fonction`InsertDocumentAtMailMergeHandler` classe pour gérer l'insertion du document spécifié par le champ « Document_1 ».
+Dans cet exemple, nous définissons un rappel de fusion de champs à l'aide de `InsertDocumentAtMailMergeHandler` classe pour gérer l'insertion du document spécifié par le champ « Document_1 ».
 
 ## Conclusion
 
-Le clonage et la combinaison de documents dans Aspose.Words pour Java peuvent être réalisés à l'aide de diverses techniques. Que vous ayez besoin de cloner un document, d'insérer du contenu aux points de remplacement, des signets ou pendant le publipostage, Aspose.Words fournit des fonctionnalités puissantes pour manipuler les documents de manière transparente.
+Le clonage et la combinaison de documents dans Aspose.Words pour Java peuvent être réalisés grâce à diverses techniques. Que vous ayez besoin de cloner un document, d'insérer du contenu aux points de remplacement, des signets ou lors d'un publipostage, Aspose.Words offre de puissantes fonctionnalités pour manipuler vos documents en toute fluidité.
 
 ## FAQ
 
 ### Comment cloner un document dans Aspose.Words pour Java ?
 
- Vous pouvez cloner un document dans Aspose.Words pour Java en utilisant le`deepClone()` méthode. Voici un exemple :
+Vous pouvez cloner un document dans Aspose.Words pour Java en utilisant le `deepClone()` méthode. Voici un exemple :
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -90,7 +92,7 @@ clone.save("Your Directory Path" + "ClonedDocument.docx");
 
 ### Comment puis-je insérer un document dans un signet ?
 
- Pour insérer un document dans un signet dans Aspose.Words pour Java, vous pouvez rechercher le signet par son nom, puis utiliser le`insertDocument` méthode pour insérer le contenu. Voici un exemple :
+Pour insérer un document dans un signet dans Aspose.Words pour Java, vous pouvez rechercher le signet par son nom, puis utiliser le `insertDocument` Méthode pour insérer le contenu. Voici un exemple :
 
 ```java
 Document mainDoc = new Document("Your Directory Path" + "MainDocument.docx");
@@ -102,7 +104,7 @@ mainDoc.save("Your Directory Path" + "CombinedDocument.docx");
 
 ### Comment insérer des documents lors du publipostage dans Aspose.Words pour Java ?
 
-Vous pouvez insérer des documents lors de la fusion de courrier dans Aspose.Words pour Java en définissant un rappel de fusion de champs et en spécifiant le document à insérer. Voici un exemple :
+Vous pouvez insérer des documents lors d'un publipostage dans Aspose.Words pour Java en définissant un rappel de fusion de champs et en spécifiant le document à insérer. Voici un exemple :
 
 ```java
 Document mainDoc = new Document("Your Directory Path" + "MainDocument.docx");
@@ -111,10 +113,15 @@ mainDoc.getMailMerge().execute(new String[] { "DocumentField" }, new Object[] { 
 mainDoc.save("Your Directory Path" + "MergedDocument.docx");
 ```
 
- Dans cet exemple, le`InsertDocumentAtMailMergeHandler`la classe gère la logique d'insertion du « DocumentField » lors du publipostage.
+Dans cet exemple, le `InsertDocumentAtMailMergeHandler` la classe gère la logique d'insertion du « DocumentField » lors du publipostage.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

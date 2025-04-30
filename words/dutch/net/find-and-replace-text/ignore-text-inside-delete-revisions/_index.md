@@ -1,29 +1,31 @@
 ---
-title: Negeer tekst binnen Verwijder revisies
-linktitle: Negeer tekst binnen Verwijder revisies
-second_title: Aspose.Words API voor documentverwerking
-description: Leer hoe u bijgehouden revisies in Word-documenten verwerkt met Aspose.Words voor .NET. Word een meester in documentautomatisering met deze uitgebreide tutorial.
-weight: 10
-url: /nl/net/find-and-replace-text/ignore-text-inside-delete-revisions/
+"description": "Leer hoe u met Aspose.Words voor .NET omgaat met bijgehouden revisies in Word-documenten. Beheers documentautomatisering met deze uitgebreide tutorial."
+"linktitle": "Negeer tekst in Verwijder revisies"
+"second_title": "Aspose.Words API voor documentverwerking"
+"title": "Negeer tekst in Verwijder revisies"
+"url": "/nl/net/find-and-replace-text/ignore-text-inside-delete-revisions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Negeer tekst binnen Verwijder revisies
+# Negeer tekst in Verwijder revisies
 
 ## Invoering
 
-In het domein van .NET-ontwikkeling onderscheidt Aspose.Words zich als een robuuste bibliotheek voor het programmatisch werken met Microsoft Word-documenten. Of u nu een doorgewinterde ontwikkelaar bent of net begint, het beheersen van de mogelijkheden van Aspose.Words kan uw vermogen om Word-documenten efficiënt te manipuleren, maken en beheren aanzienlijk verbeteren. Deze tutorial duikt in een van de krachtige functies: het verwerken van bijgehouden revisies binnen documenten met Aspose.Words voor .NET.
+Op het gebied van .NET-ontwikkeling onderscheidt Aspose.Words zich als een robuuste bibliotheek voor het programmatisch werken met Microsoft Word-documenten. Of je nu een ervaren ontwikkelaar bent of net begint, het beheersen van de mogelijkheden van Aspose.Words kan je vermogen om Word-documenten efficiënt te bewerken, maken en beheren aanzienlijk verbeteren. Deze tutorial duikt in een van de krachtige functies: het bijhouden van revisies in documenten met Aspose.Words voor .NET.
 
 ## Vereisten
 
 Voordat u met deze tutorial aan de slag gaat, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 - Basiskennis van de programmeertaal C#.
 - Visual Studio op uw systeem geïnstalleerd.
--  Aspose.Words voor .NET-bibliotheek geïntegreerd in uw project. U kunt het downloaden van[hier](https://releases.aspose.com/words/net/).
--  Toegang tot Aspose.Words voor .NET[documentatie](https://reference.aspose.com/words/net/) ter referentie.
+- Aspose.Words voor de .NET-bibliotheek geïntegreerd in uw project. U kunt het downloaden van [hier](https://releases.aspose.com/words/net/).
+- Toegang tot Aspose.Words voor .NET [documentatie](https://reference.aspose.com/words/net/) ter referentie.
 
 ## Naamruimten importeren
 
@@ -36,7 +38,7 @@ using Aspose.Words.Replacing;
 ```
 ## Stap 1: Maak een nieuw document en voeg tekst in
 
- Initialiseer eerst een nieuw exemplaar van`Document` en een`DocumentBuilder` om te beginnen met het maken van uw document:
+Initialiseer eerst een nieuw exemplaar van `Document` en een `DocumentBuilder` om te beginnen met het samenstellen van uw document:
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -44,7 +46,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Stap 2: Tekst invoegen en revisies bijhouden
 
-kunt tekst in het document invoegen en revisies bijhouden door het bijhouden van revisies te starten en te stoppen:
+U kunt tekst in het document invoegen en revisies bijhouden door het bijhouden van revisies te starten en te stoppen:
 ```csharp
 builder.Writeln("Deleted");
 builder.Write("Text");
@@ -73,28 +75,33 @@ Console.WriteLine(doc.GetText());
 
 ## Conclusie
 
-Beheersing van bijgehouden revisies in Word-documenten met Aspose.Words voor .NET stelt ontwikkelaars in staat om documentbewerkingstaken efficiënt te automatiseren. Door gebruik te maken van de uitgebreide API en robuuste functies, kunt u naadloos revisieverwerking integreren in uw toepassingen, wat de productiviteit en documentbeheermogelijkheden verbetert.
+Door revisies in Word-documenten bij te houden met Aspose.Words voor .NET, kunnen ontwikkelaars documentbewerkingstaken efficiënt automatiseren. Door gebruik te maken van de uitgebreide API en robuuste functies kunt u revisieverwerking naadloos integreren in uw applicaties, wat de productiviteit en documentbeheermogelijkheden verbetert.
 
 ## Veelgestelde vragen
 
 ### Wat zijn bijgehouden revisies in Word-documenten?
-Bijgehouden revisies in Word-documenten zijn wijzigingen die in een document zijn aangebracht en die voor anderen zichtbaar zijn via markeringen. Deze wijzigingen worden vaak gebruikt voor gezamenlijke bewerking en revisie.
+Bijgehouden revisies in Word-documenten zijn wijzigingen in een document die voor anderen zichtbaar zijn via markeringen. Deze wijzigingen worden vaak gebruikt voor gezamenlijke bewerking en controle.
 
 ### Hoe kan ik Aspose.Words voor .NET integreren in mijn Visual Studio-project?
-kunt Aspose.Words voor .NET integreren door de bibliotheek te downloaden van de Aspose-website en ernaar te verwijzen in uw Visual Studio-project.
+U kunt Aspose.Words voor .NET integreren door de bibliotheek te downloaden van de Aspose-website en ernaar te verwijzen in uw Visual Studio-project.
 
 ### Kan ik bijgehouden revisies programmatisch terugdraaien met Aspose.Words voor .NET?
-Ja, u kunt bijgehouden revisies programmatisch beheren en terugdraaien met Aspose.Words voor .NET, waardoor u nauwkeurige controle krijgt over de workflows voor documentbewerking.
+Ja, u kunt bijgehouden revisies programmatisch beheren en terugdraaien met Aspose.Words voor .NET. Zo krijgt u nauwkeurige controle over de workflows voor het bewerken van documenten.
 
 ### Is Aspose.Words voor .NET geschikt voor het verwerken van grote documenten met bijgehouden revisies?
 Aspose.Words voor .NET is geoptimaliseerd voor het efficiënt verwerken van grote documenten, inclusief documenten met uitgebreide bijgehouden revisies.
 
 ### Waar kan ik meer bronnen en ondersteuning vinden voor Aspose.Words voor .NET?
- U kunt uitgebreide documentatie bekijken en ondersteuning krijgen van de Aspose.Words voor .NET-community op[Aspose.Woorden Forum](https://forum.aspose.com/c/words/8).
+U kunt uitgebreide documentatie bekijken en ondersteuning krijgen van de Aspose.Words voor .NET-community op [Aspose.Words Forum](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

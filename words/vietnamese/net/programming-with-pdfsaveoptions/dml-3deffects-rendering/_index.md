@@ -1,14 +1,16 @@
 ---
-title: Kết xuất 3D DML 3DEffects trong Tài liệu PDF
-linktitle: Kết xuất 3D DML 3DEffects trong Tài liệu PDF
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tạo hiệu ứng DML 3D tuyệt đẹp trong tài liệu PDF bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này.
-weight: 10
-url: /vi/net/programming-with-pdfsaveoptions/dml-3deffects-rendering/
+"description": "Tìm hiểu cách tạo hiệu ứng DML 3D tuyệt đẹp trong tài liệu PDF bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này."
+"linktitle": "Kết xuất 3D DML 3DEffects trong Tài liệu PDF"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Kết xuất 3D DML 3DEffects trong Tài liệu PDF"
+"url": "/vi/net/programming-with-pdfsaveoptions/dml-3deffects-rendering/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kết xuất 3D DML 3DEffects trong Tài liệu PDF
@@ -21,11 +23,11 @@ Bạn đã bao giờ muốn tạo các tài liệu PDF tuyệt đẹp với hi�
 
 Trước khi đi sâu vào mã, hãy đảm bảo bạn có mọi thứ cần thiết. Sau đây là danh sách các điều kiện tiên quyết để bạn bắt đầu:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn có thư viện Aspose.Words cho .NET. Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn có thư viện Aspose.Words cho .NET. Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 2. .NET Framework: Máy của bạn phải được cài đặt .NET Framework.
 3. Môi trường phát triển: Môi trường phát triển như Visual Studio.
 4. Tài liệu Word: Tài liệu Word có hiệu ứng 3D mà bạn muốn chuyển đổi sang PDF.
-5.  Giấy phép tạm thời: Để có đầy đủ chức năng, bạn có thể cần giấy phép tạm thời từ Aspose, bạn có thể nhận được[đây](https://purchase.aspose.com/temporary-license/).
+5. Giấy phép tạm thời: Để có đầy đủ chức năng, bạn có thể cần giấy phép tạm thời từ Aspose, bạn có thể nhận được [đây](https://purchase.aspose.com/temporary-license/).
 
 Với những điều kiện tiên quyết này, bạn đã sẵn sàng tạo hiệu ứng 3D trong tài liệu PDF của mình.
 
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Tại đây, chúng tôi xác định đường dẫn đến thư mục tài liệu của bạn và tải tài liệu Word bằng cách sử dụng`Document` lớp. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục của bạn.
+Tại đây, chúng tôi xác định đường dẫn đến thư mục tài liệu của bạn và tải tài liệu Word bằng cách sử dụng `Document` lớp. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục của bạn.
 
 ## Bước 2: Cấu hình tùy chọn lưu PDF
 
@@ -62,7 +64,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Chúng tôi tạo ra một trường hợp của`PdfSaveOptions` và thiết lập`Dml3DEffectsRenderingMode` ĐẾN`Advanced`. Điều này yêu cầu Aspose.Words hiển thị các hiệu ứng 3D bằng các cài đặt nâng cao, đảm bảo chúng trông ấn tượng nhất có thể trong PDF.
+Chúng tôi tạo ra một trường hợp của `PdfSaveOptions` và thiết lập `Dml3DEffectsRenderingMode` ĐẾN `Advanced`. Điều này yêu cầu Aspose.Words hiển thị các hiệu ứng 3D bằng các cài đặt nâng cao, đảm bảo chúng trông ấn tượng nhất có thể trong PDF.
 
 ## Bước 3: Lưu tài liệu dưới dạng PDF
 
@@ -72,7 +74,7 @@ Cuối cùng, chúng ta lưu tài liệu dưới dạng PDF bằng các tùy ch�
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.Dml3DEffectsRendering.pdf", saveOptions);
 ```
 
- Chúng tôi sử dụng`Save` phương pháp của`Document` lớp để lưu tài liệu Word dưới dạng PDF. Các tùy chọn lưu mà chúng tôi đã cấu hình trước đó được truyền dưới dạng tham số để đảm bảo hiệu ứng 3D được hiển thị đúng cách.
+Chúng tôi sử dụng `Save` phương pháp của `Document` lớp để lưu tài liệu Word dưới dạng PDF. Các tùy chọn lưu mà chúng tôi đã cấu hình trước đó được truyền dưới dạng tham số để đảm bảo hiệu ứng 3D được hiển thị đúng cách.
 
 ## Phần kết luận
 
@@ -94,14 +96,19 @@ Nếu tài liệu của bạn thiếu hiệu ứng 3D, bạn vẫn có thể chu
 
 ### Tôi có thể tùy chỉnh các khía cạnh khác của quá trình xuất PDF không?
 
-Chắc chắn rồi! Aspose.Words cung cấp nhiều tùy chọn để tùy chỉnh đầu ra PDF, bao gồm bố cục trang, cài đặt nén, v.v.
+Chắc chắn rồi! Aspose.Words cung cấp nhiều tùy chọn để tùy chỉnh đầu ra PDF, bao gồm bố cục trang, cài đặt nén và nhiều tùy chọn khác.
 
 ### Tôi có thể tìm tài liệu chi tiết hơn ở đâu?
 
- Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu toàn diện [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

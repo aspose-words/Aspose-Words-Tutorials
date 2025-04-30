@@ -1,14 +1,16 @@
 ---
-title: Nhận phân cách kiểu đoạn văn trong tài liệu Word
-linktitle: Nhận phân cách kiểu đoạn văn trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách xác định và xử lý các dấu phân cách kiểu đoạn văn trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn toàn diện, từng bước này.
-weight: 10
-url: /vi/net/document-formatting/get-paragraph-style-separator/
+"description": "Tìm hiểu cách xác định và xử lý các dấu phân cách kiểu đoạn văn trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn toàn diện, từng bước này."
+"linktitle": "Nhận phân cách kiểu đoạn văn trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Nhận phân cách kiểu đoạn văn trong tài liệu Word"
+"url": "/vi/net/document-formatting/get-paragraph-style-separator/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận phân cách kiểu đoạn văn trong tài liệu Word
@@ -23,7 +25,7 @@ Bạn đã bao giờ thử điều hướng qua mê cung của một tài liệu
 Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn có đủ mọi công cụ cần thiết:
 
 - Visual Studio: Đảm bảo bạn đã cài đặt. Nếu chưa, hãy tải xuống và cài đặt từ trang web của Microsoft.
-- Aspose.Words cho .NET: Nếu bạn chưa có, hãy tải phiên bản mới nhất[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Nếu bạn chưa có, hãy tải phiên bản mới nhất [đây](https://releases.aspose.com/words/net/).
 - Một tài liệu Word mẫu: Tài liệu này sẽ chứa các dấu phân cách kiểu đoạn văn để chúng ta làm việc. Bạn có thể tạo một dấu phân cách hoặc sử dụng một tài liệu hiện có.
 
 ## Nhập không gian tên
@@ -43,7 +45,7 @@ using System;
 Trước khi tìm hiểu về mã, hãy thiết lập dự án của bạn trong Visual Studio.
 
 1. Tạo một dự án mới: Mở Visual Studio và tạo một dự án Console App (.NET Framework) mới.
-2.  Cài đặt Aspose.Words cho .NET: Sử dụng NuGet Package Manager để cài đặt thư viện Aspose.Words cho .NET. Chỉ cần tìm kiếm`Aspose.Words` và nhấp vào 'Cài đặt'.
+2. Cài đặt Aspose.Words cho .NET: Sử dụng NuGet Package Manager để cài đặt thư viện Aspose.Words cho .NET. Chỉ cần tìm kiếm `Aspose.Words` và nhấp vào 'Cài đặt'.
 
 ## Bước 2: Tải tài liệu Word của bạn
 
@@ -55,7 +57,7 @@ Bây giờ dự án của bạn đã được thiết lập, hãy tải tài li�
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
 
-2.  Tải Tài liệu: Sử dụng`Document` lớp từ Aspose.Words để tải tài liệu của bạn.
+2. Tải Tài liệu: Sử dụng `Document` lớp từ Aspose.Words để tải tài liệu của bạn.
 
     ```csharp
     Document doc = new Document(dataDir + "Document.docx");
@@ -65,7 +67,7 @@ Bây giờ dự án của bạn đã được thiết lập, hãy tải tài li�
 
 Sau khi tài liệu đã được tải, đã đến lúc lặp lại các đoạn văn và xác định các dấu phân cách kiểu.
 
-1.  Lấy tất cả các đoạn văn: Lấy tất cả các đoạn văn trong tài liệu bằng cách sử dụng`GetChildNodes` phương pháp.
+1. Lấy tất cả các đoạn văn: Lấy tất cả các đoạn văn trong tài liệu bằng cách sử dụng `GetChildNodes` phương pháp.
 
     ```csharp
     foreach (Paragraph paragraph in doc.GetChildNodes(NodeType.Paragraph, true))
@@ -84,7 +86,7 @@ Sau khi tài liệu đã được tải, đã đến lúc lặp lại các đo�
 
 Bây giờ, hãy chạy mã của bạn và xem nó hoạt động như thế nào.
 
-1. Xây dựng và chạy: Xây dựng dự án của bạn và chạy nó. Nếu mọi thứ được thiết lập đúng, bạn sẽ thấy "Separator Found!" được in trong bảng điều khiển của bạn cho mỗi bộ phân cách kiểu trong tài liệu của bạn.
+1. Xây dựng và chạy: Xây dựng dự án của bạn và chạy nó. Nếu mọi thứ được thiết lập đúng, bạn sẽ thấy "Separator Found!" được in trong bảng điều khiển của bạn cho mỗi style separator trong tài liệu của bạn.
 
 ## Phần kết luận
 
@@ -102,13 +104,18 @@ Mặc dù bạn có thể xác định các bộ phân cách kiểu, việc sử
 Có, Aspose.Words cho .NET tương thích với cả .NET Framework và .NET Core.
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Words ở đâu?
- Bạn có thể nhận được sự hỗ trợ từ[Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8).
 
 ### Tôi có thể sử dụng Aspose.Words miễn phí không?
- Aspose.Words cung cấp một[dùng thử miễn phí](https://releases.aspose.com/) và cũng cung cấp[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
+Aspose.Words cung cấp một [dùng thử miễn phí](https://releases.aspose.com/) và cũng cung cấp [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

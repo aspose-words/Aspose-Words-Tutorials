@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Belge Biçimini Belirleme
-linktitle: Belge Formatının Belirlenmesi
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words ile Java'da belge biçimlerini nasıl algılayacağınızı öğrenin. DOC, DOCX ve daha fazlasını tanımlayın. Dosyaları verimli bir şekilde düzenleyin.
-weight: 25
-url: /tr/java/document-loading-and-saving/determining-document-format/
+"description": "Aspose.Words ile Java'da belge biçimlerini nasıl algılayacağınızı öğrenin. DOC, DOCX ve daha fazlasını tanımlayın. Dosyaları verimli bir şekilde düzenleyin."
+"linktitle": "Belge Formatının Belirlenmesi"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Belge Biçimini Belirleme"
+"url": "/tr/java/document-loading-and-saving/determining-document-format/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Belge Biçimini Belirleme
@@ -195,7 +197,7 @@ Java için Aspose.Words'de belge biçimlerini belirlemek, verimli belge işleme 
 
 ### Java için Aspose.Words'ü nasıl yüklerim?
 
- Java için Aspose.Words'ü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/java/)ve verilen kurulum talimatlarını izleyin.
+Java için Aspose.Words'ü şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/java/) ve verilen kurulum talimatlarını izleyin.
 
 ### Desteklenen belge biçimleri nelerdir?
 
@@ -203,18 +205,23 @@ Aspose.Words for Java, DOC, DOCX, RTF, HTML ve daha fazlası dahil olmak üzere 
 
 ### Aspose.Words for Java kullanarak şifrelenmiş belgeleri nasıl tespit edebilirim?
 
- Kullanabilirsiniz`FileFormatUtil.detectFileFormat()` Bu kılavuzda gösterildiği gibi şifrelenmiş belgeleri tespit etme yöntemi.
+Kullanabilirsiniz `FileFormatUtil.detectFileFormat()` Bu kılavuzda gösterildiği gibi şifrelenmiş belgeleri tespit etme yöntemi.
 
 ### Eski belge formatlarıyla çalışırken herhangi bir sınırlama var mı?
 
 MS Word 6 veya Word 95 gibi eski belge biçimleri, özellikler ve modern uygulamalarla uyumluluk açısından sınırlamalara sahip olabilir. Gerektiğinde bu belgeleri yükseltmeyi veya dönüştürmeyi düşünün.
 
-### Java uygulamamda belge formatı algılamayı otomatikleştirebilir miyim?
+### Java uygulamamda belge biçimi algılamayı otomatikleştirebilir miyim?
 
 Evet, sağlanan kodu Java uygulamanıza entegre ederek belge biçimi algılamayı otomatikleştirebilirsiniz. Bu, belgeleri algılanan biçimlerine göre işlemenize olanak tanır.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

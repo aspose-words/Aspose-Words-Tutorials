@@ -1,14 +1,16 @@
 ---
-title: दस्तावेज़ों का संयोजन और क्लोनिंग
-linktitle: दस्तावेज़ों का संयोजन और क्लोनिंग
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Aspose.Words का उपयोग करके Java में आसानी से दस्तावेज़ों को संयोजित और क्लोन करना सीखें। यह चरण-दर-चरण मार्गदर्शिका आपको वह सब कुछ बताती है जो आपको जानना आवश्यक है।
-weight: 10
-url: /hi/java/document-merging/combining-cloning-documents/
+"description": "Aspose.Words का उपयोग करके Java में आसानी से दस्तावेज़ों को संयोजित और क्लोन करना सीखें। यह चरण-दर-चरण मार्गदर्शिका आपको वह सब कुछ बताती है जो आपको जानना आवश्यक है।"
+"linktitle": "दस्तावेज़ों का संयोजन और क्लोनिंग"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "दस्तावेज़ों का संयोजन और क्लोनिंग"
+"url": "/hi/java/document-merging/combining-cloning-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # दस्तावेज़ों का संयोजन और क्लोनिंग
@@ -47,7 +49,7 @@ public class DocumentCombination {
 
 ## चरण 2: स्रोत दस्तावेज़ लोड करें
 
- इसके बाद, आपको उन स्रोत दस्तावेज़ों को लोड करना होगा जिन्हें आप संयोजित करना चाहते हैं। आप कई दस्तावेज़ों को अलग-अलग इंस्टेंस में लोड कर सकते हैं`Document` कक्षा।
+इसके बाद, आपको उन स्रोत दस्तावेज़ों को लोड करना होगा जिन्हें आप संयोजित करना चाहते हैं। आप कई दस्तावेज़ों को अलग-अलग इंस्टेंस में लोड कर सकते हैं `Document` कक्षा।
 
 ```java
 // स्रोत दस्तावेज़ लोड करें
@@ -77,7 +79,7 @@ doc1.save("combined_document.docx");
 
 ## चरण 1: Aspose.Words को आरंभ करें
 
-पिछले अनुभाग की तरह, Aspose.Words को आरंभीकृत करके प्रारंभ करें:
+पिछले अनुभाग की तरह, Aspose.Words को आरंभीकृत करके आरंभ करें:
 
 ```java
 import com.aspose.words.Document;
@@ -150,14 +152,19 @@ Aspose.Words for Java आपके Java अनुप्रयोगों मे
 
 ### क्या मैं क्लोन किए गए दस्तावेज़ों पर कस्टम स्टाइलिंग लागू कर सकता हूँ?
 
-बिल्कुल! Aspose.Words आपको क्लोन किए गए दस्तावेज़ों पर कस्टम स्टाइलिंग और फ़ॉर्मेटिंग लागू करने की अनुमति देता है। दस्तावेज़ की उपस्थिति पर आपका पूरा नियंत्रण है।
+बिलकुल! Aspose.Words आपको क्लोन किए गए दस्तावेज़ों पर कस्टम स्टाइलिंग और फ़ॉर्मेटिंग लागू करने की अनुमति देता है। दस्तावेज़ की उपस्थिति पर आपका पूरा नियंत्रण है।
 
 ### मैं Aspose.Words for Java के लिए और अधिक संसाधन और दस्तावेज़ कहां पा सकता हूं?
 
- आप Aspose.Words for Java के लिए व्यापक दस्तावेज़ और अतिरिक्त संसाधन यहां पा सकते हैं[यहाँ](https://reference.aspose.com/words/java/).
+आप Aspose.Words for Java के लिए व्यापक दस्तावेज़ और अतिरिक्त संसाधन यहां पा सकते हैं [यहाँ](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

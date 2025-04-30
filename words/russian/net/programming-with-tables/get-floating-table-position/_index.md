@@ -1,14 +1,16 @@
 ---
-title: Получить позицию плавающей таблицы
-linktitle: Получить позицию плавающей таблицы
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как получить плавающие позиции таблиц в документах Word с помощью Aspose.Words для .NET. Это подробное пошаговое руководство проведет вас через все, что вам нужно знать.
-weight: 10
-url: /ru/net/programming-with-tables/get-floating-table-position/
+"description": "Узнайте, как получить плавающие позиции таблиц в документах Word с помощью Aspose.Words для .NET. Это подробное пошаговое руководство проведет вас через все, что вам нужно знать."
+"linktitle": "Получить позицию плавающей таблицы"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Получить позицию плавающей таблицы"
+"url": "/ru/net/programming-with-tables/get-floating-table-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получить позицию плавающей таблицы
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-tables/get-floating-table-position/
 
 Прежде чем перейти к самой интересной части, вам необходимо подготовить несколько вещей:
 
-1.  Aspose.Words для .NET: Если вы еще этого не сделали, загрузите и установите Aspose.Words для .NET с сайта[Страница релизов Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: Если вы еще этого не сделали, загрузите и установите Aspose.Words для .NET с сайта [Страница релизов Aspose](https://releases.aspose.com/words/net/).
 2. Среда разработки: Убедитесь, что у вас настроена среда разработки .NET. Visual Studio — отличный вариант.
 3. Образец документа: Вам понадобится документ Word с плавающей таблицей. Вы можете создать его или использовать существующий документ. 
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Table wrapped by text.docx");
 ```
 
- На этом этапе вы по сути сообщаете Aspose.Words, где найти ваш документ. Обязательно замените`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему документу.
+На этом этапе вы по сути сообщаете Aspose.Words, где найти ваш документ. Обязательно замените `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему документу.
 
 ## Шаг 2: Доступ к таблицам в документе
 
@@ -106,7 +108,7 @@ if (table.TextWrapping == TextWrapping.Around)
 Плавающая таблица — это таблица, которая не прикреплена к тексту, но может перемещаться, как правило, с обтеканием ее текстом.
 
 ### Как определить, является ли таблица плавающей, с помощью Aspose.Words для .NET?
- Вы можете проверить, является ли таблица плавающей, изучив ее`TextWrapping` свойство. Если установлено значение`TextWrapping.Around`, стол плавает.
+Вы можете проверить, является ли таблица плавающей, изучив ее `TextWrapping` свойство. Если установлено значение `TextWrapping.Around`, стол плавает.
 
 ### Можно ли изменить свойства позиционирования плавающей таблицы?
 Да, используя Aspose.Words для .NET, вы можете изменять свойства позиционирования плавающей таблицы, чтобы настроить ее макет.
@@ -115,10 +117,15 @@ if (table.TextWrapping == TextWrapping.Around)
 Конечно! Aspose.Words для .NET разработан для высокопроизводительной автоматизации документооборота и может эффективно выполнять крупномасштабные операции.
 
 ### Где я могу найти дополнительную информацию и ресурсы по Aspose.Words для .NET?
-Подробную документацию и ресурсы можно найти на сайте[Страница документации Aspose.Words для .NET](https://reference.aspose.com/words/net/).
+Подробную документацию и ресурсы можно найти на сайте [Страница документации Aspose.Words для .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

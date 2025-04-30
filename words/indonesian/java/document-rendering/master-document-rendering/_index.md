@@ -1,14 +1,16 @@
 ---
-title: Pembuatan Dokumen Master
-linktitle: Pembuatan Dokumen Master
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: 
-weight: 10
-url: /id/java/document-rendering/master-document-rendering/
+"description": null
+"linktitle": "Pembuatan Dokumen Master"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Pembuatan Dokumen Master"
+"url": "/id/java/document-rendering/master-document-rendering/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pembuatan Dokumen Master
@@ -28,11 +30,11 @@ Sebelum kita membahas rendering dokumen, mari kita mulai dengan Aspose.Words unt
 
 ### Instalasi dan Pengaturan
 
-Untuk menggunakan Aspose.Words untuk Java, Anda perlu menyertakan berkas JAR Aspose.Words dalam proyek Java Anda. Anda dapat mengunduh JAR dari Aspose Releases(https://releases.aspose.com/words/java/) dan menambahkannya ke classpath proyek Anda.
+Untuk menggunakan Aspose.Words untuk Java, Anda perlu menyertakan berkas JAR Aspose.Words dalam proyek Java Anda. Anda dapat mengunduh JAR dari Aspose Releases (https://releases.aspose.com/words/java/) dan menambahkannya ke classpath proyek Anda.
 
 ### Lisensi Aspose.Words untuk Java
 
- Untuk menggunakan Aspose.Words untuk Java dalam lingkungan produksi, Anda harus memperoleh lisensi yang valid. Tanpa lisensi, pustaka akan beroperasi dalam mode evaluasi, dengan beberapa batasan. Anda dapat memperoleh lisensi[lisensi](https://purchase.aspose.com/pricing) dan menerapkannya untuk membuka potensi penuh perpustakaan.
+Untuk menggunakan Aspose.Words untuk Java dalam lingkungan produksi, Anda harus memperoleh lisensi yang valid. Tanpa lisensi, pustaka akan beroperasi dalam mode evaluasi, dengan beberapa batasan. Anda dapat memperoleh lisensi [lisensi](https://purchase.aspose.com/pricing) dan menerapkannya untuk membuka potensi penuh perpustakaan.
 
 ## Memuat dan Memanipulasi Dokumen
 
@@ -148,9 +150,9 @@ saveOptions.setResolution(300);
 doc.save("output.png", saveOptions);
 ```
 
-### Menangani Penggantian Font
+### Menangani Substitusi Font
 
-Penggantian font dapat terjadi jika dokumen berisi font yang tidak tersedia pada sistem target. Aspose.Words menyediakan kelas FontSettings untuk menangani penggantian font.
+Penggantian font dapat terjadi jika dokumen berisi font yang tidak tersedia di sistem target. Aspose.Words menyediakan kelas FontSettings untuk menangani penggantian font.
 
 ```java
 // Aktifkan substitusi font
@@ -238,9 +240,14 @@ Aspose.Words memungkinkan Anda menerapkan proteksi kata sandi pada dokumen yang 
 ### Bisakah Aspose.Words menyajikan dokumen dalam berbagai bahasa?
 
 Ya, Aspose.Words mendukung rendering dokumen dalam berbagai bahasa dan menangani teks dengan pengodean karakter berbeda dengan mulus.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Memformat Tabel dalam Dokumen
-linktitle: Memformat Tabel dalam Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Kuasai seni memformat tabel dalam dokumen menggunakan Aspose.Words untuk Java. Jelajahi panduan langkah demi langkah dan contoh kode sumber untuk pemformatan tabel yang tepat.
-weight: 13
-url: /id/java/table-processing/formatting-tables/
+"description": "Kuasai seni memformat tabel dalam dokumen menggunakan Aspose.Words untuk Java. Jelajahi panduan langkah demi langkah dan contoh kode sumber untuk pemformatan tabel yang tepat."
+"linktitle": "Memformat Tabel dalam Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Memformat Tabel dalam Dokumen"
+"url": "/id/java/table-processing/formatting-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Memformat Tabel dalam Dokumen
@@ -22,10 +24,10 @@ Apakah Anda siap untuk mulai membuat tabel dalam dokumen Word dengan mudah mengg
 Sebelum Anda memulai pengkodean, pastikan Anda memiliki hal berikut:
 
 - Java Development Kit (JDK) terinstal di sistem Anda.
--  Aspose.Words untuk pustaka Java.[Unduh di sini](https://releases.aspose.com/words/java/).
+- Aspose.Words untuk pustaka Java. [Unduh di sini](https://releases.aspose.com/words/java/).
 - Pemahaman dasar tentang pemrograman Java.
 - IDE seperti IntelliJ IDEA, Eclipse, atau lainnya yang Anda sukai.
--  A[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk membuka kemampuan penuh Aspose.Words.
+- A [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk membuka kemampuan penuh Aspose.Words.
 
 ## Paket Impor
 
@@ -65,7 +67,7 @@ Cell firstCell = new Cell(doc);
 firstRow.appendChild(firstCell);
 ```
 
-- `Row`Mewakili baris dalam tabel.
+- `Row`: Mewakili baris dalam tabel.
 - `Cell`: Mewakili sel dalam baris.
 - `appendChild`: Menambahkan baris dan sel ke tabel.
 
@@ -102,7 +104,7 @@ builder.endRow();
 
 - `DocumentBuilder`: Menyederhanakan konstruksi dokumen.
 - `setHorizontalMerge`: Menggabungkan sel secara horizontal.
-- `write`: Menambahkan konten ke sel yang digabungkan.
+- `write`Menambahkan konten ke sel yang digabungkan.
 
 ## Langkah 5: Tambahkan Tabel Bersarang
 
@@ -142,19 +144,24 @@ builder.insertHyperlink("Google website", "https://www.google.com", salah);
 ```
 
 ### Dapatkah saya menggunakan Aspose.Words untuk Java secara gratis?  
- Anda dapat menggunakannya dengan batasan atau mendapatkan[uji coba gratis](https://releases.aspose.com/) untuk mengeksplorasi potensi penuhnya.
+Anda dapat menggunakannya dengan batasan atau mendapatkan [uji coba gratis](https://releases.aspose.com/) untuk mengeksplorasi potensi penuhnya.
 
 ### Bagaimana cara menggabungkan sel secara vertikal dalam tabel?  
- Gunakan`setVerticalMerge` metode dari`CellFormat` kelas, mirip dengan penggabungan horizontal.
+Gunakan `setVerticalMerge` metode dari `CellFormat` kelas, mirip dengan penggabungan horizontal.
 
 ### Bisakah saya menambahkan gambar ke sel tabel?  
- Ya, Anda bisa menggunakan`DocumentBuilder` untuk menyisipkan gambar ke dalam sel tabel.
+Ya, Anda bisa menggunakan `DocumentBuilder` untuk menyisipkan gambar ke dalam sel tabel.
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya tentang Aspose.Words untuk Java?  
- Periksa[dokumentasi](https://reference.aspose.com/words/java/) atau[forum dukungan](https://forum.aspose.com/c/words/8/) untuk panduan terperinci.
+Periksa [dokumentasi](https://reference.aspose.com/words/java/) atau [forum dukungan](https://forum.aspose.com/c/words/8/) untuk panduan terperinci.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

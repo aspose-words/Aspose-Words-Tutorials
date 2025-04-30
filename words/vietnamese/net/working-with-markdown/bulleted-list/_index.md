@@ -1,27 +1,29 @@
 ---
-title: Danh sách có dấu đầu dòng
-linktitle: Danh sách có dấu đầu dòng
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tạo và tùy chỉnh danh sách có dấu đầu dòng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này.
-weight: 10
-url: /vi/net/working-with-markdown/bulleted-list/
+"description": "Tìm hiểu cách tạo và tùy chỉnh danh sách có dấu đầu dòng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này."
+"linktitle": "Danh sách có dấu đầu dòng"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Danh sách có dấu đầu dòng"
+"url": "/vi/net/working-with-markdown/bulleted-list/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Danh sách có dấu đầu dòng
 
 ## Giới thiệu
 
-Sẵn sàng khám phá thế giới Aspose.Words cho .NET chưa? Hôm nay, chúng ta sẽ cùng tìm hiểu cách tạo danh sách có dấu đầu dòng trong tài liệu Word của bạn. Cho dù bạn đang sắp xếp ý tưởng, liệt kê các mục hay chỉ thêm một chút cấu trúc vào tài liệu của mình, danh sách có dấu đầu dòng đều rất tiện dụng. Vậy, hãy bắt đầu thôi!
+Sẵn sàng khám phá thế giới của Aspose.Words cho .NET chưa? Hôm nay, chúng ta sẽ cùng tìm hiểu cách tạo danh sách có dấu đầu dòng trong tài liệu Word của bạn. Cho dù bạn đang sắp xếp ý tưởng, liệt kê các mục hay chỉ thêm một chút cấu trúc vào tài liệu của mình, danh sách có dấu đầu dòng đều rất tiện dụng. Vậy, hãy bắt đầu thôi!
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu viết mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words. Nếu bạn chưa có, bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words. Nếu bạn chưa có, bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Môi trường phát triển AC# như Visual Studio.
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ giúp bạn theo dõi.
 
@@ -78,7 +80,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent();
 builder.Writeln("Item 2a");
 builder.Writeln("Item 2b");
-builder.ListFormat.ListOutdent(); // Quay lại cấp độ danh sách chính
+builder.ListFormat.ListOutdent(); // Quay lại cấp danh sách chính
 ```
 
 ## Phần kết luận
@@ -90,22 +92,27 @@ Hãy thoải mái thử nghiệm các kiểu danh sách và định dạng khác
 ## Câu hỏi thường gặp
 
 ### Tôi có thể sử dụng các ký hiệu dấu đầu dòng khác nhau trong danh sách không?
-    Có, bạn có thể tùy chỉnh các ký hiệu dấu đầu dòng bằng cách thay đổi`NumberFormat` tài sản.
+   Có, bạn có thể tùy chỉnh các ký hiệu dấu đầu dòng bằng cách thay đổi `NumberFormat` tài sản.
 
 ### Làm thế nào để thêm nhiều mức thụt lề hơn?
-    Sử dụng`ListIndent` phương pháp để thêm nhiều cấp độ hơn và`ListOutdent` để quay lại cấp độ cao hơn.
+   Sử dụng `ListIndent` phương pháp để thêm nhiều cấp độ hơn và `ListOutdent` để quay lại cấp độ cao hơn.
 
 ### Có thể kết hợp danh sách dấu đầu dòng và danh sách số được không?
-   Chắc chắn rồi! Bạn có thể chuyển đổi giữa định dạng dấu đầu dòng và số bằng cách sử dụng`ApplyNumberDefault` Và`ApplyBulletDefault` phương pháp.
+   Chắc chắn rồi! Bạn có thể chuyển đổi giữa định dạng dấu đầu dòng và số bằng cách sử dụng `ApplyNumberDefault` Và `ApplyBulletDefault` phương pháp.
 
 ### Tôi có thể định dạng văn bản trong các mục danh sách không?
-    Có, bạn có thể áp dụng các kiểu, phông chữ và định dạng khác nhau cho văn bản trong các mục danh sách bằng cách sử dụng`Font` tài sản của`DocumentBuilder`.
+   Có, bạn có thể áp dụng các kiểu, phông chữ và định dạng khác nhau cho văn bản trong các mục danh sách bằng cách sử dụng `Font` tài sản của `DocumentBuilder`.
 
 ### Làm thế nào để tạo danh sách có nhiều cột dấu đầu dòng?
    Bạn có thể sử dụng định dạng bảng để tạo danh sách nhiều cột, trong đó mỗi ô chứa một danh sách có dấu đầu dòng riêng biệt.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

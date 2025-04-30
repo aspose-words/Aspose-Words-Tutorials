@@ -1,14 +1,16 @@
 ---
-title: Pengolahan Kata dengan Rentang
-linktitle: Pengolahan Kata dengan Rentang
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari tentang Pemrosesan Kata dengan rentang di Aspose.Words untuk .NET. Pelajari cara memanipulasi dan memformat rentang teks tertentu dalam dokumen Word menggunakan tutorial langkah demi langkah dan contoh kode.
-weight: 1390
-url: /id/net/programming-with-ranges/
+"description": "Pelajari tentang Pemrosesan Kata dengan rentang di Aspose.Words untuk .NET. Pelajari cara memanipulasi dan memformat rentang teks tertentu dalam dokumen Word menggunakan tutorial langkah demi langkah dan contoh kode."
+"linktitle": "Pengolahan Kata dengan Rentang"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Pengolahan Kata dengan Rentang"
+"url": "/id/net/programming-with-ranges/"
+"weight": 1390
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pengolahan Kata dengan Rentang
@@ -20,13 +22,18 @@ Dalam tutorial ini, Anda akan mempelajari cara menggunakan berbagai fitur yang d
 Baik Anda seorang pemula atau pengembang berpengalaman, tutorial ini akan membantu Anda menguasai teknik memanipulasi rentang teks dalam dokumen Word menggunakan pustaka Aspose.Words yang canggih untuk .NET. Dengan pengetahuan ini, Anda akan dapat membangun aplikasi yang tangguh dan berkinerja tinggi yang secara efektif mengotomatiskan pemrosesan dokumen Word.
 
  ## Tutorial
-| Judul | Keterangan |
-| --- | --- |
-| [Rentang Menghapus Teks Dalam Dokumen Word](./ranges-delete-text/) | Pelajari cara menghapus teks dari suatu rentang dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah ini. Sempurna untuk pengembang C#. |
+| Judul | Deskripsi |
+Bahasa Indonesia: --- | --- Bahasa Indonesia:
+| [Rentang Menghapus Teks Dalam Dokumen Word](./ranges-delete-text/) | Pelajari cara menghapus teks dari suatu rentang dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah ini. Sempurna untuk pengembang C#. Bahasa Indonesia:
 | [Rentang Mendapatkan Teks Dalam Dokumen Word](./ranges-get-text/) | Ekstrak teks dari dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami untuk memulai dengan mudah. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

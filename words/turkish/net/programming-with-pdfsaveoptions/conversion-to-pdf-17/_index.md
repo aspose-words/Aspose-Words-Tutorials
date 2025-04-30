@@ -1,14 +1,16 @@
 ---
-title: Word Belgesini PDF'ye Dönüştürme 1.7
-linktitle: Word Belgesini PDF'ye Dönüştürme 1.7
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerini zahmetsizce PDF 1.7'ye dönüştürün. Belgelerinizin evrensel olarak erişilebilir ve profesyonelce biçimlendirilmiş olmasını sağlamak için bu kılavuzu izleyin.
-weight: 10
-url: /tr/net/programming-with-pdfsaveoptions/conversion-to-pdf-17/
+"description": "Aspose.Words for .NET kullanarak Word belgelerini zahmetsizce PDF 1.7'ye dönüştürün. Belgelerinizin evrensel olarak erişilebilir ve profesyonelce biçimlendirilmiş olmasını sağlamak için bu kılavuzu izleyin."
+"linktitle": "Word Belgesini PDF'ye Dönüştürme 1.7"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesini PDF'ye Dönüştürme 1.7"
+"url": "/tr/net/programming-with-pdfsaveoptions/conversion-to-pdf-17/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesini PDF'ye Dönüştürme 1.7
@@ -21,7 +23,7 @@ Word belgelerini PDF'ye dönüştürmek, akademiden işletmeye kadar çeşitli a
 
 Başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: En son sürüme sahip olduğunuzdan emin olun.[buradan indirin](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: En son sürüme sahip olduğunuzdan emin olun. [buradan indirin](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya .NET geliştirmeyi destekleyen herhangi bir IDE.
 3. Temel C# Bilgisi: Temelleri anlamak, kod parçacıklarını takip etmenize yardımcı olacaktır.
 
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Bu adımda, belge dizinimize giden yolu tanımlıyoruz ve "Rendering.docx" adlı Word belgesini bir`Document` nesne.
+Bu adımda, belge dizinimize giden yolu tanımlıyoruz ve "Rendering.docx" adlı Word belgesini bir `Document` nesne.
 
 ## Adım 2: PDF Kaydetme Seçeneklerini Yapılandırın
 
@@ -59,7 +61,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Burada bir tane yaratıyoruz`PdfSaveOptions` nesne ve onu ayarla`Compliance`mülk`PdfCompliance.Pdf17`PDF'imizin 1.7 standardını karşılamasını sağlıyoruz.
+Burada bir tane yaratıyoruz `PdfSaveOptions` nesne ve onu ayarla `Compliance` mülk `PdfCompliance.Pdf17`PDF'imizin 1.7 standardını karşılamasını sağlıyoruz.
 
 ## Adım 3: Belgeyi PDF olarak kaydedin
 
@@ -69,7 +71,7 @@ Son olarak yapılandırdığımız kaydetme seçeneklerini kullanarak Word belge
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.ConversionToPdf17.pdf", saveOptions);
 ```
 
- Bu adımda şunu çağırıyoruz:`Save` yöntemimiz`Document` nesne, PDF'yi kaydetmek istediğimiz yolu ve kaydetme seçeneklerini iletmektedir.
+Bu adımda şunu çağırıyoruz: `Save` yöntemimiz `Document` nesne, PDF'yi kaydetmek istediğimiz yolu ve kaydetme seçeneklerini iletmektedir.
 
 ## Çözüm
 
@@ -87,7 +89,7 @@ PDF 1.7, önceki sürümlere kıyasla daha sağlam olmasını sağlayan gelişti
 
 ### Aspose.Words for .NET'i kullanmak için lisansa ihtiyacım var mı?
 
- Evet, Aspose.Words for .NET tam işlevsellik için bir lisans gerektirir. Bir tane alabilirsiniz[burada geçici lisans](https://purchase.aspose.com/temporary-license/).
+Evet, Aspose.Words for .NET tam işlevsellik için bir lisans gerektirir. Bir tane alabilirsiniz [burada geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 ### PDF kaydetme seçeneklerini daha fazla özelleştirebilir miyim?
 
@@ -95,11 +97,16 @@ Kesinlikle! Aspose.Words for .NET, şifreleme ve optimizasyon ayarları da dahil
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
 
- Kapsamlı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Kapsamlı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

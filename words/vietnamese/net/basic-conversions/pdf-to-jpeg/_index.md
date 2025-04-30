@@ -1,14 +1,16 @@
 ---
-title: Lưu PDF dưới dạng Jpeg
-linktitle: Lưu PDF dưới dạng Jpeg
-second_title: API xử lý tài liệu Aspose.Words
-description: Chuyển đổi PDF sang JPEG dễ dàng bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi với các ví dụ và câu hỏi thường gặp. Hoàn hảo cho các nhà phát triển và người đam mê.
-weight: 10
-url: /vi/net/basic-conversions/pdf-to-jpeg/
+"description": "Chuyển đổi PDF sang JPEG dễ dàng bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi với các ví dụ và câu hỏi thường gặp. Hoàn hảo cho các nhà phát triển và người đam mê."
+"linktitle": "Lưu PDF dưới dạng Jpeg"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Lưu PDF dưới dạng Jpeg"
+"url": "/vi/net/basic-conversions/pdf-to-jpeg/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lưu PDF dưới dạng Jpeg
@@ -21,10 +23,10 @@ Bạn đã bao giờ rơi vào tình huống cần chuyển đổi tệp PDF san
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng chúng ta đã chuẩn bị mọi thứ đâu vào đấy. Sau đây là những gì bạn cần:
 
-1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện mạnh mẽ này. Nếu chưa, bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện mạnh mẽ này. Nếu chưa, bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 2. .NET Framework: Đảm bảo bạn đã thiết lập môi trường .NET trên máy của mình.
 3. Visual Studio: Bạn có thể sử dụng bất kỳ phiên bản nào, miễn là bạn cảm thấy thoải mái khi sử dụng.
-4.  Tệp PDF: Chuẩn bị tệp PDF của bạn để chuyển đổi. Đối với hướng dẫn này, chúng tôi sẽ sử dụng tệp có tên`Pdf Document.pdf`.
+4. Tệp PDF: Chuẩn bị tệp PDF của bạn để chuyển đổi. Đối với hướng dẫn này, chúng tôi sẽ sử dụng tệp có tên `Pdf Document.pdf`.
 
 ## Nhập không gian tên
 
@@ -42,7 +44,7 @@ using Aspose.Words;
 Trước khi bắt đầu viết mã, bạn cần thiết lập dự án của mình. Sau đây là cách thực hiện:
 
 1. Mở Visual Studio: Bắt đầu bằng cách khởi chạy Visual Studio và tạo một dự án C# mới.
-2.  Cài đặt Aspose.Words: Sử dụng NuGet Package Manager để cài đặt Aspose.Words cho .NET. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/words/net/).
+2. Cài đặt Aspose.Words: Sử dụng NuGet Package Manager để cài đặt Aspose.Words cho .NET. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/words/net/).
 
 ```shell
 Install-Package Aspose.Words
@@ -60,7 +62,7 @@ Bây giờ dự án của chúng ta đã sẵn sàng, hãy tải tài liệu PDF
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
 
-2.  Tải PDF: Sử dụng`Document` lớp từ Aspose.Words để tải tệp PDF của bạn.
+2. Tải PDF: Sử dụng `Document` lớp từ Aspose.Words để tải tệp PDF của bạn.
 
     ```csharp
     Document doc = new Document(dataDir + "Pdf Document.pdf");
@@ -70,7 +72,7 @@ Bây giờ dự án của chúng ta đã sẵn sàng, hãy tải tài liệu PDF
 
 Sau khi tải xong PDF, đã đến lúc thực hiện chuyển đổi. Bước này thực sự đơn giản.
 
-1.  Lưu dưới dạng JPEG: Sử dụng`Save` phương pháp chuyển đổi PDF thành hình ảnh JPEG.
+1. Lưu dưới dạng JPEG: Sử dụng `Save` phương pháp chuyển đổi PDF thành hình ảnh JPEG.
 
     ```csharp
     doc.Save(dataDir + "BaseConversions.PdfToJpeg.jpeg");
@@ -94,14 +96,19 @@ Có chứ! Bạn có thể lưu tệp PDF của mình dưới dạng PNG, BMP v�
 Đúng vậy. Aspose.Words hỗ trợ cả .NET Framework và .NET Core.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words không?
- Bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/) hoặc mua giấy phép[đây](https://purchase.aspose.com/buy).
+Bạn có thể dùng thử miễn phí [đây](https://releases.aspose.com/) hoặc mua giấy phép [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể tìm thêm hướng dẫn về Aspose.Words ở đâu?
- Kiểm tra các[tài liệu](https://reference.aspose.com/words/net/) để có rất nhiều hướng dẫn và chỉ dẫn.
+Kiểm tra các [tài liệu](https://reference.aspose.com/words/net/) để có rất nhiều hướng dẫn và chỉ dẫn.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

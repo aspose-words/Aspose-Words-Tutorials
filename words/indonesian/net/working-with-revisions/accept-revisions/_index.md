@@ -1,14 +1,16 @@
 ---
-title: Terima Revisi
-linktitle: Terima Revisi
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Kuasai revisi dokumen dengan Aspose.Words untuk .NET. Pelajari cara melacak, menerima, dan menolak perubahan dengan mudah. Tingkatkan keterampilan manajemen dokumen Anda.
-weight: 10
-url: /id/net/working-with-revisions/accept-revisions/
+"description": "Kuasai revisi dokumen dengan Aspose.Words untuk .NET. Pelajari cara melacak, menerima, dan menolak perubahan dengan mudah. Tingkatkan keterampilan manajemen dokumen Anda."
+"linktitle": "Terima Revisi"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Terima Revisi"
+"url": "/id/net/working-with-revisions/accept-revisions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Terima Revisi
@@ -23,7 +25,7 @@ Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
 - Visual Studio terinstal di komputer Anda.
 - .NET framework (sebaiknya versi terbaru).
--  Pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+- Pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 - Pemahaman dasar tentang pemrograman C#.
 
 Sekarang, mari masuk ke hal spesifik dan lihat bagaimana kita dapat menguasai revisi dokumen dengan Aspose.Words untuk .NET.
@@ -67,7 +69,7 @@ Selanjutnya, kita perlu mengaktifkan pelacakan revisi. Ini memungkinkan kita unt
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 ```
 
- Dengan menyebut`StartTrackRevisions`, kami mengaktifkan dokumen untuk melacak semua perubahan berikutnya. Nama penulis dan tanggal saat ini dilewatkan sebagai parameter.
+Dengan menyebut `StartTrackRevisions`kami mengaktifkan dokumen untuk melacak semua perubahan berikutnya. Nama penulis dan tanggal saat ini dilewatkan sebagai parameter.
 
 ## Langkah 3: Tambahkan Revisi
 
@@ -95,14 +97,14 @@ Pada langkah ini, paragraf ketiga dihapus. Karena pelacakan revisi, penghapusan 
 
 ## Langkah 5: Terima Semua Revisi
 
-Terakhir, mari terima semua revisi yang dilacak, untuk memperkuat perubahan dalam dokumen.
+Terakhir, mari kita terima semua revisi yang dilacak, untuk memperkuat perubahan dalam dokumen.
 
 ```csharp
 // Terima semua revisi.
 doc.AcceptAllRevisions();
 ```
 
- Dengan menyebut`AcceptAllRevisions`, kami memastikan bahwa semua perubahan (penambahan dan penghapusan) diterima dan diterapkan pada dokumen. Revisi tidak lagi ditandai dan diintegrasikan ke dalam dokumen.
+Dengan menyebut `AcceptAllRevisions`, kami memastikan bahwa semua perubahan (penambahan dan penghapusan) diterima dan diterapkan pada dokumen. Revisi tidak lagi ditandai dan diintegrasikan ke dalam dokumen.
 
 ## Langkah 6: Hentikan Pelacakan Revisi
 
@@ -136,26 +138,31 @@ Mengelola revisi dokumen bisa menjadi tugas yang berat, tetapi dengan Aspose.Wor
 
 ### Bagaimana cara mulai melacak revisi di Aspose.Words untuk .NET?
 
- Anda dapat mulai melacak revisi dengan menghubungi`StartTrackRevisions` pada objek dokumen Anda dan meneruskan nama penulis dan tanggal saat ini.
+Anda dapat mulai melacak revisi dengan menghubungi `StartTrackRevisions` pada objek dokumen Anda dan meneruskan nama penulis dan tanggal saat ini.
 
 ### Bisakah saya berhenti melacak revisi kapan saja?
 
-Ya, Anda dapat berhenti melacak revisi dengan menghubungi`StopTrackRevisions` metode pada objek dokumen Anda.
+Ya, Anda dapat berhenti melacak revisi dengan menghubungi `StopTrackRevisions` metode pada objek dokumen Anda.
 
 ### Bagaimana cara menerima semua revisi dalam suatu dokumen?
 
- Untuk menerima semua revisi, gunakan`AcceptAllRevisions` metode pada objek dokumen Anda.
+Untuk menerima semua revisi, gunakan `AcceptAllRevisions` metode pada objek dokumen Anda.
 
 ### Bisakah saya menolak revisi tertentu?
 
- Ya, Anda dapat menolak revisi tertentu dengan menavigasi ke revisi tersebut dan menggunakan`Reject` metode.
+Ya, Anda dapat menolak revisi tertentu dengan menavigasi ke revisi tersebut dan menggunakan `Reject` metode.
 
 ### Di mana saya dapat mengunduh Aspose.Words untuk .NET?
 
- Anda dapat mengunduh Aspose.Words untuk .NET dari[tautan unduhan](https://releases.aspose.com/words/net/).
+Anda dapat mengunduh Aspose.Words untuk .NET dari [tautan unduhan](https://releases.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

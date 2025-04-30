@@ -1,14 +1,16 @@
 ---
-title: استخدام الإشارات المرجعية في Aspose.Words للغة Java
-linktitle: استخدام الإشارات المرجعية
-second_title: واجهة برمجة تطبيقات معالجة المستندات في Java Aspose.Words
-description: قم بتحسين معالجة المستندات باستخدام Aspose.Words for Java. تعلم كيفية استخدام الإشارات المرجعية للتنقل بين المحتويات ومعالجتها بكفاءة في هذا الدليل خطوة بخطوة.
-weight: 17
-url: /ar/java/document-manipulation/using-bookmarks/
+"description": "حسّن معالجة مستنداتك باستخدام Aspose.Words لجافا. تعلّم كيفية استخدام الإشارات المرجعية لتصفح المحتوى ومعالجته بكفاءة في هذا الدليل المفصل."
+"linktitle": "استخدام الإشارات المرجعية"
+"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
+"title": "استخدام الإشارات المرجعية في Aspose.Words للغة Java"
+"url": "/ar/java/document-manipulation/using-bookmarks/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # استخدام الإشارات المرجعية في Aspose.Words للغة Java
@@ -16,7 +18,7 @@ url: /ar/java/document-manipulation/using-bookmarks/
 
 ## مقدمة حول استخدام الإشارات المرجعية في Aspose.Words للغة Java
 
-تُعد العلامات المرجعية ميزة قوية في Aspose.Words for Java تتيح لك وضع علامات على أجزاء معينة من المستند ومعالجتها. في هذا الدليل التفصيلي، سنستكشف كيفية استخدام العلامات المرجعية في Aspose.Words for Java لتحسين معالجة المستندات. 
+تُعد الإشارات المرجعية ميزة فعّالة في Aspose.Words لجافا، حيث تتيح لك تحديد أجزاء محددة من المستند والتعامل معها. في هذا الدليل التفصيلي، سنستكشف كيفية استخدام الإشارات المرجعية في Aspose.Words لجافا لتحسين معالجة مستنداتك. 
 
 ## الخطوة 1: إنشاء إشارة مرجعية
 
@@ -30,18 +32,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.startBookmark("My Bookmark");
 builder.writeln("Text inside a bookmark.");
 
-//إنهاء الإشارة المرجعية
+// إنهاء الإشارة المرجعية
 builder.endBookmark("My Bookmark");
 ```
 
 ## الخطوة 2: الوصول إلى الإشارات المرجعية
 
-يمكنك الوصول إلى الإشارات المرجعية في مستند باستخدام فهرسها أو اسمها. وإليك الطريقة:
+يمكنك الوصول إلى الإشارات المرجعية في مستند باستخدام فهرسها أو اسمها. إليك الطريقة:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
 
-// حسب الفهرس:
+// حسب المؤشر:
 Bookmark bookmark1 = doc.getRange().getBookmarks().get(0);
 
 // حسب الاسم:
@@ -61,9 +63,9 @@ bookmark.setName("RenamedBookmark");
 bookmark.setText("This is new bookmarked text.");
 ```
 
-## الخطوة 4: العمل مع النص المُضاف إليه إشارة مرجعية
+## الخطوة 4: العمل مع النص المُضاف إلى الإشارات المرجعية
 
-يمكنك نسخ النص الذي قمت بإضافته إلى مستند آخر. وإليك الطريقة:
+يمكنك نسخ النص المُضاف إلى المفضلة وإضافته إلى مستند آخر. إليك الطريقة:
 
 ```java
 Document srcDoc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -76,7 +78,7 @@ dstDoc.save("Your Directory Path" + "WorkingWithBookmarks.CopyBookmarkedText.doc
 
 ## الخطوة 5: إظهار وإخفاء الإشارات المرجعية
 
-يمكنك إظهار أو إخفاء الإشارات المرجعية في المستند. إليك مثال على ذلك:
+يمكنك إظهار أو إخفاء الإشارات المرجعية في مستند. إليك مثال:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -84,7 +86,7 @@ showHideBookmarkedContent(doc, "MyBookmark1", false);
 doc.save("Your Directory Path" + "WorkingWithBookmarks.ShowHideBookmarks.docx");
 ```
 
-## الخطوة 6: فك تشابك علامات الصفوف
+## الخطوة 6: فك تشابك علامات الصفوف المرجعية
 
 يتيح لك فك تشابك علامات الصفوف العمل معها بشكل أكثر فعالية:
 
@@ -97,21 +99,21 @@ doc.save("Your Directory Path" + "WorkingWithBookmarks.UntangleRowBookmarks.docx
 
 ## خاتمة
 
-إن استخدام الإشارات المرجعية في Aspose.Words for Java يمكن أن يبسط مهام معالجة المستندات إلى حد كبير. سواء كنت بحاجة إلى التنقل أو استخراج أو معالجة المحتوى، فإن الإشارات المرجعية توفر آلية قوية للقيام بذلك بكفاءة.
+يُمكن لاستخدام الإشارات المرجعية في Aspose.Words لجافا أن يُبسّط مهام معالجة المستندات بشكل كبير. سواءً كنتَ بحاجة إلى التنقل أو استخراج أو معالجة المحتوى، تُوفّر الإشارات المرجعية آليةً فعّالة للقيام بذلك بكفاءة.
 
 ## الأسئلة الشائعة
 
 ### كيف أقوم بإنشاء إشارة مرجعية في خلية جدول؟
 
- لإنشاء إشارة مرجعية في خلية جدول، استخدم`DocumentBuilder` الفصل وبدء وإنهاء الإشارة المرجعية داخل الخلية.
+لإنشاء إشارة مرجعية في خلية جدول، استخدم `DocumentBuilder` الفئة وبدء وإنهاء الإشارة المرجعية داخل الخلية.
 
 ### هل يمكنني نسخ الإشارة المرجعية إلى مستند آخر؟
 
- نعم، يمكنك نسخ إشارة مرجعية إلى مستند آخر باستخدام`NodeImporter` الفئة للتأكد من الحفاظ على التنسيق.
+نعم، يمكنك نسخ إشارة مرجعية إلى مستند آخر باستخدام `NodeImporter` الفئة للتأكد من الحفاظ على التنسيق.
 
 ### كيف يمكنني حذف صف من خلال الإشارة المرجعية الخاصة به؟
 
-بإمكانك حذف صف من خلال الإشارة المرجعية الخاصة به عن طريق العثور أولاً على الصف الذي تم وضع الإشارة المرجعية عليه ثم إزالته من المستند.
+يمكنك حذف صف من خلال الإشارة المرجعية الخاصة به عن طريق العثور أولاً على الصف الذي تم وضع الإشارة المرجعية عليه ثم إزالته من المستند.
 
 ### ما هي بعض حالات الاستخدام الشائعة للإشارات المرجعية؟
 
@@ -119,10 +121,15 @@ doc.save("Your Directory Path" + "WorkingWithBookmarks.UntangleRowBookmarks.docx
 
 ### أين يمكنني العثور على مزيد من المعلومات حول Aspose.Words for Java؟
 
- للحصول على وثائق مفصلة والتنزيلات، قم بزيارة[توثيق Aspose.Words للغة Java](https://reference.aspose.com/words/java/).
+للحصول على وثائق مفصلة والتنزيلات، قم بزيارة [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

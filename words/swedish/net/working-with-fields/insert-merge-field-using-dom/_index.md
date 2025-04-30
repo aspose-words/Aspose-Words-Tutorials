@@ -1,50 +1,52 @@
 ---
-title: Infoga sammanslagningsfält med DOM
-linktitle: Infoga sammanslagningsfält med DOM
-second_title: Aspose.Words Document Processing API
-description: Lär dig hur du infogar och konfigurerar sammanslagningsfält i Word-dokument med Aspose.Words för .NET med denna omfattande, steg-för-steg handledning.
-weight: 10
-url: /sv/net/working-with-fields/insert-merge-field-using-dom/
+"description": "Lär dig hur du infogar och konfigurerar kopplingsfält i Word-dokument med Aspose.Words för .NET med den här omfattande steg-för-steg-handledningen."
+"linktitle": "Infoga kopplingsfält med DOM"
+"second_title": "Aspose.Words dokumentbehandlings-API"
+"title": "Infoga kopplingsfält med DOM"
+"url": "/sv/net/working-with-fields/insert-merge-field-using-dom/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Infoga sammanslagningsfält med DOM
+# Infoga kopplingsfält med DOM
 
 ## Introduktion
 
-Om du arbetar med dokumentbehandling i .NET har du förmodligen stött på Aspose.Words. Detta kraftfulla bibliotek erbjuder ett brett utbud av funktioner för att manipulera Word-dokument programmatiskt. I den här handledningen kommer vi att fokusera på en specifik funktion: infoga ett sammanslagningsfält med hjälp av Document Object Model (DOM) i Aspose.Words för .NET. Den här guiden leder dig genom varje steg, från att ställa in din miljö till att infoga och uppdatera ett sammanslagningsfält i ett Word-dokument.
+Om du arbetar med dokumentbehandling i .NET har du förmodligen stött på Aspose.Words. Detta kraftfulla bibliotek erbjuder ett brett utbud av funktioner för att manipulera Word-dokument programmatiskt. I den här handledningen fokuserar vi på en specifik funktion: att infoga ett kopplingsfält med hjälp av Document Object Model (DOM) i Aspose.Words för .NET. Den här guiden guidar dig genom varje steg, från att konfigurera din miljö till att infoga och uppdatera ett kopplingsfält i ett Word-dokument.
 
-## Förutsättningar
+## Förkunskapskrav
 
-Innan vi dyker in i koden, låt oss se till att du har allt du behöver följa tillsammans med den här handledningen.
+Innan vi går in i koden, låt oss se till att du har allt du behöver för att följa den här handledningen.
 
 1. Grundläggande kunskaper i C#: Du bör vara bekväm med C#-programmering.
-2. Visual Studio installerad: Se till att du har Visual Studio eller någon annan C# IDE installerad på din maskin.
-3.  Aspose.Words for .NET: Ladda ner och installera den senaste versionen av Aspose.Words for .NET från[Släpps](https://releases.aspose.com/words/net/).
-4.  Giltig licens: Om du inte har en licens kan du få en[tillfällig licens](https://purchase.aspose.com/temporary-license/) för utvärdering.
+2. Visual Studio installerat: Se till att du har Visual Studio eller någon annan C# IDE installerad på din dator.
+3. Aspose.Words för .NET: Ladda ner och installera den senaste versionen av Aspose.Words för .NET från [Utgåvor](https://releases.aspose.com/words/net/).
+4. Giltig licens: Om du inte har en licens kan du få en [tillfällig licens](https://purchase.aspose.com/temporary-license/) för utvärdering.
 
 ## Steg 1: Konfigurera ditt projekt
 
-Först till kvarn, låt oss sätta upp ett nytt projekt i Visual Studio.
+Först och främst, låt oss skapa ett nytt projekt i Visual Studio.
 
 1. Öppna Visual Studio.
-2. Skapa ett nytt projekt: Gå till Arkiv > Nytt > Projekt. Välj en C# Console-app.
+2. Skapa ett nytt projekt: Gå till Arkiv > Nytt > Projekt. Välj en C#-konsolapp.
 3. Namnge ditt projekt: Ge ditt projekt ett meningsfullt namn och klicka på Skapa.
 
 ## Steg 2: Installera Aspose.Words
 
 För att använda Aspose.Words måste du lägga till det i ditt projekt. Detta kan göras via NuGet Package Manager.
 
-1. Öppna NuGet Package Manager: Högerklicka på ditt projekt i Solution Explorer och välj sedan Hantera NuGet Packages.
-2. Sök efter Aspose.Words: I NuGet Package Manager, sök efter "Aspose.Words".
-3. Installera paketet: Klicka på Installera för att lägga till Aspose.Words till ditt projekt.
+1. Öppna NuGet-pakethanteraren: Högerklicka på ditt projekt i lösningsutforskaren och välj sedan Hantera NuGet-paket.
+2. Sök efter Aspose.Words: I NuGet-pakethanteraren söker du efter "Aspose.Words".
+3. Installera paketet: Klicka på Installera för att lägga till Aspose.Words i ditt projekt.
 
-## Steg 3: Importera namnområden
+## Steg 3: Importera namnrymder
 
-För att börja använda Aspose.Words måste du importera de nödvändiga namnrymden till ditt projekt. Så här kan du göra det:
+För att börja använda Aspose.Words måste du importera de nödvändiga namnrymderna till ditt projekt. Så här gör du:
 
 ```csharp
 using System;
@@ -67,25 +69,25 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Steg 5: Flytta markören till ett specifikt stycke
 
-Därefter måste vi flytta markören till ett specifikt stycke i dokumentet där vi vill infoga sammanslagningsfältet.
+Sedan måste vi flytta markören till ett specifikt stycke i dokumentet där vi vill infoga kopplingsfältet.
 
 ```csharp
 Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 0, true);
 builder.MoveTo(para);
 ```
 
-## Steg 6: Infoga sammanfogningsfältet
+## Steg 6: Infoga kopplingsfältet
 
- Att infoga ett sammanslagningsfält är enkelt. Vi kommer att använda`InsertField` metod för`DocumentBuilder` klass.
+Att infoga ett kopplingsfält är enkelt. Vi kommer att använda `InsertField` metod för `DocumentBuilder` klass.
 
 ```csharp
-// Infoga sammanslagningsfält för fält.
+// Infoga fält sammanfogningsfält.
 FieldMergeField field = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, false);
 ```
 
-## Steg 7: Konfigurera sammanfogningsfältet
+## Steg 7: Konfigurera kopplingsfältet
 
-Efter att ha infogat sammanslagningsfältet kan du ställa in olika egenskaper för att konfigurera det efter dina behov.
+Efter att du har infogat kopplingsfältet kan du ange olika egenskaper för att konfigurera det efter dina behov.
 
 ```csharp
 field.FieldName = "Test1";
@@ -97,7 +99,7 @@ field.IsVerticalFormatting = true;
 
 ## Steg 8: Uppdatera och spara dokumentet
 
-Uppdatera slutligen fältet för att säkerställa att alla inställningar tillämpas och spara dokumentet.
+Slutligen, uppdatera fältet för att säkerställa att alla inställningar tillämpas och spara dokumentet.
 
 ```csharp
 // Uppdatera fältet.
@@ -109,27 +111,32 @@ doc.Save(dataDir + "InsertionChampMergeChamp.docx");
 
 ## Slutsats
 
-Genom att följa dessa steg kan du enkelt infoga och konfigurera sammanslagningsfält i ett Word-dokument med Aspose.Words för .NET. Denna handledning täckte de väsentliga stegen från att ställa in din miljö till att spara det slutliga dokumentet. Med Aspose.Words kan du automatisera komplexa dokumentbearbetningsuppgifter, vilket gör dina .NET-applikationer mer kraftfulla och effektiva.
+Genom att följa dessa steg kan du enkelt infoga och konfigurera kopplingsfält i ett Word-dokument med hjälp av Aspose.Words för .NET. Den här handledningen behandlade de viktigaste stegen från att konfigurera din miljö till att spara det slutliga dokumentet. Med Aspose.Words kan du automatisera komplexa dokumentbehandlingsuppgifter, vilket gör dina .NET-applikationer mer kraftfulla och effektiva.
 
-## FAQ's
+## Vanliga frågor
 
-###  Vad är ett sammanslagningsfält?
-Ett sammanslagningsfält är en platshållare i ett dokument som dynamiskt kan ersättas med data från en datakälla, till exempel en databas eller en CSV-fil.
+###  Vad är ett kopplingsfält?
+Ett kopplingsfält är en platshållare i ett dokument som dynamiskt kan ersättas med data från en datakälla, till exempel en databas eller en CSV-fil.
 
 ###  Kan jag använda Aspose.Words gratis?
- Aspose.Words erbjuder en gratis testversion som du kan ladda ner[här](https://releases.aspose.com/). För långvarig användning måste du köpa en licens.
+Aspose.Words erbjuder en gratis provperiod som du kan ladda ner [här](https://releases.aspose.com/)För långvarig användning måste du köpa en licens.
 
 ###  Hur får jag en tillfällig licens för Aspose.Words?
- Du kan få en tillfällig licens från Asposes webbplats[här](https://purchase.aspose.com/temporary-license/).
+Du kan få en tillfällig licens från Asposes webbplats [här](https://purchase.aspose.com/temporary-license/).
 
 ### Vilka versioner av .NET stöds av Aspose.Words?
 Aspose.Words stöder flera versioner av .NET, inklusive .NET Framework, .NET Core och .NET Standard.
 
 ###  Var kan jag hitta API-dokumentationen för Aspose.Words?
- API-dokumentationen finns tillgänglig[här](https://reference.aspose.com/words/net/).
+API-dokumentationen finns tillgänglig [här](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

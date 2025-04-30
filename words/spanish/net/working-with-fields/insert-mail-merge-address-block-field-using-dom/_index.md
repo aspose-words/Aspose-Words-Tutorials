@@ -79,19 +79,19 @@ FieldAddressBlock field = (FieldAddressBlock) builder.InsertField(FieldType.Fiel
 Para que el campo Bloque de direcciones sea más significativo, configuraremos sus propiedades. Estas configuraciones determinan el formato del bloque de direcciones y la información que incluye.
 
 ```csharp
-// { BLOQUE DE DIRECCIONES \\\\c 1 }
+// { BLOQUE DE DIRECCIONES \\c 1 }
 field.IncludeCountryOrRegionName = "1";
 
-// { BLOQUE DE DIRECCIONES \\\\c 1 \\\\d }
+// { BLOQUE DE DIRECCIONES \\c 1 \\d }
 field.FormatAddressOnCountryOrRegion = true;
 
-// { BLOQUE DE DIRECCIONES \\\\c 1 \\\\d \\\\e Prueba2 }
+// { BLOQUE DE DIRECCIONES \\c 1 \\d \\e Prueba2 }
 field.ExcludedCountryOrRegionName = "Test2";
 
-// { BLOQUE DE DIRECCIONES \\\\c 1 \\\\d \\\\e Prueba2 \\\\f Prueba3 }
+// { BLOQUE DE DIRECCIONES \\c 1 \\d \\e Prueba2 \\f Prueba3 }
 field.NameAndAddressFormat = "Test3";
 
-// { BLOQUE DE DIRECCIONES \\\\c 1 \\\\d \\\\e Prueba2 \\\\f Prueba3 \\\\l \\"Prueba 4\\" }
+// { BLOQUE DE DIRECCIONES \\c 1 \\d \\e Prueba2 \\f Prueba3 \\l \"Prueba 4\" }
 field.LanguageId = "Test 4";
 ```
 

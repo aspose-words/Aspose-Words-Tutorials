@@ -47,7 +47,7 @@ doc.getLists().add(ListTemplate.NUMBER_DEFAULT);
 ```
 
 ### Configurar ajustes de lista: 
-\\Habilite la lista para reiniciarse en cada sección.
+\Habilite la lista para reiniciarse en cada sección.
 
 ```java
 List list = doc.getLists().get(0);

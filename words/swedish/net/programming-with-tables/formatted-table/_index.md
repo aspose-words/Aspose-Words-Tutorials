@@ -1,33 +1,35 @@
 ---
-title: Formaterad tabell
-linktitle: Formaterad tabell
-second_title: Aspose.Words Document Processing API
-description: Lär dig hur du skapar och formaterar tabeller i Word-dokument med Aspose.Words för .NET med denna detaljerade steg-för-steg-guide.
-weight: 10
-url: /sv/net/programming-with-tables/formatted-table/
+"description": "Lär dig hur du skapar och formaterar tabeller i Word-dokument med Aspose.Words för .NET med den här detaljerade steg-för-steg-guiden."
+"linktitle": "Formaterad tabell"
+"second_title": "Aspose.Words dokumentbehandlings-API"
+"title": "Formaterad tabell"
+"url": "/sv/net/programming-with-tables/formatted-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formaterad tabell
 
 ## Introduktion
 
-Att skapa och formatera tabeller i Word-dokument programmässigt kan verka som en svår uppgift, men med Aspose.Words för .NET blir det enkelt och hanterbart. I den här handledningen går vi igenom hur du skapar en formaterad tabell i ett Word-dokument med Aspose.Words för .NET. Vi täcker allt från att ställa in din miljö till att spara ditt dokument med en vackert formaterad tabell.
+Att skapa och formatera tabeller i Word-dokument programmatiskt kan verka som en svår uppgift, men med Aspose.Words för .NET blir det enkelt och hanterbart. I den här handledningen går vi igenom hur du skapar en formaterad tabell i ett Word-dokument med Aspose.Words för .NET. Vi går igenom allt från att konfigurera din miljö till att spara ditt dokument med en vackert formaterad tabell.
 
-## Förutsättningar
+## Förkunskapskrav
 
-Innan vi dyker in i koden, låt oss se till att du har allt du behöver:
+Innan vi går in i koden, låt oss se till att du har allt du behöver:
 
-1. Aspose.Words för .NET Library: Ladda ner det från[här](https://releases.aspose.com/words/net/).
+1. Aspose.Words för .NET-biblioteket: Ladda ner det från [här](https://releases.aspose.com/words/net/).
 2. Utvecklingsmiljö: En IDE som Visual Studio.
 3. .NET Framework: Se till att du har .NET Framework installerat på din dator.
 
-## Importera namnområden
+## Importera namnrymder
 
-Innan du skriver den faktiska koden måste du importera de nödvändiga namnrymden:
+Innan du skriver själva koden måste du importera de nödvändiga namnrymderna:
 
 ```csharp
 using System;
@@ -38,15 +40,15 @@ using Aspose.Words.Tables;
 
 ## Steg 1: Konfigurera din dokumentkatalog
 
-Först måste du definiera sökvägen dit dokumentet ska sparas.
+Först måste du definiera sökvägen där ditt dokument ska sparas.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ersätta`"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen där du vill spara dokumentet.
+Ersätta `"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen där du vill spara dokumentet.
 
-## Steg 2: Initiera Document and DocumentBuilder
+## Steg 2: Initiera dokumentet och DocumentBuilder
 
 Initiera nu ett nytt dokument och ett DocumentBuilder-objekt.
 
@@ -55,22 +57,22 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- De`DocumentBuilder` är en hjälparklass som förenklar processen att bygga dokument.
+De `DocumentBuilder` är en hjälpklass som förenklar processen att skapa dokument.
 
 ## Steg 3: Starta tabellen
 
- Börja sedan skapa tabellen med hjälp av`StartTable` metod.
+Börja sedan skapa tabellen med hjälp av `StartTable` metod.
 
 ```csharp
 Table table = builder.StartTable();
 builder.InsertCell();
 ```
 
-Det är nödvändigt att infoga en cell för att börja tabellen.
+Det är nödvändigt att infoga en cell för att påbörja tabellen.
 
-## Steg 4: Använd tabellövergripande formatering
+## Steg 4: Tillämpa tabellomfattande formatering
 
-Du kan använda formatering som påverkar hela tabellen. Ange till exempel vänster indrag:
+Du kan använda formatering som påverkar hela tabellen. Till exempel, ställa in vänsterindraget:
 
 ```csharp
 table.LeftIndent = 20.0;
@@ -78,7 +80,7 @@ table.LeftIndent = 20.0;
 
 ## Steg 5: Formatera rubrikraden
 
-Ställ in höjd, justering och andra egenskaper för rubrikraden.
+Ange höjd, justering och andra egenskaper för rubrikraden.
 
 ```csharp
 builder.RowFormat.Height = 40.0;
@@ -92,7 +94,7 @@ builder.CellFormat.Width = 100.0;
 builder.Write("Header Row,\n Cell 1");
 ```
 
-I det här steget får vi rubrikraden att sticka ut genom att ställa in en bakgrundsfärg, teckenstorlek och justering.
+I det här steget får vi rubrikraden att sticka ut genom att ange bakgrundsfärg, teckenstorlek och justering.
 
 ## Steg 6: Infoga ytterligare rubrikceller
 
@@ -107,9 +109,9 @@ builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 ```
 
-## Steg 7: Formatera kroppsraderna
+## Steg 7: Formatera brödtextraderna
 
-Efter att ha ställt in rubriken, formatera brödtexten i tabellen:
+Efter att du har konfigurerat rubriken, formatera tabellens brödtext:
 
 ```csharp
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
@@ -119,9 +121,9 @@ builder.RowFormat.Height = 30.0;
 builder.RowFormat.HeightRule = HeightRule.Auto;
 ```
 
-## Steg 8: Infoga kroppsrader
+## Steg 8: Infoga brödtextrader
 
-Infoga brödraderna med innehåll:
+Infoga brödtextraderna med innehåll:
 
 ```csharp
 builder.InsertCell();
@@ -159,31 +161,36 @@ Slutligen, spara dokumentet i den angivna katalogen:
 doc.Save(dataDir + "WorkingWithTables.FormattedTable.docx");
 ```
 
-Detta kommer att skapa och spara ett Word-dokument med den formaterade tabellen.
+Detta skapar och sparar ett Word-dokument med den formaterade tabellen.
 
 ## Slutsats
 
-Och där har du det! Genom att följa dessa steg kan du skapa en välformaterad tabell i ett Word-dokument med Aspose.Words för .NET. Detta kraftfulla bibliotek gör det enkelt att programmässigt manipulera Word-dokument, vilket sparar tid och ansträngning.
+Och där har du det! Genom att följa dessa steg kan du skapa en välformaterad tabell i ett Word-dokument med hjälp av Aspose.Words för .NET. Detta kraftfulla bibliotek gör det enkelt att programmatiskt manipulera Word-dokument, vilket sparar tid och ansträngning.
 
-## FAQ's
+## Vanliga frågor
 
 ### Vad är Aspose.Words för .NET?
 Aspose.Words för .NET är ett kraftfullt bibliotek för att skapa, redigera och konvertera Word-dokument programmatiskt.
 
 ### Kan jag använda olika färger för olika rader?
-Ja, du kan använda olika formatering, inklusive färger, på olika rader eller celler.
+Ja, du kan använda olika formateringar, inklusive färger, på olika rader eller celler.
 
 ### Är Aspose.Words för .NET gratis?
- Aspose.Words för .NET är ett betalbibliotek, men du kan få en[gratis provperiod](https://releases.aspose.com/).
+Aspose.Words för .NET är ett betalt bibliotek, men du kan få ett [gratis provperiod](https://releases.aspose.com/).
 
 ### Hur får jag support för Aspose.Words för .NET?
- Du kan få stöd från[Aspose gemenskapsforum](https://forum.aspose.com/c/words/8).
+Du kan få stöd från [Aspose communityforum](https://forum.aspose.com/c/words/8).
 
 ### Kan jag skapa andra typer av dokument med Aspose.Words för .NET?
 Ja, Aspose.Words för .NET stöder olika dokumentformat, inklusive PDF, HTML och TXT.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

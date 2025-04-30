@@ -1,14 +1,16 @@
 ---
-title: Tworzenie i dostosowywanie wykresu za pomocą kształtu
-linktitle: Tworzenie i dostosowywanie wykresu za pomocą kształtu
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak tworzyć i dostosowywać wykresy w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne do wizualizacji danych.
-weight: 10
-url: /pl/net/programming-with-charts/create-chart-using-shape/
+"description": "Dowiedz się, jak tworzyć i dostosowywać wykresy w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne do wizualizacji danych."
+"linktitle": "Tworzenie i dostosowywanie wykresu za pomocą kształtu"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Tworzenie i dostosowywanie wykresu za pomocą kształtu"
+"url": "/pl/net/programming-with-charts/create-chart-using-shape/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tworzenie i dostosowywanie wykresu za pomocą kształtu
@@ -21,7 +23,7 @@ Tworzenie i dostosowywanie wykresów w dokumentach to kluczowa umiejętność w 
 
 Zanim zagłębisz się w kod, upewnij się, że masz następujące elementy:
 
--  Biblioteka Aspose.Words dla .NET: Można ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+- Biblioteka Aspose.Words dla .NET: Można ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 - Visual Studio: dowolna wersja obsługująca platformę .NET.
 - Podstawowa wiedza o języku C#: Zrozumienie podstaw języka C# pomoże Ci zrozumieć treść samouczka.
 
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Krok 2: Wstaw wykres
 
- Następnie wstawisz wykres liniowy do dokumentu.`DocumentBuilder.InsertChart` W tym celu stosuje się metodę.
+Następnie wstawisz wykres liniowy do dokumentu. `DocumentBuilder.InsertChart` W tym celu stosuje się metodę.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
@@ -92,27 +94,32 @@ W tym samouczku omówiliśmy, jak utworzyć i dostosować wykres liniowy w dokum
 
 ### Czy mogę użyć Aspose.Words dla .NET do tworzenia innych typów wykresów?
 
- Tak, Aspose.Words dla .NET obsługuje różne typy wykresów, w tym wykresy słupkowe, wykresy kołowe i inne. Możesz przejrzeć dokumentację[Tutaj](https://reference.aspose.com/words/net/) Aby uzyskać więcej szczegółów.
+Tak, Aspose.Words dla .NET obsługuje różne typy wykresów, w tym wykresy słupkowe, wykresy kołowe i inne. Możesz przejrzeć dokumentację [Tutaj](https://reference.aspose.com/words/net/) po więcej szczegółów.
 
 ### Jak mogę wypróbować Aspose.Words dla .NET przed zakupem?
 
- Bezpłatną wersję próbną można pobrać ze strony[Tutaj](https://releases.aspose.com/). Dzięki temu możesz przetestować bibliotekę i jej funkcje przed dokonaniem zakupu.
+Bezpłatną wersję próbną można pobrać ze strony [Tutaj](https://releases.aspose.com/). Dzięki temu możesz przetestować bibliotekę i jej funkcje przed dokonaniem zakupu.
 
-### Czy istnieje możliwość uzyskania pomocy, jeśli wystąpią problemy?
+### Czy istnieje możliwość uzyskania pomocy, jeśli napotkam problemy?
 
- Oczywiście. Możesz uzyskać dostęp do pomocy technicznej za pośrednictwem forów społeczności Aspose[Tutaj](https://forum.aspose.com/c/words/8)Społeczność i pracownicy Aspose są bardzo responsywni.
+Oczywiście. Możesz uzyskać dostęp do pomocy technicznej za pośrednictwem forów społeczności Aspose [Tutaj](https://forum.aspose.com/c/words/8)Społeczność i pracownicy Aspose są bardzo responsywni.
 
 ### Jak kupić licencję na Aspose.Words dla .NET?
 
- Licencję można zakupić bezpośrednio na stronie internetowej Aspose[Tutaj](https://purchase.aspose.com/buy)Istnieją różne opcje licencjonowania dostosowane do różnych potrzeb.
+Licencję można zakupić bezpośrednio na stronie internetowej Aspose [Tutaj](https://purchase.aspose.com/buy)Istnieją różne opcje licencjonowania dostosowane do różnych potrzeb.
 
 ### Co zrobić, jeśli potrzebuję tymczasowej licencji na krótkoterminowy projekt?
 
- Aspose oferuje tymczasowe licencje, o które możesz poprosić[Tutaj](https://purchase.aspose.com/temporary-license/).
+Aspose oferuje tymczasowe licencje, o które możesz poprosić [Tutaj](https://purchase.aspose.com/temporary-license/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Chèn Tài Liệu Với Builder
-linktitle: Chèn Tài Liệu Với Builder
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách hợp nhất hai tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước để chèn tài liệu bằng DocumentBuilder và giữ nguyên định dạng.
-weight: 10
-url: /vi/net/join-and-append-documents/insert-document-with-builder/
+"description": "Tìm hiểu cách hợp nhất hai tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước để chèn tài liệu bằng DocumentBuilder và giữ nguyên định dạng."
+"linktitle": "Chèn Tài Liệu Với Builder"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn Tài Liệu Với Builder"
+"url": "/vi/net/join-and-append-documents/insert-document-with-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn Tài Liệu Với Builder
@@ -19,9 +21,9 @@ Vậy là bạn có hai tài liệu Word và bạn muốn hợp nhất chúng th
 
 ## Điều kiện tiên quyết
 
-Trước khi bắt đầu, hãy đảm bảo rằng bạn đã có mọi thứ cần thiết:
+Trước khi bắt đầu, hãy đảm bảo bạn đã có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Nếu bạn chưa tải xuống, bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Nếu bạn chưa tải xuống, bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Đảm bảo bạn đã cài đặt Visual Studio hoặc bất kỳ IDE phù hợp nào khác.
 3. Kiến thức cơ bản về C#: Một chút quen thuộc với C# sẽ có ích rất nhiều.
 
@@ -41,11 +43,11 @@ Bây giờ chúng ta đã có đủ điều kiện tiên quyết, hãy cùng ph�
 Trước khi bắt đầu mã hóa, bạn cần thiết lập đường dẫn đến thư mục tài liệu của mình. Đây là nơi lưu trữ tài liệu nguồn và đích của bạn.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn được lưu trữ. Điều này sẽ giúp chương trình tìm thấy các tập tin của bạn một cách dễ dàng.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn được lưu trữ. Điều này sẽ giúp chương trình tìm thấy các tập tin của bạn một cách dễ dàng.
 
 ## Bước 2: Tải tài liệu nguồn và đích
 
@@ -56,17 +58,17 @@ Document srcDoc = new Document(dataDir + "Document source.docx");
 Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 ```
 
- Ở đây, chúng tôi đang sử dụng`Document` lớp từ thư viện Aspose.Words để tải tài liệu của chúng tôi. Đảm bảo tên tệp khớp với tên trong thư mục của bạn.
+Ở đây, chúng tôi đang sử dụng `Document` lớp từ thư viện Aspose.Words để tải tài liệu của chúng tôi. Đảm bảo tên tệp khớp với tên trong thư mục của bạn.
 
 ## Bước 3: Tạo đối tượng DocumentBuilder
 
- Các`DocumentBuilder` class là một công cụ mạnh mẽ trong thư viện Aspose.Words. Nó cho phép chúng ta điều hướng và thao tác tài liệu.
+Các `DocumentBuilder` class là một công cụ mạnh mẽ trong thư viện Aspose.Words. Nó cho phép chúng ta điều hướng và thao tác tài liệu.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
 ```
 
- Trong bước này, chúng tôi đã tạo ra một`DocumentBuilder` đối tượng cho tài liệu đích của chúng ta. Điều này sẽ giúp chúng ta chèn nội dung vào tài liệu.
+Trong bước này, chúng tôi đã tạo ra một `DocumentBuilder` đối tượng cho tài liệu đích của chúng ta. Điều này sẽ giúp chúng ta chèn nội dung vào tài liệu.
 
 ## Bước 4: Di chuyển đến cuối tài liệu
 
@@ -96,7 +98,7 @@ Bây giờ đến phần thú vị nhất—là chèn tài liệu nguồn vào t
 builder.InsertDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
- Sử dụng`InsertDocument` phương pháp, chúng ta có thể chèn toàn bộ tài liệu nguồn vào tài liệu đích.`ImportFormatMode.KeepSourceFormatting` đảm bảo định dạng của tài liệu nguồn được giữ nguyên.
+Sử dụng `InsertDocument` phương pháp, chúng ta có thể chèn toàn bộ tài liệu nguồn vào tài liệu đích. `ImportFormatMode.KeepSourceFormatting` đảm bảo định dạng của tài liệu nguồn được giữ nguyên.
 
 ## Bước 7: Lưu tài liệu đã hợp nhất
 
@@ -118,19 +120,24 @@ Và thế là xong! Bạn đã chèn thành công một tài liệu vào tài li
 Aspose.Words for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa, chuyển đổi và thao tác các tài liệu Word theo cách lập trình.
 
 ### Tôi có thể giữ nguyên định dạng của tài liệu nguồn không?  
- Có, bằng cách sử dụng`ImportFormatMode.KeepSourceFormatting`, định dạng của tài liệu nguồn sẽ được giữ nguyên khi nó được chèn vào tài liệu đích.
+Có, bằng cách sử dụng `ImportFormatMode.KeepSourceFormatting`định dạng của tài liệu nguồn sẽ được giữ nguyên khi nó được chèn vào tài liệu đích.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?  
- Có, Aspose.Words cho .NET yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể nhận được[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
+Có, Aspose.Words cho .NET yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể nhận được [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
 
 ### Tôi có thể tự động hóa quá trình này không?  
 Hoàn toàn có thể! Phương pháp được mô tả có thể được tích hợp vào các ứng dụng lớn hơn để tự động hóa các tác vụ xử lý tài liệu.
 
 ### Tôi có thể tìm thêm tài nguyên và hỗ trợ ở đâu?  
- Để biết thêm thông tin, bạn có thể kiểm tra[tài liệu](https://reference.aspose.com/words/net/) , hoặc ghé thăm[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được hỗ trợ.
+Để biết thêm thông tin, bạn có thể kiểm tra [tài liệu](https://reference.aspose.com/words/net/), hoặc ghé thăm [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được hỗ trợ.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

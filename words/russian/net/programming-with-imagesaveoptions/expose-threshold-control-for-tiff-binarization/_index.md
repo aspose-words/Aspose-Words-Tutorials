@@ -1,14 +1,16 @@
 ---
-title: Выставить пороговое управление для бинаризации Tiff
-linktitle: Выставить пороговое управление для бинаризации Tiff
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как реализовать пороговое управление для бинаризации TIFF в документах Word с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-imagesaveoptions/expose-threshold-control-for-tiff-binarization/
+"description": "Узнайте, как реализовать пороговое управление для бинаризации TIFF в документах Word с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства."
+"linktitle": "Выставить пороговое управление для бинаризации Tiff"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Выставить пороговое управление для бинаризации Tiff"
+"url": "/ru/net/programming-with-imagesaveoptions/expose-threshold-control-for-tiff-binarization/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Выставить пороговое управление для бинаризации Tiff
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-imagesaveoptions/expose-threshold-control-for-tiff
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
-1.  Aspose.Words для .NET: Вы можете загрузить его с сайта[Страница релизов Aspose](https://releases.aspose.com/words/net/) . Если у вас еще нет лицензии, вы можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words для .NET: Вы можете загрузить его с сайта [Страница релизов Aspose](https://releases.aspose.com/words/net/). Если у вас еще нет лицензии, вы можете получить [временная лицензия](https://purchase.aspose.com/temporary-license/).
 2. Среда разработки: Visual Studio или любая другая совместимая с .NET IDE.
 3. Базовые знания C#: небольшое знакомство с C# будет полезно, но не волнуйтесь, если вы новичок — мы все подробно разберем.
 
@@ -43,21 +45,21 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу ваших документов.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу ваших документов.
 
 ## Шаг 2: Загрузите документ
 
- Далее нам нужно загрузить документ, который мы хотим обработать. В этом примере мы будем использовать документ с именем`Rendering.docx`.
+Далее нам нужно загрузить документ, который мы хотим обработать. В этом примере мы будем использовать документ с именем `Rendering.docx`.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Эта строка кода создает новый`Document` объект и загружает указанный файл.
+Эта строка кода создает новый `Document` объект и загружает указанный файл.
 
 ## Шаг 3: Настройте параметры сохранения изображения
 
- Теперь самое интересное! Нам нужно настроить параметры сохранения изображения, чтобы управлять бинаризацией TIFF. Мы будем использовать`ImageSaveOptions` класс для установки различных свойств.
+Теперь самое интересное! Нам нужно настроить параметры сохранения изображения, чтобы управлять бинаризацией TIFF. Мы будем использовать `ImageSaveOptions` класс для установки различных свойств.
 
 ```csharp
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Tiff)
@@ -70,9 +72,9 @@ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Tiff)
 ```
 
 Давайте разберемся:
--  TiffCompression: Устанавливает тип сжатия для изображения TIFF. Здесь мы используем`Ccitt3`.
--  ImageColorMode: Устанавливает цветовой режим. Мы устанавливаем его на`Grayscale` для создания изображения в оттенках серого.
--  TiffBinarizationMethod: Указывает метод бинаризации. Мы используем`FloydSteinbergDithering`.
+- TiffCompression: Устанавливает тип сжатия для изображения TIFF. Здесь мы используем `Ccitt3`.
+- ImageColorMode: Устанавливает цветовой режим. Мы устанавливаем его на `Grayscale` для создания изображения в оттенках серого.
+- TiffBinarizationMethod: Указывает метод бинаризации. Мы используем `FloydSteinbergDithering`.
 - ThresholdForFloydSteinbergDithering: Устанавливает порог для сглаживания Флойда-Стейнберга. Более высокое значение означает меньше черных пикселей.
 
 ## Шаг 4: Сохраните документ в формате TIFF
@@ -104,11 +106,16 @@ doc.Save(dataDir + "WorkingWithImageSaveOptions.ExposeThresholdControlForTiffBin
 Aspose.Words для .NET — коммерческая библиотека, но вы можете получить бесплатную пробную версию или временную лицензию, чтобы оценить ее возможности.
 
 ### Где я могу найти дополнительную документацию?
- Подробную документацию по Aspose.Words для .NET можно найти на сайте[Сайт Aspose](https://reference.aspose.com/words/net/).
+Подробную документацию по Aspose.Words для .NET можно найти на сайте [Сайт Aspose](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

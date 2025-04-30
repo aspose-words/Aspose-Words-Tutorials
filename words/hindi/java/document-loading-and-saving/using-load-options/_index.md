@@ -1,14 +1,16 @@
 ---
-title: जावा के लिए Aspose.Words में लोड विकल्प का उपयोग करना
-linktitle: लोड विकल्प का उपयोग करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: जावा के लिए Aspose.Words में लोड विकल्पों में महारत हासिल करें। दस्तावेज़ लोडिंग को कस्टमाइज़ करें, एन्क्रिप्शन को संभालें, आकृतियों को बदलें, वर्ड संस्करण सेट करें, और कुशल जावा दस्तावेज़ प्रसंस्करण के लिए और भी बहुत कुछ करें।
-weight: 11
-url: /hi/java/document-loading-and-saving/using-load-options/
+"description": "जावा के लिए Aspose.Words में लोड विकल्पों में महारत हासिल करें। दस्तावेज़ लोडिंग को कस्टमाइज़ करें, एन्क्रिप्शन को संभालें, आकृतियों को बदलें, Word संस्करण सेट करें, और कुशल जावा दस्तावेज़ प्रसंस्करण के लिए और भी बहुत कुछ करें।"
+"linktitle": "लोड विकल्प का उपयोग करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "जावा के लिए Aspose.Words में लोड विकल्प का उपयोग करना"
+"url": "/hi/java/document-loading-and-saving/using-load-options/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के लिए Aspose.Words में लोड विकल्प का उपयोग करना
@@ -28,7 +30,7 @@ Document doc = new Document("Your Directory Path" + "Dirty field.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.UpdateDirtyFields.docx");
 ```
 
- यह कोड स्निपेट दर्शाता है कि दस्तावेज़ में गंदे फ़ील्ड को कैसे अपडेट किया जाए।`setUpdateDirtyFields(true)` विधि का उपयोग यह सुनिश्चित करने के लिए किया जाता है कि दस्तावेज़ लोड होने के दौरान गंदे फ़ील्ड अपडेट हो जाएं।
+यह कोड स्निपेट दर्शाता है कि दस्तावेज़ में गंदे फ़ील्ड को कैसे अपडेट किया जाए। `setUpdateDirtyFields(true)` विधि का उपयोग यह सुनिश्चित करने के लिए किया जाता है कि दस्तावेज़ लोड होने के दौरान गंदे फ़ील्ड अपडेट हो जाएं।
 
 ## एन्क्रिप्टेड दस्तावेज़ लोड करें
 
@@ -40,7 +42,7 @@ public void loadEncryptedDocument() throws Exception {
 }
 ```
 
- यहां, हम पासवर्ड का उपयोग करके एक एन्क्रिप्टेड दस्तावेज़ लोड करते हैं।`LoadOptions` कंस्ट्रक्टर दस्तावेज़ पासवर्ड स्वीकार करता है, और आप दस्तावेज़ को सहेजते समय एक नया पासवर्ड भी निर्दिष्ट कर सकते हैं`OdtSaveOptions`.
+यहां, हम पासवर्ड का उपयोग करके एक एन्क्रिप्टेड दस्तावेज़ लोड करते हैं। `LoadOptions` कंस्ट्रक्टर दस्तावेज़ पासवर्ड स्वीकार करता है, और आप दस्तावेज़ को सहेजते समय एक नया पासवर्ड भी निर्दिष्ट कर सकते हैं `OdtSaveOptions`.
 
 ## आकृति को कार्यालय गणित में बदलें
 
@@ -52,7 +54,7 @@ Document doc = new Document("Your Directory Path" + "Office math.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.ConvertShapeToOfficeMath.docx");
 ```
 
- यह कोड दर्शाता है कि दस्तावेज़ लोड करते समय आकृतियों को Office Math ऑब्जेक्ट में कैसे परिवर्तित किया जाए।`setConvertShapeToOfficeMath(true)`विधि इस रूपांतरण को सक्षम बनाती है.
+यह कोड दर्शाता है कि दस्तावेज़ लोड करते समय आकृतियों को Office Math ऑब्जेक्ट में कैसे परिवर्तित किया जाए। `setConvertShapeToOfficeMath(true)` विधि इस रूपांतरण को सक्षम बनाती है.
 
 ## एमएस वर्ड संस्करण सेट करें
 
@@ -67,7 +69,7 @@ public void setMsWordVersion() throws Exception {
 }
 ```
 
- आप दस्तावेज़ लोड करने के लिए MS Word संस्करण निर्दिष्ट कर सकते हैं। इस उदाहरण में, हमने संस्करण को Microsoft Word 2010 पर सेट किया है`setMswVersion`.
+आप दस्तावेज़ लोड करने के लिए MS Word संस्करण निर्दिष्ट कर सकते हैं। इस उदाहरण में, हमने संस्करण को Microsoft Word 2010 पर सेट किया है `setMswVersion`.
 
 ## अस्थायी फ़ोल्डर का उपयोग करें
 
@@ -81,7 +83,7 @@ public void useTempFolder() throws Exception {
 }
 ```
 
- अस्थायी फ़ोल्डर सेट करके`setTempFolder`, आप यह नियंत्रित कर सकते हैं कि दस्तावेज़ प्रसंस्करण के दौरान अस्थायी फ़ाइलें कहाँ संग्रहीत की जाएँ.
+अस्थायी फ़ोल्डर का उपयोग करके सेट करके `setTempFolder`, आप यह नियंत्रित कर सकते हैं कि दस्तावेज़ प्रसंस्करण के दौरान अस्थायी फ़ाइलें कहाँ संग्रहीत की जाएँ।
 
 ## चेतावनी कॉलबैक
 
@@ -117,7 +119,7 @@ public void convertMetafilesToPng() throws Exception {
 }
 ```
 
- दस्तावेज़ लोडिंग के दौरान मेटाफ़ाइल्स (जैसे, WMF) को PNG छवियों में परिवर्तित करने के लिए, आप इसका उपयोग कर सकते हैं`setConvertMetafilesToPng(true)` तरीका।
+दस्तावेज़ लोडिंग के दौरान मेटाफ़ाइल्स (जैसे, WMF) को PNG छवियों में परिवर्तित करने के लिए, आप इसका उपयोग कर सकते हैं `setConvertMetafilesToPng(true)` तरीका।
 
 ## जावा के लिए Aspose.Words में लोड विकल्पों के साथ काम करने के लिए पूर्ण स्रोत कोड
 
@@ -173,7 +175,7 @@ public void warningCallback() throws Exception {
 }
 public static class DocumentLoadingWarningCallback implements IWarningCallback {
 	public void warning(WarningInfo info) {
-		//दस्तावेज़ लोड होने के दौरान आने वाली चेतावनियों और उनके विवरण को प्रिंट करता है।
+		// दस्तावेज़ लोड होने के दौरान आने वाली चेतावनियों और उनके विवरण को प्रिंट करता है।
 		System.out.println(MessageFormat.format("WARNING: {0}, source: {1}", info.getWarningType(), info.getSource()));
 		System.out.println(MessageFormat.format("\tDescription: {0}", info.getDescription()));
 	}
@@ -204,22 +206,27 @@ public void loadChm() throws Exception {
 
 ### दस्तावेज़ लोड करते समय मैं चेतावनियों को कैसे संभाल सकता हूँ?
 
- आप एक चेतावनी कॉलबैक सेट कर सकते हैं जैसा कि चित्र में दिखाया गया है`warningCallback()` उपरोक्त विधि का उपयोग करें।`DocumentLoadingWarningCallback` अपने एप्लिकेशन की आवश्यकताओं के अनुसार चेतावनियों को संभालने के लिए क्लास का उपयोग करें।
+आप एक चेतावनी कॉलबैक सेट कर सकते हैं जैसा कि चित्र में दिखाया गया है `warningCallback()` उपरोक्त विधि का उपयोग करें। `DocumentLoadingWarningCallback` अपने एप्लिकेशन की आवश्यकताओं के अनुसार चेतावनियों को संभालने के लिए क्लास का उपयोग करें।
 
 ### क्या मैं दस्तावेज़ लोड करते समय आकृतियों को Office Math ऑब्जेक्ट में परिवर्तित कर सकता हूँ?
 
- हां, आप इसका उपयोग करके आकृतियों को Office Math ऑब्जेक्ट में परिवर्तित कर सकते हैं`loadOptions.setConvertShapeToOfficeMath(true)`.
+हां, आप इसका उपयोग करके आकृतियों को Office Math ऑब्जेक्ट में परिवर्तित कर सकते हैं `loadOptions.setConvertShapeToOfficeMath(true)`.
 
 ### मैं दस्तावेज़ लोड करने के लिए एमएस वर्ड संस्करण कैसे निर्दिष्ट करूं?
 
- उपयोग`loadOptions.setMswVersion(MsWordVersion.WORD_2010)` दस्तावेज़ लोड करने के लिए एमएस वर्ड संस्करण निर्दिष्ट करने के लिए.
+उपयोग `loadOptions.setMswVersion(MsWordVersion.WORD_2010)` दस्तावेज़ लोड करने के लिए एमएस वर्ड संस्करण निर्दिष्ट करने के लिए.
 
-###  इसका उद्देश्य क्या है?`setTempFolder` method in Load Options?
+### इसका उद्देश्य क्या है? `setTempFolder` लोड विकल्प में विधि?
 
-`setTempFolder`विधि आपको उस फ़ोल्डर को निर्दिष्ट करने की अनुमति देती है जहां दस्तावेज़ प्रसंस्करण के दौरान अस्थायी फ़ाइलें संग्रहीत की जाती हैं।
+The `setTempFolder` विधि आपको उस फ़ोल्डर को निर्दिष्ट करने की अनुमति देती है जहां दस्तावेज़ प्रसंस्करण के दौरान अस्थायी फ़ाइलें संग्रहीत की जाती हैं।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

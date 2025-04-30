@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Opsi Pembersihan di Aspose.Words untuk Java
-linktitle: Menggunakan Opsi Pembersihan
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Tingkatkan Kejelasan Dokumen dengan Opsi Pembersihan Aspose.Words untuk Java. Pelajari cara menghapus paragraf kosong, area yang tidak digunakan, dan banyak lagi.
-weight: 10
-url: /id/java/document-manipulation/using-cleanup-options/
+"description": "Tingkatkan Kejelasan Dokumen dengan Opsi Pembersihan Aspose.Words untuk Java. Pelajari cara menghapus paragraf kosong, area yang tidak digunakan, dan banyak lagi."
+"linktitle": "Menggunakan Opsi Pembersihan"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Opsi Pembersihan di Aspose.Words untuk Java"
+"url": "/id/java/document-manipulation/using-cleanup-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Opsi Pembersihan di Aspose.Words untuk Java
@@ -20,7 +22,7 @@ Dalam tutorial ini, kita akan menjelajahi cara menggunakan opsi pembersihan di A
 
 ## Prasyarat
 
- Sebelum kita mulai, pastikan Anda telah mengintegrasikan pustaka Aspose.Words for Java ke dalam proyek Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/java/).
+Sebelum kita mulai, pastikan Anda telah mengintegrasikan pustaka Aspose.Words for Java ke dalam proyek Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/java/).
 
 ## Langkah 1: Menghapus Paragraf Kosong
 
@@ -152,38 +154,43 @@ Opsi pembersihan di Aspose.Words untuk Java adalah pengaturan yang memungkinkan 
 
 ### Bagaimana cara menghapus paragraf kosong dari dokumen saya?
 
- Untuk menghapus paragraf kosong dari dokumen Anda menggunakan Aspose.Words untuk Java, Anda dapat mengatur`MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` opsi ke true. Ini akan secara otomatis menghilangkan paragraf yang tidak memiliki konten, sehingga menghasilkan dokumen yang lebih bersih.
+Untuk menghapus paragraf kosong dari dokumen Anda menggunakan Aspose.Words untuk Java, Anda dapat mengatur `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` opsi ke true. Ini akan secara otomatis menghilangkan paragraf yang tidak memiliki konten, sehingga menghasilkan dokumen yang lebih bersih.
 
-###  Apa tujuan dari`REMOVE_UNUSED_REGIONS` cleanup option?
+### Apa tujuan dari `REMOVE_UNUSED_REGIONS` pilihan pembersihan?
 
- Itu`MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` Opsi ini digunakan untuk menghapus area dalam dokumen yang tidak memiliki data terkait selama proses penggabungan surat. Opsi ini membantu menjaga dokumen Anda tetap rapi dengan membuang placeholder yang tidak digunakan.
+Itu `MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` Opsi ini digunakan untuk menghapus area dalam dokumen yang tidak memiliki data terkait selama proses penggabungan surat. Opsi ini membantu menjaga dokumen Anda tetap rapi dengan membuang placeholder yang tidak digunakan.
 
 ### Bisakah saya menghapus baris tabel kosong dari dokumen menggunakan Aspose.Words untuk Java?
 
- Ya, Anda dapat menghapus baris tabel kosong dari dokumen dengan mengatur`MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS`opsi pembersihan ke true. Ini akan secara otomatis menghapus baris tabel yang tidak berisi data, memastikan tabel terstruktur dengan baik dalam dokumen Anda.
+Ya, Anda dapat menghapus baris tabel kosong dari dokumen dengan mengatur `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS` opsi pembersihan ke true. Ini akan secara otomatis menghapus baris tabel yang tidak berisi data, memastikan tabel terstruktur dengan baik dalam dokumen Anda.
 
-###  Apa yang terjadi ketika saya mengatur`REMOVE_CONTAINING_FIELDS` option?
+### Apa yang terjadi ketika saya mengatur `REMOVE_CONTAINING_FIELDS` pilihan?
 
- Pengaturan`MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` Opsi ini akan menghapus seluruh bidang gabungan, termasuk paragraf yang memuatnya, dari dokumen selama proses penggabungan surat. Ini berguna saat Anda ingin menghilangkan bidang gabungan dan teks terkaitnya.
+Pengaturan `MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` Opsi ini akan menghapus seluruh bidang gabungan, termasuk paragraf yang memuatnya, dari dokumen selama proses penggabungan surat. Ini berguna saat Anda ingin menghilangkan bidang gabungan dan teks terkaitnya.
 
 ### Bagaimana cara menghapus kolom gabungan yang tidak terpakai dari dokumen saya?
 
- Untuk menghapus bidang gabungan yang tidak digunakan dari dokumen, Anda dapat mengatur`MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` opsi ke true. Ini akan secara otomatis menghilangkan kolom gabungan yang tidak terisi selama penggabungan surat, sehingga menghasilkan dokumen yang lebih bersih.
+Untuk menghapus bidang gabungan yang tidak digunakan dari dokumen, Anda dapat mengatur `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` opsi ke true. Ini akan secara otomatis menghilangkan kolom gabungan yang tidak terisi selama penggabungan surat, sehingga menghasilkan dokumen yang lebih bersih.
 
-###  Apa perbedaan antara`REMOVE_EMPTY_FIELDS` and `REMOVE_UNUSED_FIELDS` cleanup options?
+### Apa perbedaan antara `REMOVE_EMPTY_FIELDS` Dan `REMOVE_UNUSED_FIELDS` pilihan pembersihan?
 
- Itu`REMOVE_EMPTY_FIELDS` opsi menghapus bidang gabungan yang tidak memiliki data atau kosong selama proses gabungan surat. Di sisi lain,`REMOVE_UNUSED_FIELDS`Opsi menghapus bidang gabungan yang tidak diisi dengan data selama penggabungan. Pilihan di antara keduanya bergantung pada apakah Anda ingin menghapus bidang tanpa konten atau bidang yang tidak digunakan dalam operasi penggabungan tertentu.
+Itu `REMOVE_EMPTY_FIELDS` opsi menghapus bidang gabungan yang tidak memiliki data atau kosong selama proses gabungan surat. Di sisi lain, `REMOVE_UNUSED_FIELDS` Opsi menghapus bidang gabungan yang tidak diisi dengan data selama penggabungan. Pilihan di antara keduanya bergantung pada apakah Anda ingin menghapus bidang tanpa konten atau bidang yang tidak digunakan dalam operasi penggabungan tertentu.
 
 ### Bagaimana cara mengaktifkan penghapusan paragraf dengan tanda baca?
 
- Untuk mengaktifkan penghapusan paragraf dengan tanda baca, Anda dapat mengatur`cleanupParagraphsWithPunctuationMarks` opsi ke true dan tentukan tanda baca yang akan dipertimbangkan untuk dibersihkan. Ini memungkinkan Anda membuat dokumen yang lebih baik dengan menghapus paragraf yang hanya berisi tanda baca yang tidak perlu.
+Untuk mengaktifkan penghapusan paragraf dengan tanda baca, Anda dapat mengatur `cleanupParagraphsWithPunctuationMarks` opsi ke true dan tentukan tanda baca yang akan dipertimbangkan untuk dibersihkan. Ini memungkinkan Anda membuat dokumen yang lebih baik dengan menghapus paragraf yang hanya berisi tanda baca yang tidak perlu.
 
 ### Dapatkah saya menyesuaikan opsi pembersihan di Aspose.Words untuk Java?
 
 Ya, Anda dapat menyesuaikan opsi pembersihan sesuai dengan kebutuhan spesifik Anda. Anda dapat memilih opsi pembersihan mana yang akan diterapkan dan mengonfigurasinya sesuai dengan persyaratan pembersihan dokumen Anda, untuk memastikan bahwa dokumen akhir Anda memenuhi standar yang Anda inginkan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

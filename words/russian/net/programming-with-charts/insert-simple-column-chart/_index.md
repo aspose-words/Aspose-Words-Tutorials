@@ -1,14 +1,16 @@
 ---
-title: Вставить простую столбчатую диаграмму в документ Word
-linktitle: Вставить простую столбчатую диаграмму в документ Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставить простую столбчатую диаграмму в Word с помощью Aspose.Words для .NET. Улучшите свои документы с помощью динамических визуальных презентаций данных.
-weight: 10
-url: /ru/net/programming-with-charts/insert-simple-column-chart/
+"description": "Узнайте, как вставить простую столбчатую диаграмму в Word с помощью Aspose.Words для .NET. Улучшите свои документы с помощью динамических визуальных презентаций данных."
+"linktitle": "Вставить простую столбчатую диаграмму в документ Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить простую столбчатую диаграмму в документ Word"
+"url": "/ru/net/programming-with-charts/insert-simple-column-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить простую столбчатую диаграмму в документ Word
@@ -100,10 +102,15 @@ doc.Save(dataDir + "InsertSimpleColumnChart.docx");
 Да, Aspose.Words для .NET позволяет динамически заполнять диаграммы данными из внешних источников, таких как базы данных или API.
 
 ### Где я могу найти дополнительные ресурсы и поддержку для Aspose.Words для .NET?
- Посетите[Документация Aspose.Words для .NET](https://reference.aspose.com/words/net/) для получения подробных ссылок и примеров API. Для поддержки вы также можете посетить[Форум Aspose.Words](https://forum.aspose.com/c/words/8).
+Посетите [Документация Aspose.Words для .NET](https://reference.aspose.com/words/net/) для получения подробных ссылок и примеров API. Для поддержки вы также можете посетить [Форум Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

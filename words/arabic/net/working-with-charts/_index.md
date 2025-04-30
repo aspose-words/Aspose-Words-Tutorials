@@ -1,31 +1,43 @@
 ---
-title: العمل مع الرسوم البيانية في Aspose.Words ل .NET  
-weight: 10
-limit:
-description: تعلم كيفية إنشاء الرسوم البيانية وتخصيصها وتلاعبها في وثائق Word باستخدام Aspose.Words ل .NET. تبسيط تصور البيانات مع ميزات قوية.
-keywords:
-url: /ar/net/working-with-charts/
+"description": "تعلّم كيفية إنشاء المخططات البيانية وتخصيصها ومعالجتها في مستندات Word باستخدام Aspose.Words لـ .NET. بسّط عرض البيانات بميزات فعّالة."
+"title": "العمل مع المخططات البيانية في Aspose.Words لـ .NET"
+"url": "/ar/net/working-with-charts/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## مقدمة
  
-توفر Aspose.Words لـ .NET مجموعة قوية من الأدوات للعمل مع الرسوم البيانية في وثائق Word. سواء كنت بحاجة إلى إنشاء الرسوم البيانية الديناميكية، وتخصيص الرسوم البيانية المضافة، أو التلاعب بالبيانات القائمة، هذه المكتبة تبسط العملية بأكملها. مع ميزات API الشاملة، يمكنك تحديد أنواع الرسوم البيانية، ومناطقات البيانات، والملفات، والأساليب، وتصميمها برنامجيا.  
+توفر Aspose.Words لـ .NET مجموعة أدوات فعّالة للتعامل مع المخططات البيانية في مستندات Word. سواءً كنت ترغب في إنشاء مخططات شريطية ديناميكية، أو تخصيص مخططات دائرية، أو معالجة بيانات موجودة، فإن هذه المكتبة تُبسّط العملية بأكملها. بفضل ميزات واجهة برمجة التطبيقات الشاملة، يمكنك تعريف أنواع المخططات البيانية، ونطاقات البيانات، والتسميات، والأنماط، والتنسيق برمجيًا.  
 
-إغوص عميقًا مع صفحاتنا المتجمعة لاستكشاف وظائف محددة ، بما في ذلك إضافة الرسوم البيانية وتحديث البيانات وتخصيص مظهر الرسوم البيانية. سواء كنت تقوم ببناء تقارير أو لوحات التحكم أو وثائق أكاديمية ، Aspose.Words ل .NET يضمن دمج الرسوم البيانية وتخصيصها بشكل سلس ، مما يوفر الوقت مع تقديم نتائج مهنية.  
+تعمق أكثر في صفحاتنا المتداخلة لاستكشاف وظائف محددة، بما في ذلك إضافة الرسوم البيانية، وتحديث البيانات، وتخصيص مظهرها. سواء كنت تُنشئ تقارير أو لوحات معلومات أو مستندات أكاديمية، يضمن Aspose.Words for .NET تكاملاً وتخصيصًا سلسًا للرسوم البيانية، مما يوفر الوقت ويقدم نتائج احترافية.  
 
-{{< tutorial-card link="./bounds-of-axis/" title="إنشاء مستند مع مخططات باستخدام Aspose.Words ل .NET" imgSrc="/words/net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
-{{< tutorial-card link="./create-chart-using-shape/" title="قم بإنشاء مخطط خط في Word باستخدام Aspose.Words ل .NET" imgSrc="/words/net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
-{{< tutorial-card link="./insert-area-chart/" title="إدراج مخطط المساحة في مستند Word" imgSrc="/words/net/working-with-charts/insert-area-chart/images/thumb.png" >}}
-{{< tutorial-card link="./insert-bubble-chart/" title="إدراج مخطط فقاعة في Word باستخدام Aspose.Words ل .NET" imgSrc="/words/net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
-{{< tutorial-card link="./insert-column-chart/" title="إدراج مخطط العمود في Word باستخدام Aspose.Words ل .NET" imgSrc="/words/net/working-with-charts/insert-column-chart/images/thumb.png" >}}
-{{< tutorial-card link="./insert-scatter-chart/" title="قم بإنشاء مخطط انتشار الكلمات باستخدام Aspose.Words لـ .NET" imgSrc="/words/net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
-{{< tutorial-card link="./insert-simple-column-chart/" title="إدراج مخطط عمود بسيط في Word باستخدام Aspose.Words ل .NET" imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./bounds-of-axis/" title="إنشاء مستند يحتوي على مخططات بيانية باستخدام Aspose.Words لـ .NET" imgSrc="./bounds-of-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./create-chart-using-shape/" title="إنشاء مخطط خطي في Word باستخدام Aspose.Words لـ .NET" imgSrc="./create-chart-using-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-area-chart/" title="إدراج مخطط المنطقة في مستند Word" imgSrc="./insert-area-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-bubble-chart/" title="إدراج مخطط فقاعي في Word باستخدام Aspose.Words لـ .NET" imgSrc="./insert-bubble-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-column-chart/" title="إدراج مخطط عمودي في Word باستخدام Aspose.Words لـ .NET" imgSrc="./insert-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-scatter-chart/" title="إنشاء مخطط تشتت الكلمات باستخدام Aspose.Words لـ .NET" imgSrc="./insert-scatter-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-simple-column-chart/" title="إدراج مخطط عمودي بسيط في Word باستخدام Aspose.Words لـ .NET" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

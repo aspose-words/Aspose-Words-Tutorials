@@ -1,46 +1,54 @@
 ---
-title: 使用自訂表邊界和影子建立Word文檔
-weight: 7700
-limit: 
-description: 使用 .NET 的Aspose.Words 來建立一個包含各種邊界和遮蔽風格的表格的Word文檔.
-keywords: [Aspose.Words, .NET, Word document, table borders, cell shading, document manipulation, programming example]
-url: /zh-hant/net/working-with-table-styles-and-formatting/format-table-and-cell/
+"description": "學習使用 Aspose.Words for .NET 建立帶有各種邊框和陰影樣式的表格的 Word 文件。"
+"title": "建立具有自訂表格邊框和底紋的 Word 文檔"
+"url": "/zh-hant/net/working-with-table-styles-and-formatting/format-table-and-cell/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用自訂表邊界和影子建立Word文檔
+# 建立具有自訂表格邊框和底紋的 Word 文檔
 
-這個例子展示了如何使用Aspose.Words為 .NET 创建一個包含為其細胞的定制邊界和遮蔽風格的 Word 文檔.您將學習啟動文檔,設定桌面邊界,將背景色應用于單個細胞,並儲存文檔在 DOCX 格式中.
+此範例示範如何利用 Aspose.Words for .NET 建立一個 Word 文檔，其中包含一個表格，該表格的儲存格具有自訂邊框和陰影樣式。您將學習如何初始化文件、設定表格邊框、將背景顏色套用至各個儲存格以及以 DOCX 格式儲存文件。
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/format-table-and-cell" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 裝置指令
-1. 請下載Aspose.Words為 .NET: 訪問網站[目標網站](https://www.aspose.com)請下載最新版本的Aspose.Words
-2. 添加參考: 在您的 .NET 項目中, 添加參考 Aspose.Words DLL 檔案.
-3. 透過 NuGet 安裝: 另一種方式,您可以使用以下命令安裝 NuGet 包管理器:
+## 安裝說明
+1. 下載 Aspose.Words for .NET：訪問 [Aspose 網站](https://www.aspose.com) 並下載最新版本的 Aspose.Words for .NET。
+2. 新增參考：在您的 .NET 專案中，新增對 Aspose.Words DLL 檔案的參考。
+3. 透過 NuGet 安裝：或者，您可以使用 NuGet 套件管理器透過下列命令安裝套件：
    ```
    Install-Package Aspose.Words
    ```
-4. 加入名稱空間:使用指令在代碼中添加以下字符:
+4. 包含命名空間：在程式碼中新增以下使用指令：
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    using System.Drawing;
    ```
 
-4. 申請許可證 (可選):  
-   沒有任何樓盤符合您的搜尋結果[申請許可證](https://purchase.aspose.com/temporary-license/)或使用[免費試用](https://releases.aspose.com/words/net/)這就是我想要的.
+4. 申請許可證（可選）：  
+   要使用完整版本， [申請許可證](https://purchase.aspose.com/temporary-license/) 或使用 [免費試用](https://releases。aspose.com/words/net/).
    
-## 請見此文
-[標籤.Word為 .NET文档](https://docs.aspose.com/words/net/)
-[適用於 .NET 參考](https://reference.aspose.com/words/net/)
+## 另請參閱
+[Aspose.Word for .NET 文檔](https://docs.aspose.com/words/net/)
+[Aspose.Words for .NET 參考](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

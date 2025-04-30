@@ -1,14 +1,16 @@
 ---
-title: Word Belgesine Dağılım Grafiği Ekleme
-linktitle: Word Belgesine Dağılım Grafiği Ekleme
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET ile Word'e dağılım grafiğinin nasıl ekleneceğini öğrenin. Belgelerinize görsel veri gösterimlerini entegre etmek için kolay adımlar.
-weight: 10
-url: /tr/net/programming-with-charts/insert-scatter-chart/
+"description": "Aspose.Words for .NET ile Word'e dağılım grafiğinin nasıl ekleneceğini öğrenin. Belgelerinize görsel veri gösterimlerini entegre etmek için kolay adımlar."
+"linktitle": "Word Belgesine Dağılım Grafiği Ekleme"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesine Dağılım Grafiği Ekleme"
+"url": "/tr/net/programming-with-charts/insert-scatter-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesine Dağılım Grafiği Ekleme
@@ -21,7 +23,7 @@ Bu eğitimde, Word belgenize bir dağılım grafiği eklemek için Aspose.Words 
 
 Aspose.Words for .NET ile dağılım grafikleri oluşturmaya başlamadan önce, aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET'in Kurulumu: Aspose.Words for .NET'i şu adresten indirin ve kurun:[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET'in Kurulumu: Aspose.Words for .NET'i şu adresten indirin ve kurun: [Burada](https://releases.aspose.com/words/net/).
    
 2. Temel C# Bilgisi: C# programlama dili ve .NET framework'üne aşinalık faydalı olacaktır.
 
@@ -39,7 +41,7 @@ using Aspose.Words.Saving;
 
 ## Adım 1: Belgeyi ve Belge Oluşturucuyu Başlatın
 
- İlk olarak, yeni bir örneğini başlatın`Document` sınıf ve`DocumentBuilder` Belgenizi oluşturmaya başlamak için sınıfınıza gidin.
+İlk olarak, yeni bir örneğini başlatın `Document` sınıf ve `DocumentBuilder` Belgenizi oluşturmaya başlamak için sınıfınıza gidin.
 
 ```csharp
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Adım 2: Dağılım Grafiğini Ekleyin
 
- Kullanın`InsertChart` yöntemi`DocumentBuilder` Belgeye dağılım grafiği eklemek için sınıf.
+Kullanın `InsertChart` yöntemi `DocumentBuilder` Belgeye dağılım grafiği eklemek için sınıf.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
@@ -66,7 +68,7 @@ chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[]
 
 ## Adım 4: Belgeyi Kaydedin
 
- Son olarak, değiştirilen belgeyi istediğiniz konuma kaydetmek için şunu kullanın:`Save` yöntemi`Document` sınıf.
+Son olarak, değiştirilen belgeyi istediğiniz konuma kaydetmek için şunu kullanın: `Save` yöntemi `Document` sınıf.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithCharts.InsertScatterChart.docx");
@@ -91,10 +93,15 @@ Evet, Aspose.Words çubuk grafikler, çizgi grafikler ve pasta grafikler dahil o
 Kesinlikle, Aspose.Words API çağrılarını kullanarak grafik verilerini dinamik olarak güncelleyebilirsiniz.
 
 ### Aspose.Words için daha fazla yardım veya desteği nereden alabilirim?
- Daha fazla yardım için şu adresi ziyaret edin:[Aspose.Words destek forumu](https://forum.aspose.com/c/words/8).
+Daha fazla yardım için şu adresi ziyaret edin: [Aspose.Words destek forumu](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

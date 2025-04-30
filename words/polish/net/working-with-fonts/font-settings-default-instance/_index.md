@@ -1,14 +1,16 @@
 ---
-title: Ustawienia czcionki Domyślna instancja
-linktitle: Ustawienia czcionki Domyślna instancja
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak zarządzać ustawieniami czcionek i dostosowywać je w Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Idealne dla programistów, którzy chcą ulepszyć renderowanie dokumentów.
-weight: 10
-url: /pl/net/working-with-fonts/font-settings-default-instance/
+"description": "Dowiedz się, jak zarządzać ustawieniami czcionek i dostosowywać je w Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Idealne dla programistów, którzy chcą ulepszyć renderowanie dokumentów."
+"linktitle": "Ustawienia czcionki Domyślna instancja"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ustawienia czcionki Domyślna instancja"
+"url": "/pl/net/working-with-fonts/font-settings-default-instance/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustawienia czcionki Domyślna instancja
@@ -22,9 +24,9 @@ Witamy w tym dogłębnym samouczku dotyczącym zarządzania ustawieniami czcione
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
 - Podstawowa znajomość języka C#: Znajomość programowania w języku C# pomoże Ci zrozumieć i płynnie wdrożyć poszczególne kroki.
--  Biblioteka Aspose.Words dla .NET: Pobierz i zainstaluj Aspose.Words dla .NET z[link do pobrania](https://releases.aspose.com/words/net/).
+- Biblioteka Aspose.Words dla .NET: Pobierz i zainstaluj Aspose.Words dla .NET z [link do pobrania](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: odpowiednie środowisko, np. Visual Studio, umożliwiające pisanie i wykonywanie kodu.
--  Przykładowy dokument: Przykładowy dokument (np.`Rendering.docx`) aby zastosować ustawienia czcionki.
+- Przykładowy dokument: Przykładowy dokument (np. `Rendering.docx`) aby zastosować ustawienia czcionki.
 
 ## Importuj przestrzenie nazw
 
@@ -58,11 +60,11 @@ FontSettings.DefaultInstance.SetFontsSources(new FontSourceBase[]
 
 W tym przykładzie:
 - `SystemFontSource` reprezentuje domyślne czcionki systemowe.
-- `FolderFontSource` wskazuje na niestandardowy folder (`C:\\MyFonts\\` ) gdzie przechowywane są dodatkowe czcionki.`true` Parametr wskazuje, że ten folder powinien być skanowany rekurencyjnie.
+- `FolderFontSource` wskazuje na niestandardowy folder (`C:\\MyFonts\\`) gdzie przechowywane są dodatkowe czcionki. `true` Parametr wskazuje, że ten folder powinien być skanowany rekurencyjnie.
 
 ## Krok 3: Załaduj dokument
 
- Po skonfigurowaniu źródeł czcionek następnym krokiem jest załadowanie dokumentu do Aspose.Words`Document` obiekt. Pozwala to na manipulowanie dokumentem i ewentualnie jego zapisanie.
+Po skonfigurowaniu źródeł czcionek następnym krokiem jest załadowanie dokumentu do Aspose.Words `Document` obiekt. Pozwala to na manipulowanie dokumentem i ewentualnie jego zapisanie.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -86,11 +88,11 @@ Gratulacje! Opanowałeś podstawy zarządzania ustawieniami czcionek za pomocą 
 
 ### Czy mogę używać czcionek z wielu folderów niestandardowych?
 
- Tak, możesz określić wiele`FolderFontSource` przypadki w ramach`SetFontsSources` metoda umożliwiająca dołączenie czcionek z różnych folderów.
+Tak, możesz określić wiele `FolderFontSource` przypadki w ramach `SetFontsSources` metoda umożliwiająca dołączenie czcionek z różnych folderów.
 
 ### Jak mogę uzyskać bezpłatną wersję próbną Aspose.Words dla .NET?
 
- Darmową wersję próbną możesz pobrać ze strony[Strona z bezpłatną wersją próbną](https://releases.aspose.com/).
+Darmową wersję próbną możesz pobrać ze strony [Strona z bezpłatną wersją próbną](https://releases.aspose.com/).
 
 ### Czy możliwe jest osadzanie czcionek bezpośrednio w dokumencie?
 
@@ -98,15 +100,20 @@ Aspose.Words umożliwia osadzanie czcionek w niektórych formatach, takich jak P
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Words?
 
- Aby uzyskać pomoc, odwiedź stronę[Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8).
+Aby uzyskać pomoc, odwiedź stronę [Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8).
 
 ### Czy mogę zakupić licencję tymczasową?
 
- Tak, możesz uzyskać tymczasową licencję od[tymczasowa strona licencji](https://purchase.aspose.com/temporary-license/).
+Tak, możesz uzyskać tymczasową licencję od [tymczasowa strona licencji](https://purchase.aspose.com/temporary-license/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

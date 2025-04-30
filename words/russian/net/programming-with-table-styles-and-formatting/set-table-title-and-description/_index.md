@@ -1,14 +1,16 @@
 ---
-title: Установить заголовок и описание таблицы
-linktitle: Установить заголовок и описание таблицы
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как задать заголовки и описания таблиц в документах Word с помощью Aspose.Words для .NET. Следуйте нашему подробному руководству, чтобы повысить профессионализм вашего документа.
-weight: 10
-url: /ru/net/programming-with-table-styles-and-formatting/set-table-title-and-description/
+"description": "Узнайте, как задать заголовки и описания таблиц в документах Word с помощью Aspose.Words для .NET. Следуйте нашему подробному руководству, чтобы повысить профессионализм вашего документа."
+"linktitle": "Установить заголовок и описание таблицы"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Установить заголовок и описание таблицы"
+"url": "/ru/net/programming-with-table-styles-and-formatting/set-table-title-and-description/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Установить заголовок и описание таблицы
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-table-styles-and-formatting/set-table-title-and-de
 
 Прежде чем мы перейдем к деталям, давайте убедимся, что у вас есть все необходимое. Вот ваш контрольный список:
 
-1.  Aspose.Words for .NET: Если вы еще этого не сделали, вам нужно будет это сделать. Вы можете загрузить его с[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Если вы еще этого не сделали, вам нужно будет это сделать. Вы можете загрузить его с [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая другая C# IDE.
 3. Базовое понимание C#: ничего сверхсложного, только основы.
 4. Образец документа Word: Мы будем работать с документом, в котором есть таблицы. Вы можете создать его или использовать существующий документ.
@@ -93,16 +95,21 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.SetTableTitleAndDescript
 Они помогают обеспечить контекст, особенно в больших документах с несколькими таблицами.
 
 ### Является ли Aspose.Words для .NET бесплатным?
- Нет, но вы можете начать с[бесплатная пробная версия](https://releases.aspose.com/).
+Нет, но вы можете начать с [бесплатная пробная версия](https://releases.aspose.com/).
 
 ### Могу ли я настроить другие аспекты таблицы с помощью Aspose.Words для .NET?
 Конечно! Вы можете настроить практически каждый аспект своих таблиц и документов.
 
 ### Что делать, если я хочу сохранить документ в другом формате?
 Aspose.Words поддерживает сохранение в различных форматах, таких как PDF, HTML и другие.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

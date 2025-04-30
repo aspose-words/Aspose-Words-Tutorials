@@ -1,14 +1,16 @@
 ---
-title: सेल स्वरूपण संशोधित करें
-linktitle: सेल स्वरूपण संशोधित करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस विस्तृत चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में सेल फ़ॉर्मेटिंग को संशोधित करना सीखें।
-weight: 10
-url: /hi/net/programming-with-table-styles-and-formatting/modify-cell-formatting/
+"description": "इस विस्तृत चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में सेल फ़ॉर्मेटिंग को संशोधित करना सीखें।"
+"linktitle": "सेल स्वरूपण संशोधित करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "सेल स्वरूपण संशोधित करें"
+"url": "/hi/net/programming-with-table-styles-and-formatting/modify-cell-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # सेल स्वरूपण संशोधित करें
@@ -21,10 +23,10 @@ url: /hi/net/programming-with-table-styles-and-formatting/modify-cell-formatting
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1. Aspose.Words for .NET - आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET - आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विजुअल स्टूडियो - या आपकी पसंद का कोई अन्य IDE.
 3. C# का बुनियादी ज्ञान - इससे आपको कोड उदाहरणों का अनुसरण करने में मदद मिलेगी।
-4.  एक वर्ड दस्तावेज़ - विशेष रूप से, वह जिसमें एक तालिका होती है। हम नाम की एक फ़ाइल का उपयोग करेंगे`Tables.docx`.
+4. एक वर्ड दस्तावेज़ - विशेष रूप से, वह जिसमें एक तालिका होती है। हम नाम की एक फ़ाइल का उपयोग करेंगे `Tables.docx`.
 
 ## नामस्थान आयात करें
 
@@ -43,13 +45,13 @@ using System.Drawing;
 सबसे पहले, आपको उस Word दस्तावेज़ को लोड करना होगा जिसमें वह तालिका है जिसे आप संशोधित करना चाहते हैं। यह आपके पसंदीदा वर्ड प्रोसेसर में फ़ाइल खोलने जैसा है, लेकिन हम इसे प्रोग्रामेटिक रूप से करेंगे।
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- इस चरण में, हम उपयोग कर रहे हैं`Document` दस्तावेज़ लोड करने के लिए Aspose.Words से क्लास। प्रतिस्थापित करना सुनिश्चित करें`"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ के वास्तविक पथ के साथ.
+इस चरण में, हम उपयोग कर रहे हैं `Document` दस्तावेज़ लोड करने के लिए Aspose.Words से क्लास। प्रतिस्थापित करना सुनिश्चित करें `"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ के वास्तविक पथ के साथ.
 
 ## चरण 2: टेबल तक पहुंचें
 
@@ -59,7 +61,7 @@ Document doc = new Document(dataDir + "Tables.docx");
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 ```
 
-यहाँ, हम उपयोग कर रहे हैं`GetChild` दस्तावेज़ में पहली तालिका प्राप्त करने की विधि।`NodeType.Table` पैरामीटर निर्दिष्ट करता है कि हम एक तालिका की तलाश कर रहे हैं, और`0` पहली तालिका को इंगित करता है।`true` पैरामीटर यह सुनिश्चित करता है कि खोज गहन हो, अर्थात यह सभी चाइल्ड नोड्स को देखेगा।
+यहाँ, हम उपयोग कर रहे हैं `GetChild` दस्तावेज़ में पहली तालिका प्राप्त करने की विधि। `NodeType.Table` पैरामीटर निर्दिष्ट करता है कि हम एक तालिका की तलाश कर रहे हैं, और `0` पहली तालिका को इंगित करता है। `true` पैरामीटर यह सुनिश्चित करता है कि खोज गहन हो, अर्थात यह सभी चाइल्ड नोड्स को देखेगा।
 
 ## चरण 3: पहला सेल चुनें
 
@@ -79,7 +81,7 @@ Cell firstCell = table.FirstRow.FirstCell;
 firstCell.CellFormat.Width = 30;
 ```
 
- यहाँ, हम सेटिंग कर रहे हैं`Width` सेल के प्रारूप की संपत्ति`30`इससे पहले सेल की चौड़ाई 30 पॉइंट तक बदल जाती है।
+यहाँ, हम सेटिंग कर रहे हैं `Width` सेल के प्रारूप की संपत्ति `30`इससे पहले सेल की चौड़ाई 30 पॉइंट हो जाती है।
 
 ## चरण 5: टेक्स्ट ओरिएंटेशन बदलें
 
@@ -89,7 +91,7 @@ firstCell.CellFormat.Width = 30;
 firstCell.CellFormat.Orientation = TextOrientation.Downward;
 ```
 
- सेट करके`Orientation`संपत्ति को`TextOrientation.Downward`हमने सेल के अंदर के टेक्स्ट को नीचे की ओर घुमा दिया है। यह अद्वितीय टेबल हेडर या साइड नोट्स बनाने के लिए उपयोगी हो सकता है।
+सेट करके `Orientation` संपत्ति को `TextOrientation.Downward`हमने सेल के अंदर के टेक्स्ट को नीचे की ओर घुमा दिया है। यह अद्वितीय टेबल हेडर या साइड नोट्स बनाने के लिए उपयोगी हो सकता है।
 
 ## चरण 6: सेल शेडिंग लागू करें
 
@@ -99,7 +101,7 @@ firstCell.CellFormat.Orientation = TextOrientation.Downward;
 firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
 ```
 
- इस चरण में, हम उपयोग कर रहे हैं`Shading` संपत्ति सेट करने के लिए`ForegroundPatternColor` को`Color.LightGreen`इससे सेल में हल्का हरा रंग की पृष्ठभूमि जुड़ जाती है, जिससे वह अलग दिखाई देती है।
+इस चरण में, हम उपयोग कर रहे हैं `Shading` संपत्ति सेट करने के लिए `ForegroundPatternColor` को `Color.LightGreen`इससे सेल में हल्का हरा पृष्ठभूमि रंग जुड़ जाता है, जिससे वह अलग दिखाई देता है।
 
 ## निष्कर्ष
 
@@ -111,7 +113,7 @@ firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
 हां, आप अपनी तालिका में सभी कक्षों में लूप कर सकते हैं और प्रत्येक पर समान स्वरूपण लागू कर सकते हैं।
 
 ### मैं संशोधित दस्तावेज़ को कैसे सहेजूँ?
- उपयोग`doc.Save("output.docx")` अपने परिवर्तनों को सहेजने के लिए विधि का उपयोग करें.
+उपयोग `doc.Save("output.docx")` अपने परिवर्तनों को सहेजने के लिए विधि का उपयोग करें.
 
 ### क्या अलग-अलग कोशिकाओं पर अलग-अलग शेड्स लगाना संभव है?
 बिल्कुल! बस प्रत्येक सेल तक व्यक्तिगत रूप से पहुँचें और उसकी छायांकन सेट करें।
@@ -120,10 +122,15 @@ firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
 Aspose.Words for .NET को C# जैसी .NET भाषाओं के लिए डिज़ाइन किया गया है, लेकिन अन्य प्लेटफ़ॉर्म के लिए भी इसके संस्करण हैं।
 
 ### मैं अधिक विस्तृत दस्तावेज कहां पा सकता हूं?
- आप सम्पूर्ण दस्तावेज यहाँ पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप सम्पूर्ण दस्तावेज यहाँ पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

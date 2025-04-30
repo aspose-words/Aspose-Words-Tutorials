@@ -1,14 +1,16 @@
 ---
-title: Sử dụng danh sách trong Aspose.Words cho Java
-linktitle: Sử dụng danh sách
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Học cách sử dụng danh sách trong Aspose.Words cho Java với hướng dẫn từng bước này. Tổ chức và định dạng tài liệu của bạn một cách hiệu quả.
-weight: 18
-url: /vi/java/using-document-elements/using-lists/
+"description": "Học cách sử dụng danh sách trong Aspose.Words cho Java với hướng dẫn từng bước này. Tổ chức và định dạng tài liệu của bạn một cách hiệu quả."
+"linktitle": "Sử dụng danh sách"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng danh sách trong Aspose.Words cho Java"
+"url": "/vi/java/using-document-elements/using-lists/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng danh sách trong Aspose.Words cho Java
@@ -22,7 +24,7 @@ Trước khi bắt đầu làm việc với danh sách, hãy làm quen với Asp
 
 ### Thiết lập môi trường của bạn
 
- Để bắt đầu, hãy đảm bảo bạn đã cài đặt và thiết lập Aspose.Words for Java trong môi trường phát triển của mình. Bạn có thể tải xuống[đây](https://releases.aspose.com/words/java/). 
+Để bắt đầu, hãy đảm bảo bạn đã cài đặt và thiết lập Aspose.Words for Java trong môi trường phát triển của mình. Bạn có thể tải xuống [đây](https://releases.aspose.com/words/java/). 
 
 ## Khởi động lại danh sách tại mỗi phần
 
@@ -118,7 +120,7 @@ Bây giờ, chúng ta hãy tạo một danh sách có dấu đầu dòng.
 builder.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DIAMONDS));
 ```
 
-### Chỉ định các cấp độ danh sách có dấu đầu dòng: 
+### Chỉ định mức danh sách có dấu đầu dòng: 
 Tương tự như danh sách được đánh số, hãy chỉ định các cấp độ và thêm nội dung.
 
 ```java
@@ -171,7 +173,7 @@ Bằng cách làm theo các bước sau, bạn có thể tạo tài liệu với
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
         // Tạo danh sách được đánh số dựa trên một trong các mẫu danh sách của Microsoft Word
-        //và áp dụng nó vào đoạn văn hiện tại của trình tạo tài liệu.
+        // và áp dụng nó vào đoạn văn hiện tại của trình tạo tài liệu.
         builder.getListFormat().setList(doc.getLists().add(ListTemplate.NUMBER_ARABIC_DOT));
         // Có chín cấp độ trong danh sách này, chúng ta hãy thử tất cả nhé.
         for (int i = 0; i < 9; i++)
@@ -180,7 +182,7 @@ Bằng cách làm theo các bước sau, bạn có thể tạo tài liệu với
             builder.writeln("Level " + i);
         }
         // Tạo danh sách có dấu đầu dòng dựa trên một trong các mẫu danh sách của Microsoft Word
-        //và áp dụng nó vào đoạn văn hiện tại của trình tạo tài liệu.
+        // và áp dụng nó vào đoạn văn hiện tại của trình tạo tài liệu.
         builder.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DIAMONDS));
         for (int i = 0; i < 9; i++)
         {
@@ -222,12 +224,12 @@ Bằng cách làm theo các bước sau, bạn có thể tạo tài liệu với
 
 Xin chúc mừng! Bạn đã học được cách làm việc với danh sách trong Aspose.Words for Java hiệu quả. Danh sách rất quan trọng để sắp xếp và trình bày nội dung trong tài liệu của bạn. Cho dù bạn cần khởi động lại danh sách ở mỗi phần hay chỉ định cấp độ danh sách, Aspose.Words for Java cung cấp các công cụ bạn cần để tạo tài liệu trông chuyên nghiệp.
 
-Bây giờ bạn có thể tự tin sử dụng các tính năng này để nâng cao nhiệm vụ tạo và định dạng tài liệu của mình. Nếu bạn có bất kỳ câu hỏi nào hoặc cần hỗ trợ thêm, đừng ngần ngại liên hệ với[Diễn đàn cộng đồng Aspose](https://forum.aspose.com/) để được hỗ trợ.
+Bây giờ bạn có thể tự tin sử dụng các tính năng này để nâng cao nhiệm vụ tạo và định dạng tài liệu của mình. Nếu bạn có bất kỳ câu hỏi nào hoặc cần hỗ trợ thêm, đừng ngần ngại liên hệ với [Diễn đàn cộng đồng Aspose](https://forum.aspose.com/) để được hỗ trợ.
 
 ## Câu hỏi thường gặp
 
 ### Làm thế nào để cài đặt Aspose.Words cho Java?
- Bạn có thể tải xuống Aspose.Words cho Java từ[đây](https://releases.aspose.com/words/java/) và làm theo hướng dẫn cài đặt trong tài liệu.
+Bạn có thể tải xuống Aspose.Words cho Java từ [đây](https://releases.aspose.com/words/java/) và làm theo hướng dẫn cài đặt trong tài liệu.
 
 ### Tôi có thể tùy chỉnh định dạng đánh số của danh sách không?
 Có, Aspose.Words for Java cung cấp nhiều tùy chọn để tùy chỉnh định dạng đánh số danh sách. Bạn có thể tham khảo tài liệu API để biết chi tiết.
@@ -235,15 +237,20 @@ Có, Aspose.Words for Java cung cấp nhiều tùy chọn để tùy chỉnh đ�
 ### Aspose.Words for Java có tương thích với các tiêu chuẩn tài liệu Word mới nhất không?
 Có, bạn có thể cấu hình Aspose.Words for Java để tuân thủ nhiều tiêu chuẩn tài liệu Word khác nhau, bao gồm cả ISO 29500.
 
-### Tôi có thể tạo các tài liệu phức tạp với bảng và hình ảnh bằng Aspose.Words cho Java không?
+### Tôi có thể tạo các tài liệu phức tạp có bảng và hình ảnh bằng Aspose.Words cho Java không?
 Chắc chắn rồi! Aspose.Words for Java hỗ trợ định dạng tài liệu nâng cao, bao gồm bảng, hình ảnh và nhiều hơn nữa. Kiểm tra tài liệu để biết ví dụ.
 
 ### Tôi có thể lấy giấy phép tạm thời cho Aspose.Words cho Java ở đâu?
-Bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

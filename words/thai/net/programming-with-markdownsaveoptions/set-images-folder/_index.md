@@ -1,14 +1,16 @@
 ---
-title: ตั้งค่าโฟลเดอร์รูปภาพ
-linktitle: ตั้งค่าโฟลเดอร์รูปภาพ
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: แปลงเอกสาร Word เป็น Markdown พร้อมจัดวางตารางให้เหมาะสมโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำโดยละเอียดของเราเพื่อผลลัพธ์ที่สมบูรณ์แบบ
-weight: 10
-url: /th/net/programming-with-markdownsaveoptions/set-images-folder/
+"description": "แปลงเอกสาร Word เป็น Markdown พร้อมจัดวางตารางให้เหมาะสมโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำโดยละเอียดของเราเพื่อผลลัพธ์ที่สมบูรณ์แบบ"
+"linktitle": "ตั้งค่าโฟลเดอร์รูปภาพ"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ตั้งค่าโฟลเดอร์รูปภาพ"
+"url": "/th/net/programming-with-markdownsaveoptions/set-images-folder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตั้งค่าโฟลเดอร์รูปภาพ
@@ -21,8 +23,8 @@ url: /th/net/programming-with-markdownsaveoptions/set-images-folder/
 
 ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
--  Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
--  ใบอนุญาตที่ถูกต้อง: รับสิทธิ์ทดลองใช้ฟรี[ที่นี่](https://releases.aspose.com/) หรือใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
+- ใบอนุญาตที่ถูกต้อง: รับสิทธิ์ทดลองใช้ฟรี [ที่นี่](https://releases.aspose.com/) หรือใบอนุญาตชั่วคราว [ที่นี่](https://purchase-aspose.com/temporary-license/).
 - Visual Studio: หรือ IDE อื่นๆ ที่รองรับการพัฒนา .NET
 - ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจเกี่ยวกับภาษาการเขียนโปรแกรม C#
 
@@ -46,7 +48,7 @@ using System.IO;
 
 ### 1.2 เพิ่มการอ้างอิง Aspose.Words
 
- หากต้องการเพิ่ม Aspose.Words ลงในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลด DLL จาก[เว็บไซต์อาโพส](https://releases.aspose.com/words/net/) และเพิ่มด้วยตนเองหรือใช้ตัวจัดการแพ็กเกจ NuGet:
+หากต้องการเพิ่ม Aspose.Words ลงในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลด DLL จาก [เว็บไซต์อาโพส](https://releases.aspose.com/words/net/) และเพิ่มด้วยตนเองหรือใช้ตัวจัดการแพ็กเกจ NuGet:
 
 ```bash
 Install-Package Aspose.Words
@@ -74,7 +76,7 @@ Document doc = new Document(dataDir + "Image bullet points.docx");
 
 ### 2.3 กำหนดค่าตัวเลือกการบันทึกมาร์กดาวน์
 
- กำหนดค่า`MarkdownSaveOptions` เพื่อระบุว่าควรเก็บรูปภาพไว้ที่ไหน
+กำหนดค่า `MarkdownSaveOptions` เพื่อระบุว่าควรเก็บรูปภาพไว้ที่ไหน
 
 ```csharp
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
@@ -85,7 +87,7 @@ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
 
 ### 2.4 บันทึกเอกสารเป็นมาร์กดาวน์
 
- ใช้`MemoryStream` เพื่อบันทึกเอกสารในรูปแบบ Markdown
+ใช้ `MemoryStream` เพื่อบันทึกเอกสารในรูปแบบ Markdown
 
 ```csharp
 using (MemoryStream stream = new MemoryStream())
@@ -106,7 +108,7 @@ using (MemoryStream stream = new MemoryStream())
 
 ### ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.Words ได้อย่างไร
 
-คุณสามารถขอใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+คุณสามารถขอใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันสามารถแปลงเอกสารประเภทใดเป็น Markdown ได้บ้าง
 
@@ -114,15 +116,20 @@ using (MemoryStream stream = new MemoryStream())
 
 ### มีข้อจำกัดใด ๆ ในเวอร์ชันทดลองใช้ของ Aspose.Words หรือไม่
 
-เวอร์ชันทดลองใช้มีข้อจำกัดบางประการ เช่น ลายน้ำในไฟล์เอาต์พุต คุณสามารถทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+เวอร์ชันทดลองใช้มีข้อจำกัดบางประการ เช่น ลายน้ำในไฟล์เอาต์พุต คุณสามารถทดลองใช้งานฟรีได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถหาตัวอย่างและเอกสารประกอบเพิ่มเติมสำหรับ Aspose.Words ได้จากที่ไหน
 
- คุณสามารถค้นหาเอกสารรายละเอียดและตัวอย่างได้ที่[เว็บไซต์อาโพส](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารรายละเอียดและตัวอย่างได้ที่ [เว็บไซต์อาโพส](https://reference-aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

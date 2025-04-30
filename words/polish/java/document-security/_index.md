@@ -1,14 +1,16 @@
 ---
-title: Bezpieczeństwo dokumentów
-linktitle: Bezpieczeństwo dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Zwiększ bezpieczeństwo dokumentów dzięki Aspose.Words for Java! Wdrażaj ochronę, szyfrowanie i podpisy cyfrowe, aby zapewnić solidną ochronę danych.
-weight: 17
-url: /pl/java/document-security/
+"description": "Zwiększ bezpieczeństwo dokumentów dzięki Aspose.Words for Java! Wdrażaj ochronę, szyfrowanie i podpisy cyfrowe, aby zapewnić solidną ochronę danych."
+"linktitle": "Bezpieczeństwo dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Bezpieczeństwo dokumentów"
+"url": "/pl/java/document-security/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bezpieczeństwo dokumentów
@@ -39,9 +41,13 @@ Dowiedz się, jak szyfrować i odszyfrowywać dokumenty za pomocą Aspose.Words 
 Dowiedz się, jak wdrożyć bezpieczne podpisy cyfrowe w dokumentach za pomocą Aspose.Words for Java. Zapewnij integralność dokumentu dzięki wskazówkom krok po kroku i kodowi źródłowemu
 ### [Redakcja dokumentów i ochrona danych](./document-redaction-data-protection/)
 Dowiedz się, jak zabezpieczyć dokumenty i redagować poufne dane za pomocą Aspose.Words for Java. Przewodnik krok po kroku z kodem źródłowym.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

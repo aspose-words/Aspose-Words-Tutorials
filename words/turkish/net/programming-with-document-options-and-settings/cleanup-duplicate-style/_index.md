@@ -1,14 +1,16 @@
 ---
-title: Yinelenen Stili Temizle
-linktitle: Yinelenen Stili Temizle
-second_title: Aspose.Words Belge İşleme API'si
-description: Kapsamlı adım adım kılavuzumuzla Aspose.Words for .NET'i kullanarak Word belgelerinizdeki yinelenen stilleri nasıl temizleyeceğinizi öğrenin.
-weight: 10
-url: /tr/net/programming-with-document-options-and-settings/cleanup-duplicate-style/
+"description": "Kapsamlı adım adım kılavuzumuzla Aspose.Words for .NET'i kullanarak Word belgelerinizdeki yinelenen stilleri nasıl temizleyeceğinizi öğrenin."
+"linktitle": "Yinelenen Stili Temizle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yinelenen Stili Temizle"
+"url": "/tr/net/programming-with-document-options-and-settings/cleanup-duplicate-style/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yinelenen Stili Temizle
@@ -22,7 +24,7 @@ Merhaba, kodlama meraklıları! Bir Word belgesi üzerinde çalışırken kendin
 Aksiyona geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
 1. Temel C# Bilgisi: C# konusunda uzman olmanıza gerek yok, ancak dilin temellerini anlamak faydalı olacaktır.
-2. Aspose.Words for .NET: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Değilse, indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+2. Aspose.Words for .NET: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Değilse, indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 3. Geliştirme Ortamı: Visual Studio gibi iyi bir geliştirme ortamı hayatınızı çok kolaylaştıracaktır.
 4. Örnek Belge: Test için yinelenen stiller içeren bir örnek Word belgesi (.docx) hazırlayın.
 
@@ -41,7 +43,7 @@ using Aspose.Words.Saving;
 Başlamak için Word belgenizi projenize yüklemeniz gerekir. Örnek belgenizin devreye girdiği yer burasıdır.
 
 1. Belge Dizinini Belirleyin: Belgenizin saklandığı dizine giden yolu tanımlayın.
-2.  Belgeyi Yükle: Şunu kullanın:`Document` Belgenizi yüklemek için sınıf.
+2. Belgeyi Yükle: Şunu kullanın: `Document` Belgenizi yüklemek için sınıf.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -53,8 +55,8 @@ Document doc = new Document(dataDir + "Document.docx");
 
 Temizlemeden önce, belgede şu anda kaç stil olduğunu görelim. Bu, temizlemeden sonra karşılaştırma yapmak için bize bir temel sağlar.
 
-1.  Stiller Koleksiyonuna Erişim: Şunu kullanın:`Styles` mülkiyeti`Document` sınıf.
-2. Stil Sayısını Yazdır: Kullan`Console.WriteLine` stil sayısını görüntülemek için.
+1. Stiller Koleksiyonuna Erişim: Şunu kullanın: `Styles` mülkiyeti `Document` sınıf.
+2. Stil Sayısını Yazdır: Kullan `Console.WriteLine` stil sayısını görüntülemek için.
 
 ```csharp
 // Temizlemeden önceki stil sayısı.
@@ -65,8 +67,8 @@ Console.WriteLine(doc.Styles.Count);
 
 Şimdi temizleme seçeneklerini yapılandırma zamanı. Burada Aspose.Words'e yinelenen stilleri temizlemeye odaklanmasını söylüyoruz.
 
-1.  CleanupOptions'ı Oluşturun:`CleanupOptions` sınıf.
-2.  DuplicateStyle Temizlemeyi Etkinleştir:`DuplicateStyle`mülk`true`.
+1. CleanupOptions'ı Oluşturun: Örneklemeyi yapın `CleanupOptions` sınıf.
+2. DuplicateStyle Temizlemeyi Etkinleştir: `DuplicateStyle` mülk `true`.
 
 ```csharp
 // Belgedeki yinelenen stilleri temizler.
@@ -77,7 +79,7 @@ CleanupOptions options = new CleanupOptions { DuplicateStyle = true };
 
 Temizleme seçeneklerini ayarladıktan sonra, o sinir bozucu yinelenen stilleri temizlemenin zamanı geldi.
 
- Temizleme Yöntemini çağırın:`Cleanup` yöntemi`Document` sınıf, temizleme seçeneklerini geçiyor.
+Temizleme Yöntemini çağırın: `Cleanup` yöntemi `Document` sınıf, temizleme seçeneklerini geçiyor.
 
 ```csharp
 doc.Cleanup(options);
@@ -87,7 +89,7 @@ doc.Cleanup(options);
 
 Stilleri tekrar sayarak temizleme işlemimizin sonucunu görelim. Bu bize kaç tane stilin kaldırıldığını gösterecektir.
 
- Yeni Stil Sayısını Yazdır: Kullan`Console.WriteLine` güncellenen stil sayısını görüntülemek için.
+Yeni Stil Sayısını Yazdır: Kullan `Console.WriteLine` güncellenen stil sayısını görüntülemek için.
 
 ```csharp
 // Temizlemeden sonra stil sayısı azaltıldı.
@@ -98,7 +100,7 @@ Console.WriteLine(doc.Styles.Count);
 
 Son olarak temizlenmiş belgeyi belirttiğiniz dizine kaydedin.
 
- Belgeyi Kaydedin: Şunu kullanın:`Save` yöntemi`Document` sınıf.
+Belgeyi Kaydedin: Şunu kullanın: `Save` yöntemi `Document` sınıf.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithDocumentOptionsAndSettings.CleanupDuplicateStyle.docx");
@@ -120,13 +122,18 @@ Yinelenen stilleri temizlemek, belgelerinizde tutarlı ve profesyonel bir görü
 Evet, Aspose.Words for .NET, VB.NET ve F# dahil olmak üzere herhangi bir .NET diliyle kullanılabilir.
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
- Ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Ayrıntılı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
 
 ### Aspose.Words for .NET için ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz denemeyi indirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz denemeyi indirebilirsiniz [Burada](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

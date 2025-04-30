@@ -1,14 +1,16 @@
 ---
-title: मापने की इकाई
-linktitle: मापने की इकाई
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: ODT रूपांतरण के दौरान दस्तावेज़ स्वरूपण को संरक्षित करने के लिए Aspose.Words for .NET में माप सुविधा की इकाई को कॉन्फ़िगर करना सीखें।
-weight: 10
-url: /hi/net/programming-with-odtsaveoptions/measure-unit/
+"description": "ODT रूपांतरण के दौरान दस्तावेज़ स्वरूपण को संरक्षित करने के लिए Aspose.Words for .NET में माप सुविधा की इकाई को कॉन्फ़िगर करना सीखें।"
+"linktitle": "मापने की इकाई"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "मापने की इकाई"
+"url": "/hi/net/programming-with-odtsaveoptions/measure-unit/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # मापने की इकाई
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-odtsaveoptions/measure-unit/
 
 कोड में गोता लगाने से पहले, आपको कुछ चीजें शुरू करने की आवश्यकता होगी:
 
-1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET का नवीनतम संस्करण स्थापित है। यदि आपके पास यह अभी तक नहीं है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET का नवीनतम संस्करण स्थापित है। यदि आपके पास यह अभी तक नहीं है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास पर्यावरण: आपके C# कोड को लिखने और निष्पादित करने के लिए विजुअल स्टूडियो जैसा एक IDE.
 3. C# का बुनियादी ज्ञान: C# की मूल बातें समझने से आपको ट्यूटोरियल का अनुसरण करने में मदद मिलेगी।
 4. एक वर्ड दस्तावेज़: एक नमूना वर्ड दस्तावेज़ तैयार रखें जिसका उपयोग आप रूपांतरण के लिए कर सकते हैं।
@@ -44,11 +46,11 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENTS DIRECTORY"` आपकी निर्देशिका के वास्तविक पथ के साथ। यह सुनिश्चित करता है कि आपका कोड जानता है कि आपका वर्ड दस्तावेज़ कहाँ मिलेगा।
+प्रतिस्थापित करें `"YOUR DOCUMENTS DIRECTORY"` आपकी निर्देशिका के वास्तविक पथ के साथ। यह सुनिश्चित करता है कि आपका कोड जानता है कि आपका वर्ड दस्तावेज़ कहाँ मिलेगा।
 
 ## चरण 2: वर्ड दस्तावेज़ लोड करें
 
- इसके बाद, आपको उस वर्ड डॉक्यूमेंट को लोड करना होगा जिसे आप कनवर्ट करना चाहते हैं। यह काम करने के लिए`Document` Aspose.Words से क्लास.
+इसके बाद, आपको उस वर्ड डॉक्यूमेंट को लोड करना होगा जिसे आप कनवर्ट करना चाहते हैं। यह काम करने के लिए `Document` Aspose.Words से क्लास.
 
 ```csharp
 // Word दस्तावेज़ लोड करें
@@ -59,18 +61,18 @@ Document doc = new Document(dataDir + "Document.docx");
 
 ## चरण 3: माप की इकाई कॉन्फ़िगर करें
 
- अब, आइए ODT रूपांतरण के लिए माप की इकाई को कॉन्फ़िगर करें। यहीं पर जादू होता है। हम सेट अप करेंगे`OdtSaveOptions` माप की इकाई के रूप में इंच का उपयोग करना।
+अब, ODT रूपांतरण के लिए माप की इकाई को कॉन्फ़िगर करते हैं। यहीं पर जादू होता है। हम सेट अप करेंगे `OdtSaveOptions` माप की इकाई के रूप में इंच का उपयोग करना।
 
 ```csharp
 // "माप की इकाई" सुविधा के साथ बैकअप विकल्पों का कॉन्फ़िगरेशन
 OdtSaveOptions saveOptions = new OdtSaveOptions { MeasureUnit = OdtSaveMeasureUnit.Inches };
 ```
 
- इस उदाहरण में, हम माप की इकाई को इंच में सेट कर रहे हैं। आप अन्य इकाइयाँ भी चुन सकते हैं जैसे`OdtSaveMeasureUnit.Centimeters` या`OdtSaveMeasureUnit.Points` आपकी आवश्यकताओं के आधार पर.
+इस उदाहरण में, हम माप की इकाई को इंच में सेट कर रहे हैं। आप अन्य इकाइयाँ भी चुन सकते हैं जैसे `OdtSaveMeasureUnit.Centimeters` या `OdtSaveMeasureUnit.Points` आपकी आवश्यकताओं के आधार पर.
 
 ## चरण 4: दस्तावेज़ को ODT में बदलें
 
- अंत में, हम कॉन्फ़िगर किए गए का उपयोग करके Word दस्तावेज़ को ODT प्रारूप में परिवर्तित करेंगे`OdtSaveOptions`.
+अंत में, हम कॉन्फ़िगर किए गए का उपयोग करके Word दस्तावेज़ को ODT प्रारूप में परिवर्तित करेंगे `OdtSaveOptions`.
 
 ```csharp
 // दस्तावेज़ को ODT में बदलें
@@ -81,7 +83,7 @@ doc.Save(dataDir + "WorkingWithOdtSaveOptions.MeasureUnit.odt", saveOptions);
 
 ## निष्कर्ष
 
-और अब यह हो गया! इन चरणों का पालन करके, आप आसानी से Aspose.Words for .NET में माप की इकाई सुविधा को कॉन्फ़िगर कर सकते हैं ताकि यह सुनिश्चित हो सके कि रूपांतरण के दौरान आपके दस्तावेज़ का लेआउट सुरक्षित रहे। चाहे आप इंच, सेंटीमीटर या पॉइंट के साथ काम कर रहे हों, इस ट्यूटोरियल ने आपको दिखाया है कि अपने दस्तावेज़ के फ़ॉर्मेटिंग को आसानी से कैसे नियंत्रित किया जाए।
+और अब यह आपके लिए है! इन चरणों का पालन करके, आप आसानी से Aspose.Words for .NET में माप की इकाई सुविधा को कॉन्फ़िगर कर सकते हैं ताकि यह सुनिश्चित हो सके कि रूपांतरण के दौरान आपके दस्तावेज़ का लेआउट संरक्षित है। चाहे आप इंच, सेंटीमीटर या पॉइंट के साथ काम कर रहे हों, इस ट्यूटोरियल ने आपको दिखाया है कि अपने दस्तावेज़ के फ़ॉर्मेटिंग को आसानी से कैसे नियंत्रित किया जाए।
 
 ## पूछे जाने वाले प्रश्न
 
@@ -89,20 +91,25 @@ doc.Save(dataDir + "WorkingWithOdtSaveOptions.MeasureUnit.odt", saveOptions);
 Aspose.Words for .NET, Word दस्तावेज़ों के साथ प्रोग्रामेटिक रूप से काम करने के लिए एक शक्तिशाली लाइब्रेरी है। यह डेवलपर्स को Microsoft Word की आवश्यकता के बिना Word दस्तावेज़ बनाने, संशोधित करने, परिवर्तित करने और संसाधित करने की अनुमति देता है।
 
 ### क्या मैं इंच के अलावा माप की अन्य इकाइयों का उपयोग कर सकता हूँ?
- हां, Aspose.Words for .NET सेंटीमीटर और पॉइंट जैसी माप की अन्य इकाइयों का समर्थन करता है। आप वांछित इकाई को निर्दिष्ट करने के लिए निम्न का उपयोग कर सकते हैं`OdtSaveMeasureUnit` गणना.
+हां, Aspose.Words for .NET सेंटीमीटर और पॉइंट जैसी माप की अन्य इकाइयों का समर्थन करता है। आप वांछित इकाई को निर्दिष्ट करने के लिए निम्न का उपयोग कर सकते हैं `OdtSaveMeasureUnit` गणना.
 
 ### क्या .NET के लिए Aspose.Words का निःशुल्क परीक्षण उपलब्ध है?
- हां, आप .NET के लिए Aspose.Words का निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप .NET के लिए Aspose.Words का निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### मैं .NET के लिए Aspose.Words हेतु दस्तावेज़ कहां पा सकता हूं?
- आप .NET के लिए Aspose.Words के व्यापक दस्तावेज़ों तक यहां पहुंच सकते हैं[इस लिंक](https://reference.aspose.com/words/net/).
+आप .NET के लिए Aspose.Words के व्यापक दस्तावेज़ों तक यहां पहुंच सकते हैं [इस लिंक](https://reference.aspose.com/words/net/).
 
 ### मैं .NET के लिए Aspose.Words का समर्थन कैसे प्राप्त कर सकता हूं?
- सहायता के लिए, आप Aspose.Words फोरम पर जा सकते हैं[इस लिंक](https://forum.aspose.com/c/words/8).
+सहायता के लिए, आप Aspose.Words फोरम पर जा सकते हैं [इस लिंक](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

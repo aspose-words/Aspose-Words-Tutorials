@@ -1,60 +1,62 @@
 ---
-title: Zmenšete velikost dokumentu PDF pomocí převzorkování obrázků
-linktitle: Zmenšete velikost dokumentu PDF pomocí převzorkování obrázků
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Zmenšete velikost dokumentu PDF převzorkováním obrázků pomocí Aspose.Words for .NET. Optimalizujte své soubory PDF pro rychlejší nahrávání a stahování.
-weight: 10
-url: /cs/net/programming-with-pdfsaveoptions/downsampling-images/
+"description": "Zmenšete velikost PDF dokumentu převzorkováním obrázků pomocí Aspose.Words pro .NET. Optimalizujte své PDF soubory pro rychlejší nahrávání a stahování."
+"linktitle": "Zmenšení velikosti PDF dokumentu pomocí převzorkování obrázků"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Zmenšení velikosti PDF dokumentu pomocí převzorkování obrázků"
+"url": "/cs/net/programming-with-pdfsaveoptions/downsampling-images/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zmenšete velikost dokumentu PDF pomocí převzorkování obrázků
+# Zmenšení velikosti PDF dokumentu pomocí převzorkování obrázků
 
 ## Zavedení
 
-Soubory PDF jsou v digitálním světě základem a používají se ke všemu, od sdílení dokumentů po vytváření elektronických knih. Jejich velikost však může být někdy překážkou, zejména pokud jde o obsah bohatý na obrázky. Zde přichází na řadu převzorkování obrázků. Snížením rozlišení obrázků v PDF můžete výrazně zmenšit velikost souboru, aniž byste příliš ohrozili kvalitu. V tomto tutoriálu si projdeme kroky, jak toho dosáhnout pomocí Aspose.Words for .NET.
+PDF soubory jsou v digitálním světě nedílnou součástí a používají se ke všemu od sdílení dokumentů až po tvorbu elektronických knih. Jejich velikost však může být někdy překážkou, zejména při práci s obsahem bohatým na obrázky. Zde přichází na řadu převzorkování obrázků. Snížením rozlišení obrázků v PDF můžete výrazně zmenšit velikost souboru, aniž byste museli příliš snižovat kvalitu. V tomto tutoriálu si ukážeme kroky, jak toho dosáhnout pomocí Aspose.Words pro .NET.
 
 ## Předpoklady
 
-Než se pustíme do kódu, ujistěte se, že máte vše, co potřebujete:
+Než se pustíme do kódu, ujistěme se, že máte vše potřebné:
 
-1.  Aspose.Words for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words. Pokud ne, můžete si jej stáhnout[zde](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí: Jakékoli vývojové prostředí .NET, jako je Visual Studio.
-3. Základní znalost C#: Bude užitečné porozumět základům programování v C#.
-4.  Ukázkový dokument: Dokument aplikace Word (např.`Rendering.docx`) s obrázky pro převod do PDF.
+1. Aspose.Words pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words. Pokud ne, můžete si ji stáhnout. [zde](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí: Jakékoli vývojové prostředí pro .NET, například Visual Studio.
+3. Základní znalost C#: Pochopení základů programování v C# bude užitečné.
+4. Ukázkový dokument: Dokument aplikace Word (např. `Rendering.docx`) s obrázky k převodu do PDF.
 
 ## Importovat jmenné prostory
 
-Nejprve musíte importovat potřebné jmenné prostory. Přidejte tyto v horní části souboru kódu:
+Nejdříve je potřeba importovat potřebné jmenné prostory. Přidejte je na začátek souboru s kódem:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Nyní si tento proces rozdělíme na zvládnutelné kroky.
+Nyní si celý proces rozdělme na zvládnutelné kroky.
 
-## Krok 1: Vložte dokument
+## Krok 1: Vložení dokumentu
 
-Prvním krokem je načtení dokumentu aplikace Word. Zde zadáte cestu k adresáři dokumentů.
+Prvním krokem je načtení dokumentu Wordu. Zde zadáte cestu k adresáři s dokumenty.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- tomto kroku načítáme dokument Word ze zadaného adresáře. Nezapomeňte vyměnit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde se váš dokument nachází.
+V tomto kroku načítáme dokument aplikace Word ze zadaného adresáře. Nezapomeňte nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde se váš dokument nachází.
 
-## Krok 2: Nakonfigurujte možnosti převzorkování
+## Krok 2: Konfigurace možností převzorkování
 
-Dále musíme nakonfigurovat možnosti převzorkování. To zahrnuje nastavení rozlišení a prahu rozlišení pro obrázky.
+Dále je třeba nakonfigurovat možnosti převzorkování. To zahrnuje nastavení rozlišení a prahové hodnoty rozlišení pro obrázky.
 
 ```csharp
-// Můžeme nastavit minimální práh pro downsampling.
+// Můžeme nastavit minimální prahovou hodnotu pro podvzorkování.
 // Tato hodnota zabrání převzorkování druhého obrázku ve vstupním dokumentu.
 PdfSaveOptions saveOptions = new PdfSaveOptions
 {
@@ -62,7 +64,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Zde vytváříme novou instanci`PdfSaveOptions` a nastavení`Resolution` až 36 DPI a`ResolutionThreshold` až 128 DPI. To znamená, že jakýkoli obrázek s rozlišením vyšším než 128 DPI bude převzorkován na 36 DPI.
+Zde vytváříme novou instanci `PdfSaveOptions` a nastavení `Resolution` na 36 DPI a `ResolutionThreshold` na 128 DPI. To znamená, že jakýkoli obrázek s rozlišením vyšším než 128 DPI bude převzorkován na 36 DPI.
 
 ## Krok 3: Uložte dokument jako PDF
 
@@ -76,27 +78,32 @@ V tomto posledním kroku ukládáme dokument jako PDF do stejného adresáře se
 
 ## Závěr
 
-tady to máte! Úspěšně jste zmenšili velikost svého PDF převzorkováním obrázků pomocí Aspose.Words for .NET. Díky tomu jsou vaše soubory PDF nejen lépe spravovatelné, ale také pomáhá rychleji nahrávat, stahovat a plynuleji sledovat.
+A tady to máte! Úspěšně jste zmenšili velikost PDF souboru převzorkováním obrázků pomocí Aspose.Words pro .NET. Díky tomu se vaše PDF soubory nejen lépe spravují, ale také se rychleji nahrávají, stahují a jejich prohlížení je plynulejší.
 
-## FAQ
+## Často kladené otázky
 
-### Co je to downsampling?
-Převzorkování je proces snižování rozlišení obrázků, který pomáhá zmenšit velikost souboru dokumentů obsahujících tyto obrázky.
+### Co je to podvzorkování?
+Downsampling je proces snižování rozlišení obrázků, který pomáhá zmenšit velikost souborů dokumentů obsahujících tyto obrázky.
 
 ### Ovlivní downsampling kvalitu obrázků?
-Ano, převzorkování sníží kvalitu obrazu. Dopad však závisí na stupni snížení rozlišení. Je to kompromis mezi velikostí souboru a kvalitou obrazu.
+Ano, podvzorkování sníží kvalitu obrazu. Dopad však závisí na stupni snížení rozlišení. Jde o kompromis mezi velikostí souboru a kvalitou obrazu.
 
-### Mohu si vybrat, které obrázky převzorkovat?
- Ano, nastavením`ResolutionThreshold`, můžete ovládat, které obrázky budou převzorkovány na základě jejich původního rozlišení.
+### Mohu si vybrat, které obrázky mám převzorkovat?
+Ano, nastavením `ResolutionThreshold`, můžete ovládat, které obrázky budou převzorkovány na základě jejich původního rozlišení.
 
 ### Jaké je ideální rozlišení pro downsampling?
-Ideální rozlišení závisí na vašich konkrétních potřebách. Běžně se pro webové obrázky používá 72 DPI, zatímco vyšší rozlišení se používá pro kvalitu tisku.
+Ideální rozlišení závisí na vašich specifických potřebách. Pro webové obrázky se obvykle používá 72 DPI, zatímco vyšší rozlišení se používá pro kvalitu tisku.
 
-### Je Aspose.Words for .NET zdarma?
- Aspose.Words for .NET je komerční produkt, ale můžete si stáhnout bezplatnou zkušební verzi[zde](https://releases.aspose.com/) nebo požádat o a[dočasná licence](https://purchase.aspose.com/temporary-license/).
+### Je Aspose.Words pro .NET zdarma?
+Aspose.Words pro .NET je komerční produkt, ale můžete si stáhnout bezplatnou zkušební verzi. [zde](https://releases.aspose.com/) nebo si zažádat o [dočasná licence](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

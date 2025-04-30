@@ -1,14 +1,16 @@
 ---
-title: Alan Grafiğini Word Belgesine Ekleme
-linktitle: Alan Grafiğini Word Belgesine Ekleme
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak bir belgeye alan grafiğinin nasıl ekleneceğini öğrenin. Seri verilerini ekleyin ve belgeyi grafikle birlikte kaydedin.
-weight: 10
-url: /tr/net/programming-with-charts/insert-area-chart/
+"description": "Aspose.Words for .NET kullanarak bir belgeye alan grafiğinin nasıl ekleneceğini öğrenin. Seri verilerini ekleyin ve belgeyi grafikle birlikte kaydedin."
+"linktitle": "Alan Grafiğini Word Belgesine Ekleme"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Alan Grafiğini Word Belgesine Ekleme"
+"url": "/tr/net/programming-with-charts/insert-area-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Alan Grafiğini Word Belgesine Ekleme
@@ -21,7 +23,7 @@ Aspose.Words for .NET kullanarak Word belgesine alan grafiği eklemeye yönelik 
 
 Başlamadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. .NET Framework: Bilgisayarınızda .NET Framework'ün yüklü olduğundan emin olun.
 3. IDE: Kodunuzu yazmak ve çalıştırmak için Visual Studio benzeri bir Entegre Geliştirme Ortamı (IDE).
 4. Temel C# Bilgisi: C# programlamaya dair temel bir anlayışa sahip olmak faydalı olacaktır.
@@ -45,38 +47,38 @@ Artık temel ad alanlarını içe aktardığımıza göre, adım adım belgemizi
 Yeni bir Word belgesi oluşturarak başlayalım. Bu, alan grafiğimizi ekleyeceğimiz temel olacak.
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 ```
 
- Bu adımda yeni bir başlangıç yapıyoruz`Document` Word belgemizi temsil eden nesne.
+Bu adımda yeni bir başlangıç yapıyoruz `Document` Word belgemizi temsil eden nesne.
 
 ## Adım 2: Bir Grafik Eklemek İçin DocumentBuilder'ı Kullanın
 
- Daha sonra şunu kullanacağız:`DocumentBuilder` Belgemize alan grafiği eklemek için sınıf.
+Daha sonra şunu kullanacağız: `DocumentBuilder` Belgemize alan grafiği eklemek için sınıf.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
 ```
 
- Burada bir tane yaratıyoruz`DocumentBuilder` nesneyi seçin ve bunu belgeye belirli boyutlarda (432x252) bir alan grafiği eklemek için kullanın.
+Burada bir tane yaratıyoruz `DocumentBuilder` nesneyi seçin ve bunu belgeye belirli boyutlarda (432x252) bir alan grafiği eklemek için kullanın.
 
 ## Adım 3: Grafik Nesnesine Erişim
 
- Tabloyu ekledikten sonra, şuraya erişmemiz gerekiyor:`Chart` Alan grafiğimizi özelleştirmek için nesne.
+Tabloyu ekledikten sonra, şuraya erişmemiz gerekiyor: `Chart` Alan grafiğimizi özelleştirmek için nesne.
 
 ```csharp
 Chart chart = shape.Chart;
 ```
 
- Bu kod satırı şunu alır:`Chart` Az önce eklediğimiz şekilden nesne.
+Bu kod satırı şunu alır: `Chart` Az önce eklediğimiz şekilden nesne.
 
 ## Adım 4: Seri Verilerini Grafiğe Ekleyin
 
-Şimdi, grafiğimize biraz veri ekleme zamanı. Tarihler ve karşılık gelen değerlerle bir seri ekleyeceğiz.
+Şimdi, grafiğimize biraz veri eklemenin zamanı geldi. Tarihler ve karşılık gelen değerlerle bir seri ekleyeceğiz.
 
 ```csharp
 chart.Series.Add("Aspose Series 1", new []
@@ -100,7 +102,7 @@ Son olarak eklenen alan grafiğinin bulunduğu belgemizi kaydedeceğiz.
 doc.Save(dataDir + "WorkingWithCharts.InsertAreaChart.docx");
 ```
 
-Bu kod satırı belgeyi belirtilen dizine belirtilen dosya adıyla kaydeder.
+Bu kod satırı, belgeyi belirtilen dizine, belirtilen dosya adıyla kaydeder.
 
 ## Çözüm
 
@@ -121,10 +123,15 @@ Evet, tek bir Word belgesine ihtiyacınız kadar grafik ekleyebilirsiniz.
 Evet, Aspose.Words for .NET çubuk, çizgi, pasta ve daha fazlası dahil olmak üzere çeşitli grafik türlerini destekler.
 
 ### Aspose.Words for .NET için geçici lisansı nereden alabilirim?
- Geçici lisansı şuradan alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
+Geçici lisansı şuradan alabilirsiniz: [Burada](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

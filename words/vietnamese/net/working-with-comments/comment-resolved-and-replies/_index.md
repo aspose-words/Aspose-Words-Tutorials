@@ -1,14 +1,16 @@
 ---
-title: Bình luận đã giải quyết và trả lời
-linktitle: Bình luận đã giải quyết và trả lời
-second_title: API xử lý tài liệu Aspose.Words
-description: Tự động giải quyết và trả lời các bình luận trong tài liệu Word bằng Aspose.Words cho .NET. Có kèm hướng dẫn từng bước.
-weight: 10
-url: /vi/net/working-with-comments/comment-resolved-and-replies/
+"description": "Tự động giải quyết và trả lời các bình luận trong tài liệu Word bằng Aspose.Words cho .NET. Có kèm hướng dẫn từng bước."
+"linktitle": "Bình luận đã giải quyết và trả lời"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Bình luận đã giải quyết và trả lời"
+"url": "/vi/net/working-with-comments/comment-resolved-and-replies/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bình luận đã giải quyết và trả lời
@@ -21,7 +23,7 @@ Nếu bạn đang làm việc với các tài liệu Word, có lẽ bạn đã t
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những thứ sau:
 
-1.  Aspose.Words cho .NET: Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Thiết lập bằng .NET Framework.
 3. Kiến thức cơ bản về C#: Quen thuộc với cú pháp và các khái niệm.
 
@@ -34,28 +36,28 @@ using Aspose.Words;
 using Aspose.Words.Comments;
 ```
 
-Hãy chia nhỏ quy trình thành các bước đơn giản, dễ làm theo. Mỗi bước sẽ giúp bạn hiểu mã và chức năng của nó.
+Hãy chia nhỏ quy trình thành các bước đơn giản, dễ thực hiện. Mỗi bước sẽ giúp bạn hiểu mã và chức năng của nó.
 
 ## Bước 1: Tải tài liệu
 
- Để bắt đầu, hãy tải tài liệu Word có chứa các bình luận. Sử dụng`Document` lớp học này.
+Để bắt đầu, hãy tải tài liệu Word có chứa các bình luận. Sử dụng `Document` lớp học này.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Comments.docx");
 ```
 
- Dòng mã này khởi tạo một cái mới`Document` đối tượng có đường dẫn đến tài liệu Word của bạn.
+Dòng mã này khởi tạo một cái mới `Document` đối tượng có đường dẫn đến tài liệu Word của bạn.
 
 ## Bước 2: Lấy lại bình luận
 
- Tiếp theo, chúng ta cần lấy tất cả các bình luận trong tài liệu. Chúng ta sẽ sử dụng`GetChildNodes` phương pháp để lấy một bộ sưu tập`Comment` các nút.
+Tiếp theo, chúng ta cần lấy tất cả các bình luận trong tài liệu. Chúng ta sẽ sử dụng `GetChildNodes` phương pháp để lấy một bộ sưu tập `Comment` các nút.
 
 ```csharp
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
 ```
 
-Mã này lấy tất cả các bình luận trong tài liệu và lưu trữ chúng trong một`NodeCollection`.
+Mã này lấy tất cả các bình luận trong tài liệu và lưu trữ chúng trong một `NodeCollection`.
 
 ## Bước 3: Truy cập vào Bình luận của phụ huynh
 
@@ -65,11 +67,11 @@ Mã này lấy tất cả các bình luận trong tài liệu và lưu trữ ch�
 Comment parentComment = (Comment)comments[0];
 ```
 
- Ở đây, chúng ta đang ép kiểu nút đầu tiên trong bộ sưu tập thành một`Comment` sự vật.
+Ở đây, chúng ta đang ép kiểu nút đầu tiên trong bộ sưu tập thành một `Comment` sự vật.
 
 ## Bước 4: Lặp lại các câu trả lời
 
- Bây giờ, chúng ta hãy lặp lại các phản hồi cho bình luận của phụ huynh. Chúng ta sẽ sử dụng`foreach` vòng lặp để lặp lại từng câu trả lời.
+Bây giờ, chúng ta hãy lặp lại các phản hồi cho bình luận của phụ huynh. Chúng ta sẽ sử dụng `foreach` vòng lặp để lặp lại từng câu trả lời.
 
 ```csharp
 foreach (Comment childComment in parentComment.Replies)
@@ -106,16 +108,21 @@ Có, bạn có thể tự động hóa nhiều tác vụ khác nhau như thêm, 
 Có, Aspose.Words cho .NET hỗ trợ cả .NET Framework và .NET Core.
 
 ### Làm thế nào tôi có thể dùng thử miễn phí Aspose.Words cho .NET?  
- Bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Bạn có thể tải xuống bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET để làm việc với các loại tài liệu khác không?  
 Có, Aspose.Words hỗ trợ nhiều định dạng khác nhau bao gồm DOCX, PDF, HTML, v.v.
 
 ### Tôi có thể tìm tài liệu chi tiết về Aspose.Words cho .NET ở đâu?  
- Bạn có thể truy cập tài liệu[đây](https://reference.aspose.com/words/net/).
+Bạn có thể truy cập tài liệu [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

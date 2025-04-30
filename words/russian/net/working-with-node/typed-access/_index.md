@@ -1,14 +1,16 @@
 ---
-title: Типизированный доступ
-linktitle: Типизированный доступ
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как использовать Typed Access в Aspose.Words для .NET для легкого манипулирования элементами документа, такими как таблицы и строки. Это пошаговое руководство упрощает ваш рабочий процесс.
-weight: 10
-url: /ru/net/working-with-node/typed-access/
+"description": "Узнайте, как использовать Typed Access в Aspose.Words для .NET для легкого манипулирования элементами документа, такими как таблицы и строки. Это пошаговое руководство упрощает ваш рабочий процесс."
+"linktitle": "Типизированный доступ"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Типизированный доступ"
+"url": "/ru/net/working-with-node/typed-access/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Типизированный доступ
@@ -21,10 +23,10 @@ url: /ru/net/working-with-node/typed-access/
 
 Прежде чем мы окунемся в мир Typed Access, давайте убедимся, что у вас есть все необходимое. Вот контрольный список:
 
--  Aspose.Words for .NET: Убедитесь, что у вас последняя версия. Если нет, вы можете скачать ее[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Убедитесь, что у вас последняя версия. Если нет, вы можете скачать ее [здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: Visual Studio или любая другая IDE, поддерживающая .NET.
 - Базовые знания C#: в этом руководстве предполагается, что у вас есть базовые знания C# и .NET.
--  Лицензия Aspose.Words: Вы можете использовать[бесплатная пробная версия](https://releases.aspose.com/) или получить[временная лицензия](https://purchase.aspose.com/temporary-license/).
+- Лицензия Aspose.Words: Вы можете использовать [бесплатная пробная версия](https://releases.aspose.com/) или получить [временная лицензия](https://purchase.aspose.com/temporary-license/).
 
 ## Импорт пространств имен
 
@@ -109,16 +111,21 @@ table.LastRow?.Remove();
 Да, типизированный доступ можно использовать с различными элементами, такими как абзацы, разделы и т. д., что упрощает работу с документами.
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?
- Хотя вы можете начать с[бесплатная пробная версия](https://releases.aspose.com/) , для полной функциональности и во избежание ограничений, получение[лицензия](https://purchase.aspose.com/buy) рекомендуется.
+Хотя вы можете начать с [бесплатная пробная версия](https://releases.aspose.com/), для полной функциональности и во избежание ограничений, получение [лицензия](https://purchase.aspose.com/buy) рекомендуется.
 
 ### Подходит ли Typed Access для больших документов?
 Безусловно! Typed Access разработан для эффективной обработки документов любого размера, оптимизируя процесс доступа к элементам и их изменения.
 
 ### Где я могу найти более подробную документацию?
- Вы можете получить доступ к подробной документации[здесь](https://reference.aspose.com/words/net/).
+Вы можете получить доступ к подробной документации [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

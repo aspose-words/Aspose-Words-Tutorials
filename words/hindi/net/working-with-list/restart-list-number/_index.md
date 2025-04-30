@@ -1,14 +1,16 @@
 ---
-title: सूची संख्या पुनः आरंभ करें
-linktitle: सूची संख्या पुनः आरंभ करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: जानें कि .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में सूची संख्याओं को कैसे पुनः आरंभ करें। यह विस्तृत, 2000-शब्द मार्गदर्शिका सेटअप से लेकर उन्नत अनुकूलन तक, आपको जो कुछ भी जानना चाहिए, उसे कवर करती है।
-weight: 10
-url: /hi/net/working-with-list/restart-list-number/
+"description": "जानें कि .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में सूची संख्याओं को कैसे पुनः आरंभ करें। यह विस्तृत, 2000-शब्द मार्गदर्शिका सेटअप से लेकर उन्नत अनुकूलन तक, आपको जो कुछ भी जानना चाहिए, उसे कवर करती है।"
+"linktitle": "सूची संख्या पुनः आरंभ करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "सूची संख्या पुनः आरंभ करें"
+"url": "/hi/net/working-with-list/restart-list-number/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # सूची संख्या पुनः आरंभ करें
@@ -21,7 +23,7 @@ url: /hi/net/working-with-list/restart-list-number/
 
 इससे पहले कि हम कोड में आगे बढ़ें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  Aspose.Words for .NET: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। अगर आपने इसे अभी तक इंस्टॉल नहीं किया है, तो आप[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। अगर आपने इसे अभी तक इंस्टॉल नहीं किया है, तो आप [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: सुनिश्चित करें कि आपके पास विजुअल स्टूडियो जैसा उपयुक्त विकास वातावरण है।
 3. C# का बुनियादी ज्ञान: C# की बुनियादी समझ आपको ट्यूटोरियल का अनुसरण करने में मदद करेगी।
 
@@ -61,7 +63,7 @@ list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 
 ## चरण 3: अपनी पहली सूची में आइटम जोड़ें
 
- आपकी सूची तैयार होने के बाद, कुछ आइटम जोड़ने का समय आ गया है।`ListFormat.List` यह प्रॉपर्टी टेक्स्ट पर सूची प्रारूप लागू करने में मदद करती है।
+आपकी सूची तैयार होने के बाद, कुछ आइटम जोड़ने का समय आ गया है। `ListFormat.List` यह प्रॉपर्टी टेक्स्ट पर सूची प्रारूप लागू करने में मदद करती है।
 
 ```csharp
 builder.Writeln("List 1 starts below:");
@@ -114,11 +116,11 @@ builder.Document.Save(dataDir + "WorkingWithList.RestartListNumber.docx");
 
 ### मैं सूची स्तर कैसे बदल सकता हूँ?
 
- आप सूची स्तर को संशोधित करके बदल सकते हैं`ListLevels` संपत्ति। उदाहरण के लिए,`list1.ListLevels[1]` यह सूची के दूसरे स्तर को संदर्भित करेगा।
+आप सूची स्तर को संशोधित करके बदल सकते हैं `ListLevels` संपत्ति। उदाहरण के लिए, `list1.ListLevels[1]` यह सूची के दूसरे स्तर को संदर्भित करेगा।
 
 ### क्या मैं किसी भी नंबर पर नंबरिंग पुनः आरंभ कर सकता हूँ?
 
- हां, आप प्रारंभिक संख्या को किसी भी पूर्णांक मान पर सेट कर सकते हैं`StartAt` सूची स्तर की संपत्ति.
+हां, आप प्रारंभिक संख्या को किसी भी पूर्णांक मान पर सेट कर सकते हैं `StartAt` सूची स्तर की संपत्ति.
 
 ### क्या विभिन्न सूची स्तरों के लिए भिन्न स्वरूपण संभव है?
 
@@ -130,9 +132,14 @@ builder.Document.Save(dataDir + "WorkingWithList.RestartListNumber.docx");
 
 
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,48 +1,56 @@
 ---
-title: 让字体行间隔在 Word 文档中.
-weight: 7700
-limit: 
-description: 学习如何创建Word文档,并使用 .NET的Aspose.Words来检索字体行间隔.
-keywords: [Aspose.Words for .NET, get font line spacing, create Word document, .NET Word library, font properties, .NET document creation, line spacing example]
-url: /zh/net/font-styling/get-font-line-spacing/
+"description": "了解如何使用 Aspose.Words for .NET 创建 Word 文档并检索字体行距。包含分步说明和代码示例。"
+"title": "获取 Word 文档中的字体行距 | Aspose.Words for .NET"
+"url": "/zh/net/font-styling/get-font-line-spacing/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Word 文档中获取字体行间隔
-简化 Word 文档创建和操作.本例展示了如何初始化 Word 文档,设置自定义字体,并检索特定字体的行间隔.无论您是自动化文档生成还是分析文本风格,本指南提供了明确的指令和实用代码摘录,以有效地实现您的目标. .NET 的Aspose.Words是开发人员使用C#或VB.NET的 Word 文档工作的强大的库.
+# 获取Word文档中的字体行距
+Aspose.Words for .NET 简化了 Word 文档的创建和操作。本示例演示了如何初始化 Word 文档、设置自定义字体以及检索特定字体的行距。无论您是要自动生成文档还是分析文本样式，本指南都能提供清晰的说明和实用的代码片段，帮助您高效地实现目标。Aspose.Words for .NET 是一个功能强大的库，适用于使用 C# 或 VB.NET 处理 Word 文档的开发人员。
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/font-styling/get-font-line-spacing" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 装备说明  
-为了使用这个例子,请按照以下步骤进行:  
-1. 下载和安装Aspose.Words为 .NET  
-   * 访问[对于 .NET 下载页面的Aspose.Words](https://releases.aspose.com/words/net/)接下来,我们可以下载最新版本.  
-   * 取下载的包装,并引用`"回答. 字".`让我们一起做一个项目.  
+## 安装说明  
+要使用此示例，请按照以下步骤操作：  
+1. 下载并安装 Aspose.Words for .NET  
+   - 访问 [Aspose.Words for .NET下载页面](https://releases.aspose.com/words/net/) 并下载最新版本。  
+   - 解压下载的包并引用 `Aspose.Words.dll` 项目中的文件。  
 
 2. 通过 NuGet 安装  
-   * 在视觉工作室打开你的项目.  
-   * 进入工具> NuGet 包管理器> 管理 NuGet 包解决方案.  
-   * 搜索`"回答. 字"`在 NuGet 包管理器中安装包.  
+   - 在 Visual Studio 中打开您的项目。  
+   - 转到工具>NuGet 包管理器>管理解决方案的 NuGet 包。  
+   - 搜索 `Aspose.Words` 在 NuGet 包管理器中安装该包。  
 
-3. 申请许可证 (可选择,但建议)  
-   * 获得许可证[目标购买页面](https://purchase.aspose.com/buy)现在,我们要去.  
-   * 使用一个[临时许可证](https://purchase.aspose.com/temporary-license/)如果需要,可进行评估.  
-   * 申请许可证的开始,请添加以下代码:  
+3. 申请许可证（可选但建议）  
+   - 从 [Aspose 购买页面](https://purchase。aspose.com/buy).  
+   - 使用 [临时执照](https://purchase.aspose.com/temporary-license/) 如果需要的话，进行评估。  
+   - 在应用程序的开头添加以下代码以应用许可证：  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```
 	 
-## 查看
-[设置.Word为 .NET文档](https://docs.aspose.com/words/net/)
-[标用.NET引用的Word](https://reference.aspose.com/words/net/)
+## 另请参阅
+[Aspose.Word for .NET 文档](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET 参考](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: แทรกเขตข้อมูลผสานโดยใช้ DOM
-linktitle: แทรกเขตข้อมูลผสานโดยใช้ DOM
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแทรกและกำหนดค่าเขตข้อมูลผสานในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนที่ครอบคลุมนี้
-weight: 10
-url: /th/net/working-with-fields/insert-merge-field-using-dom/
+"description": "เรียนรู้วิธีแทรกและกำหนดค่าเขตข้อมูลผสานในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนที่ครอบคลุมนี้"
+"linktitle": "แทรกเขตข้อมูลผสานโดยใช้ DOM"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แทรกเขตข้อมูลผสานโดยใช้ DOM"
+"url": "/th/net/working-with-fields/insert-merge-field-using-dom/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทรกเขตข้อมูลผสานโดยใช้ DOM
@@ -23,8 +25,8 @@ url: /th/net/working-with-fields/insert-merge-field-using-dom/
 
 1. ความรู้พื้นฐานเกี่ยวกับ C#: คุณควรจะคุ้นเคยกับการเขียนโปรแกรม C#
 2. ติดตั้ง Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio หรือ IDE C# อื่น ๆ ไว้ในเครื่องของคุณแล้ว
-3.  Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้ง Aspose.Words เวอร์ชันล่าสุดสำหรับ .NET จาก[การเปิดตัว](https://releases.aspose.com/words/net/).
-4.  ใบอนุญาตที่ถูกต้อง: หากคุณไม่มีใบอนุญาต คุณสามารถขอรับได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินผล
+3. Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้ง Aspose.Words เวอร์ชันล่าสุดสำหรับ .NET จาก [การเปิดตัว](https://releases-aspose.com/words/net/).
+4. ใบอนุญาตที่ถูกต้อง: หากคุณไม่มีใบอนุญาต คุณสามารถขอรับได้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินผล
 
 ## ขั้นตอนที่ 1: ตั้งค่าโครงการของคุณ
 
@@ -67,7 +69,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## ขั้นตอนที่ 5: เลื่อนเคอร์เซอร์ไปที่ย่อหน้าที่ต้องการ
 
-ต่อไปเราต้องย้ายเคอร์เซอร์ไปยังย่อหน้าเฉพาะในเอกสารที่เราต้องการแทรกเขตข้อมูลผสาน
+ต่อไปเราต้องย้ายเคอร์เซอร์ไปยังย่อหน้าที่ระบุในเอกสารที่เราต้องการแทรกเขตข้อมูลผสาน
 
 ```csharp
 Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 0, true);
@@ -76,7 +78,7 @@ builder.MoveTo(para);
 
 ## ขั้นตอนที่ 6: แทรกฟิลด์ผสาน
 
- การแทรกฟิลด์ผสานนั้นทำได้ง่าย เราจะใช้`InsertField` วิธีการของ`DocumentBuilder` ระดับ.
+การแทรกฟิลด์ผสานนั้นทำได้ง่าย เราจะใช้ `InsertField` วิธีการของ `DocumentBuilder` ระดับ.
 
 ```csharp
 // แทรกฟิลด์ผสานฟิลด์
@@ -117,19 +119,24 @@ doc.Save(dataDir + "InsertionChampMergeChamp.docx");
 เขตข้อมูลผสานคือตัวแทนในเอกสารที่สามารถแทนที่แบบไดนามิกด้วยข้อมูลจากแหล่งข้อมูล เช่น ฐานข้อมูลหรือไฟล์ CSV
 
 ###  ฉันสามารถใช้ Aspose.Words ได้ฟรีหรือไม่?
- Aspose.Words เสนอรุ่นทดลองใช้งานฟรีซึ่งคุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/)หากต้องการใช้ในระยะยาว คุณจำเป็นต้องซื้อใบอนุญาต
+Aspose.Words เสนอรุ่นทดลองใช้งานฟรีซึ่งคุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases.aspose.com/)หากต้องการใช้ในระยะยาว คุณจำเป็นต้องซื้อใบอนุญาต
 
 ###  ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.Words ได้อย่างไร
- คุณสามารถขอใบอนุญาตชั่วคราวได้จากเว็บไซต์ Aspose[ที่นี่](https://purchase.aspose.com/temporary-license/).
+คุณสามารถขอใบอนุญาตชั่วคราวได้จากเว็บไซต์ Aspose [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### Aspose.Words รองรับ .NET เวอร์ชันใดบ้าง?
 Aspose.Words รองรับ .NET หลายเวอร์ชัน รวมถึง .NET Framework, .NET Core และ .NET Standard
 
 ###  ฉันสามารถค้นหาเอกสาร API สำหรับ Aspose.Words ได้ที่ไหน
- เอกสารประกอบ API พร้อมใช้งานแล้ว[ที่นี่](https://reference.aspose.com/words/net/).
+เอกสารประกอบ API พร้อมใช้งานแล้ว [ที่นี่](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

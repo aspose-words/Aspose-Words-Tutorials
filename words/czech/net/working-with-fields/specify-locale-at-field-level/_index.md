@@ -1,34 +1,36 @@
 ---
-title: Zadejte národní prostředí na úrovni pole
-linktitle: Zadejte národní prostředí na úrovni pole
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Zjistěte, jak určit národní prostředí pro pole v dokumentech aplikace Word pomocí Aspose.Words for .NET. Postupujte podle našeho průvodce a snadno přizpůsobte formátování dokumentu.
-weight: 10
-url: /cs/net/working-with-fields/specify-locale-at-field-level/
+"description": "Naučte se, jak pomocí Aspose.Words pro .NET zadat národní prostředí pro pole v dokumentech Word. Postupujte podle našeho průvodce a snadno si přizpůsobte formátování dokumentu."
+"linktitle": "Zadejte národní prostředí na úrovni pole"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Zadejte národní prostředí na úrovni pole"
+"url": "/cs/net/working-with-fields/specify-locale-at-field-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zadejte národní prostředí na úrovni pole
 
 ## Zavedení
 
-Jste připraveni ponořit se do světa Aspose.Words pro .NET? Dnes se podíváme na to, jak určit národní prostředí na úrovni pole. Tato užitečná funkce je zvláště užitečná, když potřebujete, aby vaše dokumenty odpovídaly konkrétním kulturním nebo regionálním formátům. Berte to tak, že svému dokumentu dáte pas, který mu říká, jak se má chovat podle toho, kde je „na návštěvě“. Na konci tohoto kurzu budete moci snadno přizpůsobit nastavení národního prostředí pro pole v dokumentech aplikace Word. Začněme!
+Jste připraveni ponořit se do světa Aspose.Words pro .NET? Dnes se podíváme na to, jak specifikovat národní prostředí na úrovni polí. Tato šikovná funkce je obzvláště užitečná, když potřebujete, aby vaše dokumenty dodržovaly specifické kulturní nebo regionální formáty. Představte si to jako poskytnutí pasu vašemu dokumentu, který mu říká, jak se má chovat na základě toho, kde se „nachází“. Po skončení tohoto tutoriálu budete schopni snadno přizpůsobit nastavení národního prostředí pro pole v dokumentech Word. Pojďme na to!
 
 ## Předpoklady
 
-Než se pustíme do kódu, ujistěte se, že máte vše, co potřebujete:
+Než se pustíme do kódu, ujistěme se, že máte vše potřebné:
 
-1.  Aspose.Words for .NET: Ujistěte se, že máte nainstalovanou nejnovější verzi. Můžete si jej stáhnout[zde](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí: Visual Studio nebo jakékoli jiné vývojové prostředí .NET.
-3. Základní znalost C#: Znalost programování v C# vám pomůže postupovat podle příkladů.
-4. Aspose License: Pokud nemáte licenci, můžete získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) vyzkoušet všechny funkce.
+1. Aspose.Words pro .NET: Ujistěte se, že máte nainstalovanou nejnovější verzi. Můžete si ji stáhnout [zde](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí: Visual Studio nebo jakékoli jiné vývojové prostředí pro .NET.
+3. Základní znalost C#: Znalost programování v C# vám pomůže sledovat příklady.
+4. Licence Aspose: Pokud nemáte licenci, můžete si ji pořídit [dočasná licence](https://purchase.aspose.com/temporary-license/) vyzkoušet všechny funkce.
 
 ## Importovat jmenné prostory
 
-Nejprve importujme potřebné jmenné prostory. Ty jsou nezbytné pro práci s Aspose.Words.
+Nejdříve si importujme potřebné jmenné prostory. Ty jsou nezbytné pro práci s Aspose.Words.
 
 ```csharp
 using System;
@@ -36,38 +38,38 @@ using Aspose.Words;
 using Aspose.Words.Fields;
 ```
 
-Dobře, teď, když máme z cesty všechny předpoklady, pojďme si proces rozebrat krok za krokem. Každý krok bude mít nadpis a vysvětlení, aby bylo snadné jej sledovat.
+Dobře, teď když máme připravené předpoklady, pojďme si proces rozebrat krok za krokem. Každý krok bude mít nadpis a vysvětlení, aby se vám co nejlépe dařilo sledovat ho.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Nejprve musíme nastavit adresář, kam budeme dokument ukládat. Berte to jako přípravu scény pro naši hru.
+Nejprve musíme nastavit adresář, kam uložíme náš dokument. Představte si to jako přípravu na naši hru.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 ```
 
- Nahradit`"YOUR_DOCUMENT_DIRECTORY"` se skutečnou cestou k vašemu adresáři.
+Nahradit `"YOUR_DOCUMENT_DIRECTORY"` se skutečnou cestou k vašemu adresáři.
 
-## Krok 2: Inicializujte DocumentBuilder
+## Krok 2: Inicializace nástroje DocumentBuilder
 
- Dále vytvoříme novou instanci`DocumentBuilder`. Je to jako naše pero a papír pro vytváření a úpravy dokumentu aplikace Word.
+Dále vytvoříme novou instanci `DocumentBuilder`Je to jako naše pero a papír pro vytváření a úpravu dokumentu Word.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 ```
 
-## Krok 3: Vložte pole
+## Krok 3: Vložení pole
 
-Nyní do dokumentu vložíme pole. Pole jsou dynamické prvky, které mohou zobrazovat data, jako jsou data, čísla stránek nebo výpočty.
+Nyní vložme do dokumentu pole. Pole jsou dynamické prvky, které mohou zobrazovat data, jako jsou data, čísla stránek nebo výpočty.
 
 ```csharp
 Field field = builder.InsertField(FieldType.FieldDate, true);
 ```
 
-## Krok 4: Zadejte Locale
+## Krok 4: Zadejte národní prostředí
 
- Tady přichází kouzlo! Nastavíme národní prostředí pro pole. ID národního prostředí`1049`odpovídá ruštině. To znamená, že naše pole data se bude řídit ruskými pravidly formátování.
+A tady začíná kouzlo! Nastavíme locale pro pole. ID locale. `1049` odpovídá ruštině. To znamená, že naše datové pole bude dodržovat pravidla formátování v ruštině.
 
 ```csharp
 field.LocaleId = 1049;
@@ -75,7 +77,7 @@ field.LocaleId = 1049;
 
 ## Krok 5: Uložte dokument
 
-Nakonec náš dokument uložíme. Tento krok dokončuje všechny změny, které jsme provedli.
+Nakonec uložte náš dokument. Tímto krokem dokončíme všechny provedené změny.
 
 ```csharp
 builder.Document.Save(dataDir + "WorkingWithFields.SpecifyLocaleAtFieldLevel.docx");
@@ -83,32 +85,37 @@ builder.Document.Save(dataDir + "WorkingWithFields.SpecifyLocaleAtFieldLevel.doc
 
 ## Závěr
 
-A tady to máte! Úspěšně jste zadali národní prostředí pro pole v dokumentu aplikace Word pomocí Aspose.Words for .NET. Tato výkonná funkce vám umožňuje přizpůsobit vaše dokumenty tak, aby splňovaly specifické kulturní a regionální požadavky, díky čemuž jsou vaše aplikace všestrannější a uživatelsky přívětivější. Šťastné kódování!
+tady to máte! Úspěšně jste zadali národní prostředí pro pole ve vašem dokumentu Word pomocí Aspose.Words pro .NET. Tato výkonná funkce vám umožňuje přizpůsobit vaše dokumenty specifickým kulturním a regionálním požadavkům, díky čemuž jsou vaše aplikace všestrannější a uživatelsky přívětivější. Přejeme vám příjemné programování!
 
-## FAQ
+## Často kladené otázky
 
-### Co je to ID národního prostředí v Aspose.Words?
+### Co je to ID locale v Aspose.Words?
 
-ID národního prostředí v Aspose.Words je číselný identifikátor, který představuje konkrétní kulturu nebo oblast a ovlivňuje způsob formátování dat, jako jsou data a čísla.
+ID lokality v Aspose.Words je číselný identifikátor, který představuje specifickou kulturu nebo region a ovlivňuje formátování dat, jako jsou data a čísla.
 
-### Mohu zadat různá národní prostředí pro různá pole ve stejném dokumentu?
+### Mohu v jednom dokumentu zadat různá národní prostředí pro různá pole?
 
-Ano, můžete zadat různá národní prostředí pro různá pole ve stejném dokumentu, abyste splnili různé požadavky na formátování.
+Ano, pro různá pole v rámci stejného dokumentu můžete zadat různá národní prostředí, abyste splnili různé požadavky na formátování.
 
-### Kde najdu seznam ID národního prostředí?
+### Kde najdu seznam ID lokalit?
 
-Seznam ID národního prostředí můžete najít v dokumentaci Microsoftu nebo v dokumentaci Aspose.Words API.
+Seznam ID národních prostředí naleznete v dokumentaci společnosti Microsoft nebo v dokumentaci k rozhraní API Aspose.Words.
 
 ### Potřebuji licenci k používání Aspose.Words pro .NET?
 
- I když můžete Aspose.Words for .NET používat bez licence ve zkušebním režimu, doporučuje se získat[licence](https://purchase.aspose.com/buy) pro odemknutí plné funkčnosti.
+když můžete Aspose.Words pro .NET používat bez licence v zkušebním režimu, doporučuje se pořídit si [licence](https://purchase.aspose.com/buy) pro odemknutí plné funkčnosti.
 
 ### Jak aktualizuji knihovnu Aspose.Words na nejnovější verzi?
 
- Nejnovější verzi Aspose.Words pro .NET si můžete stáhnout z webu[stránka ke stažení](https://releases.aspose.com/words/net/).
+Nejnovější verzi Aspose.Words pro .NET si můžete stáhnout z [stránka ke stažení](https://releases.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

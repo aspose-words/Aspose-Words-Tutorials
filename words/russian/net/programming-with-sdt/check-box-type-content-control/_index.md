@@ -1,14 +1,16 @@
 ---
-title: Тип флажка Контроль содержимого
-linktitle: Тип флажка Контроль содержимого
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как добавить элемент управления содержимым типа «Флажок» в документы Word с помощью Aspose.Words для .NET, из этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-sdt/check-box-type-content-control/
+"description": "Узнайте, как добавить элемент управления содержимым типа «Флажок» в документы Word с помощью Aspose.Words для .NET, из этого подробного пошагового руководства."
+"linktitle": "Тип флажка Контроль содержимого"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Тип флажка Контроль содержимого"
+"url": "/ru/net/programming-with-sdt/check-box-type-content-control/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Тип флажка Контроль содержимого
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-sdt/check-box-type-content-control/
 
 Прежде чем мы углубимся в кодирование, давайте убедимся, что у вас есть все необходимое для начала работы:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия Aspose.Words for .NET. Вы можете загрузить ее с[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия Aspose.Words for .NET. Вы можете загрузить ее с [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая другая среда разработки C#, установленная на вашем компьютере.
 3. Базовые знания C#: для изучения данного руководства необходимы навыки программирования на C#.
 4. Каталог документов: каталог, в котором вы будете сохранять свои документы Word.
@@ -61,18 +63,18 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- В этом фрагменте мы создаем новый`Document` объект и`DocumentBuilder` объект, помогающий нам манипулировать документом.
+В этом фрагменте мы создаем новый `Document` объект и `DocumentBuilder` объект, помогающий нам манипулировать документом.
 
 ## Шаг 4: Создайте элемент управления содержимым типа «Флажок»
 
-Сердце нашего урока заключается в создании элемента управления содержимым типа Check Box. Мы будем использовать`StructuredDocumentTag` класс для этой цели.
+Сердце нашего урока заключается в создании элемента управления содержимым типа Check Box. Мы будем использовать `StructuredDocumentTag` класс для этой цели.
 
 ```csharp
 StructuredDocumentTag sdtCheckBox = new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline);
 builder.InsertNode(sdtCheckBox);
 ```
 
- Здесь мы создаем новый`StructuredDocumentTag` объект с типом`Checkbox` и вставьте его в документ с помощью`DocumentBuilder`.
+Здесь мы создаем новый `StructuredDocumentTag` объект с типом `Checkbox` и вставьте его в документ с помощью `DocumentBuilder`.
 
 ## Шаг 5: Сохраните документ.
 
@@ -88,7 +90,7 @@ doc.Save(dataDir + "WorkingWithSdt.CheckBoxTypeContentControl.docx", SaveFormat.
 
 И вот оно! Вы успешно добавили элемент управления содержимым Check Box Type в документ Word с помощью Aspose.Words for .NET. Эта функция может быть невероятно полезна для создания интерактивных и удобных для пользователя документов. Независимо от того, создаете ли вы формы, опросы или любой документ, требующий ввода данных пользователем, флажки — отличный способ повысить удобство использования.
 
- Если у вас есть какие-либо вопросы или вам нужна дополнительная помощь, не стесняйтесь ознакомиться с[Документация Aspose.Words](https://reference.aspose.com/words/net/) или посетите[Форум поддержки Aspose](https://forum.aspose.com/c/words/8).
+Если у вас есть какие-либо вопросы или вам нужна дополнительная помощь, не стесняйтесь ознакомиться с [Документация Aspose.Words](https://reference.aspose.com/words/net/) или посетите [Форум поддержки Aspose](https://forum.aspose.com/c/words/8).
 
 ## Часто задаваемые вопросы
 
@@ -96,20 +98,25 @@ doc.Save(dataDir + "WorkingWithSdt.CheckBoxTypeContentControl.docx", SaveFormat.
 Aspose.Words для .NET — это мощная библиотека, которая позволяет разработчикам программно создавать, изменять и конвертировать документы Word.
 
 ### Как установить Aspose.Words для .NET?
- Вы можете установить Aspose.Words для .NET через диспетчер пакетов NuGet в Visual Studio или загрузить его с сайта[Сайт Aspose](https://releases.aspose.com/words/net/).
+Вы можете установить Aspose.Words для .NET через диспетчер пакетов NuGet в Visual Studio или загрузить его с сайта [Сайт Aspose](https://releases.aspose.com/words/net/).
 
 ### Могу ли я добавить другие типы элементов управления содержимым с помощью Aspose.Words?
 Да, Aspose.Words поддерживает различные типы элементов управления содержимым, включая текст, дату и поля со списком.
 
 ### Существует ли бесплатная пробная версия Aspose.Words для .NET?
- Да, вы можете загрузить бесплатную пробную версию с сайта[Сайт Aspose](https://releases.aspose.com/).
+Да, вы можете загрузить бесплатную пробную версию с сайта [Сайт Aspose](https://releases.aspose.com/).
 
 ### Где я могу получить поддержку, если у меня возникнут проблемы?
- Вы можете посетить[Форум поддержки Aspose](https://forum.aspose.com/c/words/8) за помощь.
+Вы можете посетить [Форум поддержки Aspose](https://forum.aspose.com/c/words/8) за помощь.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Memuat dan Menyimpan Dokumen HTML
-linktitle: Memuat dan Menyimpan Dokumen HTML
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara memuat dan menyimpan dokumen HTML dalam Java menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan contoh kode untuk integrasi dokumen yang lancar.
-weight: 10
-url: /id/java/document-loading-and-saving/loading-and-saving-html-documents/
+"description": "Pelajari cara memuat dan menyimpan dokumen HTML dalam Java menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan contoh kode untuk integrasi dokumen yang lancar."
+"linktitle": "Memuat dan Menyimpan Dokumen HTML"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Memuat dan Menyimpan Dokumen HTML"
+"url": "/id/java/document-loading-and-saving/loading-and-saving-html-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Memuat dan Menyimpan Dokumen HTML
@@ -22,7 +24,7 @@ Dalam artikel ini, kita akan membahas cara memuat dan menyimpan dokumen HTML men
 
 Sebelum kita masuk ke kode, pastikan Anda memiliki prasyarat berikut:
 
-1.  Pustaka Aspose.Words untuk Java: Anda harus sudah memasang pustaka Aspose.Words untuk Java. Jika belum, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/java/).
+1. Pustaka Aspose.Words untuk Java: Anda harus sudah memasang pustaka Aspose.Words untuk Java. Jika belum, Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/java/).
 
 2. Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java pada sistem Anda.
 
@@ -47,17 +49,17 @@ HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 Document doc = new Document(new ByteArrayInputStream(HTML.getBytes(StandardCharsets.UTF_8)), loadOptions);
 ```
 
- Dalam kode ini, kita membuat string HTML dan menggunakan`HtmlLoadOptions` untuk menentukan bahwa kita ingin memperlakukan HTML sebagai dokumen terstruktur. Kemudian kita memuat konten HTML ke dalam`Document` obyek.
+Dalam kode ini, kita membuat string HTML dan menggunakan `HtmlLoadOptions` untuk menentukan bahwa kita ingin memperlakukan HTML sebagai dokumen terstruktur. Kemudian kita memuat konten HTML ke dalam `Document` obyek.
 
 ## Menyimpan sebagai Dokumen Word
 
- Sekarang setelah kita memuat HTML ke dalam`Document`, kita dapat menyimpannya sebagai dokumen Word. Mari kita simpan dalam format DOCX:
+Sekarang setelah kita memuat HTML ke dalam `Document`, kita dapat menyimpannya sebagai dokumen Word. Mari kita simpan dalam format DOCX:
 
 ```java
 doc.save("Your Directory Path" + "WorkingWithHtmlLoadOptions.PreferredControlType.docx");
 ```
 
- Kode ini menyimpan`Document` sebagai berkas DOCX, yang merupakan format umum untuk dokumen Word.
+Kode ini menyimpan `Document` sebagai berkas DOCX, yang merupakan format umum untuk dokumen Word.
 
 ## Kode Sumber Lengkap Untuk Memuat dan Menyimpan Dokumen HTML dengan Aspose.Words untuk Java
 
@@ -85,7 +87,7 @@ Dalam artikel ini, kita telah mempelajari cara memuat dan menyimpan dokumen HTML
 
 ### Bagaimana cara menginstal Aspose.Words untuk Java?
 
- Aspose.Words untuk Java dapat diunduh dari[Di Sini](https://releases.aspose.com/words/java/)Ikuti petunjuk instalasi yang tersedia di situs web untuk mengaturnya di proyek Java Anda.
+Aspose.Words untuk Java dapat diunduh dari [Di Sini](https://releases.aspose.com/words/java/)Ikuti petunjuk instalasi yang disediakan di situs web untuk mengaturnya di proyek Java Anda.
 
 ### Bisakah saya memuat dokumen HTML yang rumit menggunakan Aspose.Words?
 
@@ -97,14 +99,19 @@ Aspose.Words mendukung berbagai format dokumen, termasuk DOC, DOCX, RTF, HTML, P
 
 ### Apakah Aspose.Words cocok untuk manipulasi dokumen tingkat perusahaan?
 
-Tentu saja! Aspose.Words adalah solusi tangguh yang digunakan oleh berbagai perusahaan di seluruh dunia untuk otomatisasi dokumen, pelaporan, dan pembuatan dokumen. Solusi ini menawarkan berbagai fitur untuk mengelola dokumen dalam aplikasi berskala besar.
+Tentu saja! Aspose.Words adalah solusi tangguh yang digunakan oleh berbagai perusahaan di seluruh dunia untuk otomatisasi dokumen, pelaporan, dan pembuatan dokumen. Solusi ini menawarkan fitur-fitur lengkap untuk mengelola dokumen dalam aplikasi berskala besar.
 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan contoh untuk Aspose.Words untuk Java?
 
-Anda dapat menemukan dokumentasi terperinci, contoh kode, dan tutorial di situs web dokumentasi Aspose.Words untuk Java:[Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/).
+Anda dapat menemukan dokumentasi terperinci, contoh kode, dan tutorial di situs web dokumentasi Aspose.Words untuk Java: [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

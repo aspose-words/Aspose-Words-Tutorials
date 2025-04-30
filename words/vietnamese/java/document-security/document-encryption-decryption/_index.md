@@ -1,14 +1,16 @@
 ---
-title: Mã hóa và giải mã tài liệu
-linktitle: Mã hóa và giải mã tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách mã hóa và giải mã tài liệu bằng Aspose.Words for Java. Bảo mật dữ liệu của bạn hiệu quả với hướng dẫn từng bước và ví dụ về mã nguồn.
-weight: 12
-url: /vi/java/document-security/document-encryption-decryption/
+"description": "Tìm hiểu cách mã hóa và giải mã tài liệu bằng Aspose.Words for Java. Bảo mật dữ liệu của bạn hiệu quả với hướng dẫn từng bước và ví dụ về mã nguồn."
+"linktitle": "Mã hóa và giải mã tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Mã hóa và giải mã tài liệu"
+"url": "/vi/java/document-security/document-encryption-decryption/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mã hóa và giải mã tài liệu
@@ -17,14 +19,14 @@ Chắc chắn rồi! Sau đây là hướng dẫn từng bước về cách th�
 
 # Mã hóa và giải mã tài liệu với Aspose.Words cho Java
 
-Trong hướng dẫn này, chúng ta sẽ khám phá cách mã hóa và giải mã tài liệu bằng Aspose.Words for Java. Mã hóa tài liệu đảm bảo dữ liệu nhạy cảm của bạn vẫn an toàn và chỉ có người dùng được ủy quyền mới có thể truy cập.
+Trong hướng dẫn này, chúng ta sẽ khám phá cách mã hóa và giải mã tài liệu bằng Aspose.Words cho Java. Mã hóa tài liệu đảm bảo dữ liệu nhạy cảm của bạn vẫn an toàn và chỉ có người dùng được ủy quyền mới có thể truy cập.
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
 - [Bộ phát triển Java (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) đã cài đặt.
-- [Aspose.Words cho Java](https://products.aspose.com/words/java) thư viện. Bạn có thể tải xuống từ[đây](https://downloads.aspose.com/words/java).
+- [Aspose.Words cho Java](https://products.aspose.com/words/java) thư viện. Bạn có thể tải xuống từ [đây](https://downloads.aspose.com/words/java).
 
 ## Bước 1: Tạo một dự án Java
 
@@ -70,7 +72,7 @@ import com.aspose.words.SaveFormat;
 
 public class DocumentDecryptionExample {
     public static void main(String[] args) throws Exception {
-        //Tải tài liệu được mã hóa
+        // Tải tài liệu được mã hóa
         Document doc = new Document("encrypted_document.docx");
         
         // Cung cấp mật khẩu để giải mã
@@ -108,9 +110,13 @@ Chúng tôi bắt đầu bằng cách thiết lập dự án Java của mình v�
 Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể tăng cường tính bảo mật cho các ứng dụng Java và bảo vệ thông tin nhạy cảm trong tài liệu của mình một cách hiệu quả.
 
 Aspose.Words for Java đơn giản hóa quá trình xử lý và bảo mật tài liệu, giúp các nhà phát triển tạo ra các ứng dụng mạnh mẽ đáp ứng nhu cầu xử lý tài liệu của họ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Вставить объект Ole в документ Word как значок
-linktitle: Вставить объект Ole в документ Word как значок
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставить объект OLE в качестве значка в документы Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству, чтобы улучшить свои документы.
-weight: 10
-url: /ru/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon/
+"description": "Узнайте, как вставить объект OLE в качестве значка в документы Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству, чтобы улучшить свои документы."
+"linktitle": "Вставить объект Ole в документ Word как значок"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить объект Ole в документ Word как значок"
+"url": "/ru/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить объект Ole в документ Word как значок
@@ -19,9 +21,9 @@ url: /ru/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon/
 
 ## Предпосылки
 
-Прежде чем углубляться в подробности, давайте рассмотрим, что вам нужно:
+Прежде чем углубиться в подробности, давайте рассмотрим, что вам нужно:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас установлен Aspose.Words for .NET. Если вы еще не установили его, вы можете загрузить его с[Страница релизов Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлен Aspose.Words for .NET. Если вы еще не установили его, вы можете загрузить его с [Страница релизов Aspose](https://releases.aspose.com/words/net/).
 2. Среда разработки: вам понадобится интегрированная среда разработки (IDE), например Visual Studio.
 3. Базовые знания C#: Базовые знания программирования на C# будут полезны.
 
@@ -49,19 +51,19 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Шаг 2: Вставьте объект OLE как значок
 
- Теперь давайте вставим объект OLE как значок.`InsertOleObjectAsIcon` Для этой цели используется метод класса DocumentBuilder.
+Теперь давайте вставим объект OLE как значок. `InsertOleObjectAsIcon` Для этой цели используется метод класса DocumentBuilder.
 
 ```csharp
 builder.InsertOleObjectAsIcon("path_to_your_presentation.pptx", false, "path_to_your_icon.ico", "My embedded file");
 ```
 
 Давайте разберем этот метод:
-- `"path_to_your_presentation.pptx"`: Это путь к объекту OLE, который вы хотите внедрить.
-- `false` : Этот логический параметр определяет, отображать ли объект OLE как значок. Поскольку нам нужен значок, мы устанавливаем его в`false`.
+- `"path_to_your_presentation.pptx"`Это путь к объекту OLE, который вы хотите внедрить.
+- `false`: Этот логический параметр определяет, отображать ли объект OLE как значок. Поскольку нам нужен значок, мы устанавливаем его в `false`.
 - `"path_to_your_icon.ico"`: Это путь к файлу значка, который вы хотите использовать для объекта OLE.
 - `"My embedded file"`: Это метка, которая появится под значком.
 
-## Шаг 3: Сохраните документ
+## Шаг 3: Сохраните документ.
 
 Наконец, вам нужно сохранить документ. Выберите каталог, в котором вы хотите сохранить файл.
 
@@ -83,7 +85,7 @@ doc.Save(dataDir + "WorkingWithOleObjectsAndActiveX.InsertOleObjectAsIcon.docx")
 
 ### Как получить бесплатную пробную версию Aspose.Words для .NET?
 
- Вы можете получить бесплатную пробную версию[Страница релизов Aspose](https://releases.aspose.com/).
+Вы можете получить бесплатную пробную версию [Страница релизов Aspose](https://releases.aspose.com/).
 
 ### Что такое OLE-объект?
 
@@ -91,14 +93,19 @@ OLE (Object Linking and Embedding) — это технология, разраб
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?
 
- Да, Aspose.Words for .NET требует лицензию. Вы можете приобрести ее на[Страница покупки Aspose](https://purchase.aspose.com/buy) или получить[временная лицензия](https://purchase.aspose.com/temporary-license/) для оценки.
+Да, Aspose.Words for .NET требует лицензию. Вы можете приобрести ее на [Страница покупки Aspose](https://purchase.aspose.com/buy) или получить [временная лицензия](https://purchase.aspose.com/temporary-license/) для оценки.
 
 ### Где я могу найти больше руководств по Aspose.Words для .NET?
 
- Дополнительные руководства и документацию можно найти на сайте[Страница документации Aspose](https://reference.aspose.com/words/net/).
+Дополнительные руководства и документацию можно найти на сайте [Страница документации Aspose](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

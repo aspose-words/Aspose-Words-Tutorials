@@ -1,27 +1,34 @@
 ---
-title: Engedélyezze az OpenType funkciókat
-linktitle: Engedélyezze az OpenType funkciókat
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan engedélyezheti az OpenType-szolgáltatásokat a Word dokumentumokban az Aspose.Words for .NET segítségével. Az oktatóanyagok végigvezetik az OpenType betűtípusok speciális funkcióinak engedélyezéséhez szükséges lépéseken.
-weight: 40
-url: /hu/net/enable-opentype-features/
+"description": "Ismerje meg, hogyan engedélyezheti az OpenType funkciókat a Word-dokumentumokban az Aspose.Words for .NET segítségével. Az oktatóanyagok végigvezetik Önt az OpenType betűtípusok speciális funkcióinak engedélyezésének lépésein."
+"linktitle": "OpenType funkciók engedélyezése"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "OpenType funkciók engedélyezése"
+"url": "/hu/net/enable-opentype-features/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Engedélyezze az OpenType funkciókat
+# OpenType funkciók engedélyezése
 
-Ismerje meg, hogyan engedélyezheti az OpenType-szolgáltatásokat a Word-dokumentumokban az Aspose.Words for .NET segítségével. Ez a részletes oktatóanyag lépésről lépésre végigvezeti az OpenType-funkciók, például a ligatúrák, a stilisztikai alternatívák, a kontextus szerinti helyettesítések és egyebek használatán. Ismerje meg, hogyan engedélyezheti ezeket a szolgáltatásokat a Word-dokumentumok tipográfiájának és megjelenésének javítása érdekében.
+Ismerje meg, hogyan engedélyezheti az OpenType funkciókat Word-dokumentumokban az Aspose.Words for .NET segítségével. Ez a részletes oktatóanyag lépésről lépésre bemutatja az OpenType funkciók, például a ligatúrák, stilisztikai alternatívák, kontextuális helyettesítések és egyebek használatát. Ismerje meg, hogyan engedélyezheti ezeket a funkciókat Word-dokumentumai tipográfiájának és megjelenésének javítása érdekében.
 
  ## Oktatóanyagok
 | Cím | Leírás |
 | --- | --- |
-| [Nyissa meg a Type Features](./open-type-features/) | Ebből a részletes, lépésenkénti útmutatóból megtudhatja, hogyan engedélyezheti az OpenType-szolgáltatásokat a Word dokumentumokban az Aspose.Words for .NET használatával. |
+| [Nyílt típusú funkciók](./open-type-features/) | Ismerje meg, hogyan engedélyezheti az OpenType funkciókat a Word-dokumentumokban az Aspose.Words for .NET használatával ebből a részletes, lépésről lépésre szóló útmutatóból. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

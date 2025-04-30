@@ -1,14 +1,16 @@
 ---
-title: ลบตัวแบ่งส่วนในเอกสาร Word
-linktitle: ลบตัวแบ่งส่วนในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีลบตัวแบ่งส่วนในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนโดยละเอียดนี้จะช่วยให้การจัดการและการแก้ไขเอกสารเป็นไปอย่างราบรื่น
-weight: 10
-url: /th/net/remove-content/remove-section-breaks/
+"description": "เรียนรู้วิธีลบตัวแบ่งส่วนในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนโดยละเอียดนี้จะช่วยให้การจัดการและการแก้ไขเอกสารเป็นไปอย่างราบรื่น"
+"linktitle": "ลบตัวแบ่งส่วนในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ลบตัวแบ่งส่วนในเอกสาร Word"
+"url": "/th/net/remove-content/remove-section-breaks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลบตัวแบ่งส่วนในเอกสาร Word
@@ -21,7 +23,7 @@ url: /th/net/remove-content/remove-section-breaks/
 
 ก่อนที่จะเริ่มบทช่วยสอน เรามาทำความเข้าใจสิ่งสำคัญที่คุณต้องปฏิบัติตามกันก่อน:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: คุณต้องมีสภาพแวดล้อมการพัฒนาเช่น Visual Studio
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ต้องมีความคุ้นเคยกับการเขียนโปรแกรม C#
 4. เอกสาร Word: มีเอกสาร Word (.docx) พร้อมตัวแบ่งส่วนเพื่อพร้อมสำหรับการแก้ไข
@@ -52,7 +54,7 @@ using Aspose.Words;
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
-2.  โหลดเอกสาร: ใช้`Document` ชั้นเรียนเพื่อโหลดเอกสาร Word ของคุณ
+2. โหลดเอกสาร: ใช้ `Document` ชั้นเรียนเพื่อโหลดเอกสาร Word ของคุณ
 ```csharp
 Document doc = new Document(dataDir + "your-document.docx");
 ```
@@ -73,11 +75,11 @@ for (int i = doc.Sections.Count - 2; i >= 0; i--)
 
 ภายในลูป คุณจะคัดลอกเนื้อหาของส่วนปัจจุบันไปยังจุดเริ่มต้นของส่วนสุดท้าย แล้วลบส่วนปัจจุบันออก
 
-1.  คัดลอกเนื้อหา: ใช้`PrependContent` วิธีการคัดลอกเนื้อหา
+1. คัดลอกเนื้อหา: ใช้ `PrependContent` วิธีการคัดลอกเนื้อหา
 ```csharp
 doc.LastSection.PrependContent(doc.Sections[i]);
 ```
-2.  ลบส่วน: ลบส่วนโดยใช้`Remove` วิธี.
+2. ลบส่วน: ลบส่วนโดยใช้ `Remove` วิธี.
 ```csharp
 doc.Sections[i].Remove();
 ```
@@ -86,7 +88,7 @@ doc.Sections[i].Remove();
 
 สุดท้ายให้บันทึกเอกสารที่แก้ไขแล้วไปยังไดเร็กทอรีที่ระบุ
 
-1.  บันทึกเอกสาร: ใช้`Save` วิธีการบันทึกเอกสารของคุณ
+1. บันทึกเอกสาร: ใช้ `Save` วิธีการบันทึกเอกสารของคุณ
 ```csharp
 doc.Save(dataDir + "modified-document.docx", SaveFormat.Docx);
 ```
@@ -114,9 +116,13 @@ doc.Save(dataDir + "modified-document.docx", SaveFormat.Docx);
 
 ### ตัวอย่างโค้ดต้นฉบับสำหรับการลบการแบ่งส่วนโดยใช้ Aspose.Words สำหรับ .NET
  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

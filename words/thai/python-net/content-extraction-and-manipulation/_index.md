@@ -1,14 +1,16 @@
 ---
-title: การสกัดและการจัดการเนื้อหา
-linktitle: การสกัดและการจัดการเนื้อหา
-second_title: API การจัดการเอกสาร Aspose.Words Python
-description: ค้นพบโลกแห่งการดึงและจัดการเนื้อหาด้วยบทช่วยสอน Aspose.Words เรียนรู้วิธีการดึงและจัดการเนื้อหาอย่างมีประสิทธิภาพโดยใช้ Python และ .NET เพื่อเพิ่มความสามารถในการประมวลผลเอกสารของคุณ
-weight: 11
-url: /th/python-net/content-extraction-and-manipulation/
+"description": "ค้นพบโลกแห่งการดึงและจัดการเนื้อหาด้วยบทช่วยสอน Aspose.Words เรียนรู้วิธีการดึงและจัดการเนื้อหาอย่างมีประสิทธิภาพโดยใช้ Python และ .NET เพื่อเพิ่มความสามารถในการประมวลผลเอกสารของคุณ"
+"linktitle": "การสกัดและการจัดการเนื้อหา"
+"second_title": "API การจัดการเอกสาร Aspose.Words Python"
+"title": "การสกัดและการจัดการเนื้อหา"
+"url": "/th/python-net/content-extraction-and-manipulation/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การสกัดและการจัดการเนื้อหา
@@ -23,7 +25,7 @@ url: /th/python-net/content-extraction-and-manipulation/
 
 ## สิ่งที่คุณจะได้เรียนรู้
 
-ตลอดบทช่วยสอนเหล่านี้ คุณจะได้เรียนรู้แนวคิดหลักและเทคนิคในการแยกและจัดการเนื้อหาโดยใช้ Aspose.Words บทช่วยสอนครอบคลุมหัวข้อต่างๆ มากมาย เช่น:
+ตลอดบทช่วยสอนเหล่านี้ คุณจะเจาะลึกแนวคิดหลักและเทคนิคในการแยกและจัดการเนื้อหาโดยใช้ Aspose.Words บทช่วยสอนครอบคลุมหัวข้อต่างๆ มากมาย เช่น:
 
 - การแยกข้อความ: เรียนรู้วิธีการแยกข้อความจากส่วนต่างๆ ของเอกสาร
 - การจัดรูปแบบและสไตล์: เข้าใจวิธีการจัดการการจัดรูปแบบและสไตล์ในเนื้อหาที่แยกออกมา
@@ -44,9 +46,13 @@ url: /th/python-net/content-extraction-and-manipulation/
 เรียนรู้เทคนิคการค้นหาและแทนที่ขั้นสูงในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Python แทนที่ข้อความ ใช้ regex การจัดรูปแบบ และอื่นๆ อีกมากมาย
 ### [การลบและปรับแต่งเนื้อหาในเอกสาร Word](./remove-content-documents/)
 เรียนรู้วิธีการลบและปรับแต่งเนื้อหาในเอกสาร Word อย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดต้นฉบับ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

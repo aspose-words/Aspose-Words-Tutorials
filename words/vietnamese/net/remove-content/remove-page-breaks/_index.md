@@ -1,14 +1,16 @@
 ---
-title: Xóa Ngắt Trang Trong Tài Liệu Word
-linktitle: Xóa ngắt trang
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách xóa ngắt trang trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Nâng cao kỹ năng thao tác tài liệu của bạn.
-weight: 10
-url: /vi/net/remove-content/remove-page-breaks/
+"description": "Tìm hiểu cách xóa ngắt trang trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Nâng cao kỹ năng thao tác tài liệu của bạn."
+"linktitle": "Xóa ngắt trang"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Xóa Ngắt Trang Trong Tài Liệu Word"
+"url": "/vi/net/remove-content/remove-page-breaks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa Ngắt Trang Trong Tài Liệu Word
@@ -21,7 +23,7 @@ Xóa ngắt trang khỏi tài liệu Word có thể rất quan trọng để duy
 
 Trước khi đi sâu vào hướng dẫn từng bước, hãy đảm bảo bạn đáp ứng các điều kiện tiên quyết sau:
 
--  Aspose.Words cho .NET: Tải xuống và cài đặt thư viện từ[Aspose phát hành](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Tải xuống và cài đặt thư viện từ [Aspose phát hành](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Một IDE như Visual Studio.
 - .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình.
 - Tài liệu mẫu: Một tài liệu Word (.docx) có chứa ngắt trang.
@@ -58,7 +60,7 @@ Tải Tài liệu
 string dataDir = "YOUR DOCUMENT DIRECTORY"; 
 Document doc = new Document(dataDir + "your-document.docx");
 ```
- Trong bước này, thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn đến tài liệu của bạn.
+Trong bước này, thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn đến tài liệu của bạn.
 
 ## Bước 3: Truy cập các nút đoạn văn
 
@@ -81,7 +83,7 @@ foreach (Paragraph para in paragraphs)
     if (para.ParagraphFormat.PageBreakBefore)
         para.ParagraphFormat.PageBreakBefore = false;
 
-    // Kiểm tra tất cả các đoạn văn trong đoạn văn xem có ngắt trang không và xóa chúng.
+    // Kiểm tra tất cả các đoạn văn trong đoạn văn để tìm ngắt trang và xóa chúng.
     foreach (Run run in para.Runs)
     {
         if (run.Text.Contains(ControlChar.PageBreak))
@@ -101,7 +103,7 @@ Lưu tài liệu
 ```csharp
 doc.Save(dataDir + "modified-document.docx", SaveFormat.Docx);
 ```
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn mà bạn muốn lưu tài liệu đã sửa đổi.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn mà bạn muốn lưu tài liệu đã sửa đổi.
 
 ## Phần kết luận
 
@@ -113,19 +115,24 @@ Và bạn đã có nó! Chỉ với một vài dòng mã, chúng tôi đã xóa 
 Có, Aspose.Words hỗ trợ tất cả các ngôn ngữ .NET, bao gồm VB.NET, F# và các ngôn ngữ khác.
 
 ### Aspose.Words cho .NET có miễn phí sử dụng không?
- Aspose.Words cung cấp bản dùng thử miễn phí. Để sử dụng lâu dài, bạn có thể mua giấy phép từ[Mua Aspose](https://purchase.aspose.com/buy).
+Aspose.Words cung cấp bản dùng thử miễn phí. Để sử dụng lâu dài, bạn có thể mua giấy phép từ [Mua Aspose](https://purchase.aspose.com/buy).
 
-### Tôi có thể xóa các loại ngắt khác (như ngắt phần) bằng Aspose.Words không?
+### Tôi có thể xóa các loại ngắt dòng khác (như ngắt phần) bằng Aspose.Words không?
 Có, bạn có thể thao tác nhiều loại ngắt dòng khác nhau trong tài liệu bằng Aspose.Words.
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?
- Bạn có thể nhận được sự hỗ trợ từ cộng đồng và diễn đàn Aspose tại[Hỗ trợ Aspose](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ cộng đồng và diễn đàn Aspose tại [Hỗ trợ Aspose](https://forum.aspose.com/c/words/8).
 
 ### Aspose.Words hỗ trợ những định dạng tệp nào?
-Aspose.Words hỗ trợ nhiều định dạng tệp, bao gồm DOCX, DOC, PDF, HTML và nhiều định dạng khác. Bạn có thể tìm thấy danh sách đầy đủ trong[Tài liệu Aspose](https://reference.aspose.com/words/net/).
+Aspose.Words hỗ trợ nhiều định dạng tệp, bao gồm DOCX, DOC, PDF, HTML và nhiều định dạng khác. Bạn có thể tìm thấy danh sách đầy đủ trong [Tài liệu Aspose](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

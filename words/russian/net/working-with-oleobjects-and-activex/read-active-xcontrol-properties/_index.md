@@ -1,14 +1,16 @@
 ---
-title: Чтение свойств Active XControl из файла Word
-linktitle: Чтение свойств Active XControl из файла Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как читать свойства элементов управления ActiveX из файлов Word с помощью Aspose.Words для .NET в пошаговом руководстве. Улучшите свои навыки автоматизации документов.
-weight: 10
-url: /ru/net/working-with-oleobjects-and-activex/read-active-xcontrol-properties/
+"description": "Узнайте, как читать свойства элементов управления ActiveX из файлов Word с помощью Aspose.Words для .NET в пошаговом руководстве. Улучшите свои навыки автоматизации документов."
+"linktitle": "Чтение свойств Active XControl из файла Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Чтение свойств Active XControl из файла Word"
+"url": "/ru/net/working-with-oleobjects-and-activex/read-active-xcontrol-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Чтение свойств Active XControl из файла Word
@@ -21,7 +23,7 @@ url: /ru/net/working-with-oleobjects-and-activex/read-active-xcontrol-properties
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
-1.  Библиотека Aspose.Words for .NET: Вы можете загрузить ее с сайта[здесь](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words for .NET: Вы можете загрузить ее с сайта [здесь](https://releases.aspose.com/words/net/).
 2. Visual Studio или любая C# IDE: для написания и выполнения вашего кода.
 3. Документ Word с элементами управления ActiveX: например, «ActiveX controls.docx».
 4. Базовые знания C#: для изучения курса необходимы знания программирования на C#.
@@ -120,16 +122,21 @@ Console.WriteLine("\n" + properties);
 Да, Aspose.Words для .NET позволяет программно изменять свойства элементов управления ActiveX.
 
 ### Является ли Aspose.Words для .NET бесплатным для использования?
- Aspose.Words for .NET предлагает бесплатную пробную версию, но для дальнейшего использования вам необходимо приобрести лицензию. Вы можете получить бесплатную пробную версию[здесь](https://releases.aspose.com/).
+Aspose.Words for .NET предлагает бесплатную пробную версию, но для дальнейшего использования вам необходимо приобрести лицензию. Вы можете получить бесплатную пробную версию [здесь](https://releases.aspose.com/).
 
 ### Могу ли я использовать Aspose.Words для .NET с другими языками .NET, помимо C#?
 Да, Aspose.Words для .NET можно использовать с любым языком .NET, включая VB.NET и F#.
 
 ### Где я могу найти дополнительную документацию по Aspose.Words для .NET?
- Подробную документацию вы можете найти[здесь](https://reference.aspose.com/words/net/).
+Подробную документацию вы можете найти [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

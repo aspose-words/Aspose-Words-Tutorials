@@ -1,14 +1,16 @@
 ---
-title: Ochrona dokumentów w Aspose.Words dla Java
-linktitle: Ochrona dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak zabezpieczyć dokumenty Java Word za pomocą Aspose.Words for Java. Chroń swoje dane hasłem i nie tylko.
-weight: 22
-url: /pl/java/document-manipulation/protecting-documents/
+"description": "Dowiedz się, jak zabezpieczyć dokumenty Java Word za pomocą Aspose.Words for Java. Chroń swoje dane hasłem i nie tylko."
+"linktitle": "Ochrona dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Ochrona dokumentów w Aspose.Words dla Java"
+"url": "/pl/java/document-manipulation/protecting-documents/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ochrona dokumentów w Aspose.Words dla Java
@@ -38,7 +40,7 @@ Document doc = new Document("Your Directory Path" + "Document.docx");
 doc.unprotect();
 ```
 
- Ten`unprotect` Metoda ta usuwa wszelkie zabezpieczenia zastosowane w dokumencie, umożliwiając dostęp do niego bez podawania hasła.
+Ten `unprotect` Metoda ta usuwa wszelkie zabezpieczenia zastosowane w dokumencie, umożliwiając dostęp do niego bez podawania hasła.
 
 ## Sprawdzanie typu ochrony dokumentu
 
@@ -49,7 +51,7 @@ Document doc = new Document("Your Directory Path" + "Document.docx");
 int protectionType = doc.getProtectionType();
 ```
 
- Ten`getProtectionType` Metoda zwraca liczbę całkowitą reprezentującą typ ochrony zastosowany do dokumentu.
+Ten `getProtectionType` Metoda zwraca liczbę całkowitą reprezentującą typ ochrony zastosowany do dokumentu.
 
 
 ## Wniosek
@@ -60,11 +62,11 @@ W tym artykule przyjrzeliśmy się sposobom ochrony dokumentów Word za pomocą 
 
 ### Jak mogę zabezpieczyć dokument bez hasła?
 
- Jeśli chcesz zabezpieczyć dokument bez hasła, możesz użyć innych typów ochrony, takich jak:`ProtectionType.NO_PROTECTION` Lub`ProtectionType.READ_ONLY`.
+Jeśli chcesz zabezpieczyć dokument bez hasła, możesz użyć innych typów ochrony, takich jak: `ProtectionType.NO_PROTECTION` Lub `ProtectionType.READ_ONLY`.
 
 ### Czy mogę zmienić hasło chronionego dokumentu?
 
-Tak, możesz zmienić hasło do chronionego dokumentu za pomocą`protect` metodę z nowym hasłem.
+Tak, możesz zmienić hasło do chronionego dokumentu za pomocą `protect` metodą z nowym hasłem.
 
 ### Co się stanie, jeśli zapomnę hasła do chronionego dokumentu?
 
@@ -77,9 +79,14 @@ Tak, możesz chronić konkretne sekcje dokumentu, stosując ochronę do poszczeg
 ### Czy można chronić dokumenty w innych formatach, np. PDF lub HTML?
 
 Aspose.Words for Java obsługuje głównie dokumenty Word, ale w razie potrzeby można przekonwertować dokumenty do innych formatów, takich jak PDF lub HTML, a następnie zastosować ochronę.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

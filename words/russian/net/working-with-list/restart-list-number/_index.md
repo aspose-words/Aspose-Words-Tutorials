@@ -1,14 +1,16 @@
 ---
-title: Номер списка перезапуска
-linktitle: Номер списка перезапуска
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как перезапустить нумерацию списков в документах Word с помощью Aspose.Words для .NET. Это подробное руководство на 2000 слов охватывает все, что вам нужно знать, от настройки до расширенной настройки.
-weight: 10
-url: /ru/net/working-with-list/restart-list-number/
+"description": "Узнайте, как перезапустить нумерацию списков в документах Word с помощью Aspose.Words для .NET. Это подробное руководство на 2000 слов охватывает все, что вам нужно знать, от настройки до расширенной настройки."
+"linktitle": "Номер списка перезапуска"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Номер списка перезапуска"
+"url": "/ru/net/working-with-list/restart-list-number/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Номер списка перезапуска
@@ -21,7 +23,7 @@ url: /ru/net/working-with-list/restart-list-number/
 
 Прежде чем перейти к коду, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Если вы еще не установили его, вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Если вы еще не установили его, вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: убедитесь, что у вас есть подходящая среда разработки, например Visual Studio.
 3. Базовые знания C#: Базовые знания C# помогут вам усвоить материал урока.
 
@@ -61,7 +63,7 @@ list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 
 ## Шаг 3: Добавьте пункты в свой первый список
 
- Когда ваш список готов, пришло время добавить несколько пунктов. DocumentBuilder's`ListFormat.List` свойство помогает применить формат списка к тексту.
+Когда ваш список готов, пришло время добавить несколько пунктов. DocumentBuilder's `ListFormat.List` свойство помогает применить формат списка к тексту.
 
 ```csharp
 builder.Writeln("List 1 starts below:");
@@ -73,7 +75,7 @@ builder.ListFormat.RemoveNumbers();
 
 ## Шаг 4: Перезапустите нумерацию списка
 
-Чтобы повторно использовать список и начать его нумерацию заново, вам необходимо создать копию исходного списка. Это позволит вам изменять новый список независимо.
+Чтобы повторно использовать список и начать нумерацию заново, вам необходимо создать копию исходного списка. Это позволит вам изменять новый список независимо.
 
 ```csharp
 List list2 = doc.Lists.AddCopy(list1);
@@ -114,11 +116,11 @@ builder.Document.Save(dataDir + "WorkingWithList.RestartListNumber.docx");
 
 ### Как изменить уровень списка?
 
- Вы можете изменить уровень списка, изменив`ListLevels` собственность. Например,`list1.ListLevels[1]` будет относиться ко второму уровню списка.
+Вы можете изменить уровень списка, изменив `ListLevels` собственность. Например, `list1.ListLevels[1]` будет относиться ко второму уровню списка.
 
 ### Могу ли я начать нумерацию заново с любого номера?
 
- Да, вы можете установить начальное число на любое целое значение, используя`StartAt` свойство уровня списка.
+Да, вы можете установить начальное число на любое целое значение, используя `StartAt` свойство уровня списка.
 
 ### Возможно ли использовать разное форматирование для разных уровней списков?
 
@@ -130,9 +132,14 @@ builder.Document.Save(dataDir + "WorkingWithList.RestartListNumber.docx");
 
 
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: गणित समीकरण
-linktitle: गणित समीकरण
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में गणितीय समीकरणों को कॉन्फ़िगर करना सीखें। उदाहरणों, FAQ और अधिक के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 10
-url: /hi/net/programming-with-officemath/math-equations/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में गणितीय समीकरणों को कॉन्फ़िगर करना सीखें। उदाहरणों, FAQ और अधिक के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "गणित समीकरण"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "गणित समीकरण"
+"url": "/hi/net/programming-with-officemath/math-equations/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # गणित समीकरण
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-officemath/math-equations/
 
 इससे पहले कि हम विस्तृत विवरण में जाएं, आइए सुनिश्चित करें कि आपके पास इस ट्यूटोरियल को पूरा करने के लिए आवश्यक सभी चीजें मौजूद हैं:
 
-1.  Aspose.Words for .NET: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। अगर आपके पास अभी तक यह नहीं है, तो आप यह कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। अगर आपके पास अभी तक यह नहीं है, तो आप यह कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 2. विजुअल स्टूडियो: विजुअल स्टूडियो का कोई भी संस्करण काम करेगा, लेकिन सुनिश्चित करें कि वह इंस्टॉल हो और उपयोग के लिए तैयार हो।
 3. C# का बुनियादी ज्ञान: आपको बुनियादी C# प्रोग्रामिंग से परिचित होना चाहिए। चिंता न करें; हम चीजों को सरल रखेंगे!
 4. एक वर्ड डॉक्यूमेंट: कुछ गणितीय समीकरणों वाला एक वर्ड डॉक्यूमेंट रखें। हम अपने उदाहरणों में इनके साथ काम करेंगे।
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document doc = new Document(dataDir + "Office math.docx");
 ```
 
- यहाँ, प्रतिस्थापित करें`"YOUR DOCUMENTS DIRECTORY"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ।`Document` Aspose.Words से क्लास Word दस्तावेज़ को लोड करता है, और इसे आगे की प्रक्रिया के लिए तैयार करता है।
+यहाँ, प्रतिस्थापित करें `"YOUR DOCUMENTS DIRECTORY"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ। `Document` Aspose.Words से क्लास Word दस्तावेज़ को लोड करता है, और इसे आगे की प्रक्रिया के लिए तैयार करता है।
 
 ## चरण 2: OfficeMath तत्व प्राप्त करें
 
@@ -60,7 +62,7 @@ Document doc = new Document(dataDir + "Office math.docx");
 OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 ```
 
- इस चरण में, हम उपयोग कर रहे हैं`GetChild`दस्तावेज़ से पहला OfficeMath तत्व प्राप्त करने की विधि। पैरामीटर`NodeType.OfficeMath, 0, true` निर्दिष्ट करें कि हम OfficeMath नोड की पहली उपस्थिति की तलाश कर रहे हैं।
+इस चरण में, हम उपयोग कर रहे हैं `GetChild` दस्तावेज़ से पहला OfficeMath तत्व प्राप्त करने की विधि। पैरामीटर `NodeType.OfficeMath, 0, true` निर्दिष्ट करें कि हम OfficeMath नोड की पहली घटना की तलाश कर रहे हैं।
 
 ## चरण 3: गणितीय समीकरण के गुणों को कॉन्फ़िगर करें
 
@@ -72,7 +74,7 @@ officeMath.DisplayType = OfficeMathDisplayType.Display;
 officeMath.Justification = OfficeMathJustification.Left;
 ```
 
- यहाँ, हम सेटिंग कर रहे हैं`DisplayType`संपत्ति को`Display` , जो यह सुनिश्चित करता है कि समीकरण अपनी स्वयं की पंक्ति में प्रदर्शित हो, जिससे इसे पढ़ना आसान हो जाता है।`Justification` संपत्ति पर सेट है`Left`, समीकरण को पृष्ठ के बाईं ओर संरेखित करें।
+यहाँ, हम सेटिंग कर रहे हैं `DisplayType` संपत्ति को `Display`, जो यह सुनिश्चित करता है कि समीकरण अपनी स्वयं की पंक्ति में प्रदर्शित हो, जिससे इसे पढ़ना आसान हो जाता है। `Justification` संपत्ति पर सेट है `Left`, समीकरण को पृष्ठ के बाईं ओर संरेखित करें।
 
 ## चरण 4: दस्तावेज़ को गणितीय समीकरण के साथ सहेजें
 
@@ -83,7 +85,7 @@ officeMath.Justification = OfficeMathJustification.Left;
 doc.Save(dataDir + "WorkingWithOfficeMath.MathEquations.docx");
 ```
 
- प्रतिस्थापित करें`"WorkingWithOfficeMath.MathEquations.docx"`अपने इच्छित फ़ाइल नाम के साथ। कोड की यह पंक्ति दस्तावेज़ को सहेज लेती है, और आपका काम पूरा हो जाता है!
+प्रतिस्थापित करें `"WorkingWithOfficeMath.MathEquations.docx"` अपने इच्छित फ़ाइल नाम के साथ। कोड की यह पंक्ति दस्तावेज़ को सहेज लेती है, और आपका काम पूरा हो जाता है!
 
 ## निष्कर्ष
 
@@ -95,19 +97,24 @@ doc.Save(dataDir + "WorkingWithOfficeMath.MathEquations.docx");
 हां, .NET के लिए Aspose.Words मुख्य रूप से C# जैसी .NET भाषाओं का समर्थन करता है, लेकिन आप इसे अन्य .NET समर्थित भाषाओं जैसे VB.NET के साथ भी उपयोग कर सकते हैं।
 
 ### मैं .NET के लिए Aspose.Words हेतु अस्थायी लाइसेंस कैसे प्राप्त करूं?
- आप यहां जाकर अस्थायी लाइसेंस प्राप्त कर सकते हैं।[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) पृष्ठ.
+आप यहां जाकर अस्थायी लाइसेंस प्राप्त कर सकते हैं। [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) पृष्ठ.
 
 ### क्या समीकरणों को दाईं ओर या केंद्र में रखने का कोई तरीका है?
- हाँ, आप सेट कर सकते हैं`Justification`संपत्ति को`Right` या`Center` आपकी आवश्यकता के आधार पर.
+हाँ, आप सेट कर सकते हैं `Justification` संपत्ति को `Right` या `Center` आपकी आवश्यकता के आधार पर.
 
-### क्या मैं समीकरणों वाले वर्ड दस्तावेज़ को पीडीएफ जैसे अन्य प्रारूपों में परिवर्तित कर सकता हूं?
-बिलकुल! .NET के लिए Aspose.Words Word दस्तावेज़ों को PDF सहित विभिन्न स्वरूपों में परिवर्तित करने का समर्थन करता है। आप इसका उपयोग कर सकते हैं`Save` विभिन्न प्रारूपों के साथ विधि.
+### क्या मैं समीकरणों वाले वर्ड दस्तावेज़ को पीडीएफ जैसे अन्य प्रारूपों में परिवर्तित कर सकता हूँ?
+बिलकुल! .NET के लिए Aspose.Words Word दस्तावेज़ों को PDF सहित विभिन्न स्वरूपों में परिवर्तित करने का समर्थन करता है। आप इसका उपयोग कर सकते हैं `Save` विभिन्न प्रारूपों के साथ विधि.
 
 ### मैं .NET के लिए Aspose.Words के अधिक विस्तृत दस्तावेज़ कहां पा सकता हूं?
- आप यहाँ पर विस्तृत दस्तावेज पा सकते हैं[Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) पृष्ठ.
+आप यहाँ पर विस्तृत दस्तावेज पा सकते हैं [Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) पृष्ठ.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

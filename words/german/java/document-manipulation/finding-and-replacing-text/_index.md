@@ -1,14 +1,16 @@
 ---
-title: Suchen und Ersetzen von Text in Aspose.Words für Java
-linktitle: Suchen und Ersetzen von Text
-second_title: Aspose.Words Java-API zur Dokumentverarbeitung
-description: Erfahren Sie, wie Sie mit Aspose.Words für Java Text in Word-Dokumenten suchen und ersetzen. Schritt-für-Schritt-Anleitung mit Codebeispielen. Verbessern Sie Ihre Fähigkeiten zur Bearbeitung von Java-Dokumenten.
-weight: 15
-url: /de/java/document-manipulation/finding-and-replacing-text/
+"description": "Erfahren Sie, wie Sie mit Aspose.Words für Java Text in Word-Dokumenten suchen und ersetzen. Schritt-für-Schritt-Anleitung mit Codebeispielen. Verbessern Sie Ihre Java-Dokumentbearbeitungsfähigkeiten."
+"linktitle": "Suchen und Ersetzen von Text"
+"second_title": "Aspose.Words Java-Dokumentverarbeitungs-API"
+"title": "Suchen und Ersetzen von Text in Aspose.Words für Java"
+"url": "/de/java/document-manipulation/finding-and-replacing-text/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Suchen und Ersetzen von Text in Aspose.Words für Java
@@ -16,17 +18,17 @@ url: /de/java/document-manipulation/finding-and-replacing-text/
 
 ## Einführung in das Suchen und Ersetzen von Text in Aspose.Words für Java
 
-Aspose.Words für Java ist eine leistungsstarke Java-API, mit der Sie programmgesteuert mit Word-Dokumenten arbeiten können. Eine der häufigsten Aufgaben beim Umgang mit Word-Dokumenten ist das Suchen und Ersetzen von Text. Ob Sie Platzhalter in Vorlagen aktualisieren oder komplexere Textmanipulationen durchführen müssen, Aspose.Words für Java kann Ihnen helfen, Ihre Ziele effizient zu erreichen.
+Aspose.Words für Java ist eine leistungsstarke Java-API, mit der Sie programmgesteuert mit Word-Dokumenten arbeiten können. Eine der häufigsten Aufgaben bei der Arbeit mit Word-Dokumenten ist das Suchen und Ersetzen von Text. Ob Sie Platzhalter in Vorlagen aktualisieren oder komplexere Textmanipulationen durchführen müssen – Aspose.Words für Java hilft Ihnen, Ihre Ziele effizient zu erreichen.
 
 ## Voraussetzungen
 
 Bevor wir uns mit den Details zum Suchen und Ersetzen von Text befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
 - Java-Entwicklungsumgebung
-- Aspose.Words für Java-Bibliothek
+- Aspose.Words für die Java-Bibliothek
 - Ein Beispiel-Word-Dokument zum Arbeiten
 
- Sie können die Aspose.Words für Java-Bibliothek herunterladen von[Hier](https://releases.aspose.com/words/java/).
+Sie können die Aspose.Words für Java-Bibliothek herunterladen von [Hier](https://releases.aspose.com/words/java/).
 
 ## Suchen und Ersetzen von einfachem Text
 
@@ -44,11 +46,11 @@ builder.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 doc.save("modified-document.docx");
 ```
 
- In diesem Beispiel laden wir ein Word-Dokument, erstellen eine`DocumentBuilder` und verwenden Sie die`replace` Methode zum Suchen und Ersetzen von „altem Text“ durch „neuen Text“ im Dokument.
+In diesem Beispiel laden wir ein Word-Dokument, erstellen eine `DocumentBuilder`und verwenden Sie die `replace` Methode zum Suchen und Ersetzen von „altem Text“ durch „neuen Text“ im Dokument.
 
 ## Verwenden regulärer Ausdrücke
 
-Reguläre Ausdrücke bieten leistungsstarke Mustervergleichsfunktionen für die Textsuche und -ersetzung. Aspose.Words für Java unterstützt reguläre Ausdrücke für erweiterte Such- und Ersetzungsvorgänge.
+Reguläre Ausdrücke bieten leistungsstarke Mustererkennungsfunktionen für die Textsuche und -ersetzung. Aspose.Words für Java unterstützt reguläre Ausdrücke für erweiterte Such- und Ersetzungsvorgänge.
 
 ```java
 // Laden Sie das Dokument
@@ -67,7 +69,7 @@ doc.save("modified-document.docx");
 
 In diesem Beispiel verwenden wir ein reguläres Ausdrucksmuster, um Text im Dokument zu suchen und zu ersetzen.
 
-## Text in Feldern ignorieren
+## Ignorieren von Text in Feldern
 
 Sie können Aspose.Words so konfigurieren, dass Text in Feldern beim Ausführen von Such- und Ersetzungsvorgängen ignoriert wird.
 
@@ -86,7 +88,7 @@ doc.getRange().replace("text-to-replace", "new-text", options);
 doc.save("modified-document.docx");
 ```
 
-Dies ist nützlich, wenn Sie Text in Feldern, wie z. B. Seriendruckfeldern, vom Ersetzen ausschließen möchten.
+Dies ist nützlich, wenn Sie Text in Feldern, beispielsweise Seriendruckfeldern, vom Ersetzen ausschließen möchten.
 
 ## Text in gelöschten Revisionen ignorieren
 
@@ -128,7 +130,7 @@ doc.getRange().replace("text-to-replace", "new-text", options);
 doc.save("modified-document.docx");
 ```
 
-Auf diese Weise können Sie Text, der in den nachverfolgten Änderungen als eingefügt markiert wurde, vom Ersetzen ausschließen.
+Auf diese Weise können Sie Text, der in der Änderungsverfolgung als eingefügt markiert wurde, vom Ersetzen ausschließen.
 
 ## Ersetzen von Text durch HTML
 
@@ -149,7 +151,7 @@ doc.getRange().replace("text-to-replace", "new-html-content", options);
 doc.save("modified-document.docx");
 ```
 
- In diesem Beispiel verwenden wir eine benutzerdefinierte`ReplaceWithHtmlEvaluator` um Text durch HTML-Inhalt zu ersetzen.
+In diesem Beispiel verwenden wir eine benutzerdefinierte `ReplaceWithHtmlEvaluator` um Text durch HTML-Inhalt zu ersetzen.
 
 ## Ersetzen von Text in Kopf- und Fußzeilen
 
@@ -162,10 +164,10 @@ Document doc = new Document("your-document.docx");
 // Holen Sie sich die Sammlung von Kopf- und Fußzeilen
 HeaderFooterCollection headersFooters = doc.getFirstSection().getHeadersFooters();
 
-// Wählen Sie den Kopf- oder Fußzeilentyp aus, in dem Sie Text ersetzen möchten (z. B. HeaderFooterType.FOOTER_PRIMARY).
+// Wählen Sie den Kopf- oder Fußzeilentyp, in dem Sie Text ersetzen möchten (z. B. HeaderFooterType.FOOTER_PRIMARY).
 HeaderFooter footer = headersFooters.getByHeaderFooterType(HeaderFooterType.FOOTER_PRIMARY);
 
-// Erstellen Sie eine FindReplaceOptions-Instanz und wenden Sie sie auf den Bereich der Fußzeile an.
+// Erstellen Sie eine FindReplaceOptions-Instanz und wenden Sie sie auf den Bereich der Fußzeile an
 FindReplaceOptions options = new FindReplaceOptions();
 footer.getRange().replace("text-to-replace", "new-text", options);
 
@@ -186,7 +188,7 @@ Document doc = new Document("your-document.docx");
 // Holen Sie sich den ersten Abschnitt
 Section firstPageSection = doc.getFirstSection();
 
-//Erstellen Sie eine FindReplaceOptions-Instanz und wenden Sie sie auf den Bereich des Dokuments an
+// Erstellen Sie eine FindReplaceOptions-Instanz und wenden Sie sie auf den Bereich des Dokuments an
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceLog());
 
@@ -197,11 +199,11 @@ doc.getRange().replace(Pattern.compile("(header|footer)"), "", options);
 doc.save("modified-document.docx");
 ```
 
-Auf diese Weise können Sie Änderungen in Bezug auf die Reihenfolge von Kopf- und Fußzeilen in Ihrem Dokument visualisieren.
+Auf diese Weise können Sie Änderungen in Bezug auf die Reihenfolge der Kopf- und Fußzeilen in Ihrem Dokument visualisieren.
 
 ## Ersetzen von Text durch Felder
 
-Sie können Text mit Aspose.Words für Java durch Felder ersetzen.
+Sie können Text durch Felder ersetzen, indem Sie Aspose.Words für Java verwenden.
 
 ```java
 // Laden Sie das Dokument
@@ -218,7 +220,7 @@ doc.getRange().replace(Pattern.compile("PlaceHolder(\\d+)"), "", options);
 doc.save("modified-document.docx");
 ```
 
- In diesem Beispiel ersetzen wir Text durch Felder und geben den Feldtyp an (z. B.`FieldType.FIELD_MERGE_FIELD`).
+In diesem Beispiel ersetzen wir Text durch Felder und geben den Feldtyp an (z. B. `FieldType.FIELD_MERGE_FIELD`).
 
 ## Ersetzen durch einen Evaluator
 
@@ -258,7 +260,7 @@ doc.save("modified-document.docx");
 
 In diesem Beispiel verwenden wir ein reguläres Ausdrucksmuster, um Text im Dokument zu suchen und zu ersetzen.
 
-## Erkennen und Ersetzen von Ersetzungsmustern
+## Erkennen und Ersetzen innerhalb von Ersatzmustern
 
 Mit Aspose.Words für Java können Sie Ersetzungen innerhalb von Ersetzungsmustern erkennen und vornehmen.
 
@@ -266,7 +268,7 @@ Mit Aspose.Words für Java können Sie Ersetzungen innerhalb von Ersetzungsmuste
 // Laden Sie das Dokument
 Document doc = new Document("your-document.docx");
 
-// Erstellen Sie eine FindReplaceOptions-Instanz mit UseSubstitutions auf true
+// Erstellen Sie eine FindReplaceOptions-Instanz mit UseSubstitutions auf „true“
 FindReplaceOptions options = new FindReplaceOptions();
 options.setUseSubstitutions(true);
 
@@ -277,7 +279,7 @@ doc.getRange().replace(Pattern.compile("([A-z]+) give money to ([A-z]+)"), "$2 t
 doc.save("modified-document.docx");
 ```
 
-Auf diese Weise können Sie innerhalb der Ersetzungsmuster Ersetzungen für erweiterte Ersetzungen durchführen.
+Auf diese Weise können Sie innerhalb der Ersetzungsmuster Ersetzungen für komplexere Ersetzungen durchführen.
 
 ## Ersetzen durch eine Zeichenfolge
 
@@ -294,9 +296,9 @@ doc.getRange().replace("text-to-replace", "new-string", new FindReplaceOptions()
 doc.save("modified-document.docx");
 ```
 
-In diesem Beispiel ersetzen wir im Dokument „zu ersetzender Text“ durch „neue Zeichenfolge“.
+In diesem Beispiel ersetzen wir „zu ersetzender Text“ durch „neue Zeichenfolge“ innerhalb des Dokuments.
 
-## Legacy-Reihenfolge verwenden
+## Verwenden der Legacy-Reihenfolge
 
 Sie können beim Ausführen von Such- und Ersetzungsvorgängen die alte Reihenfolge verwenden.
 
@@ -315,7 +317,7 @@ doc.getRange().replace(Pattern.compile("\\[(.*?)\\]"), "", options);
 doc.save("modified-document.docx");
 ```
 
-Auf diese Weise können Sie die alte Reihenfolge für Such- und Ersetzungsvorgänge verwenden.
+Dadurch können Sie die alte Reihenfolge für Such- und Ersetzungsvorgänge verwenden.
 
 ## Ersetzen von Text in einer Tabelle
 
@@ -328,43 +330,48 @@ Document doc = new Document("your-document.docx");
 // Holen Sie sich eine bestimmte Tabelle (z. B. die erste Tabelle)
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 
-//Verwenden Sie FindReplaceOptions zum Ersetzen von Text in der Tabelle
+// Verwenden Sie FindReplaceOptions zum Ersetzen von Text in der Tabelle
 table.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 
 // Speichern des geänderten Dokuments
 doc.save("modified-document.docx");
 ```
 
-Damit ist es möglich, Textersetzungen gezielt innerhalb von Tabellen vorzunehmen.
+Damit können Sie Textersetzungen gezielt innerhalb von Tabellen vornehmen.
 
 ## Abschluss
 
-Aspose.Words für Java bietet umfassende Funktionen zum Suchen und Ersetzen von Text in Word-Dokumenten. Ob Sie einfache Textersetzungen oder erweiterte Operationen mit regulären Ausdrücken, Feldmanipulationen oder benutzerdefinierten Evaluatoren durchführen müssen, Aspose.Words für Java bietet alles. Sehen Sie sich unbedingt die umfangreiche Dokumentation und die Beispiele von Aspose an, um das volle Potenzial dieser leistungsstarken Java-Bibliothek auszuschöpfen.
+Aspose.Words für Java bietet umfassende Funktionen zum Suchen und Ersetzen von Text in Word-Dokumenten. Ob einfache Textersetzungen oder komplexere Operationen mit regulären Ausdrücken, Feldmanipulationen oder benutzerdefinierten Evaluatoren – Aspose.Words für Java bietet Ihnen alles. Nutzen Sie die umfangreiche Dokumentation und die Beispiele von Aspose, um das volle Potenzial dieser leistungsstarken Java-Bibliothek auszuschöpfen.
 
 ## Häufig gestellte Fragen
 
 ### Wie lade ich Aspose.Words für Java herunter?
 
- Sie können Aspose.Words für Java von der Website herunterladen, indem Sie[dieser Link](https://releases.aspose.com/words/java/).
+Sie können Aspose.Words für Java von der Website herunterladen, indem Sie [dieser Link](https://releases.aspose.com/words/java/).
 
-### Kann ich reguläre Ausdrücke zum Textersetzen verwenden?
+### Kann ich reguläre Ausdrücke zum Ersetzen von Text verwenden?
 
-Ja, Sie können reguläre Ausdrücke zum Ersetzen von Text in Aspose.Words für Java verwenden. Dadurch können Sie erweiterte und flexiblere Such- und Ersetzungsvorgänge durchführen.
+Ja, Sie können reguläre Ausdrücke zum Ersetzen von Text in Aspose.Words für Java verwenden. Dies ermöglicht Ihnen erweiterte und flexiblere Such- und Ersetzungsvorgänge.
 
 ### Wie kann ich Text in Feldern beim Ersetzen ignorieren?
 
-Um Text in Feldern beim Ersetzen zu ignorieren, können Sie die`IgnoreFields` Eigentum der`FindReplaceOptions` Zu`true`. Dadurch wird sichergestellt, dass Text in Feldern, wie z. B. Seriendruckfeldern, vom Ersetzen ausgeschlossen wird.
+Um Text in Feldern beim Ersetzen zu ignorieren, können Sie die `IgnoreFields` Eigentum der `FindReplaceOptions` Zu `true`Dadurch wird sichergestellt, dass Text innerhalb von Feldern, beispielsweise Seriendruckfeldern, vom Ersetzen ausgeschlossen wird.
 
 ### Kann ich Text in Kopf- und Fußzeilen ersetzen?
 
- Ja, Sie können Text in Kopf- und Fußzeilen Ihres Word-Dokuments ersetzen. Rufen Sie einfach die entsprechende Kopf- oder Fußzeile auf und verwenden Sie die`replace` Methode mit der gewünschten`FindReplaceOptions`.
+Ja, Sie können Text in Kopf- und Fußzeilen Ihres Word-Dokuments ersetzen. Rufen Sie einfach die entsprechende Kopf- oder Fußzeile auf und verwenden Sie die `replace` Methode mit der gewünschten `FindReplaceOptions`.
 
-### Wofür ist die Option UseLegacyOrder?
+### Wozu dient die Option „UseLegacyOrder“?
 
- Der`UseLegacyOrder` Option in`FindReplaceOptions` ermöglicht Ihnen, bei Such- und Ersetzungsvorgängen die alte Reihenfolge zu verwenden. Dies kann in bestimmten Szenarien nützlich sein, in denen das alte Reihenfolgeverhalten erwünscht ist.
+Der `UseLegacyOrder` Option in `FindReplaceOptions` Ermöglicht die Verwendung der alten Reihenfolge bei Such- und Ersetzungsvorgängen. Dies kann in bestimmten Szenarien nützlich sein, in denen das alte Reihenfolgeverhalten erwünscht ist.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,28 +1,30 @@
 ---
-title: 각주 및 미주 위치 설정
-linktitle: 각주 및 끝주 위치 설정
-second_title: Aspose.Words 문서 처리 API
-description: 이 자세한 단계별 가이드를 통해 Aspose.Words for .NET을 사용하여 Word 문서에서 각주와 미주 위치를 설정하는 방법을 알아보세요.
-weight: 10
-url: /ko/net/working-with-footnote-and-endnote/set-footnote-and-end-note-position/
+"description": "이 자세한 단계별 가이드를 통해 Aspose.Words for .NET을 사용하여 Word 문서에서 각주와 미주 위치를 설정하는 방법을 알아보세요."
+"linktitle": "각주 및 미주 위치 설정"
+"second_title": "Aspose.Words 문서 처리 API"
+"title": "각주 및 미주 위치 설정"
+"url": "/ko/net/working-with-footnote-and-endnote/set-footnote-and-end-note-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 각주 및 미주 위치 설정
 
 ## 소개
 
-Word 문서로 작업하고 각주와 미주를 효과적으로 관리해야 하는 경우 Aspose.Words for .NET이 바로 그 라이브러리입니다. 이 튜토리얼은 Aspose.Words for .NET을 사용하여 Word 문서에서 각주와 미주 위치를 설정하는 방법을 안내합니다. 각 단계를 나누어 쉽게 따라하고 구현할 수 있도록 하겠습니다.
+Word 문서 작업을 하면서 각주와 미주를 효과적으로 관리해야 한다면 Aspose.Words for .NET이 최적의 라이브러리입니다. 이 튜토리얼에서는 Aspose.Words for .NET을 사용하여 Word 문서에서 각주와 미주 위치를 설정하는 방법을 안내합니다. 각 단계를 자세히 설명하여 따라 하고 구현하기 쉽게 돕겠습니다.
 
 ## 필수 조건
 
 튜토리얼을 시작하기 전에 다음 사항이 있는지 확인하세요.
 
--  Aspose.Words for .NET 라이브러리: 여기에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/words/net/).
-- Visual Studio: 최신 버전이라면 무엇이든 잘 작동합니다.
+- Aspose.Words for .NET 라이브러리: 여기에서 다운로드할 수 있습니다. [여기](https://releases.aspose.com/words/net/).
+- Visual Studio: 최신 버전이라면 모두 잘 작동합니다.
 - C#에 대한 기본 지식: 기본 사항을 이해하면 쉽게 따라갈 수 있습니다.
 
 ## 네임스페이스 가져오기
@@ -36,14 +38,14 @@ using Aspose.Words;
 
 ## 1단계: Word 문서 로드
 
-시작하려면 Aspose.Words Document 객체에 Word 문서를 로드해야 합니다. 그러면 문서의 내용을 조작할 수 있습니다.
+시작하려면 Word 문서를 Aspose.Words 문서 객체에 로드해야 합니다. 이렇게 하면 문서의 내용을 조작할 수 있습니다.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
-이 코드에서 다음을 바꾸세요.`"YOUR DOCUMENT DIRECTORY"` 문서가 위치한 실제 경로를 사용합니다.
+이 코드에서 다음을 바꾸세요. `"YOUR DOCUMENT DIRECTORY"` 문서가 위치한 실제 경로를 사용합니다.
 
 ## 2단계: 각주 위치 설정
 
@@ -53,21 +55,21 @@ Document doc = new Document(dataDir + "Document.docx");
 doc.FootnoteOptions.Position = FootnotePosition.BeneathText;
 ```
 
- 여기서, 우리는 각주가 텍스트 아래에 나타나도록 설정했습니다. 페이지 하단에 표시되도록 하려면 다음을 사용하세요.`FootnotePosition.BottomOfPage`.
+여기서는 각주가 텍스트 아래에 표시되도록 설정했습니다. 페이지 하단에 표시되도록 하려면 다음을 사용하세요. `FootnotePosition.BottomOfPage`.
 
 ## 3단계: 각주 위치 설정
 
-마찬가지로, 각주의 위치를 설정할 수 있습니다. 각주는 섹션의 끝이나 문서의 끝에 위치할 수 있습니다.
+마찬가지로, 미주의 위치도 설정할 수 있습니다. 미주는 해당 섹션의 끝이나 문서의 끝에 배치할 수 있습니다.
 
 ```csharp
 doc.EndnoteOptions.Position = EndnotePosition.EndOfSection;
 ```
 
- 이 예에서 각주는 각 섹션의 끝에 배치됩니다. 문서의 끝에 배치하려면 다음을 사용합니다.`EndnotePosition.EndOfDocument`.
+이 예에서 미주는 각 섹션의 끝에 배치됩니다. 문서 끝에 미주를 배치하려면 다음을 사용하세요. `EndnotePosition.EndOfDocument`.
 
 ## 4단계: 문서 저장
 
-마지막으로 문서를 저장하여 변경 사항을 적용합니다. 출력 문서에 대한 올바른 파일 경로와 이름을 지정해야 합니다.
+마지막으로, 변경 사항을 적용하려면 문서를 저장하세요. 출력 문서의 파일 경로와 이름을 올바르게 지정했는지 확인하세요.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithFootnotes.SetFootnoteAndEndNotePosition.docx");
@@ -77,7 +79,7 @@ doc.Save(dataDir + "WorkingWithFootnotes.SetFootnoteAndEndNotePosition.docx");
 
 ## 결론
 
-Aspose.Words for .NET을 사용하여 Word 문서에서 각주와 미주 위치를 설정하는 것은 단계를 알고 나면 간단합니다. 이 가이드를 따르면 필요에 맞게 문서를 사용자 지정하여 각주와 미주가 원하는 위치에 정확히 배치되도록 할 수 있습니다.
+Aspose.Words for .NET을 사용하여 Word 문서에서 각주와 미주의 위치를 설정하는 것은 단계별 절차만 알면 간단합니다. 이 가이드를 따라 문서를 필요에 맞게 사용자 지정하여 각주와 미주가 원하는 위치에 정확하게 배치되도록 할 수 있습니다.
 
 ## 자주 묻는 질문
 
@@ -95,14 +97,19 @@ Aspose.Words for .NET은 .NET 애플리케이션용으로 설계되었지만 C#,
 
 ### Aspose.Words for .NET에 대한 무료 평가판이 있나요?
 
- 네, 무료 체험판을 받으실 수 있습니다.[여기](https://releases.aspose.com/).
+네, 무료 체험판을 받으실 수 있습니다. [여기](https://releases.aspose.com/).
 
 ### Aspose.Words for .NET에 대한 더 자세한 문서는 어디에서 찾을 수 있나요?
 
- 자세한 문서가 제공됩니다.[여기](https://reference.aspose.com/words/net/).
+자세한 문서가 제공됩니다. [여기](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

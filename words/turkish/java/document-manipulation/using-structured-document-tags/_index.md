@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Yapılandırılmış Belge Etiketlerini (SDT) Kullanma
-linktitle: Yapılandırılmış Belge Etiketlerini (SDT) Kullanma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Bu kapsamlı kılavuzla Aspose.Words for Java'da Yapılandırılmış Belge Etiketlerini (SDT) nasıl kullanacağınızı öğrenin. SDT'leri oluşturun, değiştirin ve özel XML verilerine bağlayın.
-weight: 19
-url: /tr/java/document-manipulation/using-structured-document-tags/
+"description": "Bu kapsamlı kılavuzla Aspose.Words for Java'da Yapılandırılmış Belge Etiketlerini (SDT) nasıl kullanacağınızı öğrenin. SDT'leri oluşturun, değiştirin ve özel XML verilerine bağlayın."
+"linktitle": "Yapılandırılmış Belge Etiketlerini (SDT) Kullanma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Yapılandırılmış Belge Etiketlerini (SDT) Kullanma"
+"url": "/tr/java/document-manipulation/using-structured-document-tags/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Yapılandırılmış Belge Etiketlerini (SDT) Kullanma
@@ -233,7 +235,7 @@ Yapılandırılmış Belge Etiketleri (SDT'ler), belgelerdeki içeriği düzenle
 
 ### Checkbox SDT'nin mevcut durumunu nasıl kontrol edebilirim?
 
- Bir Onay Kutusu SDT'sinin geçerli durumunu şu şekilde kontrol edebilirsiniz:`setChecked` Yöntem, makalede gösterildiği gibi.
+Bir Onay Kutusu SDT'sinin geçerli durumunu şu şekilde kontrol edebilirsiniz: `setChecked` Yöntem, makalede gösterildiği gibi.
 
 ### İçerik Denetimlerine stiller uygulayabilir miyim?
 
@@ -246,9 +248,14 @@ Evet, bir SDT'yi özel XML verilerine bağlayabilir, böylece dinamik içerik ü
 ### SDT’lerde Tekrarlayan Bölümler Nedir?
 
 SDT'lerdeki Tekrarlanan Bölümler, eşlenen XML verilerine göre satırların tekrarlanabileceği dinamik veriler içeren tablolar oluşturmanıza olanak tanır.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

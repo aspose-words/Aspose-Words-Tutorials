@@ -1,17 +1,19 @@
 ---
-title: Pembuat Dokumen Sisipkan Bookmark di Dokumen Word
-linktitle: Pembuat Dokumen Sisipkan Bookmark di Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyisipkan bookmark dalam dokumen Word menggunakan Aspose.Words for .NET dengan panduan terperinci dan langkah demi langkah ini. Sempurna untuk otomatisasi dokumen.
-weight: 10
-url: /id/net/add-content-using-documentbuilder/document-builder-insert-bookmark/
+"description": "Pelajari cara menyisipkan bookmark dalam dokumen Word menggunakan Aspose.Words for .NET dengan panduan terperinci dan langkah demi langkah ini. Sempurna untuk otomatisasi dokumen."
+"linktitle": "Pembuat Dokumen Sisipkan Penanda Buku Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Pembuat Dokumen Sisipkan Penanda Buku Dalam Dokumen Word"
+"url": "/id/net/add-content-using-documentbuilder/document-builder-insert-bookmark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pembuat Dokumen Sisipkan Bookmark di Dokumen Word
+# Pembuat Dokumen Sisipkan Penanda Buku Dalam Dokumen Word
 
 ## Perkenalan
 
@@ -21,7 +23,7 @@ Membuat dan mengelola dokumen Word secara terprogram terkadang terasa seperti me
 
 Sebelum kita mulai mengerjakan beberapa kode, mari pastikan kita punya semua yang dibutuhkan:
 
-1.  Aspose.Words untuk .NET: Unduh dan instal versi terbaru dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Unduh dan instal versi terbaru dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Pastikan Anda memiliki IDE seperti Visual Studio yang disiapkan untuk pengembangan .NET.
 3. Pengetahuan Dasar C#: Sedikit pengetahuan tentang C# akan sangat membantu.
 
@@ -57,7 +59,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Di Sini,`Document` membuat contoh dokumen baru, dan`DocumentBuilder` memberi kita alat untuk menambahkan konten ke dokumen.
+Di Sini, `Document` membuat contoh dokumen baru, dan `DocumentBuilder` memberi kita alat untuk menambahkan konten ke dokumen.
 
 ## Langkah 3: Mulai Bookmark
 
@@ -67,7 +69,7 @@ Sekarang, mari kita mulai membuat penanda. Anggap saja ini seperti menempatkan p
 builder.StartBookmark("FineBookmark");
 ```
 
- Pada baris ini,`StartBookmark` memulai penanda dengan nama "FineBookmark". Nama ini unik dalam dokumen.
+Pada baris ini, `StartBookmark` memulai penanda dengan nama "FineBookmark". Nama ini unik dalam dokumen.
 
 ## Langkah 4: Tambahkan Konten di Dalam Bookmark
 
@@ -77,7 +79,7 @@ Setelah penanda buku dimulai, kita dapat menambahkan konten apa pun yang kita su
 builder.Writeln("This is just a fine bookmark.");
 ```
 
- Itu`Writeln` metode menambahkan paragraf baru dengan teks yang ditentukan ke dokumen.
+Itu `Writeln` metode menambahkan paragraf baru dengan teks yang ditentukan ke dokumen.
 
 ## Langkah 5: Akhiri Bookmark
 
@@ -87,7 +89,7 @@ Setelah menambahkan konten, kita perlu menutup bookmark. Ini memberi tahu Aspose
 builder.EndBookmark("FineBookmark");
 ```
 
- Itu`EndBookmark` metode melengkapi penanda yang kita mulai sebelumnya.
+Itu `EndBookmark` metode melengkapi penanda yang kita mulai sebelumnya.
 
 ## Langkah 6: Simpan Dokumen
 
@@ -112,16 +114,21 @@ Penanda dalam dokumen Word adalah penanda atau tempat penampung yang dapat Anda 
 Ya, Anda dapat menambahkan beberapa penanda. Pastikan saja setiap penanda memiliki nama yang unik.
 
 ### Bagaimana cara menavigasi ke penanda buku secara terprogram?
- Anda dapat menggunakan`Document.Range.Bookmarks` koleksi untuk menavigasi atau memanipulasi penanda secara terprogram.
+Anda dapat menggunakan `Document.Range.Bookmarks` koleksi untuk menavigasi atau memanipulasi penanda secara terprogram.
 
-### Bisakah saya menambahkan konten yang kompleks dalam penanda buku?
+### Bisakah saya menambahkan konten kompleks dalam penanda buku?
 Tentu saja! Anda dapat menambahkan teks, tabel, gambar, atau elemen lainnya di dalam penanda halaman.
 
 ### Apakah Aspose.Words untuk .NET gratis untuk digunakan?
-Aspose.Words untuk .NET adalah produk komersial, tetapi Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+Aspose.Words untuk .NET adalah produk komersial, tetapi Anda dapat mengunduh uji coba gratis dari [Di Sini](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Webextension ile Kelime İşleme
-linktitle: Webextension ile Kelime İşleme
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET ile Word belgeleri için web uzantılarının nasıl geliştirileceğini öğrenin. Web uzantılarını nasıl oluşturacağınızı, değiştireceğinizi ve özelleştireceğinizi, bunları Word belgelerinize nasıl entegre edeceğinizi öğrenin.
-weight: 1530
-url: /tr/net/programming-with-webextension/
+"description": "Aspose.Words for .NET ile Word belgeleri için web uzantılarının nasıl geliştirileceğini öğrenin. Web uzantılarını nasıl oluşturacağınızı, değiştireceğinizi ve özelleştireceğinizi, bunları Word belgelerinize nasıl entegre edeceğinizi öğrenin."
+"linktitle": "Webextension ile Kelime İşleme"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Webextension ile Kelime İşleme"
+"url": "/tr/net/programming-with-webextension/"
+"weight": 1530
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Webextension ile Kelime İşleme
@@ -20,12 +22,17 @@ Bu eğitimler, .NET için Aspose.Words ile WebExtensions'ın işlevselliğini an
 Bu eğitimleri takip ederek, Word belgelerinizde web uzantılarının yeteneklerinden tam olarak yararlanabilecek ve onlara etkileşimli ve dinamik özellikler kazandırabileceksiniz. Eğitimler, bu özelliklerden en iyi şekilde yararlanmanıza ve yenilikçi ve etkileşimli Word belgeleri oluşturmanıza yardımcı olmak için adım adım kod örnekleri ve net açıklamalar sağlar.
 
 ## Eğitimler
-| Başlık | Tanım |
+| Başlık | Açıklama |
 | --- | --- |
-| [Web Uzantısı Görev Bölmelerini Kullanma](./using-web-extension-task-panes/) | Bu ayrıntılı, adım adım eğitimde Aspose.Words for .NET kullanarak Word belgelerine Web Uzantısı Görev Bölmeleri'nin nasıl ekleneceğini ve yapılandırılacağını öğrenin. |
+| [Web Uzantısı Görev Bölmelerini Kullanma](./using-web-extension-task-panes/) | Bu ayrıntılı, adım adım eğitimde Aspose.Words for .NET kullanarak Word belgelerine Web Uzantısı Görev Bölmeleri'nin nasıl ekleneceğini ve yapılandırılacağını öğrenin.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

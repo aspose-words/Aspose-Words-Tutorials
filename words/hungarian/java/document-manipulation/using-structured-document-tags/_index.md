@@ -1,26 +1,28 @@
 ---
-title: Strukturált dokumentumcímkék (SDT) használata az Aspose.Words for Java programban
-linktitle: Strukturált dokumentumcímkék (SDT) használata
-second_title: Aspose.Words Java Document Processing API
-description: Ebből az átfogó útmutatóból megtudhatja, hogyan használhatja a strukturált dokumentumcímkéket (SDT) az Aspose.Words for Java programban. SDT-k létrehozása, módosítása és egyéni XML-adatokhoz való kötése.
-weight: 19
-url: /hu/java/document-manipulation/using-structured-document-tags/
+"description": "Tanuld meg, hogyan használd a strukturált dokumentumcímkéket (SDT) az Aspose.Words for Java programban ezzel az átfogó útmutatóval. Hozz létre, módosíts és köss SDT-ket egyéni XML adatokhoz."
+"linktitle": "Strukturált dokumentumcímkék (SDT) használata"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Strukturált dokumentumcímkék (SDT) használata az Aspose.Words Java-ban"
+"url": "/hu/java/document-manipulation/using-structured-document-tags/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Strukturált dokumentumcímkék (SDT) használata az Aspose.Words for Java programban
+# Strukturált dokumentumcímkék (SDT) használata az Aspose.Words Java-ban
 
 
-## Bevezetés a strukturált dokumentumcímkék (SDT) használatába az Aspose.Words for Java programban
+## Bevezetés a strukturált dokumentumcímkék (SDT) használatába az Aspose.Words Java-ban
 
-A Structured Document Tags (SDT) az Aspose.Words for Java hatékony funkciója, amely lehetővé teszi strukturált tartalom létrehozását és kezelését a dokumentumokban. Ebben az átfogó útmutatóban végigvezetjük az SDT-k Aspose.Words for Java programban való használatának különböző szempontjain. Akár kezdő, akár tapasztalt fejlesztő, ebben a cikkben értékes meglátásokat és gyakorlati példákat talál.
+A strukturált dokumentumcímkék (SDT) az Aspose.Words for Java hatékony funkciói, amelyek lehetővé teszik strukturált tartalom létrehozását és kezelését a dokumentumokban. Ebben az átfogó útmutatóban végigvezetjük az SDT-k Aspose.Words for Java-ban való használatának különböző aspektusain. Akár kezdő, akár tapasztalt fejlesztő vagy, értékes betekintést és gyakorlati példákat találsz ebben a cikkben.
 
-## Kezdő lépések
+## Első lépések
 
-Mielőtt belemerülnénk a részletekbe, állítsuk be a környezetünket, és hozzunk létre egy alapvető SDT-t. Ebben a részben a következő témákkal foglalkozunk:
+Mielőtt belemerülnénk a részletekbe, állítsuk be a környezetünket, és hozzunk létre egy alapvető SDT-t. Ebben a szakaszban a következő témákat fogjuk tárgyalni:
 
 - Új dokumentum létrehozása
 - Strukturált dokumentumcímke hozzáadása
@@ -38,16 +40,16 @@ builder.insertNode(sdtCheckBox);
 doc.save("WorkingWithSDT.docx");
 ```
 
-## Az SDT jelölőnégyzet jelenlegi állapotának ellenőrzése
+## Jelölőnégyzet SDT aktuális állapotának ellenőrzése
 
-Miután hozzáadott egy SDT jelölőnégyzetet a dokumentumhoz, érdemes lehet programozottan ellenőrizni az aktuális állapotát. Ez akkor lehet hasznos, ha ellenőriznie kell a felhasználói bevitelt, vagy a jelölőnégyzet állapota alapján meghatározott műveleteket kell végrehajtania.
+Miután hozzáadott egy jelölőnégyzet SDT-jét a dokumentumához, érdemes lehet programozottan ellenőrizni annak aktuális állapotát. Ez akkor lehet hasznos, ha felhasználói bevitelt kell érvényesítenie, vagy a jelölőnégyzet állapota alapján meghatározott műveleteket kell végrehajtania.
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
 StructuredDocumentTag sdtCheckBox = (StructuredDocumentTag) doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG, 0, true);
 
 if (sdtCheckBox.getSdtType() == SdtType.CHECKBOX) {
-    // A jelölőnégyzet be van jelölve
+    // Jelölőnégyzet be van jelölve
     sdtCheckBox.setChecked(true);
 }
 
@@ -56,16 +58,16 @@ doc.save("UpdatedDocument.docx");
 
 ## Tartalomvezérlők módosítása
 
-Ebben a részben azt vizsgáljuk meg, hogyan módosíthatja a tartalomvezérlőket a dokumentumban. Háromféle tartalomvezérlőt ismertetünk: egyszerű szöveg, legördülő lista és kép.
+Ebben a részben azt vizsgáljuk meg, hogyan módosíthatja a tartalomvezérlőket a dokumentumban. Háromféle tartalomvezérlőt fogunk megvizsgálni: sima szöveg, legördülő lista és kép.
 
-### Egyszerű szöveges tartalomszabályozás módosítása
+### Egyszerű szöveges tartalomvezérlő módosítása
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
 StructuredDocumentTag sdtPlainText = (StructuredDocumentTag) doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG, 0, true);
 
 if (sdtPlainText.getSdtType() == SdtType.PLAIN_TEXT) {
-    // Törölje a meglévő tartalmat
+    // Töröld a meglévő tartalmat
     sdtPlainText.removeAllChildren();
 
     // Új szöveg hozzáadása
@@ -77,7 +79,7 @@ if (sdtPlainText.getSdtType() == SdtType.PLAIN_TEXT) {
 doc.save("ModifiedDocument.docx");
 ```
 
-### A legördülő lista tartalomvezérlőjének módosítása
+### Legördülő lista tartalomvezérlőjének módosítása
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
@@ -92,7 +94,7 @@ if (sdtDropDown.getSdtType() == SdtType.DROP_DOWN_LIST) {
 doc.save("ModifiedDocument.docx");
 ```
 
-### Képtartalom-szabályozás módosítása
+### Képtartalom-vezérlés módosítása
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
@@ -109,7 +111,7 @@ doc.save("ModifiedDocument.docx");
 
 ## ComboBox tartalomvezérlő létrehozása
 
-A ComboBox tartalomvezérlő lehetővé teszi a felhasználók számára, hogy egy előre meghatározott listából válasszanak. Hozzon létre egyet a dokumentumunkban.
+A ComboBox tartalomvezérlő lehetővé teszi a felhasználók számára, hogy egy előre definiált listából válasszanak. Hozzunk létre egyet a dokumentumunkban.
 
 ```java
 Document doc = new Document();
@@ -122,9 +124,9 @@ doc.getFirstSection().getBody().appendChild(sdtComboBox);
 doc.save("ComboBoxDocument.docx");
 ```
 
-## A Rich Text Content Control használata
+## Rich Text tartalomvezérlő használata
 
-Rich Text tartalomvezérlők tökéletesek a formázott szövegek dokumentumaihoz való hozzáadásához. Hozzunk létre egyet, és állítsuk be a tartalmát.
+Rich Text tartalomvezérlők tökéletesek formázott szöveg dokumentumokhoz való hozzáadásához. Hozzunk létre egyet, és állítsuk be a tartalmát.
 
 ```java
 Document doc = new Document();
@@ -142,7 +144,7 @@ doc.save("RichTextDocument.docx");
 
 ## Tartalomvezérlési stílusok beállítása
 
-Stílusokat alkalmazhat a tartalomvezérlőkre a dokumentum vizuális megjelenésének javítása érdekében. Nézzük meg, hogyan állíthatjuk be a tartalomvezérlő stílusát.
+Stílusokat alkalmazhat a tartalomvezérlőkre a dokumentum vizuális megjelenésének javítása érdekében. Nézzük meg, hogyan állíthatja be egy tartalomvezérlő stílusát.
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
@@ -157,7 +159,7 @@ doc.save("StyledDocument.docx");
 
 ## SDT kötése egyéni XML adatokhoz
 
-Egyes esetekben előfordulhat, hogy egy SDT-t egyéni XML-adatokhoz kell kötnie a dinamikus tartalom létrehozásához. Vizsgáljuk meg, hogyan érhetjük el ezt.
+Bizonyos esetekben előfordulhat, hogy egy SDT-t egyéni XML-adatokhoz kell kötni a dinamikus tartalomgeneráláshoz. Nézzük meg, hogyan érhető el ez.
 
 ```java
 Document doc = new Document();
@@ -169,9 +171,9 @@ sdt.getXmlMapping().setMapping(xmlPart, "/root[1]/text[1]", "");
 doc.save("CustomXMLBinding.docx");
 ```
 
-## Egyéni XML adatokra leképezett ismétlődő szakaszokat tartalmazó táblázat létrehozása
+## Egyéni XML-adatokhoz leképezett ismétlődő szakaszokat tartalmazó táblázat létrehozása
 
-Az ismétlődő szakaszokat tartalmazó táblázatok rendkívül hasznosak lehetnek strukturált adatok bemutatására. Hozzunk létre egy ilyen táblázatot, és képezzük le egyéni XML adatokra.
+Az ismétlődő szakaszokat tartalmazó táblázatok rendkívül hasznosak lehetnek strukturált adatok megjelenítéséhez. Hozzunk létre egy ilyen táblázatot, és képezzük le egyéni XML-adatokra.
 
 ```java
 Document doc = new Document();
@@ -206,9 +208,9 @@ row.appendChild(authorSdt);
 doc.save("RepeatingTableDocument.docx");
 ```
 
-## Munka több szakaszból álló strukturált dokumentumcímkékkel
+## Többszakaszos strukturált dokumentumcímkék használata
 
-A strukturált dokumentumcímkék egy dokumentum több szakaszára is kiterjedhetnek. Ebben a részben megvizsgáljuk, hogyan dolgozhatunk több szakaszból álló SDT-kkel.
+A strukturált dokumentumcímkék több szakaszra is kiterjedhetnek egy dokumentumban. Ebben a szakaszban azt vizsgáljuk meg, hogyan lehet több szakaszból álló SDT-kkel dolgozni.
 
 ```java
 Document doc = new Document("MultiSectionDocument.docx");
@@ -223,32 +225,37 @@ doc.save("ModifiedMultiSectionDocument.docx");
 
 ## Következtetés
 
-Az Aspose.Words for Java strukturált dokumentumcímkéi sokoldalú módot kínálnak a dokumentumok tartalmának kezelésére és formázására. Legyen szó sablonok, űrlapok vagy dinamikus dokumentumok létrehozásáról, az SDT-k biztosítják a szükséges rugalmasságot és vezérlést. Az ebben a cikkben található példák és irányelvek követésével kihasználhatja az SDT-k erejét a dokumentumfeldolgozási feladatok javítására.
+Az Aspose.Words for Java strukturált dokumentumcímkéi sokoldalú módot kínálnak a dokumentumok tartalmának kezelésére és formázására. Akár sablonokat, űrlapokat, akár dinamikus dokumentumokat kell létrehoznia, az SDT-k biztosítják a szükséges rugalmasságot és kontrollt. Az ebben a cikkben bemutatott példák és irányelvek követésével kihasználhatja az SDT-k erejét a dokumentumfeldolgozási feladatok javítására.
 
 ## GYIK
 
-### Mi a strukturált dokumentumcímkék (SDT) célja?
+### Mi a strukturált dokumentumcímkék (SDT-k) célja?
 
-A strukturált dokumentumcímkék (SDT) a dokumentumokon belüli tartalom rendszerezését és formázását szolgálják, megkönnyítve a sablonok, űrlapok és strukturált dokumentumok létrehozását.
+A strukturált dokumentumcímkék (SDT-k) a dokumentumokon belüli tartalom rendszerezésére és formázására szolgálnak, megkönnyítve a sablonok, űrlapok és strukturált dokumentumok létrehozását.
 
-### Hogyan ellenőrizhetem a Checkbox SDT aktuális állapotát?
+### Hogyan tudom ellenőrizni egy Checkbox SDT aktuális állapotát?
 
- A Checkbox SDT aktuális állapotát a`setChecked` módszerrel, amint azt a cikk bemutatja.
+A Checkbox SDT aktuális állapotát a következővel ellenőrizheti: `setChecked` módszer, ahogy a cikkben is látható.
 
 ### Alkalmazhatok stílusokat a tartalomvezérlőkre?
 
-Igen, stílusokat alkalmazhat a tartalomvezérlőkre, hogy testreszabhassa megjelenésüket a dokumentumban.
+Igen, stílusokat alkalmazhat a tartalomvezérlőkre, hogy testreszabhassa azok megjelenését a dokumentumban.
 
-### Lehetséges az SDT-t egyedi XML-adatokhoz kötni?
+### Lehetséges egy SDT-t egyéni XML adatokhoz kötni?
 
-Igen, az SDT-t egyéni XML-adatokhoz kötheti, lehetővé téve a dinamikus tartalomgenerálást és adatleképezést.
+Igen, egyéni XML adatokhoz köthetsz egy SDT-t, ami lehetővé teszi a dinamikus tartalomgenerálást és az adatleképezést.
 
-### Mik azok az ismétlődő szakaszok az SDT-ben?
+### Mik azok az ismétlődő szakaszok az SDT-kben?
 
-Az SDT-k szakaszainak ismétlése lehetővé teszi, hogy dinamikus adatokat tartalmazó táblázatokat hozzon létre, ahol a sorok megismételhetők a leképezett XML-adatok alapján.
+Az SDT-k ismétlődő szakaszai lehetővé teszik dinamikus adatokkal rendelkező táblázatok létrehozását, ahol a sorok a leképezett XML adatok alapján ismétlődhetnek.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

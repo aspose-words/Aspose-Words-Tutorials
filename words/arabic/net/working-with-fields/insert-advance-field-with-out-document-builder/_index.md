@@ -1,30 +1,32 @@
 ---
-title: إدراج حقل متقدم بدون منشئ المستندات
-linktitle: إدراج حقل متقدم بدون منشئ المستندات
-second_title: واجهة برمجة تطبيقات معالجة المستندات Aspose.Words
-description: تعرف على كيفية إدراج حقل متقدم دون استخدام DocumentBuilder في Aspose.Words for .NET. اتبع هذا الدليل لتحسين مهاراتك في معالجة المستندات.
-weight: 10
-url: /ar/net/working-with-fields/insert-advance-field-with-out-document-builder/
+"description": "تعرّف على كيفية إدراج حقل متقدم دون استخدام DocumentBuilder في Aspose.Words لـ .NET. اتبع هذا الدليل لتحسين مهاراتك في معالجة المستندات."
+"linktitle": "إدراج حقل متقدم بدون منشئ المستندات"
+"second_title": "واجهة برمجة تطبيقات معالجة المستندات Aspose.Words"
+"title": "إدراج حقل متقدم بدون منشئ المستندات"
+"url": "/ar/net/working-with-fields/insert-advance-field-with-out-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # إدراج حقل متقدم بدون منشئ المستندات
 
 ## مقدمة
 
-هل تبحث عن تحسين معالجات مستندات Word باستخدام Aspose.Words for .NET؟ حسنًا، أنت في المكان الصحيح! في هذا البرنامج التعليمي، سنرشدك خلال عملية إدراج حقل متقدم في مستند Word دون استخدام فئة DocumentBuilder. بحلول نهاية هذا الدليل، ستكون لديك فكرة واضحة عن كيفية تحقيق ذلك باستخدام Aspose.Words for .NET. لذا، دعنا نتعمق في الأمر ونجعل معالجة المستندات الخاصة بك أكثر قوة وتنوعًا!
+هل ترغب في تحسين معالجة مستندات Word باستخدام Aspose.Words لـ .NET؟ أنت في المكان المناسب! في هذا الدليل، سنشرح لك عملية إدراج حقل متقدم في مستند Word دون استخدام فئة DocumentBuilder. بنهاية هذا الدليل، ستكون قد اكتسبت فهمًا جيدًا لكيفية تحقيق ذلك باستخدام Aspose.Words لـ .NET. هيا بنا نبدأ ونجعل معالجة مستنداتك أكثر قوة وتنوعًا!
 
 ## المتطلبات الأساسية
 
 قبل أن نبدأ، تأكد من أن لديك ما يلي:
 
--  مكتبة Aspose.Words لـ .NET: يمكنك تنزيلها[هنا](https://releases.aspose.com/words/net/).
-- Visual Studio: أي إصدار حديث سيفي بالغرض.
+- مكتبة Aspose.Words لـ .NET: يمكنك تنزيلها [هنا](https://releases.aspose.com/words/net/).
+- Visual Studio: أي إصدار حديث سوف يقوم بالمهمة.
 - المعرفة الأساسية بلغة C#: يفترض هذا البرنامج التعليمي أن لديك فهمًا أساسيًا لبرمجة C#.
--  ترخيص Aspose.Words: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) إذا لم يكن لديك واحدة.
+- ترخيص Aspose.Words: الحصول على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/) إذا لم يكن لديك واحدة.
 
 ## استيراد مساحات الأسماء
 
@@ -58,7 +60,7 @@ using Aspose.Words.Fields;
 
 ### تهيئة المستند
 
-1.  فيك`Program.cs` الملف، ابدأ بإنشاء مستند جديد:
+1. فيك `Program.cs` الملف، ابدأ بإنشاء مستند جديد:
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
@@ -77,9 +79,9 @@ Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
 وهذا يضمن أن لدينا فقرة للعمل عليها.
 
-## الخطوة 3: أدخل الحقل المتقدم
+## الخطوة 3: إدراج الحقل المتقدم
 
-الآن، دعونا نقوم بإدراج الحقل المتقدم في فقرتنا.
+الآن، دعونا نقوم بإدراج حقل التقدم في فقرتنا.
 
 ### إنشاء الحقل
 
@@ -132,13 +134,13 @@ doc.Save(dataDir + "InsertionFieldAdvanceWithoutDocumentBuilder.docx");
 
 ## خاتمة
 
-والآن، لقد نجحت في إدراج حقل متقدم في مستند Word دون استخدام فئة DocumentBuilder. باتباع هذه الخطوات، تكون قد استغللت قوة Aspose.Words for .NET للتعامل مع مستندات Word برمجيًا. سواء كنت تقوم بأتمتة إنشاء التقارير أو إنشاء قوالب مستندات معقدة، فإن هذه المعرفة ستكون مفيدة بلا شك. استمر في التجريب واستكشاف إمكانيات Aspose.Words لرفع معالجة المستندات إلى المستوى التالي!
+وها قد انتهيت! لقد نجحت في إدراج حقل متقدم في مستند وورد دون استخدام فئة DocumentBuilder. باتباع هذه الخطوات، تكون قد سخّرت قوة Aspose.Words for .NET للتعامل مع مستندات وورد برمجيًا. سواء كنت تُؤتمت إنشاء التقارير أو تُنشئ قوالب مستندات معقدة، ستكون هذه المعرفة مفيدة بلا شك. استمر في التجربة واستكشاف إمكانيات Aspose.Words للارتقاء بمعالجة مستنداتك إلى مستوى أعلى!
 
 ## الأسئلة الشائعة
 
 ### ما هو الحقل المتقدم في Aspose.Words؟
 
-يسمح لك الحقل المتقدم في Aspose.Words بالتحكم في وضع النص بالنسبة لموضعه الطبيعي، مما يوفر لك تحكمًا دقيقًا في تخطيط النص في مستنداتك.
+يسمح لك الحقل المتقدم في Aspose.Words بالتحكم في وضع النص بالنسبة لموضعه الطبيعي، مما يوفر لك التحكم الدقيق في تخطيط النص في مستنداتك.
 
 ### هل يمكنني استخدام DocumentBuilder مع الحقول المتقدمة؟
 
@@ -146,18 +148,23 @@ doc.Save(dataDir + "InsertionFieldAdvanceWithoutDocumentBuilder.docx");
 
 ### أين يمكنني العثور على المزيد من الأمثلة لاستخدام Aspose.Words؟
 
- يمكنك العثور على وثائق وأمثلة شاملة على[توثيق Aspose.Words لـ .NET](https://reference.aspose.com/words/net/) صفحة.
+يمكنك العثور على وثائق وأمثلة شاملة على [وثائق Aspose.Words لـ .NET](https://reference.aspose.com/words/net/) صفحة.
 
-### هل استخدام Aspose.Words لـ .NET مجاني؟
+### هل استخدام Aspose.Words for .NET مجاني؟
 
- يقدم Aspose.Words for .NET نسخة تجريبية مجانية، يمكنك تنزيلها[هنا](https://releases.aspose.com/)للحصول على الوظائف الكاملة، ستحتاج إلى شراء ترخيص.
+يقدم Aspose.Words for .NET نسخة تجريبية مجانية، والتي يمكنك تنزيلها [هنا](https://releases.aspose.com/)للحصول على الوظائف الكاملة، ستحتاج إلى شراء ترخيص.
 
 ### كيف يمكنني الحصول على الدعم لـ Aspose.Words لـ .NET؟
 
- للحصول على الدعم، يمكنك زيارة[منتدى دعم Aspose.Words](https://forum.aspose.com/c/words/8).
+للحصول على الدعم، يمكنك زيارة [منتدى دعم Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

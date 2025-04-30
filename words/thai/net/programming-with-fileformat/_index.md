@@ -1,14 +1,16 @@
 ---
-title: การประมวลผลคำด้วย Fileformat
-linktitle: การประมวลผลคำด้วย Fileformat
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการทำงานกับรูปแบบไฟล์ใน Aspose.Words สำหรับ .NET บทช่วยสอนจะแนะนำคุณเกี่ยวกับฟีเจอร์ต่างๆ เช่น การตรวจจับรูปแบบไฟล์ การแปลงระหว่างรูปแบบต่างๆ
-weight: 1610
-url: /th/net/programming-with-fileformat/
+"description": "เรียนรู้วิธีการทำงานกับรูปแบบไฟล์ใน Aspose.Words สำหรับ .NET บทช่วยสอนจะแนะนำคุณเกี่ยวกับฟีเจอร์ต่างๆ เช่น การตรวจจับรูปแบบไฟล์ การแปลงระหว่างรูปแบบต่างๆ"
+"linktitle": "การประมวลผลคำด้วย Fileformat"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การประมวลผลคำด้วย Fileformat"
+"url": "/th/net/programming-with-fileformat/"
+"weight": 1610
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การประมวลผลคำด้วย Fileformat
@@ -20,14 +22,19 @@ url: /th/net/programming-with-fileformat/
 ไม่ว่าคุณจะต้องสร้างรายงาน สร้างเอกสารแบบกำหนดเอง ทำงานเอกสาร Word อัตโนมัติ หรือแปลงเอกสารระหว่างรูปแบบต่างๆ บทช่วยสอน Aspose.Words สำหรับ .NET จะให้ความรู้และทักษะแก่คุณเพื่อบรรลุเป้าหมายในการพัฒนาของคุณ
 
  ## บทช่วยสอน
-| ชื่อ | คำอธิบาย |
-| --- | --- |
-| [ตรวจจับรูปแบบไฟล์เอกสาร](./detect-file-format/) | เรียนรู้วิธีตรวจจับรูปแบบไฟล์เอกสารโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้ |
-| [ตรวจจับลายเซ็นดิจิทัลบนเอกสาร Word](./detect-document-signatures/) | เรียนรู้วิธีตรวจจับลายเซ็นดิจิทัลในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนของเรา |
-| [ตรวจสอบเอกสาร Word ที่เข้ารหัส](./verify-encrypted-document/) | เรียนรู้วิธีการตรวจสอบสถานะการเข้ารหัสของเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ |
+| ชื่อเรื่อง | คำอธิบาย |
+-
+- [ตรวจจับรูปแบบไฟล์เอกสาร](./detect-file-format/) | เรียนรู้วิธีตรวจจับรูปแบบไฟล์เอกสารโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้
+- [ตรวจจับลายเซ็นดิจิทัลบนเอกสาร Word](./detect-document-signatures/) | เรียนรู้วิธีการตรวจจับลายเซ็นดิจิทัลในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนของเรา -
+| [ตรวจสอบเอกสาร Word ที่เข้ารหัส](./verify-encrypted-document/) | เรียนรู้วิธีการตรวจสอบสถานะการเข้ารหัสของเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

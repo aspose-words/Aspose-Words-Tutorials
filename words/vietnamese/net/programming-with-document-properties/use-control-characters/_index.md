@@ -1,14 +1,16 @@
 ---
-title: Sử dụng ký tự điều khiển
-linktitle: Sử dụng ký tự điều khiển
-second_title: API xử lý tài liệu Aspose.Words
-description: Khám phá cách tự động hóa các tác vụ tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm thiết lập, thay thế văn bản và nhiều hơn nữa, giúp quy trình làm việc của bạn hiệu quả hơn.
-weight: 10
-url: /vi/net/programming-with-document-properties/use-control-characters/
+"description": "Khám phá cách tự động hóa các tác vụ tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm thiết lập, thay thế văn bản và nhiều hơn nữa, giúp quy trình làm việc của bạn hiệu quả hơn."
+"linktitle": "Sử dụng ký tự điều khiển"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Sử dụng ký tự điều khiển"
+"url": "/vi/net/programming-with-document-properties/use-control-characters/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng ký tự điều khiển
@@ -22,8 +24,8 @@ Sẵn sàng để đắm mình vào thế giới tự động hóa tài liệu? 
 Trước khi bắt đầu phần thú vị, hãy đảm bảo rằng bạn đã có mọi thứ cần thiết:
 
 1. Hiểu biết cơ bản về C#: Bạn không cần phải là chuyên gia C#, nhưng việc biết những kiến thức cơ bản sẽ giúp ích.
-2. .NET Framework đã cài đặt: Đảm bảo bạn đã cài đặt .NET trên máy của mình. Bạn có thể tải xuống từ[Trang web Microsoft .NET](https://dotnet.microsoft.com/download).
-3.  Aspose.Words cho Thư viện .NET: Tải phiên bản mới nhất từ[Trang tải xuống Aspose](https://releases.aspose.com/words/net/).
+2. .NET Framework đã cài đặt: Đảm bảo bạn đã cài đặt .NET trên máy của mình. Bạn có thể tải xuống từ [Trang web Microsoft .NET](https://dotnet.microsoft.com/download).
+3. Aspose.Words cho Thư viện .NET: Tải phiên bản mới nhất từ [Trang tải xuống Aspose](https://releases.aspose.com/words/net/).
 
 ## Nhập không gian tên
 
@@ -55,7 +57,7 @@ Hãy bắt đầu bằng cách tải một tài liệu Word hiện có. Đây c�
 Document doc = new Document("path/to/your/document.docx");
 ```
 
- Dòng mã này tải tài liệu của bạn vào`doc`đối tượng. Hãy nghĩ về việc mở một tệp Word bằng chương trình thay vì bằng tay.
+Dòng mã này tải tài liệu của bạn vào `doc` đối tượng. Hãy nghĩ về việc mở một tệp Word bằng chương trình thay vì bằng tay.
 
 ## Bước 3: Thay thế văn bản trong tài liệu
 
@@ -80,11 +82,11 @@ doc.Range.Replace(oldText, newText, new FindReplaceOptions());
 
 ### Hiểu về các ký tự điều khiển
 
- Các ký tự điều khiển là các ký tự đặc biệt mà bạn có thể muốn thay thế. Ví dụ, hãy thay thế`\r` điều khiển nhân vật với`\r\n`.
+Các ký tự điều khiển là các ký tự đặc biệt mà bạn có thể muốn thay thế. Ví dụ, hãy thay thế `\r` điều khiển nhân vật với `\r\n`.
 
 ### Thay thế các ký tự điều khiển
 
- Đây là mã để thay thế`\r` với`\r\n`:
+Đây là mã để thay thế `\r` với `\r\n`:
 
 ```csharp
 const string text = "test\r";
@@ -113,7 +115,7 @@ Xin chúc mừng! Bạn vừa thực hiện những bước đầu tiên vào th
 Aspose.Words for .NET là thư viện cho phép các nhà phát triển tạo, sửa đổi và chuyển đổi tài liệu Word theo cách lập trình.
 
 ### Tôi có thể sử dụng Aspose.Words miễn phí không?
- Bạn có thể dùng thử miễn phí bằng cách tải xuống[dùng thử miễn phí](https://releases.aspose.com/). Để có đầy đủ tính năng, bạn sẽ cần phải mua giấy phép.
+Bạn có thể dùng thử miễn phí bằng cách tải xuống [dùng thử miễn phí](https://releases.aspose.com/). Để có đầy đủ tính năng, bạn sẽ cần phải mua giấy phép.
 
 ### Aspose.Words có thể xử lý những định dạng nào?
 Nó hỗ trợ nhiều định dạng khác nhau, bao gồm .doc, .docx, .pdf, .html, v.v.
@@ -122,11 +124,16 @@ Nó hỗ trợ nhiều định dạng khác nhau, bao gồm .doc, .docx, .pdf, .
 Kiến thức cơ bản về C# rất hữu ích, nhưng thư viện được thiết kế thân thiện với người dùng cho các nhà phát triển ở mọi cấp độ.
 
 ### Tôi có thể tìm thêm thông tin hoặc nhận hỗ trợ ở đâu?
- Kiểm tra các[Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) hoặc ghé thăm[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8).
+Kiểm tra các [Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) hoặc ghé thăm [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

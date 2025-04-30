@@ -1,14 +1,16 @@
 ---
-title: Dijital İmzaları ve Kimlik Doğruluğunu Yönetme
-linktitle: Dijital İmzaları ve Kimlik Doğruluğunu Yönetme
-second_title: Aspose.Words Python Belge Yönetim API'si
-description: Aspose.Words for Python kullanarak dijital imzaları nasıl yöneteceğinizi ve belge gerçekliğini nasıl sağlayacağınızı öğrenin. Kaynak kodlu adım adım kılavuz.
-weight: 17
-url: /tr/python-net/document-combining-and-comparison/manage-digital-signatures/
+"description": "Aspose.Words for Python kullanarak dijital imzaları nasıl yöneteceğinizi ve belge gerçekliğini nasıl sağlayacağınızı öğrenin. Kaynak kodlu adım adım kılavuz."
+"linktitle": "Dijital İmzaları ve Kimlik Doğruluğunu Yönetme"
+"second_title": "Aspose.Words Python Belge Yönetim API'si"
+"title": "Dijital İmzaları ve Kimlik Doğruluğunu Yönetme"
+"url": "/tr/python-net/document-combining-and-comparison/manage-digital-signatures/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dijital İmzaları ve Kimlik Doğruluğunu Yönetme
@@ -21,7 +23,7 @@ Dijital imzalar, el yazısı imzaların elektronik eşdeğerleri olarak hizmet e
 
 Python için Aspose.Words'ü kullanarak dijital imzaları yönetmeye başlamak için şu adımları izleyin:
 
-1. Aspose.Words'ü yükleyin: Aşağıdaki komutla pip kullanarak Aspose.Words'ü Python'a yükleyebilirsiniz:
+1. Aspose.Words'ü yükleyin: Aşağıdaki komutu kullanarak pip kullanarak Aspose.Words'ü Python'a yükleyebilirsiniz:
    
    ```python
    pip install aspose-words
@@ -103,9 +105,14 @@ Aspose.Words, dijital imzalar için yaygın olarak kullanılan PFX dosyaları da
 ### Dijital imzalar hukuken geçerli midir?
 
 Evet, dijital imzalar birçok ülkede yasal olarak geçerlidir ve çoğu zaman elle atılan imzalarla eşdeğer kabul edilir.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

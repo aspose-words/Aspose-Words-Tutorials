@@ -1,14 +1,16 @@
 ---
-title: Belge Estetiği İçin Filigran Oluşturma ve Biçimlendirme
-linktitle: Belge Estetiği İçin Filigran Oluşturma ve Biçimlendirme
-second_title: Aspose.Words Python Belge Yönetim API'si
-description: Python için Aspose.Words kullanarak belgelerde filigran oluşturmayı ve biçimlendirmeyi öğrenin. Metin ve resim filigranları eklemek için kaynak kodlu adım adım kılavuz. Bu eğitimle belge estetiğinizi geliştirin.
-weight: 10
-url: /tr/python-net/tables-and-formatting/manage-document-watermarks/
+"description": "Python için Aspose.Words kullanarak belgelerde filigran oluşturmayı ve biçimlendirmeyi öğrenin. Metin ve resim filigranları eklemek için kaynak kodlu adım adım kılavuz. Bu eğitimle belge estetiğinizi geliştirin."
+"linktitle": "Belge Estetiği İçin Filigran Oluşturma ve Biçimlendirme"
+"second_title": "Aspose.Words Python Belge Yönetim API'si"
+"title": "Belge Estetiği İçin Filigran Oluşturma ve Biçimlendirme"
+"url": "/tr/python-net/tables-and-formatting/manage-document-watermarks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Estetiği İçin Filigran Oluşturma ve Biçimlendirme
@@ -22,17 +24,17 @@ Filigranlar, ana içeriği engellemeden ek bilgi veya markalama iletmek için be
 
 ## Python için Aspose.Words'e Başlarken
 
- Başlamak için, Python için Aspose.Words'ün yüklü olduğundan emin olun. Bunu Aspose Sürümlerinden indirebilirsiniz:[Python için Aspose.Words'ü indirin](https://releases.aspose.com/words/python/).
+Başlamak için, Python için Aspose.Words'ün yüklü olduğundan emin olun. Bunu Aspose Sürümlerinden indirebilirsiniz: [Python için Aspose.Words'ü indirin](https://releases.aspose.com/words/python/).
 
 Kurulumdan sonra gerekli modülleri içe aktarabilir ve belge nesnesini ayarlayabilirsiniz.
 
 ```python
 import aspose.words as aw
 
-# Load or create a document
+# Bir belge yükleyin veya oluşturun
 doc = aw.Document()
 
-# Your code continues here
+# Kodunuz burada devam ediyor
 ```
 
 ## Metin Filigranları Ekleme
@@ -44,13 +46,13 @@ Metin filigranı eklemek için şu adımları izleyin:
 3. Belgeye filigran ekleyin.
 
 ```python
-# Create a watermark object
+# Bir filigran nesnesi oluşturun
 watermark = aw.drawing.Watermark()
 
-# Set text for the watermark
+# Filigran için metin ayarla
 watermark.text = "Confidential"
 
-# Add the watermark to the document
+# Belgeye filigran ekleyin
 doc.watermark = watermark
 ```
 
@@ -59,7 +61,7 @@ doc.watermark = watermark
 Çeşitli özellikleri ayarlayarak metin filigranının görünümünü özelleştirebilirsiniz:
 
 ```python
-# Customize text watermark appearance
+# Metin filigranı görünümünü özelleştirin
 watermark.font.size = 36
 watermark.font.bold = True
 watermark.color = aw.drawing.Color.GRAY
@@ -74,14 +76,14 @@ Resim filigranı eklemek de benzer bir süreci içerir:
 3. Belgeye resim filigranı ekleyin.
 
 ```python
-# Load the image for the watermark
+# Filigran için görseli yükleyin
 image_path = "path/to/watermark.png"
 watermark_image = aw.drawing.Image(image_path)
 
-# Create an image watermark object
+# Bir resim filigran nesnesi oluşturun
 image_watermark = aw.drawing.ImageWatermark(watermark_image)
 
-# Add the image watermark to the document
+# Belgeye resim filigranı ekleyin
 doc.watermark = image_watermark
 ```
 
@@ -90,7 +92,7 @@ doc.watermark = image_watermark
 Resim filigranının boyutunu ve konumunu kontrol edebilirsiniz:
 
 ```python
-# Adjust image watermark properties
+# Resim filigranı özelliklerini ayarlayın
 image_watermark.size = aw.drawing.SizeF(200, 100)
 image_watermark.relative_horizontal_position = aw.drawing.RelativeHorizontalPosition.CENTER
 image_watermark.relative_vertical_position = aw.drawing.RelativeVerticalPosition.MIDDLE
@@ -101,7 +103,7 @@ image_watermark.relative_vertical_position = aw.drawing.RelativeVerticalPosition
 Belgenin belirli bölümlerine filigran uygulamak istiyorsanız aşağıdaki yaklaşımı kullanabilirsiniz:
 
 ```python
-# Apply watermark to a specific section
+# Belirli bir bölüme filigran uygulayın
 section = doc.sections[0]
 section.watermark = watermark
 ```
@@ -111,8 +113,8 @@ section.watermark = watermark
 Şeffaf bir filigran oluşturmak için şeffaflık düzeyini ayarlayın:
 
 ```python
-# Create a transparent watermark
-watermark.transparency = 0.5  # Range: 0 (opaque) to 1 (fully transparent)
+# Şeffaf bir filigran oluşturun
+watermark.transparency = 0.5  # Aralık: 0 (opak) ila 1 (tamamen şeffaf)
 ```
 
 ## Belgeyi Filigranlarla Kaydetme
@@ -120,7 +122,7 @@ watermark.transparency = 0.5  # Range: 0 (opaque) to 1 (fully transparent)
 Filigranları ekledikten sonra, belgeyi uygulanan filigranlarla birlikte kaydedin:
 
 ```python
-# Save the document with watermarks
+# Belgeyi filigranlarla kaydedin
 output_path = "path/to/output/document_with_watermark.docx"
 doc.save(output_path)
 ```
@@ -133,7 +135,7 @@ Aspose.Words for Python kullanarak belgelerinize filigran eklemek, içeriğinizi
 
 ### Bir belgeden filigranı nasıl kaldırabilirim?
 
- Bir filigranı kaldırmak için belgenin filigran özelliğini şu şekilde ayarlayın:`None`.
+Bir filigranı kaldırmak için belgenin filigran özelliğini şu şekilde ayarlayın: `None`.
 
 ### Farklı sayfalara farklı filigran uygulayabilir miyim?
 
@@ -151,10 +153,15 @@ Filigranlar tam olarak korunamasa da, şeffaflıklarını ve yerleşimlerini aya
 
 Evet, Aspose.Words for Python hem Windows hem de Linux ortamlarıyla uyumludur.
 
- Daha fazla ayrıntı ve kapsamlı API referansları için Aspose.Words belgelerini ziyaret edin:[Aspose.Words for Python API Referansları](https://reference.aspose.com/words/python-net/)
+Daha fazla ayrıntı ve kapsamlı API referansları için Aspose.Words belgelerini ziyaret edin: [Aspose.Words for Python API Referansları](https://reference.aspose.com/words/python-net/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

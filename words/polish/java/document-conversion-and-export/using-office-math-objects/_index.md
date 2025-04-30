@@ -1,20 +1,22 @@
 ---
-title: Korzystanie z obiektów Office Math w Aspose.Words dla Java
-linktitle: Korzystanie z obiektów matematycznych pakietu Office
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Odblokuj moc równań matematycznych w dokumentach dzięki Aspose.Words dla Java. Naucz się manipulować i wyświetlać obiekty Office Math bez wysiłku.
-weight: 13
-url: /pl/java/document-conversion-and-export/using-office-math-objects/
+"description": "Odblokuj moc równań matematycznych w dokumentach dzięki Aspose.Words dla Java. Naucz się manipulować i wyświetlać obiekty Office Math bez wysiłku."
+"linktitle": "Korzystanie z obiektów matematycznych pakietu Office"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Korzystanie z obiektów Office Math w Aspose.Words dla Java"
+"url": "/pl/java/document-conversion-and-export/using-office-math-objects/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie z obiektów Office Math w Aspose.Words dla Java
 
 
-## Wprowadzenie do korzystania z obiektów Office Math w Aspose.Words dla Java
+## Wprowadzenie do korzystania z obiektów Office Math w Aspose.Words dla języka Java
 
 W dziedzinie przetwarzania dokumentów w Javie Aspose.Words jest niezawodnym i potężnym narzędziem. Jednym z jego mniej znanych klejnotów jest możliwość pracy z obiektami Office Math. W tym kompleksowym przewodniku zagłębimy się w to, jak wykorzystać obiekty Office Math w Aspose.Words dla Javy do manipulowania i wyświetlania równań matematycznych w dokumentach. 
 
@@ -27,7 +29,7 @@ Zanim przejdziemy do zawiłości pracy z Office Math w Aspose.Words for Java, up
 
 ## Zrozumienie obiektów matematycznych w biurze
 
-Obiekty Office Math służą do reprezentowania równań matematycznych w dokumencie. Aspose.Words for Java zapewnia solidne wsparcie dla Office Math, umożliwiając sterowanie ich wyświetlaniem i formatowaniem. 
+Obiekty Office Math służą do reprezentowania równań matematycznych w dokumencie. Aspose.Words for Java zapewnia solidne wsparcie dla Office Math, umożliwiając kontrolowanie ich wyświetlania i formatowania. 
 
 ## Przewodnik krok po kroku
 
@@ -51,7 +53,7 @@ OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true)
 
 ### Ustaw typ wyświetlania
 
- Możesz kontrolować sposób wyświetlania równania w dokumencie. Użyj`setDisplayType` metoda określająca, czy ma być wyświetlany w linii z tekstem czy w jego wierszu:
+Możesz kontrolować sposób wyświetlania równania w dokumencie. Użyj `setDisplayType` metoda określająca, czy ma być wyświetlany w linii z tekstem czy w jego wierszu:
 
 ```java
 officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
@@ -96,7 +98,7 @@ Obiekty Office Math w Aspose.Words dla Java umożliwiają reprezentację i manip
 
 ### Czy mogę inaczej uporządkować równania programu Office Math w moim dokumencie?
 
- Tak, możesz kontrolować wyrównanie równań Office Math. Użyj`setJustification`metoda umożliwiająca określenie opcji wyrównania, takich jak wyrównanie do lewej, do prawej lub do środka.
+Tak, możesz kontrolować wyrównanie równań Office Math. Użyj `setJustification` metoda umożliwiająca określenie opcji wyrównania, takich jak wyrównanie do lewej, do prawej lub do środka.
 
 ### Czy Aspose.Words for Java nadaje się do obsługi złożonych dokumentów matematycznych?
 
@@ -104,14 +106,19 @@ Oczywiście! Aspose.Words for Java jest dobrze przystosowany do obsługi złożo
 
 ### Jak mogę dowiedzieć się więcej o Aspose.Words dla Java?
 
- Aby uzyskać pełną dokumentację i pliki do pobrania, odwiedź stronę[Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/).
+Aby uzyskać pełną dokumentację i pliki do pobrania, odwiedź stronę [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/).
 
 ### Gdzie mogę pobrać Aspose.Words dla Java?
 
- Możesz pobrać Aspose.Words dla Java ze strony internetowej:[Pobierz Aspose.Words dla Java](https://releases.aspose.com/words/java/).
+Możesz pobrać Aspose.Words dla Java ze strony internetowej: [Pobierz Aspose.Words dla Java](https://releases.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

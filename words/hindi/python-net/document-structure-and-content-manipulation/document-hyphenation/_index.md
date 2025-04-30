@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ों में हाइफ़नेशन और टेक्स्ट प्रवाह का प्रबंधन करना
-linktitle: वर्ड दस्तावेज़ों में हाइफ़नेशन और टेक्स्ट प्रवाह का प्रबंधन करना
-second_title: Aspose.Words पायथन दस्तावेज़ प्रबंधन API
-description: Python के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में हाइफ़नेशन और टेक्स्ट फ़्लो को प्रबंधित करना सीखें। चरण-दर-चरण उदाहरणों और स्रोत कोड के साथ पॉलिश किए गए, पाठक-अनुकूल दस्तावेज़ बनाएँ।
-weight: 17
-url: /hi/python-net/document-structure-and-content-manipulation/document-hyphenation/
+"description": "Python के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में हाइफ़नेशन और टेक्स्ट फ़्लो को प्रबंधित करना सीखें। चरण-दर-चरण उदाहरणों और स्रोत कोड के साथ पॉलिश किए गए, पाठक-अनुकूल दस्तावेज़ बनाएँ।"
+"linktitle": "वर्ड दस्तावेज़ों में हाइफ़नेशन और टेक्स्ट प्रवाह का प्रबंधन करना"
+"second_title": "Aspose.Words पायथन दस्तावेज़ प्रबंधन API"
+"title": "वर्ड दस्तावेज़ों में हाइफ़नेशन और टेक्स्ट प्रवाह का प्रबंधन करना"
+"url": "/hi/python-net/document-structure-and-content-manipulation/document-hyphenation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ों में हाइफ़नेशन और टेक्स्ट प्रवाह का प्रबंधन करना
@@ -110,13 +112,13 @@ Aspose.Words आपको अपने डिज़ाइन की ज़रू
 
 हाइफ़नेशन और टेक्स्ट फ़्लो को कुशलतापूर्वक प्रबंधित करना पॉलिश और पाठक-अनुकूल Word दस्तावेज़ बनाने के लिए आवश्यक है। Aspose.Words for Python के साथ, आपके पास हाइफ़नेशन रणनीतियों को लागू करने, टेक्स्ट फ़्लो को नियंत्रित करने और समग्र दस्तावेज़ सौंदर्यशास्त्र को बढ़ाने के लिए उपकरण हैं।
 
- अधिक विस्तृत जानकारी और उदाहरणों के लिए, देखें[एपीआई दस्तावेज़ीकरण](https://reference.aspose.com/words/python-net/).
+अधिक विस्तृत जानकारी और उदाहरणों के लिए, देखें [एपीआई दस्तावेज़ीकरण](https://reference.aspose.com/words/python-net/).
 
 ## पूछे जाने वाले प्रश्न
 
 ### मैं अपने दस्तावेज़ में स्वचालित हाइफ़नेशन कैसे सक्षम करूँ?
 
- स्वचालित हाइफ़नेशन सक्षम करने के लिए, सेट करें`auto_hyphenation` विकल्प`True` पायथन के लिए Aspose.Words का उपयोग करना।
+स्वचालित हाइफ़नेशन सक्षम करने के लिए, सेट करें `auto_hyphenation` विकल्प `True` पायथन के लिए Aspose.Words का उपयोग करना।
 
 ### क्या मैं मैन्युअल रूप से नियंत्रित कर सकता हूं कि कोई शब्द कहां टूटता है?
 
@@ -124,7 +126,7 @@ Aspose.Words आपको अपने डिज़ाइन की ज़रू
 
 ### मैं बेहतर पठनीयता के लिए पंक्ति रिक्ति को कैसे समायोजित कर सकता हूँ?
 
-पंक्तियों के बीच अंतर को समायोजित करने के लिए Aspose.Words for Python में लाइन स्पेसिंग सेटिंग्स का उपयोग करें।
+पंक्तियों के बीच अंतराल को समायोजित करने के लिए Aspose.Words for Python में पंक्ति अंतराल सेटिंग्स का उपयोग करें।
 
 ### मुझे अपने दस्तावेज़ में विधवाओं और अनाथों को शामिल होने से रोकने के लिए क्या करना चाहिए?
 
@@ -132,11 +134,16 @@ Aspose.Words आपको अपने डिज़ाइन की ज़रू
 
 ### मैं पायथन के लिए Aspose.Words दस्तावेज़ कहां से प्राप्त कर सकता हूं?
 
- आप API दस्तावेज़न तक यहां पहुंच सकते हैं[https://reference.aspose.com/words/python-net/](https://reference.aspose.com/words/python-net/).
+आप API दस्तावेज़न तक यहां पहुंच सकते हैं [https://reference.aspose.com/words/python-net/](https://reference.aspose.com/words/python-net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

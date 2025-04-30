@@ -1,14 +1,16 @@
 ---
-title: Tablo İşleme Kolaylaştırıldı
-linktitle: Tablo İşleme
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Java geliştiricileri için Aspose.Word for Java kullanarak güçlü tablo işleme API'sini öğrenin. Word belgelerinde tablolar oluşturun, düzenleyin ve biçimlendirin. Belge işleme uygulamalarınızı bugün geliştirin.
-weight: 11
-url: /tr/java/table-processing/
+"description": "Java geliştiricileri için Aspose.Word for Java kullanarak güçlü tablo işleme API'sini öğrenin. Word belgelerinde tablolar oluşturun, düzenleyin ve biçimlendirin. Belge işleme uygulamalarınızı bugün geliştirin."
+"linktitle": "Tablo İşleme"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Tablo İşleme Kolaylaştırıldı"
+"url": "/tr/java/table-processing/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tablo İşleme Kolaylaştırıldı
@@ -44,10 +46,14 @@ Aspose.Words for Java kullanarak belgelerde tablo ve satır oluşturmayı öğre
 ### [Belgelerdeki Tabloları Biçimlendirme](./formatting-tables/)
 Aspose.Words for Java kullanarak belgelerdeki tabloları biçimlendirme sanatında ustalaşın. Kesin tablo biçimlendirmesi için adım adım kılavuzu ve kaynak kodu örneklerini keşfedin.
 ### [İçindekiler Üretimi](./table-contents-generation/)
-Java için Aspose.Words kullanarak dinamik İçindekiler Tablosu oluşturmayı öğrenin. Adım adım rehberlik ve kaynak kodu örnekleriyle İçindekiler Tablosu oluşturma konusunda ustalaşın.
+Java için Aspose.Words kullanarak dinamik İçindekiler Tablosu oluşturmayı öğrenin. Adım adım rehberlik ve kaynak kodu örnekleriyle İçindekiler Tablosu oluşturma konusunda uzmanlaşın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Eksportuj strukturę dokumentu Word do dokumentu PDF
-linktitle: Eksportuj strukturę dokumentu Word do dokumentu PDF
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Eksportuj strukturę dokumentu Word do pliku PDF za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zachować układ dokumentu i poprawić nawigację w pliku PDF.
-weight: 10
-url: /pl/net/programming-with-pdfsaveoptions/export-document-structure/
+"description": "Eksportuj strukturę dokumentu Word do pliku PDF za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zachować układ dokumentu i poprawić nawigację w pliku PDF."
+"linktitle": "Eksportuj strukturę dokumentu Word do dokumentu PDF"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Eksportuj strukturę dokumentu Word do dokumentu PDF"
+"url": "/pl/net/programming-with-pdfsaveoptions/export-document-structure/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Eksportuj strukturę dokumentu Word do dokumentu PDF
@@ -21,9 +23,9 @@ Poruszanie się po świecie manipulacji dokumentami może czasami przypominać b
 
 Zanim wyruszymy w tę podróż, zbierzmy wszystkie niezbędne rzeczy, których będziesz potrzebować.
 
-- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Jeśli nie, możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Jeśli nie, możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: środowisko programistyczne zgodne z technologią .NET, np. Visual Studio.
--  Przykładowy dokument: Dokument Word (np.`Paragraphs.docx`) który przekonwertujesz do formatu PDF.
+- Przykładowy dokument: Dokument Word (np. `Paragraphs.docx`) który przekonwertujesz do formatu PDF.
 
 ## Importuj przestrzenie nazw
 
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Krok 2: Załaduj dokument Word
 
- Następnie musimy załadować dokument Word, który chcemy przekonwertować na PDF. W tym przykładzie użyjemy pliku o nazwie`Paragraphs.docx`.
+Następnie musimy załadować dokument Word, który chcemy przekonwertować na PDF. W tym przykładzie użyjemy pliku o nazwie `Paragraphs.docx`.
 
 ```csharp
 Document doc = new Document(dataDir + "Paragraphs.docx");
@@ -54,7 +56,7 @@ Document doc = new Document(dataDir + "Paragraphs.docx");
 
 ## Krok 3: Skonfiguruj opcje zapisywania pliku PDF
 
- Aby wyeksportować strukturę dokumentu, musimy skonfigurować opcje zapisu PDF. Wiąże się to z ustawieniem`ExportDocumentStructure`nieruchomość do`true`Dzięki temu struktura dokumentu będzie widoczna w panelu nawigacyjnym „Treść” programu Adobe Acrobat Pro.
+Aby wyeksportować strukturę dokumentu, musimy skonfigurować opcje zapisu PDF. Wiąże się to z ustawieniem `ExportDocumentStructure` nieruchomość do `true`. Dzięki temu struktura dokumentu będzie widoczna w panelu nawigacyjnym „Treść” programu Adobe Acrobat Pro.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions
@@ -81,19 +83,24 @@ Gratulacje! Udało Ci się wyeksportować strukturę dokumentu Word do pliku PDF
 Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programistom programistyczne tworzenie, edycję, konwertowanie i manipulowanie dokumentami Word.
 
 ### Czy mogę wyeksportować inne funkcje dokumentu Word do pliku PDF?
-Tak, Aspose.Words dla .NET oferuje różne opcje eksportowania funkcji, takich jak zakładki, hiperłącza i inne, do pliku PDF.
+Tak, Aspose.Words dla .NET oferuje różne opcje eksportowania do pliku PDF takich funkcji, jak zakładki, hiperłącza i inne.
 
 ### Czy można zautomatyzować ten proces?
 Oczywiście! Możesz zautomatyzować ten proces za pomocą skryptów i przetwarzania wsadowego w swoim środowisku programistycznym.
 
 ### Jak mogę otrzymać bezpłatną wersję próbną Aspose.Words dla .NET?
- Możesz otrzymać bezpłatną wersję próbną[Strona internetowa Aspose](https://releases.aspose.com/).
+Możesz otrzymać bezpłatną wersję próbną [Strona internetowa Aspose](https://releases.aspose.com/).
 
 ### Co powinienem zrobić, jeśli napotkam problemy?
- Możesz szukać pomocy u[Forum wsparcia Aspose](https://forum.aspose.com/c/words/8).
+Możesz szukać pomocy u [Forum wsparcia Aspose](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

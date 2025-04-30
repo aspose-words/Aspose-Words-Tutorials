@@ -1,14 +1,16 @@
 ---
-title: Mengekstrak dan Memodifikasi Konten dalam Dokumen Word
-linktitle: Mengekstrak dan Memodifikasi Konten dalam Dokumen Word
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari cara mengekstrak dan mengubah konten dalam dokumen Word menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber.
-weight: 10
-url: /id/python-net/content-extraction-and-manipulation/extract-modify-document-content/
+"description": "Pelajari cara mengekstrak dan mengubah konten dalam dokumen Word menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber."
+"linktitle": "Mengekstrak dan Memodifikasi Konten dalam Dokumen Word"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Mengekstrak dan Memodifikasi Konten dalam Dokumen Word"
+"url": "/id/python-net/content-extraction-and-manipulation/extract-modify-document-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengekstrak dan Memodifikasi Konten dalam Dokumen Word
@@ -58,7 +60,7 @@ run.get_font().set_color(255, 0, 0)
 
 ## Mengganti Teks
 
- Penggantian teks dapat dilakukan dengan menggunakan`replace` metode:
+Penggantian teks dapat dilakukan dengan menggunakan `replace` metode:
 
 ```python
 doc.get_range().replace("old_text", "new_text", False, False)
@@ -66,7 +68,7 @@ doc.get_range().replace("old_text", "new_text", False, False)
 
 ## Menambahkan dan Memodifikasi Gambar
 
- Gambar dapat ditambahkan atau diganti menggunakan`insert_image` metode:
+Gambar dapat ditambahkan atau diganti menggunakan `insert_image` metode:
 
 ```python
 shape = doc.get_first_section().get_body().append_child(asposewords.Drawing.Shape(doc, asposewords.Drawing.ShapeType.IMAGE))
@@ -103,12 +105,12 @@ header.get_paragraphs().add("Header content")
 
 ## Menambahkan Hyperlink
 
- Hyperlink dapat ditambahkan menggunakan`insert_hyperlink` metode:
+Hyperlink dapat ditambahkan menggunakan `insert_hyperlink` metode:
 
 ```python
 run = doc.get_first_section().get_body().get_first_paragraph().get_runs().get(0)
 run.get_font().set_color(0, 0, 255)
-doc.get_hyperlinks().add(run, "https://www.contoh.com")
+doc.get_hyperlinks().add(run, "https://www.example.com")
 ```
 
 ## Mengonversi ke Format Lain
@@ -131,7 +133,7 @@ Aspose.Words untuk Python adalah pustaka serbaguna yang memungkinkan Anda memani
 
 ### Bagaimana cara menginstal Aspose.Words untuk Python?
 
- Untuk menginstal Aspose.Words untuk Python, gunakan perintah`pip install aspose-words`.
+Untuk menginstal Aspose.Words untuk Python, gunakan perintah `pip install aspose-words`.
 
 ### Bisakah saya mengubah format teks menggunakan pustaka ini?
 
@@ -139,18 +141,23 @@ Ya, Anda dapat mengubah format teks, seperti tebal, warna, dan ukuran font, meng
 
 ### Apakah mungkin untuk mengganti teks tertentu dalam dokumen?
 
- Tentu saja, Anda dapat menggunakan`replace` metode untuk mengganti teks tertentu dalam dokumen.
+Tentu saja, Anda dapat menggunakan `replace` metode untuk mengganti teks tertentu dalam dokumen.
 
 ### Bisakah saya menambahkan hyperlink ke dokumen Word saya?
 
- Tentu saja, Anda dapat menambahkan hyperlink ke dokumen Anda menggunakan`insert_hyperlink` metode yang disediakan oleh Aspose.Words.
+Tentu saja, Anda dapat menambahkan hyperlink ke dokumen Anda menggunakan `insert_hyperlink` metode yang disediakan oleh Aspose.Words.
 
 ### Format apa lagi yang dapat saya ubah ke dokumen Word saya?
 
 Aspose.Words mendukung konversi ke berbagai format seperti PDF, HTML, EPUB, dan banyak lagi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

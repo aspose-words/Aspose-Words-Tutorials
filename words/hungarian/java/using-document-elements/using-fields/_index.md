@@ -1,32 +1,34 @@
 ---
-title: Mezők használata az Aspose.Words for Java-ban
-linktitle: Mezők használata
-second_title: Aspose.Words Java Document Processing API
-description: Tanulja meg az Aspose.Words for Java mezők hatékony használatát ebben a lépésről lépésre mutató oktatóanyagban. Dinamikus Word dokumentumokat hozhat létre könnyedén.
-weight: 11
-url: /hu/java/using-document-elements/using-fields/
+"description": "Tanuld meg az Aspose.Words hatékony használatát Java mezőkhöz ebben a lépésről lépésre bemutató oktatóanyagban. Hozz létre dinamikus Word dokumentumokat könnyedén."
+"linktitle": "Mezők használata"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Mezők használata az Aspose.Words fájlban Java-ban"
+"url": "/hu/java/using-document-elements/using-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mezők használata az Aspose.Words for Java-ban
+# Mezők használata az Aspose.Words fájlban Java-ban
 
 
-Ebben a lépésenkénti oktatóanyagban bemutatjuk, hogyan használhatja az Aspose.Words for Java mezőit a dokumentumok egyszerű kezeléséhez. Az Aspose.Words for Java egy hatékony API, amely lehetővé teszi a Word-dokumentumok programozott kezelését, így teljes ellenőrzést biztosít a tartalom és a formázás felett.
+Ebben a lépésről lépésre bemutatóban bemutatjuk, hogyan használhatod az Aspose.Words for Java mezőit a dokumentumok egyszerű kezeléséhez. Az Aspose.Words for Java egy hatékony API, amely lehetővé teszi a Word dokumentumok programozott kezelését, teljes kontrollt biztosítva azok tartalmi és formázási szintje felett.
 
 ## 1. Bevezetés
 
-Az Aspose.Words for Java alapvető eszköz azoknak, akik Word dokumentumokkal foglalkoznak Java alkalmazásokban. A mezők olyan helyőrzők, amelyek dinamikus adatokat tárolhatnak a dokumentumban. Ez az oktatóanyag megmutatja, hogyan kell hatékonyan dolgozni a mezőkkel.
+Az Aspose.Words for Java egy nélkülözhetetlen eszköz mindazok számára, akik Word dokumentumokkal dolgoznak Java alkalmazásokban. A mezők helyőrzők, amelyek dinamikus adatokat tárolhatnak a dokumentumban. Ez az oktatóanyag bemutatja, hogyan dolgozhat hatékonyan a mezőkkel.
 
 ## 2. A környezet beállítása
 
- Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Words for Java telepítve van. Letöltheti innen[itt](https://releases.aspose.com/words/java/). Győződjön meg arról is, hogy Java és integrált fejlesztői környezet (IDE), például az Eclipse vagy az IntelliJ IDEA telepítve van a rendszerére.
+Mielőtt elkezdenéd, győződj meg róla, hogy telepítve van az Aspose.Words for Java. Letöltheted innen: [itt](https://releases.aspose.com/words/java/)Győződjön meg arról is, hogy a rendszerén telepítve van a Java és egy integrált fejlesztői környezet (IDE), például az Eclipse vagy az IntelliJ IDEA.
 
 ## 3. Word dokumentum betöltése
 
-A Java alkalmazásban be kell töltenie azt a Word dokumentumot, amellyel dolgozni szeretne. Íme egy kódrészlet a kezdéshez:
+A Java alkalmazásodban be kell töltened a Word dokumentumot, amellyel dolgozni szeretnél. Íme egy kódrészlet a kezdéshez:
 
 ```java
 string dataDir = "Your Document Directory";
@@ -34,17 +36,17 @@ string outPath = "Your Output Directory";
 Document doc = new Document(dataDir + "Mail merge destinations - Fax.docx");
 ```
 
- Cserélje ki`"Your Document Directory"` és`"Your Output Directory"` a megfelelő utakkal.
+Csere `"Your Document Directory"` és `"Your Output Directory"` a megfelelő útvonalakkal.
 
-## 4. A körlevél testreszabása
+## 4. Körlevél testreszabása
 
-Az Aspose.Words for Java kiváló támogatást nyújt a körlevél-műveletekhez. A körlevél-eseménykezelő beállításával testreszabhatja a körlevél-összevonási folyamatot. Íme, hogyan kell csinálni:
+Az Aspose.Words for Java kiváló támogatást nyújt a körlevelezési műveletekhez. A körlevelezési folyamatot testreszabhatja egy körlevelezési eseménykezelő beállításával. Íme, hogyan teheti meg:
 
 ```java
-// Az egyéni munka elvégzéséhez állítsa be a körlevél-eseménykezelőt.
+// Körlevél eseménykezelő beállítása az egyéni feladatok elvégzéséhez.
 doc.getMailMerge().setFieldMergingCallback(new HandleMergeField());
 
-// Vágja le a záró és kezdő szóközöket a körlevél-összevont értékeket.
+// A körlevelek értékeinek kezdő és záró szóközeinek levágása.
 doc.getMailMerge().setTrimWhitespaces(false);
 
 String[] fieldNames = {
@@ -68,16 +70,16 @@ A dokumentum testreszabása után a következő kóddal mentheti el:
 doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 ```
 
- Cserélje ki`"Your Output Directory"` a kívánt kimeneti útvonallal.
+Csere `"Your Output Directory"` a kívánt kimeneti útvonallal.
 
 ## Teljes forráskód
 ```java
 string dataDir = "Your Document Directory";
 string outPath = "Your Output Directory";
 Document doc = new Document(dataDir + "Mail merge destinations - Fax.docx");
-// Az egyéni munka elvégzéséhez állítsa be a körlevél-eseménykezelőt.
+// Körlevél eseménykezelő beállítása az egyéni feladatok elvégzéséhez.
 doc.getMailMerge().setFieldMergingCallback(new HandleMergeField());
-// Vágja le a záró és kezdő szóközöket a körlevél-összevont értékeket.
+// A körlevelek értékeinek kezdő és záró szóközeinek levágása.
 doc.getMailMerge().setTrimWhitespaces(false);
 String[] fieldNames = {
 	"RecipientName", "SenderName", "FaxNumber", "PhoneNumber",
@@ -90,23 +92,23 @@ Object[] fieldValues = {
 doc.getMailMerge().execute(fieldNames, fieldValues);
 doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 ```
-A Class HandleMergeField forráskódja
+A HandleMergeField osztály forráskódja
 
 ```java
     private static class HandleMergeField implements IFieldMergingCallback
     {
         /// <összefoglaló>
-        /// Ez a kezelő minden, a dokumentumban található körlevél mezőhöz meghívásra kerül,
-        /// az adatforrásban talált minden rekordra.
-        /// </summary>
+        /// Ez a kezelő a dokumentumban található összes körlevelező mezőhöz meghívódik,
+        /// az adatforrásban található minden rekordhoz.
+        /// </összefoglaló>
         public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
         {
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
-            // Úgy döntöttünk, hogy az összes logikai értéket jelölőnégyzet űrlapmezőként akarjuk kiadni.
-            if (e.getFieldValue() instanceof /*boolean*/Boolean)
+            // Úgy döntöttünk, hogy minden logikai értéket jelölőnégyzet űrlapmezőként szeretnénk kimenetként megjeleníteni.
+            if (e.getFieldValue() instanceof /*logikai érték*/Boolean)
             {
-                // Vigye a „kurzort” az aktuális egyesítési mezőre.
+                // Vigye a "kurzort" az aktuális egyesítési mezőre.
                 mBuilder.moveToMergeField(e.getFieldName());
                 String checkBoxName = MessageFormat.format("{0}{1}", e.getFieldName(), e.getRecordIndex());
                 mBuilder.insertCheckBox(checkBoxName, (Boolean) e.getFieldValue(), 0);
@@ -140,9 +142,12 @@ A Class HandleMergeField forráskódja
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        builder.writeln("{{#foreach example}}");
-        builder.writeln("{{Image(126pt;126pt):stempel}}");
-        builder.writeln("{{/foreach example}}");
+        builder.writeln("
+{{#foreach example}}");
+        builder.writeln("
+{{Image(126pt;126pt):stempel}}");
+        builder.writeln("
+{{/foreach example}}");
         doc.getMailMerge().setUseNonMergeFields(true);
         doc.getMailMerge().setTrimWhitespaces(true);
         doc.getMailMerge().setUseWholeParagraphAsRegion(false);
@@ -158,7 +163,7 @@ A Class HandleMergeField forráskódja
     {
         public void fieldMerging(FieldMergingArgs args)
         {
-            // A megvalósítás nem szükséges.
+            //  A megvalósítás nem szükséges.
         }
         public void imageFieldMerging(ImageFieldMergingArgs args) throws Exception
         {
@@ -209,20 +214,20 @@ A Class HandleMergeField forráskódja
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        // Szúrjon be egy MERGEFIELD értéket egy IF mezőbe.
-        // Mivel az IF mező utasítása hamis, a belső MERGEFIELD eredménye nem jelenik meg,
-        //és a MERGEFIELD nem kap semmilyen adatot a körlevél-összevonás során.
+        // Szúrjon be egy HA mezőbe beágyazott MERGEFIELD mezőt.
+        // Mivel az IF mező utasítás hamis, a belső MERGEFIELD eredménye nem jelenik meg,
+        // és a MERGEFIELD nem fog semmilyen adatot fogadni körlevelezés közben.
         FieldIf fieldIf = (FieldIf)builder.insertField(" IF 1 = 2 ");
         builder.moveTo(fieldIf.getSeparator());
         builder.insertField(" MERGEFIELD  FullName ");
-        // A hamis állítású IF mezőkben továbbra is megszámolhatjuk a MERGEFIELD-eket, ha ezt a jelzőt igazra állítjuk.
+        // Továbbra is számolhatjuk a MERGEFIELD-eket a hamis utasítású IF mezőkön belül, ha ezt a jelzőt igazra állítjuk.
         doc.getMailMerge().setUnconditionalMergeFieldsAndRegions(true);
         DataTable dataTable = new DataTable();
         dataTable.getColumns().add("FullName");
         dataTable.getRows().add("James Bond");
         doc.getMailMerge().execute(dataTable);
         // Az eredmény nem lesz látható a dokumentumban, mert az IF mező hamis,
-        // de a belső MERGEFIELD valóban kapott adatokat.
+        // de a belső MERGEFIELD valóban fogadott adatokat.
         doc.save("Your Directory Path" + "WorkingWithFields.MailMergeAndConditionalField.docx");
     }
     @Test
@@ -231,7 +236,7 @@ A Class HandleMergeField forráskódja
         Document doc = new Document("Your Directory Path" + "Mail merge destination - Northwind employees.docx");
         doc.getMailMerge().setFieldMergingCallback(new HandleMergeImageFieldFromBlob());
         Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
-        String connString = "jdbc:ucanaccess://" + getDatabaseDir() + "Northwind.mdb";
+        String connString = "jdbc:ucanaccess://" + getAdatbázisDir() + "Northwind.mdb";
         Connection connection = DriverManager.getConnection(connString, "Admin", "");
         Statement statement = connection.createStatement();
         ResultSet resultSet = statement.executeQuery("SELECT * FROM Employees");
@@ -248,14 +253,14 @@ A Class HandleMergeField forráskódja
             // Ne csinálj semmit.
         }
         /// <összefoglaló>
-        /// Ezt akkor hívják meg, ha a körlevél-motor az Image:XXX egyesítési mezővel találkozik a dokumentumban.
-        /// Lehetősége van visszaadni egy Image objektumot, fájlnevet vagy olyan adatfolyamot, amely tartalmazza a képet.
-        /// </summary>
+        /// Ez akkor hívódik meg, amikor a körzetválasztó motor a dokumentumban a „Kép:XXX” mezőre bukkan.
+        /// Lehetőséged van egy Image objektum, fájlnév vagy a képet tartalmazó stream visszaadására.
+        /// </összefoglaló>
         public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs e) throws Exception
         {
-            // A mező értéke egy bájttömb, csak öntsd át, és hozz létre egy adatfolyamot rajta.
+            // A mező értéke egy bájt tömb, csak konvertáld, és hozz létre rajta egy streamet.
             ByteArrayInputStream imageStream = new ByteArrayInputStream((byte[]) e.getFieldValue());
-            // Most a körlevél-motor lekéri a képet az adatfolyamból.
+            // A körzetösszetevő-motor mostantól lekéri a képet a streamből.
             e.setImageStream(imageStream);
         }
     }
@@ -301,21 +306,21 @@ A Class HandleMergeField forráskódja
     private static class HandleMergeFieldAlternatingRows implements IFieldMergingCallback
     {
         /// <összefoglaló>
-        /// A dokumentumban talált összes egyesítési mező esetén meghívva.
-        /// Valamilyen adatot visszaadhatunk a körlevél-motorba, vagy tehetünk mást a dokumentummal.
-        /// Ebben az esetben módosítjuk a cella formázását.
-        /// </summary>
+        /// A dokumentumban található összes egyesítési mezőre meghívódik.
+        /// Visszaadhatunk néhány adatot a körlevelező motornak, vagy valami mást csinálhatunk a dokumentummal.
+        /// Ebben az esetben módosítjuk a cellaformázást.
+        /// </összefoglaló>
         public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e)
         {
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
             if ("CompanyName".equals(e.getFieldName()))
             {
-                // Válassza ki a színt attól függően, hogy a sorszám páros vagy páratlan.
+                // Válassza ki a színt attól függően, hogy a sor száma páros vagy páratlan.
                 Color rowColor = isOdd(mRowIdx) 
                     ? new Color((213), (227), (235)) 
                     : new Color((242), (242), (242));
-                //Jelenleg nincs mód az egész sor cellatulajdonságainak megadására, ezért a sor összes celláján át kell iterálni.
+                // Jelenleg nincs mód a teljes sor cellatulajdonságainak beállítására, ezért a sor összes celláján végig kell mennünk.
                 for (int colIdx = 0; colIdx < 4; colIdx++)
                 {
                     mBuilder.moveToCell(0, mRowIdx, colIdx, 0);
@@ -332,16 +337,16 @@ A Class HandleMergeField forráskódja
         private int mRowIdx;
     }
     /// <összefoglaló>
-    /// Igazat ad vissza, ha az érték páratlan; false, ha az érték páros.
-    /// </summary>
+    /// Igaz értéket ad vissza, ha az érték páratlan; hamis értéket, ha az érték páros.
+    /// </összefoglaló>
     private static boolean isOdd(int value)
     {
         return (value / 2 * 2) == value;
     }
     /// <összefoglaló>
-    /// Hozzon létre DataTable-t és töltse fel adatokkal.
-    /// A való életben ezt a DataTable-t adatbázisból kell kitölteni.
-    /// </summary>
+    /// Hozz létre egy adattáblát és töltsd fel adatokkal.
+    /// A való életben ezt az adattáblát egy adatbázisból kellene kitölteni.
+    /// </összefoglaló>
     private DataTable getSuppliersDataTable()
     {
         DataTable dataTable = new DataTable("Suppliers");
@@ -361,31 +366,36 @@ A Class HandleMergeField forráskódja
 
 ## 6. Következtetés
 
-Gratulálok! Megtanulta az Aspose.Words for Java mezőinek használatát a Word dokumentumok dinamikus kezeléséhez. Ez a hatékony API teljes ellenőrzést biztosít a dokumentumok felett, így értékes eszköz a Java-fejlesztők számára.
+Gratulálunk! Megtanultad, hogyan használhatod az Aspose.Words for Java mezőit a Word dokumentumok dinamikus kezeléséhez. Ez a hatékony API teljes kontrollt biztosít a dokumentumaid felett, így értékes eszköz a Java fejlesztők számára.
 
 ## 7. GYIK
 
-### 1. kérdés: Honnan tölthetem le az Aspose.Words for Java programot?
- Az Aspose.Words for Java letölthető innen:[itt](https://releases.aspose.com/words/java/).
+### 1. kérdés: Hol tudom letölteni az Aspose.Words programot Java-hoz?
+Az Aspose.Words Java-hoz letölthető innen: [itt](https://releases.aspose.com/words/java/).
 
-### 2. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.Words for Java számára?
- Ideiglenes jogosítványt szerezhet be[itt](https://purchase.aspose.com/temporary-license/).
+### 2. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.Words for Java-hoz?
+Ideiglenes jogosítványt igényelhetsz [itt](https://purchase.aspose.com/temporary-license/).
 
 ### 3. kérdés: Hol kaphatok támogatást az Aspose.Words for Java-hoz?
- Támogatásért keresse fel az Aspose.Words fórumot[itt](https://forum.aspose.com/).
+Támogatásért látogassa meg az Aspose.Words fórumot [itt](https://forum.aspose.com/).
 
-### 4. kérdés: Az Aspose.Words for Java alkalmas Word dokumentumok HTML-tartalmának kezelésére?
-Igen, az Aspose.Words for Java kiváló támogatást nyújt a Word dokumentumok HTML-tartalmának kezelésére.
+### 4. kérdés: Alkalmas-e az Aspose.Words for Java HTML-tartalom kezelésére Word-dokumentumokban?
+Igen, az Aspose.Words for Java kiváló támogatást nyújt a HTML-tartalom kezeléséhez a Word dokumentumokban.
 
-### 5. kérdés: Használhatom ingyenesen az Aspose.Words for Java programot?
- Az Aspose.Words for Java kereskedelmi termék, de ingyenes próbaverzióval felfedezheti a funkcióit[itt](https://releases.aspose.com/).
+### 5. kérdés: Ingyenesen használhatom az Aspose.Words-öt Java-ban?
+Az Aspose.Words for Java egy kereskedelmi termék, de a funkcióit ingyenes próbaverzióval is felfedezheti. [itt](https://releases.aspose.com/).
 
-Kezdje el az Aspose.Words for Java alkalmazást még ma, és vegye át az irányítást Word-dokumentumai felett, mint még soha!
+Kezdj el az Aspose.Words for Java programmal még ma, és vedd át az irányítást a Word-dokumentumaid felett úgy, mint még soha!
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Układ w komórce
-linktitle: Układ w komórce
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak ustawić układ w komórce za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu przewodnikowi. Idealne dla programistów, którzy chcą dostosować dokumenty Word.
-weight: 10
-url: /pl/net/programming-with-shapes/layout-in-cell/
+"description": "Dowiedz się, jak ustawić układ w komórce za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu przewodnikowi. Idealne dla programistów, którzy chcą dostosować dokumenty Word."
+"linktitle": "Układ w komórce"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Układ w komórce"
+"url": "/pl/net/programming-with-shapes/layout-in-cell/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Układ w komórce
@@ -21,10 +23,10 @@ Jeśli kiedykolwiek chciałeś programowo dostroić układ komórek tabeli w dok
 
 Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Jeśli nie, możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Jeśli nie, możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Będziesz potrzebować środowiska programistycznego skonfigurowanego z .NET. Visual Studio jest świetnym wyborem, jeśli szukasz rekomendacji.
 3. Podstawowa znajomość języka C#: Choć dokładnie wyjaśnię każdy krok, podstawowa znajomość języka C# pomoże Ci łatwiej nadążać.
-4.  Katalog dokumentów: Przygotuj ścieżkę katalogu, w którym będziesz zapisywać swoje dokumenty. Będziemy się do tego odnosić jako`YOUR DOCUMENT DIRECTORY`.
+4. Katalog dokumentów: Przygotuj ścieżkę katalogu, w którym będziesz zapisywać swoje dokumenty. Będziemy się do tego odnosić jako `YOUR DOCUMENT DIRECTORY`.
 
 ## Importuj przestrzenie nazw
 
@@ -42,7 +44,7 @@ Podzielmy ten proces na łatwiejsze do opanowania kroki.
 
 ## Krok 1: Utwórz nowy dokument
 
- Najpierw utworzymy nowy dokument Word i zainicjujemy`DocumentBuilder` obiekt, który pomoże nam w tworzeniu treści.
+Najpierw utworzymy nowy dokument Word i zainicjujemy `DocumentBuilder` obiekt, który pomoże nam w tworzeniu treści.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -76,7 +78,7 @@ builder.EndTable();
 
 ## Krok 4: Dodaj kształt znaku wodnego
 
- Teraz dodajmy znak wodny do naszego dokumentu. Stworzymy`Shape` obiekt i ustaw jego właściwości.
+Teraz dodajmy znak wodny do naszego dokumentu. Stworzymy `Shape` obiekt i ustaw jego właściwości.
 
 ```csharp
 Shape watermark = new Shape(doc, ShapeType.TextPlainText)
@@ -133,27 +135,32 @@ doc.Save(dataDir + "WorkingWithShapes.LayoutInCell.docx");
 
 ## Wniosek
 
-I masz to! Udało Ci się utworzyć dokument Word z dostosowanym układem tabeli i dodać znak wodny za pomocą Aspose.Words dla .NET. Ten samouczek miał na celu dostarczenie przejrzystego przewodnika krok po kroku, który pomoże Ci zrozumieć każdą część procesu. Dzięki tym umiejętnościom możesz teraz programowo tworzyć bardziej wyrafinowane i dostosowane dokumenty Word.
+masz to! Udało Ci się utworzyć dokument Word z dostosowanym układem tabeli i dodać znak wodny za pomocą Aspose.Words dla .NET. Ten samouczek miał na celu dostarczenie przejrzystego przewodnika krok po kroku, który pomoże Ci zrozumieć każdą część procesu. Dzięki tym umiejętnościom możesz teraz programowo tworzyć bardziej wyrafinowane i dostosowane dokumenty Word.
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę użyć innej czcionki dla tekstu znaku wodnego?
- Tak, możesz zmienić czcionkę, ustawiając`watermark.TextPath.FontFamily` właściwość na wybraną czcionkę.
+Tak, możesz zmienić czcionkę, ustawiając `watermark.TextPath.FontFamily` właściwość na wybraną czcionkę.
 
 ### Jak zmienić położenie znaku wodnego?
- Możesz zmodyfikować`RelativeHorizontalPosition`, `RelativeVerticalPosition`, `HorizontalAlignment` , I`VerticalAlignment` Właściwości umożliwiające dostosowanie położenia znaku wodnego.
+Możesz zmodyfikować `RelativeHorizontalPosition`, `RelativeVerticalPosition`, `HorizontalAlignment`, I `VerticalAlignment` Właściwości umożliwiające dostosowanie położenia znaku wodnego.
 
-### Czy można użyć obrazu zamiast tekstu w znaku wodnym?
- Oczywiście! Możesz stworzyć`Shape` z typem`ShapeType.Image` i ustaw jego obraz za pomocą`ImageData.SetImage` metoda.
+### Czy można użyć obrazu zamiast tekstu jako znaku wodnego?
+Oczywiście! Możesz stworzyć `Shape` z typem `ShapeType.Image` i ustaw jego obraz za pomocą `ImageData.SetImage` metoda.
 
 ### Czy mogę tworzyć tabele z różną wysokością wierszy?
-Tak, możesz ustawić różne wysokości dla każdego rzędu, zmieniając`RowFormat.Height` właściwość przed wstawieniem komórek do tego wiersza.
+Tak, możesz ustawić różne wysokości dla każdego rzędu, zmieniając `RowFormat.Height` właściwość przed wstawieniem komórek do tego wiersza.
 
 ### Jak usunąć znak wodny z dokumentu?
- Możesz usunąć znak wodny, lokalizując go w kolekcji kształtów dokumentu i wywołując`Remove` metoda.
+Możesz usunąć znak wodny, lokalizując go w kolekcji kształtów dokumentu i wywołując `Remove` metoda.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

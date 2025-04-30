@@ -1,51 +1,59 @@
 ---
-title: Применить границу контуры к таблице в слове с помощью Aspose.Words
-weight: 7700
-limit: 
-description: Узнайте, как применить границу очертания к таблице в Word с помощью Aspose.Words для .NET. Центр таблицы, добавить зеленую границу и заполнить ячейки светлым зеленым фонам.
-keywords: [Aspose.Words for .NET, Word table formatting, outline border, apply table border, table shading, .NET Word library]
-url: /ru/net/working-with-table-styles-and-formatting/apply-outline-border/
+"description": "Узнайте, как применить контурную границу к таблице в Word с помощью Aspose.Words for .NET. Отцентрируйте таблицу, добавьте зеленую границу и заполните ячейки светло-зеленым фоном."
+"title": "Применение границы контура к таблице в Word с помощью Aspose.Words"
+"url": "/ru/net/working-with-table-styles-and-formatting/apply-outline-border/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Применить границу контуры к таблице в слове с помощью Aspose.Words
+# Применение границы контура к таблице в Word с помощью Aspose.Words
 
-Aspose.Words для .NET - мощная библиотека для обработки документов Word. Этот пример демонстрирует, как форматировать таблицу, применяя границу очертания, сосредоточивая таблицу и добавляя светло-зеленый фон к ячейкам таблицы. Независимо от того, работаете вы с сложными документами Word или нуждаетесь в точном управлении форматированием, Aspose.Words упрощает процесс. Улучшайте ваши документы Word программически с помощью прочных и настраиваемых функций, предоставляемых этой библиотекой.
+Aspose.Words для .NET — мощная библиотека для обработки документов Word. В этом примере показано, как форматировать таблицу, применяя контурную границу, центрируя таблицу и добавляя светло-зеленый фон к ячейкам таблицы. Независимо от того, работаете ли вы со сложными документами Word или вам нужен точный контроль над форматированием, Aspose.Words упрощает этот процесс. Улучшайте свои документы Word программно с помощью надежных и настраиваемых функций, предоставляемых этой библиотекой.
 
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/apply-outline-border" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Инструкции по установке  
+## Инструкция по установке  
 
-### Предусмотренные условия  
-1. Убедитесь, что вы установили .NET Framework 4.7.2 или более поздний на вашей системе.  
-2. Скачать и установить Visual Studio (рекомендуется 2019 год или более поздний).  
+### Предпосылки  
+1. Убедитесь, что в вашей системе установлен .NET Framework 4.7.2 или более поздней версии.  
+2. Загрузите и установите Visual Studio (рекомендуется версия 2019 или более поздняя).  
 
-### Шаги установки  
-1. Скачать Aspose.Words для библиотеки .NET с официального сайта: [Aspose.Words для .NET Скачать](https://releases.aspose.com/words/net/)\- Я не знаю .  
-2. Установите библиотеку через управляющий пакетами NuGet:  
-   * Откройте свой проект в Visual Studio.  
-   * Перейти к Инструменты > Управляющий пакетами NuGet > Управление пакетами NuGet для решения.  
-   * Поиск`"Ответить. Слова"`и нажмите на Установите.  
+### Этапы установки  
+1. Загрузите библиотеку Aspose.Words для .NET с официального сайта: [Aspose.Words для .NET Скачать](https://releases.aspose.com/words/net/).  
+2. Установите библиотеку через менеджер пакетов NuGet:  
+   - Откройте свой проект в Visual Studio.  
+   - Перейдите в Инструменты > Диспетчер пакетов NuGet > Управление пакетами NuGet для решения.  
+   - Искать `Aspose.Words` и нажмите «Установить».  
 3. Добавьте ссылку на библиотеку в свой проект:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    using System.Drawing;
    ```  
-4. Заявление на лицензию (необязательно):  
-   Чтобы использовать полную версию, [подать заявку на выдачу лицензии](https://purchase.aspose.com/temporary-license/)или использовать [бесплатная пробная версия](https://releases.aspose.com/words/net/)\- Я не знаю .
+4. Применить лицензию (необязательно):  
+   Чтобы использовать полную версию, [применить лицензию](https://purchase.aspose.com/temporary-license/) или используйте [бесплатная пробная версия](https://releases.aspose.com/words/net/).
    
-## См. также
-[Aspose.Word для документации .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word для ссылок .NET](https://reference.aspose.com/words/net/)
+## Также см.
+[Документация Aspose.Word для .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word для .NET Ссылки](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

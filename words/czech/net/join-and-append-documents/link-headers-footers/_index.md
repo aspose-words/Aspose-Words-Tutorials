@@ -1,33 +1,35 @@
 ---
-title: Zápatí odkazu záhlaví
-linktitle: Zápatí odkazu záhlaví
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Přečtěte si, jak propojit záhlaví a zápatí mezi dokumenty v Aspose.Words for .NET. Zajistěte bez námahy konzistenci a integritu formátování.
-weight: 10
-url: /cs/net/join-and-append-documents/link-headers-footers/
+"description": "Naučte se, jak propojit záhlaví a zápatí mezi dokumenty v Aspose.Words pro .NET. Zajistěte si bez námahy konzistenci a integritu formátování."
+"linktitle": "Záhlaví a zápatí odkazů"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Záhlaví a zápatí odkazů"
+"url": "/cs/net/join-and-append-documents/link-headers-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zápatí odkazu záhlaví
+# Záhlaví a zápatí odkazů
 
 ## Zavedení
 
-tomto tutoriálu prozkoumáme, jak propojit záhlaví a zápatí mezi dokumenty pomocí Aspose.Words for .NET. Tato funkce vám umožňuje zachovat konzistenci a kontinuitu mezi více dokumenty efektivní synchronizací záhlaví a zápatí.
+V tomto tutoriálu se podíváme na to, jak propojit záhlaví a zápatí mezi dokumenty pomocí Aspose.Words pro .NET. Tato funkce umožňuje zachovat konzistenci a kontinuitu napříč více dokumenty efektivní synchronizací záhlaví a zápatí.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte následující:
 
-- Nainstalováno Visual Studio s Aspose.Words for .NET.
+- Nainstaloval jsem Visual Studio s Aspose.Words pro .NET.
 - Základní znalost programování v C# a .NET frameworku.
-- Přístup k vašemu adresáři dokumentů, kde jsou uloženy vaše zdrojové a cílové dokumenty.
+- Přístup k adresáři dokumentů, kde jsou uloženy zdrojové a cílové dokumenty.
 
 ## Importovat jmenné prostory
 
-Chcete-li začít, zahrňte do svého projektu C# potřebné jmenné prostory:
+Pro začátek zahrňte do svého projektu v C# potřebné jmenné prostory:
 
 ```csharp
 using Aspose.Words;
@@ -35,43 +37,43 @@ using Aspose.Words;
 
 Rozdělme si proces do jasných kroků:
 
-## Krok 1: Vložte dokumenty
+## Krok 1: Načtení dokumentů
 
- Nejprve načtěte zdrojové a cílové dokumenty`Document` objekty:
+Nejprve nahrajte zdrojové a cílové dokumenty do `Document` objekty:
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document srcDoc = new Document(dataDir + "Document source.docx");
 Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 ```
 
-## Krok 2: Nastavte začátek sekce
+## Krok 2: Nastavení začátku sekce
 
- Chcete-li zajistit, že připojený dokument začíná na nové stránce, nakonfigurujte`SectionStart` vlastnost první části zdrojového dokumentu:
+Abyste zajistili, že připojený dokument začne na nové stránce, nakonfigurujte `SectionStart` vlastnost první části zdrojového dokumentu:
 
 ```csharp
 srcDoc.FirstSection.PageSetup.SectionStart = SectionStart.NewPage;
 ```
 
-## Krok 3: Propojte záhlaví a zápatí
+## Krok 3: Propojení záhlaví a zápatí
 
-Propojte záhlaví a zápatí ve zdrojovém dokumentu s předchozí sekcí v cílovém dokumentu. Tento krok zajistí, že se použijí záhlaví a zápatí ze zdrojového dokumentu, aniž by došlo k přepsání existujících v cílovém dokumentu:
+Propojte záhlaví a zápatí ve zdrojovém dokumentu s předchozí částí v cílovém dokumentu. Tento krok zajistí, že se záhlaví a zápatí ze zdrojového dokumentu použijí bez přepsání stávajících záhlaví a zápatí v cílovém dokumentu:
 
 ```csharp
 srcDoc.FirstSection.HeadersFooters.LinkToPrevious(true);
 ```
 
-## Krok 4: Připojte dokumenty
+## Krok 4: Připojení dokumentů
 
-Připojte zdrojový dokument k cílovému dokumentu při zachování formátování ze zdroje:
+Připojte zdrojový dokument k cílovému dokumentu se zachováním formátování ze zdroje:
 
 ```csharp
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
-## Krok 5: Uložte výsledek
+## Krok 5: Uložení výsledku
 
 Nakonec uložte upravený cílový dokument do požadovaného umístění:
 
@@ -81,27 +83,32 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.LinkHeadersFooters.docx");
 
 ## Závěr
 
-Propojení záhlaví a zápatí mezi dokumenty pomocí Aspose.Words for .NET je jednoduché a zajišťuje konzistenci napříč vašimi dokumenty, což usnadňuje správu a údržbu velkých sad dokumentů.
+Propojení záhlaví a zápatí mezi dokumenty pomocí Aspose.Words pro .NET je jednoduché a zajišťuje konzistenci napříč dokumenty, což usnadňuje správu a údržbu velkých sad dokumentů.
 
-## Nejčastější dotazy
+## Často kladené otázky
 
 ### Mohu propojit záhlaví a zápatí mezi dokumenty s různým rozvržením?
 Ano, Aspose.Words bez problémů zvládá různá rozvržení a zachovává integritu záhlaví a zápatí.
 
-### Ovlivňuje propojení záhlaví a zápatí jiné formátování v dokumentech?
-Ne, propojení záhlaví a zápatí ovlivní pouze zadané sekce, ostatní obsah a formátování zůstanou nedotčené.
+### Ovlivňuje propojení záhlaví a zápatí další formátování v dokumentech?
+Ne, propojení záhlaví a zápatí ovlivní pouze určené sekce a zůstane zachován ostatní obsah a formátování.
 
 ### Je Aspose.Words kompatibilní se všemi verzemi .NET?
 Aspose.Words podporuje různé verze .NET Framework a .NET Core, což zajišťuje kompatibilitu napříč platformami.
 
-### Mohu odpojit záhlaví a zápatí po jejich propojení?
-Ano, můžete odpojit záhlaví a zápatí pomocí metod API Aspose.Words a obnovit formátování jednotlivých dokumentů.
+### Mohu po propojení záhlaví a zápatí odpojit?
+Ano, můžete odpojit záhlaví a zápatí pomocí metod API Aspose.Words a obnovit tak formátování jednotlivých dokumentů.
 
 ### Kde najdu podrobnější dokumentaci k Aspose.Words pro .NET?
- Návštěva[Aspose.Words pro .NET dokumentaci](https://reference.aspose.com/words/net/) pro komplexní průvodce a reference API.
+Návštěva [Dokumentace k Aspose.Words pro .NET](https://reference.aspose.com/words/net/) pro komplexní průvodce a reference API.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

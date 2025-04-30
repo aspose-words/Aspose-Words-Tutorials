@@ -1,43 +1,51 @@
 ---
-title: .NETで水平ルールでWordドキュメントを作成する
-weight: 7700
-limit: 
-description: Aspose.Wordsを使用して .NET でWord ドキュメントを作成し,簡単なコード例で水平ルールを挿入する方法について学びましょう.
-keywords: [Aspose.Words, .NET, Word document, horizontal rule, DocumentBuilder, example, code snippet]
-url: /ja/net/add-content-using-document-builder/insert-horizontal-rule/
+"description": "Aspose.Words を使用して .NET で Word 文書を作成し、簡単なコード例を使用して水平線を挿入する方法を学習します。"
+"title": ".NET で水平線付きの Word 文書を作成する"
+"url": "/ja/net/add-content-using-document-builder/insert-horizontal-rule/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 横向規則でWordドキュメントを作成する
-この例では,Word文書を作成するために .NET のAspose.Wordsを使用し,DocumentBuilder を使用して水平規則を追加することを示しています.文書を効果的にフォーマットする方法を知るには,以下の手順に従ってください.
+# 水平線付きのWord文書を作成する
+この例では、Aspose.Words for .NET を使用してWord文書を作成し、DocumentBuilderを使用して水平罫線を追加する方法を説明します。以下の手順に従って、文書を効果的に書式設定する方法を学びましょう。
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-horizontal-rule" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## 設置指示
-1. Aspose.Wordsをインストールする. Visual Studio で NuGet パッケージマネージャーを使用する.
-   * プロジェクトをビジュアルスタジオで開け
-   * 解決法探査機でプロジェクトを右クリックします
-   * NuGet パッケージを管理するを選択します.
-   * 検索する`"言葉"`設置して
 
-2. 使用指令を追加する:コードファイルにAspose.Wordsクラスを使用する次の指令を入力してください.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## インストール手順
+1. Aspose.Words をインストールします。Visual Studio で NuGet パッケージ マネージャーを使用します。
+   - Visual Studio でプロジェクトを開きます。
+   - ソリューション エクスプローラーでプロジェクトを右クリックします。
+   - NuGet パッケージの管理を選択します。
+   - 検索する `Aspose.Words` インストールしてください。
+
+2. Using ディレクティブの追加: コード ファイルに、Aspose.Words クラスを使用するための次のディレクティブを含めます。
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
 
-## また見てください
-[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
-[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
+## こちらもご覧ください
+[Aspose.Word for .NET ドキュメント](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET リファレンス](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

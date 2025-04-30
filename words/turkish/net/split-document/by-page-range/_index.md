@@ -1,14 +1,16 @@
 ---
-title: Word Belgesini Sayfa Aralığına Göre Böl
-linktitle: Word Belgesini Sayfa Aralığına Göre Böl
-second_title: Aspose.Words Belge İşleme API'si
-description: Ayrıntılı adım adım kılavuzumuzla .NET için Aspose.Words'ü kullanarak bir Word belgesini sayfa aralığına göre nasıl böleceğinizi öğrenin. Geliştiriciler için mükemmel.
-weight: 10
-url: /tr/net/split-document/by-page-range/
+"description": "Ayrıntılı adım adım kılavuzumuzla .NET için Aspose.Words'ü kullanarak bir Word belgesini sayfa aralığına göre nasıl böleceğinizi öğrenin. Geliştiriciler için mükemmel."
+"linktitle": "Word Belgesini Sayfa Aralığına Göre Böl"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesini Sayfa Aralığına Göre Böl"
+"url": "/tr/net/split-document/by-page-range/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesini Sayfa Aralığına Göre Böl
@@ -21,9 +23,9 @@ Hiç kendinizi büyük bir Word belgesinden sadece birkaç sayfaya ihtiyaç duya
 
 Koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Eğer henüz yüklü değilse, şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Eğer henüz yüklü değilse, şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi uygun bir geliştirme ortamı.
-3. Temel C# Bilgisi: Her adımda size yol göstereceğiz ancak C# hakkında temel bir anlayışa sahip olmak faydalı olacaktır.
+3. Temel C# Bilgisi: Her adımda size yol göstereceğiz ancak temel C# bilgisine sahip olmak faydalı olacaktır.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -48,7 +50,7 @@ Aspose.Words'ü kullanmak için onu projenize eklemeniz gerekir. Bunu NuGet Pake
 
 ## Adım 3: Belgenizi Yükleyin
 
- Şimdi bölmek istediğiniz belgeyi yükleyelim. Değiştir`"YOUR DOCUMENT DIRECTORY"` belgenizin yolunu belirtin:
+Şimdi bölmek istediğiniz belgeyi yükleyelim. Değiştir `"YOUR DOCUMENT DIRECTORY"` belgenizin yolunu belirtin:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -57,7 +59,7 @@ Document doc = new Document(dataDir + "Big document.docx");
 
 ## Adım 4: İstenilen Sayfaları Çıkarın
 
-Belge yüklendikten sonra, ihtiyacınız olan sayfaları çıkarma zamanı geldi. Bu örnekte, 3 ila 6 arasındaki sayfaları çıkarıyoruz:
+Belge yüklendiğinde, ihtiyacınız olan sayfaları çıkarma zamanı geldi. Bu örnekte, 3 ila 6 arasındaki sayfaları çıkarıyoruz:
 
 ```csharp
 Document extractedPages = doc.ExtractPages(3, 6);
@@ -85,7 +87,7 @@ Evet yapabilirsiniz. İhtiyacınız olan her aralık için çıkarma işlemini t
 
 Aspose.Words belge bölümlerini işlemek için çeşitli yöntemler sunar. Bölümlerin başlangıcını ve sonunu belirleyerek benzer şekilde bölümleri çıkarabilirsiniz.
 
-### Çıkarabileceğim sayfa sayısında bir sınırlama var mı?
+### Çıkarabileceğim sayfa sayısında bir sınır var mı?
 
 Hayır, Aspose.Words for .NET kullanarak çıkarabileceğiniz sayfa sayısında bir sınırlama yoktur.
 
@@ -97,9 +99,14 @@ Evet, ancak her sayfa veya aralık için birden fazla çıkarma işlemi gerçekl
 
 Kesinlikle! Aspose.Words for .NET, DOC, PDF, HTML ve daha fazlası dahil olmak üzere çok çeşitli formatları destekler.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

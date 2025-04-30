@@ -1,34 +1,36 @@
 ---
-title: Skapa och signera ny signaturlinje
-linktitle: Skapa och signera ny signaturlinje
-second_title: Aspose.Words Document Processing API
-description: Lär dig hur du skapar och digitalt signerar en signaturrad i ett Word-dokument med Aspose.Words för .NET med denna steg-för-steg-handledning. Perfekt för dokumentautomatisering.
-weight: 10
-url: /sv/net/programming-with-digital-signatures/creating-and-signing-new-signature-line/
+"description": "Lär dig hur du skapar och digitalt signerar en signaturrad i ett Word-dokument med Aspose.Words för .NET med den här steg-för-steg-handledningen. Perfekt för dokumentautomation."
+"linktitle": "Skapa och signera en ny signaturrad"
+"second_title": "Aspose.Words dokumentbehandlings-API"
+"title": "Skapa och signera en ny signaturrad"
+"url": "/sv/net/programming-with-digital-signatures/creating-and-signing-new-signature-line/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skapa och signera ny signaturlinje
+# Skapa och signera en ny signaturrad
 
 ## Introduktion
 
-Hej där! Så du har ett Word-dokument och du måste lägga till en signaturrad och sedan signera den digitalt. Låter det knepigt? Inte alls! Tack vare Aspose.Words för .NET kan du uppnå detta sömlöst med bara några rader kod. I den här självstudien går vi igenom hela processen från att ställa in din miljö till att spara ditt dokument med en skinande ny signatur. Redo? Låt oss dyka in!
+Hej där! Så, du har ett Word-dokument och du behöver lägga till en signaturrad och sedan signera det digitalt. Låter det knepigt? Inte alls! Tack vare Aspose.Words för .NET kan du göra detta smidigt med bara några rader kod. I den här handledningen guidar vi dig genom hela processen från att konfigurera din miljö till att spara ditt dokument med en skinande ny signatur. Är du redo? Nu kör vi!
 
-## Förutsättningar
+## Förkunskapskrav
 
-Innan vi hoppar in i koden, låt oss se till att du har allt du behöver:
-1.  Aspose.Words för .NET - Du kan[ladda ner den här](https://releases.aspose.com/words/net/).
-2. En .NET-utvecklingsmiljö - Visual Studio rekommenderas starkt.
-3. Ett dokument att signera - Skapa ett enkelt Word-dokument eller använd ett befintligt.
-4.  En certifikatfil - Detta behövs för digitala signaturer. Du kan använda en`.pfx` fil.
-5. Bilder för signaturlinje - Valfritt, en bildfil för signaturen.
+Innan vi går in i koden, låt oss se till att du har allt du behöver:
+1. Aspose.Words för .NET - Du kan [ladda ner den här](https://releases.aspose.com/words/net/).
+2. En .NET-utvecklingsmiljö – Visual Studio – rekommenderas starkt.
+3. Ett dokument att signera – Skapa ett enkelt Word-dokument eller använd ett befintligt.
+4. En certifikatfil – Denna behövs för digitala signaturer. Du kan använda en `.pfx` fil.
+5. Bilder för signaturrad – valfritt en bildfil för signaturen.
 
-## Importera namnområden
+## Importera namnrymder
 
-Först måste vi importera de nödvändiga namnrymden. Detta steg är avgörande eftersom det ställer in miljön för användning av Aspose.Words-funktioner.
+Först måste vi importera de nödvändiga namnrymderna. Detta steg är avgörande eftersom det konfigurerar miljön för att använda Aspose.Words-funktioner.
 
 ```csharp
 using System;
@@ -41,7 +43,7 @@ using Aspose.Words.Signing;
 
 ## Steg 1: Konfigurera dokumentkatalogen
 
-Varje projekt behöver en bra start. Låt oss ställa in sökvägen till din dokumentkatalog. Det är här dina dokument kommer att sparas och hämtas.
+Varje projekt behöver en bra start. Nu konfigurerar vi sökvägen till din dokumentkatalog. Det är här dina dokument sparas och hämtas.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -49,16 +51,16 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Steg 2: Skapa ett nytt dokument
 
-Låt oss nu skapa ett nytt Word-dokument med Aspose.Words. Detta kommer att vara vår duk där vi lägger till signaturlinjen.
+Nu ska vi skapa ett nytt Word-dokument med Aspose.Words. Detta blir vår arbetsyta där vi lägger till signaturraden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Steg 3: Infoga signaturlinjen
+## Steg 3: Infoga signaturraden
 
- Det är här magin händer. Vi infogar en signaturrad i vårt dokument med hjälp av`DocumentBuilder` klass.
+Det är här magin händer. Vi infogar en signaturrad i vårt dokument med hjälp av `DocumentBuilder` klass.
 
 ```csharp
 SignatureLine signatureLine = builder.InsertSignatureLine(new SignatureLineOptions()).SignatureLine;
@@ -66,15 +68,15 @@ SignatureLine signatureLine = builder.InsertSignatureLine(new SignatureLineOptio
 
 ## Steg 4: Spara dokumentet med signaturraden
 
-När signaturraden är på plats måste vi spara dokumentet. Detta är ett mellansteg innan vi fortsätter med att signera det.
+När signaturraden är på plats måste vi spara dokumentet. Detta är ett mellansteg innan vi fortsätter att signera det.
 
 ```csharp
 doc.Save(dataDir + "SignDocuments.SignatureLine.docx");
 ```
 
-## Steg 5: Ställa in signeringsalternativ
+## Steg 5: Konfigurera signeringsalternativ
 
-Låt oss nu ställa in alternativen för att signera dokumentet. Detta inkluderar att specificera signaturrads-ID och bilden som ska användas.
+Nu ska vi konfigurera alternativen för att signera dokumentet. Detta inkluderar att ange signaturrads-ID och vilken bild som ska användas.
 
 ```csharp
 SignOptions signOptions = new SignOptions
@@ -84,9 +86,9 @@ SignOptions signOptions = new SignOptions
 };
 ```
 
-## Steg 6: Laddar certifikatet
+## Steg 6: Ladda certifikatet
 
-Digitala signaturer kräver ett certifikat. Här laddar vi certifikatfilen som kommer att användas för att signera dokumentet.
+Digitala signaturer kräver ett certifikat. Här laddar vi certifikatfilen som ska användas för att signera dokumentet.
 
 ```csharp
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
@@ -94,7 +96,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 
 ## Steg 7: Signera dokumentet
 
- Detta är det sista steget. Vi använder`DigitalSignatureUtil`klass för att underteckna dokumentet. Det signerade dokumentet sparas med ett nytt namn.
+Detta är det sista steget. Vi använder `DigitalSignatureUtil` klass för att signera dokumentet. Det signerade dokumentet sparas med ett nytt namn.
 
 ```csharp
 DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLine.docx",
@@ -103,27 +105,32 @@ DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLine.docx",
 
 ## Slutsats
 
-Och där har du det! Med dessa steg har du framgångsrikt skapat ett nytt Word-dokument, lagt till en signaturrad och signerat det digitalt med Aspose.Words för .NET. Det är ett kraftfullt verktyg som gör dokumentautomatisering till en lek. Oavsett om du har att göra med kontrakt, avtal eller några formella dokument, säkerställer den här metoden att de är säkert signerade och autentiserade.
+Och där har du det! Med dessa steg har du skapat ett nytt Word-dokument, lagt till en signaturrad och signerat det digitalt med Aspose.Words för .NET. Det är ett kraftfullt verktyg som gör dokumentautomation till en barnlek. Oavsett om du har att göra med kontrakt, avtal eller andra formella dokument, säkerställer den här metoden att de är säkert signerade och autentiserade.
 
-## FAQ's
+## Vanliga frågor
 
 ### Kan jag använda andra bildformat för signaturraden?
 Ja, du kan använda olika bildformat som PNG, JPG, BMP, etc.
 
-###  Är det nödvändigt att använda en`.pfx` file for the certificate?
- Ja, a`.pfx` fil är ett vanligt format för lagring av kryptografisk information inklusive certifikat och privata nycklar.
+### Är det nödvändigt att använda en `.pfx` ansöka om certifikat?
+Ja, en `.pfx` fil är ett vanligt format för att lagra kryptografisk information, inklusive certifikat och privata nycklar.
 
 ### Kan jag lägga till flera signaturrader i ett enda dokument?
 Absolut! Du kan infoga flera signaturrader genom att upprepa infogningssteget för varje signatur.
 
 ### Vad händer om jag inte har ett digitalt certifikat?
-Du måste skaffa ett digitalt certifikat från en betrodd certifikatutfärdare eller skapa ett med hjälp av verktyg som OpenSSL.
+Du måste skaffa ett digitalt certifikat från en betrodd certifikatutfärdare eller generera ett med verktyg som OpenSSL.
 
 ### Hur verifierar jag den digitala signaturen i dokumentet?
 Du kan öppna det signerade dokumentet i Word och gå till signaturinformationen för att verifiera signaturens äkthet och integritet.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

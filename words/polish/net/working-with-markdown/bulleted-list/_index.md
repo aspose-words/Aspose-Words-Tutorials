@@ -1,14 +1,16 @@
 ---
-title: Lista wypunktowana
-linktitle: Lista wypunktowana
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak tworzyć i dostosowywać listy wypunktowane w dokumentach programu Word za pomocą pakietu Aspose.Words for .NET, korzystając z tego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/working-with-markdown/bulleted-list/
+"description": "Dowiedz się, jak tworzyć i dostosowywać listy wypunktowane w dokumentach programu Word za pomocą pakietu Aspose.Words for .NET, korzystając z tego przewodnika krok po kroku."
+"linktitle": "Lista wypunktowana"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Lista wypunktowana"
+"url": "/pl/net/working-with-markdown/bulleted-list/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lista wypunktowana
@@ -21,7 +23,7 @@ Gotowy, aby zanurzyć się w świecie Aspose.Words dla .NET? Dzisiaj przejdziemy
 
 Zanim rozpoczniemy zabawę z kodowaniem, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Jeśli jeszcze jej nie masz, możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Jeśli jeszcze jej nie masz, możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: środowisko programistyczne AC#, takie jak Visual Studio.
 3. Podstawowa wiedza o języku C#: Podstawowa znajomość programowania w języku C# ułatwi Ci zrozumienie tematu.
 
@@ -90,22 +92,27 @@ Możesz swobodnie eksperymentować z różnymi stylami i formatami list, aby dop
 ## Najczęściej zadawane pytania
 
 ### Czy mogę używać różnych symboli punktorów na liście?
-    Tak, możesz dostosować symbole punktów, zmieniając`NumberFormat` nieruchomość.
+   Tak, możesz dostosować symbole punktów, zmieniając `NumberFormat` nieruchomość.
 
 ### Jak dodać więcej poziomów wcięć?
-    Użyj`ListIndent` metoda dodawania kolejnych poziomów i`ListOutdent` powrócić na wyższy poziom.
+   Użyj `ListIndent` metoda dodawania kolejnych poziomów i `ListOutdent` powrócić na wyższy poziom.
 
 ### Czy można mieszać listy wypunktowane i numerowane?
-   Oczywiście! Możesz przełączać się między formatami punktorów i numerów za pomocą`ApplyNumberDefault` I`ApplyBulletDefault` metody.
+   Oczywiście! Możesz przełączać się między formatami punktorów i numerów za pomocą `ApplyNumberDefault` I `ApplyBulletDefault` metody.
 
 ### Czy mogę stylizować tekst w elementach listy?
-    Tak, możesz stosować różne style, czcionki i formatowanie do tekstu w elementach listy, korzystając z`Font` własność`DocumentBuilder`.
+   Tak, możesz stosować różne style, czcionki i formatowanie do tekstu w elementach listy, korzystając z `Font` własność `DocumentBuilder`.
 
 ### Jak mogę utworzyć listę wypunktowaną składającą się z wielu kolumn?
    Za pomocą formatowania tabeli można tworzyć listy wielokolumnowe, w których każda komórka będzie zawierała oddzielną listę wypunktowaną.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

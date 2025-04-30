@@ -1,14 +1,16 @@
 ---
-title: Korzystanie z opcji i ustawień dokumentu w Aspose.Words dla Java
-linktitle: Korzystanie z opcji i ustawień dokumentu
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Odblokuj moc Aspose.Words dla Java. Główne opcje i ustawienia dokumentu dla bezproblemowego zarządzania dokumentami. Optymalizacja, dostosowywanie i więcej.
-weight: 31
-url: /pl/java/document-manipulation/using-document-options-and-settings/
+"description": "Odblokuj moc Aspose.Words dla Java. Główne opcje i ustawienia dokumentu dla bezproblemowego zarządzania dokumentami. Optymalizacja, dostosowywanie i więcej."
+"linktitle": "Korzystanie z opcji i ustawień dokumentu"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Korzystanie z opcji i ustawień dokumentu w Aspose.Words dla Java"
+"url": "/pl/java/document-manipulation/using-document-options-and-settings/"
+"weight": 31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie z opcji i ustawień dokumentu w Aspose.Words dla Java
@@ -92,7 +94,7 @@ public void viewOptions() throws Exception
 }
 ```
 
-Dostosowanie wrażeń podczas oglądania dokumentów jest kluczowe. Aspose.Words for Java umożliwia ustawienie różnych opcji oglądania, takich jak układ strony i procent powiększenia, w celu zwiększenia czytelności dokumentu.
+Dostosowanie wrażeń z oglądania dokumentów jest kluczowe. Aspose.Words for Java umożliwia ustawienie różnych opcji oglądania, takich jak układ strony i procent powiększenia, w celu zwiększenia czytelności dokumentu.
 
 ## Konfigurowanie ustawień strony dokumentu
 
@@ -118,7 +120,7 @@ Precyzyjne ustawienie strony jest kluczowe dla formatowania dokumentu. Aspose.Wo
 public void addJapaneseAsEditingLanguages() throws Exception
 {
     LoadOptions loadOptions = new LoadOptions();
-    // Ustaw preferencje językowe do edycji
+    // Ustaw preferencje językowe dla edycji
     loadOptions.getLanguagePreferences().addEditingLanguage(EditingLanguage.JAPANESE);
     Document doc = new Document("Your Directory Path" + "No default editing language.docx", loadOptions);
     // Sprawdź nadpisany język edycji
@@ -140,7 +142,7 @@ tym przewodniku zagłębiliśmy się w różne opcje i ustawienia dokumentów do
 
 ### Jak zoptymalizować dokument pod kątem konkretnej wersji programu Word?
 
- Aby zoptymalizować dokument pod kątem konkretnej wersji programu Word, użyj`optimizeFor` metodę i określ pożądaną wersję. Na przykład, aby zoptymalizować dla Word 2016:
+Aby zoptymalizować dokument pod kątem konkretnej wersji programu Word, użyj `optimizeFor` metodę i określ pożądaną wersję. Na przykład, aby zoptymalizować dla Word 2016:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -165,7 +167,7 @@ Czyszczenie nieużywanych stylów i list pomaga utrzymać czystą i uporządkowa
 
 ### Jak mogę usunąć zduplikowane style z dokumentu?
 
-Aby usunąć zduplikowane style z dokumentu, skorzystaj z`cleanup` metoda z`duplicateStyle` opcja ustawiona na`true`Oto przykład:
+Aby usunąć zduplikowane style z dokumentu, skorzystaj z `cleanup` metoda z `duplicateStyle` opcja ustawiona na `true`Oto przykład:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -177,7 +179,7 @@ doc.save("Your Directory Path" + "CleanedDocument.docx");
 
 ### Jak dostosować opcje wyświetlania dokumentu?
 
- Możesz dostosować opcje przeglądania dokumentów za pomocą`ViewOptions` klasa. Na przykład, aby ustawić typ widoku na układ strony i powiększenie do 50%:
+Możesz dostosować opcje przeglądania dokumentów za pomocą `ViewOptions` klasa. Na przykład, aby ustawić typ widoku na układ strony i powiększenie do 50%:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -185,9 +187,14 @@ doc.getViewOptions().setViewType(ViewType.PAGE_LAYOUT);
 doc.getViewOptions().setZoomPercent(50);
 doc.save("Your Directory Path" + "CustomView.docx");
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

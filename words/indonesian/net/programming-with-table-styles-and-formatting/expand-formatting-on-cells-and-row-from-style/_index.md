@@ -1,27 +1,29 @@
 ---
-title: Perluas Pemformatan Pada Sel Dan Baris Dari Gaya
-linktitle: Perluas Pemformatan Pada Sel Dan Baris Dari Gaya
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memperluas format pada sel dan baris dari gaya dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah disertakan.
-weight: 10
-url: /id/net/programming-with-table-styles-and-formatting/expand-formatting-on-cells-and-row-from-style/
+"description": "Pelajari cara memperluas format pada sel dan baris dari gaya dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah disertakan."
+"linktitle": "Perluas Pemformatan Pada Sel Dan Baris Dari Gaya"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Perluas Pemformatan Pada Sel Dan Baris Dari Gaya"
+"url": "/id/net/programming-with-table-styles-and-formatting/expand-formatting-on-cells-and-row-from-style/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Perluas Pemformatan Pada Sel Dan Baris Dari Gaya
 
 ## Perkenalan
 
-Pernahkah Anda merasa perlu menerapkan gaya yang konsisten di seluruh tabel dalam dokumen Word Anda? Menyesuaikan setiap sel secara manual bisa jadi membosankan dan rentan terhadap kesalahan. Di sinilah Aspose.Words for .NET berguna. Tutorial ini akan memandu Anda melalui proses perluasan format pada sel dan baris dari gaya tabel, memastikan dokumen Anda terlihat rapi dan profesional tanpa kerepotan tambahan.
+Pernahkah Anda merasa perlu menerapkan gaya yang konsisten di seluruh tabel dalam dokumen Word Anda? Menyesuaikan setiap sel secara manual bisa jadi membosankan dan rentan terhadap kesalahan. Di sinilah Aspose.Words for .NET berguna. Tutorial ini akan memandu Anda melalui proses perluasan pemformatan pada sel dan baris dari gaya tabel, memastikan dokumen Anda terlihat rapi dan profesional tanpa kerepotan tambahan.
 
 ## Prasyarat
 
 Sebelum kita masuk ke detail yang lebih mendalam, pastikan Anda telah menyiapkan hal-hal berikut:
 
--  Aspose.Words untuk .NET: Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 - Visual Studio: Versi terbaru apa pun bisa digunakan.
 - Pengetahuan dasar C#: Keakraban dengan pemrograman C# sangatlah penting.
 - Contoh Dokumen: Siapkan dokumen Word dengan tabel, atau Anda dapat menggunakan tabel yang disediakan dalam contoh kode.
@@ -44,7 +46,7 @@ Sekarang, mari kita uraikan prosesnya menjadi langkah-langkah yang sederhana dan
 Pada langkah ini, kita akan memuat dokumen Word yang berisi tabel yang ingin Anda format. 
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
@@ -63,7 +65,7 @@ Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 Sekarang, mari kita ambil sel pertama dari baris pertama dalam tabel. Ini akan membantu kita menunjukkan bagaimana format sel berubah saat gaya diperluas.
 
 ```csharp
-// Dapatkan sel pertama dari baris pertama dalam tabel.
+// Dapatkan sel pertama dari baris pertama tabel.
 Cell firstCell = table.FirstRow.FirstCell;
 ```
 
@@ -79,7 +81,7 @@ Console.WriteLine("Cell shading before style expansion: " + cellShadingBefore);
 
 ## Langkah 5: Perluas Gaya Tabel
 
- Di sinilah keajaiban terjadi. Kami akan menelepon`ExpandTableStylesToDirectFormatting` metode untuk menerapkan gaya tabel langsung ke sel.
+Di sinilah keajaiban terjadi. Kami akan menelepon `ExpandTableStylesToDirectFormatting` metode untuk menerapkan gaya tabel langsung ke sel.
 
 ```csharp
 // Perluas gaya tabel untuk memformat langsung.
@@ -115,10 +117,15 @@ Tentu saja! Anda dapat mengulang semua tabel dalam dokumen Anda dan menerapkan l
 Setelah gaya diperluas, gaya tersebut langsung diterapkan ke sel. Untuk mengembalikannya, Anda perlu memuat ulang dokumen atau menerapkan kembali gaya secara manual.
 
 ### Apakah metode ini berfungsi dengan semua versi Aspose.Words untuk .NET?
- Ya, itu`ExpandTableStylesToDirectFormatting` metode ini tersedia dalam versi terbaru Aspose.Words untuk .NET. Selalu periksa[dokumentasi](https://reference.aspose.com/words/net/) untuk mengetahui berita terkini.
+Ya, itu `ExpandTableStylesToDirectFormatting` metode ini tersedia dalam versi terbaru Aspose.Words untuk .NET. Selalu periksa [dokumentasi](https://reference.aspose.com/words/net/) untuk mengetahui berita terkini.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,42 +1,50 @@
 ---
-title: Maak een Word-document met tabel met behulp van Aspose.Words
-weight: 7700
-limit: 
-description: Leer hoe je een Word-document met een stijltabel kunt maken met behulp van Aspose.Words voor .NET, inclusief celformatting en tekstoriëntatie.
-keywords: [Aspose.Words, .NET, Word document, table, document builder, cell formatting, text orientation, code example]
-url: /nl/net/add-content-using-document-builder/build-table/
+"description": "Leer hoe u een Word-document met een opgemaakte tabel maakt met Aspose.Words voor .NET, inclusief celopmaak en tekstoriëntatie."
+"title": "Maak een Word-document met een tabel met behulp van Aspose.Words"
+"url": "/nl/net/add-content-using-document-builder/build-table/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Maak een Word-document met tabel met behulp van Aspose.Words
+# Maak een Word-document met een tabel met behulp van Aspose.Words
   
-Deze voorbeeld toont aan hoe je een Word-document met een tabel kunt maken met behulp van de bibliotheek Aspose.Words voor .NET. De code initialiseert een nieuw document, bouwt een tabel met twee rijen en formatteert de cellen met verschillende stijlen en oriëntatie. Je leert cellencontent, alignment en een gestructureerd document programmaal te manipuleren.
+Dit voorbeeld laat zien hoe u een Word-document met een tabel maakt met behulp van de Aspose.Words-bibliotheek voor .NET. De code initialiseert een nieuw document, construeert een tabel met twee rijen en formatteert de cellen met verschillende stijlen en oriëntaties. U leert hoe u de inhoud en uitlijning van cellen kunt bewerken en hoe u programmatisch een gestructureerd document kunt maken.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/build-table" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## Installatiebepalingen:  
-1. Installeer Aspose.Words voor .NET:
-   * Gebruik NuGet Package Manager:
-     * Open je project in Visual Studio.
-     * Klik met de rechterkliek op het project in Solution Explorer en selecteer "NuGet Pakketten beheren".
-     * Zoek naar "Aspose.Words" en klik op "Installeer".
 
-   * Of gebruik de pakketmanagerconsole:
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## Installatie-instructies:  
+1. Installeer Aspose.Words voor .NET:
+   - NuGet Package Manager gebruiken:
+     - Open uw project in Visual Studio.
+     - Klik met de rechtermuisknop op het project in Solution Explorer en selecteer 'NuGet-pakketten beheren'.
+     - Zoek naar "Aspose.Words" en klik op "Installeren".
+
+   - Of gebruik de Package Manager Console:
      ```
      Install-Package Aspose.Words
      ```
    
 ## Zie ook
 [Aspose.Word voor .NET-documentatie](https://docs.aspose.com/words/net/)
-[Aspose.Word voor .NET Referenties](https://reference.aspose.com/words/net/)
+[Aspose.Word voor .NET-referenties](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

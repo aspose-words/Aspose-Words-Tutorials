@@ -1,46 +1,53 @@
 ---
-title: Τροποποίηση Παραγράφων Χρησιμοποιώντας Aspose.Words για .NET
-weight: 7700
-limit: 
-description: Μάθετε πώς να μορφοποιείτε παραγράφους σε ένα έγγραφο Word με το Aspose.Words για το .NET, συμπεριλαμβανομένης της ευθυγράμμισης, της εισόδου και της διαχωρισμού.
-keywords: [Aspose.Words, .NET, paragraph formatting, Word document, document builder, alignment, indentation, Word API]
-url: /el/net/document-styling/paragraph-formatting/
+"description": "Μάθετε πώς να μορφοποιείτε παραγράφους σε ένα έγγραφο του Word με το Aspose.Words για .NET, συμπεριλαμβανομένης της στοίχισης, της εσοχής και της απόστασης."
+"title": "Μορφοποίηση παραγράφων χρησιμοποιώντας Aspose.Words για .NET"
+"url": "/el/net/document-styling/paragraph-formatting/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Τροποποίηση των Παραγράφων Χρησιμοποιώντας "Αποθέστε.Παράξεις"
-Αυτό το οδηγό παρέχει ένα παράδειγμα για το πώς να μορφοποιείτε παραγράφους σε ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words για το .NET. Θα μάθετε πώς να ρυθμίσετε διάφορες επιλογές μορφοποίησης παραγράφων όπως ευθυγράμμιση, εντάσεις και χώρος μετά από παραγράφους. Το παράδειγμα απεικονίζει τη χρήση των κατηγοριών Document και DocumentBuilder, επιτρέποντας τη δημιουργία καλά δομημένων εγγράφων προγραμματικά.
+# Μορφοποίηση παραγράφων χρησιμοποιώντας το Aspose.Words
+Αυτός ο οδηγός παρέχει ένα παράδειγμα για το πώς να μορφοποιήσετε παραγράφους σε ένα έγγραφο του Word χρησιμοποιώντας το Aspose.Words για .NET. Θα μάθετε πώς να ορίσετε διάφορες επιλογές μορφοποίησης παραγράφων, όπως στοίχιση, εσοχή και κενό μετά τις παραγράφους. Το παράδειγμα δείχνει τη χρήση των κλάσεων Document και DocumentBuilder, επιτρέποντας τη δημιουργία καλά δομημένων εγγράφων μέσω προγραμματισμού.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/document-styling/multilevel-list-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Διδασκαλίες εγκατάστασης
-1. Κατεβάστε Aspose.Words για .NET: Επισκεφτείτε το [Στόχος ιστοσελίδα](https://www.aspose.com/downloads/words/net)Για να κατεβάσετε την τελευταία έκδοση του Aspose.Words για .NET.
+## Οδηγίες εγκατάστασης
+1. Λήψη του Aspose.Words για .NET: Επισκεφθείτε το [Ιστότοπος Aspose](https://www.aspose.com/downloads/words/net) για να κατεβάσετε την τελευταία έκδοση του Aspose.Words για .NET.
 
-2. Προσθήκη Αναφοράς: Στο έργο .NET, κάντε δεξί κλικ στο έργο στο Εξερευνητή Λύσης, επιλέξτε Προσθήκη > Αναφορά και περιηγηθείτε για να προσθέσετε το αρχείο DLL Aspose.Words.
+2. Προσθήκη αναφοράς: Στο έργο .NET, κάντε δεξί κλικ στο έργο στην Εξερεύνηση λύσεων, επιλέξτε Προσθήκη > Αναφορά και περιηγηθείτε για να προσθέσετε το αρχείο DLL Aspose.Words.
 
-3. Χρησιμοποιώντας το NuGet Package (Επιλογικό): Εναλλακτικά, μπορείτε να εγκαταστήσετε το Aspose.Words μέσω του διαχειριστή πακέτου NuGet με την ακόλουθη εντολή:
+3. Χρήση του πακέτου NuGet (Προαιρετικό): Εναλλακτικά, μπορείτε να εγκαταστήσετε το Aspose.Words μέσω του NuGet Package Manager με την ακόλουθη εντολή:
    ```
    Install-Package Aspose.Words
    ```
 
-4. Εισαγωγή Χώρου ονομάτων: Προσθέστε το ακόλουθο χρησιμοποιώντας δήλωση στο αρχείο κωδικού σας:
+4. Εισαγωγή χώρου ονομάτων: Προσθέστε τα ακόλουθα χρησιμοποιώντας την εντολή στο αρχείο κώδικά σας:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
-5. Εφαρμογή άδειας (Επιαιρετική):  
-   Για να χρησιμοποιήσεις την πλήρη έκδοση,[να εφαρμόσει άδεια](https://purchase.aspose.com/temporary-license/)ή χρησιμοποιήστε [δωρεάν δοκιμή](https://releases.aspose.com/words/net/)\- Δεν ξέρω .  
+5. Εφαρμογή Άδειας Χρήσης (Προαιρετικό):  
+   Για να χρησιμοποιήσετε την πλήρη έκδοση, [αίτηση άδειας](https://purchase.aspose.com/temporary-license/) ή χρησιμοποιήστε ένα [δωρεάν δοκιμή](https://releases.aspose.com/words/net/).  
 
 
 ## Δείτε επίσης
-[Aspose.Word για έγγραφο .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word για .NET References](https://reference.aspose.com/words/net/)
+[Aspose.Word για τεκμηρίωση .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word για αναφορές .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}

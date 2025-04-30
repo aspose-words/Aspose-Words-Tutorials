@@ -1,34 +1,38 @@
 ---
-title: Insérer une image en ligne dans le document Word en utilisant Aspose.Words
-weight: 7700
-limit: 
-description: Apprenez à insérer une image en ligne dans un document Word avec Aspose.Words pour .NET dans cet exemple étape par étape.
-keywords: [Aspose.Words, .NET, inline image, Word document, DocumentBuilder, image insertion, code example]
-url: /fr/net/add-content-using-document-builder/insert-inline-image/
+"description": "Découvrez comment insérer une image en ligne dans un document Word avec Aspose.Words pour .NET dans cet exemple étape par étape."
+"title": "Insérer une image en ligne dans un document Word à l'aide d'Aspose.Words"
+"url": "/fr/net/add-content-using-document-builder/insert-inline-image/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Insérer une image en ligne dans le document Word en utilisant Aspose.Words
-Cet exemple montre comment insérer une image en ligne dans un document Word à l'aide de la bibliothèque Aspose.Words pour .NET. En utilisant le `Créateur de documents`class, vous pouvez facilement positionner et insérer des images à l'emplacement actuel du curseur dans votre document. Ce guide fournit une mise en œuvre simple pour vous aider à commencer à gérer les images dans les documents Word.
+# Insérer une image en ligne dans un document Word à l'aide d'Aspose.Words
+Cet exemple montre comment insérer une image en ligne dans un document Word à l'aide de la bibliothèque Aspose.Words pour .NET. `DocumentBuilder` Vous pouvez facilement positionner et insérer des images à l'emplacement actuel du curseur dans votre document. Ce guide propose une implémentation simple pour vous aider à démarrer avec la gestion des images dans les documents Word.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-inline-image" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instructions d'installation
-1. Installez Aspose.Words pour .NET:
-   * Utilisez le gestionnaire de paquets NuGet dans Visual Studio.
-   * Exécutez la commande suivante dans la console de gestion de paquets:
+1. Installer Aspose.Words pour .NET :
+   - Utilisez le gestionnaire de packages NuGet dans Visual Studio.
+   - Exécutez la commande suivante dans la console du gestionnaire de packages :
      ```
      Install-Package Aspose.Words
      ```
 
-2. Définissez votre projet:
-   * Créez un nouveau projet .NET ou ouvrez un projet existant.
-   * Ajoutez les directives nécessaires en haut de votre fichier de code:
+2. Configurez votre projet :
+   - Créez un nouveau projet .NET ou ouvrez-en un existant.
+   - Ajoutez les directives using nécessaires en haut de votre fichier de code :
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Drawing;
@@ -36,11 +40,15 @@ Cet exemple montre comment insérer une image en ligne dans un document Word à 
 
 
 ## Voir aussi
-[Aspose.Word pour la documentation .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word pour les références .NET](https://reference.aspose.com/words/net/)
+[Documentation Aspose.Word pour .NET](https://docs.aspose.com/words/net/)
+[Références Aspose.Word pour .NET](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

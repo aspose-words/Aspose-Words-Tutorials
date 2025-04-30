@@ -1,38 +1,46 @@
 ---
-title: .NETでコンテンツ表を備えたWordドキュメントを作成する
-weight: 7700
-limit: 
-description: .NET のAspose.Wordsを使用して,内容表でWord文書を作成する方法を学びます.
-keywords: [Aspose.Words, .NET, Word document, Table of Contents, DocumentBuilder, example, code snippet]
-url: /ja/net/add-content-using-document-builder/insert-table-contents/
+"description": "Aspose.Words for .NET を使用して、目次付きのWord文書を作成する方法を学びます。ステップバイステップのガイド付き。"
+"title": ".NET で目次付きの Word 文書を作成する"
+"url": "/ja/net/add-content-using-document-builder/insert-table-contents/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 内容表 を 持つ ワード 文書 を 作成 する
-この例では,ドキュメントビルダークラスを使用して生成されたインタラクティブなコンテンツ表 (TOC) を含むWord文書を作成するために .NETのAspose.Wordsを使用する方法を示しています.コードは,さまざまなレベルの見出しを挿入し,フォーマットし,結果となるドキュメントを .docxファイルとして保存する方法を示しています.簡単な実装のために,以下の手順に従ってください.
+# 目次付きのWord文書を作成する
+この例では、Aspose.Words for .NET を使用して、DocumentBuilder クラスで生成されたインタラクティブな目次（TOC）を含むWord文書を作成する方法を示します。このコードは、様々なレベルの見出しを挿入し、書式設定し、結果の文書を.docxファイルとして保存する方法を示しています。簡単な実装については、以下の手順に従ってください。
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-table-contents" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 設置指示
-1. 必須条件: コンピュータに .NET がインストールされていることを確認します.
-2. Aspose.Wordsをインストールする 
-   * NuGet パッケージ管理コンソールを使用します:
+## インストール手順
+1. 前提条件: マシンに .NET がインストールされていることを確認します。
+2. Aspose.Words をインストールします。 
+   - NuGet パッケージ マネージャー コンソールを使用します。
      ```
      Install-Package Aspose.Words
      ```
-   * または NuGet パッケージマネージャー GUI で "Aspose.Words" を検索してください.
+   - または、NuGet パッケージ マネージャー GUI で「Aspose.Words」を検索します。
 
-## また見てください
-[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
-[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
+## こちらもご覧ください
+[Aspose.Word for .NET ドキュメント](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET リファレンス](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

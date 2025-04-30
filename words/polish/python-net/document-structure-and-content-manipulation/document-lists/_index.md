@@ -1,14 +1,16 @@
 ---
-title: Tworzenie i zarządzanie listami w dokumentach programu Word
-linktitle: Tworzenie i zarządzanie listami w dokumentach programu Word
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Dowiedz się, jak tworzyć i zarządzać listami w dokumentach Worda za pomocą Aspose.Words Python API. Przewodnik krok po kroku z kodem źródłowym do formatowania list, dostosowywania, zagnieżdżania i nie tylko.
-weight: 18
-url: /pl/python-net/document-structure-and-content-manipulation/document-lists/
+"description": "Dowiedz się, jak tworzyć i zarządzać listami w dokumentach Worda za pomocą Aspose.Words Python API. Przewodnik krok po kroku z kodem źródłowym do formatowania list, dostosowywania, zagnieżdżania i nie tylko."
+"linktitle": "Tworzenie i zarządzanie listami w dokumentach programu Word"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Tworzenie i zarządzanie listami w dokumentach programu Word"
+"url": "/pl/python-net/document-structure-and-content-manipulation/document-lists/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tworzenie i zarządzanie listami w dokumentach programu Word
@@ -22,31 +24,31 @@ Listy występują w dwóch podstawowych typach: punktowane i numerowane. Umożli
 
 ## Konfigurowanie środowiska
 
- Zanim przejdziemy do tworzenia i zarządzania listami, upewnij się, że masz zainstalowaną bibliotekę Aspose.Words for Python. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/python/) . Dodatkowo zapoznaj się z dokumentacją API na stronie[ten link](https://reference.aspose.com/words/python-net/) Aby uzyskać szczegółowe informacje.
+Zanim przejdziemy do tworzenia i zarządzania listami, upewnij się, że masz zainstalowaną bibliotekę Aspose.Words for Python. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/python/)Dodatkowo zapoznaj się z dokumentacją API na stronie [ten link](https://reference.aspose.com/words/python-net/) Aby uzyskać szczegółowe informacje.
 
 ## Tworzenie list wypunktowanych
 
 Listy wypunktowane są używane, gdy kolejność elementów nie jest kluczowa. Aby utworzyć listę wypunktowaną za pomocą Aspose.Words Python, wykonaj następujące kroki:
 
 ```python
-# Import the necessary classes
+# Zaimportuj niezbędne klasy
 from aspose.words import Document, ListTemplate, ListLevel
 
-# Create a new document
+# Utwórz nowy dokument
 doc = Document()
 
-# Create a list template and add it to the document
+# Utwórz szablon listy i dodaj go do dokumentu
 list_template = ListTemplate(doc)
 doc.list_templates.add(list_template)
 
-# Add a list level to the template
+# Dodaj poziom listy do szablonu
 list_level = ListLevel(list_template)
 list_template.list_levels.append(list_level)
 
-# Customize the list formatting if needed
-list_level.number_format = "\u2022"  # Bullet character
+# W razie potrzeby dostosuj formatowanie listy
+list_level.number_format = "\u2022"  # Postać pocisku
 
-# Add list items
+# Dodaj elementy listy
 list_item_texts = ["Item 1", "Item 2", "Item 3"]
 for text in list_item_texts:
     paragraph = doc.builder.insert_paragraph()
@@ -61,21 +63,21 @@ for text in list_item_texts:
 Numerowane listy są odpowiednie, gdy kolejność elementów ma znaczenie. Oto jak możesz utworzyć numerowaną listę za pomocą Aspose.Words Python:
 
 ```python
-# Import the necessary classes
+# Zaimportuj niezbędne klasy
 from aspose.words import Document, ListTemplate, ListLevel
 
-# Create a new document
+# Utwórz nowy dokument
 doc = Document()
 
-# Create a list template and add it to the document
+# Utwórz szablon listy i dodaj go do dokumentu
 list_template = ListTemplate(doc)
 doc.list_templates.add(list_template)
 
-# Add a list level to the template
+# Dodaj poziom listy do szablonu
 list_level = ListLevel(list_template)
 list_template.list_levels.append(list_level)
 
-# Add list items
+# Dodaj elementy listy
 list_item_texts = ["Item A", "Item B", "Item C"]
 for text in list_item_texts:
     paragraph = doc.builder.insert_paragraph()
@@ -111,12 +113,12 @@ Po utworzeniu i dostosowaniu list możesz zapisać dokument w różnych formatac
 
 ## Wniosek
 
-W tym samouczku przyjrzeliśmy się sposobom tworzenia i zarządzania listami w dokumentach Worda przy użyciu interfejsu API Aspose.Words Python. Listy są niezbędne do skutecznego organizowania i prezentowania informacji. Postępując zgodnie z opisanymi tutaj krokami, możesz ulepszyć strukturę i atrakcyjność wizualną swoich dokumentów.
+tym samouczku przyjrzeliśmy się sposobom tworzenia i zarządzania listami w dokumentach Worda przy użyciu interfejsu API Aspose.Words Python. Listy są niezbędne do skutecznego organizowania i prezentowania informacji. Postępując zgodnie z opisanymi tutaj krokami, możesz ulepszyć strukturę i atrakcyjność wizualną swoich dokumentów.
 
 ## Często zadawane pytania
 
 ### Jak zainstalować Aspose.Words dla języka Python?
- Możesz pobrać bibliotekę z[ten link](https://releases.aspose.com/words/python/) i postępuj zgodnie z instrukcjami instalacji podanymi w dokumentacji.
+Możesz pobrać bibliotekę z [ten link](https://releases.aspose.com/words/python/) i postępuj zgodnie z instrukcjami instalacji podanymi w dokumentacji.
 
 ### Czy mogę dostosować styl numeracji moich list?
 Oczywiście! Aspose.Words Python pozwala dostosować formaty numeracji, style wypunktowania i wyrównanie, aby dostosować listy do Twoich konkretnych potrzeb.
@@ -128,10 +130,15 @@ Tak, możesz tworzyć zagnieżdżone listy, dodając podlisty do swojej listy g�
 Tak, Aspose.Words Python udostępnia metody umożliwiające parsowanie i formatowanie zwykłego tekstu do postaci list, co ułatwia strukturyzację treści.
 
 ### Jak mogę zapisać dokument po utworzeniu list?
- Możesz zapisać swój dokument za pomocą`doc.save()` metodę i określając pożądany format wyjściowy, np. DOCX lub PDF.
+Możesz zapisać swój dokument za pomocą `doc.save()` metodę i określając pożądany format wyjściowy, np. DOCX lub PDF.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

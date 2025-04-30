@@ -1,14 +1,16 @@
 ---
-title: Giải quyết tên phông chữ
-linktitle: Giải quyết tên phông chữ
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách giải quyết tên phông chữ trong tài liệu Word khi chuyển đổi sang HTML bằng Aspose.Words cho .NET. Hướng dẫn từng bước có giải thích chi tiết.
-weight: 10
-url: /vi/net/programming-with-htmlsaveoptions/resolve-font-names/
+"description": "Tìm hiểu cách giải quyết tên phông chữ trong tài liệu Word khi chuyển đổi sang HTML bằng Aspose.Words cho .NET. Hướng dẫn từng bước có giải thích chi tiết."
+"linktitle": "Giải quyết tên phông chữ"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Giải quyết tên phông chữ"
+"url": "/vi/net/programming-with-htmlsaveoptions/resolve-font-names/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Giải quyết tên phông chữ
@@ -21,8 +23,8 @@ Xin chào, các bạn lập trình viên! Nếu bạn từng thấy mình vật 
 
 Trước khi bắt đầu, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Nếu bạn chưa tải xuống, bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
-2.  Giấy phép hợp lệ: Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy) hoặc xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words cho .NET: Nếu bạn chưa tải xuống, bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
+2. Giấy phép hợp lệ: Bạn có thể mua giấy phép [đây](https://purchase.aspose.com/buy) hoặc xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 3. Kiến thức cơ bản về C# và .NET: Hướng dẫn này giả định rằng bạn đã nắm vững các khái niệm lập trình cơ bản trong C#.
 4. Visual Studio: Bất kỳ phiên bản nào hỗ trợ .NET framework.
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
 Giải thích:
- Đây,`dataDir` giữ đường dẫn đến thư mục tài liệu của bạn. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên hệ thống của bạn.
+Đây, `dataDir` giữ đường dẫn đến thư mục tài liệu của bạn. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên hệ thống của bạn.
 
 ## Bước 2: Tải tài liệu Word
 
@@ -58,7 +60,7 @@ Document doc = new Document(dataDir + "Missing font.docx");
 ```
 
 Giải thích:
- Chúng tôi tạo ra một`Document` đối tượng và tải tài liệu Word có tên "Missing font.docx" từ`dataDir`.
+Chúng tôi tạo ra một `Document` đối tượng và tải tài liệu Word có tên "Missing font.docx" từ `dataDir`.
 
 ## Bước 3: Cấu hình tùy chọn lưu HTML
 
@@ -73,7 +75,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html)
 ```
 
 Giải thích:
- Chúng tôi tạo ra một trường hợp của`HtmlSaveOptions` với`SaveFormat.Html` . Các`PrettyFormat` tùy chọn làm cho đầu ra HTML dễ đọc hơn và`ResolveFontNames` đảm bảo tên phông chữ được giải quyết.
+Chúng tôi tạo ra một trường hợp của `HtmlSaveOptions` với `SaveFormat.Html`. Các `PrettyFormat` tùy chọn làm cho đầu ra HTML dễ đọc hơn và `ResolveFontNames` đảm bảo tên phông chữ được giải quyết.
 
 ## Bước 4: Lưu tài liệu dưới dạng HTML
 
@@ -84,7 +86,7 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ResolveFontNames.html", saveOptio
 ```
 
 Giải thích:
- Chúng tôi gọi là`Save` phương pháp trên`Document` đối tượng, chỉ định đường dẫn đầu ra và các tùy chọn lưu mà chúng tôi đã cấu hình. Điều này sẽ tạo ra một tệp HTML với các tên phông chữ đã được giải quyết.
+Chúng tôi gọi là `Save` phương pháp trên `Document` đối tượng, chỉ định đường dẫn đầu ra và các tùy chọn lưu mà chúng tôi đã cấu hình. Điều này sẽ tạo ra một tệp HTML với các tên phông chữ đã được giải quyết.
 
 ## Phần kết luận
 
@@ -96,19 +98,24 @@ Và bạn đã có nó! Bằng cách làm theo các bước này, bạn đã gi�
 Aspose.Words for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, sửa đổi và chuyển đổi các tài liệu Word theo cách lập trình.
 
 ### Làm thế nào để cài đặt Aspose.Words cho .NET?
- Bạn có thể tải xuống Aspose.Words cho .NET từ[đây](https://releases.aspose.com/words/net/). Thực hiện theo hướng dẫn cài đặt được cung cấp trong tài liệu.
+Bạn có thể tải xuống Aspose.Words cho .NET từ [đây](https://releases.aspose.com/words/net/). Thực hiện theo hướng dẫn cài đặt được cung cấp trong tài liệu.
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET mà không cần giấy phép không?
- Có, nhưng nó sẽ có một số hạn chế. Để có đầy đủ chức năng, bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy) hoặc xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Có, nhưng nó sẽ có một số hạn chế. Để có đầy đủ chức năng, bạn có thể mua giấy phép [đây](https://purchase.aspose.com/buy) hoặc xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 
-### Tại sao phông chữ của tôi không hiển thị đúng trong HTML?
- Điều này có thể xảy ra nếu phông chữ không được giải quyết đúng cách trong quá trình chuyển đổi. Sử dụng`ResolveFontNames = true` TRONG`HtmlSaveOptions` có thể giúp khắc phục sự cố này.
+### Tại sao phông chữ của tôi không hiển thị chính xác trong HTML?
+Điều này có thể xảy ra nếu phông chữ không được giải quyết đúng cách trong quá trình chuyển đổi. Sử dụng `ResolveFontNames = true` TRONG `HtmlSaveOptions` có thể giúp khắc phục sự cố này.
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Words dành cho .NET ở đâu?
- Bạn có thể nhận được sự hỗ trợ từ[Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: आकृति का उपयोग करके चार्ट बनाएं और अनुकूलित करें
-linktitle: आकृति का उपयोग करके चार्ट बनाएं और अनुकूलित करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में चार्ट बनाना और उन्हें अनुकूलित करना सीखें। डेटा विज़ुअलाइज़ेशन के लिए बिल्कुल सही।
-weight: 10
-url: /hi/net/programming-with-charts/create-chart-using-shape/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में चार्ट बनाना और उन्हें कस्टमाइज़ करना सीखें। डेटा विज़ुअलाइज़ेशन के लिए बिल्कुल सही।"
+"linktitle": "आकृति का उपयोग करके चार्ट बनाएं और अनुकूलित करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "आकृति का उपयोग करके चार्ट बनाएं और अनुकूलित करें"
+"url": "/hi/net/programming-with-charts/create-chart-using-shape/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # आकृति का उपयोग करके चार्ट बनाएं और अनुकूलित करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-charts/create-chart-using-shape/
 
 कोड में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
--  Aspose.Words for .NET लाइब्रेरी: आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET लाइब्रेरी: आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 - विज़ुअल स्टूडियो: कोई भी संस्करण जो .NET का समर्थन करता है।
 - C# का बुनियादी ज्ञान: C# की मूल बातें समझने से आपको ट्यूटोरियल का अनुसरण करने में मदद मिलेगी।
 
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## चरण 2: चार्ट डालें
 
- इसके बाद, आप दस्तावेज़ में एक लाइन चार्ट डालेंगे।`DocumentBuilder.InsertChart` इस उद्देश्य के लिए विधि का उपयोग किया जाता है।
+इसके बाद, आप दस्तावेज़ में एक लाइन चार्ट डालेंगे। `DocumentBuilder.InsertChart` इस उद्देश्य के लिए विधि का उपयोग किया जाता है।
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
@@ -92,27 +94,32 @@ doc.Save(dataDir + "WorkingWithCharts.CreateChartUsingShape.docx");
 
 ### क्या मैं अन्य प्रकार के चार्ट बनाने के लिए Aspose.Words for .NET का उपयोग कर सकता हूँ?
 
- हां, .NET के लिए Aspose.Words विभिन्न चार्ट प्रकारों का समर्थन करता है, जिसमें बार चार्ट, पाई चार्ट और बहुत कुछ शामिल है। आप दस्तावेज़ देख सकते हैं[यहाँ](https://reference.aspose.com/words/net/) अधिक जानकारी के लिए.
+हां, .NET के लिए Aspose.Words विभिन्न चार्ट प्रकारों का समर्थन करता है, जिसमें बार चार्ट, पाई चार्ट और बहुत कुछ शामिल है। आप दस्तावेज़ देख सकते हैं [यहाँ](https://reference.aspose.com/words/net/) अधिक जानकारी के लिए.
 
 ### मैं खरीदने से पहले .NET के लिए Aspose.Words कैसे आज़मा सकता हूँ?
 
- आप यहां से निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/)इससे आपको खरीदारी करने से पहले लाइब्रेरी और उसकी सुविधाओं का परीक्षण करने का मौका मिलता है।
+आप यहां से निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/)इससे आपको खरीदारी करने से पहले लाइब्रेरी और उसकी सुविधाओं का परीक्षण करने का मौका मिलता है।
 
 ### यदि मुझे कोई समस्या आती है तो क्या सहायता पाने का कोई तरीका है?
 
- बिल्कुल। आप Aspose समुदाय फ़ोरम के माध्यम से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/words/8)समुदाय और Aspose स्टाफ बहुत उत्तरदायी हैं।
+बिल्कुल। आप Aspose समुदाय फ़ोरम के माध्यम से सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/words/8). समुदाय और Aspose स्टाफ बहुत उत्तरदायी हैं।
 
 ### मैं .NET के लिए Aspose.Words का लाइसेंस कैसे खरीदूं?
 
- आप सीधे Aspose वेबसाइट से लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy)विभिन्न आवश्यकताओं के अनुरूप विभिन्न लाइसेंसिंग विकल्प उपलब्ध हैं।
+आप सीधे Aspose वेबसाइट से लाइसेंस खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy)विभिन्न आवश्यकताओं के अनुरूप विभिन्न लाइसेंसिंग विकल्प उपलब्ध हैं।
 
 ### यदि मुझे किसी अल्पकालिक परियोजना के लिए अस्थायी लाइसेंस की आवश्यकता हो तो क्या होगा?
 
- Aspose अस्थायी लाइसेंस प्रदान करता है, जिसका आप अनुरोध कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+Aspose अस्थायी लाइसेंस प्रदान करता है, जिसका आप अनुरोध कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

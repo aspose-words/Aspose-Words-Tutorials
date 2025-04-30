@@ -1,14 +1,16 @@
 ---
-title: Zastosuj obramowanie i cieniowanie do akapitu w dokumencie Word
-linktitle: Zastosuj obramowanie i cieniowanie do akapitu w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Zastosuj obramowania i cieniowanie do akapitów w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ulepszyć formatowanie dokumentu.
-weight: 10
-url: /pl/net/document-formatting/apply-borders-and-shading-to-paragraph/
+"description": "Zastosuj obramowania i cieniowanie do akapitów w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ulepszyć formatowanie dokumentu."
+"linktitle": "Zastosuj obramowanie i cieniowanie do akapitu w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zastosuj obramowanie i cieniowanie do akapitu w dokumencie Word"
+"url": "/pl/net/document-formatting/apply-borders-and-shading-to-paragraph/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zastosuj obramowanie i cieniowanie do akapitu w dokumencie Word
@@ -21,10 +23,10 @@ Cześć, zastanawiałeś się kiedyś, jak sprawić, by Twoje dokumenty Word wyr
 
 Zanim zakasamy rękawy i zanurzymy się w kodowaniu, upewnijmy się, że mamy wszystko, czego potrzebujemy. Oto Twoja szybka lista kontrolna:
 
--  Aspose.Words dla .NET: Musisz mieć zainstalowaną tę bibliotekę. Możesz ją pobrać ze strony[Strona internetowa Aspose](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Musisz mieć zainstalowaną tę bibliotekę. Możesz ją pobrać ze strony [Strona internetowa Aspose](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Visual Studio lub inne środowisko IDE obsługujące platformę .NET.
 - Podstawowa znajomość języka C#: Wystarczająca do zrozumienia i modyfikowania fragmentów kodu.
-- Ważna licencja: Albo[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub kupiony od[Postawić](https://purchase.aspose.com/buy).
+- Ważna licencja: Albo [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub kupiony od [Postawić](https://purchase.aspose.com/buy).
 
 ## Importuj przestrzenie nazw
 
@@ -48,18 +50,18 @@ Po pierwsze, potrzebujemy miejsca, w którym zapiszemy nasz pięknie sformatowan
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- W tym katalogu zostanie zapisany Twój ostateczny dokument. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze.
+W tym katalogu zostanie zapisany Twój ostateczny dokument. Zastąp `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze.
 
 ## Krok 2: Utwórz nowy dokument i DocumentBuilder
 
- Następnie musimy utworzyć nowy dokument i`DocumentBuilder` obiekt.`DocumentBuilder` jest naszą magiczną różdżką, która pozwala nam manipulować dokumentem.
+Następnie musimy utworzyć nowy dokument i `DocumentBuilder` obiekt. `DocumentBuilder` jest naszą magiczną różdżką, która pozwala nam manipulować dokumentem.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Ten`Document` obiekt reprezentuje cały nasz dokument Word, a`DocumentBuilder` pomaga nam dodawać i formatować treść.
+Ten `Document` obiekt reprezentuje cały nasz dokument Word, a `DocumentBuilder` pomaga nam dodawać i formatować treść.
 
 ## Krok 3: Zdefiniuj obramowania akapitu
 
@@ -78,7 +80,7 @@ Tutaj ustawiamy 20-punktową odległość między tekstem a obramowaniem. Obramo
 
 ## Krok 4: Zastosuj cieniowanie do akapitu
 
-Obramowania są świetne, ale podnieśmy je o poziom wyżej, dodając trochę cieniowania. Użyjemy wzoru diagonalnego krzyża z mieszanką kolorów, aby wyróżnić nasz akapit.
+Obramowania są świetne, ale podnieśmy je o poziom wyżej, dodając trochę cieniowania. Użyjemy wzoru krzyża ukośnego z mieszanką kolorów, aby wyróżnić nasz akapit.
 
 ```csharp
 Shading shading = builder.ParagraphFormat.Shading;
@@ -107,32 +109,37 @@ Na koniec pora zapisać naszą pracę. Zapiszmy dokument w określonym katalogu 
 doc.Save(dataDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
 ```
 
- Zapisuje nasz dokument pod nazwą`DocumentFormatting.ApplyBordersAndShadingToParagraph.doc` w katalogu, który określiliśmy wcześniej.
+Zapisuje nasz dokument pod nazwą `DocumentFormatting.ApplyBordersAndShadingToParagraph.doc` w katalogu, który określiliśmy wcześniej.
 
 ## Wniosek
 
-I masz! Za pomocą zaledwie kilku linijek kodu przekształciliśmy zwykły akapit w wizualnie atrakcyjny element treści. Aspose.Words dla .NET sprawia, że dodawanie profesjonalnie wyglądającego formatowania do dokumentów jest niezwykle łatwe. Niezależnie od tego, czy przygotowujesz raport, list czy jakikolwiek dokument, te sztuczki pomogą Ci zrobić świetne wrażenie. Więc śmiało, wypróbuj je i zobacz, jak Twoje dokumenty ożywają!
+masz! Za pomocą zaledwie kilku linijek kodu przekształciliśmy zwykły akapit w wizualnie atrakcyjny element treści. Aspose.Words dla .NET sprawia, że dodawanie profesjonalnie wyglądającego formatowania do dokumentów jest niezwykle łatwe. Niezależnie od tego, czy przygotowujesz raport, list czy jakikolwiek dokument, te sztuczki pomogą Ci zrobić świetne wrażenie. Więc śmiało, wypróbuj je i zobacz, jak Twoje dokumenty ożywają!
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę użyć różnych stylów linii dla każdej ramki?  
- Oczywiście! Aspose.Words dla .NET pozwala dostosować każdą ramkę indywidualnie. Wystarczy ustawić`LineStyle` dla każdego rodzaju obramowania, jak pokazano w przewodniku.
+Oczywiście! Aspose.Words dla .NET pozwala dostosować każdą ramkę indywidualnie. Wystarczy ustawić `LineStyle` dla każdego rodzaju obramowania, jak pokazano w przewodniku.
 
 ### Jakie inne tekstury cieniowania są dostępne?  
- Możesz użyć kilku tekstur, takich jak jednolity, poziomy pasek, pionowy pasek i inne. Sprawdź[Dokumentacja Aspose](https://reference.aspose.com/words/net/) Aby zobaczyć pełną listę.
+Możesz użyć kilku tekstur, takich jak: jednolity, poziomy pasek, pionowy pasek i inne. Sprawdź [Dokumentacja Aspose](https://reference.aspose.com/words/net/) Aby zobaczyć pełną listę.
 
 ### Jak mogę zmienić kolor obramowania?  
- Możesz ustawić kolor obramowania za pomocą`Color` właściwość dla każdej granicy. Na przykład,`borders[BorderType.Left].Color = Color.Red;`.
+Możesz ustawić kolor obramowania za pomocą `Color` właściwość dla każdej granicy. Na przykład, `borders[BorderType.Left].Color = Color.Red;`.
 
 ### Czy można zastosować obramowanie i cieniowanie do określonej części tekstu?  
- Tak, możesz zastosować obramowanie i cieniowanie do określonych fragmentów tekstu za pomocą`Run` obiekt w`DocumentBuilder`.
+Tak, możesz zastosować obramowanie i cieniowanie do określonych fragmentów tekstu za pomocą `Run` obiekt w `DocumentBuilder`.
 
 ### Czy mogę zautomatyzować ten proces dla wielu akapitów?  
-Zdecydowanie! Możesz przejść przez akapity i zastosować te same ustawienia obramowania i cieniowania programowo.
+Zdecydowanie! Możesz przejść przez swoje akapity i zastosować te same ustawienia obramowania i cieniowania programowo.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

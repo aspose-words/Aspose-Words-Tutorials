@@ -1,14 +1,16 @@
 ---
-title: Nối và Thêm Tài liệu trong Aspose.Words cho Java
-linktitle: Tham gia và Thêm tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách nối và thêm tài liệu dễ dàng bằng Aspose.Words for Java. Giữ nguyên định dạng, quản lý tiêu đề, chân trang và nhiều hơn nữa.
-weight: 30
-url: /vi/java/document-manipulation/joining-and-appending-documents/
+"description": "Tìm hiểu cách nối và thêm tài liệu dễ dàng bằng Aspose.Words for Java. Giữ nguyên định dạng, quản lý tiêu đề, chân trang và nhiều hơn nữa."
+"linktitle": "Tham gia và Thêm tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Nối và Thêm Tài liệu trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/joining-and-appending-documents/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nối và Thêm Tài liệu trong Aspose.Words cho Java
@@ -130,26 +132,31 @@ Aspose.Words for Java cung cấp các công cụ linh hoạt và mạnh mẽ đ�
 
 ### Làm thế nào tôi có thể ghép các tài liệu có nhiều kiểu khác nhau một cách liền mạch?
 
- Để nối các tài liệu có nhiều kiểu khác nhau, hãy sử dụng`ImportFormatMode.USE_DESTINATION_STYLES` khi thêm vào.
+Để nối các tài liệu có nhiều kiểu khác nhau, hãy sử dụng `ImportFormatMode.USE_DESTINATION_STYLES` khi thêm vào.
 
 ### Tôi có thể giữ nguyên số trang khi thêm tài liệu không?
 
- Có, bạn có thể giữ nguyên số trang bằng cách sử dụng`convertNumPageFieldsToPageRef` phương pháp và cập nhật bố cục trang.
+Có, bạn có thể giữ nguyên số trang bằng cách sử dụng `convertNumPageFieldsToPageRef` phương pháp và cập nhật bố cục trang.
 
 ### Hành vi phong cách thông minh là gì?
 
- Hành vi phong cách thông minh giúp duy trì các phong cách nhất quán khi thêm tài liệu. Sử dụng nó với`ImportFormatOptions` để có kết quả tốt hơn.
+Hành vi phong cách thông minh giúp duy trì các phong cách nhất quán khi thêm tài liệu. Sử dụng nó với `ImportFormatOptions` để có kết quả tốt hơn.
 
 ### Tôi có thể xử lý hộp văn bản khi thêm tài liệu như thế nào?
 
-Bộ`importFormatOptions.setIgnoreTextBoxes(false)` để bao gồm các hộp văn bản trong khi thêm vào.
+Bộ `importFormatOptions.setIgnoreTextBoxes(false)` để bao gồm các hộp văn bản trong khi thêm vào.
 
 ### Tôi phải làm sao nếu muốn liên kết/hủy liên kết phần đầu trang và phần chân trang giữa các tài liệu?
 
- Bạn có thể liên kết tiêu đề và chân trang với`linkToPrevious(true)` hoặc hủy liên kết chúng với`linkToPrevious(false)` khi cần thiết.
+Bạn có thể liên kết tiêu đề và chân trang với `linkToPrevious(true)` hoặc hủy liên kết chúng với `linkToPrevious(false)` khi cần thiết.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

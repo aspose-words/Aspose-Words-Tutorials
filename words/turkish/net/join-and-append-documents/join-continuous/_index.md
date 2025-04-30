@@ -1,14 +1,16 @@
 ---
-title: Sürekli Katıl
-linktitle: Sürekli Katıl
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak iki Word belgesini sorunsuz bir şekilde birleştirmeyi öğrenin. Sorunsuz ve etkili bir belge birleştirme için adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/join-and-append-documents/join-continuous/
+"description": "Aspose.Words for .NET kullanarak iki Word belgesini sorunsuz bir şekilde birleştirmeyi öğrenin. Sorunsuz ve etkili bir belge birleştirme için adım adım kılavuzumuzu izleyin."
+"linktitle": "Sürekli Katıl"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Sürekli Katıl"
+"url": "/tr/net/join-and-append-documents/join-continuous/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sürekli Katıl
@@ -21,7 +23,7 @@ url: /tr/net/join-and-append-documents/join-continuous/
 
 Başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
--  Aspose.Words .NET için: Henüz yapmadıysanız, indirin ve kurun[Aspose.Words for .NET](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Henüz yapmadıysanız, indirin ve kurun [Aspose.Words .NET için](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio veya herhangi bir .NET geliştirme ortamını kullanabilirsiniz.
 - Örnek Belgeler: Birleştirmek istediğiniz iki Word belgeniz hazır olsun.
 
@@ -40,11 +42,11 @@ using Aspose.Words;
 Öncelikle belgelerinizin saklandığı dizini ayarlamamız gerekiyor. Bu, kodumuzun birleştirmek istediğimiz dosyaları bulmasını sağlayacaktır.
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` Belgelerinizin saklandığı gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` Belgelerinizin saklandığı gerçek yol ile.
 
 ## Adım 2: Kaynak ve Hedef Belgeleri Yükleyin
 
@@ -59,7 +61,7 @@ Kullanmak istediğiniz gerçek dosyalarla dosya adlarının ve yollarının eşl
 
 ## Adım 3: Bölüm Başlangıcını Sürekli Olarak Ayarlayın
 
- Kaynak belgenin içeriğinin hedef belgeden hemen sonra görünmesini sağlamak için,`SectionStart` kaynak belgedeki ilk bölümün mülkiyeti`Continuous`.
+Kaynak belgenin içeriğinin hedef belgeden hemen sonra görünmesini sağlamak için, `SectionStart` kaynak belgedeki ilk bölümün mülkiyeti `Continuous`.
 
 ```csharp
 // Belgenin, hedef belgenin içeriğinden hemen sonra görünmesini sağlayın.
@@ -77,7 +79,7 @@ Bu, birleştirildiğinde belgeler arasında herhangi bir kopukluk olmamasını s
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
- Kullanarak`ImportFormatMode.KeepSourceFormatting` Kaynak belgedeki biçimlendirmenin son birleştirilmiş belgede korunmasını sağlar.
+Kullanarak `ImportFormatMode.KeepSourceFormatting` Kaynak belgedeki biçimlendirmenin son birleştirilmiş belgede korunmasını sağlar.
 
 ## Adım 5: Birleştirilmiş Belgeyi Kaydedin
 
@@ -99,7 +101,7 @@ Ve işte oldu! Sadece birkaç satır kodla, Aspose.Words for .NET kullanarak iki
 Evet, birden fazla belgeyi birleştirme işlemini, ek belgeler yükleyerek ve bunları sırayla ekleyerek tekrarlayabilirsiniz.
 
 ### Orijinal biçimlendirme korunacak mı?
- Evet, kullanarak`ImportFormatMode.KeepSourceFormatting` kaynak belgedeki biçimlendirmenin korunmasını sağlar.
+Evet, kullanarak `ImportFormatMode.KeepSourceFormatting` kaynak belgedeki biçimlendirmenin korunmasını sağlar.
 
 ### Aspose.Words for .NET, .NET Core ile uyumlu mudur?
 Evet, Aspose.Words for .NET hem .NET Framework hem de .NET Core ile uyumludur.
@@ -108,10 +110,15 @@ Evet, Aspose.Words for .NET hem .NET Framework hem de .NET Core ile uyumludur.
 Evet, ancak kusursuz bir birleştirme sağlamak için sayfa düzeni özelliklerini ayarlamanız gerekebilir.
 
 ### Sorun yaşarsam nereden destek alabilirim?
- Aspose topluluk forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/words/8).
+Aspose topluluk forumundan destek alabilirsiniz [Burada](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

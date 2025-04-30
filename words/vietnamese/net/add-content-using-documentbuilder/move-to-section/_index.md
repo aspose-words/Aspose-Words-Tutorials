@@ -1,14 +1,16 @@
 ---
-title: Di chuyển đến phần trong tài liệu Word
-linktitle: Di chuyển đến phần trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Làm chủ việc di chuyển đến các phần khác nhau trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi.
-weight: 10
-url: /vi/net/add-content-using-documentbuilder/move-to-section/
+"description": "Làm chủ việc di chuyển đến các phần khác nhau trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi."
+"linktitle": "Di chuyển đến phần trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Di chuyển đến phần trong tài liệu Word"
+"url": "/vi/net/add-content-using-documentbuilder/move-to-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Di chuyển đến phần trong tài liệu Word
@@ -22,7 +24,7 @@ Trong thế giới kỹ thuật số ngày nay, tự động hóa là chìa khó
 Trước khi tìm hiểu mã, hãy đảm bảo bạn có mọi thứ cần thiết:
 
 1. Visual Studio: Bạn cần cài đặt Visual Studio trên máy tính của mình.
-2.  Aspose.Words cho .NET: Tải xuống và cài đặt Aspose.Words cho .NET từ[liên kết tải xuống](https://releases.aspose.com/words/net/).
+2. Aspose.Words cho .NET: Tải xuống và cài đặt Aspose.Words cho .NET từ [liên kết tải xuống](https://releases.aspose.com/words/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với ngôn ngữ lập trình C# sẽ có lợi.
 
 ## Nhập không gian tên
@@ -66,7 +68,7 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 ## Bước 4: Di chuyển đến phần đầu của tài liệu
 
-Khi bạn tạo ra một`DocumentBuilder` đối với một tài liệu, con trỏ mặc định sẽ ở ngay đầu.
+Khi bạn tạo ra một `DocumentBuilder` đối với một tài liệu, con trỏ mặc định sẽ ở ngay đầu.
 
 ```csharp
 builder = new DocumentBuilder(doc);
@@ -88,23 +90,28 @@ Aspose.Words for .NET giúp bạn dễ dàng thao tác các tài liệu Word the
 ## Câu hỏi thường gặp
 
 ### Làm thế nào để cài đặt Aspose.Words cho .NET?
- Bạn có thể tải xuống và cài đặt Aspose.Words cho .NET từ[liên kết tải xuống](https://releases.aspose.com/words/net/).
+Bạn có thể tải xuống và cài đặt Aspose.Words cho .NET từ [liên kết tải xuống](https://releases.aspose.com/words/net/).
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET với các ngôn ngữ .NET khác không?
 Có, Aspose.Words for .NET hỗ trợ mọi ngôn ngữ .NET, bao gồm VB.NET và F#.
 
 ### Có bản dùng thử miễn phí không?
- Có, bạn có thể truy cập bản dùng thử miễn phí từ[liên kết dùng thử miễn phí](https://releases.aspose.com/).
+Có, bạn có thể truy cập bản dùng thử miễn phí từ [liên kết dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Làm thế nào tôi có thể nhận được hỗ trợ cho Aspose.Words dành cho .NET?
- Bạn có thể nhận được sự hỗ trợ từ[Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8).
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET trong một dự án thương mại không?
- Có, nhưng bạn cần phải mua giấy phép từ[mua liên kết](https://purchase.aspose.com/buy).
+Có, nhưng bạn cần phải mua giấy phép từ [mua liên kết](https://purchase.aspose.com/buy).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

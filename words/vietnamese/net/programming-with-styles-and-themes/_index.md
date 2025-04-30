@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Themes và Styles trong Word Document
-linktitle: Xử lý từ ngữ với các phong cách và chủ đề
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu về cách sử dụng Themes và Styles trong Word Document với Aspose.Words cho .NET. Tìm hiểu cách tạo, áp dụng và tùy chỉnh các kiểu và chủ đề trong tài liệu Word của bạn với hướng dẫn từng bước và các mẫu mã C#.
-weight: 1410
-url: /vi/net/programming-with-styles-and-themes/
+"description": "Tìm hiểu về cách sử dụng Themes và Styles trong Word Document với Aspose.Words cho .NET. Tìm hiểu cách tạo, áp dụng và tùy chỉnh các kiểu và chủ đề trong tài liệu Word của bạn với hướng dẫn từng bước và các mẫu mã C#."
+"linktitle": "Xử lý từ ngữ với phong cách và chủ đề"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Sử dụng Themes và Styles trong Word Document"
+"url": "/vi/net/programming-with-styles-and-themes/"
+"weight": 1410
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Themes và Styles trong Word Document
@@ -20,16 +22,21 @@ Với các hướng dẫn này, bạn có thể hiểu cách sử dụng hiệu 
 Cho dù bạn là người mới bắt đầu hay là một nhà phát triển giàu kinh nghiệm, hướng dẫn Aspose.Words for .NET về Xử lý Words với các kiểu và chủ đề cung cấp cho bạn kiến thức và kỹ năng để tạo các tài liệu Word hấp dẫn, được định dạng tốt. Sử dụng các tài nguyên có giá trị này để nắm vững nghệ thuật thao tác các kiểu và chủ đề, và mang đến cho tài liệu của bạn nét chuyên nghiệp.
 
  ## Hướng dẫn
-| Tiêu đề | Sự miêu tả |
+| Tiêu đề | Mô tả |
 | --- | --- |
 | [Nhận Kiểu Tài Liệu Trong Word](./access-styles/) | Tìm hiểu cách lấy kiểu tài liệu trong Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết này. Truy cập và quản lý kiểu theo chương trình trong các ứng dụng .NET của bạn. |
 | [Sao chép kiểu tài liệu Word](./copy-styles/) | Tìm hiểu cách sao chép kiểu tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để đảm bảo định dạng tài liệu nhất quán một cách dễ dàng. |
-| [Nhận Thuộc Tính Chủ Đề Tài Liệu Trong Word](./get-theme-properties/) | Khám phá cách truy cập và quản lý thuộc tính chủ đề tài liệu trong Word bằng Aspose.Words cho .NET. Tìm hiểu cách lấy phông chữ và màu sắc với hướng dẫn của chúng tôi. |
+| [Nhận Thuộc Tính Chủ Đề Tài Liệu Trong Word](./get-theme-properties/) Khám phá cách truy cập và quản lý các thuộc tính chủ đề tài liệu trong Word bằng Aspose.Words cho .NET. Tìm hiểu cách lấy phông chữ và màu sắc với hướng dẫn của chúng tôi. |
 | [Thiết lập Thuộc tính Chủ đề trong Tài liệu Word](./set-theme-properties/) | Tìm hiểu cách thiết lập thuộc tính chủ đề trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tùy chỉnh phông chữ và màu sắc dễ dàng. |
 | [Chèn Bộ phân cách kiểu tài liệu trong Word](./insert-style-separator/) | Tìm hiểu cách chèn dấu phân cách kiểu tài liệu trong Word bằng Aspose.Words cho .NET. Hướng dẫn này cung cấp hướng dẫn và mẹo để quản lý kiểu tài liệu. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

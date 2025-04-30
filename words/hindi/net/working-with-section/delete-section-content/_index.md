@@ -1,14 +1,16 @@
 ---
-title: अनुभाग सामग्री हटाएं
-linktitle: अनुभाग सामग्री हटाएं
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में अनुभाग सामग्री को हटाना सीखें। यह चरण-दर-चरण मार्गदर्शिका कुशल दस्तावेज़ प्रबंधन सुनिश्चित करती है।
-weight: 10
-url: /hi/net/working-with-section/delete-section-content/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में अनुभाग सामग्री को हटाना सीखें। यह चरण-दर-चरण मार्गदर्शिका कुशल दस्तावेज़ प्रबंधन सुनिश्चित करती है।"
+"linktitle": "अनुभाग सामग्री हटाएं"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "अनुभाग सामग्री हटाएं"
+"url": "/hi/net/working-with-section/delete-section-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # अनुभाग सामग्री हटाएं
@@ -21,9 +23,9 @@ url: /hi/net/working-with-section/delete-section-content/
 
 इससे पहले कि हम कुछ कोड के साथ अपने हाथ गंदे करें, आइए सुनिश्चित करें कि आपके पास अनुसरण करने के लिए आवश्यक सभी चीजें हैं:
 
-1.  .NET लाइब्रेरी के लिए Aspose.Words: आप नवीनतम संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. .NET लाइब्रेरी के लिए Aspose.Words: आप नवीनतम संस्करण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: एक .NET-संगत IDE जैसे कि Visual Studio.
-3. C# का मूलभूत ज्ञान: C# के बारे में जानकारी होने से इस ट्यूटोरियल को समझना आसान हो जाएगा।
+3. C# का बुनियादी ज्ञान: C# के बारे में जानकारी होने से इस ट्यूटोरियल को समझना आसान हो जाएगा।
 4. नमूना वर्ड दस्तावेज़: परीक्षण के लिए एक वर्ड दस्तावेज़ तैयार रखें।
 
 ## नामस्थान आयात करें
@@ -40,7 +42,7 @@ using Aspose.Words;
 
 कोड में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास Aspose.Words लाइब्रेरी स्थापित है और काम करने के लिए एक नमूना Word दस्तावेज़ तैयार है।
 
-1.  Aspose.Words डाउनलोड और इंस्टॉल करें: आप इसे प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words डाउनलोड और इंस्टॉल करें: आप इसे प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. अपना प्रोजेक्ट सेट करें: Visual Studio खोलें और एक नया .NET प्रोजेक्ट बनाएं।
 3. Aspose.Words संदर्भ जोड़ें: अपने प्रोजेक्ट में Aspose.Words लाइब्रेरी शामिल करें।
 
@@ -49,14 +51,14 @@ using Aspose.Words;
 हमारे कोड में पहला चरण उस वर्ड दस्तावेज़ को लोड करना है जिससे हम अनुभाग सामग्री को हटाना चाहते हैं।
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
 - `string dataDir = "YOUR DOCUMENT DIRECTORY";` वह निर्देशिका पथ निर्दिष्ट करता है जहाँ आपका दस्तावेज़ संग्रहीत है.
-- `Document doc = new Document(dataDir + "Document.docx");` Word दस्तावेज़ को लोड करता है`doc` वस्तु।
+- `Document doc = new Document(dataDir + "Document.docx");` Word दस्तावेज़ को लोड करता है `doc` वस्तु।
 
 ## चरण 3: अनुभाग तक पहुंचें
 
@@ -76,7 +78,7 @@ Section section = doc.Sections[0];
 section.ClearContent();
 ```
 
-- `section.ClearContent();`निर्दिष्ट अनुभाग से सभी सामग्री को हटा देता है, तथा अनुभाग संरचना को बरकरार रखता है।
+- `section.ClearContent();` निर्दिष्ट अनुभाग से सभी सामग्री को हटा देता है, तथा अनुभाग संरचना को बरकरार रखता है।
 
 ## चरण 5: संशोधित दस्तावेज़ सहेजें
 
@@ -86,7 +88,7 @@ section.ClearContent();
 doc.Save(dataDir + "Document_Without_Section_Content.docx");
 ```
 
- प्रतिस्थापित करें`dataDir + "Document_Without_Section_Content.docx"` वास्तविक पथ के साथ जहाँ आप अपने संशोधित दस्तावेज़ को सहेजना चाहते हैं। कोड की यह पंक्ति निर्दिष्ट अनुभाग में सामग्री के बिना अपडेट की गई वर्ड फ़ाइल को सहेजती है।
+प्रतिस्थापित करें `dataDir + "Document_Without_Section_Content.docx"` वास्तविक पथ के साथ जहाँ आप अपने संशोधित दस्तावेज़ को सहेजना चाहते हैं। कोड की यह पंक्ति निर्दिष्ट अनुभाग में सामग्री के बिना अपडेट की गई वर्ड फ़ाइल को सहेजती है।
 
 ## निष्कर्ष
 
@@ -96,7 +98,7 @@ doc.Save(dataDir + "Document_Without_Section_Content.docx");
 
 ### मैं किसी दस्तावेज़ में एकाधिक अनुभागों की सामग्री कैसे साफ़ करूँ?
 
- आप दस्तावेज़ में प्रत्येक अनुभाग के माध्यम से पुनरावृति कर सकते हैं और कॉल कर सकते हैं`ClearContent()` प्रत्येक अनुभाग के लिए विधि.
+आप दस्तावेज़ में प्रत्येक अनुभाग के माध्यम से पुनरावृति कर सकते हैं और कॉल कर सकते हैं `ClearContent()` प्रत्येक अनुभाग के लिए विधि.
 
 ```csharp
 foreach (Section section in doc.Sections)
@@ -107,11 +109,11 @@ foreach (Section section in doc.Sections)
 
 ### क्या मैं अनुभाग स्वरूपण को प्रभावित किए बिना सामग्री साफ़ कर सकता हूँ?
 
- हाँ,`ClearContent()` केवल अनुभाग के भीतर की सामग्री को हटाता है तथा अनुभाग संरचना और स्वरूपण को बरकरार रखता है।
+हाँ, `ClearContent()` केवल अनुभाग के भीतर की सामग्री को हटाता है तथा अनुभाग संरचना और स्वरूपण को बरकरार रखता है।
 
 ### क्या यह विधि हेडर और फूटर को भी हटा देती है?
 
- नहीं,`ClearContent()` हेडर और फ़ुटर को प्रभावित नहीं करता है। हेडर और फ़ुटर साफ़ करने के लिए, आप इसका उपयोग करेंगे`ClearHeadersFooters()` तरीका।
+नहीं, `ClearContent()` हेडर और फ़ुटर को प्रभावित नहीं करता है। हेडर और फ़ुटर साफ़ करने के लिए, आप इसका उपयोग करेंगे `ClearHeadersFooters()` तरीका।
 
 ### क्या Aspose.Words for .NET Word दस्तावेज़ों के सभी संस्करणों के साथ संगत है?
 
@@ -119,10 +121,15 @@ foreach (Section section in doc.Sections)
 
 ### क्या मैं .NET के लिए Aspose.Words को निःशुल्क आज़मा सकता हूँ?
 
- हां, आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

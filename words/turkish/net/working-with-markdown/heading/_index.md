@@ -1,14 +1,16 @@
 ---
-title: Başlık
-linktitle: Başlık
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak belge biçimlendirmede ustalaşmayı öğrenin. Bu kılavuz, başlık ekleme ve Word belgelerinizi özelleştirme konusunda bir eğitim sağlar.
-weight: 10
-url: /tr/net/working-with-markdown/heading/
+"description": "Aspose.Words for .NET kullanarak belge biçimlendirmede ustalaşmayı öğrenin. Bu kılavuz, başlık ekleme ve Word belgelerinizi özelleştirme konusunda bir eğitim sağlar."
+"linktitle": "Başlık"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Başlık"
+"url": "/tr/net/working-with-markdown/heading/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Başlık
@@ -21,7 +23,7 @@ Günümüzün hızlı dijital dünyasında, iyi yapılandırılmış ve estetik 
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET: Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir uyumlu IDE.
 3. .NET Framework: Uygun .NET Framework'ün yüklü olduğundan emin olun.
 4. Temel C# Bilgisi: Temel C# programlamayı anlamak, örnekleri takip etmenize yardımcı olacaktır.
@@ -59,11 +61,11 @@ builder.Writeln("This is an H1 tag");
 Belgenizi daha düzenli hale getirmek için farklı düzeylerde birden fazla başlık ekleyelim.
 
 ```csharp
-// Başlık 1'i Ekleme
+// Başlık 1 Ekleniyor
 builder.ParagraphFormat.StyleName = "Heading 1";
 builder.Writeln("Introduction");
 
-// Başlık 2'yi Ekleme
+// Başlık 2 Ekleniyor
 builder.ParagraphFormat.StyleName = "Heading 2";
 builder.Writeln("Overview");
 
@@ -84,7 +86,7 @@ Evet, Aspose.Words for .NET, VB.NET ve F# dahil olmak üzere herhangi bir .NET d
 
 ### Aspose.Words for .NET'in ücretsiz deneme sürümünü nasıl edinebilirim?
 
- Ücretsiz deneme sürümünü şuradan alabilirsiniz:[Burada](https://releases.aspose.com/).
+Ücretsiz deneme sürümünü şu adresten alabilirsiniz: [Burada](https://releases.aspose.com/).
 
 ### Aspose.Words for .NET'te özel stiller eklemek mümkün müdür?
 
@@ -96,10 +98,15 @@ Evet, Aspose.Words for .NET performans için optimize edilmiştir ve büyük bel
 
 ### Daha fazla doküman ve desteği nerede bulabilirim?
 
- Ayrıntılı belgeler için şu adresi ziyaret edin:[Burada](https://reference.aspose.com/words/net/) Destek için şuraya göz atın:[forum](https://forum.aspose.com/c/words/8).
+Ayrıntılı belgeler için şu adresi ziyaret edin: [Burada](https://reference.aspose.com/words/net/)Destek için şuraya göz atın: [forum](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

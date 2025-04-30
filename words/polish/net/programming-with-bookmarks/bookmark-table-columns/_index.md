@@ -1,14 +1,16 @@
 ---
-title: Zakładki do kolumn tabeli w dokumencie Word
-linktitle: Zakładki do kolumn tabeli w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dodawać zakładki do kolumn tabeli w dokumencie programu Word za pomocą Aspose.Words for .NET, korzystając z tego kompleksowego samouczka krok po kroku.
-weight: 10
-url: /pl/net/programming-with-bookmarks/bookmark-table-columns/
+"description": "Dowiedz się, jak dodawać zakładki do kolumn tabeli w dokumencie programu Word za pomocą Aspose.Words for .NET, korzystając z tego kompleksowego samouczka krok po kroku."
+"linktitle": "Zakładki do kolumn tabeli w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zakładki do kolumn tabeli w dokumencie Word"
+"url": "/pl/net/programming-with-bookmarks/bookmark-table-columns/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zakładki do kolumn tabeli w dokumencie Word
@@ -21,7 +23,7 @@ Jeśli chcesz poprawić swoje umiejętności automatyzacji dokumentów, to czeka
 
 Zanim przejdziemy do kodu, jest kilka rzeczy, które musisz mieć na miejscu:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowany Aspose.Words dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowany Aspose.Words dla .NET. Możesz go pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Skonfiguruj środowisko programistyczne, np. Visual Studio.
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie pomocna.
 
@@ -39,7 +41,7 @@ Teraz omówimy ten proces szczegółowo, w poszczególnych krokach.
 
 ## Krok 1: Zainicjuj dokument i DocumentBuilder
 
- Najpierw musimy utworzyć nowy dokument Word i zainicjować go`DocumentBuilder` aby z nim pracować.
+Najpierw musimy utworzyć nowy dokument Word i zainicjować go `DocumentBuilder` aby z nim pracować.
 
 ```csharp
 Document doc = new Document();
@@ -121,20 +123,25 @@ I masz! Udało Ci się dodać zakładki do kolumn tabeli w dokumencie Word za po
 Aspose.Words for .NET to potężna biblioteka do programowej pracy z dokumentami Word. Umożliwia tworzenie, modyfikowanie i konwertowanie dokumentów bez konieczności instalowania programu Microsoft Word.
 
 ### Jak zainstalować Aspose.Words dla .NET?
- Aspose.Words dla .NET można pobrać ze strony[strona internetowa](https://releases.aspose.com/words/net/). Postępuj zgodnie z dostarczonymi instrukcjami instalacji.
+Aspose.Words dla .NET można pobrać ze strony [strona internetowa](https://releases.aspose.com/words/net/). Postępuj zgodnie z dostarczoną instrukcją instalacji.
 
 ### Czy mogę używać Aspose.Words dla .NET z innymi językami programowania?
 Tak, Aspose.Words dla .NET można używać z dowolnym językiem obsługiwanym przez platformę .NET, w tym C#, VB.NET i F#.
 
-### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Words dla .NET?
- Możesz uzyskać wsparcie od społeczności i ekspertów Aspose, odwiedzając stronę[forum wsparcia](https://forum.aspose.com/c/words/8).
+### Jak mogę uzyskać pomoc techniczną dotyczącą Aspose.Words dla .NET?
+Możesz uzyskać wsparcie od społeczności i ekspertów Aspose, odwiedzając stronę [forum wsparcia](https://forum.aspose.com/c/words/8).
 
 ### Czy jest dostępna wersja próbna Aspose.Words dla .NET?
- Tak, możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Tak, możesz otrzymać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

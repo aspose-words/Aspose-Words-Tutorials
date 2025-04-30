@@ -1,35 +1,39 @@
 ---
-title: Aplicar limites e sombras para parágrafo em Aspose.Words para .NET  
-weight: 7700
-limit: 
-description: Aprenda a aplicar limites e sombras a um parágrafo em documentos do Word usando Aspose.Words para .NET. Guia passo a passo com exemplo de código incluído.
-keywords: [Aspose.Words for .NET, paragraph formatting, borders, shading, Word documents, C# tutorial, document formatting]
-url: /pt/net/document-styling/apply-border-and-shading/
+"description": "Aprenda a aplicar bordas e sombreamento a um parágrafo em documentos do Word usando o Aspose.Words para .NET. Guia passo a passo com exemplo de código incluído."
+"title": "Aplicar bordas e sombreamento ao parágrafo no Aspose.Words para .NET"
+"url": "/pt/net/document-styling/apply-border-and-shading/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aplique limites e sombras ao parágrafo em Aspose.Words
-Aspose.Words para .NET permite que os desenvolvedores criem documentos Word com formato rico programaticamente. Este exemplo demonstra como aplicar fronteiras e sombras a um parágrafo em um documento Word usando Aspose.Words. Você aprenderá a definir fronteiras de duas linhas e sombras cruzadas diagonais com cores personalizadas para um visual elegante e profissional. O snippet de código C# fornecido simplifica o processo de implementação, tornando-o uma solução ideal para desenvolvedores que procuram melhorar a estética do documento programaticamente.  
+# Aplicar bordas e sombreamento ao parágrafo no Aspose.Words
+O Aspose.Words para .NET permite que desenvolvedores criem documentos do Word com rica formatação, programaticamente. Este exemplo demonstra como aplicar bordas e sombreamento a um parágrafo em um documento do Word usando o Aspose.Words. Você aprenderá a definir bordas de linha dupla e sombreamento diagonal com cores personalizadas para uma aparência elegante e profissional. O trecho de código C# fornecido simplifica o processo de implementação, tornando-o uma solução ideal para desenvolvedores que buscam aprimorar a estética do documento programaticamente.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/document-styling/apply-border-and-shading" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instruções de instalação  
 
-1. Descarregue Aspose.Words para .NET  
-   Obtenha a versão mais recente do [Aspose.Words para página de download .NET](https://releases.aspose.com/words/net/)\- Não .  
+1. Baixe Aspose.Words para .NET  
+   Obtenha a versão mais recente do [Página de download do Aspose.Words para .NET](https://releases.aspose.com/words/net/).  
 
-2. Instalação através de NuGet  
-   * Abre o teu projeto no Visual Studio.  
-   * Vai ao Gerente de Pacotes NuGet (`Ferramentas`> `Gerente de pacotes NuGet`> `Gerenciar os Pacotes NuGet para Solução..`)).  
-   * Procura por`Aspose.Words`e clique em`Instalação`\- Não .  
+2. Instalar via NuGet  
+   - Abra seu projeto no Visual Studio.  
+   - Acesse o Gerenciador de Pacotes NuGet (`Tools` > `NuGet Package Manager` > `Manage NuGet Packages for Solution...`).  
+   - Procurar `Aspose.Words` e clique `Install`.  
 
-3. Incluir espaços de nome  
-   Adicione os espaços de nomes necessários ao seu código:  
+3. Incluir namespaces  
+   Adicione os namespaces necessários ao seu código:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
@@ -37,10 +41,14 @@ Aspose.Words para .NET permite que os desenvolvedores criem documentos Word com 
 
 
 ## Veja também
-[Aspose.Word para Documentação .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word para Referências .NET](https://reference.aspose.com/words/net/)
+[Documentação do Aspose.Word para .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word para referências .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

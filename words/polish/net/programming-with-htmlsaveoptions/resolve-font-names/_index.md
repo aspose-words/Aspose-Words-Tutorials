@@ -1,14 +1,16 @@
 ---
-title: Rozwiąż nazwy czcionek
-linktitle: Rozwiąż nazwy czcionek
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak rozwiązywać nazwy czcionek w dokumentach Word podczas konwersji do HTML przy użyciu Aspose.Words dla .NET. Przewodnik krok po kroku ze szczegółowymi wyjaśnieniami.
-weight: 10
-url: /pl/net/programming-with-htmlsaveoptions/resolve-font-names/
+"description": "Dowiedz się, jak rozwiązywać nazwy czcionek w dokumentach Word podczas konwersji do HTML przy użyciu Aspose.Words dla .NET. Przewodnik krok po kroku ze szczegółowymi wyjaśnieniami."
+"linktitle": "Rozwiąż nazwy czcionek"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Rozwiąż nazwy czcionek"
+"url": "/pl/net/programming-with-htmlsaveoptions/resolve-font-names/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rozwiąż nazwy czcionek
@@ -21,8 +23,8 @@ Hej, kolego koderze! Jeśli kiedykolwiek zmagałeś się z problemami z czcionka
 
 Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, możesz to pobrać[Tutaj](https://releases.aspose.com/words/net/).
-2.  Ważna licencja: Możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, możesz to pobrać [Tutaj](https://releases.aspose.com/words/net/).
+2. Ważna licencja: Możesz kupić licencję [Tutaj](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 3. Podstawowa znajomość języka C# i .NET: W tym samouczku zakładamy, że znasz podstawowe koncepcje programowania w języku C#.
 4. Visual Studio: dowolna wersja obsługująca platformę .NET.
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
 Wyjaśnienie:
- Tutaj,`dataDir` zawiera ścieżkę do katalogu dokumentów. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką w Twoim systemie.
+Tutaj, `dataDir` zawiera ścieżkę do katalogu dokumentów. Zastąp `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką w Twoim systemie.
 
 ## Krok 2: Ładowanie dokumentu Word
 
@@ -58,7 +60,7 @@ Document doc = new Document(dataDir + "Missing font.docx");
 ```
 
 Wyjaśnienie:
- Tworzymy`Document` obiekt i załaduj dokument Word o nazwie „Brak czcionki.docx” z naszego`dataDir`.
+Tworzymy `Document` obiekt i załaduj dokument Word o nazwie „Brak czcionki.docx” z naszego `dataDir`.
 
 ## Krok 3: Konfigurowanie opcji zapisywania HTML
 
@@ -73,7 +75,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html)
 ```
 
 Wyjaśnienie:
- Tworzymy instancję`HtmlSaveOptions` z`SaveFormat.Html` . Ten`PrettyFormat` opcja ta sprawia, że wynik HTML jest bardziej czytelny i`ResolveFontNames` zapewnia, że nazwy czcionek zostaną rozpoznane.
+Tworzymy instancję `HtmlSaveOptions` z `SaveFormat.Html`. Ten `PrettyFormat` opcja ta sprawia, że wynik HTML jest bardziej czytelny i `ResolveFontNames` zapewnia, że nazwy czcionek zostaną rozpoznane.
 
 ## Krok 4: Zapisywanie dokumentu jako HTML
 
@@ -84,7 +86,7 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ResolveFontNames.html", saveOptio
 ```
 
 Wyjaśnienie:
- Nazywamy`Save` metoda na`Document` obiekt, określając ścieżkę wyjściową i skonfigurowane opcje zapisu. Spowoduje to wygenerowanie pliku HTML z rozwiązanymi nazwami czcionek.
+Nazywamy `Save` metoda na `Document` obiekt, określając ścieżkę wyjściową i skonfigurowane opcje zapisu. Spowoduje to wygenerowanie pliku HTML z rozwiązanymi nazwami czcionek.
 
 ## Wniosek
 
@@ -96,19 +98,24 @@ I masz! Postępując zgodnie z tymi krokami, udało Ci się pomyślnie rozwiąza
 Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programistom programowe tworzenie, modyfikowanie i konwertowanie dokumentów Word.
 
 ### Jak zainstalować Aspose.Words dla .NET?
- Możesz pobrać Aspose.Words dla .NET z[Tutaj](https://releases.aspose.com/words/net/). Postępuj zgodnie z instrukcjami instalacji podanymi w dokumentacji.
+Możesz pobrać Aspose.Words dla .NET z [Tutaj](https://releases.aspose.com/words/net/). Postępuj zgodnie z instrukcjami instalacji podanymi w dokumentacji.
 
 ### Czy mogę używać Aspose.Words dla .NET bez licencji?
- Tak, ale będzie miał pewne ograniczenia. Aby uzyskać pełną funkcjonalność, możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Tak, ale będzie mieć pewne ograniczenia. Aby uzyskać pełną funkcjonalność, możesz kupić licencję [Tutaj](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Dlaczego moje czcionki nie są prawidłowo wyświetlane w HTML?
- Może się tak zdarzyć, jeśli czcionki nie zostaną prawidłowo rozwiązane podczas konwersji. Używanie`ResolveFontNames = true` W`HtmlSaveOptions` może pomóc rozwiązać ten problem.
+Może się tak zdarzyć, jeśli czcionki nie zostaną prawidłowo rozwiązane podczas konwersji. Używanie `ResolveFontNames = true` W `HtmlSaveOptions` może pomóc rozwiązać ten problem.
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Words dla .NET?
- Możesz uzyskać wsparcie od[Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8).
+Możesz uzyskać wsparcie od [Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

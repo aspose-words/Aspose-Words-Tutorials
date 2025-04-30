@@ -1,14 +1,16 @@
 ---
-title: Belge Oluşturucu Olmadan ASKField Ekle
-linktitle: Belge Oluşturucu Olmadan ASKField Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'te Belge Oluşturucu kullanmadan bir ASK alanının nasıl ekleneceğini öğrenin. Word belgelerinizi dinamik olarak geliştirmek için bu kılavuzu izleyin.
-weight: 10
-url: /tr/net/working-with-fields/insert-askfield-with-out-document-builder/
+"description": "Aspose.Words for .NET'te Belge Oluşturucu kullanmadan bir ASK alanının nasıl ekleneceğini öğrenin. Word belgelerinizi dinamik olarak geliştirmek için bu kılavuzu izleyin."
+"linktitle": "Belge Oluşturucu Olmadan ASKField Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Belge Oluşturucu Olmadan ASKField Ekle"
+"url": "/tr/net/working-with-fields/insert-askfield-with-out-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Oluşturucu Olmadan ASKField Ekle
@@ -19,9 +21,9 @@ Aspose.Words for .NET ile belge otomasyonunda ustalaşmak mı istiyorsunuz? Doğ
 
 ## Ön koşullar
 
-Kodlarla uğraşmaya başlamadan önce her şeyin ayarlandığından emin olalım:
+Ellerimizi biraz kodla kirletmeden önce, her şeyin ayarlandığından emin olalım:
 
-1.  Aspose.Words for .NET: Bu kütüphanenin kurulu olduğundan emin olun. Eğer kurulu değilse, şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Bu kütüphanenin kurulu olduğundan emin olun. Eğer kurulu değilse, şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi uygun bir IDE.
 3. .NET Framework: .NET Framework'ün yüklü olduğundan emin olun.
 
@@ -38,7 +40,7 @@ using Aspose.Words.Fields;
 
 ## Adım 1: Yeni Bir Belge Oluşturun
 
-Bir ASK alanı ekleyebilmemiz için, üzerinde çalışacağımız bir belgeye ihtiyacımız var. Yeni bir belge oluşturma yöntemi şu şekildedir:
+Bir ASK alanı ekleyebilmemiz için, üzerinde çalışacağımız bir belgeye ihtiyacımız var. Yeni bir belge oluşturmanın yolu şöyledir:
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -52,7 +54,7 @@ Bu kod parçacığı, ASK alanımızı ekleyeceğimiz yeni bir Word belgesi olu�
 
 ## Adım 2: Paragraf Düğümüne Erişim
 
-Bir Word belgesinde içerik düğümlere ayrılmıştır. ASK alanımızı ekleyeceğimiz ilk paragraf düğümüne erişmemiz gerekir:
+Bir Word belgesinde içerik düğümlere ayrılmıştır. ASK alanımızı ekleyeceğimiz ilk paragraf düğümüne erişmemiz gerekiyor:
 
 ```csharp
 Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
@@ -109,7 +111,7 @@ Bu satır, eklenen ASK alanıyla belgeyi kaydeder. İşte bu kadar – belgeniz 
 
 ## Çözüm
 
-Tebrikler! .NET için Aspose.Words'ü kullanarak bir Word belgesine bir ASK alanı eklediniz. Bu özellik, kullanıcı etkileşimini önemli ölçüde iyileştirebilir ve belgeleri daha esnek ve kullanıcı dostu hale getirebilir. Aspose.Words'ün tüm potansiyelini ortaya çıkarmak için farklı alanlar ve özelliklerle denemeler yapmaya devam edin. İyi kodlamalar!
+Tebrikler! .NET için Aspose.Words'ü kullanarak bir Word belgesine bir ASK alanı eklediniz. Bu özellik, kullanıcı etkileşimini önemli ölçüde iyileştirerek belgeleri daha esnek ve kullanıcı dostu hale getirebilir. Aspose.Words'ün tüm potansiyelini ortaya çıkarmak için farklı alanlar ve özelliklerle denemeler yapmaya devam edin. İyi kodlamalar!
 
 ## SSS
 
@@ -119,17 +121,22 @@ Aspose.Words'deki ASK alanı, belge açıldığında kullanıcıdan belirli bir 
 ### Tek bir belgede birden fazla ASK alanı kullanabilir miyim?
 Evet, bir belgeye her biri benzersiz istemler ve yanıtlar içeren birden fazla ASK alanı ekleyebilirsiniz.
 
-###  Amacı nedir?`PromptOnceOnMailMerge` property?
- The`PromptOnceOnMailMerge` özellik, ASK isteminin bir posta birleştirme işlemi sırasında yalnızca bir kez mi yoksa her seferinde mi görüneceğini belirler.
+### Amacı nedir? `PromptOnceOnMailMerge` mülk?
+The `PromptOnceOnMailMerge` özellik, ASK isteminin bir posta birleştirme işlemi sırasında yalnızca bir kez mi yoksa her seferinde mi görüneceğini belirler.
 
 ### ASK alanının özelliklerini ayarladıktan sonra güncellemem gerekir mi?
 Evet, ASK alanının güncellenmesi tüm özelliklerin doğru şekilde uygulanmasını ve alanın beklendiği gibi çalışmasını sağlar.
 
 ### İstem metnini ve varsayılan yanıtı özelleştirebilir miyim?
 Kesinlikle! Özel istem metni ve varsayılan yanıtları ayarlayarak, ASK alanını özel ihtiyaçlarınıza göre uyarlayabilirsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

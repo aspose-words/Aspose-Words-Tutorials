@@ -1,14 +1,16 @@
 ---
-title: Belirli Seçeneklerle Metin Filigranı Ekle
-linktitle: Belirli Seçeneklerle Metin Filigranı Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinize belirli seçeneklerle metin filigranı eklemeyi öğrenin. Yazı tipini, boyutunu, rengini ve düzenini kolayca özelleştirin.
-weight: 10
-url: /tr/net/programming-with-watermark/add-text-watermark-with-specific-options/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinize belirli seçeneklerle metin filigranı eklemeyi öğrenin. Yazı tipini, boyutunu, rengini ve düzenini kolayca özelleştirin."
+"linktitle": "Belirli Seçeneklerle Metin Filigranı Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Belirli Seçeneklerle Metin Filigranı Ekle"
+"url": "/tr/net/programming-with-watermark/add-text-watermark-with-specific-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belirli Seçeneklerle Metin Filigranı Ekle
@@ -21,7 +23,7 @@ Filigranlar, Word belgelerinize şık ve işlevsel bir ek olabilir ve belgeleri 
 
 Başlamadan önce aşağıdakilerin yerinde olduğundan emin olun:
 
-1.  Aspose.Words for .NET Kütüphanesi: Aspose.Words kütüphanesinin kurulu olması gerekir. Eğer henüz yapmadıysanız, şuradan indirebilirsiniz:[Aspose.Words İndirme Bağlantısı](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Aspose.Words kütüphanesinin kurulu olması gerekir. Eğer henüz yapmadıysanız, şuradan indirebilirsiniz: [Aspose.Words İndirme Bağlantısı](https://releases.aspose.com/words/net/).
 2. C#'ın Temel Anlayışı: Bu eğitimde programlama dili olarak C# kullanılacaktır. C# sözdiziminin temel bir kavrayışı faydalı olacaktır.
 3. .NET Geliştirme Ortamı: .NET uygulamalarınızı oluşturabileceğiniz ve çalıştırabileceğiniz bir geliştirme ortamı (Visual Studio gibi) kurduğunuzdan emin olun.
 
@@ -37,7 +39,7 @@ using System.Drawing;
 
 ## Adım 1: Belgenizi Ayarlayın
 
- Öncelikle çalışmak istediğiniz belgeyi yüklemeniz gerekir. Bu eğitim için, şu adlı örnek belgeyi kullanacağız:`Document.docx`Bu belgenin belirttiğiniz dizinde bulunduğundan emin olun.
+Öncelikle çalışmak istediğiniz belgeyi yüklemeniz gerekir. Bu eğitim için, şu adlı örnek belgeyi kullanacağız: `Document.docx`Bu belgenin belirttiğiniz dizinde bulunduğundan emin olun.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -45,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- Bu adımda, belgenizin bulunduğu dizini tanımlarsınız ve onu bir örneğine yüklersiniz.`Document` sınıf.
+Bu adımda, belgenizin bulunduğu dizini tanımlarsınız ve onu bir örneğine yüklersiniz. `Document` sınıf.
 
 ## Adım 2: Filigran Seçeneklerini Yapılandırın
 
@@ -64,9 +66,9 @@ TextWatermarkOptions options = new TextWatermarkOptions()
 
 Her seçeneğin işlevi şöyledir:
 - `FontFamily`: Filigran metninin yazı tipini belirtir.
-- `FontSize`: Filigran metninin boyutunu ayarlar.
+- `FontSize`Filigran metninin boyutunu ayarlar.
 - `Color`: Filigran metninin rengini tanımlar.
-- `Layout`Filigranın yönünü (yatay veya çapraz) belirler.
+- `Layout`: Filigranın yönünü (yatay veya çapraz) belirler.
 - `IsSemitrasparent`: Filigranın yarı saydam olup olmayacağını ayarlar.
 
 ## Adım 3: Filigran Metnini Ekleyin
@@ -93,17 +95,17 @@ Bu kod parçacığı, değiştirilen belgeyi yeni bir dosya adıyla aynı dizine
 
 Aspose.Words for .NET kullanarak Word belgelerinize bir metin filigranı eklemek, yönetilebilir adımlara böldüğünüzde basit bir işlemdir. Bu öğreticiyi takip ederek, yazı tipi, boyut, renk, düzen ve şeffaflık dahil olmak üzere çeşitli filigran seçeneklerini nasıl yapılandıracağınızı öğrendiniz. Bu becerilerle, artık belgelerinizi ihtiyaçlarınızı daha iyi karşılayacak veya gizlilik veya markalama gibi temel bilgileri ekleyecek şekilde özelleştirebilirsiniz.
 
- Herhangi bir sorunuz varsa veya daha fazla yardıma ihtiyacınız varsa, şuraya göz atmaktan çekinmeyin:[Aspose.Words Belgeleri](https://reference.aspose.com/words/net/) veya ziyaret edin[Aspose Destek Forumu](https://forum.aspose.com/c/words/8) Daha fazla yardım için.
+Herhangi bir sorunuz varsa veya daha fazla yardıma ihtiyacınız varsa, şuraya göz atmaktan çekinmeyin: [Aspose.Words Belgeleri](https://reference.aspose.com/words/net/) veya ziyaret edin [Aspose Destek Forumu](https://forum.aspose.com/c/words/8) Daha fazla yardım için.
 
 ## SSS
 
 ### Filigran için farklı yazı tipleri kullanabilir miyim?
 
- Evet, sisteminizde yüklü olan herhangi bir yazı tipini belirterek seçebilirsiniz.`FontFamily` mülk`TextWatermarkOptions`.
+Evet, sisteminizde yüklü olan herhangi bir yazı tipini belirterek seçebilirsiniz. `FontFamily` mülk `TextWatermarkOptions`.
 
 ### Filigranın rengini nasıl değiştirebilirim?
 
- Filigranın rengini,`Color` mülk`TextWatermarkOptions` herhangi birine`System.Drawing.Color` değer.
+Filigranın rengini, `Color` mülk `TextWatermarkOptions` herhangi birine `System.Drawing.Color` değer.
 
 ### Bir belgeye birden fazla filigran eklemek mümkün müdür?
 
@@ -111,14 +113,19 @@ Aspose.Words, bir defada bir filigran eklemeyi destekler. Birden fazla filigran 
 
 ### Filigranın konumunu ayarlayabilir miyim?
 
- The`WatermarkLayout`özellik yönelimi belirler, ancak hassas konumlandırma ayarlamaları doğrudan desteklenmez. Tam yerleştirme için başka teknikler kullanmanız gerekebilir.
+The `WatermarkLayout` özellik yönelimi belirler, ancak hassas konumlandırma ayarlamaları doğrudan desteklenmez. Tam yerleştirme için başka teknikler kullanmanız gerekebilir.
 
 ### Yarı saydam bir filigrana ihtiyacım olursa ne olur?
 
- Ayarla`IsSemitrasparent`mülk`true` filigranınızı yarı saydam hale getirmek için.
+Ayarla `IsSemitrasparent` mülk `true` filigranınızı yarı saydam hale getirmek için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

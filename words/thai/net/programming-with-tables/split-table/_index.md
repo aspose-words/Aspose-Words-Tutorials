@@ -1,14 +1,16 @@
 ---
-title: ตารางแยก
-linktitle: ตารางแยก
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแบ่งตารางในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนของเราทำให้การจัดการตารางเป็นเรื่องง่ายและมีประสิทธิภาพ
-weight: 10
-url: /th/net/programming-with-tables/split-table/
+"description": "เรียนรู้วิธีแบ่งตารางในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนของเราทำให้การจัดการตารางเป็นเรื่องง่ายและมีประสิทธิภาพ"
+"linktitle": "ตารางแยก"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ตารางแยก"
+"url": "/th/net/programming-with-tables/split-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตารางแยก
@@ -21,7 +23,7 @@ url: /th/net/programming-with-tables/split-table/
 
 ก่อนที่จะเริ่มบทช่วยสอน ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1.  ไลบรารี Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ดาวน์โหลดและติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว คุณสามารถรับได้จาก[หน้าวางจำหน่าย Aspose](https://releases.aspose.com/words/net/).
+1. ไลบรารี Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ดาวน์โหลดและติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว คุณสามารถรับได้จาก [หน้าวางจำหน่าย Aspose](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: ตั้งค่าสภาพแวดล้อมการพัฒนาที่มีการรองรับ .NET framework เช่น Visual Studio
 3. เอกสารตัวอย่าง: เตรียมเอกสาร Word (`Tables.docx`) โดยมีตารางอย่างน้อยหนึ่งตารางเพื่อใช้การดำเนินการแยก
 
@@ -113,7 +115,7 @@ doc.Save(dataDir + "WorkingWithTables.SplitTable.docx");
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถแยกตารางเป็นหลายแถวได้ไหม
-ใช่ คุณสามารถแบ่งตารางเป็นหลายแถวได้โดยทำซ้ำขั้นตอนนี้สำหรับจุดแบ่งแต่ละจุด
+ใช่ คุณสามารถแบ่งตารางเป็นหลายแถวได้โดยทำซ้ำขั้นตอนเดียวกันสำหรับจุดแบ่งแต่ละจุด
 
 ### การจัดรูปแบบของตารางต้นฉบับจะเกิดอะไรขึ้น?
 ตารางใหม่จะสืบทอดการจัดรูปแบบของตารางเดิม การเปลี่ยนแปลงการจัดรูปแบบเฉพาะใดๆ สามารถนำไปใช้กับตารางใหม่ได้ตามต้องการ
@@ -126,9 +128,14 @@ doc.Save(dataDir + "WorkingWithTables.SplitTable.docx");
 
 ### ฉันสามารถทำให้กระบวนการนี้เป็นแบบอัตโนมัติสำหรับเอกสารหลายฉบับได้ไหม
 แน่นอน! คุณสามารถสร้างสคริปต์หรือแอปพลิเคชันเพื่อทำให้กระบวนการแยกตารางสำหรับเอกสารหลายฉบับเป็นแบบอัตโนมัติได้
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

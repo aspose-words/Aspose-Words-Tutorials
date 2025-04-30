@@ -1,14 +1,16 @@
 ---
-title: การใช้ Markdown ใน Aspose.Words สำหรับ Java
-linktitle: การใช้มาร์กดาวน์
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้การใช้ Markdown ใน Aspose.Words สำหรับ Java ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ สร้าง ออกแบบ และบันทึกเอกสาร Markdown ได้อย่างง่ายดาย
-weight: 19
-url: /th/java/using-document-elements/using-markdown/
+"description": "เรียนรู้การใช้ Markdown ใน Aspose.Words สำหรับ Java ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ สร้าง ออกแบบ และบันทึกเอกสาร Markdown ได้อย่างง่ายดาย"
+"linktitle": "การใช้มาร์กดาวน์"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การใช้ Markdown ใน Aspose.Words สำหรับ Java"
+"url": "/th/java/using-document-elements/using-markdown/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การใช้ Markdown ใน Aspose.Words สำหรับ Java
@@ -124,7 +126,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // ระบุรูปแบบ "หัวข้อ 1" ให้กับย่อหน้า
 builder.getParagraphFormat().setStyleName("Heading 1");
 builder.writeln("Heading 1");
-//รีเซ็ตรูปแบบจากย่อหน้าก่อนหน้าเพื่อไม่รวมรูปแบบระหว่างย่อหน้า
+// รีเซ็ตรูปแบบจากย่อหน้าก่อนหน้าเพื่อไม่รวมรูปแบบระหว่างย่อหน้า
 builder.getParagraphFormat().setStyleName("Normal");
 // แทรกไม้บรรทัดแนวนอน
 builder.insertHorizontalRule();
@@ -153,7 +155,7 @@ Style nestedQuote = doc.getStyles().add(StyleType.PARAGRAPH, "Quote1");
 nestedQuote.setBaseStyleName("Quote");
 builder.getParagraphFormat().setStyleName("Quote1");
 builder.writeln("A nested Quote block");
-// รีเซ็ตรูปแบบย่อหน้าเป็นปกติเพื่อหยุดการบล็อคคำพูด
+// รีเซ็ตรูปแบบย่อหน้าเป็นปกติเพื่อหยุดการบล็อคคำพูด 
 builder.getParagraphFormat().setStyleName("Normal");
 // ระบุไฮเปอร์ลิงก์สำหรับข้อความที่ต้องการ
 builder.getFont().setBold(true);
@@ -184,19 +186,24 @@ doc.save(outPath + "WorkingWithMarkdown.CreateMarkdownDocument.md");
    ใช่ คุณสามารถใช้ Aspose.Words สำหรับ Java เพื่อแปลงเอกสาร Markdown เป็นเอกสาร Word และในทางกลับกันได้
 
 ### Aspose.Words สำหรับ Java ใช้ได้ฟรีหรือไม่? 
-    Aspose.Words สำหรับ Java เป็นผลิตภัณฑ์เชิงพาณิชย์ และต้องมีใบอนุญาตจึงจะใช้งานได้ คุณสามารถขอรับใบอนุญาตได้จาก[ที่นี่](https://purchase.aspose.com/buy).
+   Aspose.Words สำหรับ Java เป็นผลิตภัณฑ์เชิงพาณิชย์ และต้องมีใบอนุญาตจึงจะใช้งานได้ คุณสามารถขอรับใบอนุญาตได้จาก [ที่นี่](https://purchase-aspose.com/buy).
 
 ### มีบทช่วยสอนหรือเอกสารประกอบสำหรับ Aspose.Words สำหรับ Java หรือไม่ 
-    ใช่ คุณสามารถค้นหาบทช่วยสอนและเอกสารประกอบที่ครอบคลุมเกี่ยวกับ[เอกสารประกอบ API ของ Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/).
+   ใช่ คุณสามารถค้นหาบทช่วยสอนและเอกสารประกอบที่ครอบคลุมเกี่ยวกับ [เอกสารประกอบ API ของ Aspose.Words สำหรับ Java](https://reference-aspose.com/words/java/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words สำหรับ Java ได้จากที่ไหน 
-    หากต้องการการสนับสนุนและความช่วยเหลือ คุณสามารถไปที่[ฟอรั่ม Aspose.Words สำหรับ Java](https://forum.aspose.com/).
+   หากต้องการการสนับสนุนและความช่วยเหลือ คุณสามารถไปที่ [ฟอรั่ม Aspose.Words สำหรับ Java](https://forum-aspose.com/).
 
 ตอนนี้คุณได้เข้าใจพื้นฐานอย่างเชี่ยวชาญแล้ว เริ่มสำรวจความเป็นไปได้อันไม่มีที่สิ้นสุดในการใช้ Aspose.Words สำหรับ Java ในโครงการประมวลผลเอกสารของคุณ
    
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

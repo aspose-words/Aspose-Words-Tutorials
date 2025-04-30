@@ -1,14 +1,16 @@
 ---
-title: Обработка слов с помощью таблицы содержания
-linktitle: Обработка слов с помощью таблицы содержания
-second_title: API обработки документов Aspose.Words
-description: Изучите программирование TOC в Aspose.Words для .NET. Узнайте, как создавать и управлять оглавлениями в документах Word с помощью пошаговых руководств и примеров кода C#.
-weight: 1420
-url: /ru/net/programming-with-table-of-content/
+"description": "Изучите программирование TOC в Aspose.Words для .NET. Узнайте, как создавать и управлять оглавлениями в документах Word с помощью пошаговых руководств и примеров кода C#."
+"linktitle": "Обработка слов с помощью таблицы содержания"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Обработка слов с помощью таблицы содержания"
+"url": "/ru/net/programming-with-table-of-content/"
+"weight": 1420
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Обработка слов с помощью таблицы содержания
@@ -20,13 +22,18 @@ url: /ru/net/programming-with-table-of-content/
 Независимо от того, являетесь ли вы новичком или опытным разработчиком, эти руководства помогут вам освоить передовые методы создания и поддержки профессиональных оглавлений в документах Word с помощью Aspose.Words для .NET. Улучшите организацию своих документов и упростите навигацию для пользователей с помощью этих всеобъемлющих и информативных руководств.
 
  ## Учебники
-| Заголовок | Описание |
+| Название | Описание |
 | --- | --- |
 | [Изменить стиль оглавления в документе Word](./change-style-of-toc-level/) | Узнайте, как изменить стиль TOC в документах Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Настройте свой TOC без усилий. |
 | [Изменение позиций табуляции оглавления в документе Word](./change-toc-tab-stops/) | Узнайте, как изменить позиции табуляции TOC в документах Word с помощью Aspose.Words для .NET. Это пошаговое руководство поможет вам создать профессионально выглядящее оглавление. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

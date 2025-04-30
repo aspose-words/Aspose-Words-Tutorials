@@ -1,14 +1,16 @@
 ---
-title: การจัดรูปแบบแบบอักษร
-linktitle: การจัดรูปแบบแบบอักษร
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีจัดรูปแบบแบบอักษรในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนโดยละเอียด
-weight: 10
-url: /th/net/working-with-fonts/font-formatting/
+"description": "เรียนรู้วิธีจัดรูปแบบแบบอักษรในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET พร้อมด้วยคำแนะนำทีละขั้นตอนโดยละเอียด"
+"linktitle": "การจัดรูปแบบแบบอักษร"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การจัดรูปแบบแบบอักษร"
+"url": "/th/net/working-with-fonts/font-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การจัดรูปแบบแบบอักษร
@@ -21,7 +23,7 @@ url: /th/net/working-with-fonts/font-formatting/
 
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1.  Aspose.Words สำหรับไลบรารี .NET: คุณสามารถดาวน์โหลดได้จาก[หน้าวางจำหน่าย Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับไลบรารี .NET: คุณสามารถดาวน์โหลดได้จาก [หน้าวางจำหน่าย Aspose](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE C# อื่นๆ
 3. ความรู้พื้นฐานเกี่ยวกับ C#: การทำความเข้าใจพื้นฐานของการเขียนโปรแกรม C# จะช่วยให้คุณทำตามตัวอย่างได้
 
@@ -37,10 +39,10 @@ using Aspose.Words;
 
 ## ขั้นตอนที่ 1: การตั้งค่าเอกสาร
 
- ในการเริ่มต้น ให้สร้างเอกสารใหม่และตั้งค่า`DocumentBuilder`-
+ในการเริ่มต้น ให้สร้างเอกสารใหม่และตั้งค่า `DocumentBuilder`-
 
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -83,7 +85,7 @@ doc.Save(dataDir + "WorkingWithFonts.FontFormatting.docx");
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถตั้งค่าคุณสมบัติแบบอักษรอื่น ๆ อะไรได้บ้างโดยใช้ Aspose.Words สำหรับ .NET
- คุณสามารถตั้งค่าคุณสมบัติต่างๆ เช่น ตัวเอียง ขีดเส้นใต้ ตัวห้อย ตัวยก และอื่นๆ ตรวจสอบ[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายการที่สมบูรณ์
+คุณสามารถตั้งค่าคุณสมบัติต่างๆ เช่น ตัวเอียง ขีดเส้นใต้ ตัวห้อย ตัวยก และอื่นๆ ตรวจสอบ [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายการที่สมบูรณ์
 
 ### ฉันสามารถเปลี่ยนแบบอักษรของข้อความที่มีอยู่ในเอกสารได้หรือไม่
 ใช่ คุณสามารถสำรวจเอกสารและเปลี่ยนแบบอักษรกับข้อความที่มีอยู่ได้ 
@@ -92,13 +94,18 @@ doc.Save(dataDir + "WorkingWithFonts.FontFormatting.docx");
 แน่นอน! คุณสามารถใช้แบบอักษรใดๆ ที่ติดตั้งในระบบของคุณหรือฝังแบบอักษรที่กำหนดเองลงในเอกสารได้โดยตรง
 
 ### ฉันจะนำแบบอักษรที่แตกต่างกันไปใช้กับส่วนต่างๆ ของข้อความได้อย่างไร
- ใช้หลาย ๆ`DocumentBuilder` อินสแตนซ์หรือสลับการตั้งค่าแบบอักษรระหว่าง`Write` เรียกร้องให้ใช้รูปแบบที่แตกต่างกันกับกลุ่มข้อความที่แตกต่างกัน
+ใช้หลาย ๆ `DocumentBuilder` อินสแตนซ์หรือสลับการตั้งค่าแบบอักษรระหว่าง `Write` เรียกร้องให้ใช้รูปแบบที่แตกต่างกันกับกลุ่มข้อความที่แตกต่างกัน
 
 ### Aspose.Words สำหรับ .NET รองรับรูปแบบเอกสารอื่นนอกเหนือจาก DOCX หรือไม่
 ใช่ รองรับรูปแบบต่างๆ เช่น PDF, HTML, EPUB และอื่นๆ อีกมากมาย 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

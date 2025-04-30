@@ -1,14 +1,16 @@
 ---
-title: การพิมพ์เอกสารด้วยการตั้งค่าหน้ากระดาษ
-linktitle: การพิมพ์เอกสารด้วยการตั้งค่าหน้ากระดาษ
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีพิมพ์เอกสารด้วยการตั้งค่าหน้าที่แม่นยำโดยใช้ Aspose.Words สำหรับ Java ปรับแต่งเค้าโครง ขนาดกระดาษ และอื่นๆ อีกมากมาย
-weight: 11
-url: /th/java/document-printing/printing-documents-page-setup/
+"description": "เรียนรู้วิธีพิมพ์เอกสารด้วยการตั้งค่าหน้าที่แม่นยำโดยใช้ Aspose.Words สำหรับ Java ปรับแต่งเค้าโครง ขนาดกระดาษ และอื่นๆ อีกมากมาย"
+"linktitle": "การพิมพ์เอกสารด้วยการตั้งค่าหน้ากระดาษ"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การพิมพ์เอกสารด้วยการตั้งค่าหน้ากระดาษ"
+"url": "/th/java/document-printing/printing-documents-page-setup/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การพิมพ์เอกสารด้วยการตั้งค่าหน้ากระดาษ
@@ -34,7 +36,7 @@ url: /th/java/document-printing/printing-documents-page-setup/
 
 หากต้องการใช้ Aspose.Words สำหรับ Java คุณจะต้องเพิ่มไลบรารีลงในโปรเจ็กต์ของคุณ ทำตามขั้นตอนเหล่านี้:
 
-1.  ดาวน์โหลดไลบรารี Aspose.Words สำหรับ Java จาก[ที่นี่](https://releases.aspose.com/words/java/).
+1. ดาวน์โหลดไลบรารี Aspose.Words สำหรับ Java จาก [ที่นี่](https://releases-aspose.com/words/java/).
 
 2. เพิ่มไฟล์ JAR ลงใน classpath ของโปรเจ็กต์ของคุณ
 
@@ -81,11 +83,11 @@ job.print();
 
 ### ฉันจะเปลี่ยนขนาดกระดาษของเอกสารได้อย่างไร?
 
- หากต้องการเปลี่ยนขนาดกระดาษของเอกสารของคุณ ให้ใช้`setPageWidth` และ`setPageHeight` วิธีการของ`PageSetup` คลาสและระบุมิติที่ต้องการเป็นหน่วยจุด
+หากต้องการเปลี่ยนขนาดกระดาษของเอกสารของคุณ ให้ใช้ `setPageWidth` และ `setPageHeight` วิธีการของ `PageSetup` คลาสและระบุมิติที่ต้องการเป็นหน่วยจุด
 
 ### ฉันสามารถพิมพ์เอกสารหลายฉบับได้ไหม
 
- ใช่ คุณสามารถพิมพ์เอกสารหลายฉบับได้โดยกำหนดจำนวนสำเนาในการตั้งค่าการพิมพ์ก่อนเรียกใช้งาน`print()` วิธี.
+ใช่ คุณสามารถพิมพ์เอกสารหลายฉบับได้โดยกำหนดจำนวนสำเนาในการตั้งค่าการพิมพ์ก่อนเรียกใช้งาน `print()` วิธี.
 
 ### Aspose.Words สำหรับ Java เข้ากันได้กับรูปแบบเอกสารต่างๆ หรือไม่
 
@@ -93,14 +95,19 @@ job.print();
 
 ### ฉันสามารถพิมพ์ไปยังเครื่องพิมพ์เฉพาะได้หรือไม่
 
- แน่นอน! คุณสามารถระบุเครื่องพิมพ์เฉพาะได้โดยใช้`setPrintService` วิธีการและให้สิ่งที่ต้องการ`PrintService` วัตถุ.
+แน่นอน! คุณสามารถระบุเครื่องพิมพ์เฉพาะได้โดยใช้ `setPrintService` วิธีการและให้สิ่งที่ต้องการ `PrintService` วัตถุ.
 
 ### ฉันจะบันทึกเอกสารที่พิมพ์เป็น PDF ได้อย่างไร?
 
 หากต้องการบันทึกเอกสารที่พิมพ์เป็น PDF คุณสามารถใช้ Aspose.Words สำหรับ Java เพื่อบันทึกเอกสารเป็นไฟล์ PDF หลังจากพิมพ์
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

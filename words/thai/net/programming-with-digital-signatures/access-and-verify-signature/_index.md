@@ -1,14 +1,16 @@
 ---
-title: เข้าถึงและตรวจสอบลายเซ็นในเอกสาร Word
-linktitle: เข้าถึงและตรวจสอบลายเซ็นในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เข้าถึงและตรวจสอบลายเซ็นดิจิทัลในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้ รับรองความถูกต้องของเอกสารได้อย่างง่ายดาย
-weight: 10
-url: /th/net/programming-with-digital-signatures/access-and-verify-signature/
+"description": "เข้าถึงและตรวจสอบลายเซ็นดิจิทัลในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้ รับรองความถูกต้องของเอกสารได้อย่างง่ายดาย"
+"linktitle": "เข้าถึงและตรวจสอบลายเซ็นในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "เข้าถึงและตรวจสอบลายเซ็นในเอกสาร Word"
+"url": "/th/net/programming-with-digital-signatures/access-and-verify-signature/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เข้าถึงและตรวจสอบลายเซ็นในเอกสาร Word
@@ -22,7 +24,7 @@ url: /th/net/programming-with-digital-signatures/access-and-verify-signature/
 ก่อนที่เราจะเจาะลึกรายละเอียดที่สำคัญ มีบางสิ่งบางอย่างที่คุณจะต้องมี:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว นี่คือที่ที่คุณจะเขียนและรันโค้ดของคุณ
-2.  Aspose.Words สำหรับ .NET: คุณจะต้องติดตั้ง Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/) อย่าลืมรับสิทธิ์ทดลองใช้ฟรี[ที่นี่](https://releases.aspose.com/) หากคุณยังไม่ได้ทำ!
+2. Aspose.Words สำหรับ .NET: คุณจะต้องติดตั้ง Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases.aspose.com/words/net/)อย่าลืมรับสิทธิ์ทดลองใช้ฟรี [ที่นี่](https://releases.aspose.com/) หากคุณยังไม่ได้ทำ!
 3. เอกสาร Word ที่ลงนามแบบดิจิทัล: มีเอกสาร Word ที่ลงนามแบบดิจิทัลแล้ว นี่คือไฟล์ที่คุณจะใช้เพื่อตรวจสอบลายเซ็น
 
 ## นำเข้าเนมสเปซ
@@ -56,7 +58,7 @@ using Aspose.Words.DigitalSignatures;
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร Word ที่ลงนามดิจิทัล
 
-ตอนนี้โครงการของคุณตั้งค่าเสร็จเรียบร้อยแล้ว มาโหลดเอกสาร Word ที่ได้รับการลงนามแบบดิจิทัลกัน
+ตอนนี้โครงการของคุณตั้งค่าเสร็จเรียบร้อยแล้ว มาโหลดเอกสาร Word ที่มีลายเซ็นดิจิทัลกัน
 
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
@@ -64,7 +66,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Digitally signed.docx");
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงไปยังไดเรกทอรีเอกสารของคุณ โค้ดนี้จะเริ่มต้นใหม่`Document` วัตถุและโหลดเอกสาร Word ที่คุณลงนาม
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงไปยังไดเรกทอรีเอกสารของคุณ โค้ดตัวอย่างนี้จะเริ่มต้นใหม่ `Document` วัตถุและโหลดเอกสาร Word ที่คุณลงนาม
 
 ## ขั้นตอนที่ 3: เข้าถึงลายเซ็นดิจิทัล
 
@@ -83,7 +85,7 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 }
 ```
 
-โค้ดนี้จะวนซ้ำลายเซ็นดิจิทัลแต่ละอันในเอกสารและพิมพ์รายละเอียดต่างๆ เกี่ยวกับลายเซ็นออกมา มาดูกันว่าแต่ละส่วนมีหน้าที่อะไรบ้าง:
+โค้ดนี้จะวนซ้ำลายเซ็นดิจิทัลแต่ละอันในเอกสารและพิมพ์รายละเอียดต่างๆ เกี่ยวกับลายเซ็นออกมา มาดูกันว่าแต่ละส่วนทำหน้าที่อะไร:
 
 1. พบลายเซ็น: ระบุว่าพบลายเซ็นแล้ว
 2. ถูกต้อง: ตรวจสอบว่าลายเซ็นถูกต้องหรือไม่
@@ -150,14 +152,19 @@ Aspose.Words สำหรับ .NET รองรับเอกสาร Micros
 
 ### ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.Words สำหรับ .NET ได้อย่างไร
 
- คุณสามารถรับใบอนุญาตชั่วคราวสำหรับ Aspose.Words สำหรับ .NET ได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/)ซึ่งจะทำให้คุณสามารถทดลองใช้ฟีเจอร์ทั้งหมดของไลบรารีได้โดยไม่มีข้อจำกัดใดๆ
+คุณสามารถรับใบอนุญาตชั่วคราวสำหรับ Aspose.Words สำหรับ .NET ได้จาก [ที่นี่](https://purchase.aspose.com/temporary-license/)ซึ่งจะทำให้คุณสามารถทดลองใช้ฟีเจอร์ทั้งหมดของไลบรารีได้โดยไม่มีข้อจำกัดใดๆ
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ใด
 
- คุณสามารถค้นหาเอกสารรายละเอียดสำหรับ Aspose.Words สำหรับ .NET ได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารรายละเอียดสำหรับ Aspose.Words สำหรับ .NET ได้ [ที่นี่](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

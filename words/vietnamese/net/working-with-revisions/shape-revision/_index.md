@@ -1,14 +1,16 @@
 ---
-title: Sửa đổi hình dạng
-linktitle: Sửa đổi hình dạng
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách xử lý các bản sửa đổi hình dạng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn toàn diện này. Làm chủ việc theo dõi các thay đổi, chèn hình dạng và nhiều hơn nữa.
-weight: 10
-url: /vi/net/working-with-revisions/shape-revision/
+"description": "Tìm hiểu cách xử lý các bản sửa đổi hình dạng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn toàn diện này. Làm chủ việc theo dõi các thay đổi, chèn hình dạng và nhiều hơn nữa."
+"linktitle": "Sửa đổi hình dạng"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Sửa đổi hình dạng"
+"url": "/vi/net/working-with-revisions/shape-revision/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sửa đổi hình dạng
@@ -21,7 +23,7 @@ Chỉnh sửa tài liệu Word theo chương trình có thể là một nhiệm 
 
 Trước khi tìm hiểu mã, hãy đảm bảo bạn có mọi thứ cần thiết:
 
--  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Bạn nên thiết lập một môi trường phát triển, chẳng hạn như Visual Studio.
 - Hiểu biết cơ bản về C#: Làm quen với ngôn ngữ lập trình C# và các khái niệm cơ bản về lập trình hướng đối tượng.
 - Tài liệu Word: Tài liệu Word để làm việc hoặc bạn có thể tạo một tài liệu trong quá trình hướng dẫn.
@@ -126,16 +128,21 @@ Aspose.Words for .NET là một thư viện mạnh mẽ cho phép các nhà phá
 Có, Aspose.Words for .NET hỗ trợ theo dõi những thay đổi ở nhiều thành phần khác nhau, bao gồm văn bản, bảng, v.v.
 
 ### Làm thế nào tôi có thể dùng thử miễn phí Aspose.Words cho .NET?
- Bạn có thể dùng thử miễn phí Aspose.Words cho .NET[đây](https://releases.aspose.com/).
+Bạn có thể dùng thử miễn phí Aspose.Words cho .NET [đây](https://releases.aspose.com/).
 
 ### Có thể chấp nhận hoặc từ chối sửa đổi theo chương trình không?
 Có, Aspose.Words cho .NET cung cấp các phương pháp để chấp nhận hoặc từ chối các bản sửa đổi theo cách lập trình.
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET với các ngôn ngữ .NET khác ngoài C# không?
 Hoàn toàn có thể! Aspose.Words cho .NET có thể được sử dụng với bất kỳ ngôn ngữ .NET nào, bao gồm VB.NET và F#.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

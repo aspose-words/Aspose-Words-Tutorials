@@ -1,14 +1,16 @@
 ---
-title: Xử lý văn bản với Macro VBA của Word
-linktitle: Xử lý văn bản với Macro VBA của Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách làm việc với macro VBA trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn đầy đủ với các mẫu mã để tạo, sửa đổi và chạy macro VBA trong tài liệu Word của bạn.
-weight: 1350
-url: /vi/net/working-with-vba-macros/
+"description": "Tìm hiểu cách làm việc với macro VBA trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn đầy đủ với các mẫu mã để tạo, sửa đổi và chạy macro VBA trong tài liệu Word của bạn."
+"linktitle": "Xử lý văn bản với Macro VBA của Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Xử lý văn bản với Macro VBA của Word"
+"url": "/vi/net/working-with-vba-macros/"
+"weight": 1350
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xử lý văn bản với Macro VBA của Word
@@ -20,16 +22,21 @@ Các hướng dẫn này cung cấp phương pháp thực hành để hiểu và
 Bằng cách làm theo các hướng dẫn này, bạn sẽ học cách sử dụng Aspose.Words cho .NET hiệu quả để quản lý macro VBA trong tài liệu Word của mình. Hướng dẫn từng bước, mẫu mã và mẹo hướng dẫn sẽ giúp bạn tự tin điều hướng các tính năng thao tác macro VBA. Cho dù bạn cần thêm macro mới, sửa đổi macro hiện có hay quản lý các mô-đun VBA, các hướng dẫn này sẽ cung cấp cho bạn kiến thức để thành công.
 
  ## Hướng dẫn
-| Tiêu đề | Sự miêu tả |
+| Tiêu đề | Mô tả |
 | --- | --- |
 | [Tạo dự án VBA](./create-vba-project/) | Học cách tạo dự án VBA trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tự động hóa tài liệu liền mạch! |
-| [Đọc Macro VBA](./read-vba-macros/) | Tôi học cách đọc macro VBA từ tài liệu Word bằng Aspose.Words cho .NET. Hãy làm theo hướng dẫn chi tiết của chúng tôi để tự động hóa tài liệu liền mạch! |
-| [Sửa đổi Macro VBA](./modify-vba-macros/) | Tìm hiểu cách sửa đổi macro VBA trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết, từng bước của chúng tôi để tự động hóa tài liệu liền mạch! |
+| [Đọc Macro VBA](./read-vba-macros/) | Tôi học cách đọc macro VBA từ tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi để tự động hóa tài liệu liền mạch! |
+| [Sửa đổi Macro VBA](./modify-vba-macros/) Tìm hiểu cách sửa đổi macro VBA trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết, từng bước của chúng tôi để tự động hóa tài liệu liền mạch! |
 | [Dự án Clone VBA](./clone-vba-project/) | Tìm hiểu cách sao chép các dự án VBA trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để thao tác tài liệu liền mạch!|
 | [Mô-đun Clone VBA](./clone-vba-module/) | Sao chép các mô-đun VBA trong tài liệu Word một cách dễ dàng với Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để thao tác tài liệu liền mạch! |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: ใช้การจัดรูปแบบแถว
-linktitle: ใช้การจัดรูปแบบแถว
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีใช้การจัดรูปแบบแถวในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อดูคำแนะนำโดยละเอียด
-weight: 10
-url: /th/net/programming-with-table-styles-and-formatting/apply-row-formatting/
+"description": "เรียนรู้วิธีใช้การจัดรูปแบบแถวในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อดูคำแนะนำโดยละเอียด"
+"linktitle": "ใช้การจัดรูปแบบแถว"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ใช้การจัดรูปแบบแถว"
+"url": "/th/net/programming-with-table-styles-and-formatting/apply-row-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ใช้การจัดรูปแบบแถว
@@ -21,7 +23,7 @@ url: /th/net/programming-with-table-styles-and-formatting/apply-row-formatting/
 
 ก่อนที่เราจะเจาะลึกโค้ด เรามาตรวจสอบก่อนว่าคุณมีทุกสิ่งที่จำเป็นสำหรับการเริ่มต้น:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก[หน้าวางจำหน่าย Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก [หน้าวางจำหน่าย Aspose](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: สภาพแวดล้อมการพัฒนา AC# เช่น Visual Studio
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# เป็นสิ่งจำเป็น
 4. ไดเรกทอรีเอกสาร: ไดเรกทอรีที่คุณจะบันทึกเอกสารของคุณ
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## ขั้นตอนที่ 2: เริ่มตารางใหม่
 
- ต่อไปเราจะเริ่มตารางใหม่โดยใช้`DocumentBuilder`วัตถุ นี่คือจุดที่เวทมนตร์เกิดขึ้น
+ต่อไปเราจะเริ่มตารางใหม่โดยใช้ `DocumentBuilder` วัตถุ. นี่คือจุดที่เวทมนตร์เกิดขึ้น
 
 ```csharp
 Table table = builder.StartTable();
@@ -102,22 +104,27 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx"
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถใช้การจัดรูปแบบที่แตกต่างกันกับแถวแต่ละแถวได้หรือไม่  
- ใช่ คุณสามารถปรับแต่งแต่ละแถวได้ทีละรายการโดยตั้งค่าคุณสมบัติที่แตกต่างกันสำหรับ`RowFormat`.
+ใช่ คุณสามารถปรับแต่งแต่ละแถวได้ทีละรายการโดยตั้งค่าคุณสมบัติที่แตกต่างกันสำหรับ `RowFormat`-
 
 ### ฉันจะปรับความกว้างของคอลัมน์ได้อย่างไร?  
- คุณสามารถตั้งค่าความกว้างของคอลัมน์ได้โดยใช้`CellFormat.Width` คุณสมบัติ.
+คุณสามารถตั้งค่าความกว้างของคอลัมน์ได้โดยใช้ `CellFormat.Width` คุณสมบัติ.
 
 ### ฉันสามารถรวมเซลล์ใน Aspose.Words สำหรับ .NET ได้หรือไม่  
- ใช่ คุณสามารถรวมเซลล์โดยใช้`CellMerge` ทรัพย์สินของ`CellFormat`.
+ใช่ คุณสามารถรวมเซลล์โดยใช้ `CellMerge` ทรัพย์สินของ `CellFormat`-
 
-### ฉันสามารถเพิ่มเส้นขอบให้กับแถวต่างๆ ได้ไหม  
- แน่นอน! คุณสามารถเพิ่มเส้นขอบให้กับแถวได้โดยการตั้งค่า`Borders` ทรัพย์สินของ`RowFormat`.
+### ฉันสามารถเพิ่มเส้นขอบให้กับแถวได้ไหม  
+แน่นอน! คุณสามารถเพิ่มเส้นขอบให้กับแถวได้โดยการตั้งค่า `Borders` ทรัพย์สินของ `RowFormat`-
 
 ### ฉันจะใช้การจัดรูปแบบตามเงื่อนไขกับแถวได้อย่างไร  
 คุณสามารถใช้ตรรกะเงื่อนไขในโค้ดของคุณเพื่อใช้การจัดรูปแบบที่แตกต่างกันตามเงื่อนไขที่เฉพาะเจาะจง
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

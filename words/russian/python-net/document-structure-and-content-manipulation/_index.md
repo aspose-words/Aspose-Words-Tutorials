@@ -1,14 +1,16 @@
 ---
-title: Структура документа и управление содержимым
-linktitle: Структура документа и управление содержимым
-second_title: API управления документами Python Aspose.Words
-description: Изучите руководства Aspose.Words для Python и .NET, уделяя особое внимание структуре документа и манипуляциям с содержимым. Узнайте, как эффективно перемещаться, извлекать и изменять элементы документа. Предоставляются примеры исходного кода.
-weight: 10
-url: /ru/python-net/document-structure-and-content-manipulation/
+"description": "Изучите руководства Aspose.Words для Python и .NET, уделяя особое внимание структуре документа и манипуляциям с содержимым. Узнайте, как эффективно перемещаться, извлекать и изменять элементы документа. Предоставляются примеры исходного кода."
+"linktitle": "Структура документа и управление содержимым"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Структура документа и управление содержимым"
+"url": "/ru/python-net/document-structure-and-content-manipulation/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Структура документа и управление содержимым
@@ -67,10 +69,14 @@ url: /ru/python-net/document-structure-and-content-manipulation/
 ### [Улучшение визуального контента с помощью текстовых полей в документах Word](./document-textboxes/)
 Улучшите визуальные эффекты документов с помощью Aspose.Words Python! Изучите пошаговые инструкции по созданию и настройке текстовых полей в документах Word. Улучшите макет, форматирование и стили контента для создания привлекательных документов.
 ### [Разблокировка расширенной автоматизации с помощью макросов VBA в документах Word](./document-vba-macros/)
- Откройте для себя расширенную автоматизацию в документах Word с помощью API Python Aspose.Words и макросов VBA. Изучите шаг за шагом исходный код и часто задаваемые вопросы. Повысьте производительность сейчас. Доступ на[Связь].
+Откройте для себя расширенную автоматизацию в документах Word с помощью API Python Aspose.Words и макросов VBA. Изучите пошаговое руководство с исходным кодом и часто задаваемыми вопросами. Повысьте производительность уже сейчас. Доступ по ссылке [Link].
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

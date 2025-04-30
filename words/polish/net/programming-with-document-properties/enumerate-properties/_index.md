@@ -1,14 +1,16 @@
 ---
-title: Wyliczanie właściwości
-linktitle: Wyliczanie właściwości
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wyliczać właściwości w dokumencie Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów o każdym poziomie umiejętności.
-weight: 10
-url: /pl/net/programming-with-document-properties/enumerate-properties/
+"description": "Dowiedz się, jak wyliczać właściwości w dokumencie Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów o każdym poziomie umiejętności."
+"linktitle": "Wyliczanie właściwości"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wyliczanie właściwości"
+"url": "/pl/net/programming-with-document-properties/enumerate-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyliczanie właściwości
@@ -21,7 +23,7 @@ Chcesz programowo pracować z dokumentami Word? Aspose.Words dla .NET to potęż
 
 Zanim przejdziemy do samouczka, jest kilka rzeczy, których będziesz potrzebować, żeby zacząć:
 
--  Aspose.Words dla .NET: Możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Zalecane jest środowisko Visual Studio, ale można użyć dowolnego środowiska IDE języka C#.
 - Podstawowa znajomość języka C#: Podstawowa znajomość języka C# ułatwi Ci zrozumienie tekstu.
 
@@ -49,7 +51,7 @@ using Aspose.Words.Properties;
 Następnie załadujmy dokument Word, z którym chcesz pracować. W tym przykładzie użyjemy dokumentu o nazwie „Properties.docx” znajdującego się w katalogu projektu.
 
 1. Zdefiniuj ścieżkę dokumentu: Określ ścieżkę do swojego dokumentu.
-2.  Załaduj dokument: Użyj Aspose.Words`Document` klasa do załadowania dokumentu.
+2. Załaduj dokument: Użyj Aspose.Words `Document` klasa do załadowania dokumentu.
 
 Oto kod:
 
@@ -71,7 +73,7 @@ Console.WriteLine("1. Document name: {0}", doc.OriginalFileName);
 
 Właściwości wbudowane to właściwości metadanych wstępnie zdefiniowane przez Microsoft Word. Obejmują one tytuł, autora i inne.
 
-1.  Dostęp do wbudowanych właściwości: Użyj`BuiltInDocumentProperties` kolekcja.
+1. Dostęp do wbudowanych właściwości: Użyj `BuiltInDocumentProperties` kolekcja.
 2. Pętla przez właściwości: iteruj po właściwościach i wyświetlaj ich nazwy i wartości.
 
 Oto kod:
@@ -87,7 +89,7 @@ foreach (DocumentProperty prop in doc.BuiltInDocumentProperties)
 
 Właściwości niestandardowe to zdefiniowane przez użytkownika właściwości metadanych. Mogą to być dowolne rzeczy, które chcesz dodać do dokumentu.
 
-1.  Dostęp do właściwości niestandardowych: Użyj`CustomDocumentProperties` kolekcja.
+1. Dostęp do właściwości niestandardowych: Użyj `CustomDocumentProperties` kolekcja.
 2. Pętla przez właściwości: iteruj po właściwościach i wyświetlaj ich nazwy i wartości.
 
 Oto kod:
@@ -106,23 +108,28 @@ masz to! Udało Ci się wyliczyć zarówno wbudowane, jak i niestandardowe wła�
 ## Najczęściej zadawane pytania
 
 ### Czy mogę dodać nowe właściwości do dokumentu?
- Tak, możesz dodać nowe właściwości niestandardowe za pomocą`CustomDocumentProperties` kolekcja.
+Tak, możesz dodać nowe właściwości niestandardowe za pomocą `CustomDocumentProperties` kolekcja.
 
 ### Czy korzystanie z Aspose.Words jest bezpłatne?
- Aspose.Words oferuje[bezpłatny okres próbny](https://releases.aspose.com/) i różne[opcje zakupu](https://purchase.aspose.com/buy).
+Aspose.Words oferuje [bezpłatny okres próbny](https://releases.aspose.com/) i różne [opcje zakupu](https://purchase.aspose.com/buy).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Words?
- Możesz uzyskać wsparcie od społeczności Aspose[Tutaj](https://forum.aspose.com/c/words/8).
+Możesz uzyskać wsparcie od społeczności Aspose [Tutaj](https://forum.aspose.com/c/words/8).
 
 ### Czy mogę używać Aspose.Words z innymi językami .NET?
 Tak, Aspose.Words obsługuje wiele języków .NET, w tym VB.NET.
 
 ### Gdzie mogę znaleźć więcej przykładów?
- Sprawdź[Dokumentacja Aspose.Words dla .NET](https://reference.aspose.com/words/net/) aby uzyskać więcej przykładów i szczegółowych informacji.
+Sprawdź [Dokumentacja Aspose.Words dla .NET](https://reference.aspose.com/words/net/) aby uzyskać więcej przykładów i szczegółowych informacji.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

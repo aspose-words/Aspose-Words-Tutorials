@@ -1,33 +1,35 @@
 ---
-title: Vytvořte a přizpůsobte graf pomocí tvaru
-linktitle: Vytvořte a přizpůsobte graf pomocí tvaru
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se vytvářet a přizpůsobovat grafy v dokumentech aplikace Word pomocí Aspose.Words for .NET pomocí tohoto podrobného průvodce. Ideální pro vizualizaci dat.
-weight: 10
-url: /cs/net/programming-with-charts/create-chart-using-shape/
+"description": "Naučte se, jak vytvářet a upravovat grafy v dokumentech Wordu pomocí Aspose.Words pro .NET v tomto podrobném návodu. Ideální pro vizualizaci dat."
+"linktitle": "Vytvořte a upravte graf pomocí tvaru"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Vytvořte a upravte graf pomocí tvaru"
+"url": "/cs/net/programming-with-charts/create-chart-using-shape/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořte a přizpůsobte graf pomocí tvaru
+# Vytvořte a upravte graf pomocí tvaru
 
 ## Zavedení
 
-Vytváření a přizpůsobení grafů ve vašich dokumentech je v dnešním světě založeném na datech klíčovou dovedností. Grafy mohou pomoci vizualizovat data, díky čemuž jsou složité informace lépe stravitelné. Aspose.Words for .NET je výkonná knihovna, která vám umožňuje programově vytvářet a manipulovat s dokumenty Wordu. V tomto tutoriálu vás provedeme procesem vytváření a přizpůsobení spojnicového grafu pomocí Aspose.Words for .NET. Na konci této příručky budete schopni snadno vytvářet profesionálně vypadající grafy.
+Vytváření a úprava grafů v dokumentech je v dnešním světě založeném na datech klíčovou dovedností. Grafy mohou pomoci vizualizovat data a usnadnit tak stravitelnost složitých informací. Aspose.Words for .NET je výkonná knihovna, která umožňuje programově vytvářet a manipulovat s dokumenty Wordu. V tomto tutoriálu vás provedeme procesem vytváření a úpravy spojnicového grafu pomocí Aspose.Words for .NET. Po čtení tohoto průvodce budete schopni snadno vytvářet profesionálně vypadající grafy.
 
 ## Předpoklady
 
 Než se ponoříte do kódu, ujistěte se, že máte následující:
 
--  Aspose.Words for .NET Library: Můžete si ji stáhnout[zde](https://releases.aspose.com/words/net/).
+- Knihovna Aspose.Words pro .NET: Můžete si ji stáhnout [zde](https://releases.aspose.com/words/net/).
 - Visual Studio: Jakákoli verze, která podporuje .NET.
-- Základní znalost C#: Pochopení základů C# vám pomůže postupovat společně s výukovým programem.
+- Základní znalost C#: Pochopení základů C# vám pomůže s plněním úkolů v tutoriálu.
 
 ## Importovat jmenné prostory
 
-Chcete-li začít, musíte importovat potřebné jmenné prostory. Tento krok je nezbytný, protože vám umožňuje používat třídy a metody poskytované Aspose.Words pro .NET.
+Chcete-li začít, je třeba importovat potřebné jmenné prostory. Tento krok je nezbytný, protože vám umožní používat třídy a metody poskytované Aspose.Words pro .NET.
 
 ```csharp
 using Aspose.Words;
@@ -37,39 +39,39 @@ using Aspose.Words.Drawing.Charts;
 
 ## Krok 1: Vytvořte nový dokument
 
-Nejprve musíte vytvořit nový dokument aplikace Word. Tento dokument bude sloužit jako plátno pro váš graf.
+Nejprve si musíte vytvořit nový dokument Wordu. Tento dokument bude sloužit jako plátno pro váš graf.
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Krok 2: Vložte graf
+## Krok 2: Vložení grafu
 
- Dále do dokumentu vložíte spojnicový graf. The`DocumentBuilder.InsertChart` k tomuto účelu se používá metoda.
+Dále do dokumentu vložíte spojnicový graf. `DocumentBuilder.InsertChart` K tomuto účelu se používá metoda.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
 Chart chart = shape.Chart;
 ```
 
-## Krok 3: Přizpůsobte nadpis grafu
+## Krok 3: Úprava názvu grafu
 
-Přizpůsobení názvu grafu může pomoci poskytnout kontext pro zobrazovaná data. Pomocí následujícího kódu můžete zobrazit název a nastavit jeho text:
+Úprava názvu grafu může pomoci poskytnout kontext pro zobrazená data. Název a jeho text můžete zobrazit a nastavit pomocí následujícího kódu:
 
 ```csharp
 chart.Title.Show = true;
 chart.Title.Text = "Line Chart Title";
 chart.Title.Overlay = false;
-// Upozorňujeme, že pokud je jako text nadpisu zadána hodnota null nebo prázdná, zobrazí se automaticky vygenerovaný název.
+// Upozorňujeme, že pokud je jako text názvu zadána hodnota null nebo prázdná hodnota, zobrazí se automaticky vygenerovaný název.
 ```
 
-## Krok 4: Upravte pozici legendy
+## Krok 4: Úprava polohy legendy
 
-Legenda pomáhá identifikovat různé datové řady v grafu. Jeho polohu a nastavení překrytí můžete upravit takto:
+Legenda pomáhá identifikovat různé datové řady v grafu. Její umístění a nastavení překrytí můžete přizpůsobit takto:
 
 ```csharp
 chart.Legend.Position = LegendPosition.Left;
@@ -78,7 +80,7 @@ chart.Legend.Overlay = true;
 
 ## Krok 5: Uložte dokument
 
-Nakonec je potřeba dokument uložit. Tento krok zajistí, že všechny vaše změny budou zapsány do souboru.
+Nakonec je třeba dokument uložit. Tímto krokem zajistíte, že se všechny vaše změny zapíší do souboru.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithCharts.CreateChartUsingShape.docx");
@@ -86,33 +88,38 @@ doc.Save(dataDir + "WorkingWithCharts.CreateChartUsingShape.docx");
 
 ## Závěr
 
-V tomto tutoriálu jsme probrali, jak vytvořit a upravit spojnicový graf v dokumentu aplikace Word pomocí Aspose.Words for .NET. Podle podrobného průvodce nyní můžete vytvářet vizuálně přitažlivé grafy, které efektivně sdělují vaše data. Aspose.Words for .NET nabízí širokou škálu možností přizpůsobení, které vám umožní přizpůsobit grafy vašim konkrétním potřebám.
+V tomto tutoriálu jsme se popsali, jak vytvořit a upravit spojnicový graf v dokumentu Word pomocí Aspose.Words pro .NET. Dodržováním podrobných pokynů nyní můžete vytvářet vizuálně poutavé grafy, které efektivně sdělují vaše data. Aspose.Words pro .NET nabízí širokou škálu možností přizpůsobení, které vám umožní přizpůsobit grafy vašim specifickým potřebám.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu použít Aspose.Words pro .NET k vytvoření jiných typů grafů?
+### Mohu použít Aspose.Words pro .NET k vytváření jiných typů grafů?
 
- Ano, Aspose.Words for .NET podporuje různé typy grafů, včetně sloupcových grafů, koláčových grafů a dalších. Můžete prozkoumat dokumentaci[zde](https://reference.aspose.com/words/net/) pro více podrobností.
+Ano, Aspose.Words pro .NET podporuje různé typy grafů, včetně sloupcových grafů, koláčových grafů a dalších. Můžete si prohlédnout dokumentaci. [zde](https://reference.aspose.com/words/net/) pro více informací.
 
-### Jak mohu vyzkoušet Aspose.Words for .NET před nákupem?
+### Jak si mohu vyzkoušet Aspose.Words pro .NET před zakoupením?
 
- Můžete si stáhnout bezplatnou zkušební verzi z[zde](https://releases.aspose.com/). To vám umožní otestovat knihovnu a její funkce před nákupem.
+Zkušební verzi zdarma si můžete stáhnout z [zde](https://releases.aspose.com/)To vám umožní vyzkoušet si knihovnu a její funkce před provedením nákupu.
 
 ### Existuje způsob, jak získat podporu, pokud narazím na problémy?
 
- Absolutně. K podpoře můžete přistupovat prostřednictvím komunitních fór Aspose[zde](https://forum.aspose.com/c/words/8)Komunita a zaměstnanci Aspose jsou velmi pohotoví.
+Rozhodně. Podporu můžete získat prostřednictvím komunitních fór Aspose. [zde](https://forum.aspose.com/c/words/8)Komunita a zaměstnanci Aspose jsou velmi vstřícní.
 
-### Jak si koupím licenci pro Aspose.Words pro .NET?
+### Jak si mohu koupit licenci pro Aspose.Words pro .NET?
 
- Licenci si můžete zakoupit přímo z webu Aspose[zde](https://purchase.aspose.com/buy). Existují různé možnosti licencování, které vyhovují různým potřebám.
+Licenci si můžete zakoupit přímo na webových stránkách Aspose. [zde](https://purchase.aspose.com/buy)Existují různé možnosti licencování, které vyhovují různým potřebám.
 
 ### Co když potřebuji dočasnou licenci pro krátkodobý projekt?
 
- Aspose nabízí dočasné licence, o které můžete požádat[zde](https://purchase.aspose.com/temporary-license/).
+Aspose nabízí dočasné licence, o které si můžete požádat [zde](https://purchase.aspose.com/temporary-license/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

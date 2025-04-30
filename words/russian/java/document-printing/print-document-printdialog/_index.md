@@ -1,14 +1,16 @@
 ---
-title: Печать документа с помощью PrintDialog
-linktitle: Печать документа с помощью PrintDialog
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как печатать документы с помощью Aspose.Words для Java с PrintDialog. Настройте параметры, распечатайте определенные страницы и многое другое в этом пошаговом руководстве.
-weight: 14
-url: /ru/java/document-printing/print-document-printdialog/
+"description": "Узнайте, как печатать документы с помощью Aspose.Words для Java с PrintDialog. Настройте параметры, распечатайте определенные страницы и многое другое в этом пошаговом руководстве."
+"linktitle": "Печать документа с помощью PrintDialog"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Печать документа с помощью PrintDialog"
+"url": "/ru/java/document-printing/print-document-printdialog/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Печать документа с помощью PrintDialog
@@ -24,7 +26,7 @@ url: /ru/java/document-printing/print-document-printdialog/
 Прежде чем углубляться в код, убедитесь, что выполнены следующие предварительные условия:
 
 - Java Development Kit (JDK): убедитесь, что в вашей системе установлена Java.
--  Aspose.Words для Java: Вы можете загрузить библиотеку с сайта[здесь](https://releases.aspose.com/words/java/).
+- Aspose.Words для Java: Вы можете загрузить библиотеку с сайта [здесь](https://releases.aspose.com/words/java/).
 
 ## Настройка вашего проекта Java
 
@@ -39,7 +41,7 @@ url: /ru/java/document-printing/print-document-printdialog/
 
 ## Печать документа с помощью PrintDialog
 
-Теперь давайте напишем код Java для печати документа с PrintDialog, используя Aspose.Words. Ниже приведен простой пример:
+Теперь давайте напишем код Java для печати документа с PrintDialog, используя Aspose.Words. Ниже приведен базовый пример:
 
 ```java
 import com.aspose.words.Document;
@@ -63,7 +65,7 @@ public class PrintDocumentWithDialog {
 }
 ```
 
- В этом коде мы сначала загружаем документ с помощью Aspose.Words, а затем инициализируем PrinterSettings. Мы используем`showPrintDialog()` метод для отображения PrintDialog пользователю. После того, как пользователь выбирает свои настройки печати, мы печатаем документ, используя`doc.print(settings)`.
+В этом коде мы сначала загружаем документ с помощью Aspose.Words, а затем инициализируем PrinterSettings. Мы используем `showPrintDialog()` метод для отображения PrintDialog пользователю. После того, как пользователь выбирает свои настройки печати, мы печатаем документ, используя `doc.print(settings)`.
 
 ## Настройка параметров печати
 
@@ -77,7 +79,7 @@ public class PrintDocumentWithDialog {
 
 ### Как задать ориентацию страницы для печати?
 
- Чтобы задать ориентацию страницы (книжную или альбомную) для печати, можно использовать`PageSetup` класс в Aspose.Words. Вот пример:
+Чтобы задать ориентацию страницы (книжную или альбомную) для печати, можно использовать `PageSetup` класс в Aspose.Words. Вот пример:
 
 ```java
 Document doc = new Document("sample.docx");
@@ -87,7 +89,7 @@ pageSetup.setOrientation(Orientation.LANDSCAPE);
 
 ### Могу ли я распечатать определенные страницы документа?
 
- Да, вы можете распечатать определенные страницы документа, указав диапазон страниц в`PrinterSettings` объект. Вот пример:
+Да, вы можете распечатать определенные страницы документа, указав диапазон страниц в `PrinterSettings` объект. Вот пример:
 
 ```java
 PrinterSettings settings = new PrinterSettings();
@@ -96,7 +98,7 @@ settings.setPageRange("1-3, 5");
 
 ### Как изменить размер бумаги для печати?
 
-Чтобы изменить размер бумаги для печати, вы можете использовать`PageSetup` класс и установите`PaperSize` свойство. Вот пример:
+Чтобы изменить размер бумаги для печати, вы можете использовать `PageSetup` класс и установите `PaperSize` свойство. Вот пример:
 
 ```java
 Document doc = new Document("sample.docx");
@@ -110,10 +112,15 @@ pageSetup.setPaperSize(PaperSize.A4);
 
 ### Где я могу найти больше документации и примеров?
 
- Подробную документацию и примеры для Aspose.Words для Java можно найти на сайте:[Документация Aspose.Words для Java](https://reference.aspose.com/words/java/).
+Подробную документацию и примеры для Aspose.Words для Java можно найти на сайте: [Документация Aspose.Words для Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

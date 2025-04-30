@@ -1,14 +1,16 @@
 ---
-title: Nhúng Phông chữ vào Tài liệu PDF
-linktitle: Nhúng Phông chữ vào Tài liệu PDF
-second_title: API xử lý tài liệu Aspose.Words
-description: Nhúng phông chữ vào tài liệu PDF một cách dễ dàng bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. Đảm bảo giao diện nhất quán trên mọi thiết bị.
-weight: 10
-url: /vi/net/programming-with-pdfsaveoptions/embedded-all-fonts/
+"description": "Nhúng phông chữ vào tài liệu PDF một cách dễ dàng bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. Đảm bảo giao diện nhất quán trên mọi thiết bị."
+"linktitle": "Nhúng Phông chữ vào Tài liệu PDF"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Nhúng Phông chữ vào Tài liệu PDF"
+"url": "/vi/net/programming-with-pdfsaveoptions/embedded-all-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhúng Phông chữ vào Tài liệu PDF
@@ -21,12 +23,12 @@ Xin chào, những người đam mê công nghệ! Bạn đã bao giờ thấy m
 
 Trước khi đi vào hướng dẫn từng bước, hãy đảm bảo rằng bạn đã có mọi thứ mình cần. Sau đây là danh sách kiểm tra nhanh:
 
-1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ môi trường phát triển .NET tương thích nào.
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# sẽ giúp bạn theo dõi.
 4. Mẫu tài liệu Word: Có một mẫu tài liệu Word (`Rendering.docx`) đã có trong thư mục tài liệu của bạn.
 
- Nếu bạn chưa có Aspose.Words cho .NET, hãy dùng thử miễn phí[đây](https://releases.aspose.com/) hoặc mua nó[đây](https://purchase.aspose.com/buy) . Bạn cần giấy phép tạm thời? Bạn có thể xin một giấy phép[đây](https://purchase.aspose.com/temporary-license/).
+Nếu bạn chưa có Aspose.Words cho .NET, hãy dùng thử miễn phí [đây](https://releases.aspose.com/) hoặc mua nó [đây](https://purchase.aspose.com/buy). Bạn cần giấy phép tạm thời? Bạn có thể xin một giấy phép [đây](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập không gian tên
 
@@ -48,27 +50,27 @@ Trước khi đi sâu vào mã, bạn cần thiết lập thư mục tài liệu
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn. Đây là nơi tất cả phép thuật sẽ xảy ra!
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn. Đây là nơi tất cả phép thuật sẽ xảy ra!
 
 ## Bước 2: Tải tài liệu Word của bạn
 
- Tiếp theo, bạn sẽ tải tài liệu Word của mình vào Aspose.Words`Document` đối tượng. Đây là tài liệu bạn sẽ làm việc.
+Tiếp theo, bạn sẽ tải tài liệu Word của mình vào Aspose.Words `Document` đối tượng. Đây là tài liệu bạn sẽ làm việc.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Trong dòng này, chúng ta tạo ra một cái mới`Document` đối tượng và tải`Rendering.docx` tập tin từ thư mục tài liệu của chúng tôi.
+Trong dòng này, chúng ta tạo ra một cái mới `Document` đối tượng và tải `Rendering.docx` tập tin từ thư mục tài liệu của chúng tôi.
 
 ## Bước 3: Cấu hình tùy chọn lưu PDF
 
- Bây giờ, đã đến lúc cấu hình các tùy chọn lưu PDF. Cụ thể, chúng tôi sẽ thiết lập`EmbedFullFonts`tài sản để`true` để đảm bảo tất cả phông chữ được sử dụng trong tài liệu đều được nhúng vào PDF.
+Bây giờ, đã đến lúc cấu hình các tùy chọn lưu PDF. Cụ thể, chúng tôi sẽ thiết lập `EmbedFullFonts` tài sản để `true` để đảm bảo tất cả phông chữ được sử dụng trong tài liệu đều được nhúng vào PDF.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions { EmbedFullFonts = true };
 ```
 
- Dòng này tạo ra một cái mới`PdfSaveOptions` đối tượng và thiết lập`EmbedFullFonts`tài sản để`true`. Điều này đảm bảo rằng tệp PDF được tạo sẽ bao gồm tất cả các phông chữ được sử dụng trong tài liệu.
+Dòng này tạo ra một cái mới `PdfSaveOptions` đối tượng và thiết lập `EmbedFullFonts` tài sản để `true`. Điều này đảm bảo rằng tệp PDF được tạo sẽ bao gồm tất cả các phông chữ được sử dụng trong tài liệu.
 
 ## Bước 4: Lưu tài liệu dưới dạng PDF
 
@@ -90,7 +92,7 @@ Và thế là xong! Bạn đã nhúng thành công phông chữ vào tài liệu
 Việc nhúng phông chữ đảm bảo tài liệu của bạn hiển thị giống nhau trên mọi thiết bị, bất kể phông chữ nào được cài đặt trên hệ thống của người xem.
 
 ### Tôi có thể chọn phông chữ cụ thể để nhúng không?
- Có, bạn có thể tùy chỉnh phông chữ nào để nhúng bằng cách sử dụng các phông chữ khác nhau`PdfSaveOptions` của cải.
+Có, bạn có thể tùy chỉnh phông chữ nào để nhúng bằng cách sử dụng các phông chữ khác nhau `PdfSaveOptions` của cải.
 
 ### Việc nhúng phông chữ có làm tăng kích thước tệp không?
 Có, việc nhúng phông chữ có thể làm tăng kích thước tệp PDF, nhưng nó đảm bảo giao diện nhất quán trên các thiết bị khác nhau.
@@ -100,9 +102,14 @@ Aspose.Words for .NET cung cấp bản dùng thử miễn phí, nhưng để có
 
 ### Tôi có thể nhúng phông chữ vào các định dạng tài liệu khác bằng Aspose.Words cho .NET không?
 Có, Aspose.Words for .NET hỗ trợ nhiều định dạng tài liệu khác nhau và bạn có thể nhúng phông chữ vào nhiều định dạng đó.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

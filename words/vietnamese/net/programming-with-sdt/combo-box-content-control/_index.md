@@ -1,14 +1,16 @@
 ---
-title: Kiểm soát nội dung hộp kết hợp
-linktitle: Kiểm soát nội dung hộp kết hợp
-second_title: API xử lý tài liệu Aspose.Words
-description: Tạo điều khiển nội dung hộp kết hợp trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết của chúng tôi. Hoàn hảo để tăng cường tính tương tác của tài liệu.
-weight: 10
-url: /vi/net/programming-with-sdt/combo-box-content-control/
+"description": "Tạo điều khiển nội dung hộp kết hợp trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết của chúng tôi. Hoàn hảo để tăng cường tính tương tác của tài liệu."
+"linktitle": "Kiểm soát nội dung hộp kết hợp"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Kiểm soát nội dung hộp kết hợp"
+"url": "/vi/net/programming-with-sdt/combo-box-content-control/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kiểm soát nội dung hộp kết hợp
@@ -21,7 +23,7 @@ Bạn đang muốn thêm các thành phần tương tác vào tài liệu Word c
 
 Trước khi đi sâu vào phần cốt lõi của việc viết mã, hãy đảm bảo rằng bạn có mọi thứ mình cần:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 2. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình.
 3. Môi trường phát triển tích hợp (IDE): Visual Studio được khuyến nghị cho phát triển .NET.
 4. Hiểu biết cơ bản về C#: Hướng dẫn này giả định rằng bạn đã có hiểu biết cơ bản về lập trình C#.
@@ -113,16 +115,21 @@ Aspose.Words for .NET là một thư viện mạnh mẽ để làm việc với 
 Có, Aspose.Words for .NET hỗ trợ nhiều nền tảng .NET khác nhau bao gồm .NET Core và .NET Standard.
 
 ### Làm thế nào tôi có thể dùng thử miễn phí Aspose.Words cho .NET?
- Bạn có thể tải xuống bản dùng thử miễn phí của Aspose.Words cho .NET[đây](https://releases.aspose.com/).
+Bạn có thể tải xuống bản dùng thử miễn phí của Aspose.Words cho .NET [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tạo những loại điều khiển nội dung nào khác bằng Aspose.Words?
 Ngoài hộp kết hợp, bạn có thể tạo các điều khiển nhập văn bản, hộp kiểm, bộ chọn ngày và nhiều hơn nữa.
 
 ### Tôi có thể tìm tài liệu chi tiết hơn về Aspose.Words cho .NET ở đâu?
- Để biết tài liệu chi tiết, hãy truy cập[Aspose.Words cho tài liệu .NET](https://reference.aspose.com/words/net/).
+Để biết tài liệu chi tiết, hãy truy cập [Aspose.Words cho tài liệu .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

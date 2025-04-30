@@ -1,14 +1,16 @@
 ---
-title: Ubah Bentuk Ke Matematika Kantor
-linktitle: Ubah Bentuk Ke Matematika Kantor
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengonversi bentuk ke Office Math dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan kami. Sempurnakan format dokumen Anda dengan mudah.
-weight: 10
-url: /id/net/programming-with-loadoptions/convert-shape-to-office-math/
+"description": "Pelajari cara mengonversi bentuk ke Office Math dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan kami. Sempurnakan format dokumen Anda dengan mudah."
+"linktitle": "Ubah Bentuk Ke Matematika Kantor"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Ubah Bentuk Ke Matematika Kantor"
+"url": "/id/net/programming-with-loadoptions/convert-shape-to-office-math/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ubah Bentuk Ke Matematika Kantor
@@ -21,7 +23,7 @@ Dalam tutorial ini, kita akan membahas cara mengonversi bentuk ke Office Math da
 
 Sebelum kita membahas detailnya, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
-- Aspose.Words untuk .NET: Pastikan Anda telah menginstal versi terbaru. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda telah menginstal versi terbaru. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: IDE apa pun yang mendukung .NET, seperti Visual Studio.
 - Pengetahuan Dasar C#: Keakraban dengan pemrograman C# sangatlah penting.
 - Dokumen Word: Dokumen Word yang berisi bentuk yang ingin Anda ubah ke Office Math.
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 LoadOptions loadOptions = new LoadOptions { ConvertShapeToOfficeMath = true };
 ```
 
- Pada langkah ini, kita tentukan direktori tempat dokumen kita berada dan konfigurasikan opsi pemuatan.`ConvertShapeToOfficeMath` properti diatur ke`true` untuk mengaktifkan konversi.
+Pada langkah ini, kita tentukan direktori tempat dokumen kita berada dan konfigurasikan opsi pemuatan. `ConvertShapeToOfficeMath` properti diatur ke `true` untuk mengaktifkan konversi.
 
 ## Langkah 2: Muat Dokumen
 
@@ -60,7 +62,7 @@ Berikutnya, kita akan memuat dokumen dengan opsi yang ditentukan.
 Document doc = new Document(dataDir + "Office math.docx", loadOptions);
 ```
 
- Di sini, kami menggunakan`Document` kelas untuk memuat dokumen Word kita.`loadOptions`parameter memastikan bahwa bentuk apa pun dalam dokumen dikonversi ke Office Math selama proses pemuatan.
+Di sini, kami menggunakan `Document` kelas untuk memuat dokumen Word kita. `loadOptions` parameter memastikan bahwa bentuk apa pun dalam dokumen dikonversi ke Office Math selama proses pemuatan.
 
 ## Langkah 3: Simpan Dokumen
 
@@ -71,7 +73,7 @@ Terakhir, kami akan menyimpan dokumen dalam format yang diinginkan.
 doc.Save(dataDir + "WorkingWithLoadOptions.ConvertShapeToOfficeMath.docx", SaveFormat.Docx);
 ```
 
- Pada langkah ini, kita menyimpan dokumen yang dimodifikasi kembali ke direktori.`SaveFormat.Docx` memastikan bahwa dokumen disimpan dalam format DOCX.
+Pada langkah ini, kita menyimpan dokumen yang dimodifikasi kembali ke direktori. `SaveFormat.Docx` memastikan bahwa dokumen disimpan dalam format DOCX.
 
 ## Kesimpulan
 
@@ -88,15 +90,20 @@ Saat ini, konversi berlaku untuk semua bentuk dalam dokumen. Konversi selektif a
 ### Apakah saya memerlukan versi Aspose.Words tertentu untuk fungsi ini?  
 Ya, pastikan Anda memiliki Aspose.Words versi terbaru untuk .NET untuk memanfaatkan fitur ini secara efektif.
 
-### Dapatkah saya menggunakan fungsi ini dalam bahasa pemrograman lain?  
+### Dapatkah saya menggunakan fungsi ini dalam bahasa pemrograman yang berbeda?  
 Aspose.Words untuk .NET dirancang untuk digunakan dengan bahasa .NET, terutama C#. Namun, fungsi serupa tersedia di API Aspose.Words lain untuk bahasa yang berbeda.
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Words?  
- Ya, Anda dapat mengunduh uji coba gratis[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh uji coba gratis [Di Sini](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Определить цифровую подпись в документе Word
-linktitle: Определить цифровую подпись в документе Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как обнаруживать цифровые подписи в документах Word с помощью Aspose.Words для .NET, следуя нашему пошаговому руководству.
-weight: 10
-url: /ru/net/programming-with-fileformat/detect-document-signatures/
+"description": "Узнайте, как обнаруживать цифровые подписи в документах Word с помощью Aspose.Words для .NET, следуя нашему пошаговому руководству."
+"linktitle": "Определить цифровую подпись в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Определить цифровую подпись в документе Word"
+"url": "/ru/net/programming-with-fileformat/detect-document-signatures/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Определить цифровую подпись в документе Word
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-fileformat/detect-document-signatures/
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
--  Библиотека Aspose.Words for .NET: Вы можете загрузить ее с сайта[Страница релизов Aspose](https://releases.aspose.com/words/net/).
+- Библиотека Aspose.Words for .NET: Вы можете загрузить ее с сайта [Страница релизов Aspose](https://releases.aspose.com/words/net/).
 - Среда разработки: убедитесь, что у вас настроена среда разработки .NET, например Visual Studio.
 - Базовые знания C#: знакомство с языком программирования C# поможет вам легко освоить материал.
 
@@ -41,7 +43,7 @@ using Aspose.Words;
 
 ### 1.1 Создать новый проект
 
- Откройте Visual Studio и создайте новый проект Console App (.NET Core). Назовите его`DigitalSignatureDetector`.
+Откройте Visual Studio и создайте новый проект Console App (.NET Core). Назовите его `DigitalSignatureDetector`.
 
 ### 1.2 Установка Aspose.Words для .NET
 
@@ -60,7 +62,7 @@ using Aspose.Words;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу ваших документов.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу ваших документов.
 
 ## Шаг 3: Определите формат файла
 
@@ -70,7 +72,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(dataDir + "Digitally signed.docx");
 ```
 
- Эта строка кода проверяет формат файла документа с именем`Digitally signed.docx`.
+Эта строка кода проверяет формат файла документа с именем `Digitally signed.docx`.
 
 ## Шаг 4: Проверка наличия цифровых подписей
 
@@ -97,23 +99,28 @@ if (info.HasDigitalSignature)
 
 ### Есть ли способ обнаружить несколько цифровых подписей в документе?
 
- Да,`HasDigitalSignature` Свойство может указывать на наличие одной или нескольких цифровых подписей в документе.
+Да, `HasDigitalSignature` Свойство может указывать на наличие одной или нескольких цифровых подписей в документе.
 
 ### Как получить бесплатную пробную версию Aspose.Words для .NET?
 
- Вы можете загрузить бесплатную пробную версию с сайта[Страница релизов Aspose](https://releases.aspose.com/).
+Вы можете загрузить бесплатную пробную версию с сайта [Страница релизов Aspose](https://releases.aspose.com/).
 
 ### Где я могу найти дополнительную документацию по Aspose.Words для .NET?
 
- Подробную документацию вы можете найти на сайте[Страница документации Aspose](https://reference.aspose.com/words/net/).
+Подробную документацию вы можете найти на сайте [Страница документации Aspose](https://reference.aspose.com/words/net/).
 
 ### Могу ли я получить поддержку по Aspose.Words для .NET?
 
- Да, вы можете получить поддержку от[Форум поддержки Aspose](https://forum.aspose.com/c/words/8).
+Да, вы можете получить поддержку от [Форум поддержки Aspose](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

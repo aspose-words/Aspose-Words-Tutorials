@@ -1,14 +1,16 @@
 ---
-title: Tùy chỉnh chủ đề tài liệu
-linktitle: Tùy chỉnh chủ đề tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách tùy chỉnh chủ đề tài liệu bằng Aspose.Words for Java. Hướng dẫn toàn diện này cung cấp hướng dẫn từng bước và ví dụ về mã nguồn.
-weight: 12
-url: /vi/java/document-styling/customizing-document-themes/
+"description": "Tìm hiểu cách tùy chỉnh chủ đề tài liệu bằng Aspose.Words for Java. Hướng dẫn toàn diện này cung cấp hướng dẫn từng bước và ví dụ về mã nguồn."
+"linktitle": "Tùy chỉnh chủ đề tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Tùy chỉnh chủ đề tài liệu"
+"url": "/vi/java/document-styling/customizing-document-themes/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tùy chỉnh chủ đề tài liệu
@@ -24,13 +26,13 @@ Tùy chỉnh chủ đề tài liệu là một khía cạnh quan trọng của q
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo bạn đã thiết lập đúng môi trường để phát triển Java với Aspose.Words. Thực hiện theo các bước sau để bắt đầu:
 
-1.  Cài đặt Java: Nếu bạn chưa cài đặt Java, hãy tải xuống và cài đặt phiên bản mới nhất từ[java.com](https://www.java.com/).
+1. Cài đặt Java: Nếu bạn chưa cài đặt Java, hãy tải xuống và cài đặt phiên bản mới nhất từ [java.com](https://www.java.com/).
 
-2.  Tải xuống Aspose.Words cho Java: Truy cập[Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/) và tải xuống phiên bản mới nhất.
+2. Tải xuống Aspose.Words cho Java: Truy cập [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/) và tải xuống phiên bản mới nhất.
 
 3. Tích hợp Aspose.Words: Thêm Aspose.Words vào dự án Java của bạn bằng cách đưa vào tệp JAR mà bạn đã tải xuống ở bước trước.
 
-Bây giờ môi trường của bạn đã sẵn sàng, hãy tiến hành tùy chỉnh chủ đề tài liệu.
+Bây giờ môi trường của bạn đã sẵn sàng, chúng ta hãy tiến hành tùy chỉnh chủ đề tài liệu.
 
 ## Tùy chỉnh chủ đề tài liệu
 
@@ -129,9 +131,14 @@ Aspose.Words for Java cung cấp một bộ chủ đề được xác định tr
 Tùy chỉnh chủ đề tài liệu bằng Aspose.Words for Java cho phép bạn tạo các tài liệu hấp dẫn và nhất quán về mặt hình ảnh trong các ứng dụng Java của mình. Trong hướng dẫn này, chúng tôi đã đề cập đến những điều cơ bản của việc tùy chỉnh chủ đề, bao gồm thay đổi màu sắc và phông chữ. Bằng cách làm theo các ví dụ và phương pháp hay nhất được cung cấp, bạn có thể thành thạo nghệ thuật tùy chỉnh chủ đề tài liệu.
 
 Bây giờ bạn đã có kiến thức và mã theo ý mình, hãy tiếp tục và nâng cao khả năng xử lý tài liệu Java của bạn với Aspose.Words. Tạo các tài liệu tuyệt đẹp nổi bật và gây ấn tượng với người dùng của bạn.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

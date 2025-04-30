@@ -1,14 +1,16 @@
 ---
-title: Bir Grafiğin Eksenine Tarih Saat Değerleri Ekleme
-linktitle: Bir Grafiğin Eksenine Tarih Saat Değerleri Ekleme
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kapsamlı adım adım kılavuzda, Aspose.Words for .NET kullanarak bir grafiğin eksenine tarih ve saat değerlerinin nasıl ekleneceğini öğrenin.
-weight: 10
-url: /tr/net/programming-with-charts/date-time-values-to-axis/
+"description": "Bu kapsamlı adım adım kılavuzda, Aspose.Words for .NET kullanarak bir grafiğin eksenine tarih ve saat değerlerinin nasıl ekleneceğini öğrenin."
+"linktitle": "Bir Grafiğin Eksenine Tarih Saat Değerleri Ekleme"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Bir Grafiğin Eksenine Tarih Saat Değerleri Ekleme"
+"url": "/tr/net/programming-with-charts/date-time-values-to-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bir Grafiğin Eksenine Tarih Saat Değerleri Ekleme
@@ -22,9 +24,9 @@ Belgelerde grafik oluşturmak, verileri görselleştirmenin güçlü bir yolu ol
 Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 1. Visual Studio veya herhangi bir .NET IDE: .NET kodunuzu yazmak ve çalıştırmak için bir geliştirme ortamına ihtiyacınız var.
-2.  Aspose.Words for .NET: Aspose.Words for .NET kütüphanesi yüklü olmalıdır. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
-3. Temel C# bilgisi: Bu eğitimde C# programlama konusunda temel bir anlayışa sahip olduğunuz varsayılmaktadır.
-4.  Geçerli bir Aspose lisansı: Geçici bir lisansı şu adresten alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
+2. Aspose.Words for .NET: Aspose.Words for .NET kütüphanesi yüklü olmalıdır. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
+3. Temel C# bilgisi: Bu eğitimde C# programlama hakkında temel bir anlayışa sahip olduğunuz varsayılmaktadır.
+4. Geçerli bir Aspose lisansı: Geçici bir lisansı şu adresten alabilirsiniz: [Burada](https://purchase.aspose.com/temporary-license/).
 
 ## Ad Alanlarını İçe Aktar
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Adım 2: Yeni bir Belge ve DocumentBuilder Oluşturun
 
- Sonra, yeni bir örnek oluşturun`Document` sınıf ve bir`DocumentBuilder` nesne. Bu nesneler belgenizi oluşturmanıza ve düzenlemenize yardımcı olacaktır.
+Sonra, yeni bir örnek oluşturun `Document` sınıf ve bir `DocumentBuilder` nesne. Bu nesneler belgenizi oluşturmanıza ve düzenlemenize yardımcı olacaktır.
 
 ```csharp
 Document doc = new Document();
@@ -56,7 +58,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Adım 3: Belgeye Bir Grafik Ekleyin
 
- Şimdi, şunu kullanarak belgenize bir grafik ekleyin:`DocumentBuilder` nesne. Bu örnekte bir sütun grafiği kullanıyoruz, ancak başka türleri de seçebilirsiniz.
+Şimdi, şunu kullanarak belgenize bir grafik ekleyin: `DocumentBuilder` nesne. Bu örnekte bir sütun grafiği kullanıyoruz, ancak başka türleri de seçebilirsiniz.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
@@ -87,7 +89,7 @@ chart.Series.Add("Aspose Series 1",
 
 ## Adım 6: X Eksenini Yapılandırın
 
-ekseni için ölçeklendirmeyi ve işaret işaretlerini ayarlayın. Bu, tarihlerinizin doğru ve uygun aralıklarla görüntülenmesini sağlar.
+X ekseni için ölçeklendirmeyi ve işaret işaretlerini ayarlayın. Bu, tarihlerinizin doğru ve uygun aralıklarla görüntülenmesini sağlar.
 
 ```csharp
 ChartAxis xAxis = chart.AxisX;
@@ -123,7 +125,7 @@ Grafiğin özelliklerine erişip stilleri, renkleri ve daha fazlasını ayarlaya
 
 ### Bir grafiğe birden fazla seri eklemek mümkün müdür?
 
- Kesinlikle! Grafiğinize birden fazla seriyi, çağırarak ekleyebilirsiniz.`Series.Add` Yöntemi farklı verilerle birden fazla kez deneyin.
+Kesinlikle! Grafiğinize birden fazla seriyi, `Series.Add` Yöntemi farklı verilerle birden fazla kez deneyin.
 
 ### Grafik verilerini dinamik olarak güncellemem gerekirse ne yapmalıyım?
 
@@ -131,10 +133,15 @@ Grafiğin özelliklerine erişip stilleri, renkleri ve daha fazlasını ayarlaya
 
 ### Aspose.Words for .NET için daha detaylı dokümanları nerede bulabilirim?
 
- Daha detaylı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Daha detaylı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

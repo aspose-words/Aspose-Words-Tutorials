@@ -1,56 +1,64 @@
 ---
-title: 在 Word 文档中使用 .NET 用Aspose.Words应用行格式化
-weight: 7700
-limit: 
-description: 学习如何在Word文档中应用行格式化,使用 .NET的Aspose.Words. 步骤指南,包含代码示例和详细指令.
-keywords: [Aspose.Words for .NET, row formatting Word, apply row format, Word document table styling, .NET Word document example, Aspose.Words tutorial, table row padding, Word document programming]
-url: /zh/net/working-with-table-styles-and-formatting/apply-row-formatting/
+"description": "学习如何使用 Aspose.Words for .NET 在 Word 文档中应用行格式。包含代码示例和详细说明的分步指南。"
+"title": "使用 Aspose.Words for .NET 在 Word 文档中应用行格式"
+"url": "/zh/net/working-with-table-styles-and-formatting/apply-row-formatting/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Word 文档中使用Aspose.Words应用行格式化
+# 使用 Aspose.Words 在 Word 文档中应用行格式
 
-对于 .NET 提供了创建和编辑Word文档的强大的工具. 在本例中,我们将展示如何使用Aspose.Words来应用Word文档中的行格式化.您将学习设置行高度,配置填充,并应用精确的格式化,以创建结构良好的表格.本步骤指南包括代码摘录和说明,以帮助您快速实现这些功能在您的 .NET 应用中.
+Aspose.Words for .NET 提供了强大的工具，用于以编程方式创建和修改 Word 文档。在本例中，我们将演示如何使用 Aspose.Words 在 Word 文档中应用行格式。您将学习如何设置行高、配置填充以及应用精确的格式来创建结构良好的表格。本分步指南包含代码片段和说明，可帮助您在 .NET 应用程序中快速实现这些功能。
 
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/apply-row-formatting" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## 装备说明  
-为了在项目中使用 .NET 的Aspose.Words,请按照以下步骤进行:  
 
-1. 为了 .NET,下载Aspose.Words  
-   * 访问[对于 .NET 下载页面的Aspose.Words](https://releases.aspose.com/words/net/)接下来,我们可以下载最新版本.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## 安装说明  
+要在您的项目中使用 Aspose.Words for .NET，请按照以下步骤操作：  
+
+1. 下载 Aspose.Words for .NET  
+   - 访问 [Aspose.Words for .NET下载页面](https://releases.aspose.com/words/net/) 并下载最新版本。
 
 2. 通过 NuGet 安装  
-   * 在视觉工作室打开你的项目.  
-   * 进入工具> NuGet 包管理器> 管理 NuGet 包解决方案.  
-   * 搜索`"回答. 字"`然后点击安装.
+   - 在 Visual Studio 中打开您的项目。  
+   - 转到工具>NuGet 包管理器>管理解决方案的 NuGet 包。  
+   - 搜索 `Aspose.Words` 并点击“安装”。
 
-3. 包含名字空间  
-   * 加入以下行在代码中:  
+3. 包含命名空间  
+   - 将以下行添加到您的代码中：  
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Tables;
      ```
 
-4. 激活许可证 (可选)  
-   * 为了避免评估限制,请申请[临时许可证](https://purchase.aspose.com/temporary-license/)或购买一个[完整的许可证](https://purchase.aspose.com/buy)现在,我们要去.  
-   * 装载许可证在你的代码:  
+4. 激活许可证（可选）  
+   - 为了避免评估限制，申请 [临时执照](https://purchase.aspose.com/temporary-license/) 或购买 [完整许可证](https://purchase。aspose.com/buy).  
+   - 在您的代码中加载许可证：  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```
 	 
-## 查看
-[设置.Word为 .NET文档](https://docs.aspose.com/words/net/)
-[标用.NET引用的Word](https://reference.aspose.com/words/net/)
+## 另请参阅
+[Aspose.Word for .NET 文档](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET 参考](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

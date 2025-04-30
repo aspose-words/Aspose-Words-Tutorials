@@ -1,14 +1,16 @@
 ---
-title: Hapus Informasi Pribadi
-linktitle: Hapus Informasi Pribadi
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menghapus informasi pribadi dari dokumen menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sederhanakan pengelolaan dokumen.
-weight: 10
-url: /id/net/programming-with-document-properties/remove-personal-information/
+"description": "Pelajari cara menghapus informasi pribadi dari dokumen menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sederhanakan pengelolaan dokumen."
+"linktitle": "Hapus Informasi Pribadi"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Hapus Informasi Pribadi"
+"url": "/id/net/programming-with-document-properties/remove-personal-information/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Informasi Pribadi
@@ -21,7 +23,7 @@ Hai! Pernahkah Anda merasa kewalahan dengan tugas-tugas pengelolaan dokumen? Kit
 
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang dibutuhkan:
 
-1.  Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduh[Di Sini](https://releases.aspose.com/words/net/) Anda juga bisa mengambil[uji coba gratis](https://releases.aspose.com/) jika Anda baru memulai.
+1. Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduhlah [Di Sini](https://releases.aspose.com/words/net/)Anda juga bisa mengambil [uji coba gratis](https://releases.aspose.com/) jika Anda baru memulai.
 2. Lingkungan Pengembangan: Visual Studio atau lingkungan pengembangan .NET lainnya yang Anda sukai.
 3. Pengetahuan Dasar C#: Anda tidak perlu menjadi seorang ahli, tetapi sedikit pengetahuan akan sangat membantu.
 
@@ -82,7 +84,7 @@ Informasi pribadi mencakup nama penulis, properti dokumen, dan metadata lain yan
 
 ### Apakah Aspose.Words untuk .NET gratis?
 
- Aspose.Words menawarkan[uji coba gratis](https://releases.aspose.com/) sehingga Anda dapat mengujinya, tetapi Anda perlu membeli lisensi untuk fungsionalitas penuh. Lihat[harga](https://purchase.aspose.com/buy) untuk lebih jelasnya.
+Aspose.Words menawarkan [uji coba gratis](https://releases.aspose.com/) sehingga Anda dapat mengujinya, tetapi Anda perlu membeli lisensi untuk fungsionalitas penuh. Lihat [harga](https://purchase.aspose.com/buy) untuk lebih jelasnya.
 
 ### Dapatkah saya menggunakan Aspose.Words untuk format dokumen lain?
 
@@ -90,14 +92,19 @@ Tentu saja! Aspose.Words mendukung berbagai format termasuk DOCX, PDF, HTML, dan
 
 ### Bagaimana cara mendapatkan dukungan jika saya mengalami masalah?
 
- Anda dapat mengunjungi Aspose.Words[forum dukungan](https://forum.aspose.com/c/words/8) untuk bantuan terkait masalah atau pertanyaan yang mungkin Anda miliki.
+Anda dapat mengunjungi Aspose.Words [forum dukungan](https://forum.aspose.com/c/words/8) untuk bantuan terkait masalah atau pertanyaan yang mungkin Anda miliki.
 
 ### Fitur apa lagi yang ditawarkan Aspose.Words?
 
-Aspose.Words dilengkapi dengan berbagai fitur. Anda dapat membuat, mengedit, mengonversi, dan memanipulasi dokumen dengan berbagai cara. Untuk daftar lengkapnya, lihat[dokumentasi](https://reference.aspose.com/words/net/).
+Aspose.Words dilengkapi dengan berbagai fitur. Anda dapat membuat, mengedit, mengonversi, dan memanipulasi dokumen dengan berbagai cara. Untuk daftar lengkapnya, lihat [dokumentasi](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

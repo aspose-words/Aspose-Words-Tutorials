@@ -1,34 +1,36 @@
 ---
-title: Aspose.Words for Java でドキュメントをテキスト ファイルとして保存する
-linktitle: 文書をテキストファイルとして保存する
-second_title: Aspose.Words Java ドキュメント処理 API
-description: Aspose.Words for Java でドキュメントをテキスト ファイルとして保存する方法を学びます。Java コード例を使用したステップバイステップのガイドに従ってください。
-weight: 24
-url: /ja/java/document-loading-and-saving/saving-documents-as-text-files/
+"description": "Aspose.Words for Javaでドキュメントをテキストファイルとして保存する方法を学びましょう。Javaコード例を使ったステップバイステップガイドをご覧ください。"
+"linktitle": "文書をテキストファイルとして保存する"
+"second_title": "Aspose.Words Java ドキュメント処理 API"
+"title": "Aspose.Words for Java でドキュメントをテキストファイルとして保存する"
+"url": "/ja/java/document-loading-and-saving/saving-documents-as-text-files/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java でドキュメントをテキスト ファイルとして保存する
+# Aspose.Words for Java でドキュメントをテキストファイルとして保存する
 
 
-## Aspose.Words for Java でドキュメントをテキスト ファイルとして保存する方法の紹介
+## Aspose.Words for Java でドキュメントをテキストファイルとして保存する方法の紹介
 
-このチュートリアルでは、Aspose.Words for Java ライブラリを使用してドキュメントをテキスト ファイルとして保存する方法について説明します。Aspose.Words は、Word ドキュメントを操作するための強力な Java API であり、プレーン テキストを含むさまざまな形式でドキュメントを保存するためのさまざまなオプションを提供します。これを実現するための手順を説明し、その過程でサンプル Java コードを提供します。
+このチュートリアルでは、Aspose.Words for Javaライブラリを使用してドキュメントをテキストファイルとして保存する方法を説明します。Aspose.WordsはWord文書を扱うための強力なJava APIであり、プレーンテキストを含む様々な形式でドキュメントを保存するための様々なオプションを提供しています。このチュートリアルでは、その手順を説明し、サンプルJavaコードも紹介します。
 
 ## 前提条件
 
 始める前に、次の前提条件が満たされていることを確認してください。
 
-- システムに Java 開発キット (JDK) がインストールされています。
--  Aspose.Words for Javaライブラリがプロジェクトに統合されます。ダウンロードはこちらから[ここ](https://releases.aspose.com/words/java/).
+- Java Development Kit (JDK) がシステムにインストールされています。
+- Aspose.Words for Javaライブラリをプロジェクトに統合します。ダウンロードはこちらから。 [ここ](https://releases。aspose.com/words/java/).
 - Java プログラミングの基礎知識。
 
-## ステップ1: ドキュメントを作成する
+## ステップ1：ドキュメントを作成する
 
-ドキュメントをテキスト ファイルとして保存するには、まず Aspose.Words を使用してドキュメントを作成する必要があります。以下は、コンテンツを含むドキュメントを作成するための簡単な Java コード スニペットです。
+ドキュメントをテキストファイルとして保存するには、まずAspose.Wordsを使ってドキュメントを作成する必要があります。以下は、コンテンツを含むドキュメントを作成するための簡単なJavaコードスニペットです。
 
 ```java
 Document doc = new Document();
@@ -43,7 +45,7 @@ builder.writeln("مرحبا بالعالم!");
 
 ## ステップ2: テキスト保存オプションを定義する
 
-次に、ドキュメントをテキスト ファイルとして保存する方法を指定するテキスト保存オプションを定義する必要があります。bidi マークの追加、リストのインデントなど、さまざまな設定を構成できます。2 つの例を見てみましょう。
+次に、ドキュメントをテキストファイルとして保存する方法を指定するテキスト保存オプションを定義する必要があります。bidiマークの追加、リストのインデントなど、さまざまな設定が可能です。2つの例を見てみましょう。
 
 ### 例1: Bidiマークの追加
 
@@ -53,9 +55,9 @@ saveOptions.setAddBidiMarks(true);
 doc.save("output.txt", saveOptions);
 ```
 
-この例では、`TxtSaveOptions`オブジェクトを設定し、`AddBidiMarks`財産に`true`テキスト出力に bidi マークを含めます。
+この例では、 `TxtSaveOptions` オブジェクトを設定し、 `AddBidiMarks` 財産に `true` テキスト出力に bidi マークを含めます。
 
-### 例 2: リストのインデントにタブ文字を使用する
+### 例2: リストのインデントにタブ文字を使用する
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -64,19 +66,19 @@ saveOptions.getListIndentation().setCharacter('\t');
 doc.save("output.txt", saveOptions);
 ```
 
-ここでは、リストのインデントにタブ文字を 1 個使用するように保存オプションを構成します。
+ここでは、リストのインデントにタブ文字を 1 個使用する保存オプションを構成します。
 
 ## ステップ3: 文書をテキストとして保存する
 
-テキスト保存オプションを定義したので、ドキュメントをテキスト ファイルとして保存できます。次のコードは、その方法を示しています。
+テキスト保存オプションを定義したので、ドキュメントをテキストファイルとして保存できます。以下のコードは、その方法を示しています。
 
 ```java
 doc.save("output.txt", saveOptions);
 ```
 
-交換する`"output.txt"`テキスト ファイルを保存する目的のファイル パスを入力します。
+交換する `"output.txt"` テキスト ファイルを保存する目的のファイル パスを入力します。
 
-## Aspose.Words for Java でドキュメントをテキスト ファイルとして保存するための完全なソース コード
+## Aspose.Words for Java でドキュメントをテキストファイルとして保存するための完全なソースコード
 
 ```java
     public void addBidiMarks() throws Exception
@@ -128,13 +130,13 @@ doc.save("output.txt", saveOptions);
 
 ## 結論
 
-このチュートリアルでは、Aspose.Words for Java でドキュメントをテキスト ファイルとして保存する方法を学習しました。ドキュメントの作成、テキスト保存オプションの定義、ドキュメントをテキスト形式で保存する手順について説明しました。Aspose.Words はドキュメントの保存に関して非常に柔軟であり、特定の要件に合わせて出力をカスタマイズできます。
+このチュートリアルでは、Aspose.Words for Java でドキュメントをテキストファイルとして保存する方法を学びました。ドキュメントの作成、テキスト保存オプションの定義、そしてドキュメントをテキスト形式で保存する手順を説明しました。Aspose.Words はドキュメントの保存に関して非常に柔軟性が高く、特定の要件に合わせて出力をカスタマイズできます。
 
 ## よくある質問
 
 ### テキスト出力に bidi マークを追加するにはどうすればよいですか?
 
-テキスト出力に双方向マークを追加するには、`AddBidiMarks`の所有物`TxtSaveOptions`に`true`。 例えば：
+テキスト出力に双方向マークを追加するには、 `AddBidiMarks` の所有物 `TxtSaveOptions` に `true`。 例えば：
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -143,7 +145,7 @@ saveOptions.setAddBidiMarks(true);
 
 ### リストのインデント文字をカスタマイズできますか?
 
-はい、リストのインデント文字は、`ListIndentation`の所有物`TxtSaveOptions`たとえば、リストのインデントにタブ文字を使用するには、次のようにします。
+はい、リストのインデント文字は、 `ListIndentation` の所有物 `TxtSaveOptions`たとえば、リストのインデントにタブ文字を使用するには、次のようにします。
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -153,18 +155,23 @@ saveOptions.getListIndentation().setCharacter('\t');
 
 ### Aspose.Words for Java は多言語テキストの処理に適していますか?
 
-はい、Aspose.Words for Java は多言語テキストの処理に適しています。さまざまな言語と文字エンコードをサポートしているため、さまざまな言語のドキュメントを扱うための多目的な選択肢となります。
+はい、Aspose.Words for Javaは多言語テキストの処理に適しています。様々な言語と文字エンコーディングをサポートしているため、異なる言語で書かれたドキュメントを扱う際に幅広い選択肢となります。
 
-### Aspose.Words for Java の詳細なドキュメントやリソースにアクセスするにはどうすればいいですか?
+### Aspose.Words for Java の詳細なドキュメントやリソースにアクセスするにはどうすればよいでしょうか?
 
- Aspose.Words for Java の包括的なドキュメントとリソースは、Aspose ドキュメント Web サイトで見つかります。[Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/).
+Aspose.Words for Java に関する包括的なドキュメントとリソースは、Aspose ドキュメント Web サイトで見つかります。 [Aspose.Words for Java ドキュメント](https://reference。aspose.com/words/java/).
 
 ### Aspose.Words for Java はどこからダウンロードできますか?
 
- Aspose.Words for Java ライブラリは、Aspose の Web サイトからダウンロードできます。[Aspose.Words for Java をダウンロード](https://releases.aspose.com/words/java/).
+Aspose.Words for Java ライブラリは、Aspose の Web サイトからダウンロードできます。 [Aspose.Words for Javaをダウンロード](https://releases。aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

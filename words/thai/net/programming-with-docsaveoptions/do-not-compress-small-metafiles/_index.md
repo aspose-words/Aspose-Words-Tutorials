@@ -1,14 +1,16 @@
 ---
-title: อย่าบีบอัดไฟล์เมตาขนาดเล็ก
-linktitle: อย่าบีบอัดไฟล์เมตาขนาดเล็ก
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET เพื่อให้แน่ใจว่าเมตาไฟล์ขนาดเล็กในเอกสาร Word จะไม่ถูกบีบอัด ทำให้รักษาคุณภาพและความสมบูรณ์ของเอกสารไว้ได้ มีคู่มือทีละขั้นตอนรวมอยู่ด้วย
-weight: 10
-url: /th/net/programming-with-docsaveoptions/do-not-compress-small-metafiles/
+"description": "เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET เพื่อให้แน่ใจว่าเมตาไฟล์ขนาดเล็กในเอกสาร Word จะไม่ถูกบีบอัด ทำให้รักษาคุณภาพและความสมบูรณ์ของเอกสารไว้ได้ มีคู่มือทีละขั้นตอนรวมอยู่ด้วย"
+"linktitle": "อย่าบีบอัดไฟล์เมตาขนาดเล็ก"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "อย่าบีบอัดไฟล์เมตาขนาดเล็ก"
+"url": "/th/net/programming-with-docsaveoptions/do-not-compress-small-metafiles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # อย่าบีบอัดไฟล์เมตาขนาดเล็ก
@@ -21,10 +23,10 @@ url: /th/net/programming-with-docsaveoptions/do-not-compress-small-metafiles/
 
 ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
--  Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้งเวอร์ชันล่าสุดจาก[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้งเวอร์ชันล่าสุดจาก [ที่นี่](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE อื่น ๆ ที่เข้ากันได้
 - ความเข้าใจพื้นฐานเกี่ยวกับ C#: มีความคุ้นเคยกับภาษาการเขียนโปรแกรม C# และ .NET framework
--  ใบอนุญาต Aspose: เพื่อปลดล็อกศักยภาพทั้งหมดของ Aspose.Words โปรดพิจารณารับใบอนุญาต[ใบอนุญาต](https://purchase.aspose.com/buy) . คุณยังสามารถใช้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินผล
+- ใบอนุญาต Aspose: เพื่อปลดล็อกศักยภาพทั้งหมดของ Aspose.Words โปรดพิจารณารับใบอนุญาต [ใบอนุญาต](https://purchase.aspose.com/buy). คุณยังสามารถใช้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินผล
 
 ## นำเข้าเนมสเปซ
 
@@ -46,7 +48,7 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENTS DIRECTORY"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกเอกสารของคุณ
+แทนที่ `"YOUR DOCUMENTS DIRECTORY"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกเอกสารของคุณ
 
 ## ขั้นตอนที่ 2: สร้างเอกสารใหม่
 
@@ -59,11 +61,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Text added to a document.");
 ```
 
- ที่นี่เราจะเริ่มต้น`Document` วัตถุและการใช้`DocumentBuilder` เพื่อเพิ่มข้อความลงไปบ้าง`Writeln` วิธีการเพิ่มบรรทัดข้อความลงในเอกสาร
+ที่นี่เราจะเริ่มต้น `Document` วัตถุและการใช้ `DocumentBuilder` เพื่อเพิ่มข้อความลงไปบ้าง `Writeln` วิธีการเพิ่มบรรทัดข้อความลงในเอกสาร
 
 ## ขั้นตอนที่ 3: กำหนดค่าตัวเลือกการบันทึก
 
- ตอนนี้ เราตั้งค่าตัวเลือกการบันทึกเพื่อใช้ฟีเจอร์ "อย่าบีบอัดไฟล์เมตาขนาดเล็ก" ซึ่งทำได้โดยใช้`DocSaveOptions` ระดับ.
+ตอนนี้ เราตั้งค่าตัวเลือกการบันทึกเพื่อใช้ฟีเจอร์ "อย่าบีบอัดไฟล์เมตาไฟล์ขนาดเล็ก" ซึ่งทำได้โดยใช้ `DocSaveOptions` ระดับ.
 
 ```csharp
 // กำหนดค่าตัวเลือกการบันทึกด้วยคุณลักษณะ "อย่าบีบอัดไฟล์เมตาขนาดเล็ก"
@@ -71,7 +73,7 @@ DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.Compliance = PdfCompliance.PdfA1a;
 ```
 
- ในขั้นตอนนี้เราจะสร้างอินสแตนซ์ของ`DocSaveOptions` และตั้งค่า`Compliance`ทรัพย์สินที่จะ`PdfCompliance.PdfA1a`เพื่อให้แน่ใจว่าเอกสารเป็นไปตามมาตรฐาน PDF/A-1a
+ในขั้นตอนนี้เราจะสร้างอินสแตนซ์ของ `DocSaveOptions` และตั้งค่า `Compliance` ทรัพย์สินที่จะ `PdfCompliance.PdfA1a`เพื่อให้แน่ใจว่าเอกสารเป็นไปตามมาตรฐาน PDF/A-1a
 
 ## ขั้นตอนที่ 4: บันทึกเอกสาร
 
@@ -82,7 +84,7 @@ saveOptions.Compliance = PdfCompliance.PdfA1a;
 doc.Save(dataDir + "DocumentWithDoNotCompressMetafiles.pdf", saveOptions);
 ```
 
- ที่นี่เราใช้`Save` วิธีการของ`Document` คลาสที่จะบันทึกเอกสาร เส้นทางรวมถึงไดเร็กทอรีและชื่อไฟล์ "DocumentWithDoNotCompressMetafiles.pdf"
+ที่นี่เราใช้ `Save` วิธีการของ `Document` คลาสที่จะบันทึกเอกสาร เส้นทางรวมถึงไดเร็กทอรีและชื่อไฟล์ "DocumentWithDoNotCompressMetafiles.pdf"
 
 ## บทสรุป
 
@@ -100,19 +102,24 @@ doc.Save(dataDir + "DocumentWithDoNotCompressMetafiles.pdf", saveOptions);
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Words สำหรับ .NET หรือไม่?
 
- แม้ว่าคุณจะใช้ Aspose.Words สำหรับ .NET ได้โดยไม่ต้องมีใบอนุญาตสำหรับการประเมิน แต่จำเป็นต้องมีใบอนุญาตเพื่อปลดล็อกฟังก์ชันการทำงานทั้งหมด คุณสามารถขอรับใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy) หรือใช้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินผล
+แม้ว่าคุณจะใช้ Aspose.Words สำหรับ .NET ได้โดยไม่ต้องมีใบอนุญาตสำหรับการประเมิน แต่จำเป็นต้องมีใบอนุญาตเพื่อปลดล็อกฟังก์ชันการทำงานทั้งหมด คุณสามารถขอรับใบอนุญาตได้ [ที่นี่](https://purchase.aspose.com/buy) หรือใช้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินผล
 
 ### ฉันจะมั่นใจได้อย่างไรว่าเอกสารของฉันเป็นไปตามมาตรฐาน PDF/A
 
- Aspose.Words สำหรับ .NET ช่วยให้คุณสามารถตั้งค่าตัวเลือกการปฏิบัติตาม เช่น`PdfCompliance.PdfA1a` เพื่อให้แน่ใจว่าเอกสารของคุณตรงตามมาตรฐานที่เฉพาะเจาะจง
+Aspose.Words สำหรับ .NET ช่วยให้คุณสามารถตั้งค่าตัวเลือกการปฏิบัติตาม เช่น `PdfCompliance.PdfA1a` เพื่อให้แน่ใจว่าเอกสารของคุณตรงตามมาตรฐานที่เฉพาะเจาะจง
 
 ### ฉันสามารถหาข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
 
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้[ที่นี่](https://reference.aspose.com/words/net/) และคุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้[ที่นี่](https://releases.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้ [ที่นี่](https://reference.aspose.com/words/net/)และคุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้ [ที่นี่](https://releases-aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

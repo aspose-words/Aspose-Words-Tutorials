@@ -1,14 +1,16 @@
 ---
-title: Thao tác nội dung tài liệu với Cleanup, Fields và dữ liệu XML
-linktitle: Thao tác nội dung tài liệu với Cleanup, Fields và dữ liệu XML
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách thao tác nội dung tài liệu bằng Aspose.Words for Java. Hướng dẫn từng bước này cung cấp các ví dụ về mã nguồn để quản lý tài liệu hiệu quả.
-weight: 14
-url: /vi/java/word-processing/manipulating-document-content/
+"description": "Tìm hiểu cách thao tác nội dung tài liệu bằng Aspose.Words for Java. Hướng dẫn từng bước này cung cấp các ví dụ về mã nguồn để quản lý tài liệu hiệu quả."
+"linktitle": "Thao tác nội dung tài liệu với Cleanup, Fields và dữ liệu XML"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Thao tác nội dung tài liệu với Cleanup, Fields và dữ liệu XML"
+"url": "/vi/java/word-processing/manipulating-document-content/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thao tác nội dung tài liệu với Cleanup, Fields và dữ liệu XML
@@ -23,11 +25,11 @@ Trước khi đi sâu vào chi tiết về việc thao tác nội dung tài li�
 
 1. Cài đặt và thiết lập
    
-    Bắt đầu bằng cách tải xuống Aspose.Words cho Java từ liên kết tải xuống:[Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/). Cài đặt theo tài liệu hướng dẫn được cung cấp.
+   Bắt đầu bằng cách tải xuống Aspose.Words cho Java từ liên kết tải xuống: [Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/). Cài đặt theo tài liệu hướng dẫn được cung cấp.
 
 2. Tài liệu tham khảo API
    
-   Làm quen với Aspose.Words for Java API bằng cách khám phá tài liệu:[Tài liệu tham khảo API Aspose.Words cho Java](https://reference.aspose.com/words/java/). Tài nguyên này sẽ hướng dẫn bạn trong suốt hành trình này.
+   Làm quen với Aspose.Words for Java API bằng cách khám phá tài liệu: [Tài liệu tham khảo API Aspose.Words cho Java](https://reference.aspose.com/words/java/). Tài nguyên này sẽ hướng dẫn bạn trong suốt hành trình này.
 
 3. Kiến thức Java
    
@@ -103,7 +105,7 @@ Các trường bổ sung các khả năng động vào tài liệu của bạn, 
 
 ## Phần kết luận
 
-Trong hướng dẫn mở rộng này, chúng tôi đã khám phá thế giới thao tác nội dung tài liệu với cleanup, fields và dữ liệu XML bằng Aspose.Words for Java. Bạn đã học cách dọn dẹp tài liệu, làm việc với các fields và kết hợp dữ liệu XML một cách liền mạch. Những kỹ năng này vô cùng hữu ích đối với bất kỳ ai xử lý quản lý tài liệu trong các ứng dụng Java.
+Trong hướng dẫn mở rộng này, chúng tôi đã khám phá thế giới thao tác nội dung tài liệu với cleanup, fields và dữ liệu XML bằng Aspose.Words for Java. Bạn đã học cách dọn dẹp tài liệu, làm việc với các fields và kết hợp dữ liệu XML một cách liền mạch. Những kỹ năng này vô cùng có giá trị đối với bất kỳ ai xử lý quản lý tài liệu trong các ứng dụng Java.
 
 ## Câu hỏi thường gặp
 
@@ -145,9 +147,14 @@ doc.save("cleaned_document.docx");
 ### Aspose.Words for Java có phù hợp để tạo tài liệu động với dữ liệu XML không?
 
 Có, Aspose.Words for Java rất phù hợp để tạo tài liệu động với dữ liệu XML. Nó cung cấp các tính năng mạnh mẽ để liên kết dữ liệu XML với các mẫu và tạo tài liệu được cá nhân hóa.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Granice osi na wykresie
-linktitle: Granice osi na wykresie
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak ustawić granice osi na wykresie za pomocą Aspose.Words for .NET, kontrolując zakres wartości wyświetlanych na osi.
-weight: 10
-url: /pl/net/programming-with-charts/bounds-of-axis/
+"description": "Dowiedz się, jak ustawić granice osi na wykresie za pomocą Aspose.Words for .NET, kontrolując zakres wartości wyświetlanych na osi."
+"linktitle": "Granice osi na wykresie"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Granice osi na wykresie"
+"url": "/pl/net/programming-with-charts/bounds-of-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Granice osi na wykresie
@@ -21,7 +23,7 @@ Chcesz tworzyć profesjonalne dokumenty z wykresami w .NET? Jesteś we właściw
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
--  Aspose.Words dla .NET: Możesz[pobierać](https://releases.aspose.com/words/net/) najnowszą wersję lub użyj[bezpłatny okres próbny](https://releases.aspose.com/).
+- Aspose.Words dla .NET: Możesz [pobierać](https://releases.aspose.com/words/net/) najnowszą wersję lub użyj [bezpłatny okres próbny](https://releases.aspose.com/).
 - .NET Framework: Upewnij się, że w systemie zainstalowano platformę .NET.
 - IDE: Środowisko programistyczne podobne do Visual Studio.
 
@@ -106,7 +108,7 @@ Na koniec zapisz dokument w wybranym katalogu.
 doc.Save(dataDir + "WorkingWithCharts.BoundsOfAxis.docx");
 ```
 
-to wszystko! Udało Ci się utworzyć dokument z wykresem przy użyciu Aspose.Words dla .NET. 
+I to wszystko! Udało Ci się utworzyć dokument z wykresem przy użyciu Aspose.Words dla .NET. 
 
 ## Wniosek
 
@@ -118,19 +120,24 @@ Używając Aspose.Words dla .NET, możesz łatwo tworzyć i manipulować wykresa
 Aspose.Words for .NET to biblioteka umożliwiająca programowe tworzenie, modyfikowanie i konwertowanie dokumentów Word przy użyciu środowiska .NET.
 
 ### Jak skonfigurować Aspose.Words dla platformy .NET?
- Można go pobrać z[Tutaj](https://releases.aspose.com/words/net/) postępuj zgodnie z wyświetlanymi instrukcjami instalacji.
+Można go pobrać z [Tutaj](https://releases.aspose.com/words/net/) i postępuj zgodnie z wyświetlanymi instrukcjami instalacji.
 
 ### Czy mogę używać Aspose.Words za darmo?
- Tak, możesz użyć[bezpłatny okres próbny](https://releases.aspose.com/) lub zdobądź[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+Tak, możesz użyć [bezpłatny okres próbny](https://releases.aspose.com/) lub zdobądź [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 
 ### Gdzie mogę znaleźć dokumentację Aspose.Words dla .NET?
- Dostępna jest szczegółowa dokumentacja[Tutaj](https://reference.aspose.com/words/net/).
+Dostępna jest szczegółowa dokumentacja [Tutaj](https://reference.aspose.com/words/net/).
 
 ### Jak mogę uzyskać pomoc dotyczącą Aspose.Words?
- Możesz odwiedzić[forum wsparcia](https://forum.aspose.com/c/words/8) po pomoc.
+Możesz odwiedzić [forum wsparcia](https://forum.aspose.com/c/words/8) po pomoc.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

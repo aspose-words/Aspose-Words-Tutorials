@@ -1,62 +1,64 @@
 ---
-title: Změnit zarážky tabulátoru obsahu v dokumentu aplikace Word
-linktitle: Změnit zarážky tabulátoru obsahu v dokumentu aplikace Word
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Přečtěte si, jak změnit zarážky tabulátoru obsahu v dokumentech aplikace Word pomocí Aspose.Words for .NET. Tento podrobný průvodce vám pomůže vytvořit profesionálně vypadající obsah.
-weight: 10
-url: /cs/net/programming-with-table-of-content/change-toc-tab-stops/
+"description": "Naučte se, jak změnit zarážky tabulátoru obsahu v dokumentech Word pomocí Aspose.Words pro .NET. Tento podrobný návod vám pomůže vytvořit profesionálně vypadající obsah."
+"linktitle": "Změna zarážek tabulace v obsahu v dokumentu Word"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Změna zarážek tabulace v obsahu v dokumentu Word"
+"url": "/cs/net/programming-with-table-of-content/change-toc-tab-stops/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Změnit zarážky tabulátoru obsahu v dokumentu aplikace Word
+# Změna zarážek tabulace v obsahu v dokumentu Word
 
 ## Zavedení
 
-Přemýšleli jste někdy, jak oživit obsah (TOC) v dokumentech aplikace Word? Možná chcete, aby zarážky tabulátoru dokonale zapadaly do profesionálního vzhledu. Jste na správném místě! Dnes se ponoříme hluboko do toho, jak můžete změnit zarážky TOC pomocí Aspose.Words pro .NET. Držte se a slibuji, že odejdete s veškerým know-how, aby váš TOC vypadal elegantně a úhledně.
+Přemýšleli jste někdy, jak vylepšit obsah (TOC) ve vašich dokumentech Wordu? Možná chcete, aby se zarážky tabulátoru dokonale zarovnaly pro dosažení profesionálního vzhledu. Jste na správném místě! Dnes se podrobně ponoříme do toho, jak můžete změnit zarážky tabulátoru v obsahu pomocí Aspose.Words pro .NET. Zůstaňte u nás a slibuji vám, že odejdete se všemi znalostmi, které vám pomohou vytvořit elegantní a úhledný obsah.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte vše, co potřebujete:
 
-1.  Aspose.Words pro .NET: Můžete[stáhněte si to zde](https://releases.aspose.com/words/net/).
+1. Aspose.Words pro .NET: Můžete [stáhněte si to zde](https://releases.aspose.com/words/net/).
 2. Vývojové prostředí: Visual Studio nebo jakékoli IDE kompatibilní s C#.
-3. Dokument aplikace Word: Konkrétně takový, který obsahuje TOC.
+3. Dokument Word: Konkrétně takový, který obsahuje obsah.
 
-Máš to všechno? Děsivý! Pojďme válet.
+Rozumíte tomu všemu? Paráda! Jdeme na to.
 
 ## Importovat jmenné prostory
 
-Nejprve budete muset importovat potřebné jmenné prostory. Je to jako sbalit si nástroje před zahájením projektu.
+Nejdříve budete muset importovat potřebné jmenné prostory. Je to jako byste si sbalili nástroje před zahájením projektu.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-Pojďme si tento proces rozebrat do jednoduchých, stravitelných kroků. Projdeme načtením dokumentu, úpravou zarážek záložky TOC a uložením aktualizovaného dokumentu.
+Rozdělme si tento proces na jednoduché a srozumitelné kroky. Projdeme si načtení dokumentu, úpravu zarážek tabulátoru obsahu a uložení aktualizovaného dokumentu.
 
-## Krok 1: Vložte dokument
+## Krok 1: Vložení dokumentu
 
-Proč? Potřebujeme získat přístup k dokumentu aplikace Word, který obsahuje obsah, který chceme upravit.
+Proč? Potřebujeme přístup k dokumentu Wordu, který obsahuje obsah, který chceme upravit.
 
 Jak? Zde je jednoduchý úryvek kódu, který vám pomůže začít:
 
 ```csharp
-// Cesta k adresáři vašich dokumentů
+// Cesta k adresáři s vašimi dokumenty
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
-// Vložte dokument obsahující obsah
+// Načtěte dokument obsahující obsah
 Document doc = new Document(dataDir + "Table of contents.docx");
 ```
 
-Představte si, že váš dokument je jako dort a my se chystáme přidat trochu polevy. Prvním krokem je dostat ten dort z krabice.
+Představte si, že váš dokument je jako dort a my se chystáme přidat polevu. Prvním krokem je vyndat dort z krabice.
 
-## Krok 2: Identifikujte odstavce TOC
+## Krok 2: Identifikace odstavců obsahu
 
-Proč? Musíme přesně určit odstavce, které tvoří TOC. 
+Proč? Musíme přesně určit odstavce, které tvoří obsah. 
 
 Jak? Projděte si odstavce a zkontrolujte jejich styly:
 
@@ -66,18 +68,18 @@ foreach(Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
     if (para.ParagraphFormat.Style.StyleIdentifier >= StyleIdentifier.Toc1 &&
         para.ParagraphFormat.Style.StyleIdentifier <= StyleIdentifier.Toc9)
     {
-        // Byl nalezen odstavec TOC
+        // Nalezen odstavec s obsahem
     }
 }
 ```
 
-Berte to jako skenování davu, abyste našli své přátele. Zde hledáme odstavce stylizované jako položky obsahu.
+Představte si to jako prohledávání davu, abyste našli své přátele. Zde hledáme odstavce stylizované jako položky obsahu.
 
-## Krok 3: Upravte zarážky tabulátoru
+## Krok 3: Úprava zarážek tabulátoru
 
-Proč? Tady se děje kouzlo. Výměna zarážek dává vašemu obsahu čistší vzhled.
+Proč? A tady se děje ta pravá magie. Změna zarážek tabulace dodá obsahu přehlednější vzhled.
 
-Jak? Odeberte stávající zarážku tabulátoru a přidejte novou na změněné místo:
+Jak? Odebrat existující zarážku tabulátoru a přidat novou na upravenou pozici:
 
 ```csharp
 foreach(Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
@@ -92,44 +94,49 @@ foreach(Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
 }
 ```
 
-Je to jako upravovat nábytek v obývacím pokoji, dokud vám to nebude vyhovovat. Tyto zarážky vylepšujeme k dokonalosti.
+Je to jako byste si upravovali nábytek v obývacím pokoji, dokud se vám nebude zdát tak akorát. Dolaďujeme ty zarážky k dokonalosti.
 
-## Krok 4: Uložte upravený dokument
+## Krok 4: Uložení upraveného dokumentu
 
-Proč? Aby bylo zajištěno, že veškerá vaše tvrdá práce bude uložena a bude možné ji prohlížet nebo sdílet.
+Proč? Aby se zajistilo, že veškerá vaše tvrdá práce bude uložena a bude možné si ji prohlédnout nebo sdílet.
 
-Jak? Uložte dokument pod novým názvem, aby původní zůstal nedotčený:
+Jak? Uložte dokument s novým názvem, aby originál zůstal neporušený:
 
 ```csharp
-// Uložte upravený dokument
+// Uložit upravený dokument
 doc.Save(dataDir + "WorkingWithTableOfContent.ChangeTocTabStops.docx");
 ```
 
-A voila! Váš obsah má nyní zarážky tabulátoru přesně tam, kde je chcete.
+A voilà! Váš obsah má nyní zarážky tabulátoru přesně tam, kde je chcete mít.
 
 ## Závěr
 
-Změna zarážek tabulátoru obsahu v dokumentu aplikace Word pomocí Aspose.Words for .NET je jednoduchá, jakmile to rozeberete. Načtením dokumentu, identifikací odstavců obsahu, úpravou zarážek tabulátoru a uložením dokumentu můžete dosáhnout uhlazeného a profesionálního vzhledu. Pamatujte, že cvičení dělá mistra, takže pokračujte v experimentování s různými pozicemi zarážek tabulátoru, abyste získali přesné rozložení, které si přejete.
+Změna zarážek tabulátoru obsahu v dokumentu Wordu pomocí Aspose.Words pro .NET je po rozboru jednoduchá. Načtením dokumentu, identifikací odstavců obsahu, úpravou zarážek tabulátoru a uložením dokumentu můžete dosáhnout elegantního a profesionálního vzhledu. Nezapomeňte, že cvik dělá mistra, proto experimentujte s různými pozicemi zarážek tabulátoru, abyste dosáhli přesně požadovaného rozvržení.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu upravit zarážky tabulátoru pro různé úrovně obsahu samostatně?
+### Mohu upravovat zarážky tabulace pro různé úrovně obsahu samostatně?
 Ano, můžete! Stačí zkontrolovat každou konkrétní úroveň TOC (Toc1, Toc2 atd.) a podle toho upravit.
 
 ### Co když má můj dokument více obsahu?
-Kód vyhledá všechny odstavce ve stylu TOC, takže změní všechny TOC přítomné v dokumentu.
+Kód prohledává všechny odstavce stylizované obsahem, takže upraví všechna složení obsahu v dokumentu.
 
-### Je možné přidat více zarážek tabulátoru do položky TOC?
- Absolutně! Úpravou tabulátoru můžete přidat libovolný počet zarážek tabulátoru`para.ParagraphFormat.TabStops` sbírka.
+### Je možné do položky obsahu přidat více zarážek tabulace?
+Rozhodně! Úpravou můžete přidat libovolný počet zarážek tabulátoru. `para.ParagraphFormat.TabStops` sbírka.
 
-### Mohu změnit zarovnání zarážky tabulátoru a styl odkazu?
-Ano, při přidávání nové zarážky tabulátoru můžete určit různé zarovnání a styly odkazu.
+### Mohu změnit zarovnání zarážky tabulátoru a styl odkazové čáry?
+Ano, při přidávání nové zarážky tabulátoru můžete zadat různá zarovnání a styly odkazových čar.
 
 ### Potřebuji licenci k používání Aspose.Words pro .NET?
- Ano, k používání Aspose.Words for .NET po zkušební době potřebujete platnou licenci. Můžete získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) nebo[koupit jeden](https://purchase.aspose.com/buy).
+Ano, k používání Aspose.Words pro .NET po uplynutí zkušební doby potřebujete platnou licenci. Můžete získat [dočasná licence](https://purchase.aspose.com/tempneboary-license/) or [koupit jeden](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

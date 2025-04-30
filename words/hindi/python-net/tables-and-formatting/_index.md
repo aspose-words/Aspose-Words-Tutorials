@@ -1,14 +1,16 @@
 ---
-title: तालिकाएँ और स्वरूपण
-linktitle: तालिकाएँ और स्वरूपण
-second_title: Aspose.Words पायथन दस्तावेज़ प्रबंधन API
-description: पायथन और .NET अनुप्रयोगों में तालिकाओं और स्वरूपण पर Aspose.Words ट्यूटोरियल में गोता लगाएँ। आकर्षक दस्तावेज़ों के लिए तालिकाएँ बनाना, अनुकूलित करना और स्टाइल करना सीखें।
-weight: 16
-url: /hi/python-net/tables-and-formatting/
+"description": "पायथन और .NET अनुप्रयोगों में तालिकाओं और स्वरूपण पर Aspose.Words ट्यूटोरियल में गोता लगाएँ। आकर्षक दस्तावेज़ों के लिए तालिकाएँ बनाना, अनुकूलित करना और स्टाइल करना सीखें।"
+"linktitle": "तालिकाएँ और स्वरूपण"
+"second_title": "Aspose.Words पायथन दस्तावेज़ प्रबंधन API"
+"title": "तालिकाएँ और स्वरूपण"
+"url": "/hi/python-net/tables-and-formatting/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # तालिकाएँ और स्वरूपण
@@ -46,9 +48,13 @@ Aspose.Words ट्यूटोरियल की दुनिया में 
 Python के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में डेटा प्रस्तुति के लिए तालिकाओं को अनुकूलित करना सीखें। चरण-दर-चरण मार्गदर्शन और स्रोत कोड उदाहरणों के साथ पठनीयता और दृश्य अपील को बढ़ाएँ।
 ### [दस्तावेज़ तालिका शैलियाँ और स्वरूपण](./document-table-styles-formatting/)
 Python के लिए Aspose.Words का उपयोग करके दस्तावेज़ तालिकाओं को स्टाइल और फ़ॉर्मेट करना सीखें। चरण-दर-चरण मार्गदर्शिकाओं और कोड उदाहरणों के साथ तालिकाएँ बनाएँ, कस्टमाइज़ करें और निर्यात करें। आज ही अपने दस्तावेज़ प्रस्तुतियों को बेहतर बनाएँ! 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

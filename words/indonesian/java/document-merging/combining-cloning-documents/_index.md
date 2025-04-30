@@ -1,14 +1,16 @@
 ---
-title: Menggabungkan dan Mengkloning Dokumen
-linktitle: Menggabungkan dan Mengkloning Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menggabungkan dan mengkloning dokumen dengan mudah di Java menggunakan Aspose.Words. Panduan langkah demi langkah ini mencakup semua hal yang perlu Anda ketahui.
-weight: 10
-url: /id/java/document-merging/combining-cloning-documents/
+"description": "Pelajari cara menggabungkan dan mengkloning dokumen dengan mudah di Java menggunakan Aspose.Words. Panduan langkah demi langkah ini mencakup semua hal yang perlu Anda ketahui."
+"linktitle": "Menggabungkan dan Mengkloning Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggabungkan dan Mengkloning Dokumen"
+"url": "/id/java/document-merging/combining-cloning-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggabungkan dan Mengkloning Dokumen
@@ -47,7 +49,7 @@ public class DocumentCombination {
 
 ## Langkah 2: Muat Dokumen Sumber
 
- Selanjutnya, Anda perlu memuat dokumen sumber yang ingin Anda gabungkan. Anda dapat memuat beberapa dokumen ke dalam contoh terpisah`Document` kelas.
+Selanjutnya, Anda perlu memuat dokumen sumber yang ingin Anda gabungkan. Anda dapat memuat beberapa dokumen ke dalam contoh terpisah `Document` kelas.
 
 ```java
 // Muat dokumen sumber
@@ -154,10 +156,15 @@ Tentu saja! Aspose.Words memungkinkan Anda menerapkan gaya dan format khusus pad
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.Words untuk Java?
 
- Anda dapat menemukan dokumentasi lengkap dan sumber daya tambahan untuk Aspose.Words untuk Java di[Di Sini](https://reference.aspose.com/words/java/).
+Anda dapat menemukan dokumentasi lengkap dan sumber daya tambahan untuk Aspose.Words untuk Java di [Di Sini](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

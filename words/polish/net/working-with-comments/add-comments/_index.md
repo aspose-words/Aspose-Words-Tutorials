@@ -1,14 +1,16 @@
 ---
-title: Dodaj komentarze
-linktitle: Dodaj komentarze
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dodawać komentarze do dokumentów Word za pomocą Aspose.Words dla .NET z naszym przewodnikiem. Ulepsz swój proces współpracy nad dokumentami bez wysiłku.
-weight: 10
-url: /pl/net/working-with-comments/add-comments/
+"description": "Dowiedz się, jak dodawać komentarze do dokumentów Word za pomocą Aspose.Words dla .NET z naszym przewodnikiem. Ulepsz swój proces współpracy nad dokumentami bez wysiłku."
+"linktitle": "Dodaj komentarze"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Dodaj komentarze"
+"url": "/pl/net/working-with-comments/add-comments/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj komentarze
@@ -21,10 +23,10 @@ Witamy w naszym szczegółowym przewodniku na temat dodawania komentarzy do doku
 
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 
-1. Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Możesz go pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Możesz go pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 2. .NET Framework: Upewnij się, że na Twoim komputerze jest zainstalowany .NET Framework.
 3. Środowisko programistyczne: IDE, takie jak Visual Studio, służące do pisania i wykonywania kodu.
-4. Podstawowa znajomość języka C#: Znajomość języka programowania C# ułatwi Ci zrozumienie przykładów.
+4. Podstawowa znajomość języka C#: Znajomość języka programowania C# pomoże Ci zrozumieć przykłady.
 
 ## Importuj przestrzenie nazw
 
@@ -39,7 +41,7 @@ Teraz podzielmy proces na łatwe do naśladowania kroki. Każdy krok będzie zaw
 
 ## Krok 1: Skonfiguruj katalog dokumentów
 
- Najpierw musimy zdefiniować katalog, w którym zostanie zapisany Twój dokument. Użyjemy symbolu zastępczego`YOUR DOCUMENT DIRECTORY` którą należy zastąpić rzeczywistą ścieżką katalogu.
+Najpierw musimy zdefiniować katalog, w którym zostanie zapisany Twój dokument. Użyjemy symbolu zastępczego `YOUR DOCUMENT DIRECTORY` którą należy zastąpić rzeczywistą ścieżką katalogu.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -114,14 +116,19 @@ Podczas gdy Aspose.Words koncentruje się na zawartości i strukturze komentarzy
 
 ### Czy można programowo usuwać komentarze?
 
-Tak, możesz usuwać komentarze programowo, przeglądając je w dokumencie i usuwając w razie potrzeby.
+Tak, możesz usuwać komentarze programowo, przeglądając komentarze w dokumencie i usuwając je w razie potrzeby.
 
 ### Czy mogę dodawać odpowiedzi do komentarzy?
 
 Aspose.Words umożliwia pracę z komentarzami wątkowymi, dzięki czemu możesz dodawać odpowiedzi do istniejących komentarzy, aby prowadzić bardziej szczegółowe dyskusje.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

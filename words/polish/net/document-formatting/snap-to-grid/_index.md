@@ -1,14 +1,16 @@
 ---
-title: Przyciąganie do siatki w dokumencie Word
-linktitle: Przyciąganie do siatki w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak włączyć funkcję Snap to Grid w dokumentach Worda przy użyciu Aspose.Words dla .NET. Ten szczegółowy samouczek obejmuje wymagania wstępne, przewodnik krok po kroku i często zadawane pytania.
-weight: 10
-url: /pl/net/document-formatting/snap-to-grid/
+"description": "Dowiedz się, jak włączyć funkcję Snap to Grid w dokumentach Worda przy użyciu Aspose.Words dla .NET. Ten szczegółowy samouczek obejmuje wymagania wstępne, przewodnik krok po kroku i często zadawane pytania."
+"linktitle": "Przyciąganie do siatki w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przyciąganie do siatki w dokumencie Word"
+"url": "/pl/net/document-formatting/snap-to-grid/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przyciąganie do siatki w dokumencie Word
@@ -21,14 +23,14 @@ Podczas pracy z dokumentami Worda kluczowe jest zachowanie spójnego i uporządk
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
--  Biblioteka Aspose.Words dla .NET: Można ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+- Biblioteka Aspose.Words dla .NET: Można ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Visual Studio lub inne środowisko IDE zgodne z platformą .NET.
 - Podstawowa wiedza o języku C#: Zrozumienie podstaw programowania w języku C# pomoże Ci zrozumieć przykłady.
--  Licencja Aspose: Można nabyć licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/), korzystanie z pełnej licencji zapewni dostęp do wszystkich funkcji bez ograniczeń.
+- Licencja Aspose: Można nabyć licencję tymczasową [Tutaj](https://purchase.aspose.com/temporary-license/), korzystanie z pełnej licencji zapewni dostęp do wszystkich funkcji bez ograniczeń.
 
 ## Importuj przestrzenie nazw
 
-Aby rozpocząć, musisz zaimportować niezbędne przestrzenie nazw. Pozwala to na korzystanie z funkcjonalności biblioteki Aspose.Words w projekcie.
+Aby rozpocząć, musisz zaimportować niezbędne przestrzenie nazw. To pozwoli Ci używać funkcjonalności biblioteki Aspose.Words w Twoim projekcie.
 
 ```csharp
 using Aspose.Words;
@@ -57,11 +59,11 @@ Konfigurowanie projektu
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ta linia ustawia katalog, w którym będą zapisywane Twoje dokumenty. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twojego katalogu.
+Ta linia ustawia katalog, w którym będą zapisywane Twoje dokumenty. Zastąp `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twojego katalogu.
 
 ## Krok 2: Zainicjuj dokument i DocumentBuilder
 
- Następnie należy utworzyć nowy dokument Word i zainicjować go`DocumentBuilder` Klasa, która pomaga w konstruowaniu dokumentu.
+Następnie należy utworzyć nowy dokument Word i zainicjować go `DocumentBuilder` Klasa, która pomaga w konstruowaniu dokumentu.
 
 Tworzenie nowego dokumentu
 
@@ -70,7 +72,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-- `Document doc = new Document();`tworzy nowy dokument Word.
+- `Document doc = new Document();` tworzy nowy dokument Word.
 - `DocumentBuilder builder = new DocumentBuilder(doc);` inicjuje DocumentBuilder przy użyciu utworzonego dokumentu.
 
 ## Krok 3: Włącz funkcję Przyciągaj do siatki dla akapitów
@@ -143,10 +145,15 @@ Tak, możesz użyć licencji tymczasowej do celów ewaluacyjnych, jednak aby uzy
 Nie, włączenie funkcji Przyciągaj do siatki nie ma znaczącego wpływu na wydajność dokumentu.
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Words dla .NET?
- Odwiedź[dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać szczegółowe informacje i przykłady.
+Odwiedź [dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać szczegółowe informacje i przykłady.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

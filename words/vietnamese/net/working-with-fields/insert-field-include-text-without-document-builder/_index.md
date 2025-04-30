@@ -1,14 +1,16 @@
 ---
-title: Chèn trường bao gồm văn bản mà không cần trình tạo tài liệu
-linktitle: Chèn FieldIncludeText mà không cần Document Builder
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn FieldIncludeText mà không cần sử dụng DocumentBuilder trong Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi.
-weight: 10
-url: /vi/net/working-with-fields/insert-field-include-text-without-document-builder/
+"description": "Tìm hiểu cách chèn FieldIncludeText mà không cần sử dụng DocumentBuilder trong Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi."
+"linktitle": "Chèn FieldIncludeText mà không cần Document Builder"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn trường bao gồm văn bản mà không cần trình tạo tài liệu"
+"url": "/vi/net/working-with-fields/insert-field-include-text-without-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn trường bao gồm văn bản mà không cần trình tạo tài liệu
@@ -21,9 +23,9 @@ Trong thế giới tự động hóa và thao tác tài liệu, Aspose.Words for
 
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển .NET: Bất kỳ IDE nào tương thích với .NET như Visual Studio.
-3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn theo dõi.
+3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn theo dõi dễ dàng hơn.
 
 ## Nhập không gian tên
 
@@ -116,10 +118,15 @@ FieldIncludeText hoạt động cụ thể với các tài liệu Word. Đối v
 Có, Aspose.Words cho .NET hỗ trợ .NET Framework, .NET Core và .NET 5/6.
 
 ### Làm thế nào tôi có thể dùng thử miễn phí Aspose.Words cho .NET?  
- Bạn có thể nhận được bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Bạn có thể nhận được bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

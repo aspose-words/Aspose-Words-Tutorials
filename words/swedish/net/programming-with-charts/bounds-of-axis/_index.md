@@ -1,35 +1,37 @@
 ---
-title: Axelgränser I Ett Diagram
-linktitle: Axelgränser I Ett Diagram
-second_title: Aspose.Words Document Processing API
-description: Lär dig hur du ställer in gränserna för en axel i ett diagram med Aspose.Words för .NET som kontrollerar intervallet av värden som visas på axeln.
-weight: 10
-url: /sv/net/programming-with-charts/bounds-of-axis/
+"description": "Lär dig hur du anger gränserna för en axel i ett diagram med hjälp av Aspose.Words för .NET som styr intervallet av värden som visas på axeln."
+"linktitle": "Axelgränser i ett diagram"
+"second_title": "Aspose.Words dokumentbehandlings-API"
+"title": "Axelgränser i ett diagram"
+"url": "/sv/net/programming-with-charts/bounds-of-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Axelgränser I Ett Diagram
+# Axelgränser i ett diagram
 
 ## Introduktion
 
-Vill du skapa professionella dokument med diagram i .NET? Du är på rätt plats! Den här guiden leder dig genom processen att använda Aspose.Words för .NET för att sätta gränserna för axeln i ett diagram. Vi kommer att dela upp varje steg för att säkerställa att du enkelt kan följa med, även om du är ny på biblioteket. Så, låt oss dyka in och komma igång!
+Vill du skapa professionella dokument med diagram i .NET? Då har du kommit rätt! Den här guiden guidar dig genom processen att använda Aspose.Words för .NET för att ange axelgränserna i ett diagram. Vi bryter ner varje steg för att säkerställa att du enkelt kan följa med, även om du är nybörjare i biblioteket. Så, låt oss dyka in och komma igång!
 
-## Förutsättningar
+## Förkunskapskrav
 
 Innan vi börjar, se till att du har följande:
 
--  Aspose.Words för .NET: Du kan[ladda ner](https://releases.aspose.com/words/net/) den senaste versionen eller använd en[gratis provperiod](https://releases.aspose.com/).
+- Aspose.Words för .NET: Du kan [ladda ner](https://releases.aspose.com/words/net/) den senaste versionen eller använd en [gratis provperiod](https://releases.aspose.com/).
 - .NET Framework: Se till att du har .NET installerat på ditt system.
-- IDE: En utvecklingsmiljö som Visual Studio.
+- IDE: En utvecklingsmiljö som liknar Visual Studio.
 
 När du har allt klart kan vi gå vidare till nästa steg.
 
-## Importera namnområden
+## Importera namnrymder
 
-För att börja måste du importera de nödvändiga namnrymden. Dessa ger dig tillgång till Aspose.Words-biblioteket och dess kartfunktioner.
+För att börja måste du importera de nödvändiga namnrymderna. Dessa ger dig åtkomst till Aspose.Words-biblioteket och dess diagramfunktioner.
 
 ```csharp
 using Aspose.Words;
@@ -39,7 +41,7 @@ using Aspose.Words.Drawing.Charts;
 
 ## Steg 1: Konfigurera din dokumentkatalog
 
-Först och främst måste du ställa in katalogen där ditt dokument ska sparas. Detta är ett enkelt steg men avgörande för att organisera dina filer.
+Först och främst måste du konfigurera katalogen där ditt dokument ska sparas. Detta är ett enkelt steg men avgörande för att organisera dina filer.
 
 ```csharp
 // Sökväg till din dokumentkatalog
@@ -54,9 +56,9 @@ Skapa sedan ett nytt dokumentobjekt. Detta dokument kommer att fungera som behå
 Document doc = new Document();
 ```
 
-## Steg 3: Initiera Document Builder
+## Steg 3: Initiera dokumentbyggaren
 
-Klassen DocumentBuilder ger ett snabbt och enkelt sätt att bygga dokument. Initiera det med ditt dokument.
+Klassen DocumentBuilder erbjuder ett snabbt och enkelt sätt att skapa dokument. Initiera den med ditt dokument.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -64,7 +66,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Steg 4: Infoga ett diagram
 
-Nu är det dags att infoga ett diagram i ditt dokument. I det här exemplet använder vi ett kolumndiagram.
+Nu är det dags att infoga ett diagram i ditt dokument. I det här exemplet använder vi ett stapeldiagram.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
@@ -73,7 +75,7 @@ Chart chart = shape.Chart;
 
 ## Steg 5: Rensa befintliga serier
 
-För att säkerställa att du börjar med ett rent blad, rensa alla befintliga serier från diagrammet.
+För att säkerställa att du börjar med en nystart, rensa alla befintliga serier från diagrammet.
 
 ```csharp
 chart.Series.Clear();
@@ -81,7 +83,7 @@ chart.Series.Clear();
 
 ## Steg 6: Lägg till data i diagrammet
 
-Här lägger vi till data till diagrammet. Detta inkluderar att specificera serienamnet och datapunkterna.
+Här lägger vi till data i diagrammet. Detta inkluderar att ange serienamnet och datapunkterna.
 
 ```csharp
 chart.Series.Add("Aspose Series 1",
@@ -106,31 +108,36 @@ Slutligen, spara ditt dokument i den angivna katalogen.
 doc.Save(dataDir + "WorkingWithCharts.BoundsOfAxis.docx");
 ```
 
-Och det är det! Du har framgångsrikt skapat ett dokument med ett diagram med Aspose.Words för .NET. 
+Och det var allt! Du har skapat ett dokument med ett diagram med hjälp av Aspose.Words för .NET. 
 
 ## Slutsats
 
-Med Aspose.Words för .NET kan du enkelt skapa och manipulera diagram i dina dokument. Denna steg-för-steg-guide har visat dig hur du anger gränserna för axeln i ett diagram, vilket gör din datapresentation mer exakt och professionell. Oavsett om du genererar rapporter, presentationer eller något annat dokument, tillhandahåller Aspose.Words de verktyg du behöver.
+Med Aspose.Words för .NET kan du enkelt skapa och manipulera diagram i dina dokument. Den här steg-för-steg-guiden har visat dig hur du ställer in axelgränserna i ett diagram, vilket gör din datapresentation mer exakt och professionell. Oavsett om du genererar rapporter, presentationer eller något annat dokument, tillhandahåller Aspose.Words de verktyg du behöver.
 
 ## Vanliga frågor
 
 ### Vad är Aspose.Words för .NET?
-Aspose.Words för .NET är ett bibliotek som låter dig skapa, ändra och konvertera Word-dokument programmatiskt med hjälp av .NET-ramverket.
+Aspose.Words för .NET är ett bibliotek som låter dig skapa, modifiera och konvertera Word-dokument programmatiskt med hjälp av .NET-ramverket.
 
-### Hur ställer jag in Aspose.Words för .NET?
- Du kan ladda ner den från[här](https://releases.aspose.com/words/net/)och följ installationsanvisningarna.
+### Hur konfigurerar jag Aspose.Words för .NET?
+Du kan ladda ner den från [här](https://releases.aspose.com/words/net/) och följ de medföljande installationsanvisningarna.
 
 ### Kan jag använda Aspose.Words gratis?
- Ja, du kan använda en[gratis provperiod](https://releases.aspose.com/) eller skaffa en[tillfällig licens](https://purchase.aspose.com/temporary-license/).
+Ja, du kan använda en [gratis provperiod](https://releases.aspose.com/) eller få en [tillfällig licens](https://purchase.aspose.com/temporary-license/).
 
 ### Var kan jag hitta dokumentation för Aspose.Words för .NET?
- Detaljerad dokumentation finns tillgänglig[här](https://reference.aspose.com/words/net/).
+Detaljerad dokumentation finns tillgänglig [här](https://reference.aspose.com/words/net/).
 
 ### Hur kan jag få support för Aspose.Words?
- Du kan besöka[supportforum](https://forum.aspose.com/c/words/8) för hjälp.
+Du kan besöka [supportforum](https://forum.aspose.com/c/words/8) för hjälp.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

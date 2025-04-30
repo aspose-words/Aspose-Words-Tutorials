@@ -1,14 +1,16 @@
 ---
-title: Teknik Pemisahan dan Ekstraksi Dokumen
-linktitle: Teknik Pemisahan dan Ekstraksi Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari pemisahan dan ekstraksi dokumen menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan kode sumber untuk manipulasi yang efisien. Manfaatkan kekuatan Aspose
-weight: 14
-url: /id/java/document-splitting/document-splitting-extraction-techniques/
+"description": "Pelajari pemisahan dan ekstraksi dokumen menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan kode sumber untuk manipulasi yang efisien. Manfaatkan kekuatan Aspose"
+"linktitle": "Teknik Pemisahan dan Ekstraksi Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Teknik Pemisahan dan Ekstraksi Dokumen"
+"url": "/id/java/document-splitting/document-splitting-extraction-techniques/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Teknik Pemisahan dan Ekstraksi Dokumen
@@ -86,7 +88,7 @@ Document doc = new Document("input.docx");
 // Membuat ekstraktor gambar
 ImageExtractor extractor = new ImageExtractor(doc);
 
-//Ekstrak gambar dari dokumen
+// Ekstrak gambar dari dokumen
 while (extractor.hasNext()) {
     extractor.getNextImage("output_" + extractor.getCurrentImageIndex() + ".png");
 }
@@ -109,7 +111,7 @@ for (Table table : tables) {
 }
 ```
 
-## Menggabungkan Konten yang Diekstrak
+## Menggabungkan Konten yang Diekstraksi
 
 Setelah Anda membagi dan mengekstrak konten yang diinginkan, Anda dapat menggabungkannya sesuai kebutuhan. Langkah ini memungkinkan Anda membuat dokumen atau laporan yang disesuaikan.
 
@@ -127,7 +129,7 @@ Jangan ragu untuk menjelajahi dokumentasi Aspose.Words untuk Java untuk fitur da
 
 ### Bagaimana cara menginstal Aspose.Words untuk Java?
 
- Anda dapat mengunduh Aspose.Words untuk Java dari situs web:[https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/)
+Anda dapat mengunduh Aspose.Words untuk Java dari situs web: [https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/)
 
 ### Dapatkah saya menggunakan Aspose.Words untuk Java dalam proyek komersial saya?
 
@@ -135,10 +137,15 @@ Ya, Aspose.Words untuk Java tersedia untuk penggunaan pribadi dan komersial.
 
 ### Di mana saya dapat mengakses lebih banyak tutorial dan sumber daya Aspose.Words untuk Java?
 
- Untuk tutorial dan sumber daya tambahan, kunjungi dokumentasi Aspose:[https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/)
+Untuk tutorial dan sumber daya tambahan, kunjungi dokumentasi Aspose: [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

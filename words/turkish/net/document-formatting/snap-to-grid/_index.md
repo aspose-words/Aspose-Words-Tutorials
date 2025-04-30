@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Izgaraya Yapış
-linktitle: Word Belgesinde Izgaraya Yapış
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinde Snap to Grid'i nasıl etkinleştireceğinizi öğrenin. Bu ayrıntılı eğitim ön koşulları, adım adım kılavuzu ve SSS'leri kapsar.
-weight: 10
-url: /tr/net/document-formatting/snap-to-grid/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinde Snap to Grid'i nasıl etkinleştireceğinizi öğrenin. Bu ayrıntılı eğitim ön koşulları, adım adım kılavuzu ve SSS'leri kapsar."
+"linktitle": "Word Belgesinde Izgaraya Yapış"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Izgaraya Yapış"
+"url": "/tr/net/document-formatting/snap-to-grid/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Izgaraya Yapış
@@ -21,10 +23,10 @@ Word belgeleriyle çalışırken, özellikle karmaşık biçimlendirme veya çok
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
--  Aspose.Words for .NET Kütüphanesi: İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET Kütüphanesi: İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio veya herhangi bir .NET uyumlu IDE.
 - Temel C# Bilgisi: C# programlamanın temellerini anlamak, örnekleri takip etmenize yardımcı olacaktır.
--  Aspose Lisansı: Geçici bir lisans edinilebilirken[Burada](https://purchase.aspose.com/temporary-license/)Tam lisans kullanımı, tüm özelliklere sınırsız erişim sağlayacaktır.
+- Aspose Lisansı: Geçici bir lisans edinilebilirken [Burada](https://purchase.aspose.com/temporary-license/)Tam lisans kullanımı, tüm özelliklere sınırsız erişim sağlayacaktır.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -57,11 +59,11 @@ Projenin Kurulumu
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Bu satır, belgelerinizin kaydedileceği dizini ayarlar. Değiştir`"YOUR DOCUMENT DIRECTORY"` dizininize giden gerçek yol ile.
+Bu satır, belgelerinizin kaydedileceği dizini ayarlar. Değiştir `"YOUR DOCUMENT DIRECTORY"` dizininize giden gerçek yol ile.
 
 ## Adım 2: Belgeyi ve Belge Oluşturucuyu Başlatın
 
- Daha sonra yeni bir Word belgesi oluşturmanız ve başlatmanız gerekir`DocumentBuilder` Belgenin oluşturulmasında yardımcı olan sınıf.
+Daha sonra yeni bir Word belgesi oluşturmanız ve başlatmanız gerekir `DocumentBuilder` Belgenin oluşturulmasında yardımcı olan sınıf.
 
 Yeni Bir Belge Oluşturma
 
@@ -70,12 +72,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-- `Document doc = new Document();`yeni bir Word belgesi oluşturur.
+- `Document doc = new Document();` yeni bir Word belgesi oluşturur.
 - `DocumentBuilder builder = new DocumentBuilder(doc);` Oluşturulan belge ile DocumentBuilder'ı başlatır.
 
 ## Adım 3: Paragraflar için Izgaraya Yapıştırmayı Etkinleştirin
 
-Şimdi, belgenizdeki bir paragraf için Izgaraya Yasla özelliğini etkinleştirelim.
+Şimdi, belgenizdeki bir paragraf için Izgaraya Yapıştırma özelliğini etkinleştirelim.
 
 Paragraf Düzenini Optimize Etme
 
@@ -104,7 +106,7 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 
 Ayrıca, tutarlı karakter hizalamasını korumak için bir paragraf içindeki yazı tipleri için Izgaraya Uydur özelliğini etkinleştirebilirsiniz.
 
-Yazı Tipinin Izgaraya Ayarlanması
+Yazı Tipinin Izgaraya Uyumunu Ayarlama
 
 ```csharp
 par.Runs[0].Font.SnapToGrid = true;
@@ -143,10 +145,15 @@ Evet, değerlendirme için geçici lisans kullanabilirsiniz ancak tam erişim i�
 Hayır, Izgaraya Uydurma özelliğini etkinleştirmek belge performansını önemli ölçüde etkilemez.
 
 ### Aspose.Words for .NET hakkında daha fazla bilgiyi nerede bulabilirim?
- Ziyaret edin[belgeleme](https://reference.aspose.com/words/net/) Detaylı bilgi ve örnekler için.
+Ziyaret edin [belgeleme](https://reference.aspose.com/words/net/) Detaylı bilgi ve örnekler için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Word Belgesine Metin Giriş Formu Alanı Ekle
-linktitle: Word Belgesine Metin Giriş Formu Alanı Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım eğitimle Aspose.Words for .NET kullanarak bir Word belgesine metin girişi form alanı eklemeyi öğrenin. Etkileşimli formlar oluşturmak için mükemmeldir.
-weight: 10
-url: /tr/net/add-content-using-documentbuilder/insert-text-input-form-field/
+"description": "Bu adım adım eğitimle Aspose.Words for .NET kullanarak bir Word belgesine metin girişi form alanı eklemeyi öğrenin. Etkileşimli formlar oluşturmak için mükemmeldir."
+"linktitle": "Word Belgesine Metin Giriş Formu Alanı Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesine Metin Giriş Formu Alanı Ekle"
+"url": "/tr/net/add-content-using-documentbuilder/insert-text-input-form-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesine Metin Giriş Formu Alanı Ekle
@@ -21,10 +23,10 @@ Bu eğitimde, bir Word belgesine metin girişi form alanı eklemeyi öğrenmek i
 
 Başlamadan önce ihtiyacınız olacak birkaç şey var:
 
-1.  Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesine sahip olduğunuzdan emin olun. Bunu şu adresten indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesine sahip olduğunuzdan emin olun. Bunu şu adresten indirebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi entegre bir geliştirme ortamı (IDE).
 3. C# Temel Anlayışı: C# programlama dili ve .NET framework'üne aşinalık.
-4.  Geçici Lisans (İsteğe bağlı): Aspose.Words'ü değerlendiriyorsanız, bir tane edinmek isteyebilirsiniz.[geçici lisans](https://purchase.aspose.com/temporary-license/) herhangi bir sınırlamadan kaçınmak için.
+4. Geçici Lisans (İsteğe bağlı): Aspose.Words'ü değerlendiriyorsanız, bir tane edinmek isteyebilirsiniz. [geçici lisans](https://purchase.aspose.com/temporary-license/) herhangi bir sınırlamadan kaçınmak için.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Adım 2: Yeni Bir Belge Oluşturun
 
- Daha sonra, yeni bir örnek oluşturmamız gerekiyor`Document` sınıf. Bu, üzerinde çalışacağımız Word belgesini temsil eder.
+Daha sonra, yeni bir örnek oluşturmamız gerekiyor `Document` sınıf. Bu, üzerinde çalışacağımız Word belgesini temsil eder.
 
 ```csharp
 Document doc = new Document();
@@ -55,7 +57,7 @@ Document doc = new Document();
 
 ## Adım 3: DocumentBuilder'ı Başlatın
 
- The`DocumentBuilder` sınıf, belgeye içerik eklemek için birincil aracımızdır. Bunu Word belge tuvaline yazan bir kalem olarak düşünün.
+The `DocumentBuilder` sınıf, belgeye içerik eklemek için birincil aracımızdır. Bunu Word belge tuvaline yazan bir kalem olarak düşünün.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -63,14 +65,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Adım 4: Metin Giriş Formu Alanını Ekle
 
- İşte sihrin gerçekleştiği yer burası. Bunu kullanacağız`InsertTextInput` yöntemi`DocumentBuilder` Bir metin girişi form alanı eklemek için sınıf. Bu form alanı kullanıcıların belgeye metin girmesine izin verecektir.
+İşte sihrin gerçekleştiği yer burası. Bunu kullanacağız `InsertTextInput` yöntemi `DocumentBuilder` Bir metin girişi form alanı eklemek için sınıf. Bu form alanı kullanıcıların belgeye metin girmesine izin verecektir.
 
 ```csharp
 builder.InsertTextInput("TextInput", TextFormFieldType.Regular, "", "Hello", 0);
 ```
 
 - Adı: "TextInput" - Bu form alanının adıdır.
--  Tip:`TextFormFieldType.Regular` Bu, form alanının normal bir metin girişi olduğunu belirtir.
+- Tip: `TextFormFieldType.Regular` - Bu, form alanının normal bir metin girişi olduğunu belirtir.
 - Varsayılan Metin: "" - Bu, form alanında görüntülenen varsayılan metindir (bu durumda boştur).
 - Değer: "Merhaba" - Form alanının başlangıç değeri.
 - Maksimum Uzunluk: 0 - Bu, girişin uzunluğuna herhangi bir sınır koymaz.
@@ -99,14 +101,19 @@ Aspose.Words bazı sınırlamalarla ücretsiz deneme sürümü sunar. Tam işlev
 Metin girişi form alanları, Word belgelerinde kullanıcıların önceden tanımlanmış alanlara metin girmelerine olanak sağlamak için kullanılır ve bu nedenle formlar ve şablonlar için idealdir.
 
 ### Form alanının görünümünü nasıl özelleştirebilirim?
- Form alanlarının görünümünü çeşitli özelliklerini kullanarak özelleştirebilirsiniz.`DocumentBuilder` yazı tipi, boyutu ve hizalama gibi sınıflar.
+Form alanlarının görünümünü çeşitli özelliklerini kullanarak özelleştirebilirsiniz. `DocumentBuilder` yazı tipi, boyutu ve hizalama gibi sınıflar.
 
 ### Aspose.Words for .NET hakkında daha fazla öğreticiyi nerede bulabilirim?
- Daha fazla öğretici ve belgeyi şu adreste bulabilirsiniz:[Aspose.Words for .NET dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+Daha fazla öğretici ve belgeyi şu adreste bulabilirsiniz: [Aspose.Words for .NET dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

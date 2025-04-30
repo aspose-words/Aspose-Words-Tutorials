@@ -1,14 +1,16 @@
 ---
-title: Skip Embedded Arial ve Times Roman Yazı Tipleriyle PDF Boyutunu Optimize Edin
-linktitle: Skip Embedded Arial ve Times Roman Yazı Tipleriyle PDF Boyutunu Optimize Edin
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak gömülü Arial ve Times Roman yazı tiplerini atlayarak PDF boyutunu optimize edin. PDF dosyalarınızı kolaylaştırmak için bu adım adım kılavuzu izleyin.
-weight: 10
-url: /tr/net/programming-with-pdfsaveoptions/skip-embedded-arial-and-times-roman-fonts/
+"description": "Aspose.Words for .NET kullanarak gömülü Arial ve Times Roman yazı tiplerini atlayarak PDF boyutunu optimize edin. PDF dosyalarınızı kolaylaştırmak için bu adım adım kılavuzu izleyin."
+"linktitle": "Skip Embedded Arial ve Times Roman Yazı Tipleriyle PDF Boyutunu Optimize Edin"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Skip Embedded Arial ve Times Roman Yazı Tipleriyle PDF Boyutunu Optimize Edin"
+"url": "/tr/net/programming-with-pdfsaveoptions/skip-embedded-arial-and-times-roman-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Skip Embedded Arial ve Times Roman Yazı Tipleriyle PDF Boyutunu Optimize Edin
@@ -20,7 +22,7 @@ Hiç kendinizi PDF dosyanızın boyutunun çok büyük olduğu bir durumda buldu
 ## Ön koşullar
 
 Ayrıntılara girmeden önce ihtiyacınız olacak birkaç şey var:
--  Aspose.Words for .NET: Bu güçlü kütüphanenin kurulu olduğundan emin olun. Eğer kurulu değilse, şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Bu güçlü kütüphanenin kurulu olduğundan emin olun. Eğer kurulu değilse, şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/words/net/).
 - C# hakkında temel bir anlayış: Bu, kod parçacıklarını takip etmenize yardımcı olacaktır.
 - Bir Word belgesi: İşlemi göstermek için örnek bir belge kullanacağız. 
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Bu kod parçacığında şunu değiştirin:`"YOUR DOCUMENT DIRECTORY"` belge dizininize giden yol ile.
+Bu kod parçacığında şunu değiştirin: `"YOUR DOCUMENT DIRECTORY"` belge dizininize giden yol ile.
 
 ## Adım 3: PDF Kaydetme Seçeneklerini Yapılandırın
 
@@ -87,13 +89,18 @@ Hayır, olmaz. Arial ve Times Roman standart yazı tipleri olduğundan, görün�
 Evet, gerektiğinde diğer yazı tiplerinin gömülmesini atlayacak şekilde kaydetme seçeneklerini yapılandırabilirsiniz.
 
 ### Aspose.Words for .NET ücretsiz mi?
- Aspose.Words for .NET, indirebileceğiniz ücretsiz bir deneme sürümü sunuyor[Burada](https://releases.aspose.com/) , ancak tam erişim için bir lisans satın almanız gerekir[Burada](https://purchase.aspose.com/buy).
+Aspose.Words for .NET, indirebileceğiniz ücretsiz bir deneme sürümü sunuyor [Burada](https://releases.aspose.com/), ancak tam erişim için bir lisans satın almanız gerekir [Burada](https://purchase.aspose.com/buy).
 
 ### Aspose.Words for .NET hakkında daha fazla öğreticiyi nerede bulabilirim?
-Kapsamlı dokümantasyon ve eğitimler bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Kapsamlı dokümantasyon ve eğitimler bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: पासवर्ड से दस्तावेज़ एन्क्रिप्ट करें
-linktitle: पासवर्ड से दस्तावेज़ एन्क्रिप्ट करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस विस्तृत, चरण-दर-चरण मार्गदर्शिका में Aspose.Words for .NET का उपयोग करके पासवर्ड के साथ दस्तावेज़ को एन्क्रिप्ट करना सीखें। अपनी संवेदनशील जानकारी को आसानी से सुरक्षित करें।
-weight: 10
-url: /hi/net/programming-with-docsaveoptions/encrypt-document-with-password/
+"description": "इस विस्तृत, चरण-दर-चरण मार्गदर्शिका में Aspose.Words for .NET का उपयोग करके पासवर्ड के साथ दस्तावेज़ को एन्क्रिप्ट करना सीखें। अपनी संवेदनशील जानकारी को आसानी से सुरक्षित करें।"
+"linktitle": "पासवर्ड से दस्तावेज़ एन्क्रिप्ट करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "पासवर्ड से दस्तावेज़ एन्क्रिप्ट करें"
+"url": "/hi/net/programming-with-docsaveoptions/encrypt-document-with-password/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पासवर्ड से दस्तावेज़ एन्क्रिप्ट करें
@@ -20,10 +22,10 @@ url: /hi/net/programming-with-docsaveoptions/encrypt-document-with-password/
 ## आवश्यक शर्तें
 
 इससे पहले कि हम कोड के साथ अपना हाथ गंदा करें, आपको कुछ चीजों की आवश्यकता होगी:
-1.  .NET के लिए Aspose.Words: आप कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+1. .NET के लिए Aspose.Words: आप कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो या आपकी पसंद का कोई भी C# IDE.
 3. .NET फ्रेमवर्क: सुनिश्चित करें कि यह आपके सिस्टम में स्थापित है।
-4.  लाइसेंस: आप एक से शुरू कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) या प्राप्त करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) पूर्ण सुविधाओं के लिए.
+4. लाइसेंस: आप एक से शुरू कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) या प्राप्त करें [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) पूर्ण सुविधाओं के लिए.
 
 सब कुछ समझ में आ गया? बढ़िया! चलिए अब अपना प्रोजेक्ट सेट अप करने की ओर बढ़ते हैं।
 
@@ -66,7 +68,7 @@ builder.Write("Hello world!");
 
 ## चरण 3: सहेजें विकल्प कॉन्फ़िगर करें
 
-अब सबसे महत्वपूर्ण हिस्सा आता है—पासवर्ड सुरक्षा को शामिल करने के लिए सेव ऑप्शन को कॉन्फ़िगर करना। यहीं पर आप अपने लॉक की मजबूती तय करते हैं।
+अब सबसे महत्वपूर्ण हिस्सा आता है—पासवर्ड सुरक्षा को शामिल करने के लिए सेव विकल्पों को कॉन्फ़िगर करना। यहीं पर आप अपने लॉक की मजबूती तय करते हैं।
 
 ```csharp
 DocSaveOptions saveOptions = new DocSaveOptions { Password = "password" };
@@ -97,7 +99,7 @@ doc.Save(dataDir + "WorkingWithDocSaveOptions.EncryptDocumentWithPassword.docx",
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### क्या मैं किसी भिन्न प्रकार के एन्क्रिप्शन का उपयोग कर सकता हूँ?
- हां, Aspose.Words for .NET विभिन्न एन्क्रिप्शन विधियों का समर्थन करता है।[प्रलेखन](https://reference.aspose.com/words/net/) अधिक जानकारी के लिए.
+हां, Aspose.Words for .NET विभिन्न एन्क्रिप्शन विधियों का समर्थन करता है। [प्रलेखन](https://reference.aspose.com/words/net/) अधिक जानकारी के लिए.
 
 ### यदि मैं अपना दस्तावेज़ पासवर्ड भूल जाऊं तो क्या होगा?
 दुर्भाग्य से, यदि आप पासवर्ड भूल जाते हैं, तो आप दस्तावेज़ तक नहीं पहुँच पाएँगे। अपने पासवर्ड सुरक्षित रखना सुनिश्चित करें!
@@ -110,9 +112,14 @@ doc.Save(dataDir + "WorkingWithDocSaveOptions.EncryptDocumentWithPassword.docx",
 
 ### .NET के लिए Aspose.Words द्वारा प्रदान किया गया एन्क्रिप्शन कितना सुरक्षित है?
 .NET के लिए Aspose.Words मजबूत एन्क्रिप्शन मानकों का उपयोग करता है, यह सुनिश्चित करता है कि आपके दस्तावेज़ अच्छी तरह से संरक्षित हैं।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

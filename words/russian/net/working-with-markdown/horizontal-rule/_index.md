@@ -1,14 +1,16 @@
 ---
-title: Горизонтальное правило
-linktitle: Горизонтальное правило
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как добавлять горизонтальные линии в документы Word с помощью Aspose.Words для .NET. Следуйте этому подробному пошаговому руководству, чтобы улучшить макет вашего документа.
-weight: 10
-url: /ru/net/working-with-markdown/horizontal-rule/
+"description": "Узнайте, как добавлять горизонтальные линии в документы Word с помощью Aspose.Words для .NET. Следуйте этому подробному пошаговому руководству, чтобы улучшить макет вашего документа."
+"linktitle": "Горизонтальное правило"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Горизонтальное правило"
+"url": "/ru/net/working-with-markdown/horizontal-rule/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Горизонтальное правило
@@ -21,7 +23,7 @@ url: /ru/net/working-with-markdown/horizontal-rule/
 
 Прежде чем перейти к пошаговому руководству, давайте убедимся, что у вас есть все необходимое.
 
--  Aspose.Words for .NET: Убедитесь, что у вас установлен Aspose.Words for .NET. Если вы еще этого не сделали, вы можете загрузить его с[Сайт Aspose](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Убедитесь, что у вас установлен Aspose.Words for .NET. Если вы еще этого не сделали, вы можете загрузить его с [Сайт Aspose](https://releases.aspose.com/words/net/).
 - Среда разработки: Вам понадобится среда разработки .NET, установленная на вашем компьютере. Visual Studio — отличный выбор.
 - Базовые знания C#: в этом руководстве предполагается, что у вас есть базовые знания C# и .NET.
 
@@ -51,7 +53,7 @@ DocumentBuilder builder = new DocumentBuilder();
 Теперь самое интересное – вставка горизонтальной линейки. С конструктором документов это проще простого.
 
 ```csharp
-// Вставьте горизонтальную линейку
+// Вставьте горизонтальную линию
 builder.InsertHorizontalRule();
 ```
 
@@ -73,13 +75,18 @@ builder.InsertHorizontalRule();
 Вам понадобится среда разработки .NET, например Visual Studio, и копия Aspose.Words для .NET.
 
 ### Является ли Aspose.Words для .NET бесплатным?
- Aspose.Words для .NET — платный продукт, но вы можете получить[бесплатная пробная версия](https://releases.aspose.com/) или[временная лицензия](https://purchase.aspose.com/temporary-license/).
+Aspose.Words для .NET — платный продукт, но вы можете получить [бесплатная пробная версия](https://releases.aspose.com/) или [временная лицензия](https://purchase.aspose.com/temporary-license/).
 
 ### Где я могу получить поддержку по Aspose.Words для .NET?
- Вы можете получить поддержку от[Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от [Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

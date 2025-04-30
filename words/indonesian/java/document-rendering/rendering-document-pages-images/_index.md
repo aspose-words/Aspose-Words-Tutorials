@@ -1,14 +1,16 @@
 ---
-title: Merender Halaman Dokumen sebagai Gambar
-linktitle: Merender Halaman Dokumen sebagai Gambar
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara merender halaman dokumen sebagai gambar menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan contoh kode untuk konversi dokumen yang efisien.
-weight: 10
-url: /id/java/document-rendering/rendering-document-pages-images/
+"description": "Pelajari cara merender halaman dokumen sebagai gambar menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan contoh kode untuk konversi dokumen yang efisien."
+"linktitle": "Merender Halaman Dokumen sebagai Gambar"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Merender Halaman Dokumen sebagai Gambar"
+"url": "/id/java/document-rendering/rendering-document-pages-images/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Merender Halaman Dokumen sebagai Gambar
@@ -20,9 +22,9 @@ Sebelum menyelami detail teknisnya, mari kita perkenalkan Aspose.Words untuk Jav
 
 ## Prasyarat
 
-Sebelum kita memulai coding, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita mulai membuat kode, pastikan Anda memiliki prasyarat berikut:
 
-1.  Aspose.Words untuk Java: Unduh dan instal Aspose.Words untuk Java dari[Di Sini](https://releases.aspose.com/words/java/).
+1. Aspose.Words untuk Java: Unduh dan instal Aspose.Words untuk Java dari [Di Sini](https://releases.aspose.com/words/java/).
 
 2. Lingkungan Pengembangan Java: Pastikan Anda telah menyiapkan lingkungan pengembangan Java di komputer Anda.
 
@@ -41,7 +43,7 @@ public class DocumentToImageConversion {
 
 ## Langkah 2: Muat Dokumen
 
-Pada langkah ini, kita akan memuat dokumen Word yang ingin kita ubah menjadi gambar. Pastikan untuk mengganti`"sample.docx"` dengan jalur ke dokumen Anda.
+Pada langkah ini, kita akan memuat dokumen Word yang ingin kita ubah menjadi gambar. Pastikan untuk mengganti `"sample.docx"` dengan jalur ke dokumen Anda.
 
 ```java
 // Memuat dokumen Word
@@ -82,7 +84,7 @@ Ingatlah untuk menyesuaikan opsi penyimpanan dan jalur berkas sesuai dengan kebu
 
 ### Bagaimana saya dapat menyajikan dokumen dalam format gambar yang berbeda?
 
- Anda dapat merender dokumen sebagai berbagai format gambar dengan menentukan format yang diinginkan di`ImageSaveOptions`Format yang didukung meliputi PNG, JPEG, BMP, TIFF, dan banyak lagi.
+Anda dapat merender dokumen sebagai berbagai format gambar dengan menentukan format yang diinginkan di `ImageSaveOptions`Format yang didukung meliputi PNG, JPEG, BMP, TIFF, dan banyak lagi.
 
 ### Apakah Aspose.Words untuk Java kompatibel dengan berbagai format dokumen?
 
@@ -90,7 +92,7 @@ Ya, Aspose.Words untuk Java mendukung berbagai format dokumen, termasuk DOCX, DO
 
 ### Bisakah saya mengontrol resolusi gambar selama rendering?
 
- Tentu saja! Aspose.Words memungkinkan Anda untuk mengatur resolusi untuk rendering gambar menggunakan`setResolution`metode dalam`ImageSaveOptions`Ini memastikan gambar keluaran memenuhi persyaratan kualitas Anda.
+Tentu saja! Aspose.Words memungkinkan Anda untuk mengatur resolusi untuk rendering gambar menggunakan `setResolution` metode dalam `ImageSaveOptions`Ini memastikan gambar keluaran memenuhi persyaratan kualitas Anda.
 
 ### Apakah Aspose.Words cocok untuk pemrosesan dokumen batch?
 
@@ -98,10 +100,15 @@ Ya, Aspose.Words sangat cocok untuk pemrosesan dokumen batch. Anda dapat mengoto
 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan contoh?
 
- Untuk dokumentasi dan contoh yang lengkap, kunjungi Referensi API Aspose.Words untuk Java di[Di Sini](https://reference.aspose.com/words/java/).
+Untuk dokumentasi dan contoh yang lengkap, kunjungi Referensi API Aspose.Words untuk Java di [Di Sini](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

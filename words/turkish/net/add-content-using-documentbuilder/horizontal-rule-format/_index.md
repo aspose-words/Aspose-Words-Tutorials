@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Yatay Çizgi Biçimi
-linktitle: Word Belgesinde Yatay Çizgi Biçimi
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerine özelleştirilebilir yatay çizgilerin nasıl ekleneceğini öğrenin. Belge otomasyonunuzu geliştirin.
-weight: 10
-url: /tr/net/add-content-using-documentbuilder/horizontal-rule-format/
+"description": "Aspose.Words for .NET kullanarak Word belgelerine özelleştirilebilir yatay çizgilerin nasıl ekleneceğini öğrenin. Belge otomasyonunuzu geliştirin."
+"linktitle": "Word Belgesinde Yatay Çizgi Biçimi"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Yatay Çizgi Biçimi"
+"url": "/tr/net/add-content-using-documentbuilder/horizontal-rule-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Yatay Çizgi Biçimi
@@ -22,9 +24,9 @@ url: /tr/net/add-content-using-documentbuilder/horizontal-rule-format/
 Aspose.Words for .NET kullanarak yatay kuralları uygulamaya başlamadan önce, aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
 - Visual Studio: .NET geliştirme için Visual Studio IDE'yi yükleyin.
-- Aspose.Words for .NET: Aspose.Words for .NET'i şuradan indirin ve yükleyin:[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Aspose.Words for .NET'i şuradan indirin ve yükleyin: [Burada](https://releases.aspose.com/words/net/).
 - Temel C# Bilgisi: C# programlama dilinin temellerine aşinalık.
--  DocumentBuilder Sınıfı: Anlaşılması`DocumentBuilder` Aspose.Words'de belge düzenleme sınıfı.
+- DocumentBuilder Sınıfı: Anlaşılması `DocumentBuilder` Aspose.Words'de belge düzenleme sınıfı.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -41,7 +43,7 @@ Aspose.Words for .NET kullanarak bir Word belgesine yatay çizgi ekleme sürecin
 
 ## Adım 1: DocumentBuilder'ı Başlatın ve Dizini Ayarlayın
 
- İlk olarak, bir`DocumentBuilder` nesneyi seçin ve belgenin kaydedileceği dizin yolunu ayarlayın.
+İlk olarak, bir `DocumentBuilder` nesneyi seçin ve belgenin kaydedileceği dizin yolunu ayarlayın.
 
 ```csharp
 string dataDir = "YOUR_DOCUMENT_DIRECTORY_PATH";
@@ -50,7 +52,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 ## Adım 2: Yatay Cetveli Ekle
 
- Kullanın`InsertHorizontalRule()` yöntemi`DocumentBuilder` yatay kural eklemek için sınıf.
+Kullanın `InsertHorizontalRule()` yöntemi `DocumentBuilder` yatay kural eklemek için sınıf.
 
 ```csharp
 Shape shape = builder.InsertHorizontalRule();
@@ -58,7 +60,7 @@ Shape shape = builder.InsertHorizontalRule();
 
 ## Adım 3: Yatay Kural Biçimini Özelleştirin
 
- Erişim`HorizontalRuleFormat` Yatay kuralın görünümünü özelleştirmek için eklenen şeklin özelliği.
+Erişim `HorizontalRuleFormat` Yatay kuralın görünümünü özelleştirmek için eklenen şeklin özelliği.
 
 ```csharp
 HorizontalRuleFormat horizontalRuleFormat = shape.HorizontalRuleFormat;
@@ -72,12 +74,12 @@ horizontalRuleFormat.NoShade = true;
 - Hizalama: Yatay kuralın hizalamasını belirtir (`HorizontalRuleAlignment.Center` (bu örnekte).
 - WidthPercent: Yatay kuralın genişliğini sayfa genişliğinin yüzdesi olarak ayarlar (bu örnekte %70).
 - Yükseklik: Yatay kuralın yüksekliğini nokta cinsinden tanımlar (bu örnekte 3 nokta).
-- Renk: Yatay kuralın rengini ayarlar (`Color.Blue` (bu örnekte).
-- NoShade: Yatay kuralın gölgeye sahip olup olmayacağını belirtir (`true` (bu örnekte).
+- Renk: Yatay çizginin rengini ayarlar (`Color.Blue` (bu örnekte).
+- NoShade: Yatay kuralın bir gölgeye sahip olup olmayacağını belirtir (`true` (bu örnekte).
 
 ## Adım 4: Belgeyi Kaydedin
 
- Son olarak, değiştirilen belgeyi kullanarak kaydedin`Save` yöntemi`Document` nesne.
+Son olarak, değiştirilen belgeyi kullanarak kaydedin `Save` yöntemi `Document` nesne.
 
 ```csharp
 builder.Document.Save(dataDir + "AddContentUsingDocumentBuilder.HorizontalRuleFormat.docx");
@@ -93,7 +95,7 @@ Aspose.Words for .NET kullanarak Word belgelerine yatay kuralların eklenmesinde
 Aspose.Words for .NET, .NET uygulamalarında Word belgeleriyle programlı olarak çalışmak için güçlü bir kütüphanedir.
 
 ### Aspose.Words for .NET'i nasıl indirebilirim?
- Aspose.Words for .NET'i şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/).
+Aspose.Words for .NET'i şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/net/).
 
 ### Aspose.Words'de yatay çizgilerin görünümünü özelleştirebilir miyim?
 Evet, Aspose.Words'ü kullanarak yatay çizgilerin hizalama, genişlik, yükseklik, renk ve gölgelendirme gibi çeşitli yönlerini özelleştirebilirsiniz.
@@ -102,11 +104,16 @@ Evet, Aspose.Words'ü kullanarak yatay çizgilerin hizalama, genişlik, yüksekl
 Evet, Aspose.Words güçlü belge düzenleme yetenekleri nedeniyle kurumsal ortamlarda yaygın olarak kullanılmaktadır.
 
 ### Aspose.Words for .NET için desteği nereden alabilirim?
- Destek ve toplum katılımı için şu adresi ziyaret edin:[Aspose.Words forumu](https://forum.aspose.com/c/words/8).
+Destek ve toplum katılımı için şu adresi ziyaret edin: [Aspose.Words forumu](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

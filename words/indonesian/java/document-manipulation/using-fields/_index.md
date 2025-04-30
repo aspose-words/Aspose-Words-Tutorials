@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Fields di Aspose.Words untuk Java
-linktitle: Menggunakan Fields
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Buka Kunci Otomatisasi Dokumen dengan Aspose.Words untuk Java. Pelajari cara menggabungkan, memformat, dan menyisipkan gambar dalam dokumen Java. Panduan lengkap dan contoh kode untuk pemrosesan dokumen yang efisien.
-weight: 11
-url: /id/java/document-manipulation/using-fields/
+"description": "Buka Kunci Otomatisasi Dokumen dengan Aspose.Words untuk Java. Pelajari cara menggabungkan, memformat, dan menyisipkan gambar dalam dokumen Java. Panduan lengkap dan contoh kode untuk pemrosesan dokumen yang efisien."
+"linktitle": "Menggunakan Fields"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Fields di Aspose.Words untuk Java"
+"url": "/id/java/document-manipulation/using-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Fields di Aspose.Words untuk Java
@@ -16,11 +18,11 @@ url: /id/java/document-manipulation/using-fields/
  
 ## Pengantar Penggunaan Fields di Aspose.Words untuk Java
 
-Dalam panduan langkah demi langkah ini, kami akan menjelajahi cara menggunakan kolom di Aspose.Words untuk Java. Kolom adalah tempat penampung yang ampuh yang dapat menyisipkan data secara dinamis ke dalam dokumen Anda. Kami akan membahas berbagai skenario, termasuk penggabungan kolom dasar, kolom bersyarat, bekerja dengan gambar, dan pemformatan baris bergantian. Kami akan menyediakan cuplikan kode Java dan penjelasan untuk setiap skenario.
+Dalam panduan langkah demi langkah ini, kami akan menjelajahi cara menggunakan kolom di Aspose.Words untuk Java. Kolom merupakan tempat penampung yang ampuh yang dapat menyisipkan data secara dinamis ke dalam dokumen Anda. Kami akan membahas berbagai skenario, termasuk penggabungan kolom dasar, kolom bersyarat, bekerja dengan gambar, dan pemformatan baris bergantian. Kami akan menyediakan cuplikan kode Java dan penjelasan untuk setiap skenario.
 
 ## Prasyarat
 
- Sebelum memulai, pastikan Anda telah menginstal Aspose.Words untuk Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/java/).
+Sebelum memulai, pastikan Anda telah menginstal Aspose.Words untuk Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/java/).
 
 ## Penggabungan Bidang Dasar
 
@@ -41,11 +43,11 @@ doc.getMailMerge().execute(fieldNames, fieldValues);
 doc.save("MergedDocument.docx");
 ```
 
- Dalam kode ini, kita memuat templat dokumen, menyiapkan bidang gabungan surat, dan menjalankan penggabungan.`HandleMergeField` kelas menangani jenis bidang tertentu seperti kotak centang dan konten badan HTML.
+Dalam kode ini, kita memuat templat dokumen, menyiapkan bidang gabungan surat, dan menjalankan penggabungan. `HandleMergeField` kelas menangani jenis bidang tertentu seperti kotak centang dan konten badan HTML.
 
 ## Bidang Bersyarat
 
-Anda dapat menggunakan kolom bersyarat dalam dokumen Anda. Mari masukkan kolom IF di dalam dokumen kita dan isi dengan data:
+Anda dapat menggunakan kolom bersyarat dalam dokumen Anda. Mari masukkan kolom IF ke dalam dokumen kita dan isi dengan data:
 
 ```java
 Document doc = new Document("ConditionalFieldTemplate.docx");
@@ -58,7 +60,7 @@ dataTable.getRows().add("James Bond");
 doc.getMailMerge().execute(dataTable);
 ```
 
- Kode ini memasukkan kolom IF dan MERGEFIELD di dalamnya. Meskipun pernyataan IF salah, kita tetapkan`setUnconditionalMergeFieldsAndRegions(true)` untuk menghitung MERGEFIELD di dalam bidang IF pernyataan salah selama gabungan surat.
+Kode ini memasukkan kolom IF dan MERGEFIELD di dalamnya. Meskipun pernyataan IF salah, kita tetapkan `setUnconditionalMergeFieldsAndRegions(true)` untuk menghitung MERGEFIELD di dalam bidang IF pernyataan salah selama gabungan surat.
 
 ## Bekerja dengan Gambar
 
@@ -91,7 +93,7 @@ doc.getMailMerge().executeWithRegions(dataTable);
 doc.save("FormattedDocument.doc");
 ```
 
- Kode ini memformat baris dalam tabel dengan warna bergantian berdasarkan`CompanyName` bidang.
+Kode ini memformat baris dalam tabel dengan warna bergantian berdasarkan `CompanyName` bidang.
 
 ## Kesimpulan
 
@@ -113,22 +115,27 @@ Kolom bersyarat di Aspose.Words untuk Java memungkinkan Anda membuat dokumen din
 
 ### Bagaimana cara memformat baris bergantian dalam tabel menggunakan Aspose.Words untuk Java?
 
- Untuk memformat baris bergantian dalam tabel, Anda dapat menggunakan Aspose.Words untuk Java untuk menerapkan pemformatan tertentu ke baris berdasarkan kriteria Anda. Di bagian "Pemformatan Baris Bergantian", Anda akan menemukan contoh yang menunjukkan cara memformat baris dengan warna bergantian berdasarkan`CompanyName` bidang.
+Untuk memformat baris bergantian dalam tabel, Anda dapat menggunakan Aspose.Words untuk Java untuk menerapkan pemformatan tertentu ke baris berdasarkan kriteria Anda. Di bagian "Pemformatan Baris Bergantian", Anda akan menemukan contoh yang menunjukkan cara memformat baris dengan warna bergantian berdasarkan `CompanyName` bidang.
 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan sumber daya untuk Aspose.Words untuk Java?
 
- Anda dapat menemukan dokumentasi lengkap, contoh kode, dan tutorial untuk Aspose.Words untuk Java di situs web Aspose:[Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)Sumber daya ini akan membantu Anda menjelajahi fitur dan fungsi tambahan dari pustaka tersebut.
+Anda dapat menemukan dokumentasi lengkap, contoh kode, dan tutorial untuk Aspose.Words untuk Java di situs web Aspose: [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)Sumber daya ini akan membantu Anda menjelajahi fitur dan fungsi tambahan dari pustaka tersebut.
 
 ### Bagaimana saya bisa mendapatkan dukungan atau mencari bantuan dengan Aspose.Words untuk Java?
 
- Jika Anda memerlukan bantuan, memiliki pertanyaan, atau mengalami masalah saat menggunakan Aspose.Words untuk Java, Anda dapat mengunjungi forum Aspose.Words untuk dukungan dan diskusi komunitas:[Forum Aspose.Words](https://forum.aspose.com/c/words).
+Jika Anda memerlukan bantuan, memiliki pertanyaan, atau mengalami masalah saat menggunakan Aspose.Words untuk Java, Anda dapat mengunjungi forum Aspose.Words untuk dukungan dan diskusi komunitas: [Forum Aspose.Words](https://forum.aspose.com/c/words).
 
 ### Apakah Aspose.Words untuk Java kompatibel dengan IDE Java yang berbeda?
 
 Ya, Aspose.Words untuk Java kompatibel dengan berbagai Lingkungan Pengembangan Terpadu (IDE) Java seperti Eclipse, IntelliJ IDEA, dan NetBeans. Anda dapat mengintegrasikannya ke dalam IDE pilihan Anda untuk menyederhanakan tugas pemrosesan dokumen Anda.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

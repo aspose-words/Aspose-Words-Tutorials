@@ -1,14 +1,16 @@
 ---
-title: Dołącz zakładkę do tekstu w dokumencie Word
-linktitle: Dołącz zakładkę do tekstu w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dołączyć zakładkę do tekstu w dokumencie Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów.
-weight: 10
-url: /pl/net/programming-with-bookmarks/append-bookmarked-text/
+"description": "Dowiedz się, jak dołączyć zakładkę do tekstu w dokumencie Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów."
+"linktitle": "Dołącz zakładkę do tekstu w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Dołącz zakładkę do tekstu w dokumencie Word"
+"url": "/pl/net/programming-with-bookmarks/append-bookmarked-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dołącz zakładkę do tekstu w dokumencie Word
@@ -21,10 +23,10 @@ Cześć! Czy kiedykolwiek próbowałeś dołączyć tekst z sekcji zakładek w d
 
 Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
--  Aspose.Words dla .NET: Upewnij się, że masz zainstalowany. Jeśli nie, możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz zainstalowany. Jeśli nie, możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: dowolne środowisko programistyczne .NET, np. Visual Studio.
 - Podstawowa wiedza o języku C#: Pomocna będzie znajomość podstawowych koncepcji programowania w języku C#.
-- Dokument Word z zakładkami: Dokument Word z ustawionymi zakładkami, których będziemy używać do dodawania tekstu.
+- Dokument Word z zakładkami: Dokument Word z ustawionymi zakładkami, za pomocą których będziemy dodawać tekst.
 
 ## Importuj przestrzenie nazw
 
@@ -110,7 +112,7 @@ dstDoc.Save("appended_document.docx");
 
 ## Wniosek
 
-I masz to! Udało Ci się dołączyć tekst z sekcji z zakładkami w dokumencie Worda przy użyciu Aspose.Words dla .NET. To potężne narzędzie sprawia, że manipulacja dokumentem staje się dziecinnie prosta, a teraz masz jeszcze jedną sztuczkę w rękawie. Miłego kodowania!
+masz! Udało Ci się dołączyć tekst z sekcji z zakładkami w dokumencie Worda przy użyciu Aspose.Words dla .NET. To potężne narzędzie sprawia, że manipulacja dokumentem staje się dziecinnie prosta, a teraz masz jeszcze jedną sztuczkę w rękawie. Miłego kodowania!
 
 ## Najczęściej zadawane pytania
 
@@ -118,19 +120,24 @@ I masz to! Udało Ci się dołączyć tekst z sekcji z zakładkami w dokumencie 
 Tak, możesz powtórzyć ten proces dla każdej zakładki i dodać odpowiedni tekst.
 
 ### Co się stanie, jeśli akapit początkowy i końcowy mają różnych nadrzędnych?
-bieżącym przykładzie zakłada się, że mają tego samego rodzica. W przypadku różnych rodziców wymagana jest bardziej złożona obsługa.
+W bieżącym przykładzie zakłada się, że mają tego samego rodzica. W przypadku różnych rodziców wymagana jest bardziej złożona obsługa.
 
 ### Czy mogę zachować oryginalne formatowanie dołączonego tekstu?
- Absolutnie!`ImportFormatMode.KeepSourceFormatting` zapewnia zachowanie oryginalnego formatowania.
+Absolutnie! `ImportFormatMode.KeepSourceFormatting` zapewnia zachowanie oryginalnego formatowania.
 
 ### Czy można dodać tekst w określonym miejscu w dokumencie docelowym?
 Tak, możesz dodać tekst w dowolnym miejscu, przechodząc do żądanego węzła w dokumencie docelowym.
 
 ### Co zrobić, jeśli chcę dodać tekst z zakładki do nowej sekcji?
 Możesz utworzyć nową sekcję w dokumencie docelowym i dodać tam tekst.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

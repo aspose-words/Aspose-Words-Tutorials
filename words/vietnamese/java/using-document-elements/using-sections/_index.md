@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Sections trong Aspose.Words cho Java
-linktitle: Sử dụng các phần
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Khám phá Aspose.Words cho Java; Hướng dẫn toàn diện về cách sử dụng các phần. Thêm, xóa, thêm, sao chép các phần với các ví dụ mã.
-weight: 23
-url: /vi/java/using-document-elements/using-sections/
+"description": "Khám phá Aspose.Words cho Java; Hướng dẫn toàn diện về cách sử dụng các phần. Thêm, xóa, thêm, sao chép các phần với các ví dụ mã."
+"linktitle": "Sử dụng các phần"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng Sections trong Aspose.Words cho Java"
+"url": "/vi/java/using-document-elements/using-sections/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Sections trong Aspose.Words cho Java
@@ -19,7 +21,7 @@ Nếu bạn đang muốn thao tác và quản lý các phần trong ứng dụng
 
 ## Giới thiệu
 
-Trước khi đi sâu vào mã, chúng ta hãy tìm hiểu các phần trong Aspose.Words. Trong tài liệu Word, các phần là các khu vực có cài đặt bố cục trang cụ thể. Chúng có thể bao gồm các cài đặt tiêu đề, chân trang, lề và hướng trang. Với Aspose.Words for Java, bạn có thể dễ dàng làm việc với các phần để tạo tài liệu chuyên nghiệp.
+Trước khi đi sâu vào mã, hãy cùng tìm hiểu các phần trong Aspose.Words. Trong tài liệu Word, các phần là các khu vực có cài đặt bố cục trang cụ thể. Chúng có thể bao gồm các cài đặt tiêu đề, chân trang, lề và hướng trang. Với Aspose.Words for Java, bạn có thể dễ dàng làm việc với các phần để tạo tài liệu chuyên nghiệp.
 
 ## Thêm một phần
 
@@ -110,25 +112,30 @@ Có, Aspose.Words for Java tương thích với các thư viện Java khác, gi�
 
 ### Câu hỏi 2: Có phiên bản dùng thử của Aspose.Words cho Java không?
 
- Có, bạn có thể truy cập dùng thử miễn phí Aspose.Words cho Java[đây](https://releases.aspose.com/).
+Có, bạn có thể truy cập dùng thử miễn phí Aspose.Words cho Java [đây](https://releases.aspose.com/).
 
 ### Câu hỏi 3: Làm thế nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Words cho Java?
 
- Bạn có thể có được giấy phép tạm thời cho Aspose.Words dành cho Java[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể có được giấy phép tạm thời cho Aspose.Words dành cho Java [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Câu hỏi 4: Tôi có thể tìm thấy sự hỗ trợ cho Aspose.Words dành cho Java ở đâu?
 
- Để được hỗ trợ và trợ giúp, bạn có thể truy cập diễn đàn Aspose.Words for Java[đây](https://forum.aspose.com/).
+Để được hỗ trợ và trợ giúp, bạn có thể truy cập diễn đàn Aspose.Words for Java [đây](https://forum.aspose.com/).
 
 ### Câu hỏi 5: Làm thế nào để mua giấy phép Aspose.Words cho Java?
 
- Bạn có thể mua giấy phép cho Aspose.Words cho Java[đây](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép cho Aspose.Words cho Java [đây](https://purchase.aspose.com/buy).
 
 Hãy bắt đầu sử dụng Aspose.Words for Java ngay hôm nay và nâng cao khả năng xử lý tài liệu của bạn!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

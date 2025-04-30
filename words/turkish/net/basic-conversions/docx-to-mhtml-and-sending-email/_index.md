@@ -1,14 +1,16 @@
 ---
-title: Docx'i Mhtml'e Dönüştürme ve E-posta Gönderme
-linktitle: Docx'i Mhtml'e Dönüştürme ve E-posta Gönderme
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzda DOCX'i MHTML'e nasıl dönüştüreceğinizi ve Aspose.Words for .NET kullanarak e-postaları nasıl göndereceğinizi öğrenin. Kolay otomasyonla üretkenliğinizi artırın.
-weight: 10
-url: /tr/net/basic-conversions/docx-to-mhtml-and-sending-email/
+"description": "Bu adım adım kılavuzda DOCX'i MHTML'e nasıl dönüştüreceğinizi ve Aspose.Words for .NET kullanarak e-postaları nasıl göndereceğinizi öğrenin. Kolay otomasyonla üretkenliğinizi artırın."
+"linktitle": "Docx'i Mhtml'e Dönüştürme ve E-posta Gönderme"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Docx'i Mhtml'e Dönüştürme ve E-posta Gönderme"
+"url": "/tr/net/basic-conversions/docx-to-mhtml-and-sending-email/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Docx'i Mhtml'e Dönüştürme ve E-posta Gönderme
@@ -21,8 +23,8 @@ Günümüzün dijital çağında, belgeleri bir formattan diğerine dönüştür
 
 Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET kitaplığını şu adresten indirin ve yükleyin:[Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
-2.  Aspose.Email for .NET: Aspose.Email for .NET kitaplığını şu adresten indirin ve yükleyin:[Aspose sürüm sayfası](https://releases.aspose.com/email/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET kitaplığını şu adresten indirin ve yükleyin: [Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
+2. Aspose.Email for .NET: Aspose.Email for .NET kitaplığını şu adresten indirin ve yükleyin: [Aspose sürüm sayfası](https://releases.aspose.com/email/net/).
 3. .NET Framework: Bilgisayarınızda .NET Framework'ün yüklü olduğundan emin olun.
 4. SMTP Sunucusu: E-posta göndermek için bir SMTP sunucusuna erişmeniz gerekir.
 
@@ -42,7 +44,7 @@ Her bir bölümü net bir şekilde anlayabilmeniz için süreci birden fazla ad�
 
 ## Adım 1: DOCX Belgesini Yükleyin
 
- Öncelikle dönüştürmek istediğiniz DOCX belgesini yüklemeniz gerekir.`Document` DOCX dosyanızı yüklemek için Aspose.Words'den sınıf.
+Öncelikle dönüştürmek istediğiniz DOCX belgesini yüklemeniz gerekir. `Document` DOCX dosyanızı yüklemek için Aspose.Words'den sınıf.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -52,7 +54,7 @@ Document doc = new Document(dataDir + "Document.docx");
 
 ## Adım 2: Belgeyi MHTML olarak kaydedin
 
- Sonra, yüklenen belgeyi bir MHTML dosyası olarak kaydedin. Bu, şu şekilde yapılır:`Save` yöntemi`Document` sınıf.
+Sonra, yüklenen belgeyi bir MHTML dosyası olarak kaydedin. Bu, şu şekilde yapılır: `Save` yöntemi `Document` sınıf.
 
 ```csharp
 Stream stream = new MemoryStream();
@@ -64,7 +66,7 @@ stream.Position = 0;
 
 ## Adım 3: Bir E-posta Mesajı Oluşturun
 
- Şimdi, Aspose.Email kullanarak MHTML akışından bir e-posta mesajı oluşturun.`MailMessage` Bu amaçla sınıf.
+Şimdi, Aspose.Email kullanarak MHTML akışından bir e-posta mesajı oluşturun. `MailMessage` Bu amaçla sınıf.
 
 ```csharp
 // Akıştan bir Aspose.Email MIME e-posta mesajı oluşturun.
@@ -76,7 +78,7 @@ message.Subject = "Aspose.Words + Aspose.Email MHTML Test Message";
 
 ## Adım 4: E-postayı gönderin
 
- Son olarak, e-postayı bir SMTP istemcisi kullanarak gönderin. SMTP istemcisini SMTP sunucunuzun ayrıntılarıyla yapılandırın ve`Send` Mesajı gönderme yöntemi.
+Son olarak, e-postayı bir SMTP istemcisi kullanarak gönderin. SMTP istemcisini SMTP sunucunuzun ayrıntılarıyla yapılandırın ve `Send` Mesajı gönderme yöntemi.
 
 ```csharp
 // Mesajı Aspose.Email kullanarak gönderin.
@@ -95,20 +97,25 @@ Tebrikler! Bir DOCX belgesini MHTML'ye başarıyla dönüştürdünüz ve Aspose
 Evet, Aspose.Words çeşitli formatları destekler ve DOC, DOCX, RTF ve daha fazlası gibi belgeleri MHTML'ye dönüştürebilirsiniz.
 
 ### E-postaya nasıl ek ekleyebilirim?
- Kullanabilirsiniz`Attachments` mülkiyeti`MailMessage` E-postanıza ekler eklemek için sınıf.
+Kullanabilirsiniz `Attachments` mülkiyeti `MailMessage` E-postanıza ek dosya eklemek için kullanabileceğiniz sınıf.
 
 ### Aspose.Words .NET Core ile uyumlu mu?
 Evet, Aspose.Words .NET Core ile uyumludur. .NET Core uygulamalarında da kullanabilirsiniz.
 
 ### Aspose.Words ve Aspose.Email için lisansa ihtiyacım var mı?
- Evet, her iki kütüphane de lisans gerektirir. Geçici bir lisansı şuradan alabilirsiniz:[Aspose satın alma sayfası](https://purchase.aspose.com/temporary-license/) Değerlendirme amaçlı.
+Evet, her iki kütüphane de lisans gerektirir. Geçici bir lisansı şuradan alabilirsiniz: [Aspose satın alma sayfası](https://purchase.aspose.com/temporary-license/) değerlendirme amaçlı.
 
 ### Daha fazla dokümanı nerede bulabilirim?
- Aspose.Words için ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/) ve Aspose.Email için[Burada](https://reference.aspose.com/email/net/).
+Aspose.Words için ayrıntılı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/) ve Aspose.Email için [Burada](https://reference.aspose.com/email/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

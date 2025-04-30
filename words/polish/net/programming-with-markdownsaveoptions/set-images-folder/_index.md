@@ -1,14 +1,16 @@
 ---
-title: Ustaw folder obrazów
-linktitle: Ustaw folder obrazów
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Konwertuj dokumenty Word do Markdown z odpowiednim wyrównaniem tabeli za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem, aby uzyskać idealne wyniki.
-weight: 10
-url: /pl/net/programming-with-markdownsaveoptions/set-images-folder/
+"description": "Konwertuj dokumenty Word do Markdown z odpowiednim wyrównaniem tabeli za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem, aby uzyskać idealne wyniki."
+"linktitle": "Ustaw folder obrazów"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ustaw folder obrazów"
+"url": "/pl/net/programming-with-markdownsaveoptions/set-images-folder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw folder obrazów
@@ -21,8 +23,8 @@ Czy kiedykolwiek chciałeś wyeksportować swój dokument Word do formatu Markdo
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
--  Aspose.Words dla .NET: Można go pobrać[Tutaj](https://releases.aspose.com/words/net/).
--  Ważna licencja: Uzyskaj bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/) lub tymczasowa licencja[Tutaj](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words dla .NET: Można go pobrać [Tutaj](https://releases.aspose.com/words/net/).
+- Ważna licencja: Uzyskaj bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/) lub tymczasowa licencja [Tutaj](https://purchase.aspose.com/temporary-license/).
 - Visual Studio: lub dowolne inne środowisko IDE obsługujące programowanie w środowisku .NET.
 - Podstawowa znajomość języka C#: Zrozumienie języka programowania C#.
 
@@ -38,7 +40,7 @@ using System.IO;
 
 ## Krok 1: Skonfiguruj swój projekt
 
-Najpierw skonfiguruj swój projekt .NET w IDE. Utwórz nową aplikację konsolową i dodaj odwołanie do Aspose.Words dla .NET.
+Najpierw skonfiguruj swój projekt .NET w swoim IDE. Utwórz nową aplikację konsolową i dodaj odwołanie do Aspose.Words dla .NET.
 
 ### 1.1 Utwórz nowy projekt
 
@@ -46,7 +48,7 @@ Otwórz Visual Studio i utwórz nowy projekt aplikacji konsoli. Nazwij go „Mar
 
 ### 1.2 Dodaj odniesienie Aspose.Words
 
- Aby dodać Aspose.Words do swojego projektu, możesz pobrać plik DLL z[Strona internetowa Aspose](https://releases.aspose.com/words/net/) i dodaj go ręcznie lub skorzystaj z Menedżera pakietów NuGet:
+Aby dodać Aspose.Words do swojego projektu, możesz pobrać plik DLL z [Strona internetowa Aspose](https://releases.aspose.com/words/net/) i dodaj go ręcznie lub skorzystaj z Menedżera pakietów NuGet:
 
 ```bash
 Install-Package Aspose.Words
@@ -54,7 +56,7 @@ Install-Package Aspose.Words
 
 ## Krok 2: Napisz kod do eksportu jako Markdown
 
-Teraz napiszemy kod, który odczyta dokument Word i zapisze go jako plik Markdown z odpowiednim wyrównaniem tabeli.
+Teraz napiszemy kod, który odczyta dokument Worda i zapisze go jako plik Markdown z odpowiednim wyrównaniem tabeli.
 
 ### 2.1 Określ ścieżkę do swojego dokumentu
 
@@ -74,7 +76,7 @@ Document doc = new Document(dataDir + "Image bullet points.docx");
 
 ### 2.3 Konfigurowanie opcji zapisu Markdown
 
- Skonfiguruj`MarkdownSaveOptions` aby określić miejsce przechowywania obrazów.
+Skonfiguruj `MarkdownSaveOptions` aby określić miejsce przechowywania obrazów.
 
 ```csharp
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
@@ -85,7 +87,7 @@ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
 
 ### 2.4 Zapisz dokument jako Markdown
 
- Użyj`MemoryStream` aby zapisać dokument w formacie Markdown.
+Użyj `MemoryStream` aby zapisać dokument w formacie Markdown.
 
 ```csharp
 using (MemoryStream stream = new MemoryStream())
@@ -106,7 +108,7 @@ Tak, Aspose.Words dla .NET można używać z dowolnym językiem zgodnym z platfo
 
 ### Jak uzyskać tymczasową licencję na Aspose.Words?
 
-Możesz uzyskać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Możesz uzyskać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Jakie typy dokumentów mogę przekonwertować do formatu Markdown?
 
@@ -114,15 +116,20 @@ Możesz konwertować różne dokumenty Word, w tym .doc, .docx, .rtf i inne.
 
 ### Czy wersja próbna Aspose.Words ma jakieś ograniczenia?
 
-Wersja próbna ma pewne ograniczenia, takie jak znaki wodne w plikach wyjściowych. Możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Wersja próbna ma pewne ograniczenia, takie jak znaki wodne w plikach wyjściowych. Możesz otrzymać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.Words?
 
- Szczegółową dokumentację i przykłady można znaleźć na stronie[Strona internetowa Aspose](https://reference.aspose.com/words/net/).
+Szczegółową dokumentację i przykłady można znaleźć na stronie [Strona internetowa Aspose](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

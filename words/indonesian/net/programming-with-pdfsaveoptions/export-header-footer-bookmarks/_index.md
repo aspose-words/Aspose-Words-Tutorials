@@ -1,14 +1,16 @@
 ---
-title: Ekspor Penanda Header dan Footer Dokumen Word ke Dokumen PDF
-linktitle: Ekspor Penanda Header dan Footer Dokumen Word ke Dokumen PDF
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengekspor penanda header dan footer dari dokumen Word ke PDF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami.
-weight: 10
-url: /id/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/
+"description": "Pelajari cara mengekspor penanda header dan footer dari dokumen Word ke PDF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami."
+"linktitle": "Ekspor Penanda Header dan Footer Dokumen Word ke Dokumen PDF"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Ekspor Penanda Header dan Footer Dokumen Word ke Dokumen PDF"
+"url": "/id/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekspor Penanda Header dan Footer Dokumen Word ke Dokumen PDF
@@ -21,7 +23,7 @@ Mengonversi dokumen Word ke PDF merupakan tugas yang umum, terutama saat Anda in
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-- Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Siapkan lingkungan pengembangan Anda. Anda dapat menggunakan Visual Studio atau IDE lain yang kompatibel dengan .NET.
 - Pengetahuan Dasar C#: Kemampuan dalam pemrograman C# diperlukan untuk mengikuti contoh kode.
 
@@ -58,7 +60,7 @@ saveOptions.OutlineOptions.DefaultBookmarksOutlineLevel = 1;
 saveOptions.HeaderFooterBookmarksExportMode = HeaderFooterBookmarksExportMode.First;
 ```
 
- Di sini, kami sedang menyiapkan`PdfSaveOptions` . Itu`DefaultBookmarksOutlineLevel` properti mengatur tingkat garis besar untuk penanda buku, dan`HeaderFooterBookmarksExportMode` properti memastikan bahwa hanya kemunculan pertama bookmark di header dan footer yang diekspor.
+Di sini, kami sedang menyiapkan `PdfSaveOptions`. Itu `DefaultBookmarksOutlineLevel` properti mengatur tingkat garis besar untuk penanda buku, dan `HeaderFooterBookmarksExportMode` properti memastikan bahwa hanya kemunculan pertama bookmark di header dan footer yang diekspor.
 
 ## Langkah 3: Simpan Dokumen sebagai PDF
 
@@ -78,15 +80,15 @@ Nah, itu dia! Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah meng
 
 ### Bisakah saya mengekspor semua penanda buku dari dokumen Word ke PDF?
 
- Ya, Anda bisa. Di`PdfSaveOptions`, Anda dapat menyesuaikan pengaturan untuk menyertakan semua penanda jika diperlukan.
+Ya, Anda bisa. Di `PdfSaveOptions`, Anda dapat menyesuaikan pengaturan untuk menyertakan semua penanda jika diperlukan.
 
 ### Bagaimana jika saya ingin mengekspor penanda halaman dari badan dokumen juga?
 
- Anda dapat mengonfigurasi`OutlineOptions` di dalam`PdfSaveOptions` untuk menyertakan penanda dari badan dokumen.
+Anda dapat mengonfigurasi `Outldi dalameOptions` in `PdfSaveOptions` untuk menyertakan penanda dari badan dokumen.
 
 ### Apakah mungkin untuk menyesuaikan level penanda dalam PDF?
 
- Tentu saja! Anda dapat menyesuaikannya`DefaultBookmarksOutlineLevel` properti untuk mengatur tingkat garis besar yang berbeda untuk penanda buku Anda.
+Tentu saja! Anda dapat menyesuaikannya `DefaultBookmarksOutlineLevel` properti untuk mengatur tingkat garis besar yang berbeda untuk penanda buku Anda.
 
 ### Bagaimana cara menangani dokumen tanpa penanda?
 
@@ -95,9 +97,14 @@ Jika dokumen Anda tidak memiliki penanda, PDF akan dibuat tanpa kerangka penanda
 ### Dapatkah saya menggunakan metode ini untuk tipe dokumen lain seperti DOCX atau RTF?
 
 Ya, Aspose.Words untuk .NET mendukung berbagai jenis dokumen, termasuk DOCX, RTF, dan lainnya.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Korzystanie z pól formularza w Aspose.Words dla Java
-linktitle: Korzystanie z pól formularza
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Naucz się używać Aspose.Words for Java, aby tworzyć interaktywne dokumenty Word z polami formularzy. Zacznij teraz!
-weight: 14
-url: /pl/java/using-document-elements/using-form-fields/
+"description": "Naucz się używać Aspose.Words for Java, aby tworzyć interaktywne dokumenty Word z polami formularzy. Zacznij teraz!"
+"linktitle": "Korzystanie z pól formularza"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Korzystanie z pól formularza w Aspose.Words dla Java"
+"url": "/pl/java/using-document-elements/using-form-fields/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie z pól formularza w Aspose.Words dla Java
@@ -20,7 +22,7 @@ W dzisiejszej erze cyfrowej automatyzacja i manipulacja dokumentami są kluczowy
 Aspose.Words for Java to potężna biblioteka, która umożliwia programistom tworzenie, manipulowanie i konwertowanie dokumentów Word w aplikacjach Java. Oferuje szeroki zakres funkcji do obsługi różnych elementów dokumentu, w tym pól formularzy.
 
 ## 2. Konfigurowanie środowiska
- Zanim zaczniesz używać Aspose.Words dla Javy, musisz skonfigurować środowisko programistyczne. Upewnij się, że masz zainstalowaną Javę i bibliotekę Aspose.Words. Możesz pobrać bibliotekę ze strony[Tutaj](https://releases.aspose.com/words/java/).
+Zanim zaczniesz używać Aspose.Words dla Javy, musisz skonfigurować środowisko programistyczne. Upewnij się, że masz zainstalowaną Javę i bibliotekę Aspose.Words. Bibliotekę możesz pobrać ze strony [Tutaj](https://releases.aspose.com/words/java/).
 
 ## 3. Tworzenie nowego dokumentu
 Aby rozpocząć, utwórz nowy dokument Word za pomocą Aspose.Words for Java. Możesz użyć następującego kodu jako odniesienia:
@@ -84,7 +86,7 @@ public void formFieldsGetByName() throws Exception {
 Możesz dostosować wygląd pól formularzy, np. zmienić rozmiar i kolor czcionki, aby Twoje dokumenty były bardziej atrakcyjne wizualnie i przyjazne dla użytkownika.
 
 ## 9. Wnioski
- Aspose.Words for Java upraszcza pracę z polami formularzy w dokumentach Word, ułatwiając tworzenie interaktywnych i dynamicznych dokumentów dla aplikacji. Zapoznaj się z obszerną dokumentacją na stronie[Dokumentacja API Aspose.Words](https://reference.aspose.com/words/java/) aby odkryć więcej funkcji i możliwości.
+Aspose.Words for Java upraszcza pracę z polami formularzy w dokumentach Word, ułatwiając tworzenie interaktywnych i dynamicznych dokumentów dla aplikacji. Zapoznaj się z obszerną dokumentacją na stronie [Dokumentacja API Aspose.Words](https://reference.aspose.com/words/java/) aby odkryć więcej funkcji i możliwości.
 
 ## Często zadawane pytania (FAQ)
 
@@ -92,22 +94,27 @@ Możesz dostosować wygląd pól formularzy, np. zmienić rozmiar i kolor czcion
    Aspose.Words for Java to biblioteka Java umożliwiająca programowe tworzenie, modyfikowanie i konwertowanie dokumentów Word.
 
 2. ### Gdzie mogę pobrać Aspose.Words dla Java?
-    Możesz pobrać Aspose.Words dla Javy ze strony[Tutaj](https://releases.aspose.com/words/java/).
+   Możesz pobrać Aspose.Words dla Javy ze strony [Tutaj](https://releases.aspose.com/words/java/).
 
-3. ### Jak mogę dostosować wygląd pól formularzy w dokumentach programu Word?
+3. ### Jak mogę dostosować wygląd pól formularzy w dokumentach Word?
    Możesz dostosować wygląd pól formularza, zmieniając rozmiar czcionki, kolor i inne opcje formatowania.
 
 4. ### Czy jest dostępna bezpłatna wersja próbna Aspose.Words for Java?
-    Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Words dla Java[Tutaj](https://releases.aspose.com/).
+   Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Words dla Java [Tutaj](https://releases.aspose.com/).
 
 5. ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Words dla Java?
-    Aby uzyskać wsparcie i pomoc, odwiedź stronę[Forum Aspose.Words](https://forum.aspose.com/).
+   Aby uzyskać wsparcie i pomoc, odwiedź stronę [Forum Aspose.Words](https://forum.aspose.com/).
 
-Zacznij korzystać z Aspose.Words dla Java i odkryj potencjał tworzenia dynamicznych i interaktywnych dokumentów Word. Miłego kodowania!
+Zacznij korzystać z Aspose.Words for Java i odkryj potencjał tworzenia dynamicznych i interaktywnych dokumentów Word. Miłego kodowania!
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

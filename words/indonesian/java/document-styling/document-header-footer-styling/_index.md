@@ -1,19 +1,21 @@
 ---
-title: Penataan Header dan Footer Dokumen
-linktitle: Penataan Header dan Footer Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menata header dan footer dokumen menggunakan Aspose.Words untuk Java dalam panduan terperinci ini. Petunjuk langkah demi langkah dan kode sumber disertakan.
-weight: 14
-url: /id/java/document-styling/document-header-footer-styling/
+"description": "Pelajari cara menata header dan footer dokumen menggunakan Aspose.Words untuk Java dalam panduan terperinci ini. Petunjuk langkah demi langkah dan kode sumber disertakan."
+"linktitle": "Penataan Header dan Footer Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Penataan Header dan Footer Dokumen"
+"url": "/id/java/document-styling/document-header-footer-styling/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Penataan Header dan Footer Dokumen
 
-Apakah Anda ingin meningkatkan keterampilan pemformatan dokumen dengan Java? Dalam panduan lengkap ini, kami akan memandu Anda melalui proses penataan header dan footer dokumen menggunakan Aspose.Words untuk Java. Baik Anda seorang pengembang berpengalaman atau baru memulai perjalanan, petunjuk langkah demi langkah dan contoh kode sumber kami akan membantu Anda menguasai aspek penting pemrosesan dokumen ini.
+Apakah Anda ingin meningkatkan keterampilan pemformatan dokumen dengan Java? Dalam panduan lengkap ini, kami akan memandu Anda melalui proses penataan header dan footer dokumen menggunakan Aspose.Words untuk Java. Baik Anda pengembang berpengalaman atau baru memulai perjalanan, petunjuk langkah demi langkah dan contoh kode sumber kami akan membantu Anda menguasai aspek penting pemrosesan dokumen ini.
 
 
 ## Perkenalan
@@ -30,7 +32,7 @@ Sebelum kita menyelami detailnya, mari kita mulai dengan dasar-dasar header dan 
 
 #### Membuat Header:
 
- Untuk membuat header di dokumen Anda menggunakan Aspose.Words untuk Java, Anda dapat menggunakan`HeaderFooter` kelas. Berikut contoh sederhananya:
+Untuk membuat header di dokumen Anda menggunakan Aspose.Words untuk Java, Anda dapat menggunakan `HeaderFooter` kelas. Berikut contoh sederhananya:
 
 ```java
 Document doc = new Document();
@@ -93,7 +95,7 @@ Untuk memastikan pengalaman yang lancar saat menata header dan footer dokumen, p
 
 ### Bagaimana cara menghapus header atau footer dari bagian tertentu?
 
- Anda dapat menghapus header atau footer dari bagian tertentu dengan mengakses`HeaderFooter` objek dan menyetel kontennya ke null. Misalnya:
+Anda dapat menghapus header atau footer dari bagian tertentu dengan mengakses `HeaderFooter` objek dan menyetel kontennya ke null. Misalnya:
 
 ```java
 header.removeAllChildren();
@@ -105,11 +107,11 @@ Ya, Anda dapat memiliki header dan footer yang berbeda untuk halaman ganjil dan 
 
 ### Apakah mungkin untuk menambahkan hyperlink dalam header atau footer?
 
- Tentu saja! Anda dapat menambahkan hyperlink di dalam header atau footer menggunakan Aspose.Words untuk Java. Gunakan`Hyperlink` kelas untuk membuat hyperlink dan menyisipkannya ke konten header atau footer Anda.
+Tentu saja! Anda dapat menambahkan hyperlink di dalam header atau footer menggunakan Aspose.Words untuk Java. Gunakan `Hyperlink` kelas untuk membuat hyperlink dan menyisipkannya ke konten header atau footer Anda.
 
 ### Bagaimana cara menyelaraskan konten header atau footer ke kiri atau kanan?
 
- Untuk menyelaraskan konten header atau footer ke kiri atau kanan, Anda dapat mengatur perataan paragraf menggunakan`ParagraphAlignment` enum. Misalnya, untuk meratakan konten ke kanan:
+Untuk menyelaraskan konten header atau footer ke kiri atau kanan, Anda dapat mengatur perataan paragraf menggunakan `ParagraphAlignment` enum. Misalnya, untuk meratakan konten ke kanan:
 
 ```java
 header.getFirstParagraph().getParagraphFormat().setAlignment(ParagraphAlignment.RIGHT);
@@ -117,7 +119,7 @@ header.getFirstParagraph().getParagraphFormat().setAlignment(ParagraphAlignment.
 
 ### Dapatkah saya menambahkan bidang khusus, seperti judul dokumen, ke header atau footer?
 
- Ya, Anda dapat menambahkan kolom kustom ke header atau footer. Buat`Run` elemen dan masukkan ke dalam konten header atau footer, dengan menyediakan teks yang diinginkan. Sesuaikan format sesuai kebutuhan.
+Ya, Anda dapat menambahkan kolom kustom ke header atau footer. Buat `Run` elemen dan masukkan ke dalam konten header atau footer, dengan menyediakan teks yang diinginkan. Sesuaikan format sesuai kebutuhan.
 
 ### Apakah Aspose.Words untuk Java kompatibel dengan berbagai format dokumen?
 
@@ -130,9 +132,13 @@ Dalam panduan lengkap ini, kami telah menjelajahi seni menata header dan footer 
 Ingatlah untuk melatih keterampilan ini dan bereksperimen dengan berbagai gaya untuk menemukan gaya yang paling sesuai untuk dokumen Anda. Aspose.Words untuk Java memberdayakan Anda untuk mengambil kendali penuh atas format dokumen Anda, membuka kemungkinan tak terbatas untuk menciptakan konten yang menakjubkan.
 
 Jadi, lanjutkan dan mulailah menyusun dokumen yang meninggalkan kesan abadi. Keahlian baru Anda dalam penataan header dan footer dokumen niscaya akan menuntun Anda menuju kesempurnaan dokumen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,33 +1,35 @@
 ---
-title: Toc stílus módosítása a Word dokumentumban
-linktitle: Toc stílus módosítása a Word dokumentumban
-second_title: Aspose.Words Document Processing API
-description: Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan módosíthatja a tartalomjegyzék stílusát Word-dokumentumokban az Aspose.Words for .NET használatával. Könnyedén testreszabhatja TOC-ját.
-weight: 10
-url: /hu/net/programming-with-table-of-content/change-style-of-toc-level/
+"description": "Tanuld meg, hogyan módosíthatod a tartalomjegyzék stílusát Word dokumentumokban az Aspose.Words for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Szabd testre a tartalomjegyzéket könnyedén."
+"linktitle": "Tartalomjegyzék stílusának módosítása Word dokumentumban"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Tartalomjegyzék stílusának módosítása Word dokumentumban"
+"url": "/hu/net/programming-with-table-of-content/change-style-of-toc-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Toc stílus módosítása a Word dokumentumban
+# Tartalomjegyzék stílusának módosítása Word dokumentumban
 
 ## Bevezetés
 
-Ha valaha is szüksége volt egy professzionális Word-dokumentum létrehozására, tudja, milyen fontos lehet egy tartalomjegyzék (TOC). Nemcsak rendszerezi a tartalmat, hanem egy kis professzionalizmust is ad hozzá. Azonban a TOC testreszabása az Ön stílusának megfelelően kissé bonyolult lehet. Ebben az oktatóanyagban bemutatjuk, hogyan módosíthatja a tartalomjegyzék stílusát egy Word-dokumentumban az Aspose.Words for .NET használatával. Készen állsz a merülésre? Kezdjük is!
+Ha valaha is kellett már professzionális Word-dokumentumot készítened, akkor tudod, mennyire fontos egy tartalomjegyzék (TOC). Nemcsak rendszerezi a tartalmat, hanem egy csipetnyi professzionalizmust is kölcsönöz neki. A TOC testreszabása a stílusodhoz azonban kissé bonyolult lehet. Ebben az oktatóanyagban bemutatjuk, hogyan módosíthatod a TOC stílusát egy Word-dokumentumban az Aspose.Words for .NET segítségével. Készen állsz a belevágni? Kezdjük is!
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a kódba, győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt belevágnánk a kódba, győződjünk meg róla, hogy a következők megvannak:
 
-1.  Aspose.Words for .NET: telepíteni kell az Aspose.Words for .NET könyvtárat. Ha még nem telepítette, letöltheti a webhelyről[Az Aspose kiadási oldala](https://releases.aspose.com/words/net/).
-2. Fejlesztői környezet: Olyan fejlesztői környezet, mint például a Visual Studio.
-3. C# alapismeretek: C# programozási nyelv ismerete.
+1. Aspose.Words for .NET: Telepítenie kell az Aspose.Words for .NET könyvtárat. Ha még nem telepítette, letöltheti innen: [Aspose kiadási oldal](https://releases.aspose.com/words/net/).
+2. Fejlesztői környezet: Egy fejlesztői környezet, például a Visual Studio.
+3. C# alapismeretek: A C# programozási nyelv ismerete.
 
 ## Névterek importálása
 
-Az Aspose.Words for .NET használatához importálnia kell a szükséges névtereket. A következőképpen teheti meg:
+Az Aspose.Words for .NET használatához importálnia kell a szükséges névtereket. Így teheti meg:
 
 ```csharp
 using System;
@@ -37,30 +39,30 @@ using Aspose.Words.Tables;
 
 Bontsuk le a folyamatot könnyen követhető lépésekre:
 
-## 1. lépés: Állítsa be projektjét
+## 1. lépés: A projekt beállítása
 
-Először is állítsa be projektjét a Visual Studióban. Hozzon létre egy új C#-projektet, és adjon hozzá hivatkozást az Aspose.Words for .NET könyvtárhoz.
+Először is, állítsd be a projektedet a Visual Studioban. Hozz létre egy új C# projektet, és adj hozzá egy hivatkozást az Aspose.Words for .NET könyvtárhoz.
 
 ```csharp
-// Hozzon létre egy új dokumentumot
+// Új dokumentum létrehozása
 Document doc = new Document();
 ```
 
-## 2. lépés: Módosítsa a TOC stílust
+## 2. lépés: Módosítsa a tartalomjegyzék stílusát
 
-Ezután módosítsuk a tartalomjegyzék (TOC) első szintjének stílusát.
+Következő lépésként módosítsuk a tartalomjegyzék (TOC) első szintjének stílusát.
 
 ```csharp
-// A tartalomjegyzék első szintjének stílusmódosítása
+// A tartalomjegyzék első szintjének stílusának módosítása
 doc.Styles[StyleIdentifier.Toc1].Font.Bold = true;
 ```
 
 ## 3. lépés: Mentse el a módosított dokumentumot
 
-A TOC stílus szükséges módosításainak elvégzése után mentse el a módosított dokumentumot.
+Miután elvégezte a szükséges módosításokat a tartalomjegyzék stílusában, mentse el a módosított dokumentumot.
 
 ```csharp
-// A dokumentumkönyvtár elérési útja
+// A dokumentumok könyvtárának elérési útja
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 // Mentse el a módosított dokumentumot
@@ -69,27 +71,32 @@ doc.Save(dataDir + "WorkingWithChangeStyleOfTocLevel.ModifiedDocument.docx");
 
 ## Következtetés
 
-És megvan! Sikeresen megváltoztatta a tartalomjegyzék stílusát egy Word-dokumentumban az Aspose.Words for .NET használatával. Ez a kis testreszabás nagy változást hozhat a dokumentum általános megjelenésében és hangulatában. Ne felejtsen el kísérletezni más stílusokkal és szintekkel, hogy teljes mértékben személyre szabhassa TOC-ját.
+És íme! Sikeresen megváltoztattad a tartalomjegyzék stílusát egy Word dokumentumban az Aspose.Words for .NET segítségével. Ez a kis testreszabás nagy változást hozhat a dokumentum általános megjelenésében és hangulatában. Ne felejts el kísérletezni más stílusokkal és szintekkel a tartalomjegyzék teljes testreszabásához.
 
 ## GYIK
 
-### Mi az Aspose.Words for .NET?
-Az Aspose.Words for .NET egy osztálykönyvtár Word dokumentumok létrehozására, módosítására és konvertálására .NET alkalmazásokon belül.
+### Mi az Aspose.Words .NET-hez?
+Az Aspose.Words for .NET egy osztálykönyvtár, amely Word-dokumentumok létrehozására, módosítására és konvertálására szolgál .NET alkalmazásokon belül.
 
-### Módosíthatok más stílusokat a TOC-ban?
-Igen, a TOC-n belül különféle stílusokat módosíthat a különböző szintek és stílustulajdonságok elérésével.
+### Módosíthatok más stílusokat a tartalomjegyzékben?
+Igen, a tartalomjegyzéken belül módosíthatja a különböző stílusokat a különböző szintek és stílustulajdonságok elérésével.
 
-### Az Aspose.Words for .NET ingyenes?
- Az Aspose.Words for .NET egy fizetős könyvtár, de beszerezheti a[ingyenes próbaverzió](https://releases.aspose.com/) vagy a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
+### Ingyenes az Aspose.Words .NET-hez?
+Az Aspose.Words for .NET egy fizetős könyvtár, de letöltheti [ingyenes próba](https://releases.aspose.com/) vagy egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
 
-### Telepítenem kell a Microsoft Word programot az Aspose.Words for .NET használatához?
-Nem, az Aspose.Words for .NET alkalmazáshoz nem szükséges a Microsoft Word telepítése a számítógépen.
+### Telepítenem kell a Microsoft Wordöt az Aspose.Words for .NET használatához?
+Nem, az Aspose.Words for .NET használatához nem szükséges telepíteni a Microsoft Wordöt a gépedre.
 
 ### Hol találok további dokumentációt az Aspose.Words for .NET-ről?
- Részletesebb dokumentációt találhat[itt](https://reference.aspose.com/words/net/).
+Részletesebb dokumentációt találhat [itt](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

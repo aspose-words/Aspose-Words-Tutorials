@@ -1,34 +1,36 @@
 ---
-title: Upptäck numrering med blanksteg
-linktitle: Upptäck numrering med blanksteg
-second_title: Aspose.Words Document Processing API
-description: Upptäck hur du använder Aspose.Words för .NET för att upptäcka numrering med blanktecken i klartextdokument och se till att dina listor känns igen korrekt.
-weight: 10
-url: /sv/net/programming-with-txtloadoptions/detect-numbering-with-whitespaces/
+"description": "Upptäck hur du använder Aspose.Words för .NET för att upptäcka numrering med blanksteg i klartextdokument och säkerställa att dina listor känns igen korrekt."
+"linktitle": "Identifiera numrering med mellanslag"
+"second_title": "Aspose.Words dokumentbehandlings-API"
+"title": "Identifiera numrering med mellanslag"
+"url": "/sv/net/programming-with-txtloadoptions/detect-numbering-with-whitespaces/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Upptäck numrering med blanksteg
+# Identifiera numrering med mellanslag
 
 ## Introduktion
 
-Aspose.Words för .NET-entusiaster! Idag dyker vi in i en fascinerande funktion som kan göra det enkelt att hantera listor i klartextdokument. Har du någonsin hanterat textfiler där vissa rader ska vara listor, men de ser helt enkelt inte riktigt ut när de laddas in i ett Word-dokument? Nåväl, vi har ett snyggt trick i rockärmen: att upptäcka numrering med blanksteg. Denna handledning går igenom hur du använder`DetectNumberingWithWhitespaces` alternativet i Aspose.Words för .NET för att säkerställa att dina listor känns igen korrekt, även när det finns blanksteg mellan siffrorna och texten.
+Aspose.Words för .NET-entusiaster! Idag dyker vi ner i en fascinerande funktion som kan göra det enkelt att hantera listor i klartextdokument. Har du någonsin hanterat textfiler där vissa rader ska vara listor, men de ser helt enkelt inte riktigt rätt ut när de laddas in i ett Word-dokument? Vi har ett smart knep i rockärmen: att upptäcka numrering med mellanslag. Den här handledningen går igenom hur du använder... `DetectNumberingWithWhitespaces` alternativet i Aspose.Words för .NET för att säkerställa att dina listor känns igen korrekt, även när det finns mellanslag mellan siffrorna och texten.
 
-## Förutsättningar
+## Förkunskapskrav
 
 Innan vi börjar, se till att du har följande:
 
--  Aspose.Words för .NET: Du kan ladda ner det från[Aspose släpper](https://releases.aspose.com/words/net/) sida.
-- Utvecklingsmiljö: Visual Studio eller någon annan C# IDE.
+- Aspose.Words för .NET: Du kan ladda ner det från [Aspose-utgåvor](https://releases.aspose.com/words/net/) sida.
+- Utvecklingsmiljö: Visual Studio eller annan C# IDE.
 - .NET Framework installerat på din dator.
-- Grundläggande kunskaper om C#: Att förstå grunderna hjälper dig att följa exemplen.
+- Grundläggande kunskaper i C#: Att förstå grunderna hjälper dig att följa exemplen.
 
-## Importera namnområden
+## Importera namnrymder
 
-Innan du hoppar in i koden, se till att du har de nödvändiga namnrymden importerade i ditt projekt. Här är ett snabbt utdrag för att komma igång:
+Innan du börjar med koden, se till att du har importerat de nödvändiga namnrymderna till ditt projekt. Här är ett snabbt utdrag för att komma igång:
 
 ```csharp
 using System;
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Steg 2: Skapa ett klartextdokument
 
-Därefter skapar vi ett klartextdokument som en sträng. Detta dokument kommer att innehålla delar som kan tolkas som listor.
+Härnäst skapar vi ett klartextdokument som en sträng. Detta dokument kommer att innehålla delar som kan tolkas som listor.
 
 ```csharp
 const string textDoc = "Full stop delimiters:\n" +
@@ -72,7 +74,7 @@ const string textDoc = "Full stop delimiters:\n" +
 
 ## Steg 3: Konfigurera LoadOptions
 
- För att upptäcka numrering med blanksteg måste vi ställa in`DetectNumberingWithWhitespaces` möjlighet att`true` i en`TxtLoadOptions` objekt.
+För att upptäcka numrering med mellanslag måste vi ställa in `DetectNumberingWithWhitespaces` alternativ till `true` i en `TxtLoadOptions` objekt.
 
 ```csharp
 TxtLoadOptions loadOptions = new TxtLoadOptions { DetectNumberingWithWhitespaces = true };
@@ -80,7 +82,7 @@ TxtLoadOptions loadOptions = new TxtLoadOptions { DetectNumberingWithWhitespaces
 
 ## Steg 4: Ladda dokumentet
 
- Låt oss nu ladda dokumentet med hjälp av`TxtLoadOptions` som en parameter. Detta säkerställer att den fjärde listan (med blanksteg) detekteras korrekt.
+Nu ska vi ladda dokumentet med hjälp av `TxtLoadOptions` som en parameter. Detta säkerställer att den fjärde listan (med mellanslag) detekteras korrekt.
 
 ```csharp
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(textDoc)), loadOptions);
@@ -88,7 +90,7 @@ Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(textDoc)), l
 
 ## Steg 5: Spara dokumentet
 
-Slutligen, spara dokumentet i din angivna katalog. Detta kommer att mata ut ett Word-dokument med korrekt upptäckta listor.
+Spara slutligen dokumentet i den angivna katalogen. Detta skapar ett Word-dokument med korrekt identifierade listor.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTxtLoadOptions.DetectNumberingWithWhitespaces.docx");
@@ -96,29 +98,34 @@ doc.Save(dataDir + "WorkingWithTxtLoadOptions.DetectNumberingWithWhitespaces.doc
 
 ## Slutsats
 
-Och där har du det! Med bara några rader kod har du bemästrat konsten att upptäcka numrering med blanktecken i klartextdokument med Aspose.Words för .NET. Den här funktionen kan vara otroligt praktisk när du hanterar olika textformat och ser till att dina listor är korrekt representerade i dina Word-dokument. Så nästa gång du stöter på de där knepiga listorna vet du exakt vad du ska göra.
+Och där har du det! Med bara några få rader kod har du bemästrat konsten att upptäcka numrering med mellanslag i klartextdokument med hjälp av Aspose.Words för .NET. Den här funktionen kan vara otroligt praktisk när du hanterar olika textformat och säkerställer att dina listor representeras korrekt i dina Word-dokument. Så nästa gång du stöter på de där knepiga listorna vet du exakt vad du ska göra.
 
-## FAQ's
+## Vanliga frågor
 
-###  Vad är`DetectNumberingWithWhitespaces` in Aspose.Words for .NET?
-`DetectNumberingWithWhitespaces` är ett alternativ i`TxtLoadOptions` som gör att Aspose.Words kan känna igen listor även när det finns blanksteg mellan numreringen och listobjektets text.
+### Vad är `DetectNumberingWithWhitespaces` i Aspose.Words för .NET?
+`DetectNumberingWithWhitespaces` är ett alternativ i `TxtLoadOptions` som gör att Aspose.Words kan känna igen listor även när det finns mellanslag mellan numreringen och listobjektets text.
 
-### Kan jag använda den här funktionen för andra avgränsare som kulor och parenteser?
- Ja, Aspose.Words upptäcker automatiskt listor med vanliga avgränsare som punkter och parenteser. De`DetectNumberingWithWhitespaces` hjälper specifikt med listor som har blanksteg.
+### Kan jag använda den här funktionen för andra avgränsare som punkter och hakparenteser?
+Ja, Aspose.Words identifierar automatiskt listor med vanliga avgränsare som punkter och hakparenteser. `DetectNumberingWithWhitespaces` hjälper specifikt till med listor som innehåller blanksteg.
 
-###  Vad händer om jag inte använder`DetectNumberingWithWhitespaces`?
-Utan detta alternativ kanske listor med blanksteg mellan numreringen och texten inte känns igen som listor, och objekten kan visas som vanliga stycken.
+### Vad händer om jag inte använder `DetectNumberingWithWhitespaces`?
+Utan det här alternativet kanske listor med blanksteg mellan numreringen och texten inte känns igen som listor, och objekten kan visas som vanliga stycken.
 
-### Är den här funktionen tillgänglig i andra Aspose-produkter?
-Denna specifika funktion är skräddarsydd för Aspose.Words för .NET, designad för att hantera Word-dokumentbehandling.
+### Finns den här funktionen i andra Aspose-produkter?
+Den här specifika funktionen är skräddarsydd för Aspose.Words för .NET, utformad för att hantera Word-dokumentbehandling.
 
 ### Hur kan jag få en tillfällig licens för Aspose.Words för .NET?
- Du kan få en tillfällig licens från[Aspose tillfällig licens](https://purchase.aspose.com/temporary-license/) sida.
+Du kan få en tillfällig licens från [Aspose tillfällig licens](https://purchase.aspose.com/temporary-license/) sida.
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

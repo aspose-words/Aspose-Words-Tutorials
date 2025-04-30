@@ -1,14 +1,16 @@
 ---
-title: Giới hạn của trục trong biểu đồ
-linktitle: Giới hạn của trục trong biểu đồ
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thiết lập giới hạn của trục trong biểu đồ bằng Aspose.Words cho .NET để kiểm soát phạm vi giá trị hiển thị trên trục.
-weight: 10
-url: /vi/net/programming-with-charts/bounds-of-axis/
+"description": "Tìm hiểu cách thiết lập giới hạn của trục trong biểu đồ bằng Aspose.Words cho .NET để kiểm soát phạm vi giá trị hiển thị trên trục."
+"linktitle": "Giới hạn của trục trong biểu đồ"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Giới hạn của trục trong biểu đồ"
+"url": "/vi/net/programming-with-charts/bounds-of-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Giới hạn của trục trong biểu đồ
@@ -21,7 +23,7 @@ Bạn đang muốn tạo tài liệu chuyên nghiệp với biểu đồ trong .
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
--  Aspose.Words cho .NET: Bạn có thể[tải về](https://releases.aspose.com/words/net/) phiên bản mới nhất hoặc sử dụng[dùng thử miễn phí](https://releases.aspose.com/).
+- Aspose.Words cho .NET: Bạn có thể [tải về](https://releases.aspose.com/words/net/) phiên bản mới nhất hoặc sử dụng [dùng thử miễn phí](https://releases.aspose.com/).
 - .NET Framework: Đảm bảo bạn đã cài đặt .NET trên hệ thống của mình.
 - IDE: Một môi trường phát triển như Visual Studio.
 
@@ -115,22 +117,27 @@ Sử dụng Aspose.Words cho .NET, bạn có thể dễ dàng tạo và thao tá
 ## Câu hỏi thường gặp
 
 ### Aspose.Words dành cho .NET là gì?
-Aspose.Words for .NET là thư viện cho phép bạn tạo, chỉnh sửa và chuyển đổi các tài liệu Word theo chương trình bằng cách sử dụng nền tảng .NET.
+Aspose.Words for .NET là thư viện cho phép bạn tạo, chỉnh sửa và chuyển đổi tài liệu Word theo chương trình bằng cách sử dụng nền tảng .NET.
 
 ### Làm thế nào để thiết lập Aspose.Words cho .NET?
- Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/)và làm theo hướng dẫn cài đặt được cung cấp.
+Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/) và làm theo hướng dẫn cài đặt được cung cấp.
 
 ### Tôi có thể sử dụng Aspose.Words miễn phí không?
- Có, bạn có thể sử dụng một[dùng thử miễn phí](https://releases.aspose.com/) hoặc nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Có, bạn có thể sử dụng một [dùng thử miễn phí](https://releases.aspose.com/) hoặc nhận được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể tìm tài liệu về Aspose.Words cho .NET ở đâu?
- Tài liệu chi tiết có sẵn[đây](https://reference.aspose.com/words/net/).
+Tài liệu chi tiết có sẵn [đây](https://reference.aspose.com/words/net/).
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Words như thế nào?
- Bạn có thể ghé thăm[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được hỗ trợ.
+Bạn có thể ghé thăm [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được hỗ trợ.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

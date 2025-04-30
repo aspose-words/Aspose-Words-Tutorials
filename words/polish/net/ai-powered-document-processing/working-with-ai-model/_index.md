@@ -1,14 +1,16 @@
 ---
-title: Praca z modelem AI
-linktitle: Praca z modelem AI
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak używać Aspose.Words dla .NET do podsumowywania dokumentów za pomocą AI. Proste kroki w celu ulepszenia zarządzania dokumentami.
-weight: 10
-url: /pl/net/ai-powered-document-processing/working-with-ai-model/
+"description": "Dowiedz się, jak używać Aspose.Words dla .NET do podsumowywania dokumentów za pomocą AI. Proste kroki w celu ulepszenia zarządzania dokumentami."
+"linktitle": "Praca z modelem AI"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Praca z modelem AI"
+"url": "/pl/net/ai-powered-document-processing/working-with-ai-model/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Praca z modelem AI
@@ -25,7 +27,7 @@ Zanim zakasamy rękawy i zaczniemy kodować, jest kilka niezbędnych rzeczy, kt�
   
 2. .NET Framework: Upewnij się, że używasz zgodnej wersji .NET Framework dla Aspose.Words. Obsługuje ona zarówno .NET Framework, jak i .NET Core.
 
-3.  Aspose.Words dla .NET: Musisz pobrać i zainstalować Aspose.Words. Możesz pobrać najnowszą wersję[Tutaj](https://releases.aspose.com/words/net/).
+3. Aspose.Words dla .NET: Musisz pobrać i zainstalować Aspose.Words. Możesz pobrać najnowszą wersję [Tutaj](https://releases.aspose.com/words/net/).
 
 4. Klucz API dla modeli AI: Aby wykorzystać podsumowanie AI, będziesz potrzebować dostępu do modelu AI. Uzyskaj swój klucz API z platform takich jak OpenAI lub Google.
 
@@ -43,7 +45,7 @@ Najpierw uruchom program Visual Studio i utwórz nowy projekt aplikacji konsolow
 
 1. Otwórz program Visual Studio.
 2. Kliknij „Utwórz nowy projekt”.
-3. Wybierz „Aplikacja konsolowa (.NET Framework)” lub „Aplikacja konsolowa (.NET Core)” w zależności od konfiguracji.
+3. Wybierz opcję „Aplikacja konsolowa (.NET Framework)” lub „Aplikacja konsolowa (.NET Core)” w zależności od konfiguracji.
 4. Nadaj nazwę swojemu projektowi i określ lokalizację.
 
 ### Zainstaluj pakiety Aspose.Words i AI Model
@@ -63,7 +65,7 @@ Gratulacje! Mając gotowe pakiety, zagłębmy się w naszą implementację.
 
 ## Krok 1: Skonfiguruj katalogi dokumentów
 
-naszym kodzie zdefiniujemy katalogi, które pozwolą nam zarządzać miejscem przechowywania dokumentów i danymi wyjściowymi. 
+W naszym kodzie zdefiniujemy katalogi, które pozwolą nam zarządzać miejscem przechowywania dokumentów i danymi wyjściowymi. 
 
 ```csharp
 // Twój katalog dokumentów
@@ -72,7 +74,7 @@ string MyDir = "YOUR_DOCUMENT_DIRECTORY";
 string ArtifactsDir = "YOUR_ARTIFACTS_DIRECTORY";
 ```
 
--  Tutaj zamień`YOUR_DOCUMENT_DIRECTORY` z lokalizacją, w której przechowywane są Twoje dokumenty i`YOUR_ARTIFACTS_DIRECTORY` gdzie chcesz zapisać podsumowane pliki.
+- Tutaj zamień `YOUR_DOCUMENT_DIRECTORY` z lokalizacją, w której przechowywane są Twoje dokumenty i `YOUR_ARTIFACTS_DIRECTORY` gdzie chcesz zapisać podsumowane pliki.
 
 ## Krok 2: Załaduj dokumenty
 
@@ -98,7 +100,7 @@ IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApi
 
 ## Krok 4: Wygeneruj podsumowanie dla pierwszego dokumentu
 
-Teraz utwórzmy podsumowanie dla naszego pierwszego dokumentu. Ustawimy parametry, aby zdefiniować również długość podsumowania.
+Teraz utwórzmy podsumowanie dla naszego pierwszego dokumentu. Ustawimy parametry, aby zdefiniować długość podsumowania.
 
 ```csharp
 Document oneDocumentSummary = model.Summarize(firstDoc, new SummarizeOptions() { SummaryLength = SummaryLength.Short });
@@ -137,10 +139,15 @@ Tak! Aspose.Words obsługuje różne formaty plików, w tym DOCX, RTF i HTML, za
 Aspose oferuje bezpłatną wersję próbną, pozwalającą przetestować jej funkcje. Możesz ją pobrać z ich strony.
 
 ### Gdzie mogę znaleźć więcej materiałów na temat Aspose.Words?
- Możesz sprawdzić dokumentację[Tutaj](https://reference.aspose.com/words/net/) aby uzyskać kompleksowe wskazówki i spostrzeżenia.
+Możesz sprawdzić dokumentację [Tutaj](https://reference.aspose.com/words/net/) aby uzyskać kompleksowe wskazówki i spostrzeżenia.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

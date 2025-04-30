@@ -1,116 +1,123 @@
 ---
-title: Rozsahy Odstranění textu v dokumentu aplikace Word
-linktitle: Rozsahy Odstranění textu v dokumentu aplikace Word
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak odstranit text z rozsahu v dokumentu aplikace Word pomocí Aspose.Words for .NET pomocí tohoto podrobného kurzu. Ideální pro vývojáře v C#.
-weight: 10
-url: /cs/net/programming-with-ranges/ranges-delete-text/
+"description": "Naučte se, jak v dokumentu Word pomocí Aspose.Words pro .NET smazat text z oblasti. Ideální pro vývojáře v C#."
+"linktitle": "Rozsahy Odstranění textu v dokumentu Word"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Rozsahy Odstranění textu v dokumentu Word"
+"url": "/cs/net/programming-with-ranges/ranges-delete-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rozsahy Odstranění textu v dokumentu aplikace Word
+# Rozsahy Odstranění textu v dokumentu Word
 
 ## Zavedení
 
-Pokud jste někdy zjistili, že potřebujete odstranit konkrétní části textu v dokumentu aplikace Word, jste na správném místě! Aspose.Words for .NET je výkonná knihovna, která vám umožňuje snadno manipulovat s dokumenty aplikace Word. V tomto kurzu vás provedeme kroky k odstranění textu z rozsahu v dokumentu aplikace Word. Tento proces rozdělíme do jednoduchých, stravitelných kroků, aby to bylo snadné jako facka. Takže, pojďme se ponořit!
+Pokud jste někdy potřebovali smazat určité části textu v dokumentu Word, jste na správném místě! Aspose.Words pro .NET je výkonná knihovna, která vám umožňuje snadno manipulovat s dokumenty Word. V tomto tutoriálu vás provedeme kroky pro smazání textu z oblasti v dokumentu Word. Rozdělíme proces do jednoduchých a srozumitelných kroků, aby to bylo co nejjednodušší. Tak se do toho pusťme!
 
 ## Předpoklady
 
-Než se pustíme do části kódování, ujistěte se, že máte vše, co potřebujete, abyste mohli začít:
+Než se pustíme do kódování, ujistěte se, že máte vše, co potřebujete k zahájení:
 
-1.  Aspose.Words for .NET: Ujistěte se, že máte knihovnu Aspose.Words for .NET. Pokud ne, můžete si jej stáhnout[zde](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí: IDE jako Visual Studio.
-3. Základní znalost C#: Určité porozumění programování v C#.
+1. Aspose.Words pro .NET: Ujistěte se, že máte knihovnu Aspose.Words pro .NET. Pokud ne, můžete si ji stáhnout. [zde](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí: IDE, podobné Visual Studiu.
+3. Základní znalost C#: Určité znalosti programování v C#.
 
 ## Importovat jmenné prostory
 
-Než začnete kódovat, budete muset do svého projektu C# importovat potřebné jmenné prostory. Jak na to:
+Než začnete s kódováním, budete muset do svého projektu v C# importovat potřebné jmenné prostory. Postupujte takto:
 
 ```csharp
 using Aspose.Words;
 ```
 
-Nyní si celý proces rozdělíme do jednoduchých kroků.
+Nyní si celý proces rozdělme na jednoduché kroky.
 
-## Krok 1: Nastavte adresář projektu
+## Krok 1: Nastavení adresáře projektu
 
-Nejprve musíte nastavit adresář projektu. Zde budou uloženy vaše dokumenty.
+Nejprve je třeba nastavit adresář projektu. Zde budou uloženy vaše dokumenty.
 
-1.  Vytvořit adresář: Vytvořte složku s názvem`Documents` ve vašem projektovém adresáři.
-2. Přidejte svůj dokument: Umístěte dokument aplikace Word (`Document.docx`), který chcete v této složce upravit.
+1. Vytvoření adresáře: Vytvořte složku s názvem `Documents` ve vašem adresáři projektu.
+2. Přidání dokumentu: Umístěte dokument Wordu (`Document.docx`), které chcete v této složce upravit.
 
 ```csharp
-// Cesta k adresáři vašich dokumentů
+// Cesta k adresáři s vašimi dokumenty
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
-## Krok 2: Načtěte dokument aplikace Word
+## Krok 2: Načtěte dokument Wordu
 
-Dále musíme načíst dokument Word do naší aplikace.
+Dále musíme načíst dokument Wordu do naší aplikace.
 
-1.  Vytvořit instanci dokumentu: Použijte`Document` třídy k načtení dokumentu aplikace Word.
+1. Vytvořte instanci dokumentu: Použijte `Document` třída pro načtení dokumentu Word.
 2. Zadejte cestu: Ujistěte se, že jste zadali správnou cestu k dokumentu.
 
 ```csharp
-// Načtěte dokument aplikace Word
+// Načtěte dokument Wordu
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
-## Krok 3: Odstraňte text v první části
+## Krok 3: Smazání textu v první části
 
-Jakmile je dokument načten, můžeme přistoupit k odstranění textu z určitého rozsahu – v tomto případě první sekce.
+Jakmile je dokument načten, můžeme pokračovat v mazání textu z určité oblasti – v tomto případě z první sekce.
 
-1.  Přístup k oddílu: Přístup k první části dokumentu pomocí`doc.Sections[0]`.
-2.  Smazat rozsah: Použijte`Range.Delete` metoda k odstranění veškerého textu v této sekci.
+1. Přístup k sekci: Přístup k první sekci dokumentu pomocí `doc.Sections[0]`.
+2. Smazání rozsahu: Použijte `Range.Delete` metoda pro odstranění veškerého textu v této sekci.
 
 ```csharp
-// Odstraňte text v první části dokumentu
+// Smazat text v první části dokumentu
 doc.Sections[0].Range.Delete();
 ```
 
-## Krok 4: Uložte upravený dokument
+## Krok 4: Uložení upraveného dokumentu
 
-Po provedení změn je třeba upravený dokument uložit.
+Po provedení změn je nutné upravený dokument uložit.
 
-1. Uložit s novým názvem: Uložte dokument pod novým názvem, abyste zachovali původní soubor.
-2. Zadejte cestu: Ujistěte se, že zadáváte správnou cestu a název souboru.
+1. Uložit s novým názvem: Uložte dokument s novým názvem, aby se zachoval původní soubor.
+2. Zadejte cestu: Ujistěte se, že jste zadali správnou cestu a název souboru.
 
 ```csharp
-// Uložte upravený dokument
+// Uložit upravený dokument
 doc.Save(dataDir + "WorkingWithRangesDeleteText.ModifiedDocument.docx");
 ```
 
 ## Závěr
 
-Gratuluji! Právě jste se naučili, jak odstranit text z rozsahu v dokumentu aplikace Word pomocí Aspose.Words for .NET. Tento kurz se zabýval nastavením adresáře projektu, načtením dokumentu, odstraněním textu z konkrétní sekce a uložením upraveného dokumentu. Aspose.Words for .NET poskytuje robustní sadu nástrojů pro manipulaci s dokumenty Word, a to je jen špička ledovce.
+Gratulujeme! Právě jste se naučili, jak odstranit text z oblasti v dokumentu Word pomocí Aspose.Words pro .NET. Tento tutoriál se zabýval nastavením adresáře projektu, načtením dokumentu, odstraněním textu z určité sekce a uložením upraveného dokumentu. Aspose.Words pro .NET poskytuje robustní sadu nástrojů pro manipulaci s dokumenty Word a to je jen špička ledovce.
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
+### Co je Aspose.Words pro .NET?
 
-Aspose.Words for .NET je knihovna tříd pro zpracování dokumentů aplikace Word. Umožňuje vývojářům vytvářet, upravovat a převádět dokumenty aplikace Word programově.
+Aspose.Words pro .NET je knihovna tříd pro zpracování dokumentů Word. Umožňuje vývojářům programově vytvářet, upravovat a převádět dokumenty Word.
 
-### Mohu smazat text z určitého odstavce místo z oddílu?
+### Mohu smazat text z konkrétního odstavce, nikoli z celé sekce?
 
- Ano, text z určitého odstavce můžete odstranit tak, že otevřete požadovaný odstavec a použijete`Range.Delete` metoda.
+Ano, text z konkrétního odstavce můžete smazat tak, že se dostanete k požadovanému odstavci a použijete `Range.Delete` metoda.
 
-### Je možné smazat text podmíněně?
+### Je možné podmíněně smazat text?
 
-Absolutně! Můžete implementovat podmíněnou logiku k odstranění textu na základě specifických kritérií, jako jsou klíčová slova nebo formátování.
+Rozhodně! Můžete implementovat podmíněnou logiku pro mazání textu na základě specifických kritérií, jako jsou klíčová slova nebo formátování.
 
 ### Jak mohu obnovit smazaný text?
 
-Pokud jste dokument po odstranění textu neuložili, můžete jej znovu načíst a obnovit odstraněný text. Po uložení nelze smazaný text obnovit, pokud nemáte zálohu.
+Pokud jste dokument po smazání textu neuložili, můžete jej znovu načíst a obnovit tak smazaný text. Po uložení nelze smazaný text obnovit, pokud nemáte zálohu.
 
-### Mohu odstranit text z více sekcí najednou?
+### Mohu smazat text z více sekcí najednou?
 
- Ano, můžete procházet více sekcemi a používat`Range.Delete` metoda k odstranění textu z každé sekce.
+Ano, můžete procházet více sekcí a použít `Range.Delete` metoda pro odstranění textu z každé sekce.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

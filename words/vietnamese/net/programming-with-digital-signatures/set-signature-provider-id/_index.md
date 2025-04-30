@@ -1,14 +1,16 @@
 ---
-title: Đặt ID Nhà cung cấp chữ ký trong Tài liệu Word
-linktitle: Đặt ID Nhà cung cấp chữ ký trong Tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Thiết lập an toàn ID Nhà cung cấp chữ ký trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết dài 2000 từ của chúng tôi để ký kỹ thuật số cho tài liệu của bạn.
-weight: 10
-url: /vi/net/programming-with-digital-signatures/set-signature-provider-id/
+"description": "Thiết lập an toàn ID Nhà cung cấp chữ ký trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết dài 2000 từ của chúng tôi để ký kỹ thuật số cho tài liệu của bạn."
+"linktitle": "Đặt ID Nhà cung cấp chữ ký trong Tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Đặt ID Nhà cung cấp chữ ký trong Tài liệu Word"
+"url": "/vi/net/programming-with-digital-signatures/set-signature-provider-id/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt ID Nhà cung cấp chữ ký trong Tài liệu Word
@@ -21,10 +23,10 @@ Xin chào! Vậy là bạn đã có tài liệu Word tuyệt vời này cần ch
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1. Aspose.Words cho Thư viện .NET: Nếu bạn chưa có,[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Nếu bạn chưa có, [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào tương thích với C#.
 3. Tài liệu Word: Một tài liệu có dòng chữ ký (`Signature line.docx`).
-4.  Chứng chỉ số: A`.pfx` tập tin chứng chỉ (ví dụ,`morzal.pfx`).
+4. Chứng chỉ số: A `.pfx` tập tin chứng chỉ (ví dụ, `morzal.pfx`).
 5. Kiến thức cơ bản về C#: Chỉ cần những điều cơ bản—đừng lo, chúng tôi ở đây để giúp bạn!
 
 Bây giờ, chúng ta hãy cùng bắt tay vào hành động nhé!
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Signature line.docx");
 ```
 
- Ở đây, chúng tôi chỉ định thư mục nơi tài liệu của bạn được lưu trữ. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tài liệu của bạn.
+Ở đây, chúng tôi chỉ định thư mục nơi tài liệu của bạn được lưu trữ. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tài liệu của bạn.
 
 ## Bước 2: Truy cập vào Dòng chữ ký
 
@@ -60,7 +62,7 @@ Tiếp theo, chúng ta cần truy cập vào dòng chữ ký trong tài liệu. 
 SignatureLine signatureLine = ((Shape)doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true)).SignatureLine;
 ```
 
- Dòng mã này lấy hình dạng đầu tiên trong phần thân của phần đầu tiên của tài liệu và chuyển nó thành một`SignatureLine` sự vật.
+Dòng mã này lấy hình dạng đầu tiên trong phần thân của phần đầu tiên của tài liệu và chuyển nó thành một `SignatureLine` sự vật.
 
 ## Bước 3: Thiết lập tùy chọn dấu hiệu
 
@@ -78,28 +80,28 @@ Các tùy chọn này sẽ được sử dụng khi ký tài liệu để đảm
 
 ## Bước 4: Tải chứng chỉ
 
- Để ký tài liệu kỹ thuật số, bạn cần có chứng chỉ. Sau đây là cách bạn tải`.pfx` tài liệu:
+Để ký tài liệu kỹ thuật số, bạn cần có chứng chỉ. Sau đây là cách bạn tải `.pfx` tài liệu:
 
 ```csharp
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
 ```
 
- Thay thế`"aw"` bằng mật khẩu cho tệp chứng chỉ của bạn nếu có.
+Thay thế `"aw"` bằng mật khẩu cho tệp chứng chỉ của bạn nếu có.
 
 ## Bước 5: Ký vào tài liệu
 
- Cuối cùng, đã đến lúc ký tài liệu bằng cách sử dụng`DigitalSignatureUtil.Sign` phương pháp.
+Cuối cùng, đã đến lúc ký tài liệu bằng cách sử dụng `DigitalSignatureUtil.Sign` phương pháp.
 
 ```csharp
 DigitalSignatureUtil.Sign(dataDir + "Digitally signed.docx",
     dataDir + "SignDocuments.SetSignatureProviderId.docx", certHolder, signOptions);
 ```
 
- Điều này sẽ ký tài liệu của bạn và lưu nó dưới dạng một tệp mới,`Digitally signed.docx`.
+Điều này sẽ ký tài liệu của bạn và lưu nó dưới dạng một tệp mới, `Digitally signed.docx`.
 
 ## Phần kết luận
 
-Và bạn đã có nó! Bạn đã thiết lập thành công ID Nhà cung cấp chữ ký trong tài liệu Word bằng Aspose.Words cho .NET. Quy trình này không chỉ bảo mật tài liệu của bạn mà còn đảm bảo chúng tuân thủ các tiêu chuẩn chữ ký số. Bây giờ, hãy tiếp tục và thử nghiệm với tài liệu của bạn. Bạn có thắc mắc nào không? Hãy xem Câu hỏi thường gặp bên dưới hoặc truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/8).
+Và bạn đã có nó! Bạn đã thiết lập thành công ID Nhà cung cấp chữ ký trong tài liệu Word bằng Aspose.Words cho .NET. Quy trình này không chỉ bảo mật tài liệu của bạn mà còn đảm bảo chúng tuân thủ các tiêu chuẩn chữ ký số. Bây giờ, hãy tiếp tục và thử nghiệm với tài liệu của bạn. Bạn có thắc mắc nào không? Hãy xem Câu hỏi thường gặp bên dưới hoặc truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/8).
 
 ## Câu hỏi thường gặp
 
@@ -123,9 +125,14 @@ Có, bạn có thể lặp qua nhiều tài liệu và áp dụng cùng một qu
 
 Trước tiên, bạn cần chèn dòng chữ ký. Aspose.Words cung cấp các phương pháp để thêm dòng chữ ký theo chương trình.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

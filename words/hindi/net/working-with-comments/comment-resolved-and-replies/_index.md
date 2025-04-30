@@ -1,14 +1,16 @@
 ---
-title: टिप्पणी समाधान और उत्तर
-linktitle: टिप्पणी समाधान और उत्तर
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: Aspose.Words for .NET के साथ Word दस्तावेज़ों में टिप्पणियों का समाधान और उत्तर देना स्वचालित करें। चरण-दर-चरण मार्गदर्शिका शामिल है।
-weight: 10
-url: /hi/net/working-with-comments/comment-resolved-and-replies/
+"description": "Aspose.Words for .NET के साथ Word दस्तावेज़ों में टिप्पणियों का समाधान और उत्तर देना स्वचालित करें। चरण-दर-चरण मार्गदर्शिका शामिल है।"
+"linktitle": "टिप्पणी समाधान और उत्तर"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "टिप्पणी समाधान और उत्तर"
+"url": "/hi/net/working-with-comments/comment-resolved-and-replies/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # टिप्पणी समाधान और उत्तर
@@ -21,7 +23,7 @@ url: /hi/net/working-with-comments/comment-resolved-and-replies/
 
 इसमें गोता लगाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित चीजें हैं:
 
-1.  .NET के लिए Aspose.Words: आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. .NET के लिए Aspose.Words: आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास पर्यावरण: .NET फ्रेमवर्क के साथ सेट अप करें.
 3. C# का बुनियादी ज्ञान: वाक्यविन्यास और अवधारणाओं से परिचित होना।
 
@@ -38,24 +40,24 @@ using Aspose.Words.Comments;
 
 ## चरण 1: दस्तावेज़ लोड करें
 
- आरंभ करने के लिए, टिप्पणियाँ युक्त Word दस्तावेज़ लोड करें।`Document` इसके लिए कक्षा.
+आरंभ करने के लिए, टिप्पणियाँ युक्त Word दस्तावेज़ लोड करें। `Document` इसके लिए कक्षा.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Comments.docx");
 ```
 
- कोड की यह पंक्ति एक नया आरंभ करती है`Document` अपने वर्ड दस्तावेज़ के पथ के साथ ऑब्जेक्ट को सहेजें.
+कोड की यह पंक्ति एक नया आरंभ करती है `Document` अपने वर्ड दस्तावेज़ के पथ के साथ ऑब्जेक्ट को सहेजें.
 
 ## चरण 2: टिप्पणियाँ पुनः प्राप्त करें
 
- इसके बाद, हमें दस्तावेज़ में सभी टिप्पणियाँ प्राप्त करनी होंगी। हम इसका उपयोग करेंगे`GetChildNodes` संग्रह को पुनः प्राप्त करने की विधि`Comment` नोड्स.
+इसके बाद, हमें दस्तावेज़ में सभी टिप्पणियाँ प्राप्त करनी होंगी। हम इसका उपयोग करेंगे `GetChildNodes` संग्रह को पुनः प्राप्त करने की विधि `Comment` नोड्स.
 
 ```csharp
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
 ```
 
-यह कोड दस्तावेज़ में सभी टिप्पणियों को पुनर्प्राप्त करता है और उन्हें संग्रहीत करता है`NodeCollection`.
+यह कोड दस्तावेज़ में सभी टिप्पणियों को पुनर्प्राप्त करता है और उन्हें संग्रहीत करता है `NodeCollection`.
 
 ## चरण 3: मूल टिप्पणी तक पहुंचें
 
@@ -65,11 +67,11 @@ NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
 Comment parentComment = (Comment)comments[0];
 ```
 
- यहाँ, हम संग्रह में पहले नोड को कास्ट कर रहे हैं`Comment` वस्तु।
+यहाँ, हम संग्रह में पहले नोड को कास्ट कर रहे हैं `Comment` वस्तु।
 
 ## चरण 4: उत्तरों के माध्यम से लूप करें
 
- अब, आइए मूल टिप्पणी के उत्तरों को देखें। हम एक का उपयोग करेंगे`foreach` प्रत्येक उत्तर पर पुनरावृति करने के लिए लूप का उपयोग करें।
+अब, आइए मूल टिप्पणी के उत्तरों को देखें। हम एक का उपयोग करेंगे `foreach` प्रत्येक उत्तर पर पुनरावृति करने के लिए लूप का उपयोग करें।
 
 ```csharp
 foreach (Comment childComment in parentComment.Replies)
@@ -106,16 +108,21 @@ Word दस्तावेज़ों में टिप्पणियों 
 हां, .NET के लिए Aspose.Words .NET फ्रेमवर्क और .NET कोर दोनों का समर्थन करता है।
 
 ### मैं .NET के लिए Aspose.Words का निःशुल्क परीक्षण कैसे प्राप्त कर सकता हूँ?  
- आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### क्या मैं अन्य दस्तावेज़ प्रकारों के साथ काम करने के लिए Aspose.Words for .NET का उपयोग कर सकता हूँ?  
 हां, Aspose.Words DOCX, PDF, HTML, आदि सहित विभिन्न प्रारूपों का समर्थन करता है।
 
 ### मैं .NET के लिए Aspose.Words हेतु विस्तृत दस्तावेज़ कहां पा सकता हूं?  
- आप दस्तावेज़ तक पहुँच सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप दस्तावेज़ तक पहुँच सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Kiểu dáng tài liệu
-linktitle: Kiểu dáng tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Làm chủ phong cách tài liệu với hướng dẫn Aspose.Words cho Java. Tìm hiểu các kỹ thuật định dạng nâng cao để có tài liệu hấp dẫn và hiệu quả về mặt thị giác.
-weight: 12
-url: /vi/java/document-styling/
+"description": "Làm chủ phong cách tài liệu với hướng dẫn Aspose.Words cho Java. Tìm hiểu các kỹ thuật định dạng nâng cao để có tài liệu hấp dẫn và hiệu quả về mặt thị giác."
+"linktitle": "Kiểu dáng tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Kiểu dáng tài liệu"
+"url": "/vi/java/document-styling/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kiểu dáng tài liệu
@@ -41,9 +43,13 @@ Tìm hiểu cách tùy chỉnh chủ đề tài liệu bằng Aspose.Words for J
 Tìm hiểu cách áp dụng hình mờ và thiết lập cấu hình trang bằng Aspose.Words cho Java. Hướng dẫn toàn diện với mã nguồn.
 ### [Kiểu dáng của Đầu trang và Chân trang Tài liệu](./document-header-footer-styling/)
 Tìm hiểu cách định dạng tiêu đề và chân trang tài liệu bằng Aspose.Words for Java trong hướng dẫn chi tiết này. Bao gồm hướng dẫn từng bước và mã nguồn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,51 +1,59 @@
 ---
-title: Word दस्तावेज़ में एक नया अनुभाग जोड़ें .NET के लिए Aspose.Words
-weight: 7700
-limit: 
-description: Word दस्तावेज़ में एक नया अनुभाग जोड़ने के लिए सीखें .NET के लिए Aspose.Words का उपयोग करके. अपने Word स्वचालन कार्यों को सुव्यवस्थित करने के लिए कोड उदाहरण के साथ चरण-दर-चरण गाइड।
-keywords: [Aspose.Words for .NET, add section to Word document, .NET Word automation, create new section, Word document manipulation, Aspose.Words tutorial, .NET examples]
-url: /hi/net/document-sections/add-section/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में नया अनुभाग जोड़ने का तरीका जानें। अपने Word स्वचालन कार्यों को सरल बनाने के लिए कोड उदाहरण के साथ चरण-दर-चरण मार्गदर्शिका।"
+"title": "Word दस्तावेज़ में एक नया अनुभाग जोड़ें | Aspose.Words for .NET"
+"url": "/hi/net/document-sections/add-section/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word दस्तावेज़ में एक नया अनुभाग जोड़ें
+# Word दस्तावेज़ में नया अनुभाग जोड़ें
 
-.NET के लिए "एस्पोज.वर्ड्स" जटिल दस्तावेज़ संरचनाओं को संभालने के लिए शक्तिशाली एपीआई प्रदान करके वर्ड दस्तावेज़ों के साथ काम करना आसान बनाता है। यह ट्यूटोरियल आपको वर्ड दस्तावेज़ में एक नया अनुभाग जोड़ने के माध्यम से मार्गदर्शन करता है।`दस्तावेज`और `दस्तावेज़निर्माता`कक्षाओं, आप एक दस्तावेज़ को शुरू करने, पाठ जोड़ने और एक नया अनुभाग जोड़ने के लिए सीखेंगे। वर्ड दस्तावेज़ निर्माण और सटीकता के साथ हेरफेर को स्वचालित करने के इच्छुक डेवलपर्स के लिए एकदम सही।  
+Aspose.Words for .NET जटिल दस्तावेज़ संरचनाओं को संभालने के लिए शक्तिशाली API प्रदान करके Word दस्तावेज़ों के साथ काम करना आसान बनाता है। यह ट्यूटोरियल आपको प्रोग्रामेटिक रूप से Word दस्तावेज़ में एक नया अनुभाग जोड़ने के बारे में बताता है। `Document` और `DocumentBuilder` कक्षाओं में, आप दस्तावेज़ को आरंभ करना, पाठ जोड़ना और एक नया अनुभाग जोड़ना सीखेंगे। यह उन डेवलपर्स के लिए बिल्कुल सही है जो सटीकता के साथ वर्ड दस्तावेज़ निर्माण और हेरफेर को स्वचालित करना चाहते हैं।  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/document-sections/add-section" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## .NET के लिए Aspose.Words के लिए स्थापना निर्देश  
+## .NET के लिए Aspose.Words हेतु स्थापना निर्देश  
 
-1. .NET के लिए Aspose.Words डाउनलोड करेंः  
-   [.NET डाउनलोड पृष्ठ के लिए Aspose.Words](https://releases.aspose.com/words/net/)नवीनतम संस्करण प्राप्त करने के लिए.
+1. .NET के लिए Aspose.Words डाउनलोड करें:  
+   दौरा करना [.NET के लिए Aspose.Words डाउनलोड पृष्ठ](https://releases.aspose.com/words/net/) नवीनतम संस्करण प्राप्त करने के लिए.
 
-2. NuGet के माध्यम से स्थापित करेंः  
-   * अपनी विज़ुअल स्टूडियो परियोजना खोलें।  
-   * टूल > NuGet पैकेज प्रबंधक > समाधान के लिए NuGet पैकेज प्रबंधित करें पर जाएं।  
-   * खोजें`"अस्पोज. शब्द"`NuGet पैकेज मैनेजर में।  
-   * पैकेज का चयन करें और इंस्टॉल करें पर क्लिक करें।  
+2. NuGet के माध्यम से स्थापित करें:  
+   - अपना विज़ुअल स्टूडियो प्रोजेक्ट खोलें.  
+   - टूल्स > NuGet पैकेज मैनेजर > समाधान के लिए NuGet पैकेज प्रबंधित करें पर जाएँ।  
+   - निम्न को खोजें `Aspose.Words` NuGet पैकेज मैनेजर में.  
+   - पैकेज का चयन करें और इंस्टॉल पर क्लिक करें.  
 
-3. संदर्भ मैन्युअल रूप से जोड़ें (वैकल्पिक):  
-   * से DLL डाउनलोड करें[Aspose रिलीज़ पृष्ठ](https://releases.aspose.com/). .  
-   * जोड़ें`"अस्पोज. शब्द. "dll`समाधान एक्सप्लोरर में संदर्भ पर राइट-क्लिक करके और Add Reference चुनकर अपनी परियोजना में फ़ाइल डालें।  
+3. मैन्युअल रूप से संदर्भ जोड़ें (वैकल्पिक):  
+   - DLL को यहाँ से डाउनलोड करें [Aspose रिलीज़ पेज](https://releases.aspose.com/).  
+   - जोड़ें `Aspose.Words.dll` आप सॉल्यूशन एक्सप्लोरर में संदर्भ पर राइट-क्लिक करके और संदर्भ जोड़ें का चयन करके अपनी परियोजना में फ़ाइल जोड़ सकते हैं।  
 
-4. लाइसेंस को सक्रिय करें (वैकल्पिक):  
-   यदि आपके पास लाइसेंस है, तो इसे पूरी कार्यक्षमता को अनलॉक करने के लिए लागू करेंः  
+4. लाइसेंस सक्रिय करें (वैकल्पिक):  
+   यदि आपके पास लाइसेंस है, तो पूर्ण कार्यक्षमता अनलॉक करने के लिए इसे लागू करें:  
    ```csharp
    Aspose.Words.License license = new Aspose.Words.License();
    license.SetLicense("path_to_your_license.lic");
    ```  
 
 ## यह भी देखें
-[.NET दस्तावेज़ीकरण के लिए शब्द](https://docs.aspose.com/words/net/)
+[.NET दस्तावेज़ीकरण के लिए Aspose.Word](https://docs.aspose.com/words/net/)
 [.NET संदर्भों के लिए Aspose.Word](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

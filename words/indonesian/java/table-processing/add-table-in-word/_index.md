@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Tabel Di Word
-linktitle: Tambahkan Tabel Di Word
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menambahkan tabel di Word menggunakan Aspose.Words untuk Java. Buat tabel yang diformat dengan baik dengan mudah di dokumen Word.
-weight: 10
-url: /id/java/table-processing/add-table-in-word/
+"description": "Pelajari cara menambahkan tabel di Word menggunakan Aspose.Words untuk Java. Buat tabel yang diformat dengan baik dengan mudah di dokumen Word."
+"linktitle": "Tambahkan Tabel Di Word"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Tambahkan Tabel Di Word"
+"url": "/id/java/table-processing/add-table-in-word/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Tabel Di Word
@@ -27,7 +29,7 @@ Buka Lingkungan Pengembangan Terpadu (IDE) pilihan Anda atau editor teks dan bua
 
 ## Langkah 3: Tambahkan Ketergantungan Aspose.Words
 
- Untuk bekerja dengan Aspose.Words untuk Java, Anda perlu menyertakan berkas JAR Aspose.Words di classpath proyek Anda. Unduh versi terbaru Aspose.Words untuk Java dari[Aspose.Rilis](https://releases.aspose.com/words/java) dan tambahkan file JAR ke proyek Anda.
+Untuk bekerja dengan Aspose.Words untuk Java, Anda perlu menyertakan berkas JAR Aspose.Words di classpath proyek Anda. Unduh versi terbaru Aspose.Words untuk Java dari [Aspose.Rilis](https://releases.aspose.com/words/java) dan tambahkan file JAR ke proyek Anda.
 
 ## Langkah 4: Impor Kelas yang Diperlukan
 
@@ -39,7 +41,7 @@ import com.aspose.words.*;
 
 ## Langkah 5: Buat Dokumen Word Baru
 
- Membuat instance baru`Document` objek untuk membuat dokumen Word baru.
+Membuat instance baru `Document` objek untuk membuat dokumen Word baru.
 
 ```java
 Document doc = new Document();
@@ -47,7 +49,7 @@ Document doc = new Document();
 
 ## Langkah 6: Buat Tabel dan Tambahkan Baris
 
- Buat yang baru`Table` objek dan tentukan jumlah baris dan kolom.
+Buat yang baru `Table` objek dan tentukan jumlah baris dan kolom.
 
 ```java
 Table table = new Table(doc);
@@ -71,7 +73,7 @@ for (int row = 0; row < rowCount; row++) {
 
 ## Langkah 7: Tambahkan Tabel ke Dokumen
 
- Masukkan tabel ke dalam dokumen menggunakan`appendChild()` metode dari`Document` obyek.
+Masukkan tabel ke dalam dokumen menggunakan `appendChild()` metode dari `Document` obyek.
 
 ```java
 doc.getFirstSection().getBody().appendChild(table);
@@ -79,7 +81,7 @@ doc.getFirstSection().getBody().appendChild(table);
 
 ## Langkah 8: Simpan Dokumen
 
-Simpan dokumen Word ke lokasi yang diinginkan menggunakan`save()` metode.
+Simpan dokumen Word ke lokasi yang diinginkan menggunakan `save()` metode.
 
 ```java
 doc.save("output.docx");
@@ -112,9 +114,13 @@ Ya, Aspose.Words memungkinkan Anda menerapkan berbagai opsi pemformatan ke sel t
 ### Q5: Seberapa sering Aspose.Words diperbarui?
 
 Aspose.Words menerima pembaruan dan peningkatan rutin untuk memastikan kompatibilitas dengan versi terbaru Microsoft Word dan Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

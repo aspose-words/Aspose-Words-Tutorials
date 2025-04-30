@@ -1,46 +1,54 @@
 ---
-title: Aspose.Words kullanarak Word Belgesine İç çizgi görüntüsü ekle
-weight: 7700
-limit: 
-description: Bu adım adım örneğinde .NET için Aspose.Words ile Word belgesine bir inline görüntüsü nasıl ekleneceğini öğrenin.
-keywords: [Aspose.Words, .NET, inline image, Word document, DocumentBuilder, image insertion, code example]
-url: /tr/net/add-content-using-document-builder/insert-inline-image/
+"description": "Bu adım adım örnekte Aspose.Words for .NET ile Word belgesine satır içi resim eklemeyi öğrenin."
+"title": "Aspose.Words kullanarak Word Belgesine Satır İçi Resim Ekleme"
+"url": "/tr/net/add-content-using-document-builder/insert-inline-image/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words kullanarak Word Belgesine İç çizgi görüntüsü ekle
-Bu örnek, .NET için Aspose.Words kütüphanesi kullanarak bir Word belgesine bir inline görüntüsü nasıl ekleneceğini gösterir.`DocumentBuilder`Bu kılavuz, Word belgeleri içinde görüntü işlemeyle başlamanıza yardımcı olmak için basit bir uygulamayı sağlar.
+# Aspose.Words kullanarak Word Belgesine Satır İçi Resim Ekleme
+Bu örnek, .NET için Aspose.Words kitaplığını kullanarak bir Word belgesine satır içi bir resmin nasıl ekleneceğini gösterir. `DocumentBuilder` sınıfında, resimleri belgenizdeki geçerli imleç konumuna kolayca yerleştirebilir ve ekleyebilirsiniz. Bu kılavuz, Word belgelerinde resim işlemeye başlamanıza yardımcı olacak basit bir uygulama sağlar.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-inline-image" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum talimatları
-1. .NET için Aspose.Words yükle:
-   * Visual Studio'da NuGet Paket Yöneticisini kullanın.
-   * Paket Yöneticisi Konsolu'nda aşağıdaki komutu çalıştırın:
+## Kurulum Talimatları
+1. .NET için Aspose.Words'ü yükleyin:
+   - Visual Studio'da NuGet Paket Yöneticisini kullanın.
+   - Paket Yöneticisi Konsolunda aşağıdaki komutu çalıştırın:
      ```
      Install-Package Aspose.Words
      ```
 
-2. Projenizi Yapın:
-   * Yeni bir .NET projesi oluşturun veya mevcut bir projesi açın.
-   * Kod dosyanızın başında gerekli yönergeleri kullanarak ekleyin:
+2. Projenizi Kurun:
+   - Yeni bir .NET projesi oluşturun veya mevcut bir projeyi açın.
+   - Gerekli using yönergelerini kod dosyanızın en üstüne ekleyin:
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Drawing;
      ```
 
 
-## Ayrıca bakın
-[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
+## Ayrıca Bakınız
+[Aspose.Word for .NET Belgeleri](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET Referansları](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

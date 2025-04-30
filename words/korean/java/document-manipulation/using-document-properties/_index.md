@@ -1,14 +1,16 @@
 ---
-title: Java용 Aspose.Words에서 문서 속성 사용
-linktitle: 문서 속성 사용
-second_title: Aspose.Words Java 문서 처리 API
-description: Aspose.Words for Java로 문서 관리를 최적화하세요. 이 포괄적인 튜토리얼에서 문서 속성 작업, 사용자 정의 메타데이터 추가 등을 알아보세요.
-weight: 32
-url: /ko/java/document-manipulation/using-document-properties/
+"description": "Aspose.Words for Java를 사용하여 문서 관리를 최적화하세요. 이 포괄적인 튜토리얼에서 문서 속성 작업, 사용자 정의 메타데이터 추가 등의 방법을 알아보세요."
+"linktitle": "문서 속성 사용"
+"second_title": "Aspose.Words Java 문서 처리 API"
+"title": "Java용 Aspose.Words에서 문서 속성 사용"
+"url": "/ko/java/document-manipulation/using-document-properties/"
+"weight": 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java용 Aspose.Words에서 문서 속성 사용
@@ -16,13 +18,13 @@ url: /ko/java/document-manipulation/using-document-properties/
 
 ## 문서 속성 소개
 
-문서 속성은 모든 문서의 중요한 부분입니다. 문서 자체에 대한 추가 정보(예: 제목, 작성자, 주제, 키워드 등)를 제공합니다. Aspose.Words for Java에서는 기본 제공 및 사용자 지정 문서 속성을 모두 조작할 수 있습니다.
+문서 속성은 모든 문서의 핵심 요소입니다. 제목, 작성자, 주제, 키워드 등 문서 자체에 대한 추가 정보를 제공합니다. Aspose.Words for Java에서는 기본 제공 및 사용자 지정 문서 속성을 모두 조작할 수 있습니다.
 
 ## 문서 속성 열거
 
-### 내장된 속성
+### 내장 속성
 
-기본 제공 문서 속성을 검색하고 작업하려면 다음 코드 조각을 사용할 수 있습니다.
+기본 제공 문서 속성을 검색하고 사용하려면 다음 코드 조각을 사용할 수 있습니다.
 
 ```java
 @Test
@@ -36,11 +38,11 @@ public void enumerateProperties() throws Exception
 }
 ```
 
-이 코드는 문서의 이름과 "제목", "작성자", "키워드"와 같은 속성을 포함한 기본 제공 속성을 표시합니다.
+이 코드는 "제목", "작성자", "키워드"와 같은 속성을 포함하여 문서의 이름과 기본 속성을 표시합니다.
 
 ### 사용자 정의 속성
 
-사용자 지정 문서 속성을 사용하려면 다음 코드 조각을 사용하면 됩니다.
+사용자 지정 문서 속성을 사용하려면 다음 코드 조각을 사용할 수 있습니다.
 
 ```java
 @Test
@@ -59,7 +61,7 @@ public void addCustomDocumentProperties() throws Exception
 }
 ```
 
-이 코드 조각은 부울 값, 문자열, 날짜, 개정 번호, 숫자 값을 비롯한 사용자 지정 문서 속성을 추가하는 방법을 보여줍니다.
+이 코드 조각은 부울 값, 문자열, 날짜, 개정 번호, 숫자 값을 포함한 사용자 지정 문서 속성을 추가하는 방법을 보여줍니다.
 
 ## 문서 속성 제거
 
@@ -78,7 +80,7 @@ public void removeCustomDocumentProperties() throws Exception
 
 ## 콘텐츠에 대한 링크 구성
 
-어떤 경우에는 문서 내에 링크를 만들고 싶을 수 있습니다. 방법은 다음과 같습니다.
+경우에 따라 문서 내에 링크를 만들고 싶을 수 있습니다. 방법은 다음과 같습니다.
 
 ```java
 @Test
@@ -92,7 +94,7 @@ public void configuringLinkToContent() throws Exception
 
     CustomDocumentProperties customProperties = doc.getCustomDocumentProperties();
 
-    // 콘텐츠 속성에 연결된 항목을 추가합니다.
+    // 콘텐츠 속성에 링크를 추가합니다.
     DocumentProperty customProperty = customProperties.addLinkToContent("Bookmark", "MyBookmark");
     customProperty = customProperties.get("Bookmark");
     boolean isLinkedToContent = customProperty.isLinkToContent();
@@ -101,11 +103,11 @@ public void configuringLinkToContent() throws Exception
 }
 ```
 
-이 코드 조각은 문서에 책갈피를 만들고 해당 책갈피에 연결되는 사용자 지정 문서 속성을 추가하는 방법을 보여줍니다.
+이 코드 조각은 문서에 책갈피를 만들고 해당 책갈피에 링크되는 사용자 지정 문서 속성을 추가하는 방법을 보여줍니다.
 
 ## 측정 단위 간 변환
 
-Aspose.Words for Java에서는 측정 단위를 쉽게 변환할 수 있습니다. 다음은 그 방법의 예입니다.
+Aspose.Words for Java에서는 측정 단위를 쉽게 변환할 수 있습니다. 다음은 변환 방법의 예입니다.
 
 ```java
 @Test
@@ -129,7 +131,7 @@ public void convertBetweenMeasurementUnits() throws Exception
 
 ## 제어 문자 사용
 
-제어 문자는 텍스트를 다룰 때 유용할 수 있습니다. 텍스트에서 제어 문자를 대체하는 방법은 다음과 같습니다.
+제어 문자는 텍스트를 다룰 때 유용하게 사용할 수 있습니다. 텍스트에서 제어 문자를 바꾸는 방법은 다음과 같습니다.
 
 ```java
 @Test
@@ -142,36 +144,41 @@ public void useControlCharacters()
 }
 ```
 
-이 예에서 우리는 캐리지 리턴(`\r`) 캐리지 리턴과 줄 바꿈(`\r\n`).
+이 예에서 우리는 캐리지 리턴(`\r`) 캐리지 리턴 다음에 줄 바꿈(`\r\n`).
 
 ## 결론
 
-문서 속성은 Aspose.Words for Java에서 문서를 효과적으로 관리하고 구성하는 데 중요한 역할을 합니다. 기본 제공 속성, 사용자 지정 속성 또는 제어 문자를 사용하든, 문서 관리 기능을 향상시키는 데 사용할 수 있는 다양한 도구가 있습니다.
+Aspose.Words for Java에서 문서 속성은 문서를 효과적으로 관리하고 구성하는 데 중요한 역할을 합니다. 기본 제공 속성, 사용자 지정 속성, 제어 문자 등 다양한 도구를 활용하여 문서 관리 기능을 향상시킬 수 있습니다.
 
 ## 자주 묻는 질문
 
-### 내장된 문서 속성에 어떻게 액세스합니까?
+### 내장된 문서 속성에 어떻게 접근합니까?
 
- Java용 Aspose.Words의 내장 문서 속성에 액세스하려면 다음을 사용할 수 있습니다.`getBuiltInDocumentProperties` 방법에 대한`Document` 객체. 이 메서드는 반복할 수 있는 내장 속성 컬렉션을 반환합니다.
+Java용 Aspose.Words의 내장 문서 속성에 액세스하려면 다음을 사용할 수 있습니다. `getBuiltInDocumentProperties` 방법에 대한 `Document` 객체입니다. 이 메서드는 반복 가능한 내장 속성 컬렉션을 반환합니다.
 
 ### 문서에 사용자 정의 문서 속성을 추가할 수 있나요?
 
- 예, 다음을 사용하여 문서에 사용자 정의 문서 속성을 추가할 수 있습니다.`CustomDocumentProperties` 컬렉션. 문자열, 부울, 날짜 및 숫자 값을 포함한 다양한 데이터 유형으로 사용자 정의 속성을 정의할 수 있습니다.
+예, 다음을 사용하여 문서에 사용자 정의 문서 속성을 추가할 수 있습니다. `CustomDocumentProperties` 컬렉션입니다. 문자열, 부울, 날짜, 숫자 값 등 다양한 데이터 유형으로 사용자 지정 속성을 정의할 수 있습니다.
 
-### 특정 사용자 정의 문서 속성을 제거하려면 어떻게 해야 합니까?
+### 특정 사용자 정의 문서 속성을 제거하려면 어떻게 해야 하나요?
 
- 특정 사용자 정의 문서 속성을 제거하려면 다음을 사용할 수 있습니다.`remove` 방법에 대한`CustomDocumentProperties`컬렉션에서 제거하려는 속성의 이름을 매개변수로 전달합니다.
+특정 사용자 정의 문서 속성을 제거하려면 다음을 사용할 수 있습니다. `remove` 방법에 대한 `CustomDocumentProperties` 컬렉션에서 제거하려는 속성의 이름을 매개변수로 전달합니다.
 
-### 문서 내의 콘텐츠에 링크를 연결하는 목적은 무엇인가요?
+### 문서 내의 콘텐츠에 링크를 거는 목적은 무엇인가요?
 
-문서 내의 콘텐츠에 링크하면 문서의 특정 부분에 대한 동적 참조를 만들 수 있습니다. 이는 대화형 문서나 섹션 간의 교차 참조를 만드는 데 유용할 수 있습니다.
+문서 내 콘텐츠에 링크를 연결하면 문서의 특정 부분에 대한 동적 참조를 만들 수 있습니다. 이는 대화형 문서를 만들거나 섹션 간 상호 참조를 만들 때 유용합니다.
 
-### Aspose.Words for Java에서 서로 다른 측정 단위를 어떻게 변환할 수 있나요?
+### Java용 Aspose.Words에서 서로 다른 측정 단위를 어떻게 변환할 수 있나요?
 
- Aspose.Words for Java에서는 다음을 사용하여 다양한 측정 단위 간을 변환할 수 있습니다.`ConvertUtil` 클래스. 인치에서 포인트, 포인트에서 센티미터 등과 같은 단위를 변환하는 방법을 제공합니다.
+Aspose.Words for Java에서는 다음을 사용하여 다양한 측정 단위 간을 변환할 수 있습니다. `ConvertUtil` 클래스입니다. 인치를 포인트로, 포인트를 센티미터로 변환하는 등의 단위 변환 메서드를 제공합니다.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

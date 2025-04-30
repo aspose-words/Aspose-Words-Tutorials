@@ -1,49 +1,57 @@
 ---
-title: Insira um gráfico de bolhas no Word usando Aspose.Words para .NET
-weight: 7700
-limit: 
-description: Aprenda a insertar um gráfico Bubble em um documento do Word usando Aspose.Words para .NET. Instruções passo a passo e exemplo de código incluídos.
-keywords: [Aspose.Words for .NET, insert Bubble chart, Word document, .NET Bubble chart example, create Bubble chart Word]
-url: /pt/net/working-with-charts/insert-bubble-chart/
+"description": "Aprenda a inserir um gráfico de bolhas em um documento do Word usando o Aspose.Words para .NET. Instruções passo a passo e exemplo de código incluídos."
+"title": "Inserir um gráfico de bolhas no Word usando Aspose.Words para .NET"
+"url": "/pt/net/working-with-charts/insert-bubble-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Insira um gráfico de bolhas em palavras usando Aspose.Words
+# Insira um gráfico de bolhas no Word usando Aspose.Words
 
-Adicione facilmente um gráfico de bolhas ao seu documento Word usando Aspose.Words para .NET! Este guia o guia através da criação de um novo documento, inserindo um gráfico de bolhas, adicionando séries de dados com valores de X, Y e tamanho e salvando o documento. Com Aspose.Words, o tratamento de documentos Word programaticamente nunca foi mais fácil.  
+Adicione facilmente um gráfico de bolhas ao seu documento do Word usando o Aspose.Words para .NET! Este guia explica como criar um novo documento, inserir um gráfico de bolhas, adicionar séries de dados com valores X, Y e tamanho, e salvar o documento. Com o Aspose.Words, gerenciar documentos do Word programaticamente nunca foi tão fácil.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-bubble-chart" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instruções de instalação  
 
-1. Descarregue Aspose.Words para .NET  
-   \- Tire a biblioteca da biblioteca .[Página de download Aspose.Words](https://releases.aspose.com/words/net/)\- Não .  
+1. Baixe Aspose.Words para .NET  
+   Obtenha a biblioteca do [Página de download do Aspose.Words](https://releases.aspose.com/words/net/).  
 
-2. Instalar através do Gerente de Pacotes NuGet  
-   * Abre o teu projeto Visual Studio.  
-   * Navegação para Ferramentas > Gerente de Pacotes NuGet > Gerenciar Pacotes NuGet para Solução.  
-   * Procura por`Aspose.Words`na guia Browse.  
-   * Selecione o pacote e clique em Instalar.  
+2. Instalar via Gerenciador de Pacotes NuGet  
+   - Abra seu projeto do Visual Studio.  
+   - Navegue até Ferramentas > Gerenciador de Pacotes NuGet > Gerenciar Pacotes NuGet para Solução.  
+   - Procurar `Aspose.Words` na aba Navegar.  
+   - Selecione o pacote e clique em Instalar.  
 
-3. Instalar através da Consola de Gestor de Pacotes NuGet  
-   Execute o seguinte comando no Console do Gestor de Pacotes:  
+3. Instalar via console do gerenciador de pacotes NuGet  
+   Execute o seguinte comando no Console do Gerenciador de Pacotes:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-4. Adicionar Licença  
-   Para obter a funcionalidade completa, pode solicitar uma licença.[Aspose página Licença Temporal](https://purchase.aspose.com/temporary-license/)\- Não .  
+4. Adicionar licença  
+   Para obter a funcionalidade completa, solicite uma licença. Você pode obter uma licença temporária em [Página de licença temporária Aspose](https://purchase.aspose.com/temporary-license/).  
 
 ## Veja também
-[Aspose.Word para Documentação .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word para Referências .NET](https://reference.aspose.com/words/net/)
+[Documentação do Aspose.Word para .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word para referências .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

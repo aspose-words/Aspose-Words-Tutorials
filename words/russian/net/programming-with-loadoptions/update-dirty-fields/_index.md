@@ -1,14 +1,16 @@
 ---
-title: Обновление грязных полей в документе Word
-linktitle: Обновление грязных полей в документе Word
-second_title: API обработки документов Aspose.Words
-description: Легко обновляйте «грязные» поля в документах Word с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-loadoptions/update-dirty-fields/
+"description": "Легко обновляйте «грязные» поля в документах Word с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства."
+"linktitle": "Обновление грязных полей в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Обновление грязных полей в документе Word"
+"url": "/ru/net/programming-with-loadoptions/update-dirty-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Обновление грязных полей в документе Word
@@ -22,10 +24,10 @@ url: /ru/net/programming-with-loadoptions/update-dirty-fields/
 
 Прежде чем углубиться в детали, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас последняя версия. Если нет, вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас последняя версия. Если нет, вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 2. .NET Framework: любая версия, совместимая с Aspose.Words.
 3. Базовые знания C#: знакомство с программированием на C# будет преимуществом.
-4. Образец документа Word: документ с некорректными полями, требующими обновления.
+4. Образец документа Word: документ с грязными полями, которые необходимо обновить.
 
 ## Импорт пространств имен
 
@@ -57,7 +59,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 LoadOptions loadOptions = new LoadOptions { UpdateDirtyFields = true };
 ```
 
-Здесь мы указываем, что документ должен обновить грязные поля при загрузке.
+Здесь мы указываем, что документ должен обновлять грязные поля при загрузке.
 
 ## Шаг 3: Загрузите документ
 
@@ -98,11 +100,16 @@ doc.Save(dataDir + "WorkingWithLoadOptions.UpdateDirtyFields.docx");
 Да, Aspose.Words — это мощная библиотека, которая упрощает процесс программного манипулирования документами Word.
 
 ### Где я могу найти более подробную информацию об Aspose.Words?
- Проверьте[документация](https://reference.aspose.com/words/net/) для получения подробных руководств и примеров.
+Проверьте [документация](https://reference.aspose.com/words/net/) для получения подробных руководств и примеров.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

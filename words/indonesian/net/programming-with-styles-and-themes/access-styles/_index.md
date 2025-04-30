@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Gaya Dokumen di Word
-linktitle: Dapatkan Gaya Dokumen di Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mendapatkan gaya dokumen di Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah yang terperinci ini. Akses dan kelola gaya secara terprogram di aplikasi .NET Anda.
-weight: 10
-url: /id/net/programming-with-styles-and-themes/access-styles/
+"description": "Pelajari cara mendapatkan gaya dokumen di Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah yang terperinci ini. Akses dan kelola gaya secara terprogram di aplikasi .NET Anda."
+"linktitle": "Dapatkan Gaya Dokumen di Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Dapatkan Gaya Dokumen di Word"
+"url": "/id/net/programming-with-styles-and-themes/access-styles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Gaya Dokumen di Word
@@ -21,7 +23,7 @@ Apakah Anda siap untuk menyelami dunia penataan dokumen di Word? Baik Anda sedan
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1.  Aspose.Words untuk .NET: Anda perlu menginstal pustaka ini di lingkungan .NET Anda. Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda perlu menginstal pustaka ini di lingkungan .NET Anda. Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 2. Pengetahuan Dasar tentang .NET: Keakraban dengan C# atau bahasa .NET lainnya akan membantu Anda memahami cuplikan kode yang disediakan.
 3. Lingkungan Pengembangan: Pastikan Anda memiliki IDE seperti Visual Studio yang disiapkan untuk menulis dan mengeksekusi kode .NET.
 
@@ -36,13 +38,13 @@ using System;
 
 ## Langkah 1: Buat Dokumen Baru
 
-Pertama, Anda perlu membuat instance dari`Document` Kelas ini mewakili dokumen Word Anda dan menyediakan akses ke berbagai properti dokumen, termasuk gaya.
+Pertama, Anda perlu membuat instance dari `Document` Kelas ini mewakili dokumen Word Anda dan menyediakan akses ke berbagai properti dokumen, termasuk gaya.
 
 ```csharp
 Document doc = new Document();
 ```
 
- Di Sini,`Document` adalah kelas yang disediakan oleh Aspose.Words yang memungkinkan Anda bekerja dengan dokumen Word secara terprogram.
+Di Sini, `Document` adalah kelas yang disediakan oleh Aspose.Words yang memungkinkan Anda bekerja dengan dokumen Word secara terprogram.
 
 ## Langkah 2: Akses Koleksi Gaya
 
@@ -52,7 +54,7 @@ Setelah Anda memiliki objek dokumen, Anda dapat mengakses koleksi gayanya. Kolek
 StyleCollection styles = doc.Styles;
 ```
 
-`StyleCollection` adalah kumpulan dari`Style` objek. Setiap`Style` Objek mewakili satu gaya dalam dokumen.
+`StyleCollection` adalah kumpulan dari `Style` objek. Setiap `Style` Objek mewakili satu gaya dalam dokumen.
 
 ## Langkah 3: Ulangi Melalui Gaya
 
@@ -78,9 +80,9 @@ foreach (Style style in styles)
 
 Berikut rincian apa yang dilakukan kode ini:
 
--  Inisialisasi`styleName`:Kita mulai dengan string kosong untuk membangun daftar nama gaya kita.
--  Ulangi melalui gaya:`foreach` loop berulang pada setiap`Style` di dalam`styles` koleksi.
-- Perbarui dan Tampilkan`styleName` :Untuk setiap gaya, kami menambahkan namanya ke`styleName` dan mencetaknya.
+- Inisialisasi `styleName`:Kita mulai dengan string kosong untuk membangun daftar nama gaya kita.
+- Ulangi melalui gaya: `foreach` loop berulang pada setiap `Style` di dalam `styles` koleksi.
+- Perbarui dan Tampilkan `styleName`:Untuk setiap gaya, kami menambahkan namanya ke `styleName` dan mencetaknya.
 
 ## Langkah 4: Menyesuaikan Output
 
@@ -100,7 +102,7 @@ foreach (Style style in styles)
 }
 ```
 
- Dalam contoh ini, kami membedakan antara gaya bawaan dan gaya kustom dengan memeriksa`IsBuiltin` milik.
+Dalam contoh ini, kami membedakan antara gaya bawaan dan gaya kustom dengan memeriksa `IsBuiltin` milik.
 
 ## Kesimpulan
 
@@ -118,13 +120,18 @@ Tidak, Aspose.Words adalah pustaka mandiri dan tidak memerlukan pustaka tambahan
 Ya, Anda dapat mengakses dan memanipulasi gaya dalam dokumen yang sudah ada maupun yang baru dibuat.
 
 ### Bagaimana saya bisa memfilter gaya untuk hanya menampilkan tipe tertentu?
- Anda dapat memfilter gaya dengan memeriksa properti seperti`IsBuiltin` atau menggunakan logika khusus berdasarkan atribut gaya.
+Anda dapat memfilter gaya dengan memeriksa properti seperti `IsBuiltin` atau menggunakan logika khusus berdasarkan atribut gaya.
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya tentang Aspose.Words untuk .NET?
- Anda dapat menjelajahi lebih lanjut[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menjelajahi lebih lanjut [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

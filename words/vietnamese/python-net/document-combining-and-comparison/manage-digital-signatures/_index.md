@@ -1,14 +1,16 @@
 ---
-title: Quản lý chữ ký số và xác thực
-linktitle: Quản lý chữ ký số và xác thực
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Tìm hiểu cách quản lý chữ ký số và đảm bảo tính xác thực của tài liệu bằng Aspose.Words cho Python. Hướng dẫn từng bước có mã nguồn.
-weight: 17
-url: /vi/python-net/document-combining-and-comparison/manage-digital-signatures/
+"description": "Tìm hiểu cách quản lý chữ ký số và đảm bảo tính xác thực của tài liệu bằng Aspose.Words cho Python. Hướng dẫn từng bước có mã nguồn."
+"linktitle": "Quản lý chữ ký số và xác thực"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Quản lý chữ ký số và xác thực"
+"url": "/vi/python-net/document-combining-and-comparison/manage-digital-signatures/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Quản lý chữ ký số và xác thực
@@ -103,9 +105,14 @@ Aspose.Words hỗ trợ chứng chỉ X.509, bao gồm các tệp PFX, thường
 ### Chữ ký số có giá trị pháp lý không?
 
 Có, chữ ký số có giá trị pháp lý ở nhiều quốc gia và thường được coi là tương đương với chữ ký viết tay.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

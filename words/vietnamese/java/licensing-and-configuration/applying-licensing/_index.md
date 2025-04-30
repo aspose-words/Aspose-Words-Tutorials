@@ -1,14 +1,16 @@
 ---
-title: Áp dụng cấp phép cho Aspose.Words cho Java
-linktitle: Áp dụng cấp phép cho
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách áp dụng cấp phép cho Aspose.Words for Java từng bước. Truy cập ngay và mở khóa toàn bộ tiềm năng của nó.
-weight: 10
-url: /vi/java/licensing-and-configuration/applying-licensing/
+"description": "Tìm hiểu cách áp dụng cấp phép cho Aspose.Words for Java từng bước. Truy cập ngay và mở khóa toàn bộ tiềm năng của nó."
+"linktitle": "Áp dụng cấp phép cho"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Áp dụng cấp phép cho Aspose.Words cho Java"
+"url": "/vi/java/licensing-and-configuration/applying-licensing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Áp dụng cấp phép cho Aspose.Words cho Java
@@ -22,11 +24,11 @@ Aspose.Words for Java là một thư viện xử lý tài liệu mạnh mẽ cho
 
 ## 2. Xin giấy phép
 
- Trước khi bạn có thể áp dụng giấy phép, bạn cần phải có được một giấy phép. Aspose cung cấp nhiều tùy chọn cấp phép khác nhau, bao gồm giấy phép tạm thời và vĩnh viễn. Để có được giấy phép, hãy truy cập[Trang mua hàng Aspose](https://purchase.aspose.com/buy).
+Trước khi bạn có thể áp dụng giấy phép, bạn cần phải có được một giấy phép. Aspose cung cấp nhiều tùy chọn cấp phép khác nhau, bao gồm giấy phép tạm thời và vĩnh viễn. Để có được giấy phép, hãy truy cập [Trang mua hàng Aspose](https://purchase.aspose.com/buy).
 
 ## 3. Thiết lập môi trường phát triển của bạn
 
- Để bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Words for Java trong môi trường phát triển của mình. Bạn có thể tải xuống từ[Trang Tải xuống Aspose](https://releases.aspose.com/words/java/). Sau khi cài đặt, bạn có thể bắt đầu viết mã.
+Để bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Words for Java trong môi trường phát triển của mình. Bạn có thể tải xuống từ [Trang Tải xuống Aspose](https://releases.aspose.com/words/java/). Sau khi cài đặt, bạn có thể bắt đầu viết mã.
 
 ## 4. Áp dụng Giấy phép
 
@@ -42,7 +44,7 @@ try {
 }
 ```
 
- Mã này khởi tạo giấy phép và cố gắng thiết lập nó. Đảm bảo rằng bạn thay thế`"Aspose.Words.lic"` với đường dẫn đến tệp giấy phép của bạn.
+Mã này khởi tạo giấy phép và cố gắng thiết lập nó. Đảm bảo rằng bạn thay thế `"Aspose.Words.lic"` với đường dẫn đến tệp giấy phép của bạn.
 
 ## 5. Xử lý ngoại lệ cấp phép
 
@@ -65,7 +67,7 @@ Sau khi áp dụng giấy phép, hãy kiểm tra kỹ ứng dụng Aspose.Words 
         catch (Exception e)
         {
             // Chúng tôi không gửi bất kỳ giấy phép nào kèm theo ví dụ này,
-            // truy cập trang web Aspose để xin giấy phép tạm thời hoặc vĩnh viễn.
+            // truy cập trang web Aspose để xin giấy phép tạm thời hoặc vĩnh viễn. 
             System.out.println("\nThere was an error setting the license: " + e.getMessage());
         }
 ```
@@ -83,7 +85,7 @@ Sau khi áp dụng giấy phép, hãy kiểm tra kỹ ứng dụng Aspose.Words 
         catch (Exception e)
         {
             // Chúng tôi không gửi bất kỳ giấy phép nào kèm theo ví dụ này,
-            // truy cập trang web Aspose để xin giấy phép tạm thời hoặc vĩnh viễn.
+            // truy cập trang web Aspose để xin giấy phép tạm thời hoặc vĩnh viễn. 
             System.out.println("\nThere was an error setting the license: " + e.getMessage());
         }
     }
@@ -113,25 +115,30 @@ Trong hướng dẫn này, chúng tôi đã đề cập đến các bước thi�
 ## Câu hỏi thường gặp
 
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Words dành cho Java?
- Ghé thăm[Trang giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/) để yêu cầu cấp giấy phép tạm thời.
+Ghé thăm [Trang giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/) để yêu cầu cấp giấy phép tạm thời.
 
 ### Tôi có thể sử dụng Aspose.Words cho Java mà không cần giấy phép không?
 Có, nhưng nó sẽ hoạt động ở chế độ dùng thử với một số hạn chế. Bạn nên xin giấy phép hợp lệ để có đầy đủ chức năng.
 
 ### Tôi có thể tìm thêm hỗ trợ cho Aspose.Words for Java ở đâu?
- Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose.Words cho Java](https://forum.aspose.com/) để được hỗ trợ và thảo luận.
+Bạn có thể ghé thăm [Diễn đàn hỗ trợ Aspose.Words cho Java](https://forum.aspose.com/) để được hỗ trợ và thảo luận.
 
 ### Aspose.Words for Java có tương thích với các phiên bản Java mới nhất không?
 Aspose.Words for Java được cập nhật thường xuyên để đảm bảo khả năng tương thích với các bản phát hành Java mới nhất.
 
 ### Có dự án mẫu nào dành cho Aspose.Words dành cho Java không?
-Có, bạn có thể tìm thấy các dự án mẫu và ví dụ mã trong tài liệu Aspose.Words cho Java.
+Có, bạn có thể tìm thấy các dự án mẫu và ví dụ mã trong tài liệu Aspose.Words for Java.
 
 Bây giờ bạn đã hiểu toàn diện về việc áp dụng cấp phép cho Aspose.Words for Java, bạn có thể bắt đầu tận dụng các tính năng mạnh mẽ của nó để xử lý tài liệu trong các ứng dụng Java của mình.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

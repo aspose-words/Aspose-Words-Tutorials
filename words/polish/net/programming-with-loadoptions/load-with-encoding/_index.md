@@ -1,14 +1,16 @@
 ---
-title: Załaduj z kodowaniem w dokumencie Word
-linktitle: Załaduj z kodowaniem w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak załadować dokument Word z określonym kodowaniem za pomocą Aspose.Words dla .NET. Przewodnik krok po kroku ze szczegółowymi wyjaśnieniami.
-weight: 10
-url: /pl/net/programming-with-loadoptions/load-with-encoding/
+"description": "Dowiedz się, jak załadować dokument Word z określonym kodowaniem za pomocą Aspose.Words dla .NET. Przewodnik krok po kroku ze szczegółowymi wyjaśnieniami."
+"linktitle": "Załaduj z kodowaniem w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Załaduj z kodowaniem w dokumencie Word"
+"url": "/pl/net/programming-with-loadoptions/load-with-encoding/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Załaduj z kodowaniem w dokumencie Word
@@ -21,7 +23,7 @@ Cześć! Więc pracujesz z dokumentami Worda i musisz załadować jeden z okreś
 
 Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Możesz[pobierać](https://releases.aspose.com/words/net/) najnowsza wersja.
+1. Aspose.Words dla .NET: Możesz [pobierać](https://releases.aspose.com/words/net/) najnowsza wersja.
 2. Środowisko programistyczne .NET: Visual Studio działa doskonale.
 3. Dokument Word: Upewnij się, że jest zakodowany w formacie, którego potrzebujesz, np. UTF-7.
 
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 LoadOptions loadOptions = new LoadOptions { Encoding = Encoding.UTF7 };
 ```
 
- Tutaj tworzymy`LoadOptions` obiekt i jego ustawienie`Encoding`nieruchomość do`Encoding.UTF7`Informuje Aspose.Words o konieczności użycia kodowania UTF-7 podczas ładowania dokumentu.
+Tutaj tworzymy `LoadOptions` obiekt i jego ustawienie `Encoding` nieruchomość do `Encoding.UTF7`. Informuje Aspose.Words o konieczności użycia kodowania UTF-7 podczas ładowania dokumentu.
 
 ## Krok 4: Załaduj dokument
 
@@ -76,7 +78,7 @@ Ta linia kodu ładuje dokument ze wskazanej ścieżki, korzystając z opcji kodo
 
 ## Wniosek
 
-I masz! Udało Ci się załadować dokument Worda ze specyficznym kodowaniem przy użyciu Aspose.Words dla .NET. Ta potężna biblioteka sprawia, że obsługa różnych kodowań tekstu jest niezwykle łatwa i zapewnia, że Twoje dokumenty są przetwarzane poprawnie. Niezależnie od tego, czy masz do czynienia ze starszymi dokumentami, czy pracujesz z tekstem międzynarodowym, Aspose.Words ma dla Ciebie rozwiązanie.
+masz! Udało Ci się załadować dokument Worda ze specyficznym kodowaniem przy użyciu Aspose.Words dla .NET. Ta potężna biblioteka sprawia, że obsługa różnych kodowań tekstu jest niezwykle łatwa i zapewnia, że Twoje dokumenty są przetwarzane poprawnie. Niezależnie od tego, czy masz do czynienia ze starszymi dokumentami, czy pracujesz z tekstem międzynarodowym, Aspose.Words ma dla Ciebie rozwiązanie.
 
 ## Najczęściej zadawane pytania
 
@@ -84,20 +86,25 @@ I masz! Udało Ci się załadować dokument Worda ze specyficznym kodowaniem prz
 UTF-7 (7-bit Unicode Transformation Format) to kodowanie zaprojektowane do reprezentacji tekstu Unicode za pomocą sekwencji znaków ASCII.
 
 ### Czy mogę używać innych kodowań z Aspose.Words?
- Tak, Aspose.Words obsługuje różne kodowania, takie jak UTF-8, UTF-16 i inne. Wystarczy ustawić`Encoding` nieruchomość w`LoadOptions` odpowiednio.
+Tak, Aspose.Words obsługuje różne kodowania, takie jak UTF-8, UTF-16 i inne. Wystarczy ustawić `Encoding` nieruchomość w `LoadOptions` odpowiednio.
 
 ### Czy korzystanie z Aspose.Words jest bezpłatne?
- Postawić.Words oferuje bezpłatną wersję próbną, którą możesz pobrać[Tutaj](https://releases.aspose.com/)Aby uzyskać dostęp do pełnej funkcjonalności, należy zakupić licencję od[Aspose](https://purchase.aspose.com/buy).
+Aspose.Words oferuje bezpłatną wersję próbną, którą możesz pobrać [Tutaj](https://releases.aspose.com/)Aby uzyskać dostęp do pełnej funkcjonalności, należy zakupić licencję od [Postawić](https://purchase.aspose.com/buy).
 
 ### Czy mogę ładować dokumenty ze strumienia zamiast ze ścieżki pliku?
- Oczywiście! Aspose.Words obsługuje ładowanie dokumentów ze strumieni. Wystarczy przekazać strumieniowi i opcje ładowania do`Document` konstruktor.
+Oczywiście! Aspose.Words obsługuje ładowanie dokumentów ze strumieni. Wystarczy przekazać strumieniowi i opcje ładowania do `Document` konstruktor.
 
 ### Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?
- Możesz odwiedzić[Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8) Aby uzyskać pomoc, skontaktuj się ze społecznością i zespołem wsparcia Aspose.
+Możesz odwiedzić [Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8) Aby uzyskać pomoc, skontaktuj się ze społecznością i zespołem wsparcia Aspose.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

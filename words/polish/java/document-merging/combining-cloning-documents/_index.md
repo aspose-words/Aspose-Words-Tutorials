@@ -1,14 +1,16 @@
 ---
-title: Łączenie i klonowanie dokumentów
-linktitle: Łączenie i klonowanie dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak bez wysiłku łączyć i klonować dokumenty w Javie za pomocą Aspose.Words. Ten przewodnik krok po kroku obejmuje wszystko, co musisz wiedzieć.
-weight: 10
-url: /pl/java/document-merging/combining-cloning-documents/
+"description": "Dowiedz się, jak bez wysiłku łączyć i klonować dokumenty w Javie za pomocą Aspose.Words. Ten przewodnik krok po kroku obejmuje wszystko, co musisz wiedzieć."
+"linktitle": "Łączenie i klonowanie dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Łączenie i klonowanie dokumentów"
+"url": "/pl/java/document-merging/combining-cloning-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Łączenie i klonowanie dokumentów
@@ -47,7 +49,7 @@ public class DocumentCombination {
 
 ## Krok 2: Załaduj dokumenty źródłowe
 
- Następnie musisz załadować dokumenty źródłowe, które chcesz połączyć. Możesz załadować wiele dokumentów do oddzielnych wystąpień`Document` klasa.
+Następnie musisz załadować dokumenty źródłowe, które chcesz połączyć. Możesz załadować wiele dokumentów do oddzielnych wystąpień `Document` klasa.
 
 ```java
 // Załaduj dokumenty źródłowe
@@ -146,7 +148,7 @@ Tak, Aspose.Words obsługuje łączenie dokumentów o różnych formatach. Zacho
 
 ### Czy Aspose.Words nadaje się do pracy z dużymi dokumentami?
 
-Tak, Aspose.Words jest zoptymalizowany do pracy z dużymi dokumentami. Jednak aby zapewnić optymalną wydajność, należy stosować najlepsze praktyki, takie jak używanie wydajnych algorytmów i zarządzanie zasobami pamięci.
+Tak, Aspose.Words jest zoptymalizowany do pracy z dużymi dokumentami. Jednak, aby zapewnić optymalną wydajność, postępuj zgodnie z najlepszymi praktykami, takimi jak używanie wydajnych algorytmów i zarządzanie zasobami pamięci.
 
 ### Czy mogę zastosować niestandardowy styl do klonowanych dokumentów?
 
@@ -154,10 +156,15 @@ Oczywiście! Aspose.Words pozwala na stosowanie niestandardowego stylu i formato
 
 ### Gdzie mogę znaleźć więcej materiałów i dokumentacji dla Aspose.Words dla Java?
 
- Pełną dokumentację i dodatkowe zasoby dla Aspose.Words for Java można znaleźć pod adresem[Tutaj](https://reference.aspose.com/words/java/).
+Pełną dokumentację i dodatkowe zasoby dla Aspose.Words for Java można znaleźć pod adresem [Tutaj](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

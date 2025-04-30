@@ -1,14 +1,16 @@
 ---
-title: Abaikan Teks Di Dalam Hapus Revisi
-linktitle: Abaikan Teks Di Dalam Hapus Revisi
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menangani revisi terlacak dalam dokumen Word menggunakan Aspose.Words untuk .NET. Kuasai otomatisasi dokumen dengan tutorial komprehensif ini.
-weight: 10
-url: /id/net/find-and-replace-text/ignore-text-inside-delete-revisions/
+"description": "Pelajari cara menangani revisi terlacak dalam dokumen Word menggunakan Aspose.Words untuk .NET. Kuasai otomatisasi dokumen dengan tutorial komprehensif ini."
+"linktitle": "Abaikan Teks Di Dalam Hapus Revisi"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Abaikan Teks Di Dalam Hapus Revisi"
+"url": "/id/net/find-and-replace-text/ignore-text-inside-delete-revisions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Abaikan Teks Di Dalam Hapus Revisi
@@ -22,8 +24,8 @@ Dalam bidang pengembangan .NET, Aspose.Words menonjol sebagai pustaka yang tangg
 Sebelum menyelami tutorial ini, pastikan Anda memiliki prasyarat berikut:
 - Pengetahuan dasar tentang bahasa pemrograman C#.
 - Visual Studio terinstal di sistem Anda.
--  Pustaka Aspose.Words untuk .NET terintegrasi ke dalam proyek Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
--  Akses ke Aspose.Words untuk .NET[dokumentasi](https://reference.aspose.com/words/net/) untuk referensi.
+- Pustaka Aspose.Words untuk .NET terintegrasi ke dalam proyek Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
+- Akses ke Aspose.Words untuk .NET [dokumentasi](https://reference.aspose.com/words/net/) untuk referensi.
 
 ## Mengimpor Ruang Nama
 
@@ -36,7 +38,7 @@ using Aspose.Words.Replacing;
 ```
 ## Langkah 1: Buat Dokumen Baru dan Masukkan Teks
 
- Pertama, inisialisasikan instance baru dari`Document` dan sebuah`DocumentBuilder` untuk mulai membangun dokumen Anda:
+Pertama, inisialisasikan instance baru dari `Document` dan sebuah `DocumentBuilder` untuk mulai membangun dokumen Anda:
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -90,11 +92,16 @@ Ya, Anda dapat mengelola dan mengembalikan revisi terlacak secara terprogram men
 Aspose.Words untuk .NET dioptimalkan untuk menangani dokumen besar secara efisien, termasuk dokumen dengan revisi terlacak yang ekstensif.
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Words untuk .NET?
- Anda dapat menjelajahi dokumentasi yang komprehensif dan mendapatkan dukungan dari komunitas Aspose.Words untuk .NET di[Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+Anda dapat menjelajahi dokumentasi yang komprehensif dan mendapatkan dukungan dari komunitas Aspose.Words untuk .NET di [Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

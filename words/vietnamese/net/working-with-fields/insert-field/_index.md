@@ -1,14 +1,16 @@
 ---
-title: Chèn Trường
-linktitle: Chèn Trường
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn trường vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi. Hoàn hảo cho việc tự động hóa tài liệu.
-weight: 10
-url: /vi/net/working-with-fields/insert-field/
+"description": "Tìm hiểu cách chèn trường vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi. Hoàn hảo cho việc tự động hóa tài liệu."
+"linktitle": "Chèn Trường"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn Trường"
+"url": "/vi/net/working-with-fields/insert-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn Trường
@@ -21,10 +23,10 @@ Bạn đã bao giờ thấy mình cần tự động hóa việc tạo và xử 
 
 Trước khi bắt đầu, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 2. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình.
 3. IDE: Môi trường phát triển tích hợp như Visual Studio.
-4.  Giấy phép tạm thời: Bạn có thể xin một giấy phép[đây](https://purchase.aspose.com/temporary-license/).
+4. Giấy phép tạm thời: Bạn có thể xin một giấy phép [đây](https://purchase.aspose.com/temporary-license/).
 
 Hãy đảm bảo bạn đã cài đặt Aspose.Words cho .NET và thiết lập môi trường phát triển của bạn. Sẵn sàng chưa? Hãy bắt đầu thôi!
 
@@ -51,7 +53,7 @@ Khởi động Visual Studio và tạo một dự án C# mới. Bạn có thể 
 
 ### Khởi tạo thư mục tài liệu của bạn
 
- Chúng ta cần một thư mục nơi tài liệu của chúng ta sẽ được lưu. Đối với hướng dẫn này, hãy sử dụng một thư mục giữ chỗ. Thay thế`"YOUR DOCUMENTS DIRECTORY"` bằng đường dẫn thực tế mà bạn muốn lưu tài liệu của mình.
+Chúng ta cần một thư mục nơi tài liệu của chúng ta sẽ được lưu. Đối với hướng dẫn này, hãy sử dụng một thư mục giữ chỗ. Thay thế `"YOUR DOCUMENTS DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tài liệu của mình.
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
@@ -97,8 +99,8 @@ Xin chúc mừng! Bạn vừa học được cách chèn một trường vào t�
 ### Tôi có thể chèn các loại trường khác nhau bằng Aspose.Words cho .NET không?  
 Chắc chắn rồi! Aspose.Words hỗ trợ nhiều trường khác nhau, bao gồm MERGEFIELD, IF, INCLUDETEXT, v.v.
 
-### Tôi có thể định dạng các trường được chèn vào tài liệu của mình như thế nào?  
- Bạn có thể sử dụng công tắc trường để định dạng các trường. Ví dụ:`\* MERGEFORMAT` giữ nguyên định dạng được áp dụng cho trường.
+### Làm thế nào để định dạng các trường được chèn vào tài liệu của tôi?  
+Bạn có thể sử dụng công tắc trường để định dạng các trường. Ví dụ: `\* MERGEFORMAT` giữ nguyên định dạng được áp dụng cho trường.
 
 ### Aspose.Words cho .NET có tương thích với .NET Core không?  
 Có, Aspose.Words cho .NET tương thích với cả .NET Framework và .NET Core.
@@ -107,10 +109,15 @@ Có, Aspose.Words cho .NET tương thích với cả .NET Framework và .NET Cor
 Có, bạn có thể tự động chèn nhiều trường cùng lúc bằng cách lặp qua dữ liệu của mình và sử dụng DocumentBuilder để chèn các trường theo chương trình.
 
 ### Tôi có thể tìm tài liệu chi tiết hơn về Aspose.Words cho .NET ở đâu?  
- Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu toàn diện [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Manipulowanie nagłówkami i stopkami w dokumentach Word
-linktitle: Manipulowanie nagłówkami i stopkami w dokumentach Word
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Naucz się manipulować nagłówkami i stopkami w dokumentach Worda za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym do dostosowywania, dodawania, usuwania i nie tylko. Ulepsz formatowanie swojego dokumentu już teraz!
-weight: 16
-url: /pl/python-net/document-structure-and-content-manipulation/document-headers-footers/
+"description": "Naucz się manipulować nagłówkami i stopkami w dokumentach Worda za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym do dostosowywania, dodawania, usuwania i nie tylko. Ulepsz formatowanie swojego dokumentu już teraz!"
+"linktitle": "Manipulowanie nagłówkami i stopkami w dokumentach Word"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Manipulowanie nagłówkami i stopkami w dokumentach Word"
+"url": "/pl/python-net/document-structure-and-content-manipulation/document-headers-footers/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Manipulowanie nagłówkami i stopkami w dokumentach Word
@@ -42,7 +44,7 @@ Aby dodać podstawowy nagłówek i stopkę do dokumentu Word, wykonaj następuj�
 doc = aw.Document()
 ```
 
-2.  Dodawanie nagłówka i stopki: Użyj`sections` właściwości dokumentu, aby uzyskać dostęp do sekcji. Następnie wykorzystaj`headers_footers` właściwość umożliwiająca dodanie nagłówków i stopek.
+2. Dodawanie nagłówka i stopki: Użyj `sections` właściwości dokumentu, aby uzyskać dostęp do sekcji. Następnie skorzystaj z `headers_footers` właściwość umożliwiająca dodanie nagłówków i stopek.
 
 ```python
 section = doc.sections[0]
@@ -118,11 +120,11 @@ section.page_setup.odd_and_even_pages_header_footer = False
 
 ### Jak uzyskać dostęp do zawartości nagłówka i stopki?
 
- Aby uzyskać dostęp do zawartości nagłówka i stopki, użyj`headers_footers` własność sekcji dokumentu.
+Aby uzyskać dostęp do zawartości nagłówka i stopki, użyj `headers_footers` własność sekcji dokumentu.
 
 ### Czy mogę dodawać obrazy do nagłówków i stopek?
 
- Tak, możesz dodawać obrazy do nagłówków i stopek za pomocą`add_picture` metoda.
+Tak, możesz dodawać obrazy do nagłówków i stopek za pomocą `add_picture` metoda.
 
 ### Czy możliwe jest ustawienie różnych nagłówków dla stron parzystych i nieparzystych?
 
@@ -134,11 +136,16 @@ Tak, możesz wyczyścić zawartość nagłówków i stopek, aby skutecznie je us
 
 ### Gdzie mogę dowiedzieć się więcej o Aspose.Words dla języka Python?
 
- Aby uzyskać bardziej szczegółową dokumentację i przykłady, odwiedź stronę[Aspose.Words dla API Pythona](https://reference.aspose.com/words/python-net/).
+Aby uzyskać bardziej szczegółową dokumentację i przykłady, odwiedź stronę [Aspose.Words dla API Pythona](https://reference.aspose.com/words/python-net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

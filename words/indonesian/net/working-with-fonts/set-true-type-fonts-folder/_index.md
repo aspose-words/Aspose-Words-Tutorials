@@ -1,14 +1,16 @@
 ---
-title: Atur Folder Font Jenis Benar
-linktitle: Atur Folder Font Jenis Benar
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengatur folder True Type Fonts dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami, langkah demi langkah untuk memastikan manajemen font yang konsisten.
-weight: 10
-url: /id/net/working-with-fonts/set-true-type-fonts-folder/
+"description": "Pelajari cara mengatur folder True Type Fonts dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami, langkah demi langkah untuk memastikan manajemen font yang konsisten."
+"linktitle": "Atur Folder Font Jenis Benar"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Atur Folder Font Jenis Benar"
+"url": "/id/net/working-with-fonts/set-true-type-fonts-folder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Atur Folder Font Jenis Benar
@@ -21,7 +23,7 @@ Kami menyelami dunia manajemen font yang menarik dalam dokumen Word menggunakan 
 
 Sebelum kita masuk ke inti permasalahan, mari kita bahas beberapa prasyarat untuk memastikan Anda siap meraih kesuksesan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal versi terbaru. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal versi terbaru. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan .NET yang berfungsi, seperti Visual Studio.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan sangat membantu.
 4. Contoh Dokumen: Siapkan dokumen Word yang ingin Anda kerjakan.
@@ -37,7 +39,7 @@ using Aspose.Words.Fonts;
 
 ## Langkah 1: Muat Dokumen Anda
 
- Mari kita mulai dengan memuat dokumen Anda. Kami akan menggunakan`Document` kelas dari Aspose.Words untuk memuat dokumen Word yang ada.
+Mari kita mulai dengan memuat dokumen Anda. Kami akan menggunakan `Document` kelas dari Aspose.Words untuk memuat dokumen Word yang ada.
 
 ```csharp
 // Jalur ke direktori dokumen Anda
@@ -48,7 +50,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Langkah 2: Inisialisasi FontSettings
 
- Selanjutnya, kita akan membuat sebuah instance dari`FontSettings`Kelas ini memungkinkan kita untuk menyesuaikan bagaimana font ditangani dalam dokumen kita.
+Selanjutnya, kita akan membuat sebuah instance dari `FontSettings` Kelas ini memungkinkan kita untuk menyesuaikan bagaimana font ditangani dalam dokumen kita.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -83,27 +85,32 @@ doc.Save(dataDir + "WorkingWithFonts.SetTrueTypeFontsFolder.pdf");
 
 ## Kesimpulan
 
-Nah, itu dia! Anda telah berhasil menyiapkan folder True Type Fonts untuk dokumen Word Anda menggunakan Aspose.Words for .NET. Ini memastikan bahwa dokumen Anda terlihat konsisten dan profesional di semua platform. Manajemen font merupakan aspek penting dalam pembuatan dokumen, dan dengan Aspose.Words, ini sangat mudah.
+Nah, itu dia! Anda telah berhasil menyiapkan folder True Type Fonts untuk dokumen Word Anda menggunakan Aspose.Words untuk .NET. Ini memastikan bahwa dokumen Anda terlihat konsisten dan profesional di semua platform. Manajemen font merupakan aspek penting dalam pembuatan dokumen, dan dengan Aspose.Words, ini sangat mudah.
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menggunakan beberapa folder font?
- Ya, Anda dapat menggunakan beberapa folder font dengan menggabungkan`FontSettings.GetFontSources` Dan`FontSettings.SetFontSources`.
+Ya, Anda dapat menggunakan beberapa folder font dengan menggabungkan `FontSettings.GetFontSources` Dan `FontSettings.SetFontSources`.
 
 ### Bagaimana jika folder font yang ditentukan tidak ada?
 Jika folder font yang ditentukan tidak ada, Aspose.Words tidak akan dapat menemukan font tersebut, dan font sistem default akan digunakan sebagai gantinya.
 
 ### Bisakah saya kembali ke pengaturan font default?
- Ya, Anda dapat kembali ke pengaturan font default dengan mengatur ulang`FontSettings` contoh.
+Ya, Anda dapat kembali ke pengaturan font default dengan mengatur ulang `FontSettings` contoh.
 
 ### Bisakah font ditanamkan ke dalam dokumen?
 Ya, Aspose.Words memungkinkan Anda untuk menyematkan font dalam dokumen untuk memastikan konsistensi di berbagai perangkat.
 
 ### Dalam format apa saya dapat menyimpan dokumen saya?
 Aspose.Words mendukung berbagai format termasuk PDF, DOCX, HTML, dan banyak lagi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

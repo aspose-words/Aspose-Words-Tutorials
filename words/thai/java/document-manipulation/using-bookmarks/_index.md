@@ -1,14 +1,16 @@
 ---
-title: การใช้ Bookmarks ใน Aspose.Words สำหรับ Java
-linktitle: การใช้บุ๊กมาร์ก
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เพิ่มประสิทธิภาพการประมวลผลเอกสารของคุณด้วย Aspose.Words สำหรับ Java เรียนรู้การใช้บุ๊กมาร์กเพื่อการนำทางและการจัดการเนื้อหาอย่างมีประสิทธิภาพในคู่มือทีละขั้นตอนนี้
-weight: 17
-url: /th/java/document-manipulation/using-bookmarks/
+"description": "เพิ่มประสิทธิภาพการประมวลผลเอกสารของคุณด้วย Aspose.Words สำหรับ Java เรียนรู้การใช้บุ๊กมาร์กเพื่อการนำทางและการจัดการเนื้อหาอย่างมีประสิทธิภาพในคู่มือทีละขั้นตอนนี้"
+"linktitle": "การใช้บุ๊กมาร์ก"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การใช้ Bookmarks ใน Aspose.Words สำหรับ Java"
+"url": "/th/java/document-manipulation/using-bookmarks/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การใช้ Bookmarks ใน Aspose.Words สำหรับ Java
@@ -30,7 +32,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.startBookmark("My Bookmark");
 builder.writeln("Text inside a bookmark.");
 
-//สิ้นสุดการคั่นหน้า
+// สิ้นสุดการคั่นหน้า
 builder.endBookmark("My Bookmark");
 ```
 
@@ -86,7 +88,7 @@ doc.save("Your Directory Path" + "WorkingWithBookmarks.ShowHideBookmarks.docx");
 
 ## ขั้นตอนที่ 6: คลายแถวที่คั่นหนังสือ
 
-การคลายปมคั่นหน้าแถวช่วยให้คุณทำงานกับบุ๊กมาร์กได้อย่างมีประสิทธิภาพมากขึ้น:
+การคลายปมคั่นแถวจะช่วยให้คุณทำงานกับบุ๊กมาร์กได้อย่างมีประสิทธิภาพมากขึ้น:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table column bookmarks.docx");
@@ -103,11 +105,11 @@ doc.save("Your Directory Path" + "WorkingWithBookmarks.UntangleRowBookmarks.docx
 
 ### ฉันจะสร้างบุ๊กมาร์กในเซลล์ตารางได้อย่างไร?
 
- ในการสร้างบุ๊กมาร์กในเซลล์ตาราง ให้ใช้`DocumentBuilder` คลาสและเริ่มต้นและสิ้นสุดบุ๊กมาร์กภายในเซลล์
+ในการสร้างบุ๊กมาร์กในเซลล์ตาราง ให้ใช้ `DocumentBuilder` คลาสและเริ่มต้นและสิ้นสุดบุ๊กมาร์กภายในเซลล์
 
 ### ฉันสามารถคัดลอกบุ๊กมาร์กไปยังเอกสารอื่นได้หรือไม่
 
- ใช่ คุณสามารถคัดลอกบุ๊กมาร์กไปยังเอกสารอื่นโดยใช้`NodeImporter` คลาสเพื่อให้มั่นใจว่าการจัดรูปแบบได้รับการรักษาไว้
+ใช่ คุณสามารถคัดลอกบุ๊กมาร์กไปยังเอกสารอื่นโดยใช้ `NodeImporter` คลาสเพื่อให้มั่นใจว่าการจัดรูปแบบได้รับการรักษาไว้
 
 ### ฉันจะลบแถวโดยคั่นหน้าไว้ได้อย่างไร?
 
@@ -119,10 +121,15 @@ doc.save("Your Directory Path" + "WorkingWithBookmarks.UntangleRowBookmarks.docx
 
 ### ฉันสามารถหาข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ Java ได้ที่ไหน
 
- สำหรับเอกสารรายละเอียดและดาวน์โหลด โปรดไปที่[เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/).
+สำหรับเอกสารรายละเอียดและดาวน์โหลด โปรดไปที่ [เอกสาร Aspose.Words สำหรับ Java](https://reference-aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

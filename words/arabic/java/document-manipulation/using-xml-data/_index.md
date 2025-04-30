@@ -1,27 +1,29 @@
 ---
-title: استخدام بيانات XML في Aspose.Words للغة Java
-linktitle: استخدام بيانات XML
-second_title: واجهة برمجة تطبيقات معالجة المستندات في Java Aspose.Words
-description: اكتشف قوة Aspose.Words للغة Java. تعلَّم كيفية التعامل مع بيانات XML ودمج المراسلات وقواعد Mustache من خلال دروس تعليمية خطوة بخطوة.
-weight: 12
-url: /ar/java/document-manipulation/using-xml-data/
+"description": "اكتشف قوة Aspose.Words في جافا. تعلّم معالجة بيانات XML، ودمج المراسلات، وقواعد Mustache من خلال دروس تعليمية خطوة بخطوة."
+"linktitle": "استخدام بيانات XML"
+"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
+"title": "استخدام بيانات XML في Aspose.Words للغة Java"
+"url": "/ar/java/document-manipulation/using-xml-data/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # استخدام بيانات XML في Aspose.Words للغة Java
 
 
-## مقدمة حول استخدام بيانات XML في Aspose.Words للغة Java
+## مقدمة لاستخدام بيانات XML في Aspose.Words لـ Java
 
-في هذا الدليل، سنستكشف كيفية العمل مع بيانات XML باستخدام Aspose.Words for Java. ستتعلم كيفية إجراء عمليات دمج البريد، بما في ذلك عمليات دمج البريد المتداخلة، واستخدام صيغة Mustache مع مجموعة بيانات. سنقدم تعليمات خطوة بخطوة وأمثلة على التعليمات البرمجية المصدر لمساعدتك في البدء.
+في هذا الدليل، سنستكشف كيفية التعامل مع بيانات XML باستخدام Aspose.Words لجافا. ستتعلم كيفية إجراء عمليات دمج البريد، بما في ذلك دمج البريد المتداخل، واستخدام صيغة Mustache مع مجموعة بيانات. سنقدم لك تعليمات خطوة بخطوة وأمثلة على الكود المصدري لمساعدتك على البدء.
 
 ## المتطلبات الأساسية
 
 قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
-- [كلمات Aspose.Words للغة جافا](https://products.aspose.com/words/java/) تم تثبيته.
+- [كلمات Aspose لجافا](https://products.aspose.com/words/java/) تم تثبيته.
 - ملفات بيانات XML نموذجية للعملاء والطلبات والبائعين.
 - نماذج لمستندات Word لوجهات دمج البريد.
 
@@ -67,7 +69,7 @@ doc.save("Your Directory Path" + "MustacheSyntaxUsingDataSet.docx");
 
 ## خاتمة
 
-في هذا الدليل الشامل، استكشفنا كيفية استخدام بيانات XML بفعالية مع Aspose.Words for Java. لقد تعلمت كيفية إجراء عمليات دمج بريدية مختلفة، بما في ذلك دمج البريد الأساسي، ودمج البريد المتداخل، وكيفية الاستفادة من بناء جملة Mustache مع مجموعة بيانات. تمكنك هذه التقنيات من أتمتة إنشاء المستندات وتخصيصها بسهولة.
+في هذا الدليل الشامل، استكشفنا كيفية استخدام بيانات XML بفعالية مع Aspose.Words لجافا. تعلمت كيفية إجراء عمليات دمج بريد متنوعة، بما في ذلك دمج البريد الأساسي، ودمج البريد المتداخل، وكيفية استخدام صيغة Mustache مع مجموعة بيانات. تُمكّنك هذه التقنيات من أتمتة إنشاء المستندات وتخصيصها بسهولة.
 
 ## الأسئلة الشائعة
 
@@ -75,16 +77,21 @@ doc.save("Your Directory Path" + "MustacheSyntaxUsingDataSet.docx");
 
 تأكد من أن بيانات XML الخاصة بك تتبع الهيكل المطلوب، مع تحديد الجداول والعلاقات، كما هو موضح في الأمثلة المقدمة.
 
-### هل يمكنني تخصيص سلوك التقليم لقيم دمج البريد؟
+### هل يمكنني تخصيص سلوك القطع لقيم دمج البريد؟
 
- نعم، يمكنك التحكم فيما إذا كان سيتم تقليم المسافات البادئة واللاحقة أثناء دمج البريد باستخدام`doc.getMailMerge().setTrimWhitespaces(false)`.
+نعم، يمكنك التحكم فيما إذا كان سيتم تقليم المسافات البادئة واللاحقة أثناء دمج البريد باستخدام `doc.getMailMerge().setTrimWhitespaces(false)`.
 
-### ما هو بناء جملة Mustache، ومتى يجب أن أستخدمه؟
+### ما هو تركيب الشارب ومتى يجب أن أستخدمه؟
 
- يتيح لك بناء جملة Mustache تنسيق حقول دمج البريد بطريقة أكثر مرونة. استخدم`doc.getMailMerge().setUseNonMergeFields(true)` لتفعيل صيغة Mustache.
+يتيح لك بناء جملة Mustache تنسيق حقول دمج البريد بطريقة أكثر مرونة. استخدم `doc.getMailMerge().setUseNonMergeFields(true)` لتفعيل صيغة Mustache.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

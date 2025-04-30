@@ -1,14 +1,16 @@
 ---
-title: Bir Grafikteki Tek Bir Grafik Veri Noktasını Özelleştirin
-linktitle: Bir Grafikteki Tek Bir Grafik Veri Noktasını Özelleştirin
-second_title: Aspose.Words Belge İşleme API'si
-description: Ayrıntılı adım adım bir kılavuzda Aspose.Words for .NET kullanarak tek grafik veri noktalarını nasıl özelleştireceğinizi öğrenin. Grafiklerinizi benzersiz işaretleyiciler ve boyutlarla geliştirin.
-weight: 10
-url: /tr/net/programming-with-charts/single-chart-data-point/
+"description": "Ayrıntılı adım adım bir kılavuzda Aspose.Words for .NET kullanarak tek grafik veri noktalarını nasıl özelleştireceğinizi öğrenin. Grafiklerinizi benzersiz işaretleyiciler ve boyutlarla geliştirin."
+"linktitle": "Bir Grafikteki Tek Bir Grafik Veri Noktasını Özelleştirin"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Bir Grafikteki Tek Bir Grafik Veri Noktasını Özelleştirin"
+"url": "/tr/net/programming-with-charts/single-chart-data-point/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bir Grafikteki Tek Bir Grafik Veri Noktasını Özelleştirin
@@ -21,7 +23,7 @@ Grafiklerinizin benzersiz veri noktalarıyla nasıl öne çıkabileceğini hiç 
 
 Başlamadan önce, tüm temel unsurların yerinde olduğundan emin olalım:
 
--  Aspose.Words for .NET Kütüphanesi: En son sürüme sahip olduğunuzdan emin olun.[Buradan indirin](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET Kütüphanesi: En son sürüme sahip olduğunuzdan emin olun. [Buradan indirin](https://releases.aspose.com/words/net/).
 - .NET Framework: Bilgisayarınızda .NET Framework'ün yüklü olduğundan emin olun.
 - C# Temel Anlayışı: C# programlamanın temellerine hakim olmak faydalı olacaktır.
 - Entegre Geliştirme Ortamı (IDE): Visual Studio önerilir.
@@ -38,7 +40,7 @@ using Aspose.Words.Drawing.Charts;
 
 ## Adım 1: Belgeyi ve Belge Oluşturucuyu Başlatın
 
-Tamam, yeni bir belge ve bir DocumentBuilder başlatarak başlayalım. Bu, grafiğimizin tuvali olacak.
+Tamam, yeni bir belge ve bir DocumentBuilder başlatarak başlayalım. Bu, grafiğimiz için tuval olacak.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -46,7 +48,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Burada,`dataDir` belgenizi kaydedeceğiniz dizin yoludur.`DocumentBuilder` sınıf belgenin oluşturulmasına yardımcı olur.
+Burada, `dataDir` belgenizi kaydedeceğiniz dizin yoludur. `DocumentBuilder` sınıf belgenin oluşturulmasına yardımcı olur.
 
 ## Adım 2: Bir Grafik Ekle
 
@@ -57,7 +59,7 @@ Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
 Chart chart = shape.Chart;
 ```
 
- The`InsertChart` method, parametre olarak grafik türünü, genişliğini ve yüksekliğini alır. Bu durumda, genişliği 432 ve yüksekliği 252 olan bir çizgi grafiği ekliyoruz.
+The `InsertChart` method, parametre olarak grafik türünü, genişliğini ve yüksekliğini alır. Bu durumda, genişliği 432 ve yüksekliği 252 olan bir çizgi grafiği ekliyoruz.
 
 ## Adım 3: Grafik Serisine Erişim
 
@@ -90,7 +92,7 @@ dataPoint00.Marker.Symbol = MarkerSymbol.Circle;
 dataPoint00.Marker.Size = 15;
 ```
 
- İçin`dataPoint00`, bir patlama ayarlıyoruz (pasta grafikleri için kullanışlıdır), işaretçi simgesini daireye değiştiriyoruz ve işaretçi boyutunu 15 olarak ayarlıyoruz.
+İçin `dataPoint00`, bir patlama ayarlıyoruz (pasta grafikleri için kullanışlıdır), işaretçi simgesini daireye değiştiriyoruz ve işaretçi boyutunu 15 olarak ayarlıyoruz.
 
 ### Veri Noktasını Özelleştir 01
 
@@ -99,7 +101,7 @@ dataPoint01.Marker.Symbol = MarkerSymbol.Diamond;
 dataPoint01.Marker.Size = 20;
 ```
 
- İçin`dataPoint01`, işaretçi sembolünü elmasa değiştiriyoruz ve işaretçi boyutunu 20 olarak ayarlıyoruz.
+İçin `dataPoint01`, işaretçi sembolünü elmasa değiştiriyoruz ve işaretçi boyutunu 20 olarak ayarlıyoruz.
 
 ### Seri 1'deki Veri Noktasını Özelleştir
 
@@ -110,7 +112,7 @@ dataPoint12.Marker.Symbol = MarkerSymbol.Star;
 dataPoint12.Marker.Size = 20;
 ```
 
- Üçüncü veri noktası için`series1`, değer negatifse ters çevirmeye, işaretleyici sembolünü yıldıza değiştirmeye ve işaretleyici boyutunu 20'ye ayarlıyoruz.
+Üçüncü veri noktası için `series1`, değer negatifse ters çevirmeye, işaretleyici sembolünü yıldıza değiştirmeye ve işaretleyici boyutunu 20'ye ayarlıyoruz.
 
 ## Adım 5: Belgeyi Kaydedin
 
@@ -120,11 +122,11 @@ Son olarak, tüm özelleştirmelerimizle birlikte belgemizi kaydedelim.
 doc.Save(dataDir + "WorkingWithCharts.SingleChartDataPoint.docx");
 ```
 
- Bu satır belgeyi belirtilen dizine şu adla kaydeder:`WorkingWithCharts.SingleChartDataPoint.docx`.
+Bu satır belgeyi belirtilen dizine şu adla kaydeder: `WorkingWithCharts.SingleChartDataPoint.docx`.
 
 ## Çözüm
 
-İşte karşınızda! Aspose.Words for .NET kullanarak bir grafikteki bireysel veri noktalarını başarıyla özelleştirdiniz. Birkaç özelliği değiştirerek grafiklerinizi çok daha bilgilendirici ve görsel olarak çekici hale getirebilirsiniz. Bu yüzden, devam edin ve verileriniz için en iyi sonucu veren şeyi görmek üzere farklı işaretçiler ve boyutlarla denemeler yapın.
+İşte oldu! Aspose.Words for .NET kullanarak bir grafikteki bireysel veri noktalarını başarıyla özelleştirdiniz. Birkaç özelliği değiştirerek grafiklerinizi çok daha bilgilendirici ve görsel olarak çekici hale getirebilirsiniz. Bu yüzden, devam edin ve verileriniz için en iyi neyin işe yaradığını görmek için farklı işaretçiler ve boyutlarla denemeler yapın.
 
 ## SSS
 
@@ -134,11 +136,11 @@ Kesinlikle! Çubuk grafikler, pasta grafikler ve daha fazlası dahil olmak üzer
 
 ### Veri noktalarına özel etiketler eklemek mümkün müdür?
 
- Evet, veri noktalarına özel etiketler ekleyebilirsiniz.`ChartDataPoint.Label` özellik. Bu, her veri noktası için daha fazla bağlam sağlamanıza olanak tanır.
+Evet, veri noktalarına özel etiketler ekleyebilirsiniz. `ChartDataPoint.Label` özellik. Bu, her veri noktası için daha fazla bağlam sağlamanıza olanak tanır.
 
 ### Bir seriden veri noktasını nasıl kaldırabilirim?
 
- Görünürlüğünü false olarak ayarlayarak bir veri noktasını kaldırabilirsiniz.`dataPoint.IsVisible = false`.
+Görünürlüğünü false olarak ayarlayarak bir veri noktasını kaldırabilirsiniz. `dataPoint.IsVisible = false`.
 
 ### Veri noktaları için işaretçi olarak görselleri kullanabilir miyim?
 
@@ -147,9 +149,14 @@ Aspose.Words, görselleri doğrudan işaretçi olarak kullanmayı desteklemese d
 ### Grafikteki veri noktalarını canlandırmak mümkün müdür?
 
 Aspose.Words for .NET grafik veri noktaları için animasyonu desteklemez. Ancak, diğer araçları kullanarak animasyonlu grafikler oluşturabilir ve bunları Word belgelerinize gömebilirsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

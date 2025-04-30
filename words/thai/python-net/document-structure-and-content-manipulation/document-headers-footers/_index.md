@@ -1,14 +1,16 @@
 ---
-title: การจัดการส่วนหัวและส่วนท้ายในเอกสาร Word
-linktitle: การจัดการส่วนหัวและส่วนท้ายในเอกสาร Word
-second_title: API การจัดการเอกสาร Aspose.Words Python
-description: เรียนรู้การจัดการส่วนหัวและส่วนท้ายในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการปรับแต่ง การเพิ่ม การลบ และอื่นๆ ปรับปรุงการจัดรูปแบบเอกสารของคุณตอนนี้!
-weight: 16
-url: /th/python-net/document-structure-and-content-manipulation/document-headers-footers/
+"description": "เรียนรู้การจัดการส่วนหัวและส่วนท้ายในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการปรับแต่ง การเพิ่ม การลบ และอื่นๆ ปรับปรุงการจัดรูปแบบเอกสารของคุณตอนนี้!"
+"linktitle": "การจัดการส่วนหัวและส่วนท้ายในเอกสาร Word"
+"second_title": "API การจัดการเอกสาร Aspose.Words Python"
+"title": "การจัดการส่วนหัวและส่วนท้ายในเอกสาร Word"
+"url": "/th/python-net/document-structure-and-content-manipulation/document-headers-footers/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การจัดการส่วนหัวและส่วนท้ายในเอกสาร Word
@@ -42,7 +44,7 @@ import aspose.words as aw
 doc = aw.Document()
 ```
 
-2.  การเพิ่มส่วนหัวและส่วนท้าย: ใช้`sections` คุณสมบัติของเอกสารในการเข้าถึงส่วนต่างๆ จากนั้นใช้`headers_footers` คุณสมบัติในการเพิ่มส่วนหัวและส่วนท้าย
+2. การเพิ่มส่วนหัวและส่วนท้าย: ใช้ `sections` คุณสมบัติของเอกสารในการเข้าถึงส่วนต่างๆ จากนั้นใช้ `headers_footers` คุณสมบัติในการเพิ่มส่วนหัวและส่วนท้าย
 
 ```python
 section = doc.sections[0]
@@ -118,11 +120,11 @@ section.page_setup.odd_and_even_pages_header_footer = False
 
 ### ฉันจะเข้าถึงเนื้อหาส่วนหัวและส่วนท้ายได้อย่างไร
 
- หากต้องการเข้าถึงเนื้อหาส่วนหัวและส่วนท้าย ให้ใช้`headers_footers` คุณสมบัติของส่วนของเอกสาร
+หากต้องการเข้าถึงเนื้อหาส่วนหัวและส่วนท้าย ให้ใช้ `headers_footers` คุณสมบัติของส่วนของเอกสาร
 
 ### ฉันสามารถเพิ่มรูปภาพลงในส่วนหัวและส่วนท้ายได้หรือไม่
 
- ใช่ คุณสามารถเพิ่มรูปภาพลงในส่วนหัวและส่วนท้ายได้โดยใช้`add_picture` วิธี.
+ใช่ คุณสามารถเพิ่มรูปภาพลงในส่วนหัวและส่วนท้ายได้โดยใช้ `add_picture` วิธี.
 
 ### เป็นไปได้ไหมที่จะมีส่วนหัวที่ต่างกันสำหรับหน้าคี่และหน้าคู่?
 
@@ -134,11 +136,16 @@ section.page_setup.odd_and_even_pages_header_footer = False
 
 ### ฉันสามารถเรียนรู้เพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ Python ได้จากที่ใด
 
- สำหรับเอกสารและตัวอย่างโดยละเอียดเพิ่มเติม โปรดไปที่[เอกสารอ้างอิง API Aspose.Words สำหรับ Python](https://reference.aspose.com/words/python-net/).
+สำหรับเอกสารและตัวอย่างโดยละเอียดเพิ่มเติม โปรดไปที่ [เอกสารอ้างอิง API Aspose.Words สำหรับ Python](https://reference-aspose.com/words/python-net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

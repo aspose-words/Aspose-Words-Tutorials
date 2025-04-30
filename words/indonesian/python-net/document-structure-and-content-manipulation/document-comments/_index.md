@@ -1,14 +1,16 @@
 ---
-title: Memanfaatkan Fitur Komentar dalam Dokumen Word
-linktitle: Memanfaatkan Fitur Komentar dalam Dokumen Word
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari cara memanfaatkan fitur komentar di Dokumen Word menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber. Tingkatkan kolaborasi dan sederhanakan ulasan dalam dokumen.
-weight: 11
-url: /id/python-net/document-structure-and-content-manipulation/document-comments/
+"description": "Pelajari cara memanfaatkan fitur komentar di Dokumen Word menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber. Tingkatkan kolaborasi dan sederhanakan ulasan dalam dokumen."
+"linktitle": "Memanfaatkan Fitur Komentar dalam Dokumen Word"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Memanfaatkan Fitur Komentar dalam Dokumen Word"
+"url": "/id/python-net/document-structure-and-content-manipulation/document-comments/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Memanfaatkan Fitur Komentar dalam Dokumen Word
@@ -22,7 +24,7 @@ Kolaborasi merupakan aspek mendasar dari pembuatan dokumen, dan komentar menyedi
 
 ## Menyiapkan Aspose.Words untuk Python
 
- Untuk memulai, Anda perlu menginstal Aspose.Words untuk Python. Anda dapat mengunduh pustaka dari[Aspose.Words untuk Python](https://releases.aspose.com/words/python/) tautan unduhan. Setelah diunduh, Anda dapat menginstalnya menggunakan pip:
+Untuk memulai, Anda perlu menginstal Aspose.Words untuk Python. Anda dapat mengunduh pustaka dari  [Aspose.Words untuk Python](https://releases.aspose.com/words/python/) tautan unduhan. Setelah diunduh, Anda dapat menginstalnya menggunakan pip:
 
 ```python
 pip install aspose-words
@@ -35,17 +37,17 @@ Menambahkan komentar ke dokumen Word menggunakan Aspose.Words untuk Python sanga
 ```python
 import aspose.words as aw
 
-# Load the document
+# Muat dokumen
 doc = aw.Document("example.docx")
 
-# Add a comment
+# Tambahkan komentar
 comment = aw.Comment(doc, "John Doe", "This is a valuable insight.")
 comment.author = "John Doe"
 comment.text = "This is a valuable insight."
 comment_date = aw.DateTime.now()
 comment.date_time = comment_date
 
-# Insert the comment
+# Masukkan komentar
 paragraph = doc.first_section.body.first_paragraph
 run = paragraph.runs[0]
 run.insert_comment(comment)
@@ -53,7 +55,7 @@ run.insert_comment(comment)
 
 ## Mengambil Komentar dari Dokumen
 
-Mengambil komentar dari sebuah dokumen juga mudah. Anda dapat menelusuri komentar dalam sebuah dokumen dan mengakses propertinya:
+Mengambil komentar dari sebuah dokumen juga mudah. Anda dapat mengulang komentar dalam sebuah dokumen dan mengakses propertinya:
 
 ```python
 for comment in doc.comments:
@@ -67,21 +69,21 @@ for comment in doc.comments:
 Komentar sering kali dapat berubah. Aspose.Words untuk Python memungkinkan Anda untuk mengubah komentar yang ada dan menandainya sebagai selesai:
 
 ```python
-# Modify a comment's text
+# Mengubah teks komentar
 comment = doc.comments[0]
 comment.text = "Updated insight: " + comment.text
 
-# Resolve a comment
+# Menyelesaikan komentar
 comments = doc.get_child_nodes(aw.NodeType.COMMENT, True)
 
 parent_comment = comments[0].as_comment()
 for child in parent_comment.replies:
 	child_comment = child.as_comment()
-	# Get comment parent and status.
+	# Dapatkan komentar induk dan status.
 	print(child_comment.ancestor.id)
 	print(child_comment.done)
 
-	# And update comment Done mark.
+	# Dan perbarui komentar tanda Selesai.
 	child_comment.done = True
 ```
 
@@ -90,7 +92,7 @@ for child in parent_comment.replies:
 Memformat komentar akan meningkatkan visibilitasnya. Anda dapat menerapkan pemformatan pada komentar menggunakan Aspose.Words untuk Python:
 
 ```python
-# Apply formatting to a comment
+# Terapkan pemformatan ke komentar
 comment = doc.comments[0]
 comment.runs[0].font.bold = True
 comment.runs[0].font.color = aw.Color.red
@@ -101,7 +103,7 @@ comment.runs[0].font.color = aw.Color.red
 Komentar dikaitkan dengan penulis. Aspose.Words untuk Python memungkinkan Anda mengelola penulis komentar:
 
 ```python
-# Change the author's name
+# Ubah nama penulis
 comment = doc.comments[0]
 comment.author = "Jane Doe"
 ```
@@ -111,10 +113,10 @@ comment.author = "Jane Doe"
 Komentar dapat diekspor dan diimpor untuk memfasilitasi kolaborasi eksternal:
 
 ```python
-# Export comments to a file
+# Ekspor komentar ke file
 doc.save_comments("comments.xml")
 
-# Import comments from a file
+# Mengimpor komentar dari sebuah file
 doc.import_comments("comments.xml")
 ```
 
@@ -148,14 +150,18 @@ Ya, Anda dapat mengulangi komentar dalam dokumen dan mengambil propertinya mengg
 
 ### Apakah mungkin untuk menyembunyikan atau menampilkan komentar secara terprogram menggunakan API?
 
- Ya, Anda dapat mengontrol visibilitas komentar menggunakan`comment.visible` properti di Aspose.Words untuk Python.
+Ya, Anda dapat mengontrol visibilitas komentar menggunakan `comment.visible` properti di Aspose.Words untuk Python.
 
 ### Apakah Aspose.Words untuk Python mendukung penambahan komentar ke rentang teks tertentu?
 
 Tentu saja, Anda dapat menambahkan komentar ke rentang teks tertentu dalam dokumen menggunakan Aspose.Words untuk API Python yang kaya.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

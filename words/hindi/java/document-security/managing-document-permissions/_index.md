@@ -1,14 +1,16 @@
 ---
-title: दस्तावेज़ अनुमतियाँ प्रबंधित करना
-linktitle: दस्तावेज़ अनुमतियाँ प्रबंधित करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Aspose.Words for Java का उपयोग करके दस्तावेज़ अनुमतियों को प्रभावी ढंग से प्रबंधित करना सीखें। यह व्यापक मार्गदर्शिका चरण-दर-चरण निर्देश और स्रोत कोड उदाहरण प्रदान करती है।
-weight: 11
-url: /hi/java/document-security/managing-document-permissions/
+"description": "Aspose.Words for Java का उपयोग करके दस्तावेज़ अनुमतियों को प्रभावी ढंग से प्रबंधित करना सीखें। यह व्यापक मार्गदर्शिका चरण-दर-चरण निर्देश और स्रोत कोड उदाहरण प्रदान करती है।"
+"linktitle": "दस्तावेज़ अनुमतियाँ प्रबंधित करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "दस्तावेज़ अनुमतियाँ प्रबंधित करना"
+"url": "/hi/java/document-security/managing-document-permissions/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # दस्तावेज़ अनुमतियाँ प्रबंधित करना
@@ -22,7 +24,7 @@ url: /hi/java/document-security/managing-document-permissions/
 
 दस्तावेज़ अनुमतियों को प्रबंधित करने से पहले, आइए Java के लिए Aspose.Words सेट अप करके शुरू करें। आरंभ करने के लिए इन चरणों का पालन करें:
 
-1.  जावा के लिए Aspose.Words डाउनलोड करें: पर जाएँ[https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/)Java के लिए Aspose.Words का नवीनतम संस्करण डाउनलोड करने के लिए.
+1. जावा के लिए Aspose.Words डाउनलोड करें: पर जाएँ [https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/) Java के लिए Aspose.Words का नवीनतम संस्करण डाउनलोड करने के लिए.
 
 2. Java के लिए Aspose.Words स्थापित करें: लाइब्रेरी डाउनलोड करने के बाद, इसे अपने Java विकास वातावरण में स्थापित करने के लिए स्थापना निर्देशों का पालन करें।
 
@@ -100,9 +102,13 @@ doc.save("unprotected_document.docx");
 अब जब आपको Aspose.Words for Java का उपयोग करके दस्तावेज़ अनुमतियों को प्रबंधित करने की ठोस समझ हो गई है, तो इस ज्ञान को व्यवहार में लाने का समय आ गया है। अपनी दस्तावेज़ प्रबंधन प्रक्रियाओं को बेहतर बनाएँ और अपने डेटा को आसानी से सुरक्षित रखें।
 
 याद रखें, दस्तावेज़ सुरक्षा एक सतत प्रक्रिया है, इसलिए सतर्क रहें और अपने मूल्यवान दस्तावेज़ों की सुरक्षा के लिए Aspose.Words for Java द्वारा दी गई शक्तिशाली सुविधाओं का उपयोग करें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

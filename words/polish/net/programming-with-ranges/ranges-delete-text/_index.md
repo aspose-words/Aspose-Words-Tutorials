@@ -1,14 +1,16 @@
 ---
-title: Zakresy Usuń Tekst W Dokumencie Word
-linktitle: Zakresy Usuń Tekst W Dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak usunąć tekst z zakresu w dokumencie Word za pomocą Aspose.Words dla .NET dzięki temu samouczkowi krok po kroku. Idealne dla programistów C#.
-weight: 10
-url: /pl/net/programming-with-ranges/ranges-delete-text/
+"description": "Dowiedz się, jak usunąć tekst z zakresu w dokumencie Word za pomocą Aspose.Words dla .NET dzięki temu samouczkowi krok po kroku. Idealne dla programistów C#."
+"linktitle": "Zakresy Usuń Tekst W Dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zakresy Usuń Tekst W Dokumencie Word"
+"url": "/pl/net/programming-with-ranges/ranges-delete-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zakresy Usuń Tekst W Dokumencie Word
@@ -21,7 +23,7 @@ Jeśli kiedykolwiek zdarzyło Ci się usunąć określone sekcje tekstu w dokume
 
 Zanim przejdziemy do kodowania, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz bibliotekę Aspose.Words dla .NET. Jeśli nie, możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz bibliotekę Aspose.Words dla .NET. Jeśli nie, możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: IDE, np. Visual Studio.
 3. Podstawowa wiedza w języku C#: Pewna znajomość programowania w języku C#.
 
@@ -39,7 +41,7 @@ Teraz podzielimy ten proces na proste kroki.
 
 Najpierw musisz skonfigurować katalog swojego projektu. To tutaj będą znajdować się Twoje dokumenty.
 
-1.  Utwórz katalog: Utwórz folder o nazwie`Documents` w katalogu Twojego projektu.
+1. Utwórz katalog: Utwórz folder o nazwie `Documents` w katalogu Twojego projektu.
 2. Dodaj swój dokument: Umieść dokument Word (`Document.docx`) który chcesz zmodyfikować w tym folderze.
 
 ```csharp
@@ -51,7 +53,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 Następnie musimy załadować dokument Word do naszej aplikacji.
 
-1.  Utwórz instancję dokumentu: Użyj`Document` klasa, aby załadować dokument Word.
+1. Utwórz instancję dokumentu: Użyj `Document` klasa, aby załadować dokument Word.
 2. Podaj ścieżkę: Upewnij się, że podajesz prawidłową ścieżkę do dokumentu.
 
 ```csharp
@@ -63,8 +65,8 @@ Document doc = new Document(dataDir + "Document.docx");
 
 Po załadowaniu dokumentu możemy przystąpić do usuwania tekstu z określonego zakresu — w tym przypadku z pierwszej sekcji.
 
-1.  Dostęp do sekcji: Dostęp do pierwszej sekcji dokumentu odbywa się za pomocą`doc.Sections[0]`.
-2.  Usuń zakres: Użyj`Range.Delete` metoda umożliwiająca usunięcie całego tekstu w tej sekcji.
+1. Dostęp do sekcji: Dostęp do pierwszej sekcji dokumentu odbywa się za pomocą `doc.Sections[0]`.
+2. Usuń zakres: Użyj `Range.Delete` metoda umożliwiająca usunięcie całego tekstu w tej sekcji.
 
 ```csharp
 // Usuń tekst w pierwszej sekcji dokumentu
@@ -95,7 +97,7 @@ Aspose.Words for .NET to biblioteka klas do przetwarzania dokumentów Word. Umo�
 
 ### Czy mogę usunąć tekst z konkretnego akapitu zamiast z całej sekcji?
 
- Tak, możesz usunąć tekst z określonego akapitu, uzyskując do niego dostęp i używając`Range.Delete` metoda.
+Tak, możesz usunąć tekst z określonego akapitu, uzyskując do niego dostęp i używając `Range.Delete` metoda.
 
 ### Czy można warunkowo usunąć tekst?
 
@@ -107,10 +109,15 @@ Jeśli nie zapisałeś dokumentu po usunięciu tekstu, możesz ponownie załadow
 
 ### Czy mogę usunąć tekst z kilku sekcji jednocześnie?
 
- Tak, możesz przechodzić przez wiele sekcji i używać`Range.Delete` metoda usuwania tekstu z każdej sekcji.
+Tak, możesz przechodzić przez wiele sekcji i używać `Range.Delete` metoda usuwania tekstu z każdej sekcji.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

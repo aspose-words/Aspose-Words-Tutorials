@@ -1,14 +1,16 @@
 ---
-title: Obsługa pól i danych w dokumentach Word
-linktitle: Obsługa pól i danych w dokumentach Word
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Dowiedz się, jak obsługiwać pola i dane w dokumentach Worda za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z przykładami kodu dla dynamicznej zawartości, automatyzacji i nie tylko.
-weight: 12
-url: /pl/python-net/document-structure-and-content-manipulation/document-fields/
+"description": "Dowiedz się, jak obsługiwać pola i dane w dokumentach Worda za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z przykładami kodu dla dynamicznej zawartości, automatyzacji i nie tylko."
+"linktitle": "Obsługa pól i danych w dokumentach Word"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Obsługa pól i danych w dokumentach Word"
+"url": "/pl/python-net/document-structure-and-content-manipulation/document-fields/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Obsługa pól i danych w dokumentach Word
@@ -26,7 +28,7 @@ Pola to symbole zastępcze w dokumencie, które dynamicznie wyświetlają dane. 
 
 ## Wstawianie prostych pól
 
- Aby wstawić pole, możesz użyć`FieldBuilder` klasa. Na przykład, aby wstawić pole bieżącej daty:
+Aby wstawić pole, możesz użyć `FieldBuilder` klasa. Na przykład, aby wstawić pole bieżącej daty:
 
 ```python
 from aspose.words import Document, FieldBuilder
@@ -55,7 +57,7 @@ builder.insert_field('= 5 + 3')
 
 ## Ekstrakcja danych z pól
 
- Możesz wyodrębnić dane terenowe za pomocą`Field` klasa:
+Możesz wyodrębnić dane terenowe za pomocą `Field` klasa:
 
 ```python
 field = doc.range.fields[0]
@@ -66,7 +68,7 @@ if field:
 
 ## Integrowanie pól ze źródłami danych
 
-Pola mogą być łączone z zewnętrznymi źródłami danych, takimi jak Excel. Umożliwia to aktualizacje wartości pól w czasie rzeczywistym, gdy zmienia się źródło danych.
+Pola mogą być powiązane z zewnętrznymi źródłami danych, takimi jak Excel. Umożliwia to aktualizacje wartości pól w czasie rzeczywistym, gdy zmienia się źródło danych.
 
 ```python
 builder.insert_field('LINK Excel.Sheet "path_to_excel_file" "Sheet1!A1"')
@@ -85,7 +87,7 @@ builder.insert_field('FORMCHECKBOX "Check this"')
 Pola mogą tworzyć hiperłącza i odnośniki:
 
 ```python
-builder.insert_field('HYPERLINK "https://www.example.com" "Odwiedź naszą stronę internetową")
+builder.insert_field('HYPERLINK "https://www.example.com" "Visit our website"')
 ```
 
 ## Dostosowywanie formatów pól
@@ -112,7 +114,7 @@ Efektywne zarządzanie polami i danymi w dokumentach Word pozwala tworzyć dynam
 
 ### Jak ręcznie aktualizować wartości pól?
 
- Aby ręcznie zaktualizować wartości pól, wybierz pole i naciśnij`F9`.
+Aby ręcznie zaktualizować wartości pól, wybierz pole i naciśnij `F9`.
 
 ### Czy mogę używać pól w obszarach nagłówka i stopki?
 
@@ -132,10 +134,15 @@ Tak, pola można zagnieżdżać jedno w drugim, tworząc w ten sposób złożon�
 
 ## Uzyskaj dostęp do większej ilości zasobów
 
- Aby uzyskać bardziej szczegółowe informacje i przykłady kodu, odwiedź stronę[Aspose.Words dla odniesienia do interfejsu API języka Python](https://reference.aspose.com/words/python-net/) Aby pobrać najnowszą wersję biblioteki, odwiedź stronę[Strona pobierania Aspose.Words dla Pythona](https://releases.aspose.com/words/python/).
+Aby uzyskać bardziej szczegółowe informacje i przykłady kodu, odwiedź stronę [Aspose.Words dla odniesienia do interfejsu API języka Python](https://reference.aspose.com/words/python-net/)Aby pobrać najnowszą wersję biblioteki, odwiedź stronę [Strona pobierania Aspose.Words dla Pythona](https://releases.aspose.com/words/python/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

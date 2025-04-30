@@ -1,14 +1,16 @@
 ---
-title: Utwórz nowy dokument Word
-linktitle: Utwórz nowy dokument Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak tworzyć dokumenty Word za pomocą Aspose.Words dla .NET. Ten przewodnik krok po kroku przeprowadzi Cię przez proces, ułatwiając automatyzację dokumentów.
-weight: 10
-url: /pl/net/add-content-using-documentbuilder/create-new-document/
+"description": "Dowiedz się, jak tworzyć dokumenty Word za pomocą Aspose.Words dla .NET. Ten przewodnik krok po kroku przeprowadzi Cię przez proces, ułatwiając automatyzację dokumentów."
+"linktitle": "Utwórz nowy dokument Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Utwórz nowy dokument Word"
+"url": "/pl/net/add-content-using-documentbuilder/create-new-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz nowy dokument Word
@@ -20,9 +22,9 @@ Zanurzamy się głęboko w świat Aspose.Words dla .NET, perełki wśród biblio
 
 Zanim przejdziemy do konkretów, upewnijmy się, że mamy wszystko, czego potrzebujemy:
 
-1.  Visual Studio: Nasz plac zabaw kodowania. Jeśli jeszcze go nie masz, pobierz go z[Pobieranie programu Visual Studio](https://visualstudio.microsoft.com/downloads/).
-2.  Aspose.Words dla .NET: Gwiazda show. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
-3.  .NET Framework: Upewnij się, że masz zainstalowany co najmniej .NET Framework 4.0. Możesz sprawdzić i zainstalować go za pomocą[Strona pobierania Microsoft .NET](https://dotnet.microsoft.com/download/dotnet-framework).
+1. Visual Studio: Nasz plac zabaw kodowania. Jeśli jeszcze go nie masz, pobierz go z [Pobieranie programu Visual Studio](https://visualstudio.microsoft.com/downloads/).
+2. Aspose.Words dla .NET: Gwiazda show. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
+3. .NET Framework: Upewnij się, że masz zainstalowany co najmniej .NET Framework 4.0. Możesz sprawdzić i zainstalować go za pomocą [Strona pobierania Microsoft .NET](https://dotnet.microsoft.com/download/dotnet-framework).
 
 ## Importuj przestrzenie nazw
 
@@ -45,7 +47,7 @@ Wyobraź sobie, że jesteś kucharzem przygotowującym składniki przed gotowani
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie chcesz zapisać swój dokument. To jest baza domowa twojego dokumentu.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie chcesz zapisać swój dokument. To jest baza domowa twojego dokumentu.
 
 ## Krok 2: Tworzenie dokumentu
 
@@ -61,7 +63,7 @@ Właśnie utworzyliśmy pusty dokument Word. Całkiem fajne, co?
 
 ### Zainicjuj DocumentBuilder
 
- Następnie musimy dodać trochę treści do naszego dokumentu. W tym celu użyjemy`DocumentBuilder`To jak nasze pióro, które pisze na płótnie.
+Następnie musimy dodać trochę treści do naszego dokumentu. W tym celu użyjemy `DocumentBuilder`To jak nasze pióro, które pisze na płótnie.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -101,19 +103,24 @@ Tak, Aspose.Words dla .NET jest zgodny z .NET Core, .NET Standard i .NET Framewo
 
 ### Jak mogę otrzymać bezpłatną wersję próbną Aspose.Words dla .NET?
 
- Możesz otrzymać bezpłatną wersję próbną[Strona wydań Aspose](https://releases.aspose.com/).
+Możesz otrzymać bezpłatną wersję próbną [Strona wydań Aspose](https://releases.aspose.com/).
 
-### Jakie typy dokumentów mogę tworzyć za pomocą Aspose.Words dla platformy .NET?
+### Jakie typy dokumentów mogę tworzyć za pomocą Aspose.Words dla .NET?
 
 Możesz tworzyć i edytować pliki w formatach DOC, DOCX, PDF, HTML i wielu innych.
 
 ### Gdzie mogę znaleźć więcej dokumentacji i przykładów?
 
- Sprawdź[Dokumentacja Aspose.Words dla .NET](https://reference.aspose.com/words/net/) aby uzyskać więcej przykładów i szczegółowych przewodników.
+Sprawdź [Dokumentacja Aspose.Words dla .NET](https://reference.aspose.com/words/net/) aby uzyskać więcej przykładów i szczegółowych przewodników.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

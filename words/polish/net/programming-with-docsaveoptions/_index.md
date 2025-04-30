@@ -1,14 +1,16 @@
 ---
-title: Przetwarzanie tekstu za pomocą DocSaveOptions
-linktitle: Przetwarzanie tekstu za pomocą DocSaveOptions
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dostosować opcje zapisywania dokumentów Word za pomocą Aspose.Words dla .NET. Samouczki przeprowadzą Cię przez różne dostępne opcje, takie jak format pliku, kompresja, ochrona hasłem.
-weight: 1600
-url: /pl/net/programming-with-docsaveoptions/
+"description": "Dowiedz się, jak dostosować opcje zapisywania dokumentów Word za pomocą Aspose.Words dla .NET. Samouczki przeprowadzą Cię przez różne dostępne opcje, takie jak format pliku, kompresja, ochrona hasłem."
+"linktitle": "Przetwarzanie tekstu za pomocą DocSaveOptions"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przetwarzanie tekstu za pomocą DocSaveOptions"
+"url": "/pl/net/programming-with-docsaveoptions/"
+"weight": 1600
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przetwarzanie tekstu za pomocą DocSaveOptions
@@ -23,11 +25,16 @@ Dzięki tym samouczkom poznasz najlepsze praktyki zapisywania dokumentów w ró�
 | Tytuł | Opis |
 | --- | --- |
 | [Zaszyfruj dokument hasłem](./encrypt-document-with-password/) | Dowiedz się, jak zaszyfrować dokument hasłem za pomocą Aspose.Words dla .NET w tym szczegółowym przewodniku krok po kroku. Bezproblemowo zabezpiecz swoje poufne informacje. |
-| [Nie kompresuj małych metaplików](./do-not-compress-small-metafiles/) | Dowiedz się, jak używać Aspose.Words dla .NET, aby zapewnić, że małe metapliki w dokumentach Word nie zostaną skompresowane, zachowując ich jakość i integralność. Zawiera przewodnik krok po kroku. |
-| [Nie zapisuj obrazu Bullet](./do-not-save-picture-bullet/) | dowiedz się, jak obsługiwać punkty obrazkowe w Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Uprość zarządzanie dokumentami i twórz profesjonalne dokumenty Word bez wysiłku. |
+| [Nie kompresuj małych metaplików](./do-not-compress-small-metafiles/) | Dowiedz się, jak używać Aspose.Words dla .NET, aby zapewnić, że małe metapliki w dokumentach Word nie będą kompresowane, zachowując ich jakość i integralność. Zawiera przewodnik krok po kroku. |
+| [Nie zapisuj obrazu Bullet](./do-not-save-picture-bullet/) dowiedz się, jak obsługiwać punkty obrazkowe w Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Uprość zarządzanie dokumentami i twórz profesjonalne dokumenty Word bez wysiłku. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

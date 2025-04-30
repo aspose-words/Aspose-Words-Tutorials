@@ -1,14 +1,16 @@
 ---
-title: Alan Ekle
-linktitle: Alan Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET kullanarak Word belgelerine alan eklemeyi öğrenin. Belge otomasyonu için mükemmeldir.
-weight: 10
-url: /tr/net/working-with-fields/insert-field/
+"description": "Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET kullanarak Word belgelerine alan eklemeyi öğrenin. Belge otomasyonu için mükemmeldir."
+"linktitle": "Alan Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Alan Ekle"
+"url": "/tr/net/working-with-fields/insert-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Alan Ekle
@@ -21,10 +23,10 @@ Hiç belge oluşturma ve düzenlemeyi otomatikleştirmeniz gerektiğini fark ett
 
 Başlamadan önce ihtiyacımız olan her şeyin elimizde olduğundan emin olalım:
 
-1.  Aspose.Words for .NET: İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. .NET Framework: Bilgisayarınızda .NET Framework'ün yüklü olduğundan emin olun.
 3. IDE: Visual Studio benzeri bütünleşik geliştirme ortamı.
-4.  Geçici Lisans: Bir tane alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+4. Geçici Lisans: Bir tane alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 Aspose.Words for .NET'i yüklediğinizden ve geliştirme ortamınızı ayarladığınızdan emin olun. Hazır mısınız? Başlayalım!
 
@@ -51,7 +53,7 @@ Aspose.Words'ü kullanmak için onu projemize eklememiz gerekiyor. Solution Expl
 
 ### Belge Dizininizi Başlatın
 
- Belgemizin kaydedileceği bir dizine ihtiyacımız var. Bu eğitim için bir yer tutucu dizin kullanalım. Değiştir`"YOUR DOCUMENTS DIRECTORY"` Belgenizi kaydetmek istediğiniz gerçek yol ile.
+Belgemizin kaydedileceği bir dizine ihtiyacımız var. Bu eğitim için bir yer tutucu dizin kullanalım. Değiştir `"YOUR DOCUMENTS DIRECTORY"` Belgenizi kaydetmek istediğiniz gerçek yol ile.
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
@@ -98,7 +100,7 @@ Tebrikler! Aspose.Words for .NET kullanarak bir Word belgesine alan eklemeyi ö�
 Kesinlikle! Aspose.Words, MERGEFIELD, IF, INCLUDETEXT ve daha fazlası dahil olmak üzere çok çeşitli alanları destekler.
 
 ### Belgeme eklenen alanları nasıl biçimlendirebilirim?  
- Alanları biçimlendirmek için alan anahtarlarını kullanabilirsiniz. Örneğin,`\* MERGEFORMAT` alana uygulanan biçimlendirmeyi korur.
+Alanları biçimlendirmek için alan anahtarlarını kullanabilirsiniz. Örneğin, `\* MERGEFORMAT` alana uygulanan biçimlendirmeyi korur.
 
 ### Aspose.Words for .NET, .NET Core ile uyumlu mudur?  
 Evet, Aspose.Words for .NET hem .NET Framework hem de .NET Core ile uyumludur.
@@ -107,10 +109,15 @@ Evet, Aspose.Words for .NET hem .NET Framework hem de .NET Core ile uyumludur.
 Evet, verileriniz arasında döngü oluşturarak ve DocumentBuilder'ı kullanarak alanları programlı olarak ekleyerek alanların toplu olarak eklenmesini otomatikleştirebilirsiniz.
 
 ### Aspose.Words for .NET hakkında daha detaylı dokümanları nerede bulabilirim?  
- Kapsamlı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Kapsamlı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

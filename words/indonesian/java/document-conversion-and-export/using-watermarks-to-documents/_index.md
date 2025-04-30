@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Watermark pada Dokumen di Aspose.Words untuk Java
-linktitle: Menggunakan Tanda Air pada Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menambahkan tanda air ke dokumen di Aspose.Words untuk Java. Sesuaikan tanda air teks dan gambar untuk dokumen yang tampak profesional.
-weight: 15
-url: /id/java/document-conversion-and-export/using-watermarks-to-documents/
+"description": "Pelajari cara menambahkan tanda air ke dokumen di Aspose.Words untuk Java. Sesuaikan tanda air teks dan gambar untuk dokumen yang tampak profesional."
+"linktitle": "Menggunakan Tanda Air pada Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Watermark pada Dokumen di Aspose.Words untuk Java"
+"url": "/id/java/document-conversion-and-export/using-watermarks-to-documents/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Watermark pada Dokumen di Aspose.Words untuk Java
@@ -22,7 +24,7 @@ Dalam tutorial ini, kita akan membahas cara menambahkan tanda air ke dokumen men
 
 Sebelum kita mulai menambahkan tanda air ke dokumen, kita perlu menyiapkan Aspose.Words untuk Java. Ikuti langkah-langkah berikut untuk memulai:
 
-1.  Unduh Aspose.Words untuk Java dari[Di Sini](https://releases.aspose.com/words/java/).
+1. Unduh Aspose.Words untuk Java dari [Di Sini](https://releases.aspose.com/words/java/).
 2. Tambahkan pustaka Aspose.Words untuk Java ke proyek Java Anda.
 3. Impor kelas yang diperlukan dalam kode Java Anda.
 
@@ -44,7 +46,7 @@ options.setColor(Color.BLACK);
 options.setLayout(WatermarkLayout.HORIZONTAL);
 options.setSemitransparent(false);
 
-//Atur teks dan opsi tanda air
+// Atur teks dan opsi tanda air
 doc.getWatermark().setText("Test", options);
 
 // Simpan dokumen dengan tanda air
@@ -111,7 +113,7 @@ Dalam tutorial ini, kita telah mempelajari cara menambahkan tanda air ke dokumen
 
 ### Bagaimana cara mengubah font tanda air teks?
 
- Untuk mengubah font tanda air teks, ubah fontnya`setFontFamily` properti di`TextWatermarkOptions`. Misalnya:
+Untuk mengubah font tanda air teks, ubah fontnya `setFontFamily` properti di `TextWatermarkOptions`. Misalnya:
 
 ```java
 options.setFontFamily("Times New Roman");
@@ -119,22 +121,27 @@ options.setFontFamily("Times New Roman");
 
 ### Bisakah saya menambahkan beberapa tanda air ke satu dokumen?
 
- Ya, Anda dapat menambahkan beberapa tanda air ke dokumen dengan membuat beberapa`Shape` objek dengan pengaturan berbeda dan menambahkannya ke dokumen.
+Ya, Anda dapat menambahkan beberapa tanda air ke dokumen dengan membuat beberapa `Shape` objek dengan pengaturan berbeda dan menambahkannya ke dokumen.
 
 ### Bisakah tanda air diputar?
 
- Ya, Anda dapat memutar tanda air dengan mengatur`setRotation` properti di`Shape` objek. Nilai positif memutar tanda air searah jarum jam, dan nilai negatif memutarnya berlawanan arah jarum jam.
+Ya, Anda dapat memutar tanda air dengan mengatur `setRotation` properti di `Shape` objek. Nilai positif memutar tanda air searah jarum jam, dan nilai negatif memutarnya berlawanan arah jarum jam.
 
 ### Bagaimana cara membuat tanda air semi-transparan?
 
- Untuk membuat tanda air semi-transparan, atur`setSemitransparent`properti untuk`true` di dalam`TextWatermarkOptions`.
+Untuk membuat tanda air semi-transparan, atur `setSemitransparent` properti untuk `true` di dalam `TextWatermarkOptions`.
 
 ### Bisakah saya menambahkan tanda air ke bagian tertentu dari suatu dokumen?
 
 Ya, Anda dapat menambahkan tanda air ke bagian tertentu pada suatu dokumen dengan mengulangi bagian tersebut dan menambahkan tanda air ke bagian yang diinginkan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

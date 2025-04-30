@@ -1,14 +1,16 @@
 ---
-title: Membandingkan Versi Dokumen untuk Kontrol Revisi yang Efektif
-linktitle: Membandingkan Versi Dokumen untuk Kontrol Revisi yang Efektif
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari cara membandingkan versi dokumen secara efektif menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber untuk kontrol revisi. Tingkatkan kolaborasi dan cegah kesalahan.
-weight: 13
-url: /id/python-net/document-splitting-and-formatting/compare-document-versions/
+"description": "Pelajari cara membandingkan versi dokumen secara efektif menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber untuk kontrol revisi. Tingkatkan kolaborasi dan cegah kesalahan."
+"linktitle": "Membandingkan Versi Dokumen untuk Kontrol Revisi yang Efektif"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Membandingkan Versi Dokumen untuk Kontrol Revisi yang Efektif"
+"url": "/id/python-net/document-splitting-and-formatting/compare-document-versions/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membandingkan Versi Dokumen untuk Kontrol Revisi yang Efektif
@@ -47,7 +49,7 @@ doc2 = aw.Document(doc2_path)
 
 ## Membandingkan Versi Dokumen
 
- Bandingkan dua dokumen yang dimuat menggunakan`Compare` metode:
+Bandingkan dua dokumen yang dimuat menggunakan `Compare` metode:
 
 ```python
 comparison = doc1.compare(doc2, "Author Name", datetime.now())
@@ -78,7 +80,7 @@ Dengan mengikuti langkah-langkah ini, Anda dapat membandingkan dan mengelola ver
 ## Tanya Jawab Umum
 
 ### Bagaimana cara menginstal Aspose.Words untuk Python?
- Untuk menginstal Aspose.Words untuk Python, gunakan perintah pip:`pip install aspose-words`.
+Untuk menginstal Aspose.Words untuk Python, gunakan perintah pip: `pip install aspose-words`.
 
 ### Bisakah saya menyorot perubahan dalam warna yang berbeda?
 Ya, Anda dapat memilih dari berbagai warna sorotan untuk membedakan perubahan.
@@ -93,9 +95,13 @@ Ya, Aspose.Words untuk Python mendukung berbagai format dokumen, termasuk DOC, D
 Tentu saja, Anda dapat mengintegrasikan Aspose.Words untuk Python ke dalam alur kerja Anda untuk perbandingan versi dokumen otomatis.
 
 Menerapkan kontrol revisi yang efektif sangat penting dalam lingkungan kerja kolaboratif saat ini. Aspose.Words untuk Python menyederhanakan proses, memungkinkan Anda untuk membandingkan dan mengelola versi dokumen dengan mudah. Jadi, tunggu apa lagi? Mulailah mengintegrasikan alat canggih ini ke dalam proyek Anda dan tingkatkan alur kerja kontrol revisi Anda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

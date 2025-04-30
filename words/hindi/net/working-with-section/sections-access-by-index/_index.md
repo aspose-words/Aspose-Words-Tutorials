@@ -1,14 +1,16 @@
 ---
-title: अनुक्रमणिका द्वारा अनुभागों तक पहुंच
-linktitle: अनुक्रमणिका द्वारा अनुभागों तक पहुंच
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में अनुभागों तक पहुँचने और उनमें हेरफेर करने का तरीका जानें। यह चरण-दर-चरण मार्गदर्शिका कुशल दस्तावेज़ प्रबंधन सुनिश्चित करती है।
-weight: 10
-url: /hi/net/working-with-section/sections-access-by-index/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में अनुभागों तक पहुँचने और उनमें हेरफेर करने का तरीका जानें। यह चरण-दर-चरण मार्गदर्शिका कुशल दस्तावेज़ प्रबंधन सुनिश्चित करती है।"
+"linktitle": "अनुक्रमणिका द्वारा अनुभागों तक पहुंच"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "अनुक्रमणिका द्वारा अनुभागों तक पहुंच"
+"url": "/hi/net/working-with-section/sections-access-by-index/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # अनुक्रमणिका द्वारा अनुभागों तक पहुंच
@@ -22,7 +24,7 @@ url: /hi/net/working-with-section/sections-access-by-index/
 
 इससे पहले कि हम अपने कोडिंग मंत्रों को तैयार करें, आइए सुनिश्चित करें कि हमारे पास इस ट्यूटोरियल के लिए आवश्यक सभी सामग्रियां मौजूद हैं:
 
-1.  .NET लाइब्रेरी के लिए Aspose.Words: नवीनतम संस्करण डाउनलोड करें[यहाँ](https://releases.aspose.com/words/net/).
+1. .NET लाइब्रेरी के लिए Aspose.Words: नवीनतम संस्करण डाउनलोड करें [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: एक .NET-संगत IDE जैसे कि Visual Studio.
 3. C# का बुनियादी ज्ञान: C# से परिचित होने से आपको आगे बढ़ने में मदद मिलेगी।
 4. नमूना वर्ड दस्तावेज़: परीक्षण के लिए एक वर्ड दस्तावेज़ तैयार रखें।
@@ -41,7 +43,7 @@ using Aspose.Words;
 
 इससे पहले कि हम कोड में उतरें, आइए सुनिश्चित करें कि हमारा वातावरण कुछ वर्ड मैजिक के लिए तैयार है।
 
-1.  Aspose.Words डाउनलोड और इंस्टॉल करें: आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words डाउनलोड और इंस्टॉल करें: आप इसे यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. अपना प्रोजेक्ट सेट करें: Visual Studio खोलें और एक नया .NET प्रोजेक्ट बनाएं।
 3. Aspose.Words संदर्भ जोड़ें: अपने प्रोजेक्ट में Aspose.Words लाइब्रेरी जोड़ें।
 
@@ -50,14 +52,14 @@ using Aspose.Words;
 हमारे कोड में पहला चरण उस वर्ड दस्तावेज़ को लोड करना है जिसे हम संशोधित करना चाहते हैं।
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
 - `string dataDir = "YOUR DOCUMENT DIRECTORY";` आपके दस्तावेज़ निर्देशिका का पथ निर्दिष्ट करता है.
-- `Document doc = new Document(dataDir + "Document.docx");` Word दस्तावेज़ को लोड करता है`doc` वस्तु।
+- `Document doc = new Document(dataDir + "Document.docx");` Word दस्तावेज़ को लोड करता है `doc` वस्तु।
 
 ## चरण 3: अनुभाग तक पहुंचें
 
@@ -79,7 +81,7 @@ Section section = doc.Sections[0];
 section.ClearContent();
 ```
 
-- `section.ClearContent();`निर्दिष्ट अनुभाग से सभी सामग्री को हटा देता है, तथा अनुभाग संरचना को बरकरार रखता है।
+- `section.ClearContent();` निर्दिष्ट अनुभाग से सभी सामग्री को हटा देता है, तथा अनुभाग संरचना को बरकरार रखता है।
 
 ## अनुभाग में नई सामग्री जोड़ें
 
@@ -91,7 +93,7 @@ builder.MoveToSection(0);
 builder.Writeln("New content added to the first section.");
 ```
 
-- `DocumentBuilder builder = new DocumentBuilder(doc);` आरंभ करता है`DocumentBuilder` वस्तु।
+- `DocumentBuilder builder = new DocumentBuilder(doc);` आरंभ करता है `DocumentBuilder` वस्तु।
 - `builder.MoveToSection(0);` बिल्डर को पहले खंड में ले जाता है।
 - `builder.Writeln("New content added to the first section.");` अनुभाग में नया पाठ जोड़ता है.
 
@@ -124,7 +126,7 @@ foreach (Section section in doc.Sections)
 
 ### क्या मैं किसी अनुभाग के शीर्षलेख और पादलेख को अलग-अलग साफ़ कर सकता हूँ?
 
- हां, आप इसका उपयोग करके हेडर और फ़ुटर साफ़ कर सकते हैं`ClearHeadersFooters()` तरीका।
+हां, आप इसका उपयोग करके हेडर और फ़ुटर साफ़ कर सकते हैं `ClearHeadersFooters()` तरीका।
 
 ```csharp
 section.ClearHeadersFooters();
@@ -145,11 +147,16 @@ doc.Sections.Add(newSection);
 
 ### मैं .NET के लिए Aspose.Words पर अधिक दस्तावेज़ कहां पा सकता हूं?
 
- आप विस्तृत API दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप विस्तृत API दस्तावेज़ पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

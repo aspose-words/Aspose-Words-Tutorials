@@ -1,14 +1,16 @@
 ---
-title: Tạo Bảng Lặp Lại Phần Ánh Xạ Đến Phần Xml Tùy Chỉnh
-linktitle: Tạo Bảng Lặp Lại Phần Ánh Xạ Đến Phần Xml Tùy Chỉnh
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tạo bảng có phần lặp lại được ánh xạ tới CustomXmlPart trong tài liệu Word bằng Aspose.Words cho .NET.
-weight: 10
-url: /vi/net/programming-with-sdt/creating-table-repeating-section-mapped-to-custom-xml-part/
+"description": "Tìm hiểu cách tạo bảng có phần lặp lại được ánh xạ tới CustomXmlPart trong tài liệu Word bằng Aspose.Words cho .NET."
+"linktitle": "Tạo Bảng Lặp Lại Phần Ánh Xạ Đến Phần Xml Tùy Chỉnh"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tạo Bảng Lặp Lại Phần Ánh Xạ Đến Phần Xml Tùy Chỉnh"
+"url": "/vi/net/programming-with-sdt/creating-table-repeating-section-mapped-to-custom-xml-part/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo Bảng Lặp Lại Phần Ánh Xạ Đến Phần Xml Tùy Chỉnh
@@ -20,7 +22,7 @@ Trong hướng dẫn này, chúng ta sẽ tìm hiểu quy trình tạo bảng c�
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
-1.  Aspose.Words cho thư viện .NET đã được cài đặt. Bạn có thể tải xuống từ[Trang web Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho thư viện .NET đã được cài đặt. Bạn có thể tải xuống từ [Trang web Aspose](https://releases.aspose.com/words/net/).
 2. Hiểu biết cơ bản về C# và XML.
 
 ## Nhập không gian tên
@@ -35,7 +37,7 @@ using Aspose.Words.Tables;
 
 ## Bước 1: Khởi tạo Document và DocumentBuilder
 
- Đầu tiên, tạo một tài liệu mới và khởi tạo một`DocumentBuilder`:
+Đầu tiên, tạo một tài liệu mới và khởi tạo một `DocumentBuilder`:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -57,7 +59,7 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add("Books",
 
 ## Bước 3: Tạo cấu trúc bảng
 
- Tiếp theo, sử dụng`DocumentBuilder` để tạo tiêu đề bảng:
+Tiếp theo, sử dụng `DocumentBuilder` để tạo tiêu đề bảng:
 
 ```csharp
 Table table = builder.StartTable();
@@ -71,7 +73,7 @@ builder.EndTable();
 
 ## Bước 4: Tạo phần lặp lại
 
- Tạo một`StructuredDocumentTag` (SDT) cho phần lặp lại và ánh xạ nó vào dữ liệu XML:
+Tạo một `StructuredDocumentTag` (SDT) cho phần lặp lại và ánh xạ nó vào dữ liệu XML:
 
 ```csharp
 StructuredDocumentTag repeatingSectionSdt = new StructuredDocumentTag(doc, SdtType.RepeatingSection, MarkupLevel.Row);
@@ -126,9 +128,14 @@ Có, bạn có thể cấu trúc phần XML tùy chỉnh của mình với bất
 
 ### Làm thế nào để thêm nhiều hàng hơn vào phần lặp lại?
 Phần lặp lại sẽ tự động sao chép cấu trúc hàng cho từng mục trong đường dẫn XML được ánh xạ.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

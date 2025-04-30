@@ -1,14 +1,16 @@
 ---
-title: Uzyskaj rzeczywiste punkty granic kształtu
-linktitle: Uzyskaj rzeczywiste punkty granic kształtu
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak uzyskać rzeczywiste punkty granic kształtu w dokumentach Word za pomocą Aspose.Words dla .NET. Naucz się precyzyjnej manipulacji kształtem dzięki temu szczegółowemu przewodnikowi.
-weight: 10
-url: /pl/net/programming-with-shapes/get-actual-shape-bounds-points/
+"description": "Dowiedz się, jak uzyskać rzeczywiste punkty granic kształtu w dokumentach Word za pomocą Aspose.Words dla .NET. Naucz się precyzyjnej manipulacji kształtem dzięki temu szczegółowemu przewodnikowi."
+"linktitle": "Uzyskaj rzeczywiste punkty granic kształtu"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Uzyskaj rzeczywiste punkty granic kształtu"
+"url": "/pl/net/programming-with-shapes/get-actual-shape-bounds-points/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Uzyskaj rzeczywiste punkty granic kształtu
@@ -21,7 +23,7 @@ Czy kiedykolwiek próbowałeś manipulować kształtami w dokumentach Word i zas
 
 Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Jeśli nie, możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Jeśli nie, możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Należy skonfigurować środowisko programistyczne, np. Visual Studio.
 3. Podstawowa wiedza o języku C#: W tym przewodniku zakładamy, że posiadasz podstawową wiedzę na temat programowania w języku C#.
 
@@ -44,7 +46,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Tutaj tworzymy instancję`Document` klasa i`DocumentBuilder` aby ułatwić nam wstawianie treści do dokumentu.
+Tutaj tworzymy instancję `Document` klasa i `DocumentBuilder` aby ułatwić nam wstawianie treści do dokumentu.
 
 ## Krok 2: Wstaw kształt obrazu
 
@@ -54,7 +56,7 @@ Następnie wstawmy obraz do dokumentu. Ten obraz będzie naszym kształtem, a p�
 Shape shape = builder.InsertImage("YOUR DOCUMENT DIRECTORY/Transparent background logo.png");
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY/Transparent background logo.png"` ze ścieżką do pliku obrazu. Ta linia wstawia obraz do dokumentu jako kształt.
+Zastępować `"YOUR DOCUMENT DIRECTORY/Transparent background logo.png"` ze ścieżką do pliku obrazu. Ta linia wstawia obraz do dokumentu jako kształt.
 
 ## Krok 3: Odblokuj współczynnik proporcji
 
@@ -75,7 +77,7 @@ Console.Write("\nGets the actual bounds of the shape in points: ");
 Console.WriteLine(shape.GetShapeRenderer().BoundsInPoints);
 ```
 
- Ten`GetShapeRenderer` metoda zapewnia renderer kształtu i`BoundsInPoints` podaje nam dokładne wymiary.
+Ten `GetShapeRenderer` metoda zapewnia renderer kształtu i `BoundsInPoints` podaje nam dokładne wymiary.
 
 ## Wniosek
 
@@ -93,13 +95,18 @@ Oczywiście! Możesz użyć dowolnego kształtu, takiego jak prostokąty, okręg
 Upewnij się, że ścieżka do pliku jest poprawna i obraz istnieje w tej lokalizacji. Sprawdź dwukrotnie, czy nie ma literówek lub nieprawidłowych odniesień do katalogów.
 
 ### Jak mogę zachować proporcje kształtu?
-Ustawić`shape.AspectRatioLocked = true;`aby zachować oryginalne proporcje podczas zmiany rozmiaru.
+Ustawić `shape.AspectRatioLocked = true;` aby zachować oryginalne proporcje podczas zmiany rozmiaru.
 
 ### Czy można uzyskać ograniczenia w innych jednostkach niż punkty?
 Tak, możesz przeliczyć punkty na inne jednostki, takie jak cale lub centymetry, stosując odpowiednie współczynniki konwersji.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Word Belge Stillerini Kopyala
-linktitle: Word Belge Stillerini Kopyala
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belge stillerini nasıl kopyalayacağınızı öğrenin. Tutarlı belge biçimlendirmesini zahmetsizce sağlamak için adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/programming-with-styles-and-themes/copy-styles/
+"description": "Aspose.Words for .NET kullanarak Word belge stillerini nasıl kopyalayacağınızı öğrenin. Tutarlı belge biçimlendirmesini zahmetsizce sağlamak için adım adım kılavuzumuzu izleyin."
+"linktitle": "Word Belge Stillerini Kopyala"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belge Stillerini Kopyala"
+"url": "/tr/net/programming-with-styles-and-themes/copy-styles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belge Stillerini Kopyala
@@ -21,7 +23,7 @@ Bir belgenin diğeriyle tutarlı görünmesini sağlamanız gerektiyse, muhtemel
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET Kütüphanesi: .NET'te Word belgeleriyle çalışmak için buna ihtiyacınız olacak. Bunu şuradan indirebilirsiniz:[Aspose.Words .NET İndirmeleri](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: .NET'te Word belgeleriyle çalışmak için buna ihtiyacınız olacak. Bunu şuradan indirebilirsiniz: [Aspose.Words .NET İndirmeleri](https://releases.aspose.com/words/net/).
 2. .NET Geliştirme Ortamı: Visual Studio gibi çalışan bir .NET geliştirme ortamına sahip olmalısınız.
 3. Temel C# Bilgisi: C#'a aşina olmak, kod parçacıklarını etkili bir şekilde anlamanıza ve uygulamanıza yardımcı olacaktır.
 
@@ -37,7 +39,7 @@ Bu ad alanını ekleyerek Aspose.Words kütüphanesinin tüm güçlü özellikle
 
 ## Adım 1: Belge Dizininizi Ayarlayın
 
- İlk önce, belge dizininize giden yolu tanımlamanız gerekir. Aspose.Words dosyalarınızı burada arayacaktır. Değiştir`"YOUR DOCUMENT DIRECTORY"` Belgelerinizin saklandığı gerçek yol ile.
+İlk önce, belge dizininize giden yolu tanımlamanız gerekir. Aspose.Words dosyalarınızı burada arayacaktır. Değiştir `"YOUR DOCUMENT DIRECTORY"` Belgelerinizin saklandığı gerçek yol ile.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -52,11 +54,11 @@ Document doc = new Document();
 Document target = new Document(dataDir + "Rendering.docx");
 ```
 
- Burada,`Rendering.docx` kopyalamak istediğiniz stilleri içeren kaynak belgenizdir.`doc` nesne, stillerin kopyalanacağı hedef belgeyi temsil eder.
+Burada, `Rendering.docx` kopyalamak istediğiniz stilleri içeren kaynak belgenizdir. `doc` nesne, stillerin kopyalanacağı hedef belgeyi temsil eder.
 
 ## Adım 3: Stilleri Kaynaktan Hedefe Kopyalayın
 
- Her iki belge de yüklendiğinde artık stilleri kopyalayabilirsiniz.`CopyStylesFromTemplate` yöntem bu iş için aracınızdır. Stilleri kopyalar`doc`şablona`target` belge.
+Her iki belge de yüklendiğinde artık stilleri kopyalayabilirsiniz. `CopyStylesFromTemplate` yöntem bu iş için aracınızdır. Stilleri kopyalar `doc` şablona `target` belge.
 
 ```csharp
 target.CopyStylesFromTemplate(doc);
@@ -70,7 +72,7 @@ Stilleri kopyaladıktan sonra güncellenen hedef belgeyi kaydedin. Bu adım, yap
 doc.Save(dataDir + "WorkingWithStylesAndThemes.CopyStyles.docx");
 ```
 
-Bu kod, orijinal dosyalarınızı koruyarak, değiştirilen belgeyi yeni bir adla kaydeder.
+Bu kod, orijinal dosyalarınızı koruyarak değiştirilen belgeyi yeni bir adla kaydeder.
 
 ## Çözüm
 
@@ -78,23 +80,28 @@ Bu kod, orijinal dosyalarınızı koruyarak, değiştirilen belgeyi yeni bir adl
 
 ## SSS
 
-###  Amacı nedir?`CopyStylesFromTemplate` method?  
- The`CopyStylesFromTemplate` yöntem, stilleri bir belgeden diğerine kopyalar ve böylece hedef belgenin kaynak belgenin biçimlendirmesini devralmasını sağlar.
+### Amacı nedir? `CopyStylesFromTemplate` yöntem?  
+The `CopyStylesFromTemplate` yöntem, stilleri bir belgeden diğerine kopyalar ve böylece hedef belgenin kaynak belgenin biçimlendirmesini devralmasını sağlar.
 
-###  Kullanabilir miyim?`CopyStylesFromTemplate` with documents in different formats?  
- Hayır,`CopyStylesFromTemplate` Bu yöntem yalnızca aynı formattaki, genellikle DOCX formatındaki belgelerle çalışır.
+### Kullanabilir miyim? `CopyStylesFromTemplate` farklı formatlardaki belgelerle mi?  
+Hayır, `CopyStylesFromTemplate` Bu yöntem yalnızca aynı formattaki, genellikle DOCX formatındaki belgelerle çalışır.
 
-### Stillerin başarıyla kopyalanıp kopyalanmadığını nasıl kontrol edebilirim?  
+### Stillerin başarıyla kopyalandığını nasıl kontrol edebilirim?  
 Hedef belgeyi açın ve stil ayarlarını kontrol edin. Kaynak belgedeki stillerin uygulandığını görmelisiniz.
 
 ### Hedef belgede zaten stiller varsa ne olur?  
- The`CopyStylesFromTemplate` yöntem, hedef belgedeki mevcut stilleri kaynak belgedekilerle değiştirecektir.
+The `CopyStylesFromTemplate` yöntem, hedef belgedeki mevcut stilleri kaynak belgedekilerle değiştirecektir.
 
 ### Aspose.Words for .NET'i kullanmak ücretsiz mi?  
- Aspose.Words for .NET ticari bir üründür, ancak ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[Aspose.Words for .NET Ücretsiz Deneme](https://releases.aspose.com/).
+Aspose.Words for .NET ticari bir üründür, ancak ücretsiz deneme sürümünü şu adresten edinebilirsiniz: [Aspose.Words for .NET Ücretsiz Deneme](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

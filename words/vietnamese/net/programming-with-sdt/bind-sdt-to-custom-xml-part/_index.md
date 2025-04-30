@@ -1,14 +1,16 @@
 ---
-title: Liên kết SDT với phần Xml tùy chỉnh
-linktitle: Liên kết SDT với phần Xml tùy chỉnh
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách liên kết Thẻ tài liệu có cấu trúc (SDT) với các phần XML tùy chỉnh trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này.
-weight: 10
-url: /vi/net/programming-with-sdt/bind-sdt-to-custom-xml-part/
+"description": "Tìm hiểu cách liên kết Thẻ tài liệu có cấu trúc (SDT) với các phần XML tùy chỉnh trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này."
+"linktitle": "Liên kết SDT với phần Xml tùy chỉnh"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Liên kết SDT với phần Xml tùy chỉnh"
+"url": "/vi/net/programming-with-sdt/bind-sdt-to-custom-xml-part/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Liên kết SDT với phần Xml tùy chỉnh
@@ -21,7 +23,7 @@ Việc tạo các tài liệu Word động tương tác với dữ liệu XML t�
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
--  Aspose.Words cho .NET: Bạn có thể tải xuống phiên bản mới nhất từ[Aspose.Words cho các bản phát hành .NET](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Bạn có thể tải xuống phiên bản mới nhất từ [Aspose.Words cho các bản phát hành .NET](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Visual Studio hoặc bất kỳ .NET IDE tương thích nào khác.
 - Hiểu biết cơ bản về C#: Quen thuộc với ngôn ngữ lập trình C# và .NET framework.
 
@@ -63,12 +65,12 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(Guid.NewGuid().ToString("B"), "<r
 
 Tại đây, chúng ta tạo một Phần XML tùy chỉnh mới với một mã định danh duy nhất và thêm một số dữ liệu XML mẫu.
 
-## Bước 3: Tạo thẻ tài liệu có cấu trúc (SDT)
+## Bước 3: Tạo Thẻ Tài liệu có Cấu trúc (SDT)
 
 Sau khi thêm Phần XML tùy chỉnh, chúng ta tạo một SDT để hiển thị dữ liệu XML.
 
 ```csharp
-//Tạo thẻ tài liệu có cấu trúc (SDT)
+// Tạo thẻ tài liệu có cấu trúc (SDT)
 StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(sdt);
 ```
@@ -84,7 +86,7 @@ Bây giờ, chúng ta liên kết SDT với Phần XML tùy chỉnh bằng cách
 sdt.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", "");
 ```
 
- Bước này ánh xạ SDT tới`<text>` phần tử trong`<root>` nút của Phần XML Tùy chỉnh của chúng tôi.
+Bước này ánh xạ SDT tới `<text>` phần tử trong `<root>` nút của Phần XML Tùy chỉnh của chúng tôi.
 
 ## Bước 5: Lưu tài liệu
 
@@ -110,16 +112,21 @@ Thẻ tài liệu có cấu trúc (SDT) là thành phần kiểm soát nội dun
 Có, bạn có thể liên kết nhiều SDT với các phần XML khác nhau trong cùng một tài liệu, cho phép tạo ra các mẫu phức tạp dựa trên dữ liệu.
 
 ### Làm thế nào để cập nhật dữ liệu XML trong Phần XML tùy chỉnh?
- Bạn có thể cập nhật dữ liệu XML bằng cách truy cập`CustomXmlPart` đối tượng và sửa đổi trực tiếp nội dung XML của đối tượng đó.
+Bạn có thể cập nhật dữ liệu XML bằng cách truy cập `CustomXmlPart` đối tượng và sửa đổi trực tiếp nội dung XML của đối tượng đó.
 
 ### Có thể liên kết SDT với các thuộc tính XML thay vì các phần tử không?
 Có, bạn có thể liên kết SDT với các thuộc tính XML bằng cách chỉ định biểu thức XPath thích hợp nhắm tới thuộc tính mong muốn.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện về Aspose.Words cho .NET tại[Tài liệu Aspose.Words](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về Aspose.Words cho .NET tại [Tài liệu Aspose.Words](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

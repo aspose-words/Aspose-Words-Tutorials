@@ -1,14 +1,16 @@
 ---
-title: Word Belgesindeki İçindekiler Tablosunu Kaldır
-linktitle: Word Belgesindeki İçindekiler Tablosunu Kaldır
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kolay takip edilebilir eğitimle, Aspose.Words for .NET'i kullanarak Word belgelerindeki İçindekiler Tablosu'nun (TOC) nasıl kaldırılacağını öğrenin.
-weight: 10
-url: /tr/net/remove-content/remove-table-of-contents/
+"description": "Bu kolay takip edilebilir eğitimle, Aspose.Words for .NET'i kullanarak Word belgelerindeki İçindekiler Tablosu'nun (TOC) nasıl kaldırılacağını öğrenin."
+"linktitle": "Word Belgesindeki İçindekiler Tablosunu Kaldır"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesindeki İçindekiler Tablosunu Kaldır"
+"url": "/tr/net/remove-content/remove-table-of-contents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesindeki İçindekiler Tablosunu Kaldır
@@ -21,7 +23,7 @@ Word belgelerinizde istenmeyen İçindekiler Tablosu (TOC) ile uğraşmaktan bı
 
 Başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET Kütüphanesi: Henüz yapmadıysanız, Aspose.Words for .NET kütüphanesini şu adresten indirin ve kurun:[Aspose.Sürümler](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Henüz yapmadıysanız, Aspose.Words for .NET kütüphanesini şu adresten indirin ve kurun: [Aspose.Sürümler](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi bir IDE kodlamayı kolaylaştıracaktır.
 3. .NET Framework: .NET Framework'ün yüklü olduğundan emin olun.
 4. Word Belgesi: İçindekiler tablosu bulunan ve kaldırmak istediğiniz bir Word belgeniz (.docx) var.
@@ -47,7 +49,7 @@ Belgenizi düzenleyebilmemiz için önce nerede bulunduğunu tanımlamamız gere
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` belge klasörünüzün yolu ile. Word dosyanızın bulunduğu yer burasıdır.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` belge klasörünüzün yolu ile. Word dosyanız burada bulunur.
 
 ## Adım 2: Belgeyi Yükleyin
 
@@ -57,7 +59,7 @@ Sonra, Word belgesini uygulamamıza yüklememiz gerekiyor. Aspose.Words bunu ina
 Document doc = new Document(dataDir + "your-document.docx");
 ```
 
- Yer değiştirmek`"your-document.docx"` dosyanızın adıyla. Bu kod satırı belgenizi yükler, böylece üzerinde çalışmaya başlayabiliriz.
+Yer değiştirmek `"your-document.docx"` dosyanızın adıyla. Bu kod satırı belgenizi yükler, böylece üzerinde çalışmaya başlayabiliriz.
 
 ## Adım 3: İçindekiler Alanını Tanımlayın ve Kaldırın
 
@@ -81,7 +83,7 @@ Son olarak, değişikliklerimizi kaydetmemiz gerekiyor. Orijinal dosyayı koruma
 doc.Save(dataDir + "modified-document.docx", SaveFormat.Docx);
 ```
 
- Bu satır, belgenizi yapılan değişikliklerle kaydeder. Değiştir`"modified-document.docx"` İstediğiniz dosya adıyla.
+Bu satır, belgenizi yapılan değişikliklerle kaydeder. Değiştir `"modified-document.docx"` İstediğiniz dosya adıyla.
 
 ## Çözüm
 
@@ -95,7 +97,7 @@ Aspose.Words for .NET, geliştiricilerin Word belgelerini programlı bir şekild
 
 ### Aspose.Words'ü ücretsiz kullanabilir miyim?
 
- Evet, Aspose.Words'ü şu şekilde kullanabilirsiniz:[ücretsiz deneme](https://releases.aspose.com/) veya bir tane al[geçici lisans](https://purchase.aspose.com/temporary-license/).
+Evet, Aspose.Words'ü şu şekilde kullanabilirsiniz: [ücretsiz deneme](https://releases.aspose.com/) veya bir tane al [geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words kullanarak diğer alanları kaldırmak mümkün müdür?
 
@@ -107,10 +109,15 @@ Geliştirme kolaylığı açısından Visual Studio şiddetle önerilse de, .NET
 
 ### Aspose.Words hakkında daha fazla bilgiyi nerede bulabilirim?
 
- Daha ayrıntılı belgeler için şu adresi ziyaret edin:[Aspose.Words for .NET API belgeleri](https://reference.aspose.com/words/net/).
+Daha ayrıntılı belgeler için şu adresi ziyaret edin: [Aspose.Words for .NET API belgeleri](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

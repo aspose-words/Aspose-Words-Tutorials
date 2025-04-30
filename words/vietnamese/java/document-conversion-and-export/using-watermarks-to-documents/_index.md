@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Watermark cho Tài liệu trong Aspose.Words cho Java
-linktitle: Sử dụng hình mờ cho tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách thêm hình mờ vào tài liệu trong Aspose.Words cho Java. Tùy chỉnh hình mờ văn bản và hình ảnh cho tài liệu trông chuyên nghiệp.
-weight: 15
-url: /vi/java/document-conversion-and-export/using-watermarks-to-documents/
+"description": "Tìm hiểu cách thêm hình mờ vào tài liệu trong Aspose.Words cho Java. Tùy chỉnh hình mờ văn bản và hình ảnh cho tài liệu trông chuyên nghiệp."
+"linktitle": "Sử dụng hình mờ cho tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng Watermark cho Tài liệu trong Aspose.Words cho Java"
+"url": "/vi/java/document-conversion-and-export/using-watermarks-to-documents/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Watermark cho Tài liệu trong Aspose.Words cho Java
@@ -22,7 +24,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách thêm hình mờ vào
 
 Trước khi bắt đầu thêm hình mờ vào tài liệu, chúng ta cần thiết lập Aspose.Words cho Java. Thực hiện theo các bước sau để bắt đầu:
 
-1.  Tải xuống Aspose.Words cho Java từ[đây](https://releases.aspose.com/words/java/).
+1. Tải xuống Aspose.Words cho Java từ [đây](https://releases.aspose.com/words/java/).
 2. Thêm thư viện Aspose.Words cho Java vào dự án Java của bạn.
 3. Nhập các lớp cần thiết vào mã Java của bạn.
 
@@ -44,7 +46,7 @@ options.setColor(Color.BLACK);
 options.setLayout(WatermarkLayout.HORIZONTAL);
 options.setSemitransparent(false);
 
-//Đặt văn bản hình mờ và các tùy chọn
+// Đặt văn bản hình mờ và các tùy chọn
 doc.getWatermark().setText("Test", options);
 
 // Lưu tài liệu có hình mờ
@@ -83,7 +85,7 @@ Bạn có thể tùy chỉnh hình mờ bằng cách điều chỉnh giao diện
 
 ## Xóa hình mờ
 
-Để xóa hình mờ khỏi tài liệu, bạn có thể sử dụng đoạn mã sau:
+Để xóa hình mờ khỏi tài liệu, bạn có thể sử dụng mã sau:
 
 ```java
 // Tạo một phiên bản Tài liệu
@@ -111,7 +113,7 @@ Trong hướng dẫn này, chúng ta đã học cách thêm hình mờ vào tài
 
 ### Làm thế nào để thay đổi phông chữ của hình mờ văn bản?
 
- Để thay đổi phông chữ của hình mờ văn bản, hãy sửa đổi`setFontFamily` tài sản trong`TextWatermarkOptions`. Ví dụ:
+Để thay đổi phông chữ của hình mờ văn bản, hãy sửa đổi `setFontFamily` tài sản trong `TextWatermarkOptions`. Ví dụ:
 
 ```java
 options.setFontFamily("Times New Roman");
@@ -119,22 +121,27 @@ options.setFontFamily("Times New Roman");
 
 ### Tôi có thể thêm nhiều hình mờ vào một tài liệu không?
 
- Có, bạn có thể thêm nhiều hình mờ vào một tài liệu bằng cách tạo nhiều`Shape` các đối tượng có thiết lập khác nhau và thêm chúng vào tài liệu.
+Có, bạn có thể thêm nhiều hình mờ vào một tài liệu bằng cách tạo nhiều `Shape` các đối tượng có thiết lập khác nhau và thêm chúng vào tài liệu.
 
 ### Có thể xoay hình mờ được không?
 
- Có, bạn có thể xoay hình mờ bằng cách thiết lập`setRotation` tài sản trong`Shape` đối tượng. Giá trị dương sẽ xoay hình mờ theo chiều kim đồng hồ, giá trị âm sẽ xoay ngược chiều kim đồng hồ.
+Có, bạn có thể xoay hình mờ bằng cách thiết lập `setRotation` tài sản trong `Shape` đối tượng. Giá trị dương sẽ xoay hình mờ theo chiều kim đồng hồ, giá trị âm sẽ xoay ngược chiều kim đồng hồ.
 
-### Làm thế nào để làm cho hình mờ trở nên trong suốt một phần?
+### Làm thế nào để tạo hình mờ bán trong suốt?
 
- Để làm cho hình mờ trong suốt một nửa, hãy đặt`setSemitransparent`tài sản để`true` trong`TextWatermarkOptions`.
+Để làm cho hình mờ trong suốt một nửa, hãy đặt `setSemitransparent` tài sản để `true` trong `TextWatermarkOptions`.
 
 ### Tôi có thể thêm hình mờ vào các phần cụ thể của tài liệu không?
 
 Có, bạn có thể thêm hình mờ vào các phần cụ thể của tài liệu bằng cách lặp lại các phần và thêm hình mờ vào các phần mong muốn.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

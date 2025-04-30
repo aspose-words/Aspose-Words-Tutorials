@@ -1,14 +1,16 @@
 ---
-title: Satırları Birleştir
-linktitle: Satırları Birleştir
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'i kullanarak birden fazla tablodaki satırları tek bir tabloda birleştirmeyi adım adım rehberimizle öğrenin.
-weight: 10
-url: /tr/net/programming-with-tables/combine-rows/
+"description": "Adım adım kılavuzumuzla Aspose.Words for .NET'i kullanarak birden fazla tablodaki satırları nasıl birleştireceğinizi öğrenin."
+"linktitle": "Satırları Birleştir"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Satırları Birleştir"
+"url": "/tr/net/programming-with-tables/combine-rows/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Satırları Birleştir
@@ -21,11 +23,11 @@ Birden fazla tablodan satırları tek bir tutarlı tabloda birleştirmek zorlu b
 
 Kodlama kısmına geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir .NET uyumlu IDE.
 3. Temel C# Bilgisi: C# dilini anlamak faydalı olacaktır.
 
- Eğer henüz .NET için Aspose.Words'ünüz yoksa, bir tane edinebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) veya satın al[Burada](https://purchase.aspose.com/buy) Herhangi bir sorunuz varsa,[destek forumu](https://forum.aspose.com/c/words/8) başlamak için harika bir yer.
+Eğer henüz .NET için Aspose.Words'ünüz yoksa, bir tane edinebilirsiniz [ücretsiz deneme](https://releases.aspose.com/) veya satın al [Burada](https://purchase.aspose.com/buy)Herhangi bir sorunuz varsa, [destek forumu](https://forum.aspose.com/c/words/8) başlamak için harika bir yer.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -49,11 +51,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- Bu örnekte şunu değiştirin:`"YOUR DOCUMENT DIRECTORY"` belgenizin yolunu belirtin.
+Bu örnekte şunu değiştirin: `"YOUR DOCUMENT DIRECTORY"` belgenizin yolunu belirtin.
 
 ## Adım 2: Tabloları Belirleyin
 
- Sonra, birleştirmek istediğiniz tabloları tanımlamanız gerekir. Aspose.Words, bir belgeden tabloları almanıza olanak tanır`GetChild` yöntem. İşte nasıl:
+Sonra, birleştirmek istediğiniz tabloları tanımlamanız gerekir. Aspose.Words, bir belgeden tabloları almanıza olanak tanır `GetChild` yöntem. İşte nasıl:
 
 ```csharp
 Table firstTable = (Table) doc.GetChild(NodeType.Table, 0, true);
@@ -76,7 +78,7 @@ Bu döngü, ikinci tablodaki tüm satırlar birinci tabloya eklenene kadar devam
 
 ## Adım 4: İkinci Tabloyu Kaldırın
 
- Satırları ekledikten sonra ikinci tabloya artık gerek kalmaz. Bunu kullanarak kaldırabilirsiniz`Remove` yöntem:
+Satırları ekledikten sonra ikinci tabloya artık gerek kalmaz. Bunu kullanarak kaldırabilirsiniz `Remove` yöntem:
 
 ```csharp
 secondTable.Remove();
@@ -96,7 +98,7 @@ Ve işte bu kadar! Aspose.Words for .NET kullanarak iki tablodaki satırları ba
 
 Birden fazla tablodan satırları birleştirmek, belge işleme görevlerinizi önemli ölçüde basitleştirebilir. Aspose.Words for .NET ile bu görev basit ve verimli hale gelir. Bu adım adım kılavuzu izleyerek tabloları kolayca birleştirebilir ve iş akışınızı düzene sokabilirsiniz.
 
-Daha fazla bilgiye ihtiyacınız varsa veya herhangi bir sorunuz varsa,[Aspose.Words belgeleri](https://reference.aspose.com/words/net/) mükemmel bir kaynaktır. Ayrıca satın alma seçeneklerini de keşfedebilirsiniz[Burada](https://purchase.aspose.com/buy) veya bir tane al[geçici lisans](https://purchase.aspose.com/temporary-license/) test için.
+Daha fazla bilgiye ihtiyacınız varsa veya herhangi bir sorunuz varsa, [Aspose.Words belgeleri](https://reference.aspose.com/words/net/) mükemmel bir kaynaktır. Ayrıca satın alma seçeneklerini de keşfedebilirsiniz [Burada](https://purchase.aspose.com/buy) veya bir tane al [geçici lisans](https://purchase.aspose.com/temporary-license/) test için.
 
 ## SSS
 
@@ -118,10 +120,15 @@ Kesinlikle! Bu süreci birden fazla belge için otomatikleştirmek üzere bir be
 
 ### Sorunla karşılaşırsam nereden yardım alabilirim?
 
- The[Aspose.Words destek forumu](https://forum.aspose.com/c/words/8) Yardım almak ve yaygın sorunlara çözüm bulmak için harika bir yerdir.
+The [Aspose.Words destek forumu](https://forum.aspose.com/c/words/8) Yardım almak ve yaygın sorunlara çözüm bulmak için harika bir yerdir.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

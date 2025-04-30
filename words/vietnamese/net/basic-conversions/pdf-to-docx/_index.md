@@ -1,14 +1,16 @@
 ---
-title: Lưu PDF sang định dạng Word (Docx)
-linktitle: Lưu PDF sang định dạng Word (Docx)
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chuyển đổi PDF sang tài liệu Word (Docx) bằng Aspose.Words cho .NET trong hướng dẫn chi tiết từng bước này. Hoàn hảo cho các nhà phát triển.
-weight: 10
-url: /vi/net/basic-conversions/pdf-to-docx/
+"description": "Tìm hiểu cách chuyển đổi PDF sang tài liệu Word (Docx) bằng Aspose.Words cho .NET trong hướng dẫn chi tiết từng bước này. Hoàn hảo cho các nhà phát triển."
+"linktitle": "Lưu PDF sang định dạng Word (Docx)"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Lưu PDF sang định dạng Word (Docx)"
+"url": "/vi/net/basic-conversions/pdf-to-docx/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lưu PDF sang định dạng Word (Docx)
@@ -21,14 +23,14 @@ Xin chào, những người đam mê công nghệ! Bạn đã bao giờ thấy m
 
 Trước khi bước vào thế giới chuyển đổi tập tin kỳ diệu, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết:
 
--  Aspose.Words cho .NET: Đảm bảo bạn có phiên bản mới nhất. Nếu không, hãy tải xuống[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Đảm bảo bạn có phiên bản mới nhất. Nếu không, hãy tải xuống [đây](https://releases.aspose.com/words/net/).
 - .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình.
 - Tài liệu PDF: Tệp PDF bạn muốn chuyển đổi.
 - Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác mà bạn thích.
 
 ### Thiết lập môi trường của bạn
 
-1.  Tải xuống và cài đặt Aspose.Words cho .NET: Truy cập[Trang web Aspose](https://releases.aspose.com/words/net/) và tải phiên bản mới nhất.
+1. Tải xuống và cài đặt Aspose.Words cho .NET: Truy cập [Trang web Aspose](https://releases.aspose.com/words/net/) và tải phiên bản mới nhất.
 2. Tạo một dự án mới: Mở IDE của bạn, tạo một dự án .NET mới và thêm tham chiếu đến Aspose.Words.
 3. Chuẩn bị tài liệu PDF: Chuẩn bị sẵn tài liệu PDF bạn muốn chuyển đổi trong thư mục dự án của bạn.
 
@@ -62,7 +64,7 @@ Bây giờ, hãy tải tài liệu PDF vào dự án của chúng ta bằng Aspo
 Document doc = new Document(dataDir + "Pdf Document.pdf");
 ```
 
- Ở đây, chúng ta tạo một thể hiện của`Document` lớp và truyền đường dẫn tệp PDF của chúng ta đến đó. Hành động này tải tệp PDF vào bộ nhớ, sẵn sàng để chuyển đổi.
+Ở đây, chúng ta tạo một thể hiện của `Document` lớp và truyền đường dẫn tệp PDF của chúng ta đến đó. Hành động này tải tệp PDF vào bộ nhớ, sẵn sàng để chuyển đổi.
 
 ## Bước 3: Lưu PDF dưới dạng Tài liệu Word
 
@@ -72,7 +74,7 @@ Bước cuối cùng là lưu tài liệu PDF đã tải dưới dạng tài li�
 doc.Save(dataDir + "BaseConversions.PdfToDocx.docx");
 ```
 
- Bằng cách gọi`Save` phương pháp của chúng tôi`Document` Ví dụ, chúng tôi chỉ định đường dẫn và định dạng của tệp đầu ra. Trong trường hợp này, chúng tôi lưu nó dưới dạng tệp Docx.
+Bằng cách gọi `Save` phương pháp của chúng tôi `Document` Ví dụ, chúng tôi chỉ định đường dẫn và định dạng của tệp đầu ra. Trong trường hợp này, chúng tôi lưu nó dưới dạng tệp Docx.
 
 ## Bước 4: Chạy chuyển đổi
 
@@ -91,16 +93,21 @@ Có, bạn có thể lặp qua nhiều tệp PDF và chuyển đổi từng tệ
 Có, Aspose.Words thực hiện xuất sắc nhiệm vụ giữ nguyên định dạng gốc.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?
- Mặc dù bạn có thể sử dụng giấy phép tạm thời để đánh giá, bạn sẽ cần mua giấy phép đầy đủ để sử dụng cho mục đích thương mại. Hãy xem[trang mua hàng](https://purchase.aspose.com/buy) để biết thêm chi tiết.
+Mặc dù bạn có thể sử dụng giấy phép tạm thời để đánh giá, bạn sẽ cần mua giấy phép đầy đủ để sử dụng cho mục đích thương mại. Hãy xem [trang mua hàng](https://purchase.aspose.com/buy) để biết thêm chi tiết.
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET trên các hệ điều hành khác nhau không?
 Có, Aspose.Words for .NET là ứng dụng đa nền tảng và có thể sử dụng trên Windows, Linux và macOS.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu toàn diện [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

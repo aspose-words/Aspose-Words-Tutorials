@@ -1,14 +1,16 @@
 ---
-title: In tài liệu
-linktitle: In tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Làm chủ việc in tài liệu với Aspose.Words cho Java! Tự động hóa cài đặt in, tối ưu hóa hiệu suất và đạt được kết quả chuyên nghiệp một cách dễ dàng.
-weight: 16
-url: /vi/java/document-printing/
+"description": "Làm chủ việc in tài liệu với Aspose.Words cho Java! Tự động hóa cài đặt in, tối ưu hóa hiệu suất và đạt được kết quả chuyên nghiệp một cách dễ dàng."
+"linktitle": "In tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "In tài liệu"
+"url": "/vi/java/document-printing/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # In tài liệu
@@ -40,9 +42,13 @@ Tìm hiểu cách in tài liệu tùy chỉnh dễ dàng với Aspose.Words for 
 Tìm hiểu cách in các trang cụ thể từ tài liệu Word bằng Aspose.Words cho Java. Hướng dẫn từng bước dành cho nhà phát triển Java.
 ### [In tài liệu với PrintDialog](./print-document-printdialog/)
 Tìm hiểu cách in tài liệu bằng Aspose.Words for Java với PrintDialog. Tùy chỉnh cài đặt, in các trang cụ thể và nhiều hơn nữa trong hướng dẫn từng bước này.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

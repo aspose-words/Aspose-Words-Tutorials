@@ -1,14 +1,16 @@
 ---
-title: Truy cập được gõ
-linktitle: Truy cập được gõ
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách sử dụng Typed Access trong Aspose.Words cho .NET để dễ dàng thao tác các thành phần tài liệu như bảng và hàng. Hướng dẫn từng bước này giúp đơn giản hóa quy trình làm việc của bạn.
-weight: 10
-url: /vi/net/working-with-node/typed-access/
+"description": "Tìm hiểu cách sử dụng Typed Access trong Aspose.Words cho .NET để dễ dàng thao tác các thành phần tài liệu như bảng và hàng. Hướng dẫn từng bước này giúp đơn giản hóa quy trình làm việc của bạn."
+"linktitle": "Truy cập được gõ"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Truy cập được gõ"
+"url": "/vi/net/working-with-node/typed-access/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Truy cập được gõ
@@ -21,10 +23,10 @@ Bạn đã bao giờ thấy mình bị mắc kẹt trong một mạng lưới c�
 
 Trước khi chúng ta bước vào thế giới của Typed Access, hãy đảm bảo rằng bạn có mọi thứ mình cần. Sau đây là danh sách kiểm tra:
 
--  Aspose.Words cho .NET: Đảm bảo bạn có phiên bản mới nhất. Nếu không, bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Đảm bảo bạn có phiên bản mới nhất. Nếu không, bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ .NET.
 - Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về C# và .NET.
--  Giấy phép Aspose.Words: Bạn có thể sử dụng[dùng thử miễn phí](https://releases.aspose.com/) hoặc nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+- Giấy phép Aspose.Words: Bạn có thể sử dụng [dùng thử miễn phí](https://releases.aspose.com/) hoặc nhận được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập không gian tên
 
@@ -63,7 +65,7 @@ Body body = section.Body;
 
 ## Bước 4: Truy cập Bộ sưu tập bảng
 
-Bây giờ, chúng ta hãy nhanh chóng truy cập tất cả các bảng trong phần thân. Đây là nơi Typed Access tỏa sáng, cung cấp một cách đơn giản để truy cập vào các bảng của chúng ta.
+Bây giờ, chúng ta hãy nhanh chóng truy cập tất cả các bảng trong body. Đây là nơi Typed Access tỏa sáng, cung cấp một cách đơn giản để truy cập vào các bảng của chúng ta.
 
 ```csharp
 TableCollection tables = body.Tables;
@@ -109,16 +111,21 @@ Typed Access cho phép bạn truy cập và thao tác nhanh chóng các loại n
 Có, Typed Access có thể được sử dụng với nhiều thành phần khác nhau như đoạn văn, phần, v.v., giúp việc thao tác tài liệu trở nên dễ dàng.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?
- Trong khi bạn có thể bắt đầu với một[dùng thử miễn phí](https://releases.aspose.com/) , để có đầy đủ chức năng và tránh những hạn chế, hãy lấy[giấy phép](https://purchase.aspose.com/buy) được khuyến khích.
+Trong khi bạn có thể bắt đầu với một [dùng thử miễn phí](https://releases.aspose.com/), để có đầy đủ chức năng và tránh những hạn chế, hãy lấy [giấy phép](https://purchase.aspose.com/buy) được khuyến khích.
 
 ### Typed Access có phù hợp với các tài liệu lớn không?
 Hoàn toàn đúng! Typed Access được thiết kế để xử lý hiệu quả các tài liệu ở mọi kích cỡ, hợp lý hóa quy trình truy cập và sửa đổi các thành phần.
 
 ### Tôi có thể tìm tài liệu chi tiết hơn ở đâu?
- Bạn có thể truy cập tài liệu chi tiết[đây](https://reference.aspose.com/words/net/).
+Bạn có thể truy cập tài liệu chi tiết [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

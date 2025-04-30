@@ -1,14 +1,16 @@
 ---
-title: Dodaj język japoński jako język edycji
-linktitle: Dodaj język japoński jako język edycji
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dodać język japoński jako język edycji w dokumentach za pomocą Aspose.Words for .NET, korzystając z tego szczegółowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/programming-with-document-options-and-settings/add-japanese-as-editing-languages/
+"description": "Dowiedz się, jak dodać język japoński jako język edycji w dokumentach za pomocą Aspose.Words for .NET, korzystając z tego szczegółowego przewodnika krok po kroku."
+"linktitle": "Dodaj język japoński jako język edycji"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Dodaj język japoński jako język edycji"
+"url": "/pl/net/programming-with-document-options-and-settings/add-japanese-as-editing-languages/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj język japoński jako język edycji
@@ -22,8 +24,8 @@ Czy kiedykolwiek próbowałeś otworzyć dokument i zgubiłeś się w morzu niec
 Zanim zaczniemy, jest kilka rzeczy, które musisz mieć na miejscu:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio. To zintegrowane środowisko programistyczne (IDE), którego będziemy używać.
-2.  Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Jeśli jeszcze go nie masz, możesz go pobrać[Tutaj](https://releases.aspose.com/words/net/).
-3.  Przykładowy dokument: Przygotuj przykładowy dokument, który chcesz edytować. Powinien być w`.docx` format.
+2. Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Jeśli jeszcze go nie masz, możesz go pobrać [Tutaj](https://releases.aspose.com/words/net/).
+3. Przykładowy dokument: Przygotuj przykładowy dokument, który chcesz edytować. Powinien być w `.docx` format.
 4. Podstawowa wiedza o języku C#: Podstawowa znajomość programowania w języku C# ułatwi Ci zrozumienie przykładów.
 
 ## Importuj przestrzenie nazw
@@ -40,17 +42,17 @@ Po zaimportowaniu tych przestrzeni nazw możesz rozpocząć kodowanie!
 
 ## Krok 1: Skonfiguruj opcje ładowania
 
- Po pierwsze, musisz skonfigurować swoje`LoadOptions`. Tutaj określisz preferencje językowe dla swojego dokumentu.
+Po pierwsze, musisz skonfigurować swoje `LoadOptions`. Tutaj określisz preferencje językowe dla swojego dokumentu.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
 ```
 
- Ten`LoadOptions` Klasa pozwala dostosować sposób ładowania dokumentów. Tutaj dopiero zaczynamy.
+Ten `LoadOptions` Klasa pozwala dostosować sposób ładowania dokumentów. Tutaj dopiero zaczynamy.
 
 ## Krok 2: Dodaj język japoński jako język edycji
 
- Teraz, gdy już skonfigurowałeś`LoadOptions`, czas dodać japoński jako język edycji. Pomyśl o tym jak o ustawieniu GPS na właściwy język, aby móc płynnie nawigować.
+Teraz, gdy już skonfigurowałeś `LoadOptions`, czas dodać japoński jako język edycji. Pomyśl o tym jak o ustawieniu GPS na właściwy język, aby móc płynnie nawigować.
 
 ```csharp
 loadOptions.LanguagePreferences.AddEditingLanguage(EditingLanguage.Japanese);
@@ -66,7 +68,7 @@ Następnie musisz określić ścieżkę do katalogu dokumentów. To tutaj znajdu
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów.
 
 ## Krok 4: Załaduj dokument
 
@@ -76,11 +78,11 @@ Gdy wszystko jest już skonfigurowane, czas załadować dokument. To tutaj dziej
 Document doc = new Document(dataDir + "No default editing language.docx", loadOptions);
 ```
 
- Tutaj ładujesz dokument o określonym`LoadOptions`.
+Tutaj ładujesz dokument o określonym `LoadOptions`.
 
 ## Krok 5: Sprawdź ustawienia języka
 
- Po załadowaniu dokumentu ważne jest sprawdzenie, czy ustawienia języka zostały zastosowane prawidłowo. Możesz to zrobić, sprawdzając`LocaleIdFarEast` nieruchomość.
+Po załadowaniu dokumentu ważne jest sprawdzenie, czy ustawienia językowe zostały zastosowane prawidłowo. Możesz to zrobić, sprawdzając `LocaleIdFarEast` nieruchomość.
 
 ```csharp
 int localeIdFarEast = doc.Styles.DefaultFont.LocaleIdFarEast;
@@ -99,23 +101,28 @@ masz to! Udało Ci się dodać japoński jako język edycji do dokumentu za pomo
 ## Najczęściej zadawane pytania
 
 ### Czy mogę dodać wiele języków jako języki edycji?
- Tak, możesz dodać wiele języków za pomocą`AddEditingLanguage` metoda dla każdego języka.
+Tak, możesz dodać wiele języków za pomocą `AddEditingLanguage` metoda dla każdego języka.
 
 ### Czy potrzebuję licencji, aby używać Aspose.Words dla .NET?
- Tak, potrzebujesz licencji do użytku komercyjnego. Możesz ją kupić[Tutaj](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Tak, potrzebujesz licencji do użytku komercyjnego. Możesz ją kupić [Tutaj](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Jakie inne funkcje oferuje Aspose.Words dla .NET?
- Aspose.Words dla .NET oferuje szeroki zakres funkcji, w tym generowanie dokumentów, konwersję, manipulację i wiele więcej. Sprawdź[dokumentacja](https://reference.aspose.com/words/net/) Aby uzyskać więcej szczegółów.
+Aspose.Words dla .NET oferuje szeroki zakres funkcji, w tym generowanie dokumentów, konwersję, manipulację i wiele więcej. Sprawdź [dokumentacja](https://reference.aspose.com/words/net/) po więcej szczegółów.
 
 ### Czy mogę wypróbować Aspose.Words dla .NET przed zakupem?
- Oczywiście! Możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Oczywiście! Możesz pobrać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Words dla .NET?
- Możesz uzyskać wsparcie od społeczności Aspose[Tutaj](https://forum.aspose.com/c/words/8).
+Możesz uzyskać wsparcie od społeczności Aspose [Tutaj](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

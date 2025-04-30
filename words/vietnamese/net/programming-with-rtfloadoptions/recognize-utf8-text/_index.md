@@ -1,14 +1,16 @@
 ---
-title: Nhận dạng văn bản Utf8
-linktitle: Nhận dạng văn bản Utf8
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách nhận dạng văn bản UTF-8 trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này.
-weight: 10
-url: /vi/net/programming-with-rtfloadoptions/recognize-utf8-text/
+"description": "Tìm hiểu cách nhận dạng văn bản UTF-8 trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này."
+"linktitle": "Nhận dạng văn bản Utf8"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Nhận dạng văn bản Utf8"
+"url": "/vi/net/programming-with-rtfloadoptions/recognize-utf8-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận dạng văn bản Utf8
@@ -21,7 +23,7 @@ Sẵn sàng khám phá một số công nghệ tuyệt vời chưa? Hôm nay, ch
 
 Trước khi đi vào phần thú vị, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho Thư viện .NET: Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/) . Nếu bạn chưa mua nó, hãy mua ngay[dùng thử miễn phí](https://releases.aspose.com/) hoặc[mua nó ở đây](https://purchase.aspose.com/buy).
+1. Aspose.Words cho Thư viện .NET: Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/). Nếu bạn chưa mua nó, hãy mua ngay [dùng thử miễn phí](https://releases.aspose.com/) hoặc [mua nó ở đây](https://purchase.aspose.com/buy).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ .NET.
 3. Kiến thức cơ bản về C#: Bạn cần phải thành thạo C# để có thể theo dõi.
 
@@ -45,7 +47,7 @@ Trước tiên, bạn cần chỉ định thư mục lưu trữ tài liệu củ
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tài liệu của bạn. Điều này rất quan trọng để Aspose.Words xác định vị trí tệp của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tài liệu của bạn. Điều này rất quan trọng để Aspose.Words xác định vị trí tệp của bạn.
 
 ## Bước 2: Cấu hình Tùy chọn Tải cho Văn bản UTF-8
 
@@ -55,7 +57,7 @@ Tiếp theo, chúng ta cần cấu hình tùy chọn tải để nhận dạng v
 RtfLoadOptions loadOptions = new RtfLoadOptions { RecognizeUtf8Text = true };
 ```
 
- Bằng cách thiết lập`RecognizeUtf8Text` ĐẾN`true`, chúng tôi đang yêu cầu Aspose.Words chú ý đến văn bản UTF-8. Điều này cực kỳ tiện lợi khi xử lý các tài liệu chứa nhiều loại ký tự.
+Bằng cách thiết lập `RecognizeUtf8Text` ĐẾN `true`chúng tôi đang yêu cầu Aspose.Words chú ý đến văn bản UTF-8. Điều này cực kỳ tiện lợi khi xử lý các tài liệu chứa nhiều loại ký tự.
 
 ## Bước 3: Tải tài liệu
 
@@ -65,11 +67,11 @@ Bây giờ, đã đến lúc tải tài liệu bằng các tùy chọn tải mà
 Document doc = new Document(dataDir + "UTF-8 characters.rtf", loadOptions);
 ```
 
- Trong dòng này, chúng tôi đang tạo ra một cái mới`Document` đối tượng và tải tệp RTF của chúng tôi. Đảm bảo tên tệp của bạn khớp chính xác, bao gồm cả phần mở rộng.
+Trong dòng này, chúng tôi đang tạo ra một cái mới `Document` đối tượng và tải tệp RTF của chúng tôi. Đảm bảo tên tệp của bạn khớp chính xác, bao gồm cả phần mở rộng.
 
 ## Bước 4: Lưu tài liệu đã xử lý
 
-Cuối cùng, hãy lưu tài liệu sau khi Aspose.Words hoàn thành nhiệm vụ của nó. Thao tác này sẽ tạo tệp RTF mới với văn bản UTF-8 được nhận dạng đúng.
+Cuối cùng, hãy lưu tài liệu sau khi Aspose.Words hoàn thành nhiệm vụ của nó. Thao tác này sẽ tạo một tệp RTF mới với văn bản UTF-8 được nhận dạng đúng.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithRtfLoadOptions.RecognizeUtf8Text.rtf");
@@ -95,7 +97,7 @@ Chắc chắn rồi! Aspose.Words for .NET hỗ trợ nhiều định dạng kh�
 
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Words dành cho .NET?
 
- Bạn có thể nhận được giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/). Điều này cho phép bạn dùng thử tất cả các tính năng mà không có bất kỳ hạn chế nào.
+Bạn có thể nhận được giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/). Điều này cho phép bạn dùng thử tất cả các tính năng mà không có bất kỳ hạn chế nào.
 
 ### Aspose.Words cho .NET có tương thích với .NET Core không?
 
@@ -103,10 +105,15 @@ Có, Aspose.Words for .NET tương thích với .NET Core, khiến nó trở nê
 
 ### Tôi có thể tìm thêm tài liệu và hỗ trợ ở đâu?
 
- Để biết thêm tài liệu, hãy truy cập[Aspose.Words cho tài liệu .NET](https://reference.aspose.com/words/net/) . Nếu bạn cần hỗ trợ, hãy kiểm tra[Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
+Để biết thêm tài liệu, hãy truy cập [Aspose.Words cho tài liệu .NET](https://reference.aspose.com/words/net/). Nếu bạn cần hỗ trợ, hãy kiểm tra [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Format Nomor Label Data Dalam Bagan
-linktitle: Format Nomor Label Data Dalam Bagan
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memformat label data dalam bagan menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurnakan dokumen Word Anda dengan mudah.
-weight: 10
-url: /id/net/programming-with-charts/format-number-of-data-label/
+"description": "Pelajari cara memformat label data dalam bagan menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurnakan dokumen Word Anda dengan mudah."
+"linktitle": "Format Nomor Label Data Dalam Bagan"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Format Nomor Label Data Dalam Bagan"
+"url": "/id/net/programming-with-charts/format-number-of-data-label/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Format Nomor Label Data Dalam Bagan
@@ -21,10 +23,10 @@ Membuat dokumen yang menarik dan informatif sering kali melibatkan penyertaan ba
 
 Sebelum menyelami kodenya, ada beberapa prasyarat yang perlu Anda penuhi:
 
--  Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Jika Anda belum menginstalnya, Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Jika Anda belum menginstalnya, Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Anda harus menyiapkan lingkungan pengembangan .NET. Visual Studio sangat direkomendasikan.
 - Pengetahuan Dasar C#: Keakraban dengan pemrograman C# sangat penting karena tutorial ini melibatkan penulisan dan pemahaman kode C#.
--  Lisensi Sementara: Untuk menggunakan Aspose.Words tanpa batasan apa pun, Anda bisa mendapatkan lisensi sementara.[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+- Lisensi Sementara: Untuk menggunakan Aspose.Words tanpa batasan apa pun, Anda bisa mendapatkan lisensi sementara. [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 Sekarang, mari selami proses langkah demi langkah dalam memformat label angka dalam bagan.
 
@@ -46,11 +48,11 @@ Sebelum Anda dapat mulai memanipulasi dokumen Word, Anda perlu menentukan direkt
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda.
 
 ## Langkah 2: Inisialisasi Dokumen dan DocumentBuilder
 
- Langkah selanjutnya adalah menginisialisasi yang baru`Document` dan sebuah`DocumentBuilder` . Itu`DocumentBuilder` adalah kelas pembantu yang memungkinkan kita menyusun konten dokumen.
+Langkah selanjutnya adalah menginisialisasi yang baru `Document` dan sebuah `DocumentBuilder`. Itu `DocumentBuilder` adalah kelas pembantu yang memungkinkan kita menyusun konten dokumen.
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +61,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Langkah 3: Masukkan Bagan ke dalam Dokumen
 
- Sekarang, mari masukkan grafik ke dalam dokumen menggunakan`DocumentBuilder`Dalam tutorial ini, kita akan menggunakan diagram garis sebagai contoh.
+Sekarang, mari masukkan grafik ke dalam dokumen menggunakan `DocumentBuilder`Dalam tutorial ini, kita akan menggunakan diagram garis sebagai contoh.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
@@ -102,7 +104,7 @@ series1.DataLabels[1].NumberFormat.FormatCode = "dd/mm/yyyy"; // Format tanggal
 series1.DataLabels[2].NumberFormat.FormatCode = "0.00%"; // Format persentase
 ```
 
- Selain itu, Anda dapat menautkan format label data ke sel sumber. Saat ditautkan,`NumberFormat` akan diatur ulang ke umum dan diwarisi dari sel sumber.
+Selain itu, Anda dapat menautkan format label data ke sel sumber. Saat ditautkan, `NumberFormat` akan diatur ulang ke umum dan diwarisi dari sel sumber.
 
 ```csharp
 series1.DataLabels[2].NumberFormat.IsLinkedToSource = true;
@@ -131,17 +133,22 @@ Aspose.Words untuk .NET adalah pustaka yang hebat untuk membuat, memanipulasi, d
 Ya, Aspose.Words untuk .NET mendukung berbagai jenis bagan, termasuk batang, kolom, pai, dan banyak lagi.
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Words untuk .NET?
-Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Anda bisa mendapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Apakah mungkin untuk menghubungkan label data ke sel sumber di Excel?
 Ya, Anda dapat menautkan label data ke sel sumber, yang memungkinkan format angka diwarisi dari sel sumber.
 
 ### Di mana saya dapat menemukan dokumentasi yang lebih rinci untuk Aspose.Words untuk .NET?
- Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi yang lengkap [Di Sini](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

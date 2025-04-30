@@ -1,14 +1,16 @@
 ---
-title: Tabel yang diformat
-linktitle: Tabel yang diformat
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat dan memformat tabel dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini.
-weight: 10
-url: /id/net/programming-with-tables/formatted-table/
+"description": "Pelajari cara membuat dan memformat tabel dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini."
+"linktitle": "Tabel yang diformat"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tabel yang diformat"
+"url": "/id/net/programming-with-tables/formatted-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabel yang diformat
@@ -19,9 +21,9 @@ Membuat dan memformat tabel dalam dokumen Word secara terprogram mungkin tampak 
 
 ## Prasyarat
 
-Sebelum menyelami kodenya, mari pastikan Anda memiliki semua yang dibutuhkan:
+Sebelum menyelami kodenya, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1. Pustaka Aspose.Words untuk .NET: Unduh dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Unduh dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: IDE seperti Visual Studio.
 3. .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda.
 
@@ -44,7 +46,7 @@ Pertama, Anda perlu menentukan jalur tempat dokumen Anda akan disimpan.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen.
 
 ## Langkah 2: Inisialisasi Dokumen dan DocumentBuilder
 
@@ -55,11 +57,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Itu`DocumentBuilder` adalah kelas pembantu yang menyederhanakan proses pembuatan dokumen.
+Itu `DocumentBuilder` adalah kelas pembantu yang menyederhanakan proses pembuatan dokumen.
 
 ## Langkah 3: Mulai Tabel
 
- Selanjutnya, mulailah membuat tabel menggunakan`StartTable` metode.
+Selanjutnya, mulailah membuat tabel menggunakan `StartTable` metode.
 
 ```csharp
 Table table = builder.StartTable();
@@ -174,16 +176,21 @@ Aspose.Words untuk .NET adalah pustaka yang hebat untuk membuat, mengedit, dan m
 Ya, Anda dapat menerapkan format yang berbeda, termasuk warna, ke baris atau sel yang berbeda.
 
 ### Apakah Aspose.Words untuk .NET gratis?
- Aspose.Words untuk .NET adalah pustaka berbayar, tetapi Anda bisa mendapatkannya[uji coba gratis](https://releases.aspose.com/).
+Aspose.Words untuk .NET adalah pustaka berbayar, tetapi Anda bisa mendapatkannya [uji coba gratis](https://releases.aspose.com/).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.Words untuk .NET?
- Anda bisa mendapatkan dukungan dari[Forum komunitas Aspose](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari [Forum komunitas Aspose](https://forum.aspose.com/c/words/8).
 
 ### Bisakah saya membuat jenis dokumen lain dengan Aspose.Words untuk .NET?
 Ya, Aspose.Words untuk .NET mendukung berbagai format dokumen, termasuk PDF, HTML, dan TXT.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

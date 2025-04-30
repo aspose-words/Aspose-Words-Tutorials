@@ -1,14 +1,16 @@
 ---
-title: ใช้ขอบและแรเงาให้กับย่อหน้าในเอกสาร Word
-linktitle: ใช้ขอบและแรเงาให้กับย่อหน้าในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เพิ่มเส้นขอบและแรเงาให้กับย่อหน้าในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อปรับปรุงการจัดรูปแบบเอกสารของคุณ
-weight: 10
-url: /th/net/document-formatting/apply-borders-and-shading-to-paragraph/
+"description": "เพิ่มเส้นขอบและแรเงาให้กับย่อหน้าในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อปรับปรุงการจัดรูปแบบเอกสารของคุณ"
+"linktitle": "ใช้ขอบและแรเงาให้กับย่อหน้าในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ใช้ขอบและแรเงาให้กับย่อหน้าในเอกสาร Word"
+"url": "/th/net/document-formatting/apply-borders-and-shading-to-paragraph/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ใช้ขอบและแรเงาให้กับย่อหน้าในเอกสาร Word
@@ -21,10 +23,10 @@ url: /th/net/document-formatting/apply-borders-and-shading-to-paragraph/
 
 ก่อนที่เราจะลงมือทำโค้ด เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีทุกสิ่งที่จำเป็น นี่คือรายการตรวจสอบด่วน:
 
--  Aspose.Words สำหรับ .NET: คุณต้องติดตั้งไลบรารีนี้ คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์อาโพส](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: คุณต้องติดตั้งไลบรารีนี้ คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์อาโพส](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE อื่นๆ ที่สนับสนุน .NET
 - ความรู้พื้นฐานเกี่ยวกับ C#: เพียงพอที่จะเข้าใจและปรับแต่งชิ้นส่วนโค้ด
-- ใบอนุญาตที่ถูกต้อง:[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หรือซื้อจาก[อาโปเซ่](https://purchase.aspose.com/buy).
+- ใบอนุญาตที่ถูกต้อง: [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หรือซื้อจาก [อาโปเซ่](https://purchase-aspose.com/buy).
 
 ## นำเข้าเนมสเปซ
 
@@ -37,7 +39,7 @@ using Aspose.Words.Drawing;
 using System.Drawing;
 ```
 
-ตอนนี้เรามาแบ่งกระบวนการออกเป็นขั้นตอนย่อยๆ กัน แต่ละขั้นตอนจะมีหัวข้อและคำอธิบายโดยละเอียด พร้อมหรือยัง ไปกันเลย!
+ตอนนี้เรามาแบ่งขั้นตอนออกเป็นขั้นตอนย่อยๆ กัน แต่ละขั้นตอนจะมีหัวข้อและคำอธิบายโดยละเอียด พร้อมหรือยัง ไปกันเลย!
 
 ## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสารของคุณ
 
@@ -48,18 +50,18 @@ using System.Drawing;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- ไดเรกทอรีนี้คือที่ที่เอกสารสุดท้ายของคุณจะถูกบันทึก แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงบนเครื่องของคุณ
+ไดเรกทอรีนี้คือที่ที่เอกสารสุดท้ายของคุณจะถูกบันทึก แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงบนเครื่องของคุณ
 
 ## ขั้นตอนที่ 2: สร้างเอกสารใหม่และ DocumentBuilder
 
- ต่อไปเราต้องสร้างเอกสารใหม่และ`DocumentBuilder` วัตถุ.`DocumentBuilder` เป็นไม้กายสิทธิ์ที่ช่วยให้เราจัดการเอกสารได้
+ต่อไปเราต้องสร้างเอกสารใหม่และ `DocumentBuilder` วัตถุ. `DocumentBuilder` เป็นไม้กายสิทธิ์ที่ช่วยให้เราจัดการเอกสารได้
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- การ`Document` วัตถุแสดงถึงเอกสาร Word ทั้งหมดของเราและ`DocumentBuilder` ช่วยเราเพิ่มและจัดรูปแบบเนื้อหา
+การ `Document` วัตถุแสดงถึงเอกสาร Word ทั้งหมดของเราและ `DocumentBuilder` ช่วยเราเพิ่มและจัดรูปแบบเนื้อหา
 
 ## ขั้นตอนที่ 3: กำหนดขอบเขตย่อหน้า
 
@@ -91,7 +93,7 @@ shading.ForegroundPatternColor = System.Drawing.Color.LightSalmon;
 
 ## ขั้นตอนที่ 5: เพิ่มข้อความลงในย่อหน้า
 
-ย่อหน้าที่ไม่มีข้อความจะเป็นอย่างไร ลองเพิ่มประโยคตัวอย่างเพื่อดูการจัดรูปแบบของเรา
+ย่อหน้าที่ไม่มีข้อความจะเป็นอย่างไร มาลองเพิ่มประโยคตัวอย่างเพื่อดูการจัดรูปแบบของเรากัน
 
 ```csharp
 builder.Write("I'm a formatted paragraph with double border and nice shading.");
@@ -101,13 +103,13 @@ builder.Write("I'm a formatted paragraph with double border and nice shading.");
 
 ## ขั้นตอนที่ 6: บันทึกเอกสาร
 
-ในที่สุดก็ได้เวลาบันทึกงานของเราแล้ว มาบันทึกเอกสารลงในไดเร็กทอรีที่ระบุด้วยชื่อที่อธิบายรายละเอียดกัน
+ในที่สุดก็ได้เวลาบันทึกงานของเราแล้ว มาบันทึกเอกสารลงในไดเร็กทอรีที่ระบุด้วยชื่อที่อธิบายได้
 
 ```csharp
 doc.Save(dataDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
 ```
 
- นี่จะบันทึกเอกสารของเราด้วยชื่อ`DocumentFormatting.ApplyBordersAndShadingToParagraph.doc` ในไดเร็กทอรีที่เราระบุไว้ก่อนหน้านี้
+นี่จะบันทึกเอกสารของเราด้วยชื่อ `DocumentFormatting.ApplyBordersAndShadingToParagraph.doc` ในไดเร็กทอรีที่เราระบุไว้ก่อนหน้านี้
 
 ## บทสรุป
 
@@ -116,23 +118,28 @@ doc.Save(dataDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถใช้รูปแบบเส้นที่แตกต่างกันสำหรับแต่ละเส้นขอบได้หรือไม่  
- แน่นอน! Aspose.Words สำหรับ .NET ช่วยให้คุณปรับแต่งเส้นขอบแต่ละอันได้ทีละอัน เพียงตั้งค่า`LineStyle` สำหรับแต่ละประเภทเส้นขอบตามที่แสดงในคู่มือ
+แน่นอน! Aspose.Words สำหรับ .NET ช่วยให้คุณปรับแต่งเส้นขอบแต่ละอันได้ทีละอัน เพียงตั้งค่า `LineStyle` สำหรับแต่ละประเภทเส้นขอบตามที่แสดงในคู่มือ
 
 ### มีพื้นผิวแรเงาอื่น ๆ อะไรให้เลือกใช้บ้าง?  
- มีพื้นผิวหลายแบบที่คุณสามารถใช้ได้ เช่น สีทึบ ลายทางแนวนอน ลายทางแนวตั้ง และอื่นๆ ตรวจสอบ[เอกสารประกอบ Aspose](https://reference.aspose.com/words/net/) สำหรับรายการทั้งหมด
+มีพื้นผิวหลายแบบที่คุณสามารถใช้ได้ เช่น พื้นผิวทึบ ลายทางแนวนอน ลายทางแนวตั้ง และอื่นๆ ตรวจสอบ [เอกสารประกอบ Aspose](https://reference.aspose.com/words/net/) สำหรับรายการทั้งหมด
 
 ### ฉันจะเปลี่ยนสีเส้นขอบได้อย่างไร?  
- คุณสามารถตั้งค่าสีเส้นขอบได้โดยใช้`Color` คุณสมบัติสำหรับแต่ละชายแดน ตัวอย่างเช่น`borders[BorderType.Left].Color = Color.Red;`.
+คุณสามารถตั้งค่าสีเส้นขอบได้โดยใช้ `Color` คุณสมบัติสำหรับแต่ละชายแดน ตัวอย่างเช่น `borders[BorderType-Left].Color = Color.Red;`.
 
 ### เป็นไปได้ไหมที่จะใส่ขอบและแรเงาให้กับเฉพาะส่วนของข้อความ?  
- ใช่ คุณสามารถใช้ขอบและแรเงาให้กับข้อความเฉพาะได้โดยใช้`Run` วัตถุภายใน`DocumentBuilder`.
+ใช่ คุณสามารถใช้ขอบและแรเงาให้กับข้อความเฉพาะได้โดยใช้ `Run` วัตถุภายใน `DocumentBuilder`-
 
 ### ฉันสามารถทำให้กระบวนการนี้เป็นแบบอัตโนมัติสำหรับย่อหน้าหลายย่อหน้าได้ไหม  
 แน่นอน! คุณสามารถวนซ้ำย่อหน้าของคุณและใช้ขอบและการตั้งค่าเงาแบบเดียวกันได้โดยการเขียนโปรแกรม
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

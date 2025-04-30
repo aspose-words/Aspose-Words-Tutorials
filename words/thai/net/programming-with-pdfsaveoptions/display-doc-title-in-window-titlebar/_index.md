@@ -1,14 +1,16 @@
 ---
-title: แสดงชื่อเอกสารในแถบชื่อหน้าต่าง
-linktitle: แสดงชื่อเอกสารในแถบชื่อหน้าต่าง
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแสดงชื่อเอกสารในแถบชื่อหน้าต่างของ PDF ของคุณโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้
-weight: 10
-url: /th/net/programming-with-pdfsaveoptions/display-doc-title-in-window-titlebar/
+"description": "เรียนรู้วิธีแสดงชื่อเอกสารในแถบชื่อหน้าต่างของ PDF ของคุณโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้"
+"linktitle": "แสดงชื่อเอกสารในแถบชื่อหน้าต่าง"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แสดงชื่อเอกสารในแถบชื่อหน้าต่าง"
+"url": "/th/net/programming-with-pdfsaveoptions/display-doc-title-in-window-titlebar/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แสดงชื่อเอกสารในแถบชื่อหน้าต่าง
@@ -21,7 +23,7 @@ url: /th/net/programming-with-pdfsaveoptions/display-doc-title-in-window-titleba
 
 ก่อนที่จะเริ่มดำเนินการ เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
--  Aspose.Words สำหรับไลบรารี .NET: คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับไลบรารี .NET: คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE อื่น ๆ ที่เข้ากันได้
 - ความรู้พื้นฐานเกี่ยวกับ C#: เราจะเขียนโค้ดในภาษา C#
 
@@ -29,7 +31,7 @@ url: /th/net/programming-with-pdfsaveoptions/display-doc-title-in-window-titleba
 
 ## นำเข้าเนมสเปซ
 
-สิ่งแรกที่ต้องทำคือนำเข้าเนมสเปซที่จำเป็น ซึ่งถือเป็นสิ่งสำคัญ เพราะจะช่วยให้คุณเข้าถึงคลาสและวิธีการที่จำเป็นสำหรับงานของเราได้
+สิ่งแรกที่ต้องทำคือนำเข้าเนมสเปซที่จำเป็น ซึ่งถือเป็นสิ่งสำคัญ เนื่องจากจะช่วยให้คุณสามารถเข้าถึงคลาสและวิธีการที่จำเป็นสำหรับงานของเราได้
 
 ```csharp
 using System;
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- ในขั้นตอนนี้ คุณระบุเส้นทางไปยังเอกสารของคุณ แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณเก็บเอกสารไว้
+ในขั้นตอนนี้ คุณระบุเส้นทางไปยังเอกสารของคุณ แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณเก็บเอกสารไว้
 
 ## ขั้นตอนที่ 2: กำหนดค่าตัวเลือกการบันทึก PDF
 
@@ -60,17 +62,17 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- โดยการตั้งค่า`DisplayDocTitle` ถึง`true`เราสั่งให้ Aspose.Words ใช้ชื่อเอกสารในแถบชื่อหน้าต่าง PDF
+โดยการตั้งค่า `DisplayDocTitle` ถึง `true`เราสั่งให้ Aspose.Words ใช้ชื่อเอกสารในแถบชื่อหน้าต่าง PDF
 
 ## ขั้นตอนที่ 3: บันทึกเอกสารเป็น PDF
 
-สุดท้าย เราบันทึกเอกสารเป็น PDF โดยใช้ตัวเลือกที่เราได้กำหนดค่าไว้
+สุดท้าย เราบันทึกเอกสารเป็น PDF โดยใช้ตัวเลือกที่ได้กำหนดค่าไว้
 
 ```csharp
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.DisplayDocTitleInWindowTitlebar.pdf", saveOptions);
 ```
 
-โค้ดบรรทัดนี้จะบันทึกเอกสารของคุณในรูปแบบ PDF พร้อมแสดงชื่อเรื่องในแถบชื่อเรื่อง อีกครั้ง อย่าลืมแทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมด้วยเส้นทางไดเร็กทอรีที่แท้จริง
+โค้ดบรรทัดนี้จะบันทึกเอกสารของคุณในรูปแบบ PDF พร้อมแสดงชื่อเรื่องในแถบชื่อเรื่อง อีกครั้ง อย่าลืมแทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมด้วยเส้นทางไดเร็กทอรีที่แท้จริง
 
 ## บทสรุป
 
@@ -91,11 +93,16 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.DisplayDocTitleInWindowTitlebar.pd
 ใช่ คุณสามารถแปลงไฟล์รูปแบบต่างๆ เช่น DOCX, RTF, HTML และอื่นๆ เป็น PDF ได้โดยใช้ Aspose.Words สำหรับ .NET
 
 ### ฉันจะได้รับการสนับสนุนได้อย่างไรหากประสบปัญหา?
- คุณสามารถเยี่ยมชม[ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือเกี่ยวกับปัญหาหรือข้อสงสัยใดๆ ที่คุณอาจมี
+คุณสามารถเยี่ยมชม [ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือเกี่ยวกับปัญหาหรือข้อสงสัยใดๆ ที่คุณอาจมี
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

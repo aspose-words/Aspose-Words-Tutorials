@@ -1,14 +1,16 @@
 ---
-title: Aspose.Words ile Word'deki Metin Kutularını Bağlama
-linktitle: Word'de Metin Kutularını Bağlama
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinde metin kutuları oluşturmayı ve bağlamayı öğrenin. Kusursuz belge özelleştirmesi için kapsamlı kılavuzumuzu takip edin!
-weight: 10
-url: /tr/net/working-with-textboxes/create-a-link/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinde metin kutuları oluşturmayı ve bağlamayı öğrenin. Kusursuz belge özelleştirmesi için kapsamlı kılavuzumuzu takip edin!"
+"linktitle": "Word'de Metin Kutularını Bağlama"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Aspose.Words ile Word'deki Metin Kutularını Bağlama"
+"url": "/tr/net/working-with-textboxes/create-a-link/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Words ile Word'deki Metin Kutularını Bağlama
@@ -21,7 +23,7 @@ Merhaba teknoloji meraklıları ve belge sihirbazları! 🌟 Word belgelerindeki
 
 Metin kutularını birbirine bağlamanın büyüsüne dalmadan önce, tüm temel unsurların hazır olduğundan emin olalım:
 
-1. Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET'in en son sürümüne ihtiyacınız olacak.[buradan indirin](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET'in en son sürümüne ihtiyacınız olacak. [buradan indirin](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Kodunuzu yazmak ve test etmek için Visual Studio benzeri bir .NET geliştirme ortamına ihtiyaç vardır.
 3. Temel C# Bilgisi: C# hakkında temel bir anlayışa sahip olmak, kod örneklerini takip etmenize yardımcı olacaktır.
 4. Örnek Word Belgesi: Bu eğitim için kesinlikle gerekli olmasa da, bağlantılı metin kutularınızı test etmek için örnek bir Word belgesine sahip olmak faydalı olabilir.
@@ -30,7 +32,7 @@ Metin kutularını birbirine bağlamanın büyüsüne dalmadan önce, tüm temel
 
 Aspose.Words ile çalışmaya başlamak için gerekli ad alanlarını içe aktarmamız gerekir. Bu ad alanları, Word belgelerini ve içeriklerini işlemek için gereken sınıfları ve yöntemleri sağlar.
 
-Bunları içe aktarmak için kod şu şekilde:
+İşte bunları içe aktarmak için kod:
 
 ```csharp
 using Aspose.Words;
@@ -68,11 +70,11 @@ Shape shape2 = new Shape(doc, ShapeType.TextBox);
 
 Bu kesitte:
 - `ShapeType.TextBox` oluşturduğumuz şekillerin metin kutuları olduğunu belirtir.
-- `shape1` Ve`shape2` iki metin kutumuz var.
+- `shape1` Ve `shape2` iki metin kutumuz var.
 
 ## Adım 3: TextBox Nesnelerine Erişim
 
- Her biri`Shape` nesnenin bir`TextBox` metin kutusunun özelliklerine ve yöntemlerine erişim sağlayan özellik. Burada metin kutusu içeriğini ve bağlantılarını ayarlıyoruz.
+Her biri `Shape` nesnenin bir `TextBox` metin kutusunun özelliklerine ve yöntemlerine erişim sağlayan özellik. Burada metin kutusu içeriğini ve bağlantılarını ayarlıyoruz.
 
 ### TextBox Nesnelerini Alma
 
@@ -83,13 +85,13 @@ TextBox textBox1 = shape1.TextBox;
 TextBox textBox2 = shape2.TextBox;
 ```
 
- Bu satırlar şunları depolar:`TextBox` nesneleri şekillerden`textBox1` Ve`textBox2`.
+Bu satırlar şunları depolar: `TextBox` nesneleri şekillerden `textBox1` Ve `textBox2`.
 
 ## Adım 4: Metin Kutularını Bağlama
 
- Sihirli an! Şimdi bağlantı kuruyoruz`textBox1` ile`textBox2` Bu, metnin taşması durumunda şu anlama gelir:`textBox1` , devam edecek`textBox2`.
+Sihirli an! Şimdi bağlantı kuruyoruz `textBox1` ile `textBox2`Bu, metnin taşması durumunda şu anlama gelir: `textBox1`, devam edecek `textBox2`.
 
-### Bağlantının Geçerliliğini Kontrol Etme
+### Bağlantı Geçerliliğini Kontrol Etme
 
 Öncelikle iki metin kutusunun birbirine bağlanıp bağlanamayacağını kontrol etmemiz gerekiyor:
 
@@ -101,8 +103,8 @@ if (textBox1.IsValidLinkTarget(textBox2))
 ```
 
 Bu kodda:
-- `IsValidLinkTarget` kontrol eder`textBox2` geçerli bir bağlantı hedefidir`textBox1`.
--  Eğer doğruysa, biz ayarladık`textBox1.Next` ile`textBox2`, bağlantıyı kuruyor.
+- `IsValidLinkTarget` kontrol eder `textBox2` geçerli bir bağlantı hedefidir `textBox1`.
+- Eğer doğruysa, biz ayarladık `textBox1.Next` ile `textBox2`, bağlantıyı kuruyor.
 
 ## Adım 5: Belgeyi Sonlandırma ve Kaydetme
 
@@ -122,7 +124,7 @@ Bu, belgeyi "LinkedTextBoxes.docx" dosya adıyla kaydeder. Artık dosyayı açar
 
 Ve işte oldu! 🎉 Aspose.Words for .NET kullanarak bir Word belgesinde metin kutularını başarıyla oluşturdunuz ve bağladınız. Bu eğitim, ortamınızı kurma, metin kutuları oluşturma ve bağlama ve belgenizi kaydetme konusunda size rehberlik etti. Bu becerilerle, Word belgelerinizi dinamik içerik akışlarıyla geliştirebilir ve belgelerinizi daha etkileşimli ve kullanıcı dostu hale getirebilirsiniz.
 
- Daha detaylı bilgi ve gelişmiş özellikler için şuraya göz atmayı unutmayın:[Aspose.Words API belgeleri](https://reference.aspose.com/words/net/)Herhangi bir sorunuz varsa veya sorunla karşılaşırsanız,[destek forumu](https://forum.aspose.com/c/words/8) harika bir kaynaktır.
+Daha detaylı bilgi ve gelişmiş özellikler için şuraya göz atmayı unutmayın: [Aspose.Words API belgeleri](https://reference.aspose.com/words/net/)Herhangi bir sorunuz varsa veya sorunla karşılaşırsanız, [destek forumu](https://forum.aspose.com/c/words/8) harika bir kaynaktır.
 
 Mutlu kodlamalar ve metin kutularınızın her zaman mükemmel şekilde bağlanması dileğiyle! 🚀
 
@@ -138,13 +140,18 @@ Evet, birden fazla metin kutusunu bir dizi halinde bağlayabilirsiniz. Sadece he
 Aspose.Words'ün zengin biçimlendirme seçeneklerini veya Word kullanıcı arayüzünü kullanarak, her metin kutusunun içindeki metni, Word belgesindeki diğer metinler gibi biçimlendirebilirsiniz.
 
 ### Metin kutuları birbirine bağlandıktan sonra bağlantılarını kaldırmak mümkün müdür?
- Evet, metin kutularının bağlantısını şu şekilde ayarlayarak kaldırabilirsiniz:`Next` mülkiyeti`TextBox` itiraz etmek`null`.
+Evet, metin kutularının bağlantısını şu şekilde ayarlayarak kaldırabilirsiniz: `Next` mülkiyeti `TextBox` itiraz etmek `null`.
 
 ### Aspose.Words for .NET hakkında daha fazla öğreticiyi nerede bulabilirim?
- Daha fazla öğretici ve kaynak bulabilirsiniz[Aspose.Words for .NET dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+Daha fazla öğretici ve kaynak bulabilirsiniz [Aspose.Words for .NET dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

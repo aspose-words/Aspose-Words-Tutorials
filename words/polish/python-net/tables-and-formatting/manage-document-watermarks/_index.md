@@ -1,14 +1,16 @@
 ---
-title: Tworzenie i formatowanie znaków wodnych w celu poprawy estetyki dokumentu
-linktitle: Tworzenie i formatowanie znaków wodnych w celu poprawy estetyki dokumentu
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Dowiedz się, jak tworzyć i formatować znaki wodne w dokumentach za pomocą Aspose.Words for Python. Przewodnik krok po kroku z kodem źródłowym do dodawania znaków wodnych tekstowych i graficznych. Popraw estetykę swojego dokumentu dzięki temu samouczkowi.
-weight: 10
-url: /pl/python-net/tables-and-formatting/manage-document-watermarks/
+"description": "Dowiedz się, jak tworzyć i formatować znaki wodne w dokumentach za pomocą Aspose.Words for Python. Przewodnik krok po kroku z kodem źródłowym do dodawania znaków wodnych tekstowych i graficznych. Popraw estetykę swojego dokumentu dzięki temu samouczkowi."
+"linktitle": "Tworzenie i formatowanie znaków wodnych w celu poprawy estetyki dokumentu"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Tworzenie i formatowanie znaków wodnych w celu poprawy estetyki dokumentu"
+"url": "/pl/python-net/tables-and-formatting/manage-document-watermarks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tworzenie i formatowanie znaków wodnych w celu poprawy estetyki dokumentu
@@ -22,17 +24,17 @@ Znaki wodne to elementy projektu umieszczane w tle dokumentów w celu przekazani
 
 ## Pierwsze kroki z Aspose.Words dla Pythona
 
- Na początek upewnij się, że masz zainstalowany Aspose.Words dla Pythona. Możesz go pobrać z Aspose Releases:[Pobierz Aspose.Words dla Pythona](https://releases.aspose.com/words/python/).
+Na początek upewnij się, że masz zainstalowany Aspose.Words dla Pythona. Możesz go pobrać z Aspose Releases: [Pobierz Aspose.Words dla Pythona](https://releases.aspose.com/words/python/).
 
 Po instalacji możesz zaimportować niezbędne moduły i skonfigurować obiekt dokumentu.
 
 ```python
 import aspose.words as aw
 
-# Load or create a document
+# Załaduj lub utwórz dokument
 doc = aw.Document()
 
-# Your code continues here
+# Twój kod jest kontynuowany tutaj
 ```
 
 ## Dodawanie znaków wodnych tekstowych
@@ -44,13 +46,13 @@ Aby dodać tekstowy znak wodny, wykonaj następujące kroki:
 3. Dodaj znak wodny do dokumentu.
 
 ```python
-# Create a watermark object
+# Utwórz obiekt znaku wodnego
 watermark = aw.drawing.Watermark()
 
-# Set text for the watermark
+# Ustaw tekst znaku wodnego
 watermark.text = "Confidential"
 
-# Add the watermark to the document
+# Dodaj znak wodny do dokumentu
 doc.watermark = watermark
 ```
 
@@ -59,7 +61,7 @@ doc.watermark = watermark
 Możesz dostosować wygląd tekstowego znaku wodnego, zmieniając różne właściwości:
 
 ```python
-# Customize text watermark appearance
+# Dostosuj wygląd znaku wodnego
 watermark.font.size = 36
 watermark.font.bold = True
 watermark.color = aw.drawing.Color.GRAY
@@ -74,14 +76,14 @@ Dodawanie znaków wodnych do obrazów wiąże się z podobnym procesem:
 3. Dodaj znak wodny do dokumentu.
 
 ```python
-# Load the image for the watermark
+# Załaduj obraz dla znaku wodnego
 image_path = "path/to/watermark.png"
 watermark_image = aw.drawing.Image(image_path)
 
-# Create an image watermark object
+# Utwórz obiekt znaku wodnego obrazu
 image_watermark = aw.drawing.ImageWatermark(watermark_image)
 
-# Add the image watermark to the document
+# Dodaj znak wodny do dokumentu
 doc.watermark = image_watermark
 ```
 
@@ -90,7 +92,7 @@ doc.watermark = image_watermark
 Możesz kontrolować rozmiar i położenie znaku wodnego:
 
 ```python
-# Adjust image watermark properties
+# Dostosuj właściwości znaku wodnego obrazu
 image_watermark.size = aw.drawing.SizeF(200, 100)
 image_watermark.relative_horizontal_position = aw.drawing.RelativeHorizontalPosition.CENTER
 image_watermark.relative_vertical_position = aw.drawing.RelativeVerticalPosition.MIDDLE
@@ -101,7 +103,7 @@ image_watermark.relative_vertical_position = aw.drawing.RelativeVerticalPosition
 Jeśli chcesz zastosować znaki wodne w konkretnych sekcjach dokumentu, możesz skorzystać z następującego podejścia:
 
 ```python
-# Apply watermark to a specific section
+# Zastosuj znak wodny do określonej sekcji
 section = doc.sections[0]
 section.watermark = watermark
 ```
@@ -111,8 +113,8 @@ section.watermark = watermark
 Aby utworzyć przezroczysty znak wodny, dostosuj poziom przezroczystości:
 
 ```python
-# Create a transparent watermark
-watermark.transparency = 0.5  # Range: 0 (opaque) to 1 (fully transparent)
+# Utwórz przezroczysty znak wodny
+watermark.transparency = 0.5  # Zakres: od 0 (nieprzezroczysty) do 1 (całkowicie przezroczysty)
 ```
 
 ## Zapisywanie dokumentu ze znakami wodnymi
@@ -120,7 +122,7 @@ watermark.transparency = 0.5  # Range: 0 (opaque) to 1 (fully transparent)
 Po dodaniu znaków wodnych zapisz dokument z zastosowanymi znakami wodnymi:
 
 ```python
-# Save the document with watermarks
+# Zapisz dokument ze znakami wodnymi
 output_path = "path/to/output/document_with_watermark.docx"
 doc.save(output_path)
 ```
@@ -133,7 +135,7 @@ Dodawanie znaków wodnych do dokumentów za pomocą Aspose.Words for Python to p
 
 ### Jak usunąć znak wodny z dokumentu?
 
- Aby usunąć znak wodny, ustaw właściwość znaku wodnego dokumentu na`None`.
+Aby usunąć znak wodny, ustaw właściwość znaku wodnego dokumentu na `None`.
 
 ### Czy mogę zastosować różne znaki wodne na różnych stronach?
 
@@ -151,10 +153,15 @@ Mimo że znaków wodnych nie można w pełni chronić, można uczynić je bardzi
 
 Tak, Aspose.Words for Python jest kompatybilny zarówno ze środowiskiem Windows, jak i Linux.
 
- Więcej szczegółów i pełne odwołania do interfejsu API można znaleźć w dokumentacji Aspose.Words:[Aspose.Words dla API Pythona Odwołania](https://reference.aspose.com/words/python-net/)
+Więcej szczegółów i pełne odwołania do interfejsu API można znaleźć w dokumentacji Aspose.Words: [Aspose.Words dla API Pythona Odwołania](https://reference.aspose.com/words/python-net/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

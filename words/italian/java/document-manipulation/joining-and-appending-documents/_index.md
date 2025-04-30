@@ -1,14 +1,16 @@
 ---
-title: Unire e aggiungere documenti in Aspose.Words per Java
-linktitle: Unire e aggiungere documenti
-second_title: API di elaborazione dei documenti Java Aspose.Words
-description: Scopri come unire e aggiungere documenti senza sforzo usando Aspose.Words per Java. Mantieni la formattazione, gestisci intestazioni, piè di pagina e altro ancora.
-weight: 30
-url: /it/java/document-manipulation/joining-and-appending-documents/
+"description": "Scopri come unire e aggiungere documenti senza sforzo utilizzando Aspose.Words per Java. Mantieni la formattazione, gestisci intestazioni, piè di pagina e altro ancora."
+"linktitle": "Unire e aggiungere documenti"
+"second_title": "API di elaborazione dei documenti Java Aspose.Words"
+"title": "Unire e aggiungere documenti in Aspose.Words per Java"
+"url": "/it/java/document-manipulation/joining-and-appending-documents/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Unire e aggiungere documenti in Aspose.Words per Java
@@ -16,7 +18,7 @@ url: /it/java/document-manipulation/joining-and-appending-documents/
 
 ## Introduzione all'unione e all'aggiunta di documenti in Aspose.Words per Java
 
-In questo tutorial, esploreremo come unire e aggiungere documenti utilizzando la libreria Aspose.Words per Java. Imparerai come unire senza problemi più documenti preservandone formattazione e struttura.
+In questo tutorial, esploreremo come unire e aggiungere documenti utilizzando la libreria Aspose.Words per Java. Imparerai come unire senza problemi più documenti, preservandone la formattazione e la struttura.
 
 ## Prerequisiti
 
@@ -32,7 +34,7 @@ Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Aggiungi con le opzioni del formato di importazione
+### Aggiungi con opzioni di formato di importazione
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -49,7 +51,7 @@ dstDoc.removeAllChildren();
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Aggiungi con conversione numero pagina
+### Aggiungi con conversione del numero di pagina
 
 ```java
 Document srcDoc = new Document("source.docx");
@@ -90,7 +92,7 @@ DocumentBuilder builder = new DocumentBuilder(dstDoc);
 builder.insertDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-## Mantenere la numerazione delle fonti
+## Mantenere la numerazione delle sorgenti
 
 ```java
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
@@ -124,32 +126,37 @@ dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 
 ## Conclusione
 
-Aspose.Words per Java fornisce strumenti flessibili e potenti per unire e aggiungere documenti, sia che tu debba mantenere la formattazione, gestire diverse impostazioni di pagina o gestire intestazioni e piè di pagina. Sperimenta queste tecniche per soddisfare le tue specifiche esigenze di elaborazione dei documenti.
+Aspose.Words per Java offre strumenti flessibili e potenti per unire e aggiungere documenti, sia che si tratti di mantenere la formattazione, gestire diverse impostazioni di pagina o gestire intestazioni e piè di pagina. Sperimentate queste tecniche per soddisfare le vostre specifiche esigenze di elaborazione dei documenti.
 
 ## Domande frequenti
 
 ### Come posso unire senza problemi documenti con stili diversi?
 
- Per unire documenti con stili diversi, utilizzare`ImportFormatMode.USE_DESTINATION_STYLES` durante l'aggiunta.
+Per unire documenti con stili diversi, utilizzare `ImportFormatMode.USE_DESTINATION_STYLES` durante l'aggiunta.
 
 ### Posso mantenere la numerazione delle pagine quando allego documenti?
 
- Sì, puoi preservare la numerazione delle pagine utilizzando`convertNumPageFieldsToPageRef` metodo e aggiornamento del layout della pagina.
+Sì, puoi preservare la numerazione delle pagine utilizzando `convertNumPageFieldsToPageRef` metodo e aggiornamento del layout della pagina.
 
 ### Che cosa si intende per comportamento intelligente?
 
- Smart Style Behavior aiuta a mantenere stili coerenti quando si aggiungono documenti. Usalo con`ImportFormatOptions` per ottenere risultati migliori.
+Il comportamento di stile intelligente aiuta a mantenere stili coerenti durante l'aggiunta di documenti. Usalo con `ImportFormatOptions` per ottenere risultati migliori.
 
 ### Come posso gestire le caselle di testo quando allego documenti?
 
-Impostato`importFormatOptions.setIgnoreTextBoxes(false)` per includere caselle di testo durante l'aggiunta.
+Impostato `importFormatOptions.setIgnoreTextBoxes(false)` per includere caselle di testo durante l'aggiunta.
 
 ### Cosa succede se voglio collegare/scollegare intestazioni e piè di pagina tra documenti?
 
- È possibile collegare intestazioni e piè di pagina con`linkToPrevious(true)` o scollegarli con`linkToPrevious(false)` secondo necessità.
+È possibile collegare intestazioni e piè di pagina con `linkToPrevious(true)` o scollegarli con `linkToPrevious(false)` secondo necessità.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

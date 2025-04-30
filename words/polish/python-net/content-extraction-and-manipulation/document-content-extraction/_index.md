@@ -1,14 +1,16 @@
 ---
-title: Efektywne wyodrębnianie treści z dokumentów Word
-linktitle: Efektywne wyodrębnianie treści z dokumentów Word
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Wydajnie wyodrębniaj zawartość z dokumentów Word za pomocą Aspose.Words dla Pythona. Ucz się krok po kroku na przykładach kodu.
-weight: 11
-url: /pl/python-net/content-extraction-and-manipulation/document-content-extraction/
+"description": "Wydajnie wyodrębniaj zawartość z dokumentów Word za pomocą Aspose.Words dla Pythona. Ucz się krok po kroku na przykładach kodu."
+"linktitle": "Efektywne wyodrębnianie treści z dokumentów Word"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Efektywne wyodrębnianie treści z dokumentów Word"
+"url": "/pl/python-net/content-extraction-and-manipulation/document-content-extraction/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Efektywne wyodrębnianie treści z dokumentów Word
@@ -20,7 +22,7 @@ Efektywne wyodrębnianie treści z dokumentów Word jest powszechnym wymogiem w 
 
 ## Wymagania wstępne
 
- Zanim zagłębimy się w kod, upewnij się, że masz zainstalowane Python i bibliotekę Aspose.Words. Możesz pobrać bibliotekę ze strony internetowej[Tutaj](https://releases.aspose.com/words/python/). Upewnij się również, że masz gotowy dokument Word do testowania.
+Zanim zagłębimy się w kod, upewnij się, że masz zainstalowane Python i bibliotekę Aspose.Words. Możesz pobrać bibliotekę ze strony internetowej [Tutaj](https://releases.aspose.com/words/python/). Upewnij się również, że masz gotowy dokument Word do testowania.
 
 ## Instalowanie Aspose.Words dla Pythona
 
@@ -103,7 +105,7 @@ Efektywna ekstrakcja treści z dokumentów Word jest możliwa dzięki Aspose.Wor
 
 ### Jak zainstalować Aspose.Words dla języka Python?
 
- Aby zainstalować Aspose.Words dla języka Python, użyj następującego polecenia:`pip install aspose-words`.
+Aby zainstalować Aspose.Words dla języka Python, użyj następującego polecenia: `pip install aspose-words`.
 
 ### Czy mogę jednocześnie wyodrębnić obrazy i tekst?
 
@@ -119,10 +121,15 @@ Tak, możesz wyodrębnić treść zarówno z nagłówka, jak i stopki, używają
 
 ### Gdzie mogę znaleźć więcej informacji o Aspose.Words dla języka Python?
 
- Aby uzyskać pełną dokumentację i odniesienia, odwiedź stronę[Tutaj](https://reference.aspose.com/words/python-net/).
+Aby uzyskać pełną dokumentację i odniesienia, odwiedź stronę [Tutaj](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

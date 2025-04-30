@@ -1,43 +1,51 @@
 ---
-title: Δημιουργήστε έγγραφο Word με τίτλο και υποσημείωση χρησιμοποιώντας Aspose.Words
-weight: 7700
-limit: 
-description: Μάθετε πώς να δημιουργήσετε ένα έγγραφο Word με μια κύρια αρχεία και πόδι χρησιμοποιώντας το Aspose.Words για το .NET. Σχετικό οδηγό βήμα-βήμα με κώδικα και εξηγήσεις.
-keywords: [Aspose.Words for .NET, create Word document, add header in Word, add footer in Word, Word document header and footer, .NET Word processing, Aspose.Words examples]
-url: /el/net/header-footer-formatting/create-header-footer/
+"description": "Μάθετε πώς να δημιουργείτε ένα έγγραφο Word με κύρια κεφαλίδα και υποσέλιδο χρησιμοποιώντας το Aspose.Words για .NET. Οδηγός βήμα προς βήμα με κώδικα και εξηγήσεις."
+"title": "Δημιουργία εγγράφου Word με κεφαλίδα και υποσέλιδο χρησιμοποιώντας το Aspose.Words"
+"url": "/el/net/header-footer-formatting/create-header-footer/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργήστε έγγραφο Word με τίτλο και υποσημείωση χρησιμοποιώντας Aspose.Words
+# Δημιουργία εγγράφου Word με κεφαλίδα και υποσέλιδο χρησιμοποιώντας το Aspose.Words
 
-Αυτό το παράδειγμα δείχνει πώς να χρησιμοποιήσετε το Aspose.Words για το .NET για τη δημιουργία ενός εγγράφου Word με πρωταρχική επικεφαλίδα και υποσημείωση. Ο οδηγός σας οδηγεί στη δημιουργία ενός νέου εγγράφου, μετακινούμενοι στις ενότητες επικεφαλίδας και υποσημείωσης, προσθέτοντας προσαρμοσμένο κείμενο και αποθηκεύοντας το έγγραφο σε μορφή DOCX. Με την ισχυρή τάξη DocumentBuilder, το Aspose.Words καθιστά την χειραγώγηση εγγράφων Word άνευ διακρίσεων και αποτελεσματική. Είτε προσθέτετε στοιχεία μάρκετινγκ ή αριθμούς σελίδων, αυτό το παράδειγμα παρέχει το θεμέλιο για την προσαρμογή εγγράφων Word προγραμματικά.  
+Αυτό το παράδειγμα δείχνει πώς να χρησιμοποιήσετε το Aspose.Words για .NET για να δημιουργήσετε ένα έγγραφο Word με κύρια κεφαλίδα και υποσέλιδο. Ο οδηγός σας καθοδηγεί στην αρχικοποίηση ενός νέου εγγράφου, στη μετάβαση στις ενότητες κεφαλίδας και υποσέλιδου, στην προσθήκη προσαρμοσμένου κειμένου και στην αποθήκευση του εγγράφου σε μορφή DOCX. Με την ισχυρή κλάση DocumentBuilder, το Aspose.Words κάνει τον χειρισμό εγγράφων Word απρόσκοπτο και αποτελεσματικό. Είτε προσθέτετε στοιχεία επωνυμίας είτε αριθμούς σελίδων, αυτό το παράδειγμα παρέχει τη βάση για την προσαρμογή εγγράφων Word μέσω προγραμματισμού.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/header-footer-formatting/create-header-footer" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Διδασκαλίες εγκατάστασης  
-1. Κατεβάστε το Aspose.Words για .NET: Βρείτε την τελευταία έκδοση από το [Σελίδα απελευθέρωσης Aspose](https://releases.aspose.com/words/net/)\- Δεν ξέρω .  
-2. Εγκαταστήστε Aspose.Words:  
-   * Χρησιμοποιήστε το Διαχειριστή πακέτων NuGet:  
+## Οδηγίες εγκατάστασης  
+1. Λήψη του Aspose.Words για .NET: Αποκτήστε την τελευταία έκδοση από το [Σελίδα κυκλοφοριών Aspose](https://releases.aspose.com/words/net/).  
+2. Εγκατάσταση Aspose.Words:  
+   - Χρησιμοποιήστε το NuGet Package Manager:  
      ```bash  
      Install-Package Aspose.Words  
      ```  
-   * Ή να ανατρέχετε χειροκίνητα στο DLL από το κατεβασμένο πακέτο.  
-3. Εφαρμογή άδειας (Επιαιρετική):[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/)ή πλήρη άδεια από [Στόχος Αγοράς](https://purchase.aspose.com/buy)και να το εφαρμόσετε στο έργο σας:  
+   - Ή αναφέρετε χειροκίνητα το αρχείο DLL από το πακέτο που έχετε κατεβάσει.  
+3. Εφαρμογή Άδειας Χρήσης (Προαιρετικό): Αποκτήστε μια [προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) ή μια πλήρη άδεια από [Αγορά Aspose](https://purchase.aspose.com/buy) και εφαρμόστε το στο έργο σας:  
    ```csharp  
    License license = new License();  
    license.SetLicense("Aspose.Words.lic");  
    ```    
 
 ## Δείτε επίσης
-[Aspose.Word για έγγραφο .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word για .NET References](https://reference.aspose.com/words/net/)
+[Aspose.Word για τεκμηρίωση .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word για αναφορές .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

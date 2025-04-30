@@ -1,14 +1,16 @@
 ---
-title: IF Koşulunu Değerlendir
-linktitle: IF Koşulunu Değerlendir
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerindeki IF koşullarının nasıl değerlendirileceğini öğrenin. Bu adım adım kılavuz, ekleme, değerlendirme ve sonuç görüntülemeyi kapsar.
-weight: 10
-url: /tr/net/working-with-fields/evaluate-ifcondition/
+"description": "Aspose.Words for .NET kullanarak Word belgelerindeki IF koşullarının nasıl değerlendirileceğini öğrenin. Bu adım adım kılavuz, ekleme, değerlendirme ve sonuç görüntülemeyi kapsar."
+"linktitle": "IF Koşulunu Değerlendir"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "IF Koşulunu Değerlendir"
+"url": "/tr/net/working-with-fields/evaluate-ifcondition/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # IF Koşulunu Değerlendir
@@ -21,13 +23,13 @@ Dinamik belgelerle çalışırken, içeriği belirli ölçütlere göre uyarlama
 
 Eğitime başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[web sitesi](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [web sitesi](https://releases.aspose.com/words/net/).
 
 2. Visual Studio: .NET geliştirmeyi destekleyen herhangi bir Visual Studio sürümü. Aspose.Words'ü entegre edebileceğiniz bir .NET projenizin kurulu olduğundan emin olun.
 
 3. Temel C# Bilgisi: C# programlama dili ve .NET framework'üne aşinalık.
 
-4.  Aspose Lisansı: Aspose.Words'ün lisanslı bir sürümünü kullanıyorsanız, lisansınızın düzgün bir şekilde yapılandırıldığından emin olun. Bir tane alabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) eğer gerekirse.
+4. Aspose Lisansı: Aspose.Words'ün lisanslı bir sürümünü kullanıyorsanız, lisansınızın düzgün bir şekilde yapılandırıldığından emin olun. Bir tane alabilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) eğer gerekirse.
 
 5. Word Alanlarının Anlaşılması: Word alanları, özellikle IF alanı hakkında bilgi sahibi olmak faydalı olacaktır ancak zorunlu değildir.
 
@@ -42,47 +44,47 @@ using Aspose.Words.Fields;
 
 ## Adım 1: Yeni Bir Belge Oluşturun
 
- İlk olarak, bir örnek oluşturmanız gerekir`DocumentBuilder` sınıf. Bu sınıf, Word belgelerini programlı olarak oluşturmak ve düzenlemek için yöntemler sağlar.
+İlk olarak, bir örnek oluşturmanız gerekir `DocumentBuilder` sınıf. Bu sınıf, Word belgelerini programlı olarak oluşturmak ve düzenlemek için yöntemler sağlar.
 
 ```csharp
 // Belge oluşturucunun oluşturulması.
 DocumentBuilder builder = new DocumentBuilder();
 ```
 
- Bu adımda, bir`DocumentBuilder` Belge içerisinde alan eklemek ve düzenlemek için kullanılacak nesne.
+Bu adımda, bir `DocumentBuilder` Belge içerisinde alan eklemek ve düzenlemek için kullanılacak nesne.
 
 ## Adım 2: IF Alanını Ekle
 
- İle`DocumentBuilder`örnek hazır, bir sonraki adım belgeye bir IF alanı eklemektir. IF alanı bir koşul belirtmenize ve koşulun doğru veya yanlış olmasına göre farklı çıktılar tanımlamanıza olanak tanır.
+İle `DocumentBuilder` örnek hazır, bir sonraki adım belgeye bir IF alanı eklemektir. IF alanı bir koşul belirtmenize ve koşulun doğru veya yanlış olmasına göre farklı çıktılar tanımlamanıza olanak tanır.
 
 ```csharp
 // Eğer alanını belgeye ekleyin.
 FieldIf field = (FieldIf)builder.InsertField("IF 1 = 1", null);
 ```
 
- Burada,`builder.InsertField` geçerli imleç konumuna bir alan eklemek için kullanılır. Alan türü şu şekilde belirtilir:`"IF 1 = 1"` , 1'in 1'e eşit olduğu basit bir koşuldur. Bu her zaman doğru olarak değerlendirilecektir.`null` parametresi, alan için ek biçimlendirmeye gerek olmadığını belirtir.
+Burada, `builder.InsertField` geçerli imleç konumuna bir alan eklemek için kullanılır. Alan türü şu şekilde belirtilir: `"IF 1 = 1"`, 1'in 1'e eşit olduğu basit bir koşuldur. Bu her zaman doğru olarak değerlendirilecektir. `null` parametresi, alan için ek biçimlendirmeye gerek olmadığını belirtir.
 
 ## Adım 3: IF Koşulunu Değerlendirin
 
- IF alanı eklendiğinde, doğru mu yanlış mı olduğunu kontrol etmek için koşulu değerlendirmeniz gerekir. Bu, şu şekilde yapılır:`EvaluateCondition` yöntemi`FieldIf` sınıf.
+IF alanı eklendiğinde, doğru mu yanlış mı olduğunu kontrol etmek için koşulu değerlendirmeniz gerekir. Bu, şu şekilde yapılır: `EvaluateCondition` yöntemi `FieldIf` sınıf.
 
 ```csharp
 // IF koşulunu değerlendirin.
 FieldIfComparisonResult actualResult = field.EvaluateCondition();
 ```
 
- The`EvaluateCondition` yöntem bir döndürür`FieldIfComparisonResult` koşul değerlendirmesinin sonucunu temsil eden enum. Bu enum şu değerlere sahip olabilir:`True`, `False` , veya`Unknown`.
+The `EvaluateCondition` yöntem bir döndürür `FieldIfComparisonResult` koşul değerlendirmesinin sonucunu temsil eden enum. Bu enum şu değerlere sahip olabilir: `True`, `False`, veya `Unknown`.
 
 ## Adım 4: Sonucu Göster
 
 Son olarak, değerlendirmenin sonucunu görüntüleyebilirsiniz. Bu, koşulun beklendiği gibi değerlendirilip değerlendirilmediğini doğrulamaya yardımcı olur.
 
 ```csharp
-//Değerlendirme sonucunu görüntüle.
+// Değerlendirme sonucunu görüntüle.
 Console.WriteLine(actualResult);
 ```
 
- Bu adımda şunu kullanırsınız:`Console.WriteLine` koşul değerlendirmesinin sonucunu çıktı olarak almak için. Koşula ve değerlendirmesine bağlı olarak, sonucun konsolda yazdırıldığını göreceksiniz.
+Bu adımda şunu kullanırsınız: `Console.WriteLine` koşul değerlendirmesinin sonucunu çıktı olarak almak için. Koşula ve değerlendirmesine bağlı olarak, sonucun konsolda yazdırıldığını göreceksiniz.
 
 ## Çözüm
 
@@ -96,19 +98,24 @@ Belgelerinizdeki IF alanlarını nasıl kullanacağınızı tam olarak anlamak i
 IF alanı, belgenize koşullu mantık eklemenize olanak tanıyan bir Word alanıdır. Bir koşulu değerlendirir ve koşulun doğru veya yanlış olmasına göre farklı içerikler görüntüler.
 
 ### Bir belgeye EĞER alanı nasıl eklerim?
- Bir IF alanını kullanarak ekleyebilirsiniz.`InsertField` yöntemi`DocumentBuilder` Değerlendirmek istediğiniz koşulu belirten sınıf.
+Bir IF alanını kullanarak ekleyebilirsiniz. `InsertField` yöntemi `DocumentBuilder` Değerlendirmek istediğiniz koşulu belirten sınıf.
 
-###  Ne yapar?`EvaluateCondition` method do?
- The`EvaluateCondition` yöntemi, IF alanında belirtilen koşulu değerlendirir ve koşulun doğru mu yoksa yanlış mı olduğunu gösteren sonucu döndürür.
+### Ne yapar? `EvaluateCondition` yöntem ne?
+The `EvaluateCondition` yöntemi, bir IF alanında belirtilen koşulu değerlendirir ve koşulun doğru mu yoksa yanlış mı olduğunu gösteren sonucu döndürür.
 
 ### IF alanıyla karmaşık koşullar kullanabilir miyim?
 Evet, ihtiyacınıza göre farklı ifadeler ve karşılaştırmalar belirleyerek IF alanıyla karmaşık koşullar kullanabilirsiniz.
 
 ### Aspose.Words for .NET hakkında daha fazla bilgiyi nerede bulabilirim?
- Daha fazla bilgi için şu adresi ziyaret edebilirsiniz:[Aspose.Words Belgeleri](https://reference.aspose.com/words/net/)veya Aspose tarafından sağlanan ek kaynakları ve destek seçeneklerini keşfedin.
+Daha fazla bilgi için şu adresi ziyaret edebilirsiniz: [Aspose.Words Belgeleri](https://reference.aspose.com/words/net/)veya Aspose tarafından sağlanan ek kaynakları ve destek seçeneklerini keşfedin.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

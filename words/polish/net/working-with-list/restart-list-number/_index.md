@@ -1,14 +1,16 @@
 ---
-title: Numer listy ponownego uruchomienia
-linktitle: Numer listy ponownego uruchomienia
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak ponownie uruchomić numery list w dokumentach Word za pomocą Aspose.Words dla .NET. Ten szczegółowy, 2000-wyrazowy przewodnik obejmuje wszystko, co musisz wiedzieć, od konfiguracji po zaawansowaną personalizację.
-weight: 10
-url: /pl/net/working-with-list/restart-list-number/
+"description": "Dowiedz się, jak ponownie uruchomić numery list w dokumentach Word za pomocą Aspose.Words dla .NET. Ten szczegółowy, 2000-wyrazowy przewodnik obejmuje wszystko, co musisz wiedzieć, od konfiguracji po zaawansowaną personalizację."
+"linktitle": "Numer listy ponownego uruchomienia"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Numer listy ponownego uruchomienia"
+"url": "/pl/net/working-with-list/restart-list-number/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Numer listy ponownego uruchomienia
@@ -21,7 +23,7 @@ Chcesz opanować sztukę manipulacji listami w dokumentach Worda przy użyciu As
 
 Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Jeśli jeszcze go nie zainstalowałeś, możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Jeśli jeszcze go nie zainstalowałeś, możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Upewnij się, że masz odpowiednie środowisko programistyczne, np. Visual Studio.
 3. Podstawowa znajomość języka C#: Podstawowa znajomość języka C# ułatwi Ci korzystanie z samouczka.
 
@@ -61,7 +63,7 @@ Tutaj ustawiliśmy kolor czcionki na czerwony i wyrównaliśmy tekst do prawej.
 
 ## Krok 3: Dodaj elementy do swojej pierwszej listy
 
- Mając gotową listę, czas dodać kilka elementów. DocumentBuilder`ListFormat.List` Właściwość ta pomaga w zastosowaniu formatu listy do tekstu.
+Mając gotową listę, czas dodać kilka elementów. DocumentBuilder `ListFormat.List` Właściwość ta pomaga w zastosowaniu formatu listy do tekstu.
 
 ```csharp
 builder.Writeln("List 1 starts below:");
@@ -114,11 +116,11 @@ Oczywiście! Aspose.Words oferuje różne szablony list, takie jak punkty, liter
 
 ### Jak zmienić poziom listy?
 
- Poziom listy można zmienić, modyfikując`ListLevels` nieruchomość. Na przykład,`list1.ListLevels[1]` odnosiłoby się do drugiego poziomu listy.
+Poziom listy można zmienić, modyfikując `ListLevels` nieruchomość. Na przykład, `list1.ListLevels[1]` odnosiłoby się do drugiego poziomu listy.
 
 ### Czy mogę rozpocząć numerację od nowa od dowolnego numeru?
 
- Tak, możesz ustawić liczbę początkową na dowolną wartość całkowitą za pomocą`StartAt` Właściwość poziomu listy.
+Tak, możesz ustawić liczbę początkową na dowolną wartość całkowitą za pomocą `StartAt` Właściwość poziomu listy.
 
 ### Czy możliwe jest zastosowanie różnego formatowania dla różnych poziomów listy?
 
@@ -130,9 +132,14 @@ Jeśli chcesz kontynuować numerowanie, nie musisz tworzyć kopii listy. Po pros
 
 
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

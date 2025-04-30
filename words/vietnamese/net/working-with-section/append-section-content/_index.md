@@ -1,14 +1,16 @@
 ---
-title: Thêm phần nội dung từ
-linktitle: Thêm phần nội dung từ
-second_title: API xử lý tài liệu Aspose.Words
-description: Trong hướng dẫn này, hãy tìm hiểu cách thêm nội dung từ vào các phần cụ thể của tài liệu Word bằng Aspose.Words cho .NET.
-weight: 10
-url: /vi/net/working-with-section/append-section-content/
+"description": "Trong hướng dẫn này, hãy tìm hiểu cách thêm nội dung từ vào các phần cụ thể của tài liệu Word bằng Aspose.Words cho .NET."
+"linktitle": "Thêm phần nội dung từ"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thêm phần nội dung từ"
+"url": "/vi/net/working-with-section/append-section-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm phần nội dung từ
@@ -22,7 +24,7 @@ Xin chào! Bạn đã bao giờ tự hỏi làm thế nào để thao tác các 
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
 1. Kiến thức cơ bản về C#: Bạn không cần phải là chuyên gia, nhưng hiểu biết cơ bản về C# sẽ rất hữu ích.
-2.  Aspose.Words cho .NET: Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/) . Nếu bạn không muốn mua ngay, bạn có thể lựa chọn[dùng thử miễn phí](https://releases.aspose.com/).
+2. Aspose.Words cho .NET: Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/). Nếu bạn không muốn mua ngay, bạn có thể lựa chọn [dùng thử miễn phí](https://releases.aspose.com/).
 3. Visual Studio: Bất kỳ phiên bản nào cũng có thể chạy được, nhưng khuyến khích sử dụng phiên bản mới nhất.
 4. .NET Framework: Hãy đảm bảo rằng bạn đã cài đặt nó trên máy của mình.
 
@@ -48,7 +50,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Trong bước này, chúng tôi khởi tạo một tài liệu mới và một trình xây dựng tài liệu.`DocumentBuilder` là một công cụ tiện dụng giúp chúng ta thêm nội dung vào tài liệu.
+Trong bước này, chúng tôi khởi tạo một tài liệu mới và một trình xây dựng tài liệu. `DocumentBuilder` là một công cụ tiện dụng giúp chúng ta thêm nội dung vào tài liệu.
 
 ## Bước 2: Thêm các phần vào tài liệu
 
@@ -72,7 +74,7 @@ Bây giờ chúng ta đã có các phần, chúng ta cần truy cập vào chún
 Section section = doc.Sections[2];
 ```
 
-Trong bước này, chúng ta truy cập vào phần thứ ba của tài liệu. Hãy nhớ rằng, chỉ mục dựa trên số không, vì vậy`Sections[2]` đề cập đến phần thứ ba.
+Trong bước này, chúng ta truy cập vào phần thứ ba của tài liệu. Hãy nhớ rằng, chỉ mục dựa trên số không, vì vậy `Sections[2]` đề cập đến phần thứ ba.
 
 ## Bước 4: Thêm nội dung vào phần trước
 
@@ -108,7 +110,7 @@ doc.Save("output.docx");
 
 ## Phần kết luận
 
-Và bạn đã có nó! Bạn đã thao tác thành công các phần trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm những điều cơ bản về việc tạo tài liệu, thêm các phần và thao tác nội dung của chúng. Với Aspose.Words, bạn có thể thực hiện nhiều thao tác phức tạp hơn, vì vậy đừng ngần ngại khám phá[Tài liệu API](https://reference.aspose.com/words/net/) để có nhiều tính năng nâng cao hơn.
+Và bạn đã có nó! Bạn đã thao tác thành công các phần trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm những điều cơ bản về việc tạo tài liệu, thêm các phần và thao tác nội dung của chúng. Với Aspose.Words, bạn có thể thực hiện nhiều thao tác phức tạp hơn, vì vậy đừng ngần ngại khám phá [Tài liệu API](https://reference.aspose.com/words/net/) để có nhiều tính năng nâng cao hơn.
 
 ## Câu hỏi thường gặp
 
@@ -118,22 +120,26 @@ Aspose.Words for .NET là một thư viện mạnh mẽ cho phép các nhà phá
 
 ### 2. Tôi có thể sử dụng Aspose.Words cho .NET miễn phí không?
 
- Bạn có thể thử Aspose.Words cho .NET bằng cách sử dụng[dùng thử miễn phí](https://releases.aspose.com/). Để sử dụng lâu dài, bạn sẽ cần phải mua giấy phép.
+Bạn có thể thử Aspose.Words cho .NET bằng cách sử dụng [dùng thử miễn phí](https://releases.aspose.com/). Để sử dụng lâu dài, bạn sẽ cần phải mua giấy phép.
 
 ## 3. Các tính năng chính của Aspose.Words dành cho .NET là gì?
 
- Aspose.Words for .NET cung cấp nhiều tính năng bao gồm tạo tài liệu, định dạng, chuyển đổi và thao tác. Bạn có thể đọc thêm về khả năng của nó trong[Tài liệu API](https://reference.aspose.com/words/net/).
+Aspose.Words for .NET cung cấp nhiều tính năng bao gồm tạo tài liệu, định dạng, chuyển đổi và thao tác. Bạn có thể đọc thêm về khả năng của nó trong [Tài liệu API](https://reference.aspose.com/words/net/).
 
 ## 4. Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Words dành cho .NET?
 
- Bạn có thể nhận được hỗ trợ bằng cách truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được hỗ trợ bằng cách truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/8).
 
 ## 5. Tôi có thể thao tác các loại tài liệu khác bằng Aspose.Words cho .NET không?
 
 Có, Aspose.Words for .NET hỗ trợ nhiều định dạng tài liệu khác nhau bao gồm DOCX, DOC, RTF, HTML, PDF, v.v.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

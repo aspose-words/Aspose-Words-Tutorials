@@ -1,14 +1,16 @@
 ---
-title: การบันทึกรูปภาพเป็น WMF
-linktitle: การบันทึกรูปภาพเป็น WMF
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีบันทึกภาพเป็น WMF ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนโดยละเอียดของเรา เพิ่มความเข้ากันได้ของเอกสารและคุณภาพของภาพ
-weight: 10
-url: /th/net/programming-with-rtfsaveoptions/saving-images-as-wmf/
+"description": "เรียนรู้วิธีบันทึกภาพเป็น WMF ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนโดยละเอียดของเรา เพิ่มความเข้ากันได้ของเอกสารและคุณภาพของภาพ"
+"linktitle": "การบันทึกรูปภาพเป็น WMF"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การบันทึกรูปภาพเป็น WMF"
+"url": "/th/net/programming-with-rtfsaveoptions/saving-images-as-wmf/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การบันทึกรูปภาพเป็น WMF
@@ -21,7 +23,7 @@ url: /th/net/programming-with-rtfsaveoptions/saving-images-as-wmf/
 
 ก่อนที่เราจะเริ่มต้นเขียนโค้ด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่จำเป็นเพื่อให้ทำตามได้อย่างราบรื่น:
 
--  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: คุณควรมีการตั้งค่าสภาพแวดล้อมการพัฒนา C# เช่น Visual Studio
 - ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C# จะเป็นประโยชน์
 
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- คำอธิบาย: ในขั้นตอนนี้ เราจะระบุไดเรกทอรีที่เอกสารของคุณตั้งอยู่ จากนั้น เราจะโหลดเอกสารโดยใช้`Document` คลาสที่จัดทำโดย Aspose.Words ง่ายมากๆ ใช่ไหม?
+คำอธิบาย: ในขั้นตอนนี้ เราจะระบุไดเรกทอรีที่เอกสารของคุณตั้งอยู่ จากนั้น เราจะโหลดเอกสารโดยใช้ `Document` คลาสที่จัดทำโดย Aspose.Words ง่ายมากๆ ใช่ไหม?
 
 ## ขั้นตอนที่ 2: กำหนดค่าตัวเลือกการบันทึก
 
@@ -56,7 +58,7 @@ Document doc = new Document(dataDir + "Document.docx");
 RtfSaveOptions saveOptions = new RtfSaveOptions { SaveImagesAsWmf = true };
 ```
 
- คำอธิบาย: ที่นี่เราจะสร้างอินสแตนซ์ของ`RtfSaveOptions` และตั้งค่า`SaveImagesAsWmf`ทรัพย์สินที่จะ`true`นี่จะบอก Aspose.Words ให้บันทึกรูปภาพเป็น WMF เมื่อบันทึกเอกสาร
+คำอธิบาย: ที่นี่เราจะสร้างอินสแตนซ์ของ `RtfSaveOptions` และตั้งค่า `SaveImagesAsWmf` ทรัพย์สินที่จะ `true`นี่จะบอก Aspose.Words ให้บันทึกรูปภาพเป็น WMF เมื่อมีการบันทึกเอกสาร
 
 ## ขั้นตอนที่ 3: บันทึกเอกสาร
 
@@ -66,7 +68,7 @@ RtfSaveOptions saveOptions = new RtfSaveOptions { SaveImagesAsWmf = true };
 doc.Save(dataDir + "WorkingWithRtfSaveOptions.SavingImagesAsWmf.rtf", saveOptions);
 ```
 
- คำอธิบาย: ในขั้นตอนนี้เราใช้`Save` วิธีการของ`Document` คลาสที่จะบันทึกเอกสาร เราส่งเส้นทางไฟล์และ`saveOptions` เป็นพารามิเตอร์ ซึ่งจะทำให้มั่นใจได้ว่ารูปภาพจะถูกบันทึกเป็น WMF
+คำอธิบาย: ในขั้นตอนนี้เราใช้ `Save` วิธีการของ `Document` คลาสที่จะบันทึกเอกสาร เราส่งเส้นทางไฟล์และ `saveOptions` เป็นพารามิเตอร์ ซึ่งจะทำให้มั่นใจได้ว่ารูปภาพจะถูกบันทึกเป็น WMF
 
 ## บทสรุป
 
@@ -78,19 +80,24 @@ doc.Save(dataDir + "WorkingWithRtfSaveOptions.SavingImagesAsWmf.rtf", saveOption
 ใช่ Aspose.Words สำหรับ .NET รองรับรูปแบบภาพต่างๆ เช่น PNG, JPEG, BMP และอื่นๆ คุณสามารถกำหนดค่าตัวเลือกการบันทึกได้ตามความเหมาะสม
 
 ### มีเวอร์ชันทดลองใช้สำหรับ Aspose.Words สำหรับ .NET หรือไม่
- แน่นอน! คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+แน่นอน! คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Words สำหรับ .NET หรือไม่?
- ใช่ Aspose.Words สำหรับ .NET ต้องมีใบอนุญาต คุณสามารถซื้อได้[ที่นี่](https://purchase.aspose.com/buy) หรือรับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ใช่ Aspose.Words สำหรับ .NET ต้องมีใบอนุญาต คุณสามารถซื้อได้ [ที่นี่](https://purchase.aspose.com/buy) หรือรับใบอนุญาตชั่วคราว [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันจะได้รับการสนับสนุนหากประสบปัญหาหรือไม่?
- แน่นอน! Aspose ให้การสนับสนุนที่ครอบคลุมผ่านฟอรัม คุณสามารถเข้าถึงการสนับสนุนได้[ที่นี่](https://forum.aspose.com/c/words/8).
+แน่นอน! Aspose ให้การสนับสนุนที่ครอบคลุมผ่านฟอรัม คุณสามารถเข้าถึงการสนับสนุนได้ [ที่นี่](https://forum-aspose.com/c/words/8).
 
 ### มีข้อกำหนดระบบเฉพาะใดๆ สำหรับ Aspose.Words สำหรับ .NET หรือไม่
 Aspose.Words สำหรับ .NET เข้ากันได้กับ .NET Framework, .NET Core และ .NET Standard ตรวจสอบให้แน่ใจว่าสภาพแวดล้อมการพัฒนาของคุณตรงตามข้อกำหนดเหล่านี้
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

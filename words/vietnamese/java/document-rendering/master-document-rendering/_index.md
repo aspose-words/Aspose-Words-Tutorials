@@ -1,14 +1,16 @@
 ---
-title: Kết xuất tài liệu chính
-linktitle: Kết xuất tài liệu chính
-second_title: API xử lý tài liệu Java Aspose.Words
-description: 
-weight: 10
-url: /vi/java/document-rendering/master-document-rendering/
+"description": null
+"linktitle": "Kết xuất tài liệu chính"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Kết xuất tài liệu chính"
+"url": "/vi/java/document-rendering/master-document-rendering/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kết xuất tài liệu chính
@@ -28,11 +30,11 @@ Trước khi đi sâu vào việc kết xuất tài liệu, hãy bắt đầu v�
 
 ### Cài đặt và thiết lập
 
-Để sử dụng Aspose.Words cho Java, bạn cần phải bao gồm tệp JAR Aspose.Words trong dự án Java của bạn. Bạn có thể tải xuống JAR từ Aspose Releases(https://releases.aspose.com/words/java/) và thêm nó vào classpath của dự án bạn.
+Để sử dụng Aspose.Words cho Java, bạn cần phải bao gồm tệp JAR Aspose.Words trong dự án Java của mình. Bạn có thể tải xuống JAR từ Aspose Releases (https://releases.aspose.com/words/java/) và thêm nó vào classpath của dự án.
 
 ### Cấp phép Aspose.Words cho Java
 
- Để sử dụng Aspose.Words for Java trong môi trường sản xuất, bạn phải có giấy phép hợp lệ. Nếu không có giấy phép, thư viện sẽ hoạt động ở chế độ đánh giá, với một số hạn chế. Bạn có thể có được[giấy phép](https://purchase.aspose.com/pricing) và áp dụng nó để khai thác hết tiềm năng của thư viện.
+Để sử dụng Aspose.Words for Java trong môi trường sản xuất, bạn phải có giấy phép hợp lệ. Nếu không có giấy phép, thư viện sẽ hoạt động ở chế độ đánh giá, với một số hạn chế. Bạn có thể có được [giấy phép](https://purchase.aspose.com/pricing) và áp dụng nó để khai thác hết tiềm năng của thư viện.
 
 ## Tải và thao tác tài liệu
 
@@ -238,9 +240,14 @@ Aspose.Words cho phép bạn áp dụng bảo vệ bằng mật khẩu cho các 
 ### Aspose.Words có thể hiển thị tài liệu bằng nhiều ngôn ngữ không?
 
 Có, Aspose.Words hỗ trợ hiển thị tài liệu bằng nhiều ngôn ngữ khác nhau và xử lý văn bản với nhiều mã hóa ký tự khác nhau một cách liền mạch.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

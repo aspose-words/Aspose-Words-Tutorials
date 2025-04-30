@@ -1,14 +1,16 @@
 ---
-title: Подписание существующей строки подписи в документе Word
-linktitle: Подписание существующей строки подписи в документе Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как подписать существующую строку подписи в документе Word с помощью Aspose.Words для .NET с помощью нашего подробного пошагового руководства. Идеально подходит для разработчиков.
-weight: 10
-url: /ru/net/programming-with-digital-signatures/signing-existing-signature-line/
+"description": "Узнайте, как подписать существующую строку подписи в документе Word с помощью Aspose.Words для .NET с помощью нашего подробного пошагового руководства. Идеально подходит для разработчиков."
+"linktitle": "Подписание существующей строки подписи в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Подписание существующей строки подписи в документе Word"
+"url": "/ru/net/programming-with-digital-signatures/signing-existing-signature-line/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Подписание существующей строки подписи в документе Word
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-digital-signatures/signing-existing-signature-line
 
 Прежде чем углубиться в подробности, давайте убедимся, что у нас есть все необходимое:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words for .NET. Если вы еще этого не сделали, вы можете ее скачать[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words for .NET. Если вы еще этого не сделали, вы можете ее скачать [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая другая совместимая с C# IDE.
 3. Документ и сертификат: документ Word со строкой подписи и цифровым сертификатом (файл PFX).
 4. Базовые знания C#: знакомство с программированием на C# будет преимуществом.
@@ -100,7 +102,7 @@ Aspose.Words for .NET — мощная библиотека для работы 
 
 ### Где я могу получить бесплатную пробную версию Aspose.Words для .NET?
 
- Вы можете загрузить бесплатную пробную версию[здесь](https://releases.aspose.com/).
+Вы можете загрузить бесплатную пробную версию [здесь](https://releases.aspose.com/).
 
 ### Могу ли я использовать любой формат изображения для подписи?
 
@@ -112,10 +114,15 @@ Aspose.Words поддерживает различные форматы изоб
 
 ### Где я могу найти дополнительную документацию по Aspose.Words для .NET?
 
- Вы можете найти подробную документацию[здесь](https://reference.aspose.com/words/net/).
+Вы можете найти подробную документацию [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

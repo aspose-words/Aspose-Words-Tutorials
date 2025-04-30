@@ -1,27 +1,29 @@
 ---
-title: İçe Aktarma Biçim Seçenekleriyle Ekle
-linktitle: İçe Aktarma Biçim Seçenekleriyle Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'i kullanarak Word belgelerini zahmetsizce ekleyin ve ayrıntılı adım adım kılavuzla biçimlendirmeyi koruyun.
-weight: 10
-url: /tr/net/join-and-append-documents/append-with-import-format-options/
+"description": "Aspose.Words for .NET'i kullanarak Word belgelerini zahmetsizce ekleyin ve ayrıntılı adım adım kılavuzla biçimlendirmeyi koruyun."
+"linktitle": "İçe Aktarma Biçim Seçenekleriyle Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "İçe Aktarma Biçim Seçenekleriyle Ekle"
+"url": "/tr/net/join-and-append-documents/append-with-import-format-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # İçe Aktarma Biçim Seçenekleriyle Ekle
 
 ## giriiş
 
-Merhaba! Birden fazla Word belgesini birleştirmeniz gerekip de o sinir bozucu biçimlendirme sorunlarıyla mı karşılaştınız? Korkmayın! Bugün, .NET için Aspose.Words kullanarak bir Word belgesini diğerine nasıl ekleyebileceğinizi ve biçimlendirmenizi nasıl düzgün ve düzenli tutabileceğinizi derinlemesine inceliyoruz. Emniyet kemerlerinizi bağlayın çünkü bu kılavuzun sonunda belge birleştirme ustası olacaksınız!
+Merhaba! Birden fazla Word belgesini birleştirmeniz gerekip de o sinir bozucu biçimlendirme sorunlarıyla mı karşılaştınız? Korkmayın! Bugün, .NET için Aspose.Words kullanarak bir Word belgesini diğerine nasıl ekleyebileceğinizi ve biçimlendirmenizi düzgün ve düzenli tutmanın yollarını derinlemesine inceliyoruz. Emniyet kemerlerinizi bağlayın çünkü bu kılavuzun sonunda belge birleştirme ustası olacaksınız!
 
 ## Ön koşullar
 
 Eğlenceli kısma geçmeden önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte hızlı bir kontrol listesi:
 
-1.  Aspose.Words for .NET: Bu kütüphanenin kurulu olduğundan emin olun. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Bu kütüphanenin kurulu olduğundan emin olun. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi herhangi bir .NET uyumlu ortam.
 3. Temel C# Bilgisi: Sihirbaz olmanıza gerek yok, ancak C# konusunda biraz bilgi sahibi olmak çok işinize yarayacaktır.
 
@@ -45,7 +47,7 @@ Her yolculuk ilk adımla başlar ve burada, belge dizininizi belirtmektir. Bunu 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` Belgelerinizin saklandığı gerçek yol ile. Kaynak ve hedef belgelerimizi buradan çekeceğiz.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` belgelerinizin saklandığı gerçek yol ile. Kaynak ve hedef belgelerimizi buradan çekeceğiz.
 
 ## Adım 2: Kaynak ve Hedef Belgeleri Yükleyin
 
@@ -72,13 +74,13 @@ Bu kod parçası, belgeleriniz arasında bir numaralandırma çakışması olmas
 
 ## Adım 4: Belgeleri Ekleyin
 
-Hepsini bir araya getirme zamanı! Tanımlı içe aktarma biçimi seçeneklerini kullanarak kaynak belgeyi hedef belgeye ekleyeceğiz.
+Hepsini bir araya getirme zamanı! Kaynak belgeyi, tanımlanan içe aktarma biçimi seçeneklerini kullanarak hedef belgeye ekleyeceğiz.
 
 ```csharp
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, options);
 ```
 
- Burada ekliyoruz`srcDoc` ile`dstDoc` hedef stilleri kullanarak.`options` parametresi biçimlendirme kurallarımızın uygulanmasını sağlar.
+Burada ekliyoruz `srcDoc` ile `dstDoc` hedef stilleri kullanarak. `options` parametresi biçimlendirme kurallarımızın uygulanmasını sağlar.
 
 ## Adım 5: Birleştirilmiş Belgeyi Kaydedin
 
@@ -92,15 +94,15 @@ Pat! Biçimlendirmenizi bozmadan iki Word belgesini başarıyla birleştirdiniz.
 
 ## Çözüm
 
-İşte karşınızda! Bu adımları izleyerek, biçimlendirmenizi kaybetmeden Aspose.Words for .NET kullanarak belgeleri zahmetsizce ekleyebilirsiniz. Belge yönetimini kolaylaştırmak isteyen bir geliştirici veya sadece düzenli belgeleri seven biri olun, bu kılavuz sizi korudu. İyi kodlamalar!
+İşte karşınızda! Bu adımları izleyerek, biçimlendirmenizi kaybetmeden Aspose.Words for .NET kullanarak belgeleri zahmetsizce ekleyebilirsiniz. İster belge yönetimini kolaylaştırmak isteyen bir geliştirici olun, ister sadece düzenli belgeleri seven biri olun, bu kılavuz sizi korudu. İyi kodlamalar!
 
 ## SSS
 
 ### Kaynak belgenin numaralandırması yerine hedef belgenin numaralandırmasını koruyabilir miyim?
- Evet, değiştirebilirsiniz`ImportFormatOptions` Bunu başarmak için.
+Evet, değiştirebilirsiniz `ImportFormatOptions` Bunu başarmak için.
 
 ### Aspose.Words for .NET'im yoksa ne olur?
- Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+Ücretsiz deneme sürümünü şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/).
 
 ### Bu yöntemi PDF gibi diğer belge türleri için de kullanabilir miyim?
 Aspose.Words özellikle Word belgeleri içindir. PDF'ler için Aspose.PDF'e ihtiyacınız olabilir.
@@ -110,9 +112,14 @@ Görüntüler genellikle sorunsuz bir şekilde işlenir, ancak kaynak ve hedef b
 
 Kaydetmeden önce ###ment?
 Belgeyi bir akışa dönüştürebilir veya uygulamanızdaki bir görüntüleyiciyi kullanarak önizleme yapabilirsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

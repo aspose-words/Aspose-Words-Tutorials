@@ -1,14 +1,16 @@
 ---
-title: So sánh các tài liệu để tìm sự khác biệt
-linktitle: So sánh các tài liệu để tìm sự khác biệt
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách so sánh các tài liệu để tìm sự khác biệt bằng Aspose.Words trong Java. Hướng dẫn từng bước của chúng tôi đảm bảo quản lý tài liệu chính xác.
-weight: 12
-url: /vi/java/document-merging/comparing-documents-for-differences/
+"description": "Tìm hiểu cách so sánh các tài liệu để tìm sự khác biệt bằng Aspose.Words trong Java. Hướng dẫn từng bước của chúng tôi đảm bảo quản lý tài liệu chính xác."
+"linktitle": "So sánh các tài liệu để tìm sự khác biệt"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "So sánh các tài liệu để tìm sự khác biệt"
+"url": "/vi/java/document-merging/comparing-documents-for-differences/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # So sánh các tài liệu để tìm sự khác biệt
@@ -21,10 +23,10 @@ Bạn đã bao giờ tự hỏi làm thế nào để phát hiện ra mọi đi�
 
 Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã chuẩn bị những thông tin sau:  
 1. Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.  
-2.  Aspose.Words cho thư viện Java. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/java/).  
-3. Môi trường phát triển như IntelliJ IDEA hoặc Eclipse.  
+2. Aspose.Words cho thư viện Java. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/java/).  
+3. Một môi trường phát triển như IntelliJ IDEA hoặc Eclipse.  
 4. Có kiến thức cơ bản về lập trình Java.  
-5.  Giấy phép Aspose hợp lệ. Nếu bạn không có, hãy lấy một[giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/).
+5. Giấy phép Aspose hợp lệ. Nếu bạn không có, hãy lấy một [giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập gói
 
@@ -35,7 +37,7 @@ import com.aspose.words.*;
 import java.util.Date;
 ```
 
-Hãy đảm bảo các gói này được thêm chính xác vào các phụ thuộc của dự án bạn.
+Hãy đảm bảo các gói này được thêm chính xác vào phần phụ thuộc của dự án.
 
 
 Trong phần này, chúng tôi sẽ chia nhỏ quy trình thành các bước đơn giản.
@@ -55,7 +57,7 @@ builder = new DocumentBuilder(doc2);
 builder.writeln("This is the edited document.");
 ```
 
- Điều này tạo ra hai tài liệu trong bộ nhớ với nội dung cơ bản. Bạn cũng có thể tải các tài liệu Word hiện có bằng cách sử dụng`new Document("path/to/document.docx")`.
+Điều này tạo ra hai tài liệu trong bộ nhớ với nội dung cơ bản. Bạn cũng có thể tải các tài liệu Word hiện có bằng cách sử dụng `new Document("path/to/document.docx")`.
 
 
 ## Bước 2: Kiểm tra các bản sửa đổi hiện có
@@ -68,12 +70,12 @@ if (doc1.getRevisions().getCount() == 0 && doc2.getRevisions().getCount() == 0) 
 }
 ```
 
-Nếu có bản sửa đổi, bạn có thể chấp nhận hoặc từ chối chúng trước khi tiếp tục.
+Nếu có bản sửa đổi, bạn có thể chấp nhận hoặc từ chối trước khi tiếp tục.
 
 
 ## Bước 3: So sánh các tài liệu
 
- Sử dụng`compare` phương pháp để tìm ra sự khác biệt. Phương pháp này so sánh tài liệu mục tiêu (`doc2`) với tài liệu nguồn (`doc1`):
+Sử dụng `compare` phương pháp để tìm ra sự khác biệt. Phương pháp này so sánh tài liệu mục tiêu (`doc2`) với tài liệu nguồn (`doc1`):
 
 ```java
 doc1.compare(doc2, "AuthorName", new Date());
@@ -107,7 +109,7 @@ Nếu bạn muốn tài liệu nguồn (`doc1`) để phù hợp với tài li�
 doc1.getRevisions().acceptAll();
 ```
 
- Bản cập nhật này`doc1` để phản ánh tất cả những thay đổi được thực hiện trong`doc2`.
+Bản cập nhật này `doc1` để phản ánh tất cả những thay đổi được thực hiện trong `doc2`.
 
 
 ## Bước 6: Lưu tài liệu đã cập nhật
@@ -151,7 +153,7 @@ So sánh tài liệu không còn là công việc nhàm chán nữa, nhờ Aspos
 Có, Aspose.Words hỗ trợ so sánh các tài liệu phức tạp, bao gồm cả những tài liệu có hình ảnh, bảng và định dạng.
 
 ### Tôi có cần giấy phép để sử dụng tính năng này không?  
- Có, cần có giấy phép để có đầy đủ chức năng. Nhận một[giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/).
+Có, cần có giấy phép để có đầy đủ chức năng. Nhận một [giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/).
 
 ### Sẽ thế nào nếu đã có bản sửa đổi trước đó?  
 Bạn phải chấp nhận hoặc từ chối chúng trước khi so sánh các tài liệu để tránh xung đột.
@@ -161,9 +163,14 @@ Có, Aspose.Words cho phép bạn tùy chỉnh cách hiển thị bản sửa đ
 
 ### Tính năng này có khả dụng trong các ngôn ngữ lập trình khác không?  
 Có, Aspose.Words hỗ trợ nhiều ngôn ngữ, bao gồm .NET và Python.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

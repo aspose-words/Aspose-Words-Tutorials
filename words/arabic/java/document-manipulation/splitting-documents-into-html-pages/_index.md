@@ -1,14 +1,16 @@
 ---
-title: تقسيم المستندات إلى صفحات HTML في Aspose.Words لـ Java
-linktitle: تقسيم المستندات إلى صفحات HTML
-second_title: واجهة برمجة تطبيقات معالجة المستندات في Java Aspose.Words
-description: تعرف على كيفية تقسيم المستندات إلى صفحات HTML باستخدام Aspose.Words for Java. اتبع دليلنا خطوة بخطوة لتحويل المستندات بسلاسة.
-weight: 25
-url: /ar/java/document-manipulation/splitting-documents-into-html-pages/
+"description": "تعلّم كيفية تقسيم المستندات إلى صفحات HTML باستخدام Aspose.Words لجافا. اتبع دليلنا خطوة بخطوة لتحويل المستندات بسلاسة."
+"linktitle": "تقسيم المستندات إلى صفحات HTML"
+"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
+"title": "تقسيم المستندات إلى صفحات HTML في Aspose.Words لـ Java"
+"url": "/ar/java/document-manipulation/splitting-documents-into-html-pages/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تقسيم المستندات إلى صفحات HTML في Aspose.Words لـ Java
@@ -16,14 +18,14 @@ url: /ar/java/document-manipulation/splitting-documents-into-html-pages/
 
 ## مقدمة لتقسيم المستندات إلى صفحات HTML في Aspose.Words لـ Java
 
-في هذا الدليل التفصيلي، سنستكشف كيفية تقسيم المستندات إلى صفحات HTML باستخدام Aspose.Words for Java. Aspose.Words عبارة عن واجهة برمجة تطبيقات Java قوية للعمل مع مستندات Microsoft Word، كما توفر ميزات شاملة للتعامل مع المستندات، بما في ذلك القدرة على تحويل المستندات إلى تنسيقات مختلفة، بما في ذلك HTML.
+في هذا الدليل التفصيلي، سنستكشف كيفية تقسيم المستندات إلى صفحات HTML باستخدام Aspose.Words لجافا. Aspose.Words هي واجهة برمجة تطبيقات Java فعّالة للعمل مع مستندات مايكروسوفت وورد، وتوفر ميزات شاملة لمعالجة المستندات، بما في ذلك إمكانية تحويلها إلى صيغ مختلفة، بما في ذلك HTML.
 
 ## المتطلبات الأساسية
 
 قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
 
 - تم تثبيت Java Development Kit (JDK) على نظامك.
--  مكتبة Aspose.Words للغة Java. يمكنك تنزيلها من[هنا](https://releases.aspose.com/words/java/).
+- مكتبة Aspose.Words لجافا. يمكنك تنزيلها من [هنا](https://releases.aspose.com/words/java/).
 
 ## الخطوة 1: استيراد الحزم الضرورية
 
@@ -135,36 +137,41 @@ private void saveTableOfContents(ArrayList<Topic> topics) throws Exception
 }
 ```
 
-الآن بعد أن قمنا بتحديد الخطوات، يمكنك تنفيذ كل خطوة في مشروع Java الخاص بك لتقسيم المستندات إلى صفحات HTML باستخدام Aspose.Words for Java. ستتيح لك هذه العملية إنشاء تمثيل HTML منظم لمستنداتك، مما يجعلها أكثر سهولة في الوصول إليها وسهلة الاستخدام.
+بعد أن شرحنا الخطوات، يمكنك تطبيق كل خطوة في مشروع جافا لتقسيم المستندات إلى صفحات HTML باستخدام Aspose.Words for Java. ستتيح لك هذه العملية إنشاء تمثيل HTML منظم لمستنداتك، مما يجعلها أكثر سهولة في الوصول إليها واستخدامها.
 
 ## خاتمة
 
-في هذا الدليل الشامل، قمنا بتغطية عملية تقسيم المستندات إلى صفحات HTML باستخدام Aspose.Words for Java. باتباع الخطوات الموضحة، يمكنك تحويل مستندات Word بكفاءة إلى تنسيق HTML، مما يجعل المحتوى الخاص بك أكثر سهولة في الوصول إليه على الويب.
+في هذا الدليل الشامل، تناولنا عملية تقسيم المستندات إلى صفحات HTML باستخدام Aspose.Words لجافا. باتباع الخطوات الموضحة، يمكنك تحويل مستندات Word إلى صيغة HTML بكفاءة، مما يجعل محتواك أكثر سهولة في الوصول إليه على الويب.
 
 ## الأسئلة الشائعة
 
 ### كيف أقوم بتثبيت Aspose.Words لـ Java؟
 
- لتثبيت Aspose.Words لـ Java، يمكنك تنزيل المكتبة من[هنا](https://releases.aspose.com/words/java/) واتبع تعليمات التثبيت الواردة في الوثائق.
+لتثبيت Aspose.Words لـ Java، يمكنك تنزيل المكتبة من [هنا](https://releases.aspose.com/words/java/) واتبع تعليمات التثبيت الواردة في الوثائق.
 
 ### هل يمكنني تخصيص مخرجات HTML؟
 
- نعم، يمكنك تخصيص إخراج HTML عن طريق ضبط خيارات الحفظ في`HtmlSaveOptions` يسمح لك هذا بالتحكم في تنسيق ومظهر ملفات HTML المُنشأة.
+نعم، يمكنك تخصيص مخرجات HTML عن طريق ضبط خيارات الحفظ في `HtmlSaveOptions` يسمح لك هذا بالتحكم في تنسيق ومظهر ملفات HTML المُولَّدة.
 
 ### ما هي إصدارات Microsoft Word التي يدعمها Aspose.Words لـ Java؟
 
-يدعم Aspose.Words for Java مجموعة واسعة من تنسيقات مستندات Microsoft Word، بما في ذلك DOC وDOCX وRTF والمزيد. وهو متوافق مع إصدارات مختلفة من Microsoft Word.
+يدعم Aspose.Words لجافا مجموعة واسعة من تنسيقات مستندات مايكروسوفت وورد، بما في ذلك DOC وDOCX وRTF وغيرها. وهو متوافق مع مختلف إصدارات مايكروسوفت وورد.
 
 ### كيف يمكنني التعامل مع الصور في HTML المحول؟
 
-يمكن لبرنامج Aspose.Words for Java التعامل مع الصور في HTML المحولة عن طريق حفظها كملفات منفصلة في نفس المجلد الذي يحتوي على ملف HTML. وهذا يضمن عرض الصور بشكل صحيح في إخراج HTML.
+يستطيع Aspose.Words for Java التعامل مع الصور في HTML المُحوّلة بحفظها كملفات منفصلة في نفس مجلد ملف HTML. هذا يضمن عرض الصور بشكل صحيح في مُخرَج HTML.
 
-### هل هناك نسخة تجريبية من Aspose.Words متاحة لـ Java؟
+### هل هناك نسخة تجريبية من Aspose.Words لـ Java متاحة؟
 
 نعم، يمكنك طلب نسخة تجريبية مجانية من Aspose.Words for Java من موقع Aspose على الويب لتقييم ميزاته وقدراته قبل شراء الترخيص.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

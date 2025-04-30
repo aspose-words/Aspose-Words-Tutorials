@@ -1,14 +1,16 @@
 ---
-title: การทำงานกับรายการเอกสาร
-linktitle: การทำงานกับรายการเอกสาร
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีการทำงานกับรายการเอกสารใน Java โดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนนี้ประกอบด้วยตัวอย่างโค้ดต้นฉบับสำหรับการจัดการเอกสารอย่างมีประสิทธิภาพ
-weight: 11
-url: /th/java/table-processing/working-with-document-lists/
+"description": "เรียนรู้วิธีการทำงานกับรายการเอกสารใน Java โดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนนี้ประกอบด้วยตัวอย่างโค้ดต้นฉบับสำหรับการจัดการเอกสารอย่างมีประสิทธิภาพ"
+"linktitle": "การทำงานกับรายการเอกสาร"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การทำงานกับรายการเอกสาร"
+"url": "/th/java/table-processing/working-with-document-lists/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การทำงานกับรายการเอกสาร
@@ -105,7 +107,7 @@ for (Paragraph paragraph : (Iterable<Paragraph>) paragraphs) {
 ## คำถามที่พบบ่อย
 
 ### ฉันจะเพิ่มจุดหัวข้อลงในรายการเอกสารได้อย่างไร
- หากต้องการเพิ่มจุดหัวข้อย่อยลงในรายการเอกสาร ให้ใช้ ListTemplate ที่เหมาะสมเมื่อสร้างรายการ ตัวอย่างเช่น ใช้`ListTemplate.BULLET_DEFAULT` แทน`ListTemplate.NUMBER_DEFAULT`.
+หากต้องการเพิ่มจุดหัวข้อย่อยลงในรายการเอกสาร ให้ใช้ ListTemplate ที่เหมาะสมเมื่อสร้างรายการ ตัวอย่างเช่น ใช้ `ListTemplate.BULLET_DEFAULT` แทน `ListTemplate-NUMBER_DEFAULT`.
 
 ### ฉันสามารถเปลี่ยนการจัดรูปแบบของรายการได้ไหม
 ใช่ คุณสามารถปรับแต่งการจัดรูปแบบของรายการต่างๆ ในรายการ รวมถึงแบบอักษร ขนาด สี และอื่นๆ ได้โดยใช้คุณลักษณะการจัดรูปแบบของ Aspose.Words สำหรับ Java
@@ -118,9 +120,14 @@ for (Paragraph paragraph : (Iterable<Paragraph>) paragraphs) {
 
 ### Aspose.Words สำหรับ Java รองรับการทำงานกับตารางในเอกสารหรือไม่
 ใช่ Aspose.Words สำหรับ Java ให้การสนับสนุนอย่างครอบคลุมสำหรับการทำงานกับตาราง ช่วยให้คุณสร้าง แก้ไข และแยกข้อมูลตารางได้อย่างง่ายดาย
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

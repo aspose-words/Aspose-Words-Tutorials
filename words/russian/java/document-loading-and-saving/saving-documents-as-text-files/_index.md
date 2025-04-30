@@ -1,14 +1,16 @@
 ---
-title: Сохранение документов в виде текстовых файлов в Aspose.Words для Java
-linktitle: Сохранение документов в виде текстовых файлов
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как сохранять документы как текстовые файлы в Aspose.Words для Java. Следуйте нашему пошаговому руководству с примерами кода Java.
-weight: 24
-url: /ru/java/document-loading-and-saving/saving-documents-as-text-files/
+"description": "Узнайте, как сохранять документы как текстовые файлы в Aspose.Words для Java. Следуйте нашему пошаговому руководству с примерами кода Java."
+"linktitle": "Сохранение документов в виде текстовых файлов"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Сохранение документов в виде текстовых файлов в Aspose.Words для Java"
+"url": "/ru/java/document-loading-and-saving/saving-documents-as-text-files/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Сохранение документов в виде текстовых файлов в Aspose.Words для Java
@@ -23,7 +25,7 @@ url: /ru/java/document-loading-and-saving/saving-documents-as-text-files/
 Прежде чем начать, убедитесь, что у вас выполнены следующие предварительные условия:
 
 - В вашей системе установлен Java Development Kit (JDK).
--  Библиотека Aspose.Words for Java интегрирована в ваш проект. Вы можете скачать ее с[здесь](https://releases.aspose.com/words/java/).
+- Библиотека Aspose.Words for Java интегрирована в ваш проект. Вы можете скачать ее с [здесь](https://releases.aspose.com/words/java/).
 - Базовые знания программирования на Java.
 
 ## Шаг 1: Создайте документ
@@ -53,7 +55,7 @@ saveOptions.setAddBidiMarks(true);
 doc.save("output.txt", saveOptions);
 ```
 
- В этом примере мы создаем`TxtSaveOptions` объект и установите`AddBidiMarks`собственность`true` для включения двунаправленных знаков в текстовый вывод.
+В этом примере мы создаем `TxtSaveOptions` объект и установите `AddBidiMarks` собственность `true` для включения двунаправленных знаков в текстовый вывод.
 
 ### Пример 2: Использование символа табуляции для отступа списка
 
@@ -74,7 +76,7 @@ doc.save("output.txt", saveOptions);
 doc.save("output.txt", saveOptions);
 ```
 
- Заменять`"output.txt"` с желаемым путем к файлу, в котором вы хотите сохранить текстовый файл.
+Заменять `"output.txt"` с желаемым путем к файлу, в котором вы хотите сохранить текстовый файл.
 
 ## Полный исходный код для сохранения документов в виде текстовых файлов в Aspose.Words для Java
 
@@ -134,7 +136,7 @@ doc.save("output.txt", saveOptions);
 
 ### Как добавить двунаправленные знаки в выводимый текст?
 
- Чтобы добавить двунаправленные знаки к текстовому выводу, установите`AddBidiMarks` собственность`TxtSaveOptions` к`true`. Например:
+Чтобы добавить двунаправленные знаки к текстовому выводу, установите `AddBidiMarks` собственность `TxtSaveOptions` к `true`. Например:
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -143,7 +145,7 @@ saveOptions.setAddBidiMarks(true);
 
 ### Могу ли я настроить символ отступа в списке?
 
- Да, вы можете настроить символ отступа списка, настроив`ListIndentation` собственность`TxtSaveOptions`. Например, чтобы использовать символ табуляции для отступа списка, можно сделать следующее:
+Да, вы можете настроить символ отступа списка, настроив `ListIndentation` собственность `TxtSaveOptions`. Например, чтобы использовать символ табуляции для отступа списка, можно сделать следующее:
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -157,14 +159,19 @@ saveOptions.getListIndentation().setCharacter('\t');
 
 ### Как мне получить доступ к дополнительной документации и ресурсам по Aspose.Words для Java?
 
- Подробную документацию и ресурсы по Aspose.Words для Java можно найти на веб-сайте документации Aspose:[Документация Aspose.Words для Java](https://reference.aspose.com/words/java/).
+Подробную документацию и ресурсы по Aspose.Words для Java можно найти на веб-сайте документации Aspose: [Документация Aspose.Words для Java](https://reference.aspose.com/words/java/).
 
 ### Где можно скачать Aspose.Words для Java?
 
- Вы можете загрузить библиотеку Aspose.Words для Java с веб-сайта Aspose:[Загрузить Aspose.Words для Java](https://releases.aspose.com/words/java/).
+Вы можете загрузить библиотеку Aspose.Words для Java с веб-сайта Aspose: [Загрузить Aspose.Words для Java](https://releases.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

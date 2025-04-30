@@ -1,14 +1,16 @@
 ---
-title: Chèn Mục Lục Vào Tài Liệu Word
-linktitle: Chèn Mục Lục Vào Tài Liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn Mục lục trong Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để điều hướng tài liệu liền mạch.
-weight: 10
-url: /vi/net/add-content-using-documentbuilder/insert-table-of-contents/
+"description": "Tìm hiểu cách chèn Mục lục trong Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để điều hướng tài liệu liền mạch."
+"linktitle": "Chèn Mục Lục Vào Tài Liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn Mục Lục Vào Tài Liệu Word"
+"url": "/vi/net/add-content-using-documentbuilder/insert-table-of-contents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn Mục Lục Vào Tài Liệu Word
@@ -22,7 +24,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
 - Hiểu biết cơ bản về C# và .NET framework.
 - Đã cài đặt Visual Studio trên máy của bạn.
--  Aspose.Words cho thư viện .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho thư viện .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 
 ## Nhập không gian tên
 
@@ -39,7 +41,7 @@ Chúng ta hãy chia nhỏ quy trình thành các bước rõ ràng:
 
 ## Bước 1: Khởi tạo Aspose.Words Document và DocumentBuilder
 
- Đầu tiên, khởi tạo một Aspose.Words mới`Document` đối tượng và một`DocumentBuilder` để làm việc với:
+Đầu tiên, khởi tạo một Aspose.Words mới `Document` đối tượng và một `DocumentBuilder` để làm việc với:
 
 ```csharp
 // Khởi tạo Document và DocumentBuilder
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Bước 2: Chèn Mục lục
 
- Bây giờ, chèn Mục lục bằng cách sử dụng`InsertTableOfContents` phương pháp:
+Bây giờ, chèn Mục lục bằng cách sử dụng `InsertTableOfContents` phương pháp:
 
 ```csharp
 // Chèn Mục lục
@@ -133,10 +135,15 @@ Aspose.Words hỗ trợ tạo nhiều Mục lục với các thiết lập khác
 Có, Aspose.Words đảm bảo khả năng tương thích với nhiều phiên bản định dạng Microsoft Word khác nhau.
 
 ### Tôi có thể tìm thêm trợ giúp và hỗ trợ cho Aspose.Words ở đâu?
- Để được hỗ trợ thêm, hãy truy cập[Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8) hoặc kiểm tra[tài liệu chính thức](https://reference.aspose.com/words/net/).
+Để được hỗ trợ thêm, hãy truy cập [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8) hoặc kiểm tra [tài liệu chính thức](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

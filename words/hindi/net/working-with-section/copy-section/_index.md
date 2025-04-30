@@ -1,14 +1,16 @@
 ---
-title: प्रतिलिपि अनुभाग
-linktitle: प्रतिलिपि अनुभाग
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों के बीच अनुभागों की प्रतिलिपि बनाना सीखें। यह मार्गदर्शिका कुशल दस्तावेज़ प्रबंधन के लिए चरण-दर-चरण निर्देश प्रदान करती है।
-weight: 10
-url: /hi/net/working-with-section/copy-section/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों के बीच अनुभागों की प्रतिलिपि बनाना सीखें। यह मार्गदर्शिका कुशल दस्तावेज़ प्रबंधन के लिए चरण-दर-चरण निर्देश प्रदान करती है।"
+"linktitle": "प्रतिलिपि अनुभाग"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "प्रतिलिपि अनुभाग"
+"url": "/hi/net/working-with-section/copy-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # प्रतिलिपि अनुभाग
@@ -22,7 +24,7 @@ url: /hi/net/working-with-section/copy-section/
 
 इससे पहले कि हम इसकी बारीकियों पर चर्चा करें, सुनिश्चित करें कि आपके पास निम्नलिखित व्यवस्था है:
 
-1.  .NET लाइब्रेरी के लिए Aspose.Words: नवीनतम संस्करण डाउनलोड करें[यहाँ](https://releases.aspose.com/words/net/).
+1. .NET लाइब्रेरी के लिए Aspose.Words: नवीनतम संस्करण डाउनलोड करें [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो जैसा .NET-संगत IDE.
 3. C# का बुनियादी ज्ञान: C# से परिचित होने से आपको आगे बढ़ने में मदद मिलेगी।
 4. नमूना वर्ड दस्तावेज़: हम इस ट्यूटोरियल के लिए दो नमूना दस्तावेज़ों का उपयोग करेंगे।
@@ -43,7 +45,7 @@ using Aspose.Words;
 
 कोड में गोता लगाने से पहले, सुनिश्चित करें कि आपके पास Aspose.Words लाइब्रेरी स्थापित है और दो नमूना Word दस्तावेज़ तैयार हैं।
 
-1.  Aspose.Words डाउनलोड और इंस्टॉल करें: इसे प्राप्त करें[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words डाउनलोड और इंस्टॉल करें: इसे प्राप्त करें [यहाँ](https://releases.aspose.com/words/net/).
 2. अपना प्रोजेक्ट सेट करें: Visual Studio खोलें और एक नया .NET प्रोजेक्ट बनाएं।
 3. Aspose.Words संदर्भ जोड़ें: अपने प्रोजेक्ट में Aspose.Words लाइब्रेरी शामिल करें।
 
@@ -52,7 +54,7 @@ using Aspose.Words;
 हमें स्रोत और गंतव्य दोनों दस्तावेज़ों को लोड करने की आवश्यकता है। स्रोत दस्तावेज़ वह जगह है जहाँ से हम अनुभाग को कॉपी करेंगे, और गंतव्य दस्तावेज़ वह जगह है जहाँ हम कॉपी किए गए अनुभाग को पेस्ट करेंगे।
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document srcDoc = new Document(dataDir + "Document.docx");
@@ -77,7 +79,7 @@ Section newSection = (Section) dstDoc.ImportNode(sourceSection, true);
 
 ## चरण 4: कॉपी किए गए अनुभाग को गंतव्य दस्तावेज़ में जोड़ें
 
-एक बार जब हम अनुभाग की प्रतिलिपि बना लेते हैं, तो अगला चरण उसे गंतव्य दस्तावेज़ में जोड़ना होता है। यह गंतव्य दस्तावेज़ में कॉपी किए गए अनुभाग को एक नए अनुभाग के रूप में जोड़ देगा।
+एक बार जब हम अनुभाग की प्रतिलिपि बना लेते हैं, तो अगला चरण उसे गंतव्य दस्तावेज़ में जोड़ना होता है। यह कॉपी किए गए अनुभाग को गंतव्य दस्तावेज़ में एक नए अनुभाग के रूप में जोड़ देगा।
 
 ```csharp
 dstDoc.Sections.Add(newSection);
@@ -93,7 +95,7 @@ dstDoc.Sections.Add(newSection);
 dstDoc.Save(dataDir + "WorkingWithSection.CopySection.docx");
 ```
 
- प्रतिस्थापित करें`dataDir + "WorkingWithSection.CopySection.docx"` उस वास्तविक पथ के साथ जहाँ आप अपना दस्तावेज़ सहेजना चाहते हैं। कोड की यह पंक्ति आपकी गंतव्य वर्ड फ़ाइल को कॉपी किए गए अनुभाग के साथ सहेज लेगी।
+प्रतिस्थापित करें `dataDir + "WorkingWithSection.CopySection.docx"` उस वास्तविक पथ के साथ जहाँ आप अपना दस्तावेज़ सहेजना चाहते हैं। कोड की यह पंक्ति आपकी गंतव्य वर्ड फ़ाइल को कॉपी किए गए अनुभाग के साथ सहेज लेगी।
 
 ## निष्कर्ष
 
@@ -115,14 +117,19 @@ dstDoc.Save(dataDir + "WorkingWithSection.CopySection.docx");
 
 ### मैं Aspose.Words पर और अधिक संसाधन कहां पा सकता हूं?
 
- अधिक जानकारी के लिए आप यहां जा सकते हैं[Aspose.Words API दस्तावेज़](https://reference.aspose.com/words/net/) या[सहयता मंच](https://forum.aspose.com/c/words/8) सहायता और चर्चा के लिए.
+अधिक जानकारी के लिए आप यहां जा सकते हैं [Aspose.Words API दस्तावेज़](https://reference.aspose.com/words/net/) या [सहयता मंच](https://forum.aspose.com/c/words/8) सहायता और चर्चा के लिए.
 
 ### क्या मैं .NET के लिए Aspose.Words को निःशुल्क आज़मा सकता हूँ?
 
- हां, आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

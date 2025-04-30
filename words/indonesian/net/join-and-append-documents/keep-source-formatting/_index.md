@@ -1,14 +1,16 @@
 ---
-title: Pertahankan Format Sumber
-linktitle: Pertahankan Format Sumber
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menggabungkan dokumen Word sambil mempertahankan format menggunakan Aspose.Words untuk .NET. Ideal bagi pengembang yang ingin mengotomatiskan tugas perakitan dokumen.
-weight: 10
-url: /id/net/join-and-append-documents/keep-source-formatting/
+"description": "Pelajari cara menggabungkan dokumen Word sambil mempertahankan format menggunakan Aspose.Words untuk .NET. Ideal bagi pengembang yang ingin mengotomatiskan tugas perakitan dokumen."
+"linktitle": "Pertahankan Format Sumber"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Pertahankan Format Sumber"
+"url": "/id/net/join-and-append-documents/keep-source-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pertahankan Format Sumber
@@ -22,7 +24,7 @@ Dalam tutorial ini, kita akan menjelajahi cara menggabungkan dan menambahkan dok
 Sebelum memulai tutorial, pastikan Anda telah menyiapkan prasyarat berikut:
 
 - Lingkungan Pengembangan: Visual Studio atau IDE apa pun yang mendukung pengembangan .NET.
--  Pustaka Aspose.Words untuk .NET: Unduh dan instal pustaka dari[Di Sini](https://releases.aspose.com/words/net/).
+- Pustaka Aspose.Words untuk .NET: Unduh dan instal pustaka dari [Di Sini](https://releases.aspose.com/words/net/).
 - Pengetahuan Dasar Pemrograman C#: Keakraban dengan sintaksis C# dan konsep pemrograman berorientasi objek.
 
 ## Mengimpor Ruang Nama
@@ -100,10 +102,15 @@ Ya, Aspose.Words mendukung .NET Core, memungkinkan Anda menggunakannya di berbag
 Aspose.Words menyediakan API yang efisien untuk bekerja dengan dokumen besar, termasuk fitur untuk pagination dan manajemen memori.
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Words?
- Kunjungi[Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/) untuk referensi API terperinci, contoh, dan panduan.
+Kunjungi [Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/) untuk referensi API terperinci, contoh, dan panduan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

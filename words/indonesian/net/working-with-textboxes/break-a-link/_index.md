@@ -1,14 +1,16 @@
 ---
-title: Tautan Putus Maju Dalam Dokumen Word
-linktitle: Tautan Putus Maju Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memecah tautan maju dalam kotak teks dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan kami untuk pengalaman pengelolaan dokumen yang lebih lancar.
-weight: 10
-url: /id/net/working-with-textboxes/break-a-link/
+"description": "Pelajari cara memecah tautan maju dalam kotak teks dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan kami untuk pengalaman pengelolaan dokumen yang lebih lancar."
+"linktitle": "Tautan Putus Maju Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tautan Putus Maju Dalam Dokumen Word"
+"url": "/id/net/working-with-textboxes/break-a-link/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tautan Putus Maju Dalam Dokumen Word
@@ -22,7 +24,7 @@ Halo, sesama pengembang dan penggemar dokumen! 🌟 Jika Anda pernah bekerja den
 
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Aspose.Words untuk Pustaka .NET: Pastikan Anda memiliki versi terbaru.[Unduh di sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk Pustaka .NET: Pastikan Anda memiliki versi terbaru. [Unduh di sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan yang kompatibel dengan .NET seperti Visual Studio.
 3. Pengetahuan Dasar C#: Memahami sintaksis dasar C# akan sangat membantu.
 4. Contoh Dokumen Word: Meskipun kami akan membuatnya dari awal, memiliki contoh dapat bermanfaat untuk pengujian.
@@ -74,7 +76,7 @@ Sekarang tibalah bagian yang krusial: memutus tautan maju. Tautan maju dalam kot
 
 ### Memutus Tautan Maju
 
- Untuk memutus tautan maju, Anda dapat menggunakan`BreakForwardLink` metode. Berikut kodenya:
+Untuk memutus tautan maju, Anda dapat menggunakan `BreakForwardLink` metode. Berikut kodenya:
 
 ```csharp
 textBox.BreakForwardLink();
@@ -84,7 +86,7 @@ Metode ini memutus tautan dari kotak teks saat ini ke kotak teks berikutnya, seh
 
 ## Langkah 4: Mengatur Tautan Maju ke Null
 
- Cara lain untuk memutus tautan adalah dengan mengatur`Next` properti kotak teks untuk`null`Metode ini sangat berguna saat Anda memanipulasi struktur dokumen secara dinamis.
+Cara lain untuk memutus tautan adalah dengan mengatur `Next` properti kotak teks untuk `null`Metode ini sangat berguna saat Anda memanipulasi struktur dokumen secara dinamis.
 
 ### Pengaturan di sebelah Null
 
@@ -92,7 +94,7 @@ Metode ini memutus tautan dari kotak teks saat ini ke kotak teks berikutnya, seh
 textBox.Next = null;
 ```
 
- Baris kode ini memutus tautan dengan menyetel`Next`properti untuk`null`, memastikan bahwa kotak teks ini tidak lagi mengarah ke kotak teks lainnya.
+Baris kode ini memutus tautan dengan menyetel `Next` properti untuk `null`memastikan bahwa kotak teks ini tidak lagi mengarah ke kotak teks lainnya.
 
 ## Langkah 5: Memutus Tautan yang Menuju Kotak Teks
 
@@ -100,19 +102,19 @@ Terkadang, kotak teks mungkin merupakan bagian dari rantai, dengan kotak lain ya
 
 ### Memutus Tautan Masuk
 
- Untuk memutus tautan masuk, periksa apakah`Previous` kotak teks ada dan panggil`BreakForwardLink` di atasnya:
+Untuk memutus tautan masuk, periksa apakah `Previous` kotak teks ada dan panggil `BreakForwardLink` di atasnya:
 
 ```csharp
 textBox.Previous?.BreakForwardLink();
 ```
 
- Itu`?.` operator memastikan bahwa metode hanya dipanggil jika`Previous` tidak null, mencegah potensi kesalahan runtime.
+Itu `?.` operator memastikan bahwa metode hanya dipanggil jika `Previous` tidak null, mencegah potensi kesalahan runtime.
 
 ## Kesimpulan
 
 Nah, itu dia! 🎉 Anda telah berhasil mempelajari cara memutus tautan maju dalam kotak teks menggunakan Aspose.Words untuk .NET. Baik Anda sedang membersihkan dokumen, mempersiapkannya untuk format baru, atau sekadar bereksperimen, langkah-langkah ini akan membantu Anda mengelola kotak teks dengan tepat. Memutus tautan seperti mengurai simpul—terkadang diperlukan untuk menjaga semuanya tetap rapi dan teratur. 
 
- Jika Anda ingin menjelajahi lebih lanjut tentang apa yang dapat dilakukan Aspose.Words,[dokumentasi](https://reference.aspose.com/words/net/) adalah gudang informasi. Selamat membuat kode, dan semoga dokumen Anda selalu terorganisasi dengan baik!
+Jika Anda ingin menjelajahi lebih lanjut tentang apa yang dapat dilakukan Aspose.Words, [dokumentasi](https://reference.aspose.com/words/net/) adalah gudang informasi. Selamat membuat kode, dan semoga dokumen Anda selalu terorganisasi dengan baik!
 
 ## Tanya Jawab Umum
 
@@ -122,11 +124,11 @@ Memecah tautan maju memungkinkan Anda mengatur ulang atau mengisolasi konten dal
 
 ### Bisakah saya menautkan ulang kotak teks setelah memutuskan tautannya?
 
- Ya, Anda dapat menghubungkan kembali kotak teks dengan mengatur`Next` properti ke kotak teks lain, yang secara efektif menciptakan urutan baru.
+Ya, Anda dapat menghubungkan kembali kotak teks dengan mengatur `Next` properti ke kotak teks lain, yang secara efektif menciptakan urutan baru.
 
 ### Dapatkah saya memeriksa apakah kotak teks memiliki tautan maju sebelum memutusnya?
 
- Ya, Anda dapat memeriksa apakah kotak teks memiliki tautan maju dengan memeriksa`Next` properti. Jika tidak null, kotak teks memiliki tautan maju.
+Ya, Anda dapat memeriksa apakah kotak teks memiliki tautan maju dengan memeriksa `Next` properti. Jika tidak null, kotak teks memiliki tautan maju.
 
 ### Apakah tautan yang putus dapat memengaruhi tata letak dokumen?
 
@@ -134,10 +136,15 @@ Tautan yang putus berpotensi memengaruhi tata letak, terutama jika kotak teks di
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya tentang bekerja dengan Aspose.Words?
 
- Untuk informasi dan sumber daya lebih lanjut, Anda dapat mengunjungi[Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) Dan[forum dukungan](https://forum.aspose.com/c/words/8).
+Untuk informasi dan sumber daya lebih lanjut, Anda dapat mengunjungi [Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) Dan [forum dukungan](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

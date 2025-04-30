@@ -1,14 +1,16 @@
 ---
-title: การตั้งค่าความกว้างที่ต้องการ
-linktitle: การตั้งค่าความกว้างที่ต้องการ
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการสร้างตารางที่มีการตั้งค่าความกว้างแบบสัมบูรณ์ แบบสัมพันธ์ และอัตโนมัติใน Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้
-weight: 10
-url: /th/net/programming-with-tables/preferred-width-settings/
+"description": "เรียนรู้วิธีการสร้างตารางที่มีการตั้งค่าความกว้างแบบสัมบูรณ์ แบบสัมพันธ์ และอัตโนมัติใน Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้"
+"linktitle": "การตั้งค่าความกว้างที่ต้องการ"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การตั้งค่าความกว้างที่ต้องการ"
+"url": "/th/net/programming-with-tables/preferred-width-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การตั้งค่าความกว้างที่ต้องการ
@@ -21,13 +23,13 @@ url: /th/net/programming-with-tables/preferred-width-settings/
 
 ก่อนจะเริ่มบทช่วยสอนนี้ ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET ไว้ในสภาพแวดล้อมการพัฒนาของคุณแล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET ไว้ในสภาพแวดล้อมการพัฒนาของคุณแล้ว คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 
 2. สภาพแวดล้อมการพัฒนา .NET: มีการตั้งค่าสภาพแวดล้อมการพัฒนา .NET เช่น Visual Studio
 
-3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจตัวอย่างโค้ดและคำสั่งต่างๆ ได้ดีขึ้น
+3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจตัวอย่างโค้ดและตัวอย่างต่างๆ ได้ดีขึ้น
 
-4.  เอกสารประกอบ Aspose.Words: ดูที่[เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) สำหรับข้อมูล API โดยละเอียดและการอ่านเพิ่มเติม
+4. เอกสารประกอบ Aspose.Words: ดูที่ [เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) สำหรับข้อมูล API โดยละเอียดและการอ่านเพิ่มเติม
 
 ## นำเข้าเนมสเปซ
 
@@ -46,7 +48,7 @@ using Aspose.Words.Tables;
 
 หัวข้อ: การสร้างเอกสารใหม่และ DocumentBuilder
 
- คำอธิบาย: เริ่มต้นด้วยการสร้างเอกสาร Word ใหม่และ`DocumentBuilder` ตัวอย่าง.`DocumentBuilder` คลาสนี้เป็นวิธีง่ายๆ ในการเพิ่มเนื้อหาลงในเอกสารของคุณ
+คำอธิบาย: เริ่มต้นด้วยการสร้างเอกสาร Word ใหม่และ `DocumentBuilder` ตัวอย่าง. `DocumentBuilder` คลาสนี้เป็นวิธีง่ายๆ ในการเพิ่มเนื้อหาลงในเอกสารของคุณ
 
 ```csharp
 // กำหนดเส้นทางที่จะบันทึกเอกสาร
@@ -59,11 +61,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- ที่นี่คุณระบุไดเรกทอรีที่จะบันทึกเอกสารและเริ่มต้นการทำงาน`Document` และ`DocumentBuilder` วัตถุ
+ที่นี่คุณระบุไดเรกทอรีที่จะบันทึกเอกสารและเริ่มต้นการทำงาน `Document` และ `DocumentBuilder` วัตถุ
 
 ## ขั้นตอนที่ 2: แทรกเซลล์ตารางแรกด้วยความกว้างสัมบูรณ์
 
-แทรกเซลล์แรกลงในตารางโดยกำหนดความกว้างคงที่ไว้ที่ 40 จุด วิธีนี้จะช่วยให้เซลล์นี้คงความกว้างไว้ที่ 40 จุดเสมอ ไม่ว่าตารางจะมีขนาดเท่าใดก็ตาม
+แทรกเซลล์แรกลงในตารางโดยกำหนดความกว้างคงที่ 40 จุด วิธีนี้จะช่วยให้เซลล์นี้คงความกว้างไว้ที่ 40 จุดเสมอ ไม่ว่าตารางจะมีขนาดเท่าใดก็ตาม
 
 ```csharp
 // แทรกเซลล์ที่มีขนาดแน่นอน
@@ -73,7 +75,7 @@ builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln("Cell at 40 points width");
 ```
 
-ในขั้นตอนนี้ คุณจะเริ่มสร้างตารางและแทรกเซลล์ที่มีความกว้างสัมบูรณ์`PreferredWidth.FromPoints(40)` วิธีการกำหนดความกว้างของเซลล์เป็น 40 จุด และ`Shading.BackgroundPatternColor` ใช้สีพื้นหลังสีเหลืองอ่อน
+ในขั้นตอนนี้ คุณจะเริ่มสร้างตารางและแทรกเซลล์ที่มีความกว้างสัมบูรณ์ `PreferredWidth.FromPoints(40)` วิธีการกำหนดความกว้างของเซลล์เป็น 40 จุด และ `Shading.BackgroundPatternColor` ใช้สีพื้นหลังสีเหลืองอ่อน
 
 ## ขั้นตอนที่ 3: แทรกเซลล์ที่มีขนาดสัมพันธ์กัน
 
@@ -98,11 +100,11 @@ builder.Writeln("Cell at 20% width");
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightGreen;
-builder.Writeln("Cell automatically sized. The size of this cell is calculated from the table preferred width.");
+builder.Writeln("Cell automatically sized. การ size of this cell is calculated from the table preferred width.");
 builder.Writeln("In this case the cell will fill up the rest of the available space.");
 ```
 
- การ`PreferredWidth.Auto` การตั้งค่านี้จะช่วยให้เซลล์นี้ขยายหรือหดตัวตามพื้นที่ว่างที่เหลือหลังจากคำนวณเซลล์อื่นแล้ว ซึ่งจะทำให้เค้าโครงของตารางดูสมดุลและเป็นมืออาชีพ
+The `PreferredWidth.Auto` การตั้งค่านี้จะช่วยให้เซลล์นี้ขยายหรือหดตัวตามพื้นที่ว่างที่เหลือหลังจากคำนวณเซลล์อื่นแล้ว ซึ่งจะทำให้เค้าโครงของตารางดูสมดุลและเป็นมืออาชีพ
 
 ## ขั้นตอนที่ 5: สรุปและบันทึกเอกสาร
 
@@ -135,9 +137,14 @@ doc.Save(dataDir + "WorkingWithTables.PreferredWidthSettings.docx");
 
 ### จะเกิดอะไรขึ้นถ้าความกว้างทั้งหมดของตารางน้อยกว่าผลรวมของความกว้างของเซลล์ทั้งหมด?
 ตารางจะปรับความกว้างของเซลล์โดยอัตโนมัติเพื่อให้พอดีกับพื้นที่ว่าง ซึ่งอาจทำให้เซลล์บางเซลล์หดตัวลงได้
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

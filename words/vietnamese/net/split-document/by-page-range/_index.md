@@ -1,14 +1,16 @@
 ---
-title: Chia tài liệu Word theo phạm vi trang
-linktitle: Chia tài liệu Word theo phạm vi trang
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chia tài liệu Word theo phạm vi trang bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi. Hoàn hảo cho các nhà phát triển.
-weight: 10
-url: /vi/net/split-document/by-page-range/
+"description": "Tìm hiểu cách chia tài liệu Word theo phạm vi trang bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi. Hoàn hảo cho các nhà phát triển."
+"linktitle": "Chia tài liệu Word theo phạm vi trang"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chia tài liệu Word theo phạm vi trang"
+"url": "/vi/net/split-document/by-page-range/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chia tài liệu Word theo phạm vi trang
@@ -21,7 +23,7 @@ Bạn đã bao giờ thấy mình chỉ cần một vài trang từ một tài l
 
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Bạn cần cài đặt Aspose.Words cho .NET. Nếu bạn chưa có, bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Bạn cần cài đặt Aspose.Words cho .NET. Nếu bạn chưa có, bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Một môi trường phát triển phù hợp như Visual Studio.
 3. Kiến thức cơ bản về C#: Mặc dù chúng tôi sẽ hướng dẫn bạn từng bước, nhưng hiểu biết cơ bản về C# sẽ rất hữu ích.
 
@@ -48,7 +50,7 @@ using Aspose.Words;
 
 ## Bước 3: Tải tài liệu của bạn
 
- Bây giờ, hãy tải tài liệu bạn muốn chia nhỏ. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn đến tài liệu của bạn:
+Bây giờ, hãy tải tài liệu bạn muốn chia nhỏ. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn đến tài liệu của bạn:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -97,9 +99,14 @@ Có, nhưng bạn sẽ cần thực hiện nhiều thao tác trích xuất cho t
 
 Chắc chắn rồi! Aspose.Words for .NET hỗ trợ nhiều định dạng khác nhau bao gồm DOC, PDF, HTML, v.v.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: गुण गिनाएँ
-linktitle: गुण गिनाएँ
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में गुणों की गणना करना सीखें। सभी कौशल स्तरों के डेवलपर्स के लिए बिल्कुल सही।
-weight: 10
-url: /hi/net/programming-with-document-properties/enumerate-properties/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में गुणों की गणना करना सीखें। सभी कौशल स्तरों के डेवलपर्स के लिए बिल्कुल सही।"
+"linktitle": "गुण गिनाएँ"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "गुण गिनाएँ"
+"url": "/hi/net/programming-with-document-properties/enumerate-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # गुण गिनाएँ
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-document-properties/enumerate-properties/
 
 इससे पहले कि हम ट्यूटोरियल में आगे बढ़ें, आपको आरंभ करने के लिए कुछ चीजों की आवश्यकता होगी:
 
--  .NET के लिए Aspose.Words: आप कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+- .NET के लिए Aspose.Words: आप कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 - विकास वातावरण: विजुअल स्टूडियो की अनुशंसा की जाती है, लेकिन आप कोई भी C# IDE उपयोग कर सकते हैं।
 - C# का बुनियादी ज्ञान: C# की बुनियादी समझ आपको आगे बढ़ने में मदद करेगी।
 
@@ -49,7 +51,7 @@ using Aspose.Words.Properties;
 इसके बाद, चलिए उस Word दस्तावेज़ को लोड करते हैं जिसके साथ आप काम करना चाहते हैं। इस उदाहरण के लिए, हम आपके प्रोजेक्ट डायरेक्टरी में स्थित "Properties.docx" नामक दस्तावेज़ का उपयोग करेंगे।
 
 1. दस्तावेज़ पथ परिभाषित करें: अपने दस्तावेज़ का पथ निर्दिष्ट करें।
-2.  दस्तावेज़ लोड करें: Aspose.Words का उपयोग करें`Document` दस्तावेज़ लोड करने के लिए क्लास का उपयोग करें.
+2. दस्तावेज़ लोड करें: Aspose.Words का उपयोग करें `Document` दस्तावेज़ लोड करने के लिए क्लास का उपयोग करें.
 
 कोड यह है:
 
@@ -71,7 +73,7 @@ Console.WriteLine("1. Document name: {0}", doc.OriginalFileName);
 
 अंतर्निहित गुण Microsoft Word द्वारा पूर्वनिर्धारित मेटाडेटा गुण हैं। इनमें शीर्षक, लेखक और बहुत कुछ शामिल हैं।
 
-1.  अंतर्निहित गुणों तक पहुंचें: का उपयोग करें`BuiltInDocumentProperties` संग्रह।
+1. अंतर्निहित गुणों तक पहुंचें: का उपयोग करें `BuiltInDocumentProperties` संग्रह।
 2. गुणों के माध्यम से लूप करें: गुणों के माध्यम से पुनरावृति करें और उनके नाम और मान प्रदर्शित करें।
 
 कोड यह है:
@@ -87,7 +89,7 @@ foreach (DocumentProperty prop in doc.BuiltInDocumentProperties)
 
 कस्टम गुण उपयोगकर्ता-परिभाषित मेटाडेटा गुण हैं। ये कुछ भी हो सकते हैं जिन्हें आप अपने दस्तावेज़ में जोड़ना चाहते हैं।
 
-1.  कस्टम गुण तक पहुंचें: का उपयोग करें`CustomDocumentProperties` संग्रह।
+1. कस्टम गुण तक पहुंचें: का उपयोग करें `CustomDocumentProperties` संग्रह।
 2. गुणों के माध्यम से लूप करें: गुणों के माध्यम से पुनरावृति करें और उनके नाम और मान प्रदर्शित करें।
 
 कोड यह है:
@@ -106,23 +108,28 @@ foreach (DocumentProperty prop in doc.CustomDocumentProperties)
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### क्या मैं किसी दस्तावेज़ में नए गुण जोड़ सकता हूँ?
- हां, आप इसका उपयोग करके नई कस्टम प्रॉपर्टी जोड़ सकते हैं`CustomDocumentProperties` संग्रह।
+हां, आप इसका उपयोग करके नई कस्टम प्रॉपर्टी जोड़ सकते हैं `CustomDocumentProperties` संग्रह।
 
 ### क्या Aspose.Words का उपयोग निःशुल्क है?
- Aspose.Words प्रदान करता है एक[मुफ्त परीक्षण](https://releases.aspose.com/) और अलग[खरीद विकल्प](https://purchase.aspose.com/buy).
+Aspose.Words प्रदान करता है एक [मुफ्त परीक्षण](https://releases.aspose.com/) और अलग [खरीद विकल्प](https://purchase.aspose.com/buy).
 
 ### मैं Aspose.Words के लिए समर्थन कैसे प्राप्त करूं?
- आप Aspose समुदाय से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/words/8).
+आप Aspose समुदाय से सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/words/8).
 
 ### क्या मैं अन्य .NET भाषाओं के साथ Aspose.Words का उपयोग कर सकता हूँ?
 हां, Aspose.Words VB.NET सहित कई .NET भाषाओं का समर्थन करता है।
 
 ### मैं और अधिक उदाहरण कहां पा सकता हूं?
- इसकी जाँच पड़ताल करो[.NET दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/net/) अधिक उदाहरण और विस्तृत जानकारी के लिए.
+इसकी जाँच पड़ताल करो [.NET दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/net/) अधिक उदाहरण और विस्तृत जानकारी के लिए.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

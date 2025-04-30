@@ -1,14 +1,16 @@
 ---
-title: Aspose.Words for Java'da Belgelerden Görüntüleri Kaydetme
-linktitle: Belgelerden Görüntüleri Kaydetme
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Kapsamlı adım adım kılavuzumuzla Aspose.Words for Java'yı kullanarak belgelerden görüntüleri nasıl kaydedeceğinizi öğrenin. Biçimleri, sıkıştırmayı ve daha fazlasını özelleştirin.
-weight: 17
-url: /tr/java/document-loading-and-saving/saving-images-from-documents/
+"description": "Kapsamlı adım adım kılavuzumuzla Aspose.Words for Java'yı kullanarak belgelerden görüntüleri nasıl kaydedeceğinizi öğrenin. Biçimleri, sıkıştırmayı ve daha fazlasını özelleştirin."
+"linktitle": "Belgelerden Görüntüleri Kaydetme"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Aspose.Words for Java'da Belgelerden Görüntüleri Kaydetme"
+"url": "/tr/java/document-loading-and-saving/saving-images-from-documents/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Words for Java'da Belgelerden Görüntüleri Kaydetme
@@ -20,7 +22,7 @@ Bu eğitimde, Aspose.Words for Java kullanarak belgelerden resimlerin nasıl kay
 
 ## Ön koşullar
 
- Başlamadan önce, projenize Aspose.Words for Java kütüphanesinin entegre olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/words/java/).
+Başlamadan önce, projenize Aspose.Words for Java kütüphanesinin entegre olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/words/java/).
 
 ## Adım 1: Eşik Kontrolü ile Görüntüleri TIFF Olarak Kaydetme
 
@@ -177,7 +179,7 @@ Aspose.Words for Java kullanarak belgelerden görüntüleri nasıl kaydedeceğin
 
 ### Aspose.Words for Java ile kaydederken görüntü formatını nasıl değiştirebilirim?
 
- İstediğiniz formatı belirterek görüntü formatını değiştirebilirsiniz.`ImageSaveOptions` Örneğin, PNG olarak kaydetmek için şunu kullanın:`SaveFormat.PNG` kodda gösterildiği gibi:
+İstediğiniz formatı belirterek görüntü formatını değiştirebilirsiniz. `ImageSaveOptions`Örneğin, PNG olarak kaydetmek için şunu kullanın: `SaveFormat.PNG` kodda gösterildiği gibi:
 
 ```java
 ImageSaveOptions saveOptions = new ImageSaveOptions();
@@ -193,7 +195,7 @@ saveOptions.setTiffCompression(TiffCompression.CCITT_3);
 
 ### Bir belgenin belirli bir sayfasını ayrı bir resim olarak nasıl kaydedebilirim?
 
- Belirli bir sayfayı resim olarak kaydetmek için şunu kullanın:`setPageSet`yöntemde`ImageSaveOptions` Örneğin, yalnızca ilk sayfayı kaydetmek için,`PageSet` ile`new PageSet(0)`.
+Belirli bir sayfayı resim olarak kaydetmek için şunu kullanın: `setPageSet` yöntem `ImageSaveOptions`Örneğin, yalnızca ilk sayfayı kaydetmek için, `PageSet` ile `new PageSet(0)`.
 
 ```java
 saveOptions.setPageSet(new PageSet(0)); // İlk sayfayı resim olarak kaydet
@@ -201,7 +203,7 @@ saveOptions.setPageSet(new PageSet(0)); // İlk sayfayı resim olarak kaydet
 
 ### JPEG resimleri kaydederken özel ayarları nasıl uygularım?
 
-JPEG görüntülerine özel ayarlar uygulamak için şunları kullanabilirsiniz:`ImageSaveOptions`. Parlaklık, kontrast ve çözünürlük gibi özellikleri ayarlayın. Örneğin, parlaklığı 0,3'e ve kontrastı 0,7'ye değiştirmek için şu kodu kullanın:
+JPEG görüntülerine özel ayarlar uygulamak için şunları kullanabilirsiniz: `ImageSaveOptions`. Parlaklık, kontrast ve çözünürlük gibi özellikleri ayarlayın. Örneğin, parlaklığı 0,3'e ve kontrastı 0,7'ye değiştirmek için şu kodu kullanın:
 
 ```java
 options.setImageBrightness(0.3f);
@@ -210,13 +212,13 @@ options.setImageContrast(0.7f);
 
 ### Resim kaydetmeyi özelleştirmek için geri aramayı nasıl kullanabilirim?
 
- Görüntü kaydetmeyi özelleştirmek için bir geri arama kullanmak üzere,`PageSavingCallback` içinde`ImageSaveOptions` . Aşağıdakileri uygulayan bir sınıf oluşturun:`IPageSavingCallback` arayüz ve geçersiz kılma`pageSaving` yöntem.
+Görüntü kaydetmeyi özelleştirmek için bir geri arama kullanmak üzere, şunu ayarlayın: `PageSaviçindegCallback` in `ImageSaveOptions`. Aşağıdakileri uygulayan bir sınıf oluşturun: `IPageSavingCallback` arayüz ve geçersiz kılma `pageSaving` yöntem.
 
 ```java
 imageSaveOptions.setPageSavingCallback(new HandlePageSavingCallback());
 ```
 
- Daha sonra, aşağıdakileri uygulayan bir sınıf oluşturun:`IPageSavingCallback` arayüz ve dosya adını ve konumunu özelleştirin`pageSaving` yöntem.
+Daha sonra, aşağıdakileri uygulayan bir sınıf oluşturun: `IPageSavingCallback` arayüz ve dosya adını ve konumunu özelleştirin `pageSaving` yöntem.
 
 ```java
 private static class HandlePageSavingCallback implements IPageSavingCallback {
@@ -225,9 +227,14 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
     }
 }
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

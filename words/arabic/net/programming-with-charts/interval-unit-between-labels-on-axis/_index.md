@@ -1,38 +1,40 @@
 ---
-title: وحدة الفاصلة بين العلامات على محور الرسم البياني
-linktitle: وحدة الفاصلة بين العلامات على محور الرسم البياني
-second_title: واجهة برمجة تطبيقات معالجة المستندات Aspose.Words
-description: تعرف على كيفية تعيين وحدة الفاصل بين العلامات على محور الرسم البياني باستخدام Aspose.Words لـ .NET.
-weight: 10
-url: /ar/net/programming-with-charts/interval-unit-between-labels-on-axis/
+"description": "تعرف على كيفية تعيين وحدة الفاصل بين العلامات على محور الرسم البياني باستخدام Aspose.Words لـ .NET."
+"linktitle": "وحدة الفاصل الزمني بين العلامات على محور الرسم البياني"
+"second_title": "واجهة برمجة تطبيقات معالجة المستندات Aspose.Words"
+"title": "وحدة الفاصل الزمني بين العلامات على محور الرسم البياني"
+"url": "/ar/net/programming-with-charts/interval-unit-between-labels-on-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# وحدة الفاصلة بين العلامات على محور الرسم البياني
+# وحدة الفاصل الزمني بين العلامات على محور الرسم البياني
 
 ## مقدمة
 
-مرحبًا بك في دليلنا الشامل حول استخدام Aspose.Words لـ .NET! سواء كنت مطورًا محترفًا أو مبتدئًا، ستوضح لك هذه المقالة كل ما تحتاج إلى معرفته حول الاستفادة من Aspose.Words لمعالجة مستندات Word وتوليدها برمجيًا في تطبيقات .NET.
+أهلاً بكم في دليلنا الشامل لاستخدام Aspose.Words لـ .NET! سواءً كنت مطورًا محترفًا أو مبتدئًا، ستشرح لك هذه المقالة كل ما تحتاج لمعرفته حول استخدام Aspose.Words لمعالجة مستندات Word وإنشاءها برمجيًا في تطبيقات .NET.
 
 ## المتطلبات الأساسية
 
 قبل الغوص في Aspose.Words، تأكد من إعداد ما يلي:
 - تم تثبيت Visual Studio على جهازك
 - المعرفة الأساسية بلغة البرمجة C#
--  الوصول إلى مكتبة Aspose.Words لـ .NET (رابط التنزيل)[هنا](https://releases.aspose.com/words/net/))
+- الوصول إلى مكتبة Aspose.Words لـ .NET (رابط التنزيل [هنا](https://releases.aspose.com/words/net/))
 
-## استيراد المساحات الأساسية والبدء
+## استيراد مساحات الأسماء والبدء
 
-لنبدأ باستيراد المساحات الأساسية اللازمة وإعداد بيئة التطوير الخاصة بنا.
+لنبدأ باستيراد مساحات الأسماء الضرورية وإعداد بيئة التطوير الخاصة بنا.
 
 ### إعداد مشروعك في Visual Studio
 للبدء، قم بتشغيل Visual Studio وإنشاء مشروع C# جديد.
 
 ### تثبيت Aspose.Words لـ .NET
- يمكنك تثبيت Aspose.Words لـ .NET عبر NuGet Package Manager أو عن طريق تنزيله مباشرة من[موقع اسبوس](https://releases.aspose.com/words/net/).
+يمكنك تثبيت Aspose.Words لـ .NET عبر NuGet Package Manager أو عن طريق تنزيله مباشرة من [موقع Aspose](https://releases.aspose.com/words/net/).
 
 ### استيراد مساحة اسم Aspose.Words
 في ملف الكود C# الخاص بك، قم باستيراد مساحة اسم Aspose.Words للوصول إلى فئاتها وطرقها:
@@ -47,7 +49,7 @@ using Aspose.Words;
 
 ### الخطوة 1.1: تهيئة DocumentBuilder وإدراج مخطط
 ```csharp
-// المسار إلى دليل المستند الخاص بك
+// المسار إلى دليل المستندات الخاص بك 
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 
 Document doc = new Document();
@@ -73,36 +75,41 @@ chart.AxisX.TickLabelSpacing = 2;
 ```
 
 ## الخطوة 3: حفظ المستند
-وأخيرًا، احفظ المستند بالرسم البياني المُدرج:
+وأخيرًا، احفظ المستند بالمخطط المدرج:
 ```csharp
 doc.Save(dataDir + "WorkingWithCharts.IntervalUnitBetweenLabelsOnAxis.docx");
 ```
 
 ## خاتمة
 
-تهانينا! لقد تعلمت كيفية دمج المخططات ومعالجتها باستخدام Aspose.Words for .NET. تعمل هذه المكتبة القوية على تمكين المطورين من إنشاء مستندات ديناميكية وجذابة بصريًا دون عناء.
+تهانينا! لقد تعلمت كيفية دمج ومعالجة الرسوم البيانية باستخدام Aspose.Words لـ .NET. تُمكّن هذه المكتبة القوية المطورين من إنشاء مستندات ديناميكية وجذابة بصريًا بسهولة.
 
 
 ## الأسئلة الشائعة
 
 ### ما هو Aspose.Words لـ .NET؟
-Aspose.Words for .NET هي مكتبة معالجة مستندات تسمح للمطورين بإنشاء مستندات Word وتعديلها وتحويلها داخل تطبيقات .NET.
+Aspose.Words for .NET هي مكتبة معالجة مستندات تسمح للمطورين بإنشاء وتعديل وتحويل مستندات Word داخل تطبيقات .NET.
 
 ### أين يمكنني العثور على وثائق Aspose.Words لـ .NET؟
- يمكنك العثور على وثائق مفصلة[هنا](https://reference.aspose.com/words/net/).
+يمكنك العثور على وثائق مفصلة [هنا](https://reference.aspose.com/words/net/).
 
 ### هل يمكنني تجربة Aspose.Words لـ .NET قبل الشراء؟
- نعم، يمكنك تنزيل نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+نعم، يمكنك تنزيل نسخة تجريبية مجانية [هنا](https://releases.aspose.com/).
 
 ### كيف أحصل على الدعم لـ Aspose.Words لـ .NET؟
- للحصول على الدعم ومناقشات المجتمع، قم بزيارة[منتدى Aspose.Words](https://forum.aspose.com/c/words/8).
+للحصول على الدعم ومناقشات المجتمع، قم بزيارة [منتدى Aspose.Words](https://forum.aspose.com/c/words/8).
 
 ### أين يمكنني شراء ترخيص لـ Aspose.Words لـ .NET؟
- يمكنك شراء ترخيص[هنا](https://purchase.aspose.com/buy).
+يمكنك شراء ترخيص [هنا](https://purchase.aspose.com/buy).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

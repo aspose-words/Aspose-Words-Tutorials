@@ -1,14 +1,16 @@
 ---
-title: Dodaj podpis cyfrowy do pliku PDF za pomocą posiadacza certyfikatu
-linktitle: Dodaj podpis cyfrowy do pliku PDF za pomocą posiadacza certyfikatu
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Zabezpiecz swoje pliki PDF za pomocą podpisu cyfrowego, używając Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby bez wysiłku dodać podpis cyfrowy do swoich plików PDF.
-weight: 10
-url: /pl/net/programming-with-pdfsaveoptions/digitally-signed-pdf-using-certificate-holder/
+"description": "Zabezpiecz swoje pliki PDF za pomocą podpisu cyfrowego, używając Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby bez wysiłku dodać podpis cyfrowy do swoich plików PDF."
+"linktitle": "Dodaj podpis cyfrowy do pliku PDF za pomocą posiadacza certyfikatu"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Dodaj podpis cyfrowy do pliku PDF za pomocą posiadacza certyfikatu"
+"url": "/pl/net/programming-with-pdfsaveoptions/digitally-signed-pdf-using-certificate-holder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj podpis cyfrowy do pliku PDF za pomocą posiadacza certyfikatu
@@ -21,7 +23,7 @@ Czy kiedykolwiek zastanawiałeś się, jak zabezpieczyć dokumenty PDF za pomoc�
 
 Zanim zaczniemy, będziesz potrzebować kilku rzeczy:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowany Aspose.Words dla .NET. Możesz go pobrać ze strony[Strona internetowa Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowany Aspose.Words dla .NET. Możesz go pobrać ze strony [Strona internetowa Aspose](https://releases.aspose.com/words/net/).
 2. Plik certyfikatu: Będziesz potrzebować pliku certyfikatu .pfx, aby podpisać plik PDF. Jeśli go nie masz, możesz utworzyć certyfikat podpisany przez siebie w celach testowych.
 3. Visual Studio: W tym samouczku założono, że używasz Visual Studio jako środowiska programistycznego.
 4. Podstawowa znajomość języka C#: Znajomość języka C# i programowania .NET jest niezbędna.
@@ -69,7 +71,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Zastępować`"your_password"` z hasłem do pliku .pfx.
+Zastępować `"your_password"` z hasłem do pliku .pfx.
 
 ## Krok 4: Zapisz dokument jako podpisany cyfrowo plik PDF
 
@@ -97,13 +99,18 @@ Tak, aby dodać podpis cyfrowy do pliku PDF, potrzebny będzie plik certyfikatu 
 Tak, możesz utworzyć certyfikat podpisany przez siebie do celów testowych. Jednak do użytku produkcyjnego zaleca się uzyskanie certyfikatu od zaufanego urzędu certyfikacji.
 
 ### Czy Aspose.Words dla .NET jest darmowy?
- Aspose.Words dla platformy .NET jest produktem komercyjnym, ale można pobrać bezpłatną wersję próbną ze strony[Strona internetowa Aspose](https://releases.aspose.com/).
+Aspose.Words dla platformy .NET jest produktem komercyjnym, ale można pobrać bezpłatną wersję próbną ze strony [Strona internetowa Aspose](https://releases.aspose.com/).
 
 ### Czy mogę używać Aspose.Words dla .NET do podpisywania innych typów dokumentów?
 Tak, Aspose.Words dla .NET można używać do podpisywania różnych typów dokumentów, nie tylko plików PDF.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: ตัวอย่างแหล่งที่มาของฟอนต์ Steam
-linktitle: ตัวอย่างแหล่งที่มาของฟอนต์ Steam
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีใช้แหล่งข้อมูลแบบอักษรสตรีมทรัพยากรด้วย Aspose.Words สำหรับ .NET ในคู่มือโดยละเอียดนี้ รับรองว่าเอกสารของคุณจะแสดงผลอย่างถูกต้องทุกครั้ง
-weight: 10
-url: /th/net/working-with-fonts/resource-steam-font-source-example/
+"description": "เรียนรู้วิธีใช้แหล่งข้อมูลแบบอักษรสตรีมทรัพยากรด้วย Aspose.Words สำหรับ .NET ในคู่มือโดยละเอียดนี้ รับรองว่าเอกสารของคุณจะแสดงผลอย่างถูกต้องทุกครั้ง"
+"linktitle": "ตัวอย่างแหล่งที่มาของฟอนต์ Steam"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ตัวอย่างแหล่งที่มาของฟอนต์ Steam"
+"url": "/th/net/working-with-fonts/resource-steam-font-source-example/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตัวอย่างแหล่งที่มาของฟอนต์ Steam
@@ -22,9 +24,9 @@ url: /th/net/working-with-fonts/resource-steam-font-source-example/
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
 - ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณทำตามได้
--  Aspose.Words สำหรับไลบรารี .NET: ดาวน์โหลดและติดตั้งจาก[ลิงค์ดาวน์โหลด](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับไลบรารี .NET: ดาวน์โหลดและติดตั้งจาก [ลิงค์ดาวน์โหลด](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: การตั้งค่าเช่น Visual Studio เพื่อเขียนและดำเนินการโค้ดของคุณ
--  เอกสารตัวอย่าง: มีเอกสารตัวอย่าง (เช่น`Rendering.docx`) พร้อมทำการทดสอบการตั้งค่าฟอนต์แล้ว
+- เอกสารตัวอย่าง: มีเอกสารตัวอย่าง (เช่น `Rendering.docx`) พร้อมทำการทดสอบการตั้งค่าฟอนต์แล้ว
 
 ## นำเข้าเนมสเปซ
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร
 
- โหลดเอกสารของคุณลงใน Aspose.Words`Document` วัตถุ ซึ่งจะช่วยให้คุณสามารถจัดการเอกสารผ่านโปรแกรมได้
+โหลดเอกสารของคุณลงใน Aspose.Words `Document` วัตถุ ซึ่งจะช่วยให้คุณสามารถจัดการเอกสารผ่านโปรแกรมได้
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -68,7 +70,7 @@ FontSettings.DefaultInstance.SetFontsSources(new FontSourceBase[]
 
 ## ขั้นตอนที่ 4: นำ Source Font ของ Resource Stream มาใช้
 
- สร้างคลาสที่ขยาย`StreamFontSource` เพื่อจัดการแบบอักษรจากสตรีมทรัพยากรที่ฝังไว้ คลาสนี้จะดึงข้อมูลแบบอักษรจากทรัพยากรของแอสเซมบลี
+สร้างคลาสที่ขยาย `StreamFontSource` เพื่อจัดการแบบอักษรจากสตรีมทรัพยากรที่ฝังไว้ คลาสนี้จะดึงข้อมูลแบบอักษรจากทรัพยากรของแอสเซมบลี
 
 ```csharp
 internal class ResourceSteamFontSource : StreamFontSource
@@ -98,27 +100,32 @@ doc.Save(dataDir + "WorkingWithFonts.SetFontsFolders.pdf");
 
 ### คำถามที่ 1: ฉันสามารถใช้สตรีมทรัพยากรหลายรายการสำหรับแบบอักษรที่แตกต่างกันได้หรือไม่
 
- ใช่ คุณสามารถใช้งานหลายอย่างได้`StreamFontSource` คลาสสำหรับสตรีมทรัพยากรที่แตกต่างกันและเพิ่มลงในแหล่งฟอนต์
+ใช่ คุณสามารถใช้งานหลายอย่างได้ `StreamFontSource` คลาสสำหรับสตรีมทรัพยากรที่แตกต่างกันและเพิ่มลงในแหล่งฟอนต์
 
 ### คำถามที่ 2: ฉันสามารถรับรุ่นทดลองใช้งาน Aspose.Words สำหรับ .NET ฟรีได้ที่ไหน
 
- คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก[หน้าทดลองใช้งานฟรี Aspose](https://releases.aspose.com/).
+คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก [หน้าทดลองใช้งานฟรี Aspose](https://releases-aspose.com/).
 
-###  คำถามที่ 3: ฉันสามารถจัดการคำเตือนประเภทอื่นด้วย`IWarningCallback`?
+### คำถามที่ 3: ฉันสามารถจัดการคำเตือนประเภทอื่นด้วย `IWarningCallback`-
 
- ใช่ครับ`IWarningCallback`อินเทอร์เฟซสามารถจัดการกับคำเตือนประเภทต่างๆ ไม่ใช่แค่การแทนที่แบบอักษรเท่านั้น
+ใช่ครับ `IWarningCallback` อินเทอร์เฟซสามารถจัดการกับคำเตือนประเภทต่างๆ ไม่ใช่แค่การแทนที่แบบอักษรเท่านั้น
 
 ### คำถามที่ 4: ฉันสามารถค้นหาการสนับสนุนสำหรับ Aspose.Words ได้ที่ไหน
 
- เยี่ยมชม[ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือ
+เยี่ยมชม [ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือ
 
-### คำถามที่ 5: ฉันสามารถรับใบอนุญาตชั่วคราวสำหรับ Aspose.Words ได้หรือไม่
+### คำถามที่ 5: สามารถขอใบอนุญาตชั่วคราวสำหรับ Aspose.Words ได้หรือไม่
 
- ใช่ คุณสามารถขอใบอนุญาตชั่วคราวได้จาก[หน้าใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+ใช่ คุณสามารถขอใบอนุญาตชั่วคราวได้จาก [หน้าใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

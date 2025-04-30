@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Yer İmi Oluştur
-linktitle: Word Belgesinde Yer İmi Oluştur
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerinde yer imleri oluşturmayı öğrenin. Belge gezintisi ve organizasyonu için mükemmeldir.
-weight: 10
-url: /tr/net/programming-with-bookmarks/create-bookmark/
+"description": "Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerinde yer imleri oluşturmayı öğrenin. Belge gezintisi ve organizasyonu için mükemmeldir."
+"linktitle": "Word Belgesinde Yer İmi Oluştur"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Yer İmi Oluştur"
+"url": "/tr/net/programming-with-bookmarks/create-bookmark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Yer İmi Oluştur
@@ -21,7 +23,7 @@ Word belgesinde yer imleri oluşturmak, özellikle büyük belgelerde zahmetsizc
 
 Başlamadan önce aşağıdakilere sahip olmanız gerekiyor:
 
-1.  Aspose.Words for .NET Kütüphanesi: Buradan indirin ve kurun[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Buradan indirin ve kurun [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir .NET geliştirme ortamı.
 3. Temel C# Bilgisi: Temel C# programlama kavramlarının anlaşılması.
 
@@ -38,7 +40,7 @@ using Aspose.Words.Saving;
 
 Belgeyi Başlat
 
-İlk olarak yeni bir belge oluşturmamız ve başlatmamız gerekiyor`DocumentBuilder`Bu, belgenize içerik ve yer imleri eklemenin başlangıç noktasıdır.
+İlk olarak yeni bir belge oluşturmamız ve başlatmamız gerekiyor `DocumentBuilder`Bu, belgenize içerik ve yer imleri eklemenin başlangıç noktasıdır.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -47,7 +49,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Açıklama:`Document` nesne sizin tuvalinizdir.`DocumentBuilder` belgenizde içerik yazmanıza ve yer imleri oluşturmanıza olanak sağlayan kaleminiz gibidir.
+Açıklama: `Document` nesne sizin tuvalinizdir. `DocumentBuilder` belgenizde içerik yazmanıza ve yer imleri oluşturmanıza olanak sağlayan kaleminiz gibidir.
 
 ## Adım 2: Ana Yer İmi Oluşturun
 
@@ -60,7 +62,7 @@ builder.StartBookmark("My Bookmark");
 builder.Writeln("Text inside a bookmark.");
 ```
 
- Açıklama:`StartBookmark` yöntem yer iminin başlangıcını işaretler ve`Writeln` yer imine metin ekler.
+Açıklama: `StartBookmark` yöntem yer iminin başlangıcını işaretler ve `Writeln` yer imine metin ekler.
 
 ## Adım 3: İç İçe Yer İmi Oluşturun
 
@@ -74,7 +76,7 @@ builder.Writeln("Text inside a NestedBookmark.");
 builder.EndBookmark("Nested Bookmark");
 ```
 
- Açıklama: Yer imlerini iç içe yerleştirmek daha yapılandırılmış ve hiyerarşik içerik organizasyonuna olanak tanır.`EndBookmark` metodu geçerli yer imini kapatır.
+Açıklama: Yer imlerini iç içe yerleştirmek daha yapılandırılmış ve hiyerarşik içerik organizasyonuna olanak tanır. `EndBookmark` metodu geçerli yer imini kapatır.
 
 ## Adım 4: İç İçe Yerleştirilmiş Yer İmi Dışına Metin Ekleme
 
@@ -91,7 +93,7 @@ Açıklama: Bu, ana yer iminin hem iç içe yer imini hem de ek metni kapsaması
 
 ## Adım 5: PDF Kaydetme Seçeneklerini Yapılandırın
 
-Yer İşaretleri için PDF Kaydetme Seçeneklerini Ayarlayın
+Yer İmleri için PDF Kaydetme Seçeneklerini Ayarlayın
 
 Belgeyi PDF olarak kaydederken yer imlerini içerecek şekilde seçenekleri yapılandırabiliriz.
 
@@ -101,7 +103,7 @@ options.OutlineOptions.BookmarksOutlineLevels.Add("My Bookmark", 1);
 options.OutlineOptions.BookmarksOutlineLevels.Add("Nested Bookmark", 2);
 ```
 
- Açıklama:`PdfSaveOptions` sınıfı, belgenin PDF olarak nasıl kaydedileceğini belirtmenize olanak tanır.`BookmarksOutlineLevels` özellik PDF'deki yer imlerinin hiyerarşisini tanımlar.
+Açıklama: `PdfSaveOptions` sınıfı, belgenin PDF olarak nasıl kaydedileceğini belirtmenize olanak tanır. `BookmarksOutlineLevels` özellik PDF'deki yer imlerinin hiyerarşisini tanımlar.
 
 ## Adım 6: Belgeyi Kaydedin
 
@@ -113,7 +115,7 @@ Son olarak belgeyi belirtilen seçeneklerle kaydedin.
 doc.Save(dataDir + "WorkingWithBookmarks.CreateBookmark.pdf", options);
 ```
 
- Açıklama:`Save` method belgeyi belirtilen formatta ve konumda kaydeder. PDF artık oluşturduğumuz yer imlerini içerecektir.
+Açıklama: `Save` method belgeyi belirtilen formatta ve konumda kaydeder. PDF artık oluşturduğumuz yer imlerini içerecektir.
 
 ## Çözüm
 
@@ -127,11 +129,11 @@ Kesinlikle! Belgeyi PDF olarak kaydederken ihtiyacınız kadar yer imi oluştura
 
 ### Bir yer iminin metnini nasıl güncellerim?
 
- Yer imlerine gitmek için şunu kullanabilirsiniz:`DocumentBuilder.MoveToBookmark` ve ardından metni güncelleyin.
+Yer imlerine gitmek için şunu kullanabilirsiniz: `DocumentBuilder.MoveToBookmark` ve ardından metni güncelleyin.
 
 ### Bir yer imini silmek mümkün müdür?
 
- Evet, bir yer imini şu şekilde silebilirsiniz:`Bookmarks.Remove` Yer iminin adını belirterek yöntemi.
+Evet, bir yer imini şu şekilde silebilirsiniz: `Bookmarks.Remove` Yer iminin adını belirterek yöntemi.
 
 ### PDF dışında başka formatlarda da yer imi oluşturabilir miyim?
 
@@ -139,10 +141,15 @@ Evet, Aspose.Words DOCX, HTML ve EPUB dahil olmak üzere çeşitli formatlardaki
 
 ### Yer imlerinin PDF'de doğru şekilde görünmesini nasıl sağlayabilirim?
 
- Tanımladığınızdan emin olun`BookmarksOutlineLevels` düzgün bir şekilde`PdfSaveOptions`Bu, yer imlerinin PDF'in ana hatlarına dahil edilmesini sağlar.
+Tanımladığınızdan emin olun `BookmarksOutlineLevels` düzgün bir şekilde `PdfSaveOptions`Bu, yer imlerinin PDF'in ana hatlarına dahil edilmesini sağlar.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

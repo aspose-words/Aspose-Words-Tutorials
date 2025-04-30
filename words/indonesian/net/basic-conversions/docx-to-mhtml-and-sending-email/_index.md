@@ -1,14 +1,16 @@
 ---
-title: Konversi Docx ke Mhtml dan mengirim email
-linktitle: Konversi Docx ke Mhtml dan mengirim email
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengonversi DOCX ke MHTML dan mengirim email menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah ini. Tingkatkan produktivitas Anda dengan otomatisasi yang mudah.
-weight: 10
-url: /id/net/basic-conversions/docx-to-mhtml-and-sending-email/
+"description": "Pelajari cara mengonversi DOCX ke MHTML dan mengirim email menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah ini. Tingkatkan produktivitas Anda dengan otomatisasi yang mudah."
+"linktitle": "Konversi Docx ke Mhtml dan mengirim email"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Konversi Docx ke Mhtml dan mengirim email"
+"url": "/id/net/basic-conversions/docx-to-mhtml-and-sending-email/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konversi Docx ke Mhtml dan mengirim email
@@ -21,8 +23,8 @@ Di era digital saat ini, mengonversi dokumen dari satu format ke format lain dan
 
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
-1.  Aspose.Words untuk .NET: Unduh dan instal pustaka Aspose.Words untuk .NET dari[Aspose merilis halaman](https://releases.aspose.com/words/net/).
-2.  Aspose.Email untuk .NET: Unduh dan instal pustaka Aspose.Email untuk .NET dari[Aspose merilis halaman](https://releases.aspose.com/email/net/).
+1. Aspose.Words untuk .NET: Unduh dan instal pustaka Aspose.Words untuk .NET dari [Aspose merilis halaman](https://releases.aspose.com/words/net/).
+2. Aspose.Email untuk .NET: Unduh dan instal pustaka Aspose.Email untuk .NET dari [Aspose merilis halaman](https://releases.aspose.com/email/net/).
 3. .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda.
 4. Server SMTP: Anda memerlukan akses ke server SMTP untuk mengirim email.
 
@@ -42,7 +44,7 @@ Mari kita uraikan prosesnya menjadi beberapa langkah untuk memastikan Anda memah
 
 ## Langkah 1: Muat Dokumen DOCX
 
- Pertama, Anda perlu memuat dokumen DOCX yang ingin Anda konversi. Gunakan`Document` kelas dari Aspose.Words untuk memuat berkas DOCX Anda.
+Pertama, Anda perlu memuat dokumen DOCX yang ingin Anda konversi. Gunakan `Document` kelas dari Aspose.Words untuk memuat berkas DOCX Anda.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -52,7 +54,7 @@ Document doc = new Document(dataDir + "Document.docx");
 
 ## Langkah 2: Simpan Dokumen sebagai MHTML
 
- Selanjutnya, simpan dokumen yang dimuat sebagai file MHTML. Ini dilakukan dengan menggunakan`Save` metode dari`Document` kelas.
+Selanjutnya, simpan dokumen yang dimuat sebagai file MHTML. Ini dilakukan dengan menggunakan `Save` metode dari `Document` kelas.
 
 ```csharp
 Stream stream = new MemoryStream();
@@ -64,7 +66,7 @@ stream.Position = 0;
 
 ## Langkah 3: Buat Pesan Email
 
- Sekarang, buat pesan email dari aliran MHTML menggunakan Aspose.Email. Anda akan menggunakan`MailMessage` kelas untuk tujuan ini.
+Sekarang, buat pesan email dari aliran MHTML menggunakan Aspose.Email. Anda akan menggunakan `MailMessage` kelas untuk tujuan ini.
 
 ```csharp
 // Buat pesan email Aspose.Email MIME dari aliran.
@@ -76,7 +78,7 @@ message.Subject = "Aspose.Words + Aspose.Email MHTML Test Message";
 
 ## Langkah 4: Kirim Email
 
- Terakhir, kirim email menggunakan klien SMTP. Konfigurasikan klien SMTP dengan detail server SMTP Anda dan gunakan`Send` metode untuk mengirim pesan.
+Terakhir, kirim email menggunakan klien SMTP. Konfigurasikan klien SMTP dengan detail server SMTP Anda dan gunakan `Send` metode untuk mengirim pesan.
 
 ```csharp
 // Kirim pesan menggunakan Aspose.Email.
@@ -95,20 +97,25 @@ Selamat! Anda telah berhasil mengonversi dokumen DOCX ke MHTML dan mengirimkanny
 Ya, Aspose.Words mendukung berbagai format, dan Anda dapat mengonversi dokumen seperti DOC, DOCX, RTF, dan lainnya ke MHTML.
 
 ### Bagaimana cara menambahkan lampiran ke email?
- Anda dapat menggunakan`Attachments` milik`MailMessage` kelas untuk menambahkan lampiran ke email Anda.
+Anda dapat menggunakan `Attachments` milik `MailMessage` kelas untuk menambahkan lampiran ke email Anda.
 
 ### Apakah Aspose.Words kompatibel dengan .NET Core?
 Ya, Aspose.Words kompatibel dengan .NET Core. Anda juga dapat menggunakannya dalam aplikasi .NET Core.
 
 ### Apakah saya memerlukan lisensi untuk Aspose.Words dan Aspose.Email?
- Ya, kedua perpustakaan tersebut memerlukan lisensi. Anda bisa mendapatkan lisensi sementara dari[Halaman pembelian Aspose](https://purchase.aspose.com/temporary-license/) untuk tujuan evaluasi.
+Ya, kedua perpustakaan tersebut memerlukan lisensi. Anda bisa mendapatkan lisensi sementara dari [Halaman pembelian Aspose](https://purchase.aspose.com/temporary-license/) untuk tujuan evaluasi.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Anda dapat menemukan dokumentasi terperinci untuk Aspose.Words[Di Sini](https://reference.aspose.com/words/net/) dan untuk Aspose.Email[Di Sini](https://reference.aspose.com/email/net/).
+Anda dapat menemukan dokumentasi terperinci untuk Aspose.Words [Di Sini](https://reference.aspose.com/words/net/) dan untuk Aspose.Email [Di Sini](https://reference.aspose.com/email/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

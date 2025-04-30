@@ -1,33 +1,35 @@
 ---
-title: Oldal mentése Visszahívás
-linktitle: Oldal mentése Visszahívás
-second_title: Aspose.Words Document Processing API
-description: Részletes, lépésenkénti útmutatónkkal megtudhatja, hogyan mentheti el a Word-dokumentum minden oldalát külön PNG-képként az Aspose.Words for .NET segítségével.
-weight: 10
-url: /hu/net/programming-with-imagesaveoptions/page-saving-callback/
+"description": "Tanuld meg, hogyan mentheted el egy Word-dokumentum minden oldalát külön PNG-képként az Aspose.Words for .NET segítségével részletes, lépésről lépésre haladó útmutatónkkal."
+"linktitle": "Oldalmentés visszahívása"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Oldalmentés visszahívása"
+"url": "/hu/net/programming-with-imagesaveoptions/page-saving-callback/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Oldal mentése Visszahívás
+# Oldalmentés visszahívása
 
 ## Bevezetés
 
-Szia! Érezte már valaha, hogy egy Word-dokumentum minden oldalát külön képként kell elmentenie? Lehet, hogy egy nagy jelentést szeretne könnyen emészthető látványelemekre bontani, vagy bélyegképeket kell létrehoznia az előnézethez. Bármi is legyen az ok, az Aspose.Words for .NET használatával ez a feladat gyerekjáték. Ebben az útmutatóban végigvezetjük az oldalmentő visszahívás beállításának folyamatán, amellyel a dokumentum minden oldalát egyedi PNG-képként mentheti el. Egyből merüljünk bele!
+Sziasztok! Éreztetek már úgy, hogy egy Word-dokumentum minden oldalát külön képként kell menteni? Talán egy nagy jelentést szeretnétek könnyen emészthető vizuális elemekre bontani, vagy esetleg előnézeti képeket kell létrehoznotok. Bármi is legyen az oka, az Aspose.Words for .NET használatával ez a feladat gyerekjáték. Ebben az útmutatóban végigvezetünk azon, hogyan állíthattok be egy oldalmentési visszahívást, amely a dokumentum minden oldalát külön PNG-képként menti. Vágjunk bele!
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt belekezdenénk, győződjünk meg róla, hogy a következőkkel rendelkezünk:
 
-1.  Aspose.Words for .NET: Ha még nem tette meg, töltse le és telepítse a webhelyről[itt](https://releases.aspose.com/words/net/).
+1. Aspose.Words .NET-hez: Ha még nem tette meg, töltse le és telepítse innen: [itt](https://releases.aspose.com/words/net/).
 2. Visual Studio: Bármelyik verziónak működnie kell, de ehhez az útmutatóhoz a Visual Studio 2019-et fogom használni.
-3. Alapvető C# ismerete: A követéshez alapszintű C# ismeretekre lesz szüksége.
+3. C# alapismeretek: A haladáshoz C# alapismeretekre lesz szükséged.
 
 ## Névterek importálása
 
-Először is importálnunk kell a szükséges névtereket. Ez segít nekünk elérni a szükséges osztályokat és metódusokat anélkül, hogy minden alkalommal beírnánk a teljes névteret.
+Először is importálnunk kell a szükséges névtereket. Ez segít abban, hogy a szükséges osztályokat és metódusokat anélkül érjük el, hogy minden alkalommal be kellene írnunk a teljes névteret.
 
 ```csharp
 using System;
@@ -35,9 +37,9 @@ using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
+## 1. lépés: Dokumentumkönyvtár beállítása
 
-Rendben, kezdjük a dokumentumkönyvtár elérési útjának meghatározásával. Ez az a hely, ahol a bevitt Word-dokumentum található, és ahol a kimeneti képek mentésre kerülnek.
+Rendben, kezdjük a dokumentumkönyvtár elérési útjának meghatározásával. Itt található a bemeneti Word-dokumentum, és itt lesznek mentve a kimeneti képek.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -45,15 +47,15 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## 2. lépés: Töltse be a dokumentumot
 
-Ezután betöltjük a feldolgozni kívánt dokumentumot. Győződjön meg arról, hogy a dokumentum ("Rendering.docx") a megadott könyvtárban van.
+Ezután betöltjük a feldolgozni kívánt dokumentumot. Győződjön meg róla, hogy a dokumentum ("Rendering.docx") a megadott könyvtárban van.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
-## 3. lépés: Állítsa be a képmentési beállításokat
+## 3. lépés: Képmentési beállítások konfigurálása
 
-Konfigurálnunk kell a képek mentési beállításait. Ebben az esetben az oldalakat PNG-fájlként mentjük.
+Be kell állítanunk a képek mentésének beállításait. Ebben az esetben PNG fájlként mentjük az oldalakat.
 
 ```csharp
 ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png)
@@ -63,11 +65,11 @@ ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png)
 };
 ```
 
- Itt,`PageSet` megadja a menteni kívánt oldalak tartományát, és`PageSavingCallback` rámutat az egyéni visszahívási osztályunkra.
+Itt, `PageSet` megadja a mentendő oldalak tartományát, és `PageSavingCallback` az egyéni visszahívó osztályunkra mutat.
 
-## 4. lépés: Végezze el az Oldalmentés visszahívását
+## 4. lépés: Az oldalmentő visszahívás megvalósítása
 
-Most pedig valósítsuk meg a visszahívási osztályt, amely kezeli az egyes oldalak mentését.
+Most implementáljuk a visszahívó osztályt, amely kezeli az egyes oldalak mentésének módját.
 
 ```csharp
 private class HandlePageSavingCallback : IPageSavingCallback
@@ -79,11 +81,11 @@ private class HandlePageSavingCallback : IPageSavingCallback
 }
 ```
 
- Ez az osztály valósítja meg a`IPageSavingCallback` felületen, és azon belül`PageSaving` módszerrel minden mentett oldalhoz meghatározzuk az elnevezési mintát.
+Ez az osztály megvalósítja a `IPageSavingCallback` felületen belül, `PageSaving` metódussal definiáljuk az egyes mentett oldalak elnevezési mintáját.
 
-## 5. lépés: Mentse el a dokumentumot képekként
+## 5. lépés: Mentse el a dokumentumot képként
 
-Végül elmentjük a dokumentumot a beállított opciókkal.
+Végül a beállított beállításokkal mentjük el a dokumentumot.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithImageSaveOptions.PageSavingCallback.png", imageSaveOptions);
@@ -91,29 +93,34 @@ doc.Save(dataDir + "WorkingWithImageSaveOptions.PageSavingCallback.png", imageSa
 
 ## Következtetés
 
-És megvan! Sikeresen beállított egy oldalmentő visszahívást, amellyel egy Word-dokumentum minden oldalát külön PNG-képként mentheti az Aspose.Words for .NET segítségével. Ez a technika hihetetlenül hasznos a különböző alkalmazásokhoz, az oldal-előnézetek létrehozásától a jelentésekhez készített egyedi oldalképekig. 
+És íme! Sikeresen beállítottál egy oldalmentési visszahívást, amely a Word-dokumentum minden oldalát külön PNG-képként menti az Aspose.Words for .NET használatával. Ez a technika hihetetlenül hasznos különféle alkalmazásokhoz, az oldal előnézeteinek létrehozásától kezdve az egyes oldalképek jelentésekhez történő előállításáig. 
 
-Boldog kódolást!
+Jó kódolást!
 
 ## GYIK
 
-### Menthetek oldalakat a PNG-től eltérő formátumban?  
- Igen, mentheti az oldalakat különböző formátumokban, például JPEG, BMP és TIFF formátumban, ha módosítja a`SaveFormat` be`ImageSaveOptions`.
+### Menthetek oldalakat PNG-től eltérő formátumban?  
+Igen, az oldalakat különböző formátumokban, például JPEG, BMP és TIFF formátumban mentheti a `SaveFormat` ban `ImageSaveOptions`.
 
-### Mi a teendő, ha csak bizonyos oldalakat akarok menteni?  
- A menteni kívánt oldalakat a gomb beállításával adhatja meg`PageSet` paraméter be`ImageSaveOptions`.
+### Mi van, ha csak bizonyos oldalakat szeretnék menteni?  
+A menteni kívánt oldalakat a beállítások módosításával adhatja meg. `PageSet` paraméter `ImageSaveOptions`.
 
-### Testreszabható a képminőség?  
- Teljesen! Olyan tulajdonságokat állíthat be, mint pl`ImageSaveOptions.JpegQuality` a kimeneti képek minőségének szabályozására.
+### Lehetséges a képminőség testreszabása?  
+Természetesen! Beállíthatsz olyan tulajdonságokat, mint `ImageSaveOptions.JpegQuality` a kimeneti képek minőségének szabályozására.
 
 ### Hogyan kezelhetem hatékonyan a nagyméretű dokumentumokat?  
-Nagyméretű dokumentumok esetén fontolja meg az oldalak kötegelt feldolgozását a memóriahasználat hatékony kezelése érdekében.
+Nagy dokumentumok esetén érdemes kötegelt oldalakat feldolgozni a memóriahasználat hatékony kezelése érdekében.
 
-### Hol találhatok további információt az Aspose.Words for .NET-ről?  
- Nézze meg a[dokumentáció](https://reference.aspose.com/words/net/) átfogó útmutatókért és példákért.
+### Hol találok további információt az Aspose.Words for .NET-ről?  
+Nézd meg a [dokumentáció](https://reference.aspose.com/words/net/) átfogó útmutatókért és példákért.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

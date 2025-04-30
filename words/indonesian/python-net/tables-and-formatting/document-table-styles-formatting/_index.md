@@ -1,14 +1,16 @@
 ---
-title: Gaya dan Pemformatan Tabel Dokumen menggunakan Aspose.Words Python
-linktitle: Gaya dan Pemformatan Tabel Dokumen
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari cara menata dan memformat tabel dokumen menggunakan Aspose.Words untuk Python. Buat, sesuaikan, dan ekspor tabel dengan panduan langkah demi langkah dan contoh kode. Sempurnakan presentasi dokumen Anda hari ini!
-weight: 12
-url: /id/python-net/tables-and-formatting/document-table-styles-formatting/
+"description": "Pelajari cara menata dan memformat tabel dokumen menggunakan Aspose.Words untuk Python. Buat, sesuaikan, dan ekspor tabel dengan panduan langkah demi langkah dan contoh kode. Sempurnakan presentasi dokumen Anda hari ini!"
+"linktitle": "Gaya dan Pemformatan Tabel Dokumen"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Gaya dan Pemformatan Tabel Dokumen menggunakan Aspose.Words Python"
+"url": "/id/python-net/tables-and-formatting/document-table-styles-formatting/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gaya dan Pemformatan Tabel Dokumen menggunakan Aspose.Words Python
@@ -38,14 +40,14 @@ Sebelum kita membahas secara spesifik tentang gaya dan pemformatan tabel dokumen
 
 Untuk membuat dan menyisipkan tabel ke dalam dokumen menggunakan Aspose.Words untuk Python, ikuti langkah-langkah berikut:
 
-1.  Buat Tabel: Gunakan`DocumentBuilder` kelas untuk membuat tabel baru dan menentukan jumlah baris dan kolom.
+1. Buat Tabel: Gunakan `DocumentBuilder` kelas untuk membuat tabel baru dan menentukan jumlah baris dan kolom.
 
     ```python
     builder = aw.DocumentBuilder(doc)
     table = builder.start_table()
     ```
 
-2.  Sisipkan Data: Tambahkan data ke tabel dengan menggunakan pembuat`insert_cell` Dan`write` metode.
+2. Sisipkan Data: Tambahkan data ke tabel dengan menggunakan pembuat `insert_cell` Dan `write` metode.
 
     ```python
     builder.insert_cell()
@@ -55,9 +57,9 @@ Untuk membuat dan menyisipkan tabel ke dalam dokumen menggunakan Aspose.Words un
     builder.end_row()
     ```
 
-3. Ulangi Baris: Tambahkan baris dan sel seperlunya, ikuti pola yang sama.
+3. Ulangi Baris: Tambahkan baris dan sel seperlunya, ikuti pola serupa.
 
-4.  Masukkan Tabel ke dalam Dokumen: Terakhir, masukkan tabel ke dalam dokumen menggunakan`end_table` metode.
+4. Masukkan Tabel ke dalam Dokumen: Terakhir, masukkan tabel ke dalam dokumen menggunakan `end_table` metode.
 
     ```python
     builder.end_table()
@@ -65,7 +67,7 @@ Untuk membuat dan menyisipkan tabel ke dalam dokumen menggunakan Aspose.Words un
 
 ## Menerapkan Pemformatan Tabel Dasar
 
- Pemformatan tabel dasar dapat dicapai dengan menggunakan metode yang disediakan oleh`Table` Dan`Cell` kelas. Berikut cara mempercantik tampilan tabel Anda:
+Pemformatan tabel dasar dapat dicapai dengan menggunakan metode yang disediakan oleh `Table` Dan `Cell` kelas. Berikut cara mempercantik tampilan tabel Anda:
 
 1. Atur Lebar Kolom: Sesuaikan lebar kolom untuk memastikan perataan yang tepat dan daya tarik visual.
 
@@ -194,19 +196,24 @@ Ya, Anda dapat menerapkan gaya khusus ke tabel Anda dengan memodifikasi berbagai
 
 ### Bisakah sel dalam tabel digabungkan?
 
- Ya, Anda dapat menggabungkan sel dalam tabel menggunakan`CellMerge` properti disediakan oleh Aspose.Words.
+Ya, Anda dapat menggabungkan sel dalam tabel menggunakan `CellMerge` properti disediakan oleh Aspose.Words.
 
 ### Bagaimana cara mengekspor tabel saya ke format yang berbeda?
 
- Anda dapat mengekspor tabel Anda ke format berbeda seperti PDF atau DOCX menggunakan`save` metode dan menentukan format yang diinginkan.
+Anda dapat mengekspor tabel Anda ke format berbeda seperti PDF atau DOCX menggunakan `save` metode dan menentukan format yang diinginkan.
 
 ### Di mana saya dapat mempelajari lebih lanjut tentang Aspose.Words untuk Python?
 
- Untuk dokumentasi dan referensi yang lengkap, kunjungi[Aspose.Words untuk Referensi API Python](https://reference.aspose.com/words/python-net/).
+Untuk dokumentasi dan referensi yang lengkap, kunjungi [Aspose.Words untuk Referensi API Python](https://reference.aspose.com/words/python-net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

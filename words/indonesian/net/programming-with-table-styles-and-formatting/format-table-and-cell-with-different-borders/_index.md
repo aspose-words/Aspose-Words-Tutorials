@@ -1,14 +1,16 @@
 ---
-title: Format Tabel Dan Sel Dengan Batas Yang Berbeda
-linktitle: Format Tabel Dan Sel Dengan Batas Yang Berbeda
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memformat tabel dan sel dengan batas yang berbeda menggunakan Aspose.Words untuk .NET. Sempurnakan dokumen Word Anda dengan gaya tabel dan bayangan sel yang disesuaikan.
-weight: 10
-url: /id/net/programming-with-table-styles-and-formatting/format-table-and-cell-with-different-borders/
+"description": "Pelajari cara memformat tabel dan sel dengan batas yang berbeda menggunakan Aspose.Words untuk .NET. Sempurnakan dokumen Word Anda dengan gaya tabel dan bayangan sel yang disesuaikan."
+"linktitle": "Format Tabel Dan Sel Dengan Batas Yang Berbeda"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Format Tabel Dan Sel Dengan Batas Yang Berbeda"
+"url": "/id/net/programming-with-table-styles-and-formatting/format-table-and-cell-with-different-borders/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Format Tabel Dan Sel Dengan Batas Yang Berbeda
@@ -22,8 +24,8 @@ Pernahkah Anda mencoba membuat dokumen Word Anda terlihat lebih profesional deng
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 - Pemahaman dasar tentang pemrograman C#.
 - Visual Studio terinstal di komputer Anda.
--  Aspose.Words untuk pustaka .NET. Jika Anda belum menginstalnya, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
--  Lisensi Aspose yang valid. Anda bisa mendapatkan uji coba gratis atau lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words untuk pustaka .NET. Jika Anda belum menginstalnya, Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
+- Lisensi Aspose yang valid. Anda bisa mendapatkan uji coba gratis atau lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ## Mengimpor Ruang Nama
 
@@ -40,7 +42,7 @@ using System.Drawing;
 Pertama, Anda perlu membuat dokumen baru dan menginisialisasi DocumentBuilder, yang membantu dalam membangun konten dokumen. 
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -138,22 +140,27 @@ Nah, itu dia! Anda baru saja mempelajari cara memformat tabel dan sel dengan bat
 ## Pertanyaan yang Sering Diajukan
 
 ### Dapatkah saya menggunakan gaya batas yang berbeda untuk setiap sel?
- Ya, Anda dapat mengatur gaya batas yang berbeda untuk setiap sel dengan menggunakan`CellFormat.Borders` milik.
+Ya, Anda dapat mengatur gaya batas yang berbeda untuk setiap sel dengan menggunakan `CellFormat.Borders` milik.
 
 ### Bagaimana cara menghapus semua batas dari tabel?
- Anda dapat menghapus semua batas dengan mengatur gaya batas ke`LineStyle.None`.
+Anda dapat menghapus semua batas dengan mengatur gaya batas ke `LineStyle.None`.
 
 ### Apakah mungkin untuk mengatur warna batas yang berbeda untuk setiap sel?
- Tentu saja! Anda dapat menyesuaikan warna batas untuk setiap sel menggunakan`CellFormat.Borders.Color` milik.
+Tentu saja! Anda dapat menyesuaikan warna batas untuk setiap sel menggunakan `CellFormat.Borders.Color` milik.
 
 ### Bisakah saya menggunakan gambar sebagai latar belakang sel?
 Meskipun Aspose.Words tidak secara langsung mendukung gambar sebagai latar belakang sel, Anda dapat menyisipkan gambar ke dalam sel dan menyesuaikan ukurannya untuk menutupi area sel.
 
 ### Bagaimana cara menggabungkan sel dalam tabel?
- Anda dapat menggabungkan sel menggunakan`CellFormat.HorizontalMerge` Dan`CellFormat.VerticalMerge` properti.
+Anda dapat menggabungkan sel menggunakan `CellFormat.HorizontalMerge` Dan `CellFormat.VerticalMerge` properti.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: การบันทึกเอกสาร HTML ที่มีเค้าโครงคงที่ใน Aspose.Words สำหรับ Java
-linktitle: การบันทึกเอกสาร HTML ด้วยเค้าโครงคงที่
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีบันทึกเอกสาร HTML ด้วยเค้าโครงคงที่ใน Aspose.Words สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดรูปแบบเอกสารอย่างราบรื่น
-weight: 15
-url: /th/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/
+"description": "เรียนรู้วิธีบันทึกเอกสาร HTML ด้วยเค้าโครงคงที่ใน Aspose.Words สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดรูปแบบเอกสารอย่างราบรื่น"
+"linktitle": "การบันทึกเอกสาร HTML ด้วยเค้าโครงคงที่"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การบันทึกเอกสาร HTML ที่มีเค้าโครงคงที่ใน Aspose.Words สำหรับ Java"
+"url": "/th/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การบันทึกเอกสาร HTML ที่มีเค้าโครงคงที่ใน Aspose.Words สำหรับ Java
@@ -33,11 +35,11 @@ url: /th/java/document-loading-and-saving/saving-html-documents-with-fixed-layou
 Document doc = new Document("Your Directory Path" + "YourDocument.docx");
 ```
 
- แทนที่`"YourDocument.docx"` พร้อมเส้นทางไปยังเอกสาร Word ของคุณ
+แทนที่ `"YourDocument.docx"` พร้อมเส้นทางไปยังเอกสาร Word ของคุณ
 
 ## ขั้นตอนที่ 2: กำหนดค่าตัวเลือกการบันทึกแบบคงที่ HTML
 
- เพื่อบันทึกเอกสารด้วยเค้าโครงคงที่ เราจำเป็นต้องกำหนดค่า`HtmlFixedSaveOptions` ชั้นเรียน เราจะตั้งค่า`useTargetMachineFonts`ทรัพย์สินที่จะ`true` เพื่อให้แน่ใจว่าแบบอักษรของเครื่องเป้าหมายถูกใช้ในผลลัพธ์ HTML:
+เพื่อบันทึกเอกสารด้วยเค้าโครงคงที่ เราจำเป็นต้องกำหนดค่า `HtmlFixedSaveOptions` ชั้นเรียน เราจะตั้งค่า `useTargetMachineFonts` ทรัพย์สินที่จะ `true` เพื่อให้แน่ใจว่าแบบอักษรของเครื่องเป้าหมายถูกใช้ในผลลัพธ์ HTML:
 
 ```java
 HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
@@ -52,7 +54,7 @@ saveOptions.setUseTargetMachineFonts(true);
 doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
 ```
 
- แทนที่`"FixedLayoutDocument.html"` พร้อมชื่อที่ต้องการให้กับไฟล์ HTML ของคุณ
+แทนที่ `"FixedLayoutDocument.html"` พร้อมชื่อที่ต้องการให้กับไฟล์ HTML ของคุณ
 
 ## โค้ดต้นฉบับสมบูรณ์สำหรับการบันทึกเอกสาร HTML ที่มีเค้าโครงคงที่ใน Aspose.Words สำหรับ Java
 
@@ -74,7 +76,7 @@ doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
 
 ### ฉันจะตั้งค่า Aspose.Words สำหรับ Java ในโปรเจ็กต์ของฉันได้อย่างไร
 
- การตั้งค่า Aspose.Words สำหรับ Java นั้นทำได้ง่าย คุณสามารถดาวน์โหลดไลบรารีได้จาก[ที่นี่](https://releases.aspose.com/words/java/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ระบุไว้ในเอกสารประกอบ[ที่นี่](https://reference.aspose.com/words/java/).
+การตั้งค่า Aspose.Words สำหรับ Java นั้นทำได้ง่าย คุณสามารถดาวน์โหลดไลบรารีได้จาก [ที่นี่](https://releases.aspose.com/words/java/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ระบุไว้ในเอกสารประกอบ [ที่นี่](https://reference-aspose.com/words/java/).
 
 ### มีข้อกำหนดการออกใบอนุญาตสำหรับการใช้ Aspose.Words สำหรับ Java หรือไม่
 
@@ -87,9 +89,14 @@ doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
 ### Aspose.Words สำหรับ Java สามารถใช้งานร่วมกับ Java เวอร์ชันต่างๆ ได้หรือไม่
 
 ใช่ Aspose.Words สำหรับ Java เข้ากันได้กับ Java เวอร์ชันต่างๆ ตรวจสอบให้แน่ใจว่าคุณใช้ Aspose.Words สำหรับ Java เวอร์ชันที่เข้ากันได้ซึ่งตรงกับสภาพแวดล้อมการพัฒนา Java ของคุณ
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

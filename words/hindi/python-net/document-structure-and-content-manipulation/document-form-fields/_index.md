@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ों में फ़ॉर्म फ़ील्ड और डेटा कैप्चर में महारत हासिल करना
-linktitle: वर्ड दस्तावेज़ों में फ़ॉर्म फ़ील्ड और डेटा कैप्चर में महारत हासिल करना
-second_title: Aspose.Words पायथन दस्तावेज़ प्रबंधन API
-description: Aspose.Words for Python के साथ Word दस्तावेज़ों में फ़ॉर्म फ़ील्ड बनाने और प्रबंधित करने की कला में महारत हासिल करें। डेटा को कुशलतापूर्वक कैप्चर करना और उपयोगकर्ता सहभागिता को बढ़ाना सीखें।
-weight: 15
-url: /hi/python-net/document-structure-and-content-manipulation/document-form-fields/
+"description": "Aspose.Words for Python के साथ Word दस्तावेज़ों में फ़ॉर्म फ़ील्ड बनाने और प्रबंधित करने की कला में महारत हासिल करें। डेटा को कुशलतापूर्वक कैप्चर करना और उपयोगकर्ता सहभागिता को बढ़ाना सीखें।"
+"linktitle": "वर्ड दस्तावेज़ों में फ़ॉर्म फ़ील्ड और डेटा कैप्चर में महारत हासिल करना"
+"second_title": "Aspose.Words पायथन दस्तावेज़ प्रबंधन API"
+"title": "वर्ड दस्तावेज़ों में फ़ॉर्म फ़ील्ड और डेटा कैप्चर में महारत हासिल करना"
+"url": "/hi/python-net/document-structure-and-content-manipulation/document-form-fields/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ों में फ़ॉर्म फ़ील्ड और डेटा कैप्चर में महारत हासिल करना
@@ -23,7 +25,7 @@ url: /hi/python-net/document-structure-and-content-manipulation/document-form-fi
 
 इससे पहले कि हम फॉर्म फ़ील्ड बनाने और उसमें महारत हासिल करने में आगे बढ़ें, आइए अपना वातावरण सेट करें और Python के लिए Aspose.Words से परिचित हों। आरंभ करने के लिए इन चरणों का पालन करें:
 
-1. Aspose.Words स्थापित करें: निम्नलिखित pip कमांड का उपयोग करके Aspose.Words for Python लाइब्रेरी स्थापित करके आरंभ करें:
+1. Aspose.Words स्थापित करें: निम्नलिखित pip कमांड का उपयोग करके Python लाइब्रेरी के लिए Aspose.Words स्थापित करके आरंभ करें:
    
    ```python
    pip install aspose-words
@@ -46,7 +48,7 @@ url: /hi/python-net/document-structure-and-content-manipulation/document-form-fi
 टेक्स्ट इनपुट फ़ील्ड उपयोगकर्ताओं को टेक्स्ट दर्ज करने की अनुमति देते हैं। टेक्स्ट इनपुट फ़ील्ड बनाने के लिए, निम्न कोड स्निपेट का उपयोग करें:
 
 ```python
-# Create a new text input form field
+# नया टेक्स्ट इनपुट फ़ॉर्म फ़ील्ड बनाएँ
 text_input_field = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_TEXT, 100, 100, 200, 20)
 ```
 
@@ -55,12 +57,12 @@ text_input_field = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_TEXT, 1
 चेकबॉक्स और रेडियो बटन का इस्तेमाल बहुविकल्पीय चयन के लिए किया जाता है। आप इन्हें इस तरह बना सकते हैं:
 
 ```python
-# Create a checkbox form field
+# चेकबॉक्स फ़ॉर्म फ़ील्ड बनाएँ
 checkbox = aw.drawing.Shape(doc, aw.drawing.ShapeType.CHECK_BOX, 100, 150, 15, 15)
 ```
 
 ```python
-# Create a radio button form field
+# रेडियो बटन फ़ॉर्म फ़ील्ड बनाएँ
 radio_button = aw.drawing.Shape(doc, aw.drawing.ShapeType.OLE_OBJECT, 100, 200, 15, 15)
 ```
 
@@ -69,7 +71,7 @@ radio_button = aw.drawing.Shape(doc, aw.drawing.ShapeType.OLE_OBJECT, 100, 200, 
 ड्रॉप-डाउन सूचियाँ उपयोगकर्ताओं के लिए विकल्पों का चयन प्रदान करती हैं। इस तरह से एक सूची बनाएँ:
 
 ```python
-# Create a drop-down list form field
+# ड्रॉप-डाउन सूची फ़ॉर्म फ़ील्ड बनाएँ
 drop_down = aw.drawing.Shape(doc, aw.drawing.ShapeType.COMBO_BOX, 100, 250, 100, 20)
 ```
 
@@ -78,7 +80,7 @@ drop_down = aw.drawing.Shape(doc, aw.drawing.ShapeType.COMBO_BOX, 100, 250, 100,
 डेट पिकर उपयोगकर्ताओं को सुविधाजनक तरीके से तिथियाँ चुनने में सक्षम बनाता है। इसे बनाने का तरीका इस प्रकार है:
 
 ```python
-# Create a date picker form field
+# दिनांक चयनकर्ता फ़ॉर्म फ़ील्ड बनाएँ
 date_picker = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_DATE, 100, 300, 100, 20)
 ```
 
@@ -88,7 +90,7 @@ date_picker = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_DATE, 100, 3
 
 ### फ़ील्ड नाम सेट करना
 
-फ़ील्ड नाम प्रत्येक फ़ॉर्म फ़ील्ड के लिए एक अद्वितीय पहचानकर्ता प्रदान करते हैं, जिससे कैप्चर किए गए डेटा को प्रबंधित करना आसान हो जाता है। फ़ील्ड का नाम सेट करने के लिए, निम्न का उपयोग करें:`Name` संपत्ति:
+फ़ील्ड नाम प्रत्येक फ़ॉर्म फ़ील्ड के लिए एक अद्वितीय पहचानकर्ता प्रदान करते हैं, जिससे कैप्चर किए गए डेटा को प्रबंधित करना आसान हो जाता है। फ़ील्ड का नाम सेट करने के लिए निम्न का उपयोग करें `Name` संपत्ति:
 
 ```python
 text_input_field.name = "full_name"
@@ -99,7 +101,7 @@ date_picker.name = "birth_date"
 
 ### प्लेसहोल्डर टेक्स्ट जोड़ना
 
- टेक्स्ट इनपुट फ़ील्ड में प्लेसहोल्डर टेक्स्ट उपयोगकर्ताओं को अपेक्षित इनपुट फ़ॉर्मेट के बारे में मार्गदर्शन करता है।`PlaceholderText` प्लेसहोल्डर्स जोड़ने के लिए संपत्ति:
+टेक्स्ट इनपुट फ़ील्ड में प्लेसहोल्डर टेक्स्ट उपयोगकर्ताओं को अपेक्षित इनपुट फ़ॉर्मेट के बारे में मार्गदर्शन करता है। `PlaceholderText` प्लेसहोल्डर्स जोड़ने के लिए संपत्ति:
 
 ```python
 text_input_field.placeholder_text = "Enter your full name"
@@ -127,20 +129,20 @@ date_picker.text = "2023-08-31"
 टेक्स्ट इनपुट फ़ील्ड बहुमुखी हैं और आमतौर पर टेक्स्ट संबंधी जानकारी कैप्चर करने के लिए उपयोग किए जाते हैं। इनका उपयोग नाम, पते, टिप्पणियाँ और बहुत कुछ एकत्र करने के लिए किया जा सकता है। टेक्स्ट इनपुट फ़ील्ड बनाने में इसकी स्थिति और आकार निर्दिष्ट करना शामिल है, जैसा कि नीचे दिए गए कोड स्निपेट में दिखाया गया है:
 
 ```python
-# Create a new text input form field
+# नया टेक्स्ट इनपुट फ़ॉर्म फ़ील्ड बनाएँ
 text_input_field = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_TEXT, 100, 100, 200, 20)
 ```
 
 फ़ील्ड बनने के बाद, आप इसके गुण सेट कर सकते हैं, जैसे नाम, डिफ़ॉल्ट मान और प्लेसहोल्डर टेक्स्ट। आइए देखें कि यह कैसे किया जाता है:
 
 ```python
-# Set the name of the text input field
+# टेक्स्ट इनपुट फ़ील्ड का नाम सेट करें
 text_input_field.name = "full_name"
 
-# Set a default value for the field
+# फ़ील्ड के लिए डिफ़ॉल्ट मान सेट करें
 text_input_field.text = "John Doe"
 
-# Add placeholder text to guide users
+# उपयोगकर्ताओं को मार्गदर्शन देने के लिए प्लेसहोल्डर टेक्स्ट जोड़ें
 text_input_field.placeholder_text = "Enter your full name"
 ```
 
@@ -155,28 +157,28 @@ text_input_field.placeholder_text = "Enter your full name"
  निम्नलिखित कोड:
 
 ```python
-# Create a checkbox form field
+# चेकबॉक्स फ़ॉर्म फ़ील्ड बनाएँ
 checkbox = aw.drawing.Shape(doc, aw.drawing.ShapeType.CHECK_BOX, 100, 150, 15, 15)
 ```
 
 रेडियो बटन के लिए, आप उन्हें OLE_OBJECT आकार प्रकार का उपयोग करके बना सकते हैं:
 
 ```python
-# Create a radio button form field
+# रेडियो बटन फ़ॉर्म फ़ील्ड बनाएँ
 radio_button = aw.drawing.Shape(doc, aw.drawing.ShapeType.OLE_OBJECT, 100, 200, 15, 15)
 ```
 
 इन फ़ील्ड्स को बनाने के बाद, आप उनके गुणों को अनुकूलित कर सकते हैं, जैसे नाम, डिफ़ॉल्ट चयन और लेबल टेक्स्ट:
 
 ```python
-# Set the name of the checkbox and radio button
+# चेकबॉक्स और रेडियो बटन का नाम सेट करें
 checkbox.name = "subscribe_newsletter"
 radio_button.name = "gender_selection"
 
-# Set the default selection for the checkbox
+# चेकबॉक्स के लिए डिफ़ॉल्ट चयन सेट करें
 checkbox.checked = True
 
-# Add label text to the checkbox and radio button
+# चेकबॉक्स और रेडियो बटन में लेबल टेक्स्ट जोड़ें
 checkbox.text = "Subscribe to newsletter"
 radio_button.text = "Male"
 ```
@@ -188,45 +190,45 @@ radio_button.text = "Male"
 ड्रॉप-डाउन सूचियाँ उन परिदृश्यों के लिए उपयोगी होती हैं जहाँ उपयोगकर्ताओं को पूर्वनिर्धारित सूची से कोई विकल्प चुनने की आवश्यकता होती है। इनका उपयोग आमतौर पर देशों, राज्यों या श्रेणियों को चुनने के लिए किया जाता है। आइए जानें कि ड्रॉप-डाउन सूचियाँ कैसे बनाएँ और उन्हें कस्टमाइज़ करें:
 
 ```python
-# Create a drop-down list form field
+# ड्रॉप-डाउन सूची फ़ॉर्म फ़ील्ड बनाएँ
 drop_down = aw.drawing.Shape(doc, aw.drawing.ShapeType.COMBO_BOX, 100, 250, 100, 20)
 ```
 
 ड्रॉप-डाउन सूची बनाने के बाद, आप उपयोगकर्ताओं के लिए उपलब्ध विकल्पों की सूची निर्दिष्ट कर सकते हैं:
 
 ```python
-# Set the name of the drop-down list
+# ड्रॉप-डाउन सूची का नाम सेट करें
 drop_down.name = "country_selection"
 
-# Provide a list of options for the drop-down list
+# ड्रॉप-डाउन सूची के लिए विकल्पों की सूची प्रदान करें
 drop_down.list_entries = ["USA", "Canada", "UK", "Australia", "Germany"]
 ```
 
 इसके अतिरिक्त, आप ड्रॉप-डाउन सूची के लिए डिफ़ॉल्ट चयन सेट कर सकते हैं:
 
 ```python
-# Set the default selection for the drop-down list
+# ड्रॉप-डाउन सूची के लिए डिफ़ॉल्ट चयन सेट करें
 drop_down.text = "USA"
 ```
 
-ड्रॉप-डाउन सूचियाँ पूर्वनिर्धारित सेट से विकल्पों के चयन की प्रक्रिया को सरल बनाती हैं, तथा डेटा संग्रहण में एकरूपता और सटीकता सुनिश्चित करती हैं।
+ड्रॉप-डाउन सूचियाँ पूर्वनिर्धारित सेट से विकल्पों के चयन की प्रक्रिया को सरल बनाती हैं, तथा डेटा कैप्चर में एकरूपता और सटीकता सुनिश्चित करती हैं।
 
 ### तिथि चयनकर्ता
 
 डेट पिकर उपयोगकर्ताओं से तारीखें प्राप्त करने की प्रक्रिया को सरल बनाते हैं। वे तारीखों के चयन के लिए उपयोगकर्ता-अनुकूल इंटरफ़ेस प्रदान करते हैं, जिससे इनपुट त्रुटियों की संभावना कम हो जाती है। डेट पिकर फ़ॉर्म फ़ील्ड बनाने के लिए, निम्न कोड का उपयोग करें:
 
 ```python
-# Create a date picker form field
+# दिनांक चयनकर्ता फ़ॉर्म फ़ील्ड बनाएँ
 date_picker = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_DATE, 100, 300, 100, 20)
 ```
 
 दिनांक चयनकर्ता बनाने के बाद, आप इसके गुण सेट कर सकते हैं, जैसे नाम और डिफ़ॉल्ट दिनांक:
 
 ```python
-# Set the name of the date picker
+# दिनांक चयनकर्ता का नाम सेट करें
 date_picker.name = "birth_date"
 
-# Set the default date for the date picker
+# दिनांक चयनकर्ता के लिए डिफ़ॉल्ट दिनांक सेट करें
 date_picker.text = "2023-08-31"
 ```
 
@@ -248,7 +250,7 @@ pip install aspose-words
 
 ### क्या मैं फॉर्म फ़ील्ड के लिए डिफ़ॉल्ट मान सेट कर सकता हूँ?
 
- हां, आप उचित गुणों का उपयोग करके फ़ॉर्म फ़ील्ड के लिए डिफ़ॉल्ट मान सेट कर सकते हैं। उदाहरण के लिए, टेक्स्ट इनपुट फ़ील्ड के लिए डिफ़ॉल्ट टेक्स्ट सेट करने के लिए, का उपयोग करें`text` संपत्ति।
+हां, आप उचित गुणों का उपयोग करके फ़ॉर्म फ़ील्ड के लिए डिफ़ॉल्ट मान सेट कर सकते हैं। उदाहरण के लिए, टेक्स्ट इनपुट फ़ील्ड के लिए डिफ़ॉल्ट टेक्स्ट सेट करने के लिए, का उपयोग करें `text` संपत्ति।
 
 ### क्या फॉर्म फ़ील्ड विकलांग उपयोगकर्ताओं के लिए सुलभ हैं?
 
@@ -257,9 +259,14 @@ pip install aspose-words
 ### क्या मैं कैप्चर किए गए डेटा को बाहरी डेटाबेस में निर्यात कर सकता हूँ?
 
 हां, आप प्रोग्रामेटिक रूप से फॉर्म फ़ील्ड से डेटा निकाल सकते हैं और इसे बाहरी डेटाबेस या अन्य सिस्टम के साथ एकीकृत कर सकते हैं। यह निर्बाध डेटा ट्रांसफर और प्रोसेसिंग को सक्षम बनाता है।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

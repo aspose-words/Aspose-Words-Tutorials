@@ -1,14 +1,16 @@
 ---
-title: Xóa trường
-linktitle: Xóa trường
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách xóa trường khỏi tài liệu Word theo chương trình bằng Aspose.Words cho .NET. Hướng dẫn từng bước rõ ràng với các ví dụ về mã.
-weight: 10
-url: /vi/net/working-with-fields/delete-fields/
+"description": "Tìm hiểu cách xóa trường khỏi tài liệu Word theo chương trình bằng Aspose.Words cho .NET. Hướng dẫn từng bước rõ ràng với các ví dụ về mã."
+"linktitle": "Xóa trường"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Xóa trường"
+"url": "/vi/net/working-with-fields/delete-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa trường
@@ -24,7 +26,7 @@ Trước khi bắt đầu hướng dẫn này, hãy đảm bảo bạn đã đá
 ### Yêu cầu phần mềm
 
 1. Visual Studio: Đã cài đặt và cấu hình trên hệ thống của bạn.
-2.  Aspose.Words cho .NET: Đã tải xuống và tích hợp vào dự án Visual Studio của bạn. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+2. Aspose.Words cho .NET: Đã tải xuống và tích hợp vào dự án Visual Studio của bạn. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 3. Một tài liệu Word: Chuẩn bị một tài liệu Word mẫu (.docx) có chứa các trường mà bạn muốn xóa.
 
 ### Yêu cầu về kiến thức
@@ -55,7 +57,7 @@ Nếu bạn chưa thực hiện, hãy thêm tham chiếu đến Aspose.Words và
 
 ## Bước 3: Chuẩn bị tài liệu của bạn
 
- Đặt tài liệu bạn muốn sửa đổi (ví dụ:`your-document.docx`trong thư mục dự án của bạn hoặc cung cấp đường dẫn đầy đủ đến dự án đó.
+Đặt tài liệu bạn muốn sửa đổi (ví dụ: `your-document.docx`) trong thư mục dự án của bạn hoặc cung cấp đường dẫn đầy đủ đến dự án đó.
 
 ## Bước 4: Khởi tạo đối tượng tài liệu Aspose.Words
 
@@ -67,7 +69,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "your-document.docx");
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
 
 ## Bước 5: Xóa các trường
 
@@ -102,15 +104,20 @@ Có, Aspose.Words hỗ trợ .NET Core, cho phép bạn sử dụng nó trong c�
 ### Tôi có thể xử lý lỗi như thế nào khi xử lý tài liệu bằng Aspose.Words?
 Bạn có thể sử dụng khối try-catch để xử lý các ngoại lệ có thể xảy ra trong quá trình xử lý tài liệu.
 
-### Tôi có thể xóa trường mà không làm thay đổi nội dung khác trong tài liệu không?
+### Tôi có thể xóa các trường mà không làm thay đổi nội dung khác trong tài liệu không?
 Có, phương pháp được trình bày ở đây chỉ nhắm mục tiêu cụ thể vào các trường và giữ nguyên nội dung khác.
 
 ### Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Words ở đâu?
- Ghé thăm[Aspose.Words cho tài liệu API .NET](https://reference.aspose.com/words/net/) và[Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8) để được hỗ trợ thêm.
+Ghé thăm [Aspose.Words cho tài liệu API .NET](https://reference.aspose.com/words/net/) và [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8) để được hỗ trợ thêm.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

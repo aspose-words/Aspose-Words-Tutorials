@@ -1,14 +1,16 @@
 ---
-title: Tiêu đề
-linktitle: Tiêu đề
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách làm chủ định dạng tài liệu bằng Aspose.Words cho .NET. Hướng dẫn này cung cấp hướng dẫn về cách thêm tiêu đề và tùy chỉnh tài liệu Word của bạn.
-weight: 10
-url: /vi/net/working-with-markdown/heading/
+"description": "Tìm hiểu cách làm chủ định dạng tài liệu bằng Aspose.Words cho .NET. Hướng dẫn này cung cấp hướng dẫn về cách thêm tiêu đề và tùy chỉnh tài liệu Word của bạn."
+"linktitle": "Tiêu đề"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tiêu đề"
+"url": "/vi/net/working-with-markdown/heading/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tiêu đề
@@ -21,7 +23,7 @@ Trong thế giới kỹ thuật số phát triển nhanh chóng ngày nay, việ
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1.  Aspose.Words cho .NET: Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE tương thích nào khác.
 3. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework phù hợp.
 4. Kiến thức cơ bản về C#: Hiểu về lập trình C# cơ bản sẽ giúp bạn theo dõi các ví dụ.
@@ -84,7 +86,7 @@ Có, Aspose.Words cho .NET có thể được sử dụng với bất kỳ ngôn
 
 ### Làm thế nào tôi có thể dùng thử miễn phí Aspose.Words cho .NET?
 
- Bạn có thể nhận được bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Bạn có thể nhận được bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 
 ### Có thể thêm kiểu tùy chỉnh vào Aspose.Words cho .NET không?
 
@@ -96,10 +98,15 @@ Có, Aspose.Words cho .NET được tối ưu hóa về hiệu suất và có th
 
 ### Tôi có thể tìm thêm tài liệu và hỗ trợ ở đâu?
 
- Để biết tài liệu chi tiết, hãy truy cập[đây](https://reference.aspose.com/words/net/) . Để được hỗ trợ, hãy kiểm tra[diễn đàn](https://forum.aspose.com/c/words/8).
+Để biết tài liệu chi tiết, hãy truy cập [đây](https://reference.aspose.com/words/net/). Để được hỗ trợ, hãy kiểm tra [diễn đàn](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Настройка страницы документа
-linktitle: Настройка страницы документа
-second_title: API обработки документов Aspose.Words
-description: Мастер настройки страницы документа с Aspose.Words для .NET в простых шагах. Узнайте, как загружать, устанавливать макет, определять символы в строке, строки на странице и сохранять документ.
-weight: 10
-url: /ru/net/programming-with-document-options-and-settings/document-page-setup/
+"description": "Мастер настройки страницы документа с Aspose.Words для .NET в простых шагах. Узнайте, как загружать, устанавливать макет, определять символы в строке, строки на странице и сохранять документ."
+"linktitle": "Настройка страницы документа"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Настройка страницы документа"
+"url": "/ru/net/programming-with-document-options-and-settings/document-page-setup/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Настройка страницы документа
@@ -21,8 +23,8 @@ url: /ru/net/programming-with-document-options-and-settings/document-page-setup/
 
 Прежде чем углубиться в детали, давайте убедимся, что у вас есть все необходимое:
 
--  Aspose.Words для .NET: Вы можете скачать его[здесь](https://releases.aspose.com/words/net/).
--  Действующая лицензия: вы можете ее приобрести[здесь](https://purchase.aspose.com/buy) или получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words для .NET: Вы можете скачать его [здесь](https://releases.aspose.com/words/net/).
+- Действующая лицензия: вы можете ее приобрести [здесь](https://purchase.aspose.com/buy) или получите временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 - Базовые знания программирования на C#: не волнуйтесь, я постараюсь объяснить все просто и понятно.
 - Интегрированная среда разработки (IDE): Visual Studio — хороший выбор.
 
@@ -40,7 +42,7 @@ using Aspose.Words.PageSetup;
 
 Прежде всего, вам нужно загрузить ваш документ. Это фундамент, на котором вы будете строить свою настройку страницы.
 
- Создайте новый экземпляр`Document` класс и загрузите ваш документ из указанного каталога.
+Создайте новый экземпляр `Document` класс и загрузите ваш документ из указанного каталога.
 
 ```csharp
 // Путь к каталогу документов.
@@ -91,19 +93,24 @@ doc.Save(dataDir + "WorkingWithDocumentOptionsAndSettings.DocumentPageSetup.docx
 Это мощная библиотека для создания, изменения и преобразования документов в различных форматах с использованием приложений .NET.
 
 ### Могу ли я использовать Aspose.Words бесплатно?
-Да, вы можете использовать его с временной лицензией, которую вы можете получить[здесь](https://purchase.aspose.com/temporary-license/).
+Да, вы можете использовать его с временной лицензией, которую вы можете получить [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Как установить Aspose.Words для .NET?
- Вы можете скачать его здесь[здесь](https://releases.aspose.com/words/net/) и следуйте инструкциям по установке.
+Вы можете скачать его здесь [здесь](https://releases.aspose.com/words/net/) и следуйте инструкциям по установке.
 
 ### Какие языки поддерживает Aspose.Words?
 Он поддерживает широкий спектр языков, включая азиатские языки, такие как китайский и японский.
 
 ### Где я могу найти более подробную документацию?
- Подробная документация доступна[здесь](https://reference.aspose.com/words/net/).
+Подробная документация доступна [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

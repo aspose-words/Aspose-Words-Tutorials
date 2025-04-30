@@ -1,14 +1,16 @@
 ---
-title: พิมพ์เอกสารด้วย PrintDialog
-linktitle: พิมพ์เอกสารด้วย PrintDialog
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีพิมพ์เอกสารโดยใช้ Aspose.Words สำหรับ Java พร้อมด้วย PrintDialog ปรับแต่งการตั้งค่า พิมพ์หน้าเฉพาะ และอื่นๆ อีกมากมายในคู่มือทีละขั้นตอนนี้
-weight: 14
-url: /th/java/document-printing/print-document-printdialog/
+"description": "เรียนรู้วิธีพิมพ์เอกสารโดยใช้ Aspose.Words สำหรับ Java พร้อมด้วย PrintDialog ปรับแต่งการตั้งค่า พิมพ์หน้าเฉพาะ และอื่นๆ อีกมากมายในคู่มือทีละขั้นตอนนี้"
+"linktitle": "พิมพ์เอกสารด้วย PrintDialog"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "พิมพ์เอกสารด้วย PrintDialog"
+"url": "/th/java/document-printing/print-document-printdialog/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # พิมพ์เอกสารด้วย PrintDialog
@@ -24,7 +26,7 @@ url: /th/java/document-printing/print-document-printdialog/
 ก่อนที่จะเจาะลึกโค้ด โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java ไว้ในระบบของคุณแล้ว
--  Aspose.Words สำหรับ Java: คุณสามารถดาวน์โหลดไลบรารีได้จาก[ที่นี่](https://releases.aspose.com/words/java/).
+- Aspose.Words สำหรับ Java: คุณสามารถดาวน์โหลดไลบรารีได้จาก [ที่นี่](https://releases-aspose.com/words/java/).
 
 ## การตั้งค่าโครงการ Java ของคุณ
 
@@ -63,7 +65,7 @@ public class PrintDocumentWithDialog {
 }
 ```
 
- ในโค้ดนี้ เราจะโหลดเอกสารโดยใช้ Aspose.Words ก่อน จากนั้นจึงเริ่มการทำงานของ PrinterSettings เราใช้`showPrintDialog()` วิธีการแสดง PrintDialog ให้ผู้ใช้เห็น เมื่อผู้ใช้เลือกการตั้งค่าการพิมพ์แล้ว เราจะพิมพ์เอกสารโดยใช้`doc.print(settings)`.
+ในโค้ดนี้ เราจะโหลดเอกสารโดยใช้ Aspose.Words ก่อน จากนั้นจึงเริ่มการทำงานของ PrinterSettings เราใช้ `showPrintDialog()` วิธีการแสดง PrintDialog ให้ผู้ใช้เห็น เมื่อผู้ใช้เลือกการตั้งค่าการพิมพ์แล้ว เราจะพิมพ์เอกสารโดยใช้ `doc-print(settings)`.
 
 ## การปรับแต่งการตั้งค่าการพิมพ์
 
@@ -75,9 +77,9 @@ public class PrintDocumentWithDialog {
 
 ## คำถามที่พบบ่อย
 
-### ฉันจะตั้งค่าทิศทางหน้าสำหรับการพิมพ์ได้อย่างไร?
+### ฉันจะตั้งค่าการวางแนวหน้าสำหรับการพิมพ์ได้อย่างไร
 
- หากต้องการตั้งค่าการวางแนวหน้ากระดาษ (แนวตั้งหรือแนวนอน) สำหรับการพิมพ์ คุณสามารถใช้`PageSetup` คลาสใน Aspose.Words นี่คือตัวอย่าง:
+หากต้องการตั้งค่าการวางแนวหน้ากระดาษ (แนวตั้งหรือแนวนอน) สำหรับการพิมพ์ คุณสามารถใช้ `PageSetup` คลาสใน Aspose.Words นี่คือตัวอย่าง:
 
 ```java
 Document doc = new Document("sample.docx");
@@ -87,7 +89,7 @@ pageSetup.setOrientation(Orientation.LANDSCAPE);
 
 ### ฉันสามารถพิมพ์หน้าเฉพาะจากเอกสารได้ไหม
 
- ใช่ คุณสามารถพิมพ์หน้าเฉพาะจากเอกสารโดยระบุช่วงหน้าใน`PrinterSettings` วัตถุ นี่คือตัวอย่าง:
+ใช่ คุณสามารถพิมพ์หน้าเฉพาะจากเอกสารโดยระบุช่วงหน้าใน `PrinterSettings` วัตถุ นี่คือตัวอย่าง:
 
 ```java
 PrinterSettings settings = new PrinterSettings();
@@ -96,7 +98,7 @@ settings.setPageRange("1-3, 5");
 
 ### ฉันจะเปลี่ยนขนาดกระดาษสำหรับการพิมพ์ได้อย่างไร?
 
-หากต้องการเปลี่ยนขนาดกระดาษสำหรับการพิมพ์ คุณสามารถใช้`PageSetup` ชั้นเรียนและตั้งค่า`PaperSize` ทรัพย์สิน นี่คือตัวอย่าง:
+หากต้องการเปลี่ยนขนาดกระดาษสำหรับการพิมพ์ คุณสามารถใช้ `PageSetup` ชั้นเรียนและตั้งค่า `PaperSize` ทรัพย์สิน นี่คือตัวอย่าง:
 
 ```java
 Document doc = new Document("sample.docx");
@@ -110,10 +112,15 @@ pageSetup.setPaperSize(PaperSize.A4);
 
 ### ฉันสามารถหาเอกสารและตัวอย่างเพิ่มเติมได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารประกอบและตัวอย่างที่ครอบคลุมสำหรับ Aspose.Words สำหรับ Java ได้ที่เว็บไซต์:[เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/).
+คุณสามารถค้นหาเอกสารประกอบและตัวอย่างที่ครอบคลุมสำหรับ Aspose.Words สำหรับ Java ได้ที่เว็บไซต์: [เอกสาร Aspose.Words สำหรับ Java](https://reference-aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

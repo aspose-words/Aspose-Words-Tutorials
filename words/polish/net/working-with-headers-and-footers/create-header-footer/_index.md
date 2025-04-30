@@ -1,14 +1,16 @@
 ---
-title: Utwórz nagłówek i stopkę
-linktitle: Utwórz nagłówek i stopkę
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dodawać i dostosowywać nagłówki i stopki w dokumentach Word za pomocą Aspose.Words dla .NET. Ten przewodnik krok po kroku zapewnia profesjonalne formatowanie dokumentów.
-weight: 10
-url: /pl/net/working-with-headers-and-footers/create-header-footer/
+"description": "Dowiedz się, jak dodawać i dostosowywać nagłówki i stopki w dokumentach Word za pomocą Aspose.Words dla .NET. Ten przewodnik krok po kroku zapewnia profesjonalne formatowanie dokumentów."
+"linktitle": "Utwórz nagłówek i stopkę"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Utwórz nagłówek i stopkę"
+"url": "/pl/net/working-with-headers-and-footers/create-header-footer/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz nagłówek i stopkę
@@ -21,7 +23,7 @@ Dodawanie nagłówków i stopek do dokumentów może zwiększyć ich profesjonal
 
 Zanim zaczniesz, upewnij się, że masz następujące rzeczy:
 
--  Aspose.Words dla .NET: Pobierz i zainstaluj z[link do pobrania](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Pobierz i zainstaluj z [link do pobrania](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: takie jak Visual Studio, do pisania i uruchamiania kodu.
 - Podstawowa wiedza o języku C#: zrozumienie języka C# i platformy .NET.
 - Przykładowy dokument: Przykładowy dokument służący do stosowania nagłówków i stopek lub tworzenia nowego dokumentu, tak jak pokazano w samouczku.
@@ -47,7 +49,7 @@ string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 
 ## Krok 2: Utwórz nowy dokument
 
- Utwórz nowy dokument i`DocumentBuilder`aby ułatwić dodawanie treści.
+Utwórz nowy dokument i `DocumentBuilder` aby ułatwić dodawanie treści.
 
 ```csharp
 Document doc = new Document();
@@ -177,27 +179,32 @@ Wykonując te kroki, możesz skutecznie dodawać i dostosowywać nagłówki i st
 
 ### Czym jest Aspose.Words dla .NET?
 
-Aspose.Words for .NET to biblioteka umożliwiająca programistom tworzenie, edycję i konwertowanie dokumentów Word programowo w aplikacjach .NET.
+Aspose.Words for .NET to biblioteka umożliwiająca programistom tworzenie, edytowanie i konwertowanie dokumentów Word programowo w aplikacjach .NET.
 
 ### Czy mogę dodać obrazy do nagłówka lub stopki?
 
- Tak, możesz łatwo dodać obrazy do nagłówka lub stopki, korzystając z`DocumentBuilder.InsertImage` metoda.
+Tak, możesz łatwo dodać obrazy do nagłówka lub stopki, korzystając z `DocumentBuilder.InsertImage` metoda.
 
 ### Jak ustawić różne nagłówki i stopki dla pierwszej strony?
 
- Możesz ustawić różne nagłówki i stopki dla pierwszej strony, używając`DifferentFirstPageHeaderFooter` własność`PageSetup` klasa.
+Możesz ustawić różne nagłówki i stopki dla pierwszej strony, używając `DifferentFirstPageHeaderFooter` własność `PageSetup` klasa.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words?
 
- Pełną dokumentację można znaleźć na stronie[Strona dokumentacji API Aspose.Words](https://reference.aspose.com/words/net/).
+Pełną dokumentację można znaleźć na stronie [Strona dokumentacji API Aspose.Words](https://reference.aspose.com/words/net/).
 
 ### Czy jest dostępne wsparcie dla Aspose.Words?
 
- Tak, Aspose oferuje wsparcie poprzez swoje[forum wsparcia](https://forum.aspose.com/c/words/8).
+Tak, Aspose oferuje wsparcie poprzez swoje [forum wsparcia](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

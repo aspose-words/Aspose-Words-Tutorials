@@ -1,14 +1,16 @@
 ---
-title: Экспорт документов в PDF
-linktitle: Экспорт документов в PDF
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как экспортировать документы в PDF с помощью Aspose.Words for Java. Это пошаговое руководство упрощает процесс бесшовного преобразования документов.
-weight: 10
-url: /ru/java/document-converting/exporting-documents-to-pdf/
+"description": "Узнайте, как экспортировать документы в PDF с помощью Aspose.Words for Java. Это пошаговое руководство упрощает процесс бесшовного преобразования документов."
+"linktitle": "Экспорт документов в PDF"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Экспорт документов в PDF"
+"url": "/ru/java/document-converting/exporting-documents-to-pdf/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Экспорт документов в PDF
@@ -24,7 +26,7 @@ url: /ru/java/document-converting/exporting-documents-to-pdf/
 
 - Среда разработки Java: убедитесь, что в вашей системе установлена Java.
 
--  Aspose.Words для Java: Загрузите и установите Aspose.Words для Java с сайта[здесь](https://releases.aspose.com/words/java/).
+- Aspose.Words для Java: Загрузите и установите Aspose.Words для Java с сайта [здесь](https://releases.aspose.com/words/java/).
 
 ## Создание проекта
 
@@ -53,7 +55,7 @@ doc.save("output.pdf", saveOptions);
 
 ## Сохранение PDF-файла
 
-Теперь вы успешно конвертировали ваш документ Word в PDF. Вы можете сохранить файл PDF в нужном месте, используя код выше.
+Теперь вы успешно конвертировали ваш документ Word в PDF. Вы можете сохранить файл PDF в нужном вам месте, используя код выше.
 
 ## Заключение
 
@@ -63,7 +65,7 @@ doc.save("output.pdf", saveOptions);
 
 ### Как справиться со сложным форматированием во время конвертации?
 
-Aspose.Words for Java сохраняет сложное форматирование, например, таблицы, изображения и стили, во время процесса конвертации. Вам не нужно беспокоиться о потере структуры или дизайна документа.
+Aspose.Words for Java сохраняет сложное форматирование, например, таблицы, изображения и стили, в процессе конвертации. Вам не нужно беспокоиться о потере структуры или дизайна документа.
 
 ### Могу ли я конвертировать несколько документов одновременно?
 
@@ -79,10 +81,15 @@ Aspose.Words for Java сохраняет сложное форматирован
 
 ### Где я могу найти больше документации и примеров?
 
- Подробную документацию и примеры кода можно найти в документации Aspose.Words for Java.[здесь](https://reference.aspose.com/words/java/).
+Подробную документацию и примеры кода можно найти в документации Aspose.Words for Java. [здесь](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

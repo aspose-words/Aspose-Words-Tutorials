@@ -1,14 +1,16 @@
 ---
-title: Dodaj tabelę w programie Word
-linktitle: Dodaj tabelę w programie Word
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Naucz się dodawać tabele w programie Word za pomocą Aspose.Words for Java. Łatwo generuj dobrze sformatowane tabele w dokumentach programu Word.
-weight: 10
-url: /pl/java/table-processing/add-table-in-word/
+"description": "Naucz się dodawać tabele w programie Word za pomocą Aspose.Words for Java. Łatwo generuj dobrze sformatowane tabele w dokumentach programu Word."
+"linktitle": "Dodaj tabelę w programie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Dodaj tabelę w programie Word"
+"url": "/pl/java/table-processing/add-table-in-word/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj tabelę w programie Word
@@ -27,7 +29,7 @@ Otwórz preferowane zintegrowane środowisko programistyczne (IDE) lub edytor te
 
 ## Krok 3: Dodaj zależność Aspose.Words
 
- Aby pracować z Aspose.Words dla Java, musisz dołączyć plik JAR Aspose.Words do ścieżki klas swojego projektu. Pobierz najnowszą wersję Aspose.Words dla Java ze strony[Aspose.Wydania](https://releases.aspose.com/words/java) i dodaj plik JAR do swojego projektu.
+Aby pracować z Aspose.Words dla Java, musisz dołączyć plik JAR Aspose.Words do ścieżki klas swojego projektu. Pobierz najnowszą wersję Aspose.Words dla Java ze strony [Aspose.Wydania](https://releases.aspose.com/words/java) i dodaj plik JAR do swojego projektu.
 
 ## Krok 4: Importuj wymagane klasy
 
@@ -39,7 +41,7 @@ import com.aspose.words.*;
 
 ## Krok 5: Utwórz nowy dokument Word
 
- Utwórz nową instancję`Document` obiekt, aby utworzyć nowy dokument Word.
+Utwórz nową instancję `Document` obiekt, aby utworzyć nowy dokument Word.
 
 ```java
 Document doc = new Document();
@@ -47,7 +49,7 @@ Document doc = new Document();
 
 ## Krok 6: Utwórz tabelę i dodaj wiersze
 
- Utwórz nowy`Table` obiekt i określ liczbę wierszy i kolumn.
+Utwórz nowy `Table` obiekt i określ liczbę wierszy i kolumn.
 
 ```java
 Table table = new Table(doc);
@@ -71,7 +73,7 @@ for (int row = 0; row < rowCount; row++) {
 
 ## Krok 7: Dodaj tabelę do dokumentu
 
- Wstaw tabelę do dokumentu za pomocą`appendChild()` metoda`Document` obiekt.
+Wstaw tabelę do dokumentu za pomocą `appendChild()` metoda `Document` obiekt.
 
 ```java
 doc.getFirstSection().getBody().appendChild(table);
@@ -79,7 +81,7 @@ doc.getFirstSection().getBody().appendChild(table);
 
 ## Krok 8: Zapisz dokument
 
-Zapisz dokument Word w wybranej lokalizacji za pomocą`save()` metoda.
+Zapisz dokument Word w wybranej lokalizacji za pomocą `save()` metoda.
 
 ```java
 doc.save("output.docx");
@@ -112,9 +114,13 @@ Tak, Aspose.Words pozwala na stosowanie różnych opcji formatowania komórek ta
 ### P5: Jak często Aspose.Words jest aktualizowany?
 
 Aplikacja Aspose.Words jest regularnie aktualizowana i udoskonalana, aby zapewnić zgodność z najnowszymi wersjami programów Microsoft Word i Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

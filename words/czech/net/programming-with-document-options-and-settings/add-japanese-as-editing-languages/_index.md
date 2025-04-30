@@ -1,34 +1,36 @@
 ---
-title: Přidat japonštinu jako jazyky pro úpravy
-linktitle: Přidat japonštinu jako jazyky pro úpravy
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak přidat japonštinu jako jazyk pro úpravy do vašich dokumentů pomocí Aspose.Words for .NET, pomocí tohoto podrobného průvodce krok za krokem.
-weight: 10
-url: /cs/net/programming-with-document-options-and-settings/add-japanese-as-editing-languages/
+"description": "Naučte se, jak přidat japonštinu jako jazyk pro úpravy do dokumentů pomocí Aspose.Words pro .NET s tímto podrobným návodem krok za krokem."
+"linktitle": "Přidat japonštinu jako jazyk pro úpravy"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Přidat japonštinu jako jazyk pro úpravy"
+"url": "/cs/net/programming-with-document-options-and-settings/add-japanese-as-editing-languages/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidat japonštinu jako jazyky pro úpravy
+# Přidat japonštinu jako jazyk pro úpravy
 
 ## Zavedení
 
-Zkoušeli jste někdy otevřít dokument a zjistili jste, že jste ztraceni v moři nečitelného textu, protože nastavení jazyka bylo špatně? Je to jako snažit se číst mapu v cizím jazyce! Pokud pracujete s dokumenty v různých jazycích, zejména v japonštině, pak je Aspose.Words for .NET vaším oblíbeným nástrojem. Tento článek vás krok za krokem provede přidáním japonštiny jako jazyka pro úpravy do vašich dokumentů pomocí Aspose.Words for .NET. Pojďme se ponořit a ujistěte se, že se už nikdy neztratíte v překladu!
+Už jste se někdy pokusili otevřít dokument a ztratili se v moři nečitelného textu, protože nastavení jazyka bylo špatné? Je to jako snažit se číst mapu v cizím jazyce! Pokud tedy pracujete s dokumenty v různých jazycích, zejména v japonštině, pak je Aspose.Words pro .NET tím pravým nástrojem. Tento článek vás krok za krokem provede tím, jak pomocí Aspose.Words pro .NET přidat japonštinu jako jazyk pro úpravy do dokumentů. Pojďme se do toho pustit a ujistíme se, že se už nikdy neztratíte v překladu!
 
 ## Předpoklady
 
-Než začneme, je potřeba mít připraveno několik věcí:
+Než začneme, je několik věcí, které budete potřebovat:
 
 1. Visual Studio: Ujistěte se, že máte nainstalované Visual Studio. Je to integrované vývojové prostředí (IDE), které budeme používat.
-2.  Aspose.Words for .NET: Musíte mít nainstalovanou aplikaci Aspose.Words for .NET. Pokud ji ještě nemáte, můžete si ji stáhnout[zde](https://releases.aspose.com/words/net/).
-3.  Vzorový dokument: Připravte si vzorový dokument, který chcete upravit. Mělo by to být v`.docx` formát.
-4. Základní znalosti C#: Základní znalost programování v C# vám pomůže postupovat podle příkladů.
+2. Aspose.Words pro .NET: Musíte mít nainstalovaný Aspose.Words pro .NET. Pokud ho ještě nemáte, můžete si ho stáhnout. [zde](https://releases.aspose.com/words/net/).
+3. Vzorový dokument: Mějte připravený vzorový dokument, který chcete upravit. Měl by být v `.docx` formát.
+4. Základní znalost C#: Základní znalost programování v C# vám pomůže sledovat příklady.
 
 ## Importovat jmenné prostory
 
-Než budete moci začít kódovat, musíte importovat potřebné jmenné prostory. Tyto jmenné prostory poskytují přístup ke knihovně Aspose.Words a dalším základním třídám.
+Než začnete s kódováním, je třeba importovat potřebné jmenné prostory. Tyto jmenné prostory poskytují přístup ke knihovně Aspose.Words a dalším nezbytným třídám.
 
 ```csharp
 using System;
@@ -36,51 +38,51 @@ using Aspose.Words;
 using Aspose.Words.Loading;
 ```
 
-S importovanými jmennými prostory jste připraveni začít kódovat!
+Po importu těchto jmenných prostorů jste připraveni začít programovat!
 
-## Krok 1: Nastavte možnosti LoadOptions
+## Krok 1: Nastavení možností načítání
 
- Nejprve musíte nastavit svůj`LoadOptions`. Zde určíte jazykové preference pro váš dokument.
+V první řadě je potřeba si nastavit `LoadOptions`Zde zadáte jazykové předvolby pro váš dokument.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
 ```
 
- The`LoadOptions` třída umožňuje přizpůsobit způsob načítání dokumentů. Tady s tím teprve začínáme.
+Ten/Ta/To `LoadOptions` třída umožňuje přizpůsobit způsob načítání dokumentů. Zde s tím teprve začínáme.
 
-## Krok 2: Přidejte japonštinu jako jazyk úprav
+## Krok 2: Přidání japonštiny jako jazyka pro úpravy
 
- Nyní, když jste nastavili svůj`LoadOptions`, je čas přidat japonštinu jako jazyk úprav. Berte to jako nastavení správného jazyka GPS, abyste mohli hladce navigovat.
+Nyní, když jste si nastavili `LoadOptions`, je čas přidat japonštinu jako jazyk pro úpravy. Představte si to jako nastavení GPS navigace na správný jazyk, abyste mohli plynule navigovat.
 
 ```csharp
 loadOptions.LanguagePreferences.AddEditingLanguage(EditingLanguage.Japanese);
 ```
 
-Tento řádek kódu říká Aspose.Words, aby nastavil japonštinu jako jazyk úprav dokumentu.
+Tento řádek kódu říká Aspose.Words, aby jako jazyk pro úpravy dokumentu nastavil japonštinu.
 
 ## Krok 3: Zadejte adresář dokumentů
 
-Dále musíte zadat cestu k adresáři dokumentů. Zde se nachází váš vzorový dokument.
+Dále je třeba zadat cestu k adresáři s dokumenty. Zde se nachází váš vzorový dokument.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou k vašemu adresáři dokumentů.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou k adresáři dokumentů.
 
-## Krok 4: Vložte dokument
+## Krok 4: Vložení dokumentu
 
-Když je vše nastaveno, je čas načíst dokument. Tady se děje kouzlo!
+Jakmile je vše nastaveno, je čas načíst dokument. A tady se začne dít ta pravá magie!
 
 ```csharp
 Document doc = new Document(dataDir + "No default editing language.docx", loadOptions);
 ```
 
- Zde načítáte dokument se zadaným`LoadOptions`.
+Zde načítáte dokument se zadaným `LoadOptions`.
 
 ## Krok 5: Zkontrolujte nastavení jazyka
 
- Po načtení dokumentu je důležité ověřit, zda byla jazyková nastavení použita správně. Můžete to udělat zaškrtnutím`LocaleIdFarEast` vlastnictví.
+Po načtení dokumentu je důležité ověřit, zda byla jazyková nastavení použita správně. To můžete provést kontrolou `LocaleIdFarEast` vlastnictví.
 
 ```csharp
 int localeIdFarEast = doc.Styles.DefaultFont.LocaleIdFarEast;
@@ -90,32 +92,37 @@ Console.WriteLine(
         : "The document default FarEast language was set to another than Japanese language originally, so it is not overridden.");
 ```
 
-Tento kód zkontroluje, zda je výchozí jazyk FarEast nastaven na japonštinu, a vytiskne příslušnou zprávu.
+Tento kód kontroluje, zda je výchozí jazyk Dálného východu nastaven na japonštinu, a vypíše příslušnou zprávu.
 
 ## Závěr
 
-tady to máte! Úspěšně jste přidali japonštinu jako jazyk pro úpravy do dokumentu pomocí Aspose.Words for .NET. Je to jako přidat do mapy nový jazyk, což usnadňuje navigaci a porozumění. Ať už pracujete s vícejazyčnými dokumenty nebo se jen potřebujete ujistit, že je váš text správně naformátován, Aspose.Words vám pomůže. Nyní pokračujte a prozkoumejte svět automatizace dokumentů s důvěrou!
+tady to máte! Úspěšně jste přidali japonštinu jako jazyk pro úpravy do svého dokumentu pomocí Aspose.Words pro .NET. Je to jako přidat nový jazyk do mapy, což usnadňuje navigaci a pochopení. Ať už pracujete s vícejazyčnými dokumenty, nebo si jen potřebujete zajistit správné formátování textu, Aspose.Words vám s tím pomůže. Nyní se pusťte do objevování světa automatizace dokumentů s důvěrou!
 
-## FAQ
+## Často kladené otázky
 
-### Mohu jako editační jazyky přidat více jazyků?
- Ano, můžete přidat více jazyků pomocí`AddEditingLanguage` metoda pro každý jazyk.
+### Mohu přidat více jazyků jako jazyky pro úpravy?
+Ano, můžete přidat více jazyků pomocí `AddEditingLanguage` metoda pro každý jazyk.
 
 ### Potřebuji licenci k používání Aspose.Words pro .NET?
- Ano, pro komerční použití potřebujete licenci. Můžete si jeden koupit[zde](https://purchase.aspose.com/buy) nebo získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
+Ano, pro komerční použití potřebujete licenci. Můžete si ji koupit. [zde](https://purchase.aspose.com/buy) nebo si pořídit dočasný řidičský průkaz [zde](https://purchase.aspose.com/temporary-license/).
 
-### Jaké další funkce nabízí Aspose.Words for .NET?
- Aspose.Words for .NET nabízí širokou škálu funkcí včetně generování dokumentů, převodu, manipulace a dalších. Podívejte se na[dokumentace](https://reference.aspose.com/words/net/) pro více podrobností.
+### Jaké další funkce nabízí Aspose.Words pro .NET?
+Aspose.Words pro .NET nabízí širokou škálu funkcí včetně generování dokumentů, konverze, manipulace a dalších. Podívejte se na [dokumentace](https://reference.aspose.com/words/net/) pro více informací.
 
-### Mohu Aspose.Words for .NET vyzkoušet před jeho zakoupením?
- Absolutně! Můžete si stáhnout bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
+### Můžu si Aspose.Words pro .NET vyzkoušet před koupí?
+Rozhodně! Můžete si stáhnout bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
 
 ### Kde mohu získat podporu pro Aspose.Words pro .NET?
- Můžete získat podporu od komunity Aspose[zde](https://forum.aspose.com/c/words/8).
+Podporu můžete získat od komunity Aspose [zde](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

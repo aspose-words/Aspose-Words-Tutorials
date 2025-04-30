@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Alanları Kullanma
-linktitle: Alanları Kullanma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Bu adım adım eğitimde Aspose.Words for Java alanlarını etkili bir şekilde kullanmayı öğrenin. Dinamik Word belgelerini kolaylıkla oluşturun.
-weight: 11
-url: /tr/java/using-document-elements/using-fields/
+"description": "Bu adım adım eğitimde Aspose.Words for Java alanlarını etkili bir şekilde kullanmayı öğrenin. Dinamik Word belgelerini kolaylıkla oluşturun."
+"linktitle": "Alanları Kullanma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Alanları Kullanma"
+"url": "/tr/java/using-document-elements/using-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Alanları Kullanma
@@ -22,7 +24,7 @@ Aspose.Words for Java, Java uygulamalarında Word belgeleriyle uğraşan herkes 
 
 ## 2. Ortamınızı Ayarlama
 
- Başlamadan önce, Aspose.Words for Java'nın yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/words/java/)Ayrıca sisteminizde Java ve Eclipse veya IntelliJ IDEA gibi entegre bir geliştirme ortamının (IDE) yüklü olduğundan emin olun.
+Başlamadan önce, Aspose.Words for Java'nın yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/words/java/)Ayrıca sisteminizde Java ve Eclipse veya IntelliJ IDEA gibi entegre bir geliştirme ortamının (IDE) yüklü olduğundan emin olun.
 
 ## 3. Bir Word Belgesi Yükleme
 
@@ -34,7 +36,7 @@ string outPath = "Your Output Directory";
 Document doc = new Document(dataDir + "Mail merge destinations - Fax.docx");
 ```
 
- Yer değiştirmek`"Your Document Directory"` Ve`"Your Output Directory"` uygun yollarla.
+Yer değiştirmek `"Your Document Directory"` Ve `"Your Output Directory"` uygun yollarla.
 
 ## 4. Posta Birleştirmeyi Özelleştirme
 
@@ -68,7 +70,7 @@ Belgenizi özelleştirdikten sonra aşağıdaki kodu kullanarak kaydedebilirsini
 doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 ```
 
- Yer değiştirmek`"Your Output Directory"` İstenilen çıktı yolu ile.
+Yer değiştirmek `"Your Output Directory"` İstenilen çıktı yolu ile.
 
 ## Tam Kaynak Kodu
 ```java
@@ -96,15 +98,15 @@ HandleMergeField Sınıfının kaynak kodu
     private static class HandleMergeField implements IFieldMergingCallback
     {
         /// <özet>
-        /// Bu işleyici, belgede bulunan her posta birleştirme alanı için çağrılır.
+        /// Bu işleyici, belgede bulunan her birleştirme alanı için çağrılır.
         /// Veri kaynağında bulunan her kayıt için.
         /// </özet>
         public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
         {
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
-            // Tüm boole değerlerinin onay kutusu form alanları olarak çıktı olarak verilmesini istediğimize karar verdik.
-            if (e.getFieldValue() instanceof /*boolean*/Boolean)
+            // Tüm Boole değerlerinin onay kutusu form alanları olarak çıktı olarak verilmesini istediğimize karar verdik.
+            if (e.getFieldValue() instanceof /*Boolean*/Boolean)
             {
                 // "İmleci" geçerli birleştirme alanına taşıyın.
                 mBuilder.moveToMergeField(e.getFieldName());
@@ -140,9 +142,12 @@ HandleMergeField Sınıfının kaynak kodu
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        builder.writeln("{{#foreach example}}");
-        builder.writeln("{{Image(126pt;126pt):stempel}}");
-        builder.writeln("{{/foreach example}}");
+        builder.writeln("
+{{#foreach example}}");
+        builder.writeln("
+{{Image(126pt;126pt):stempel}}");
+        builder.writeln("
+{{/foreach example}}");
         doc.getMailMerge().setUseNonMergeFields(true);
         doc.getMailMerge().setTrimWhitespaces(true);
         doc.getMailMerge().setUseWholeParagraphAsRegion(false);
@@ -158,7 +163,7 @@ HandleMergeField Sınıfının kaynak kodu
     {
         public void fieldMerging(FieldMergingArgs args)
         {
-            // Uygulanması zorunlu değildir.
+            //  Uygulanması zorunlu değildir.
         }
         public void imageFieldMerging(ImageFieldMergingArgs args) throws Exception
         {
@@ -211,17 +216,17 @@ HandleMergeField Sınıfının kaynak kodu
         DocumentBuilder builder = new DocumentBuilder(doc);
         // Bir IF alanının içine yerleştirilmiş bir MERGEFIELD ekleyin.
         // IF alan ifadesi yanlış olduğundan, iç MERGEFIELD'ın sonucu görüntülenmeyecektir.
-        //ve MERGEFIELD, posta birleştirme sırasında herhangi bir veri almayacaktır.
+        // ve MERGEFIELD, posta birleştirme sırasında herhangi bir veri almayacaktır.
         FieldIf fieldIf = (FieldIf)builder.insertField(" IF 1 = 2 ");
         builder.moveTo(fieldIf.getSeparator());
         builder.insertField(" MERGEFIELD  FullName ");
-        // Bu bayrağı true olarak ayarlarsak, yanlış ifadeli IF alanlarındaki MERGEFIELD'leri hala sayabiliriz.
+        // Bu bayrağı true olarak ayarlarsak, yine de yanlış ifadeli IF alanlarındaki MERGEFIELD'leri sayabiliriz.
         doc.getMailMerge().setUnconditionalMergeFieldsAndRegions(true);
         DataTable dataTable = new DataTable();
         dataTable.getColumns().add("FullName");
         dataTable.getRows().add("James Bond");
         doc.getMailMerge().execute(dataTable);
-        // IF alanı yanlış olduğundan sonuç belgede görünmeyecektir.
+        // Sonuç belgede görünmeyecektir çünkü IF alanı yanlıştır.
         // ancak iç MERGEFIELD gerçekten de veri aldı.
         doc.save("Your Directory Path" + "WorkingWithFields.MailMergeAndConditionalField.docx");
     }
@@ -315,7 +320,7 @@ HandleMergeField Sınıfının kaynak kodu
                 Color rowColor = isOdd(mRowIdx) 
                     ? new Color((213), (227), (235)) 
                     : new Color((242), (242), (242));
-                //Şu anda tüm satır için hücre özelliklerini ayarlamanın bir yolu yok, bu yüzden satırdaki tüm hücreler üzerinde yineleme yapmamız gerekiyor.
+                // Şu anda tüm satır için hücre özelliklerini ayarlamanın bir yolu yok, bu yüzden satırdaki tüm hücreler üzerinde yineleme yapmamız gerekiyor.
                 for (int colIdx = 0; colIdx < 4; colIdx++)
                 {
                     mBuilder.moveToCell(0, mRowIdx, colIdx, 0);
@@ -366,26 +371,31 @@ Tebrikler! Aspose.Words for Java'da Word belgelerini dinamik olarak düzenlemek 
 ## 7. SSS
 
 ### S1: Aspose.Words for Java'yı nereden indirebilirim?
- Java için Aspose.Words'ü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/java/).
+Java için Aspose.Words'ü şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/java/).
 
 ### S2: Aspose.Words for Java için geçici lisansı nasıl alabilirim?
- Geçici lisansı şuradan alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
+Geçici lisansı şuradan alabilirsiniz: [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### S3: Java için Aspose.Words desteğini nereden alabilirim?
- Destek için Aspose.Words forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/).
+Destek için Aspose.Words forumunu ziyaret edebilirsiniz [Burada](https://forum.aspose.com/).
 
 ### S4: Aspose.Words for Java, Word belgelerindeki HTML içeriğini işlemek için uygun mudur?
 Evet, Aspose.Words for Java, Word belgelerindeki HTML içeriğinin işlenmesi için mükemmel destek sağlar.
 
 ### S5: Aspose.Words for Java'yı ücretsiz kullanabilir miyim?
- Aspose.Words for Java ticari bir üründür, ancak ücretsiz deneme sürümüyle özelliklerini keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+Aspose.Words for Java ticari bir üründür, ancak ücretsiz deneme sürümüyle özelliklerini keşfedebilirsiniz [Burada](https://releases.aspose.com/).
 
 Bugün Aspose.Words for Java'yı kullanmaya başlayın ve Word belgelerinizin kontrolünü daha önce hiç olmadığı kadar ele alın!
 
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

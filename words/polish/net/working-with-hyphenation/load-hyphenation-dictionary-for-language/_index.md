@@ -1,14 +1,16 @@
 ---
-title: Załaduj słownik dzielenia wyrazów dla języka
-linktitle: Załaduj słownik dzielenia wyrazów dla języka
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak załadować słownik dzielenia wyrazów dla dowolnego języka za pomocą Aspose.Words dla platformy .NET, korzystając z tego kompleksowego samouczka krok po kroku.
-weight: 10
-url: /pl/net/working-with-hyphenation/load-hyphenation-dictionary-for-language/
+"description": "Dowiedz się, jak załadować słownik dzielenia wyrazów dla dowolnego języka za pomocą Aspose.Words dla platformy .NET, korzystając z tego kompleksowego samouczka krok po kroku."
+"linktitle": "Załaduj słownik dzielenia wyrazów dla języka"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Załaduj słownik dzielenia wyrazów dla języka"
+"url": "/pl/net/working-with-hyphenation/load-hyphenation-dictionary-for-language/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Załaduj słownik dzielenia wyrazów dla języka
@@ -23,9 +25,9 @@ Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
 - Na Twoim komputerze zainstalowano program Visual Studio.
 - Zainstalowano platformę .NET Framework.
--  Biblioteka Aspose.Words dla .NET. Jeśli jeszcze jej nie zainstalowałeś, możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+- Biblioteka Aspose.Words dla .NET. Jeśli jeszcze jej nie zainstalowałeś, możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 - Plik słownika dywizyjnego dla języka docelowego. W tym samouczku użyjemy niemieckiego słownika dywizyjnego (`hyph_de_CH.dic`).
-- Przykładowy dokument Word w języku docelowym. Użyjemy dokumentu o nazwie`German text.docx`.
+- Przykładowy dokument Word w języku docelowym. Użyjemy dokumentu o nazwie `German text.docx`.
 
 ## Importuj przestrzenie nazw
 
@@ -48,37 +50,37 @@ Zanim zaczniesz, musisz określić katalog, w którym znajduje się Twój dokume
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` ze ścieżką do katalogu zawierającego Twoje pliki.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` ze ścieżką do katalogu zawierającego Twoje pliki.
 
 ## Krok 2: Załaduj dokument
 
- Następnie załaduj dokument Word, który chcesz przetworzyć. Można to zrobić za pomocą`Document` klasa z Aspose.Words.
+Następnie załaduj dokument Word, który chcesz przetworzyć. Można to zrobić za pomocą `Document` klasa z Aspose.Words.
 
 ```csharp
 Document doc = new Document(dataDir + "German text.docx");
 ```
 
- Ta linia kodu inicjuje nowy`Document` obiekt i ładuje plik`German text.docx` ze wskazanego katalogu.
+Ta linia kodu inicjuje nowy `Document` obiekt i ładuje plik `German text.docx` ze wskazanego katalogu.
 
 ## Krok 3: Otwórz słownik dzielenia wyrazów
 
- Teraz musisz otworzyć plik słownika dywizyjnego. Użyjemy`File.OpenRead` metoda umożliwiająca odczytanie pliku słownika jako strumienia.
+Teraz musisz otworzyć plik słownika dywizyjnego. Użyjemy `File.OpenRead` metoda umożliwiająca odczytanie pliku słownika jako strumienia.
 
 ```csharp
 Stream stream = File.OpenRead(dataDir + "hyph_de_CH.dic");
 ```
 
- Ten wiersz otwiera plik słownika dzielenia wyrazów`hyph_de_CH.dic` i odczytuje je strumieniowo.
+Ten wiersz otwiera plik słownika dzielenia wyrazów `hyph_de_CH.dic` i odczytuje je strumieniowo.
 
 ## Krok 4: Zarejestruj słownik dzielenia wyrazów
 
- Po otwarciu pliku słownika następnym krokiem jest zarejestrowanie go do użycia w Aspose.Words. Robi się to za pomocą`Hyphenation.RegisterDictionary` metoda.
+Po otwarciu pliku słownika następnym krokiem jest zarejestrowanie go do użycia w Aspose.Words. Robi się to za pomocą `Hyphenation.RegisterDictionary` metoda.
 
 ```csharp
 Hyphenation.RegisterDictionary("de-CH", stream);
 ```
 
-Tutaj rejestrujemy słownik dzielenia wyrazów dla`de-CH` (szwajcarski niemiecki) język.
+Tutaj rejestrujemy słownik dzielenia wyrazów dla `de-CH` (szwajcarski niemiecki) język.
 
 ## Krok 5: Zapisz dokument
 
@@ -88,11 +90,11 @@ Na koniec zapisz przetworzony dokument. Możesz wybrać dowolny format, ale w ty
 doc.Save(dataDir + "ProcessingByBreakingWithDictionary.pdf");
 ```
 
- Ten wiersz zapisuje dokument w podanym katalogu pod nazwą pliku`ProcessingByBreakingWithDictionary.pdf`.
+Ten wiersz zapisuje dokument w podanym katalogu pod nazwą pliku `ProcessingByBreakingWithDictionary.pdf`.
 
 ## Wniosek
 
-I masz! Udało Ci się załadować słownik dzielenia wyrazów dla określonego języka za pomocą Aspose.Words dla .NET. Ta mała, ale potężna funkcja może znacznie poprawić czytelność i profesjonalizm Twoich dokumentów. Teraz wypróbuj ją w różnych językach i zobacz magię na własne oczy!
+masz! Udało Ci się załadować słownik dzielenia wyrazów dla określonego języka za pomocą Aspose.Words dla .NET. Ta mała, ale potężna funkcja może znacznie poprawić czytelność i profesjonalizm Twoich dokumentów. Teraz wypróbuj ją w różnych językach i zobacz magię na własne oczy!
 
 ## Najczęściej zadawane pytania
 
@@ -112,12 +114,17 @@ Tak, możesz zarejestrować słowniki dzielenia wyrazów dla różnych języków
 
 Aspose.Words obsługuje zapisywanie dokumentów w różnych formatach, w tym PDF, DOCX, DOC, HTML i wielu innych.
 
-### Czy potrzebuję licencji, aby korzystać z Aspose.Words?
+### Czy potrzebuję licencji, aby używać Aspose.Words?
 
- Tak, Aspose.Words wymaga licencji dla pełnej funkcjonalności. Możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Tak, Aspose.Words wymaga licencji dla pełnej funkcjonalności. Możesz kupić licencję [Tutaj](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

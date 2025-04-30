@@ -1,14 +1,16 @@
 ---
-title: जावा के लिए Aspose.Words में फ़ुटनोट्स और एंडनोट्स का उपयोग करना
-linktitle: फ़ुटनोट्स और एंडनोट्स का उपयोग करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Aspose.Words for Java में फ़ुटनोट्स और एंडनोट्स का प्रभावी ढंग से उपयोग करना सीखें। आज ही अपने दस्तावेज़ स्वरूपण कौशल को बेहतर बनाएँ!
-weight: 13
-url: /hi/java/using-document-elements/using-footnotes-and-endnotes/
+"description": "Aspose.Words for Java में फ़ुटनोट्स और एंडनोट्स का प्रभावी ढंग से उपयोग करना सीखें। आज ही अपने दस्तावेज़ स्वरूपण कौशल को बेहतर बनाएँ!"
+"linktitle": "फ़ुटनोट्स और एंडनोट्स का उपयोग करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "जावा के लिए Aspose.Words में फ़ुटनोट्स और एंडनोट्स का उपयोग करना"
+"url": "/hi/java/using-document-elements/using-footnotes-and-endnotes/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के लिए Aspose.Words में फ़ुटनोट्स और एंडनोट्स का उपयोग करना
@@ -123,7 +125,7 @@ public void setEndnoteOptions() throws Exception {
 फ़ुटनोट पृष्ठ के निचले भाग में दिखाई देते हैं, जबकि एंडनोट किसी अनुभाग या दस्तावेज़ के अंत में एकत्रित किए जाते हैं।
 
 ### 2. मैं फ़ुटनोट्स या एंडनोट्स की स्थिति कैसे बदल सकता हूँ?
- आप इसका उपयोग कर सकते हैं`setPosition` फ़ुटनोट या एंडनोट की स्थिति बदलने की विधि।
+आप इसका उपयोग कर सकते हैं `setPosition` फ़ुटनोट या एंडनोट की स्थिति बदलने की विधि।
 
 ### 3. क्या मैं फ़ुटनोट्स और एंडनोट्स के स्वरूपण को अनुकूलित कर सकता हूँ?
 हां, आप Java के लिए Aspose.Words का उपयोग करके फ़ुटनोट्स और एंडनोट्स के स्वरूपण को अनुकूलित कर सकते हैं।
@@ -131,10 +133,15 @@ public void setEndnoteOptions() throws Exception {
 ### 4. क्या दस्तावेज़ स्वरूपण में फ़ुटनोट और एंडनोट महत्वपूर्ण हैं?
 हां, दस्तावेजों में संदर्भ और अतिरिक्त जानकारी प्रदान करने के लिए फुटनोट और एंडनोट आवश्यक हैं।
 
-जावा के लिए Aspose.Words की अधिक सुविधाओं का पता लगाने और अपने दस्तावेज़ निर्माण क्षमताओं को बढ़ाने के लिए स्वतंत्र महसूस करें। हैप्पी कोडिंग!
+Aspose.Words for Java की अधिक सुविधाओं का पता लगाने और अपने दस्तावेज़ निर्माण क्षमताओं को बढ़ाने के लिए स्वतंत्र महसूस करें। हैप्पी कोडिंग!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Ganti Dengan Regex
-linktitle: Ganti Dengan Regex
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menggunakan regex untuk mencari dan mengganti teks dalam dokumen Word dengan Aspose.Words untuk .NET. Ikuti panduan terperinci kami, langkah demi langkah untuk menguasai manipulasi teks.
-weight: 10
-url: /id/net/find-and-replace-text/replace-with-regex/
+"description": "Pelajari cara menggunakan regex untuk mencari dan mengganti teks dalam dokumen Word dengan Aspose.Words untuk .NET. Ikuti panduan terperinci kami, langkah demi langkah untuk menguasai manipulasi teks."
+"linktitle": "Ganti Dengan Regex"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Ganti Dengan Regex"
+"url": "/id/net/find-and-replace-text/replace-with-regex/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ganti Dengan Regex
@@ -20,7 +22,7 @@ Hai! Pernahkah Anda merasa perlu mengganti teks dalam dokumen Word, tetapi Anda 
 ## Prasyarat
 
 Sebelum kita memulai, mari pastikan kita memiliki semua yang kita butuhkan:
-1. Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: IDE seperti Visual Studio tempat Anda dapat menulis dan menjalankan kode C#.
 3. Pengetahuan Dasar C# dan Regex: Keakraban dengan C# dan pemahaman dasar tentang ekspresi reguler akan sangat membantu.
 
@@ -44,11 +46,11 @@ Mari kita mulai dengan menentukan jalur ke direktori dokumen Anda. Di sinilah do
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori Anda.
 
 ## Langkah 2: Buat Dokumen Baru
 
- Selanjutnya, kita akan membuat dokumen baru dan`DocumentBuilder` untuk menambahkan beberapa teks awal.
+Selanjutnya, kita akan membuat dokumen baru dan `DocumentBuilder` untuk menambahkan beberapa teks awal.
 
 ```csharp
 Document doc = new Document();
@@ -61,7 +63,7 @@ Di sini, kita membuat dokumen baru dan menambahkan teks "sad mad bad" ke dalamny
 
 ## Langkah 3: Tentukan Opsi Temukan dan Ganti
 
- Untuk melakukan penggantian regex, kita perlu mengatur beberapa opsi.`FindReplaceOptions`kelas memungkinkan kita menentukan bagaimana operasi temukan dan ganti harus dilakukan.
+Untuk melakukan penggantian regex, kita perlu mengatur beberapa opsi. `FindReplaceOptions` kelas memungkinkan kita menentukan bagaimana operasi temukan dan ganti harus dilakukan.
 
 ```csharp
 FindReplaceOptions options = new FindReplaceOptions();
@@ -71,13 +73,13 @@ Saat ini, kami menggunakan opsi default, tetapi Anda dapat menyesuaikannya jika 
 
 ## Langkah 4: Lakukan Penggantian Regex
 
- Sekarang tibalah bagian yang menyenangkan! Kita akan menggunakan`Range.Replace` metode untuk mengganti semua kemunculan "sedih" atau "gila" dengan "buruk" menggunakan ekspresi reguler.
+Sekarang tibalah bagian yang menyenangkan! Kita akan menggunakan `Range.Replace` metode untuk mengganti semua kemunculan "sedih" atau "gila" dengan "buruk" menggunakan ekspresi reguler.
 
 ```csharp
 doc.Range.Replace(new Regex("[s|m]ad"), "bad", options);
 ```
 
- Pola regex`[s|m]ad` cocok dengan kata apa pun yang diakhiri dengan "ad" yang dimulai dengan "s" atau "m". String pengganti "bad" akan menggantikan semua kecocokan yang ditemukan.
+Pola regex `[s|m]ad` cocok dengan kata apa pun yang diakhiri dengan "ad" yang dimulai dengan "s" atau "m". String pengganti "bad" akan menggantikan semua kecocokan yang ditemukan.
 
 ## Langkah 5: Simpan Dokumen yang Dimodifikasi
 
@@ -87,7 +89,7 @@ Terakhir, kita akan menyimpan dokumen yang dimodifikasi ke direktori yang kita t
 doc.Save(dataDir + "FindAndReplace.ReplaceWithRegex.docx");
 ```
 
- Baris ini menyimpan dokumen dengan nama file`FindAndReplace.ReplaceWithRegex.docx` di direktori yang ditentukan oleh`dataDir`.
+Baris ini menyimpan dokumen dengan nama file `FindAndReplace.ReplaceWithRegex.docx` di direktori yang ditentukan oleh `dataDir`.
 
 ## Kesimpulan
 
@@ -109,9 +111,14 @@ Meskipun Aspose.Words tidak menyediakan fitur pratinjau langsung, Anda selalu da
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET di aplikasi web?  
 Ya, Aspose.Words untuk .NET serbaguna dan dapat digunakan dalam berbagai jenis aplikasi, termasuk aplikasi web, desktop, dan berbasis cloud.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

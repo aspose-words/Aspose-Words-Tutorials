@@ -1,14 +1,16 @@
 ---
-title: Доступ и проверка подписи в документе Word
-linktitle: Доступ и проверка подписи в документе Word
-second_title: API обработки документов Aspose.Words
-description: Получите доступ и проверьте цифровые подписи в документах Word с помощью Aspose.Words для .NET с этим всеобъемлющим пошаговым руководством. Обеспечьте подлинность документа без усилий.
-weight: 10
-url: /ru/net/programming-with-digital-signatures/access-and-verify-signature/
+"description": "Получите доступ и проверьте цифровые подписи в документах Word с помощью Aspose.Words для .NET с этим всеобъемлющим пошаговым руководством. Обеспечьте подлинность документа без усилий."
+"linktitle": "Доступ и проверка подписи в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Доступ и проверка подписи в документе Word"
+"url": "/ru/net/programming-with-digital-signatures/access-and-verify-signature/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Доступ и проверка подписи в документе Word
@@ -22,7 +24,7 @@ url: /ru/net/programming-with-digital-signatures/access-and-verify-signature/
 Прежде чем мы углубимся в подробности, вам необходимо иметь под рукой несколько вещей:
 
 1. Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio. Здесь вы будете писать и запускать свой код.
-2.  Aspose.Words for .NET: Вам понадобится установленный Aspose.Words for .NET. Вы можете скачать его[здесь](https://releases.aspose.com/words/net/) . Не забудьте получить бесплатную пробную версию[здесь](https://releases.aspose.com/) если вы еще этого не сделали!
+2. Aspose.Words for .NET: Вам понадобится установленный Aspose.Words for .NET. Вы можете скачать его [здесь](https://releases.aspose.com/words/net/). Не забудьте получить бесплатную пробную версию [здесь](https://releases.aspose.com/) если вы еще этого не сделали!
 3. Документ Word с цифровой подписью: Имейте документ Word, который уже имеет цифровую подпись. Это файл, с которым вы будете работать для проверки подписей.
 
 ## Импорт пространств имен
@@ -64,7 +66,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Digitally signed.docx");
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему каталогу документов. Этот фрагмент кода инициализирует новый`Document` объект и загружает ваш подписанный документ Word.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему каталогу документов. Этот фрагмент кода инициализирует новый `Document` объект и загружает ваш подписанный документ Word.
 
 ## Шаг 3: Получите доступ к цифровым подписям
 
@@ -150,14 +152,19 @@ Aspose.Words для .NET поддерживает все версии докум
 
 ### Как получить временную лицензию на Aspose.Words для .NET?
 
- Вы можете получить временную лицензию для Aspose.Words for .NET по адресу[здесь](https://purchase.aspose.com/temporary-license/). Это позволяет вам опробовать все возможности библиотеки без каких-либо ограничений.
+Вы можете получить временную лицензию для Aspose.Words for .NET по адресу [здесь](https://purchase.aspose.com/temporary-license/). Это позволяет вам опробовать все возможности библиотеки без каких-либо ограничений.
 
 ### Где я могу найти дополнительную документацию по Aspose.Words для .NET?
 
- Подробную документацию по Aspose.Words для .NET вы можете найти[здесь](https://reference.aspose.com/words/net/).
+Подробную документацию по Aspose.Words для .NET вы можете найти [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

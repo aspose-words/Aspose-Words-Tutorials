@@ -1,14 +1,16 @@
 ---
-title: Tách tài liệu
-linktitle: Tách tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: 
-weight: 18
-url: /vi/java/document-splitting/
+"description": null
+"linktitle": "Tách tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Tách tài liệu"
+"url": "/vi/java/document-splitting/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tách tài liệu
@@ -41,9 +43,13 @@ Tìm hiểu cách thực hiện Tách trang tài liệu bằng Aspose.Words cho 
 Tìm hiểu cách trích xuất nội dung tài liệu theo trang bằng Aspose.Words for Java. Hướng dẫn từng bước này với mã nguồn sẽ giúp bạn trở thành chuyên gia trong thời gian ngắn.
 ### [Kỹ thuật tách và trích xuất tài liệu](./document-splitting-extraction-techniques/)
 Tìm hiểu cách tách và trích xuất tài liệu bằng Aspose.Words cho Java. Hướng dẫn từng bước với mã nguồn để thao tác hiệu quả. Mở khóa sức mạnh của Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,30 +1,32 @@
 ---
-title: Vodoznak dokumentu a nastavení stránky
-linktitle: Vodoznak dokumentu a nastavení stránky
-second_title: Aspose.Words Java Document Processing API
-description: Naučte se používat vodoznaky a nastavovat konfigurace stránek pomocí Aspose.Words for Java. Komplexní průvodce se zdrojovým kódem.
-weight: 13
-url: /cs/java/document-styling/document-watermarking-page-setup/
+"description": "Naučte se, jak aplikovat vodoznaky a nastavit konfigurace stránek pomocí Aspose.Words pro Javu. Komplexní průvodce se zdrojovým kódem."
+"linktitle": "Vodoznak dokumentu a nastavení stránky"
+"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
+"title": "Vodoznak dokumentu a nastavení stránky"
+"url": "/cs/java/document-styling/document-watermarking-page-setup/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vodoznak dokumentu a nastavení stránky
 
 ## Zavedení
 
-V oblasti manipulace s dokumenty je Aspose.Words for Java mocným nástrojem, který umožňuje vývojářům ovládat každý aspekt zpracování dokumentů. V tomto komplexním průvodci se ponoříme do složitosti vodoznaku dokumentu a nastavení stránky pomocí Aspose.Words for Java. Ať už jste ostřílený vývojář nebo teprve vstupujete do světa zpracování dokumentů Java, tento podrobný průvodce vás vybaví znalostmi a zdrojovým kódem, které potřebujete.
+oblasti manipulace s dokumenty představuje Aspose.Words pro Javu mocný nástroj, který vývojářům umožňuje mít kontrolu nad každým aspektem zpracování dokumentů. V této komplexní příručce se ponoříme do složitostí vodoznaků v dokumentech a nastavení stránek pomocí Aspose.Words pro Javu. Ať už jste zkušený vývojář, nebo teprve vstupujete do světa zpracování dokumentů v Javě, tato podrobná příručka vás vybaví potřebnými znalostmi a zdrojovým kódem.
 
 ## Vodoznak dokumentu
 
 ### Přidávání vodoznaků
 
-Přidání vodoznaků do dokumentů může být zásadní pro branding nebo zabezpečení vašeho obsahu. Aspose.Words pro Java tento úkol zjednodušuje. Zde je postup:
+Přidávání vodoznaků do dokumentů může být klíčové pro budování značky nebo zabezpečení vašeho obsahu. Aspose.Words pro Javu tento úkol zjednodušuje. Zde je návod:
 
 ```java
-// Vložte dokument
+// Načíst dokument
 Document doc = new Document("document.docx");
 
 // Vytvořte vodoznak
@@ -33,7 +35,7 @@ watermark.getTextPath().setText("Confidential");
 watermark.setWidth(300);
 watermark.setHeight(100);
 
-// Umístěte vodoznak
+// Umístění vodoznaku
 watermark.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
 watermark.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
 watermark.setWrapType(WrapType.NONE);
@@ -43,44 +45,44 @@ watermark.setHorizontalAlignment(HorizontalAlignment.CENTER);
 // Vložte vodoznak
 doc.getFirstSection().getBody().getFirstParagraph().appendChild(watermark);
 
-// Uložte dokument
+// Uložit dokument
 doc.save("document_with_watermark.docx");
 ```
 
 ### Přizpůsobení vodoznaků
 
-Vodoznaky můžete dále přizpůsobit úpravou písma, velikosti, barvy a otočení. Tato flexibilita zajišťuje, že váš vodoznak hladce odpovídá stylu vašeho dokumentu.
+Vodoznaky si můžete dále přizpůsobit úpravou písma, velikosti, barvy a otočení. Tato flexibilita zajišťuje, že váš vodoznak bude bezproblémově odpovídat stylu vašeho dokumentu.
 
 ## Nastavení stránky
 
 ### Velikost a orientace stránky
 
-Nastavení stránky je při formátování dokumentu stěžejní. Aspose.Words for Java nabízí úplnou kontrolu nad velikostí a orientací stránky:
+Nastavení stránky je klíčové pro formátování dokumentů. Aspose.Words pro Javu nabízí úplnou kontrolu nad velikostí a orientací stránky:
 
 ```java
-// Vložte dokument
+// Načíst dokument
 Document doc = new Document("document.docx");
 
-// Nastavte velikost stránky na A4
+// Nastavit velikost stránky na A4
 doc.getFirstSection().getPageSetup().setPageWidth(595.0);
 doc.getFirstSection().getPageSetup().setPageHeight(842.0);
 
-// Změňte orientaci stránky na šířku
+// Změnit orientaci stránky na šířku
 doc.getFirstSection().getPageSetup().setOrientation(Orientation.LANDSCAPE);
 
-// Uložte upravený dokument
+// Uložit upravený dokument
 doc.save("formatted_document.docx");
 ```
 
 ### Okraje a číslování stránek
 
-Přesná kontrola nad okraji a číslování stránek je pro profesionální dokumenty zásadní. Dosáhněte toho pomocí Aspose.Words pro Java:
+Přesná kontrola nad okraji a číslováním stránek je pro profesionální dokumenty zásadní. Dosáhněte toho s Aspose.Words pro Javu:
 
 ```java
-// Vložte dokument
+// Načíst dokument
 Document doc = new Document("document.docx");
 
-// Nastavte okraje
+// Nastavení okrajů
 doc.getFirstSection().getPageSetup().setLeftMargin(72.0);
 doc.getFirstSection().getPageSetup().setRightMargin(72.0);
 doc.getFirstSection().getPageSetup().setTopMargin(72.0);
@@ -91,15 +93,15 @@ doc.getFirstSection().getPageSetup().setDifferentFirstPageHeaderFooter(true);
 HeaderFooter firstPageHeader = doc.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_FIRST);
 firstPageHeader.appendParagraph("First Page Header");
 
-// Uložte naformátovaný dokument
+// Uložit formátovaný dokument
 doc.save("formatted_document.docx");
 ```
 
-## Nejčastější dotazy
+## Často kladené otázky
 
 ### Jak mohu odstranit vodoznak z dokumentu?
 
-Chcete-li vodoznak z dokumentu odstranit, můžete procházet tvary dokumentu a odstranit ty, které představují vodoznaky. Zde je úryvek:
+Chcete-li z dokumentu odstranit vodoznak, můžete procházet tvary dokumentu a odstranit ty, které představují vodoznaky. Zde je úryvek:
 
 ```java
 Document doc = new Document("document_with_watermark.docx");
@@ -113,13 +115,13 @@ for (Shape shape : doc.getChildNodes(NodeType.SHAPE, true).<Shape>toArray()) {
 doc.save("document_without_watermark.docx");
 ```
 
-### Mohu přidat více vodoznaků do jednoho dokumentu?
+### Mohu do jednoho dokumentu přidat více vodoznaků?
 
 Ano, do dokumentu můžete přidat více vodoznaků vytvořením dalších objektů Shape a jejich umístěním podle potřeby.
 
-### Jak změním velikost stránky na legal v orientaci na šířku?
+### Jak změním velikost stránky na Legal v orientaci na šířku?
 
-Chcete-li nastavit velikost stránky na legal v orientaci na šířku, upravte šířku a výšku stránky následovně:
+Chcete-li nastavit velikost stránky na formát Legal v orientaci na šířku, upravte šířku a výšku stránky takto:
 
 ```java
 doc.getFirstSection().getPageSetup().setPageWidth(842.0);
@@ -132,7 +134,7 @@ Výchozí písmo pro vodoznaky je Calibri s velikostí písma 36.
 
 ### Jak mohu přidat čísla stránek počínaje konkrétní stránkou?
 
-Toho lze dosáhnout nastavením čísla počáteční stránky v dokumentu takto:
+Toho dosáhnete nastavením počátečního čísla stránky v dokumentu takto:
 
 ```java
 doc.getFirstSection().getPageSetup().setPageStartingNumber(5);
@@ -140,16 +142,21 @@ doc.getFirstSection().getPageSetup().setPageStartingNumber(5);
 
 ### Jak zarovnám text v záhlaví nebo zápatí na střed?
 
-Text v záhlaví nebo zápatí můžete zarovnat na střed pomocí metody setAlignment u objektu Odstavec v záhlaví nebo zápatí.
+Text v záhlaví nebo zápatí můžete zarovnat na střed pomocí metody setAlignment u objektu Paragraph v záhlaví nebo zápatí.
 
 ## Závěr
 
-tomto rozsáhlém průvodci jsme prozkoumali umění vodoznaku dokumentu a nastavení stránky pomocí Aspose.Words for Java. Vyzbrojeni dodanými úryvky zdrojového kódu a přehledy nyní máte nástroje k jemné manipulaci a formátování dokumentů. Aspose.Words for Java vám umožňuje vytvářet profesionální, značkové dokumenty šité na míru vašim přesným specifikacím.
+této rozsáhlé příručce jsme prozkoumali umění vodoznakování dokumentů a nastavení stránek pomocí Aspose.Words pro Javu. Vyzbrojeni poskytnutými úryvky zdrojového kódu a postřehy nyní máte k dispozici nástroje pro jemnou manipulaci a formátování dokumentů. Aspose.Words pro Javu vám umožňuje vytvářet profesionální dokumenty s vlastní značkou, které přesně odpovídají vašim specifikacím.
 
-Zvládnutí manipulace s dokumenty je pro vývojáře cennou dovedností a Aspose.Words for Java je vaším důvěryhodným společníkem na této cestě. Začněte vytvářet úžasné dokumenty ještě dnes!
+Zvládnutí manipulace s dokumenty je pro vývojáře cennou dovedností a Aspose.Words pro Javu je vaším důvěryhodným společníkem na této cestě. Začněte vytvářet úžasné dokumenty ještě dnes!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

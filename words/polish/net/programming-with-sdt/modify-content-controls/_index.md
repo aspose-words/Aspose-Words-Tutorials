@@ -1,14 +1,16 @@
 ---
-title: Modyfikuj kontrolki zawartości
-linktitle: Modyfikuj kontrolki zawartości
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak modyfikować strukturalne znaczniki dokumentu w programie Word za pomocą Aspose.Words dla .NET. Aktualizuj tekst, listy rozwijane i obrazy krok po kroku.
-weight: 10
-url: /pl/net/programming-with-sdt/modify-content-controls/
+"description": "Dowiedz się, jak modyfikować strukturalne znaczniki dokumentu w programie Word za pomocą Aspose.Words dla .NET. Aktualizuj tekst, listy rozwijane i obrazy krok po kroku."
+"linktitle": "Modyfikuj kontrolki zawartości"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Modyfikuj kontrolki zawartości"
+"url": "/pl/net/programming-with-sdt/modify-content-controls/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Modyfikuj kontrolki zawartości
@@ -21,7 +23,7 @@ Jeśli kiedykolwiek pracowałeś z dokumentami Word i musiałeś zmodyfikować k
 
 Zanim przejdziemy do szczegółów modyfikacji elementów sterujących treścią, upewnij się, że masz następujące elementy:
 
-1.  Aspose.Words dla .NET zainstalowany: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Jeśli nie, możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET zainstalowany: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Jeśli nie, możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 
 2. Podstawowa wiedza o języku C#: W tym samouczku zakładamy, że znasz podstawowe koncepcje programowania w języku C#.
 
@@ -29,7 +31,7 @@ Zanim przejdziemy do szczegółów modyfikacji elementów sterujących treścią
 
 4. Przykładowy dokument: Użyjemy przykładowego dokumentu Word z różnymi typami SDT. Możesz użyć tego z przykładu lub utworzyć własny.
 
-5.  Dostęp do dokumentacji Aspose: Aby uzyskać bardziej szczegółowe informacje, zapoznaj się z dokumentacją Aspose.[Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/).
+5. Dostęp do dokumentacji Aspose: Aby uzyskać bardziej szczegółowe informacje, zapoznaj się z dokumentacją Aspose. [Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/).
 
 ## Importuj przestrzenie nazw
 
@@ -45,7 +47,7 @@ Te przestrzenie nazw zapewnią Ci dostęp do klas i metod niezbędnych do manipu
 
 ## Krok 1: Ustaw ścieżkę dokumentu
 
- Przed wprowadzeniem jakichkolwiek zmian musisz określić ścieżkę do swojego dokumentu. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą przechowywany jest Twój dokument.
+Przed wprowadzeniem jakichkolwiek zmian musisz określić ścieżkę do swojego dokumentu. Zastąp `"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką, pod którą przechowywany jest Twój dokument.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -54,7 +56,7 @@ Document doc = new Document(dataDir + "Structured document tags.docx");
 
 ## Krok 2: Przejrzyj ustrukturyzowane znaczniki dokumentu
 
- Aby zmodyfikować SDT, najpierw musisz przejść przez wszystkie SDT w dokumencie. Robi się to za pomocą`GetChildNodes` metoda pobierania wszystkich węzłów typu`StructuredDocumentTag`.
+Aby zmodyfikować SDT, najpierw musisz przejść przez wszystkie SDT w dokumencie. Robi się to za pomocą `GetChildNodes` metoda pobierania wszystkich węzłów typu `StructuredDocumentTag`.
 
 ```csharp
 foreach (StructuredDocumentTag sdt in doc.GetChildNodes(NodeType.StructuredDocumentTag, true))
@@ -77,11 +79,11 @@ if (sdt.SdtType == SdtType.PlainText)
 }
 ```
 
- Wyjaśnienie: Tutaj,`RemoveAllChildren()`czyści istniejącą zawartość SDT. Następnie tworzymy nową`Paragraph` I`Run` obiekt, aby wstawić nowy tekst.
+Wyjaśnienie: Tutaj, `RemoveAllChildren()` czyści istniejącą zawartość SDT. Następnie tworzymy nową `Paragraph` I `Run` obiekt, aby wstawić nowy tekst.
 
 ## Krok 4: Modyfikuj SDT listy rozwijanej
 
- W przypadku SDT z listy rozwijanej możesz zmienić wybrany element, uzyskując dostęp do`ListItems` kolekcja. Tutaj wybieramy trzeci element na liście.
+W przypadku SDT z listy rozwijanej możesz zmienić wybrany element, uzyskując dostęp do `ListItems` kolekcja. Tutaj wybieramy trzeci element na liście.
 
 ```csharp
 if (sdt.SdtType == SdtType.DropDownList)
@@ -108,7 +110,7 @@ if (sdt.SdtType == SdtType.Picture)
 }
 ```
 
- Wyjaśnienie: Ten kod sprawdza, czy kształt zawiera obraz, a następnie zastępuje go nowym obrazem znajdującym się w`ImagesDir`.
+Wyjaśnienie: Ten kod sprawdza, czy kształt zawiera obraz, a następnie zastępuje go nowym obrazem znajdującym się w `ImagesDir`.
 
 ## Krok 6: Zapisz zmodyfikowany dokument
 
@@ -132,7 +134,7 @@ SDT to elementy w dokumentach Worda, które pomagają zarządzać zawartością 
 
 2. Jak mogę dodać nowy element listy rozwijanej do SDT?
 
- Aby dodać nowy element, użyj`ListItems` właściwość i dołącz nową`SdtListItem` do kolekcji.
+Aby dodać nowy element, użyj `ListItems` właściwość i dołącz nową `SdtListItem` do kolekcji.
 
 3. Czy mogę użyć Aspose.Words do usunięcia SDT z dokumentu?
 
@@ -140,7 +142,7 @@ Tak, możesz usunąć SDT, uzyskując dostęp do węzłów dokumentu i usuwając
 
 4. Jak obsługiwać SDT zagnieżdżone w innych elementach?
 
- Użyj`GetChildNodes` metoda z odpowiednimi parametrami umożliwiająca dostęp do zagnieżdżonych SDT.
+Użyj `GetChildNodes` metoda z odpowiednimi parametrami umożliwiająca dostęp do zagnieżdżonych SDT.
 
 5. Co powinienem zrobić, jeśli SDT, który muszę zmodyfikować, nie jest widoczny w dokumencie?
 
@@ -150,7 +152,7 @@ Upewnij się, że SDT nie jest ukryty ani chroniony. Sprawdź ustawienia dokumen
 ### Przykładowy kod źródłowy dla funkcji Modify Content Controls przy użyciu Aspose.Words dla platformy .NET 
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Structured document tags.docx");
@@ -188,9 +190,13 @@ doc.Save(dataDir + "WorkingWithSdt.ModifyContentControls.docx");
 ```
 
 To wszystko! Udało Ci się zmodyfikować różne typy kontrolek zawartości w dokumencie Word za pomocą Aspose.Words dla .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

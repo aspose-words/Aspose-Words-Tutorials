@@ -1,14 +1,16 @@
 ---
-title: Powtarzaj wiersze na kolejnych stronach
-linktitle: Powtarzaj wiersze na kolejnych stronach
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak tworzyć dokumenty Word z powtarzającymi się wierszami nagłówka tabeli za pomocą Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem, aby zapewnić profesjonalne i dopracowane dokumenty.
-weight: 10
-url: /pl/net/programming-with-tables/repeat-rows-on-subsequent-pages/
+"description": "Dowiedz się, jak tworzyć dokumenty Word z powtarzającymi się wierszami nagłówka tabeli przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem, aby zapewnić profesjonalne i dopracowane dokumenty."
+"linktitle": "Powtarzaj wiersze na kolejnych stronach"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Powtarzaj wiersze na kolejnych stronach"
+"url": "/pl/net/programming-with-tables/repeat-rows-on-subsequent-pages/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Powtarzaj wiersze na kolejnych stronach
@@ -21,7 +23,7 @@ Tworzenie dokumentu Word programowo może być zniechęcającym zadaniem, szczeg
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
-1.  Aspose.Words dla .NET: Można go pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Można go pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. .NET Framework zainstalowany na Twoim komputerze.
 3. Visual Studio lub inne środowisko IDE obsługujące programowanie w środowisku .NET.
 4. Podstawowa znajomość programowania w języku C#.
@@ -41,21 +43,21 @@ Te przestrzenie nazw obejmują klasy i metody wymagane do manipulowania dokument
 
 ## Krok 1: Zainicjuj dokument
 
- Najpierw utwórzmy nowy dokument Word i`DocumentBuilder` aby zbudować naszą tabelę.
+Najpierw utwórzmy nowy dokument Word i `DocumentBuilder` aby zbudować naszą tabelę.
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Ten kod inicjuje nowy dokument i`DocumentBuilder` obiekt, który pomaga w budowaniu struktury dokumentu.
+Ten kod inicjuje nowy dokument i `DocumentBuilder` obiekt, który pomaga w budowaniu struktury dokumentu.
 
 ## Krok 2: Uruchom tabelę i zdefiniuj wiersze nagłówka
 
-Następnie rozpoczniemy tworzenie tabeli i zdefiniujemy wiersze nagłówka, które chcemy powtórzyć na kolejnych stronach.
+Następnie uruchomimy tabelę i zdefiniujemy wiersze nagłówka, które chcemy powtórzyć na kolejnych stronach.
 
 ```csharp
 builder.StartTable();
@@ -72,7 +74,7 @@ builder.Writeln("Heading row 2");
 builder.EndRow();
 ```
 
- Tutaj zaczynamy nową tabelę, ustawiamy`HeadingFormat`nieruchomość do`true` aby wskazać, że wiersze są nagłówkami, oraz zdefiniować wyrównanie i szerokość komórek.
+Tutaj zaczynamy nową tabelę, ustawiamy `HeadingFormat` nieruchomość do `true` aby wskazać, że wiersze są nagłówkami, oraz zdefiniować wyrównanie i szerokość komórek.
 
 ## Krok 3: Dodaj wiersze danych do tabeli
 
@@ -93,7 +95,7 @@ for (int i = 0; i < 50; i++)
 }
 ```
 
- Ta pętla wstawia 50 wierszy danych do tabeli, z dwiema kolumnami w każdym wierszu.`HeadingFormat` jest ustawiony na`false` dla tych wierszy, gdyż nie są to wiersze nagłówkowe.
+Ta pętla wstawia 50 wierszy danych do tabeli, z dwiema kolumnami w każdym wierszu. `HeadingFormat` jest ustawiony na `false` dla tych wierszy, gdyż nie są to wiersze nagłówkowe.
 
 ## Krok 4: Zapisz dokument
 
@@ -107,27 +109,32 @@ Zapisuje dokument pod określoną nazwą w katalogu dokumentów.
 
 ## Wniosek
 
-masz to! Za pomocą zaledwie kilku linijek kodu możesz utworzyć dokument Word z tabelami, które mają powtarzające się wiersze nagłówka na kolejnych stronach, używając Aspose.Words dla .NET. To nie tylko poprawia czytelność Twoich dokumentów, ale także zapewnia spójny i profesjonalny wygląd. Teraz wypróbuj to w swoich projektach!
+I masz to! Za pomocą zaledwie kilku linijek kodu możesz utworzyć dokument Word z tabelami, które mają powtarzające się wiersze nagłówka na kolejnych stronach, używając Aspose.Words dla .NET. To nie tylko poprawia czytelność Twoich dokumentów, ale także zapewnia spójny i profesjonalny wygląd. Teraz wypróbuj to w swoich projektach!
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę dodatkowo dostosować wiersze nagłówka?
- Tak, możesz zastosować dodatkowe formatowanie do wierszy nagłówka, modyfikując właściwości`ParagraphFormat`, `RowFormat` , I`CellFormat`.
+Tak, możesz zastosować dodatkowe formatowanie do wierszy nagłówka, modyfikując właściwości `ParagraphFormat`, `RowFormat`, I `CellFormat`.
 
 ### Czy można dodać więcej kolumn do tabeli?
- Oczywiście! Możesz dodać tyle kolumn, ile potrzebujesz, wstawiając więcej komórek w`InsertCell` metoda.
+Oczywiście! Możesz dodać tyle kolumn, ile potrzebujesz, wstawiając więcej komórek w `InsertCell` metoda.
 
 ### Jak mogę sprawić, aby inne wiersze powtarzały się na kolejnych stronach?
- Aby powtórzyć dowolny wiersz, ustaw`RowFormat.HeadingFormat`nieruchomość do`true` dla tego konkretnego wiersza.
+Aby powtórzyć dowolny wiersz, ustaw `RowFormat.HeadingFormat` nieruchomość do `true` dla tego konkretnego wiersza.
 
 ### Czy mogę użyć tej metody w przypadku istniejących tabel w dokumencie?
- Tak, możesz modyfikować istniejące tabele, uzyskując do nich dostęp za pomocą`Document` obiekt i stosując podobne formatowanie.
+Tak, możesz modyfikować istniejące tabele, uzyskując do nich dostęp za pomocą `Document` obiekt i stosując podobne formatowanie.
 
 ### Jakie inne opcje formatowania tabel są dostępne w Aspose.Words dla platformy .NET?
- Aspose.Words dla .NET oferuje szeroki zakres opcji formatowania tabeli, w tym scalanie komórek, ustawienia obramowania i wyrównywanie tabeli. Sprawdź[dokumentacja](https://reference.aspose.com/words/net/) Aby uzyskać więcej szczegółów.
+Aspose.Words dla .NET oferuje szeroki zakres opcji formatowania tabeli, w tym scalanie komórek, ustawienia obramowania i wyrównywanie tabeli. Sprawdź [dokumentacja](https://reference.aspose.com/words/net/) po więcej szczegółów.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Izinkan Spasi Sel
-linktitle: Izinkan Spasi Sel
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memberi spasi sel dalam tabel menggunakan Aspose.Words untuk .NET dengan panduan terperinci kami. Sempurna bagi pengembang yang ingin menyempurnakan format dokumen Word mereka.
-weight: 10
-url: /id/net/programming-with-table-styles-and-formatting/allow-cell-spacing/
+"description": "Pelajari cara memberi spasi sel dalam tabel menggunakan Aspose.Words untuk .NET dengan panduan terperinci kami. Sempurna bagi pengembang yang ingin menyempurnakan format dokumen Word mereka."
+"linktitle": "Izinkan Spasi Sel"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Izinkan Spasi Sel"
+"url": "/id/net/programming-with-table-styles-and-formatting/allow-cell-spacing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Izinkan Spasi Sel
@@ -21,7 +23,7 @@ Selamat datang di panduan lengkap tentang cara memberi spasi sel dalam tabel men
 
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-- Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Lingkungan pengembangan seperti Visual Studio.
 - Pemahaman Dasar C#: Keakraban dengan pemrograman C# sangatlah penting.
 
@@ -65,7 +67,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ### Langkah 2.2: Muat Dokumen
 
- Sekarang, muat dokumen menggunakan`Document` kelas dari Aspose.Words.
+Sekarang, muat dokumen menggunakan `Document` kelas dari Aspose.Words.
 
 ```csharp
 Document doc = new Document(dataDir + "Tables.docx");
@@ -87,7 +89,7 @@ Sekarang, mari aktifkan spasi sel untuk tabel.
 
 ### Langkah 4.1: Izinkan Spasi Sel
 
- Mengatur`AllowCellSpacing` properti tabel ke`true`.
+Mengatur `AllowCellSpacing` properti tabel ke `true`.
 
 ```csharp
 table.AllowCellSpacing = true;
@@ -105,7 +107,7 @@ table.CellSpacing = 2;
 
 Terakhir, simpan dokumen yang dimodifikasi ke direktori yang Anda tentukan.
 
- Gunakan`Save` metode untuk menyimpan dokumen Anda.
+Gunakan `Save` metode untuk menyimpan dokumen Anda.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.AllowCellSpacing.docx");
@@ -131,14 +133,19 @@ Anda dapat menginstal Aspose.Words untuk .NET menggunakan NuGet Package Manager 
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Words untuk .NET?
 
- Ya, Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh uji coba gratis dari [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
 
- Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi yang lengkap [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,49 +1,57 @@
 ---
-title: Nhập biểu đồ bong bóng trong Word sử dụng Aspose.Words cho .NET
-weight: 7700
-limit: 
-description: Tìm hiểu cách chèn biểu đồ Bubble vào tài liệu Word bằng cách sử dụng Aspose.Words cho .NET. Giới thiệu hướng dẫn từng bước và ví dụ mã.
-keywords: [Aspose.Words for .NET, insert Bubble chart, Word document, .NET Bubble chart example, create Bubble chart Word]
-url: /vi/net/working-with-charts/insert-bubble-chart/
+"description": "Tìm hiểu cách chèn biểu đồ bong bóng vào tài liệu Word bằng Aspose.Words cho .NET. Có kèm hướng dẫn từng bước và ví dụ mã."
+"title": "Chèn Biểu đồ bong bóng vào Word bằng Aspose.Words cho .NET"
+"url": "/vi/net/working-with-charts/insert-bubble-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Đặt biểu đồ bong bóng trong Word bằng cách sử dụng Aspose.Words
+# Chèn Biểu đồ bong bóng vào Word bằng Aspose.Words
 
-Dễ dàng thêm biểu đồ Bubble vào tài liệu Word của bạn bằng cách sử dụng Aspose.Words cho .NET! hướng dẫn này hướng dẫn bạn thông qua việc tạo ra một tài liệu mới, chèn biểu đồ Bubble, thêm chuỗi dữ liệu với giá trị X, Y và kích thước, và lưu tài liệu. Với Aspose.Words, xử lý tài liệu Word theo cách lập trình chưa bao giờ dễ dàng hơn.  
+Dễ dàng thêm biểu đồ Bubble vào tài liệu Word của bạn bằng Aspose.Words cho .NET! Hướng dẫn này hướng dẫn bạn cách tạo tài liệu mới, chèn biểu đồ Bubble, thêm chuỗi dữ liệu với các giá trị X, Y và kích thước, rồi lưu tài liệu. Với Aspose.Words, việc xử lý tài liệu Word theo chương trình chưa bao giờ dễ dàng đến thế.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-bubble-chart" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Các hướng dẫn cài đặt  
+## Hướng dẫn cài đặt  
 
-1. Tải Aspose.Words cho .NET  
-   Hãy lấy thư viện từ [Aspose.Words trang tải xuống](https://releases.aspose.com/words/net/)\- Tôi không biết.  
+1. Tải xuống Aspose.Words cho .NET  
+   Nhận thư viện từ [Trang tải xuống Aspose.Words](https://releases.aspose.com/words/net/).  
 
-2. Thiết lập thông qua quản lý gói NuGet  
-   * Mở dự án Visual Studio của bạn.  
-   * Di chuyển đến Công cụ > Quản lý gói NuGet > Quản lý gói NuGet cho Giải pháp.  
-   * Tìm kiếm`"Thiếu nại.`trong tab Browse.  
-   * Chọn gói và nhấp vào cài đặt.  
+2. Cài đặt thông qua NuGet Package Manager  
+   - Mở dự án Visual Studio của bạn.  
+   - Điều hướng đến Công cụ > Trình quản lý gói NuGet > Quản lý gói NuGet cho Giải pháp.  
+   - Tìm kiếm `Aspose.Words` trong tab Duyệt.  
+   - Chọn gói và nhấp vào Cài đặt.  
 
-3. Lắp đặt thông qua NuGet Package Manager Console  
-   Thực hiện lệnh sau trong Console quản lý gói:  
+3. Cài đặt thông qua NuGet Package Manager Console  
+   Chạy lệnh sau trong Bảng điều khiển quản lý gói:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
 4. Thêm giấy phép  
-   Để có được chức năng đầy đủ, xin giấy phép.[Aspose trang Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)\- Tôi không biết.  
+   Để có đầy đủ chức năng, hãy áp dụng giấy phép. Bạn có thể nhận được giấy phép tạm thời từ [Trang Giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/).  
 
-## Xem thêm
-[Aspose.Word cho Tài liệu .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word cho .NET References](https://reference.aspose.com/words/net/)
+## Cũng xem
+[Tài liệu Aspose.Word cho .NET](https://docs.aspose.com/words/net/)
+[Tài liệu tham khảo Aspose.Word cho .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

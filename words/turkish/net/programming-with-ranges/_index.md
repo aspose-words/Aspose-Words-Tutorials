@@ -1,14 +1,16 @@
 ---
-title: Aralıklarla Kelime İşleme
-linktitle: Aralıklarla Kelime İşleme
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'te aralıklı Kelime İşleme hakkında bilgi edinin. Adım adım eğitimler ve örnek kodlar kullanarak Word belgelerindeki belirli metin aralıklarını nasıl işleyeceğinizi ve biçimlendireceğinizi öğrenin.
-weight: 1390
-url: /tr/net/programming-with-ranges/
+"description": "Aspose.Words for .NET'te aralıklı Kelime İşleme hakkında bilgi edinin. Adım adım eğitimler ve örnek kodlar kullanarak Word belgelerindeki belirli metin aralıklarını nasıl işleyeceğinizi ve biçimlendireceğinizi öğrenin."
+"linktitle": "Aralıklarla Kelime İşleme"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Aralıklarla Kelime İşleme"
+"url": "/tr/net/programming-with-ranges/"
+"weight": 1390
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aralıklarla Kelime İşleme
@@ -20,13 +22,18 @@ Bu eğitimlerde, Aspose.Words for .NET tarafından sunulan çeşitli özellikler
 İster yeni başlayan ister deneyimli bir geliştirici olun, bu eğitimler .NET için güçlü Aspose.Words kütüphanesini kullanarak Word belgelerindeki metin aralıklarını düzenleme tekniklerinde ustalaşmanıza yardımcı olacaktır. Bu bilgiyle, Word belgelerinin işlenmesini etkili bir şekilde otomatikleştiren sağlam, yüksek performanslı uygulamalar oluşturabileceksiniz.
 
  ## Eğitimler
-| Başlık | Tanım |
+| Başlık | Açıklama |
 | --- | --- |
 | [Aralıklar Word Belgesindeki Metni Sil](./ranges-delete-text/) | Bu adım adım eğitimle Aspose.Words for .NET kullanarak Word belgesindeki bir aralıktan metni nasıl sileceğinizi öğrenin. C# geliştiricileri için mükemmel. |
 | [Aralıklar Word Belgesinde Metin Al](./ranges-get-text/) | Aspose.Words for .NET kullanarak Word belgelerinden metni zahmetsizce çıkarın. Kolayca başlamak için ayrıntılı kılavuzumuzu izleyin. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

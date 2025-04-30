@@ -1,14 +1,16 @@
 ---
-title: Ostrzeżenia dotyczące renderowania plików PDF
-linktitle: Ostrzeżenia dotyczące renderowania plików PDF
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak obsługiwać ostrzeżenia dotyczące renderowania PDF w Aspose.Words dla .NET. Ten szczegółowy przewodnik zapewnia, że Twoje dokumenty są przetwarzane i zapisywane poprawnie.
-weight: 10
-url: /pl/net/programming-with-pdfsaveoptions/pdf-render-warnings/
+"description": "Dowiedz się, jak obsługiwać ostrzeżenia dotyczące renderowania PDF w Aspose.Words dla .NET. Ten szczegółowy przewodnik zapewnia, że Twoje dokumenty są przetwarzane i zapisywane poprawnie."
+"linktitle": "Ostrzeżenia dotyczące renderowania plików PDF"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ostrzeżenia dotyczące renderowania plików PDF"
+"url": "/pl/net/programming-with-pdfsaveoptions/pdf-render-warnings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ostrzeżenia dotyczące renderowania plików PDF
@@ -22,9 +24,9 @@ Jeśli pracujesz z Aspose.Words dla .NET, zarządzanie ostrzeżeniami renderowan
 Zanim przejdziesz do samouczka, upewnij się, że posiadasz następujące rzeczy:
 
 - Podstawowa wiedza z zakresu języka C#: Znajomość języka programowania C#.
--  Aspose.Words dla .NET: Pobierz i zainstaluj z[link do pobrania](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Pobierz i zainstaluj z [link do pobrania](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: środowisko podobne do Visual Studio, służące do pisania i uruchamiania kodu.
--  Przykładowy dokument: Posiadaj przykładowy dokument (np.`WMF with image.docx`) gotowe do testów.
+- Przykładowy dokument: Posiadaj przykładowy dokument (np. `WMF with image.docx`) gotowe do testów.
 
 ## Importuj przestrzenie nazw
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Krok 2: Załaduj dokument
 
- Załaduj swój dokument do Aspose.Words`Document` obiekt. Ten krok pozwala na programową pracę z dokumentem.
+Załaduj swój dokument do Aspose.Words `Document` obiekt. Ten krok pozwala na programową pracę z dokumentem.
 
 ```csharp
 Document doc = new Document(dataDir + "WMF with image.docx");
@@ -79,7 +81,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 
 ## Krok 5: Wdróż funkcję ostrzegawczego wywołania zwrotnego
 
- Utwórz klasę implementującą`IWarningCallback` interfejs umożliwiający obsługę ostrzeżeń generowanych w trakcie przetwarzania dokumentu.
+Utwórz klasę implementującą `IWarningCallback` interfejs umożliwiający obsługę ostrzeżeń generowanych w trakcie przetwarzania dokumentu.
 
 ```csharp
 public class HandleDocumentWarnings : IWarningCallback
@@ -132,11 +134,11 @@ Wykonując te kroki, możesz skutecznie obsługiwać ostrzeżenia dotyczące ren
 
 ### P1: Czy mogę za pomocą tej metody poradzić sobie z innymi typami ostrzeżeń?
 
- Tak,`IWarningCallback` Interfejs może obsługiwać różne typy ostrzeżeń, nie tylko te związane z renderowaniem PDF.
+Tak, `IWarningCallback` Interfejs może obsługiwać różne typy ostrzeżeń, nie tylko te związane z renderowaniem PDF.
 
 ### P2: Gdzie mogę pobrać bezpłatną wersję próbną Aspose.Words dla platformy .NET?
 
- Darmową wersję próbną możesz pobrać ze strony[Strona z bezpłatną wersją próbną](https://releases.aspose.com/).
+Darmową wersję próbną możesz pobrać ze strony [Strona z bezpłatną wersją próbną](https://releases.aspose.com/).
 
 ### P3: Czym są opcje MetafileRenderingOptions?
 
@@ -144,14 +146,19 @@ MetafileRenderingOptions to ustawienia określające sposób renderowania metapl
 
 ### P4: Gdzie mogę znaleźć pomoc dotyczącą Aspose.Words?
 
- Odwiedź[Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8) po pomoc.
+Odwiedź [Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8) po pomoc.
 
 ### P5: Czy można uzyskać tymczasową licencję na Aspose.Words?
 
- Tak, możesz uzyskać tymczasową licencję od[tymczasowa strona licencji](https://purchase.aspose.com/temporary-license/).
+Tak, możesz uzyskać tymczasową licencję od [tymczasowa strona licencji](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

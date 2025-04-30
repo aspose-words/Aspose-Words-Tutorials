@@ -1,14 +1,16 @@
 ---
-title: Struktur Dokumen dan Manipulasi Konten
-linktitle: Struktur Dokumen dan Manipulasi Konten
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Jelajahi tutorial Aspose.Words untuk Python dan .NET, dengan fokus pada struktur dokumen dan manipulasi konten. Pelajari cara menavigasi, mengekstrak, dan memodifikasi elemen dokumen secara efisien. Contoh kode sumber disediakan.
-weight: 10
-url: /id/python-net/document-structure-and-content-manipulation/
+"description": "Jelajahi tutorial Aspose.Words untuk Python dan .NET, dengan fokus pada struktur dokumen dan manipulasi konten. Pelajari cara menavigasi, mengekstrak, dan memodifikasi elemen dokumen secara efisien. Contoh kode sumber disediakan."
+"linktitle": "Struktur Dokumen dan Manipulasi Konten"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Struktur Dokumen dan Manipulasi Konten"
+"url": "/id/python-net/document-structure-and-content-manipulation/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Struktur Dokumen dan Manipulasi Konten
@@ -67,10 +69,14 @@ Pelajari cara mengelola bagian dan tata letak dokumen dengan Aspose.Words untuk 
 ### [Meningkatkan Konten Visual dengan Kotak Teks di Dokumen Word](./document-textboxes/)
 Tingkatkan visual dokumen menggunakan Aspose.Words Python! Pelajari langkah demi langkah cara membuat dan menyesuaikan kotak teks dalam dokumen Word. Tingkatkan tata letak, pemformatan, dan gaya konten untuk dokumen yang menarik.
 ### [Membuka Kunci Otomatisasi Tingkat Lanjut dengan Makro VBA di Dokumen Word](./document-vba-macros/)
- Buka kunci otomatisasi tingkat lanjut dalam dokumen Word menggunakan API Python Aspose.Words dan makro VBA. Pelajari langkah demi langkah dengan kode sumber dan Tanya Jawab Umum. Tingkatkan produktivitas sekarang. Akses di[Link].
+Buka kunci otomatisasi tingkat lanjut dalam dokumen Word menggunakan API Python Aspose.Words dan makro VBA. Pelajari langkah demi langkah dengan kode sumber dan Tanya Jawab Umum. Tingkatkan produktivitas sekarang. Akses di [Link].
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

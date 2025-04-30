@@ -1,14 +1,16 @@
 ---
-title: टेक्स्ट बॉक्स को अनदेखा करें
-linktitle: टेक्स्ट बॉक्स को अनदेखा करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words के साथ Word दस्तावेज़ों को मर्ज करें, यह सुनिश्चित करते हुए कि टेक्स्ट बॉक्स फ़ॉर्मेटिंग संरक्षित है। निर्बाध दस्तावेज़ प्रसंस्करण के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/join-and-append-documents/ignore-text-boxes/
+"description": ".NET के लिए Aspose.Words के साथ Word दस्तावेज़ों को मर्ज करें, यह सुनिश्चित करते हुए कि टेक्स्ट बॉक्स फ़ॉर्मेटिंग संरक्षित है। निर्बाध दस्तावेज़ प्रसंस्करण के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "टेक्स्ट बॉक्स को अनदेखा करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "टेक्स्ट बॉक्स को अनदेखा करें"
+"url": "/hi/net/join-and-append-documents/ignore-text-boxes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # टेक्स्ट बॉक्स को अनदेखा करें
@@ -21,7 +23,7 @@ url: /hi/net/join-and-append-documents/ignore-text-boxes/
 
 शुरू करने से पहले, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  .NET के लिए Aspose.Words: इसे डाउनलोड करें[यहाँ](https://releases.aspose.com/words/net/).
+1. .NET के लिए Aspose.Words: इसे डाउनलोड करें [यहाँ](https://releases.aspose.com/words/net/).
 2. .NET विकास वातावरण: विजुअल स्टूडियो या कोई अन्य पसंदीदा IDE.
 3. C# का बुनियादी ज्ञान: C# में बुनियादी प्रोग्रामिंग अवधारणाओं की समझ।
 
@@ -52,7 +54,7 @@ using Aspose.Words.Importing;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
 
 ## चरण 3: दस्तावेज़ लोड करें
 
@@ -65,7 +67,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## चरण 4: आयात विकल्प कॉन्फ़िगर करें
 
- यह सुनिश्चित करने के लिए कि टेक्स्ट बॉक्स का स्वरूपण बनाए रखा गया है, सेट करें`IgnoreTextBoxes` विकल्प`false`.
+यह सुनिश्चित करने के लिए कि टेक्स्ट बॉक्स का स्वरूपण बनाए रखा गया है, सेट करें `IgnoreTextBoxes` विकल्प `false`.
 
 ```csharp
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreTextBoxes = false };
@@ -73,7 +75,7 @@ ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreTextBo
 
 ## चरण 5: नोड आयातक को आरंभ करें
 
- आरंभ करें`NodeImporter` स्रोत दस्तावेज़ से गंतव्य दस्तावेज़ में नोड्स आयात करने के लिए।
+आरंभ करें `NodeImporter` स्रोत दस्तावेज़ से गंतव्य दस्तावेज़ में नोड्स आयात करने के लिए।
 
 ```csharp
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
@@ -114,23 +116,28 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.IgnoreTextBoxes.docx");
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### .NET के लिए Aspose.Words क्या है?
- .NET के लिए Aspose.Words .NET अनुप्रयोगों के भीतर Word दस्तावेज़ों को बनाने, हेरफेर करने और परिवर्तित करने के लिए एक शक्तिशाली लाइब्रेरी है।[और अधिक जानें](https://reference.aspose.com/words/net/).
+.NET के लिए Aspose.Words .NET अनुप्रयोगों के भीतर Word दस्तावेज़ों को बनाने, हेरफेर करने और परिवर्तित करने के लिए एक शक्तिशाली लाइब्रेरी है। [और अधिक जानें](https://reference.aspose.com/words/net/).
 
 ### क्या मैं खरीदने से पहले .NET के लिए Aspose.Words आज़मा सकता हूँ?
- हां, आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### मैं .NET के लिए Aspose.Words हेतु अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?
-आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+आप अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### मैं अधिक विस्तृत दस्तावेज कहां पा सकता हूं?
- आप विस्तृत दस्तावेज पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप विस्तृत दस्तावेज पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
 
 ### मैं .NET के लिए Aspose.Words का समर्थन कैसे प्राप्त कर सकता हूं?
- सहायता के लिए, Aspose फ़ोरम पर जाएँ[यहाँ](https://forum.aspose.com/c/words/8).
+सहायता के लिए, Aspose फ़ोरम पर जाएँ [यहाँ](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

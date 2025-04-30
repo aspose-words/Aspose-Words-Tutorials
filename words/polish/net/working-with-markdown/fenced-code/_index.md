@@ -1,14 +1,16 @@
 ---
-title: Kod ogrodzony
-linktitle: Kod ogrodzony
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dodawać kod ogrodzony i ciągi informacyjne do dokumentów Word za pomocą Aspose.Words dla .NET. W zestawie przewodnik krok po kroku. Udoskonal swoje umiejętności formatowania dokumentów.
-weight: 10
-url: /pl/net/working-with-markdown/fenced-code/
+"description": "Dowiedz się, jak dodawać kod ogrodzony i ciągi informacyjne do dokumentów Word za pomocą Aspose.Words dla .NET. W zestawie przewodnik krok po kroku. Udoskonal swoje umiejętności formatowania dokumentów."
+"linktitle": "Kod ogrodzony"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Kod ogrodzony"
+"url": "/pl/net/working-with-markdown/fenced-code/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kod ogrodzony
@@ -22,7 +24,7 @@ Cześć, kolego programisto! Dzisiaj zanurzamy się w świat Aspose.Words dla .N
 Zanim przejdziemy do samouczka, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
 - Podstawowa znajomość języka C#: Ogólna znajomość języka C# pomoże Ci szybko zrozumieć podstawowe koncepcje.
--  Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Jeśli jeszcze go nie masz, pobierz go[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Jeśli jeszcze go nie masz, pobierz go [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Visual Studio lub inne środowisko programistyczne C#, z którym czujesz się pewnie.
 
 ## Importuj przestrzenie nazw
@@ -108,16 +110,21 @@ Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programistom pr
 Aspose.Words obsługuje przede wszystkim języki .NET, ale dostępne są wersje dla języków Java, Python i innych.
 
 ### Czy korzystanie z Aspose.Words jest bezpłatne?
- Aspose.Words to produkt komercyjny, ale możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/)aby poznać jego funkcje.
+Aspose.Words to produkt komercyjny, ale możesz pobrać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/) aby poznać jego funkcje.
 
 ### Jak mogę uzyskać pomoc dotyczącą Aspose.Words?
- Możesz uzyskać wsparcie od społeczności i deweloperów Aspose[Tutaj](https://forum.aspose.com/c/words/8).
+Możesz uzyskać wsparcie od społeczności i deweloperów Aspose [Tutaj](https://forum.aspose.com/c/words/8).
 
 ### Jakie inne funkcje oferuje Aspose.Words?
 Aspose.Words oferuje szeroką gamę funkcji, w tym konwersję dokumentów, generowanie dokumentów na podstawie szablonów, raportowanie i wiele innych.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

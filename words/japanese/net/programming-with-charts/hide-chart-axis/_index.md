@@ -1,34 +1,36 @@
 ---
-title: Word 文書でグラフの軸を非表示にする
-linktitle: Word 文書でグラフの軸を非表示にする
-second_title: Aspose.Words ドキュメント処理 API
-description: 詳細なステップバイステップのチュートリアルで、Aspose.Words for .NET を使用して Word 文書内のグラフ軸を非表示にする方法を学びます。
-weight: 10
-url: /ja/net/programming-with-charts/hide-chart-axis/
+"description": "詳細なステップバイステップのチュートリアルで、Aspose.Words for .NET を使用して Word 文書内のグラフの軸を非表示にする方法を学びます。"
+"linktitle": "Word文書でグラフの軸を非表示にする"
+"second_title": "Aspose.Words ドキュメント処理 API"
+"title": "Word文書でグラフの軸を非表示にする"
+"url": "/ja/net/programming-with-charts/hide-chart-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word 文書でグラフの軸を非表示にする
+# Word文書でグラフの軸を非表示にする
 
 ## 導入
 
-動的で視覚的に魅力的な Word 文書を作成するには、多くの場合、チャートやグラフを組み込む必要があります。そのようなシナリオの 1 つとして、よりすっきりとしたプレゼンテーションのためにチャートの軸を非表示にすることが考えられます。Aspose.Words for .NET は、そのようなタスクのための包括的で使いやすい API を提供します。このチュートリアルでは、Aspose.Words for .NET を使用して Word 文書でチャートの軸を非表示にする手順を説明します。
+ダイナミックで視覚的に魅力的なWord文書を作成するには、多くの場合、グラフや図表を組み込む必要があります。そのようなシナリオの一つとして、見栄えをすっきりさせるためにグラフの軸を非表示にしたい場合があります。Aspose.Words for .NETは、このようなタスクのための包括的で使いやすいAPIを提供しています。このチュートリアルでは、Aspose.Words for .NETを使用してWord文書内のグラフの軸を非表示にする手順を説明します。
 
 ## 前提条件
 
-チュートリアルに進む前に、次の前提条件を満たしていることを確認してください。
+チュートリアルに進む前に、次の前提条件が満たされていることを確認してください。
 
--  Aspose.Words for .NET: ダウンロードはこちらから[ここ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: ダウンロードはこちらから [ここ](https://releases。aspose.com/words/net/).
 - 開発環境: Visual Studio など、.NET 開発をサポートする任意の IDE。
 - .NET Framework: マシンに .NET Framework がインストールされていることを確認します。
 - C# の基礎知識: C# プログラミング言語に精通していると有利です。
 
 ## 名前空間のインポート
 
-Aspose.Words for .NET の使用を開始するには、プロジェクトに必要な名前空間をインポートする必要があります。手順は次のとおりです。
+Aspose.Words for .NET を使い始めるには、プロジェクトに必要な名前空間をインポートする必要があります。手順は以下のとおりです。
 
 ```csharp
 using Aspose.Words;
@@ -38,30 +40,30 @@ using Aspose.Words.Drawing.Charts;
 
 プロセスをシンプルでわかりやすいステップに分解してみましょう。
 
-## ステップ 1: ドキュメントと DocumentBuilder を初期化する
+## ステップ1: DocumentとDocumentBuilderを初期化する
 
 最初のステップでは、新しい Word 文書を作成し、DocumentBuilder オブジェクトを初期化します。
 
 ```csharp
-//ドキュメントディレクトリへのパス
+// ドキュメントディレクトリへのパス
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-このステップでは、ドキュメントを保存するパスを定義します。次に、新しい`Document`オブジェクトと`DocumentBuilder`ドキュメントの構築を開始するためのオブジェクト。
+このステップでは、ドキュメントを保存するパスを定義します。次に、新しい `Document` オブジェクトと `DocumentBuilder` オブジェクトを使用してドキュメントの構築を開始します。
 
 ## ステップ2: グラフを挿入する
 
-次に、`DocumentBuilder`物体。
+次に、 `DocumentBuilder` 物体。
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 ```
 
-ここでは、指定されたディメンションの縦棒グラフを挿入します。`InsertChart`メソッドは`Shape`チャートを含むオブジェクト。
+ここでは、指定したディメンションの縦棒グラフを挿入します。 `InsertChart` メソッドは `Shape` チャートを含むオブジェクト。
 
 ## ステップ3: 既存のシリーズをクリアする
 
@@ -71,7 +73,7 @@ Chart chart = shape.Chart;
 chart.Series.Clear();
 ```
 
-この手順により、グラフ内のデフォルト データがすべて削除され、次に追加する新しいデータのための場所が確保されます。
+この手順により、グラフ内のデフォルト データがすべて削除され、次に追加する新しいデータのためのスペースが確保されます。
 
 ## ステップ4: シリーズデータを追加する
 
@@ -87,7 +89,7 @@ chart.Series.Add("Aspose Series 1",
 
 ## ステップ5: Y軸を非表示にする
 
-グラフのY軸を非表示にするには、`Hidden` Y軸のプロパティ`true`.
+グラフのY軸を非表示にするには、 `Hidden` Y軸のプロパティ `true`。
 
 ```csharp
 chart.AxisY.Hidden = true;
@@ -107,28 +109,33 @@ doc.Save(dataDir + "WorkingWithCharts.HideChartAxis.docx");
 
 ## 結論
 
-おめでとうございます! Aspose.Words for .NET を使用して Word 文書内のグラフ軸を非表示にする方法を学習しました。この強力なライブラリを使用すると、Word 文書をプログラムで簡単に操作できます。これらの手順に従うことで、最小限の労力でカスタマイズされたプロフェッショナルな外観の文書を作成できます。
+おめでとうございます！Aspose.Words for .NETを使用して、Word文書内のグラフの軸を非表示にする方法を習得しました。この強力なライブラリを使えば、Word文書をプログラムで簡単に操作できます。これらの手順に従うことで、最小限の労力で、カスタマイズされたプロフェッショナルな文書を作成できます。
 
 ## よくある質問
 
 ### Aspose.Words for .NET とは何ですか?
 Aspose.Words for .NET は、.NET アプリケーション内で Word 文書を作成、編集、変換、操作するための強力な API です。
 
-### グラフ内の X 軸と Y 軸の両方を非表示にすることはできますか?
-はい、両方の軸を非表示にするには、`Hidden`両者の財産`AxisX`そして`AxisY`に`true`.
+### グラフの X 軸と Y 軸の両方を非表示にすることはできますか?
+はい、両方の軸を非表示にするには、 `Hidden` 両者の財産 `AxisX` そして `AxisY` に `true`。
 
 ### Aspose.Words for .NET の無料試用版はありますか?
-はい、無料トライアルをご利用いただけます[ここ](https://releases.aspose.com/).
+はい、無料トライアルをご利用いただけます [ここ](https://releases。aspose.com/).
 
 ### さらに詳しいドキュメントはどこで見つかりますか?
-詳細なドキュメントはAspose.Words for .NETでご覧いただけます。[ここ](https://reference.aspose.com/words/net/).
+詳細なドキュメントはAspose.Words for .NETでご覧いただけます。 [ここ](https://reference。aspose.com/words/net/).
 
 ### Aspose.Words for .NET のサポートを受けるにはどうすればよいですか?
- Asposeコミュニティからサポートを受けることができます[ここ](https://forum.aspose.com/c/words/8).
+Asposeコミュニティからサポートを受けることができます [ここ](https://forum。aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

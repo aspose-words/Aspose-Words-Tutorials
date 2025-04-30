@@ -1,41 +1,49 @@
 ---
-title: สร้างรูปแบบลายอักษรใน Word โดยใช้ Aspose.Words สําหรับ .NET
-weight: 7700
-limit: 
-description: เรียนรู้วิธีการสร้างเอกสาร Word ด้วยการฟอร์เมทลายลายลายลายอักษรที่ปรับแต่งใน .NET โดยใช้ Aspose.Words. ตัวอย่างง่ายๆ ขั้นตอนตามขั้นตอนรวม
-keywords: [Aspose.Words, .NET, Word document, font formatting, programming example, DocumentBuilder, font properties]
-url: /th/net/font-styling/font-formatting/
+"description": "เรียนรู้วิธีการสร้างเอกสาร Word ที่มีการจัดรูปแบบแบบอักษรที่กำหนดเองใน .NET โดยใช้ Aspose.Words มีตัวอย่างทีละขั้นตอนง่ายๆ รวมอยู่ด้วย"
+"title": "สร้างการจัดรูปแบบแบบอักษรใน Word โดยใช้ Aspose.Words สำหรับ .NET"
+"url": "/th/net/font-styling/font-formatting/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# สร้างรูปแบบลายอักษรใน Word โดยใช้ Aspose.Words
+# สร้างรูปแบบฟอนต์ใน Word โดยใช้ Aspose.Words
 
-คู่มือนี้นํามาให้ตัวอย่างง่าย ๆ ในการสร้างและฟอร์เมทเอกสาร Word โดยใช้ Aspose.Words สําหรับ .NET คุณจะได้เรียนรู้การปรับแต่งคุณสมบัติลายอักษร เช่น ขนาด สไตล์ และสี แล้วเขียนบทความในเอกสาร หลักสูตรชุดชุดชุดชุดชุดชุดชุดชุดทําให้ผู้เริ่มต้นและผู้พัฒนาที่มีประสบการณ์ สามารถนํา Aspose.Words เข้ามารวมไปสู่แอปพลิเคชั่นของพวกเขาได้ง่าย
+คู่มือนี้ให้ตัวอย่างง่ายๆ ของการสร้างและจัดรูปแบบเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คุณจะได้เรียนรู้วิธีปรับแต่งคุณสมบัติของแบบอักษร เช่น ขนาด สไตล์ และสี จากนั้นจึงเขียนข้อความลงในเอกสาร คำแนะนำทีละขั้นตอนทำให้ทั้งผู้เริ่มต้นและนักพัฒนาที่มีประสบการณ์สามารถผสาน Aspose.Words เข้ากับแอปพลิเคชันได้อย่างง่ายดาย
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/font-styling/font-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## คําแนะนําการติดตั้ง 
-1. ข้อตกลง: รับรองว่าคุณติดตั้ง .NET บนเครื่องของคุณ
+## คำแนะนำในการติดตั้ง 
+1. ข้อกำหนดเบื้องต้น: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET ไว้ในเครื่องของคุณแล้ว
 2. ติดตั้ง Aspose.Words: 
-   * ใช้ NuGet Package Manager ใน Visual Studio:
+   - ใช้ตัวจัดการแพ็คเกจ NuGet ใน Visual Studio:
      ```
      Install-Package Aspose.Words
      ```
-   * หรือดาวน์โหลด DLL ได้โดยตรงจาก [การตั้งเป้าเว็บไซต์](https://www.aspose.com). .
-3. การสมัครใบอนุญาต (ทางเลือก):  
-   เพื่อใช้ฉบับเต็ม[ใช้ใบอนุญาต](https://purchase.aspose.com/temporary-license/)หรือใช้ [ทดลองใช้ฟรี](https://releases.aspose.com/words/net/). .  
+   - หรือดาวน์โหลด DLL โดยตรงจาก [เว็บไซต์อาโพส](https://www-aspose.com).
+3. สมัครใบอนุญาต (ทางเลือก):  
+   หากต้องการใช้เวอร์ชันเต็ม [ยื่นขอใบอนุญาต](https://purchase.aspose.com/temporary-license/) หรือใช้ [ทดลองใช้งานฟรี](https://releases-aspose.com/words/net/).  
 
-## ดูอีกด้วย
-[Aspose.Word สําหรับเอกสาร .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word สําหรับ .NET References](https://reference.aspose.com/words/net/)
+## ดูเพิ่มเติม
+[Aspose.Word สำหรับเอกสาร .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word สำหรับการอ้างอิง .NET](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

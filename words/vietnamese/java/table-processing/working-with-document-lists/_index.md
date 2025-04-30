@@ -1,14 +1,16 @@
 ---
-title: Làm việc với danh sách tài liệu
-linktitle: Làm việc với danh sách tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách làm việc với danh sách tài liệu trong Java bằng Aspose.Words for Java. Hướng dẫn từng bước này bao gồm các ví dụ về mã nguồn để thao tác tài liệu hiệu quả.
-weight: 11
-url: /vi/java/table-processing/working-with-document-lists/
+"description": "Tìm hiểu cách làm việc với danh sách tài liệu trong Java bằng Aspose.Words for Java. Hướng dẫn từng bước này bao gồm các ví dụ về mã nguồn để thao tác tài liệu hiệu quả."
+"linktitle": "Làm việc với danh sách tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Làm việc với danh sách tài liệu"
+"url": "/vi/java/table-processing/working-with-document-lists/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Làm việc với danh sách tài liệu
@@ -22,7 +24,7 @@ Aspose.Words for Java là một API mạnh mẽ giúp các nhà phát triển Ja
 
 ## Bắt đầu với Aspose.Words cho Java
 
-Trước khi đi sâu vào chi tiết về cách làm việc với danh sách tài liệu, hãy đảm bảo rằng bạn đã thiết lập mọi thứ chính xác:
+Trước khi đi sâu vào chi tiết cách làm việc với danh sách tài liệu, hãy đảm bảo rằng bạn đã thiết lập mọi thứ chính xác:
 
 ### Điều kiện tiên quyết
 
@@ -105,7 +107,7 @@ Trong hướng dẫn toàn diện này, chúng tôi đã khám phá thế giới
 ## Câu hỏi thường gặp
 
 ### Làm thế nào để thêm dấu đầu dòng vào danh sách tài liệu?
- Để thêm dấu đầu dòng vào danh sách tài liệu, hãy sử dụng ListTemplate thích hợp khi tạo danh sách. Ví dụ: sử dụng`ListTemplate.BULLET_DEFAULT` thay vì`ListTemplate.NUMBER_DEFAULT`.
+Để thêm dấu đầu dòng vào danh sách tài liệu, hãy sử dụng ListTemplate thích hợp khi tạo danh sách. Ví dụ: sử dụng `ListTemplate.BULLET_DEFAULT` thay vì `ListTemplate.NUMBER_DEFAULT`.
 
 ### Tôi có thể thay đổi định dạng của các mục danh sách không?
 Có, bạn có thể tùy chỉnh định dạng của các mục danh sách, bao gồm phông chữ, kích thước, màu sắc, v.v. bằng cách sử dụng các tính năng định dạng của Aspose.Words for Java.
@@ -118,9 +120,14 @@ Chắc chắn rồi! Aspose.Words for Java hỗ trợ nhiều định dạng tà
 
 ### Aspose.Words for Java có hỗ trợ làm việc với bảng trong tài liệu không?
 Có, Aspose.Words for Java cung cấp hỗ trợ toàn diện cho việc làm việc với bảng, cho phép bạn tạo, sửa đổi và trích xuất dữ liệu bảng một cách dễ dàng.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

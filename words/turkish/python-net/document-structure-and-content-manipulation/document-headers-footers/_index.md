@@ -1,14 +1,16 @@
 ---
-title: Word Belgelerinde Başlık ve Alt Bilgileri Düzenleme
-linktitle: Word Belgelerinde Başlık ve Alt Bilgileri Düzenleme
-second_title: Aspose.Words Python Belge Yönetim API'si
-description: Python için Aspose.Words kullanarak Word belgelerindeki başlıkları ve alt bilgileri düzenlemeyi öğrenin. Özelleştirme, ekleme, kaldırma ve daha fazlası için kaynak kodlu adım adım kılavuz. Belge biçimlendirmenizi şimdi geliştirin!
-weight: 16
-url: /tr/python-net/document-structure-and-content-manipulation/document-headers-footers/
+"description": "Python için Aspose.Words kullanarak Word belgelerindeki başlıkları ve alt bilgileri düzenlemeyi öğrenin. Özelleştirme, ekleme, kaldırma ve daha fazlası için kaynak kodlu adım adım kılavuz. Belge biçimlendirmenizi şimdi geliştirin!"
+"linktitle": "Word Belgelerinde Başlık ve Alt Bilgileri Düzenleme"
+"second_title": "Aspose.Words Python Belge Yönetim API'si"
+"title": "Word Belgelerinde Başlık ve Alt Bilgileri Düzenleme"
+"url": "/tr/python-net/document-structure-and-content-manipulation/document-headers-footers/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgelerinde Başlık ve Alt Bilgileri Düzenleme
@@ -42,7 +44,7 @@ Word belgenize temel bir üstbilgi ve altbilgi eklemek için şu adımları izle
 doc = aw.Document()
 ```
 
-2.  Üstbilgi ve Altbilgi Ekleme:`sections` Bölümlere erişmek için belgenin özelliğini kullanın. Ardından,`headers_footers` Başlık ve altbilgi ekleme özelliği.
+2. Üstbilgi ve Altbilgi Ekleme: `sections` Bölümlere erişmek için belgenin özelliğini kullanın. Ardından, `headers_footers` Başlık ve altbilgi ekleme özelliği.
 
 ```python
 section = doc.sections[0]
@@ -118,11 +120,11 @@ section.page_setup.odd_and_even_pages_header_footer = False
 
 ### Üstbilgi ve altbilgi içeriğine nasıl erişebilirim?
 
- Üst bilgi ve alt bilgi içeriğine erişmek için şunu kullanın:`headers_footers` belgenin bölümünün mülkiyeti.
+Üst bilgi ve alt bilgi içeriğine erişmek için şunu kullanın: `headers_footers` belgenin bölümünün mülkiyeti.
 
 ### Başlık ve altbilgilere resim ekleyebilir miyim?
 
- Evet, üstbilgilere ve altbilgilere resim ekleyebilirsiniz.`add_picture` yöntem.
+Evet, üstbilgilere ve altbilgilere resim ekleyebilirsiniz. `add_picture` yöntem.
 
 ### Tek ve çift sayfalar için farklı başlıklar kullanmak mümkün müdür?
 
@@ -134,11 +136,16 @@ Evet, üstbilgi ve altbilgilerin içeriğini temizleyerek bunları etkili bir ş
 
 ### Python için Aspose.Words hakkında daha fazla bilgiyi nereden edinebilirim?
 
- Daha ayrıntılı belgeler ve örnekler için şu adresi ziyaret edin:[Aspose.Words for Python API Referansı](https://reference.aspose.com/words/python-net/).
+Daha ayrıntılı belgeler ve örnekler için şurayı ziyaret edin: [Aspose.Words for Python API Referansı](https://reference.aspose.com/words/python-net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

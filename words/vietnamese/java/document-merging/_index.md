@@ -1,14 +1,16 @@
 ---
-title: Hợp nhất tài liệu
-linktitle: Hợp nhất tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Mở khóa tiềm năng hợp nhất tài liệu trong Java bằng Aspose.Words! Tìm hiểu cách xử lý văn bản và xử lý tài liệu hiệu quả với hướng dẫn chi tiết.
-weight: 13
-url: /vi/java/document-merging/
+"description": "Mở khóa tiềm năng hợp nhất tài liệu trong Java bằng Aspose.Words! Tìm hiểu cách xử lý văn bản và xử lý tài liệu hiệu quả với hướng dẫn chi tiết."
+"linktitle": "Hợp nhất tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Hợp nhất tài liệu"
+"url": "/vi/java/document-merging/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hợp nhất tài liệu
@@ -39,10 +41,14 @@ Tìm hiểu cách nối và thêm tài liệu bằng Aspose.Words cho Java. Hư�
 ### [So sánh các tài liệu để tìm sự khác biệt](./comparing-documents-for-differences/)
 Tìm hiểu cách so sánh các tài liệu để tìm sự khác biệt bằng Aspose.Words trong Java. Hướng dẫn từng bước của chúng tôi đảm bảo quản lý tài liệu chính xác.
 ### [Hợp nhất tài liệu với DocumentBuilder](./merging-documents-documentbuilder/)
-Tìm hiểu cách thao tác các tài liệu Word với Aspose.Words for Java. Tạo, chỉnh sửa, hợp nhất và chuyển đổi tài liệu theo chương trình trong Java.
+Tìm hiểu cách thao tác các tài liệu Word với Aspose.Words cho Java. Tạo, chỉnh sửa, hợp nhất và chuyển đổi tài liệu theo chương trình trong Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

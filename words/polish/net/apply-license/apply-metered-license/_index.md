@@ -1,14 +1,16 @@
 ---
-title: Zastosuj licencję licznikową
-linktitle: Zastosuj licencję licznikową
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak zastosować licencję mierzoną w Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Elastyczne, ekonomiczne licencjonowanie stało się proste.
-weight: 10
-url: /pl/net/apply-license/apply-metered-license/
+"description": "Dowiedz się, jak zastosować licencję mierzoną w Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Elastyczne, ekonomiczne licencjonowanie stało się proste."
+"linktitle": "Zastosuj licencję licznikową"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zastosuj licencję licznikową"
+"url": "/pl/net/apply-license/apply-metered-license/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zastosuj licencję licznikową
@@ -21,8 +23,8 @@ Aspose.Words for .NET to potężna biblioteka, która umożliwia pracę z dokume
 
 Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz bibliotekę ze strony[Strona internetowa Aspose](https://releases.aspose.com/words/net/).
-2.  Ważne klucze licencyjne licznikowe: Klucze są potrzebne do aktywacji licencji licznikowej. Można je uzyskać od[Strona zakupu Aspose](https://purchase.aspose.com/buy).
+1. Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz bibliotekę ze strony [Strona internetowa Aspose](https://releases.aspose.com/words/net/).
+2. Ważne klucze licencyjne licznikowe: Klucze są potrzebne do aktywacji licencji licznikowej. Można je uzyskać od [Strona zakupu Aspose](https://purchase.aspose.com/buy).
 3. Środowisko programistyczne: Upewnij się, że masz skonfigurowane środowisko programistyczne .NET. Visual Studio jest popularnym wyborem, ale możesz użyć dowolnego IDE, które obsługuje .NET.
 
 ## Importuj przestrzenie nazw
@@ -38,7 +40,7 @@ Dobrze, rozłóżmy to na czynniki pierwsze. Przejdziemy przez proces krok po kr
 
 ## Krok 1: Zainicjuj klasę licznikową
 
- Po pierwsze, musimy utworzyć instancję`Metered` Klasa. Ta klasa jest odpowiedzialna za ustawienie licencji licznikowej.
+Po pierwsze, musimy utworzyć instancję `Metered` Klasa. Ta klasa jest odpowiedzialna za ustawienie licencji licznikowej.
 
 ```csharp
 Metered metered = new Metered();
@@ -46,17 +48,17 @@ Metered metered = new Metered();
 
 ## Krok 2: Ustaw klawisze pomiarowe
 
- Teraz, gdy mamy nasze`Metered` na przykład musimy ustawić klucze mierzone. Klucze te są dostarczane przez Aspose i są unikalne dla Twojej subskrypcji.
+Teraz, gdy mamy nasze `Metered` na przykład musimy ustawić klucze mierzone. Klucze te są dostarczane przez Aspose i są unikalne dla Twojej subskrypcji.
 
 ```csharp
 metered.SetMeteredKey("your_public_key", "your_private_key");
 ```
 
- Zastępować`"your_public_key"` I`"your_private_key"` z rzeczywistymi kluczami, które otrzymałeś od Aspose. Ten krok zasadniczo mówi Aspose, że chcesz użyć licencji mierzonej.
+Zastępować `"your_public_key"` I `"your_private_key"` z rzeczywistymi kluczami, które otrzymałeś od Aspose. Ten krok zasadniczo mówi Aspose, że chcesz użyć licencji mierzonej.
 
 ## Krok 3: Załaduj swój dokument
 
- Następnie załadujmy dokument Worda za pomocą Aspose.Words. W tym przykładzie użyjemy dokumentu o nazwie`Document.docx`. Upewnij się, że ten dokument znajduje się w katalogu Twojego projektu.
+Następnie załadujmy dokument Worda za pomocą Aspose.Words. W tym przykładzie użyjemy dokumentu o nazwie `Document.docx`. Upewnij się, że ten dokument znajduje się w katalogu Twojego projektu.
 
 ```csharp
 Document doc = new Document("Document.docx");
@@ -96,7 +98,7 @@ Dzięki temu jeśli coś pójdzie nie tak, otrzymasz znaczący komunikat o błę
 
 ## Wniosek
 
-I masz to! Zastosowanie licencji metered w Aspose.Words dla .NET jest proste, gdy podzielisz je na łatwe do opanowania kroki. Ten model licencjonowania oferuje elastyczność i oszczędności kosztów, co czyni go doskonałym wyborem dla wielu programistów. Pamiętaj, że kluczem jest prawidłowe skonfigurowanie kluczy metered i obsługa wszelkich wyjątków, które mogą się pojawić. Miłego kodowania!
+masz to! Zastosowanie licencji mierzonej w Aspose.Words dla .NET jest proste, gdy podzielisz ją na łatwe do opanowania kroki. Ten model licencjonowania oferuje elastyczność i oszczędności kosztów, co czyni go doskonałym wyborem dla wielu programistów. Pamiętaj, że kluczem jest prawidłowe skonfigurowanie kluczy mierzonych i obsługa wszelkich wyjątków, które mogą się pojawić. Miłego kodowania!
 
 ## Najczęściej zadawane pytania
 
@@ -104,7 +106,7 @@ I masz to! Zastosowanie licencji metered w Aspose.Words dla .NET jest proste, gd
 Licencja licznikowa to model płatności za rzeczywiste wykorzystanie, w którym płacisz tylko za faktyczne wykorzystanie biblioteki Aspose.Words for .NET, co zapewnia elastyczność i opłacalność.
 
 ### Gdzie mogę uzyskać klucze licencyjne?
- Klucze licencyjne z licznikiem można uzyskać w[Strona zakupu Aspose](https://purchase.aspose.com/buy).
+Klucze licencyjne można uzyskać od [Strona zakupu Aspose](https://purchase.aspose.com/buy).
 
 ### Czy mogę wykorzystać licencję licznikową w dowolnym projekcie .NET?
 Tak, możesz wykorzystać licencję licznikową w dowolnym projekcie .NET wykorzystującym bibliotekę Aspose.Words for .NET.
@@ -114,9 +116,13 @@ Jeśli klucze są nieprawidłowe, licencja nie zostanie zastosowana, a aplikacja
 
 ### Jak mogę sprawdzić, czy licencja licznikowa została zastosowana prawidłowo?
 Możesz sprawdzić licencję licznikową, wykonując dowolną operację na dokumencie Word (np. drukując liczbę stron) i upewniając się, że zostanie ona wykonana bez błędów licencyjnych.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

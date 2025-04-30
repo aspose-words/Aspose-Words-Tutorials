@@ -1,14 +1,16 @@
 ---
-title: Alanların İçindeki Metni Yoksay
-linktitle: Alanların İçindeki Metni Yoksay
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerindeki alanların içindeki metni nasıl düzenleyeceğinizi öğrenin. Bu eğitim, pratik örneklerle adım adım rehberlik sağlar.
-weight: 10
-url: /tr/net/find-and-replace-text/ignore-text-inside-fields/
+"description": "Aspose.Words for .NET kullanarak Word belgelerindeki alanların içindeki metni nasıl düzenleyeceğinizi öğrenin. Bu eğitim, pratik örneklerle adım adım rehberlik sağlar."
+"linktitle": "Alanların İçindeki Metni Yoksay"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Alanların İçindeki Metni Yoksay"
+"url": "/tr/net/find-and-replace-text/ignore-text-inside-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Alanların İçindeki Metni Yoksay
@@ -37,7 +39,7 @@ using System.Text.RegularExpressions;
 
 ## Adım 1: Yeni Bir Belge ve Oluşturucu Oluşturun
 
- İlk olarak yeni bir Word belgesi başlatın ve`DocumentBuilder` belge yapımını kolaylaştırma amacı:
+İlk olarak yeni bir Word belgesi başlatın ve `DocumentBuilder` belge yapımını kolaylaştırma amacı:
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -45,21 +47,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Adım 2: Metinli Bir Alan Ekle
 
- Kullanın`InsertField` yöntemi`DocumentBuilder` metin içeren bir alan eklemek için:
+Kullanın `InsertField` yöntemi `DocumentBuilder` metin içeren bir alan eklemek için:
 ```csharp
 builder.InsertField("INCLUDETEXT", "Text in field");
 ```
 
 ## Adım 3: Alanların İçindeki Metni Yoksay
 
- Alanlardaki içeriği görmezden gelerek metni düzenlemek için şunu kullanın:`FindReplaceOptions` ile`IgnoreFields` özellik ayarlandı`true`:
+Alanlardaki içeriği yok sayarak metni düzenlemek için şunu kullanın: `FindReplaceOptions` ile `IgnoreFields` özellik ayarlandı `true`:
 ```csharp
 FindReplaceOptions options = new FindReplaceOptions { IgnoreFields = true };
 ```
 
 ## Adım 4: Metin Değiştirmeyi Gerçekleştirin
 
-Metin değiştirme için düzenli ifadeleri kullanın. Burada, 'e' harfinin oluşumlarını bir yıldız işaretiyle değiştiriyoruz '*' belgenin tüm kapsamı boyunca:
+Metin değiştirme için düzenli ifadeler kullanın. Burada, belgenin tüm aralığında 'e' harfinin yerlerini bir yıldız işareti '*' ile değiştiriyoruz:
 ```csharp
 Regex regex = new Regex("e");
 doc.Range.Replace(regex, "*", options);
@@ -74,7 +76,7 @@ Console.WriteLine(doc.GetText());
 
 ## Adım 6: Alanların İçine Metin Ekleyin
 
- Alanların içindeki metni işlemek için,`IgnoreFields`mülk`false` ve değiştirme işlemini tekrar gerçekleştirin:
+Alanların içindeki metni işlemek için, `IgnoreFields` mülk `false` ve değiştirme işlemini tekrar gerçekleştirin:
 ```csharp
 options.IgnoreFields = false;
 doc.Range.Replace(regex, "*", options);
@@ -96,13 +98,18 @@ Evet, Aspose.Words, belirli ölçütlere göre metin değiştirmeyi kontrol etme
 Evet, Aspose.Words .NET Core'u destekler ve belge otomasyon ihtiyaçlarınız için platformlar arası uyumluluğu garanti eder.
 
 ### Aspose.Words için daha fazla örnek ve kaynağı nerede bulabilirim?
- Ziyaret etmek[Aspose.Words Belgeleri](https://reference.aspose.com/words/net/) Kapsamlı kılavuzlar, API referansları ve kod örnekleri için.
+Ziyaret etmek [Aspose.Words Belgeleri](https://reference.aspose.com/words/net/) Kapsamlı kılavuzlar, API referansları ve kod örnekleri için.
 
 ### Aspose.Words için teknik destek nasıl alabilirim?
- Teknik yardım için şu adresi ziyaret edin:[Aspose.Words Destek Forumu](https://forum.aspose.com/c/words/8) Sorularınızı gönderebileceğiniz ve toplulukla etkileşime girebileceğiniz yer.
+Teknik yardım için şu adresi ziyaret edin: [Aspose.Words Destek Forumu](https://forum.aspose.com/c/words/8) Sorularınızı gönderebileceğiniz ve toplulukla etkileşime girebileceğiniz yer.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

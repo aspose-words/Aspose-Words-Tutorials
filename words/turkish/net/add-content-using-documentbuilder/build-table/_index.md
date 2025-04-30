@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Tablo Oluşturma
-linktitle: Word Belgesinde Tablo Oluşturma
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım eğitimle Aspose.Words for .NET kullanarak Word belgesinde tablo oluşturmayı öğrenin. Hem yeni başlayanlar hem de profesyoneller için mükemmel.
-weight: 10
-url: /tr/net/add-content-using-documentbuilder/build-table/
+"description": "Bu ayrıntılı, adım adım eğitimle Aspose.Words for .NET kullanarak Word belgesinde tablo oluşturmayı öğrenin. Hem yeni başlayanlar hem de profesyoneller için mükemmel."
+"linktitle": "Word Belgesinde Tablo Oluşturma"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Tablo Oluşturma"
+"url": "/tr/net/add-content-using-documentbuilder/build-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Tablo Oluşturma
@@ -25,11 +27,11 @@ Masa inşa etme maceramıza başlamadan önce, tüm işlerin yolunda olduğundan
 - .NET Framework (4.0 veya üzeri)
 - Aspose.Words for .NET kütüphanesi
 
- Eğer henüz Aspose.Words'ünüz yoksa, kolayca yapabilirsiniz[buradan indirin](https://releases.aspose.com/words/net/) . Ayrıca bir ile başlayabilirsiniz[ücretsiz deneme](https://releases.aspose.com/) suları test etmek istiyorsanız. Dalmaya hazır olanlar için,[lisans satın al](https://purchase.aspose.com/buy)veya değerlendirmek için daha fazla zamana ihtiyacınız varsa, bir tane alın[geçici lisans](https://purchase.aspose.com/temporary-license/).
+Eğer henüz Aspose.Words'ünüz yoksa, kolayca yapabilirsiniz [buradan indirin](https://releases.aspose.com/words/net/). Ayrıca bir ile başlayabilirsiniz [ücretsiz deneme](https://releases.aspose.com/) suları test etmek istiyorsanız. Dalmaya hazır olanlar için, [lisans satın al](https://purchase.aspose.com/buy)veya değerlendirmek için daha fazla zamana ihtiyacınız varsa, bir tane alın [geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 ## Ad Alanlarını İçe Aktar
 
-İlk önce ilk şeyler, ad alanlarımızı sıralayalım. Bu adım büyük gösteriden önce sahneyi hazırlamak gibidir. Aşağıdaki ad alanlarını C# dosyanıza ekleyin:
+İlk önce, ad alanlarımızı sıralayalım. Bu adım büyük gösteriden önce sahneyi hazırlamak gibidir. Aşağıdaki ad alanlarını C# dosyanıza ekleyin:
 
 ```csharp
 using System;
@@ -41,18 +43,18 @@ Tamam, bir Word belgesinde tablo oluşturma sürecini yönetilebilir adımlara b
 
 ## Adım 1: Belgeyi ve Belge Oluşturucuyu Başlatın
 
- İlk olarak, belgemizi ve belge oluşturucumuzu ayarlamamız gerekiyor.`Document` sınıf Word belgesini temsil eder ve`DocumentBuilder` içerik eklemek için kullanışlı aracımızdır.
+İlk olarak, belgemizi ve belge oluşturucumuzu ayarlamamız gerekiyor. `Document` sınıf Word belgesini temsil eder ve `DocumentBuilder` içerik eklemek için kullanışlı aracımızdır.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Bunu, boyamaya başlamadan önce tuvali sermek olarak düşünün.`DocumentBuilder` fırçamız, şaheser yaratmaya hazır.
+Bunu, boyamaya başlamadan önce tuvali sermek olarak düşünün. `DocumentBuilder` fırçamız, şaheser yaratmaya hazır.
 
 ## Adım 2: Tabloyu Başlatın
 
- Şimdi masamızı açalım.`StartTable` yöntemi`DocumentBuilder` başlamak için.
+Şimdi masamızı açalım. `StartTable` yöntemi `DocumentBuilder` başlamak için.
 
 ```csharp
 Table table = builder.StartTable();
@@ -60,7 +62,7 @@ builder.InsertCell();
 table.AutoFit(AutoFitBehavior.FixedColumnWidths);
 ```
 
- Kullanarak`StartTable` , Aspose.Words'e bir tablo oluşturmak üzere olduğumuzu söylüyoruz.`InsertCell` yöntem ilk hücreyi ekler ve`AutoFit` sütunlarımızın sabit genişliklere sahip olmasını sağlar.
+Kullanarak `StartTable`, Aspose.Words'e bir tablo oluşturmak üzere olduğumuzu söylüyoruz. `InsertCell` yöntem ilk hücreyi ekler ve `AutoFit` sütunlarımızın sabit genişliklere sahip olmasını sağlar.
 
 ## Adım 3: İlk Satırı Biçimlendirin
 
@@ -97,7 +99,7 @@ builder.Writeln("This is row 2 cell 2");
 builder.EndRow();
 ```
 
- Burada, satırın yüksekliğini ayarlıyoruz ve sabit kalmasını sağlıyoruz`HeightRule.Exactly`Metin yönlendirmesindeki değişiklikler tablomuzu öne çıkarıyor ve özgün bir dokunuş katıyor.
+Burada, satırın yüksekliğini ayarlıyoruz ve sabit kalmasını sağlıyoruz `HeightRule.Exactly`Metin yönlendirmesindeki değişiklikler tablomuza özgünlük katarak öne çıkmasını sağlıyor.
 
 ## Adım 5: Masayı Sonlandırın
 
@@ -111,7 +113,7 @@ Bu adım, sanat eserimize son rötuşları eklemek gibidir. Masa yapısı tamaml
 
 ## Adım 6: Belgeyi Kaydedin
 
- Son olarak, belgemizi kaydedelim. Dosyanız için bir konum ve ad seçin ve bunu şu şekilde kaydedin:`.docx` eklenti.
+Son olarak, belgemizi kaydedelim. Dosyanız için bir konum ve ad seçin ve bunu şu şekilde kaydedin: `.docx` eklenti.
 
 ```csharp
 doc.Save("YourDirectoryPath/AddContentUsingDocumentBuilder.BuildTable.docx");
@@ -131,19 +133,24 @@ Unutmayın, pratik mükemmelleştirir. Bu yüzden farklı tablo biçimleri ve st
 Aspose.Words for .NET, Word belgeleriyle programatik olarak çalışmak için güçlü bir kütüphanedir. Microsoft Word'e ihtiyaç duymadan belgeler oluşturmanıza, düzenlemenize ve düzenlemenize olanak tanır.
 
 ### Aspose.Words for .NET'i nasıl yüklerim?
- Yapabilirsiniz[Aspose.Words for .NET'i buradan indirin](https://releases.aspose.com/words/net/)Geliştirme ortamınızda kurmak için verilen kurulum talimatlarını izleyin.
+Yapabilirsiniz [Aspose.Words for .NET'i buradan indirin](https://releases.aspose.com/words/net/)Geliştirme ortamınızda kurmak için verilen kurulum talimatlarını izleyin.
 
 ### Aspose.Words'ü ücretsiz kullanabilir miyim?
- Aspose.Words şunları sunar:[ücretsiz deneme](https://releases.aspose.com/) böylece özelliklerini test edebilirsiniz. Uzun süreli kullanım için bir lisans satın alabilir veya bir[geçici lisans](https://purchase.aspose.com/temporary-license/).
+Aspose.Words şunları sunar: [ücretsiz deneme](https://releases.aspose.com/) böylece özelliklerini test edebilirsiniz. Uzun süreli kullanım için bir lisans satın alabilir veya bir [geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words for .NET'in diğer özellikleri nelerdir?
 Tablolar oluşturmanın yanı sıra Aspose.Words, metin, resim, stiller ve diğer birçok belge öğesiyle çalışmanıza olanak tanır. DOCX, PDF ve HTML dahil olmak üzere çok çeşitli belge biçimlerini destekler.
 
 ### Sorun yaşarsam nereden yardım alabilirim?
- Desteğe ihtiyacınız varsa, şuraya göz atın:[Aspose.Words forumu](https://forum.aspose.com/c/words/8) Sorularınızı sorabileceğiniz ve topluluktan ve Aspose geliştiricilerinden yardım alabileceğiniz bir yer.
+Desteğe ihtiyacınız varsa, şuraya göz atın: [Aspose.Words forumu](https://forum.aspose.com/c/words/8) Sorularınızı sorabileceğiniz ve topluluktan ve Aspose geliştiricilerinden yardım alabileceğiniz bir yer.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

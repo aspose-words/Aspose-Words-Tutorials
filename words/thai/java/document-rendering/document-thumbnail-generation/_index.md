@@ -1,14 +1,16 @@
 ---
-title: การสร้างรูปย่อของเอกสาร
-linktitle: การสร้างรูปย่อของเอกสาร
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีสร้างภาพย่อของเอกสารโดยใช้ Aspose.Words สำหรับ Java ปรับปรุงประสบการณ์ของผู้ใช้ด้วยการแสดงตัวอย่างภาพ
-weight: 11
-url: /th/java/document-rendering/document-thumbnail-generation/
+"description": "เรียนรู้วิธีสร้างภาพย่อของเอกสารโดยใช้ Aspose.Words สำหรับ Java ปรับปรุงประสบการณ์ของผู้ใช้ด้วยการแสดงตัวอย่างภาพ"
+"linktitle": "การสร้างรูปย่อของเอกสาร"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การสร้างรูปย่อของเอกสาร"
+"url": "/th/java/document-rendering/document-thumbnail-generation/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การสร้างรูปย่อของเอกสาร
@@ -23,7 +25,7 @@ url: /th/java/document-rendering/document-thumbnail-generation/
 ก่อนที่จะเจาะลึกโค้ด ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java ในระบบของคุณแล้ว
--  Aspose.Words สำหรับ Java: ดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ Java จากเว็บไซต์[ที่นี่](https://releases.aspose.com/words/java/).
+- Aspose.Words สำหรับ Java: ดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ Java จากเว็บไซต์ [ที่นี่](https://releases-aspose.com/words/java/).
 - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE): คุณสามารถใช้ Java IDE ใดๆ ที่คุณต้องการ เช่น Eclipse หรือ IntelliJ IDEA
 
 ## ขั้นตอนที่ 1: การตั้งค่าสภาพแวดล้อมการพัฒนาของคุณ
@@ -72,7 +74,7 @@ stream.writeTo(outputStream);
 
 ### ฉันจะติดตั้ง Aspose.Words สำหรับ Java ได้อย่างไร?
 
-หากต้องการติดตั้ง Aspose.Words สำหรับ Java ให้ไปที่หน้าดาวน์โหลด[ที่นี่](https://releases.aspose.com/words/java/)และปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้
+หากต้องการติดตั้ง Aspose.Words สำหรับ Java ให้ไปที่หน้าดาวน์โหลด [ที่นี่](https://releases.aspose.com/words/java/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้
 
 ### ฉันสามารถกำหนดขนาดของภาพขนาดย่อที่สร้างขึ้นได้หรือไม่
 
@@ -88,10 +90,15 @@ stream.writeTo(outputStream);
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมสำหรับ Aspose.Words สำหรับ Java ได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารประกอบฉบับสมบูรณ์และเอกสารอ้างอิง API ได้ที่หน้าเอกสาร Aspose.Words สำหรับ Java[ที่นี่](https://reference.aspose.com/words/java/).
+คุณสามารถค้นหาเอกสารประกอบฉบับสมบูรณ์และเอกสารอ้างอิง API ได้ที่หน้าเอกสาร Aspose.Words สำหรับ Java [ที่นี่](https://reference-aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

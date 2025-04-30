@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Belgeleri Bölme
-linktitle: Belgeleri Bölme
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java'da belgeleri etkili bir şekilde nasıl böleceğinizi öğrenin. Başlıklar, bölümler ve sayfa aralıkları için teknikleri keşfedin.
-weight: 24
-url: /tr/java/document-manipulation/splitting-documents/
+"description": "Aspose.Words for Java'da belgeleri etkili bir şekilde nasıl böleceğinizi öğrenin. Başlıklar, bölümler ve sayfa aralıkları için teknikleri keşfedin."
+"linktitle": "Belgeleri Bölme"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Belgeleri Bölme"
+"url": "/tr/java/document-manipulation/splitting-documents/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Belgeleri Bölme
@@ -23,7 +25,7 @@ Bu kapsamlı kılavuzda, Java için Aspose.Words kullanarak belge bölme dünyas
 Büyük belgelerle uğraşırken karşılaşılan yaygın gereksinimlerden biri, bunları başlıklara göre bölmektir. Java için Aspose.Words bu görevi kolaylaştırır. Bir belgeyi başlıklara göre bölmek için bir kod parçasına bakalım.
 
 ```java
-//Aspose.Words for Java kullanarak bir belgeyi başlıklara göre bölmek için Java kodu
+// Aspose.Words for Java kullanarak bir belgeyi başlıklara göre bölmek için Java kodu
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
 HtmlSaveOptions options = new HtmlSaveOptions();
 options.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
@@ -59,7 +61,7 @@ for (int page = 0; page < pageCount; page++)
 
 ## Bölünmüş Belgeleri Birleştirme
 
-Bir belgeyi böldükten sonra, bölünmüş parçaları tekrar birleştirmek isteyebilirsiniz. İşte Java için Aspose.Words kullanarak birden fazla belgeyi tek bir belgede birleştirmenin yolu.
+Bir belgeyi böldükten sonra, bölünmüş parçaları tekrar birleştirmek isteyebilirsiniz. İşte Aspose.Words for Java kullanarak birden fazla belgeyi tek bir belgede birleştirmenin yolu.
 
 ```java
 // Aspose.Words for Java kullanarak bölünmüş belgeleri birleştirmek için Java kodu
@@ -96,13 +98,13 @@ extractedPages.save("Your Directory Path" + "SplitDocument.ByPageRange.docx");
 
 ## Çözüm
 
-Bu kılavuzda, Aspose.Words for Java'da belgeleri bölmek için çeşitli teknikleri inceledik. Başlıklara, bölümlere, sayfalara veya belirli sayfa aralıklarına göre bölmeniz gerekip gerekmediğine bakılmaksızın, Aspose.Words for Java bu görevleri etkili bir şekilde gerçekleştirmek için esneklik ve güç sağlar. Sağlanan Java kod parçacıklarını ve örneklerini izleyerek, belgelerinizi bugün daha etkili bir şekilde yönetmeye başlayabilirsiniz.
+Bu kılavuzda, Aspose.Words for Java'da belgeleri bölmek için çeşitli teknikleri inceledik. Başlıklara, bölümlere, sayfalara veya belirli sayfa aralıklarına göre bölmeniz gerekip gerekmediğine bakılmaksızın, Aspose.Words for Java bu görevleri verimli bir şekilde gerçekleştirmek için esneklik ve güç sağlar. Sağlanan Java kod parçacıklarını ve örneklerini izleyerek, belgelerinizi bugün daha etkili bir şekilde yönetmeye başlayabilirsiniz.
 
 ## SSS
 
 ### Aspose.Words for Java'yı nasıl kullanmaya başlayabilirim?
 
- Aspose.Words for Java ile başlamak kolaydır. Kütüphaneyi Aspose web sitesinden indirebilir ve kurulum ve kullanım talimatları için belgeleri takip edebilirsiniz. Ziyaret edin[Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/) Daha detaylı bilgi için.
+Aspose.Words for Java ile başlamak kolaydır. Kütüphaneyi Aspose web sitesinden indirebilir ve kurulum ve kullanım talimatları için belgeleri takip edebilirsiniz. Ziyaret edin [Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/) Daha detaylı bilgi için.
 
 ### Aspose.Words for Java'nın temel özellikleri nelerdir?
 
@@ -118,10 +120,15 @@ Kesinlikle. Aspose.Words for Java, bölünmüş belgeleri sorunsuz bir şekilde 
 
 ### Aspose.Words for Java'ya nereden ulaşabilirim ve kullanmaya nereden başlayabilirim?
 
- Aspose.Words for Java'ya Aspose web sitesinden erişebilir ve indirebilirsiniz. Bugün ziyaret ederek başlayın[Java için Aspose.Words İndir](https://releases.aspose.com/words/java/).
+Aspose.Words for Java'ya Aspose web sitesinden erişebilir ve indirebilirsiniz. Bugün ziyaret ederek başlayın [Java için Aspose.Words İndir](https://releases.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

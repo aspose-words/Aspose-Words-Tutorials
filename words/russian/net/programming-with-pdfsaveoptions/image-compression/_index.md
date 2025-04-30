@@ -1,14 +1,16 @@
 ---
-title: Сжатие изображений в PDF-документе
-linktitle: Сжатие изображений в PDF-документе
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как сжимать изображения в документах PDF с помощью Aspose.Words for .NET. Следуйте этому руководству для оптимизации размера и качества файла.
-weight: 10
-url: /ru/net/programming-with-pdfsaveoptions/image-compression/
+"description": "Узнайте, как сжимать изображения в документах PDF с помощью Aspose.Words for .NET. Следуйте этому руководству для оптимизации размера и качества файла."
+"linktitle": "Сжатие изображений в PDF-документе"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Сжатие изображений в PDF-документе"
+"url": "/ru/net/programming-with-pdfsaveoptions/image-compression/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Сжатие изображений в PDF-документе
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-pdfsaveoptions/image-compression/
 
 Прежде чем приступить к изучению руководства, убедитесь, что выполнены следующие предварительные условия:
 
-1. Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Вы можете загрузить его с[Сайт Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Вы можете загрузить его с [Сайт Aspose](https://releases.aspose.com/words/net/).
 
 2. Базовые знания C#: знакомство с программированием на C# поможет вам понять примеры кода, представленные в этом руководстве.
 
@@ -29,7 +31,7 @@ url: /ru/net/programming-with-pdfsaveoptions/image-compression/
 
 4. Образец документа: подготовьте образец документа Word (например, «Rendering.docx») для тестирования сжатия изображений.
 
-5. Лицензия Aspose: Если вы используете лицензионную версию Aspose.Words for .NET, убедитесь, что у вас правильно настроена лицензия. Если вам нужна временная лицензия, вы можете получить ее на[Страница временной лицензии Aspose](https://purchase.aspose.com/temporary-license/).
+5. Лицензия Aspose: Если вы используете лицензионную версию Aspose.Words for .NET, убедитесь, что у вас правильно настроена лицензия. Если вам нужна временная лицензия, вы можете получить ее на [Страница временной лицензии Aspose](https://purchase.aspose.com/temporary-license/).
 
 ## Импорт пространств имен
 
@@ -51,21 +53,21 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с указанием пути, по которому хранится ваш образец документа.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с указанием пути, где хранится ваш образец документа.
 
 ## Шаг 2: Загрузите документ Word
 
- Затем загрузите документ Word в`Aspose.Words.Document` объект. Это позволит вам работать с документом программно.
+Затем загрузите документ Word в `Aspose.Words.Document` объект. Это позволит вам работать с документом программно.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Здесь,`"Rendering.docx"` — это имя вашего образца документа Word. Убедитесь, что этот файл находится в указанном каталоге.
+Здесь, `"Rendering.docx"` — это имя вашего образца документа Word. Убедитесь, что этот файл находится в указанном каталоге.
 
 ## Шаг 3: Настройка базового сжатия изображений
 
- Создать`PdfSaveOptions`объект для настройки параметров сохранения PDF, включая сжатие изображений. Установите`ImageCompression`собственность`PdfImageCompression.Jpeg` использовать сжатие JPEG для изображений.
+Создать `PdfSaveOptions` объект для настройки параметров сохранения PDF, включая сжатие изображений. Установите `ImageCompression` собственность `PdfImageCompression.Jpeg` использовать сжатие JPEG для изображений.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions
@@ -85,11 +87,11 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.PdfImageCompression.pdf", saveOptions);
 ```
 
- В этом примере выходной PDF-файл называется`"WorkingWithPdfSaveOptions.PdfImageCompression.pdf"`. При необходимости измените имя файла.
+В этом примере выходной PDF-файл называется `"WorkingWithPdfSaveOptions.PdfImageCompression.pdf"`. При необходимости измените имя файла.
 
 ## Шаг 5: Настройте расширенное сжатие с соблюдением требований PDF/A
 
- Для еще лучшего сжатия, особенно если вам необходимо соответствовать стандартам PDF/A, вы можете настроить дополнительные параметры. Установите`Compliance`собственность`PdfCompliance.PdfA2u` и отрегулируйте`JpegQuality` свойство.
+Для еще лучшего сжатия, особенно если вам необходимо соответствовать стандартам PDF/A, вы можете настроить дополнительные параметры. Установите `Compliance` собственность `PdfCompliance.PdfA2u` и отрегулируйте `JpegQuality` свойство.
 
 ```csharp
 PdfSaveOptions saveOptionsA2U = new PdfSaveOptions
@@ -111,7 +113,7 @@ PdfSaveOptions saveOptionsA2U = new PdfSaveOptions
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.PdfImageCompression_A2u.pdf", saveOptionsA2U);
 ```
 
- Здесь выходной PDF-файл называется`"WorkingWithPdfSaveOptions.PdfImageCompression_A2u.pdf"`. Измените имя файла в соответствии с вашими предпочтениями.
+Здесь выходной PDF-файл называется `"WorkingWithPdfSaveOptions.PdfImageCompression_A2u.pdf"`. Измените имя файла в соответствии с вашими предпочтениями.
 
 ## Заключение
 
@@ -124,7 +126,7 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.PdfImageCompression_A2u.pdf", save
 Сжатие изображений уменьшает размер файла PDF-документа за счет снижения качества изображений, что помогает оптимизировать хранение и производительность.
 
 ### Как Aspose.Words для .NET обрабатывает сжатие изображений?
-Aspose.Words для .NET предоставляет`PdfSaveOptions` класс, который позволяет задавать различные параметры сжатия изображений, включая сжатие JPEG.
+Aspose.Words для .NET предоставляет `PdfSaveOptions` класс, который позволяет задавать различные параметры сжатия изображений, включая сжатие JPEG.
 
 ### Могу ли я использовать Aspose.Words для .NET для соответствия стандартам PDF/A?
 Да, Aspose.Words поддерживает соответствие стандарту PDF/A, что позволяет сохранять документы в форматах, соответствующих стандартам архивирования и долгосрочного хранения.
@@ -133,7 +135,7 @@ Aspose.Words для .NET предоставляет`PdfSaveOptions` класс, 
 Более высокие настройки качества JPEG приводят к лучшему качеству изображения, но большему размеру файла, в то время как более низкие настройки качества уменьшают размер файла, но могут повлиять на четкость изображения.
 
 ### Где я могу найти более подробную информацию об Aspose.Words для .NET?
- Вы можете узнать больше об Aspose.Words для .NET на их сайте[Документация](https://reference.aspose.com/words/net/), [Поддерживать](https://forum.aspose.com/c/words/8) , и[Скачать](https://releases.aspose.com/words/net/) страниц.
+Вы можете узнать больше об Aspose.Words для .NET на их сайте [Документация](https://reference.aspose.com/words/net/), [Поддерживать](https://forum.aspose.com/c/words/8), и [Скачать](https://releases.aspose.com/words/net/) страниц.
 
 ### Пример исходного кода для сжатия изображений с помощью Aspose.Words для .NET
 
@@ -162,9 +164,14 @@ PdfSaveOptions saveOptionsA2U = new PdfSaveOptions
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.PdfImageCompression_A2u.pdf", saveOptionsA2U);
 	
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

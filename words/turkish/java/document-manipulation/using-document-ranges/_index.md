@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Belge Aralıklarını Kullanma
-linktitle: Belge Aralıklarını Kullanma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Java için Aspose.Words'de ana belge aralığı düzenlemesini öğrenin. Bu kapsamlı kılavuzla metni silmeyi, çıkarmayı ve biçimlendirmeyi öğrenin.
-weight: 18
-url: /tr/java/document-manipulation/using-document-ranges/
+"description": "Java için Aspose.Words'de belge aralığı düzenlemesini öğrenin. Bu kapsamlı kılavuzla metni silmeyi, çıkarmayı ve biçimlendirmeyi öğrenin."
+"linktitle": "Belge Aralıklarını Kullanma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Belge Aralıklarını Kullanma"
+"url": "/tr/java/document-manipulation/using-document-ranges/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Belge Aralıklarını Kullanma
@@ -20,7 +22,7 @@ Bu kapsamlı kılavuzda, Java için Aspose.Words'de belge aralıklarının güc�
 
 ## Başlarken
 
- Koda dalmadan önce projenizde Aspose.Words for Java kütüphanesinin kurulu olduğundan emin olun. Bunu şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/java/).
+Koda dalmadan önce projenizde Aspose.Words for Java kütüphanesinin kurulu olduğundan emin olun. Bunu şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/java/).
 
 ## Bir Belge Oluşturma
 
@@ -67,7 +69,7 @@ Aspose.Words for Java'da bir belge aralığı, bağımsız olarak işlenebilen v
 
 ### Bir belge aralığındaki içeriği nasıl silerim?
 
- Bir belge aralığındaki içeriği silmek için şunu kullanabilirsiniz:`delete()` yöntem. Örneğin,`doc.getRange().delete()` tüm belge aralığındaki içeriği silecektir.
+Bir belge aralığındaki içeriği silmek için şunu kullanabilirsiniz: `delete()` yöntem. Örneğin, `doc.getRange().delete()` belge aralığının tamamındaki içeriği silecektir.
 
 ### Belge aralığındaki metni biçimlendirebilir miyim?
 
@@ -79,10 +81,15 @@ Kesinlikle! Belge aralıkları, bir belgenin belirli bölümlerinden metin çık
 
 ### Aspose.Words for Java kütüphanesini nerede bulabilirim?
 
- Aspose.Words for Java kütüphanesini Aspose web sitesinden indirebilirsiniz[Burada](https://releases.aspose.com/words/java/).
+Aspose.Words for Java kütüphanesini Aspose web sitesinden indirebilirsiniz [Burada](https://releases.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

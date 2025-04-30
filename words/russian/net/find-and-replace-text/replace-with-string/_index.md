@@ -1,14 +1,16 @@
 ---
-title: Заменить на строку
-linktitle: Заменить на строку
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как заменить строки в документах Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Идеально подходит для разработчиков, желающих автоматизировать редактирование документов.
-weight: 10
-url: /ru/net/find-and-replace-text/replace-with-string/
+"description": "Узнайте, как заменить строки в документах Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Идеально подходит для разработчиков, желающих автоматизировать редактирование документов."
+"linktitle": "Заменить на строку"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Заменить на строку"
+"url": "/ru/net/find-and-replace-text/replace-with-string/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Заменить на строку
@@ -22,7 +24,7 @@ url: /ru/net/find-and-replace-text/replace-with-string/
 
 Прежде чем приступить к написанию кода, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words для .NET: загрузить последнюю версию[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: загрузить последнюю версию [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая C# IDE.
 3. Базовые знания C#: некоторое знакомство с C# будет полезным.
 
@@ -46,7 +48,7 @@ using Aspose.Words.Replacing;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с путем к вашему каталогу документов. Это домашняя база для наших файлов.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с путем к вашему каталогу документов. Это домашняя база для наших файлов.
 
 ## Шаг 2: Инициализация документа и конструктора
 
@@ -57,7 +59,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Здесь,`Document` представляет собой документ Word, с которым мы будем работать, и`DocumentBuilder` наш инструмент для его изменения.
+Здесь, `Document` представляет собой документ Word, с которым мы будем работать, и `DocumentBuilder` наш инструмент для его изменения.
 
 ## Шаг 3: Добавьте начальный контент
 
@@ -77,7 +79,7 @@ builder.Writeln("sad mad bad");
 doc.Range.Replace("sad", "bad", new FindReplaceOptions(FindReplaceDirection.Forward));
 ```
 
- The`Replace`Метод прост. Мы указываем слово для поиска, слово для замены и параметры для операции поиска и замены.
+The `Replace` Метод прост. Мы указываем слово для поиска, слово для замены и параметры для операции поиска и замены.
 
 ## Шаг 5: Сохраните документ.
 
@@ -87,7 +89,7 @@ doc.Range.Replace("sad", "bad", new FindReplaceOptions(FindReplaceDirection.Forw
 doc.Save(dataDir + "FindAndReplace.ReplaceWithString.docx");
 ```
 
- Документ сохраняется в указанном каталоге под именем`FindAndReplace.ReplaceWithString.docx`. И вуаля! Мы успешно выполнили операцию поиска и замены.
+Документ сохраняется в указанном каталоге под именем `FindAndReplace.ReplaceWithString.docx`. И вуаля! Мы успешно выполнили операцию поиска и замены.
 
 ## Заключение
 
@@ -99,19 +101,24 @@ doc.Save(dataDir + "FindAndReplace.ReplaceWithString.docx");
 Да, вы можете объединить несколько операций замены или использовать регулярные выражения для сопоставления и замены нескольких шаблонов.
 
 ### Является ли Aspose.Words для .NET бесплатным?
- Aspose.Words для .NET — платная библиотека, но вы можете получить[бесплатная пробная версия](https://releases.aspose.com/) для проверки его возможностей.
+Aspose.Words для .NET — платная библиотека, но вы можете получить [бесплатная пробная версия](https://releases.aspose.com/) для проверки его возможностей.
 
 ### Могу ли я заменить текст форматированным содержимым?
-Конечно! Aspose.Words позволяет заменять текст форматированным содержимым, включая различные шрифты, цвета и стили.
+Конечно! Aspose.Words позволяет вам заменять текст форматированным содержимым, включая различные шрифты, цвета и стили.
 
 ### Что произойдет, если слово, которое нужно заменить, не будет найдено?
 Если слово не найдено, операция замены просто ничего не изменит. Никаких ошибок, просто никаких изменений.
 
 ### Как получить поддержку по Aspose.Words для .NET?
- Вы можете получить поддержку от[Сообщество Aspose](https://forum.aspose.com/c/words/8) или приобретите премиум-поддержку при необходимости.
+Вы можете получить поддержку от [Сообщество Aspose](https://forum.aspose.com/c/words/8) или приобретите премиум-поддержку при необходимости.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

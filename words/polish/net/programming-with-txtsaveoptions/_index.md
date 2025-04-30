@@ -1,14 +1,16 @@
 ---
-title: Przetwarzanie słów z opcjami Txtsaveoptions
-linktitle: Przetwarzanie słów z opcjami Txtsaveoptions
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak programować z opcjami zapisywania plików tekstowych w Aspose.Words dla .NET. Dowiedz się, jak określić kodowanie, sformatować tekst, zarządzać podziałami wierszy i nie tylko, korzystając z samouczków krok po kroku i przykładowego kodu w języku C#.
-weight: 1700
-url: /pl/net/programming-with-txtsaveoptions/
+"description": "Dowiedz się, jak programować z opcjami zapisywania plików tekstowych w Aspose.Words dla .NET. Dowiedz się, jak określić kodowanie, sformatować tekst, zarządzać podziałami wierszy i nie tylko, korzystając z samouczków krok po kroku i przykładowego kodu w języku C#."
+"linktitle": "Przetwarzanie słów z opcjami Txtsaveoptions"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przetwarzanie słów z opcjami Txtsaveoptions"
+"url": "/pl/net/programming-with-txtsaveoptions/"
+"weight": 1700
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przetwarzanie słów z opcjami Txtsaveoptions
@@ -24,10 +26,15 @@ Dzięki tym samouczkom będziesz w stanie w pełni wykorzystać funkcjonalności
 | --- | --- |
 | [Dodaj znaczniki Bidi w dokumencie Word](./add-bidi-marks/) | Dowiedz się, jak dodawać znaki dwukierunkowe (Bidi) w dokumentach Worda przy użyciu Aspose.Words dla .NET z tego przewodnika. Zapewnij właściwy kierunek tekstu dla treści wielojęzycznych. |
 | [Użyj znaku tabulacji na poziomie, aby uzyskać wcięcie listy](./use-tab-character-per-level-for-list-indentation/) | Dowiedz się, jak tworzyć listy wielopoziomowe z wcięciami tabulacyjnymi przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem, aby uzyskać precyzyjne formatowanie listy w dokumentach. |
-| [Użyj znaku spacji na każdym poziomie do wcięcia listy](./use-space-character-per-level-for-list-indentation/) | Dowiedz się, jak tworzyć listy wielopoziomowe z wcięciem spacji w Aspose.Words dla .NET. Przewodnik krok po kroku dotyczący precyzyjnego formatowania dokumentów. |
+| [Użyj znaku spacji na każdym poziomie do wcięcia listy](./use-space-character-per-level-for-list-indentation/) | Dowiedz się, jak tworzyć listy wielopoziomowe z wcięciem znaku spacji w Aspose.Words dla .NET. Przewodnik krok po kroku dotyczący precyzyjnego formatowania dokumentu. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

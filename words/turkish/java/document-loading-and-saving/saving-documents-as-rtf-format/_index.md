@@ -1,14 +1,16 @@
 ---
-title: Aspose.Words for Java'da Belgeleri RTF Formatında Kaydetme
-linktitle: Belgeleri RTF Formatında Kaydetme
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java kullanarak belgeleri RTF formatında nasıl kaydedeceğinizi öğrenin. Verimli belge dönüşümü için kaynak kodlu adım adım kılavuz.
-weight: 23
-url: /tr/java/document-loading-and-saving/saving-documents-as-rtf-format/
+"description": "Aspose.Words for Java kullanarak belgeleri RTF formatında nasıl kaydedeceğinizi öğrenin. Verimli belge dönüşümü için kaynak kodlu adım adım kılavuz."
+"linktitle": "Belgeleri RTF Formatında Kaydetme"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Aspose.Words for Java'da Belgeleri RTF Formatında Kaydetme"
+"url": "/tr/java/document-loading-and-saving/saving-documents-as-rtf-format/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Words for Java'da Belgeleri RTF Formatında Kaydetme
@@ -22,7 +24,7 @@ Bu kılavuzda, Aspose.Words for Java kullanarak belgeleri RTF (Zengin Metin Biç
 
 Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-1.  Aspose.Words for Java Kütüphanesi: Aspose.Words for Java kütüphanesinin Java projenize entegre olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/words/java/).
+1. Aspose.Words for Java Kütüphanesi: Aspose.Words for Java kütüphanesinin Java projenize entegre olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/words/java/).
 
 2. Kaydedilecek Bir Belge: RTF formatında kaydetmek istediğiniz mevcut bir Word belgeniz (örneğin, "Belge.docx") olmalıdır.
 
@@ -37,11 +39,11 @@ import com.aspose.words.Document;
 Document doc = new Document("path/to/Document.docx");
 ```
 
- Değiştirdiğinizden emin olun`"path/to/Document.docx"` kaynak belgenize giden gerçek yol ile.
+Değiştirdiğinizden emin olun `"path/to/Document.docx"` kaynak belgenize giden gerçek yol ile.
 
 ## Adım 2: RTF Kaydetme Seçeneklerini Yapılandırma
 
- Aspose.Words, RTF çıktısını yapılandırmak için çeşitli seçenekler sunar. Bu örnekte, şunu kullanacağız:`RtfSaveOptions` ve RTF belgesi içerisinde görüntüleri WMF (Windows Meta Dosyası) formatında kaydetme seçeneğini ayarlayın.
+Aspose.Words, RTF çıktısını yapılandırmak için çeşitli seçenekler sunar. Bu örnekte, şunu kullanacağız: `RtfSaveOptions` ve RTF belgesi içerisinde görüntüleri WMF (Windows Meta Dosyası) formatında kaydetme seçeneğini ayarlayın.
 
 ```java
 import com.aspose.words.RtfSaveOptions;
@@ -65,7 +67,7 @@ Artık belgeyi yükledik ve RTF kaydetme seçeneklerini yapılandırdık, şimdi
 doc.save("path/to/output.rtf", saveOptions);
 ```
 
- Yer değiştirmek`"path/to/output.rtf"` RTF çıktı dosyası için istenilen yol ve dosya adı ile.
+Yer değiştirmek `"path/to/output.rtf"` RTF çıktı dosyası için istenilen yol ve dosya adı ile.
 
 ## Aspose.Words for Java'da Belgeleri RTF Formatında Kaydetmek İçin Tam Kaynak Kodu
 
@@ -83,22 +85,27 @@ Bu kılavuzda, Aspose.Words for Java kullanarak belgeleri RTF formatında nasıl
 
 ### Diğer RTF kaydetme seçeneklerini nasıl değiştirebilirim?
 
- Çeşitli RTF kaydetme seçeneklerini kullanarak değiştirebilirsiniz.`RtfSaveOptions` sınıf. Kullanılabilir seçeneklerin tam listesi için Aspose.Words for Java belgelerine bakın.
+Çeşitli RTF kaydetme seçeneklerini kullanarak değiştirebilirsiniz. `RtfSaveOptions` sınıf. Kullanılabilir seçeneklerin tam listesi için Aspose.Words for Java belgelerine bakın.
 
 ### RTF belgesini farklı bir kodlamada kaydedebilir miyim?
 
- Evet, RTF belgesi için kodlamayı kullanarak belirtebilirsiniz`saveOptions.setEncoding(Charset.forName("UTF-8"))`örneğin, UTF-8 kodlamasında kaydetmek için.
+Evet, RTF belgesi için kodlamayı kullanarak belirtebilirsiniz `saveOptions.setEncoding(Charset.forName("UTF-8"))`örneğin, UTF-8 kodlamasında kaydetmek için.
 
 ### RTF belgesini resimsiz kaydetmek mümkün müdür?
 
- Kesinlikle. Görüntü kaydetmeyi devre dışı bırakmak için şunu kullanabilirsiniz:`saveOptions.setSaveImagesAsWmf(false)`.
+Kesinlikle. Görüntü kaydetmeyi devre dışı bırakmak için şunu kullanabilirsiniz: `saveOptions.setSaveImagesAsWmf(false)`.
 
 ### Kaydetme işlemi sırasında oluşabilecek istisnaları nasıl yönetebilirim?
 
 Belge kaydetme işlemi sırasında oluşabilecek istisnaları ele almak için try-catch blokları gibi hata işleme mekanizmalarını uygulamayı düşünmelisiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

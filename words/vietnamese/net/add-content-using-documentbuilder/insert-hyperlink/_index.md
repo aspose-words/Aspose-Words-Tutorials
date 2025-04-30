@@ -1,14 +1,16 @@
 ---
-title: Chèn siêu liên kết vào tài liệu Word
-linktitle: Chèn siêu liên kết vào tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn siêu liên kết vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Hoàn hảo để tự động hóa các tác vụ tạo tài liệu của bạn.
-weight: 10
-url: /vi/net/add-content-using-documentbuilder/insert-hyperlink/
+"description": "Tìm hiểu cách chèn siêu liên kết vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Hoàn hảo để tự động hóa các tác vụ tạo tài liệu của bạn."
+"linktitle": "Chèn siêu liên kết vào tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn siêu liên kết vào tài liệu Word"
+"url": "/vi/net/add-content-using-documentbuilder/insert-hyperlink/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn siêu liên kết vào tài liệu Word
@@ -21,7 +23,7 @@ Tạo và quản lý tài liệu Word là nhiệm vụ cơ bản trong nhiều �
 
 Trước khi bắt đầu, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
 2. Visual Studio: Bất kỳ phiên bản nào cũng có thể chạy được, nhưng khuyến khích sử dụng phiên bản mới nhất.
 3. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên hệ thống của mình.
 
@@ -45,11 +47,11 @@ Chúng ta hãy chia nhỏ quy trình chèn siêu liên kết thành nhiều bư�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` bằng đường dẫn thực tế mà bạn muốn lưu tài liệu của mình.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tài liệu của mình.
 
 ## Bước 2: Tạo một tài liệu mới
 
- Tiếp theo, chúng ta tạo một tài liệu mới và khởi tạo một`DocumentBuilder` . Các`DocumentBuilder` Lớp này cung cấp các phương thức để chèn văn bản, hình ảnh, bảng và nội dung khác vào tài liệu.
+Tiếp theo, chúng ta tạo một tài liệu mới và khởi tạo một `DocumentBuilder`. Các `DocumentBuilder` Lớp này cung cấp các phương thức để chèn văn bản, hình ảnh, bảng và nội dung khác vào tài liệu.
 
 ```csharp
 Document doc = new Document();
@@ -58,7 +60,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Bước 3: Viết văn bản ban đầu
 
- Sử dụng`DocumentBuilder`, chúng ta sẽ viết một số văn bản ban đầu vào tài liệu. Điều này thiết lập bối cảnh cho nơi siêu liên kết của chúng ta sẽ được chèn vào.
+Sử dụng `DocumentBuilder`chúng ta sẽ viết một số văn bản ban đầu vào tài liệu. Điều này thiết lập bối cảnh cho nơi siêu liên kết của chúng ta sẽ được chèn vào.
 
 ```csharp
 builder.Write("Please make sure to visit ");
@@ -74,7 +76,7 @@ builder.Font.Style = doc.Styles[StyleIdentifier.Hyperlink];
 
 ## Bước 5: Chèn siêu liên kết
 
- Bây giờ, chúng ta chèn siêu liên kết bằng cách sử dụng`InsertHyperlink` phương pháp. Phương pháp này sử dụng ba tham số: văn bản hiển thị, URL và giá trị boolean cho biết liệu liên kết có được định dạng dưới dạng siêu liên kết hay không.
+Bây giờ, chúng ta chèn siêu liên kết bằng cách sử dụng `InsertHyperlink` phương pháp. Phương pháp này sử dụng ba tham số: văn bản hiển thị, URL và một giá trị boolean cho biết liệu liên kết có nên được định dạng dưới dạng siêu liên kết hay không.
 
 ```csharp
 builder.InsertHyperlink("Aspose Website", "http://www.aspose.com", sai);
@@ -112,26 +114,31 @@ Chèn siêu liên kết vào tài liệu Word bằng Aspose.Words cho .NET rất
 
 ### Tôi có thể chèn nhiều siêu liên kết vào một tài liệu không?
 
- Có, bạn có thể chèn nhiều siêu liên kết bằng cách lặp lại`InsertHyperlink` phương pháp cho từng liên kết.
+Có, bạn có thể chèn nhiều siêu liên kết bằng cách lặp lại `InsertHyperlink` phương pháp cho từng liên kết.
 
 ### Làm thế nào để thay đổi màu của siêu liên kết?
 
- Bạn có thể sửa đổi kiểu siêu liên kết bằng cách thay đổi`Font.Color` tài sản trước khi gọi`InsertHyperlink`.
+Bạn có thể sửa đổi kiểu siêu liên kết bằng cách thay đổi `Font.Color` tài sản trước khi gọi `InsertHyperlink`.
 
 ### Tôi có thể thêm siêu liên kết vào hình ảnh không?
 
- Có, bạn có thể sử dụng`InsertHyperlink` phương pháp kết hợp với`InsertImage` để thêm siêu liên kết vào hình ảnh.
+Có, bạn có thể sử dụng `InsertHyperlink` phương pháp kết hợp với `InsertImage` để thêm siêu liên kết vào hình ảnh.
 
 ### Điều gì xảy ra nếu URL không hợp lệ?
 
- Các`InsertHyperlink` phương pháp này không xác thực URL, vì vậy điều quan trọng là phải đảm bảo URL chính xác trước khi chèn chúng.
+Các `InsertHyperlink` phương pháp này không xác thực URL, vì vậy điều quan trọng là phải đảm bảo URL chính xác trước khi chèn chúng.
 
 ### Có thể xóa siêu liên kết sau khi đã chèn vào không?
 
- Có, bạn có thể xóa siêu liên kết bằng cách truy cập`FieldHyperlink` và gọi`Remove` phương pháp.
+Có, bạn có thể xóa siêu liên kết bằng cách truy cập `FieldHyperlink` và gọi `Remove` phương pháp.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Hapus Batasan Hanya Baca
-linktitle: Hapus Batasan Hanya Baca
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Hapus batasan baca-saja dari dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah kami. Sempurna untuk pengembang.
-weight: 10
-url: /id/net/document-protection/remove-read-only-restriction/
+"description": "Hapus batasan baca-saja dari dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah kami. Sempurna untuk pengembang."
+"linktitle": "Hapus Batasan Hanya Baca"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Hapus Batasan Hanya Baca"
+"url": "/id/net/document-protection/remove-read-only-restriction/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Batasan Hanya Baca
@@ -21,7 +23,7 @@ Menghapus batasan baca-saja dari dokumen Word bisa menjadi tugas yang cukup suli
 
 Sebelum kita menyelami panduan langkah demi langkah, pastikan Anda memiliki prasyarat berikut:
 
--  Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Jika Anda belum menginstalnya, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Jika Anda belum menginstalnya, Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Lingkungan pengembangan .NET seperti Visual Studio.
 - Pengetahuan Dasar C#: Memahami konsep dasar pemrograman C# akan sangat membantu.
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "YourDocument.docx");
 ```
 
- Pada langkah ini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda disimpan.`"YourDocument.docx"` adalah nama dokumen yang ingin Anda ubah.
+Pada langkah ini, ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda disimpan. `"YourDocument.docx"` adalah nama dokumen yang ingin Anda ubah.
 
 ## Langkah 3: Tetapkan Kata Sandi (Opsional)
 
@@ -91,7 +93,7 @@ Terakhir, simpan dokumen yang dimodifikasi ke lokasi yang Anda inginkan.
 doc.Save(dataDir + "DocumentProtection.RemoveReadOnlyRestriction.docx");
 ```
 
- Pada langkah ini, dokumen yang dimodifikasi disimpan dengan nama`"DocumentProtection.RemoveReadOnlyRestriction.docx"`.
+Pada langkah ini, dokumen yang dimodifikasi disimpan dengan nama `"DocumentProtection.RemoveReadOnlyRestriction.docx"`.
 
 ## Kesimpulan
 
@@ -107,11 +109,11 @@ Ya, pengaturan kata sandi bersifat opsional. Anda dapat langsung menghapus rekom
 
 ### Apa yang terjadi jika dokumen tersebut sudah memiliki jenis perlindungan yang berbeda?
 
- Itu`doc.Protect(ProtectionType.NoProtection)` metode ini memastikan bahwa semua jenis perlindungan dihapus dari dokumen.
+Itu `doc.Protect(ProtectionType.NoProtection)` metode ini memastikan bahwa semua jenis perlindungan dihapus dari dokumen.
 
 ### Apakah ada cara untuk mengetahui apakah suatu dokumen bersifat baca-saja sebelum menghapus batasannya?
 
- Ya, Anda dapat memeriksa`ReadOnlyRecommended` properti untuk melihat apakah dokumen tersebut hanya-baca direkomendasikan sebelum membuat perubahan apa pun.
+Ya, Anda dapat memeriksa `ReadOnlyRecommended` properti untuk melihat apakah dokumen tersebut hanya-baca direkomendasikan sebelum membuat perubahan apa pun.
 
 ### Dapatkah saya menggunakan metode ini untuk menghapus batasan dari beberapa dokumen sekaligus?
 
@@ -120,9 +122,14 @@ Ya, Anda dapat mengulang beberapa dokumen dan menerapkan metode yang sama pada s
 ### Bagaimana jika dokumen dilindungi kata sandi dan saya tidak tahu kata sandinya?
 
 Sayangnya, Anda perlu mengetahui kata sandi untuk menghapus batasan apa pun. Tanpa kata sandi, Anda tidak akan dapat mengubah pengaturan perlindungan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,33 +1,35 @@
 ---
-title: Načíst šifrované v dokumentu aplikace Word
-linktitle: Načtení šifrovaného dokumentu do dokumentu aplikace Word
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se načítat a ukládat zašifrované dokumenty Word pomocí Aspose.Words for .NET. Zabezpečte své dokumenty pomocí nových hesel snadno. Včetně průvodce krok za krokem.
-weight: 10
-url: /cs/net/programming-with-loadoptions/load-encrypted-document/
+"description": "Naučte se, jak načítat a ukládat šifrované dokumenty Wordu pomocí Aspose.Words pro .NET. Snadno zabezpečte své dokumenty novými hesly. Součástí je podrobný návod."
+"linktitle": "Načíst šifrovaný dokument do dokumentu Word"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Načíst zašifrovaný dokument Word"
+"url": "/cs/net/programming-with-loadoptions/load-encrypted-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Načíst šifrované v dokumentu aplikace Word
+# Načíst zašifrovaný dokument Word
 
 ## Zavedení
 
-V tomto tutoriálu se naučíte, jak načíst zašifrovaný dokument aplikace Word a uložit jej s novým heslem pomocí Aspose.Words for .NET. Manipulace se zašifrovanými dokumenty je nezbytná pro zachování bezpečnosti dokumentů, zejména při práci s citlivými informacemi.
+V tomto tutoriálu se naučíte, jak načíst zašifrovaný dokument Wordu a uložit jej s novým heslem pomocí Aspose.Words pro .NET. Práce se zašifrovanými dokumenty je nezbytná pro zachování jejich bezpečnosti, zejména při práci s citlivými informacemi.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte následující:
 
-1.  Nainstalovaná knihovna Aspose.Words for .NET. Můžete si jej stáhnout z[zde](https://downloads.aspose.com/words/net).
-2.  Platná licence Aspose. Můžete získat bezplatnou zkušební verzi nebo si ji zakoupit[zde](https://purchase.aspose.com/buy).
-3. Visual Studio nebo jiné vývojové prostředí .NET.
+1. Je nainstalována knihovna Aspose.Words pro .NET. Můžete si ji stáhnout z [zde](https://downloads.aspose.com/words/net).
+2. Platná licence Aspose. Můžete získat bezplatnou zkušební verzi nebo si ji zakoupit od [zde](https://purchase.aspose.com/buy).
+3. Visual Studio nebo jakékoli jiné vývojové prostředí pro .NET.
 
 ## Importovat jmenné prostory
 
-Chcete-li začít, ujistěte se, že máte do projektu importovány potřebné jmenné prostory:
+Pro začátek se ujistěte, že máte do projektu importovány potřebné jmenné prostory:
 
 ```csharp
 using System;
@@ -37,49 +39,54 @@ using Aspose.Words.Saving;
 
 ## Krok 1: Načtěte zašifrovaný dokument
 
- Nejprve načtete zašifrovaný dokument pomocí`LoadOptions` třída. Tato třída umožňuje zadat heslo potřebné k otevření dokumentu.
+Nejprve načtete zašifrovaný dokument pomocí `LoadOptions` třída. Tato třída umožňuje zadat heslo potřebné k otevření dokumentu.
 
 ```csharp
-// Cesta k adresáři vašich dokumentů
+// Cesta k adresáři s vašimi dokumenty
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
-// Načtěte zašifrovaný dokument se zadaným heslem
+// Načíst zašifrovaný dokument se zadaným heslem
 Document doc = new Document(dataDir + "Encrypted.docx", new LoadOptions("password"));
 ```
 
 ## Krok 2: Uložte dokument s novým heslem
 
- Dále uložíte načtený dokument jako soubor ODT, tentokrát nastavíte nové heslo pomocí`OdtSaveOptions` třída.
+Dále uložíte načtený dokument jako soubor ODT, tentokrát s nastavením nového hesla pomocí `OdtSaveOptions` třída.
 
 ```csharp
-// Uložte zašifrovaný dokument s novým heslem
+// Uložení zašifrovaného dokumentu s novým heslem
 doc.Save(dataDir + "WorkingWithLoadOptions.LoadAndSaveEncryptedOdt.odt", new OdtSaveOptions("newpassword"));
 ```
 
 ## Závěr
 
-Podle kroků uvedených v tomto kurzu můžete snadno načíst a uložit zašifrované dokumenty aplikace Word pomocí Aspose.Words for .NET. To zajistí, že vaše dokumenty zůstanou v bezpečí a přístupné pouze oprávněným osobám.
+Dodržováním kroků popsaných v tomto tutoriálu můžete snadno načítat a ukládat šifrované dokumenty Word pomocí Aspose.Words pro .NET. Tím je zajištěno, že vaše dokumenty zůstanou v bezpečí a přístupné pouze oprávněným osobám.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu použít Aspose.Words k načtení a uložení jiných formátů souborů?
+### Mohu použít Aspose.Words k načítání a ukládání souborů v jiných formátech?
 Ano, Aspose.Words podporuje širokou škálu formátů souborů včetně DOC, DOCX, PDF, HTML a dalších.
 
 ### Co když zapomenu heslo k zašifrovanému dokumentu?
-Bohužel, pokud zapomenete heslo, nebudete moci načíst dokument. Ujistěte se, že hesla ukládáte bezpečně.
+Pokud heslo zapomenete, bohužel nebudete moci dokument načíst. Ujistěte se, že hesla bezpečně ukládáte.
 
 ### Je možné z dokumentu odstranit šifrování?
-Ano, uložením dokumentu bez zadání hesla můžete odstranit šifrování.
+Ano, uložením dokumentu bez zadání hesla můžete šifrování odstranit.
 
-### Mohu použít jiná nastavení šifrování?
-Ano, Aspose.Words poskytuje různé možnosti pro šifrování dokumentů, včetně určení různých typů šifrovacích algoritmů.
+### Mohu použít různá nastavení šifrování?
+Ano, Aspose.Words nabízí různé možnosti šifrování dokumentů, včetně specifikace různých typů šifrovacích algoritmů.
 
-### Existuje omezení velikosti dokumentu, který lze zašifrovat?
-Ne, Aspose.Words dokáže zpracovat dokumenty jakékoli velikosti, s výhradou omezení paměti vašeho systému.
+### Existuje nějaký limit velikosti dokumentu, který lze zašifrovat?
+Ne, Aspose.Words zvládne dokumenty jakékoli velikosti, s výhradou omezení paměti vašeho systému.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Docx'i Epub'a Dönüştür
-linktitle: Konser Docx'ten Epub'a
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET ile DOCX'i kolayca EPUB'a dönüştürün. .NET uygulamalarınıza kusursuz entegrasyon için eğitimimizi takip edin.
-weight: 10
-url: /tr/net/basic-conversions/docx-to-epub/
+"description": "Aspose.Words for .NET ile DOCX'i kolayca EPUB'a dönüştürün. .NET uygulamalarınıza kusursuz entegrasyon için eğitimimizi takip edin."
+"linktitle": "Konser Docx'ten Epub'a"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Docx'i Epub'a Dönüştür"
+"url": "/tr/net/basic-conversions/docx-to-epub/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Docx'i Epub'a Dönüştür
@@ -21,7 +23,7 @@ url: /tr/net/basic-conversions/docx-to-epub/
 
 Dönüştürme sürecine başlamadan önce aşağıdaki ön koşulların sağlandığından emin olun:
 - Geliştirme Ortamı: Visual Studio veya herhangi bir .NET IDE yüklü.
-- Aspose.Words for .NET: Aspose.Words for .NET'i şuradan indirin ve yükleyin:[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Aspose.Words for .NET'i şuradan indirin ve yükleyin: [Burada](https://releases.aspose.com/words/net/).
 - Belge Dosyaları: EPUB'a dönüştürmek istediğiniz DOCX dosyasını/dosyalarını hazır bulundurun.
 
 ## Ad Alanlarını İçe Aktar
@@ -34,7 +36,7 @@ using Aspose.Words;
 
 ## Adım 1: Belgeyi Yükleyin
 
- İlk olarak Aspose.Words'ü başlatın`Document` DOCX dosya yolunuzla nesne:
+İlk olarak Aspose.Words'ü başlatın `Document` DOCX dosya yolunuzla nesne:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -65,14 +67,19 @@ Evet, Aspose.Words for .NET'i kullanarak DOCX dosyalarını toplu olarak EPUB'a 
 Evet, Aspose.Words .NET Core ve .NET Framework'ü tam olarak destekler.
 
 ### Aspose.Words için daha fazla örnek ve dokümanı nerede bulabilirim?
- Ziyaret edin[Aspose.Words for .NET belgeleri](https://reference.aspose.com/words/net/) Ayrıntılı örnekler ve API referansı için.
+Ziyaret edin [Aspose.Words for .NET belgeleri](https://reference.aspose.com/words/net/) Ayrıntılı örnekler ve API referansı için.
 
 ### Aspose.Words ile ilgili sorunlarda nasıl destek alabilirim?
- Destek için şu adresi ziyaret edin:[Aspose.Words forumu](https://forum.aspose.com/c/words/8) Sorularınızı sorabileceğiniz ve toplulukla etkileşime girebileceğiniz bir yer.
+Destek için şu adresi ziyaret edin: [Aspose.Words forumu](https://forum.aspose.com/c/words/8) Sorularınızı sorabileceğiniz ve toplulukla etkileşime girebileceğiniz bir yer.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

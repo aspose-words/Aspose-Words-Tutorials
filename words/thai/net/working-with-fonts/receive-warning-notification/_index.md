@@ -1,14 +1,16 @@
 ---
-title: รับการแจ้งเตือน
-linktitle: รับการแจ้งเตือน
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีรับการแจ้งเตือนการแทนที่แบบอักษรใน Aspose.Words สำหรับ .NET ด้วยคำแนะนำโดยละเอียดของเรา รับรองว่าเอกสารของคุณจะแสดงผลอย่างถูกต้องทุกครั้ง
-weight: 10
-url: /th/net/working-with-fonts/receive-warning-notification/
+"description": "เรียนรู้วิธีรับการแจ้งเตือนการแทนที่แบบอักษรใน Aspose.Words สำหรับ .NET ด้วยคำแนะนำโดยละเอียดของเรา รับรองว่าเอกสารของคุณจะแสดงผลอย่างถูกต้องทุกครั้ง"
+"linktitle": "รับการแจ้งเตือน"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "รับการแจ้งเตือน"
+"url": "/th/net/working-with-fonts/receive-warning-notification/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับการแจ้งเตือน
@@ -22,9 +24,9 @@ url: /th/net/working-with-fonts/receive-warning-notification/
 ก่อนที่เราจะเจาะลึก ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
 - ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับ C# จะช่วยให้คุณเข้าใจและปฏิบัติตามขั้นตอนต่างๆ ได้
--  Aspose.Words สำหรับไลบรารี .NET: ดาวน์โหลดและติดตั้งจาก[ลิงค์ดาวน์โหลด](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับไลบรารี .NET: ดาวน์โหลดและติดตั้งจาก [ลิงค์ดาวน์โหลด](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: การตั้งค่าเช่น Visual Studio เพื่อเขียนและรันโค้ดของคุณ
--  เอกสารตัวอย่าง: มีเอกสารตัวอย่าง (เช่น`Rendering.docx`) เพื่อทำงานด้วย
+- เอกสารตัวอย่าง: มีเอกสารตัวอย่าง (เช่น `Rendering.docx`) เพื่อทำงานด้วย
 
 ## นำเข้าเนมสเปซ
 
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร
 
- โหลดเอกสารของคุณลงใน Aspose.Words`Document` วัตถุ ซึ่งจะช่วยให้คุณสามารถจัดการเอกสารผ่านโปรแกรมได้
+โหลดเอกสารของคุณลงใน Aspose.Words `Document` วัตถุ ซึ่งจะช่วยให้คุณสามารถจัดการเอกสารผ่านโปรแกรมได้
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -54,7 +56,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## ขั้นตอนที่ 3: ตั้งค่าการโทรกลับคำเตือน
 
- เพื่อจับภาพและจัดการคำเตือน ให้สร้างคลาสที่ใช้งาน`IWarningCallback` อินเทอร์เฟซ คลาสนี้จะบันทึกคำเตือนใดๆ ที่เกิดขึ้นระหว่างการประมวลผลเอกสาร
+เพื่อจับภาพและจัดการคำเตือน ให้สร้างคลาสที่ใช้งาน `IWarningCallback` อินเทอร์เฟซ คลาสนี้จะบันทึกคำเตือนใดๆ ที่เกิดขึ้นระหว่างการประมวลผลเอกสาร
 
 ```csharp
 public class HandleDocumentWarnings : IWarningCallback
@@ -76,7 +78,7 @@ doc.WarningCallback = callback;
 ```
 ## ขั้นตอนที่ 5: อัปเดตเค้าโครงหน้า
 
- โทรหา`UpdatePageLayout` วิธีการนี้จะเรนเดอร์เอกสารในหน่วยความจำและจับคำเตือนใดๆ ที่เกิดขึ้นระหว่างการเรนเดอร์
+โทรหา `UpdatePageLayout` วิธีการนี้จะเรนเดอร์เอกสารในหน่วยความจำและจับคำเตือนใดๆ ที่เกิดขึ้นระหว่างการเรนเดอร์
 
 ```csharp
 doc.UpdatePageLayout();
@@ -84,7 +86,7 @@ doc.UpdatePageLayout();
 
 ## ขั้นตอนที่ 6: บันทึกเอกสาร
 
-ในขั้นตอนสุดท้าย ให้บันทึกเอกสาร แม้ว่าเอกสารจะถูกแสดงไว้ก่อนหน้านี้แล้ว คำเตือนในการบันทึกใดๆ จะได้รับการแจ้งให้ผู้ใช้ทราบในระหว่างขั้นตอนนี้
+ขั้นตอนสุดท้าย ให้บันทึกเอกสาร แม้ว่าเอกสารจะถูกแสดงไว้ก่อนหน้านี้แล้ว คำเตือนในการบันทึกใดๆ จะได้รับการแจ้งให้ผู้ใช้ทราบในขั้นตอนนี้
 
 ```csharp
 doc.Save(dataDir + "WorkingWithFonts.ReceiveWarningNotification.pdf");
@@ -104,22 +106,27 @@ doc.Save(dataDir + "WorkingWithFonts.ReceiveWarningNotification.pdf");
 
 ### คำถามที่ 2: ฉันสามารถรับรุ่นทดลองใช้งาน Aspose.Words สำหรับ .NET ฟรีได้ที่ไหน
 
- คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก[หน้าทดลองใช้งานฟรี Aspose](https://releases.aspose.com/).
+คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก [หน้าทดลองใช้งานฟรี Aspose](https://releases-aspose.com/).
 
-###  คำถามที่ 3: ฉันสามารถจัดการคำเตือนประเภทอื่นด้วย`IWarningCallback`?
+### คำถามที่ 3: ฉันสามารถจัดการคำเตือนประเภทอื่นด้วย `IWarningCallback`-
 
- ใช่ครับ`IWarningCallback`อินเทอร์เฟซสามารถจัดการกับคำเตือนประเภทต่างๆ ไม่ใช่แค่การแทนที่แบบอักษรเท่านั้น
+ใช่ครับ `IWarningCallback` อินเทอร์เฟซสามารถจัดการกับคำเตือนประเภทต่างๆ ไม่ใช่แค่การแทนที่แบบอักษรเท่านั้น
 
 ### คำถามที่ 4: ฉันสามารถค้นหาการสนับสนุนสำหรับ Aspose.Words ได้ที่ไหน
 
- เยี่ยมชม[ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือ
+เยี่ยมชม [ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือ
 
-### คำถามที่ 5: ฉันสามารถรับใบอนุญาตชั่วคราวสำหรับ Aspose.Words ได้หรือไม่
+### คำถามที่ 5: สามารถขอใบอนุญาตชั่วคราวสำหรับ Aspose.Words ได้หรือไม่
 
- ใช่ คุณสามารถขอใบอนุญาตชั่วคราวได้จาก[หน้าใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+ใช่ คุณสามารถขอใบอนุญาตชั่วคราวได้จาก [หน้าใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

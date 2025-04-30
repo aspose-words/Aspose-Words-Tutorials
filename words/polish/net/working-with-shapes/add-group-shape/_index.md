@@ -1,44 +1,52 @@
 ---
-title: Tworzenie kształtu grupy w dokumencie Word za pomocą Aspose.Words dla .NET
-weight: 7700
-limit: 
-description: Dowiedz się, jak tworzyć kształt grupy w dokumencie Word za pomocą Aspose.Words dla .NET. Dodaj wiele kształtów, dostosowuj wymiary i zapisz dokument bez wysiłku.
-keywords: [Aspose.Words for .NET, group shape in Word, add shapes to document, .NET Word library, create shapes in Word, Word group shapes, shape customization, .NET example]
-url: /pl/net/working-with-shapes/add-group-shape/
+"description": "Dowiedz się, jak utworzyć kształt grupy w dokumencie programu Word za pomocą Aspose.Words dla platformy .NET. Dodawaj wiele kształtów, dostosowuj wymiary i zapisuj dokument bez wysiłku."
+"title": "Utwórz kształt grupy w dokumencie Word za pomocą Aspose.Words dla .NET"
+"url": "/pl/net/working-with-shapes/add-group-shape/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tworzenie kształtu grupy w dokumencie Word za pomocą Aspose.Words
+# Utwórz kształt grupy w dokumencie Word za pomocą Aspose.Words
 
-W tym podręczniku pokazano, jak tworzyć i zarządzać kształtami grup w dokumentach Word za pomocą Aspose.Words dla .NET. Dzięki tej potężnej biblioteki można bez wysiłku połączyć wiele kształtów, takich jak połączenie akcentów i przycisk działania, w jeden kształt grupy. Przewodnik obejmuje każdy krok, od inicjalizacji dokumentu po dodanie kształtów, dostosowanie wymiarów i wprowadzenie kształtu grupy do pliku Word. Wreszcie przykład zapisuje dokument, pokazując, jak bezproblemowo zintegrować kształty dynamiczne w dokumentach Word dla wizualnie atrakcyjnych wyników.  
+Ten samouczek pokazuje, jak tworzyć i zarządzać kształtami grupowymi w dokumentach Worda przy użyciu Aspose.Words dla .NET. Dzięki tej potężnej bibliotece możesz bez wysiłku łączyć wiele kształtów, takich jak akcent obramowania i przycisk akcji, w jeden kształt grupy. Przewodnik obejmuje każdy krok, od inicjalizacji dokumentu po dodawanie kształtów, dostosowywanie wymiarów i wstawianie kształtu grupy do pliku Worda. Na koniec przykład zapisuje dokument, pokazując, jak płynnie integrować dynamiczne kształty z dokumentami Worda, aby uzyskać wizualnie atrakcyjne rezultaty.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-shapes/add-group-shape" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instrukcje instalacji  
 
-1. Pobierz Aspose.Words na .NET:  
-   Odwiedź [Strona pobierania](https://releases.aspose.com/words/net/)I pobierz najnowszą wersję Aspose.Words dla .NET.
+1. Pobierz Aspose.Words dla .NET:  
+   Odwiedź [Strona pobierania Aspose](https://releases.aspose.com/words/net/) i pobierz najnowszą wersję Aspose.Words dla platformy .NET.
 
-2. Instalacja za pośrednictwem NuGet:  
-   * Otwórz swój projekt w Visual Studio.  
-   * Przejdź do Narzędzi > Menedżer pakietu NuGet > Zarządzaj pakietami NuGet dla rozwiązania.  
-   * Szukaj Aspose.Words w menedżerze pakietu NuGet.  
-   * Kliknij instalację, aby dodać bibliotekę do projektu.
+2. Instalacja za pomocą NuGet:  
+   - Otwórz projekt w programie Visual Studio.  
+   - Przejdź do Narzędzia > Menedżer pakietów NuGet > Zarządzaj pakietami NuGet dla rozwiązania.  
+   - Wyszukaj Aspose.Words w Menedżerze pakietów NuGet.  
+   - Kliknij Zainstaluj, aby dodać bibliotekę do projektu.
 
 3. Aktywacja licencji:  
-   * Zdobądź licencję od [Strona zakupów](https://purchase.aspose.com/buy)lub wnioskować o [licencja tymczasowa](https://purchase.aspose.com/temporary-license/)\- Nie .  
-   * Aktywuj licencję w projekcie za pomocą `Aspose.Words. Licencja`\- Klasy.
+   - Uzyskaj licencję od [Strona zakupu Aspose](https://purchase.aspose.com/buy) lub złóż wniosek o [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).  
+   - Aktywuj licencję w swoim projekcie za pomocą `Aspose.Words.License` klasa.
 
-## Zobacz również
-[Aspose.Word dla dokumentacji .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word dla odniesienia .NET](https://reference.aspose.com/words/net/)
+## Zobacz także
+[Dokumentacja Aspose.Word dla .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word dla .NET Odwołania](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

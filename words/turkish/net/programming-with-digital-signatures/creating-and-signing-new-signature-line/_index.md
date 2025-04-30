@@ -1,14 +1,16 @@
 ---
-title: Yeni İmza Hattı Oluşturma ve İmzalama
-linktitle: Yeni İmza Hattı Oluşturma ve İmzalama
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım eğitimle Aspose.Words for .NET kullanarak bir Word belgesinde imza satırının nasıl oluşturulacağını ve dijital olarak imzalanacağını öğrenin. Belge otomasyonu için mükemmeldir.
-weight: 10
-url: /tr/net/programming-with-digital-signatures/creating-and-signing-new-signature-line/
+"description": "Bu adım adım eğitimle Aspose.Words for .NET kullanarak bir Word belgesinde imza satırının nasıl oluşturulacağını ve dijital olarak imzalanacağını öğrenin. Belge otomasyonu için mükemmeldir."
+"linktitle": "Yeni İmza Hattı Oluşturma ve İmzalama"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yeni İmza Hattı Oluşturma ve İmzalama"
+"url": "/tr/net/programming-with-digital-signatures/creating-and-signing-new-signature-line/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yeni İmza Hattı Oluşturma ve İmzalama
@@ -20,15 +22,15 @@ Merhaba! Bir Word belgeniz var ve bir imza satırı eklemeniz ve ardından dijit
 ## Ön koşullar
 
 Koda geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
-1.  Aspose.Words for .NET - Şunları yapabilirsiniz[buradan indirin](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET - Şunları yapabilirsiniz [buradan indirin](https://releases.aspose.com/words/net/).
 2. .NET Geliştirme Ortamı - Visual Studio şiddetle tavsiye edilir.
 3. İmzalanacak Bir Belge - Basit bir Word belgesi oluşturun veya mevcut bir belgeyi kullanın.
-4.  Bir Sertifika Dosyası - Bu, dijital imzalar için gereklidir. Bir`.pfx` dosya.
+4. Bir Sertifika Dosyası - Bu, dijital imzalar için gereklidir. Bir `.pfx` dosya.
 5. İmza Satırı İçin Görseller - İsteğe bağlı olarak imza için bir görsel dosyası.
 
 ## Ad Alanlarını İçe Aktar
 
-Öncelikle gerekli ad alanlarını içe aktarmamız gerekiyor. Bu adım, Aspose.Words işlevlerini kullanmak için ortamı ayarladığı için önemlidir.
+Öncelikle gerekli ad alanlarını içe aktarmamız gerekiyor. Bu adım, Aspose.Words işlevlerini kullanmak için ortamı kurduğu için kritik öneme sahiptir.
 
 ```csharp
 using System;
@@ -58,7 +60,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Adım 3: İmza Satırını Ekleme
 
- İşte sihir burada gerçekleşir. Belgemize bir imza satırı ekleriz.`DocumentBuilder` sınıf.
+İşte sihir burada gerçekleşir. Belgemize bir imza satırı ekleriz. `DocumentBuilder` sınıf.
 
 ```csharp
 SignatureLine signatureLine = builder.InsertSignatureLine(new SignatureLineOptions()).SignatureLine;
@@ -94,7 +96,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 
 ## Adım 7: Belgenin İmzalanması
 
- Bu son adımdır. Şunu kullanırız:`DigitalSignatureUtil`Belgeyi imzalamak için sınıf. İmzalanan belge yeni bir adla kaydedilir.
+Bu son adımdır. Şunu kullanırız: `DigitalSignatureUtil` Belgeyi imzalamak için sınıf. İmzalanan belge yeni bir adla kaydedilir.
 
 ```csharp
 DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLine.docx",
@@ -110,8 +112,8 @@ DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLine.docx",
 ### İmza satırında başka resim formatları kullanabilir miyim?
 Evet, PNG, JPG, BMP gibi çeşitli resim formatlarını kullanabilirsiniz.
 
-###  Birini kullanmak gerekli mi?`.pfx` file for the certificate?
- Evet, bir`.pfx` Dosya, sertifikalar ve özel anahtarlar da dahil olmak üzere kriptografik bilgileri depolamak için kullanılan yaygın bir formattır.
+### Birini kullanmak gerekli mi? `.pfx` sertifika için dosya?
+Evet, bir `.pfx` Dosya, sertifikalar ve özel anahtarlar da dahil olmak üzere kriptografik bilgileri depolamak için kullanılan yaygın bir formattır.
 
 ### Tek bir belgeye birden fazla imza satırı ekleyebilir miyim?
 Kesinlikle! Her imza için ekleme adımını tekrarlayarak birden fazla imza satırı ekleyebilirsiniz.
@@ -121,9 +123,14 @@ Güvenilir bir sertifika kuruluşundan dijital sertifika almanız veya OpenSSL g
 
 ### Belgedeki dijital imzayı nasıl doğrularım?
 İmzalanmış belgeyi Word'de açıp imza ayrıntılarına giderek imzanın gerçekliğini ve bütünlüğünü doğrulayabilirsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

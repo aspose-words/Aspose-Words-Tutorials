@@ -1,14 +1,16 @@
 ---
-title: ตั้งค่าฟอนต์สำรอง
-linktitle: ตั้งค่าฟอนต์สำรอง
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการตั้งค่า Font Fallback Settings ใน Aspose.Words สำหรับ .NET คำแนะนำที่ครอบคลุมนี้จะช่วยให้มั่นใจว่าอักขระทั้งหมดในเอกสารของคุณจะแสดงอย่างถูกต้อง
-weight: 10
-url: /th/net/working-with-fonts/set-font-fallback-settings/
+"description": "เรียนรู้วิธีการตั้งค่า Font Fallback Settings ใน Aspose.Words สำหรับ .NET คำแนะนำที่ครอบคลุมนี้จะช่วยให้มั่นใจว่าอักขระทั้งหมดในเอกสารของคุณจะแสดงอย่างถูกต้อง"
+"linktitle": "ตั้งค่าฟอนต์สำรอง"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ตั้งค่าฟอนต์สำรอง"
+"url": "/th/net/working-with-fonts/set-font-fallback-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตั้งค่าฟอนต์สำรอง
@@ -22,9 +24,9 @@ url: /th/net/working-with-fonts/set-font-fallback-settings/
 ก่อนจะเริ่มบทช่วยสอนนี้ โปรดแน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับภาษาการเขียนโปรแกรม C# และ .NET framework
--  Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้งจาก[ลิงค์ดาวน์โหลด](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้งจาก [ลิงค์ดาวน์โหลด](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: การตั้งค่าเช่น Visual Studio เพื่อเขียนและรันโค้ดของคุณ
--  เอกสารตัวอย่าง: มีเอกสารตัวอย่าง (เช่น`Rendering.docx`) พร้อมสำหรับการทดสอบแล้ว
+- เอกสารตัวอย่าง: มีเอกสารตัวอย่าง (เช่น `Rendering.docx`) พร้อมสำหรับการทดสอบแล้ว
 - กฎการสำรองแบบอักษร XML: เตรียมไฟล์ XML ที่กำหนดกฎการสำรองแบบอักษร
 
 ## นำเข้าเนมสเปซ
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร
 
- โหลดเอกสารของคุณลงใน Aspose.Words`Document` วัตถุ ขั้นตอนนี้ช่วยให้คุณสามารถทำงานกับเอกสารผ่านโปรแกรมได้
+โหลดเอกสารของคุณลงใน Aspose.Words `Document` วัตถุ ขั้นตอนนี้ช่วยให้คุณสามารถทำงานกับเอกสารผ่านโปรแกรมได้
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -56,7 +58,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## ขั้นตอนที่ 3: กำหนดค่าการตั้งค่าแบบอักษร
 
- สร้างใหม่`FontSettings` วัตถุและโหลดการตั้งค่าแบบอักษรสำรองจากไฟล์ XML ไฟล์ XML นี้ประกอบด้วยกฎสำหรับแบบอักษรสำรอง
+สร้างใหม่ `FontSettings` วัตถุและโหลดการตั้งค่าแบบอักษรสำรองจากไฟล์ XML ไฟล์ XML นี้ประกอบด้วยกฎสำหรับแบบอักษรสำรอง
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -65,7 +67,7 @@ fontSettings.FallbackSettings.Load(dataDir + "Font fallback rules.xml");
 
 ## ขั้นตอนที่ 4: นำการตั้งค่าแบบอักษรไปใช้กับเอกสาร
 
- กำหนดค่าที่กำหนดไว้`FontSettings`ให้กับเอกสาร การดำเนินการนี้จะช่วยให้มั่นใจว่ากฎการสำรองแบบอักษรจะถูกนำไปใช้เมื่อแสดงผลเอกสาร
+กำหนดค่าที่กำหนดไว้ `FontSettings` ให้กับเอกสาร การดำเนินการนี้จะช่วยให้มั่นใจว่ากฎการสำรองแบบอักษรจะถูกนำไปใช้เมื่อแสดงผลเอกสาร
 
 ```csharp
 doc.FontSettings = fontSettings;
@@ -113,18 +115,23 @@ Font Fallback เป็นคุณลักษณะที่ช่วยให
 
 ### คำถามที่ 3: ฉันสามารถดาวน์โหลด Aspose.Words สำหรับ .NET ได้ที่ไหน
 
- คุณสามารถดาวน์โหลดได้จาก[หน้าดาวน์โหลด Aspose](https://releases.aspose.com/words/net/).
+คุณสามารถดาวน์โหลดได้จาก [หน้าดาวน์โหลด Aspose](https://releases-aspose.com/words/net/).
 
 ### คำถามที่ 4: ฉันจะสร้างไฟล์ XML สำหรับกฎการสำรองแบบอักษรได้อย่างไร
 
-คุณสามารถสร้างไฟล์ XML ได้โดยใช้โปรแกรมแก้ไขข้อความใดๆ ก็ได้ โดยควรใช้โครงสร้างตามที่แสดงไว้ในตัวอย่างที่ให้ไว้ในบทช่วยสอนนี้
+คุณสามารถสร้างไฟล์ XML ได้โดยใช้โปรแกรมแก้ไขข้อความใดๆ ก็ได้ โดยควรปฏิบัติตามโครงสร้างที่แสดงในตัวอย่างที่ให้ไว้ในบทช่วยสอนนี้
 
 ### คำถามที่ 5: มีการรองรับ Aspose.Words หรือไม่
 
- ใช่ คุณสามารถหาการสนับสนุนได้ที่[ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8).
+ใช่ คุณสามารถหาการสนับสนุนได้ที่ [ฟอรั่มสนับสนุน Aspose.Words](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

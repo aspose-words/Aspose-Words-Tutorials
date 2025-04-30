@@ -1,14 +1,16 @@
 ---
-title: สมอแนวตั้ง
-linktitle: สมอแนวตั้ง
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีกำหนดตำแหน่งยึดแนวตั้งสำหรับกล่องข้อความในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET มีคู่มือทีละขั้นตอนง่ายๆ รวมอยู่ด้วย
-weight: 10
-url: /th/net/programming-with-shapes/vertical-anchor/
+"description": "เรียนรู้วิธีกำหนดตำแหน่งยึดแนวตั้งสำหรับกล่องข้อความในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET มีคู่มือทีละขั้นตอนง่ายๆ รวมอยู่ด้วย"
+"linktitle": "สมอแนวตั้ง"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "สมอแนวตั้ง"
+"url": "/th/net/programming-with-shapes/vertical-anchor/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สมอแนวตั้ง
@@ -21,7 +23,7 @@ url: /th/net/programming-with-shapes/vertical-anchor/
 
 ก่อนที่เราจะเจาะลึกถึงรายละเอียดของการยึดแนวตั้ง คุณจะต้องมีบางสิ่งบางอย่างก่อน:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว หากคุณยังไม่มี คุณสามารถทำได้[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว หากคุณยังไม่มี คุณสามารถทำได้ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/net/).
 2. Visual Studio: บทช่วยสอนนี้ถือว่าคุณใช้ Visual Studio หรือ IDE .NET อื่นๆ ในการเขียนโค้ด
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับ C# และ .NET จะช่วยให้คุณทำตามได้อย่างราบรื่น
 
@@ -41,14 +43,14 @@ using Aspose.Words.Drawing;
 สิ่งแรกที่ต้องทำคือสร้างเอกสาร Word ใหม่ ให้คิดว่านี่เป็นการตั้งค่าผืนผ้าใบก่อนเริ่มวาดภาพ
 
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- ที่นี่,`Document` เป็นผืนผ้าใบเปล่าของคุณและ`DocumentBuilder` คือแปรงทาสีของคุณที่ช่วยให้คุณสามารถเพิ่มรูปทรงและข้อความได้
+ที่นี่, `Document` เป็นผืนผ้าใบเปล่าของคุณและ `DocumentBuilder` คือแปรงทาสีของคุณที่ช่วยให้คุณสามารถเพิ่มรูปทรงและข้อความได้
 
 ## ขั้นตอนที่ 2: แทรกรูปร่าง TextBox
 
@@ -58,7 +60,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBox = builder.InsertShape(ShapeType.TextBox, 200, 200);
 ```
 
- ในตัวอย่างนี้`ShapeType.TextBox` ระบุรูปทรงที่คุณต้องการและ`200, 200` คือความกว้างและความสูงของกล่องข้อความเป็นจุด
+ในตัวอย่างนี้ `ShapeType.TextBox` ระบุรูปทรงที่คุณต้องการและ `200, 200` คือความกว้างและความสูงของกล่องข้อความเป็นจุด
 
 ## ขั้นตอนที่ 3: ตั้งค่าจุดยึดแนวตั้ง
 
@@ -68,7 +70,7 @@ Shape textBox = builder.InsertShape(ShapeType.TextBox, 200, 200);
 textBox.TextBox.VerticalAnchor = TextBoxAnchor.Bottom;
 ```
 
- ในกรณีนี้,`TextBoxAnchor.Bottom`เพื่อให้แน่ใจว่าข้อความจะถูกยึดไว้ที่ด้านล่างของกล่องข้อความ หากคุณต้องการให้ข้อความอยู่ตรงกลางหรือชิดด้านบน คุณจะต้องใช้`TextBoxAnchor.Center` หรือ`TextBoxAnchor.Top`ตามลำดับ
+ในกรณีนี้, `TextBoxAnchor.Bottom` เพื่อให้แน่ใจว่าข้อความจะถูกยึดไว้ที่ด้านล่างของกล่องข้อความ หากคุณต้องการให้ข้อความอยู่ตรงกลางหรือชิดด้านบน คุณจะต้องใช้ `TextBoxAnchหรือ.Center` or `TextBoxAnchor.Top`ตามลำดับ
 
 ## ขั้นตอนที่ 4: เพิ่มข้อความลงในกล่องข้อความ
 
@@ -79,7 +81,7 @@ builder.MoveTo(textBox.FirstParagraph);
 builder.Write("Textbox contents");
 ```
 
- ที่นี่,`MoveTo` เพื่อให้แน่ใจว่าข้อความถูกแทรกเข้าไปในกล่องข้อความ และ`Write` เพิ่มข้อความจริง
+ที่นี่, `MoveTo` เพื่อให้แน่ใจว่าข้อความถูกแทรกเข้าไปในกล่องข้อความ และ `Write` เพิ่มข้อความจริง
 
 ## ขั้นตอนที่ 5: บันทึกเอกสาร
 
@@ -102,16 +104,21 @@ doc.Save(dataDir + "WorkingWithShapes.VerticalAnchor.docx");
 ใช่ คุณสามารถใช้การยึดแนวตั้งกับรูปร่างอื่นๆ ได้ แม้ว่ากล่องข้อความจะเป็นกรณีการใช้งานที่พบบ่อยที่สุด
 
 ### ฉันจะเปลี่ยนจุดยึดหลังจากสร้างกล่องข้อความได้อย่างไร?
- คุณสามารถเปลี่ยนจุดยึดได้โดยการตั้งค่า`VerticalAnchor` คุณสมบัติบนวัตถุรูปร่างกล่องข้อความ
+คุณสามารถเปลี่ยนจุดยึดได้โดยการตั้งค่า `VerticalAnchor` คุณสมบัติบนวัตถุรูปร่างกล่องข้อความ
 
 ### สามารถยึดข้อความไว้ตรงกลางกล่องข้อความได้หรือไม่?
- แน่นอน! เพียงใช้`TextBoxAnchor.Center` เพื่อจัดข้อความให้อยู่กึ่งกลางแนวตั้งภายในกล่องข้อความ
+แน่นอน! เพียงใช้ `TextBoxAnchor.Center` เพื่อจัดข้อความให้อยู่กึ่งกลางแนวตั้งภายในกล่องข้อความ
 
 ### ฉันสามารถหาข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
- ตรวจสอบออก[เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) สำหรับรายละเอียดและคำแนะนำเพิ่มเติม
+ตรวจสอบออก [เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) สำหรับรายละเอียดและคำแนะนำเพิ่มเติม
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

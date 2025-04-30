@@ -1,14 +1,16 @@
 ---
-title: Thay đổi kiểu Toc trong tài liệu Word
-linktitle: Thay đổi kiểu Toc trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thay đổi kiểu TOC trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Tùy chỉnh TOC của bạn một cách dễ dàng.
-weight: 10
-url: /vi/net/programming-with-table-of-content/change-style-of-toc-level/
+"description": "Tìm hiểu cách thay đổi kiểu TOC trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Tùy chỉnh TOC của bạn một cách dễ dàng."
+"linktitle": "Thay đổi kiểu Toc trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thay đổi kiểu Toc trong tài liệu Word"
+"url": "/vi/net/programming-with-table-of-content/change-style-of-toc-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thay đổi kiểu Toc trong tài liệu Word
@@ -21,7 +23,7 @@ Nếu bạn đã từng cần tạo một tài liệu Word chuyên nghiệp, b�
 
 Trước khi tìm hiểu mã, hãy đảm bảo bạn có những thông tin sau:
 
-1.  Aspose.Words cho .NET: Bạn cần cài đặt thư viện Aspose.Words cho .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Bạn cần cài đặt thư viện Aspose.Words cho .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Môi trường phát triển như Visual Studio.
 3. Kiến thức cơ bản về C#: Hiểu biết về ngôn ngữ lập trình C#.
 
@@ -80,16 +82,21 @@ Aspose.Words for .NET là một thư viện lớp dùng để tạo, sửa đổ
 Có, bạn có thể sửa đổi nhiều kiểu khác nhau trong mục lục bằng cách truy cập vào các cấp độ và thuộc tính kiểu khác nhau.
 
 ### Aspose.Words cho .NET có miễn phí không?
- Aspose.Words cho .NET là một thư viện trả phí, nhưng bạn có thể nhận được[dùng thử miễn phí](https://releases.aspose.com/) hoặc một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Aspose.Words cho .NET là một thư viện trả phí, nhưng bạn có thể nhận được [dùng thử miễn phí](https://releases.aspose.com/) hoặc một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có cần cài đặt Microsoft Word để sử dụng Aspose.Words cho .NET không?
 Không, Aspose.Words for .NET không yêu cầu bạn phải cài đặt Microsoft Word trên máy tính của mình.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
- Bạn có thể tìm thấy tài liệu chi tiết hơn[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu chi tiết hơn [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}
